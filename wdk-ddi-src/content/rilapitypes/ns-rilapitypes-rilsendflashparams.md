@@ -7,8 +7,8 @@ old-location: netvista\rilsendflashparams_2.htm
 old-project: netvista
 ms.assetid: 2279c1f2-382f-4cae-a881-997f0bed7b6d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSENDFLASHPARAMS, *LPRILSENDFLASHPARAMS, RILSENDFLASHPARAMS
+ms.date: 1/18/2018
+ms.keywords: *LPRILSENDFLASHPARAMS, rilapitypes/RILSENDFLASHPARAMS, netvista.rilsendflashparams_2, RILSENDFLASHPARAMS, RILSENDFLASHPARAMS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSENDFLASHPARAMS
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILSENDFLASHPARAMS, RILSENDFLASHPARAMS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILSENDFLASHPARAMS
+product: Windows
+targetos: Windows
+req.typenames: RILSENDFLASHPARAMS, *LPRILSENDFLASHPARAMS
 req.product: Windows 10 or later.
 ---
 
 # RILSENDFLASHPARAMS structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILSENDFLASHPARAMS {
@@ -56,10 +66,13 @@ typedef struct _RILSENDFLASHPARAMS {
 
 ## -struct-fields
 
+
+
+
 ### -field dwExecutor
+
 
 
 ### -field raAddress
 
 
-## -remarks

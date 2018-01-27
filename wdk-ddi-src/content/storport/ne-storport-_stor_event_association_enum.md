@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2e0672b6-e692-43c8-8a20-7947c854c4c9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STOR_EVENT_ASSOCIATION_ENUM, STOR_EVENT_ASSOCIATION_ENUM
+ms.keywords: StorEventAdapterAssociation, STOR_EVENT_ASSOCIATION_ENUM, StorEventLunAssociation, storage.stor_event_association_enum, storport/StorEventInvalidAssociation, _STOR_EVENT_ASSOCIATION_ENUM, storport/STOR_EVENT_ASSOCIATION_ENUM, StorEventTargetAssociation, STOR_EVENT_ASSOCIATION_ENUM enumeration [Storage Devices], storport/StorEventTargetAssociation, storport/StorEventAdapterAssociation, structs-storport_2aea4a7c-1734-45e0-9aeb-09ffa8923641.xml, StorEventInvalidAssociation, storport/StorEventLunAssociation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STOR_EVENT_ASSOCIATION_ENUM
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	STOR_EVENT_ASSOCIATION_ENUM
+product: Windows
+targetos: Windows
 req.typenames: STOR_EVENT_ASSOCIATION_ENUM
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _STOR_EVENT_ASSOCIATION_ENUM enumeration
 
 
-
 ## -description
+
+
 The STOR_EVENT_ASSOCIATION_ENUM enumerator specifies the type of device that is associated with an event.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _STOR_EVENT_ASSOCIATION_ENUM { 
@@ -57,6 +67,9 @@ typedef enum _STOR_EVENT_ASSOCIATION_ENUM {
 
 
 ## -enum-fields
+
+
+
 
 ### -field StorEventAdapterAssociation
 
@@ -77,5 +90,3 @@ The event is associated with the target.
 
 Marks end of valid enumeration range
 
-
-## -remarks

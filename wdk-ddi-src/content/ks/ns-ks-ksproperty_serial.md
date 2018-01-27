@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 751bf70d-0602-487a-82c7-efca075b8968
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_SERIAL, *PKSPROPERTY_SERIAL, KSPROPERTY_SERIAL
+ms.keywords: PKSPROPERTY_SERIAL, *PKSPROPERTY_SERIAL, ks/KSPROPERTY_SERIAL, ks/PKSPROPERTY_SERIAL, PKSPROPERTY_SERIAL structure pointer [Streaming Media Devices], stream.ksproperty_serial, ks-struct_1d2733c1-6b2a-48e2-ae94-d108a011754e.xml, KSPROPERTY_SERIAL structure [Streaming Media Devices], KSPROPERTY_SERIAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPROPERTY_SERIAL
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSPROPERTY_SERIAL, KSPROPERTY_SERIAL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSPROPERTY_SERIAL
+product: Windows
+targetos: Windows
+req.typenames: KSPROPERTY_SERIAL, *PKSPROPERTY_SERIAL
 ---
 
 # KSPROPERTY_SERIAL structure
 
 
-
 ## -description
+
+
 The KSPROPERTY_SERIAL structure is a header that is included for each property that follows a KSPROPERTY_SERIALHDR structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PropTypeSet
 
@@ -72,15 +85,16 @@ Specifies the length, in bytes, of the following property data. This does not in
 
 
 ## -remarks
+
+
 A KSPROPERTY_SERIAL structure is followed by the property data, with the start of each property on FILE_LONG_ALIGNMENT. Note that the serial header structure itself is also defined to be on FILE_LONG_ALIGNMENT.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\ns-ks-ksproperty_serialhdr.md">KSPROPERTY_SERIALHDR</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c8f0e47c-4d06-445f-a6dd-9bd80fc490bc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortGetSrb
+ms.keywords: srb/ScsiPortGetSrb, storage.scsiportgetsrb, scsiprt_28205a6f-8758-4aed-8fae-94a12c216cf4.xml, ScsiPortGetSrb, ScsiPortGetSrb routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ScsiPortGetSrb
-req.alt-loc: Scsiport.lib,Scsiport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Scsiport.lib
+-	Scsiport.dll
+apiname: 
+-	ScsiPortGetSrb
+product: Windows
+targetos: Windows
 req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ScsiPortGetSrb function
 
 
-
 ## -description
+
+
 The <b>ScsiPortGetSrb</b> routine returns a pointer to an active SCSI request for a particular logical unit.
-
-
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 PSCSI_REQUEST_BLOCK ScsiPortGetSrb(
@@ -58,6 +69,9 @@ PSCSI_REQUEST_BLOCK ScsiPortGetSrb(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceExtension [in]
 
@@ -85,18 +99,16 @@ Specifies the queue tag if the miniport driver handles tagged requests; SP_UNTAG
 
 
 ## -returns
+
+
 <b>ScsiPortGetSrb</b> returns a pointer to a request for the specified logical unit. If there is no outstanding request for the given peripheral or if the <i>QueueTag</i> value is invalid, it returns <b>NULL</b>.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92E90C2A-D59C-4A38-A444-978B16170B89
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _BDA_IPv4_ADDRESS_LIST, BDA_IPv4_ADDRESS_LIST, *PBDA_IPv4_ADDRESS_LIST
+ms.keywords: bdatypes/PBDA_IPv4_ADDRESS_LIST, bdatypes/BDA_IPv4_ADDRESS_LIST, stream.bda_ipv4_address_list, BDA_IPv4_ADDRESS_LIST structure [Streaming Media Devices], BDA_IPv4_ADDRESS_LIST, _BDA_IPv4_ADDRESS_LIST, PBDA_IPv4_ADDRESS_LIST, *PBDA_IPv4_ADDRESS_LIST, PBDA_IPv4_ADDRESS_LIST structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BDA_IPv4_ADDRESS_LIST
-req.alt-loc: Bdatypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: BDA_IPv4_ADDRESS_LIST, *PBDA_IPv4_ADDRESS_LIST
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bdatypes.h
+apiname: 
+-	BDA_IPv4_ADDRESS_LIST
+product: Windows
+targetos: Windows
+req.typenames: *PBDA_IPv4_ADDRESS_LIST, BDA_IPv4_ADDRESS_LIST
 ---
 
 # _BDA_IPv4_ADDRESS_LIST structure
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: BDA_IPv4_ADDRESS_LIST, *PBDA_IPv4_ADDRESS_LIST
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct _BDA_IPv4_ADDRESS_LIST {
@@ -55,10 +65,13 @@ typedef struct _BDA_IPv4_ADDRESS_LIST {
 
 ## -struct-fields
 
+
+
+
 ### -field ulcAddresses
+
 
 
 ### -field rgAddressl
 
 
-## -remarks

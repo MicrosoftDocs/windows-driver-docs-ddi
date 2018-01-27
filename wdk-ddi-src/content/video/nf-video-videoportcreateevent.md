@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bb1ef5f0-ccf3-487b-99e6-9ec733c7cd63
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortCreateEvent
+ms.keywords: display.videoportcreateevent, VideoPortCreateEvent, VideoPortCreateEvent function [Display Devices], video/VideoPortCreateEvent, VideoPort_Functions_29412925-5117-4759-b4ea-b4adb4358a8c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of the Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortCreateEvent
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortCreateEvent
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortCreateEvent function
 
 
-
 ## -description
+
+
 The <b>VideoPortCreateEvent</b> function creates an event object.
 
 
-
 ## -syntax
+
 
 ````
 VP_STATUS VideoPortCreateEvent(
@@ -58,6 +68,9 @@ VP_STATUS VideoPortCreateEvent(
 
 ## -parameters
 
+
+
+
 ### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
@@ -66,7 +79,6 @@ Pointer to the miniport driver's device extension.
 ### -param EventFlag [in]
 
 Specifies the event type and initial event state. This can be an ORed combination of the following flags:
-
 <table>
 <tr>
 <th>Flag</th>
@@ -92,8 +104,7 @@ Set this flag to create a notification event. If this flag is not set, a synchro
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Unused [in]
@@ -107,21 +118,25 @@ Pointer to the memory location at which a pointer to the event object will be re
 
 
 ## -returns
+
+
 <b>VideoPortCreateEvent</b> returns NO_ERROR if the event object is successfully created.
 
 
+
 ## -remarks
+
+
 When a synchronization event is set to the signaled state, a single thread that was waiting for the signaled state is released (its dispatch state transitions from waiting to ready, standby, or running), and the event is automatically reset to the nonsignaled state.
 
 When a notification event is set to the signaled state, all threads that were waiting for the signaled state are released, and the event remains in the signaled state until it is explicitly reset to the nonsignaled state. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nf-video-videoportdeleteevent.md">VideoPortDeleteEvent</a>
-</dt>
-</dl>
+
  
 
  

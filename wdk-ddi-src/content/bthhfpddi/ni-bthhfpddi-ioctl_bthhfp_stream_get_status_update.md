@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1D591422-4ED4-41B9-92E0-189A5EABE7D0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT
+ms.keywords: audio.ioctl_bthhfp_stream_get_status_update, IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE control code [Audio Devices], IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE, bthhfpddi/IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE
-req.alt-loc: Bthhfpddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,53 +29,84 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bthhfpddi.h
+apiname: 
+-	IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE
+product: Windows
+targetos: Windows
 req.typenames: *PHFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION
 ---
 
 # IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 The <b>IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE</b> 
    IOCTL Gets a stream channel status update.
 
 
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 A BOOL that is set to TRUE to request an immediate update. Otherwise, set this to FALSE.
 
 
 ### -input-buffer-length
+
 The size of a BOOL.
 
 
 ### -output-buffer
+
 An NT_STATUS value that represents the new stream channel status. An error status indicates that the synchronous connection-oriented (SCO) channel associated with the stream has been closed, and cannot be reestablished.
 
 
 ### -output-buffer-length
+
 The size of an NT_STATUS object.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 If a request is already pending, then the new request fails and a STATUS_INVALID_DEVICE_REQUEST message is returned.
 
 If a request is pending when an IOCTL_BTHHFP_CLOSE_STREAM_CHANNEL request occurs, then the pending request is canceled and the I/O status block shows STATUS_CANCELLED.
 
 
 ## -remarks
+
+
 This request will complete immediately if the input parameter is TRUE or if the stream channel status has changed since the last request. Otherwise this request will remain pending until the stream channel status changes or the request is cancelled.
 
 This request is valid only between a successful <a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_stream_open.md">IOCTL_BTHHFP_STREAM_OPEN</a> request and subsequent <a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_stream_close.md">IOCTL_BTHHFP_STREAM_CLOSE</a> request. If this request is pending when the stream is closed by an <b>IOCTL_BTHHFP_STREAM_CLOSE</b> request, then the pending request is cancelled.
@@ -85,12 +114,11 @@ This request is valid only between a successful <a href="..\bthhfpddi\ni-bthhfpd
 An error status can occur when the Bluetooth link is dropped or other similar conditions occur. Although such conditions are rare, the audio driver must be developed to handle them. This error status can often occur almost simultaneously with a connection status change to FALSE. However the audio driver should not rely on this change of status as a way to determine whether or not the Bluetooth link has been dropped.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
-</dt>
-</dl>
+
  
 
  

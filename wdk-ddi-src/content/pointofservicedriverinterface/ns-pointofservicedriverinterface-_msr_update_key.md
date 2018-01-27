@@ -7,8 +7,8 @@ old-location: pos\msr_update_key.htm
 old-project: pos
 ms.assetid: 8d7f85d4-af10-4ae5-a891-18dd41192c6a
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _MSR_UPDATE_KEY, *PMSR_UPDATE_KEY, MSR_UPDATE_KEY
+ms.date: 1/18/2018
+ms.keywords: pos.msr_update_key, pointofservicedriverinterface/MSR_UPDATE_KEY, *PMSR_UPDATE_KEY, PMSR_UPDATE_KEY, PMSR_UPDATE_KEY structure pointer, pointofservicedriverinterface/PMSR_UPDATE_KEY, MSR_UPDATE_KEY structure, _MSR_UPDATE_KEY, MSR_UPDATE_KEY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSR_UPDATE_KEY
-req.alt-loc: PointOfServiceDriverInterface.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	PointOfServiceDriverInterface.h
+apiname: 
+-	MSR_UPDATE_KEY
+product: Windows
+targetos: Windows
 req.typenames: *PMSR_UPDATE_KEY, MSR_UPDATE_KEY
 ---
 
 # _MSR_UPDATE_KEY structure
 
 
-
 ## -description
+
+
 This structure contains the information necessary to set a new encryption key.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSR_UPDATE_KEY {
@@ -56,6 +66,9 @@ typedef struct _MSR_UPDATE_KEY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field KeyLength
 
@@ -72,9 +85,13 @@ Length, in bytes, of the key name stored in <b>KeyName[MSR_KEY_SIZE]</b>.
 The new encryption key.
 
 
-### -field char KeyName
+### -field KeyName
+
+ 
+
+
+
+#### - char KeyName
 
 The name of the new encryption key.
 
-
-## -remarks

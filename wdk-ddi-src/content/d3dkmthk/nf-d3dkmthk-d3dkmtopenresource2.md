@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7D496443-F68D-41E6-B377-BC9E6F6ABB83
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTOpenResource2
+ms.keywords: D3DKMTOpenResource2, D3DKMTOpenResource2 function [Display Devices], d3dkmthk/D3DKMTOpenResource2, display.d3dkmtopenresource2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTOpenResource2
-req.alt-loc: Gdi32.dll,API-MS-Win-dx-d3dkmt-l1-1-0.dll,API-MS-Win-dx-d3dkmt-l1-1-1.dll,API-MS-Win-DX-D3DKMT-L1-1-2.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Gdi32.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-0.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-1.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+apiname: 
+-	D3DKMTOpenResource2
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTOpenResource2 function
 
 
-
 ## -description
+
+
 Reserved for system use. Do not use in your driver.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS D3DKMTOpenResource2(
@@ -54,7 +67,10 @@ NTSTATUS D3DKMTOpenResource2(
 
 ## -parameters
 
-### -param pData [in, out]
 
 
-## -remarks
+
+
+#### - pData [in, out]
+
+

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 0c41328d-a40a-4b76-a738-5e255aba7f58
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS, UCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS, *PUCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS
+ms.keywords: _UCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS, PUCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS, PUCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS structure pointer [Buses], ucmtcpciportcontrollerrequests/PUCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS, buses.ucmtcpci_port_controller_set_command_in_params, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS, UCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS, *PUCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS, UCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS
-req.alt-loc: UcmTcpciPortControllerRequests.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	UcmTcpciPortControllerRequests.h
+apiname: 
+-	UCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS
+product: Windows
+targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS, *PUCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _UCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS structure
 
 
-
 ## -description
+
+
 
              Stores the specified command registers. This structure is used in the <a href="..\ucmtcpciportcontrollerrequests\ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_set_command.md">IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_COMMAND</a> request.
                  
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS {
@@ -57,6 +67,9 @@ typedef struct _UCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PortControllerObject
 
@@ -71,15 +84,10 @@ Handle to the port controller object that the client driver received in the prev
                  indicates the type of control register. This enumeration is declared in UcmTcpciSpec.h.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucmtcpciportcontrollerrequests\ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_set_command.md">IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_COMMAND</a>
-</dt>
-</dl>
+
  
 
  

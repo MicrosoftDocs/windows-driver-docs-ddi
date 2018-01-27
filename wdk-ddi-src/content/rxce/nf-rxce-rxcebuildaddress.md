@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e8845b15-4427-45ea-9192-352d82c89c6a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCeBuildAddress
+ms.keywords: rxce/RxCeBuildAddress, ifsk.rxcebuildaddress, rxref_ee32329f-3111-4ee6-869f-2b8e21d6696c.xml, RxCeBuildAddress, RxCeBuildAddress function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxCeBuildAddress
-req.alt-loc: rxce.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rxce.h
+apiname: 
+-	RxCeBuildAddress
+product: Windows
+targetos: Windows
 req.typenames: *LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RxCeBuildAddress function
 
 
-
 ## -description
+
+
 <b>RxCeBuildAddress</b> associates a transport address with a transport binding.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RxCeBuildAddress(
@@ -58,6 +68,9 @@ NTSTATUS RxCeBuildAddress(
 
 
 ## -parameters
+
+
+
 
 ### -param pAddress [in, out]
 
@@ -85,27 +98,51 @@ A pointer to the context parameter to be passed back to the event handler.
 
 
 ## -returns
+
+
 <b>RxCeBuildAddress</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>The allocation of nonpaged pool memory needed by this routine failed. 
+</dl>
+</td>
+<td width="60%">
+The allocation of nonpaged pool memory needed by this routine failed. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>One of the parameters passed to <b>RxCeBuildAddress</b> was invalid. 
+</dl>
+</td>
+<td width="60%">
+One of the parameters passed to <b>RxCeBuildAddress</b> was invalid. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 When <b>RxCeBuildAddress</b> is successful, the data members in the RXCE_ADDRESS structure pointed to by the <i>pAddress</i> parameter will be properly initialized. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\rxce\nf-rxce-rxceteardownaddress.md">RxCeTearDownAddress</a>
-</dt>
-</dl>
+
  
 
  

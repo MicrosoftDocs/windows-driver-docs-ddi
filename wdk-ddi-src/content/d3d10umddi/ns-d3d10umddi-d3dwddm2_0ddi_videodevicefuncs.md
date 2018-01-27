@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 59D06B73-413B-4595-841E-7E0A696A3AC2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DWDDM2_0DDI_VIDEODEVICEFUNCS, D3DWDDM2_0DDI_VIDEODEVICEFUNCS
+ms.keywords: display.d3dwddm2_0ddi_videodevicefuncs, D3DWDDM2_0DDI_VIDEODEVICEFUNCS, d3d10umddi/D3DWDDM2_0DDI_VIDEODEVICEFUNCS, D3DWDDM2_0DDI_VIDEODEVICEFUNCS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DWDDM2_0DDI_VIDEODEVICEFUNCS
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3DWDDM2_0DDI_VIDEODEVICEFUNCS
+product: Windows
+targetos: Windows
 req.typenames: D3DWDDM2_0DDI_VIDEODEVICEFUNCS
 ---
 
 # D3DWDDM2_0DDI_VIDEODEVICEFUNCS structure
 
 
-
 ## -description
+
+
 Specifies the video function table for the  Microsoft Direct3D driver device object. Used only by Windows Display Driver Model (WDDM) 2.0 and later drivers.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3DWDDM2_0DDI_VIDEODEVICEFUNCS {
@@ -146,6 +156,9 @@ typedef struct D3DWDDM2_0DDI_VIDEODEVICEFUNCS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pfnGetVideoDecoderProfileCount
 
@@ -612,9 +625,7 @@ The entry point for the driver's     <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d
 The entry point for the driver's     <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_videoprocessorgetbehaviorhints.md">VideoProcessorGetBehaviorHints</a> function.
 
 
-### -field pfnGetCryptoSessionPrivateDataSize        
+### -field pfnGetCryptoSessionPrivateDataSize
 
 The entry point for the driver's     <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_getcryptosessionprivatedatasize.md">GetCryptoSessionPrivateDataSize</a> function.
 
-
-## -remarks

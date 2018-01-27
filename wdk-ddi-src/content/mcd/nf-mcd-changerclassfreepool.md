@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c20c39f9-ceee-47f0-849a-f8686fb05e6a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerClassFreePool
+ms.keywords: mcd/ChangerClassFreePool, storage.changerclassfreepool, chgrclas_3f5fb8a4-3c85-4dde-80c9-f8e001b7b3bd.xml, ChangerClassFreePool, ChangerClassFreePool routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ChangerClassFreePool
-req.alt-loc: Mcd.lib,Mcd.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Mcd.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Mcd.lib
+-	Mcd.dll
+apiname: 
+-	ChangerClassFreePool
+product: Windows
+targetos: Windows
 req.typenames: LAMP_INTENSITY_WHITE
 ---
 
 # ChangerClassFreePool function
 
 
-
 ## -description
+
+
 The <b>ChangerClassFreePool</b> routine frees pool memory previously allocated using <a href="..\mcd\nf-mcd-changerclassallocatepool.md">ChangerClassAllocatePool</a>. 
 
 
-
 ## -syntax
+
 
 ````
 VOID ChangerClassFreePool(
@@ -54,24 +65,25 @@ VOID ChangerClassFreePool(
 
 ## -parameters
 
+
+
+
 ### -param PoolToFree [in]
 
 Pointer to the block of memory to be freed.
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\mcd\nf-mcd-changerclassallocatepool.md">ChangerClassAllocatePool</a>
-</dt>
-</dl>
+
  
 
  

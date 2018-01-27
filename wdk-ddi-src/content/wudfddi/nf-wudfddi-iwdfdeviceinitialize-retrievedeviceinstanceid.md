@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5f1651f9-4952-4e87-90fc-3f79948b8457
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDeviceInitialize, IWDFDeviceInitialize::RetrieveDeviceInstanceId, RetrieveDeviceInstanceId
+ms.keywords: RetrieveDeviceInstanceId, IWDFDeviceInitialize::RetrieveDeviceInstanceId, umdf.iwdfdeviceinitialize_retrievedeviceinstanceid, RetrieveDeviceInstanceId method, IWDFDeviceInitialize interface, IWDFDeviceInitialize, UMDFDeviceObjectRef_b383227b-ba03-4c85-9517-bb87eac631ef.xml, wudfddi/IWDFDeviceInitialize::RetrieveDeviceInstanceId, wdf.iwdfdeviceinitialize_retrievedeviceinstanceid, IWDFDeviceInitialize interface, RetrieveDeviceInstanceId method, RetrieveDeviceInstanceId method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.5
-req.alt-api: IWDFDeviceInitialize.RetrieveDeviceInstanceId
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFDeviceInitialize.RetrieveDeviceInstanceId
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IWDFDeviceInitialize::RetrieveDeviceInstanceId method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <a href="https://msdn.microsoft.com/224277b4-447f-4981-aabf-90a10322c0df">RetrieveDeviceInstanceId</a> method retrieves the identifier of an instance of a device.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT RetrieveDeviceInstanceId(
@@ -57,6 +67,9 @@ HRESULT RetrieveDeviceInstanceId(
 
 
 ## -parameters
+
+
+
 
 ### -param Buffer [out, optional]
 
@@ -73,6 +86,8 @@ If <i>Buffer</i> is non-<b>NULL</b>, the framework returns the size, in characte
 
 
 ## -returns
+
+
 
 <a href="https://msdn.microsoft.com/224277b4-447f-4981-aabf-90a10322c0df">RetrieveDeviceInstanceId</a> returns S_OK for the following scenarios: 
 
@@ -91,24 +106,16 @@ The buffer at <i>Buffer</i> was <b>NULL</b>, the driver preset the variable at <
 
 
 
-The buffer that the <i>Buffer</i> parameter pointed to was non-<b>NULL</b> and large enough to hold the identifier string, including the <b>NULL</b> character, and the framework successfully copied the string into the supplied buffer and set the variable that was pointed to by the <i>pdwSizeInChars</i> parameter to the number of characters in the string.
-
-The buffer at <i>Buffer</i> was <b>NULL</b>, the driver preset the variable at <i>pdwSizeInChars</i> to 0, and the framework set the variable at <i>pdwSizeInChars</i> to the number of characters that are required for the string.
-
 
 <a href="https://msdn.microsoft.com/224277b4-447f-4981-aabf-90a10322c0df">RetrieveDeviceInstanceId</a> might also return other HRESULT values.
 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
-</dt>
-</dl>
+
  
 
  

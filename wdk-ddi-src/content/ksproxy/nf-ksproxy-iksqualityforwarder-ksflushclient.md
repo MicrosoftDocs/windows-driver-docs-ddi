@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0a1b5094-4abd-4d57-8d8c-b385fb0d46de
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsQualityForwarder, IKsQualityForwarder::KsFlushClient, KsFlushClient
+ms.keywords: stream.iksqualityforwarder_ksflushclient, ksproxy/IKsQualityForwarder::KsFlushClient, IKsQualityForwarder, ksproxy_af5e225b-27b2-4b5a-a06a-1308bf5dfecd.xml, KsFlushClient, IKsQualityForwarder interface [Streaming Media Devices], KsFlushClient method, IKsQualityForwarder::KsFlushClient, KsFlushClient method [Streaming Media Devices], KsFlushClient method [Streaming Media Devices], IKsQualityForwarder interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsQualityForwarder.KsFlushClient
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ksproxy.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsQualityForwarder.KsFlushClient
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsQualityForwarder::KsFlushClient method
 
 
-
 ## -description
+
+
 The <b>KsFlushClient</b> method flushes information from a pin. 
 
 
-
 ## -syntax
+
 
 ````
 VOID KsFlushClient(
@@ -54,24 +64,25 @@ VOID KsFlushClient(
 
 ## -parameters
 
+
+
+
 ### -param Pin [in]
 
 Pointer to the <a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a> interface for the pin from which to flush information.
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a>
-</dt>
-</dl>
+
  
 
  

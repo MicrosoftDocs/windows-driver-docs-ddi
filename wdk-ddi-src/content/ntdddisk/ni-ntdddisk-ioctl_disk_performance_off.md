@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9a56ac86-2d39-4367-8e64-b6f6bc0da0ea
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DETECTION_TYPE, DETECTION_TYPE
+ms.keywords: storage.ioctl_disk_performance_off, IOCTL_DISK_PERFORMANCE_OFF control code [Storage Devices], IOCTL_DISK_PERFORMANCE_OFF, ntdddisk/IOCTL_DISK_PERFORMANCE_OFF, k307_af1f6a33-e2e5-4ba0-96ad-f1d84c30ef76.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_DISK_PERFORMANCE_OFF
-req.alt-loc: Ntdddisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,63 +29,85 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntdddisk.h
+apiname: 
+-	IOCTL_DISK_PERFORMANCE_OFF
+product: Windows
+targetos: Windows
 req.typenames: DETECTION_TYPE
 ---
 
 # IOCTL_DISK_PERFORMANCE_OFF IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 Disables the counters that were enabled by previous calls to <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_performance.md">IOCTL_DISK_PERFORMANCE</a>. This request is available in Windows XP and later operating systems. Caller must be running at IRQL = PASSIVE_LEVEL. 
 
-
-
-Disables the counters that were enabled by previous calls to <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_performance.md">IOCTL_DISK_PERFORMANCE</a>. This request is available in Windows XP and later operating systems. Caller must be running at IRQL = PASSIVE_LEVEL. 
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 None.
 
 
 ### -input-buffer-length
+
 None.
 
 
 ### -output-buffer
+
 None.
 
 
 ### -output-buffer-length
+
 None.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Information</b> member is set to zero. The <b>Status</b> member is set to STATUS_SUCCESS if the operation was successful. Otherwise, the <b>Status</b> member is set to the appropriate error code. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_performance.md">IOCTL_DISK_PERFORMANCE</a>
-</dt>
-</dl>
+
  
 
  

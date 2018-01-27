@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: abe4b0fe-3918-4139-9c35-d9399287ce03
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation, *PMSiSCSI_LUNMappingInformation
+ms.keywords: iscsiop/MSiSCSI_LUNMappingInformation, storage.msiscsi_lunmappinginformation, PMSiSCSI_LUNMappingInformation, structs-iSCSI_390283b1-22d6-4012-834f-1b3ef3328da0.xml, _MSiSCSI_LUNMappingInformation, *PMSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation, iscsiop/PMSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation structure [Storage Devices], PMSiSCSI_LUNMappingInformation structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSiSCSI_LUNMappingInformation
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: MSiSCSI_LUNMappingInformation, *PMSiSCSI_LUNMappingInformation
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	MSiSCSI_LUNMappingInformation
+product: Windows
+targetos: Windows
+req.typenames: *PMSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation
 ---
 
 # _MSiSCSI_LUNMappingInformation structure
 
 
-
 ## -description
+
+
 This MSiSCSI_LUNMappingInformation structure provides the SCSI address information that the operating system assigns to a particular logical unit.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSiSCSI_LUNMappingInformation {
@@ -57,6 +67,9 @@ typedef struct _MSiSCSI_LUNMappingInformation {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UniqueAdapterId
 
@@ -84,27 +97,24 @@ The logical unit number (LUN) that the operating system assigns to the logical u
 
 
 ## -remarks
+
+
 You must implement this class.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-</dt>
-<dt>
+
 <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563067">MSiSCSI_LUNMappingInformation WMI Class</a>
-</dt>
-<dt>
+
 <a href="..\iscsiop\ns-iscsiop-_msiscsi_targetmappings.md">MSiSCSI_TargetMappings</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563067">MSiSCSI_LUNMappingInformation WMI Class</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
  
 
  

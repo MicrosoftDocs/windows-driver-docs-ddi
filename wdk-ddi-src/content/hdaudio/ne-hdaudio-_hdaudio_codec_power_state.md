@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4C002B40-AD27-4FE2-B07F-5E9715E6CF1F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _HDAUDIO_CODEC_POWER_STATE, HDAUDIO_CODEC_POWER_STATE, *PHDAUDIO_CODEC_POWER_STATE
+ms.keywords: hdaudio/PowerCodecUnspecified, PowerCodecD3, hdaudio/HDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecD2, PowerCodecD3Cold, hdaudio/PowerCodecD3, hdaudio/PowerCodecMaximum, hdaudio/PHDAUDIO_CODEC_POWER_STATE, PowerCodecMaximum, PowerCodecD0, PowerCodecD1, HDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecD3Cold, PowerCodecUnspecified, HDAUDIO_CODEC_POWER_STATE enumeration [Audio Devices], audio.hdaudio_codec_power_state, PHDAUDIO_CODEC_POWER_STATE enumeration pointer [Audio Devices], _HDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecD0, hdaudio/PowerCodecD1, PHDAUDIO_CODEC_POWER_STATE, *PHDAUDIO_CODEC_POWER_STATE, PowerCodecD2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HDAUDIO_CODEC_POWER_STATE
-req.alt-loc: Hdaudio.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Hdaudio.h
+apiname: 
+-	HDAUDIO_CODEC_POWER_STATE
+product: Windows
+targetos: Windows
 req.typenames: HDAUDIO_CODEC_POWER_STATE, *PHDAUDIO_CODEC_POWER_STATE
 ---
 
 # _HDAUDIO_CODEC_POWER_STATE enumeration
 
 
-
 ## -description
+
+
 The <b>HDAUDIO_CODEC_POWER_STATE</b> enumeration defines constants that specify the different power states that HD Audio codecs can support.  All states
 are from <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a> except PowerCodecD3Cold.
 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _HDAUDIO_CODEC_POWER_STATE { 
@@ -62,7 +72,10 @@ typedef enum _HDAUDIO_CODEC_POWER_STATE {
 
 ## -enum-fields
 
-### -field PowerCodecUnspecified 
+
+
+
+### -field PowerCodecUnspecified
 
 An unspecified power state.
 
@@ -98,4 +111,8 @@ Power state Maximum
 
 
 ## -remarks
-For more information about power states, see <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>.</p>
+
+
+For more information about power states, see <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>.
+
+

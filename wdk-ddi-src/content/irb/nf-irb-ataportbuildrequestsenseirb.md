@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f5083841-a6d7-4437-9941-bd7dca2f1771
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortBuildRequestSenseIrb
+ms.keywords: atartns_82b5c3cd-1956-47a0-9c05-cd18dbb2e2b6.xml, AtaPortBuildRequestSenseIrb routine [Storage Devices], irb/AtaPortBuildRequestSenseIrb, AtaPortBuildRequestSenseIrb, storage.ataportbuildrequestsenseirb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AtaPortBuildRequestSenseIrb
-req.alt-loc: ataport.lib,ataport.dll,pciidex.lib,pciidex.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ataport.lib
+-	ataport.dll
+-	pciidex.lib
+-	pciidex.dll
+apiname: 
+-	AtaPortBuildRequestSenseIrb
+product: Windows
+targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
 
 # AtaPortBuildRequestSenseIrb function
 
 
-
 ## -description
+
+
 The <b>AtaPortBuildRequestSenseIrb</b> routine builds and returns an IRB for operation code SCSIOP_REQUEST_SENSE.
-
-
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 PIDE_REQUEST_BLOCK AtaPortBuildRequestSenseIrb(
@@ -54,6 +67,9 @@ PIDE_REQUEST_BLOCK AtaPortBuildRequestSenseIrb(
 
 
 ## -parameters
+
+
+
 
 ### -param ChannelExtension [in]
 
@@ -66,10 +82,15 @@ A pointer to a structure of type <a href="..\irb\ns-irb-_ide_request_block.md">I
 
 
 ## -returns
+
+
 If the operation succeeds, the <b>AtaPortBuildRequestSenseIrb</b> routine returns a pointer to the request sense IRB that it allocated. If the operation fails, <b>AtaPortBuildRequestSenseIrb</b> returns <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 If the device does not support auto request sense, the miniport driver must build an IRB to gather sense data by using <b>AtaPortBuildRequestSenseIrb</b> and then sending it to the device. The miniport driver must not complete the original IRB until the corresponding request sense IRB has completed. Be aware that no request sense data is required for ATA devices.
 
 For an explanation of the SCSIOP_REQUEST_SENSE command, see the <i>SCSI-3</i> specification.
@@ -77,12 +98,11 @@ For an explanation of the SCSIOP_REQUEST_SENSE command, see the <i>SCSI-3</i> sp
 The miniport driver can have only one outstanding request sense IRB per logical unit.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\irb\nf-irb-ataportreleaserequestsenseirb.md">AtaPortReleaseRequestSenseIrb</a>
-</dt>
-</dl>
+
  
 
  

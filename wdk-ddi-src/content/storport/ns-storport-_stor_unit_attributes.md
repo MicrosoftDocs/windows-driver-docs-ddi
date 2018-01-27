@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9677C044-354B-4575-B2EC-187D1B4E8C61
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STOR_UNIT_ATTRIBUTES, STOR_UNIT_ATTRIBUTES, *PSTOR_UNIT_ATTRIBUTES
+ms.keywords: STOR_UNIT_ATTRIBUTES structure [Storage Devices], storport/PSTOR_UNIT_ATTRIBUTES, STOR_UNIT_ATTRIBUTES, storage.stor_unit_attributes, storport/STOR_UNIT_ATTRIBUTES, _STOR_UNIT_ATTRIBUTES, *PSTOR_UNIT_ATTRIBUTES, PSTOR_UNIT_ATTRIBUTES structure pointer [Storage Devices], PSTOR_UNIT_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STOR_UNIT_ATTRIBUTES
-req.alt-loc: Storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: STOR_UNIT_ATTRIBUTES, *PSTOR_UNIT_ATTRIBUTES
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Storport.h
+apiname: 
+-	STOR_UNIT_ATTRIBUTES
+product: Windows
+targetos: Windows
+req.typenames: *PSTOR_UNIT_ATTRIBUTES, STOR_UNIT_ATTRIBUTES
 req.product: Windows 10 or later.
 ---
 
 # _STOR_UNIT_ATTRIBUTES structure
 
 
-
 ## -description
+
+
 The <b>STOR_UNIT_ATTRIBUTES</b> structure contains bitfields indicating attribute support for a storage device unit.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STOR_UNIT_ATTRIBUTES {
@@ -57,6 +67,9 @@ typedef struct _STOR_UNIT_ATTRIBUTES {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DeviceAttentionSupported
 
@@ -79,20 +92,20 @@ Reserved bits. Must be set to 0.
 
 
 ## -remarks
+
+
 The unit attributes are registered with Storport  using this structure as a parameter to the <a href="..\storport\nf-storport-storportsetunitattributes.md">StorPortSetUnitAttributes</a> routine.
 
 If the miniport driver supports asynchronous notifications, the <b>AsyncNotificationSupported</b> field set to 1, it will send notifications to the Storport driver using the <a href="..\storport\nf-storport-storportasyncnotificationdetected.md">StorPortAsyncNotificationDetected</a> routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\nf-storport-storportasyncnotificationdetected.md">StorPortAsyncNotificationDetected</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportsetunitattributes.md">StorPortSetUnitAttributes</a>
-</dt>
-</dl>
+
  
 
  

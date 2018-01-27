@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: DD3AEB66-E36B-4F18-AFEC-D344132D4B8C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: UFS_GEOMETRY_DESCRIPTOR, *PUFS_GEOMETRY_DESCRIPTOR, UFS_GEOMETRY_DESCRIPTOR
+ms.keywords: PUFS_GEOMETRY_DESCRIPTOR structure pointer [Storage Devices], UFS_GEOMETRY_DESCRIPTOR structure [Storage Devices], storage.ufs_geometry_descriptor, ufs/UFS_GEOMETRY_DESCRIPTOR, UFS_GEOMETRY_DESCRIPTOR, PUFS_GEOMETRY_DESCRIPTOR, *PUFS_GEOMETRY_DESCRIPTOR, ufs/PUFS_GEOMETRY_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UFS_GEOMETRY_DESCRIPTOR
-req.alt-loc: Ufs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ufs.h
+apiname: 
+-	UFS_GEOMETRY_DESCRIPTOR
+product: Windows
+targetos: Windows
 req.typenames: *PUFS_GEOMETRY_DESCRIPTOR, UFS_GEOMETRY_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # UFS_GEOMETRY_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 <b>UFS_GEOMETRY_DESCRIPTOR</b> describes a device's geometric parameters.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UFS_GEOMETRY_DESCRIPTOR {
@@ -88,6 +98,9 @@ typedef struct _UFS_GEOMETRY_DESCRIPTOR {
 
 ## -struct-fields
 
+
+
+
 ### -field bLength
 
 Specifies the length of the descriptor.
@@ -110,7 +123,7 @@ Reserved for future use.
 Reserved for future use.
 
 
-### -field  qTotalRawDeviceCapacity
+### -field qTotalRawDeviceCapacity
 
 Specifies the total raw device capacity. Expressed in units of 512 bytes.
 
@@ -118,7 +131,6 @@ Specifies the total raw device capacity. Expressed in units of 512 bytes.
 ### -field bMaxNumberLU
 
 Specifies the maximum number of logical unit(s) supported by the UFS (Universal Flash Storage). Contains one of the following values:
-
 <table>
 <tr>
 <th>Value</th>
@@ -136,8 +148,7 @@ Specifies the maximum number of logical unit(s) supported by the UFS (Universal 
 <td>Other Values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field dSegmentSize
@@ -185,7 +196,6 @@ Protocol Out. Each frame is 256-bytes.
 
 Specifies a device's spare blocks
 resource management policy. Contains one of the following values:
-
 <table>
 <tr>
 <th>Value</th>
@@ -201,14 +211,12 @@ per logical unit.</td>
 <td>Spare blocks resource management policy is
 per memory type.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field bDataOrdering
 
 Specifies if a device supports out-of-order data transfer. Contains one of the following values:
-
 <table>
 <tr>
 <th>Value</th>
@@ -226,8 +234,7 @@ Specifies if a device supports out-of-order data transfer. Contains one of the f
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field bMaxContexIDNumber
@@ -250,7 +257,6 @@ the device to handle system data.
 ### -field bSupportedSecRTypes
 
 Specifies the supported Secure Removal types. The first 3 bits of the variable are flags that represent different supported Secure Removal types. 
-
 <table>
 <tr>
 <th>Bit</th>
@@ -281,14 +287,12 @@ mechanism.</td>
 <td>4-7</td>
 <td>Reserved for future use.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field wSupportedMemoryTypes
 
 Specifies the supported memory types in a bitmap.
-
 <table>
 <tr>
 <th>Bit</th>
@@ -330,8 +334,7 @@ Specifies the supported memory types in a bitmap.
 <td>15</td>
 <td>A RPMB memory type is supported.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field dSystemCodeMaxNAllocU
@@ -409,6 +412,10 @@ Specifies the optimal logical block size.
 
 
 ## -remarks
+
+
 If the size of the data transferred exceeds the number of frames <b>bRPMB_ReadWriteSize</b>, it will be done in multiple Security commands.
 
-The Capacity Adjustment Factor value for a normal memory type is equal to 1.</p>
+The Capacity Adjustment Factor value for a normal memory type is equal to 1.
+
+

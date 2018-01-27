@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a64197c0-a61f-4989-9b68-4e06b1a69fd4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgk_monitor_interface_pfnacquiremonitorsourcemodeset, pfnAcquireMonitorSourceModeSet callback function [Display Devices], pfnAcquireMonitorSourceModeSet, DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET, DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET, d3dkmddi/pfnAcquireMonitorSourceModeSet, VidPnFunctions_b540037c-9f98-4160-aeb3-ded9723e09fa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnAcquireMonitorSourceModeSet
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	pfnAcquireMonitorSourceModeSet
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET callback
 
 
-
 ## -description
+
+
 The <b>pfnAcquireMonitorSourceModeSet</b> function returns a handle to the monitor source mode set object that is associated with a specified monitor.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET pfnAcquireMonitorSourceModeSet;
@@ -59,6 +69,9 @@ NTSTATUS APIENTRY pfnAcquireMonitorSourceModeSet(
 
 
 ## -parameters
+
+
+
 
 ### -param hAdapter [in]
 
@@ -81,26 +94,67 @@ NTSTATUS APIENTRY pfnAcquireMonitorSourceModeSet(
 
 
 ## -returns
+
+
 The <b>pfnAcquireMonitorSourceModeSet</b> function returns one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The function succeeded.
+</dl>
+</td>
+<td width="60%">
+The function succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_INVALID_DISPLAY_ADAPTER</b></dt>
-</dl>The handle supplied in <i>hAdapter</i> was invalid.
+</dl>
+</td>
+<td width="60%">
+The handle supplied in <i>hAdapter</i> was invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET</b></dt>
-</dl>The identifier supplied in <i>VideoPresentTargetId</i> was invalid.
+</dl>
+</td>
+<td width="60%">
+The identifier supplied in <i>VideoPresentTargetId</i> was invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_MONITOR_NOT_CONNECTED</b></dt>
-</dl>There is no monitor connected to the video present target identified by <i>VideoPresentTargetId</i>.
+</dl>
+</td>
+<td width="60%">
+There is no monitor connected to the video present target identified by <i>VideoPresentTargetId</i>.
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other error codes that are defined in <i>Ntstatus.h</i>.
 
 
+
 ## -remarks
+
+
 VidPN target identifiers are assigned by the display miniport driver. The <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a><i></i> function, implemented by the display miniport driver, returns an array of <a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a> structures, each of which contains an identifier.
 
 When you have finished using the monitor source mode set object handle, you must release the handle by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_releasemonitorsourcemodeset.md">pfnReleaseMonitorSourceModeSet</a>. Target mode set objects are reference counted, so if you acquire a handle several times, you must release it that same number of times.
@@ -108,15 +162,13 @@ When you have finished using the monitor source mode set object handle, you must
 This function is also available in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface_v2.md">DXGK_MONITOR_INTERFACE_V2</a> interface beginning with Windows 7.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface_v2.md">DXGK_MONITOR_INTERFACE_V2</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>
-</dt>
-</dl>
+
  
 
  

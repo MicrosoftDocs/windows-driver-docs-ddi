@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c59f93cc-d182-4764-a207-0799e55c6cf6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: WdmlibIoGetAffinityInterrupt
+ms.keywords: storage.atachannelinitroutine, AtaChannelInitRoutine routine [Storage Devices], AtaChannelInitRoutine, IDE_CHANNEL_INIT, IDE_CHANNEL_INIT, irb/AtaChannelInitRoutine, atartns_7bbe3bef-24c7-4666-9b83-a29646d92f71.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AtaChannelInitRoutine
-req.alt-loc: irb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	irb.h
+apiname: 
+-	AtaChannelInitRoutine
+product: Windows
+targetos: Windows
 req.typenames: LUID
 ---
 
 # IDE_CHANNEL_INIT callback
 
 
-
 ## -description
+
+
 The <b><i>AtaChannelInitRoutine</i></b> miniport driver routine initializes the miniport driver's channel interface.
-
-
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -prototype
+
 
 ````
 IDE_CHANNEL_INIT AtaChannelInitRoutine;
@@ -59,6 +69,9 @@ BOOLEAN AtaChannelInitRoutine(
 
 ## -parameters
 
+
+
+
 ### -param ChannelExtension [in]
 
 A pointer to the miniport driver channel extension.
@@ -69,37 +82,53 @@ A pointer to the miniport driver channel extension.
 A pointer to a structure of type <a href="..\irb\ns-irb-_ide_channel_interface.md">IDE_CHANNEL_INTERFACE</a>. 
 
 
-### -param Context [in, out]
+### -param InitContext
+
+
+
+
+
+
+#### - Context [in, out]
 
 A pointer to the controller extension.
 
 
 ## -returns
+
+
 <b><i>AtaChannelInitRoutine</i></b> returns <b>TRUE</b> if the initialization succeeded. It returns <b>FALSE</b> if the initialization failed. 
 
 
-## -remarks
-A vendor-supplied miniport driver that supports the channel interface must implement an <b><i>AtaChannelInitRoutine</i></b> routine to initialize the controller's channels. In particular, the <b><i>AtaChannelInitRoutine</i></b> routine must complete the initialization of the <a href="..\irb\ns-irb-_ide_channel_interface.md">IDE_CHANNEL_INTERFACE</a> structure. The following sequence describes how the miniport driver and the port driver interact to initialize a channel: 
 
+## -remarks
+
+
+A vendor-supplied miniport driver that supports the channel interface must implement an <b><i>AtaChannelInitRoutine</i></b> routine to initialize the controller's channels. In particular, the <b><i>AtaChannelInitRoutine</i></b> routine must complete the initialization of the <a href="..\irb\ns-irb-_ide_channel_interface.md">IDE_CHANNEL_INTERFACE</a> structure. The following sequence describes how the miniport driver and the port driver interact to initialize a channel: 
+<ol>
+<li>
 While in its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine, the miniport driver calls the port driver's <a href="..\irb\nf-irb-ataportinitializeex.md">AtaPortInitializeEx</a> library routine to launch the initialization of the controller and the miniport driver. 
 
+</li>
+<li>
 If the miniport driver supports the channel interface, the <b><i>DriverEntry</i></b> routine must initialize the <b>AtaChannelInitRoutine</b> member of <a href="..\irb\ns-irb-_ide_controller_interface.md">IDE_CONTROLLER_INTERFACE</a> to point to the miniport driver's <b><i>AtaChannelInitRoutine</i></b> routine.
 
+</li>
+<li>
 The port driver calls the <b><i>AtaAdapterControl</i></b> routine by using control action IdeStart. <b><i>AtaChannelInitRoutine</i></b> is called one time for every NumberOfChannels specified in the ControllerConfiguration structure that is returned by the <b><i>AtaAdapterControl</i></b> routine when <b><i>AtaAdapterControl</i></b> handles an <b>IdeStart</b> action.
+
+</li>
+</ol>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\irb\nf-irb-ataportinitializeex.md">AtaPortInitializeEx</a>
-</dt>
-<dt>
-<a href="..\irb\ns-irb-_ide_channel_interface.md">IDE_CHANNEL_INTERFACE</a>
-</dt>
-<dt>
+
 <a href="..\irb\ns-irb-_ide_controller_interface.md">IDE_CONTROLLER_INTERFACE</a>
-</dt>
-</dl>
+
+<a href="..\irb\nf-irb-ataportinitializeex.md">AtaPortInitializeEx</a>
+
+<a href="..\irb\ns-irb-_ide_channel_interface.md">IDE_CHANNEL_INTERFACE</a>
+
  
 
  

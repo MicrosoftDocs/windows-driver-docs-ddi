@@ -7,8 +7,8 @@ old-location: netvista\rilcallaudiomediastate_2.htm
 old-project: netvista
 ms.assetid: f15f609d-605b-4f4c-8f57-01c6b426d8b5
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCALLAUDIOMEDIASTATE, RILCALLAUDIOMEDIASTATE, *LPRILCALLAUDIOMEDIASTATE
+ms.date: 1/18/2018
+ms.keywords: RILCALLAUDIOMEDIASTATE structure [Network Drivers Starting with Windows Vista], *LPRILCALLAUDIOMEDIASTATE, rilapitypes/RILCALLAUDIOMEDIASTATE, RILCALLAUDIOMEDIASTATE, netvista.rilcallaudiomediastate_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCALLAUDIOMEDIASTATE
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILCALLAUDIOMEDIASTATE, *LPRILCALLAUDIOMEDIASTATE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILCALLAUDIOMEDIASTATE
+product: Windows
+targetos: Windows
+req.typenames: *LPRILCALLAUDIOMEDIASTATE, RILCALLAUDIOMEDIASTATE
 req.product: Windows 10 or later.
 ---
 
 # RILCALLAUDIOMEDIASTATE structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILCALLAUDIOMEDIASTATE {
@@ -58,16 +68,21 @@ typedef struct _RILCALLAUDIOMEDIASTATE {
 
 ## -struct-fields
 
+
+
+
 ### -field dwParams
+
 
 
 ### -field dwAudioSource
 
 
+
 ### -field dwAudioQuality
+
 
 
 ### -field dwFlags
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f613e019-0b6d-43fc-a802-a6cd3803a00d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkcbdestroycontextallocation, DxgkCbDestroyContextAllocation callback function [Display Devices], DxgkCbDestroyContextAllocation, DXGKCB_DESTROYCONTEXTALLOCATION, DXGKCB_DESTROYCONTEXTALLOCATION, d3dkmddi/DxgkCbDestroyContextAllocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkCbDestroyContextAllocation
-req.alt-loc: D3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3dkmddi.h
+apiname: 
+-	DxgkCbDestroyContextAllocation
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKCB_DESTROYCONTEXTALLOCATION callback
 
 
-
 ## -description
+
+
 Called by a WDDM 1.2 or later display miniport driver to free a resource that was previously allocated for a GPU or device-specific context.
 
 
-
 ## -prototype
+
 
 ````
 DXGKCB_DESTROYCONTEXTALLOCATION DxgkCbDestroyContextAllocation;
@@ -58,6 +68,9 @@ NTSTATUS APIENTRY CALLBACK* DxgkCbDestroyContextAllocation(
 
 ## -parameters
 
+
+
+
 ### -param hAdapter [in]
 
 [in] A handle to the graphics adapter for which the allocation was created. The display miniport driver receives the handle from the <b>DeviceHandle</b> member of the <a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a> structure in a call to its <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function.
@@ -71,24 +84,27 @@ NTSTATUS APIENTRY CALLBACK* DxgkCbDestroyContextAllocation(
 
 
 ## -returns
+
+
 <i>DxgkCbDestroyContextAllocation</i> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
+
 ## -remarks
+
+
 The driver allocates  context resources by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>.
 
 After the display miniport driver calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a> to allocate a context resource, it can call <i>DxgkCbDestroyContextAllocation</i> to free the resource at any time.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_createcontextallocation.md">DXGKARGCB_CREATECONTEXTALLOCATION</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_createcontextallocation.md">DXGKARGCB_CREATECONTEXTALLOCATION</a>
+
  
 
  

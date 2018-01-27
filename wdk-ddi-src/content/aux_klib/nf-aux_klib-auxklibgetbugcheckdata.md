@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d41d0eba-14e3-48ff-874d-e52589cf716c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: AuxKlibGetBugCheckData
+ms.keywords: kernel.auxklibgetbugcheckdata, aux_klib_3cb977df-feb6-4b52-afa1-b5e3038fc287.xml, AuxKlibGetBugCheckData, aux_klib/AuxKlibGetBugCheckData, AuxKlibGetBugCheckData routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AuxKlibGetBugCheckData
-req.alt-loc: Aux_Klib.lib,Aux_Klib.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Aux_Klib.lib
 req.dll: 
 req.irql: 
-req.typenames: REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Aux_Klib.lib
+-	Aux_Klib.dll
+apiname: 
+-	AuxKlibGetBugCheckData
+product: Windows
+targetos: Windows
+req.typenames: *PREPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA
 ---
 
 # AuxKlibGetBugCheckData function
 
 
-
 ## -description
+
+
 The <b>AuxKlibGetBugCheckData</b> routine retrieves information about a bug check that has just occurred.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS AuxKlibGetBugCheckData(
@@ -54,33 +65,38 @@ NTSTATUS AuxKlibGetBugCheckData(
 
 ## -parameters
 
+
+
+
 ### -param BugCheckData [out]
 
 A pointer to a <a href="..\aux_klib\ns-aux_klib-_kbugcheck_data.md">KBUGCHECK_DATA</a> structure that contains information about the bug check. The <i>BugCheckData</i> size of this structure should be set equal to the size, in bytes, of the <b>KBUGCHECK_DATA</b> structure.
 
 
 ## -returns
+
+
 <b>AuxKlibGetBugCheckData</b> returns STATUS_SUCCESS if the operation succeeds. The routine returns STATUS_INFO_LENGTH_MISMATCH if the <b>KBUGCHECK_DATA</b> structure's size is incorrect.
 
 
+
 ## -remarks
+
+
 The <b>AuxKlibGetBugCheckData</b> routine can be called only from a <a href="..\wdm\nc-wdm-kbugcheck_callback_routine.md">BugCheckCallback</a> routine.
 
 Drivers must call <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a> before calling <b>AuxKlibGetBugCheckData</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-kbugcheck_callback_routine.md">BugCheckCallback</a>
-</dt>
-<dt>
+
 <a href="..\aux_klib\ns-aux_klib-_kbugcheck_data.md">KBUGCHECK_DATA</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nc-wdm-kbugcheck_callback_routine.md">BugCheckCallback</a>
+
+<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
+
  
 
  

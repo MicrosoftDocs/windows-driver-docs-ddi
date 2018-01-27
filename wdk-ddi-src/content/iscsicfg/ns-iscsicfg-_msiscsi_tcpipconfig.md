@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1f33d262-0488-46cb-a762-1f3e24cdd219
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSiSCSI_TCPIPConfig, MSiSCSI_TCPIPConfig, *PMSiSCSI_TCPIPConfig
+ms.keywords: _MSiSCSI_TCPIPConfig, PMSiSCSI_TCPIPConfig structure pointer [Storage Devices], structs-iSCSI_4ca5e222-7926-4646-a915-014cf20caed1.xml, *PMSiSCSI_TCPIPConfig, MSiSCSI_TCPIPConfig, iscsicfg/PMSiSCSI_TCPIPConfig, iscsicfg/MSiSCSI_TCPIPConfig, MSiSCSI_TCPIPConfig structure [Storage Devices], storage.msiscsi_tcpipconfig, PMSiSCSI_TCPIPConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSiSCSI_TCPIPConfig
-req.alt-loc: iscsicfg.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsicfg.h
+apiname: 
+-	MSiSCSI_TCPIPConfig
+product: Windows
+targetos: Windows
 req.typenames: MSiSCSI_TCPIPConfig, *PMSiSCSI_TCPIPConfig
 ---
 
 # _MSiSCSI_TCPIPConfig structure
 
 
-
 ## -description
+
+
 The MSiSCSI_TCPIPConfig structure reports TCP/IP configuration information about one of the adapter's ports. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSiSCSI_TCPIPConfig {
@@ -61,6 +71,9 @@ typedef struct _MSiSCSI_TCPIPConfig {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UseLinkLocalAddress
 
@@ -108,18 +121,18 @@ A <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a> st
 
 
 ## -remarks
+
+
 The WMI tool suite automatically generates a declaration of the MSiSCSI_TCPIPConfig structure when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563151">MSiSCSI_TCPIPConfig WMI Class</a> in <i>Config.mof</i>.You must implement this class.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563151">MSiSCSI_TCPIPConfig WMI Class</a>
-</dt>
-</dl>
+
  
 
  

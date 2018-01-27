@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dc17efe6-9183-4908-8ca5-69c6ae38db6d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _TAPE_ERASE, TAPE_ERASE, *PTAPE_ERASE
+ms.keywords: storage.tape_erase, _TAPE_ERASE, ntddtape/TAPE_ERASE, PTAPE_ERASE structure pointer [Storage Devices], TAPE_ERASE structure [Storage Devices], TAPE_ERASE, ntddtape/PTAPE_ERASE, PTAPE_ERASE, *PTAPE_ERASE, structs-tape_56c14eca-358e-438f-9ff4-06345d2b2434.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TAPE_ERASE
-req.alt-loc: ntddtape.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: TAPE_ERASE, *PTAPE_ERASE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddtape.h
+apiname: 
+-	TAPE_ERASE
+product: Windows
+targetos: Windows
+req.typenames: *PTAPE_ERASE, TAPE_ERASE
 ---
 
 # _TAPE_ERASE structure
 
 
-
 ## -description
+
+
 The TAPE_ERASE structure is used in conjunction with the <a href="..\ntddtape\ni-ntddtape-ioctl_tape_erase.md">IOCTL_TAPE_ERASE</a> request to erase the current tape partition.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _TAPE_ERASE {
@@ -55,6 +65,9 @@ typedef struct _TAPE_ERASE {
 
 ## -struct-fields
 
+
+
+
 ### -field Type
 
 Indicates the type of erasure to perform. When this member is set to TAPE_ERASE_LONG, the tape partition is overwritten with a filler pattern. When it is set to TAPE_ERASE_SHORT, an end-of-recorded-data mark is written to the current position. 
@@ -65,15 +78,10 @@ Indicates the type of erasure to perform. When this member is set to TAPE_ERASE_
 Indicates that the target device should return status immediately, when set to <b>TRUE</b>. When this member is set to <b>FALSE</b>, the device should return status after the operation is complete. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddtape\ni-ntddtape-ioctl_tape_erase.md">IOCTL_TAPE_ERASE</a>
-</dt>
-</dl>
+
  
 
  

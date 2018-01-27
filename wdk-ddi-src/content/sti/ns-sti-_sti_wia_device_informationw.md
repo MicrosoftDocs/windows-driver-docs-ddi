@@ -7,8 +7,8 @@ old-location: image\sti_wia_device_information.htm
 old-project: image
 ms.assetid: a1339fd5-49ec-498b-bc07-221526a57d74
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: _STI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATION
+ms.date: 1/18/2018
+ms.keywords: image.sti_wia_device_information, PSTI_WIA_DEVICE_INFORMATION, STI_WIA_DEVICE_INFORMATION, stifnc_5b853150-0ce1-4ba1-bf9c-2071c6a993bc.xml, _STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATION structure [Imaging Devices], PSTI_WIA_DEVICE_INFORMATION structure pointer [Imaging Devices], sti/PSTI_WIA_DEVICE_INFORMATION, sti/STI_WIA_DEVICE_INFORMATION, STI_WIA_DEVICE_INFORMATIONW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STI_WIA_DEVICE_INFORMATION
-req.alt-loc: sti.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	sti.h
+apiname: 
+-	STI_WIA_DEVICE_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _STI_WIA_DEVICE_INFORMATIONW structure
 
 
-
 ## -description
+
+
 The STI_WIA_DEVICE_INFORMATION structure contains device information.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STI_WIA_DEVICE_INFORMATION {
@@ -65,6 +75,9 @@ typedef struct _STI_WIA_DEVICE_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwSize
 
@@ -135,5 +148,3 @@ Pointer to the WIA user interface DLL.
 
 Pointer to the WIA server.
 
-
-## -remarks

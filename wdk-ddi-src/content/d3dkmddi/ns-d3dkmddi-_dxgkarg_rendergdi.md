@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E1DC536B-581E-43F8-99B2-776DC30EEBB7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_RENDERGDI, DXGKARG_RENDERGDI, *INOUT_PDXGKARG_RENDERGDI
+ms.keywords: display.dxgkarg_rendergdi, *INOUT_PDXGKARG_RENDERGDI, _DXGKARG_RENDERGDI, DXGKARG_RENDERGDI, DXGKARG_RENDERGDI structure [Display Devices], d3dkmddi/DXGKARG_RENDERGDI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_RENDERGDI
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_RENDERGDI
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_RENDERGDI
 ---
 
 # _DXGKARG_RENDERGDI structure
 
 
-
 ## -description
+
+
 The <b>DXGKARG_RENDERGDI</b> structure is used when submitting Windows Graphics Device Interface (GDI) commands for contexts that support virtual addressing.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_RENDERGDI {
@@ -62,6 +72,9 @@ typedef struct _DXGKARG_RENDERGDI {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pCommand
 
@@ -112,5 +125,3 @@ The available number of elements in the array that <b>pAllocationList</b> specif
 
 A value that specifies the progress of the rendering operation.
 
-
-## -remarks

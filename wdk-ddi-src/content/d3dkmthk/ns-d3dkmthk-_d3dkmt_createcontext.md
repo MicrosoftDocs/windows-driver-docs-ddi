@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 867705b9-a721-48a6-b1bc-6a75d5a03a21
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_CREATECONTEXT, D3DKMT_CREATECONTEXT
+ms.keywords: _D3DKMT_CREATECONTEXT, OpenGL_Structs_5a3cc128-be06-4189-a389-95813c2d3e28.xml, d3dkmthk/D3DKMT_CREATECONTEXT, D3DKMT_CREATECONTEXT structure [Display Devices], display.d3dkmt_createcontext, D3DKMT_CREATECONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_CREATECONTEXT
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_CREATECONTEXT
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_CREATECONTEXT
 ---
 
 # _D3DKMT_CREATECONTEXT structure
 
 
-
 ## -description
+
+
 The D3DKMT_CREATECONTEXT structure describes a kernel-mode device context to create.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_CREATECONTEXT {
@@ -67,6 +77,9 @@ typedef struct _D3DKMT_CREATECONTEXT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -101,7 +114,6 @@ typedef struct _D3DKMT_CREATECONTEXT {
 ### -field ClientHint
 
 [in] A D3DKMT_CLIENTHINT-typed value that indicates the type of client that creates the context. The following table lists the possible values.
-
 <table>
 <tr>
 <th>Value</th>
@@ -177,8 +189,7 @@ The client is the DirectX 10.0 runtime.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field hContext
@@ -229,24 +240,16 @@ The <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontext.md">D3DKMTCreateContext
 [out] A pointer to command buffer memory that the OpenGL ICD places commands into. The <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontext.md">D3DKMTCreateContext</a> function returns this memory pointer.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
-</dt>
-<dt>
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_createcontextflags.md">D3DDDI_CREATECONTEXTFLAGS</a>
-</dt>
-<dt>
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontext.md">D3DKMTCreateContext</a>
-</dt>
-</dl>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_createcontextflags.md">D3DDDI_CREATECONTEXTFLAGS</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
+
  
 
  

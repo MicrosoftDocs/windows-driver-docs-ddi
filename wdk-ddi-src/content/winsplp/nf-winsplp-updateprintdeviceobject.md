@@ -7,8 +7,8 @@ old-location: print\updateprintdeviceobject.htm
 old-project: print
 ms.assetid: 52E8F8BF-0362-4BA9-BABD-7B009B3FFA7F
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: UpdatePrintDeviceObject
+ms.date: 1/18/2018
+ms.keywords: winsplp/UpdatePrintDeviceObject, print.updateprintdeviceobject, UpdatePrintDeviceObject function [Print Devices], UpdatePrintDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UpdatePrintDeviceObject
-req.alt-loc: WinSpool.drv
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: WinSpool.lib
 req.dll: WinSpool.drv
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	WinSpool.drv
+apiname: 
+-	UpdatePrintDeviceObject
+product: Windows
+targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,10 +47,16 @@ req.product: Windows 10 or later.
 # UpdatePrintDeviceObject function
 
 
-
 ## -description
 
+
+<div class="alert"><b>Warning</b>  <p class="note">Starting with Windows 10, the APIs which support third-party print providers are deprecated. Microsoft does not recommend any investment into third-party print providers. Additionally, on Windows 8 and newer products where the v4 print driver model is available, third-party print providers may not create or manage queues which use v4 print drivers.
+
+</div><div> </div>The <b>UpdatePrintDeviceObject</b> function updates the properties of a device object that is in the print provider queue.
+
+
 ## -syntax
+
 
 ````
 HRESULT WINAPI UpdatePrintDeviceObject(
@@ -52,6 +67,9 @@ HRESULT WINAPI UpdatePrintDeviceObject(
 
 
 ## -parameters
+
+
+
 
 ### -param hPrinter [in]
 
@@ -64,25 +82,30 @@ The HANDLE to the device object to be updated. This should be a device object th
 
 
 ## -returns
+
+
 The <b>UpdatePrintDeviceObject</b> function returns S_OK, if the properties of the  device object were updated successfully. Otherwise it returns an error.
 
 For example, this function can return HRESULT_FROM_WIN32(ERROR_INVALID_HANDLE), if the function call was made with an invalid HANDLE, or the device object was removed before the function call was made.
 
 
+
 ## -remarks
+
+
 The <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd162845(v=vs.85).aspx">PRINTER_INFO_2</a>  structure is a good example of the kind of properties that <b>UpdatePrintDeviceObject</b> can update.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\winsplp\nf-winsplp-addprintdeviceobject.md">AddPrintDeviceObject</a>
-</dt>
-<dt><a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd162845(v=vs.85).aspx">PRINTER_INFO_2</a></dt>
-</dl>
- 
+
+<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd162845(v=vs.85).aspx">PRINTER_INFO_2</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UpdatePrintDeviceObject function%20 RELEASE:%20(1/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UpdatePrintDeviceObject function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: print\iprintcorehelperps_whyconstrained.htm
 old-project: print
 ms.assetid: 23953142-9246-41cf-91b4-75b1a3f6128e
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IPrintCoreHelperPS, IPrintCoreHelperPS::WhyConstrained, WhyConstrained
+ms.date: 1/18/2018
+ms.keywords: IPrintCoreHelperPS, WhyConstrained method [Print Devices], IPrintCoreHelperPS interface, print_unidrv-pscript_allplugins_fc5f3f79-3a89-4e0f-9d13-4fda10a1c3b4.xml, print.iprintcorehelperps_whyconstrained, IPrintCoreHelperPS interface [Print Devices], WhyConstrained method, WhyConstrained method [Print Devices], IPrintCoreHelperPS::WhyConstrained, prcomoem/IPrintCoreHelperPS::WhyConstrained, WhyConstrained
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPrintCoreHelperPS.WhyConstrained
-req.alt-loc: Prcomoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Prcomoem.h
+apiname: 
+-	IPrintCoreHelperPS.WhyConstrained
+product: Windows
+targetos: Windows
+req.typenames: *POEMPTOPTS, OEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
 # IPrintCoreHelperPS::WhyConstrained method
 
 
-
 ## -description
+
+
 The <b>IPrintCoreHelperPS::WhyConstrained</b> method provides a list of options that constrain the specified feature-option pair in the current configuration.
 
 
-
 ## -syntax
+
 
 ````
 STDMETHOD WhyConstrained(
@@ -59,6 +69,9 @@ STDMETHOD WhyConstrained(
 
 
 ## -parameters
+
+
+
 
 ### -param pDevmode [in, optional]
 
@@ -91,37 +104,69 @@ A pointer to a variable that receives the number of feature-option pairs in the 
 
 
 ## -returns
+
+
 <b>IPrintCoreHelperPS::WhyConstrained</b> should return one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The operation succeeded.
+</dl>
+</td>
+<td width="60%">
+The operation succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_INVALIDARG</b></dt>
-</dl>One or more of the arguments is invalid, or the feature was not supported.
+</dl>
+</td>
+<td width="60%">
+One or more of the arguments is invalid, or the feature was not supported.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_OUTOFMEMORY</b></dt>
-</dl>Memory for the result array could not be allocated.
+</dl>
+</td>
+<td width="60%">
+Memory for the result array could not be allocated.
 
- 
+</td>
+</tr>
+</table> 
 
 For other failures, the method should return a standard COM error code.
 
 
+
 ## -remarks
+
+
 If the specified feature-option pair is not constrained, <b>IPrintCoreHelperPS::WhyConstrained</b> will return S_OK but will return with *<i>pdwFOPairs</i> set to 0 and with *<i>ppFOConstraints</i>[0] set to <b>NULL</b>.
 
 Note that the results from this method might not contain all of the options that affect the currently selected option. If there are invalid combinations, however, only one option from the combination will be included in the list.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551972">IPrintCoreHelperPS::EnumConstrainedOptions</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperPS::WhyConstrained method%20 RELEASE:%20(1/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperPS::WhyConstrained method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

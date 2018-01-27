@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3fca6d50-ac38-4edf-b24a-ea4fe5d8a4fd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_USB_PIPE_DIRECTION_IN
+ms.keywords: WDF_USB_PIPE_DIRECTION_IN function, wdf.wdf_usb_pipe_direction_in, kmdf.wdf_usb_pipe_direction_in, DFUsbRef_e0e1b604-8973-4901-91ea-76fce4e69b7c.xml, WDF_USB_PIPE_DIRECTION_IN, wdfusb/WDF_USB_PIPE_DIRECTION_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_USB_PIPE_DIRECTION_IN
-req.alt-loc: None,None.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	None
+-	None.dll
+apiname: 
+-	WDF_USB_PIPE_DIRECTION_IN
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WDF_USB_PIPE_DIRECTION_IN function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_USB_PIPE_DIRECTION_IN</b> function determines whether a specified USB endpoint is an input endpoint.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN WDF_USB_PIPE_DIRECTION_IN(
@@ -57,30 +68,36 @@ BOOLEAN WDF_USB_PIPE_DIRECTION_IN(
 
 ## -parameters
 
+
+
+
 ### -param EndpointAddress [in]
 
 A USB endpoint address.
 
 
 ## -returns
+
+
 <b>WDF_USB_PIPE_DIRECTION_IN</b> returns <b>TRUE</b> if the specified endpoint is an input endpoint. Otherwise, this function returns <b>FALSE</b>.
 
 
+
 ## -remarks
+
+
 The high bit of the endpoint address determines the direction (input or output) of an endpoint. For more information about endpoint addresses, see the USB specification.
 
 For more information about the <b>WDF_USB_PIPE_DIRECTION_IN</b> function and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_direction_out.md">WDF_USB_PIPE_DIRECTION_OUT</a>
-</dt>
-<dt>
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeisinendpoint.md">WdfUsbTargetPipeIsInEndpoint</a>
-</dt>
-</dl>
+
  
 
  

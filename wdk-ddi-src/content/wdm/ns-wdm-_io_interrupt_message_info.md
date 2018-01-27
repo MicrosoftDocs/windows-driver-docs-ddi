@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d740d55e-6549-494d-9b2a-39d5c2e670d3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _IO_INTERRUPT_MESSAGE_INFO, IO_INTERRUPT_MESSAGE_INFO, *PIO_INTERRUPT_MESSAGE_INFO
+ms.keywords: IO_INTERRUPT_MESSAGE_INFO, wdm/IO_INTERRUPT_MESSAGE_INFO, kernel.io_interrupt_message_info, kstruct_b_e1d88b03-cc13-433c-b821-43315d776deb.xml, PIO_INTERRUPT_MESSAGE_INFO structure pointer [Kernel-Mode Driver Architecture], *PIO_INTERRUPT_MESSAGE_INFO, _IO_INTERRUPT_MESSAGE_INFO, IO_INTERRUPT_MESSAGE_INFO structure [Kernel-Mode Driver Architecture], PIO_INTERRUPT_MESSAGE_INFO, wdm/PIO_INTERRUPT_MESSAGE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IO_INTERRUPT_MESSAGE_INFO
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	IO_INTERRUPT_MESSAGE_INFO
+product: Windows
+targetos: Windows
 req.typenames: IO_INTERRUPT_MESSAGE_INFO, *PIO_INTERRUPT_MESSAGE_INFO
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _IO_INTERRUPT_MESSAGE_INFO structure
 
 
-
 ## -description
+
+
 The <b>IO_INTERRUPT_MESSAGE_INFO</b> structure describes the driver's message-signaled interrupts.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _IO_INTERRUPT_MESSAGE_INFO {
@@ -56,6 +66,9 @@ typedef struct _IO_INTERRUPT_MESSAGE_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UnifiedIrql
 
@@ -73,21 +86,20 @@ Variable-length array that specifies an <a href="..\wdm\ns-wdm-_io_interrupt_mes
 
 
 ## -remarks
+
+
 When a driver calls <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a> to register an <a href="https://msdn.microsoft.com/library/windows/hardware/ff547940">InterruptMessageService</a> routine, <b>IoConnectInterruptEx</b> provides a pointer to <b>IO_INTERRUPT_MESSAGE_INFO</b> in <i>Parameters</i>-&gt;<b>MessageBased.ConnectionContext</b>. For more information, see <a href="..\wdm\ns-wdm-_io_connect_interrupt_parameters.md">IO_CONNECT_INTERRUPT_PARAMETERS</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_io_connect_interrupt_parameters.md">IO_CONNECT_INTERRUPT_PARAMETERS</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_io_interrupt_message_info_entry.md">IO_INTERRUPT_MESSAGE_INFO_ENTRY</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_io_connect_interrupt_parameters.md">IO_CONNECT_INTERRUPT_PARAMETERS</a>
+
  
 
  

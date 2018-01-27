@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4f4f7ece-efe4-49f7-a6ce-bc131d1c1968
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _CLFS_MGMT_CLIENT_REGISTRATION, *PCLFS_MGMT_CLIENT_REGISTRATION, CLFS_MGMT_CLIENT_REGISTRATION
+ms.keywords: PCLFS_MGMT_CLIENT_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], CLFS_MGMT_CLIENT_REGISTRATION, _CLFS_MGMT_CLIENT_REGISTRATION, CLFS_MGMT_CLIENT_REGISTRATION structure [Kernel-Mode Driver Architecture], kernel.clfs_mgmt_client_registration, *PCLFS_MGMT_CLIENT_REGISTRATION, kstruct_a_b4089ae7-0e80-4da0-b062-cda3d5aa65f4.xml, wdm/PCLFS_MGMT_CLIENT_REGISTRATION, wdm/CLFS_MGMT_CLIENT_REGISTRATION, PCLFS_MGMT_CLIENT_REGISTRATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CLFS_MGMT_CLIENT_REGISTRATION
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	CLFS_MGMT_CLIENT_REGISTRATION
+product: Windows
+targetos: Windows
 req.typenames: *PCLFS_MGMT_CLIENT_REGISTRATION, CLFS_MGMT_CLIENT_REGISTRATION
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _CLFS_MGMT_CLIENT_REGISTRATION structure
 
 
-
 ## -description
+
+
 The <b>CLFS_MGMT_CLIENT_REGISTRATION</b> structure is given to CLFS management by clients who manage their own logs.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CLFS_MGMT_CLIENT_REGISTRATION {
@@ -60,6 +70,9 @@ typedef struct _CLFS_MGMT_CLIENT_REGISTRATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -96,21 +109,14 @@ A pointer to the log's <a href="..\wdm\nc-wdm-pclfs_client_log_unpinned_callback
 A pointer to user-defined data that will be supplied to the <i>ClfsLogUnpinnedCallback</i> function when the function is invoked. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nc-wdm-pclfs_client_advance_tail_callback.md">ClfsAdvanceTailCallback</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-pclfs_client_lff_handler_complete_callback.md">ClfsLogGrowthCompleteCallback</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nc-wdm-pclfs_client_log_unpinned_callback.md">ClfsLogUnpinnedCallback</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nc-wdm-pclfs_client_advance_tail_callback.md">ClfsAdvanceTailCallback</a>
+
+<a href="..\wdm\nc-wdm-pclfs_client_lff_handler_complete_callback.md">ClfsLogGrowthCompleteCallback</a>
+
  
 
  

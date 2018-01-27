@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8D075473-605F-4B75-BB02-5B182EEB3B5F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PHYSICALADAPTERCAPS, DXGK_PHYSICALADAPTERCAPS
+ms.keywords: DXGK_PHYSICALADAPTERCAPS, Flags.MovePagingSupported, Flags.IoMmuSupported, _DXGK_PHYSICALADAPTERCAPS, d3dkmddi/DXGK_PHYSICALADAPTERCAPS, DXGK_PHYSICALADAPTERCAPS structure [Display Devices], Flags.GpuMmuSupported, display.dxgk_physicaladaptercaps, Flags.VPRPagingContextRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_PHYSICALADAPTERCAPS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_PHYSICALADAPTERCAPS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PHYSICALADAPTERCAPS
 ---
 
 # _DXGK_PHYSICALADAPTERCAPS structure
 
 
-
 ## -description
+
+
 The <b>DXGK_PHYSICALADAPTERCAPS</b> structure is used to report details of a physical adapter.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_PHYSICALADAPTERCAPS {
@@ -57,6 +67,9 @@ typedef struct _DXGK_PHYSICALADAPTERCAPS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NumExecutionNodes
 
@@ -81,10 +94,10 @@ Handle, which is passed to the kernel mode driver as <b>DXGKRNL_INTERFACE::Devic
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field Flags.IoMmuSupported
-### -field TRUE
-
+<td width="40%"><a id="Flags.IoMmuSupported"></a><a id="flags.iommusupported"></a><a id="FLAGS.IOMMUSUPPORTED"></a><dl>
+<dt><b>Flags.IoMmuSupported</b></dt>
+<dt><b>TRUE</b></dt>
+</dl>
 </td>
 <td width="60%">
 The adapter supports <i>IoMmu</i>.
@@ -92,10 +105,10 @@ The adapter supports <i>IoMmu</i>.
 </td>
 </tr>
 <tr>
-
-### -field Flags.GpuMmuSupported
-### -field TRUE
-
+<td width="40%"><a id="Flags.GpuMmuSupported"></a><a id="flags.gpummusupported"></a><a id="FLAGS.GPUMMUSUPPORTED"></a><dl>
+<dt><b>Flags.GpuMmuSupported</b></dt>
+<dt><b>TRUE</b></dt>
+</dl>
 </td>
 <td width="60%">
 The adapter supports <i>GpuMmu</i>.
@@ -103,10 +116,10 @@ The adapter supports <i>GpuMmu</i>.
 </td>
 </tr>
 <tr>
-
-### -field Flags.MovePagingSupported
-### -field TRUE
-
+<td width="40%"><a id="Flags.MovePagingSupported"></a><a id="flags.movepagingsupported"></a><a id="FLAGS.MOVEPAGINGSUPPORTED"></a><dl>
+<dt><b>Flags.MovePagingSupported</b></dt>
+<dt><b>TRUE</b></dt>
+</dl>
 </td>
 <td width="60%">
 The adapter supports move paging.
@@ -114,23 +127,20 @@ The adapter supports move paging.
 </td>
 </tr>
 <tr>
-
-### -field Flags.VPRPagingContextRequired
-### -field TRUE
-
+<td width="40%"><a id="Flags.VPRPagingContextRequired"></a><a id="flags.vprpagingcontextrequired"></a><a id="FLAGS.VPRPAGINGCONTEXTREQUIRED"></a><dl>
+<dt><b>Flags.VPRPagingContextRequired</b></dt>
+<dt><b>TRUE</b></dt>
+</dl>
 </td>
 <td width="60%">
 The adapter requires the index of the VPR paging node.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field VPRPagingNode
 
 Index of the node to be used for move paging in  the VPR.
 
-
-## -remarks

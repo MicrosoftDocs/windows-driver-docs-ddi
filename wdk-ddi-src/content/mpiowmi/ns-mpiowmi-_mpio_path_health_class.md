@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 13be9014-e1ce-4b08-a264-c2828e8632ae
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MPIO_PATH_HEALTH_CLASS, *PMPIO_PATH_HEALTH_CLASS, MPIO_PATH_HEALTH_CLASS
+ms.keywords: _MPIO_PATH_HEALTH_CLASS, MPIO_PATH_HEALTH_CLASS, MPIO_PATH_HEALTH_CLASS structure [Storage Devices], storage.mpio_path_health_class, mpiowmi/PMPIO_PATH_HEALTH_CLASS, mpiowmi/MPIO_PATH_HEALTH_CLASS, PMPIO_PATH_HEALTH_CLASS structure pointer [Storage Devices], *PMPIO_PATH_HEALTH_CLASS, structs-scsibus_ffbf044f-24cd-4e04-8a26-bfa5f2542189.xml, PMPIO_PATH_HEALTH_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MPIO_PATH_HEALTH_CLASS
-req.alt-loc: mpiowmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mpiowmi.h
+apiname: 
+-	MPIO_PATH_HEALTH_CLASS
+product: Windows
+targetos: Windows
 req.typenames: *PMPIO_PATH_HEALTH_CLASS, MPIO_PATH_HEALTH_CLASS
 ---
 
 # _MPIO_PATH_HEALTH_CLASS structure
 
 
-
 ## -description
+
+
 The MPIO_PATH_HEALTH_CLASS structure represents the health information for a path.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MPIO_PATH_HEALTH_CLASS {
@@ -68,6 +78,9 @@ typedef struct _MPIO_PATH_HEALTH_CLASS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PathId
 
@@ -148,5 +161,3 @@ An unsigned character field that specifies the total number of outstanding reque
 
 Should be zero.
 
-
-## -remarks

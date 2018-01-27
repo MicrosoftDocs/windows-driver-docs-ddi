@@ -7,8 +7,8 @@ old-location: netvista\ndismallocateport.htm
 old-project: netvista
 ms.assetid: ca3a2a12-ea80-4f77-9742-b0440fb441f7
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisMAllocatePort
+ms.date: 1/18/2018
+ms.keywords: ndis/NdisMAllocatePort, ndis_ports_ref_c74ffd82-73c0-4e48-98da-d17ddf7976ae.xml, netvista.ndismallocateport, NdisMAllocatePort, NdisMAllocatePort function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisMAllocatePort
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisMAllocatePort
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMAllocatePort function
 
 
-
 ## -description
+
+
 The 
   <b>NdisMAllocatePort</b> function allocates an NDIS port that is associated with a miniport adapter.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisMAllocatePort(
@@ -56,41 +67,90 @@ NDIS_STATUS NdisMAllocatePort(
 
 ## -parameters
 
-### -param MiniportAdapterHandle [in]
 
-The miniport adapter handle that NDIS passed to the 
-     <i>MiniportAdapterHandle</i> parameter of the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
-     MiniportInitializeEx</a> function.
+
+
+### -param NdisMiniportHandle
+
+TBD
 
 
 ### -param PortCharacteristics [in, out]
 
 A pointer to an 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">
-     NDIS_PORT_CHARACTERISTICS</a> structure that defines the characteristics of the port.
+     <mshelp:link keywords="netvista.ndis_port_characteristics" tabindex="0"><b>
+     NDIS_PORT_CHARACTERISTICS</b></mshelp:link> structure that defines the characteristics of the port.
+
+
+#### - MiniportAdapterHandle [in]
+
+The miniport adapter handle that NDIS passed to the 
+     <i>MiniportAdapterHandle</i> parameter of the 
+     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
+     MiniportInitializeEx</i></mshelp:link> function.
 
 
 ## -returns
+
+
 <b>NdisMAllocatePort</b> can return one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_SUCCESS</b></dt>
-</dl>NDIS successfully allocated resources for the port.
+</dl>
+</td>
+<td width="60%">
+NDIS successfully allocated resources for the port.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_RESOURCES</b></dt>
-</dl>NDIS could not allocate resources for the port.
+</dl>
+</td>
+<td width="60%">
+NDIS could not allocate resources for the port.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_CLOSING</b></dt>
-</dl>The port allocation failed because the associated miniport adapter is closing.
+</dl>
+</td>
+<td width="60%">
+The port allocation failed because the associated miniport adapter is closing.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_INVALID_DATA</b></dt>
-</dl>The data that was supplied at the 
+</dl>
+</td>
+<td width="60%">
+The data that was supplied at the 
        <i>PortCharacteristics</i> parameter was invalid.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The 
     <b>NdisMAllocatePort</b> function allocates resources and a port number for a port that is associated with
     a miniport adapter. The port is not active until the miniport driver issues a 
@@ -105,8 +165,8 @@ After the miniport driver activates the port, NDIS generates a PnP notification 
 When 
     <b>NdisMAllocatePort</b> successfully returns, the 
     <b>PortNumber</b> member of the 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">
-    NDIS_PORT_CHARACTERISTICS</a> structure that the 
+    <mshelp:link keywords="netvista.ndis_port_characteristics" tabindex="0"><b>
+    NDIS_PORT_CHARACTERISTICS</b></mshelp:link> structure that the 
     <i>PortCharacteristics</i> parameter specifies is set to the port number that NDIS assigned to the
     port.
 
@@ -114,27 +174,22 @@ After a port is no longer required, the miniport driver should call the
     <a href="..\ndis\nf-ndis-ndismfreeport.md">NdisMFreePort</a> function to free the port.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-</dt>
-<dt>
-<a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismfreeport.md">NdisMFreePort</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/39c77921-5841-40f5-90ba-0fba89b3b55e">Allocating an NDIS Port</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nf-ndis-ndismfreeport.md">NdisMFreePort</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMAllocatePort function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMAllocatePort function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

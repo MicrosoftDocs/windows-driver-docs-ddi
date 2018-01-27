@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c3730035-74fc-421a-89dc-7411e53950f5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _POWER_STATE, *PPOWER_STATE, POWER_STATE
+ms.keywords: PPOWER_STATE, POWER_STATE union [Kernel-Mode Driver Architecture], wdm/POWER_STATE, *PPOWER_STATE, PPOWER_STATE union pointer [Kernel-Mode Driver Architecture], kstruct_c_a0fca0b4-3d45-48e4-b3ee-ba473ac08347.xml, kernel.power_state, POWER_STATE, _POWER_STATE, wdm/PPOWER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: POWER_STATE
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	POWER_STATE
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_STATE, POWER_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _POWER_STATE structure
 
 
-
 ## -description
+
+
 The <b>POWER_STATE</b> union specifies a <a href="https://msdn.microsoft.com/bb30bc89-d1f2-4cb3-bcfb-fb76c69dba27">system power state</a> value or a device power state value.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _POWER_STATE {
@@ -55,6 +65,9 @@ typedef union _POWER_STATE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field SystemState
 
@@ -67,29 +80,26 @@ A device power state value of type <a href="..\wudfddi\ne-wudfddi-_device_power_
 
 
 ## -remarks
-The <b>POWER_STATE</b> union is used in conjunction with the <a href="..\wdm\ne-wdm-_power_state_type.md">POWER_STATE_TYPE</a> enumeration type to specify a system power state value or a device power state value. This union is also used in cases where the power state type is implicitly determined by the context in which it is used. For example, see <a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a> and <a href="..\ntifs\nf-ntifs-posetpowerstate.md">PoSetPowerState</a>.
+
+
+The <b>POWER_STATE</b> union is used in conjunction with the <a href="..\wdm\ne-wdm-_power_state_type.md">POWER_STATE_TYPE</a> enumeration type to specify a system power state value or a device power state value. This union is also used in cases where the power state type is implicitly determined by the context in which it is used. For example, see <a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a> and <a href="..\wdm\nf-wdm-posetpowerstate.md">PoSetPowerState</a>.
 
 For more information about power management, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548108">Introduction to Power Management</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-posetpowerstate.md">PoSetPowerState</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-posetpowerstate.md">PoSetPowerState</a>
+
 <a href="..\wdm\ne-wdm-_power_state_type.md">POWER_STATE_TYPE</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
+
 <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
-</dt>
-</dl>
+
  
 
  

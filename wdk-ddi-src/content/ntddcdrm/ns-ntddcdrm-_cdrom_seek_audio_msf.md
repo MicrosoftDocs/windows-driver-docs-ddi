@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8fd4e642-5ed4-409e-bcc2-94d309a1e04c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CDROM_SEEK_AUDIO_MSF, CDROM_SEEK_AUDIO_MSF, *PCDROM_SEEK_AUDIO_MSF
+ms.keywords: *PCDROM_SEEK_AUDIO_MSF, _CDROM_SEEK_AUDIO_MSF, ntddcdrm/PCDROM_SEEK_AUDIO_MSF, ntddcdrm/CDROM_SEEK_AUDIO_MSF, PCDROM_SEEK_AUDIO_MSF, CDROM_SEEK_AUDIO_MSF structure [Storage Devices], storage.cdrom_seek_audio_msf, CDROM_SEEK_AUDIO_MSF, structs-CD-ROM_1e8a9382-37c6-4473-831e-3547774a5b9d.xml, PCDROM_SEEK_AUDIO_MSF structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CDROM_SEEK_AUDIO_MSF
-req.alt-loc: ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: CDROM_SEEK_AUDIO_MSF, *PCDROM_SEEK_AUDIO_MSF
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdrm.h
+apiname: 
+-	CDROM_SEEK_AUDIO_MSF
+product: Windows
+targetos: Windows
+req.typenames: *PCDROM_SEEK_AUDIO_MSF, CDROM_SEEK_AUDIO_MSF
 ---
 
 # _CDROM_SEEK_AUDIO_MSF structure
 
 
-
 ## -description
+
+
 The CDROM_SEEK_AUDIO_MSF structure contains the minute, second, and frame that the device must seek to upon receipt of a device control IRP with a control code of <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_seek_audio_msf.md">IOCTL_CDROM_SEEK_AUDIO_MSF</a>. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CDROM_SEEK_AUDIO_MSF {
@@ -55,6 +65,9 @@ typedef struct _CDROM_SEEK_AUDIO_MSF {
 
 
 ## -struct-fields
+
+
+
 
 ### -field M
 
@@ -71,15 +84,10 @@ Contains an integer between 0 and 59 that indicates the second to seek to.
 Contains an integer between 0 and 74 that indicates the frame to seek to.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_seek_audio_msf.md">IOCTL_CDROM_SEEK_AUDIO_MSF</a>
-</dt>
-</dl>
+
  
 
  

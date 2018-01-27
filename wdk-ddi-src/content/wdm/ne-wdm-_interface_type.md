@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4d20f3fd-d06e-420b-af69-9ef34addc611
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _INTERFACE_TYPE, *PINTERFACE_TYPE, INTERFACE_TYPE
+ms.keywords: wdm/Vmcs, *PINTERFACE_TYPE, wdm/MPIBus, MaximumInterfaceType, wdm/MPSABus, wdm/PCIBus, PINTERFACE_TYPE, Isa, wdm/Internal, MicroChannel, wdm/Eisa, PCMCIABus, wdm/MaximumInterfaceType, wdm/Isa, wdm/InterfaceTypeUndefined, CBus, InternalPowerBus, ACPIBus, PINTERFACE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], INTERFACE_TYPE enumeration [Kernel-Mode Driver Architecture], PCIBus, wdm/InternalPowerBus, MPIBus, kernel.interface_type, _INTERFACE_TYPE, MPSABus, Vmcs, wdm/ProcessorInternal, PNPBus, wdm/NuBus, Internal, TurboChannel, PNPISABus, Eisa, wdm/PNPBus, wdm/PCMCIABus, wdm/PINTERFACE_TYPE, wdm/TurboChannel, ProcessorInternal, wdm/PNPISABus, InterfaceTypeUndefined, wdm/MicroChannel, wdm/INTERFACE_TYPE, VMEBus, wdm/ACPIBus, wdm/VMEBus, wdm/CBus, INTERFACE_TYPE, sysenum_a73e08e6-79ef-4a5b-82b1-cfd4bc4269f8.xml, NuBus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: INTERFACE_TYPE
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	INTERFACE_TYPE
+product: Windows
+targetos: Windows
 req.typenames: *PINTERFACE_TYPE, INTERFACE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _INTERFACE_TYPE enumeration
 
 
-
 ## -description
+
+
 The <b>INTERFACE_TYPE</b> enumeration indicates the bus type. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _INTERFACE_TYPE { 
@@ -73,6 +83,9 @@ typedef enum _INTERFACE_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field InterfaceTypeUndefined
 
@@ -174,30 +187,20 @@ Indicates that the interface is published by the ACPI bus driver. The ACPI bus d
 Marks the upper limit of the possible bus types.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
-</dt>
-<dt>
-<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
-</dt>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportgetdevicebase.md">StorPortGetDeviceBase</a>
-</dt>
-<dt>
+
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
+
 <a href="..\storport\nf-storport-storportvalidaterange.md">StorPortValidateRange</a>
-</dt>
-</dl>
+
+<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+
+<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+
  
 
  

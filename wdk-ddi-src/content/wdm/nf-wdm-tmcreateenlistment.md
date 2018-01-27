@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 84fcbc30-993c-430b-a8b9-aefca44e478e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmCreateEnlistment
+ms.keywords: wdm/TmCreateEnlistment, kernel.tmcreateenlistment, ktm_ref_79bc27ad-3c37-4396-9c9d-5bc429299db4.xml, TmCreateEnlistment, TmCreateEnlistment routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later operating system
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TmCreateEnlistment
-req.alt-loc: NtosKrnl.exe,Ext-MS-Win-ntos-tm-l1-1-0.dll,tm.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,19 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+-	Ext-MS-Win-ntos-tm-l1-1-0.dll
+-	tm.sys
+apiname: 
+-	TmCreateEnlistment
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +49,14 @@ req.product: Windows 10 or later.
 # TmCreateEnlistment function
 
 
-
 ## -description
+
+
 The <b>TmCreateEnlistment</b> routine creates a new <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a> for a transaction.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS TmCreateEnlistment(
@@ -62,6 +74,9 @@ NTSTATUS TmCreateEnlistment(
 
 
 ## -parameters
+
+
+
 
 ### -param EnlistmentHandle [out]
 
@@ -96,7 +111,6 @@ A pointer to a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba
 ### -param CreateOptions [in, optional]
 
 Enlistment option flags. The following table contains the only available flag. 
-
 <table>
 <tr>
 <th><i>CreateOptions</i> flag</th>
@@ -112,8 +126,7 @@ The caller is enlisting as a <a href="https://msdn.microsoft.com/6f6bf61a-fe53-4
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 This parameter is optional and can be zero. 
 
@@ -129,76 +142,130 @@ A pointer to caller-defined information that uniquely identifies the enlistment.
 
 
 ## -returns
+
+
 <b>TmCreateEnlistment</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The value of the <i>CreateOptions</i> or <i>NotificationMask</i> parameter is invalid, or KTM could not find the transaction that the <i>Transaction</i> parameter specifies.
+</dl>
+</td>
+<td width="60%">
+The value of the <i>CreateOptions</i> or <i>NotificationMask</i> parameter is invalid, or KTM could not find the transaction that the <i>Transaction</i> parameter specifies.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>A memory allocation failed.
+</dl>
+</td>
+<td width="60%">
+A memory allocation failed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_TRANSACTIONMANAGER_NOT_ONLINE</b></dt>
-</dl>The enlistment failed because KTM or the resource manager is not in an operational state.
+</dl>
+</td>
+<td width="60%">
+The enlistment failed because KTM or the resource manager is not in an operational state.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_TRANSACTION_NOT_ACTIVE</b></dt>
-</dl>The enlistment failed because the transaction that the <i>Transaction</i> parameter specifies is not active.
+</dl>
+</td>
+<td width="60%">
+The enlistment failed because the transaction that the <i>Transaction</i> parameter specifies is not active.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_TRANSACTION_SUPERIOR_EXISTS</b></dt>
-</dl>The caller tried to register as a <a href="https://msdn.microsoft.com/6f6bf61a-fe53-47b5-9559-f76334969af8">superior transaction manager</a> but a superior enlistment already exists.
+</dl>
+</td>
+<td width="60%">
+The caller tried to register as a <a href="https://msdn.microsoft.com/6f6bf61a-fe53-47b5-9559-f76334969af8">superior transaction manager</a> but a superior enlistment already exists.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_TM_VOLATILE</b></dt>
-</dl>The caller is trying to register as a superior transaction manager, but the caller's resource manager object is <a href="kernel.creating_a_resource_manager#kernel.creating_a_volatile_resource_manager#kernel.creating_a_volatile_resource_manager">volatile</a> while the associated transaction manager object is not volatile.
+</dl>
+</td>
+<td width="60%">
+The caller is trying to register as a superior transaction manager, but the caller's resource manager object is <a href="https://msdn.microsoft.com/b2841d56-650a-487c-a002-2521cd1b461b">volatile</a> while the associated transaction manager object is not volatile.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>The value of the <i>DesiredAccess</i> parameter is invalid.
+</dl>
+</td>
+<td width="60%">
+The value of the <i>DesiredAccess</i> parameter is invalid.
 
- 
+</td>
+</tr>
+</table> 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
+
 ## -remarks
+
+
 The <b>TmCreateEnlistment</b> routine is a pointer-based version of the <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a> routine.
 
 For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of <b>Zw<i>Xxx</i></b> routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565567">Using TmXxx Routines</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
 <a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
+
+<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
+
+<a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
  
 
  

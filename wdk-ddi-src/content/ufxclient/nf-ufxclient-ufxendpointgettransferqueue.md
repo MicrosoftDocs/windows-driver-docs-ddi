@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 74E78EC9-4D2B-4CA4-AC00-03EB7433617C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UfxEndpointGetTransferQueue
+ms.keywords: buses.ufxendpointgettransferqueue, ufxclient/UfxEndpointGetTransferQueue, UfxEndpointGetTransferQueue, UfxEndpointGetTransferQueue method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UfxEndpointGetTransferQueue
-req.alt-loc: ufxclient.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ufxclient.h
+apiname: 
+-	UfxEndpointGetTransferQueue
+product: Windows
+targetos: Windows
+req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
 # UfxEndpointGetTransferQueue function
 
 
-
 ## -description
+
+
 Returns the transfer queue previously created by <a href="..\ufxclient\nf-ufxclient-ufxendpointcreate.md">UfxEndpointCreate</a>.
 
 
-
 ## -syntax
+
 
 ````
 WDFQUEUE UfxEndpointGetTransferQueue(
@@ -55,25 +65,32 @@ WDFQUEUE UfxEndpointGetTransferQueue(
 
 ## -parameters
 
+
+
+
 ### -param UfxEndpoint [in]
 
 A handle to an endpoint object returned from a previous call to <a href="..\ufxclient\nf-ufxclient-ufxendpointcreate.md">UfxEndpointCreate</a>.
 
 
 ## -returns
+
+
 A handle to a framework queue object.
 
 
+
 ## -remarks
+
+
 For an code example that shows how to create an endpoint object and initialize its context, see the Remarks section of <a href="..\ufxclient\nf-ufxclient-ufxendpointcreate.md">UfxEndpointCreate</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ufxclient\nf-ufxclient-ufxendpointcreate.md">UfxEndpointCreate</a>
-</dt>
-</dl>
+
  
 
  

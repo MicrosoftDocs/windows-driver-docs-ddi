@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 709583a5-5367-4187-a560-29b2c8eedbf4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_FLIPOVERLAY, D3DDDICB_FLIPOVERLAY
+ms.keywords: D3DDDICB_FLIPOVERLAY structure [Display Devices], D3D_param_Structs_cb3914df-9c6b-43f0-a8fa-a2f06f5b2abd.xml, _D3DDDICB_FLIPOVERLAY, display.d3dddicb_flipoverlay, D3DDDICB_FLIPOVERLAY, d3dumddi/D3DDDICB_FLIPOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_FLIPOVERLAY
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_FLIPOVERLAY
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_FLIPOVERLAY
 ---
 
 # _D3DDDICB_FLIPOVERLAY structure
 
 
-
 ## -description
+
+
 The D3DDDICB_FLIPOVERLAY structure describes a new allocation to display for the overlay. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_FLIPOVERLAY {
@@ -56,6 +66,9 @@ typedef struct _D3DDDICB_FLIPOVERLAY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hKernelOverlay
 
@@ -77,18 +90,12 @@ typedef struct _D3DDDICB_FLIPOVERLAY {
 [in] The size, in bytes, of the block of private data that is pointed to by <b>pPrivateDriverData</b>.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flipoverlaycb.md">pfnFlipOverlayCb</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A9508EBF-0B33-48D7-AD57-31E38D77F5DA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2, DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2
+ms.keywords: DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2, display.dxgk_multiplane_overlay_plane_with_source2, _DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2, DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2
+product: Windows
+targetos: Windows
 req.typenames: DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2
 ---
 
 # _DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2 structure
 
 
-
 ## -description
+
+
 Used in a call to the <i>DxgkDdiCheckMultiPlaneOverlaySupport3</i> function to check details on hardware support for multi-plane overlays.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2 {
@@ -56,6 +66,9 @@ typedef struct _DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hAllocation
 
@@ -76,5 +89,3 @@ The zero based index indicating the Z order of the overlay plane.
 
 A DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 structure that specifies overlay plane attributes.
 
-
-## -remarks

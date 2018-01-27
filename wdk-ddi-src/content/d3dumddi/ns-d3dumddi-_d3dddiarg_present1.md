@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 17EBEEF1-4C86-4948-AADA-669B2952755A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_PRESENT1, D3DDDIARG_PRESENT1
+ms.keywords: D3DDDIARG_PRESENT1, _D3DDDIARG_PRESENT1, d3dumddi/D3DDDIARG_PRESENT1, display.d3dddiarg_present1, D3DDDIARG_PRESENT1 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_PRESENT1
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_PRESENT1
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_PRESENT1
 ---
 
 # _D3DDDIARG_PRESENT1 structure
 
 
-
 ## -description
+
+
 Describes a resource to display. Used with the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present1.md">pfnPresent1(D3D)</a> function by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3DDDIARG_PRESENT1 {
@@ -61,6 +71,9 @@ typedef struct D3DDDIARG_PRESENT1 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field phSrcResources
 
@@ -110,27 +123,24 @@ The driver can use this member to perform optimizations, though it's not require
 [in] The number of dirty rectangles in the array pointed to by <b>pDirtyRects</b>.
 
 
-## -remarks
+### -field BackBufferMultiplicity
+
+ 
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_presentflags.md">D3DDDI_PRESENTFLAGS</a>
-</dt>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present1.md">pfnPresent1(D3D)</a>
-</dt>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_presentcb.md">pfnPresentCb</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present1.md">pfnPresent1(D3D)</a>
+
+<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_presentcb.md">pfnPresentCb</a>
+
  
 
  

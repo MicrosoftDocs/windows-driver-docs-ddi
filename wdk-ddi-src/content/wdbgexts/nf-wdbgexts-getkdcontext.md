@@ -7,8 +7,8 @@ old-location: debugger\getkdcontext.htm
 old-project: debugger
 ms.assetid: cf795629-cf62-45fa-ad5e-e2eef576bcfd
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: GetKdContext
+ms.date: 1/19/2018
+ms.keywords: wdbgexts/GetKdContext, debugger.getkdcontext, GetKdContext, GetKdContext function [Windows Debugging], WdbgExts_Ref_951ca10a-3a73-433c-bd95-f054967f0df6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GetKdContext
-req.alt-loc: wdbgexts.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wdbgexts.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdbgexts.h
+apiname: 
+-	GetKdContext
+product: Windows
+targetos: Windows
 req.typenames: EXT_TDOP
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # GetKdContext macro
 
 
-
 ## -description
+
+
 The <b>GetKdContext</b> function returns the total number of processors and the number of the current processor in the structure <i>ppi</i> points to.
 
 
-
 ## -syntax
+
 
 ````
 ULONG GetKdContext(
@@ -55,13 +65,13 @@ ULONG GetKdContext(
 
 ## -parameters
 
-### -param ppi 
+
+
+
+### -param ppi
 
 Points to the following structure:
-
 <pre class="syntax" xml:space="preserve"><code>typedef struct _tagPROCESSORINFO {
   USHORT  Processor;           // current processor
   USHORT  NumberProcessors;    // total number of processors
 } PROCESSORINFO, *PPROCESSORINFO;</code></pre>
-
-## -remarks

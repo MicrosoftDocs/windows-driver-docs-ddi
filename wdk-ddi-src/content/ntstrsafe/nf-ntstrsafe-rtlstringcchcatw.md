@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4d2d0c14-a311-4235-9ceb-4b703ef602fe
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCchCatW
+ms.keywords: ntstrsafe/RtlStringCchCatA, ntstrsafe/RtlStringCchCatW, RtlStringCchCatW function [Kernel-Mode Driver Architecture], RtlStringCchCatA, kernel.rtlstringcchcat, safestrings_03a0e306-3b4e-4808-b257-a8327b688a08.xml, RtlStringCchCat, RtlStringCchCatW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP with Service Pack 1 (SP1) and
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlStringCchCatW,RtlStringCchCatA,RtlStringCchCatW
-req.alt-loc: Ntstrsafe.lib,Ntstrsafe.dll
 req.ddi-compliance: 
 req.unicode-ansi: RtlStringCchCatW (Unicode) and RtlStringCchCatA (ANSI)
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ntstrsafe.lib
+-	Ntstrsafe.dll
+apiname: 
+-	RtlStringCchCatW
+-	RtlStringCchCatA
+-	RtlStringCchCatW
+product: Windows
+targetos: Windows
 req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCchCatW function
 
 
-
 ## -description
+
+
 The <b>RtlStringCchCatW</b> and <b>RtlStringCchCatA</b> functions concatenate two character-counted strings.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlStringCchCatW(
@@ -55,6 +68,9 @@ NTSTATUS RtlStringCchCatW(
 
 
 ## -parameters
+
+
+
 
 ### -param pszDest [in, out]
 
@@ -72,44 +88,111 @@ A pointer to a null-terminated string. This string will be concatenated to the e
 
 
 ## -returns
+
+
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>This <i>success</i> status means source data was present, the output string was created without truncation, and the resultant destination buffer is null-terminated.
+</dl>
+</td>
+<td width="60%">
+This <i>success</i> status means source data was present, the output string was created without truncation, and the resultant destination buffer is null-terminated.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_OVERFLOW</b></dt>
-</dl>This <i>warning</i> status means the operation did not complete due to insufficient space in the destination buffer. The destination buffer contains a truncated, null-terminated version of the intended result.
+</dl>
+</td>
+<td width="60%">
+This <i>warning</i> status means the operation did not complete due to insufficient space in the destination buffer. The destination buffer contains a truncated, null-terminated version of the intended result.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>This <i>error</i> status means the function received an invalid input parameter. For more information, see the following paragraph.
+</dl>
+</td>
+<td width="60%">
+This <i>error</i> status means the function received an invalid input parameter. For more information, see the following paragraph.
 
 The function returns the STATUS_INVALID_PARAMETER value when:
 
- 
+<ul>
+<li>The value in <i>cchDest </i> is larger than the maximum buffer size.</li>
+<li>The destination buffer was already full.</li>
+<li>A <b>NULL</b> pointer was present.</li>
+<li>The destination buffer pointer was <b>NULL</b>, but the buffer size was not zero.</li>
+<li>The destination buffer length was zero, but a nonzero length source string was present.</li>
+</ul>
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-<b>RtlStringCchCatW</b> and <b>RtlStringCchCatA</b> should be used instead of the following functions: 
 
+
+<b>RtlStringCchCatW</b> and <b>RtlStringCchCatA</b> should be used instead of the following functions: 
+<ul>
+<li>
 <b>strcat</b>
 
+</li>
+<li>
 <b>wcscat</b>
 
-The size, in characters, of the destination buffer is provided to ensure that <b>RtlStringCchCatW</b> and <b>RtlStringCchCatA</b> do not write past the end of the buffer.
+</li>
+</ul>The size, in characters, of the destination buffer is provided to ensure that <b>RtlStringCchCatW</b> and <b>RtlStringCchCatA</b> do not write past the end of the buffer.
 
 Use <b>RtlStringCchCatW</b> to handle Unicode strings and <b>RtlStringCchCatA</b> to handle ANSI strings. The form you use depends on your data, as shown in the following table.
-
+<table>
+<tr>
+<th>String data type</th>
+<th>String literal</th>
+<th>Function</th>
+</tr>
+<tr>
+<td>
 WCHAR
 
+</td>
+<td>
 L"string"
 
+</td>
+<td>
 <b>RtlStringCchCatW</b>
 
+</td>
+</tr>
+<tr>
+<td>
 <b>char</b>
 
+</td>
+<td>
 "string"
 
+</td>
+<td>
 <b>RtlStringCchCatA</b>
+
+</td>
+</tr>
+</table> 
 
 If  <i>pszSrc</i> and <i>pszDest</i> point to overlapping strings, the behavior of the function is undefined.
 
@@ -118,18 +201,15 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to hand
 For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatw.md">RtlStringCbCat</a>
-</dt>
-<dt>
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatexw.md">RtlStringCchCatEx</a>
-</dt>
-<dt>
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatnw.md">RtlStringCchCatN</a>
-</dt>
-</dl>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatexw.md">RtlStringCchCatEx</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatw.md">RtlStringCbCat</a>
+
  
 
  

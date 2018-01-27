@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: de8f8bee-44e9-4a6a-bb36-a43a66afe188
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_PREEMPTCOMMAND, DXGKARG_PREEMPTCOMMAND
+ms.keywords: DmStructs_2564ca47-8304-4a95-a408-2e5ccca7353d.xml, _DXGKARG_PREEMPTCOMMAND, DXGKARG_PREEMPTCOMMAND, d3dkmddi/DXGKARG_PREEMPTCOMMAND, DXGKARG_PREEMPTCOMMAND structure [Display Devices], display.dxgkarg_preemptcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_PREEMPTCOMMAND
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_PREEMPTCOMMAND
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_PREEMPTCOMMAND
 ---
 
 # _DXGKARG_PREEMPTCOMMAND structure
 
 
-
 ## -description
+
+
 The DXGKARG_PREEMPTCOMMAND structure describes a command that a display miniport driver must use to preempt a direct memory access (DMA) buffer that the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a> function previously submitted to the hardware command execution unit.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_PREEMPTCOMMAND {
@@ -56,6 +66,9 @@ typedef struct _DXGKARG_PREEMPTCOMMAND {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PreemptionFenceId
 
@@ -77,30 +90,20 @@ typedef struct _DXGKARG_PREEMPTCOMMAND {
 [in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_preemptcommandflags.md">DXGK_PREEMPTCOMMANDFLAGS</a> structure with a reserved member or a 32-bit value. No flags are currently defined for this structure.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_preemptcommandflags.md">DXGK_PREEMPTCOMMANDFLAGS</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_dpc.md">DxgkCbNotifyDpc</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
-</dt>
-<dt>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_dpc.md">DxgkCbNotifyDpc</a>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_preemptcommand.md">DxgkDdiPreemptCommand</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0c0b877f-cef0-4e98-9f37-60f2d96b81bd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_BRIGHTNESS_INTERFACE_2, DXGK_BRIGHTNESS_INTERFACE_2, *PDXGK_BRIGHTNESS_INTERFACE_2
+ms.keywords: display.dxgk_brightness_interface_2, dispmprt/DXGK_BRIGHTNESS_INTERFACE_2, PDXGK_BRIGHTNESS_INTERFACE_2, DXGK_BRIGHTNESS_INTERFACE_2 structure [Display Devices], *PDXGK_BRIGHTNESS_INTERFACE_2, DXGK_BRIGHTNESS_INTERFACE_2, dispmprt/PDXGK_BRIGHTNESS_INTERFACE_2, PDXGK_BRIGHTNESS_INTERFACE_2 structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_BRIGHTNESS_INTERFACE_2
-req.alt-loc: Dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: DXGK_BRIGHTNESS_INTERFACE_2, *PDXGK_BRIGHTNESS_INTERFACE_2
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Dispmprt.h
+apiname: 
+-	DXGK_BRIGHTNESS_INTERFACE_2
+product: Windows
+targetos: Windows
+req.typenames: *PDXGK_BRIGHTNESS_INTERFACE_2, DXGK_BRIGHTNESS_INTERFACE_2
 ---
 
 # DXGK_BRIGHTNESS_INTERFACE_2 structure
 
 
-
 ## -description
+
+
 Contains pointers to functions in the Panel Brightness Control Interface Version 2. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers that support adaptive and smooth brightness control.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -64,6 +74,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -126,17 +139,18 @@ typedef struct {
 
 
 ## -remarks
+
+
 This structure provides additional members, beyond those in the <a href="..\dispmprt\ns-dispmprt-dxgk_brightness_interface.md">DXGK_BRIGHTNESS_INTERFACE</a> interface, that point to driver-implemented functions that control, measure, and optimize display panel brightness and allow smooth brightness control.
 
 For more information on this interface, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj647485">Brightness Control Interface V. 2 (Adaptive and Smooth Brightness Control)</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\ns-dispmprt-dxgk_brightness_interface.md">DXGK_BRIGHTNESS_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

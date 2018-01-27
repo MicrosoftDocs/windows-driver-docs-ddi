@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: d829b203-8b7f-4504-a9ac-da1f91b3bbd6
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_GetLinkCollectionNodes
+ms.keywords: hidpi/HidP_GetLinkCollectionNodes, hidfunc_cbcd531f-dc4d-4a27-96bd-bfa3589af9a7.xml, HidP_GetLinkCollectionNodes, HidP_GetLinkCollectionNodes routine [Human Input Devices], hid.hidp_getlinkcollectionnodes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Windo
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HidP_GetLinkCollectionNodes
-req.alt-loc: Hidparse.lib,Hidparse.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Hidparse.lib
+-	Hidparse.dll
+apiname: 
+-	HidP_GetLinkCollectionNodes
+product: Windows
+targetos: Windows
 req.typenames: HIDP_REPORT_TYPE
 ---
 
 # HidP_GetLinkCollectionNodes function
 
 
-
 ## -description
-The <b>HidP_GetLinkCollectionNodes</b> routine returns a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection's</a> <a href="hid.link_collections#ddk_link_collection_array_kg#ddk_link_collection_array_kg">link collection array</a>.
 
+
+The <b>HidP_GetLinkCollectionNodes</b> routine returns a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection's</a> <a href="https://msdn.microsoft.com/3f934661-c33c-4c08-82ac-ee2e0f519c8e">link collection array</a>.
 
 
 ## -syntax
+
 
 ````
 NTSTATUS __stdcall HidP_GetLinkCollectionNodes(
@@ -55,6 +66,9 @@ NTSTATUS __stdcall HidP_GetLinkCollectionNodes(
 
 
 ## -parameters
+
+
+
 
 ### -param LinkCollectionNodes [out]
 
@@ -72,18 +86,43 @@ Pointer to the preparsed data of the top-level collection for which this routine
 
 
 ## -returns
+
+
 <b>HidP_GetLinkCollectionNodes</b> returns one of the following status codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_SUCCESS</b></dt>
-</dl>The routine successfully returned the specified collection's link collection array.
+</dl>
+</td>
+<td width="60%">
+The routine successfully returned the specified collection's link collection array.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_BUFFER_TOO_SMALL </b></dt>
-</dl>The <i>LinkCollectionNodes</i> buffer is too small to hold the entire link collection array.
+</dl>
+</td>
+<td width="60%">
+The <i>LinkCollectionNodes</i> buffer is too small to hold the entire link collection array.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The required length of the <i>LinkCollectionNodes</i> buffer is specified by the <b>NumberLinkCollectionNodes</b> member of a collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
 
 If <b>HidP_GetLinkCollectionNodes</b> returns the status value HIDP_STATUS_BUFFER_TOO_SMALL, it also sets <i>LinkCollectionNodesLength</i> to the length, in array elements, required to hold the link collection nodes information.
@@ -91,21 +130,17 @@ If <b>HidP_GetLinkCollectionNodes</b> returns the status value HIDP_STATUS_BUFFE
 For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-</dt>
-<dt>
+
 <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
-</dt>
-<dt>
-<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
-</dt>
-<dt>
+
 <a href="..\hidpi\ns-hidpi-_hidp_link_collection_node.md">HIDP_LINK_COLLECTION_NODE</a>
-</dt>
-</dl>
+
+<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
  
 
  

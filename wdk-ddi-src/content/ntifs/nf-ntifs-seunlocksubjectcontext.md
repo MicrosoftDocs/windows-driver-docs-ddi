@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5b0dda8f-52de-462b-8dab-8aed86e5dc0e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SeUnlockSubjectContext
+ms.keywords: SeUnlockSubjectContext, ifsk.seunlocksubjectcontext, seref_a07c19ad-03a8-403d-9844-9e85862377ab.xml, ntifs/SeUnlockSubjectContext, SeUnlockSubjectContext routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SeUnlockSubjectContext
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	SeUnlockSubjectContext
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # SeUnlockSubjectContext function
 
 
-
 ## -description
+
+
 The <b>SeUnlockSubjectContext</b> routine unlocks the tokens of a captured subject context that were locked by a call to <b>SeLockSubjectContext</b>.
 
 
-
 ## -syntax
+
 
 ````
 VOID SeUnlockSubjectContext(
@@ -54,16 +64,24 @@ VOID SeUnlockSubjectContext(
 
 ## -parameters
 
+
+
+
 ### -param SubjectContext [in]
 
 Pointer to a SECURITY_SUBJECT_CONTEXT structure whose tokens are to be unlocked.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>SeUnlockSubjectContext</b> releases the read locks on the tokens in the captured subject context.
 
 Each call to <b>SeLockSubjectContext</b> must be matched by a subsequent call to <b>SeUnlockSubjectContext</b>.
@@ -71,30 +89,23 @@ Each call to <b>SeLockSubjectContext</b> must be matched by a subsequent call to
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-selocksubjectcontext.md">SeLockSubjectContext</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-sequeryauthenticationidtoken.md">SeQueryAuthenticationIdToken</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-sequerysubjectcontexttoken.md">SeQuerySubjectContextToken</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-sequeryauthenticationidtoken.md">SeQueryAuthenticationIdToken</a>
+
 <a href="..\ntifs\nf-ntifs-sereleasesubjectcontext.md">SeReleaseSubjectContext</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-selocksubjectcontext.md">SeLockSubjectContext</a>
+
+<a href="..\ntifs\nf-ntifs-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
+
+<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
+
  
 
  

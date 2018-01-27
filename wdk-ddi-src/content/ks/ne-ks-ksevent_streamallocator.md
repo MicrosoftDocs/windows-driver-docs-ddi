@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: DD614794-5E54-4538-91C5-8777B244143C
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSEVENT_STREAMALLOCATOR, KSEVENT_STREAMALLOCATOR
+ms.keywords: ks/KSEVENT_STREAMALLOCATOR_INTERNAL_FREEFRAME, ks/KSEVENT_STREAMALLOCATOR, stream.ksevent_streamallocator, KSEVENT_STREAMALLOCATOR, KSEVENT_STREAMALLOCATOR_INTERNAL_FREEFRAME, ks/KSEVENT_STREAMALLOCATOR_FREEFRAME, KSEVENT_STREAMALLOCATOR_FREEFRAME, KSEVENT_STREAMALLOCATOR enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSEVENT_STREAMALLOCATOR
-req.alt-loc: Ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ks.h
+apiname: 
+-	KSEVENT_STREAMALLOCATOR
+product: Windows
+targetos: Windows
 req.typenames: KSEVENT_STREAMALLOCATOR
 ---
 
 # KSEVENT_STREAMALLOCATOR enumeration
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: KSEVENT_STREAMALLOCATOR
 
 
 
+
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -55,10 +65,13 @@ typedef enum  {
 
 ## -enum-fields
 
+
+
+
 ### -field KSEVENT_STREAMALLOCATOR_INTERNAL_FREEFRAME
+
 
 
 ### -field KSEVENT_STREAMALLOCATOR_FREEFRAME
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6d25f2fb-be77-480f-b07c-294ab8a4272e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetDeviceBase
+ms.keywords: storage.storportgetdevicebase, StorPortGetDeviceBase, storprt_8be3e3d9-dae5-49cb-aa44-31d3be745045.xml, StorPortGetDeviceBase routine [Storage Devices], storport/StorPortGetDeviceBase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortGetDeviceBase
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortGetDeviceBase
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortGetDeviceBase function
 
 
-
 ## -description
+
+
 The <b>StorPortGetDeviceBase</b> routine maps an I/O address to system address space. 
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API PVOID StorPortGetDeviceBase(
@@ -59,6 +70,9 @@ STORPORT_API PVOID StorPortGetDeviceBase(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -91,21 +105,25 @@ TRUE indicates the range to be mapped is in I/O space, and the miniport driver w
 
 
 ## -returns
+
+
 A mapped, logical base address corresponding to the bus-relative address supplied in the <i>IoAddress</i> parameter. 
 
 
+
 ## -remarks
+
+
 Every miniport driver must pass mapped, logical access range addresses to the Storport <i>port</i> read/write routines and the Storport <i>register</i> read/write routines when communicating with its HBA(s).
 
 This routine supports only those addresses that were assigned to the driver by the system Plug and Play (PnP) manager.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\nf-storport-storportfreedevicebase.md">StorPortFreeDeviceBase</a>
-</dt>
-</dl>
+
  
 
  

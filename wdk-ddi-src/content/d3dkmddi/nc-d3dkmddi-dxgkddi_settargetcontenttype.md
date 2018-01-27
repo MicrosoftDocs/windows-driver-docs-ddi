@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7639BF7B-6219-4490-953F-80E76CDFBAAA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddi_settargetcontenttype, DXGKDDI_SETTARGETCONTENTTYPE callback function [Display Devices], DXGKDDI_SETTARGETCONTENTTYPE, d3dkmddi/DXGKDDI_SETTARGETCONTENTTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKDDI_SETTARGETCONTENTTYPE
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKDDI_SETTARGETCONTENTTYPE
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_SETTARGETCONTENTTYPE callback
 
 
-
 ## -description
+
+
 Passes the content type for which the driver should optimize on the specified target.  <div class="alert"><b>Note</b>  This is functionally equivalent to the DxgkDdi_UpdateActiveVidPnPresentPath in previous WDDM versions if only the D3DKMDT_VIDPN_PRESENT_PATH_CONTENT field is changed.</div>
 <div> </div>
 
 
 
-
 ## -prototype
+
 
 ````
 NTSTATUS APIENTRY DXGKDDI_SETTARGETCONTENTTYPE(
@@ -56,6 +66,9 @@ NTSTATUS APIENTRY DXGKDDI_SETTARGETCONTENTTYPE(
 
 
 ## -parameters
+
+
+
 
 ### -param hAdapter [in]
 
@@ -68,10 +81,17 @@ A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_settargetcontenttype.md
 
 
 ## -returns
+
+
 If this routine succeeds, it returns STATUS_SUCCESS. 
 
 
+
 ## -remarks
+
+
 This is an optional DDI, so the function pointer in DRIVER_INITIALIZATION_DATA should be set to null if the DDI is not implemented for every adapter supported by the driver.
 This function is always called at PASSIVE level so the supporting code should be made pageable.
-</p>
+
+
+

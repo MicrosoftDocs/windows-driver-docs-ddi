@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: EC3A5F02-3D04-466E-8EB4-4BDA9CE47886
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryTotalCycleTimeThread
+ms.keywords: wdm/KeQueryTotalCycleTimeThread, KeQueryTotalCycleTimeThread, kernel.kequerytotalcycletimethread_, KeQueryTotalCycleTimeThread routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 8 and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeQueryTotalCycleTimeThread
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	KeQueryTotalCycleTimeThread
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeQueryTotalCycleTimeThread function
 
 
-
 ## -description
+
+
 The <b>KeQueryTotalCycleTimeThread</b> routine returns the accumulated cycle time for the specified thread.
 
 
-
 ## -syntax
+
 
 ````
 ULONG64 KeQueryTotalCycleTimeThread (
@@ -55,6 +65,9 @@ ULONG64 KeQueryTotalCycleTimeThread (
 
 
 ## -parameters
+
+
+
 
 ### -param Thread [in, out]
 
@@ -67,7 +80,8 @@ A pointer to the cycle counter value at the time of the query.
 
 
 ## -returns
+
+
 The accumulated cycle time for the thread.
 
 
-## -remarks

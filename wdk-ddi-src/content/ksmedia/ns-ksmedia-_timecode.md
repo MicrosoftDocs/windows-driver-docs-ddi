@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3387e014-3a62-4d76-ac6d-6446e4fa39d0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _timecode, TIMECODE, *PTIMECODE
+ms.keywords: TIMECODE union [Streaming Media Devices], PTIMECODE, *PTIMECODE, TIMECODE, vidcapstruct_80e1d01b-8140-49e8-83bd-210fb38ea0bc.xml, PTIMECODE union pointer [Streaming Media Devices], _timecode, ksmedia/TIMECODE, stream.timecode, ksmedia/PTIMECODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TIMECODE
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	TIMECODE
+product: Windows
+targetos: Windows
 req.typenames: TIMECODE
 ---
 
 # _timecode structure
 
 
-
 ## -description
+
+
 The TIMECODE union describes a timecode from an external device. This structure is no longer used.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _timecode {
@@ -58,6 +68,9 @@ typedef union _timecode {
 
 
 ## -struct-fields
+
+
+
 
 ### -field wFrameRate
 
@@ -80,15 +93,16 @@ Specifies the timecode as a quad-word.
 
 
 ## -remarks
+
+
 This structure is defined for the purpose of searching to a timecode based on an absolute track number (ATN) and/or relative time counter (RTC). However, not all devices support searching to a timecode using this structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/f3ff3815-0f4f-4fcb-89bd-e77d8002813c">KSPROPERTY_EXTXPORT_RAW_AVC_CMD</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3BB31389-EB1B-4443-9FCF-70B420D71126
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlIssueDeviceIoControl
+ms.keywords: FsRtlIssueDeviceIoControl routine [Installable File System Drivers], ifsk.fsrtlissuedeviceiocontrol, ntifs/FsRtlIssueDeviceIoControl, FsRtlIssueDeviceIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlIssueDeviceIoControl
-req.alt-loc: ntoskrnl.lib,ntoskrnl.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ntoskrnl.lib
+-	ntoskrnl.dll
+apiname: 
+-	FsRtlIssueDeviceIoControl
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlIssueDeviceIoControl function
 
 
-
 ## -description
+
+
 The <b>FsRtlIssueDeviceIoControl</b> routine sends a synchronous device I/O control request to a target device object.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlIssueDeviceIoControl(
@@ -61,6 +72,9 @@ NTSTATUS FsRtlIssueDeviceIoControl(
 
 ## -parameters
 
+
+
+
 ### -param DeviceObject [in]
 
 The target device object.
@@ -71,9 +85,9 @@ The target device object.
 The IOCTL control code to issue.
 
 
-### -param IrpFlags [in]
+### -param Flags
 
-The desired IRP flags to set for IOCTL request.
+TBD
 
 
 ### -param InputBuffer [in, optional]
@@ -101,19 +115,22 @@ The length, in bytes, of the output data buffer at <i>OutputBuffer</i>.
 A pointer to a <b>ULONG</b> status value to receive the information field value set in the I/O status block at completion of the request.
 
 
+#### - IrpFlags [in]
+
+The desired IRP flags to set for IOCTL request.
+
+
 ## -returns
+
+
 <b>FsRtlIssueDeviceIoControl</b> returns <b>STATUS_SUCCESS</b> or an another <b>NTSTATUS</b> value returned in the status block from the I/O operation.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltdeviceiocontrolfile.md">FltDeviceIoControlFile</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: CBCE6C4C-C713-4ED3-9C40-30F9D8C2406D
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_DESTROYPAGINGQUEUE, D3DDDI_DESTROYPAGINGQUEUE
+ms.keywords: d3dukmdt/D3DDDI_DESTROYPAGINGQUEUE, D3DDDI_DESTROYPAGINGQUEUE, display.d3dddi_destroypagingqueue, D3DDDI_DESTROYPAGINGQUEUE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_DESTROYPAGINGQUEUE
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_DESTROYPAGINGQUEUE
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_DESTROYPAGINGQUEUE
 ---
 
 # D3DDDI_DESTROYPAGINGQUEUE structure
 
 
-
 ## -description
+
+
 <b>D3DDDI_DESTROYPAGINGQUEUE</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroypagingqueuecb.md">pfnDestroyPagingQueueCb</a> and <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroypagingqueue.md">D3DKMTDestroyPagingQueue</a> to wait for a paging queue to finish all operations queued to it and destroy it along with the associated sync object.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3DDDI_DESTROYPAGINGQUEUE {
@@ -54,23 +64,20 @@ typedef struct D3DDDI_DESTROYPAGINGQUEUE {
 
 ## -struct-fields
 
+
+
+
 ### -field hPagingQueue
 
 [in] A paging queue handle to be destroyed.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroypagingqueuecb.md">pfnDestroyPagingQueueCb</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroypagingqueue.md">D3DKMTDestroyPagingQueue</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroypagingqueuecb.md">pfnDestroyPagingQueueCb</a>
+
  
 
  

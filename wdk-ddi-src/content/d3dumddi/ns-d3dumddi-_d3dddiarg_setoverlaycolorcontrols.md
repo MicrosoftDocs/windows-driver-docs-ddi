@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c8f04d2e-4c8c-4d1e-92e8-0f8722dbee5a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_SETOVERLAYCOLORCONTROLS, D3DDDIARG_SETOVERLAYCOLORCONTROLS
+ms.keywords: D3DDDIARG_SETOVERLAYCOLORCONTROLS structure [Display Devices], display.d3dddiarg_setoverlaycolorcontrols, _D3DDDIARG_SETOVERLAYCOLORCONTROLS, D3DDDIARG_SETOVERLAYCOLORCONTROLS, UMDisplayDriver_param_Structs_f6504b3e-8129-4936-add8-5bbf6ba8ee54.xml, d3dumddi/D3DDDIARG_SETOVERLAYCOLORCONTROLS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_SETOVERLAYCOLORCONTROLS
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_SETOVERLAYCOLORCONTROLS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_SETOVERLAYCOLORCONTROLS
 ---
 
 # _D3DDDIARG_SETOVERLAYCOLORCONTROLS structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_SETOVERLAYCOLORCONTROLS structure describes the parameters for changing an overlay's color-control settings. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_SETOVERLAYCOLORCONTROLS {
@@ -55,6 +65,9 @@ typedef struct _D3DDDIARG_SETOVERLAYCOLORCONTROLS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hOverlay
 
@@ -71,18 +84,12 @@ typedef struct _D3DDDIARG_SETOVERLAYCOLORCONTROLS {
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlaycolorcontrols.md">D3DDDI_OVERLAYCOLORCONTROLS</a> structure that contains color-control settings.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlaycolorcontrols.md">D3DDDI_OVERLAYCOLORCONTROLS</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setoverlaycolorcontrols.md">SetOverlayColorControls</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlaycolorcontrols.md">D3DDDI_OVERLAYCOLORCONTROLS</a>
+
  
 
  

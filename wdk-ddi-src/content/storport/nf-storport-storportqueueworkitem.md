@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7B5DD97C-2E3D-4FF7-BF04-36F016B0C6B3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortQueueWorkItem
+ms.keywords: storport/StorPortQueueWorkItem, StorPortQueueWorkItem routine [Storage Devices], StorPortQueueWorkItem, storage.storportqueueworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 8 and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortQueueWorkItem
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	StorPortQueueWorkItem
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # StorPortQueueWorkItem function
 
 
-
 ## -description
+
+
 Schedules a Storport work item to execute within the context of  a system worker thread.
 
 
-
 ## -syntax
+
 
 ````
 ULONG StorPortQueueWorkItem(
@@ -57,6 +67,9 @@ ULONG StorPortQueueWorkItem(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -79,38 +92,70 @@ Optional context for the <i>WorkItem</i> that is processed by the callback routi
 
 
 ## -returns
+
+
 The <b>StorPortQueueWorkItem</b> routine returns one of these status codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_IRQL</b></dt>
-</dl>Current IRQL &gt; DISPATCH_LEVEL.
+</dl>
+</td>
+<td width="60%">
+Current IRQL &gt; DISPATCH_LEVEL.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl><i>HwDeviceExtension</i>, <i>Worker</i>, or <i>WorkItemCallback</i> is NULL.
+</dl>
+</td>
+<td width="60%">
+<i>HwDeviceExtension</i>, <i>Worker</i>, or <i>WorkItemCallback</i> is NULL.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_BUSY</b></dt>
-</dl>The work item was is already queued for processing.
+</dl>
+</td>
+<td width="60%">
+The work item was is already queued for processing.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>The work item was successfully queued.
+</dl>
+</td>
+<td width="60%">
+The work item was successfully queued.
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\nc-storport-hw_workitem.md">HwStorWorkItem</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
-</dt>
-</dl>
+
  
 
  

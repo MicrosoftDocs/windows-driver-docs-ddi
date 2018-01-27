@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c15f9be2-1f35-41cf-a1de-880e3662f2b4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _FEATURE_DATA_PROFILE_LIST_EX, *PFEATURE_DATA_PROFILE_LIST_EX, FEATURE_DATA_PROFILE_LIST_EX
+ms.keywords: FEATURE_DATA_PROFILE_LIST_EX structure [Storage Devices], ntddmmc/PFEATURE_DATA_PROFILE_LIST_EX, ntddmmc/FEATURE_DATA_PROFILE_LIST_EX, *PFEATURE_DATA_PROFILE_LIST_EX, structs-CD-ROM_4834760d-aeb7-44eb-a8a7-4c961ff8aa4c.xml, storage.feature_data_profile_list_ex, PFEATURE_DATA_PROFILE_LIST_EX structure pointer [Storage Devices], FEATURE_DATA_PROFILE_LIST_EX, _FEATURE_DATA_PROFILE_LIST_EX, PFEATURE_DATA_PROFILE_LIST_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FEATURE_DATA_PROFILE_LIST_EX
-req.alt-loc: ntddmmc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddmmc.h
+apiname: 
+-	FEATURE_DATA_PROFILE_LIST_EX
+product: Windows
+targetos: Windows
 req.typenames: *PFEATURE_DATA_PROFILE_LIST_EX, FEATURE_DATA_PROFILE_LIST_EX
 ---
 
 # _FEATURE_DATA_PROFILE_LIST_EX structure
 
 
-
 ## -description
+
+
 The FEATURE_DATA_PROFILE_LIST_EX structure contains information corresponding to a profile list element in a profile list descriptor. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FEATURE_DATA_PROFILE_LIST_EX {
@@ -56,6 +66,9 @@ typedef struct _FEATURE_DATA_PROFILE_LIST_EX {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ProfileNumber
 
@@ -77,18 +90,12 @@ Reserved.
 Reserved. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddmmc\ne-ntddmmc-_feature_profile_type.md">FEATURE_PROFILE_TYPE</a>
-</dt>
-<dt>
+
 <a href="..\ntddmmc\ns-ntddmmc-_feature_data_profile_list.md">FEATURE_DATA_PROFILE_LIST</a>
-</dt>
-</dl>
+
+<a href="..\ntddmmc\ne-ntddmmc-_feature_profile_type.md">FEATURE_PROFILE_TYPE</a>
+
  
 
  

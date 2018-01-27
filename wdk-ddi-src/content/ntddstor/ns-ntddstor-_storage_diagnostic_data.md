@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 68BC990B-DD0C-49CD-95EC-672FD1459B39
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_DIAGNOSTIC_DATA, STORAGE_DIAGNOSTIC_DATA, *PSTORAGE_DIAGNOSTIC_DATA
+ms.keywords: STORAGE_DIAGNOSTIC_DATA structure [Storage Devices], *PSTORAGE_DIAGNOSTIC_DATA, STORAGE_DIAGNOSTIC_DATA, storage.storage_diagnostic_data, PSTORAGE_DIAGNOSTIC_DATA structure pointer [Storage Devices], ntddstor/PSTORAGE_DIAGNOSTIC_DATA, ntddstor/STORAGE_DIAGNOSTIC_DATA, _STORAGE_DIAGNOSTIC_DATA, PSTORAGE_DIAGNOSTIC_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10, version 1709.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_DIAGNOSTIC_DATA
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: STORAGE_DIAGNOSTIC_DATA, *PSTORAGE_DIAGNOSTIC_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	STORAGE_DIAGNOSTIC_DATA
+product: Windows
+targetos: Windows
+req.typenames: *PSTORAGE_DIAGNOSTIC_DATA, STORAGE_DIAGNOSTIC_DATA
 ---
 
 # _STORAGE_DIAGNOSTIC_DATA structure
 
 
-
 ## -description
+
+
 Describes  diagnostic data about the storage driver stack. The <b>STORAGE_DIAGNOSTIC_DATA</b> structure is provided in the output buffer of an  <a href="https://msdn.microsoft.com/5F71CCBE-F93F-4DCD-A673-1D6DE49C7400">IOCTL_STORAGE_DIAGNOSTIC</a> request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STORAGE_DIAGNOSTIC_DATA {
@@ -58,6 +68,9 @@ typedef struct _STORAGE_DIAGNOSTIC_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -92,18 +105,12 @@ Reserved for future use.
 Specifies the Diagnostic data buffer.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddstor\ns-ntddstor-_storage_diagnostic_request.md">STORAGE_DIAGNOSTIC_REQUEST</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/5F71CCBE-F93F-4DCD-A673-1D6DE49C7400">IOCTL_STORAGE_DIAGNOSTIC</a>
-</dt>
-</dl>
+
  
 
  

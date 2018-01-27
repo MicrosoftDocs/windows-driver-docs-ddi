@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fa9fedc5-cacc-409a-99f5-7103b5424b3c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _AVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC, *PAVC_SUBUNIT_ADDR_SPEC
+ms.keywords: avcref_56141f06-dd51-40cb-874a-ec136ec7683f.xml, PAVC_SUBUNIT_ADDR_SPEC structure pointer [Streaming Media Devices], _AVC_SUBUNIT_ADDR_SPEC, *PAVC_SUBUNIT_ADDR_SPEC, avc/AVC_SUBUNIT_ADDR_SPEC, PAVC_SUBUNIT_ADDR_SPEC, avc/PAVC_SUBUNIT_ADDR_SPEC, stream.avc_subunit_addr_spec, AVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AVC_SUBUNIT_ADDR_SPEC
-req.alt-loc: avc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: AVC_SUBUNIT_ADDR_SPEC, *PAVC_SUBUNIT_ADDR_SPEC
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	avc.h
+apiname: 
+-	AVC_SUBUNIT_ADDR_SPEC
+product: Windows
+targetos: Windows
+req.typenames: *PAVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC
 ---
 
 # _AVC_SUBUNIT_ADDR_SPEC structure
 
 
-
 ## -description
+
+
 The AVC_SUBUNIT_ADDR_SPEC structure is used with virtual instances of <i>avc.sys</i> to describe virtual subunit addresses.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _AVC_SUBUNIT_ADDR_SPEC {
@@ -55,10 +65,12 @@ typedef struct _AVC_SUBUNIT_ADDR_SPEC {
 
 ## -struct-fields
 
+
+
+
 ### -field Flags
 
 The flags extend the operation in the following ways:
-
 <table>
 <tr>
 <th>Flag</th>
@@ -84,8 +96,7 @@ Informs Device Manager that the PDO list has changed. This causes a 1394 bus res
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field SubunitAddress
@@ -93,15 +104,10 @@ Informs Device Manager that the PDO list has changed. This causes a 1394 bus res
 A Subunit Address encoded according to Section 5.3.3 of the AV/C Digital Interface Command Set General Specification, Rev 3.0. This specification can be found at the <a href="http://go.microsoft.com/fwlink/p/?linkid=8728">1394 Trade Association</a> website. The ID part (<b>SubunitAddress</b>[0] &amp; 0x7) represents the max ID (not the count of subunits), so to enumerate a single tuner subunit, you would specify 0x28 (0x5 &lt;&lt; 3). This struct supports extended subunit addresses (just allocate a bigger struct and pass the actual length with the IOCTL).
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\avc\ni-avc-ioctl_avc_bus_reset.md">IOCTL_AVC_BUS_RESET</a>
-</dt>
-</dl>
+
  
 
  

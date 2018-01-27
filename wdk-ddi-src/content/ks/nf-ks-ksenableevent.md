@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2338e583-4491-492e-b7e6-fa4e23485c22
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsEnableEvent
+ms.keywords: KsEnableEvent function [Streaming Media Devices], ks/KsEnableEvent, ksfunc_f6611298-cc8d-40eb-86e6-1287caff3ec0.xml, KsEnableEvent, stream.ksenableevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsEnableEvent
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsEnableEvent
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsEnableEvent function
 
 
-
 ## -description
+
+
 The <b>KsEnableEvent</b> function enables events requested through IOCTL_KS_ENABLE_EVENT. It responds to all event identifiers defined by the sets. This function can only be called at PASSIVE_LEVEL.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsEnableEvent(
@@ -58,6 +69,9 @@ NTSTATUS KsEnableEvent(
 
 
 ## -parameters
+
+
+
 
 ### -param Irp [in]
 
@@ -90,19 +104,23 @@ If the KSEVENT_SET.AddHandler for the event set containing the event being enabl
 
 
 ## -returns
+
+
 The <b>KsEnableEvent</b> function returns STATUS_SUCCESS if successful, or an error specific to the event being enabled if unsuccessful. The function always sets the IO_STATUS_BLOCK.Information field of the PIRP.IoStatus element within the IRP to zero. It does not set the IO_STATUS_BLOCK.Status field, nor does it complete the IRP.
 
 
+
 ## -remarks
+
+
 Minidrivers do not call <b>KsEnableEvent</b>. Only a pure KS driver or a class driver should call this routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ksdisableevent.md">KsDisableEvent</a>
-</dt>
-</dl>
+
  
 
  

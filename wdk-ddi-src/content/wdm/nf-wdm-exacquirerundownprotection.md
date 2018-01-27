@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DA4C7FBC-F5D5-48EA-90D6-F2249AF6401E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExAcquireRundownProtection
+ms.keywords: kernel.exacquirerundownprotection, ExAcquireRundownProtection, ExAcquireRundownProtection routine [Kernel-Mode Driver Architecture], wdm/ExAcquireRundownProtection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows XP.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExAcquireRundownProtection
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ExAcquireRundownProtection
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ExAcquireRundownProtection function
 
 
-
 ## -description
+
+
 The <b>ExAcquireRundownProtection</b> routine tries to acquire run-down protection on a shared object so the caller can safely access the object.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN ExAcquireRundownProtection(
@@ -55,16 +65,24 @@ BOOLEAN ExAcquireRundownProtection(
 
 ## -parameters
 
+
+
+
 ### -param RunRef [in, out]
 
 A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a> structure that was initialized by a previous call to the  <a href="..\wdm\nf-wdm-exinitializerundownprotection.md">ExInitializeRundownProtection</a> routine. The run-down protection routines use this structure to track the run-down status of the associated shared object. This structure is opaque to drivers.
 
 
 ## -returns
+
+
 <b>ExAcquireRundownProtection</b> returns <b>TRUE</b> if the routine successfully acquires run-down protection for the caller. Otherwise, it returns <b>FALSE</b>. A return value of <b>FALSE</b> indicates that the run down of the object has started and that the object must be treated as invalid.
 
 
+
 ## -remarks
+
+
 To safely access a shared object, a driver calls <b>ExAcquireRundownProtection</b> to acquire run-down protection on the object. The routine returns <b>TRUE</b> to indicate that run-down  protection is in effect. When run-down protection is in effect, the driver can safely access the object without risk that the object will be deleted before the access completes.
 
 After completing the access, the driver calls <a href="..\wdm\nf-wdm-exreleaserundownprotection.md">ExReleaseRundownProtection</a> to release the previously acquired run-down protection.
@@ -74,18 +92,15 @@ If <b>ExAcquireRundownProtection</b> returns <b>FALSE</b>, the object is no long
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj569382">Run-Down Protection</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-exinitializerundownprotection.md">ExInitializeRundownProtection</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-exreleaserundownprotection.md">ExReleaseRundownProtection</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
-</dt>
-</dl>
+
  
 
  

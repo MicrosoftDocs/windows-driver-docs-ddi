@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 27bc5f1b-128d-486b-ae09-0356b1164ae0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice, IWDFDevice::GetDefaultIoTarget, GetDefaultIoTarget
+ms.keywords: IWDFDevice, GetDefaultIoTarget method, wudfddi/IWDFDevice::GetDefaultIoTarget, UMDFDeviceObjectRef_33807b94-79d4-4bb9-85a4-69de9d7c33dc.xml, wdf.iwdfdevice_getdefaultiotarget, IWDFDevice interface, GetDefaultIoTarget method, umdf.iwdfdevice_getdefaultiotarget, IWDFDevice::GetDefaultIoTarget, GetDefaultIoTarget method, IWDFDevice interface, GetDefaultIoTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.5
-req.alt-api: IWDFDevice.GetDefaultIoTarget
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFDevice.GetDefaultIoTarget
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IWDFDevice::GetDefaultIoTarget method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetDefaultIoTarget</b> method retrieves the interface of the default I/O target for a device instance.
 
 
-
 ## -syntax
+
 
 ````
 void GetDefaultIoTarget(
@@ -57,28 +67,34 @@ void GetDefaultIoTarget(
 
 ## -parameters
 
+
+
+
 ### -param ppWdfIoTarget [out]
 
 A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a> interface for the default I/O target object.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 For more information, see <a href="https://msdn.microsoft.com/cf1b39c3-4c82-411b-8eef-117ac0fe793e">Initializing a General I/O Target in UMDF</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-</dt>
-<dt>
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
-</dt>
-</dl>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
  
 
  

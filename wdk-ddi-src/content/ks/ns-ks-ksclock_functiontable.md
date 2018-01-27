@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed16588e-1c63-411d-b5c8-a8151a218328
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCLOCK_FUNCTIONTABLE, KSCLOCK_FUNCTIONTABLE, *PKSCLOCK_FUNCTIONTABLE
+ms.keywords: PKSCLOCK_FUNCTIONTABLE, KSCLOCK_FUNCTIONTABLE, PKSCLOCK_FUNCTIONTABLE structure pointer [Streaming Media Devices], ks/KSCLOCK_FUNCTIONTABLE, stream.ksclock_functiontable, ks/PKSCLOCK_FUNCTIONTABLE, *PKSCLOCK_FUNCTIONTABLE, ks-struct_b86dda38-016f-4116-9770-5b447c664b2e.xml, KSCLOCK_FUNCTIONTABLE structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSCLOCK_FUNCTIONTABLE
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSCLOCK_FUNCTIONTABLE
+product: Windows
+targetos: Windows
 req.typenames: KSCLOCK_FUNCTIONTABLE, *PKSCLOCK_FUNCTIONTABLE
 ---
 
 # KSCLOCK_FUNCTIONTABLE structure
 
 
-
 ## -description
+
+
 The KSCLOCK_FUNCTIONTABLE structure describes a function table for the master clock.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -56,6 +66,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field GetTime
 
@@ -78,17 +91,18 @@ Pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/window
 
 
 ## -remarks
+
+
 Supply this structure in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564466">KSPROPERTY_CLOCK_FUNCTIONTABLE</a> request. The property request then returns pointers to the requested routines.
 
 The function pointers returned in this structure are valid until the clock's file object is released.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564466">KSPROPERTY_CLOCK_FUNCTIONTABLE</a>
-</dt>
-</dl>
+
  
 
  

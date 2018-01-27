@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8a39b7cb-cd05-4fb8-9e50-7425e689a36f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSFASTPROPERTY_ITEM, *PKSFASTPROPERTY_ITEM, KSFASTPROPERTY_ITEM
+ms.keywords: ks-struct_dddb648f-ea8a-436a-b948-397364fe2db6.xml, *PKSFASTPROPERTY_ITEM, KSFASTPROPERTY_ITEM, PKSFASTPROPERTY_ITEM structure pointer [Streaming Media Devices], PKSFASTPROPERTY_ITEM, ks/KSFASTPROPERTY_ITEM, KSFASTPROPERTY_ITEM structure [Streaming Media Devices], stream.ksfastproperty_item, ks/PKSFASTPROPERTY_ITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSFASTPROPERTY_ITEM
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSFASTPROPERTY_ITEM, KSFASTPROPERTY_ITEM
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSFASTPROPERTY_ITEM
+product: Windows
+targetos: Windows
+req.typenames: KSFASTPROPERTY_ITEM, *PKSFASTPROPERTY_ITEM
 ---
 
 # KSFASTPROPERTY_ITEM structure
 
 
-
 ## -description
+
+
 The KSFASTPROPERTY_ITEM structure is used with items for fast I/O dispatching.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -63,9 +73,7 @@ typedef struct {
 
 ## -struct-fields
 
-### -field PropertyId
 
-Specifies the identifier of the specific property within the set.
 
 
 ### -field GetPropertyHandler
@@ -88,20 +96,20 @@ Points to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/
 A boolean value that indicates if the driver has supplied a set property handler.
 
 
+### -field PropertyId
+
+Specifies the identifier of the specific property within the set.
+
+
 ### -field Reserved
 
 Reserved and set to zero.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567173">KStrFastHandler</a>
-</dt>
-</dl>
+
  
 
  

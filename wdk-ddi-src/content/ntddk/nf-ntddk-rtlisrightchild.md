@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 23951fb8-35ab-4a05-b09b-d7f69057a5ad
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlIsRightChild
+ms.keywords: ifsk.rtlisrightchild, RtlIsRightChild, rtlref_741652e3-af4f-4e7b-978a-e6355db283a9.xml, ntddk/RtlIsRightChild, RtlIsRightChild routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlIsRightChild
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ntddk.h
 req.dll: 
 req.irql: See Remarks section.
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	RtlIsRightChild
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # RtlIsRightChild macro
 
 
-
 ## -description
+
+
 The <b>RtlIsRightChild</b> routine determines whether a given splay link is the right child of a node in a splay link tree. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN RtlIsRightChild(
@@ -54,12 +64,17 @@ BOOLEAN RtlIsRightChild(
 
 ## -parameters
 
+
+
+
 ### -param Links [in]
 
 Pointer to the node. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>. 
 
 
 ## -remarks
+
+
 The given node at <i>Links</i> must have a parent node in the tree. A caller can determine whether this node has a parent with <b>RtlIsRoot</b>. If <b>RtlIsRoot</b> returns <b>FALSE</b>, <i>Links</i> is a valid parameter to <b>RtlIsRightChild</b>. 
 
 Callers of the <b>Rtl</b> splay link routines are responsible for synchronizing access to the splay link tree. A fast mutex is the most efficient synchronization mechanism to use for this purpose. 
@@ -67,24 +82,19 @@ Callers of the <b>Rtl</b> splay link routines are responsible for synchronizing 
 Callers of <b>RtlIsRightChild</b> can be running at IRQL &lt;= DISPATCH_LEVEL if the splay link tree is nonpaged. Usually, callers are running at IRQL PASSIVE_LEVEL. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-rtlisleftchild.md">RtlIsLeftChild</a>
-</dt>
-<dt>
+
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+
 <a href="..\ntddk\nf-ntddk-rtlisroot.md">RtlIsRoot</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
+
  
 
  

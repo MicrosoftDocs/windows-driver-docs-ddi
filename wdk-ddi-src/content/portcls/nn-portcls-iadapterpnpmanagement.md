@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A5EF8214-76D9-4F4E-A9FE-9374E0EDC9D2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcUnregisterIoTimeout
+ms.keywords: audio.iadapterpnpmanagement, IAdapterPnpManagement interface [Audio Devices], IAdapterPnpManagement interface [Audio Devices], described, IAdapterPnpManagement, portcls/IAdapterPnpManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IAdapterPnpManagement
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IAdapterPnpManagement
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IAdapterPnpManagement interface
 
 
-
 ## -description
+
+
 <code>IAdapterPnpManagement</code>  is an interface that adapters should implement and
  register if they want to receive PnP management messages.
  Register this interface with PortCls using 
@@ -47,10 +57,3 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 IAdapterPnpManagement is available in Windows 10, version 1511 and later versions of Windows. 
 
-
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAdapterPnpManagement</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface but does not have additional members.
-
-
-## -remarks

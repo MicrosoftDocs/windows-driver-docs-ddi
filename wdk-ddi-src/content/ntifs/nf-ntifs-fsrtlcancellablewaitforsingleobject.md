@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b29d35bd-d27d-4507-9fa7-5648bcb1f825
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlCancellableWaitForSingleObject
+ms.keywords: FsRtlCancellableWaitForSingleObject routine [Installable File System Drivers], ntifs/FsRtlCancellableWaitForSingleObject, ifsk.fsrtlcancellablewaitforsingleobject, FsRtlCancellableWaitForSingleObject, fsrtlref_5515496d-6e38-488c-8fbf-439aa4ac555a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available starting with Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlCancellableWaitForSingleObject
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlCancellableWaitForSingleObject
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlCancellableWaitForSingleObject function
 
 
-
 ## -description
+
+
 The <b>FsRtlCancellableWaitForSingleObject</b> routine executes a cancelable wait operation (a wait that can be terminated) on a dispatcher object.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlCancellableWaitForSingleObject(
@@ -55,6 +65,9 @@ NTSTATUS FsRtlCancellableWaitForSingleObject(
 
 
 ## -parameters
+
+
+
 
 ### -param Object [in]
 
@@ -80,34 +93,83 @@ A pointer to the original IRP that corresponds to the I/O operation that was iss
 
 
 ## -returns
+
+
 <b>FsRtlCancellableWaitForSingleObject</b> can return one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The dispatcher object that is specified by the <i>Object</i> parameter satisfied the wait.
+</dl>
+</td>
+<td width="60%">
+The dispatcher object that is specified by the <i>Object</i> parameter satisfied the wait.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_TIMEOUT</b></dt>
-</dl>A time-out occurred before the object was set to a signaled state. This value can be returned when the specified set of wait conditions cannot be immediately met and <i>Timeout</i> is set to zero.
+</dl>
+</td>
+<td width="60%">
+A time-out occurred before the object was set to a signaled state. This value can be returned when the specified set of wait conditions cannot be immediately met and <i>Timeout</i> is set to zero.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ABANDONED_WAIT_0</b></dt>
-</dl>The caller attempted to wait for a mutex that has been abandoned.
+</dl>
+</td>
+<td width="60%">
+The caller attempted to wait for a mutex that has been abandoned.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_CANCELLED</b></dt>
-</dl>The wait was interrupted by a pending cancel request on the specified IRP.  Note that this value is returned only if a valid IRP is passed to <b>FsRtlCancellableWaitForSingleObject</b> and the IRP was canceled by <a href="http://go.microsoft.com/fwlink/p/?linkid=64526">CancelSynchronousIo</a>.
+</dl>
+</td>
+<td width="60%">
+The wait was interrupted by a pending cancel request on the specified IRP.  Note that this value is returned only if a valid IRP is passed to <b>FsRtlCancellableWaitForSingleObject</b> and the IRP was canceled by <a href="http://go.microsoft.com/fwlink/p/?linkid=64526">CancelSynchronousIo</a>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_THREAD_IS_TERMINATING</b></dt>
-</dl>The wait was interrupted as the thread has been terminated by an application or the user.
+</dl>
+</td>
+<td width="60%">
+The wait was interrupted as the thread has been terminated by an application or the user.
 
- 
+</td>
+</tr>
+</table> 
 
 The return value only indicates the status of the wait. If applicable, the actual status of the I/O request should be obtained directly from another IRP generated in the process of handling the original user-mode IRP.
 
 Note that the NT_SUCCESS macro returns <b>FALSE</b> ("failure") for the STATUS_CANCELLED and STATUS_THREAD_IS_TERMINATING status values and <b>TRUE</b> ("success") for all other status values.
 
 
+
 ## -remarks
+
+
 The <b>FsRtlCancellableWaitForSingleObject</b> routine executes a cancelable wait operation on a dispatcher object.  If the thread is terminated by the user or by the application, or if <a href="http://go.microsoft.com/fwlink/p/?linkid=64526">CancelSynchronousIo</a> posts a cancel request on a threaded IRP (synchronous IRP) associated with the thread, the wait is canceled.
 
-The <b>FsRtlCancellableWaitForSingleObject</b> routine was designed for support of the <a href="http://go.microsoft.com/fwlink/p/?linkid=51436">I/O Completion/Cancellation Guidelines</a> starting with Windows Vista. The goal of these guidelines is to allow users (or applications) to quickly terminate applications.  This, in turn, requires that applications have the ability to quickly terminate threads that are executing I/O as well as any current I/O operations. This routine provides a way for user threads to block (that is, wait) in the kernel for I/O completion, a dispatcher object, or a synchronization variable in a way that allows the wait to be readily canceled. This routine also permits the thread's wait to be terminated if the thread is terminated by a user or an application.
+The <b>FsRtlCancellableWaitForSingleObject</b> routine was designed for support of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn613954">I/O Completion/Cancellation Guidelines</a> starting with Windows Vista. The goal of these guidelines is to allow users (or applications) to quickly terminate applications.  This, in turn, requires that applications have the ability to quickly terminate threads that are executing I/O as well as any current I/O operations. This routine provides a way for user threads to block (that is, wait) in the kernel for I/O completion, a dispatcher object, or a synchronization variable in a way that allows the wait to be readily canceled. This routine also permits the thread's wait to be terminated if the thread is terminated by a user or an application.
 
 For example, a redirector may need to create one or more secondary IRPs in order to process a user-mode IRP and synchronously wait for the secondary IRPs to complete. One way to do this is to set up an event that will be signaled by the completion routine of the secondary IRP and then wait for the event to be signaled. Then, to perform a cancelable wait operation, <b>FsRtlCancellableWaitForSingleObject</b> is called passing in the event associated with the secondary IRP, as well as the original user-mode IRP.  The thread's wait for the event to be signaled is canceled if a pending termination event occurs or if the original user-mode IRP is canceled.
 
@@ -117,43 +179,131 @@ A special consideration applies when the <i>Object</i> parameter passed to <b>Fs
 
 A mutex can be recursively acquired only MINLONG times.  If this limit is exceeded, the routine raises a STATUS_MUTANT_LIMIT_EXCEEDED exception.
 
-The following is an example of how to use <b>FsRtlCancellableWaitForSingleObject </b>in support of the <a href="http://go.microsoft.com/fwlink/p/?linkid=51436">I/O Completion/Cancellation Guidelines</a>.
+The following is an example of how to use <b>FsRtlCancellableWaitForSingleObject </b>in support of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn613954">I/O Completion/Cancellation Guidelines</a>.
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>//
+// sample calling routine
+//
+NTSTATUS ProcessIrpFromUserMode( PIRP pOriginalIrp, ... )
+{
+NTSTATUS  Status;
+NTSTATUS  WaitStatus;
+KEVENT   Event;
+LARGE_INTEGERTimeout;
+PIRP   pAdditionalIrp;
+BOOLEAN  Cancelled;
 
-<b>FsRtlCancellableWaitForSingleObject</b> must be called at IRQL PASSIVE_LEVEL if the optional <i>Irp</i> parameter points to a valid IRP. If the <i>Irp</i> parameter is not used, the routine can be called at IRQL less or equal to APC_LEVEL. Normal kernel APCs can be disabled by the caller, if needed, by calling the <a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a> routines. However, special kernel APCs must not be disabled. 
+ //
+ // Allocate the additional IRP here:
+ //
+KeInitializeEvent( &amp;Event,
+            SynchronizationEvent,
+    FALSE );
+pContext-&gt;pEvent = &amp;Event; // Driver specific context structure.
+ IoSetCompletionRoutine( pAdditionalIrp,
+ FunctionCompletionRoutine,
+ pContext,
+ TRUE,
+ TRUE,
+ TRUE);
+ Status = IoCallDriver( pDeviceObject, pAdditionalIrp );
+  if (Status == STATUS_PENDING) {
+   //
+   // Initialize Timeout variable here. If no timeout is needed, pass NULL for 
+   // that parameter instead.
+   //
+  WaitStatus = FsRtlCancellableWaitForSingleObject( &amp;Event, 
+          &amp;Timeout,
+               pOriginalIrp );
+   if ((WaitStatus == STATUS_CANCELLED) || (WaitStatus == STATUS_THREAD_IS_TERMINATING)) {
+    //
+    // Thread is terminating. IRP was canceled.       
+    // Cancel the additional IRP passed to the lower level driver, cleanup, and return quickly.
+    //
+   Cancelled = IoCancelIrp( pAdditionalIrp );
+    if (!Cancelled || KeReadStateEvent( &amp;Event ) == 0) {
+     //
+     //  Wait for the IRP to complete. 
+     // If cancel was posted successfully on the IRP, this shouldn't take a long time.
+     //
+    (VOID) KeWaitForSingleObject( &amp;Event,
+             Executive,
+             KernelMode,        // WaitMode
+             FALSE,             // Alertable
+             (PLARGE_INTEGER) NULL );
+   }
+  } else if (WaitStatus == STATUS_TIMEOUT) {
+    //
+    // Wait timed out. The IRP was canceled or the API 
+    // waited for the I/O to complete.
+    // 
+  } else {
+   ASSERT( WaitStatus == STATUS_SUCCESS );
+    //
+    // The wait completed without timeout
+    // or being canceled.
+    //
+  }
+}
+ //
+ // IRP is valid and needs to be handled here.
+ // pAdditionalIrp-&gt;IoStatus.Status contains the status of the IRP.
+ // Finally, pOriginal IRP needs to be completed appropriately as well.
+ //
+}
+
+//
+// Sample completion routine:
+//
+NTSTATUS
+FunctionCompletionRoutine(
+  IN PDEVICE_OBJECT  pDeviceObject,
+  INOUT PIRP  pAdditionalIrp,
+  IN PVOID  pContext)
+{
+ if (pAdditionalIrp-&gt;PendingReturned) {
+ KeSetEvent( pContext-&gt;pEvent, 0, FALSE );
+}
+
+ //
+ // Discontinue I/O completion.
+ // Dispatch routine will deal with IRP.
+ //
+ return STATUS_MORE_PROCESSING_REQUIRED;
+}</pre>
+</td>
+</tr>
+</table></span></div><b>FsRtlCancellableWaitForSingleObject</b> must be called at IRQL PASSIVE_LEVEL if the optional <i>Irp</i> parameter points to a valid IRP. If the <i>Irp</i> parameter is not used, the routine can be called at IRQL less or equal to APC_LEVEL. Normal kernel APCs can be disabled by the caller, if needed, by calling the <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a> routines. However, special kernel APCs must not be disabled. 
 
 <b>FsRtlCancellableWaitForSingleObject</b> will assert on debug builds if the IRQL is greater or equal to APC_LEVEL and the optional <i>Irp</i> parameter points to a valid IRP.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-fsrtlcancellablewaitformultipleobjects.md">FsRtlCancellableWaitForMultipleObjects</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+
+<a href="..\ntifs\nf-ntifs-fsrtlcancellablewaitformultipleobjects.md">FsRtlCancellableWaitForMultipleObjects</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+
+<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
+
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
+
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+
  
 
  

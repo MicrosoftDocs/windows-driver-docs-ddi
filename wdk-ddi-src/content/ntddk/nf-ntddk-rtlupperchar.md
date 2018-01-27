@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a87e9f52-a136-492e-bfb3-dfbbea8b79e0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUpperChar
+ms.keywords: RtlUpperChar, k109_c1a13e9a-f863-4bcd-ae89-daee0c3d3a4b.xml, ntddk/RtlUpperChar, RtlUpperChar routine [Kernel-Mode Driver Architecture], kernel.rtlupperchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlUpperChar
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlUpperChar
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # RtlUpperChar function
 
 
-
 ## -description
+
+
 The <b>RtlUpperChar</b> routine converts the specified character to uppercase.
 
 
-
 ## -syntax
+
 
 ````
 CHAR RtlUpperChar(
@@ -54,28 +64,34 @@ CHAR RtlUpperChar(
 
 ## -parameters
 
+
+
+
 ### -param Character [in]
 
 Specifies the character to convert. 
 
 
 ## -returns
+
+
 <b>RtlUpperChar</b> returns the uppercase version of the specified character or returns the value specified by the caller for <i>Character</i> if the specified character cannot be converted.
 
 
+
 ## -remarks
+
+
 <b>RtlUpperChar</b> returns the input <i>Character</i> unconverted if it is the lead byte of a multibyte character or if the uppercase equivalent of <i>Character</i> is a double-byte character. To convert such characters, use <b>RtlUpcaseUnicodeChar</b>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-rtlupcaseunicodechar.md">RtlUpcaseUnicodeChar</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-rtlupperstring.md">RtlUpperString</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-rtlupcaseunicodechar.md">RtlUpcaseUnicodeChar</a>
+
  
 
  

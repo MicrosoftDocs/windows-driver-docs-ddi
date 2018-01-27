@@ -7,8 +7,8 @@ old-location: debugger\setvalues.htm
 old-project: debugger
 ms.assetid: 8f3817e7-8409-4b75-be28-ac7fe32145cb
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugRegisters2, IDebugRegisters2::SetValues, SetValues
+ms.date: 1/19/2018
+ms.keywords: IDebugRegisters_0c188698-35b8-4c8f-ad8c-1218695845a8.xml, IDebugRegisters::SetValues, dbgeng/IDebugRegisters::SetValues, dbgeng/IDebugRegisters2::SetValues, SetValues method [Windows Debugging], debugger.setvalues, SetValues, IDebugRegisters interface [Windows Debugging], SetValues method, IDebugRegisters2::SetValues, SetValues method [Windows Debugging], IDebugRegisters interface, IDebugRegisters2, SetValues method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging], SetValues method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugRegisters.SetValues,IDebugRegisters2.SetValues
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugRegisters.SetValues
+-	IDebugRegisters2.SetValues
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugRegisters2::SetValues method
 
 
-
 ## -description
-The <b>SetValues</b> method sets the value of several of the target's <a href="debugger.x86_architecture#registers#registers">registers</a>.
 
+
+The <b>SetValues</b> method sets the value of several of the target's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">registers</a>.
 
 
 ## -syntax
+
 
 ````
 HRESULT SetValues(
@@ -56,6 +67,9 @@ HRESULT SetValues(
 
 
 ## -parameters
+
+
+
 
 ### -param Count [in]
 
@@ -78,21 +92,54 @@ Specifies the array that contains values to which to set the registers.  The num
 
 
 ## -returns
+
+
 This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549771">HRESULT Values</a>.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method was successful.
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_UNEXPECTED</b></dt>
-</dl>The target is not accessible, or one or more of the registers could not be accessed.
+</dl>
+</td>
+<td width="60%">
+The target is not accessible, or one or more of the registers could not be accessed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_INVALIDARG</b></dt>
-</dl>The value of the index of one or more of the registers is greater than the number of registers on the target machine.
+</dl>
+</td>
+<td width="60%">
+The value of the index of one or more of the registers is greater than the number of registers on the target machine.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The engine does its best to coerce the values in <i>Values</i> into the type of the registers; this coercion is the same as that performed by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539158">CoerceValue</a>.  If the value is larger than what the register can hold, the least significant bits are dropped.  Floating-point and integer conversions will also be performed if necessary.  
 
 If the return value is not S_OK, some of the registers still might have been set.  
@@ -106,24 +153,20 @@ The method <a href="https://msdn.microsoft.com/library/windows/hardware/ff556884
 For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
-</dt>
-<dt>
+
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556884">SetValues2</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugRegisters::SetValues method%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugRegisters::SetValues method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

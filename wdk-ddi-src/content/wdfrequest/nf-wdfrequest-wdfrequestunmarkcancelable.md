@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 91740445-e380-4798-a553-e7d502d2ce92
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestUnmarkCancelable
+ms.keywords: DFRequestObjectRef_a20d187a-e056-4cb9-8efb-4021be144597.xml, wdfrequest/WdfRequestUnmarkCancelable, WdfRequestUnmarkCancelable method, wdf.wdfrequestunmarkcancelable, PFN_WDFREQUESTUNMARKCANCELABLE, kmdf.wdfrequestunmarkcancelable, WdfRequestUnmarkCancelable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WdfRequestUnmarkCancelable
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll,WUDFx02000.dll,WUDFx02000.dll.dll
 req.ddi-compliance: CompleteCanceledReq, DeferredRequestCompleted, DriverCreate, EvtIoStopCancel, InvalidReqAccess, InvalidReqAccessLocal, KmdfIrql, KmdfIrql2, MarkCancOnCancReqLocal, ReqIsCancOnCancReq, ReqMarkCancelableSend, ReqNotCanceledLocal
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,20 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+-	WUDFx02000.dll
+-	WUDFx02000.dll.dll
+apiname: 
+-	WdfRequestUnmarkCancelable
+product: Windows
+targetos: Windows
 req.typenames: WDF_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +50,16 @@ req.product: Windows 10 or later.
 # WdfRequestUnmarkCancelable function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfRequestUnmarkCancelable</b> method disables cancellation of a specified I/O request.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS WdfRequestUnmarkCancelable(
@@ -57,24 +70,57 @@ NTSTATUS WdfRequestUnmarkCancelable(
 
 ## -parameters
 
+
+
+
 ### -param Request [in]
 
 A handle to a framework request object.
 
 
 ## -returns
+
+
 <b>WdfRequestUnmarkCancelable</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>An input parameter is invalid or the request is already not cancelable.
+</dl>
+</td>
+<td width="60%">
+An input parameter is invalid or the request is already not cancelable.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>The driver does not own the request. 
+</dl>
+</td>
+<td width="60%">
+The driver does not own the request. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_CANCELLED</b></dt>
-</dl>The request has been canceled.
+</dl>
+</td>
+<td width="60%">
+The request has been canceled.
 
- 
+</td>
+</tr>
+</table> 
 
 This method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -84,7 +130,10 @@ This method might also return other <a href="https://msdn.microsoft.com/library/
 A bug check occurs if the driver supplies an invalid object handle.
 
 
+
 ## -remarks
+
+
 A driver can call <b>WdfRequestUnmarkCancelable</b> to disable cancellation of an I/O request, if the driver previously called <a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a> or <a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelableex.md">WdfRequestMarkCancelableEx</a> to enable cancellation of the request.
 
 If <b>WdfRequestUnmarkCancelable</b> returns a value other than STATUS_CANCELLED, the driver's <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a> callback function will not be called for the request.
@@ -101,26 +150,18 @@ If <b>WdfRequestUnmarkCancelable</b> returns STATUS_CANCELLED, the driver must n
 
 For more information about <b>WdfRequestUnmarkCancelable</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/canceling-i-o-requests">Canceling I/O Requests</a>.
 
-The following code example provides simplified versions of the <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_read.md">EvtIoRead</a>, <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a> and <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a> callback functions that the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">ECHO sample driver</a> contains. This example shows how to call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a>, <b>WdfRequestUnmarkCancelable</b>, and <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a> in a driver that uses the framework's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-automatic-synchronization">automatic synchronization</a>. (The ECHO sample uses device-level synchronization.)
-
-If your driver does not use the framework's automatic synchronization, see the two examples on <a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>. While written for a UMDF driver, these examples demonstrate techniques you can use to manage synchronization between the cancel callback and another thread that calls the <i>Unmark</i> routine.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
-</dt>
-<dt>
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a>
-</dt>
-<dt>
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelableex.md">WdfRequestMarkCancelableEx</a>
-</dt>
-<dt>
+
 <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a>
-</dt>
-</dl>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelableex.md">WdfRequestMarkCancelableEx</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1dd56465-e9e8-4a79-8533-a1777cf4d8a2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2DRAWPRIMITIVE, D3DHAL_DP2DRAWPRIMITIVE, *LPD3DHAL_DP2DRAWPRIMITIVE
+ms.keywords: LPD3DHAL_DP2DRAWPRIMITIVE structure pointer [Display Devices], d3dstrct_2736a73d-52f8-4647-86c3-2c362dc3f669.xml, d3dhal/LPD3DHAL_DP2DRAWPRIMITIVE, LPD3DHAL_DP2DRAWPRIMITIVE, D3DHAL_DP2DRAWPRIMITIVE, d3dhal/D3DHAL_DP2DRAWPRIMITIVE, D3DHAL_DP2DRAWPRIMITIVE structure [Display Devices], *LPD3DHAL_DP2DRAWPRIMITIVE, display.d3dhal_dp2drawprimitive, _D3DHAL_DP2DRAWPRIMITIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DP2DRAWPRIMITIVE
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DP2DRAWPRIMITIVE
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DP2DRAWPRIMITIVE
 ---
 
 # _D3DHAL_DP2DRAWPRIMITIVE structure
 
 
-
 ## -description
+
+
 
    DirectX 8.0 and later versions only.
    
@@ -46,8 +56,8 @@ req.typenames: D3DHAL_DP2DRAWPRIMITIVE
 D3DHAL_DRAWPRIMITIVE is parsed from the command buffer by the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback when the <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_DRAWPRIMITIVE, and is used to render a primitive.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DP2DRAWPRIMITIVE {
@@ -59,6 +69,9 @@ typedef struct _D3DHAL_DP2DRAWPRIMITIVE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field primType
 
@@ -76,22 +89,22 @@ Specifies the number of triangles, lines or points to draw for the given primiti
 
 
 ## -remarks
+
+
 The vertex data can be untransformed (if the hardware supports hardware vertex processing) or transformed if the application supplied data in that form to the runtime.
 
 
+
 ## -see-also
-<dl>
-<dt>D3DDP2OP_DRAWPRIMITIVE</dt>
-<dt>
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-</dt>
-<dt>
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-</dt>
-<dt>
+
+D3DDP2OP_DRAWPRIMITIVE
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
-</dt>
-</dl>
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
  
 
  

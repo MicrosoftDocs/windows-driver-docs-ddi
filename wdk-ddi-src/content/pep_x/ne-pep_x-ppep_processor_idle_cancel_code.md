@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6112360C-B74F-4A77-8DE5-3EF1AAF49533
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: *PPEP_PROCESSOR_IDLE_CANCEL_CODE, PEP_PROCESSOR_IDLE_CANCEL_CODE, *PPEP_PROCESSOR_IDLE_CANCEL_CODE
+ms.keywords: pep_x/PepIdleCancelMax, PepIdleCancelWorkPending, PEP_PROCESSOR_IDLE_CANCEL_CODE enumeration [Kernel-Mode Driver Architecture], kernel.pep_processor_idle_cancel_code, *PPEP_PROCESSOR_IDLE_CANCEL_CODE, pep_x/PepIdleCancelDependencyCheckFailed, pep_x/PepIdleCancelNoCState, PEP_PROCESSOR_IDLE_CANCEL_CODE, pep_x/PepIdleCancelWorkPending, pep_x/PEP_PROCESSOR_IDLE_CANCEL_CODE, PepIdleCancelDependencyCheckFailed, PepIdleCancelNoCState, PepIdleCancelMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_PROCESSOR_IDLE_CANCEL_CODE
-req.alt-loc: pep_x.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: PEP_PROCESSOR_IDLE_CANCEL_CODE, *PPEP_PROCESSOR_IDLE_CANCEL_CODE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pep_x.h
+apiname: 
+-	PEP_PROCESSOR_IDLE_CANCEL_CODE
+product: Windows
+targetos: Windows
+req.typenames: *PPEP_PROCESSOR_IDLE_CANCEL_CODE, PEP_PROCESSOR_IDLE_CANCEL_CODE
 ---
 
 # *PPEP_PROCESSOR_IDLE_CANCEL_CODE enumeration
 
 
-
 ## -description
+
+
 The <b>PEP_PROCESSOR_IDLE_CANCEL_CODE</b> enumeration values indicate reasons why a processor cannot enter an idle state that was previously selected by the platform extension plug-in (PEP).
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _PEP_PROCESSOR_IDLE_CANCEL_CODE { 
@@ -56,6 +66,9 @@ typedef enum _PEP_PROCESSOR_IDLE_CANCEL_CODE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field PepIdleCancelWorkPending
 
@@ -78,18 +91,18 @@ Reserved for use by the operating system.
 
 
 ## -remarks
+
+
 The <b>CancelCode</b> member of the <a href="..\pep_x\ns-pep_x-_pep_ppm_idle_cancel.md">PEP_PPM_IDLE_CANCEL</a> structure contains a <b>PEP_PROCESSOR_IDLE_CANCEL_CODE</b> enumeration value.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a>
-</dt>
-<dt>
+
 <a href="..\pep_x\ns-pep_x-_pep_ppm_idle_cancel.md">PEP_PPM_IDLE_CANCEL</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a>
+
  
 
  

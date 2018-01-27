@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c316382c-8416-43c2-b5fd-2d52d01e1419
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAcquireControl
+ms.keywords: stream.ksacquirecontrol, avfunc_a3c1eb2c-db95-463f-98f5-a158dd1e14f5.xml, ks/KsAcquireControl, KsAcquireControl function [Streaming Media Devices], KsAcquireControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsAcquireControl
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsAcquireControl
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsAcquireControl function
 
 
-
 ## -description
+
+
 The <b>KsAcquireControl</b> function acquires the filter control mutex for <i>Object</i>. 
 
 
-
 ## -syntax
+
 
 ````
 void KsAcquireControl(
@@ -54,39 +65,42 @@ void KsAcquireControl(
 
 ## -parameters
 
+
+
+
 ### -param Object [in]
 
 A pointer to the object for which to acquire the filter control mutex. This should be a pointer to either a <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> or a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>, cast to PVOID.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 Minidrivers typically do not call this function directly, but instead call either <a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a> or <a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>. These functions provide the necessary typecasting to PVOID automatically.
 
 For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
+
+<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
+
  
 
  

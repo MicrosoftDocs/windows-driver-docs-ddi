@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5B3E5B33-EFED-485A-A62A-7A54322408AC
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: MmGetMaximumFileSectionSize
+ms.keywords: MmGetMaximumFileSectionSize, ifsk.mmgetmaximumfilesectionsize, ntifs/MmGetMaximumFileSectionSize, MmGetMaximumFileSectionSize routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MmGetMaximumFileSectionSize
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	MmGetMaximumFileSectionSize
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # MmGetMaximumFileSectionSize function
 
 
-
 ## -description
+
+
 The <b>MmGetMaximumFileSectionSize</b> returns the maximum possible size of a file section for the current version of Windows.
 
 
-
 ## -syntax
+
 
 ````
 ULONGLONG MmGetMaximumFileSectionSize(void);
@@ -53,12 +63,12 @@ ULONGLONG MmGetMaximumFileSectionSize(void);
 ## -parameters
 
 
+
+
+
 ## -returns
+
+
 The maximum file section size supported by the current version of Windows.
 
-The maximum file section size supported by the current version of Windows.
 
-The maximum file section size supported by the current version of Windows.
-
-
-## -remarks

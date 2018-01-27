@@ -7,8 +7,8 @@ old-location: netvista\rildialedidsettingsparammask.htm
 old-project: netvista
 ms.assetid: 8883e9fc-9f2a-4367-ae2d-30260f2d2de6
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILDIALEDIDSETTINGSPARAMMASK, RILDIALEDIDSETTINGSPARAMMASK
+ms.date: 1/18/2018
+ms.keywords: RIL_PARAM_DIDS_PROVISIONING, RILDIALEDIDSETTINGSPARAMMASK, ntddrilapitypes/RIL_PARAM_DIDS_ALL, ntddrilapitypes/RIL_PARAM_DIDS_STATUS, RIL_PARAM_DIDS_ALL, netvista.rildialedidsettingsparammask, RILDIALEDIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILDIALEDIDSETTINGSPARAMMASK, RIL_PARAM_DIDS_STATUS, ntddrilapitypes/RIL_PARAM_DIDS_PROVISIONING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILDIALEDIDSETTINGSPARAMMASK
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILDIALEDIDSETTINGSPARAMMASK
+product: Windows
+targetos: Windows
 req.typenames: RILDIALEDIDSETTINGSPARAMMASK
 ---
 
 # RILDIALEDIDSETTINGSPARAMMASK enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILDIALEDIDSETTINGSPARAMMASK { 
@@ -56,13 +66,21 @@ typedef enum _RILDIALEDIDSETTINGSPARAMMASK {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_PARAM_DIDS_EXECUTOR
+
+
+
 ### -field RIL_PARAM_DIDS_PROVISIONING
+
 
 
 ### -field RIL_PARAM_DIDS_STATUS
 
 
+
 ### -field RIL_PARAM_DIDS_ALL
 
 
-## -remarks

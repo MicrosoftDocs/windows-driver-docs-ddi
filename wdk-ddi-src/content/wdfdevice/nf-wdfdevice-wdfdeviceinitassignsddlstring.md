@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6f7d2511-5a9b-476e-a771-a528c2bead10
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceInitAssignSDDLString
+ms.keywords: wdf.wdfdeviceinitassignsddlstring, DFDeviceObjectGeneralRef_36d9ccc6-bc81-4605-a14a-1192734d66cb.xml, WdfDeviceInitAssignSDDLString method, WdfDeviceInitAssignSDDLString, kmdf.wdfdeviceinitassignsddlstring, wdfdevice/WdfDeviceInitAssignSDDLString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfDeviceInitAssignSDDLString
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: ChildDeviceInitAPI, DeviceInitAPI, DriverCreate, InitFreeDeviceCallback, InitFreeDeviceCreate, InitFreeNull, KmdfIrql, KmdfIrql2, PdoDeviceInitAPI, PdoInitFreeDeviceCallback, PdoInitFreeDeviceCreate
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfDeviceInitAssignSDDLString
+product: Windows
+targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WdfDeviceInitAssignSDDLString function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfDeviceInitAssignSDDLString</b> method assigns a security setting for a device.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS WdfDeviceInitAssignSDDLString(
@@ -57,6 +68,9 @@ NTSTATUS WdfDeviceInitAssignSDDLString(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceInit [in]
 
@@ -69,15 +83,32 @@ A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING
 
 
 ## -returns
+
+
 If the operation succeeds, <b>WdfDeviceInitAssignSDDLString</b> returns STATUS_SUCCESS. Additional return values include:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>The system cannot allocate space to store the device name.
+</dl>
+</td>
+<td width="60%">
+The system cannot allocate space to store the device name.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 Your driver can specify a security setting by using a subset of Security Descriptor Definition Language (SDDL). The <i>Wdmsec.h</i> file defines a set of SDDL_DEVOBJ_XXX-formatted constants that you can use. For more information about security descriptors and SDDL, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563688">Securing Device Objects</a>.
 
 System administrators can override the specified security descriptor by adding a security descriptor to the registry. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548407">IoCreateDeviceSecure</a>.
@@ -91,4 +122,4 @@ For more information about security issues, see <a href="https://docs.microsoft.
 
       If you are writing a UMDF driver, you  must modify your driver's INF file to provide an appropriate security descriptor for the stack. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563688">Securing Device Objects</a>. For more information about using the registry, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563759">Setting Device Object Registry Properties During Installation</a>.
 
-The following code example assigns a security setting for a device.</p>
+

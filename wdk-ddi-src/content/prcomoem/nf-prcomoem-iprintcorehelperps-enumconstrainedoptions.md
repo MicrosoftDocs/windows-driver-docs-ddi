@@ -7,8 +7,8 @@ old-location: print\iprintcorehelperps_enumconstrainedoptions.htm
 old-project: print
 ms.assetid: 106119cd-80ed-4d26-a7c1-fda5a49b080c
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IPrintCoreHelperPS, IPrintCoreHelperPS::EnumConstrainedOptions, EnumConstrainedOptions
+ms.date: 1/18/2018
+ms.keywords: EnumConstrainedOptions method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS, IPrintCoreHelperPS::EnumConstrainedOptions, EnumConstrainedOptions, IPrintCoreHelperPS interface [Print Devices], EnumConstrainedOptions method, print.iprintcorehelperps_enumconstrainedoptions, prcomoem/IPrintCoreHelperPS::EnumConstrainedOptions, print_unidrv-pscript_allplugins_28f1a9b6-ab12-4cdc-8682-b411cc920996.xml, EnumConstrainedOptions method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPrintCoreHelperPS.EnumConstrainedOptions
-req.alt-loc: Prcomoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Prcomoem.h
+apiname: 
+-	IPrintCoreHelperPS.EnumConstrainedOptions
+product: Windows
+targetos: Windows
+req.typenames: *POEMPTOPTS, OEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
 # IPrintCoreHelperPS::EnumConstrainedOptions method
 
 
-
 ## -description
+
+
 The <b>IPrintCoreHelperPS::EnumConstrainedOptions</b> method provides a list of all of the options that are constrained in a particular feature, based on current settings.
 
 
-
 ## -syntax
+
 
 ````
 STDMETHOD EnumConstrainedOptions(
@@ -58,6 +68,9 @@ STDMETHOD EnumConstrainedOptions(
 
 
 ## -parameters
+
+
+
 
 ### -param pDevmode [in, optional]
 
@@ -74,9 +87,9 @@ The size, in bytes, of the DEVMODEW structure that is pointed to by the <i>pDevm
 A string of ANSI characters that contains the feature name.
 
 
-### -param pConstrainedOptionList[] [out]
+### -param pConstrainedOptionList
 
-A pointer to an array of ANSI character strings. When <b>IPrintCoreHelperPS::EnumConstrainedOptions</b> returns, these strings will contain the names of all of the options that are constrained within the specified feature. The caller is not responsible for freeing the array or the individual strings in the array.
+
 
 
 ### -param pdwNumOptions [out]
@@ -84,39 +97,86 @@ A pointer to an array of ANSI character strings. When <b>IPrintCoreHelperPS::Enu
 A pointer to a variable that receives the number of constrained options in the array that is pointed to by the <i>pConstrainedOptionList</i> parameter.
 
 
+#### - pConstrainedOptionList[] [out]
+
+A pointer to an array of ANSI character strings. When <b>IPrintCoreHelperPS::EnumConstrainedOptions</b> returns, these strings will contain the names of all of the options that are constrained within the specified feature. The caller is not responsible for freeing the array or the individual strings in the array.
+
+
 ## -returns
+
+
 <b>IPrintCoreHelperPS::EnumConstrainedOptions</b> should return one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The constrained options were set for the specified feature.
+</dl>
+</td>
+<td width="60%">
+The constrained options were set for the specified feature.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_FAIL</b></dt>
-</dl>The caller provided information that resulted in an invalid request, such as a request for a feature that does not exist.
+</dl>
+</td>
+<td width="60%">
+The caller provided information that resulted in an invalid request, such as a request for a feature that does not exist.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_INVALIDARG</b></dt>
-</dl>One or more of the arguments were invalid. This value might mean that the feature is not supported.
+</dl>
+</td>
+<td width="60%">
+One or more of the arguments were invalid. This value might mean that the feature is not supported.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_OUTOFMEMORY</b></dt>
-</dl>There was not enough memory to create the options array or the core driver could not service the request because of lack of memory. 
+</dl>
+</td>
+<td width="60%">
+There was not enough memory to create the options array or the core driver could not service the request because of lack of memory. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_UNEXPECTED, or other failures not listed here</b></dt>
-</dl>An unexpected condition occurred. The core driver is probably in an invalid state. The caller should exit with a failure code.
+</dl>
+</td>
+<td width="60%">
+An unexpected condition occurred. The core driver is probably in an invalid state. The caller should exit with a failure code.
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551987">IPrintCoreHelperPS::EnumOptions</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperPS::EnumConstrainedOptions method%20 RELEASE:%20(1/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperPS::EnumConstrainedOptions method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

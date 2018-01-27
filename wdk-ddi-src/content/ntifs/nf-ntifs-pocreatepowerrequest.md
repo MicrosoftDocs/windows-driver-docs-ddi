@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 67986bf8-b070-44e9-95a2-eea35100b0e7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoCreatePowerRequest
+ms.keywords: PoCreatePowerRequest, kernel.pocreatepowerrequest, portn_059f00e2-74ea-4c61-8fcd-6b257c084161.xml, PoCreatePowerRequest routine [Kernel-Mode Driver Architecture], wdm/PoCreatePowerRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 7.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PoCreatePowerRequest
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	PoCreatePowerRequest
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # PoCreatePowerRequest function
 
 
-
 ## -description
+
+
 The <b>PoCreatePowerRequest</b> routine creates a power request object.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PoCreatePowerRequest(
@@ -55,6 +65,9 @@ NTSTATUS PoCreatePowerRequest(
 
 
 ## -parameters
+
+
+
 
 ### -param PowerRequest [out]
 
@@ -72,37 +85,59 @@ A pointer to a <a href="..\wdm\ns-wdm-_counted_reason_context.md">COUNTED_REASON
 
 
 ## -returns
+
+
 <b>PoCreatePowerRequest</b> returns STATUS_SUCCESS if the call is successful. If the call fails, possible error return codes include the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The <i>DeviceObject</i> parameter is <b>NULL</b>.
+</dl>
+</td>
+<td width="60%">
+The <i>DeviceObject</i> parameter is <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>There is not enough memory available to create a power request object.
+</dl>
+</td>
+<td width="60%">
+There is not enough memory available to create a power request object.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-This routine creates a power request object. To enable power requests, the caller should create one power request object and use that object for all calls to the <a href="..\ntifs\nf-ntifs-posetpowerrequest.md">PoSetPowerRequest</a> and <a href="..\ntifs\nf-ntifs-poclearpowerrequest.md">PoClearPowerRequest</a> routines.
+
+
+This routine creates a power request object. To enable power requests, the caller should create one power request object and use that object for all calls to the <a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a> and <a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a> routines.
 
 A driver can use power requests to override certain aspects of the computer's default power behavior. For example, a driver for a TV receiver device can use power requests to prevent the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559829">power manager</a> from automatically blanking the display during extended periods of time in which no user interaction occurs.
 
-When the power request object is no longer needed, the caller must delete the object by calling the <a href="..\ntifs\nf-ntifs-podeletepowerrequest.md">PoDeletePowerRequest</a> routine. The driver must delete the power request object before it deletes the device object that was used to create the power request object.
+When the power request object is no longer needed, the caller must delete the object by calling the <a href="..\wdm\nf-wdm-podeletepowerrequest.md">PoDeletePowerRequest</a> routine. The driver must delete the power request object before it deletes the device object that was used to create the power request object.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-poclearpowerrequest.md">PoClearPowerRequest</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-podeletepowerrequest.md">PoDeletePowerRequest</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-posetpowerrequest.md">PoSetPowerRequest</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-podeletepowerrequest.md">PoDeletePowerRequest</a>
+
+<a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a>
+
+<a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a>
+
  
 
  

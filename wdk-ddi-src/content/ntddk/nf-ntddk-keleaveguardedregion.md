@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 189a3589-0d43-4f87-b889-f1f092190ffa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeLeaveGuardedRegion
+ms.keywords: k105_a2582957-39b0-45dd-810c-7ab03d97d6a6.xml, KeLeaveGuardedRegion, kernel.keleaveguardedregion, KeLeaveGuardedRegion routine [Kernel-Mode Driver Architecture], wdm/KeLeaveGuardedRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2003 and later versions o
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeLeaveGuardedRegion
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: GuardedRegions, IrqlKeApcLte2, WithinCriticalRegion, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeLeaveGuardedRegion
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # KeLeaveGuardedRegion function
 
 
-
 ## -description
+
+
 The <b>KeLeaveGuardedRegion</b> routine exits a guarded region entered by <b>KeEnterGuardedRegion</b>.
 
 
-
 ## -syntax
+
 
 ````
 VOID KeLeaveGuardedRegion(void);
@@ -53,26 +63,29 @@ VOID KeLeaveGuardedRegion(void);
 ## -parameters
 
 
+
+
+
 ## -returns
-None
+
 
 None
 
-None
 
 
 ## -remarks
+
+
 Guarded regions can be nested, so APCs are only reenabled once the thread exists the outermost guarded region.
 
 For more information about guarded regions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542925">Critical Regions and Guarded Regions</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\nf-ntddk-keenterguardedregion.md">KeEnterGuardedRegion</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-keenterguardedregion.md">KeEnterGuardedRegion</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 9318AB76-48ED-49FF-A4ED-17A07D43A0F8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxCompleteWait
+ms.keywords: 1/SerCxCompleteWait, SerCxCompleteWait method [Serial Ports], serports.sercxcompletewait, SerCxCompleteWait
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SerCxCompleteWait
-req.alt-loc: 1.0\Sercx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	1.0\Sercx.h
+apiname: 
+-	SerCxCompleteWait
+product: Windows
+targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SerCxCompleteWait function
 
 
-
 ## -description
+
+
 The <b>SerCxCompleteWait</b> method notifies the serial framework extension (SerCx) that an event in the current wait mask has occurred.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SerCxCompleteWait(
@@ -55,6 +65,9 @@ NTSTATUS SerCxCompleteWait(
 
 
 ## -parameters
+
+
+
 
 ### -param Device [in]
 
@@ -67,38 +80,50 @@ The type of event that is ending the current wait operation.  This parameter is 
 
 
 ## -returns
+
+
 <b>SerCxCompleteWait</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following status code.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The specified event is not included in the current wait mask.
+</dl>
+</td>
+<td width="60%">
+The specified event is not included in the current wait mask.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 When SerCx receives an <a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a> request from a client, the request handler in SerCx calls the <a href="..\sercx\nc-sercx-evt_sercx_waitmask.md">EvtSerCxWaitmask</a> callback function to notify the serial controller driver that the wait mask has changed. The wait mask specifies a set of hardware events for the serial controller to monitor. During this call, the driver discards any old wait mask that might have been specified in a previous <i>EvtSerCxWaitmask</i> call, and then configures the serial controller hardware to detect the events in the new wait mask.
 
 Later, when an event in the new wait mask occurs, the driver calls <b>SerCxCompleteWait</b> to notify SerCx of the event. If a previously sent <a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a> request is pending, <b>SerCxCompleteWait</b> completes this request with a status of STATUS_SUCCESS and an output wait mask that indicates which event occurred. Otherwise, <b>SerCxCompleteWait</b> stores the event in its internal event history in anticipation of a future <b>IOCTL_SERIAL_WAIT_ON_MASK</b> request.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\sercx\nc-sercx-evt_sercx_waitmask.md">EvtSerCxWaitmask</a>
-</dt>
-<dt>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
-</dt>
-<dt>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
-</dt>
-<dt>
-<a href="..\sercx\nf-sercx-sercxgetwaitmask.md">SerCxGetWaitMask</a>
-</dt>
-<dt>
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a>
-</dt>
-</dl>
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
+
+<a href="..\sercx\nc-sercx-evt_sercx_waitmask.md">EvtSerCxWaitmask</a>
+
+<a href="..\sercx\nf-sercx-sercxgetwaitmask.md">SerCxGetWaitMask</a>
+
  
 
  

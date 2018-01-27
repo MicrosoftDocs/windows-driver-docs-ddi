@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 57FF3890-6B37-45EB-BB02-22B2ADDFAA90
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_ZONE_CONDITION, STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
+ms.keywords: ZoneConditionReadOnly, _STORAGE_ZONE_CONDITION, ntddstor/ZoneConditionImplicitlyOpened, STORAGE_ZONE_CONDITION enumeration [Storage Devices], ntddstor/PSTORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION, ZoneConditionExplicitlyOpened, STORAGE_ZONE_CONDITION, ntddstor/ZoneConditionExplicitlyOpened, ntddstor/ZoneConditionOffline, PSTORAGE_ZONE_CONDITION, ntddstor/STORAGE_ZONE_CONDITION, ZoneConditionOffline, ntddstor/ZoneConditionConventional, PSTORAGE_ZONE_CONDITION enumeration pointer [Storage Devices], ntddstor/ZoneConditionReadOnly, ntddstor/ZoneConditionFull, ZoneConditionFull, ZoneConditionConventional, storage.storage_zone_condition, ntddstor/ZoneConditionEmpty, ntddstor/ZoneConditionClosed, ZoneConditionEmpty, ZoneConditionClosed, ZoneConditionImplicitlyOpened
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_ZONE_CONDITION
-req.alt-loc: Ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddstor.h
+apiname: 
+-	STORAGE_ZONE_CONDITION
+product: Windows
+targetos: Windows
 req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ---
 
 # _STORAGE_ZONE_CONDITION enumeration
 
 
-
 ## -description
+
+
 
 <div class="alert"><b>Note</b>  This  structure is for internal use only and should not be called from your code.</div>
 <div> </div>
 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _STORAGE_ZONE_CONDITION { 
@@ -63,6 +73,9 @@ typedef enum _STORAGE_ZONE_CONDITION {
 
 
 ## -enum-fields
+
+
+
 
 ### -field ZoneConditionConventional
 
@@ -103,5 +116,3 @@ N/A
 
 N/A
 
-
-## -remarks

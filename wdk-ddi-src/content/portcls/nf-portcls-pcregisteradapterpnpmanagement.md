@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: DF597216-FB81-466C-871E-5E08C69B78DA
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcRegisterAdapterPnpManagement
+ms.keywords: audio.pcregisteradapterpnpmanagement, PcRegisterAdapterPnPManagement, portcls/PcRegisterAdapterPnPManagement, PcRegisterAdapterPnPManagement function [Audio Devices], PcRegisterAdapterPnpManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 10, version 1511 and later ver
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PcRegisterAdapterPnPManagement
-req.alt-loc: Portcls.lib,Portcls.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Portcls.lib
+-	Portcls.dll
+apiname: 
+-	PcRegisterAdapterPnPManagement
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # PcRegisterAdapterPnpManagement function
 
 
-
 ## -description
+
+
 The  PcRegisterAdapterPnpManagement function registers the adapter's PnP-management interface with the PortCls system driver.  It is used to support PnP rebalance. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PcRegisterAdapterPnPManagement(
@@ -55,9 +66,12 @@ NTSTATUS PcRegisterAdapterPnPManagement(
 
 ## -parameters
 
-### -param pUnknown [in]
 
-Pointer to an adapter driver object's <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. The PortCls system driver queries this object for its <a href="..\portcls\nn-portcls-iadapterpnpmanagement.md">IAdapterPnpManagement</a> interface.
+
+
+### -param Unknown
+
+TBD
 
 
 ### -param DeviceObject [in]
@@ -65,31 +79,37 @@ Pointer to an adapter driver object's <a href="https://msdn.microsoft.com/33f1d7
 Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 
 
+#### - pUnknown [in]
+
+Pointer to an adapter driver object's <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. The PortCls system driver queries this object for its <a href="..\portcls\nn-portcls-iadapterpnpmanagement.md">IAdapterPnpManagement</a> interface.
+
+
 ## -returns
+
+
 <b>PcRegisterAdapterPnpManagement</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 Portcls uses <b>PcRegisterAdapterPnpManagement</b> and <a href="..\portcls\nf-portcls-pcunregisteradapterpnpmanagement.md">PcUnregisterAdapterPnpManagement</a> to support PNP rebalance.
 
 For more information,  see <a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430A-BCAF-04E13FA15382">Implement PnP Rebalance for PortCls Audio Drivers</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-<dt>
+
 <a href="..\portcls\nf-portcls-pcunregisteradapterpnpmanagement.md">PcUnregisterAdapterPnpManagement</a>
-</dt>
-<dt>
+
 <a href="..\portcls\nn-portcls-iadapterpnpmanagement.md">IAdapterPnpManagement</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430A-BCAF-04E13FA15382">Implement PnP Rebalance for PortCls Audio Drivers</a>
-</dt>
-</dl>
+
  
 
  

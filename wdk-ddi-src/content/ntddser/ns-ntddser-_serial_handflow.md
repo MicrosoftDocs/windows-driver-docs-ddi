@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: E13148B7-8FCE-4407-80F6-286F0EF65B5C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _SERIAL_HANDFLOW, SERIAL_HANDFLOW, *PSERIAL_HANDFLOW
+ms.keywords: PSERIAL_HANDFLOW, SERIAL_HANDFLOW structure [Serial Ports], ntddser/PSERIAL_HANDFLOW, ntddser/SERIAL_HANDFLOW, *PSERIAL_HANDFLOW, serports.serial_handflow, SERIAL_HANDFLOW, _SERIAL_HANDFLOW, PSERIAL_HANDFLOW structure pointer [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SERIAL_HANDFLOW
-req.alt-loc: Ntddser.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddser.h
+apiname: 
+-	SERIAL_HANDFLOW
+product: Windows
+targetos: Windows
 req.typenames: SERIAL_HANDFLOW, *PSERIAL_HANDFLOW
 ---
 
 # _SERIAL_HANDFLOW structure
 
 
-
 ## -description
+
+
 The <b>SERIAL_HANDFLOW</b> structure specifies the handshake and flow control settings for a serial port.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SERIAL_HANDFLOW {
@@ -57,10 +67,12 @@ typedef struct _SERIAL_HANDFLOW {
 
 ## -struct-fields
 
+
+
+
 ### -field ControlHandShake
 
 A bitmask that specifies the control lines that the serial port uses for flow control. This member is set to zero or to the bitwise-OR or one or more of the following flags.
-
 <table>
 <tr>
 <th>Value</th>
@@ -94,8 +106,7 @@ A bitmask that specifies the control lines that the serial port uses for flow co
 <td>SERIAL_ERROR_ABORT</td>
 <td>Abort a transmit or receive operation if an error occurs.</td>
 </tr>
-</table>
- 
+</table> 
 
 SerCx2 supports the SERIAL_CTS_HANDSHAKE flag, and may or may not support the other six flags defined for this member, depending on the serial controller driver and the capabilities of the serial controller hardware. SerCx supports only the first four flags in the preceding table. Serial.sys supports all of the flags in the preceding table.
 
@@ -103,7 +114,6 @@ SerCx2 supports the SERIAL_CTS_HANDSHAKE flag, and may or may not support the ot
 ### -field FlowReplace
 
 A bitmask that specifies flow control behavior. This member is set to zero or to the bitwise-OR or one or more of the following flags.
-
 <table>
 <tr>
 <th>Value</th>
@@ -145,8 +155,7 @@ A bitmask that specifies flow control behavior. This member is set to zero or to
 <td>Continue to transmit after sending XOFF to the device on the other end of the line.
         </td>
 </tr>
-</table>
- 
+</table> 
 
 SerCx2 supports the SERIAL_RTS_CONTROL and SERIAL_RTS_HANDSHAKE flags, but typically does not support the other six flags defined for this member, depending on the serial controller driver and the capabilities of the serial controller hardware. SerCx supports only the SERIAL_RTS_CONTROL and SERIAL_RTS_HANDSHAKE flags. Serial.sys supports all of the flags in the preceding table.
 
@@ -162,6 +171,8 @@ XOFF limit. When the number of characters in the internal receive buffer reaches
 
 
 ## -remarks
+
+
 This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_get_handflow.md">IOCTL_SERIAL_GET_HANDFLOW</a> and <a href="..\ntddser\ni-ntddser-ioctl_serial_set_handflow.md">IOCTL_SERIAL_SET_HANDFLOW</a> requests.
 
 After sending an XOFF (transmit off) character, the serial port stops transmitting immediately, without sending any more characters. This behavior supports serial ports that interpret any character that follows an XOFF as an implied XON (transmit on).
@@ -169,15 +180,13 @@ After sending an XOFF (transmit off) character, the serial port stops transmitti
 SerCx2 and SerCx support only subsets of the flags that are defined for the <b>ControlHandShake</b> and <b>FlowControl</b> members. An <b>IOCTL_SERIAL_SET_HANDFLOW</b> request that specifies an unsupported flag is completed with STATUS_NOT_IMPLEMENTED.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_handflow.md">IOCTL_SERIAL_GET_HANDFLOW</a>
-</dt>
-<dt>
+
 <a href="..\ntddser\ni-ntddser-ioctl_serial_set_handflow.md">IOCTL_SERIAL_SET_HANDFLOW</a>
-</dt>
-</dl>
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_get_handflow.md">IOCTL_SERIAL_GET_HANDFLOW</a>
+
  
 
  

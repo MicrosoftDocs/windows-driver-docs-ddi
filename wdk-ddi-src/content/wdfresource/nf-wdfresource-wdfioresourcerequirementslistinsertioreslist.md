@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d70d9fed-22fd-4bcf-a4bf-fbd941559529
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoResourceRequirementsListInsertIoResList
+ms.keywords: kmdf.wdfioresourcerequirementslistinsertioreslist, wdf.wdfioresourcerequirementslistinsertioreslist, PFN_WDFIORESOURCEREQUIREMENTSLISTINSERTIORESLIST, WdfIoResourceRequirementsListInsertIoResList, DFResourceObjectRef_193f75e1-39a1-4a93-947b-550e7ad99494.xml, wdfresource/WdfIoResourceRequirementsListInsertIoResList, WdfIoResourceRequirementsListInsertIoResList method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfIoResourceRequirementsListInsertIoResList
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfIoResourceRequirementsListInsertIoResList
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WdfIoResourceRequirementsListInsertIoResList function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfIoResourceRequirementsListInsertIoResList</b> method inserts a <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">logical configuration</a> into a resource requirements list.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS WdfIoResourceRequirementsListInsertIoResList(
@@ -58,6 +69,9 @@ NTSTATUS WdfIoResourceRequirementsListInsertIoResList(
 
 
 ## -parameters
+
+
+
 
 ### -param RequirementsList [in]
 
@@ -75,44 +89,81 @@ A zero-based value that is used as an index into the set of logical configuratio
 
 
 ## -returns
+
+
 <b>WdfIoResourceRequirementsListInsertIoResList</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>An invalid parameter as specified.
+</dl>
+</td>
+<td width="60%">
+An invalid parameter as specified.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>The specified resource-requirements-list object does not own the specified resource-range-list object.
+</dl>
+</td>
+<td width="60%">
+The specified resource-requirements-list object does not own the specified resource-range-list object.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>The framework could not allocate space to store the resource-range-list object.
+</dl>
+</td>
+<td width="60%">
+The framework could not allocate space to store the resource-range-list object.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ARRAY_BOUNDS_EXCEEDED</b></dt>
-</dl>The specified value for the <i>Index</i> parameter was too large.
+</dl>
+</td>
+<td width="60%">
+The specified value for the <i>Index</i> parameter was too large.
 
- 
+</td>
+</tr>
+</table> 
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
+
 ## -remarks
+
+
 The <b>WdfIoResourceRequirementsListInsertIoResList</b> method inserts the logical configuration that the <i>IoResList</i> parameter specifies into the resource requirements list that the <i>RequirementsList</i> parameter specifies, in front of the logical configuration that the <i>Index</i> value identifies. 
 
 To add a logical configuration to the end of a resource requirements list, use WDF_INSERT_AT_END or the return value from <a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetcount.md">WdfIoResourceRequirementsListGetCount</a> as the <i>Index</i> value. Alternatively, use the <a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistappendioreslist.md">WdfIoResourceRequirementsListAppendIoResList</a> method.
 
 For more information about resource requirements lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
-The following code example shows how an <a href="..\wdfpdo\nc-wdfpdo-evt_wdf_device_resource_requirements_query.md">EvtDeviceResourceRequirementsQuery</a> callback function can create two empty logical configurations and add them to a resource requirements list.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistcreate.md">WdfIoResourceListCreate</a>
-</dt>
-<dt>
+
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistappendioreslist.md">WdfIoResourceRequirementsListAppendIoResList</a>
-</dt>
-</dl>
+
  
 
  

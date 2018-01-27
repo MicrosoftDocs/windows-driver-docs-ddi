@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 429C644C-C784-4C0E-96C3-EC82698F6624
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FILE_ZERO_DATA_INFORMATION_EX, FILE_ZERO_DATA_INFORMATION_EX, *PFILE_ZERO_DATA_INFORMATION_EX
+ms.keywords: *PFILE_ZERO_DATA_INFORMATION_EX, ntifs/PFILE_ZERO_DATA_INFORMATION_EX, FILE_ZERO_DATA_INFORMATION_EX structure [Installable File System Drivers], FILE_ZERO_DATA_INFORMATION_EX, ifsk.file_zero_data_information_ex, _FILE_ZERO_DATA_INFORMATION_EX, ntifs/FILE_ZERO_DATA_INFORMATION_EX, PFILE_ZERO_DATA_INFORMATION_EX, PFILE_ZERO_DATA_INFORMATION_EX structure pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILE_ZERO_DATA_INFORMATION_EX
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: FILE_ZERO_DATA_INFORMATION_EX, *PFILE_ZERO_DATA_INFORMATION_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FILE_ZERO_DATA_INFORMATION_EX
+product: Windows
+targetos: Windows
+req.typenames: *PFILE_ZERO_DATA_INFORMATION_EX, FILE_ZERO_DATA_INFORMATION_EX
 ---
 
 # _FILE_ZERO_DATA_INFORMATION_EX structure
 
 
-
 ## -description
+
+
 Contains a range of a file to set to zeros. This structure is used by the 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a> control code. It's similar to <a href="..\ntifs\ns-ntifs-_file_zero_data_information.md">FILE_ZERO_DATA_INFORMATION</a>, but contains an additional <b>Flags</b> member. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILE_ZERO_DATA_INFORMATION_EX {
@@ -56,6 +66,9 @@ typedef struct _FILE_ZERO_DATA_INFORMATION_EX {
 
 
 ## -struct-fields
+
+
+
 
 ### -field FileOffset
 
@@ -70,7 +83,6 @@ The byte offset of the first byte beyond the last zeroed byte.
 ### -field Flags
 
 The following flags are supported:
-
 <table>
 <tr>
 <th>Flag</th>
@@ -80,25 +92,17 @@ The following flags are supported:
 <td><b>FILE_ZERO_DATA_INFORMATION_FLAG_PRESERVE_CACHED_DATA</b></td>
 <td>Indicates not to purge the contents of the cache corresponding to this range of the file. Only drivers can set this flag.</td>
 </tr>
-</table>
- 
-
-
-## -remarks
+</table> 
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_file_zero_data_information.md">FILE_ZERO_DATA_INFORMATION</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a>
+
  
 
  

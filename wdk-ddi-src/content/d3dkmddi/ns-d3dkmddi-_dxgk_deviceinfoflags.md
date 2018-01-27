@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 26d0aad9-86d0-4d97-978a-1e15285d3369
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_DEVICEINFOFLAGS, DXGK_DEVICEINFOFLAGS
+ms.keywords: DmStructs_69e769da-b68e-4df6-94dd-95e11bc88b0c.xml, display.dxgk_deviceinfoflags, d3dkmddi/DXGK_DEVICEINFOFLAGS, DXGK_DEVICEINFOFLAGS, DXGK_DEVICEINFOFLAGS structure [Display Devices], _DXGK_DEVICEINFOFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_DEVICEINFOFLAGS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_DEVICEINFOFLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_DEVICEINFOFLAGS
 ---
 
 # _DXGK_DEVICEINFOFLAGS structure
 
 
-
 ## -description
+
+
 The DXGK_DEVICEINFOFLAGS structure identifies, in bit-field flags, information about a graphics device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_DEVICEINFOFLAGS {
@@ -59,6 +69,9 @@ typedef struct _DXGK_DEVICEINFOFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field GuaranteedDmaBufferContract
 
@@ -77,18 +90,12 @@ Setting this member is equivalent to setting the first bit of the 32-bit <b>Valu
 [out] A member in the union that DXGK_DEVICEINFOFLAGS contains that can hold a 32-bit value that indicates information about a graphics device.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfo.md">DXGK_DEVICEINFO</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfo.md">DXGK_DEVICEINFO</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 219ecf09-54eb-4972-ae71-0eb3e7ea8ea9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: MmCanFileBeTruncated
+ms.keywords: mmref_7d6c86f9-4a26-4d2c-bf55-9352044e9339.xml, MmCanFileBeTruncated routine [Installable File System Drivers], ifsk.mmcanfilebetruncated, MmCanFileBeTruncated, ntifs/MmCanFileBeTruncated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MmCanFileBeTruncated
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	MmCanFileBeTruncated
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # MmCanFileBeTruncated function
 
 
-
 ## -description
+
+
 The <b>MmCanFileBeTruncated</b> routine checks whether a file can be truncated.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN MmCanFileBeTruncated(
@@ -54,6 +64,9 @@ BOOLEAN MmCanFileBeTruncated(
 
 
 ## -parameters
+
+
+
 
 ### -param SectionPointer [in]
 
@@ -66,32 +79,44 @@ Pointer to a variable that specifies the size to which the file is to be truncat
 
 
 ## -returns
+
+
 <b>MmCanFileBeTruncated</b> returns <b>TRUE</b> if the file can be truncated, <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 <b>MmCanFileBeTruncated</b> must always be called before a file is truncated.
 
 A file cannot be truncated (and <b>MmCanFileBeTruncated</b> will return <b>FALSE</b>) if any of the following are true:
-
+<ul>
+<li>
 An image section exists for the file.
 
+</li>
+<li>
 There are one or more outstanding write probes on the file's data section.
 
+</li>
+<li>
 There is a mapped view of file's data section within the truncation range determined by <i>NewFileSize</i>.
 
+</li>
+<li>
 One or more users hold references to the data section for the file, and <i>NewFileSize</i> &lt;= the current file size.
+
+</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
+
  
 
  

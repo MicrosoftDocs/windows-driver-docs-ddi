@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6E551951-E903-4970-8B30-6780C9FF4FC6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+ms.keywords: kernel.componentcriticaltransitioncallback, ComponentCriticalTransitionCallback routine [Kernel-Mode Driver Architecture], ComponentCriticalTransitionCallback, PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK, PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK, wdm/ComponentCriticalTransitionCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ComponentCriticalTransitionCallback
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: TBD
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wdm.h
+apiname: 
+-	ComponentCriticalTransitionCallback
+product: Windows
+targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK callback
 
 
-
 ## -description
+
+
 The <i>ComponentCriticalTransitionCallback</i> callback routine handles a transition of the specified component between the F0 (fully on) and low-power F<i>x</i> component power states.
 
 
-
 ## -prototype
+
 
 ````
 PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK ComponentCriticalTransitionCallback;
@@ -59,6 +69,9 @@ VOID ComponentCriticalTransitionCallback(
 
 
 ## -parameters
+
+
+
 
 ### -param Context [in]
 
@@ -76,10 +89,15 @@ Indicates whether this notification is for a transition to the F0 component powe
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 This callback routine is implemented by a device driver, and is called by PoFx. PoFx calls this routine to notify the driver of power transitions of device components.
 
 The <b>ComponentCriticalTransitionCallback</b> member of the <a href="..\pepfx\ns-pepfx-_po_fx_core_device.md">PO_FX_CORE_DEVICE</a> structure is a pointer to a <i>ComponentCriticalTransitionCallback</i> callback routine. A pointer to a <b>PO_FX_CORE_DEVICE</b> structure is passed as an input parameter in the PoFxRegisterCoreDevice call that registers a core device with the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx).
@@ -95,12 +113,11 @@ For more information about F<i>x</i> component power states, see <a href="https:
 A PEP can call this routine at IRQL TBD.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\pepfx\ns-pepfx-_po_fx_core_device.md">PO_FX_CORE_DEVICE</a>
-</dt>
-</dl>
+
  
 
  

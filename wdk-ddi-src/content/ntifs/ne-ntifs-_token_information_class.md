@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dd2323fa-2c58-462e-905f-3b201ef0c343
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _TOKEN_INFORMATION_CLASS, TOKEN_INFORMATION_CLASS, *PTOKEN_INFORMATION_CLASS
+ms.keywords: TokenAuditPolicy, ntifs/TokenAppContainerNumber, TokenPrimaryGroup, ntifs/TokenGroups, TokenLinkedToken, ntifs/TokenElevation, ntifs/TokenPrimaryGroup, ntifs/TokenHasRestrictions, *PTOKEN_INFORMATION_CLASS, ntifs/TokenIsAppContainer, ntifs/TokenLinkedToken, TokenDefaultDacl, TokenVirtualizationEnabled, TokenSandBoxInert, TokenOwner, TokenIsAppContainer, TokenHasRestrictions, _TOKEN_INFORMATION_CLASS, TokenCapabilities, TokenIntegrityLevel, ntifs/TOKEN_INFORMATION_CLASS, ntifs/TokenUserClaimAttributes, ntifs/TokenRestrictedDeviceClaimAttributes, ntifs/TokenRestrictedUserClaimAttributes, TokenDeviceClaimAttributes, TokenRestrictedUserClaimAttributes, ntifs/TokenIntegrityLevel, ntifs/TokenGroupsAndPrivileges, PTOKEN_INFORMATION_CLASS enumeration pointer [Installable File System Drivers], ntifs/MaxTokenInfoClass, ntifs/TokenSandBoxInert, TokenMandatoryPolicy, MaxTokenInfoClass, TokenSessionReference, ntifs/TokenMandatoryPolicy, TOKEN_INFORMATION_CLASS enumeration [Installable File System Drivers], ntifs/PTOKEN_INFORMATION_CLASS, ntifs/TokenRestrictedDeviceGroups, ntifs/TokenLogonSid, TokenPrivileges, ntifs/TokenAppContainerSid, TokenProcessTrustLevel, TokenRestrictedSids, ntifs/TokenType, TokenType, TokenImpersonationLevel, TokenLogonSid, TokenUIAccess, TOKEN_INFORMATION_CLASS, ntifs/TokenPrivileges, securitystructures_525fb6c8-0030-40ea-927a-72fe89eff87e.xml, TokenVirtualizationAllowed, PTOKEN_INFORMATION_CLASS, ntifs/TokenIsRestricted, TokenRestrictedDeviceGroups, ntifs/TokenDeviceGroups, TokenAccessInformation, TokenUser, ntifs/TokenImpersonationLevel, TokenIsRestricted, ntifs/TokenSessionReference, TokenAppContainerSid, ntifs/TokenStatistics, ntifs/TokenAuditPolicy, ntifs/TokenUIAccess, ifsk.token_information_class, TokenDeviceGroups, ntifs/TokenUser, TokenRestrictedDeviceClaimAttributes, ntifs/TokenProcessTrustLevel, TokenElevation, TokenSource, TokenGroups, ntifs/TokenSecurityAttributes, TokenAppContainerNumber, ntifs/TokenSessionId, ntifs/TokenOwner, ntifs/TokenSource, ntifs/TokenDeviceClaimAttributes, TokenOrigin, ntifs/TokenDefaultDacl, ntifs/TokenOrigin, TokenSecurityAttributes, ntifs/TokenVirtualizationAllowed, ntifs/TokenRestrictedSids, TokenUserClaimAttributes, TokenStatistics, ntifs/TokenAccessInformation, ntifs/TokenCapabilities, TokenSessionId, ntifs/TokenVirtualizationEnabled, TokenGroupsAndPrivileges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TOKEN_INFORMATION_CLASS
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	TOKEN_INFORMATION_CLASS
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_INFORMATION_CLASS, *PTOKEN_INFORMATION_CLASS
 ---
 
 # _TOKEN_INFORMATION_CLASS enumeration
 
 
-
 ## -description
+
+
 The <b>TOKEN_INFORMATION_CLASS</b> enumeration type contains values that specify the type of information being assigned to or retrieved from an access token. 
 
 
 <a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a> and <a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a> use <b>TOKEN_INFORMATION_CLASS</b> values to indicate the type of token information to retrieve. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _TOKEN_INFORMATION_CLASS { 
@@ -96,6 +106,9 @@ typedef enum _TOKEN_INFORMATION_CLASS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field TokenUser
 
@@ -188,6 +201,10 @@ If the token resulted from network authentication, such as a call to user-mode <
  This value is valid starting with Windows Server 2003.
 
 
+### -field TokenElevationType
+
+
+
 ### -field TokenLinkedToken
 
 The buffer receives a <a href="https://msdn.microsoft.com/a77dd410-1074-4196-8323-ccf52ed0375a">TOKEN_LINKED_TOKEN</a> structure that contains a handle to another token that is linked to this token. This value is valid starting with Windows Vista.
@@ -210,12 +227,12 @@ The buffer receives a <a href="https://msdn.microsoft.com/cb727b91-c88f-48f3-832
 
 ### -field TokenVirtualizationAllowed
 
-The buffer receives a <b>DWORD</b> value that is nonzero if  <a href="security.v_gly#_security_virtualization_gly#_security_virtualization_gly"><i>virtualization</i></a> is allowed for the token. This value is valid starting with Windows Vista.
+The buffer receives a <b>DWORD</b> value that is nonzero if  <a href="https://msdn.microsoft.com/library/windows/hardware/dn614617">virtualization</a> is allowed for the token. This value is valid starting with Windows Vista.
 
 
 ### -field TokenVirtualizationEnabled
 
-The buffer receives a <b>DWORD</b> value that is nonzero if  <a href="security.v_gly#_security_virtualization_gly#_security_virtualization_gly"><i>virtualization</i></a> is enabled for the token. This value is valid starting with Windows Vista.
+The buffer receives a <b>DWORD</b> value that is nonzero if  <a href="https://msdn.microsoft.com/library/windows/hardware/dn614617">virtualization</a> is enabled for the token. This value is valid starting with Windows Vista.
 
 
 ### -field TokenIntegrityLevel
@@ -303,71 +320,65 @@ Reserved for system use.
 Reserved for system use. 
 
 
+### -field TokenPrivateNameSpace
+
+
+
+### -field TokenSingletonAttributes
+
+
+
+### -field TokenBnoIsolation
+
+
+
+### -field TokenChildProcessFlags
+
+
+
 ### -field MaxTokenInfoClass
 
 The maximum value for this enumeration.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-</dt>
-<dt>
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_token_groups.md">TOKEN_GROUPS</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_token_owner.md">TOKEN_OWNER</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_token_origin.md">TOKEN_ORIGIN</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_token_primary_group.md">TOKEN_PRIMARY_GROUP</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_token_source.md">TOKEN_SOURCE</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_token_statistics.md">TOKEN_STATISTICS</a>
-</dt>
-<dt>
-<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\ns-ntifs-_token_owner.md">TOKEN_OWNER</a>
+
+<a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
+
 <a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+
+<a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
+
+<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
+
+<a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
+
+<a href="..\ntifs\ns-ntifs-_token_statistics.md">TOKEN_STATISTICS</a>
+
+<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+<a href="..\ntifs\ns-ntifs-_token_source.md">TOKEN_SOURCE</a>
+
+<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+
+<a href="..\ntifs\ns-ntifs-_token_origin.md">TOKEN_ORIGIN</a>
+
+<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
+
+<a href="..\ntifs\ns-ntifs-_token_primary_group.md">TOKEN_PRIMARY_GROUP</a>
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+<a href="..\ntifs\ns-ntifs-_token_groups.md">TOKEN_GROUPS</a>
+
  
 
  

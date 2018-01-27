@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: CA5BC76B-539E-4FFF-8E02-C475D18588F6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_REGISTERTRIMNOTIFICATION, D3DKMT_REGISTERTRIMNOTIFICATION
+ms.keywords: display.d3dkmt_registertrimnotification, d3dkmthk/D3DKMT_REGISTERTRIMNOTIFICATION, D3DKMT_REGISTERTRIMNOTIFICATION structure [Display Devices], _D3DKMT_REGISTERTRIMNOTIFICATION, D3DKMT_REGISTERTRIMNOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_REGISTERTRIMNOTIFICATION
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_REGISTERTRIMNOTIFICATION
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_REGISTERTRIMNOTIFICATION
 ---
 
 # _D3DKMT_REGISTERTRIMNOTIFICATION structure
 
 
-
 ## -description
+
+
 <b>D3DKMT_REGISTERTRIMNOTIFICATION</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtregistertrimnotification.md">D3DKMTRegisterTrimNotification</a> to register a callback for a kernel mode device for notifications from a graphics framework (such as OpenGL).
 
 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_REGISTERTRIMNOTIFICATION {
@@ -59,6 +69,9 @@ typedef struct _D3DKMT_REGISTERTRIMNOTIFICATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field AdapterLuid
 
@@ -85,18 +98,12 @@ typedef struct _D3DKMT_REGISTERTRIMNOTIFICATION {
 [out] Handle that will be used to unregister the callback with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtunregistertrimnotification.md">D3DKMTUnregisterTrimNotification</a>.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtregistertrimnotification.md">D3DKMTRegisterTrimNotification</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtunregistertrimnotification.md">D3DKMTUnregisterTrimNotification</a>
-</dt>
-</dl>
+
  
 
  

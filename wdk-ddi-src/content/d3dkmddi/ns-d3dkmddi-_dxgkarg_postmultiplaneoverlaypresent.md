@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E257606A-66EE-4F53-B661-F5FFC63E1F54
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, DXGKARG_POSTMULTIPLANEOVERLAYPRESENT
+ms.keywords: display.dxgkarg_postmultiplaneoverlaypresent, DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure [Display Devices], d3dkmddi/DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, _DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, DXGKARG_POSTMULTIPLANEOVERLAYPRESENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_POSTMULTIPLANEOVERLAYPRESENT
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_POSTMULTIPLANEOVERLAYPRESENT
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_POSTMULTIPLANEOVERLAYPRESENT
 ---
 
 # _DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure
 
 
-
 ## -description
+
+
 Contains arguments for the DxgkDdiPostMultiPlaneOverlayPresent function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_POSTMULTIPLANEOVERLAYPRESENT {
@@ -56,6 +66,9 @@ typedef struct _DXGKARG_POSTMULTIPLANEOVERLAYPRESENT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field VidPnTargetId
 
@@ -72,9 +85,13 @@ typedef struct _DXGKARG_POSTMULTIPLANEOVERLAYPRESENT {
 [in] The zero-based index of the overlay plane to display. The top plane (in the z-direction) has index zero. The planes' index values must be sequential from top to bottom. 
 
 
-### -field PresentId
+### -field PresentID
+
+ 
+
+
+
+#### - PresentId
 
       [in] 64 bit integer value representing each flip request for a particular MPO plane.
 
-
-## -remarks

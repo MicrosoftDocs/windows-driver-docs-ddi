@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 48ca0f39-e870-4f9b-92d5-1226972bf2d5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltAdjustDeviceStackSizeForIoRedirection
+ms.keywords: ifsk.fltadjustdevicestacksizeforioredirection, FltAdjustDeviceStackSizeForIoRedirection, fltkernel/FltAdjustDeviceStackSizeForIoRedirection, FltAdjustDeviceStackSizeForIoRedirection routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltAdjustDeviceStackSizeForIoRedirection
-req.alt-loc: FltMgr.lib,FltMgr.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	FltMgr.lib
+-	FltMgr.dll
+apiname: 
+-	FltAdjustDeviceStackSizeForIoRedirection
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltAdjustDeviceStackSizeForIoRedirection function
 
 
-
 ## -description
+
+
 The <b>FltAdjustDeviceStackSizeForIoRedirection</b> routine increases the size of the source device stack to allow a minifilter to redirect I/O from a specified source instance to a specified target instance when the target stack is deeper than the source stack.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltAdjustDeviceStackSizeForIoRedirection(
@@ -55,6 +66,9 @@ NTSTATUS FltAdjustDeviceStackSizeForIoRedirection(
 
 
 ## -parameters
+
+
+
 
 ### -param SourceInstance [in]
 
@@ -72,20 +86,53 @@ This optional parameter has a value of <b>TRUE</b> if the <b>FltAdjustDeviceStac
 
 
 ## -returns
+
+
+<table>
+<tr>
+<th>Return value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt>STATUS_SUCCESS</dt>
-</dl>Success.
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt>STATUS_NOT_SUPPORTED</dt>
-</dl>The redirection is not supported.
+</dl>
+</td>
+<td width="60%">
+The redirection is not supported.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt>STATUS_INVALID_PARAMETER</dt>
-</dl>The source device stack would be too large after calling this routine.
+</dl>
+</td>
+<td width="60%">
+The source device stack would be too large after calling this routine.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 Using <b>FltAdjustDeviceStackSizeForIoRedirection</b> does not guarantee that every IRP that the minifilter encounters will be sufficient in size to be redirected to the target stack. IRPs that were allocated and issued before the call to <b>FltAdjustDeviceStackSizeForIoRedirection</b> would still have been allocated based on the old stack size. 
 
 A minifilter can adjust the stack size during instance setup if the filter knows which stack the I/O will be redirected to. 
@@ -97,24 +144,19 @@ During instance-setup or during post-create callback for a redirected file objec
 In the pre-operation callback for every operation that needs redirection, use <a href="..\fltkernel\nf-fltkernel-fltisioredirectionallowedforoperation.md">FltIsIoRedirectionAllowedForOperation</a> to determine if redirection is possible without modifying the source stack. If necessary, use <b>FltAdjustDeviceStackSizeForIoRedirection</b> to adjust the source stack.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-</dt>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltisioredirectionallowed.md">FltIsIoRedirectionAllowed</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltisioredirectionallowedforoperation.md">FltIsIoRedirectionAllowedForOperation</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
+
 <a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
  
 
  

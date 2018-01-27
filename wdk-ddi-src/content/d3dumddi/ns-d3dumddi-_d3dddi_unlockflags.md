@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f3c3356c-ec7b-4869-896d-9d3b285f0e87
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_UNLOCKFLAGS, D3DDDI_UNLOCKFLAGS
+ms.keywords: _D3DDDI_UNLOCKFLAGS, D3D_other_Structs_c1133d3b-9330-4278-85c7-4083436278cf.xml, D3DDDI_UNLOCKFLAGS, D3DDDI_UNLOCKFLAGS structure [Display Devices], d3dumddi/D3DDDI_UNLOCKFLAGS, display.d3dddi_unlockflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_UNLOCKFLAGS
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDI_UNLOCKFLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_UNLOCKFLAGS
 ---
 
 # _D3DDDI_UNLOCKFLAGS structure
 
 
-
 ## -description
+
+
 The D3DDDI_UNLOCKFLAGS structure identifies how to unlock a resource.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_UNLOCKFLAGS {
@@ -59,6 +69,9 @@ typedef struct _D3DDDI_UNLOCKFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NotifyOnly
 
@@ -77,15 +90,10 @@ This member is reserved and should be set to zero. Setting this member to zero i
 A member in the union that is contained in D3DDDI_UNLOCKFLAGS that can hold one 32-bit value that identifies how to unlock a resource.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_unlock.md">D3DDDIARG_UNLOCK</a>
-</dt>
-</dl>
+
  
 
  

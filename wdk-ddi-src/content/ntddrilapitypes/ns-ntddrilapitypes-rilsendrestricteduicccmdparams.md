@@ -7,8 +7,8 @@ old-location: netvista\rilsendrestricteduicccmdparams.htm
 old-project: netvista
 ms.assetid: 22c7ae24-c2dc-46d6-b3c2-b908ad6d181c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSENDRESTRICTEDUICCCMDPARAMS, *LPRILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS
+ms.date: 1/18/2018
+ms.keywords: ntddrilapitypes/RILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendrestricteduicccmdparams, *LPRILSENDRESTRICTEDUICCCMDPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSENDRESTRICTEDUICCCMDPARAMS
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILSENDRESTRICTEDUICCCMDPARAMS
+product: Windows
+targetos: Windows
 req.typenames: *LPRILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS
 ---
 
 # RILSENDRESTRICTEDUICCCMDPARAMS structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILSENDRESTRICTEDUICCCMDPARAMS {
@@ -60,25 +70,33 @@ typedef struct _RILSENDRESTRICTEDUICCCMDPARAMS {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwCommand
 
 
+
 ### -field rscpParameters
+
 
 
 ### -field fHasLockVerification
 
 
+
 ### -field lockVerification
+
 
 
 ### -field dwDataSize
 
 
+
 ### -field pbData
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3ceacb96-1c60-4310-b96f-6fb396c1d6ce
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltReadFile
+ms.keywords: FltReadFile function [Installable File System Drivers], fltkernel/FltReadFile, FltReadFile, FltApiRef_p_to_z_83c0167c-78df-4692-980b-7a55f531a9db.xml, ifsk.fltreadfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltReadFile
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltReadFile
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltReadFile function
 
 
-
 ## -description
+
+
 <b>FltReadFile</b> reads data from an open file, stream, or device.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltReadFile(
@@ -61,6 +71,9 @@ NTSTATUS FltReadFile(
 
 
 ## -parameters
+
+
+
 
 ### -param InitiatingInstance [in]
 
@@ -96,7 +109,6 @@ Pointer to a caller-allocated buffer that receives the data that is read from th
 ### -param Flags [in]
 
 Bitmask of flags specifying the type of read operation to be performed. 
-
 <table>
 <tr>
 <th>Flag</th>
@@ -145,8 +157,7 @@ This flag is available for Windows Vista and later versions of the Windows opera
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param BytesRead [out, optional]
@@ -165,29 +176,44 @@ Context pointer to be passed to the <i>CallbackRoutine</i> if one is present. Th
 
 
 ## -returns
+
+
 <b>FltReadFile</b> returns the NTSTATUS value that was returned by the file system. 
 
 
+
 ## -remarks
+
+
 A minifilter driver calls <b>FltReadFile</b> to read data from an open file. 
 
 <b>FltReadFile</b> creates a read request and sends it to the minifilter driver instances attached below the initiating instance, and to the file system. The specified instance and the instances attached above it do not receive the read request. 
 
 <b>FltReadFile</b> performs noncached I/O if either of the following is true: 
-
+<ul>
+<li>
 The caller set the FLTFL_IO_OPERATION_NON_CACHED flag in the <i>Flags</i> parameter. 
 
+</li>
+<li>
 The file object was opened for noncached I/O. Usually, this is done by specifying the FILE_NO_INTERMEDIATE_BUFFERING <i>CreateOptions</i> flag in the preceding call to <a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>, <a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>, or <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>. 
 
-Noncached I/O imposes the following restrictions on the parameter values passed to <b>FltReadFile</b>: 
-
+</li>
+</ul>Noncached I/O imposes the following restrictions on the parameter values passed to <b>FltReadFile</b>: 
+<ul>
+<li>
 The buffer that the <i>Buffer</i> parameter points to must be aligned in accordance with the alignment requirement of the underlying storage device. To allocate such an aligned buffer, call <a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>. 
 
+</li>
+<li>
 The byte offset that the <i>ByteOffset</i> parameter points to must be a nonnegative multiple of the volume's sector size. 
 
+</li>
+<li>
 The length specified in the <i>Length</i> parameter must be a nonnegative multiple of the volume's sector size. 
 
-If an attempt is made to read beyond the end of the file, <b>FltReadFile</b> returns an error. 
+</li>
+</ul>If an attempt is made to read beyond the end of the file, <b>FltReadFile</b> returns an error. 
 
 If the value of the <i>CallbackRoutine</i> parameter is not <b>NULL</b>, the read operation is performed asynchronously. 
 
@@ -196,36 +222,27 @@ If the value of the <i>CallbackRoutine</i> parameter is <b>NULL</b>, the read op
 If multiple threads call <b>FltReadFile</b> for the same file object, and the file object was opened for synchronous I/O, the Filter Manager does not attempt to serialize I/O on the file. In this respect, <b>FltReadFile</b> differs from <a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
+
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>
+
 <a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
+
  
 
  

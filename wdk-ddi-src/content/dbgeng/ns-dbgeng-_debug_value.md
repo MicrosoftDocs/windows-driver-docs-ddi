@@ -7,8 +7,8 @@ old-location: debugger\debug_value.htm
 old-project: debugger
 ms.assetid: 568469ad-79c4-4437-aefe-a29e77e5143a
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _DEBUG_VALUE, DEBUG_VALUE, *PDEBUG_VALUE
+ms.date: 1/19/2018
+ms.keywords: dbgeng/PDEBUG_VALUE, PDEBUG_VALUE, *PDEBUG_VALUE, PDEBUG_VALUE structure pointer [Windows Debugging], DEBUG_VALUE, debugger.debug_value, Structures_2486f31c-2a25-41eb-ac3f-9cc1d62dd2e0.xml, dbgeng/DEBUG_VALUE, DEBUG_VALUE structure [Windows Debugging], _DEBUG_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DEBUG_VALUE
-req.alt-loc: dbgEng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DEBUG_VALUE, *PDEBUG_VALUE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dbgEng.h
+apiname: 
+-	DEBUG_VALUE
+product: Windows
+targetos: Windows
+req.typenames: *PDEBUG_VALUE, DEBUG_VALUE
 ---
 
 # _DEBUG_VALUE structure
 
 
-
 ## -description
+
+
 The DEBUG_VALUE structure holds register and expression values.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DEBUG_VALUE {
@@ -84,138 +94,123 @@ typedef struct _DEBUG_VALUE {
 
 ## -struct-fields
 
-### -field ( unnamed union )
 
- 
-
-
-### -field I8
-
-See Remarks.
-
-
-### -field I16
-
-See Remarks.
-
-
-### -field I32
-
-See Remarks.
-
-
-### -field ( unnamed struct )
-
- 
 
 
 ### -field I64
 
-See Remarks.
+ 
 
 
 ### -field Nat
 
-See Remarks.
-
-</dd>
-</dl>
-
-### -field F32
-
-See Remarks.
-
-
-### -field F64
-
-See Remarks.
-
-
-### -field F80Bytes
-
-See Remarks.
-
-
-### -field F82Bytes
-
-See Remarks.
-
-
-### -field F128Bytes
-
-See Remarks.
-
-
-### -field VI8
-
-See Remarks.
-
-
-### -field VI16
-
-See Remarks.
-
-
-### -field VI32
-
-See Remarks.
-
-
-### -field VI64
-
-See Remarks.
-
-
-### -field VF32
-
-See Remarks.
-
-
-### -field VF64
-
-See Remarks.
+ 
 
 
 ### -field I64Parts32
 
-See Remarks.
+ 
 
 
-### -field LowPart
+### -field I64Parts32.LowPart
 
-See Remarks.
+ 
 
 
-### -field HighPart
+### -field I64Parts32.HighPart
 
-See Remarks.
+ 
 
-</dd>
-</dl>
 
 ### -field F128Parts64
 
-See Remarks.
+ 
 
 
-### -field LowPart
+### -field F128Parts64.LowPart
 
-See Remarks.
+ 
 
 
-### -field HighPart
+### -field F128Parts64.HighPart
 
-See Remarks.
+ 
 
-</dd>
-</dl>
+
+### -field I8
+
+ 
+
+
+### -field I16
+
+ 
+
+
+### -field I32
+
+ 
+
+
+### -field F32
+
+ 
+
+
+### -field F64
+
+ 
+
+
+### -field F80Bytes
+
+ 
+
+
+### -field F82Bytes
+
+ 
+
+
+### -field F128Bytes
+
+ 
+
+
+### -field VI8
+
+ 
+
+
+### -field VI16
+
+ 
+
+
+### -field VI32
+
+ 
+
+
+### -field VI64
+
+ 
+
+
+### -field VF32
+
+ 
+
+
+### -field VF64
+
+ 
+
 
 ### -field RawBytes
 
-See Remarks.
+ 
 
-</dd>
-</dl>
 
 ### -field TailOfRawBytes
 
@@ -227,5 +222,191 @@ See Remarks.
 See Remarks.
 
 
+##### - ( unnamed union ).VI32
+
+See Remarks.
+
+
+##### - ( unnamed union ).I16
+
+See Remarks.
+
+
+##### - ( unnamed union ).I64Parts32
+
+See Remarks.
+
+
+###### - ( unnamed union ).( unnamed struct ).Nat
+
+See Remarks.
+
+
+###### - ( unnamed union ).I64Parts32.HighPart
+
+See Remarks.
+
+
+##### - ( unnamed union ).VI8
+
+See Remarks.
+
+
+##### - ( unnamed union ).F128Bytes
+
+See Remarks.
+
+
+###### - ( unnamed union ).( unnamed struct ).I64
+
+See Remarks.
+
+
+##### - ( unnamed union ).F32
+
+See Remarks.
+
+
+##### - ( unnamed union ).F64
+
+See Remarks.
+
+
+##### - ( unnamed union ).I32
+
+See Remarks.
+
+
+##### - ( unnamed union ).F82Bytes
+
+See Remarks.
+
+
+#### - ( unnamed union )
+
+ 
+
+
+##### - ( unnamed union ).( unnamed struct )
+
+ 
+
+
+##### - ( unnamed union ).VI64
+
+See Remarks.
+
+
+##### - ( unnamed union ).VI16
+
+See Remarks.
+
+
+##### - ( unnamed union ).VF64
+
+See Remarks.
+
+
+###### - ( unnamed union ).F128Parts64.HighPart
+
+See Remarks.
+
+
+###### - ( unnamed union ).I64Parts32.LowPart
+
+See Remarks.
+
+
+##### - ( unnamed union ).VF32
+
+See Remarks.
+
+
+##### - ( unnamed union ).F128Parts64
+
+See Remarks.
+
+
+##### - ( unnamed union ).RawBytes
+
+See Remarks.
+
+
+##### - ( unnamed union ).F80Bytes
+
+See Remarks.
+
+
+##### - ( unnamed union ).I8
+
+See Remarks.
+
+
+###### - ( unnamed union ).F128Parts64.LowPart
+
+See Remarks.
+
+
 ## -remarks
-The <b>Type</b> field specifies the value type that is being held by the structure. This also specifies which field in the structure is valid. The possible values of the <b>Type</b> field, and the corresponding field specified as valid in the structure, include the following.</p>
+
+
+The <b>Type</b> field specifies the value type that is being held by the structure. This also specifies which field in the structure is valid. The possible values of the <b>Type</b> field, and the corresponding field specified as valid in the structure, include the following.
+<table>
+<tr>
+<th>Type Name</th>
+<th>Type</th>
+<th>Valid DEBUG_VALUE Field</th>
+</tr>
+<tr>
+<td>DEBUG_VALUE_INT8</td>
+<td>8-bit signed integer</td>
+<td><b>I8</b></td>
+</tr>
+<tr>
+<td>DEBUG_VALUE_INT16</td>
+<td>16-bit signed integer</td>
+<td><b>I16</b></td>
+</tr>
+<tr>
+<td>DEBUG_VALUE_INT32</td>
+<td>32-bit signed integer</td>
+<td><b>I32</b></td>
+</tr>
+<tr>
+<td>DEBUG_VALUE_INT64</td>
+<td>64-bit signed integer</td>
+<td><b>I64</b></td>
+</tr>
+<tr>
+<td>DEBUG_VALUE_FLOAT32</td>
+<td>32-bit floating point number</td>
+<td><b>F32</b></td>
+</tr>
+<tr>
+<td>DEBUG_VALUE_FLOAT64</td>
+<td>64-bit floating point number</td>
+<td><b>F64</b></td>
+</tr>
+<tr>
+<td>DEBUG_VALUE_FLOAT80</td>
+<td>80-bit floating point number</td>
+<td><b>F80Bytes</b></td>
+</tr>
+<tr>
+<td>DEBUG_VALUE_FLOAT128</td>
+<td>128-bit floating point number</td>
+<td><b>F128Bytes</b></td>
+</tr>
+<tr>
+<td>DEBUG_VALUE_VECTOR64</td>
+<td>64-bit vector</td>
+<td><b>VI8[8]</b>, <b>VI16[4]</b>, <b>VI32[2]</b>, <b>VI64[1]</b>, <b>VF32[2]</b>, <b>VF64[1]</b></td>
+</tr>
+<tr>
+<td>DEBUG_VALUE_VECTOR128</td>
+<td>128-bit vector</td>
+<td><b>VI8[16]</b>, <b>VI16[8]</b>, <b>VI32[4]</b>, <b>VI64[2]</b>, <b>VF32[4]</b>, <b>VF64[2]</b></td>
+</tr>
+</table> 
+
+

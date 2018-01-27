@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 10d1889b-d79c-4c06-a012-77414c88ce17
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoSetTopLevelIrp
+ms.keywords: IoSetTopLevelIrp routine [Installable File System Drivers], ifsk.iosettoplevelirp, IoSetTopLevelIrp, ioref_1c046677-97df-4f46-956c-108a203f83f2.xml, ntifs/IoSetTopLevelIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoSetTopLevelIrp
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoSetTopLevelIrp
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # IoSetTopLevelIrp function
 
 
-
 ## -description
+
+
 The <b>IoSetTopLevelIrp</b> routine sets the value of the <b>TopLevelIrp</b> field of the current thread.
 
 
-
 ## -syntax
+
 
 ````
 VOID IoSetTopLevelIrp(
@@ -54,27 +64,34 @@ VOID IoSetTopLevelIrp(
 
 ## -parameters
 
+
+
+
 ### -param Irp [in, optional]
 
 I/O request packet (IRP) pointer to be stored in the <b>TopLevelIrp</b> field of the current thread.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>IoSetTopLevelIrp</b> sets the value of the <b>TopLevelIrp</b> field in the thread object for the current thread. This value can be <b>NULL</b>, a pointer to the current IRP, or an FSRTL flag. For more information about these values and what they mean, see the reference entry for <a href="..\ntifs\nf-ntifs-iogettoplevelirp.md">IoGetTopLevelIrp</a>.
 
 Only file systems can call <b>IoSetTopLevelIrp</b>. File system filters and minifilters cannot safely call this routine, because doing so can cause deadlocks. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-iogettoplevelirp.md">IoGetTopLevelIrp</a>
-</dt>
-</dl>
+
  
 
  

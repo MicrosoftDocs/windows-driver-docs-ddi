@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 87289ea8-f727-428d-93a1-2d3b0ab44e8b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortAllocateBuffer
+ms.keywords: VideoPort_Functions_6e90fb68-96c2-4163-87dd-0891d2e25254.xml, video/VideoPortAllocateBuffer, VideoPortAllocateBuffer, VideoPortAllocateBuffer function [Display Devices], display.videoportallocatebuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortAllocateBuffer
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortAllocateBuffer
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # VideoPortAllocateBuffer function
 
 
-
 ## -description
+
+
 The <b>VideoPortAllocateBuffer</b> function is <b>obsolete</b> in Windows 2000 and later. In its place, video miniport drivers should instead use <a href="..\video\nf-video-videoportallocatepool.md">VideoPortAllocatePool</a>. 
 
 <b>VideoPortAllocateBuffer</b> allocates a buffer of paged pool memory.
 
 
-
 ## -syntax
+
 
 ````
 VP_STATUS VideoPortAllocateBuffer(
@@ -58,6 +68,9 @@ VP_STATUS VideoPortAllocateBuffer(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -75,19 +88,23 @@ Is the location in which the video port driver returns a pointer to a pointer to
 
 
 ## -returns
+
+
 <b>VideoPortAllocateBuffer</b> returns NO_ERROR when it successfully completes the allocation request, or ERROR_NOT_ENOUGH_MEMORY if it is unable to allocate a buffer of <i>Size</i> bytes. A return value of ERROR_INSUFFICIENT_BUFFER indicates that a miniport driver has exceeded its maximum allowable allocation of memory.
 
 
+
 ## -remarks
+
+
 A miniport driver can use the return value of this function to determine whether the buffer allocation succeeded.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nf-video-videoportreleasebuffer.md">VideoPortReleaseBuffer</a>
-</dt>
-</dl>
+
  
 
  

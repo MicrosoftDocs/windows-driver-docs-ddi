@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f64b3470-b4ae-4d3a-87ac-249429f17dfe
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS, DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS
+ms.keywords: dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_ROTATION, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_DEINTERLACE, DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_DEINTERLACE, display.dxgi_ddi_multiplane_overlay_feature_caps, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_STEREO, DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_HORIZONTAL_FLIP, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS, DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_VERTICAL_FLIP, DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS enumeration [Display Devices], dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_VERTICAL_FLIP, DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_STEREO, DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_HORIZONTAL_FLIP, DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_ROTATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS
-req.alt-loc: Dxgiddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Dxgiddi.h
+apiname: 
+-	DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS
+product: Windows
+targetos: Windows
 req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS
 ---
 
 # DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS enumeration
 
 
-
 ## -description
+
+
 Identifies overlay capabilities.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS { 
@@ -58,9 +68,11 @@ typedef enum DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS {
 
 ## -enum-fields
 
-### -field DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_ROTATION
 
-The overlay plane can rotate the data 90, 180, and 270 degrees.
+
+
+### -field DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_ROTATION_WITHOUT_INDEPENDENT_FLIP
+
 
 
 ### -field DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_VERTICAL_FLIP
@@ -83,4 +95,44 @@ Reserved for system use. The user-mode display driver should not use this value.
 Reserved for system use. The user-mode display driver should not use this value.
 
 
-## -remarks
+### -field DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_RGB
+
+
+
+### -field DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_YUV
+
+
+
+### -field DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_BILINEAR_FILTER
+
+
+
+### -field DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_HIGH_FILTER
+
+
+
+### -field DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_ROTATION
+
+The overlay plane can rotate the data 90, 180, and 270 degrees.
+
+
+### -field DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_FULLSCREEN_POST_COMPOSITION
+
+
+
+### -field DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_RESERVED1
+
+
+
+### -field DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_SHARED
+
+
+
+### -field DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_IMMEDIATE
+
+
+
+### -field DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS_PLANE0_FOR_VIRTUAL_MODE_ONLY
+
+
+

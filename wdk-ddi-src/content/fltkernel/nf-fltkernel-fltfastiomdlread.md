@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1DF810B5-D4C3-4F67-B913-C2B2132DFDE2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltFastIoMdlRead
+ms.keywords: ifsk.fltfastiomdlread, FltFastIoMdlRead, fltkernel/FsRtlMdlReadDev, FsRtlMdlReadDev, FsRtlMdlReadDev routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlMdlReadDev
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlMdlReadDev
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltFastIoMdlRead function
 
 
-
 ## -description
+
+
 The <b>FltFastIoMdlRead</b> routine returns a memory descriptor list (MDL) that points directly to the specified byte range in the file cache.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlMdlReadDev(
@@ -60,7 +70,10 @@ BOOLEAN FsRtlMdlReadDev(
 
 ## -parameters
 
-### -param InitiatingInstance 
+
+
+
+### -param InitiatingInstance
 
 Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
@@ -96,27 +109,29 @@ A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> 
 
 
 ## -returns
+
+
 The <b>FltFastIoMdlRead</b> routine returns <b>TRUE</b> if the operation succeeds and <b>FALSE</b> if the operation fails.
 
 
+
 ## -remarks
+
+
 The <b>FltFastIoMdlRead</b> routine bypasses the usual IRP mechanism and returns a linked list of memory descriptor lists (MDL) that the caller can use to directly access the cached file data. This operation does not copy or buffer data and therefore is much faster than a normal read.
 
 The routine is similar to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a> and <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev~r6.md">FsRtlMdlReadDev</a>. <b>FltFastIoMdlRead</b>, <b>CcMdlRead</b>, and <b>FsRtlMdlReadDev</b> lock the pages that contain the cached file data to prevent the system from swapping these pages to the page file. The pages remain locked in memory until the caller invokes the <a href="..\fltkernel\nf-fltkernel-fltfastiomdlreadcomplete.md">FltFastIoMdlReadComplete</a> routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltfastiomdlreadcomplete.md">FltFastIoMdlReadComplete</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev~r6.md">FsRtlMdlReadDev</a>
-</dt>
-</dl>
+
  
 
  

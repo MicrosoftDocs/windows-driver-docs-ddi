@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d89c4d4c-d3c2-47fc-9eb8-e2eb8424d5cc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE
+ms.keywords: WDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE enumeration, wdfio/WdfIoQueueDispatchRequests, wdfio/WdfIoQueuePnpHeld, _WDF_IO_QUEUE_STATE, WdfIoQueuePnpHeld, kmdf.wdf_io_queue_state, WdfIoQueueAcceptRequests, wdfio/WdfIoQueueNoRequests, DFQueueObjectRef_210e9189-4d80-4c0f-930b-319af65697d2.xml, wdfio/WdfIoQueueAcceptRequests, wdfio/WDF_IO_QUEUE_STATE, wdfio/WdfIoQueueDriverNoRequests, WdfIoQueueDriverNoRequests, WdfIoQueueNoRequests, wdf.wdf_io_queue_state, WdfIoQueueDispatchRequests
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_IO_QUEUE_STATE
-req.alt-loc: wdfio.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfio.h
+apiname: 
+-	WDF_IO_QUEUE_STATE
+product: Windows
+targetos: Windows
 req.typenames: WDF_IO_QUEUE_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_IO_QUEUE_STATE enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_IO_QUEUE_STATE</b> enumeration type identifies the status of a framework queue object. The enumerators are used as bit masks.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_IO_QUEUE_STATE { 
@@ -60,6 +70,9 @@ typedef enum _WDF_IO_QUEUE_STATE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WdfIoQueueAcceptRequests
 
@@ -89,29 +102,20 @@ If set, the framework has stopped delivering requests to the driver because the 
 
 
 ## -remarks
+
+
 The WDF_IO_QUEUE_STATE enumeration type is used as the return value for the <a href="..\wdfio\nf-wdfio-wdfioqueuegetstate.md">WdfIoQueueGetState</a> method.
 
 The following functions are defined in <i>wdfio.h</i>:
 
 
 
-Returns <b>TRUE</b> if the <i>State</i> value indicates that the queue is drained; that is, the queue is empty, is not accepting new requests, and all requests that were in the queue have been delivered to the driver.
-
-Returns <b>TRUE</b> if the <i>State</i> value indicates that the queue is idle; that is, the queue contains no requests and all delivered requests have been completed or canceled.
-
-Returns <b>TRUE</b> if the <i>State</i> value indicates that the queue is purged; that is, the queue is empty, is not accepting new requests, and all requests that were in the queue have been canceled.
-
-Returns <b>TRUE</b> if the <i>State</i> value indicates that the queue is ready; that is, the queue can accept and dispatch requests. 
-
-Returns <b>TRUE</b> if the <i>State</i> value indicates that the queue is stopped; that is, it can accept new requests but the framework is not delivering them to the driver.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfio\nf-wdfio-wdfioqueuegetstate.md">WdfIoQueueGetState</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d204eeb4-e109-4a86-986f-0fccdda3f8f8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCopyMemory
+ms.keywords: RtlCopyMemory, wdm/RtlCopyMemory, kernel.rtlcopymemory, RtlCopyMemory routine [Kernel-Mode Driver Architecture], RtlCopyBytes, k109_f4bb1fef-aae6-4086-b95a-ae4dc220c04b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlCopyMemory
-req.alt-loc: NtDll.dll,NtosKrnl.exe,API-MS-Win-Core-Rtlsupport-l1-1-0.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,19 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: Any level (See Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtDll.dll
+-	NtosKrnl.exe
+-	API-MS-Win-Core-Rtlsupport-l1-1-0.dll
+apiname: 
+-	RtlCopyMemory
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +49,14 @@ req.product: Windows 10 or later.
 # RtlCopyMemory macro
 
 
-
 ## -description
+
+
 The <b>RtlCopyMemory</b> routine copies the contents of a source memory block to a destination memory block.
 
 
-
 ## -syntax
+
 
 ````
 VOID RtlCopyMemory(
@@ -56,6 +68,9 @@ VOID RtlCopyMemory(
 
 
 ## -parameters
+
+
+
 
 ### -param Destination [out]
 
@@ -73,6 +88,8 @@ The number of bytes to copy from the source to the destination.
 
 
 ## -remarks
+
+
 <b>RtlCopyMemory</b> runs faster than <b>RtlMoveMemory</b>. However, <b>RtlCopyMemory</b> requires that the source memory block, which is defined by <i>Source</i> and <i>Length</i>, cannot overlap the destination memory block, which is defined by <i>Destination</i> and <i>Length</i>. In contrast, <b>RtlMoveMemory</b> correctly handles the case in which the source and destination memory blocks overlap.
 
 New drivers should use the <b>RtlCopyMemory</b> routine instead of <b>RtlCopyBytes</b>.
@@ -80,12 +97,11 @@ New drivers should use the <b>RtlCopyMemory</b> routine instead of <b>RtlCopyByt
 Callers of <b>RtlCopyMemory</b> can be running at any IRQL if the source and destination memory blocks are in nonpaged system memory. Otherwise, the caller must be running at IRQL &lt;= APC_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlmovememory.md">RtlMoveMemory</a>
-</dt>
-</dl>
+
  
 
  

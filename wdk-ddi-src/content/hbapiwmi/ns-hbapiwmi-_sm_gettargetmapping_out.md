@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 164379fa-15fb-4ab7-9cf8-8403f92d7a42
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SM_GetTargetMapping_OUT, *PSM_GetTargetMapping_OUT, SM_GetTargetMapping_OUT
+ms.keywords: *PSM_GetTargetMapping_OUT, PSM_GetTargetMapping_OUT structure pointer [Storage Devices], SM_GetTargetMapping_OUT, _SM_GetTargetMapping_OUT, hbapiwmi/PSM_GetTargetMapping_OUT, SM_GetTargetMapping_OUT structure [Storage Devices], structs-Fibre_fd5726b9-b4fe-470a-9e43-65148a60808b.xml, storage.sm_gettargetmapping_out, PSM_GetTargetMapping_OUT, hbapiwmi/SM_GetTargetMapping_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SM_GetTargetMapping_OUT
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	SM_GetTargetMapping_OUT
+product: Windows
+targetos: Windows
 req.typenames: *PSM_GetTargetMapping_OUT, SM_GetTargetMapping_OUT
 ---
 
 # _SM_GetTargetMapping_OUT structure
 
 
-
 ## -description
+
+
 The SM_GetTargetMapping structure_OUT structure is used to receive output parameters from the SM_GetTargetMapping method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SM_GetTargetMapping_OUT {
@@ -56,6 +66,9 @@ typedef struct _SM_GetTargetMapping_OUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HBAStatus
 
@@ -78,4 +91,8 @@ An array of structures of type SMHBA_SCSIENTRY that describes an HBA's bindings 
 
 
 ## -remarks
-The WMI tool suite generates a declaration of the SM_GetTargetMapping_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.</p>
+
+
+The WMI tool suite generates a declaration of the SM_GetTargetMapping_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.
+
+

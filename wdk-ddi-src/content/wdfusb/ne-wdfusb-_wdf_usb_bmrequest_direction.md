@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e39748b8-d84c-4f9e-a790-bff192a6769c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_USB_BMREQUEST_DIRECTION, WDF_USB_BMREQUEST_DIRECTION
+ms.keywords: WDF_USB_BMREQUEST_DIRECTION enumeration, wdf.wdf_usb_bmrequest_direction, _WDF_USB_BMREQUEST_DIRECTION, BmRequestDeviceToHost, wdfusb/BmRequestHostToDevice, DFUsbRef_c758891d-14e3-4034-8e95-b896470437fd.xml, WDF_USB_BMREQUEST_DIRECTION, kmdf.wdf_usb_bmrequest_direction, BmRequestHostToDevice, wdfusb/BmRequestDeviceToHost, wdfusb/WDF_USB_BMREQUEST_DIRECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_USB_BMREQUEST_DIRECTION
-req.alt-loc: wdfusb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL  (See Remarks section.)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfusb.h
+apiname: 
+-	WDF_USB_BMREQUEST_DIRECTION
+product: Windows
+targetos: Windows
 req.typenames: WDF_USB_BMREQUEST_DIRECTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_USB_BMREQUEST_DIRECTION enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_USB_BMREQUEST_DIRECTION</b> enumeration identifies the data transfer direction for a USB control transfer. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_USB_BMREQUEST_DIRECTION { 
@@ -57,6 +67,9 @@ typedef enum _WDF_USB_BMREQUEST_DIRECTION {
 
 
 ## -enum-fields
+
+
+
 
 ### -field BmRequestHostToDevice
 
@@ -69,17 +82,18 @@ The data transfer direction is from the device to the host system.
 
 
 ## -remarks
+
+
 The <b>WDF_USB_BMREQUEST_DIRECTION</b> enumeration is used in the <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a> structure.
 
 For more information about the data transfer direction for a USB control transfer, see the USB specification.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a>
-</dt>
-</dl>
+
  
 
  

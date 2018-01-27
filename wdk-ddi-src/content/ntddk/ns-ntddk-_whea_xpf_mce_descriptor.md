@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: cdf52fe7-40ac-4baf-aaa0-c23b40574376
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_XPF_MCE_DESCRIPTOR, *PWHEA_XPF_MCE_DESCRIPTOR, WHEA_XPF_MCE_DESCRIPTOR
+ms.keywords: whea.whea_xpf_mce_descriptor, ntddk/WHEA_XPF_MCE_DESCRIPTOR, WHEA_XPF_MCE_DESCRIPTOR, PWHEA_XPF_MCE_DESCRIPTOR, whearef_77725c63-dffe-45f9-9a52-cef3fb8d124e.xml, *PWHEA_XPF_MCE_DESCRIPTOR, PWHEA_XPF_MCE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], ntddk/PWHEA_XPF_MCE_DESCRIPTOR, WHEA_XPF_MCE_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_XPF_MCE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_XPF_MCE_DESCRIPTOR
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PWHEA_XPF_MCE_DESCRIPTOR, WHEA_XPF_MCE_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_XPF_MCE_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: WHEA_XPF_MCE_DESCRIPTOR, *PWHEA_XPF_MCE_DESCRIPTOR
 ---
 
 # _WHEA_XPF_MCE_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The WHEA_XPF_MCE_DESCRIPTOR structure describes a machine check exception (MCE) error source for an x86 or x64 processor.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WHEA_XPF_MCE_DESCRIPTOR {
@@ -59,6 +69,9 @@ typedef struct _WHEA_XPF_MCE_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Type
 
@@ -78,7 +91,6 @@ The number of <a href="..\ntddk\ns-ntddk-_whea_xpf_mc_bank_descriptor.md">WHEA_X
 ### -field Flags
 
 An XPF_MCE_FLAGS union that indicates which of the members of the WHEA_XPF_MCE_DESCRIPTOR structure can be written to by the operating system. The XPF_MCE_FLAGS union is defined as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -98,29 +110,6 @@ An XPF_MCE_FLAGS union that indicates which of the members of the WHEA_XPF_MCE_D
 </table></span></div>
 
 
-
-### -field MCG_CapabilityRW
-
-A single bit that indicates that the operating system can write to the <b>MCG_Capability</b> member of the WHEA_XPF_MCE_DESCRIPTOR structure.
-
-
-### -field MCG_GlobalControlRW
-
-A single bit that indicates that the operating system can write to the <b>MCG_GlobalControl</b> member of the WHEA_XPF_MCE_DESCRIPTOR structure.
-
-
-### -field Reserved
-
-Reserved for system use.
-
-
-### -field AsULONG
-
-A ULONG representation of the contents of the XPF_MCE_FLAGS union.
-
-</dd>
-</dl>
-
 ### -field MCG_Capability
 
 The contents of the processor's IA32_MCG_CAP model-specific register. This register contains capability information about the machine check architecture of the processor. For more information about the IA32_MCG_CAP register, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
@@ -136,19 +125,39 @@ The contents of the processor's IA32_MCG_CTL model-specific register. This regis
 An array of <a href="..\ntddk\ns-ntddk-_whea_xpf_mc_bank_descriptor.md">WHEA_XPF_MC_BANK_DESCRIPTOR</a> structures that describe the banks of machine check registers.
 
 
+##### - Flags.MCG_CapabilityRW
+
+A single bit that indicates that the operating system can write to the <b>MCG_Capability</b> member of the WHEA_XPF_MCE_DESCRIPTOR structure.
+
+
+##### - Flags.Reserved
+
+Reserved for system use.
+
+
+##### - Flags.AsULONG
+
+A ULONG representation of the contents of the XPF_MCE_FLAGS union.
+
+
+##### - Flags.MCG_GlobalControlRW
+
+A single bit that indicates that the operating system can write to the <b>MCG_GlobalControl</b> member of the WHEA_XPF_MCE_DESCRIPTOR structure.
+
+
 ## -remarks
+
+
 A WHEA_XPF_MCE_DESCRIPTOR structure is contained within the <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_xpf_mc_bank_descriptor.md">WHEA_XPF_MC_BANK_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

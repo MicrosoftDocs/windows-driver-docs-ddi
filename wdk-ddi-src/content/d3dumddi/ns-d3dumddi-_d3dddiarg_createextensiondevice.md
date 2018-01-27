@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 33076a24-8856-4533-b4ab-ec1d7bdb083d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_CREATEEXTENSIONDEVICE, D3DDDIARG_CREATEEXTENSIONDEVICE
+ms.keywords: d3dumddi/D3DDDIARG_CREATEEXTENSIONDEVICE, _D3DDDIARG_CREATEEXTENSIONDEVICE, D3DDDIARG_CREATEEXTENSIONDEVICE structure [Display Devices], UMDisplayDriver_param_Structs_edb27385-af11-4750-aa90-854e21ee11a0.xml, display.d3dddiarg_createextensiondevice, D3DDDIARG_CREATEEXTENSIONDEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_CREATEEXTENSIONDEVICE
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_CREATEEXTENSIONDEVICE
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_CREATEEXTENSIONDEVICE
 ---
 
 # _D3DDDIARG_CREATEEXTENSIONDEVICE structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_CREATEEXTENSIONDEVICE structure describes a Microsoft DirectX Video Acceleration (DirectX VA) extension device to create. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_CREATEEXTENSIONDEVICE {
@@ -55,6 +65,9 @@ typedef struct _D3DDDIARG_CREATEEXTENSIONDEVICE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pGuid
 
@@ -71,21 +84,14 @@ typedef struct _D3DDDIARG_CREATEEXTENSIONDEVICE {
 [in/out] A handle to the extension device. The user-mode display driver must set this handle to a value that the Direct3D runtime can use to identify the extension device in subsequent calls.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createextensiondevice.md">CreateExtensionDevice</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatedata.md">DXVADDI_PRIVATEDATA</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createextensiondevice.md">CreateExtensionDevice</a>
+
  
 
  

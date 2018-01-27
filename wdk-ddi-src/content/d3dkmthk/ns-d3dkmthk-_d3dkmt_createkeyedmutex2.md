@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6c4c07ff-5e37-4094-9dc3-57082dec8edf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_CREATEKEYEDMUTEX2, D3DKMT_CREATEKEYEDMUTEX2
+ms.keywords: display.d3dkmt_createkeyedmutex2, _D3DKMT_CREATEKEYEDMUTEX2, D3DKMT_CREATEKEYEDMUTEX2, d3dkmthk/D3DKMT_CREATEKEYEDMUTEX2, D3DKMT_CREATEKEYEDMUTEX2 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_CREATEKEYEDMUTEX2
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_CREATEKEYEDMUTEX2
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_CREATEKEYEDMUTEX2
 ---
 
 # _D3DKMT_CREATEKEYEDMUTEX2 structure
 
 
-
 ## -description
+
+
 Describes a keyed mutex that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatekeyedmutex2.md">D3DKMTCreateKeyedMutex2</a> function creates that includes private data.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_CREATEKEYEDMUTEX2 {
@@ -58,6 +68,9 @@ typedef struct _D3DKMT_CREATEKEYEDMUTEX2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field InitialValue
 
@@ -89,18 +102,12 @@ typedef struct _D3DKMT_CREATEKEYEDMUTEX2 {
 [in] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags.md">D3DKMT_CREATEKEYEDMUTEX2_FLAGS</a> structure that indicates how to specify a handle to a keyed mutex object.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags.md">D3DKMT_CREATEKEYEDMUTEX2_FLAGS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatekeyedmutex2.md">D3DKMTCreateKeyedMutex2</a>
-</dt>
-</dl>
+
  
 
  

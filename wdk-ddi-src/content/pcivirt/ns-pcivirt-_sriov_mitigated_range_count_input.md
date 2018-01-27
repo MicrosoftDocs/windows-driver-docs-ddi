@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 7de35a35-2b90-421d-bbde-4c5cb760070a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SRIOV_MITIGATED_RANGE_COUNT_INPUT, *PSRIOV_MITIGATED_RANGE_COUNT_INPUT, SRIOV_MITIGATED_RANGE_COUNT_INPUT
+ms.keywords: *PSRIOV_MITIGATED_RANGE_COUNT_INPUT, SRIOV_MITIGATED_RANGE_COUNT_INPUT, PCI.sriov_mitigated_range_count_input, SRIOV_MITIGATED_RANGE_COUNT_INPUT structure [Buses], _SRIOV_MITIGATED_RANGE_COUNT_INPUT, pcivirt/SRIOV_MITIGATED_RANGE_COUNT_INPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SRIOV_MITIGATED_RANGE_COUNT_INPUT
-req.alt-loc: Pcivirt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PSRIOV_MITIGATED_RANGE_COUNT_INPUT, SRIOV_MITIGATED_RANGE_COUNT_INPUT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Pcivirt.h
+apiname: 
+-	SRIOV_MITIGATED_RANGE_COUNT_INPUT
+product: Windows
+targetos: Windows
+req.typenames: SRIOV_MITIGATED_RANGE_COUNT_INPUT, *PSRIOV_MITIGATED_RANGE_COUNT_INPUT
 ---
 
 # _SRIOV_MITIGATED_RANGE_COUNT_INPUT structure
 
 
-
 ## -description
+
+
 This structure is used as an input buffer to the <a href="https://msdn.microsoft.com/68fd97a5-b7ea-43c0-96ed-b64445fd21dd">IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT</a> request to determine the ranges of memory-mapped I/O space that must be mitigated. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SRIOV_MITIGATED_RANGE_COUNT_INPUT {
@@ -54,20 +64,18 @@ typedef struct _SRIOV_MITIGATED_RANGE_COUNT_INPUT {
 
 ## -struct-fields
 
+
+
+
 ### -field VfIndex
 
 Zero-based index of the virtual function from the first virtual function exposed by this physical function.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/68fd97a5-b7ea-43c0-96ed-b64445fd21dd">IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT</a>
-</dt>
-</dl>
+
  
 
  

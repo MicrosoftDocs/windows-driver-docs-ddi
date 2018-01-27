@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: DCC7087B-0A1B-4E96-A82F-BDEF09D8CEE2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _BDA_BUFFER, BDA_BUFFER, *PBDA_BUFFER
+ms.keywords: bdatypes/PBDA_BUFFER, PBDA_BUFFER, BDA_BUFFER, PBDA_BUFFER structure pointer [Streaming Media Devices], BDA_BUFFER structure [Streaming Media Devices], *PBDA_BUFFER, bdatypes/BDA_BUFFER, stream.bda_buffer, _BDA_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BDA_BUFFER
-req.alt-loc: Bdatypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bdatypes.h
+apiname: 
+-	BDA_BUFFER
+product: Windows
+targetos: Windows
 req.typenames: BDA_BUFFER, *PBDA_BUFFER
 ---
 
 # _BDA_BUFFER structure
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: BDA_BUFFER, *PBDA_BUFFER
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct _BDA_BUFFER {
@@ -56,13 +66,28 @@ typedef struct _BDA_BUFFER {
 
 ## -struct-fields
 
+
+
+
 ### -field lResult
 
 
-### -field ulKeyuuidBufferLen
+
+### -field ulBufferSize
+
+ 
 
 
-### -field argKeyuuidBuffer
+### -field argbBuffer
+
+ 
 
 
-## -remarks
+
+#### - ulKeyuuidBufferLen
+
+
+
+#### - argKeyuuidBuffer
+
+

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 75c909b1-8eb5-4887-b528-d3ac465ee12b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAddEvent
+ms.keywords: avfunc_20b264e1-c7ad-4b24-bff3-996b9d478a44.xml, ks/KsAddEvent, stream.ksaddevent, KsAddEvent function [Streaming Media Devices], KsAddEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsAddEvent
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsAddEvent
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsAddEvent function
 
 
-
 ## -description
+
+
 The<b> KsAddEvent </b>function adds an event to <i>Object</i>'s event list.
 
 
-
 ## -syntax
+
 
 ````
 void KsAddEvent(
@@ -54,6 +65,9 @@ void KsAddEvent(
 
 
 ## -parameters
+
+
+
 
 ### -param Object [in]
 
@@ -66,33 +80,33 @@ A pointer to an <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a> struct
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 Minidrivers typically do not call this routine directly; instead, they use <a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a> or <a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>. 
 
 After events have been added to the event list, these events can be generated as data events by a <b>Ks</b><i>Xxx</i><b>GenerateEvents</b> call. Typecasting of the object (a filter or pin) to PVOID must be provided by the caller.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
-</dt>
-<dt>
+
+<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
+
 <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
+
  
 
  

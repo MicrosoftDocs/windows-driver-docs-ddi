@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9207768b-530a-49d5-999e-0e8eb6bd1fe5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2VERTEXSHADER, D3DHAL_DP2VERTEXSHADER, *LPD3DHAL_DP2VERTEXSHADER
+ms.keywords: _D3DHAL_DP2VERTEXSHADER, *LPD3DHAL_DP2VERTEXSHADER, d3dhal/D3DHAL_DP2VERTEXSHADER, d3dhal/LPD3DHAL_DP2VERTEXSHADER, D3DHAL_DP2VERTEXSHADER, LPD3DHAL_DP2VERTEXSHADER structure pointer [Display Devices], display.d3dhal_dp2vertexshader, D3DHAL_DP2VERTEXSHADER structure [Display Devices], d3dstrct_84401bfa-f79d-4128-9989-1223284f25b0.xml, LPD3DHAL_DP2VERTEXSHADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DP2VERTEXSHADER
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DP2VERTEXSHADER
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DP2VERTEXSHADER
 ---
 
 # _D3DHAL_DP2VERTEXSHADER structure
 
 
-
 ## -description
+
+
 
    DirectX 8.0 and later versions only.
    
@@ -46,8 +56,8 @@ req.typenames: D3DHAL_DP2VERTEXSHADER
 The D3DHAL_DP2VERTEXSHADER structure sets the current vertex shader, or deletes a vertex shader, depending on the opcode received (D3DDP2OP_SETVERTEXSHADER or D3DDP2OP_DELETEVERTEXSHADER) by <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DP2VERTEXSHADER {
@@ -58,15 +68,28 @@ typedef struct _D3DHAL_DP2VERTEXSHADER {
 
 ## -struct-fields
 
+
+
+
 ### -field dwHandle
 
 
-### -field Specifies the handle to the vertex shader that is assigned by the runtime. For delete requests, the handle is guaranteed to be nonzero. For set requests, the supplied handle can be zero indicating that no vertex shader is currently realized. In this case, the driver should invalidate all previously set streams and free any data associated with them. The runtime guarantees that streams are reinitialized with D3DDP2OP_SETSTREAMSOURCE or D3DDP2OP_SETSTREAMSOURCEUM and a new vertex shader is selected using D3DHAL_DP2VERTEXSHADER before any subsequent rendering operations.
-### -field DirectX 9.0 and later versions only.
-### -field Specifies the handle to the vertex shader declaration or code object.
+
+###### - dwHandle.Specifies the handle to the vertex shader declaration or code object.
+
+
+
+####### - dwHandle.DirectX 9.0 and later versions only.
+
+
+
+########## - dwHandle.Specifies the handle to the vertex shader that is assigned by the runtime. For delete requests, the handle is guaranteed to be nonzero. For set requests, the supplied handle can be zero indicating that no vertex shader is currently realized. In this case, the driver should invalidate all previously set streams and free any data associated with them. The runtime guarantees that streams are reinitialized with D3DDP2OP_SETSTREAMSOURCE or D3DDP2OP_SETSTREAMSOURCEUM and a new vertex shader is selected using D3DHAL_DP2VERTEXSHADER before any subsequent rendering operations.
+
 
 
 ## -remarks
+
+
 All DirectX 8.0 level drivers must support the D3DDP2OP_SETVERTEXSHADER token because it is sent even if the driver does not support programmable vertex processing. In that case, however, the shader handle is always an FVF code indicating fixed function processing of the vertex data. The driver should use the FVF code stored in the <b>dwHandle</b> member as the format of the vertex data in stream zero. A driver that does support programmable vertex processing must examine the handle to determine whether it refers to a shader previously created with D3DDP2OP_CREATEVERTEXSHADER or an FVF code and take the appropriate action.
 
 Pixel and vertex shaders are orthogonal. Thus, if a legacy FVF code is selected as the current vertex shader this does not imply legacy pixel processing. In order to reset pixel processing to a subprogrammable mode the current pixel shader must also be set to zero. Care should be taken in the driver to only reset vertex processing state to a fixed function mode and not pixel processing state when the vertex shader is set to an FVF code.
@@ -78,27 +101,33 @@ When switching between programmable shaders, any constant register that has a va
 For D3DDP2OP_SETVERTEXSHADERDECL operations, the runtime specifies a legacy FVF code or a DirectX 9.0 declaration handle in the <b>dwHandle</b> member. The runtime indicates a DirectX 9.0 declaration handle by setting bit 0 of the handle. For D3DDP2OP_SETVERTEXSHADERFUNC operations, the runtime sets <b>dwHandle</b> to zero to indicate a fixed function pipeline.
 
 
+
 ## -see-also
-<dl>
-<dt>D3DDP2OP_CREATEVERTEXSHADER</dt>
-<dt>D3DDP2OP_DELETEVERTEXSHADER</dt>
-<dt>D3DDP2OP_DELETEVERTEXSHADERDECL</dt>
-<dt>D3DDP2OP_DELETEVERTEXSHADERFUNC</dt>
-<dt>D3DDP2OP_SETSTREAMSOURCE</dt>
-<dt>D3DDP2OP_SETSTREAMSOURCEUM</dt>
-<dt>D3DDP2OP_SETVERTEXSHADER</dt>
-<dt>D3DDP2OP_SETVERTEXSHADERDECL</dt>
-<dt>D3DDP2OP_SETVERTEXSHADERFUNC</dt>
-<dt>
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-</dt>
-<dt>
+
+D3DDP2OP_DELETEVERTEXSHADERDECL
+
+D3DDP2OP_SETSTREAMSOURCEUM
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setvertexshaderconst.md">D3DHAL_DP2SETVERTEXSHADERCONST</a>
-</dt>
-<dt>
+
+D3DDP2OP_SETVERTEXSHADER
+
+D3DDP2OP_DELETEVERTEXSHADER
+
+D3DDP2OP_CREATEVERTEXSHADER
+
+D3DDP2OP_SETSTREAMSOURCE
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+D3DDP2OP_DELETEVERTEXSHADERFUNC
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createvertexshader.md">D3DHAL_DP2CREATEVERTEXSHADER</a>
-</dt>
-</dl>
+
+D3DDP2OP_SETVERTEXSHADERFUNC
+
+D3DDP2OP_SETVERTEXSHADERDECL
+
  
 
  

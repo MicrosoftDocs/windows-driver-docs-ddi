@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 67F42694-C6E1-458E-AE5F-7E3678F55A8B
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT
+ms.keywords: audio.ioctl_bthhfp_stream_open, IOCTL_BTHHFP_STREAM_OPEN control code [Audio Devices], IOCTL_BTHHFP_STREAM_OPEN, bthhfpddi/IOCTL_BTHHFP_STREAM_OPEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_BTHHFP_STREAM_OPEN
-req.alt-loc: Bthhfpddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,62 +29,92 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bthhfpddi.h
+apiname: 
+-	IOCTL_BTHHFP_STREAM_OPEN
+product: Windows
+targetos: Windows
 req.typenames: *PHFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION
 ---
 
 # IOCTL_BTHHFP_STREAM_OPEN IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 The <b>IOCTL_BTHHFP_STREAM_OPEN</b> 
    IOCTL requests an open synchronous connection-oriented (SCO) channel to transmit audio data over the air.
 
 
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 N/A
 
 
 ### -input-buffer-length
+
 N/A
 
 
 ### -output-buffer
+
 N/A
 
 
 ### -output-buffer-length
+
 N/A
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 A STATUS_DEVICE_BUSY message to indicate that the stream channel is already open.
 
 
 ## -remarks
+
+
 This request can remain pending for several seconds while resources are established.
 
 While the stream channel is open the target driver attempts to keep the SCO channel open for audio data transfer. However the SCO channel might close briefly, if the remote device disconnects the SCO channel.  The target driver will attempt to reopen the SCO channel in this case, without requiring any action from the client audio driver.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
-</dt>
-</dl>
+
  
 
  

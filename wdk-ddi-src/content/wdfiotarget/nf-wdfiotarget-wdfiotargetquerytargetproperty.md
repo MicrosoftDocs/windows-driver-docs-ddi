@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 00987914-9fe2-4245-b463-ef362e31679d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoTargetQueryTargetProperty
+ms.keywords: WdfIoTargetQueryTargetProperty, wdfiotarget/WdfIoTargetQueryTargetProperty, PFN_WDFIOTARGETQUERYTARGETPROPERTY, WdfIoTargetQueryTargetProperty method, kmdf.wdfiotargetquerytargetproperty, DFIOTargetRef_33739a99-4af2-4e90-92e5-b75e785f1c2c.xml, wdf.wdfiotargetquerytargetproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfIoTargetQueryTargetProperty
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,35 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: WDF_IO_TARGET_STATE, *PWDF_IO_TARGET_STATE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfIoTargetQueryTargetProperty
+product: Windows
+targetos: Windows
+req.typenames: *PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE
 req.product: Windows 10 or later.
 ---
 
 # WdfIoTargetQueryTargetProperty function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfIoTargetQueryTargetProperty</b> method retrieves a specified device property for a specified I/O target.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS WdfIoTargetQueryTargetProperty(
@@ -60,6 +71,9 @@ NTSTATUS WdfIoTargetQueryTargetProperty(
 
 
 ## -parameters
+
+
+
 
 ### -param IoTarget [in]
 
@@ -87,18 +101,48 @@ A pointer to a location that, on return, contains the size, in bytes, of the inf
 
 
 ## -returns
+
+
 <b>WdfIoTargetQueryTargetProperty</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The buffer that the <i>PropertyBuffer</i> parameter pointed to was too small to receive the requested information.
+</dl>
+</td>
+<td width="60%">
+The buffer that the <i>PropertyBuffer</i> parameter pointed to was too small to receive the requested information.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER_2</b></dt>
-</dl>The value that the <i>DeviceProperty</i> parameter specified was invalid.
+</dl>
+</td>
+<td width="60%">
+The value that the <i>DeviceProperty</i> parameter specified was invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>The device's drivers have not yet reported the device's properties.
+</dl>
+</td>
+<td width="60%">
+The device's drivers have not yet reported the device's properties.
 
- 
+</td>
+</tr>
+</table> 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -107,7 +151,10 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
+
 Before drivers receive device property data, they typically call the <b>WdfIoTargetQueryTargetProperty</b> method to obtain the required buffer size. For some properties, the data size can change between when the required size is returned and when the driver calls <b>WdfIoTargetQueryTargetProperty</b> again. Therefore, drivers should call <b>WdfIoTargetQueryTargetProperty</b> inside a loop that executes until the return status is not STATUS_BUFFER_TOO_SMALL. 
 
 Instead of calling <b>WdfIoTargetQueryTargetProperty</b>, your driver can call <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetallocandquerytargetproperty.md">WdfIoTargetAllocAndQueryTargetProperty</a>, which allocates a buffer and places the property information in the buffer. 
@@ -116,27 +163,20 @@ For more information about <b>WdfIoTargetQueryTargetProperty</b>, see <a href="h
 
 For more information about I/O targets, see <a href="https://msdn.microsoft.com/77fd1b64-c3a9-4e12-ac69-0e3725695795">Using I/O Targets</a>.
 
-The following code example obtains a device's <b>DevicePropertyUINumber</b> property. The example calls <b>WdfIoTargetQueryTargetProperty</b> instead of <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetallocandquerytargetproperty.md">WdfIoTargetAllocAndQueryTargetProperty</a> because the length of a UI number is known.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVICE_REGISTRY_PROPERTY</a>
-</dt>
-<dt>
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
-</dt>
-<dt>
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryproperty.md">WdfDeviceQueryProperty</a>
-</dt>
-<dt>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetallocandquerytargetproperty.md">WdfIoTargetAllocAndQueryTargetProperty</a>
-</dt>
-<dt>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
-</dt>
-</dl>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryproperty.md">WdfDeviceQueryProperty</a>
+
+<a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVICE_REGISTRY_PROPERTY</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
+
  
 
  

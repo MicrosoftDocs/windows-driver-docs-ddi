@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 959dfdb2-cadf-427d-958a-33ce2a1610ae
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_SEGMENTFLAGS, DXGK_SEGMENTFLAGS
+ms.keywords: display.dxgk_segmentflags, _DXGK_SEGMENTFLAGS, DXGK_SEGMENTFLAGS, DXGK_SEGMENTFLAGS structure [Display Devices], DmStructs_a7239928-eb4e-42d0-8ced-9e37d28e9464.xml, d3dkmddi/DXGK_SEGMENTFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_SEGMENTFLAGS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_SEGMENTFLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_SEGMENTFLAGS
 ---
 
 # _DXGK_SEGMENTFLAGS structure
 
 
-
 ## -description
+
+
 The DXGK_SEGMENTFLAGS structure identifies properties for a segment that the driver provides through a call to its <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_SEGMENTFLAGS {
@@ -82,6 +92,9 @@ typedef struct _DXGK_SEGMENTFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Aperture
 
@@ -152,10 +165,7 @@ Supported starting with Windows 8.
 ### -field PreservedDuringHibernate
 
 [out] A UINT value that specifies whether the segment is preserved in a transition to a hibernate system power state.
-
-<div class="alert"><b>Note</b>  Do not set this flag unless the <b>PreservedDuringStandby</b> member is also set.</div>
-<div> </div>
-For more information on power transition options, see Remarks.
+<div class="alert"><b>Note</b>  Do not set this flag unless the <b>PreservedDuringStandby</b> member is also set.</div><div> </div>For more information on power transition options, see Remarks.
 
 Setting this member is equivalent to setting the ninth bit of the 32-bit <b>Value</b> member (0x00000100).
 
@@ -165,10 +175,7 @@ Supported starting with Windows 8.
 ### -field PartiallyPreservedDuringHibernate
 
 [out] A UINT value that specifies whether the segment is  partially preserved in a transition to a hibernate system power state. 
-
-<div class="alert"><b>Note</b>  Do not set this flag unless the <b>PreservedDuringStandby</b> member is also set.</div>
-<div> </div>
-For more information on power transition options, see Remarks.
+<div class="alert"><b>Note</b>  Do not set this flag unless the <b>PreservedDuringStandby</b> member is also set.</div><div> </div>For more information on power transition options, see Remarks.
 
 Setting this member is equivalent to setting the tenth bit of the 32-bit <b>Value</b> member (0x00000200).
 
@@ -219,17 +226,36 @@ Supported starting with Windows 10.
 Supported starting with Windows 10.
 
 
+### -field VprSupported
+
+ 
+
+
+### -field VprPreservedDuringStandby
+
+ 
+
+
+### -field EncryptedPagingSupported
+
+ 
+
+
+### -field LocalBudgetGroup
+
+ 
+
+
+### -field NonLocalBudgetGroup
+
+ 
+
+
 ### -field Reserved
 
 [out] This member is reserved and should be set to zero.
 
-
-### -field Reserved
-
 [out] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 21 bits (0xFFFFF800) of the 32-bit <b>Value</b> member to zeros.
-
-
-### -field Reserved
 
 [out] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 22 bits (0xFFFFFC00) of the 32-bit <b>Value</b> member to zeros.
 
@@ -240,6 +266,8 @@ Supported starting with Windows 10.
 
 
 ## -remarks
+
+
 The driver can specify properties of the segment by setting bits in the 32-bit <b>Value</b> member or by setting individual members of the structure in the union that DXGK_SEGMENTFLAGS contains.
 
 Note that for an AGP-type aperture segment, the driver must exclusively set the <b>Agp</b> member of the structure in the union that DXGK_SEGMENTFLAGS contains. Although the AGP-type aperture segment is an aperture and visible to the CPU, if any other members are set, the adapter fails to initialize.
@@ -247,8 +275,72 @@ Note that for an AGP-type aperture segment, the driver must exclusively set the 
 In the special case where the allocation uses an aperture segment on a shared primary allocation (<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getstandardallocationdriverdata.md">DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA</a>.<b>StandardAllocationType</b> is <b>D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE</b>), and <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>.<b>UseAlternateVA</b> is not set,  the driver should use a section-backed primary allocation (<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidmmcaps.md">DXGK_VIDMMCAPS</a>.<b>SectionBackedPrimary</b> is set) when the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> function is called. By using a section-backed primary you can avoid the limitations of <b>CpuVisible</b> for the aperture segment.
 
 You can avoid the limitations of <b>CpuVisible</b> for an aperture segment by using a shared, section-backed primary allocation. In this case, use an aperture segment on a shared primary allocation (<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getstandardallocationdriverdata.md">DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA</a>.<b>StandardAllocationType</b> is <b>D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE</b>), do not set <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>.<b>UseAlternateVA</b>,  and use a section-backed primary allocation (set <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidmmcaps.md">DXGK_VIDMMCAPS</a>.<b>SectionBackedPrimary</b>) when the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> function is called. 
-
-The combination of values for the <b>PreservedDuringStandby</b>, <b>PreservedDuringHibernate</b>, and  <b>PartiallyPreservedDuringHibernate</b> members determines whether a segment is purged of its content when the system enters a low-power (standby) system state, as follows.
+<h3><a id="optimized_standby_settings"></a><a id="OPTIMIZED_STANDBY_SETTINGS"></a>Optimized standby settings</h3>The combination of values for the <b>PreservedDuringStandby</b>, <b>PreservedDuringHibernate</b>, and  <b>PartiallyPreservedDuringHibernate</b> members determines whether a segment is purged of its content when the system enters a low-power (standby) system state, as follows.
+<table>
+<tr>
+<th>Preserved During Standby</th>
+<th>Preserved During Hibernate</th>
+<th>Partially Preserved During Hibernate</th>
+<th>Standby State</th>
+<th>Hibernate State</th>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>invalid</td>
+<td>invalid</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>not purged</td>
+<td>not purged</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>not purged</td>
+<td>partially purged</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>not purged</td>
+<td>purged</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>invalid</td>
+<td>invalid</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>invalid</td>
+<td>invalid</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>invalid</td>
+<td>invalid</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>purged</td>
+<td>purged</td>
+</tr>
+</table> 
 
 The operating system does not recognize combinations in this table that are marked "invalid."
 
@@ -259,43 +351,24 @@ The following are common combinations of member values.
 
 
 
-The following are common combinations of member values.
-
-The segment is never purged during a power transition. This combination of member values should be set on memory segments that are populated from driver-allocated system memory—not BIOS-reserved memory, which is not automatically preserved in the hibernate state. These two members should also both be set for aperture segments in which page table content should be preserved during power transitions.
-
-The segment is preserved during a sleep state but purged during a hibernate state. This combination of member values should be used for memory segments that are populated from BIOS-reserved memory, or for memory and aperture segments that are exposed by a discrete GPU that keeps its VRAM refreshed during a sleep state.
-
-The segment is preserved during a sleep state. In addition, during a hibernate state, only those allocations beyond the memory address specified by the <b>SystemMemoryEndAddress</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor3.md">DXGK_SEGMENTDESCRIPTOR3</a> structure are evicted.
-
-This combination of member values should be set on memory segments that are populated partially from driver-allocated memory and partially from BIOS-reserved memory. <b>PartiallyPreservedDuringHibernate</b> and <b>PreservedDuringHibernate</b> cannot both be set on the same segment, and they cannot be set on aperture segments.
-
-The segment is purged during all power transitions.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentin.md">DXGK_QUERYSEGMENTIN</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor.md">DXGK_SEGMENTDESCRIPTOR</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor3.md">DXGK_SEGMENTDESCRIPTOR3</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
-</dt>
-<dt>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentin.md">DXGK_QUERYSEGMENTIN</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor3.md">DXGK_SEGMENTDESCRIPTOR3</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
+
  
 
  

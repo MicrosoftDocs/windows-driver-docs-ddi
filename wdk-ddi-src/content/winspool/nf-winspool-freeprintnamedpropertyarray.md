@@ -7,8 +7,8 @@ old-location: print\freeprintnamedpropertyarray.htm
 old-project: print
 ms.assetid: 18E24562-F57A-492F-9254-722ABA0B2BC4
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: FreePrintNamedPropertyArray
+ms.date: 1/18/2018
+ms.keywords: print.freeprintnamedpropertyarray, winspool/FreePrintNamedPropertyArray, FreePrintNamedPropertyArray, FreePrintNamedPropertyArray function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FreePrintNamedPropertyArray
-req.alt-loc: Winspool.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Winspool.h
+apiname: 
+-	FreePrintNamedPropertyArray
+product: Windows
+targetos: Windows
 req.typenames: BIDI_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # FreePrintNamedPropertyArray function
 
 
-
 ## -description
 
 
 
 
+
 ## -syntax
+
 
 ````
 void WINAPI FreePrintNamedPropertyArray(
@@ -56,14 +66,20 @@ void WINAPI FreePrintNamedPropertyArray(
 
 ## -parameters
 
+
+
+
 ### -param cProperties [in]
+
 
 
 ### -param ppProperties [in, out, optional]
 
 
+
 ## -returns
+
+
 This function does not return a value.
 
 
-## -remarks

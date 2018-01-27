@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: CE866047-61AD-4F4C-9990-76CE6B7BC4AA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA
+ms.keywords: display.pfnd3d12ddi_createprotectedresourcesession_0030, PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0030 callback function [Display Devices], PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0030, d3d12umddi/PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0030
-req.alt-loc: d3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d12umddi.h
+apiname: 
+-	PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0030
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
 
 # PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0030 callback
 
 
-
 ## -description
+
+
 Used to create a protected resource session.
 
 
-
 ## -prototype
+
 
 ````
 HRESULT APIENTRY* PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0030(
@@ -57,28 +67,36 @@ HRESULT APIENTRY* PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0030(
 
 ## -parameters
 
-### -param hDrvDevice 
+
+
+
+### -param hDrvDevice
 
 The hardware device being processed.
 
 
-### -param pArgs [in]
-
-The arguments used to create a protected resource session.
+### -param *pArgs
 
 
-### -param hDrvProtectedResourceSession 
+
+### -param hDrvProtectedResourceSession
 
 The protected resource session.
 
 
-### -param hRtProtectedSession 
+### -param hRtProtectedSession
 
 The protected session.
 
 
+#### - pArgs [in]
+
+The arguments used to create a protected resource session.
+
+
 ## -returns
+
+
 Returns STATUS_SUCCESS if completed successfully.
 
 
-## -remarks

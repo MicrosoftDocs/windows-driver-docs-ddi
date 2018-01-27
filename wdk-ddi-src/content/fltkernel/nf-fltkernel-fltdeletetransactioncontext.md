@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 120285ff-1cb4-4570-a1e7-0a7d22b43560
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltDeleteTransactionContext
+ms.keywords: FltDeleteTransactionContext routine [Installable File System Drivers], FltApiRef_a_to_d_785d668e-0232-4937-996e-846e459db2c5.xml, ifsk.fltdeletetransactioncontext, FltDeleteTransactionContext, fltkernel/FltDeleteTransactionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltDeleteTransactionContext
-req.alt-loc: FltMgr.lib,FltMgr.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	FltMgr.lib
+-	FltMgr.dll
+apiname: 
+-	FltDeleteTransactionContext
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltDeleteTransactionContext function
 
 
-
 ## -description
+
+
 The <b>FltDeleteTransactionContext</b> routine removes a context from a given transaction and marks the context for deletion. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltDeleteTransactionContext(
@@ -55,6 +66,9 @@ NTSTATUS FltDeleteTransactionContext(
 
 
 ## -parameters
+
+
+
 
 ### -param Instance [in]
 
@@ -72,15 +86,32 @@ Pointer to a caller-allocated variable that receives the address of the deleted 
 
 
 ## -returns
+
+
 <b>FltDeleteTransactionContext</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>No matching context was found. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+No matching context was found. This is an error code. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This routine is available on Windows Vista and later. 
 
 Because contexts are reference-counted, it is not usually necessary for a minifilter driver to call a routine such as <b>FltDeleteTransactionContext</b> to explicitly delete a context. 
@@ -94,42 +125,31 @@ To retrieve a transaction context, call <a href="..\fltkernel\nf-fltkernel-fltge
 To set a transaction context, call <a href="..\fltkernel\nf-fltkernel-fltsettransactioncontext.md">FltSetTransactionContext</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltcommitcomplete.md">FltCommitComplete</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nf-fltkernel-fltcommitcomplete.md">FltCommitComplete</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltenlistintransaction.md">FltEnlistInTransaction</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgettransactioncontext.md">FltGetTransactionContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltpreparecomplete.md">FltPrepareComplete</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltprepreparecomplete.md">FltPrePrepareComplete</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltrollbackcomplete.md">FltRollbackComplete</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltrollbackenlistment.md">FltRollbackEnlistment</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltsettransactioncontext.md">FltSetTransactionContext</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltprepreparecomplete.md">FltPrePrepareComplete</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltrollbackenlistment.md">FltRollbackEnlistment</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltrollbackcomplete.md">FltRollbackComplete</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgettransactioncontext.md">FltGetTransactionContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltpreparecomplete.md">FltPrepareComplete</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
  
 
  

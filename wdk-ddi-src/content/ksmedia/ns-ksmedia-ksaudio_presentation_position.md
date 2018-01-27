@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6C9F2E99-17B4-49AD-A94F-E3EF9282B649
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSAUDIO_PRESENTATION_POSITION, *PKSAUDIO_PRESENTATION_POSITION, KSAUDIO_PRESENTATION_POSITION
+ms.keywords: PKSAUDIO_PRESENTATION_POSITION structure pointer [Audio Devices], ksmedia/KSAUDIO_PRESENTATION_POSITION, ksmedia/PKSAUDIO_PRESENTATION_POSITION, PKSAUDIO_PRESENTATION_POSITION, *PKSAUDIO_PRESENTATION_POSITION, KSAUDIO_PRESENTATION_POSITION, audio.ksaudio_presentation_position, KSAUDIO_PRESENTATION_POSITION structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSAUDIO_PRESENTATION_POSITION
-req.alt-loc: Ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSAUDIO_PRESENTATION_POSITION, KSAUDIO_PRESENTATION_POSITION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ksmedia.h
+apiname: 
+-	KSAUDIO_PRESENTATION_POSITION
+product: Windows
+targetos: Windows
+req.typenames: KSAUDIO_PRESENTATION_POSITION, *PKSAUDIO_PRESENTATION_POSITION
 ---
 
 # KSAUDIO_PRESENTATION_POSITION structure
 
 
-
 ## -description
+
+
 The <b>KSAUDIO_PRESENTATION_POSITION</b> structure specifies the current cursor position in audio data stream that is being rendered to the endpoint.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _KSAUDIO_PRESENTATION_POSITION {
@@ -55,6 +65,9 @@ typedef struct _KSAUDIO_PRESENTATION_POSITION {
 
 ## -struct-fields
 
+
+
+
 ### -field u64PositionInBlocks
 
 Specifies the block offset from the start of the stream to the current post-decoded, uncompressed position in the stream. A "block" refers to the group of channels in the same sample. So, for example, in a PCM stream a block is the same as a frame. However, for compressed formats a block is a single sample within a frame. This means that for a typical MP3 stream that has 1152 samples in a frame, there are 1152 blocks. 
@@ -65,19 +78,14 @@ Specifies the block offset from the start of the stream to the current post-deco
 Specifies the value of the performance counter at the time that the audio driver reads the presentation position in response to the <b>KSAUDIO_PRESENTATION_POSITION</b> call. A driver writes to this field with the value read from calling <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff553053(v=vs.85).aspx">KeQueryPerformanceCounter</a> when a snapshot is taken of the presentation position.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt><a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff553053(v=vs.85).aspx">KeQueryPerformanceCounter</a></dt>
-<dt>
-<a href="..\ksmedia\ns-ksmedia-ksaudio_presentation_position.md">KSAUDIO_PRESENTATION_POSITION</a>
-</dt>
-<dt>
+
+<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff553053(v=vs.85).aspx">KeQueryPerformanceCounter</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450895">KSPROPERTY_AUDIO_PRESENTATION_POSITION</a>
-</dt>
-</dl>
+
+<a href="..\ksmedia\ns-ksmedia-ksaudio_presentation_position.md">KSAUDIO_PRESENTATION_POSITION</a>
+
  
 
  

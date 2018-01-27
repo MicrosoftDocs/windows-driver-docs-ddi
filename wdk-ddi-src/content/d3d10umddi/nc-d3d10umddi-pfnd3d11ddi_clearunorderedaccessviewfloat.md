@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 31734efd-0c17-4476-918d-942c015072bd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.clearunorderedaccessviewfloat, ClearUnorderedAccessViewFLOAT callback function [Display Devices], ClearUnorderedAccessViewFLOAT, PFND3D11DDI_CLEARUNORDEREDACCESSVIEWFLOAT, PFND3D11DDI_CLEARUNORDEREDACCESSVIEWFLOAT, d3d10umddi/ClearUnorderedAccessViewFLOAT, UserModeDisplayDriverDx11_Functions_002fe9ed-bdd4-46c4-b7fe-6b783ab47060.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: ClearUnorderedAccessViewFLOAT is supported beginning 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ClearUnorderedAccessViewFLOAT
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	ClearUnorderedAccessViewFLOAT
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11DDI_CLEARUNORDEREDACCESSVIEWFLOAT callback
 
 
-
 ## -description
+
+
 The <b>ClearUnorderedAccessViewFLOAT</b> function clears the specified unordered-access view by setting it to a constant value. 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11DDI_CLEARUNORDEREDACCESSVIEWFLOAT ClearUnorderedAccessViewFLOAT;
@@ -59,40 +69,61 @@ VOID APIENTRY ClearUnorderedAccessViewFLOAT(
 
 ## -parameters
 
-### -param hDevice [in]
+
+
+
+### -param D3D10DDI_HDEVICE
+
+
+
+### -param D3D11DDI_HUNORDEREDACCESSVIEW
+
+
+
+### -param FLOAT[4]
+
+
+
+
+
+
+#### - hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param hUnorderedAccessView [in]
+#### - hUnorderedAccessView [in]
 
  A handle to the unordered-access view to clear. 
 
 
-### -param pFloats [in]
+#### - pFloats [in]
 
  A four-element array of single-precision float vectors that the driver uses to clear an unordered-access view. 
 
 
 ## -returns
+
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the Remarks section. 
 
 
+
 ## -remarks
+
+
 The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> function, the Direct3D runtime determines that the error is critical. Even if the device is removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interferes with the operation of <b>ClearUnorderedAccessViewFLOAT</b> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
+
  
 
  

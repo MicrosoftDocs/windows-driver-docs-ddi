@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a883d80a-0240-4a2a-b3d8-ca87080717ee
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_PRESENT_REDIRECTED, D3DKMT_PRESENT_REDIRECTED
+ms.keywords: D3DKMT_PRESENT_REDIRECTED structure [Display Devices], display.d3dkmt-present-redirected, _D3DKMT_PRESENT_REDIRECTED, D3DKMT_PRESENT_REDIRECTED, d3dkmthk/D3DKMT_PRESENT_REDIRECTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_PRESENT_REDIRECTED
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_PRESENT_REDIRECTED
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_PRESENT_REDIRECTED
 ---
 
 # _D3DKMT_PRESENT_REDIRECTED structure
 
 
-
 ## -description
+
+
 Used to give information on the status of the present history token.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_PRESENT_REDIRECTED {
@@ -56,6 +66,9 @@ typedef struct _D3DKMT_PRESENT_REDIRECTED {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hSyncObj
 
@@ -76,5 +89,3 @@ The present history token.
 
 The flags needed to give the status of the present history token.
 
-
-## -remarks

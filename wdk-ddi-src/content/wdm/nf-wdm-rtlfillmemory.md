@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9a73331a-cc73-4a47-948b-a821600ca6a6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlFillMemory
+ms.keywords: RtlFillMemory, k109_db7a2a9f-c7b5-40c3-9755-e386bbaf5353.xml, wdm/RtlFillMemory, RtlFillMemory routine [Kernel-Mode Driver Architecture], kernel.rtlfillmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlFillMemory
-req.alt-loc: NtDll.dll,NtosKrnl.exe,API-MS-Win-Core-rtlsupport-l1-1-0.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,19 @@ req.type-library:
 req.lib: NtDll.lib (user mode); NtosKrnl.lib (kernel mode)
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: Any level (See Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtDll.dll
+-	NtosKrnl.exe
+-	API-MS-Win-Core-rtlsupport-l1-1-0.dll
+apiname: 
+-	RtlFillMemory
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +49,14 @@ req.product: Windows 10 or later.
 # RtlFillMemory macro
 
 
-
 ## -description
+
+
 The <b>RtlFillMemory</b> routine fills a block of memory with the specified fill value.
 
 
-
 ## -syntax
+
 
 ````
 VOID RtlFillMemory(
@@ -56,6 +68,9 @@ VOID RtlFillMemory(
 
 
 ## -parameters
+
+
+
 
 ### -param Destination [out]
 
@@ -73,15 +88,16 @@ The value to fill the destination memory block with. This value is copied to eve
 
 
 ## -remarks
+
+
 Callers of <b>RtlFillMemory</b> can be running at any IRQL if the destination memory block is in nonpaged system memory. Otherwise, the caller must be running at IRQL &lt;= APC_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
-</dt>
-</dl>
+
  
 
  

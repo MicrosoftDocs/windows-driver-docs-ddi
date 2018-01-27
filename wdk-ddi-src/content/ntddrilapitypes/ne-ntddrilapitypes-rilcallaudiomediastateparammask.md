@@ -7,8 +7,8 @@ old-location: netvista\rilcallaudiomediastateparammask.htm
 old-project: netvista
 ms.assetid: ad016fd6-1fbf-4600-809b-b0a9b368a87b
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCALLAUDIOMEDIASTATEPARAMMASK, RILCALLAUDIOMEDIASTATEPARAMMASK
+ms.date: 1/18/2018
+ms.keywords: ntddrilapitypes/RIL_PARAM_CALLAUDIO_QUALITY, ntddrilapitypes/RIL_PARAM_CALLAUDIO_ALL, RIL_PARAM_CALLAUDIO_QUALITY, RIL_PARAM_CALLAUDIO_FLAGS, RILCALLAUDIOMEDIASTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_CALLAUDIO_FLAGS, RIL_PARAM_CALLAUDIO_ALL, ntddrilapitypes/RILCALLAUDIOMEDIASTATEPARAMMASK, netvista.rilcallaudiomediastateparammask, RILCALLAUDIOMEDIASTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCALLAUDIOMEDIASTATEPARAMMASK
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILCALLAUDIOMEDIASTATEPARAMMASK
+product: Windows
+targetos: Windows
 req.typenames: RILCALLAUDIOMEDIASTATEPARAMMASK
 ---
 
 # RILCALLAUDIOMEDIASTATEPARAMMASK enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILCALLAUDIOMEDIASTATEPARAMMASK { 
@@ -56,13 +66,21 @@ typedef enum _RILCALLAUDIOMEDIASTATEPARAMMASK {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_PARAM_CALLAUDIO_SOURCE
+
+
+
 ### -field RIL_PARAM_CALLAUDIO_QUALITY
+
 
 
 ### -field RIL_PARAM_CALLAUDIO_FLAGS
 
 
+
 ### -field RIL_PARAM_CALLAUDIO_ALL
 
 
-## -remarks

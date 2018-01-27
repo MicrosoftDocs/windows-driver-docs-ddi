@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 42d70c1f-5cce-4097-849d-a5aa05b669b5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: STREAM_DEBUG_LEVEL, STREAM_DEBUG_LEVEL
+ms.keywords: strmini/DebugLevelInfo, DebugLevelMaximum, strmini/DebugLevelVerbose, stream.stream_debug_level, DebugLevelInfo, STREAM_DEBUG_LEVEL, strmini/DebugLevelFatal, strmini/DebugLevelWarning, strmini/DebugLevelTrace, DebugLevelVerbose, strmini/DebugLevelMaximum, strmini/DebugLevelError, DebugLevelWarning, ks-struct_9820cc1d-0d8b-43a8-b1a2-bca3f8a23d22.xml, DebugLevelFatal, STREAM_DEBUG_LEVEL enumeration [Streaming Media Devices], DebugLevelTrace, DebugLevelError, strmini/STREAM_DEBUG_LEVEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STREAM_DEBUG_LEVEL
-req.alt-loc: strmini.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	strmini.h
+apiname: 
+-	STREAM_DEBUG_LEVEL
+product: Windows
+targetos: Windows
 req.typenames: STREAM_DEBUG_LEVEL
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # STREAM_DEBUG_LEVEL enumeration
 
 
-
 ## -description
+
+
 The STREAM_DEBUG_LEVEL enumeration lists incrementally increasing levels of debugger output.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -60,6 +70,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DebugLevelFatal
 
@@ -96,15 +109,10 @@ Display verbose trace information. System need not remain responsive.
 Display maximum information.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\strmini\nf-strmini-streamclassdebugprint.md">StreamClassDebugPrint</a>
-</dt>
-</dl>
+
  
 
  

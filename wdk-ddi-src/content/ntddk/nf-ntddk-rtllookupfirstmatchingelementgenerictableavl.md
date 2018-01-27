@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ff9cea5d-a93f-4d3c-b034-d2bf85484df3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlLookupFirstMatchingElementGenericTableAvl
+ms.keywords: rtlref_60dc0941-12da-4d46-8f6d-ffbd2e394ddf.xml, RtlLookupFirstMatchingElementGenericTableAvl routine [Installable File System Drivers], ntddk/RtlLookupFirstMatchingElementGenericTableAvl, ifsk.rtllookupfirstmatchingelementgenerictableavl, RtlLookupFirstMatchingElementGenericTableAvl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlLookupFirstMatchingElementGenericTableAvl
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL (see Remarks section)
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlLookupFirstMatchingElementGenericTableAvl
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # RtlLookupFirstMatchingElementGenericTableAvl function
 
 
-
 ## -description
+
+
 The <b>RtlLookupFirstMatchingElementGenericTableAvl</b> routine finds the left-most element in the tree that matches the indicated data.
 
 
-
 ## -syntax
+
 
 ````
 PVOID RtlLookupFirstMatchingElementGenericTableAvl(
@@ -55,6 +65,9 @@ PVOID RtlLookupFirstMatchingElementGenericTableAvl(
 
 
 ## -parameters
+
+
+
 
 ### -param Table [in]
 
@@ -72,10 +85,15 @@ On output, contains a search context to use with an enumeration routine, such as
 
 
 ## -returns
+
+
 The <b>RtlLookupFirstMatchingElementGenericTableAvl</b>routine returns a pointer to the matched data, or <b>NULL</b> if no match was found.
 
 
+
 ## -remarks
+
+
 A tree that implements a generic table might contain several file names that differ only in case. A search algorithm can use this routine to locate the first match, without reference to case, and use an enumeration routine, such as <a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplayingavl.md">RtlEnumerateGenericTableWithoutSplayingAvl</a>, to return each subsequent match.
 
 By default, the operating system uses splay trees to implement generic tables, but the <b>RtlLookupFirstMatchingElementGenericTableAvl</b>routine only works with Adelson-Velsky/Landis (AVL) trees. Under some circumstances, operations on a splay tree will make the tree deep and narrow and might even turn it into a straight line. Very deep trees degrade the performance of searches. You can ensure a more balanced, shallower tree implementation of generic tables by using Adelson-Velsky/Landis (AVL) trees. If you want to configure the generic table routines to use AVL trees instead of splay trees in your driver, insert the following define statement in a common header file before including <i>Ntddk.h</i>:
@@ -85,14 +103,16 @@ By default, the operating system uses splay trees to implement generic tables, b
 If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. 
 
 Callers of <b>RtlLookupFirstMatchingElementGenericTableAvl</b> must be running at &lt;= APC_LEVEL if either of the following conditions holds:
+<ul>
+<li>The caller-allocated memory at <i>Table</i> or at <i>Buffer</i> is pageable.</li>
+<li>The caller-supplied CompareRoutine contains pageable code.</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplayingavl.md">RtlEnumerateGenericTableWithoutSplayingAvl</a>
-</dt>
-</dl>
+
  
 
  

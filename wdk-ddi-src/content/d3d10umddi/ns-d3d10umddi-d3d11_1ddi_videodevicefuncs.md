@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c843fe5c-19bc-479c-8d8d-a3a6146dfb1c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEODEVICEFUNCS, D3D11_1DDI_VIDEODEVICEFUNCS
+ms.keywords: display.d3d11_1ddi_videodevicefuncs, D3D11_1DDI_VIDEODEVICEFUNCS structure [Display Devices], D3D11_1DDI_VIDEODEVICEFUNCS, d3d10umddi/D3D11_1DDI_VIDEODEVICEFUNCS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDI_VIDEODEVICEFUNCS
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDI_VIDEODEVICEFUNCS
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_VIDEODEVICEFUNCS
 ---
 
 # D3D11_1DDI_VIDEODEVICEFUNCS structure
 
 
-
 ## -description
+
+
 Specifies the video function table for the  Microsoft Direct3D driver device object.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D11_1DDI_VIDEODEVICEFUNCS {
@@ -133,6 +143,9 @@ typedef struct D3D11_1DDI_VIDEODEVICEFUNCS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pfnGetVideoDecoderProfileCount
 
@@ -538,5 +551,3 @@ The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcapturehandle.md">GetCaptureHandle</a> function.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a468205c-288c-49d5-ab14-0ee39dca7b7c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_DESTROYOVERLAY, D3DDDIARG_DESTROYOVERLAY
+ms.keywords: d3dumddi/D3DDDIARG_DESTROYOVERLAY, D3DDDIARG_DESTROYOVERLAY, UMDisplayDriver_param_Structs_e7a2d82a-2e1c-4362-ae4d-23617911de3b.xml, display.d3dddiarg_destroyoverlay, _D3DDDIARG_DESTROYOVERLAY, D3DDDIARG_DESTROYOVERLAY structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_DESTROYOVERLAY
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_DESTROYOVERLAY
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_DESTROYOVERLAY
 ---
 
 # _D3DDDIARG_DESTROYOVERLAY structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_DESTROYOVERLAY structure contains a handle to the overlay to disable.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_DESTROYOVERLAY {
@@ -54,20 +64,18 @@ typedef struct _D3DDDIARG_DESTROYOVERLAY {
 
 ## -struct-fields
 
+
+
+
 ### -field hOverlay
 
 [in] A handle to the overlay to disable.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyoverlay.md">DestroyOverlay</a>
-</dt>
-</dl>
+
  
 
  

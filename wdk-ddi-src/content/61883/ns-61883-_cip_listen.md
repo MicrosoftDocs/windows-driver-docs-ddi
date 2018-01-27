@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 362ABECF-66D3-4B0B-913B-59F7196D6BFD
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _CIP_LISTEN, CIP_LISTEN, *PCIP_LISTEN
+ms.keywords: IEEE.cip_listen, *PCIP_LISTEN, PCIP_LISTEN structure pointer [Buses], CIP_LISTEN, PCIP_LISTEN, CIP_LISTEN structure [Buses], 61883/CIP_LISTEN, _CIP_LISTEN, 61883/PCIP_LISTEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CIP_LISTEN
-req.alt-loc: 61883.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	61883.h
+apiname: 
+-	CIP_LISTEN
+product: Windows
+targetos: Windows
 req.typenames: CIP_LISTEN, *PCIP_LISTEN
 ---
 
 # _CIP_LISTEN structure
 
 
-
 ## -description
+
+
 This structure is used for a listen request. The request begins isochronous reception on the specified connection. This request will start capturing CIP packets, whether the packets have frames attached. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CIP_LISTEN {
@@ -54,12 +64,17 @@ typedef struct _CIP_LISTEN {
 
 ## -struct-fields
 
+
+
+
 ### -field hConnect
 
 On input, the handle of the connection to begin isochronous reception.
 
 
 ## -remarks
+
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
 
 If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_INVALID_PARAMETER.
@@ -67,12 +82,11 @@ If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoSt
 If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_INSUFFICIENT_RESOURCES.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-</dt>
-</dl>
+
  
 
  

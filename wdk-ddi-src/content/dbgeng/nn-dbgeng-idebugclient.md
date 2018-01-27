@@ -7,8 +7,8 @@ old-location: debugger\idebugclient.htm
 old-project: debugger
 ms.assetid: 2e47f7ae-2017-4f05-9a06-6c09bb401e21
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugSystemObjects4, IDebugSystemObjects4::SetImplicitThreadDataOffset, SetImplicitThreadDataOffset
+ms.date: 1/19/2018
+ms.keywords: debugger.idebugclient, IDebugClient interface [Windows Debugging], IDebugClient interface [Windows Debugging], described, IDebugClient, dbgeng/IDebugClient, IDebugClient_3f5f6372-0e7d-4050-b09a-b7776ff8bf7c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugClient,IDebugClient.GetOutputWidth,IDebugClient.SetOutputWidth,IDebugClient.GetOutputLinePrefix,IDebugClient.SetOutputLinePrefix
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,139 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugClient
+-	IDebugClient.GetOutputWidth
+-	IDebugClient.SetOutputWidth
+-	IDebugClient.GetOutputLinePrefix
+-	IDebugClient.SetOutputLinePrefix
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugClient interface
 
 
-
 ## -description
 
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IDebugClient</b> also has these types of members:
 
-The <b>IDebugClient</b> interface has these methods.
-
-Adds the process options to those options that affect the current process.
-
-
-Connects the debugger engine to a kernel target.
-
-
-Connects the debugger engine to a user-mode process.
-
-Connects to a process server.
-
-Joins the client to an existing debugger session.
-
-Creates a new client object for the current thread.
-
-Creates a process from the specified command line.
-
-
- Create a process from a specified command line, then attaches to another user-mode process.
-
-Detaches the debugger engine from all processes in all targets, resuming all their threads.
-
-
-Disconnects the debugger engine from a process server.
-
-Enables the debugger engine to use the current thread for callbacks.
-
-
-Ends the current debugger session.
-
-Causes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541970">DispatchCallbacks</a> method to return.
-
- Forces any remaining buffered output to be delivered to the <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a> object registered with this client.
-
-Returns the event callbacks object registered with this client.
-
-
-Returns the exit code of the current process if that process has already run through to completion.
-
-
-Returns a string describing the computer and user this client represents.
-
-
-Returns the input callbacks object registered with this client.
-
-Returns the connection options for the current kernel target.
-
-
-Returns the output mask for another client.
-
-
-Returns the output callbacks object registered with the client.
-
-
-
-
-Returns the output mask currently set for the client.
-
-
-
-Retrieves the process options affecting the current process.
-
-
-Returns a description of the process that includes the executable image name, the service names, the MTS package names, and the command line.
-
- Searches for a process with a given executable file name and return its process ID.
-
-
- Returns the process IDs for each running process.
-
-Opens a dump file as a debugger target.
-
-
- Formats and outputs a string describing the computer and user this client represents.
-
-
-Lists the servers running on a given computer.
-
-
-Removes process options from those options that affect the current process.
-
-
-Registers an event callbacks object with this client.
-
-
-Registers an input callbacks object with the client.
-
-Updates some of the connection options for a live kernel target.
-
-
-Sets the output mask for another client.
-
-
-Registers an output callbacks object with this client.
-
-
-
-Sets the output mask for the client.
-
-
-
-Sets the process options affecting the current process.
-
-Starts a process server.
-
- Starts a debugging server.
-
-
-Attempts to terminate all processes in all targets.
-
-Creates a user-mode or kernel-mode crash dump file.
-
-
- 
 
 
 ## -members
+
 The <b>IDebugClient</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -701,27 +597,19 @@ Creates a user-mode or kernel-mode crash dump file.
  
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-</dt>
-<dt>
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-</dt>
-<dt>
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-</dt>
-<dt>
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-</dt>
-</dl>
- 
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient interface%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient interface%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

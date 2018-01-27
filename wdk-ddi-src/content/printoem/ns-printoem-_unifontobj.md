@@ -7,8 +7,8 @@ old-location: print\unifontobj.htm
 old-project: print
 ms.assetid: ff3ecef2-abf2-4ecb-b4af-81e6c6d8fb4c
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: _UNIFONTOBJ, UNIFONTOBJ, *PUNIFONTOBJ
+ms.date: 1/18/2018
+ms.keywords: UNIFONTOBJ, printoem/UNIFONTOBJ, UNIFONTOBJ structure [Print Devices], print.unifontobj, printoem/PUNIFONTOBJ, PUNIFONTOBJ structure pointer [Print Devices], PUNIFONTOBJ, *PUNIFONTOBJ, _UNIFONTOBJ, print_unidrv-pscript_rendering_05a25ef3-5ce2-43f5-ae35-790691bda143.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UNIFONTOBJ
-req.alt-loc: printoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: UNIFONTOBJ, *PUNIFONTOBJ
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	printoem.h
+apiname: 
+-	UNIFONTOBJ
+product: Windows
+targetos: Windows
+req.typenames: *PUNIFONTOBJ, UNIFONTOBJ
 req.product: Windows 10 or later.
 ---
 
 # _UNIFONTOBJ structure
 
 
-
 ## -description
+
+
 The UNIFONTOBJ structure is used as an input parameter to font functions in rendering plug-ins.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UNIFONTOBJ {
@@ -58,6 +68,9 @@ typedef struct _UNIFONTOBJ {
 
 ## -struct-fields
 
+
+
+
 ### -field ulFontID
 
 Specifies a resource identifier for an RC_UFM resource contained in a Unidrv minidriver's resource DLL. Supplied by Unidrv.
@@ -66,7 +79,6 @@ Specifies a resource identifier for an RC_UFM resource contained in a Unidrv min
 ### -field dwFlags
 
 Is a set of Unidrv-supplied bit flags. Flag definitions are as follows:
-
 <table>
 <tr>
 <th>Flag</th>
@@ -142,12 +154,11 @@ UFOFLAG_TTSUBSTITUTED
 
 </td>
 <td>
-If set, the device font is a font substituted for the TrueType font. In the font substitution, GDI requests that Unidrv print using a TrueType font. For performance reasons, Unidrv substitutes a device font for the TrueType font. (The substitution is specified by a <a href="wdkgloss.g#wdkgloss.generic_printer_description__gpd_#wdkgloss.generic_printer_description__gpd_"><i>generic printer description (GPD)</i></a> file or in a table in the registry.) For this substitution, for some printers, it is necessary to adjust the baseline position of the device font, because the baseline position of the device font can be higher than that of the TrueType font. The adjustment causes the output of the substituted device font to be shifted down to correct this discrepancy. Depending on the flags set in the UNIFONTOBJ structure, the printer minidriver is able to adjust the baseline position of device fonts.
+If set, the device font is a font substituted for the TrueType font. In the font substitution, GDI requests that Unidrv print using a TrueType font. For performance reasons, Unidrv substitutes a device font for the TrueType font. (The substitution is specified by a <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">generic printer description (GPD)</a> file or in a table in the registry.) For this substitution, for some printers, it is necessary to adjust the baseline position of the device font, because the baseline position of the device font can be higher than that of the TrueType font. The adjustment causes the output of the substituted device font to be shifted down to correct this discrepancy. Depending on the flags set in the UNIFONTOBJ structure, the printer minidriver is able to adjust the baseline position of device fonts.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field pIFIMetrics
@@ -160,21 +171,15 @@ Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff567
 Pointer to Unidrv's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function. Supplied by Unidrv.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567418">IFIMETRICS</a>
-</dt>
-</dl>
- 
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UNIFONTOBJ structure%20 RELEASE:%20(1/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UNIFONTOBJ structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

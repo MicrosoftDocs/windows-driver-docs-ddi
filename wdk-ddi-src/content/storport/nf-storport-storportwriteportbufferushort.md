@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e7b7718b-0c03-4114-8402-9657c49230ad
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortWritePortBufferUshort
+ms.keywords: StorPortWritePortBufferUshort, storport/StorPortWritePortBufferUshort, storage.storportwriteportbufferushort, storprt_831acb6e-3529-4e20-897d-e2765b6f7f53.xml, StorPortWritePortBufferUshort routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortWritePortBufferUshort
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortWritePortBufferUshort
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortWritePortBufferUshort function
 
 
-
 ## -description
+
+
 The <b>StorPortWritePortBufferUshort</b> routine writes a value to a specified register address. 
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API VOID StorPortWritePortBufferUshort(
@@ -57,6 +68,9 @@ STORPORT_API VOID StorPortWritePortBufferUshort(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -79,22 +93,25 @@ Contains the number of data items of size <b>sizeof</b>(USHORT) to be written.
 
 
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 For more information, see <a href="..\srb\nf-srb-scsiportwriteportbufferushort.md">ScsiPortWritePortBufferUshort</a>. For a non-buffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportushort.md">StorPortWritePortUshort</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportwriteportbufferushort.md">ScsiPortWritePortBufferUshort</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportwriteportushort.md">StorPortWritePortUshort</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 71E2E98D-4C97-4C04-A379-88C2A7CC8428
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_LOCK2, D3DDDICB_LOCK2
+ms.keywords: d3dumddi/D3DDDICB_LOCK2, display.d3dddicb_lock2, D3DDDICB_LOCK2, _D3DDDICB_LOCK2, D3DDDICB_LOCK2 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_LOCK2
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_LOCK2
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_LOCK2
 ---
 
 # _D3DDDICB_LOCK2 structure
 
 
-
 ## -description
+
+
 <b>D3DDDICB_LOCK2</b> describes parameters for locking an allocation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_LOCK2 {
@@ -55,6 +65,9 @@ typedef struct _D3DDDICB_LOCK2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hAllocation
 
@@ -71,18 +84,12 @@ A set of flags to pass to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock2.md">L
 [out] A CPU virtual address pointing a valid memory location pointing to the CPU backing store or the GPU frame buffer.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock2.md">Lock2</a>
-</dt>
-<dt>
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lock2flags.md">D3DDDICB_LOCK2FLAGS</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock2.md">Lock2</a>
+
  
 
  

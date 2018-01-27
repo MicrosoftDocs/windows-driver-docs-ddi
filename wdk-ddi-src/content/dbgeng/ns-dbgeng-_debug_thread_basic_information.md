@@ -7,8 +7,8 @@ old-location: debugger\debug_thread_basic_information.htm
 old-project: debugger
 ms.assetid: e964ed63-6c00-4308-955c-f8a99490a248
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _DEBUG_THREAD_BASIC_INFORMATION, *PDEBUG_THREAD_BASIC_INFORMATION, DEBUG_THREAD_BASIC_INFORMATION
+ms.date: 1/19/2018
+ms.keywords: PDEBUG_THREAD_BASIC_INFORMATION, dbgeng/DEBUG_THREAD_BASIC_INFORMATION, Structures_e48c9daa-ce4f-4131-9ca6-cb1a7a129fcc.xml, *PDEBUG_THREAD_BASIC_INFORMATION, _DEBUG_THREAD_BASIC_INFORMATION, PDEBUG_THREAD_BASIC_INFORMATION structure pointer [Windows Debugging], DEBUG_THREAD_BASIC_INFORMATION structure [Windows Debugging], dbgeng/PDEBUG_THREAD_BASIC_INFORMATION, debugger.debug_thread_basic_information, DEBUG_THREAD_BASIC_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DEBUG_THREAD_BASIC_INFORMATION
-req.alt-loc: DbgEng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	DbgEng.h
+apiname: 
+-	DEBUG_THREAD_BASIC_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: *PDEBUG_THREAD_BASIC_INFORMATION, DEBUG_THREAD_BASIC_INFORMATION
 ---
 
 # _DEBUG_THREAD_BASIC_INFORMATION structure
 
 
-
 ## -description
+
+
 The DEBUG_THREAD_BASIC_INFORMATION structure describes an operating system thread.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DEBUG_THREAD_BASIC_INFORMATION {
@@ -63,10 +73,12 @@ typedef struct _DEBUG_THREAD_BASIC_INFORMATION {
 
 ## -struct-fields
 
+
+
+
 ### -field Valid
 
 A bitset that specifies which other members of the structure contain valid information. A member of the structure is valid if the corresponding bit flag is set in <b>Valid</b>.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -132,8 +144,7 @@ DEBUG_TBINFO_AFFINITY
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field ExitStatus
@@ -198,5 +209,3 @@ The thread affinity mask for the thread in a Symmetric Multiple Processor (SMP) 
 
 <b>Affinity</b> is only valid if the DEBUG_TBINFO_AFFINITY bit flag is set in <b>Valid</b>.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1841be02-e30f-4685-82ea-2d9c02ce7277
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _USBCAMD_DEVICE_DATA, USBCAMD_DEVICE_DATA, *PUSBCAMD_DEVICE_DATA
+ms.keywords: *PUSBCAMD_DEVICE_DATA, _USBCAMD_DEVICE_DATA, PUSBCAMD_DEVICE_DATA structure pointer [Streaming Media Devices], USBCAMD_DEVICE_DATA, usbcmdpr_1e4ea0e1-71e0-4c0e-a2bd-668f8fac9b02.xml, USBCAMD_DEVICE_DATA structure [Streaming Media Devices], PUSBCAMD_DEVICE_DATA, usbcamdi/USBCAMD_DEVICE_DATA, stream.usbcamd_device_data, usbcamdi/PUSBCAMD_DEVICE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBCAMD_DEVICE_DATA
-req.alt-loc: usbcamdi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: USBCAMD_DEVICE_DATA, *PUSBCAMD_DEVICE_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbcamdi.h
+apiname: 
+-	USBCAMD_DEVICE_DATA
+product: Windows
+targetos: Windows
+req.typenames: *PUSBCAMD_DEVICE_DATA, USBCAMD_DEVICE_DATA
 req.product: Windows 10 or later.
 ---
 
 # _USBCAMD_DEVICE_DATA structure
 
 
-
 ## -description
+
+
 This structure is <b>obsolete</b> and is provided to maintain backward compatibility with the original USBCAMD. New camera minidrivers should use the <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a> structure.
 
 The USBCAMD_DEVICE_DATA structure specifies the entry points for a camera minidriver's functions that the original USBCAMD calls.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBCAMD_DEVICE_DATA {
@@ -68,6 +78,9 @@ typedef struct _USBCAMD_DEVICE_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Sig
 
@@ -135,15 +148,16 @@ Pointer to the camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcam_f
 
 
 ## -remarks
+
+
 A camera minidriver passes a USBCAMD_DEVICE_DATA structure to USBCAMD as a parameter to the USBCAMD library routine <a href="..\usbcamdi\nf-usbcamdi-usbcamd_adapterreceivepacket.md">USBCAMD_AdapterReceivePacket</a> in the original USBCAMD.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
-</dt>
-</dl>
+
  
 
  

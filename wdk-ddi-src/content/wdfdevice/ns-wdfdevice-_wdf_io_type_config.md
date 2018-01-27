@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EB3CEC0E-5635-410D-B8D2-031FDB0557C1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_IO_TYPE_CONFIG, *PWDF_IO_TYPE_CONFIG, WDF_IO_TYPE_CONFIG
+ms.keywords: PWDF_IO_TYPE_CONFIG structure pointer, WDF_IO_TYPE_CONFIG, PWDF_IO_TYPE_CONFIG, WDF_IO_TYPE_CONFIG structure, wdfdevice/PWDF_IO_TYPE_CONFIG, wdf.wdf_io_type_config, _WDF_IO_TYPE_CONFIG, *PWDF_IO_TYPE_CONFIG, wdfdevice/WDF_IO_TYPE_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.13
 req.umdf-ver: 2.0
-req.alt-api: WDF_IO_TYPE_CONFIG
-req.alt-loc: wdfdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PWDF_IO_TYPE_CONFIG, WDF_IO_TYPE_CONFIG
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfdevice.h
+apiname: 
+-	WDF_IO_TYPE_CONFIG
+product: Windows
+targetos: Windows
+req.typenames: WDF_IO_TYPE_CONFIG, *PWDF_IO_TYPE_CONFIG
 req.product: Windows 10 or later.
 ---
 
 # _WDF_IO_TYPE_CONFIG structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_IO_TYPE_CONFIG</b> structure specifies the driver's preferred buffer access method for read and write requests, and for device I/O control requests.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WDF_IO_TYPE_CONFIG {
@@ -59,6 +69,9 @@ typedef struct _WDF_IO_TYPE_CONFIG {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -94,6 +107,8 @@ This member does not apply to KMDF.
 
 
 ## -remarks
+
+
 The <b>WDF_IO_TYPE_CONFIG</b> structure is used as input to the <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a> method.
 
 To initialize a <b>WDF_IO_TYPE_CONFIG</b> structure, your driver should call <a href="..\wdfdevice\nf-wdfdevice-wdf_io_type_config_init.md">WDF_IO_TYPE_CONFIG_INIT</a>.
@@ -104,18 +119,15 @@ If you are writing a driver using UMDF version 2.0 or later, see <a href="https:
 If you are writing a driver using UMDF version 1.<i>x</i>, your driver calls <a href="https://msdn.microsoft.com/7d79f34d-42aa-4ac7-a63d-2f17ee0dfcf0"> IWDFDeviceInitialize2::SetIoTypePreference</a> to specify preferred buffer access methods.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE</a>
-</dt>
-<dt>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdf_io_type_config_init.md">WDF_IO_TYPE_CONFIG_INIT</a>
-</dt>
-<dt>
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE</a>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
-</dt>
-</dl>
+
  
 
  

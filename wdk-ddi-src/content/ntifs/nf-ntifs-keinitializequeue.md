@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8dd47333-679a-482b-bd45-1e73505b3fea
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KeInitializeQueue
+ms.keywords: KeInitializeQueue, ifsk.keinitializequeue, KeInitializeQueue routine [Installable File System Drivers], ntifs/KeInitializeQueue, keref_85ea0829-c42c-4411-8ad9-a32d8eb0a40f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeInitializeQueue
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeInitializeQueue
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # KeInitializeQueue function
 
 
-
 ## -description
+
+
 The <b>KeInitializeQueue</b> routine initializes a queue object on which threads can wait for entries. 
 
 
-
 ## -syntax
+
 
 ````
 VOID KeInitializeQueue(
@@ -55,10 +65,12 @@ VOID KeInitializeQueue(
 
 ## -parameters
 
+
+
+
 ### -param Queue [out]
 
 Pointer to a KQUEUE structure for which the caller must provide resident storage in nonpaged pool. This structure is defined as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -74,8 +86,7 @@ Pointer to a KQUEUE structure for which the caller must provide resident storage
 } KQUEUE, *PKQUEUE, *RESTRICTED_POINTER PRKQUEUE;</pre>
 </td>
 </tr>
-</table></span></div>
-<table>
+</table></span></div><table>
 <tr>
 <th>Member</th>
 <th>Meaning</th>
@@ -130,8 +141,7 @@ Pointer to the first entry in the thread list.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Count [in]
@@ -140,10 +150,15 @@ The maximum number of threads for which the waits on the queue object can be sat
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 Usually the caller of <b>KeInitializeQueue</b> also creates a set of dedicated threads to queue and dequeue its entries. Such a caller can specify an explicit <i>Count</i> to prevent too many of its dedicated threads from waiting concurrently on its queue object. 
 
 <b>KeInitializeQueue</b> sets the queue object's initial signal state to Not Signaled.
@@ -151,30 +166,23 @@ Usually the caller of <b>KeInitializeQueue</b> also creates a set of dedicated t
 For more information about using driver-managed internal queues, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544165">Driver-Managed Queues</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-keinsertqueue.md">KeInsertQueue</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-keremovequeue.md">KeRemoveQueue</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-kerundownqueue.md">KeRundownQueue</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
 <a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-keremovequeue.md">KeRemoveQueue</a>
+
+<a href="..\ntifs\nf-ntifs-kerundownqueue.md">KeRundownQueue</a>
+
+<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
+
  
 
  

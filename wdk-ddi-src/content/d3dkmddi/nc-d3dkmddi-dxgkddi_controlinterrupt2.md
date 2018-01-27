@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0C09CAB1-3DFC-4340-8FF2-99CAF7F13156
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddicontrolinterrupt2, DxgkDdi_ControlInterrupt2 callback function [Display Devices], DxgkDdi_ControlInterrupt2, DXGKDDI_CONTROLINTERRUPT2, DXGKDDI_CONTROLINTERRUPT2, d3dkmddi/DxgkDdi_ControlInterrupt2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 10 and later versions of the Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdi_ControlInterrupt2
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DxgkDdi_ControlInterrupt2
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_CONTROLINTERRUPT2 callback
 
 
-
 ## -description
+
+
 The <i>DxgkDdi_ControlInterrupt2</i> function enables or disables the given interrupt type on the graphics hardware.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_CONTROLINTERRUPT2 DxgkDdi_ControlInterrupt2;
@@ -58,6 +68,9 @@ NTSTATUS APIENTRY* DxgkDdi_ControlInterrupt2(
 
 ## -parameters
 
+
+
+
 ### -param hAdapter [in]
 
 [in] A handle to the adapter object for the graphics processing unit (GPU). The driver returned this handle in the <i>MiniportDeviceContext</i> parameter from a call to its <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
@@ -69,16 +82,37 @@ NTSTATUS APIENTRY* DxgkDdi_ControlInterrupt2(
 
 
 ## -returns
+
+
 <i>DxgkDdi_ControlInterrupt2</i> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The interrupt type was successfully enabled or disabled on the graphics hardware.
+</dl>
+</td>
+<td width="60%">
+The interrupt type was successfully enabled or disabled on the graphics hardware.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_IMPLEMENTED</b></dt>
 </dl>
+</td>
+<td width="60%">
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_controlinterrupt2.md">DxgkDdi_ControlInterrupt2</a> does not support enabling or disabling the specified interrupt type.
 
- 
+</td>
+</tr>
+</table> 
 
 
-## -remarks

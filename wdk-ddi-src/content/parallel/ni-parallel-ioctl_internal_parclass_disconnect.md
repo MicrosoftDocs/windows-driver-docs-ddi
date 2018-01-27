@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 05dae212-62b8-4cd3-9fd1-495ae56dfada
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: RegisterOpRegionHandler
+ms.keywords: parports.ioctl_internal_parclass_disconnect, IOCTL_INTERNAL_PARCLASS_DISCONNECT control code [Parallel Ports], IOCTL_INTERNAL_PARCLASS_DISCONNECT, parallel/IOCTL_INTERNAL_PARCLASS_DISCONNECT, cisspd_6459be75-4a0e-4a38-9bc4-b862766951fb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_INTERNAL_PARCLASS_DISCONNECT
-req.alt-loc: parallel.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,62 +29,86 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	parallel.h
+apiname: 
+-	IOCTL_INTERNAL_PARCLASS_DISCONNECT
+product: Windows
+targetos: Windows
 req.typenames: *LPRILGBATOKEN, RILGBATOKEN
 ---
 
 # IOCTL_INTERNAL_PARCLASS_DISCONNECT IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 The <b>IOCTL_INTERNAL_PARCLASS_DISCONNECT</b> request disconnects a client from a parallel device. After disconnecting from a parallel device, a client must not use any information obtained from a previous <a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a> request.
 
 For more information, see <a href="https://msdn.microsoft.com/c05a1a1e-308a-4b9f-af43-761c4c14d6af">Connecting to a Parallel Device</a>.
 
 
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 None.
 
 
 ### -input-buffer-length
+
 None.
 
 
 ### -output-buffer
+
 None.
 
 
 ### -output-buffer-length
+
 None.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Information</b> member is set to zero. 
 
 The <b>Status</b> member is set to one of the generic status values returned by internal device control requests for parallel devices.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a>
-</dt>
-</dl>
+
  
 
  

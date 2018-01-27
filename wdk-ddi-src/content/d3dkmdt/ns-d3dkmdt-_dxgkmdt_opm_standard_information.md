@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5862e6eb-acf8-4034-ad8f-d59f87c49596
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKMDT_OPM_STANDARD_INFORMATION, DXGKMDT_OPM_STANDARD_INFORMATION
+ms.keywords: DmStructs_95069fc9-f530-4764-900b-0fa6dee51656.xml, d3dkmdt/DXGKMDT_OPM_STANDARD_INFORMATION, display.dxgkmdt_opm_standard_information, _DXGKMDT_OPM_STANDARD_INFORMATION, DXGKMDT_OPM_STANDARD_INFORMATION structure [Display Devices], DXGKMDT_OPM_STANDARD_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKMDT_OPM_STANDARD_INFORMATION
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	DXGKMDT_OPM_STANDARD_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: DXGKMDT_OPM_STANDARD_INFORMATION
 ---
 
 # _DXGKMDT_OPM_STANDARD_INFORMATION structure
 
 
-
 ## -description
+
+
 The DXGKMDT_OPM_STANDARD_INFORMATION structure contains  information that is retrieved in a call to the <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a> or <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a> function. The type of information is described in the <b>ulInformation</b> member. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKMDT_OPM_STANDARD_INFORMATION {
@@ -57,6 +67,9 @@ typedef struct _DXGKMDT_OPM_STANDARD_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field rnRandomNumber
 
@@ -75,45 +88,6 @@ A variable that receives the information that was requested.  The type of inform
 
 
 
-### -field DXGKMDT_OPM_GET_SUPPORTED_PROTECTION_TYPES
-
-A valid bitwise OR combination of values from the <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_protection_type.md">DXGKMDT_OPM_PROTECTION_TYPE</a> enumeration that indicates the available types of protection mechanisms on the physical connector that is associated with a protected output.
-
-
-### -field DXGKMDT_OPM_GET_CONNECTOR_TYPE
-
-A valid bitwise OR combination of values from the <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_output_technology.md">D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY</a> enumeration that identifies the type of physical connector that the protected output is associated with. 
-
-
-### -field DXGKMDT_OPM_GET_VIRTUAL_PROTECTION_LEVEL
-
-The currently set protection level for the protected output. The protection-level value depends on the protection type that was specified in the <b>abParameters</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a> or <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure. For possible protection levels, see the <b>ulProtectionLevel</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_set_protection_level_parameters.md">DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS</a> structure. 
-
-
-### -field DXGKMDT_OPM_GET_ACTUAL_PROTECTION_LEVEL
-
-The currently set protection level for the physical connector that is associated with a protected output. The level value that the display miniport driver supplies must reflect the protection level that is currently applied through the connector, regardless of how the driver was instructed to apply the protection level. The protection level value depends on the protection type that was specified in the <b>abParameters</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a> or <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure. For possible protection levels, see the <b>ulProtectionLevel</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_set_protection_level_parameters.md">DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS</a> structure. 
-
-
-### -field DXGKMDT_OPM_GET_ADAPTER_BUS_TYPE
-
-A <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_bus_type_and_implementation.md">DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION</a>-typed value that identifies the type of bus that is used by the graphics adapter that is associated with the protected output. 
-
-
-### -field DXGKMDT_OPM_GET_CURRENT_HDCP_SRM_VERSION
-
-A value that identifies the version number of the current High-bandwidth Digital Content Protection (HDCP) System Renewability Message (SRM) for the protected output. The least significant bits (bits 0 through 15) of <b>ulInformation</b> contain the SRM's version number in little-endian format. 
-
-
-### -field DXGKMDT_OPM_GET_DVI_CHARACTERISTICS
-
-Supported in Windows 7 and later versions.
-
-A <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkdt_opm_dvi_characteristics.md">DXGKDT_OPM_DVI_CHARACTERISTICS</a>-typed value that identifies the Digital Video Interface (DVI) electrical characteristics of the output connector. 
-
-</dd>
-</dl>
-
 ### -field ulReserved
 
 Reserved. Must be set to zero. 
@@ -124,42 +98,65 @@ Reserved. Must be set to zero.
 Reserved. Must be set to zero. 
 
 
-## -remarks
+##### - ulInformation.DXGKMDT_OPM_GET_SUPPORTED_PROTECTION_TYPES
+
+A valid bitwise OR combination of values from the <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_protection_type.md">DXGKMDT_OPM_PROTECTION_TYPE</a> enumeration that indicates the available types of protection mechanisms on the physical connector that is associated with a protected output.
+
+
+##### - ulInformation.DXGKMDT_OPM_GET_VIRTUAL_PROTECTION_LEVEL
+
+The currently set protection level for the protected output. The protection-level value depends on the protection type that was specified in the <b>abParameters</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a> or <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure. For possible protection levels, see the <b>ulProtectionLevel</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_set_protection_level_parameters.md">DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS</a> structure. 
+
+
+##### - ulInformation.DXGKMDT_OPM_GET_CONNECTOR_TYPE
+
+A valid bitwise OR combination of values from the <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_output_technology.md">D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY</a> enumeration that identifies the type of physical connector that the protected output is associated with. 
+
+
+##### - ulInformation.DXGKMDT_OPM_GET_ACTUAL_PROTECTION_LEVEL
+
+The currently set protection level for the physical connector that is associated with a protected output. The level value that the display miniport driver supplies must reflect the protection level that is currently applied through the connector, regardless of how the driver was instructed to apply the protection level. The protection level value depends on the protection type that was specified in the <b>abParameters</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a> or <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure. For possible protection levels, see the <b>ulProtectionLevel</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_set_protection_level_parameters.md">DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS</a> structure. 
+
+
+##### - ulInformation.DXGKMDT_OPM_GET_CURRENT_HDCP_SRM_VERSION
+
+A value that identifies the version number of the current High-bandwidth Digital Content Protection (HDCP) System Renewability Message (SRM) for the protected output. The least significant bits (bits 0 through 15) of <b>ulInformation</b> contain the SRM's version number in little-endian format. 
+
+
+##### - ulInformation.DXGKMDT_OPM_GET_DVI_CHARACTERISTICS
+
+Supported in Windows 7 and later versions.
+
+A <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkdt_opm_dvi_characteristics.md">DXGKDT_OPM_DVI_CHARACTERISTICS</a>-typed value that identifies the Digital Video Interface (DVI) electrical characteristics of the output connector. 
+
+
+##### - ulInformation.DXGKMDT_OPM_GET_ADAPTER_BUS_TYPE
+
+A <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_bus_type_and_implementation.md">DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION</a>-typed value that identifies the type of bus that is used by the graphics adapter that is associated with the protected output. 
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_output_technology.md">D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
-</dt>
-<dt>
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
-</dt>
-<dt>
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_bus_type_and_implementation.md">DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION</a>
-</dt>
-<dt>
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a>
-</dt>
-<dt>
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkdt_opm_dvi_characteristics.md">DXGKDT_OPM_DVI_CHARACTERISTICS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a>
-</dt>
-<dt>
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_protection_type.md">DXGKMDT_OPM_PROTECTION_TYPE</a>
-</dt>
-<dt>
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
-</dt>
-<dt>
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_bus_type_and_implementation.md">DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_status.md">DXGKMDT_OPM_STATUS</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a>
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_protection_type.md">DXGKMDT_OPM_PROTECTION_TYPE</a>
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkdt_opm_dvi_characteristics.md">DXGKDT_OPM_DVI_CHARACTERISTICS</a>
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_output_technology.md">D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY</a>
+
  
 
  

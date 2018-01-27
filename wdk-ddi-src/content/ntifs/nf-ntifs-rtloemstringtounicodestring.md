@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0420718f-3d0f-4f15-85ec-c2cdfa930023
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlOemStringToUnicodeString
+ms.keywords: ifsk.rtloemstringtounicodestring, rtlref_6b1f3210-6b02-4f20-9887-b7efd0090b7f.xml, RtlOemStringToUnicodeString, ntifs/RtlOemStringToUnicodeString, RtlOemStringToUnicodeString routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlOemStringToUnicodeString
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlOemStringToUnicodeString
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlOemStringToUnicodeString function
 
 
-
 ## -description
+
+
 The <b>RtlOemStringToUnicodeString</b> routine translates a given source string into a null-terminated Unicode string using the current system OEM code page. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlOemStringToUnicodeString(
@@ -56,7 +66,10 @@ NTSTATUS RtlOemStringToUnicodeString(
 
 ## -parameters
 
-### -param DestinationString 
+
+
+
+### -param DestinationString
 
 Pointer to a caller-allocated buffer to receive the translated string. If <i>AllocateDestinationString</i> is <b>FALSE</b>, the caller must also allocate a buffer for the <b>Buffer</b> member of <i>DestinationString</i> to hold the null-terminated Unicode string. If <i>AllocateDestinationString</i> is <b>TRUE</b>, <b>RtlOemStringToUnicodeString</b> allocates a buffer large enough to hold the string, passes a pointer to it in <b>Buffer</b>, and updates the length and maximum length members of <i>DestinationString</i> accordingly. 
 
@@ -72,10 +85,15 @@ Set to <b>TRUE</b> if <b>RtlOemStringToUnicodeString</b> should allocate the buf
 
 
 ## -returns
+
+
 <b>RtlOemStringToUnicodeString</b> returns STATUS_SUCCESS if it returns a translated string at <i>DestinationString</i>. Otherwise, no storage was allocated and no conversion was done. 
 
 
+
 ## -remarks
+
+
 <b>RtlOemStringToUnicodeString</b> translates the given source string using the OEM code page that was installed as the current system code page at system boot time. 
 
 This routine does not modify the source string. It returns a NULL-terminated Unicode string. 
@@ -83,30 +101,23 @@ This routine does not modify the source string. It returns a NULL-terminated Uni
 For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtloemstringtocountedunicodestring.md">RtlOemStringToCountedUnicodeString</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtloemstringtounicodesize.md">RtlOemStringToUnicodeSize</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtloemtounicoden.md">RtlOemToUnicodeN</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtlunicodestringtooemstring.md">RtlUnicodeStringToOemString</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
+
+<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+
+<a href="..\ntifs\nf-ntifs-rtloemstringtounicodesize.md">RtlOemStringToUnicodeSize</a>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-rtloemstringtocountedunicodestring.md">RtlOemStringToCountedUnicodeString</a>
+
  
 
  

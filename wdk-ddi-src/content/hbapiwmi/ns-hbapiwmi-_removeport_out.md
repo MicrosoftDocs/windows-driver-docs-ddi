@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 89cb75e4-5e3b-4277-b173-abed00a7360b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _RemovePort_OUT, *PRemovePort_OUT, RemovePort_OUT
+ms.keywords: _RemovePort_OUT, hbapiwmi/RemovePort_OUT, storage.removeport_out, RemovePort_OUT, structs-Fibre_dc8be161-745b-4919-9227-e333933482cf.xml, *PRemovePort_OUT, PRemovePort_OUT structure pointer [Storage Devices], hbapiwmi/PRemovePort_OUT, RemovePort_OUT structure [Storage Devices], PRemovePort_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RemovePort_OUT
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	RemovePort_OUT
+product: Windows
+targetos: Windows
 req.typenames: *PRemovePort_OUT, RemovePort_OUT
 ---
 
 # _RemovePort_OUT structure
 
 
-
 ## -description
+
+
 The RemovePort_OUT structure is used by an HBA miniport driver to the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564011">RemovePort</a> WMI method to the WMI client.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RemovePort_OUT {
@@ -54,21 +64,25 @@ typedef struct _RemovePort_OUT {
 
 ## -struct-fields
 
+
+
+
 ### -field HBAStatus
 
 Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
 
 
 ## -remarks
+
+
 The WMI tool suite generates a declaration of the RemovePort_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562490">MSFC_EventControl WMI Class</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564011">RemovePort</a>
-</dt>
-</dl>
+
  
 
  

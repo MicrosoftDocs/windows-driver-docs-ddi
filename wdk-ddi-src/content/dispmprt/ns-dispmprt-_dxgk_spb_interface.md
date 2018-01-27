@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 677619d2-86a1-492e-9964-d50624376ef4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE, *PDXGK_SPB_INTERFACE
+ms.keywords: PDXGK_SPB_INTERFACE structure pointer [Display Devices], PDXGK_SPB_INTERFACE, display.dxgk_spb_interface, dispmprt/DXGK_SPB_INTERFACE, *PDXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE structure [Display Devices], _DXGK_SPB_INTERFACE, dispmprt/PDXGK_SPB_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_SPB_INTERFACE
-req.alt-loc: Dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: DXGK_SPB_INTERFACE, *PDXGK_SPB_INTERFACE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Dispmprt.h
+apiname: 
+-	DXGK_SPB_INTERFACE
+product: Windows
+targetos: Windows
+req.typenames: *PDXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE
 ---
 
 # _DXGK_SPB_INTERFACE structure
 
 
-
 ## -description
+
+
 Contains pointers to functions in the <a href="https://msdn.microsoft.com/library/windows/hardware/jj658947">Simple Peripheral Bus (SPB) Interface</a> that the display miniport driver can call to inspect and alter SPB resources.
 
 For more information on SPB architecture, see <a href="https://msdn.microsoft.com/2c660e14-5b27-4610-a328-735b07ed0773">Simple Peripheral Buses</a> and <a href="https://msdn.microsoft.com/A6DFD2DB-93F4-410F-8875-7E3E3EFCE660">SPB Peripheral Device Driver Overview</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_SPB_INTERFACE {
@@ -97,6 +107,9 @@ typedef struct _DXGK_SPB_INTERFACE {
 
 ## -struct-fields
 
+
+
+
 ### -field Size
 
 The size, in bytes, of this structure.
@@ -147,27 +160,18 @@ A pointer to the display miniport driver's <a href="https://msdn.microsoft.com/l
 A pointer to the display miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439861">SpbResourceIoControl</a> function.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406257">CloseSpbResource</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451581">OpenSpbResource</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439824">ReadSpbResource</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406257">CloseSpbResource</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439861">SpbResourceIoControl</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439824">ReadSpbResource</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439925">WriteSpbResource</a>
-</dt>
-</dl>
+
  
 
  

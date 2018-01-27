@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2BBF14E3-8E1A-42AF-9C26-7F886FD2B945
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _BDA_GDDS_DATA, *P_BDA_GDDS_DATA, BDA_GDDS_DATA
+ms.keywords: stream.bda_gdds_data, *P_BDA_GDDS_DATA, BDA_GDDS_DATA structure [Streaming Media Devices], _BDA_GDDS_DATA, BDA_GDDS_DATA, bdatypes/BDA_GDDS_DATA, P_BDA_GDDS_DATA, bdatypes/P_BDA_GDDS_DATA, P_BDA_GDDS_DATA structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BDA_GDDS_DATA
-req.alt-loc: Bdatypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *P_BDA_GDDS_DATA, BDA_GDDS_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bdatypes.h
+apiname: 
+-	BDA_GDDS_DATA
+product: Windows
+targetos: Windows
+req.typenames: BDA_GDDS_DATA, *P_BDA_GDDS_DATA
 ---
 
 # _BDA_GDDS_DATA structure
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: *P_BDA_GDDS_DATA, BDA_GDDS_DATA
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct _BDA_GDDS_DATA {
@@ -57,16 +67,21 @@ typedef struct _BDA_GDDS_DATA {
 
 ## -struct-fields
 
+
+
+
 ### -field lResult
+
 
 
 ### -field ulDataLength
 
 
+
 ### -field ulPercentageProgress
+
 
 
 ### -field argbData
 
 
-## -remarks

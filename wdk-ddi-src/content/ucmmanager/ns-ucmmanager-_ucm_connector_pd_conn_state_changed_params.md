@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9D8A2B47-1677-4660-B006-CA0D5741FC05
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, *PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS
+ms.keywords: PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, _UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, ucmmanager/UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS structure [Buses], ucmmanager/PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, buses.ucm_connector_pd_conn_state_changed_params, *PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 2.15
-req.alt-api: UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS
-req.alt-loc: Ucmmanager.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ucmmanager.h
+apiname: 
+-	UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS
+product: Windows
+targetos: Windows
 req.typenames: *PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS structure
 
 
-
 ## -description
+
+
 Describes the parameters for PD connection changed event.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS {
@@ -57,6 +67,9 @@ typedef struct _UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -79,18 +92,18 @@ Charging state of the port indicated by one of the <a href="..\ucmtypes\ne-ucmty
 
 
 ## -remarks
+
+
 Initialize this structure by calling <a href="..\ucmmanager\nf-ucmmanager-ucm_connector_pd_conn_state_changed_params_init.md">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT</a>. An initialized <b>UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</b> structure is an input parameter value to <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorpdconnectionstatechanged.md">UcmConnectorPdConnectionStateChanged</a> that is used by the client driver to notify UcmCx about the Attached state of the port.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
-</dt>
-<dt>
+
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorpdconnectionstatechanged.md">UcmConnectorPdConnectionStateChanged</a>
-</dt>
-</dl>
+
  
 
  

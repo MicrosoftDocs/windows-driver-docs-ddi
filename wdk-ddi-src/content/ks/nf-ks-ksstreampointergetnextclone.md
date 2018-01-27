@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b7f34d42-6044-43c6-85c8-ca3a6177c057
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsStreamPointerGetNextClone
+ms.keywords: KsStreamPointerGetNextClone, avfunc_946c362b-9246-4d06-afce-e4597a16a91b.xml, ks/KsStreamPointerGetNextClone, KsStreamPointerGetNextClone function [Streaming Media Devices], stream.ksstreampointergetnextclone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsStreamPointerGetNextClone
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsStreamPointerGetNextClone
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsStreamPointerGetNextClone function
 
 
-
 ## -description
+
+
 The<b> KsStreamPointerGetNextClone </b>function returns the clone stream pointer that was cloned immediately after the specified clone.
 
 
-
 ## -syntax
+
 
 ````
 PKSSTREAM_POINTER KsStreamPointerGetNextClone(
@@ -54,33 +65,38 @@ PKSSTREAM_POINTER KsStreamPointerGetNextClone(
 
 ## -parameters
 
+
+
+
 ### -param StreamPointer [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure representing the clone stream pointer for which the clone stream pointer cloned immediately after it on the same pin is returned.
 
 
 ## -returns
+
+
 <b>KsStreamPointerGetNextClone </b>returns a pointer to a <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure representing the clone stream pointer that was cloned immediately after <i>StreamPointer</i> on the same pin. Alternatively, it returns <b>NULL</b> indicating that either <i>StreamPointer</i> is the last clone on the pin or that <i>StreamPointer</i> is not a clone. If not a clone, <i>StreamPointer</i> is either the leading or trailing edge stream pointer.
 
 
+
 ## -remarks
+
+
 The returned pointer always refers to the same pin as <i>StreamPointer</i>. <b>KsStreamPointerGetNextClone</b>, in conjunction with <a href="..\ks\nf-ks-kspingetfirstclonestreampointer.md">KsPinGetFirstCloneStreamPointer</a>,<b></b>can be used to enumerate all clone stream pointers on a given pin in the order in which they were cloned.
 
 Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736f">Stream Pointers</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-kspingetfirstclonestreampointer.md">KsPinGetFirstCloneStreamPointer</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
+
  
 
  

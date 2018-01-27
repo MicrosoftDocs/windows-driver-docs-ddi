@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 38264afe-e324-455d-b81a-7dafae8abc1c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlIncrementCcFastReadResourceMiss
+ms.keywords: ifsk.fsrtlincrementccfastreadresourcemiss, ntifs/FsRtlIncrementCcFastReadResourceMiss, fsrtlref_4eb3905b-e599-451e-ba6c-29b800b277a5.xml, FsRtlIncrementCcFastReadResourceMiss routine [Installable File System Drivers], FsRtlIncrementCcFastReadResourceMiss
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows XP and
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlIncrementCcFastReadResourceMiss
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlIncrementCcFastReadResourceMiss
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlIncrementCcFastReadResourceMiss function
 
 
-
 ## -description
+
+
 The <b>FsRtlIncrementCcFastReadResourceMiss</b> routine increments the CcFastReadNotPossible performance counter in a per processor control block of cache manager system counters.
 
 
-
 ## -syntax
+
 
 ````
 VOID FsRtlIncrementCcFastReadResourceMiss(
@@ -54,36 +64,39 @@ VOID FsRtlIncrementCcFastReadResourceMiss(
 
 ## -parameters
 
-### -param  
 
-None
+
+
+
+
 
 
 ## -returns
+
+
 This routine does not return a value.
 
 
+
 ## -remarks
+
+
 <b>FsRtlIncrementCcFastReadResourceMiss </b>increments the CcFastReadReadResourceMiss performance counter in the per processor control block of cache manager system counters. This counter indicates that a fast I/O read operation (<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopyread~r7.md">FsRtlCopyRead</a>) was called, but fast I/O was not possible because the file resource could not be acquired for shared access. 
 
 File system drivers should call this function to update the performance counter if the driver chooses to override the default fast I/O read handler.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopyread~r7.md">FsRtlCopyRead</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadnotpossible.md">FsRtlIncrementCcFastReadNotPossible</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadnowait.md">FsRtlIncrementCcFastReadNoWait</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadnotpossible.md">FsRtlIncrementCcFastReadNotPossible</a>
+
 <a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadwait.md">FsRtlIncrementCcFastReadWait</a>
-</dt>
-</dl>
+
  
 
  

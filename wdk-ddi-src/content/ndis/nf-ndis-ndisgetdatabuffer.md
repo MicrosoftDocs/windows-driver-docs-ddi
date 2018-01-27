@@ -7,8 +7,8 @@ old-location: netvista\ndisgetdatabuffer.htm
 old-project: netvista
 ms.assetid: 784d4c32-a517-4219-8e22-a998e0e66d69
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisGetDataBuffer
+ms.date: 1/18/2018
+ms.keywords: NdisGetDataBuffer, ndis/NdisGetDataBuffer, NdisGetDataBuffer function [Network Drivers Starting with Windows Vista], netvista.ndisgetdatabuffer, ndis_netbuf_functions_ref_b4ffded6-13c9-417d-bb03-a6421f718deb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisGetDataBuffer
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_NetBuffer_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisGetDataBuffer
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGetDataBuffer function
 
 
-
 ## -description
+
+
 Call the 
   <b>NdisGetDataBuffer</b> function to gain access to a contiguous block of data from a 
   <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 PVOID NdisGetDataBuffer(
@@ -59,6 +70,9 @@ PVOID NdisGetDataBuffer(
 
 
 ## -parameters
+
+
+
 
 ### -param NetBuffer [in]
 
@@ -91,6 +105,8 @@ The offset, in bytes, from the alignment multiple.
 
 
 ## -returns
+
+
 <b>NdisGetDataBuffer</b> returns a pointer to the start of the contiguous data or it returns <b>NULL</b>.
 
 If the 
@@ -103,11 +119,20 @@ If the
 If the requested data in the buffer is contiguous, the return value is a pointer to a location that
       NDIS provides. If the data is not contiguous, NDIS uses the 
       <i>Storage</i> parameter as follows:
+<ul>
+<li>If the 
+       <i>Storage</i> parameter is non-<b>NULL</b>, NDIS copies the data to the buffer at 
+       <i>Storage</i>. The return value is the pointer passed to the 
+       <i>Storage</i> parameter.</li>
+<li>If the 
+       <i>Storage</i> parameter is <b>NULL</b>, the return value is <b>NULL</b>.</li>
+</ul>The return value can also be <b>NULL</b> due to a low resource condition where a data buffer cannot be mapped. This may occur even if the data is contiguous or the <i>Storage</i> parameter is non-<b>NULL</b>.
 
-The return value can also be <b>NULL</b> due to a low resource condition where a data buffer cannot be mapped. This may occur even if the data is contiguous or the <i>Storage</i> parameter is non-<b>NULL</b>.
 
 
 ## -remarks
+
+
 Call this function to get a pointer to a network data header contained in the 
     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure. You can easily parse the
     header stored in the contiguous data block that this function returns.
@@ -119,18 +144,16 @@ The requested alignment requirement is expressed as a power-of-two multiple plus
     allocate memory to satisfy the alignment requirement.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-</dt>
-<dt>
+
 <a href="..\ndis\ns-ndis-_net_buffer_data.md">NET_BUFFER_DATA</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisGetDataBuffer function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisGetDataBuffer function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

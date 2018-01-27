@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c1525604-3aee-464d-a7f5-a6a4739a2aa4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcMdlReadComplete
+ms.keywords: ntifs/CcMdlReadComplete, CcMdlReadComplete routine [Installable File System Drivers], ifsk.ccmdlreadcomplete, ccref_9739ef62-748c-43c6-ae79-ae54f2358368.xml, CcMdlReadComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcMdlReadComplete
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcMdlReadComplete
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcMdlReadComplete function
 
 
-
 ## -description
+
+
 The <b>CcMdlReadComplete</b> routine frees the memory descriptor lists (MDL) created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a> for a cached file.
 
 
-
 ## -syntax
+
 
 ````
 VOID CcMdlReadComplete(
@@ -54,6 +64,9 @@ VOID CcMdlReadComplete(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -66,21 +79,25 @@ Address of the MDL chain returned by <a href="https://msdn.microsoft.com/library
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>CcMdlReadComplete</b> frees the memory descriptor lists (MDL) created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a> for a cached file. All physical pages that were locked down are unlocked. Any pages that were mapped are unmapped.
 
 Each call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a> must be followed by a call to <b>CcMdlReadComplete</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
-</dt>
-</dl>
+
  
 
  

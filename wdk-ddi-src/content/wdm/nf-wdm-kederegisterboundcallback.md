@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 697709D4-DBB7-4CB4-83A1-89E8BAFD68DA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeDeregisterBoundCallback
+ms.keywords: wdm/KeDeregisterBoundCallback, KeDeregisterBoundCallback routine [Kernel-Mode Driver Architecture], KeDeregisterBoundCallback, kernel.kederegisterboundcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeDeregisterBoundCallback
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeDeregisterBoundCallback
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeDeregisterBoundCallback function
 
 
-
 ## -description
+
+
 The <b>KeDeregisterBoundCallback</b> routine deregisters a user-mode bound exception callback registered by <a href="..\wdm\nf-wdm-keregisterboundcallback.md">KeRegisterBoundCallback</a>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KeDeregisterBoundCallback(
@@ -55,24 +65,25 @@ NTSTATUS KeDeregisterBoundCallback(
 
 ## -parameters
 
+
+
+
 ### -param Handle [in]
 
 Specifies the value returned by <a href="..\wdm\nf-wdm-keregisterboundcallback.md">KeRegisterBoundCallback</a> when the callback was registered. 
 
 
 ## -returns
+
+
 The <b>KeDeregisterBoundCallback</b> routine returns STATUS_SUCCESS if the callback is successfully removed. It returns STATUS_INVALID_HANDLE if no callback matching the provided <i>Handle</i> value is found.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-keregisterboundcallback.md">KeRegisterBoundCallback</a>
-</dt>
-</dl>
+
  
 
  

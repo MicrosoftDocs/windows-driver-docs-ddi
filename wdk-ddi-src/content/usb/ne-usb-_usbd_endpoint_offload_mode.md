@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 577B2B5E-934E-4354-B6FF-FDFE9D1144D7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBD_ENDPOINT_OFFLOAD_MODE, USBD_ENDPOINT_OFFLOAD_MODE
+ms.keywords: USBD_ENDPOINT_OFFLOAD_MODE, UsbdEndpointOffloadModeNotSupported, usb/USBD_ENDPOINT_OFFLOAD_MODE, USBD_ENDPOINT_OFFLOAD_MODE enumeration [Buses], buses.usbd_endpoint_offload_mode, UsbdEndpointOffloadSoftwareAssisted, UsbdEndpointOffloadHardwareAssisted, usb/UsbdEndpointOffloadHardwareAssisted, _USBD_ENDPOINT_OFFLOAD_MODE, usb/UsbdEndpointOffloadSoftwareAssisted, usb/UsbdEndpointOffloadModeNotSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBD_ENDPOINT_OFFLOAD_MODE
-req.alt-loc: Usb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Usb.h
+apiname: 
+-	USBD_ENDPOINT_OFFLOAD_MODE
+product: Windows
+targetos: Windows
 req.typenames: USBD_ENDPOINT_OFFLOAD_MODE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USBD_ENDPOINT_OFFLOAD_MODE enumeration
 
 
-
 ## -description
+
+
 Defines values for endpoint offloading options in the USB device or host controller.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _USBD_ENDPOINT_OFFLOAD_MODE { 
@@ -56,6 +66,9 @@ typedef enum _USBD_ENDPOINT_OFFLOAD_MODE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field UsbdEndpointOffloadModeNotSupported
 
@@ -72,15 +85,10 @@ Endpoint offloading is handled by the software.
 Endpoint offloading is handled in the USB device or host controller hardware.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a>
-</dt>
-</dl>
+
  
 
  

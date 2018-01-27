@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2B465848-6564-404F-8F5B-E761866278C5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_PPM_TEST_IDLE_STATE, PEP_PPM_TEST_IDLE_STATE, *PPEP_PPM_TEST_IDLE_STATE
+ms.keywords: kernel.pep_ppm_test_idle_state, PEP_PPM_TEST_IDLE_STATE, PEP_PPM_TEST_IDLE_STATE structure [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_TEST_IDLE_STATE, PPEP_PPM_TEST_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], PPEP_PPM_TEST_IDLE_STATE, *PPEP_PPM_TEST_IDLE_STATE, pepfx/PEP_PPM_TEST_IDLE_STATE, _PEP_PPM_TEST_IDLE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_PPM_TEST_IDLE_STATE
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: PEP_PPM_TEST_IDLE_STATE, *PPEP_PPM_TEST_IDLE_STATE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_PPM_TEST_IDLE_STATE
+product: Windows
+targetos: Windows
+req.typenames: *PPEP_PPM_TEST_IDLE_STATE, PEP_PPM_TEST_IDLE_STATE
 ---
 
 # _PEP_PPM_TEST_IDLE_STATE structure
 
 
-
 ## -description
+
+
 The <b>PEP_PPM_TEST_IDLE_STATE</b> structure contains information about whether the processor can immediately enter a processor idle state.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_PPM_TEST_IDLE_STATE {
@@ -55,6 +65,9 @@ typedef struct _PEP_PPM_TEST_IDLE_STATE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ProcessorState
 
@@ -72,24 +85,22 @@ typedef struct _PEP_PPM_TEST_IDLE_STATE {
 
 
 ## -remarks
+
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186831">PEP_NOTIFY_PPM_TEST_IDLE_STATE</a> notification. The <b>ProcessorState</b> and <b>PlatformState</b> members contain input values that are supplied by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx). The PEP writes an output value to the <b>VetoReason</b> member of this structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186824">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186826">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186829">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186831">PEP_NOTIFY_PPM_TEST_IDLE_STATE</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186826">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
+
  
 
  

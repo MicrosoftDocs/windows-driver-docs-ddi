@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 61D637E6-316D-49A5-B1B1-C89415C7D0B8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _VPCI_PNP_ID, VPCI_PNP_ID, *PVPCI_PNP_ID
+ms.keywords: kernel.platformidleveto, PlatformIdleVeto, PlatformIdleVeto routine [Kernel-Mode Driver Architecture], PlatformIdleVeto, POFXCALLBACKPLATFORMIDLEVETO, POFXCALLBACKPLATFORMIDLEVETO, pepfx/PlatformIdleVeto
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PlatformIdleVeto
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PlatformIdleVeto
+product: Windows
+targetos: Windows
+req.typenames: *PVPCI_PNP_ID, VPCI_PNP_ID
 ---
 
 # POFXCALLBACKPLATFORMIDLEVETO callback
 
 
-
 ## -description
+
+
 The <b>PlatformIdleVeto</b> routine increments or decrements the veto count for a veto code for a platform idle state.
 
 
-
 ## -prototype
+
 
 ````
 POFXCALLBACKPLATFORMIDLEVETO PlatformIdleVeto;
@@ -59,6 +69,9 @@ NTSTATUS PlatformIdleVeto(
 
 
 ## -parameters
+
+
+
 
 ### -param ProcessorHandle [in]
 
@@ -81,15 +94,32 @@ Whether to increment or decrement the veto count. Set to TRUE to increment the v
 
 
 ## -returns
+
+
 <b>PlatformIdleVeto</b> returns STATUS_SUCCESS if the call successfully increments or decrements the veto count. Possible error return values include the following status code.
+<table>
+<tr>
+<th>Return value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt>STATUS_NOT_IMPLEMENTED</dt>
-</dl>Indicates that the <b>PlatformIdleVeto</b> routine is not implemented for this processor.
+</dl>
+</td>
+<td width="60%">
+Indicates that the <b>PlatformIdleVeto</b> routine is not implemented for this processor.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This routine is implemented by the PoFx and is called by the PEP. The <b>PlatformIdleVeto</b> member of the <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to a <b>PlatformIdleVeto</b> routine.
 
 After the PEP handles the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a> notification, each platform idle state starts with a veto count of zero for all veto codes. The PEP can increment the veto count of a veto code to prevent the operating system from transitioning the platform to this idle state. The PEP decrements the veto count when the veto reason that caused the count to be incremented is no longer in effect. Only after the count for all veto codes has decremented to zero is the operating system allowed to transition the platform to this idle state.
@@ -97,18 +127,15 @@ After the PEP handles the <a href="https://msdn.microsoft.com/en-us/library/wind
 This routine must be called at IRQL = PASSIVE_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186829">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a>
-</dt>
-</dl>
+
+<a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
+
  
 
  

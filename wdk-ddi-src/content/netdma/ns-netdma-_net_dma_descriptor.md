@@ -7,8 +7,8 @@ old-location: netvista\net_dma_descriptor.htm
 old-project: netvista
 ms.assetid: 0465a8d7-1cdd-4647-9b78-557256f60c05
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NET_DMA_DESCRIPTOR, *PNET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR
+ms.date: 1/18/2018
+ms.keywords: _NET_DMA_DESCRIPTOR, NET_DMA_DESTINATION_NO_SNOOP, PNET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR structure [Network Drivers Starting with Windows Vista], netdma/PNET_DMA_DESCRIPTOR, NET_DMA_DESTINATION_DCA_ENABLE, NET_DMA_SOURCE_NO_SNOOP, NET_DMA_INTERRUPT_ON_COMPLETION, NET_DMA_OP_TYPE_MASK, NET_DMA_NULL_TRANSFER, netvista.net_dma_descriptor, NET_DMA_DESTINATION_PAGE_BREAK, *PNET_DMA_DESCRIPTOR, NET_DMA_SERIALIZE_TRANSFER, NET_DMA_SOURCE_PAGE_BREAK, NET_DMA_RESERVED_MASK, NET_DMA_OP_TYPE_CONTEXT_CHANGE, netdma_ref_06e1861b-7904-4bf5-9ce5-e85ae1daa22e.xml, NET_DMA_DESCRIPTOR, PNET_DMA_DESCRIPTOR structure pointer [Network Drivers Starting with Windows Vista], netdma/NET_DMA_DESCRIPTOR, NET_DMA_STATUS_UPDATE_ON_COMPLETION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NetDMA 2.0 drivers in Windows Server 20
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NET_DMA_DESCRIPTOR
-req.alt-loc: netdma.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,16 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	netdma.h
+apiname: 
+-	NET_DMA_DESCRIPTOR
+product: Windows
+targetos: Windows
 req.typenames: *PNET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR
 ---
 
 # _NET_DMA_DESCRIPTOR structure
 
 
-
 ## -description
 
+
+<div class="alert"><b>Note</b>  The NetDMA interface is not supported in Windows 8 and later.</div><div> </div>The NET_DMA_DESCRIPTOR structure specifies the DMA transfer information for each entry in a linked
+  list of DMA descriptors.
+
+
 ## -syntax
+
 
 ````
 typedef struct _NET_DMA_DESCRIPTOR {
@@ -78,6 +92,49 @@ typedef struct _NET_DMA_DESCRIPTOR {
 
 ## -struct-fields
 
+
+
+
+### -field DCAContext32
+
+A 32 bit DCA context.
+
+
+### -field DCAContext32.DCAContext
+
+A DCA context.
+
+
+### -field DCAContext16
+
+A 16 bit DCA context.
+
+
+### -field DCAContext16.DCAContext
+
+A DCA context.
+
+
+### -field DCAContext16.Reserved
+
+Reserved bits.
+
+
+### -field DCAContext8
+
+An 8 bit DCA context.
+
+
+### -field DCAContext8.DCAContext
+
+A DCA context.
+
+
+### -field DCAContext8.Reserved
+
+Reserved bits.
+
+
 ### -field TransferSize
 
 The size, in bytes, of the memory block that is associated with this DMA descriptor. 
@@ -88,71 +145,56 @@ NetDMA 2.0 and later provider drivers use the
       <b>DCAContext16</b>, and 
       <b>DCAContext8</b> members of the union with 
       <b>TransferSize</b> to support 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access
-      (DCA)</a>.
+      <mshelp:link keywords="netvista.direct_cache_access__dca_" tabindex="0">Direct Cache Access
+      (DCA)</mshelp:link>.
 
 
-### -field DCAContext32
+### -field Reserved1
 
-A 32 bit DCA context.
-
-
-### -field DCAContext
-
-A DCA context.
-
-</dd>
-</dl>
-
-### -field DCAContext16
-
-A 16 bit DCA context.
+A ULONG64 value that is reserved for the DMA engine or the DMA provider driver to use. NetDMA 2.0
+      and later provider drivers use the 
+      <b>NextSourceAddress</b> member of the union with 
+      <b>Reserved1</b> to support 
+      <mshelp:link keywords="netvista.source_and_destination_page_break" tabindex="0">Source and Destination Page
+      Break</mshelp:link>.
 
 
-### -field DCAContext
+### -field NextSourceAddress
 
-A DCA context.
-
-
-### -field Reserved
-
-Reserved bits.
-
-</dd>
-</dl>
-
-### -field DCAContext8
-
-An 8 bit DCA context.
+The physical address of the second page of source address that is used in source page
+      break.
 
 
-### -field DCAContext
+### -field Reserved2
 
-A DCA context.
+A ULONG64 value that is reserved for use the DMA engine or the DMA provider driver to use. NetDMA
+      2.0 and later provider drivers use the 
+      <b>NextDestinationAddress</b> member of the union with 
+      <b>Reserved2</b> to support 
+      <mshelp:link keywords="netvista.source_and_destination_page_break" tabindex="0">Source and Destination Page
+      Break</mshelp:link>.
 
 
-### -field Reserved
+### -field NextDestinationAddress
 
-Reserved bits.
+The physical address of the second page of destination address that is used in destination page
+      break.
 
-</dd>
-</dl>
 
 ### -field ControlFlags
 
 A set of flags that specify the operations that the DMA engine should perform for this DMA
      descriptor. This member must contain one or more of the following values (combined with a bitwise OR
      operation):
-
 <table>
 <tr>
 <th>Unless otherwise noted, descriptions apply to when the bit is set.</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field NET_DMA_SOURCE_PAGE_BREAK
-
+<td width="40%"><a id="NET_DMA_SOURCE_PAGE_BREAK"></a><a id="net_dma_source_page_break"></a><dl>
+<dt><b>NET_DMA_SOURCE_PAGE_BREAK</b></dt>
+</dl>
 </td>
 <td width="60%">
 A NetDMA version 2.0 or later provider starts the copy from the source physical address that is
@@ -164,9 +206,9 @@ A NetDMA version 2.0 or later provider starts the copy from the source physical 
 </td>
 </tr>
 <tr>
-
-### -field NET_DMA_DESTINATION_PAGE_BREAK
-
+<td width="40%"><a id="NET_DMA_DESTINATION_PAGE_BREAK"></a><a id="net_dma_destination_page_break"></a><dl>
+<dt><b>NET_DMA_DESTINATION_PAGE_BREAK</b></dt>
+</dl>
 </td>
 <td width="60%">
 A NetDMA version 2.0 or later provider starts the copy to the destination physical address that
@@ -178,9 +220,9 @@ A NetDMA version 2.0 or later provider starts the copy to the destination physic
 </td>
 </tr>
 <tr>
-
-### -field NET_DMA_OP_TYPE_CONTEXT_CHANGE
-
+<td width="40%"><a id="NET_DMA_OP_TYPE_CONTEXT_CHANGE"></a><a id="net_dma_op_type_context_change"></a><dl>
+<dt><b>NET_DMA_OP_TYPE_CONTEXT_CHANGE</b></dt>
+</dl>
 </td>
 <td width="60%">
 The DMA engine should identify the descriptor as a 
@@ -207,9 +249,9 @@ The NetDMA interface submits a
 </td>
 </tr>
 <tr>
-
-### -field NET_DMA_DESTINATION_DCA_ENABLE
-
+<td width="40%"><a id="NET_DMA_DESTINATION_DCA_ENABLE"></a><a id="net_dma_destination_dca_enable"></a><dl>
+<dt><b>NET_DMA_DESTINATION_DCA_ENABLE</b></dt>
+</dl>
 </td>
 <td width="60%">
 If the DMA operation type is a standard DMA transfer, the DMA engine should send a DCA hint for
@@ -222,9 +264,9 @@ To set the DCA target processor of a DMA channel, the NetDMA interface previousl
 </td>
 </tr>
 <tr>
-
-### -field NET_DMA_INTERRUPT_ON_COMPLETION
-
+<td width="40%"><a id="NET_DMA_INTERRUPT_ON_COMPLETION"></a><a id="net_dma_interrupt_on_completion"></a><dl>
+<dt><b>NET_DMA_INTERRUPT_ON_COMPLETION</b></dt>
+</dl>
 </td>
 <td width="60%">
 The DMA engine should generate an interrupt for the associated DMA channel after it processes
@@ -236,9 +278,9 @@ When this bit is cleared, the DMA engine does not generate an interrupt.
 </td>
 </tr>
 <tr>
-
-### -field NET_DMA_SOURCE_NO_SNOOP
-
+<td width="40%"><a id="NET_DMA_SOURCE_NO_SNOOP"></a><a id="net_dma_source_no_snoop"></a><dl>
+<dt><b>NET_DMA_SOURCE_NO_SNOOP</b></dt>
+</dl>
 </td>
 <td width="60%">
 The source address should not be snooped. 
@@ -251,9 +293,9 @@ When this bit is cleared, the source address is in coherent memory space, and ea
 </td>
 </tr>
 <tr>
-
-### -field NET_DMA_DESTINATION_NO_SNOOP
-
+<td width="40%"><a id="NET_DMA_DESTINATION_NO_SNOOP"></a><a id="net_dma_destination_no_snoop"></a><dl>
+<dt><b>NET_DMA_DESTINATION_NO_SNOOP</b></dt>
+</dl>
 </td>
 <td width="60%">
 The destination address should not be snooped. 
@@ -266,16 +308,16 @@ When this bit is cleared, the destination address is in coherent memory space, a
 </td>
 </tr>
 <tr>
-
-### -field NET_DMA_STATUS_UPDATE_ON_COMPLETION
-
+<td width="40%"><a id="NET_DMA_STATUS_UPDATE_ON_COMPLETION"></a><a id="net_dma_status_update_on_completion"></a><dl>
+<dt><b>NET_DMA_STATUS_UPDATE_ON_COMPLETION</b></dt>
+</dl>
 </td>
 <td width="60%">
 The 
        <b>CompletionVirtualAddress</b> and 
        <b>CompletionPhysicalAddress</b> members in the 
-       <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">
-       NET_DMA_CHANNEL_PARAMETERS</a> structure reference a completion status value. The DMA engine updates
+       <mshelp:link keywords="netvista.net_dma_channel_parameters" tabindex="0"><b>
+       NET_DMA_CHANNEL_PARAMETERS</b></mshelp:link> structure reference a completion status value. The DMA engine updates
        the completion status value when it completes the processing of this descriptor. 
        
 
@@ -289,9 +331,9 @@ When this bit is cleared, the DMA engine does not use
 </td>
 </tr>
 <tr>
-
-### -field NET_DMA_SERIALIZE_TRANSFER
-
+<td width="40%"><a id="NET_DMA_SERIALIZE_TRANSFER"></a><a id="net_dma_serialize_transfer"></a><dl>
+<dt><b>NET_DMA_SERIALIZE_TRANSFER</b></dt>
+</dl>
 </td>
 <td width="60%">
 The DMA engine guarantees that all writes for this descriptor, including data and completion
@@ -304,9 +346,9 @@ When this bit is cleared, the DMA engine can start processing the next descripto
 </td>
 </tr>
 <tr>
-
-### -field NET_DMA_NULL_TRANSFER
-
+<td width="40%"><a id="NET_DMA_NULL_TRANSFER"></a><a id="net_dma_null_transfer"></a><dl>
+<dt><b>NET_DMA_NULL_TRANSFER</b></dt>
+</dl>
 </td>
 <td width="60%">
 A DMA transfer is not required for this descriptor. The DMA engine is not required to check the 
@@ -326,21 +368,19 @@ When this bit is cleared, a DMA transfer might be required or it might be a zero
 <div> </div>
 </td>
 </tr>
-</table>
- 
+</table> 
 
 The following bitmasks identify the remaining bits in the 
       <b>ControlFlags</b> member:
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field NET_DMA_OP_TYPE_MASK
-
+<td width="40%"><a id="NET_DMA_OP_TYPE_MASK"></a><a id="net_dma_op_type_mask"></a><dl>
+<dt><b>NET_DMA_OP_TYPE_MASK</b></dt>
+</dl>
 </td>
 <td width="60%">
 A bit mask that specifies bits that are reserved for a DMA operation type. The NetDMA interface
@@ -349,9 +389,9 @@ A bit mask that specifies bits that are reserved for a DMA operation type. The N
 </td>
 </tr>
 <tr>
-
-### -field NET_DMA_RESERVED_MASK
-
+<td width="40%"><a id="NET_DMA_RESERVED_MASK"></a><a id="net_dma_reserved_mask"></a><dl>
+<dt><b>NET_DMA_RESERVED_MASK</b></dt>
+</dl>
 </td>
 <td width="60%">
 A bit mask that specifies bits that are reserved for future applications. The NetDMA interface
@@ -359,8 +399,7 @@ A bit mask that specifies bits that are reserved for future applications. The Ne
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field SourceAddress
@@ -380,38 +419,6 @@ The physical address of the next NET_DMA_DESCRIPTOR structure in the linked list
      <b>NextDescriptor</b> is <b>NULL</b>.
 
 
-### -field Reserved1
-
-A ULONG64 value that is reserved for the DMA engine or the DMA provider driver to use. NetDMA 2.0
-      and later provider drivers use the 
-      <b>NextSourceAddress</b> member of the union with 
-      <b>Reserved1</b> to support 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
-      Break</a>.
-
-
-### -field NextSourceAddress
-
-The physical address of the second page of source address that is used in source page
-      break.
-
-
-### -field Reserved2
-
-A ULONG64 value that is reserved for use the DMA engine or the DMA provider driver to use. NetDMA
-      2.0 and later provider drivers use the 
-      <b>NextDestinationAddress</b> member of the union with 
-      <b>Reserved2</b> to support 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
-      Break</a>.
-
-
-### -field NextDestinationAddress
-
-The physical address of the second page of destination address that is used in destination page
-      break.
-
-
 ### -field UserContext1
 
 A ULONG64 value that is reserved for the NetDMA interface to use.
@@ -423,6 +430,8 @@ A ULONG64 value that is reserved for the NetDMA interface to use.
 
 
 ## -remarks
+
+
 The NET_DMA_DESCRIPTOR structure specifies the source, destination, and control information for a
     single DMA transfer in a linked list of DMA descriptors.
 
@@ -441,21 +450,18 @@ The NetDMA interface calls a DMA provider driver's
     linked list of DMA descriptors after the last descriptor on a DMA channel.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
-</dt>
-<dt>
-<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
-</dt>
-<dt>
+
 <a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
-</dt>
-</dl>
- 
+
+<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
+
+<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_DMA_DESCRIPTOR structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_DMA_DESCRIPTOR structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

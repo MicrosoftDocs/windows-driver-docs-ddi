@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 55D8A977-DA91-4CB5-8549-E1CB1731256C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_ACPI_OBJECT_NAME, PEP_ACPI_OBJECT_NAME, *PPEP_ACPI_OBJECT_NAME
+ms.keywords: _PEP_ACPI_OBJECT_NAME, PEP_ACPI_OBJECT_NAME, kernel.pep_acpi_object_name, PEP_ACPI_OBJECT_NAME union [Kernel-Mode Driver Architecture], *PPEP_ACPI_OBJECT_NAME, pepfx/PEP_ACPI_OBJECT_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_ACPI_OBJECT_NAME
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_ACPI_OBJECT_NAME
+product: Windows
+targetos: Windows
 req.typenames: PEP_ACPI_OBJECT_NAME, *PPEP_ACPI_OBJECT_NAME
 ---
 
 # _PEP_ACPI_OBJECT_NAME structure
 
 
-
 ## -description
+
+
 The <b>PEP_ACPI_OBJECT_NAME</b> union contains the four-character name of an ACPI object.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _PEP_ACPI_OBJECT_NAME {
@@ -55,29 +65,43 @@ typedef union _PEP_ACPI_OBJECT_NAME {
 
 ## -struct-fields
 
-### -field ObjectName
-
-The object name stored as an array of four 8-bit unsigned characters.
 
 
-### -field ObjectNameAsUlong
+
+### -field Name
+
+ 
+
+
+### -field NameAsUlong
+
+ 
+
+
+
+#### - ObjectNameAsUlong
 
 The object name stored as a single 32-bit unsigned integer value.
 
 
+#### - ObjectName
+
+The object name stored as an array of four 8-bit unsigned characters.
+
+
 ## -remarks
+
+
 The <i>Name</i> member of the <a href="..\pepfx\ns-pepfx-_pep_acpi_object_name_with_type.md">PEP_ACPI_OBJECT_NAME_WITH_TYPE</a> structure is a <b>PEP_ACPI_OBJECT_NAME</b> union. Also, the <i>Name</i> member of the <a href="..\pepfx\ns-pepfx-_pep_acpi_query_object_information.md">PEP_ACPI_QUERY_OBJECT_INFORMATION</a> structure is a <b>PEP_ACPI_OBJECT_NAME</b> union.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\pepfx\ns-pepfx-_pep_acpi_object_name_with_type.md">PEP_ACPI_OBJECT_NAME_WITH_TYPE</a>
-</dt>
-<dt>
+
 <a href="..\pepfx\ns-pepfx-_pep_acpi_query_object_information.md">PEP_ACPI_QUERY_OBJECT_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d74dedbd-f418-4ea3-ae76-c0da9c5f2fb9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceMiniportCreate
+ms.keywords: WdfDeviceMiniportCreate, kmdf.wdfdeviceminiportcreate, wdf.wdfdeviceminiportcreate, DFDeviceObjectGeneralRef_18104589-c58d-4e8b-af91-c6620b3772e9.xml, PFN_WDFDEVICEMINIPORTCREATE, wdfminiport/WdfDeviceMiniportCreate, WdfDeviceMiniportCreate method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfDeviceMiniportCreate
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfDeviceMiniportCreate
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_MEMORY_DESCRIPTOR, WDF_MEMORY_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WdfDeviceMiniportCreate function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfDeviceMiniportCreate</b> method creates a framework device object that a miniport driver can use.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS WdfDeviceMiniportCreate(
@@ -61,6 +72,9 @@ NTSTATUS WdfDeviceMiniportCreate(
 
 
 ## -parameters
+
+
+
 
 ### -param Driver [in]
 
@@ -93,12 +107,26 @@ A pointer to a location that receives a handle to the new framework device objec
 
 
 ## -returns
+
+
 If the <b>WdfDeviceMiniportCreate</b> method encounters no errors, it returns STATUS_SUCCESS. Additional return values include:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>A device object could not be allocated.
+</dl>
+</td>
+<td width="60%">
+A device object could not be allocated.
 
- 
+</td>
+</tr>
+</table> 
 
 For a list of other return values that <b>WdfDeviceMiniportCreate</b> can return, see <a href="https://msdn.microsoft.com/f5345c88-1c3a-4b32-9c93-c252713f7641">Framework Object Creation Errors</a>.
 
@@ -107,32 +135,53 @@ The method might return other <a href="https://msdn.microsoft.com/library/window
 A bug check occurs if the driver supplies an invalid object handle.
 
 
+
 ## -remarks
+
+
 If your miniport driver uses the framework, the miniport driver should call <b>WdfDeviceMiniportCreate</b> when its port driver informs it that a device is available. Miniport drivers do not call <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
 
 Your miniport driver might receive its <i>DeviceObject</i>, <i>AttachedDeviceObject</i>, and <i>PDO</i> pointers from its port driver. For example, an NDIS miniport driver can obtain these pointers by calling <a href="..\ndis\nf-ndis-ndismgetdeviceproperty.md">NdisMGetDeviceProperty</a>.
 
 The following restrictions apply to framework device objects that a miniport driver obtains by calling <b>WdfDeviceMiniportCreate</b>:
-
+<ul>
+<li>
 The device that the device object represents must support Plug and Play.
 
+</li>
+<li>
 The device object does not support any of the device object's event callback functions. Therefore, the port driver must handle all Plug and Play (PnP) and power management operations. 
 
+</li>
+<li>
 The device object handle cannot be passed to <a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>, so the port driver must provide any required support for Windows Management Instrumentation (WMI).
 
+</li>
+<li>
 The device object handle cannot be passed to <a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>, so the framework does not support I/O queues for miniport drivers.
 
+</li>
+<li>
 The device object handle cannot be passed to <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>, so the framework does not support interrupt objects for miniport drivers.
 
+</li>
+<li>
 The device object handle cannot be passed to any general framework device object methods except <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>, <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetdeviceobject.md">WdfDeviceWdmGetDeviceObject</a>, <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetattacheddevice.md">WdfDeviceWdmGetAttachedDevice</a>, and <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetphysicaldevice.md">WdfDeviceWdmGetPhysicalDevice</a>.
 
-The device object handle cannot be passed to any <a href="wdf_device_object_reference.htm#fdo_methods">framework FDO methods</a> except <a href="..\wdffdo\nf-wdffdo-wdffdoqueryforinterface.md">WdfFdoQueryForInterface</a>.
+</li>
+<li>
+The device object handle cannot be passed to any <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn265631">framework FDO methods</a> except <a href="..\wdffdo\nf-wdffdo-wdffdoqueryforinterface.md">WdfFdoQueryForInterface</a>.
 
-The device object handle cannot be passed to any <a href="wdf_device_object_reference.htm#pdo_methods">framework PDO methods</a> or to <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistcreate.md">WdfChildListCreate</a>, so the miniport driver cannot be a bus driver.
+</li>
+<li>
+The device object handle cannot be passed to any <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn265631">framework PDO methods</a> or to <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistcreate.md">WdfChildListCreate</a>, so the miniport driver cannot be a bus driver.
 
+</li>
+<li>
 The driver must eventually call <a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a> to delete the device object that <b>WdfDeviceMiniportCreate</b> creates.
 
-Framework device objects that <b>WdfDeviceMiniportCreate</b> create can be used as a parent object for any subsequently created framework object. 
+</li>
+</ul>Framework device objects that <b>WdfDeviceMiniportCreate</b> create can be used as a parent object for any subsequently created framework object. 
 
 In order to send I/O requests to I/O targets, the miniport driver might pass the device object handle to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>, <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>, or <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
 
@@ -140,21 +189,16 @@ The miniport driver can pass the device object handle to <a href="..\wdfdmaenabl
 
 For more information about miniport drivers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-kmdf-miniport-drivers">Using Kernel-Mode Driver Framework with Miniport Drivers</a>.
 
-The following code example calls <a href="..\ndis\nf-ndis-ndismgetdeviceproperty.md">NdisMGetDeviceProperty</a> to obtain <i>DeviceObject</i>, <i>AttachedDeviceObject</i>, and <i>PDO</i> pointers; initializes the device object's context space, and creates a miniport device object. 
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
-</dt>
-<dt>
+
 <a href="..\wdfminiport\nf-wdfminiport-wdfdriverminiportunload.md">WdfDriverMiniportUnload</a>
-</dt>
-<dt>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552404">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>
-</dt>
-</dl>
+
  
 
  

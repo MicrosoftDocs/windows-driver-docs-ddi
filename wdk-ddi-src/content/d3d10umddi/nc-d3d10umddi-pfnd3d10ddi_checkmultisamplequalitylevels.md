@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2b6a0ab8-f197-48c3-baf2-305b77b7e8b5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.checkmultisamplequalitylevels, CheckMultisampleQualityLevels callback function [Display Devices], CheckMultisampleQualityLevels, PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS, PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS, d3d10umddi/CheckMultisampleQualityLevels, UserModeDisplayDriverDx10_Functions_d19bc4c0-49ba-4e1c-b19e-667905ceb391.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CheckMultisampleQualityLevels
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	CheckMultisampleQualityLevels
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS callback
 
 
-
 ## -description
+
+
 The <b>CheckMultisampleQualityLevels</b> function retrieves the number of quality levels that the device supports for the specified number of samples. 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS CheckMultisampleQualityLevels;
@@ -60,33 +70,60 @@ VOID APIENTRY CheckMultisampleQualityLevels(
 
 ## -parameters
 
-### -param hDevice [in]
-
- A handle to the display device (graphics context).
 
 
-### -param Format [in]
 
- A DXGI_FORMAT-typed value that indicates the render-target format that the check is performed for. 
+### -param D3D10DDI_HDEVICE
 
 
-### -param SampleCount [in]
+
+### -param DXGI_FORMAT
+
+
+
+### -param UINT
+
+
+
+### -param *
+
+
+
+
+
+
+#### - SampleCount [in]
 
  The number of samples to retrieve the quality levels for. 
 
 
-### -param pNumQualityLevels [out]
+#### - pNumQualityLevels [out]
 
 A pointer to a variable that receives the number of quality levels that the device supports for the specified number of samples. 
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
+#### - Format [in]
+
+ A DXGI_FORMAT-typed value that indicates the render-target format that the check is performed for. 
+
+
 ## -returns
+
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. The driver can set E_INVALIDARG if the format in the <i>Format</i> parameter does not exist or the <i>pNumQualityLevels</i> parameter is <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 If the device does not support multiple sampling with the number of samples that is specified in the <i>SampleCount</i> parameter, the user-mode display driver should return 0 in the variable that the <i>pNumQualityLevels</i> parameter points to.
 
 When the driver returns 1 or more in the variable that <i>pNumQualityLevels</i> points to, the driver indicates the number of device-specific sampling variations that are available with the given sample count. For example, if the driver returns 3, quality levels 0, 1, and 2 can be used to create resources with the given sample count. The device manufacturer defines these quality levels, which the Microsoft Direct3D runtime cannot query. However, different quality levels at a fixed sample count might refer to different spatial layouts of the sample locations or different methods of resolving.
@@ -96,15 +133,13 @@ If the driver receives 1 in <i>SampleCount</i>, the driver always returns 1 in t
 If the driver receives 0 or greater than 32 in <i>SampleCount</i>, the driver always returns 0 in the variable that <i>pNumQualityLevels</i> points to. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-</dt>
-</dl>
+
  
 
  

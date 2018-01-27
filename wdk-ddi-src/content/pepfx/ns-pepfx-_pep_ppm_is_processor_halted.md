@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 284BAFE1-C632-428D-800C-60C538052C02
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_PPM_IS_PROCESSOR_HALTED, *PPEP_PPM_IS_PROCESSOR_HALTED, PEP_PPM_IS_PROCESSOR_HALTED
+ms.keywords: PPEP_PPM_IS_PROCESSOR_HALTED, kernel.pep_ppm_is_processor_halted, pepfx/PEP_PPM_IS_PROCESSOR_HALTED, _PEP_PPM_IS_PROCESSOR_HALTED, PPEP_PPM_IS_PROCESSOR_HALTED structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_IS_PROCESSOR_HALTED, *PPEP_PPM_IS_PROCESSOR_HALTED, PEP_PPM_IS_PROCESSOR_HALTED, PEP_PPM_IS_PROCESSOR_HALTED structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_PPM_IS_PROCESSOR_HALTED
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_PPM_IS_PROCESSOR_HALTED
+product: Windows
+targetos: Windows
 req.typenames: *PPEP_PPM_IS_PROCESSOR_HALTED, PEP_PPM_IS_PROCESSOR_HALTED
 ---
 
 # _PEP_PPM_IS_PROCESSOR_HALTED structure
 
 
-
 ## -description
+
+
 The <b>PEP_PPM_IS_PROCESSOR_HALTED</b> structure indicates whether the processor is currently halted in its selected idle state.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_PPM_IS_PROCESSOR_HALTED {
@@ -54,21 +64,25 @@ typedef struct _PEP_PPM_IS_PROCESSOR_HALTED {
 
 ## -struct-fields
 
+
+
+
 ### -field Halted
 
 [out] Whether the processor is halted. Set to <b>TRUE</b> if the processor is halted, or to <b>FALSE</b> if it is not halted.
 
 
 ## -remarks
+
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186810">PEP_NOTIFY_PPM_IS_PROCESSOR_HALTED</a> notification. The <b>Halted</b> member contains an output value that the platform extension plug-in (PEP) writes to the structure in response to this notification.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186810">PEP_NOTIFY_PPM_IS_PROCESSOR_HALTED</a>
-</dt>
-</dl>
+
  
 
  

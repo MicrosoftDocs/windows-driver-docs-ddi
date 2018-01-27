@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d4685c23-7461-4539-9f7c-80f9760bf706
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoInitializeDpcRequest
+ms.keywords: k104_6b13de62-4cbe-4902-8c60-67d873873047.xml, IoInitializeDpcRequest routine [Kernel-Mode Driver Architecture], wdm/IoInitializeDpcRequest, IoInitializeDpcRequest, kernel.ioinitializedpcrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoInitializeDpcRequest
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	IoInitializeDpcRequest
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoInitializeDpcRequest function
 
 
-
 ## -description
+
+
 The <b>IoInitializeDpcRequest</b> routine registers a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff544079">DpcForIsr</a> routine.
 
 
-
 ## -syntax
+
 
 ````
 VOID IoInitializeDpcRequest(
@@ -55,6 +65,9 @@ VOID IoInitializeDpcRequest(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceObject [in]
 
@@ -67,10 +80,15 @@ Supplies a pointer to the driver-supplied <i>DpcForIsr</i> routine.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>IoInitializeDpcRequest</b> associates a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff544079">DpcForIsr</a> routine with a given device object. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a> routine (ISR) can call <a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a> to queue the <i>DpcForIsr</i> routine. The <i>DpcForIsr</i> routine completes interrupt-driven I/O operations at a lower IRQL than that of the ISR.
 
 PnP drivers call <b>IoInitializeDpcRequest</b> from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine.
@@ -78,27 +96,21 @@ PnP drivers call <b>IoInitializeDpcRequest</b> from the <a href="https://msdn.mi
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544084">DPC Objects and DPCs</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544079">DpcForIsr</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544079">DpcForIsr</a>
+
 <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6dc10c3a-b47e-42c3-a209-34977fb219f1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SCSI_WMI_REQUEST_BLOCK, SCSI_WMI_REQUEST_BLOCK, *PSCSI_WMI_REQUEST_BLOCK
+ms.keywords: storage.scsi_wmi_request_block, PSCSI_WMI_REQUEST_BLOCK structure pointer [Storage Devices], SCSI_WMI_REQUEST_BLOCK, _SCSI_WMI_REQUEST_BLOCK, structs-scsibus_6188bca6-990b-4471-b8ea-2cd5b2b27d51.xml, srb/SCSI_WMI_REQUEST_BLOCK, SCSI_WMI_REQUEST_BLOCK structure [Storage Devices], PSCSI_WMI_REQUEST_BLOCK, *PSCSI_WMI_REQUEST_BLOCK, srb/PSCSI_WMI_REQUEST_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SCSI_WMI_REQUEST_BLOCK
-req.alt-loc: srb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	srb.h
+apiname: 
+-	SCSI_WMI_REQUEST_BLOCK
+product: Windows
+targetos: Windows
 req.typenames: SCSI_WMI_REQUEST_BLOCK, *PSCSI_WMI_REQUEST_BLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _SCSI_WMI_REQUEST_BLOCK structure
 
 
-
 ## -description
+
+
 This structure is a special version of a <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> for use with WMI commands. 
-
-
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 typedef struct _SCSI_WMI_REQUEST_BLOCK {
@@ -76,6 +86,9 @@ typedef struct _SCSI_WMI_REQUEST_BLOCK {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Length
 
@@ -134,48 +147,13 @@ Indicates various parameters and options about the request. <b>SrbFlags</b> is r
 
 
 
-### -field SRB_FLAGS_DATA_IN
-
-Indicates data will be transferred from the device to the system.
-
-</dd>
-</dl>
 
 
 
-### -field SRB_FLAGS_DATA_OUT
-
-Indicates data will be transferred from the system to the device.
-
-</dd>
-</dl>
 
 
 
-### -field SRB_FLAGS_NO_DATA_TRANSFER
 
-Indicates no data transfer with this request. If this is set, the flags SRB_FLAGS_DATA_OUT, SRB_FLAGS_DATA_IN, and SRB_FLAGS_UNSPECIFIED_DIRECTION are clear.
-
-</dd>
-</dl>
-
-
-
-### -field SRB_FLAGS_DISABLE_SYNCH_TRANSFER
-
-Indicates the HBA, if possible, should perform asynchronous I/O for this transfer request. If synchronous I/O was negotiated previously, the HBA must renegotiate for asynchronous I/O before performing the transfer.
-
-</dd>
-</dl>
-
-
-
-### -field SRB_FLAGS_DISABLE_DISCONNECT
-
-Indicates the HBA should not allow the target to disconnect from the SCSI bus during processing of this request.
-
-</dd>
-</dl>
 
 ### -field DataTransferLength
 
@@ -227,7 +205,34 @@ Reserved for system use and not available for use by miniport drivers. This memb
 Reserved for system use and not available for use by miniport drivers.
 
 
+##### - SrbFlags.SRB_FLAGS_DISABLE_SYNCH_TRANSFER
+
+Indicates the HBA, if possible, should perform asynchronous I/O for this transfer request. If synchronous I/O was negotiated previously, the HBA must renegotiate for asynchronous I/O before performing the transfer.
+
+
+##### - SrbFlags.SRB_FLAGS_NO_DATA_TRANSFER
+
+Indicates no data transfer with this request. If this is set, the flags SRB_FLAGS_DATA_OUT, SRB_FLAGS_DATA_IN, and SRB_FLAGS_UNSPECIFIED_DIRECTION are clear.
+
+
+##### - SrbFlags.SRB_FLAGS_DATA_OUT
+
+Indicates data will be transferred from the system to the device.
+
+
+##### - SrbFlags.SRB_FLAGS_DATA_IN
+
+Indicates data will be transferred from the device to the system.
+
+
+##### - SrbFlags.SRB_FLAGS_DISABLE_DISCONNECT
+
+Indicates the HBA should not allow the target to disconnect from the SCSI bus during processing of this request.
+
+
 ## -remarks
+
+
 Windows NT storage class and filter drivers can send WMI SRBs to the system port driver. The system port driver will handle certain WMI requests on behalf of miniport drivers. If the port driver cannot handle a WMI request, it forwards the request to the miniport driver. 
 
 A miniport driver receives WMI requests from the port driver only if the miniport driver set <b>WmiDataProvider</b> in the PORT_CONFIGURATION_INFORMATION structure. If the miniport driver supports a request, it should process it and complete the request by calling <b>ScsiPortNotification</b> twice, first with <b>RequestComplete</b> and then with <b>NextRequest</b> (or <b>NextLuRequest</b>). 
@@ -235,24 +240,19 @@ A miniport driver receives WMI requests from the port driver only if the minipor
 For information about supporting WMI in miniport drivers, see the <a href="https://msdn.microsoft.com/5c2ed322-0fc9-4004-9a5f-f4d3c6a59fe9">Windows Management Instrumentation</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
-</dt>
-<dt>
-<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
-</dt>
-<dt>
+
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-</dt>
-<dt>
+
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
+
+<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
+
 <a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
-</dt>
-<dt>
+
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
-</dt>
-</dl>
+
  
 
  

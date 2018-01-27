@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5b2025ce-e0dd-434d-b92b-16ecaf24808f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_DDI_VIEWPORT, D3D10_DDI_VIEWPORT
+ms.keywords: UMDisplayDriver_Dx10param_Structs_820ac08a-01a2-4e47-8573-aedf3c3769e1.xml, D3D10_DDI_VIEWPORT structure [Display Devices], d3d10umddi/D3D10_DDI_VIEWPORT, D3D10_DDI_VIEWPORT, display.d3d10_ddi_viewport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10_DDI_VIEWPORT
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10_DDI_VIEWPORT
+product: Windows
+targetos: Windows
 req.typenames: D3D10_DDI_VIEWPORT
 ---
 
 # D3D10_DDI_VIEWPORT structure
 
 
-
 ## -description
+
+
 The D3D10_DDI_VIEWPORT structure describes a viewport.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D10_DDI_VIEWPORT {
@@ -58,6 +68,9 @@ typedef struct D3D10_DDI_VIEWPORT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field TopLeftX
 
@@ -91,15 +104,10 @@ typedef struct D3D10_DDI_VIEWPORT {
 [in] A single-precision float vector for the maximum depth of the viewport.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setviewports.md">SetViewports</a>
-</dt>
-</dl>
+
  
 
  

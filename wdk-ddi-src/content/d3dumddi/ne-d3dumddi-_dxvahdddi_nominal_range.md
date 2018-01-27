@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 952BE36C-0F53-47C3-9C95-E6ECAB9D36D1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVAHDDDI_NOMINAL_RANGE, DXVAHDDDI_NOMINAL_RANGE
+ms.keywords: _DXVAHDDDI_NOMINAL_RANGE, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_UNDEFINED, d3dumddi/DXVAHDDDI_NOMINAL_RANGE, DXVAHDDDI_NOMINAL_RANGE_0_255, DXVAHDDDI_NOMINAL_RANGE, display.dxvahdddi_nominal_range, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_16_235, DXVAHDDDI_NOMINAL_RANGE_UNDEFINED, DXVAHDDDI_NOMINAL_RANGE enumeration [Display Devices], DXVAHDDDI_NOMINAL_RANGE_16_235, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_0_255
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVAHDDDI_NOMINAL_RANGE
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	DXVAHDDDI_NOMINAL_RANGE
+product: Windows
+targetos: Windows
 req.typenames: DXVAHDDDI_NOMINAL_RANGE
 ---
 
 # _DXVAHDDDI_NOMINAL_RANGE enumeration
 
 
-
 ## -description
+
+
 Indicates the luminance range of YUV data.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXVAHDDDI_NOMINAL_RANGE { 
@@ -55,6 +65,9 @@ typedef enum _DXVAHDDDI_NOMINAL_RANGE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXVAHDDDI_NOMINAL_RANGE_UNDEFINED
 
@@ -72,4 +85,8 @@ The <i>full luminance range</i>, or <i>extended range</i>, of 0 to 255, inclusiv
 
 
 ## -remarks
-For more information on luminance range, see <a href="https://msdn.microsoft.com/D76FFB8C-CA42-446E-826F-52982B1849E5">YUV format ranges in Windows 8.1</a>.</p>
+
+
+For more information on luminance range, see <a href="https://msdn.microsoft.com/D76FFB8C-CA42-446E-826F-52982B1849E5">YUV format ranges in Windows 8.1</a>.
+
+

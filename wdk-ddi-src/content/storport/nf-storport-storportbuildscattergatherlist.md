@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cdea67aa-14fa-45c1-8af0-8db48042b1b2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortBuildScatterGatherList
+ms.keywords: StorPortBuildScatterGatherList routine [Storage Devices], storage.storportbuildscattergatherlist, storport/StorPortBuildScatterGatherList, StorPortBuildScatterGatherList, storprt_ed0a920c-d8f4-44f2-a262-5a74470ec67a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortBuildScatterGatherList
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	StorPortBuildScatterGatherList
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # StorPortBuildScatterGatherList function
 
 
-
 ## -description
+
+
 The <b>StorPortBuildScatterGatherList</b> routine creates a scatter/gather list for the specified data buffer.
 
 
-
 ## -syntax
+
 
 ````
 ULONG StorPortBuildScatterGatherList(
@@ -62,6 +72,9 @@ ULONG StorPortBuildScatterGatherList(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -88,7 +101,6 @@ The length, in bytes, of the data buffer.
 A pointer to a miniport driver-supplied <i>ExecutionRoutine</i>. The Storport driver calls this routine after creating the scatter/gather list. The miniport driver should perform all operations that make use of the scatter/gather list inside the execution routine, not in the code that follows the call to the <b>StorPortBuildScatterGatherList</b> routine.
 
 An <i>ExecutionRoutine</i> is declared as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -106,29 +118,6 @@ ExecutionRoutine (
 </tr>
 </table></span></div>
 
-
-
-### -param DeviceObject
-
-Miniport drivers should ignore this parameter.
-
-
-### -param Irp
-
-Miniport drivers should ignore this parameter.
-
-
-### -param ScatterGather
-
-A pointer to a <a href="..\storport\ns-storport-_stor_scatter_gather_list.md">STOR_SCATTER_GATHER_LIST</a> structure that contains the scatter/gather list for the specified data buffer.
-
-
-### -param Context
-
-The context value specified in the <b>StorPortBuildScatterGatherList</b> function's <i>Context</i> parameter.
-
-</dd>
-</dl>
 The Storport driver calls a miniport driver's <i>ExecutionRoutine</i> at IRQL = DISPATCH_LEVEL.
 
 
@@ -152,48 +141,124 @@ A pointer to a miniport-supplied buffer that receives the scatter/gather list. A
 The size, in bytes, of the buffer pointed to by the <i>ScatterGatherBuffer</i> parameter.
 
 
+##### - ExecutionRoutine.Irp
+
+Miniport drivers should ignore this parameter.
+
+
+##### - ExecutionRoutine.Context
+
+The context value specified in the <b>StorPortBuildScatterGatherList</b> function's <i>Context</i> parameter.
+
+
+##### - ExecutionRoutine.ScatterGather
+
+A pointer to a <a href="..\storport\ns-storport-_stor_scatter_gather_list.md">STOR_SCATTER_GATHER_LIST</a> structure that contains the scatter/gather list for the specified data buffer.
+
+
+##### - ExecutionRoutine.DeviceObject
+
+Miniport drivers should ignore this parameter.
+
+
 ## -returns
+
+
 <b>StorPortBuildScatterGatherList</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>This function is not implemented on the active operating system.
+</dl>
+</td>
+<td width="60%">
+This function is not implemented on the active operating system.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>Indicates that the routine created the scatter/gather list successfully.
+</dl>
+</td>
+<td width="60%">
+Indicates that the routine created the scatter/gather list successfully.
+
+<div class="alert"><b>Important</b>  See 'Remarks'.</div>
+<div> </div>
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>The <i>HwDeviceExtension</i> passed was <b>NULL</b>.
+</dl>
+</td>
+<td width="60%">
+The <i>HwDeviceExtension</i> passed was <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_IRQL</b></dt>
-</dl>The call was made at an invalid IRQL.
+</dl>
+</td>
+<td width="60%">
+The call was made at an invalid IRQL.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>The system has insufficient map registers available for the transfer.
+</dl>
+</td>
+<td width="60%">
+The system has insufficient map registers available for the transfer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_BUFFER_TOO_SMALL </b></dt>
-</dl>The Length parameter is too big to fit within the buffer.
+</dl>
+</td>
+<td width="60%">
+The Length parameter is too big to fit within the buffer.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The miniport driver calls <a href="..\storport\nf-storport-storportputscattergatherlist.md">StorPortPutScatterGatherList</a> to release the resources that <b>StorPortBuildScatterGatherList</b> allocated while constructing the scatter/gather list. 
 
 The miniport driver must call <a href="..\storport\nf-storport-storportputscattergatherlist.md">StorPortPutScatterGatherList</a> before freeing or reusing the memory it allocated for the scatter/gather list.
+<div class="alert"><b>Note</b>  If <b>StorPortBuildScatterGatherList</b> returns STOR_STATUS_SUCCESS, then the callback in <i>ExecutionRoutine</i> was successfully queued to execute after the scatter/gather list is created. The miniport must not assume that <i>ExecutionRoutine</i> was called or that the scatter/gather list is ready when <b>StorPortBuildScatterGatherList</b> returns.   If necessary, the miniport can synchronize the execution of code following <b>StorPortBuildScatterGatherList</b> with the callback in <i>ExecutionRoutine</i> to ensure that the scatter/gather list is available.</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\storport\nf-storport-storportallocatepool.md">StorPortAllocatePool</a>
-</dt>
-<dt>
-<a href="..\storport\nf-storport-storportputscattergatherlist.md">StorPortPutScatterGatherList</a>
-</dt>
-<dt>
+
 <a href="..\storport\ns-storport-_stor_scatter_gather_list.md">STOR_SCATTER_GATHER_LIST</a>
-</dt>
-</dl>
+
+<a href="..\storport\nf-storport-storportallocatepool.md">StorPortAllocatePool</a>
+
+<a href="..\storport\nf-storport-storportputscattergatherlist.md">StorPortPutScatterGatherList</a>
+
  
 
  

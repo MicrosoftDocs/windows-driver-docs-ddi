@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ac03889a-1e02-4852-8ed9-487674c6e0de
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGateInitializeAnd
+ms.keywords: stream.ksgateinitializeand, avfunc_9eb102c9-08f4-44f7-bc3e-889aa8f85f23.xml, KsGateInitializeAnd function [Streaming Media Devices], ks/KsGateInitializeAnd, KsGateInitializeAnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsGateInitializeAnd
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KsGateInitializeAnd
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsGateInitializeAnd function
 
 
-
 ## -description
+
+
 The<b> KsGateInitializeAnd</b> function initializes a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure as an AND gate and attaches it to the OR gate specified by <i>NextOrGate</i>.
 
 
-
 ## -syntax
+
 
 ````
 void __inline KsGateInitializeAnd(
@@ -54,6 +64,9 @@ void __inline KsGateInitializeAnd(
 
 
 ## -parameters
+
+
+
 
 ### -param AndGate [in]
 
@@ -66,33 +79,33 @@ A pointer to an existing KSGATE structure to which <i>AndGate</i> attaches. This
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The next gate (following <i>AndGate</i>) must be an OR gate, whether it is specified in this call or later. For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>.
 
 <b>KsGateInitializeAnd</b> is an inline call to <a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
+
+<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+
+<a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
+
+<a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
+
  
 
  

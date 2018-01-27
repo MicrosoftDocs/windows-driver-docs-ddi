@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9e225f00-f830-488f-8bf0-666290dc40b0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlGetEcpListFromIrp
+ms.keywords: FsRtlGetEcpListFromIrp routine [Installable File System Drivers], FsRtlGetEcpListFromIrp, ntifs/FsRtlGetEcpListFromIrp, ifsk.fsrtlgetecplistfromirp, fsrtlref_85b1fc72-e8ce-4909-a0d4-1eab35b3a0cb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlGetEcpListFromIrp
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlGetEcpListFromIrp
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlGetEcpListFromIrp function
 
 
-
 ## -description
+
+
 The <b>FsRtlGetEcpListFromIrp </b>routine returns a pointer to an extra create parameter (ECP) context structure list that is associated with a given IRP_MJ_CREATE operation.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlGetEcpListFromIrp(
@@ -54,6 +64,9 @@ NTSTATUS FsRtlGetEcpListFromIrp(
 
 
 ## -parameters
+
+
+
 
 ### -param Irp [in]
 
@@ -66,24 +79,40 @@ Receives a pointer to the ECP context structure list that is associated with the
 
 
 ## -returns
+
+
 <b>FsRtlGetEcpListFromIrp</b> returns STATUS_SUCCESS or an appropriate error status representing the final completion status of the operation. Possible error status codes include the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The given IRP was not an IRP-based IRP_MJ_CREATE operation. In this case, <i>EcpList</i> is undefined. 
+</dl>
+</td>
+<td width="60%">
+The given IRP was not an IRP-based IRP_MJ_CREATE operation. In this case, <i>EcpList</i> is undefined. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 To attach an ECP context structure list to an IRP, use the <a href="..\ntifs\nf-ntifs-fsrtlsetecplistintoirp.md">FsRtlSetEcpListIntoIrp</a> routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-fsrtlsetecplistintoirp.md">FsRtlSetEcpListIntoIrp</a>
-</dt>
-</dl>
+
  
 
  

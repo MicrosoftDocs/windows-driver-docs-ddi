@@ -7,8 +7,8 @@ old-location: netvista\rilsendmsgresponse_2.htm
 old-project: netvista
 ms.assetid: 46fd1e3e-38de-460e-8bb8-ff7db2a16e1a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSENDMSGRESPONSE, RILSENDMSGRESPONSE, *LPRILSENDMSGRESPONSE
+ms.date: 1/18/2018
+ms.keywords: rilapitypes/RILSENDMSGRESPONSE, netvista.rilsendmsgresponse_2, *LPRILSENDMSGRESPONSE, RILSENDMSGRESPONSE, RILSENDMSGRESPONSE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSENDMSGRESPONSE
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILSENDMSGRESPONSE
+product: Windows
+targetos: Windows
 req.typenames: RILSENDMSGRESPONSE, *LPRILSENDMSGRESPONSE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILSENDMSGRESPONSE structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILSENDMSGRESPONSE {
@@ -62,28 +72,37 @@ typedef struct _RILSENDMSGRESPONSE {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field hrReturn
+
 
 
 ### -field dwCDMACauseCode
 
 
+
 ### -field dwCDMAErrorClass
+
 
 
 ### -field dwGWLTransportCode
 
 
+
 ### -field dwGWLRelayCode
+
 
 
 ### -field dwMsgID
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8297a687-1c8f-4c19-913d-2796e7ef3a60
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tag_KS_TRUECOLORINFO, *PKS_TRUECOLORINFO, KS_TRUECOLORINFO
+ms.keywords: ksmedia/KS_TRUECOLORINFO, KS_TRUECOLORINFO, tag_KS_TRUECOLORINFO, KS_TRUECOLORINFO structure [Streaming Media Devices], PKS_TRUECOLORINFO, *PKS_TRUECOLORINFO, stream.ks_truecolorinfo, ksmedia/PKS_TRUECOLORINFO, vidcapstruct_02efd829-b75a-4a08-864d-cd80570d0f3a.xml, PKS_TRUECOLORINFO structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_TRUECOLORINFO
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KS_TRUECOLORINFO
+product: Windows
+targetos: Windows
 req.typenames: *PKS_TRUECOLORINFO, KS_TRUECOLORINFO
 ---
 
 # tag_KS_TRUECOLORINFO structure
 
 
-
 ## -description
+
+
 The KS_TRUECOLORINFO structure describes color palette and bitmask information for video images that also contain a palette.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tag_KS_TRUECOLORINFO {
@@ -55,6 +65,9 @@ typedef struct tag_KS_TRUECOLORINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field dwBitMasks
 
 Array of color masks (one per color element).
@@ -65,15 +78,10 @@ Array of color masks (one per color element).
 Array of palette colors.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-tagks_rgbquad.md">KS_RGBQUAD</a>
-</dt>
-</dl>
+
  
 
  

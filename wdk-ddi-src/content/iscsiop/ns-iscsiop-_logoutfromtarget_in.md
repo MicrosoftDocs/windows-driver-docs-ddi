@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a52d5995-1fb7-4b73-9d3f-c945e7219a49
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _LogoutFromTarget_IN, *PLogoutFromTarget_IN, LogoutFromTarget_IN
+ms.keywords: PLogoutFromTarget_IN, *PLogoutFromTarget_IN, iscsiop/PLogoutFromTarget_IN, LogoutFromTarget_IN structure [Storage Devices], iscsiop/LogoutFromTarget_IN, structs-iSCSI_759c2265-5518-4f45-8737-5cdfa4d73170.xml, PLogoutFromTarget_IN structure pointer [Storage Devices], _LogoutFromTarget_IN, LogoutFromTarget_IN, storage.logoutfromtarget_in
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: LogoutFromTarget_IN
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PLogoutFromTarget_IN, LogoutFromTarget_IN
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	LogoutFromTarget_IN
+product: Windows
+targetos: Windows
+req.typenames: LogoutFromTarget_IN, *PLogoutFromTarget_IN
 ---
 
 # _LogoutFromTarget_IN structure
 
 
-
 ## -description
+
+
 The LogoutFromTarget_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561602">LogoutFromTarget</a> method, which is used to log out from an iSCSI target.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _LogoutFromTarget_IN {
@@ -54,30 +64,31 @@ typedef struct _LogoutFromTarget_IN {
 
 ## -struct-fields
 
+
+
+
 ### -field UniqueSessionId
 
 A 64-bit integer that uniquely identifies the session. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a> methods both return this value in the <i>UniqueSessionId</i> parameter. Do not confuse this value with the values in the ISID and TSID members.
 
 
 ## -remarks
+
+
 You must implement this method.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-</dt>
-<dt>
+
 <a href="..\iscsiop\ns-iscsiop-_logoutfromtarget_out.md">LogoutFromTarget_OUT</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
-</dt>
-</dl>
+
  
 
  

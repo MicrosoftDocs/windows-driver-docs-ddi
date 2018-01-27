@@ -7,8 +7,8 @@ old-location: netvista\dot11_cipher_algorithm_list.htm
 old-project: netvista
 ms.assetid: b6d96a82-f744-4663-8373-886f4245c106
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DOT11_CIPHER_ALGORITHM_LIST, *PDOT11_CIPHER_ALGORITHM_LIST, DOT11_CIPHER_ALGORITHM_LIST
+ms.date: 1/18/2018
+ms.keywords: Native_802.11_data_types_704d7a5a-0cf5-459f-af0c-06dfdc936a9e.xml, netvista.dot11_cipher_algorithm_list, DOT11_CIPHER_ALGORITHM_LIST, PDOT11_CIPHER_ALGORITHM_LIST, windot11/PDOT11_CIPHER_ALGORITHM_LIST, *PDOT11_CIPHER_ALGORITHM_LIST, windot11/DOT11_CIPHER_ALGORITHM_LIST, PDOT11_CIPHER_ALGORITHM_LIST structure pointer [Network Drivers Starting with Windows Vista], DOT11_CIPHER_ALGORITHM_LIST structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DOT11_CIPHER_ALGORITHM_LIST
-req.alt-loc: windot11.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	windot11.h
+apiname: 
+-	DOT11_CIPHER_ALGORITHM_LIST
+product: Windows
+targetos: Windows
 req.typenames: *PDOT11_CIPHER_ALGORITHM_LIST, DOT11_CIPHER_ALGORITHM_LIST
 req.product: Windows 10 or later.
 ---
@@ -38,10 +47,16 @@ req.product: Windows 10 or later.
 # DOT11_CIPHER_ALGORITHM_LIST structure
 
 
-
 ## -description
 
+
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_CIPHER_ALGORITHM_LIST structure defines a list of 
+  <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a> structures that
+  can be enabled on the 802.11 station.
+
+
 ## -syntax
+
 
 ````
 typedef struct DOT11_CIPHER_ALGORITHM_LIST {
@@ -55,6 +70,9 @@ typedef struct DOT11_CIPHER_ALGORITHM_LIST {
 
 ## -struct-fields
 
+
+
+
 ### -field Header
 
 The type, revision, and size of the DOT11_CIPHER_ALGORITHM_LIST structure. This member is
@@ -67,24 +85,6 @@ The miniport driver must set the members of
 
 
 
-
-### -field Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
-### -field Revision
-
-This member must be set to DOT11_CIPHER_ALGORITHM_LIST_REVISION_1.
-
-
-### -field Size
-
-This member must be set to 
-       sizeof(DOT11_CIPHER_ALGORITHM_LIST).
-
-</dd>
-</dl>
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
@@ -112,12 +112,30 @@ The list of cipher algorithms is sorted by preference.
      <b>AlgorithmIds</b> [0] defines the cipher algorithm with the highest preference.
 
 
+##### - Header.Revision
+
+This member must be set to DOT11_CIPHER_ALGORITHM_LIST_REVISION_1.
+
+
+##### - Header.Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+##### - Header.Size
+
+This member must be set to 
+       sizeof(DOT11_CIPHER_ALGORITHM_LIST).
+
+
 ## -remarks
+
+
 A miniport driver returns the DOT11_CIPHER_ALGORITHM_LIST structure when it is queried by either 
-    <a href="netvista.oid_dot11_supported_unicast_algorithm_pair">
-    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a> or 
-    <a href="netvista.oid_dot11_supported_multicast_algorithm_pair">
-    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>.
+    <mshelp:link keywords="netvista.oid_dot11_supported_unicast_algorithm_pair" tabindex="0">
+    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</mshelp:link> or 
+    <mshelp:link keywords="netvista.oid_dot11_supported_multicast_algorithm_pair" tabindex="0">
+    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</mshelp:link>.
 
 When these OIDs are queried, the miniport driver must verify that the 
     <b>InformationBuffer</b> member of the 
@@ -127,30 +145,43 @@ When these OIDs are queried, the miniport driver must verify that the
     <b>AlgorithmIds</b> array. The value of the 
     <b>InformationBufferLength</b> member of the 
     <i>OidRequest</i> parameter determines what the miniport driver must do, as the following list shows:
-
+<ul>
+<li>
 If the value of the 
       <b>InformationBufferLength</b> member is less than the length, in bytes, of the entire
       DOT11_CIPHER_ALGORITHM_LIST structure, the miniport driver must do the following:
 
+<ul>
+<li>
 For the 
         <i>OidRequest</i> parameter, set the 
         <b>BytesWritten</b> member to zero and the 
         <b>BytesNeeded</b> member to the length, in bytes, of the entire DOT11_CIPHER_ALGORITHM_LIST
         structure.
 
+</li>
+<li>
 Fail the query request by returning NDIS_STATUS_BUFFER_OVERFLOW from its 
         <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function.
 
+</li>
+</ul>
+</li>
+<li>
 If the value of the 
       <b>InformationBufferLength</b> member is greater than or equal to the length, in bytes, of the entire
       DOT11_CIPHER_ALGORITHM_LIST structure, the miniport driver must do the following to complete a
       successful query request:
 
+<ul>
+<li>
 For the DOT11_CIPHER_ALGORITHM_LIST structure, set the 
         <b>uNumOfEntries</b> and 
         <b>uTotalNumOfEntries</b> members to the total number of entries in the 
         <b>AlgorithmIds</b> array.
 
+</li>
+<li>
 For the 
         <i>OidRequest</i> parameter, set the 
         <b>BytesNeeded</b> member to zero and the 
@@ -159,30 +190,32 @@ For the
         
         <b>InformationBuffer</b> member.
 
+</li>
+<li>
 Return NDIS_STATUS_SUCCESS from its 
         <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function.
 
+</li>
+</ul>
+</li>
+</ul>
+
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
-</dt>
-<dt>
-<a href="netvista.oid_dot11_supported_multicast_algorithm_pair">
-   OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>
-</dt>
-<dt>
-<a href="netvista.oid_dot11_supported_unicast_algorithm_pair">
-   OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
-</dt>
-</dl>
- 
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<mshelp:link keywords="netvista.oid_dot11_supported_unicast_algorithm_pair" tabindex="0">
+   OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</mshelp:link>
+
+<mshelp:link keywords="netvista.oid_dot11_supported_multicast_algorithm_pair" tabindex="0">
+   OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</mshelp:link>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_CIPHER_ALGORITHM_LIST structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_CIPHER_ALGORITHM_LIST structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

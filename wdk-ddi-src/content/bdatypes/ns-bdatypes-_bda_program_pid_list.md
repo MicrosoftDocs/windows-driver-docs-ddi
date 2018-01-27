@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d3a96377-71f9-40ba-a15f-cacd64dcc6c4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _BDA_PROGRAM_PID_LIST, *PBDA_PROGRAM_PID_LIST, BDA_PROGRAM_PID_LIST
+ms.keywords: bdatypes/PBDA_PROGRAM_PID_LIST, stream.bda_program_pid_list, BDA_PROGRAM_PID_LIST structure [Streaming Media Devices], bdatypes/BDA_PROGRAM_PID_LIST, _BDA_PROGRAM_PID_LIST, bdaref_a78db54e-c75e-46dc-8b81-f97163569450.xml, BDA_PROGRAM_PID_LIST, PBDA_PROGRAM_PID_LIST structure pointer [Streaming Media Devices], *PBDA_PROGRAM_PID_LIST, PBDA_PROGRAM_PID_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BDA_PROGRAM_PID_LIST
-req.alt-loc: bdatypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bdatypes.h
+apiname: 
+-	BDA_PROGRAM_PID_LIST
+product: Windows
+targetos: Windows
 req.typenames: *PBDA_PROGRAM_PID_LIST, BDA_PROGRAM_PID_LIST
 ---
 
 # _BDA_PROGRAM_PID_LIST structure
 
 
-
 ## -description
+
+
 The BDA_PROGRAM_PID_LIST structure describes data of a specific program to view. This data consists of packets that are identified with packet identifiers (PID). 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BDA_PROGRAM_PID_LIST {
@@ -55,6 +65,9 @@ typedef struct _BDA_PROGRAM_PID_LIST {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ulProgramNumber
 
@@ -71,18 +84,12 @@ Number of PIDs in the <b>ulPID</b> array.
 Array of PIDs that identify packets of program data. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564298">KSPROPERTY_BDA_CA_SET_PROGRAM_PIDS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566536">KSPROPSETID_BdaCA</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564298">KSPROPERTY_BDA_CA_SET_PROGRAM_PIDS</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 797d6b0c-91a4-4923-ad40-937cfde50067
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+ms.keywords: display.dxgkcbwritedevicespace, DxgkCbWriteDeviceSpace callback function [Display Devices], DxgkCbWriteDeviceSpace, DXGKCB_WRITE_DEVICE_SPACE, DXGKCB_WRITE_DEVICE_SPACE, dispmprt/DxgkCbWriteDeviceSpace, DpFunctions_947b42ba-4121-4f21-b361-29a63278feb0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkCbWriteDeviceSpace
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DxgkCbWriteDeviceSpace
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKCB_WRITE_DEVICE_SPACE callback
 
 
-
 ## -description
+
+
 The <b>DxgkCbWriteDeviceSpace</b> function writes to a device configuration space or the expansion ROM of a display adapter.
 
 
-
 ## -prototype
+
 
 ````
 DXGKCB_WRITE_DEVICE_SPACE DxgkCbWriteDeviceSpace;
@@ -62,6 +72,9 @@ NTSTATUS DxgkCbWriteDeviceSpace(
 
 ## -parameters
 
+
+
+
 ### -param DeviceHandle [in]
 
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
@@ -73,28 +86,6 @@ The type of write transaction to be performed. This parameter must be one of the
 
 
 
-
-### -param DXGK_WHICHSPACE_BRIDGE
-
-Write to the parent bus device's configuration space.
-
-
-### -param DXGK_WHICHSPACE_CONFIG
-
-Write to the display adapter's configuration space.
-
-
-### -param DXGK_WHICHSPACE_MCH
-
-Write to the configuration space of a memory controller hub that is a peer to the adapter's parent bus.
-
-
-### -param DXGK_WHICHSPACE_ROM
-
-Write to the display adapter's expansion ROM.
-
-</dd>
-</dl>
 
 ### -param Buffer [in]
 
@@ -116,32 +107,76 @@ The number of bytes to be written.
 A pointer to a ULONG-typed variable that receives the number of bytes actually written.
 
 
+##### - DataType.DXGK_WHICHSPACE_BRIDGE
+
+Write to the parent bus device's configuration space.
+
+
+##### - DataType.DXGK_WHICHSPACE_CONFIG
+
+Write to the display adapter's configuration space.
+
+
+##### - DataType.DXGK_WHICHSPACE_ROM
+
+Write to the display adapter's expansion ROM.
+
+
+##### - DataType.DXGK_WHICHSPACE_MCH
+
+Write to the configuration space of a memory controller hub that is a peer to the adapter's parent bus.
+
+
 ## -returns
+
+
 <b>DxgkCbWriteDeviceSpace</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>  STATUS_SUCCESS</b></dt>
-</dl>  The function succeeded.
+</dl>
+</td>
+<td width="60%">
+  The function succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>  STATUS_INVALID_PARAMETER</b></dt>
-</dl>  The <i>DeviceHandle</i>, <i>DataType</i>, or <i>Buffer</i> parameter is invalid.
+</dl>
+</td>
+<td width="60%">
+  The <i>DeviceHandle</i>, <i>DataType</i>, or <i>Buffer</i> parameter is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>  STATUS_UNSUCCESSFUL</b></dt>
-</dl>  The function was unable to write the data.
+</dl>
+</td>
+<td width="60%">
+  The function was unable to write the data.
 
- 
+</td>
+</tr>
+</table> 
 
-The following code example writes a value of a specific size to the PCI configuration space.
-
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_read_device_space.md">DxgkCbReadDeviceSpace</a>
-</dt>
-</dl>
+
  
 
  

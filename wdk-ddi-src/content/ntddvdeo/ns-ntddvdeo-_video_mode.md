@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 01fad141-d023-4a3a-80ae-cb07985db8d1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VIDEO_MODE, VIDEO_MODE, *PVIDEO_MODE
+ms.keywords: VIDEO_MODE, VIDEO_MODE structure [Display Devices], _VIDEO_MODE, ntddvdeo/VIDEO_MODE, Video_Structs_7a64b36b-d8f2-411d-86e3-4fe854a94220.xml, ntddvdeo/PVIDEO_MODE, PVIDEO_MODE, PVIDEO_MODE structure pointer [Display Devices], *PVIDEO_MODE, display.video_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VIDEO_MODE
-req.alt-loc: ntddvdeo.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: VIDEO_MODE, *PVIDEO_MODE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddvdeo.h
+apiname: 
+-	VIDEO_MODE
+product: Windows
+targetos: Windows
+req.typenames: *PVIDEO_MODE, VIDEO_MODE
 ---
 
 # _VIDEO_MODE structure
 
 
-
 ## -description
+
+
 The VIDEO_MODE structure contains the requested VGA mode that an adapter should set. This structure is used in conjunction with <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_set_current_mode.md">IOCTL_VIDEO_SET_CURRENT_MODE</a>. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _VIDEO_MODE {
@@ -54,6 +64,9 @@ typedef struct _VIDEO_MODE {
 
 ## -struct-fields
 
+
+
+
 ### -field RequestedMode
 
 Is the mode that the miniport driver should set if possible. In addition, the two high-order bits can be set to request special behavior from the miniport driver as follows:
@@ -61,16 +74,12 @@ Is the mode that the miniport driver should set if possible. In addition, the tw
 
 
 
-### -field VIDEO_MODE_ZERO_MEMORY
-
-Indicates that the miniport driver should zero the video memory in conjunction with the mode set.
-
-
-### -field VIDEO_MODE_MAP_MEM_LINEAR
+##### - RequestedMode.VIDEO_MODE_MAP_MEM_LINEAR
 
 Indicates that the miniport driver should map the video memory in a linear fashion if the adapter supports such an operation.
 
-</dd>
-</dl>
 
-## -remarks
+##### - RequestedMode.VIDEO_MODE_ZERO_MEMORY
+
+Indicates that the miniport driver should zero the video memory in conjunction with the mode set.
+

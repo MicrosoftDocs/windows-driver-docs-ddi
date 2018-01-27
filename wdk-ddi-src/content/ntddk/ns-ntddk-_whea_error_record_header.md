@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 2e6476c7-d096-4756-bebb-56fe559dce6d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_ERROR_RECORD_HEADER, *PWHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER
+ms.keywords: ntddk/PWHEA_ERROR_RECORD_HEADER, _WHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER structure pointer [WHEA Drivers and Applications], WHEA_ERROR_RECORD_HEADER structure [WHEA Drivers and Applications], *PWHEA_ERROR_RECORD_HEADER, ntddk/WHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER, whearef_25871c17-6a61-422d-ba94-d63b633c7f5a.xml, whea.whea_error_record_header, WHEA_ERROR_RECORD_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_ERROR_RECORD_HEADER
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PWHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_ERROR_RECORD_HEADER
+product: Windows
+targetos: Windows
+req.typenames: WHEA_ERROR_RECORD_HEADER, *PWHEA_ERROR_RECORD_HEADER
 ---
 
 # _WHEA_ERROR_RECORD_HEADER structure
 
 
-
 ## -description
+
+
 The WHEA_ERROR_RECORD_HEADER structure describes general information about a hardware error condition.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WHEA_ERROR_RECORD_HEADER {
@@ -68,6 +78,9 @@ typedef struct _WHEA_ERROR_RECORD_HEADER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Signature
 
@@ -130,43 +143,6 @@ A GUID that identifies the notification mechanism by which an error condition is
 
 
 
-
-### -field CMC_NOTIFY_TYPE_GUID
-
-Corrected Machine Check (CMC)
-
-
-### -field CPE_NOTIFY_TYPE_GUID
-
-Corrected Platform Error (CPE)
-
-
-### -field MCE_NOTIFY_TYPE_GUID
-
-Machine Check Exception (MCE)
-
-
-### -field PCIe_NOTIFY_TYPE_GUID
-
-PCI Express (PCIe) Error
-
-
-### -field INIT_NOTIFY_TYPE_GUID
-
-INIT Error Record (INIT)
-
-
-### -field NMI_NOTIFY_TYPE_GUID
-
-Nonmaskable Interrupt (NMI)
-
-
-### -field BOOT_NOTIFY_TYPE_GUID
-
-Boot Error Record (BOOT)
-
-</dd>
-</dl>
 For error notification types that do not conform to one of the standard types in the previous list, a platform-specific GUID can be defined to identify the notification mechanism. If the notification type does not correspond to any of the standard notification types or any platform-specific notification types, this member is set to GENERIC_NOTIFY_TYPE_GUID.
 
 
@@ -178,7 +154,6 @@ The identifier of the error record. This identifier is unique only on the system
 ### -field Flags
 
 A WHEA_ERROR_RECORD_HEADER_FLAGS union that describes the error condition. The WHEA_ERROR_RECORD_HEADER_FLAGS union is defined as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -199,34 +174,6 @@ A WHEA_ERROR_RECORD_HEADER_FLAGS union that describes the error condition. The W
 </table></span></div>
 
 
-
-### -field Recovered
-
-A single bit that indicates that the operating system recovered from the error condition.
-
-
-### -field PreviousError
-
-A single bit that indicates that the error condition occurred in a previous session of the operating system.
-
-
-### -field Simulated
-
-A single bit that indicates that the error condition was simulated.
-
-
-### -field Reserved
-
-Reserved for system use.
-
-
-### -field AsULONG
-
-A ULONG representation of the contents of the WHEA_ERROR_RECORD_HEADER_FLAGS union.
-
-</dd>
-</dl>
-
 ### -field PersistenceInfo
 
 A <a href="..\ntddk\ns-ntddk-_whea_persistence_info.md">WHEA_PERSISTENCE_INFO</a> union that is used by the error record persistence interface.
@@ -237,31 +184,87 @@ A <a href="..\ntddk\ns-ntddk-_whea_persistence_info.md">WHEA_PERSISTENCE_INFO</a
 Reserved for system use.
 
 
+##### - NotifyType.PCIe_NOTIFY_TYPE_GUID
+
+PCI Express (PCIe) Error
+
+
+##### - NotifyType.CPE_NOTIFY_TYPE_GUID
+
+Corrected Platform Error (CPE)
+
+
+##### - NotifyType.BOOT_NOTIFY_TYPE_GUID
+
+Boot Error Record (BOOT)
+
+
+##### - Flags.Reserved
+
+Reserved for system use.
+
+
+##### - Flags.AsULONG
+
+A ULONG representation of the contents of the WHEA_ERROR_RECORD_HEADER_FLAGS union.
+
+
+##### - Flags.Recovered
+
+A single bit that indicates that the operating system recovered from the error condition.
+
+
+##### - NotifyType.NMI_NOTIFY_TYPE_GUID
+
+Nonmaskable Interrupt (NMI)
+
+
+##### - NotifyType.MCE_NOTIFY_TYPE_GUID
+
+Machine Check Exception (MCE)
+
+
+##### - Flags.PreviousError
+
+A single bit that indicates that the error condition occurred in a previous session of the operating system.
+
+
+##### - NotifyType.INIT_NOTIFY_TYPE_GUID
+
+INIT Error Record (INIT)
+
+
+##### - Flags.Simulated
+
+A single bit that indicates that the error condition was simulated.
+
+
+##### - NotifyType.CMC_NOTIFY_TYPE_GUID
+
+Corrected Machine Check (CMC)
+
+
 ## -remarks
+
+
 A WHEA_ERROR_RECORD_HEADER structure is contained within the <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a> structure. The WHEA_ERROR_RECORD_HEADER structure describes general information about the hardware error condition that is described by the error record.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_error_record_header_validbits.md">WHEA_ERROR_RECORD_HEADER_VALIDBITS</a>
-</dt>
-<dt>
-<a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
-</dt>
-<dt>
-<a href="..\ntddk\ns-ntddk-_whea_persistence_info.md">WHEA_PERSISTENCE_INFO</a>
-</dt>
-<dt>
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
+
 <a href="..\ntddk\ns-ntddk-_whea_revision.md">WHEA_REVISION</a>
-</dt>
-<dt>
+
+<a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
+
 <a href="..\ntddk\ns-ntddk-_whea_timestamp.md">WHEA_TIMESTAMP</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\ns-ntddk-_whea_persistence_info.md">WHEA_PERSISTENCE_INFO</a>
+
  
 
  

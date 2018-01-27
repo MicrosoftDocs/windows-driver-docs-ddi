@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 29b05fa7-0393-47df-a77e-63745c0cd1e1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SM_AddPort_IN, SM_AddPort_IN, *PSM_AddPort_IN
+ms.keywords: PSM_AddPort_IN structure pointer [Storage Devices], SM_AddPort_IN, structs-Fibre_c9c9fceb-e4ec-414c-98f8-e9867b69add5.xml, hbapiwmi/SM_AddPort_IN, _SM_AddPort_IN, SM_AddPort_IN structure [Storage Devices], *PSM_AddPort_IN, storage.sm_addport_in, hbapiwmi/PSM_AddPort_IN, PSM_AddPort_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SM_AddPort_IN
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: SM_AddPort_IN, *PSM_AddPort_IN
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	SM_AddPort_IN
+product: Windows
+targetos: Windows
+req.typenames: *PSM_AddPort_IN, SM_AddPort_IN
 ---
 
 # _SM_AddPort_IN structure
 
 
-
 ## -description
+
+
 The SM_AddPort_IN structure is used to provide input parameters to the SM_AddPort WMI method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SM_AddPort_IN {
@@ -55,6 +65,9 @@ typedef struct _SM_AddPort_IN {
 
 ## -struct-fields
 
+
+
+
 ### -field PortWWN
 
 A worldwide name (WWN) that indicates the port whose events are to be reported.
@@ -64,5 +77,3 @@ A worldwide name (WWN) that indicates the port whose events are to be reported.
 
 An event type value.
 
-
-## -remarks

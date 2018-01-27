@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 66b3c35d-681c-464a-86fa-972825bf3e97
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsGetServerSiloActiveConsoleId
+ms.keywords: PsGetServerSiloActiveConsoleId, ntddk/PsGetServerSiloActiveConsoleId, kernel.psgetserversiloactiveconsoleid, PsGetServerSiloActiveConsoleId method [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PsGetServerSiloActiveConsoleId
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	PsGetServerSiloActiveConsoleId
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # PsGetServerSiloActiveConsoleId function
 
 
-
 ## -description
+
+
 Gets the active console for the current server silo context
     for the supplied thread.
 			
             
 
 
-
 ## -syntax
+
 
 ````
 ULONG  PsGetServerSiloActiveConsoleId(
@@ -57,13 +67,17 @@ ULONG  PsGetServerSiloActiveConsoleId(
 
 ## -parameters
 
-### -param Silo 
+
+
+
+### -param Silo
 
 A pointer to the silo of the job. 
 
 
 ## -returns
+
+
 Returns the session id for the active console session.
 
 
-## -remarks

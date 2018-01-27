@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 40e305b3-e91c-4227-99e7-dbb939082f54
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagTRANSPORTBASICPARMS, TRANSPORTBASICPARMS, *PTRANSPORTBASICPARMS
+ms.keywords: TRANSPORTBASICPARMS, vidcapstruct_5a5cdf6a-56f3-43ad-9bab-e5d406052707.xml, ksmedia/TRANSPORTBASICPARMS, stream.transportbasicparms, *PTRANSPORTBASICPARMS, PTRANSPORTBASICPARMS, PTRANSPORTBASICPARMS structure pointer [Streaming Media Devices], ksmedia/PTRANSPORTBASICPARMS, tagTRANSPORTBASICPARMS, TRANSPORTBASICPARMS structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TRANSPORTBASICPARMS
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	TRANSPORTBASICPARMS
+product: Windows
+targetos: Windows
 req.typenames: TRANSPORTBASICPARMS, *PTRANSPORTBASICPARMS
 ---
 
 # tagTRANSPORTBASICPARMS structure
 
 
-
 ## -description
+
+
 The TRANSPORTBASICPARMS structure is defined but not used.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagTRANSPORTBASICPARMS {
@@ -83,10 +93,12 @@ typedef struct tagTRANSPORTBASICPARMS {
 
 ## -struct-fields
 
+
+
+
 ### -field TimeFormat
 
 Indicates the basic time format.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -142,14 +154,12 @@ Binary coded decimal, representing tracks, minutes, seconds, and frames
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field TimeReference
 
 Indicates the basic time reference.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -185,8 +195,7 @@ Index
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Superimpose
@@ -197,7 +206,6 @@ Indicates whether to enable or disable the onscreen display. Specify <b>TRUE</b>
 ### -field EndStopAction
 
 Specifies the stop action.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -233,14 +241,12 @@ Freeze/pause
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field RecordFormat
 
 Indicates the basic record format.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -276,8 +282,7 @@ Extended play
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field StepFrames
@@ -338,7 +343,6 @@ Specifies the color frame servo.
 ### -field ServoRef
 
 Specifies the servo ref.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -384,8 +388,7 @@ Auto
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field WarnGenlock
@@ -396,7 +399,6 @@ Indicates the warn genlock.
 ### -field SetTracking
 
 Specifies the tracking.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -432,8 +434,7 @@ Reset
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field VolumeName
@@ -492,4 +493,8 @@ Indicates the timer stop-time.
 
 
 ## -remarks
-Any ED_<i>Xxx</i> tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.</p>
+
+
+Any ED_<i>Xxx</i> tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.
+
+

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: acb0fc1d-e360-4cb9-9b3b-7d8d03146cfd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIVERTEXELEMENT, D3DDDIVERTEXELEMENT
+ms.keywords: _D3DDDIVERTEXELEMENT, d3dumddi/D3DDDIVERTEXELEMENT, D3D_other_Structs_7f1e4f94-3964-4deb-b3b0-1b47f8953dfa.xml, D3DDDIVERTEXELEMENT structure [Display Devices], D3DDDIVERTEXELEMENT, display.d3dddivertexelement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIVERTEXELEMENT
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIVERTEXELEMENT
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIVERTEXELEMENT
 ---
 
 # _D3DDDIVERTEXELEMENT structure
 
 
-
 ## -description
+
+
 The D3DDDIVERTEXELEMENT structure describes an element in the array for a vertex shader declaration.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIVERTEXELEMENT {
@@ -58,6 +68,9 @@ typedef struct _D3DDDIVERTEXELEMENT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Stream
 
@@ -89,15 +102,10 @@ typedef struct _D3DDDIVERTEXELEMENT {
 [in] A modification to the usage data that is specified in the <b>Usage</b> member. This modification enables multiple usage types to be specified.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvertexshaderdecl.md">CreateVertexShaderDecl</a>
-</dt>
-</dl>
+
  
 
  

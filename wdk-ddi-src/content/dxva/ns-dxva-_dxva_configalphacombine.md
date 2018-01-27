@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 588d5e73-4ec2-486b-914f-7076949653ad
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_ConfigAlphaCombine, DXVA_ConfigAlphaCombine, *LPDXVA_ConfigAlphaCombine
+ms.keywords: dxva/LPDXVA_ConfigAlphaCombine, LPDXVA_ConfigAlphaCombine structure pointer [Display Devices], LPDXVA_ConfigAlphaCombine, DXVA_ConfigAlphaCombine, dxvaref_3bd67a73-c786-412c-90ad-c546ae2e4645.xml, DXVA_ConfigAlphaCombine structure [Display Devices], _DXVA_ConfigAlphaCombine, display.dxva_configalphacombine, *LPDXVA_ConfigAlphaCombine, dxva/DXVA_ConfigAlphaCombine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVA_ConfigAlphaCombine
-req.alt-loc: dxva.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxva.h
+apiname: 
+-	DXVA_ConfigAlphaCombine
+product: Windows
+targetos: Windows
 req.typenames: DXVA_ConfigAlphaCombine, *LPDXVA_ConfigAlphaCombine
 ---
 
 # _DXVA_ConfigAlphaCombine structure
 
 
-
 ## -description
+
+
 The DXVA_ConfigAlphaCombine structure is sent by the host decoder to the accelerator to set the configuration for alpha-blending combination operations.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVA_ConfigAlphaCombine {
@@ -59,6 +69,9 @@ typedef struct _DXVA_ConfigAlphaCombine {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwFunction
 
@@ -101,15 +114,10 @@ Indicates whether alpha blending is supported in graphic image resizing. A value
 Specifies whether a whole-plane alpha opacity value can be applied to the graphic image. A value of 1 indicates that a whole-plane alpha can be applied; a value of zero indicates that it cannot.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_blendcombination.md">DXVA_BlendCombination</a>
-</dt>
-</dl>
+
  
 
  

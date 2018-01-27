@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8a6a930a-4267-47be-be00-ab9c102560c4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WmiQueryTraceInformation
+ms.keywords: WmiQueryTraceInformation routine [Kernel-Mode Driver Architecture], k902_c4cd7b60-d605-465f-b018-f82b6d1144de.xml, WmiQueryTraceInformation, wdm/WmiQueryTraceInformation, kernel.wmiquerytraceinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WmiQueryTraceInformation
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	WmiQueryTraceInformation
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # WmiQueryTraceInformation function
 
 
-
 ## -description
+
+
 The <b>WmiQueryTraceInformation</b> routine returns information about a <a href="https://msdn.microsoft.com/72505a9a-830a-4529-ba73-31af0fedfeec">WMI event trace</a>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS WmiQueryTraceInformation(
@@ -58,6 +68,9 @@ NTSTATUS WmiQueryTraceInformation(
 
 
 ## -parameters
+
+
+
 
 ### -param TraceInformationClass [in]
 
@@ -85,124 +98,280 @@ A pointer to the query-specific input information that a caller supplies. If cal
 
 
 ## -returns
+
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>Success
+</dl>
+</td>
+<td width="60%">
+Success
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INFO_LENGTH_MISMATCH</b></dt>
-</dl>The size of the <i>TraceInformation</i> buffer is not equal to the required size for the specified event trace information.
+</dl>
+</td>
+<td width="60%">
+The size of the <i>TraceInformation</i> buffer is not equal to the required size for the specified event trace information.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>The trace handle specified by the <b>HistoricalContext</b> member of the (PWNODE_HEADER)<i>Buffer</i> is not valid.
+</dl>
+</td>
+<td width="60%">
+The trace handle specified by the <b>HistoricalContext</b> member of the (PWNODE_HEADER)<i>Buffer</i> is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_INFO_CLASS</b></dt>
-</dl>The specified type of event trace information is not valid.
+</dl>
+</td>
+<td width="60%">
+The specified type of event trace information is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The name of the event trace, supplied with a query to return a trace handle given its name, is not valid.
+</dl>
+</td>
+<td width="60%">
+The name of the event trace, supplied with a query to return a trace handle given its name, is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER_MIX</b></dt>
-</dl>The caller did not supply the information required for the specified event trace information.
+</dl>
+</td>
+<td width="60%">
+The caller did not supply the information required for the specified event trace information.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_MORE_ENTRIES</b></dt>
-</dl>The <i>TraceInformation</i> buffer is not large enough to hold an array of all the valid event trace handles.
+</dl>
+</td>
+<td width="60%">
+The <i>TraceInformation</i> buffer is not large enough to hold an array of all the valid event trace handles.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>A global logger was not found.
+</dl>
+</td>
+<td width="60%">
+A global logger was not found.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-For each type of event trace information specified by <i>TraceInformationClass</i>, the following table provides:
 
+
+For each type of event trace information specified by <i>TraceInformationClass</i>, the following table provides:
+<ul>
+<li>
 Input requirements
 
+</li>
+<li>
 Information that <b>WmiQueryTraceInformation</b> returns in the <i>TraceInformation</i> buffer
 
+</li>
+</ul><table>
+<tr>
+<th>Value of<i> TraceClassInformation </i></th>
+<th>Input requirements</th>
+<th>Information returned</th>
+</tr>
+<tr>
+<td>
 <b>TraceIdClass</b>
 
+</td>
+<td>
 <i>TraceInformationLength</i> is equal to the value of <b>sizeof</b>(ULONG).
 
 The size, in bytes of the <i>TraceInformation</i> buffer is greater than or equal to the value of <b>sizeof</b>(ULONG).
 
 The <b>HistoricalContext</b> member of (PWNODE_HEADER)<i>Buffer </i>specifies an event trace handle.
 
+</td>
+<td>
 *(PULONG)<i>TraceInformation</i> is set to the logger ID of the event trace handle.
 
+</td>
+</tr>
+<tr>
+<td>
 <b>TraceHandleClass</b>
 
+</td>
+<td>
 <i>TraceInformationLength</i> is equal to the value of <b>sizeof</b>(TRACEHANDLE).
 
 The size, in bytes of the <i>TraceInformation</i> buffer must be greater than or equal to the value of <b>sizeof</b>(TRACEHANDLE).
 
 *(PULONG)<i>Buffer</i> is set to a logger ID. 
 
+</td>
+<td>
 *(PTRACEHANDLE)<i>TraceInformation</i> is set to an event trace handle for the specified logger. If the specified logger ID is zero, an event trace handle for the kernel logger is returned.
 
+</td>
+</tr>
+<tr>
+<td>
 <b>TraceEnableFlagsClass</b>
 
+</td>
+<td>
 <i>TraceInformationLength</i> is greater than or equal to the value of <b>sizeof</b>(ULONG). 
 
 The size, in bytes of the <i>TraceInformation</i> buffer must be greater than or equal to the value of <b>sizeof</b>(ULONG).
 
+The <b>HistoricalContext</b> member of (PWNODE_HEADER)<i>Buffer </i>specifies an event trace handle.
+
+</td>
+<td>
 *(PULONG)<i>TraceInformation</i> is set to the enable flags that are set for the specified event trace handle.
 
+</td>
+</tr>
+<tr>
+<td>
 <b>TraceEnableLevelClass</b>
 
+</td>
+<td>
 <i>TraceInformationLength</i> is set greater than or equal to the value of <b>sizeof</b>(ULONG). 
 
+The size, in bytes of the <i>TraceInformation</i> buffer must be greater than or equal to the value of <b>sizeof</b>(ULONG).
+
+The <b>HistoricalContext</b> member of (PWNODE_HEADER)<i>Buffer </i>specifies an event trace handle.
+
+</td>
+<td>
 *(PULONG)<i>TraceInformation</i> is set to the level for the specified event trace handle.
 
+</td>
+</tr>
+<tr>
+<td>
 <b>GlobalLoggerHandleClass</b>
 
+</td>
+<td>
+<i>TraceInformationLength</i> is equal to the value of <b>sizeof</b>(TRACEHANDLE).
+
+The size, in bytes of the <i>TraceInformation</i> buffer must be greater than or equal to the value of <b>sizeof</b>(TRACEHANDLE).
+
+</td>
+<td>
 *(PTRACEHANDLE)<i>TraceInformation</i> is set to an event trace handle for the global logger.
 
+</td>
+</tr>
+<tr>
+<td>
 <b>EventLoggerHandleClass</b>
 
+</td>
+<td>
 For internal use only.
 
+</td>
+<td>
+For internal use only.
+
+</td>
+</tr>
+<tr>
+<td>
 <b>AllLoggerHandlesClass</b>
 
+</td>
+<td>
 <i>TraceInformationLength</i> is set to the size, bytes, of an array of <i>m</i> TRACEHANDLE values.
 
 The size, in bytes of the <i>TraceInformation</i> buffer must be greater than or equal to the value of (<i>m</i>*<b>sizeof</b>(TRACEHANDLE)).
 
+</td>
+<td>
 The <i>TraceInformation</i> buffer contains an array of <i>n</i> trace handles, where <i>n</i> is the minimum of <i>m</i>, the number of caller-supplied event trace handles, and the number of valid event trace handles. The routine returns a status of STATUS_MORE_ENTRIES if the <i>TraceInformation</i> buffer is too small to hold all trace handles.
 
+</td>
+</tr>
+<tr>
+<td>
 <b>TraceHandleByNameClass</b>
 
+</td>
+<td>
 <i>TraceInformationLength</i> is set to the value of <b>sizeof</b>(TRACEHANDLE).
 
 The size, in bytes, of the <i>TraceInformation</i> buffer must be greater than or equal to the value of <b>sizeof</b>(TRACEHANDLE).
 
 (PUNICODE_STRING)<i>Buffer</i> specifies a friendly trace name in Unicode format.
 
+</td>
+<td>
 *(PTRACEHANDLE)<i>TraceInformation</i> is set to the event trace handle associated with the specified friendly name.
+
+</td>
+</tr>
+</table> 
 
 If the caller supplies a non-<b>NULL</b> <i>RequiredLength</i> pointer, <b>WmiQueryTraceInformation</b> also returns the required length for the specified event trace information.
 
 <b>WmiQueryTraceInformation</b> runs at the IRQL of the caller.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWmiWriteEvent</a>
-</dt>
-<dt>
-<a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a>
-</dt>
-<dt>
-<a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a>
+
+<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWmiWriteEvent</a>
+
 <a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
-</dt>
-</dl>
+
+<a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ae95a22d-7b5b-4854-b2f5-76b46cf268f9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IPnpCallback, IPnpCallback::OnQueryRemove, OnQueryRemove
+ms.keywords: OnQueryRemove method, IPnpCallback interface, wdf.ipnpcallback_onqueryremove, IPnpCallback interface, OnQueryRemove method, wudfddi/IPnpCallback::OnQueryRemove, IPnpCallback, OnQueryRemove method, OnQueryRemove, UMDFDeviceObjectRef_27404593-38b6-46cc-8dcc-809d159822b6.xml, umdf.ipnpcallback_onqueryremove, IPnpCallback::OnQueryRemove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPnpCallback.OnQueryRemove
-req.alt-loc: Wudfddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Wudfddi.h
+apiname: 
+-	IPnpCallback.OnQueryRemove
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IPnpCallback::OnQueryRemove method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>OnQueryRemove</b> method notifies a driver before a device is removed from a computer. 
 
 
-
 ## -syntax
+
 
 ````
 HRESULT OnQueryRemove(
@@ -57,37 +67,42 @@ HRESULT OnQueryRemove(
 
 ## -parameters
 
+
+
+
 ### -param pWdfDevice [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface for the device object of the device that will be removed.
 
 
 ## -returns
+
+
 If the driver determines that the device can be stopped and removed, the <b>OnQueryRemove</b> callback method must return S_OK or another status code for which SUCCEEDED(status) equals <b>TRUE</b>. Otherwise, it must return a status code for which SUCCEEDED(status) equals <b>FALSE</b>.   HRESULT error codes are defined in Winerror.h. Do not return HRESULT_FROM_NT(STATUS_NOT_SUPPORTED).
 
 This method must use the HRESULT_FROM_NT macro to return a specific HRESULT value to  return status to a kernel-mode client. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-kernel-mode-clients-in-umdf-1-x-drivers">Supporting Kernel-mode Clients</a>.
 
 
+
 ## -remarks
+
+
 A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a> interface when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
 
 The framework does not synchronize the <b>OnQueryRemove</b> callback function with other PnP and power management callback functions.  
 
-For more information about the <b>OnQueryRemove</b> callback method, see <a href="https://msdn.microsoft.com/85e69401-0128-4641-aa0f-fd7c4f22f395">A User Unplugs a Device</a>.
+For more information about the <b>OnQueryRemove</b> callback method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/a-user-unplugs-a-device">A User Unplugs a Device</a>.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
-</dt>
-<dt>
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-</dt>
-</dl>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ba027f9-3671-461c-bae6-2da0059cf0ab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_CURRENTDISPLAYMODE, D3DKMT_CURRENTDISPLAYMODE
+ms.keywords: OpenGL_Structs_9af2b5dc-c342-4644-a3db-db9649b1fc9c.xml, _D3DKMT_CURRENTDISPLAYMODE, D3DKMT_CURRENTDISPLAYMODE structure [Display Devices], display.d3dkmt_currentdisplaymode, d3dkmthk/D3DKMT_CURRENTDISPLAYMODE, D3DKMT_CURRENTDISPLAYMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_CURRENTDISPLAYMODE
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_CURRENTDISPLAYMODE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_CURRENTDISPLAYMODE
 ---
 
 # _D3DKMT_CURRENTDISPLAYMODE structure
 
 
-
 ## -description
+
+
 The D3DKMT_CURRENTDISPLAYMODE structure describes the current display mode of the specified video source. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_CURRENTDISPLAYMODE {
@@ -55,6 +65,9 @@ typedef struct _D3DKMT_CURRENTDISPLAYMODE {
 
 ## -struct-fields
 
+
+
+
 ### -field VidPnSourceId
 
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the display mode applies to.
@@ -65,18 +78,12 @@ typedef struct _D3DKMT_CURRENTDISPLAYMODE {
 [out] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a> structure that represents the current display mode.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
-</dt>
-</dl>
+
  
 
  

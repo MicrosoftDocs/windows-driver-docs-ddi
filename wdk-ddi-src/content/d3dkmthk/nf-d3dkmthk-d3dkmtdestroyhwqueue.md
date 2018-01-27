@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 30687710-A813-4D3C-8612-9236D34EB9EB
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTDestroyHwQueue
+ms.keywords: D3DKMTDestroyHwQueue, display.d3dkmtdestroyhwqueue, D3DKMTDestroyHwQueue function [Display Devices], d3dkmthk/D3DKMTDestroyHwQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTDestroyHwQueue
-req.alt-loc: tbd
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Tbd
 req.dll: Tbd
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	tbd
+apiname: 
+-	D3DKMTDestroyHwQueue
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTDestroyHwQueue function
 
 
-
 ## -description
+
+
 Used to destroy a hardware queue.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS APIENTRY D3DKMTDestroyHwQueue(
@@ -54,13 +64,23 @@ NTSTATUS APIENTRY D3DKMTDestroyHwQueue(
 
 ## -parameters
 
-### -param destroyHwContext [in]
+
+
+
+### -param D3DKMT_DESTROYHWQUEUE
+
+TBD
+
+
+
+#### - destroyHwContext [in]
 
 A structure holding the information needed to destroy a hardware queue.
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS if called successfully. 
 
 
-## -remarks

@@ -7,8 +7,8 @@ old-location: debugger\debug_last_event_info_exit_process.htm
 old-project: debugger
 ms.assetid: B4AFCD4C-0415-4EC4-BC10-D98F3AB409C5
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _DEBUG_LAST_EVENT_INFO_EXIT_PROCESS, DEBUG_LAST_EVENT_INFO_EXIT_PROCESS, *PDEBUG_LAST_EVENT_INFO_EXIT_PROCESS
+ms.date: 1/19/2018
+ms.keywords: dbgeng/DEBUG_LAST_EVENT_INFO_EXIT_PROCESS, debugger.debug_last_event_info_exit_process, DEBUG_LAST_EVENT_INFO_EXIT_PROCESS, dbgeng/PDEBUG_LAST_EVENT_INFO_EXIT_PROCESS, PDEBUG_LAST_EVENT_INFO_EXIT_PROCESS structure pointer [Windows Debugging], PDEBUG_LAST_EVENT_INFO_EXIT_PROCESS, *PDEBUG_LAST_EVENT_INFO_EXIT_PROCESS, _DEBUG_LAST_EVENT_INFO_EXIT_PROCESS, DEBUG_LAST_EVENT_INFO_EXIT_PROCESS structure [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DEBUG_LAST_EVENT_INFO_EXIT_PROCESS
-req.alt-loc: DbgEng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	DbgEng.h
+apiname: 
+-	DEBUG_LAST_EVENT_INFO_EXIT_PROCESS
+product: Windows
+targetos: Windows
 req.typenames: DEBUG_LAST_EVENT_INFO_EXIT_PROCESS, *PDEBUG_LAST_EVENT_INFO_EXIT_PROCESS
 ---
 
 # _DEBUG_LAST_EVENT_INFO_EXIT_PROCESS structure
 
 
-
 ## -description
+
+
 Describes the exit process of the last event.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DEBUG_LAST_EVENT_INFO_EXIT_PROCESS {
@@ -54,9 +64,10 @@ typedef struct _DEBUG_LAST_EVENT_INFO_EXIT_PROCESS {
 
 ## -struct-fields
 
+
+
+
 ### -field ExitCode
 
 The exit code of the process.
 
-
-## -remarks

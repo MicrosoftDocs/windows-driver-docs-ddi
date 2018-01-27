@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2A3A1723-989E-44FD-9727-7A01218652D1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBFN_USB_STRING, *PUSBFN_USB_STRING, USBFN_USB_STRING
+ms.keywords: buses.ioctl_internal_usbfn_set_power_filter_exit_lpm, IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM control code [Buses], IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM, usbfnioctl/IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM
-req.alt-loc: usbfnioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbfnioctl.h
+apiname: 
+-	IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM
+product: Windows
+targetos: Windows
 req.typenames: *PUSBFN_USB_STRING, USBFN_USB_STRING
 req.product: Windows 10 or later.
 ---
@@ -38,55 +47,79 @@ req.product: Windows 10 or later.
 # IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
-Do not use.
 
+
+Do not use.
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 None.
 
 
 ### -input-buffer-length
+
 None.
 
 
 ### -output-buffer
+
 None.
 
 
 ### -output-buffer-length
+
 None.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
+
+Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
+Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+For more information, see [XREF-LINK:NTSTATUS Values].
+
 
 
 ## -remarks
+
+
 This request must be sent after sending the  <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_activate_usb_bus.md">IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS</a> request.
 
 Upon receiving this request, the filter driver
     communicates with the hardware and brings the controller out of LPM.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn379336">Link Power management in USB 3.0 Hardware</a>
-</dt>
-</dl>
+
  
 
  

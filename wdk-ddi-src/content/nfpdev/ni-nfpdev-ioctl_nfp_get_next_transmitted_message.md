@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 3E8B47B5-D774-4D37-BA57-FAB49C9DE9A3
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: _SECURE_ELEMENT_TECH_ROUTING_INFO, SECURE_ELEMENT_TECH_ROUTING_INFO, *PSECURE_ELEMENT_TECH_ROUTING_INFO
+ms.keywords: nfpdrivers.ioctl_nfp_get_next_transmitted_message, IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE, _IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE, IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE control code [Near-Field Proximity Drivers], IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE, nfpdev/IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE
-req.alt-loc: nfpdev.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,55 +29,99 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: SECURE_ELEMENT_TECH_ROUTING_INFO, *PSECURE_ELEMENT_TECH_ROUTING_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	nfpdev.h
+apiname: 
+-	IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE
+product: Windows
+targetos: Windows
+req.typenames: *PSECURE_ELEMENT_TECH_ROUTING_INFO, SECURE_ELEMENT_TECH_ROUTING_INFO
 ---
 
 # IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
-A client interested in receiving notifications that a message has been transmitted will send the <b>IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE</b> request to the proximity driver.
 
+
+A client interested in receiving notifications that a message has been transmitted will send the <b>IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE</b> request to the proximity driver.
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 None
 
 
 ### -input-buffer-length
 
+
 <text></text>
 
+
+
 ### -output-buffer
+
 None
 
 
 ### -output-buffer-length
 
+
 <text></text>
+
+
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
+
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 For more information, see [XREF-LINK:NTSTATUS Values].
 
+
+
 ## -remarks
+
+
+<ul>
+<li>
  A client application will send this IOCTL in a control loop to the publication handle.  Two separate transmissions of the same message would result in triggering two events.
 
+</li>
+<li>
 The client should send another IOCTL each time the pended one is completed.  The driver MUST use appropriate locks to guarantee that the number of successful completions of this IOCTL equates to the number of times the publication has been transmitted.
 
+</li>
+<li>
 The following actions are required when using this IOCTL:<ul>
 <li>
 If this IOCTL is received on a handle that hasn’t previously succeeded an <a href="..\nfpdev\ni-nfpdev-ioctl_nfp_set_payload.md">IOCTL_NFP_SET_PAYLOAD</a>, the driver MUST complete it with STATUS_INVALID_DEVICE_STATE.
@@ -126,32 +168,16 @@ The driver MUST support CancelIo of the pended IOCTL.
 </ul>
 
 
-If this IOCTL is received on a handle that hasn’t previously succeeded an <a href="..\nfpdev\ni-nfpdev-ioctl_nfp_set_payload.md">IOCTL_NFP_SET_PAYLOAD</a>, the driver MUST complete it with STATUS_INVALID_DEVICE_STATE.
-
-The driver must maintain the equivalent of a “CompleteEventImmediately” counter (<b>ULONG</b> or larger) in the publication file handle.
-
-	When this IOCTL is received in the driver:
-
-If the counter is zero, then the driver MUST pend the IOCTL for later completion.
-
-	If the counter is greater than zero, then the driver MUST decrement the counter by one and complete the IOCTL with STATUS_SUCCESS immediately.
-
-If the publication is transmitted and no IOCTL is currently pended, the driver MUST increment the “CompleteEventImmediately” counter by one.
-
-	If the publication is transmitted while there is a pended IOCTL available, the driver MUST complete the pended IRP with STATUS_SUCCESS and NOT increment the “CompleteEventImmediately” counter.
-
-	If the IOCTL contains an input or output buffer the driver MUST complete the IOCTL with STATUS_INVALID_PARAMETER.
-
-	If this IOCTL is received while another is currently pended in the publication handle, the second one (or later) MUST be completed with STATUS_INVALID_DEVICE_STATE.
-
-The driver MUST support CancelIo of the pended IOCTL.
+</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt><a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) overall design guide</a></dt>
-<dt><a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a></dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) overall design guide</a>
+
  
 
  

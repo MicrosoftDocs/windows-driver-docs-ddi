@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 87af450c-0f62-481d-8c7d-24c77f221fc5
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidRegisterMinidriver
+ms.keywords: hid.ioctl_hid_deactivate_device, IOCTL_HID_DEACTIVATE_DEVICE control code [Human Input Devices], IOCTL_HID_DEACTIVATE_DEVICE, hidport/IOCTL_HID_DEACTIVATE_DEVICE, hidioreq_35c75bec-696b-4043-bdb4-2425ff0ad6db.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_HID_DEACTIVATE_DEVICE
-req.alt-loc: hidport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,67 +29,95 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hidport.h
+apiname: 
+-	IOCTL_HID_DEACTIVATE_DEVICE
+product: Windows
+targetos: Windows
+req.typenames: *PUSAGE_AND_PAGE, USAGE_AND_PAGE
 ---
 
 # IOCTL_HID_DEACTIVATE_DEVICE IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 The IOCTL_HID_DEACTIVATE_DEVICE request deactivates a HIDClass device, which causes it to stop operations and terminate all outstanding I/O requests.
 
 For general information about HIDClass devices, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
 
 
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 <b>Parameters.DeviceIoControl.Type3InputBuffer</b> contains the collection identifier, as a ULONG value, of the collection that is ceasing operations.
 
 
 ### -input-buffer-length
+
 The length of a ULONG value.
 
 
 ### -output-buffer
+
 None.
 
 
 ### -output-buffer-length
+
 None
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 
        HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp-&gt;IoStatus</b>:
-
+<ul>
+<li>
 <b>Information</b> is set to zero.
 
+</li>
+<li>
 <b>Status</b> is set to STATUS_SUCCESS if the transfer completed without error. Otherwise, it is set to an appropriate NTSTATUS error code.
 
-HID minidrivers that call other drivers with this IRP to carry out the I/O to their device should ensure that the <b>Information</b> field of the status block is zero and must not change the contents of the <b>Status</b> field.
-
-
-## -remarks
+</li>
+</ul>HID minidrivers that call other drivers with this IRP to carry out the I/O to their device should ensure that the <b>Information</b> field of the status block is zero and must not change the contents of the <b>Status</b> field.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\hidport\ni-hidport-ioctl_hid_activate_device.md">IOCTL_HID_ACTIVATE_DEVICE</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: ae59daf6-da7b-4b04-bb5c-dfd353b937a0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_QueryBusTime
+ms.keywords: usbfunc_2911ce15-3106-4c66-95c8-52ff57318131.xml, usbdlib/USBD_QueryBusTime, USBD_QueryBusTime routine [Buses], USBD_QueryBusTime, buses.usbd_querybustime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Deprecated.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBD_QueryBusTime
-req.alt-loc: Usbd.lib,Usbd.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Usbd.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Usbd.lib
+-	Usbd.dll
+apiname: 
+-	USBD_QueryBusTime
+product: Windows
+targetos: Windows
 req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # USBD_QueryBusTime function
 
 
-
 ## -description
+
+
 The <b>USBD_QueryBusTime</b> routine has been deprecated in Windows XP and later operating systems. Do not use. 
 
 See URB_FUNCTION_GET_CURRENT_FRAME_NUMBER for equivalent functionality that is supported on all versions of Windows.
 
 
-
 ## -syntax
+
 
 ````
 void USBD_QueryBusTime(
@@ -57,6 +68,9 @@ void USBD_QueryBusTime(
 
 
 ## -parameters
+
+
+
 
 ### -param RootHubPdo [in]
 
@@ -73,19 +87,18 @@ Obsolete.
 
 
 ## -returns
+
+
 This routine does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
+
 <a href="..\usb\ns-usb-_urb_get_current_frame_number.md">URB_GET_CURRENT_FRAME_NUMBER</a>
-</dt>
-<dt><a href="usb_reference.htm#client">USB device driver programming reference</a></dt>
-</dl>
+
  
 
  

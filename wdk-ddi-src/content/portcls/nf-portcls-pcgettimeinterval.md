@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 22afd9b9-9bed-45b0-afd8-1a5a34b9e6ad
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcGetTimeInterval
+ms.keywords: audpc-routines_a68c0cf5-01b7-4e01-a719-f0bdea2d367f.xml, PcGetTimeInterval, audio.pcgettimeinterval, portcls/PcGetTimeInterval, PcGetTimeInterval function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The PortCls system driver implements the PcGetTimeInt
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PcGetTimeInterval
-req.alt-loc: Portcls.lib,Portcls.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Portcls.lib
+-	Portcls.dll
+apiname: 
+-	PcGetTimeInterval
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # PcGetTimeInterval function
 
 
-
 ## -description
+
+
 The <b>PcGetTimeInterval</b> function returns the time elapsed since a specified time. Time is measured in 100-nanosecond units.
 
 
-
 ## -syntax
+
 
 ````
 ULONGLONG PcGetTimeInterval(
@@ -54,16 +65,24 @@ ULONGLONG PcGetTimeInterval(
 
 ## -parameters
 
+
+
+
 ### -param Since [in]
 
 Specifies the time from which to measure the interval. Typically, this function is called once with a "since" of zero to get the current time, and is called subsequently with a "since" of the recorded current time to get time intervals from that time.
 
 
 ## -returns
+
+
 <b>PcGetTimeInterval</b> returns the current time minus <i>Since</i>.
 
 
+
 ## -remarks
+
+
 The value that is specified in parameter <i>Since</i> is measured in 100-nanosecond units. If <i>Since</i> is zero, the time returned is the number of 100-nanosecond ticks since January 1, 1601. The time units are the same as those used to specify the system time in the <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a> function.
 
 The following macros from portcls.h are useful for converting seconds, milliseconds, and microseconds to 100-millisecond units:
@@ -75,16 +94,32 @@ GTI_MILLISECONDS
 GTI_MICROSECONDS
 
 This function can be used for timing purposes by first saving the current time,
-
-and then checking to see whether the required interval has passed
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>  ULONGLONG ullTime = PcGetTimeInterval(0);</pre>
+</td>
+</tr>
+</table></span></div>and then checking to see whether the required interval has passed
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>  if (PcGetTimeInterval(ullTime) &gt;= GTI_MILLISECONDS(5))</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
-</dt>
-</dl>
+
  
 
  

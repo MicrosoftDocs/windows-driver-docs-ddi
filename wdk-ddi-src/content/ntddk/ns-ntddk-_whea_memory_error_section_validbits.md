@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 53ac65ff-56fe-411d-b0d1-174fc875a786
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_MEMORY_ERROR_SECTION_VALIDBITS, WHEA_MEMORY_ERROR_SECTION_VALIDBITS, *PWHEA_MEMORY_ERROR_SECTION_VALIDBITS, *PWHEA_MEMORY_ERROR_VALIDBITS, WHEA_MEMORY_ERROR_VALIDBITS
+ms.keywords: WHEA_MEMORY_ERROR_VALIDBITS, whea.whea_memory_error_section_validbits, _WHEA_MEMORY_ERROR_SECTION_VALIDBITS, *PWHEA_MEMORY_ERROR_VALIDBITS, PWHEA_MEMORY_ERROR_SECTION_VALIDBITS union pointer [WHEA Drivers and Applications], WHEA_MEMORY_ERROR_SECTION_VALIDBITS union [WHEA Drivers and Applications], *PWHEA_MEMORY_ERROR_SECTION_VALIDBITS, WHEA_MEMORY_ERROR_SECTION_VALIDBITS, whearef_49eab340-c05f-4201-a45d-8602ec121ef3.xml, PWHEA_MEMORY_ERROR_SECTION_VALIDBITS, ntddk/PWHEA_MEMORY_ERROR_SECTION_VALIDBITS, ntddk/WHEA_MEMORY_ERROR_SECTION_VALIDBITS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_MEMORY_ERROR_SECTION_VALIDBITS
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: WHEA_MEMORY_ERROR_SECTION_VALIDBITS, *PWHEA_MEMORY_ERROR_SECTION_VALIDBITS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_MEMORY_ERROR_SECTION_VALIDBITS
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_MEMORY_ERROR_SECTION_VALIDBITS, WHEA_MEMORY_ERROR_SECTION_VALIDBITS
 ---
 
 # _WHEA_MEMORY_ERROR_SECTION_VALIDBITS structure
 
 
-
 ## -description
+
+
 The WHEA_MEMORY_ERROR_SECTION_VALIDBITS union describes which members of a <a href="..\ntddk\ns-ntddk-_whea_memory_error_section.md">WHEA_MEMORY_ERROR_SECTION</a> structure contain valid data.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _WHEA_MEMORY_ERROR_SECTION_VALIDBITS {
@@ -72,84 +82,92 @@ typedef union _WHEA_MEMORY_ERROR_SECTION_VALIDBITS {
 
 ## -struct-fields
 
-### -field ErrorStatus
-
-A single bit that indicates that the <b>ErrorStatus</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
 
 
-### -field PhysicalAddress
 
-A single bit that indicates that the <b>PhysicalAddress</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+### -field DUMMYSTRUCTNAME
 
-
-### -field PhysicalAddressMask
-
-A single bit that indicates that the <b>PhysicalAddressMask</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+ 
 
 
-### -field Node
+### -field DUMMYSTRUCTNAME.ErrorStatus
 
-A single bit that indicates that the <b>Node</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
-
-
-### -field Card
-
-A single bit that indicates that the <b>Card</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+ 
 
 
-### -field Module
+### -field DUMMYSTRUCTNAME.PhysicalAddress
 
-A single bit that indicates that the <b>Module</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
-
-
-### -field Bank
-
-A single bit that indicates that the <b>Bank</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+ 
 
 
-### -field Device
+### -field DUMMYSTRUCTNAME.PhysicalAddressMask
 
-A single bit that indicates that the <b>Device</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
-
-
-### -field Row
-
-A single bit that indicates that the <b>Row</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+ 
 
 
-### -field Column
+### -field DUMMYSTRUCTNAME.Node
 
-A single bit that indicates that the <b>Column</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
-
-
-### -field BitPosition
-
-A single bit that indicates that the <b>BitPosition</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+ 
 
 
-### -field RequesterId
+### -field DUMMYSTRUCTNAME.Card
 
-A single bit that indicates that the <b>RequesterId</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
-
-
-### -field ResponderId
-
-A single bit that indicates that the <b>ResponderId</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+ 
 
 
-### -field TargetId
+### -field DUMMYSTRUCTNAME.Module
 
-A single bit that indicates that the <b>TargetId</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
-
-
-### -field ErrorType
-
-A single bit that indicates that the <b>ErrorType</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+ 
 
 
-### -field Reserved
+### -field DUMMYSTRUCTNAME.Bank
 
-Reserved for system use.
+ 
+
+
+### -field DUMMYSTRUCTNAME.Device
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Row
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Column
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.BitPosition
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.RequesterId
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.ResponderId
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.TargetId
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.ErrorType
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Reserved
+
+ 
 
 
 ### -field ValidBits
@@ -157,16 +175,97 @@ Reserved for system use.
 A ULONGLONG representation of the contents of the WHEA_MEMORY_ERROR_SECTION_VALIDBITS union.
 
 
+#### - Module
+
+A single bit that indicates that the <b>Module</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+#### - Reserved
+
+Reserved for system use.
+
+
+#### - RequesterId
+
+A single bit that indicates that the <b>RequesterId</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+#### - ErrorType
+
+A single bit that indicates that the <b>ErrorType</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+#### - Bank
+
+A single bit that indicates that the <b>Bank</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+#### - TargetId
+
+A single bit that indicates that the <b>TargetId</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+#### - PhysicalAddressMask
+
+A single bit that indicates that the <b>PhysicalAddressMask</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+#### - ResponderId
+
+A single bit that indicates that the <b>ResponderId</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+#### - Column
+
+A single bit that indicates that the <b>Column</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+#### - BitPosition
+
+A single bit that indicates that the <b>BitPosition</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+#### - Card
+
+A single bit that indicates that the <b>Card</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+#### - PhysicalAddress
+
+A single bit that indicates that the <b>PhysicalAddress</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+#### - ErrorStatus
+
+A single bit that indicates that the <b>ErrorStatus</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+#### - Device
+
+A single bit that indicates that the <b>Device</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+#### - Row
+
+A single bit that indicates that the <b>Row</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
+#### - Node
+
+A single bit that indicates that the <b>Node</b> member of the WHEA_MEMORY_ERROR_SECTION structure contains valid data.
+
+
 ## -remarks
+
+
 A WHEA_MEMORY_ERROR_SECTION_VALIDBITS union is contained within the <a href="..\ntddk\ns-ntddk-_whea_memory_error_section.md">WHEA_MEMORY_ERROR_SECTION</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_memory_error_section.md">WHEA_MEMORY_ERROR_SECTION</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 45965b8c-749c-42ef-b29f-22a46028e4d3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetRequestorProcessId
+ms.keywords: FltGetRequestorProcessId routine [Installable File System Drivers], FltApiRef_e_to_o_1e770f18-5024-4f82-9d63-eba6a9e6fd5b.xml, fltkernel/FltGetRequestorProcessId, FltGetRequestorProcessId, ifsk.fltgetrequestorprocessid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltGetRequestorProcessId
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltGetRequestorProcessId
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltGetRequestorProcessId function
 
 
-
 ## -description
+
+
 The <b>FltGetRequestorProcessId</b> routine returns the unique 32-bit process ID for the process associated with the thread that requested a given I/O operation. 
 
 
-
 ## -syntax
+
 
 ````
 ULONG FltGetRequestorProcessId(
@@ -54,28 +64,34 @@ ULONG FltGetRequestorProcessId(
 
 ## -parameters
 
+
+
+
 ### -param CallbackData [in]
 
 Pointer to the callback data structure (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>) for the I/O operation. 
 
 
 ## -returns
+
+
 <b>FltGetRequestorProcessId</b> returns the process ID for the process associated with the thread that originally requested the I/O operation. If the operation is not associated with any thread, <b>FltGetRequestorProcessId</b> returns zero. 
 
 
+
 ## -remarks
+
+
 <b>FltGetRequestorProcessId</b> returns the process ID for the process that the requesting thread is currently attached to. This process may or may not be the same process that created the thread. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltgetrequestorprocess.md">FltGetRequestorProcess</a>
-</dt>
-</dl>
+
  
 
  

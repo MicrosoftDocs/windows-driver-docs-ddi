@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 491b99c6-5531-4d24-83a4-c404b58d111c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfStringCreate
+ms.keywords: kmdf.wdfstringcreate, wdf.wdfstringcreate, PFN_WDFSTRINGCREATE, wdfstring/WdfStringCreate, WdfStringCreate, WdfStringCreate method, DFStringObjectRef_1c460976-7e49-45c8-9fdb-c6651048d387.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WdfStringCreate
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll,WUDFx02000.dll,WUDFx02000.dll.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,20 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+-	WUDFx02000.dll
+-	WUDFx02000.dll.dll
+apiname: 
+-	WdfStringCreate
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +50,16 @@ req.product: Windows 10 or later.
 # WdfStringCreate function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfStringCreate</b> method creates a framework string object and optionally assigns a specified Unicode string to the object.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS WdfStringCreate(
@@ -58,6 +71,9 @@ NTSTATUS WdfStringCreate(
 
 
 ## -parameters
+
+
+
 
 ### -param UnicodeString [in, optional]
 
@@ -75,19 +91,49 @@ A pointer to a location that receives a handle to the new string object.
 
 
 ## -returns
+
+
 <b>WdfStringCreate</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, the method might return one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
 </dl>
+</td>
+<td width="60%">
+
 <a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a> was not called at IRQL = PASSIVE_LEVEL. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>An invalid parameter was specified.
+</dl>
+</td>
+<td width="60%">
+An invalid parameter was specified.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>A string object could not be allocated.
+</dl>
+</td>
+<td width="60%">
+A string object could not be allocated.
 
- 
+</td>
+</tr>
+</table> 
 
 For a list of other return values that the <b>WdfStringCreate</b> method might return, see <a href="https://msdn.microsoft.com/f5345c88-1c3a-4b32-9c93-c252713f7641">Framework Object Creation Errors</a>.
 
@@ -96,28 +142,26 @@ For a list of other return values that the <b>WdfStringCreate</b> method might r
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
+
 ## -remarks
+
+
 The default parent for framework string objects is the driver's framework driver object. However, unless the string is associated with the driver, your driver should set the <b>ParentObject</b> member of the <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure to an object that represents the string's scope. Typically, strings are device-specific and their parent object should be a framework device object.
 
 If your driver provides <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> or <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a> callback functions for the framework string object, note that the framework calls these callback functions at IRQL = PASSIVE_LEVEL.
 
 For more information about framework string objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-string-objects">Using String Objects</a>.
 
-The following code example initializes a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure and then creates a framework string object.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-<dt>
+
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-</dt>
-<dt>
+
 <a href="..\wdfstring\nf-wdfstring-wdfstringgetunicodestring.md">WdfStringGetUnicodeString</a>
-</dt>
-</dl>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
  
 
  

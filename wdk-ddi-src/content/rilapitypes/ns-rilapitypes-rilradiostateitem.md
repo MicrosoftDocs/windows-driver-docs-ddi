@@ -7,8 +7,8 @@ old-location: netvista\rilradiostateitem_2.htm
 old-project: netvista
 ms.assetid: 1cfc3e62-3398-435a-b603-fb7638ed8ce9
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILRADIOSTATEITEM, RILRADIOSTATEITEM, *LPRILRADIOSTATEITEM
+ms.date: 1/18/2018
+ms.keywords: netvista.rilradiostateitem_2, rilapitypes/RILRADIOSTATEITEM, *LPRILRADIOSTATEITEM, RILRADIOSTATEITEM, RILRADIOSTATEITEM structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILRADIOSTATEITEM
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILRADIOSTATEITEM
+product: Windows
+targetos: Windows
 req.typenames: RILRADIOSTATEITEM, *LPRILRADIOSTATEITEM
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILRADIOSTATEITEM structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILRADIOSTATEITEM {
@@ -81,85 +91,119 @@ typedef struct _RILRADIOSTATEITEM {
 
 ## -struct-fields
 
-### -field dwItemId
 
-
-### -field dwItemFlag
-
-
-### -field dwItemAttributes
-
-
-### -field RILITEMVALUEUNION
 
 
 ### -field itemValueUnion
 
 
-### -field switch_is
+
+### -field itemValueUnion.intVal
+
+ 
+
+
+### -field itemValueUnion.uintVal
+
+ 
+
+
+### -field itemValueUnion.wszVal
+
+ 
+
+
+### -field itemValueUnion.intArray
+
+ 
+
+
+### -field itemValueUnion.uintArray
+
+ 
+
+
+### -field itemValueUnion.byteArray
+
+ 
+
+
+### -field RILITEMVALUEUNION
+
+
+
+### -field dwItemId
+
 
 
 ### -field dwItemFlag
 
 
-### -field intVal
 
+### -field dwItemAttributes
 
-### -field case
-
-
-### -field RIL_RADIOSTATE_ITEMFLAG_USE_INTVAL
-
-
-### -field uintVal
-
-
-### -field case
-
-
-### -field RIL_RADIOSTATE_ITEMFLAG_USE_UINTVAL
-
-
-### -field wszVal
-
-
-### -field case
-
-
-### -field RIL_RADIOSTATE_ITEMFLAG_USE_WSZVAL
-
-
-### -field intArray
-
-
-### -field case
-
-
-### -field RIL_RADIOSTATE_ITEMFLAG_USE_INTARRAY
-
-
-### -field uintArray
-
-
-### -field case
-
-
-### -field RIL_RADIOSTATE_ITEMFLAG_USE_UINTARRAY
-
-
-### -field byteArray
-
-
-### -field case
-
-
-### -field RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY
 
 
 ### -field wszFriendlyName
 
 
+
 ### -field wszItemValueOptions
 
 
-## -remarks
+
+#### - byteArray
+
+
+
+#### - RIL_RADIOSTATE_ITEMFLAG_USE_UINTARRAY
+
+
+
+#### - RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY
+
+
+
+#### - uintArray
+
+
+
+#### - case
+
+
+
+#### - uintVal
+
+
+
+#### - switch_is
+
+
+
+#### - intArray
+
+
+
+#### - intVal
+
+
+
+#### - RIL_RADIOSTATE_ITEMFLAG_USE_INTVAL
+
+
+
+#### - RIL_RADIOSTATE_ITEMFLAG_USE_INTARRAY
+
+
+
+#### - RIL_RADIOSTATE_ITEMFLAG_USE_UINTVAL
+
+
+
+#### - RIL_RADIOSTATE_ITEMFLAG_USE_WSZVAL
+
+
+
+#### - wszVal
+
+

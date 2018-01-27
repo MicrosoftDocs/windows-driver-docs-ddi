@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: F648EF1E-2673-499D-81BF-03B7B2148FA2
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT, HDAUDIO_STREAM_FORMAT
+ms.keywords: hid.ioctl_hid_get_driver_config, IOCTL_HID_GET_DRIVER_CONFIG control code [Human Input Devices], IOCTL_HID_GET_DRIVER_CONFIG, hidclass/IOCTL_HID_GET_DRIVER_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_HID_GET_DRIVER_CONFIG
-req.alt-loc: hidclass.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,51 +29,89 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hidclass.h
+apiname: 
+-	IOCTL_HID_GET_DRIVER_CONFIG
+product: Windows
+targetos: Windows
 req.typenames: *PHDAUDIO_STREAM_FORMAT, HDAUDIO_STREAM_FORMAT
 ---
 
 # IOCTL_HID_GET_DRIVER_CONFIG IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 The <b>IOCTL_HID_GET_DRIVER_CONFIG</b> 
    request retrieves the driver configuration.
 
 This IOCTL is reserved for system use.
 
 
-
 ## -ioctlparameters
+
+
+
 
 ### -input-buffer
 
+
 <text></text>
+
+
 
 ### -input-buffer-length
 
+
 <text></text>
+
+
 
 ### -output-buffer
 
+
 <text></text>
+
+
 
 ### -output-buffer-length
 
+
 <text></text>
+
+
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
+
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 For more information, see [XREF-LINK:NTSTATUS Values].
 
-## -remarks
+

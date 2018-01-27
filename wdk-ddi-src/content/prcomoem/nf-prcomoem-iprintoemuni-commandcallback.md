@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_commandcallback.htm
 old-project: print
 ms.assetid: e1708017-a546-4770-8ad1-7052b3d4e264
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IPrintOemUni, IPrintOemUni::CommandCallback, CommandCallback
+ms.date: 1/18/2018
+ms.keywords: IPrintOemUni, CommandCallback method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::CommandCallback, print.iprintoemuni_commandcallback, print_unidrv-pscript_rendering_edbed499-5cc1-48dc-92cd-dbe70d8560aa.xml, IPrintOemUni::CommandCallback, CommandCallback method [Print Devices], CommandCallback, IPrintOemUni interface [Print Devices], CommandCallback method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPrintOemUni.CommandCallback
-req.alt-loc: prcomoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	prcomoem.h
+apiname: 
+-	IPrintOemUni.CommandCallback
+product: Windows
+targetos: Windows
+req.typenames: *POEMPTOPTS, OEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
 # IPrintOemUni::CommandCallback method
 
 
-
 ## -description
+
+
 The <code>IPrintOemUni::CommandCallback</code> method is used to provide dynamically generated printer commands for Unidrv-supported printers.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT CommandCallback(
@@ -59,22 +69,25 @@ HRESULT CommandCallback(
 
 ## -parameters
 
-### -param pdevobj 
+
+
+
+### -param pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-### -param dwCallbackID 
+### -param dwCallbackID
 
-Caller-supplied value representing the printer command's *<b>CallbackID</b> attribute in the printer's <a href="wdkgloss.g#wdkgloss.generic_printer_description__gpd_#wdkgloss.generic_printer_description__gpd_"><i>GPD</i></a> file. (For more information, see the following Remarks section.)
+Caller-supplied value representing the printer command's *<b>CallbackID</b> attribute in the printer's <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">GPD</a> file. (For more information, see the following Remarks section.)
 
 
-### -param dwCount 
+### -param dwCount
 
 Caller-supplied value representing the number of elements in the array pointed to by <i>pdwParams</i>. Can be 0.
 
 
-### -param pdwParams 
+### -param pdwParams
 
 Caller-supplied pointer to an array of DWORD-sized parameters containing values specified by the printer commands *<b>Params</b> attribute in the printer's GPD file. (For more information, see the following Remarks section.) Can be <b>NULL</b>.
 
@@ -85,22 +98,55 @@ Receives a method-supplied result value. See the following Remarks section.
 
 
 ## -returns
+
+
 The method must return one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The operation succeeded.
+</dl>
+</td>
+<td width="60%">
+The operation succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_FAIL</b></dt>
-</dl>The operation failed
+</dl>
+</td>
+<td width="60%">
+The operation failed
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_NOTIMPL</b></dt>
-</dl>The method is not implemented.
+</dl>
+</td>
+<td width="60%">
+The method is not implemented.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-The <code>IPrintOemUni::CommandCallback</code> method is used by rendering plug-ins to dynamically generate printer commands, for printers that are supported by <a href="wdkgloss.u#wdkgloss.unidrv#wdkgloss.unidrv"><i>Unidrv</i></a>.
+
+
+The <code>IPrintOemUni::CommandCallback</code> method is used by rendering plug-ins to dynamically generate printer commands, for printers that are supported by <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">Unidrv</a>.
 
 If you want to dynamically generate a printer command, you must include a *<b>CallbackID</b> attribute and, optionally, a *<b>Params</b> attribute, within the command's *Command entry in the printer's GPD file. For more information see <a href="https://msdn.microsoft.com/ba395716-6906-4f23-a050-79d808ccd44b">Dynamically Generated Printer Commands</a>.
 
@@ -112,4 +158,6 @@ The method is responsible for constructing a printer command, and then sending t
 
 The value supplied for <i>piResult</i> should always return zero unless the method is processing a cursor command. For <a href="https://msdn.microsoft.com/3ef09c7e-0e88-4236-a4c9-d89eb7ec61cb">cursor commands</a> that move the cursor in either the <i>x</i> or <i></i> direction, the method should return the new cursor position.
 
-The <code>IPrintOemUni::CommandCallback</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "CommandCallback" as input.</p>
+The <code>IPrintOemUni::CommandCallback</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "CommandCallback" as input.
+
+

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1376CB84-05F6-4903-B245-A00CFA9B228E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmConnectorCreate
+ms.keywords: buses.ucmconnectorcreate, UcmConnectorCreate, UcmConnectorCreate method [Buses], ucmmanager/UcmConnectorCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 2.15
-req.alt-api: UcmConnectorCreate
-req.alt-loc: UcmCxstub.lib,UcmCxstub.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: UcmCxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	UcmCxstub.lib
+-	UcmCxstub.dll
+apiname: 
+-	UcmConnectorCreate
+product: Windows
+targetos: Windows
 req.typenames: *PPORT_DATA_1, PORT_DATA_1
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # UcmConnectorCreate function
 
 
-
 ## -description
+
+
 Creates a connector object.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS UcmConnectorCreate(
@@ -57,6 +68,9 @@ NTSTATUS UcmConnectorCreate(
 
 
 ## -parameters
+
+
+
 
 ### -param WdfDevice [in]
 
@@ -83,10 +97,15 @@ A pointer to a location that receives a handle to the new connector object.
 
 
 ## -returns
+
+
 <b>UcmConnectorCreate</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> value. 
 
 
+
 ## -remarks
+
+
 If the client driver specifies a connector identifier that is already in use, the method fails with STATUS_INVALID_PARAMETER error code.
 
 If the Type-C connector is specified to be a Dual-Role port (DRP), the client driver must register its <a href="..\ucmmanager\nc-ucmmanager-evt_ucm_connector_set_data_role.md">EVT_UCM_CONNECTOR_SET_DATA_ROLE</a> event callback.  
@@ -95,18 +114,14 @@ The parent object is WdfDevice. You can set the <b>ParentObject</b> member of <a
 
 An appropriate place for a UCM client driver to call <b>UcmConnectorCreate</b> is in <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>  or <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EvtDeviceD0Entry</a>. Conversely, the driver should release the UCMCONNECTOR  handle in  <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a> or <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_exit.md">EvtDeviceD0Exit</a>.
 
-This example code shows how to create a Type-C connector that is PD-capable.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_config.md">UCM_CONNECTOR_CONFIG</a>
-</dt>
-<dt>
+
 <a href="..\ucmmanager\nf-ucmmanager-ucm_connector_config_init.md">UCM_CONNECTOR_CONFIG_INIT</a>
-</dt>
-</dl>
+
  
 
  

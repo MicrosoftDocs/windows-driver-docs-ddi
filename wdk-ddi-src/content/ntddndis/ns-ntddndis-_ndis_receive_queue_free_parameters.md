@@ -7,8 +7,8 @@ old-location: netvista\ndis_receive_queue_free_parameters.htm
 old-project: netvista
 ms.assetid: b67e7929-e6b3-4d0b-aff9-943a7fbae8ee
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_RECEIVE_QUEUE_FREE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS, NDIS_RECEIVE_QUEUE_FREE_PARAMETERS
+ms.date: 1/18/2018
+ms.keywords: _NDIS_RECEIVE_QUEUE_FREE_PARAMETERS, NDIS_RECEIVE_QUEUE_FREE_PARAMETERS, PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS, NDIS_RECEIVE_QUEUE_FREE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_6084d20e-050b-4e7c-af0e-6ab23269abb0.xml, netvista.ndis_receive_queue_free_parameters, ntddndis/NDIS_RECEIVE_QUEUE_FREE_PARAMETERS, ntddndis/PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.20 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_RECEIVE_QUEUE_FREE_PARAMETERS
-req.alt-loc: Ntddndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS, NDIS_RECEIVE_QUEUE_FREE_PARAMETERS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddndis.h
+apiname: 
+-	NDIS_RECEIVE_QUEUE_FREE_PARAMETERS
+product: Windows
+targetos: Windows
+req.typenames: NDIS_RECEIVE_QUEUE_FREE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS
 ---
 
 # _NDIS_RECEIVE_QUEUE_FREE_PARAMETERS structure
 
 
-
 ## -description
+
+
 The <b>NDIS_RECEIVE_QUEUE_FREE_PARAMETERS</b> structure identifies a receive queue to free.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NDIS_RECEIVE_QUEUE_FREE_PARAMETERS {
@@ -55,6 +65,9 @@ typedef struct _NDIS_RECEIVE_QUEUE_FREE_PARAMETERS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -76,28 +89,26 @@ A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. This member is 
 
 An <b>NDIS_RECEIVE_QUEUE_ID</b> type value that contains a receive queue identifier. This identifier is an
      integer value between one and the number of queues that the network adapter supports. 
-
-<div class="alert"><b>Note</b>  The default receive queue is always allocated and can never be freed. Drivers must not set the <b>QueueId</b> member to  <b>NDIS_DEFAULT_RECEIVE_QUEUE_ID</b>.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The default receive queue is always allocated and can never be freed. Drivers must not set the <b>QueueId</b> member to  <b>NDIS_DEFAULT_RECEIVE_QUEUE_ID</b>.</div><div> </div>
 
 ## -remarks
+
+
 The <b>NDIS_RECEIVE_QUEUE_FREE_PARAMETERS</b> structure is used in the 
-    <a href="netvista.oid_receive_filter_free_queue">
-    OID_RECEIVE_FILTER_FREE_QUEUE</a> OID.
+    <mshelp:link keywords="netvista.oid_receive_filter_free_queue" tabindex="0">
+    OID_RECEIVE_FILTER_FREE_QUEUE</mshelp:link> OID.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-free-queue">OID_RECEIVE_FILTER_FREE_QUEUE</a>
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569789">OID_RECEIVE_FILTER_FREE_QUEUE</a>
-</dt>
-</dl>
+
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RECEIVE_QUEUE_FREE_PARAMETERS structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RECEIVE_QUEUE_FREE_PARAMETERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

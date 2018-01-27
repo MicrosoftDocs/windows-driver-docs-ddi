@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 70be09ed-5633-464b-b311-f671efe83a54
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_ENDPOINT_DIAGNOSTIC_INFO,
+ms.keywords: IDDCX_ENDPOINT_DIAGNOSTIC_INFO, display.iddcx_endpoint_diagnostic_info, IDDCX_ENDPOINT_DIAGNOSTIC_INFO structure [Display Devices], iddcx/IDDCX_ENDPOINT_DIAGNOSTIC_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDDCX_ENDPOINT_DIAGNOSTIC_INFO
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDDCX_ENDPOINT_DIAGNOSTIC_INFO
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDDCX_ENDPOINT_DIAGNOSTIC_INFO structure
 
 
-
 ## -description
+
+
 Gives information about the video data endpoint.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDDCX_ENDPOINT_DIAGNOSTIC_INFO {
@@ -60,6 +70,9 @@ typedef struct IDDCX_ENDPOINT_DIAGNOSTIC_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -116,5 +129,3 @@ typedef struct IDDCX_ENDPOINT_DIAGNOSTIC_INFO {
                      Indicates how gamma is implemented.
                  
 
-
-## -remarks

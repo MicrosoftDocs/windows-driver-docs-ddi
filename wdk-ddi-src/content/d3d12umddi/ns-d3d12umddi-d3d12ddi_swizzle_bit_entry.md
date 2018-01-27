@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B7FF7AA2-39B2-4D9E-8DDC-0A39FFF49F37
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_SWIZZLE_BIT_ENTRY, D3D12DDI_SWIZZLE_BIT_ENTRY
+ms.keywords: D3D12DDI_SWIZZLE_BIT_ENTRY, D3D12DDI_SWIZZLE_BIT_ENTRY structure [Display Devices], d3d12umddi/D3D12DDI_SWIZZLE_BIT_ENTRY, display.d3d12ddi_swizzle_bit_entry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_SWIZZLE_BIT_ENTRY
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_SWIZZLE_BIT_ENTRY
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_SWIZZLE_BIT_ENTRY
 ---
 
 # D3D12DDI_SWIZZLE_BIT_ENTRY structure
 
 
-
 ## -description
+
+
 Defines a swizzle bit entry.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDI_SWIZZLE_BIT_ENTRY {
@@ -55,6 +65,9 @@ typedef struct D3D12DDI_SWIZZLE_BIT_ENTRY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Valid
 
@@ -70,5 +83,3 @@ The channel index. Specify zero (0) for X, one (1) for Y, two (2) for Z, and thr
 
 Index of source bit address.
 
-
-## -remarks

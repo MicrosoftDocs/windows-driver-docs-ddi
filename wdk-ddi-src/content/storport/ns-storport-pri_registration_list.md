@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 47b1a263-f630-4348-893c-388cac4e511d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PRI_REGISTRATION_LIST, PRI_REGISTRATION_LIST, *PPRI_REGISTRATION_LIST
+ms.keywords: PRI_REGISTRATION_LIST structure [Storage Devices], PRI_REGISTRATION_LIST, storport/PRI_REGISTRATION_LIST, storage.pri_registration_list, *PPRI_REGISTRATION_LIST, PPRI_REGISTRATION_LIST structure pointer [Storage Devices], storport/PPRI_REGISTRATION_LIST, structs-general_ad5a83a3-3ac6-4579-be4f-c24181e9d59e.xml, PPRI_REGISTRATION_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PRI_REGISTRATION_LIST
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	PRI_REGISTRATION_LIST
+product: Windows
+targetos: Windows
 req.typenames: PRI_REGISTRATION_LIST, *PPRI_REGISTRATION_LIST
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PRI_REGISTRATION_LIST structure
 
 
-
 ## -description
+
+
 The PRI_REGISTRATION_LIST structure is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_KEYS.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -56,6 +66,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Generation
 
@@ -69,21 +82,28 @@ EXISTING KEY, CLEAR, PREEMPT, or PREEMPT AND ABORT service action.
 The AdditionalLength field contains a count of the number of bytes in the reservation key list.
 
 
-### -field ReservationKeyList[0]
+### -field ReservationKeyList
+
+ 
+
+
+
+#### - ReservationKeyList[0]
 
 The reservation key list contains the 8-byte reservation keys for all initiators that have registered by using all ports with the device server.
 
 
 ## -remarks
+
+
 The <a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_in.md">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a> request is used to obtain information about persistent reservations and reservation keys that are active within a device server.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_in.md">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a>
-</dt>
-</dl>
+
  
 
  

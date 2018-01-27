@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5AD76955-A44C-4231-9394-0B6595CFB33D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExGetFirmwareEnvironmentVariable
+ms.keywords: wdm/ExGetFirmwareEnvironmentVariable, kernel.exgetfirmwareenvironmentvariable, ExGetFirmwareEnvironmentVariable, ExGetFirmwareEnvironmentVariable routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExGetFirmwareEnvironmentVariable
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ExGetFirmwareEnvironmentVariable
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ExGetFirmwareEnvironmentVariable function
 
 
-
 ## -description
+
+
 The <b>ExGetFirmwareEnvironmentVariable</b> routine gets the value of the specified system firmware environment variable.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ExGetFirmwareEnvironmentVariable(
@@ -58,6 +68,9 @@ NTSTATUS ExGetFirmwareEnvironmentVariable(
 
 
 ## -parameters
+
+
+
 
 ### -param VariableName [in]
 
@@ -85,30 +98,87 @@ A pointer to a location to which the routine writes the attributes of the specif
 
 
 ## -returns
+
+
 <b>ExGetFirmwareEnvironmentVariable</b> returns STATUS_SUCCESS if it is successful. Possible return values include the following error status codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>Available system resources are insufficient to complete the requested operation.
+</dl>
+</td>
+<td width="60%">
+Available system resources are insufficient to complete the requested operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The <i>Value</i> buffer is too small.
+</dl>
+</td>
+<td width="60%">
+The <i>Value</i> buffer is too small.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_VARIABLE_NOT_FOUND</b></dt>
-</dl>The requested variable does not exist.
+</dl>
+</td>
+<td width="60%">
+The requested variable does not exist.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>One of the parameters is not valid.
+</dl>
+</td>
+<td width="60%">
+One of the parameters is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>This routine is not supported on this platform.
+</dl>
+</td>
+<td width="60%">
+This routine is not supported on this platform.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>The firmware returned an unrecognized error.
+</dl>
+</td>
+<td width="60%">
+The firmware returned an unrecognized error.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 System firmware environment variables contain data values that are passed between the boot firmware environment implemented in the hardware platform and the operating-system loaders and other software that runs in the firmware environment.
 
 The set of firmware environment variables that is available in a hardware platform depends on the boot firmware. The location of these environment variables is also specified by the firmware. For example, on a UEFI-based platform, NVRAM contains firmware environment variables that specify system boot settings. For information about specific variables used, see the Unified Extensible Firmware Interface Specification at the <a href="http://go.microsoft.com/fwlink/p/?linkid=183072">UEFI</a> website. For more information about UEFI and Windows, see <a href="http://go.microsoft.com/fwlink/p/?linkid=183071">UEFI and Windows</a>.
@@ -120,6 +190,40 @@ Firmware environment variables are not supported on a legacy BIOS-based platform
 for the <i>VendorGuid</i> parameter. On a legacy BIOS-based platform, or on a platform that supports both legacy BIOS and UEFI but in which Windows was installed using the legacy BIOS, the function will fail with STATUS_NOT_IMPLEMENTED. On a UEFI-based platform, the function will fail with an error specific to the firmware, such as STATUS_VARIABLE_NOT_FOUND, to indicate that the dummy GUID namespace does not exist.
 
 If the caller specifies a non-NULL <i>Attributes</i> parameter, the routine writes the attributes of the specified system firmware environment variable to the location pointed to by <i>Attributes</i>. Version 2.3.1 of the UEFI specification defines the following attributes for firmware environment variables.
+<table>
+<tr>
+<th>Variable name</th>
+<th>Value</th>
+</tr>
+<tr>
+<td>EFI_VARIABLE_NON_VOLATILE</td>
+<td>0x00000001</td>
+</tr>
+<tr>
+<td>EFI_VARIABLE_BOOTSERVICE_ACCESS</td>
+<td>0x00000002</td>
+</tr>
+<tr>
+<td>EFI_VARIABLE_RUNTIME_ACCESS</td>
+<td>0x00000004</td>
+</tr>
+<tr>
+<td>EFI_VARIABLE_HARDWARE_ERROR_RECORD</td>
+<td>0x00000008</td>
+</tr>
+<tr>
+<td>EFI_VARIABLE_AUTHENTICATED_WRITE_ACCESS</td>
+<td>0x00000010</td>
+</tr>
+<tr>
+<td>EFI_VARIABLE_TIME_BASED_AUTHENTICATED_WRITE_ACCESS</td>
+<td>0x00000020</td>
+</tr>
+<tr>
+<td>EFI_VARIABLE_APPEND_WRITE</td>
+<td>0x00000040</td>
+</tr>
+</table> 
 
 These attribute values are defined as flag bits. The value written to the ULONG variable pointed to by <i>Attributes</i> is either zero or the bitwise OR of one or more attributes in the preceding table. For more information, see the UEFI specification at the <a href="http://go.microsoft.com/fwlink/p/?linkid=183072">UEFI</a> website.
 
@@ -128,18 +232,15 @@ If you create a backup datastore, you can use this function to save all the boot
 <b>ExGetFirmwareEnvironmentVariable</b> is the kernel-mode equivalent of the Win32 <a href="https://msdn.microsoft.com/18e74e54-ecfe-46bf-8c9d-9eb16d22f3ba">GetFirmwareEnvironmentVariable</a> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-exsetfirmwareenvironmentvariable.md">ExSetFirmwareEnvironmentVariable</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/18e74e54-ecfe-46bf-8c9d-9eb16d22f3ba">GetFirmwareEnvironmentVariable</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
  
 
  

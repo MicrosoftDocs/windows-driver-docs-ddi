@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d0304ac7-cb19-499c-81af-98be33312951
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SUB_Q_CHANNEL_DATA, SUB_Q_CHANNEL_DATA, *PSUB_Q_CHANNEL_DATA
+ms.keywords: ntddcdrm/SUB_Q_CHANNEL_DATA, SUB_Q_CHANNEL_DATA, ntddcdrm/PSUB_Q_CHANNEL_DATA, PSUB_Q_CHANNEL_DATA, SUB_Q_CHANNEL_DATA union [Storage Devices], *PSUB_Q_CHANNEL_DATA, _SUB_Q_CHANNEL_DATA, storage.sub_q_channel_data, PSUB_Q_CHANNEL_DATA union pointer [Storage Devices], structs-CD-ROM_f35761c8-b362-48eb-9cfa-6ee5e7232411.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SUB_Q_CHANNEL_DATA
-req.alt-loc: ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdrm.h
+apiname: 
+-	SUB_Q_CHANNEL_DATA
+product: Windows
+targetos: Windows
 req.typenames: SUB_Q_CHANNEL_DATA, *PSUB_Q_CHANNEL_DATA
 ---
 
 # _SUB_Q_CHANNEL_DATA structure
 
 
-
 ## -description
+
+
 Device control IRPs with a control code of IOCTL_CDROM_READ_Q_CHANNEL return their output data in this union. 
 
 
-
 ## -syntax
+
 
 ````
 typedef union _SUB_Q_CHANNEL_DATA {
@@ -55,6 +65,9 @@ typedef union _SUB_Q_CHANNEL_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field CurrentPosition
 
@@ -72,27 +85,24 @@ Contains the TrackIsrc code in a <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_track_i
 
 
 ## -remarks
+
+
 The value of the <b>Format </b>member of the CDROM_SUB_Q_DATA_FORMAT structure that is passed as input with IOCTL_CDROM_READ_Q_CHANNEL determines which member of this union is used to return the output data. See <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a> for a detailed explanation. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
-</dt>
-<dt>
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
-</dt>
-<dt>
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_current_position.md">SUB_Q_CURRENT_POSITION</a>
-</dt>
-<dt>
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_media_catalog_number.md">SUB_Q_MEDIA_CATALOG_NUMBER</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_track_isrc.md">SUB_Q_TRACK_ISRC</a>
-</dt>
-</dl>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
+
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_media_catalog_number.md">SUB_Q_MEDIA_CATALOG_NUMBER</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_current_position.md">SUB_Q_CURRENT_POSITION</a>
+
  
 
  

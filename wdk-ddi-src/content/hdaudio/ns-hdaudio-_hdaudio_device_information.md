@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 091aee9d-5ecd-481a-b5e2-28b4828b2c2e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _HDAUDIO_DEVICE_INFORMATION, *PHDAUDIO_DEVICE_INFORMATION, HDAUDIO_DEVICE_INFORMATION
+ms.keywords: audio.hdaudio_device_information, *PHDAUDIO_DEVICE_INFORMATION, PHDAUDIO_DEVICE_INFORMATION, hdaudio/HDAUDIO_DEVICE_INFORMATION, HDAUDIO_DEVICE_INFORMATION, PHDAUDIO_DEVICE_INFORMATION structure pointer [Audio Devices], aud-prop2_3350e3d4-dfbe-4002-b237-2395f4a07c7f.xml, _HDAUDIO_DEVICE_INFORMATION, hdaudio/PHDAUDIO_DEVICE_INFORMATION, HDAUDIO_DEVICE_INFORMATION structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HDAUDIO_DEVICE_INFORMATION
-req.alt-loc: hdaudio.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL.
-req.typenames: *PHDAUDIO_DEVICE_INFORMATION, HDAUDIO_DEVICE_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hdaudio.h
+apiname: 
+-	HDAUDIO_DEVICE_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: HDAUDIO_DEVICE_INFORMATION, *PHDAUDIO_DEVICE_INFORMATION
 ---
 
 # _HDAUDIO_DEVICE_INFORMATION structure
 
 
-
 ## -description
+
+
 The HDAUDIO_DEVICE_INFORMATION structure specifies the hardware capabilities of the HD Audio bus controller.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _HDAUDIO_DEVICE_INFORMATION {
@@ -57,6 +67,9 @@ typedef struct _HDAUDIO_DEVICE_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -84,15 +97,16 @@ Specifies whether the HD Audio controller supports <a href="https://msdn.microso
 
 
 ## -remarks
+
+
 The <a href="..\hdaudio\nc-hdaudio-pget_device_information.md">GetDeviceInformation</a> routine uses this structure to provide information about the HD Audio controller's device-specific capabilities to clients.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\hdaudio\nc-hdaudio-pget_device_information.md">GetDeviceInformation</a>
-</dt>
-</dl>
+
  
 
  

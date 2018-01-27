@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9a21495e-8a4d-4177-a2c5-b6a928d86fd9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeEnterGuardedRegion
+ms.keywords: wdm/KeEnterGuardedRegion, KeEnterGuardedRegion routine [Kernel-Mode Driver Architecture], kernel.keenterguardedregion, KeEnterGuardedRegion, k105_0f632d64-85dc-4c0f-8a26-8b4710673ab5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2003 and later versions o
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeEnterGuardedRegion
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: GuardedRegions, IrqlKeApcLte2, WithinCriticalRegion, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeEnterGuardedRegion
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # KeEnterGuardedRegion function
 
 
-
 ## -description
+
+
 The <b>KeEnterGuardedRegion</b> routine enters a guarded region, which disables all kernel-mode APC delivery to the current thread. 
 
 
-
 ## -syntax
+
 
 ````
 VOID KeEnterGuardedRegion(void);
@@ -53,26 +63,29 @@ VOID KeEnterGuardedRegion(void);
 ## -parameters
 
 
+
+
+
 ## -returns
-None
+
 
 None
 
-None
 
 
 ## -remarks
+
+
 To exit a guarded region entered with <b>KeEnterGuardedRegion</b>, call the <b>KeLeaveGuardedRegion</b> routine. Guarded regions can be nested. APCs are not reenabled until the thread exits the outermost guarded region.
 
 For more information about guarded regions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542925">Critical Regions and Guarded Regions</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\nf-ntddk-keleaveguardedregion.md">KeLeaveGuardedRegion</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-keleaveguardedregion.md">KeLeaveGuardedRegion</a>
+
  
 
  

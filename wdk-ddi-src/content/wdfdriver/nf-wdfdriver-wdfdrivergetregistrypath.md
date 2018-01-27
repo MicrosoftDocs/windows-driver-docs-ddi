@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5f237d2e-5ffd-40af-8cd8-ea1414807086
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDriverGetRegistryPath
+ms.keywords: WdfDriverGetRegistryPath, WdfDriverGetRegistryPath method, DFDriverObjectRef_a21bcb6e-2211-4727-bb87-bb912f8a173b.xml, PFN_WDFDRIVERGETREGISTRYPATH, kmdf.wdfdrivergetregistrypath, wdfdriver/WdfDriverGetRegistryPath, wdf.wdfdrivergetregistrypath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WdfDriverGetRegistryPath
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll,WUDFx02000.dll,WUDFx02000.dll.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,20 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+-	WUDFx02000.dll
+-	WUDFx02000.dll.dll
+apiname: 
+-	WdfDriverGetRegistryPath
+product: Windows
+targetos: Windows
 req.typenames: WDF_DRIVER_INIT_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +50,16 @@ req.product: Windows 10 or later.
 # WdfDriverGetRegistryPath function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfDriverGetRegistryPath</b> method retrieves the path to the driver's registry key in the registry's <a href="https://msdn.microsoft.com/library/windows/hardware/dn926947">Services</a> tree.
 
 
-
 ## -syntax
+
 
 ````
 PWSTR WdfDriverGetRegistryPath(
@@ -57,38 +70,40 @@ PWSTR WdfDriverGetRegistryPath(
 
 ## -parameters
 
+
+
+
 ### -param Driver [in]
 
 A handle to the driver's framework driver object, obtained by a previous call to <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a> or <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>. 
 
 
 ## -returns
+
+
 <b>WdfDriverGetRegistryPath</b> returns a pointer to a NULL-terminated Unicode string that represents the driver's registry path. A system bug check occurs if the <i>Driver</i> handle is invalid.
 
 
+
 ## -remarks
+
+
 The registry path string that <b>WdfDriverGetRegistryPath</b> returns is obtained from the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that the driver received as input to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. 
 
 For more information about the registry, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in Framework-Based Drivers</a>.
 
-The following code example obtains the path to a driver's registry key in the registry's <b>Services</b> tree.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-<dt>
+
 <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
-</dt>
-<dt>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
 <a href="..\wdfdriver\nf-wdfdriver-wdfdriveropenparametersregistrykey.md">WdfDriverOpenParametersRegistryKey</a>
-</dt>
-<dt>
+
 <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
-</dt>
-</dl>
+
  
 
  

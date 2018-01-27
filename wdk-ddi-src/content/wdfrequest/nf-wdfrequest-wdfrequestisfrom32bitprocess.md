@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0d55c1e0-0458-414c-afd6-2fa2576ffa4a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestIsFrom32BitProcess
+ms.keywords: wdfrequest/WdfRequestIsFrom32BitProcess, DFRequestObjectRef_d700883f-10dc-428b-abbf-7d257d2bd62d.xml, PFN_WDFREQUESTISFROM32BITPROCESS, wdf.wdfrequestisfrom32bitprocess, WdfRequestIsFrom32BitProcess, kmdf.wdfrequestisfrom32bitprocess, WdfRequestIsFrom32BitProcess method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WdfRequestIsFrom32BitProcess
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll,WUDFx02000.dll,WUDFx02000.dll.dll
 req.ddi-compliance: DriverCreate, InvalidReqAccess, InvalidReqAccessLocal, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,20 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+-	WUDFx02000.dll
+-	WUDFx02000.dll.dll
+apiname: 
+-	WdfRequestIsFrom32BitProcess
+product: Windows
+targetos: Windows
 req.typenames: WDF_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +50,16 @@ req.product: Windows 10 or later.
 # WdfRequestIsFrom32BitProcess function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfRequestIsFrom32BitProcess</b> method checks whether the originator of a specified I/O request is a 32-bit user-mode application.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN WdfRequestIsFrom32BitProcess(
@@ -57,31 +70,36 @@ BOOLEAN WdfRequestIsFrom32BitProcess(
 
 ## -parameters
 
+
+
+
 ### -param Request [in]
 
 A handle to a framework request object.
 
 
 ## -returns
+
+
 On 64-bit systems,<b>WdfRequestIsFrom32BitProcess</b> returns <b>TRUE</b> if the originator of the current I/O request is a 32-bit user-mode process, and <b>FALSE</b> otherwise. On 32-bit systems, <b>WdfRequestIsFrom32BitProcess</b> always returns <b>TRUE</b>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 
+
 ## -remarks
+
+
 Drivers can call <b>WdfRequestIsFrom32BitProcess</b> to determine whether an I/O request is likely to contain data elements that need to be converted, or "thunked," before they can be used in a 64-bit driver.
 
 The specified request handle must have been obtained from one of the driver's I/O queues and not from a call to <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>.
 
-The following code example determines if an I/O request came from a 32-bit application.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
-</dt>
-</dl>
+
  
 
  

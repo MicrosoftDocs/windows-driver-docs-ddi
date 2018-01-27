@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1D135203-AA20-4D5D-A0F2-A53BDF5104C0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.getcryptosessionprivatedatasize, pfnGetCryptoSessionPrivateDataSize callback function [Display Devices], pfnGetCryptoSessionPrivateDataSize, PFND3DWDDM2_0DDI_GETCRYPTOSESSIONPRIVATEDATASIZE, PFND3DWDDM2_0DDI_GETCRYPTOSESSIONPRIVATEDATASIZE, d3d10umddi/pfnGetCryptoSessionPrivateDataSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnGetCryptoSessionPrivateDataSize
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	pfnGetCryptoSessionPrivateDataSize
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3DWDDM2_0DDI_GETCRYPTOSESSIONPRIVATEDATASIZE callback
 
 
-
 ## -description
+
+
 <b>GetCryptoSessionPrivateDataSize</b> retrieves sizes for optional private driver data.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DWDDM2_0DDI_GETCRYPTOSESSIONPRIVATEDATASIZE pfnGetCryptoSessionPrivateDataSize;
@@ -62,54 +72,101 @@ VOID APIENTRY* pfnGetCryptoSessionPrivateDataSize(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
  A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
-### -param pCryptoType [in]
-
-Indicates the crypto type for which the private input and output size is queried.
+### -param *pCryptoType
 
 
-### -param pDecoderProfile [in, optional]
 
-Indicates the decoder profile for which the private input and output size is queried.
-
-
-### -param pKeyExchangeType [in]
-
-Indicates the key exchange type for which the private input and output size is queried.
+### -param *pDecoderProfile
 
 
-### -param pPrivateInputSize [out]
 
-Returns the size of private data that the driver needs for input commands.
+### -param *pKeyExchangeType
 
 
-### -param pPrivateOutputSize [out]
+
+### -param *pPrivateInputSize
+
+
+
+### -param *pPrivateOutputSize
+
+
+
+
+
+
+#### - pPrivateOutputSize [out]
 
 Returns the size of private data that the driver needs for output commands.
 
 
+#### - pPrivateInputSize [out]
+
+Returns the size of private data that the driver needs for input commands.
+
+
+#### - pCryptoType [in]
+
+Indicates the crypto type for which the private input and output size is queried.
+
+
+#### - pKeyExchangeType [in]
+
+Indicates the key exchange type for which the private input and output size is queried.
+
+
+#### - pDecoderProfile [in, optional]
+
+Indicates the decoder profile for which the private input and output size is queried.
+
+
 ## -returns
+
+
 This callback function does not return a value.
 
 
-## -remarks
-When <b>pKeyExchangeType</b> is <b>D3D11_KEY_EXCHANGE_HW_PROTECTION</b>, the following behavior is expected in the <b>NegotiateCryptessionKeyExchange</b>device driver interface (DDI):
 
+## -remarks
+
+
+When <b>pKeyExchangeType</b> is <b>D3D11_KEY_EXCHANGE_HW_PROTECTION</b>, the following behavior is expected in the <b>NegotiateCryptessionKeyExchange</b>device driver interface (DDI):
+<ul>
+<li><b>DataSize</b> is set to the size of the <b>D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA</b> structure.
+
+</li>
+<li><b>pData</b> points to a <b>D3D11_KEY_EXCHANGE_CONTENT_PROTECTION_DATA</b> structure.</li>
+<li>
 <b>pInputData</b> points to a <b>D3D11_KEY_EXCHANGE_CONTENT_PROTECTION_OUTPUT_DATA</b> structure where:
 
+<ul>
+<li><b>pbInput</b>[0] – <b>pbInput</b>[N-1] contains memory reserved for use by the driver. The number of bytes (N) reserved for the driver is determined by the <b>pPrivateInputSize</b> value returned by the <b>GetCryptoSessionPrivateDataSize</b>DDI.</li>
+<li><b>pbInput</b>[N] contains the first byte of the Digital Rights Management (DRM) command packet.</li>
+</ul>
+</li>
+<li>
 <b>pOutputData</b> points to a <b>D3D11_KEY_EXCHANGE_CONTENT_PROTECTION_OUTPUT_DATA</b> structure where:
+
+<ul>
+<li><b>pbOutput</b>[0] – <b>pbOutput</b>[M-1] contains memory reserved for use by the driver. The number of bytes (M) reserved for the driver is determined by the <b>pPrivateOutputSize</b> value returned by the <b>GetCryptoSessionPrivateDataSize</b>DDI.</li>
+<li><b>pbOutput</b>[M] contains the first byte of the DRM command packet.</li>
+</ul>
+</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6885df05-8cc4-4ae0-b7ca-6fd94374cfbf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
+ms.keywords: display.agpsetrate, AgpSetRate callback function [Display Devices], AgpSetRate, PAGP_SET_RATE, PAGP_SET_RATE, videoagp/AgpSetRate, VideoPort_Functions_4dfdb762-5156-4a06-9dd8-1766bbe3dbe4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AgpSetRate
-req.alt-loc: videoagp.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	videoagp.h
+apiname: 
+-	AgpSetRate
+product: Windows
+targetos: Windows
+req.typenames: *PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.
 ---
 
 # PAGP_SET_RATE callback
 
 
-
 ## -description
+
+
 The <b>AgpSetRate</b> function reprograms the data transfer rate of the AGP chipset.
 
 
-
 ## -prototype
+
 
 ````
 PAGP_SET_RATE AgpSetRate;
@@ -59,6 +69,9 @@ BOOLEAN APIENTRY AgpSetRate(
 
 ## -parameters
 
+
+
+
 ### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
@@ -67,7 +80,6 @@ Pointer to the miniport driver's device extension.
 ### -param AgpRate [in]
 
 Specifies the transfer rate to be set. This value can be one of the following:
-
 <table>
 <tr>
 <th>Value</th>
@@ -113,15 +125,19 @@ Eight times single speed
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 <b>AgpSetRate</b> returns <b>TRUE</b> if it was successful in changing the transfer rate; otherwise, it returns <b>FALSE</b>.
 
 
+
 ## -remarks
+
+
 This function is available in Microsoft Windows XP and later.
 
 The transfer rate set by the <b>AgpSetRate</b> function is persistent across changes in power state. The video miniport driver does not have to reset the AGP transfer rate when it changes from a low power state to a full power state. For information about change of power state, see <a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a>.
@@ -129,12 +145,11 @@ The transfer rate set by the <b>AgpSetRate</b> function is persistent across cha
 The <b>AgpSetRate</b> function can be used to change an AGP chipset's data transfer rate to any of the rates shown in the preceding table, as long as that transfer rate has not been explicitly eliminated in the INF file that loaded the display driver. For more information, see <a href="https://msdn.microsoft.com/2075a10f-a504-4bdc-8112-9c583c5084bb">Display INF File Sections</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\ns-video-_video_port_agp_interface_2.md">VIDEO_PORT_AGP_INTERFACE_2</a>
-</dt>
-</dl>
+
  
 
  

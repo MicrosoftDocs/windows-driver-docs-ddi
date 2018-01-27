@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 49560022-a690-4259-b725-f8927af31804
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwEnumerateTransactionObject
+ms.keywords: kernel.zwenumeratetransactionobject, ZwEnumerateTransactionObject, NtEnumerateTransactionObject, ZwEnumerateTransactionObject routine [Kernel-Mode Driver Architecture], wdm/ZwEnumerateTransactionObject, wdm/NtEnumerateTransactionObject, ktm_ref_f9c45fce-5dbe-4dad-9943-3f31fb692c65.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later operating system
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwEnumerateTransactionObject,NtEnumerateTransactionObject
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ZwEnumerateTransactionObject
+-	NtEnumerateTransactionObject
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ZwEnumerateTransactionObject function
 
 
-
 ## -description
+
+
 The <b>ZwEnumerateTransactionObject</b> routine enumerates the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554272">KTM objects</a> on a computer.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ZwEnumerateTransactionObject(
@@ -58,6 +69,9 @@ NTSTATUS ZwEnumerateTransactionObject(
 
 
 ## -parameters
+
+
+
 
 ### -param RootObjectHandle [in, optional]
 
@@ -85,55 +99,151 @@ A pointer to a caller-allocated location that receives the number of bytes that 
 
 
 ## -returns
+
+
 <b>ZwEnumerateTransactionObject</b> returns STATUS_SUCCESS if the operation succeeds but the routine has not enumerated all the objects. If there are no more objects to enumerate, the routine returns STATUS_NO_MORE_ENTRIES. Otherwise, this routine might return one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The <i>QueryType</i> or <i>ObjectCursorLength</i> parameter's value is invalid.
+</dl>
+</td>
+<td width="60%">
+The <i>QueryType</i> or <i>ObjectCursorLength</i> parameter's value is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_TYPE_MISMATCH</b></dt>
-</dl>The handle that the <i>RootObjectHandle</i> parameter specifies is not a handle to a valid KTM object.
+</dl>
+</td>
+<td width="60%">
+The handle that the <i>RootObjectHandle</i> parameter specifies is not a handle to a valid KTM object.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>An object handle is invalid.
+</dl>
+</td>
+<td width="60%">
+An object handle is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>The caller does not have appropriate access to the objects that are being enumerated.
+</dl>
+</td>
+<td width="60%">
+The caller does not have appropriate access to the objects that are being enumerated.
 
- 
+</td>
+</tr>
+</table> 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
-## -remarks
-The following table contains the valid values for the <i>RootObjectHandle</i> and <i>QueryType</i> parameters.
 
+## -remarks
+
+
+The following table contains the valid values for the <i>RootObjectHandle</i> and <i>QueryType</i> parameters.
+<table>
+<tr>
+<th><i>QueryType</i> parameter</th>
+<th><i>RootObjectHandle</i> parameter</th>
+<th>Objects enumerated</th>
+</tr>
+<tr>
+<td>
 KTMOBJECT_TRANSACTION_MANAGER
 
+</td>
+<td>
 <b>NULL</b>
 
+</td>
+<td>
 All transaction manager objects
 
+</td>
+</tr>
+<tr>
+<td>
 KTMOBJECT_RESOURCE_MANAGER
 
+</td>
+<td>
 A handle to a transaction manager object.
 
 The handle must have TRANSACTIONMANAGER_QUERY_INFORMATION access to the object.
 
+</td>
+<td>
 All resource manager objects that belong to the specified transaction manager object
 
+</td>
+</tr>
+<tr>
+<td>
 KTMOBJECT_ENLISTMENT
 
+</td>
+<td>
 A handle to a resource manager object.
 
 The handle must have RESOURCEMANAGER_QUERY_INFORMATION access to the object.
 
+</td>
+<td>
 All enlistment objects that belong to the specified resource manager object
 
+</td>
+</tr>
+<tr>
+<td>
 KTMOBJECT_TRANSACTION
 
+</td>
+<td>
+A handle to a transaction manager object.
+
+The handle must have TRANSACTIONMANAGER_QUERY_INFORMATION access to the object.
+
+</td>
+<td>
 All transaction objects that belong to the specified transaction manager object
 
+</td>
+</tr>
+<tr>
+<td>
+KTMOBJECT_TRANSACTION
+
+</td>
+<td>
+<b>NULL</b>
+
+</td>
+<td>
 All transaction objects that belong to all transaction manager objects
+
+</td>
+</tr>
+</table> 
 
 Most TPS components do not have to call <b>ZwEnumerateTransactionObject</b>, but the routine might be useful if you have to write a debugging utility.
 
@@ -147,21 +257,16 @@ Every time that the routine is called, it fills the buffer's GUID array with as 
 
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-The following code example shows how to enumerate all of the transaction objects on a computer. In this example, the <b>KTMOBJECT_CURSOR</b> structure's GUID array contains only one element, so each call to <b>ZwEnumerateTransactionObject</b> returns one GUID. The routine creates a Unicode string from the GUID and displays the string.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_ktmobject_cursor.md">KTMOBJECT_CURSOR</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ne-wdm-_ktmobject_type.md">KTMOBJECT_TYPE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_ktmobject_cursor.md">KTMOBJECT_CURSOR</a>
+
  
 
  

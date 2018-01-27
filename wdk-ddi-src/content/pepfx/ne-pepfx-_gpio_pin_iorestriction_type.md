@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 381A59EE-BA1C-4810-842B-1D3E4D964486
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _GPIO_PIN_IORESTRICTION_TYPE, GPIO_PIN_IORESTRICTION_TYPE
+ms.keywords: pepfx/IoRestrictionOutputOnly, pepfx/IoRestrictionNone, _GPIO_PIN_IORESTRICTION_TYPE, pepfx/IoRestrictionNoneAndPreserve, pepfx/GPIO_PIN_IORESTRICTION_TYPE, GPIO_PIN_IORESTRICTION_TYPE, IoRestrictionNone, pepfx/IoRestrictionInputOnly, IoRestrictionInputOnly, kernel.gpio_pin_iorestriction_type, IoRestrictionOutputOnly, GPIO_PIN_IORESTRICTION_TYPE enumeration [Kernel-Mode Driver Architecture], IoRestrictionNoneAndPreserve
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GPIO_PIN_IORESTRICTION_TYPE
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	GPIO_PIN_IORESTRICTION_TYPE
+product: Windows
+targetos: Windows
 req.typenames: GPIO_PIN_IORESTRICTION_TYPE
 ---
 
 # _GPIO_PIN_IORESTRICTION_TYPE enumeration
 
 
-
 ## -description
+
+
 The <b>GPIO_PIN_IORESTRICTION_TYPE</b> enumeration describes the functions that a GPIO pin is limited to performing.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _GPIO_PIN_IORESTRICTION_TYPE { 
@@ -56,6 +66,9 @@ typedef enum _GPIO_PIN_IORESTRICTION_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field IoRestrictionNone
 
@@ -76,5 +89,3 @@ Indicates that the GPIO pin is restricted to output.
 
 Indicates that the GPIO pin is not restricted to either input or output and that the mode should be preserved when the driver is unloaded. 
 
-
-## -remarks

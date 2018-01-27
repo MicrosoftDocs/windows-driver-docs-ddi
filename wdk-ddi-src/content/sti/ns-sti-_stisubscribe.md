@@ -7,8 +7,8 @@ old-location: image\stisubscribe.htm
 old-project: image
 ms.assetid: 68859180-274d-44f8-9ccf-1cae0348f902
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: _STISUBSCRIBE, STISUBSCRIBE, *LPSTISUBSCRIBE
+ms.date: 1/18/2018
+ms.keywords: LPSTISUBSCRIBE, sti/LPSTISUBSCRIBE, STISUBSCRIBE, STISUBSCRIBE structure [Imaging Devices], sti/STISUBSCRIBE, image.stisubscribe, *LPSTISUBSCRIBE, _STISUBSCRIBE, stifnc_6043f7d6-98b6-483f-b868-f18492af5f92.xml, LPSTISUBSCRIBE structure pointer [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STISUBSCRIBE
-req.alt-loc: sti.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: STISUBSCRIBE, *LPSTISUBSCRIBE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	sti.h
+apiname: 
+-	STISUBSCRIBE
+product: Windows
+targetos: Windows
+req.typenames: *LPSTISUBSCRIBE, STISUBSCRIBE
 req.product: Windows 10 or later.
 ---
 
 # _STISUBSCRIBE structure
 
 
-
 ## -description
+
+
 The STISUBSCRIBE structure is used as a parameter for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543768">IStiDevice::Subscribe</a> method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STISUBSCRIBE {
@@ -60,6 +70,9 @@ typedef struct _STISUBSCRIBE {
 
 ## -struct-fields
 
+
+
+
 ### -field dwSize
 
 Caller-supplied size, in bytes, of the STISUBSCRIBE structure.
@@ -72,25 +85,7 @@ One of the following bit flags, defined in <i>Sti.h</i>.
 
 
 
-### -field STI_SUBSCRIBE_FLAG_EVENT
 
-Event notifications should be delivered to the application by calls to <b>SetEvent</b>. The <b>hEvent</b> member contains a Win32 event handle. 
-
-This bit flag is preferred for security reasons. It is available on Windows Me, Windows XP and later operating system versions.
-
-</dd>
-</dl>
-
-
-
-### -field STI_SUBSCRIBE_FLAG_WINDOW
-
-Event notifications should be delivered to the application using window messages. The <b>dwWndNotify</b> member contains a window handle and <b>uiNotificationMessage</b> contains a window message.
-
-This bit flag is obsolete. It is not available on Windows XP or later operating system versions.
-
-</dd>
-</dl>
 
 ### -field dwFilter
 
@@ -112,4 +107,16 @@ Handle to a Win32 event created with <b>CreateEvent</b>, which the event monitor
 Window message that should be passed to the <b>dwWndNotify</b> window when an event occurs.
 
 
-## -remarks
+##### - dwFlags.STI_SUBSCRIBE_FLAG_WINDOW
+
+Event notifications should be delivered to the application using window messages. The <b>dwWndNotify</b> member contains a window handle and <b>uiNotificationMessage</b> contains a window message.
+
+This bit flag is obsolete. It is not available on Windows XP or later operating system versions.
+
+
+##### - dwFlags.STI_SUBSCRIBE_FLAG_EVENT
+
+Event notifications should be delivered to the application by calls to <b>SetEvent</b>. The <b>hEvent</b> member contains a Win32 event handle. 
+
+This bit flag is preferred for security reasons. It is available on Windows Me, Windows XP and later operating system versions.
+

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: FA3365DC-B604-468E-AACD-AC006D2B4EAF
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKSCAMERA_METADATA_PHOTOCONFIRMATION, KSCAMERA_METADATA_PHOTOCONFIRMATION, *PKSCAMERA_METADATA_PHOTOCONFIRMATION
+ms.keywords: KSCAMERA_METADATA_PHOTOCONFIRMATION structure [Streaming Media Devices], PKSCAMERA_METADATA_PHOTOCONFIRMATION structure pointer [Streaming Media Devices], stream.kscamera_metadata_photoconfirmation, KSCAMERA_METADATA_PHOTOCONFIRMATION, ksmedia/KSCAMERA_METADATA_PHOTOCONFIRMATION, *PKSCAMERA_METADATA_PHOTOCONFIRMATION, PKSCAMERA_METADATA_PHOTOCONFIRMATION, ksmedia/PKSCAMERA_METADATA_PHOTOCONFIRMATION, tagKSCAMERA_METADATA_PHOTOCONFIRMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSCAMERA_METADATA_PHOTOCONFIRMATION
-req.alt-loc: Ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KSCAMERA_METADATA_PHOTOCONFIRMATION, *PKSCAMERA_METADATA_PHOTOCONFIRMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ksmedia.h
+apiname: 
+-	KSCAMERA_METADATA_PHOTOCONFIRMATION
+product: Windows
+targetos: Windows
+req.typenames: *PKSCAMERA_METADATA_PHOTOCONFIRMATION, KSCAMERA_METADATA_PHOTOCONFIRMATION
 ---
 
 # tagKSCAMERA_METADATA_PHOTOCONFIRMATION structure
 
 
-
 ## -description
+
+
 This structure contains the photo confirmation metadata information that is filled by the camera driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagKSCAMERA_METADATA_PHOTOCONFIRMATION {
@@ -55,6 +65,9 @@ typedef struct tagKSCAMERA_METADATA_PHOTOCONFIRMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -70,5 +83,3 @@ Stores the index of the still confirmation frame. For single photo capture, this
 
 Reserved for future use.
 
-
-## -remarks

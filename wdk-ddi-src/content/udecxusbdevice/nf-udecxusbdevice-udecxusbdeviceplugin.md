@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6F1A1545-5B64-4481-B795-0B6433304C06
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUsbDevicePlugIn
+ms.keywords: UdecxUsbDevicePlugIn, buses.udecxusbdeviceplugin, udecxusbdevice/UdecxUsbDevicePlugIn, UdecxUsbDevicePlugIn function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 
-req.alt-api: UdecxUsbDevicePlugIn
-req.alt-loc: Udecxstub.lib,Udecxstub.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PUDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Udecxstub.lib
+-	Udecxstub.dll
+apiname: 
+-	UdecxUsbDevicePlugIn
+product: Windows
+targetos: Windows
+req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
 req.product: Windows 10 or later.
 ---
 
 # UdecxUsbDevicePlugIn function
 
 
-
 ## -description
+
+
 Notifies the USB device emulation class extension (UdeCx) that the USB device has been plugged in the specified port.
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE NTSTATUS UdecxUsbDevicePlugIn(
@@ -55,6 +66,9 @@ FORCEINLINE NTSTATUS UdecxUsbDevicePlugIn(
 
 
 ## -parameters
+
+
+
 
 ### -param UdecxUsbDevice [in]
 
@@ -68,22 +82,25 @@ A <a href="..\udecxusbdevice\ns-udecxusbdevice-_udecx_usb_device_plug_in_options
 
 
 ## -returns
+
+
 The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code. 
 
 
+
 ## -remarks
+
+
 After the client driver calls this method, the class extension sends I/O requests and invokes callback functions on the endpoints and the device. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cbd1cd9b-c3bd-4827-88e6-4b80d6ba7320
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDiscard
+ms.keywords: stream.ksdiscard, ks/KsDiscard, avfunc_645e5574-6c6b-4336-87fe-fe777f7d1c91.xml, KsDiscard, KsDiscard function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsDiscard
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsDiscard
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsDiscard macro
 
 
-
 ## -description
+
+
 The<b> KsDiscard </b>macro removes a given item from an object bag.
 
 
-
 ## -syntax
+
 
 ````
 ULONG KsDiscard(
@@ -54,6 +65,9 @@ ULONG KsDiscard(
 
 
 ## -parameters
+
+
+
 
 ### -param Object [in]
 
@@ -66,29 +80,26 @@ A pointer to the item to be removed from the requested object's bag.
 
 
 ## -remarks
+
+
 This function is implemented as a C-style preprocessing macro in the <i>Ks.h</i> header.
 
 <b>KsDiscard</b> calls <a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>, passing the object bag associated with <i>Object</i> (<i>Object -&gt; Bag</i>), the item specified by <i>Pointer</i>, and <b>TRUE</b> for the <i>Free</i> parameter. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
-</dt>
-<dt>
+
+<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
+
 <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
  
 
  

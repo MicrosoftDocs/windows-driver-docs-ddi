@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d5fa83d6-d733-4fff-89a9-f519ed608e57
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetUncachedExtension
+ms.keywords: StorPortGetUncachedExtension routine [Storage Devices], storage.storportgetuncachedextension, storprt_f3acfe04-374f-47d9-8e8f-7f7f8ee8a1d3.xml, StorPortGetUncachedExtension, storport/StorPortGetUncachedExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortGetUncachedExtension
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortGetUncachedExtension
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortGetUncachedExtension function
 
 
-
 ## -description
+
+
 The <b>StorPortGetUncachedExtension</b> routine allocates an uncached common buffer to be shared by the CPU and the device. 
 
 
-
 ## -syntax
+
 
 ````
 PVOID StorPortGetUncachedExtension(
@@ -57,37 +68,44 @@ PVOID StorPortGetUncachedExtension(
 
 ## -parameters
 
-### -param HwDeviceExtension 
+
+
+
+### -param HwDeviceExtension
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-### -param ConfigInfo 
+### -param ConfigInfo
 
 Specifies information about the HBA's DMA capabilities. The following members must be filled in: <b>DmaChannel</b> or <b>DmaPort</b>, <b>DmaWidth</b>, <b>DmaSpeed</b>, <b>MaximumTransferLength</b>, <b>ScatterGather</b>, <b>Master</b> set to <b>TRUE</b>, <b>NumberOfPhysicalBreaks</b>, <b>AdapterInterfaceType</b>, <b>Dma32BitAddresses</b>, <b>Dma64BitAddresses</b>, <b>SystemIoBusNumber</b>, <b>AutoRequestSense</b>, and <b>SrbExtensionSize</b>.
 
 Members that are not pertinent to the HBA, such as <b>DmaChannel</b> for an EISA bus-master adapter, must be left as is.
 
 
-### -param NumberOfBytes 
+### -param NumberOfBytes
 
 The size required, in bytes, of the uncached extension to allocate.
 
 
 ## -returns
+
+
 <b>StorPortGetUncachedExtension</b> returns a virtual address pointer to the uncached extension. If it cannot allocate the requested memory, it returns <b>NULL</b>. If the memory was previously allocated, the  virtual address pointer to the current uncached extension is returned.
 
 
+
 ## -remarks
+
+
 Bus-master devices use common buffer space for DMA transfers.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>
-</dt>
-</dl>
+
  
 
  

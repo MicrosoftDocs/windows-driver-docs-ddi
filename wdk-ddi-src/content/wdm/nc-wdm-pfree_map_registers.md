@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0326229f-cf02-4368-bc32-7fbed118714b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+ms.keywords: kernel.freemapregisters, FreeMapRegisters, FreeMapRegisters callback function [Kernel-Mode Driver Architecture], FreeMapRegisters, PFREE_MAP_REGISTERS, PFREE_MAP_REGISTERS, wdm/FreeMapRegisters, kdma_039f59c4-101e-40c2-bf2e-a0faa7c11032.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FreeMapRegisters
-req.alt-loc: wdm.h
 req.ddi-compliance: IrqlDispatch, IrqlDispatch(storport)
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	wdm.h
+apiname: 
+-	FreeMapRegisters
+product: Windows
+targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PFREE_MAP_REGISTERS callback
 
 
-
 ## -description
+
+
 The <b>FreeMapRegisters</b> routine releases a set of map registers that were saved from a call to <a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>. 
 
 
-
 ## -prototype
+
 
 ````
 PFREE_MAP_REGISTERS FreeMapRegisters;
@@ -59,6 +69,9 @@ VOID FreeMapRegisters(
 
 
 ## -parameters
+
+
+
 
 ### -param DmaAdapter [in]
 
@@ -76,10 +89,15 @@ Specifies the number of map registers to be released. This value must match the 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>FreeMapRegisters</b>
            is not a system routine that can be called directly by name. This routine is only callable by pointer from the address returned in a 
           <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
@@ -88,24 +106,19 @@ None
 When the driver of a bus-master device has completed the current packet-based DMA transfer request, it calls <b>FreeMapRegisters</b> to release the map registers previously allocated by a call to <a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a> and retained because its <i>AdapterControl</i> routine returned <b>DeallocateObjectKeepRegisters</b>. The driver must call <b>FreeMapRegisters</b> after calling <a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+
 <a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 867da1f8-061b-4fc1-8e20-3ebc43300f15
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: NpdBrokerUninitialize
+ms.keywords: stream.avstrminideleteallocator, AVStrMiniDeleteAllocator, AVStrMiniDeleteAllocator routine [Streaming Media Devices], AVStrMiniDeleteAllocator, PFNKSDELETEALLOCATOR, PFNKSDELETEALLOCATOR, ks/AVStrMiniDeleteAllocator, avstclbk_32e3c0fd-c437-45e0-8e5e-72f2f628ee51.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AVStrMiniDeleteAllocator
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ks.h
+apiname: 
+-	AVStrMiniDeleteAllocator
+product: Windows
+targetos: Windows
 req.typenames: KEYWORDSELECTOR
 ---
 
 # PFNKSDELETEALLOCATOR callback
 
 
-
 ## -description
+
+
 An AVStream minidriver's <i>AVStrMiniDeleteAllocator</i> routine deletes the allocator that is associated with a pin.
 
 
-
 ## -prototype
+
 
 ````
 PFNKSDELETEALLOCATOR AVStrMiniDeleteAllocator;
@@ -57,16 +67,24 @@ VOID AVStrMiniDeleteAllocator(
 
 ## -parameters
 
+
+
+
 ### -param Context [in]
 
 Pointer to the allocator's context structure created by <a href="..\ks\nc-ks-pfnkspininitializeallocator.md">AVStrMiniInitializeAllocator</a>.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The minidriver specifies this routine's address in the <b>DeleteAllocator</b> member of its <a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a> structure. The minidriver passes this structure to the class driver in <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>.
 
 Once this function is called, AVStream will no longer use the allocator to allocate and free memory. This handler should release all system resources reserved by the allocator.
@@ -74,18 +92,15 @@ Once this function is called, AVStream will no longer use the allocator to alloc
 For more information, see <a href="https://msdn.microsoft.com/07812703-a66f-450a-b28e-4cf765267c4a">KS Allocators</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nc-ks-pfnkspininitializeallocator.md">AVStrMiniInitializeAllocator</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a>
+
  
 
  

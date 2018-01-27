@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7816c937-109c-40a8-8b67-04413b00e5fd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FSRTL_ADVANCED_FCB_HEADER, *PFSRTL_UNC_PROVIDER_REGISTRATION, FSRTL_ADVANCED_FCB_HEADER, FSRTL_UNC_PROVIDER_REGISTRATION, *PFSRTL_ADVANCED_FCB_HEADER
+ms.keywords: PFSRTL_ADVANCED_FCB_HEADER, ntifs/PFSRTL_ADVANCED_FCB_HEADER, *PFSRTL_ADVANCED_FCB_HEADER, contextstructures_cede2315-2c72-496f-a192-3ef25a8b0516.xml, FSRTL_UNC_PROVIDER_REGISTRATION, FSRTL_ADVANCED_FCB_HEADER, FSRTL_ADVANCED_FCB_HEADER structure [Installable File System Drivers], ifsk.fsrtl_advanced_fcb_header, _FSRTL_ADVANCED_FCB_HEADER, *PFSRTL_UNC_PROVIDER_REGISTRATION, ntifs/FSRTL_ADVANCED_FCB_HEADER, PFSRTL_ADVANCED_FCB_HEADER structure pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FSRTL_ADVANCED_FCB_HEADER
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PFSRTL_UNC_PROVIDER_REGISTRATION, FSRTL_ADVANCED_FCB_HEADER, FSRTL_UNC_PROVIDER_REGISTRATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FSRTL_ADVANCED_FCB_HEADER
+product: Windows
+targetos: Windows
+req.typenames: FSRTL_ADVANCED_FCB_HEADER, FSRTL_UNC_PROVIDER_REGISTRATION, *PFSRTL_UNC_PROVIDER_REGISTRATION
 ---
 
 # _FSRTL_ADVANCED_FCB_HEADER structure
 
 
-
 ## -description
+
+
 The <b>FSRTL_ADVANCED_FCB_HEADER</b> structure contains context information that a file system maintains about a file. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FSRTL_ADVANCED_FCB_HEADER {
@@ -62,15 +72,418 @@ typedef struct _FSRTL_ADVANCED_FCB_HEADER {
 
 ## -struct-fields
 
-### -field DUMMYSTRUCTNAME
+
+
+
+### -field _FSRTL_ADVANCED_FCB_HEADER
+
+ 
+
+
+### -field _FSRTL_ADVANCED_FCB_HEADER.Oplock
+
+ 
+
+
+### -field _FSRTL_ADVANCED_FCB_HEADER.ReservedForRemote
+
+ 
+
+
+### -field _FSRTL_ADVANCED_FCB_HEADER.DUMMYSTRUCTNAME
+
+ 
+
+
+### -field _FSRTL_ADVANCED_FCB_HEADER.FastMutex
+
+ 
+
+
+### -field _FSRTL_ADVANCED_FCB_HEADER.FilterContexts
+
+ 
+
+
+### -field _FSRTL_ADVANCED_FCB_HEADER.PushLock
+
+ 
+
+
+### -field _FSRTL_ADVANCED_FCB_HEADER.FileContextSupportPointer
+
+ 
+
+
+### -field _FSRTL_ADVANCED_FCB_HEADER.ReservedContext
+
+ 
+
+
+### -field _EOF_WAIT_BLOCK
+
+ 
+
+
+### -field _EOF_WAIT_BLOCK.EofWaitLinks
+
+ 
+
+
+### -field _EOF_WAIT_BLOCK.Event
+
+ 
+
+
+### -field _FSRTL_AUXILIARY_BUFFER
+
+ 
+
+
+### -field _FSRTL_AUXILIARY_BUFFER.Buffer
+
+ 
+
+
+### -field _FSRTL_AUXILIARY_BUFFER.Length
+
+ 
+
+
+### -field _FSRTL_AUXILIARY_BUFFER.Flags
+
+ 
+
+
+### -field _FSRTL_AUXILIARY_BUFFER.Mdl
+
+ 
+
+
+### -field _FILE_LOCK_INFO
+
+ 
+
+
+### -field _FILE_LOCK_INFO.StartingByte
+
+ 
+
+
+### -field _FILE_LOCK_INFO.Length
+
+ 
+
+
+### -field _FILE_LOCK_INFO.ExclusiveLock
+
+ 
+
+
+### -field _FILE_LOCK_INFO.Key
+
+ 
+
+
+### -field _FILE_LOCK_INFO.FileObject
+
+ 
+
+
+### -field _FILE_LOCK_INFO.ProcessId
+
+ 
+
+
+### -field _FILE_LOCK_INFO.EndingByte
+
+ 
+
+
+### -field _FILE_LOCK
+
+ 
+
+
+### -field _FILE_LOCK.CompleteLockIrpRoutine
+
+ 
+
+
+### -field _FILE_LOCK.UnlockRoutine
+
+ 
+
+
+### -field _FILE_LOCK.FastIoIsQuestionable
+
+ 
+
+
+### -field _FILE_LOCK.SpareC
+
+ 
+
+
+### -field _FILE_LOCK.LockInformation
+
+ 
+
+
+### -field _FILE_LOCK.LastReturnedLockInfo
+
+ 
+
+
+### -field _FILE_LOCK.LastReturnedLock
+
+ 
+
+
+### -field _FILE_LOCK.LockRequestsInProgress
+
+ 
+
+
+### -field Mutex
+
+ 
+
+
+### -field Cache
+
+ 
+
+
+### -field TimerQueue
+
+ 
+
+
+### -field NumEntries
+
+ 
+
+
+### -field _BASE_MCB
+
+ 
+
+
+### -field _BASE_MCB.MaximumPairCount
+
+ 
+
+
+### -field _BASE_MCB.PairCount
+
+ 
+
+
+### -field _BASE_MCB.PoolType
+
+ 
+
+
+### -field _BASE_MCB.Flags
+
+ 
+
+
+### -field _BASE_MCB.Mapping
+
+ 
+
+
+### -field _LARGE_MCB
+
+ 
+
+
+### -field _LARGE_MCB.GuardedMutex
+
+ 
+
+
+### -field _LARGE_MCB.BaseMcb
+
+ 
+
+
+### -field _MCB
+
+ 
+
+
+### -field _MCB.DummyFieldThatSizesThisStructureCorrectly
+
+ 
+
+
+### -field _OPLOCK_KEY_ECP_CONTEXT
+
+ 
+
+
+### -field _OPLOCK_KEY_ECP_CONTEXT.OplockKey
+
+ 
+
+
+### -field _OPLOCK_KEY_ECP_CONTEXT.Reserved
+
+ 
+
+
+### -field _DUAL_OPLOCK_KEY_ECP_CONTEXT
+
+ 
+
+
+### -field _DUAL_OPLOCK_KEY_ECP_CONTEXT.ParentOplockKey
+
+ 
+
+
+### -field _DUAL_OPLOCK_KEY_ECP_CONTEXT.TargetOplockKey
+
+ 
+
+
+### -field _DUAL_OPLOCK_KEY_ECP_CONTEXT.ParentOplockKeySet
+
+ 
+
+
+### -field _DUAL_OPLOCK_KEY_ECP_CONTEXT.TargetOplockKeySet
+
+ 
+
+
+### -field _REAL_NOTIFY_SYNC
+
+ 
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.MailslotsSupported
+
+ 
+
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.CscEnabled
+
+ 
+
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.DomainSvcAware
+
+ 
+
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ContainersAware
+
+ 
+
+
+### -field DUMMYUNIONNAME.ProviderFlags
+
+ 
+
+
+### -field DUMMYUNIONNAME2
+
+ 
+
+
+### -field DUMMYUNIONNAME2.DUMMYSTRUCTNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME2.DUMMYSTRUCTNAME.SupportsMutualAuth
+
+ 
+
+
+### -field DUMMYUNIONNAME2.DUMMYSTRUCTNAME.SupportsIntegrity
+
+ 
+
+
+### -field DUMMYUNIONNAME2.DUMMYSTRUCTNAME.SupportsPrivacy
+
+ 
+
+
+### -field DUMMYUNIONNAME2.HardeningCapabilities
+
+ 
+
+
+### -field LEGAL_ANSI_CHARACTER_ARRAY
+
+ 
+
+
+### -field NLS_OEM_LEAD_BYTE_INFO
+
+ 
+
+
+### -field GUID_ECP_OPLOCK_KEY
+
+ 
+
+
+### -field GUID_ECP_DUAL_OPLOCK_KEY
+
+ 
+
+
+### -field Version
+
+ 
+
+
+### -field FSRTL_COMMON_FCB_HEADER
+
+ 
+
+
+
+#### - ReservedForRemote
+
+If the file system is remote, this field is reserved. This member is only available starting with Windows 8 (that is, if the <b>Version</b> bit-field of the <a href="..\ntifs\ns-ntifs-_fsrtl_common_fcb_header.md">FSRTL_COMMON_FCB_HEADER</a> structure is greater than or equal to <b>FSRTL_FCB_HEADER_V2</b>).
+
+
+#### - Oplock
+
+The oplock for the file or directory. This member is only available starting with Windows 8 (that is, if the <b>Version</b> bit-field of the <a href="..\ntifs\ns-ntifs-_fsrtl_common_fcb_header.md">FSRTL_COMMON_FCB_HEADER</a> structure is greater than or equal to <b>FSRTL_FCB_HEADER_V2</b>).
+
+
+#### - DUMMYSTRUCTNAME
 
 An unnamed member that contains a structure of type <a href="..\ntifs\ns-ntifs-_fsrtl_common_fcb_header.md">FSRTL_COMMON_FCB_HEADER</a>. 
 
 
-### -field FastMutex
+#### - FileContextSupportPointer
+
+A pointer to a pointer field used by the file system runtime library (FSRTL) package to track file contexts.  If not <b>NULL</b>, this member must be a pointer to a PVOID variable inside a per-file structure for the file system that created the structure.  If <b>NULL</b>, file contexts are not supported.  This member is only available starting with Windows Vista (that is, if the <b>Version</b> bit-field of the <a href="..\ntifs\ns-ntifs-_fsrtl_common_fcb_header.md">FSRTL_COMMON_FCB_HEADER</a> structure is greater than or equal to <b>FSRTL_FCB_HEADER_V1</b>).
+
+
+#### - FastMutex
 
 A pointer to an initialized fast mutex that is used to synchronize access to the following members of <b>DUMMYSTRUCTNAME</b>:
-
 <ul>
 <li>
 <b>AllocationSize</b>
@@ -84,57 +497,73 @@ A pointer to an initialized fast mutex that is used to synchronize access to the
 <b>ValidDataLength</b>
 
 </li>
-</ul>
-If present, the <b>PushLock</b> member is used to synchronize access to the <b>FilterContexts</b> member; otherwise, <b>FastMutex</b> is used.
+</ul>If present, the <b>PushLock</b> member is used to synchronize access to the <b>FilterContexts</b> member; otherwise, <b>FastMutex</b> is used.
 
 
-### -field FilterContexts
-
-A pointer to the head of a list of all context structures that are associated with the file. Filter drivers can search this list by calling <a href="..\ntifs\nf-ntifs-fsrtllookupperstreamcontext.md">FsRtlLookupPerStreamContext</a> and modify it by calling <a href="..\ntifs\nf-ntifs-fsrtlinsertperstreamcontext.md">FsRtlInsertPerStreamContext</a> and <a href="..\ntifs\nf-ntifs-fsrtlremoveperstreamcontext.md">FsRtlRemovePerStreamContext</a>. 
-
-
-### -field PushLock
+#### - PushLock
 
 A push lock used to synchronize access to the <i>FilterContexts</i> list.  This member is only available starting with  Windows Vista (that is, if the <b>Version</b> bit-field of the <a href="..\ntifs\ns-ntifs-_fsrtl_common_fcb_header.md">FSRTL_COMMON_FCB_HEADER</a> structure is greater than or equal to <b>FSRTL_FCB_HEADER_V1</b>).
 
 
-### -field FileContextSupportPointer
+#### - FilterContexts
 
-A pointer to a pointer field used by the file system runtime library (FSRTL) package to track file contexts.  If not <b>NULL</b>, this member must be a pointer to a PVOID variable inside a per-file structure for the file system that created the structure.  If <b>NULL</b>, file contexts are not supported.  This member is only available starting with Windows Vista (that is, if the <b>Version</b> bit-field of the <a href="..\ntifs\ns-ntifs-_fsrtl_common_fcb_header.md">FSRTL_COMMON_FCB_HEADER</a> structure is greater than or equal to <b>FSRTL_FCB_HEADER_V1</b>).
-
-
-### -field Oplock
-
-The oplock for the file or directory. This member is only available starting with Windows 8 (that is, if the <b>Version</b> bit-field of the <a href="..\ntifs\ns-ntifs-_fsrtl_common_fcb_header.md">FSRTL_COMMON_FCB_HEADER</a> structure is greater than or equal to <b>FSRTL_FCB_HEADER_V2</b>).
-
-
-### -field ReservedForRemote
-
-If the file system is remote, this field is reserved. This member is only available starting with Windows 8 (that is, if the <b>Version</b> bit-field of the <a href="..\ntifs\ns-ntifs-_fsrtl_common_fcb_header.md">FSRTL_COMMON_FCB_HEADER</a> structure is greater than or equal to <b>FSRTL_FCB_HEADER_V2</b>).
+A pointer to the head of a list of all context structures that are associated with the file. Filter drivers can search this list by calling <a href="..\ntifs\nf-ntifs-fsrtllookupperstreamcontext.md">FsRtlLookupPerStreamContext</a> and modify it by calling <a href="..\ntifs\nf-ntifs-fsrtlinsertperstreamcontext.md">FsRtlInsertPerStreamContext</a> and <a href="..\ntifs\nf-ntifs-fsrtlremoveperstreamcontext.md">FsRtlRemovePerStreamContext</a>. 
 
 
 ## -remarks
+
+
 The <b>FSRTL_ADVANCED_FCB_HEADER</b> structure is a superset of the <a href="..\ntifs\ns-ntifs-_fsrtl_common_fcb_header.md">FSRTL_COMMON_FCB_HEADER</a> structure. File systems (including legacy filter and minifilter drivers, when applicable) must use the <b>FSRTL_ADVANCED_FCB_HEADER</b> structure. 
 
 File systems must use the <a href="..\ntifs\nf-ntifs-fsrtlsetupadvancedheader.md">FsRtlSetupAdvancedHeader</a> macro or the <a href="..\ntifs\nf-ntifs-fsrtlsetupadvancedheaderex.md">FsRtlSetupAdvancedHeaderEx</a> macro to initialize an <b>FSRTL_ADVANCED_FCB_HEADER</b> structure.
 
 The following flags are set by the <a href="..\ntifs\nf-ntifs-fsrtlsetupadvancedheader.md">FsRtlSetupAdvancedHeader</a> and <a href="..\ntifs\nf-ntifs-fsrtlsetupadvancedheaderex.md">FsRtlSetupAdvancedHeaderEx</a> macros.
-
+<table>
+<tr>
+<th>Flag</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>
 FSRTL_FLAG_ADVANCED_HEADER
 
+</td>
+<td>
 Set in the <b>Flags</b> member of the  <a href="..\ntifs\ns-ntifs-_fsrtl_common_fcb_header.md">FSRTL_COMMON_FCB_HEADER</a> structure, this flag indicates file system driver support for <b>FSRTL_ADVANCED_FCB_HEADER</b> structures.  This flag should not be modified.
 
+</td>
+</tr>
+<tr>
+<td>
 FSRTL_FLAG2_SUPPORTS_FILTER_CONTEXTS
 
+</td>
+<td>
 Set in the <b>Flags2</b> member of  <a href="..\ntifs\ns-ntifs-_fsrtl_common_fcb_header.md">FSRTL_COMMON_FCB_HEADER</a>, this flag indicates support for filter driver contexts.  This flag can only be cleared for paging files (see information after the table).
 
+</td>
+</tr>
+<tr>
+<td>
 FSRTL_FCB_HEADER_V1
 
+</td>
+<td>
 Set in the <b>Version</b> member of <a href="..\ntifs\ns-ntifs-_fsrtl_common_fcb_header.md">FSRTL_COMMON_FCB_HEADER</a>, this value indicates support for the <b>PushLock</b> and <b>FilterContextPointer</b> members.  This flag should not be modified.
 
+</td>
+</tr>
+<tr>
+<td>
 FSRTL_FCB_HEADER_V2
 
+</td>
+<td>
 Set in the <b>Version</b> member of <a href="..\ntifs\ns-ntifs-_fsrtl_common_fcb_header.md">FSRTL_COMMON_FCB_HEADER</a>, this value indicates support for the <b>PushLock</b>, <b>FilterContextPointer</b>, <b>Oplock</b>, and <b>ReservedForRemote</b> members.  This flag should not be modified.
+
+</td>
+</tr>
+</table> 
 
 File systems must set the <b>FsContext</b> member of every file object to point to an <b>FSRTL_ADVANCED_FCB_HEADER</b> structure. This structure can be embedded inside of a context object structure that is specific to a file-system stream  (the remainder of the structure is file-system–specific). Usually, this structure is a file control block (FCB). However, on some file systems that support multiple data streams, such as NTFS, it is a stream control block (SCB).  Note that FCBs and SCBs for all classes of open requests, including volume open requests, must include this structure.
 
@@ -143,33 +572,25 @@ If the file is a paging file, the <b>FSRTL_ADVANCED_FCB_HEADER</b> structure mus
 All Microsoft file systems disable stream context support for paging files by clearing the <b>FSRTL_FLAG2_SUPPORTS_FILTER_CONTEXTS</b> flag in the <b>Flags2</b> member of <a href="..\ntifs\ns-ntifs-_fsrtl_common_fcb_header.md">FSRTL_COMMON_FCB_HEADER</a> after they call <a href="..\ntifs\nf-ntifs-fsrtlsetupadvancedheader.md">FsRtlSetupAdvancedHeader</a>. (See the <b>FatCreateFcb</b> function in <i>Strucsup.c</i> for the FASTFAT WDK sample.) You are strongly encouraged to do the same in your file system or systems so that the operating system will behave in a consistent manner across all file systems.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\ns-ntifs-_fsrtl_common_fcb_header.md">FSRTL_COMMON_FCB_HEADER</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_fsrtl_per_stream_context.md">FSRTL_PER_STREAM_CONTEXT</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-fsrtlinsertperstreamcontext.md">FsRtlInsertPerStreamContext</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-fsrtllookupperstreamcontext.md">FsRtlLookupPerStreamContext</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-fsrtlremoveperstreamcontext.md">FsRtlRemovePerStreamContext</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-fsrtlsetupadvancedheader.md">FsRtlSetupAdvancedHeader</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-fsrtlsetupadvancedheaderex.md">FsRtlSetupAdvancedHeaderEx</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-fsrtllookupperstreamcontext.md">FsRtlLookupPerStreamContext</a>
+
+<a href="..\ntifs\nf-ntifs-fsrtlsetupadvancedheader.md">FsRtlSetupAdvancedHeader</a>
+
+<a href="..\ntifs\nf-ntifs-fsrtlinsertperstreamcontext.md">FsRtlInsertPerStreamContext</a>
+
+<a href="..\ntifs\ns-ntifs-_fsrtl_per_stream_context.md">FSRTL_PER_STREAM_CONTEXT</a>
+
+<a href="..\ntifs\ns-ntifs-_fsrtl_common_fcb_header.md">FSRTL_COMMON_FCB_HEADER</a>
+
+<a href="..\ntifs\nf-ntifs-fsrtlremoveperstreamcontext.md">FsRtlRemovePerStreamContext</a>
+
 <a href="..\ntifs\nf-ntifs-fsrtlteardownperstreamcontexts.md">FsRtlTeardownPerStreamContexts</a>
-</dt>
-</dl>
+
  
 
  

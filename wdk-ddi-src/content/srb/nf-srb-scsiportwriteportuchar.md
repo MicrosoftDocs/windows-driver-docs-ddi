@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: aba28a55-d7bc-4f75-ac87-4148cb1b4cfb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortWritePortUchar
+ms.keywords: ScsiPortWritePortUchar routine [Storage Devices], storage.scsiportwriteportuchar, scsiprt_4dfda130-8e22-44b3-a57a-0656cd2a70f2.xml, srb/ScsiPortWritePortUchar, ScsiPortWritePortUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ScsiPortWritePortUchar
-req.alt-loc: Scsiport.lib,Scsiport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Scsiport.lib
+-	Scsiport.dll
+apiname: 
+-	ScsiPortWritePortUchar
+product: Windows
+targetos: Windows
 req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ScsiPortWritePortUchar function
 
 
-
 ## -description
+
+
 The <b>ScsiPortWritePortUchar</b> routine transfers an unsigned byte to the HBA.
-
-
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 VOID ScsiPortWritePortUchar(
@@ -55,6 +66,9 @@ VOID ScsiPortWritePortUchar(
 
 
 ## -parameters
+
+
+
 
 ### -param Port [in]
 
@@ -67,18 +81,16 @@ Specifies the value to be written to the HBA's I/O port.
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
-</dt>
-</dl>
+
  
 
  

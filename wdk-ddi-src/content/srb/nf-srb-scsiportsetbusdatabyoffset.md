@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 64f46049-fbf0-4d9b-b5fe-9877a964755f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortSetBusDataByOffset
+ms.keywords: scsiprt_83fdaa63-8e40-41e6-8f60-b9cc98c6eade.xml, ScsiPortSetBusDataByOffset, ScsiPortSetBusDataByOffset routine [Storage Devices], srb/ScsiPortSetBusDataByOffset, storage.scsiportsetbusdatabyoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ScsiPortSetBusDataByOffset
-req.alt-loc: Scsiport.lib,Scsiport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Scsiport.lib
+-	Scsiport.dll
+apiname: 
+-	ScsiPortSetBusDataByOffset
+product: Windows
+targetos: Windows
 req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ScsiPortSetBusDataByOffset function
 
 
-
 ## -description
+
+
 The <b>ScsiPortSetBusDataByOffset</b> routine sets bus-configuration data for an adapter on a dynamically configurable I/O bus with a published, standard interface. 
-
-
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 ULONG ScsiPortSetBusDataByOffset(
@@ -60,6 +71,9 @@ ULONG ScsiPortSetBusDataByOffset(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceExtension [in]
 
@@ -101,36 +115,35 @@ Specifies the number of bytes in the storage area at <i>Buffer</i>.
 
 
 ## -returns
+
+
 <b>ScsiPortSetBusDataByOffset</b> returns the number of bytes of data successfully set for the given <i>SlotNumber</i>. If the given <i>BusDataType</i> is not valid for the current platform or if the supplied information is invalid, <b>ScsiPortSetBusDataByOffset</b> returns zero. 
 
 
+
 ## -remarks
+
+
 Miniport drivers of HBAs on a PCI bus seldom call <b>ScsiPortSetBusDataByOffset</b> unless unusual circumstances or the nature of a particular driver's HBA requires such a call. For example, a miniport driver might call <b>ScsiPortSetBusDataByOffset</b> to clear a bit in the PCI status register if its HBA signals a target abort during initialization or to set device-specific configuration data for the HBA.
 
 <b>ScsiPortSetBusDataByOffset</b> can be called only from the miniport driver's <i>HwScsiFindAdapter</i> routine or from HwScsiAdapterControl when the control type is <b>ScsiSetRunningConfig</b>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
-</dt>
-<dt>
+
 <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
+
 <a href="..\srb\nf-srb-scsiportgetbusdata.md">ScsiPortGetBusData</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
+
+<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
+
+<a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\wdi_mac_address.htm
 old-project: netvista
 ms.assetid: e170b797-f8bb-4d3c-a3ee-5fd1a817a500
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WDI_MAC_ADDRESS, *PWDI_MAC_ADDRESS, WDI_MAC_ADDRESS
+ms.date: 1/18/2018
+ms.keywords: netvista.wdi_mac_address, WDI_MAC_ADDRESS, PWDI_MAC_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], netvista.wifi_mac_address, dot11wdi/PWDI_MAC_ADDRESS, *PWDI_MAC_ADDRESS, WDI_MAC_ADDRESS structure [Network Drivers Starting with Windows Vista], _WDI_MAC_ADDRESS, dot11wdi/WDI_MAC_ADDRESS, PWDI_MAC_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WDI_MAC_ADDRESS
-req.alt-loc: dot11wdi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dot11wdi.h
+apiname: 
+-	WDI_MAC_ADDRESS
+product: Windows
+targetos: Windows
 req.typenames: *PWDI_MAC_ADDRESS, WDI_MAC_ADDRESS
 ---
 
 # _WDI_MAC_ADDRESS structure
 
 
-
 ## -description
+
+
 The 
   WDI_MAC_ADDRESS structure defines an IEEE media access control (MAC) address.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WDI_MAC_ADDRESS {
@@ -55,9 +65,10 @@ typedef struct _WDI_MAC_ADDRESS {
 
 ## -struct-fields
 
+
+
+
 ### -field Address
 
 A Wi-Fi MAC address.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c3dd02d1-c259-4c17-8bd5-ee304e576a39
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _SID_NAME_USE, *PSID_NAME_USE, SID_NAME_USE
+ms.keywords: ntifs/SidTypeInvalid, PSID_NAME_USE, securitystructures_7ff44465-6d8e-46f6-9bd4-b5be754dde4b.xml, SidTypeDomain, ntifs/SidTypeUser, ntifs/SidTypeGroup, ntifs/SidTypeDeletedAccount, *PSID_NAME_USE, ntifs/SID_NAME_USE, SidTypeUnknown, ntifs/SidTypeAlias, SidTypeLabel, SidTypeWellKnownGroup, ntifs/PSID_NAME_USE, SidTypeInvalid, ntifs/SidTypeLabel, _SID_NAME_USE, SID_NAME_USE, SidTypeComputer, ntifs/SidTypeComputer, PSID_NAME_USE enumeration pointer [Installable File System Drivers], SidTypeUser, ntifs/SidTypeWellKnownGroup, SidTypeAlias, SidTypeGroup, SID_NAME_USE enumeration [Installable File System Drivers], ntifs/SidTypeDomain, SidTypeDeletedAccount, ntifs/SidTypeUnknown, ifsk.sid_name_use
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SID_NAME_USE
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	SID_NAME_USE
+product: Windows
+targetos: Windows
 req.typenames: *PSID_NAME_USE, SID_NAME_USE
 ---
 
 # _SID_NAME_USE enumeration
 
 
-
 ## -description
+
+
 The SID_NAME_USE enumeration type contains values that specify the type of a security identifier (SID).
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _SID_NAME_USE { 
@@ -62,6 +72,9 @@ typedef enum _SID_NAME_USE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field SidTypeUser
 
@@ -111,19 +124,25 @@ This value indicates a SID for a computer.
 ### -field SidTypeLabel
 
 
+
+### -field SidTypeLogonSession
+
+
+
+
 ## -remarks
+
+
 This enumeration type is the same as the Win32 SID_NAME_USE enumeration type defined in <i>winnt.h</i> used by the Win32 <b>LookupAccountName</b> and <b>LookupAccountSid</b> functions. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-seclookupaccountsid.md">SecLookupAccountSid</a>
-</dt>
-</dl>
+
  
 
  

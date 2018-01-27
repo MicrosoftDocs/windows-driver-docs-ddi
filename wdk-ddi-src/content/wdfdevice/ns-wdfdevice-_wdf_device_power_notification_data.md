@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 23fb912b-58c2-4f76-8173-f4125174a149
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_DEVICE_POWER_NOTIFICATION_DATA, WDF_DEVICE_POWER_NOTIFICATION_DATA
+ms.keywords: _WDF_DEVICE_POWER_NOTIFICATION_DATA, WDF_DEVICE_POWER_NOTIFICATION_DATA structure, wdf.wdf_device_power_notification_data, kmdf.wdf_device_power_notification_data, wdfdevice/WDF_DEVICE_POWER_NOTIFICATION_DATA, DFDeviceObjectGeneralRef_afff2c28-e176-47c7-b1f2-8e8986b9f29d.xml, WDF_DEVICE_POWER_NOTIFICATION_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WDF_DEVICE_POWER_NOTIFICATION_DATA
-req.alt-loc: wdfdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfdevice.h
+apiname: 
+-	WDF_DEVICE_POWER_NOTIFICATION_DATA
+product: Windows
+targetos: Windows
 req.typenames: WDF_DEVICE_POWER_NOTIFICATION_DATA
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_DEVICE_POWER_NOTIFICATION_DATA structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The WDF_DEVICE_POWER_NOTIFICATION_DATA structure describes a state change within a device's power state machine.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WDF_DEVICE_POWER_NOTIFICATION_DATA {
@@ -70,66 +80,66 @@ typedef struct _WDF_DEVICE_POWER_NOTIFICATION_DATA {
 
 ## -struct-fields
 
-### -field Type
 
-A <a href="..\wdfdevice\ne-wdfdevice-_wdf_state_notification_type.md">WDF_STATE_NOTIFICATION_TYPE</a>-typed enumerator that identifies the type of state change that is being reported.
 
 
 ### -field Data
 
 
-### -field EnterState
+
+### -field Data.EnterState
 
 
-### -field CurrentState
+
+### -field Data.EnterState.CurrentState
 
 If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_power_state.md">WDF_DEVICE_POWER_STATE</a>-typed enumerator identifies the state machine's current state.
 
 
-### -field NewState
+### -field Data.EnterState.NewState
 
 If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_power_state.md">WDF_DEVICE_POWER_STATE</a>-typed enumerator identifies the state machine's next state.
 
-</dd>
-</dl>
 
-### -field PostProcessState
+### -field Data.PostProcessState
 
 
-### -field CurrentState
 
-If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_power_state.md">WDF_DEVICE_POWER_STATE</a>-typed enumerator identifies the state machine's current state.
-
-</dd>
-</dl>
-
-### -field LeaveState
-
-
-### -field CurrentState
+### -field Data.PostProcessState.CurrentState
 
 If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_power_state.md">WDF_DEVICE_POWER_STATE</a>-typed enumerator identifies the state machine's current state.
 
 
-### -field NewState
+### -field Data.LeaveState
+
+
+
+### -field Data.LeaveState.CurrentState
+
+If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_power_state.md">WDF_DEVICE_POWER_STATE</a>-typed enumerator identifies the state machine's current state.
+
+
+### -field Data.LeaveState.NewState
 
 If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_power_state.md">WDF_DEVICE_POWER_STATE</a>-typed enumerator identifies the state machine's next state.
 
-</dd>
-</dl>
-</dd>
-</dl>
+
+### -field Type
+
+A <a href="..\wdfdevice\ne-wdfdevice-_wdf_state_notification_type.md">WDF_STATE_NOTIFICATION_TYPE</a>-typed enumerator that identifies the type of state change that is being reported.
+
 
 ## -remarks
+
+
 The <b>WDF_DEVICE_POWER_NOTIFICATION_DATA</b> structure is an input argument to a driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_power_state_change_notification.md">EvtDevicePowerStateChange</a> callback function.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitregisterpowerstatechangecallback.md">WdfDeviceInitRegisterPowerStateChangeCallback</a>
-</dt>
-</dl>
+
  
 
  

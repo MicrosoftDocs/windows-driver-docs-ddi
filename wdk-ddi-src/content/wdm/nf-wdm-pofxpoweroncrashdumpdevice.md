@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 41560DC4-EE5E-4756-8540-ACC19835A9DA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxPowerOnCrashdumpDevice
+ms.keywords: wdm/PoFxPowerOnCrashdumpDevice, PoFxPowerOnCrashdumpDevice, PoFxPowerOnCrashdumpDevice routine [Kernel-Mode Driver Architecture], kernel.pofxpoweroncrashdumpdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.1.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PoFxPowerOnCrashdumpDevice
-req.alt-loc: ntoskrnl.lib,ntoskrnl.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: <= HIGH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ntoskrnl.lib
+-	ntoskrnl.dll
+apiname: 
+-	PoFxPowerOnCrashdumpDevice
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # PoFxPowerOnCrashdumpDevice function
 
 
-
 ## -description
+
+
 The <b>PoFxPowerOnCrashdumpDevice</b> routine requests that a crash-dump device be turned on.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PoFxPowerOnCrashdumpDevice(
@@ -55,6 +66,9 @@ NTSTATUS PoFxPowerOnCrashdumpDevice(
 
 
 ## -parameters
+
+
+
 
 ### -param Handle [in]
 
@@ -67,18 +81,43 @@ A pointer to a device-specific context. This pointer is passed as an input param
 
 
 ## -returns
+
+
 <b>PoFxPowerOnCrashdumpDevice</b> returns STATUS_SUCCESS if the routine succeeds in turning on power to the device. Possible error return values include the following status codes.
+<table>
+<tr>
+<th>Return value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt>STATUS_INVALID_PARAMETER</dt>
-</dl>Not a valid handle value.
+</dl>
+</td>
+<td width="60%">
+Not a valid handle value.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt>STATUS_UNSUCCESSFUL</dt>
-</dl>The PEP for this device does not implement a <i>PowerOnDumpDeviceCallback</i> callback routine; or the PEP failed to turn on the device.
+</dl>
+</td>
+<td width="60%">
+The PEP for this device does not implement a <i>PowerOnDumpDeviceCallback</i> callback routine; or the PEP failed to turn on the device.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The driver for a crash-dump device calls this routine to request that the platform extension plug-in (PEP) turn the device on so that a crash dump can be saved. All devices in the crash-dump device chain (which might include a storage controller, a PCI controller, and so on) must be turned on before a crash-dump file can be written to disk.
 
 For more information about crash dumps, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551880">Kernel-Mode Dump Files</a>.
@@ -86,15 +125,13 @@ For more information about crash dumps, see <a href="https://msdn.microsoft.com/
 This routine can be called at IRQL &lt;= HIGH_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186875">PowerOnDumpDeviceCallback</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 2c82db4c-70b1-4601-a0b0-23b1f53e3503
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SD_COMMAND_CLASS, SD_COMMAND_CLASS
+ms.keywords: SDCC_STANDARD, sddef/SDCC_APP_CMD, SD_COMMAND_CLASS, sd-structs_ce4cd8ec-a512-422b-aed0-3052619f4f6a.xml, SD_COMMAND_CLASS enumeration [Buses], sddef/SD_COMMAND_CLASS, sddef/SDCC_STANDARD, SD.sd_command_class, SDCC_APP_CMD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SD_COMMAND_CLASS
-req.alt-loc: sddef.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	sddef.h
+apiname: 
+-	SD_COMMAND_CLASS
+product: Windows
+targetos: Windows
 req.typenames: SD_COMMAND_CLASS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SD_COMMAND_CLASS enumeration
 
 
-
 ## -description
+
+
 The SD_COMMAND_CLASS enumeration lists the classes of Secure Digital (SD) card commands.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -55,6 +65,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field SDCC_STANDARD
 
@@ -68,15 +81,10 @@ Indicates an SD command from the application command set. This command set inclu
 SD card drivers should not issue CMD55 (APP_CMD) commands through the SD bus interface. The bus driver will automatically issue the CMD55 command on behalf of the SD card driver when the command class is SDCC_APP_CMD.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/7c49c394-d0b3-4594-a623-0a13825bdcec">SDCMD_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

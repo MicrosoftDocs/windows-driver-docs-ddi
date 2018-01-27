@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 96236605-36b0-48f5-85d6-512160692b5f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _HBAFC3MgmtInfo, *PHBAFC3MgmtInfo, HBAFC3MgmtInfo
+ms.keywords: structs-Fibre_b128f553-eb08-4077-9dcb-7a7238ec220f.xml, _HBAFC3MgmtInfo, hbapiwmi/HBAFC3MgmtInfo, PHBAFC3MgmtInfo structure pointer [Storage Devices], hbapiwmi/PHBAFC3MgmtInfo, HBAFC3MgmtInfo structure [Storage Devices], HBAFC3MgmtInfo, PHBAFC3MgmtInfo, *PHBAFC3MgmtInfo, storage.hbafc3mgmtinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBAFC3MgmtInfo
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PHBAFC3MgmtInfo, HBAFC3MgmtInfo
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	HBAFC3MgmtInfo
+product: Windows
+targetos: Windows
+req.typenames: HBAFC3MgmtInfo, *PHBAFC3MgmtInfo
 ---
 
 # _HBAFC3MgmtInfo structure
 
 
-
 ## -description
+
+
 The HBAFC3MgmtInfo structure is used to report FC3 management information associated with a fibre channel adapter. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _HBAFC3MgmtInfo {
@@ -63,6 +73,9 @@ typedef struct _HBAFC3MgmtInfo {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UniqueAdapterId
 
@@ -120,17 +133,18 @@ Reserved.
 
 
 ## -remarks
+
+
 FC-3 refers to the common services layer of the fibre channel protocol. It defines a set of services which are common across multiple ports of a node. For an explanation of the common services layer, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
 
 The WMI tool suite generates a declaration of this structure automatically when it compiles the <b>HBAFC3MgmtInfo</b> WMI Class in <i>hbaapi.mof</i>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553939">GetFC3MgmtInfo</a>
-</dt>
-</dl>
+
  
 
  

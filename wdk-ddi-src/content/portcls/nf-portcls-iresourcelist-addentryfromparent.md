@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 83733c17-1f1f-4be6-ae14-aa921e481a73
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IResourceList, IResourceList::AddEntryFromParent, AddEntryFromParent
+ms.keywords: audmp-routines_428c97a0-498d-4732-a2cc-5be2af2aa64c.xml, AddEntryFromParent method [Audio Devices], audio.iresourcelist_addentryfromparent, portcls/IResourceList::AddEntryFromParent, AddEntryFromParent method [Audio Devices], IResourceList interface, IResourceList interface [Audio Devices], AddEntryFromParent method, IResourceList, AddEntryFromParent, IResourceList::AddEntryFromParent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IResourceList.AddEntryFromParent
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IResourceList.AddEntryFromParent
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IResourceList::AddEntryFromParent method
 
 
-
 ## -description
+
+
 The <code>AddEntryFromParent</code> method adds to a resource list an entry found in the resource list's parent list.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS AddEntryFromParent(
@@ -55,6 +65,9 @@ NTSTATUS AddEntryFromParent(
 
 
 ## -parameters
+
+
+
 
 ### -param Parent [in]
 
@@ -72,35 +85,57 @@ Specifies the index in the parent list of the entry to add. If the parent's <a h
 
 
 ## -returns
+
+
 <code>AddEntryFromParent</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code. The following table shows some of the possible return status codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>Indicates there are no free entries in the list.
+</dl>
+</td>
+<td width="60%">
+Indicates there are no free entries in the list.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>Indicates the entry was not found in the parent list.
+</dl>
+</td>
+<td width="60%">
+Indicates the entry was not found in the parent list.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 For each resource type, a macro is defined to call this method. See <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>.
 
 The <i>Parent</i> parameter follows the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
  
 
  

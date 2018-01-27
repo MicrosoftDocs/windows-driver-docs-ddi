@@ -7,8 +7,8 @@ old-location: netvista\net_dma_provider_characteristics.htm
 old-project: netvista
 ms.assetid: 7ec6d449-fdc2-44d8-976b-5a1d23c76e7b
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS
+ms.date: 1/18/2018
+ms.keywords: *PNET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], netdma/PNET_DMA_PROVIDER_CHARACTERISTICS, PNET_DMA_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], PNET_DMA_PROVIDER_CHARACTERISTICS, _NET_DMA_PROVIDER_CHARACTERISTICS, netdma/NET_DMA_PROVIDER_CHARACTERISTICS, netvista.net_dma_provider_characteristics, netdma_ref_24841207-9eca-483b-9ee5-81e7f24b62e6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NetDMA 2.0 drivers in Windows Server 20
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NET_DMA_PROVIDER_CHARACTERISTICS
-req.alt-loc: netdma.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,16 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PNET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	netdma.h
+apiname: 
+-	NET_DMA_PROVIDER_CHARACTERISTICS
+product: Windows
+targetos: Windows
+req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
 ---
 
 # _NET_DMA_PROVIDER_CHARACTERISTICS structure
 
 
-
 ## -description
 
+
+<div class="alert"><b>Note</b>  The NetDMA interface is not supported in Windows 8 and later.</div><div> </div>The NET_DMA_PROVIDER_CHARACTERISTICS structure specifies the characteristics for a NetDMA provider,
+  including the entry points for the 
+  <i>ProviderXxx</i> functions.
+
+
 ## -syntax
+
 
 ````
 typedef struct _NET_DMA_PROVIDER_CHARACTERISTICS {
@@ -65,6 +80,9 @@ typedef struct _NET_DMA_PROVIDER_CHARACTERISTICS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field MajorVersion
 
@@ -92,14 +110,6 @@ NetDMA 2.0 and later drivers can use the following flags.
 
 
 
-### -field NET_DMA_PROVIDER_CHARACTERISTICS_DCA_SUPPORTED
-
-The NetDMA provider supports 
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access (DCA)</a>.
-
-</dd>
-</dl>
-
 ### -field PhysicalDeviceObject
 
 The physical device object (PDO) that is associated with the DMA provider. The Plug and Play (PnP)
@@ -116,22 +126,22 @@ The maximum number of DMA channels that the DMA provider can support.
 ### -field SetDmaChannelCpuAffinity
 
 The entry point for the 
-     <a href="..\netdma\nc-netdma-dma_channels_cpu_affinity_handler.md">
-     ProviderSetDmaChannelCpuAffinity</a> function.
+     <mshelp:link keywords="netvista.providersetdmachannelcpuaffinity" tabindex="0"><b>
+     ProviderSetDmaChannelCpuAffinity</b></mshelp:link> function.
 
 
 ### -field AllocateDmaChannel
 
 The entry point for the 
-     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
-     ProviderAllocateDmaChannel</a> function.
+     <mshelp:link keywords="netvista.providerallocatedmachannel" tabindex="0"><b>
+     ProviderAllocateDmaChannel</b></mshelp:link> function.
 
 
 ### -field FreeDmaChannel
 
 The entry point for the 
-     <a href="..\netdma\nc-netdma-dma_channel_free_handler.md">
-     ProviderFreeDmaChannel</a> function.
+     <mshelp:link keywords="netvista.providerfreedmachannel" tabindex="0"><b>
+     ProviderFreeDmaChannel</b></mshelp:link> function.
 
 
 ### -field StartDma
@@ -180,7 +190,15 @@ A Unicode string that represents the user-readable description of the NetDMA pro
      driver.
 
 
+##### - Flags.NET_DMA_PROVIDER_CHARACTERISTICS_DCA_SUPPORTED
+
+The NetDMA provider supports 
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access (DCA)</a>.
+
+
 ## -remarks
+
+
 To register a DMA provider, a DMA provider driver calls the 
     <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a> function
     from its 
@@ -191,46 +209,35 @@ The DMA provider driver supplies a NET_DMA_PROVIDER_CHARACTERISTICS structure at
     <b>NetDmaRegisterProvider</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
-</dt>
-<dt>
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
-</dt>
-<dt>
-<a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>
-</dt>
-<dt>
+
 <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
-</dt>
-<dt>
-<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
-</dt>
-<dt>
-<a href="..\netdma\nc-netdma-dma_channel_free_handler.md">ProviderFreeDmaChannel</a>
-</dt>
-<dt>
-<a href="..\netdma\nc-netdma-dma_channels_cpu_affinity_handler.md">
-   ProviderSetDmaChannelCpuAffinity</a>
-</dt>
-<dt>
-<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.providersetdmachannelcpuaffinity" tabindex="0"><b>
+   ProviderSetDmaChannelCpuAffinity</b></mshelp:link>
+
 <a href="..\netdma\nc-netdma-dma_suspend_handler.md">ProviderSuspendDma</a>
-</dt>
-<dt>
-<a href="..\netdma\nc-netdma-dma_reset_handler.md">ProviderResetChannel</a>
-</dt>
-<dt>
+
 <a href="..\netdma\nc-netdma-dma_resume_handler.md">ProviderResumeDma</a>
-</dt>
-</dl>
- 
+
+<a href="..\netdma\nc-netdma-dma_reset_handler.md">ProviderResetChannel</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+
+<a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>
+
+<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
+
+<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+
+<a href="..\netdma\nc-netdma-dma_channel_free_handler.md">ProviderFreeDmaChannel</a>
+
+<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_DMA_PROVIDER_CHARACTERISTICS structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_DMA_PROVIDER_CHARACTERISTICS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

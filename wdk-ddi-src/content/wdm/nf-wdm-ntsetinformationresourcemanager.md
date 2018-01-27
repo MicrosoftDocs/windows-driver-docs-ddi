@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0a0d86c7-1d42-4312-a4f9-9b9ea092ebec
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtSetInformationResourceManager
+ms.keywords: kernel.zwsetinformationresourcemanager, wdm/, ktm_ref_6b15a16a-ffed-4f3e-9ca3-370b85896dc2.xml, wdm/NtSetInformationResourceManager, function [Kernel-Mode Driver Architecture], NtSetInformationResourceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwSetInformationResourceManager,NtSetInformationResourceManager
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,21 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	ZwSetInformationResourceManager
+-	NtSetInformationResourceManager
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # NtSetInformationResourceManager function
 
 
-
 ## -description
+
+
 The <b>ZwSetInformationResourceManager</b> routine is not used.
 
 
-
 ## -syntax
+
 
 ````
 void (void);
@@ -54,26 +65,49 @@ void (void);
 ## -parameters
 
 
+
+
+### -param ResourceManagerHandle
+
+TBD
+
+
+### -param ResourceManagerInformationClass
+
+TBD
+
+
+### -param ResourceManagerInformation
+
+TBD
+
+
+### -param ResourceManagerInformationLength
+
+TBD
+
+
+
 ## -returns
-This function does not return a value.
+
 
 This function does not return a value.
 
-This function does not return a value.
 
 
 ## -remarks
+
+
 <b>NtSetInformationResourceManager</b> and <b>ZwSetInformationResourceManager</b> are two versions of the same Windows Native System Services routine.
 
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-</dt>
-</dl>
+
  
 
  

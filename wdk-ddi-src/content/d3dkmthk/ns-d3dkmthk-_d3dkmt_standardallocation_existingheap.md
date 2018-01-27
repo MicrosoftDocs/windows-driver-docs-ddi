@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7e97fb29-64a7-4fb5-b07e-a9810499cf1b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_STANDARDALLOCATION_EXISTINGHEAP, D3DKMT_STANDARDALLOCATION_EXISTINGHEAP
+ms.keywords: _D3DKMT_STANDARDALLOCATION_EXISTINGHEAP, D3DKMT_STANDARDALLOCATION_EXISTINGHEAP structure [Display Devices], D3DKMT_STANDARDALLOCATION_EXISTINGHEAP, display.d3dkmt-standardallocation-existingheap, d3dkmthk/D3DKMT_STANDARDALLOCATION_EXISTINGHEAP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_STANDARDALLOCATION_EXISTINGHEAP
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_STANDARDALLOCATION_EXISTINGHEAP
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_STANDARDALLOCATION_EXISTINGHEAP
 ---
 
 # _D3DKMT_STANDARDALLOCATION_EXISTINGHEAP structure
 
 
-
 ## -description
+
+
 Holds information about the existing heap.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_STANDARDALLOCATION_EXISTINGHEAP {
@@ -54,9 +64,10 @@ typedef struct _D3DKMT_STANDARDALLOCATION_EXISTINGHEAP {
 
 ## -struct-fields
 
+
+
+
 ### -field Size
 
 Size in bytes of the existing heap.
 
-
-## -remarks

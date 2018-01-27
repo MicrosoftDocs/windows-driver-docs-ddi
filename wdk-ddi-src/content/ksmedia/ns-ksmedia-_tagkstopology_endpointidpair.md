@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 556B56A6-1EF4-406B-A9FB-901C0CF24BC0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _tagKSTOPOLOGY_ENDPOINTIDPAIR, *PKSTOPOLOGY_ENDPOINTIDPAIR, KSTOPOLOGY_ENDPOINTIDPAIR
+ms.keywords: KSTOPOLOGY_ENDPOINTIDPAIR structure [Audio Devices], audio.kstopology_endpointidpair, ksmedia/PKSTOPOLOGY_ENDPOINTIDPAIR, PKSTOPOLOGY_ENDPOINTIDPAIR, *PKSTOPOLOGY_ENDPOINTIDPAIR, _tagKSTOPOLOGY_ENDPOINTIDPAIR, KSTOPOLOGY_ENDPOINTIDPAIR, ksmedia/KSTOPOLOGY_ENDPOINTIDPAIR, PKSTOPOLOGY_ENDPOINTIDPAIR structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10,Windows 10 Mobile
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSTOPOLOGY_ENDPOINTIDPAIR
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSTOPOLOGY_ENDPOINTIDPAIR
+product: Windows
+targetos: Windows
 req.typenames: *PKSTOPOLOGY_ENDPOINTIDPAIR, KSTOPOLOGY_ENDPOINTIDPAIR
 ---
 
 # _tagKSTOPOLOGY_ENDPOINTIDPAIR structure
 
 
-
 ## -description
+
+
 The <b>KSTOPOLOGY_ENDPOINTIDPAIR</b> structure specifies the render and capture endpoint IDs to use for the <a href="https://msdn.microsoft.com/library/windows/hardware/mt169874">KSPROPERTY_TELEPHONY_ENDPOINTIDPAIR</a> property.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _tagKSTOPOLOGY_ENDPOINTIDPAIR {
@@ -55,6 +65,9 @@ typedef struct _tagKSTOPOLOGY_ENDPOINTIDPAIR {
 
 ## -struct-fields
 
+
+
+
 ### -field RenderEndpoint
 
 Specifies the render endpoint ID.
@@ -65,15 +78,10 @@ Specifies the render endpoint ID.
 Specifies the capture endpoint ID. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-_tagkstopology_endpointid.md">KSTOPOLOGY_ENDPOINTID</a>
-</dt>
-</dl>
+
  
 
  

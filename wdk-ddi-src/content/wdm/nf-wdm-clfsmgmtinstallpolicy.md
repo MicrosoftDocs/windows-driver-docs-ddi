@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0a492a86-e732-4302-b35d-9b2a5eb05445
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsMgmtInstallPolicy
+ms.keywords: ClfsMgmtInstallPolicy routine [Kernel-Mode Driver Architecture], ClfsMgmtInstallPolicy, wdm/ClfsMgmtInstallPolicy, Clfs_management_44c8b983-a3bb-4fe3-9022-3e669ba5af2b.xml, kernel.clfsmgmtinstallpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ClfsMgmtInstallPolicy
-req.alt-loc: Clfs.sys,Ext-MS-Win-fs-clfs-l1-1-0.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Clfs.sys
+-	Ext-MS-Win-fs-clfs-l1-1-0.dll
+apiname: 
+-	ClfsMgmtInstallPolicy
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ClfsMgmtInstallPolicy function
 
 
-
 ## -description
+
+
 The <b>ClfsMgmtInstallPolicy</b> routine adds a <a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a> structure to a physical log.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ClfsMgmtInstallPolicy(
@@ -56,6 +67,9 @@ NTSTATUS ClfsMgmtInstallPolicy(
 
 
 ## -parameters
+
+
+
 
 ### -param LogFile [in]
 
@@ -73,44 +87,125 @@ The length, in bytes, of the structure pointed to by the <i>Policy</i> parameter
 
 
 ## -returns
+
+
 The <b>ClfsMgmtInstallPolicy</b> routine returns one of the following NTSTATUS values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The policy has been installed.
+</dl>
+</td>
+<td width="60%">
+The policy has been installed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER_1</b></dt>
-</dl>A <b>NULL</b> value was supplied for the <i>LogFile</i> parameter.
+</dl>
+</td>
+<td width="60%">
+A <b>NULL</b> value was supplied for the <i>LogFile</i> parameter.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER_2</b></dt>
-</dl>A <b>NULL</b> value was supplied for the <i>Policy</i> parameter. 
+</dl>
+</td>
+<td width="60%">
+A <b>NULL</b> value was supplied for the <i>Policy</i> parameter. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER_3</b></dt>
-</dl>The value of the <i>PolicyLength</i> parameter is less than the size of an instance of the <a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a> structure.
+</dl>
+</td>
+<td width="60%">
+The value of the <i>PolicyLength</i> parameter is less than the size of an instance of the <a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a> structure.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>The <b>PolicyFlags</b> member of the <b>CLFS_MGMT_POLICY_STRUCTURE</b> pointed to by the <i>Policy</i> parameter specifies any flag other than LOG_POLICY_OVERWRITE.
+</dl>
+</td>
+<td width="60%">
+The <b>PolicyFlags</b> member of the <b>CLFS_MGMT_POLICY_STRUCTURE</b> pointed to by the <i>Policy</i> parameter specifies any flag other than LOG_POLICY_OVERWRITE.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>One of the following conditions is true:
+</dl>
+</td>
+<td width="60%">
+One of the following conditions is true:
 
+<ul>
+<li>
 The <i>Policy</i> parameter's <b>Version</b> member is not equal to CLFS_MGMT_POLICY_VERSION.
 
+</li>
+<li>
 The value of the <i>Policy </i>parameter is equal to <b>ClfsMgmtPolicyInvalid</b>.
 
+</li>
+<li>
 The <i>Policy</i> parameter's <b>PolicyFlags</b> member specifies any flag other than LOG_POLICY_OVERWRITE.
+
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_LOG_POLICY_ALREADY_INSTALLED</b></dt>
-</dl>The log already has a policy of this type, and the LOG_POLICY_OVERWRITE flag is not set.
+</dl>
+</td>
+<td width="60%">
+The log already has a policy of this type, and the LOG_POLICY_OVERWRITE flag is not set.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>There is insufficient memory to complete the operation.
+</dl>
+</td>
+<td width="60%">
+There is insufficient memory to complete the operation.
 
- 
+</td>
+</tr>
+</table> 
 
 This routine might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS Values</a>.
 
 
+
 ## -remarks
+
+
 Policies are volatile. When all handles to the log are closed, the policies will be lost. You should install policies each time you register the first client.
 
 You should only register a <b>CLFS_MGMT_POLICY</b> structure whose <b>PolicyType</b> member is equal to <b>ClfsMgmtPolicyNewContainerSize</b> before the first container in the log is created. Any subsequent registrations are ignored.
@@ -118,12 +213,11 @@ You should only register a <b>CLFS_MGMT_POLICY</b> structure whose <b>PolicyType
 The log policy that is installed applies to the physical log, even if the <i>LogFile</i> parameter specifies a log stream.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a>
-</dt>
-</dl>
+
  
 
  

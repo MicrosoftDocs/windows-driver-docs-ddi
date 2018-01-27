@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aba2efca-7d1f-4594-af65-13356f0e3f8b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDriverMiniportUnload
+ms.keywords: wdf.evtcleanupcallback, EvtCleanupCallback callback function, EvtCleanupCallback, EVT_WDF_OBJECT_CONTEXT_CLEANUP, EVT_WDF_OBJECT_CONTEXT_CLEANUP, wdfobject/EvtCleanupCallback, DFGenObjectRef_aef7bd25-42a4-41d2-9ba1-1b1113159657.xml, kmdf.evtcleanupcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: EvtCleanupCallback
-req.alt-loc: Wdfobject.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wdfobject.h
+apiname: 
+-	EvtCleanupCallback
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_MEMORY_DESCRIPTOR, WDF_MEMORY_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # EVT_WDF_OBJECT_CONTEXT_CLEANUP callback
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 A driver's <i>EvtCleanupCallback</i> event callback function removes the driver's references on an object so that the object can be deleted.
 
 
-
 ## -prototype
+
 
 ````
 EVT_WDF_OBJECT_CONTEXT_CLEANUP EvtCleanupCallback;
@@ -60,16 +70,24 @@ VOID EvtCleanupCallback(
 
 ## -parameters
 
+
+
+
 ### -param Object [in]
 
 A handle to a framework object.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The driver can specify an <i>EvtCleanupCallback</i> callback function in a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure. This structure is used as input to all of the framework methods that create framework objects, such as <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. 
 
 The framework calls the callback function when either the framework or a driver attempts to delete the object. 
@@ -99,60 +117,81 @@ To avoid any problems that might result from this behavior, drivers should not s
 For more information about deleting framework objects, see <a href="https://msdn.microsoft.com/33efc3a8-ac46-4626-ba0f-beb1eaa9ee47">Framework Object Life Cycle</a>.
 
 Typically, the framework calls the <i>EvtCleanupCallback</i> callback function at IRQL &lt;= DISPATCH_LEVEL. However, the framework calls the callback function at IRQL = PASSIVE_LEVEL in the following situations:
-
+<ul>
+<li>
 The object's handle type is WDFDEVICE, WDFDRIVER, WDFDPC, WDFINTERRUPT, WDFIOTARGET, WDFQUEUE, WDFSTRING, WDFTIMER, or WDFWORKITEM.
 
+</li>
+<li>
 The object's handle type is WDFMEMORY or WDFLOOKASIDE, and the driver has specified <b>PagedPool</b> for the <i>PoolType</i> parameter to <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a> or <a href="..\wdfmemory\nf-wdfmemory-wdflookasidelistcreate.md">WdfLookasideListCreate</a>.
 
-When a work-item object is deleted, either explicitly or because the work item's parent object is being deleted, then before calling the work item's <i>EvtCleanupCallback</i> callback function, the framework waits until all instances of the work item's <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a> callback function have returned. For more information, see <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemenqueue.md">WdfWorkItemEnqueue</a>.
+</li>
+</ul>When a work-item object is deleted, either explicitly or because the work item's parent object is being deleted, then before calling the work item's <i>EvtCleanupCallback</i> callback function, the framework waits until all instances of the work item's <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a> callback function have returned. For more information, see <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemenqueue.md">WdfWorkItemEnqueue</a>.
 
 Similarly, when a timer object is deleted, either explicitly or because the timer's parent object is being deleted, then before calling the timer's <i>EvtCleanupCallback</i> callback function, the framework waits until all instances of the timer's <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a> event callback function have returned.
 
 Beginning with version 1.9 of the framework, the <i>wdfroletypes.h</i> header file contains some alternative, object type-specific, function types for the <i>EvtCleanupCallback</i> callback function. These alternative types help verification tools to determine whether the driver is properly using the callback function. Use the following table to determine which function type to use.
-
+<table>
+<tr>
+<th>Object Type</th>
+<th>Function Type</th>
+</tr>
+<tr>
+<td>
 Device object
 
+</td>
+<td>
 EVT_WDF_DEVICE_CONTEXT_CLEANUP
 
+</td>
+</tr>
+<tr>
+<td>
 I/O queue object
 
+</td>
+<td>
 EVT_WDF_IO_QUEUE_CONTEXT_CLEANUP_CALLBACK
 
+</td>
+</tr>
+<tr>
+<td>
 File object
 
+</td>
+<td>
 EVT_WDF_FILE_CONTEXT_CLEANUP_CALLBACK
 
+</td>
+</tr>
+<tr>
+<td>
 All other objects
 
+</td>
+<td>
 EVT_WDF_OBJECT_CONTEXT_CLEANUP
 
-To define an <i>EvtCleanupCallback</i> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+</td>
+</tr>
+</table> 
 
-For example, to define an <i>EvtCleanupCallback</i> callback function that is named <i>MyCleanupCallback</i>, use the <b>EVT_WDF_OBJECT_CONTEXT_CLEANUP</b> type as shown in this code example:
-
-Then, implement your callback function as follows:
-
-The <b>EVT_WDF_OBJECT_CONTEXT_CLEANUP</b> function type is defined in the Wdfobject.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_OBJECT_CONTEXT_CLEANUP</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-US/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
-</dt>
-<dt>
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-</dt>
-<dt>
+
 <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
+
 <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemflush.md">WdfWorkItemFlush</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
  
 
  

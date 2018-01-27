@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 44CA5D9D-EF6E-4681-93EB-B803638896F9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _tagKSTELEPHONY_CALLCONTROL, *PKSTELEPHONY_CALLCONTROL, KSTELEPHONY_CALLCONTROL
+ms.keywords: PKSTELEPHONY_CALLCONTROL, audio.kstelephony_callcontrol, ksmedia/KSTELEPHONY_CALLCONTROL, *PKSTELEPHONY_CALLCONTROL, KSTELEPHONY_CALLCONTROL structure [Audio Devices], KSTELEPHONY_CALLCONTROL, ksmedia/PKSTELEPHONY_CALLCONTROL, _tagKSTELEPHONY_CALLCONTROL, PKSTELEPHONY_CALLCONTROL structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10,Windows 10 Mobile
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSTELEPHONY_CALLCONTROL
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSTELEPHONY_CALLCONTROL
+product: Windows
+targetos: Windows
 req.typenames: *PKSTELEPHONY_CALLCONTROL, KSTELEPHONY_CALLCONTROL
 ---
 
 # _tagKSTELEPHONY_CALLCONTROL structure
 
 
-
 ## -description
+
+
 The <b>KSTELEPHONY_CALLCONTROL</b> structure specifies the phone call type and control operation to use for the <a href="https://msdn.microsoft.com/library/windows/hardware/mt169871">KSPROPERTY_TELEPHONY_CALLCONTROL</a> property.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _tagKSTELEPHONY_CALLCONTROL {
@@ -55,6 +65,9 @@ typedef struct _tagKSTELEPHONY_CALLCONTROL {
 
 ## -struct-fields
 
+
+
+
 ### -field CallType
 
 Specifies the type of phone call (circuit-switched, LTE packet-switched, or WLAN packet-switched).
@@ -64,5 +77,3 @@ Specifies the type of phone call (circuit-switched, LTE packet-switched, or WLAN
 
 Specifies the call control operation (enable or disable).
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9444670d-5b9f-4d77-b867-ac5608c24e02
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortReadPortBufferUchar
+ms.keywords: scsiprt_db25989e-3b44-4f45-b768-b1b11c2ed25a.xml, ScsiPortReadPortBufferUchar routine [Storage Devices], srb/ScsiPortReadPortBufferUchar, ScsiPortReadPortBufferUchar, storage.scsiportreadportbufferuchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ScsiPortReadPortBufferUchar
-req.alt-loc: Scsiport.lib,Scsiport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Scsiport.lib
+-	Scsiport.dll
+apiname: 
+-	ScsiPortReadPortBufferUchar
+product: Windows
+targetos: Windows
 req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ScsiPortReadPortBufferUchar function
 
 
-
 ## -description
+
+
 The <b>ScsiPortReadPortBufferUchar</b> routine transfers a given number of unsigned byte values from the HBA to a buffer.
-
-
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 VOID ScsiPortReadPortBufferUchar(
@@ -56,6 +67,9 @@ VOID ScsiPortReadPortBufferUchar(
 
 
 ## -parameters
+
+
+
 
 ### -param Port [in]
 
@@ -73,19 +87,23 @@ Specifies the number of bytes to be read from the HBA.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>ScsiPortReadPortBufferUchar</b> ensures that the data is transferred correctly.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
-</dt>
-</dl>
+
  
 
  

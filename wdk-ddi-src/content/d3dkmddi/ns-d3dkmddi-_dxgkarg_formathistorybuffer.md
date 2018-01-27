@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 40E00234-C22B-4F86-AC5D-197223298FD7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_FORMATHISTORYBUFFER, DXGKARG_FORMATHISTORYBUFFER
+ms.keywords: DXGKARG_FORMATHISTORYBUFFER structure [Display Devices], d3dkmddi/DXGKARG_FORMATHISTORYBUFFER, DXGKARG_FORMATHISTORYBUFFER, display.dxgkarg_formathistorybuffer, _DXGKARG_FORMATHISTORYBUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1,WDDM 1.3 and later
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_FORMATHISTORYBUFFER
-req.alt-loc: D3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmddi.h
+apiname: 
+-	DXGKARG_FORMATHISTORYBUFFER
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_FORMATHISTORYBUFFER
 ---
 
 # _DXGKARG_FORMATHISTORYBUFFER structure
 
 
-
 ## -description
+
+
 Contains info for the display miniport driver to format a history buffer.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_FORMATHISTORYBUFFER {
@@ -59,6 +69,9 @@ typedef struct _DXGKARG_FORMATHISTORYBUFFER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pHistoryBuffer
 
@@ -104,21 +117,20 @@ If nonzero, the driver could not format all the time stamps in the history buffe
 
 
 ## -remarks
+
+
 The driver should obtain time stamp entries and the number of usable time stamps from the header of the provided history buffer. Any additional data that the driver needs for calculations should be stored in private data.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer.md">DXGK_HISTORY_BUFFER</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_formathistorybuffer.md">DxgkDdiFormatHistoryBuffer</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer.md">DXGK_HISTORY_BUFFER</a>
+
  
 
  

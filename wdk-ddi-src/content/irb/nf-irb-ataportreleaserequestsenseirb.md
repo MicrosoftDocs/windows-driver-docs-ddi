@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 53e5e234-c256-4581-b109-307f2f17522f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortReleaseRequestSenseIrb
+ms.keywords: AtaPortReleaseRequestSenseIrb, atartns_b46ae59d-b5b8-49fb-9458-742eefacd197.xml, irb/AtaPortReleaseRequestSenseIrb, AtaPortReleaseRequestSenseIrb routine [Storage Devices], storage.ataportreleaserequestsenseirb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AtaPortReleaseRequestSenseIrb
-req.alt-loc: ataport.lib,ataport.dll,pciidex.lib,pciidex.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ataport.lib
+-	ataport.dll
+-	pciidex.lib
+-	pciidex.dll
+apiname: 
+-	AtaPortReleaseRequestSenseIrb
+product: Windows
+targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
 
 # AtaPortReleaseRequestSenseIrb function
 
 
-
 ## -description
+
+
 The <b>AtaPortReleaseRequestSenseIrb</b> routine frees the request sense IRB tha is allocated by using <a href="..\irb\nf-irb-ataportbuildrequestsenseirb.md">AtaPortBuildRequestSenseIrb</a>. 
-
-
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 VOID AtaPortReleaseRequestSenseIrb(
@@ -54,6 +67,9 @@ VOID AtaPortReleaseRequestSenseIrb(
 
 
 ## -parameters
+
+
+
 
 ### -param ChannelExtension [in]
 
@@ -66,24 +82,27 @@ A pointer to a structure of type <a href="..\irb\ns-irb-_ide_request_block.md">I
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The <b>AtaPortReleaseRequestSenseIrb</b> routine releases the IRB to the port driver and copies the sense data to the buffer that is pointed to by the <b>SenseInfoBuffer</b> member of the original (failed) request's IRB. The miniport driver can then complete the original request by using <a href="..\irb\nf-irb-ataportcompleterequest.md">AtaPortCompleteRequest</a>. The miniport driver must not touch the request sense IRB after it has been released to the port driver.
 
 The miniport driver must call <b>AtaPortReleaseRequestSenseIrb</b> for every allocated IRB that is allocated by using <a href="..\irb\nf-irb-ataportbuildrequestsenseirb.md">AtaPortBuildRequestSenseIrb</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\irb\nf-irb-ataportbuildrequestsenseirb.md">AtaPortBuildRequestSenseIrb</a>
-</dt>
-<dt>
+
 <a href="..\irb\nf-irb-ataportcompleterequest.md">AtaPortCompleteRequest</a>
-</dt>
-</dl>
+
+<a href="..\irb\nf-irb-ataportbuildrequestsenseirb.md">AtaPortBuildRequestSenseIrb</a>
+
  
 
  

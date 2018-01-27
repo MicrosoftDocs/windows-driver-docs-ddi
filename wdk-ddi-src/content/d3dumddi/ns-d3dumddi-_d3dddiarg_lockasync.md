@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dfe2ab95-e494-430d-81c7-8f209a37024f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_LOCKASYNC, D3DDDIARG_LOCKASYNC
+ms.keywords: D3DDDIARG_LOCKASYNC, D3DDDIARG_LOCKASYNC structure [Display Devices], display.d3dddiarg_lockasync, _D3DDDIARG_LOCKASYNC, d3dumddi/D3DDDIARG_LOCKASYNC, UMDisplayDriver_param_Structs_24593944-e4ac-4650-82d5-c5fc26a6a770.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_LOCKASYNC
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_LOCKASYNC
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_LOCKASYNC
 ---
 
 # _D3DDDIARG_LOCKASYNC structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_LOCKASYNC structure describes a resource or a surface within the resource to lock. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_LOCKASYNC {
@@ -68,22 +78,8 @@ typedef struct _D3DDDIARG_LOCKASYNC {
 
 ## -struct-fields
 
-### -field hResource
-
-[in] A handle to the resource to be locked. 
 
 
-### -field SubResourceIndex
-
-[in] The zero-based index into the resource that <b>hResource</b> specifies. This index indicates the subresource or surface to be locked.
-
-
-### -field Flags
-
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_lockasyncflags.md">D3DDDI_LOCKASYNCFLAGS</a> structure that indicates, in bit-field flags, how to lock the resource. 
-
-<div class="alert"><b>Note</b>    Some flags are mutually exclusive with other flags. For more information, see the following Remarks section.</div>
-<div> </div>
 
 ### -field Range
 
@@ -99,6 +95,21 @@ typedef struct _D3DDDIARG_LOCKASYNC {
 
 [in] A D3DDDIBOX structure that describes the subvolume of the volume to lock, if the <b>BoxValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
 
+
+### -field hResource
+
+[in] A handle to the resource to be locked. 
+
+
+### -field SubResourceIndex
+
+[in] The zero-based index into the resource that <b>hResource</b> specifies. This index indicates the subresource or surface to be locked.
+
+
+### -field Flags
+
+[in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_lockasyncflags.md">D3DDDI_LOCKASYNCFLAGS</a> structure that indicates, in bit-field flags, how to lock the resource. 
+<div class="alert"><b>Note</b>    Some flags are mutually exclusive with other flags. For more information, see the following Remarks section.</div><div> </div>
 
 ### -field hCookie
 
@@ -128,25 +139,29 @@ This member is available beginning with Windows 7.
 
 
 ## -remarks
-The members of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_lockasyncflags.md">D3DDDI_LOCKASYNCFLAGS</a> structure that the <b>Flags</b> member specifies must adhere to the following rules:
 
+
+The members of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_lockasyncflags.md">D3DDDI_LOCKASYNCFLAGS</a> structure that the <b>Flags</b> member specifies must adhere to the following rules:
+<ul>
+<li>
 The <b>NoOverwrite</b> bit-field flag must not be simultaneously set with the <b>Discard</b> bit-field flag.
 
+</li>
+<li>
 Only one of the <b>RangeValid</b>, <b>AreaValid</b>, and <b>BoxValid</b> bit-field flags must be set at any time.
+
+</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_lockasyncflags.md">D3DDDI_LOCKASYNCFLAGS</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-</dt>
-</dl>
+
  
 
  

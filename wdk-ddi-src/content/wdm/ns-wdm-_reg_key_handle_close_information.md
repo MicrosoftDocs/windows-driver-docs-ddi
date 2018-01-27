@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 023ca2d0-45a2-423e-bd88-e40792ef0e49
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _REG_KEY_HANDLE_CLOSE_INFORMATION, *PREG_KEY_HANDLE_CLOSE_INFORMATION, REG_KEY_HANDLE_CLOSE_INFORMATION
+ms.keywords: wdm/PREG_KEY_HANDLE_CLOSE_INFORMATION, PREG_KEY_HANDLE_CLOSE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_KEY_HANDLE_CLOSE_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_d_26822436-a385-4b98-8179-18c661ebdb1f.xml, *PREG_KEY_HANDLE_CLOSE_INFORMATION, wdm/REG_KEY_HANDLE_CLOSE_INFORMATION, _REG_KEY_HANDLE_CLOSE_INFORMATION, PREG_KEY_HANDLE_CLOSE_INFORMATION, kernel.reg_key_handle_close_information, REG_KEY_HANDLE_CLOSE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available on Microsoft Windows XP and later versions 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: REG_KEY_HANDLE_CLOSE_INFORMATION
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	REG_KEY_HANDLE_CLOSE_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: *PREG_KEY_HANDLE_CLOSE_INFORMATION, REG_KEY_HANDLE_CLOSE_INFORMATION
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _REG_KEY_HANDLE_CLOSE_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>REG_KEY_HANDLE_CLOSE_INFORMATION</b> structure contains information about a registry key whose handle is about to be closed.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _REG_KEY_HANDLE_CLOSE_INFORMATION {
@@ -57,6 +67,9 @@ typedef struct _REG_KEY_HANDLE_CLOSE_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Object
 
@@ -79,21 +92,20 @@ This member is reserved for future use. This member is defined for Windows Vista
 
 
 ## -remarks
+
+
 For more information about registry filtering operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-</dt>
-</dl>
+
  
 
  

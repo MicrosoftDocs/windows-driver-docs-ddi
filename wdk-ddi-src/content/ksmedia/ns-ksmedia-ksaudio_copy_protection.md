@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7dab0240-67c3-4412-a7a5-bb98d84c6bdd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSAUDIO_COPY_PROTECTION, *PKSAUDIO_COPY_PROTECTION, KSAUDIO_COPY_PROTECTION
+ms.keywords: audio.ksaudio_copy_protection, ksmedia/PKSAUDIO_COPY_PROTECTION, ksmedia/KSAUDIO_COPY_PROTECTION, KSAUDIO_COPY_PROTECTION structure [Audio Devices], *PKSAUDIO_COPY_PROTECTION, aud-prop_94eac763-0c97-406d-b255-686ac82f908c.xml, PKSAUDIO_COPY_PROTECTION, PKSAUDIO_COPY_PROTECTION structure pointer [Audio Devices], KSAUDIO_COPY_PROTECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSAUDIO_COPY_PROTECTION
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSAUDIO_COPY_PROTECTION, KSAUDIO_COPY_PROTECTION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSAUDIO_COPY_PROTECTION
+product: Windows
+targetos: Windows
+req.typenames: KSAUDIO_COPY_PROTECTION, *PKSAUDIO_COPY_PROTECTION
 ---
 
 # KSAUDIO_COPY_PROTECTION structure
 
 
-
 ## -description
+
+
 The KSAUDIO_COPY_PROTECTION structure specifies the copy-protection status of an audio stream.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -54,6 +64,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field fCopyrighted
 
@@ -66,6 +79,8 @@ Indicates whether the stream is an original, first-generation copy of a stream o
 
 
 ## -remarks
+
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537253">KSPROPERTY_AUDIO_COPY_PROTECTION</a> property uses this structure to report whether a stream is copyrighted, and also whether the stream is an original stream or a copy of the original stream.
 
 An audio device that supports copy protection can use copyright and copy-generation information about a stream to prevent unlimited copying of proprietary audio content. For example, the Serial Copy Management System (SCMS) defines one level of copy protection that allows copying of an original, first-generation copy of a stream, but prevents copying of second-generation copies of the stream.
@@ -73,12 +88,11 @@ An audio device that supports copy protection can use copyright and copy-generat
 The KSPROPERTY_AUDIO_COPY_PROTECTION property is separate from and unrelated to the implementation of <a href="https://msdn.microsoft.com/7ce19196-5180-421f-b6be-ac4a235a8c16">Digital Rights Management (DRM)</a> and the Secure Audio Path (SAP) for Windows Media. For information about SAP, see the Microsoft Windows SDK documentation.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537253">KSPROPERTY_AUDIO_COPY_PROTECTION</a>
-</dt>
-</dl>
+
  
 
  

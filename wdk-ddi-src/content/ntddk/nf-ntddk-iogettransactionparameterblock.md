@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f07919f8-644f-43a4-98d7-d0f1a91d405d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoGetTransactionParameterBlock
+ms.keywords: ifsk.iogettransactionparameterblock, IoGetTransactionParameterBlock, ioref_4bce32be-89e0-4b69-9e44-a4b619588c79.xml, IoGetTransactionParameterBlock routine [Installable File System Drivers], ntddk/IoGetTransactionParameterBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows Vista and later
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoGetTransactionParameterBlock
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoGetTransactionParameterBlock
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # IoGetTransactionParameterBlock function
 
 
-
 ## -description
+
+
 The <b>IoGetTransactionParameterBlock</b> routine returns the transaction parameter block for a transacted file operation. 
 
 
-
 ## -syntax
+
 
 ````
 PTXN_PARAMETER_BLOCK IoGetTransactionParameterBlock(
@@ -54,24 +64,25 @@ PTXN_PARAMETER_BLOCK IoGetTransactionParameterBlock(
 
 ## -parameters
 
+
+
+
 ### -param FileObject [in]
 
 A pointer to a file object for the file. 
 
 
 ## -returns
+
+
 The <b>IoGetTransactionParameterBlock</b> routine returns a pointer to the <a href="..\ntddk\ns-ntddk-_txn_parameter_block.md">TXN_PARAMETER_BLOCK</a> structure if the file operation is transacted, otherwise it returns <b>NULL</b>. 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_txn_parameter_block.md">TXN_PARAMETER_BLOCK</a>
-</dt>
-</dl>
+
  
 
  

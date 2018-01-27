@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: BED8C7F8-AF7A-4C82-BDE2-51C4285FF510
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PEDOMETER_STEP_TYPE_COUNT, PEDOMETER_STEP_TYPE_COUNT
+ms.keywords: sensors.pedometer_step_type_count, PedometerStepTypeCount, PEDOMETER_STEP_TYPE_COUNT, sensorsdef/PedometerStepTypeCount, sensorsdef/PEDOMETER_STEP_TYPE_COUNT, PEDOMETER_STEP_TYPE_COUNT enumeration [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEDOMETER_STEP_TYPE_COUNT
-req.alt-loc: Sensorsdef.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Sensorsdef.h
+apiname: 
+-	PEDOMETER_STEP_TYPE_COUNT
+product: Windows
+targetos: Windows
 req.typenames: PEDOMETER_STEP_TYPE_COUNT
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PEDOMETER_STEP_TYPE_COUNT enumeration
 
 
-
 ## -description
+
+
 This enumeration represents the number of step types that can be detected by the pedometer.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _PEDOMETER_STEP_TYPE_COUNT { 
@@ -55,20 +65,18 @@ typedef enum _PEDOMETER_STEP_TYPE_COUNT {
 
 ## -enum-fields
 
+
+
+
 ### -field PedometerStepTypeCount
 
 The number of step types that can be detected.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\sensorsdef\ne-sensorsdef-pedometer_step_type.md">PEDOMETER_STEP_TYPE</a>
-</dt>
-</dl>
+
  
 
  

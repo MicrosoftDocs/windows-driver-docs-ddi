@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1ed699a3-20e5-4a1c-bce0-5a681bac9c39
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFMemory, IWDFMemory::GetSize, GetSize
+ms.keywords: umdf.iwdfmemory_getsize, wdf.iwdfmemory_getsize, GetSize method, IWDFMemory interface, GetSize method, IWDFMemory interface, GetSize method, wudfddi/IWDFMemory::GetSize, UMDFMemoryObjectRef_24a9b921-5760-41fd-8b01-6a21e6be71ed.xml, GetSize, IWDFMemory::GetSize, IWDFMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.5
-req.alt-api: IWDFMemory.GetSize
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFMemory.GetSize
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IWDFMemory::GetSize method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetSize</b> method retrieves the size of the data buffer that is associated with a memory object.
 
 
-
 ## -syntax
+
 
 ````
 SIZE_T  GetSize();
@@ -56,23 +66,20 @@ SIZE_T  GetSize();
 ## -parameters
 
 
+
+
+
 ## -returns
+
+
 <b>GetSize</b> returns the size, in bytes, of the data buffer for the memory object.
 
-<b>GetSize</b> returns the size, in bytes, of the data buffer for the memory object.
-
-<b>GetSize</b> returns the size, in bytes, of the data buffer for the memory object.
-
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
-</dt>
-</dl>
+
  
 
  

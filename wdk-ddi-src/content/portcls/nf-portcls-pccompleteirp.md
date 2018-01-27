@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: fa0b36bf-0628-4136-9ca7-1d20823969ff
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcCompleteIrp
+ms.keywords: PcCompleteIrp, portcls/PcCompleteIrp, audpc-routines_f61145f8-9e55-4b2a-a3aa-37f7be4f4df3.xml, PcCompleteIrp function [Audio Devices], audio.pccompleteirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The PortCls system driver implements the PcCompleteIr
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PcCompleteIrp
-req.alt-loc: Portcls.lib,Portcls.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Portcls.lib
+-	Portcls.dll
+apiname: 
+-	PcCompleteIrp
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # PcCompleteIrp function
 
 
-
 ## -description
+
+
 The <b>PcCompleteIrp</b> function completes an IRP that was previously marked as pending.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PcCompleteIrp(
@@ -56,46 +67,66 @@ NTSTATUS PcCompleteIrp(
 
 ## -parameters
 
-### -param DeviceObject [in]
-
-Pointer to the device object for the device. This parameter must point to a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
 
-### -param Irp [in]
+
+### -param pDeviceObject
+
+TBD
+
+
+### -param pIrp
+
+TBD
+
+
+### -param ntStatus
+
+TBD
+
+
+
+#### - Irp [in]
 
 Pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> that is to be completed
 
 
-### -param Status [in]
+#### - Status [in]
 
 Specifies the status of the completed IRP. See the list of NTSTATUS values defined in header file ntstatus.h.
 
 
+#### - DeviceObject [in]
+
+Pointer to the device object for the device. This parameter must point to a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
+
+
 ## -returns
+
+
 <b>PcCompleteIrp</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 <b>PcCompleteIrp</b> is used when an IRP handler returns STATUS_PENDING and the IRP must later be completed. When the adapter driver finishes all processing of the IRP, it calls <b>PcCompleteIrp</b> to complete the IRP.
 
 The IRP handler should not call this function. An adapter driver's IRP handler instead calls <a href="..\portcls\nf-portcls-pcdispatchirp.md">PcDispatchIrp</a> to pass the IRP to the PortCls system driver's IRP handler to perform all remaining processing of the IRP.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nf-portcls-pcdispatchirp.md">PcDispatchIrp</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nf-portcls-pcdispatchirp.md">PcDispatchIrp</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 284c7e69-50c6-4eef-bcf1-547bc7032a4a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmFreeNonCachedMemory
+ms.keywords: ntddk/MmFreeNonCachedMemory, kernel.mmfreenoncachedmemory, MmFreeNonCachedMemory, MmFreeNonCachedMemory routine [Kernel-Mode Driver Architecture], k106_29c317c1-955e-4d0c-9e65-e1aa511c7a8d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MmFreeNonCachedMemory
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlMmApcLte, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	MmFreeNonCachedMemory
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # MmFreeNonCachedMemory function
 
 
-
 ## -description
+
+
 The <b>MmFreeNonCachedMemory</b> routine releases a range of noncached memory that was allocated by the <a href="..\ntddk\nf-ntddk-mmallocatenoncachedmemory.md">MmAllocateNonCachedMemory</a> routine. 
 
 
-
 ## -syntax
+
 
 ````
 VOID MmFreeNonCachedMemory(
@@ -54,6 +64,9 @@ VOID MmFreeNonCachedMemory(
 
 
 ## -parameters
+
+
+
 
 ### -param BaseAddress [in]
 
@@ -66,19 +79,23 @@ Specifies the size of the range to be freed. This value must match the size pass
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The <b>MmFreeNonCachedMemory</b> routine performs the opposite action of <a href="..\ntddk\nf-ntddk-mmallocatenoncachedmemory.md">MmAllocateNonCachedMemory</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-mmallocatenoncachedmemory.md">MmAllocateNonCachedMemory</a>
-</dt>
-</dl>
+
  
 
  

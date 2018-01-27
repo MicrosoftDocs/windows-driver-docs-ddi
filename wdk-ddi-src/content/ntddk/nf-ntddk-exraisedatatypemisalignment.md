@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5c8bfd13-31e0-461f-93d2-53ce15c53cdb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExRaiseDatatypeMisalignment
+ms.keywords: ExRaiseDatatypeMisalignment routine [Kernel-Mode Driver Architecture], ExRaiseDatatypeMisalignment, ntddk/ExRaiseDatatypeMisalignment, k102_ff274a50-ae59-4591-9484-6bc068601ee8.xml, kernel.exraisedatatypemisalignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExRaiseDatatypeMisalignment
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlExPassive, PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ExRaiseDatatypeMisalignment
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # ExRaiseDatatypeMisalignment function
 
 
-
 ## -description
+
+
 The <b>ExRaiseDatatypeMisalignment</b> routine can be used with structured exception handling to throw a driver-determined exception for a misaligned data type that occurs when a driver processes I/O requests.
 
 
-
 ## -syntax
+
 
 ````
 VOID ExRaiseDatatypeMisalignment(void);
@@ -53,35 +63,35 @@ VOID ExRaiseDatatypeMisalignment(void);
 ## -parameters
 
 
+
+
+
 ## -returns
-None
+
 
 None
 
-None
 
 
 ## -remarks
+
+
 <b>ExRaiseDatatypeMisalignment</b> raises an exception with the exception code set to STATUS_DATATYPE_MISALIGNMENT.
 
 Because <b>ExRaiseDatatypeMisalignment</b> can only be used at IRQL = PASSIVE_LEVEL, only high-level drivers typically use this routine — for example, file system drivers.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-exraiseaccessviolation.md">ExRaiseAccessViolation</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-exraisestatus.md">ExRaiseStatus</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-exraisestatus.md">ExRaiseStatus</a>
+
 <a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
-</dt>
-</dl>
+
  
 
  

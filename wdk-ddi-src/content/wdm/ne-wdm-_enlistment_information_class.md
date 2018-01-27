@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d031e032-66e3-4697-8db1-67655cfc223d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _ENLISTMENT_INFORMATION_CLASS, ENLISTMENT_INFORMATION_CLASS
+ms.keywords: kernel.enlistment_information_class, ENLISTMENT_INFORMATION_CLASS, wdm/EnlistmentCrmInformation, ENLISTMENT_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], _ENLISTMENT_INFORMATION_CLASS, wdm/EnlistmentBasicInformation, EnlistmentRecoveryInformation, wdm/EnlistmentRecoveryInformation, ktm_ref_9bf2b9fa-5b9a-47fb-873c-6bd5f1930553.xml, EnlistmentCrmInformation, EnlistmentBasicInformation, wdm/ENLISTMENT_INFORMATION_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ENLISTMENT_INFORMATION_CLASS
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	ENLISTMENT_INFORMATION_CLASS
+product: Windows
+targetos: Windows
 req.typenames: ENLISTMENT_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _ENLISTMENT_INFORMATION_CLASS enumeration
 
 
-
 ## -description
+
+
 The <b>ENLISTMENT_INFORMATION_CLASS</b> enumeration identifies the type of information that the <a href="..\wdm\nf-wdm-zwsetinformationenlistment.md">ZwSetInformationEnlistment</a> routine can set and that the <a href="..\wdm\nf-wdm-zwqueryinformationenlistment.md">ZwQueryInformationEnlistment</a> routine can retrieve for an <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _ENLISTMENT_INFORMATION_CLASS { 
@@ -56,6 +66,9 @@ typedef enum _ENLISTMENT_INFORMATION_CLASS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field EnlistmentBasicInformation
 
@@ -72,21 +85,14 @@ A resource manager is setting or obtaining customized recovery information for a
 Information about an enlistment object is stored in an <b>ENLISTMENT_CRM_INFORMATION</b> structure.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_enlistment_basic_information.md">ENLISTMENT_BASIC_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwqueryinformationenlistment.md">ZwQueryInformationEnlistment</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_enlistment_basic_information.md">ENLISTMENT_BASIC_INFORMATION</a>
+
 <a href="..\wdm\nf-wdm-zwsetinformationenlistment.md">ZwSetInformationEnlistment</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8afbd8df-95fc-453f-a1d8-400a993c286a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcGetFileObjectFromSectionPtrsRef
+ms.keywords: ccref_e38ddec7-5501-40b4-a2a3-0a13c1c0fb4d.xml, ifsk.ccgetfileobjectfromsectionptrsref, CcGetFileObjectFromSectionPtrsRef routine [Installable File System Drivers], CcGetFileObjectFromSectionPtrsRef, ntifs/CcGetFileObjectFromSectionPtrsRef
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcGetFileObjectFromSectionPtrsRef
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcGetFileObjectFromSectionPtrsRef
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcGetFileObjectFromSectionPtrsRef function
 
 
-
 ## -description
+
+
 When passed a pointer to a SECTION_OBJECT_POINTERS structure for a cached file, the <b>CcGetFileObjectFromSectionPtrsRef</b> routine returns a pointer to the file object that the cache manager is using for the cached file.
 
 
-
 ## -syntax
+
 
 ````
 PFILE_OBJECT CcGetFileObjectFromSectionPtrsRef(
@@ -54,31 +64,36 @@ PFILE_OBJECT CcGetFileObjectFromSectionPtrsRef(
 
 ## -parameters
 
+
+
+
 ### -param SectionObjectPointer [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_section_object_pointers.md">SECTION_OBJECT_POINTERS</a> structure that is associated with the cached file.
 
 
 ## -returns
+
+
 A pointer to the file object for the cached file, or <b>NULL</b> if the file is not cached or is no longer cached.
 
 
+
 ## -remarks
+
+
 The file object is returned with a reference.  The caller is responsible for calling <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> on the file object when it has finished using the file object.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccgetfileobjectfromsectionptrs.md">CcGetFileObjectFromSectionPtrs</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_section_object_pointers.md">SECTION_OBJECT_POINTERS</a>
-</dt>
-</dl>
+
  
 
  

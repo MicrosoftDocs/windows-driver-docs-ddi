@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 12CC6973-E691-425E-A8E8-839F83116D29
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+ms.keywords: PCI.setvirtualfunctiondata, SetVirtualFunctionData routine, SetVirtualFunctionData, SET_VIRTUAL_DEVICE_DATA, SET_VIRTUAL_DEVICE_DATA, wdm/SetVirtualFunctionData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2012 and later versions 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetVirtualFunctionData
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wdm.h
+apiname: 
+-	SetVirtualFunctionData
+product: Windows
+targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SET_VIRTUAL_DEVICE_DATA callback
 
 
-
 ## -description
+
+
 The  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVirtualFunctionData</a> routine writes data to the PCI Express (PCIe) configuration space of a virtual function (VF) on a device that supports the single root I/O virtualization (SR-IOV) interface.
 
 
-
 ## -prototype
+
 
 ````
 SET_VIRTUAL_DEVICE_DATA SetVirtualFunctionData;
@@ -61,6 +71,9 @@ ULONG SetVirtualFunctionData(
 
 
 ## -parameters
+
+
+
 
 ### -param Context [in, out]
 
@@ -88,29 +101,32 @@ The length, in bytes, of the data to be written.
 
 
 ## -returns
+
+
 The 
       <a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVirtualFunctionData</a> routine returns the length, in bytes, of the PCIe configuration data that was written after a successful write operation. If the write operation is unsuccessful, the routine returns zero. 
 
 
+
 ## -remarks
+
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVirtualFunctionData</a> routine is similar to the <a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a> routine, except that it writes PCIe configuration data to a VF instead of to a device's physical function (PF).
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVirtualFunctionData</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface. The <a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546561">GUID_BUS_INTERFACE_STANDARD</a> interface.
+<div class="alert"><b>Note</b>  The virtualization stack calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVirtualFunctionData</a> when a driver that is running in the guest operating system calls the <a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a> routine.</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt><b></b></dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
+
+<b></b>
+
  
 
  

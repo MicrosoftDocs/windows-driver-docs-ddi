@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 40AE9327-ABB7-4A63-AC90-494E2BC26C08
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxStaticStreamsSetStreamInfo
+ms.keywords: buses._ucxstaticstreamssetstreaminfo, UcxStaticStreamsSetStreamInfo method [Buses], UcxStaticStreamsSetStreamInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: UcxStaticStreamsSetStreamInfo
-req.alt-loc: ucxsstreams.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-req.typenames: *PUCX_ROOTHUB_CONFIG, UCX_ROOTHUB_CONFIG
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ucxsstreams.h
+apiname: 
+-	UcxStaticStreamsSetStreamInfo
+product: Windows
+targetos: Windows
+req.typenames: UCX_ROOTHUB_CONFIG, *PUCX_ROOTHUB_CONFIG
 req.product: Windows 10 or later.
 ---
 
 # UcxStaticStreamsSetStreamInfo function
 
 
-
 ## -description
+
+
 Sets stream information for each stream enabled by the client driver.
 
 
-
 ## -syntax
+
 
 ````
 inline void UcxStaticStreamsSetStreamInfo(
@@ -55,6 +65,9 @@ inline void UcxStaticStreamsSetStreamInfo(
 
 
 ## -parameters
+
+
+
 
 ### -param StaticStreams [in]
 
@@ -67,22 +80,26 @@ inline void UcxStaticStreamsSetStreamInfo(
 
 
 ## -returns
+
+
 This method does not return a value.
 
 
+
 ## -remarks
+
+
 The client driver must call this method from its implementation of the <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_static_streams_add.md">EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD</a> event callback . 
     This method must be called for the number of streams on the endpoint. 
 
 For a code example, see <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_static_streams_add.md">EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
-</dt>
-</dl>
+
  
 
  

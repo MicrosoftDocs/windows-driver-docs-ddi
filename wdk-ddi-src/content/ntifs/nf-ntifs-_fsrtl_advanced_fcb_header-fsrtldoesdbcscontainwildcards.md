@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4a33014a-c980-4186-b7b2-68fda22fa152
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlDoesDbcsContainWildCards
+ms.keywords: FsRtlDoesDbcsContainWildCards, ntifs/FsRtlDoesDbcsContainWildCards, ifsk.fsrtldoesdbcscontainwildcards, FsRtlDoesDbcsContainWildCards routine [Installable File System Drivers], fsrtlref_07aa2ec1-8e37-4ffb-bd22-a3877ae8f7ee.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlDoesDbcsContainWildCards
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlDoesDbcsContainWildCards
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlDoesDbcsContainWildCards function
 
 
-
 ## -description
+
+
 The <b>FsRtlDoesDbcsContainWildCards</b> routine determines whether an ANSI or double-byte character set (DBCS) string contains wildcard characters. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlDoesDbcsContainWildCards(
@@ -54,27 +64,34 @@ BOOLEAN FsRtlDoesDbcsContainWildCards(
 
 ## -parameters
 
+
+
+
 ### -param Name [in]
 
 A pointer to the string to be checked.
 
 
 ## -returns
+
+
 The <b>FsRtlDoesDbcsContainWildCards</b> routine returns <b>TRUE</b> if one or more wildcard characters were found, <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 The following are wildcard characters: *, ?, ANSI_DOS_STAR, ANSI_DOS_DOT, and ANSI_DOS_QM.
 
 For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 17f89cea-350c-43f6-a60d-32fc2d299dd7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.pfnupdateoverlaycb, pfnUpdateOverlayCb callback function [Display Devices], pfnUpdateOverlayCb, PFND3DDDI_UPDATEOVERLAYCB, PFND3DDDI_UPDATEOVERLAYCB, d3dumddi/pfnUpdateOverlayCb, D3Druntime_Functions_9a6ce628-61ad-4c22-9fa7-aa2c83e680b6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnUpdateOverlayCb
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	pfnUpdateOverlayCb
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_UPDATEOVERLAYCB callback
 
 
-
 ## -description
+
+
 The <b>pfnUpdateOverlayCb</b> function modifies a kernel-mode overlay object.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_UPDATEOVERLAYCB pfnUpdateOverlayCb;
@@ -58,50 +68,91 @@ __checkReturn HRESULT APIENTRY CALLBACK pfnUpdateOverlayCb(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
 A handle to the display device (graphics context).
 
 
-### -param pData [in]
+### -param *
+
+
+
+
+
+
+#### - pData [in]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_updateoverlay.md">D3DDDICB_UPDATEOVERLAY</a> structure that describes how to modify the overlay.
 
 
 ## -returns
+
+
 <b>pfnUpdateOverlayCb</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The overlay object was successfully modified.
+</dl>
+</td>
+<td width="60%">
+The overlay object was successfully modified.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>D3DDDIERR_NOTAVAILABLE</b></dt>
-</dl><b>pfnUpdateOverlayCb</b> failed because of a lack of overlay hardware or bandwidth.
+</dl>
+</td>
+<td width="60%">
+<b>pfnUpdateOverlayCb</b> failed because of a lack of overlay hardware or bandwidth.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_INVALIDARG</b></dt>
-</dl>Parameters were validated and determined to be incorrect.
+</dl>
+</td>
+<td width="60%">
+Parameters were validated and determined to be incorrect.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_OUTOFMEMORY</b></dt>
-</dl><b>pfnUpdateOverlayCb</b> could not allocate memory that was required for it to complete.
+</dl>
+</td>
+<td width="60%">
+<b>pfnUpdateOverlayCb</b> could not allocate memory that was required for it to complete.
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other HRESULT values.
 
-The following code example shows how to modify a kernel-mode overlay object.
-
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_updateoverlay.md">D3DDDICB_UPDATEOVERLAY</a>
-</dt>
-</dl>
+
  
 
  

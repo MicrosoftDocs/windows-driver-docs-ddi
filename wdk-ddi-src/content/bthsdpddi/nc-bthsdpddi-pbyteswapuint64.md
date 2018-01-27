@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: aa3c83fb-72fb-4709-8c5d-982814ddbcd0
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND
+ms.keywords: bltooth.sdpbyteswapuint64, SdpByteSwapUint64 callback function [Bluetooth Devices], SdpByteSwapUint64, PBYTESWAPUINT64, PBYTESWAPUINT64, sdplib/SdpByteSwapUint64, bth_funcs_b5fdae49-077b-43f8-a4c2-cd380422d560.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SdpByteSwapUint64
-req.alt-loc: sdplib.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	sdplib.h
+apiname: 
+-	SdpByteSwapUint64
+product: Windows
+targetos: Windows
 req.typenames: *PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND
 ---
 
 # PBYTESWAPUINT64 callback
 
 
-
 ## -description
+
+
 The Bluetooth 
   <b>SdpByteSwapUint64</b> function is used to reverse the byte order of an unsigned 64-bit integer.
 
 
-
 ## -prototype
+
 
 ````
 PBYTESWAPUINT64 SdpByteSwapUint64;
@@ -58,16 +68,24 @@ ULONGLONG SdpByteSwapUint64(
 
 ## -parameters
 
-### -param uint64 
+
+
+
+### -param uint64
 
 The unsigned 64-bit integer for which to reverse the byte order.
 
 
 ## -returns
+
+
 <b>SdpByteSwapUint64</b> returns a converted unsigned 64-bit integer.
 
 
+
 ## -remarks
+
+
 The 
     <b>SdpByteSwapUint64</b> function always reverses the byte order of the value passed in the 
     <i>uint64</i> parameter. Writers of Bluetooth device drivers can use this function to convert unsigned
@@ -78,12 +96,11 @@ Bluetooth profile drivers can obtain a pointer to this function through the
     <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

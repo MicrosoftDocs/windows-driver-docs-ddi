@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4a3a39ac-0db9-48a9-8da6-c2b914fa1de6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcNewDmaChannel
+ms.keywords: PcNewDmaChannel, audio.pcnewdmachannel, PcNewDmaChannel function [Audio Devices], audpc-routines_51deae73-e4dd-4b39-ae73-77cf31f8ec06.xml, portcls/PcNewDmaChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Obsolete. For all new audio drivers, use a IPortWaveX
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PcNewDmaChannel
-req.alt-loc: Portcls.lib,Portcls.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Portcls.lib
+-	Portcls.dll
+apiname: 
+-	PcNewDmaChannel
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # PcNewDmaChannel function
 
 
-
 ## -description
+
+
 The <b>PcNewDmaChannel</b> function creates a new DMA-channel object. This function is obsolete; for more information, see the following comments.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PcNewDmaChannel(
@@ -57,6 +68,9 @@ NTSTATUS PcNewDmaChannel(
 
 
 ## -parameters
+
+
+
 
 ### -param OutDmaChannel [out]
 
@@ -84,10 +98,15 @@ Pointer to the device object for the physical adapter device. This parameter poi
 
 
 ## -returns
+
+
 <b>PcNewDmaChannel</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 <b>PcNewDmaChannel</b> is obsolete. For all new audio drivers, use one of the following IPortWave <i>Xxx</i>::New<i>Xxx</i>DmaChannel methods in place of <b>PcNewDmaChannel</b>:
 
 
@@ -109,21 +128,17 @@ Specify the <i>PoolType</i> parameter to be one of the nonpaged pool types defin
 The <i>OutDmaChannel</i> and <i>OuterUnknown </i>parameters follow the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
-</dt>
-<dt>
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+
+<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
+
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+
  
 
  

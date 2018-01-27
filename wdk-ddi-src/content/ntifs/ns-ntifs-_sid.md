@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3b0d68f9-e871-42fe-97b0-f70f1fa72bf0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _SID, *PISID, SID
+ms.keywords: PSID, *PISID, SID structure [Installable File System Drivers], _SID, SID, ifsk.sid, ntifs/PSID, PSID structure pointer [Installable File System Drivers], securitystructures_748be9da-f428-42cd-a1f8-eca090e2b3aa.xml, ntifs/SID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SID
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PISID, SID
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	SID
+product: Windows
+targetos: Windows
+req.typenames: SID, *PISID
 ---
 
 # _SID structure
 
 
-
 ## -description
+
+
 The security identifier (SID) structure is a variable-length structure used to uniquely identify users or groups.
 
 Drivers are not to modify the SID structure directly. To create and manipulate a security identifier, use the support routines listed in the See Also section. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SID {
@@ -59,57 +69,59 @@ typedef struct _SID {
 
 ## -struct-fields
 
+
+
+
 ### -field Revision
+
 
 
 ### -field SubAuthorityCount
 
 
+
 ### -field IdentifierAuthority
+
+
+
+### -field SubAuthority.size_is
+
+ 
+
+
+### -field SubAuthority.size_is.SubAuthorityCount
+
+ 
 
 
 ### -field SubAuthority
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlcopysid.md">RtlCopySid</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlgetownersecuritydescriptor.md">RtlGetOwnerSecurityDescriptor</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtllengthsid.md">RtlLengthSid</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
+
+<a href="..\ntifs\nf-ntifs-rtllengthsid.md">RtlLengthSid</a>
+
+<a href="..\ntifs\nf-ntifs-rtlcopysid.md">RtlCopySid</a>
+
 <a href="..\ntifs\ns-ntifs-_sid_identifier_authority.md">SID_IDENTIFIER_AUTHORITY</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
+
+<a href="..\ntifs\nf-ntifs-rtlgetownersecuritydescriptor.md">RtlGetOwnerSecurityDescriptor</a>
+
+<a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
+
+<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
+
  
 
  

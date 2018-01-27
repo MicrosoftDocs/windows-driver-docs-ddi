@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7cd0ed27-a056-4ed9-8ff4-e917b31b0dd6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryTickCount
+ms.keywords: kernel.kequerytickcount, KeQueryTickCount, k105_a6a22896-6f3e-4e58-b443-4a06ff67b0ce.xml, KeQueryTickCount routine [Kernel-Mode Driver Architecture], wdm/KeQueryTickCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeQueryTickCount
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeQueryTickCount
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # KeQueryTickCount function
 
 
-
 ## -description
+
+
 The <b>KeQueryTickCount</b> routine maintains a count of the interval timer interrupts that have occurred since the system was booted. 
 
 
-
 ## -syntax
+
 
 ````
 VOID KeQueryTickCount(
@@ -54,16 +64,30 @@ VOID KeQueryTickCount(
 
 ## -parameters
 
-### -param TickCount [out]
+
+
+
+### -param CurrentCount
+
+TBD
+
+
+
+#### - TickCount [out]
 
 Pointer to the tick count value on return from <b>KeQueryTickCount</b>.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The <i>TickCount</i> value increases by one at each interval timer interrupt while the system is running.
 
 The preferred method of determining elapsed time is by using <i>TickCount</i> for relative timing and time stamps.
@@ -73,18 +97,15 @@ To determine the absolute elapsed time multiply the returned <i>TickCount</i> by
 You should not make any assumptions about the length of a tick, because it might vary depending on hardware and other considerations. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
+<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+
 <a href="..\wdm\nf-wdm-kequeryinterrupttime.md">KeQueryInterruptTime</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
-</dt>
-</dl>
+
  
 
  

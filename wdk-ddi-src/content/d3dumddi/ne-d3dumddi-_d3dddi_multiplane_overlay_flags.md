@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b91d87e8-3f63-45ac-919f-3597957ea497
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_MULTIPLANE_OVERLAY_FLAGS, D3DDDI_MULTIPLANE_OVERLAY_FLAGS
+ms.keywords: d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_FLAG_HORIZONTAL_FLIP, D3DDDI_MULTIPLANE_OVERLAY_FLAG_VERTICAL_FLIP, D3DDDI_MULTIPLANE_OVERLAY_FLAG_HORIZONTAL_FLIP, D3DDDI_MULTIPLANE_OVERLAY_FLAGS, display.d3dddi_multiplane_overlay_flags, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_FLAGS, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_FLAG_VERTICAL_FLIP, _D3DDDI_MULTIPLANE_OVERLAY_FLAGS, D3DDDI_MULTIPLANE_OVERLAY_FLAGS enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_MULTIPLANE_OVERLAY_FLAGS
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	D3DDDI_MULTIPLANE_OVERLAY_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_MULTIPLANE_OVERLAY_FLAGS
 ---
 
 # _D3DDDI_MULTIPLANE_OVERLAY_FLAGS enumeration
 
 
-
 ## -description
+
+
 Identifies a flip operation to be performed on an overlay plane.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3DDDI_MULTIPLANE_OVERLAY_FLAGS { 
@@ -55,6 +65,9 @@ typedef enum _D3DDDI_MULTIPLANE_OVERLAY_FLAGS {
 
 ## -enum-fields
 
+
+
+
 ### -field D3DDDI_MULTIPLANE_OVERLAY_FLAG_VERTICAL_FLIP
 
 The overlay plane should flip the data vertically, making it appear upside-down.
@@ -64,5 +77,3 @@ The overlay plane should flip the data vertically, making it appear upside-down.
 
 The overlay plane should flip the data horizontally, making it appear as a right-to-left mirror image.
 
-
-## -remarks

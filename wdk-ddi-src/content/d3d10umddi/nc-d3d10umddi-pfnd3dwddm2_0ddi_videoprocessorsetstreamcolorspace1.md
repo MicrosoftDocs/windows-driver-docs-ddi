@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BFE62398-DDAE-4DC1-9DB3-6B71BBDD506D
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.videoprocessorsetstreamcolorspace1, pfnVideoProcessorSetStreamColorSpace1 callback function [Display Devices], pfnVideoProcessorSetStreamColorSpace1, PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE1, PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE1, d3d10umddi/pfnVideoProcessorSetStreamColorSpace1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnVideoProcessorSetStreamColorSpace1
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	pfnVideoProcessorSetStreamColorSpace1
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE1 callback
 
 
-
 ## -description
+
+
 Sets the colorspace information for the video processor input stream. This function must be implemented by Windows Display Driver Model (WDDM) 2.0, or later, drivers.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE1 pfnVideoProcessorSetStreamColorSpace1;
@@ -59,6 +69,9 @@ VOID APIENTRY* pfnVideoProcessorSetStreamColorSpace1(
 
 
 ## -parameters
+
+
+
 
 ### -param hDevice [in]
 
@@ -81,19 +94,23 @@ Contains a <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_C
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 The legacy <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamcolorspace.md">VideoProcessorSetStreamColorSpace</a>device driver interface (DDI) will not be called for WDDM 2.0 drivers.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
-</dt>
-</dl>
+
  
 
  

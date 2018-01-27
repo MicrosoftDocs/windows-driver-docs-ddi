@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d80f8bc6-29dc-4cb0-87f5-414ec6418156
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: NpdBrokerUninitialize
+ms.keywords: stream.avstrminiintersecthandlerex, AVStrMiniIntersectHandlerEx, AVStrMiniIntersectHandlerEx routine [Streaming Media Devices], AVStrMiniIntersectHandlerEx, PFNKSINTERSECTHANDLEREX, PFNKSINTERSECTHANDLEREX, ks/AVStrMiniIntersectHandlerEx, avstclbk_7a9be78c-3ca2-4fe2-961c-37dbd122a4b8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AVStrMiniIntersectHandlerEx
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ks.h
+apiname: 
+-	AVStrMiniIntersectHandlerEx
+product: Windows
+targetos: Windows
 req.typenames: KEYWORDSELECTOR
 ---
 
 # PFNKSINTERSECTHANDLEREX callback
 
 
-
 ## -description
+
+
 AVStream calls a minidriver's <i>AVStrMiniIntersectHandlerEx</i> routine to determine the highest quality intersection of two data ranges.
 
 
-
 ## -prototype
+
 
 ````
 PFNKSINTERSECTHANDLEREX AVStrMiniIntersectHandlerEx;
@@ -63,6 +73,9 @@ NTSTATUS AVStrMiniIntersectHandlerEx(
 
 
 ## -parameters
+
+
+
 
 ### -param Context [in]
 
@@ -105,34 +118,33 @@ Pointer to a value of type ULONG specifying the size of the data buffer.
 
 
 ## -returns
+
+
 If the callback finds a match, return STATUS_SUCCESS. Otherwise return STATUS_NO_MATCH.
 
 
+
 ## -remarks
+
+
 The minidriver specifies this routine's address in the <b>IntersectHandler</b> member of a <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-kspindataintersectionex.md">KsPinDataIntersectionEx</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
+
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a>
+
+<a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a>
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
  
 
  

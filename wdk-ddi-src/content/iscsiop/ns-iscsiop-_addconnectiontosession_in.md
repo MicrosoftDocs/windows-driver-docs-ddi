@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7fcb0b87-1f9e-4956-a59a-cd83fa04e5db
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _AddConnectionToSession_IN, AddConnectionToSession_IN, *PAddConnectionToSession_IN
+ms.keywords: AddConnectionToSession_IN structure [Storage Devices], structs-iSCSI_4e238073-ca54-4da3-afcc-4b45e4da243f.xml, iscsiop/AddConnectionToSession_IN, PAddConnectionToSession_IN structure pointer [Storage Devices], _AddConnectionToSession_IN, *PAddConnectionToSession_IN, PAddConnectionToSession_IN, storage.addconnectiontosession_in, AddConnectionToSession_IN, iscsiop/PAddConnectionToSession_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AddConnectionToSession_IN
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: AddConnectionToSession_IN, *PAddConnectionToSession_IN
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	AddConnectionToSession_IN
+product: Windows
+targetos: Windows
+req.typenames: *PAddConnectionToSession_IN, AddConnectionToSession_IN
 ---
 
 # _AddConnectionToSession_IN structure
 
 
-
 ## -description
+
+
 The AddConnectionToSession_IN structure holds input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a> method, which is used to add a new connection to an already existing session.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _AddConnectionToSession_IN {
@@ -62,6 +72,9 @@ typedef struct _AddConnectionToSession_IN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UniqueAdapterId
 
@@ -114,33 +127,28 @@ A variable-length array of characters that specifies the preshared key that is a
 
 
 ## -remarks
+
+
 The iSCSI service requires this method. It is optional that you implement this method.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-</dt>
-<dt>
+
 <a href="..\iscsiop\ns-iscsiop-_addconnectiontosession_out.md">AddConnectionToSession_OUT</a>
-</dt>
-<dt>
-<a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
-</dt>
-<dt>
+
 <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+<a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
-</dt>
-</dl>
+
  
 
  

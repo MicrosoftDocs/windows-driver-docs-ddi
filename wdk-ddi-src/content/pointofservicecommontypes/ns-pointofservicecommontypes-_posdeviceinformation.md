@@ -7,8 +7,8 @@ old-location: pos\posdeviceinformation.htm
 old-project: pos
 ms.assetid: 9ae1cfd1-1ef8-4f27-b6e1-f593bdc020e8
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _PosDeviceInformation, PosDeviceInformation
+ms.date: 1/18/2018
+ms.keywords: pos.posdeviceinformation, _PosDeviceInformation, PosDeviceInformation, PosDeviceInformation structure, pointofservicecommontypes/PosDeviceInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PosDeviceInformation
-req.alt-loc: PointOfServiceCommonTypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	PointOfServiceCommonTypes.h
+apiname: 
+-	PosDeviceInformation
+product: Windows
+targetos: Windows
 req.typenames: PosDeviceInformation
 ---
 
 # _PosDeviceInformation structure
 
 
-
 ## -description
+
+
 This structure provides device information as defined in and required by the Unified Point of Service (UPOS) standard.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PosDeviceInformation {
@@ -62,6 +72,9 @@ typedef struct _PosDeviceInformation {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UnifiedPOSVersion
 
@@ -114,4 +127,8 @@ Indicates the device installation date.
 
 
 ## -remarks
-These strings must be NULL terminated, and the maximum length of the strings is <code>STATISTICS_STRING_SIZE - 1</code>.</p>
+
+
+These strings must be NULL terminated, and the maximum length of the strings is <code>STATISTICS_STRING_SIZE - 1</code>.
+
+

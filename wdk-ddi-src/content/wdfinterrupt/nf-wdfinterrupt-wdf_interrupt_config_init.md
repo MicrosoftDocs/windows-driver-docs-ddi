@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e81ec3da-a863-467f-82ec-1fa7ee6401b1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_INTERRUPT_CONFIG_INIT
+ms.keywords: WDF_INTERRUPT_CONFIG_INIT function, kmdf.wdf_interrupt_config_init, WDF_INTERRUPT_CONFIG_INIT, wdfinterrupt/WDF_INTERRUPT_CONFIG_INIT, wdf.wdf_interrupt_config_init, DFInterruptObjectRef_eb73ee25-bee4-4c0a-a070-7893bd5b699a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_INTERRUPT_CONFIG_INIT
-req.alt-loc: wdfinterrupt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,25 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-req.typenames: WDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfinterrupt.h
+apiname: 
+-	WDF_INTERRUPT_CONFIG_INIT
+product: Windows
+targetos: Windows
+req.typenames: *PWDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY
 req.product: Windows 10 or later.
 ---
 
 # WDF_INTERRUPT_CONFIG_INIT function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_INTERRUPT_CONFIG_INIT</b> function initializes a <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 VOID WDF_INTERRUPT_CONFIG_INIT(
@@ -58,6 +68,9 @@ VOID WDF_INTERRUPT_CONFIG_INIT(
 
 
 ## -parameters
+
+
+
 
 ### -param Configuration [out]
 
@@ -75,29 +88,29 @@ A pointer to the driver's <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_inter
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The <b>WDF_INTERRUPT_CONFIG_INIT</b> function zeros the specified <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a> structure and sets its <b>Size</b> member to the structure's size. It also sets the structure's <b>ShareVector</b> member to <b>WdfUseDefault</b> and stores the specified callback function pointers. Finally, it sets the <b>ReportInactiveOnPowerDown</b>  member of the specified <b>WDF_INTERRUPT_CONFIG</b> structure to <b>WdfDefault</b>.
 
 For more information about handling interrupts in framework-based drivers, see <a href="https://msdn.microsoft.com/08460510-6e5f-4c02-8086-9caa9b4b4c2d">Handling Hardware Interrupts</a>.
 
-For a code example that uses <b>WDF_INTERRUPT_CONFIG_INIT</b>, see <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a>
-</dt>
-<dt>
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
-</dt>
-<dt>
+
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a>
-</dt>
-</dl>
+
+<a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a>
+
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
+
  
 
  

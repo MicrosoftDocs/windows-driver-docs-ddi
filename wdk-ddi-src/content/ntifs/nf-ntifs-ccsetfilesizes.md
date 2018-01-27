@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1fc92167-ceab-4f8e-bd80-a8f1821846ed
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcSetFileSizes
+ms.keywords: ccref_2d554d89-6378-4a7c-8984-cb54b9e9e01c.xml, ntifs/CcSetFileSizes, ifsk.ccsetfilesizes, CcSetFileSizes, CcSetFileSizes routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcSetFileSizes
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcSetFileSizes
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcSetFileSizes function
 
 
-
 ## -description
+
+
 The <b>CcSetFileSizes</b> routine updates the cache maps and section object for a cached file whose size has changed.
 
 
-
 ## -syntax
+
 
 ````
 VOID CcSetFileSizes(
@@ -55,6 +65,9 @@ VOID CcSetFileSizes(
 
 ## -parameters
 
+
+
+
 ### -param FileObject [in]
 
 Pointer to a file object for the cached file.
@@ -63,7 +76,6 @@ Pointer to a file object for the cached file.
 ### -param FileSizes [in]
 
 Pointer to a CC_FILE_SIZES structure containing <b>AllocationSize</b>, <b>FileSize</b> and <b>ValidDataLength</b> for the file. This structure is defined as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -77,8 +89,7 @@ Pointer to a CC_FILE_SIZES structure containing <b>AllocationSize</b>, <b>FileSi
 } CC_FILE_SIZES, *PCC_FILE_SIZES;</pre>
 </td>
 </tr>
-</table></span></div>
-<table>
+</table></span></div><table>
 <tr>
 <th>Member</th>
 <th>Meaning</th>
@@ -113,40 +124,70 @@ New valid data length for the file.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-File systems must call <b>CcSetFileSizes</b> to update the cache manager data structures whenever one of the following changes is made to a cached file:
 
+## -remarks
+
+
+File systems must call <b>CcSetFileSizes</b> to update the cache manager data structures whenever one of the following changes is made to a cached file:
+<ul>
+<li>
 Its allocation size is increased.
 
+</li>
+<li>
 Its valid data length is decreased.
 
+</li>
+<li>
 Its valid data length is increased by a non-cached I/O operation.
 
+</li>
+<li>
 Its file size is increased or decreased.
 
-If any failure occurs, <b>CcSetFileSizes</b> raises a status exception for that particular failure. For example, if a pool allocation failure occurs, <b>CcSetFileSizes</b> raises a STATUS_INSUFFICIENT_RESOURCES exception. Therefore, to gain control if a failure occurs, the driver should wrap the call to <b>CcSetFileSizes</b> in a <b>try-except</b> or <b>try-finally</b> statement.
+</li>
+</ul>If any failure occurs, <b>CcSetFileSizes</b> raises a status exception for that particular failure. For example, if a pool allocation failure occurs, <b>CcSetFileSizes</b> raises a STATUS_INSUFFICIENT_RESOURCES exception. Therefore, to gain control if a failure occurs, the driver should wrap the call to <b>CcSetFileSizes</b> in a <b>try-except</b> or <b>try-finally</b> statement.
 
 To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>.
 
 The <b>CcGetFileSizePointer</b> macro returns the size of a file, given a pointer to a file object for the file.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PLARGE_INTEGER CcGetFileSizePointer(
+  [in] PFILE_OBJECT FileObject
+);
+</pre>
+</td>
+</tr>
+</table></span></div>Parameters
 
-Parameters
+<i>FileObject [in]</i>
+
+Pointer to a file object for the file whose size is to be returned.
+
+Return value
+
+A pointer to a member of the cache manager structure for this file that specifies the file size in bytes.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-</dt>
-</dl>
+
  
 
  

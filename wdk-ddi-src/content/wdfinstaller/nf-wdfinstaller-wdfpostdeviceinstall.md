@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 78942ef8-ecf9-481f-af60-2f1266a9e73f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPostDeviceInstall
+ms.keywords: DFCoinstallerRef_6a05795f-99bb-4f4d-975f-8d2de85adff0.xml, wdf.wdfpostdeviceinstall, WdfPostDeviceInstall function, wdfinstaller/WdfPostDeviceInstall, kmdf.wdfpostdeviceinstall, WdfPostDeviceInstall, PFN_WDFPOSTDEVICEINSTALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfPostDeviceInstall
-req.alt-loc: N/A,N/A.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,35 @@ req.type-library:
 req.lib: N/A (Exported by the KMDF co-installer library. For information about the co-installer library's filename, see Using the KMDF Co-installer.)
 req.dll: 
 req.irql: 
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	N/A
+-	N/A.dll
+apiname: 
+-	WdfPostDeviceInstall
+product: Windows
+targetos: Windows
+req.typenames: *PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 
 # WdfPostDeviceInstall function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The co-installer's <b>WdfPostDeviceInstall</b> function performs any operations that the co-installer might require after a non-Plug and Play (PnP) driver's installer has created the driver's kernel-mode service. 
 
 
-
 ## -syntax
+
 
 ````
 ULONG WdfPostDeviceInstall(
@@ -57,6 +68,9 @@ ULONG WdfPostDeviceInstall(
 
 
 ## -parameters
+
+
+
 
 ### -param InfPath [in]
 
@@ -69,25 +83,27 @@ A pointer to a null-terminated wide-character string that contains the <i>Wdf-in
 
 
 ## -returns
+
+
 <b>WdfPostDeviceInstall</b> returns ERROR_SUCCESS if the operation succeeds. Otherwise, the function returns one of the additional ERROR_<i>XXX</i> values that are defined in <i>Winerror.h</i>.
 
 
+
 ## -remarks
+
+
 The installer for the framework-based drivers of a non-PnP device must call <b>WdfPostDeviceInstall</b> after the installer calls <b>CreateService</b>.
 
 To obtain the address of the co-installer's <b>WdfPostDeviceInstall</b> function, the installer must call <b>GetProcAddress</b> after the installer has called <b>LoadLibrary</b> to load the co-installer.
 
 For more information about the <b>WdfPostDeviceInstall</b> function and installers for framework-based drivers of non-PnP devices, see <a href="https://msdn.microsoft.com/99676d85-feb2-482c-a91b-cfc48be5904c">Installing a Non-PnP Driver</a>. For more information about <b>CreateService</b>, <b>GetProcAddress</b>, and <b>LoadLibrary</b>, see the Microsoft Windows SDK documentation.
 
-For a code example that uses the <b>WdfPostDeviceInstall</b> function, see the installer for the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">NONPNP</a> sample.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfinstaller\nf-wdfinstaller-wdfpredeviceinstall.md">WdfPreDeviceInstall</a>
-</dt>
-</dl>
+
  
 
  

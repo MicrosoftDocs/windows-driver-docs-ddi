@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: a9027cda-0851-46e2-9006-0d757109fc3a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCMTCPCI_PORT_CONTROLLER_CONFIG, *PUCMTCPCI_PORT_CONTROLLER_CONFIG, UCMTCPCI_PORT_CONTROLLER_CONFIG
+ms.keywords: ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_CONFIG, UCMTCPCI_PORT_CONTROLLER_CONFIG structure [Buses], buses.ucmtcpci_port_controller_config, UCMTCPCI_PORT_CONTROLLER_CONFIG, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CONFIG, PUCMTCPCI_PORT_CONTROLLER_CONFIG structure pointer [Buses], PUCMTCPCI_PORT_CONTROLLER_CONFIG, _UCMTCPCI_PORT_CONTROLLER_CONFIG, *PUCMTCPCI_PORT_CONTROLLER_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UCMTCPCI_PORT_CONTROLLER_CONFIG
-req.alt-loc: ucmtcpciportcontroller.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PUCMTCPCI_PORT_CONTROLLER_CONFIG, UCMTCPCI_PORT_CONTROLLER_CONFIG
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ucmtcpciportcontroller.h
+apiname: 
+-	UCMTCPCI_PORT_CONTROLLER_CONFIG
+product: Windows
+targetos: Windows
+req.typenames: UCMTCPCI_PORT_CONTROLLER_CONFIG, *PUCMTCPCI_PORT_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
 # _UCMTCPCI_PORT_CONTROLLER_CONFIG structure
 
 
-
 ## -description
+
+
 
                  Contains configuration options for the port controller object,  passed by the client driver in the call to <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>. Call <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpci_port_controller_config_init.md">UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT</a> to initialize this structure.
              
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UCMTCPCI_PORT_CONTROLLER_CONFIG {
@@ -58,6 +68,9 @@ typedef struct _UCMTCPCI_PORT_CONTROLLER_CONFIG {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -77,15 +90,10 @@ A pointer to the <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_u
                  <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_capabilities.md">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES</a> structure.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>
-</dt>
-</dl>
+
  
 
  

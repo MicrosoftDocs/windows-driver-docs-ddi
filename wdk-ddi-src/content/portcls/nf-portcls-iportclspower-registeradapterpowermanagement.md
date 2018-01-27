@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f4eb9d18-4352-47e2-bd5f-256e1fa831d3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortClsPower, IPortClsPower::RegisterAdapterPowerManagement, RegisterAdapterPowerManagement
+ms.keywords: IPortClsPower interface [Audio Devices], RegisterAdapterPowerManagement method, IPortClsPower::RegisterAdapterPowerManagement, portcls/IPortClsPower::RegisterAdapterPowerManagement, audio.iportclspower_registeradapterpowermanagement, RegisterAdapterPowerManagement, RegisterAdapterPowerManagement method [Audio Devices], IPortClsPower interface, RegisterAdapterPowerManagement method [Audio Devices], audmp-routines_9c179fd9-d332-478d-a114-469dc1c746fc.xml, IPortClsPower
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPortClsPower.RegisterAdapterPowerManagement
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IPortClsPower.RegisterAdapterPowerManagement
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPortClsPower::RegisterAdapterPowerManagement method
 
 
-
 ## -description
+
+
 The <code>RegisterAdapterPowerManagement</code> method registers the power management interface of the adapter with PortCls.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RegisterAdapterPowerManagement(
@@ -55,39 +65,54 @@ NTSTATUS RegisterAdapterPowerManagement(
 
 ## -parameters
 
-### -param pUnknown [in]
+
+
+
+### -param _pUnknown
+
+
+
+
+### -param _DeviceObject
+
+
+
+
+
+#### - pUnknown [in]
 
 Specifies a pointer to <b>IUnknown</b>. . PortCls queries this <b>IUnknown</b> object for the <a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a> or the <a href="..\portcls\nn-portcls-iadapterpowermanagement2.md">IAdapterPowerManagement2</a> interface of the adapter.
 
 
-### -param DeviceObject [in]
+#### - DeviceObject [in]
 
 Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 
 
 ## -returns
+
+
 The <code>RegisterAdapterPowerManagement</code> method returns STATUS_SUCCESS if the call is successful. Otherwise, it returns the appropriate error code.
 
 
+
 ## -remarks
+
+
 When the <code>RegisterAdapterPowerManagement</code> method registers the power management interface for the adapter with PortCls, it allows the adapter driver to be notified of power state change events.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-<dt>
-<a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a>
-</dt>
-<dt>
+
 <a href="..\portcls\nn-portcls-iadapterpowermanagement2.md">IAdapterPowerManagement2</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
+
+<a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a>
+
  
 
  

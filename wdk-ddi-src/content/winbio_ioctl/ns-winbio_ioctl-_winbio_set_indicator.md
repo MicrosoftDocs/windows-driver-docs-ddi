@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: c4410845-3c7b-445e-80ec-25694b122a0e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WINBIO_SET_INDICATOR, *PWINBIO_SET_INDICATOR, WINBIO_SET_INDICATOR
+ms.keywords: biometric.winbio_set_indicator, WINBIO_SET_INDICATOR, biometric_ref_2ee60af8-1872-4932-9db7-9c3c27e29ddf.xml, _WINBIO_SET_INDICATOR, winbio_ioctl/PWINBIO_SET_INDICATOR, WINBIO_SET_INDICATOR structure [Biometric Devices], winbio_ioctl/WINBIO_SET_INDICATOR, PWINBIO_SET_INDICATOR, *PWINBIO_SET_INDICATOR, PWINBIO_SET_INDICATOR structure pointer [Biometric Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WINBIO_SET_INDICATOR
-req.alt-loc: winbio_ioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	winbio_ioctl.h
+apiname: 
+-	WINBIO_SET_INDICATOR
+product: Windows
+targetos: Windows
 req.typenames: *PWINBIO_SET_INDICATOR, WINBIO_SET_INDICATOR
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _WINBIO_SET_INDICATOR structure
 
 
-
 ## -description
+
+
 The WINBIO_SET_INDICATOR structure is the IN payload for <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_set_indicator.md">IOCTL_BIOMETRIC_SET_INDICATOR</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WINBIO_SET_INDICATOR {
@@ -56,6 +66,9 @@ typedef struct _WINBIO_SET_INDICATOR {
 
 ## -struct-fields
 
+
+
+
 ### -field PayloadSize
 
 Specifies the total size of the payload, which includes the fixed length structure and any variable data at the end.
@@ -66,7 +79,6 @@ Specifies the total size of the payload, which includes the fixed length structu
 Specifies a WINBIO_INDICATOR_STATUS that indicates whether the indicator light should be set on or off.
 
  Possible values are shown in the following table. 
-
 <table>
 <tr>
 <td>
@@ -98,22 +110,15 @@ The sensor indicator light is off.  Sensors that do not have an indicator light 
 
 </td>
 </tr>
-</table>
- 
-
-
-## -remarks
+</table> 
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_get_indicator.md">WINBIO_GET_INDICATOR</a>
-</dt>
-<dt>
+
 <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_set_indicator.md">IOCTL_BIOMETRIC_SET_INDICATOR</a>
-</dt>
-</dl>
+
+<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_get_indicator.md">WINBIO_GET_INDICATOR</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 18B13509-7692-4336-937C-264B31A6FB78
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.setmarkermode, SetMarkerMode callback function [Display Devices], SetMarkerMode, PFND3DWDDM1_3DDI_SETMARKERMODE, PFND3DWDDM1_3DDI_SETMARKERMODE, d3d10umddi/SetMarkerMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1,WDDM 1.3 and later
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetMarkerMode
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	SetMarkerMode
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3DWDDM1_3DDI_SETMARKERMODE callback
 
 
-
 ## -description
+
+
 Notifies the user-mode display driver that it should support a type of Event Tracing for Windows (ETW) marker event. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later drivers.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DWDDM1_3DDI_SETMARKERMODE SetMarkerMode;
@@ -59,6 +69,9 @@ _Check_return_ HRESULT APIENTRY* SetMarkerMode(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
 A handle to the display device (graphics context).
@@ -69,7 +82,7 @@ A handle to the display device (graphics context).
 A value from the <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_marker_type.md">D3DWDDM1_3DDI_MARKER_TYPE</a> enumeration that indicates the type of marker event  that the driver should support.
 
 
-### -param Flags 
+### -param Flags
 
 A <b>UINT</b> value that indicates whether the driver should provide custom info in command buffers. If set to <b>D3DWDDM1_3DDI_SETMARKERMODE_CUSTOMDRIVEREVENTS</b>, the driver should annotate and instrument command buffers with custom event info. Otherwise, the driver should not annotate command buffers.
 
@@ -78,19 +91,27 @@ The annotation can be in the form of a text string in the English-US locale, or 
 
 ## -returns
 
+
+
       Returns <b>S_OK</b> or an appropriate error result if the function does not complete successfully.
 
 
+
 ## -remarks
+
+
 Follow these guidelines when you set up profile-type marker events in your user-mode driver, indicated by the <b>D3DWDDM1_3DDI_MARKER_TYPE_PROFILE</b> type:
+<ol>
+<li>Use lightweight instrumentation that doesn't produce a strong correlation with graphics command boundaries.</li>
+<li>The driver must be able to sample the GPU time stamp at the end of the graphics pipeline.</li>
+<li>Don't use sampling commands that place a high performance burden on the graphics pipeline, such as wait-for-idle commands. To be able to instrument profile-type marker events, your driver shouldn't have to flush the pipeline or caches.</li>
+</ol>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_marker_type.md">D3DWDDM1_3DDI_MARKER_TYPE</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3f0982d8-4ac3-40f6-8587-624c26d25510
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsInterfaceHandler, IKsInterfaceHandler::KsProcessMediaSamples, KsProcessMediaSamples
+ms.keywords: ksproxy/IKsInterfaceHandler::KsProcessMediaSamples, ksproxy_929792a7-d5c4-4568-9178-866b9738079b.xml, IKsInterfaceHandler::KsProcessMediaSamples, IKsInterfaceHandler, stream.iksinterfacehandler_ksprocessmediasamples, KsProcessMediaSamples method [Streaming Media Devices], IKsInterfaceHandler interface, KsProcessMediaSamples method [Streaming Media Devices], KsProcessMediaSamples, IKsInterfaceHandler interface [Streaming Media Devices], KsProcessMediaSamples method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsInterfaceHandler.KsProcessMediaSamples
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ksproxy.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsInterfaceHandler.KsProcessMediaSamples
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsInterfaceHandler::KsProcessMediaSamples method
 
 
-
 ## -description
+
+
 The <b>KsProcessMediaSamples</b> method processes media samples.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT KsProcessMediaSamples(
@@ -57,6 +67,9 @@ HRESULT KsProcessMediaSamples(
 
 
 ## -parameters
+
+
+
 
 ### -param KsDataTypeHandler [in]
 
@@ -76,7 +89,6 @@ Pointer to a variable that initially contains the number of samples in the list 
 ### -param IoOperation [in]
 
 Value that specifies the type of I/O operation. This value can be one of the following values from the KSIOOPERATION enumerated type:
-
 <table>
 <tr>
 <th>Value</th>
@@ -102,8 +114,7 @@ Read data from stream.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param StreamSegment [out]
@@ -112,10 +123,15 @@ Pointer to a buffer that receives a pointer to a <a href="..\ksproxy\ns-ksproxy-
 
 
 ## -returns
+
+
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
+
 ## -remarks
+
+
 The <b>KsProcessMediaSamples</b> method moves samples from or to a previously assigned filter pin. A stream header is initialized to represent each media sample in the stream segment. The input and output (I/O) are then performed, the count of wait items is incremented, and the proxy I/O thread waits for completion.
 
 The <b>KsProcessMediaSamples</b> method calls the <a href="https://msdn.microsoft.com/14d03e6f-d02c-4b39-8f21-b339c65fb036">KsQueryExtendedSize</a> method of the received <a href="..\ksproxy\nn-ksproxy-iksdatatypehandler.md">IKsDataTypeHandler</a> interface to retrieve the size of the extended header. If an extended header size is not specified, <b>KsProcessMediaSamples</b> discards the pointer to the <b>IKsDataTypeHandler</b> interface. If an extended header size is specified, <b>KsProcessMediaSamples</b> holds the pointer to the <b>IKsDataTypeHandler</b> interface until processing of the media samples is complete. The <b>KsProcessMediaSamples</b> method then allocates the stream headers with the appropriate header sizes. For each media sample, <b>KsProcessMediaSamples</b> initializes the header, copies data pointers, sets time stamps, and so on. Each sample is then added to the sample list. If it is a write operation, the sample is held by incrementing the reference count. 
@@ -123,18 +139,15 @@ The <b>KsProcessMediaSamples</b> method calls the <a href="https://msdn.microsof
 For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK documentation.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksproxy\nn-ksproxy-iksdatatypehandler.md">IKsDataTypeHandler</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559836">IKsDataTypeHandler::KsQueryExtendedSize</a>
-</dt>
-<dt>
+
 <a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559836">IKsDataTypeHandler::KsQueryExtendedSize</a>
+
  
 
  

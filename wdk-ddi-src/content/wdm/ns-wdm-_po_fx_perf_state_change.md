@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AE7A79DE-0202-4816-A36C-5A15C4539392
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PO_FX_PERF_STATE_CHANGE, PO_FX_PERF_STATE_CHANGE, *PPO_FX_PERF_STATE_CHANGE
+ms.keywords: kernel.po_fx_perf_state_change, _PO_FX_PERF_STATE_CHANGE, wdm/PPO_FX_PERF_STATE_CHANGE, PPO_FX_PERF_STATE_CHANGE, PPO_FX_PERF_STATE_CHANGE structure pointer [Kernel-Mode Driver Architecture], PO_FX_PERF_STATE_CHANGE, PO_FX_PERF_STATE_CHANGE structure [Kernel-Mode Driver Architecture], wdm/PO_FX_PERF_STATE_CHANGE, *PPO_FX_PERF_STATE_CHANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PO_FX_PERF_STATE_CHANGE
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	PO_FX_PERF_STATE_CHANGE
+product: Windows
+targetos: Windows
 req.typenames: PO_FX_PERF_STATE_CHANGE, *PPO_FX_PERF_STATE_CHANGE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _PO_FX_PERF_STATE_CHANGE structure
 
 
-
 ## -description
+
+
 The <b>PO_FX_PERF_STATE_CHANGE</b> structure contains information about a change to a performance state that is being requested by calling the <a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechange.md">PoFxIssueComponentPerfStateChange</a> or <a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechangemultiple.md">PoFxIssueComponentPerfStateChangeMultiple</a> routine.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PO_FX_PERF_STATE_CHANGE {
@@ -59,9 +69,7 @@ typedef struct _PO_FX_PERF_STATE_CHANGE {
 
 ## -struct-fields
 
-### -field Set
 
-The index of the performance state set that is being changed within the collection of performance state sets for the component.
 
 
 ### -field StateIndex
@@ -74,22 +82,26 @@ For sets that represent a discrete number of performance states (that is, where 
 For sets that represent a continuous distribution of performance states (that is, where the <b>Type</b> member of the <a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a> is <b>PoFxPerfStateTypeRange</b>), this member is the value of the performance state to use for the new performance level.
 
 
+### -field Set
+
+The index of the performance state set that is being changed within the collection of performance state sets for the component.
+
+
 ## -remarks
+
+
 The <b>PO_FX_PERF_STATE_CHANGE</b> structure is used for the <i>PerfChange</i> parameter of the <a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechange.md">PoFxIssueComponentPerfStateChange</a> routine and the  <i>PerfChanges</i> parameter of the <a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechangemultiple.md">PoFxIssueComponentPerfStateChangeMultiple</a> routine. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechange.md">PoFxIssueComponentPerfStateChange</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechangemultiple.md">PoFxIssueComponentPerfStateChangeMultiple</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechange.md">PoFxIssueComponentPerfStateChange</a>
+
  
 
  

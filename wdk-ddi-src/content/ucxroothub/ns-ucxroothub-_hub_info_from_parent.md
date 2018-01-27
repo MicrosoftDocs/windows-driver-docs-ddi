@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6259CC70-A54B-4A44-B38B-D24C296C8EA0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _HUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT, *PHUB_INFO_FROM_PARENT
+ms.keywords: ucxroothub/_HUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT structure [Buses], *PHUB_INFO_FROM_PARENT, P_HUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT, ucxroothub/P_HUB_INFO_FROM_PARENT, P_HUB_INFO_FROM_PARENT structure pointer [Buses], _HUB_INFO_FROM_PARENT, buses._hub_info_from_parent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HUB_INFO_FROM_PARENT
-req.alt-loc: ucxroothub.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ucxroothub.h
+apiname: 
+-	HUB_INFO_FROM_PARENT
+product: Windows
+targetos: Windows
 req.typenames: HUB_INFO_FROM_PARENT, *PHUB_INFO_FROM_PARENT
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _HUB_INFO_FROM_PARENT structure
 
 
-
 ## -description
+
+
 Describes information about a hub from its parent device. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _HUB_INFO_FROM_PARENT {
@@ -68,6 +78,9 @@ typedef struct _HUB_INFO_FROM_PARENT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field IoTarget
 
@@ -145,5 +158,3 @@ A pointer to a <b>USB_DEVICE_CAPABILITY_SUPERSPEEDPLUS_SPEED</b> structure that 
 
 The count of sublink speed attributes.
 
-
-## -remarks

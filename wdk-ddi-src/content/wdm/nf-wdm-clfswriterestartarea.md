@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e97006e1-5a18-4478-9cac-30eb70142fa7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsWriteRestartArea
+ms.keywords: ClfsWriteRestartArea routine [Kernel-Mode Driver Architecture], kernel.clfswriterestartarea, ClfsWriteRestartArea, wdm/ClfsWriteRestartArea, Clfs_b2bfac14-eb9c-4323-af79-ab8bebf06f79.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ClfsWriteRestartArea
-req.alt-loc: Clfs.sys,Ext-MS-Win-fs-clfs-l1-1-0.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Clfs.sys
+-	Ext-MS-Win-fs-clfs-l1-1-0.dll
+apiname: 
+-	ClfsWriteRestartArea
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ClfsWriteRestartArea function
 
 
-
 ## -description
+
+
 The <b>ClfsWriteRestartArea</b> routine atomically appends a new restart record to a CLFS stream, flushes the restart record to stable storage, and optionally updates the base LSN of the stream.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ClfsWriteRestartArea(
@@ -60,6 +71,9 @@ NTSTATUS ClfsWriteRestartArea(
 
 
 ## -parameters
+
+
+
 
 ### -param pvMarshalContext [in, out]
 
@@ -84,7 +98,6 @@ A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that s
 ### -param fFlags [in]
 
 This parameter must be one of the following values.
-
 <table>
 <tr>
 <th>Value</th>
@@ -110,8 +123,7 @@ The restart record is placed in previously reserved space in an I/O block. The n
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param pcbWritten [out, optional]
@@ -125,10 +137,15 @@ A pointer to a <b>CLFS_LSN</b> structure that receives the LSN of the newly writ
 
 
 ## -returns
+
+
 <b>ClfsWriteRestartArea</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
+
 ## -remarks
+
+
 Typically ClfsWriteRestartArea is called as the last act of a client checkpoint.
 
 ClfsWriteRestartArea is a relatively expensive operation because it causes a flush of all records currently in the marshalling area along with a flush of stream and log metadata.
@@ -140,24 +157,19 @@ If you just want to set the base LSN of a stream, use <a href="..\wdm\nf-wdm-clf
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-clfsadvancelogbase.md">ClfsAdvanceLogBase</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
+
 <a href="..\wdm\nf-wdm-clfsreadpreviousrestartarea.md">ClfsReadPreviousRestartArea</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-clfsadvancelogbase.md">ClfsAdvanceLogBase</a>
+
+<a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>
+
  
 
  

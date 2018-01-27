@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E7287A50-2BB8-4D11-AB9B-6E65EEDD698D
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DEVICE_LB_PROVISIONING_DESCRIPTOR, *PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR
+ms.keywords: *PDEVICE_LB_PROVISIONING_DESCRIPTOR, _DEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR structure pointer [Storage Devices], storage.device_lb_provisioning_descriptor, ntddstor/PDEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR structure [Storage Devices], ntddstor/DEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DEVICE_LB_PROVISIONING_DESCRIPTOR
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	DEVICE_LB_PROVISIONING_DESCRIPTOR
+product: Windows
+targetos: Windows
 req.typenames: *PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR
 ---
 
 # _DEVICE_LB_PROVISIONING_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The <b>DEVICE_LB_PROVISIONING_DESCRIPTOR</b> structure is one of the query result structures returned from an <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> request. This structure contains the thin provisioning capabilities for a storage device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DEVICE_LB_PROVISIONING_DESCRIPTOR {
@@ -65,6 +75,9 @@ typedef struct _DEVICE_LB_PROVISIONING_DESCRIPTOR {
 
 ## -struct-fields
 
+
+
+
 ### -field Version
 
 The version of this structure.
@@ -78,7 +91,6 @@ The size of this structure. This is set to <b>sizeof</b>(DEVICE_LB_PROVISIONING_
 ### -field ThinProvisioningEnabled
 
 The thin provisioning–enabled status.
-
 <table>
 <tr>
 <th>Value</th>
@@ -86,9 +98,9 @@ The thin provisioning–enabled status.
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0
-
+<dl>
+<dt>0</dt>
+</dl>
 </td>
 <td width="60%">
 Thin provisioning is disabled.
@@ -97,23 +109,21 @@ Thin provisioning is disabled.
 </tr>
 <tr>
 <td width="40%">
-
-### -field 1
-
+<dl>
+<dt>1</dt>
+</dl>
 </td>
 <td width="60%">
 Thin provisioning is enabled.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field ThinProvisioningReadZeros
 
 Reads to unmapped regions return zeros.
-
 <table>
 <tr>
 <th>Value</th>
@@ -121,9 +131,9 @@ Reads to unmapped regions return zeros.
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0
-
+<dl>
+<dt>0</dt>
+</dl>
 </td>
 <td width="60%">
 Data read from unmapped regions is undefined.
@@ -132,23 +142,21 @@ Data read from unmapped regions is undefined.
 </tr>
 <tr>
 <td width="40%">
-
-### -field 1
-
+<dl>
+<dt>1</dt>
+</dl>
 </td>
 <td width="60%">
 Reads return zeros.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field AnchorSupported
 
 Support for the anchored LBA mapping state.
-
 <table>
 <tr>
 <th>Value</th>
@@ -156,9 +164,9 @@ Support for the anchored LBA mapping state.
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0
-
+<dl>
+<dt>0</dt>
+</dl>
 </td>
 <td width="60%">
 The anchored LBA mapping state is not supported.
@@ -167,23 +175,21 @@ The anchored LBA mapping state is not supported.
 </tr>
 <tr>
 <td width="40%">
-
-### -field 1
-
+<dl>
+<dt>1</dt>
+</dl>
 </td>
 <td width="60%">
 The anchored LBA mapping state is supported.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field UnmapGranularityAlignmentValid
 
 The validity of unmap granularity alignment for the device.
-
 <table>
 <tr>
 <th>Value</th>
@@ -191,9 +197,9 @@ The validity of unmap granularity alignment for the device.
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0
-
+<dl>
+<dt>0</dt>
+</dl>
 </td>
 <td width="60%">
 Unmap granularity alignment is not valid.
@@ -202,27 +208,26 @@ Unmap granularity alignment is not valid.
 </tr>
 <tr>
 <td width="40%">
-
-### -field 1
-
+<dl>
+<dt>1</dt>
+</dl>
 </td>
 <td width="60%">
 Unmap granularity alignment is valid.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
-### -field Reserverd0
+### -field Reserved0
 
-Reserved.
+ 
 
 
-### -field Reserverd1
+### -field Reserved1
 
-Reserved.
+ 
 
 
 ### -field OptimalUnmapGranularity
@@ -245,7 +250,19 @@ Maximum amount of LBAs that can be unmapped in a single UNMAP command, in units 
 Maximum number of descriptors allowed in a single UNMAP command. This is valid only in Windows 10 and above.
 
 
+#### - Reserverd1
+
+Reserved.
+
+
+#### - Reserverd0
+
+Reserved.
+
+
 ## -remarks
+
+
 This structure is returned in the system buffer from a <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> request when the <b>PropertyId</b> member of <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a> is set to <b>StorageDeviceLBProvisioningProperty</b>. 
 
 The <b>DEVICE_LB_PROVISIONING_DESCRIPTOR</b> structure is written to the system buffer, <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>, with a value of <b>sizeof</b>(DEVICE_LB_PROVISIONING_DESCRIPTOR) set in <i>Parameters.DeviceIoControl.OutputBufferLength</i> for the current IRP stack location.
@@ -255,15 +272,13 @@ If <b>UnmapGranularityAlignmentValid</b> = 0,  then any code using <b>UnmapGranu
 If the underlying storage device is a SCSI device, unmapping capability can be queried. If the <b>TrimEnabled</b> member of the <a href="..\ntddstor\ns-ntddstor-_device_trim_descriptor.md">DEVICE_TRIM_DESCRIPTOR</a> structure is TRUE, UNMAP is supported. The <b>DEVICE_TRIM_DESCRIPTOR</b> structure is returned in the system buffer from a <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> request when the <b>PropertyId</b> member of <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a> is set to <b>StorageDeviceTrimProperty</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
-</dt>
-<dt>
+
 <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>
-</dt>
-</dl>
+
  
 
  

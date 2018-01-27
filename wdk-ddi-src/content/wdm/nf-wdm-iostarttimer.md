@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2e13d7da-7ef3-4c2e-b028-f7d37548c208
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoStartTimer
+ms.keywords: kernel.iostarttimer, k104_bca7aa97-41e1-48e4-96df-52dd6109cd51.xml, IoStartTimer routine [Kernel-Mode Driver Architecture], wdm/IoStartTimer, IoStartTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoStartTimer
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoStartTimer
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoStartTimer function
 
 
-
 ## -description
+
+
 The <b>IoStartTimer</b> routine enables the timer associated with a given device object so the driver-supplied <a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a> routine is called once per second.
 
 
-
 ## -syntax
+
 
 ````
 VOID IoStartTimer(
@@ -55,40 +65,42 @@ VOID IoStartTimer(
 
 ## -parameters
 
+
+
+
 ### -param DeviceObject [in]
 
 Pointer to a device object whose timer routine is to be called.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The driver must already have set up the IoTimer routine for the <i>DeviceObject</i> by calling <b>IoInitializeTimer</b>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-iostoptimer.md">IoStopTimer</a>
+
 <a href="..\wdm\nf-wdm-ioinitializetimer.md">IoInitializeTimer</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-iostoptimer.md">IoStopTimer</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a>
+
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e6247856-5abf-44ea-afe8-9be3f61271a4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlAbsoluteToSelfRelativeSD
+ms.keywords: ifsk.rtlabsolutetoselfrelativesd, ntifs/RtlAbsoluteToSelfRelativeSD, rtlref_809e562f-be24-43d2-8357-ffd83eac421a.xml, RtlAbsoluteToSelfRelativeSD routine [Installable File System Drivers], RtlAbsoluteToSelfRelativeSD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows Server
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlAbsoluteToSelfRelativeSD
-req.alt-loc: NtosKrnl.exe,Ntdll.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+-	Ntdll.dll
+apiname: 
+-	RtlAbsoluteToSelfRelativeSD
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlAbsoluteToSelfRelativeSD function
 
 
-
 ## -description
+
+
 The <b>RtlAbsoluteToSelfRelativeSD</b> routine creates a new security descriptor in self-relative format by using a security descriptor in absolute format as a template. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlAbsoluteToSelfRelativeSD(
@@ -55,6 +66,9 @@ NTSTATUS RtlAbsoluteToSelfRelativeSD(
 
 
 ## -parameters
+
+
+
 
 ### -param AbsoluteSecurityDescriptor [in]
 
@@ -72,18 +86,43 @@ Pointer to a caller-allocated variable that specifies the size, in bytes, of the
 
 
 ## -returns
+
+
 <b>RtlAbsoluteToSelfRelativeSD</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BAD_DESCRIPTOR_FORMAT</b></dt>
-</dl>The buffer pointed to by the <i>AbsoluteSecurityDescriptor</i> parameter did not contain a SECURITY_DESCRIPTOR structure in absolute format. STATUS_BAD_DESCRIPTOR_FORMAT is an error code. 
+</dl>
+</td>
+<td width="60%">
+The buffer pointed to by the <i>AbsoluteSecurityDescriptor</i> parameter did not contain a SECURITY_DESCRIPTOR structure in absolute format. STATUS_BAD_DESCRIPTOR_FORMAT is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The buffer pointed to by the <i>SelfRelativeSecurityDescriptor</i> parameter was too small to contain the security descriptor in self-relative format. STATUS_BUFFER_TOO_SMALL is an error code. 
+</dl>
+</td>
+<td width="60%">
+The buffer pointed to by the <i>SelfRelativeSecurityDescriptor</i> parameter was too small to contain the security descriptor in self-relative format. STATUS_BUFFER_TOO_SMALL is an error code. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A security descriptor in absolute format contains pointers to the information it contains, rather than containing the information itself. A security descriptor in self-relative format contains the information in a contiguous block of memory. In a self-relative security descriptor, a <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> structure always starts the information, but the security descriptor's other components can follow the SECURITY_DESCRIPTOR structure in any order. Instead of using memory addresses, the components of the security descriptor are identified by offsets from the beginning of the security descriptor. This format is useful when a security descriptor must be stored on a disk or transmitted by means of a communications protocol. 
 
 To create a new security descriptor in absolute format by using a security descriptor in self-relative format as a template, use <a href="..\ntifs\nf-ntifs-rtlselfrelativetoabsolutesd.md">RtlSelfRelativeToAbsoluteSD</a>. 
@@ -91,30 +130,23 @@ To create a new security descriptor in absolute format by using a security descr
 For more information about security and access control, see the Microsoft Windows SDK documentation. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlselfrelativetoabsolutesd.md">RtlSelfRelativeToAbsoluteSD</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
+
+<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+
+<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
+
+<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+<a href="..\ntifs\nf-ntifs-rtlselfrelativetoabsolutesd.md">RtlSelfRelativeToAbsoluteSD</a>
+
  
 
  

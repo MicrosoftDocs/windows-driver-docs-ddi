@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9f4b076f-006b-47cd-b970-8beed8d7e804
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeRemoveQueueDpc
+ms.keywords: k105_b07492b0-b6b2-4d15-b62c-437a4b33c0b6.xml, kernel.keremovequeuedpc, KeRemoveQueueDpc routine [Kernel-Mode Driver Architecture], wdm/KeRemoveQueueDpc, KeRemoveQueueDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeRemoveQueueDpc
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeRemoveQueueDpc
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeRemoveQueueDpc function
 
 
-
 ## -description
+
+
 The <b>KeRemoveQueueDpc</b> routine removes the specified DPC object from the system DPC queue.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN KeRemoveQueueDpc(
@@ -55,30 +65,36 @@ BOOLEAN KeRemoveQueueDpc(
 
 ## -parameters
 
+
+
+
 ### -param Dpc [in, out]
 
 A pointer to an initialized DPC object that was queued by a previous call to the <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a> routine.
 
 
 ## -returns
+
+
 <b>KeRemoveQueueDpc</b> returns <b>TRUE</b> if the DPC object is in the DPC queue. If the specified DPC object is not currently in the DPC queue, no operation is performed and <b>FALSE</b> is returned.
 
 
+
 ## -remarks
+
+
 If the specified DPC object is currently queued, it is removed from the queue, canceling a call to the associated DPC routine.
 
 Starting with Windows Vista with Service Pack 1 (SP1) and Windows Server 2008, a return value of <b>TRUE</b> always means that <b>KeRemoveQueueDpc</b> successfully removed the DPC object from the DPC queue before the DPC routine started to run. In earlier versions of Windows, the DPC routine might occasionally run even if <b>KeRemoveQueueDpc</b> returns <b>TRUE</b>. In these earlier versions of Windows, drivers that cannot tolerate ambiguity in the <b>TRUE</b> return value should treat return values of <b>TRUE</b> and <b>FALSE</b> identically.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+
  
 
  

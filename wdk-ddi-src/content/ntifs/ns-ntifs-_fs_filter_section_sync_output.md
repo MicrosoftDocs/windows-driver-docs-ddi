@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3378D971-B5D8-485B-8C58-BE5874445407
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FS_FILTER_SECTION_SYNC_OUTPUT, *PFS_FILTER_SECTION_SYNC_OUTPUT, FS_FILTER_SECTION_SYNC_OUTPUT
+ms.keywords: _FS_FILTER_SECTION_SYNC_OUTPUT, ntifs/FS_FILTER_SECTION_SYNC_OUTPUT, PFS_FILTER_SECTION_SYNC_OUTPUT, ifsk.fs_filter_section_sync_output_, FS_FILTER_SECTION_SYNC_OUTPUT, ntifs/PFS_FILTER_SECTION_SYNC_OUTPUT, PFS_FILTER_SECTION_SYNC_OUTPUT structure pointer [Installable File System Drivers], FS_FILTER_SECTION_SYNC_OUTPUT structure [Installable File System Drivers], *PFS_FILTER_SECTION_SYNC_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FS_FILTER_SECTION_SYNC_OUTPUT
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FS_FILTER_SECTION_SYNC_OUTPUT
+product: Windows
+targetos: Windows
 req.typenames: *PFS_FILTER_SECTION_SYNC_OUTPUT, FS_FILTER_SECTION_SYNC_OUTPUT
 ---
 
 # _FS_FILTER_SECTION_SYNC_OUTPUT structure
 
 
-
 ## -description
+
+
 The  <b>FS_FILTER_SECTION_SYNC_OUTPUT</b> structure contains information describing the attributes of the section that is being created.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FS_FILTER_SECTION_SYNC_OUTPUT  {
@@ -56,6 +66,9 @@ typedef struct _FS_FILTER_SECTION_SYNC_OUTPUT  {
 
 
 ## -struct-fields
+
+
+
 
 ### -field StructureSize
 
@@ -76,5 +89,3 @@ Reserved for future use.  Should be zero.
 
 Specifies the optimal size for efficient reads.  Faults from the section will attempt, but not guarantee, to read in multiples of this size.  This value should be a multiple of PAGE_SIZE.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69F7C73E-C609-4080-8CB8-2F4D9A8C695B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeConvertPerformanceCounterToAuxiliaryCounter
+ms.keywords: KeConvertPerformanceCounterToAuxiliaryCounter, KeConvertPerformanceCounterToAuxiliaryCounter routine [Kernel-Mode Driver Architecture], wdm/KeConvertPerformanceCounterToAuxiliaryCounter, kernel.keconvertperformancecountertoauxiliarycounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeConvertPerformanceCounterToAuxiliaryCounter
-req.alt-loc: Hal.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Hal.dll
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Hal.dll
+apiname: 
+-	KeConvertPerformanceCounterToAuxiliaryCounter
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeConvertPerformanceCounterToAuxiliaryCounter function
 
 
-
 ## -description
+
+
 The  <b>KeConvertPerformanceCounterToAuxiliaryCounter</b> routine converts the specified performance counter value into an auxiliary counter value.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KeConvertPerformanceCounterToAuxiliaryCounter(
@@ -56,6 +66,9 @@ NTSTATUS KeConvertPerformanceCounterToAuxiliaryCounter(
 
 
 ## -parameters
+
+
+
 
 ### -param PerformanceCounterValue [in]
 
@@ -73,36 +86,80 @@ A pointer to a variable that contains the estimated conversion error in units of
 
 
 ## -returns
+
+
 <b>KeConvertPerformanceCounterToAuxiliaryCounter</b> can return one of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The conversion succeeded.
+</dl>
+</td>
+<td width="60%">
+The conversion succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>Auxiliary counter is not supported.
+</dl>
+</td>
+<td width="60%">
+Auxiliary counter is not supported.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER </b></dt>
-</dl>The <i>PerformanceCounterValue</i> value is not valid. For example, the value is earlier than the last system boot/recovery, or is out of the +/- 10s range compared to the current performance counter value.
+</dl>
+</td>
+<td width="60%">
+The <i>PerformanceCounterValue</i> value is not valid. For example, the value is earlier than the last system boot/recovery, or is out of the +/- 10s range compared to the current performance counter value.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNSUCCESSFUL </b></dt>
-</dl>The routine cannot convert the specified value with acceptable accuracy.
+</dl>
+</td>
+<td width="60%">
+The routine cannot convert the specified value with acceptable accuracy.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-Make sure that the specified performance counter value is:
 
-The <i>ConversionError</i> value is the difference, in nanoseconds, between the expected calculated value and the actual calculated value for the auxiliary counter.
+
+Make sure that the specified performance counter value is:
+<ul>
+<li>Within +/- 10s compared to the current performance counter read value.
+
+</li>
+<li>Not earlier than the recorded performance counter value at the last system boot or recovery from S3/S4 state.</li>
+</ul>The <i>ConversionError</i> value is the difference, in nanoseconds, between the expected calculated value and the actual calculated value for the auxiliary counter.
 If the <i>ConversionError</i> value is greater than the expected value (determined by you), then call the routine again. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-keconvertauxiliarycountertoperformancecounter.md">KeConvertAuxiliaryCounterToPerformanceCounter</a>
-</dt>
-</dl>
+
  
 
  

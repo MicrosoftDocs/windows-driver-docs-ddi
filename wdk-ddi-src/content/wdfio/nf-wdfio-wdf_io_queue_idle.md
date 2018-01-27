@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9ad3be79-13ca-4bcb-b686-09e7563610f9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_QUEUE_IDLE
+ms.keywords: WDF_IO_QUEUE_IDLE, kmdf.wdf_io_queue_idle, wdfio/WDF_IO_QUEUE_IDLE, WDF_IO_QUEUE_IDLE function, wdf.wdf_io_queue_idle, DFQueueObjectRef_f836bf9d-8d2c-48db-92cd-fbcef2a0faf6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WDF_IO_QUEUE_IDLE
-req.alt-loc: None,None.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: Any IRQL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	None
+-	None.dll
+apiname: 
+-	WDF_IO_QUEUE_IDLE
+product: Windows
+targetos: Windows
 req.typenames: WDF_IO_QUEUE_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WDF_IO_QUEUE_IDLE function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_IO_QUEUE_IDLE</b> function returns <b>TRUE</b> if an I/O queue's state indicates that the queue is drained.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN WDF_IO_QUEUE_IDLE(
@@ -57,40 +68,42 @@ BOOLEAN WDF_IO_QUEUE_IDLE(
 
 ## -parameters
 
+
+
+
 ### -param State [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>-typed value that <a href="..\wdfio\nf-wdfio-wdfioqueuegetstate.md">WdfIoQueueGetState</a> returns.
 
 
 ## -returns
+
+
 <b>WDF_IO_QUEUE_IDLE</b> returns <b>TRUE</b> if the specified queue state indicates that the queue is idle. Otherwise, the function returns <b>FALSE</b>.
 
 
+
 ## -remarks
+
+
 An I/O queue is idle if the queue contains no I/O requests, and if all delivered requests have been completed or canceled. 
 
 Your driver can call <b>WDF_IO_QUEUE_IDLE</b> after it has called <a href="..\wdfio\nf-wdfio-wdfioqueuegetstate.md">WdfIoQueueGetState</a>.
 
 For more information about I/O queue states, see <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>.
 
-The following code example is a routine that returns <b>TRUE</b> if a specified I/O queue is idle.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_drained.md">WDF_IO_QUEUE_DRAINED</a>
-</dt>
-<dt>
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_purged.md">WDF_IO_QUEUE_PURGED</a>
-</dt>
-<dt>
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_ready.md">WDF_IO_QUEUE_READY</a>
-</dt>
-<dt>
+
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_stopped.md">WDF_IO_QUEUE_STOPPED</a>
-</dt>
-</dl>
+
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_drained.md">WDF_IO_QUEUE_DRAINED</a>
+
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_purged.md">WDF_IO_QUEUE_PURGED</a>
+
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_ready.md">WDF_IO_QUEUE_READY</a>
+
  
 
  

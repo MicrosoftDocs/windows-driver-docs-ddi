@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2536fafc-3b62-42a6-8b53-60fa8d61d5a9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_GDIARG_TRANSPARENTBLT, DXGK_GDIARG_TRANSPARENTBLT
+ms.keywords: DmStructs_bb046cac-9272-4bf2-a3a7-33cc7035f3fb.xml, d3dkmddi/DXGK_GDIARG_TRANSPARENTBLT, _DXGK_GDIARG_TRANSPARENTBLT, DXGK_GDIARG_TRANSPARENTBLT, display.dxgk_gdiarg_transparentblt, DXGK_GDIARG_TRANSPARENTBLT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_GDIARG_TRANSPARENTBLT
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_GDIARG_TRANSPARENTBLT
+product: Windows
+targetos: Windows
 req.typenames: DXGK_GDIARG_TRANSPARENTBLT
 ---
 
 # _DXGK_GDIARG_TRANSPARENTBLT structure
 
 
-
 ## -description
+
+
 The DXGK_GDIARG_TRANSPARENTBLT structure describes the characteristics of a GDI hardware-accelerated bit-block transfer (bitblt) operation with transparency.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_GDIARG_TRANSPARENTBLT {
@@ -61,6 +71,9 @@ typedef struct _DXGK_GDIARG_TRANSPARENTBLT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field SrcRect
 
@@ -128,31 +141,65 @@ For more information, see the Remarks section.
 
 
 ## -remarks
+
+
 The rectangles that are specified by the <b>SrcRect</b> and <b>DstRect</b> members bound all sub-rectangles in the source and destination surface spaces, respectively. The Microsoft DirectX graphics kernel subsystem will never request a transparent bit-block transfer if the source and destination rectangles overlap on the same surface.
 
 To complete the transparent bit-block transfer operation, the color of each pixel in <b>DstRect</b> should be computed by using the following formula:
-
-In this case, a value of 0x00FFFFFF in ARGB format indicates alpha = 0, hence alpha-blending is not implemented.
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef DXGK_GDIARG_TRANSPARENTBLT tblt;
+if (tblt.Flags.HonorAlpha)
+{
+  if (SourceColor != tblt.Color)
+ {
+  DestinationColor = SourceColor; 
+ }
+}
+else
+{
+ if ((SourceColor &amp; 0x00FFFFFF) != tblt.Color)
+ {
+  DestinationColor = SourceColor; 
+ }
+}</pre>
+</td>
+</tr>
+</table></span></div>In this case, a value of 0x00FFFFFF in ARGB format indicates alpha = 0, hence alpha-blending is not implemented.
 
 If a stretch bit-block transfer operation is required, the x and y stretch ratios are computed respectively as the ratios of the x and y sizes of <b>DstRect</b> and <b>SrcRect</b>. Additionally, the stretch operation will proceed as if the COLORONCOLOR value in <i>Wingdi.h</i> is set. In a shrinking bit-block transfer, enough pixels should be ignored so that pixels do not need to be combined. In a stretching bit-block transfer, pixels should be replicated.
 
 For more information about transparent bit-block transfers, see <a href="https://msdn.microsoft.com/76e07c66-7e57-42d7-b6da-c13c8e9a8dee">Copying Bitmaps</a>.
 
 When sub-rectangles are transformed to the source surface space, the result is guaranteed to be within the source surface. The transformation of a sub-rectangle's coordinates in the destination surface to coordinates  in the source surface is defined by the following formulas, where
+<ul>
+<li>(Xd, Yd) is a point inside the sub-rectangle</li>
+<li>(Xs, Ys) is a point inside the source rectangle</li>
+</ul><pre class="syntax" xml:space="preserve"><code>float Ws = SrcRect.right â€“ SrcRect.left;
+float Wd = DstRect.right â€“ DstRect.left;
+int Xs = round((Xd â€“ DstRect.left + 0.5) * Ws/Wd + SrcRect.left â€“ 0.5)
+OR
+int Xs = truncate((Xd â€“ DstRect.left + 0.5) * Ws/Wd + SrcRect.left)
+
+float Hs = SrcRect.bottom â€“ SrcRect.top;
+float Hd = DstRect.bottom â€“ DstRect.top;
+int Ys = round((Yd â€“ DstRect.top + 0.5) * Hs/Hd + SrcRect.top â€“ 0.5)
+OR
+int Ys = truncate((Yd â€“ DstRect.top + 0.5) * Hs/Hd + SrcRect.top)</code></pre>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_d3dkm_transparentbltflags.md">D3DKM_TRANSPARENTBLTFLAGS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_renderkm_command.md">DXGK_RENDERKM_COMMAND</a>
-</dt>
-<dt>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_d3dkm_transparentbltflags.md">D3DKM_TRANSPARENTBLTFLAGS</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-</dt>
-</dl>
+
  
 
  

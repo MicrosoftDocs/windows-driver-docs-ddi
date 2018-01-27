@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c533fb15-ca3a-44b2-8a1b-03b2b9c93fc6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlOplockBreakH
+ms.keywords: FsRtlOplockBreakH, fsrtlref_fe992b81-62d1-4f86-9615-05bca958411b.xml, ifsk.fsrtloplockbreakh, ntifs/FsRtlOplockBreakH, FsRtlOplockBreakH routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The FsRtlOplockBreakH routine is available starting w
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlOplockBreakH
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlOplockBreakH
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlOplockBreakH function
 
 
-
 ## -description
+
+
 The <b>FsRtlOplockBreakH</b> routine breaks CACHE_HANDLE_LEVEL opportunistic locks (oplocks). 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlOplockBreakH(
@@ -58,6 +68,9 @@ NTSTATUS FsRtlOplockBreakH(
 
 
 ## -parameters
+
+
+
 
 ### -param Oplock [in]
 
@@ -76,20 +89,6 @@ A bitmask for the associated file I/O operation. A file system or filter driver 
 
 
 
-### -param OPLOCK_FLAG_COMPLETE_IF_OPLOCKED (0x00000001)
-
-Specifies to allow an oplock break to proceed without blocking or pending the operation that caused the oplock break. 
-
-
-### -param OPLOCK_FLAG_IGNORE_OPLOCK_KEYS (0x00000008)
-
-Supported in Windows 7 and later versions.
-
-Specifies to allow CACHE_HANDLE_LEVEL oplock breaks to proceed regardless of the oplock key. 
-
-</dd>
-</dl>
-
 ### -param Context [in, optional]
 
 A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PostIrpRoutine </i>parameters point to. 
@@ -100,7 +99,6 @@ A pointer to caller-defined context information to be passed to the callback rou
 A pointer to a caller-supplied callback routine. If an oplock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the oplock break is completed. 
 
 This routine is declared as follows: 
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -114,30 +112,16 @@ This routine is declared as follows:
       );</pre>
 </td>
 </tr>
-</table></span></div>
-This routine has the following parameters: 
+</table></span></div>This routine has the following parameters: 
 
 
 
-
-### -param Context
-
-A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlOplockBreakH</b>. 
-
-
-### -param Irp
-
-A pointer to the IRP for the I/O operation. 
-
-</dd>
-</dl>
 
 ### -param PostIrpRoutine [in, optional]
 
 A pointer to a caller-supplied callback routine to be called if the I/O operation is to be pended. The routine is called before the oplock package pends the IRP. This parameter is optional and can be <b>NULL</b>. 
 
 This routine is declared as follows: 
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -154,35 +138,87 @@ This routine is declared as follows:
 </table></span></div>
 
 
+##### - Flags.OPLOCK_FLAG_IGNORE_OPLOCK_KEYS (0x00000008)
 
-### -param Context
+Supported in Windows 7 and later versions.
+
+Specifies to allow CACHE_HANDLE_LEVEL oplock breaks to proceed regardless of the oplock key. 
+
+
+##### - PostIrpRoutine.Irp
+
+A pointer to the IRP for the I/O operation. 
+
+
+##### - PostIrpRoutine.Context
 
 A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlOplockBreakH</b>. 
 
 
-### -param Irp
+##### - CompletionRoutine.Irp
 
 A pointer to the IRP for the I/O operation. 
 
-</dd>
-</dl>
+
+##### - Flags.OPLOCK_FLAG_COMPLETE_IF_OPLOCKED (0x00000001)
+
+Specifies to allow an oplock break to proceed without blocking or pending the operation that caused the oplock break. 
+
+
+##### - CompletionRoutine.Context
+
+A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlOplockBreakH</b>. 
+
 
 ## -returns
+
+
 <b>FsRtlOplockBreakH </b>returns STATUS_SUCCESS or an appropriate NTSTATUS code, such as one of the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_CANCELLED</b></dt>
-</dl>The IRP was canceled. STATUS_CANCELLED is an error code. 
+</dl>
+</td>
+<td width="60%">
+The IRP was canceled. STATUS_CANCELLED is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_PENDING</b></dt>
-</dl>The IRP was posted to a work queue. STATUS_PENDING is a success code. 
+</dl>
+</td>
+<td width="60%">
+The IRP was posted to a work queue. STATUS_PENDING is a success code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_CANNOT_BREAK_OPLOCK</b></dt>
-</dl>The opportunistic lock (oplock) break cannot be accomplished. The IRP is an IRP_MJ_CREATE request. FILE_OPEN_REQUIRING_OPLOCK was specified in the create options parameter for the operation, and there is a granted oplock. STATUS_CANNOT_BREAK_OPLOCK is an error code. 
+</dl>
+</td>
+<td width="60%">
+The opportunistic lock (oplock) break cannot be accomplished. The IRP is an IRP_MJ_CREATE request. FILE_OPEN_REQUIRING_OPLOCK was specified in the create options parameter for the operation, and there is a granted oplock. STATUS_CANNOT_BREAK_OPLOCK is an error code. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 When an operation must break CACHE_HANDLE_LEVEL oplocks, the operation calls <b>FsRtlOplockBreakH</b>. 
 
 If the caller specifies the OPLOCK_FLAG_IGNORE_OPLOCK_KEYS flag in the <i>Flags</i> parameter, <b>FsRtlOplockBreakH</b> breaks all CACHE_HANDLE_LEVEL oplocks, regardless of the oplock key. The default behavior of <b>FsRtlOplockBreakH</b> is to break oplocks whose keys do not match the key on the caller's file object.
@@ -190,15 +226,13 @@ If the caller specifies the OPLOCK_FLAG_IGNORE_OPLOCK_KEYS flag in the <i>Flags<
 Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockbreakh.md">FltOplockBreakH</a> instead of <b>FsRtlOplockBreakH</b>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltoplockbreakh.md">FltOplockBreakH</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltoplockbreakh.md">FltOplockBreakH</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6f1b2e93-bc3a-4256-af7b-b015a874112b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: NpdBrokerUninitialize
+ms.keywords: stream.kstrcorrelatedtime, KStrCorrelatedTime routine [Streaming Media Devices], KStrCorrelatedTime, PFNKSCORRELATEDTIME, PFNKSCORRELATEDTIME, ks/KStrCorrelatedTime, ksfunc_06af0f33-8ffd-4f9e-83ad-9f37f3b18f5d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KStrCorrelatedTime
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ks.h
+apiname: 
+-	KStrCorrelatedTime
+product: Windows
+targetos: Windows
 req.typenames: KEYWORDSELECTOR
 ---
 
 # PFNKSCORRELATEDTIME callback
 
 
-
 ## -description
+
+
 A streaming minidriver's <i>KStrCorrelatedTime</i> routine is called to retrieve both the presentation time and physical time in a correlated manner. This allows the clock owner to completely determine the current time.
 
 
-
 ## -prototype
+
 
 ````
 PFNKSCORRELATEDTIME KStrCorrelatedTime;
@@ -58,6 +68,9 @@ LONGLONG FASTCALL KStrCorrelatedTime(
 
 ## -parameters
 
+
+
+
 ### -param Context [in]
 
 Pointer to the minidriver-supplied information context. The minidriver passes the information context to <a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a> in the function's <i>DeferredContext</i> parameter when the minidriver allocates a custom DPC timer object.
@@ -69,30 +82,31 @@ Specifies a pointer to a variable that receives the performance counter frequenc
 
 
 ## -returns
+
+
 Returns the value of the performance counter in units of ticks.
 
 
+
 ## -remarks
+
+
 Typically, if a minidriver supplies a <i>KStrCorrelatedTime</i> callback function, the minidriver must also supply <a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff567156">KStrCancelTimer</a> callback functions.
 
-The minidriver-supplied <i>KStrCorrelatedTimer </i>must have the same characteristics as <a href="..\ntifs\nf-ntifs-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>.
+The minidriver-supplied <i>KStrCorrelatedTimer </i>must have the same characteristics as <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567156">KStrCancelTimer</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567156">KStrCancelTimer</a>
+
  
 
  

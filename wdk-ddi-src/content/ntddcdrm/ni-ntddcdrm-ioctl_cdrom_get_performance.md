@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3BA2D85A-052B-4851-B31C-072F2872F3FE
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _WRITE_ROTATION, WRITE_ROTATION, *PWRITE_ROTATION
+ms.keywords: storage.ioctl_cdrom_get_performance, IOCTL_CDROM_GET_PERFORMANCE control code [Storage Devices], IOCTL_CDROM_GET_PERFORMANCE, ntddcdrm/IOCTL_CDROM_GET_PERFORMANCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_CDROM_GET_PERFORMANCE
-req.alt-loc: ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdrm.h
+apiname: 
+-	IOCTL_CDROM_GET_PERFORMANCE
+product: Windows
+targetos: Windows
 req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
 
 # IOCTL_CDROM_GET_PERFORMANCE IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 Retrieves the supported speeds from the device. The <b>IOCTL_CDROM_GET_PERFORMANCE</b> 
    I/O control request   is a wrapper over the MMC command, GET PERFORMANCE.
 
@@ -47,74 +62,93 @@ To perform this operation, call the
    function with   <b>IOCTL_CDROM_GET_PERFORMANCE</b> as the <i>dwIoControlCode</i> parameter.
 
 
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_request.md">CDROM_PERFORMANCE_REQUEST</a> requests performance data.
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_write_speed_request.md">CDROM_WRITE_SPEED_REQUEST</a> requests write speed descriptor.
 
 
 ### -input-buffer-length
+
 Length of a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_request.md">CDROM_PERFORMANCE_REQUEST</a>.
 
 
 ### -output-buffer
+
 For request type CdromWriteSpeedRequest, this IOCTL returns the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_header.md">CDROM_PERFORMANCE_HEADER</a> structure followed by a number of CDROM_WRITE_SPEED_DESCRIPTOR descriptors.
 
 For request type CdromPerformanceRequest, this  IOCTL returns the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_header.md">CDROM_PERFORMANCE_HEADER</a> structure followed by an optional descriptor. The descriptor following this header depends on the value in the <b>Except</b> field of the <b>CDROM_PERFORMANCE_HEADER</b> structure. If <b>Except</b> is false, CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR is used; otherwise, CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR is used.
 
 
 ### -output-buffer-length
+
 Length of a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_header.md">CDROM_PERFORMANCE_HEADER</a>.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Information</b> field is set to the number of bytes returned. 
 
 Because of  status code propagation from other APIs, the <b>Status</b> field can be set to (but is not limited to) the following:
 
 
 
-The request completed successfully.
+
+#### -STATUS_BUFFER_TOO_SMALL
+
+The output buffer length is smaller than required.
+
+
+#### -STATUS_INFO_LENGTH_MISMATCH
 
 The input buffer length is smaller than required.
 
-The CDROM_PERFORMANCE_REQUEST header does not contain a valid combination of parameters specified by enumerations.
 
-The output buffer length is smaller than required.
+#### -STATUS_INVALID_DEVICE_REQUEST
 
 The device does not support this request.
 
 
-## -remarks
+#### -STATUS_INVALID_PARAMETER
+
+The CDROM_PERFORMANCE_REQUEST header does not contain a valid combination of parameters specified by enumerations.
+
+
+#### -STATUS_SUCCESS
+
+The request completed successfully.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_request.md">CDROM_PERFORMANCE_REQUEST</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_write_speed_request.md">CDROM_WRITE_SPEED_REQUEST</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_header.md">CDROM_PERFORMANCE_HEADER</a>
-</dt>
-</dl>
+
  
 
  

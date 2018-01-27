@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0661a65d-5129-49f6-9400-70b8c8e8245f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_UMD_DRIVER_VERSION, D3DKMT_UMD_DRIVER_VERSION
+ms.keywords: D3DKMT_UMD_DRIVER_VERSION structure [Display Devices], d3dkmthk/D3DKMT_UMD_DRIVER_VERSION, D3DKMT_UMD_DRIVER_VERSION, display.d3dkmt_umd_driver_version, _D3DKMT_UMD_DRIVER_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_UMD_DRIVER_VERSION
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_UMD_DRIVER_VERSION
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_UMD_DRIVER_VERSION
 ---
 
 # _D3DKMT_UMD_DRIVER_VERSION structure
 
 
-
 ## -description
+
+
 Indicates the version number of the user-mode driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_UMD_DRIVER_VERSION {
@@ -54,9 +64,10 @@ typedef struct _D3DKMT_UMD_DRIVER_VERSION {
 
 ## -struct-fields
 
+
+
+
 ### -field DriverVersion
 
 The user-mode driver version.
 
-
-## -remarks

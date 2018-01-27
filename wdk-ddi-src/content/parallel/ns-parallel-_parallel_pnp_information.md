@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 9288fc11-e19b-46dd-95e4-6de8c7cdc61d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _PARALLEL_PNP_INFORMATION, *PPARALLEL_PNP_INFORMATION, PARALLEL_PNP_INFORMATION
+ms.keywords: PPARALLEL_PNP_INFORMATION, *PPARALLEL_PNP_INFORMATION, parallel/PPARALLEL_PNP_INFORMATION, PPARALLEL_PNP_INFORMATION structure pointer [Parallel Ports], cisspd_71ac405c-ab56-434c-a945-9afee36c0972.xml, PARALLEL_PNP_INFORMATION, PARALLEL_PNP_INFORMATION structure [Parallel Ports], parports.parallel_pnp_information, _PARALLEL_PNP_INFORMATION, parallel/PARALLEL_PNP_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PARALLEL_PNP_INFORMATION
-req.alt-loc: parallel.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PPARALLEL_PNP_INFORMATION, PARALLEL_PNP_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	parallel.h
+apiname: 
+-	PARALLEL_PNP_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: PARALLEL_PNP_INFORMATION, *PPARALLEL_PNP_INFORMATION
 ---
 
 # _PARALLEL_PNP_INFORMATION structure
 
 
-
 ## -description
+
+
 The PARALLEL_PNP_INFORMATION structure specifies information about the capabilities of a parallel port.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PARALLEL_PNP_INFORMATION {
@@ -69,6 +79,9 @@ typedef struct _PARALLEL_PNP_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field OriginalEcpController
 
@@ -96,25 +109,6 @@ Specifies the hardware capabilities of the parallel port. The following capabili
 
 
 
-
-### -field PPT_1284_3_PRESENT
-
-
-### -field PPT_BYTE_PRESENT 
-
-
-### -field PPT_ECP_PRESENT 
-
-
-### -field PPT_EPP_32_PRESENT 
-
-
-### -field PPT_EPP_PRESENT 
-
-
-### -field PT_NO_HARDWARE_PRESENT 
-
-</dl>
 
 ### -field TrySetChipMode
 
@@ -163,7 +157,7 @@ Pointer to the system-supplied <a href="..\parallel\nc-parallel-pparallel_desele
 
 ### -field Context
 
-Pointer to the device extension of a parallel port's functional device object (<a href="wdkgloss.f#wdkgloss.fdo#wdkgloss.fdo"><i>FDO</i></a>).
+Pointer to the device extension of a parallel port's functional device object (<a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FDO</a>).
 
 
 ### -field CurrentMode
@@ -176,40 +170,57 @@ The current operating mode of the parallel port.
 The symbolic link name of the parallel port.
 
 
+##### - HardwareCapabilities.PPT_EPP_PRESENT
+
+
+
+##### - HardwareCapabilities.PT_NO_HARDWARE_PRESENT
+
+
+
+##### - HardwareCapabilities.PPT_BYTE_PRESENT
+
+
+
+##### - HardwareCapabilities.PPT_1284_3_PRESENT
+
+
+
+##### - HardwareCapabilities.PPT_ECP_PRESENT
+
+
+
+##### - HardwareCapabilities.PPT_EPP_32_PRESENT
+
+
+
 ## -remarks
+
+
 For more information, see <a href="https://msdn.microsoft.com/d8ae2296-05b6-419a-93cc-00fcb12d41fe">Obtaining Information About a ParallelPort</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\parallel\ni-parallel-ioctl_internal_get_more_parallel_port_info.md">IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO</a>
-</dt>
-<dt>
+
 <a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_pnp_info.md">IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO</a>
-</dt>
-<dt>
-<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
-</dt>
-<dt>
-<a href="..\parallel\ns-parallel-_more_parallel_port_information.md">MORE_PARALLEL_PORT_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\parallel\ns-parallel-_parallel_port_information.md">PARALLEL_PORT_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\parallel\nc-parallel-pparallel_clear_chip_mode.md">PPARALLEL_CLEAR_CHIP_MODE</a>
-</dt>
-<dt>
-<a href="..\parallel\nc-parallel-pparallel_deselect_routine.md">PPARALLEL_DESELECT_ROUTINE</a>
-</dt>
-<dt>
-<a href="..\parallel\nc-parallel-pparallel_set_chip_mode.md">PPARALLEL_SET_CHIP_MODE</a>
-</dt>
-<dt>
+
+<a href="..\parallel\ns-parallel-_more_parallel_port_information.md">MORE_PARALLEL_PORT_INFORMATION</a>
+
+<a href="..\parallel\ns-parallel-_parallel_port_information.md">PARALLEL_PORT_INFORMATION</a>
+
 <a href="..\parallel\nc-parallel-pparallel_try_select_routine.md">PPARALLEL_TRY_SELECT_ROUTINE</a>
-</dt>
-</dl>
+
+<a href="..\parallel\nc-parallel-pparallel_set_chip_mode.md">PPARALLEL_SET_CHIP_MODE</a>
+
+<a href="..\parallel\nc-parallel-pparallel_deselect_routine.md">PPARALLEL_DESELECT_ROUTINE</a>
+
+<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
+
  
 
  

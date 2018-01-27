@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 829d4df0-2dc2-4a1f-9606-3d5f25624252
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _PCI_PM_CAPABILITY, *PPCI_PM_CAPABILITY, PCI_PM_CAPABILITY
+ms.keywords: PPCI_PM_CAPABILITY structure pointer [Buses], _PCI_PM_CAPABILITY, *PPCI_PM_CAPABILITY, PCI_PM_CAPABILITY structure [Buses], wdm/PPCI_PM_CAPABILITY, PCI_PM_CAPABILITY, PPCI_PM_CAPABILITY, pci_struct_041a9702-7b1e-43dc-8b8c-0371bc0eac26.xml, wdm/PCI_PM_CAPABILITY, PCI.pci_pm_capability
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PCI_PM_CAPABILITY
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PPCI_PM_CAPABILITY, PCI_PM_CAPABILITY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	PCI_PM_CAPABILITY
+product: Windows
+targetos: Windows
+req.typenames: PCI_PM_CAPABILITY, *PPCI_PM_CAPABILITY
 req.product: Windows 10 or later.
 ---
 
 # _PCI_PM_CAPABILITY structure
 
 
-
 ## -description
+
+
 The PCI_PM_CAPABILITY structure reports the power management capabilities of the device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PCI_PM_CAPABILITY {
@@ -68,79 +78,71 @@ typedef struct _PCI_PM_CAPABILITY {
 
 ## -struct-fields
 
-### -field Header
 
-Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537454">PCI_CAPABILITIES_HEADER</a> that identifies the capability and provides a link to the next capability description. 
 
 
 ### -field PMC
 
 
-### -field Capabilities
+
+### -field PMC.Capabilities
 
 Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537581">PCI_PMC</a> that specifies the power management capabilities of the device. This information was retrieved from the power management capabilities register (offset 2 in the power management register block). For more information about the contents of the power management capabilities register, see the <i>PCI Power Management Specification</i>. 
 
 
-### -field AsUSHORT
+### -field PMC.AsUSHORT
 
 Contains the same data as the <b>Capabilities </b>member. 
 
-</dd>
-</dl>
 
 ### -field PMCSR
 
 
-### -field ControlStatus
+
+### -field PMCSR.ControlStatus
 
 Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537583">PCI_PMCSR</a> that reports the contents of the power management control status register. This register is used to monitor power management event signals and manage the device's power state. For more information about the contents of the power management control status register, see the <i>PCI Power Management Specification</i>. 
 
 
-### -field AsUSHORT
+### -field PMCSR.AsUSHORT
 
 Contains the same data as the <b>Capabilities </b>member. 
 
-</dd>
-</dl>
 
 ### -field PMCSR_BSE
 
 
-### -field BridgeSupport
+
+### -field PMCSR_BSE.BridgeSupport
 
 Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537587">PCI_PMCSR_BSE</a> that reports the contents of the power management control status register for PCI bridge support extensions. 
 
 
-### -field AsUCHAR
+### -field PMCSR_BSE.AsUCHAR
 
 Contains the same data as the <b>BridgeSupport</b> member.
 
-</dd>
-</dl>
+
+### -field Header
+
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537454">PCI_CAPABILITIES_HEADER</a> that identifies the capability and provides a link to the next capability description. 
+
 
 ### -field Data
 
 Holds the contents of an optional data register that the device uses to report state-dependent operating data, such as heat dissipation or how much power the device has consumed.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537454">PCI_CAPABILITIES_HEADER</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537581">PCI_PMC</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537583">PCI_PMCSR</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537454">PCI_CAPABILITIES_HEADER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537581">PCI_PMC</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537587">PCI_PMCSR_BSE</a>
-</dt>
-</dl>
+
  
 
  

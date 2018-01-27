@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cf508b5c-4af8-4371-b833-eaa71535afc5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAddObjectCreateItemToDeviceHeader
+ms.keywords: ksfunc_89d7ee34-62de-4702-9cfa-5e3b6c9a9819.xml, ks/KsAddObjectCreateItemToDeviceHeader, stream.ksaddobjectcreateitemtodeviceheader, KsAddObjectCreateItemToDeviceHeader function [Streaming Media Devices], KsAddObjectCreateItemToDeviceHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsAddObjectCreateItemToDeviceHeader
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsAddObjectCreateItemToDeviceHeader
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsAddObjectCreateItemToDeviceHeader function
 
 
-
 ## -description
+
+
 The <b>KsAddObjectCreateItemToDeviceHeader</b> function adds the specified create-item to an empty item in the previously allocated create item list for this device header. An empty item is signified by a <b>NULL</b> create dispatch function in the entry. This function assumes that the caller is serializing multiple changes to the create items list.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsAddObjectCreateItemToDeviceHeader(
@@ -57,6 +68,9 @@ NTSTATUS KsAddObjectCreateItemToDeviceHeader(
 
 
 ## -parameters
+
+
+
 
 ### -param Header [in]
 
@@ -84,7 +98,8 @@ Specifies the security descriptor. This must remain valid while the device objec
 
 
 ## -returns
+
+
 The <b>KsAddObjectCreateItemToDeviceHeader</b> function returns STATUS_SUCCESS if an empty create item slot was found and the item was added.If unsuccessful, it returns STATUS_ALLOTTED_SPACE_EXCEEDED.
 
 
-## -remarks

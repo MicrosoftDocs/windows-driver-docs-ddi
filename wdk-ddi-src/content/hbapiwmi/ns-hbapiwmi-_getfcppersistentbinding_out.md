@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1bb7c529-df26-4173-a098-6a19adf6b569
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _GetFcpPersistentBinding_OUT, GetFcpPersistentBinding_OUT, *PGetFcpPersistentBinding_OUT
+ms.keywords: GetFcpPersistentBinding_OUT structure [Storage Devices], hbapiwmi/GetFcpPersistentBinding_OUT, GetFcpPersistentBinding_OUT, PGetFcpPersistentBinding_OUT, _GetFcpPersistentBinding_OUT, *PGetFcpPersistentBinding_OUT, hbapiwmi/PGetFcpPersistentBinding_OUT, PGetFcpPersistentBinding_OUT structure pointer [Storage Devices], storage.getfcppersistentbinding_out, structs-Fibre_6deac9e1-fd5f-4bc1-9349-39bc61c4c6bb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GetFcpPersistentBinding_OUT
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	GetFcpPersistentBinding_OUT
+product: Windows
+targetos: Windows
 req.typenames: GetFcpPersistentBinding_OUT, *PGetFcpPersistentBinding_OUT
 ---
 
 # _GetFcpPersistentBinding_OUT structure
 
 
-
 ## -description
+
+
 The GetFcpPersistentBinding_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553966">GetFcpPersistentBinding</a> WMI method to the WMI client.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GetFcpPersistentBinding_OUT {
@@ -56,6 +66,9 @@ typedef struct _GetFcpPersistentBinding_OUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HBAStatus
 
@@ -78,17 +91,18 @@ Contains an array of structures of type HBAFCPBindingEntry that describe an HBA'
 
 
 ## -remarks
+
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff553966">GetFcpPersistentBinding</a> WMI method retrieves the bindings between SCSI and fibre channel protocol (FCP) identifiers for the logical units.
 
 The WMI tool suite generates a declaration of the GetFcpPersistentBinding_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553966">GetFcpPersistentBinding</a>
-</dt>
-</dl>
+
  
 
  

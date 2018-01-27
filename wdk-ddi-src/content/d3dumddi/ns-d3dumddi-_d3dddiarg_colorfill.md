@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4d647c59-4e00-46b3-a46f-226e475eb63d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_COLORFILL, D3DDDIARG_COLORFILL
+ms.keywords: d3dumddi/D3DDDIARG_COLORFILL, UMDisplayDriver_param_Structs_1ad82ddb-4070-45be-81c3-c2347170fad0.xml, display.d3dddiarg_colorfill, D3DDDIARG_COLORFILL, _D3DDDIARG_COLORFILL, D3DDDIARG_COLORFILL structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_COLORFILL
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_COLORFILL
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_COLORFILL
 ---
 
 # _D3DDDIARG_COLORFILL structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_COLORFILL structure describes the parameters of a color-fill operation. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_COLORFILL {
@@ -57,6 +67,9 @@ typedef struct _D3DDDIARG_COLORFILL {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hResource
 
@@ -83,21 +96,14 @@ A D3DCOLOR data type for the A8R8G8B8 fill color.
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_colorfillflags.md">D3DDDI_COLORFILLFLAGS</a> structure that identifies the type of color-fill operation to perform. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_colorfill.md">ColorFill</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_colorfillflags.md">D3DDDI_COLORFILLFLAGS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_colorfill.md">ColorFill</a>
+
  
 
  

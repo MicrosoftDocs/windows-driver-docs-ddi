@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7d41263e-a5f7-455e-859b-10a452a22ddf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SeCaptureSubjectContext
+ms.keywords: ntifs/SeCaptureSubjectContext, ifsk.secapturesubjectcontext, SeCaptureSubjectContext, seref_192d13d7-4841-4c3e-831f-c12fe3cde04f.xml, SeCaptureSubjectContext routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SeCaptureSubjectContext
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	SeCaptureSubjectContext
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # SeCaptureSubjectContext function
 
 
-
 ## -description
+
+
 The <b>SeCaptureSubjectContext</b> routine captures the security context of the calling thread for access validation and auditing.
 
 
-
 ## -syntax
+
 
 ````
 VOID SeCaptureSubjectContext(
@@ -54,16 +64,24 @@ VOID SeCaptureSubjectContext(
 
 ## -parameters
 
+
+
+
 ### -param SubjectContext [out]
 
 Pointer to a caller-allocated <a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a> structure.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The <b>SeCaptureSubjectContext</b> routine returns a pointer to a <a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a> structure, which contains references to access tokens. The contents of that structure can change. The <a href="..\ntifs\nf-ntifs-selocksubjectcontext.md">SeLockSubjectContext</a> routine locks the primary access token and any impersonation tokens associated with the structure.
 
 
@@ -75,30 +93,23 @@ File systems must call <b>SeCaptureSubjectContext</b> before performing access v
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-selocksubjectcontext.md">SeLockSubjectContext</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-sequeryauthenticationidtoken.md">SeQueryAuthenticationIdToken</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-sequerysubjectcontexttoken.md">SeQuerySubjectContextToken</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-sequeryauthenticationidtoken.md">SeQueryAuthenticationIdToken</a>
+
 <a href="..\ntifs\nf-ntifs-sereleasesubjectcontext.md">SeReleaseSubjectContext</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-selocksubjectcontext.md">SeLockSubjectContext</a>
+
+<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
+
 <a href="..\ntifs\nf-ntifs-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 2f8ae260-3a4c-44a5-85b7-e3ebcf21522b
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _ENUMERATOR_TYPE, *PENUMERATOR_TYPE, ENUMERATOR_TYPE
+ms.keywords: bth_enums_48fc8cf9-53b6-46fd-831a-f4a5c56ff3f1.xml, ENUMERATOR_TYPE_MAX, bthddi/ENUMERATOR_TYPE, ENUMERATOR_TYPE, bltooth.enumerator_type, ENUMERATOR_TYPE_SERVICE, ENUMERATOR_TYPE_PROTOCOL, ENUMERATOR_TYPE enumeration [Bluetooth Devices], bthddi/ENUMERATOR_TYPE_SERVICE, PENUMERATOR_TYPE enumeration pointer [Bluetooth Devices], PENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE_MAX, _ENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE_PROTOCOL, bthddi/PENUMERATOR_TYPE, *PENUMERATOR_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ENUMERATOR_TYPE
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthddi.h
+apiname: 
+-	ENUMERATOR_TYPE
+product: Windows
+targetos: Windows
 req.typenames: *PENUMERATOR_TYPE, ENUMERATOR_TYPE
 ---
 
 # _ENUMERATOR_TYPE enumeration
 
 
-
 ## -description
+
+
 The ENUMERATOR_TYPE enumeration type is used to determine whether the enumerated device is associated
   with a service or a protocol. The ENUMERATOR_TYPE enumeration is intended for internal use only and should
   not be used by profile drivers.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _ENUMERATOR_TYPE { 
@@ -57,6 +67,9 @@ typedef enum _ENUMERATOR_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field ENUMERATOR_TYPE_PROTOCOL
 
@@ -70,29 +83,33 @@ This value should be specified for profile drivers. For more information about h
      <a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a>.
 
 
+### -field ENUMERATOR_TYPE_DEVICE
+
+
+
 ### -field ENUMERATOR_TYPE_MAX
 
 For internal use only. Do not use.
 
 
 ## -remarks
+
+
 A value from this enumeration is returned as the 
     <b>EnumeratorType</b> member of the 
     <a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a> structure, which the 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
-    IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a> returns in its output buffer.
+    <mshelp:link keywords="bltooth.ioctl_internal_bthenum_get_enuminfo" tabindex="0"><b>
+    IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</b></mshelp:link> returns in its output buffer.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
+<mshelp:link keywords="bltooth.ioctl_internal_bthenum_get_enuminfo" tabindex="0"><b>
+   IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</b></mshelp:link>
+
 <a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a>
-</dt>
-<dt>
-<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
-   IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a>
-</dt>
-</dl>
+
  
 
  

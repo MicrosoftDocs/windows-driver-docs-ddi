@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c476c8a2-5d79-45cd-ae72-f8792137f9c2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortDebugPrint
+ms.keywords: VideoPort_Functions_a98adb70-bb89-4d0d-8922-836056896a61.xml, display.videoportdebugprint, video/VideoPortDebugPrint, VideoPortDebugPrint function [Display Devices], VideoPortDebugPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of the Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortDebugPrint
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortDebugPrint
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortDebugPrint function
 
 
-
 ## -description
+
+
 Video miniport drivers should not call the <b>VideoPortDebugPrint</b> function. Instead, they should call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570170">VideoDebugPrint</a> macro.
 
 
-
 ## -syntax
+
 
 ````
 VOID VideoPortDebugPrint(
@@ -56,7 +66,11 @@ VOID VideoPortDebugPrint(
 
 ## -parameters
 
-### -param DebugPrintLevel 
+
+
+
+### -param DebugPrintLevel
+
 
 
 ### -param DebugMessage [in]
@@ -64,8 +78,15 @@ VOID VideoPortDebugPrint(
 Pointer to a string that contains the debug message.
 
 
+### -param param
+
+TBD
+
+
+
 ## -returns
+
+
 None
 
 
-## -remarks

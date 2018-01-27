@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8d828d7b-2f86-4fe9-864c-9d0ac4b0ed65
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_SETPRIORITY, D3DDDICB_SETPRIORITY
+ms.keywords: d3dumddi/D3DDDICB_SETPRIORITY, D3DDDICB_SETPRIORITY structure [Display Devices], D3D_param_Structs_38d8110c-0d63-4409-9576-ef9892dae2b7.xml, display.d3dddicb_setpriority, D3DDDICB_SETPRIORITY, _D3DDDICB_SETPRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_SETPRIORITY
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_SETPRIORITY
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_SETPRIORITY
 ---
 
 # _D3DDDICB_SETPRIORITY structure
 
 
-
 ## -description
+
+
 The D3DDDICB_SETPRIORITY structure describes the priority level to which to set a resource or list of allocations. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_SETPRIORITY {
@@ -56,6 +66,9 @@ typedef struct _D3DDDICB_SETPRIORITY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hResource
 
@@ -81,18 +94,12 @@ If the user-mode display driver sets the handle in the <b>hResource</b> member t
 [in] A pointer to an array of priority levels. If the <b>hResource</b> member is non-<b>NULL</b>, the array must contain a single element. If <b>hResource</b> is <b>NULL</b>, the number of elements in the array is specified by the <b>NumAllocations</b> member, and each allocation in the array that is specified by <b>HandleList</b> is set to the priority level of the corresponding element in <b>pPriorities</b>. For a list of defined priority levels, see the Remarks section of the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setprioritycb.md">pfnSetPriorityCb</a> reference page.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setprioritycb.md">pfnSetPriorityCb</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 49310ddf-403a-4fb4-98bb-9ef00ef28310
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.videoprocessorsetstreamframeformat, pfnVideoProcessorSetStreamFrameFormat callback function [Display Devices], pfnVideoProcessorSetStreamFrameFormat, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFRAMEFORMAT, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFRAMEFORMAT, d3d10umddi/pfnVideoProcessorSetStreamFrameFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnVideoProcessorSetStreamFrameFormat
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	pfnVideoProcessorSetStreamFrameFormat
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFRAMEFORMAT callback
 
 
-
 ## -description
+
+
 Specifies whether an input stream on the video processor contains interlaced or progressive frames.
 
 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFRAMEFORMAT pfnVideoProcessorSetStreamFrameFormat;
@@ -62,48 +72,67 @@ VOID APIENTRY* pfnVideoProcessorSetStreamFrameFormat(
 
 ## -parameters
 
-### -param hDevice [in]
-
-A handle to the display device (graphics context).
 
 
 
-
-### -param hVideoProcessor [in]
-
-A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
+### -param D3D10DDI_HDEVICE
 
 
 
+### -param D3D11_1DDI_HVIDEOPROCESSOR
 
-### -param StreamIndex [in]
+
+
+### -param UINT
+
+
+
+### -param D3D11_1DDI_VIDEO_FRAME_FORMAT
+
+
+
+
+
+
+#### - StreamIndex [in]
 
 The zero-based index of the input stream.
 
 
-### -param Format [in]
+#### - Format [in]
 
 A <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_frame_format.md">D3D11_1DDI_VIDEO_FRAME_FORMAT</a> value that specifies the frame format.
 
 
 
 
+#### - hDevice [in]
+
+A handle to the display device (graphics context).
+
+
+
+
+#### - hVideoProcessor [in]
+
+A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
+
+
+
+
 ## -returns
+
+
 This callback function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_frame_format.md">D3D11_1DDI_VIDEO_FRAME_FORMAT</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\rilphonebookadditionalnumberinfo_2.htm
 old-project: netvista
 ms.assetid: c56dc6df-e547-42f4-9656-01de5e66909a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILPHONEBOOKADDITIONALNUMBERINFO, RILPHONEBOOKADDITIONALNUMBERINFO, *LPRILPHONEBOOKADDITIONALNUMBERINFO
+ms.date: 1/18/2018
+ms.keywords: *LPRILPHONEBOOKADDITIONALNUMBERINFO, RILPHONEBOOKADDITIONALNUMBERINFO, netvista.rilphonebookadditionalnumberinfo_2, RILPHONEBOOKADDITIONALNUMBERINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILPHONEBOOKADDITIONALNUMBERINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILPHONEBOOKADDITIONALNUMBERINFO
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILPHONEBOOKADDITIONALNUMBERINFO, *LPRILPHONEBOOKADDITIONALNUMBERINFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILPHONEBOOKADDITIONALNUMBERINFO
+product: Windows
+targetos: Windows
+req.typenames: *LPRILPHONEBOOKADDITIONALNUMBERINFO, RILPHONEBOOKADDITIONALNUMBERINFO
 req.product: Windows 10 or later.
 ---
 
 # RILPHONEBOOKADDITIONALNUMBERINFO structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILPHONEBOOKADDITIONALNUMBERINFO {
@@ -57,13 +67,17 @@ typedef struct _RILPHONEBOOKADDITIONALNUMBERINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwRilPBANSSize
 
 
+
 ### -field RilPBANS
 
 
-## -remarks

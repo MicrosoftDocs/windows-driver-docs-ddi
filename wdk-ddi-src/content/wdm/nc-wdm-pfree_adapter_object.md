@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4A63AAEF-8DBD-4969-8D05-EA06A17D4B61
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+ms.keywords: kernel.freeadapterobject, FreeAdapterObject, FreeAdapterObject callback function [Kernel-Mode Driver Architecture], FreeAdapterObject, PFREE_ADAPTER_OBJECT, PFREE_ADAPTER_OBJECT, wdm/FreeAdapterObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FreeAdapterObject
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wdm.h
+apiname: 
+-	FreeAdapterObject
+product: Windows
+targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PFREE_ADAPTER_OBJECT callback
 
 
-
 ## -description
+
+
 The  <b>FreeAdapterObject</b> routine releases the specified adapter object after a driver has completed all DMA operations.
 
 
-
 ## -prototype
+
 
 ````
 PFREE_ADAPTER_OBJECT FreeAdapterObject;
@@ -59,6 +69,9 @@ VOID FreeAdapterObject(
 
 ## -parameters
 
+
+
+
 ### -param DmaAdapter [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure. This structure is the adapter object that is to be released. This object represents the driver's bus-master DMA device or system DMA channel. The caller obtained this pointer from a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> routine.
@@ -70,10 +83,15 @@ The type of deallocation that the calling driver requests. Set this parameter to
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>FreeAdapterObject</b>
       is not a system routine that can be called directly by name. This routine can be called only by pointer from the address returned in a 
      <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
@@ -90,45 +108,33 @@ If <i>AllocationAction</i> = <b>KeepObject</b>, the <b>FreeAdapterObject</b> cal
 The <a href="..\wdm\nc-wdm-pfree_adapter_channel.md">FreeAdapterChannel</a> routine is similar to <b>FreeAdapterObject</b>. <b>FreeAdapterChannel</b> always releases the adapter object and any allocated map registers. This behavior is similar to that of <b>FreeAdapterObject</b> if <i>AllocationAction</i> = <b>DeallocateObject</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nc-wdm-driver_control.md">AdapterControl</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nc-wdm-driver_list_control.md">AdapterListControl</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-pfree_adapter_channel.md">FreeAdapterChannel</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nc-wdm-pfree_map_registers.md">FreeMapRegisters</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
+
+<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
+
+<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
+
 <a href="..\wdm\ne-wdm-_io_allocation_action.md">IO_ALLOCATION_ACTION</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>
+
+<a href="..\wdm\nc-wdm-pfree_adapter_channel.md">FreeAdapterChannel</a>
+
+<a href="..\wdm\nc-wdm-driver_control.md">AdapterControl</a>
+
  
 
  

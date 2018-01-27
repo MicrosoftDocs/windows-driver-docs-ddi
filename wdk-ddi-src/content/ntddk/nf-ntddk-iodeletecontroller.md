@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bfab32ea-05fd-44c7-b264-221e4e3a7830
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoDeleteController
+ms.keywords: IoDeleteController, ntddk/IoDeleteController, IoDeleteController routine [Kernel-Mode Driver Architecture], kernel.iodeletecontroller, k104_c4d57e2c-d596-4c3d-a912-48792010837e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoDeleteController
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlIoPassive4, PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoDeleteController
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # IoDeleteController function
 
 
-
 ## -description
+
+
 The <b>IoDeleteController</b> routine removes a given controller object from the system, for example, when the driver that created it is being unloaded.
 
 
-
 ## -syntax
+
 
 ````
 VOID IoDeleteController(
@@ -54,16 +64,24 @@ VOID IoDeleteController(
 
 ## -parameters
 
+
+
+
 ### -param ControllerObject [in]
 
 Pointer to the controller object to be released. 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>IoDeleteController</b> deallocates the memory for the controller object, including the controller extension.
 
 This routine must be called when a driver that created a controller object is being unloaded or when the driver encounters a fatal error during device start-up, such as being unable to properly initialize a physical device.
@@ -71,15 +89,13 @@ This routine must be called when a driver that created a controller object is be
 A driver must release certain resources for which the driver supplied storage in its controller extension before it calls <b>IoDeleteController</b>. For example, if the driver stores the pointer to its interrupt object(s) in the controller extension, it must call <a href="..\wdm\nf-wdm-iodisconnectinterrupt.md">IoDisconnectInterrupt</a> before <b>IoDeleteController</b>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-iocreatecontroller.md">IoCreateController</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iodisconnectinterrupt.md">IoDisconnectInterrupt</a>
-</dt>
-</dl>
+
  
 
  

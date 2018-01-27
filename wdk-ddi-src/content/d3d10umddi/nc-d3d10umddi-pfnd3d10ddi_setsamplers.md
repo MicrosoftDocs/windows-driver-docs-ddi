@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7bf05fb6-e959-464a-9e6b-74c568d1d88c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.cssetsamplers, CsSetSamplers callback function [Display Devices], CsSetSamplers, PFND3D10DDI_SETSAMPLERS, PFND3D10DDI_SETSAMPLERS, d3d10umddi/CsSetSamplers, UserModeDisplayDriverDx11_Functions_a2d1c287-1dab-4852-a643-8d568d04f64d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: CsSetSamplers is supported beginning with the Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CsSetSamplers
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	CsSetSamplers
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D10DDI_SETSAMPLERS callback
 
 
-
 ## -description
+
+
 The <b>CsSetSamplers</b> function sets samplers for a compute shader.
 
 
-
 ## -prototype
+
 
 ````
 PFND3D10DDI_SETSAMPLERS CsSetSamplers;
@@ -60,14 +70,15 @@ VOID APIENTRY CsSetSamplers(
 
 ## -parameters
 
-### -param hDevice [in]
-
- A handle to the display device (graphics context).
 
 
-### -param Offset [in]
 
- The offset to the first sampler to set. 
+### -param D3D10DDI_HDEVICE
+
+
+
+### -param StartSlot
+
 
 
 ### -param NumSamplers [in]
@@ -75,30 +86,50 @@ VOID APIENTRY CsSetSamplers(
  The total number of samplers to set. 
 
 
-### -param phSamplers [in]
+### -param *
+
+
+
+
+
+
+#### - Offset [in]
+
+ The offset to the first sampler to set. 
+
+
+#### - phSamplers [in]
 
  An array of handles to the samplers, beginning at the offset that <i>Offset</i> specifies.
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
 ## -returns
+
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
 
 
+
 ## -remarks
+
+
 The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> function, the Direct3D runtime determines that the error is critical. Even if the device is removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interferes with the operation of <b>CsSetSamplers</b> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
+
  
 
  

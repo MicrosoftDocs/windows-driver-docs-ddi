@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: FA6EA2BA-938C-4377-A85A-2168C4C1F3C6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_SUBMITCOMMAND, D3DKMT_SUBMITCOMMAND
+ms.keywords: D3DKMT_SUBMITCOMMAND, _D3DKMT_SUBMITCOMMAND, D3DKMT_SUBMITCOMMAND structure [Display Devices], display.d3dkmt_submitcommand, d3dkmthk/D3DKMT_SUBMITCOMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_SUBMITCOMMAND
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_SUBMITCOMMAND
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_SUBMITCOMMAND
 ---
 
 # _D3DKMT_SUBMITCOMMAND structure
 
 
-
 ## -description
+
+
 The <b>D3DKMT_SUBMITCOMMAND</b> structure is used to submit command buffers on contexts that support graphics processing unit (GPU) virtual addressing.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_SUBMITCOMMAND {
@@ -64,6 +74,9 @@ typedef struct _D3DKMT_SUBMITCOMMAND {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Commands
 
@@ -125,15 +138,10 @@ This member is reserved for future use.
 This member is reserved for future use.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_submitcommandflags.md">D3DDDICB_SUBMITCOMMANDFLAGS</a>
-</dt>
-</dl>
+
  
 
  

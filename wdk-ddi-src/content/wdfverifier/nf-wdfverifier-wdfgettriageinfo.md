@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F6B1DC49-B691-45E4-8DE9-ADCD73D90ADE
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfGetTriageInfo
+ms.keywords: wdf.wdfgettriageinfo, kmdf.wdfgettriageinfo, wdfverifier/WdfGetTriageInfo, WdfGetTriageInfo function, WdfGetTriageInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.11
 req.umdf-ver: 2.0
-req.alt-api: WdfGetTriageInfo
-req.alt-loc: Wdfverifier.h
 req.ddi-compliance: DriverCreate
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdfverifier.h
+apiname: 
+-	WdfGetTriageInfo
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_USB_REQUEST_COMPLETION_PARAMS, WDF_USB_REQUEST_COMPLETION_PARAMS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # WdfGetTriageInfo function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfGetTriageInfo</b> method is reserved for internal use only.
 
 
-
 ## -syntax
+
 
 ````
 PVOID WdfGetTriageInfo(void);
@@ -56,4 +66,5 @@ PVOID WdfGetTriageInfo(void);
 ## -parameters
 
 
-## -remarks
+
+

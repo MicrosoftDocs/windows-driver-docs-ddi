@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D45F8CD0-CB54-4DE4-BD6B-FF6A35FCBFEC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBFN_PORT_TYPE, USBFN_PORT_TYPE, *PUSBFN_PORT_TYPE
+ms.keywords: usbfnbase/UsbfnStandardDownstreamPort, UsbfnDedicatedChargingPort, UsbfnPortTypeMaximum, USBFN_PORT_TYPE enumeration [Buses], buses.usbfn_port_type, usbfnbase/UsbfnUnknownPort, UsbfnStandardDownstreamPort, UsbfnChargingDownstreamPort, usbfnbase/UsbfnInvalidDedicatedChargingPort, usbfnbase/UsbfnChargingDownstreamPort, UsbfnInvalidDedicatedChargingPort, *PUSBFN_PORT_TYPE, usbfnbase/UsbfnProprietaryDedicatedChargingPort, usbfnbase/UsbfnPortTypeMaximum, usbfnbase/USBFN_PORT_TYPE, UsbfnProprietaryDedicatedChargingPort, usbfnbase/UsbfnDedicatedChargingPort, UsbfnUnknownPort, _USBFN_PORT_TYPE, USBFN_PORT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBFN_PORT_TYPE
-req.alt-loc: usbfnbase.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: USBFN_PORT_TYPE, *PUSBFN_PORT_TYPE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbfnbase.h
+apiname: 
+-	USBFN_PORT_TYPE
+product: Windows
+targetos: Windows
+req.typenames: *PUSBFN_PORT_TYPE, USBFN_PORT_TYPE
 req.product: Windows 10 or later.
 ---
 
 # _USBFN_PORT_TYPE enumeration
 
 
-
 ## -description
+
+
 Defines the possible port types that can be returned by the client driver during port detection.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _USBFN_PORT_TYPE { 
@@ -60,6 +70,9 @@ typedef enum _USBFN_PORT_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field UsbfnUnknownPort
 
@@ -96,15 +109,10 @@ A proprietary charger was attached.
 The maximum value of the enumeration.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbfnattach\nc-usbfnattach-usbfn_get_attach_action.md">USBFN_GET_ATTACH_ACTION</a>
-</dt>
-</dl>
+
  
 
  

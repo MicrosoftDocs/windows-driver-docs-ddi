@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7395ccb8-2608-46ae-a378-987bd757761b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_RegisterForAdapterAddEvents
+ms.keywords: HBA_RegisterForAdapterAddEvents, storage.hba_registerforadapteraddevents, hbaapi/HBA_RegisterForAdapterAddEvents, fibreHBA_rtns_d44e8303-9d14-4f36-830e-bca76a494dfd.xml, HBA_RegisterForAdapterAddEvents routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBA_RegisterForAdapterAddEvents
-req.alt-loc: Hbaapi.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Hbaapi.dll
+apiname: 
+-	HBA_RegisterForAdapterAddEvents
+product: Windows
+targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
 
 # HBA_RegisterForAdapterAddEvents function
 
 
-
 ## -description
+
+
 The <b>HBA_RegisterForAdapterAddEvents</b> routine registers the indicated user callback routine to call when a new adapter is added to the system. 
 
 
-
 ## -syntax
+
 
 ````
 HBA_STATUS HBA_API HBA_RegisterForAdapterAddEvents(
@@ -56,49 +66,85 @@ HBA_STATUS HBA_API HBA_RegisterForAdapterAddEvents(
 
 ## -parameters
 
+
+
+
 ### -param callback [in]
 
 Pointer to a callback routine of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556045">HBA_ADAPTER_CALLBACK</a> that is called when an adapter is added to the system.
 
 
-### -param userData 
+### -param pUserData
+
+TBD
+
+
+### -param pCallbackHandle
+
+TBD
+
+
+
+#### - userData
 
 Pointer to a buffer that will be passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
 
 
-### -param callbackHandle 
+#### - callbackHandle
 
 Contains an opaque identifier that the user must pass to <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a> to de-register the callback routine.
 
 
 ## -returns
+
+
 The <b>HBA_RegisterForAdapterAddEvents</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, this member should have one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_OK</b></dt>
-</dl>Returned if the callback routine was successfully registered. 
+</dl>
+</td>
+<td width="60%">
+Returned if the callback routine was successfully registered. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR</b></dt>
-</dl>Returned if an unspecified error occurred that prevented the registration of the callback routine. 
+</dl>
+</td>
+<td width="60%">
+Returned if an unspecified error occurred that prevented the registration of the callback routine. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 When a new adapter is added to the system, an event of type HBA_EVENT_ADAPTER_ADD is generated.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556045">HBA_ADAPTER_CALLBACK</a>
-</dt>
-<dt>
-<a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556045">HBA_ADAPTER_CALLBACK</a>
+
+<a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
+
  
 
  

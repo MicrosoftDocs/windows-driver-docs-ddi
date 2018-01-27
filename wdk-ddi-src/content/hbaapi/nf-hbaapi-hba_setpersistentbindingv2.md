@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b0b32954-62d1-4434-892f-67106b0f8ef7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_SetPersistentBindingV2
+ms.keywords: HBA_SetPersistentBindingV2 routine [Storage Devices], fibreHBA_rtns_b081179f-690d-4646-ae40-1737c5933394.xml, hbaapi/HBA_SetPersistentBindingV2, HBA_SetPersistentBindingV2, storage.hba_setpersistentbindingv2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBA_SetPersistentBindingV2
-req.alt-loc: Hbaapi.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Hbaapi.dll
+apiname: 
+-	HBA_SetPersistentBindingV2
+product: Windows
+targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
 
 # HBA_SetPersistentBindingV2 function
 
 
-
 ## -description
+
+
 The <b>HBA_SetPersistentBindingV2</b> routine establishes a set of bindings between operating system and fibre channel protocol (FCP) identifiers for the logical units that the HBA can enumerate on the specified port.
 
 
-
 ## -syntax
+
 
 ````
 HBA_STATUS HBA_API HBA_SetPersistentBindingV2(
@@ -55,6 +65,9 @@ HBA_STATUS HBA_API HBA_SetPersistentBindingV2(
 
 
 ## -parameters
+
+
+
 
 ### -param Handle [in]
 
@@ -74,39 +87,77 @@ On output, the <b>Status</b> member of each HBA_FCPBindingEntry2 structure is 0.
 
 
 ## -returns
+
+
 The <b>HBA_SetBindingSupport2</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_SetBindingSupport2</b> returns one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_OK</b></dt>
-</dl>Returned if one or more of the persistent bindings were successfully established. Each requested binding can succeed or fail independently of the others. 
+</dl>
+</td>
+<td width="60%">
+Returned if one or more of the persistent bindings were successfully established. Each requested binding can succeed or fail independently of the others. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR_ILLEGAL_WWN</b></dt>
-</dl>Returned if the HBA referenced by <i>handle</i> does not contain a port with a name that matches <i>HbaPortWWN</i>. 
+</dl>
+</td>
+<td width="60%">
+Returned if the HBA referenced by <i>handle</i> does not contain a port with a name that matches <i>HbaPortWWN</i>. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR_NOT_SUPPORTED</b></dt>
-</dl>Returned if the adapter referenced by <i>handle </i>does not support persistent bindings. 
+</dl>
+</td>
+<td width="60%">
+Returned if the adapter referenced by <i>handle </i>does not support persistent bindings. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR</b></dt>
-</dl>Returned if an unspecified error occurred that prevented the routine from associating any of the specified persistent bindings with the port. 
+</dl>
+</td>
+<td width="60%">
+Returned if an unspecified error occurred that prevented the routine from associating any of the specified persistent bindings with the port. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The <b>HBA_SetPersistentBindingV2</b> routine establishes a set of bindings between operating system and fibre channel protocol (FCP) identifiers for the logical units that the HBA, referenced by <i>HbaHandle, </i>can enumerate on the port specified by <i>HbaPortWWN</i>. The bindings that <b>HBA_SetPersistentBindingV2</b> establishes persist across reboots of the operating system. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\hbaapi\nf-hbaapi-hba_getpersistentbindingv2.md">HBA_GetPersistentBindingV2</a>
-</dt>
-<dt>
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-</dt>
-</dl>
+
+<a href="..\hbaapi\nf-hbaapi-hba_getpersistentbindingv2.md">HBA_GetPersistentBindingV2</a>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
  
 
  

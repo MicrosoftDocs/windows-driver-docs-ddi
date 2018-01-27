@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 9f57337b-20b8-4aa6-a303-0972cd0c92cf
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: RegisterOpRegionHandler
+ms.keywords: parports.pdetermine_ieee_modes, PDETERMINE_IEEE_MODES function pointer [Parallel Ports], PDETERMINE_IEEE_MODES, parallel/PDETERMINE_IEEE_MODES, cisspd_da5c1f0b-cec4-48a4-b460-9b09751531a5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PDETERMINE_IEEE_MODES
-req.alt-loc: parallel.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	parallel.h
+apiname: 
+-	PDETERMINE_IEEE_MODES
+product: Windows
+targetos: Windows
 req.typenames: *LPRILGBATOKEN, RILGBATOKEN
 ---
 
 # PDETERMINE_IEEE_MODES callback
 
 
-
 ## -description
+
+
 The PDETERMINE_IEEE_MODES-typed callback routine determines which IEEE 1284 protocols a parallel device supports. The system-supplied bus driver for parallel ports supplies this routine.
 
 
-
 ## -prototype
+
 
 ````
 typedef USHORT ( *PDETERMINE_IEEE_MODES)(
@@ -54,48 +64,21 @@ typedef USHORT ( *PDETERMINE_IEEE_MODES)(
 
 ## -parameters
 
+
+
+
 ### -param Context [in]
 
-Pointer to a device extension of a parallel device's physical device object (<a href="wdkgloss.p#wdkgloss.pdo#wdkgloss.pdo"><i>PDO</i></a>).
+Pointer to a device extension of a parallel device's physical device object (<a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDO</a>).
 
 
 ## -returns
+
+
 The return value indicates which protocols a parallel device supports. The return value is a bitwise OR of one or more of the following constants that represent the protocols that are supported by the system-supplied bus driver for parallel ports. The protocol constants are listed in order of decreasing data transfer rate.
-<dl>
-<dd>
+
 BOUNDED_ECP
 
-</dd>
-<dd>
-ECP_HW_NOIRQ
-
-</dd>
-<dd>
-EPP_HW 
-
-</dd>
-<dd>
-EPP_SW
-
-</dd>
-<dd>
-ECP_SW
-
-</dd>
-<dd>
-IEEE_COMPATIBILITY
-
-</dd>
-<dd>
-CENTRONICS
-
-</dd>
-<dd>
-NONE
-
-</dd>
-</dl>BOUNDED_ECP
-
 ECP_HW_NOIRQ
 
 EPP_HW 
@@ -109,38 +92,34 @@ IEEE_COMPATIBILITY
 CENTRONICS
 
 NONE
+
 
 
 ## -remarks
+
+
 To obtain a pointer to the system-supplied PDETERMINE_IEEE_MODES callback, a kernel-mode driver uses an <a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a> request, which returns a <a href="..\parallel\ns-parallel-_parclass_information.md">PARCLASS_INFORMATION</a> structure. The <b>DetermineIeeeModes</b> member of the PARCLASS_INFORMATION structure is a pointer to this callback.
 
 The PDETERMINE_IEEE_MODES callback runs in the caller's thread at the IRQL of the caller.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_get_mode.md">IOCTL_IEEE1284_GET_MODE</a>
-</dt>
-<dt>
-<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_negotiate.md">IOCTL_IEEE1284_NEGOTIATE</a>
-</dt>
-<dt>
-<a href="..\ntddpar\ni-ntddpar-ioctl_par_get_default_modes.md">IOCTL_PAR_GET_DEFAULT_MODES</a>
-</dt>
-<dt>
-<a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a>
-</dt>
-<dt>
-<a href="..\parallel\nc-parallel-pparallel_ieee_fwd_to_rev.md">PPARALLEL_IEEE_FWD_TO_REV</a>
-</dt>
-<dt>
-<a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
-</dt>
-<dt>
+
 <a href="..\parallel\nc-parallel-pterminate_ieee_mode.md">PTERMINATE_IEEE_MODE</a>
-</dt>
-</dl>
+
+<a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
+
+<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_get_mode.md">IOCTL_IEEE1284_GET_MODE</a>
+
+<a href="..\ntddpar\ni-ntddpar-ioctl_par_get_default_modes.md">IOCTL_PAR_GET_DEFAULT_MODES</a>
+
+<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_negotiate.md">IOCTL_IEEE1284_NEGOTIATE</a>
+
+<a href="..\parallel\nc-parallel-pparallel_ieee_fwd_to_rev.md">PPARALLEL_IEEE_FWD_TO_REV</a>
+
+<a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a>
+
  
 
  

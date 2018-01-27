@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1dee65e7-27fb-4665-82e2-d7cb3c223f87
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _IRQ_PRIORITY, *PIRQ_PRIORITY, IRQ_PRIORITY
+ms.keywords: sysenum_a5a51a77-ee9c-4e74-9ee4-b097eb361c18.xml, PIRQ_PRIORITY, IrqPriorityUndefined, wdm/IrqPriorityLow, IRQ_PRIORITY enumeration [Kernel-Mode Driver Architecture], IrqPriorityLow, IrqPriorityNormal, wdm/IrqPriorityUndefined, wdm/IrqPriorityHigh, wdm/PIRQ_PRIORITY, kernel.irq_priority, PIRQ_PRIORITY enumeration pointer [Kernel-Mode Driver Architecture], IrqPriorityHigh, *PIRQ_PRIORITY, _IRQ_PRIORITY, wdm/IrqPriorityNormal, IRQ_PRIORITY, wdm/IRQ_PRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IRQ_PRIORITY
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	IRQ_PRIORITY
+product: Windows
+targetos: Windows
 req.typenames: *PIRQ_PRIORITY, IRQ_PRIORITY
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _IRQ_PRIORITY enumeration
 
 
-
 ## -description
+
+
 The <b>IRQ_PRIORITY</b> enumeration type indicates the priority the system should give to servicing a device's interrupts.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _IRQ_PRIORITY { 
@@ -57,6 +67,9 @@ typedef enum _IRQ_PRIORITY {
 
 
 ## -enum-fields
+
+
+
 
 ### -field IrqPriorityUndefined
 
@@ -79,15 +92,16 @@ Specifies that the device's interrupts are of high priority. This setting is app
 
 
 ## -remarks
+
+
 The system uses <b>IRQ_PRIORITY</b> to assign IRQLs for devices. For example, it might assign a higher IRQL to a device that has an <b>IRQ_PRIORITY</b> of <b>IrqPriorityHigh</b> than it does to a device that has an <b>IRQ_PRIORITY</b> of <b>IrqPriorityLow</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

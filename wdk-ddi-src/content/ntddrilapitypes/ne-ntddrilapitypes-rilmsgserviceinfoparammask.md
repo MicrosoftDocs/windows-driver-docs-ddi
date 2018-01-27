@@ -7,8 +7,8 @@ old-location: netvista\rilmsgserviceinfoparammask.htm
 old-project: netvista
 ms.assetid: 9314909a-4580-49f9-b587-4d5e70ff0d4f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILMSGSERVICEINFOPARAMMASK, RILMSGSERVICEINFOPARAMMASK
+ms.date: 1/18/2018
+ms.keywords: RIL_PARAM_MSI_STOREUSED, ntddrilapitypes/RIL_PARAM_MSI_ALL, ntddrilapitypes/RIL_PARAM_MSI_STORETOTAL, ntddrilapitypes/RIL_PARAM_MSI_STOREUSED, RIL_PARAM_MSI_ALL, ntddrilapitypes/RILMSGSERVICEINFOPARAMMASK, RILMSGSERVICEINFOPARAMMASK, RILMSGSERVICEINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MSI_STORETOTAL, netvista.rilmsgserviceinfoparammask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILMSGSERVICEINFOPARAMMASK
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILMSGSERVICEINFOPARAMMASK
+product: Windows
+targetos: Windows
 req.typenames: RILMSGSERVICEINFOPARAMMASK
 ---
 
 # RILMSGSERVICEINFOPARAMMASK enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILMSGSERVICEINFOPARAMMASK { 
@@ -56,13 +66,21 @@ typedef enum _RILMSGSERVICEINFOPARAMMASK {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_PARAM_MSI_MSGSUPPORT
+
+
+
 ### -field RIL_PARAM_MSI_STOREUSED
+
 
 
 ### -field RIL_PARAM_MSI_STORETOTAL
 
 
+
 ### -field RIL_PARAM_MSI_ALL
 
 
-## -remarks

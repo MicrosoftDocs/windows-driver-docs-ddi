@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 90C861C3-26E0-43C0-A4CA-FD5491995DAB
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPIN_CINSTANCES, *PKSPIN_CINSTANCES, KSPIN_CINSTANCES
+ms.keywords: ks/PKSPIN_CINSTANCES, KSPIN_CINSTANCES, PKSPIN_CINSTANCES, PKSPIN_CINSTANCES structure pointer [Streaming Media Devices], *PKSPIN_CINSTANCES, stream.kspin_cinstances, KSPIN_CINSTANCES structure [Streaming Media Devices], ks/KSPIN_CINSTANCES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPIN_CINSTANCES
-req.alt-loc: Ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ks.h
+apiname: 
+-	KSPIN_CINSTANCES
+product: Windows
+targetos: Windows
 req.typenames: *PKSPIN_CINSTANCES, KSPIN_CINSTANCES
 ---
 
 # KSPIN_CINSTANCES structure
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: *PKSPIN_CINSTANCES, KSPIN_CINSTANCES
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field PossibleCount
 
 Specifies the maximum number of pins the pin factory can instantiate on the filter, or KSINTANCE_INDETERMINATE if there is no maximum.
@@ -64,5 +77,3 @@ Specifies the maximum number of pins the pin factory can instantiate on the filt
 
 Specifies the current number of pins the pin factory has instantiated on the filter.
 
-
-## -remarks

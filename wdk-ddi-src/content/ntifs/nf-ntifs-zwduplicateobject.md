@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9a922379-b439-4f94-9eb1-7c229318382c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwDuplicateObject
+ms.keywords: ZwDuplicateObject routine [Kernel-Mode Driver Architecture], NtDuplicateObject, kernel.zwduplicateobject, ntifs/NtDuplicateObject, ntifs/ZwDuplicateObject, ZwDuplicateObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwDuplicateObject,NtDuplicateObject
-req.alt-loc: ntoskrnl.lib,ntoskrnl.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,33 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ntoskrnl.lib
+-	ntoskrnl.dll
+apiname: 
+-	ZwDuplicateObject
+-	NtDuplicateObject
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # ZwDuplicateObject function
 
 
-
 ## -description
+
+
 The <b>ZwDuplicateObject</b> routine creates a handle that is a duplicate of the specified source handle.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ZwDuplicateObject(
@@ -59,6 +71,9 @@ NTSTATUS ZwDuplicateObject(
 
 
 ## -parameters
+
+
+
 
 ### -param SourceProcessHandle [in]
 
@@ -93,7 +108,6 @@ A ULONG that specifies the desired attributes for the new handle. For more infor
 ### -param Options [in]
 
 A set of flags to control the behavior of the duplication operation. Set this parameter to zero or to the bitwise OR of one or more of the following flags.
-
 <table>
 <tr>
 <th>Flag name</th>
@@ -111,15 +125,19 @@ A set of flags to control the behavior of the duplication operation. Set this pa
 <td><b>DUPLICATE_CLOSE_SOURCE</b></td>
 <td>Close the source handle.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 <b>ZwDuplicateObject</b> returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error status code.
 
 
+
 ## -remarks
+
+
 The source handle is evaluated in the context of the specified source process. The calling process must have <b>PROCESS_DUP_HANDLE</b> access to the source process. The duplicate handle is created in the handle table of the specified target process. The calling process must have <b>PROCESS_DUP_HANDLE</b> access to the target process.
 
 By default, the duplicate handle is created with the attributes specified by the <i>HandleAttributes</i> parameter, and with the access rights specified by the <i>DesiredAccess</i> parameter. If necessary, the caller can override one or both defaults by setting the <b>DUPLICATE_SAME_ATTRIBUTES</b> and <b>DUPLICATE_SAME_ACCESS</b> flags in the <i>Options</i> parameter.
@@ -129,18 +147,15 @@ If the call to this function occurs in user mode, you should use the name "<b>Nt
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-</dt>
-</dl>
+
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
  
 
  

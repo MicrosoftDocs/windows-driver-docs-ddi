@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7c2a7484-452f-4801-b650-3d8221740892
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_OVERLAYINFO, DXGK_OVERLAYINFO
+ms.keywords: DXGK_OVERLAYINFO structure [Display Devices], display.dxgk_overlayinfo, DmStructs_232178f2-9a25-40aa-8604-0414128c1a91.xml, DXGK_OVERLAYINFO, _DXGK_OVERLAYINFO, d3dkmddi/DXGK_OVERLAYINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_OVERLAYINFO
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_OVERLAYINFO
+product: Windows
+targetos: Windows
 req.typenames: DXGK_OVERLAYINFO
 ---
 
 # _DXGK_OVERLAYINFO structure
 
 
-
 ## -description
+
+
 The DXGK_OVERLAYINFO structure describes parameters that are required to create or modify an overlay. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_OVERLAYINFO {
@@ -59,6 +69,9 @@ typedef struct _DXGK_OVERLAYINFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hAllocation
 
@@ -95,27 +108,18 @@ typedef struct _DXGK_OVERLAYINFO {
 [in] The size, in bytes, of the block of private data that <b>pPrivateDriverData</b> points to.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_updateoverlay.md">DXGKARG_UPDATEOVERLAY</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_updateoverlay.md">DxgkDdiUpdateOverlay</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_updateoverlay.md">DXGKARG_UPDATEOVERLAY</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_updateoverlay.md">DxgkDdiUpdateOverlay</a>
+
  
 
  

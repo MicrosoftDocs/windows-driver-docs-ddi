@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9C9A0D46-587C-43F3-808E-38E81CE3EE50
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _MM_COPY_ADDRESS, *PMMCOPY_ADDRESS, MM_COPY_ADDRESS
+ms.keywords: PMM_COPY_ADDRESS, PMM_COPY_ADDRESS structure pointer [Kernel-Mode Driver Architecture], kernel.mm_copy_address, _MM_COPY_ADDRESS, MM_COPY_ADDRESS structure [Kernel-Mode Driver Architecture], MM_COPY_ADDRESS, ntddk/PMM_COPY_ADDRESS, *PMMCOPY_ADDRESS, ntddk/MM_COPY_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 8.1.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MM_COPY_ADDRESS
-req.alt-loc: Ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddk.h
+apiname: 
+-	MM_COPY_ADDRESS
+product: Windows
+targetos: Windows
 req.typenames: *PMMCOPY_ADDRESS, MM_COPY_ADDRESS
 ---
 
 # _MM_COPY_ADDRESS structure
 
 
-
 ## -description
+
+
 The <b>MM_COPY_ADDRESS</b> structure contains either a virtual memory address or a physical memory address.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MM_COPY_ADDRESS {
@@ -57,33 +67,46 @@ typedef struct _MM_COPY_ADDRESS {
 
 ## -struct-fields
 
-### -field ( unnamed union )
 
-Either a virtual address or a physical address.
 
 
 ### -field VirtualAddress
 
-A virtual memory address.
+ 
 
 
 ### -field PhysicalAddress
 
+ 
+
+
+
+##### - ( unnamed union ).PhysicalAddress
+
 A physical memory address.
 
-</dd>
-</dl>
+
+#### - ( unnamed union )
+
+Either a virtual address or a physical address.
+
+
+##### - ( unnamed union ).VirtualAddress
+
+A virtual memory address.
+
 
 ## -remarks
+
+
 This structure is used by the <a href="..\ntddk\nf-ntddk-mmcopymemory.md">MmCopyMemory</a> routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-mmcopymemory.md">MmCopyMemory</a>
-</dt>
-</dl>
+
  
 
  

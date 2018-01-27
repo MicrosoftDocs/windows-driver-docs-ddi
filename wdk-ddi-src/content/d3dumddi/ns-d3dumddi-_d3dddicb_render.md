@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7a2bf1a8-d416-46bc-a9ba-9122407ea2a2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_RENDER, D3DDDICB_RENDER
+ms.keywords: display.d3dddicb_render, D3D_param_Structs_62df043b-dbd7-4faf-a911-683ab12ba79b.xml, D3DDDICB_RENDER, _D3DDDICB_RENDER, d3dumddi/D3DDDICB_RENDER, D3DDDICB_RENDER structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_RENDER
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_RENDER
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_RENDER
 ---
 
 # _D3DDDICB_RENDER structure
 
 
-
 ## -description
+
+
 The D3DDDICB_RENDER structure describes the current command buffer to be rendered.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_RENDER {
@@ -72,6 +82,9 @@ typedef struct _D3DDDICB_RENDER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field CommandLength
 
@@ -177,24 +190,72 @@ This member is available beginning with Windows 7.
 This member is available beginning with Windows 7.
 
 
-## -remarks
+### -field MarkerLogType
+
+ 
+
+
+### -field RenderCBSequence
+
+ 
+
+
+### -field FirstAPISequenceNumberHigh
+
+ 
+
+
+### -field CompletedAPISequenceNumberLow0Size
+
+ 
+
+
+### -field CompletedAPISequenceNumberLow1Size
+
+ 
+
+
+### -field BegunAPISequenceNumberLow0Size
+
+ 
+
+
+### -field BegunAPISequenceNumberLow1Size
+
+ 
+
+
+### -field pCompletedAPISequenceNumberLow0
+
+ 
+
+
+### -field pCompletedAPISequenceNumberLow1
+
+ 
+
+
+### -field pBegunAPISequenceNumberLow0
+
+ 
+
+
+### -field pBegunAPISequenceNumberLow1
+
+ 
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
-</dt>
-<dt>
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
-</dt>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_renderflags.md">D3DDDICB_RENDERFLAGS</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_renderflags.md">D3DDDICB_RENDERFLAGS</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
+
  
 
  

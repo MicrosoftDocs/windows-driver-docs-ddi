@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1cbafa33-e957-4865-9d4f-26f12827a941
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _STREAM_INFO, STREAM_INFO, *PSTREAM_INFO
+ms.keywords: buses.evt_ucx_usbdevice_endpoint_add, EvtUcxUsbDeviceEndpointAdd callback function [Buses], EvtUcxUsbDeviceEndpointAdd, EVT_UCX_USBDEVICE_ENDPOINT_ADD, EVT_UCX_USBDEVICE_ENDPOINT_ADD, ucxusbdevice/EvtUcxUsbDeviceEndpointAdd, PEVT_UCX_USBDEVICE_ENDPOINT_ADD callback function pointer [Buses], PEVT_UCX_USBDEVICE_ENDPOINT_ADD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: PEVT_UCX_USBDEVICE_ENDPOINT_ADD
-req.alt-loc: ucxusbdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: STREAM_INFO, *PSTREAM_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ucxusbdevice.h
+apiname: 
+-	PEVT_UCX_USBDEVICE_ENDPOINT_ADD
+product: Windows
+targetos: Windows
+req.typenames: *PSTREAM_INFO, STREAM_INFO
 req.product: Windows 10 or later.
 ---
 
 # EVT_UCX_USBDEVICE_ENDPOINT_ADD callback
 
 
-
 ## -description
+
+
 The client driver's implementation that UCX calls to add a new endpoint for a USB device.
 
 
-
 ## -prototype
+
 
 ````
 EVT_UCX_USBDEVICE_ENDPOINT_ADD EvtUcxUsbDeviceEndpointAdd;
@@ -64,6 +74,9 @@ typedef EVT_UCX_USBDEVICE_ENDPOINT_ADD PEVT_UCX_USBDEVICE_ENDPOINT_ADD;
 
 
 ## -parameters
+
+
+
 
 ### -param UcxController [in]
 
@@ -98,10 +111,15 @@ A pointer to an opaque structure containing initialization
 
 
 ## -returns
+
+
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it must return a status value for which NT_SUCCESS(status) equals FALSE.
 
 
+
 ## -remarks
+
+
 The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a> method.
 
 The callback function calls <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a> to create a new endpoint object and register endpoint object callback functions.
@@ -111,24 +129,19 @@ Then, the callback  function typically creates a WDF queue associated with the e
     starts it.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md">UcxDefaultEndpointInitSetEventCallbacks</a>
-</dt>
-<dt>
+
 <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
-</dt>
-<dt>
+
 <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
-</dt>
-<dt>
+
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a>
-</dt>
-<dt>
+
 <a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
-</dt>
-</dl>
+
+<a href="..\ucxendpoint\nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md">UcxDefaultEndpointInitSetEventCallbacks</a>
+
  
 
  

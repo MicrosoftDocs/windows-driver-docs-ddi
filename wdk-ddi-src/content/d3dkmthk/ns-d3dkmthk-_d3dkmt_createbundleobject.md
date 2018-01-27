@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dbb01112-9d28-4dbf-88c7-3304d9d6a661
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_CREATEBUNDLEOBJECT, D3DKMT_CREATEBUNDLEOBJECT
+ms.keywords: D3DKMT_CREATEBUNDLEOBJECT, D3DKMT_CREATEBUNDLEOBJECT structure [Display Devices], _D3DKMT_CREATEBUNDLEOBJECT, d3dkmthk/D3DKMT_CREATEBUNDLEOBJECT, display.d3dkmt-createbundleobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_CREATEBUNDLEOBJECT
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_CREATEBUNDLEOBJECT
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_CREATEBUNDLEOBJECT
 ---
 
 # _D3DKMT_CREATEBUNDLEOBJECT structure
 
 
-
 ## -description
+
+
 Holds information to create a bundle object.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_CREATEBUNDLEOBJECT {
@@ -58,6 +68,9 @@ typedef struct _D3DKMT_CREATEBUNDLEOBJECT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field cObjects
 
@@ -79,7 +92,7 @@ An array of pointers to object attributes for DXGK objects.
 Object attributes for the bundled object.
 
 
-### -field  dwBundleDesiredAccess
+### -field dwBundleDesiredAccess
 
 The desired access for bundle handle.
 
@@ -88,5 +101,3 @@ The desired access for bundle handle.
 
 The NT bundle handle.
 
-
-## -remarks

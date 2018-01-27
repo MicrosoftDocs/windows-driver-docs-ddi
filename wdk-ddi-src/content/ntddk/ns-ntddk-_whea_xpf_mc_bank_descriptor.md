@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: e5360f75-53cf-4025-9a1c-665c098329dd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_XPF_MC_BANK_DESCRIPTOR, WHEA_XPF_MC_BANK_DESCRIPTOR, *PWHEA_XPF_MC_BANK_DESCRIPTOR
+ms.keywords: whearef_9f1970bd-6dbf-4104-9525-2018ab2f766e.xml, ntddk/WHEA_XPF_MC_BANK_DESCRIPTOR, *PWHEA_XPF_MC_BANK_DESCRIPTOR, _WHEA_XPF_MC_BANK_DESCRIPTOR, PWHEA_XPF_MC_BANK_DESCRIPTOR structure pointer [WHEA Drivers and Applications], ntddk/PWHEA_XPF_MC_BANK_DESCRIPTOR, WHEA_XPF_MC_BANK_DESCRIPTOR structure [WHEA Drivers and Applications], whea.whea_xpf_mc_bank_descriptor, PWHEA_XPF_MC_BANK_DESCRIPTOR, WHEA_XPF_MC_BANK_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_XPF_MC_BANK_DESCRIPTOR
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: WHEA_XPF_MC_BANK_DESCRIPTOR, *PWHEA_XPF_MC_BANK_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_XPF_MC_BANK_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_XPF_MC_BANK_DESCRIPTOR, WHEA_XPF_MC_BANK_DESCRIPTOR
 ---
 
 # _WHEA_XPF_MC_BANK_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The WHEA_XPF_MC_BANK_DESCRIPTOR structure describes a bank of machine check registers for an x86 or x64 processor.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WHEA_XPF_MC_BANK_DESCRIPTOR {
@@ -62,6 +72,9 @@ typedef struct _WHEA_XPF_MC_BANK_DESCRIPTOR {
 
 ## -struct-fields
 
+
+
+
 ### -field BankNumber
 
 The processor machine check register bank number.
@@ -79,27 +92,9 @@ The format of the data in the register bank's status register. Possible values a
 
 
 
-### -field WHEA_XPF_MC_BANK_STATUSFORMAT_IA32MCA
-
-IA32 machine check architecture.
-
-
-### -field WHEA_XPF_MC_BANK_STATUSFORMAT_Intel64MCA
-
-Intel64 machine check architecture.
-
-
-### -field WHEA_XPF_MC_BANK_STATUSFORMAT_AMD64MCA
-
-AMD64 machine check architecture.
-
-</dd>
-</dl>
-
 ### -field Flags
 
 An XPF_MC_BANK_FLAGS union that indicates which of the members of the WHEA_XPF_MC_BANK_DESCRIPTOR structure can be written to by the operating system. The XPF_MC_BANK_FLAGS union is defined as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -118,29 +113,6 @@ An XPF_MC_BANK_FLAGS union that indicates which of the members of the WHEA_XPF_M
 </tr>
 </table></span></div>
 
-
-
-### -field ClearOnInitializationRW
-
-A single bit that indicates that the operating system can write to the <b>ClearOnInitialization</b> member of the WHEA_XPF_MC_BANK_DESCRIPTOR structure.
-
-
-### -field ControlDataRW
-
-A single bit that indicates that the operating system can write to the <b>ControlData</b> member of the WHEA_XPF_MC_BANK_DESCRIPTOR structure.
-
-
-### -field Reserved
-
-Reserved for system use.
-
-
-### -field AsUCHAR
-
-A UCHAR representation of contents of the XPF_MC_BANK_FLAGS union.
-
-</dd>
-</dl>
 
 ### -field ControlMsr
 
@@ -167,19 +139,54 @@ The model-specific register address of the register bank's IA32_MCi_MISC registe
 The value that the operating system writes to the register bank's control register during initialization.
 
 
+##### - Flags.Reserved
+
+Reserved for system use.
+
+
+##### - StatusDataFormat.WHEA_XPF_MC_BANK_STATUSFORMAT_AMD64MCA
+
+AMD64 machine check architecture.
+
+
+##### - Flags.ControlDataRW
+
+A single bit that indicates that the operating system can write to the <b>ControlData</b> member of the WHEA_XPF_MC_BANK_DESCRIPTOR structure.
+
+
+##### - Flags.AsUCHAR
+
+A UCHAR representation of contents of the XPF_MC_BANK_FLAGS union.
+
+
+##### - StatusDataFormat.WHEA_XPF_MC_BANK_STATUSFORMAT_IA32MCA
+
+IA32 machine check architecture.
+
+
+##### - Flags.ClearOnInitializationRW
+
+A single bit that indicates that the operating system can write to the <b>ClearOnInitialization</b> member of the WHEA_XPF_MC_BANK_DESCRIPTOR structure.
+
+
+##### - StatusDataFormat.WHEA_XPF_MC_BANK_STATUSFORMAT_Intel64MCA
+
+Intel64 machine check architecture.
+
+
 ## -remarks
+
+
 An array of WHEA_XPF_MC_BANK_DESCRIPTOR structures is contained in the <a href="..\ntddk\ns-ntddk-_whea_xpf_cmc_descriptor.md">WHEA_XPF_CMC_DESCRIPTOR</a> and <a href="..\ntddk\ns-ntddk-_whea_xpf_mce_descriptor.md">WHEA_XPF_MCE_DESCRIPTOR</a> structures.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_xpf_cmc_descriptor.md">WHEA_XPF_CMC_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_xpf_mce_descriptor.md">WHEA_XPF_MCE_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

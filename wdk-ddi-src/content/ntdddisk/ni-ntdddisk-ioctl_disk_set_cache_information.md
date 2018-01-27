@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ae1ca621-4862-4345-bb51-4a1c31e00542
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DETECTION_TYPE, DETECTION_TYPE
+ms.keywords: storage.ioctl_disk_set_cache_information, IOCTL_DISK_SET_CACHE_INFORMATION control code [Storage Devices], IOCTL_DISK_SET_CACHE_INFORMATION, ntdddisk/IOCTL_DISK_SET_CACHE_INFORMATION, k307_4f1b855c-4788-48e9-bc26-7addf3c7e3a9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_DISK_SET_CACHE_INFORMATION
-req.alt-loc: Ntdddisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,63 +29,85 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntdddisk.h
+apiname: 
+-	IOCTL_DISK_SET_CACHE_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: DETECTION_TYPE
 ---
 
 # IOCTL_DISK_SET_CACHE_INFORMATION IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 Sets disk cache configuration data.
 
-
-
-Sets disk cache configuration data.
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 The input buffer.
 
 
 ### -input-buffer-length
+
 <b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the buffer made available to the driver, which must be &gt;= <b>sizeof</b>(DISK_CACHE_INFORMATION). Otherwise, the driver returns with an error status of STATUS_INFO_LENGTH_MISMATCH.
 
 
 ### -output-buffer
+
 None.
 
 
 ### -output-buffer-length
+
 None.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Information</b> field is set to zero. The <b>Status</b> field can be set to STATUS_SUCCESS or STATUS_INFO_LENGTH_MISMATCH if the input buffer is not large enough. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntdddisk\ns-ntdddisk-_disk_cache_information.md">DISK_CACHE_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

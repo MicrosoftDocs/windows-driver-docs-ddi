@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 187719CD-5F0C-4AFD-BC00-ECD3C29A118F
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcSetAdditionalCacheAttributesEx
+ms.keywords: CcSetAdditionalCacheAttributesEx, ntifs/CcSetAdditionalCacheAttributesEx, ifsk.ccsetadditionalcacheattributesex, CcSetAdditionalCacheAttributesEx routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcSetAdditionalCacheAttributesEx
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcSetAdditionalCacheAttributesEx
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcSetAdditionalCacheAttributesEx function
 
 
-
 ## -description
+
+
 Call the <b>CcSetAdditionalCacheAttributesEx</b> routine to enable extended cache behavior on a cached file.
 
 
-
 ## -syntax
+
 
 ````
 VOID CcSetAdditionalCacheAttributesEx(
@@ -54,6 +64,9 @@ VOID CcSetAdditionalCacheAttributesEx(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -66,22 +79,25 @@ Behavior flags to set for <i>FileObject</i>. Currently, only the  <b>AGGRESSIVE_
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>CcSetAdditionalCacheAttributesEx</b> can be called any time after calling <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-</dt>
-</dl>
+
  
 
  

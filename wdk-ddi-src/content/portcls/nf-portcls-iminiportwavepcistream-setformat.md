@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c8dfa58d-f38b-4ef1-9607-575191d8ddea
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWavePciStream, IMiniportWavePciStream::SetFormat, SetFormat
+ms.keywords: IMiniportWavePciStream interface [Audio Devices], SetFormat method, portcls/IMiniportWavePciStream::SetFormat, audmp-routines_7b5ce806-912e-4c30-9f3e-4a2b31a12864.xml, SetFormat, audio.iminiportwavepcistream_setformat, SetFormat method [Audio Devices], IMiniportWavePciStream interface, IMiniportWavePciStream, IMiniportWavePciStream::SetFormat, SetFormat method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportWavePciStream.SetFormat
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IMiniportWavePciStream.SetFormat
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportWavePciStream::SetFormat method
 
 
-
 ## -description
+
+
 The <code>SetFormat</code> method sets the KS data format of the wave stream.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SetFormat(
@@ -54,33 +64,38 @@ NTSTATUS SetFormat(
 
 ## -parameters
 
+
+
+
 ### -param DataFormat [in]
 
 Pointer to <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure that describes the new format of the stream.
 
 
 ## -returns
+
+
 <code>SetFormat</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 The wave stream's initial format is specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMiniportWavePci::NewStream</a> call that creates the stream. Following stream creation, the <code>SetFormat</code> call can change the stream's format from its initial setting.
 
 For information about specifying wave stream formats, see <a href="https://msdn.microsoft.com/85aa74b4-8e33-49f4-82e7-561baa55c265">Audio Data Formats and Data Ranges</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMiniportWavePci::NewStream</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
  
 
  

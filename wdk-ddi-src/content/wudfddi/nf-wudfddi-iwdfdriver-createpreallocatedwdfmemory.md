@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9c24f42b-0f1d-4b93-99af-f4a5069b5223
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDriver, IWDFDriver::CreatePreallocatedWdfMemory, CreatePreallocatedWdfMemory
+ms.keywords: wudfddi/IWDFDriver::CreatePreallocatedWdfMemory, umdf.iwdfdriver_createpreallocatedwdfmemory, IWDFDriver, IWDFDriver::CreatePreallocatedWdfMemory, CreatePreallocatedWdfMemory, CreatePreallocatedWdfMemory method, IWDFDriver interface, CreatePreallocatedWdfMemory method, wdf.iwdfdriver_createpreallocatedwdfmemory, UMDFDriverObjectRef_273a5206-8415-4251-88e8-6f20c29f50e2.xml, IWDFDriver interface, CreatePreallocatedWdfMemory method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.5
-req.alt-api: IWDFDriver.CreatePreallocatedWdfMemory
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFDriver.CreatePreallocatedWdfMemory
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IWDFDriver::CreatePreallocatedWdfMemory method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CreatePreallocatedWdfMemory</b> method creates a <a href="https://msdn.microsoft.com/b5f7bb8b-115a-4536-9857-b7229ae2ec99">framework memory object</a> for the specified buffer.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT CreatePreallocatedWdfMemory(
@@ -60,6 +70,9 @@ HRESULT CreatePreallocatedWdfMemory(
 
 
 ## -parameters
+
+
+
 
 ### -param pBuff [in]
 
@@ -89,10 +102,15 @@ A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudf
 
 
 ## -returns
+
+
 <b>CreatePreallocatedWdfMemory</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
+
 ## -remarks
+
+
 The <b>CreatePreallocatedWdfMemory</b> method creates a framework memory object for a buffer that the driver previously allocated or obtained. 
 
 A UMDF driver can call <b>CreatePreallocatedWdfMemory</b> if it must create a memory object that represents a pre-existing memory buffer. For example, the driver might receive a driver-defined structure within a buffer for an I/O request that contains an internal I/O control code. The driver can call <b>CreatePreallocatedWdfMemory</b> to create a memory object so that the driver can pass the structure to an I/O target. 
@@ -101,30 +119,22 @@ After a UMDF driver calls <b>CreatePreallocatedWdfMemory</b>, the driver can cal
 
 When the framework memory object that <b>CreatePreallocatedWdfMemory</b> created is deleted, the framework does not deallocate the pre-existing buffer. Likewise, a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff560162">IWDFMemory::SetBuffer</a> does not deallocate the previously assigned buffer.
 
-The following code example shows how to create a memory object for a buffer.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
-</dt>
-<dt>
-<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a>
-</dt>
-<dt>
+
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560162">IWDFMemory::SetBuffer</a>
-</dt>
-<dt>
+
 <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560162">IWDFMemory::SetBuffer</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
+
+<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a>
+
  
 
  

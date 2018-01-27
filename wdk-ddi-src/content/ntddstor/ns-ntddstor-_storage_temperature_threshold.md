@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 19096AD2-5149-4AE1-94CD-9004ED8C24DC
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_TEMPERATURE_THRESHOLD, *PSTORAGE_TEMPERATURE_THRESHOLD, STORAGE_TEMPERATURE_THRESHOLD
+ms.keywords: ntddstor/STORAGE_TEMPERATURE_THRESHOLD, PSTORAGE_TEMPERATURE_THRESHOLD structure pointer [Storage Devices], STORAGE_TEMPERATURE_THRESHOLD, ntddstor/PSTORAGE_TEMPERATURE_THRESHOLD, *PSTORAGE_TEMPERATURE_THRESHOLD, storage.storage_temperature_threshold, _STORAGE_TEMPERATURE_THRESHOLD, STORAGE_TEMPERATURE_THRESHOLD structure [Storage Devices], PSTORAGE_TEMPERATURE_THRESHOLD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_TEMPERATURE_THRESHOLD
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSTORAGE_TEMPERATURE_THRESHOLD, STORAGE_TEMPERATURE_THRESHOLD
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	STORAGE_TEMPERATURE_THRESHOLD
+product: Windows
+targetos: Windows
+req.typenames: STORAGE_TEMPERATURE_THRESHOLD, *PSTORAGE_TEMPERATURE_THRESHOLD
 ---
 
 # _STORAGE_TEMPERATURE_THRESHOLD structure
 
 
-
 ## -description
+
+
 This structure is used to set the over or under temperature threshold of a storage device (via <a href="..\ntddstor\ni-ntddstor-ioctl_storage_set_temperature_threshold.md">IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD</a>).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STORAGE_TEMPERATURE_THRESHOLD {
@@ -60,6 +70,9 @@ typedef struct _STORAGE_TEMPERATURE_THRESHOLD {
 
 ## -struct-fields
 
+
+
+
 ### -field Version
 
 The version of the structure.
@@ -73,7 +86,6 @@ The size of this structure. This should be set to sizeof(<b>STORAGE_TEMPERATURE_
 ### -field Flags
 
 Flags set for this request. The following are valid flags.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -83,8 +95,7 @@ Flags set for this request. The following are valid flags.
 <td><b>STORAGE_PROTOCOL_COMMAND_FLAG_ADAPTER_REQUEST</b></td>
 <td>This flag indicates the request to target an adapter instead of device.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Index
@@ -107,24 +118,16 @@ Indicates if the <i>Threshold</i> specifies the over or under temperature thresh
 Reserved for future use.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
-</dt>
-<dt>
+
 <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
-</dt>
-<dt>
+
 <a href="..\ntddstor\ns-ntddstor-_storage_temperature_info.md">STORAGE_TEMPERATURE_INFO</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
+
  
 
  

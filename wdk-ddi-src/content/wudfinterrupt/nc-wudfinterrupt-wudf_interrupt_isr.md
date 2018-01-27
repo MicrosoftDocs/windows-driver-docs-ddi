@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D4B8182A-67A5-4D64-A95C-5EB6A1C1E4F0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT
+ms.keywords: wdf.oninterruptisr, OnInterruptIsr callback function, OnInterruptIsr, WUDF_INTERRUPT_ISR, WUDF_INTERRUPT_ISR, wudfinterrupt/OnInterruptIsr, umdf.oninterruptisr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.11
-req.alt-api: OnInterruptIsr
-req.alt-loc: Wudfinterrupt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wudfinterrupt.h
+apiname: 
+-	OnInterruptIsr
+product: Windows
+targetos: Windows
+req.typenames: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, *PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
 req.product: Windows 10 or later.
 ---
 
 # WUDF_INTERRUPT_ISR callback
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 A driver's <i>OnInterruptIsr</i> event callback function services a hardware interrupt.
 
 
-
 ## -prototype
+
 
 ````
 WUDF_INTERRUPT_ISR OnInterruptIsr;
@@ -62,9 +72,11 @@ BOOLEAN OnInterruptIsr(
 
 ## -parameters
 
-### -param pInterrupt [in]
 
-A pointer to <a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a> interface.
+
+
+### -param Interrupt
+
 
 
 ### -param MessageID [in]
@@ -77,11 +89,21 @@ If the device is using message-signaled interrupts (MSIs), this parameter is the
 Reserved for system use.
 
 
+#### - pInterrupt [in]
+
+A pointer to <a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a> interface.
+
+
 ## -returns
+
+
 Returns TRUE if the driver acknowledges ownership of the interrupt, and has stopped and acknowledged the interrupt on its device. Otherwise, returns FALSE.
 
 
+
 ## -remarks
+
+
 To register an <i>OnInterruptIsr</i> callback function, your driver must place the callback function's address in a <a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a> structure before calling <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a>.
 
 
@@ -96,25 +118,16 @@ Typically, <i>OnInterruptIsr</i> saves any volatile information that might be lo
 
 For more information about handling interrupts in UMDF drivers, see <a href="https://msdn.microsoft.com/25D526CF-7C37-4D10-B099-352933F92F98">Accessing Hardware and Handling Interrupts</a>.
 
-The function type is declared in <i>Wudfinterrupt.h</i>, as follows.
-
-To define an <i>OnInterruptIsr</i> callback function that is named <i>MyInterruptIsr</i>, you must first provide a function declaration that SDV and other verification tools require, as follows:
-
-Then, implement your callback function as follows:
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a>
-</dt>
-<dt>
+
 <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_workitem.md">OnInterruptWorkItem</a>
-</dt>
-</dl>
+
  
 
  

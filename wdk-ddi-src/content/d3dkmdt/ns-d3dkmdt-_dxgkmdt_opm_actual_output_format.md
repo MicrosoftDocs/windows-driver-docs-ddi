@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88b6562d-9703-46c3-b0d3-10567298a9c2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT, DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT
+ms.keywords: DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT, DmStructs_b3796227-6822-43b8-944a-b435939da72f.xml, _DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT, display.dxgkmdt_opm_actual_output_format, d3dkmdt/DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT, DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT
+product: Windows
+targetos: Windows
 req.typenames: DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT
 ---
 
 # _DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT structure
 
 
-
 ## -description
+
+
 The DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT structure describes the format of the signal that is transmitted from a physical connector that is associated with a protected output to a monitor.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT {
@@ -60,6 +70,9 @@ typedef struct _DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field rnRandomNumber
 
@@ -101,27 +114,18 @@ The numerator for the refresh rate of the signal, in Hz.
 The denominator for the refresh rate of the signal, in Hz. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-</dt>
-<dt>
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_interleave_format.md">DXGKMDT_OPM_INTERLEAVE_FORMAT</a>
-</dt>
-<dt>
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
-</dt>
-<dt>
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_status.md">DXGKMDT_OPM_STATUS</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
+
  
 
  

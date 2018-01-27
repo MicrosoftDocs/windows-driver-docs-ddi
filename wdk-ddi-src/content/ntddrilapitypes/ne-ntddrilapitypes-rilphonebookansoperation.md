@@ -7,8 +7,8 @@ old-location: netvista\rilphonebookansoperation.htm
 old-project: netvista
 ms.assetid: 29dcc5c0-0b07-49d7-b2ab-bdac7333baf7
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILPHONEBOOKANSOPERATION, RILPHONEBOOKANSOPERATION
+ms.date: 1/18/2018
+ms.keywords: RIL_PHONEBOOK_ANSDELETED, ntddrilapitypes/RILPHONEBOOKANSOPERATION, ntddrilapitypes/RIL_PHONEBOOK_ANSDELETED, ntddrilapitypes/RIL_PHONEBOOK_ANSMODIFIED, netvista.rilphonebookansoperation, RIL_PHONEBOOK_MAX, RILPHONEBOOKANSOPERATION, ntddrilapitypes/RIL_PHONEBOOK_MAX, RILPHONEBOOKANSOPERATION enumeration [Network Drivers Starting with Windows Vista], RIL_PHONEBOOK_ANSMODIFIED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILPHONEBOOKANSOPERATION
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILPHONEBOOKANSOPERATION
+product: Windows
+targetos: Windows
 req.typenames: RILPHONEBOOKANSOPERATION
 ---
 
 # RILPHONEBOOKANSOPERATION enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILPHONEBOOKANSOPERATION { 
@@ -56,13 +66,21 @@ typedef enum _RILPHONEBOOKANSOPERATION {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_PHONEBOOK_ANSADDED
+
+
+
 ### -field RIL_PHONEBOOK_ANSMODIFIED
+
 
 
 ### -field RIL_PHONEBOOK_ANSDELETED
 
 
+
 ### -field RIL_PHONEBOOK_MAX
 
 
-## -remarks

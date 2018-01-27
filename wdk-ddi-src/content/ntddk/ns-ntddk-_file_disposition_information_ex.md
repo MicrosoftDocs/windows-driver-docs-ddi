@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: CCFE4B09-F942-4D89-9013-159066D8E37A
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FILE_DISPOSITION_INFORMATION_EX, *PFILE_DISPOSITION_INFORMATION_EX, FILE_DISPOSITION_INFORMATION_EX
+ms.keywords: FILE_DISPOSITION_INFORMATION_EX structure [Installable File System Drivers], ntddk/FILE_DISPOSITION_INFORMATION_EX, *PFILE_DISPOSITION_INFORMATION_EX, ntddk/PFILE_DISPOSITION_INFORMATION_EX, PFILE_DISPOSITION_INFORMATION_EX structure pointer [Installable File System Drivers], PFILE_DISPOSITION_INFORMATION_EX, ifsk.file_disposition_information_ex, FILE_DISPOSITION_INFORMATION_EX, _FILE_DISPOSITION_INFORMATION_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILE_DISPOSITION_INFORMATION_EX
-req.alt-loc: Ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddk.h
+apiname: 
+-	FILE_DISPOSITION_INFORMATION_EX
+product: Windows
+targetos: Windows
 req.typenames: *PFILE_DISPOSITION_INFORMATION_EX, FILE_DISPOSITION_INFORMATION_EX
 ---
 
 # _FILE_DISPOSITION_INFORMATION_EX structure
 
 
-
 ## -description
+
+
 The <b>FILE_DISPOSITION_INFORMATION_EX</b> structure is used as an argument to the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567096">ZwSetInformationFileEx</a> routine and indicates how the operating system should delete a file.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILE_DISPOSITION_INFORMATION_EX {
@@ -54,10 +64,12 @@ typedef struct _FILE_DISPOSITION_INFORMATION_EX {
 
 ## -struct-fields
 
+
+
+
 ### -field Flags
 
 Specifies what action(s) the system should take with a specific file while deleting.
-
 <table>
 <tr>
 <th>Flag Name</th>
@@ -92,25 +104,24 @@ Specifies what action(s) the system should take with a specific file while delet
 <td>0x00000008</td>
 <td>Specifies if the system sets or clears the on-close state.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -remarks
+
+
 The caller must have DELETE access to a given file to call ZwSetInformationFile with <b>FILE_DISPOSITION_DELETE</b>. 
 
 Normally a file marked for deletion is not actually deleted until all open handles for the file have been closed and the link count for the file is zero.  When marking a file for deletion using <b>FILE_DISPOSITION_POSIX_SEMANTICS</b>, the link gets removed from the visible namespace as soon as the POSIX delete handle has been closed, but the file’s data streams remain accessible by other existing handles until the last handle has been closed.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
  
 
  

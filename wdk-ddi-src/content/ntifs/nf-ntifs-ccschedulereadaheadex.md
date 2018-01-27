@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8549DAA9-3BD3-4CED-AC2A-EFADF317EF5A
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcScheduleReadAheadEx
+ms.keywords: ifsk.ccschedulereadaheadex, ntifs/CcScheduleReadAheadEx, CcScheduleReadAheadEx, CcScheduleReadAheadEx routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcScheduleReadAheadEx
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcScheduleReadAheadEx
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcScheduleReadAheadEx function
 
 
-
 ## -description
+
+
 The <b>CcScheduleReadAheadEx</b> routine performs read-ahead (also called "lazy read") on a cached file. The I/O byte count for the operation is charged to the issuing thread.
 
 
-
 ## -syntax
+
 
 ````
 VOID CcScheduleReadAheadEx(
@@ -56,6 +66,9 @@ VOID CcScheduleReadAheadEx(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -78,37 +91,37 @@ The thread issuing the read ahead request. For a file system with disk I/O accou
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>CcScheduleReadAheadEx</b> should be called only when <i>Length</i> &gt;= 256. Measurements have shown that calling <b>CcScheduleReadAheadEx</b> for smaller reads actually decreases performance.
 
 <b>CcScheduleReadAheadEx</b> can only be called after a successful call to <a href="..\ntifs\nf-ntifs-cccopyread.md">CcCopyRead</a>, <a href="..\ntifs\nf-ntifs-cccopyreadex.md">CcCopyReadEx</a>, <a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-cccopyread.md">CcCopyRead</a>
-</dt>
-<dt><b>CcCopyReadEx</b></dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-cccopyread.md">CcCopyRead</a>
+
+<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
+
+<b>CcCopyReadEx</b>
+
+<a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
+
  
 
  

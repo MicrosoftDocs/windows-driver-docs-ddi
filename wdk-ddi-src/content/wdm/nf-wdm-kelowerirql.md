@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 95598654-71dd-41cc-a663-b0bcaee77687
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeLowerIrql
+ms.keywords: kernel.kelowerirql, KeLowerIrql, k105_06c56235-3b9e-4413-aadb-91e86898121d.xml, wdm/KeLowerIrql, KeLowerIrql routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeLowerIrql
-req.alt-loc: Hal.lib,Hal.dll
 req.ddi-compliance: IrqlKeRaiseLower, IrqlKeRaiseLower2, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Hal.lib
+-	Hal.dll
+apiname: 
+-	KeLowerIrql
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # KeLowerIrql function
 
 
-
 ## -description
+
+
 The <b>KeLowerIrql</b> routine restores the IRQL on the current processor to its original value.
 
 
-
 ## -syntax
+
 
 ````
  VOID KeLowerIrql(
@@ -55,31 +66,36 @@ The <b>KeLowerIrql</b> routine restores the IRQL on the current processor to its
 
 ## -parameters
 
+
+
+
 ### -param NewIrql [in]
 
 Specifies the IRQL that was returned from <a href="..\wdm\nf-wdm-keraiseirql.md">KeRaiseIrql</a> or <a href="..\wdm\nf-wdm-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 It is a fatal error to call <b>KeLowerIrql</b> using an input <i>NewIrql</i> that was not returned by the immediately preceding call to <b>KeRaiseIrql</b> or <a href="..\wdm\nf-wdm-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-keraiseirql.md">KeRaiseIrql</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
+
 <a href="..\wdm\nf-wdm-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>
-</dt>
-</dl>
+
  
 
  

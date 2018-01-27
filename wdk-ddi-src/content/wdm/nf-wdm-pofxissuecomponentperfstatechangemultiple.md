@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 246211E7-89A9-4916-BF6E-5771B911CBA3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxIssueComponentPerfStateChangeMultiple
+ms.keywords: kernel.pofxissuecomponentperfstatechangemultiple, PO_FX_FLAG_ASYNC_ONLY, wdm/PoFxIssueComponentPerfStateChangeMultiple, PoFxIssueComponentPerfStateChangeMultiple routine [Kernel-Mode Driver Architecture], PoFxIssueComponentPerfStateChangeMultiple, PO_FX_FLAG_BLOCKING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PoFxIssueComponentPerfStateChangeMultiple
-req.alt-loc: Ntoskrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: <= APC_LEVEL or <= DISPATCH_LEVEL (See Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Ntoskrnl.exe
+apiname: 
+-	PoFxIssueComponentPerfStateChangeMultiple
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PoFxIssueComponentPerfStateChangeMultiple function
 
 
-
 ## -description
+
+
 The <b>PoFxIssueComponentPerfStateChangeMultiple</b> routine submits a request to change the performance states in multiple performance state sets simultaneously for a device component. 
 
 
-
 ## -syntax
+
 
 ````
 VOID PoFxIssueComponentPerfStateChangeMultiple(
@@ -60,6 +70,9 @@ VOID PoFxIssueComponentPerfStateChangeMultiple(
 
 ## -parameters
 
+
+
+
 ### -param Handle [in]
 
 A handle that represents the registration of the device with PoFx. The device driver previously received this handle from the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine.
@@ -70,17 +83,16 @@ A handle that represents the registration of the device with PoFx. The device dr
 The flags that modify the behavior of the performance state change operation. Set this member to zero or to one of the following flag <b>PO_FX_FLAG_<i>XXX</i></b> bits:
 
 These two flag bits are mutually exclusive. For more information, see Remarks.
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -param PO_FX_FLAG_BLOCKING
-### -param 0x1
-
+<td width="40%"><a id="PO_FX_FLAG_BLOCKING"></a><a id="po_fx_flag_blocking"></a><dl>
+<dt><b>PO_FX_FLAG_BLOCKING</b></dt>
+<dt>0x1</dt>
+</dl>
 </td>
 <td width="60%">
 Make the condition change synchronous. If this flag is set, the routine that requests the condition change does not return control to the calling driver until the component hardware completes the transition to the new condition. This flag can be used only if the caller is running at IRQL &lt; DISPATCH_LEVEL.
@@ -88,18 +100,17 @@ Make the condition change synchronous. If this flag is set, the routine that req
 </td>
 </tr>
 <tr>
-
-### -param PO_FX_FLAG_ASYNC_ONLY
-### -param 0x2
-
+<td width="40%"><a id="PO_FX_FLAG_ASYNC_ONLY"></a><a id="po_fx_flag_async_only"></a><dl>
+<dt><b>PO_FX_FLAG_ASYNC_ONLY</b></dt>
+<dt>0x2</dt>
+</dl>
 </td>
 <td width="60%">
 Make the condition change fully asynchronous. If this flag is set, the calling driver's callback routine is called from a thread other than the thread in which the routine that requests the condition change is called. Thus, the routine that requests the condition change always returns asynchronously without waiting for the callback to complete.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Component [in]
@@ -123,10 +134,15 @@ A pointer to the context for the <a href="https://msdn.microsoft.com/library/win
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A driver calls <b>PoFxIssueComponentPerfStateChangeMultiple</b>, the power management framework (PoFx) will request the platform extension plug-in (PEP) to place 
     the component's performance state sets in the specified performance states. This routine may be used with both discrete and range-based types of performance state sets. For more information about discrete and range-based performance state sets, see <a href="..\wdm\ne-wdm-_po_fx_perf_state_type.md">PO_FX_PERF_STATE_TYPE</a>.
 
@@ -143,24 +159,19 @@ This function will always result in a call to the <a href="https://msdn.microsof
 Only a single call of the <b>PoFxIssueComponentPerfStateChangeMultiple</b> routine  is allowed at a time per component, regardless of whether the call is synchronous or asynchronous. After issuing a performance state change request, the driver must wait until the <a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a> is received before calling this routine again, even if the request involves a different performance state set.  If this routine is called again before waiting until the <i>ComponentPerfStateCallback</i> is received, a bugcheck will occur.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechange.md">PoFxIssueComponentPerfStateChange</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ne-wdm-_po_fx_perf_state_type.md">PO_FX_PERF_STATE_TYPE</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechange.md">PoFxIssueComponentPerfStateChange</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a>
+
+<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
+
+<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
+
  
 
  

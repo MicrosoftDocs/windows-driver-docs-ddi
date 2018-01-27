@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bdee26f9-e108-4753-b2e5-a1427212bce9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoRegisterDriverReinitialization
+ms.keywords: IoRegisterDriverReinitialization routine [Kernel-Mode Driver Architecture], ntddk/IoRegisterDriverReinitialization, k104_998f1835-132c-49f3-886d-6d78dee35b9d.xml, kernel.ioregisterdriverreinitialization, IoRegisterDriverReinitialization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoRegisterDriverReinitialization
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlIoPassive5, PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoRegisterDriverReinitialization
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # IoRegisterDriverReinitialization function
 
 
-
 ## -description
+
+
 The <b>IoRegisterDriverReinitialization</b> routine is called by a driver during its initialization or reinitialization to register its <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a> routine to be called again before the driver's and, possibly the system's, initialization is complete.
 
 
-
 ## -syntax
+
 
 ````
 VOID IoRegisterDriverReinitialization(
@@ -55,6 +65,9 @@ VOID IoRegisterDriverReinitialization(
 
 
 ## -parameters
+
+
+
 
 ### -param DriverObject [in]
 
@@ -72,10 +85,15 @@ Pointer to the context to be passed to the driver's <i>Reinitialize</i> routine.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A driver can call this routine only if its <i>DriverEntry</i> routine will return STATUS_SUCCESS. If the driver-supplied <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a> routine must use the registry, the <i>DriverEntry</i> routine should include a copy of the string to which  <i>RegistryPath</i> points as part of the context passed to the <i>Reinitialize</i> routine in this call.
 
 If the driver is loaded dynamically, it is possible for this to occur during a normally running system, so all references to the reinitialization queue must be synchronized.
@@ -87,15 +105,13 @@ The <i>DriverEntry</i> routine can call <b>IoRegisterDriverReinitialization</b> 
 Usually, a driver with a <i>Reinitialize</i> routine is a higher-level driver that controls both PnP and legacy devices. Such a driver must not only create device objects for the devices that the PnP manager detects (and for which the PnP manager calls the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine), the driver must also create device objects for legacy devices that the PnP manager does not detect. A driver can use a <i>Reinitialize</i> routine to create those device objects and layer the driver over the next-lower driver for the underlying device.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\nf-ntddk-ioregisterbootdriverreinitialization.md">IoRegisterBootDriverReinitialization</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\nf-ntddk-ioregisterbootdriverreinitialization.md">IoRegisterBootDriverReinitialization</a>
+
  
 
  

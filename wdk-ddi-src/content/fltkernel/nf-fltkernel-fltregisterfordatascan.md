@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E603975A-B927-475A-9DEA-2D01C1249819
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltRegisterForDataScan
+ms.keywords: FltRegisterForDataScan, FltRegisterForDataScan routine [Installable File System Drivers], fltkernel/FltRegisterForDataScan, ifsk.fltregisterfordatascan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The FltRegisterForDataScan routine is available start
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltRegisterForDataScan
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltRegisterForDataScan
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltRegisterForDataScan function
 
 
-
 ## -description
+
+
 The <b>FltRegisterForDataScan</b> routine enables data scanning for the volume attached to the minifilter instance.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltRegisterForDataScan(
@@ -54,39 +64,55 @@ NTSTATUS FltRegisterForDataScan(
 
 ## -parameters
 
+
+
+
 ### -param Instance [in]
 
 An opaque instance pointer for the minifilter driver instance to register for data scanning.
 
 
 ## -returns
+
+
 <b>FltRegisterForDataScan</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following. 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>The filter manager does not support data scans for the volume attached to this instance.
+</dl>
+</td>
+<td width="60%">
+The filter manager does not support data scans for the volume attached to this instance.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 If <b>STATUS_NOT_SUPPORTED</b> is returned by <b>FltRegisterForDataScan</b>, a minifilter can still create sections for data scanning using <a href="..\ntifs\nf-ntifs-fsrtlcreatesectionfordatascan.md">FsRtlCreateSectionForDataScan</a>. However, section access is not synchronized and conflict resolution is left to the minifilter driver.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltclosesectionfordatascan.md">FltCloseSectionForDataScan</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-fsrtlcreatesectionfordatascan.md">FsRtlCreateSectionForDataScan</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
  
 
  

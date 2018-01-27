@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 787ace79-c9ba-4e3e-9cee-0d07ef50ba35
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTOpenResource
+ms.keywords: d3dkmthk/D3DKMTOpenResource, display.d3dkmtopenresource, OpenGL_Functions_ba035fe1-7970-45fc-a1c3-adddf285abd1.xml, D3DKMTOpenResource function [Display Devices], D3DKMTOpenResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTOpenResource
-req.alt-loc: Gdi32.dll,API-MS-Win-DX-D3DKmt-l1-1-0.dll,API-MS-Win-DX-D3DKmt-l1-1-1.dll,API-MS-Win-DX-D3DKMT-L1-1-2.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Gdi32.dll
+-	API-MS-Win-DX-D3DKmt-l1-1-0.dll
+-	API-MS-Win-DX-D3DKmt-l1-1-1.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+apiname: 
+-	D3DKMTOpenResource
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTOpenResource function
 
 
-
 ## -description
+
+
 The <b>D3DKMTOpenResource</b> function opens a shared resource.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS D3DKMTOpenResource(
@@ -54,42 +67,69 @@ NTSTATUS D3DKMTOpenResource(
 
 ## -parameters
 
-### -param pData [in, out]
+
+
+
+
+#### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openresource.md">D3DKMT_OPENRESOURCE</a> structure that contains parameters for opening a shared resource.
 
 
 ## -returns
+
+
 <b>D3DKMTOpenResource</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The resource was successfully opened.
+</dl>
+</td>
+<td width="60%">
+The resource was successfully opened.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_DEVICE_REMOVED</b></dt>
-</dl>The graphics adapter was stopped or the display device was reset.
+</dl>
+</td>
+<td width="60%">
+The graphics adapter was stopped or the display device was reset.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>Parameters were validated and determined to be incorrect.
+</dl>
+</td>
+<td width="60%">
+Parameters were validated and determined to be incorrect.
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a> values.
 
-The following code example demonstrates how an OpenGL ICD can use <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfo.md">D3DKMTQueryResourceInfo</a> and <b>D3DKMTOpenResource</b> to open a shared resource.
-
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openresource.md">D3DKMT_OPENRESOURCE</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfo.md">D3DKMTQueryResourceInfo</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openresource.md">D3DKMT_OPENRESOURCE</a>
+
  
 
  

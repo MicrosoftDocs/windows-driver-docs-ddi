@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6f5521f4-44da-4470-b649-d98c1d4e4891
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_HUB_DESCRIPTOR, USB_HUB_DESCRIPTOR, *PUSB_HUB_DESCRIPTOR
+ms.keywords: usbstrct_b21769d6-aab1-43b9-8d48-bde249f5c325.xml, usbspec/USB_HUB_DESCRIPTOR, PUSB_HUB_DESCRIPTOR structure pointer [Buses], buses.usb_hub_descriptor, PUSB_HUB_DESCRIPTOR, usbspec/PUSB_HUB_DESCRIPTOR, _USB_HUB_DESCRIPTOR, *PUSB_HUB_DESCRIPTOR, USB_HUB_DESCRIPTOR structure [Buses], USB_HUB_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_HUB_DESCRIPTOR
-req.alt-loc: usbspec.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: USB_HUB_DESCRIPTOR, *PUSB_HUB_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbspec.h
+apiname: 
+-	USB_HUB_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: *PUSB_HUB_DESCRIPTOR, USB_HUB_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
 # _USB_HUB_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The <b>USB_HUB_DESCRIPTOR</b> structure contains a hub descriptor.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USB_HUB_DESCRIPTOR {
@@ -60,6 +70,9 @@ typedef struct _USB_HUB_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field bDescriptorLength
 
@@ -98,18 +111,12 @@ Not currently implemented. Do not use this member.
 This member implements DeviceRemovable and PortPwrCtrlMask fields of the hub descriptor. For more information about these fields, see Universal Serial Bus Specification. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbioctl\ns-usbioctl-_usb_hub_information.md">USB_HUB_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
  
 
  

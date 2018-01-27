@@ -7,8 +7,8 @@ old-location: netvista\riladditionalcallerinfo.htm
 old-project: netvista
 ms.assetid: dd622ebc-beba-4c96-a0e8-97ad614e3937
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILADDITIONALCALLERINFO, *LPRILADDITIONALCALLERINFO, RILADDITIONALCALLERINFO
+ms.date: 1/18/2018
+ms.keywords: RILADDITIONALCALLERINFO structure [Network Drivers Starting with Windows Vista], RILADDITIONALCALLERINFO, netvista.riladditionalcallerinfo, ntddrilapitypes/RILADDITIONALCALLERINFO, *LPRILADDITIONALCALLERINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILADDITIONALCALLERINFO
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILADDITIONALCALLERINFO, RILADDITIONALCALLERINFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILADDITIONALCALLERINFO
+product: Windows
+targetos: Windows
+req.typenames: RILADDITIONALCALLERINFO, *LPRILADDITIONALCALLERINFO
 ---
 
 # RILADDITIONALCALLERINFO structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILADDITIONALCALLERINFO {
@@ -59,22 +69,29 @@ typedef struct _RILADDITIONALCALLERINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwExecutor
+
 
 
 ### -field dwCallId
 
 
+
 ### -field dwCallerInfoLength
+
 
 
 ### -field wszCallerInfo
 
 
-## -remarks

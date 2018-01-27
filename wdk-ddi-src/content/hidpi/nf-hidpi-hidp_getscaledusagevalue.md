@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 0af1a3f2-b933-4232-865c-cccca53fd32e
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_GetScaledUsageValue
+ms.keywords: hidfunc_7fa22086-ab66-4c6b-a7de-65adce226b10.xml, hidpi/HidP_GetScaledUsageValue, hid.hidp_getscaledusagevalue, HidP_GetScaledUsageValue routine [Human Input Devices], HidP_GetScaledUsageValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Windo
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HidP_GetScaledUsageValue
-req.alt-loc: Hidparse.lib,Hidparse.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Hidparse.lib
+-	Hidparse.dll
+apiname: 
+-	HidP_GetScaledUsageValue
+product: Windows
+targetos: Windows
 req.typenames: HIDP_REPORT_TYPE
 ---
 
 # HidP_GetScaledUsageValue function
 
 
-
 ## -description
+
+
 The <b>HidP_GetScaledUsageValue</b> routine returns the signed and scaled result of a HID control value extracted from a HID report.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS __stdcall HidP_GetScaledUsageValue(
@@ -60,6 +71,9 @@ NTSTATUS __stdcall HidP_GetScaledUsageValue(
 
 
 ## -parameters
+
+
+
 
 ### -param ReportType [in]
 
@@ -102,57 +116,127 @@ Specifies the length, in bytes, of the report located at <i>Report</i>.
 
 
 ## -returns
+
+
 <b>HidP_GetScaledUsageValue</b> returns one of the following status values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_SUCCESS</b></dt>
-</dl>The routine successfully returned the value.
+</dl>
+</td>
+<td width="60%">
+The routine successfully returned the value.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INVALID_REPORT_TYPE</b></dt>
-</dl>The specified report type is not valid.
+</dl>
+</td>
+<td width="60%">
+The specified report type is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INVALID_REPORT_LENGTH</b></dt>
-</dl>The specified report length is not valid
+</dl>
+</td>
+<td width="60%">
+The specified report length is not valid
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_BAD_LOG_PHY_VALUES</b></dt>
-</dl>The collection returned an illegal logical or physical value. To extract the value returned by the collection, call <a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>.
+</dl>
+</td>
+<td width="60%">
+The collection returned an illegal logical or physical value. To extract the value returned by the collection, call <a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_NULL</b></dt>
-</dl>The current state of the scaled value from the collection is less than the logical minimum or is greater than the logical maximum, and the scaled value has a <b>NULL</b> state.
+</dl>
+</td>
+<td width="60%">
+The current state of the scaled value from the collection is less than the logical minimum or is greater than the logical maximum, and the scaled value has a <b>NULL</b> state.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_VALUE_OUT_OF_RANGE</b></dt>
-</dl>The current state of the scaled value data from the collection is less than the logical minimum or is greater than the logical maximum.
+</dl>
+</td>
+<td width="60%">
+The current state of the scaled value data from the collection is less than the logical minimum or is greater than the logical maximum.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_USAGE_NOT_FOUND</b></dt>
-</dl>The specified usage, usage page, or link collection cannot be found in any report supported by the specified top-level collection.
+</dl>
+</td>
+<td width="60%">
+The specified usage, usage page, or link collection cannot be found in any report supported by the specified top-level collection.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INCOMPATIBLE_REPORT_ID</b></dt>
-</dl>The specified value is not contained in the specified report, but is contained in another report supported by the specified top-level collection.
+</dl>
+</td>
+<td width="60%">
+The specified value is not contained in the specified report, but is contained in another report supported by the specified top-level collection.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The caller-allocated buffers supplied at <i>PreparsedData</i>, <i>UsageValue</i>, and<i> Report </i>must be allocated from nonpaged pool.
 
-User-mode applications and kernel-mode drivers must use <a href="..\hidpi\nf-hidpi-hidp_getusagevaluearray.md">HidP_GetUsageValueArray</a> to extract data for a <a href="hid.value_capability_arrays#usage_value_array#usage_value_array">usage value array</a>.
+User-mode applications and kernel-mode drivers must use <a href="..\hidpi\nf-hidpi-hidp_getusagevaluearray.md">HidP_GetUsageValueArray</a> to extract data for a <a href="https://msdn.microsoft.com/d447dda6-a1e5-4e57-b06f-f79f8662c236">usage value array</a>.
 
 If the routine returns status HIDP_STATUS_BAD_LOG_PHY_VALUES, an application or driver can call <a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a> to extract the raw usage data.
 
 For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-</dt>
-<dt>
-<a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
-</dt>
-<dt>
+
 <a href="..\hidpi\nf-hidpi-hidp_getusagevaluearray.md">HidP_GetUsageValueArray</a>
-</dt>
-</dl>
+
+<a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
  
 
  

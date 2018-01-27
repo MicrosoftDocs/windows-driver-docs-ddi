@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a9343e09-0b7b-4ed8-9b30-63ee0b38d13d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltIsDirectory
+ms.keywords: FltIsDirectory, FltIsDirectory routine [Installable File System Drivers], ifsk.fltisdirectory, FltApiRef_e_to_o_cdcea60b-c299-4445-9c96-126210f2a43e.xml, fltkernel/FltIsDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 U
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltIsDirectory
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltIsDirectory
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltIsDirectory function
 
 
-
 ## -description
+
+
 A minifilter driver calls the <b>FltIsDirectory</b> routine to determine whether a given file object represents a directory. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltIsDirectory(
@@ -55,6 +65,9 @@ NTSTATUS FltIsDirectory(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -72,24 +85,40 @@ Pointer to a caller-supplied Boolean variable. On return, this variable receives
 
 
 ## -returns
+
+
 <b>FltIsDirectory</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>This error code is returned if the file system does not support stream contexts.  Note that starting with Windows Vista, <a href="..\fltkernel\nf-fltkernel-fltisdirectory.md">FltIsDirectory</a> will return directory information even for file systems that do not support stream contexts.  
+</dl>
+</td>
+<td width="60%">
+This error code is returned if the file system does not support stream contexts.  Note that starting with Windows Vista, <a href="..\fltkernel\nf-fltkernel-fltisdirectory.md">FltIsDirectory</a> will return directory information even for file systems that do not support stream contexts.  
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>FltIsDirectory</b> retrieves the desired information from the filter manager's internal stream context manager. The filter manager caches this information for future queries on this stream.
+<div class="alert"><b>Note</b>  This routine can only be called on an opened file object.</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
-</dt>
-</dl>
+
  
 
  

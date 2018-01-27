@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 08faebdf-7e6d-4da4-a4c2-a0b57de437ce
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _TOKEN_GROUPS, *PTOKEN_GROUPS, TOKEN_GROUPS
+ms.keywords: TOKEN_GROUPS, ifsk.token_groups, TOKEN_GROUPS structure [Installable File System Drivers], PTOKEN_GROUPS structure pointer [Installable File System Drivers], *PTOKEN_GROUPS, securitystructures_97d0491f-87b4-4e76-8252-fad37cc94c1c.xml, ntifs/PTOKEN_GROUPS, ntifs/TOKEN_GROUPS, PTOKEN_GROUPS, _TOKEN_GROUPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TOKEN_GROUPS
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PTOKEN_GROUPS, TOKEN_GROUPS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	TOKEN_GROUPS
+product: Windows
+targetos: Windows
+req.typenames: TOKEN_GROUPS, *PTOKEN_GROUPS
 ---
 
 # _TOKEN_GROUPS structure
 
 
-
 ## -description
+
+
 TOKEN_GROUPS contains information about the group security identifiers (SID) in an access token. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _TOKEN_GROUPS {
@@ -55,9 +65,22 @@ typedef struct _TOKEN_GROUPS {
 
 ## -struct-fields
 
+
+
+
 ### -field GroupCount
 
 Specifies the number of groups in the access token. 
+
+
+### -field Groups.size_is
+
+ 
+
+
+### -field Groups.size_is.GroupCount
+
+ 
 
 
 ### -field Groups
@@ -66,30 +89,26 @@ Specifies an array of <a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND
 
 
 ## -remarks
+
+
 You can use <a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a> to designate one or more group SIDs as deny-only SIDs. Note that it is also possible to designate a user SID as a deny-only SID by specifying the user SID as one of the group SIDs in the <b>TOKEN_GROUPS</b> structure passed to <b>SeFilterToken</b>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+
+<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 8c18c224-6d55-405d-87ec-cca99d702713
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_SetUsageValueArray
+ms.keywords: HidP_SetUsageValueArray, HidP_SetUsageValueArray routine [Human Input Devices], hidpi/HidP_SetUsageValueArray, hid.hidp_setusagevaluearray, hidfunc_08ebfd84-e1da-4eb8-8741-ec2b16b488c9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Windo
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HidP_SetUsageValueArray
-req.alt-loc: Hidparse.lib,Hidparse.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Hidparse.lib
+-	Hidparse.dll
+apiname: 
+-	HidP_SetUsageValueArray
+product: Windows
+targetos: Windows
 req.typenames: HIDP_REPORT_TYPE
 ---
 
 # HidP_SetUsageValueArray function
 
 
-
 ## -description
-The <b>HidP_SetUsageValueArray</b> routine sets a HID control <a href="hid.value_capability_arrays#usage_value_array#usage_value_array">usage value array</a> in a specified HID report.
 
+
+The <b>HidP_SetUsageValueArray</b> routine sets a HID control <a href="https://msdn.microsoft.com/d447dda6-a1e5-4e57-b06f-f79f8662c236">usage value array</a> in a specified HID report.
 
 
 ## -syntax
+
 
 ````
 NTSTATUS __stdcall HidP_SetUsageValueArray(
@@ -62,6 +73,9 @@ NTSTATUS __stdcall HidP_SetUsageValueArray(
 
 ## -parameters
 
+
+
+
 ### -param ReportType [in]
 
 Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of HID report located at <i>Report</i>.
@@ -69,7 +83,7 @@ Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a
 
 ### -param UsagePage [in]
 
-Specifies the <a href="hid.hid_usages#usage_page#usage_page">usage page</a> of a usage.
+Specifies the <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage page</a> of a usage.
 
 
 ### -param LinkCollection [in]
@@ -108,42 +122,131 @@ Specifies the size, in bytes, of the HID report located at <i>Report</i>, which 
 
 
 ## -returns
+
+
 <b>HidP_SetUsageValueArray</b> returns one of the following status values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_SUCCESS</b></dt>
-</dl>The routine successfully set the usage value.
+</dl>
+</td>
+<td width="60%">
+The routine successfully set the usage value.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INVALID_REPORT_LENGTH</b></dt>
-</dl>The report length is not valid.
+</dl>
+</td>
+<td width="60%">
+The report length is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INVALID_REPORT_TYPE</b></dt>
-</dl>The specified report type is not valid.
+</dl>
+</td>
+<td width="60%">
+The specified report type is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The size, in bytes, of the <i>UsageValue</i> buffer is too small.
+</dl>
+</td>
+<td width="60%">
+The size, in bytes, of the <i>UsageValue</i> buffer is too small.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INCOMPATIBLE_REPORT_ID</b></dt>
-</dl>The usage does not exist in the specified report, but it does exist in a different report of the specified type.
+</dl>
+</td>
+<td width="60%">
+The usage does not exist in the specified report, but it does exist in a different report of the specified type.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_NOT_VALUE_ARRAY</b></dt>
-</dl>The specified usage is not a usage value array.
+</dl>
+</td>
+<td width="60%">
+The specified usage is not a usage value array.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INVALID_PREPARSED_DATA</b></dt>
-</dl>The preparsed data is not valid.
+</dl>
+</td>
+<td width="60%">
+The preparsed data is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_REPORT_DOES_NOT_EXIST</b></dt>
-</dl>There are no reports of the specified type.
+</dl>
+</td>
+<td width="60%">
+There are no reports of the specified type.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>The report size of data fields specified for the usage value array is not a multiple of eight bits.
+</dl>
+</td>
+<td width="60%">
+The report size of data fields specified for the usage value array is not a multiple of eight bits.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_USAGE_NOT_FOUND</b></dt>
-</dl>The usage does not exist in any report of the specified report type.
+</dl>
+</td>
+<td width="60%">
+The usage does not exist in any report of the specified report type.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The required size, in bytes, of the <i>UsageValue</i> buffer is determined by multiplying together the <b>BitSize</b> and <b>ReportCount</b> members of the usage value array's <a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a> structure, and rounding the result up to the nearest byte.
 
 <b>HidP_SetUsageValueArray</b> only supports usage value arrays where each data field of the array is a multiple of eight bits.
@@ -153,18 +256,15 @@ The caller must set the <i>UsageValue</i> buffer exactly as it should occur in t
 For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-</dt>
-<dt>
+
 <a href="..\hidpi\nf-hidpi-hidp_setscaledusagevalue.md">HidP_SetScaledUsageValue</a>
-</dt>
-<dt>
+
 <a href="..\hidpi\nf-hidpi-hidp_setusagevalue.md">HidP_SetUsageValue</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
  
 
  

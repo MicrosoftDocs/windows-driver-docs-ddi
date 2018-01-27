@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c3df50a0-2388-4760-b6e2-ef6af650d0e2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_VIDMMCAPS, DXGK_VIDMMCAPS
+ms.keywords: d3dkmddi/DXGK_VIDMMCAPS, DmStructs_0ec3e7bb-c14e-41b8-a148-7f77153972e8.xml, DXGK_VIDMMCAPS, display.dxgk_vidmmcaps, _DXGK_VIDMMCAPS, DXGK_VIDMMCAPS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_VIDMMCAPS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_VIDMMCAPS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_VIDMMCAPS
 ---
 
 # _DXGK_VIDMMCAPS structure
 
 
-
 ## -description
+
+
 The <b>DXGK_VIDMMCAPS</b> structure identifies the video memory management capabilities that a display miniport driver can support.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_VIDMMCAPS {
@@ -81,6 +91,9 @@ typedef struct _DXGK_VIDMMCAPS {
 
 ## -struct-fields
 
+
+
+
 ### -field OutOfOrderLock
 
 Specifies whether the driver can lock allocation instances other than the latest instance. The driver typically sets this value for DDI threading and load balancing if a DDI thread must lock a vertex buffer that an application thread had previously locked and discarded. 
@@ -107,7 +120,7 @@ Supported starting with Windows 8.
 
 ### -field CrossAdapterResource
 
-Specifies whether the driver supports cross-adapter resources in a <a href="display.using_cross-adapter_resources_in_a_hybrid_system#definition_of_a_hybrid_system#definition_of_a_hybrid_system">hybrid system</a>.
+Specifies whether the driver supports cross-adapter resources in a <a href="https://msdn.microsoft.com/ECBB0AA7-50C2-41C8-9DC6-6EEFC5CEEB15">hybrid system</a>.
 
 Supported starting with Windows 8.1.
 
@@ -144,24 +157,25 @@ Specifies whether the adapter supports the replication of GDI content.
 Supported starting with Windows 10.
 
 
+### -field NonCpuVisiblePrimary
+
+ 
+
+
+### -field ParavirtualizationSupported
+
+ 
+
+
 ### -field Reserved
 
 This member is reserved and should be set to zero.
 
-
-### -field Reserved
-
 This member is reserved and should be set to zero.
-
-
-### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (after setting <b>OutOfOrderLock</b>) of the <b>Value</b> member to zeros.
 
 Note that this version of the <b>Reserved</b> member is available only if DXGKDDI_INTERFACE_VERSION &lt; DXGKDDI_INTERFACE_VERSION_WIN7.
-
-
-### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (after setting <b>OutOfOrderLock</b>) of the <b>Value</b> member to zeros. 
 
@@ -180,15 +194,10 @@ Note that this version of the <b>Reserved</b> member is available only if DXGKDD
 The zero-based index of the node to use for paging operations. If the driver does not set the <b>MultiEngineAware</b> bit-field member of the <b>SchedulingCaps</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a> structure, the DirectX graphics kernel subsystem ignores the setting of <b>PagingNode</b>. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
-</dt>
-</dl>
+
  
 
  

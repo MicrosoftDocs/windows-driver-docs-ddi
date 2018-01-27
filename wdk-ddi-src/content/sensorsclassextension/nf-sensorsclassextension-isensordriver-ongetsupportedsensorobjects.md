@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: a8ea63cf-24ba-467b-9c27-ab8e38be1c04
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ISensorDriver, ISensorDriver::OnGetSupportedSensorObjects, OnGetSupportedSensorObjects
+ms.keywords: ISensorDriver::OnGetSupportedSensorObjects, ISensorDriver, OnGetSupportedSensorObjects method [Sensor Devices], OnGetSupportedSensorObjects, sensors.isensordriver_ongetsupportedsensorobjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OnGetSupportedSensorObjects
-req.alt-loc: SensorsClassExtension.lib,SensorsClassExtension.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	SensorsClassExtension.lib
+-	SensorsClassExtension.dll
+apiname: 
+-	OnGetSupportedSensorObjects
+product: Windows
+targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ISensorDriver::OnGetSupportedSensorObjects method
 
 
-
 ## -description
+
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545633">ISensorDriver::OnGetSupportedSensorObjects</a> method retrieves the list of sensors that the driver provides.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT OnGetSupportedSensorObjects(
@@ -55,13 +66,17 @@ HRESULT OnGetSupportedSensorObjects(
 
 ## -parameters
 
-### -param ppSensorObjectCollection 
+
+
+
+### -param ppSensorObjectCollection
 
 Address of an IPortableDeviceValuesCollection pointer that receives the list of sensors.
 
 
 ## -returns
+
+
 If the operation succeeds, this method returns S_OK. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
-## -remarks

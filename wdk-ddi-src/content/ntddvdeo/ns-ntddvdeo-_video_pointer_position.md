@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 07586be9-a8bc-4149-8037-7b649a75a818
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VIDEO_POINTER_POSITION, *PVIDEO_POINTER_POSITION, VIDEO_POINTER_POSITION
+ms.keywords: ntddvdeo/VIDEO_POINTER_POSITION, _VIDEO_POINTER_POSITION, PVIDEO_POINTER_POSITION, VIDEO_POINTER_POSITION structure [Display Devices], VIDEO_POINTER_POSITION, ntddvdeo/PVIDEO_POINTER_POSITION, PVIDEO_POINTER_POSITION structure pointer [Display Devices], Video_Structs_72aeeda6-58eb-419e-95d2-35c1b66adf36.xml, *PVIDEO_POINTER_POSITION, display.video_pointer_position
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VIDEO_POINTER_POSITION
-req.alt-loc: Ntddvdeo.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddvdeo.h
+apiname: 
+-	VIDEO_POINTER_POSITION
+product: Windows
+targetos: Windows
 req.typenames: *PVIDEO_POINTER_POSITION, VIDEO_POINTER_POSITION
 ---
 
 # _VIDEO_POINTER_POSITION structure
 
 
-
 ## -description
+
+
 The VIDEO_POINTER_POSITION structure contains the location of the screen pointer relative to the top left corner of the screen.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _VIDEO_POINTER_ATTRIBUTES {
@@ -55,6 +65,9 @@ typedef struct _VIDEO_POINTER_ATTRIBUTES {
 
 ## -struct-fields
 
+
+
+
 ### -field Column
 
 Specifies the column location of the pointer in pixels, starting from the top left corner of the screen.
@@ -64,5 +77,3 @@ Specifies the column location of the pointer in pixels, starting from the top le
 
 Specifies the row location of the pointer in pixels, starting from the top left corner of the screen.
 
-
-## -remarks

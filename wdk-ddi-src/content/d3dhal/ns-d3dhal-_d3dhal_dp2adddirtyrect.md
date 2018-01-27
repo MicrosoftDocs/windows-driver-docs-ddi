@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b3bddb3a-2a07-4ca8-8452-be20d983fe6f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2ADDDIRTYRECT, D3DHAL_DP2ADDDIRTYRECT, *LPD3DHAL_DP2ADDDIRTYRECT
+ms.keywords: d3dstrct_64c25041-cbd9-4073-a42a-e9fb304e0d65.xml, _D3DHAL_DP2ADDDIRTYRECT, D3DHAL_DP2ADDDIRTYRECT structure [Display Devices], d3dhal/D3DHAL_DP2ADDDIRTYRECT, LPD3DHAL_DP2ADDDIRTYRECT structure pointer [Display Devices], D3DHAL_DP2ADDDIRTYRECT, d3dhal/LPD3DHAL_DP2ADDDIRTYRECT, *LPD3DHAL_DP2ADDDIRTYRECT, display.d3dhal_dp2adddirtyrect, LPD3DHAL_DP2ADDDIRTYRECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DP2ADDDIRTYRECT
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DP2ADDDIRTYRECT
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DP2ADDDIRTYRECT
 ---
 
 # _D3DHAL_DP2ADDDIRTYRECT structure
 
 
-
 ## -description
+
+
 
    DirectX 8.1 and later versions only.
    
@@ -46,8 +56,8 @@ req.typenames: D3DHAL_DP2ADDDIRTYRECT
 D3DHAL_DP2ADDDIRTYRECT is used to specify that a portion of a 2D resource--a 2D texture or cube texture--was dirtied in system memory. Therefore, this 2D texture must be reloaded into video memory before being used. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DP2ADDDIRTYRECT {
@@ -58,6 +68,9 @@ typedef struct _D3DHAL_DP2ADDDIRTYRECT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwSurface
 
@@ -70,27 +83,24 @@ Specifies the 2D texture that was marked as dirtied. This is a <a href="https://
 
 
 ## -remarks
+
+
 D3DHAL_DP2ADDDIRTYRECT, along with the DP2OP_ADDDIRTYRECT token, is used only for driver managed resources and surfaces. D3DHAL_DP2ADDDIRTYRECT is never sent unless the driver indicates that it manages resources. To indicate that it manages resources, the driver must set the DDCAPS2_CANMANAGERESOURCE bit, in addition to the DDCAPS2_CANMANAGETEXTURE bit, in the <b>dwCaps2</b> member of a DDCORECAPS structure. The driver specifies this <a href="https://msdn.microsoft.com/library/windows/hardware/ff549248">DDCORECAPS</a> structure in the <b>ddCaps</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a> structure when the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a> function is called to initialize the DirectDraw component of the driver.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-</dt>
-<dt>
-<a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549248">DDCORECAPS</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549248">DDCORECAPS</a>
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a>
+
+<a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A23F5847-0DA9-4F3F-B1C1-DACCA35DBC53
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_MAPGPUVIRTUALADDRESS, D3DDDI_MAPGPUVIRTUALADDRESS
+ms.keywords: Write, Zero, D3DDDI_MAPGPUVIRTUALADDRESS structure [Display Devices], Execute, D3DDDI_MAPGPUVIRTUALADDRESS, d3dukmdt/D3DDDI_MAPGPUVIRTUALADDRESS, display.d3dddi_mapgpuvirtualaddress, NoAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_MAPGPUVIRTUALADDRESS
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_MAPGPUVIRTUALADDRESS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_MAPGPUVIRTUALADDRESS
 ---
 
 # D3DDDI_MAPGPUVIRTUALADDRESS structure
 
 
-
 ## -description
+
+
 <b>D3DDDI_MAPGPUVIRTUALADDRESS</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb.md">pfnMapGpuVirtualAddressCb</a> to map a graphics processing unit (GPU) virtual address ranges to a specific allocation range or to put it to the <i>Invalid</i> or <i>Zero</i> state.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3DDDI_MAPGPUVIRTUALADDRESS {
@@ -65,6 +75,9 @@ typedef struct D3DDDI_MAPGPUVIRTUALADDRESS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hPagingQueue
 
@@ -113,16 +126,15 @@ Specifies the size of the range to map in 4KB pages.
 
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddigpuvirtualaddress_protection_type.md">D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE</a> structure that specifies the protection on the GPU virtual address that is mapped.
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field Write
-
+<td width="40%"><a id="Write"></a><a id="write"></a><a id="WRITE"></a><dl>
+<dt><b>Write</b></dt>
+</dl>
 </td>
 <td width="60%">
 The pages will be allowed read-write access.
@@ -130,9 +142,9 @@ The pages will be allowed read-write access.
 </td>
 </tr>
 <tr>
-
-### -field Execute
-
+<td width="40%"><a id="Execute"></a><a id="execute"></a><a id="EXECUTE"></a><dl>
+<dt><b>Execute</b></dt>
+</dl>
 </td>
 <td width="60%">
 The pages will be allowed the execute access.
@@ -140,9 +152,9 @@ The pages will be allowed the execute access.
 </td>
 </tr>
 <tr>
-
-### -field NoAccess
-
+<td width="40%"><a id="NoAccess"></a><a id="noaccess"></a><a id="NOACCESS"></a><dl>
+<dt><b>NoAccess</b></dt>
+</dl>
 </td>
 <td width="60%">
 The pages will be put to the invalid state (<b>hAllocation</b> must be <b>NULL</b>).
@@ -150,9 +162,9 @@ The pages will be put to the invalid state (<b>hAllocation</b> must be <b>NULL</
 </td>
 </tr>
 <tr>
-
-### -field Zero
-
+<td width="40%"><a id="Zero"></a><a id="zero"></a><a id="ZERO"></a><dl>
+<dt><b>Zero</b></dt>
+</dl>
 </td>
 <td width="60%">
 The pages will be put to the Zero state (<b>hAllocation</b> must be <b>NULL</b>).In this state reads will return zero and writes will be discarded.
@@ -160,8 +172,7 @@ The pages will be put to the Zero state (<b>hAllocation</b> must be <b>NULL</b>)
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field DriverProtection
@@ -191,24 +202,16 @@ The user mode driver must ensure that this fence is retired or explicitly wait o
 A zero fence value might be returned, meaning that the operation is already completed.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddigpuvirtualaddress_protection_type.md">D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE</a>
-</dt>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb.md">pfnMapGpuVirtualAddressCb</a>
-</dt>
-<dt>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddigpuvirtualaddress_protection_type.md">D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE</a>
+
 <a href="https://msdn.microsoft.com/08328e82-d1cc-4c50-bc96-7382232676ab">DxgkDdiUpdatePageTable</a>
-</dt>
-</dl>
+
  
 
  

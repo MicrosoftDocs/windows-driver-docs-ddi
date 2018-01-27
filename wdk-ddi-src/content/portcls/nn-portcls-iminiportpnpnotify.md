@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 634ADB7C-85B6-4C37-81A0-4A4891D0BBC4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcUnregisterIoTimeout
+ms.keywords: audio.iminiportpnpnotify, IMiniportPnpNotify interface [Audio Devices], IMiniportPnpNotify interface [Audio Devices], described, IMiniportPnpNotify, portcls/IMiniportPnpNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportPnpNotify
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IMiniportPnpNotify
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportPnpNotify interface
 
 
-
 ## -description
+
+
 IMiniportPnpNotify is an optional interface to allow miniport objects (audio subdevices)  to receive PnP state change notifications.
 
 
@@ -49,13 +59,6 @@ Miniports have an opportunity to receive a PnP Stop notification for each audio 
 
 IAdapterPnpManagement is available in Windows 10, version 1511 and later versions of Windows. 
 
-For more information, see <a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430A-BCAF-04E13FA15382">
-Implement PnP Rebalance for PortCls Audio Drivers</a>.
+For more information, see <mshelp:link keywords="audio.implement_pnp_rebalance_for_portcls_audio_drivers" tabindex="0">
+Implement PnP Rebalance for PortCls Audio Drivers</mshelp:link>.
 
-
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMiniportPnpNotify</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface but does not have additional members.
-
-
-## -remarks

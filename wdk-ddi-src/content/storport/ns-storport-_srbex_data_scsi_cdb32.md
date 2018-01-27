@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8BE53883-2FD0-4CAB-928E-532587DA80C3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SRBEX_DATA_SCSI_CDB32, SRBEX_DATA_SCSI_CDB32, *PSRBEX_DATA_SCSI_CDB32
+ms.keywords: SRBEX_DATA_SCSI_CDB32 structure [Storage Devices], storport/PSRBEX_DATA_SCSI_CDB32, SRBEX_DATA_SCSI_CDB32, storage.srbex_data_scsi_cdb32, *PSRBEX_DATA_SCSI_CDB32, _SRBEX_DATA_SCSI_CDB32, PSRBEX_DATA_SCSI_CDB32, PSRBEX_DATA_SCSI_CDB32 structure pointer [Storage Devices], storport/SRBEX_DATA_SCSI_CDB32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SRBEX_DATA_SCSI_CDB32
-req.alt-loc: Storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: SRBEX_DATA_SCSI_CDB32, *PSRBEX_DATA_SCSI_CDB32
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Storport.h
+apiname: 
+-	SRBEX_DATA_SCSI_CDB32
+product: Windows
+targetos: Windows
+req.typenames: *PSRBEX_DATA_SCSI_CDB32, SRBEX_DATA_SCSI_CDB32
 req.product: Windows 10 or later.
 ---
 
 # _SRBEX_DATA_SCSI_CDB32 structure
 
 
-
 ## -description
+
+
 The <b>SRBEX_DATA_SCSI_CDB32</b> structure contains the extended SRB data for a 32-byte SCSI command data block (CDB).
-
-
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 typedef struct _SRBEX_DATA_SCSI_CDB32 {
@@ -62,6 +72,9 @@ typedef struct _SRBEX_DATA_SCSI_CDB32 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Type
 
@@ -109,18 +122,18 @@ The 32-byte CDB buffer.
 
 
 ## -remarks
+
+
 This structure is used to submit an extended SRB data for a CDB of 32 bytes or less.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\srb\ns-srb-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a>
-</dt>
-<dt>
-<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
-</dt>
-</dl>
+
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
+<a href="..\storport\ns-storport-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a>
+
  
 
  

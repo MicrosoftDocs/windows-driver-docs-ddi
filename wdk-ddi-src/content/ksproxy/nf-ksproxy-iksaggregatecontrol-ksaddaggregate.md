@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9808bdb9-17f9-4a80-90c7-e85ab35b74ae
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsAggregateControl, IKsAggregateControl::KsAddAggregate, KsAddAggregate
+ms.keywords: KsAddAggregate method [Streaming Media Devices], KsAddAggregate method [Streaming Media Devices], IKsAggregateControl interface, ksproxy_1c56f07f-a830-4c2b-80ae-a18f14588bd3.xml, IKsAggregateControl::KsAddAggregate, KsAddAggregate, IKsAggregateControl interface [Streaming Media Devices], KsAddAggregate method, IKsAggregateControl, ksproxy/IKsAggregateControl::KsAddAggregate, stream.iksaggregatecontrol_ksaddaggregate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsAggregateControl.KsAddAggregate
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ksproxy.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsAggregateControl.KsAddAggregate
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsAggregateControl::KsAddAggregate method
 
 
-
 ## -description
+
+
 The <b>KsAddAggregate</b> method adds a COM server as an aggregate provider to the list of interface providers for the KS object that exposes the <a href="..\ksproxy\nn-ksproxy-iksaggregatecontrol.md">IKsAggregateControl</a> interface.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT KsAddAggregate(
@@ -54,27 +64,27 @@ HRESULT KsAddAggregate(
 
 ## -parameters
 
+
+
+
 ### -param AggregateClass [in]
 
 Identifies the COM server to add.
 
 
 ## -returns
+
+
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559717">IKsAggregateControl::KsRemoveAggregate</a>
-</dt>
-<dt>
+
 <a href="..\ksproxy\nn-ksproxy-iksaggregatecontrol.md">IKsAggregateControl</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559717">IKsAggregateControl::KsRemoveAggregate</a>
+
  
 
  

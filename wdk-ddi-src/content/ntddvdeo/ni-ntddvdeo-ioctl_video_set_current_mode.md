@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7dd77e55-01d7-4e10-8134-813fe0c1fc6c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS, TAPE_WRITE_MARKS
+ms.keywords: display.ioctl_video_set_current_mode, IOCTL_VIDEO_SET_CURRENT_MODE control code [Display Devices], IOCTL_VIDEO_SET_CURRENT_MODE, ntddvdeo/IOCTL_VIDEO_SET_CURRENT_MODE, Video_IOCTLs_df8e3e45-0a72-427b-b47f-49bc936d53a5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_VIDEO_SET_CURRENT_MODE
-req.alt-loc: Ntddvdeo.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,63 +29,89 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PTAPE_WRITE_MARKS, TAPE_WRITE_MARKS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddvdeo.h
+apiname: 
+-	IOCTL_VIDEO_SET_CURRENT_MODE
+product: Windows
+targetos: Windows
+req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ---
 
 # IOCTL_VIDEO_SET_CURRENT_MODE IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 Sets the adapter to the specified operating mode. Miniport drivers are required to support this nonmodal request because it resets the current mode. The miniport driver must also consider the two high order flags which are used to additionally control the mode set operation. See <a href="..\ntddvdeo\ns-ntddvdeo-_video_mode.md">VIDEO_MODE</a> for further information.
 
-
-
-Sets the adapter to the specified operating mode. Miniport drivers are required to support this nonmodal request because it resets the current mode. The miniport driver must also consider the two high order flags which are used to additionally control the mode set operation. See <a href="..\ntddvdeo\ns-ntddvdeo-_video_mode.md">VIDEO_MODE</a> for further information.
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 The VRP <b>InputBuffer</b> contains a <a href="..\ntddvdeo\ns-ntddvdeo-_video_mode.md">VIDEO_MODE</a> structure specifying the mode to be set.
 
 
 ### -input-buffer-length
 
+
 <text></text>
 
+
+
 ### -output-buffer
+
 None
 
 
 ### -output-buffer-length
 
+
 <text></text>
+
+
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The miniport driver does not set the <b>Information</b> member of the <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> structure.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_mode.md">VIDEO_MODE</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aa7cee9a-5051-4ebc-be7c-ac9ac91ba631
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_CHECKMONITORPOWERSTATE, D3DKMT_CHECKMONITORPOWERSTATE
+ms.keywords: d3dkmthk/D3DKMT_CHECKMONITORPOWERSTATE, D3DKMT_CHECKMONITORPOWERSTATE structure [Display Devices], _D3DKMT_CHECKMONITORPOWERSTATE, display.d3dkmt_checkmonitorpowerstate, D3DKMT_CHECKMONITORPOWERSTATE, OpenGL_Structs_2c4ec2cb-c35a-4447-8e35-dc8e4964e8b2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_CHECKMONITORPOWERSTATE
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_CHECKMONITORPOWERSTATE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_CHECKMONITORPOWERSTATE
 ---
 
 # _D3DKMT_CHECKMONITORPOWERSTATE structure
 
 
-
 ## -description
+
+
 The D3DKMT_CHECKMONITORPOWERSTATE structure describes the connection to the monitor for which to check the power state. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_CHECKMONITORPOWERSTATE {
@@ -55,6 +65,9 @@ typedef struct _D3DKMT_CHECKMONITORPOWERSTATE {
 
 ## -struct-fields
 
+
+
+
 ### -field hAdapter
 
 [in] A handle to the graphics adapter.
@@ -65,15 +78,10 @@ typedef struct _D3DKMT_CHECKMONITORPOWERSTATE {
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the monitor is connected to.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcheckmonitorpowerstate.md">D3DKMTCheckMonitorPowerState</a>
-</dt>
-</dl>
+
  
 
  

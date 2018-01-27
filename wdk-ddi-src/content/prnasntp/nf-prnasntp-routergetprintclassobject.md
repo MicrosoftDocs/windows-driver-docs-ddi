@@ -7,8 +7,8 @@ old-location: print\routergetprintclassobject.htm
 old-project: print
 ms.assetid: e2df591d-59bd-4aae-ac1b-8fdf01da3ea7
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: RouterGetPrintClassObject
+ms.date: 1/18/2018
+ms.keywords: prnasntp/RouterGetPrintClassObject, RouterGetPrintClassObject function [Print Devices], spoolfnc_ffe877d1-cb3e-49f5-a5b5-5da7c5cb9148.xml, print.routergetprintclassobject, RouterGetPrintClassObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RouterGetPrintClassObject
-req.alt-loc: Spoolss.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
-req.typenames: *PUSERDATA, USERDATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Spoolss.dll
+apiname: 
+-	RouterGetPrintClassObject
+product: Windows
+targetos: Windows
+req.typenames: USERDATA, *PUSERDATA
 req.product: Windows 10 or later.
 ---
 
 # RouterGetPrintClassObject function
 
 
-
 ## -description
+
+
 The <code>RouterGetPrintClassObject</code> function enumerates the list of print providers, searching for the print provider with the specified name and interface ID. 
 
 
-
 ## -syntax
+
 
 ````
 HRESULT RouterGetPrintClassObject(
@@ -56,6 +66,9 @@ HRESULT RouterGetPrintClassObject(
 
 
 ## -parameters
+
+
+
 
 ### -param pPrinter [in]
 
@@ -73,7 +86,8 @@ A pointer to a variable that supplies the address of the COM interface requested
 
 
 ## -returns
+
+
 This function returns S_OK on success, and a standard COM error code otherwise.
 
 
-## -remarks

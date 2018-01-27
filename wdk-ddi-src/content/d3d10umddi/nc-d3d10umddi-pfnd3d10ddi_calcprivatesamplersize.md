@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7231ba65-f6ed-4b00-a61f-21d8fe26398f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.calcprivatesamplersize, CalcPrivateSamplerSize callback function [Display Devices], CalcPrivateSamplerSize, PFND3D10DDI_CALCPRIVATESAMPLERSIZE, PFND3D10DDI_CALCPRIVATESAMPLERSIZE, d3d10umddi/CalcPrivateSamplerSize, UserModeDisplayDriverDx10_Functions_66c06423-c710-4b1f-8084-d42c79066909.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CalcPrivateSamplerSize
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	CalcPrivateSamplerSize
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D10DDI_CALCPRIVATESAMPLERSIZE callback
 
 
-
 ## -description
+
+
 The <b>CalcPrivateSamplerSize</b> function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a sampler.
 
 
-
 ## -prototype
+
 
 ````
 PFND3D10DDI_CALCPRIVATESAMPLERSIZE CalcPrivateSamplerSize;
@@ -58,32 +68,43 @@ SIZE_T APIENTRY CalcPrivateSamplerSize(
 
 ## -parameters
 
-### -param hDevice [in]
+
+
+
+### -param D3D10DDI_HDEVICE
+
+
+
+### -param *
+
+
+
+
+
+
+#### - hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param pSamplerDesc [in]
+#### - pSamplerDesc [in]
 
  A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_sampler_desc.md">D3D10_DDI_SAMPLER_DESC</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region. 
 
 
 ## -returns
+
+
 <b>CalcPrivateSamplerSize</b> returns the size of the memory region that the driver requires for creating a sampler.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_sampler_desc.md">D3D10_DDI_SAMPLER_DESC</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_sampler_desc.md">D3D10_DDI_SAMPLER_DESC</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d94234ab-712b-4449-96de-16b9e310d250
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.discard_d3d11_1_, Discard(D3D11_1) callback function [Display Devices], Discard(D3D11_1), PFND3D11_1DDI_DISCARD, PFND3D11_1DDI_DISCARD, d3d10umddi/Discard(D3D11_1), display.pfndiscard
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: Discard(D3D11_1)
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	Discard(D3D11_1)
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_DISCARD callback
 
 
-
 ## -description
+
+
 Discards (evicts) an allocation from video display memory. Implemented by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11_1DDI_DISCARD Discard(D3D11_1);
@@ -61,48 +71,75 @@ VOID APIENTRY* Discard(D3D11_1)(
 
 ## -parameters
 
-### -param hDevice 
-
-A handle to the display device (graphics context).
 
 
-### -param HandleType 
+
+### -param D3D10DDI_HDEVICE
+
+
+
+### -param HandleType
 
 A value, of type <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>, that identifies the context handle type.
 
 
-### -param hResourceOrView 
-
-A pointer to a handle to the resource or to the view that is to be discarded.
+### -param *hResourceOrView
 
 
-### -param pRects [in, optional]
 
-An optional array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures for the rectangles in the resource view to discard. If <b>NULL</b>, the <i>Discard(D3D11_1)</i> function discards the entire surface.
+### -param *
 
 
-### -param NumRects 
+
+### -param NumRects
 
 The number of rectangles in the array that the  <i>pRects</i> parameter specifies.
 
 
+#### - pRects [in, optional]
+
+An optional array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures for the rectangles in the resource view to discard. If <b>NULL</b>, the <i>Discard(D3D11_1)</i> function discards the entire surface.
+
+
+#### - hResourceOrView
+
+A pointer to a handle to the resource or to the view that is to be discarded.
+
+
+#### - hDevice
+
+A handle to the display device (graphics context).
+
+
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 The D3D10_DDI_RECT structure is defined as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef RECT D3D10_DDI_RECT;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_devicefuncs.md">D3D11_1DDI_DEVICEFUNCS</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>
-</dt>
-</dl>
+
  
 
  

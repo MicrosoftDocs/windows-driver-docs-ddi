@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1EAFEFAD-A8FC-4A79-9332-75B143EEEB18
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_HUB_TYPE, USB_HUB_TYPE
+ms.keywords: buses.ioctl_internal_usb_usbdevice_remote_wake_notification, IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION control code [Buses], IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION, usbioctl/IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION
-req.alt-loc: Usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Usbioctl.h
+apiname: 
+-	IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION
+product: Windows
+targetos: Windows
 req.typenames: USB_HUB_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,55 +47,68 @@ req.product: Windows 10 or later.
 # IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 The <b>IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION</b> 
    I/O request is sent by the driver of a Universal Serial Bus (USB) multi-function device (composite driver) to request remote wake-up notifications from a specific function in the device.
 
 <b>IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION</b> is a kernel-mode I/O control request. This request targets the USB hub physical device object (PDO). 
 
 
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 <b>Parameters.Others.Argument1</b> points to a caller-allocated and initialized <a href="..\usbdlib\ns-usbdlib-_request_remote_wake_notification.md">REQUEST_REMOTE_WAKE_NOTIFICATION</a> structure that contains information about the function whose resume signal the driver is interested in. That information includes  the function handle and the interface with which the function is associated.
 
 
 ### -input-buffer-length
+
 The size of a <a href="..\usbdlib\ns-usbdlib-_request_remote_wake_notification.md">REQUEST_REMOTE_WAKE_NOTIFICATION</a> structure.
 
 
 ### -output-buffer
+
 None. 
 
 
 ### -output-buffer-length
+
 None. 
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The hub or port driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS or the appropriate error status.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/91F96D30-CD18-4DDC-BA5A-7BFFA8FBED9B">How to Implement Function Suspend in a Composite Driver</a>
-</dt>
-</dl>
+
  
 
  

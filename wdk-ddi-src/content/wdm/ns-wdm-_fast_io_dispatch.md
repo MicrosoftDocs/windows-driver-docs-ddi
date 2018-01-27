@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9F422CE9-8ADC-4709-8FE5-5A3501B47AC2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FAST_IO_DISPATCH, *PFAST_IO_DISPATCH, FAST_IO_DISPATCH
+ms.keywords: PFAST_IO_DISPATCH, ifsk.fast_io_dispatch, FAST_IO_DISPATCH, FAST_IO_DISPATCH structure [Installable File System Drivers], PFAST_IO_DISPATCH structure pointer [Installable File System Drivers], wdm/FAST_IO_DISPATCH, wdm/PFAST_IO_DISPATCH, _FAST_IO_DISPATCH, *PFAST_IO_DISPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FAST_IO_DISPATCH
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	FAST_IO_DISPATCH
+product: Windows
+targetos: Windows
 req.typenames: *PFAST_IO_DISPATCH, FAST_IO_DISPATCH
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _FAST_IO_DISPATCH structure
 
 
-
 ## -description
+
+
 Contains a set of callback routines that a file system driver or file system filter driver (legacy) provides for fast I/O processing.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FAST_IO_DISPATCH {
@@ -81,6 +91,9 @@ typedef struct _FAST_IO_DISPATCH {
 
 
 ## -struct-fields
+
+
+
 
 ### -field SizeOfFastIoDispatch
 
@@ -228,5 +241,3 @@ A pointer to a callback routine that acquires a file system resource prior to a 
 
 A pointer to a callback routine that releases a file system resource previously acquired for a cache flush.
 
-
-## -remarks

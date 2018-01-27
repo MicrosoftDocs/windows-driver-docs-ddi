@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ba54320e-42b3-489c-a192-dce794c3b3d4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcUnregisterIoTimeout
+ms.keywords: audio.iportwavert, IPortWaveRT interface [Audio Devices], IPortWaveRT interface [Audio Devices], described, IPortWaveRT, portcls/IPortWaveRT, audmp-routines_0c88b444-3414-49e0-a021-2bc4cd6f1fff.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPortWaveRT
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IPortWaveRT
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPortWaveRT interface
 
 
-
 ## -description
+
+
 The <code>IPortWaveRT</code> interface is supported in Windows Vista and later operating systems and it is the main interface that the WaveRT port driver exposes to the adapter driver that implements the WaveRT miniport driver object.
 
  To create an <code>IPortWaveRT</code> object, the adapter driver calls <a href="..\portcls\nf-portcls-pcnewport.md">PcNewPort</a> and specifies <b>IID_IPortWaveRT</b> as the REFIID. The GUID constant <b>IID_IPortWaveRT</b> is defined in header file Portcls.h.
@@ -49,10 +59,3 @@ An adapter driver forms a port-miniport driver pair by binding an <code>IPortWav
 
 The <a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a> interface is supported in Windows Vista and later operating systems, and it is a stream-specific interface that provides helper methods for use by the WaveRT miniport driver.
 
-
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortWaveRT</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface but does not have additional members.
-
-
-## -remarks

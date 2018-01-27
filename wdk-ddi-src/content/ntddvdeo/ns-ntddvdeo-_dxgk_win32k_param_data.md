@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a6bb2127-64f7-402d-906e-199d5ec1b313
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_WIN32K_PARAM_DATA, DXGK_WIN32K_PARAM_DATA, *PDXGK_WIN32K_PARAM_DATA
+ms.keywords: ntddvdeo/PDXGK_WIN32K_PARAM_DATA, _DXGK_WIN32K_PARAM_DATA, *PDXGK_WIN32K_PARAM_DATA, DXGK_WIN32K_PARAM_DATA structure [Display Devices], DXGK_WIN32K_PARAM_DATA, PDXGK_WIN32K_PARAM_DATA, ntddvdeo/DXGK_WIN32K_PARAM_DATA, Video_Structs_40ff171a-ad28-44ae-bcad-bf93aba4ad6e.xml, display.dxgk_win32k_param_data, PDXGK_WIN32K_PARAM_DATA structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_WIN32K_PARAM_DATA
-req.alt-loc: ntddvdeo.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DXGK_WIN32K_PARAM_DATA, *PDXGK_WIN32K_PARAM_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddvdeo.h
+apiname: 
+-	DXGK_WIN32K_PARAM_DATA
+product: Windows
+targetos: Windows
+req.typenames: *PDXGK_WIN32K_PARAM_DATA, DXGK_WIN32K_PARAM_DATA
 ---
 
 # _DXGK_WIN32K_PARAM_DATA structure
 
 
-
 ## -description
+
+
 The DXGK_WIN32K_PARAM_DATA structure is reserved for system use.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_WIN32K_PARAM_DATA {
@@ -57,6 +67,9 @@ typedef struct _DXGK_WIN32K_PARAM_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PathsArray
 
@@ -82,5 +95,3 @@ Reserved for system use.
 
 Reserved for system use.
 
-
-## -remarks

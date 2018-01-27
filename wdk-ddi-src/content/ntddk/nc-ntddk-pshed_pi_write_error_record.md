@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 4800a0f9-29ee-4631-aee8-5a4924a08f55
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA
+ms.keywords: whea.writeerrorrecord, WriteErrorRecord callback function [WHEA Drivers and Applications], WriteErrorRecord, PSHED_PI_WRITE_ERROR_RECORD, PSHED_PI_WRITE_ERROR_RECORD, ntddk/WriteErrorRecord, whearef_3a405d7d-3427-4c22-919e-7cbab5ea4f19.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WriteErrorRecord
-req.alt-loc: Ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= HIGH_LEVEL (See Remarks section)
-req.typenames: *PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Ntddk.h
+apiname: 
+-	WriteErrorRecord
+product: Windows
+targetos: Windows
+req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 ---
 
 # PSHED_PI_WRITE_ERROR_RECORD callback
 
 
-
 ## -description
+
+
 A PSHED plug-in's <i>WriteErrorRecord </i>callback function writes an error record to the system's persistent data storage.
 
 
-
 ## -prototype
+
 
 ````
 PSHED_PI_WRITE_ERROR_RECORD WriteErrorRecord;
@@ -60,6 +70,9 @@ NTSTATUS WriteErrorRecord(
 
 ## -parameters
 
+
+
+
 ### -param PluginContext [in, out, optional]
 
 A pointer to the context area that was specified in the <b>Context</b> member of the <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure when the PSHED plug-in called the <a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a> function to register itself with the PSHED.
@@ -72,13 +85,6 @@ A bit-wise OR'ed combination of flags that affect the write operation. A possibl
 
 
 
-### -param WHEA_WRITE_FLAG_DUMMY
-
-The write operation is a dummy write operation. No data is to be written to the system's persistent data storage.
-
-</dd>
-</dl>
-
 ### -param RecordLength [in]
 
 The size, in bytes, of the error record pointed to by the <i>ErrorRecord</i> parameter.
@@ -89,19 +95,49 @@ The size, in bytes, of the error record pointed to by the <i>ErrorRecord</i> par
 A pointer to a <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a> structure that describes the error record that is being written to the system's persistent data storage.
 
 
+##### - Flags.WHEA_WRITE_FLAG_DUMMY
+
+The write operation is a dummy write operation. No data is to be written to the system's persistent data storage.
+
+
 ## -returns
+
+
 A PSHED plug-in's <i>WriteErrorRecord</i> callback function returns one of the following NTSTATUS codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The error record was successfully written to the system's persistent data storage.
+</dl>
+</td>
+<td width="60%">
+The error record was successfully written to the system's persistent data storage.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>An error occurred.
+</dl>
+</td>
+<td width="60%">
+An error occurred.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A PSHED plug-in that participates in error record persistence sets the <b>Callbacks.WriteErrorRecord</b>, <b>Callbacks.ReadErrorRecord </b>and <b>Callbacks.ClearErrorRecord </b>members of the <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure to point to its <i>WriteErrorRecord</i>, <a href="..\ntddk\nc-ntddk-pshed_pi_read_error_record.md">ReadErrorRecord</a>, and <a href="..\ntddk\nc-ntddk-pshed_pi_clear_error_record.md">ClearErrorRecord</a> callback functions when the plug-in calls the <a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a> function to register itself with the PSHED. The PSHED plug-in must also set the <b>PshedFAErrorRecordPersistence</b> flag in the <b>FunctionalAreaMask</b> member of the WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure.
 
 The Windows kernel calls into the PSHED to write an error record to the system's persistent data storage whenever a fatal or otherwise unrecoverable error condition exists so that the error record is preserved while the system is restarted. If a PSHED plug-in is registered to participate in error record persistence, the PSHED calls the PSHED plug-in's <i>WriteErrorRecord</i> callback function to perform the write operation. The mechanism that is used to write the error record to the system's persistent data storage is platform-specific.
@@ -109,24 +145,19 @@ The Windows kernel calls into the PSHED to write an error record to the system's
 The PSHED calls a PSHED plug-in's <i>WriteErrorRecord</i> callback function at IRQL &lt;= HIGH_LEVEL. The exact IRQL at which this callback function is called depends on the specific type of hardware error that occurred.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
-</dt>
-<dt>
-<a href="..\ntddk\nc-ntddk-pshed_pi_clear_error_record.md">ClearErrorRecord</a>
-</dt>
-<dt>
-<a href="..\ntddk\nc-ntddk-pshed_pi_read_error_record.md">ReadErrorRecord</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
-</dt>
-<dt>
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_clear_error_record.md">ClearErrorRecord</a>
+
 <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_read_error_record.md">ReadErrorRecord</a>
+
+<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 828c4c42-a74f-4737-b850-5c8299e5afd6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVAHDDDI_CUSTOM_RATE_DATA, DXVAHDDDI_CUSTOM_RATE_DATA
+ms.keywords: display.dxvahdddi_custom_rate_data, _DXVAHDDDI_CUSTOM_RATE_DATA, DXVAHDDDI_CUSTOM_RATE_DATA, DXVA2_Structs_98dcb947-954a-4e8d-adea-3451814e89f9.xml, d3dumddi/DXVAHDDDI_CUSTOM_RATE_DATA, DXVAHDDDI_CUSTOM_RATE_DATA structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: DXVAHDDDI_CUSTOM_RATE_DATA is supported beginning wit
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVAHDDDI_CUSTOM_RATE_DATA
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVAHDDDI_CUSTOM_RATE_DATA
+product: Windows
+targetos: Windows
 req.typenames: DXVAHDDDI_CUSTOM_RATE_DATA
 ---
 
 # _DXVAHDDDI_CUSTOM_RATE_DATA structure
 
 
-
 ## -description
+
+
 The DXVAHDDDI_CUSTOM_RATE_DATA structure describes the video content that a decode device processes. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVAHDDDI_CUSTOM_RATE_DATA {
@@ -56,6 +66,9 @@ typedef struct _DXVAHDDDI_CUSTOM_RATE_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field CustomRate
 
@@ -80,33 +93,18 @@ typedef struct _DXVAHDDDI_CUSTOM_RATE_DATA {
 
 
 ## -remarks
+
+
 The driver can expose custom rates for the frame rate conversion or the inverse telecine. For example, the driver can provide the following information in the members of DXVAHDDDI_CUSTOM_RATE_DATA for the indicated operation:
 
 
 
-<b>CustomRate</b> = 2/1
-
-<b>OutputFrames</b> = 2
-
-<b>InputInterlaced</b> = <b>FALSE</b>
-
-<b>InputFramesOrFields</b> = 1
-
-<b>CustomRate</b> = 4/5
-
-<b>OutputFrames</b> = 4
-
-<b>InputInterlaced</b> = <b>TRUE</b>
-
-<b>InputFramesOrFields</b> = 10
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_rational.md">DXVAHDDDI_RATIONAL</a>
-</dt>
-</dl>
+
  
 
  

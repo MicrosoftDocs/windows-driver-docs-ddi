@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6bdc1c25-bac3-416e-af3d-66a125f0f036
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _IO_SESSION_EVENT, *PIO_SESSION_EVENT, IO_SESSION_EVENT
+ms.keywords: IoSessionEventDisconnected, PIO_SESSION_EVENT enumeration pointer [Kernel-Mode Driver Architecture], IoSessionEventLogon, kernel.io_session_event, _IO_SESSION_EVENT, PIO_SESSION_EVENT, IoSessionEventTerminated, sysenum_8fc6c99f-15c8-4dbb-90fd-b207d66c2f90.xml, IoSessionEventConnected, wdm/IoSessionEventLogon, wdm/IoSessionEventDisconnected, wdm/IoSessionEventMax, wdm/IoSessionEventCreated, wdm/PIO_SESSION_EVENT, IO_SESSION_EVENT, IoSessionEventLogoff, IoSessionEventMax, wdm/IoSessionEventTerminated, wdm/IoSessionEventLogoff, *PIO_SESSION_EVENT, IO_SESSION_EVENT enumeration [Kernel-Mode Driver Architecture], wdm/IO_SESSION_EVENT, IoSessionEventCreated, wdm/IoSessionEventConnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IO_SESSION_EVENT
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	IO_SESSION_EVENT
+product: Windows
+targetos: Windows
 req.typenames: *PIO_SESSION_EVENT, IO_SESSION_EVENT
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _IO_SESSION_EVENT enumeration
 
 
-
 ## -description
+
+
 The <b>IO_SESSION_EVENT</b> enumeration indicates the type of session event for which a driver is receiving notification.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _IO_SESSION_EVENT { 
@@ -60,6 +70,13 @@ typedef enum _IO_SESSION_EVENT {
 
 
 ## -enum-fields
+
+
+
+
+### -field IoSessionEventIgnore
+
+
 
 ### -field IoSessionEventCreated
 
@@ -97,20 +114,20 @@ Specifies the maximum value in this enumeration type.
 
 
 ## -remarks
+
+
 When the I/O manager calls the driver's <a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a> function, it sets the <i>Event</i> parameter of this function to an <b>IO_SESSION_EVENT</b> enumeration constant (other than <b>IoSessionEventMax</b>).
 
 A session event causes a transition from one session state to another. For more information about session state transitions, see <a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a>
+
  
 
  

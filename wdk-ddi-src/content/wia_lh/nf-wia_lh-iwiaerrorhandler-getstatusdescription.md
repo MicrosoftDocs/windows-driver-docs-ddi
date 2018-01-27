@@ -7,8 +7,8 @@ old-location: image\iwiaerrorhandler_getstatusdescription.htm
 old-project: image
 ms.assetid: c3b5622d-9d51-4008-abb0-c8a60c4a6b16
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: IWiaErrorHandler, IWiaErrorHandler::GetStatusDescription, GetStatusDescription
+ms.date: 1/18/2018
+ms.keywords: IWiaErrorHandler, GetStatusDescription, IWiaErrorHandler interface [Imaging Devices], GetStatusDescription method, GetStatusDescription method [Imaging Devices], IWiaErrorHandler interface, IWiaErrorHandler::GetStatusDescription, GetStatusDescription method [Imaging Devices], image.iwiaerrorhandler_getstatusdescription, wia_lh/IWiaErrorHandler::GetStatusDescription, IWiaErrorHandler_4bd0cba6-d729-4942-b56a-588af88ef913.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IWiaErrorHandler.GetStatusDescription
-req.alt-loc: wia_lh.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wia_lh.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	wia_lh.h
+apiname: 
+-	IWiaErrorHandler.GetStatusDescription
+product: Windows
+targetos: Windows
 req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IWiaErrorHandler::GetStatusDescription method
 
 
-
 ## -description
+
+
  The system UI calls the <b>GetStatusDescription</b> method to provide the user with extra information about an error, if the user requests this information. This method is implemented by a driver's UI extension.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT GetStatusDescription(
@@ -57,6 +67,9 @@ HRESULT GetStatusDescription(
 
 
 ## -parameters
+
+
+
 
 ### -param lFlags [in]
 
@@ -79,35 +92,58 @@ Pointer to a BSTR that receives a description of the status or error encountered
 
 
 ## -returns
+
+
 Returns a standard COM error code if an error occurs, or one of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The<i> pbstrDescription</i> parameter contains a valid BSTR pointer.
+</dl>
+</td>
+<td width="60%">
+The<i> pbstrDescription</i> parameter contains a valid BSTR pointer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>WIA_STATUS_NOT_HANDLED</b></dt>
-</dl>The value in the <i>hrStatus</i> parameter is unknown to the extension and no description is available.
+</dl>
+</td>
+<td width="60%">
+The value in the <i>hrStatus</i> parameter is unknown to the extension and no description is available.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 In order for an application to call <b>IWiaErrorHandler::GetStatusDescription</b>, the application must call <b>IWiaItem2::GetExtension</b> first to receive an interface pointer to the error handling extension. An application must pass "ErrorHandler" as bstrName and IID_IWiaErrorHandler as riidExtensionInterface. An application should pass 0 as lFlags to ensure upward compatibility.
 
 The implementation of <b>IWiaErrorHandler::GetStatusDescription</b> should return S_OK for all the device status codes (<i>hrStatus</i>) that the implementation of <b>IWiaErrorHandler::ReportStatus </b>handles, and WIA_STATUS_NOT_HANDLED for those that <b>IWiaErrorHandler::ReportStatus </b>does not handle.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wia_lh\nn-wia_lh-iwiaerrorhandler.md">IWiaErrorHandler</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543909">IWiaErrorHandler::ReportStatus</a>
-</dt>
-</dl>
- 
+
+<a href="..\wia_lh\nn-wia_lh-iwiaerrorhandler.md">IWiaErrorHandler</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaErrorHandler::GetStatusDescription method%20 RELEASE:%20(1/17/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaErrorHandler::GetStatusDescription method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

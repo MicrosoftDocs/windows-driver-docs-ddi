@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6FE2962A-90A3-44C6-9A2E-CCEBCE8C1417
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBDEVICE_STARTIO, USBDEVICE_STARTIO, *PUSBDEVICE_STARTIO
+ms.keywords: ucxusbdevice/_USBDEVICE_STARTIO, P_USBDEVICE_STARTIO structure pointer [Buses], _USBDEVICE_STARTIO, ucxusbdevice/P_USBDEVICE_STARTIO, *PUSBDEVICE_STARTIO, USBDEVICE_STARTIO structure [Buses], P_USBDEVICE_STARTIO, buses._usbdevice_startio, USBDEVICE_STARTIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBDEVICE_STARTIO
-req.alt-loc: ucxusbdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ucxusbdevice.h
+apiname: 
+-	USBDEVICE_STARTIO
+product: Windows
+targetos: Windows
 req.typenames: USBDEVICE_STARTIO, *PUSBDEVICE_STARTIO
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USBDEVICE_STARTIO structure
 
 
-
 ## -description
+
+
 Contains a handle for the Universal Serial Bus (USB) hub or device on which to start data transfer. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBDEVICE_STARTIO {
@@ -59,23 +69,20 @@ typedef struct _USBDEVICE_STARTIO {
 
 ## -struct-fields
 
+
+
+
 ### -field Header
 
 A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_abortio.md">USBDEVICE_ABORTIO</a>
-</dt>
-<dt>
+
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_purgeio.md">USBDEVICE_PURGEIO</a>
-</dt>
-</dl>
+
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_abortio.md">USBDEVICE_ABORTIO</a>
+
  
 
  

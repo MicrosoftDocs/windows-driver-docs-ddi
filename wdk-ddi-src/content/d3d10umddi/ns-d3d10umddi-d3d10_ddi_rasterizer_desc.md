@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d4247ec7-1995-45cf-83e3-958acbfd7915
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_DDI_RASTERIZER_DESC, D3D10_DDI_RASTERIZER_DESC
+ms.keywords: D3D10_DDI_RASTERIZER_DESC, D3D10_DDI_RASTERIZER_DESC structure [Display Devices], d3d10umddi/D3D10_DDI_RASTERIZER_DESC, UMDisplayDriver_Dx10param_Structs_bf0538cd-a9de-44f6-a028-d147b77324fc.xml, display.d3d10_ddi_rasterizer_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10_DDI_RASTERIZER_DESC
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10_DDI_RASTERIZER_DESC
+product: Windows
+targetos: Windows
 req.typenames: D3D10_DDI_RASTERIZER_DESC
 ---
 
 # D3D10_DDI_RASTERIZER_DESC structure
 
 
-
 ## -description
+
+
 The D3D10_DDI_RASTERIZER_DESC structure describes a rasterizer state.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D10_DDI_RASTERIZER_DESC {
@@ -63,10 +73,12 @@ typedef struct D3D10_DDI_RASTERIZER_DESC {
 
 ## -struct-fields
 
+
+
+
 ### -field FillMode
 
 [in] A value that specifies the fill mode for primitives. This member must be set to one of the following values from the D3D10_DDI_FILL_MODE enumeration.
-
 <table>
 <tr>
 <th>Value</th>
@@ -92,14 +104,12 @@ Fills solids.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field CullMode
 
 [in] A value that specifies how back-facing triangles are culled, if at all. This member must be set to one of the following values from the D3D10_DDI_CULL_MODE enumeration.
-
 <table>
 <tr>
 <th>Value</th>
@@ -135,8 +145,7 @@ Cull back faces.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field FrontCounterClockwise
@@ -180,20 +189,20 @@ Cull back faces.
 
 
 ## -remarks
+
+
 One of the artifacts with shadow buffer-based shadows is "shadow acne" (that is, a surface that shadows itself in an intermittent way because of inexactness in computing the depth of the surface from the shader that is compared against the depth of the same surface in the shadow buffer). One way to alleviate shadow acne is to use the <b>DepthBias</b> and <b>SlopeScaledDepthBias</b> members when you render a shadow buffer. The intent is to push surfaces out enough when rendering a shadow buffer. When those surfaces are compared against themselves through shader-computed z during the shadow test, the comparison result is consistent across the surface, and local-self-shadowing is avoided.
 
 However, using <b>DepthBias</b> and <b>SlopeScaledDepthBias</b> alone can introduce a few artifacts. For example, an extremely steep polygon causes the bias equation to explode, which pushes the polygon extremely far away from the originating surface in the shadow map. Consider a steep face, with respect to a light, that is pushed away extremely far in relation to the dimensions of the parent object by depth biasing. Suppose this face is surrounded by shallower faces that the bias equation pushed out much less. The resulting shadow map has a huge discontinuity that can cause holes in the shadow that is cast by one surface onto another surface closer than the exploded faces. One way to help alleviate this particular problem is to use the <b>DepthBiasClamp</b> member, which provides an application-settable upper bound (positive or negative) on the magnitude of z biasing.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterasterizerstatesize.md">CalcPrivateRasterizerStateSize</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrasterizerstate.md">CreateRasterizerState</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterasterizerstatesize.md">CalcPrivateRasterizerStateSize</a>
+
  
 
  

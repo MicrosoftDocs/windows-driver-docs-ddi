@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8d42dd60-a032-4486-87e0-2204e833035b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetPipe, IWDFUsbTargetPipe::Reset, Reset
+ms.keywords: IWDFUsbTargetPipe::Reset, IWDFUsbTargetPipe interface, Reset method, Reset, umdf.iwdfusbtargetpipe_reset, IWDFUsbTargetPipe, UMDFUSBref_510f6831-e75f-41b6-9637-7400fe89e4d3.xml, Reset method, wdf.iwdfusbtargetpipe_reset, Reset method, IWDFUsbTargetPipe interface, wudfusb/IWDFUsbTargetPipe::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.5
-req.alt-api: IWDFUsbTargetPipe.Reset
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFUsbTargetPipe.Reset
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IWDFUsbTargetPipe::Reset method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>Reset</b> method resets the data toggle and clears the stall condition on a USB pipe.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT  Reset();
@@ -56,68 +66,72 @@ HRESULT  Reset();
 ## -parameters
 
 
+
+
+
 ## -returns
+
+
 <b>Reset</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK </b></dt>
 </dl>
+</td>
+<td width="60%">
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a> successfully reset the data toggle and cleared the stall condition. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_OUTOFMEMORY </b></dt>
 </dl>
+</td>
+<td width="60%">
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a> encountered an allocation failure.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>An error code that is defined in Winerror.h</b></dt>
-</dl>This value corresponds to the error code that the WinUsb API returned.
-
- 
-
-<b>Reset</b> returns one of the following values:
-<dl>
-<dt><b>S_OK </b></dt>
 </dl>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a> successfully reset the data toggle and cleared the stall condition. 
-<dl>
-<dt><b>E_OUTOFMEMORY </b></dt>
-</dl>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a> encountered an allocation failure.
-<dl>
-<dt><b>An error code that is defined in Winerror.h</b></dt>
-</dl>This value corresponds to the error code that the WinUsb API returned.
+</td>
+<td width="60%">
+This value corresponds to the error code that the WinUsb API returned.
 
- 
+</td>
+</tr>
+</table> 
 
-<b>Reset</b> returns one of the following values:
-<dl>
-<dt><b>S_OK </b></dt>
-</dl>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a> successfully reset the data toggle and cleared the stall condition. 
-<dl>
-<dt><b>E_OUTOFMEMORY </b></dt>
-</dl>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a> encountered an allocation failure.
-<dl>
-<dt><b>An error code that is defined in Winerror.h</b></dt>
-</dl>This value corresponds to the error code that the WinUsb API returned.
-
- 
 
 
 ## -remarks
+
+
 The <b>Reset</b> method generates a UMDF request and synchronously sends the request to the I/O target.
 
 For more information about how <b>Reset</b> works, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540300">WinUsb_ResetPipe</a> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540300">WinUsb_ResetPipe</a>
-</dt>
-</dl>
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+
  
 
  

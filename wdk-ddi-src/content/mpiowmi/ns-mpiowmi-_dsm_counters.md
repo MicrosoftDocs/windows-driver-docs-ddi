@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3202aec4-d95e-4162-86a1-17595ed2a5b5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DSM_COUNTERS, DSM_COUNTERS, *PDSM_COUNTERS
+ms.keywords: DSM_COUNTERS structure [Storage Devices], mpiowmi/DSM_COUNTERS, storage.dsm_counters, mpiowmi/PDSM_COUNTERS, structs-scsibus_bfb9b1ff-6274-47b9-b817-254428b02f17.xml, _DSM_COUNTERS, DSM_COUNTERS, PDSM_COUNTERS structure pointer [Storage Devices], *PDSM_COUNTERS, PDSM_COUNTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DSM_COUNTERS
-req.alt-loc: mpiowmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mpiowmi.h
+apiname: 
+-	DSM_COUNTERS
+product: Windows
+targetos: Windows
 req.typenames: DSM_COUNTERS, *PDSM_COUNTERS
 ---
 
 # _DSM_COUNTERS structure
 
 
-
 ## -description
+
+
 The DSM_COUNTERS structure holds the various timer counters that are applicable to all LUNs that are controlled by the DSM.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DSM_COUNTERS {
@@ -59,6 +69,9 @@ typedef struct _DSM_COUNTERS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PathVerifyEnabled
 
@@ -94,5 +107,3 @@ Should be zero.
 
 Should be zero.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0d561e0f-ca7e-44ed-9025-1a6513e4cd28
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
+ms.keywords: _WDF_REQUEST_SEND_OPTIONS, wdf.wdf_request_send_options, wdfrequest/PWDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS, DFRequestObjectRef_3fc871af-dae6-454f-8ff8-35a8b0c5ae9a.xml, PWDF_REQUEST_SEND_OPTIONS, wdfrequest/WDF_REQUEST_SEND_OPTIONS, kmdf.wdf_request_send_options, PWDF_REQUEST_SEND_OPTIONS structure pointer, WDF_REQUEST_SEND_OPTIONS structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_REQUEST_SEND_OPTIONS
-req.alt-loc: wdfrequest.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfrequest.h
+apiname: 
+-	WDF_REQUEST_SEND_OPTIONS
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_REQUEST_SEND_OPTIONS structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_REQUEST_SEND_OPTIONS</b> structure specifies options that are associated with sending an I/O request to an I/O target.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WDF_REQUEST_SEND_OPTIONS {
@@ -58,6 +68,9 @@ typedef struct _WDF_REQUEST_SEND_OPTIONS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -72,7 +85,6 @@ A bitwise OR of <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_opt
 ### -field Timeout
 
 A time-out value, in system time units (100-nanosecond intervals). If the driver has set the WDF_REQUEST_SEND_OPTION_TIMEOUT flag, the framework cancels the associated I/O request if it is not completed within the specified time-out period. The time-out value can be negative, positive, or zero, as follows:
-
 <ul>
 <li>
 If the value is negative, the expiration time is relative to the current system time.
@@ -86,8 +98,7 @@ If the value is positive, the expiration time is specified as an absolute time (
 If the value is zero, the framework does not time out the request.
 
 </li>
-</ul>
-Relative expiration times are not affected by any changes to the system time that might occur within the specified time-out period. Absolute expiration times do reflect system time changes.
+</ul>Relative expiration times are not affected by any changes to the system time that might occur within the specified time-out period. Absolute expiration times do reflect system time changes.
 
 The framework provides <a href="https://msdn.microsoft.com/E7D5564D-7BAA-412E-959F-3655B963B4C1">time conversion functions</a> that convert time values into system time units.
 
@@ -97,26 +108,24 @@ If the framework cancels an I/O request because the specified time-out period ha
 
 
 ## -remarks
+
+
 The <b>WDF_REQUEST_SEND_OPTIONS</b> structure is passed to object methods that send an I/O request to an I/O target, such as the <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a> method. The structure must be initialized by calling the <a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_init.md">WDF_REQUEST_SEND_OPTIONS_INIT</a> and <a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_set_timeout.md">WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT</a> functions.
 
 If the driver is sending the request synchronously, we recommend that the driver set a time-out value and the time-out flag in the <b>Flags</b> member of this structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
-</dt>
-<dt>
+
 <a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_init.md">WDF_REQUEST_SEND_OPTIONS_INIT</a>
-</dt>
-<dt>
-<a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_set_timeout.md">WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT</a>
-</dt>
-<dt>
+
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTIONS_FLAGS</a>
-</dt>
-</dl>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_set_timeout.md">WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT</a>
+
  
 
  

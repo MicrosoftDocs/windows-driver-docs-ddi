@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 65cbed1a-35f9-44f7-941a-ffc87cc79649
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortDeviceReady
+ms.keywords: AtaPortDeviceReady, storage.ataportdeviceready, irb/AtaPortDeviceReady, AtaPortDeviceReady routine [Storage Devices], atartns_28cebf8c-cdda-46f4-9785-184552630769.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AtaPortDeviceReady
-req.alt-loc: irb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	irb.h
+apiname: 
+-	AtaPortDeviceReady
+product: Windows
+targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
 
 # AtaPortDeviceReady function
 
 
-
 ## -description
+
+
 The <b>AtaPortDeviceReady</b> routine informs the port driver that the indicated device is ready to accept new requests. 
-
-
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 VOID __inline AtaPortDeviceReady(
@@ -55,6 +65,9 @@ VOID __inline AtaPortDeviceReady(
 
 
 ## -parameters
+
+
+
 
 ### -param ChannelExtension [in]
 
@@ -72,19 +85,23 @@ Specifies the logical unit number (LUN) of the device.
 
 
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 The port driver resumes the paused request queue for the indicated device. If the caller assigns a wildcard value of IDE_UNTAGGED to parameters <i>TargetId</i> and <i>Lun</i>, the port driver will restart the channel request queue. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\irb\nf-irb-ataportdevicebusy.md">AtaPortDeviceBusy</a>
-</dt>
-</dl>
+
  
 
  

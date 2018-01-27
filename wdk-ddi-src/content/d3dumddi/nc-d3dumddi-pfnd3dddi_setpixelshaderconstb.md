@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6f7c8932-9332-4ff2-89ab-2f9a66783326
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.setpixelshaderconstb, SetPixelShaderConstB callback function [Display Devices], SetPixelShaderConstB, PFND3DDDI_SETPIXELSHADERCONSTB, PFND3DDDI_SETPIXELSHADERCONSTB, d3dumddi/SetPixelShaderConstB, UserModeDisplayDriver_Functions_1f26c07c-fd24-4b1f-bc9d-23f6b8dae95f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetPixelShaderConstB
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	SetPixelShaderConstB
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_SETPIXELSHADERCONSTB callback
 
 
-
 ## -description
+
+
 The <i>SetPixelShaderConstB</i> function sets one or more pixel shader constant registers with Boolean values. 
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_SETPIXELSHADERCONSTB SetPixelShaderConstB;
@@ -59,37 +69,44 @@ __checkReturn HRESULT APIENTRY SetPixelShaderConstB(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param pData [in]
+### -param *
+
+
+
+
+
+
+#### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setpixelshaderconst.md">D3DDDIARG_SETPIXELSHADERCONST</a> structure that describes how to set the pixel shader constant registers.
 
 
-### -param pRegisters [in]
+#### - pRegisters [in]
 
  A pointer to a buffer that contains BOOL values to copy.
 
 
 ## -returns
+
+
 <i>SetPixelShaderConstB</i> returns S_OK or an appropriate error result if the pixel shader constant registers are not successfully set with Boolean values.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setpixelshaderconst.md">D3DDDIARG_SETPIXELSHADERCONST</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setpixelshaderconst.md">D3DDDIARG_SETPIXELSHADERCONST</a>
+
  
 
  

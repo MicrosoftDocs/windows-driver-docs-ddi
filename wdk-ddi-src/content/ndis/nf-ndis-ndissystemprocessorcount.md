@@ -7,8 +7,8 @@ old-location: netvista\ndissystemprocessorcount.htm
 old-project: netvista
 ms.assetid: 17c7b02d-3d32-4056-9baa-2fef74765da3
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisSystemProcessorCount
+ms.date: 1/18/2018
+ms.keywords: NdisSystemProcessorCount function [Network Drivers Starting with Windows Vista], NdisSystemProcessorCount, netvista.ndissystemprocessorcount, ndis/NdisSystemProcessorCount, ndis_sysinfo_ref_2bec0b11-bc24-4c8d-9e78-ff94c7f1645f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and 6.1. For NDIS 6.20 and late
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisSystemProcessorCount
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_Miscellaneous_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisSystemProcessorCount
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisSystemProcessorCount function
 
 
-
 ## -description
+
+
 The 
   <b>NdisSystemProcessorCount</b> function determines whether the caller is running on a uniprocessor or
   multiprocessor computer.
 
 
-
 ## -syntax
+
 
 ````
 CCHAR NdisSystemProcessorCount(void);
@@ -55,24 +66,28 @@ CCHAR NdisSystemProcessorCount(void);
 ## -parameters
 
 
+
+
+
 ## -returns
-<b>NdisSystemProcessorCount</b> returns the number of processors in the computer.
+
 
 <b>NdisSystemProcessorCount</b> returns the number of processors in the computer.
 
-<b>NdisSystemProcessorCount</b> returns the number of processors in the computer.
 
 
 ## -remarks
+
+
 An NDIS driver can call the 
     <b>NdisSystemProcessorCount</b> function to retrieve the maximum number of processors in the local
     computer. To retrieve the number of currently active processors, the driver must call the 
-    <a href="..\ndis\nf-ndis-ndissystemactiveprocessorcount.md">
-    NdisSystemActiveProcessorCount</a> function.
+    <mshelp:link keywords="netvista.ndissystemactiveprocessorcount" tabindex="0"><b>
+    NdisSystemActiveProcessorCount</b></mshelp:link> function.
 
 <b>NdisSystemProcessorCount</b> is similar to the 
-    <a href="..\wdm\nf-wdm-kequerymaximumprocessorcount.md">
-    KeQueryMaximumProcessorCount</a> function.
+    <mshelp:link keywords="kernel.kequerymaximumprocessorcount" tabindex="0"><b>
+    KeQueryMaximumProcessorCount</b></mshelp:link> function.
 
 The value that 
     <b>NdisSystemProcessorCount</b> returns does not change at runtime.
@@ -91,26 +106,22 @@ If you are not optimizing and if the data structures that result from using the 
     <b>NdisSystemProcessorCount</b> to determine the size for a static array.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
-   Drivers</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kequerymaximumprocessorcount.md">KeQueryMaximumProcessorCount</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndisgroupmaxprocessorcount.md">NdisGroupMaxProcessorCount</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndissystemactiveprocessorcount.md">
-   NdisSystemActiveProcessorCount</a>
-</dt>
-</dl>
- 
+
+<mshelp:link keywords="netvista.ndissystemactiveprocessorcount" tabindex="0"><b>
+   NdisSystemActiveProcessorCount</b></mshelp:link>
+
+<mshelp:link keywords="netvista.driverentry_of_ndis_protocol_drivers" tabindex="0"><b>DriverEntry of NDIS Protocol
+   Drivers</b></mshelp:link>
+
+<a href="..\wdm\nf-wdm-kequerymaximumprocessorcount.md">KeQueryMaximumProcessorCount</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisSystemProcessorCount function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisSystemProcessorCount function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

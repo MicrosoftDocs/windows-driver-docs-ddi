@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 5CCFA490-090E-4F24-A5E4-4BECA63EBA53
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SENSOR_PROPERTY_LIST_INIT
+ms.keywords: SENSOR_PROPERTY_LIST_INIT function [Sensor Devices], sensors.sensor_property_list_init, sensorsdef/SENSOR_PROPERTY_LIST_INIT, SENSOR_PROPERTY_LIST_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SENSOR_PROPERTY_LIST_INIT
-req.alt-loc: Sensorsdef.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Sensorsdef.h
+apiname: 
+-	SENSOR_PROPERTY_LIST_INIT
+product: Windows
+targetos: Windows
 req.typenames: SENSOR_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SENSOR_PROPERTY_LIST_INIT function
 
 
-
 ## -description
+
+
 This function initializes a <a href="..\sensorsdef\ns-sensorsdef-sensor_property_list.md">SENSOR_PROPERTY_LIST</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE VOID SENSOR_PROPERTY_LIST_INIT(
@@ -55,6 +65,9 @@ FORCEINLINE VOID SENSOR_PROPERTY_LIST_INIT(
 
 
 ## -parameters
+
+
+
 
 ### -param pPropertyList [out]
 
@@ -67,18 +80,16 @@ The size of pPropertyList.
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\sensorsdef\ns-sensorsdef-sensor_property_list.md">SENSOR_PROPERTY_LIST</a>
-</dt>
-</dl>
+
  
 
  

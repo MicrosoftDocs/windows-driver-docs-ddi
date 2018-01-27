@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D951D5A0-3A93-4B67-B25A-31EE61C0A065
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBD_INTERFACE_LIST_ENTRY, USBD_INTERFACE_LIST_ENTRY, *PUSBD_INTERFACE_LIST_ENTRY
+ms.keywords: buses.usbfn_get_attach_action, UsbFnGetAttachAction callback function [Buses], UsbFnGetAttachAction, USBFN_GET_ATTACH_ACTION, USBFN_GET_ATTACH_ACTION, usbfnattach/UsbFnGetAttachAction, PFN_USBFN_GET_ATTACH_ACTION callback function pointer [Buses], PFN_USBFN_GET_ATTACH_ACTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: PFN_USBFN_GET_ATTACH_ACTION
-req.alt-loc: usbfnattach.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: USBD_INTERFACE_LIST_ENTRY, *PUSBD_INTERFACE_LIST_ENTRY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	usbfnattach.h
+apiname: 
+-	PFN_USBFN_GET_ATTACH_ACTION
+product: Windows
+targetos: Windows
+req.typenames: *PUSBD_INTERFACE_LIST_ENTRY, USBD_INTERFACE_LIST_ENTRY
 req.product: Windows 10 or later.
 ---
 
 # USBFN_GET_ATTACH_ACTION callback
 
 
-
 ## -description
+
+
 The filter driver's implementation that gets invoked when charger is attached to the port.
 
 
-
 ## -prototype
+
 
 ````
 USBFN_GET_ATTACH_ACTION UsbFnGetAttachAction;
@@ -61,6 +71,9 @@ typedef USBFN_GET_ATTACH_ACTION PFN_USBFN_GET_ATTACH_ACTION;
 
 ## -parameters
 
+
+
+
 ### -param Context [in]
 
     A pointer to a driver-defined context.
@@ -72,19 +85,23 @@ A pointer to a caller-allocated <a href="..\usbfnattach\ns-usbfnattach-_usbfn_on
 
 
 ## -returns
+
+
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it must return a status value for which NT_SUCCESS(status) equals FALSE.
 
 
+
 ## -remarks
+
+
 To support attach and detatch detection, the USB lower filter driver must publish its support. During the publishing process, the driver also registers its implementation of this  callback function. For more information, see <a href="https://msdn.microsoft.com/05D2B46A-282C-4B75-9F5C-2FC0AF344AB9">USB filter driver for supporting proprietary chargers</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/05D2B46A-282C-4B75-9F5C-2FC0AF344AB9">USB filter driver for supporting proprietary chargers</a>
-</dt>
-</dl>
+
  
 
  

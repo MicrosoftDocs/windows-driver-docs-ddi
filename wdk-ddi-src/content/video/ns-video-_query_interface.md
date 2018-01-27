@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0d813870-10bd-4b41-9f36-1cb45c462697
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _QUERY_INTERFACE, QUERY_INTERFACE, *PQUERY_INTERFACE
+ms.keywords: video/PQUERY_INTERFACE, *PQUERY_INTERFACE, PQUERY_INTERFACE structure pointer [Display Devices], video/QUERY_INTERFACE, _QUERY_INTERFACE, QUERY_INTERFACE, QUERY_INTERFACE structure [Display Devices], Video_Structs_facaef96-c0d9-4695-8541-65e5e430f182.xml, PQUERY_INTERFACE, display.query_interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: QUERY_INTERFACE
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	video.h
+apiname: 
+-	QUERY_INTERFACE
+product: Windows
+targetos: Windows
 req.typenames: QUERY_INTERFACE, *PQUERY_INTERFACE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _QUERY_INTERFACE structure
 
 
-
 ## -description
+
+
 The QUERY_INTERFACE structure describes the interface being requested.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _QUERY_INTERFACE {
@@ -58,6 +68,9 @@ typedef struct _QUERY_INTERFACE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field InterfaceType
 
@@ -88,16 +101,23 @@ Pointer to an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure in w
 Specifies additional information about the interface being requested. Typically, this member is <b>NULL</b>, and the <b>InterfaceType</b> and <b>Version</b> members are sufficient for the parent to identify the interface being requested.
 
 
+### -field DeviceUid
+
+ 
+
+
+
 ## -remarks
+
+
 The <i>QueryInterface</i> parameter of the video miniport driver's <a href="..\video\nc-video-pvideo_hw_query_interface.md">HwVidQueryInterface</a> function is a pointer to a QUERY_INTERFACE structure. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nc-video-pvideo_hw_query_interface.md">HwVidQueryInterface</a>
-</dt>
-</dl>
+
  
 
  

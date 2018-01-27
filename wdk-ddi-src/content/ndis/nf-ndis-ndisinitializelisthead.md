@@ -7,8 +7,8 @@ old-location: netvista\ndisinitializelisthead.htm
 old-project: netvista
 ms.assetid: da3f5f28-2794-491b-a359-be8508b050bf
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisInitializeListHead
+ms.date: 1/18/2018
+ms.keywords: NdisInitializeListHead, netvista.ndisinitializelisthead, NdisInitializeListHead macro [Network Drivers Starting with Windows Vista], ndis/NdisInitializeListHead, ndis_interlocked_ref_35d40751-6f2b-43db-801d-40479f3e0b6b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    N
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisInitializeListHead
-req.alt-loc: ndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ndis.h
 req.dll: 
 req.irql: Any level (see Remarks section)
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ndis.h
+apiname: 
+-	NdisInitializeListHead
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisInitializeListHead macro
 
 
-
 ## -description
+
+
 The 
   <b>NdisInitializeListHead</b> function initializes a doubly linked, driver-maintained queue.
 
 
-
 ## -syntax
+
 
 ````
 VOID NdisInitializeListHead(
@@ -55,13 +65,25 @@ VOID NdisInitializeListHead(
 
 ## -parameters
 
-### -param ListHead [in]
+
+
+
+### -param _ListHead
+
+TBD
+
+
+
+
+#### - ListHead [in]
 
 A pointer to driver-allocated nonpaged storage for the head of the interlocked queue or
      list.
 
 
 ## -remarks
+
+
 <b>NdisInitializeListHead</b> can be called from a 
     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function or
     from a protocol driver's 
@@ -84,34 +106,28 @@ For an interlocked queue, the driver also must provide nonpaged storage for a sp
 Callers of <b>NdisInitializeListHead</b> can be running at any IRQL. If <b>NdisInitializeListHead</b> is called at IRQL &gt;= DISPATCH_LEVEL the storage for <i>ListHead</i> must be resident.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
-   Drivers</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.ndisinterlockedremoveheadlist" tabindex="0"><b>
+   NdisInterlockedRemoveHeadList</b></mshelp:link>
+
+<mshelp:link keywords="netvista.driverentry_of_ndis_protocol_drivers" tabindex="0"><b>DriverEntry of NDIS Protocol
+   Drivers</b></mshelp:link>
+
+<mshelp:link keywords="netvista.ndisinterlockedinsertheadlist" tabindex="0"><b>
+   NdisInterlockedInsertHeadList</b></mshelp:link>
+
 <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
-   NdisInterlockedInsertHeadList</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">
-   NdisInterlockedInsertTailList</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisinterlockedremoveheadlist.md">
-   NdisInterlockedRemoveHeadList</a>
-</dt>
-</dl>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<mshelp:link keywords="netvista.ndisinterlockedinserttaillist" tabindex="0"><b>
+   NdisInterlockedInsertTailList</b></mshelp:link>
+
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisInitializeListHead macro%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisInitializeListHead macro%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

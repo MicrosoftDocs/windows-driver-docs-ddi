@@ -7,8 +7,8 @@ old-location: netvista\rilmsgcdmaoutsubmit_2.htm
 old-project: netvista
 ms.assetid: f74fe6cb-f38c-49ab-957f-9b3d163059c6
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT, *LPRILMSGCDMAOUTSUBMIT
+ms.date: 1/18/2018
+ms.keywords: netvista.rilmsgcdmaoutsubmit_2, RILMSGCDMAOUTSUBMIT structure [Network Drivers Starting with Windows Vista], rilapitypes/RILMSGCDMAOUTSUBMIT, *LPRILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILMSGCDMAOUTSUBMIT
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILMSGCDMAOUTSUBMIT, *LPRILMSGCDMAOUTSUBMIT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILMSGCDMAOUTSUBMIT
+product: Windows
+targetos: Windows
+req.typenames: *LPRILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT
 req.product: Windows 10 or later.
 ---
 
 # RILMSGCDMAOUTSUBMIT structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILMSGCDMAOUTSUBMIT {
@@ -77,73 +87,97 @@ typedef struct _RILMSGCDMAOUTSUBMIT {
 
 ## -struct-fields
 
+
+
+
 ### -field raDestAddress
+
 
 
 ### -field rsaDestSubaddr
 
 
+
 ### -field bDigit
+
 
 
 ### -field stValidityPeriodAbs
 
 
+
 ### -field stValidityPeriodRel
+
 
 
 ### -field stDeferredDelTimeAbs
 
 
+
 ### -field stDeferredDelTimeRel
+
 
 
 ### -field bDeliveryAckRequest
 
 
+
 ### -field bUserAckRequest
+
 
 
 ### -field bBearerReplyRequest
 
 
+
 ### -field dwReplySeqNumber
+
 
 
 ### -field dwMsgDisplayMode
 
 
+
 ### -field raCallBackNumber
+
 
 
 ### -field dwMsgPriority
 
 
+
 ### -field dwMsgPrivacy
+
 
 
 ### -field dwTeleservice
 
 
+
 ### -field dwMsgID
+
 
 
 ### -field dwMsgLang
 
 
+
 ### -field dwMsgEncoding
+
 
 
 ### -field cbHdrLength
 
 
+
 ### -field cchMsgLength
+
 
 
 ### -field rgbHdr
 
 
+
 ### -field rgbMsg
 
 
-## -remarks

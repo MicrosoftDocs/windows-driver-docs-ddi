@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: de8e262b-bcb9-4549-94cc-0a73df45bddc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _AVCSTRM_FORMAT_INFO, AVCSTRM_FORMAT_INFO, *PAVCSTRM_FORMAT_INFO
+ms.keywords: PAVCSTRM_FORMAT_INFO, PAVCSTRM_FORMAT_INFO structure pointer [Streaming Media Devices], avcstrm/AVCSTRM_FORMAT_INFO, AVCSTRM_FORMAT_INFO structure [Streaming Media Devices], avcstrm/PAVCSTRM_FORMAT_INFO, _AVCSTRM_FORMAT_INFO, avcsref_e41f0bb0-8407-4338-9a68-46c00116ae92.xml, AVCSTRM_FORMAT_INFO, stream.avcstrm_format_info, *PAVCSTRM_FORMAT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AVCSTRM_FORMAT_INFO
-req.alt-loc: avcstrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	avcstrm.h
+apiname: 
+-	AVCSTRM_FORMAT_INFO
+product: Windows
+targetos: Windows
 req.typenames: AVCSTRM_FORMAT_INFO, *PAVCSTRM_FORMAT_INFO
 ---
 
 # _AVCSTRM_FORMAT_INFO structure
 
 
-
 ## -description
+
+
 The AVCSTRM_FORMAT_INFO structure is used to describe a data stream.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _AVCSTRM_FORMAT_INFO {
@@ -64,6 +74,9 @@ typedef struct _AVCSTRM_FORMAT_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field SizeOfThisBlock
 
@@ -108,7 +121,6 @@ Specifies the number of transmitting buffers.
 ### -field OptionFlags
 
 Specifies any option flags. Currently, only one flag is defined:
-
 <table>
 <tr>
 <th>Flag</th>
@@ -118,9 +130,9 @@ Specifies any option flags. Currently, only one flag is defined:
 <td>
 
 
-
-### -field AVCSTRM_FORMAT_OPTION_STRIP_SPH
-
+<dl>
+<dt><a id="AVCSTRM_FORMAT_OPTION_STRIP_SPH"></a><a id="avcstrm_format_option_strip_sph"></a>AVCSTRM_FORMAT_OPTION_STRIP_SPH</dt>
+<dd></dd>
 </dl>
 </td>
 <td>
@@ -128,8 +140,7 @@ Strip the SPH (source packet header) from the 192-byte data packet for MPEG2TS.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field AvgTimePerFrame
@@ -147,27 +158,18 @@ Specifies the block period. This is used for transmit only. It is calculated fro
 Reserved. Do not use. Must be set to 0.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\avcstrm\ne-avcstrm-_avcstrm_format.md">AVCSTRM_FORMAT</a>
-</dt>
-<dt>
-<a href="..\avcstrm\ns-avcstrm-_cip_hdr1.md">CIP_HDR1</a>
-</dt>
-<dt>
-<a href="..\avcstrm\ns-avcstrm-_cip_hdr2_fdf.md">CIP_HDR2_FDF</a>
-</dt>
-<dt>
+
 <a href="..\avcstrm\ns-avcstrm-_cip_hdr2_mpegts.md">CIP_HDR2_MPEGTS</a>
-</dt>
-<dt>
+
+<a href="..\avcstrm\ne-avcstrm-_avcstrm_format.md">AVCSTRM_FORMAT</a>
+
 <a href="..\avcstrm\ns-avcstrm-_cip_hdr2_syt.md">CIP_HDR2_SYT</a>
-</dt>
-</dl>
+
+<a href="..\avcstrm\ns-avcstrm-_cip_hdr1.md">CIP_HDR1</a>
+
+<a href="..\avcstrm\ns-avcstrm-_cip_hdr2_fdf.md">CIP_HDR2_FDF</a>
+
  
 
  

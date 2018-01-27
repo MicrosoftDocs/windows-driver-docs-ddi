@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F4571085-19C2-46FD-B754-D4937BE5A500
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_QUERY_SOC_SUBSYSTEM, PEP_QUERY_SOC_SUBSYSTEM, *PPEP_QUERY_SOC_SUBSYSTEM
+ms.keywords: PEP_QUERY_SOC_SUBSYSTEM, PEP_QUERY_SOC_SUBSYSTEM structure [Kernel-Mode Driver Architecture], pepfx/PPEP_QUERY_SOC_SUBSYSTEM, PPEP_QUERY_SOC_SUBSYSTEM, *PPEP_QUERY_SOC_SUBSYSTEM, _PEP_QUERY_SOC_SUBSYSTEM, PPEP_QUERY_SOC_SUBSYSTEM structure pointer [Kernel-Mode Driver Architecture], kernel.pep_query_soc_subsystem, pepfx/PEP_QUERY_SOC_SUBSYSTEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_QUERY_SOC_SUBSYSTEM
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: PEP_QUERY_SOC_SUBSYSTEM, *PPEP_QUERY_SOC_SUBSYSTEM
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_QUERY_SOC_SUBSYSTEM
+product: Windows
+targetos: Windows
+req.typenames: *PPEP_QUERY_SOC_SUBSYSTEM, PEP_QUERY_SOC_SUBSYSTEM
 ---
 
 # _PEP_QUERY_SOC_SUBSYSTEM structure
 
 
-
 ## -description
+
+
 The <b>PEP_QUERY_SOC_SUBSYSTEM</b> structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186731">PEP_DPM_QUERY_SOC_SUBSYSTEM notification</a> to gather basic information about a particular system on a chip (SoC) subsystem.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_QUERY_SOC_SUBSYSTEM {
@@ -59,6 +69,9 @@ typedef struct _PEP_QUERY_SOC_SUBSYSTEM {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PlatformIdleStateIndex
 
@@ -90,14 +103,12 @@ The PEP is not required to fill  this member.
 
 
 Prior to entry, the kernel will:
-
 <ul>
 <li>Pre-allocate 64 <b>WCHARs</b> for <b>ParentName.Buffer[]</b></li>
 <li>Zero the buffer </li>
 <li>Set <b>ParentName.MaximumLength</b> to the size of the buffer in bytes, and </li>
 <li>Set <b>ParentName.Length</b> = <b>0</b></li>
-</ul>
- Prior to  exit, the PEP must copy a null-terminated string into <b>ParentName.Buffer</b> and update <b>ParentName.Length</b> with a byte count that is <b>sizeof(WCHAR)</b> times the number of UNICODE characters copied, not including the terminating <b>UNICODE_NULL</b>.  
+</ul> Prior to  exit, the PEP must copy a null-terminated string into <b>ParentName.Buffer</b> and update <b>ParentName.Length</b> with a byte count that is <b>sizeof(WCHAR)</b> times the number of UNICODE characters copied, not including the terminating <b>UNICODE_NULL</b>.  
 
 The PEP must use the allocated memory that is pointed to by the address in <b>ParentName.Buffer</b> to provide the parent name. 
 Since this memory is pre-allocated, its size cannot be changed. The PEP is responsible for truncating the parent name, if necessary, so that it does not exceed the length specified in <b>ParentName.MaximumLength</b> (including the terminating <b>UNICODE_NULL</b> character).
@@ -110,14 +121,12 @@ Since this memory is pre-allocated, its size cannot be changed. The PEP is respo
 
 
 Prior to entry, the kernel will:
-
 <ul>
 <li>Pre-allocate 64 <b>WCHARs</b> for <b>SubsystemName.Buffer[]</b></li>
 <li>Zero the buffer </li>
 <li>Set <b>SubsystemName.MaximumLength</b> to the size of the buffer in bytes, and </li>
 <li>Set <b>SubsystemName.Length</b> = <b>0</b></li>
-</ul>
-Prior to exit, the PEP must copy a null-terminated string into <b>SubsystemName.Buffer</b> and update <b>SubsystemName.Length</b> with a byte count that is <b>sizeof(WCHAR)</b> times the number of UNICODE characters copied, not including the terminating <b>UNICODE_NULL</b>.  
+</ul>Prior to exit, the PEP must copy a null-terminated string into <b>SubsystemName.Buffer</b> and update <b>SubsystemName.Length</b> with a byte count that is <b>sizeof(WCHAR)</b> times the number of UNICODE characters copied, not including the terminating <b>UNICODE_NULL</b>.  
 
 The PEP must use the allocated memory that is pointed to by the address in <b>SubsystemName.Buffer</b> to provide the subsystem name. 
 Since this memory is pre-allocated, its size cannot be changed. The PEP is responsible for truncating the subsystem name, if necessary, so that it does not exceed the length specified in <b>SubsystemName.MaximumLength</b> (including the terminating <b>UNICODE_NULL</b> character).
@@ -135,15 +144,10 @@ Metadata is optional.  The PEP returns zero if it does not report any metadata f
 This member is reserved and should be set to zero.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186731">PEP_DPM_QUERY_SOC_SUBSYSTEM notification</a>
-</dt>
-</dl>
+
  
 
  

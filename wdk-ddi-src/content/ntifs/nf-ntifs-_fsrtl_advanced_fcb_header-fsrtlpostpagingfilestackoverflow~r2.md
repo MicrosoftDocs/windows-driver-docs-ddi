@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5054cc41-06af-48f0-b273-276bd639c16c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlPostPagingFileStackOverflow
+ms.keywords: FsRtlPostPagingFileStackOverflow routine [Installable File System Drivers], fsrtlref_167dd1d3-f49d-4393-9003-af16aa144e0b.xml, ntifs/FsRtlPostPagingFileStackOverflow, ifsk.fsrtlpostpagingfilestackoverflow, FsRtlPostPagingFileStackOverflow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlPostPagingFileStackOverflow
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlPostPagingFileStackOverflow
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlPostPagingFileStackOverflow function
 
 
-
 ## -description
+
+
 The <b>FsRtlPostPagingFileStackOverflow</b> routine posts a paging file stack overflow item to the stack overflow thread.
 
 
-
 ## -syntax
+
 
 ````
 VOID FsRtlPostPagingFileStackOverflow(
@@ -55,6 +65,9 @@ VOID FsRtlPostPagingFileStackOverflow(
 
 
 ## -parameters
+
+
+
 
 ### -param Context [in]
 
@@ -72,10 +85,15 @@ A pointer to a callback routine to be invoked when processing the request in the
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A file system typically calls <b>FsRtlPostPagingFileStackOverflow</b> during a paging file I/O operation when the amount of remaining stack space returned by <a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a> is below the file system's stack overflow read threshold. <b>FsRtlPostPagingFileStackOverflow</b> posts the paging I/O request to a special paging stack overflow work queue. When the paging I/O operation has been completed, the caller's <i>Event</i> is set to a signaled state. 
 
 
@@ -84,21 +102,17 @@ A file system typically calls <b>FsRtlPostPagingFileStackOverflow</b> during a p
 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-fsrtlispagingfile.md">FsRtlIsPagingFile</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpoststackoverflow~r2.md">FsRtlPostStackOverflow</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
+
  
 
  

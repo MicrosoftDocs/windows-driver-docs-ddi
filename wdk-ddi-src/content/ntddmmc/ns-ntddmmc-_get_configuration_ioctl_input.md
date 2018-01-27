@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6b8d9cbf-bb05-40a1-9129-52510befebe3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _GET_CONFIGURATION_IOCTL_INPUT, *PGET_CONFIGURATION_IOCTL_INPUT, GET_CONFIGURATION_IOCTL_INPUT
+ms.keywords: GET_CONFIGURATION_IOCTL_INPUT structure [Storage Devices], storage.get_configuration_ioctl_input, ntddmmc/PGET_CONFIGURATION_IOCTL_INPUT, PGET_CONFIGURATION_IOCTL_INPUT structure pointer [Storage Devices], PGET_CONFIGURATION_IOCTL_INPUT, GET_CONFIGURATION_IOCTL_INPUT, _GET_CONFIGURATION_IOCTL_INPUT, ntddmmc/GET_CONFIGURATION_IOCTL_INPUT, structs-CD-ROM_1bac7730-693e-4d41-b672-260f83765e35.xml, *PGET_CONFIGURATION_IOCTL_INPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GET_CONFIGURATION_IOCTL_INPUT
-req.alt-loc: ntddmmc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddmmc.h
+apiname: 
+-	GET_CONFIGURATION_IOCTL_INPUT
+product: Windows
+targetos: Windows
 req.typenames: *PGET_CONFIGURATION_IOCTL_INPUT, GET_CONFIGURATION_IOCTL_INPUT
 ---
 
 # _GET_CONFIGURATION_IOCTL_INPUT structure
 
 
-
 ## -description
+
+
 The GET_CONFIGURATION_IOCTL_INPUT structure is used in conjunction with the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_configuration.md">IOCTL_CDROM_GET_CONFIGURATION</a> request to specify the sort of feature data that the request retrieves.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GET_CONFIGURATION_IOCTL_INPUT {
@@ -55,6 +65,9 @@ typedef struct _GET_CONFIGURATION_IOCTL_INPUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Feature
 
@@ -75,21 +88,14 @@ SCSI_GET_CONFIGURATION_REQUEST_TYPE_ONE - Instructs the device to report one and
 Reserved.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-</dt>
-<dt>
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_configuration.md">IOCTL_CDROM_GET_CONFIGURATION</a>
-</dt>
-</dl>
+
+<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
  
 
  

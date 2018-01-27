@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: fd6cba1d-e32c-4ee8-b827-826e5065ca8b
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _KEYBOARD_SCAN_STATE, *PKEYBOARD_SCAN_STATE, KEYBOARD_SCAN_STATE
+ms.keywords: ntdd8042/GotE0, ntdd8042/Normal, *PKEYBOARD_SCAN_STATE, ntdd8042/KEYBOARD_SCAN_STATE, _KEYBOARD_SCAN_STATE, PKEYBOARD_SCAN_STATE, PKEYBOARD_SCAN_STATE enumeration pointer [Human Input Devices], ntdd8042/GotE1, GotE1, KEYBOARD_SCAN_STATE enumeration [Human Input Devices], hid.keyboard_scan_state, KEYBOARD_SCAN_STATE, Normal, GotE0, ntdd8042/PKEYBOARD_SCAN_STATE, i8042ref_c83b037a-9874-4ae3-b951-9d37a1df03be.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KEYBOARD_SCAN_STATE
-req.alt-loc: ntdd8042.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntdd8042.h
+apiname: 
+-	KEYBOARD_SCAN_STATE
+product: Windows
+targetos: Windows
 req.typenames: *PKEYBOARD_SCAN_STATE, KEYBOARD_SCAN_STATE
 ---
 
 # _KEYBOARD_SCAN_STATE enumeration
 
 
-
 ## -description
+
+
 The KEYBOARD_SCAN_STATE enumeration type indicates the scan state of an input byte from a keyboard.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _KEYBOARD_SCAN_STATE { 
@@ -55,6 +65,9 @@ typedef enum _KEYBOARD_SCAN_STATE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field Normal
 
@@ -72,18 +85,18 @@ Indicates that the current byte is an E1 extended scan code.
 
 
 ## -remarks
+
+
 This enumeration type is used as input to an optional <a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a> routine, which can be supplied by a vendor-supplied keyboard filter driver.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
-</dt>
-<dt>
+
 <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4da0f5cb-a017-4df5-958b-c76b7a08495a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
+ms.keywords: display.agpreleasephysical, AgpReleasePhysical callback function [Display Devices], AgpReleasePhysical, PAGP_RELEASE_PHYSICAL, PAGP_RELEASE_PHYSICAL, videoagp/AgpReleasePhysical, VideoPort_Functions_427923a7-3205-41a7-a470-dbc7d531e47f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AgpReleasePhysical
-req.alt-loc: videoagp.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	videoagp.h
+apiname: 
+-	AgpReleasePhysical
+product: Windows
+targetos: Windows
+req.typenames: *PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.
 ---
 
 # PAGP_RELEASE_PHYSICAL callback
 
 
-
 ## -description
+
+
 The <b>AgpReleasePhysical</b> function frees a physical address range reserved by a previous call to <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>.
 
 
-
 ## -prototype
+
 
 ````
 PAGP_RELEASE_PHYSICAL AgpReleasePhysical;
@@ -59,6 +69,9 @@ VOID APIENTRY AgpReleasePhysical(
 
 ## -parameters
 
+
+
+
 ### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
@@ -70,22 +83,25 @@ Is the context handle that identifies the reserved physical address range to be 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The miniport driver must call <a href="..\videoagp\nc-videoagp-pagp_free_physical.md">AgpFreePhysical</a> to unmap all committed memory within the address range identified by <b>PhysicalReserveContext</b> before calling <b>AgpReleasePhysical</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\videoagp\nc-videoagp-pagp_free_physical.md">AgpFreePhysical</a>
-</dt>
-<dt>
+
 <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
-</dt>
-</dl>
+
  
 
  

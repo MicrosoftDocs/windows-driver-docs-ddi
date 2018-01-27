@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 62ce7a36-87ce-40d1-bdd4-8a4f4bc60b00
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPIN_CONNECT, *PKSPIN_CONNECT, KSPIN_CONNECT
+ms.keywords: ks-struct_07642f18-c766-4649-b97a-12582aa0fffb.xml, ks/PKSPIN_CONNECT, *PKSPIN_CONNECT, KSPIN_CONNECT, PKSPIN_CONNECT structure pointer [Streaming Media Devices], stream.kspin_connect, KSPIN_CONNECT structure [Streaming Media Devices], PKSPIN_CONNECT, ks/KSPIN_CONNECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPIN_CONNECT
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSPIN_CONNECT
+product: Windows
+targetos: Windows
 req.typenames: *PKSPIN_CONNECT, KSPIN_CONNECT
 ---
 
 # KSPIN_CONNECT structure
 
 
-
 ## -description
+
+
 Clients use the KSPIN_CONNECT structure to describe the connection they request from a driver in a <a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a> call.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -57,6 +67,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Interface
 
@@ -84,21 +97,20 @@ A structure of type <a href="..\ks\ns-ks-kspriority.md">KSPRIORITY</a> that spec
 
 
 ## -remarks
+
+
 If the KSPIN_CONNECT.PinToHandle element is not <b>NULL</b>, IRP_MJ_CREATE instructs the device to connect the source KSPIN_CONNECT.PinId pin to the KSPIN_CONNECT.PinToHandle pin instance. Otherwise, this is a request from a client for connection to the KSPIN_CONNECT.PinId pin using the KSPIN_CONNECT.Medium method and a specific data format specified after the connection structure. In either case, the device driver may fail this request if this connection cannot be accepted.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565104">KSPROPERTY_CONNECTION_PRIORITY</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a>
+
+<a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\ndismwritelogdata.htm
 old-project: netvista
 ms.assetid: 38923308-0268-49b3-9f9d-0fa2b62f7533
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisMWriteLogData
+ms.date: 1/18/2018
+ms.keywords: ndis/NdisMWriteLogData, miniport_logging_ref_ca57cae5-4951-4c02-a745-d668bc8ec663.xml, NdisMWriteLogData function [Network Drivers Starting with Windows Vista], netvista.ndismwritelogdata, NdisMWriteLogData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    N
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisMWriteLogData
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_Miniport_Driver_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisMWriteLogData
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMWriteLogData function
 
 
-
 ## -description
+
+
 <b>NdisMWriteLogData</b> transfers driver-supplied information into the log file for consumption and display
   by a driver-dedicated Win32 application.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisMWriteLogData(
@@ -56,6 +67,9 @@ NDIS_STATUS NdisMWriteLogData(
 
 
 ## -parameters
+
+
+
 
 ### -param LogHandle [in]
 
@@ -74,20 +88,45 @@ Specifies how many bytes of data to copy into the log file.
 
 
 ## -returns
+
+
 <b>NdisMWriteLogData</b> can return one of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_SUCCESS</b></dt>
-</dl>The driver-supplied data at 
+</dl>
+</td>
+<td width="60%">
+The driver-supplied data at 
        <i>LogBuffer</i> has been copied into the log file.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_BUFFER_OVERFLOW</b></dt>
-</dl>The given 
+</dl>
+</td>
+<td width="60%">
+The given 
        <i>LogBufferSize</i> is too large, that is, larger than the log file itself.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 If the driver-dedicated application has an outstanding request for log file data, 
     <b>NdisMWriteLogData</b> satisfies that request as soon as it has copied the driver-supplied information
     into the log file.
@@ -113,32 +152,26 @@ Consequently, an application reading an NDIS log must collect retrieved data int
     search for these markers to determine the start of each record.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
-   NdisAllocateMemoryWithTagPriority</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
-   NdisAllocateFromNPagedLookasideList</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
+   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
+
 <a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
-</dt>
-</dl>
- 
+
+<mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
+   NdisAllocateMemoryWithTagPriority</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
+
+<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
+
+<a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMWriteLogData function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMWriteLogData function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

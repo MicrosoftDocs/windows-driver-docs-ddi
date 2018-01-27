@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: ad8b8740-35bc-4aa4-a190-00d1a78e447a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY, *PPCI_EXPRESS_SERIAL_NUMBER_CAPABILITY, PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY
+ms.keywords: wdm/PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY, pci_struct_0d9ab097-6980-40b4-8c25-02ad8239588b.xml, wdm/PPCI_EXPRESS_SERIAL_NUMBER_CAPABILITY, PPCI_EXPRESS_SERIAL_NUMBER_CAPABILITY, PCI.pci_express_serial_number_capability, PPCI_EXPRESS_SERIAL_NUMBER_CAPABILITY structure pointer [Buses], PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY, PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY structure [Buses], *PPCI_EXPRESS_SERIAL_NUMBER_CAPABILITY, _PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PPCI_EXPRESS_SERIAL_NUMBER_CAPABILITY, PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY
+product: Windows
+targetos: Windows
+req.typenames: PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY, *PPCI_EXPRESS_SERIAL_NUMBER_CAPABILITY
 req.product: Windows 10 or later.
 ---
 
 # _PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY structure
 
 
-
 ## -description
+
+
 The PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY structure describes a serial number for a PCI Express (PCIe) device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY {
@@ -56,6 +66,9 @@ typedef struct _PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -73,17 +86,18 @@ The upper 32 bits of the serial number.
 
 
 ## -remarks
+
+
 The PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY structure is available in Windows Server 2008 and later versions of Windows.
 
 The PCIe device serial number capability is an optional extended capability that can be implemented by any PCIe device. The device serial number is a 64-bit value that is unique for a given PCIe device.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537466">PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER</a>
-</dt>
-</dl>
+
  
 
  

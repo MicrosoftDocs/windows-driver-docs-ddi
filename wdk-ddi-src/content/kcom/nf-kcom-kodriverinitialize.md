@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed61d135-967d-4e7c-b437-09c9e0e6f3c2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KoDriverInitialize
+ms.keywords: ksfunc_117817ed-5a64-48c4-8b90-1ca6435c75b6.xml, KoDriverInitialize, kcom/KoDriverInitialize, KoDriverInitialize function [Streaming Media Devices], stream.kodriverinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KoDriverInitialize
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KoDriverInitialize
+product: Windows
+targetos: Windows
 req.typenames: CONNECT_DATA, *PCONNECT_DATA
 ---
 
 # KoDriverInitialize function
 
 
-
 ## -description
+
+
 <i>This function is intended for internal use only.</i>
 
 The <b>KoDriverInitialize</b> function initializes a driver object to handle the kernel streaming interface. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KoDriverInitialize(
@@ -57,6 +68,9 @@ NTSTATUS KoDriverInitialize(
 
 
 ## -parameters
+
+
+
 
 ### -param DriverObject [in]
 
@@ -74,7 +88,8 @@ Pointer to a function used to create new objects.
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS if successful. Otherwise, it returns a memory allocation error.
 
 
-## -remarks

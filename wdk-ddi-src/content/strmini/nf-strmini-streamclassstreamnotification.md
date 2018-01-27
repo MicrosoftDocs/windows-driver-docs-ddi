@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 67dd0ea0-9c69-415a-8b37-0e8700b6fbd8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: StreamClassStreamNotification
+ms.keywords: StreamClassStreamNotification routine [Streaming Media Devices], stream.streamclassstreamnotification, strmini/StreamClassStreamNotification, StreamClassStreamNotification, strclass-routines_22bc1b48-b75e-4dce-9aae-16e16b1ca1f9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StreamClassStreamNotification
-req.alt-loc: Stream.lib,Stream.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Stream.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Stream.lib
+-	Stream.dll
+apiname: 
+-	StreamClassStreamNotification
+product: Windows
+targetos: Windows
 req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StreamClassStreamNotification function
 
 
-
 ## -description
+
+
 Streams use the <b>StreamClassStreamNotification</b> routine to notify the class driver that it has completed a stream request, or that an event has occurred.
 
 
-
 ## -syntax
+
 
 ````
 VOID  StreamClassStreamNotification(
@@ -60,6 +71,9 @@ VOID  StreamClassStreamNotification(
 
 ## -parameters
 
+
+
+
 ### -param NotificationType [in]
 
 This is an enumeration value that contains the type of notification that the minidriver is sending.
@@ -67,77 +81,85 @@ This is an enumeration value that contains the type of notification that the min
 
 
 
-### -param StreamRequestComplete
-
-Indicates that the minidriver has completed its handling of the stream-oriented stream request block that is pointed to by the optional third argument of this routine, <i>pSrb</i>.
-
-
-### -param ReadyForNextStreamDataRequest
-
-Indicates that this stream is ready to receive another data request. 
-
-
-### -param ReadyForNextStreamControlRequest
-
-Indicates that this stream is ready to receive another control request. 
-
-
-### -param SignalStreamEvent
-
-Signals that the event specified by the <i>EventEntry</i> parameter has occurred.
-
-
-### -param SignalMultipleStreamEvents
-
-Signals that all events that match the criteria specified in the <i>EventSet</i> and <i>EventId</i> parameters have occurred.
-
-
-### -param DeleteStreamEvent
-
-Deletes the event specified by the <i>EventEntry</i> parameter.
-
-</dd>
-</dl>
-
 ### -param StreamObject [in]
 
 Points to the stream object of the stream that the class driver is being notified about.
 
 
-### -param pSrb 
+### -param param
 
-Pointer to an <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a> structure. Specify only if <i>NotificationType</i> equals <b>StreamRequestComplete</b>. Pointer to the stream request block that the minidriver has completed processing. Once this routine completes, this address is no longer valid. This parameter is optional.
-
-
-### -param EventEntry 
-
-Specify only if <i>NotificationType</i> equals either <b>SignalStreamEvent</b> or <b>DeleteStreamEvent</b>. Pointer to the event to be signaled or deleted. This parameter is optional. 
+TBD
 
 
-### -param EventSet 
+
+##### - NotificationType.StreamRequestComplete
+
+Indicates that the minidriver has completed its handling of the stream-oriented stream request block that is pointed to by the optional third argument of this routine, <i>pSrb</i>.
+
+
+##### - NotificationType.ReadyForNextStreamDataRequest
+
+Indicates that this stream is ready to receive another data request. 
+
+
+#### - EventSet
 
 Identifies the event set against which to match in the event queue for this stream. Specify only if <i>NotificationType</i> equals <b>SignalMultipleStreamEvents</b>. This parameter is optional. 
 
 
-### -param EventId 
+##### - NotificationType.SignalStreamEvent
+
+Signals that the event specified by the <i>EventEntry</i> parameter has occurred.
+
+
+#### - EventId
 
 Indicates the event ID against which to match in the event queue for this stream. Specify only if <i>NotificationType</i> equals <b>SignalMultipleStreamEvents</b>. This parameter is optional.
 
 
+##### - NotificationType.ReadyForNextStreamControlRequest
+
+Indicates that this stream is ready to receive another control request. 
+
+
+#### - pSrb
+
+Pointer to an <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a> structure. Specify only if <i>NotificationType</i> equals <b>StreamRequestComplete</b>. Pointer to the stream request block that the minidriver has completed processing. Once this routine completes, this address is no longer valid. This parameter is optional.
+
+
+##### - NotificationType.DeleteStreamEvent
+
+Deletes the event specified by the <i>EventEntry</i> parameter.
+
+
+#### - EventEntry
+
+Specify only if <i>NotificationType</i> equals either <b>SignalStreamEvent</b> or <b>DeleteStreamEvent</b>. Pointer to the event to be signaled or deleted. This parameter is optional. 
+
+
+##### - NotificationType.SignalMultipleStreamEvents
+
+Signals that all events that match the criteria specified in the <i>EventSet</i> and <i>EventId</i> parameters have occurred.
+
+
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The minidriver uses this routine for requests or events that apply to the minidriver as a whole. Stream-specific requests or events use <a href="..\strmini\nf-strmini-streamclassdevicenotification.md">StreamClassDeviceNotification</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\strmini\nf-strmini-streamclassdevicenotification.md">StreamClassDeviceNotification</a>
-</dt>
-</dl>
+
  
 
  

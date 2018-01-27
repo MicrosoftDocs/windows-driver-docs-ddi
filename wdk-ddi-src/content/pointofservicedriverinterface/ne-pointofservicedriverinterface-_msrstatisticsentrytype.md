@@ -7,8 +7,8 @@ old-location: pos\mststatisticsentrytype.htm
 old-project: pos
 ms.assetid: b3c9fac6-79b3-4a81-92af-004eb17a22f5
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _MsrStatisticsEntryType, MstStatisticsEntryType
+ms.date: 1/18/2018
+ms.keywords: pointofservicedriverinterface/MsrStatisticsEntryType_UnreadableCardCount, pointofservicedriverinterface/MsrStatisticsEntryType_FailedWriteCount, pointofservicedriverinterface/MsrStatisticsEntryType_HoursPoweredCount, MsrStatisticsEntryType_UnreadableCardCount, pointofservicedriverinterface/MsrStatisticsEntryType_ChallengeRequestCount, MsrStatisticsEntryType_MissingStartSentinelTrack4Count, MsrStatisticsEntryType_GoodCardAuthenticationDataCount, MstStatisticsEntryType enumeration, pointofservicedriverinterface/MsrStatisticsEntryType_MissingStartSentinelTrack1Count, pointofservicedriverinterface/MsrStatisticsEntryType_MissingStartSentinelTrack3Count, MsrStatisticsEntryType_FailedWriteCount, MsrStatisticsEntryType_ParityLRCErrorTrack1Count, pos.mststatisticsentrytype, pointofservicedriverinterface/MsrStatisticsEntryType_MissingStartSentinelTrack2Count, MsrStatisticsEntryType_MissingStartSentinelTrack3Count, pointofservicedriverinterface/MsrStatisticsEntryType_ParityLRCErrorTrack4Count, pointofservicedriverinterface/MsrStatisticsEntryType_FailedDeviceAuthenticationCount, pointofservicedriverinterface/MsrStatisticsEntryType_FailedCardAuthenticationDataCount, MsrStatisticsEntryType_Count, pointofservicedriverinterface/MsrStatisticsEntryType_ParityLRCErrorTrack1Count, pointofservicedriverinterface/MsrStatisticsEntryType_MissingStartSentinelTrack4Count, MsrStatisticsEntryType_MissingStartSentinelTrack2Count, pointofservicedriverinterface/MstStatisticsEntryType, MsrStatisticsEntryType_ParityLRCErrorTrack4Count, MsrStatisticsEntryType_CommunicationErrorCount, pointofservicedriverinterface/MsrStatisticsEntryType_CommunicationErrorCount, MsrStatisticsEntryType_FailedDeviceAuthenticationCount, MsrStatisticsEntryType_MissingStartSentinelTrack1Count, pointofservicedriverinterface/MsrStatisticsEntryType_ParityLRCErrorTrack3Count, pointofservicedriverinterface/MsrStatisticsEntryType_Count, pointofservicedriverinterface/MsrStatisticsEntryType_GoodDeviceAuthenticationCount, MsrStatisticsEntryType_ChallengeRequestCount, pointofservicedriverinterface/MsrStatisticsEntryType_FailedReadCount, pointofservicedriverinterface/MsrStatisticsEntryType_ParityLRCErrorTrack2Count, MsrStatisticsEntryType_GoodWriteCount, MsrStatisticsEntryType_FailedReadCount, MsrStatisticsEntryType_GoodReadCount, MsrStatisticsEntryType_FailedCardAuthenticationDataCount, pointofservicedriverinterface/MsrStatisticsEntryType_Invalid, MsrStatisticsEntryType_ParityLRCErrorTrack3Count, MsrStatisticsEntryType_HoursPoweredCount, pointofservicedriverinterface/MsrStatisticsEntryType_GoodCardAuthenticationDataCount, MsrStatisticsEntryType_ParityLRCErrorTrack2Count, pointofservicedriverinterface/MsrStatisticsEntryType_GoodWriteCount, _MsrStatisticsEntryType, MsrStatisticsEntryType_Invalid, MsrStatisticsEntryType_GoodDeviceAuthenticationCount, pointofservicedriverinterface/MsrStatisticsEntryType_GoodReadCount, MstStatisticsEntryType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MstStatisticsEntryType
-req.alt-loc: pointofservicedriverinterface.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pointofservicedriverinterface.h
+apiname: 
+-	MstStatisticsEntryType
+product: Windows
+targetos: Windows
 req.typenames: MstStatisticsEntryType
 ---
 
 # _MsrStatisticsEntryType enumeration
 
 
-
 ## -description
+
+
 This enumeration defines the kinds of magnetic stripe reader statistics.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _MstStatisticsEntryType { 
@@ -74,6 +84,9 @@ typedef enum _MstStatisticsEntryType {
 
 
 ## -enum-fields
+
+
+
 
 ### -field MsrStatisticsEntryType_Invalid
 
@@ -196,5 +209,3 @@ Number of failed card authentication attempts
 Count of entry types
 
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d1064f97-e640-49b6-be8c-19662e5de9bb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_GetFcpTargetMapping
+ms.keywords: storage.hba_getfcptargetmapping, fibreHBA_rtns_352928a8-39d5-4989-8156-0b1025b59350.xml, HBA_GetFcpTargetMapping routine [Storage Devices], HBA_GetFcpTargetMapping, hbaapi/HBA_GetFcpTargetMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBA_GetFcpTargetMapping
-req.alt-loc: Hbaapi.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Hbaapi.dll
+apiname: 
+-	HBA_GetFcpTargetMapping
+product: Windows
+targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
 
 # HBA_GetFcpTargetMapping function
 
 
-
 ## -description
+
+
 The <b>HBA_GetFcpTargetMapping</b> routine retrieves the mappings between operating system and fibre channel protocol (FCP) identifiers for a set of targets that the HBA can enumerate.
 
 
-
 ## -syntax
+
 
 ````
 HBA_STATUS HBA_API HBA_GetFcpTargetMapping(
@@ -55,9 +65,12 @@ HBA_STATUS HBA_API HBA_GetFcpTargetMapping(
 
 ## -parameters
 
-### -param HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA to query for the target mappings. The HBA returns mappings for the targets that it can enumerate. 
+
+
+### -param Handle
+
+TBD
 
 
 ### -param Mapping [in, out]
@@ -65,36 +78,65 @@ Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openad
 Pointer to a structure of type <a href="..\hbaapi\ns-hbaapi-hba_fcptargetmapping.md">HBA_FCPTargetMapping</a> that contains an array of bindings between operating system and FCP identifiers for a set of target devices. These mappings are maintained by the HBA referenced by <i>HbaHandle</i>. On input, the <b>NumberOfEntries</b> member of HBA_FCPTargetMapping should contain a number of mappings that fit in the output buffer. On output, the <b>NumberOfEntries</b> contains the number of mappings requested, or the full set of mappings, whichever is smaller. The value in <b>NumberOfEntries</b> contains the number of mappings returned even when an error occurred due to insufficient buffer space. 
 
 
+#### - HbaHandle [in]
+
+Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA to query for the target mappings. The HBA returns mappings for the targets that it can enumerate. 
+
+
 ## -returns
+
+
 The <b>HBA_GetFcpTargetMapping</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_GetFcpTargetMapping</b> returns one of the following qualifiers.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_OK</b></dt>
-</dl>Returned if all the mapping entries were retrieved. 
+</dl>
+</td>
+<td width="60%">
+Returned if all the mapping entries were retrieved. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR_MORE_DATA</b></dt>
-</dl>Returned if there was insufficient buffer space to retrieve all of the target mappings. 
+</dl>
+</td>
+<td width="60%">
+Returned if there was insufficient buffer space to retrieve all of the target mappings. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR</b></dt>
-</dl>Returned if an unspecified error occurred that prevented the retrieval of the target mappings. 
+</dl>
+</td>
+<td width="60%">
+Returned if an unspecified error occurred that prevented the retrieval of the target mappings. 
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\hbaapi\ns-hbaapi-hba_fcptargetmapping.md">HBA_FCPTargetMapping</a>
-</dt>
-<dt>
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-</dt>
-</dl>
+
+<a href="..\hbaapi\ns-hbaapi-hba_fcptargetmapping.md">HBA_FCPTargetMapping</a>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
  
 
  

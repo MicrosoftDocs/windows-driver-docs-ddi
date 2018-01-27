@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 31F291ED-0B04-4CDF-A83B-7CF3717EC234
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportAudioEngineNode, IMiniportAudioEngineNode::GetDeviceChannelPeakMeter, GetDeviceChannelPeakMeter
+ms.keywords: portcls/IMiniportAudioEngineNode::GetDeviceChannelPeakMeter, GetDeviceChannelPeakMeter, GetDeviceChannelPeakMeter method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode, GetDeviceChannelPeakMeter method [Audio Devices], IMiniportAudioEngineNode::GetDeviceChannelPeakMeter, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelPeakMeter method, audio.iminiportaudioenginenode_getdevicechannelpeakmeter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportAudioEngineNode.GetDeviceChannelPeakMeter
-req.alt-loc: Portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Portcls.h
+apiname: 
+-	IMiniportAudioEngineNode.GetDeviceChannelPeakMeter
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportAudioEngineNode::GetDeviceChannelPeakMeter method
 
 
-
 ## -description
+
+
 Gets the PeakMeter value  for the audio device channel.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS GetDeviceChannelPeakMeter(
@@ -55,6 +65,9 @@ NTSTATUS GetDeviceChannelPeakMeter(
 
 
 ## -parameters
+
+
+
 
 ### -param ulNodeId [in]
 
@@ -72,20 +85,18 @@ The PeakMeter value for the audio device channel.
 
 
 ## -returns
+
+
 <b>GetDeviceChannelPeakMeter</b> returns S_OK, if the call was successful. Otherwise, the method returns an appropriate error 
 
 code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
-</dt>
-</dl>
+
  
 
  

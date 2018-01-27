@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f4beff75-6177-40c7-a62c-6e24bc54ea58
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortWriteRegisterUshort
+ms.keywords: storprt_f4cd6932-3fd0-435f-87f3-7241a5778073.xml, StorPortWriteRegisterUshort, storage.storportwriteregisterushort, StorPortWriteRegisterUshort routine [Storage Devices], storport/StorPortWriteRegisterUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortWriteRegisterUshort
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortWriteRegisterUshort
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortWriteRegisterUshort function
 
 
-
 ## -description
+
+
 The <b>StorPortWriteRegisterUshort</b> routine transfers a ULONG value to the indicated HBA register address.
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API VOID StorPortWriteRegisterUshort(
@@ -56,6 +67,9 @@ STORPORT_API VOID StorPortWriteRegisterUshort(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -73,18 +87,16 @@ Specifies the USHORT value to be written to the HBA's register.
 
 
 ## -returns
+
+
 None 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportwriteregisterushort.md">ScsiPortWriteRegisterUshort</a>
-</dt>
-</dl>
+
  
 
  

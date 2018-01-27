@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: DDC99C5F-B959-44E4-A4A8-1CBA4E9BDA5A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBFN_USB_STRING, *PUSBFN_USB_STRING, USBFN_USB_STRING
+ms.keywords: buses.ioctl_internal_usbfn_transfer_out, IOCTL_INTERNAL_USBFN_TRANSFER_OUT control code [Buses], IOCTL_INTERNAL_USBFN_TRANSFER_OUT, usbfnioctl/IOCTL_INTERNAL_USBFN_TRANSFER_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_INTERNAL_USBFN_TRANSFER_OUT
-req.alt-loc: usbfnioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbfnioctl.h
+apiname: 
+-	IOCTL_INTERNAL_USBFN_TRANSFER_OUT
+product: Windows
+targetos: Windows
 req.typenames: *PUSBFN_USB_STRING, USBFN_USB_STRING
 req.product: Windows 10 or later.
 ---
@@ -38,41 +47,68 @@ req.product: Windows 10 or later.
 # IOCTL_INTERNAL_USBFN_TRANSFER_OUT IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
- The class driver sends this request to initiate a data transfer from the host on the specified pipe. 
 
+
+ The class driver sends this request to initiate a data transfer from the host on the specified pipe. 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 A pointer to a <b>USBFNPIPEID</b> type that specifies the pipe ID.
 
 
 ### -input-buffer-length
+
 The size of a <b>USBFNPIPEID</b> type.
 
 
 ### -output-buffer
+
 A data buffer to receive data from the host.
 
 
 ### -output-buffer-length
+
 The length of the buffer. 
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
+
+Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
+Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+For more information, see [XREF-LINK:NTSTATUS Values].
+
 
 
 ## -remarks
-This request must be sent after sending the <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_activate_usb_bus.md">IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS</a> request.</p>
+
+
+This request must be sent after sending the <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_activate_usb_bus.md">IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS</a> request.
+
+

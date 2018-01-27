@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: edfd5b49-f658-46c7-a3f3-221afb35abb7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WINBIO_SENSOR_ATTRIBUTES, WINBIO_SENSOR_ATTRIBUTES, *PWINBIO_SENSOR_ATTRIBUTES
+ms.keywords: WINBIO_SENSOR_ATTRIBUTES, biometric.winbio_sensor_attributes, _WINBIO_SENSOR_ATTRIBUTES, PWINBIO_SENSOR_ATTRIBUTES structure pointer [Biometric Devices], *PWINBIO_SENSOR_ATTRIBUTES, PWINBIO_SENSOR_ATTRIBUTES, winbio_ioctl/PWINBIO_SENSOR_ATTRIBUTES, biometric_ref_958b511b-a855-4897-87d8-f0d7bb4970ce.xml, winbio_ioctl/WINBIO_SENSOR_ATTRIBUTES, WINBIO_SENSOR_ATTRIBUTES structure [Biometric Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WINBIO_SENSOR_ATTRIBUTES
-req.alt-loc: winbio_ioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: WINBIO_SENSOR_ATTRIBUTES, *PWINBIO_SENSOR_ATTRIBUTES
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	winbio_ioctl.h
+apiname: 
+-	WINBIO_SENSOR_ATTRIBUTES
+product: Windows
+targetos: Windows
+req.typenames: *PWINBIO_SENSOR_ATTRIBUTES, WINBIO_SENSOR_ATTRIBUTES
 req.product: Windows 10 or later.
 ---
 
 # _WINBIO_SENSOR_ATTRIBUTES structure
 
 
-
 ## -description
+
+
 The <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_get_attributes.md">IOCTL_BIOMETRIC_GET_ATTRIBUTES</a> structure returns the WINBIO_SENSOR_ATTRIBUTES structure as output.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WINBIO_SENSOR_ATTRIBUTES {
@@ -66,6 +76,9 @@ typedef struct _WINBIO_SENSOR_ATTRIBUTES {
 
 ## -struct-fields
 
+
+
+
 ### -field PayloadSize
 
 A DWORD value that indicates the total size of the payload, including the fixed length structure and any variable data at the end.
@@ -74,7 +87,6 @@ A DWORD value that indicates the total size of the payload, including the fixed 
 ### -field WinBioHresult
 
 An HRESULT value that indicates containing status detail of the I/O operation.   The following table includes possible values.
-
 <table>
 <tr>
 <th>Status value</th>
@@ -100,8 +112,7 @@ The driver could not gather the necessary information from the device.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field WinBioVersion
@@ -119,7 +130,6 @@ A DWORD bitmask of type WINBIO_BIOMETRIC_TYPE that contains biometric data that 
 A WINBIO_BIOMETRIC_SENSOR_SUBTYPE subtype that contains additional information about the sensor.  For example, this member could specify whether the sensor requires the user to simply touch the sensor or swipe a finger over the sensor.
 
 WINBIO_BIOMETRIC_SENSOR_SUBTYPE can contain the values in the following table.
-
 <table>
 <tr>
 <th>
@@ -153,8 +163,7 @@ The device requires the user to place their entire fingerprint on a sensor pad.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Capabilities
@@ -162,7 +171,6 @@ The device requires the user to place their entire fingerprint on a sensor pad.
 A WINBIO_CAPABILITIES subtype, which indicates which capabilities are supported by the device. 
 
 WINBIO_CAPABILITIES can contain the values in the following table.
-
 <table>
 <tr>
 <th>
@@ -290,8 +298,7 @@ The device supports security methods available in the WinBio engine adapter inte
 <div> </div>
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field ManufacturerName
@@ -324,15 +331,10 @@ A structure of type WINBIO_STRING that contains the serial number of the device,
 A structure of type <a href="..\winbio_types\ns-winbio_types-_winbio_registered_format.md">WINBIO_REGISTERED_FORMAT</a> that contains a list of the formats supported by the driver and device. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_get_attributes.md">IOCTL_BIOMETRIC_GET_ATTRIBUTES</a>
-</dt>
-</dl>
+
  
 
  

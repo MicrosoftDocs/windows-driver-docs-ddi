@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 357C62F3-43FE-4132-9233-7BFAD2CE95C5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_CYCLE_PORT_PARAMS, *PUSB_CYCLE_PORT_PARAMS, USB_CYCLE_PORT_PARAMS
+ms.keywords: buses.usb_cycle_port_params, USB_CYCLE_PORT_PARAMS structure [Buses], PUSB_CYCLE_PORT_PARAMS structure pointer [Buses], *PUSB_CYCLE_PORT_PARAMS, usbioctl/PUSB_CYCLE_PORT_PARAMS, usbioctl/USB_CYCLE_PORT_PARAMS, PUSB_CYCLE_PORT_PARAMS, USB_CYCLE_PORT_PARAMS, _USB_CYCLE_PORT_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_CYCLE_PORT_PARAMS
-req.alt-loc: usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,23 +29,35 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-req.typenames: *PUSB_CYCLE_PORT_PARAMS, USB_CYCLE_PORT_PARAMS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbioctl.h
+apiname: 
+-	USB_CYCLE_PORT_PARAMS
+product: Windows
+targetos: Windows
+req.typenames: USB_CYCLE_PORT_PARAMS, *PUSB_CYCLE_PORT_PARAMS
 req.product: Windows 10 or later.
 ---
 
 # _USB_CYCLE_PORT_PARAMS structure
 
 
-
 ## -description
+
+
 The <b>USB_CYCLE_PORT_PARAMS</b> structure is used with the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_hub_cycle_port.md">IOCTL_USB_HUB_CYCLE_PORT</a> I/O control request to power cycle the port that is associated with the PDO that receives the request.<div class="alert"><b>Note</b>  <a href="..\usbioctl\ni-usbioctl-ioctl_usb_hub_cycle_port.md">IOCTL_USB_HUB_CYCLE_PORT</a> has been deprecated in Windows Vista and later operating systems. Do not use. 
 </div>
 <div> </div>
 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USB_CYCLE_PORT_PARAMS {
@@ -59,6 +69,9 @@ typedef struct _USB_CYCLE_PORT_PARAMS {
 
 ## -struct-fields
 
+
+
+
 ### -field ConnectionIndex
 
 Specifies the port number starting at 1.
@@ -69,18 +82,12 @@ Specifies the port number starting at 1.
 On return, contains the USBD status of the operation.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-<dt>
+
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_hub_cycle_port.md">IOCTL_USB_HUB_CYCLE_PORT</a>
-</dt>
-</dl>
+
  
 
  

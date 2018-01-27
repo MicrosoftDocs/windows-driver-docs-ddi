@@ -7,8 +7,8 @@ old-location: netvista\dot11_channel_hint.htm
 old-project: netvista
 ms.assetid: B3E395C3-C642-4A5E-9005-88323A80F90E
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DOT11_CHANNEL_HINT, *PDOT11_CHANNEL_HINT, DOT11_CHANNEL_HINT
+ms.date: 1/18/2018
+ms.keywords: PDOT11_CHANNEL_HINT, DOT11_CHANNEL_HINT structure [Network Drivers Starting with Windows Vista], netvista.dot11_channel_hint, *PDOT11_CHANNEL_HINT, windot11/DOT11_CHANNEL_HINT, DOT11_CHANNEL_HINT, windot11/PDOT11_CHANNEL_HINT, PDOT11_CHANNEL_HINT structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DOT11_CHANNEL_HINT
-req.alt-loc: Windot11.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Windot11.h
+apiname: 
+-	DOT11_CHANNEL_HINT
+product: Windows
+targetos: Windows
 req.typenames: *PDOT11_CHANNEL_HINT, DOT11_CHANNEL_HINT
 req.product: Windows 10 or later.
 ---
@@ -38,10 +47,14 @@ req.product: Windows 10 or later.
 # DOT11_CHANNEL_HINT structure
 
 
-
 ## -description
 
+
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_CHANNEL_HINT structure describes suggested channel numbers for an NLO operation.
+
+
 ## -syntax
+
 
 ````
 typedef struct _DOT11_CHANNEL_HINT {
@@ -53,6 +66,9 @@ typedef struct _DOT11_CHANNEL_HINT {
 
 ## -struct-fields
 
+
+
+
 ### -field Dot11PhyType
 
 The 802.11 PHY and media type.
@@ -62,5 +78,3 @@ The 802.11 PHY and media type.
 
 Channel number.
 
-
-## -remarks

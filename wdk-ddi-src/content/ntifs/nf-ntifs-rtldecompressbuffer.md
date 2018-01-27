@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4f82d094-e6be-4367-9146-1fa3f200ffa0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlDecompressBuffer
+ms.keywords: COMPRESSION_FORMAT_DEFAULT, ifsk.rtldecompressbuffer, COMPRESSION_FORMAT_XPRESS, rtlref_d19521fb-b086-4ee4-ae65-6354a89aeff9.xml, RtlDecompressBuffer, COMPRESSION_FORMAT_LZNT1, ntifs/RtlDecompressBuffer, COMPRESSION_FORMAT_NONE, RtlDecompressBuffer function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting in Windows XP.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlDecompressBuffer
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlDecompressBuffer
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlDecompressBuffer function
 
 
-
 ## -description
+
+
 The <b>RtlDecompressBuffer</b> function decompresses an entire compressed buffer.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlDecompressBuffer(
@@ -59,19 +69,21 @@ NTSTATUS RtlDecompressBuffer(
 
 ## -parameters
 
+
+
+
 ### -param CompressionFormat [in]
 
 A bitmask that specifies the compression format of the compressed buffer. This parameter must be set to COMPRESSION_FORMAT_LZNT1. The meaning of this and other related compression format values are as follows.
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -param COMPRESSION_FORMAT_NONE
-
+<td width="40%"><a id="COMPRESSION_FORMAT_NONE"></a><a id="compression_format_none"></a><dl>
+<dt><b>COMPRESSION_FORMAT_NONE</b></dt>
+</dl>
 </td>
 <td width="60%">
 Not supported by this function.
@@ -79,9 +91,9 @@ Not supported by this function.
 </td>
 </tr>
 <tr>
-
-### -param COMPRESSION_FORMAT_DEFAULT
-
+<td width="40%"><a id="COMPRESSION_FORMAT_DEFAULT"></a><a id="compression_format_default"></a><dl>
+<dt><b>COMPRESSION_FORMAT_DEFAULT</b></dt>
+</dl>
 </td>
 <td width="60%">
 Not supported by this function.
@@ -89,9 +101,9 @@ Not supported by this function.
 </td>
 </tr>
 <tr>
-
-### -param COMPRESSION_FORMAT_LZNT1
-
+<td width="40%"><a id="COMPRESSION_FORMAT_LZNT1"></a><a id="compression_format_lznt1"></a><dl>
+<dt><b>COMPRESSION_FORMAT_LZNT1</b></dt>
+</dl>
 </td>
 <td width="60%">
 The function will perform LZ decompression.
@@ -99,17 +111,16 @@ The function will perform LZ decompression.
 </td>
 </tr>
 <tr>
-
-### -param COMPRESSION_FORMAT_XPRESS
-
+<td width="40%"><a id="COMPRESSION_FORMAT_XPRESS"></a><a id="compression_format_xpress"></a><dl>
+<dt><b>COMPRESSION_FORMAT_XPRESS</b></dt>
+</dl>
 </td>
 <td width="60%">
 The function will perform Xpress decompression.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param UncompressedBuffer [out]
@@ -138,32 +149,83 @@ A pointer to a caller-allocated variable that receives the size, in bytes, of th
 
 
 ## -returns
+
+
 <b>RtlDecompressBuffer</b> returns an appropriate error status value, such as one of the following.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The <i>CompressedBuffer</i> buffer was successfully decompressed.
+</dl>
+</td>
+<td width="60%">
+The <i>CompressedBuffer</i> buffer was successfully decompressed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>An invalid compression format was specified through the <i>CompressionFormat</i> parameter. If <i>CompressionFormat</i> is either COMPRESSION_FORMAT_NONE or COMPRESSION_FORMAT_DEFAULT (but not both), this value is returned.
+</dl>
+</td>
+<td width="60%">
+An invalid compression format was specified through the <i>CompressionFormat</i> parameter. If <i>CompressionFormat</i> is either COMPRESSION_FORMAT_NONE or COMPRESSION_FORMAT_DEFAULT (but not both), this value is returned.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNSUPPORTED_COMPRESSION</b></dt>
-</dl>An invalid compression format was specified through the <i>CompressionFormat</i> parameter. If <i>CompressionFormat</i> is not one of the following, STATUS_UNSUPPORTED_COMPRESSION is returned:
+</dl>
+</td>
+<td width="60%">
+An invalid compression format was specified through the <i>CompressionFormat</i> parameter. If <i>CompressionFormat</i> is not one of the following, STATUS_UNSUPPORTED_COMPRESSION is returned:
 
+<ul>
+<li>
  COMPRESSION_FORMAT_LZNT1
 
+</li>
+<li>
  COMPRESSION_FORMAT_XPRESS
 
+</li>
+<li>
  COMPRESSION_FORMAT_NONE (in this case, STATUS_INVALID_PARAMETER is returned).
 
+</li>
+<li>
  COMPRESSION_FORMAT_DEFAULT (in this case, STATUS_INVALID_PARAMETER is returned).
+
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BAD_COMPRESSION_BUFFER</b></dt>
-</dl><i>UncompressedBuffer</i> is not large enough to contain the uncompressed data.
+</dl>
+</td>
+<td width="60%">
+<i>UncompressedBuffer</i> is not large enough to contain the uncompressed data.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The <b>RtlDecompressBuffer</b> function takes as input an entire compressed buffer and produces its decompressed equivalent provided that the uncompressed data fits within the specified destination buffer.
 
 To decompress only a portion of a compressed buffer (that is, a "fragment" of the buffer), use the <a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a> function.
@@ -171,27 +233,21 @@ To decompress only a portion of a compressed buffer (that is, a "fragment" of th
 To compress an uncompressed buffer, use the <a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtldecompressbufferex.md">RtlDecompressBufferEx</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtldecompressbufferex2.md">RtlDecompressBufferEx2</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtldecompressfragmentex.md">RtlDecompressFragmentEx</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
+
+<a href="..\ntifs\nf-ntifs-rtldecompressbufferex.md">RtlDecompressBufferEx</a>
+
+<a href="..\ntifs\nf-ntifs-rtldecompressbufferex2.md">RtlDecompressBufferEx2</a>
+
+<a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a>
+
  
 
  

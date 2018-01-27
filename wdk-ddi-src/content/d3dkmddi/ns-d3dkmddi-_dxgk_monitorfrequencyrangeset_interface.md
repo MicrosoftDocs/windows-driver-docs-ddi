@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4a973ecd-341f-4766-9fed-f56e55f8deae
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_MONITORFREQUENCYRANGESET_INTERFACE, DXGK_MONITORFREQUENCYRANGESET_INTERFACE
+ms.keywords: DXGK_MONITORFREQUENCYRANGESET_INTERFACE, _DXGK_MONITORFREQUENCYRANGESET_INTERFACE, DXGK_MONITORFREQUENCYRANGESET_INTERFACE structure [Display Devices], DmStructs_7ff19615-df83-4d5e-91c2-8a94a1cfeea3.xml, display.dxgk_monitorfrequencyrangeset_interface, d3dkmddi/DXGK_MONITORFREQUENCYRANGESET_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_MONITORFREQUENCYRANGESET_INTERFACE
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_MONITORFREQUENCYRANGESET_INTERFACE
+product: Windows
+targetos: Windows
 req.typenames: DXGK_MONITORFREQUENCYRANGESET_INTERFACE
 ---
 
 # _DXGK_MONITORFREQUENCYRANGESET_INTERFACE structure
 
 
-
 ## -description
+
+
 The DXGK_MONITORFREQUENCYRANGESET_INTERFACE structure contains pointers to functions that belong to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568430">Monitor Frequency Range Set interface</a>, which is implemented by the video present network (VidPN) manager.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_MONITORFREQUENCYRANGESET_INTERFACE {
@@ -56,6 +66,9 @@ typedef struct _DXGK_MONITORFREQUENCYRANGESET_INTERFACE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pfnGetNumFrequencyRanges
 
@@ -76,5 +89,3 @@ A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorfrequencyranges
 
 A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorfrequencyrangeset_releasefrequencyrangeinfo.md">pfnReleaseFrequencyRangeInfo</a> function.
 
-
-## -remarks

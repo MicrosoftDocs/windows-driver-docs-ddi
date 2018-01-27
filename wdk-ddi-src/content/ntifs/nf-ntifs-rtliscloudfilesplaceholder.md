@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9FF2EC69-0844-4FD7-A2BC-F16C42922212
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlIsCloudFilesPlaceholder
+ms.keywords: ifsk.rtliscloudfilesplaceholder, RtlIsCloudFilesPlaceholder, RtlIsCloudFilesPlaceholder routine [Installable File System Drivers], ntifs/RtlIsCloudFilesPlaceholder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10, version 1709.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlIsCloudFilesPlaceholder
-req.alt-loc: Ntdll.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: Ntdll.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Ntdll.dll
+apiname: 
+-	RtlIsCloudFilesPlaceholder
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlIsCloudFilesPlaceholder function
 
 
-
 ## -description
+
+
 The <b>RtlIsCloudFilesPlaceholder</b> routine determines if a file or a directory is a CloudFiles placeholder,
     based on the <b>FileAttributes</b> and <b>ReparseTag</b> values of the file. These values can be obtained by listing the directory containing the file or by directly querying <b>FileAttributeTagInfo</b> on the file.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN RtlIsCloudFilesPlaceholder(
@@ -55,6 +65,9 @@ BOOLEAN RtlIsCloudFilesPlaceholder(
 
 
 ## -parameters
+
+
+
 
 ### -param FileAttributes [in]
 
@@ -67,19 +80,17 @@ The ReparseTag or EaSize of a file or directory.
 
 
 ## -returns
+
+
 This function returns <b>TRUE</b> if the file or directory is a CloudFiles partial or full placeholder. It  returns <b>FALSE</b> if either the
         file or directory is not a CloudFiles placeholder. 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtlispartialplaceholder.md">RtlIsPartialPlaceholder</a>
-</dt>
-</dl>
+
  
 
  

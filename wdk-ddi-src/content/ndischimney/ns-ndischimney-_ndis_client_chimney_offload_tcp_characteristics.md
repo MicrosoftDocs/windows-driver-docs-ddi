@@ -7,8 +7,8 @@ old-location: netvista\ndis_client_chimney_offload_tcp_characteristics.htm
 old-project: netvista
 ms.assetid: 1925cfd4-f83f-48a5-b928-2c663ac0dc61
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, *PNDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
+ms.date: 1/18/2018
+ms.keywords: netvista.ndis_client_chimney_offload_tcp_characteristics, ndischimney/PNDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, tcp_chim_struct_8bfa1be6-3a5f-463a-a2c2-8f2a1f7e55e3.xml, ndischimney/NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, PNDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, *PNDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, _NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
-req.alt-loc: ndischimney.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, *PNDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ndischimney.h
+apiname: 
+-	NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
 ---
 
 # _NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 The NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure specifies a protocol or intermediate
   driver's TCP chimney offload-specific entry points.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS {
@@ -64,6 +74,9 @@ typedef struct _NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -90,46 +103,48 @@ The chimney offload type. The only allowable value is
 ### -field TcpOffloadSendCompleteHandler
 
 The entry point of the driver's 
-     <a href="..\ndischimney\nc-ndischimney-tcp_offload_send_complete_handler.md">
-     ProtocolTcpOffloadSendComplete</a> function.
+     <mshelp:link keywords="netvista.protocoltcpoffloadsendcomplete" tabindex="0"><i>
+     ProtocolTcpOffloadSendComplete</i></mshelp:link> function.
 
 
 ### -field TcpOffloadReceiveCompleteHandler
 
 The entry point of the driver's 
-     <a href="..\ndischimney\nc-ndischimney-tcp_offload_recv_complete_handler.md">
-     ProtocolTcpOffloadReceiveComplete</a> function.
+     <mshelp:link keywords="netvista.protocoltcpoffloadreceivecomplete" tabindex="0"><i>
+     ProtocolTcpOffloadReceiveComplete</i></mshelp:link> function.
 
 
 ### -field TcpOffloadDisconnectCompleteHandler
 
 The entry point of the driver's 
-     <a href="..\ndischimney\nc-ndischimney-tcp_offload_disconnect_complete_handler.md">
-     ProtocolTcpOffloadDisconnectComplete</a> function.
+     <mshelp:link keywords="netvista.protocoltcpoffloaddisconnectcomplete" tabindex="0"><i>
+     ProtocolTcpOffloadDisconnectComplete</i></mshelp:link> function.
 
 
 ### -field TcpOffloadForwardCompleteHandler
 
 The entry point of the driver's 
-     <a href="..\ndischimney\nc-ndischimney-tcp_offload_forward_complete_handler.md">
-     ProtocolTcpOffloadForwardComplete</a> function.
+     <mshelp:link keywords="netvista.protocoltcpoffloadforwardcomplete" tabindex="0"><i>
+     ProtocolTcpOffloadForwardComplete</i></mshelp:link> function.
 
 
 ### -field TcpOffloadEventHandler
 
 The entry point of the driver's 
-     <a href="..\ndischimney\nc-ndischimney-tcp_offload_event_handler.md">
-     ProtocolTcpOffloadEvent</a> function.
+     <mshelp:link keywords="netvista.protocoltcpoffloadevent" tabindex="0"><i>
+     ProtocolTcpOffloadEvent</i></mshelp:link> function.
 
 
 ### -field TcpOffloadReceiveIndicateHandler
 
 The entry point of the driver's 
-     <a href="..\ndischimney\nc-ndischimney-tcp_offload_receive_indicate_handler.md">
-     ProtocolTcpOffloadReceiveIndicate</a> function.
+     <mshelp:link keywords="netvista.protocoltcpoffloadreceiveindicate" tabindex="0"><i>
+     ProtocolTcpOffloadReceiveIndicate</i></mshelp:link> function.
 
 
 ## -remarks
+
+
 To register its TCP chimney offload entry points, a protocol or intermediate driver calls the 
     <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a> function
     in the context of the 
@@ -138,40 +153,32 @@ To register its TCP chimney offload entry points, a protocol or intermediate dri
     NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.protocoltcpoffloadreceivecomplete" tabindex="0"><i>
+   ProtocolTcpOffloadReceiveComplete</i></mshelp:link>
+
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
-</dt>
-<dt>
-<a href="..\ndischimney\nc-ndischimney-tcp_offload_disconnect_complete_handler.md">
-   ProtocolTcpOffloadDisconnectComplete</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.protocoltcpoffloadsendcomplete" tabindex="0"><i>
+   ProtocolTcpOffloadSendComplete</i></mshelp:link>
+
 <a href="..\ndischimney\nc-ndischimney-tcp_offload_event_handler.md">ProtocolTcpOffloadEvent</a>
-</dt>
-<dt>
-<a href="..\ndischimney\nc-ndischimney-tcp_offload_recv_complete_handler.md">
-   ProtocolTcpOffloadReceiveComplete</a>
-</dt>
-<dt>
-<a href="..\ndischimney\nc-ndischimney-tcp_offload_receive_indicate_handler.md">
-   ProtocolTcpOffloadReceiveIndicate</a>
-</dt>
-<dt>
-<a href="..\ndischimney\nc-ndischimney-tcp_offload_send_complete_handler.md">
-   ProtocolTcpOffloadSendComplete</a>
-</dt>
-</dl>
+
+<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
+
+<mshelp:link keywords="netvista.protocoltcpoffloaddisconnectcomplete" tabindex="0"><i>
+   ProtocolTcpOffloadDisconnectComplete</i></mshelp:link>
+
+<mshelp:link keywords="netvista.protocoltcpoffloadreceiveindicate" tabindex="0"><i>
+   ProtocolTcpOffloadReceiveIndicate</i></mshelp:link>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

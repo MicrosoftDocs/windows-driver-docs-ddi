@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 5E639331-5929-4575-855F-CAFB4E77B66D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT
+ms.keywords: sensorsdef/SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT, SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function [Sensor Devices], SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT, sensors.sensor_property_list_calculate_max_count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT
-req.alt-loc: Sensorsdef.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Sensorsdef.h
+apiname: 
+-	SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT
+product: Windows
+targetos: Windows
 req.typenames: SENSOR_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function
 
 
-
 ## -description
+
+
 This function calculates the number of PROPERTYKEY elements.
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE ULONG SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT(
@@ -55,24 +65,25 @@ FORCEINLINE ULONG SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT(
 
 ## -parameters
 
+
+
+
 ### -param pPropertyList [in]
 
 A pointer to a <a href="..\sensorsdef\ns-sensorsdef-sensor_property_list.md">SENSOR_PROPERTY_LIST</a> structure.
 
 
 ## -returns
+
+
 The <b>SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT</b> function returns a ULONG value that represents the number of PROPERTYKEY elements.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\sensorsdef\ns-sensorsdef-sensor_property_list.md">SENSOR_PROPERTY_LIST</a>
-</dt>
-</dl>
+
  
 
  

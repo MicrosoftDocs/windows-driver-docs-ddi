@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2E727D84-193C-45AA-AEC4-75B72BB23FC9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _ROOTHUB_30PORTS_INFO, ROOTHUB_30PORTS_INFO, *PROOTHUB_30PORTS_INFO
+ms.keywords: ROOTHUB_30PORTS_INFO, _ROOTHUB_30PORTS_INFO, ROOTHUB_30PORTS_INFO structure [Buses], ucxroothub/_ROOTHUB_30PORTS_INFO, ucxroothub/P_ROOTHUB_30PORTS_INFO, buses._roothub_30ports_info, *PROOTHUB_30PORTS_INFO, P_ROOTHUB_30PORTS_INFO, P_ROOTHUB_30PORTS_INFO structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ROOTHUB_30PORTS_INFO
-req.alt-loc: ucxroothub.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-req.typenames: ROOTHUB_30PORTS_INFO, *PROOTHUB_30PORTS_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ucxroothub.h
+apiname: 
+-	ROOTHUB_30PORTS_INFO
+product: Windows
+targetos: Windows
+req.typenames: *PROOTHUB_30PORTS_INFO, ROOTHUB_30PORTS_INFO
 req.product: Windows 10 or later.
 ---
 
 # _ROOTHUB_30PORTS_INFO structure
 
 
-
 ## -description
+
+
 Provides information about USB 3.0 root hub ports. This structure is passed by UCX in the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_get_30port_info.md">EVT_UCX_ROOTHUB_GET_30PORT_INFO</a> callback function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ROOTHUB_30PORTS_INFO {
@@ -57,6 +67,9 @@ typedef struct _ROOTHUB_30PORTS_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -78,15 +91,10 @@ The size of the <a href="..\ucxroothub\ns-ucxroothub-_roothub_30port_info.md">RO
 A pointer to an array of  <a href="..\ucxroothub\ns-ucxroothub-_roothub_30port_info.md">ROOTHUB_30PORT_INFO</a> structures.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_get_30port_info.md">EVT_UCX_ROOTHUB_GET_30PORT_INFO</a>
-</dt>
-</dl>
+
  
 
  

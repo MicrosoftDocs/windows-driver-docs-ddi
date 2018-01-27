@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2A8EF694-B699-46A0-9B1D-B7D0831F3944
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortInvokeAcpiMethod
+ms.keywords: storage.storportinvokeacpimethod, StorPortInvokeAcpiMethod routine [Storage Devices], storport/StorPortInvokeAcpiMethod, StorPortInvokeAcpiMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 8 and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortInvokeAcpiMethod
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	StorPortInvokeAcpiMethod
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # StorPortInvokeAcpiMethod function
 
 
-
 ## -description
+
+
 The <b>StorPortInvokeAcpiMethod</b> routine executes an ACPI method for a storage device.
 
 
-
 ## -syntax
+
 
 ````
 ULONG StorPortInvokeAcpiMethod(
@@ -61,6 +71,9 @@ ULONG StorPortInvokeAcpiMethod(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -103,32 +116,91 @@ A pointer to the length, in bytes, of the data returned in <i>OutputBuffer</i>.
 
 
 ## -returns
+
+
 The <b>StorPortInvokeAcpiMethod</b> routine returns one of these status codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_UNSUCCESSFUL</b></dt>
-</dl>A general error condition exists.
+</dl>
+</td>
+<td width="60%">
+A general error condition exists.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl><i>HwDeviceExtension</i>,  <i>InputBuffer</i>, or <i>OutputBuffer</i> is NULL.
+</dl>
+</td>
+<td width="60%">
+<i>HwDeviceExtension</i>,  <i>InputBuffer</i>, or <i>OutputBuffer</i> is NULL.
 
 -or-
 
 <i>Address</i> refers to a target that does not exist.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_NOT_IMPLEMENTED</b></dt>
-</dl> The ACPI method is not implemented.
+</dl>
+</td>
+<td width="60%">
+ The ACPI method is not implemented.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl> Insufficient resources are available to execute the method, or <i>OutputBufferLength</i> is not large enough for the returned data.
+</dl>
+</td>
+<td width="60%">
+ Insufficient resources are available to execute the method, or <i>OutputBufferLength</i> is not large enough for the returned data.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_IRQL</b></dt>
-</dl>Current IRQL &gt; PASSIVE_LEVEL.
+</dl>
+</td>
+<td width="60%">
+Current IRQL &gt; PASSIVE_LEVEL.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>The method executed successfully.
+</dl>
+</td>
+<td width="60%">
+The method executed successfully.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-The <b>StorPortInvokeAcpiMethod</b> enables a miniport driver to invoke ACPI methods defined for storage controllers and storage LUNs. The method names are four-byte character strings that occupy a <b>ULONG</b> value in <i>MethodName</i>.</p>
+
+
+The <b>StorPortInvokeAcpiMethod</b> enables a miniport driver to invoke ACPI methods defined for storage controllers and storage LUNs. The method names are four-byte character strings that occupy a <b>ULONG</b> value in <i>MethodName</i>.
+
+

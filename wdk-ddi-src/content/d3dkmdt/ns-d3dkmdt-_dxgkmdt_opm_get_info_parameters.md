@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88e12eb6-6015-44bc-b170-cc152fdd1397
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKMDT_OPM_GET_INFO_PARAMETERS, DXGKMDT_OPM_GET_INFO_PARAMETERS, *PDXGKMDT_OPM_GET_INFO_PARAMETERS
+ms.keywords: DXGKMDT_OPM_GET_INFO_PARAMETERS, DmStructs_e6abe7a0-8285-4f66-97a3-d2c04c70bcd3.xml, DXGKMDT_OPM_GET_INFO_PARAMETERS structure [Display Devices], PDXGKMDT_OPM_GET_INFO_PARAMETERS structure pointer [Display Devices], _DXGKMDT_OPM_GET_INFO_PARAMETERS, d3dkmdt/DXGKMDT_OPM_GET_INFO_PARAMETERS, d3dkmdt/PDXGKMDT_OPM_GET_INFO_PARAMETERS, display.dxgkmdt_opm_get_info_parameters, PDXGKMDT_OPM_GET_INFO_PARAMETERS, *PDXGKMDT_OPM_GET_INFO_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKMDT_OPM_GET_INFO_PARAMETERS
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	DXGKMDT_OPM_GET_INFO_PARAMETERS
+product: Windows
+targetos: Windows
 req.typenames: DXGKMDT_OPM_GET_INFO_PARAMETERS, *PDXGKMDT_OPM_GET_INFO_PARAMETERS
 ---
 
 # _DXGKMDT_OPM_GET_INFO_PARAMETERS structure
 
 
-
 ## -description
+
+
 The DXGKMDT_OPM_GET_INFO_PARAMETERS structure contains parameters that are used to retrieve information from a protected output object in a call to the <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKMDT_OPM_GET_INFO_PARAMETERS {
@@ -58,6 +68,9 @@ typedef struct _DXGKMDT_OPM_GET_INFO_PARAMETERS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field omac
 
@@ -82,7 +95,6 @@ A <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RAND
 ### -field guidInformation
 
 The GUID that is used to retrieve the information. <b>guidInformation</b> can be set to one of the following GUIDs:
-
 <ul>
 <li>
 DXGKMDT_OPM_GET_CURRENT_HDCP_SRM_VERSION
@@ -146,23 +158,22 @@ The DXGKMDT_OPM_GET_ACTUAL_PROTECTION_LEVEL and DXGKMDT_OPM_GET_VIRTUAL_PROTECTI
 
 
 ## -remarks
+
+
 All of the data after the <b>omac</b> member in DXGKMDT_OPM_GET_INFO_PARAMETERS is signed; the signature is the OMAC and is stored in the <b>omac</b> member. The data is signed by using the <a href="http://go.microsoft.com/fwlink/p/?linkid=70417">OMAC-1 algorithm</a>. 
 
 DXGKMDT_OPM_GET_INFO_PARAMETERS is not used for COPP emulation; instead, the <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure is used for COPP. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_omac.md">DXGKMDT_OPM_OMAC</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
-</dt>
-</dl>
+
  
 
  

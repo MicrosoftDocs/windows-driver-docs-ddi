@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 60a04887-d696-42b2-95af-cce1c0bc102b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_DATAFORMAT_VIDEOINFOHEADER, *PKS_DATAFORMAT_VIDEOINFOHEADER, KS_DATAFORMAT_VIDEOINFOHEADER
+ms.keywords: *PKS_DATAFORMAT_VIDEOINFOHEADER, vidcapstruct_756be7d3-2dca-4e93-a113-7ee3871f3107.xml, PKS_DATAFORMAT_VIDEOINFOHEADER structure pointer [Streaming Media Devices], stream.ks_dataformat_videoinfoheader, PKS_DATAFORMAT_VIDEOINFOHEADER, ksmedia/KS_DATAFORMAT_VIDEOINFOHEADER, ksmedia/PKS_DATAFORMAT_VIDEOINFOHEADER, tagKS_DATAFORMAT_VIDEOINFOHEADER, KS_DATAFORMAT_VIDEOINFOHEADER structure [Streaming Media Devices], KS_DATAFORMAT_VIDEOINFOHEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_DATAFORMAT_VIDEOINFOHEADER
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KS_DATAFORMAT_VIDEOINFOHEADER
+product: Windows
+targetos: Windows
 req.typenames: *PKS_DATAFORMAT_VIDEOINFOHEADER, KS_DATAFORMAT_VIDEOINFOHEADER
 ---
 
 # tagKS_DATAFORMAT_VIDEOINFOHEADER structure
 
 
-
 ## -description
+
+
 The KS_DATAFORMAT_VIDEOINFOHEADER structure describes a video stream that does not include bob or weave settings.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagKS_DATAFORMAT_VIDEOINFOHEADER {
@@ -54,6 +64,9 @@ typedef struct tagKS_DATAFORMAT_VIDEOINFOHEADER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DataFormat
 
@@ -66,23 +79,22 @@ Specifies the details of the video stream.
 
 
 ## -remarks
+
+
 This format is used for most capture output streams.
 
 Minidrivers that must specify a data format that contains settings for bob or weave must use the <a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader2.md">KS_DATAFORMAT_VIDEOINFOHEADER2</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader2.md">KS_DATAFORMAT_VIDEOINFOHEADER2</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
-</dt>
-</dl>
+
+<a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader2.md">KS_DATAFORMAT_VIDEOINFOHEADER2</a>
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
  
 
  

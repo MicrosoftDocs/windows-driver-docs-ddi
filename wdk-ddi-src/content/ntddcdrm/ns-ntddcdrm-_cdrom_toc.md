@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 84312199-5055-41a1-9aa2-4ee91a15d5bf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CDROM_TOC, *PCDROM_TOC, CDROM_TOC
+ms.keywords: CDROM_TOC, storage.cdrom_toc, *PCDROM_TOC, PCDROM_TOC, PCDROM_TOC structure pointer [Storage Devices], ntddcdrm/PCDROM_TOC, ntddcdrm/CDROM_TOC, _CDROM_TOC, CDROM_TOC structure [Storage Devices], structs-CD-ROM_943f0104-ee61-4f40-a1a1-8392a15f3fd1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CDROM_TOC
-req.alt-loc: ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PCDROM_TOC, CDROM_TOC
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdrm.h
+apiname: 
+-	CDROM_TOC
+product: Windows
+targetos: Windows
+req.typenames: CDROM_TOC, *PCDROM_TOC
 ---
 
 # _CDROM_TOC structure
 
 
-
 ## -description
+
+
 Device control IRPs with a control code of <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a> and a format of CDROM_READ_TOC_EX_FORMAT_TOC return their output data in this structure followed by a series of <a href="..\ntddcdrm\ns-ntddcdrm-_track_data.md">TRACK_DATA</a> structures.  
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CDROM_TOC {
@@ -56,6 +66,9 @@ typedef struct _CDROM_TOC {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Length
 
@@ -78,21 +91,20 @@ Pointer to an array of structures of type <a href="..\ntddcdrm\ns-ntddcdrm-_trac
 
 
 ## -remarks
+
+
 The output data contains table of contents information for one or more of the specified sessions.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
-</dt>
-<dt>
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_track_data.md">TRACK_DATA</a>
-</dt>
-</dl>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
+
  
 
  

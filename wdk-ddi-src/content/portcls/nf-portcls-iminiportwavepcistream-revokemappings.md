@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a6534917-5fe6-449b-8e85-398d26730f66
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWavePciStream, IMiniportWavePciStream::RevokeMappings, RevokeMappings
+ms.keywords: IMiniportWavePciStream::RevokeMappings, portcls/IMiniportWavePciStream::RevokeMappings, RevokeMappings method [Audio Devices], IMiniportWavePciStream interface [Audio Devices], RevokeMappings method, RevokeMappings method [Audio Devices], IMiniportWavePciStream interface, audio.iminiportwavepcistream_revokemappings, RevokeMappings, audmp-routines_f995bc15-917a-416d-9066-3d5667866973.xml, IMiniportWavePciStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportWavePciStream.RevokeMappings
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IMiniportWavePciStream.RevokeMappings
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportWavePciStream::RevokeMappings method
 
 
-
 ## -description
+
+
 The <code>RevokeMappings</code> method revokes mappings that were previously obtained through <a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RevokeMappings(
@@ -55,6 +65,9 @@ NTSTATUS RevokeMappings(
 
 
 ## -parameters
+
+
+
 
 ### -param FirstTag [in]
 
@@ -72,17 +85,26 @@ Output pointer for the count of revoked mappings. This parameter points to a ULO
 
 
 ## -returns
+
+
 <code>RevokeMappings</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
-## -remarks
-The port driver calls <code>RevokeMappings</code> to revoke the stream's mappings when:
 
+## -remarks
+
+
+The port driver calls <code>RevokeMappings</code> to revoke the stream's mappings when:
+<ul>
+<li>
 An I/O request (IRP) is canceled and the previously mapped memory might no longer be available.
 
+</li>
+<li>
 The stream state changes to KSSTATE_STOP (see <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>) and the device no longer has need for the mappings.
 
-The miniport driver keeps track of the order in which it acquires its mappings from calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>. The <code>RevokeMapping</code> method revokes all mappings in the sequence that begins with the mapping identified by <i>FirstTag</i> and ends with the mapping identified by <i>LastTag</i>. This includes the mappings identified by <i>FirstTag</i> and <i>LastTag</i> and all mappings in between. The miniport driver revokes each mapping by removing it from the list of available mappings.
+</li>
+</ul>The miniport driver keeps track of the order in which it acquires its mappings from calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>. The <code>RevokeMapping</code> method revokes all mappings in the sequence that begins with the mapping identified by <i>FirstTag</i> and ends with the mapping identified by <i>LastTag</i>. This includes the mappings identified by <i>FirstTag</i> and <i>LastTag</i> and all mappings in between. The miniport driver revokes each mapping by removing it from the list of available mappings.
 
 The <code>RevokeMapping</code> method can be used to remove a single mapping by setting <i>FirstTag</i> and <i>LastTag</i> to the same value.
 
@@ -91,27 +113,21 @@ The port driver can call <code>RevokeMappings</code> asynchronously with respect
 For more information about mappings, see <a href="https://msdn.microsoft.com/6d83c015-cf8f-40b4-bf28-de865a5bfe2d">WavePci Latency</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
-</dt>
-<dt>
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536911">IPortWavePciStream::ReleaseMapping</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
+
 <a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
-</dt>
-</dl>
+
+<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+
+<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
+
  
 
  

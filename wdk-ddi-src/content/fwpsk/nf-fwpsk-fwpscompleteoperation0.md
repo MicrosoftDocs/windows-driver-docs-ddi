@@ -7,8 +7,8 @@ old-location: netvista\fwpscompleteoperation0.htm
 old-project: netvista
 ms.assetid: e0d584c4-ec58-4d5f-bddf-86bcfbfa6b97
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: FwpsCompleteOperation0
+ms.date: 1/18/2018
+ms.keywords: fwpsk/FwpsCompleteOperation0, wfp_ref_2_funct_3_fwps_C_bfabbf4d-812a-411f-b9ef-c2e6f145404d.xml, netvista.fwpscompleteoperation0, FwpsCompleteOperation0, FwpsCompleteOperation0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FwpsCompleteOperation0
-req.alt-loc: fwpkclnt.lib,fwpkclnt.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	fwpkclnt.lib
+-	fwpkclnt.dll
+apiname: 
+-	FwpsCompleteOperation0
+product: Windows
+targetos: Windows
 req.typenames: FWPS_VSWITCH_EVENT_TYPE
 ---
 
 # FwpsCompleteOperation0 function
 
 
-
 ## -description
+
+
 The 
   <b>FwpsCompleteOperation0</b> function is called by a callout to resume packet processing that was suspended
   pending completion of another operation.
-
-
+<div class="alert"><b>Note</b>  <b>FwpsCompleteOperation0</b> is a specific version of <b>FwpsCompleteOperation</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -syntax
+
 
 ````
 void NTAPI FwpsCompleteOperation0(
@@ -56,6 +67,9 @@ void NTAPI FwpsCompleteOperation0(
 
 
 ## -parameters
+
+
+
 
 ### -param completionContext [in]
 
@@ -71,10 +85,15 @@ A pointer to a
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 When the callout is ready to resume packet processing after operations on the packet were suspended by
     a call to 
     <a href="..\fwpsk\nf-fwpsk-fwpspendoperation0.md">FwpsPendOperation0</a>, the callout should
@@ -98,18 +117,16 @@ Pended connections are authenticated again after the
     application's behalf.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fwpsk\nf-fwpsk-fwpspendoperation0.md">FwpsPendOperation0</a>
-</dt>
-<dt>
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-</dt>
-</dl>
- 
+
+<a href="..\fwpsk\nf-fwpsk-fwpspendoperation0.md">FwpsPendOperation0</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsCompleteOperation0 function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsCompleteOperation0 function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

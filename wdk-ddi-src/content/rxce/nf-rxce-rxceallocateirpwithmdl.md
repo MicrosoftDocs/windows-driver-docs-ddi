@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ffc6332b-7daa-4b23-8cf4-6077f7d1d40a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCeAllocateIrpWithMDL
+ms.keywords: RxCeAllocateIrpWithMDL function [Installable File System Drivers], ifsk.rxceallocateirpwithmdl, rxref_8cb4dfd0-5789-4359-ad9f-bd1a9d460eb3.xml, rxce/RxCeAllocateIrpWithMDL, RxCeAllocateIrpWithMDL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The RxCeAllocateIrpWithMDL routine is only available 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxCeAllocateIrpWithMDL
-req.alt-loc: rxce.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rxce.h
+apiname: 
+-	RxCeAllocateIrpWithMDL
+product: Windows
+targetos: Windows
 req.typenames: *LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RxCeAllocateIrpWithMDL function
 
 
-
 ## -description
+
+
 <b>RxCeAllocateIrpWithMDL</b> allocates an IRP and associates it with an existing memory descriptor list. 
 
 
-
 ## -syntax
+
 
 ````
 PIRP RxCeAllocateIrpWithMDL(
@@ -56,6 +66,9 @@ PIRP RxCeAllocateIrpWithMDL(
 
 
 ## -parameters
+
+
+
 
 ### -param StackSize [in]
 
@@ -73,10 +86,15 @@ A pointer to the buffer that contains the memory descriptor list to be associate
 
 
 ## -returns
+
+
 <b>RxCeAllocateIrpWithMDL</b> returns a pointer to the IRP on success or a <b>NULL</b> pointer on error.
 
 
+
 ## -remarks
+
+
 The goal of <b>RxCeAllocateIrpWithMDL</b> is to allow easier debugging of IRPs that are issued to other components and then stall. IRPs issued using <b>RxCeAllocateIrpWithMDL</b> are queued to a global list of IRPs maintained by RDBSS. Thus, when an RX_CONTEXT is waiting for a send completion, it is possible to walk the global list to find the IRP that is waiting in the transport.
 
 An IRP allocated with an associated memory descriptor list allocated with <b>RxCeAllocateIrpWithMDL</b> should be freed when the IRP is completed using <b>RxCeFreeIrp</b>.
@@ -84,15 +102,13 @@ An IRP allocated with an associated memory descriptor list allocated with <b>RxC
 <b>IoAllocateIrp</b> automatically initializes the IRP's members and inserts the IRP into a global list of IRPs maintained by RDBSS. If memory for the MDL to be associated with the IRP cannot be allocated, then the IRP that was created is freed and <b>RxCeAllocateIrpWithMDL</b> returns a <b>NULL</b> pointer indicating failure. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\rxce\nf-rxce-rxcefreeirp.md">RxCeFreeIrp</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
-</dt>
-</dl>
+
+<a href="..\rxce\nf-rxce-rxcefreeirp.md">RxCeFreeIrp</a>
+
  
 
  

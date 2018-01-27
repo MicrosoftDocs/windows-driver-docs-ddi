@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 91da1c7a-aff5-4ece-b18d-14bd41e95464
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_SETLIGHT, D3DDDIARG_SETLIGHT
+ms.keywords: UMDisplayDriver_param_Structs_85eaa308-4edf-44ee-9235-e8637c10aa35.xml, display.d3dddiarg_setlight, _D3DDDIARG_SETLIGHT, d3dumddi/D3DDDIARG_SETLIGHT, D3DDDIARG_SETLIGHT, D3DDDIARG_SETLIGHT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_SETLIGHT
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_SETLIGHT
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_SETLIGHT
 ---
 
 # _D3DDDIARG_SETLIGHT structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_SETLIGHT structure describes how to set light properties. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_SETLIGHT {
@@ -55,6 +65,9 @@ typedef struct _D3DDDIARG_SETLIGHT {
 
 ## -struct-fields
 
+
+
+
 ### -field Index
 
 [in] An index into an array of lights.
@@ -63,7 +76,6 @@ typedef struct _D3DDDIARG_SETLIGHT {
 ### -field DataType
 
 [in] A valid bitwise OR of the following flags that indicate the type of light data:
-
 <table>
 <tr>
 <th>Value</th>
@@ -99,22 +111,15 @@ Disables the light whose index is specified in <b>Index</b>
 
 </td>
 </tr>
-</table>
- 
-
-
-## -remarks
+</table> 
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_light.md">D3DDDI_LIGHT</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setlight.md">SetLight</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_light.md">D3DDDI_LIGHT</a>
+
  
 
  

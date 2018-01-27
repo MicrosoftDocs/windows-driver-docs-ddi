@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ABF392BD-7B05-417E-AFD8-4EE7E64F9FC2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUIntAdd
+ms.keywords: kernel.rtluintadd, RtlUIntAdd function [Kernel-Mode Driver Architecture], RtlUIntAdd, ntintsafe/RtlUIntAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlUIntAdd
-req.alt-loc: Ntintsafe.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntintsafe.h
+apiname: 
+-	RtlUIntAdd
+product: Windows
+targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
 
 # RtlUIntAdd function
 
 
-
 ## -description
+
+
 Adds two values of type <b>UINT</b>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlUIntAdd(
@@ -55,6 +65,9 @@ NTSTATUS RtlUIntAdd(
 
 
 ## -parameters
+
+
+
 
 ### -param uAugend [in]
 
@@ -72,6 +85,14 @@ A pointer to the sum. If the operation results in a value that overflows or unde
 
 
 ## -remarks
+
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
 
-This function uses the following alternate name:</p>
+This function uses the following alternate name:
+<ul>
+<li>
+RtlUInt32Add
+</li>
+</ul>
+

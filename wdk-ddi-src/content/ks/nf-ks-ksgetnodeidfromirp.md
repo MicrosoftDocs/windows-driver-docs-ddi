@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3bb115eb-074d-4983-97e4-fa38aaa8a81b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetNodeIdFromIrp
+ms.keywords: KsGetNodeIdFromIrp function [Streaming Media Devices], ks/KsGetNodeIdFromIrp, stream.ksgetnodeidfromirp, avfunc_dbc2812f-8011-40e6-8847-f7c3fc35b4b5.xml, KsGetNodeIdFromIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsGetNodeIdFromIrp
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsGetNodeIdFromIrp
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsGetNodeIdFromIrp function
 
 
-
 ## -description
+
+
 The<b> KsGetNodeIdFromIrp </b>function returns the node ID of the node to which <i>Irp</i> was submitted.
 
 
-
 ## -syntax
+
 
 ````
 ULONG KsGetNodeIdFromIrp(
@@ -54,33 +65,31 @@ ULONG KsGetNodeIdFromIrp(
 
 ## -parameters
 
+
+
+
 ### -param Irp [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure for which to determine the associated node ID. This IRP must have been sent to a file object corresponding to a filter, pin, or node.
 
 
 ## -returns
+
+
 <b>KsGetNodeIdFromIrp </b>returns the ID of the node to which <i>Irp </i>was submitted. If <i>Irp</i> was instead submitted directly to the filter, it returns KSFILTER_NODE.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksaddirptocancelablequeue.md">KsAddIrpToCancelableQueue</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksforwardirp.md">KsForwardIrp</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
 <a href="..\ks\nf-ks-ksdispatchirp.md">KsDispatchIrp</a>
-</dt>
-</dl>
+
  
 
  

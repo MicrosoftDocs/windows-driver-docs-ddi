@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 36AFBB03-9F01-4CA7-A5E8-C6F744984B6F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_SUPL_CERT_ACTION, GNSS_SUPL_CERT_ACTION
+ms.keywords: sensors.ioctl_gnss_execute_cwtest, IOCTL_GNSS_EXECUTE_CWTEST control code [Sensor Devices], IOCTL_GNSS_EXECUTE_CWTEST, gnssdriver/IOCTL_GNSS_EXECUTE_CWTEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_GNSS_EXECUTE_CWTEST
-req.alt-loc: gnssdriver.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,78 +29,104 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	gnssdriver.h
+apiname: 
+-	IOCTL_GNSS_EXECUTE_CWTEST
+product: Windows
+targetos: Windows
 req.typenames: GNSS_SUPL_CERT_ACTION
 ---
 
 # IOCTL_GNSS_EXECUTE_CWTEST IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
-The <b>IOCTL_GNSS_EXECUTE_CWTEST</b> control code is used by the GNSS manufacturing test application to start a carrier wave test and get the measurement. The test application must wait for the result before starting another iteration of the measurement.
 
+
+The <b>IOCTL_GNSS_EXECUTE_CWTEST</b> control code is used by the GNSS manufacturing test application to start a carrier wave test and get the measurement. The test application must wait for the result before starting another iteration of the measurement.
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 Set to NULL.
 
 
 ### -input-buffer-length
+
 Set to 0.
 
 
 ### -output-buffer
+
 A pointer to a <a href="..\gnssdriver\ns-gnssdriver-gnss_cwtestdata.md">GNSS_CWTESTDATA</a> structure.
 
 
 ### -output-buffer-length
+
 Set to sizeof(GNSS_CWTESTDATA).
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 <b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
 
 
 ## -remarks
-The test application must ensure that no more than one carrier wave test is started at the same time.
+
+
+<h3><a id="GNSS_test_application_notes"></a><a id="gnss_test_application_notes"></a><a id="GNSS_TEST_APPLICATION_NOTES"></a>GNSS test application notes</h3>The test application must ensure that no more than one carrier wave test is started at the same time.
 
 Once the carrier wave test is started, the test application must wait for the result.
 
 The test application will need to repeat this command if it wants to retrieve more than one measurement.
-
-The GNSS driver must fail the new carrier wave test session request if there is already a test in progress.
+<h3><a id="GNSS_driver_notes"></a><a id="gnss_driver_notes"></a><a id="GNSS_DRIVER_NOTES"></a>GNSS driver notes</h3>The GNSS driver must fail the new carrier wave test session request if there is already a test in progress.
 
 Once the GNSS driver accepts the carrier wave test session parameters, validates them and starts the detection in the GNSS engine. When the measurements are received, the driver immediately completes the IO with a return code and the measurements.
 
 The GNSS stack must return the measurements as soon as they are available.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
-</dt>
-<dt>
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-</dt>
-<dt>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
-</dt>
-</dl>
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
  
 
  

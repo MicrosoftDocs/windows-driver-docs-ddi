@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: ba874c8a-b0df-475c-b34d-56ad0a3472db
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _HID_DEVICE_ATTRIBUTES, *PHID_DEVICE_ATTRIBUTES, HID_DEVICE_ATTRIBUTES
+ms.keywords: hidport/PHID_DEVICE_ATTRIBUTES, hid.hid_device_attributes, PHID_DEVICE_ATTRIBUTES, HID_DEVICE_ATTRIBUTES, PHID_DEVICE_ATTRIBUTES structure pointer [Human Input Devices], hidstrct_2ba6111b-4231-40eb-9b08-0b3b396079d8.xml, hidport/HID_DEVICE_ATTRIBUTES, *PHID_DEVICE_ATTRIBUTES, HID_DEVICE_ATTRIBUTES structure [Human Input Devices], _HID_DEVICE_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HID_DEVICE_ATTRIBUTES
-req.alt-loc: hidport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hidport.h
+apiname: 
+-	HID_DEVICE_ATTRIBUTES
+product: Windows
+targetos: Windows
 req.typenames: *PHID_DEVICE_ATTRIBUTES, HID_DEVICE_ATTRIBUTES
 ---
 
 # _HID_DEVICE_ATTRIBUTES structure
 
 
-
 ## -description
+
+
 The HID_DEVICE_ATTRIBUTES structure contains information about a HIDClass device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _HID_DEVICE_ATTRIBUTES {
@@ -57,6 +67,9 @@ typedef struct _HID_DEVICE_ATTRIBUTES {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -84,15 +97,16 @@ Reserved for internal system use.
 
 
 ## -remarks
+
+
 The HID class driver uses this structure to obtain device attributes when it sends an <a href="..\hidport\ni-hidport-ioctl_hid_get_device_attributes.md">IOCTL_HID_GET_DEVICE_ATTRIBUTES</a> request to a HID minidriver.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\hidport\ni-hidport-ioctl_hid_get_device_attributes.md">IOCTL_HID_GET_DEVICE_ATTRIBUTES</a>
-</dt>
-</dl>
+
  
 
  

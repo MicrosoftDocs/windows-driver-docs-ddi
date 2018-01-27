@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 900db70b-4cdb-41e7-a4cf-0dc435b9fe7d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoUnregisterPowerSettingCallback
+ms.keywords: wdm/PoUnregisterPowerSettingCallback, kernel.pounregisterpowersettingcallback, PoUnregisterPowerSettingCallback routine [Kernel-Mode Driver Architecture], portn_52c569d1-68d0-48a4-88e7-c2ffb27aa530.xml, PoUnregisterPowerSettingCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PoUnregisterPowerSettingCallback
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	PoUnregisterPowerSettingCallback
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PoUnregisterPowerSettingCallback function
 
 
-
 ## -description
-The <b>PoUnregisterPowerSettingCallback</b> routine unregisters a power-setting callback routine that a driver previously registered by calling the <a href="..\ntifs\nf-ntifs-poregisterpowersettingcallback.md">PoRegisterPowerSettingCallback</a> routine.
 
+
+The <b>PoUnregisterPowerSettingCallback</b> routine unregisters a power-setting callback routine that a driver previously registered by calling the <a href="..\wdm\nf-wdm-poregisterpowersettingcallback.md">PoRegisterPowerSettingCallback</a> routine.
 
 
 ## -syntax
+
 
 ````
 NTSTATUS PoUnregisterPowerSettingCallback(
@@ -55,35 +65,62 @@ NTSTATUS PoUnregisterPowerSettingCallback(
 
 ## -parameters
 
+
+
+
 ### -param Handle [in, out]
 
 A handle to a callback routine that a driver registered by calling <b>PoRegisterPowerSettingCallback</b>.
 
 
 ## -returns
+
+
 <b>PoUnregisterPowerSettingCallback</b> returns one of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The callback routine was unregistered.
+</dl>
+</td>
+<td width="60%">
+The callback routine was unregistered.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The <i>Handle</i> value is not a valid handle to a power setting callback routine.
+</dl>
+</td>
+<td width="60%">
+The <i>Handle</i> value is not a valid handle to a power setting callback routine.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A driver calls <b>PoUnregisterPowerSettingCallback</b> to unregister a power setting callback routine that the driver previously registered by calling <b>PoRegisterPowerSettingCallback</b>.
 
 A driver must call <b>PoUnregisterPowerSettingCallback</b> to unregister each callback routine that it previously registered. All callback routines registered by a driver should be unregistered in the <i>Unload</i> routine of the driver.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-poregisterpowersettingcallback.md">PoRegisterPowerSettingCallback</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-poregisterpowersettingcallback.md">PoRegisterPowerSettingCallback</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 23b2a512-9828-4d1c-9282-2df6a1a80d85
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_D3D12_OPTIONS_DATA_0032, D3D12DDI_D3D12_OPTIONS_DATA_0032
+ms.keywords: D3D12DDI_D3D12_OPTIONS_DATA_0032 structure [Display Devices], display.d3d12ddi-d3d12-options-data-0032, D3D12DDI_D3D12_OPTIONS_DATA_0032, d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_D3D12_OPTIONS_DATA_0032
-req.alt-loc: d3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d12umddi.h
+apiname: 
+-	D3D12DDI_D3D12_OPTIONS_DATA_0032
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_D3D12_OPTIONS_DATA_0032
 ---
 
 # D3D12DDI_D3D12_OPTIONS_DATA_0032 structure
 
 
-
 ## -description
+
+
 Display options data.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3D12DDI_D3D12_OPTIONS_DATA_0032 {
@@ -63,6 +73,9 @@ typedef struct _D3D12DDI_D3D12_OPTIONS_DATA_0032 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ResourceBindingTier
 
@@ -118,5 +131,3 @@ Copy queue timestamp queries supported.
 
 Write buffer immediate queue flags.
 
-
-## -remarks

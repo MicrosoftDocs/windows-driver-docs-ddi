@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: feb9600a-e8ce-449a-8da8-2d9a2f10f581
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlCreateSecurityDescriptorRelative
+ms.keywords: ifsk.rtlcreatesecuritydescriptorrelative, ntifs/RtlCreateSecurityDescriptorRelative, RtlCreateSecurityDescriptorRelative, rtlref_3130b278-4976-4371-952f-ab6fddeda7a9.xml, RtlCreateSecurityDescriptorRelative routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlCreateSecurityDescriptorRelative
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlCreateSecurityDescriptorRelative
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlCreateSecurityDescriptorRelative function
 
 
-
 ## -description
+
+
 The <b>RtlCreateSecurityDescriptorRelative</b> routine initializes a new security descriptor in self-relative format. On return, the security descriptor is initialized with no system ACL (SACL), no discretionary ACL (DACL), no owner, no primary group, and all control flags set to zero.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlCreateSecurityDescriptorRelative(
@@ -54,6 +64,9 @@ NTSTATUS RtlCreateSecurityDescriptorRelative(
 
 
 ## -parameters
+
+
+
 
 ### -param SecurityDescriptor [out]
 
@@ -66,44 +79,63 @@ Revision level to assign to the security descriptor. This parameter must be SECU
 
 
 ## -returns
+
+
 <b>RtlCreateSecurityDescriptorRelative</b> can return one of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The call completed successfully.
+</dl>
+</td>
+<td width="60%">
+The call completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNKNOWN_REVISION</b></dt>
-</dl>The given <i>Revision</i> is not known or is not supported.
+</dl>
+</td>
+<td width="60%">
+The given <i>Revision</i> is not known or is not supported.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 In effect, a successful call to this routine initializes a security descriptor without security constraints.
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
+
+<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+
+<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
+
+<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
  
 
  

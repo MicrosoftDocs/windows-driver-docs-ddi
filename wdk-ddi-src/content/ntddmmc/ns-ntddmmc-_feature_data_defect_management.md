@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ff032dbd-8c84-4442-bbd5-a27b61617d47
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _FEATURE_DATA_DEFECT_MANAGEMENT, FEATURE_DATA_DEFECT_MANAGEMENT, *PFEATURE_DATA_DEFECT_MANAGEMENT
+ms.keywords: PFEATURE_DATA_DEFECT_MANAGEMENT, structs-CD-ROM_3c73a6a8-5a76-4a73-b3fa-cae137659fad.xml, ntddmmc/PFEATURE_DATA_DEFECT_MANAGEMENT, _FEATURE_DATA_DEFECT_MANAGEMENT, FEATURE_DATA_DEFECT_MANAGEMENT, PFEATURE_DATA_DEFECT_MANAGEMENT structure pointer [Storage Devices], FEATURE_DATA_DEFECT_MANAGEMENT structure [Storage Devices], storage.feature_data_defect_management, *PFEATURE_DATA_DEFECT_MANAGEMENT, ntddmmc/FEATURE_DATA_DEFECT_MANAGEMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FEATURE_DATA_DEFECT_MANAGEMENT
-req.alt-loc: ntddmmc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: FEATURE_DATA_DEFECT_MANAGEMENT, *PFEATURE_DATA_DEFECT_MANAGEMENT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddmmc.h
+apiname: 
+-	FEATURE_DATA_DEFECT_MANAGEMENT
+product: Windows
+targetos: Windows
+req.typenames: *PFEATURE_DATA_DEFECT_MANAGEMENT, FEATURE_DATA_DEFECT_MANAGEMENT
 ---
 
 # _FEATURE_DATA_DEFECT_MANAGEMENT structure
 
 
-
 ## -description
+
+
 The FEATURE_DATA_DEFECT_MANAGEMENT structure contains information for the Defect Management feature. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FEATURE_DATA_DEFECT_MANAGEMENT {
@@ -56,6 +66,9 @@ typedef struct _FEATURE_DATA_DEFECT_MANAGEMENT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -78,18 +91,18 @@ Reserved.
 
 
 ## -remarks
+
+
 This structure holds data for the feature named "Defect Management" by the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. Devices that support this feature are able to provide contiguous address space that is guaranteed to be defect free. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
-</dt>
-</dl>
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
  
 
  

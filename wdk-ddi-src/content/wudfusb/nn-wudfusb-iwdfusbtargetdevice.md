@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 627a4633-6857-43a5-af2d-36e4e554ca83
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetPipe2, IWDFUsbTargetPipe2::ConfigureContinuousReader, ConfigureContinuousReader
+ms.keywords: wdf.iwdfusbtargetdevice, IWDFUsbTargetDevice interface, IWDFUsbTargetDevice interface, described, IWDFUsbTargetDevice, wudfusb/IWDFUsbTargetDevice, UMDFUSBref_4ff51830-55c1-4e2c-b095-8ca88bd2e56f.xml, umdf.iwdfusbtargetdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.5
-req.alt-api: IWDFUsbTargetDevice
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFUsbTargetDevice
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,8 +47,9 @@ req.product: Windows 10 or later.
 # IWDFUsbTargetDevice interface
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
@@ -47,35 +57,9 @@ The <b>IWDFUsbTargetDevice</b> interface exposes a USB device I/O target object.
 
 
 
-The <b>IWDFUsbTargetDevice</b> interface exposes a USB device I/O target object.
-
-
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFUsbTargetDevice</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>. <b>IWDFUsbTargetDevice</b> also has these types of members:
-
-The <b>IWDFUsbTargetDevice</b> interface has these methods.
-
-The <a href="https://msdn.microsoft.com/7f75fbaa-06e8-4c4d-b1ee-c89a55889295">FormatRequestForControlTransfer</a> method formats an I/O request object for a USB control transfer.
-
-The <a href="https://msdn.microsoft.com/4da2f2b0-f2ad-465d-b63e-f11406d4c210">GetNumInterfaces</a> method retrieves the number of USB interfaces for the USB device.
-
-The <a href="https://msdn.microsoft.com/458cbe27-be75-49f4-9849-969d881e0cd2">GetWinUsbHandle</a> method retrieves the WinUsb interface handle that is associated with a I/O target device object.
-
-The <a href="https://msdn.microsoft.com/c97b399e-fb25-475a-a2a0-0cf4fb24433c">RetrieveDescriptor</a> method retrieves a USB descriptor, which can describe a device, configuration, or string.
-
-The <a href="https://msdn.microsoft.com/04e3dfba-3313-4575-9956-5b1861b8212a">RetrieveDeviceInformation</a> method retrieves device information of the specified type.
-
-The <a href="https://msdn.microsoft.com/e15561e3-ba3d-4c65-bb6e-d90f3fab22af">RetrievePowerPolicy</a> method retrieves a WinUsb power policy.
-
-The <a href="https://msdn.microsoft.com/9dfa8686-a815-417c-9488-dd86de0e15a2">RetrieveUsbInterface</a> method retrieves the specified USB interface for a USB device.
-
-The <a href="https://msdn.microsoft.com/e1b31df0-d383-43a3-bf9f-8874689cbf58">SetPowerPolicy</a> method sets the WinUsb power policy.
-
- 
-
 
 ## -members
+
 The <b>IWDFUsbTargetDevice</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -172,5 +156,3 @@ The <a href="https://msdn.microsoft.com/e1b31df0-d383-43a3-bf9f-8874689cbf58">Se
 
  
 
-
-## -remarks

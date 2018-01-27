@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 24891f90-422f-4104-97f4-395205e2b862
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcForwardContentToDeviceObject
+ms.keywords: portcls/PcForwardContentToDeviceObject, audpc-routines_1dec7e58-07b2-41ce-82d3-5f0670bbc273.xml, PcForwardContentToDeviceObject function [Audio Devices], PcForwardContentToDeviceObject, audio.pcforwardcontenttodeviceobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The PortCls system driver implements the PcForwardCon
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PcForwardContentToDeviceObject
-req.alt-loc: Portcls.lib,Portcls.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Portcls.lib
+-	Portcls.dll
+apiname: 
+-	PcForwardContentToDeviceObject
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # PcForwardContentToDeviceObject function
 
 
-
 ## -description
+
+
 The <b>PcForwardContentToDeviceObject</b> function accepts a device object representing a device to which the caller intends to forward protected content. Note that this function call is identical in operation to the <a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a> function, and its parameter definitions and return value are also identical.
 
 
-
 ## -syntax
+
 
 ````
 PORTCLASSAPI NTSTATUS NTAPI PcForwardContentToDeviceObject(void);
@@ -53,24 +64,42 @@ PORTCLASSAPI NTSTATUS NTAPI PcForwardContentToDeviceObject(void);
 ## -parameters
 
 
+
+
+### -param ContentId
+
+TBD
+
+
+### -param Reserved
+
+TBD
+
+
+### -param DrmForward
+
+TBD
+
+
+
 ## -returns
-See return value definition in <a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>.
+
 
 See return value definition in <a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>.
 
-See return value definition in <a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>.
 
 
 ## -remarks
+
+
 For more information, see the comments in <a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
-</dt>
-</dl>
+
  
 
  

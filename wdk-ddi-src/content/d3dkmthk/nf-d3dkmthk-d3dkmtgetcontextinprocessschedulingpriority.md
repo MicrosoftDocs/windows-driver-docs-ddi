@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e2a662b6-6a16-4e63-b5a8-5701a7180f60
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTGetContextInProcessSchedulingPriority
+ms.keywords: D3DKMTGetContextInProcessSchedulingPriority, d3dkmthk/D3DKMTGetContextInProcessSchedulingPriority, display.d3dkmtgetcontextinprocessschedulingpriority, D3DKMTGetContextInProcessSchedulingPriority function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTGetContextInProcessSchedulingPriority
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMTGetContextInProcessSchedulingPriority
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTGetContextInProcessSchedulingPriority function
 
 
-
 ## -description
+
+
 Called by an in-process (in-proc) Microsoft Direct3D composition device to retrieve the scheduling priority for a device context that is in the same process as other device contexts.
 
 
-
 ## -syntax
+
 
 ````
 _Check_return_ NTSTATUS APIENTRY D3DKMTGetContextInProcessSchedulingPriority(
@@ -54,37 +64,58 @@ _Check_return_ NTSTATUS APIENTRY D3DKMTGetContextInProcessSchedulingPriority(
 
 ## -parameters
 
-### -param pContextPriority [in, out]
+
+
+
+
+#### - pContextPriority [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getcontextinprocessschedulingpriority.md">D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY</a> structure that describes information that is required to retrieve the scheduling priority for a device context.
 
 
 ## -returns
+
+
 Returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The scheduling priority was successfully retrieved.
+</dl>
+</td>
+<td width="60%">
+The scheduling priority was successfully retrieved.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>Parameters were validated and determined to be incorrect.
+</dl>
+</td>
+<td width="60%">
+Parameters were validated and determined to be incorrect.
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other NTSTATUS values.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getcontextinprocessschedulingpriority.md">D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetcontextinprocessschedulingpriority.md">D3DKMTSetContextInProcessSchedulingPriority</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getcontextinprocessschedulingpriority.md">D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY</a>
+
  
 
  

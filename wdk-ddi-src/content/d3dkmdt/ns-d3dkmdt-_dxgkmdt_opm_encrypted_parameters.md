@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 43aa91cb-584e-47b7-a6d4-2e95adf24a28
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKMDT_OPM_ENCRYPTED_PARAMETERS, DXGKMDT_OPM_ENCRYPTED_PARAMETERS, *PDXGKMDT_OPM_ENCRYPTED_PARAMETERS
+ms.keywords: DmStructs_760ebc6b-c03b-468d-b4b0-29faabd65cd1.xml, DXGKMDT_OPM_ENCRYPTED_PARAMETERS, display.dxgkmdt_opm_encrypted_parameters, PDXGKMDT_OPM_ENCRYPTED_PARAMETERS, _DXGKMDT_OPM_ENCRYPTED_PARAMETERS, d3dkmdt/PDXGKMDT_OPM_ENCRYPTED_PARAMETERS, *PDXGKMDT_OPM_ENCRYPTED_PARAMETERS, d3dkmdt/DXGKMDT_OPM_ENCRYPTED_PARAMETERS, PDXGKMDT_OPM_ENCRYPTED_PARAMETERS structure pointer [Display Devices], DXGKMDT_OPM_ENCRYPTED_PARAMETERS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKMDT_OPM_ENCRYPTED_PARAMETERS
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DXGKMDT_OPM_ENCRYPTED_PARAMETERS, *PDXGKMDT_OPM_ENCRYPTED_PARAMETERS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	DXGKMDT_OPM_ENCRYPTED_PARAMETERS
+product: Windows
+targetos: Windows
+req.typenames: *PDXGKMDT_OPM_ENCRYPTED_PARAMETERS, DXGKMDT_OPM_ENCRYPTED_PARAMETERS
 ---
 
 # _DXGKMDT_OPM_ENCRYPTED_PARAMETERS structure
 
 
-
 ## -description
+
+
 The DXGKMDT_OPM_ENCRYPTED_PARAMETERS structure contains data that is encrypted with the public key from an appropriate certificate.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKMDT_OPM_ENCRYPTED_PARAMETERS {
@@ -54,21 +64,25 @@ typedef struct _DXGKMDT_OPM_ENCRYPTED_PARAMETERS {
 
 ## -struct-fields
 
+
+
+
 ### -field abEncryptedParameters
 
 A 256-byte array that comprises data that is encrypted with the public key from an appropriate certificate.
 
 
 ## -remarks
+
+
 For more information about the certificates and algorithms that are used to encrypt the data in DXGKMDT_OPM_ENCRYPTED_PARAMETERS, see the <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers.md">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a> reference page.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers.md">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a>
-</dt>
-</dl>
+
  
 
  

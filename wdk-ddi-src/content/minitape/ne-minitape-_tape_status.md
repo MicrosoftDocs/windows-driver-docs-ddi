@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 45e85ad1-5b75-410e-b9dd-061051bbaa74
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _TAPE_STATUS, TAPE_STATUS, *PTAPE_STATUS
+ms.keywords: minitape/TAPE_STATUS_INSUFFICIENT_RESOURCES, minitape/TAPE_STATUS_BUS_RESET, TAPE_STATUS_REQUIRES_CLEANING, TAPE_STATUS_DATA_OVERRUN, TAPE_STATUS_SETMARK_DETECTED, minitape/TAPE_STATUS_SEND_SRB_AND_CALLBACK, TAPE_STATUS_UNRECOGNIZED_MEDIA, minitape/TAPE_STATUS_DEVICE_NOT_READY, minitape/TAPE_STATUS_IO_TIMEOUT, minitape/TAPE_STATUS_MEDIA_CHANGED, TAPE_STATUS_INSUFFICIENT_RESOURCES, minitape/PTAPE_STATUS, TAPE_STATUS_BUFFER_OVERFLOW, TAPE_STATUS, TAPE_STATUS_IO_TIMEOUT, minitape/TAPE_STATUS_INVALID_BLOCK_LENGTH, minitape/TAPE_STATUS_DEVICE_NOT_CONNECTED, TAPE_STATUS_BEGINNING_OF_MEDIA, TAPE_STATUS_NO_DATA_DETECTED, structs-tape_c79a2dd4-8c91-4735-9440-de39b23aa982.xml, minitape/TAPE_STATUS_CALLBACK, minitape/TAPE_STATUS_CHECK_TEST_UNIT_READY, *PTAPE_STATUS, TAPE_STATUS_NO_SUCH_DEVICE, TAPE_STATUS enumeration [Storage Devices], minitape/TAPE_STATUS_SETMARK_DETECTED, minitape/TAPE_STATUS_MEDIA_WRITE_PROTECTED, _TAPE_STATUS, TAPE_STATUS_BUS_RESET, minitape/TAPE_STATUS_UNRECOGNIZED_MEDIA, TAPE_STATUS_END_OF_MEDIA, minitape/TAPE_STATUS_SUCCESS, minitape/TAPE_STATUS_DEVICE_BUSY, storage.tape_status, minitape/TAPE_STATUS_NOT_IMPLEMENTED, minitape/TAPE_STATUS_NO_DATA_DETECTED, minitape/TAPE_STATUS_NO_SUCH_DEVICE, TAPE_STATUS_INVALID_BLOCK_LENGTH, TAPE_STATUS_SUCCESS, minitape/TAPE_STATUS_BEGINNING_OF_MEDIA, minitape/TAPE_STATUS_INVALID_DEVICE_REQUEST, TAPE_STATUS_DEVICE_NOT_READY, minitape/TAPE_STATUS_NO_MEDIA, TAPE_STATUS_EOM_OVERFLOW, TAPE_STATUS_MEDIA_WRITE_PROTECTED, minitape/TAPE_STATUS_BUFFER_OVERFLOW, TAPE_STATUS_DEVICE_DATA_ERROR, TAPE_STATUS_INVALID_PARAMETER, minitape/TAPE_STATUS_INVALID_PARAMETER, minitape/TAPE_STATUS_DEVICE_DATA_ERROR, TAPE_STATUS_FILEMARK_DETECTED, TAPE_STATUS_DEVICE_NOT_CONNECTED, TAPE_STATUS_NOT_IMPLEMENTED, minitape/TAPE_STATUS_IO_DEVICE_ERROR, TAPE_STATUS_DEVICE_BUSY, minitape/TAPE_STATUS_CLEANER_CARTRIDGE_INSTALLED, minitape/TAPE_STATUS_DATA_OVERRUN, TAPE_STATUS_CALLBACK, TAPE_STATUS_MEDIA_CHANGED, minitape/TAPE_STATUS_FILEMARK_DETECTED, TAPE_STATUS_IO_DEVICE_ERROR, TAPE_STATUS_CLEANER_CARTRIDGE_INSTALLED, TAPE_STATUS_CHECK_TEST_UNIT_READY, TAPE_STATUS_SEND_SRB_AND_CALLBACK, PTAPE_STATUS enumeration pointer [Storage Devices], minitape/TAPE_STATUS_REQUIRES_CLEANING, minitape/TAPE_STATUS, TAPE_STATUS_NO_MEDIA, minitape/TAPE_STATUS_EOM_OVERFLOW, TAPE_STATUS_INVALID_DEVICE_REQUEST, minitape/TAPE_STATUS_END_OF_MEDIA, PTAPE_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TAPE_STATUS
-req.alt-loc: minitape.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	minitape.h
+apiname: 
+-	TAPE_STATUS
+product: Windows
+targetos: Windows
 req.typenames: TAPE_STATUS, *PTAPE_STATUS
 ---
 
 # _TAPE_STATUS enumeration
 
 
-
 ## -description
+
+
 The TAPE_STATUS enumeration provides a list of the status codes that the tape class driver uses to report the status of a tape device.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _TAPE_STATUS { 
@@ -83,6 +93,9 @@ typedef enum _TAPE_STATUS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field TAPE_STATUS_SEND_SRB_AND_CALLBACK
 
@@ -239,15 +252,10 @@ Indicates that the tape operation could not be performed because the device requ
 Indicates that the media currently in the drive is a cleaner cartridge. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddtape\ni-ntddtape-ioctl_tape_get_status.md">IOCTL_TAPE_GET_STATUS</a>
-</dt>
-</dl>
+
  
 
  

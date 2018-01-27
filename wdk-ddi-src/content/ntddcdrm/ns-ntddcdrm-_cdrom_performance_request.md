@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E43D2F2C-B5A1-4724-AEBC-F4B6A85EA846
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CDROM_PERFORMANCE_REQUEST, *PCDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST
+ms.keywords: _CDROM_PERFORMANCE_REQUEST, *PCDROM_PERFORMANCE_REQUEST, PCDROM_PERFORMANCE_REQUEST structure pointer [Storage Devices], CDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST structure [Storage Devices], ntddcdrm/CDROM_PERFORMANCE_REQUEST, PCDROM_PERFORMANCE_REQUEST, storage.cdrom_performance_request, ntddcdrm/PCDROM_PERFORMANCE_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CDROM_PERFORMANCE_REQUEST
-req.alt-loc: Ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddcdrm.h
+apiname: 
+-	CDROM_PERFORMANCE_REQUEST
+product: Windows
+targetos: Windows
 req.typenames: *PCDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST
 ---
 
 # _CDROM_PERFORMANCE_REQUEST structure
 
 
-
 ## -description
+
+
 The <b>CDROM_PERFORMANCE_REQUEST</b> structure is used as an input parameter to the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a> I/O control request and describes the performance data requested.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CDROM_PERFORMANCE_REQUEST {
@@ -57,6 +67,9 @@ typedef struct _CDROM_PERFORMANCE_REQUEST {
 
 
 ## -struct-fields
+
+
+
 
 ### -field RequestType
 
@@ -78,20 +91,21 @@ The <a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_performance_exception_type.md">CDROM
 The <a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_performance_tolerance_type.md">CDROM_PERFORMANCE_TOLERANCE_TYPE</a> enumeration specifies the performance tolerance for the nominal performance and the time tolerance (seek delay) for the exception list.
 
 
-### -field StartingLba
+### -field StaringLba
+
+ 
+
+
+
+#### - StartingLba
 
 The starting logical block address field.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a>
-</dt>
-</dl>
+
  
 
  

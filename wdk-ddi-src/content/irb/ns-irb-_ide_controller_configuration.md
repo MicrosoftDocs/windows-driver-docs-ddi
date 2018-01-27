@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 89b7f66e-3a3a-4723-a409-3b3030c1a45b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _IDE_CONTROLLER_CONFIGURATION, IDE_CONTROLLER_CONFIGURATION, *PIDE_CONTROLLER_CONFIGURATION
+ms.keywords: PIDE_CONTROLLER_CONFIGURATION structure pointer [Storage Devices], structs-ATA_c72d9d21-e06b-43e0-8854-8b682e2e0778.xml, IDE_CONTROLLER_CONFIGURATION structure [Storage Devices], irb/IDE_CONTROLLER_CONFIGURATION, *PIDE_CONTROLLER_CONFIGURATION, storage.ide_controller_configuration, IDE_CONTROLLER_CONFIGURATION, irb/PIDE_CONTROLLER_CONFIGURATION, PIDE_CONTROLLER_CONFIGURATION, _IDE_CONTROLLER_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDE_CONTROLLER_CONFIGURATION
-req.alt-loc: irb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: IDE_CONTROLLER_CONFIGURATION, *PIDE_CONTROLLER_CONFIGURATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	irb.h
+apiname: 
+-	IDE_CONTROLLER_CONFIGURATION
+product: Windows
+targetos: Windows
+req.typenames: *PIDE_CONTROLLER_CONFIGURATION, IDE_CONTROLLER_CONFIGURATION
 ---
 
 # _IDE_CONTROLLER_CONFIGURATION structure
 
 
-
 ## -description
+
+
 The IDE_CONTROLLER_CONFIGURATION structure is used to pass controller configuration information between the port driver and the miniport driver.
-
-
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 typedef struct _IDE_CONTROLLER_CONFIGURATION {
@@ -64,6 +74,9 @@ typedef struct _IDE_CONTROLLER_CONFIGURATION {
 
 ## -struct-fields
 
+
+
+
 ### -field Version
 
 The port driver sets this field to indicate the version of the port driver. The port driver sets the version to sizeof(IDE_CONTROLLER_CONFIGURATION). The miniport driver should verify that the version is greater than or equal to the one it is using.
@@ -78,7 +91,6 @@ Specifies the number of channels supported by the HBA. Note that this indicates 
 
 The port driver sets this field to inform the ATA miniport which mode it is running at. There are two possible modes:
   
-
 <table>
 <tr>
 <th>Mode</th>
@@ -104,8 +116,7 @@ This is the limited no memory mode that an ATA miniport operates in during hiber
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field NumberOfPhysicalBreaks
@@ -147,5 +158,3 @@ Indicates whether it is a SATA or a PATA controller.
 
 Provides the hardware resources for the ATA controller.
 
-
-## -remarks

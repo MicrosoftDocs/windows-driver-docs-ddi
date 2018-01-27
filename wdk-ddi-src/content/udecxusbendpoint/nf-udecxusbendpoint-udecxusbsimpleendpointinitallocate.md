@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1BF79756-F55D-4F13-A03C-35F7880C5B21
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUsbSimpleEndpointInitAllocate
+ms.keywords: buses.udecxusbsimpleendpointinitallocate, UdecxUsbSimpleEndpointInitAllocate function [Buses], UdecxUsbSimpleEndpointInitAllocate, udecxusbendpoint/UdecxUsbSimpleEndpointInitAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 
-req.alt-api: UdecxUsbSimpleEndpointInitAllocate
-req.alt-loc: Udecxstub.lib,Udecxstub.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Udecxstub.lib
+-	Udecxstub.dll
+apiname: 
+-	UdecxUsbSimpleEndpointInitAllocate
+product: Windows
+targetos: Windows
 req.typenames: *PUDECX_USB_ENDPOINT_INIT_AND_METADATA, UDECX_USB_ENDPOINT_INIT_AND_METADATA
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # UdecxUsbSimpleEndpointInitAllocate function
 
 
-
 ## -description
+
+
 Allocates memory for an initialization  structure that is used to create a simple endpoint for the specified virtual USB device.  
 
 
-
 ## -syntax
+
 
 ````
 PUDECXUSBENDPOINT_INIT UdecxUsbSimpleEndpointInitAllocate(
@@ -55,34 +66,39 @@ PUDECXUSBENDPOINT_INIT UdecxUsbSimpleEndpointInitAllocate(
 
 ## -parameters
 
+
+
+
 ### -param UdecxUsbDevice [in]
 
 A handle to UDE device object. The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicecreate.md">UdecxUsbDeviceCreate</a>.
 
 
 ## -returns
+
+
 This method returns a pointer to an opaque <b>UDECXUSBENDPOINT_INIT</b> structure that contains the initialization parameters. The structure is allocated by the USB device emulation  class extension (UdeCx).
 
 
+
 ## -remarks
+
+
 The UDE client driver calls this method to allocate parameters for a simple endpoint that is created by a subsequent call to <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>. If the device is not created or the driver is finished using the resources, the driver must free the resources by calling <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointinitfree.md">UdecxUsbEndpointInitFree</a>.
 
 The only valid time to create simple endpoints is after creating a the UDE device object and before calling <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceplugin.md">UdecxUsbDevicePlugIn</a> on the device.
 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-</dt>
-</dl>
+
+<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
  
 
  

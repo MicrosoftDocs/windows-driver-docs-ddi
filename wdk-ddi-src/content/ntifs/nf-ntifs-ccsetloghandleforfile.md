@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7bb56650-a75e-4b49-bfb3-83848ede29c0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcSetLogHandleForFile
+ms.keywords: ifsk.ccsetloghandleforfile, ntifs/CcSetLogHandleForFile, CcSetLogHandleForFile, LogHandle, ccref_e4928c2e-41c5-4744-83c6-9c22766e9cfa.xml, Lsn, CcSetLogHandleForFile routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available on Microsoft Windows XP and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcSetLogHandleForFile
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcSetLogHandleForFile
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcSetLogHandleForFile function
 
 
-
 ## -description
+
+
 The <b>CcSetLogHandleForFile</b> routine sets a log handle for a file. 
 
 
-
 ## -syntax
+
 
 ````
 VOID CcSetLogHandleForFile(
@@ -55,6 +65,9 @@ VOID CcSetLogHandleForFile(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -69,7 +82,6 @@ Pointer to the log handle that is to be stored.
 ### -param FlushToLsnRoutine [in]
 
 Pointer to a log file flush callback routine to call before flushing buffers for this file. This routine is called to ensure that a log file is flushed to the most recent logical sequence number (LSN) for any buffer control block (BCB) being flushed. This routine is declared as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -85,37 +97,36 @@ VOID (*PFLUSH_TO_LSN) (
 </tr>
 </table></span></div>
 
-### -param LogHandle
+##### - FlushToLsnRoutine.LogHandle
 
-<dd>
 Pointer to an opaque structure that is used to identify this client. 
 
 
-### -param Lsn
+##### - FlushToLsnRoutine.Lsn
 
-<dd>
 This is the LSN that must be on the disk on return from this callback routine. 
 
-</dd>
-</dl>
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>CcSetLogHandleForFile</b> sets a log handle for a file, for use in subsequent calls to <a href="..\ntifs\nf-ntifs-ccgetdirtypages.md">CcGetDirtyPages</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccgetdirtypages.md">CcGetDirtyPages</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ccgetdirtypages.md">CcGetDirtyPages</a>
+
  
 
  

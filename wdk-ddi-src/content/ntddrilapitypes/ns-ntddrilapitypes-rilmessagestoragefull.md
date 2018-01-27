@@ -7,8 +7,8 @@ old-location: netvista\rilmessagestoragefull.htm
 old-project: netvista
 ms.assetid: 3369feeb-cbb9-4938-8dfd-0160ba4fefdf
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILMESSAGESTORAGEFULL, *LPRILMESSAGESTORAGEFULL, RILMESSAGESTORAGEFULL
+ms.date: 1/18/2018
+ms.keywords: netvista.rilmessagestoragefull, ntddrilapitypes/RILMESSAGESTORAGEFULL, RILMESSAGESTORAGEFULL structure [Network Drivers Starting with Windows Vista], *LPRILMESSAGESTORAGEFULL, RILMESSAGESTORAGEFULL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILMESSAGESTORAGEFULL
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILMESSAGESTORAGEFULL, RILMESSAGESTORAGEFULL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILMESSAGESTORAGEFULL
+product: Windows
+targetos: Windows
+req.typenames: RILMESSAGESTORAGEFULL, *LPRILMESSAGESTORAGEFULL
 ---
 
 # RILMESSAGESTORAGEFULL structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILMESSAGESTORAGEFULL {
@@ -56,13 +66,17 @@ typedef struct _RILMESSAGESTORAGEFULL {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwExecutor
 
 
+
 ### -field hUiccApp
 
 
-## -remarks

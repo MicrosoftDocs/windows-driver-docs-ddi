@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0ace1cdf-0a15-48bb-9444-c947239e453e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _KTMOBJECT_TYPE, *PKTMOBJECT_TYPE, KTMOBJECT_TYPE
+ms.keywords: wdm/KTMOBJECT_TRANSACTION_MANAGER, KTMOBJECT_TRANSACTION_MANAGER, KTMOBJECT_RESOURCE_MANAGER, KTMOBJECT_TYPE, wdm/KTMOBJECT_RESOURCE_MANAGER, KTMOBJECT_INVALID, KTMOBJECT_TRANSACTION, wdm/KTMOBJECT_TYPE, wdm/KTMOBJECT_TRANSACTION, wdm/KTMOBJECT_ENLISTMENT, _KTMOBJECT_TYPE, wdm/KTMOBJECT_INVALID, *PKTMOBJECT_TYPE, ktm_ref_1f145c7b-775d-4d0f-b5cd-1e09f5c5b438.xml, PKTMOBJECT_TYPE, kernel.ktmobject_type, KTMOBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], PKTMOBJECT_TYPE enumeration pointer [Kernel-Mode Driver Architecture], KTMOBJECT_ENLISTMENT, wdm/PKTMOBJECT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later operating system
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KTMOBJECT_TYPE
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PKTMOBJECT_TYPE, KTMOBJECT_TYPE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	KTMOBJECT_TYPE
+product: Windows
+targetos: Windows
+req.typenames: KTMOBJECT_TYPE, *PKTMOBJECT_TYPE
 req.product: Windows 10 or later.
 ---
 
 # _KTMOBJECT_TYPE enumeration
 
 
-
 ## -description
+
+
 The <b>KTMOBJECT_TYPE</b> enumeration identifies the types of objects that KTM supports.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _KTMOBJECT_TYPE { 
@@ -58,6 +68,9 @@ typedef enum _KTMOBJECT_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field KTMOBJECT_TRANSACTION
 
@@ -85,17 +98,18 @@ Invalid object type.
 
 
 ## -remarks
+
+
 The <b>KTMOBJECT_TYPE</b> enumeration is used with the <a href="..\wdm\nf-wdm-zwenumeratetransactionobject.md">ZwEnumerateTransactionObject</a> routine.
 
 For more information about KTM objects, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554272">KTM Objects</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwenumeratetransactionobject.md">ZwEnumerateTransactionObject</a>
-</dt>
-</dl>
+
  
 
  

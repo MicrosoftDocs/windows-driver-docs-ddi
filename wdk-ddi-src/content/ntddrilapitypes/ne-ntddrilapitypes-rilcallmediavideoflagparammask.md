@@ -7,8 +7,8 @@ old-location: netvista\rilcallmediavideoflagparammask.htm
 old-project: netvista
 ms.assetid: cff507e4-d673-4608-9fd9-530ff7e26ffb
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCALLMEDIAVIDEOFLAGPARAMMASK, RILCALLMEDIAVIDEOFLAGPARAMMASK
+ms.date: 1/18/2018
+ms.keywords: ntddrilapitypes/RIL_CALLMEDIAVIDEOFLAG_ALL, RIL_CALLMEDIAVIDEOFLAG_ALL, RILCALLMEDIAVIDEOFLAGPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIAVIDEOFLAG_PAUSE, ntddrilapitypes/RIL_CALLMEDIAVIDEOFLAG_PAUSE, RILCALLMEDIAVIDEOFLAGPARAMMASK, RIL_CALLMEDIAVIDEOFLAG_TEMPORARILY_UNAVAILABLE, ntddrilapitypes/RIL_CALLMEDIAVIDEOFLAG_TEMPORARILY_UNAVAILABLE, RIL_CALLMEDIAVIDEOFLAG_CAPABILITY_UNKNOWN, netvista.rilcallmediavideoflagparammask, ntddrilapitypes/RILCALLMEDIAVIDEOFLAGPARAMMASK, ntddrilapitypes/RIL_CALLMEDIAVIDEOFLAG_CAPABILITY_UNKNOWN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCALLMEDIAVIDEOFLAGPARAMMASK
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILCALLMEDIAVIDEOFLAGPARAMMASK
+product: Windows
+targetos: Windows
 req.typenames: RILCALLMEDIAVIDEOFLAGPARAMMASK
 ---
 
 # RILCALLMEDIAVIDEOFLAGPARAMMASK enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILCALLMEDIAVIDEOFLAGPARAMMASK { 
@@ -57,16 +67,25 @@ typedef enum _RILCALLMEDIAVIDEOFLAGPARAMMASK {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_CALLMEDIAVIDEOFLAG_NONE
+
+
+
 ### -field RIL_CALLMEDIAVIDEOFLAG_CAPABILITY_UNKNOWN
+
 
 
 ### -field RIL_CALLMEDIAVIDEOFLAG_PAUSE
 
 
+
 ### -field RIL_CALLMEDIAVIDEOFLAG_TEMPORARILY_UNAVAILABLE
+
 
 
 ### -field RIL_CALLMEDIAVIDEOFLAG_ALL
 
 
-## -remarks

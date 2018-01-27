@@ -7,8 +7,8 @@ old-location: debugger\writeio.htm
 old-project: debugger
 ms.assetid: 3bc84b15-7c13-4ad9-b9a1-6abd5a7389eb
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4::WriteIo, WriteIo
+ms.date: 1/19/2018
+ms.keywords: WriteIo method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4, IDebugDataSpaces_d36b33ec-db19-4df1-8813-b77f22705279.xml, dbgeng/IDebugDataSpaces4::WriteIo, debugger.writeio, WriteIo method [Windows Debugging], IDebugDataSpaces3::WriteIo, IDebugDataSpaces::WriteIo, IDebugDataSpaces4::WriteIo, WriteIo method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces3 interface [Windows Debugging], WriteIo method, dbgeng/IDebugDataSpaces2::WriteIo, dbgeng/IDebugDataSpaces3::WriteIo, IDebugDataSpaces interface [Windows Debugging], WriteIo method, WriteIo method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces2::WriteIo, WriteIo method [Windows Debugging], IDebugDataSpaces interface, dbgeng/IDebugDataSpaces::WriteIo, IDebugDataSpaces2 interface [Windows Debugging], WriteIo method, IDebugDataSpaces4 interface [Windows Debugging], WriteIo method, WriteIo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugDataSpaces.WriteIo,IDebugDataSpaces2.WriteIo,IDebugDataSpaces3.WriteIo,IDebugDataSpaces4.WriteIo
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugDataSpaces.WriteIo
+-	IDebugDataSpaces2.WriteIo
+-	IDebugDataSpaces3.WriteIo
+-	IDebugDataSpaces4.WriteIo
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::WriteIo method
 
 
-
 ## -description
+
+
 The <b>WriteIo</b> method writes to the system and bus I/O memory.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT WriteIo(
@@ -59,6 +72,9 @@ HRESULT WriteIo(
 
 
 ## -parameters
+
+
+
 
 ### -param InterfaceType [in]
 
@@ -96,13 +112,32 @@ Receives the number of bytes written to I/O bus.  If <i>BytesWritten</i> is <b>N
 
 
 ## -returns
+
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method was successful.
+</dl>
+</td>
+<td width="60%">
+The method was successful.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-This method is only available in kernel-mode debugging.</p>
+
+
+This method is only available in kernel-mode debugging.
+
+

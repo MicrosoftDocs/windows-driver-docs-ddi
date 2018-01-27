@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 042378f0-aa0f-49be-b881-86558ad33baf
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IUnregisterSubdevice, IUnregisterSubdevice::UnregisterSubdevice, UnregisterSubdevice
+ms.keywords: portcls/IUnregisterSubdevice::UnregisterSubdevice, audio.iunregistersubdevice_unregistersubdevice, audmp-routines_8fb24a5e-af25-42e0-a96e-2f4728f17cde.xml, IUnregisterSubdevice, UnregisterSubdevice method [Audio Devices], IUnregisterSubdevice::UnregisterSubdevice, UnregisterSubdevice method [Audio Devices], IUnregisterSubdevice interface, IUnregisterSubdevice interface [Audio Devices], UnregisterSubdevice method, UnregisterSubdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IUnregisterSubdevice.UnregisterSubdevice
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IUnregisterSubdevice.UnregisterSubdevice
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IUnregisterSubdevice::UnregisterSubdevice method
 
 
-
 ## -description
+
+
 The <b>UnregisterSubdevice</b> method deletes the registration of a subdevice that was previously registered by a call to <a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS UnregisterSubdevice(
@@ -54,6 +64,9 @@ NTSTATUS UnregisterSubdevice(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceObject [in]
 
@@ -66,28 +79,29 @@ Pointer to the <a href="..\portcls\nn-portcls-iport.md">IPort</a> interface of t
 
 
 ## -returns
+
+
 <b>UnregisterSubdevice</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 For more information, see <a href="https://msdn.microsoft.com/d8ebd6d9-37ed-4890-aae1-5ecf58f2e22a">Dynamic Audio Subdevices</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iunregistersubdevice.md">IUnregisterSubdevice</a>
-</dt>
-<dt>
-<a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-<dt>
+
 <a href="..\portcls\nn-portcls-iport.md">IPort</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iunregistersubdevice.md">IUnregisterSubdevice</a>
+
+<a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>
+
  
 
  

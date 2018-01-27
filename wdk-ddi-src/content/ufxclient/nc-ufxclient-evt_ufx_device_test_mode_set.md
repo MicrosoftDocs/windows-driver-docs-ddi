@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 24B17B8E-C2F0-4CA8-AA9D-5EE86EB20CCC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+ms.keywords: buses.evt_ufx_device_test_mode_set, EvtUfxDeviceTestModeSet callback function [Buses], EvtUfxDeviceTestModeSet, EVT_UFX_DEVICE_TEST_MODE_SET, EVT_UFX_DEVICE_TEST_MODE_SET, ufxclient/EvtUfxDeviceTestModeSet, PFN_UFX_DEVICE_TEST_MODE_SET callback function pointer [Buses], PFN_UFX_DEVICE_TEST_MODE_SET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: PFN_UFX_DEVICE_TEST_MODE_SET
-req.alt-loc: Ufxclient.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Ufxclient.h
+apiname: 
+-	PFN_UFX_DEVICE_TEST_MODE_SET
+product: Windows
+targetos: Windows
+req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
 # EVT_UFX_DEVICE_TEST_MODE_SET callback
 
 
-
 ## -description
+
+
 The client driver's implementation to set the test mode of the function controller.
 
 
-
 ## -prototype
+
 
 ````
 EVT_UFX_DEVICE_TEST_MODE_SET EvtUfxDeviceTestModeSet;
@@ -61,15 +71,23 @@ typedef EVT_UFX_DEVICE_TEST_MODE_SET PFN_UFX_DEVICE_TEST_MODE_SET;
 
 ## -parameters
 
-### -param UfxDevice [in]
+
+
+
+
+
+
+
+
+
+#### - UfxDevice [in]
 
 The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
 
 
-### -param TestMode [in]
+#### - TestMode [in]
 
 Test mode selector value as defined by the USB 2.0 Specification.  These values are defined in usbfnbase.h
-
 <ul>
 <li>USB_TEST_MODE_TEST_J              0x01</li>
 <li>USB_TEST_MODE_TEST_K              0x02
@@ -83,24 +101,27 @@ Test mode selector value as defined by the USB 2.0 Specification.  These values 
 </ul>
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_TEST_MODE_SET</i> implementation with the USB function class extension (UFX) by calling the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a> method.
 
 The client driver indicates completion of this event by calling the <a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a> method.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
-</dt>
-<dt>
+
 <a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
-</dt>
-</dl>
+
  
 
  

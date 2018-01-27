@@ -7,8 +7,8 @@ old-location: netvista\rilresetmodemconfigvalue_2.htm
 old-project: netvista
 ms.assetid: 8749345c-a1a6-43f6-8cb7-f69a6734839f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILRESETMODEMCONFIGVALUE, *LPRILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE
+ms.date: 1/18/2018
+ms.keywords: netvista.rilresetmodemconfigvalue_2, rilapitypes/RILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE structure [Network Drivers Starting with Windows Vista], *LPRILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILRESETMODEMCONFIGVALUE
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILRESETMODEMCONFIGVALUE
+product: Windows
+targetos: Windows
 req.typenames: *LPRILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILRESETMODEMCONFIGVALUE structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILRESETMODEMCONFIGVALUE {
@@ -69,49 +79,68 @@ typedef struct _RILRESETMODEMCONFIGVALUE {
 
 ## -struct-fields
 
-### -field cbSize
 
-
-### -field dwType
-
-
-### -field RILRESETMODEMCONFIGVALUEUNION
 
 
 ### -field configValueUnion
 
 
-### -field switch_is
+
+### -field configValueUnion.fValue
+
+ 
+
+
+### -field configValueUnion.dwValue
+
+ 
+
+
+### -field configValueUnion.wszValue
+
+ 
+
+
+### -field RILRESETMODEMCONFIGVALUEUNION
+
+
+
+### -field cbSize
+
 
 
 ### -field dwType
 
 
-### -field fValue
+
+#### - RIL_RMCV_TYPE_BOOLEAN
 
 
-### -field case
+
+#### - case
 
 
-### -field RIL_RMCV_TYPE_BOOLEAN
+
+#### - RIL_RMCV_TYPE_DWORD
 
 
-### -field dwValue
+
+#### - switch_is
 
 
-### -field case
+
+#### - wszValue
 
 
-### -field RIL_RMCV_TYPE_DWORD
+
+#### - RIL_RMCV_TYPE_STRING
 
 
-### -field wszValue
+
+#### - dwValue
 
 
-### -field case
+
+#### - fValue
 
 
-### -field RIL_RMCV_TYPE_STRING
-
-
-## -remarks

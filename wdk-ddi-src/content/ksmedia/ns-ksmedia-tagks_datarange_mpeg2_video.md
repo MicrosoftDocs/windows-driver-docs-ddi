@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed29c80a-7a42-46e3-8a18-d66dfddb9659
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_DATARANGE_MPEG2_VIDEO, *PKS_DATARANGE_MPEG2_VIDEO, KS_DATARANGE_MPEG2_VIDEO
+ms.keywords: KS_DATARANGE_MPEG2_VIDEO structure [Streaming Media Devices], ksmedia/PKS_DATARANGE_MPEG2_VIDEO, stream.ks_datarange_mpeg2_video, PKS_DATARANGE_MPEG2_VIDEO, *PKS_DATARANGE_MPEG2_VIDEO, ksmedia/KS_DATARANGE_MPEG2_VIDEO, PKS_DATARANGE_MPEG2_VIDEO structure pointer [Streaming Media Devices], KS_DATARANGE_MPEG2_VIDEO, tagKS_DATARANGE_MPEG2_VIDEO, vidcapstruct_91d79090-6aa2-4037-8436-7cb21d242e72.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_DATARANGE_MPEG2_VIDEO
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KS_DATARANGE_MPEG2_VIDEO
+product: Windows
+targetos: Windows
 req.typenames: *PKS_DATARANGE_MPEG2_VIDEO, KS_DATARANGE_MPEG2_VIDEO
 ---
 
 # tagKS_DATARANGE_MPEG2_VIDEO structure
 
 
-
 ## -description
+
+
 The KS_DATARANGE_MPEG2_VIDEO structure describes the range of MPEG-2 video formats available for a stream.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagKS_DATARANGE_MPEG2_VIDEO {
@@ -59,6 +69,9 @@ typedef struct tagKS_DATARANGE_MPEG2_VIDEO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DataRange
 
@@ -95,21 +108,14 @@ Specifies the configuration of the stream, including scaling, cropping, and fram
 Specifies the details of the video stream.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-tagks_mpegvideoinfo2.md">KS_MPEGVIDEOINFO2</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
  
 
  

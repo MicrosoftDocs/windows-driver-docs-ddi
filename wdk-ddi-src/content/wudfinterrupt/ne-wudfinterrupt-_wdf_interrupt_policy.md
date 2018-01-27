@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 92E2A992-8A0B-4E0F-B615-DC6E30E4A227
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_INTERRUPT_POLICY, WDF_INTERRUPT_POLICY, *PWDF_INTERRUPT_POLICY
+ms.keywords: wudfinterrupt/PWDF_INTERRUPT_POLICY, WdfIrqPolicyAllCloseProcessors, wudfinterrupt/WdfIrqPolicySpecifiedProcessors, umdf.wdf_interrupt_policy, WdfIrqPolicyOneCloseProcessor, wudfinterrupt/WDF_INTERRUPT_POLICY, WdfIrqPolicyMachineDefault, *PWDF_INTERRUPT_POLICY, WdfIrqPolicyAllProcessorsInMachine, WdfIrqPolicySpreadMessagesAcrossAllProcessors, wudfinterrupt/WdfIrqPolicyAllCloseProcessors, WdfIrqPolicySpecifiedProcessors, wudfinterrupt/WdfIrqPolicyAllProcessorsInMachine, _WDF_INTERRUPT_POLICY, wdf.wdf_interrupt_policy_umdf, wudfinterrupt/WdfIrqPolicyOneCloseProcessor, PWDF_INTERRUPT_POLICY enumeration pointer, WDF_INTERRUPT_POLICY, wudfinterrupt/WdfIrqPolicyMachineDefault, WDF_INTERRUPT_POLICY enumeration, PWDF_INTERRUPT_POLICY, wudfinterrupt/WdfIrqPolicySpreadMessagesAcrossAllProcessors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.11
-req.alt-api: WDF_INTERRUPT_POLICY
-req.alt-loc: Wudfinterrupt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: WDF_INTERRUPT_POLICY, *PWDF_INTERRUPT_POLICY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wudfinterrupt.h
+apiname: 
+-	WDF_INTERRUPT_POLICY
+product: Windows
+targetos: Windows
+req.typenames: *PWDF_INTERRUPT_POLICY, WDF_INTERRUPT_POLICY
 req.product: Windows 10 or later.
 ---
 
 # _WDF_INTERRUPT_POLICY enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_policy.md">WDF_INTERRUPT_POLICY</a> enumeration type identifies the affinity policies that the Plug and Play (PnP) manager can use when it assigns a device's interrupts to the processors of a multiprocessor system.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_INTERRUPT_POLICY { 
@@ -61,6 +71,9 @@ typedef enum _WDF_INTERRUPT_POLICY {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WdfIrqPolicyMachineDefault
 
@@ -93,15 +106,16 @@ The PnP manager should assign different message-based interrupts to different pr
 
 
 ## -remarks
+
+
 The <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_policy.md">WDF_INTERRUPT_POLICY</a> enumeration type is used as input to the <a href="https://msdn.microsoft.com/EDBCBB37-41A4-4234-BE8C-4C8739BC287B">IWDFInterrupt::SetPolicy</a> method.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/EDBCBB37-41A4-4234-BE8C-4C8739BC287B">IWDFInterrupt::SetPolicy</a>
-</dt>
-</dl>
+
  
 
  

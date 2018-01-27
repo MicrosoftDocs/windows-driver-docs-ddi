@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3c055598-5f07-46e1-830d-1df9a459f742
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+ms.keywords: display.dxgkddiopmgetcertificate, DxgkDdiOPMGetCertificate callback function [Display Devices], DxgkDdiOPMGetCertificate, DXGKDDI_OPM_GET_CERTIFICATE, DXGKDDI_OPM_GET_CERTIFICATE, dispmprt/DxgkDdiOPMGetCertificate, Dm_Opm_functions_80d478db-b192-4d86-8938-c105bcc8a677.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiOPMGetCertificate
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DxgkDdiOPMGetCertificate
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_OPM_GET_CERTIFICATE callback
 
 
-
 ## -description
+
+
 The<i> DxgkDdiOPMGetCertificate</i> function retrieves a certificate of the given type and size.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_OPM_GET_CERTIFICATE DxgkDdiOPMGetCertificate;
@@ -59,6 +69,9 @@ NTSTATUS DxgkDdiOPMGetCertificate(
 
 
 ## -parameters
+
+
+
 
 ### -param MiniportDeviceContext [in]
 
@@ -81,46 +94,92 @@ A pointer to a buffer that receives the requested certificate if <i>DxgkDdiOPMGe
 
 
 ## -returns
+
+
 <i>DxgkDdiOPMGetCertificate</i> returns one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The function successfully retrieved the certificate.
+</dl>
+</td>
+<td width="60%">
+The function successfully retrieved the certificate.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_OPM_NOT_SUPPORTED</b></dt>
-</dl>The display miniport driver does not support OPM either because the hardware vender never signed the OPM license agreement or the miniport driver's graphics hardware does not comply with OPM rules. <i>DxgkDdiOPMGetCertificate</i> can also return this value if the display miniport driver detected tampering. 
+</dl>
+</td>
+<td width="60%">
+The display miniport driver does not support OPM either because the hardware vender never signed the OPM license agreement or the miniport driver's graphics hardware does not comply with OPM rules. <i>DxgkDdiOPMGetCertificate</i> can also return this value if the display miniport driver detected tampering. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_COPP_NOT_SUPPORTED</b></dt>
-</dl>The display miniport driver does not support COPP either because the hardware vender never signed the COPP license agreement or the miniport driver's graphics hardware does not comply with COPP rules. <i>DxgkDdiOPMGetCertificate</i> can also return this value if the display miniport driver detected tampering. 
+</dl>
+</td>
+<td width="60%">
+The display miniport driver does not support COPP either because the hardware vender never signed the COPP license agreement or the miniport driver's graphics hardware does not comply with COPP rules. <i>DxgkDdiOPMGetCertificate</i> can also return this value if the display miniport driver detected tampering. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_UAB_NOT_SUPPORTED</b></dt>
-</dl>The display miniport driver does not support UAB either because the hardware vender never signed the UAB license agreement or the miniport driver's graphics hardware does not comply with UAB rules. <i>DxgkDdiOPMGetCertificate</i> can also return this value if the display miniport driver detected tampering. 
+</dl>
+</td>
+<td width="60%">
+The display miniport driver does not support UAB either because the hardware vender never signed the UAB license agreement or the miniport driver's graphics hardware does not comply with UAB rules. <i>DxgkDdiOPMGetCertificate</i> can also return this value if the display miniport driver detected tampering. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_PVP_HFS_FAILED</b></dt>
-</dl>The display miniport driver's hardware functionality scan (HFS) failed or the display miniport driver detected tampering. A display miniport driver can optionally return this value. If <i>DxgkDdiOPMGetCertificate</i> does not return this value for tampering, it can return one of the previous error codes instead. 
+</dl>
+</td>
+<td width="60%">
+The display miniport driver's hardware functionality scan (HFS) failed or the display miniport driver detected tampering. A display miniport driver can optionally return this value. If <i>DxgkDdiOPMGetCertificate</i> does not return this value for tampering, it can return one of the previous error codes instead. 
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other error codes that are defined in Ntstatus.h.
 
 
+
 ## -remarks
+
+
 <i>DxgkDdiOPMGetCertificate</i> can retrieve the display miniport driver's OPM certificate, User Accessible Bus (UAB) certificate, or Certified Output Protection Protocol (COPP) certificate. For information about these certificates, download the Output Content Protection document from the <a href="http://go.microsoft.com/fwlink/p/?linkid=204788">Output Content Protection and Windows Vista</a> website.
 
 <i>DxgkDdiOPMGetCertificate</i> should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-</dt>
-<dt>
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate_size.md">DxgkDdiOPMGetCertificateSize</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_certificate_type.md">DXGKMDT_CERTIFICATE_TYPE</a>
-</dt>
-</dl>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate_size.md">DxgkDdiOPMGetCertificateSize</a>
+
  
 
  

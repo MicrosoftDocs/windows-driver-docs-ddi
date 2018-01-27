@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7e27f53f-350e-4315-9de6-60835bddcbfb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSFC_TM, *PMSFC_TM, MSFC_TM
+ms.keywords: MSFC_TM, _MSFC_TM, PMSFC_TM structure pointer [Storage Devices], PMSFC_TM, hbapiwmi/PMSFC_TM, *PMSFC_TM, hbapiwmi/MSFC_TM, structs-Fibre_5cca5127-bbcc-4a2f-9ad2-2daeecac1448.xml, MSFC_TM structure [Storage Devices], storage.msfc_tm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSFC_TM
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PMSFC_TM, MSFC_TM
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	MSFC_TM
+product: Windows
+targetos: Windows
+req.typenames: MSFC_TM, *PMSFC_TM
 ---
 
 # _MSFC_TM structure
 
 
-
 ## -description
+
+
 The MSFC_TM structure is used by WMI providers to timestamp events. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSFC_TM {
@@ -61,6 +71,9 @@ typedef struct _MSFC_TM {
 
 
 ## -struct-fields
+
+
+
 
 ### -field tm_sec
 
@@ -107,15 +120,10 @@ Indicates the number of days since January 1. This member must have a value betw
 Indicates when <b>TRUE</b> that the time stamp complies with daylight savings time. When <b>FALSE</b>, indicates that the timestamp does not comply with daylight savings time. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562965">MSFC_TM WMI Class</a>
-</dt>
-</dl>
+
  
 
  

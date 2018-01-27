@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 49b8f602-8f82-4445-98f2-a63563689561
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSAUDIO_MIC_ARRAY_GEOMETRY, KSAUDIO_MIC_ARRAY_GEOMETRY, *PKSAUDIO_MIC_ARRAY_GEOMETRY
+ms.keywords: PKSAUDIO_MIC_ARRAY_GEOMETRY, KSAUDIO_MIC_ARRAY_GEOMETRY, ksmedia/PKSAUDIO_MIC_ARRAY_GEOMETRY, ksmedia/KSAUDIO_MIC_ARRAY_GEOMETRY, PKSAUDIO_MIC_ARRAY_GEOMETRY structure pointer [Audio Devices], audio.ksaudio_mic_array_geometry, *PKSAUDIO_MIC_ARRAY_GEOMETRY, KSAUDIO_MIC_ARRAY_GEOMETRY structure [Audio Devices], aud-prop_b25763af-a8d5-4335-ae71-f3bc59218201.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSAUDIO_MIC_ARRAY_GEOMETRY
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KSAUDIO_MIC_ARRAY_GEOMETRY, *PKSAUDIO_MIC_ARRAY_GEOMETRY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSAUDIO_MIC_ARRAY_GEOMETRY
+product: Windows
+targetos: Windows
+req.typenames: *PKSAUDIO_MIC_ARRAY_GEOMETRY, KSAUDIO_MIC_ARRAY_GEOMETRY
 ---
 
 # KSAUDIO_MIC_ARRAY_GEOMETRY structure
 
 
-
 ## -description
+
+
 The KSAUDIO_MIC_ARRAY_GEOMETRY structure specifies the type and the geometry of the microphone array. The <b>usNumberOfMicrophones</b> member indicates the number of microphones in the physical array. The KsMicCoord member is a variable of type <a href="..\ksmedia\ns-ksmedia-ksaudio_microphone_coordinates.md">KSAUDIO_MICROPHONE_COORDINATES</a> and it is an array of structures. The number of entries in this array is given by the value of the <b>usNumberOfMicrophones</b> member.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -63,6 +73,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field usVersion
 
 Specifies the version number of the KSAUDIO_MIC_ARRAY_GEOMETRY structure. This member is a BCD value and is currently set to 0x0100, which represents a version number of 1.0.
@@ -71,7 +84,6 @@ Specifies the version number of the KSAUDIO_MIC_ARRAY_GEOMETRY structure. This m
 ### -field usMicArrayType
 
 Specifies the type of microphone array in use. This member can be any one of the KSMICARRAY_MICARRAYTYPE enumeration values shown in the following table.
-
 <table>
 <tr>
 <td>
@@ -113,8 +125,7 @@ KSMICARRAY_MICARRAYTYPE_3D
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field wVerticalAngleBegin
@@ -158,6 +169,8 @@ Specifies the array of KSAUDIO_MICROPHONE_COORDINATES structures that contains t
 
 
 ## -remarks
+
+
 All angle values are expressed in units of 1/10000th of a radian. For example, 3.1416 radians is expressed as 31416 units. Acceptable values range from -31416 to 31416 units.
 
 All coordinate values are expressed in millimeters. Acceptable values range from -32768 to 32767, inclusive.
@@ -171,12 +184,11 @@ For more information about how to process a microphone array in Windows Vista, s
 <a href="http://go.microsoft.com/fwlink/p/?linkid=120593">How to Build and Use Microphone Arrays for Windows Vista</a>
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-ksaudio_microphone_coordinates.md">KSAUDIO_MICROPHONE_COORDINATES</a>
-</dt>
-</dl>
+
  
 
  

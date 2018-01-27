@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 460ADE5A-0302-4695-A9E4-43B309738BE7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _FILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX, *PFILE_STANDARD_INFORMATION_EX
+ms.keywords: FILE_STANDARD_INFORMATION_EX, kernel.file_standard_information_ex, PFILE_STANDARD_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture], PFILE_STANDARD_INFORMATION_EX, wdm/FILE_STANDARD_INFORMATION_EX, wdm/PFILE_STANDARD_INFORMATION_EX, _FILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX structure [Kernel-Mode Driver Architecture], *PFILE_STANDARD_INFORMATION_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILE_STANDARD_INFORMATION_EX
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	FILE_STANDARD_INFORMATION_EX
+product: Windows
+targetos: Windows
 req.typenames: FILE_STANDARD_INFORMATION_EX, *PFILE_STANDARD_INFORMATION_EX
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _FILE_STANDARD_INFORMATION_EX structure
 
 
-
 ## -description
+
+
 The <b>FILE_STANDARD_INFORMATION_EX</b> structure is used as an argument to routines that query or set file information.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILE_STANDARD_INFORMATION_EX {
@@ -60,6 +70,9 @@ typedef struct _FILE_STANDARD_INFORMATION_EX {
 
 
 ## -struct-fields
+
+
+
 
 ### -field AllocationSize
 
@@ -97,21 +110,20 @@ The metadata attribute status. <b>TRUE</b> indicates the file object represents 
 
 
 ## -remarks
+
+
 <b>EndOfFile</b> specifies the byte offset to the end of the file. Because this value is zero-based, it actually refers to the first free byte in the file; that is, it is the offset to the byte immediately following the last valid byte in the file. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
  
 
  

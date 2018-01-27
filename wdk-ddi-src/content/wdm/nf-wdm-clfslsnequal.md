@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e154c9d5-a131-47db-b0fa-d51154637c56
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsLsnEqual
+ms.keywords: ClfsLsnEqual routine [Kernel-Mode Driver Architecture], ClfsLsnEqual, kernel.clfslsnequal, wdm/ClfsLsnEqual, Clfs_09dba2f1-3508-488d-b663-8ba0806b9d31.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ClfsLsnEqual
-req.alt-loc: Clfs.sys,Ext-MS-Win-fs-clfs-l1-1-0.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Clfs.sys
+-	Ext-MS-Win-fs-clfs-l1-1-0.dll
+apiname: 
+-	ClfsLsnEqual
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ClfsLsnEqual function
 
 
-
 ## -description
+
+
 The <b>ClfsLsnEqual</b> routine determines whether two LSNs from the same stream are equal.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN ClfsLsnEqual(
@@ -55,6 +66,9 @@ BOOLEAN ClfsLsnEqual(
 
 
 ## -parameters
+
+
+
 
 ### -param plsn1 [in]
 
@@ -67,10 +81,15 @@ A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that s
 
 
 ## -returns
+
+
 <b>ClfsLsnEqual</b> returns <b>TRUE</b> if the two LSNs are equal; otherwise, it returns <b>FALSE</b>.
 
 
+
 ## -remarks
+
+
 CLFS_LSN_NULL (the smallest LSN) and CLFS_LSN_INVALID (larger than any valid LSN) are valid arguments to <b>ClfsLsnEqual</b>.
 
 LSNs from different streams are not comparable. Do not use <b>ClfsLsnEqual</b>, <a href="..\wdm\nf-wdm-clfslsngreater.md">ClfsLsnGreater</a>, and the like to compare LSNs from different streams.
@@ -78,18 +97,15 @@ LSNs from different streams are not comparable. Do not use <b>ClfsLsnEqual</b>, 
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-clfslsngreater.md">ClfsLsnGreater</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-clfslsnless.md">ClfsLsnLess</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-clfslsnnull.md">ClfsLsnNull</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-clfslsngreater.md">ClfsLsnGreater</a>
+
+<a href="..\wdm\nf-wdm-clfslsnless.md">ClfsLsnLess</a>
+
  
 
  

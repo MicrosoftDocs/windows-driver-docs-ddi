@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3afd372f-556f-4c3a-804b-9bf7a8c9a438
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _DVINFO, *PDVINFO, DVINFO
+ms.keywords: DVINFO, PDVINFO structure pointer [Streaming Media Devices], DVINFO structure [Streaming Media Devices], avcstrm/DVINFO, stream.dvinfo, avcsref_9e5ce103-400a-4cfd-b160-5eb99906a80d.xml, _DVINFO, avcstrm/PDVINFO, *PDVINFO, PDVINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DVINFO
-req.alt-loc: avcstrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PDVINFO, DVINFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	avcstrm.h
+apiname: 
+-	DVINFO
+product: Windows
+targetos: Windows
+req.typenames: DVINFO, *PDVINFO
 ---
 
 # _DVINFO structure
 
 
-
 ## -description
+
+
 The DVINFO structure describes a DV stream format including its default streaming source information and stream control information.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DVINFO {
@@ -59,6 +69,9 @@ typedef struct _DVINFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwDVAAuxSrc
 
@@ -94,5 +107,3 @@ Specifies the Video Auxiliary Data Source Control Pack as defined in section D.8
 
 Reserved. This must be set to 0. Do not use this.
 
-
-## -remarks

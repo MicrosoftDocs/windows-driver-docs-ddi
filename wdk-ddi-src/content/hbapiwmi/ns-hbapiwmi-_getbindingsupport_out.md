@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cd67b301-a94a-41dd-9c06-e6c674ea9173
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _GetBindingSupport_OUT, GetBindingSupport_OUT, *PGetBindingSupport_OUT
+ms.keywords: hbapiwmi/PGetBindingSupport_OUT, _GetBindingSupport_OUT, *PGetBindingSupport_OUT, GetBindingSupport_OUT, GetBindingSupport_OUT structure [Storage Devices], structs-Fibre_1db0b747-ead3-461f-a7ab-c8150f92623a.xml, storage.getbindingsupport_out, PGetBindingSupport_OUT, hbapiwmi/GetBindingSupport_OUT, PGetBindingSupport_OUT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GetBindingSupport_OUT
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	GetBindingSupport_OUT
+product: Windows
+targetos: Windows
 req.typenames: GetBindingSupport_OUT, *PGetBindingSupport_OUT
 ---
 
 # _GetBindingSupport_OUT structure
 
 
-
 ## -description
+
+
 The GetBindingSupport_OUT structure is used by a WMI provider to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553910">GetBindingSupport</a> WMI method to the WMI client. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GetBindingSupport_OUT {
@@ -54,6 +64,9 @@ typedef struct _GetBindingSupport_OUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HBAStatus
 
@@ -66,15 +79,16 @@ Contains a bitmap that indicates the ability of an HBA and its miniport driver t
 
 
 ## -remarks
+
+
 The WMI tool suite generates a declaration of the GetBindingSupport_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553910">GetBindingSupport</a>
-</dt>
-</dl>
+
  
 
  

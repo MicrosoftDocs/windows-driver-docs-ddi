@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c12d4e5f-ec02-405c-91e2-cd5884bb8494
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExDeleteNPagedLookasideList
+ms.keywords: kernel.exdeletenpagedlookasidelist, ExDeleteNPagedLookasideList, wdm/ExDeleteNPagedLookasideList, k102_401f2550-ef71-4199-be7f-cdd7652a2c03.xml, ExDeleteNPagedLookasideList routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExDeleteNPagedLookasideList
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ExDeleteNPagedLookasideList
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ExDeleteNPagedLookasideList function
 
 
-
 ## -description
+
+
 The <b>ExDeleteNPagedLookasideList</b> routine destroys a nonpaged lookaside list.
 
 
-
 ## -syntax
+
 
 ````
 VOID ExDeleteNPagedLookasideList(
@@ -55,16 +65,24 @@ VOID ExDeleteNPagedLookasideList(
 
 ## -parameters
 
+
+
+
 ### -param Lookaside [in, out]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a> structure for the lookaside list, which the caller originally set up with <a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>. 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>ExDeleteNPagedLookasideList</b> is the reciprocal of <b>ExInitializeNPagedLookasideList</b>. It frees any remaining entries in the specified lookaside list and then removes the list from the system-wide set of active lookaside lists.
 
 The caller of <b>ExDeleteNPagedLookasideList</b> is responsible for subsequently releasing the memory that the caller provided to contain the list head.
@@ -72,15 +90,13 @@ The caller of <b>ExDeleteNPagedLookasideList</b> is responsible for subsequently
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565416">Using Lookaside Lists</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
+
  
 
  

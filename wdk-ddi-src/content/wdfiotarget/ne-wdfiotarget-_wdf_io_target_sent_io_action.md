@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4295ef73-b9a8-4593-8114-d0b836275b13
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_IO_TARGET_SENT_IO_ACTION, WDF_IO_TARGET_SENT_IO_ACTION
+ms.keywords: kmdf.wdf_io_target_sent_io_action, WdfIoTargetCancelSentIo, wdfiotarget/WDF_IO_TARGET_SENT_IO_ACTION, wdfiotarget/WdfIoTargetCancelSentIo, wdf.wdf_io_target_sent_io_action, wdfiotarget/WdfIoTargetWaitForSentIoToComplete, WdfIoTargetSentIoUndefined, WdfIoTargetWaitForSentIoToComplete, _WDF_IO_TARGET_SENT_IO_ACTION, WdfIoTargetLeaveSentIoPending, wdfiotarget/WdfIoTargetLeaveSentIoPending, DFIOTargetRef_f9150c63-6b0b-4050-b4ae-fd5ebbda4e0d.xml, wdfiotarget/WdfIoTargetSentIoUndefined, WDF_IO_TARGET_SENT_IO_ACTION, WDF_IO_TARGET_SENT_IO_ACTION enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_IO_TARGET_SENT_IO_ACTION
-req.alt-loc: wdfiotarget.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfiotarget.h
+apiname: 
+-	WDF_IO_TARGET_SENT_IO_ACTION
+product: Windows
+targetos: Windows
 req.typenames: WDF_IO_TARGET_SENT_IO_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_IO_TARGET_SENT_IO_ACTION enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_IO_TARGET_SENT_IO_ACTION</b> enumeration identifies the actions that the framework can take when a driver calls <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a> to stop an I/O target.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_IO_TARGET_SENT_IO_ACTION { 
@@ -59,6 +69,9 @@ typedef enum _WDF_IO_TARGET_SENT_IO_ACTION {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WdfIoTargetSentIoUndefined
 
@@ -81,6 +94,8 @@ The framework will leave I/O requests in the I/O target's queue. The requests re
 
 
 ## -remarks
+
+
 The <b>WDF_IO_TARGET_SENT_IO_ACTION</b> enumeration is used as an input parameter to the <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a> method.
 
 If your driver specifies the <b>WdfIoTargetWaitForSentIoToComplete</b> flag, the driver must not call <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a> from a request handler, a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function, or an <a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_readers_failed.md">EvtUsbTargetPipeReadersFailed</a> callback function.
@@ -88,15 +103,13 @@ If your driver specifies the <b>WdfIoTargetWaitForSentIoToComplete</b> flag, the
 For the UMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_sent_io_action.md">WDF_IO_TARGET_SENT_IO_ACTION (UMDF)</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
-</dt>
-<dt>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a>
-</dt>
-</dl>
+
+<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
+
  
 
  

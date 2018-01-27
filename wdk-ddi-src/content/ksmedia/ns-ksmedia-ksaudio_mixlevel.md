@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b685f2f5-3491-471d-b1da-07a7e56bda62
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSAUDIO_MIXLEVEL, KSAUDIO_MIXLEVEL, *PKSAUDIO_MIXLEVEL
+ms.keywords: audio.ksaudio_mixlevel, ksmedia/KSAUDIO_MIXLEVEL, PKSAUDIO_MIXLEVEL, PKSAUDIO_MIXLEVEL structure pointer [Audio Devices], aud-prop_d80f29a4-4872-49cc-b1af-94b69be9c229.xml, *PKSAUDIO_MIXLEVEL, KSAUDIO_MIXLEVEL structure [Audio Devices], KSAUDIO_MIXLEVEL, ksmedia/PKSAUDIO_MIXLEVEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSAUDIO_MIXLEVEL
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSAUDIO_MIXLEVEL
+product: Windows
+targetos: Windows
 req.typenames: KSAUDIO_MIXLEVEL, *PKSAUDIO_MIXLEVEL
 ---
 
 # KSAUDIO_MIXLEVEL structure
 
 
-
 ## -description
+
+
 The KSAUDIO_MIXLEVEL structure specifies the mixing level of an input-output path in a supermixer node (<a href="https://msdn.microsoft.com/library/windows/hardware/ff537198">KSNODETYPE_SUPERMIX</a>).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -54,6 +64,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Mute
 
@@ -66,6 +79,8 @@ Specifies the mix level that is applied to the input channel as it flows into th
 
 
 ## -remarks
+
+
 A KSAUDIO_MIXLEVEL structure specifies the volume level of a particular data path from one input channel of a supermixer node to an output channel of the same node. An array of these structures is needed to specify the volume levels for all the input-output paths through a supermixer node.
 
 To specify the mixing levels of all paths through a supermixer node with <i>m</i> input channels and <i>n</i> output channels requires a mix-level table consisting of an <i>m</i> x <i>n</i> array of KSAUDIO_MIXLEVEL structures. This table is used to set or get the data value for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537292">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a> property.
@@ -83,18 +98,15 @@ A decibel range represented by integer values -2147483648 to +2147483647, where
 This scale has a resolution of 1/65536 decibel.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537292">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537291">KSPROPERTY_AUDIO_MIX_LEVEL_CAPS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537198">KSNODETYPE_SUPERMIX</a>
-</dt>
-</dl>
+
  
 
  

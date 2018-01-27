@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6BAC104A-85CE-42FC-AE30-969B2FF6AFEF
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.pfnflush1, pfnFlush1 callback function [Display Devices], pfnFlush1, PFND3DDDI_FLUSH1, PFND3DDDI_FLUSH1, d3dumddi/pfnFlush1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnFlush1
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	pfnFlush1
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_FLUSH1 callback
 
 
-
 ## -description
+
+
 Called by the Microsoft Direct3D runtime to submit outstanding hardware commands that are in the hardware command buffer to the display miniport driver. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_FLUSH1 pfnFlush1;
@@ -59,6 +69,9 @@ _Check_return_ HRESULT APIENTRY* pfnFlush1(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
 A handle to the display device (graphics context).
@@ -66,24 +79,22 @@ A handle to the display device (graphics context).
 
 
 
-### -param FlushFlags 
+### -param FlushFlags
 
 A value from the <a href="..\d3dumddi\ne-d3dumddi-d3dddi_flush_flags.md">D3DDDI_FLUSH_FLAGS</a> enumeration that indicates whether the driver should continue to submit command buffers if there have been no new commands.
 
 
 ## -returns
+
+
 If this routine succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ne-d3dumddi-d3dddi_flush_flags.md">D3DDDI_FLUSH_FLAGS</a>
-</dt>
-</dl>
+
  
 
  

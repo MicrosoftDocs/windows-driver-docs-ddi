@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8490ebdd-f993-4c77-b6da-d57ef5e5d05f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.flipoverlay, FlipOverlay callback function [Display Devices], FlipOverlay, PFND3DDDI_FLIPOVERLAY, PFND3DDDI_FLIPOVERLAY, d3dumddi/FlipOverlay, UserModeDisplayDriver_Functions_4a2c5f7b-8d52-465f-84ea-a1fc4f53381b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FlipOverlay
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	FlipOverlay
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_FLIPOVERLAY callback
 
 
-
 ## -description
+
+
 The <i>FlipOverlay</i> function causes the overlay hardware to start displaying the given new allocation.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_FLIPOVERLAY FlipOverlay;
@@ -58,33 +68,46 @@ __checkReturn HRESULT APIENTRY FlipOverlay(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param pData [in]
+### -param *
+
+
+
+
+
+
+#### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_flipoverlay.md">D3DDDIARG_FLIPOVERLAY</a> structure that describes the new allocation to display by using the overlay.
 
 
 ## -returns
+
+
 <i>FlipOverlay</i> returns S_OK or an appropriate error result if the new allocation is not successfully displayed.
 
 
+
 ## -remarks
+
+
 Overlays are independent from the resources that are displayed by using the overlays.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_flipoverlay.md">D3DDDIARG_FLIPOVERLAY</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-</dt>
-</dl>
+
  
 
  

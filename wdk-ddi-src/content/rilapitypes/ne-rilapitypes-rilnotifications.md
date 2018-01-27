@@ -7,8 +7,8 @@ old-location: netvista\rilnotifications.htm
 old-project: netvista
 ms.assetid: a1737655-856d-430e-bce8-ef6c9b66ee54
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILNOTIFICATIONS, RILNOTIFICATIONS
+ms.date: 1/18/2018
+ms.keywords: RIL_NOTIFY_COUNT, rilapitypes/RIL_NOTIFY_EMERGENCYNUMBERLISTCHANGED, RIL_NOTIFY_REGSTATUSCHANGED, rilapitypes/RIL_NOTIFY_PROVISION_STATUS, RIL_NOTIFY_UICCTOOLKITCMD, rilapitypes/RIL_NOTIFY_UNSOLICITEDSS, RIL_NOTIFY_SYSTEMPREFSCHANGED, rilapitypes/RIL_NOTIFY_FORWARDSTARTDTMF, rilapitypes/RIL_NOTIFY_DIALEDID, rilapitypes/RIL_NOTIFY_MESSAGE, rilapitypes/RIL_NOTIFY_ADDITIONALNUMBERSTRINGUPDATED, rilapitypes/RIL_NOTIFY_UICCLOCKSTATUS, rilapitypes/RIL_NOTIFY_SUPSERVICEDATATERMINATED, rilapitypes/RIL_NOTIFY_SUPSERVICEDATA, rilapitypes/RIL_NOTIFY_RADIOEQUIPMENTSTATECHANGED, RIL_NOTIFY_UICCAPP_DATACHANGE, RIL_NOTIFY_RADIOEQUIPMENTSTATECHANGED, RILNOTIFICATIONS, rilapitypes/RIL_NOTIFY_SLOTINFOCHANGED, RIL_NOTIFY_CALLWAITING, rilapitypes/RIL_NOTIFY_SYSTEMPREFSCHANGED, RIL_NOTIFY_SUPSERVICEDATA, RIL_NOTIFY_FORWARDBURSTDTMF, rilapitypes/RIL_NOTIFY_UICCFILE_DATACHANGE, RIL_NOTIFY_ADDITIONALNUMBERSTRINGUPDATED, rilapitypes/RIL_NOTIFY_OEM_MAX, rilapitypes/RIL_NOTIFY_FORWARDSTOPDTMF, rilapitypes/RIL_NOTIFY_LOCATIONUPDATE, RIL_NOTIFY_EMERGENCYMODEEXITED, rilapitypes/RIL_NOTIFY_MESSAGE_STORAGE_FULL, RIL_NOTIFY_CALLMODIFICATIONINFO, rilapitypes/RIL_NOTIFY_CARDAPPREMOVED, rilapitypes/RIL_NOTIFY_EXECUTORSTATE, rilapitypes/RILNOTIFICATIONS, RIL_NOTIFY_MANAGED_ROAMING, rilapitypes/RIL_NOTIFY_UICCAPPPERSOCHECKSTATUS, RIL_NOTIFY_NETWORKCODECHANGED, rilapitypes/RIL_NOTIFY_COUNT, RIL_NOTIFY_UICCLOCKSTATUS, RIL_NOTIFY_PHONEBOOKENTRYDELETED, rilapitypes/RIL_NOTIFY_CLEARIDLEMODETEXT, rilapitypes/RIL_NOTIFY_CALLMODIFICATIONINFO, rilapitypes/RIL_NOTIFY_DISPLAY, RIL_NOTIFY_UICCFILE_DATACHANGE, RILNOTIFICATIONS enumeration [Network Drivers Starting with Windows Vista], RIL_NOTIFY_PHONEBOOKENTRYSTORED, rilapitypes/RIL_NOTIFY_MESSAGE_IN_UICC, RIL_NOTIFY_FORWARDSTARTDTMF, RIL_NOTIFY_PHONEBOOKREADYSTATE, RIL_NOTIFY_IMSSTATUS, rilapitypes/RIL_NOTIFY_PHONEBOOKENTRYDELETED, RIL_NOTIFY_MESSAGE, RIL_NOTIFY_SLOTINFOCHANGED, rilapitypes/RIL_NOTIFY_EMERGENCYMODEEXITED, rilapitypes/RIL_NOTIFY_NETWORKCODECHANGED, rilapitypes/RIL_NOTIFY_IMSSTATUS, rilapitypes/RIL_NOTIFY_CALLWAITING, rilapitypes/RIL_NOTIFY_FORWARDBURSTDTMF, RIL_NOTIFY_SUPSERVICEDATATERMINATED, rilapitypes/RIL_NOTIFY_LINECONTROL, RIL_NOTIFY_EXECUTORSTATE, rilapitypes/RIL_NOTIFY_CARDAPPADDED, RIL_NOTIFY_FORWARDSTOPDTMF, rilapitypes/RIL_NOTIFY_CALLPROGRESSINFO, rilapitypes/RIL_NOTIFY_PHONEBOOKENTRYSTORED, rilapitypes/RIL_NOTIFY_EMERGENCYMODEENTERED, RIL_NOTIFY_DIALEDID, RIL_NOTIFY_PROVISION_STATUS, netvista.rilnotifications, rilapitypes/RIL_NOTIFY_TONESIGNAL, RIL_NOTIFY_DISPLAY, rilapitypes/ RIL_NOTIFY_NITZ, rilapitypes/RIL_NOTIFY_PHONEBOOKREADYSTATE, RIL_NOTIFY_EMERGENCYMODEENTERED, rilapitypes/RIL_NOTIFY_MANAGED_ROAMING, RIL_NOTIFY_CARDAPPADDED, RIL_NOTIFY_EMERGENCYNUMBERLISTCHANGED, rilapitypes/RIL_NOTIFY_REGSTATUSCHANGED, rilapitypes/RIL_NOTIFY_SIGNALQUALITY, rilapitypes/RIL_NOTIFY_UICCAPP_DATACHANGE, RIL_NOTIFY_LINECONTROL, RIL_NOTIFY_UICCAPPPERSOCHECKSTATUS, RIL_NOTIFY_UNSOLICITEDSS, RIL_NOTIFY_MESSAGE_IN_UICC, RIL_NOTIFY_CALLPROGRESSINFO, rilapitypes/RIL_NOTIFY_RADIOPRESENCECHANGED, rilapitypes/RIL_NOTIFY_UICCTOOLKITCMD, rilapitypes/RIL_NOTIFY_SUPSVCINFO, RIL_NOTIFY_CARDAPPREMOVED, RIL_NOTIFY_NITZ, RIL_NOTIFY_RADIOPRESENCECHANGED, RIL_NOTIFY_TONESIGNAL, RIL_NOTIFY_SUPSVCINFO, RIL_NOTIFY_SIGNALQUALITY, RIL_NOTIFY_MESSAGE_STORAGE_FULL, RIL_NOTIFY_OEM_MAX, RIL_NOTIFY_LOCATIONUPDATE, RIL_NOTIFY_CLEARIDLEMODETEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILNOTIFICATIONS
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILNOTIFICATIONS
+product: Windows
+targetos: Windows
 req.typenames: RILNOTIFICATIONS
 req.product: Windows 10 or later.
 ---
@@ -38,10 +47,14 @@ req.product: Windows 10 or later.
 # RILNOTIFICATIONS enumeration
 
 
-
 ## -description
 
+
+<div class="alert"><b>Warning</b>  The Cellular COM API is deprecated in Windows 10. This content is provided to support maintenance of OEM and mobile operator created Windows Phone 8.1 applications.</div><div> </div>This enumeration describes RILNOTIFICATIONS. 
+
+
 ## -syntax
+
 
 ````
 enum RILNOTIFICATIONS  {
@@ -99,159 +112,256 @@ enum RILNOTIFICATIONS  {
 
 ## -enum-fields
 
+
+
+
 ### -field RIL_NOTIFY_OEM_MAX
+
 
 
 ### -field RIL_NOTIFY_RADIOEQUIPMENTSTATECHANGED
 
 
+
 ### -field RIL_NOTIFY_RADIOPRESENCECHANGED
+
 
 
 ### -field RIL_NOTIFY_UICCFILE_DATACHANGE
 
 
+
 ### -field RIL_NOTIFY_UICCAPP_DATACHANGE
+
 
 
 ### -field RIL_NOTIFY_SLOTINFOCHANGED
 
 
+
 ### -field RIL_NOTIFY_CARDAPPREMOVED
+
 
 
 ### -field RIL_NOTIFY_CARDAPPADDED
 
 
+
 ### -field RIL_NOTIFY_UICCLOCKSTATUS
+
 
 
 ### -field RIL_NOTIFY_UICCAPPPERSOCHECKSTATUS
 
 
+
 ### -field RIL_NOTIFY_PHONEBOOKENTRYDELETED
+
 
 
 ### -field RIL_NOTIFY_PHONEBOOKENTRYSTORED
 
 
+
 ### -field RIL_NOTIFY_PHONEBOOKREADYSTATE
+
 
 
 ### -field RIL_NOTIFY_EMERGENCYNUMBERLISTCHANGED
 
 
+
 ### -field RIL_NOTIFY_REGSTATUSCHANGED
+
 
 
 ### -field RIL_NOTIFY_LOCATIONUPDATE
 
 
+
 ### -field RIL_NOTIFY_NETWORKCODECHANGED
+
 
 
 ### -field RIL_NOTIFY_PROVISION_STATUS
 
 
+
 ### -field RIL_NOTIFY_SYSTEMPREFSCHANGED
+
 
 
 ### -field RIL_NOTIFY_EXECUTORSTATE
 
 
+
 ### -field RIL_NOTIFY_MANAGED_ROAMING
+
 
 
 ### -field RIL_NOTIFY_SIGNALQUALITY
 
 
-### -field  RIL_NOTIFY_NITZ
+
+### -field RIL_NOTIFY_NITZ
+
 
 
 ### -field RIL_NOTIFY_UICCTOOLKITCMD
 
 
+
 ### -field RIL_NOTIFY_CALLMODIFICATIONINFO
+
 
 
 ### -field RIL_NOTIFY_CALLPROGRESSINFO
 
 
+
 ### -field RIL_NOTIFY_EMERGENCYMODEENTERED
+
 
 
 ### -field RIL_NOTIFY_EMERGENCYMODEEXITED
 
 
+
 ### -field RIL_NOTIFY_CALLWAITING
+
 
 
 ### -field RIL_NOTIFY_DIALEDID
 
 
+
 ### -field RIL_NOTIFY_DISPLAY
+
 
 
 ### -field RIL_NOTIFY_SUPSVCINFO
 
 
+
 ### -field RIL_NOTIFY_SUPSERVICEDATA
+
 
 
 ### -field RIL_NOTIFY_UNSOLICITEDSS
 
 
+
 ### -field RIL_NOTIFY_LINECONTROL
+
 
 
 ### -field RIL_NOTIFY_MESSAGE
 
 
+
 ### -field RIL_NOTIFY_MESSAGE_IN_UICC
+
 
 
 ### -field RIL_NOTIFY_IMSSTATUS
 
 
+
 ### -field RIL_NOTIFY_ADDITIONALNUMBERSTRINGUPDATED
+
 
 
 ### -field RIL_NOTIFY_SUPSERVICEDATATERMINATED
 
 
+
 ### -field RIL_NOTIFY_CLEARIDLEMODETEXT
+
 
 
 ### -field RIL_NOTIFY_MESSAGE_STORAGE_FULL
 
 
+
 ### -field RIL_NOTIFY_TONESIGNAL
+
 
 
 ### -field RIL_NOTIFY_FORWARDSTARTDTMF
 
 
+
 ### -field RIL_NOTIFY_FORWARDSTOPDTMF
+
 
 
 ### -field RIL_NOTIFY_FORWARDBURSTDTMF
 
 
+
+### -field RIL_NOTIFY_EXECUTORFOCUSSTATECHANGED
+
+
+
+### -field RIL_NOTIFY_EXECUTORRFSTATE
+
+
+
+### -field RIL_NOTIFY_MODEMRESET
+
+
+
+### -field RIL_NOTIFY_RADIOCONFIGURATION
+
+
+
+### -field RIL_NOTIFY_IMSHANDOVERATTEMPT
+
+
+
+### -field RIL_NOTIFY_ADDITIONALCALLERINFO
+
+
+
+### -field RIL_NOTIFY_MWISUMMARY
+
+
+
+### -field RIL_NOTIFY_MWIDETAILS
+
+
+
+### -field RIL_NOTIFY_IMSFAILURE
+
+
+
+### -field RIL_NOTIFY_CONFPARTICIPANTSTATUS
+
+
+
+### -field RIL_NOTIFY_SMSREADYSTATUS
+
+
+
+### -field RIL_NOTIFY_REQUESTGEOLOCATIONDATA
+
+
+
+### -field RIL_NOTIFY_RTT
+
+
+
 ### -field RIL_NOTIFY_COUNT
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILNOTIFICATIONS enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILNOTIFICATIONS enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

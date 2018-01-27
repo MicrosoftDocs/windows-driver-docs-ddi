@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6de38cf4-a543-4cc9-aa6f-1804fc858040
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ScsiReportLuns_IN, *PScsiReportLuns_IN, ScsiReportLuns_IN
+ms.keywords: hbapiwmi/PScsiReportLuns_IN, PScsiReportLuns_IN structure pointer [Storage Devices], structs-Fibre_29218585-2d91-40f3-bbce-fb23df1e3df9.xml, _ScsiReportLuns_IN, ScsiReportLuns_IN, ScsiReportLuns_IN structure [Storage Devices], hbapiwmi/ScsiReportLuns_IN, PScsiReportLuns_IN, *PScsiReportLuns_IN, storage.scsireportluns_in2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ScsiReportLuns_IN
-req.alt-loc: Hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PScsiReportLuns_IN, ScsiReportLuns_IN
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Hbapiwmi.h
+apiname: 
+-	ScsiReportLuns_IN
+product: Windows
+targetos: Windows
+req.typenames: ScsiReportLuns_IN, *PScsiReportLuns_IN
 ---
 
 # _ScsiReportLuns_IN structure
 
 
-
 ## -description
+
+
 The ScsiReportLuns_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a> WMI method. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ScsiReportLuns_IN {
@@ -56,6 +66,9 @@ typedef struct _ScsiReportLuns_IN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Cdb
 
@@ -72,21 +85,22 @@ Contains a worldwise name for the HBA through which the target is accessed.
 Contains a worldwide name for the port through which the target device is accessed. 
 
 
-### -field FcLun
+#### - FcLun
 
 Indicates the logical unit number of the logical unit that will receive the SCSI report luns command.
 
 
 ## -remarks
+
+
 The WMI tool suite generates a declaration of the ScsiReportLuns_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
-</dt>
-</dl>
+
  
 
  

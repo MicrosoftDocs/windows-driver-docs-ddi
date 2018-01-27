@@ -7,8 +7,8 @@ old-location: debugger\idebugeventcallbackswide_changeenginestate.htm
 old-project: debugger
 ms.assetid: 14205476-3f58-4105-99a7-a3baa2eba033
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugEventCallbacksWide, IDebugEventCallbacksWide::ChangeEngineState, ChangeEngineState
+ms.date: 1/19/2018
+ms.keywords: dbgeng/IDebugEventCallbacksWide::ChangeEngineState, ChangeEngineState, IDebugEventCallbacksWide, debugger.idebugeventcallbackswide_changeenginestate, IDebugEventCallbacksWide::ChangeEngineState, ChangeEngineState method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging], ChangeEngineState method, ChangeEngineState method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugEventCallbacksWide.ChangeEngineState
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugEventCallbacksWide.ChangeEngineState
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacksWide::ChangeEngineState method
 
 
-
 ## -description
+
+
 The <b>ChangeEngineState</b> callback method is called by the engine when its state has changed.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT ChangeEngineState(
@@ -55,10 +65,12 @@ HRESULT ChangeEngineState(
 
 ## -parameters
 
+
+
+
 ### -param Flags [in]
 
 Specifies a bit-set indicating the type of changes that occurred in the engine's state.  The following bit flags might be set:
-
 <table>
 <tr>
 <th>Value</th>
@@ -90,7 +102,7 @@ DEBUG_CES_BREAKPOINTS
 
 </td>
 <td>
-One or more <a href="debugger.multiprocessor_syntax#breakpoints#breakpoints">breakpoints</a> have changed.
+One or more <a href="https://msdn.microsoft.com/library/windows/hardware/ff538928">breakpoints</a> have changed.
 
 </td>
 </tr>
@@ -214,8 +226,7 @@ Text replacements have changed.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Argument [in]
@@ -225,88 +236,93 @@ Provides additional information about the change to the engine's state.  If more
 
 
 
-### -param DEBUG_CES_CURRENT_THREAD
-
-The value of <i>Argument</i> is the current engine thread ID or--if there is no current thread--DEBUG_ANY_ID.  For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.
-
-
-### -param DEBUG_CES_EFFECTIVE_PROCESSOR
-
-The value of <i>Argument</i> is the type of the effective processor.
-
-
-### -param DEBUG_CES_BREAKPOINTS
-
-The value of <i>Argument</i> is the breakpoint ID of the breakpoint that was changed or--if more than one breakpoint was changed--DEBUG_ANY_ID.  For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538928">Breakpoints</a>.
-
-
-### -param DEBUG_CES_CODE_LEVEL
-
-The value of <i>Argument</i> is the code interpretation level.
-
-
-### -param DEBUG_CES_EXECUTION_STATUS
-
-The value of <i>Argument</i> is the execution status (as described in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541651">DEBUG_STATUS_XXX</a> topic) possibly combined with the bit flag DEBUG_STATUS_INSIDE_WAIT. DEBUG_STATUS_INSIDE_WAIT is set when a <b>WaitForEvent</b> call is pending. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>.
-
-
-### -param DEBUG_CES_ENGINE_OPTIONS
-
-The value of <i>Argument</i> is the engine options. 
-
-
-### -param DEBUG_CES_LOG_FILE
-
-The value of <i>Argument</i> is <b>TRUE</b> if the log file was opened and <b>FALSE</b> if the log file was closed.
-
-
-### -param DEBUG_CES_RADIX
+##### - Argument.DEBUG_CES_RADIX
 
 The value of <i>Argument</i> is the default radix.
 
 
-### -param DEBUG_CES_EVENT_FILTERS
+##### - Argument.DEBUG_CES_LOG_FILE
 
-The value of <i>Argument</i> is the index of the event filter that was changed or--if more than one event filter was changed--DEBUG_ANY_ID.
+The value of <i>Argument</i> is <b>TRUE</b> if the log file was opened and <b>FALSE</b> if the log file was closed.
 
 
-### -param DEBUG_CES_PROCESS_OPTIONS
+##### - Argument.DEBUG_CES_PROCESS_OPTIONS
 
 The value of <i>Argument</i> is the process options for the current process.
 
 
-### -param DEBUG_CES_EXTENSIONS
+##### - Argument.DEBUG_CES_EVENT_FILTERS
 
-The value of <i>Argument</i> is zero.
+The value of <i>Argument</i> is the index of the event filter that was changed or--if more than one event filter was changed--DEBUG_ANY_ID.
 
 
-### -param DEBUG_CES_SYSTEMS
+##### - Argument.DEBUG_CES_TEXT_REPLACEMENTS
+
+The value of <i>Argument</i> is DEBUG_ANY_ID.
+
+
+##### - Argument.DEBUG_CES_SYSTEMS
 
 The value of <i>Argument</i> is the target ID of the target that was added or--if a target was removed--DEBUG_ANY_ID.
 
 
-### -param DEBUG_CES_ASSEMBLE_OPTIONS
+##### - Argument.DEBUG_CES_CURRENT_THREAD
+
+The value of <i>Argument</i> is the current engine thread ID or--if there is no current thread--DEBUG_ANY_ID.  For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.
+
+
+##### - Argument.DEBUG_CES_ASSEMBLE_OPTIONS
 
 The value of <i>Argument</i> is the assemble options.
 
 
-### -param DEBUG_CES_EXPRESSION_SYNTAX
+##### - Argument.DEBUG_CES_EXTENSIONS
+
+The value of <i>Argument</i> is zero.
+
+
+##### - Argument.DEBUG_CES_BREAKPOINTS
+
+The value of <i>Argument</i> is the breakpoint ID of the breakpoint that was changed or--if more than one breakpoint was changed--DEBUG_ANY_ID.  For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538928">Breakpoints</a>.
+
+
+##### - Argument.DEBUG_CES_CODE_LEVEL
+
+The value of <i>Argument</i> is the code interpretation level.
+
+
+##### - Argument.DEBUG_CES_EFFECTIVE_PROCESSOR
+
+The value of <i>Argument</i> is the type of the effective processor.
+
+
+##### - Argument.DEBUG_CES_ENGINE_OPTIONS
+
+The value of <i>Argument</i> is the engine options. 
+
+
+##### - Argument.DEBUG_CES_EXECUTION_STATUS
+
+The value of <i>Argument</i> is the execution status (as described in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541651">DEBUG_STATUS_XXX</a> topic) possibly combined with the bit flag DEBUG_STATUS_INSIDE_WAIT. DEBUG_STATUS_INSIDE_WAIT is set when a <b>WaitForEvent</b> call is pending. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>.
+
+
+##### - Argument.DEBUG_CES_EXPRESSION_SYNTAX
 
 The value of <i>Argument</i> is the default expression syntax.
 
 
-### -param DEBUG_CES_TEXT_REPLACEMENTS
-
-The value of <i>Argument</i> is DEBUG_ANY_ID.
-
-</dd>
-</dl>
-
 ## -returns
+
+
 The return value is ignored by the engine unless it indicates a remote procedure call error; in this case the client, with which this <b>IDebugEventCallbacksWide</b> object is registered, is disabled.
 
 
+
 ## -remarks
+
+
 This method is only called by the engine if the DEBUG_EVENT_CHANGE_ENGINE_STATE flag is set in the mask returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550625">IDebugEventCallbacksWide::GetInterestMask</a>.
 
-For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>. </p>
+For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>. 
+
+

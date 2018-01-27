@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 78DFB17E-5351-419A-9B9B-8CBCD7548910
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortPoFxSetComponentResidency
+ms.keywords: storport/StorPortPoFxSetComponentResidency, StorPortPoFxSetComponentResidency routine [Storage Devices], StorPortPoFxSetComponentResidency, storage.storportpofxsetcomponentresidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortPoFxSetComponentResidency
-req.alt-loc: storport.lib,storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	storport.lib
+-	storport.dll
+apiname: 
+-	StorPortPoFxSetComponentResidency
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortPoFxSetComponentResidency function
 
 
-
 ## -description
+
+
 The <b>StorPortPoFxSetComponentResidency</b> routine sets the estimated time for how long a storage device component is likely to remain idle after the component enters the idle condition.
 
 
-
 ## -syntax
+
 
 ````
 ULONG StorPortPoFxSetComponentResidency(
@@ -57,6 +68,9 @@ ULONG StorPortPoFxSetComponentResidency(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -79,13 +93,33 @@ The estimated residency time, in 100-nanosecond units. This parameter is a hint 
 
 
 ## -returns
+
+
 The <b>StorPortPoFxSetComponentResidency</b> routine returns one of these status codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>The component residency is successfully set.
+</dl>
+</td>
+<td width="60%">
+The component residency is successfully set.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>Either <i>HwDeviceExtension</i> or <i>Device</i> is NULL.
+</dl>
+</td>
+<td width="60%">
+Either <i>HwDeviceExtension</i> or <i>Device</i> is NULL.
 
 -or-
 
@@ -98,25 +132,39 @@ The storage device specified by <i>Address</i> is not found.
 -or-
 
 The index in <i>Component</i> specifies a component greater than the component count for the device.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>The storage device is  not registered with the PoFx.
+</dl>
+</td>
+<td width="60%">
+The storage device is  not registered with the PoFx.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_IRQL</b></dt>
-</dl>The current IRQL &gt; DISPATCH_LEVEL.
+</dl>
+</td>
+<td width="60%">
+The current IRQL &gt; DISPATCH_LEVEL.
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-pofxsetcomponentresidency.md">PoFxSetComponentResidency</a>
-</dt>
-</dl>
+
  
 
  

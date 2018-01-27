@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 730312DE-5F11-46C8-8298-55AA5756C995
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH, *PPEP_LOW_POWER_EPOCH
+ms.keywords: PPEP_LOW_POWER_EPOCH, pepfx/PEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH, pepfx/PPEP_LOW_POWER_EPOCH, PPEP_LOW_POWER_EPOCH structure pointer [Kernel-Mode Driver Architecture], *PPEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH structure [Kernel-Mode Driver Architecture], _PEP_LOW_POWER_EPOCH, kernel.pep_low_power_epoch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_LOW_POWER_EPOCH
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: PEP_LOW_POWER_EPOCH, *PPEP_LOW_POWER_EPOCH
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_LOW_POWER_EPOCH
+product: Windows
+targetos: Windows
+req.typenames: *PPEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH
 ---
 
 # _PEP_LOW_POWER_EPOCH structure
 
 
-
 ## -description
+
+
 The <b>PEP_LOW_POWER_EPOCH</b> structure is used to provide data for a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186748">PEP_DPM_LOW_POWER_EPOCH</a> notification (deprecated).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_LOW_POWER_EPOCH {
@@ -54,20 +64,18 @@ typedef struct _PEP_LOW_POWER_EPOCH {
 
 ## -struct-fields
 
+
+
+
 ### -field LowPowerEpoch
 
 When <b>TRUE</b>, indicates that the low power epoch is on. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186748">PEP_DPM_LOW_POWER_EPOCH notification</a>
-</dt>
-</dl>
+
  
 
  

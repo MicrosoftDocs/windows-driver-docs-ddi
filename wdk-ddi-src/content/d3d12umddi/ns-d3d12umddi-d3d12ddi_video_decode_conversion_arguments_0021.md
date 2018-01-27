@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 01288B0F-4095-4642-9DA9-4E14B0BCBB18
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021, D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021
+ms.keywords: D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021, d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021, display.d3d12ddi_video_decode_conversion_arguments, D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021
 ---
 
 # D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021 structure
 
 
-
 ## -description
+
+
 Specifies the arguments for decode output conversion.  
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021 {
@@ -57,6 +67,9 @@ typedef struct D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Enable
 
@@ -84,10 +97,14 @@ The source decoded color space before conversion.
 
 
 ## -remarks
+
+
 Scaling is specified by the difference in reference texture size versus the output texture size.
 
 Use <b>D3D12DDICAPS_TYPE_VIDEO_DECODE_CONVERSION_SUPPORT</b> to determine if a conversion combination is supported. 
 
 A source and destination resolution and format are communicated by the resource properties of reference textures versus the output buffer specified in the pfnDecodeFrame callback function.
 
-Support for scaling and format conversion during decode can also be queried with <b>D3D12DDICAPS_TYPE_VIDEO_DECODE_CONVERSION_SUPPORT</b>.  The source size for the scale is the source stream width and height set during video decoder creation.  The output size for the scale is the width and height of the output texture passed into the pfnDecodeFrame callback function.</p>
+Support for scaling and format conversion during decode can also be queried with <b>D3D12DDICAPS_TYPE_VIDEO_DECODE_CONVERSION_SUPPORT</b>.  The source size for the scale is the source stream width and height set during video decoder creation.  The output size for the scale is the width and height of the output texture passed into the pfnDecodeFrame callback function.
+
+

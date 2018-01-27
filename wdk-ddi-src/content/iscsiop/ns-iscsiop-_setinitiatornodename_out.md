@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f3417648-f9f9-402f-b3a3-d09c0b7e5fdd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SetInitiatorNodeName_OUT, SetInitiatorNodeName_OUT, *PSetInitiatorNodeName_OUT
+ms.keywords: iscsiop/PSetInitiatorNodeName_OUT, storage.setinitiatornodename_out, structs-iSCSI_35ce4900-1703-4562-abe0-155215893c5f.xml, *PSetInitiatorNodeName_OUT, iscsiop/SetInitiatorNodeName_OUT, _SetInitiatorNodeName_OUT, PSetInitiatorNodeName_OUT, PSetInitiatorNodeName_OUT structure pointer [Storage Devices], SetInitiatorNodeName_OUT, SetInitiatorNodeName_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetInitiatorNodeName_OUT
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	SetInitiatorNodeName_OUT
+product: Windows
+targetos: Windows
 req.typenames: SetInitiatorNodeName_OUT, *PSetInitiatorNodeName_OUT
 ---
 
 # _SetInitiatorNodeName_OUT structure
 
 
-
 ## -description
+
+
 The SetInitiatorNodeName_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565706">SetInitiatorNodeName</a> method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SetInitiatorNodeName_OUT {
@@ -54,27 +64,29 @@ typedef struct _SetInitiatorNodeName_OUT {
 
 ## -struct-fields
 
+
+
+
 ### -field Status
 
 On output, the status of the <b>SetInitiatorNodeName</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.
 
 
 ## -remarks
+
+
 It is optional that you implement this class.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565706">SetInitiatorNodeName</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
 <a href="..\iscsiop\ns-iscsiop-_setinitiatornodename_in.md">SetInitiatorNodeName_IN</a>
-</dt>
-</dl>
+
  
 
  

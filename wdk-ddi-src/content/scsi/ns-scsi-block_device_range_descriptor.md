@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6B262D38-8BD6-43B5-96AB-6D311B8EBA88
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: BLOCK_DEVICE_RANGE_DESCRIPTOR, *PBLOCK_DEVICE_RANGE_DESCRIPTOR, BLOCK_DEVICE_RANGE_DESCRIPTOR
+ms.keywords: PBLOCK_DEVICE_RANGE_DESCRIPTOR structure pointer [Storage Devices], storage.block_device_range_descriptor, PBLOCK_DEVICE_RANGE_DESCRIPTOR, scsi/PBLOCK_DEVICE_RANGE_DESCRIPTOR, BLOCK_DEVICE_RANGE_DESCRIPTOR structure [Storage Devices], BLOCK_DEVICE_RANGE_DESCRIPTOR, scsi/BLOCK_DEVICE_RANGE_DESCRIPTOR, *PBLOCK_DEVICE_RANGE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BLOCK_DEVICE_RANGE_DESCRIPTOR
-req.alt-loc: scsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PBLOCK_DEVICE_RANGE_DESCRIPTOR, BLOCK_DEVICE_RANGE_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	scsi.h
+apiname: 
+-	BLOCK_DEVICE_RANGE_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: BLOCK_DEVICE_RANGE_DESCRIPTOR, *PBLOCK_DEVICE_RANGE_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
 # BLOCK_DEVICE_RANGE_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The <b>BLOCK_DEVICE_RANGE_DESCRIPTOR</b> structure describes a range of logical blocks associated with various fragments of a file for an offload copy operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BLOCK_DEVICE_RANGE_DESCRIPTOR {
@@ -56,6 +66,9 @@ typedef struct _BLOCK_DEVICE_RANGE_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field LogicalBlockAddress
 
@@ -73,20 +86,20 @@ Reserved bytes.
 
 
 ## -remarks
+
+
 If <i>TransferLength</i> is set to 0, the range descriptor is considered valid and does not cause an error when included in a token parameter list. No operation will be performed for this descriptor.
 
 All multibyte values are in big endian format. Prior to setting, these values must be converted from the endian format of the current platform.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\scsi\ns-scsi-populate_token_header.md">POPULATE_TOKEN_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\scsi\ns-scsi-write_using_token_header.md">WRITE_USING_TOKEN_HEADER</a>
-</dt>
-</dl>
+
  
 
  

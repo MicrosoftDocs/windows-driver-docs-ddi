@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ADD9AA38-594D-413A-BE8B-BCC6B62EAA8E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+ms.keywords: kernel.masktableentry, MaskTableEntry routine [Kernel-Mode Driver Architecture], MaskTableEntry, PCI_MSIX_MASKUNMASK_ENTRY, PCI_MSIX_MASKUNMASK_ENTRY, wdm/MaskTableEntry, kernel.msixmasktableentry, drvr_interface_c4246cdd-8a44-423e-b145-fae6e1e96716.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista with Service Pack 1 (SP1
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MaskTableEntry
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DIRQL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wdm.h
+apiname: 
+-	MaskTableEntry
+product: Windows
+targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PCI_MSIX_MASKUNMASK_ENTRY callback
 
 
-
 ## -description
+
+
 The <i>MaskTableEntry</i> routine masks an interrupt in the MSI-X hardware interrupt table.
 
 
-
 ## -prototype
+
 
 ````
 PCI_MSIX_MASKUNMASK_ENTRY MaskTableEntry;
@@ -59,6 +69,9 @@ NTSTATUS MaskTableEntry(
 
 ## -parameters
 
+
+
+
 ### -param Context [in]
 
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="..\wdm\ns-wdm-_pci_msix_table_config_interface.md">PCI_MSIX_TABLE_CONFIG_INTERFACE</a> structure for the interface.
@@ -70,32 +83,55 @@ The index of the table entry in the MSI-X hardware interrupt table.
 
 
 ## -returns
+
+
 The <i>MaskTableEntry</i> routine might return one of the following NTSTATUS values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The operation completed successfully.
+</dl>
+</td>
+<td width="60%">
+The operation completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The <i>TableEntry</i> parameter is invalid.
+</dl>
+</td>
+<td width="60%">
+The <i>TableEntry</i> parameter is invalid.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 If a table entry is masked, the device does not generate any interrupts that correspond to that table entry.
 
 You can unmask the table entry by calling <a href="..\wdm\nc-wdm-pci_msix_maskunmask_entry.md">UnmaskTableEntry</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nc-wdm-pci_msix_maskunmask_entry.md">UnmaskTableEntry</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_pci_msix_table_config_interface.md">PCI_MSIX_TABLE_CONFIG_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

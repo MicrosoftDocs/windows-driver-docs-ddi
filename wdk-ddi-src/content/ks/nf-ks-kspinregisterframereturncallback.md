@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 480f33e7-6fe6-40a1-9e1b-351378b7e003
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinRegisterFrameReturnCallback
+ms.keywords: ks/KsPinRegisterFrameReturnCallback, avfunc_16d1d4cd-f3ae-4cc0-b903-1db1f5b40a6f.xml, KsPinRegisterFrameReturnCallback, stream.kspinregisterframereturncallback, KsPinRegisterFrameReturnCallback function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsPinRegisterFrameReturnCallback
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsPinRegisterFrameReturnCallback
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsPinRegisterFrameReturnCallback function
 
 
-
 ## -description
+
+
 The<b> KsPinRegisterFrameReturnCallback </b>function registers a frame return callback with AVStream for a given pin.
 
 
-
 ## -syntax
+
 
 ````
 void KsPinRegisterFrameReturnCallback(
@@ -54,6 +65,9 @@ void KsPinRegisterFrameReturnCallback(
 
 
 ## -parameters
+
+
+
 
 ### -param Pin [in]
 
@@ -66,27 +80,29 @@ This parameter supplies the address of a minidriver-provided <a href="..\ks\nc-k
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 If a pin has registered a frame return callback before transitioning from <b>KSSTATE_STOP</b> to KSSTATE_ACQUIRE, the pin is placed into injection mode. This indicates that the pin will not receive buffers and fill them, but rather manually inject data frames into the circuit using <b>KsPinSubmitFrame </b>or <b>KsPinSubmitFrameMdl</b>. When the data frame completes its travel around the circuit and returns to the pin on which it was submitted, AVStream recycles it by calling <a href="..\ks\nc-ks-pfnkspinframereturn.md">AVStrMiniFrameReturn</a>.
 
 Minidrivers that call this function are directly responsible for injecting frames into the circuit; they do not receive buffers to fill and do not directly interact with the queue as do most minidrivers. Also note that the frame return callback should be registered before the kernel pipe section is created. The kernel pipe section is created when the pin transitions to KSSTATE_ACQUIRE. For more information, see <a href="https://msdn.microsoft.com/cdfb1763-92a8-4a60-8f49-2af34a8beca5">Frame Injection</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-kspinsubmitframemdl.md">KsPinSubmitFrameMdl</a>
-</dt>
-<dt>
+
+<a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>
+
 <a href="..\ks\nc-ks-pfnkspinframereturn.md">AVStrMiniFrameReturn</a>
-</dt>
-</dl>
+
  
 
  

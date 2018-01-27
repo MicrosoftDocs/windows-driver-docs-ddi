@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3e49f80e-3c30-4796-b2f3-7df37746d97b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltReferenceContext
+ms.keywords: fltkernel/FltReferenceContext, ifsk.fltreferencecontext, FltReferenceContext, FltApiRef_p_to_z_bb2ded16-77d3-4fb3-a6c6-870b0112df7a.xml, FltReferenceContext function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltReferenceContext
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltReferenceContext
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltReferenceContext function
 
 
-
 ## -description
+
+
 <b>FltReferenceContext</b> increments the reference count on a context structure. 
 
 
-
 ## -syntax
+
 
 ````
 VOID FltReferenceContext(
@@ -54,16 +64,24 @@ VOID FltReferenceContext(
 
 ## -parameters
 
+
+
+
 ### -param Context [in]
 
 Pointer to the context. This parameter is required and cannot be <b>NULL</b>. 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A minifilter driver calls the <b>FltReferenceContext</b> routine to increment the reference count on a context structure. 
 
 After a successful call to <b>FltReferenceContext</b>, the caller is responsible for decrementing the reference count on the context structure by calling <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>. 
@@ -73,33 +91,25 @@ For more information about context reference counting, see <a href="https://msdn
 To allocate a new context, call <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetcontexts.md">FltGetContexts</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltgetinstancecontext.md">FltGetInstanceContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetstreamcontext.md">FltGetStreamContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetstreamhandlecontext.md">FltGetStreamHandleContext</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumecontext.md">FltGetVolumeContext</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetstreamcontext.md">FltGetStreamContext</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetstreamhandlecontext.md">FltGetStreamHandleContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetcontexts.md">FltGetContexts</a>
+
  
 
  

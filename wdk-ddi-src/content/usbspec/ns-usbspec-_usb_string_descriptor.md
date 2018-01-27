@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 20d76582-4138-4a45-940b-a8e9207946a5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_STRING_DESCRIPTOR, *PUSB_STRING_DESCRIPTOR, USB_STRING_DESCRIPTOR
+ms.keywords: buses.usb_string_descriptor, _USB_STRING_DESCRIPTOR, usbspec/PUSB_STRING_DESCRIPTOR, usbspec/USB_STRING_DESCRIPTOR, USB_STRING_DESCRIPTOR, USB_STRING_DESCRIPTOR structure [Buses], PUSB_STRING_DESCRIPTOR, *PUSB_STRING_DESCRIPTOR, usbstrct_b0740c7e-9042-4426-be26-20b8620a0e7e.xml, PUSB_STRING_DESCRIPTOR structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_STRING_DESCRIPTOR
-req.alt-loc: usbspec.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PUSB_STRING_DESCRIPTOR, USB_STRING_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbspec.h
+apiname: 
+-	USB_STRING_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: USB_STRING_DESCRIPTOR, *PUSB_STRING_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
 # _USB_STRING_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The <b>USB_STRING_DESCRIPTOR</b> structure is used by USB client drivers to hold a USB-defined string descriptor.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USB_STRING_DESCRIPTOR {
@@ -56,6 +66,9 @@ typedef struct _USB_STRING_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field bLength
 
@@ -73,23 +86,22 @@ Pointer to a client-allocated buffer that contains, on return from the host cont
 
 
 ## -remarks
+
+
 This structure is used to hold a device, configuration, interface, class, vendor, endpoint, or device string descriptor. The string descriptor provides a human-readable description of the component.
 
 Strings returned in <b>bString</b> are in Unicode format and the contents of the strings are device-defined.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
-</dt>
-<dt>
-<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
+<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
+
  
 
  

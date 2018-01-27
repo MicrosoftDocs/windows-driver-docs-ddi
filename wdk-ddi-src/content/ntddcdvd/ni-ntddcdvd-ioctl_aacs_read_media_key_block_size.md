@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b8e5461-c935-46d8-afe3-c82a7566a4c7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT
+ms.keywords: storage.ioctl_aacs_read_media_key_block_size, IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE control code [Storage Devices], IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE, ntddcdvd/IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE, k307_0f77e9ec-80d5-4a17-8aa5-3cea982a9099.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE
-req.alt-loc: Ntddcdvd.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,41 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddcdvd.h
+apiname: 
+-	IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE
+product: Windows
+targetos: Windows
+req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ---
 
 # IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
-Queries the logical unit for the size of the buffer that is required to hold the Advanced Access Control System (AACS) Media Key Block (MKB). 
 
+
+Queries the logical unit for the size of the buffer that is required to hold the Advanced Access Control System (AACS) Media Key Block (MKB). 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the AACS_LAYER_NUMBER number of the layer. The AACS_LAYER_NUMBER is an unsigned long integer value in the range 0 to 255 inclusive that specifies the layer of the media to which a command applies.
 
 <code>typedef ULONG AACS_LAYER_NUMBER, *PAACS_LAYER_NUMBER;
@@ -53,41 +71,66 @@ The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the AACS_LAYER_
 
 
 ### -input-buffer-length
+
 <b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the buffer, which must be &gt;= <b>sizeof</b>(AACS_LAYER_NUMBER).
 
 
 ### -output-buffer
+
 The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a ULONG that holds the size in bytes of the full AACS MKB for this media.
 
 
 ### -output-buffer-length
+
 Use this value to determine the size of the buffer to allocate for <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_media_key_block.md">IOCTL_AACS_READ_MEDIA_KEY_BLOCK</a>. The size is always a multiple of 32,768 (0x8000).
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Information</b> field is set to the number of bytes transferred. The <b>Status</b> field is set to STATUS_SUCCESS if the operation succeeds. The following failure codes are common with this operation:
 
 
 
+
+#### -STATUS_COPY_PROTECTION_FAILURE or STG_E_STATUS_COPY_PROTECTION_FAILURE
+
 Failure of one of the copy protection mechanisms.
+
+
+#### -STATUS_CSS_AUTHENTICATION_FAILURE or STG_E_CSS_AUTHENTICATION_FAILURE
 
 The authentication process has failed.
 
-No AACS protection exists for this media.
+
+#### -STATUS_CSS_KEY_NOT_ESTABLISHED or STG_E_CSS_KEY_NOT_ESTABLISHED
 
 The AGID for AACS has not been established.
 
 
+#### -STATUS_CSS_KEY_NOT_PRESENT or STG_E_CSS_KEY_NOT_PRESENT
+
+No AACS protection exists for this media.
+
+
 ## -remarks
+
+
 The IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE request will not work if the media in the logical unit is not AACS protected.
 
-The IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE request corresponds to one of the steps of the Advanced Access Content System (AACS) authentication algorithm (AACS-Auth). For a complete description of AACS-Auth, see the <i>Advanced Access Content System, Introduction and Common Cryptographic Elements</i> specification that is published by Advanced Access Content System Licensing Administrator (AACS LA).</p>
+The IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE request corresponds to one of the steps of the Advanced Access Content System (AACS) authentication algorithm (AACS-Auth). For a complete description of AACS-Auth, see the <i>Advanced Access Content System, Introduction and Common Cryptographic Elements</i> specification that is published by Advanced Access Content System Licensing Administrator (AACS LA).
+
+

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F2CE35C8-F3BA-49E3-AE27-2FC5BFEC2D58
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestGetRequestorProcessId
+ms.keywords: wdf.wdfrequestgetrequestorprocessid, WdfRequestGetRequestorProcessId method, wdfrequest/WdfRequestGetRequestorProcessId, WdfRequestGetRequestorProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.21
 req.umdf-ver: 2.0
-req.alt-api: WdfRequestGetRequestorProcessId
-req.alt-loc: WUDFx02000.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.lib
 req.dll: WUDFx02000.dll; TBD
 req.irql: DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	WUDFx02000.dll
+apiname: 
+-	WdfRequestGetRequestorProcessId
+product: Windows
+targetos: Windows
 req.typenames: WDF_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # WdfRequestGetRequestorProcessId function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfRequestGetRequestorProcessId</b> method retrieves the identifier of the process that sent an I/O request.
 
 
-
 ## -syntax
+
 
 ````
 ULONG WdfRequestGetRequestorProcessId(
@@ -57,24 +67,25 @@ ULONG WdfRequestGetRequestorProcessId(
 
 ## -parameters
 
+
+
+
 ### -param Request [in]
 
 A handle to a framework request object.
 
 
 ## -returns
+
+
 <b>WdfRequestGetRequestorProcessId</b> returns the identifier of the process that sent the I/O request.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdffileobject\nf-wdffileobject-wdffileobjectgetinitiatorprocessid.md">WdfFileObjectGetInitiatorProcessId</a>
-</dt>
-</dl>
+
  
 
  

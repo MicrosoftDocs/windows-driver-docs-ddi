@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ddff6e6e-d22f-4e22-af13-aca889eee0d4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwOpenDirectoryObject
+ms.keywords: k111_a3aca9ff-bf76-4cd0-a15d-565201c1e132.xml, ntifs/NtCreateDirectoryObject, NtCreateDirectoryObject, kernel.zwopendirectoryobject, ZwOpenDirectoryObject routine [Kernel-Mode Driver Architecture], ntifs/ZwOpenDirectoryObject, ZwOpenDirectoryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwOpenDirectoryObject,NtCreateDirectoryObject
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ZwOpenDirectoryObject
+-	NtCreateDirectoryObject
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # ZwOpenDirectoryObject function
 
 
-
 ## -description
+
+
 The <b>ZwOpenDirectoryObject</b> routine opens an existing directory object. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ZwOpenDirectoryObject(
@@ -56,6 +67,9 @@ NTSTATUS ZwOpenDirectoryObject(
 
 ## -parameters
 
+
+
+
 ### -param DirectoryHandle [out]
 
 Handle for the newly opened directory object. 
@@ -64,7 +78,6 @@ Handle for the newly opened directory object.
 ### -param DesiredAccess [in]
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> structure specifying the requested types of access being requested for this directory object. A caller can specify one or a combination of the following.
-
 <table>
 <tr>
 <th><i>DesiredAccess</i> Flags</th>
@@ -120,8 +133,7 @@ All of the preceding rights plus STANDARD_RIGHTS_REQUIRED.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 These requested access types are compared with the object's discretionary access-control list (<a href="..\wdm\ns-wdm-_acl.md">DACL</a>) to determine which accesses are granted or denied.
 
@@ -132,32 +144,89 @@ Specified attributes for the directory object supplied by the caller. This param
 
 
 ## -returns
+
+
 <b>ZwOpenDirectoryObject</b> returns STATUS_SUCCESS or an appropriate error status. The most common error status codes include the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>A temporary buffer required by this routine could not be allocated. 
+</dl>
+</td>
+<td width="60%">
+A temporary buffer required by this routine could not be allocated. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The specified <i>ObjectAttributes</i> parameter was a <b>NULL</b> pointer, not a valid pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure, or some of the fields specified in the OBJECT_ATTRIBUTES structure were invalid. 
+</dl>
+</td>
+<td width="60%">
+The specified <i>ObjectAttributes</i> parameter was a <b>NULL</b> pointer, not a valid pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure, or some of the fields specified in the OBJECT_ATTRIBUTES structure were invalid. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_NAME_INVALID</b></dt>
-</dl>The <i>ObjectAttributes</i> parameter contained an <b>ObjectName</b> field in the <b>OBJECT_ATTRIBUTES</b> structure that was invalid because an empty string was found after the OBJECT_NAME_PATH_SEPARATOR character. 
+</dl>
+</td>
+<td width="60%">
+The <i>ObjectAttributes</i> parameter contained an <b>ObjectName</b> field in the <b>OBJECT_ATTRIBUTES</b> structure that was invalid because an empty string was found after the OBJECT_NAME_PATH_SEPARATOR character. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_NAME_NOT_FOUND</b></dt>
-</dl>The <i>ObjectAttributes</i> parameter contained an <b>ObjectName</b> field in the <b>OBJECT_ATTRIBUTES</b> structure that could not be found. 
+</dl>
+</td>
+<td width="60%">
+The <i>ObjectAttributes</i> parameter contained an <b>ObjectName</b> field in the <b>OBJECT_ATTRIBUTES</b> structure that could not be found. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_PATH_NOT_FOUND</b></dt>
-</dl>The <i>ObjectAttributes</i> parameter contained an <b>ObjectName</b> field in the <b>OBJECT_ATTRIBUTES</b> structure with an object path that could not be found. 
+</dl>
+</td>
+<td width="60%">
+The <i>ObjectAttributes</i> parameter contained an <b>ObjectName</b> field in the <b>OBJECT_ATTRIBUTES</b> structure with an object path that could not be found. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_PATH_SYNTAX_BAD</b></dt>
-</dl>The <i>ObjectAttributes</i> parameter did not contain a <b>RootDirectory</b> field, but the <b>ObjectName</b> field in the <b>OBJECT_ATTRIBUTES</b> structure was an empty string or did not contain an OBJECT_NAME_PATH_SEPARATOR character. This indicates incorrect syntax for the object path. 
+</dl>
+</td>
+<td width="60%">
+The <i>ObjectAttributes</i> parameter did not contain a <b>RootDirectory</b> field, but the <b>ObjectName</b> field in the <b>OBJECT_ATTRIBUTES</b> structure was an empty string or did not contain an OBJECT_NAME_PATH_SEPARATOR character. This indicates incorrect syntax for the object path. 
 
- 
+</td>
+</tr>
+</table> 
 
 The <b>ZwOpenDirectoryObject</b> routine throws an exception if the <i>DirectoryHandle</i> parameter is an illegal pointer.
 
 
+
 ## -remarks
+
+
 <b>ZwOpenDirectoryObject</b> opens an existing directory object and returns a handle to the object. 
 
 The <b>ZwOpenDirectoryObject</b> routine is called after the <b>InitializeObjectAttributes</b> macro is used to initialize specific attributes of the <b>OBJECT_ATTRIBUTES</b> structure for the object to be opened. 
@@ -165,31 +234,24 @@ The <b>ZwOpenDirectoryObject</b> routine is called after the <b>InitializeObject
 A directory object is created using the <b>ZwCreateDirectoryObject </b>routine<b>. </b>Any handle obtained by calling <b>ZwOpenDirectoryObject</b> must eventually be released by calling <b>ZwClose</b>. 
 
 For more information about security and access control, see the documentation on these topics in the Windows SDK. 
+<div class="alert"><b>Note</b>  If the call to the <b>ZwCreateDirectoryObject </b>function occurs in user mode, you should use the name "<b>NtCreateDirectoryObject</b>" instead of "<b>ZwCreateDirectoryObject</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-</dt>
-<dt>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
 <a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
  
 
  

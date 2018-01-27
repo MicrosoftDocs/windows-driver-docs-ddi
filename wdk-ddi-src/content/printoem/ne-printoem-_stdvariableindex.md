@@ -7,8 +7,8 @@ old-location: print\stdvariableindex.htm
 old-project: print
 ms.assetid: 02E54636-0B8D-40FE-8405-0FB130139828
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: _STDVARIABLEINDEX, STDVARIABLEINDEX
+ms.date: 1/18/2018
+ms.keywords: SVI_GRAYPERCENT, SVI_GRAPHICSXRES, SVI_NEXTFONTID, printoem/SVI_TEXTXRES, SVI_FONTHEIGHT, SVI_ROP3, SVI_FONTMAXWIDTH, SVI_CURSORORIGINX, SVI_PHYSPAPERLENGTH, printoem/SVI_PHYSPAPERLENGTH, printoem/SVI_FONTBOLD, SVI_BLUEVALUE, printoem/SVI_NEXTFONTID, printoem/SVI_FONTMAXWIDTH, printoem/SVI_DESTYREL, printoem/SVI_ROP3, SVI_FONTUNDERLINE, printoem/SVI_FONTHEIGHT, SVI_FONTBOLD, printoem/SVI_PRINTDIRECTION, printoem/SVI_FONTUNDERLINE, printoem/SVI_NUMDATABYTES, SVI_GRAPHICSYRES, SVI_DESTYREL, printoem/SVI_DESTX, SVI_MAX, printoem/SVI_WIDTHINBYTES, STDVARIABLEINDEX, SVI_PAGENUMBER, STDVARIABLEINDEX enumeration [Print Devices], printoem/SVI_DESTXREL, _STDVARIABLEINDEX, printoem/SVI_LINEFEEDSPACING, SVI_RECTYSIZE, print.stdvariableindex, SVI_HEIGHTINPIXELS, SVI_LINEFEEDSPACING, printoem/SVI_HEIGHTINPIXELS, SVI_FONTWIDTH, SVI_RECTXSIZE, printoem/SVI_FONTSTRIKETHRU, SVI_FONTSTRIKETHRU, printoem/SVI_CURSORORIGINX, SVI_COPIES, printoem/SVI_PHYSPAPERWIDTH, SVI_PATTERNBRUSH_ID, SVI_TEXTYRES, SVI_CURSORORIGINY, SVI_GREENVALUE, printoem/SVI_PALETTEINDEXTOPROGRAM, SVI_PRINTDIRECTION, SVI_WIDTHINBYTES, printoem/SVI_GREENVALUE, SVI_DESTXREL, printoem/SVI_CURSORORIGINY, printoem/SVI_CURRENTPALETTEINDEX, SVI_TEXTXRES, printoem/SVI_COPIES, SVI_PATTERNBRUSH_SIZE, printoem/SVI_GRAPHICSXRES, printoem/SVI_PAGENUMBER, printoem/SVI_MAX, SVI_CURRENTPALETTEINDEX, printoem/STDVARIABLEINDEX, SVI_NEXTGLYPH, printoem/SVI_RECTXSIZE, SVI_PALETTEINDEXTOPROGRAM, SVI_PATTERNBRUSH_TYPE, printoem/SVI_BLUEVALUE, SVI_DESTY, SVI_FONTITALIC, SVI_NUMDATABYTES, printoem/SVI_PATTERNBRUSH_ID, printoem/SVI_DESTY, printoem/SVI_TEXTYRES, printoem/SVI_PATTERNBRUSH_SIZE, printoem/SVI_FONTWIDTH, printoem/SVI_GRAYPERCENT, SVI_PHYSPAPERWIDTH, printoem/SVI_CURRENTFONTID, SVI_REDVALUE, SVI_DESTX, printoem/SVI_FONTITALIC, printoem/SVI_GRAPHICSYRES, printoem/SVI_RECTYSIZE, printoem/SVI_NEXTGLYPH, printoem/SVI_PATTERNBRUSH_TYPE, SVI_CURRENTFONTID, printoem/SVI_REDVALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STDVARIABLEINDEX
-req.alt-loc: Printoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Printoem.h
+apiname: 
+-	STDVARIABLEINDEX
+product: Windows
+targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _STDVARIABLEINDEX enumeration
 
 
-
 ## -description
 
 
 
 
+
 ## -syntax
+
 
 ````
 typedef enum _STDVARIABLEINDEX { 
@@ -95,6 +105,9 @@ typedef enum _STDVARIABLEINDEX {
 
 
 ## -enum-fields
+
+
+
 
 ### -field SVI_NUMDATABYTES
 
@@ -305,5 +318,3 @@ The page number. This value tracks the number of times DrvStartBand has been cal
 
 Placeholder. Do not use.
 
-
-## -remarks

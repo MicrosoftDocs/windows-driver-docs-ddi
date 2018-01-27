@@ -7,8 +7,8 @@ old-location: netvista\rilstartdtmfparams_2.htm
 old-project: netvista
 ms.assetid: 51f6ea96-412a-429f-993b-de31f77f4d30
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS, *LPRILSTARTDTMFPARAMS
+ms.date: 1/18/2018
+ms.keywords: rilapitypes/RILSTARTDTMFPARAMS, *LPRILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS, netvista.rilstartdtmfparams_2, RILSTARTDTMFPARAMS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSTARTDTMFPARAMS
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILSTARTDTMFPARAMS, *LPRILSTARTDTMFPARAMS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILSTARTDTMFPARAMS
+product: Windows
+targetos: Windows
+req.typenames: *LPRILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS
 req.product: Windows 10 or later.
 ---
 
 # RILSTARTDTMFPARAMS structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILSTARTDTMFPARAMS {
@@ -56,10 +66,13 @@ typedef struct _RILSTARTDTMFPARAMS {
 
 ## -struct-fields
 
+
+
+
 ### -field dwExecutor
+
 
 
 ### -field ch
 
 
-## -remarks

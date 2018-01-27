@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e1763ae1-5583-43fe-a342-3b9b5a92ef3f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DSHADER_PARAM_REGISTER_TYPE, D3DSHADER_PARAM_REGISTER_TYPE
+ms.keywords: D3DSHADER_PARAM_REGISTER_TYPE, d3d9types/D3DSPR_INPUT, D3DSPR_COLOROUT, d3d9types/D3DSPR_LOOP, D3DSPR_MISCTYPE, d3d9types/D3DSPR_SAMPLER, D3DSPR_ADDR, D3DSPR_CONST2, d3d9types/D3DSPR_MISCTYPE, d3d9types/D3DSPR_CONSTBOOL, d3d9types/D3DSPR_CONST4, d3d9types/D3DSPR_FORCE_DWORD, D3DSPR_SAMPLER, D3DSPR_PREDICATE, d3d9types/D3DSPR_TEXCRDOUT, D3DSPR_RASTOUT, d3d9types/D3DSPR_CONSTINT, d3d9types/D3DSPR_OUTPUT, _D3DSHADER_PARAM_REGISTER_TYPE, D3DSPR_TEXTURE, d3d9types/D3DSPR_PREDICATE, D3DSPR_CONSTBOOL, display.shader_register_types, d3d9types/D3DSPR_COLOROUT, D3DSPR_ATTROUT, D3DSHADER_PARAM_REGISTER_TYPE enumeration [Display Devices], d3d9types/D3DSPR_TEMP, d3d9types/D3DSPR_DEPTHOUT, D3DSPR_TEMPFLOAT16, D3DSPR_FORCE_DWORD, D3DSPR_CONST4, D3DSPR_DEPTHOUT, d3d9types/D3DSHADER_PARAM_REGISTER_TYPE, d3d9types/ D3DSPR_CONST, d3d9types/D3DSPR_ADDR, d3d9types/D3DSPR_CONST3, UserModeDisplayDriver_Shader_1968e381-80d3-44f2-a02d-7625ba93f95a.xml, D3DSPR_CONSTINT, d3d9types/D3DSPR_CONST2, D3DSPR_CONST3, d3d9types/D3DSPR_TEMPFLOAT16, D3DSPR_TEXCRDOUT, d3d9types/D3DSPR_ATTROUT, D3DSPR_CONST, D3DSPR_OUTPUT, D3DSPR_TEMP, D3DSPR_INPUT, D3DSPR_LOOP, d3d9types/D3DSPR_RASTOUT, d3d9types/D3DSPR_TEXTURE, d3d9types/D3DSPR_LABEL, D3DSPR_LABEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DSHADER_PARAM_REGISTER_TYPE
-req.alt-loc: d3d9types.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d9types.h
+apiname: 
+-	D3DSHADER_PARAM_REGISTER_TYPE
+product: Windows
+targetos: Windows
 req.typenames: D3DSHADER_PARAM_REGISTER_TYPE
 ---
 
 # _D3DSHADER_PARAM_REGISTER_TYPE enumeration
 
 
-
 ## -description
+
+
 Pixel and vertex shader operations specify register types in bits 28, 29, 30, 11, and 12 of destination and source parameter tokens. The following register types can be specified:
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3DSHADER_PARAM_REGISTER_TYPE { 
@@ -76,6 +86,9 @@ typedef enum _D3DSHADER_PARAM_REGISTER_TYPE {
 
 ## -enum-fields
 
+
+
+
 ### -field D3DSPR_TEMP
 
 Temporary register file.
@@ -86,7 +99,7 @@ Temporary register file.
 Input register file.
 
 
-### -field  D3DSPR_CONST
+### -field D3DSPR_CONST
 
 For PS, constant register file  0 - 2047 (DEF instruction). For VS, reserved.
 
@@ -190,5 +203,3 @@ Predicate register.
 
 Force 32-bit size enumeration.
 
-
-## -remarks

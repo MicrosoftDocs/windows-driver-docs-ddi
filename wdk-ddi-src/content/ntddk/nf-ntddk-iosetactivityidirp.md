@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 81D3BE8C-D6E0-47E2-959C-3834988E4C61
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoSetActivityIdIrp
+ms.keywords: IoSetActivityIdIrp routine [Kernel-Mode Driver Architecture], kernel.iosetactivityidirp, ntddk/IoSetActivityIdIrp, IoSetActivityIdIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with  Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoSetActivityIdIrp
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level if a GUID is passed in, otherwise PASSIVE_LEVEL.
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoSetActivityIdIrp
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # IoSetActivityIdIrp function
 
 
-
 ## -description
+
+
 The IoSetActivityIdIrp routine associates an activity ID with an IRP.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS IoSetActivityIdIrp(
@@ -54,6 +64,9 @@ NTSTATUS IoSetActivityIdIrp(
 
 
 ## -parameters
+
+
+
 
 ### -param Irp [in]
 
@@ -66,16 +79,43 @@ A pointer to the GUID that represents the ID to store in the IRP.  If NULL, IoSe
 
 
 ## -returns
+
+
 IoSetActivityIdIrp returns STATUS_SUCCESS if the call is successful. Possible error return values include the following.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>No GUID was provided and the ETW activity ID was unavailable.
+</dl>
+</td>
+<td width="60%">
+No GUID was provided and the ETW activity ID was unavailable.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>The I/O tracing provider has not been enabled on the IRP.
+</dl>
+</td>
+<td width="60%">
+The I/O tracing provider has not been enabled on the IRP.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-Drivers should use IoSetActivityIdIrp only on IRPs that have been allocated using <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a> (and freed using <a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>). Otherwise, memory leakage may result.</p>
+
+
+Drivers should use IoSetActivityIdIrp only on IRPs that have been allocated using <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a> (and freed using <a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>). Otherwise, memory leakage may result.
+
+

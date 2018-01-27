@@ -7,8 +7,8 @@ old-location: netvista\pd_buffer_virtual_subnet_info.htm
 old-project: netvista
 ms.assetid: 569424A2-4279-4758-A6F1-402D25F9B04F
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _PD_BUFFER_VIRTUAL_SUBNET_INFO, PD_BUFFER_VIRTUAL_SUBNET_INFO
+ms.date: 1/18/2018
+ms.keywords: netvista.pd_buffer_virtual_subnet_info, ndis/PPD_BUFFER_VIRTUAL_SUBNET_INFO, PD_BUFFER_VIRTUAL_SUBNET_INFO, ndis/PD_BUFFER_VIRTUAL_SUBNET_INFO, PD_BUFFER_VIRTUAL_SUBNET_INFO structure [Network Drivers Starting with Windows Vista], PPD_BUFFER_VIRTUAL_SUBNET_INFO structure pointer [Network Drivers Starting with Windows Vista], _PD_BUFFER_VIRTUAL_SUBNET_INFO, PPD_BUFFER_VIRTUAL_SUBNET_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PD_BUFFER_VIRTUAL_SUBNET_INFO
-req.alt-loc: Ndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ndis.h
+apiname: 
+-	PD_BUFFER_VIRTUAL_SUBNET_INFO
+product: Windows
+targetos: Windows
 req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 ---
 
 # _PD_BUFFER_VIRTUAL_SUBNET_INFO structure
 
 
-
 ## -description
+
+
 This structure contains the virtual subnet information.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PD_BUFFER_VIRTUAL_SUBNET_INFO {
@@ -55,6 +65,9 @@ typedef struct _PD_BUFFER_VIRTUAL_SUBNET_INFO {
 
 ## -struct-fields
 
+
+
+
 ### -field VirtualSubnetId
 
 The virtual subnet ID.
@@ -64,5 +77,3 @@ The virtual subnet ID.
 
 Reserved.
 
-
-## -remarks

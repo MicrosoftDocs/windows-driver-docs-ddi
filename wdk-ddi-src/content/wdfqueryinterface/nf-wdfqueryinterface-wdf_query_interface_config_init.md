@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 509f4fa5-37c8-4098-aade-767aad5d6d6a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_QUERY_INTERFACE_CONFIG_INIT
+ms.keywords: WDF_QUERY_INTERFACE_CONFIG_INIT, DFDeviceObjectDriverDefIntRef_d7e26200-d711-4c81-92d6-d2c2c1f052b0.xml, kmdf.wdf_query_interface_config_init, wdf.wdf_query_interface_config_init, WDF_QUERY_INTERFACE_CONFIG_INIT function, wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WDF_QUERY_INTERFACE_CONFIG_INIT
-req.alt-loc: Wdfqueryinterface.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdfqueryinterface.h
+apiname: 
+-	WDF_QUERY_INTERFACE_CONFIG_INIT
+product: Windows
+targetos: Windows
 req.typenames: WDF_PDO_EVENT_CALLBACKS, *PWDF_PDO_EVENT_CALLBACKS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # WDF_QUERY_INTERFACE_CONFIG_INIT function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_QUERY_INTERFACE_CONFIG_INIT</b> function initializes a driver's <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 VOID WDF_QUERY_INTERFACE_CONFIG_INIT(
@@ -59,6 +69,9 @@ VOID WDF_QUERY_INTERFACE_CONFIG_INIT(
 
 
 ## -parameters
+
+
+
 
 ### -param InterfaceConfig [out]
 
@@ -81,27 +94,27 @@ A pointer to the driver's <a href="https://msdn.microsoft.com/b56fef85-4058-4942
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 For more information about driver-defined interfaces, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-driver-defined-interfaces">Using Driver-Defined Interfaces</a>.
 
-For a code example that uses <b>WDF_QUERY_INTERFACE_CONFIG_INIT</b>, see <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/b56fef85-4058-4942-90c0-36646164cd3e">EvtDeviceProcessQueryInterfaceRequest</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-</dt>
-<dt>
+
 <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/b56fef85-4058-4942-90c0-36646164cd3e">EvtDeviceProcessQueryInterfaceRequest</a>
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
  
 
  

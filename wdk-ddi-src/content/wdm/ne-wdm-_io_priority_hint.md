@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 38d19398-b34f-4934-b643-df119ebd9711
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _IO_PRIORITY_HINT, IO_PRIORITY_HINT
+ms.keywords: sysenum_0b8187d9-c762-45d2-a310-294c3c696608.xml, wdm/IoPriorityNormal, wdm/IoPriorityLow, IoPriorityVeryLow, IoPriorityHigh, MaxIoPriorityTypes, IO_PRIORITY_HINT, kernel.io_priority_hint, wdm/IO_PRIORITY_HINT, wdm/IoPriorityVeryLow, IoPriorityCritical, wdm/MaxIoPriorityTypes, IoPriorityNormal, wdm/IoPriorityHigh, wdm/IoPriorityCritical, _IO_PRIORITY_HINT, IO_PRIORITY_HINT enumeration [Kernel-Mode Driver Architecture], IoPriorityLow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IO_PRIORITY_HINT
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	IO_PRIORITY_HINT
+product: Windows
+targetos: Windows
 req.typenames: IO_PRIORITY_HINT
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _IO_PRIORITY_HINT enumeration
 
 
-
 ## -description
+
+
 The <b>IO_PRIORITY_HINT</b> enumeration type specifies the <a href="https://msdn.microsoft.com/c34afff2-32f2-451b-ab16-ff048d5c3204">priority hint</a> for an IRP.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _IO_PRIORITY_HINT { 
@@ -59,6 +69,9 @@ typedef enum _IO_PRIORITY_HINT {
 
 
 ## -enum-fields
+
+
+
 
 ### -field IoPriorityVeryLow
 
@@ -91,18 +104,18 @@ Marks the limit for priority hints. Any priority hint value must be less than <b
 
 
 ## -remarks
+
+
 For more information about priority hints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565403">Using IRP Priority Hints</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-iogetiopriorityhint.md">IoGetIoPriorityHint</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iosetiopriorityhint.md">IoSetIoPriorityHint</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-iogetiopriorityhint.md">IoGetIoPriorityHint</a>
+
  
 
  

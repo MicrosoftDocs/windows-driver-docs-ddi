@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9ca38004-8953-4416-8552-c76813192561
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.setindicesum, SetIndicesUM callback function [Display Devices], SetIndicesUM, PFND3DDDI_SETINDICESUM, PFND3DDDI_SETINDICESUM, d3dumddi/SetIndicesUM, UserModeDisplayDriver_Functions_f692c944-6130-46e3-8e63-f3dbeb051782.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetIndicesUM
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	SetIndicesUM
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_SETINDICESUM callback
 
 
-
 ## -description
+
+
 The <i>SetIndicesUM</i> function sets the current index buffer to the given user memory buffer. 
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_SETINDICESUM SetIndicesUM;
@@ -59,34 +69,46 @@ __checkReturn HRESULT APIENTRY SetIndicesUM(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param IndexSize [in]
-
- The size, in bytes, of the indices that are contained in the index buffer. The value of this parameter is 2 if the indices are 16-bit quantities or 4 if the indices are 32-bit quantities. 
+### -param UINT
 
 
-### -param pUMBuffer [in]
+
+### -param *
+
+
+
+
+
+
+#### - pUMBuffer [in]
 
  A pointer to the user-memory buffer that supplies the indices for the index buffer.
 
 
+#### - IndexSize [in]
+
+ The size, in bytes, of the indices that are contained in the index buffer. The value of this parameter is 2 if the indices are 16-bit quantities or 4 if the indices are 32-bit quantities. 
+
+
 ## -returns
+
+
 <i>SetIndicesUM</i> returns S_OK or an appropriate error result if the index buffer is not successfully set to the given user memory buffer.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-</dt>
-</dl>
+
  
 
  

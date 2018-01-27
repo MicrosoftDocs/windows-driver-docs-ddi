@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4522a7d0-d297-4668-bb4e-e4ceae18f52a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBD_PIPE_TYPE, USBD_PIPE_TYPE
+ms.keywords: usb/UsbdPipeTypeInterrupt, usb/UsbdPipeTypeControl, usb/USBD_PIPE_TYPE, _USBD_PIPE_TYPE, usbstrct_a1fda372-f509-4667-a615-b68936b0a42b.xml, buses.usbd_pipe_type, USBD_PIPE_TYPE enumeration [Buses], usb/UsbdPipeTypeIsochronous, UsbdPipeTypeBulk, UsbdPipeTypeIsochronous, usb/UsbdPipeTypeBulk, UsbdPipeTypeControl, USBD_PIPE_TYPE, UsbdPipeTypeInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBD_PIPE_TYPE
-req.alt-loc: usb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usb.h
+apiname: 
+-	USBD_PIPE_TYPE
+product: Windows
+targetos: Windows
 req.typenames: USBD_PIPE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USBD_PIPE_TYPE enumeration
 
 
-
 ## -description
+
+
 The <b>USBD_PIPE_TYPE</b> enumerator indicates the type of pipe.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _USBD_PIPE_TYPE { 
@@ -57,6 +67,9 @@ typedef enum _USBD_PIPE_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field UsbdPipeTypeControl
 
@@ -78,15 +91,10 @@ Indicates that the pipe is a bulk transfer pipe.
 Indicates that the pipe is a interrupt pipe. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a76027d9-b486-4596-bbe4-0a801ed73256
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcInitializeCacheMap
+ms.keywords: ccref_8a69cf72-ebb8-499d-8b15-8b0e0b912c95.xml, CcInitializeCacheMap, ntifs/CcInitializeCacheMap, CcInitializeCacheMap routine [Installable File System Drivers], ifsk.ccinitializecachemap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcInitializeCacheMap
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcInitializeCacheMap
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcInitializeCacheMap function
 
 
-
 ## -description
+
+
 File systems call the <b>CcInitializeCacheMap</b> routine to cache a file.
 
 
-
 ## -syntax
+
 
 ````
 VOID CcInitializeCacheMap(
@@ -58,6 +68,9 @@ VOID CcInitializeCacheMap(
 
 ## -parameters
 
+
+
+
 ### -param FileObject [in]
 
 Pointer to a file object for the file.
@@ -66,7 +79,6 @@ Pointer to a file object for the file.
 ### -param FileSizes [in]
 
 Pointer to a CC_FILE_SIZES structure containing <b>AllocationSize</b>, <b>FileSize</b>, and <b>ValidDataLength</b> for the file. This structure is defined as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -80,8 +92,7 @@ Pointer to a CC_FILE_SIZES structure containing <b>AllocationSize</b>, <b>FileSi
 } CC_FILE_SIZES, *PCC_FILE_SIZES;</pre>
 </td>
 </tr>
-</table></span></div>
-<table>
+</table></span></div><table>
 <tr>
 <th>Member</th>
 <th>Meaning</th>
@@ -116,8 +127,7 @@ New valid data length for the file.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param PinAccess [in]
@@ -128,7 +138,6 @@ Set to <b>TRUE</b> if <b>CcPin</b><i>Xxx</i> routines will be used on the file.
 ### -param Callbacks [in]
 
 Pointer to a structure allocated from nonpaged pool, containing entry points of caller-supplied read-ahead and write-behind callback routines.This structure and its members are defined as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -169,10 +178,15 @@ Pointer to context information to be passed to the callback routines specified i
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>CcInitializeCacheMap</b> creates the data structures required for file data caching.
 
 If any failure occurs, <b>CcInitializeCacheMap</b> raises a status exception for that particular failure. For example, if a pool allocation failure occurs, <b>CcInitializeCacheMap</b> raises a STATUS_INSUFFICIENT_RESOURCES exception. Therefore, to gain control if a failure occurs, the driver should wrap the call to <b>CcInitializeCacheMap</b> in a <b>try-except</b> or <b>try-finally</b> statement.
@@ -184,19 +198,36 @@ After calling <b>CcInitializeCacheMap</b>, the file system can call <a href="..\
 When closing a file, every file system that supports file caching must call <a href="..\ntifs\nf-ntifs-ccuninitializecachemap.md">CcUninitializeCacheMap</a> on that file, whether the file is cached or not. Even if the file was created with caching disabled, the file system still must call <b>CcUninitializeCacheMap</b>.
 
 The <b>CcIsFileCached</b> macro determines whether a file is cached or not.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOLEAN CcIsFileCached(
+  [in] PFILE_OBJECT FileObject
+);
+</pre>
+</td>
+</tr>
+</table></span></div>Parameters
 
-Parameters
+<i>FileObject[in]</i> [in]
+
+Pointer to a file object for the file.
+
+Return value
+
+Returns <b>TRUE</b> if the file is cached, <b>FALSE</b> otherwise.
+<div class="alert"><b>Note</b>  Because multiple file objects can refer to the same file (that is, data stream), it is possible for the <b>CcIsFileCached</b> macro to return <b>TRUE</b> given a non-cached file object if another cached file object refers to the same data stream.  In other words, if there is a set of file objects that refer to the same data stream and if at least one of the file objects in the set is cached, <b>CcIsFileCached</b> will return <b>TRUE</b> for all file objects in the set.</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccuninitializecachemap.md">CcUninitializeCacheMap</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
+
  
 
  

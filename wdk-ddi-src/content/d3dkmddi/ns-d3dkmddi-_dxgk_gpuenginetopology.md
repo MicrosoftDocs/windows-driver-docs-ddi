@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ed224eb-c1f6-4793-ae32-36f96d3af9ab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_GPUENGINETOPOLOGY, DXGK_GPUENGINETOPOLOGY
+ms.keywords: d3dkmddi/DXGK_GPUENGINETOPOLOGY, DXGK_GPUENGINETOPOLOGY, display.dxgk_gpuenginetopology, DXGK_GPUENGINETOPOLOGY structure [Display Devices], _DXGK_GPUENGINETOPOLOGY, DmStructs_21e5ab51-877b-4b52-9762-cbaf3e82d2f0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_GPUENGINETOPOLOGY
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_GPUENGINETOPOLOGY
+product: Windows
+targetos: Windows
 req.typenames: DXGK_GPUENGINETOPOLOGY
 ---
 
 # _DXGK_GPUENGINETOPOLOGY structure
 
 
-
 ## -description
+
+
 The DXGK_GPUENGINETOPOLOGY structure describes the graphics processing unit (GPU)-engine topology that a driver can support.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_GPUENGINETOPOLOGY {
@@ -55,6 +65,9 @@ typedef struct _DXGK_GPUENGINETOPOLOGY {
 
 ## -struct-fields
 
+
+
+
 ### -field NbAsymetricProcessingNodes
 
 [out] The number of parallel engines that the GPU supports. If the driver does not set the <b>MultiEngineAware</b> bit-field flag in the <b>SchedulingCaps</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a> structure, the Microsoft DirectX graphics kernel subsystem ignores the setting of <b>NbAsymetricProcessingNodes</b>.
@@ -65,15 +78,10 @@ typedef struct _DXGK_GPUENGINETOPOLOGY {
 [out] An array of 32-bit values that are reserved for future use. The <b>DXGK_MAX_ASYMETRICAL_PROCESSING_NODES</b> constant, which is defined as 64, indicates the maximum number of asymmetrical processing nodes that the driver can signal.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
-</dt>
-</dl>
+
  
 
  

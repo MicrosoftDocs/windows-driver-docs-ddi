@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 050752CC-FBD6-4EB1-A17F-53C5C569E3FB
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, *PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
+ms.keywords: gpioclx/CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, QueryBankPowerInformation, gpioclx/QueryBankPowerInformation, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, GPIO.client_controller_query_set_request_type, gpioclx/QueryBankInterruptBindingInformation, QueryControllerFunctionBankMappingInformation, QueryBankInterruptBindingInformation, gpioclx/QuerySetRequestMaximumType, _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, *PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration [Parallel Ports], QuerySetRequestMaximumType, gpioclx/QueryControllerFunctionBankMappingInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
-req.alt-loc: Gpioclx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-req.typenames: CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, *PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Gpioclx.h
+apiname: 
+-	CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
+product: Windows
+targetos: Windows
+req.typenames: *PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
 ---
 
 # _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration
 
 
-
 ## -description
+
+
 The <b>CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE</b> enumeration type indicates what type of attribute information the GPIO framework extension (GpioClx) is requesting from the GPIO controller driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE { 
@@ -56,6 +66,9 @@ typedef enum _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field QueryBankPowerInformation
 
@@ -78,21 +91,20 @@ Reserved for use by the operating system.
 
 
 ## -remarks
+
+
 The <b>RequestType</b> member of the <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</b> structure is a value of type <b>CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE</b>. GpioClx sets this member to a  <b>CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE</b> enumeration constant to indicate what type of attribute information is requested. The <a href="https://msdn.microsoft.com/library/windows/hardware/hh698241">CLIENT_QuerySetControllerInformation</a> callback function takes a pointer to a <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</b> structure as an input parameter, and optionally takes a pointer to a <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</b> structure as an output parameter.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698238">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698239">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698241">CLIENT_QuerySetControllerInformation</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698239">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698238">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</a>
+
  
 
  

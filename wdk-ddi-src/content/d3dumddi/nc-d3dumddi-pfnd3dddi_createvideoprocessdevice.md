@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3149c7d9-0bf7-4355-8f15-821cf6b92f0a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.createvideoprocessdevice, CreateVideoProcessDevice callback function [Display Devices], CreateVideoProcessDevice, PFND3DDDI_CREATEVIDEOPROCESSDEVICE, PFND3DDDI_CREATEVIDEOPROCESSDEVICE, d3dumddi/CreateVideoProcessDevice, UserModeDisplayDriver_Functions_2f8b832f-db45-4f76-ab8f-5ba94f818933.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CreateVideoProcessDevice
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	CreateVideoProcessDevice
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_CREATEVIDEOPROCESSDEVICE callback
 
 
-
 ## -description
+
+
 The <b>CreateVideoProcessDevice</b> function creates a Microsoft DirectX Video Acceleration (DirectX VA) video processing device that is used to process video (for example, to deinterlace the video and adjust ProcAmp properties of the video). 
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_CREATEVIDEOPROCESSDEVICE CreateVideoProcessDevice;
@@ -58,41 +68,68 @@ __checkReturn HRESULT APIENTRY CreateVideoProcessDevice(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param pData [in, out]
+### -param *
+
+
+
+
+
+
+#### - pData [in, out]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createvideoprocessdevice.md">D3DDDIARG_CREATEVIDEOPROCESSDEVICE</a> structure. On input, contains information that the driver can use. On output, the driver specifies information that the Microsoft Direct3D runtime can use.
 
 
 ## -returns
+
+
 <b>CreateVideoProcessDevice</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The video processing device is successfully created.
+</dl>
+</td>
+<td width="60%">
+The video processing device is successfully created.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_OUTOFMEMORY</b></dt>
 </dl>
+</td>
+<td width="60%">
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a> could not allocate the required memory for it to complete.
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createvideoprocessdevice.md">D3DDDIARG_CREATEVIDEOPROCESSDEVICE</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyvideoprocessdevice.md">DestroyVideoProcessDevice</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createvideoprocessdevice.md">D3DDDIARG_CREATEVIDEOPROCESSDEVICE</a>
+
  
 
  

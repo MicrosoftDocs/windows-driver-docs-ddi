@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3fde33d4-a9c8-4647-bd2d-3da66f13ef8a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _KSMPEGVID_RECT, KSMPEGVID_RECT, *PKSMPEGVID_RECT
+ms.keywords: KSMPEGVID_RECT structure [Streaming Media Devices], *PKSMPEGVID_RECT, ksmedia/KSMPEGVID_RECT, ksmedia/PKSMPEGVID_RECT, PKSMPEGVID_RECT, _KSMPEGVID_RECT, KSMPEGVID_RECT, stream.ksmpegvid_rect, vidcapstruct_ceaab9c9-ac63-4248-9365-fd9694a0b440.xml, PKSMPEGVID_RECT structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSMPEGVID_RECT
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,16 +29,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KSMPEGVID_RECT, *PKSMPEGVID_RECT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSMPEGVID_RECT
+product: Windows
+targetos: Windows
+req.typenames: *PKSMPEGVID_RECT, KSMPEGVID_RECT
 ---
 
 # _KSMPEGVID_RECT structure
 
 
-
 ## -description
 
+
+
+
 ## -syntax
+
 
 ````
 typedef struct _KSMPEGVID_RECT {
@@ -54,16 +66,21 @@ typedef struct _KSMPEGVID_RECT {
 
 ## -struct-fields
 
+
+
+
 ### -field StartX
+
 
 
 ### -field StartY
 
 
+
 ### -field EndX
+
 
 
 ### -field EndY
 
 
-## -remarks

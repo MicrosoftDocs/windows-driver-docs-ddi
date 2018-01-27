@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: d299074f-18db-4eff-b177-4d2d3535e299
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: SdpCreateNodeBoolean
+ms.keywords: sdplib/SdpCreateNodeBoolean, SdpCreateNodeBoolean function [Bluetooth Devices], bltooth.sdpcreatenodeboolean, bth_funcs_06168a9c-1cdc-4c2a-b90d-356c03867d4f.xml, SdpCreateNodeBoolean
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SdpCreateNodeBoolean
-req.alt-loc: sdplib.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,25 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-req.typenames: *PSDCMD_DESCRIPTOR, SDCMD_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	sdplib.h
+apiname: 
+-	SdpCreateNodeBoolean
+product: Windows
+targetos: Windows
+req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
 # SdpCreateNodeBoolean function
 
 
-
 ## -description
+
+
 The Bluetooth 
   <b>SdpCreateNodeBoolean</b> function is used to allocate and initialize an 
   <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a> structure to a Boolean type.
 
 
-
 ## -syntax
+
 
 ````
 PSDP_NODE SdpCreateNodeBoolean(
@@ -57,6 +67,9 @@ PSDP_NODE SdpCreateNodeBoolean(
 
 
 ## -parameters
+
+
+
 
 ### -param bVal [in]
 
@@ -69,11 +82,16 @@ A profile driver defined tag to associate with the node.
 
 
 ## -returns
+
+
 If successful, this function returns a pointer to the newly allocated SDP_NODE structure. If not
      successful, this function returns <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 The data associated with the 
     <b>SdpCreateNodeBoolean</b> function is copied into the node, and the original data can be freed at any
     time.
@@ -82,15 +100,13 @@ Bluetooth profile drivers can obtain a pointer to this function through the
     <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
-</dt>
-<dt>
+
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

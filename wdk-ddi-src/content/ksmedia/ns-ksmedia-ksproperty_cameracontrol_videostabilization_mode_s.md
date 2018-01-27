@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7cbf015c-4756-4d5c-a5fb-9cd8a5e0e3fd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S, *PKSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S, KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S
+ms.keywords: KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_HIGH, KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_FLAGS_MANUAL, KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S structure [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S, KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_FLAGS_AUTO, ksmedia/PKSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S, KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S, *PKSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S, stream.ksproperty_cameracontrol_videostabilization_mode_s, PKSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S structure pointer [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_OFF, KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_LOW, KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_MEDIUM, KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_AUTO, PKSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S
-req.alt-loc: Ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S, KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ksmedia.h
+apiname: 
+-	KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S
+product: Windows
+targetos: Windows
+req.typenames: KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S, *PKSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S
 ---
 
 # KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S structure
 
 
-
 ## -description
+
+
 Describes video stabilization control properties in the <b>PROPSETID_VIDCAP_CAMERACONTROL_VIDEO_STABILIZATION</b> camera control property set. This structure specifies property values that are used in requests to the camera driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,75 +65,67 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field VideoStabilizationMode
 
 Indicates the selected video stabilization modes. This member has one of these possible values:
 
-
-### -field KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_OFF
-
-<dd>
-The video stabilization mode should not activate.
-
-
-### -field KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_AUTO
-
-<dd>
-The device automatically controls video stabilization.  This value is valid only if <b>KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_FLAGS_AUTO</b> is set in the <b>Capabilities</b> member.
-
-
-### -field KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_LOW
-
-<dd>
-Video stabilization is set at a low level.
-
-
-### -field KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_MEDIUM
-
-<dd>
-Video stabilization is set at a medium level.
-
-
-### -field KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_HIGH
-
-<dd>
-Video stabilization is set at a high level.
-
-</dd>
-</dl>
 
 ### -field Capabilities
 
 Indicates whether the device and driver support setting video stabilization control automatically or manually. This member a bitwise <b>OR</b> of these possible values:
 
 
-### -field KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_FLAGS_AUTO
+##### - Capabilities.KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_FLAGS_MANUAL
 
-<dd>
+The user can manually set video stabilization modes.
+
+
+##### - Capabilities.KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_FLAGS_AUTO
+
 The device and driver can automatically control video stabilization.
 
 
-### -field KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_FLAGS_MANUAL
+##### - VideoStabilizationMode.KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_AUTO
 
-<dd>
-The user can manually set video stabilization modes.
+The device automatically controls video stabilization.  This value is valid only if <b>KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_FLAGS_AUTO</b> is set in the <b>Capabilities</b> member.
 
-</dd>
-</dl>
+
+##### - VideoStabilizationMode.KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_HIGH
+
+Video stabilization is set at a high level.
+
+
+##### - VideoStabilizationMode.KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_LOW
+
+Video stabilization is set at a low level.
+
+
+##### - VideoStabilizationMode.KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_OFF
+
+The video stabilization mode should not activate.
+
+
+##### - VideoStabilizationMode.KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_MEDIUM
+
+Video stabilization is set at a medium level.
+
 
 ## -remarks
+
+
 The video stabilization settings specified with this structure affect only the device and have no effect on applications' software video stabilization.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ksmedia\ne-ksmedia-ksproperty_cameracontrol_video_stabilization_mode.md">KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj156043">KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE_PROPERTY</a>
-</dt>
-</dl>
+
+<a href="..\ksmedia\ne-ksmedia-ksproperty_cameracontrol_video_stabilization_mode.md">KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE</a>
+
  
 
  

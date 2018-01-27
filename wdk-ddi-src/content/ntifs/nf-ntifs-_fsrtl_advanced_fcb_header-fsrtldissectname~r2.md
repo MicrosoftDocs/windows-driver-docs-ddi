@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d97de0e1-0724-485d-95da-b9811036a21e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlDissectName
+ms.keywords: FsRtlDissectName, FsRtlDissectName routine [Installable File System Drivers], ntifs/FsRtlDissectName, ifsk.fsrtldissectname, fsrtlref_a74da803-0994-46e4-90f7-bc7728b59fe5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlDissectName
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlDissectName
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlDissectName function
 
 
-
 ## -description
+
+
 Given a Unicode pathname string, the <b>FsRtlDissectName</b> routine returns two strings, one containing the first file name found in the string, the other containing the remaining unparsed portion of the pathname string.
 
 
-
 ## -syntax
+
 
 ````
 VOID FsRtlDissectName(
@@ -55,6 +65,9 @@ VOID FsRtlDissectName(
 
 
 ## -parameters
+
+
+
 
 ### -param Path [in]
 
@@ -72,45 +85,162 @@ Pointer to the remaining unparsed portion of the pathname string.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 In the input string, backslashes are read as name separators. The first name in the string is assumed to consist of all characters from the beginning of the string to the character preceding the first backslash, inclusive. There is just one exception to this rule: if the first character in the input string is a backslash, this character is ignored and does not appear in the output string. The remaining portion of the string consists of all characters following the backslash that follows the first name found in the string.
 
 <b>FsRtlDissectName</b> does not check for the presence of illegal characters in the input string.
 
 The following table shows sample input and output values for <b>FsRtlDissectName</b>.  
-
+<table>
+<tr>
+<th>Path</th>
+<th>FirstName</th>
+<th>RemainingName</th>
+</tr>
+<tr>
+<td>
 empty
 
+</td>
+<td>
+empty
+
+</td>
+<td>
+empty
+
+</td>
+</tr>
+<tr>
+<td>
 A
 
+</td>
+<td>
+A
+
+</td>
+<td>
+empty
+
+</td>
+</tr>
+<tr>
+<td>
 A\B\C\D\E
 
+</td>
+<td>
+A
+
+</td>
+<td>
 B\C\D\E
 
+</td>
+</tr>
+<tr>
+<td>
 *A?
 
+</td>
+<td>
+*A?
+
+</td>
+<td>
+empty
+
+</td>
+</tr>
+<tr>
+<td>
 \A
 
+</td>
+<td>
+A
+
+</td>
+<td>
+empty
+
+</td>
+</tr>
+<tr>
+<td>
 A[,]
 
+</td>
+<td>
+A[,]
+
+</td>
+<td>
+empty
+
+</td>
+</tr>
+<tr>
+<td>
 A\\B+;\C
 
+</td>
+<td>
+A
+
+</td>
+<td>
 \B+;\C
 
-Note that upon returning, the <b>Buffer</b> members of the output parameters will point into the <b>Buffer</b> member of <b>Path</b>.  Therefore, the caller should not allocate storage for the <b>Buffer</b> members of the two output parameters, as shown in the following example:
+</td>
+</tr>
+</table> 
 
-For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+Note that upon returning, the <b>Buffer</b> members of the output parameters will point into the <b>Buffer</b> member of <b>Path</b>.  Therefore, the caller should not allocate storage for the <b>Buffer</b> members of the two output parameters, as shown in the following example:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>.
+.
+.
+/*
+The FsRtlDissectName routine will set the members
+of the following two structures appropriately:
+*/
+UNICODE_STRING CurrentComponent;
+UNICODE_STRING RemainingComponent;
+
+/*
+Do not allocate storage for the Buffer members of CurrentComponent
+and RemainingComponent in that they will point into the previoulsy
+allocated storage of FullPathName's Buffer member:
+*/
+FsRtlDissectName (FullPathName, &amp;CurrentComponent, &amp;RemainingComponent);
+.
+.
+.</pre>
+</td>
+</tr>
+</table></span></div>For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
  
 
  

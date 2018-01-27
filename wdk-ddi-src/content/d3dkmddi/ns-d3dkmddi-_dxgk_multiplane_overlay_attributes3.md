@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0491AF42-53DF-4538-BE8A-AA5AA7B2C65E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3, DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3
+ms.keywords: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3, display.dxgk_multiplane_overlay_attributes3, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3, _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3, DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3
+product: Windows
+targetos: Windows
 req.typenames: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3
 ---
 
 # _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 structure
 
 
-
 ## -description
+
+
 A structure containing the attributes used for the image in a multiplane overlay.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 {
@@ -60,6 +70,9 @@ typedef struct _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Flags
 
@@ -103,4 +116,8 @@ Specifies the colorspace configuration, given as a value from the D3DDDI_COLOR_S
 Specifies the overlay plane's stretch quality, given as a value from the DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY enumeration.
 
 
-## -remarks
+### -field SDRWhiteLevel
+
+ 
+
+

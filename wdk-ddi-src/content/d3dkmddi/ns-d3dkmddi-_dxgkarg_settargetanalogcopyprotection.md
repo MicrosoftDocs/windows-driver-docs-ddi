@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F5A853B2-4A8C-4929-AAEC-28844DEF0B29
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_SETTARGETANALOGCOPYPROTECTION, DXGKARG_SETTARGETANALOGCOPYPROTECTION
+ms.keywords: DXGKARG_SETTARGETANALOGCOPYPROTECTION structure [Display Devices], display.dxgkarg_settargetanalogcopyprotection, d3dkmddi/DXGKARG_SETTARGETANALOGCOPYPROTECTION, DXGKARG_SETTARGETANALOGCOPYPROTECTION, _DXGKARG_SETTARGETANALOGCOPYPROTECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_SETTARGETANALOGCOPYPROTECTION
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_SETTARGETANALOGCOPYPROTECTION
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_SETTARGETANALOGCOPYPROTECTION
 ---
 
 # _DXGKARG_SETTARGETANALOGCOPYPROTECTION structure
 
 
-
 ## -description
+
+
 Holds information to set analog copy protection on a display adapter's video present target.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_SETTARGETANALOGCOPYPROTECTION {
@@ -56,6 +66,9 @@ typedef struct _DXGKARG_SETTARGETANALOGCOPYPROTECTION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field TargetId
 
@@ -76,5 +89,3 @@ typedef struct _DXGKARG_SETTARGETANALOGCOPYPROTECTION {
 
 [in] A D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT structure containing flags indicating the analog copy protection support being requested.
 
-
-## -remarks

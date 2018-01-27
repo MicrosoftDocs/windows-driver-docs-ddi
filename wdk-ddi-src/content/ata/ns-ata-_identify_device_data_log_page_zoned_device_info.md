@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2F0B6C1F-54CC-47CF-B0D0-A53FAB80AF91
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, *PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
+ms.keywords: ata/PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, _IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, storage.identify_device_data_log_page_zoned_device_info, IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure [Storage Devices], ata/IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, *PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
-req.alt-loc: Ata.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ata.h
+apiname: 
+-	IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
+product: Windows
+targetos: Windows
 req.typenames: *PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
 ---
 
 # _IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 
@@ -47,8 +57,8 @@ req.typenames: *PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, IDENTIFY_DEVIC
 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO {
@@ -89,129 +99,124 @@ typedef struct _IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO {
 
 ## -struct-fields
 
-### -field Header
 
-N/A
 
 
 ### -field ZonedDeviceCapabilities
 
 
-### -field URSWRZ
+
+### -field ZonedDeviceCapabilities.URSWRZ
 
 N/A
 
 
-### -field Reserved
+### -field ZonedDeviceCapabilities.Reserved
 
 N/A
 
 
-### -field Valid
+### -field ZonedDeviceCapabilities.Valid
 
 N/A
 
-</dd>
-</dl>
 
 ### -field ZonedDeviceSettings
 
 
-### -field Reserved
+
+### -field ZonedDeviceSettings.Reserved
 
 N/A
 
 
-### -field Valid
+### -field ZonedDeviceSettings.Valid
 
 N/A
 
-</dd>
-</dl>
 
 ### -field OptimalNumberOfOpenSequentialWritePreferredZones
 
 
-### -field Number
+
+### -field OptimalNumberOfOpenSequentialWritePreferredZones.Number
 
 N/A
 
 
-### -field Reserved
+### -field OptimalNumberOfOpenSequentialWritePreferredZones.Reserved
 
 N/A
 
 
-### -field Valid
+### -field OptimalNumberOfOpenSequentialWritePreferredZones.Valid
 
 N/A
 
-</dd>
-</dl>
 
 ### -field OptimalNumberOfNonSequentiallyWrittenSequentialWritePreferredZones
 
 
-### -field Number
+
+### -field OptimalNumberOfNonSequentiallyWrittenSequentialWritePreferredZones.Number
 
 N/A
 
 
-### -field Reserved
+### -field OptimalNumberOfNonSequentiallyWrittenSequentialWritePreferredZones.Reserved
 
 N/A
 
 
-### -field Valid
+### -field OptimalNumberOfNonSequentiallyWrittenSequentialWritePreferredZones.Valid
 
 N/A
 
-</dd>
-</dl>
 
 ### -field MaxNumberOfOpenSequentialWriteRequiredZones
 
 
-### -field Number
+
+### -field MaxNumberOfOpenSequentialWriteRequiredZones.Number
 
 N/A
 
 
-### -field Reserved
+### -field MaxNumberOfOpenSequentialWriteRequiredZones.Reserved
 
 N/A
 
 
-### -field Valid
+### -field MaxNumberOfOpenSequentialWriteRequiredZones.Valid
 
 N/A
 
-</dd>
-</dl>
 
 ### -field Version
 
 
-### -field ZacMinorVersion
+
+### -field Version.ZacMinorVersion
 
 N/A
 
 
-### -field Reserved0
+### -field Version.Reserved0
 
 N/A
 
 
-### -field Valid
+### -field Version.Valid
 
 N/A
 
-</dd>
-</dl>
+
+### -field Header
+
+N/A
+
 
 ### -field Reserved
 
 N/A
 
-
-## -remarks

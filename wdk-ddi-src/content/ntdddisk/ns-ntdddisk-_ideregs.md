@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 20897336-e032-4aa7-be5f-47704c6d1d12
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _IDEREGS, IDEREGS, *PIDEREGS, *LPIDEREGS
+ms.keywords: *LPIDEREGS, ntdddisk/IDEREGS, *PIDEREGS, storage.ideregs, ntdddisk/LPIDEREGS, PIDEREGS structure pointer [Storage Devices], LPIDEREGS, structs-IDE_aeab294c-9363-4207-bbcb-d9d442ab5c92.xml, _IDEREGS, ntdddisk/PIDEREGS, IDEREGS structure [Storage Devices], IDEREGS, PIDEREGS, LPIDEREGS structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDEREGS
-req.alt-loc: ntdddisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: IDEREGS, *PIDEREGS, *LPIDEREGS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntdddisk.h
+apiname: 
+-	IDEREGS
+product: Windows
+targetos: Windows
+req.typenames: IDEREGS, *LPIDEREGS, *PIDEREGS
 ---
 
 # _IDEREGS structure
 
 
-
 ## -description
+
+
 The IDEREGS structure is used to report the contents of the IDE controller registers. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _IDEREGS {
@@ -61,10 +71,12 @@ typedef struct _IDEREGS {
 
 ## -struct-fields
 
+
+
+
 ### -field bFeaturesReg
 
 Holds the contents of the Features register. This register is used to specify Self-Monitoring Analysis and Reporting Technology (SMART) commands. This member can hold any of the following values:
-
 <table>
 <tr>
 <th>Feature</th>
@@ -180,8 +192,7 @@ Enables offline mode when set to 1. Disables offline mode when 0.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field bSectorCountReg
@@ -219,18 +230,12 @@ Holds the contents of the IDE command register.
 Reserved for future use. Should always be zero. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md">ATA_PASS_THROUGH_EX</a>
-</dt>
-<dt>
+
 <a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_direct.md">ATA_PASS_THROUGH_DIRECT</a>
-</dt>
-</dl>
+
  
 
  

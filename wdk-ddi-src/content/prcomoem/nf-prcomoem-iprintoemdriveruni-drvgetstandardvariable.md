@@ -7,8 +7,8 @@ old-location: print\iprintoemdriveruni_drvgetstandardvariable.htm
 old-project: print
 ms.assetid: d55d3130-14e7-438f-bfb5-18927466bd60
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IPrintOemDriverUni, IPrintOemDriverUni::DrvGetStandardVariable, DrvGetStandardVariable
+ms.date: 1/18/2018
+ms.keywords: IPrintOemDriverUni, IPrintOemDriverUni::DrvGetStandardVariable, print.iprintoemdriveruni_drvgetstandardvariable, DrvGetStandardVariable, DrvGetStandardVariable method [Print Devices], prcomoem/IPrintOemDriverUni::DrvGetStandardVariable, print_unidrv-pscript_rendering_001f3a93-7022-4436-8191-5cb091bc3c42.xml, DrvGetStandardVariable method [Print Devices], IPrintOemDriverUni interface, IPrintOemDriverUni interface [Print Devices], DrvGetStandardVariable method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPrintOemDriverUni.DrvGetStandardVariable
-req.alt-loc: prcomoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	prcomoem.h
+apiname: 
+-	IPrintOemDriverUni.DrvGetStandardVariable
+product: Windows
+targetos: Windows
+req.typenames: *POEMPTOPTS, OEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
 # IPrintOemDriverUni::DrvGetStandardVariable method
 
 
-
 ## -description
+
+
 The <code>IPrintOemDriverUni::DrvGetStandardVariable</code> method is provided by the Unidrv driver so that rendering plug-ins can obtain the current value of Unidrv's <a href="https://msdn.microsoft.com/d3f85c0f-7387-4301-8b1e-904471aed4b0">standard variables</a>.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT DrvGetStandardVariable(
@@ -59,44 +69,76 @@ HRESULT DrvGetStandardVariable(
 
 ## -parameters
 
-### -param pdevobj 
+
+
+
+### -param pdevobj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-### -param dwIndex 
+### -param dwIndex
 
 Caller-supplied, SVI_-prefixed index into the list of Unidrv's standard variables. The SVI_-prefixed index values are defined in printoem.h.
 
 
-### -param pBuffer 
+### -param pBuffer
 
 Caller-supplied pointer to a DWORD to receive the standard variable's current value.
 
 
-### -param cbSize 
+### -param cbSize
 
 Caller-supplied size of the buffer pointed to by <i>pBuffer</i>.
 
 
-### -param pcbNeeded 
+### -param pcbNeeded
 
 Caller-supplied pointer to a location to receive the minimum buffer size required to contain the requested information.
 
 
 ## -returns
+
+
 The method must return one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The operation succeeded.
+</dl>
+</td>
+<td width="60%">
+The operation succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_FAIL</b></dt>
-</dl>The operation failed.
+</dl>
+</td>
+<td width="60%">
+The operation failed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_NOTIMPL</b></dt>
-</dl>The method is not implemented.
+</dl>
+</td>
+<td width="60%">
+The method is not implemented.
 
- 
+</td>
+</tr>
+</table> 
 
 
-## -remarks

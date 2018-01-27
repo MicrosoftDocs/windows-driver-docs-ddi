@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D1564DB7-57D9-44B2-8ED2-1170CA4C22EE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxRegisterCoreDevice
+ms.keywords: kernel.pofxregistercoredevice, pepfx/PoFxRegisterCoreDevice, PoFxRegisterCoreDevice, PoFxRegisterCoreDevice routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PoFxRegisterCoreDevice
-req.alt-loc: ntoskrnl.lib,ntoskrnl.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ntoskrnl.lib
+-	ntoskrnl.dll
+apiname: 
+-	PoFxRegisterCoreDevice
+product: Windows
+targetos: Windows
 req.typenames: *PPEP_WORK_TYPE, PEP_WORK_TYPE
 ---
 
 # PoFxRegisterCoreDevice function
 
 
-
 ## -description
+
+
 The <b>PoFxRegisterCoreDevice</b> routine registers a new core system resource with the Windows power management framework (PoFx).
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PoFxRegisterCoreDevice(
@@ -55,6 +66,9 @@ NTSTATUS PoFxRegisterCoreDevice(
 
 
 ## -parameters
+
+
+
 
 ### -param Id [in]
 
@@ -72,18 +86,43 @@ A pointer to a location to which the routine writes a POHANDLE value. This handl
 
 
 ## -returns
+
+
 <b>PoFxRegisterCoreDevice</b> returns STATUS_SUCCESS if the call successfully registers the PEP. Possible error return values include the following status codes.
+<table>
+<tr>
+<th>Return value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt>STATUS_INVALID_PARAMETER</dt>
-</dl>The component count for this device is zero, or the <b>PO_FX_CORE_DEVICE</b> structure contains an invalid version number, or the <b>ComponentCriticalTransitionCallback</b> member of this structure contains an invalid function pointer.
+</dl>
+</td>
+<td width="60%">
+The component count for this device is zero, or the <b>PO_FX_CORE_DEVICE</b> structure contains an invalid version number, or the <b>ComponentCriticalTransitionCallback</b> member of this structure contains an invalid function pointer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt>STATUS_INSUFFICIENT_RESOURCES</dt>
-</dl>Unable to allocate the resources required to complete the requested registration.
+</dl>
+</td>
+<td width="60%">
+Unable to allocate the resources required to complete the requested registration.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This routine registers a core system resource so that this resource can be power-managed by PoFx.
 
 Core system resources are hardware devices, such as timers and interrupt controllers, that are managed by the Windows hardware abstraction layer (HAL). These devices provide basic functions that are required by the operating system. Due to the close relationship between core system resources and processors, the power management of these resources needs to be coordinated with processor idle state management.
@@ -91,15 +130,13 @@ Core system resources are hardware devices, such as timers and interrupt control
 The <b>PoFxRegisterCoreDevice</b> routine should be called at IRQL = PASSIVE_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\pepfx\ns-pepfx-_po_fx_core_device.md">PO_FX_CORE_DEVICE</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
+<a href="..\pepfx\ns-pepfx-_po_fx_core_device.md">PO_FX_CORE_DEVICE</a>
+
  
 
  

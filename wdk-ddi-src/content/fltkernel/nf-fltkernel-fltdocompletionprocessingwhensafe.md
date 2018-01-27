@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8143c741-8f6e-442d-a52a-c226b2e4aa57
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltDoCompletionProcessingWhenSafe
+ms.keywords: FltDoCompletionProcessingWhenSafe routine [Installable File System Drivers], FltApiRef_a_to_d_4e8cd7a1-1469-4ae1-97a9-51a184d0ad5a.xml, fltkernel/FltDoCompletionProcessingWhenSafe, FltDoCompletionProcessingWhenSafe, ifsk.fltdocompletionprocessingwhensafe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows 2000 Update Rollup 1 f
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltDoCompletionProcessingWhenSafe
-req.alt-loc: Fltmgr.lib,Fltmgr.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: 
 req.irql: Any.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Fltmgr.lib
+-	Fltmgr.dll
+apiname: 
+-	FltDoCompletionProcessingWhenSafe
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltDoCompletionProcessingWhenSafe function
 
 
-
 ## -description
+
+
 If it is safe to do so, the <b>FltDoCompletionProcessingWhenSafe</b> function executes a minifilter driver postoperation callback routine.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FltDoCompletionProcessingWhenSafe(
@@ -58,6 +69,9 @@ BOOLEAN FltDoCompletionProcessingWhenSafe(
 
 
 ## -parameters
+
+
+
 
 ### -param Data [in]
 
@@ -90,23 +104,40 @@ Caller-allocated variable that receives the final status value for the I/O opera
 
 
 ## -returns
+
+
 <b>FltDoCompletionProcessingWhenSafe</b> returns <b>TRUE</b> if completion processing for the I/O operation can be performed immediately or the I/O operation was successfully posted to a worker thread; otherwise, it returns <b>FALSE</b>. 
 
 
+
 ## -remarks
+
+
 <b>FltDoCompletionProcessingWhenSafe</b> executes the <i>SafePostCallback</i> immediately if the caller is running at IRQL &lt;= APC_LEVEL. Otherwise, if it is safe to post the operation to a worker thread, the <i>SafePostCallback</i> processing is deferred until it can be called in a thread context where IRQL &lt;= APC_LEVEL.
 
 If IRQL &lt; DISPATCH_LEVEL:
-
+<ul>
+<li>
 <b>FltDoCompletionProcessingWhenSafe </b>calls the callback routine specified in <i>SafePostCallback</i>.
 
+</li>
+<li>
 The <i>RetPostOperationStatus</i> parameter receives a FLT_POSTOP_CALLBACK_STATUS value returned by <i>SafePostCallback</i>.
 
+</li>
+<li>
 <b>FltDoCompletionProcessingWhenSafe</b> returns <b>TRUE</b>.
 
-If IRQL &gt;= DISPATCH_LEVEL, <b>FltDoCompletionProcessingWhenSafe</b> attempts to post the I/O operation to a worker thread. 
-
-<b>FltDoCompletionProcessingWhenSafe</b> can only be called for IRP-based operations. To determine whether the operation is an IRP-based operation, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a> macro. 
+</li>
+</ul>If IRQL &gt;= DISPATCH_LEVEL, <b>FltDoCompletionProcessingWhenSafe</b> attempts to post the I/O operation to a worker thread. 
+<ul>
+<li><b>FltDoCompletionProcessingWhenSafe </b>calls the <i>SafePostCallback</i> routine from the worker thread.</li>
+<li> Filter manager sets <i>RetPostOperationStatus</i> to FLT_POSTOP_MORE_PROCESSING_REQUIRED.</li>
+<li><b>FltDoCompletionProcessingWhenSafe</b> returns <b>TRUE</b>.</li>
+</ul><ul>
+<li>Filter manager sets <i>RetPostOperationStatus</i> to FLT_POSTOP_FINISHED_PROCESSING.</li>
+<li><b>FltDoCompletionProcessingWhenSafe</b> returns <b>FALSE</b>.</li>
+</ul><b>FltDoCompletionProcessingWhenSafe</b> can only be called for IRP-based operations. To determine whether the operation is an IRP-based operation, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a> macro. 
 
 <b>FltDoCompletionProcessingWhenSafe</b> cannot be used to post completion of a paging I/O operation to a worker thread.
 
@@ -115,29 +146,32 @@ If IRQL &gt;= DISPATCH_LEVEL, <b>FltDoCompletionProcessingWhenSafe</b> attempt
 If a minifilter calls <b>FltDoCompletionProcessingWhenSafe</b> and the <i>SafePostCallback</i> is invoked in a worker thread because it is not safe to invoke it in the current thread context, the filter manager will resume completion processing as long as the minifilter does not return FLT_POSTOP_MORE_PROCESSING_REQUIRED from the <i>SafePostCallback</i>.
 
 If the minifilter does return FLT_POSTOP_MORE_PROCESSING_REQUIRED from the <i>SafePostCallback</i>, the minifilter must call <a href="..\fltkernel\nf-fltkernel-fltcompletependedpostoperation.md">FltCompletePendedPostOperation</a> to resume completion processing.
+<div class="alert"><b>Caution</b>    To avoid deadlocks, <b>FltDoCompletionProcessingWhenSafe</b> cannot be called for I/O operations that can be directly completed by a driver in the storage stack, such as the following:<dl>
+<dd>
+<ul>
+<li> IRP_MJ_READ</li>
+<li> IRP_MJ_WRITE</li>
+<li> IRP_MJ_FLUSH_BUFFERS</li>
+</ul>
+</dd>
+</dl>
+</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltcompletependedpostoperation.md">FltCompletePendedPostOperation</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
+
  
 
  

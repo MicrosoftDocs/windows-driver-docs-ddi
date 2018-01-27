@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0a82d7b4-1cba-4dd4-b5e4-ec85505ee3e1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_VideoSample2, DXVA_VideoSample2, *LPDXVA_VideoSample2
+ms.keywords: dxva/DXVA_VideoSample2, LPDXVA_VideoSample2, DXVA_VideoSample2, dxvaref_4329d0c7-5dc5-42fb-b3b8-f40dc004ac17.xml, display.dxva_videosample2, dxva/LPDXVA_VideoSample2, LPDXVA_VideoSample2 structure pointer [Display Devices], DXVA_VideoSample2 structure [Display Devices], *LPDXVA_VideoSample2, _DXVA_VideoSample2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This structure applies only to Windows Server 2003 wi
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVA_VideoSample2
-req.alt-loc: dxva.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DXVA_VideoSample2, *LPDXVA_VideoSample2
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxva.h
+apiname: 
+-	DXVA_VideoSample2
+product: Windows
+targetos: Windows
+req.typenames: *LPDXVA_VideoSample2, DXVA_VideoSample2
 ---
 
 # _DXVA_VideoSample2 structure
 
 
-
 ## -description
+
+
 The DXVA_VideoSample2 structure is sent by the renderer to the driver to specify the format of a video sample.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVA_VideoSample2 {
@@ -64,6 +74,9 @@ typedef struct _DXVA_VideoSample2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -120,6 +133,8 @@ Specifies an array of <a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsa
 
 
 ## -remarks
+
+
 For video substream samples, the <b>rtStart</b> and <b>rtEnd</b> members are set to 0. 
 
 The <b>SampleFormat</b> member indicates whether the sample is a reference for a deinterlace operation or a video substream sample that must be combined with the deinterlaced video frame. The DXVA_SampleSubStream value (new for Windows Server 2003 with SP1 and later and Windows XP with SP2 and later) of the <a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a> enumeration type specifies the format for a video substream sample.
@@ -129,33 +144,25 @@ The <b>SampleFlags</b> member contains a collection of flags that indicate chang
 For information about how input samples are arranged in the array in the <b>Source</b> member of the <a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a> structure, see <a href="https://msdn.microsoft.com/99110b1a-1511-44f5-a4bb-a5e38fd41fff">Input Buffer Order</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
-</dt>
-<dt>
-<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
-</dt>
-<dt>
-<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ne-dxva-_dxva_sampleflags.md">DXVA_SampleFlags</a>
-</dt>
-<dt>
-<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-</dt>
-</dl>
+
+<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
+
+<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
+
+<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
+
  
 
  

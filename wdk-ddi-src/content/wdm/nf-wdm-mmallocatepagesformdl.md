@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06b52af0-c2d3-444e-8714-4fce4181dddc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmAllocatePagesForMdl
+ms.keywords: MmAllocatePagesForMdl routine [Kernel-Mode Driver Architecture], kernel.mmallocatepagesformdl, k106_bb9bac91-62a6-45f8-9133-0d23eda07b1e.xml, wdm/MmAllocatePagesForMdl, MmAllocatePagesForMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Windo
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MmAllocatePagesForMdl
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlMmApcLte, HwStorPortProhibitedDDIs, SpNoWait, StorPortStartIo
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	MmAllocatePagesForMdl
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # MmAllocatePagesForMdl function
 
 
-
 ## -description
+
+
 The <b>MmAllocatePagesForMdl</b> routine allocates zero-filled, nonpaged, physical memory pages to an MDL.
 
 
-
 ## -syntax
+
 
 ````
 PMDL MmAllocatePagesForMdl(
@@ -57,6 +67,9 @@ PMDL MmAllocatePagesForMdl(
 
 
 ## -parameters
+
+
+
 
 ### -param LowAddress [in]
 
@@ -79,19 +92,44 @@ Specifies the total number of bytes to allocate for the MDL.
 
 
 ## -returns
+
+
 <b>MmAllocatePagesForMdl</b> returns one of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>MDL pointer</b></dt>
-</dl>The MDL pointer describes a set of physical pages in the specified address range. If the requested number of bytes is not available, the MDL describes as much physical memory as is available. 
+</dl>
+</td>
+<td width="60%">
+The MDL pointer describes a set of physical pages in the specified address range. If the requested number of bytes is not available, the MDL describes as much physical memory as is available. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b><b>NULL</b></b></dt>
-</dl>There are no physical memory pages in the specified address ranges, or there is not enough memory pool for the MDL itself. 
+</dl>
+</td>
+<td width="60%">
+There are no physical memory pages in the specified address ranges, or there is not enough memory pool for the MDL itself. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-Drivers that are running in Windows Server 2003 Service Pack 1 (SP1) and later versions of Windows should use the <a href="..\wdm\nf-wdm-mmallocatepagesformdlex.md">MmAllocatePagesForMdlEx</a> routine instead of <b>MmAllocatePagesForMdl</b>. <b>MmAllocatePagesForMdlEx</b> provides better performance than <b>MmAllocatePagesForMdl</b> by avoiding unnecessary flushes of the <a href="wdkgloss.t#wdkgloss.tlb#wdkgloss.tlb"><i>TLB</i></a> and cache memory.
+
+
+Drivers that are running in Windows Server 2003 Service Pack 1 (SP1) and later versions of Windows should use the <a href="..\wdm\nf-wdm-mmallocatepagesformdlex.md">MmAllocatePagesForMdlEx</a> routine instead of <b>MmAllocatePagesForMdl</b>. <b>MmAllocatePagesForMdlEx</b> provides better performance than <b>MmAllocatePagesForMdl</b> by avoiding unnecessary flushes of the <a href="https://msdn.microsoft.com/e934e278-40ba-42a9-a0fa-11e12c0a315d">TLB</a> and cache memory.
 
 The physical memory pages that are returned by <b>MmAllocatePagesForMdl</b> are typically not contiguous pages. <b>MmAllocatePagesForMdl</b> always fills the allocated pages in the returned MDL with zeros.
 
@@ -99,28 +137,24 @@ The physical memory pages that are returned by <b>MmAllocatePagesForMdl</b> are 
 
 Depending on how much physical memory is currently available in the requested ranges, <b>MmAllocatePagesForMdl</b> might return an MDL that describes less memory than was requested. The routine returns <b>NULL</b> if no memory was allocated. The caller should check the amount of memory that is actually allocated to the MDL. 
 
-The caller must use <a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a> to release the memory pages that are described by an MDL that was created by <b>MmAllocatePagesForMdl</b>. After calling <b>MmFreePagesFromMdl</b>, the caller must also call <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> to release the memory that is allocated for the MDL structure itself.
+The caller must use <a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a> to release the memory pages that are described by an MDL that was created by <b>MmAllocatePagesForMdl</b>. After calling <b>MmFreePagesFromMdl</b>, the caller must also call <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> to release the memory that is allocated for the MDL structure itself.
 
 In Windows 2000 and later versions of Windows, the maximum amount of memory that <b>MmAllocatePagesForMdl</b> can allocate in a single call is (4 gigabytes - PAGE_SIZE). The routine can satisfy an allocation request for this amount only if enough pages are available.
 
 <b>MmAllocatePagesForMdl</b> runs at IRQL &lt;= APC_LEVEL. Windows Server 2008 and later versions of the Windows operating system enable <b>MmAllocatePagesForMdl</b> callers to call at DISPATCH_LEVEL. However, you can improve driver performance by calling at APC_LEVEL or below. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-mmallocatepagesformdlex.md">MmAllocatePagesForMdlEx</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-mmallocatepagesformdlex.md">MmAllocatePagesForMdlEx</a>
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
  
 
  

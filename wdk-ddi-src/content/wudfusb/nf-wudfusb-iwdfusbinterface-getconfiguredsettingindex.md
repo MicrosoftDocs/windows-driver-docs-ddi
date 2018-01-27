@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0deccfee-34e3-47ee-b141-9758cffcd0c2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbInterface, IWDFUsbInterface::GetConfiguredSettingIndex, GetConfiguredSettingIndex
+ms.keywords: wdf.iwdfusbinterface_getconfiguredsettingindex, GetConfiguredSettingIndex method, IWDFUsbInterface interface, umdf.iwdfusbinterface_getconfiguredsettingindex, GetConfiguredSettingIndex, GetConfiguredSettingIndex method, wudfusb/IWDFUsbInterface::GetConfiguredSettingIndex, IWDFUsbInterface interface, GetConfiguredSettingIndex method, IWDFUsbInterface::GetConfiguredSettingIndex, UMDFUSBref_5c2cdbd4-d660-4933-b1fb-a99852b5cba8.xml, IWDFUsbInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.5
-req.alt-api: IWDFUsbInterface.GetConfiguredSettingIndex
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFUsbInterface.GetConfiguredSettingIndex
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IWDFUsbInterface::GetConfiguredSettingIndex method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetConfiguredSettingIndex</b> method retrieves the current setting index for a USB interface.
 
 
-
 ## -syntax
+
 
 ````
 UCHAR GetConfiguredSettingIndex();
@@ -56,30 +66,31 @@ UCHAR GetConfiguredSettingIndex();
 ## -parameters
 
 
+
+
+
 ## -returns
-<b>GetConfiguredSettingIndex</b> returns the current setting index for the USB interface.
+
 
 <b>GetConfiguredSettingIndex</b> returns the current setting index for the USB interface.
 
-<b>GetConfiguredSettingIndex</b> returns the current setting index for the USB interface.
 
 
 ## -remarks
+
+
 The <b>GetConfiguredSettingIndex</b> method is provided for convenience because a UMDF driver can obtain the current setting index from the <b>bAlternateSetting</b> member of the <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a> structure that the driver retrieves when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560320">IWDFUsbInterface::GetInterfaceDescriptor</a> method. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560320">IWDFUsbInterface::GetInterfaceDescriptor</a>
-</dt>
-<dt>
+
 <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560320">IWDFUsbInterface::GetInterfaceDescriptor</a>
+
  
 
  

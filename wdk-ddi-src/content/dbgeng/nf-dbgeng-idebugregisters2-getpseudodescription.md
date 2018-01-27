@@ -7,8 +7,8 @@ old-location: debugger\getpseudodescription.htm
 old-project: debugger
 ms.assetid: dc1c7b8a-1233-4f22-8c5f-273f370a1e06
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugRegisters2, IDebugRegisters2::GetPseudoDescription, GetPseudoDescription
+ms.date: 1/19/2018
+ms.keywords: GetPseudoDescription method [Windows Debugging], IDebugRegisters_7b1f8069-32d0-4fb4-9cee-7fd045bae8d3.xml, debugger.getpseudodescription, GetPseudoDescription, IDebugRegisters2::GetPseudoDescription, IDebugRegisters2, GetPseudoDescription method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging], GetPseudoDescription method, dbgeng/IDebugRegisters2::GetPseudoDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugRegisters2.GetPseudoDescription
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugRegisters2.GetPseudoDescription
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugRegisters2::GetPseudoDescription method
 
 
-
 ## -description
+
+
 The <b>GetPseudoDescription</b>  method returns a description of a pseudo-register, including its name and type.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT GetPseudoDescription(
@@ -58,6 +68,9 @@ HRESULT GetPseudoDescription(
 
 
 ## -parameters
+
+
+
 
 ### -param Register [in]
 
@@ -90,38 +103,60 @@ Receives the type ID of the type within the module returned in <i>TypeModule</i>
 
 
 ## -returns
+
+
 This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549771">HRESULT Values</a>.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method was successful.
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_FAIL</b></dt>
-</dl>The description for the register was not available
+</dl>
+</td>
+<td width="60%">
+The description for the register was not available
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 Descriptions are not always available for all registers.  If a pseudo-register does not have a value - for example, <b>$eventip</b> will not have a value before an event has occurred - or a type cannot be determined for a pseudo-register, this method will return E_FAIL.
 
 For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547957">GetNumberPseudoRegisters</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548206">GetPseudoIndexByName</a>
-</dt>
-</dl>
- 
+
+<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547957">GetNumberPseudoRegisters</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugRegisters2::GetPseudoDescription method%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugRegisters2::GetPseudoDescription method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

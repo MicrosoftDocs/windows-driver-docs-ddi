@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8BC338FB-7C76-49D3-96E5-0F20C4A250CE
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_DIAGNOSTIC_TARGET_TYPE, *PSTORAGE_DIAGNOSTIC_TARGET_TYPE, STORAGE_DIAGNOSTIC_TARGET_TYPE
+ms.keywords: STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration [Storage Devices], storage.storage_diagnostic_target_type, StorageDiagnosticTargetTypeUndefined, ntddstor/StorageDiagnosticTargetTypeMiniport, ntddstor/StorageDiagnosticTargetTypeHbaFirmware, StorageDiagnosticTargetTypeMax, StorageDiagnosticTargetTypeHbaFirmware, ntddstor/PSTORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/StorageDiagnosticTargetTypePort, PSTORAGE_DIAGNOSTIC_TARGET_TYPE enumeration pointer [Storage Devices], PSTORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/StorageDiagnosticTargetTypeMax, _STORAGE_DIAGNOSTIC_TARGET_TYPE, STORAGE_DIAGNOSTIC_TARGET_TYPE, *PSTORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/StorageDiagnosticTargetTypeUndefined, StorageDiagnosticTargetTypeMiniport, StorageDiagnosticTargetTypePort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10, version 1709.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_DIAGNOSTIC_TARGET_TYPE
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	STORAGE_DIAGNOSTIC_TARGET_TYPE
+product: Windows
+targetos: Windows
 req.typenames: *PSTORAGE_DIAGNOSTIC_TARGET_TYPE, STORAGE_DIAGNOSTIC_TARGET_TYPE
 ---
 
 # _STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration
 
 
-
 ## -description
+
+
 The <b>STORAGE_DIAGNOSTIC_TARGET_TYPE</b> enumeration specifies the target type of a storage diagnostic.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _STORAGE_DIAGNOSTIC_TARGET_TYPE { 
@@ -57,6 +67,9 @@ typedef enum _STORAGE_DIAGNOSTIC_TARGET_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field StorageDiagnosticTargetTypeUndefined
 
@@ -82,5 +95,3 @@ Specifies the target type is a Hba Firmware driver.
 
 Specifies the target type is a Max driver.
 
-
-## -remarks

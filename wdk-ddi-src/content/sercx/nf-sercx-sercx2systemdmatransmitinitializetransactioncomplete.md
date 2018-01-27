@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: B5FDD4A4-2E43-4EAD-A475-A91C60A2E925
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCx2SystemDmaTransmitInitializeTransactionComplete
+ms.keywords: serports.sercx2systemdmatransmitinitializetransactioncomplete, SerCx2SystemDmaTransmitInitializeTransactionComplete, 2/SerCx2SystemDmaTransmitInitializeTransactionComplete, SerCx2SystemDmaTransmitInitializeTransactionComplete method [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.1.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SerCx2SystemDmaTransmitInitializeTransactionComplete
-req.alt-loc: 2.0\Sercx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	2.0\Sercx.h
+apiname: 
+-	SerCx2SystemDmaTransmitInitializeTransactionComplete
+product: Windows
+targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SerCx2SystemDmaTransmitInitializeTransactionComplete function
 
 
-
 ## -description
+
+
 The <b>SerCx2SystemDmaTransmitInitializeTransactionComplete</b> method notifies version 2 of the serial framework extension (SerCx2) that the serial controller driver has finished initializing the serial controller hardware in preparation for a new system-DMA-transmit transaction.
 
 
-
 ## -syntax
+
 
 ````
 VOID SerCx2SystemDmaTransmitInitializeTransactionComplete(
@@ -55,6 +65,9 @@ VOID SerCx2SystemDmaTransmitInitializeTransactionComplete(
 
 
 ## -parameters
+
+
+
 
 ### -param SystemDmaTransmit [in]
 
@@ -67,10 +80,15 @@ Whether the initialization was successful. If <b>TRUE</b>, the initialization su
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 Before SerCx2 starts a system-DMA-transmit transaction, SerCx2 calls the <a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_initialize_transaction.md">EvtSerCx2SystemDmaTransmitInitializeTransaction</a> event callback function, if it is implemented, to initialize the serial controller to perform the transaction. In response to this call, the driver should do any initialization that is needed; then the driver must call <b>SerCx2SystemDmaTransmitInitializeTransactionComplete</b> to notify SerCx2. SerCx2 expects this notification and does not start the transaction until it is notified.
 
 The serial controller driver must call <b>SerCx2SystemDmaTransmitInitializeTransactionComplete</b> only in response to a call to the <i>EvtSerCx2SystemDmaTransmitInitializeTransaction</i> function.
@@ -78,18 +96,15 @@ The serial controller driver must call <b>SerCx2SystemDmaTransmitInitializeTrans
 For more information, see <a href="https://msdn.microsoft.com/8569E76F-CAFF-4A2C-8052-62B340C5ADED">SerCx2 System-DMA-Transmit Transaction</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_initialize_transaction.md">EvtSerCx2SystemDmaTransmitInitializeTransaction</a>
-</dt>
-<dt>
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
-</dt>
-<dt>
+
 <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
-</dt>
-</dl>
+
+<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_initialize_transaction.md">EvtSerCx2SystemDmaTransmitInitializeTransaction</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
+
  
 
  

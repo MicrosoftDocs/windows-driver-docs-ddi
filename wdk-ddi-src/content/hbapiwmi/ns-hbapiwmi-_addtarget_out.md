@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1e0f19df-1705-4a70-a47c-0569907330a4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _AddTarget_OUT, *PAddTarget_OUT, AddTarget_OUT
+ms.keywords: *PAddTarget_OUT, storage.addtarget_out, hbapiwmi/AddTarget_OUT, AddTarget_OUT, AddTarget_OUT structure [Storage Devices], PAddTarget_OUT structure pointer [Storage Devices], structs-Fibre_b3dd963b-2fd1-4fbe-bfe3-b363a95f1a51.xml, hbapiwmi/PAddTarget_OUT, _AddTarget_OUT, PAddTarget_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AddTarget_OUT
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PAddTarget_OUT, AddTarget_OUT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	AddTarget_OUT
+product: Windows
+targetos: Windows
+req.typenames: AddTarget_OUT, *PAddTarget_OUT
 ---
 
 # _AddTarget_OUT structure
 
 
-
 ## -description
+
+
 The AddTarget_OUT structure is used by a WMI provider to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550136">AddTarget</a> WMI method to the WMI client.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _AddTarget_OUT {
@@ -54,20 +64,18 @@ typedef struct _AddTarget_OUT {
 
 ## -struct-fields
 
+
+
+
 ### -field HBAStatus
 
 Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550136">AddTarget</a>
-</dt>
-</dl>
+
  
 
  

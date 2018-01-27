@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 46f5ee68-ed1a-4da4-b761-60157efb3252
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVAHDDDI_FILTER_RANGE_DATA, DXVAHDDDI_FILTER_RANGE_DATA
+ms.keywords: display.dxvahdddi_filter_range_data, DXVA2_Structs_6fe6de36-4bbb-4409-817e-52e6598363e6.xml, DXVAHDDDI_FILTER_RANGE_DATA structure [Display Devices], DXVAHDDDI_FILTER_RANGE_DATA, d3dumddi/DXVAHDDDI_FILTER_RANGE_DATA, _DXVAHDDDI_FILTER_RANGE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: DXVAHDDDI_FILTER_RANGE_DATA is supported beginning wi
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVAHDDDI_FILTER_RANGE_DATA
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVAHDDDI_FILTER_RANGE_DATA
+product: Windows
+targetos: Windows
 req.typenames: DXVAHDDDI_FILTER_RANGE_DATA
 ---
 
 # _DXVAHDDDI_FILTER_RANGE_DATA structure
 
 
-
 ## -description
+
+
 The <b>DXVAHDDDI_FILTER_RANGE_DATA</b> structure describes a filter range.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVAHDDDI_FILTER_RANGE_DATA {
@@ -56,6 +66,9 @@ typedef struct _DXVAHDDDI_FILTER_RANGE_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Minimum
 
@@ -80,6 +93,8 @@ typedef struct _DXVAHDDDI_FILTER_RANGE_DATA {
 
 
 ## -remarks
+
+
 A hue ProcAmp filter that is defined from –180.0 to 180.0 at 0.25 step size with a default value of 0.0 has the members of the <b>DXVAHDDDI_FILTER_RANGE_DATA</b> structure set to the following values, which are normalized by an implicit step size of 1:
 
 
@@ -92,4 +107,6 @@ A hue ProcAmp filter that is defined from –180.0 to 180.0 at 0.25 step size wi
      Default = 0
 
 
-     Multiplier = 0.25</p>
+     Multiplier = 0.25
+
+

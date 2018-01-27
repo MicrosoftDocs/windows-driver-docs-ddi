@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1395687d-643a-40b5-9ca9-bff34c0dd6d5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE, *PKSAC3_BIT_STREAM_MODE
+ms.keywords: KSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE structure [Audio Devices], ksmedia/KSAC3_BIT_STREAM_MODE, aud-prop_b90587bf-508c-4e01-83ec-6fd925433d17.xml, ksmedia/PKSAC3_BIT_STREAM_MODE, PKSAC3_BIT_STREAM_MODE structure pointer [Audio Devices], PKSAC3_BIT_STREAM_MODE, audio.ksac3_bit_stream_mode, *PKSAC3_BIT_STREAM_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSAC3_BIT_STREAM_MODE
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KSAC3_BIT_STREAM_MODE, *PKSAC3_BIT_STREAM_MODE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSAC3_BIT_STREAM_MODE
+product: Windows
+targetos: Windows
+req.typenames: *PKSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE
 ---
 
 # KSAC3_BIT_STREAM_MODE structure
 
 
-
 ## -description
+
+
 The KSAC3_BIT_STREAM_MODE structure specifies the bit-stream mode, which is the type of audio service that is encoded into an AC-3 stream.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -54,10 +64,12 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field BitStreamMode
 
 Specifies the bit-stream mode. The <b>BitStreamMode</b> member is set to a value in the range 0 to 7. Specify the value of this member as one of the following constants:
-
 <table>
 <tr>
 <th>Constant name</th>
@@ -143,24 +155,24 @@ KSAC3_SERVICE_VOICE_OVER
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 These constants correspond to the bit-stream modes that are defined in the AC-3 specification. For more information, see the following Remarks section.
 
 
 ## -remarks
+
+
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537212">KSPROPERTY_AC3_BIT_STREAM_MODE</a> property.
 
 For more information about bit stream modes, see the AC-3 specification at the <a href="http://go.microsoft.com/fwlink/p/?linkid=8730">Dolby Laboratories</a> website. The specification is titled Digital Audio Compression Standard (AC-3).
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537212">KSPROPERTY_AC3_BIT_STREAM_MODE</a>
-</dt>
-</dl>
+
  
 
  

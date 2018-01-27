@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 421ed5b2-389d-4099-b241-d952fb7e842d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _UNIT_DDI_VERSION, *PUNIT_DDI_VERSION, UNIT_DDI_VERSION
+ms.keywords: PUNIT_DDI_VERSION structure pointer [Buses], UNIT_DDI_VERSION structure [Buses], 61883/UNIT_DDI_VERSION, 61883/PUNIT_DDI_VERSION, _UNIT_DDI_VERSION, PUNIT_DDI_VERSION, *PUNIT_DDI_VERSION, IEEE.unit_ddi_version, UNIT_DDI_VERSION, 61883_structures_dacbe4af-54fd-4b96-89e2-6954a623e75d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UNIT_DDI_VERSION
-req.alt-loc: 61883.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	61883.h
+apiname: 
+-	UNIT_DDI_VERSION
+product: Windows
+targetos: Windows
 req.typenames: *PUNIT_DDI_VERSION, UNIT_DDI_VERSION
 ---
 
 # _UNIT_DDI_VERSION structure
 
 
-
 ## -description
+
+
 The UNIT_DDI_VERSION structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536983">Av61883_GetUnitInfo</a> request to retrieve the current 61883 DDI version.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UNIT_DDI_VERSION {
@@ -54,20 +64,18 @@ typedef struct _UNIT_DDI_VERSION {
 
 ## -struct-fields
 
+
+
+
 ### -field Version
 
 The current 61883 DDI version.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536983">Av61883_GetUnitInfo</a>
-</dt>
-</dl>
+
  
 
  

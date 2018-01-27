@@ -7,8 +7,8 @@ old-location: netvista\rildialparams_v2.htm
 old-project: netvista
 ms.assetid: 0a60001b-5fa9-4f25-a92f-3634e2a50e36
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILDIALPARAMS_V2, *LPRILDIALPARAMS, RILDIALPARAMS_V2, RILDIALPARAMS, *LPRILDIALPARAMS_V2
+ms.date: 1/18/2018
+ms.keywords: ntddrilapitypes/RILDIALPARAMS_V2, RILDIALPARAMS, *LPRILDIALPARAMS_V2, RILDIALPARAMS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rildialparams_v2, *LPRILDIALPARAMS, RILDIALPARAMS_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILDIALPARAMS_V2
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILDIALPARAMS, RILDIALPARAMS_V2, RILDIALPARAMS, *LPRILDIALPARAMS_V2
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILDIALPARAMS_V2
+product: Windows
+targetos: Windows
+req.typenames: RILDIALPARAMS, *LPRILDIALPARAMS, RILDIALPARAMS_V2, *LPRILDIALPARAMS_V2
 ---
 
 # RILDIALPARAMS_V2 structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILDIALPARAMS_V2 {
@@ -59,22 +69,29 @@ typedef struct _RILDIALPARAMS_V2 {
 
 ## -struct-fields
 
+
+
+
 ### -field dwExecutor
+
 
 
 ### -field raAddress
 
 
+
 ### -field dwOptions
+
 
 
 ### -field dwType
 
 
+
 ### -field fHasMediaOffer
+
 
 
 ### -field rcmMediaOffer
 
 
-## -remarks

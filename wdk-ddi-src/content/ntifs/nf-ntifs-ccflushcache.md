@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 06bb49bc-56e6-42fc-ae52-c954507d2a3f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcFlushCache
+ms.keywords: ntifs/CcFlushCache, ifsk.ccflushcache, CcFlushCache routine [Installable File System Drivers], CcFlushCache, ccref_089656c6-a12e-4e74-a72d-7f0182f3c3dd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcFlushCache
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcFlushCache
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcFlushCache function
 
 
-
 ## -description
+
+
 The <b>CcFlushCache</b> routine flushes all or a portion of a cached file to disk.
 
 
-
 ## -syntax
+
 
 ````
 VOID CcFlushCache(
@@ -56,6 +66,9 @@ VOID CcFlushCache(
 
 
 ## -parameters
+
+
+
 
 ### -param SectionObjectPointer [in]
 
@@ -82,30 +95,31 @@ Pointer to a structure that receives the final completion status and information
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>CcFlushCache</b> has no <i>Wait</i> parameter. Thus the caller must be able to enter a wait state until all the data has been flushed.
 
 To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539143">CcIsFileCached</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
+
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
  
 
  

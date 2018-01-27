@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5c6e3337-8071-486a-826a-ade722eb8449
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MOUNTDEV_SUGGESTED_LINK_NAME, MOUNTDEV_SUGGESTED_LINK_NAME, *PMOUNTDEV_SUGGESTED_LINK_NAME
+ms.keywords: MOUNTDEV_SUGGESTED_LINK_NAME, mountdev/PMOUNTDEV_SUGGESTED_LINK_NAME, _MOUNTDEV_SUGGESTED_LINK_NAME, PMOUNTDEV_SUGGESTED_LINK_NAME structure pointer [Storage Devices], MOUNTDEV_SUGGESTED_LINK_NAME structure [Storage Devices], storage.mountdev_suggested_link_name, PMOUNTDEV_SUGGESTED_LINK_NAME, mountdev/MOUNTDEV_SUGGESTED_LINK_NAME, structs-mntmgr_fc4a3528-34b9-4112-9501-87db4e87f9f3.xml, *PMOUNTDEV_SUGGESTED_LINK_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MOUNTDEV_SUGGESTED_LINK_NAME
-req.alt-loc: mountdev.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: MOUNTDEV_SUGGESTED_LINK_NAME, *PMOUNTDEV_SUGGESTED_LINK_NAME
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mountdev.h
+apiname: 
+-	MOUNTDEV_SUGGESTED_LINK_NAME
+product: Windows
+targetos: Windows
+req.typenames: *PMOUNTDEV_SUGGESTED_LINK_NAME, MOUNTDEV_SUGGESTED_LINK_NAME
 ---
 
 # _MOUNTDEV_SUGGESTED_LINK_NAME structure
 
 
-
 ## -description
+
+
 Mount manager clients that are able to keep track of their drive letters use this structure to request that the mount manager assign them a particular link name. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MOUNTDEV_SUGGESTED_LINK_NAME {
@@ -55,6 +65,9 @@ typedef struct _MOUNTDEV_SUGGESTED_LINK_NAME {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UseOnlyIfThereAreNoOtherLinks
 
@@ -71,15 +84,10 @@ Contains the length of the suggested name.
 Contains a variable-sized array of wide characters that holds the name of the suggested link in wide characters. Drive letter names must include the full path of the symbolic link in object namespace and must have the traditional Microsoft MS-DOS syntax. For instance, drive letter "D" must be represented in this manner: "\DosDevices\D:". The alternative symbolic link path of "\??\D:" may not be used, nor may abbreviations of the symbolic link such as "D:". 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\mountdev\ni-mountdev-ioctl_mountdev_query_suggested_link_name.md">IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME</a>
-</dt>
-</dl>
+
  
 
  

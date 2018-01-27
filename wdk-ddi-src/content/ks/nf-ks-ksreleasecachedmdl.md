@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8EDBD8FF-6417-44C0-87C0-14D71FEFA380
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsReleaseCachedMdl
+ms.keywords: ks/KsReleaseCachedMdl, KsReleaseCachedMdl, stream.ksreleasecachedmdl, KsReleaseCachedMdl function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsReleaseCachedMdl
-req.alt-loc: ks.lib,ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ks.lib
+-	ks.dll
+apiname: 
+-	KsReleaseCachedMdl
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsReleaseCachedMdl function
 
 
-
 ## -description
+
+
 The <b>KsReleaseCachedMdl</b> function is used to release the MDL acquired by the <a href="..\ks\nf-ks-ksacquirecachedmdl.md">KsAcquireCachedMdl</a> call.
 
 
-
 ## -syntax
+
 
 ````
 void _Must_inspect_result_ _IRQL_requires_max_(PASSIVE_LEVEL) KSDDKAPI NTSTATUS WINAPI KsReleaseCachedMdl(
@@ -55,6 +66,9 @@ void _Must_inspect_result_ _IRQL_requires_max_(PASSIVE_LEVEL) KSDDKAPI NTSTATUS 
 
 
 ## -parameters
+
+
+
 
 ### -param Guid [in]
 
@@ -72,7 +86,8 @@ The context passed as an output in the <a href="..\ks\nf-ks-ksacquirecachedmdl.m
 
 
 ## -returns
+
+
 Returns <b>STATUS_SUCCESS</b> for success conditions.
 
 
-## -remarks

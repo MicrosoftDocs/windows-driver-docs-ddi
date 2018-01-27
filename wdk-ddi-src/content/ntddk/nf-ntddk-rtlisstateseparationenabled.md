@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7c28a82c-e039-4045-94cd-b47a45d15e28
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlIsStateSeparationEnabled
+ms.keywords: ntddk/RtlIsStateSeparationEnabled, RtlIsStateSeparationEnabled, kernel.rtlisstateseparationenabled, RtlIsStateSeparationEnabled function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlIsStateSeparationEnabled
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlIsStateSeparationEnabled
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # RtlIsStateSeparationEnabled function
 
 
-
 ## -description
+
+
 
 			
             Checks if the SKU for the current context supports multiple
@@ -46,8 +56,8 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 
-
 ## -syntax
+
 
 ````
  BOOLEAN  RtlIsStateSeparationEnabled(
@@ -59,18 +69,14 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ## -parameters
 
 
+
+
+
 ## -returns
- TRUE indicates state separation enabled;
 
-    FALSE otherwise.
-
- TRUE indicates state separation enabled;
-
-    FALSE otherwise.
 
  TRUE indicates state separation enabled;
 
     FALSE otherwise.
 
 
-## -remarks

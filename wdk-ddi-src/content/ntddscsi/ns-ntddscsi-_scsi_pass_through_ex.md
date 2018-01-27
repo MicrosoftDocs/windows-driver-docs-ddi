@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3D00B42C-7320-4044-BA7D-71A9BD05B30E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SCSI_PASS_THROUGH_EX, *PSCSI_PASS_THROUGH_EX, SCSI_PASS_THROUGH_EX
+ms.keywords: ntddscsi/PSCSI_PASS_THROUGH_EX, _SCSI_PASS_THROUGH_EX, *PSCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX structure pointer [Storage Devices], storage.scsi_pass_through_ex, SCSI_PASS_THROUGH_EX, ntddscsi/SCSI_PASS_THROUGH_EX, SCSI_PASS_THROUGH_EX structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SCSI_PASS_THROUGH_EX
-req.alt-loc: ntddscsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSCSI_PASS_THROUGH_EX, SCSI_PASS_THROUGH_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddscsi.h
+apiname: 
+-	SCSI_PASS_THROUGH_EX
+product: Windows
+targetos: Windows
+req.typenames: SCSI_PASS_THROUGH_EX, *PSCSI_PASS_THROUGH_EX
 ---
 
 # _SCSI_PASS_THROUGH_EX structure
 
 
-
 ## -description
+
+
 The <b>SCSI_PASS_THROUGH_EX</b> structure is used in conjunction with an <b>IOCTL_SCSI_PASS_THROUGH_EX</b> request to instruct the port driver to send an embedded SCSI command to the target device. <b>SCSI_PASS_THROUGH_EX</b> can contain a bi-directional data transfers and a variable length command data block.
-
-
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 typedef struct _SCSI_PASS_THROUGH_EX {
@@ -68,6 +78,9 @@ typedef struct _SCSI_PASS_THROUGH_EX {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -102,61 +115,6 @@ Indicates the size in bytes of the request-sense buffer. This member is optional
 ### -field DataDirection
 
 
-### -field Indicates whether the SCSI command will read data, write data, or both. This field must have one of these values:
-### -field 
-
-<tr>
-<th>Data Transfer Type</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-SCSI_IOCTL_DATA_IN
-
-</td>
-<td>
-Read data from the device.
-
-</td>
-</tr>
-<tr>
-<td>
-SCSI_IOCTL_DATA_OUT
-
-</td>
-<td>
-Write data to the device.
-
-</td>
-</tr>
-<tr>
-<td>
-SCSI_IOCTL_DATA_UNSPECIFIED
-
-</td>
-<td>
-No data is transferred.
-
-</td>
-</tr>
-<tr>
-<td>
-SCSI_IOCTL_DATA_BIDIRECTIONAL
-
-</td>
-<td>
-Data is valid for both input and output.
-
-</td>
-</tr>
-</table>
- 
-
-
-
-
-
-</dl>
 
 ### -field Reserved
 
@@ -203,22 +161,61 @@ Contains an offset from the beginning of this structure to the input data buffer
 Specifies the SCSI command descriptor block to be sent to the target device.
 
 
+###### - DataDirection.Indicates whether the SCSI command will read data, write data, or both. This field must have one of these values:
+
+
+
+######### - DataDirection.Data Transfer Type
+Meaning
+
+
+
+SCSI_IOCTL_DATA_IN
+
+
+Read data from the device.
+
+
+
+
+SCSI_IOCTL_DATA_OUT
+
+
+Write data to the device.
+
+
+
+
+SCSI_IOCTL_DATA_UNSPECIFIED
+
+
+No data is transferred.
+
+
+
+
+SCSI_IOCTL_DATA_BIDIRECTIONAL
+
+
+Data is valid for both input and output.
+
+
+
 ## -remarks
+
+
 The <b>SCSI_PASS_THROUGH_EX</b> structure is used with the  <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_ex.md">IOCTL_SCSI_PASS_THROUGH_EX</a> control code, which is a buffered device control request. To bypass buffering in system memory, callers should use <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct_ex.md">IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</a>. When handling an <b>IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</b> request, the system locks down the buffer in user memory and the device accesses this memory directly. 
+<div class="alert"><b>Note</b>  Drivers executing on a 64 bit version of Windows must use the <b>SCSI_PASS_THROUGH32_EX</b> structure as the request data type  when handling an <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_ex.md">IOCTL_SCSI_PASS_THROUGH_EX</a> request from a 32 bit process.</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a>
-</dt>
-<dt>
+
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_ex.md">IOCTL_SCSI_PASS_THROUGH_EX</a>
-</dt>
-<dt>
+
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a>
-</dt>
-</dl>
+
  
 
  

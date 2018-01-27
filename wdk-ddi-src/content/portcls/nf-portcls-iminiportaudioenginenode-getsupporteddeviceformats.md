@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2B27E92C-8781-4499-A1E0-7C1BBFFAA2DF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportAudioEngineNode, IMiniportAudioEngineNode::GetSupportedDeviceFormats, GetSupportedDeviceFormats
+ms.keywords: portcls/IMiniportAudioEngineNode::GetSupportedDeviceFormats, IMiniportAudioEngineNode interface [Audio Devices], GetSupportedDeviceFormats method, IMiniportAudioEngineNode, GetSupportedDeviceFormats, audio.iminiportaudioenginenode_getsupporteddeviceformats, GetSupportedDeviceFormats method [Audio Devices], IMiniportAudioEngineNode::GetSupportedDeviceFormats, GetSupportedDeviceFormats method [Audio Devices], IMiniportAudioEngineNode interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportAudioEngineNode.GetSupportedDeviceFormats
-req.alt-loc: Portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Portcls.h
+apiname: 
+-	IMiniportAudioEngineNode.GetSupportedDeviceFormats
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportAudioEngineNode::GetSupportedDeviceFormats method
 
 
-
 ## -description
+
+
 Gets the supported audio data formats for the audio device.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS GetSupportedDeviceFormats(
@@ -55,6 +65,9 @@ NTSTATUS GetSupportedDeviceFormats(
 
 
 ## -parameters
+
+
+
 
 ### -param ulNodeId [in]
 
@@ -72,21 +85,20 @@ The buffer size for the audio data format information.
 
 
 ## -returns
+
+
 <b>GetSupportedDeviceFormats</b> returns S_OK, if the call was successful. Otherwise, the method 
 
 returns an appropriate error code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
-</dt>
-<dt><a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff563441(v=vs.85).aspx">KSMULTIPLE_ITEM</a></dt>
-</dl>
+
+<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff563441(v=vs.85).aspx">KSMULTIPLE_ITEM</a>
+
  
 
  

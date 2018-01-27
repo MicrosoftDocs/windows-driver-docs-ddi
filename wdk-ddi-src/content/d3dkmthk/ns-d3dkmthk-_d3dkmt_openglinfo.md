@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d8e571dd-b823-4cad-96b6-c7841a1234c4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_OPENGLINFO, D3DKMT_OPENGLINFO
+ms.keywords: display.d3dkmt_openglinfo, D3DKMT_OPENGLINFO, D3DKMT_OPENGLINFO structure [Display Devices], OpenGL_Structs_93ba7fd7-969f-4edf-a6ce-38a135bcda83.xml, _D3DKMT_OPENGLINFO, d3dkmthk/D3DKMT_OPENGLINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_OPENGLINFO
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_OPENGLINFO
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_OPENGLINFO
 ---
 
 # _D3DKMT_OPENGLINFO structure
 
 
-
 ## -description
+
+
 The D3DKMT_OPENGLINFO structure describes OpenGL installable client driver (ICD) information.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_OPENGLINFO {
@@ -55,6 +65,9 @@ typedef struct _D3DKMT_OPENGLINFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UmdOpenGlIcdFileName
 
@@ -71,18 +84,12 @@ typedef struct _D3DKMT_OPENGLINFO {
 [in] This member is currently unused.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
+
  
 
  

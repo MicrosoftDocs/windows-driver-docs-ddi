@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 17c2c46c-ff79-4c80-82c9-c49b18426789
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BUS_INTERFACE_REFERENCE, BUS_INTERFACE_REFERENCE, *PBUS_INTERFACE_REFERENCE
+ms.keywords: BUS_INTERFACE_REFERENCE structure [Streaming Media Devices], ks/BUS_INTERFACE_REFERENCE, stream.bus_interface_reference, ks-struct_815b7147-1ae1-48d2-bae3-3efce2613b53.xml, ks/PBUS_INTERFACE_REFERENCE, PBUS_INTERFACE_REFERENCE structure pointer [Streaming Media Devices], *PBUS_INTERFACE_REFERENCE, PBUS_INTERFACE_REFERENCE, BUS_INTERFACE_REFERENCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BUS_INTERFACE_REFERENCE
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: BUS_INTERFACE_REFERENCE, *PBUS_INTERFACE_REFERENCE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	BUS_INTERFACE_REFERENCE
+product: Windows
+targetos: Windows
+req.typenames: *PBUS_INTERFACE_REFERENCE, BUS_INTERFACE_REFERENCE
 ---
 
 # BUS_INTERFACE_REFERENCE structure
 
 
-
 ## -description
+
+
 A software device enumerator exports this interface to allow drivers to reference count physical device objects (PDOs) such that the device remains active while in use and is unloaded when not in use.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -56,6 +66,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Interface
 
@@ -78,14 +91,29 @@ Pointer to a driver-supplied <a href="https://msdn.microsoft.com/library/windows
 
 
 ## -remarks
-A driver obtains a BUS_INTERFACE_REFERENCE interface by creating and sending an IRP_MJ_PNP request that specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a> minor function code. To do this, the driver should:
 
+
+A driver obtains a BUS_INTERFACE_REFERENCE interface by creating and sending an IRP_MJ_PNP request that specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a> minor function code. To do this, the driver should:
+<ul>
+<li>
 Allocate and zero-fill a BUS_INTERFACE_REFERENCE structure from the paged memory pool.
 
+</li>
+<li>
 Create an IRP for the query interface request and get the next stack location for the new IRP.
 
+</li>
+<li>
 In the new stack location, provide a pointer to the new BUS_INTERFACE_REFERENCE structure in the <b>Parameters.QueryInterface.Interface</b> member.
 
+</li>
+<li>
 Set a completion routine and send the request down the driver stack.
 
-If your request is successful, the system fills in the BUS_INTERFACE_REFERENCE structure pointed to by <b>Parameters.QueryInterface.Interface</b>.</p>
+</li>
+<li>
+If your request is successful, the system fills in the BUS_INTERFACE_REFERENCE structure pointed to by <b>Parameters.QueryInterface.Interface</b>.
+
+</li>
+</ul>
+

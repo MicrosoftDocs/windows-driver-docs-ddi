@@ -7,8 +7,8 @@ old-location: debugger\debug_last_event_info_exit_thread.htm
 old-project: debugger
 ms.assetid: 1C7E79F2-120A-424B-B4E3-EF202FA90C2A
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _DEBUG_LAST_EVENT_INFO_EXIT_THREAD, DEBUG_LAST_EVENT_INFO_EXIT_THREAD, *PDEBUG_LAST_EVENT_INFO_EXIT_THREAD
+ms.date: 1/19/2018
+ms.keywords: DEBUG_LAST_EVENT_INFO_EXIT_THREAD, dbgeng/PDEBUG_LAST_EVENT_INFO_EXIT_THREAD, PDEBUG_LAST_EVENT_INFO_EXIT_THREAD, DEBUG_LAST_EVENT_INFO_EXIT_THREAD structure [Windows Debugging], dbgeng/DEBUG_LAST_EVENT_INFO_EXIT_THREAD, *PDEBUG_LAST_EVENT_INFO_EXIT_THREAD, _DEBUG_LAST_EVENT_INFO_EXIT_THREAD, PDEBUG_LAST_EVENT_INFO_EXIT_THREAD structure pointer [Windows Debugging], debugger.debug_last_event_info_exit_thread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DEBUG_LAST_EVENT_INFO_EXIT_THREAD
-req.alt-loc: DbgEng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DEBUG_LAST_EVENT_INFO_EXIT_THREAD, *PDEBUG_LAST_EVENT_INFO_EXIT_THREAD
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	DbgEng.h
+apiname: 
+-	DEBUG_LAST_EVENT_INFO_EXIT_THREAD
+product: Windows
+targetos: Windows
+req.typenames: *PDEBUG_LAST_EVENT_INFO_EXIT_THREAD, DEBUG_LAST_EVENT_INFO_EXIT_THREAD
 ---
 
 # _DEBUG_LAST_EVENT_INFO_EXIT_THREAD structure
 
 
-
 ## -description
+
+
 Describes the exit thread of the last event.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DEBUG_LAST_EVENT_INFO_EXIT_THREAD {
@@ -54,9 +64,10 @@ typedef struct _DEBUG_LAST_EVENT_INFO_EXIT_THREAD {
 
 ## -struct-fields
 
+
+
+
 ### -field ExitCode
 
 The exit code of the thread.
 
-
-## -remarks

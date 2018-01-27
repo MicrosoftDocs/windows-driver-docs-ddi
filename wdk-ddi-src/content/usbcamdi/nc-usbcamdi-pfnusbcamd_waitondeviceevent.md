@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b9767479-3ad9-4b47-82d1-70b54329e7b8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _USB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
+ms.keywords: stream.usbcamd_waitondeviceevent, USBCAMD_WaitOnDeviceEvent routine [Streaming Media Devices], USBCAMD_WaitOnDeviceEvent, PFNUSBCAMD_WaitOnDeviceEvent, PFNUSBCAMD_WaitOnDeviceEvent, usbcamdi/USBCAMD_WaitOnDeviceEvent, usbcmdpr_854c2d35-c023-4d7a-8c2e-3e56d3150e41.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBCAMD_WaitOnDeviceEvent
-req.alt-loc: usbcamdi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	usbcamdi.h
+apiname: 
+-	USBCAMD_WaitOnDeviceEvent
+product: Windows
+targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PFNUSBCAMD_WaitOnDeviceEvent callback
 
 
-
 ## -description
+
+
 The <b>USBCAMD_WaitOnDeviceEvent</b> service is used to perform a read from the interrupt pipe if the camera has an interrupt pipe for external event notifications.
 
 
-
 ## -prototype
+
 
 ````
 PFNUSBCAMD_WaitOnDeviceEvent USBCAMD_WaitOnDeviceEvent;
@@ -63,6 +73,9 @@ NTSTATUS APIENTRY USBCAMD_WaitOnDeviceEvent(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceContext [in]
 
@@ -100,13 +113,33 @@ Specifies if USBCAMD is to resubmit another read request to the interrupt pipe e
 
 
 ## -returns
+
+
 <b>USBCAMD_WaitOnDeviceEvent</b> returns STATUS_SUCCESS if the call was successful. Other possible error codes include:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FILE_CLOSED</b></dt>
-</dl>The device has been removed.
+</dl>
+</td>
+<td width="60%">
+The device has been removed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>USBCAMD may return STATUS_INVALID_PARAMETER for a number of reasons, including:
+</dl>
+</td>
+<td width="60%">
+USBCAMD may return STATUS_INVALID_PARAMETER for a number of reasons, including:
 
 The value passed in the <i>PipeIndex</i> argument is invalid.
 
@@ -117,34 +150,52 @@ A bulk read/write request already exists.
 The <i>Buffer</i> argument is <b>NULL</b>.
 
 The length specified in the BufferLength argument is smaller than the maximum packet size.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_PENDING</b></dt>
-</dl>The event work item is deferred.
+</dl>
+</td>
+<td width="60%">
+The event work item is deferred.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>There are insufficient resources to allocate a work item to read from the pipe.
+</dl>
+</td>
+<td width="60%">
+There are insufficient resources to allocate a work item to read from the pipe.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The typical usage scenario for this function is a camera with a snapshot button and an interrupt pipe associated with the button. When a user presses the snapshot button, the read request on the interrupt pipe is satisfied and the camera minidriver is called back. If the camera minidriver sets USBCAMD_CamControlFlag_EnableDeviceEvents in the <i>CamControlFlag</i> argument during the <a href="..\usbcamdi\nf-usbcamdi-usbcamd_initializenewinterface.md">USBCAMD_InitializeNewInterface</a> call, the STI monitor also is notified of the snapshot event.
 
 <b>USBCAMD_WaitOnDeviceEvent</b> is not available in USBCAMD version 1.0.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>
-</dt>
-<dt>
-<a href="..\usbcamdi\nf-usbcamdi-usbcamd_initializenewinterface.md">USBCAMD_InitializeNewInterface</a>
-</dt>
-<dt>
+
 <a href="..\usbcamdi\ns-usbcamdi-usbcamd_interface.md">USBCAMD_INTERFACE</a>
-</dt>
-</dl>
+
+<a href="..\usbcamdi\nf-usbcamdi-usbcamd_initializenewinterface.md">USBCAMD_InitializeNewInterface</a>
+
+<a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>
+
  
 
  

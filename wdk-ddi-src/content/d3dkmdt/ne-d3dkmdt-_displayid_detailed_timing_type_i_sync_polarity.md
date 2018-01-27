@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6563d4f7-3750-49c1-80f5-14a839e70cb7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY,
+ms.keywords: d3dkmdt/DIDDT1_Sync_Negative, DIDDT1_Sync_Positive, d3dkmdt/DIDDT1_Sync_Positive, _DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY enumeration [Display Devices], DIDDT1_Sync_Negative, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY, _DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY, DmEnums_7a2bc957-2ae3-4a38-bbe7-8e3e52994e5d.xml, display.displayid_detailed_timing_type_i_sync_polarity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: _DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	_DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # _DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY enumeration
 
 
-
 ## -description
+
+
 The DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY enumeration indicates the display device's sync polarity (whether the sync signal is positive or negative).
 
 
-
 ## -syntax
+
 
 ````
 enum _DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY {
@@ -56,6 +66,9 @@ enum _DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY {
 
 ## -enum-fields
 
+
+
+
 ### -field DIDDT1_Sync_Positive
 
 Indicates that the sync polarity is positive.
@@ -65,5 +78,3 @@ Indicates that the sync polarity is positive.
 
 Indicates that the sync polarity is negative.
 
-
-## -remarks

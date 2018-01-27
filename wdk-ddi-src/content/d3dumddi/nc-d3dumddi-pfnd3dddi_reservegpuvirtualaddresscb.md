@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: CEDE03E1-4B0D-4839-B7D6-0826CC103C5E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.pfnreservegpuvirtualaddresscb, pfnReserveGpuVirtualAddressCb callback function [Display Devices], pfnReserveGpuVirtualAddressCb, PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB, PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB, d3dumddi/pfnReserveGpuVirtualAddressCb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnReserveGpuVirtualAddressCb
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	pfnReserveGpuVirtualAddressCb
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB callback
 
 
-
 ## -description
+
+
 <b>pfnReserveGPUVirtualAddressCb</b> reserves an address range in the current process graphics processing unit (GPU) virtual address space. The address range is only reserved, there is no actual memory behind it.
 
 
@@ -49,8 +59,8 @@ When the user mode driver chooses to let the video memory manager pick a base ad
   
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB pfnReserveGpuVirtualAddressCb;
@@ -65,12 +75,22 @@ HRESULT APIENTRY CALLBACK* pfnReserveGpuVirtualAddressCb(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
 A handle to the display device.
 
 
-### -param pData [in, out]
+### -param *
+
+
+
+
+
+
+#### - pData [in, out]
 
 A pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_reservegpuvirtualaddress.md">D3DDDI_RESERVEGPUVIRTUALADDRESS</a> structure that describes the operation to perform.
 
@@ -78,18 +98,16 @@ A pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_reservegpuvirtualaddress.
 
 
 ## -returns
+
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_reservegpuvirtualaddress.md">D3DDDI_RESERVEGPUVIRTUALADDRESS</a>
-</dt>
-</dl>
+
  
 
  

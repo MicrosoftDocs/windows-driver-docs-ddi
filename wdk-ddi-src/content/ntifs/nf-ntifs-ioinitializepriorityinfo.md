@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 21aa5850-1984-4ab8-8e7c-3028fc87680b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoInitializePriorityInfo
+ms.keywords: IoInitializePriorityInfo routine [Installable File System Drivers], ntifs/IoInitializePriorityInfo, ifsk.ioinitializepriorityinfo, IoInitializePriorityInfo, ioref_65eef333-11a8-4603-9b64-dc317f3d4e7b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available starting with Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoInitializePriorityInfo
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	IoInitializePriorityInfo
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # IoInitializePriorityInfo function
 
 
-
 ## -description
+
+
 The <b>IoInitializePriorityInfo</b> routine initializes a structure of type <a href="..\ntifs\ns-ntifs-_io_priority_info.md">IO_PRIORITY_INFO</a>.
 
 
-
 ## -syntax
+
 
 ````
 VOID IoInitializePriorityInfo(
@@ -54,31 +64,36 @@ VOID IoInitializePriorityInfo(
 
 ## -parameters
 
+
+
+
 ### -param PriorityInfo [in]
 
 Pointer to a structure, of type IO_PRIORITY_INFO, to be initialized. This parameter is required and cannot be <b>NULL</b>.
 
 
 ## -returns
+
+
 None. 
 
 
+
 ## -remarks
+
+
 The <b>IoInitializePriorityInfo</b> routine is used to initialize the IO_PRIORITY_INFO structure that is utilized by the <a href="..\fltkernel\nf-fltkernel-fltretrieveiopriorityinfo.md">FltRetrieveIoPriorityInfo</a> routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltapplypriorityinfothread.md">FltApplyPriorityInfoThread</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltretrieveiopriorityinfo.md">FltRetrieveIoPriorityInfo</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_io_priority_info.md">IO_PRIORITY_INFO</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltapplypriorityinfothread.md">FltApplyPriorityInfoThread</a>
+
  
 
  

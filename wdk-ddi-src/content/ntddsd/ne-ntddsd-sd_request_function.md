@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 9eec7597-be3a-4811-8786-11de0f9ac3da
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SD_REQUEST_FUNCTION, SD_REQUEST_FUNCTION
+ms.keywords: ntddsd/SDRF_SET_PROPERTY, SD_REQUEST_FUNCTION, ntddsd/SDRF_GET_PROPERTY, SD.sd_request_function, SD_REQUEST_FUNCTION enumeration [Buses], SDRF_DEVICE_COMMAND, ntddsd/SDRF_DEVICE_COMMAND, sd-structs_db2d511c-e3e2-46e6-9d01-1723c1c8ec7f.xml, ntddsd/SD_REQUEST_FUNCTION, SDRF_GET_PROPERTY, SDRF_SET_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SD_REQUEST_FUNCTION
-req.alt-loc: ntddsd.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddsd.h
+apiname: 
+-	SD_REQUEST_FUNCTION
+product: Windows
+targetos: Windows
 req.typenames: SD_REQUEST_FUNCTION
 ---
 
 # SD_REQUEST_FUNCTION enumeration
 
 
-
 ## -description
+
+
 The SD_REQUEST_FUNCTION enumeration indicates the type of request packet that a Secure Digital (SD) card driver sends to the bus driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -55,6 +65,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field SDRF_GET_PROPERTY
 
@@ -71,19 +84,32 @@ Indicates a set property request. The SDBUS_PROPERTY enumeration lists the prope
 Indicates a device-specific command.
 
 
+### -field SDRF_ERASE_COMMAND
+
+
+
+### -field SDRF_MMC_SOFT_RESET
+
+
+
+### -field SDRF_MMC_HPI
+
+
+
+
 ## -remarks
+
+
 The caller of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a> routine assigns a value from the SD_REQUEST_FUNCTION enumeration to the <b>RequestFunction</b> member of the <a href="https://msdn.microsoft.com/09b30bf0-fe85-4ad5-bd3e-113ed3a093ac">SDBUS_REQUEST_PACKET</a> structure to specify the type of request.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/09b30bf0-fe85-4ad5-bd3e-113ed3a093ac">SDBUS_REQUEST_PACKET</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/09b30bf0-fe85-4ad5-bd3e-113ed3a093ac">SDBUS_REQUEST_PACKET</a>
+
  
 
  

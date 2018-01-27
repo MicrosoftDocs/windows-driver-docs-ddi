@@ -7,8 +7,8 @@ old-location: image\iwiaimagefilter_interface.htm
 old-project: image
 ms.assetid: de74898b-ac04-468d-874d-7ca281e22a86
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: IWiaTransferCallback, IWiaTransferCallback::TransferCallback, TransferCallback
+ms.date: 1/18/2018
+ms.keywords: image.iwiaimagefilter_interface, IWiaImageFilter interface [Imaging Devices], IWiaImageFilter interface [Imaging Devices], described, IWiaImageFilter, wia_lh/IWiaImageFilter, IWiaErrorHandler_3922a578-25ee-448c-a0db-c339711ad2cb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IWiaImageFilter
-req.alt-loc: wia_lh.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wia_lh.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	wia_lh.h
+apiname: 
+-	IWiaImageFilter
+product: Windows
+targetos: Windows
 req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
 ---
@@ -38,25 +47,14 @@ req.product: Windows 10 or later.
 # IWiaImageFilter interface
 
 
-
 ## -description
+
+
 The <b>IWiaImageFilter</b> interface is an extension interface implemented by image processing filter developers and called by Microsoft Windows Image Acquisition (WIA).
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaImageFilter</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IWiaImageFilter</b> also has these types of members:
-
-The <b>IWiaImageFilter</b> interface has these methods.
-
-The <b>IWiaImageFilter::FilterPreviewImage</b> method is called by the WIA Preview component, when an application calls the <b>IWiaPreview::UpdatePreview</b> method.
-
-The <b>IWiaImageFilter::InitializeFilter</b> method stores the references to <i>pWiaItem2</i> and <i>pWiaTransferCallback</i> parameters passed into the method.
-
- 
-
-
 ## -members
+
 The <b>IWiaImageFilter</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -87,5 +85,3 @@ The <b>IWiaImageFilter::InitializeFilter</b> method stores the references to <i>
 
  
 
-
-## -remarks

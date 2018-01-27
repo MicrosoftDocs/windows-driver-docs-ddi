@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 83503353-e4f7-47ba-9a0c-71264798e983
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSEVENTDATA, KSEVENTDATA, *PKSEVENTDATA
+ms.keywords: PKSEVENTDATA, *PKSEVENTDATA, stream.kseventdata, KSEVENTDATA structure [Streaming Media Devices], KSEVENTDATA, ks/PKSEVENTDATA, ks/KSEVENTDATA, ks-struct_e9669775-4fb9-465a-bd2b-fd02f718d7a3.xml, PKSEVENTDATA structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSEVENTDATA
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KSEVENTDATA, *PKSEVENTDATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSEVENTDATA
+product: Windows
+targetos: Windows
+req.typenames: *PKSEVENTDATA, KSEVENTDATA
 ---
 
 # KSEVENTDATA structure
 
 
-
 ## -description
+
+
 Kernel streaming clients send the KSEVENTDATA structure to the class driver to specify a notification method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -69,10 +79,159 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
+### -field EventHandle
+
+
+
+### -field EventHandle.Event
+
+Contains a handle to a synchronization event when the KSEVENT_EVENT_HANDLE flag is set.
+
+
+### -field EventHandle.Reserved
+
+Reserved and set to zero.
+
+
+### -field SemaphoreHandle
+
+
+
+### -field SemaphoreHandle.Semaphore
+
+Contains a handle to a semaphore when the KSEVENT_SEMAPHORE_HANDLE flag is set.
+
+
+### -field SemaphoreHandle.Reserved
+
+Reserved and set to zero.
+
+
+### -field SemaphoreHandle.Adjustment
+
+Contains the adjustment to the semaphore when it is released.
+
+
+### -field EventObject
+
+ 
+
+
+### -field EventObject.Event
+
+ 
+
+
+### -field EventObject.Increment
+
+ 
+
+
+### -field EventObject.Reserved
+
+ 
+
+
+### -field SemaphoreObject
+
+ 
+
+
+### -field SemaphoreObject.Semaphore
+
+ 
+
+
+### -field SemaphoreObject.Increment
+
+ 
+
+
+### -field SemaphoreObject.Adjustment
+
+ 
+
+
+### -field Dpc
+
+ 
+
+
+### -field Dpc.Dpc
+
+ 
+
+
+### -field Dpc.ReferenceCount
+
+ 
+
+
+### -field Dpc.Reserved
+
+ 
+
+
+### -field WorkItem
+
+ 
+
+
+### -field WorkItem.WorkQueueItem
+
+ 
+
+
+### -field WorkItem.WorkQueueType
+
+ 
+
+
+### -field WorkItem.Reserved
+
+ 
+
+
+### -field KsWorkItem
+
+ 
+
+
+### -field KsWorkItem.WorkQueueItem
+
+ 
+
+
+### -field KsWorkItem.KsWorkerObject
+
+ 
+
+
+### -field KsWorkItem.Reserved
+
+ 
+
+
+### -field Alignment
+
+
+
+### -field Alignment.Unused
+
+Not used.
+
+
+### -field Alignment.Alignment
+
+Reserved for internal use by AVStream. Minidrivers should not manipulate this member.
+
+
 ### -field NotificationType
 
 Contains flags indicating what type of notification should be performed. The following table lists all the possible values for the NotificationType member.
-
 <table>
 <tr>
 <th>NotificationType Flag</th>
@@ -148,85 +307,30 @@ Indicates that a pointer to a kernel streaming work item structure is being pass
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
-
-### -field EventHandle
-
-
-### -field Event
-
-Contains a handle to a synchronization event when the KSEVENT_EVENT_HANDLE flag is set.
-
-
-### -field Reserved
-
-Reserved and set to zero.
-
-</dd>
-</dl>
-
-### -field SemaphoreHandle
-
-
-### -field Semaphore
-
-Contains a handle to a semaphore when the KSEVENT_SEMAPHORE_HANDLE flag is set.
-
-
-### -field Reserved
-
-Reserved and set to zero.
-
-
-### -field Adjustment
-
-Contains the adjustment to the semaphore when it is released.
-
-</dd>
-</dl>
-
-### -field Alignment
-
-
-### -field Unused
-
-Not used.
-
-
-### -field Alignment
-
-Reserved for internal use by AVStream. Minidrivers should not manipulate this member.
-
-</dd>
-</dl>
 
 ## -remarks
+
+
 For more information, see <a href="https://msdn.microsoft.com/3eaa1d65-8417-4a07-b358-823394baec9b">KS Events</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
-</dt>
-<dt>
-<a href="..\wdm\ne-wdm-_work_queue_type.md">WORK_QUEUE_TYPE</a>
-</dt>
-<dt>
+
+<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
+
 <a href="..\ks\nf-ks-ksincrementcountedworker.md">KsIncrementCountedWorker</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksregisterworker.md">KsRegisterWorker</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ne-wdm-_work_queue_type.md">WORK_QUEUE_TYPE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
+
  
 
  

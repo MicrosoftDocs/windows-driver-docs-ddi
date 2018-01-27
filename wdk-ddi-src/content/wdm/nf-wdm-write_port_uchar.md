@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 951b688f-21fa-4555-b877-e140e46a1700
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WRITE_PORT_UCHAR
+ms.keywords: k103_1495098b-03fb-4677-ac5a-2a1de9223f8b.xml, WRITE_PORT_UCHAR routine [Kernel-Mode Driver Architecture], WRITE_PORT_UCHAR, kernel.write_port_uchar, wdm/WRITE_PORT_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WRITE_PORT_UCHAR
-req.alt-loc: Hal.lib,Hal.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Hal.lib
+-	Hal.dll
+apiname: 
+-	WRITE_PORT_UCHAR
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # WRITE_PORT_UCHAR function
 
 
-
 ## -description
+
+
 The <b>WRITE_PORT_UCHAR</b> routine writes a byte to the specified port address.
 
 
-
 ## -syntax
+
 
 ````
  VOID WRITE_PORT_UCHAR(
@@ -55,6 +66,9 @@ The <b>WRITE_PORT_UCHAR</b> routine writes a byte to the specified port address.
 
 
 ## -parameters
+
+
+
 
 ### -param Port [in]
 
@@ -67,8 +81,15 @@ Specifies a byte to be written to the port.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
-Callers of <b>WRITE_PORT_UCHAR</b> can be running at any IRQL, assuming the <i>Port</i> is resident, mapped device memory.</p>
+
+
+Callers of <b>WRITE_PORT_UCHAR</b> can be running at any IRQL, assuming the <i>Port</i> is resident, mapped device memory.
+
+

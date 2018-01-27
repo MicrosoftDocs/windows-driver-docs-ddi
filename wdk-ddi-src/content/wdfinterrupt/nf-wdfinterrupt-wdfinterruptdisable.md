@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8ece6a3f-2f25-4143-8f0e-c65c02794cc4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfInterruptDisable
+ms.keywords: WdfInterruptDisable, wdfinterrupt/WdfInterruptDisable, WdfInterruptDisable method, DFInterruptObjectRef_05ca577a-87b3-419a-a3f8-ee57b0765701.xml, wdf.wdfinterruptdisable, PFN_WDFINTERRUPTDISABLE, kmdf.wdfinterruptdisable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WdfInterruptDisable
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll,WUDFx02000.dll,WUDFx02000.dll.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,37 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: WDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+-	WUDFx02000.dll
+-	WUDFx02000.dll.dll
+apiname: 
+-	WdfInterruptDisable
+product: Windows
+targetos: Windows
+req.typenames: *PWDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY
 req.product: Windows 10 or later.
 ---
 
 # WdfInterruptDisable function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfInterruptDisable</b> method disables a specified device interrupt by calling the driver's <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_disable.md">EvtInterruptDisable</a> callback function.
 
 
-
 ## -syntax
+
 
 ````
 VOID WdfInterruptDisable(
@@ -57,12 +70,17 @@ VOID WdfInterruptDisable(
 
 ## -parameters
 
+
+
+
 ### -param Interrupt [in]
 
 A handle to a framework interrupt object.
 
 
 ## -returns
+
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -70,7 +88,10 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
+
 Most framework-based drivers don't need to call <b>WdfInterruptDisable</b>, because the framework calls the driver's <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_disable.md">EvtInterruptDisable</a> callback function each time the device leaves its working (D0) state.
 
 For <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-passive-level-interrupts">passive-level interrupt objects</a>, the framework calls <b>WdfInterruptDisable</b> at PASSIVE_LEVEL.
@@ -79,18 +100,14 @@ Do not call <b>WdfInterruptDisable</b> from an arbitrary thread context,  such a
 
 For more information about handling interrupts in framework-based drivers, see <a href="https://msdn.microsoft.com/08460510-6e5f-4c02-8086-9caa9b4b4c2d">Handling Hardware Interrupts</a>.
 
-The following code example disables the device interrupt that is associated with a specified interrupt object.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptenable.md">WdfInterruptEnable</a>
-</dt>
-<dt>
+
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_disable.md">EvtInterruptDisable</a>
-</dt>
-</dl>
+
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptenable.md">WdfInterruptEnable</a>
+
  
 
  

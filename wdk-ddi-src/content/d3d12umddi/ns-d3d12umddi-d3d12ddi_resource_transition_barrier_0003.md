@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 86E2A0A4-F02C-43E7-8CC1-395B444299A6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003, D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003
+ms.keywords: D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003, display.d3d12ddi_resource_transition_barrier_0003, d3d12umddi/D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003, D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003
 ---
 
 # D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003 structure
 
 
-
 ## -description
+
+
 Describes a transition barrier between subresources.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003 {
@@ -56,6 +66,9 @@ typedef struct D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hResource
 
@@ -76,5 +89,3 @@ The state before a transition.
 
 The state after a transition.
 
-
-## -remarks

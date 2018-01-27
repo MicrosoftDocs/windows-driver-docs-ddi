@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 525e2dd9-68e1-468d-895e-d9f57372d619
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _SM_SetRNIDMgmtInfo_OUT, SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
+ms.keywords: audio.unregisternotificationevent, UnregisterNotificationEvent callback function [Audio Devices], UnregisterNotificationEvent, PUNREGISTER_NOTIFICATION_EVENT, PUNREGISTER_NOTIFICATION_EVENT, hdaudio/UnregisterNotificationEvent, aud-prop2_3f7488ae-5744-422e-871f-54dc2fd63bc2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UnregisterNotificationEvent
-req.alt-loc: Hdaudio.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Hdaudio.h
+apiname: 
+-	UnregisterNotificationEvent
+product: Windows
+targetos: Windows
 req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
 ---
 
 # PUNREGISTER_NOTIFICATION_EVENT callback
 
 
-
 ## -description
+
+
 The <i>UnregisterNotificationEvent</i> routine deletes the registration of an event that was previously registered by a call to <a href="..\hdaudio\nc-hdaudio-pregister_notification_event.md">RegisterNotificationEvent</a>.
 
 The function pointer type for an <i>UnregisterNotificationEvent</i> routine is defined as follows.
 
 
-
 ## -prototype
+
 
 ````
 PUNREGISTER_NOTIFICATION_EVENT UnregisterNotificationEvent;
@@ -61,43 +71,56 @@ typedef NTSTATUS UnregisterNotificationEvent(
 
 ## -parameters
 
-### -param context [in]
+
+
+
+### -param _context
+
+
+
+### -param Handle
+
+
+
+### -param NotificationEvent
+
+
+
+
+
+
+#### - context [in]
 
 Specifies the context value from the Context member of the <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a> structure.
 
 
-### -param handle [in]
+#### - handle [in]
 
 Handle that identifies the DMA engine. This handle value was obtained from a previous call to <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a> or <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>.
 
 
-### -param notificationEvent [in]
+#### - notificationEvent [in]
 
 A pointer to a kernel event that was previously registered for DMA progress notification with a call to <a href="..\hdaudio\nc-hdaudio-pregister_notification_event.md">RegisterNotificationEvent</a>.
 
 
 ## -returns
+
+
 <i>UnregisterNotificationEvent</i> returns STATUS_SUCCESS if the call successfully unregisters the notification event. Otherwise, the routine returns STATUS_INVALID_PARAMETER to indicate that the specified tag is not valid. 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
-</dt>
-<dt>
-<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
-</dt>
-<dt>
+
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
-</dt>
-<dt>
+
 <a href="..\hdaudio\nc-hdaudio-pregister_notification_event.md">RegisterNotificationEvent</a>
-</dt>
-</dl>
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
+
  
 
  

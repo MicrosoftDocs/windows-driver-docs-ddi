@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D79F1D98-E326-4401-86B8-2C3D071DF27C
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceWriteToHardware
+ms.keywords: wdf.wdfdevicewritetohardware, WdfDeviceWriteToHardware method, PFN_WDFDEVICEWRITETOHARDWARE, wdfdevice/WdfDeviceWriteToHardware, wdfhwaccess/WdfDeviceWriteToHardware, WdfDeviceWriteToHardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.11
 req.umdf-ver: 2.0
-req.alt-api: WdfDeviceWriteToHardware
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfDeviceWriteToHardware
+product: Windows
+targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WdfDeviceWriteToHardware function
 
 
-
 ## -description
+
+
 The <b>WdfDeviceWriteToHardware</b> method is used internally by the framework. Do not use.
 
 Instead, use the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265662">WDF Register/Port Access Functions</a>.
 
 
-
 ## -syntax
+
 
 ````
 void WdfDeviceWriteToHardware(
@@ -63,40 +74,48 @@ void WdfDeviceWriteToHardware(
 
 ## -parameters
 
+
+
+
 ### -param Device [in]
+
 
 
 ### -param Type [in]
 
 
+
 ### -param Size [in]
+
 
 
 ### -param TargetAddress [in]
 
 
+
 ### -param Value [in]
+
 
 
 ### -param Buffer [in, optional]
 
 
+
 ### -param Count [in, optional]
 
 
+
 ## -returns
+
+
 This method does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/55FBE72C-E74E-4116-9602-6D491592350F">WriteToHardware</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 88a5f5ab-e85b-4bd6-a2f5-bbcdc8c4f30c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 
+ms.keywords: IEEE.ioctl_1394_class, IOCTL_1394_CLASS control code [Buses], IOCTL_1394_CLASS, 1394/IOCTL_1394_CLASS, 1394irp_fa8ee811-14ee-44a0-9a9c-b53a421497d4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_1394_CLASS
-req.alt-loc: 1394.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,41 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1394.h
+apiname: 
+-	IOCTL_1394_CLASS
+product: Windows
+targetos: Windows
 ---
 
 # IOCTL_1394_CLASS IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 An IEEE 1394 driver uses the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a> IRP, with IoControlCode <b>IOCTL_1394_CLASS</b>, to communicate with the bus driver. The driver has access to all operations provided by the IEEE 1394 bus and its host controller through this request.
      
 
 
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 <b>Parameters-&gt;Others.Arguments1</b> points to an <b>IRB</b> structure. The <b>FunctionNumber</b> member of the IRB specifies the type of request. The <b>u</b> member of the IRB is a union that specifies the request-type-specific parameters of the request. The parameters and their meaning are documented with each request.
 
 Legal requests are as follows:
@@ -181,38 +199,46 @@ Legal requests are as follows:
 
 ### -input-buffer-length
 
+
 <text></text>
 
+
+
 ### -output-buffer
+
 <b>Parameters-&gt;Others.Arguments1</b> points to the <b>IRB</b> structure passed as input. As part of completing the request, the bus driver fills in certain members of the <b>u</b> member with information for the driver. The returned information is documented below with each request.
 
 
 ### -output-buffer-length
 
+
 <text></text>
+
+
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The information the bus driver returns in the I/O Status Block is documented below with each request.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537241">IOCTL_IEEE1394_API_REQUEST</a>
-</dt>
-</dl>
+
  
 
  

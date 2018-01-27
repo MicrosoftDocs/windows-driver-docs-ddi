@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 36076a28-d3f7-4463-b538-59794a18c4f9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG, WDF_COMMON_BUFFER_CONFIG
+ms.keywords: wdf.evt_wdf_companion_pre_prepare_hardware, EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE callback function, EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE, EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE, EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE, wdfcompanion/EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 2.23
-req.alt-api: EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE
-req.alt-loc: wdfcompanion.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	wdfcompanion.h
+apiname: 
+-	EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_COMMON_BUFFER_CONFIG, WDF_COMMON_BUFFER_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,14 +47,15 @@ req.product: Windows 10 or later.
 # EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE callback
 
 
-
 ## -description
+
+
 
 			For internal use only.
 
 
-
 ## -prototype
+
 
 ````
 EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE;
@@ -61,13 +71,17 @@ NTSTATUS EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE(
 
 ## -parameters
 
+
+
+
 ### -param Companion [in]
+
 
 
 ### -param ResourcesRaw [in]
 
 
+
 ### -param ResourcesTranslated [in]
 
 
-## -remarks

@@ -7,8 +7,8 @@ old-location: netvista\ndisallocatenetbuffer.htm
 old-project: netvista
 ms.assetid: b10c5a4b-fb43-4880-9641-ff2dcf0e5cb3
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisAllocateNetBuffer
+ms.date: 1/18/2018
+ms.keywords: ndis/NdisAllocateNetBuffer, ndis_netbuf_functions_ref_2c90427d-c174-48fa-b588-d48e5c099331.xml, netvista.ndisallocatenetbuffer, NdisAllocateNetBuffer, NdisAllocateNetBuffer function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisAllocateNetBuffer
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_NetBuffer_Function, NdisAllocateNetBuffer
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,35 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisAllocateNetBuffer
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisAllocateNetBuffer function
 
 
-
 ## -description
+
+
 Call the 
   <b>NdisAllocateNetBuffer</b> function to allocate and initialize a 
   <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure from a <b>NET_BUFFER</b> structure
   pool.
 
 
-
 ## -syntax
+
 
 ````
 PNET_BUFFER NdisAllocateNetBuffer(
@@ -60,11 +71,14 @@ PNET_BUFFER NdisAllocateNetBuffer(
 
 ## -parameters
 
+
+
+
 ### -param PoolHandle [in]
 
 A <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure pool handle that was previously returned from a call to 
-     <a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">
-     NdisAllocateNetBufferPool</a>.
+     <mshelp:link keywords="netvista.ndisallocatenetbufferpool" tabindex="0"><b>
+     NdisAllocateNetBufferPool</b></mshelp:link>.
 
 
 ### -param MdlChain [in, optional]
@@ -92,17 +106,24 @@ The length of the
 
 
 ## -returns
+
+
 <b>NdisAllocateNetBuffer</b> returns a pointer to the <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure that NDIS allocated. If the
      allocation was unsuccessful, this pointer is <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 Call 
     <a href="..\ndis\nf-ndis-ndisfreenetbuffer.md">NdisFreeNetBuffer</a> to free a 
     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure that was allocated from a
     <b>NET_BUFFER</b> structure pool.
-
-The preallocated <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> can be reused by reinitializing it with another MDL chain when it owns
+<div class="alert"><b>Note</b>  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> and 
+    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures must be allocated
+    from an NDIS buffer pool. A driver must not allocate and initialize a <b>NET_BUFFER</b> or <b>NET_BUFFER_LIST</b>
+    structure from its private memory pool or the stack.</div><div> </div>The preallocated <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> can be reused by reinitializing it with another MDL chain when it owns
     <b>NET_BUFFER</b>, but the 
     <i>DataOffset</i>, 
     <i>DataLength</i>, 
@@ -119,26 +140,35 @@ For example, if the original MDL chain contains <i>X</i>
 <i>DataOffset</i>. If 
     <i>CurrentMdl</i> starts with the third MDL (<i>M'</i>) in the new MDL chain, 
     <i>CurrentMdlOffset</i> is <i>Z'</i>, and the following macros need to be used to set fields in <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NET_BUFFER_FIRST_MDL(_NB) = New MDL chain;
+NET_BUFFER_DATA_LENGTH(_NB) = X';
+NET_BUFFER_DATA_OFFSET(_NB) = Y';
+NET_BUFFER_CURRENT_MDL(_NB) = M';
+NET_BUFFER_CURRENT_MDL_OFFSET(_NB) = Z';</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-</dt>
-<dt>
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndisfreenetbuffer.md">NdisFreeNetBuffer</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisAllocateNetBuffer function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisAllocateNetBuffer function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

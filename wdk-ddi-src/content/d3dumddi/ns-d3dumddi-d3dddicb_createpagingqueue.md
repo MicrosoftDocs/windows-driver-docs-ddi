@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9E36B02F-2292-416C-AA09-1968EECE5A3D
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_CREATEPAGINGQUEUE, D3DDDICB_CREATEPAGINGQUEUE
+ms.keywords: D3DDDICB_CREATEPAGINGQUEUE, D3DDDICB_CREATEPAGINGQUEUE structure [Display Devices], display.d3dddicb_createpagingqueue, d3dumddi/D3DDDICB_CREATEPAGINGQUEUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_CREATEPAGINGQUEUE
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_CREATEPAGINGQUEUE
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_CREATEPAGINGQUEUE
 ---
 
 # D3DDDICB_CREATEPAGINGQUEUE structure
 
 
-
 ## -description
+
+
 <b>D3DDDICB_CREATEPAGINGQUEUE</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createpagingqueuecb.md">pfnCreatePagingQueueCb</a> to create a device paging queue that can be used to synchronize with video memory management operations for the device, such as making the device resource resident.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3DDDICB_CREATEPAGINGQUEUE {
@@ -57,6 +67,9 @@ typedef struct D3DDDICB_CREATEPAGINGQUEUE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Priority
 
@@ -84,18 +97,18 @@ typedef struct D3DDDICB_CREATEPAGINGQUEUE {
 
 
 ## -remarks
+
+
 A device can have multiple paging queues created for it. Paging queues can be destroyed either explicitly by calling <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroypagingqueuecb.md">pfnDestroyPagingQueueCb</a>, or by implicitly destroying the device they belong to. After the latter, paging queue handles will become invalid.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createpagingqueuecb.md">pfnCreatePagingQueueCb</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroypagingqueuecb.md">pfnDestroyPagingQueueCb</a>
-</dt>
-</dl>
+
  
 
  

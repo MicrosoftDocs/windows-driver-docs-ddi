@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a4128541-1982-413d-a013-422ca1cf4542
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortWavePci, IPortWavePci::NewMasterDmaChannel, NewMasterDmaChannel
+ms.keywords: NewMasterDmaChannel method [Audio Devices], IPortWavePci interface, NewMasterDmaChannel method [Audio Devices], audio.iportwavepci_newmasterdmachannel, portcls/IPortWavePci::NewMasterDmaChannel, IPortWavePci interface [Audio Devices], NewMasterDmaChannel method, IPortWavePci::NewMasterDmaChannel, NewMasterDmaChannel, IPortWavePci, audmp-routines_01c562e8-f0b7-4232-9595-2312175c097f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPortWavePci.NewMasterDmaChannel
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IPortWavePci.NewMasterDmaChannel
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPortWavePci::NewMasterDmaChannel method
 
 
-
 ## -description
+
+
 The <code>NewMasterDmaChannel</code> method creates a new instance of a bus-master DMA channel.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS NewMasterDmaChannel(
@@ -65,9 +75,12 @@ NTSTATUS NewMasterDmaChannel(
 
 ## -parameters
 
-### -param DmaChannel [out]
 
-Output pointer for the DMA channel. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the new DMA-channel object's <a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a> interface.
+
+
+### -param OutDmaChannel
+
+
 
 
 ### -param OuterUnknown [in, optional]
@@ -125,11 +138,21 @@ Maximum number of bytes in the buffer that will be associated with this DMA chan
 Not used. Set to 0.
 
 
+#### - DmaChannel [out]
+
+Output pointer for the DMA channel. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the new DMA-channel object's <a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a> interface.
+
+
 ## -returns
+
+
 <code>NewMasterDmaChannel</code> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 The definitions of the call parameters for the <code>NewMasterDmaChannel</code> method are similar to those for the members of the <a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a> structure with the same names.
 
 Specify the <i>PoolType</i> parameter to be one of the nonpaged pool types defined in the POOL_TYPE enumeration. The DMA-channel object must not reside in paged memory because several of the methods in the <b>IDmaChannel</b> interface can be called from IRQL DISPATCH_LEVEL.
@@ -137,24 +160,19 @@ Specify the <i>PoolType</i> parameter to be one of the nonpaged pool types defin
 The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters follow the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
-</dt>
-<dt>
-<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
-</dt>
-<dt>
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
+
+<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
+
  
 
  

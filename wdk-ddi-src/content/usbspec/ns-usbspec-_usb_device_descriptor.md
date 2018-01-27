@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 124184ef-7410-4e04-abb2-e07db4ae2cbf
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_DEVICE_DESCRIPTOR, USB_DEVICE_DESCRIPTOR, *PUSB_DEVICE_DESCRIPTOR
+ms.keywords: usbspec/PUSB_DEVICE_DESCRIPTOR, usbspec/USB_DEVICE_DESCRIPTOR, *PUSB_DEVICE_DESCRIPTOR, PUSB_DEVICE_DESCRIPTOR structure pointer [Buses], PUSB_DEVICE_DESCRIPTOR, usbstrct_40e68471-a1e1-4e2e-8bea-77c8f7085589.xml, USB_DEVICE_DESCRIPTOR structure [Buses], buses.usb_device_descriptor, _USB_DEVICE_DESCRIPTOR, USB_DEVICE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_DEVICE_DESCRIPTOR
-req.alt-loc: usbspec.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: USB_DEVICE_DESCRIPTOR, *PUSB_DEVICE_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbspec.h
+apiname: 
+-	USB_DEVICE_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: *PUSB_DEVICE_DESCRIPTOR, USB_DEVICE_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
 # _USB_DEVICE_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The <b>USB_DEVICE_DESCRIPTOR</b> structure is used by USB client drivers to retrieve a USB-defined device descriptor.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USB_DEVICE_DESCRIPTOR {
@@ -67,6 +77,9 @@ typedef struct _USB_DEVICE_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field bLength
 
@@ -139,23 +152,22 @@ Specifies the total number of possible configurations for the device.
 
 
 ## -remarks
+
+
 This structure is used to hold a retrieved USB-defined device descriptor. This information can then be used to further configure or retrieve information about the device. Device descriptors are retrieved by submitting a get-descriptor URB.
 
 The <b>iManufacturer</b>, <b>iProduct</b>, and <b>iSerialNumber</b> values, when returned from the host controller driver, contain index values into an array of string descriptors maintained by the device. To retrieve these strings, a string descriptor request can be sent to the device using these index values.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
-</dt>
-<dt>
-<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
+<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
+
  
 
  

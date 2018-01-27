@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e7be6cb6-a59d-4244-ba36-e7d5b36b1416
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FLT_VOLUME_PROPERTIES, *PFLT_VOLUME_PROPERTIES, FLT_VOLUME_PROPERTIES
+ms.keywords: PFLT_VOLUME_PROPERTIES structure pointer [Installable File System Drivers], PFLT_VOLUME_PROPERTIES, FltSystemStructures_9de12b81-e647-4dc7-8d4c-dd90070c7dfa.xml, VOL_PROP_FL_DAX_VOLUME, FLT_VOLUME_PROPERTIES, _FLT_VOLUME_PROPERTIES, ifsk.flt_volume_properties, fltkernel/PFLT_VOLUME_PROPERTIES, *PFLT_VOLUME_PROPERTIES, fltkernel/FLT_VOLUME_PROPERTIES, FLT_VOLUME_PROPERTIES structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FLT_VOLUME_PROPERTIES
-req.alt-loc: fltkernel.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	fltkernel.h
+apiname: 
+-	FLT_VOLUME_PROPERTIES
+product: Windows
+targetos: Windows
 req.typenames: *PFLT_VOLUME_PROPERTIES, FLT_VOLUME_PROPERTIES
 ---
 
 # _FLT_VOLUME_PROPERTIES structure
 
 
-
 ## -description
+
+
 The FLT_VOLUME_PROPERTIES structure is passed as a parameter to <a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FLT_VOLUME_PROPERTIES {
@@ -62,36 +72,25 @@ typedef struct _FLT_VOLUME_PROPERTIES {
 
 ## -struct-fields
 
+
+
+
 ### -field DeviceType
 
 Receives the device type of the volume. Must be a valid storage device type, such as one of the following values defined in ntifs.h: 
 
-<dl>
-<dd>
 FILE_DEVICE_CD_ROM
 
-</dd>
-<dd>
 FILE_DEVICE_DISK
 
-</dd>
-<dd>
 FILE_DEVICE_DVD
 
-</dd>
-<dd>
 FILE_DEVICE_MASS_STORAGE
 
-</dd>
-<dd>
 FILE_DEVICE_NETWORK
 
-</dd>
-<dd>
 FILE_DEVICE_VIRTUAL_DISK
 
-</dd>
-</dl>
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563821">Specifying Device Types</a>. 
 
 
@@ -118,24 +117,22 @@ Receives the volume sector size, in bytes.
 ### -field Flags
 
 Provides additional description of the volume. This member can be zero or one of the following flags. In versions prior to Windows 10, version 1607, this member was named <b>Reserved0</b> and reserved for system use.
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field VOL_PROP_FL_DAX_VOLUME
-
+<td width="40%"><a id="VOL_PROP_FL_DAX_VOLUME"></a><a id="vol_prop_fl_dax_volume"></a><dl>
+<dt><b>VOL_PROP_FL_DAX_VOLUME</b></dt>
+</dl>
 </td>
 <td width="60%">
 This flag indicates that the volume is a direct access (DAX) volume.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field FileSystemDriverName
@@ -155,6 +152,8 @@ UNICODE_STRING structure that receives the name of the storage device object ass
 
 
 ## -remarks
+
+
 Storage for the FLT_VOLUME_PROPERTIES structure is typically allocated from paged pool. 
 
 To get the volume name for a given volume, call <a href="..\fltkernel\nf-fltkernel-fltgetvolumename.md">FltGetVolumeName</a>. 
@@ -162,28 +161,21 @@ To get the volume name for a given volume, call <a href="..\fltkernel\nf-fltkern
 To get the volume globally unique identifier (GUID) name for a given volume, call <a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumename.md">FltGetVolumeName</a>
-</dt>
-<dt><b>FltGetVolumeName</b></dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>
+
+<b>FltGetVolumeName</b>
+
  
 
  

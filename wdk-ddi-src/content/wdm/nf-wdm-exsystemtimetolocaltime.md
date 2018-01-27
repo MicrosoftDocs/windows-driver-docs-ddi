@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d77ce60e-7b23-4f60-af63-d613ceba281e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExSystemTimeToLocalTime
+ms.keywords: kernel.exsystemtimetolocaltime, wdm/ExSystemTimeToLocalTime, ExSystemTimeToLocalTime routine [Kernel-Mode Driver Architecture], k102_9cf20274-70ae-41f6-b56f-2dc8aa7fd0e3.xml, ExSystemTimeToLocalTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExSystemTimeToLocalTime
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ExSystemTimeToLocalTime
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ExSystemTimeToLocalTime function
 
 
-
 ## -description
+
+
 The <b>ExSystemTimeToLocalTime</b> routine converts a GMT system time value to the local system time for the current time zone.
 
 
-
 ## -syntax
+
 
 ````
 VOID ExSystemTimeToLocalTime(
@@ -55,6 +65,9 @@ VOID ExSystemTimeToLocalTime(
 
 
 ## -parameters
+
+
+
 
 ### -param SystemTime [in]
 
@@ -67,19 +80,23 @@ A pointer to the returned value for the current locale.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>ExSystemTimeToLocalTime</b> subtracts the time-zone bias from the GMT system time value to compute the corresponding time at the current locale.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-exlocaltimetosystemtime.md">ExLocalTimeToSystemTime</a>
-</dt>
-</dl>
+
  
 
  

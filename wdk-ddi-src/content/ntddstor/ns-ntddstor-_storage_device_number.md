@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3efed879-bde4-44ea-9af5-fc35a2ac27fc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_DEVICE_NUMBER, STORAGE_DEVICE_NUMBER, *PSTORAGE_DEVICE_NUMBER
+ms.keywords: STORAGE_DEVICE_NUMBER structure [Storage Devices], STORAGE_DEVICE_NUMBER, structs-general_e5b6df4e-787c-415b-82ed-14dffa34a95e.xml, _STORAGE_DEVICE_NUMBER, ntddstor/STORAGE_DEVICE_NUMBER, storage.storage_device_number, *PSTORAGE_DEVICE_NUMBER, ntddstor/PSTORAGE_DEVICE_NUMBER, PSTORAGE_DEVICE_NUMBER structure pointer [Storage Devices], PSTORAGE_DEVICE_NUMBER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_DEVICE_NUMBER
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	STORAGE_DEVICE_NUMBER
+product: Windows
+targetos: Windows
 req.typenames: STORAGE_DEVICE_NUMBER, *PSTORAGE_DEVICE_NUMBER
 ---
 
 # _STORAGE_DEVICE_NUMBER structure
 
 
-
 ## -description
+
+
 The STORAGE_DEVICE_NUMBER structure is used in conjunction with the <a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_device_number.md">IOCTL_STORAGE_GET_DEVICE_NUMBER</a> request to retrieve the FILE_DEVICE_<i>XXX</i> device type, the device number, and, for a device that can be partitioned, the partition number assigned to a device by the driver when the device is started. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STORAGE_DEVICE_NUMBER {
@@ -55,6 +65,9 @@ typedef struct _STORAGE_DEVICE_NUMBER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DeviceType
 
@@ -72,17 +85,18 @@ Indicates the partition number of the device is returned in this member, if the 
 
 
 ## -remarks
+
+
 The <a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_device_number.md">IOCTL_STORAGE_GET_DEVICE_NUMBER</a> request is usually issued by a fault-tolerant disk driver.
 
 The values in the STORAGE_DEVICE_NUMBER structure are guaranteed to remain unchanged until the system is rebooted. They are not guaranteed to be persistent across boots.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_device_number.md">IOCTL_STORAGE_GET_DEVICE_NUMBER</a>
-</dt>
-</dl>
+
  
 
  

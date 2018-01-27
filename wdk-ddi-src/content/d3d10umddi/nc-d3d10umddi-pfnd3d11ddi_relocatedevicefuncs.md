@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1d56c71f-0108-4088-a5e0-3b41b781f361
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.relocatedevicefuncs_d3d11_, RelocateDeviceFuncs callback function [Display Devices], RelocateDeviceFuncs, PFND3D11DDI_RELOCATEDEVICEFUNCS, PFND3D11DDI_RELOCATEDEVICEFUNCS, d3d10umddi/RelocateDeviceFuncs, UserModeDisplayDriverDx11_Functions_ef0af03c-0ab5-4ea2-a568-410d1f68c183.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: RelocateDeviceFuncs(D3D11) is supported beginning wit
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RelocateDeviceFuncs
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	RelocateDeviceFuncs
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11DDI_RELOCATEDEVICEFUNCS callback
 
 
-
 ## -description
+
+
 The <i>RelocateDeviceFuncs(D3D11)</i> function notifies the user-mode display driver about the new location of the driver function table. 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11DDI_RELOCATEDEVICEFUNCS RelocateDeviceFuncs;
@@ -58,35 +68,52 @@ VOID APIENTRY RelocateDeviceFuncs(
 
 ## -parameters
 
-### -param hDevice [in]
+
+
+
+### -param D3D10DDI_HDEVICE
+
+
+
+### -param *
+
+
+
+
+
+
+#### - hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param pDeviceFunctions [in]
+#### - pDeviceFunctions [in]
 
  A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a> structure that contains pointers to the functions of the user-mode display driver. 
 
 
 ## -returns
+
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. 
 
 
+
 ## -remarks
+
+
 A user-mode display driver can use the <i>RelocateDeviceFuncs(D3D11)</i> function to replace function pointers in the driver function table. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
+
  
 
  

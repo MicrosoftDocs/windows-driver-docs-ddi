@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 90d9c5e9-4bdf-4c7a-b5ac-54e1f94818bf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ISCSI_RedirectPortalInfo, ISCSI_RedirectPortalInfo, *PISCSI_RedirectPortalInfo
+ms.keywords: ISCSI_RedirectPortalInfo structure [Storage Devices], iscsimgt/PISCSI_RedirectPortalInfo, structs-iSCSI_6b7dc6ac-b421-4454-aa8f-48f52c9b4350.xml, _ISCSI_RedirectPortalInfo, PISCSI_RedirectPortalInfo structure pointer [Storage Devices], PISCSI_RedirectPortalInfo, iscsimgt/ISCSI_RedirectPortalInfo, storage.iscsi_redirectportalinfo, *PISCSI_RedirectPortalInfo, ISCSI_RedirectPortalInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ISCSI_RedirectPortalInfo
-req.alt-loc: iscsimgt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsimgt.h
+apiname: 
+-	ISCSI_RedirectPortalInfo
+product: Windows
+targetos: Windows
 req.typenames: ISCSI_RedirectPortalInfo, *PISCSI_RedirectPortalInfo
 ---
 
 # _ISCSI_RedirectPortalInfo structure
 
 
-
 ## -description
+
+
 This ISCSI_RedirectPortalInfo structure contains information about a collection of iSCSI portals that can be used during portal hopping or portal redirect operations. If a target portal is not available for login, the initiator can "hop" through the list of target portals that it discovered and that can be used for login operations. That is, the initiator will continue to try the list of portals that are available until it finds one that can be used for login, so it can then log in to the available target portal.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ISCSI_RedirectPortalInfo {
@@ -59,6 +69,9 @@ typedef struct _ISCSI_RedirectPortalInfo {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UniqueConnectionId
 
@@ -95,18 +108,12 @@ This indicates whether the login is redirected. If this value is <b>TRUE</b>, Re
 This value is <b>true</b> if redirection is temporary.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-</dt>
-</dl>
+
  
 
  

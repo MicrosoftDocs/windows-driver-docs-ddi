@@ -7,8 +7,8 @@ old-location: print\propsheetui_info.htm
 old-project: print
 ms.assetid: b21c3ee1-13e8-4796-af45-6ba60e84df4e
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: _PROPSHEETUI_INFO, PROPSHEETUI_INFO, *PPROPSHEETUI_INFO
+ms.date: 1/18/2018
+ms.keywords: print.propsheetui_info, PROPSHEETUI_INFO, cpsuifnc_0afe9ac8-ca1f-4984-acc5-04a8955b4b30.xml, PROPSHEETUI_INFO structure [Print Devices], *PPROPSHEETUI_INFO, PPROPSHEETUI_INFO, PPROPSHEETUI_INFO structure pointer [Print Devices], _PROPSHEETUI_INFO, compstui/PPROPSHEETUI_INFO, compstui/PROPSHEETUI_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PROPSHEETUI_INFO
-req.alt-loc: compstui.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: PROPSHEETUI_INFO, *PPROPSHEETUI_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	compstui.h
+apiname: 
+-	PROPSHEETUI_INFO
+product: Windows
+targetos: Windows
+req.typenames: *PPROPSHEETUI_INFO, PROPSHEETUI_INFO
 ---
 
 # _PROPSHEETUI_INFO structure
 
 
-
 ## -description
+
+
 The PROPSHEETUI_INFO structure is used as an input parameter to <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>-typed functions.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PROPSHEETUI_INFO {
@@ -62,6 +72,9 @@ typedef struct _PROPSHEETUI_INFO {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
 
 CPSUI-supplied size, in bytes, of the PROPSHEETUI_INFO structure.
@@ -75,7 +88,6 @@ CPSUI-supplied version number of the PROPSHEETUI_INFO structure. The current ver
 ### -field Flags
 
 CPSUI-supplied bit flags. The following flag is defined:
-
 <table>
 <tr>
 <th>Flag</th>
@@ -91,14 +103,12 @@ If set, the calling application uses Unicode characters.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Reason
 
 CPSUI-supplied constant specifying the action to be performed on the property sheet by the <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>-typed function to which the PROPSHEETUI_INFO structure was passed. One of the following constants will be supplied:
-
 <ul>
 <li>
 PROPSHEETUI_REASON_DESTROY
@@ -120,13 +130,8 @@ PROPSHEETUI_REASON_INIT
 PROPSHEETUI_REASON_SET_RESULT
 
 </li>
-</ul>
-<dl>
-<dd>
-For information about the meaning of each constant, see the Remarks section of the <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a> description.
+</ul>For information about the meaning of each constant, see the Remarks section of the <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a> description.
 
-</dd>
-</dl>
 
 ### -field hComPropSheet
 
@@ -156,5 +161,3 @@ Result value supplied by the associated <a href="..\compstui\nc-compstui-pfnprop
 
 If the PFNPROPSHEETUI-typed function's address was specified as an argument to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546148">CommonPropertySheetUI</a>, the last value stored in <b>Result</b> is returned to <b>CommonPropertySheetUI</b> in the location pointed to by its <i>pResult</i> argument.
 
-
-## -remarks

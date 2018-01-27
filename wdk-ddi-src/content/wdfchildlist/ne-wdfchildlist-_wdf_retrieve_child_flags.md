@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 43294943-cc73-45d4-8e0b-e7d29420bb7e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_RETRIEVE_CHILD_FLAGS, WDF_RETRIEVE_CHILD_FLAGS
+ms.keywords: _WDF_RETRIEVE_CHILD_FLAGS, WdfRetrieveMissingChildren, WdfRetrievePendingChildren, WdfRetrieveAddedChildren, wdfchildlist/WdfRetrieveAllChildren, wdfchildlist/WdfRetrieveUnspecified, wdfchildlist/WdfRetrieveMissingChildren, WdfRetrieveAllChildren, WDF_RETRIEVE_CHILD_FLAGS, DFDeviceObjectChildListRef_f82096f7-f6f9-4e49-a3e3-2641f60f98d9.xml, wdfchildlist/WdfRetrievePresentChildren, wdfchildlist/WdfRetrievePendingChildren, wdfchildlist/WdfRetrieveAddedChildren, wdf.wdf_retrieve_child_flags, kmdf.wdf_retrieve_child_flags, wdfchildlist/WDF_RETRIEVE_CHILD_FLAGS, WdfRetrievePresentChildren, WdfRetrieveUnspecified, WDF_RETRIEVE_CHILD_FLAGS enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WDF_RETRIEVE_CHILD_FLAGS
-req.alt-loc: wdfchildlist.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfchildlist.h
+apiname: 
+-	WDF_RETRIEVE_CHILD_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: WDF_RETRIEVE_CHILD_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_RETRIEVE_CHILD_FLAGS enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_RETRIEVE_CHILD_FLAGS</b> enumeration defines flags that a driver can set before calling <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiteration.md">WdfChildListBeginIteration</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_RETRIEVE_CHILD_FLAGS { 
@@ -61,6 +71,9 @@ typedef enum _WDF_RETRIEVE_CHILD_FLAGS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WdfRetrieveUnspecified
 
@@ -93,24 +106,22 @@ Calls to <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice
 
 
 ## -remarks
+
+
 Before calling <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiteration.md">WdfChildListBeginIteration</a>, your driver must set <b>WDF_RETRIEVE_CHILD_FLAGS</b>-typed flags in a <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
-</dt>
-<dt>
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a>
-</dt>
-<dt>
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiteration.md">WdfChildListBeginIteration</a>
-</dt>
-<dt>
+
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>
-</dt>
-</dl>
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiteration.md">WdfChildListBeginIteration</a>
+
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a>
+
+<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b89977da-d3ac-4f1f-867e-b3b7912b955d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSIDENTIFIER, KSIDENTIFIER, *PKSIDENTIFIER, *PKSDEGRADE, KSEVENT, *PKSMETHOD, *PKSEVENT, KSDEGRADE, KSPIN_INTERFACE, *PKSPROPERTY, *PKSPIN_INTERFACE, KSPIN_MEDIUM, *PKSPIN_MEDIUM, KSPROPERTY, KSMETHOD
+ms.keywords: *PKSPIN_MEDIUM, KSEVENT, KSDEGRADE, *PKSMETHOD, *PKSEVENT, *PKSIDENTIFIER, KSIDENTIFIER structure [Streaming Media Devices], *PKSDEGRADE, *PKSPIN_INTERFACE, KSMETHOD, stream.ksidentifier, KSIDENTIFIER, *PKSPROPERTY, ks-struct_652a0465-0c2b-4e46-ac43-7a6c5bbdaf80.xml, KSPIN_INTERFACE, PKSIDENTIFIER structure pointer [Streaming Media Devices], ks/KSIDENTIFIER, KSPROPERTY, KSPIN_MEDIUM, PKSIDENTIFIER, ks/PKSIDENTIFIER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSIDENTIFIER
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSIDENTIFIER
+product: Windows
+targetos: Windows
 req.typenames: KSIDENTIFIER, *PKSIDENTIFIER
 ---
 
 # KSIDENTIFIER structure
 
 
-
 ## -description
+
+
 The KSIDENTIFIER structure specifies a GUID that uniquely identifies a related set of GUIDs, and an index value to refer to a specific member within that set.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -60,6 +70,29 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
+
+### -field _IDENTIFIER
+
+ 
+
+
+### -field _IDENTIFIER.Set
+
+ 
+
+
+### -field _IDENTIFIER.Id
+
+ 
+
+
+### -field _IDENTIFIER.Flags
+
+ 
+
 
 ### -field Set
 
@@ -82,6 +115,8 @@ Not used.  A member of an unnamed union used to force proper alignment on the un
 
 
 ## -remarks
+
+
 The <a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>, <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>, and <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structures are aliases for the KSIDENTIFIER structure. As such, their definitions are identical. 
 
 The use of an ID within the set allows one to perform a single large compare for a set identifier, then smaller quick compares (for example, by using a switch statement for identifiers within a set). For example, a <i>property set</i> is referred to by a unique GUID identifier, and properties within that set are referred to by the short ID.
@@ -89,18 +124,15 @@ The use of an ID within the set allows one to perform a single large compare for
 <i>Method</i>, <i>Event</i>, <i>Interface</i>, and <i>medium sets</i> can be thought of as "classes" of sets.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
+
  
 
  

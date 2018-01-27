@@ -7,8 +7,8 @@ old-location: netvista\ndiscanceltimerobject.htm
 old-project: netvista
 ms.assetid: b66652b7-2e02-49f5-a7e3-60ff35363a19
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisCancelTimerObject
+ms.date: 1/18/2018
+ms.keywords: netvista.ndiscanceltimerobject, ndis/NdisCancelTimerObject, NdisCancelTimerObject function [Network Drivers Starting with Windows Vista], NdisCancelTimerObject, ndis_timer_ref_39b68ae4-4fd7-4609-aebc-e2be21bead04.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisCancelTimerObject
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_Timer_Function, PeriodicTimer
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: See Remarks section
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisCancelTimerObject
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCancelTimerObject function
 
 
-
 ## -description
+
+
 The 
   <b>NdisCancelTimerObject</b> function cancels a timer object that is associated with a previous call to the 
   <a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a> function.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN NdisCancelTimerObject(
@@ -56,19 +67,27 @@ BOOLEAN NdisCancelTimerObject(
 
 ## -parameters
 
+
+
+
 ### -param TimerObject [in]
 
 A handle to a timer object that NDIS provides when a driver calls the 
-     <a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">
-     NdisAllocateTimerObject</a> function.
+     <mshelp:link keywords="netvista.ndisallocatetimerobject" tabindex="0"><b>
+     NdisAllocateTimerObject</b></mshelp:link> function.
 
 
 ## -returns
+
+
 <b>NdisCancelTimerObject</b> returns <b>TRUE</b> if the specified timer object is in the system timer queue;
      otherwise, it returns <b>FALSE</b>.
 
 
+
 ## -remarks
+
+
 A call to 
     <b>NdisCancelTimerObject</b> cancels execution of a 
     <a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a> function, provided
@@ -82,11 +101,14 @@ NDIS drivers should call
 If a nonzero value was specified in the 
     <i>MillisecondsPeriod</i> parameter of the 
     <a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a> function, the timer is known as a <i>periodic timer</i>. If a zero value was specified in the <i>MillisecondsPeriod</i> parameter, the timer is known as a <i>one-shot timer</i>. The following points apply to canceling both types of timers:
-
+<ul>
+<li>
 If  the caller of
     <b>NdisCancelTimerObject</b> is canceling a periodic timer, it must be running at IRQL = PASSIVE_LEVEL. Otherwise, the caller of 
     <b>NdisCancelTimerObject</b> should be running at IRQL &lt;= DISPATCH_LEVEL.
 
+</li>
+<li>
 If  the caller of
     <b>NdisCancelTimerObject</b> is canceling a periodic timer, <b>NdisCancelTimerObject</b> calls <a href="..\wdm\nf-wdm-keflushqueueddpcs.md">KeFlushQueuedDpcs</a> to ensure that the timer is not currently running. Therefore, the caller is not required to have a separate synchronization mechanism to ensure that the timer is not currently being executed on another processor.
 
@@ -95,22 +117,21 @@ If  the caller of
 
 For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization and Notification in Network Drivers</a>.
 
+</li>
+</ul>
+
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
+
+<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCancelTimerObject function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCancelTimerObject function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

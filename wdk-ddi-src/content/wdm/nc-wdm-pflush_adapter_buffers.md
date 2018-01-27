@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cd6cf9af-c600-465c-b8f3-ca0f972780a5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+ms.keywords: kernel.flushadapterbuffers, FlushAdapterBuffers, FlushAdapterBuffers callback function [Kernel-Mode Driver Architecture], FlushAdapterBuffers, PFLUSH_ADAPTER_BUFFERS, PFLUSH_ADAPTER_BUFFERS, wdm/FlushAdapterBuffers, kdma_97ac2c04-7f7e-495d-b846-d4f0ea27bdac.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FlushAdapterBuffers
-req.alt-loc: wdm.h
 req.ddi-compliance: IrqlDispatch
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	wdm.h
+apiname: 
+-	FlushAdapterBuffers
+product: Windows
+targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PFLUSH_ADAPTER_BUFFERS callback
 
 
-
 ## -description
+
+
 The <b>FlushAdapterBuffers</b> routine flushes any data remaining in the system DMA controller's internal cache or in a bus-master adapter's internal cache at the end of a DMA transfer operation.
 
 
-
 ## -prototype
+
 
 ````
 PFLUSH_ADAPTER_BUFFERS FlushAdapterBuffers;
@@ -62,6 +72,9 @@ BOOLEAN FlushAdapterBuffers(
 
 
 ## -parameters
+
+
+
 
 ### -param DmaAdapter [in]
 
@@ -94,10 +107,15 @@ Specifies the direction of the DMA transfer operation: <b>TRUE</b> for a transfe
 
 
 ## -returns
+
+
 <b>FlushAdapterBuffers</b> returns <b>TRUE</b> if any data remaining in the DMA controller's or bus-master adapter's internal cache has been successfully flushed into system memory or out to the device.
 
 
+
 ## -remarks
+
+
 <b>FlushAdapterBuffers</b>
            is not a system routine that can be called directly by name. This routine is callable only by pointer from the address returned in a 
           <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
@@ -108,30 +126,23 @@ To ensure that a DMA transfer is complete, every driver that performs DMA operat
 A driver can get the initial <i>CurrentVa</i> for the start of a packet-based DMA transfer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>. However, the value returned is an index into the <i>Mdl</i>, rather than a valid virtual address. If the driver must split a large transfer request into more than one DMA operation, it must update <i>CurrentVa</i> and <i>Length</i> for each DMA operation. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
+
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+
+<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
+
 <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+
  
 
  

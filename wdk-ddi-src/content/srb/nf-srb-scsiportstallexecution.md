@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b033cfe-9649-4993-b348-6c9af2d0f4bc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortStallExecution
+ms.keywords: srb/ScsiPortStallExecution, ScsiPortStallExecution, storage.scsiportstallexecution, scsiprt_563a19de-adda-4461-9eb2-4c97a2c4f179.xml, ScsiPortStallExecution routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ScsiPortStallExecution
-req.alt-loc: Scsiport.lib,Scsiport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Scsiport.lib
+-	Scsiport.dll
+apiname: 
+-	ScsiPortStallExecution
+product: Windows
+targetos: Windows
 req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ScsiPortStallExecution function
 
 
-
 ## -description
+
+
 The <b>ScsiPortStallExecution</b> routine stalls in the miniport driver.
-
-
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 VOID ScsiPortStallExecution(
@@ -55,16 +66,24 @@ VOID ScsiPortStallExecution(
 
 ## -parameters
 
+
+
+
 ### -param Delay [in]
 
 Specifies the delay interval in microseconds. The given value must be less than a full millisecond.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>ScsiPortStallExecution</b> should be called as seldom as possible and the total stall time in a miniport driver routine must be less than one millisecond. This call ties up a processor, doing no useful work while stalling in the driver.
 
 In general, a miniport driver should call <b>ScsiPortStallExecution</b> only if the driver must wait for a state change on the HBA that cannot cause an interrupt, or if the driver must delay for a very short interval between accesses to the HBA.
@@ -74,24 +93,19 @@ If a miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardw
 A miniport driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff557327">HwScsiTimer</a> routine also can be passed in calls to <b>ScsiPortNotification</b> with a specified interval that is not limited to one millisecond.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557327">HwScsiTimer</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557288">HwScsiDisableInterruptsCallback</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557295">HwScsiEnableInterruptsCallback</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557312">HwScsiInterrupt</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557327">HwScsiTimer</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557295">HwScsiEnableInterruptsCallback</a>
+
 <a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557288">HwScsiDisableInterruptsCallback</a>
+
  
 
  

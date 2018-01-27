@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 3b40d780-8084-4c19-bb8e-9d1ab3dadc95
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SRIOV_PNP_EVENT_COMPLETE, SRIOV_PNP_EVENT_COMPLETE, *PSRIOV_PNP_EVENT_COMPLETE
+ms.keywords: SRIOV_PNP_EVENT_COMPLETE, SRIOV_PNP_EVENT_COMPLETE structure [Buses], _SRIOV_PNP_EVENT_COMPLETE, *PSRIOV_PNP_EVENT_COMPLETE, pcivirt/SRIOV_PNP_EVENT_COMPLETE, PCI.sriov_pnp_event_complete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SRIOV_PNP_EVENT_COMPLETE
-req.alt-loc: Pcivirt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: SRIOV_PNP_EVENT_COMPLETE, *PSRIOV_PNP_EVENT_COMPLETE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Pcivirt.h
+apiname: 
+-	SRIOV_PNP_EVENT_COMPLETE
+product: Windows
+targetos: Windows
+req.typenames: *PSRIOV_PNP_EVENT_COMPLETE, SRIOV_PNP_EVENT_COMPLETE
 ---
 
 # _SRIOV_PNP_EVENT_COMPLETE structure
 
 
-
 ## -description
+
+
 Stores the status for an event that the SR-IOV Physical Function (PF) driver should set for Plug and Play even completion. This structure is used in the input buffer of the <a href="https://msdn.microsoft.com/5299ec17-1fcb-4449-9ec4-73a4d818df0d">IOCTL_SRIOV_EVENT_COMPLETE</a> request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SRIOV_PNP_EVENT_COMPLETE {
@@ -54,20 +64,18 @@ typedef struct _SRIOV_PNP_EVENT_COMPLETE {
 
 ## -struct-fields
 
+
+
+
 ### -field QueryStatus
 
 Indicates the status to be returned in the PnP query IRP that is currently pended in the PF driver.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/5299ec17-1fcb-4449-9ec4-73a4d818df0d">IOCTL_SRIOV_EVENT_COMPLETE</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 834d5ee3-b28b-4d75-b0b7-be1f36ace8aa
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest, IWDFIoRequest::GetIoQueue, GetIoQueue
+ms.keywords: GetIoQueue method, GetIoQueue, IWDFIoRequest interface, GetIoQueue method, UMDFRequestObjectRef_1e603d95-06ae-45a8-ab4d-3592d6e140bf.xml, IWDFIoRequest, GetIoQueue method, IWDFIoRequest interface, umdf.iwdfiorequest_getioqueue, wudfddi/IWDFIoRequest::GetIoQueue, wdf.iwdfiorequest_getioqueue, IWDFIoRequest::GetIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.5
-req.alt-api: IWDFIoRequest.GetIoQueue
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFIoRequest.GetIoQueue
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IWDFIoRequest::GetIoQueue method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetIoQueue</b> method retrieves the I/O queue object that is associated with an I/O request.
 
 
-
 ## -syntax
+
 
 ````
 void GetIoQueue(
@@ -57,27 +67,27 @@ void GetIoQueue(
 
 ## -parameters
 
+
+
+
 ### -param ppWdfIoQueue [out]
 
 A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the I/O queue object that the I/O request is associated with.
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-</dt>
-<dt>
+
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-</dt>
-</dl>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
  
 
  

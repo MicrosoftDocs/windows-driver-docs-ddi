@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 18692c0d-8b74-495d-b66a-2873837ff797
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoWMIDeviceObjectToInstanceName
+ms.keywords: k104_9341dc2b-c948-44bd-891d-a530a8676259.xml, kernel.iowmideviceobjecttoinstancename, IoWMIDeviceObjectToInstanceName, IoWMIDeviceObjectToInstanceName routine [Kernel-Mode Driver Architecture], wdm/IoWMIDeviceObjectToInstanceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of the Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoWMIDeviceObjectToInstanceName
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoWMIDeviceObjectToInstanceName
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoWMIDeviceObjectToInstanceName function
 
 
-
 ## -description
+
+
 The <b>IoWMIDeviceObjectToInstanceName</b> routine determines the instance name for the WMI class instance implemented by the driver that is specified by a device object.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS IoWMIDeviceObjectToInstanceName(
@@ -56,6 +66,9 @@ NTSTATUS IoWMIDeviceObjectToInstanceName(
 
 
 ## -parameters
+
+
+
 
 ### -param DataBlockObject [in]
 
@@ -73,32 +86,48 @@ Pointer to the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING
 
 
 ## -returns
+
+
 The routine returns an NTSTATUS code. Possible return values include:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The operation succeeded. The routine stores the instance name in the <b>UNICODE_STRING</b> specified by the <i>InstanceName</i> parameter.
+</dl>
+</td>
+<td width="60%">
+The operation succeeded. The routine stores the instance name in the <b>UNICODE_STRING</b> specified by the <i>InstanceName</i> parameter.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_WMI_INSTANCE_NOT_FOUND</b></dt>
-</dl>The driver does not implement any instances of the WMI class specified by <i>DataBlockObject</i>.
+</dl>
+</td>
+<td width="60%">
+The driver does not implement any instances of the WMI class specified by <i>DataBlockObject</i>.
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iowmihandletoinstancename.md">IoWMIHandleToInstanceName</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
  
 
  

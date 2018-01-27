@@ -7,8 +7,8 @@ old-location: netvista\dot11_diversity_support.htm
 old-project: netvista
 ms.assetid: 64eeb1bf-c18a-4dfa-b6ea-438d9e10fe4a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _DOT11_DIVERSITY_SUPPORT, *PDOT11_DIVERSITY_SUPPORT, DOT11_DIVERSITY_SUPPORT
+ms.date: 1/18/2018
+ms.keywords: windot11/dot11_diversity_support_fixedlist, dot11_diversity_support_notsupported, windot11/dot11_diversity_support_unknown, PDOT11_DIVERSITY_SUPPORT enumeration pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_DIVERSITY_SUPPORT, DOT11_DIVERSITY_SUPPORT enumeration [Network Drivers Starting with Windows Vista], DOT11_DIVERSITY_SUPPORT, Native_802.11_data_types_29b0e3d8-450c-4d41-817b-ba83cc912168.xml, windot11/dot11_diversity_support_notsupported, windot11/dot11_diversity_support_dynamic, dot11_diversity_support_unknown, _DOT11_DIVERSITY_SUPPORT, dot11_diversity_support_dynamic, windot11/PDOT11_DIVERSITY_SUPPORT, netvista.dot11_diversity_support, dot11_diversity_support_fixedlist, PDOT11_DIVERSITY_SUPPORT, *PDOT11_DIVERSITY_SUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DOT11_DIVERSITY_SUPPORT
-req.alt-loc: windot11.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	windot11.h
+apiname: 
+-	DOT11_DIVERSITY_SUPPORT
+product: Windows
+targetos: Windows
 req.typenames: *PDOT11_DIVERSITY_SUPPORT, DOT11_DIVERSITY_SUPPORT
 req.product: Windows 10 or later.
 ---
@@ -38,10 +47,15 @@ req.product: Windows 10 or later.
 # _DOT11_DIVERSITY_SUPPORT enumeration
 
 
-
 ## -description
 
+
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_DIVERSITY_SUPPORT enumeration specifies the type of antenna diversity supported by a PHY on
+  the 802.11 station.
+
+
 ## -syntax
+
 
 ````
 typedef enum _DOT11_DIVERSITY_SUPPORT { 
@@ -55,6 +69,9 @@ typedef enum _DOT11_DIVERSITY_SUPPORT {
 
 ## -enum-fields
 
+
+
+
 ### -field dot11_diversity_support_unknown
 
 An uninitialized or unknown diversity support type.
@@ -65,8 +82,8 @@ An uninitialized or unknown diversity support type.
 The PHY supports antenna diversity that is performed over the fixed list of antennas defined in
      the 
      <b>dot11DiversitySelectionRx</b> MIB object. For more information about this MIB object, see 
-     <a href="netvista.oid_dot11_diversity_selection_rx">
-     OID_DOT11_DIVERSITY_SELECTION_RX</a>.
+     <mshelp:link keywords="netvista.oid_dot11_diversity_selection_rx" tabindex="0">
+     OID_DOT11_DIVERSITY_SELECTION_RX</mshelp:link>.
 
 
 ### -field dot11_diversity_support_notsupported
@@ -81,19 +98,14 @@ The PHY supports antenna diversity and the dynamic control of diversity. The PHY
      <b>dot11DiversitySelectionRx</b> MIB object
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="netvista.oid_dot11_diversity_selection_rx">
-   OID_DOT11_DIVERSITY_SELECTION_RX</a>
-</dt>
-</dl>
- 
+
+<mshelp:link keywords="netvista.oid_dot11_diversity_selection_rx" tabindex="0">
+   OID_DOT11_DIVERSITY_SELECTION_RX</mshelp:link>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_DIVERSITY_SUPPORT enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_DIVERSITY_SUPPORT enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

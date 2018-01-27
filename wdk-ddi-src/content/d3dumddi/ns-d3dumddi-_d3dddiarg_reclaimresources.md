@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 58e8738c-b10a-4c93-b179-03efcb65412d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES
+ms.keywords: _D3DDDIARG_RECLAIMRESOURCES, d3dumddi/D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES structure [Display Devices], display.d3dddiarg_reclaimresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_RECLAIMRESOURCES
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	D3DDDIARG_RECLAIMRESOURCES
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_RECLAIMRESOURCES
 ---
 
 # _D3DDDIARG_RECLAIMRESOURCES structure
 
 
-
 ## -description
+
+
 Describes video memory resources that are to be reclaimed and that the user-mode display driver  previously offered  for reuse. Used with the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimresources.md">ReclaimResources</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_RECLAIMRESOURCES {
@@ -55,6 +65,9 @@ typedef struct _D3DDDIARG_RECLAIMRESOURCES {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pResources
 
@@ -77,18 +90,12 @@ If <b>pDiscarded</b> is <b>NULL</b>, the driver can ignore it.
 [in] The number of elements in the arrays pointed to by <b>pResources</b> and <b>pDiscarded</b>.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimresources.md">ReclaimResources</a>
-</dt>
-</dl>
+
  
 
  

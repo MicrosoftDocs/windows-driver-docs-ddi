@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b6d89426-54d3-4f90-8687-c60e515b4d62
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_DEVICE_DESCRIPTOR, DXGK_DEVICE_DESCRIPTOR, *PDXGK_DEVICE_DESCRIPTOR
+ms.keywords: _DXGK_DEVICE_DESCRIPTOR, *PDXGK_DEVICE_DESCRIPTOR, dispmprt/PDXGK_DEVICE_DESCRIPTOR, DXGK_DEVICE_DESCRIPTOR, DmStructs_d66c7175-e264-49f4-94ce-f4a92a678010.xml, PDXGK_DEVICE_DESCRIPTOR structure pointer [Display Devices], display.dxgk_device_descriptor, PDXGK_DEVICE_DESCRIPTOR, dispmprt/DXGK_DEVICE_DESCRIPTOR, DXGK_DEVICE_DESCRIPTOR structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_DEVICE_DESCRIPTOR
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: DXGK_DEVICE_DESCRIPTOR, *PDXGK_DEVICE_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DXGK_DEVICE_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: *PDXGK_DEVICE_DESCRIPTOR, DXGK_DEVICE_DESCRIPTOR
 ---
 
 # _DXGK_DEVICE_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The DXGK_DEVICE_DESCRIPTOR structure is used by the display port driver to request that the display miniport driver return all or a portion of a monitor's Extended Display Identification Data (EDID).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_DEVICE_DESCRIPTOR {
@@ -55,6 +65,9 @@ typedef struct _DXGK_DEVICE_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DescriptorOffset
 
@@ -72,21 +85,20 @@ A pointer to a buffer that receives all or a portion of the monitor's EDID. This
 
 
 ## -remarks
+
+
 The display port driver passes a DXGK_DEVICE_DESCRIPTOR structure to <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a> to request that the display miniport driver return all or a portion of a monitor's EDID. The desired portion of the EDID is specified by the <b>DescriptorOffset</b> and <b>DescriptorLength</b> members. For example, to request 256 bytes, starting at an offset of 128 bytes into a monitor's EDID, the display port driver would set <b>DescriptorOffset</b> to 128, and <b>DescriptorLength</b> to 256.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\ns-dispmprt-_dxgk_generic_descriptor.md">DXGK_GENERIC_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a>
-</dt>
-</dl>
+
  
 
  

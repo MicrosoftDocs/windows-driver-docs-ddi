@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e516758d-d1fe-4977-93bb-f427972fdd3c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlLogCcFlushError
+ms.keywords: ifsk.fsrtllogccflusherror, FsRtlLogCcFlushError, fsrtlref_5e72d84c-d788-4b6d-b5fe-3e9b06b0e074.xml, ntifs/FsRtlLogCcFlushError, FsRtlLogCcFlushError routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlLogCcFlushError
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlLogCcFlushError
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlLogCcFlushError function
 
 
-
 ## -description
+
+
 The <b>FsRtlLogCcFlushError</b> routine logs a lost delayed-write error and displays a dialog box to the user.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlLogCcFlushError(
@@ -57,6 +67,9 @@ NTSTATUS FsRtlLogCcFlushError(
 
 
 ## -parameters
+
+
+
 
 ### -param FileName [in]
 
@@ -81,7 +94,6 @@ The error returned by the call to <a href="..\ntifs\nf-ntifs-ccflushcache.md">Cc
 ### -param Flags [in]
 
 A value of 0 or a bitwise combination of one or more of the following flags:
-
 <table>
 <tr>
 <th>Flag</th>
@@ -107,36 +119,37 @@ Suppresses generation of a system error log entry.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 The <b>FsRtlLogCcFlushError</b> routine returns STATUS_SUCCESS on success or another NTSTATUS value, such as STATUS_INSUFFICIENT_RESOURCES.
 
 
+
 ## -remarks
-Unless the call includes appropriate <i>Flags</i>, the <b>FsRtlLogCcFlushError</b> routine uses <a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a> to display a dialog box to the user, including the specific error and <i>FileName</i>, and uses <a href="..\ntifs\nf-ntifs-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a> logs the error. 
+
+
+Unless the call includes appropriate <i>Flags</i>, the <b>FsRtlLogCcFlushError</b> routine uses <a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a> to display a dialog box to the user, including the specific error and <i>FileName</i>, and uses <a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a> logs the error. 
 
 If the entire <i>FileName</i> cannot fit within the log buffer, the routine inserts an ellipsis into the file name.
 
 If the cache still has pages that have been modified, the error is not fatal. The routine returns to the caller without logging an error or displaying the dialog box. 
 
-If the error is fatal, the routine increments the lost delayed write counter in the processor control block (<a href="wdkgloss.p#wdkgloss.prcb#wdkgloss.prcb"><i>PRCB</i></a>). This counter can be used in troubleshooting lost delayed write errors.
+If the error is fatal, the routine increments the lost delayed write counter in the processor control block (<a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PRCB</a>). This counter can be used in troubleshooting lost delayed write errors.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
+<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
+
 <a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
-</dt>
-</dl>
+
  
 
  

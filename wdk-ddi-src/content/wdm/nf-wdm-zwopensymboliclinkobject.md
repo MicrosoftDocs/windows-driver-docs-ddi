@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1b5b9410-1243-4fd4-b02a-fc262abf18c7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwOpenSymbolicLinkObject
+ms.keywords: kernel.zwopensymboliclinkobject, wdm/ZwOpenSymbolicLinkObject, NtOpenSymbolicLinkObject, ZwOpenSymbolicLinkObject routine [Kernel-Mode Driver Architecture], k111_8f2ddd22-26d2-438f-8335-fcc261735592.xml, ZwOpenSymbolicLinkObject, wdm/NtOpenSymbolicLinkObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwOpenSymbolicLinkObject,NtOpenSymbolicLinkObject
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ZwOpenSymbolicLinkObject
+-	NtOpenSymbolicLinkObject
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ZwOpenSymbolicLinkObject function
 
 
-
 ## -description
+
+
 The <b>ZwOpenSymbolicLinkObject</b> routine opens an existing symbolic link.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ZwOpenSymbolicLinkObject(
@@ -56,6 +67,9 @@ NTSTATUS ZwOpenSymbolicLinkObject(
 
 
 ## -parameters
+
+
+
 
 ### -param LinkHandle [out]
 
@@ -73,34 +87,34 @@ Pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRI
 
 
 ## -returns
+
+
 <b>ZwOpenSymbolicLinkObject</b> returns STATUS_SUCCESS on success or the appropriate error status.
 
 
+
 ## -remarks
+
+
 Once the handle pointed to by <i>LinkHandle</i> is no longer in use, the driver must call <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> to close it.
 
 If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557758">Object Handles</a>. 
-
-<b>NtOpenSymbolicLinkObject</b> and <b>ZwOpenSymbolicLinkObject</b> are two versions of the same Windows Native System Services routine. The <b>NtOpenSymbolicLinkObject</b> routine in the Windows kernel is not directly accessible to kernel-mode drivers. However, kernel-mode drivers can access this routine indirectly by calling the <b>ZwOpenSymbolicLinkObject</b> routine.
+<div class="alert"><b>Note</b>  If the call to the <b>ZwOpenSymbolicLinkObject</b> function occurs in user mode, you should use the name "NtOpenSymbolicLinkObject" instead of "<b>ZwOpenSymbolicLinkObject</b>". </div><div> </div><b>NtOpenSymbolicLinkObject</b> and <b>ZwOpenSymbolicLinkObject</b> are two versions of the same Windows Native System Services routine. The <b>NtOpenSymbolicLinkObject</b> routine in the Windows kernel is not directly accessible to kernel-mode drivers. However, kernel-mode drivers can access this routine indirectly by calling the <b>ZwOpenSymbolicLinkObject</b> routine.
 
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwquerysymboliclinkobject.md">ZwQuerySymbolicLinkObject</a>
-</dt>
-</dl>
+
  
 
  

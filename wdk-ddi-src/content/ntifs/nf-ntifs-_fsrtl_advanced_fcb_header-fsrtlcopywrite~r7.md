@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: badff1ac-ccb2-418d-94be-c30d323f0464
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlCopyWrite
+ms.keywords: FsRtlCopyWrite routine [Installable File System Drivers], FsRtlCopyWrite, fsrtlref_4c9bfba8-1946-430f-b242-7228394923de.xml, ifsk.fsrtlcopywrite, ntifs/FsRtlCopyWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlCopyWrite
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlCopyWrite
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlCopyWrite function
 
 
-
 ## -description
+
+
 The <b>FsRtlCopyWrite</b> routine copies data from a user buffer to a cached file.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlCopyWrite(
@@ -60,6 +70,9 @@ BOOLEAN FsRtlCopyWrite(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -102,28 +115,39 @@ A pointer to the device object for the mounted volume that holds the file data.
 
 
 ## -returns
+
+
 <b>FsRtlCopyWrite</b>
       returns <b>TRUE</b> if the copy request was completed, <b>FALSE</b> otherwise. Note that a return value of <b>TRUE</b> does not necessarily mean that the copy operation was successful. 
 
 If <b>FsRtlCopyWrite</b> returns <b>FALSE</b>, or if the contents of <i>IoStatus</i> indicate that the copy operation failed, the caller must allocate a write IRP instead of calling <b>FsRtlCopyWrite</b>.
 
 
-## -remarks
-Rather than implementing a file-system-specific fast I/O write routine, developers of file systems that support file caching should consider using <b>FsRtlCopyWrite</b> as the file system's entry point for processing fast I/O write requests. This requires that the file system's <b>DriverEntry</b> routine set the FastIoWrite entry point to <b>FsRtlCopyWrite</b> in the FAST_IO_DISPATCH structure of the file system driver object. In addition, the file system must do the following:
 
+## -remarks
+
+
+Rather than implementing a file-system-specific fast I/O write routine, developers of file systems that support file caching should consider using <b>FsRtlCopyWrite</b> as the file system's entry point for processing fast I/O write requests. This requires that the file system's <b>DriverEntry</b> routine set the FastIoWrite entry point to <b>FsRtlCopyWrite</b> in the FAST_IO_DISPATCH structure of the file system driver object. In addition, the file system must do the following:
+<ol>
+<li>
 For each file on which fast I/O might be performed, the file system must allocate and initialize an FSRTL_COMMON_FCB_HEADER structure. 
 
 In most file systems, this is accomplished by including the FSRTL_COMMON_FCB_HEADER structure in a file control block (FCB) or comparable structure that is used to maintain the state of an open file.
 
 Storage for the FSRTL_COMMON_FCB_HEADER structure is typically allocated from paged pool. 
 
+</li>
+<li>
 For each file on which fast I/O might be performed, the file system must link any file objects for the file to the FSRTL_COMMON_FCB_HEADER structure. This is done by setting each file object's <b>FsContext</b> member to point to this structure (or to the FCB or other structure that contains the FSRTL_COMMON_FCB_HEADER structure). 
 
+</li>
+<li>
 When caching a file, the file system must set the <b>IsFastIoPossible</b> member of the file's FSRTL_COMMON_FCB_HEADER structure to an appropriate value. This value should be updated as needed for as long as the file remains cached.
 
 In particular, file systems should set the <b>IsFastIoPossible</b> member of the FSRTL_COMMON_FCB_HEADER structure to <b>FastIoIsQuestionable</b> as soon as any exclusive byte range lock on the cached file exists.
 
-If <i>Wait</i> is <b>TRUE</b>, <b>FsRtlCopyWrite</b> is guaranteed to copy the data and return <b>TRUE</b>. If the required pages of the cached file are already resident in memory, the data will be copied immediately and no blocking will occur. If any needed pages are not resident, the caller will be put into a wait state until all required pages have been made resident and the data can be copied.
+</li>
+</ol>If <i>Wait</i> is <b>TRUE</b>, <b>FsRtlCopyWrite</b> is guaranteed to copy the data and return <b>TRUE</b>. If the required pages of the cached file are already resident in memory, the data will be copied immediately and no blocking will occur. If any needed pages are not resident, the caller will be put into a wait state until all required pages have been made resident and the data can be copied.
 
 If <i>Wait</i> is <b>FALSE</b>, <b>FsRtlCopyWrite</b> will refuse to block, and will return <b>FALSE</b>, if it cannot acquire the file's main resource or if the required pages of the cached file are not already resident in memory.
 
@@ -132,18 +156,15 @@ The file system's <b>FastIoCheckIfPossible</b> routine is responsible for ensuri
 To cache a file, use the <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a> routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopyread~r7.md">FsRtlCopyRead</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforwrite~r5.md">FsRtlFastCheckLockForWrite</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopyread~r7.md">FsRtlCopyRead</a>
+
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: AC65F790-981F-4B50-BB9E-84F79D8F6C4F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_CONTEXTINFO_CAPS, DXGK_CONTEXTINFO_CAPS
+ms.keywords: DXGK_CONTEXTINFO_CAPS, d3dkmddi/DXGK_CONTEXTINFO_CAPS, _DXGK_CONTEXTINFO_CAPS, display.dxgk_contextinfo_caps, DXGK_CONTEXTINFO_CAPS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_CONTEXTINFO_CAPS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_CONTEXTINFO_CAPS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_CONTEXTINFO_CAPS
 ---
 
 # _DXGK_CONTEXTINFO_CAPS structure
 
 
-
 ## -description
+
+
 <b>DXGK_CONTEXTINFO_CAPS</b> is used to describe  the capabilities supported by a driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_CONTEXTINFO_CAPS {
@@ -61,6 +71,9 @@ typedef struct _DXGK_CONTEXTINFO_CAPS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NoPatchingRequired
 
@@ -86,5 +99,3 @@ This field is reserved and should not be used.
 
 The consolidated value of the structure.
 
-
-## -remarks

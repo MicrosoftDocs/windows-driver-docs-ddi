@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e8b0a1c0-c018-4556-b43c-fae4f7cf43de
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsPin, IKsPin::KsQueryInterfaces, KsQueryInterfaces
+ms.keywords: IKsPin interface [Streaming Media Devices], KsQueryInterfaces method, stream.ikspin_ksqueryinterfaces, IKsPin::KsQueryInterfaces, KsQueryInterfaces, KsQueryInterfaces method [Streaming Media Devices], ksproxy/IKsPin::KsQueryInterfaces, ksproxy_6a22f676-b7bd-4212-a79a-3a02da890e9f.xml, IKsPin, KsQueryInterfaces method [Streaming Media Devices], IKsPin interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsPin.KsQueryInterfaces
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ksproxy.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsPin.KsQueryInterfaces
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsPin::KsQueryInterfaces method
 
 
-
 ## -description
+
+
 The <b>KsQueryInterfaces</b> method retrieves interfaces that a pin supports. 
 
 
-
 ## -syntax
+
 
 ````
 HRESULT KsQueryInterfaces(
@@ -54,28 +64,34 @@ HRESULT KsQueryInterfaces(
 
 ## -parameters
 
+
+
+
 ### -param InterfaceList [out]
 
 Pointer to a buffer that receives a pointer to a <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a> structure, followed by a sequence of <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a> structures that describe interface types. The KSMULTIPLE_ITEM structure is a header that describes the size of the buffer and the number of entries in the list that follows the header.
 
 
 ## -returns
+
+
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
+
 ## -remarks
+
+
 The returned interfaces are ordered by preference. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: edc0472c-d222-49f5-9d26-6b7e8c032031
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING, DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING
+ms.keywords: _DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING, DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING, d3dkmdt/DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING, display.dxgkmdt_opm_acp_and_cgmsa_signaling, DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING structure [Display Devices], DmStructs_0d89c3c0-96f1-4b88-8c79-a33ad8246e4a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING
+product: Windows
+targetos: Windows
 req.typenames: DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING
 ---
 
 # _DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING structure
 
 
-
 ## -description
+
+
 The DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING structure describes how the signal that goes through the physical connector that is associated with the protected output object is protected.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING {
@@ -65,6 +75,9 @@ typedef struct _DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING {
 
 
 ## -struct-fields
+
+
+
 
 ### -field rnRandomNumber
 
@@ -131,21 +144,14 @@ Reserved. Must be set to zero.
 Reserved. Must be set to zero. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
-</dt>
-<dt>
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_status.md">DXGKMDT_OPM_STATUS</a>
-</dt>
-</dl>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
+
  
 
  

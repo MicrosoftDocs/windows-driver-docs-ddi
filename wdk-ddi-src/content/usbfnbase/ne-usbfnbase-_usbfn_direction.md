@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: C6E1FA5A-993C-4212-9428-0B759C09F5DE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBFN_DIRECTION, *PUSBFN_DIRECTION, USBFN_DIRECTION
+ms.keywords: usbfnbase/UsbfnDirectionMinimum, usbfnbase/UsbfnDirectionOut, UsbfnDirectionRx, USBFN_DIRECTION, UsbfnDirectionIn, usbfnbase/UsbfnDirectionIn, UsbfnDirectionTx, *PUSBFN_DIRECTION, usbfnbase/UsbfnDirectionRx, buses.usbfn_direction, UsbfnDirectionOut, usbfnbase/UsbfnDirectionMaximum, usbfnbase/USBFN_DIRECTION, UsbfnDirectionMaximum, UsbfnDirectionMinimum, usbfnbase/UsbfnDirectionTx, _USBFN_DIRECTION, USBFN_DIRECTION enumeration [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBFN_DIRECTION
-req.alt-loc: usbfnbase.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbfnbase.h
+apiname: 
+-	USBFN_DIRECTION
+product: Windows
+targetos: Windows
 req.typenames: *PUSBFN_DIRECTION, USBFN_DIRECTION
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USBFN_DIRECTION enumeration
 
 
-
 ## -description
+
+
 Defines the USB data transfer direction types.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _USBFN_DIRECTION { 
@@ -59,6 +69,9 @@ typedef enum _USBFN_DIRECTION {
 
 
 ## -enum-fields
+
+
+
 
 ### -field UsbfnDirectionMinimum
 
@@ -89,5 +102,3 @@ The bus transfer is from the host to the device.
 
 The maximum value in this enumeration.
 
-
-## -remarks

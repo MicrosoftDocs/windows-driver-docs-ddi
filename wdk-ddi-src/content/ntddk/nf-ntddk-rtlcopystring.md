@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5295be15-b42e-4e5b-8257-434fb9ed6c83
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCopyString
+ms.keywords: RtlCopyString routine [Kernel-Mode Driver Architecture], ntddk/RtlCopyString, RtlCopyString, k109_c68983f1-ec02-405f-a3a6-d1f3884fe303.xml, kernel.rtlcopystring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlCopyString
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (See Remarks section)
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlCopyString
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # RtlCopyString function
 
 
-
 ## -description
+
+
 The <b>RtlCopyString</b> routine copies a source string to a destination string.
 
 
-
 ## -syntax
+
 
 ````
 VOID RtlCopyString(
@@ -54,6 +64,9 @@ VOID RtlCopyString(
 
 
 ## -parameters
+
+
+
 
 ### -param DestinationString [out]
 
@@ -66,10 +79,15 @@ A pointer to the source string buffer.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The<i> DestinationString </i><b>Length</b> is set to zero if no source string is supplied. The <b>MaximumLength</b> and <b>Buffer</b> members of the <i>DestinationString</i> are not modified by this routine.
 
 The number of bytes copied from the <i>SourceString</i> is either the length of <i>SourceString</i> or the maximum length of <i>DestinationString</i>, whichever is smaller. 
@@ -77,12 +95,11 @@ The number of bytes copied from the <i>SourceString</i> is either the length of 
 The <i>DestinationString</i> and <i>SourceString</i> buffers must be resident if the caller is running at IRQL &gt;= DISPATCH_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlcopyunicodestring.md">RtlCopyUnicodeString</a>
-</dt>
-</dl>
+
  
 
  

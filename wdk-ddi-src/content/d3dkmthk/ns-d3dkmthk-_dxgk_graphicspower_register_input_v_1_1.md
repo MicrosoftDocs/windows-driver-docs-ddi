@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5b120f3c-43d2-447a-9959-0788d7decf50
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, DXGK_GRAPHICSPOWER_REGISTER_INPUT, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT
+ms.keywords: PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1 structure pointer [Display Devices], DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1 structure [Display Devices], d3dkmthk/DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, display.dxgk-graphicspower-register-input-v-1-1, DXGK_GRAPHICSPOWER_REGISTER_INPUT, d3dkmthk/PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT, DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1
+product: Windows
+targetos: Windows
 req.typenames: DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1
 ---
 
 # _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1 structure
 
 
-
 ## -description
+
+
 Used to register the power state of a new input.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1 {
@@ -57,6 +67,9 @@ typedef struct _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -82,5 +95,3 @@ Issues a removal notification.
 
 Issues a state notification.
 
-
-## -remarks

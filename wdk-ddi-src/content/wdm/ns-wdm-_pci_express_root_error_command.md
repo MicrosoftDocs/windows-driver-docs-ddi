@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 659c0612-5623-4615-b9c5-6d2656097b89
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _PCI_EXPRESS_ROOT_ERROR_COMMAND, *PPCI_EXPRESS_ROOT_ERROR_COMMAND, PCI_EXPRESS_ROOT_ERROR_COMMAND
+ms.keywords: *PPCI_EXPRESS_ROOT_ERROR_COMMAND, PCI_EXPRESS_ROOT_ERROR_COMMAND union [Buses], PPCI_EXPRESS_ROOT_ERROR_COMMAND, wdm/PPCI_EXPRESS_ROOT_ERROR_COMMAND, pci_struct_f7834746-d8b5-4765-8434-8f7837a47871.xml, PCI_EXPRESS_ROOT_ERROR_COMMAND, PCI.pci_express_root_error_command, PPCI_EXPRESS_ROOT_ERROR_COMMAND union pointer [Buses], _PCI_EXPRESS_ROOT_ERROR_COMMAND, wdm/PCI_EXPRESS_ROOT_ERROR_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PCI_EXPRESS_ROOT_ERROR_COMMAND
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	PCI_EXPRESS_ROOT_ERROR_COMMAND
+product: Windows
+targetos: Windows
 req.typenames: *PPCI_EXPRESS_ROOT_ERROR_COMMAND, PCI_EXPRESS_ROOT_ERROR_COMMAND
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _PCI_EXPRESS_ROOT_ERROR_COMMAND structure
 
 
-
 ## -description
+
+
 The PCI_EXPRESS_ROOT_ERROR_COMMAND structure describes a PCI Express (PCIe) root error command register of a PCIe advanced error reporting capability structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _PCI_EXPRESS_ROOT_ERROR_COMMAND {
@@ -61,24 +71,32 @@ typedef union _PCI_EXPRESS_ROOT_ERROR_COMMAND {
 
 ## -struct-fields
 
-### -field CorrectableErrorReportingEnable
-
-A single bit that indicates that interrupts are enabled for when a correctable error is reported by any of the devices in the hierarchy that are associated with this root port.
 
 
-### -field NonFatalErrorReportingEnable
 
-A single bit that indicates that interrupts are enabled for when a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port.
+### -field DUMMYSTRUCTNAME
 
-
-### -field FatalErrorReportingEnable
-
-A single bit that indicates that interrupts are enabled for when a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port.
+ 
 
 
-### -field Reserved
+### -field DUMMYSTRUCTNAME.CorrectableErrorReportingEnable
 
-Reserved.
+ 
+
+
+### -field DUMMYSTRUCTNAME.NonFatalErrorReportingEnable
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.FatalErrorReportingEnable
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Reserved
+
+ 
 
 
 ### -field AsULONG
@@ -86,18 +104,39 @@ Reserved.
 A ULONG representation of the contents of the PCI_EXPRESS_ROOT_ERROR_COMMAND structure.
 
 
+#### - Reserved
+
+Reserved.
+
+
+#### - FatalErrorReportingEnable
+
+A single bit that indicates that interrupts are enabled for when a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port.
+
+
+#### - CorrectableErrorReportingEnable
+
+A single bit that indicates that interrupts are enabled for when a correctable error is reported by any of the devices in the hierarchy that are associated with this root port.
+
+
+#### - NonFatalErrorReportingEnable
+
+A single bit that indicates that interrupts are enabled for when a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port.
+
+
 ## -remarks
+
+
 The PCI_EXPRESS_ROOT_ERROR_COMMAND structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_ROOT_ERROR_COMMAND structure is contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
-</dt>
-</dl>
+
  
 
  

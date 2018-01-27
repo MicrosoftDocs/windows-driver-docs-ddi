@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b17fa32e-0a58-4be4-a096-e486471c1cdd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _USB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
+ms.keywords: stream.camconfigure, CamConfigure, CamConfigure callback function [Streaming Media Devices], CamConfigure, PCAM_CONFIGURE_ROUTINE, PCAM_CONFIGURE_ROUTINE, usbcamdi/CamConfigure, usbcmdpr_4953051b-2fb0-4dd4-ac52-67da188ce7e1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CamConfigure
-req.alt-loc: usbcamdi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	usbcamdi.h
+apiname: 
+-	CamConfigure
+product: Windows
+targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
@@ -38,16 +47,17 @@ req.product: Windows 10 or later.
 # PCAM_CONFIGURE_ROUTINE callback
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[CamConfigure is not supported and may be altered or unavailable in the future. Instead, use <a href="..\usbcamdi\nc-usbcamdi-pcam_configure_routine_ex.md">CamConfigureEx</a>.
 ]
 
 A camera minidriver's <b>CamConfigure</b> callback function configures the isochronous streaming interface.
 
 
-
 ## -prototype
+
 
 ````
 NTSTATUS CamConfigure(
@@ -63,41 +73,49 @@ NTSTATUS CamConfigure(
 
 ## -parameters
 
-### -param BusDeviceObject 
+
+
+
+### -param BusDeviceObject
 
 Pointer to the camera minidriver's device object created by the USB hub.
 
 
-### -param DeviceContext 
+### -param DeviceContext
 
 Pointer to the camera minidriver's device context.
 
 
-### -param Interface 
+### -param Interface
 
 Pointer to a <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a> structure initialized with the proper values for a SELECT_INTERFACE URB request. This interface structure corresponds to a single isochronous interface on the device.
 
 
-### -param ConfigurationDescriptor 
+### -param ConfigurationDescriptor
 
 Pointer to an initialized <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a> for this device.
 
 
-### -param DataPipeIndex 
+### -param DataPipeIndex
 
 Pointer to a value that indicates the index of the data pipe. The camera minidriver should fill in this value before returning.
 
 
-### -param SyncPipeIndex 
+### -param SyncPipeIndex
 
 Pointer to a value that indicates the index of the sync pipe, if one is needed. The camera minidriver should fill in this value before returning.
 
 
 ## -returns
+
+
 <b>CamConfigure</b> returns STATUS_SUCCESS or an appropriate error code.
 
 
+
 ## -remarks
+
+
 Camera minidrivers that must maintain backward compatibility with the original USBCAMD must use the <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data.md">USBCAMD_DEVICE_DATA</a> structure and its associated callback functions (that is, callback functions that do not contain the "Ex" suffix).
 
 USBCAMD calls the camera minidriver's <b>CamConfigure</b> callback function to configure the isochronous streaming interface. After this function returns, USBCAMD can be notified of which interface and which alternate setting within the USB video streaming interface to use for the idle state.
@@ -105,18 +123,15 @@ USBCAMD calls the camera minidriver's <b>CamConfigure</b> callback function to c
 This function is required.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\usbcamdi\nc-usbcamdi-pcam_configure_routine_ex.md">CamConfigureEx</a>
-</dt>
-<dt>
-<a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
-</dt>
-</dl>
+
+<a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
+
+<a href="..\usbcamdi\nc-usbcamdi-pcam_configure_routine_ex.md">CamConfigureEx</a>
+
  
 
  

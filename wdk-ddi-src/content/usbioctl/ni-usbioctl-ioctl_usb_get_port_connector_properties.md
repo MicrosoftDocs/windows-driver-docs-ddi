@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 23B2A4AF-1255-4332-83A9-EEEB0007B966
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_HUB_TYPE, USB_HUB_TYPE
+ms.keywords: buses.ioctl_usb_get_port_connector_properties, IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control code [Buses], IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES, usbioctl/IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES
-req.alt-loc: Usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Usbioctl.h
+apiname: 
+-	IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES
+product: Windows
+targetos: Windows
 req.typenames: USB_HUB_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,24 +47,29 @@ req.product: Windows 10 or later.
 # IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
-The <b>IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</b> I/O control request is sent by an application to retrieve information about a specific port on a USB hub. 
-
-<b>IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</b> is a user-mode I/O control request. This request targets the Universal Serial Bus (USB) hub device (GUID_DEVINTERFACE_USB_HUB).
-
 
 
 The <b>IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</b> I/O control request is sent by an application to retrieve information about a specific port on a USB hub. 
 
 <b>IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</b> is a user-mode I/O control request. This request targets the Universal Serial Bus (USB) hub device (GUID_DEVINTERFACE_USB_HUB).
+
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 <b>AssociatedIrp.SystemBuffer</b> points to a caller-allocated    <a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a> structure. The caller must set the structure members as follows:<ul>
 <li>
 The caller must specify the port number of the port being queried in the <b>ConnectionIndex</b> member.  <b>ConnectionIndex</b> must be a value in the range of 1 to <i>n</i>, where <i>n</i> is the highest port number retrieved in a previous <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_information_ex.md">IOCTL_USB_GET_HUB_INFORMATION_EX</a> I/O control request.
@@ -70,56 +84,58 @@ The caller can use <b>CompanionIndex</b> to get port numbers associated with the
 </ul>
 
 
-The caller must specify the port number of the port being queried in the <b>ConnectionIndex</b> member.  <b>ConnectionIndex</b> must be a value in the range of 1 to <i>n</i>, where <i>n</i> is the highest port number retrieved in a previous <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_information_ex.md">IOCTL_USB_GET_HUB_INFORMATION_EX</a> I/O control request.
-
-The caller must specify the <b>CompanionIndex</b>  member. For a SuperSpeed hub, the caller must set the <b>CompanionIndex</b>  member to 0. 
-
-The caller can use <b>CompanionIndex</b> to get port numbers associated with the port being queried. If more than one companion port is associated with the port, to get all port numbers, the application can send the request in a loop. Start with <b>CompanionIndex</b>  set to 0 and  increment the <b>CompanionIndex</b> value in each iteration until the request completes with <b>CompanionPortNumber</b> set to 0 and <b>CompanionHubSymbolicLinkName</b> is NULL. 
-
 
 ### -input-buffer-length
+
 The <b>Parameters.DeviceIoControl.InputBufferLength</b> member indicates the size, in bytes, of the caller-allocated buffer pointed to by <b>AssociatedIrp.SystemBuffer</b>. For more information see Remarks. 
 
 
 ### -output-buffer
+
 On output, <a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>, pointed to by  <b>AssociatedIrp.SystemBuffer</b>,  is filled with information about the physical connector associated with the port.
 
 
 ### -output-buffer-length
+
 The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member indicates the size, in bytes, of the output buffer <b>SystemBuffer</b>.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the request is successful. Otherwise, the USB stack sets <b>Status</b> to the appropriate error condition, such as STATUS_INVALID_PARAMETER or STATUS_INSUFFICIENT_RESOURCES. If the hub has not been started or is not functional, the request returns STATUS_UNSUCCESSFUL.
 
 
 ## -remarks
+
+
 The caller must supply a buffer that is large enough to hold a <a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a> structure and  the symbolic link name of a companion hub, if such a hub is associated with the specified port. To obtain the size of the buffer to allocate, the caller must send a <b>IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</b> request. In the request, <b>AssociatedIrp.SystemBuffer</b> must be a caller-allocated <b>USB_PORT_CONNECTOR_PROPERTIES</b> structure and <b>Parameters.DeviceIoControl.InputBufferLength</b> must be  <code>sizeof(USB_PORT_CONNECTOR_PROPERTIES)</code>. Upon successful completion, the <b>ActualLength</b> member of <b>USB_PORT_CONNECTOR_PROPERTIES</b> indicates the actual size of the  buffer. If a symbolic link name exists, the received value includes the size of the string that stores the link name. 
 
 Based on the <b>ActualLength</b> value, the caller can then allocate a buffer and send the  <b>IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</b> request again. After the request completes, the buffer is filled with port information and the <b>CompanionHubSymbolicLinkName</b> member is a Unicode string that contains the symbolic link  name of the companion hub.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
-</dt>
-<dt>
+
 <a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>
-</dt>
-<dt>
+
 <a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
-</dt>
-</dl>
+
  
 
  

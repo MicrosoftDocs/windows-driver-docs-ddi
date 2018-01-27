@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3F95CA04-3CE1-4298-B3B6-5D111AB4F3D3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlLongPtrSub
+ms.keywords: kernel.rtllongptrsub, ntintsafe/RtlLongPtrSub, RtlLongPtrSub function [Kernel-Mode Driver Architecture], RtlLongPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlLongPtrSub
-req.alt-loc: Ntintsafe.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntintsafe.h
+apiname: 
+-	RtlLongPtrSub
+product: Windows
+targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
 
 # RtlLongPtrSub function
 
 
-
 ## -description
+
+
 Subtracts one value of type <b>LONG_PTR</b> from another.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlLongPtrSub(
@@ -55,6 +65,9 @@ NTSTATUS RtlLongPtrSub(
 
 
 ## -parameters
+
+
+
 
 ### -param lMinuend [in]
 
@@ -72,4 +85,8 @@ A pointer to the result. If the operation results in a value that overflows or u
 
 
 ## -remarks
-This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.</p>
+
+
+This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
+

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: FCFCBF4C-CBAA-4284-A6F4-67630608CF19
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SeTokenSetNoChildProcessRestricted
+ms.keywords: SeTokenSetNoChildProcessRestricted, ntifs/SeTokenSetNoChildProcessRestricted, SeTokenSetNoChildProcessRestricted function [Installable File System Drivers], ifsk.setokensetnochildprocessrestricted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10, version 1709.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SeTokenSetNoChildProcessRestricted
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	SeTokenSetNoChildProcessRestricted
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # SeTokenSetNoChildProcessRestricted function
 
 
-
 ## -description
+
+
 The <b>SeTokenSetNoChildProcessRestricted</b> routine sets the <b>TOKEN_AUDIT_NO_CHILD_PROCESS</b> or <b>TOKEN_AUDIT_NO_CHILD_PROCESS</b>
     flags in the token.  
 
 
-
 ## -syntax
+
 
 ````
 void NTKERNELAPI SeTokenSetNoChildProcessRestricted(
@@ -56,6 +66,9 @@ void NTKERNELAPI SeTokenSetNoChildProcessRestricted(
 
 
 ## -parameters
+
+
+
 
 ### -param Token [in]
 
@@ -74,21 +87,25 @@ A pointer to a boolean that indicates if the mitigation should be enabled in
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
+
 ## -remarks
+
+
 Note that both flags cannot be set at the same time
     and it is possible to upgrade from audit-only mode to enforcement
     mode but not vice-versa.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-setokengetnochildprocessrestricted.md">SeTokenGetNoChildProcessRestricted</a>
-</dt>
-</dl>
+
  
 
  

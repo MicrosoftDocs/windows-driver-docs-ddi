@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: bca4bfc6-d44f-4b10-a30a-ba2acefad7a9
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _SCO_DISCONNECT_REASON, SCO_DISCONNECT_REASON, *PSCO_DISCONNECT_REASON
+ms.keywords: bthddi/PSCO_DISCONNECT_REASON, PSCO_DISCONNECT_REASON, ScoHciDisconnect, ScoDisconnectRequest, bth_enums_ea951efc-1250-4414-9592-2bffe239dc95.xml, SCO_DISCONNECT_REASON, PSCO_DISCONNECT_REASON enumeration pointer [Bluetooth Devices], bthddi/ScoHciDisconnect, ScoRadioPoweredDown, bthddi/ScoHardwareRemoval, bthddi/ScoRadioPoweredDown, _SCO_DISCONNECT_REASON, bthddi/ScoDisconnectRequest, ScoHardwareRemoval, bltooth.sco_disconnect_reason, SCO_DISCONNECT_REASON enumeration [Bluetooth Devices], *PSCO_DISCONNECT_REASON, bthddi/SCO_DISCONNECT_REASON
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista and later versio
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SCO_DISCONNECT_REASON
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-req.typenames: SCO_DISCONNECT_REASON, *PSCO_DISCONNECT_REASON
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthddi.h
+apiname: 
+-	SCO_DISCONNECT_REASON
+product: Windows
+targetos: Windows
+req.typenames: *PSCO_DISCONNECT_REASON, SCO_DISCONNECT_REASON
 ---
 
 # _SCO_DISCONNECT_REASON enumeration
 
 
-
 ## -description
+
+
 The SCO_DISCONNECT_REASON enumeration type gives the reason an SCO channel has been
   disconnected.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _SCO_DISCONNECT_REASON { 
@@ -57,6 +67,9 @@ typedef enum _SCO_DISCONNECT_REASON {
 
 
 ## -enum-fields
+
+
+
 
 ### -field ScoHciDisconnect
 
@@ -82,10 +95,12 @@ This value specifies to the profile driver that the local radio has been physica
 
 
 ## -remarks
+
+
 A value from this enumeration is used as the 
     <b>Reason</b> member of the 
-    <a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">
-    SCO_INDICATION_PARAMETERS</a> structure.
+    <mshelp:link keywords="bltooth.sco_indication_parameters" tabindex="0"><b>
+    SCO_INDICATION_PARAMETERS</b></mshelp:link> structure.
 
 Hardware limitations may prevent the Bluetooth driver stack from distinguishing between 
     <b>ScoRadioPoweredDown</b> and 
@@ -96,15 +111,13 @@ Currently,
     <a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">SCO_INDICATION_PARAMETERS</a>
-</dt>
-<dt>
+
 <a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1a4b2708-efe2-47c0-b5b7-4e56f33e0266
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_DEVICE_POWER_CAPABILITIES_INIT
+ms.keywords: DFDeviceObjectGeneralRef_888be612-b20f-427f-a098-e6b0f73f8704.xml, WDF_DEVICE_POWER_CAPABILITIES_INIT function, WDF_DEVICE_POWER_CAPABILITIES_INIT, wdfdevice/WDF_DEVICE_POWER_CAPABILITIES_INIT, wdf.wdf_device_power_capabilities_init, kmdf.wdf_device_power_capabilities_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_DEVICE_POWER_CAPABILITIES_INIT
-req.alt-loc: wdfdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfdevice.h
+apiname: 
+-	WDF_DEVICE_POWER_CAPABILITIES_INIT
+product: Windows
+targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # WDF_DEVICE_POWER_CAPABILITIES_INIT function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_DEVICE_POWER_CAPABILITIES_INIT</b> function initializes a <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 VOID WDF_DEVICE_POWER_CAPABILITIES_INIT(
@@ -57,39 +67,58 @@ VOID WDF_DEVICE_POWER_CAPABILITIES_INIT(
 
 ## -parameters
 
+
+
+
 ### -param Caps [out]
 
 A pointer to a driver-supplied <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a> structure.
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-The <b>WDF_DEVICE_POWER_CAPABILITIES_INIT</b> function zeros the <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a> structure and sets the structure's <b>Size</b> member. Then, it does the following:
 
+## -remarks
+
+
+The <b>WDF_DEVICE_POWER_CAPABILITIES_INIT</b> function zeros the <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a> structure and sets the structure's <b>Size</b> member. Then, it does the following:
+<ul>
+<li>
 Sets the <b>DeviceD1</b> and <b>DeviceD2</b> members to <b>WdfUseDefault</b>.
 
+</li>
+<li>
 Sets the <b>WakeFromD0</b>, <b>WakeFromD1</b>, WakeFromD2, and <b>WakeFromD3</b> members to <b>WdfUseDefault</b>.
 
+</li>
+<li>
 Sets all device states in the <b>DeviceState</b> array to <b>PowerDeviceMaximum</b>.
 
+</li>
+<li>
 Sets the <b>DeviceWake</b> and <b>SystemWake</b> members to <b>PowerDeviceMaximum</b>.
 
+</li>
+<li>
 Sets the <b>D1Latency</b>, <b>D2Latency</b>, and <b>D3Latency</b> members to -1.
 
+</li>
+<li>
 Sets the <b>IdealDxStateForSx</b> member to <b>PowerDeviceMaximum</b>.
 
-For a code example that uses <b>WDF_DEVICE_POWER_CAPABILITIES_INIT</b>, see <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetpowercapabilities.md">WdfDeviceSetPowerCapabilities</a>.
+</li>
+</ul>For a code example that uses <b>WDF_DEVICE_POWER_CAPABILITIES_INIT</b>, see <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetpowercapabilities.md">WdfDeviceSetPowerCapabilities</a>.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\rilimsstatus_v1_2.htm
 old-project: netvista
 ms.assetid: e2abab6d-d9c5-4342-8436-fd05a2a298ef
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILIMSSTATUS_V1, *LPRILIMSSTATUS_V1, RILIMSSTATUS_V1
+ms.date: 1/18/2018
+ms.keywords: rilapitypes/RILIMSSTATUS_V1, netvista.rilimsstatus_v1_2, RILIMSSTATUS_V1, *LPRILIMSSTATUS_V1, RILIMSSTATUS_V1 structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILIMSSTATUS_V1
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILIMSSTATUS_V1
+product: Windows
+targetos: Windows
 req.typenames: *LPRILIMSSTATUS_V1, RILIMSSTATUS_V1
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILIMSSTATUS_V1 structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILIMSSTATUS_V1 {
@@ -60,22 +70,29 @@ typedef struct _RILIMSSTATUS_V1 {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwExecutor
+
 
 
 ### -field hUiccApp
 
 
+
 ### -field dwAvailableServices
+
 
 
 ### -field dwSMSSupportedFormat
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 47C0C369-B31B-4291-A420-A1E75BA990CF
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020, D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020
+ms.keywords: d3d12umddi/D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020, D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020, display.d3d12ddi_video_format_description, D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020
 ---
 
 # D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020 structure
 
 
-
 ## -description
+
+
 Defines the combination of a pixel format and color space for a resource content description.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020 {
@@ -54,6 +64,9 @@ typedef struct D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Format
 
@@ -66,6 +79,8 @@ The color space of the data.  For more information, see the <a href="https://msd
 
 
 ## -remarks
+
+
 Conversions exposed through the decoder must have a hardware advantage compared to a conversion that could be accomplished through the app via a decode and a video process BLT.  This typically means the video hardware write the unconverted reference frame and the converted output (both outputs) without a separate step that reads the unconverted reference frame to produce the converted output.
 
 
@@ -73,15 +88,13 @@ The one exception is that all drivers are required to support a conversion to re
 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI_COLOR_SPACE_TYPE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI_COLOR_SPACE_TYPE</a>
+
  
 
  

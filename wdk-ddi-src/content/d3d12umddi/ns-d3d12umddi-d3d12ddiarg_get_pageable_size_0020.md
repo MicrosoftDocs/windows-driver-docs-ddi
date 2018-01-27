@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 82A5ACBD-EE18-46DF-822B-87ABF331BF44
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDIARG_GET_PAGEABLE_SIZE_0020, D3D12DDIARG_GET_PAGEABLE_SIZE_0020
+ms.keywords: d3d12umddi/D3D12DDIARG_GET_PAGEABLE_SIZE_0020, display.d3d12ddiarg_get_pageable_size, D3D12DDIARG_GET_PAGEABLE_SIZE_0020 structure [Display Devices], D3D12DDIARG_GET_PAGEABLE_SIZE_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDIARG_GET_PAGEABLE_SIZE_0020
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDIARG_GET_PAGEABLE_SIZE_0020
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDIARG_GET_PAGEABLE_SIZE_0020
 ---
 
 # D3D12DDIARG_GET_PAGEABLE_SIZE_0020 structure
 
 
-
 ## -description
+
+
 Specifies information used to get the driver reported size for an array of allocations.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDIARG_GET_PAGEABLE_SIZE_0020 {
@@ -55,6 +65,9 @@ typedef struct D3D12DDIARG_GET_PAGEABLE_SIZE_0020 {
 
 ## -struct-fields
 
+
+
+
 ### -field NumObjects
 
 The number of objects for which to get the pageable size.
@@ -64,5 +77,3 @@ The number of objects for which to get the pageable size.
 
 The array of objects for which to get the pageable size.
 
-
-## -remarks

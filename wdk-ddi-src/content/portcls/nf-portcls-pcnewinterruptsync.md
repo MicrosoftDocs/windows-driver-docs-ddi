@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2455d09a-608e-4529-9c27-ed760c7da675
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcNewInterruptSync
+ms.keywords: PcNewInterruptSync, portcls/PcNewInterruptSync, audio.pcnewinterruptsync, PcNewInterruptSync function [Audio Devices], audpc-routines_97a60c6f-2dc1-48db-982a-996b5ab8d741.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting in  Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PcNewInterruptSync
-req.alt-loc: Portcls.lib,Portcls.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Portcls.lib
+-	Portcls.dll
+apiname: 
+-	PcNewInterruptSync
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # PcNewInterruptSync function
 
 
-
 ## -description
+
+
 The <b>PcNewInterruptSync</b> function creates and initializes an interrupt-synchronization object.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PcNewInterruptSync(
@@ -57,6 +68,9 @@ NTSTATUS PcNewInterruptSync(
 
 
 ## -parameters
+
+
+
 
 ### -param OutInterruptSync [out]
 
@@ -84,41 +98,67 @@ Specifies the way that multiple ISRs are handled. Set this parameter to one of t
 
 
 ## -returns
+
+
 <b>PcNewInterruptSync</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
 
-## -remarks
-The <i>Mode</i> parameter is set to one of the INTERRUPTSYNCMODE enumeration values in the following table.
 
+## -remarks
+
+
+The <i>Mode</i> parameter is set to one of the INTERRUPTSYNCMODE enumeration values in the following table.
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>
 <b>InterruptSyncModeNormal</b>
 
+</td>
+<td>
 Call each ISR in the list until one of them returns STATUS_SUCCESS.
 
+</td>
+</tr>
+<tr>
+<td>
 <b>InterruptSyncModeAll</b>
 
+</td>
+<td>
 Call each ISR in the list exactly once, regardless of the return codes of the various ISRs.
 
+</td>
+</tr>
+<tr>
+<td>
 <b>InterruptSyncModeRepeat</b>
 
+</td>
+<td>
 Traverse the entire ISR list until a trip through the list occurs in which no ISR in the list returns STATUS_SUCCESS.
+
+</td>
+</tr>
+</table> 
 
 For detailed descriptions of these three modes, see <a href="https://msdn.microsoft.com/c9e228e0-6178-442d-a82a-6b14ed67c9d2">Interrupt Sync Objects</a>.
 
 The <i>OutInterruptSync</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters follow the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
-</dt>
-<dt>
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2CD37F1E-B96A-4D18-A756-2B9E3CB8613B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBDEVICE_ADDRESS, USBDEVICE_ADDRESS, *PUSBDEVICE_ADDRESS
+ms.keywords: ucxusbdevice/_USBDEVICE_ADDRESS, P_USBDEVICE_ADDRESS structure pointer [Buses], USBDEVICE_ADDRESS structure [Buses], P_USBDEVICE_ADDRESS, ucxusbdevice/P_USBDEVICE_ADDRESS, _USBDEVICE_ADDRESS, *PUSBDEVICE_ADDRESS, buses._usbdevice_address, USBDEVICE_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBDEVICE_ADDRESS
-req.alt-loc: ucxusbdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ucxusbdevice.h
+apiname: 
+-	USBDEVICE_ADDRESS
+product: Windows
+targetos: Windows
 req.typenames: USBDEVICE_ADDRESS, *PUSBDEVICE_ADDRESS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USBDEVICE_ADDRESS structure
 
 
-
 ## -description
+
+
 Contains parameters for a request to transition the specified device to the Addressed state. This structure is passed by UCX in request parameters (<b>Parameters.Others.Arg1</b>) of a framework request object of the <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_address.md">EVT_UCX_USBDEVICE_ADDRESS</a> callback function. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBDEVICE_ADDRESS {
@@ -61,6 +71,9 @@ typedef struct _USBDEVICE_ADDRESS {
 
 ## -struct-fields
 
+
+
+
 ### -field Header
 
 A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
@@ -76,15 +89,10 @@ Do not use.
 The address of the specified the USB hub or device. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_address.md">EVT_UCX_USBDEVICE_ADDRESS</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0B7FC33E-A417-48E4-99CC-D1FFC340A405
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND, *PSTORAGE_PROTOCOL_COMMAND
+ms.keywords: ntddstor/PSTORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND, ntddstor/STORAGE_PROTOCOL_COMMAND, storage.storage_protocol_command, PSTORAGE_PROTOCOL_COMMAND structure pointer [Storage Devices], _STORAGE_PROTOCOL_COMMAND, *PSTORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_PROTOCOL_COMMAND
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	STORAGE_PROTOCOL_COMMAND
+product: Windows
+targetos: Windows
 req.typenames: STORAGE_PROTOCOL_COMMAND, *PSTORAGE_PROTOCOL_COMMAND
 ---
 
 # _STORAGE_PROTOCOL_COMMAND structure
 
 
-
 ## -description
+
+
 This structure is used as an input buffer when using the pass-through mechanism to issue  a vendor-specific command to a storage device (via <a href="..\ntddstor\ni-ntddstor-ioctl_storage_protocol_command.md">IOCTL_STORAGE_PROTOCOL_COMMAND</a>).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STORAGE_PROTOCOL_COMMAND {
@@ -72,6 +82,9 @@ typedef struct _STORAGE_PROTOCOL_COMMAND {
 
 ## -struct-fields
 
+
+
+
 ### -field Version
 
 The version of this structure. This should be set to <b>STORAGE_PROTOCOL_STRUCTURE_VERSION</b>.
@@ -90,7 +103,6 @@ The protocol type.
 ### -field Flags
 
 Flags set for this request. The following are valid flags.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -100,14 +112,12 @@ Flags set for this request. The following are valid flags.
 <td><b>STORAGE_PROTOCOL_COMMAND_FLAG_ADAPTER_REQUEST</b></td>
 <td>This flag indicates the request to target an adapter instead of device.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field ReturnStatus
 
 The status of the request made to the storage device. In Windows 10, possible values include: 
-
 <table>
 <tr>
 <th>Status value</th>
@@ -149,8 +159,7 @@ The status of the request made to the storage device. In Windows 10, possible v
 <td><b>STORAGE_PROTOCOL_STATUS_NOT_SUPPORTED</b></td>
 <td>The request is not supported.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field ErrorCode
@@ -218,20 +227,21 @@ The return data. This is optionally set. Some protocols such as NVMe, may return
 Reserved for future use.
 
 
-### -field Command[ANYSIZE_ARRAY]
+### -field Command
+
+ 
+
+
+
+#### - Command[ANYSIZE_ARRAY]
 
 The vendor-specific command that is to be passed-through to the device. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_protocol_command.md">IOCTL_STORAGE_PROTOCOL_COMMAND</a>
-</dt>
-</dl>
+
  
 
  

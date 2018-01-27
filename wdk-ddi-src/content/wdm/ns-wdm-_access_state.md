@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3d1d6407-f853-48d5-bd54-2eacece48b84
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _ACCESS_STATE, ACCESS_STATE, *PACCESS_STATE
+ms.keywords: ACCESS_STATE structure [Installable File System Drivers], securitystructures_41c08d1c-9d46-4df7-a1fe-dc274e8b3fe7.xml, wdm/PACCESS_STATE, ACCESS_STATE, PACCESS_STATE structure pointer [Installable File System Drivers], ifsk.access_state, *PACCESS_STATE, wdm/ACCESS_STATE, _ACCESS_STATE, PACCESS_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ACCESS_STATE
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	ACCESS_STATE
+product: Windows
+targetos: Windows
 req.typenames: ACCESS_STATE, *PACCESS_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _ACCESS_STATE structure
 
 
-
 ## -description
+
+
 The ACCESS_STATE structure describes the state of an access in progress. It contains an object's subject context, remaining desired access types, granted access types, and, optionally, a privilege set to indicate which privileges were used to permit the access. 
 
 Drivers are not to modify the ACCESS_STATE structure directly. To create and manipulate this structure, use the support routines listed in the See Also section. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ACCESS_STATE {
@@ -74,6 +84,24 @@ typedef struct _ACCESS_STATE {
 
 
 ## -struct-fields
+
+
+
+
+### -field Privileges
+
+A union that can contain one of the following structures. This union allows three privileges to be embedded in the access state structure. If any more privileges are required during the operation, they will be allocated in the <b>AuxData</b> member extension. This member is currently unused by drivers. 
+
+
+### -field Privileges.InitialPrivilegeSet
+
+An <a href="..\wdm\ns-wdm-_privilege_set.md">INITIAL_PRIVILEGE_SET</a> structure that specifies a set of initial privileges for the access. 
+
+
+### -field Privileges.PrivilegeSet
+
+A <a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a> structure that specifies a set of privileges for the access. 
+
 
 ### -field OperationID
 
@@ -135,23 +163,6 @@ A pointer to a <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESC
 A pointer to a memory block that contains auxiliary data for the access. 
 
 
-### -field Privileges
-
-A union that can contain one of the following structures. This union allows three privileges to be embedded in the access state structure. If any more privileges are required during the operation, they will be allocated in the <b>AuxData</b> member extension. This member is currently unused by drivers. 
-
-
-### -field InitialPrivilegeSet
-
-An <a href="..\wdm\ns-wdm-_privilege_set.md">INITIAL_PRIVILEGE_SET</a> structure that specifies a set of initial privileges for the access. 
-
-
-### -field PrivilegeSet
-
-A <a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a> structure that specifies a set of privileges for the access. 
-
-</dd>
-</dl>
-
 ### -field AuditPrivileges
 
 A Boolean value that specifies whether a privilege usage should be audited. This member is currently unused by drivers. 
@@ -167,51 +178,34 @@ A <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structur
 A <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the object type name string for the access. This member is used for auditing. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
-</dt>
-<dt>
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-obopenobjectbypointer.md">ObOpenObjectByPointer</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-seappendprivileges.md">SeAppendPrivileges</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-seopenobjectfordeleteauditalarm.md">SeOpenObjectForDeleteAuditAlarm</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-sesetaccessstategenericmapping.md">SeSetAccessStateGenericMapping</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+<a href="..\ntifs\nf-ntifs-obopenobjectbypointer.md">ObOpenObjectByPointer</a>
+
+<a href="..\ntifs\nf-ntifs-seopenobjectfordeleteauditalarm.md">SeOpenObjectForDeleteAuditAlarm</a>
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+
+<a href="..\ntifs\nf-ntifs-seappendprivileges.md">SeAppendPrivileges</a>
+
+<a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
+
+<a href="..\ntifs\nf-ntifs-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
+
+<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
+
  
 
  

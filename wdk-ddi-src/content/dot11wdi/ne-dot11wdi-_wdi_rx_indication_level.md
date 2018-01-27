@@ -7,8 +7,8 @@ old-location: netvista\wdi_rx_indication_level.htm
 old-project: netvista
 ms.assetid: 73ad8d04-c245-4a3c-92ff-4729737ede92
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WDI_RX_INDICATION_LEVEL, WDI_RX_INDICATION_LEVEL
+ms.date: 1/18/2018
+ms.keywords: netvista.wifi_rx_indication_level, dot11wdi/WDI_RX_INDICATION_PASSIVE_WITH_LOW_RESOURCES, dot11wdi/WDI_RX_INDICATION_DISPATCH_GENERAL_WITH_LOW_RESOURCES, WDI_RX_INDICATION_DISPATCH_FIRST_OF_DPC, dot11wdi/WDI_RX_INDICATION_FLAG_RESOURCES, WDI_RX_INDICATION_DISPATCH_GENERAL_WITH_LOW_RESOURCES, dot11wdi/WDI_RX_INDICATION_DISPATCH_GENERAL, WDI_RX_INDICATION_PASSIVE, WDI_RX_INDICATION_PASSIVE_WITH_LOW_RESOURCES, WDI_RX_INDICATION_DISPATCH_GENERAL, WDI_RX_INDICATION_LEVEL enumeration [Network Drivers Starting with Windows Vista], WDI_RX_INDICATION_FROM_RX_RESUME_FRAMES, dot11wdi/WDI_RX_INDICATION_PASSIVE, dot11wdi/WDI_RX_INDICATION_FROM_RX_RESUME_FRAMES, dot11wdi/WDI_RX_INDICATION_FROM_RX_RESUME_FRAMES_WITH_LOW_RESOURCES, _WDI_RX_INDICATION_LEVEL, WDI_RX_INDICATION_FLAG_RESOURCES, WDI_RX_INDICATION_DISPATCH_FIRST_OF_DPC_WITH_LOW_RESSOURCES, netvista.wdi_rx_indication_level, dot11wdi/WDI_RX_INDICATION_DISPATCH_FIRST_OF_DPC, WDI_RX_INDICATION_FROM_RX_RESUME_FRAMES_WITH_LOW_RESOURCES, dot11wdi/WDI_RX_INDICATION_LEVEL, WDI_RX_INDICATION_LEVEL, dot11wdi/WDI_RX_INDICATION_DISPATCH_FIRST_OF_DPC_WITH_LOW_RESSOURCES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WDI_RX_INDICATION_LEVEL
-req.alt-loc: dot11wdi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dot11wdi.h
+apiname: 
+-	WDI_RX_INDICATION_LEVEL
+product: Windows
+targetos: Windows
 req.typenames: WDI_RX_INDICATION_LEVEL
 ---
 
 # _WDI_RX_INDICATION_LEVEL enumeration
 
 
-
 ## -description
+
+
 The WDI_RX_INDICATION_LEVEL enumeration defines the RX indication levels.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDI_RX_INDICATION_LEVEL { 
@@ -61,6 +71,9 @@ typedef enum _WDI_RX_INDICATION_LEVEL {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WDI_RX_INDICATION_DISPATCH_GENERAL
 
@@ -106,5 +119,3 @@ Bitwise OR of <b>WDI_RX_INDICATION_FLAG_RESOURCES</b> and <b>WDI_RX_INDICATION_F
 
 Bitwise OR of <b>WDI_RX_INDICATION_FLAG_RESOURCES</b> and <b>WDI_RX_INDICATION_PASSIVE</b>.
 
-
-## -remarks

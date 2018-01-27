@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 55f88d42-8411-49f0-bc40-7ccc268b3cc5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _FILE_IO_PRIORITY_HINT_INFORMATION, *PFILE_IO_PRIORITY_HINT_INFORMATION, FILE_IO_PRIORITY_HINT_INFORMATION
+ms.keywords: PFILE_IO_PRIORITY_HINT_INFORMATION, kstruct_b_babd0cbe-1870-4d71-86c5-06c438691202.xml, wdm/PFILE_IO_PRIORITY_HINT_INFORMATION, PFILE_IO_PRIORITY_HINT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_IO_PRIORITY_HINT_INFORMATION, *PFILE_IO_PRIORITY_HINT_INFORMATION, wdm/FILE_IO_PRIORITY_HINT_INFORMATION, kernel.file_io_priority_hint_information, FILE_IO_PRIORITY_HINT_INFORMATION structure [Kernel-Mode Driver Architecture], FILE_IO_PRIORITY_HINT_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILE_IO_PRIORITY_HINT_INFORMATION
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PFILE_IO_PRIORITY_HINT_INFORMATION, FILE_IO_PRIORITY_HINT_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	FILE_IO_PRIORITY_HINT_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: FILE_IO_PRIORITY_HINT_INFORMATION, *PFILE_IO_PRIORITY_HINT_INFORMATION
 req.product: Windows 10 or later.
 ---
 
 # _FILE_IO_PRIORITY_HINT_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>FILE_IO_PRIORITY_HINT_INFORMATION</b> structure is used by the <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a> and <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a> routines to query and set the default IRP <a href="https://msdn.microsoft.com/c34afff2-32f2-451b-ab16-ff048d5c3204">priority hint</a> for requests on the specified file handle.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILE_IO_PRIORITY_HINT_INFORMATION {
@@ -55,27 +65,29 @@ typedef struct _FILE_IO_PRIORITY_HINT_INFORMATION {
 
 ## -struct-fields
 
+
+
+
 ### -field PriorityHint
 
 Specifies the <a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a> value that indicates the priority hint for a file handle.
 
 
 ## -remarks
+
+
 For more information about priority hints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565403">Using IRP Priority Hints</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a>
+
  
 
  

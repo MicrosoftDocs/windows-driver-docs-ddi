@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e3669f11-7284-4f65-b814-624337e7fa7f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinGetAvailableByteCount
+ms.keywords: stream.kspingetavailablebytecount, KsPinGetAvailableByteCount routine [Streaming Media Devices], ks/KsPinGetAvailableByteCount, avfunc_2ba6a7f8-59b4-45bf-989a-97f8a494b4bc.xml, KsPinGetAvailableByteCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsPinGetAvailableByteCount
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsPinGetAvailableByteCount
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsPinGetAvailableByteCount function
 
 
-
 ## -description
+
+
 The<b> KsPinGetAvailableByteCount</b> routine outputs the number of bytes of input data ahead of the leading edge and the number of bytes of output buffer ahead of the leading edge, both for the queue of a caller-specified pin.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsPinGetAvailableByteCount(
@@ -55,6 +66,9 @@ NTSTATUS KsPinGetAvailableByteCount(
 
 
 ## -parameters
+
+
+
 
 ### -param Pin [in]
 
@@ -72,10 +86,15 @@ A pointer to  a LONG value in which the routine returns the number of output buf
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS if the requested count(s) have been retrieved. A nonsuccessful return status indicates that <i>Pin</i> does not have an associated queue.
 
 
+
 ## -remarks
+
+
 Noninplace pins should use <i>InputDataBytes</i> for input pins and <i>OutputBufferBytes</i> for output pins.
 
 The results of this call are not guaranteed to be safe unless either the processing mutex is held at call-time, or the caller has privately synchronized before calling the routine. To private synchronize, ensure that the pin does not transition from Acquire to Stop while the routine is executing. See <a href="https://msdn.microsoft.com/dd84fe3f-352e-4641-99d7-792ccecb0b40">Processing Mutex in AVStream</a>.
@@ -87,39 +106,29 @@ In Windows XP and DirectX 8.0, the <i>InputDataBytes</i> count is not valid unle
 For additional information, see <a href="https://msdn.microsoft.com/73ab974f-8034-421f-980a-2393d84ec54c">Leading and Trailing Edge Stream Pointers</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-kspingetleadingedgestreampointer.md">KsPinGetLeadingEdgeStreamPointer</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-kspingettrailingedgestreampointer.md">KsPinGetTrailingEdgeStreamPointer</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
-</dt>
-<dt>
-<a href="..\ks\nc-ks-pfnkspin.md">AVStrMiniPinProcess</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksfilteracquireprocessingmutex.md">KsFilterAcquireProcessingMutex</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-kspinacquireprocessingmutex.md">KsPinAcquireProcessingMutex</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksfilterreleaseprocessingmutex.md">KsFilterReleaseProcessingMutex</a>
-</dt>
-<dt>
+
+<a href="..\ks\nf-ks-kspingettrailingedgestreampointer.md">KsPinGetTrailingEdgeStreamPointer</a>
+
+<a href="..\ks\nf-ks-kspingetleadingedgestreampointer.md">KsPinGetLeadingEdgeStreamPointer</a>
+
+<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
+
+<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
+
 <a href="..\ks\nf-ks-kspinreleaseprocessingmutex.md">KsPinReleaseProcessingMutex</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
+
+<a href="..\ks\nf-ks-kspinacquireprocessingmutex.md">KsPinAcquireProcessingMutex</a>
+
+<a href="..\ks\nc-ks-pfnkspin.md">AVStrMiniPinProcess</a>
+
+<a href="..\ks\nf-ks-ksfilterreleaseprocessingmutex.md">KsFilterReleaseProcessingMutex</a>
+
  
 
  

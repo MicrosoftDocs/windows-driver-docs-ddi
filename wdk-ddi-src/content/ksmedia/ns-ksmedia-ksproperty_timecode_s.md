@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 45af16ee-7405-44a4-ad14-e2cf9d916164
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_TIMECODE_S, *PKSPROPERTY_TIMECODE_S, KSPROPERTY_TIMECODE_S
+ms.keywords: KSPROPERTY_TIMECODE_S, PKSPROPERTY_TIMECODE_S structure pointer [Streaming Media Devices], PKSPROPERTY_TIMECODE_S, *PKSPROPERTY_TIMECODE_S, vidcapstruct_03a0e9f7-37b7-4591-8cbc-e1d189c82ef2.xml, stream.ksproperty_timecode_s, KSPROPERTY_TIMECODE_S structure [Streaming Media Devices], ksmedia/PKSPROPERTY_TIMECODE_S, ksmedia/KSPROPERTY_TIMECODE_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPROPERTY_TIMECODE_S
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSPROPERTY_TIMECODE_S, KSPROPERTY_TIMECODE_S
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSPROPERTY_TIMECODE_S
+product: Windows
+targetos: Windows
+req.typenames: KSPROPERTY_TIMECODE_S, *PKSPROPERTY_TIMECODE_S
 ---
 
 # KSPROPERTY_TIMECODE_S structure
 
 
-
 ## -description
+
+
 The KSPROPERTY_TIMECODE_S structure describes a timecode.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field Property
 
 Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
@@ -65,21 +78,14 @@ Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPER
 Specifies the timecode sample. Timecode, absolute track number (ATN) and relative time counter (RTC) are in the <b>TimecodeSamp.timecode.dwFrames</b> member.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-</dt>
-<dt>
-<a href="..\ksmedia\ns-ksmedia-tagtimecode_sample.md">TIMECODE_SAMPLE</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-ksproperty_timecode_node_s.md">KSPROPERTY_TIMECODE_NODE_S</a>
-</dt>
-</dl>
+
+<a href="..\ksmedia\ns-ksmedia-tagtimecode_sample.md">TIMECODE_SAMPLE</a>
+
  
 
  

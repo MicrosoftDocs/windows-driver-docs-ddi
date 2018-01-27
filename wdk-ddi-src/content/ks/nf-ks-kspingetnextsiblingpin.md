@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e6eb5998-50ad-4ad9-8368-4cd29e4f7777
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinGetNextSiblingPin
+ms.keywords: KsPinGetNextSiblingPin, stream.kspingetnextsiblingpin, ks/KsPinGetNextSiblingPin, avfunc_a5363c0a-af05-43a6-aa4d-edd43e076eb7.xml, KsPinGetNextSiblingPin function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsPinGetNextSiblingPin
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsPinGetNextSiblingPin
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsPinGetNextSiblingPin function
 
 
-
 ## -description
+
+
 The<b> KsPinGetNextSiblingPin</b> function returns the next instantiated pin of the same type and on the same filter as <i>Pin</i>.
 
 
-
 ## -syntax
+
 
 ````
 PKSPIN KsPinGetNextSiblingPin(
@@ -54,31 +65,36 @@ PKSPIN KsPinGetNextSiblingPin(
 
 ## -parameters
 
+
+
+
 ### -param Pin [in]
 
 A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which to find the next instantiated sibling pin.
 
 
 ## -returns
+
+
 <b>KsPinGetNextSiblingPin</b> returns a pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure representing the next instantiated sibling pin of <i>Pin</i>. If no such pin exists, returns <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 <b>KsPinGetNextSiblingPin</b> is an inline function call to <a href="..\ks\nf-ks-ksgetnextsibling.md">KsGetNextSibling</a>. Note that the object hierarchy is only stable while the appropriate mutex is held, in this case the filter control mutex. For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksfiltergetfirstchildpin.md">KsFilterGetFirstChildPin</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksgetnextsibling.md">KsGetNextSibling</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksfiltergetfirstchildpin.md">KsFilterGetFirstChildPin</a>
+
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
  
 
  

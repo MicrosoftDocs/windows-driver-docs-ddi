@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 64158ea5-23ca-42a3-9284-2b1523e616b8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortDMus, IPortDMus::Notify, Notify
+ms.keywords: IPortDMus interface [Audio Devices], Notify method, audio.iportdmus_notify, Notify method [Audio Devices], IPortDMus interface, audmp-routines_cc818dda-ae0e-435e-8d94-f1632a4c4319.xml, IPortDMus, Notify, dmusicks/IPortDMus::Notify, Notify method [Audio Devices], IPortDMus::Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPortDMus.Notify
-req.alt-loc: dmusicks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dmusicks.h
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dmusicks.h
+apiname: 
+-	IPortDMus.Notify
+product: Windows
+targetos: Windows
 req.typenames: DMUS_STREAM_TYPE
 ---
 
 # IPortDMus::Notify method
 
 
-
 ## -description
+
+
 The <code>Notify</code> method should be called from the miniport driver's interrupt service routine (ISR) when a hardware interrupt has occurred. This call requests that the port driver call the miniport driver back with a deferred procedure call (DPC) while the miniport driver handles the interrupt.
 
 
-
 ## -syntax
+
 
 ````
 void Notify(
@@ -54,21 +64,42 @@ void Notify(
 
 ## -parameters
 
-### -param pServiceGroup (optional) [in, optional]
+
+
+
+### -param ServiceGroup
+
+
+
+
+
+#### - pServiceGroup (optional) [in, optional]
 
 Pointer to an <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> object. This parameter is optional and can be specified as <b>NULL</b>. For more information, see the following Remarks section.
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-The <code>Notify</code> method sends notification to the miniport driver's service group:
 
+## -remarks
+
+
+The <code>Notify</code> method sends notification to the miniport driver's service group:
+<ul>
+<li>
 If the <i>pServiceGroup</i> parameter is non-<b>NULL</b>, the <code>Notify</code> method calls the <b>RequestService</b> method on the <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> object that this parameter points to.
 
-The miniport driver typically calls <code>Notify</code> to notify the port driver that the audio device has generated a hardware interrupt. When an interrupt signals, for example, that some register needs to be read, the miniport driver's ISR cannot access the MXF (MIDI transform filter) graph at the elevated IRQL. Instead, the miniport driver can store the input data (a byte of MIDI data, for example) from the register, call <code>Notify</code>, and wait for the port driver to get back to it with a DPC.
+</li>
+<li>If <i>pServiceGroup</i> is <b>NULL</b>:<ul>
+<li>The <code>Notify</code> method calls the <b>RequestService</b> method on the miniport driver's <b>IServiceGroup</b> object. This is the <b>IServiceGroup</b> object that the miniport driver output during the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536700">IMiniportDMus::Init</a> call. The miniport driver also might have registered this object early (that is, earlier than the return from <b>Init</b>) by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff536882">IPortDMus::RegisterServiceGroup</a>.</li>
+<li>The <code>Notify</code> method also calls the <b>RequestService</b> method on the <b>IServiceGroup</b> object belonging to each of the miniport driver's streams. This is the <b>IServiceGroup</b> object that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536701">IMiniportDMus::NewStream</a> method outputs.</li>
+</ul>
+</li>
+</ul>The miniport driver typically calls <code>Notify</code> to notify the port driver that the audio device has generated a hardware interrupt. When an interrupt signals, for example, that some register needs to be read, the miniport driver's ISR cannot access the MXF (MIDI transform filter) graph at the elevated IRQL. Instead, the miniport driver can store the input data (a byte of MIDI data, for example) from the register, call <code>Notify</code>, and wait for the port driver to get back to it with a DPC.
 
 When the miniport driver's ISR calls <code>Notify</code>, the port driver receives the notification at the elevated hardware interrupt IRQL and puts a DPC on the queue. When IRQL drops to the DISPATCH_LEVEL, the port driver's DPC fires and services the miniport driver.
 
@@ -81,27 +112,21 @@ When an adapter driver installs an ISR, it submits a <i>ServiceContext</i> param
 The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
-</dt>
-<dt>
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536882">IPortDMus::RegisterServiceGroup</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536700">IMiniportDMus::Init</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536701">IMiniportDMus::NewStream</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
-</dt>
-</dl>
+
+<a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536701">IMiniportDMus::NewStream</a>
+
  
 
  

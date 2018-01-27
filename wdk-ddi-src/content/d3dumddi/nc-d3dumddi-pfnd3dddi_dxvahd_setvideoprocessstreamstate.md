@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b48fbe58-056a-4c3b-8e1e-c65515c21ee4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.setvideoprocessstreamstate, SetVideoProcessStreamState callback function [Display Devices], SetVideoProcessStreamState, PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE, PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE, d3dumddi/SetVideoProcessStreamState, UserModeDisplayDriver_Functions_3860b09d-ba06-4b9e-bf6d-65e7b90135fd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: SetVideoProcessStreamState is supported beginning wit
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetVideoProcessStreamState
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	SetVideoProcessStreamState
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE callback
 
 
-
 ## -description
+
+
 The <i>SetVideoProcessStreamState</i> function sets the stream state for a video processor. 
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE SetVideoProcessStreamState;
@@ -58,37 +68,69 @@ __checkReturn HRESULT APIENTRY SetVideoProcessStreamState(
 
 ## -parameters
 
-### -param hDevice [in]
-
- A handle to the display device (graphics context).
 
 
-### -param pData [in]
+
+### -param HANDLE
+
+
+
+### -param *
+
+
+
+
+
+
+#### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessstreamstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE</a> structure that describes how to change the stream state. 
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
 ## -returns
+
+
 The <i>SetVideoProcessStreamState</i> function returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The stream state is successfully set. 
+</dl>
+</td>
+<td width="60%">
+The stream state is successfully set. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_OUTOFMEMORY</b></dt>
-</dl><i>SetVideoProcessStreamState</i> could not allocate the required memory for it to complete.
+</dl>
+</td>
+<td width="60%">
+<i>SetVideoProcessStreamState</i> could not allocate the required memory for it to complete.
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessstreamstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE</a>
-</dt>
-</dl>
+
  
 
  

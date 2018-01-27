@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1aa264fa-b552-41a0-bd43-a62f8f2b533b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DSM_VERSION, *PDSM_VERSION, DSM_VERSION
+ms.keywords: mpiowmi/DSM_VERSION, PDSM_VERSION, mpiowmi/PDSM_VERSION, PDSM_VERSION structure pointer [Storage Devices], DSM_VERSION, structs-scsibus_3e00c2b2-0497-4aab-b2e0-a6a5d998e560.xml, _DSM_VERSION, DSM_VERSION structure [Storage Devices], storage.dsm_version, *PDSM_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DSM_VERSION
-req.alt-loc: mpiowmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mpiowmi.h
+apiname: 
+-	DSM_VERSION
+product: Windows
+targetos: Windows
 req.typenames: *PDSM_VERSION, DSM_VERSION
 ---
 
 # _DSM_VERSION structure
 
 
-
 ## -description
+
+
 The DSM_VERSION structure represents version information that is associated with a DSM binary or package. While this assumes that a DSM's version will be of the type MajorVersion.MinorVersion.ProductBuild.QfeNumber, it is not mandatory for the DSM to follow this convention. The DSM must, however, fill in zeros for the fields its does not support.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DSM_VERSION {
@@ -56,6 +66,9 @@ typedef struct _DSM_VERSION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field MajorVersion
 
@@ -76,5 +89,3 @@ An unsigned 32-bitfield that represents the product build portion of the version
 
 An unsigned 32-bitfield that represents the QFE number portion of the version.
 
-
-## -remarks

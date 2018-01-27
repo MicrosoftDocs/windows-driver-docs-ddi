@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 132b30fe-21ef-48dc-8c69-02ccac563b87
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsGetCurrentThread
+ms.keywords: k108_75fb6f47-8a13-4f2c-9b94-a8b7125bbcb6.xml, kernel.psgetcurrentthread, ExGetCurrentResourceThread, PsGetCurrentThread, wdm/PsGetCurrentThread, PsGetCurrentThread routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PsGetCurrentThread
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	PsGetCurrentThread
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PsGetCurrentThread function
 
 
-
 ## -description
+
+
 The <b>PsGetCurrentThread</b> routine identifies the current thread. 
 
 
-
 ## -syntax
+
 
 ````
 PETHREAD PsGetCurrentThread(void);
@@ -54,36 +64,35 @@ PETHREAD PsGetCurrentThread(void);
 ## -parameters
 
 
+
+
+
 ## -returns
-<b>PsGetCurrentThread</b> returns a pointer to the executive thread object that represents the currently executing thread. 
+
 
 <b>PsGetCurrentThread</b> returns a pointer to the executive thread object that represents the currently executing thread. 
 
-<b>PsGetCurrentThread</b> returns a pointer to the executive thread object that represents the currently executing thread. 
 
 
 ## -remarks
+
+
 This macro 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-psissystemthread.md">PsIsSystemThread</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
+
+<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
+
+<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
+
  
 
  

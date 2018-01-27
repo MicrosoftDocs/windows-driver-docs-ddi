@@ -7,8 +7,8 @@ old-location: debugger\getexceptionfiltersecondcommand.htm
 old-project: debugger
 ms.assetid: 1ea607e2-76a2-4f78-87ca-bf3242f39433
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugControl3, IDebugControl3::GetExceptionFilterSecondCommand, GetExceptionFilterSecondCommand
+ms.date: 1/19/2018
+ms.keywords: IDebugControl2::GetExceptionFilterSecondCommand, GetExceptionFilterSecondCommand, dbgeng/IDebugControl::GetExceptionFilterSecondCommand, GetExceptionFilterSecondCommand method [Windows Debugging], GetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::GetExceptionFilterSecondCommand, debugger.getexceptionfiltersecondcommand, IDebugControl3::GetExceptionFilterSecondCommand, IDebugControl2 interface [Windows Debugging], GetExceptionFilterSecondCommand method, dbgeng/IDebugControl2::GetExceptionFilterSecondCommand, IDebugControl::GetExceptionFilterSecondCommand, IDebugControl3 interface [Windows Debugging], GetExceptionFilterSecondCommand method, IDebugControl_fba6b716-8dba-4581-87c3-b808d3ab40a1.xml, GetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl interface, GetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl2 interface, IDebugControl3, IDebugControl interface [Windows Debugging], GetExceptionFilterSecondCommand method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugControl.GetExceptionFilterSecondCommand,IDebugControl2.GetExceptionFilterSecondCommand,IDebugControl3.GetExceptionFilterSecondCommand
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,36 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugControl.GetExceptionFilterSecondCommand
+-	IDebugControl2.GetExceptionFilterSecondCommand
+-	IDebugControl3.GetExceptionFilterSecondCommand
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugControl3::GetExceptionFilterSecondCommand method
 
 
-
 ## -description
-The <b>GetExceptionFilterSecondCommand</b>  method returns the command that will be executed by the <a href="debugger.introduction#debugger_engine#debugger_engine">debugger engine</a> upon the second chance of a specified <a href="wdkgloss.e#wdkgloss.exception#wdkgloss.exception"><i>exception</i></a>.
 
+
+The <b>GetExceptionFilterSecondCommand</b>  method returns the command that will be executed by the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> upon the second chance of a specified <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">exception</a>.
 
 
 ## -syntax
+
 
 ````
 HRESULT GetExceptionFilterSecondCommand(
@@ -56,6 +68,9 @@ HRESULT GetExceptionFilterSecondCommand(
 
 
 ## -parameters
+
+
+
 
 ### -param Index [in]
 
@@ -78,44 +93,55 @@ Receives the size, in characters, of the second-chance command for the exception
 
 
 ## -returns
+
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method was successful.
+</dl>
+</td>
+<td width="60%">
+The method was successful.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-Only exception filters support a second-chance command.  If <i>Index</i> refers to a <a href="debugger.debug_filter_xxx#specific_event_filter#specific_event_filter">specific event filter</a>, the command returned to <i>Buffer</i> will be empty.  The returned command will also be empty if no second-chance command has been set for the specified exception.
 
-For more information about <a href="debugger.events#event_filters#event_filters">event filters</a>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543071">Event Filters</a>.
+
+Only exception filters support a second-chance command.  If <i>Index</i> refers to a <a href="https://msdn.microsoft.com/1f8f738b-7b2b-419a-949e-b71f937de02d">specific event filter</a>, the command returned to <i>Buffer</i> will be empty.  The returned command will also be empty if no second-chance command has been set for the specified exception.
+
+For more information about <a href="https://msdn.microsoft.com/library/windows/hardware/ff543071">event filters</a>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543071">Event Filters</a>.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-</dt>
-<dt>
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-</dt>
-<dt>
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556687">SetExceptionFilterSecondCommand</a>
-</dt>
-<dt>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546611">GetEventFilterCommand</a>
-</dt>
-</dl>
- 
+
+<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556687">SetExceptionFilterSecondCommand</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetExceptionFilterSecondCommand method%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetExceptionFilterSecondCommand method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

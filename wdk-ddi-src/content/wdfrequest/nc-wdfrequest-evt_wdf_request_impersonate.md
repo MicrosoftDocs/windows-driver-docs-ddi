@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: FA3FE0C0-57EC-4761-991B-49CA65A79BDD
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRegistryWdmGetHandle
+ms.keywords: wdf.evtrequestimpersonate, EvtRequestImpersonate callback function, EvtRequestImpersonate, EVT_WDF_REQUEST_IMPERSONATE, EVT_WDF_REQUEST_IMPERSONATE, wdfrequest/EvtRequestImpersonate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 2.0
-req.alt-api: EvtRequestImpersonate
-req.alt-loc: Wdfrequest.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wdfrequest.h
+apiname: 
+-	EvtRequestImpersonate
+product: Windows
+targetos: Windows
 req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # EVT_WDF_REQUEST_IMPERSONATE callback
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to UMDF only]
 
 A driver's <i>EvtRequestImpersonate</i> event callback function performs tasks at the requested impersonation level, such as opening a protected file.
 
 
-
 ## -prototype
+
 
 ````
 EVT_WDF_REQUEST_IMPERSONATE EvtRequestImpersonate;
@@ -61,6 +71,9 @@ void EvtRequestImpersonate(
 
 ## -parameters
 
+
+
+
 ### -param Request [in]
 
 A handle to a framework request object that represents the I/O request that requires impersonation.
@@ -74,29 +87,25 @@ A pointer to a context that was previously supplied in the <a href="..\wdfreques
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 User-Mode Driver Framework (UMDF) does not allow a driver's <i>EvtRequestImpersonate</i> callback function to call any of the framework's object methods. This ensures that the driver does not expose the impersonation level to other driver callback functions or other drivers.
 
 For more information, see <a href="https://msdn.microsoft.com/02EA93CE-3C4D-4F6F-8E58-DD78EBDB19DE">Handling Client Impersonation in UMDF Drivers</a>.
 
-To define an <i>EvtRequestImpersonate</i> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
-
-For example, to define an <i>EvtRequestImpersonate</i> callback function that is named <i>MyRequestImpersonate</i>, use the <b>EVT_WDF_REQUEST_IMPERSONATE</b> type as shown in this code example:
-
-Then, implement your callback function as follows:
-
-The <b>EVT_WDF_REQUEST_IMPERSONATE</b> function type is defined in the Wdfrequest.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_REQUEST_IMPERSONATE</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-US/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestimpersonate.md">WdfRequestImpersonate</a>
-</dt>
-</dl>
+
  
 
  

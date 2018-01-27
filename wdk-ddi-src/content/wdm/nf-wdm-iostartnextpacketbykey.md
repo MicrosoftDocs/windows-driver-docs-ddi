@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 25cf9026-fd5d-4998-b7ff-f7be048ef2a1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoStartNextPacketByKey
+ms.keywords: wdm/IoStartNextPacketByKey, k104_f2248acf-8071-43a6-b5f9-bc3bc178469b.xml, IoStartNextPacketByKey, IoStartNextPacketByKey routine [Kernel-Mode Driver Architecture], kernel.iostartnextpacketbykey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoStartNextPacketByKey
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoStartNextPacketByKey
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoStartNextPacketByKey function
 
 
-
 ## -description
+
+
 The <b>IoStartNextPacketByKey</b> routine dequeues the next I/O request packet from the specified device object's associated device queue according to a specified sort-key value and calls the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine with that IRP.
 
 
-
 ## -syntax
+
 
 ````
 VOID IoStartNextPacketByKey(
@@ -56,6 +66,9 @@ VOID IoStartNextPacketByKey(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceObject [in]
 
@@ -73,10 +86,15 @@ Specifies the sort key that determines which entry to remove from the queue.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 If there are no IRPs currently in the device queue for the target device object, this routine simply returns control to the caller.
 
 If the driver passed a pointer to a cancel routine when it called <b>IoStartPacket</b>, it should pass <b>TRUE</b> in the <i>Cancelable</i> parameter. If <i>Cancelable</i>  is <b>TRUE</b>, the I/O manager will use the cancel spin lock to protect the device queue and the current IRP. 
@@ -86,18 +104,15 @@ Drivers that do not have a <i>StartIo</i> routine cannot call <b>IoStartNextPack
 Callers of <b>IoStartNextPacketByKey</b> must be running at IRQL &lt;= DISPATCH_LEVEL. Usually, this routine is called from a device driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff544079">DpcForIsr</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff542972">CustomDpc</a> routine, both of which are run at IRQL = DISPATCH_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-iostartnextpacket.md">IoStartNextPacket</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-iostartpacket.md">IoStartPacket</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-iostartpacket.md">IoStartPacket</a>
+
+<a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a>
+
  
 
  

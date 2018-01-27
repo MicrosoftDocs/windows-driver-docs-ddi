@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4c08a70e-5092-40fb-94fd-c3ef8a5537b5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUlongByteSwap
+ms.keywords: RtlUlongByteSwap, RtlUlongByteSwap routine [Kernel-Mode Driver Architecture], wdm/RtlUlongByteSwap, kernel.rtlulongbyteswap, k109_0d4753a3-859a-429f-bd07-66669f1b46e8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlUlongByteSwap
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlUlongByteSwap
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RtlUlongByteSwap function
 
 
-
 ## -description
+
+
 The <b>RtlUlongByteSwap</b> routine reverses the ordering of the four bytes in a 32-bit unsigned integer value.
 
 
-
 ## -syntax
+
 
 ````
 ULONG RtlUlongByteSwap(
@@ -55,16 +65,24 @@ ULONG RtlUlongByteSwap(
 
 ## -parameters
 
+
+
+
 ### -param Source [in]
 
 A ULONG value to convert to a byte-swapped version.
 
 
 ## -returns
+
+
 The byte-swapped version of the <i>Source</i> input parameter value.
 
 
+
 ## -remarks
+
+
 For example, if the <i>Source</i> parameter value is 0x12345678, the routine returns 0x78563412.
 
 A typical use of this routine is to convert a ULONG value from little-endian byte format to big-endian byte format, and vice versa.
@@ -74,15 +92,13 @@ Use this routine instead of <b>ntohl</b> or <b>htonl</b>.
 To reverse the ordering of bytes in a USHORT value, use the <a href="..\wdm\nf-wdm-rtlushortbyteswap.md">RtlUshortByteSwap</a> routine. To reverse ordering of bytes in a ULONGLONG value, use the <a href="..\wdm\nf-wdm-rtlulonglongbyteswap.md">RtlUlonglongByteSwap</a> routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlulonglongbyteswap.md">RtlUlonglongByteSwap</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlushortbyteswap.md">RtlUshortByteSwap</a>
-</dt>
-</dl>
+
  
 
  

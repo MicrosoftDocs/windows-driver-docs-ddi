@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f860c230-01ca-4c7f-8b67-5d92a80ff906
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmAllocatePagesForMdlEx
+ms.keywords: MM_ALLOCATE_FROM_LOCAL_NODE_ONLY, k106_df4d4bea-4360-4755-841c-f39849228e9b.xml, MM_ALLOCATE_FULLY_REQUIRED, MM_ALLOCATE_NO_WAIT, MmAllocatePagesForMdlEx routine [Kernel-Mode Driver Architecture], MmAllocatePagesForMdlEx, MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS, wdm/MmAllocatePagesForMdlEx, MM_DONT_ZERO_ALLOCATION, MM_ALLOCATE_PREFER_CONTIGUOUS, kernel.mmallocatepagesformdlex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2003 with Service Pack 1 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MmAllocatePagesForMdlEx
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlMmApcLte
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	MmAllocatePagesForMdlEx
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # MmAllocatePagesForMdlEx function
 
 
-
 ## -description
+
+
 The <b>MmAllocatePagesForMdlEx</b> routine allocates nonpaged, physical memory pages to an MDL.
 
 
-
 ## -syntax
+
 
 ````
 PMDL MmAllocatePagesForMdlEx(
@@ -59,6 +69,9 @@ PMDL MmAllocatePagesForMdlEx(
 
 
 ## -parameters
+
+
+
 
 ### -param LowAddress [in]
 
@@ -90,17 +103,16 @@ Specifies a <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE<
 Specifies flags for this operation. Set this parameter to zero or to the bitwise OR of one or more of the following <b>MM_ALLOCATE_<i>XXX</i></b> flag bits:
 
 The last four items in the preceding list are supported only in Windows 7 and later versions of Windows.
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -param MM_DONT_ZERO_ALLOCATION
-### -param 0x00000001
-
+<td width="40%"><a id="MM_DONT_ZERO_ALLOCATION"></a><a id="mm_dont_zero_allocation"></a><dl>
+<dt><b>MM_DONT_ZERO_ALLOCATION</b></dt>
+<dt>0x00000001</dt>
+</dl>
 </td>
 <td width="60%">
 Do not fill the allocated pages with zeros. By default, <b>MmAllocatePagesForMdlEx</b> zeros the pages that it allocates. By skipping this operation, you can potentially improve the performance of the <b>MmAllocatePagesForMdlEx</b> call. However, you must not use this flag unless either you never expose the allocated pages to user-mode programs, or you always overwrite the original contents of the pages before you expose the allocated pages to user-mode programs.
@@ -108,10 +120,10 @@ Do not fill the allocated pages with zeros. By default, <b>MmAllocatePagesForMdl
 </td>
 </tr>
 <tr>
-
-### -param MM_ALLOCATE_FROM_LOCAL_NODE_ONLY
-### -param 0x00000002
-
+<td width="40%"><a id="MM_ALLOCATE_FROM_LOCAL_NODE_ONLY"></a><a id="mm_allocate_from_local_node_only"></a><dl>
+<dt><b>MM_ALLOCATE_FROM_LOCAL_NODE_ONLY</b></dt>
+<dt>0x00000002</dt>
+</dl>
 </td>
 <td width="60%">
 Allocate pages only from the ideal node. This flag applies only to multiprocessor systems that have non-uniform memory access (NUMA) architectures. Starting with Windows Vista, this flag indicates that all pages must be allocated from the ideal node of the current thread. No pages are to be allocated from other nodes. In versions of Windows earlier than Windows Vista, this flag indicates that all pages must be allocated from the local node; that is, from the node that the current processor belongs to. For more information about NUMA multiprocessor systems, see <a href="http://go.microsoft.com/fwlink/p/?linkid=155041">NUMA Support</a>.
@@ -119,10 +131,10 @@ Allocate pages only from the ideal node. This flag applies only to multiprocesso
 </td>
 </tr>
 <tr>
-
-### -param MM_ALLOCATE_FULLY_REQUIRED
-### -param 0x00000004
-
+<td width="40%"><a id="MM_ALLOCATE_FULLY_REQUIRED"></a><a id="mm_allocate_fully_required"></a><dl>
+<dt><b>MM_ALLOCATE_FULLY_REQUIRED</b></dt>
+<dt>0x00000004</dt>
+</dl>
 </td>
 <td width="60%">
 A full allocation is required. Starting with Windows 7, this flag requires <b>MmAllocatePagesForMdlEx</b> to return <b>NULL</b> if it cannot allocate all the requested pages. The routine returns a non-<b>NULL</b> value only if it successfully obtains the entire requested allocation. This flag enables the memory manager to perform the allocation more efficiently in cases in which the caller requires a full allocation.
@@ -130,10 +142,10 @@ A full allocation is required. Starting with Windows 7, this flag requires <b>M
 </td>
 </tr>
 <tr>
-
-### -param MM_ALLOCATE_NO_WAIT
-### -param 0x00000008
-
+<td width="40%"><a id="MM_ALLOCATE_NO_WAIT"></a><a id="mm_allocate_no_wait"></a><dl>
+<dt><b>MM_ALLOCATE_NO_WAIT</b></dt>
+<dt>0x00000008</dt>
+</dl>
 </td>
 <td width="60%">
 Do not wait. Starting with Windows 7, this flag indicates that the <b>MmAllocatePagesForMdlEx</b> call must not block the calling thread. Typically, the caller is a kernel-mode driver that is running at IRQL &lt; DISPATCH_LEVEL but cannot allow its execution to be blocked. For example, the driver might be assisting with paging or power-management operations. Regardless of whether this flag is set, <b>MmAllocatePagesForMdlEx</b> never blocks callers that are running at IRQL = DISPATCH_LEVEL.
@@ -141,10 +153,10 @@ Do not wait. Starting with Windows 7, this flag indicates that the <b>MmAllocat
 </td>
 </tr>
 <tr>
-
-### -param MM_ALLOCATE_PREFER_CONTIGUOUS
-### -param 0x00000010
-
+<td width="40%"><a id="MM_ALLOCATE_PREFER_CONTIGUOUS"></a><a id="mm_allocate_prefer_contiguous"></a><dl>
+<dt><b>MM_ALLOCATE_PREFER_CONTIGUOUS</b></dt>
+<dt>0x00000010</dt>
+</dl>
 </td>
 <td width="60%">
 Allocation is performed in a way that minimizes system memory fragmentation. Starting with Windows 7, this flag indicates that the caller wants to avoid fragmenting physical memory to make more contiguous memory available to other callers. The allocated pages are not guaranteed to be (and usually are not) physically contiguous, even if plenty of contiguous memory is available. Callers that require contiguous memory should specify MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS instead of MM_ALLOCATE_PREFER_CONTIGUOUS.
@@ -152,66 +164,84 @@ Allocation is performed in a way that minimizes system memory fragmentation. Sta
 </td>
 </tr>
 <tr>
-
-### -param MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS
-### -param 0x00000020
-
+<td width="40%"><a id="MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS"></a><a id="mm_allocate_require_contiguous_chunks"></a><dl>
+<dt><b>MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS</b></dt>
+<dt>0x00000020</dt>
+</dl>
 </td>
 <td width="60%">
 Contiguous memory is required. Starting with Windows 7, this flag indicates that the requested pages must be allocated as contiguous blocks of physical memory. If the <i>SkipBytes</i> parameter is zero, <b>MmAllocatePagesForMdlEx</b> either succeeds and returns a single, contiguous block, or it fails and returns <b>NULL</b>. It never returns a partial allocation. For <i>SkipBytes</i> = 0, the allocated pages satisfy the address range requirements that are specified by the <i>LowAddress</i> and <i>HighAddress</i> parameters, but the pages are subject to no special alignment restrictions. If <i>SkipBytes</i> is nonzero, <i>SkipBytes</i> must be a power of two and must be greater than or equal to PAGE_SIZE, and the <i>TotalBytes</i> parameter value must be a multiple of <i>SkipBytes</i>. In this case, the returned MDL can contain multiple blocks of contiguous pages. That is, each block is internally contiguous but the blocks are not necessarily contiguous with each other. Each block of contiguous pages is guaranteed to be exactly <i>SkipBytes</i> long and to be aligned on a <i>SkipBytes</i> boundary. Partial allocations can occur if <i>SkipBytes</i> is nonzero, but each contiguous block in a partial allocation is guaranteed to be <i>SkipBytes</i> long.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 <b>MmAllocatePagesForMdlEx</b> returns one of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>MDL pointer</b></dt>
-</dl>A non-<b>NULL</b> return value is a pointer to an MDL that describes a set of physical pages in the specified address range. If the requested number of bytes is not available, the MDL describes as much physical memory as is available.
+</dl>
+</td>
+<td width="60%">
+A non-<b>NULL</b> return value is a pointer to an MDL that describes a set of physical pages in the specified address range. If the requested number of bytes is not available, the MDL describes as much physical memory as is available.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b><b>NULL</b></b></dt>
-</dl>Indicates that no physical memory pages are available in the specified address ranges, or that there is not enough memory pool for the MDL itself.
+</dl>
+</td>
+<td width="60%">
+Indicates that no physical memory pages are available in the specified address ranges, or that there is not enough memory pool for the MDL itself.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 By default, the physical memory pages that <b>MmAllocatePagesForMdlEx</b> returns are not contiguous pages. Starting with Windows 7, callers can override the default behavior of this routine by setting the MM_ALLOCATE_PREFER_CONTIGUOUS or MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS flag bit in the <i>Flags</i> parameter.
 
 <b>MmAllocatePagesForMdlEx</b> is designed for kernel-mode drivers that do not need corresponding virtual addresses (that is, they need physical pages and do not need them to be physically contiguous), and for kernel-mode drivers that can achieve substantial performance gains if physical memory for a device is allocated in a specific physical address range (for example, an AGP graphics card).
 
 Depending on how much physical memory is currently available in the requested ranges, <b>MmAllocatePagesForMdlEx</b> might return an MDL that describes less memory than was requested. The routine also might return <b>NULL</b> if no memory was allocated. The caller should check the amount of memory that is actually allocated to the MDL.
 
-The caller must use <a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a> to release the memory pages that are described by an MDL that was created by <b>MmAllocatePagesForMdlEx</b>. After calling <b>MmFreePagesFromMdl</b>, the caller must also call <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> to release the memory that is allocated for the MDL structure.
+The caller must use <a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a> to release the memory pages that are described by an MDL that was created by <b>MmAllocatePagesForMdlEx</b>. After calling <b>MmFreePagesFromMdl</b>, the caller must also call <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> to release the memory that is allocated for the MDL structure.
 
 By default, <b>MmAllocatePagesForMdlEx</b> fills the pages that it allocates with zeros. The caller can specify the MM_DONT_ZERO_ALLOCATION flag to override this default and to possibly improve performance.
-
-The maximum amount of memory that <b>MmAllocatePagesForMdlEx</b> can allocate in a single call is (4 gigabytes - PAGE_SIZE). The routine can satisfy an allocation request for this amount only if enough pages are available.
+<div class="alert"><b>Note</b>    Memory that <b>MmAllocatePagesForMdlEx</b> allocates is uninitialized if you specify the MM_DONT_ZERO_ALLOCATION flag. A kernel-mode driver must first zero this memory if the driver is going to make the memory visible to user-mode software (to avoid leaking potentially privileged contents). For more information about this flag, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556396">MM_ALLOCATE_XXX</a>.</div><div> </div>The maximum amount of memory that <b>MmAllocatePagesForMdlEx</b> can allocate in a single call is (4 gigabytes - PAGE_SIZE). The routine can satisfy an allocation request for this amount only if enough pages are available.
 
 <b>MmAllocatePagesForMdlEx</b> runs at IRQL &lt;= APC_LEVEL. In Windows Server 2008 and later versions of Windows, callers of <b>MmAllocatePagesForMdlEx </b>are allowed to be at DISPATCH_LEVEL. However, you can improve driver performance by calling at APC_LEVEL or below.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
-</dt>
-<dt>
-<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
+
+<a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a>
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
  
 
  

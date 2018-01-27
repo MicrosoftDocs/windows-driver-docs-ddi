@@ -7,8 +7,8 @@ old-location: netvista\offload_ipsec_add_sa.htm
 old-project: netvista
 ms.assetid: 592d338c-8ab0-4163-bcfa-75c941b83c3d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _OFFLOAD_IPSEC_ADD_SA, *POFFLOAD_IPSEC_ADD_SA, OFFLOAD_IPSEC_ADD_SA
+ms.date: 1/18/2018
+ms.keywords: OFFLOAD_IPSEC_ADD_SA, *POFFLOAD_IPSEC_ADD_SA, OFFLOAD_IPSEC_ADD_SA structure [Network Drivers Starting with Windows Vista], ntddndis/POFFLOAD_IPSEC_ADD_SA, ntddndis/OFFLOAD_IPSEC_ADD_SA, POFFLOAD_IPSEC_ADD_SA structure pointer [Network Drivers Starting with Windows Vista], 216offload_12f95ec9-ed81-43cc-b90d-fe06600ec349.xml, netvista.offload_ipsec_add_sa, _OFFLOAD_IPSEC_ADD_SA, POFFLOAD_IPSEC_ADD_SA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OFFLOAD_IPSEC_ADD_SA
-req.alt-loc: ntddndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddndis.h
+apiname: 
+-	OFFLOAD_IPSEC_ADD_SA
+product: Windows
+targetos: Windows
 req.typenames: *POFFLOAD_IPSEC_ADD_SA, OFFLOAD_IPSEC_ADD_SA
 ---
 
 # _OFFLOAD_IPSEC_ADD_SA structure
 
 
-
 ## -description
+
+
 The OFFLOAD_IPSEC_ADD_SA structure contains information for each security association (SA) that a
   miniport driver adds to a NIC.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _OFFLOAD_IPSEC_ADD_SA {
@@ -68,6 +78,9 @@ typedef struct _OFFLOAD_IPSEC_ADD_SA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field SrcAddr
 
@@ -136,24 +149,12 @@ A bitmask that indicates whether the SA that is being added is an inbound or out
 
 
 
-### -field OFFLOAD_INBOUND_SA
-
-Specifies an inbound SA.
-
-
-### -field OFFLOAD_OUTBOUND_SA
-
-Specifies an outbound SA.
-
-</dd>
-</dl>
-
 ### -field NumSAs
 
 The number of elements in the 
      <b>SecAssoc</b> array. Each element in the array is an 
-     <a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">
-     OFFLOAD_SECURITY_ASSOCIATION</a> structure.
+     <mshelp:link keywords="netvista.offload_security_association" tabindex="0"><b>
+     OFFLOAD_SECURITY_ASSOCIATION</b></mshelp:link> structure.
 
 
 ### -field SecAssoc
@@ -180,8 +181,8 @@ The handle to the newly created SA. The miniport driver supplies this handle bef
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff557028">NDIS_IPSEC_PACKET_INFO</a> structure before
      passing a send packet to the miniport driver. The TCP/IP transport must also specify this handle when
      deleting the SA with an 
-     <a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">
-     OID_TCP_TASK_IPSEC_DELETE_SA</a> request.
+     <mshelp:link keywords="netvista.oid_tcp_task_ipsec_delete_sa" tabindex="0">
+     OID_TCP_TASK_IPSEC_DELETE_SA</mshelp:link> request.
 
 
 ### -field KeyLen
@@ -197,8 +198,8 @@ A variable-length array that contains keys for the SAs specified at
      (authentication) algorithm are specified by the 
      <b>ConfAlgo</b> and 
      <b>IntegrityAlgo</b> members of an 
-     <a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">
-     OFFLOAD_SECURITY_ASSOCIATION</a> structure, the buffer at 
+     <mshelp:link keywords="netvista.offload_security_association" tabindex="0"><b>
+     OFFLOAD_SECURITY_ASSOCIATION</b></mshelp:link> structure, the buffer at 
      <b>KeyMat</b> contains key information for the confirmation algorithm first, followed immediately by key
      information for the integrity algorithm.
      
@@ -211,32 +212,39 @@ The length of each key in the buffer at
      OFFLOAD_SECURITY_ASSOCIATION structure.)
 
 
+##### - Flags.OFFLOAD_INBOUND_SA
+
+Specifies an inbound SA.
+
+
+##### - Flags.OFFLOAD_OUTBOUND_SA
+
+Specifies an outbound SA.
+
+
 ## -remarks
+
+
 The OFFLOAD_IPSEC_ADD_SA structure is used in the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a> OID.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557028">NDIS_IPSEC_PACKET_INFO</a>
-</dt>
-<dt>
+
 <a href="..\ntddndis\ns-ntddndis-_offload_algo_info.md">OFFLOAD_ALGO_INFO</a>
-</dt>
-<dt>
+
 <a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">OFFLOAD_SECURITY_ASSOCIATION</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
-</dt>
-</dl>
- 
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557028">NDIS_IPSEC_PACKET_INFO</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20OFFLOAD_IPSEC_ADD_SA structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20OFFLOAD_IPSEC_ADD_SA structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

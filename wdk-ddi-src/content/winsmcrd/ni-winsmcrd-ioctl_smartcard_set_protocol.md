@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 9A54D427-128F-41C1-B6BD-EE09B0402C32
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: GdiStartPageEMF
+ms.keywords: nfpdrivers.ioctl_smartcard_set_protocol, IOCTL_SMARTCARD_SET_PROTOCOL control code [Near-Field Proximity Drivers], IOCTL_SMARTCARD_SET_PROTOCOL, winsmcrd/IOCTL_SMARTCARD_SET_PROTOCOL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_SMARTCARD_SET_PROTOCOL
-req.alt-loc: winsmcrd.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	winsmcrd.h
+apiname: 
+-	IOCTL_SMARTCARD_SET_PROTOCOL
+product: Windows
+targetos: Windows
+req.typenames: *PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME
 req.product: Windows 10 or later.
 ---
 
 # IOCTL_SMARTCARD_SET_PROTOCOL IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
-Sets the procotol the driver communicates to the smart card with after the card is detected.
 
+
+Sets the procotol the driver communicates to the smart card with after the card is detected.
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 (DWORD) mask of protocols below:<ul>
 <li>SCARD_PROTOCOL_T1</li>
 <li>SCARD_PROTOCOL_DEFAULT</li>
@@ -57,38 +75,52 @@ Sets the procotol the driver communicates to the smart card with after the card 
 
 ### -input-buffer-length
 
+
 <text></text>
 
+
+
 ### -output-buffer
+
 (DWORD) contains the selected protocol (for example, SCARD_PROTOCOL_T1).
 
 
 ### -output-buffer-length
 
+
 <text></text>
+
+
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
+
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 For more information, see [XREF-LINK:NTSTATUS Values].
 
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt><a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a></dt>
-<dt><a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a></dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
  
 
  

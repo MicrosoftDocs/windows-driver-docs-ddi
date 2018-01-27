@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 092B54D7-FFEA-48BB-993E-14443BD0C7AA
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _LBA_FILTER_TABLE_ENTRY, LBA_FILTER_TABLE_ENTRY, *PLBA_FILTER_TABLE_ENTRY
+ms.keywords: _LBA_FILTER_TABLE_ENTRY, *PLBA_FILTER_TABLE_ENTRY, ehstorioctl/LBA_FILTER_TABLE_ENTRY, LBA_FILTER_TABLE_ENTRY structure [Storage Devices], ehstorioctl/PLBA_FILTER_TABLE_ENTRY, LBA_FILTER_TABLE_ENTRY, PLBA_FILTER_TABLE_ENTRY structure pointer [Storage Devices], PLBA_FILTER_TABLE_ENTRY, storage.lba_filter_table_entry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: LBA_FILTER_TABLE_ENTRY
-req.alt-loc: EhStorIoctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	EhStorIoctl.h
+apiname: 
+-	LBA_FILTER_TABLE_ENTRY
+product: Windows
+targetos: Windows
 req.typenames: LBA_FILTER_TABLE_ENTRY, *PLBA_FILTER_TABLE_ENTRY
 ---
 
 # _LBA_FILTER_TABLE_ENTRY structure
 
 
-
 ## -description
+
+
 The <b>LBA_FILTER_TABLE_ENTRY</b> structure contains an individual LBA range for the <a href="..\ehstorioctl\ns-ehstorioctl-_lba_filter_table.md">LBA_FILTER_TABLE</a> sent in an <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table.md">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a> request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _LBA_FILTER_TABLE_ENTRY {
@@ -56,6 +66,9 @@ typedef struct _LBA_FILTER_TABLE_ENTRY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field StartLba
 
@@ -78,18 +91,18 @@ Set to TRUE if the LBA range in this entry is  not writeable. Otherwise, this me
 
 
 ## -remarks
+
+
 An LBA range is valid only if LbaCount is &gt; 0 and it is not overlapping with another entry in <a href="..\ehstorioctl\ns-ehstorioctl-_lba_filter_table.md">LBA_FILTER_TABLE</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table.md">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>
-</dt>
-<dt>
+
 <a href="..\ehstorioctl\ns-ehstorioctl-_lba_filter_table.md">LBA_FILTER_TABLE</a>
-</dt>
-</dl>
+
  
 
  

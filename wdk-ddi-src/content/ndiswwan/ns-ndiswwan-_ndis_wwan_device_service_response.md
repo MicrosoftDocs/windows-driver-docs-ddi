@@ -7,8 +7,8 @@ old-location: netvista\ndis_wwan_device_service_response.htm
 old-project: netvista
 ms.assetid: 65999499-C14C-45CC-B7A5-021750B1A728
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_WWAN_DEVICE_SERVICE_RESPONSE, NDIS_WWAN_DEVICE_SERVICE_RESPONSE, *PNDIS_WWAN_DEVICE_SERVICE_RESPONSE
+ms.date: 1/18/2018
+ms.keywords: ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, NDIS_WWAN_DEVICE_SERVICE_RESPONSE, netvista.ndis_wwan_device_service_response, PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, _NDIS_WWAN_DEVICE_SERVICE_RESPONSE, *PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_RESPONSE, NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_RESPONSE structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows 8 and later versions 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_WWAN_DEVICE_SERVICE_RESPONSE
-req.alt-loc: ndiswwan.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ndiswwan.h
+apiname: 
+-	NDIS_WWAN_DEVICE_SERVICE_RESPONSE
+product: Windows
+targetos: Windows
 req.typenames: NDIS_WWAN_DEVICE_SERVICE_RESPONSE, *PNDIS_WWAN_DEVICE_SERVICE_RESPONSE
 ---
 
 # _NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure
 
 
-
 ## -description
+
+
 The NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure represents device service data from the transaction completion of a device service command.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NDIS_WWAN_DEVICE_SERVICE_RESPONSE {
@@ -56,6 +66,9 @@ typedef struct _NDIS_WWAN_DEVICE_SERVICE_RESPONSE {
 
 ## -struct-fields
 
+
+
+
 ### -field Header
 
 The header with type, revision, and size information about the NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure. The MB
@@ -64,7 +77,6 @@ The header with type, revision, and size information about the NDIS_WWAN_DEVICE_
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
-
 <table>
 <tr>
 <th>Header submember</th>
@@ -100,8 +112,7 @@ sizeof(NDIS_WWAN_DEVICE_SERVICE_RESPONSE)
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -112,23 +123,24 @@ For more information about these members, see
 The status of the completion of the command.
 
 
-### -field ResponseData
+### -field Response
+
+ 
+
+
+
+#### - ResponseData
 
 The response from the completion of the device service command.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wwan\ns-wwan-_wwan_device_service_response.md">WWAN_DEVICE_SERVICE_RESPONSE</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

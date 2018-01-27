@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 46231ac0-2c34-4154-8b3e-f34c40cbff4a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_PROCESSOR_PERF_STATE, PEP_PROCESSOR_PERF_STATE, *PPEP_PROCESSOR_PERF_STATE
+ms.keywords: PEP_PROCESSOR_PERF_STATE structure [Kernel-Mode Driver Architecture], pepfx/PEP_PROCESSOR_PERF_STATE, _PEP_PROCESSOR_PERF_STATE, kernel.pep_processor_perf_state, *PPEP_PROCESSOR_PERF_STATE, PEP_PROCESSOR_PERF_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_PROCESSOR_PERF_STATE
-req.alt-loc: Pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Pepfx.h
+apiname: 
+-	PEP_PROCESSOR_PERF_STATE
+product: Windows
+targetos: Windows
 req.typenames: PEP_PROCESSOR_PERF_STATE, *PPEP_PROCESSOR_PERF_STATE
 ---
 
 # _PEP_PROCESSOR_PERF_STATE structure
 
 
-
 ## -description
+
+
 Use in the <b>PEP_NOTIFY_PPM_QUERY_DISCRETE_PERF_STATES</b>  notification. This structure describes the properties of a single performance state.  
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_PROCESSOR_PERF_STATE {
@@ -55,6 +65,9 @@ typedef struct _PEP_PROCESSOR_PERF_STATE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Performance
 
@@ -71,18 +84,12 @@ On output, the frequency (in MHz) of this performance state. 
 Reserved.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/506b3d8e-4aba-4e70-a6db-52a52d717c6b">PEP_PPM_QUERY_DISCRETE_PERF_STATES</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186881">Processor power management (PPM) notifications</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/506b3d8e-4aba-4e70-a6db-52a52d717c6b">PEP_PPM_QUERY_DISCRETE_PERF_STATES</a>
+
  
 
  

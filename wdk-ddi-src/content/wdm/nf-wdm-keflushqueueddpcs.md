@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e5237e44-fff1-4928-9029-f1d1691ef2e3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeFlushQueuedDpcs
+ms.keywords: wdm/KeFlushQueuedDpcs, KeFlushQueuedDpcs, kernel.keflushqueueddpcs, k105_6aaf8f1a-0fa7-422a-b390-ba0f92558a65.xml, KeFlushQueuedDpcs routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows XP with SP2 and Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeFlushQueuedDpcs
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeFlushQueuedDpcs
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeFlushQueuedDpcs function
 
 
-
 ## -description
+
+
 The <b>KeFlushQueuedDpcs</b> routine returns after all queued DPCs on all processors have executed.
 
 
-
 ## -syntax
+
 
 ````
 VOID KeFlushQueuedDpcs(void);
@@ -54,33 +64,33 @@ VOID KeFlushQueuedDpcs(void);
 ## -parameters
 
 
+
+
+
 ## -returns
-None
+
 
 None
 
-None
 
 
 ## -remarks
+
+
 Drivers can use this routine to wait until all currently-queued DPCs are run. Note that <b>KeFlushQueuedDpcs</b> can take a long time to return, so drivers should not use it along any critical code paths.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-ioinitializedpcrequest.md">IoInitializeDpcRequest</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-ioinitializedpcrequest.md">IoInitializeDpcRequest</a>
+
+<a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
+
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+
  
 
  

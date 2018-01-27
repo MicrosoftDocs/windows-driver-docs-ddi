@@ -7,8 +7,8 @@ old-location: netvista\riladditionalnumberstringupdate_2.htm
 old-project: netvista
 ms.assetid: b2675395-08b6-44e6-8052-1fdd7b693c31
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILADDITIONALNUMBERSTRINGUPDATE, *LPRILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE
+ms.date: 1/18/2018
+ms.keywords: netvista.riladditionalnumberstringupdate_2, RILADDITIONALNUMBERSTRINGUPDATE structure [Network Drivers Starting with Windows Vista], RILADDITIONALNUMBERSTRINGUPDATE, *LPRILADDITIONALNUMBERSTRINGUPDATE, rilapitypes/RILADDITIONALNUMBERSTRINGUPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILADDITIONALNUMBERSTRINGUPDATE
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILADDITIONALNUMBERSTRINGUPDATE
+product: Windows
+targetos: Windows
+req.typenames: RILADDITIONALNUMBERSTRINGUPDATE, *LPRILADDITIONALNUMBERSTRINGUPDATE
 req.product: Windows 10 or later.
 ---
 
 # RILADDITIONALNUMBERSTRINGUPDATE structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILADDITIONALNUMBERSTRINGUPDATE {
@@ -59,19 +69,25 @@ typedef struct _RILADDITIONALNUMBERSTRINGUPDATE {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field hUiccApp
 
 
+
 ### -field dwOpType
+
 
 
 ### -field dwNumId
 
 
+
 ### -field wszText
 
 
-## -remarks

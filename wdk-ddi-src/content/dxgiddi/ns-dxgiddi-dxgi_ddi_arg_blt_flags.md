@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 812679d2-b05c-4533-b4b2-01b973b0d80f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_ARG_BLT_FLAGS, DXGI_DDI_ARG_BLT_FLAGS
+ms.keywords: dxgiddi/DXGI_DDI_ARG_BLT_FLAGS, DXGI_DDI_ARG_BLT_FLAGS structure [Display Devices], DXGI_DDI_ARG_BLT_FLAGS, UMDisplayDriver_Dx10param_Structs_22ccf0e7-83cc-443e-b4a1-c1a2f3bc24a0.xml, display.dxgi_ddi_arg_blt_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGI_DDI_ARG_BLT_FLAGS
-req.alt-loc: dxgiddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxgiddi.h
+apiname: 
+-	DXGI_DDI_ARG_BLT_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGI_DDI_ARG_BLT_FLAGS
 ---
 
 # DXGI_DDI_ARG_BLT_FLAGS structure
 
 
-
 ## -description
+
+
 The DXGI_DDI_ARG_BLT_FLAGS structure identifies the type of bit-block transfer (bitblt) to perform.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct DXGI_DDI_ARG_BLT_FLAGS {
@@ -62,6 +72,9 @@ typedef struct DXGI_DDI_ARG_BLT_FLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Resolve
 
@@ -101,15 +114,10 @@ This member is reserved and should be set to zero. Setting this member to zero i
 A member in the union that DXGI_DDI_ARG_BLT_FLAGS contains that can hold a 32-bit value that identifies the bitblt type. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_blt.md">DXGI_DDI_ARG_BLT</a>
-</dt>
-</dl>
+
  
 
  

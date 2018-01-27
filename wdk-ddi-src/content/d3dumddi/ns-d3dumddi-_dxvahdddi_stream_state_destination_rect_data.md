@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 82f0cb12-fc0e-4627-af50-df4697f6764f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA, DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA
+ms.keywords: DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA, DXVA2_Structs_3b88b3f0-9b31-46c6-8725-514f227b12a1.xml, display.dxvahdddi_stream_state_destination_rect_data, d3dumddi/DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA, DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA is suppo
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA
+product: Windows
+targetos: Windows
 req.typenames: DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA
 ---
 
 # _DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA structure
 
 
-
 ## -description
+
+
 The DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA structure describes stream-state data that specifies the destination rectangle. The driver scales the source rectangle within the input surface to the destination rectangle within the output surface. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA {
@@ -54,6 +64,9 @@ typedef struct _DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Enable
 
@@ -66,17 +79,18 @@ typedef struct _DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA {
 
 
 ## -remarks
+
+
 If the <b>Enable</b> member is set to <b>TRUE</b> and the destination rectangle that the <b>DestinationRect</b> member specifies is not within the target rectangle, the intersection of the destination rectangle and the target rectangle is used as the destination rectangle. 
 
 The application can use the destination rectangle to specify the active rectangle (dirty region) of the destination surface.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E8D9E05C-26C3-474C-854F-9AD12C8834DF
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _VPD_THIRD_PARTY_COPY_PAGE, VPD_THIRD_PARTY_COPY_PAGE, *PVPD_THIRD_PARTY_COPY_PAGE
+ms.keywords: PVPD_THIRD_PARTY_COPY_PAGE structure pointer [Storage Devices], storage.vpd_third_party_copy_page, scsi/VPD_THIRD_PARTY_COPY_PAGE, VPD_THIRD_PARTY_COPY_PAGE structure [Storage Devices], _VPD_THIRD_PARTY_COPY_PAGE, *PVPD_THIRD_PARTY_COPY_PAGE, scsi/PVPD_THIRD_PARTY_COPY_PAGE, VPD_THIRD_PARTY_COPY_PAGE, PVPD_THIRD_PARTY_COPY_PAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VPD_THIRD_PARTY_COPY_PAGE
-req.alt-loc: scsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: VPD_THIRD_PARTY_COPY_PAGE, *PVPD_THIRD_PARTY_COPY_PAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	scsi.h
+apiname: 
+-	VPD_THIRD_PARTY_COPY_PAGE
+product: Windows
+targetos: Windows
+req.typenames: *PVPD_THIRD_PARTY_COPY_PAGE, VPD_THIRD_PARTY_COPY_PAGE
 req.product: Windows 10 or later.
 ---
 
 # _VPD_THIRD_PARTY_COPY_PAGE structure
 
 
-
 ## -description
+
+
 The <b>VPD_THIRD_PARTY_COPY_PAGE</b> structure defines the vital product data (VPD) page for offload data transfer operations.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _VPD_THIRD_PARTY_COPY_PAGE {
@@ -58,6 +68,9 @@ typedef struct _VPD_THIRD_PARTY_COPY_PAGE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DeviceType
 
@@ -85,15 +98,16 @@ Support descriptors for copy operations. On Windows systems, <b>ThirdPartyCopyDe
 
 
 ## -remarks
+
+
 All multibyte values are in big endian format. Prior to evaluation, these values must be converted to match the endian format of the current platform.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\scsi\ns-scsi-_windows_block_device_token_limits_descriptor.md">WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

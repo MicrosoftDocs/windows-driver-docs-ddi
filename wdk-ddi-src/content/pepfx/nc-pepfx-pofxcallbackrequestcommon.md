@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 16699B3D-D02B-4D01-9EBE-003C92B06D31
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _VPCI_PNP_ID, VPCI_PNP_ID, *PVPCI_PNP_ID
+ms.keywords: kernel.requestcommon, RequestCommon, RequestCommon routine [Kernel-Mode Driver Architecture], RequestCommon, POFXCALLBACKREQUESTCOMMON, POFXCALLBACKREQUESTCOMMON, pepfx/RequestCommon
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RequestCommon
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= HIGH_LEVEL
-req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	pepfx.h
+apiname: 
+-	RequestCommon
+product: Windows
+targetos: Windows
+req.typenames: *PVPCI_PNP_ID, VPCI_PNP_ID
 ---
 
 # POFXCALLBACKREQUESTCOMMON callback
 
 
-
 ## -description
+
+
 The <b>RequestCommon</b> routine is a generic request handler.
 
 
-
 ## -prototype
+
 
 ````
 POFXCALLBACKREQUESTCOMMON RequestCommon;
@@ -58,6 +68,9 @@ NTSTATUS RequestCommon(
 
 ## -parameters
 
+
+
+
 ### -param RequestId [in]
 
 A request ID that specifies the operation being requested. 
@@ -69,21 +82,25 @@ A pointer to a data structure that contains the input data and/or result data fo
 
 
 ## -returns
+
+
 <b>RequestCommon</b> returns STATUS_SUCCESS if the request is successfully handled. Otherwise, it returns an appropriate error status code.
 
 
+
 ## -remarks
+
+
 This routine is implemented by the <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) and is called by the platform extension plug-in (PEP). The <b>RequestCommon</b> member of the <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>RequestCommon</b> routine.
 
 A PEP can call this routine at IRQL &lt;= HIGH_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
-</dt>
-</dl>
+
  
 
  

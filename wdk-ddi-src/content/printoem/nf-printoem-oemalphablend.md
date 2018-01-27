@@ -7,8 +7,8 @@ old-location: print\oemalphablend.htm
 old-project: print
 ms.assetid: c5c7cabe-7ac9-42f7-92e3-2c1c319ce80e
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: OEMAlphaBlend
+ms.date: 1/18/2018
+ms.keywords: print.oemalphablend, print_unidrv-pscript_rendering_135f0675-e5ff-4e8f-94ad-1ea656cc4c46.xml, printoem/OEMAlphaBlend, OEMAlphaBlend, OEMAlphaBlend function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OEMAlphaBlend
-req.alt-loc: printoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	printoem.h
+apiname: 
+-	OEMAlphaBlend
+product: Windows
+targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
 ---
@@ -38,10 +47,13 @@ req.product: Windows 10 or later.
 # OEMAlphaBlend function
 
 
-
 ## -description
 
+
+
+
 ## -syntax
+
 
 ````
 BOOL  APIENTRY OEMAlphaBlend(
@@ -58,25 +70,33 @@ BOOL  APIENTRY OEMAlphaBlend(
 
 ## -parameters
 
-### -param psoDest 
 
 
-### -param psoSrc 
+
+### -param psoDest
 
 
-### -param pco 
+
+### -param psoSrc
 
 
-### -param pxlo 
+
+### -param pco
 
 
-### -param prclDest 
+
+### -param pxlo
 
 
-### -param prclSrc 
+
+### -param prclDest
 
 
-### -param pBlendObj 
+
+### -param prclSrc
 
 
-## -remarks
+
+### -param pBlendObj
+
+

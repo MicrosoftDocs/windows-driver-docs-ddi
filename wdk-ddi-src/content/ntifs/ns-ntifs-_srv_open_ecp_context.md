@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6860f512-758d-4a75-88e4-17310b3e6349
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _SRV_OPEN_ECP_CONTEXT, *PSRV_OPEN_ECP_CONTEXT, SRV_OPEN_ECP_CONTEXT
+ms.keywords: ECP_Structures_1a5afc2a-f4a5-4f86-ac30-2e206778acc0.xml, SRV_OPEN_ECP_CONTEXT, _SRV_OPEN_ECP_CONTEXT, *PSRV_OPEN_ECP_CONTEXT, ifsk.srv_open_ecp_context, PSRV_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], ntifs/PSRV_OPEN_ECP_CONTEXT, ntifs/SRV_OPEN_ECP_CONTEXT, SRV_OPEN_ECP_CONTEXT structure [Installable File System Drivers], PSRV_OPEN_ECP_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This structure is available starting with Windows 7.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SRV_OPEN_ECP_CONTEXT
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	SRV_OPEN_ECP_CONTEXT
+product: Windows
+targetos: Windows
 req.typenames: *PSRV_OPEN_ECP_CONTEXT, SRV_OPEN_ECP_CONTEXT
 ---
 
 # _SRV_OPEN_ECP_CONTEXT structure
 
 
-
 ## -description
+
+
 The SRV_OPEN_ECP_CONTEXT structure is used by a server to conditionally open files in response to client requests. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SRV_OPEN_ECP_CONTEXT {
@@ -57,6 +67,9 @@ typedef struct _SRV_OPEN_ECP_CONTEXT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ShareName
 
@@ -83,23 +96,34 @@ A Boolean value that indicates whether the SMB server requests an oplock with th
 A Boolean value that indicates whether a file-open operation is the final file-open operation to request the oplock. <b>TRUE</b> indicates the final file-open operation to obtain the oplock and <b>FALSE</b> indicates otherwise. 
 
 
+### -field Version
+
+ 
+
+
+### -field InstanceType
+
+ 
+
+
+
 ## -remarks
-The file-system stack can determine whether SRV_OPEN_ECP_CONTEXT is attached to the create file request. The file-system stack can then use the information in SRV_OPEN_ECP_CONTEXT to determine which client requested that the file be opened, and why it requested it. For information about how to retrieve the SRV_OPEN_ECP_CONTEXT extra information that is attached to a create file request, see <a href="ifsk.using_ecps_to_process_irp_mj_create_operations_in_a_file_system_filter#retrieving_ecps#retrieving_ecps">Retrieving ECPs</a>. 
+
+
+The file-system stack can determine whether SRV_OPEN_ECP_CONTEXT is attached to the create file request. The file-system stack can then use the information in SRV_OPEN_ECP_CONTEXT to determine which client requested that the file be opened, and why it requested it. For information about how to retrieve the SRV_OPEN_ECP_CONTEXT extra information that is attached to a create file request, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/using-ecps-to-process-irp-mj-create-operations-in-a-file-system-filter">Retrieving ECPs</a>. 
 
 The SRV_OPEN_ECP_CONTEXT structure is read-only. You should use it to retrieve information about a server open ECP only. For more information about this issue, see <a href="https://msdn.microsoft.com/6acb4be4-a7aa-431d-b2d8-3ef6d41cb4ef">System-Defined ECPs</a>.
 
 The oplock state values (<b>OplockBlockState</b>, <b>OplockAppState</b>, and <b>OplockFinalState</b>) are used with oplock breaking logic for system management for SMB and SMB2. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
+
  
 
  

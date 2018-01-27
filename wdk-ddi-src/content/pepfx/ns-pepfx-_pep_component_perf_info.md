@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F05D67A0-6583-4C3E-B9AA-B99381A18047
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_COMPONENT_PERF_INFO, *PPEP_COMPONENT_PERF_INFO, PEP_COMPONENT_PERF_INFO
+ms.keywords: PPEP_COMPONENT_PERF_INFO structure pointer [Kernel-Mode Driver Architecture], *PPEP_COMPONENT_PERF_INFO, _PEP_COMPONENT_PERF_INFO, pepfx/PEP_COMPONENT_PERF_INFO, PEP_COMPONENT_PERF_INFO structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_PERF_INFO, pepfx/PPEP_COMPONENT_PERF_INFO, PEP_COMPONENT_PERF_INFO, kernel.pep_component_perf_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_COMPONENT_PERF_INFO
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_COMPONENT_PERF_INFO
+product: Windows
+targetos: Windows
 req.typenames: *PPEP_COMPONENT_PERF_INFO, PEP_COMPONENT_PERF_INFO
 ---
 
 # _PEP_COMPONENT_PERF_INFO structure
 
 
-
 ## -description
+
+
 The <b>PEP_COMPONENT_PERF_INFO</b> structure describes the performance states (P-states) of a component.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_COMPONENT_PERF_INFO {
@@ -54,6 +64,9 @@ typedef struct _PEP_COMPONENT_PERF_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field SetCount
 
@@ -66,26 +79,24 @@ The first element in an array of <a href="..\pepfx\ns-pepfx-_pep_component_perf_
 
 
 ## -remarks
+
+
 This structure is used in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186848">PEP_DPM_REGISTER_COMPONENT_PERF_STATES</a> notification. The <b>PerfStateSets</b> member of the <a href="..\pepfx\ns-pepfx-_pep_register_component_perf_states.md">PEP_REGISTER_COMPONENT_PERF_STATES</a> structure is a <b>PEP_COMPONENT_PERF_INFO</b> structure.
 
 The <b>PEP_COMPONENT_PERF_INFO</b> structure contains input values that are supplied by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx). The platform extension plug-in (PEP) must not write to this structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\pepfx\ns-pepfx-_pep_component_perf_info.md">PEP_COMPONENT_PERF_INFO</a>
-</dt>
-<dt>
-<a href="..\pepfx\ns-pepfx-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186848">PEP_DPM_REGISTER_COMPONENT_PERF_STATES</a>
-</dt>
-<dt>
+
 <a href="..\pepfx\ns-pepfx-_pep_register_component_perf_states.md">PEP_REGISTER_COMPONENT_PERF_STATES</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186848">PEP_DPM_REGISTER_COMPONENT_PERF_STATES</a>
+
+<a href="..\pepfx\ns-pepfx-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: da348cf9-5694-4e66-990e-bd07f259d97c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortSetBytesUsed
+ms.keywords: video/VideoPortSetBytesUsed, VideoPort_Functions_5a8a1a59-b9a8-4b5b-b6d8-7139ddb9b474.xml, display.videoportsetbytesused, VideoPortSetBytesUsed, VideoPortSetBytesUsed function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortSetBytesUsed
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortSetBytesUsed
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortSetBytesUsed function
 
 
-
 ## -description
+
+
 The <b>VideoPortSetBytesUsed</b> function is <b>obsolete</b> in Windows 2000 and later. 
 
 
-
 ## -syntax
+
 
 ````
 VOID VideoPortSetBytesUsed(
@@ -56,6 +66,9 @@ VOID VideoPortSetBytesUsed(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -73,21 +86,18 @@ Specifies the number of bytes written to the buffer.
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\video\nf-video-videoportgetbytesused.md">VideoPortGetBytesUsed</a>
-</dt>
-<dt>
+
 <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
-</dt>
-</dl>
+
+<a href="..\video\nf-video-videoportgetbytesused.md">VideoPortGetBytesUsed</a>
+
  
 
  

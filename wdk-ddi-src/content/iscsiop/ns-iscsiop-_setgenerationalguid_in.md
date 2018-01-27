@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 24568c37-9641-4e3e-b788-f71db4f3f70f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SetGenerationalGuid_IN, *PSetGenerationalGuid_IN, SetGenerationalGuid_IN
+ms.keywords: SetGenerationalGuid_IN structure [Storage Devices], iscsiop/PSetGenerationalGuid_IN, structs-iSCSI_e40eec29-19af-4f5a-8c5f-11b40c76ae0c.xml, _SetGenerationalGuid_IN, *PSetGenerationalGuid_IN, PSetGenerationalGuid_IN structure pointer [Storage Devices], iscsiop/SetGenerationalGuid_IN, PSetGenerationalGuid_IN, storage.setgenerationalguid_in, SetGenerationalGuid_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetGenerationalGuid_IN
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	SetGenerationalGuid_IN
+product: Windows
+targetos: Windows
 req.typenames: *PSetGenerationalGuid_IN, SetGenerationalGuid_IN
 ---
 
 # _SetGenerationalGuid_IN structure
 
 
-
 ## -description
+
+
 The SetGenerationalGuid_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a> method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SetGenerationalGuid_IN {
@@ -54,24 +64,27 @@ typedef struct _SetGenerationalGuid_IN {
 
 ## -struct-fields
 
+
+
+
 ### -field GenerationalGuid
 
 A 16-byte GUID that identifies the version of the information that is currently in the initiator cache. 
 
 
 ## -remarks
+
+
 You must implement this method.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
-</dt>
-<dt>
+
 <a href="..\iscsiop\ns-iscsiop-_setgenerationalguid_out.md">SetGenerationalGuid_OUT</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
+
  
 
  

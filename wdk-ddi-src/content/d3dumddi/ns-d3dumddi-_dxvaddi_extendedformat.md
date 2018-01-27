@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e4f863bd-12ec-489d-a6e0-6b9242fbb0b0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVADDI_EXTENDEDFORMAT, DXVADDI_EXTENDEDFORMAT
+ms.keywords: d3dumddi/DXVADDI_EXTENDEDFORMAT, DXVADDI_EXTENDEDFORMAT structure [Display Devices], DXVA2_Structs_31dd9223-b889-4db9-acc0-520c8f16410a.xml, _DXVADDI_EXTENDEDFORMAT, display.dxvaddi_extendedformat, DXVADDI_EXTENDEDFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVADDI_EXTENDEDFORMAT
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVADDI_EXTENDEDFORMAT
+product: Windows
+targetos: Windows
 req.typenames: DXVADDI_EXTENDEDFORMAT
 ---
 
 # _DXVADDI_EXTENDEDFORMAT structure
 
 
-
 ## -description
+
+
 The DXVADDI_EXTENDEDFORMAT structure describes the extended format of the video frame. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVADDI_EXTENDEDFORMAT {
@@ -64,6 +74,9 @@ typedef struct _DXVADDI_EXTENDEDFORMAT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field SampleFormat
 
@@ -105,15 +118,10 @@ typedef struct _DXVADDI_EXTENDEDFORMAT {
 A 32-bit value that describes the extended format of the video frame.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
-</dt>
-</dl>
+
  
 
  

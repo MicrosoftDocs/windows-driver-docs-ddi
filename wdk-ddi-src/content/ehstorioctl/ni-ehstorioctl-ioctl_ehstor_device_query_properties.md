@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2F9B880F-7F3A-4B2B-816E-AD85ADFB280B
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _PDO_TYPE, PDO_TYPE
+ms.keywords: storage.ioctl_ehstor_device_query_properties, IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES control code [Storage Devices], IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES, ehstorioctl/IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES
-req.alt-loc: EhStorIoctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,76 +29,113 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	EhStorIoctl.h
+apiname: 
+-	IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES
+product: Windows
+targetos: Windows
 req.typenames: PDO_TYPE
 ---
 
 # IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 A silo driver sends this IOCTL to the storage device stack to query for storage device properties. The   Enhanced Storage Class Driver (EHSTOR) will handle the request and return the available properties.
-
-
-
-## -syntax
-
-````
-typedef struct _EHSTOR_DEVICE_PROPERTIES
-{
-    ULONG  StructSize;
-    ULONG  BytesPerSector;
-} EHSTOR_DEVICE_PROPERTIES;
-````
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 None.
 
 
 ### -input-buffer-length
+
 None.
 
 
 ### -output-buffer
+
 The output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains an  <b>EHSTOR_DEVICE_PROPERTIES</b>  structure. <b>EHSTOR_DEVICE_PROPERTIES</b> is declared in <i>ehstorioctl.h</i> as the following.
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _EHSTOR_DEVICE_PROPERTIES
+{
+    ULONG  StructSize;
+    ULONG  BytesPerSector;
+} EHSTOR_DEVICE_PROPERTIES;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
-
-The size of the structure. This is set to <b>sizeof</b>(EHSTOR_DEVICE_PROPERTIES).
+#### -BytesPerSector
 
 The size, in bytes, of a sector on the underlying storage device.
 
 
+#### -StructSize
+
+The size of the structure. This is set to <b>sizeof</b>(EHSTOR_DEVICE_PROPERTIES).
+
+
 ### -output-buffer-length
+
 an  <b>EHSTOR_DEVICE_PROPERTIES</b>  structure.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 STATUS_SUCCESS is returned in the <b>Status</b> field if device properties are returned in the system buffer. Otherwise, another appropriate status code  is returned.
 
 
 ## -remarks
+
+
 Currently, bytes per sector is the only property available in <b>EHSTOR_DEVICE_PROPERTIES</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ehstorioctl\ns-ehstorioctl-tagact_authz_state.md">SILO_DRIVER_CAPABILITES</a>
-</dt>
-</dl>
+
  
 
  

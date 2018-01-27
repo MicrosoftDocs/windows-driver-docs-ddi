@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 516441bc-d240-43d2-a206-3d0bd8e712e9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: RegisterOpRegionHandler
+ms.keywords: parports.ioctl_internal_unlock_port_no_deselect, IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT control code [Parallel Ports], IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT, parallel/IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT, cisspd_a62d2a09-93e4-4fc4-ac5d-9589d930c794.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT
-req.alt-loc: parallel.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	parallel.h
+apiname: 
+-	IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT
+product: Windows
+targetos: Windows
 req.typenames: *LPRILGBATOKEN, RILGBATOKEN
 ---
 
 # IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 The <b>IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT</b> request frees a parallel device's parent parallel port. The request does not deselect the parallel device on the parallel port. 
 
 This request is only supported in Windows XP and later.
@@ -46,55 +61,60 @@ This request is only supported in Windows XP and later.
 For more information, see <a href="https://msdn.microsoft.com/dbfa962e-9de8-4a9c-b962-24b53c41f35d">Locking and Unlocking a ParallelPort for Use by a Parallel Device</a>.
 
 
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 None.
 
 
 ### -input-buffer-length
+
 None.
 
 
 ### -output-buffer
+
 None.
 
 
 ### -output-buffer-length
+
 None.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Information</b> member is set to zero. 
 
 The <b>Status</b> member is set to one of the generic status values returned by internal device control requests for parallel devices.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
-</dt>
-<dt>
+
 <a href="..\parallel\ni-parallel-ioctl_internal_lock_port_no_select.md">IOCTL_INTERNAL_LOCK_PORT_NO_SELECT</a>
-</dt>
-<dt>
+
+<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
+
 <a href="..\parallel\ni-parallel-ioctl_internal_unlock_port.md">IOCTL_INTERNAL_UNLOCK_PORT</a>
-</dt>
-</dl>
+
  
 
  

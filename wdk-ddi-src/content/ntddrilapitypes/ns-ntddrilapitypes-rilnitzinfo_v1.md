@@ -7,8 +7,8 @@ old-location: netvista\rilnitzinfo_v1.htm
 old-project: netvista
 ms.assetid: 88664809-b5ce-466a-894b-529443cb1b0e
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILNITZINFO_V1, *LPRILNITZINFO_V1, RILNITZINFO_V1
+ms.date: 1/18/2018
+ms.keywords: RILNITZINFO_V1, *LPRILNITZINFO_V1, ntddrilapitypes/RILNITZINFO_V1, netvista.rilnitzinfo_v1, RILNITZINFO_V1 structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILNITZINFO_V1
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILNITZINFO_V1, RILNITZINFO_V1
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILNITZINFO_V1
+product: Windows
+targetos: Windows
+req.typenames: RILNITZINFO_V1, *LPRILNITZINFO_V1
 ---
 
 # RILNITZINFO_V1 structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILNITZINFO_V1 {
@@ -59,22 +69,29 @@ typedef struct _RILNITZINFO_V1 {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwExecutor
+
 
 
 ### -field TimeZoneOffsetMinutes
 
 
+
 ### -field DaylightSavingOffsetMinutes
+
 
 
 ### -field SysTime
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DCAB0482-C0E3-4F75-B5A7-FB8DFFA89D6F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: POWER_INFORMATION_LEVEL, POWER_INFORMATION_LEVEL
+ms.keywords: wdm/ProcessorStateHandler, wdm/UserPresence, PlatformIdleVeto, wdm/SystemPowerPolicyCurrent, wdm/SystemExecutionState, wdm/IdleResiliency, wdm/CsDeviceNotification, PowerInformationInternal, wdm/PlatformRole, PowerInformationLevelMaximum, SystemPowerStateNotifyHandler, wdm/ThermalEvent, wdm/ExitLatencySamplingPercentage, wdm/PowerRequestActionInternal, SystemPowerStateHandler, wdm/EnergyTrackerQuery, wdm/VerifySystemPolicyAc, LogicalProcessorIdling, wdm/VerifyProcessorPowerPolicyDc, IdleResiliency, ProcessorPowerPolicyDc, wdm/PhysicalPowerButtonPress, SystemPowerLoggingEntry, wdm/SessionDisplayState, SystemPowerInformation, wdm/SystemHiberFileInformation, wdm/ProcessorPerfStates, SystemReserveHiberFile, ProcessorLoad, wdm/GroupPark, GetPowerSettingValue, wdm/LastResumePerformance, MonitorInvocation, SessionPowerInit, LastResumePerformance, SystemHiberFileType, wdm/SystemHiberFileSize, EnergyTrackerCreate, wdm/SessionLockState, SystemPowerStateLogging, NotifyUserModeLegacyPowerEvent, AdministratorPowerPolicy, wdm/NotifyUserPowerSetting, wdm/PowerRequestCreate, RegisterSpmPowerSettings, wdm/SystemWakeSource, wdm/ThermalStandby, wdm/SessionPowerInit, wdm/ScreenOff, wdm/PowerInformationLevelUnused0, ProcessorPowerPolicyCurrent, wdm/ProcessorInformation, SessionDisplayState, PlatformRole, wdm/ProcessorPowerPolicyAc, kernel.power_information_level, VerifyProcessorPowerPolicyDc, UpdateBlackBoxRecorder, PowerSettingNotificationName, wdm/PowerShutdownNotification, ProcessorInformation, wdm/ProcessorStateHandler2, NotifyUserPowerSetting, ProcessorPerfStates, FirmwareTableInformationRegistered, ProcessorIdleVeto, PowerRequestAction, TraceApplicationPowerMessageEnd, VerifySystemPolicyAc, ProcessorStateHandler, wdm/PowerRequestAction, wdm/MonitorCapabilities, wdm/PowerSettingNotificationName, ProcessorStateHandler2, PhysicalPowerButtonPress, wdm/ProcessorSetIdle, SystemMonitorHiberBootPowerOff, wdm/AdministratorPowerPolicy, wdm/SystemReserveHiberFile, wdm/ProcessorPowerPolicyDc, ProcessorIdleStatesHv, wdm/ProcessorPerfCapHv, wdm/PdcInvocation, wdm/UpdateBlackBoxRecorder, SystemExecutionState, PlatformInformation, PowerRequestActionInternal, wdm/SessionConnectNotification, SetPowerSettingValue, wdm/SetPowerSettingValue, wdm/RegisterSpmPowerSettings, TraceApplicationPowerMessage, wdm/SystemPowerInformation, wdm/GetPowerSettingValue, wdm/SystemPowerStateLogging, PowerRequestCreate, SystemPowerCapabilities, wdm/NotifyUserModeLegacyPowerEvent, CsDeviceNotification, wdm/TraceServicePowerMessage, PlmPowerRequestCreate, ProcessorPerfCapHv, wdm/POWER_INFORMATION_LEVEL, wdm/SystemPowerStateHandler, wdm/QueryPotentialDripsConstraint, SessionRITState, SystemHiberFileSize, wdm/ProcessorInformationEx, PlatformIdleStates, wdm/PlatformIdleStates, wdm/MonitorInvocation, wdm/SystemBatteryState, SystemVideoState, wdm/SystemPowerPolicyAc, VerifySystemPolicyDc, BatteryDeviceState, wdm/PowerInformationLevelMaximum, ProcessorCap, wdm/SystemHiberbootState, SystemHiberbootState, VerifyProcessorPowerPolicyAc, LastSleepTime, wdm/LastSleepTime, wdm/PlatformInformation, ExitLatencySamplingPercentage, wdm/SystemMonitorHiberBootPowerOff, wdm/SystemHiberFileType, wdm/PlmPowerRequestCreate, wdm/DisplayBurst, SystemPowerPolicyCurrent, wdm/ProcessorCap, wdm/VerifyProcessorPowerPolicyAc, wdm/ProcessorIdleVeto, wdm/SystemPowerLoggingEntry, POWER_INFORMATION_LEVEL enumeration [Kernel-Mode Driver Architecture], wdm/SetShutdownSelectedTime, wdm/ProcessorPerfStatesHv, wdm/FirmwareTableInformationRegistered, ThermalStandby, GroupPark, SystemWakeSource, wdm/SystemPowerStateNotifyHandler, PdcInvocation, PowerShutdownNotification, wdm/LastWakeTime, wdm/LogicalProcessorIdling, TraceServicePowerMessage, SystemPowerPolicyDc, WakeTimerList, SetShutdownSelectedTime, wdm/ProcessorPowerPolicyCurrent, POWER_INFORMATION_LEVEL, wdm/SessionRITState, wdm/SystemVideoState, QueryPotentialDripsConstraint, wdm/SuspendResumeInvocation, ProcessorIdleDomains, wdm/VerifySystemPolicyDc, EnergyTrackerQuery, wdm/GetPowerRequestList, UserPresence, ProcessorPowerPolicyAc, ProcessorIdleStates, PowerInformationLevelUnused0, GetPowerRequestList, wdm/TraceApplicationPowerMessageEnd, wdm/SystemPowerPolicyDc, SystemBatteryStatePrecise, SessionConnectNotification, LastWakeTime, MonitorCapabilities, wdm/ProcessorIdleStates, SystemBatteryState, wdm/SystemPowerCapabilities, ThermalEvent, wdm/ProcessorLoad, wdm/BatteryDeviceState, SessionPowerCleanup, DisplayBurst, SystemPowerPolicyAc, wdm/PlatformIdleVeto, wdm/TraceApplicationPowerMessage, wdm/SystemBatteryStatePrecise, ProcessorPerfStatesHv, ProcessorSetIdle, SessionLockState, SystemHiberFileInformation, wdm/SessionPowerCleanup, wdm/ProcessorIdleDomains, ScreenOff, wdm/WakeTimerList, ProcessorInformationEx, wdm/EnergyTrackerCreate, wdm/ProcessorIdleStatesHv, wdm/PowerInformationInternal, SuspendResumeInvocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: POWER_INFORMATION_LEVEL
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	POWER_INFORMATION_LEVEL
+product: Windows
+targetos: Windows
 req.typenames: POWER_INFORMATION_LEVEL
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # POWER_INFORMATION_LEVEL enumeration
 
 
-
 ## -description
+
+
 Indicates power level information.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _POWER_INFORMATION_LEVEL { 
@@ -149,6 +159,9 @@ typedef enum _POWER_INFORMATION_LEVEL {
 
 
 ## -enum-fields
+
+
+
 
 ### -field SystemPowerPolicyAc
 
@@ -629,5 +642,3 @@ Indicates that the black box recorder is updated.
 
 Indicates the maximum power level.
 
-
-## -remarks

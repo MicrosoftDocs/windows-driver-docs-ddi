@@ -7,8 +7,8 @@ old-location: netvista\rilphonebookinfo_2.htm
 old-project: netvista
 ms.assetid: bd302343-c9e3-4d1d-b991-ac19fbdb2da3
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILPHONEBOOKINFO, RILPHONEBOOKINFO, *LPRILPHONEBOOKINFO
+ms.date: 1/18/2018
+ms.keywords: *LPRILPHONEBOOKINFO, netvista.rilphonebookinfo_2, RILPHONEBOOKINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILPHONEBOOKINFO, RILPHONEBOOKINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILPHONEBOOKINFO
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILPHONEBOOKINFO
+product: Windows
+targetos: Windows
 req.typenames: RILPHONEBOOKINFO, *LPRILPHONEBOOKINFO
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILPHONEBOOKINFO structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILPHONEBOOKINFO {
@@ -72,58 +82,77 @@ typedef struct _RILPHONEBOOKINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwUsed
+
 
 
 ### -field dwTotal
 
 
+
 ### -field dwMaxAddressLength
+
 
 
 ### -field dwMaxTextLength
 
 
+
 ### -field dwMaxAdditionalNumbers
+
 
 
 ### -field dwMaxAdditionalNumberLength
 
 
+
 ### -field dwMaxAdditionalNumberTextLength
+
 
 
 ### -field dwUsedAdditionalNumberStrings
 
 
+
 ### -field dwTotalAdditionalNumberStrings
+
 
 
 ### -field dwMaxEmails
 
 
+
 ### -field dwMaxEmailAddressLength
+
 
 
 ### -field dwMaxGroups
 
 
+
 ### -field dwMaxGroupStringLength
+
 
 
 ### -field dwUsedGroupStrings
 
 
+
 ### -field dwTotalGroupStrings
+
 
 
 ### -field dwMaxSecondNameStringLength
 
 
-## -remarks

@@ -7,8 +7,8 @@ old-location: netvista\fwpsallocateclonenetbufferlist0.htm
 old-project: netvista
 ms.assetid: 72759748-fac6-45b9-9a81-ab71e6e7c3ef
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: FwpsAllocateCloneNetBufferList0
+ms.date: 1/18/2018
+ms.keywords: wfp_ref_2_funct_3_fwps_A-B_1b361080-1a63-485a-89fc-05ef6b0cb1df.xml, FwpsAllocateCloneNetBufferList0, FwpsAllocateCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], netvista.fwpsallocateclonenetbufferlist0, fwpsk/FwpsAllocateCloneNetBufferList0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FwpsAllocateCloneNetBufferList0
-req.alt-loc: fwpkclnt.lib,fwpkclnt.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,35 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	fwpkclnt.lib
+-	fwpkclnt.dll
+apiname: 
+-	FwpsAllocateCloneNetBufferList0
+product: Windows
+targetos: Windows
 req.typenames: FWPS_VSWITCH_EVENT_TYPE
 ---
 
 # FwpsAllocateCloneNetBufferList0 function
 
 
-
 ## -description
+
+
 The 
   <b>FwpsAllocateCloneNetBufferList0</b> function allocates a 
   <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that is a clone of an existing
   <b>NET_BUFFER_LIST</b> structure.
-
-
+<div class="alert"><b>Note</b>  <b>FwpsAllocateCloneNetBufferList0</b> is a specific version of <b>FwpsAllocateCloneNetBufferList</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -syntax
+
 
 ````
 NTSTATUS NTAPI FwpsAllocateCloneNetBufferList0(
@@ -61,6 +72,9 @@ NTSTATUS NTAPI FwpsAllocateCloneNetBufferList0(
 
 ## -parameters
 
+
+
+
 ### -param originalNetBufferList [in, out]
 
 A pointer to the original 
@@ -73,8 +87,8 @@ A pointer to the original
 A 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> pool handle that was
      obtained from a previous call to the 
-     <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
-     NdisAllocateNetBufferListPool</a> function. This parameter is optional and can be <b>NULL</b>.
+     <mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
+     NdisAllocateNetBufferListPool</b></mshelp:link> function. This parameter is optional and can be <b>NULL</b>.
 
 
 ### -param netBufferPoolHandle [in, optional]
@@ -98,29 +112,54 @@ A pointer to a variable that receives a pointer to the clone
 
 
 ## -returns
+
+
 The 
      <b>FwpsAllocateCloneNetBufferList0</b> function returns one of the following NTSTATUS codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The clone 
+</dl>
+</td>
+<td width="60%">
+The clone 
        <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure was
        successfully allocated.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>Other status codes</b></dt>
-</dl>An error occurred.
+</dl>
+</td>
+<td width="60%">
+An error occurred.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A callout driver calls the 
     <b>FwpsAllocateCloneNetBufferList0</b> function to allocate a clone 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure of an existing
     NET_BUFFER_LIST structure.
 
 This function is a wrapper around the 
-    <a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
-    NdisAllocateCloneNetBufferList</a> function, but it is specialized for use by WFP 
+    <mshelp:link keywords="netvista.ndisallocateclonenetbufferlist" tabindex="0"><b>
+    NdisAllocateCloneNetBufferList</b></mshelp:link> function, but it is specialized for use by WFP 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">packet injection functions</a>.
 
 If the clone NET_BUFFER_LIST structure should have attributes that are associated with a specific pool,
@@ -134,8 +173,8 @@ The clone NET_BUFFER_LIST structure describes the same data that is described by
     <b>FwpsAllocateCloneNetBufferList0</b> function does not copy the data that is described by the original
     MDLs to new data buffers. Instead, the clone NET_BUFFER_LIST structure references the original data
     buffers. The clone NET_BUFFER_LIST structure does not include an initial 
-    <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">
-    NET_BUFFER_LIST_CONTEXT</a> structure.
+    <mshelp:link keywords="netvista.net_buffer_list_context" tabindex="0"><b>
+    NET_BUFFER_LIST_CONTEXT</b></mshelp:link> structure.
 
 This function sets the 
     <b>ParentNetBufferList</b> member of the newly created clone NET_BUFFER_LIST structure to point to the
@@ -151,10 +190,9 @@ A callout driver can modify the clone NET_BUFFER_LIST structure and inject it in
 
 A callout driver can insert or replace individual net buffers (<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>) or MDLs inside the clone net buffer
     list. Such a driver must also undo the modifications before it calls the 
-    <a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">
-    FwpsFreeCloneNetBufferList0</a> function.
-
-A callout driver must not hold cloned packets indefinitely. A cloned packet can interfere with power
+    <mshelp:link keywords="netvista.fwpsfreeclonenetbufferlist0" tabindex="0"><b>
+    FwpsFreeCloneNetBufferList0</b></mshelp:link> function.
+<h3><a id="Guidelines_for_Managing_Cloned_Packets"></a><a id="guidelines_for_managing_cloned_packets"></a><a id="GUIDELINES_FOR_MANAGING_CLONED_PACKETS"></a>Guidelines for Managing Cloned Packets</h3>A callout driver must not hold cloned packets indefinitely. A cloned packet can interfere with power
      management operations on an idle computer.
 
 The intended use for cloned packets in WFP is to get clarification from a user-mode application or
@@ -164,40 +202,33 @@ The intended use for cloned packets in WFP is to get clarification from a user-m
 
 If the callout driver needs to wait for a potentially lengthy operation, it makes a deep copy of
      the packet using 
-     <a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
-     FwpsAllocateNetBufferAndNetBufferList0</a>, and it blocks and absorbs the original packet.
+     <mshelp:link keywords="netvista.fwpsallocatenetbufferandnetbufferlist0" tabindex="0"><b>
+     FwpsAllocateNetBufferAndNetBufferList0</b></mshelp:link>, and it blocks and absorbs the original packet.
 
 Callout drivers should always return held packets as quickly as possible.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
-   NdisAllocateNetBufferListPool</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
-</dt>
-<dt>
+
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-</dt>
-<dt>
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-</dt>
-<dt>
-<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
+
+<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
+   NdisAllocateNetBufferListPool</b></mshelp:link>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsAllocateCloneNetBufferList0 function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsAllocateCloneNetBufferList0 function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

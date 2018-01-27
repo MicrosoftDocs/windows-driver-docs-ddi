@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba99936a-e76a-4a34-b7cd-762a8f15732c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE, D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE
+ms.keywords: d3dkmdt/D3DKMDT_EPT_VIDPNTARGET, d3dkmdt/D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE, D3DKMDT_EPT_VIDPNTARGET, D3DKMDT_EPT_SCALING, D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE enumeration [Display Devices], D3DKMDT_EPT_ROTATION, DmEnums_5abafdb2-5a17-437b-b3e3-9c045c52d582.xml, _D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE, d3dkmdt/D3DKMDT_EPT_ROTATION, display.d3dkmdt_enumcofuncmodality_pivot_type, d3dkmdt/D3DKMDT_EPT_VIDPNSOURCE, d3dkmdt/D3DKMDT_EPT_SCALING, D3DKMDT_EPT_NOPIVOT, D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE, D3DKMDT_EPT_UNINITIALIZED, d3dkmdt/D3DKMDT_EPT_UNINITIALIZED, D3DKMDT_EPT_VIDPNSOURCE, d3dkmdt/D3DKMDT_EPT_NOPIVOT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE
 ---
 
 # _D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE enumeration
 
 
-
 ## -description
+
+
 The D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE enumeration indicates the pivot type in a call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE { 
@@ -58,6 +68,9 @@ typedef enum _D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DKMDT_EPT_UNINITIALIZED
 
@@ -90,15 +103,16 @@ Indicates that the enumeration has no pivot.
 
 
 ## -remarks
+
+
 The <b>EnumPivotType</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_enumvidpncofuncmodality.md">DXGKARG_ENUMVIDPNCOFUNCMODALITY</a> structure is a D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE value.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: f2a76389-575d-425b-afe6-27fb93e101eb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _PMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION
+ms.keywords: PMI_THRESHOLD_CONFIGURATION structure [Power Metering and Budgeting Devices], PPMI_THRESHOLD_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], _PMI_THRESHOLD_CONFIGURATION, pmi/PPMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION, powermeter.pmi_threshold_configuration, PowerMeterRef_0c5ec9e4-4a74-4fcc-b134-e66cd14f0352.xml, *PPMI_THRESHOLD_CONFIGURATION, pmi/PMI_THRESHOLD_CONFIGURATION, PPMI_THRESHOLD_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7, Windows Server 2008 R2, and l
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PMI_THRESHOLD_CONFIGURATION
-req.alt-loc: pmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pmi.h
+apiname: 
+-	PMI_THRESHOLD_CONFIGURATION
+product: Windows
+targetos: Windows
 req.typenames: PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION
 ---
 
 # _PMI_THRESHOLD_CONFIGURATION structure
 
 
-
 ## -description
+
+
 The PMI_THRESHOLD_CONFIGURATION structure contains information about the threshold configuration of the power meter.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PMI_THRESHOLD_CONFIGURATION {
@@ -54,6 +64,9 @@ typedef struct _PMI_THRESHOLD_CONFIGURATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field LowerThreshold
 
@@ -66,21 +79,27 @@ The upper threshold of the power meter, in units of milliwatts (mW).
 
 
 ## -remarks
+
+
 The PMI_THRESHOLD_CONFIGURATION structure specifies the current configuration of the power meter's thresholds.  The <b>LowerThreshold</b> and <b>UpperThreshold</b> members specify the lower and upper range of the threshold respectively.  
 
 A Power Meter Interface (PMI) event is signaled when the <a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> I/O control (IOCTL) request completes when one of the following occurs:
-
+<ul>
+<li>
 Power levels that are monitored by the power meter drop below the <b>LowerThreshold</b> value.
 
+</li>
+<li>
 Power levels that are monitored by the power meter drop below the <b>UpperThreshold</b> value.
+
+</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
-</dt>
-</dl>
+
  
 
  

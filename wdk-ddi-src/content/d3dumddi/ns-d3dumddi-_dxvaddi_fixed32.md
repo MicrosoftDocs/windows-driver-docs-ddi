@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4188c488-fda4-4596-96f5-f740a5cc9ffc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVADDI_FIXED32, DXVADDI_FIXED32
+ms.keywords: DXVA2_Structs_3d19835e-9a75-4d5a-bd6b-451a9978eadb.xml, _DXVADDI_FIXED32, d3dumddi/DXVADDI_FIXED32, DXVADDI_FIXED32 structure [Display Devices], DXVADDI_FIXED32, display.dxvaddi_fixed32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVADDI_FIXED32
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVADDI_FIXED32
+product: Windows
+targetos: Windows
 req.typenames: DXVADDI_FIXED32
 ---
 
 # _DXVADDI_FIXED32 structure
 
 
-
 ## -description
+
+
 The DXVADDI_FIXED32 structure describes a floating-point number from a 16.16 fixed-point number. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVADDI_FIXED32 {
@@ -60,6 +70,9 @@ typedef struct _DXVADDI_FIXED32 {
 
 ## -struct-fields
 
+
+
+
 ### -field Fraction
 
 [in] A USHORT value that specifies the 16 bits after the decimal point.
@@ -75,15 +88,10 @@ typedef struct _DXVADDI_FIXED32 {
 A 32-bit value that describes the 16.16 fixed-point number.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_procampvalues.md">DXVADDI_PROCAMPVALUES</a>
-</dt>
-</dl>
+
  
 
  

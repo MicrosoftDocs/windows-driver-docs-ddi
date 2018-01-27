@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 690bcd8a-3c4f-4254-99c7-4ad600b4ae4f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _SLIST_ENTRY, SLIST_ENTRY, *PSLIST_ENTRY
+ms.keywords: SLIST_ENTRY, wdm/SLIST_ENTRY, kstruct_d_2bfe90ad-ee2e-4dbf-a028-5b3481aa8695.xml, SLIST_ENTRY structure [Kernel-Mode Driver Architecture], wdm/PSLIST_ENTRY, _SLIST_ENTRY, PSLIST_ENTRY structure pointer [Kernel-Mode Driver Architecture], PSLIST_ENTRY, kernel.slist_entry, *PSLIST_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SLIST_ENTRY
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	SLIST_ENTRY
+product: Windows
+targetos: Windows
 req.typenames: SLIST_ENTRY, *PSLIST_ENTRY
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _SLIST_ENTRY structure
 
 
-
 ## -description
+
+
 An <b>SLIST_ENTRY</b> structure describes an entry in a sequenced singly linked list.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SLIST_ENTRY {
@@ -55,12 +65,22 @@ typedef struct _SLIST_ENTRY {
 
 ## -struct-fields
 
+
+
+
+### -field _SLIST_ENTRY
+
+ 
+
+
 ### -field Next
 
 Pointer to the next entry in the list, or <b>NULL</b> if there is no next entry in the list.
 
 
 ## -remarks
+
+
 A driver can access the <b>Next</b> member of a <b>SLIST_ENTRY</b>, but must only be updated by the system routines supplied for this purpose.
 
 On 64-bit platforms, <b>SLIST_ENTRY</b> structures must be 16-byte aligned. Drivers can use DECLSPEC_ALIGN(MEMORY_ALLOCATION_ALIGNMENT) to ensure the proper alignment of <b>SLIST_ENTRY</b>.
@@ -68,18 +88,15 @@ On 64-bit platforms, <b>SLIST_ENTRY</b> structures must be 16-byte aligned. Driv
 For more information about how to use <b>SLIST_ENTRY</b> structures to implement a sequenced singly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-exinterlockedflushslist.md">ExInterlockedFlushSList</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-exinterlockedpopentryslist.md">ExInterlockedPopEntrySList</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-exinterlockedflushslist.md">ExInterlockedFlushSList</a>
+
  
 
  

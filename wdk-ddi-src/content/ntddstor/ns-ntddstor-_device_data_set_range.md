@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9f610927-d8d0-44c5-8a66-0204953c1859
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DEVICE_DATA_SET_RANGE, *PDEVICE_DATA_SET_RANGE, DEVICE_DATA_SET_RANGE
+ms.keywords: storage.device_data_set_range, DEVICE_DATA_SET_RANGE structure [Storage Devices], *PDEVICE_DATA_SET_RANGE, ntddstor/DEVICE_DATA_SET_RANGE, PDEVICE_DATA_SET_RANGE structure pointer [Storage Devices], structs-general_28460ffa-da09-47af-9f30-6e991c422620.xml, PDEVICE_DATA_SET_RANGE, _DEVICE_DATA_SET_RANGE, ntddstor/PDEVICE_DATA_SET_RANGE, DEVICE_DATA_SET_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DEVICE_DATA_SET_RANGE
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	DEVICE_DATA_SET_RANGE
+product: Windows
+targetos: Windows
 req.typenames: *PDEVICE_DATA_SET_RANGE, DEVICE_DATA_SET_RANGE
 ---
 
 # _DEVICE_DATA_SET_RANGE structure
 
 
-
 ## -description
+
+
 The <b>DEVICE_DATA_SET_RANGE</b> structure specifies a block of data set ranges for the attributes for a device. 
 
 The block of data set ranges is specified in the <a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> structure that is contained in the system buffer of an <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DEVICE_DATA_SET_RANGE {
@@ -57,6 +67,9 @@ typedef struct _DEVICE_DATA_SET_RANGE {
 
 ## -struct-fields
 
+
+
+
 ### -field StartingOffset
 
 Contains the starting offset, in bytes, of the data set range. The offset value must be block aligned.
@@ -67,15 +80,10 @@ Contains the starting offset, in bytes, of the data set range. The offset value 
 Contains the length, in bytes, of the data set range. The length value must be block aligned.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
-</dt>
-</dl>
+
  
 
  

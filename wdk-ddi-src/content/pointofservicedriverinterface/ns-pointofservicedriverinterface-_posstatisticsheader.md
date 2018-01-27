@@ -7,8 +7,8 @@ old-location: pos\posstatisticsheader.htm
 old-project: pos
 ms.assetid: 75567f14-07fe-4861-9f78-e4de6d0bb023
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _PosStatisticsHeader, PosStatisticsHeader
+ms.date: 1/18/2018
+ms.keywords: pointofservicedriverinterface/PosStatisticsHeader, PosStatisticsHeader, pos.posstatisticsheader, PosStatisticsHeader structure, _PosStatisticsHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PosStatisticsHeader
-req.alt-loc: PointOfServiceDriverInterface.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	PointOfServiceDriverInterface.h
+apiname: 
+-	PosStatisticsHeader
+product: Windows
+targetos: Windows
 req.typenames: PosStatisticsHeader
 ---
 
 # _PosStatisticsHeader structure
 
 
-
 ## -description
+
+
 This structure defines Unified Point of Service (UPOS) standard information about a device. This structure is the header for an incoming statistic.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PosStatisticsHeader {
@@ -55,6 +65,9 @@ typedef struct _PosStatisticsHeader {
 
 
 ## -struct-fields
+
+
+
 
 ### -field EntryCount
 
@@ -70,5 +83,3 @@ A <a href="..\pointofservicecommontypes\ns-pointofservicecommontypes-_posdevicei
 
 Indicates the length, in bytes, of the <b>PosStatisticsHeader</b> and the buffer of <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_posvaluestatisticsentry.md">PosValueStatisticsEntry</a> that follow this structure in memory.
 
-
-## -remarks

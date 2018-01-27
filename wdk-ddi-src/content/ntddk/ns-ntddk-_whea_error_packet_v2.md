@@ -2,13 +2,13 @@
 UID: NS:ntddk._WHEA_ERROR_PACKET_V2
 title: _WHEA_ERROR_PACKET_V2
 author: windows-driver-content
-description: The WHEA_ERROR_PACKET_V2 structure describes the hardware error data that is passed to the operating system by a low-level hardware error handler (LLHEH).Note  The WHEA_ERROR_PACKET_V2 structure is supported in Windows 7 and later versions of Windows.
+description: The WHEA_ERROR_PACKET_V2 structure describes the hardware error data that is passed to the operating system by a low-level hardware error handler (LLHEH).Note  The WHEA_ERROR_PACKET_V2 structure is supported in Windows 7 and later versions of Windows. 
 old-location: whea\whea_error_packet_v2.htm
 old-project: whea
 ms.assetid: 10cfc201-d5c9-4887-997e-673ef6abb7db
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_ERROR_PACKET_V2, WHEA_ERROR_PACKET, *PWHEA_ERROR_PACKET, *PWHEA_ERROR_PACKET_V2, WHEA_ERROR_PACKET_V2
+ms.keywords: WHEA_ERROR_PACKET, WHEA_ERROR_PACKET_V2, PWHEA_ERROR_PACKET_V2 structure pointer [WHEA Drivers and Applications], _WHEA_ERROR_PACKET_V2, *PWHEA_ERROR_PACKET_V2, ntddk/WHEA_ERROR_PACKET_V2, *PWHEA_ERROR_PACKET, whearef_dda917df-4c9e-435e-ab12-1520e13d3dac.xml, whea.whea_error_packet_v2, PWHEA_ERROR_PACKET_V2, WHEA_ERROR_PACKET_V2 structure [WHEA Drivers and Applications], ntddk/PWHEA_ERROR_PACKET_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_ERROR_PACKET_V2
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: WHEA_ERROR_PACKET, *PWHEA_ERROR_PACKET, *PWHEA_ERROR_PACKET_V2, WHEA_ERROR_PACKET_V2
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_ERROR_PACKET_V2
+product: Windows
+targetos: Windows
+req.typenames: WHEA_ERROR_PACKET, *PWHEA_ERROR_PACKET_V2, WHEA_ERROR_PACKET_V2, *PWHEA_ERROR_PACKET
 ---
 
 # _WHEA_ERROR_PACKET_V2 structure
 
 
-
 ## -description
+
+
 The WHEA_ERROR_PACKET_V2 structure describes the hardware error data that is passed to the operating system by a low-level hardware error handler (LLHEH).
-
-
+<div class="alert"><b>Note</b>  The WHEA_ERROR_PACKET_V2 structure is supported in Windows 7 and later versions of Windows.</div><div> </div>
 
 ## -syntax
+
 
 ````
 typedef struct _WHEA_ERROR_PACKET_V2 {
@@ -68,6 +78,9 @@ typedef struct _WHEA_ERROR_PACKET_V2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Signature
 
@@ -115,43 +128,6 @@ A GUID that identifies the notification mechanism by which an error condition is
 
 
 
-
-### -field CMC_NOTIFY_TYPE_GUID
-
-Corrected Machine Check (CMC)
-
-
-### -field CPE_NOTIFY_TYPE_GUID
-
-Corrected Platform Error (CPE)
-
-
-### -field MCE_NOTIFY_TYPE_GUID
-
-Machine Check Exception (MCE)
-
-
-### -field PCIe_NOTIFY_TYPE_GUID
-
-PCI Express (PCIe) Error
-
-
-### -field INIT_NOTIFY_TYPE_GUID
-
-INIT Error Record (INIT)
-
-
-### -field NMI_NOTIFY_TYPE_GUID
-
-Nonmaskable Interrupt (NMI)
-
-
-### -field BOOT_NOTIFY_TYPE_GUID
-
-Boot Error Record (BOOT)
-
-</dd>
-</dl>
 For error notification types that do not conform to one of the standard types in the previous list, a platform-specific GUID can be defined to identify the notification mechanism. If the notification type does not correspond to any of the standard notification types or any platform-specific notification types, this member is set to GENERIC_NOTIFY_TYPE_GUID.
 
 
@@ -190,44 +166,78 @@ An offset, in bytes, for a data buffer where a PSHED plug-in can add additional 
 The length, in bytes, of the PSHED data buffer.
 
 
-## -remarks
-The WHEA_ERROR_PACKET_V2 structure is used to report a hardware error in Windows 7 and later versions of Windows. If your <a href="https://msdn.microsoft.com/473d9206-9db2-4bc7-bc76-6be2fb77b20b">platform-specific hardware error driver (PSHED) plug-ins</a> run on any WHEA-compatible Windows version, You can inspect the version of WHEA_ERROR_PACKET by following these steps:
+##### - NotifyType.PCIe_NOTIFY_TYPE_GUID
 
+PCI Express (PCIe) Error
+
+
+##### - NotifyType.CPE_NOTIFY_TYPE_GUID
+
+Corrected Platform Error (CPE)
+
+
+##### - NotifyType.BOOT_NOTIFY_TYPE_GUID
+
+Boot Error Record (BOOT)
+
+
+##### - NotifyType.NMI_NOTIFY_TYPE_GUID
+
+Nonmaskable Interrupt (NMI)
+
+
+##### - NotifyType.MCE_NOTIFY_TYPE_GUID
+
+Machine Check Exception (MCE)
+
+
+##### - NotifyType.INIT_NOTIFY_TYPE_GUID
+
+INIT Error Record (INIT)
+
+
+##### - NotifyType.CMC_NOTIFY_TYPE_GUID
+
+Corrected Machine Check (CMC)
+
+
+## -remarks
+
+
+The WHEA_ERROR_PACKET_V2 structure is used to report a hardware error in Windows 7 and later versions of Windows. If your <a href="https://msdn.microsoft.com/473d9206-9db2-4bc7-bc76-6be2fb77b20b">platform-specific hardware error driver (PSHED) plug-ins</a> run on any WHEA-compatible Windows version, You can inspect the version of WHEA_ERROR_PACKET by following these steps:
+<ol>
+<li>
 If the <b>Signature</b> member for the WHEA_ERROR_PACKET equals WHEA_ERROR_PACKET_V1, the code is running on an early version of Windows, and the error packet is formatted as a <a href="..\ntddk\ns-ntddk-_whea_error_packet_v1.md">WHEA_ERROR_PACKET_V1</a> structure.
 
+</li>
+<li>
 If the <b>Signature</b> member for the WHEA_ERROR_PACKET equals WHEA_ERROR_PACKET_V2, the code is running on a later version of Windows, and the error packet is formatted as a <b>WHEA_ERROR_PACKET_V2</b> structure.
 
-An LLHEH passes a WHEA_ERROR_PACKET_V2 structure to the operating system when it reports a hardware error. This hardware error packet contains the raw hardware error data direct from the error status registers for the error source.
+</li>
+</ol>An LLHEH passes a WHEA_ERROR_PACKET_V2 structure to the operating system when it reports a hardware error. This hardware error packet contains the raw hardware error data direct from the error status registers for the error source.
 
 The WHEA_ERROR_PACKET_V2 structure describes the error data that is contained in a hardware error packet error section of an <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">error record</a>. The hardware error data is referenced through the <b>DataOffset </b>and<b> DataLength </b>members. The error data's type is defined through the <b>DataFormat</b> member.
 
 In addition, <a href="https://msdn.microsoft.com/7c56a8e2-11e9-4ef0-83f2-50a17713bffa">platform-specific hardware error driver (PSHED) plug-ins</a> can add supplementary platform-specific error data that is referenced through the <b>PshedDataOffset</b> and <b>PshedDataLength</b> members. Both of these members must be set to 0 if PSHED data has not been added.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/473d9206-9db2-4bc7-bc76-6be2fb77b20b">Platform-Specific Hardware Error Driver (PSHED) Plug-Ins</a>
-</dt>
-<dt>
-<a href="..\ntddk\ne-ntddk-_whea_error_packet_data_format.md">WHEA_ERROR_PACKET_DATA_FORMAT</a>
-</dt>
-<dt>
-<a href="..\ntddk\ns-ntddk-_whea_error_packet_flags.md">WHEA_ERROR_PACKET_FLAGS</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_error_packet_v1.md">WHEA_ERROR_PACKET_V1</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/473d9206-9db2-4bc7-bc76-6be2fb77b20b">Platform-Specific Hardware Error Driver (PSHED) Plug-Ins</a>
+
 <a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ne-ntddk-_whea_error_source_type.md">WHEA_ERROR_SOURCE_TYPE</a>
-</dt>
-<dt>
+
+<a href="..\ntddk\ne-ntddk-_whea_error_packet_data_format.md">WHEA_ERROR_PACKET_DATA_FORMAT</a>
+
 <a href="..\ntddk\ne-ntddk-_whea_error_type.md">WHEA_ERROR_TYPE</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\ns-ntddk-_whea_error_packet_flags.md">WHEA_ERROR_PACKET_FLAGS</a>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\rilradiostateitem.htm
 old-project: netvista
 ms.assetid: 152e3b52-44e4-4ed7-bfc3-38d0c65725fd
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILRADIOSTATEITEM, RILRADIOSTATEITEM, *LPRILRADIOSTATEITEM
+ms.date: 1/18/2018
+ms.keywords: *LPRILRADIOSTATEITEM, ntddrilapitypes/RILRADIOSTATEITEM, netvista.rilradiostateitem, RILRADIOSTATEITEM, RILRADIOSTATEITEM structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILRADIOSTATEITEM
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILRADIOSTATEITEM
+product: Windows
+targetos: Windows
 req.typenames: RILRADIOSTATEITEM, *LPRILRADIOSTATEITEM
 ---
 
 # RILRADIOSTATEITEM structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILRADIOSTATEITEM {
@@ -66,43 +76,87 @@ typedef struct _RILRADIOSTATEITEM {
 
 ## -struct-fields
 
-### -field dwItemId
 
-
-### -field dwItemFlag
-
-
-### -field dwItemAttributes
-
-
-### -field RILITEMVALUEUNION
 
 
 ### -field itemValueUnion
 
 
-### -field intVal
+
+### -field itemValueUnion.intVal
+
+ 
 
 
-### -field uintVal
+### -field itemValueUnion.uintVal
+
+ 
 
 
-### -field wszVal
+### -field itemValueUnion.wszVal
+
+ 
 
 
-### -field intArray
+### -field itemValueUnion.intArray
+
+ 
 
 
-### -field uintArray
+### -field itemValueUnion.uintArray
+
+ 
 
 
-### -field byteArray
+### -field itemValueUnion.byteArray
+
+ 
+
+
+### -field RILITEMVALUEUNION
+
+
+
+### -field dwItemId
+
+
+
+### -field dwItemFlag
+
+
+
+### -field dwItemAttributes
+
 
 
 ### -field wszFriendlyName
 
 
+
 ### -field wszItemValueOptions
 
 
-## -remarks
+
+#### - byteArray
+
+
+
+#### - uintArray
+
+
+
+#### - uintVal
+
+
+
+#### - intArray
+
+
+
+#### - intVal
+
+
+
+#### - wszVal
+
+

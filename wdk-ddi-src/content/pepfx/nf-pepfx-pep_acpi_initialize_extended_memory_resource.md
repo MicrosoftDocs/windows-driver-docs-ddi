@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F566E078-9446-49E1-9325-AF65F3ABB6B9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE
+ms.keywords: pepfx/PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE, PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE, kernel.pep_acpi_initialize_extended_memory_resource, PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE
+product: Windows
+targetos: Windows
 req.typenames: *PPEP_WORK_TYPE, PEP_WORK_TYPE
 ---
 
 # PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE function
 
 
-
 ## -description
+
+
 The <b>PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="..\pepfx\ns-pepfx-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE VOID PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE(
@@ -68,6 +78,9 @@ FORCEINLINE VOID PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE(
 
 
 ## -parameters
+
+
+
 
 ### -param ResourceUsage [in]
 
@@ -94,7 +107,6 @@ When set, indicates that the maximum address is fixed.
 ### -param Cacheable [in]
 
 The caching flag for the resource.
-
 <table>
 <tr>
 <th>Value</th>
@@ -102,9 +114,9 @@ The caching flag for the resource.
 </tr>
 <tr>
 <td width="40%">
-
-### -param 0
-
+<dl>
+<dt>0</dt>
+</dl>
 </td>
 <td width="60%">
 Indicates the memory is non-cacheable.
@@ -113,9 +125,9 @@ Indicates the memory is non-cacheable.
 </tr>
 <tr>
 <td width="40%">
-
-### -param 1
-
+<dl>
+<dt>1</dt>
+</dl>
 </td>
 <td width="60%">
 Indicates the memory is cacheable.
@@ -124,9 +136,9 @@ Indicates the memory is cacheable.
 </tr>
 <tr>
 <td width="40%">
-
-### -param 2
-
+<dl>
+<dt>2</dt>
+</dl>
 </td>
 <td width="60%">
 Indicates the memory is cacheable and supports write combining.
@@ -135,17 +147,16 @@ Indicates the memory is cacheable and supports write combining.
 </tr>
 <tr>
 <td width="40%">
-
-### -param 3
-
+<dl>
+<dt>3</dt>
+</dl>
 </td>
 <td width="60%">
 The memory is cacheable and prefetchable.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param ReadWrite [in]
@@ -192,7 +203,6 @@ The name of the resource descriptor.
 ### -param MemoryRangeType [in]
 
 This parameter identifies the type of memory range provided by this resource.
-
 <table>
 <tr>
 <th>Value</th>
@@ -200,9 +210,9 @@ This parameter identifies the type of memory range provided by this resource.
 </tr>
 <tr>
 <td width="40%">
-
-### -param 0
-
+<dl>
+<dt>0</dt>
+</dl>
 </td>
 <td width="60%">
 Address range memory: This range is available RAM usable by the operating system.
@@ -211,9 +221,9 @@ Address range memory: This range is available RAM usable by the operating system
 </tr>
 <tr>
 <td width="40%">
-
-### -param 1
-
+<dl>
+<dt>1</dt>
+</dl>
 </td>
 <td width="60%">
 Address range reserved: This range of addresses is in use or reserved by the system
@@ -224,9 +234,9 @@ operating system's memory manager.
 </tr>
 <tr>
 <td width="40%">
-
-### -param 2
-
+<dl>
+<dt>2</dt>
+</dl>
 </td>
 <td width="60%">
 Address range ACPI: ACPI Reclaim Memory. This range is available RAM usable by
@@ -236,9 +246,9 @@ the OS after it reads the ACPI tables.
 </tr>
 <tr>
 <td width="40%">
-
-### -param 3
-
+<dl>
+<dt>3</dt>
+</dl>
 </td>
 <td width="60%">
 Address Range NVS: ACPI NVS Memory. This range of addresses is in use or
@@ -248,13 +258,12 @@ an NVS sleep.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
-### -param TanslationTypeNonStatic [in]
+### -param TranslationTypeNonStatic
 
-When true, indicates that the resource uses type translation. Otherwise, it uses type-static translation.
+TBD
 
 
 ### -param Resource [out]
@@ -262,19 +271,22 @@ When true, indicates that the resource uses type translation. Otherwise, it uses
 This is cast to *<a href="..\pepfx\ns-pepfx-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a>.
 
 
+#### - TanslationTypeNonStatic [in]
+
+When true, indicates that the resource uses type translation. Otherwise, it uses type-static translation.
+
+
 ## -returns
+
+
 This function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\pepfx\ns-pepfx-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a>
-</dt>
-</dl>
+
  
 
  

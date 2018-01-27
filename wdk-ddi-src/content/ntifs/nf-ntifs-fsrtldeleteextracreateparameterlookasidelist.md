@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 786635b4-db99-4b35-9fb5-23233997d091
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlDeleteExtraCreateParameterLookasideList
+ms.keywords: ntifs/FsRtlDeleteExtraCreateParameterLookasideList, ifsk.fsrtldeleteextracreateparameterlookasidelist, FsRtlDeleteExtraCreateParameterLookasideList, fsrtlref_43144ea3-5cbc-43ce-b3f8-4101b1e3aeaa.xml, FsRtlDeleteExtraCreateParameterLookasideList routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: FsRtlDeleteExtraCreateParameterLookasideList is avail
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlDeleteExtraCreateParameterLookasideList
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlDeleteExtraCreateParameterLookasideList
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlDeleteExtraCreateParameterLookasideList function
 
 
-
 ## -description
+
+
 The <b>FsRtlDeleteExtraCreateParameterLookasideList </b>routine frees an extra create parameter (ECP) lookaside list.
 
 
-
 ## -syntax
+
 
 ````
 VOID FsRtlDeleteExtraCreateParameterLookasideList(
@@ -54,6 +64,9 @@ VOID FsRtlDeleteExtraCreateParameterLookasideList(
 
 
 ## -parameters
+
+
+
 
 ### -param Lookaside [in, out]
 
@@ -68,33 +81,33 @@ This <i>Flags</i> parameter should be the same as the <i>Flags</i> parameter use
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The <b>FsRtlDeleteExtraCreateParameterLookasideList</b> routine frees the ECP lookaside list to which the <i>Lookaside</i> parameter points. However, freeing the lookaside list does not automatically free any ECP context structures allocated from the lookaside list. To free an ECP context structure allocated from a lookaside list, call the <a href="..\ntifs\nf-ntifs-fsrtlfreeextracreateparameter.md">FsRtlFreeExtraCreateParameter</a> routine.
 
 Drivers must explicitly free all ECP context structures and ECP lookaside lists that they created before unloading. For more information about using lookaside lists, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565416">Using Lookaside Lists</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-fsrtlfreeextracreateparameter.md">FsRtlFreeExtraCreateParameter</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-fsrtlinitextracreateparameterlookasidelist.md">FsRtlInitExtraCreateParameterLookasideList</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558775">PAGED_LOOKASIDE_LIST</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-fsrtlfreeextracreateparameter.md">FsRtlFreeExtraCreateParameter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
+
  
 
  

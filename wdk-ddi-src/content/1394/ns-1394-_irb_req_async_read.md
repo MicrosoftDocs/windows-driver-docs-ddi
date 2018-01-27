@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: C88A1F30-FC6B-4EC4-8F10-F507E17CF01D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _IRB_REQ_ASYNC_READ, IRB_REQ_ASYNC_READ
+ms.keywords: IEEE.irb_req_async_read, IRB_REQ_ASYNC_READ, IRB_REQ_ASYNC_READ structure [Buses], 1394/IRB_REQ_ASYNC_READ, _IRB_REQ_ASYNC_READ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IRB_REQ_ASYNC_READ
-req.alt-loc: 1394.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1394.h
+apiname: 
+-	IRB_REQ_ASYNC_READ
+product: Windows
+targetos: Windows
 req.typenames: IRB_REQ_ASYNC_READ
 ---
 
 # _IRB_REQ_ASYNC_READ structure
 
 
-
 ## -description
+
+
 This structure contains the fields necessary for the 1394 stack to carry out an asynchronous read request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _IRB_REQ_ASYNC_READ {
@@ -63,6 +73,9 @@ typedef struct _IRB_REQ_ASYNC_READ {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DestinationAddress
 
@@ -85,7 +98,7 @@ If raw-mode addressing is used, the client driver should set the <b>nBlockSize</
 
 
 For more information on raw-mode addressing, see <a href="https://msdn.microsoft.com/93ad0cdf-5ac2-4916-b90e-1e64ca4494b6">Sending Asynchronous I/O Request Packets on the IEEE 1394 Bus.</a>
-<div class="alert"><b>Note</b>  In Windows 7 and later versions of Windows, you can specify new values higher speed and  greater sized payloads. For more information, see <a href="buses.device_driver_interface__ddi__changes_in_windows_7#speed#speed">New Flags for Speed and Payload Size</a> and <a href="buses.device_driver_interface__ddi__changes_in_windows_7#ioctl#ioctl">IEEE 1394 IOCTL Changes</a> in Device Driver Interface (DDI) Changes in Windows 7.</div>
+<div class="alert"><b>Note</b>  In Windows 7 and later versions of Windows, you can specify new values higher speed and  greater sized payloads. For more information, see <a href="https://msdn.microsoft.com/5473C6AC-284C-41B1-AA67-75696BE96C24">New Flags for Speed and Payload Size</a> and <a href="https://msdn.microsoft.com/5473C6AC-284C-41B1-AA67-75696BE96C24">IEEE 1394 IOCTL Changes</a> in Device Driver Interface (DDI) Changes in Windows 7.</div>
 <div> </div>
 
 
@@ -93,7 +106,6 @@ For more information on raw-mode addressing, see <a href="https://msdn.microsoft
 ### -field fulFlags
 
 Specifies any nondefault settings for this operation. The following flags are provided.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -119,8 +131,7 @@ The bus driver returns the elapsed time of the operation in <b>u.AsyncRead.Elaps
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Mdl
@@ -157,5 +168,3 @@ Reserved. Drivers must set this to zero.
 
 Elapsed time in nanoseconds. Only valid for flag ASYNC_FLAGS_PING.
 
-
-## -remarks

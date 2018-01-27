@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7edbe37b-ea45-4d37-908c-25c840e4cd74
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_STREAM, D3D11_1DDI_VIDEO_PROCESSOR_STREAM
+ms.keywords: d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STREAM, D3D11_1DDI_VIDEO_PROCESSOR_STREAM, D3D11_1DDI_VIDEO_PROCESSOR_STREAM structure [Display Devices], display.d3d11_1ddi_video_processor_stream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDI_VIDEO_PROCESSOR_STREAM
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDI_VIDEO_PROCESSOR_STREAM
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_STREAM
 ---
 
 # D3D11_1DDI_VIDEO_PROCESSOR_STREAM structure
 
 
-
 ## -description
+
+
 Contains stream-level data for the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D11_1DDI_VIDEO_PROCESSOR_STREAM {
@@ -63,6 +73,9 @@ typedef struct D3D11_1DDI_VIDEO_PROCESSOR_STREAM {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Enable
 
@@ -140,21 +153,20 @@ For any other stereo 3-D format, set this member to <b>NULL</b>.
 
 
 ## -remarks
+
+
 If the stereo 3-D format is <b>D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_SEPARATE</b>, the <b>pPastSurfaces</b>, <b>pInputSurface</b>, and <b>pFutureSurfaces</b> members contain the left view.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamstereoformat.md">VideoProcessorSetStreamStereoFormat</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
+
  
 
  

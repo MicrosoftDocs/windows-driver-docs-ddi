@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4125e210-c3c2-475c-b516-617fca5d3d0e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlAreNamesEqual
+ms.keywords: fsrtlref_748ea4a2-40a9-47e7-8a7f-f67463082f81.xml, FsRtlAreNamesEqual, FsRtlAreNamesEqual routine [Installable File System Drivers], ntifs/FsRtlAreNamesEqual, ifsk.fsrtlarenamesequal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlAreNamesEqual
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlAreNamesEqual
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlAreNamesEqual function
 
 
-
 ## -description
+
+
 The <b>FsRtlAreNamesEqual</b> routine determines whether two Unicode strings are equal. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlAreNamesEqual(
@@ -56,6 +66,9 @@ BOOLEAN FsRtlAreNamesEqual(
 
 
 ## -parameters
+
+
+
 
 ### -param ConstantNameA [in]
 
@@ -78,10 +91,15 @@ Optional pointer to uppercase character table to use for case-insensitive matchi
 
 
 ## -returns
+
+
 <b>FsRtlAreNamesEqual</b> returns <b>TRUE</b> if the two Unicode strings match, <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 The table pointed to by <i>UpcaseTable</i> is an array of uppercase Unicode characters, indexed by the Unicode character to be converted to uppercase. The array must contain entries for all characters that are legal in file names.
 
 Case-insensitive matching is performed by converting both strings to uppercase before they are compared. Thus the value of <i>UpcaseTable</i>, if supplied, is used only if <i>IgnoreCase</i> is <b>TRUE</b>.
@@ -91,15 +109,13 @@ If a pool allocation failure occurs, <b>FsRtlAreNamesEqual</b> raises a STATUS_N
 For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlequalunicodestring.md">RtlEqualUnicodeString</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
  
 
  

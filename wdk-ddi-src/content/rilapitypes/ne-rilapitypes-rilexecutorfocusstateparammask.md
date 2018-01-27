@@ -7,8 +7,8 @@ old-location: netvista\rilexecutorfocusstateparammask_2.htm
 old-project: netvista
 ms.assetid: 3c5d14cf-bfbc-439c-9ade-1a672f0b3fca
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILEXECUTORFOCUSSTATEPARAMMASK, RILEXECUTORFOCUSSTATEPARAMMASK
+ms.date: 1/18/2018
+ms.keywords: rilapitypes/RIL_PARAM_EXECUTORFOCUSSTATE_ALL, RIL_PARAM_EXECUTORFOCUSSTATE_ALL, RILEXECUTORFOCUSSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILEXECUTORFOCUSSTATEPARAMMASK, netvista.rilexecutorfocusstateparammask_2, rilapitypes/RIL_PARAM_EXECUTORFOCUSSTATE_STATE, RILEXECUTORFOCUSSTATEPARAMMASK, RIL_PARAM_EXECUTORFOCUSSTATE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILEXECUTORFOCUSSTATEPARAMMASK
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILEXECUTORFOCUSSTATEPARAMMASK
+product: Windows
+targetos: Windows
 req.typenames: RILEXECUTORFOCUSSTATEPARAMMASK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILEXECUTORFOCUSSTATEPARAMMASK enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILEXECUTORFOCUSSTATEPARAMMASK { 
@@ -56,10 +66,17 @@ typedef enum _RILEXECUTORFOCUSSTATEPARAMMASK {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_PARAM_EXECUTORFOCUSSTATE_NUMEXECUTORS
+
+
+
 ### -field RIL_PARAM_EXECUTORFOCUSSTATE_STATE
+
 
 
 ### -field RIL_PARAM_EXECUTORFOCUSSTATE_ALL
 
 
-## -remarks

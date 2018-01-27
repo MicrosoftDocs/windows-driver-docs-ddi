@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 37dc1e94-18cb-48d5-81a2-74d03cef4d5d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION, USBD_VERSION_INFORMATION
+ms.keywords: PUSBD_VERSION_INFORMATION structure pointer [Buses], _USBD_VERSION_INFORMATION, PUSBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION, usb/USBD_VERSION_INFORMATION, USBD_VERSION_INFORMATION structure [Buses], USBD_VERSION_INFORMATION, usb/PUSBD_VERSION_INFORMATION, usbstrct_2871bd56-3ee1-48ab-8353-d19b74470ff1.xml, buses.usbd_version_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBD_VERSION_INFORMATION
-req.alt-loc: usb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PUSBD_VERSION_INFORMATION, USBD_VERSION_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usb.h
+apiname: 
+-	USBD_VERSION_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION
 req.product: Windows 10 or later.
 ---
 
 # _USBD_VERSION_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>USBD_VERSION_INFORMATION</b> structure is used by the <a href="https://msdn.microsoft.com/05a22049-5165-41a3-aa6f-134c5d1b6c15">GetUSBDIVersion</a> function to report its output data.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBD_VERSION_INFORMATION {
@@ -56,10 +66,12 @@ typedef struct _USBD_VERSION_INFORMATION {
 
 ## -struct-fields
 
+
+
+
 ### -field USBDI_Version
 
 Contains a binary-coded decimal USB interface version number. Released interface versions are listed in the following table.
-
 <table>
 <tr>
 <th>Operating system</th>
@@ -129,8 +141,7 @@ Windows 8
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Supported_USB_Version
@@ -140,21 +151,20 @@ Contains a binary-coded decimal USB specification version number.
 
 ## -remarks
 
+
+
 <a href="https://msdn.microsoft.com/05a22049-5165-41a3-aa6f-134c5d1b6c15">GetUSBDIVersion</a> is deprecated in Windows 8 and later versions of the operating system. To determine whether a particular  version is supported by the underlying USB driver stack, the client driver must call <a href="..\usbdlib\nf-usbdlib-usbd_isinterfaceversionsupported.md">USBD_IsInterfaceVersionSupported</a>.  
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/05a22049-5165-41a3-aa6f-134c5d1b6c15">GetUSBDIVersion</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/1b571ee0-d47f-40b6-8beb-d57b49ae3ac8">USB Bus Driver Interface (USBDI) Routines</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/05a22049-5165-41a3-aa6f-134c5d1b6c15">GetUSBDIVersion</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
  
 
  

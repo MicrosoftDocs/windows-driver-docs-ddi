@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5aaebf38-bc09-4fb5-969e-7b456773d5ac
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VHF_CONFIG, VHF_CONFIG, *PVHF_CONFIG
+ms.keywords: display.i2cwrite, I2CWrite callback function [Display Devices], I2CWrite, PI2C_WRITE, PI2C_WRITE, video/I2CWrite, VideoPort_Functions_3e35f4d8-7c13-4c2c-b0e4-c518bc63e6f6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: I2CWrite
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	video.h
+apiname: 
+-	I2CWrite
+product: Windows
+targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PI2C_WRITE callback
 
 
-
 ## -description
-The <i>I2CWrite</i> function writes data over the <a href="wdkgloss.i#wdkgloss.inter_integrated_circuit__i2c_#wdkgloss.inter_integrated_circuit__i2c_"><i>I2C</i></a> channel.
 
+
+The <i>I2CWrite</i> function writes data over the <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">I2C</a> channel.
 
 
 ## -prototype
+
 
 ````
 PI2C_WRITE I2CWrite;
@@ -60,6 +70,9 @@ BOOLEAN I2CWrite(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -82,19 +95,23 @@ Specifies the number of bytes to be written.
 
 
 ## -returns
+
+
 <i>I2CWrite</i> returns <b>TRUE</b> if the data was successfully written, and <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 The video port implements this function, which can be accessed through a pointer in the <a href="..\video\ns-video-_video_port_i2c_interface.md">VIDEO_PORT_I2C_INTERFACE</a> structure. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\ns-video-_video_port_i2c_interface.md">VIDEO_PORT_I2C_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

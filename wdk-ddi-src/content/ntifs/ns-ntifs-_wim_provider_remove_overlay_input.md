@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8E228EA7-06ED-4BFB-AB15-E86334B9B0E8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _WIM_PROVIDER_REMOVE_OVERLAY_INPUT, *PWIM_PROVIDER_REMOVE_OVERLAY_INPUT, WIM_PROVIDER_REMOVE_OVERLAY_INPUT
+ms.keywords: WIM_PROVIDER_ADD_OVERLAY_INPUT, ifsk.wim_provider_remove_overlay_input, WIM_PROVIDER_ADD_OVERLAY_INPUT structure [Installable File System Drivers], ntifs/PWIM_PROVIDER_ADD_OVERLAY_INPUT, ntifs/WIM_PROVIDER_REMOVE_OVERLAY_INPUT, *PWIM_PROVIDER_REMOVE_OVERLAY_INPUT, PWIM_PROVIDER_ADD_OVERLAY_INPUT structure pointer [Installable File System Drivers], WIM_PROVIDER_REMOVE_OVERLAY_INPUT, PWIM_PROVIDER_ADD_OVERLAY_INPUT, _WIM_PROVIDER_REMOVE_OVERLAY_INPUT, WIM_PROVIDER_REMOVE_OVERLAY_INPUT structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.1 Update.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WIM_PROVIDER_ADD_OVERLAY_INPUT
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PWIM_PROVIDER_REMOVE_OVERLAY_INPUT, WIM_PROVIDER_REMOVE_OVERLAY_INPUT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	WIM_PROVIDER_ADD_OVERLAY_INPUT
+product: Windows
+targetos: Windows
+req.typenames: WIM_PROVIDER_REMOVE_OVERLAY_INPUT, *PWIM_PROVIDER_REMOVE_OVERLAY_INPUT
 ---
 
 # _WIM_PROVIDER_REMOVE_OVERLAY_INPUT structure
 
 
-
 ## -description
+
+
 A Windows Image File (WIM) data source to remove from the WIM provider is specified in the <b>WIM_PROVIDER_REMOVE_OVERLAY_INPUT</b> structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WIM_PROVIDER_ADD_OVERLAY_INPUT {
@@ -54,30 +64,31 @@ typedef struct _WIM_PROVIDER_ADD_OVERLAY_INPUT {
 
 ## -struct-fields
 
+
+
+
 ### -field DataSourceId
 
 An identifier value for the WIM file data source to remove.
 
 
 ## -remarks
+
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/dn632442">FSCTL_REMOVE_OVERLAY</a> request contains a <b>WIM_PROVIDER_REMOVE_OVERLAY_INPUT</b>  in the system buffer as input. The value in <b>DataSourceId</b> is the data source identifier returned from a prior  <a href="https://msdn.microsoft.com/library/windows/hardware/dn632437">FSCTL_ADD_OVERLAY</a> control request.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn632442">FSCTL_REMOVE_OVERLAY</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn632437">FSCTL_ADD_OVERLAY</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt426735">FSCTL_SUSPEND_OVERLAY</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn632442">FSCTL_REMOVE_OVERLAY</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn632445">FSCTL_UPDATE_OVERLAY</a>
-</dt>
-</dl>
+
  
 
  

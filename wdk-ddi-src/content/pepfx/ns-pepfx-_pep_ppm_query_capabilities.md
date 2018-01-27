@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D33FA62B-9DC8-4AC4-85FC-726C39FB76F4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_PPM_QUERY_CAPABILITIES, *PPEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES
+ms.keywords: PEP_PPM_QUERY_CAPABILITIES, _PEP_PPM_QUERY_CAPABILITIES, pepfx/PPEP_PPM_QUERY_CAPABILITIES, PPEP_PPM_QUERY_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_QUERY_CAPABILITIES structure [Kernel-Mode Driver Architecture], kernel.pep_ppm_query_capabilities, pepfx/PEP_PPM_QUERY_CAPABILITIES, *PPEP_PPM_QUERY_CAPABILITIES, PPEP_PPM_QUERY_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_PPM_QUERY_CAPABILITIES
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PPEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_PPM_QUERY_CAPABILITIES
+product: Windows
+targetos: Windows
+req.typenames: PEP_PPM_QUERY_CAPABILITIES, *PPEP_PPM_QUERY_CAPABILITIES
 ---
 
 # _PEP_PPM_QUERY_CAPABILITIES structure
 
 
-
 ## -description
+
+
 The <b>PEP_PPM_QUERY_CAPABILITIES</b> structure contains information about the processor power management (PPM) capabilities of the platform extension plug-in (PEP).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_PPM_QUERY_CAPABILITIES {
@@ -56,6 +66,9 @@ typedef struct _PEP_PPM_QUERY_CAPABILITIES {
 
 
 ## -struct-fields
+
+
+
 
 ### -field FeedbackCounterCount
 
@@ -77,16 +90,23 @@ typedef struct _PEP_PPM_QUERY_CAPABILITIES {
 [out] Whether the PEP supports supplying core parking hints. Set to TRUE if the PEP can indicate which cores to park, or to FALSE if it cannot.
 
 
+### -field DiscretePerformanceStateCount
+
+ 
+
+
+
 ## -remarks
+
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a> notification. All four members contain output values that the PEP writes to the structure in response to this notification.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a>
-</dt>
-</dl>
+
  
 
  

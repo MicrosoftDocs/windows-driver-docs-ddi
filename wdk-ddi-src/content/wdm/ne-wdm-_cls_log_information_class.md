@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: afffe6c3-a6d1-4e43-ba2b-f64269c44ec0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _CLS_LOG_INFORMATION_CLASS, *PCLS_LOG_INFORMATION_CLASS, CLS_LOG_INFORMATION_CLASS, PPCLS_LOG_INFORMATION_CLASS, *PCLFS_LOG_INFORMATION_CLASS, CLFS_LOG_INFORMATION_CLASS
+ms.keywords: ClfsLogPhysicalLsnInformation, ClfsLogBasicInformationPhysical, ClfsLogBasicInformation, CLS_LOG_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/ClfsLogStreamIdentifierInformation, wdm/ClfsLogBasicInformationPhysical, _CLS_LOG_INFORMATION_CLASS, CLFS_LOG_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], PPCLS_LOG_INFORMATION_CLASS, PCLFS_LOG_INFORMATION_CLASS, ClfsLogPhysicalNameInformation, wdm/PCLFS_LOG_INFORMATION_CLASS, wdm/PPCLFS_LOG_INFORMATION_CLASS, wdm/PCLS_LOG_INFORMATION_CLASS, ClfsLogStreamIdentifierInformation, CLFS_LOG_INFORMATION_CLASS, PCLS_LOG_INFORMATION_CLASS, wdm/PPCLS_LOG_INFORMATION_CLASS, wdm/ClfsLogPhysicalLsnInformation, *PCLFS_LOG_INFORMATION_CLASS, ClfsLogSystemMarkingInformation, wdm/ClfsLogBasicInformation, *PCLS_LOG_INFORMATION_CLASS, wdm/ClfsLogPhysicalNameInformation, PCLFS_LOG_INFORMATION_CLASS enumeration pointer [Kernel-Mode Driver Architecture], kernel.clfs_log_information_class, sysenum_b63b4055-ea69-4955-8684-b42b148a3b7c.xml, CLS_LOG_INFORMATION_CLASS, PPCLS_LOG_INFORMATION_CLASS enumeration pointer [Kernel-Mode Driver Architecture], PPCLFS_LOG_INFORMATION_CLASS, wdm/ClfsLogSystemMarkingInformation, PCLS_LOG_INFORMATION_CLASS enumeration pointer [Kernel-Mode Driver Architecture], wdm/CLFS_LOG_INFORMATION_CLASS, wdm/CLS_LOG_INFORMATION_CLASS, PPCLFS_LOG_INFORMATION_CLASS enumeration pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CLS_LOG_INFORMATION_CLASS
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PCLS_LOG_INFORMATION_CLASS, CLS_LOG_INFORMATION_CLASS, PPCLS_LOG_INFORMATION_CLASS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	CLS_LOG_INFORMATION_CLASS
+product: Windows
+targetos: Windows
+req.typenames: *PCLS_LOG_INFORMATION_CLASS, PPCLS_LOG_INFORMATION_CLASS, CLS_LOG_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 
 # _CLS_LOG_INFORMATION_CLASS enumeration
 
 
-
 ## -description
+
+
 The <b>CLFS_LOG_INFORMATION_CLASS</b> enumeration indicates the type of information that is requested by a call to <a href="..\wdm\nf-wdm-clfsquerylogfileinformation.md">ClfsQueryLogFileInformation</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _CLS_LOG_INFORMATION_CLASS { 
@@ -59,6 +69,9 @@ typedef enum _CLS_LOG_INFORMATION_CLASS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field ClfsLogBasicInformation
 
@@ -91,15 +104,16 @@ Maps virtual LSNs to physical LSNs; only valid for physical logs. This enumerati
 
 
 ## -remarks
+
+
 The <i>eInformationClass</i> parameter of the <a href="..\wdm\nf-wdm-clfsquerylogfileinformation.md">ClfsQueryLogFileInformation</a> function is a value from the <b>CLFS_LOG_INFORMATION_CLASS</b> enumeration.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-clfsquerylogfileinformation.md">ClfsQueryLogFileInformation</a>
-</dt>
-</dl>
+
  
 
  

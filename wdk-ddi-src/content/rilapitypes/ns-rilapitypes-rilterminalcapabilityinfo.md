@@ -7,8 +7,8 @@ old-location: netvista\rilterminalcapabilityinfo_2.htm
 old-project: netvista
 ms.assetid: 29d9bf92-ea35-4d74-bc4c-3f386e7fb3fa
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILTERMINALCAPABILITYINFO, RILTERMINALCAPABILITYINFO, *LPRILTERMINALCAPABILITYINFO
+ms.date: 1/18/2018
+ms.keywords: rilapitypes/RILTERMINALCAPABILITYINFO, RILTERMINALCAPABILITYINFO structure [Network Drivers Starting with Windows Vista], *LPRILTERMINALCAPABILITYINFO, RILTERMINALCAPABILITYINFO, netvista.rilterminalcapabilityinfo_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILTERMINALCAPABILITYINFO
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILTERMINALCAPABILITYINFO
+product: Windows
+targetos: Windows
 req.typenames: RILTERMINALCAPABILITYINFO, *LPRILTERMINALCAPABILITYINFO
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILTERMINALCAPABILITYINFO structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILTERMINALCAPABILITYINFO {
@@ -56,10 +66,13 @@ typedef struct _RILTERMINALCAPABILITYINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field dwSize
+
 
 
 ### -field bData
 
 
-## -remarks

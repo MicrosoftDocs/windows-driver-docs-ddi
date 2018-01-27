@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2d9e0a8e-9485-427d-bdd0-2d89dec76a77
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_MOVE_RECT, D3DKMT_MOVE_RECT
+ms.keywords: D3DKMT_MOVE_RECT, D3DKMT_MOVE_RECT structure [Display Devices], display.d3dkmt_move_rect, d3dkmdt/D3DKMT_MOVE_RECT, _D3DKMT_MOVE_RECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_MOVE_RECT
-req.alt-loc: D3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmdt.h
+apiname: 
+-	D3DKMT_MOVE_RECT
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_MOVE_RECT
 ---
 
 # _D3DKMT_MOVE_RECT structure
 
 
-
 ## -description
+
+
 Provides information on a screen-to-screen move and a dirty rectangle copy operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_MOVE_RECT {
@@ -55,6 +65,9 @@ typedef struct _D3DKMT_MOVE_RECT {
 
 ## -struct-fields
 
+
+
+
 ### -field SourcePoint
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that describes the source (<i>x, y</i>) point where the source rectangle is copied from.
@@ -65,18 +78,12 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that contains the destination rectangle where the dirty rectangle is copied to.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-</dt>
-</dl>
+
  
 
  

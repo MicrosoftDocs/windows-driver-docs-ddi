@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5cb10ec9-8496-49d1-b8d0-53d8fe7470c5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW, D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW
+ms.keywords: D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW, D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_804b8de8-55ba-4a68-ba21-ada239882372.xml, d3d10umddi/D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW, display.d3d10ddiarg_tex1d_shaderresourceview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW
+product: Windows
+targetos: Windows
 req.typenames: D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW
 ---
 
 # D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW structure
 
 
-
 ## -description
+
+
 The D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW structure describes a one-dimensional (1-D) texture that is used to create a shader resource view in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createshaderresourceview.md">CreateShaderResourceView</a> function. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW {
@@ -56,6 +66,9 @@ typedef struct D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW {
 
 
 ## -struct-fields
+
+
+
 
 ### -field MostDetailedMip
 
@@ -78,23 +91,22 @@ typedef struct D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW {
 
 
 ## -remarks
+
+
 If the <b>MipLevels</b> member is set to -1, the MIP-maps in the texture start from the MIP-map that is set in the <b>MostDetailedMip</b> member. 
 
 If the <b>ArraySize</b> member is set to -1, the array slices in the texture start from the array slice that is set in <b>FirstArraySlice</b> member. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createshaderresourceview.md">CreateShaderResourceView</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createshaderresourceview.md">D3D10DDIARG_CREATESHADERRESOURCEVIEW</a>
-</dt>
-</dl>
+
  
 
  

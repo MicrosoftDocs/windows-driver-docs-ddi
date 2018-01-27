@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e64715d2-a8f1-47c3-9422-b565800ff79e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGateInitialize
+ms.keywords: stream.ksgateinitialize, KsGateInitialize function [Streaming Media Devices], ks/KsGateInitialize, KsGateInitialize, avfunc_1ec7041b-e335-4920-ad40-06290d1579c2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsGateInitialize
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KsGateInitialize
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsGateInitialize function
 
 
-
 ## -description
+
+
 The<b> KsGateInitialize</b> function initializes a gate for use.
 
 
-
 ## -syntax
+
 
 ````
 void __inline KsGateInitialize(
@@ -56,6 +66,9 @@ void __inline KsGateInitialize(
 
 
 ## -parameters
+
+
+
 
 ### -param Gate [in]
 
@@ -78,10 +91,15 @@ This parameter specifies whether to propagate ON transitions or OFF transitions.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 Minidrivers should not call <b>KsGateInitialize</b> directly, but should instead use <a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a> or <a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>.
 
 AND and OR gates are conceptualizations of the gating mechanism. AVStream does not distinguish between them in the implementation of the common gate functions. The gate functions specific to AND and OR gates are inline calls to the common gate functions.
@@ -89,21 +107,17 @@ AND and OR gates are conceptualizations of the gating mechanism. AVStream does n
 To learn more about the gate construct in AVStream, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>, <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
-</dt>
-<dt>
+
+<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+
 <a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
-</dt>
-</dl>
+
  
 
  

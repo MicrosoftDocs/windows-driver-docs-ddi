@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b2723a34-d9c2-40c9-b6c9-6441ead63d2e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerGetProductData
+ms.keywords: mcd/ChangerGetProductData, storage.changergetproductdata, chgrmini_05ad3aaa-8975-44ee-ad09-149f288d8eef.xml, ChangerGetProductData, ChangerGetProductData function [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ChangerGetProductData
-req.alt-loc: mcd.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mcd.h
+apiname: 
+-	ChangerGetProductData
+product: Windows
+targetos: Windows
 req.typenames: LAMP_INTENSITY_WHITE
 ---
 
 # ChangerGetProductData function
 
 
-
 ## -description
+
+
 <b>ChangerGetProductData</b> handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_GET_PRODUCT_DATA. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ChangerGetProductData(
@@ -54,6 +64,9 @@ NTSTATUS ChangerGetProductData(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceObject [in]
 
@@ -66,10 +79,15 @@ Pointer to the IRP.
 
 
 ## -returns
+
+
 <b>ChangerGetProductData</b> always returns STATUS_SUCCESS.
 
 
+
 ## -remarks
+
+
 This routine is required.
 
 <b>ChangerGetProductData</b> returns product data for a changer.
@@ -79,15 +97,13 @@ The changer class driver checks the output buffer length in the I/O stack locati
 <b>ChangerGetProductData</b> fills in a <a href="..\ntddchgr\ns-ntddchgr-_changer_product_data.md">CHANGER_PRODUCT_DATA</a> structure at <i>Irp</i><b>-&gt;AssociatedIrp.SystemBuffer</b> before returning to the changer class driver. If the miniclass driver cached inquiry data in the changer's device extension before returning from <b>ChangerInitialize</b>, all members except <b>DeviceType</b> can be filled in from this data. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\mcd\nf-mcd-changerinitialize.md">ChangerInitialize</a>
-</dt>
-<dt>
+
 <a href="..\ntddchgr\ns-ntddchgr-_changer_product_data.md">CHANGER_PRODUCT_DATA</a>
-</dt>
-</dl>
+
+<a href="..\mcd\nf-mcd-changerinitialize.md">ChangerInitialize</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: AB79C2AE-0696-4EEC-9FC0-8A458CF19B82
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFWorkItem, IWDFWorkItem::Flush, Flush
+ms.keywords: Flush, Flush method, IWDFWorkItem interface, wudfddi/IWDFWorkItem::Flush, umdf.iwdfworkitem_flush, IWDFWorkItem, wdf.iwdfworkitem_flush, Flush method, IWDFWorkItem interface, Flush method, IWDFWorkItem::Flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.11
-req.alt-api: IWDFWorkItem.Flush
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFWorkItem.Flush
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IWDFWorkItem::Flush method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>Flush</b> method returns after this interface's work item has been serviced.
 
 
-
 ## -syntax
+
 
 ````
 void Flush();
@@ -56,29 +66,31 @@ void Flush();
 ## -parameters
 
 
+
+
+
 ## -returns
-This method does not return a value.
+
 
 This method does not return a value.
 
-This method does not return a value.
 
 
 ## -remarks
+
+
 If a driver calls the <b>Flush</b> method, the method does not return until a worker thread has removed the specified work item from the work-item queue and called the driver's <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a> callback function, and the <i>OnWorkItem</i> callback function has subsequently returned after processing the work item.
 
 For more information, see <a href="https://msdn.microsoft.com/4617A33F-9026-45FF-9CC2-7215423E6D35">Using Work Items</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a>
-</dt>
-<dt>
+
 <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a>
-</dt>
-</dl>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a>
+
  
 
  

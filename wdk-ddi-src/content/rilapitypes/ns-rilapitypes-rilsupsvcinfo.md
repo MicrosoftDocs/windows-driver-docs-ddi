@@ -7,8 +7,8 @@ old-location: netvista\rilsupsvcinfo_2.htm
 old-project: netvista
 ms.assetid: b3b86cf8-0e0c-4ed1-9d8c-6f2fef00b9cd
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSUPSVCINFO, RILSUPSVCINFO, *LPRILSUPSVCINFO
+ms.date: 1/18/2018
+ms.keywords: RILSUPSVCINFO structure [Network Drivers Starting with Windows Vista], *LPRILSUPSVCINFO, netvista.rilsupsvcinfo_2, RILSUPSVCINFO, rilapitypes/RILSUPSVCINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSUPSVCINFO
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILSUPSVCINFO
+product: Windows
+targetos: Windows
 req.typenames: RILSUPSVCINFO, *LPRILSUPSVCINFO
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILSUPSVCINFO structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILSUPSVCINFO {
@@ -73,61 +83,81 @@ typedef struct _RILSUPSVCINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwExecutor
+
 
 
 ### -field fFromNetwork
 
 
+
 ### -field dwFailureReason
+
 
 
 ### -field dwSupSvcAction
 
 
+
 ### -field dwCallForwardingReason
+
 
 
 ### -field dwCallBarringType
 
 
+
 ### -field dwSupSvcType
+
 
 
 ### -field dwInfoClasses
 
 
+
 ### -field aiIdentifier
+
 
 
 ### -field szCallBarringPassword
 
 
+
 ### -field szNewCallBarringPassword
+
 
 
 ### -field callForwardSettings
 
 
+
 ### -field callerIdSettings
+
 
 
 ### -field dialedIdSettings
 
 
+
 ### -field hideIdSettings
+
 
 
 ### -field hideConnectedIdSettings
 
 
+
 ### -field supServiceData
 
 
-## -remarks

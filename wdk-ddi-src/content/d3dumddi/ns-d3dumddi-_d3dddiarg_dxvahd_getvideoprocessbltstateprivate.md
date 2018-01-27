@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0b6c0033-d6aa-4662-8818-ea737cf5a1c0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE, D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE
+ms.keywords: _D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE, UMDisplayDriver_param_Structs_998b4bf8-b2ff-48a4-b4d4-1d41ecd08558.xml, d3dumddi/D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE, D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE, D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE structure [Display Devices], display.d3dddiarg_dxvahd_getvideoprocessbltstateprivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE is su
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE
 ---
 
 # _D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE structure describes the private bit-block transfer (bitblt) state of the video processor to retrieve. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE {
@@ -55,6 +65,9 @@ typedef struct _D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE {
 
 ## -struct-fields
 
+
+
+
 ### -field hVideoProcessor
 
 [in] A handle to the video processor whose private bitblt state the runtime requests.
@@ -65,18 +78,12 @@ typedef struct _D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE {
 [in/out] A pointer to <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_blt_state_private_data.md">DXVAHDDDI_BLT_STATE_PRIVATE_DATA</a> structure that identifies the private bitblt state to retrieve. The driver uses DXVAHDDDI_BLT_STATE_PRIVATE_DATA to return the private bitblt data. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_blt_state_private_data.md">DXVAHDDDI_BLT_STATE_PRIVATE_DATA</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_getvideoprocessbltstateprivate.md">GetVideoProcessBltStatePrivate</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_blt_state_private_data.md">DXVAHDDDI_BLT_STATE_PRIVATE_DATA</a>
+
  
 
  

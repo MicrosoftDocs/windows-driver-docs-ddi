@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1c0177da-5e5f-4e3e-aef2-05d8079bfb95
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTSetProcessSchedulingPriorityClass
+ms.keywords: D3DKMTSetProcessSchedulingPriorityClass, display.d3dkmtsetprocessschedulingpriorityclass, OpenGL_Functions_757bbe38-6623-4438-8af3-a2282bec6c78.xml, D3DKMTSetProcessSchedulingPriorityClass function [Display Devices], d3dkmthk/D3DKMTSetProcessSchedulingPriorityClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTSetProcessSchedulingPriorityClass
-req.alt-loc: Gdi32.dll,API-MS-Win-dx-d3dkmt-l1-1-0.dll,API-MS-Win-dx-d3dkmt-l1-1-1.dll,API-MS-Win-DX-D3DKMT-L1-1-2.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Gdi32.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-0.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-1.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+apiname: 
+-	D3DKMTSetProcessSchedulingPriorityClass
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTSetProcessSchedulingPriorityClass function
 
 
-
 ## -description
+
+
 The <b>D3DKMTSetProcessSchedulingPriorityClass</b> function sets the scheduling priority for a process.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS APIENTRY D3DKMTSetProcessSchedulingPriorityClass(
@@ -55,42 +68,68 @@ NTSTATUS APIENTRY D3DKMTSetProcessSchedulingPriorityClass(
 
 ## -parameters
 
-### -param hProcess [in]
+
+
+
+### -param
+
+TBD
+
+
+
+#### - hProcess [in]
 
 A handle to the process that scheduling priority is set for.
 
 
-### -param Priority [in]
+#### - Priority [in]
 
 A <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_schedulingpriorityclass.md">D3DKMT_SCHEDULINGPRIORITYCLASS</a>-typed value that indicates the priority level to set for the process.
 
 
 ## -returns
+
+
 <b>D3DKMTSetProcessSchedulingPriorityClass</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The scheduling priority was successfully set.
+</dl>
+</td>
+<td width="60%">
+The scheduling priority was successfully set.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>Parameters were validated and determined to be incorrect.
+</dl>
+</td>
+<td width="60%">
+Parameters were validated and determined to be incorrect.
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other NTSTATUS values.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_schedulingpriorityclass.md">D3DKMT_SCHEDULINGPRIORITYCLASS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetprocessschedulingpriorityclass.md">D3DKMTGetProcessSchedulingPriorityClass</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 442b5867-b420-46eb-a751-cd460641c505
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2SETLIGHT, D3DHAL_DP2SETLIGHT, *LPD3DHAL_DP2SETLIGHT
+ms.keywords: d3dhal/D3DHAL_DP2SETLIGHT, LPD3DHAL_DP2SETLIGHT structure pointer [Display Devices], *LPD3DHAL_DP2SETLIGHT, _D3DHAL_DP2SETLIGHT, LPD3DHAL_DP2SETLIGHT, D3DHAL_DP2SETLIGHT, D3DHAL_DP2SETLIGHT structure [Display Devices], display.d3dhal_dp2setlight, d3dstrct_253f0e1b-ff61-4324-a75f-25577bce318b.xml, d3dhal/LPD3DHAL_DP2SETLIGHT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DP2SETLIGHT
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DP2SETLIGHT
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DP2SETLIGHT
 ---
 
 # _D3DHAL_DP2SETLIGHT structure
 
 
-
 ## -description
+
+
 The D3DHAL_DP2SETLIGHT structure allows lights to be set for <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DP2SETLIGHT {
@@ -55,6 +65,9 @@ typedef struct _D3DHAL_DP2SETLIGHT {
 
 ## -struct-fields
 
+
+
+
 ### -field dwIndex
 
 Specifies an index into an array of lights.
@@ -63,7 +76,6 @@ Specifies an index into an array of lights.
 ### -field dwDataType
 
 Specifies the type of data being passed.
-
 <table>
 <tr>
 <th>Value</th>
@@ -99,19 +111,13 @@ Disables the light whose index is specified in <b>dwIndex</b>.
 
 </td>
 </tr>
-</table>
- 
-
-
-## -remarks
+</table> 
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-</dt>
-</dl>
+
  
 
  

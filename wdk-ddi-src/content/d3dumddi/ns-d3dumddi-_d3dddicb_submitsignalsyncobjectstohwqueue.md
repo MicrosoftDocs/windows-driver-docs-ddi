@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 22AA35D4-D287-443B-A49D-87C20BD436AA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
+ms.keywords: D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure [Display Devices], display.d3dddicb_submitsignalsyncobjectstohwqueue, _D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, d3dumddi/D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
 ---
 
 # _D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure
 
 
-
 ## -description
+
+
 A structure that holds information to submit a signal synchronization object to a hardware queue.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE {
@@ -58,6 +68,9 @@ typedef struct _D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Flags
 
@@ -91,5 +104,3 @@ Handles to monitored fence synchronization objects to signal.
 monitored fence values to signal.
 
 
-
-## -remarks

@@ -7,8 +7,8 @@ old-location: netvista\rilcallinfo_v3.htm
 old-project: netvista
 ms.assetid: b72eb90f-d98c-43ba-b3f8-2d248d61da40
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCALLINFO_V3, *LPRILCALLINFO_V3, RILCALLINFO_V3
+ms.date: 1/18/2018
+ms.keywords: RILCALLINFO_V3 structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILCALLINFO_V3, *LPRILCALLINFO_V3, netvista.rilcallinfo_v3, RILCALLINFO_V3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCALLINFO_V3
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILCALLINFO_V3, RILCALLINFO_V3
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILCALLINFO_V3
+product: Windows
+targetos: Windows
+req.typenames: RILCALLINFO_V3, *LPRILCALLINFO_V3
 ---
 
 # RILCALLINFO_V3 structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILCALLINFO_V3 {
@@ -72,61 +82,81 @@ typedef struct _RILCALLINFO_V3 {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwExecutor
+
 
 
 ### -field dwID
 
 
+
 ### -field dwDirection
+
 
 
 ### -field dwStatus
 
 
+
 ### -field dwType
+
 
 
 ### -field dwMultiparty
 
 
+
 ### -field raAddress
+
 
 
 ### -field rsaSubAddress
 
 
+
 ### -field wszDescription
+
 
 
 ### -field dwNumberPresentationIndicator
 
 
+
 ### -field dwNamePresentationIndicator
+
 
 
 ### -field dwFlags
 
 
+
 ### -field dwDisconnectInitiator
+
 
 
 ### -field dwDisconnectReason
 
 
+
 ### -field stDisconnectDetails
+
 
 
 ### -field rcmOfferAnswer
 
 
+
 ### -field rchsHandoverState
 
 
-## -remarks

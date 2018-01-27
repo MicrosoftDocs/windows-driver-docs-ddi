@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 31f1577d-72ba-495a-97e4-0569bdbc0ed7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_DESTROYCONTEXT, D3DDDICB_DESTROYCONTEXT
+ms.keywords: D3DDDICB_DESTROYCONTEXT structure [Display Devices], D3DDDICB_DESTROYCONTEXT, D3D_param_Structs_40e3c0f9-b30b-4fab-8b4a-a1809f03d0ba.xml, _D3DDDICB_DESTROYCONTEXT, d3dumddi/D3DDDICB_DESTROYCONTEXT, display.d3dddicb_destroycontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_DESTROYCONTEXT
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_DESTROYCONTEXT
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_DESTROYCONTEXT
 ---
 
 # _D3DDDICB_DESTROYCONTEXT structure
 
 
-
 ## -description
+
+
 The D3DDDICB_DESTROYCONTEXT structure contains the handle to a context to destroy.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_DESTROYCONTEXT {
@@ -54,23 +64,20 @@ typedef struct _D3DDDICB_DESTROYCONTEXT {
 
 ## -struct-fields
 
+
+
+
 ### -field hContext
 
 [in] A handle that the <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a> function returns and that identifies the context to destroy. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroycontextcb.md">pfnDestroyContextCb</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
+
  
 
  

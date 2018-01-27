@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F3F9B6EC-B978-4C87-8AE0-8F6BC73099D2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_COLORIMETRY, *PDXGK_COLORIMETRY, DXGK_COLORIMETRY
+ms.keywords: DXGK_COLORIMETRY, DXGK_COLORIMETRY structure [Display Devices], d3dkmddi/DXGK_COLORIMETRY, *PDXGK_COLORIMETRY, _DXGK_COLORIMETRY, PDXGK_COLORIMETRY, display.dxgk_colorimetry, PDXGK_COLORIMETRY structure pointer [Display Devices], d3dkmddi/PDXGK_COLORIMETRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_COLORIMETRY
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PDXGK_COLORIMETRY, DXGK_COLORIMETRY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_COLORIMETRY
+product: Windows
+targetos: Windows
+req.typenames: DXGK_COLORIMETRY, *PDXGK_COLORIMETRY
 ---
 
 # _DXGK_COLORIMETRY structure
 
 
-
 ## -description
+
+
 Describes colorimetry and closely related fields used to describe overrides from the descriptor retrieved from the display device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_COLORIMETRY {
@@ -61,6 +71,9 @@ typedef struct _DXGK_COLORIMETRY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field RedPoint
 
@@ -113,6 +126,8 @@ Indicates support for specific colorimetry and EOTF capabilities using bit-field
 
 
 ## -remarks
+
+
 This struct is used both for querying overrides from the driver, and for the OS reporting the final set of values it has selected.  Overrides are supported for integrated displays using this structure which is embedded within the DXGK_QUERYINTEGRATEDDISPLAYOUT struct and for external displays where this stuct is used as the output buffer is for an adapter query type DXGKQAITYPE_QUERYCOLORIMETRYOVERRIDES.  The selected and adjusted overrides are reported back to the driver using DxgkDdiSetTargetAdjustedColorimetry.
 
 
@@ -126,4 +141,6 @@ The color points are further validated beyond a simple sanity check (each value 
 
 
 When the OS calls DxgkDdiSetTargetAdjustedColorimetry, the FormatBitDepths and StandardColorimetryFlags are zeroed as these are capability fields so only valid in queries.
-</p>
+
+
+

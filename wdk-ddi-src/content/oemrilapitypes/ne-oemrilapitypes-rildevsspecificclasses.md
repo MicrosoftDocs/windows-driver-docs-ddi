@@ -7,8 +7,8 @@ old-location: netvista\rildevsspecificclasses.htm
 old-project: netvista
 ms.assetid: 21fcd199-b2bb-4ba0-9a22-33ef6579cd7a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILDEVSSPECIFICCLASSES, RILDEVSSPECIFICCLASSES
+ms.date: 1/18/2018
+ms.keywords: oemrilapitypes/RILDEVSSPECIFICCLASSES, oemrilapitypes/RIL_DSCLASS_OEM_GBA, RIL_DSCLASS_OEM_GBA, RILDEVSSPECIFICCLASSES, netvista.rildevsspecificclasses, RILDEVSSPECIFICCLASSES enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILDEVSSPECIFICCLASSES
-req.alt-loc: oemrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	oemrilapitypes.h
+apiname: 
+-	RILDEVSSPECIFICCLASSES
+product: Windows
+targetos: Windows
 req.typenames: RILDEVSSPECIFICCLASSES
 ---
 
 # RILDEVSSPECIFICCLASSES enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILDEVSSPECIFICCLASSES { 
@@ -54,7 +64,9 @@ typedef enum _RILDEVSSPECIFICCLASSES {
 
 ## -enum-fields
 
+
+
+
 ### -field RIL_DSCLASS_OEM_GBA
 
 
-## -remarks

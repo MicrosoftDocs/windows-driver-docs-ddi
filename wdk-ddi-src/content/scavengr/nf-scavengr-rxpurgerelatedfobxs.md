@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bb2d56a0-37f4-48bc-8b56-e5250f0f7443
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxPurgeRelatedFobxs
+ms.keywords: scavengr/RxPurgeRelatedFobxs, RxPurgeRelatedFobxs, RxPurgeRelatedFobxs function [Installable File System Drivers], ifsk.rxpurgerelatedfobxs, rxref_56862045-c344-4392-9a25-b4e22c36379f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxPurgeRelatedFobxs
-req.alt-loc: scavengr.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	scavengr.h
+apiname: 
+-	RxPurgeRelatedFobxs
+product: Windows
+targetos: Windows
+req.typenames: *PRX_CONTEXT, RX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
 # RxPurgeRelatedFobxs function
 
 
-
 ## -description
+
+
 <b>RxPurgeRelatedFobxs</b> purges all of the FOBX structures associated with a NET_ROOT structure.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RxPurgeRelatedFobxs(
@@ -58,36 +68,61 @@ NTSTATUS RxPurgeRelatedFobxs(
 
 ## -parameters
 
-### -param NetRoot 
+
+
+
+### -param NetRoot
 
 A pointer to the NET_ROOT structure for which the FOBX structures need to be purged.
 
 
-### -param RxContext 
+### -param RxContext
 
 A pointer to the RX_CONTEXT structure.
 
 
-### -param AttemptFinalize 
+### -param AttemptFinalization
 
-A Boolean value that indicates whether an attempt to finalize and release the associated FCB structure should occur.
+TBD
 
 
-### -param PurgingFcb 
+### -param PurgingFcb
 
 A pointer to the FCB structure for which purging should occur.
 
 
+#### - AttemptFinalize
+
+A Boolean value that indicates whether an attempt to finalize and release the associated FCB structure should occur.
+
+
 ## -returns
+
+
 <b>RxPurgeRelatedFobxs</b> returns STATUS_SUCCESS on success or one of the following error values on failure: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>No related FOBX structures could be purged.
+</dl>
+</td>
+<td width="60%">
+No related FOBX structures could be purged.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 At cleanup there are no more user handles associated with the file object. In such cases, the time window between close and cleanup is dictated by the additional references maintained by the memory manager and cache manager. On cleanup, the FOBX is put on a close pending list and removed from the corresponding list when a close operation is received. In the interim, if an open operation is failing with ACCESS_DENIED status, then RDBSS can force a purge of the FOBX structure. This is a synchronous operation.
 
 For directory renames, all files under the directory need to be closed. A network mini-redirector might call <b>RxPurgeRelatedFobxs</b> and <b>RxScavengeFobxsForNetRoot</b> in response to an IRP_MJ_SET_INFORMATION request to rename a directory. By passing in the NET_ROOT structure for the directory and a <b>NULL</b> FCB, all of the FOBX structures associated with the directory would be purged and scavenged.
@@ -99,21 +134,17 @@ If <i>AttemptFinalize</i> is set to <b>TRUE</b>, then <b>RxPurgeRelatedFobxs</b>
 If <i>PFCB</i> is not <b>NULL</b>, and this purging FCB strcuture is not the same as the FCB structure associated with the FOBX on the <b>ClosePendingFobxsList</b> member, then <b>RxPurgeRelatedFobxs</b> will call the <a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a> callback routine provided by the network mini-redirector if this routine is supported. The call to <b>MRxAreFilesAliased</b> is to determine if the PFCB is an alias for the FCB associated with the FOBX structure. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
-</dt>
-<dt>
-<a href="..\rxprocs\nf-rxprocs-rxpurgeallfobxs.md">RxPurgeAllFobxs</a>
-</dt>
-<dt>
+
 <a href="..\rxprocs\nf-rxprocs-rxscavengeallfobxs.md">RxScavengeAllFobxs</a>
-</dt>
-<dt>
+
 <a href="..\scavengr\nf-scavengr-rxscavengefobxsfornetroot.md">RxScavengeFobxsForNetRoot</a>
-</dt>
-</dl>
+
+<a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
+
+<a href="..\rxprocs\nf-rxprocs-rxpurgeallfobxs.md">RxPurgeAllFobxs</a>
+
  
 
  

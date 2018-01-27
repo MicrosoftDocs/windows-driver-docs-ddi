@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 01121323-da0c-4ae9-b0c0-f6302583237c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ObUnRegisterCallbacks
+ms.keywords: ObUnRegisterCallbacks routine [Kernel-Mode Driver Architecture], ObUnRegisterCallbacks, k107_f0c1fdd0-3dcc-466c-a7a1-fab0b38e4e88.xml, kernel.obunregistercallbacks, wdm/ObUnRegisterCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista with Service Pack 1 (SP1),
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ObUnRegisterCallbacks
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ObUnRegisterCallbacks
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ObUnRegisterCallbacks function
 
 
-
 ## -description
+
+
 The <b>ObUnRegisterCallbacks</b> routine unregisters a set of callback routines that were registered with the <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a> routine.
 
 
-
 ## -syntax
+
 
 ````
 VOID ObUnRegisterCallbacks(
@@ -55,25 +65,32 @@ VOID ObUnRegisterCallbacks(
 
 ## -parameters
 
+
+
+
 ### -param RegistrationHandle [in]
 
 A value that identifies the set of callback routines to unregister. The <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a> routine provides this value when it originally registered the callback routines.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A driver that calls the <b>ObRegisterCallbacks</b> routine must call the <b>ObUnRegisterCallbacks</b> routine before the driver is unloaded.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
-</dt>
-</dl>
+
  
 
  

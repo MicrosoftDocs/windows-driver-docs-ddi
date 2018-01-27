@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9c92e010-35d7-40ff-8025-51e945861b9c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _FORMAT_PARAMETERS, FORMAT_PARAMETERS, *PFORMAT_PARAMETERS
+ms.keywords: PFORMAT_PARAMETERS, FORMAT_PARAMETERS structure [Storage Devices], ntdddisk/PFORMAT_PARAMETERS, ntdddisk/FORMAT_PARAMETERS, PFORMAT_PARAMETERS structure pointer [Storage Devices], *PFORMAT_PARAMETERS, storage.format_parameters, structs-disk_063eb997-3411-4101-9cde-4417647eb53f.xml, FORMAT_PARAMETERS, _FORMAT_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FORMAT_PARAMETERS
-req.alt-loc: ntdddisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntdddisk.h
+apiname: 
+-	FORMAT_PARAMETERS
+product: Windows
+targetos: Windows
 req.typenames: FORMAT_PARAMETERS, *PFORMAT_PARAMETERS
 ---
 
 # _FORMAT_PARAMETERS structure
 
 
-
 ## -description
+
+
 The FORMAT_PARAMETERS structure is used in conjunction with the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks.md">IOCTL_DISK_FORMAT_TRACKS</a> request to format the specified set of contiguous tracks on the disk. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FORMAT_PARAMETERS {
@@ -57,6 +67,9 @@ typedef struct _FORMAT_PARAMETERS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field MediaType
 
@@ -83,18 +96,12 @@ Indicates the number of the head where the formatting should begin.
 Indicates the number of the head where the formatting should end. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks.md">IOCTL_DISK_FORMAT_TRACKS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562216">MEDIA_TYPE</a>
-</dt>
-</dl>
+
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks.md">IOCTL_DISK_FORMAT_TRACKS</a>
+
  
 
  

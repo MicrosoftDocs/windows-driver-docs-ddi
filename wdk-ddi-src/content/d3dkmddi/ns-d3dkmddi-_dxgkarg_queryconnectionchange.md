@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6B91F3F0-B02D-46F3-9086-EA32F043FC16
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_QUERYCONNECTIONCHANGE, DXGKARG_QUERYCONNECTIONCHANGE, *IN_PDXGKARG_QUERYCONNECTIONCHANGE
+ms.keywords: display.dxgkarg_queryconnectionchange, d3dkmddi/DXGKARG_QUERYCONNECTIONCHANGE, *IN_PDXGKARG_QUERYCONNECTIONCHANGE, DXGKARG_QUERYCONNECTIONCHANGE, DXGKARG_QUERYCONNECTIONCHANGE structure [Display Devices], _DXGKARG_QUERYCONNECTIONCHANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_QUERYCONNECTIONCHANGE
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_QUERYCONNECTIONCHANGE
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_QUERYCONNECTIONCHANGE
 ---
 
 # _DXGKARG_QUERYCONNECTIONCHANGE structure
 
 
-
 ## -description
+
+
 Used to hold the arguments for <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryconnectionchange.md">DXGKDDI_QUERYCONNECTIONCHANGE</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_QUERYCONNECTIONCHANGE {
@@ -54,9 +64,10 @@ typedef struct _DXGKARG_QUERYCONNECTIONCHANGE {
 
 ## -struct-fields
 
+
+
+
 ### -field ConnectionChange
 
 [out] Buffer into which the oldest available change is copied by driver.
 
-
-## -remarks

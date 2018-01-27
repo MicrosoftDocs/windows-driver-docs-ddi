@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 24d786df-2cdd-465c-b468-212e109d5ae1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS, TAPE_WRITE_MARKS
+ms.keywords: display.ioctl_video_save_hardware_state, IOCTL_VIDEO_SAVE_HARDWARE_STATE control code [Display Devices], IOCTL_VIDEO_SAVE_HARDWARE_STATE, ntddvdeo/IOCTL_VIDEO_SAVE_HARDWARE_STATE, Video_IOCTLs_2595d8e2-5b1e-47dd-b3ba-627425f84215.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_VIDEO_SAVE_HARDWARE_STATE
-req.alt-loc: Ntddvdeo.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,63 +29,89 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PTAPE_WRITE_MARKS, TAPE_WRITE_MARKS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddvdeo.h
+apiname: 
+-	IOCTL_VIDEO_SAVE_HARDWARE_STATE
+product: Windows
+targetos: Windows
+req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ---
 
 # IOCTL_VIDEO_SAVE_HARDWARE_STATE IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 Saves the state of the video adapter in the VRP <b>OutputBuffer</b>. Miniport drivers for VGA-compatible adapters are required to support this nonmodal request; optional for other miniport drivers.
 
-
-
-Saves the state of the video adapter in the VRP <b>OutputBuffer</b>. Miniport drivers for VGA-compatible adapters are required to support this nonmodal request; optional for other miniport drivers.
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 None
 
 
 ### -input-buffer-length
 
+
 <text></text>
 
+
+
 ### -output-buffer
+
 The miniport driver returns a VIDEO_HARDWARE_STATE structure in the VRP <b>OutputBuffer</b>.
 
 
 ### -output-buffer-length
 
+
 <text></text>
+
+
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 If the miniport driver successfully saves the adapter state, it sets the <b>Information</b> member of the <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_HARDWARE_STATE); otherwise, the miniport driver sets this member to zero.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
-</dt>
-</dl>
+
  
 
  

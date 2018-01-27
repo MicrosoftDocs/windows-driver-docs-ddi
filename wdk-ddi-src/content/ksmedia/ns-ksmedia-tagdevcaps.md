@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4032ec5c-c98a-44f9-9c74-dc5ada308d33
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagDEVCAPS, *PDEVCAPS, DEVCAPS
+ms.keywords: *PDEVCAPS, DEVCAPS structure [Streaming Media Devices], PDEVCAPS structure pointer [Streaming Media Devices], stream.devcaps, DEVCAPS, PDEVCAPS, ksmedia/DEVCAPS, ksmedia/PDEVCAPS, tagDEVCAPS, vidcapstruct_61cce92e-4f74-48ff-ae84-72579136a64f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DEVCAPS
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	DEVCAPS
+product: Windows
+targetos: Windows
 req.typenames: *PDEVCAPS, DEVCAPS
 ---
 
 # tagDEVCAPS structure
 
 
-
 ## -description
+
+
 The DEVCAPS structure describes the capabilities of an external device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagDEVCAPS {
@@ -75,6 +85,9 @@ typedef struct tagDEVCAPS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field CanRecord
 
@@ -109,7 +122,6 @@ Specifies if the external device can save.
 ### -field DeviceType
 
 Specifies the type of the external device. See Remarks.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -175,8 +187,7 @@ Unknown type
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field TCRead
@@ -252,7 +263,6 @@ Indicates if the external device requires calibrating.
 ### -field SeekType
 
 Specifies the type of seeking the external device is capable of. For example:
-
 <table>
 <tr>
 <th>Flag</th>
@@ -288,8 +298,7 @@ Indicates slow seeking (like a tape transport).
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field SimulatedHardware
@@ -298,6 +307,8 @@ Must be set to zero.
 
 
 ## -remarks
+
+
 Any ED_Xxx tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.
 
 All members of the DEVCAPS structure are <b>TRUE</b>/<b>FALSE</b> unless otherwise specified.
@@ -305,15 +316,13 @@ All members of the DEVCAPS structure are <b>TRUE</b>/<b>FALSE</b> unless otherwi
 The <b>DeviceType</b> member can be used by an application to detect the device type or its current operating mode. For example, it can return either ED_DEVTYPE_CAMERA or ED_DEVTYPE_VTR depending on a DV camcorder's mode of operation. Also, some DV devices may not be known and a device type of ED_DEVTYPE_UNKNOWN can be returned by the driver. This happens with some DV media converters.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-_timecode.md">TIMECODE</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-ksproperty_extdevice_s.md">KSPROPERTY_EXTDEVICE_S</a>
-</dt>
-</dl>
+
  
 
  

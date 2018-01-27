@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: df9180d8-37aa-4b75-a8c6-a786901bd8a6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _REG_RESTORE_KEY_INFORMATION, REG_RESTORE_KEY_INFORMATION, *PREG_RESTORE_KEY_INFORMATION
+ms.keywords: *PREG_RESTORE_KEY_INFORMATION, _REG_RESTORE_KEY_INFORMATION, kstruct_d_493707cd-b5e8-4f28-b080-b3639060b5e9.xml, wdm/REG_RESTORE_KEY_INFORMATION, wdm/PREG_RESTORE_KEY_INFORMATION, PREG_RESTORE_KEY_INFORMATION, kernel.reg_restore_key_information, REG_RESTORE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], PREG_RESTORE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_RESTORE_KEY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available on Windows Vista SP2 and later versions of 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: REG_RESTORE_KEY_INFORMATION
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	REG_RESTORE_KEY_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: REG_RESTORE_KEY_INFORMATION, *PREG_RESTORE_KEY_INFORMATION
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _REG_RESTORE_KEY_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>REG_RESTORE_KEY_INFORMATION</b> structure contains the information for a registry key that is about to be restored.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _REG_RESTORE_KEY_INFORMATION {
@@ -59,6 +69,9 @@ typedef struct _REG_RESTORE_KEY_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Object
 
@@ -107,6 +120,8 @@ This member is reserved for future use. This member is defined for Windows Vista
 
 
 ## -remarks
+
+
 Note that when a key is restored, only the last component of the path can be changed.
 
 The REG_REFRESH_HIVE flag is opaque and a filter should not attempt to change it.
@@ -114,15 +129,13 @@ The REG_REFRESH_HIVE flag is opaque and a filter should not attempt to change it
 For more information about registry filtering operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
  
 
  

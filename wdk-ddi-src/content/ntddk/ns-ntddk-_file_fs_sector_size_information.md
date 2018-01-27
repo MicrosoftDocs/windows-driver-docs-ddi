@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 24DEEDC7-B339-44DD-BF48-3BD59520EB8D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FILE_FS_SECTOR_SIZE_INFORMATION, *PFILE_FS_SECTOR_SIZE_INFORMATION, FILE_FS_SECTOR_SIZE_INFORMATION
+ms.keywords: PFILE_FS_SECTOR_SIZE_INFORMATION structure pointer [Installable File System Drivers], *PFILE_FS_SECTOR_SIZE_INFORMATION, FILE_FS_SECTOR_SIZE_INFORMATION, SSINFO_FLAGS_ALIGNED_DEVICE, FILE_FS_SECTOR_SIZE_INFORMATION structure [Installable File System Drivers], PFILE_FS_SECTOR_SIZE_INFORMATION, SSINFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE, ntddk/PFILE_FS_SECTOR_SIZE_INFORMATION, ifsk.file_fs_sector_size_information, ntddk/FILE_FS_SECTOR_SIZE_INFORMATION, _FILE_FS_SECTOR_SIZE_INFORMATION, SSINFO_FLAGS_NO_SEEK_PENALTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This structure is available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILE_FS_SECTOR_SIZE_INFORMATION
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	FILE_FS_SECTOR_SIZE_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: *PFILE_FS_SECTOR_SIZE_INFORMATION, FILE_FS_SECTOR_SIZE_INFORMATION
 ---
 
 # _FILE_FS_SECTOR_SIZE_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>FILE_FS_SECTOR_SIZE_INFORMATION</b> structure is used to query physical and logical sector size information for a file system volume. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILE_FS_SECTOR_SIZE_INFORMATION {
@@ -59,6 +69,9 @@ typedef struct _FILE_FS_SECTOR_SIZE_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field LogicalBytesPerSector
 
@@ -83,16 +96,15 @@ The portion of <b>PhysicalBytesPerSectorForAtomicity</b> considered as the physi
 ### -field Flags
 
 Flags for sector alignment and performance capabilities. This value is a bitwise OR combination of the following:
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field SSINFO_FLAGS_ALIGNED_DEVICE
-
+<td width="40%"><a id="SSINFO_FLAGS_ALIGNED_DEVICE"></a><a id="ssinfo_flags_aligned_device"></a><dl>
+<dt><b>SSINFO_FLAGS_ALIGNED_DEVICE</b></dt>
+</dl>
 </td>
 <td width="60%">
 Logical sectors of the storage device are aligned to physical sector boundaries.
@@ -100,9 +112,9 @@ Logical sectors of the storage device are aligned to physical sector boundaries.
 </td>
 </tr>
 <tr>
-
-### -field SSINFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE
-
+<td width="40%"><a id="SSINFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE"></a><a id="ssinfo_flags_partition_aligned_on_device"></a><dl>
+<dt><b>SSINFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE</b></dt>
+</dl>
 </td>
 <td width="60%">
 The partition is aligned to physical sector boundaries on the storage device.
@@ -110,9 +122,9 @@ The partition is aligned to physical sector boundaries on the storage device.
 </td>
 </tr>
 <tr>
-
-### -field SSINFO_FLAGS_NO_SEEK_PENALTY
-
+<td width="40%"><a id="SSINFO_FLAGS_NO_SEEK_PENALTY"></a><a id="ssinfo_flags_no_seek_penalty"></a><dl>
+<dt><b>SSINFO_FLAGS_NO_SEEK_PENALTY</b></dt>
+</dl>
 </td>
 <td width="60%">
 The storage device has no seek penalty.
@@ -120,17 +132,16 @@ The storage device has no seek penalty.
 </td>
 </tr>
 <tr>
-
-### -field SSINFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE
-
+<td width="40%"><a id="SSINFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE"></a><a id="ssinfo_flags_partition_aligned_on_device"></a><dl>
+<dt><b>SSINFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE</b></dt>
+</dl>
 </td>
 <td width="60%">
 The storage device supports the TRIM operation.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field ByteOffsetForSectorAlignment
@@ -144,15 +155,23 @@ The offset value, in bytes, used to align the partition to a physical sector bou
 
 
 ## -remarks
-This information can be queried in either of the following ways: 
 
+
+This information can be queried in either of the following ways: 
+<ul>
+<li>
 Call <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, passing <b>FileFsSectorSizeInformation</b> as the value of <i>FileInformationClass</i> and passing a caller-allocated, <b>FILE_FS_SECTOR_SIZE_INFORMATION</b>-structured buffer as the value of <i>FileInformation</i>. 
 
+</li>
+<li>
 Create an IRP with major function code <a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>. 
 
+</li>
+<li>
 Call <a href="..\ntifs\nf-ntifs-fsrtlgetsectorsizeinformation.md">FsRtlGetSectorSizeInformation</a> with a pointer to a <b>FILE_FS_SECTOR_SIZE_INFORMATION</b>-structured buffer. The  <b>FileSystemEffectivePhysicalBytesPerSectorForAtomicity</b> member will not have a value initialized by  the file system when this structure is returned from <b>FsRtlGetSectorSizeInformation</b>. A file system driver will typically call this function and then set its own value for  <b>FileSystemEffectivePhysicalBytesPerSectorForAtomicity</b>.
 
-No specific access rights are required to query this information. Thus this information is available as long as the volume is accessed through an open handle to the volume itself, or to a file or directory on the volume. 
+</li>
+</ul>No specific access rights are required to query this information. Thus this information is available as long as the volume is accessed through an open handle to the volume itself, or to a file or directory on the volume. 
 
 The size of the buffer passed in the <i>FileInformation</i> parameter to <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a> must be at least <b>sizeof</b> (FILE_FS_SECTOR_SIZE_INFORMATION). 
 
@@ -161,27 +180,21 @@ The file system uses the value of <b>LogicalBytesPerSector</b> to determine the 
 If the system is unable to determine values for <b>PhysicalBytesPerSectorForAtomicity</b> and <b>PhysicalBytesPerSectorForPerformance</b> from the storage device, then they are set to the value of <b>LogicalBytesPerSector.</b>
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-fsrtlgetsectorsizeinformation.md">FsRtlGetSectorSizeInformation</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
-</dt>
-<dt>
-<a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a>
-</dt>
-<dt>
+
+<a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a>
+
+<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
+
+<a href="..\ntifs\nf-ntifs-fsrtlgetsectorsizeinformation.md">FsRtlGetSectorSizeInformation</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

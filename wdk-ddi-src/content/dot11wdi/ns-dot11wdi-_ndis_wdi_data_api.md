@@ -7,8 +7,8 @@ old-location: netvista\ndis_wdi_data_api.htm
 old-project: netvista
 ms.assetid: 8C26D62E-711A-4CE7-BD2B-D78B794C67FB
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_WDI_DATA_API, NDIS_WDI_DATA_API, *PNDIS_WDI_DATA_API
+ms.date: 1/18/2018
+ms.keywords: dot11wdi/PNDIS_WDI_DATA_API, NDIS_WDI_DATA_API, *PNDIS_WDI_DATA_API, dot11wdi/NDIS_WDI_DATA_API, PNDIS_WDI_DATA_API, PNDIS_WDI_DATA_API structure pointer [Network Drivers Starting with Windows Vista], NDIS_WDI_DATA_API structure [Network Drivers Starting with Windows Vista], _NDIS_WDI_DATA_API, netvista.ndis_wdi_data_api
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_WDI_DATA_API
-req.alt-loc: dot11wdi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dot11wdi.h
+apiname: 
+-	NDIS_WDI_DATA_API
+product: Windows
+targetos: Windows
 req.typenames: NDIS_WDI_DATA_API, *PNDIS_WDI_DATA_API
 ---
 
 # _NDIS_WDI_DATA_API structure
 
 
-
 ## -description
+
+
 The 
   NDIS_WDI_DATA_API structure specifies the entry points for WDI data indications.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NDIS_WDI_DATA_API {
@@ -71,6 +81,9 @@ typedef struct _NDIS_WDI_DATA_API {
 
 ## -struct-fields
 
+
+
+
 ### -field Header
 
 The 
@@ -85,14 +98,6 @@ To indicate the version of the NDIS_WDI_DATA_API structure, set the
 
 
 
-
-### -field NDIS_OBJECT_TYPE_WDI_DATA_API_REVISION_1
-
-Set the 
-        <b>Size</b> member to NDIS_SIZEOF_WDI_DATA_API_REVISION_1.
-
-</dd>
-</dl>
 
 ### -field TxDequeueIndication
 
@@ -174,4 +179,14 @@ The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_allocate_wdi_fr
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_free_wdi_frame_metadata.md">NdisWdiFreeWiFiFrameMetaData</a> callback function.
 
 
-## -remarks
+### -field TxQuerySuspectFrameCompleteStatus
+
+ 
+
+
+
+##### - Header.NDIS_OBJECT_TYPE_WDI_DATA_API_REVISION_1
+
+Set the 
+        <b>Size</b> member to NDIS_SIZEOF_WDI_DATA_API_REVISION_1.
+

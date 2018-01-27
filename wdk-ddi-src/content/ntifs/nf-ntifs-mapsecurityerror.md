@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 899b7d6e-a17b-4030-9512-591b003ca6b2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: MapSecurityError
+ms.keywords: ifsk.mapsecurityerror, IFSMiscRef_41a163d7-81d1-4877-b1c2-ae90b203177a.xml, MapSecurityError function [Installable File System Drivers], MapSecurityError, ntifs/MapSecurityError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows 2000 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MapSecurityError
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	MapSecurityError
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # MapSecurityError function
 
 
-
 ## -description
+
+
 The <b>MapSecurityError</b> function maps a security interface SECURITY_STATUS status code to a corresponding NSTATUS status code.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SEC_ENTRY MapSecurityError(
@@ -54,14 +64,30 @@ NTSTATUS SEC_ENTRY MapSecurityError(
 
 ## -parameters
 
-### -param Error [in]
+
+
+
+### -param SecStatus
+
+TBD
+
+
+
+#### - Error [in]
 
 The security interface SECURITY_STATUS status code to be mapped.
 
 
 ## -returns
+
+
 The NTSTATUS status code corresponding to the input Error status code.
 
 
+
 ## -remarks
-This function maps a security interface status code of type SECURITY_STATUS to a corresponding NSTATUS status code.</p>
+
+
+This function maps a security interface status code of type SECURITY_STATUS to a corresponding NSTATUS status code.
+
+

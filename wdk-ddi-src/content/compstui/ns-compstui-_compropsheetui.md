@@ -7,8 +7,8 @@ old-location: print\compropsheetui.htm
 old-project: print
 ms.assetid: 7ebf46b7-5c31-482e-8644-a3d81f7dc5cc
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: _COMPROPSHEETUI, COMPROPSHEETUI, *PCOMPROPSHEETUI
+ms.date: 1/18/2018
+ms.keywords: compstui/PCOMPROPSHEETUI, print.compropsheetui, cpsuifnc_9b1aab20-fcd7-41b5-8bc5-959ae606d6b8.xml, _COMPROPSHEETUI, COMPROPSHEETUI, COMPROPSHEETUI structure [Print Devices], PCOMPROPSHEETUI structure pointer [Print Devices], *PCOMPROPSHEETUI, PCOMPROPSHEETUI, compstui/COMPROPSHEETUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: COMPROPSHEETUI
-req.alt-loc: compstui.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: COMPROPSHEETUI, *PCOMPROPSHEETUI
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	compstui.h
+apiname: 
+-	COMPROPSHEETUI
+product: Windows
+targetos: Windows
+req.typenames: *PCOMPROPSHEETUI, COMPROPSHEETUI
 ---
 
 # _COMPROPSHEETUI structure
 
 
-
 ## -description
+
+
 The COMPROPSHEETUI structure is used as an input parameter to CPSUI's <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function, if the function code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff546388">CPSFUNC_ADD_PCOMPROPSHEETUI</a>. All structure members must be supplied by the caller of <i>ComPropSheet</i>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _COMPROPSHEETUI {
@@ -69,6 +79,9 @@ typedef struct _COMPROPSHEETUI {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
 
 Caller-supplied size, in bytes, of the COMPROPSHEETUI structure.
@@ -81,32 +94,9 @@ Optional caller-supplied bit flags, as described in the following list:
 
 
 
-### -field CPSUIF_ABOUT_CALLBACK
-
-If set, the page's callback function (pointed to by the structure's <b>pfnCallback</b> member), supports CPSUICB_REASON_ABOUT, so CPSUI will call the callback function if the user clicks on the page's <b>About</b> button. (CPSUI supplies an <b>About</b> button for each treeview root node.)
-
-</dd>
-</dl>
 
 
 
-### -field CPSUIF_ICONID_AS_HICON
-
-If set, the structure's <b>IconID</b> member contains an icon handle.
-
-If not set, the <b>IconID</b> member contains an icon resource identifier.
-
-</dd>
-</dl>
-
-
-
-### -field CPSUIF_UPDATE_PERMISSION
-
-If set, the page's option values can be modified by the user.
-
-</dd>
-</dl>
 
 ### -field hInstCaller
 
@@ -145,7 +135,6 @@ Caller-supplied pointer to an array of <a href="..\compstui\ns-compstui-_optitem
 ### -field pDlgPage
 
 This member specifies <a href="..\compstui\ns-compstui-_dlgpage.md">DLGPAGE</a> structures that describe pages to be added to the property sheet. It can be either of the following:
-
 <ul>
 <li>
 A pointer to an array of DLGPAGE structures.
@@ -154,9 +143,9 @@ A pointer to an array of DLGPAGE structures.
 <li>
 One of the pointers that is described in the following list. These pointers reference predefined DLGPAGE structures, supplied by CPSUI for use by printer interface DLLs.
 
-
-### -field CPSUI_PDLGPAGE_ADVDOCPROP
-
+<dl>
+<dt><a id="CPSUI_PDLGPAGE_ADVDOCPROP"></a><a id="cpsui_pdlgpage_advdocprop"></a>CPSUI_PDLGPAGE_ADVDOCPROP</dt>
+<dd>
 Defines one treeview page whose tab reads <b>Advanced</b>.
 
 For use only by a <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a> function.
@@ -165,9 +154,9 @@ For use only by a <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md"
 </dl>
 
 
-
-### -field CPSUI_PDLGPAGE_DOCPROP
-
+<dl>
+<dt><a id="CPSUI_PDLGPAGE_DOCPROP"></a><a id="cpsui_pdlgpage_docprop"></a>CPSUI_PDLGPAGE_DOCPROP</dt>
+<dd>
 Defines three pages, whose tabs are <b>Layout</b>, <b>Paper/Quality</b>, and <b>Advanced</b>. The <b>Advanced</b> page is a treeview.
 
 For use only by a <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a> function.
@@ -176,9 +165,9 @@ For use only by a <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md"
 </dl>
 
 
-
-### -field CPSUI_PDLGPAGE_PRINTERPROP
-
+<dl>
+<dt><a id="CPSUI_PDLGPAGE_PRINTERPROP"></a><a id="cpsui_pdlgpage_printerprop"></a>CPSUI_PDLGPAGE_PRINTERPROP</dt>
+<dd>
 Defines one treeview page whose tab reads <b>Device Settings</b>.
 
 For use only by a <a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a> function.
@@ -187,9 +176,9 @@ For use only by a <a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">D
 </dl>
 
 
-
-### -field CPSUI_PDLGPAGE_TREEVIEWONLY
-
+<dl>
+<dt><a id="CPSUI_PDLGPAGE_TREEVIEWONLY"></a><a id="cpsui_pdlgpage_treeviewonly"></a>CPSUI_PDLGPAGE_TREEVIEWONLY</dt>
+<dd>
 Defines one treeview page.
 
 </dd>
@@ -212,7 +201,6 @@ Caller-supplied number of <a href="..\compstui\ns-compstui-_dlgpage.md">DLGPAGE<
 ### -field IconID
 
 Caller-supplied, can be one of the following:
-
 <ul>
 <li>
 An icon resource identifier. This can be application-defined, or it can be one of the CPSUI-supplied, IDI_CPSUI-prefixed icon resource identifiers.
@@ -222,8 +210,7 @@ An icon resource identifier. This can be application-defined, or it can be one o
 An icon handle. If a handle is specified, CPSUIF_ICONID_AS_HICON must be set in the <b>Flags</b> member.
 
 </li>
-</ul>
-The specified icon is displayed in the root node of the property sheet page's treeview.
+</ul>The specified icon is displayed in the root node of the property sheet page's treeview.
 
 
 ### -field pOptItemName
@@ -246,4 +233,19 @@ Caller-supplied version number, representing the root-level option item's curren
 Reserved. This array must be set to zero.
 
 
-## -remarks
+##### - Flags.CPSUIF_ABOUT_CALLBACK
+
+If set, the page's callback function (pointed to by the structure's <b>pfnCallback</b> member), supports CPSUICB_REASON_ABOUT, so CPSUI will call the callback function if the user clicks on the page's <b>About</b> button. (CPSUI supplies an <b>About</b> button for each treeview root node.)
+
+
+##### - Flags.CPSUIF_UPDATE_PERMISSION
+
+If set, the page's option values can be modified by the user.
+
+
+##### - Flags.CPSUIF_ICONID_AS_HICON
+
+If set, the structure's <b>IconID</b> member contains an icon handle.
+
+If not set, the <b>IconID</b> member contains an icon resource identifier.
+

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3e671484-8f8d-4ba0-a763-37c3178487ca
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _WMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR
+ms.keywords: kernel.dpwmiexecutemethod, DpWmiExecuteMethod, DpWmiExecuteMethod callback function [Kernel-Mode Driver Architecture], DpWmiExecuteMethod, WMI_EXECUTE_METHOD_CALLBACK, WMI_EXECUTE_METHOD_CALLBACK, wmilib/DpWmiExecuteMethod, k903_b641484a-8f32-440d-8efc-76293ddeec2c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DpWmiExecuteMethod
-req.alt-loc: Wmilib.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-req.typenames: WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wmilib.h
+apiname: 
+-	DpWmiExecuteMethod
+product: Windows
+targetos: Windows
+req.typenames: *PWMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR
 req.product: Windows 10 or later.
 ---
 
 # WMI_EXECUTE_METHOD_CALLBACK callback
 
 
-
 ## -description
+
+
 The <i>DpWmiExecuteMethod</i> routine executes a method associated with a data block. This routine is optional.
 
 
-
 ## -prototype
+
 
 ````
 WMI_EXECUTE_METHOD_CALLBACK DpWmiExecuteMethod;
@@ -64,6 +74,9 @@ NTSTATUS DpWmiExecuteMethod(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceObject [in]
 
@@ -106,34 +119,46 @@ Pointer to a buffer that holds input data, if any, and receives output data, if 
 
 
 ## -returns
+
+
 <i>DpWmiExecuteMethod</i> returns STATUS_SUCCESS or an appropriate error code such as the following:
-<dl>
-<dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-<dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-<dt><b>STATUS_WMI_INSTANCE_NOT_FOUND</b></dt>
-<dt><b>STATUS_WMI_ITEMID_NOT_FOUND</b></dt>
-</dl>
+
+
 
 ## -remarks
+
+
 WMI calls a driver's <i>DpWmiExecuteMethod</i> routine after the driver calls <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a> in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550868">IRP_MN_EXECUTE_METHOD</a> request.
 
 If a driver implements a <i>DpWmiExecuteMethod</i> routine, the driver must place the routine's address in the <b>ExecuteWmiMethod</b> member of the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure that it passes to <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>. If a driver does not implement a <i>DpWmiExecuteMethod</i> routine, it must set <b>ExecuteWmiMethod</b> to <b>NULL</b>. In the latter case, WMI returns STATUS_INVALID_DEVICE_REQUEST to the caller in response to any <b>IRP_MN_EXECUTE_METHOD</b> request.
 
 The driver is responsible for validating all input arguments. Specifically, the driver must do the following:
-
+<ul>
+<li>
 Verify that the <i>GuidIndex</i> value is between zero and GuidCount-1, based on the <b>GuidCount</b> member of the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure.
 
+</li>
+<li>
 Verify that the driver has not flagged the specified data block for removal. If the driver recently specified the WMIREG_FLAG_REMOVE_GUID flag in a <a href="..\wmilib\ns-wmilib-_wmiguidreginfo.md">WMIGUIDREGINFO</a> structure that is contained in a <b>WMILIB_CONTEXT</b> structure, it is possible for an additional request to arrive before the removal occurs.
 
+</li>
+<li>
 Verify that the <i>InstanceIndex</i> value is within the range of instance indexes that are supported by the driver for the data block. 
 
+</li>
+<li>
 Verify that the method identifier supplied by <i>MethodId</i> is a valid identifier for the specified data block, and that the caller is allowed to execute the method.
 
+</li>
+<li>
 Verify that <i>Buffer</i> and <i>InBufferSize</i> describe a buffer that is large enough to contain the specified method's input parameters, including padding if necessary, and verify that the input parameters are valid. 
 
+</li>
+<li>
 Verify that <i>Buffer</i> and <i>OutBufferSize</i> describe a buffer that is large enough to receive the specified method's output data, including padding if necessary.
 
-Do not assume the thread context is that of the initiating user-mode application—a higher-level driver might have changed it.
+</li>
+</ul>Do not assume the thread context is that of the initiating user-mode application—a higher-level driver might have changed it.
 
 If the specified method performs an operation that causes data loss, such as fetching and resetting the contents of a set of counters, the driver should validate the output buffer size before performing the operation. That way, the driver can return STATUS_BUFFER_TOO_SMALL and allow the caller to resubmit the request with a larger buffer, without prematurely resetting the counters.
 
@@ -144,21 +169,17 @@ This routine can be pageable.
 For more information about implementing this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540741">Calling WmiSystemControl to Handle WMI IRPs</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550868">IRP_MN_EXECUTE_METHOD</a>
-</dt>
-<dt>
-<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
-</dt>
-<dt>
+
 <a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a>
-</dt>
-<dt>
+
+<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
+
 <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
-</dt>
-</dl>
+
  
 
  

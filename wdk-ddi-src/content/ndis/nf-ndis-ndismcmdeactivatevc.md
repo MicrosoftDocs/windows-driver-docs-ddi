@@ -7,8 +7,8 @@ old-location: netvista\ndismcmdeactivatevc.htm
 old-project: netvista
 ms.assetid: e18f6326-621e-4bed-aa82-b326f3b1422d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisMCmDeactivateVc
+ms.date: 1/18/2018
+ms.keywords: NdisMCmDeactivateVc function [Network Drivers Starting with Windows Vista], NdisMCmDeactivateVc, ndis/NdisMCmDeactivateVc, netvista.ndismcmdeactivatevc, condis_mcm_ref_c1aa796e-7965-4a4b-849b-370ae7f95697.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    N
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisMCmDeactivateVc
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_MCM_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisMCmDeactivateVc
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCmDeactivateVc function
 
 
-
 ## -description
+
+
 <b>NdisMCmDeactivateVc</b> notifies NDIS that there will be no further transfers on a particular active
   VC.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisMCmDeactivateVc(
@@ -54,6 +65,9 @@ NDIS_STATUS NdisMCmDeactivateVc(
 
 
 ## -parameters
+
+
+
 
 ### -param NdisVcHandle [in]
 
@@ -66,18 +80,43 @@ Specifies the handle identifying the VC. This handle was supplied by NDIS to the
 
 
 ## -returns
+
+
 <b>NdisMCmDeactivateVc</b> can return one of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_SUCCESS</b></dt>
-</dl>NDIS marked the VC as inactive.
+</dl>
+</td>
+<td width="60%">
+NDIS marked the VC as inactive.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_NOT_ACCEPTED</b></dt>
-</dl>The VC is already deactivated, so this call is redundant.
+</dl>
+</td>
+<td width="60%">
+The VC is already deactivated, so this call is redundant.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 An MCM driver calls 
     <b>NdisMCmDeactivateVc</b> as an essential step in closing a call, usually after the packet exchange with
     network components that tears down the connection.
@@ -92,7 +131,8 @@ The
     <i>NdisVcHandle</i> passed to 
     <b>NdisMCmDeactivateVc</b> remains valid after VC deactivation is completed. The deactivation of any VC
     allows its creator to reinitialize the VC for reuse or to destroy it:
-
+<ul>
+<li>
 Following VC deactivation and the closing of the call, a client can reuse a VC that it originally
       created to make another call with 
       <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>, or it can call 
@@ -100,13 +140,16 @@ Following VC deactivation and the closing of the call, a client can reuse a VC t
       to the MCM driver's 
       <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a> function.
 
+</li>
+<li>
 Following VC deactivation and the closing of the call, an MCM driver can reuse a VC that it
       originally created to indicate another incoming call to the same client with 
-      <a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">
-      NdisMCmDispatchIncomingCall</a>, or it can call 
+      <mshelp:link keywords="netvista.ndismcmdispatchincomingcall" tabindex="0"><b>
+      NdisMCmDispatchIncomingCall</b></mshelp:link>, or it can call 
       <a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>.
 
-The driver writer determines whether an MCM driver has an (internal) 
+</li>
+</ul>The driver writer determines whether an MCM driver has an (internal) 
     <i>MiniportCoDeactivateVc</i> function that the driver calls in the context of tearing down connections
     for outgoing and incoming calls.
 
@@ -116,39 +159,30 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
     <b>NdisCmDeactivateVc</b> instead.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
-</dt>
-<dt>
+
+<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+<a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
+
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
+
 <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
+
+<a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmDeactivateVc function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmDeactivateVc function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 25b15c20-e23a-438f-a02e-aedc26498828
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVAHDDDI_VPDEVCAPS, DXVAHDDDI_VPDEVCAPS
+ms.keywords: DXVAHDDDI_FEATURE_CAPS, DXVAHDDDI_VPDEVCAPS structure [Display Devices], DXVAHDDDI_FILTER_CAPS, d3dumddi/DXVAHDDDI_VPDEVCAPS, display.dxvahdddi_vpdevcaps, DXVAHDDDI_INPUT_FORMAT_CAPS, DXVAHDDDI_VPDEVCAPS, DXVA2_Structs_263db2a4-3026-44e3-a2b7-82cbf773bfa5.xml, DXVAHDDDI_DEVICE_CAPS, _DXVAHDDDI_VPDEVCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: DXVAHDDDI_VPDEVCAPS is supported starting with Window
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVAHDDDI_VPDEVCAPS
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVAHDDDI_VPDEVCAPS
+product: Windows
+targetos: Windows
 req.typenames: DXVAHDDDI_VPDEVCAPS
 ---
 
 # _DXVAHDDDI_VPDEVCAPS structure
 
 
-
 ## -description
+
+
 The DXVAHDDDI_VPDEVCAPS structure describes the video processor capabilities that the decode device supports.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVAHDDDI_VPDEVCAPS {
@@ -64,6 +74,9 @@ typedef struct _DXVAHDDDI_VPDEVCAPS {
 
 ## -struct-fields
 
+
+
+
 ### -field Reserved
 
 [in] Reserved. Must be zero. 
@@ -75,37 +88,6 @@ typedef struct _DXVAHDDDI_VPDEVCAPS {
 
 
 
-
-### -field DXVAHDDDI_DEVICE_CAPS_LINEAR_SPACE (0x1)
-
-The driver can blend video content in linear space. Because the video content is traditionally in non-linear space and gamma 2.2 corrected (<a href="http://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a>), the driver can convert the video content to linear space before performing blending operations to achieve better results.
-
-
-### -field DXVAHDDDI_DEVICE_CAPS_xvYCC (0x2)
-
-The driver can perform video processing while retaining the extended gamut color when the driver inputs from and outputs to the YCbCr format type.
-
-
-### -field DXVAHDDDI_DEVICE_CAPS_RGB_RANGE_CONVERSION (0x4)
-
-The driver can perform the range conversion when both input and output are RGB color space but the range is different (for example, the input is full range RGB and the output is limited range RGB). If this value is not set, the driver ignores the RGB range and composes the RGB input stream to the RGB output without changing the range.
-
-
-### -field DXVAHDDDI_DEVICE_CAPS_YCbCr_MATRIX_CONVERSION (0x8)
-
-The driver can perform the matrix conversion when both input and output are YCbCr color space but the matrix is different (for example, the input is BT.601 and the output is BT.709). If this value is not set, the driver ignores the YCbCr matrix and composes the YCbCr input stream to the YCbCr output without changing the matrix.
-
-
-### -field DXVAHDDDI_DEVICE_CAPS_NOMINAL_RANGE (0x10)
-
-The video processor can convert between luminance ranges when the input and output use different luminance ranges.
-
-For more information on luminance range, see <a href="https://msdn.microsoft.com/D76FFB8C-CA42-446E-826F-52982B1849E5">YUV format ranges in Windows 8.1</a>.
-
-Supported starting with Windows 8.1.
-
-</dd>
-</dl>
 The driver determines that the XR_BIAS, FP16, and FP32 formats (wide gamut formats) are in linear space and so can retain the extended gamut color regardless of whether the preceding capability values are set. 
 
 
@@ -116,35 +98,6 @@ The driver determines that the XR_BIAS, FP16, and FP32 formats (wide gamut forma
 
 
 
-### -field DXVAHDDDI_FEATURE_CAPS_ALPHA_FILL (0x1)
-
-The driver can set the alpha values inside the target rectangle on the output surface as specified for the alpha-fill mode. For more information about this operation, see <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_blt_state_alpha_fill_data.md">DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA</a>.
-
-
-### -field DXVAHDDDI_FEATURE_CAPS_CONSTRICTION (0x2)
-
-The driver can down-sample the composed target rectangle. For more information about this operation, see <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_blt_state_constriction_data.md">DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA</a>.
-
-
-### -field DXVAHDDDI_FEATURE_CAPS_LUMA_KEY (0x4)
-
-The driver can make pixels within a luma-key range transparent. For more information about this operation, see <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_luma_key_data.md">DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA</a>.
-
-
-### -field DXVAHDDDI_FEATURE_CAPS_ALPHA_PALETTE (0x8)
-
-The driver can apply the alpha value of the palette entry. For more information about alpha blending, see <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_alpha_data.md">DXVAHDDDI_STREAM_STATE_ALPHA_DATA</a>.
-
-
-### -field DXVAHDDDI_FEATURE_CAPS_ROTATION (0x10)
-
-The driver can apply discrete display rotation values to the display output surface. For more information about this operation, see <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_rotation_data.md">DXVAHDDDI_STREAM_STATE_ROTATION_DATA</a>.
-
-Supported starting with Windows 8.
-
-</dd>
-</dl>
-
 ### -field FilterCaps
 
 [out] A bitwise OR of the following values from the DXVAHDDDI_FILTER_CAPS enumeration to indicate filter-specific capabilities.
@@ -152,71 +105,12 @@ Supported starting with Windows 8.
 
 
 
-### -field DXVAHDDDI_FILTER_CAPS_BRIGHTNESS (0x1)
-
-The driver supports brightness ProcAmp.
-
-
-### -field DXVAHDDDI_FILTER_CAPS_CONTRAST (0x2)
-
-The driver supports contrast ProcAmp.
-
-
-### -field DXVAHDDDI_FILTER_CAPS_HUE (0x4)
-
-The driver supports hue ProcAmp.
-
-
-### -field DXVAHDDDI_FILTER_CAPS_SATURATION (0x8)
-
-The driver supports saturation ProcAmp.
-
-
-### -field DXVAHDDDI_FILTER_CAPS_NOISE_REDUCTION (0x10)
-
-The driver supports noise-reduction filter.
-
-
-### -field DXVAHDDDI_FILTER_CAPS_EDGE_ENHANCEMENT (0x20)
-
-The driver supports edge-enhancement filter.
-
-
-### -field DXVAHDDDI_FILTER_CAPS_ANAMORPHIC_SCALING (0x40)
-
-The driver can scale from the source rectangle to the destination rectangle linearly or nonlinearly. If the driver has this capability, it can stretch 4:3 standard video content to 16:9 widescreen.
-
-</dd>
-</dl>
-
 ### -field InputFormatCaps
 
 [out] A bitwise OR of the following values from the DXVAHDDDI_INPUT_FORMAT_CAPS enumeration to indicate input-format-specific capabilities.
 
 
 
-
-### -field DXVAHDDDI_INPUT_FORMAT_CAPS_RGB_INTERLACED (0x1)
-
-The driver can deinterlace the input stream with RGB format type.
-
-
-### -field DXVAHDDDI_INPUT_FORMAT_CAPS_RGB_PROCAMP (0x2)
-
-The driver can apply a ProcAmp filter to the input stream with RGB format type.
-
-
-### -field DXVAHDDDI_INPUT_FORMAT_CAPS_RGB_LUMA_KEY (0x4)
-
-The driver can luma-key the input stream with RGB format type.
-
-
-### -field DXVAHDDDI_INPUT_FORMAT_CAPS_PALETTE_INTERLACED (0x8)
-
-The driver can deinterlace the input stream with palettized format type.
-
-</dd>
-</dl>
 The driver can support the preceding capabilities rather than supporting rarely used video processing to the input frames. Because supporting these capabilities requires extra steps in the video processor pipeline, the driver might not support them.
 
 If the driver supports these capabilities, the driver might require a certain color space to perform the processing to the input stream. For example, ProcAmp and the luma keying are performed in YCbCr color space. The driver refers the color space of the stream state to perform the intermediate color conversion.
@@ -254,28 +148,136 @@ For example, when the driver sets the <b>RGB_Range</b> and <b>YCbCr_Matrix</b> m
 [out] The maximum number of stream states. 
 
 
+##### - FilterCaps.DXVAHDDDI_FILTER_CAPS_HUE (0x4)
+
+The driver supports hue ProcAmp.
+
+
+##### - FilterCaps.DXVAHDDDI_FILTER_CAPS_BRIGHTNESS (0x1)
+
+The driver supports brightness ProcAmp.
+
+
+##### - FeatureCaps.DXVAHDDDI_FEATURE_CAPS_LUMA_KEY (0x4)
+
+The driver can make pixels within a luma-key range transparent. For more information about this operation, see <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_luma_key_data.md">DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA</a>.
+
+
+##### - FeatureCaps.DXVAHDDDI_FEATURE_CAPS_ROTATION (0x10)
+
+The driver can apply discrete display rotation values to the display output surface. For more information about this operation, see <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_rotation_data.md">DXVAHDDDI_STREAM_STATE_ROTATION_DATA</a>.
+
+Supported starting with Windows 8.
+
+
+##### - FeatureCaps.DXVAHDDDI_FEATURE_CAPS_ALPHA_PALETTE (0x8)
+
+The driver can apply the alpha value of the palette entry. For more information about alpha blending, see <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_alpha_data.md">DXVAHDDDI_STREAM_STATE_ALPHA_DATA</a>.
+
+
+##### - InputFormatCaps.DXVAHDDDI_INPUT_FORMAT_CAPS_RGB_INTERLACED (0x1)
+
+The driver can deinterlace the input stream with RGB format type.
+
+
+##### - DeviceCaps.DXVAHDDDI_DEVICE_CAPS_RGB_RANGE_CONVERSION (0x4)
+
+The driver can perform the range conversion when both input and output are RGB color space but the range is different (for example, the input is full range RGB and the output is limited range RGB). If this value is not set, the driver ignores the RGB range and composes the RGB input stream to the RGB output without changing the range.
+
+
+##### - DeviceCaps.DXVAHDDDI_DEVICE_CAPS_LINEAR_SPACE (0x1)
+
+The driver can blend video content in linear space. Because the video content is traditionally in non-linear space and gamma 2.2 corrected (<a href="http://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a>), the driver can convert the video content to linear space before performing blending operations to achieve better results.
+
+
+##### - FeatureCaps.DXVAHDDDI_FEATURE_CAPS_ALPHA_FILL (0x1)
+
+The driver can set the alpha values inside the target rectangle on the output surface as specified for the alpha-fill mode. For more information about this operation, see <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_blt_state_alpha_fill_data.md">DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA</a>.
+
+
+##### - DeviceCaps.DXVAHDDDI_DEVICE_CAPS_xvYCC (0x2)
+
+The driver can perform video processing while retaining the extended gamut color when the driver inputs from and outputs to the YCbCr format type.
+
+
+##### - DeviceCaps.DXVAHDDDI_DEVICE_CAPS_NOMINAL_RANGE (0x10)
+
+The video processor can convert between luminance ranges when the input and output use different luminance ranges.
+
+For more information on luminance range, see <a href="https://msdn.microsoft.com/D76FFB8C-CA42-446E-826F-52982B1849E5">YUV format ranges in Windows 8.1</a>.
+
+Supported starting with Windows 8.1.
+
+
+##### - DeviceCaps.DXVAHDDDI_DEVICE_CAPS_YCbCr_MATRIX_CONVERSION (0x8)
+
+The driver can perform the matrix conversion when both input and output are YCbCr color space but the matrix is different (for example, the input is BT.601 and the output is BT.709). If this value is not set, the driver ignores the YCbCr matrix and composes the YCbCr input stream to the YCbCr output without changing the matrix.
+
+
+##### - InputFormatCaps.DXVAHDDDI_INPUT_FORMAT_CAPS_PALETTE_INTERLACED (0x8)
+
+The driver can deinterlace the input stream with palettized format type.
+
+
+##### - InputFormatCaps.DXVAHDDDI_INPUT_FORMAT_CAPS_RGB_LUMA_KEY (0x4)
+
+The driver can luma-key the input stream with RGB format type.
+
+
+##### - FilterCaps.DXVAHDDDI_FILTER_CAPS_ANAMORPHIC_SCALING (0x40)
+
+The driver can scale from the source rectangle to the destination rectangle linearly or nonlinearly. If the driver has this capability, it can stretch 4:3 standard video content to 16:9 widescreen.
+
+
+##### - FeatureCaps.DXVAHDDDI_FEATURE_CAPS_CONSTRICTION (0x2)
+
+The driver can down-sample the composed target rectangle. For more information about this operation, see <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_blt_state_constriction_data.md">DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA</a>.
+
+
+##### - FilterCaps.DXVAHDDDI_FILTER_CAPS_CONTRAST (0x2)
+
+The driver supports contrast ProcAmp.
+
+
+##### - FilterCaps.DXVAHDDDI_FILTER_CAPS_EDGE_ENHANCEMENT (0x20)
+
+The driver supports edge-enhancement filter.
+
+
+##### - FilterCaps.DXVAHDDDI_FILTER_CAPS_SATURATION (0x8)
+
+The driver supports saturation ProcAmp.
+
+
+##### - FilterCaps.DXVAHDDDI_FILTER_CAPS_NOISE_REDUCTION (0x10)
+
+The driver supports noise-reduction filter.
+
+
+##### - InputFormatCaps.DXVAHDDDI_INPUT_FORMAT_CAPS_RGB_PROCAMP (0x2)
+
+The driver can apply a ProcAmp filter to the input stream with RGB format type.
+
+
 ## -remarks
+
+
 The user-mode display driver returns a pointer to a populated DXVAHDDDI_VPDEVCAPS structure in the <b>pData</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a> structure when its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPDEVCAPS value set in the <b>Type</b> member of D3DDDIARG_GETCAPS.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
-</dt>
-<dt>
+
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-</dt>
-<dt>
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_pool.md">D3DDDI_POOL</a>
-</dt>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpcaps.md">DXVAHDDDI_VPCAPS</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-</dt>
-</dl>
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_pool.md">D3DDDI_POOL</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpcaps.md">DXVAHDDDI_VPCAPS</a>
+
  
 
  

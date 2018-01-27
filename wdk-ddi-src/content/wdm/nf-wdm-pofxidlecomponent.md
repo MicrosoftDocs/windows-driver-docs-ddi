@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 07282994-5E04-432D-85A6-4677DB2DA84A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxIdleComponent
+ms.keywords: PoFxIdleComponent, PoFxIdleComponent routine [Kernel-Mode Driver Architecture], wdm/PoFxIdleComponent, kernel.pofxidlecomponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PoFxIdleComponent
-req.alt-loc: Ntoskrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Ntoskrnl.exe
+apiname: 
+-	PoFxIdleComponent
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PoFxIdleComponent function
 
 
-
 ## -description
+
+
 The <b>PoFxIdleComponent</b> routine decrements the activation reference count on the specified component.
 
 
-
 ## -syntax
+
 
 ````
 VOID PoFxIdleComponent(
@@ -56,6 +66,9 @@ VOID PoFxIdleComponent(
 
 
 ## -parameters
+
+
+
 
 ### -param Handle [in]
 
@@ -70,19 +83,22 @@ The index that identifies the component. This parameter is an index into the <b>
 ### -param Flags [in]
 
 The flags for the idle operation. Set this member to zero or to one of the following flag <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn939769">PO_FX_FLAG_XXX</a> bits:
-
 <ul>
 <li><b>PO_FX_FLAG_BLOCKING</b></li>
 <li><b>PO_FX_FLAG_ASYNC_ONLY</b></li>
-</ul>
-These two flag bits are mutually exclusive. For more information, see Remarks.
+</ul>These two flag bits are mutually exclusive. For more information, see Remarks.
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 A device driver calls <b>PoFxIdleComponent</b> to release an activation reference to a component in a device. The driver obtained the activation reference in a previous call to the <a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a> routine. The driver should hold an activation reference on a component only while the driver needs to access the component. To hold an activation reference on a component that is not being used prevents the component from entering a low-power Fx state.
 
 If the driver holds no other activation references to the component, <b>PoFxIdleComponent</b> initiates a transition from the active condition to the idle condition. When this transition completes, PoFx calls the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a> routine to notify the driver. If the driver retains one or more additional activation references on the component, the component stays in the active condition, and the <i>ComponentIdleConditionCallback</i> routine is not called.
@@ -96,24 +112,19 @@ If <i>Flags</i> = <b>PO_FX_FLAG_ASYNC_ONLY</b>, the <b>PoFxIdleComponent</b> cal
 The driver can set <i>Flags</i> = 0 to indicate that it does not care whether the <b>PoFxIdleComponent</b> call is synchronous or asynchronous. In this case, PoFx decides whether to make the call synchronous or asynchronous.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn939769">PO_FX_FLAG_XXX</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn939769">PO_FX_FLAG_XXX</a>
+
  
 
  

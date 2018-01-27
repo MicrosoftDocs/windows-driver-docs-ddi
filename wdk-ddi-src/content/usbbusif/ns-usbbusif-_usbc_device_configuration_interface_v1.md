@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 86e8946f-f87f-40d4-bd02-6e4befe847e0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBC_DEVICE_CONFIGURATION_INTERFACE_V1, *PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, USBC_DEVICE_CONFIGURATION_INTERFACE_V1
+ms.keywords: buses.usbc_device_configuration_interface_v1, USBC_DEVICE_CONFIGURATION_INTERFACE_V1, usbbusif/PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, usbbusif/USBC_DEVICE_CONFIGURATION_INTERFACE_V1, *PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, USBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure [Buses], _USBC_DEVICE_CONFIGURATION_INTERFACE_V1, usbinterKR_f3f8ee06-a861-4787-a611-766308347395.xml, PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBC_DEVICE_CONFIGURATION_INTERFACE_V1
-req.alt-loc: usbbusif.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, USBC_DEVICE_CONFIGURATION_INTERFACE_V1
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbbusif.h
+apiname: 
+-	USBC_DEVICE_CONFIGURATION_INTERFACE_V1
+product: Windows
+targetos: Windows
+req.typenames: USBC_DEVICE_CONFIGURATION_INTERFACE_V1, *PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1
 req.product: Windows 10 or later.
 ---
 
 # _USBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure
 
 
-
 ## -description
+
+
 The <b>USBC_DEVICE_CONFIGURATION_INTERFACE_V1</b> structure is exposed by the vendor-supplied filter drivers to assist the USB generic parent driver in defining interface collections.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBC_DEVICE_CONFIGURATION_INTERFACE_V1 {
@@ -61,6 +71,9 @@ typedef struct _USBC_DEVICE_CONFIGURATION_INTERFACE_V1 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -102,21 +115,14 @@ Reserved.
 Reserved.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/3cf4e9f2-ea33-491f-94af-62d2afacc899">Customizing Enumeration of Interface Collections for Composite Devices</a>
-</dt>
-<dt>
+
 <a href="..\usbbusif\nc-usbbusif-usbc_start_device_callback.md">USBC_START_DEVICE_CALLBACK</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/3cf4e9f2-ea33-491f-94af-62d2afacc899">Customizing Enumeration of Interface Collections for Composite Devices</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB structures</a>
-</dt>
-</dl>
+
  
 
  

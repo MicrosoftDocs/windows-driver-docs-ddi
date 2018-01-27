@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8d54bf46-dc70-47a1-a391-6e32a7800a9e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlIsNameInExpression
+ms.keywords: FsRtlIsNameInExpression routine [Installable File System Drivers], ntifs/FsRtlIsNameInExpression, fsrtlref_719072fe-274b-482a-ba9c-4a21d4d2be21.xml, FsRtlIsNameInExpression, ifsk.fsrtlisnameinexpression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available in Windows 2000 and later v
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlIsNameInExpression
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlIsNameInExpression
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlIsNameInExpression function
 
 
-
 ## -description
+
+
 The <b>FsRtlIsNameInExpression</b> routine determines whether a Unicode string matches the specified pattern. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlIsNameInExpression(
@@ -56,6 +66,9 @@ BOOLEAN FsRtlIsNameInExpression(
 
 
 ## -parameters
+
+
+
 
 ### -param Expression [in]
 
@@ -78,45 +91,85 @@ Optional pointer to uppercase character table to use for case-insensitive matchi
 
 
 ## -returns
+
+
 <b>FsRtlIsNameInExpression</b> returns <b>TRUE</b> if the string matches the pattern, <b>FALSE</b> otherwise.
 
 
-## -remarks
-The following wildcard characters can be used in the pattern string.
 
+## -remarks
+
+
+The following wildcard characters can be used in the pattern string.
+<table>
+<tr>
+<th>Wildcard character</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>
 * (asterisk)
 
+</td>
+<td>
 Matches zero or more characters.
 
+</td>
+</tr>
+<tr>
+<td>
 ? (question mark)
 
+</td>
+<td>
 Matches a single character.
 
+</td>
+</tr>
+<tr>
+<td>
 DOS_DOT
 
+</td>
+<td>
 Matches either a period or zero characters beyond the name string.
 
+</td>
+</tr>
+<tr>
+<td>
 DOS_QM
 
+</td>
+<td>
 Matches any single character or, upon encountering a period or end of name string, advances the expression to the end of the set of contiguous DOS_QMs.
 
+</td>
+</tr>
+<tr>
+<td>
 DOS_STAR
 
+</td>
+<td>
 Matches zero or more characters until encountering and matching the final . in the name.
-<p class="note">If both parameters are null strings, <b>FsRtlIsNameInExpression</b> returns <b>TRUE</b>.
 
-For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+</td>
+</tr>
+</table> 
+<div class="alert"><b>Note</b>  
+     If only one of the string parameters has a length of zero, <b>FsRtlIsNameInExpression</b> returns <b>FALSE</b>. This means that "*" does not match a null string. <p class="note">If both parameters are null strings, <b>FsRtlIsNameInExpression</b> returns <b>TRUE</b>.
+
+</div><div> </div>For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisdbcsinexpression~r1.md">FsRtlIsDbcsInExpression</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
  
 
  

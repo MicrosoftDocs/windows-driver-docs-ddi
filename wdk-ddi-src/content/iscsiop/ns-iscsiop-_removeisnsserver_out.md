@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 42866b25-280c-492c-8e98-1a04a46561a4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _RemoveiSNSServer_OUT, RemoveiSNSServer_OUT, *PRemoveiSNSServer_OUT
+ms.keywords: PRemoveiSNSServer_OUT, storage.removeisnsserver_out, PRemoveiSNSServer_OUT structure pointer [Storage Devices], structs-iSCSI_8d8df1a1-3b89-42a1-9ef8-3e749a94b531.xml, *PRemoveiSNSServer_OUT, iscsiop/RemoveiSNSServer_OUT, iscsiop/PRemoveiSNSServer_OUT, RemoveiSNSServer_OUT structure [Storage Devices], RemoveiSNSServer_OUT, _RemoveiSNSServer_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RemoveiSNSServer_OUT
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	RemoveiSNSServer_OUT
+product: Windows
+targetos: Windows
 req.typenames: RemoveiSNSServer_OUT, *PRemoveiSNSServer_OUT
 ---
 
 # _RemoveiSNSServer_OUT structure
 
 
-
 ## -description
+
+
 The RemoveiSNSServer_OUT structure holds the output data for the user-mode <b>RemoveISNSServer</b> method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RemoveiSNSServer_OUT {
@@ -54,24 +64,27 @@ typedef struct _RemoveiSNSServer_OUT {
 
 ## -struct-fields
 
+
+
+
 ### -field Status
 
 On output from <b>RemoveISNSServer</b>, the status of the operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.
 
 
 ## -remarks
+
+
 It is optional that you implement this method.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-</dt>
-<dt>
+
 <a href="..\iscsiop\ns-iscsiop-_removeisnsserver_in.md">RemoveiSNSServer_IN</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d9b54710-6ad2-4959-9172-76c90468d343
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortQuerySystemTime
+ms.keywords: VideoPort_Functions_18c4e015-b294-40e0-8aef-7642d3a9cb27.xml, VideoPortQuerySystemTime, display.videoportquerysystemtime, VideoPortQuerySystemTime function [Display Devices], video/VideoPortQuerySystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of the Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortQuerySystemTime
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortQuerySystemTime
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortQuerySystemTime function
 
 
-
 ## -description
+
+
 The <b>VideoPortQuerySystemTime</b> function obtains the current system time.
 
 
-
 ## -syntax
+
 
 ````
 VOID VideoPortQuerySystemTime(
@@ -55,25 +65,32 @@ VOID VideoPortQuerySystemTime(
 
 ## -parameters
 
+
+
+
 ### -param CurrentTime [out]
 
 Pointer to a memory location that will receive the current system time.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 System time is a count of 100-nanosecond intervals since January 1, 1601. System time is typically updated approximately every ten milliseconds. This value is computed for the GMT time zone. To adjust this value for the local time zone use <a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nf-video-videoportqueryperformancecounter.md">VideoPortQueryPerformanceCounter</a>
-</dt>
-</dl>
+
  
 
  

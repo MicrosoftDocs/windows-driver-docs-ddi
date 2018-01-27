@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 41601234-7b8e-4d53-9455-626a5a3c4ff3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcUnregisterIoTimeout
+ms.keywords: audio.iregistrykey, IRegistryKey interface [Audio Devices], IRegistryKey interface [Audio Devices], described, IRegistryKey, portcls/IRegistryKey, audmp-routines_40bea095-17f2-4b5f-96e8-ab2fed6d82d4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IRegistryKey
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,45 +29,33 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IRegistryKey
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IRegistryKey interface
 
 
-
 ## -description
+
+
 The <code>IRegistryKey</code> interface provides an abstraction of a registry key that a miniport driver can use to access the key and its subkeys. The PortCls system driver implements this interface and exposes it to miniport drivers. A miniport driver obtains a reference to an <code>IRegistryKey</code> object by calling <a href="..\portcls\nf-portcls-pcnewregistrykey.md">PcNewRegistryKey</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>. 
 
 For more information, see <a href="https://msdn.microsoft.com/c666f0cc-5a8a-4df8-9c65-08e3b044a08f">Registry Key Objects</a>.
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRegistryKey</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IRegistryKey</b> also has these types of members:
-
-The <b>IRegistryKey</b> interface has these methods.
-
-The <code>DeleteKey</code> method deletes the registry key.
-
-The <code>EnumerateKey</code> method returns information about the subkeys of the open key.
-
-The <code>EnumerateValueKey</code> method returns information about a registry entry that contains a value key.
-
-The <code>NewSubKey</code> method either creates a new registry subkey or opens an existing subkey under the key represented by the <b>IRegistryKey</b> object.
-
-The <code>QueryKey</code> method retrieves information about a registry key, including the key name, key class, and the number of subkeys and their sizes.
-
-The <code>QueryRegistryValues</code> method allows the caller to query several values from the registry with a single call.
-
-The <code>QueryValueKey</code> method retrieves information about a registry key's value entries, including their names, types, data sizes, and values.
-
-The <code>SetValueKey</code> method replaces or creates a value entry under the open key.
-
- 
-
-
 ## -members
+
 The <b>IRegistryKey</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -166,5 +152,3 @@ The <code>SetValueKey</code> method replaces or creates a value entry under the 
 
  
 
-
-## -remarks

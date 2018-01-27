@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6b9fd47f-c6b6-4541-a014-0cd6604eb3b3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.pfnperformamortizedprocessingcb, pfnPerformAmortizedProcessingCb callback function [Display Devices], pfnPerformAmortizedProcessingCb, PFND3D11DDI_PERFORM_AMORTIZED_PROCESSING_CB, PFND3D11DDI_PERFORM_AMORTIZED_PROCESSING_CB, d3d10umddi/pfnPerformAmortizedProcessingCb, d3d11state_functions_7da0e622-fd33-44b6-a096-143ff6c47953.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: pfnPerformAmortizedProcessingCb is supported beginnin
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnPerformAmortizedProcessingCb
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	pfnPerformAmortizedProcessingCb
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11DDI_PERFORM_AMORTIZED_PROCESSING_CB callback
 
 
-
 ## -description
+
+
 The <b>pfnPerformAmortizedProcessingCb</b> function performs amortized processing. 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11DDI_PERFORM_AMORTIZED_PROCESSING_CB pfnPerformAmortizedProcessingCb;
@@ -57,28 +67,41 @@ void APIENTRY pfnPerformAmortizedProcessingCb(
 
 ## -parameters
 
-### -param hRuntimeDevice [in]
+
+
+
+### -param D3D10DDI_HRTCORELAYER
+
+
+
+
+
+
+#### - hRuntimeDevice [in]
 
  A handle to a context for the core Microsoft Direct3D runtime. This handle is supplied to the driver in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function. 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 For more information about amortized processing, see <a href="https://msdn.microsoft.com/014a5e44-f8c4-45c0-96e8-d82f37b8b28d">Changes from Direct3D 10</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_corelayer_devicecallbacks.md">D3D11DDI_CORELAYER_DEVICECALLBACKS</a>
-</dt>
-</dl>
+
  
 
  

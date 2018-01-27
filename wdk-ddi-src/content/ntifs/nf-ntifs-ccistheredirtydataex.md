@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 88378f82-2975-4b53-9dde-53ab81df3c53
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcIsThereDirtyDataEx
+ms.keywords: CcIsThereDirtyDataEx routine [Installable File System Drivers], ifsk.ccistheredirtydataex, CcIsThereDirtyDataEx, ccref_13ae1f3e-b2ea-4bc6-a1cb-0101afd58d04.xml, ntifs/CcIsThereDirtyDataEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcIsThereDirtyDataEx
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcIsThereDirtyDataEx
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcIsThereDirtyDataEx function
 
 
-
 ## -description
+
+
 The <b>CcIsThereDirtyDataEx</b> routine determines whether a volume contains any files that have dirty data in the system cache.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN CcIsThereDirtyDataEx(
@@ -54,6 +64,9 @@ BOOLEAN CcIsThereDirtyDataEx(
 
 
 ## -parameters
+
+
+
 
 ### -param Vpb [in]
 
@@ -66,25 +79,27 @@ An optional pointer to an unsigned long buffer that receives the number of dirty
 
 
 ## -returns
+
+
 The <b>CcIsThereDirtyDataEx</b> routine returns <b>TRUE</b> if the volume contains one or more cached files whose data has been modified in the cache, but not yet flushed to disk. Otherwise, this routine returns <b>FALSE</b>.
 
 
+
 ## -remarks
+
+
 This routine will return <b>TRUE</b> if any dirty pages exist including temporary files (<a href="..\ntifs\nf-ntifs-ccistheredirtydata.md">CcIsThereDirtyData</a> ignores temporary files).  It will also return <b>TRUE</b> if there is any data currently queued to the volume.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccistheredirtydata.md">CcIsThereDirtyData</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
+
+<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+
  
 
  

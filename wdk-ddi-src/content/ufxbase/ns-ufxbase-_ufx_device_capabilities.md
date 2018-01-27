@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 896919C9-E72E-4C0F-9E3E-9BEE9F55D27D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UFX_DEVICE_CAPABILITIES, *PUFX_DEVICE_CAPABILITIES, UFX_DEVICE_CAPABILITIES
+ms.keywords: UFX_DEVICE_CAPABILITIES structure [Buses], buses.ufx_device_capabilities, ufxbase/PUFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES, UFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES structure pointer [Buses], ufxbase/UFX_DEVICE_CAPABILITIES, _UFX_DEVICE_CAPABILITIES, *PUFX_DEVICE_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UFX_DEVICE_CAPABILITIES
-req.alt-loc: ufxbase.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PUFX_DEVICE_CAPABILITIES, UFX_DEVICE_CAPABILITIES
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ufxbase.h
+apiname: 
+-	UFX_DEVICE_CAPABILITIES
+product: Windows
+targetos: Windows
+req.typenames: UFX_DEVICE_CAPABILITIES, *PUFX_DEVICE_CAPABILITIES
 req.product: Windows 10 or later.
 ---
 
 # _UFX_DEVICE_CAPABILITIES structure
 
 
-
 ## -description
+
+
 The <b>UFX_DEVICE_CAPABILITIES</b> structure is used USB to define properties of the Universal Serial Bus (USB) device created by the controller.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UFX_DEVICE_CAPABILITIES {
@@ -59,6 +69,9 @@ typedef struct _UFX_DEVICE_CAPABILITIES {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -89,5 +102,3 @@ A bitmap that defines which endpoint numbers can support an IN endpoint.  Bit 0 
 
 A bitmap that defines which endpoint numbers can support an OUT endpoint.  Bit 0 indicates endpoint address 0, bit 1 indicates endpoint address 1, etc.   Bit 0 (the default control endpoint) is required to be set to 1.
 
-
-## -remarks

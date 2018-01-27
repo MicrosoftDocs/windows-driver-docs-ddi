@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 1400FAC6-DD4E-4E8E-A0ED-C59B700F0672
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _IRB_REQ_ISOCH_STOP, IRB_REQ_ISOCH_STOP
+ms.keywords: IRB_REQ_ISOCH_STOP structure [Buses], IRB_REQ_ISOCH_STOP, IEEE.irb_req_isoch_stop, 1394/IRB_REQ_ISOCH_STOP, _IRB_REQ_ISOCH_STOP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IRB_REQ_ISOCH_STOP
-req.alt-loc: 1394.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1394.h
+apiname: 
+-	IRB_REQ_ISOCH_STOP
+product: Windows
+targetos: Windows
 req.typenames: IRB_REQ_ISOCH_STOP
 ---
 
 # _IRB_REQ_ISOCH_STOP structure
 
 
-
 ## -description
+
+
 This structure contains the field necessary to carry out a IsochStop request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _IRB_REQ_ISOCH_STOP {
@@ -55,6 +65,9 @@ typedef struct _IRB_REQ_ISOCH_STOP {
 
 ## -struct-fields
 
+
+
+
 ### -field hResource
 
 Specifies the resource handle for the channel on which to stop isochronous operations. 
@@ -64,5 +77,3 @@ Specifies the resource handle for the channel on which to stop isochronous opera
 
 Reserved. Device drivers should set this member to zero.
 
-
-## -remarks

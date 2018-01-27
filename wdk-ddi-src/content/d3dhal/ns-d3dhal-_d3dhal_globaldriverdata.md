@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4aba7417-8391-4ae7-a449-dbc307cab530
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_GLOBALDRIVERDATA, D3DHAL_GLOBALDRIVERDATA, *LPD3DHAL_GLOBALDRIVERDATA
+ms.keywords: d3dhal/LPD3DHAL_GLOBALDRIVERDATA, LPD3DHAL_GLOBALDRIVERDATA structure pointer [Display Devices], *LPD3DHAL_GLOBALDRIVERDATA, display.d3dhal_globaldriverdata, D3DHAL_GLOBALDRIVERDATA, D3DHAL_GLOBALDRIVERDATA structure [Display Devices], LPD3DHAL_GLOBALDRIVERDATA, d3dstrct_95940eeb-e317-455f-bd8c-0e7d1937197e.xml, _D3DHAL_GLOBALDRIVERDATA, d3dhal/D3DHAL_GLOBALDRIVERDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_GLOBALDRIVERDATA
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_GLOBALDRIVERDATA
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_GLOBALDRIVERDATA
 ---
 
 # _D3DHAL_GLOBALDRIVERDATA structure
 
 
-
 ## -description
+
+
 The D3DHAL_GLOBALDRIVERDATA structure specifies the 3D capabilities of the driver and its device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_GLOBALDRIVERDATA {
@@ -58,6 +68,9 @@ typedef struct _D3DHAL_GLOBALDRIVERDATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwSize
 
@@ -90,24 +103,22 @@ Points to an array of DDSURFACEDESC structures where the driver should return th
 
 
 ## -remarks
+
+
 The driver is responsible for allocating space for and setting all members of this structure. The driver returns a pointer to this structure in the <b>lpD3DGlobalDriverData</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a> structure, which is passed to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a> function during driver initialization.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dhal\ns-d3dhal-_d3ddevicedesc_v1.md">D3DDEVICEDESC_V1</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550339">DDSURFACEDESC</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
-</dt>
-</dl>
+
+<a href="..\d3dhal\ns-d3dhal-_d3ddevicedesc_v1.md">D3DDEVICEDESC_V1</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550339">DDSURFACEDESC</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a>
+
  
 
  

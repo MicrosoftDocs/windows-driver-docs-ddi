@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 828ce6cf-f47a-4487-8c45-887f2ace8202
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _AVCPRECONNECTINFO, *PAVCPRECONNECTINFO, AVCPRECONNECTINFO
+ms.keywords: avc/PAVCPRECONNECTINFO, AVCPRECONNECTINFO structure [Streaming Media Devices], avc/AVCPRECONNECTINFO, PAVCPRECONNECTINFO, stream.avcpreconnectinfo, _AVCPRECONNECTINFO, PAVCPRECONNECTINFO structure pointer [Streaming Media Devices], *PAVCPRECONNECTINFO, AVCPRECONNECTINFO, avcref_c38bc8dd-8218-40ea-95b6-c5376fa6273c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AVCPRECONNECTINFO
-req.alt-loc: avc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	avc.h
+apiname: 
+-	AVCPRECONNECTINFO
+product: Windows
+targetos: Windows
 req.typenames: *PAVCPRECONNECTINFO, AVCPRECONNECTINFO
 ---
 
 # _AVCPRECONNECTINFO structure
 
 
-
 ## -description
+
+
 The AVCPRECONNECTINFO structure is used to initialize a subunit driver and establish pin connections.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _AVCPRECONNECTINFO {
@@ -58,6 +68,9 @@ typedef struct _AVCPRECONNECTINFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DeviceID
 
@@ -90,20 +103,20 @@ The plug number (within the subunit) described by the AVCPRECONNECTINFO structur
 
 
 ## -remarks
+
+
 This structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554154">AVC_FUNCTION_GET_CONNECTINFO</a> function code.
 
 This structure is used only as member of the AVC_PRECONNECT_INFO structure. It is not used by itself.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\avc\ns-avc-_avc_preconnect_info.md">AVC_PRECONNECT_INFO</a>
-</dt>
-<dt>
+
 <a href="..\avc\ne-avc-_kspin_flag_avc.md">KSPIN_FLAG_AVC</a>
-</dt>
-</dl>
+
+<a href="..\avc\ns-avc-_avc_preconnect_info.md">AVC_PRECONNECT_INFO</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 0D0B06FE-BE88-4FB2-92FC-8B6D396CEFE8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR
+ms.keywords: *PSENSOR_VALUE_PAIR, sensors.sensor_value_pair, PSENSOR_VALUE_PAIR structure pointer [Sensor Devices], PSENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR structure [Sensor Devices], sensorsdef/PSENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR, sensorsdef/SENSOR_VALUE_PAIR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SENSOR_VALUE_PAIR
-req.alt-loc: Sensorsdef.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Sensorsdef.h
+apiname: 
+-	SENSOR_VALUE_PAIR
+product: Windows
+targetos: Windows
 req.typenames: *PSENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SENSOR_VALUE_PAIR structure
 
 
-
 ## -description
+
+
 This structure pairs the property keys listed in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor properties</a> section with the data that each key represents.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SENSOR_VALUE_PAIR {
@@ -55,6 +65,9 @@ typedef struct _SENSOR_VALUE_PAIR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Key
 
@@ -67,4 +80,23 @@ A value that is associated with the property key element.
 
 
 ## -remarks
-The Value is one of the VT types (VARTYPE) that are supported by the sensor class extension (CX):</p>
+
+
+The Value is one of the VT types (VARTYPE) that are supported by the sensor class extension (CX):
+<ul>
+<li>VT_I1</li>
+<li>VT_UI1</li>
+<li>VT_I2</li>
+<li>VT_UI2</li>
+<li>VT_I4</li>
+<li>VT_UI4</li>
+<li>VT_INT</li>
+<li>VT_UINT</li>
+<li>VT_R4</li>
+<li>VT_BOOL</li>
+<li>VT_DATE</li>
+<li>VT_FILETIME</li>
+<li>VT_CLSID</li>
+<li>VT_LPWSTR</li>
+</ul>
+

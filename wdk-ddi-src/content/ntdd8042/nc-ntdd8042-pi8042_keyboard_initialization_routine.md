@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: bc1c82f0-f68c-433c-87f0-16c687d18557
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes
+ms.keywords: hid.pi8042_keyboard_initialization_routine, KeyboardInitializationRoutine callback function [Human Input Devices], KeyboardInitializationRoutine, PI8042_KEYBOARD_INITIALIZATION_ROUTINE, PI8042_KEYBOARD_INITIALIZATION_ROUTINE, ntdd8042/KeyboardInitializationRoutine, i8042ref_4bc54efc-bd3d-4091-a8c7-64631d187d20.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeyboardInitializationRoutine
-req.alt-loc: ntdd8042.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ntdd8042.h
+apiname: 
+-	KeyboardInitializationRoutine
+product: Windows
+targetos: Windows
+req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
 ---
 
 # PI8042_KEYBOARD_INITIALIZATION_ROUTINE callback
 
 
-
 ## -description
+
+
 A PI8042_KEYBOARD_INITIALIZATION_ROUTINE-typed callback routine supplements the default initialization of a keyboard device by I8042prt.
 
 
-
 ## -prototype
+
 
 ````
 PI8042_KEYBOARD_INITIALIZATION_ROUTINE KeyboardInitializationRoutine;
@@ -60,6 +70,9 @@ NTSTATUS KeyboardInitializationRoutine(
 
 
 ## -parameters
+
+
+
 
 ### -param InitializationContext [in]
 
@@ -87,24 +100,27 @@ Specifies whether to turn translation on or off. If <i>TranslationOn</i> is <b>T
 
 
 ## -returns
+
+
 A PI8042_KEYBOARD_INITIALIZATION_ROUTINE callback returns an appropriate NTSTATUS code.
 
 
+
 ## -remarks
+
+
 An upper-level keyboard filter driver can provide a PI8042_KEYBOARD_INITIALIZATION_ROUTINE callback.
 
 If an upper-level keyboard filter driver supplies an initialization callback, I8042prt calls the filter initialization callback when I8042prt initializes the keyboard. Default keyboard initialization includes the following operations: reset the keyboard, set the typematic rate and delay, and set the light-emitting diodes (LED).
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_read_port.md">PI8042_SYNCH_READ_PORT</a>
-</dt>
-<dt>
+
 <a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_write_port.md">PI8042_SYNCH_WRITE_PORT</a>
-</dt>
-</dl>
+
  
 
  

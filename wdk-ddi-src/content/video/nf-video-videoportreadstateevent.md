@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b09787b3-aede-4e53-9e22-0e81cf2dadb1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortReadStateEvent
+ms.keywords: VideoPort_Functions_8cd6da91-d349-4ef7-b61c-2e9a22c5f25e.xml, video/VideoPortReadStateEvent, VideoPortReadStateEvent function [Display Devices], display.videoportreadstateevent, VideoPortReadStateEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortReadStateEvent
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortReadStateEvent
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortReadStateEvent function
 
 
-
 ## -description
+
+
 The <b>VideoPortReadStateEvent</b> function returns the current state of a given event object: signaled or nonsignaled.
 
 
-
 ## -syntax
+
 
 ````
 LONG VideoPortReadStateEvent(
@@ -55,6 +65,9 @@ LONG VideoPortReadStateEvent(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -67,8 +80,15 @@ Pointer to the event object whose state is to be read.
 
 
 ## -returns
+
+
 <b>VideoPortReadStateEvent</b> returns a nonzero value if the event object is currently in the signaled state. If the event object is in the nonsignaled state, this function returns zero.
 
 
+
 ## -remarks
-This function is available in Windows XP and later. </p>
+
+
+This function is available in Windows XP and later. 
+
+

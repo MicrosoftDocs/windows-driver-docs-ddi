@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 336fa87a-6c3e-4337-90d9-b0ebeb355e68
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+ms.keywords: display.dxgkddiunload, DxgkDdiUnload callback function [Display Devices], DxgkDdiUnload, DXGKDDI_UNLOAD, DXGKDDI_UNLOAD, dispmprt/DxgkDdiUnload, DmFunctions_b7f60489-c7e7-4bd1-bf17-ff193bc7d614.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiUnload
-req.alt-loc: Dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Dispmprt.h
+apiname: 
+-	DxgkDdiUnload
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_UNLOAD callback
 
 
-
 ## -description
+
+
 The <i>DxgkDdiUnload</i> function frees any resources allocated during execution of the display miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> function.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_UNLOAD DxgkDdiUnload;
@@ -57,27 +67,35 @@ VOID DxgkDdiUnload(
 
 ## -parameters
 
-### -param  
 
-None
+
+
+
+
+
+
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 Typically, there will be nothing to do in <i>DxgkDdiUnload</i>.
 
 <i>DxgkDdiUnload</i> should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
-</dt>
-</dl>
+
  
 
  

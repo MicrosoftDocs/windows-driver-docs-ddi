@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: CE611168-76B3-496F-91C7-932E1F259529
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_FIXSESSIONTYPE, GNSS_FIXSESSIONTYPE
+ms.keywords: gnssdriver/GNSS_FixSession_SingleShot, GNSS_FIXSESSIONTYPE, GNSS_FixSession_DistanceTracking, GNSS_FIXSESSIONTYPE enumeration [Sensor Devices], sensors.gnss_fixsessiontype, gnssdriver/GNSS_FIXSESSIONTYPE, GNSS_FixSession_LKG, gnssdriver/GNSS_FixSession_ContinuousTracking, gnssdriver/GNSS_FixSession_LKG, gnssdriver/GNSS_FixSession_DistanceTracking, GNSS_FixSession_SingleShot, GNSS_FixSession_ContinuousTracking
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GNSS_FIXSESSIONTYPE
-req.alt-loc: gnssdriver.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	gnssdriver.h
+apiname: 
+-	GNSS_FIXSESSIONTYPE
+product: Windows
+targetos: Windows
 req.typenames: GNSS_FIXSESSIONTYPE
 ---
 
 # GNSS_FIXSESSIONTYPE enumeration
 
 
-
 ## -description
+
+
 This enumeration indicates the type of location fix needed by the GNSS adapter when it issues an <a href="..\gnssdriver\ni-gnssdriver-ioctl_gnss_start_fixsession.md">IOCTL_GNSS_START_FIXSESSION</a> control code. This enumeration is set within the <a href="..\gnssdriver\ns-gnssdriver-gnss_fixsession_param.md">GNSS_FIXSESSION_PARAM</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -56,6 +66,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field GNSS_FixSession_SingleShot
 
@@ -76,5 +89,3 @@ The start fix request is for starting a tracking session such that the device po
 
 This session request is for a single-shot request, without starting any satellite acquisition/tracking activity by the underlying GNSS engine. The GNSS driver returns the cached copy (either from the engine or from the drivers own memory) of the last known position of the device, along with the timestamp. If no cached fix is available either in the engine or in the driver, an error is returned. No intermediate fix is returned for this session. Once the LKG fix or an error fix is returned the GNSS adapter issues a stop fix.
 
-
-## -remarks

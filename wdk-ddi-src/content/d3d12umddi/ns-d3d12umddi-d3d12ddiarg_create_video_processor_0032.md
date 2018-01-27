@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6b945476-c1cf-4bf8-8273-bb3d05b90277
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032, D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032
+ms.keywords: d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032, D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032 structure [Display Devices], D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032, display.d3d12ddiarg-create-video-processor-0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032
-req.alt-loc: d3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d12umddi.h
+apiname: 
+-	D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032
 ---
 
 # D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032 structure
 
 
-
 ## -description
+
+
 Creates a video processor.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032 {
@@ -56,6 +66,9 @@ typedef struct _D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NodeMask
 
@@ -76,5 +89,3 @@ The input stream.
 
 The number of input streams.
 
-
-## -remarks

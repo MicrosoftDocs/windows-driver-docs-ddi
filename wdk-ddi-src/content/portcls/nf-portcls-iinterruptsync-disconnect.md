@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 799273eb-0ff6-4815-ac32-8fbb01f457e2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IInterruptSync, IInterruptSync::Disconnect, Disconnect
+ms.keywords: Disconnect method [Audio Devices], IInterruptSync interface, audio.iinterruptsync_disconnect, Disconnect method [Audio Devices], Disconnect, audmp-routines_f25f0c99-96e2-4f1b-9930-e736a6394759.xml, portcls/IInterruptSync::Disconnect, IInterruptSync interface [Audio Devices], Disconnect method, IInterruptSync::Disconnect, IInterruptSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IInterruptSync.Disconnect
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IInterruptSync.Disconnect
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IInterruptSync::Disconnect method
 
 
-
 ## -description
+
+
 The <code>Disconnect</code> method disconnects the synchronization object from the interrupt.
 
 
-
 ## -syntax
+
 
 ````
 void Disconnect(
@@ -54,25 +64,27 @@ void Disconnect(
 
 ## -parameters
 
-### -param None 
+
+
+
+
+#### - None
+
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iodisconnectinterrupt.md">IoDisconnectInterrupt</a>
-</dt>
-</dl>
+
  
 
  

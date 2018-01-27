@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 06427ef2-43e9-46c1-92e5-ab1b6146cc43
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltSetEaFile
+ms.keywords: FltSetEaFile, FltSetEaFile function [Installable File System Drivers], FltApiRef_p_to_z_7e886e7f-a5f4-4a87-9322-7818e31c84af.xml, fltkernel/FltSetEaFile, ifsk.fltseteafile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows 2000 Update Rollup 1 f
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltSetEaFile
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltSetEaFile
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltSetEaFile function
 
 
-
 ## -description
+
+
 <b>FltSetEaFile</b> sets extended-attribute (EA) values for a file. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltSetEaFile(
@@ -56,6 +66,9 @@ NTSTATUS FltSetEaFile(
 
 
 ## -parameters
+
+
+
 
 ### -param Instance [in]
 
@@ -78,29 +91,37 @@ Length, in bytes, of the buffer that the <i>EaBuffer</i> parameter points to.
 
 
 ## -returns
+
+
 <b>FltSetEaFile</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FLT_DELETING_OBJECT</b></dt>
-</dl>The instance or volume is being torn down. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+The instance or volume is being torn down. This is an error code. 
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltqueryeafile.md">FltQueryEaFile</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
-</dt>
-</dl>
+
  
 
  

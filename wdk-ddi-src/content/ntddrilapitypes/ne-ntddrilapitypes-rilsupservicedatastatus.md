@@ -7,8 +7,8 @@ old-location: netvista\rilsupservicedatastatus.htm
 old-project: netvista
 ms.assetid: 60cecce7-9085-4cbd-b637-e24af51d1c22
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSUPSERVICEDATASTATUS, RILSUPSERVICEDATASTATUS
+ms.date: 1/18/2018
+ms.keywords: ntddrilapitypes/RIL_SUPSVCDATASTATUS_ERROR, netvista.rilsupservicedatastatus, RIL_SUPSVCDATASTATUS_FURTHERINFOREQUIRED, RIL_SUPSVCDATASTATUS_MAX, ntddrilapitypes/RIL_SUPSVCDATASTATUS_TIMEOUT, RILSUPSERVICEDATASTATUS, RIL_SUPSVCDATASTATUS_ERROR, ntddrilapitypes/RILSUPSERVICEDATASTATUS, RIL_SUPSVCDATASTATUS_TIMEOUT, ntddrilapitypes/RIL_SUPSVCDATASTATUS_MAX, ntddrilapitypes/RIL_SUPSVCDATASTATUS_FURTHERINFOREQUIRED, RILSUPSERVICEDATASTATUS enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSUPSERVICEDATASTATUS
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILSUPSERVICEDATASTATUS
+product: Windows
+targetos: Windows
 req.typenames: RILSUPSERVICEDATASTATUS
 ---
 
 # RILSUPSERVICEDATASTATUS enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILSUPSERVICEDATASTATUS { 
@@ -57,16 +67,25 @@ typedef enum _RILSUPSERVICEDATASTATUS {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_SUPSVCDATASTATUS_NOINFOREQUIRED
+
+
+
 ### -field RIL_SUPSVCDATASTATUS_FURTHERINFOREQUIRED
+
 
 
 ### -field RIL_SUPSVCDATASTATUS_TIMEOUT
 
 
+
 ### -field RIL_SUPSVCDATASTATUS_ERROR
+
 
 
 ### -field RIL_SUPSVCDATASTATUS_MAX
 
 
-## -remarks

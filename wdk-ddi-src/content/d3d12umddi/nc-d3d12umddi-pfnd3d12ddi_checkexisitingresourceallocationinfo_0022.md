@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 428F23B4-3032-4BD9-A1C1-104BB2648F89
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA
+ms.keywords: display.pfnd3d12ddi_checkexisitingresourceallocationinfo_0022, pfnCheckExistingResourceAllocationInfo callback function [Display Devices], pfnCheckExistingResourceAllocationInfo, PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022, PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022, d3d12umddi/pfnCheckExistingResourceAllocationInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnCheckExistingResourceAllocationInfo
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	pfnCheckExistingResourceAllocationInfo
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
 
 # PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022 callback
 
 
-
 ## -description
+
+
 The <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt799844">pfnCheckExistingResourceAllocationInfo</a> callback function supports checking existing resource allocation information.
 
 
-
 ## -prototype
+
 
 ````
 PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022 pfnCheckExistingResourceAllocationInfo;
@@ -59,35 +69,57 @@ VOID APIENTRY* pfnCheckExistingResourceAllocationInfo(
 
 ## -parameters
 
-### -param hDevice 
-
-A device handle.
 
 
-### -param hResource 
 
-A resource handle.
+### -param D3D12DDI_HDEVICE
 
 
-### -param pInfo [out]
+
+### -param D3D12DDI_HRESOURCE
+
+
+
+### -param *
+
+
+
+
+
+
+#### - pInfo [out]
 
 Information for resource allocation. 
 
 
+#### - hResource
+
+A resource handle.
+
+
+#### - hDevice
+
+A device handle.
+
+
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 This callback function is part of a two step process of resource creation. After the <a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_checkresourceallocationinfo_0022.md">pfnCheckResourceAllocationInfo</a> callback function, the resource is created. During resource creation, the layout is never _UNDEFINED, since the driver will have returned a resolved texture layout. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_checkresourceallocationinfo_0022.md">pfnCheckResourceAllocationInfo</a>
-</dt>
-</dl>
+
  
 
  

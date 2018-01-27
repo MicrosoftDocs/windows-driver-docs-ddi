@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c7d346ab-6990-4636-bafd-2e448a937f3b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlInsertElementGenericTableFullAvl
+ms.keywords: RtlInsertElementGenericTableFullAvl, ntddk/RtlInsertElementGenericTableFullAvl, RtlInsertElementGenericTableFullAvl routine [Installable File System Drivers], ifsk.rtlinsertelementgenerictablefullavl, rtlref_425ca8ff-1fa8-4bdf-84ea-a8935cf0df59.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of the Wi
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlInsertElementGenericTableFullAvl
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL (see Remarks section)
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlInsertElementGenericTableFullAvl
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # RtlInsertElementGenericTableFullAvl function
 
 
-
 ## -description
+
+
 The <b>RtlInsertElementGenericTableFullAvl</b> routine adds a new entry to a generic table. 
 
 
-
 ## -syntax
+
 
 ````
 PVOID RtlInsertElementGenericTableFullAvl(
@@ -58,6 +68,9 @@ PVOID RtlInsertElementGenericTableFullAvl(
 
 
 ## -parameters
+
+
+
 
 ### -param Table [in]
 
@@ -86,38 +99,41 @@ The search result of a previous call to <a href="..\ntddk\nf-ntddk-rtllookupelem
 
 
 
-### -param TableEmptyTree
-
-The tree was empty. The contents of <i>NodeOrParent</i> has <i>not</i> been altered.
-
-
-### -param TableFoundNode
-
-The <b>RtlInsertElementGenericTableFullAvl</b> routine found a table entry whose key matches the data in <i>Buffer</i>. <i>NodeOrParent</i> contains a pointer to the matched entry.
-
-
-### -param TableInsertAsLeft
-
-The <b>RtlInsertElementGenericTableFullAvl</b> routine did <i>not</i> find a table entry whose key matches the data in <i>Buffer</i>. If the entry that <b>RtlInsertElementGenericTableFullAvl</b> searched for were in the table, it would be the left child of the entry that <i>NodeOrParent</i> points to.
-
-
-### -param TableInsertAsRight
-
-The <b>RtlInsertElementGenericTableFullAvl</b> routine did <i>not</i> find a table entry whose key matches the data in <i>Buffer</i>. If the entry that <b>RtlInsertElementGenericTableFullAvl</b> searched for were in the table, it would be the right child of the entry that <i>NodeOrParent</i> points to.
-
-</dd>
-</dl>
-
 ### -param SearchResult [in]
 
 A pointer to a table entry. If the <b>RtlInsertElementGenericTableFullAvl</b> routine matches an entry, <i>NodeOrParent</i> points to the matched entry. If the <b>RtlInsertElementGenericTableFullAvl</b> routine fails to find a match, <i>NodeOrParent</i> points to the entry that would be the parent of the entry that <b>RtlInsertElementGenericTableFullAvl</b> routine was searching for.
 
 
+##### - NodeOrParent.TableFoundNode
+
+The <b>RtlInsertElementGenericTableFullAvl</b> routine found a table entry whose key matches the data in <i>Buffer</i>. <i>NodeOrParent</i> contains a pointer to the matched entry.
+
+
+##### - NodeOrParent.TableEmptyTree
+
+The tree was empty. The contents of <i>NodeOrParent</i> has <i>not</i> been altered.
+
+
+##### - NodeOrParent.TableInsertAsLeft
+
+The <b>RtlInsertElementGenericTableFullAvl</b> routine did <i>not</i> find a table entry whose key matches the data in <i>Buffer</i>. If the entry that <b>RtlInsertElementGenericTableFullAvl</b> searched for were in the table, it would be the left child of the entry that <i>NodeOrParent</i> points to.
+
+
+##### - NodeOrParent.TableInsertAsRight
+
+The <b>RtlInsertElementGenericTableFullAvl</b> routine did <i>not</i> find a table entry whose key matches the data in <i>Buffer</i>. If the entry that <b>RtlInsertElementGenericTableFullAvl</b> searched for were in the table, it would be the right child of the entry that <i>NodeOrParent</i> points to.
+
+
 ## -returns
+
+
 <b>RtlInsertElementGenericTableFullAvl</b> returns a pointer to the user data for the newly inserted entry, or the user data for a matching entry that is already in the generic table. If no matching entry is found, but <b>RtlInsertElementGenericTableFullAvl</b> cannot insert the new entry (for example, because the <i>AllocateRoutine</i> fails), <b>RtlInsertElementGenericTableFullAvl</b> returns <b>NULL</b>. 
 
 
+
 ## -remarks
+
+
 To insert an entry, <b>RtlInsertElementGenericTableFullAvl</b> calls the <i>CompareRoutine</i> and <i>AllocateRoutine</i> that were registered when the generic table was initialized by <a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>. After inserting the new entry, <b>RtlInsertElementGenericTableFullAvl</b> rebalances the AVL link tree.
 
 When a new entry is inserted into the table, its data is copied from <i>Buffer</i> into the new entry. Thus the pointer returned by <b>RtlInsertElementGenericTableFullAvl</b> is never equal to <i>Buffer</i>. 
@@ -137,21 +153,24 @@ By default, the operating system uses splay trees to implement generic tables, b
 If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. For example, use the <b>RtlInsertElementGenericTableFullAvl</b> routine instead of <b>RtlInsertElementGenericTableFull</b>. In the call to <b>RtlInsertElementGenericTableFullAvl</b>, the caller must pass a <a href="..\ntddk\ns-ntddk-_rtl_avl_table.md">RTL_AVL_TABLE</a> table structure rather than <a href="..\ntddk\ns-ntddk-_rtl_generic_table.md">RTL_GENERIC_TABLE</a>.
 
 Callers of <b>RtlInsertElementGenericTableFullAvl</b> must be running at IRQL &lt; DISPATCH_LEVEL if either of the following conditions holds:
-
+<ul>
+<li>
 The caller-allocated memory at <i>Table</i> or at <i>Buffer</i> is pageable.
 
+</li>
+<li>
 The caller-supplied <i>CompareRoutine</i> or <i>AllocateRoutine</i> contains pageable code. 
+
+</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictable.md">RtlDeleteElementGenericTable</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictable.md">RtlDeleteElementGenericTable</a>
+
  
 
  

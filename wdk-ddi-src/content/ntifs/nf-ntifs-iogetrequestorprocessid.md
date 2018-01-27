@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 73fe40ee-f1fe-419b-a866-6c40604f7716
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoGetRequestorProcessId
+ms.keywords: ifsk.iogetrequestorprocessid, IoGetRequestorProcessId routine [Installable File System Drivers], ntifs/IoGetRequestorProcessId, IoGetRequestorProcessId, ioref_a08b37d7-b999-4e40-a0aa-c62744fee6dd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoGetRequestorProcessId
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoGetRequestorProcessId
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # IoGetRequestorProcessId function
 
 
-
 ## -description
+
+
 The <b>IoGetRequestorProcessId</b> routine returns the unique 32-bit process ID for the thread that originally requested a given I/O operation.
 
 
-
 ## -syntax
+
 
 ````
 ULONG IoGetRequestorProcessId(
@@ -54,16 +64,24 @@ ULONG IoGetRequestorProcessId(
 
 ## -parameters
 
+
+
+
 ### -param Irp [in]
 
 A pointer to the I/O request packet (IRP) for the specified I/O operation.
 
 
 ## -returns
+
+
 <b>IoGetRequestorProcessId</b> returns the process ID for the thread that requested the I/O operation. If the IRP is not associated with any thread, <b>IoGetRequestorProcessId</b> returns zero.
 
 
+
 ## -remarks
+
+
 On Microsoft Windows XP and later, <b>IoGetRequestorProcessId</b> returns the process ID for the process to which the thread is currently attached. 
 
 On Microsoft Windows 2000 and earlier, <b>IoGetRequestorProcessId</b> returns the process ID for the process that created the thread. 
@@ -71,12 +89,11 @@ On Microsoft Windows 2000 and earlier, <b>IoGetRequestorProcessId</b> returns th
 For more information about using system threads and managing synchronization within a nonarbitrary thread context, see <a href="https://msdn.microsoft.com/fbd8aadd-5a24-48c9-9865-80cc7dc97316">Driver Threads, Dispatcher Objects, and Resources</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-iogetrequestorprocess.md">IoGetRequestorProcess</a>
-</dt>
-</dl>
+
  
 
  

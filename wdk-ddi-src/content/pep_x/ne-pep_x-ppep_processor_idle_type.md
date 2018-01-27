@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ABC856E4-557D-45FD-B3A9-3FAA60542343
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: *PPEP_PROCESSOR_IDLE_TYPE, PEP_PROCESSOR_IDLE_TYPE, *PPEP_PROCESSOR_IDLE_TYPE
+ms.keywords: kernel.pep_processor_idle_type, *PPEP_PROCESSOR_IDLE_TYPE, pep_x/PEP_PROCESSOR_IDLE_TYPE, PepIdleTypePlatform, pep_x/PepIdleTypeMax, PEP_PROCESSOR_IDLE_TYPE enumeration [Kernel-Mode Driver Architecture], PepIdleTypeMax, pep_x/PepIdleTypeProcessor, PEP_PROCESSOR_IDLE_TYPE, pep_x/PepIdleTypePlatform, PepIdleTypeProcessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_PROCESSOR_IDLE_TYPE
-req.alt-loc: pep_x.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pep_x.h
+apiname: 
+-	PEP_PROCESSOR_IDLE_TYPE
+product: Windows
+targetos: Windows
 req.typenames: PEP_PROCESSOR_IDLE_TYPE, *PPEP_PROCESSOR_IDLE_TYPE
 ---
 
 # *PPEP_PROCESSOR_IDLE_TYPE enumeration
 
 
-
 ## -description
+
+
 The <b>PEP_PROCESSOR_IDLE_TYPE</b> enumeration indicates whether idle constraints apply to just the current processor or to all processors in the hardware platform.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _PEP_PROCESSOR_IDLE_TYPE { 
@@ -55,6 +65,9 @@ typedef enum _PEP_PROCESSOR_IDLE_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field PepIdleTypeProcessor
 
@@ -72,15 +85,16 @@ Reserved for use by operating system.
 
 
 ## -remarks
+
+
 The <b>Type</b> member of the <a href="..\pep_x\ns-pep_x-_pep_processor_idle_constraints.md">PEP_PROCESSOR_IDLE_CONSTRAINTS</a> structure is a <b>PEP_PROCESSOR_IDLE_TYPE</b> enumeration value.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\pep_x\ns-pep_x-_pep_processor_idle_constraints.md">PEP_PROCESSOR_IDLE_CONSTRAINTS</a>
-</dt>
-</dl>
+
  
 
  

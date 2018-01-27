@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 11F9FFC6-D2F6-4CCA-9459-CF2639AE652D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FSCTL_OFFLOAD_READ_INPUT, *PFSCTL_OFFLOAD_READ_INPUT, FSCTL_OFFLOAD_READ_INPUT
+ms.keywords: ntifs/FSCTL_OFFLOAD_READ_INPUT, PFSCTL_OFFLOAD_READ_INPUT, ntifs/PFSCTL_OFFLOAD_READ_INPUT, FSCTL_OFFLOAD_READ_INPUT, PFSCTL_OFFLOAD_READ_INPUT structure pointer [Installable File System Drivers], ifsk.fsctl_offload_read_input, FSCTL_OFFLOAD_READ_INPUT structure [Installable File System Drivers], *PFSCTL_OFFLOAD_READ_INPUT, _FSCTL_OFFLOAD_READ_INPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FSCTL_OFFLOAD_READ_INPUT
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FSCTL_OFFLOAD_READ_INPUT
+product: Windows
+targetos: Windows
 req.typenames: *PFSCTL_OFFLOAD_READ_INPUT, FSCTL_OFFLOAD_READ_INPUT
 ---
 
 # _FSCTL_OFFLOAD_READ_INPUT structure
 
 
-
 ## -description
+
+
 The <b>FSCTL_OFFLOAD_READ_INPUT</b> structure contains the input for the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451101">FSCTL_OFFLOAD_READ</a> control code request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FSCTL_OFFLOAD_READ_INPUT {
@@ -58,6 +68,9 @@ typedef struct _FSCTL_OFFLOAD_READ_INPUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -84,24 +97,30 @@ The time, in milliseconds, for which the read operation remains valid. The defau
  The position in the file to start reading from. The offset value must be aligned to a logical sector boundary on the volume.
 
 
-### -field Length
+### -field CopyLength
+
+ 
+
+
+
+#### - Length
 
  The length, in bytes, of data to read, starting at <b>FileOffset</b>. The length  value must align to a logical sector boundary on the volume, except when the length matches end-of-file.
 
 
 ## -remarks
+
+
 The  storage device's copy provider retains the data read for the duration in <b>TokenTimeToLive</b>. Multiple writes with the same token can be performed until the time in <b>TokenTimeToLive</b> expires.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451101">FSCTL_OFFLOAD_READ</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_fsctl_offload_read_output.md">FSCTL_OFFLOAD_READ_OUTPUT</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451101">FSCTL_OFFLOAD_READ</a>
+
  
 
  

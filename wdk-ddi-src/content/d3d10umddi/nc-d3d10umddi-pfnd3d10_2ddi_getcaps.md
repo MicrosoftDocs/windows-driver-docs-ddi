@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 83cd5f34-5f12-4ead-ad33-366fc3c6e804
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.getcaps_d3d10_2_, GetCaps callback function [Display Devices], GetCaps, PFND3D10_2DDI_GETCAPS, PFND3D10_2DDI_GETCAPS, d3d10umddi/GetCaps, UserModeDisplayDriverDx11_Functions_b0f0ebe4-205d-4eb5-ad35-e91dbcb21a1c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: GetCaps(D3D10_2) is supported beginning with the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GetCaps
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	GetCaps
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D10_2DDI_GETCAPS callback
 
 
-
 ## -description
+
+
 The <i>GetCaps(D3D10_2)</i> function queries for capabilities of the graphics adapter. 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D10_2DDI_GETCAPS GetCaps;
@@ -58,41 +68,78 @@ HRESULT APIENTRY GetCaps(
 
 ## -parameters
 
-### -param hAdapter [in]
-
- A handle that identifies the graphics adapter. 
 
 
-### -param pData [in]
+
+### -param D3D10DDI_HADAPTER
+
+
+
+### -param *
+
+
+
+
+
+
+#### - pData [in]
 
  A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddiarg_getcaps.md">D3D10_2DDIARG_GETCAPS</a> structure that describes the capabilities to retrieve.
 
 
+#### - hAdapter [in]
+
+ A handle that identifies the graphics adapter. 
+
+
 ## -returns
+
+
 <i>GetCaps(D3D10_2)</i> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The capabilities are successfully retrieved.
+</dl>
+</td>
+<td width="60%">
+The capabilities are successfully retrieved.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_OUTOFMEMORY</b></dt>
-</dl><i>GetCaps(D3D10_2)</i> could not allocate memory that is required for it to complete.
+</dl>
+</td>
+<td width="60%">
+<i>GetCaps(D3D10_2)</i> could not allocate memory that is required for it to complete.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The data that is returned by the <i>GetCaps(D3D10_2)</i> function in the <b>pData</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddiarg_getcaps.md">D3D10_2DDIARG_GETCAPS</a> structure depends on the type of data that is requested (that is, the data depends on the <b>Type</b> member of D3D10_2DDIARG_GETCAPS and sometimes on the <b>pInfo</b> member). 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddi_adapterfuncs.md">D3D10_2DDI_ADAPTERFUNCS</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddiarg_getcaps.md">D3D10_2DDIARG_GETCAPS</a>
-</dt>
-</dl>
+
  
 
  

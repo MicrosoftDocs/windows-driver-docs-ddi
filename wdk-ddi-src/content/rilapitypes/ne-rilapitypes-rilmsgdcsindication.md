@@ -7,8 +7,8 @@ old-location: netvista\rilmsgdcsindication_2.htm
 old-project: netvista
 ms.assetid: 292f54d6-0555-47d0-97b9-b76e9e08bf78
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILMSGDCSINDICATION, RILMSGDCSINDICATION
+ms.date: 1/18/2018
+ms.keywords: RIL_DCSINDICATION_FAX, rilapitypes/RILMSGDCSINDICATION, rilapitypes/RIL_DCSINDICATION_FAX, RILMSGDCSINDICATION enumeration [Network Drivers Starting with Windows Vista], RILMSGDCSINDICATION, RIL_DCSINDICATION_EMAIL, RIL_DCSINDICATION_OTHER, netvista.rilmsgdcsindication_2, rilapitypes/RIL_DCSINDICATION_MAX, rilapitypes/RIL_DCSINDICATION_OTHER, rilapitypes/RIL_DCSINDICATION_EMAIL, RIL_DCSINDICATION_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILMSGDCSINDICATION
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILMSGDCSINDICATION
+product: Windows
+targetos: Windows
 req.typenames: RILMSGDCSINDICATION
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILMSGDCSINDICATION enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILMSGDCSINDICATION { 
@@ -58,16 +68,25 @@ typedef enum _RILMSGDCSINDICATION {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_DCSINDICATION_VOICEMAIL
+
+
+
 ### -field RIL_DCSINDICATION_FAX
+
 
 
 ### -field RIL_DCSINDICATION_EMAIL
 
 
+
 ### -field RIL_DCSINDICATION_OTHER
+
 
 
 ### -field RIL_DCSINDICATION_MAX
 
 
-## -remarks

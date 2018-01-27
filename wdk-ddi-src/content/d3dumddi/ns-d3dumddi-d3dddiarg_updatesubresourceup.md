@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 27BE493F-8F70-4FBF-AA58-D6ACB27BFC2D
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_UPDATESUBRESOURCEUP, D3DDDIARG_UPDATESUBRESOURCEUP
+ms.keywords: D3DDDIARG_UPDATESUBRESOURCEUP, D3DDDIARG_UPDATESUBRESOURCEUP structure [Display Devices], display.d3dddiarg_updatesubresourceup, d3dumddi/D3DDDIARG_UPDATESUBRESOURCEUP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_UPDATESUBRESOURCEUP
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	D3DDDIARG_UPDATESUBRESOURCEUP
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_UPDATESUBRESOURCEUP
 ---
 
 # D3DDDIARG_UPDATESUBRESOURCEUP structure
 
 
-
 ## -description
+
+
 Describes info that's used to update a destination subresource region from a source system-memory region. Used by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3DDDIARG_UPDATESUBRESOURCEUP {
@@ -59,6 +69,9 @@ typedef struct D3DDDIARG_UPDATESUBRESOURCEUP {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hResource
 
@@ -95,21 +108,14 @@ The offset, in bytes, to move to the next depth slice of source data.
 A <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_copyflags.md">D3DDDIARG_COPYFLAGS</a> structure that specifies additional characteristics of the subresource update operation.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_copyflags.md">D3DDDIARG_COPYFLAGS</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddibox.md">D3DDDIBOX</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updatesubresourceup.md">pfnUpdateSubresourceUP</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_copyflags.md">D3DDDIARG_COPYFLAGS</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 370e9dfd-ef2f-4bba-a0ec-5ebc6fbecb7a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlProcessFileLock
+ms.keywords: FsRtlProcessFileLock, FsRtlProcessFileLock routine [Installable File System Drivers], fsrtlref_93a3a663-fe0b-45c2-ab32-af4fe94b9697.xml, ntifs/FsRtlProcessFileLock, ifsk.fsrtlprocessfilelock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlProcessFileLock
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlProcessFileLock
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlProcessFileLock function
 
 
-
 ## -description
+
+
 The <b>FsRtlProcessFileLock</b> routine processes and completes an IRP for a file lock operation.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlProcessFileLock(
@@ -55,6 +65,9 @@ NTSTATUS FsRtlProcessFileLock(
 
 
 ## -parameters
+
+
+
 
 ### -param FileLock [in]
 
@@ -72,14 +85,15 @@ Optional context pointer to be used when completing IRPs.
 
 
 ## -returns
+
+
 <b>FsRtlProcessFileLock</b> returns STATUS_SUCCESS or an error status code. Error status codes include the following:
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-<dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-<dt><b>STATUS_RANGE_NOT_LOCKED</b></dt>
-</dl>
+
+
 
 ## -remarks
+
+
 <b>FsRtlProcessFileLock</b> performs the specified lock operation on behalf of the process associated with thread that originally requested the operation. 
 
 On Microsoft Windows XP and later, this is the process to which the thread is currently attached. 
@@ -91,21 +105,17 @@ Callers of <b>FsRtlProcessFileLock</b> relinquish control of the input IRP.
 Minifilters must call <a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">FltProcessFileLock</a> instead of <b>FsRtlProcessFileLock</b>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">FltProcessFileLock</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a>
-</dt>
-</dl>
+
  
 
  

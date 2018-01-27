@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8fa7908c-7ed4-4f85-846c-71fc5c7dc035
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_BRIGHTNESS_INTERFACE, *PDXGK_BRIGHTNESS_INTERFACE, DXGK_BRIGHTNESS_INTERFACE
+ms.keywords: display.dxgk_brightness_interface, dispmprt/DXGK_BRIGHTNESS_INTERFACE, dispmprt/PDXGK_BRIGHTNESS_INTERFACE, DmStructs_f750f3c3-0754-49b9-8ad5-cd93f84697c4.xml, *PDXGK_BRIGHTNESS_INTERFACE, DXGK_BRIGHTNESS_INTERFACE structure [Display Devices], PDXGK_BRIGHTNESS_INTERFACE structure pointer [Display Devices], PDXGK_BRIGHTNESS_INTERFACE, DXGK_BRIGHTNESS_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_BRIGHTNESS_INTERFACE
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DXGK_BRIGHTNESS_INTERFACE
+product: Windows
+targetos: Windows
 req.typenames: *PDXGK_BRIGHTNESS_INTERFACE, DXGK_BRIGHTNESS_INTERFACE
 ---
 
 # DXGK_BRIGHTNESS_INTERFACE structure
 
 
-
 ## -description
+
+
 The <b>DXGK_BRIGHTNESS_INTERFACE</b> structure contains pointers to functions in the Panel Brightness Control Interface, which is implemented by the display miniport driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -60,6 +70,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -102,30 +115,26 @@ A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgk
 
 
 ## -remarks
+
+
 A kernel-mode component that must use the brightness interface initiates a call to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_interface.md">DxgkDdiQueryInterface</a> function to retrieve the interface and passes GUID_DEVINTERFACE_BRIGHTNESS in the <b>InterfaceType</b> member of the <a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a> structure that the <i>QueryInterface</i> parameter points to.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\dispmprt\ns-dispmprt-dxgk_brightness_interface_2.md">DXGK_BRIGHTNESS_INTERFACE_2</a>
-</dt>
-<dt>
-<a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get.md">DxgkDdiGetBrightness</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get_possible.md">DxgkDdiGetPossibleBrightness</a>
-</dt>
-<dt>
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_interface.md">DxgkDdiQueryInterface</a>
-</dt>
-<dt>
+
+<a href="..\dispmprt\ns-dispmprt-dxgk_brightness_interface_2.md">DXGK_BRIGHTNESS_INTERFACE_2</a>
+
 <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set.md">DxgkDdiSetBrightness</a>
-</dt>
-<dt>
+
 <a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a>
-</dt>
-</dl>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_interface.md">DxgkDdiQueryInterface</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get.md">DxgkDdiGetBrightness</a>
+
  
 
  

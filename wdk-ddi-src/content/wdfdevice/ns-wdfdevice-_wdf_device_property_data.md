@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C49562C0-D8B6-4BAE-96EB-4005D9EB19DE
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_DEVICE_PROPERTY_DATA, WDF_DEVICE_PROPERTY_DATA, *PWDF_DEVICE_PROPERTY_DATA
+ms.keywords: PWDF_DEVICE_PROPERTY_DATA, WDF_DEVICE_PROPERTY_DATA structure, wdfdevice/WDF_DEVICE_PROPERTY_DATA, wdf.wdf_device_property_data, PWDF_DEVICE_PROPERTY_DATA structure pointer, *PWDF_DEVICE_PROPERTY_DATA, _WDF_DEVICE_PROPERTY_DATA, WDF_DEVICE_PROPERTY_DATA, wdfdevice/PWDF_DEVICE_PROPERTY_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.13
 req.umdf-ver: 2.0
-req.alt-api: WDF_DEVICE_PROPERTY_DATA
-req.alt-loc: wdfdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfdevice.h
+apiname: 
+-	WDF_DEVICE_PROPERTY_DATA
+product: Windows
+targetos: Windows
 req.typenames: WDF_DEVICE_PROPERTY_DATA, *PWDF_DEVICE_PROPERTY_DATA
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_DEVICE_PROPERTY_DATA structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_DEVICE_PROPERTY_DATA</b> structure describes a device property.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WDF_DEVICE_PROPERTY_DATA {
@@ -59,6 +69,9 @@ typedef struct _WDF_DEVICE_PROPERTY_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -82,32 +95,43 @@ Set to  <b>PLUGPLAY_PROPERTY_PERSISTENT</b> if this property value is being set 
 
 
 ## -remarks
-The <b>WDF_DEVICE_PROPERTY_DATA</b> structure is used as input to the following methods:
 
-Drivers should initialize this structure by calling <a href="..\wdfdevice\nf-wdfdevice-wdf_device_property_data_init.md">WDF_DEVICE_PROPERTY_DATA_INIT</a>.
+
+The <b>WDF_DEVICE_PROPERTY_DATA</b> structure is used as input to the following methods:
+<ul>
+<li>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandquerypropertyex.md">WdfDeviceAllocAndQueryPropertyEx</a>
+</li>
+<li>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignproperty.md">WdfDeviceAssignProperty</a>
+</li>
+<li>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicequerypropertyex.md">WdfDeviceQueryPropertyEx</a>
+</li>
+<li>
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitallocandquerypropertyex.md">WdfFdoInitAllocAndQueryPropertyEx</a>
+</li>
+<li>
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitquerypropertyex.md">WdfFdoInitQueryPropertyEx</a>
+</li>
+</ul>Drivers should initialize this structure by calling <a href="..\wdfdevice\nf-wdfdevice-wdf_device_property_data_init.md">WDF_DEVICE_PROPERTY_DATA_INIT</a>.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfdevice\nf-wdfdevice-wdf_device_property_data_init.md">WDF_DEVICE_PROPERTY_DATA_INIT</a>
-</dt>
-<dt>
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandquerypropertyex.md">WdfDeviceAllocAndQueryPropertyEx</a>
-</dt>
-<dt>
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignproperty.md">WdfDeviceAssignProperty</a>
-</dt>
-<dt>
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicequerypropertyex.md">WdfDeviceQueryPropertyEx</a>
-</dt>
-<dt>
+
 <a href="..\wdffdo\nf-wdffdo-wdffdoinitallocandquerypropertyex.md">WdfFdoInitAllocAndQueryPropertyEx</a>
-</dt>
-<dt>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdf_device_property_data_init.md">WDF_DEVICE_PROPERTY_DATA_INIT</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignproperty.md">WdfDeviceAssignProperty</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandquerypropertyex.md">WdfDeviceAllocAndQueryPropertyEx</a>
+
 <a href="..\wdffdo\nf-wdffdo-wdffdoinitquerypropertyex.md">WdfFdoInitQueryPropertyEx</a>
-</dt>
-</dl>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicequerypropertyex.md">WdfDeviceQueryPropertyEx</a>
+
  
 
  

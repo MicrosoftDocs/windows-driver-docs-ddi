@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 724FD17B-D12B-423D-AA0E-93D9D31DC93E
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _BDA_DISEQC_RESPONSE, BDA_DISEQC_RESPONSE, *PBDA_DISEQC_RESPONSE
+ms.keywords: _BDA_DISEQC_RESPONSE, bdatypes/BDA_DISEQC_RESPONSE, *PBDA_DISEQC_RESPONSE, PBDA_DISEQC_RESPONSE, stream.bda_diseqc_response, BDA_DISEQC_RESPONSE, PBDA_DISEQC_RESPONSE structure pointer [Streaming Media Devices], BDA_DISEQC_RESPONSE structure [Streaming Media Devices], bdatypes/PBDA_DISEQC_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BDA_DISEQC_RESPONSE
-req.alt-loc: Bdatypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: BDA_DISEQC_RESPONSE, *PBDA_DISEQC_RESPONSE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bdatypes.h
+apiname: 
+-	BDA_DISEQC_RESPONSE
+product: Windows
+targetos: Windows
+req.typenames: *PBDA_DISEQC_RESPONSE, BDA_DISEQC_RESPONSE
 ---
 
 # _BDA_DISEQC_RESPONSE structure
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: BDA_DISEQC_RESPONSE, *PBDA_DISEQC_RESPONSE
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct _BDA_DISEQC_RESPONSE {
@@ -56,13 +66,17 @@ typedef struct _BDA_DISEQC_RESPONSE {
 
 ## -struct-fields
 
+
+
+
 ### -field ulRequestId
+
 
 
 ### -field ulPacketLength
 
 
+
 ### -field argbPacketData
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6b377ba5-cd3b-433e-bd9c-315203c3bc69
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_TIMED_OPERATION, *PDXGK_TIMED_OPERATION, DXGK_TIMED_OPERATION
+ms.keywords: dispmprt/PDXGK_TIMED_OPERATION, PDXGK_TIMED_OPERATION, dispmprt/DXGK_TIMED_OPERATION, DmStructs_1d58055e-2e81-4a42-b596-390752f0db84.xml, display.dxgk_timed_operation, PDXGK_TIMED_OPERATION structure pointer [Display Devices], DXGK_TIMED_OPERATION, *PDXGK_TIMED_OPERATION, _DXGK_TIMED_OPERATION, DXGK_TIMED_OPERATION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_TIMED_OPERATION
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PDXGK_TIMED_OPERATION, DXGK_TIMED_OPERATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DXGK_TIMED_OPERATION
+product: Windows
+targetos: Windows
+req.typenames: DXGK_TIMED_OPERATION, *PDXGK_TIMED_OPERATION
 ---
 
 # _DXGK_TIMED_OPERATION structure
 
 
-
 ## -description
+
+
 The DXGK_TIMED_OPERATION structure describes a timed operation, which is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_TIMED_OPERATION {
@@ -58,6 +68,9 @@ typedef struct _DXGK_TIMED_OPERATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -90,15 +103,16 @@ typedef struct _DXGK_TIMED_OPERATION {
 
 
 ## -remarks
+
+
 Display miniport drivers should not change of rely on members that are marked with the  [system] designation.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
-</dt>
-</dl>
+
  
 
  

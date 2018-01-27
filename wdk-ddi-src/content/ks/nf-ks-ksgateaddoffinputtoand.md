@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 53e03b1d-0995-43cf-945a-22834a9e8240
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGateAddOffInputToAnd
+ms.keywords: avfunc_52efe27b-d77a-490d-beba-3a05b3d5ed83.xml, stream.ksgateaddoffinputtoand, KsGateAddOffInputToAnd, ks/KsGateAddOffInputToAnd, KsGateAddOffInputToAnd function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsGateAddOffInputToAnd
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KsGateAddOffInputToAnd
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsGateAddOffInputToAnd function
 
 
-
 ## -description
+
+
 The<b> KsGateAddOffInputToAnd</b> function adds a new input in the OFF state to a given AND gate. 
 
 
-
 ## -syntax
+
 
 ````
 void __inline KsGateAddOffInputToAnd(
@@ -54,16 +64,24 @@ void __inline KsGateAddOffInputToAnd(
 
 ## -parameters
 
+
+
+
 ### -param AndGate [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure representing the AND gate to which to add a new OFF input.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 Adding an OFF input to an open AND gate closes the gate and propagates the close down to any attached gates.
 
 This function should only be used on gates that were specifically created as AND gates; AVStream does not verify that the given gate is an AND gate.
@@ -71,24 +89,19 @@ This function should only be used on gates that were specifically created as AND
 <b>KsGateAddOffInputToAnd</b> is an inline function call to <a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>. If conceptually adding a new input to a gate, the minidriver should call <b>KsGateAddOffInputToAnd</b> rather than <b>KsGateTurnInputOff</b>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksgateremoveoffinputfromand.md">KsGateRemoveOffInputFromAnd</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksgateaddoninputtoand.md">KsGateAddOnInputToAnd</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksgateremoveoninputfromand.md">KsGateRemoveOnInputFromAnd</a>
-</dt>
-<dt>
+
+<a href="..\ks\nf-ks-ksgateaddoninputtoand.md">KsGateAddOnInputToAnd</a>
+
 <a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksgateremoveoffinputfromand.md">KsGateRemoveOffInputFromAnd</a>
+
  
 
  

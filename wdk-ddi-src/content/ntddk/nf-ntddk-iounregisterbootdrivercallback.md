@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6199672C-A4A4-4ED8-B91E-95D96A472449
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoUnregisterBootDriverCallback
+ms.keywords: ntddk/IoUnRegisterBootDriverCallback, IoUnRegisterBootDriverCallback, kernel.iounregisterbootdrivercallback, IoUnregisterBootDriverCallback, IoUnRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with  Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoUnRegisterBootDriverCallback
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoUnRegisterBootDriverCallback
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # IoUnregisterBootDriverCallback function
 
 
-
 ## -description
+
+
 The <b>IoUnRegisterBootDriverCallback</b> routine unregisters a previously registered <b>BOOT_DRIVER_CALLBACK_FUNCTION</b> routine.
 
 
-
 ## -syntax
+
 
 ````
 void IoUnRegisterBootDriverCallback(
@@ -54,25 +64,32 @@ void IoUnRegisterBootDriverCallback(
 
 ## -parameters
 
+
+
+
 ### -param CallbackHandle [in]
 
 A handle returned from a previous call to <a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">IoRegisterBootDriverCallback</a>.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A driver that calls <a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">IoRegisterBootDriverCallback</a> must call <b>IoUnRegisterBootDriverCallback</b> before being unloaded.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">IoRegisterBootDriverCallback</a>
-</dt>
-</dl>
+
  
 
  

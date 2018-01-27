@@ -7,8 +7,8 @@ old-location: debugger\readio.htm
 old-project: debugger
 ms.assetid: d690cf53-63a6-487c-a952-07035786d19c
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4::ReadIo, ReadIo
+ms.date: 1/19/2018
+ms.keywords: IDebugDataSpaces4, dbgeng/IDebugDataSpaces2::ReadIo, dbgeng/IDebugDataSpaces::ReadIo, ReadIo method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces3::ReadIo, IDebugDataSpaces2::ReadIo, dbgeng/IDebugDataSpaces4::ReadIo, IDebugDataSpaces2 interface [Windows Debugging], ReadIo method, IDebugDataSpaces3 interface [Windows Debugging], ReadIo method, ReadIo, IDebugDataSpaces4::ReadIo, debugger.readio, IDebugDataSpaces interface [Windows Debugging], ReadIo method, ReadIo method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces_a6189a47-dc48-44cf-aadd-61769085ebc5.xml, ReadIo method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4 interface [Windows Debugging], ReadIo method, IDebugDataSpaces::ReadIo, ReadIo method [Windows Debugging], ReadIo method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces3::ReadIo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugDataSpaces.ReadIo,IDebugDataSpaces2.ReadIo,IDebugDataSpaces3.ReadIo,IDebugDataSpaces4.ReadIo
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugDataSpaces.ReadIo
+-	IDebugDataSpaces2.ReadIo
+-	IDebugDataSpaces3.ReadIo
+-	IDebugDataSpaces4.ReadIo
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::ReadIo method
 
 
-
 ## -description
+
+
 The <b>ReadIo</b> method reads from the system and bus I/O memory.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT ReadIo(
@@ -59,6 +72,9 @@ HRESULT ReadIo(
 
 
 ## -parameters
+
+
+
 
 ### -param InterfaceType [in]
 
@@ -96,14 +112,33 @@ Receives the number of bytes returned read from the I/O bus.  If <i>BytesRead</i
 
 
 ## -returns
+
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method was successful.
+</dl>
+</td>
+<td width="60%">
+The method was successful.
 
- 
+</td>
+</tr>
+</table> 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
+
 ## -remarks
-This method is only available in kernel-mode debugging.</p>
+
+
+This method is only available in kernel-mode debugging.
+
+

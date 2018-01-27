@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7a8e7641-c946-4feb-b6d7-54ef63de9e76
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE, D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
+ms.keywords: D3D11_1DDI_PROCESSIDTYPE_DWM, d3d10umddi/D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE, D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE enumeration [Display Devices], d3d10umddi/D3D11_1DDI_PROCESSIDTYPE_HANDLE, D3D11_1DDI_PROCESSIDTYPE_HANDLE, d3d10umddi/D3D11_1DDI_PROCESSIDTYPE_DWM, D3D11_1DDI_PROCESSIDTYPE_UNKNOWN, D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE, d3d10umddi/D3D11_1DDI_PROCESSIDTYPE_UNKNOWN, display.d3d11_1ddi_authenticated_process_identifier_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
 ---
 
 # D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE enumeration
 
 
-
 ## -description
+
+
 Specifies the type of process that is identified in the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_query_restricted_shared_resource_process_output.md">D3D11_1DDI_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT</a>  structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE { 
@@ -55,6 +65,9 @@ typedef enum D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D11_1DDI_PROCESSIDTYPE_UNKNOWN
 
@@ -71,15 +84,10 @@ DWM process.
 Handle to a process.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_query_restricted_shared_resource_process_output.md">D3D11_1DDI_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 11d603e9-6db1-44a2-b4e3-d85ffe0d5c25
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _SDP_NODE, SDP_NODE, *PSDP_NODE
+ms.keywords: bth_structs_30367149-bffb-4ff9-a6d8-2f73c5198874.xml, PSDP_NODE structure pointer [Bluetooth Devices], *PSDP_NODE, sdpnode/PSDP_NODE, SDP_NODE, SDP_NODE structure [Bluetooth Devices], sdpnode/SDP_NODE, _SDP_NODE, bltooth.sdp_node, PSDP_NODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SDP_NODE
-req.alt-loc: sdpnode.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	sdpnode.h
+apiname: 
+-	SDP_NODE
+product: Windows
+targetos: Windows
 req.typenames: SDP_NODE, *PSDP_NODE
 req.product: Windows 10 or later.
 ---
@@ -38,14 +47,15 @@ req.product: Windows 10 or later.
 # _SDP_NODE structure
 
 
-
 ## -description
+
+
 The SDP_NODE structure holds information about an element in a tree-based representation of an SDP
   record.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SDP_NODE {
@@ -58,6 +68,9 @@ typedef struct _SDP_NODE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hdr
 
@@ -84,6 +97,8 @@ Reserved for future use. Do not use.
 
 
 ## -remarks
+
+
 Each SDP_NODE structure in the tree representation of an SDP record contains a SDP_NODE_HEADER
     structure and an SDP_NODE_DATA union.
 
@@ -99,18 +114,15 @@ The header specifies the type of data. Driver developers can access links to pee
     extract the address of the containing node record.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
-</dt>
-<dt>
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
-</dt>
-</dl>
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
+
  
 
  

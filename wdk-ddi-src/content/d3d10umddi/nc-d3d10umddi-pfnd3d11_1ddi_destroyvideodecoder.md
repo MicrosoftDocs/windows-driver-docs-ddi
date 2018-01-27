@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 541f4c9b-3193-46a8-9979-74456168988e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.destroyvideodecoder, pfnDestroyVideoDecoder callback function [Display Devices], pfnDestroyVideoDecoder, PFND3D11_1DDI_DESTROYVIDEODECODER, PFND3D11_1DDI_DESTROYVIDEODECODER, d3d10umddi/pfnDestroyVideoDecoder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnDestroyVideoDecoder
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	pfnDestroyVideoDecoder
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_DESTROYVIDEODECODER callback
 
 
-
 ## -description
+
+
 Releases resources for the video decoder object that were created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a> function.
 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11_1DDI_DESTROYVIDEODECODER pfnDestroyVideoDecoder;
@@ -59,31 +69,43 @@ VOID APIENTRY* pfnDestroyVideoDecoder(
 
 ## -parameters
 
-### -param hDevice [in]
+
+
+
+### -param D3D10DDI_HDEVICE
+
+
+
+### -param D3D11_1DDI_HDECODE
+
+
+
+
+
+
+#### - hDecoder [in]
+
+A handle to the driver's private data for the video decoder object. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a>.
+
+
+#### - hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-### -param hDecoder [in]
-
-A handle to the driver's private data for the video decoder object. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a>.
-
-
 ## -returns
+
+
 This callback function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a>
-</dt>
-</dl>
+
  
 
  

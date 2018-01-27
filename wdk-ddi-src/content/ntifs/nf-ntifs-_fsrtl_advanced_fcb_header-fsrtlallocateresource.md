@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a02f87ea-e7e5-48ff-94a2-a76b4f0cd04a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlAllocateResource
+ms.keywords: ntifs/FsRtlAllocateResource, fsrtlref_7c0e205b-9e67-4fba-a70d-67e441cdcddf.xml, ifsk.fsrtlallocateresource, FsRtlAllocateResource function [Installable File System Drivers], FsRtlAllocateResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlAllocateResource
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FsRtlAllocateResource
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlAllocateResource function
 
 
-
 ## -description
+
+
 The <b>FsRtlAllocateResource</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a> and <a href="..\wdm\nf-wdm-exinitializeresourcelite.md">ExInitializeResourceLite</a> instead.
 
 
-
 ## -syntax
+
 
 ````
   FsRtlAllocateResource(
@@ -54,9 +64,14 @@ The <b>FsRtlAllocateResource</b> routine is obsolete, but is exported to support
 
 ## -parameters
 
-### -param  
-
-Reserved.
 
 
-## -remarks
+
+### -param
+
+TBD
+
+
+
+
+

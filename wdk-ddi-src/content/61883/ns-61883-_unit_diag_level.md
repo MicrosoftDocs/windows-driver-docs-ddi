@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 2759486f-7eaa-4af4-b9a9-2e44354f411b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _UNIT_DIAG_LEVEL, *PUNIT_DIAG_LEVEL, UNIT_DIAG_LEVEL
+ms.keywords: UNIT_DIAG_LEVEL, 61883/PUNIT_DIAG_LEVEL, *PUNIT_DIAG_LEVEL, PUNIT_DIAG_LEVEL structure pointer [Buses], IEEE.unit_diag_level, UNIT_DIAG_LEVEL structure [Buses], 61883/UNIT_DIAG_LEVEL, _UNIT_DIAG_LEVEL, PUNIT_DIAG_LEVEL, 61883_structures_02b60b1d-45d1-474b-901c-4346b23c8d25.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UNIT_DIAG_LEVEL
-req.alt-loc: 61883.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	61883.h
+apiname: 
+-	UNIT_DIAG_LEVEL
+product: Windows
+targetos: Windows
 req.typenames: *PUNIT_DIAG_LEVEL, UNIT_DIAG_LEVEL
 ---
 
 # _UNIT_DIAG_LEVEL structure
 
 
-
 ## -description
+
+
 The UNIT_DDI_VERSION structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536983">Av61883_GetUnitInfo</a> request to retrieve the current diag level 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UNIT_DIAG_LEVEL {
@@ -54,6 +64,9 @@ typedef struct _UNIT_DIAG_LEVEL {
 
 ## -struct-fields
 
+
+
+
 ### -field DiagLevel
 
 The bitmask representing the diaglevel. Possible settings are:
@@ -61,42 +74,35 @@ The bitmask representing the diaglevel. Possible settings are:
 
 
 
-### -field DIAGLEVEL_NONE
+##### - DiagLevel.DIAGLEVEL_NONE
 
 Nothing set.
 
 
-### -field DIAGLEVEL_IGNORE_OPLUG
+##### - DiagLevel.DIAGLEVEL_IGNORE_OPLUG
 
 Ignore programming of the oPCR plug on the device when set.
 
 
-### -field DIAGLEVEL_IGNORE_IPLUG
-
-Ignore programming of the iPCR on the device when set.
-
-
-### -field DIAGLEVEL_SET_CHANNEL_63
+##### - DiagLevel.DIAGLEVEL_SET_CHANNEL_63
 
 Set the channel to 63 when disconnecting from the device.
 
 
-### -field DIAGLEVEL_IPCR_IGNORE_FREE
+##### - DiagLevel.DIAGLEVEL_IGNORE_IPLUG
+
+Ignore programming of the iPCR on the device when set.
+
+
+##### - DiagLevel.DIAGLEVEL_IPCR_IGNORE_FREE
 
 Do not free isochronous resources when disconnecting from the device iPCR.
 
-</dd>
-</dl>
-
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536983">Av61883_GetUnitInfo</a>
-</dt>
-</dl>
+
  
 
  

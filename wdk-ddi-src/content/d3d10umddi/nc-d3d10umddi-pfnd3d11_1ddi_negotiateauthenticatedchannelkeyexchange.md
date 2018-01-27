@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a54a26d2-d38c-4e82-a3e9-7a17c0afff27
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.negotiateauthenticatedchannelkeyexchange, pfnNegotiateAuthenticatedChannelKeyExchange callback function [Display Devices], pfnNegotiateAuthenticatedChannelKeyExchange, PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE, PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE, d3d10umddi/pfnNegotiateAuthenticatedChannelKeyExchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnNegotiateAuthenticatedChannelKeyExchange
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	pfnNegotiateAuthenticatedChannelKeyExchange
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE callback
 
 
-
 ## -description
+
+
 Establishes a session key for an authenticated channel.
 
 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE pfnNegotiateAuthenticatedChannelKeyExchange;
@@ -61,6 +71,9 @@ HRESULT APIENTRY* pfnNegotiateAuthenticatedChannelKeyExchange(
 
 
 ## -parameters
+
+
+
 
 ### -param hDevice [in]
 
@@ -83,39 +96,78 @@ The size, in bytes, of the data in the <i>pData</i> array.
 
 
 
-### -param pData [in]
+### -param *pData
+
+
+
+
+
+
+#### - pData [in]
 
 A pointer to a byte array that contains the encrypted session key.
 
 
 ## -returns
+
+
 <b>NegotiateAuthenticatedChannelKeyExchange</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The session key for the authenticated channel was negotiated successfully.
+</dl>
+</td>
+<td width="60%">
+The session key for the authenticated channel was negotiated successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_INVALIDARG</b></dt>
-</dl>Parameters were validated and determined to be incorrect.
+</dl>
+</td>
+<td width="60%">
+Parameters were validated and determined to be incorrect.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_OUTOFMEMORY</b></dt>
 </dl>
+</td>
+<td width="60%">
+
         Memory was not available to complete the operation.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The <i>pData</i> parameter references a buffer that contains a session key for the authenticated channel. This key buffer must contain 256 bytes of data and must be encrypted by using the RSA Encryption Scheme - Optimal Asymmetric Encryption Padding (RSAES-OAEP) algorithm with the public key from the authenticated channel certificate.
 
 The key exchange for an authenticated channel is identical to the key exchange for the Output Protection Manager (OPM) interface. However,  the OPM key buffer contains additional data besides the session key.  
+<div class="alert"><b>Note</b>  The same certificate can be used for the authenticated channel and OPM session key.</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a>
-</dt>
-</dl>
+
  
 
  

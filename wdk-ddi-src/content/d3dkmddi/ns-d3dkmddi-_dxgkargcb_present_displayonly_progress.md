@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c3849df0-0794-43fe-ba29-6daa8461cd9a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS, DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS
+ms.keywords: display.dxgkargcb_present_displayonly_progress, DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS, _DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS, DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS structure [Display Devices], d3dkmddi/DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS
-req.alt-loc: D3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmddi.h
+apiname: 
+-	DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS
+product: Windows
+targetos: Windows
 req.typenames: DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS
 ---
 
 # _DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS structure
 
 
-
 ## -description
+
+
 Provides the progress of a kernel mode display-only driver's (KMDOD) present operation that was requested by the operating system.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS {
@@ -55,6 +65,9 @@ typedef struct _DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS {
 
 ## -struct-fields
 
+
+
+
 ### -field VidPnSourceId
 
 An integer that identifies a video present source.
@@ -65,15 +78,10 @@ An integer that identifies a video present source.
 A value of type <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_present_display_only_progress_id.md">DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID</a> that represents the status of the current present operation.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_present_display_only_progress_id.md">DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: BB5C69FF-166A-4A38-BF5E-FD644FCD1285
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCX_CONTROLLER_ACPI_INFORMATION, *PUCX_CONTROLLER_ACPI_INFORMATION, UCX_CONTROLLER_ACPI_INFORMATION
+ms.keywords: P_UCX_CONTROLLER_ACPI_INFORMATION, UCX_CONTROLLER_ACPI_INFORMATION structure [Buses], buses._ucx_controller_acpi_information, ucxcontroller/_UCX_CONTROLLER_ACPI_INFORMATION, _UCX_CONTROLLER_ACPI_INFORMATION, UCX_CONTROLLER_ACPI_INFORMATION, ucxcontroller/P_UCX_CONTROLLER_ACPI_INFORMATION, *PUCX_CONTROLLER_ACPI_INFORMATION, P_UCX_CONTROLLER_ACPI_INFORMATION structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UCX_CONTROLLER_ACPI_INFORMATION
-req.alt-loc: Ucxcontroller.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PUCX_CONTROLLER_ACPI_INFORMATION, UCX_CONTROLLER_ACPI_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ucxcontroller.h
+apiname: 
+-	UCX_CONTROLLER_ACPI_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: UCX_CONTROLLER_ACPI_INFORMATION, *PUCX_CONTROLLER_ACPI_INFORMATION
 req.product: Windows 10 or later.
 ---
 
 # _UCX_CONTROLLER_ACPI_INFORMATION structure
 
 
-
 ## -description
+
+
 This structure provides information about an advanced Configuration and power interface (ACPI) USB controller.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UCX_CONTROLLER_ACPI_INFORMATION {
@@ -56,6 +66,9 @@ typedef struct _UCX_CONTROLLER_ACPI_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field VendorId
 
@@ -72,18 +85,12 @@ The device ID of the ACPI USB controller.
 The revision ID of the ACPI USB controller.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
-</dt>
-<dt>
+
 <a href="..\ucxcontroller\nf-ucxcontroller-ucx_controller_config_set_acpi_info.md">UCX_CONTROLLER_CONFIG_SET_ACPI_INFO</a>
-</dt>
-</dl>
+
  
 
  

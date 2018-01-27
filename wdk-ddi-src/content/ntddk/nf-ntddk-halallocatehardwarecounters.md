@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8a689889-b445-4fda-ae11-090d0d5870b8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: HalAllocateHardwareCounters
+ms.keywords: HalAllocateHardwareCounters, kernel.halallocatehardwarecounters, HalAllocateHardwareCounters routine [Kernel-Mode Driver Architecture], k103_06a6696a-0b51-414e-96ea-6c7d3b70acb5.xml, ntddk/HalAllocateHardwareCounters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 7.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HalAllocateHardwareCounters
-req.alt-loc: Hal.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: Hal.dll
 req.irql: PASSIVE_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Hal.dll
+apiname: 
+-	HalAllocateHardwareCounters
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # HalAllocateHardwareCounters function
 
 
-
 ## -description
+
+
 The <b>HalAllocateHardwareCounters</b> routine allocates a set of hardware performance counters.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS HalAllocateHardwareCounters(
@@ -57,9 +67,12 @@ NTSTATUS HalAllocateHardwareCounters(
 
 ## -parameters
 
-### -param GroupAffinity [in]
 
-Reserved for future use. Set this parameter to <b>NULL</b>.
+
+
+### -param GroupAffinty
+
+TBD
 
 
 ### -param GroupCount [in]
@@ -77,19 +90,49 @@ Reserved for future use. Set this parameter to <b>NULL</b>.
 A pointer to a location into which the routine writes a handle to the allocated counter resources. To release these resources later, the caller must pass this handle to the <a href="..\ntddk\nf-ntddk-halfreehardwarecounters.md">HalFreeHardwareCounters</a> routine. If the requested counter resources are unavailable, <b>HalAllocateHardwareCounters</b> sets *<i>CounterSetHandle</i> = <b>NULL</b> and returns STATUS_INSUFFICIENT_RESOURCES.
 
 
+#### - GroupAffinity [in]
+
+Reserved for future use. Set this parameter to <b>NULL</b>.
+
+
 ## -returns
+
+
 <b>HalAllocateHardwareCounters</b> returns STATUS_SUCCESS if the call was successful. Possible error return values include the following status codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>The requested counter resources are currently unavailable.
+</dl>
+</td>
+<td width="60%">
+The requested counter resources are currently unavailable.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The caller specified an invalid parameter value.
+</dl>
+</td>
+<td width="60%">
+The caller specified an invalid parameter value.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 Most processors have performance monitor units (PMUs) that contain a number of hardware counters. Software tools use these counters to monitor various aspects of system performance. Typically, such a tool consists of a custom kernel-mode driver to program the counters and a user-mode application that communicates with the driver.
 
 If more than one such tool is installed on a computer, the associated drivers must avoid trying to use the same hardware counters simultaneously. To avoid such resource conflicts, all drivers that use counter resources should use the <b>HalAllocateHardwareCounters</b> and <b>HalFreeHardwareCounters</b> routines to coordinate their sharing of these resources.
@@ -103,18 +146,15 @@ In Windows 8 and Windows 7, a successful call to <b>HalAllocateHardwareCounter
 Virtualization software typically does not virtualize hardware performance counters. Thus, these counters might not be available in a virtual machine, regardless of whether <b>HalAllocateHardwareCounters</b> returns a status code of STATUS_SUCCESS. For example, hardware performance counters are not available in a Hyper-V virtual machine, but <b>HalAllocateHardwareCounters</b> might still return STATUS_SUCCESS.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-halfreehardwarecounters.md">HalFreeHardwareCounters</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_physical_counter_resource_list.md">PHYSICAL_COUNTER_RESOURCE_LIST</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\nf-ntddk-halfreehardwarecounters.md">HalFreeHardwareCounters</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 85252A53-E653-4D14-B1FE-72CA9AFA1F10
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: VhfDelete
+ms.keywords: hid.vhfdelete, VhfDelete, vhf/VhfDelete, VhfDelete method [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VhfDelete
-req.alt-loc: vhfKm.lib,vhfKm.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: VhfKm.lib
 req.dll: 
 req.irql: If Wait is TRUE, PASSIVE_LEVEL; if Wait is FALSE <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	vhfKm.lib
+-	vhfKm.dll
+apiname: 
+-	VhfDelete
+product: Windows
+targetos: Windows
 req.typenames: *PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # VhfDelete function
 
 
-
 ## -description
+
+
 The HID Source device driver calls this method to delete a VHF device.
 
 
-
 ## -syntax
+
 
 ````
 void VhfDelete(
@@ -55,6 +66,9 @@ void VhfDelete(
 
 
 ## -parameters
+
+
+
 
 ### -param VhfHandle [in]
 
@@ -69,10 +83,15 @@ FALSE to return asynchronously. See Remarks for more information.
 
 
 ## -returns
+
+
 This method does not return a value.
 
 
+
 ## -remarks
+
+
 The HID source driver must stop initiating new requests for the Virtual HID Framework (VHF) just before calling <b>VhfDelete</b>. <b>VhfDelete</b> can be called synchronously or asynchronously.   
 
 To call <b>VhfDelete</b> synchronously,  call it at PASSIVE_LEVEL with the <i>Wait</i> parameter set to TRUE. In this case, it returns synchronously after completing the deletion. If the HID source driver has registered an <a href="..\vhf\nc-vhf-evt_vhf_cleanup.md">EvtVhfCleanup</a> callback function with VHF, it invokes that callback before <b>VhfDelete</b> returns. The function might be invoked on the same thread.
@@ -82,12 +101,11 @@ To call <b>VhfDelete</b> asynchronously, call it at maximum DISPATCH_LEVEL. If y
 There are no restrictions on when a KMDF driver should call this function. It is recommended to call it from a function matching the <a href="..\vhf\nf-vhf-vhfcreate.md">VhfCreate</a> call. For example, if <b>VhfCreate</b> is called from <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>, then call <b>VhfDelete</b> synchronously from <i>EvtDeviceCleanupCallback</i>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/26964963-792F-4529-B4FC-110BF5C65B35">Write a HID source driver by using Virtual HID Framework (VHF)</a>
-</dt>
-</dl>
+
  
 
  

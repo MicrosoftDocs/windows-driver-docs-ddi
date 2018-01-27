@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: EEAB636B-5565-4C2A-9EC7-4DC63EBB286F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: AuxKlibEnumerateSystemFirmwareTables
+ms.keywords: AuxKlibEnumerateSystemFirmwareTables, AuxKlibEnumerateSystemFirmwareTables routine [Kernel-Mode Driver Architecture], kernel.auxklibenumeratesystemfirmwaretables, aux_klib/AuxKlibEnumerateSystemFirmwareTables
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AuxKlibEnumerateSystemFirmwareTables
-req.alt-loc: Aux_Klib.lib,Aux_Klib.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Aux_Klib.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Aux_Klib.lib
+-	Aux_Klib.dll
+apiname: 
+-	AuxKlibEnumerateSystemFirmwareTables
+product: Windows
+targetos: Windows
+req.typenames: *PREPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA
 ---
 
 # AuxKlibEnumerateSystemFirmwareTables function
 
 
-
 ## -description
+
+
 The <b>AuxKlibEnumerateSystemFirmwareTables</b> routine enumerates all system firmware tables of the specified type.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS AuxKlibEnumerateSystemFirmwareTables(
@@ -57,10 +68,12 @@ NTSTATUS AuxKlibEnumerateSystemFirmwareTables(
 
 ## -parameters
 
+
+
+
 ### -param FirmwareTableProviderSignature [in]
 
 The identifier of the firmware table provider to which the query is to be directed. This parameter can be one of the following values.
-
 <table>
 <tr>
 <th>Value</th>
@@ -96,8 +109,7 @@ The raw SMBIOS firmware table provider.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param FirmwareTableBuffer [out, optional]
@@ -116,18 +128,43 @@ A pointer to a location to which the routine writes the number of bytes of data 
 
 
 ## -returns
+
+
 <b>AuxKlibEnumerateSystemFirmwareTables</b> returns STATUS_SUCCESS if the call is successful. Possible return values include the following error codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>An invalid parameter was supplied to the routine.
+</dl>
+</td>
+<td width="60%">
+An invalid parameter was supplied to the routine.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The caller-allocated buffer is too small, but the required buffer size has been written to the <i>ReturnLength</i> output parameter.
+</dl>
+</td>
+<td width="60%">
+The caller-allocated buffer is too small, but the required buffer size has been written to the <i>ReturnLength</i> output parameter.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 If the call is successful, this routine writes an array of one or more table identifiers to the buffer pointed to by the <i>FirmwareTableBuffer</i> parameter. Each element of this array is a DWORD value that identifies a firmware table that is available from the provider specified by the <i>FirmwareTableProviderSignature</i> parameter.
 
 The raw SMBIOS table provider ('RSMB') currently returns a single table identifier, 0x00000000. This corresponds to the raw SMBIOS firmware table.
@@ -145,18 +182,15 @@ Drivers must call <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlib
 <b>AuxKlibEnumerateSystemFirmwareTables</b> is defined in the Aux_klib.h header file that is included in the WDK for Windows 8 and later versions of Windows. To use this routine, drivers should link to the version of Aux_klib.lib that is included in the WDK for Windows 8 and later versions of Windows. The implementation of <b>AuxKlibEnumerateSystemFirmwareTables</b> in these versions of the WDK can be used in versions of Windows starting with Windows Vista.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\aux_klib\nf-aux_klib-auxklibgetsystemfirmwaretable.md">AuxKlibGetSystemFirmwareTable</a>
-</dt>
-<dt>
-<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh802466">EnumSystemFirmwareTables</a>
-</dt>
-</dl>
+
+<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
+
+<a href="..\aux_klib\nf-aux_klib-auxklibgetsystemfirmwaretable.md">AuxKlibGetSystemFirmwareTable</a>
+
  
 
  

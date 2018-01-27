@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4bbedc96-a7e2-40bd-98f3-c1136f70564d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlDeleteRegistryValue
+ms.keywords: kernel.rtldeleteregistryvalue, RtlDeleteRegistryValue routine [Kernel-Mode Driver Architecture], wdm/RtlDeleteRegistryValue, RtlDeleteRegistryValue, k109_ad2e98c7-7787-49b2-b2af-1782d7f64e0d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlDeleteRegistryValue
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlRtlPassive, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlDeleteRegistryValue
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RtlDeleteRegistryValue function
 
 
-
 ## -description
+
+
 The <b>RtlDeleteRegistryValue</b> routine removes the specified entry name and the associated values from the registry along the given relative path.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlDeleteRegistryValue(
@@ -57,10 +67,12 @@ NTSTATUS RtlDeleteRegistryValue(
 
 ## -parameters
 
+
+
+
 ### -param RelativeTo [in]
 
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined key path as one of the following.
-
 <table>
 <tr>
 <th>Value</th>
@@ -136,8 +148,7 @@ Specifies that the <i>Path</i> parameter is actually a registry handle to use. T
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Path [in]
@@ -151,36 +162,35 @@ Pointer to the value name to be removed from the registry.
 
 
 ## -returns
+
+
 <b>RtlDeleteRegistryValue</b> returns STATUS_SUCCESS if the value entry was deleted.
 
 Note that if <i>RelativeTo</i> is set to RTL_REGISTRY_HANDLE, the following occurs:
-
+<ul>
+<li>
 On Windows 98/Me and Windows NT 4.0, the routine closes the specified handle before returning.
 
+</li>
+<li>
 On Windows 2000 and later versions of Windows, the routine leaves the handle open.
 
-
-## -remarks
+</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlwriteregistryvalue.md">RtlWriteRegistryValue</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
+
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
-</dt>
-</dl>
+
  
 
  

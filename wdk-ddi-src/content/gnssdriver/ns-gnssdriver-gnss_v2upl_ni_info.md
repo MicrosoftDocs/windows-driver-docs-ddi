@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 884C8141-2A15-4BAE-8A5C-73355BD84D53
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO
+ms.keywords: GNSS_V2UPL_NI_INFO, sensors.gnss_v2upl_ni_info, *PGNSS_V2UPL_NI_INFO, gnssdriver/GNSS_V2UPL_NI_INFO, gnssdriver/PGNSS_V2UPL_NI_INFO, PGNSS_V2UPL_NI_INFO structure pointer [Sensor Devices], PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO structure [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GNSS_V2UPL_NI_INFO
-req.alt-loc: gnssdriver.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	gnssdriver.h
+apiname: 
+-	GNSS_V2UPL_NI_INFO
+product: Windows
+targetos: Windows
+req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
 
 # GNSS_V2UPL_NI_INFO structure
 
 
-
 ## -description
+
+
 This structure contains V2UPL NI information.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -56,6 +66,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field Size
 
 Structure size.
@@ -66,11 +79,15 @@ Structure size.
 Version number.
 
 
-### -field RequestorId[MAX_PATH]
+### -field RequestorId
+
+ 
+
+
+
+#### - RequestorId[MAX_PATH]
 
 Requestor ID.
 
 This will be displayed on the notification dialog to the user. The GNSS driver must provide a UNICODE string that is decoded per the encoding scheme required by the mobile operator.
 
-
-## -remarks

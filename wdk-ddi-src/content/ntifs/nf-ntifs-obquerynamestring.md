@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3c540410-6478-4da1-8ef5-b6d21d322b32
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ObQueryNameString
+ms.keywords: ntifs/ObQueryNameString, ObQueryNameString, ObQueryNameString routine [Installable File System Drivers], obref_3d52f727-edc5-4bea-b7c1-24a3aced1079.xml, ifsk.obquerynamestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later operating systems
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ObQueryNameString
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ObQueryNameString
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # ObQueryNameString function
 
 
-
 ## -description
+
+
 The <b>ObQueryNameString</b> routine supplies the name, if there is one, of a given object to which the caller has a pointer.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ObQueryNameString(
@@ -57,6 +67,9 @@ NTSTATUS ObQueryNameString(
 
 ## -parameters
 
+
+
+
 ### -param Object [in]
 
 A pointer to the object for which the name is requested. This parameter is required and cannot be <b>NULL</b>. 
@@ -65,7 +78,6 @@ A pointer to the object for which the name is requested. This parameter is requi
 ### -param ObjectNameInfo [out, optional]
 
 A pointer to a caller-allocated buffer, of the following type, that receives the object name information: 
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -77,8 +89,7 @@ A pointer to a caller-allocated buffer, of the following type, that receives the
 } OBJECT_NAME_INFORMATION, *POBJECT_NAME_INFORMATION;</pre>
 </td>
 </tr>
-</table></span></div>
-This parameter is optional and can be <b>NULL</b>. If <i>ObjectNameInfo</i> is <b>NULL</b>, <i>Length</i> must be zero.
+</table></span></div>This parameter is optional and can be <b>NULL</b>. If <i>ObjectNameInfo</i> is <b>NULL</b>, <i>Length</i> must be zero.
 
 
 ### -param Length [in]
@@ -92,15 +103,32 @@ A pointer to a caller-allocated variable that receives the size, in bytes, of th
 
 
 ## -returns
+
+
 <b>ObQueryNameString</b> returns STATUS_SUCCESS or an NTSTATUS value such as the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INFO_LENGTH_MISMATCH</b></dt>
-</dl>The buffer that is pointed to by <i>ObjectNameInfo</i> is too small to hold the requested object name information. <i>ReturnLength</i> points to the required buffer size. In this case, no object name information is returned. This is an error code. Be aware that if <i>Length</i> is set to zero, <b>STATUS_INFO_LENGTH_MISMATCH</b> is returned.
+</dl>
+</td>
+<td width="60%">
+The buffer that is pointed to by <i>ObjectNameInfo</i> is too small to hold the requested object name information. <i>ReturnLength</i> points to the required buffer size. In this case, no object name information is returned. This is an error code. Be aware that if <i>Length</i> is set to zero, <b>STATUS_INFO_LENGTH_MISMATCH</b> is returned.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 If the given object is named and the object name was successfully acquired, the returned string is the name of the given object including as much of the object's full path as possible. In this case, <b>ObQueryNameString</b> sets <b>Name.Buffer</b> to the address of the NULL-terminated name of the specified object. The value of <b>Name.MaximumLength</b> is the length of the object name including the <b>NULL</b> termination. The value of <b>Name.Length</b> is length of the only the object name.
 
 If the given object is unnamed, or if the object name was not successfully acquired, <b>ObQueryNameString</b> sets <b>Name.Buffer</b> to <b>NULL</b> and sets <b>Name.Length</b> and <b>Name.MaximumLength</b> to zero.
@@ -108,12 +136,11 @@ If the given object is unnamed, or if the object name was not successfully acqui
 The storage for <i>ObjectNameInfo</i> can be allocated from paged or nonpaged pool. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
  
 
  

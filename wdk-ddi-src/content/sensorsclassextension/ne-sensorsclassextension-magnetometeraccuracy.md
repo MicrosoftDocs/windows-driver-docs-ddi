@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: DC495EFB-3522-4220-87F8-3DB501831D6E
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: MagnetometerAccuracy, MagnetometerAccuracy
+ms.keywords: sensorsclassextension/Unknown, sensorsclassextension/Approximate, Approximate, MagnetometerAccuracy, MagnetometerAccuracy enumeration [Sensor Devices], sensorsclassextension/Unreliable, High, sensorsclassextension/MagnetometerAccuracy, sensorsclassextension/High, sensors.magnetometeraccuracy, Unknown, Unreliable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1,Available in Windows 8.1.
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MagnetometerAccuracy
-req.alt-loc: SensorsClassExtension.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	SensorsClassExtension.h
+apiname: 
+-	MagnetometerAccuracy
+product: Windows
+targetos: Windows
 req.typenames: MagnetometerAccuracy
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # MagnetometerAccuracy enumeration
 
 
-
 ## -description
+
+
 Specifies the accuracy of the magnetometer.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _MagnetometerAccuracy { 
@@ -58,38 +68,59 @@ typedef enum _MagnetometerAccuracy {
 
 ## -enum-fields
 
-### -field Unknown
-
-The accuracy is currently not available, typically because the driver can't report it.
 
 
-### -field Unreliable
 
-The reported values have a high degree of inaccuracy. Apps should always ask the user to calibrate the device whenever this value is returned.
-
-
-### -field Approximate
-
-          The actual and reported values differ but may be accurate enough for some applications. Apps that only need a relative value, like a virtual reality app, can continue without additional calibration.
+### -field MAGNETOMETER_ACCURACY_UNKNOWN
 
 
-### -field High
+
+### -field MAGNETOMETER_ACCURACY_UNRELIABLE
+
+
+
+### -field MAGNETOMETER_ACCURACY_APPROXIMATE
+
+
+
+### -field MAGNETOMETER_ACCURACY_HIGH
+
+
+
+
+#### - High
 
           The actual and reported values are accurate. No additional calibration is needed.
 
 
+#### - Unknown
+
+The accuracy is currently not available, typically because the driver can't report it.
+
+
+#### - Approximate
+
+          The actual and reported values differ but may be accurate enough for some applications. Apps that only need a relative value, like a virtual reality app, can continue without additional calibration.
+
+
+#### - Unreliable
+
+The reported values have a high degree of inaccuracy. Apps should always ask the user to calibrate the device whenever this value is returned.
+
+
 ## -remarks
+
+
 Device drivers that support magnetometer accuracy should only report the <b>Unreliable</b>, <b>Approximate</b>, and <b>High</b> values.
 
 Apps that need calibration may periodically ask the user to calibrate the device. We suggest doing this once every 10 minutes.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor Properties</a>
-</dt>
-</dl>
+
  
 
  

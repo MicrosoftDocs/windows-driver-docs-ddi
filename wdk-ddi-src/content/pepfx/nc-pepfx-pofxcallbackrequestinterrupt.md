@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B999405D-D6A5-4DFF-A902-F9C938C29063
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _VPCI_PNP_ID, VPCI_PNP_ID, *PVPCI_PNP_ID
+ms.keywords: kernel.requestinterrupt, RequestInterrupt, RequestInterrupt routine [Kernel-Mode Driver Architecture], RequestInterrupt, POFXCALLBACKREQUESTINTERRUPT, POFXCALLBACKREQUESTINTERRUPT, pepfx/RequestInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RequestInterrupt
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= HIGH_LEVEL
-req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	pepfx.h
+apiname: 
+-	RequestInterrupt
+product: Windows
+targetos: Windows
+req.typenames: *PVPCI_PNP_ID, VPCI_PNP_ID
 ---
 
 # POFXCALLBACKREQUESTINTERRUPT callback
 
 
-
 ## -description
+
+
 The <b>RequestInterrupt</b> routine requests that the operating system replay an edge-triggered interrupt that might have been lost while the hardware platform was in a low-power state.
 
 
-
 ## -prototype
+
 
 ````
 POFXCALLBACKREQUESTINTERRUPT RequestInterrupt;
@@ -57,21 +67,41 @@ NTSTATUS RequestInterrupt(
 
 ## -parameters
 
+
+
+
 ### -param Gsiv [in]
 
 The global system interrupt vector (GSIV) number that identifies this interrupt. The ACPI firmware assigns GSIV numbers to all primary interrupt lines. For secondary (GPIO) interrupt lines, the GSIV number is dynamically assigned by the operating system.
 
 
 ## -returns
+
+
 <b>RequestInterrupt</b> returns STATUS_SUCCESS if the specified interrupt is successfully replayed. Possible error return values include the following status code.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>Not a valid GSIV number.
+</dl>
+</td>
+<td width="60%">
+Not a valid GSIV number.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This routine is implemented by the power management framework (PoFx) and is called by the platform extension plug-in (PEP). The <b>RequestInterrupt</b> member of the <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>RequestInterrupt</b> routine.
 
 Assertion of an edge-triggered interrupt signal is transient in nature and can be lost if the power to a primary interrupt controller is gated off when the interrupt occurs. In contrast, a level-triggered interrupt signal is expected to remain asserted until it can be serviced.
@@ -79,12 +109,11 @@ Assertion of an edge-triggered interrupt signal is transient in nature and can b
 A PEP can call this routine at IRQL &lt;= HIGH_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
-</dt>
-</dl>
+
  
 
  

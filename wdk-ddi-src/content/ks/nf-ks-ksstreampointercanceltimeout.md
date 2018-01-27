@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9e1dd010-0074-45fb-b3cb-f8ea7ad15e02
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsStreamPointerCancelTimeout
+ms.keywords: stream.ksstreampointercanceltimeout, avfunc_9496b7be-f178-418a-87ac-d09dec988672.xml, KsStreamPointerCancelTimeout function [Streaming Media Devices], ks/KsStreamPointerCancelTimeout, KsStreamPointerCancelTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsStreamPointerCancelTimeout
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsStreamPointerCancelTimeout
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsStreamPointerCancelTimeout function
 
 
-
 ## -description
+
+
 The<b> KsStreamPointerCancelTimeout </b>function cancels a previously scheduled time-out callback on the specified stream pointer.
 
 
-
 ## -syntax
+
 
 ````
 void KsStreamPointerCancelTimeout(
@@ -54,30 +65,36 @@ void KsStreamPointerCancelTimeout(
 
 ## -parameters
 
+
+
+
 ### -param StreamPointer [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure representing the stream pointer for which to cancel a registered time-out callback.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 Minidrivers should use <a href="..\ks\nf-ks-ksstreampointerscheduletimeout.md">KsStreamPointerScheduleTimeout</a> to schedule a time-out callback on a specified stream pointer.
 
 The <b>KsStreamPointerCancelTimeout</b> function does not affect stream pointers that have no currently scheduled time-out callback.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ksstreampointerscheduletimeout.md">KsStreamPointerScheduleTimeout</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-kspingetfirstclonestreampointer.md">KsPinGetFirstCloneStreamPointer</a>
-</dt>
-</dl>
+
  
 
  

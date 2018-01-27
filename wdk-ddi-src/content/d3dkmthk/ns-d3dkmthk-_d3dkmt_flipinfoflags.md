@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 61b6d477-5a4c-475c-8605-5ede592e75c1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_FLIPINFOFLAGS, D3DKMT_FLIPINFOFLAGS
+ms.keywords: _D3DKMT_FLIPINFOFLAGS, OpenGL_Structs_2e8d2e1b-7ae8-4ac4-916d-5cace7ef043e.xml, display.d3dkmt_flipinfoflags, d3dkmthk/D3DKMT_FLIPINFOFLAGS, D3DKMT_FLIPINFOFLAGS structure [Display Devices], D3DKMT_FLIPINFOFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_FLIPINFOFLAGS
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_FLIPINFOFLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_FLIPINFOFLAGS
 ---
 
 # _D3DKMT_FLIPINFOFLAGS structure
 
 
-
 ## -description
+
+
 The D3DKMT_FLIPINFOFLAGS structure identifies flipping capabilities of the display miniport driver that the OpenGL installable client driver (ICD) obtains by calling the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_FLIPINFOFLAGS {
@@ -54,6 +64,9 @@ typedef struct _D3DKMT_FLIPINFOFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field FlipInterval
 
@@ -67,21 +80,14 @@ Setting this member is equivalent to setting the first bit of a 32-bit value (0x
 This member is reserved and should be set to zero. Setting this member is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of a 32-bit value to zeros. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipqueueinfo.md">D3DKMT_FLIPQUEUEINFO</a>
-</dt>
-<dt>
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipqueueinfo.md">D3DKMT_FLIPQUEUEINFO</a>
+
  
 
  

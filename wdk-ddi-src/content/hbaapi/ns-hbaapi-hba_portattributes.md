@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7628c68b-b851-4b41-a86b-aa54e7cd6ddf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_PortAttributes, *PHBA_PORTATTRIBUTES, HBA_PORTATTRIBUTES
+ms.keywords: PHBA_PORTATTRIBUTES, PHBA_PORTATTRIBUTES structure pointer [Storage Devices], HBA_PORTATTRIBUTES, storage.hba_portattributes, hbaapi/HBA_PortAttributes, hbaapi/PHBA_PORTATTRIBUTES, HBA_PortAttributes, HBA_PORTATTRIBUTES structure [Storage Devices], HBA_PortAttributes structure [Storage Devices], structs-Fibre_86dd88a9-06cc-4e24-a665-f4fa240795fb.xml, *PHBA_PORTATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBA_PORTATTRIBUTES
-req.alt-loc: hbaapi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PHBA_PORTATTRIBUTES, HBA_PORTATTRIBUTES
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbaapi.h
+apiname: 
+-	HBA_PORTATTRIBUTES
+product: Windows
+targetos: Windows
+req.typenames: HBA_PORTATTRIBUTES, *PHBA_PORTATTRIBUTES
 ---
 
 # HBA_PortAttributes structure
 
 
-
 ## -description
+
+
 The structure is used by the <a href="..\hbaapi\nf-hbaapi-hba_getportattributesbywwn.md">HBA_GetPortAttributesByWWN</a> fibre channel HBA library routine to report the attributes for a specified remote fibre channel port.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct HBA_PortAttributes {
@@ -68,6 +78,9 @@ typedef struct HBA_PortAttributes {
 
 ## -struct-fields
 
+
+
+
 ### -field NodeWWN
 
 Contains a 64 bit world-wide name (WWN) that uniquely identifies the fibre channel node associated with <b>PortWWN</b>. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
@@ -86,7 +99,6 @@ Contains the current fibre channel address of <b>PortWWN</b>. The high order byt
 ### -field PortType
 
 Indicates the port type. This member must have one of the following values: 
-
 <table>
 <tr>
 <th>Value</th>
@@ -202,14 +214,12 @@ Point to point.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field PortState
 
 Contains the state of the port indicated by <b>PortWWN</b>. This member must have one of the following values:
-
 <table>
 <tr>
 <th>Value</th>
@@ -295,8 +305,7 @@ Loopback.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field PortSupportedClassofService
@@ -322,6 +331,7 @@ Contains the symbolic name of the port.
 ### -field OSDeviceName
 
 
+
 ### -field PortSupportedSpeed
 
 Indicates the signaling bit rates at which <b>PortWWN</b> can operate. For a list of the values that this member supports, see <b>PortSpeed</b>. 
@@ -330,7 +340,6 @@ Indicates the signaling bit rates at which <b>PortWWN</b> can operate. For a lis
 ### -field PortSpeed
 
 Indicates the signaling bit rates at which <b>PortWWN</b> is currently operating. This member must have one of the following values: 
-
 <table>
 <tr>
 <th>Value</th>
@@ -396,8 +405,7 @@ The speed at which the port will operate has not yet been established.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field PortMaxFrameSize
@@ -416,18 +424,18 @@ Indicates the number of ports that are visible to <b>PortWWN</b>. For a more det
 
 
 ## -remarks
+
+
 The HBA_PortAttributes structure serves a purpose very similar to the MSFC_HBAPortAttributesResults structure that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a> WMI method to report port attributes.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
-</dt>
-<dt>
+
 <a href="..\hbaapi\nf-hbaapi-hba_getportattributesbywwn.md">HBA_GetPortAttributesByWWN</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 819261a5-bec0-49a8-942a-9313d3b793ca
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_VIDPN_INTERFACE_VERSION, DXGK_VIDPN_INTERFACE_VERSION
+ms.keywords: DXGK_VIDPN_INTERFACE_VERSION_UNINITIALIZED, DXGK_VIDPN_INTERFACE_VERSION, DXGK_VIDPN_INTERFACE_VERSION enumeration [Display Devices], _DXGK_VIDPN_INTERFACE_VERSION, d3dkmddi/DXGK_VIDPN_INTERFACE_VERSION_UNINITIALIZED, DmEnums_69c4e28b-70fe-4576-b726-6fa6d78c97d0.xml, d3dkmddi/DXGK_VIDPN_INTERFACE_VERSION, display.dxgk_vidpn_interface_version, DXGK_VIDPN_INTERFACE_VERSION_V1, d3dkmddi/DXGK_VIDPN_INTERFACE_VERSION_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_VIDPN_INTERFACE_VERSION
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_VIDPN_INTERFACE_VERSION
+product: Windows
+targetos: Windows
 req.typenames: DXGK_VIDPN_INTERFACE_VERSION
 ---
 
 # _DXGK_VIDPN_INTERFACE_VERSION enumeration
 
 
-
 ## -description
+
+
 The DXGK_VIDPN_INTERFACE_VERSION enumeration indicates the version of a video present network (VidPN) interface.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXGK_VIDPN_INTERFACE_VERSION { 
@@ -54,6 +64,9 @@ typedef enum _DXGK_VIDPN_INTERFACE_VERSION {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXGK_VIDPN_INTERFACE_VERSION_UNINITIALIZED
 
@@ -66,15 +79,16 @@ Indicates version 1 of the VidPN interface.
 
 
 ## -remarks
+
+
 The <i>VidPnInterfaceVersion</i> parameter of the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_queryvidpninterface.md">DxgkCbQueryVidPnInterface</a> function and the <b>Version</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidpn_interface.md">DXGK_VIDPN_INTERFACE</a> structure are DXGK_VIDPN_INTERFACE_VERSION values.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570556">VidPn Interface</a>
-</dt>
-</dl>
+
  
 
  

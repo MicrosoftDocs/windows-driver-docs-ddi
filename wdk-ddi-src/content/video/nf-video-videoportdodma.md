@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a827df55-ff88-439a-8d56-fba8212105a6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortDoDma
+ms.keywords: video/VideoPortDoDma, VideoPortDoDma function [Display Devices], display.videoportdodma, VideoPortDoDma, VideoPort_Functions_febc78ee-355f-4689-9da9-f67f829d8a32.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortDoDma
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortDoDma
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # VideoPortDoDma function
 
 
-
 ## -description
+
+
 The <b>VideoPortDoDma</b> function is <b>obsolete</b> in Windows 2000 and later. 
 
 <b>VideoPortDoDma</b> causes the miniport driver's <i>HwVidStartDma</i> function to be called.
 
 
-
 ## -syntax
+
 
 ````
 PDMA VideoPortDoDma(
@@ -58,6 +68,9 @@ PDMA VideoPortDoDma(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -72,7 +85,6 @@ Specifies a non-<b>NULL</b> DMA handle. This handle was obtained from a prior ca
 ### -param DmaFlags [in]
 
 Specifies the action to be performed. This member can be one of the following values:
-
 <table>
 <tr>
 <th>Value</th>
@@ -98,27 +110,29 @@ The video port driver should unlock the memory after the DMA operation is perfor
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 <b>VideoPortDoDma</b> always returns <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\video\nf-video-videoportlockpages.md">VideoPortLockPages</a>
-</dt>
-<dt>
+
 <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
-</dt>
-</dl>
+
+<a href="..\video\nf-video-videoportlockpages.md">VideoPortLockPages</a>
+
  
 
  

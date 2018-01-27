@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 14d85e4a-960c-4438-9360-a4f2677603b8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.calcprivaterendertargetviewsize, CalcPrivateRenderTargetViewSize callback function [Display Devices], CalcPrivateRenderTargetViewSize, PFND3D10DDI_CALCPRIVATERENDERTARGETVIEWSIZE, PFND3D10DDI_CALCPRIVATERENDERTARGETVIEWSIZE, d3d10umddi/CalcPrivateRenderTargetViewSize, UserModeDisplayDriverDx10_Functions_48ca8f95-06ba-4a11-8517-bd4638691e65.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CalcPrivateRenderTargetViewSize
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	CalcPrivateRenderTargetViewSize
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D10DDI_CALCPRIVATERENDERTARGETVIEWSIZE callback
 
 
-
 ## -description
+
+
 The <b>CalcPrivateRenderTargetViewSize</b> function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a render target view.
 
 
-
 ## -prototype
+
 
 ````
 PFND3D10DDI_CALCPRIVATERENDERTARGETVIEWSIZE CalcPrivateRenderTargetViewSize;
@@ -58,32 +68,43 @@ SIZE_T APIENTRY CalcPrivateRenderTargetViewSize(
 
 ## -parameters
 
-### -param hDevice [in]
-
- A handle to the display device (graphics context).
 
 
-### -param pCreateRenderTargetView [in]
+
+### -param D3D10DDI_HDEVICE
+
+
+
+### -param *
+
+
+
+
+
+
+#### - pCreateRenderTargetView [in]
 
  A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createrendertargetview.md">D3D10DDIARG_CREATERENDERTARGETVIEW</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region. 
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
 ## -returns
+
+
 <b>CalcPrivateRenderTargetViewSize</b> returns the size of the memory region that the driver requires for creating a render target view.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createrendertargetview.md">D3D10DDIARG_CREATERENDERTARGETVIEW</a>
-</dt>
-</dl>
+
  
 
  

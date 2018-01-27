@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: bbe3552b-0289-4f7f-bdaa-8a6437594247
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _SYNTH_STATS, SYNTH_STATS, *PSYNTH_STATS
+ms.keywords: dmusprop/PSYNTH_STATS, PSYNTH_STATS structure pointer [Audio Devices], aud-prop_04ed015d-56c6-4275-8025-66e67ee6ce87.xml, _SYNTH_STATS, dmusprop/SYNTH_STATS, PSYNTH_STATS, SYNTH_STATS structure [Audio Devices], audio.synth_stats, *PSYNTH_STATS, SYNTH_STATS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SYNTH_STATS
-req.alt-loc: dmusprop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dmusprop.h
+apiname: 
+-	SYNTH_STATS
+product: Windows
+targetos: Windows
+req.typenames: *PSYNTH_STATS, SYNTH_STATS
 ---
 
 # _SYNTH_STATS structure
 
 
-
 ## -description
+
+
 The SYNTH_STATS structure specifies synthesizer performance statistics such as the number of voices playing, CPU usage, number of notes lost, amount of free memory, and peak volume level.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SYNTH_STATS {
@@ -60,44 +70,15 @@ typedef struct _SYNTH_STATS {
 
 ## -struct-fields
 
+
+
+
 ### -field ValidStats
 
 Specifies which members of the SYNTH_STATS structure contain valid data. This member is a bitfield whose value is either zero or a bitwise OR of one or more of the following flag bits:
 
 
 
-
-### -field SYNTH_STATS_VOICES
-
-The <b>Voices</b> field contains valid data.
-
-
-### -field SYNTH_STATS_TOTAL_CPU
-
-The <b>TotalCPU</b> field contains valid data.
-
-
-### -field SYNTH_STATS_CPU_PER_VOICE
-
-The <b>CPUPerVoice</b> field contains valid data.
-
-
-### -field SYNTH_STATS_LOST_NOTES
-
-The <b>LostNotes </b>field contains valid data.
-
-
-### -field SYNTH_STATS_PEAK_VOLUME
-
-The <b>PeakVolume </b>field contains valid data.
-
-
-### -field SYNTH_STATS_FREE_MEMORY
-
-The <b>FreeMemory</b> field contains valid data.
-
-</dd>
-</dl>
 
 ### -field Voices
 
@@ -129,21 +110,51 @@ Specifies the amount of free memory in bytes. This is the storage that remains a
 Specifies the peak volume level expressed as decibels multiplied by 100.
 
 
+##### - ValidStats.SYNTH_STATS_PEAK_VOLUME
+
+The <b>PeakVolume </b>field contains valid data.
+
+
+##### - ValidStats.SYNTH_STATS_FREE_MEMORY
+
+The <b>FreeMemory</b> field contains valid data.
+
+
+##### - ValidStats.SYNTH_STATS_CPU_PER_VOICE
+
+The <b>CPUPerVoice</b> field contains valid data.
+
+
+##### - ValidStats.SYNTH_STATS_LOST_NOTES
+
+The <b>LostNotes </b>field contains valid data.
+
+
+##### - ValidStats.SYNTH_STATS_TOTAL_CPU
+
+The <b>TotalCPU</b> field contains valid data.
+
+
+##### - ValidStats.SYNTH_STATS_VOICES
+
+The <b>Voices</b> field contains valid data.
+
+
 ## -remarks
+
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537406">KSPROPERTY_SYNTH_RUNNINGSTATS</a> property uses the SYNTH_STATS structure to query a DirectMusic miniport driver for statistics about a synthesizer.
 
 The SYNTH_STATS structure is similar to the DMUS_SYNTHSTATS structure, which is described in the Microsoft Windows SDK documentation.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537406">KSPROPERTY_SYNTH_RUNNINGSTATS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537405">KSPROPERTY_SYNTH_PORTPARAMETERS</a>
-</dt>
-</dl>
+
  
 
  

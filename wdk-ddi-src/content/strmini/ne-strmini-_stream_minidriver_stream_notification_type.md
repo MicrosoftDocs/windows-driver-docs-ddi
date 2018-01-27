@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 13D8152C-FE7E-46EB-9C7F-9CA0135A4B76
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, *PSTREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE
+ms.keywords: _STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, strmini/ReadyForNextStreamDataRequest, strmini/SignalStreamEvent, ReadyForNextStreamDataRequest, STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE enumeration [Streaming Media Devices], strmini/PSTREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, DeleteStreamEvent, PSTREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, strmini/HardwareStarved, PSTREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE enumeration pointer [Streaming Media Devices], HardwareStarved, strmini/StreamRequestComplete, SignalMultipleStreamEvents, StreamNotificationMaximum, strmini/ReadyForNextStreamControlRequest, strmini/SignalMultipleStreamEvents, strmini/DeleteStreamEvent, stream.stream_minidriver_stream_notification_type, strmini/STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, StreamRequestComplete, *PSTREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, strmini/StreamNotificationMaximum, ReadyForNextStreamControlRequest, SignalStreamEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE
-req.alt-loc: Strmini.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Strmini.h
+apiname: 
+-	STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE
+product: Windows
+targetos: Windows
 req.typenames: STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, *PSTREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE enumeration
 
 
-
 ## -description
 
 
 
 
+
 ## -syntax
+
 
 ````
 typedef enum _STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE { 
@@ -61,6 +71,9 @@ typedef enum _STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field ReadyForNextStreamDataRequest
 
@@ -85,13 +98,15 @@ Indicates that the specified stream SRB has completed.
 ### -field SignalMultipleStreamEvents
 
 
+
 ### -field SignalStreamEvent
+
 
 
 ### -field DeleteStreamEvent
 
 
+
 ### -field StreamNotificationMaximum
 
 
-## -remarks

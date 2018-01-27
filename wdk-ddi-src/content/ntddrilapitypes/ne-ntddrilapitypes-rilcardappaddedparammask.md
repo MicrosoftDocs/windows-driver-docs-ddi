@@ -7,8 +7,8 @@ old-location: netvista\rilcardappaddedparammask.htm
 old-project: netvista
 ms.assetid: 6097b40d-2f86-4f87-bf57-191371ec943d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCARDAPPADDEDPARAMMASK, RILCARDAPPADDEDPARAMMASK
+ms.date: 1/18/2018
+ms.keywords: ntddrilapitypes/RIL_PARAM_CARDAPPADDED_ALL, RIL_PARAM_CARDAPPADDED_UICCAPPINFO, RIL_PARAM_CARDAPPADDED_ALL, netvista.rilcardappaddedparammask, ntddrilapitypes/RILCARDAPPADDEDPARAMMASK, RILCARDAPPADDEDPARAMMASK, RILCARDAPPADDEDPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_CARDAPPADDED_UICCAPPINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCARDAPPADDEDPARAMMASK
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILCARDAPPADDEDPARAMMASK
+product: Windows
+targetos: Windows
 req.typenames: RILCARDAPPADDEDPARAMMASK
 ---
 
 # RILCARDAPPADDEDPARAMMASK enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILCARDAPPADDEDPARAMMASK { 
@@ -55,10 +65,17 @@ typedef enum _RILCARDAPPADDEDPARAMMASK {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_PARAM_CARDAPPADDED_SLOTINDEX
+
+
+
 ### -field RIL_PARAM_CARDAPPADDED_UICCAPPINFO
+
 
 
 ### -field RIL_PARAM_CARDAPPADDED_ALL
 
 
-## -remarks

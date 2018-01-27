@@ -7,8 +7,8 @@ old-location: print\waitforprinterchange.htm
 old-project: print
 ms.assetid: BD9DD9C4-D736-42DC-A55F-7F299351FA65
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: WaitForPrinterChange
+ms.date: 1/18/2018
+ms.keywords: winspool/WaitForPrinterChange, print.waitforprinterchange, WaitForPrinterChange, WaitForPrinterChange function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WaitForPrinterChange
-req.alt-loc: Winspool.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Winspool.h
+apiname: 
+-	WaitForPrinterChange
+product: Windows
+targetos: Windows
 req.typenames: BIDI_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # WaitForPrinterChange function
 
 
-
 ## -description
 
 
 
 
+
 ## -syntax
+
 
 ````
 DWORD WINAPI WaitForPrinterChange(
@@ -56,10 +66,13 @@ DWORD WINAPI WaitForPrinterChange(
 
 ## -parameters
 
-### -param hPrinter 
 
 
-### -param Flags 
+
+### -param hPrinter
 
 
-## -remarks
+
+### -param Flags
+
+

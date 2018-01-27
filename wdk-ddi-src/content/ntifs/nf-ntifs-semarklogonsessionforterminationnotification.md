@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ca259e03-4770-48ce-a4c0-a26159a172aa
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SeMarkLogonSessionForTerminationNotification
+ms.keywords: ifsk.semarklogonsessionforterminationnotification, SeMarkLogonSessionForTerminationNotification routine [Installable File System Drivers], ntifs/SeMarkLogonSessionForTerminationNotification, seref_417d6aa1-b506-463d-9506-3a3651873c4a.xml, SeMarkLogonSessionForTerminationNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SeMarkLogonSessionForTerminationNotification
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	SeMarkLogonSessionForTerminationNotification
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # SeMarkLogonSessionForTerminationNotification function
 
 
-
 ## -description
+
+
 The <b>SeMarkLogonSessionForTerminationNotification</b> routine marks a logon session so that the caller's registered callback routine is called when the logon session terminates. A logon session terminates when the last token referencing the logon session is deleted.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SeMarkLogonSessionForTerminationNotification(
@@ -54,40 +64,65 @@ NTSTATUS SeMarkLogonSessionForTerminationNotification(
 
 ## -parameters
 
+
+
+
 ### -param LogonId [in]
 
 Pointer to the logon ID of the logon session.
 
 
 ## -returns
+
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The logon session was successfully marked.
+</dl>
+</td>
+<td width="60%">
+The logon session was successfully marked.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>The logon session was not found.
+</dl>
+</td>
+<td width="60%">
+The logon session was not found.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 To register the callback routine, use <a href="..\ntifs\nf-ntifs-seregisterlogonsessionterminatedroutine.md">SeRegisterLogonSessionTerminatedRoutine</a>.
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-seregisterlogonsessionterminatedroutine.md">SeRegisterLogonSessionTerminatedRoutine</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-seunregisterlogonsessionterminatedroutine.md">SeUnregisterLogonSessionTerminatedRoutine</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-seregisterlogonsessionterminatedroutine.md">SeRegisterLogonSessionTerminatedRoutine</a>
+
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
  
 
  

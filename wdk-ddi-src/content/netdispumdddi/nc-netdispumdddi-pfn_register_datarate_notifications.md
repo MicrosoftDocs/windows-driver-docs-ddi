@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 81500bb9-27f1-4688-b244-37dfd766f3c8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _NDK_SRQ_DISPATCH, NDK_SRQ_DISPATCH
+ms.keywords: display.registerfordataratenotifications, PFN_REGISTER_DATARATE_NOTIFICATIONS, RegisterForDataRateNotifications callback function [Display Devices], RegisterForDataRateNotifications, PFN_REGISTER_DATARATE_NOTIFICATIONS, PFN_REGISTER_DATARATE_NOTIFICATIONS, netdispumdddi/RegisterForDataRateNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RegisterForDataRateNotifications
-req.alt-loc: Netdispumdddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,23 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Netdispumdddi.h
+apiname: 
+-	RegisterForDataRateNotifications
+product: Windows
+targetos: Windows
 req.typenames: NDK_SRQ_DISPATCH
 ---
 
 # PFN_REGISTER_DATARATE_NOTIFICATIONS callback
 
 
-
 ## -description
+
+
 Called by the user-mode driver to register with the operating system to receive network quality of service (QoS) notifications and the current  network bandwidth of the Miracast connection.The data type of this function is <b>PFN_REGISTER_DATARATE_NOTIFICATIONS</b>.
 
 
 
-The data type of this function is <b>PFN_REGISTER_DATARATE_NOTIFICATIONS</b>.
-
-
 
 ## -prototype
+
 
 ````
 PFN_REGISTER_DATARATE_NOTIFICATIONS RegisterForDataRateNotifications;
@@ -62,6 +70,9 @@ NTSTATUS RegisterForDataRateNotifications(
 
 
 ## -parameters
+
+
+
 
 ### -param hMiracastDeviceHandle [in]
 
@@ -81,20 +92,45 @@ A pointer to the driver routine that will be called when the bit rate of the Mir
 
 
 ## -returns
+
+
 If the operating system successfully registers or unregisters the driver for notifications, it returns <b>STATUS_SUCCESS</b>.
 
 Otherwise, these error codes can be returned:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>One or more parameters are invalid.
+</dl>
+</td>
+<td width="60%">
+One or more parameters are invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>The operating system cannot support quality of service (QoS) notifications, or the call to the function is made outside of the calling thread in which the operating system called <a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a> or <a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a> functions.
+</dl>
+</td>
+<td width="60%">
+The operating system cannot support quality of service (QoS) notifications, or the call to the function is made outside of the calling thread in which the operating system called <a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a> or <a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a> functions.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The user-mode driver can optionally call this function to register for automatic calls to data rate notification callback functions once a second.
 
 To unregister from notifications, the driver should supply a value of <b>NULL</b> for the <i>pfnDataRateNotify</i> parameter and for the <b>CurrentBitRate</b> member of the <a href="..\netdispumdddi\ns-netdispumdddi-miracast_wfd_connection_stats.md">MIRACAST_WFD_CONNECTION_STATS</a> structure
@@ -105,21 +141,17 @@ Also, if the operating system can no longer provide QoS data, it sets the <i>pDa
 The function fails if the driver attempts to register while it is already registered, or if it attempts to unregister if it has already unregistered. The function fails if the call is made outside of the calling thread in which the operating system called <a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a> or <a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a> functions.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
-</dt>
-<dt>
-<a href="..\netdispumdddi\ns-netdispumdddi-miracast_wfd_connection_stats.md">MIRACAST_WFD_CONNECTION_STATS</a>
-</dt>
-<dt>
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_datarate_notification.md">pfnDataRateNotify</a>
-</dt>
-<dt>
+
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
-</dt>
-</dl>
+
+<a href="..\netdispumdddi\ns-netdispumdddi-miracast_wfd_connection_stats.md">MIRACAST_WFD_CONNECTION_STATS</a>
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_datarate_notification.md">pfnDataRateNotify</a>
+
  
 
  

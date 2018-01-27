@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a7ed65f3-40a9-4b08-b59d-7c65c250d5cb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT
+ms.keywords: storage.ioctl_storage_set_read_ahead, IOCTL_STORAGE_SET_READ_AHEAD control code [Storage Devices], IOCTL_STORAGE_SET_READ_AHEAD, ntddcdvd/IOCTL_STORAGE_SET_READ_AHEAD, k307_0112afc4-1b4b-47c1-9ace-1d82a41b120f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_STORAGE_SET_READ_AHEAD
-req.alt-loc: Ntddcdvd.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,63 +29,85 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddcdvd.h
+apiname: 
+-	IOCTL_STORAGE_SET_READ_AHEAD
+product: Windows
+targetos: Windows
+req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ---
 
 # IOCTL_STORAGE_SET_READ_AHEAD IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 Causes the device to skip to the given target address when the device reaches a certain trigger address during read-ahead caching. 
 
-
-
-Causes the device to skip to the given target address when the device reaches a certain trigger address during read-ahead caching. 
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="..\ntddcdvd\ns-ntddcdvd-_storage_set_read_ahead.md">STORAGE_SET_READ_AHEAD</a> structure that indicates the trigger and target addresses. 
 
 
 ### -input-buffer-length
+
 The length of a <a href="..\ntddcdvd\ns-ntddcdvd-_storage_set_read_ahead.md">STORAGE_SET_READ_AHEAD</a> structure.
 
 
 ### -output-buffer
+
 None.
 
 
 ### -output-buffer-length
+
 None.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Information</b> field is set to zero. The <b>Status</b> field is set to STATUS_SUCCESS.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddcdvd\ns-ntddcdvd-_storage_set_read_ahead.md">STORAGE_SET_READ_AHEAD</a>
-</dt>
-</dl>
+
  
 
  

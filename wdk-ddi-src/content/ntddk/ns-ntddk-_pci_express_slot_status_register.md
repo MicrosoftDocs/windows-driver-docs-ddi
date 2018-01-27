@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 1012abf2-a73b-49d9-8017-b0b1a1c7fbcd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _PCI_EXPRESS_SLOT_STATUS_REGISTER, *PPCI_EXPRESS_SLOT_STATUS_REGISTER, PCI_EXPRESS_SLOT_STATUS_REGISTER
+ms.keywords: PCI_EXPRESS_SLOT_STATUS_REGISTER union [Buses], PPCI_EXPRESS_SLOT_STATUS_REGISTER, ntddk/PCI_EXPRESS_SLOT_STATUS_REGISTER, PPCI_EXPRESS_SLOT_STATUS_REGISTER union pointer [Buses], *PPCI_EXPRESS_SLOT_STATUS_REGISTER, PCI_EXPRESS_SLOT_STATUS_REGISTER, pci_struct_2b218675-a1f4-4aec-a115-3046fac70492.xml, ntddk/PPCI_EXPRESS_SLOT_STATUS_REGISTER, PCI.pci_express_slot_status_register, _PCI_EXPRESS_SLOT_STATUS_REGISTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PCI_EXPRESS_SLOT_STATUS_REGISTER
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PPCI_EXPRESS_SLOT_STATUS_REGISTER, PCI_EXPRESS_SLOT_STATUS_REGISTER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	PCI_EXPRESS_SLOT_STATUS_REGISTER
+product: Windows
+targetos: Windows
+req.typenames: PCI_EXPRESS_SLOT_STATUS_REGISTER, *PPCI_EXPRESS_SLOT_STATUS_REGISTER
 ---
 
 # _PCI_EXPRESS_SLOT_STATUS_REGISTER structure
 
 
-
 ## -description
+
+
 The PCI_EXPRESS_SLOT_STATUS_REGISTER structure describes a PCI Express (PCIe) slot status register of a PCIe capability structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _PCI_EXPRESS_SLOT_STATUS_REGISTER {
@@ -66,82 +76,62 @@ typedef union _PCI_EXPRESS_SLOT_STATUS_REGISTER {
 
 ## -struct-fields
 
-### -field AttentionButtonPressed
-
-A single bit that indicates that the attention button for the slot is being pressed.
-
-
-### -field PowerFaultDetected
-
-A single bit that indicates that a power fault at the slot has been detected.
-
-
-### -field MRLSensorChanged
-
-A single bit that indicates that the state of the slot's manually operated retention latch (MRL) sensor has changed.
-
-
-### -field PresenceDetectChanged
-
-A single bit that indicates that the card presence detection state for the slot has changed.
-
-
-### -field CommandCompleted
-
-A single bit that indicates that a command has been completed by the slot's hot-plug controller.
-
-
-### -field MRLSensorState
-
-The slot's manually operated retention latch (MRL) sensor state. Possible values are:
 
 
 
+### -field DUMMYSTRUCTNAME
 
-### -field MRLClosed
-
-The MRL is closed.
-
-
-### -field MRLOpen
-
-The MRL is open.
-
-</dd>
-</dl>
-
-### -field PresenceDetectState
-
-The slot's card presence detection state. Possible values are:
+ 
 
 
+### -field DUMMYSTRUCTNAME.AttentionButtonPressed
+
+ 
 
 
-### -field SlotEmpty
+### -field DUMMYSTRUCTNAME.PowerFaultDetected
 
-The slot is empty.
-
-
-### -field CardPresent
-
-A card is present in the slot.
-
-</dd>
-</dl>
-
-### -field ElectromechanicalLockEngaged
-
-A single bit that indicates if the slot's electromechanical interlock is engaged.
+ 
 
 
-### -field DataLinkStateChanged
+### -field DUMMYSTRUCTNAME.MRLSensorChanged
 
-A single bit that indicates that the data link layer active bit of the PCIe link status register of the PCIe capability structure has changed.
+ 
 
 
-### -field Rsvd
+### -field DUMMYSTRUCTNAME.PresenceDetectChanged
 
-Reserved.
+ 
+
+
+### -field DUMMYSTRUCTNAME.CommandCompleted
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.MRLSensorState
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.PresenceDetectState
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.ElectromechanicalLockEngaged
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.DataLinkStateChanged
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Rsvd
+
+ 
 
 
 ### -field AsUSHORT
@@ -149,18 +139,93 @@ Reserved.
 A USHORT representation of the contents of the PCI_EXPRESS_SLOT_STATUS_REGISTER structure.
 
 
+#### - MRLSensorChanged
+
+A single bit that indicates that the state of the slot's manually operated retention latch (MRL) sensor has changed.
+
+
+#### - ElectromechanicalLockEngaged
+
+A single bit that indicates if the slot's electromechanical interlock is engaged.
+
+
+#### - MRLSensorState
+
+The slot's manually operated retention latch (MRL) sensor state. Possible values are:
+
+
+
+
+##### - PresenceDetectState.SlotEmpty
+
+The slot is empty.
+
+
+#### - AttentionButtonPressed
+
+A single bit that indicates that the attention button for the slot is being pressed.
+
+
+#### - CommandCompleted
+
+A single bit that indicates that a command has been completed by the slot's hot-plug controller.
+
+
+##### - MRLSensorState.MRLOpen
+
+The MRL is open.
+
+
+##### - MRLSensorState.MRLClosed
+
+The MRL is closed.
+
+
+#### - PowerFaultDetected
+
+A single bit that indicates that a power fault at the slot has been detected.
+
+
+#### - PresenceDetectState
+
+The slot's card presence detection state. Possible values are:
+
+
+
+
+#### - Rsvd
+
+Reserved.
+
+
+#### - PresenceDetectChanged
+
+A single bit that indicates that the card presence detection state for the slot has changed.
+
+
+##### - PresenceDetectState.CardPresent
+
+A card is present in the slot.
+
+
+#### - DataLinkStateChanged
+
+A single bit that indicates that the data link layer active bit of the PCIe link status register of the PCIe capability structure has changed.
+
+
 ## -remarks
+
+
 The PCI_EXPRESS_SLOT_STATUS_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_SLOT_STATUS_REGISTER structure is contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a>
-</dt>
-</dl>
+
  
 
  

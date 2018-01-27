@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 70a6555d-1da9-4013-911a-4a9d011b0205
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_TIMESTAMP, *PWHEA_TIMESTAMP, WHEA_TIMESTAMP
+ms.keywords: PWHEA_TIMESTAMP union pointer [WHEA Drivers and Applications], WHEA_TIMESTAMP union [WHEA Drivers and Applications], *PWHEA_TIMESTAMP, whea.whea_timestamp, PWHEA_TIMESTAMP, WHEA_TIMESTAMP, whearef_d0fafe3b-0cea-4adf-a68a-b565e04ae258.xml, ntddk/WHEA_TIMESTAMP, ntddk/PWHEA_TIMESTAMP, _WHEA_TIMESTAMP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_TIMESTAMP
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_TIMESTAMP
+product: Windows
+targetos: Windows
 req.typenames: *PWHEA_TIMESTAMP, WHEA_TIMESTAMP
 ---
 
 # _WHEA_TIMESTAMP structure
 
 
-
 ## -description
+
+
 The WHEA_TIMESTAMP union describes the time that an error was reported to the operating system.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _WHEA_TIMESTAMP {
@@ -65,51 +75,57 @@ typedef union _WHEA_TIMESTAMP {
 
 ## -struct-fields
 
-### -field Seconds
-
-The number of seconds past the minute.
 
 
-### -field Minutes
 
-The number of minutes past the hour.
+### -field DUMMYSTRUCTNAME
 
-
-### -field Hours
-
-The hour in the day.
+ 
 
 
-### -field Precise
+### -field DUMMYSTRUCTNAME.Seconds
 
-If this member is set to 1, the timestamp correlates precisely to the time of the error event.
-
-<div class="alert"><b>Note</b>  This member is supported in Windows 7 and later versions of Windows.</div>
-<div> </div>
-
-### -field Reserved
-
-Reserved for system use.
+ 
 
 
-### -field Day
+### -field DUMMYSTRUCTNAME.Minutes
 
-The day of the month.
-
-
-### -field Month
-
-The month of the year.
+ 
 
 
-### -field Year
+### -field DUMMYSTRUCTNAME.Hours
 
-The year within the century.
+ 
 
 
-### -field Century
+### -field DUMMYSTRUCTNAME.Precise
 
-The century.
+ 
+
+
+### -field DUMMYSTRUCTNAME.Reserved
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Day
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Month
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Year
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Century
+
+ 
 
 
 ### -field AsLARGE_INTEGER
@@ -117,16 +133,62 @@ The century.
 A LARGE_INTEGER representation of the contents of the WHEA_TIMESTAMP union.
 
 
+#### - Reserved
+
+Reserved for system use.
+
+
+#### - Hours
+
+The hour in the day.
+
+
+#### - Precise
+
+If this member is set to 1, the timestamp correlates precisely to the time of the error event.
+<div class="alert"><b>Note</b>  This member is supported in Windows 7 and later versions of Windows.</div><div> </div>
+
+#### - Month
+
+The month of the year.
+
+
+#### - Century
+
+The century.
+
+
+#### - Minutes
+
+The number of minutes past the hour.
+
+
+#### - Day
+
+The day of the month.
+
+
+#### - Seconds
+
+The number of seconds past the minute.
+
+
+#### - Year
+
+The year within the century.
+
+
 ## -remarks
+
+
 A WHEA_TIMESTAMP union is contained within the <a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a>
-</dt>
-</dl>
+
  
 
  

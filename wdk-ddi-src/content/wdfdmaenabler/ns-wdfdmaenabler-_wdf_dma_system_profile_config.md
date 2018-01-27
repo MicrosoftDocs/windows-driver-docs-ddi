@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 80131AB6-4A2B-4D99-9289-CE9FE26E0695
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
+ms.keywords: wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG, _WDF_DMA_SYSTEM_PROFILE_CONFIG, wdf.wdf_dma_system_profile_config, WDF_DMA_SYSTEM_PROFILE_CONFIG structure, PWDF_DMA_SYSTEM_PROFILE_CONFIG structure pointer, kmdf.wdf_dma_system_profile_config, wdfdmaenabler/PWDF_DMA_SYSTEM_PROFILE_CONFIG, PWDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 1.11
 req.umdf-ver: 
-req.alt-api: WDF_DMA_SYSTEM_PROFILE_CONFIG
-req.alt-loc: wdfdmaenabler.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfdmaenabler.h
+apiname: 
+-	WDF_DMA_SYSTEM_PROFILE_CONFIG
+product: Windows
+targetos: Windows
 req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_DMA_SYSTEM_PROFILE_CONFIG structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_DMA_SYSTEM_PROFILE_CONFIG</b> structure describes the hardware-specific settings related to a system-mode DMA enabler.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WDF_DMA_SYSTEM_PROFILE_CONFIG {
@@ -61,6 +71,9 @@ typedef struct _WDF_DMA_SYSTEM_PROFILE_CONFIG {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -95,6 +108,8 @@ The translated resource descriptor for the DMA channel assigned
 
 
 ## -remarks
+
+
 The driver provides this structure to <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablerconfiguresystemprofile.md">WdfDmaEnablerConfigureSystemProfile</a> after creating a system-profile DMA enabler.
 
 Typically, drivers set <b>DemandMode</b> to TRUE.   The driver's <a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a> callback function then programs the device to assert its DMA request line and initiate the transfer.  In this case, the transfer might begin while <i>EvtProgramDma</i> is still running.
@@ -105,15 +120,13 @@ The driver must ensure that the device's DMA request line is not asserted before
 If <b>DemandMode</b> is set to FALSE, the DMA transfer may begin before the framework calls the driver’s <a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a> function. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_system_profile_config_init.md">WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</a>
-</dt>
-<dt>
+
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablerconfiguresystemprofile.md">WdfDmaEnablerConfigureSystemProfile</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 7c80f3ee-cbb2-400d-9dfb-36ccef93d80f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: RegisterOpRegionHandler
+ms.keywords: parports.pparallel_set_chip_mode, (*PPARALLEL_SET_CHIP_MODE) callback function [Parallel Ports], (*PPARALLEL_SET_CHIP_MODE), parallel/(*PPARALLEL_SET_CHIP_MODE), cisspd_a108ba77-8f01-436e-bc7a-48a74f80ac75.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: (*PPARALLEL_SET_CHIP_MODE)
-req.alt-loc: parallel.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	parallel.h
+apiname: 
+-	(*PPARALLEL_SET_CHIP_MODE)
+product: Windows
+targetos: Windows
 req.typenames: *LPRILGBATOKEN, RILGBATOKEN
 ---
 
 # PPARALLEL_SET_CHIP_MODE callback
 
 
-
 ## -description
+
+
 The <i>PPARALLEL_SET_CHIP_MODE</i>-typed callback routine sets the operating mode of a parallel port. The system-supplied function driver for parallel ports supplies this routine.
 
 
-
 ## -prototype
+
 
 ````
 typedef NTSTATUS (*PPARALLEL_SET_CHIP_MODE)(
@@ -55,9 +65,12 @@ typedef NTSTATUS (*PPARALLEL_SET_CHIP_MODE)(
 
 ## -parameters
 
+
+
+
 ### -param SetChipContext [in]
 
-Pointer to the device extension of a parallel port's functional device object (<a href="wdkgloss.f#wdkgloss.fdo#wdkgloss.fdo"><i>FDO</i></a>).
+Pointer to the device extension of a parallel port's functional device object (<a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FDO</a>).
 
 
 ### -param ChipMode [in]
@@ -66,20 +79,53 @@ Specifies the operating mode of a parallel port. (For more information about ope
 
 
 ## -returns
+
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The specified operating mode was set.
+</dl>
+</td>
+<td width="60%">
+The specified operating mode was set.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_DEVICE_STATE</b></dt>
-</dl>The mode is not cleared.
+</dl>
+</td>
+<td width="60%">
+The mode is not cleared.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NO_SUCH_DEVICE</b></dt>
-</dl>The specified operating mode is not valid.
+</dl>
+</td>
+<td width="60%">
+The specified operating mode is not valid.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 To obtain a pointer to the system-supplied <i>PPARALLEL_SET_CHIP_MODE</i> callback, a kernel-mode driver uses an <a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_pnp_info.md">IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO</a> request, which returns a <a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a> structure. The <b>TrySetChipMode</b> member of the PARALLEL_PNP_INFORMATION structure is a pointer to this callback.
 
 A caller uses the <i>PPARALLEL_SET_CHIP_MODE</i> callback in conjunction with the <a href="..\parallel\nc-parallel-pparallel_clear_chip_mode.md">PPARALLEL_CLEAR_CHIP_MODE</a> callback.
@@ -89,24 +135,19 @@ To set a new mode, a caller must first clear the current mode.
 For more information, see <a href="https://msdn.microsoft.com/a22cdeef-4ae7-49f8-b0b5-a4d68feb4235">Setting and Clearing the Communication Mode on a ParallelPort</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
-</dt>
-<dt>
-<a href="..\parallel\ni-parallel-ioctl_internal_parallel_clear_chip_mode.md">IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE</a>
-</dt>
-<dt>
-<a href="..\parallel\ni-parallel-ioctl_internal_parallel_set_chip_mode.md">IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE</a>
-</dt>
-<dt>
-<a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\parallel\nc-parallel-pparallel_clear_chip_mode.md">PPARALLEL_CLEAR_CHIP_MODE</a>
-</dt>
-</dl>
+
+<a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a>
+
+<a href="..\parallel\ni-parallel-ioctl_internal_parallel_set_chip_mode.md">IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE</a>
+
+<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
+
+<a href="..\parallel\ni-parallel-ioctl_internal_parallel_clear_chip_mode.md">IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE</a>
+
  
 
  

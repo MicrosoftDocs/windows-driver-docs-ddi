@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ea7d7b5a-625f-41f7-b3fd-96a6bf338db9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _TRACK_MODE_TYPE, *PTRACK_MODE_TYPE, TRACK_MODE_TYPE
+ms.keywords: TRACK_MODE_TYPE, TRACK_MODE_TYPE enumeration [Storage Devices], storage.track_mode_type, RawWithC2AndSubCode, ntddcdrm/XAForm2, ntddcdrm/TRACK_MODE_TYPE, ntddcdrm/RawWithC2, structs-CD-ROM_41364f33-e1bf-48ac-abb6-4cacf5283f9f.xml, ntddcdrm/YellowMode2, YellowMode2, *PTRACK_MODE_TYPE, ntddcdrm/PTRACK_MODE_TYPE, CDDA, RawWithC2, ntddcdrm/RawWithC2AndSubCode, PTRACK_MODE_TYPE enumeration pointer [Storage Devices], _TRACK_MODE_TYPE, ntddcdrm/CDDA, XAForm2, RawWithSubCode, PTRACK_MODE_TYPE, ntddcdrm/RawWithSubCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TRACK_MODE_TYPE
-req.alt-loc: ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdrm.h
+apiname: 
+-	TRACK_MODE_TYPE
+product: Windows
+targetos: Windows
 req.typenames: *PTRACK_MODE_TYPE, TRACK_MODE_TYPE
 ---
 
 # _TRACK_MODE_TYPE enumeration
 
 
-
 ## -description
+
+
 The TRACK_MODE_TYPE enumeration type is used in conjunction with the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_raw_read.md">IOCTL_CDROM_RAW_READ</a> request and the <a href="..\ntddcdrm\ns-ntddcdrm-__raw_read_info.md">RAW_READ_INFO</a> structure to read data from a CD-ROM in raw mode.  
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _TRACK_MODE_TYPE { 
@@ -58,6 +68,9 @@ typedef enum _TRACK_MODE_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field YellowMode2
 
@@ -89,18 +102,12 @@ CD_RAW_SECTOR_WITH_C2_SIZE per sector
 CD_RAW_SECTOR_WITH_SUBCODE_SIZE per sector
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_raw_read.md">IOCTL_CDROM_RAW_READ</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ns-ntddcdrm-__raw_read_info.md">RAW_READ_INFO</a>
-</dt>
-</dl>
+
  
 
  

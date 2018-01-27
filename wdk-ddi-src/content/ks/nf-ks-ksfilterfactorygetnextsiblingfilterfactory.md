@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e397d36c-3f28-4a70-9b4a-f13be094d47b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterFactoryGetNextSiblingFilterFactory
+ms.keywords: ks/KsFilterFactoryGetNextSiblingFilterFactory, KsFilterFactoryGetNextSiblingFilterFactory, stream.ksfilterfactorygetnextsiblingfilterfactory, avfunc_b1bdc37b-de4a-4cfb-b1e9-1201225c29ab.xml, KsFilterFactoryGetNextSiblingFilterFactory function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsFilterFactoryGetNextSiblingFilterFactory
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KsFilterFactoryGetNextSiblingFilterFactory
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsFilterFactoryGetNextSiblingFilterFactory function
 
 
-
 ## -description
+
+
 The<b> KsFilterFactoryGetNextSiblingFilterFactory</b> function returns the next filter factory belonging to the parent device of <i>FilterFactory</i>.
 
 
-
 ## -syntax
+
 
 ````
 PKSFILTERFACTORY __inline KsFilterFactoryGetNextSiblingFilterFactory(
@@ -54,31 +64,36 @@ PKSFILTERFACTORY __inline KsFilterFactoryGetNextSiblingFilterFactory(
 
 ## -parameters
 
+
+
+
 ### -param FilterFactory [in]
 
 A pointer to the <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> for which to return the next filter factory of its parent device.
 
 
 ## -returns
+
+
 <b>KsFilterFactoryGetNextSiblingFilterFactory</b> returns a pointer to a <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> structure that represents the next sibling filter factory of <i>FilterFactory</i>. If no such filter factory exists, <b>NULL</b> is returned.
 
 
+
 ## -remarks
+
+
 This call is an inline function call to <a href="..\ks\nf-ks-ksgetnextsibling.md">KsGetNextSibling</a>. Note that the object hierarchy is guaranteed to be stable only while the appropriate mutex is held, in this case the device mutex. For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksdevicegetfirstchildfilterfactory.md">KsDeviceGetFirstChildFilterFactory</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksgetnextsibling.md">KsGetNextSibling</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+
+<a href="..\ks\nf-ks-ksdevicegetfirstchildfilterfactory.md">KsDeviceGetFirstChildFilterFactory</a>
+
  
 
  

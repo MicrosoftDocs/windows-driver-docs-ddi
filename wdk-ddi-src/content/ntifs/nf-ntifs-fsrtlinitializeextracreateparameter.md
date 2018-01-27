@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e3be12e4-84f3-4bd5-af9a-26ad89948e50
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlInitializeExtraCreateParameter
+ms.keywords: fsrtlref_266d4d18-e024-42e8-8ca1-fa8b6fabef9b.xml, FsRtlInitializeExtraCreateParameter, ntifs/FsRtlInitializeExtraCreateParameter, ifsk.fsrtlinitializeextracreateparameter, FsRtlInitializeExtraCreateParameter routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The FsRtlInitializeExtraCreateParameter routine is av
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlInitializeExtraCreateParameter
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlInitializeExtraCreateParameter
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlInitializeExtraCreateParameter function
 
 
-
 ## -description
+
+
 The <b>FsRtlInitializeExtraCreateParameter</b> routine initializes an extra create parameter (ECP) context structure. 
 
 
-
 ## -syntax
+
 
 ````
 VOID FsRtlInitializeExtraCreateParameter(
@@ -58,6 +68,9 @@ VOID FsRtlInitializeExtraCreateParameter(
 
 
 ## -parameters
+
+
+
 
 ### -param Ecp [in]
 
@@ -90,21 +103,18 @@ Optional pointer to the list from which the ECP context structure is allocated.
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-fsrtlallocateextracreateparameter.md">FsRtlAllocateExtraCreateParameter</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback.md">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-fsrtlallocateextracreateparameter.md">FsRtlAllocateExtraCreateParameter</a>
+
  
 
  

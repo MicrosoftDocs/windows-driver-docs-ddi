@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 26A827F1-1094-4A7D-9C63-758925EE6273
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkcbreservegpuvirtualaddressrange, DxgkCbReserveGpuVirtualAddressRange callback function [Display Devices], DxgkCbReserveGpuVirtualAddressRange, DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE, DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE, dispmprt/DxgkCbReserveGpuVirtualAddressRange, d3dkmddi/DxgkCbReserveGpuVirtualAddressRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkCbReserveGpuVirtualAddressRange
-req.alt-loc: dispmprt.h,d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+-	d3dkmddi.h
+apiname: 
+-	DxgkCbReserveGpuVirtualAddressRange
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE callback
 
 
-
 ## -description
+
+
 <b>DxgkCbReserveGpuVirtualAddressRange</b> allows the kernel mode driver to reserve a graphics processing unit (GPU) virtual address range during creation of a process. Reserving the GPU virtual address range is only possible during process creation (i.e. within the call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a>) and is invalid at any other time.
 
 Reservation is possible on both regular process as well as the system process where the system device and context lives.
@@ -49,8 +60,8 @@ The first entry in the root page table (page table entry index 0) will always be
   
 
 
-
 ## -prototype
+
 
 ````
 DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE DxgkCbReserveGpuVirtualAddressRange;
@@ -65,6 +76,9 @@ NTSTATUS APIENTRY CALLBACK* DxgkCbReserveGpuVirtualAddressRange(
 
 ## -parameters
 
+
+
+
 ### -param hAdapter [in]
 
 A handle to the display adapter.
@@ -77,21 +91,18 @@ The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_reservegpuvirtualaddressrange.md
 
 ## -returns
 
+
+
       Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in <b>Ntstatus.h</b>.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_reservegpuvirtualaddressrange.md">DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a>
+
  
 
  

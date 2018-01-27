@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3e80790c-72b9-4e26-a767-a25e6425118e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CHANGER_READ_ELEMENT_STATUS, *PCHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS
+ms.keywords: ntddchgr/CHANGER_READ_ELEMENT_STATUS, PCHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS structure [Storage Devices], structs-changer_bbb217cb-b38d-4d81-941f-ac1d78d0c584.xml, storage.changer_read_element_status, *PCHANGER_READ_ELEMENT_STATUS, ntddchgr/PCHANGER_READ_ELEMENT_STATUS, PCHANGER_READ_ELEMENT_STATUS structure pointer [Storage Devices], CHANGER_READ_ELEMENT_STATUS, _CHANGER_READ_ELEMENT_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CHANGER_READ_ELEMENT_STATUS
-req.alt-loc: ntddchgr.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PCHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddchgr.h
+apiname: 
+-	CHANGER_READ_ELEMENT_STATUS
+product: Windows
+targetos: Windows
+req.typenames: CHANGER_READ_ELEMENT_STATUS, *PCHANGER_READ_ELEMENT_STATUS
 ---
 
 # _CHANGER_READ_ELEMENT_STATUS structure
 
 
-
 ## -description
+
+
 The CHANGER_READ_ELEMENT_STATUS structure is used in conjunction with the <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a> request to retrieve the status of all elements or the status of a specified number of elements of a particular type. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CHANGER_READ_ELEMENT_STATUS {
@@ -55,6 +65,9 @@ typedef struct _CHANGER_READ_ELEMENT_STATUS {
 
 ## -struct-fields
 
+
+
+
 ### -field ElementList
 
 Specifies the element type and the number of elements of that type for which to report status in a structure of type <a href="..\ntddchgr\ns-ntddchgr-_changer_element_list.md">CHANGER_ELEMENT_LIST</a>. This member contains a list of structures of type <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>. The <b>ElementType</b> member of each CHANGER_ELEMENT structure in this list can be assigned a value of <b>ChangerDrive</b>, <b>ChangerSlot</b>, <b>ChangerTransport</b>, <b>ChangerIEPort</b>, or <b>AllElements</b>. 
@@ -65,27 +78,18 @@ Specifies the element type and the number of elements of that type for which to 
 Indicates, when <b>TRUE</b>, that volume tag information should be reported in addition to element status. When <b>FALSE</b>, it indicates that only element status should be reported. A volume tag can be a bar code or an application-defined value assigned using <a href="..\mcd\nf-mcd-changerqueryvolumetags.md">ChangerQueryVolumeTags</a>. This member is applicable only if either CHANGER_BAR_CODE_SCANNER_INSTALLED or CHANGER_VOLUME_IDENTIFICATION is set in the <b>Features0</b> member of the <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a> structure.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
-</dt>
-<dt>
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
-</dt>
-<dt>
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
-</dt>
-<dt>
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
-</dt>
-<dt>
+
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element_list.md">CHANGER_ELEMENT_LIST</a>
-</dt>
-</dl>
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+
+<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
+
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+
  
 
  

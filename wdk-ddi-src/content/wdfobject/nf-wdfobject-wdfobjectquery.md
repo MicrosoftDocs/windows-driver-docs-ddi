@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c9e654cc-7ea5-41dd-8ee5-23a89f61e3c1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfObjectQuery
+ms.keywords: WdfObjectQuery method, kmdf.wdfobjectquery, PFN_WDFOBJECTQUERY, WdfObjectQuery, wdfobject/WdfObjectQuery, DFGenObjectRef_1291f90f-1783-4bd6-ae7a-5481f3959628.xml, wdf.wdfobjectquery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WdfObjectQuery
-req.alt-loc: Wdfobject.h
 req.ddi-compliance: DriverCreate
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Not applicable
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdfobject.h
+apiname: 
+-	WdfObjectQuery
+product: Windows
+targetos: Windows
 req.typenames: WDF_SYNCHRONIZATION_SCOPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # WdfObjectQuery function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfObjectQuery</b> method is not implemented.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS WdfObjectQuery(
@@ -60,16 +70,21 @@ NTSTATUS WdfObjectQuery(
 
 ## -parameters
 
+
+
+
 ### -param Object [in]
+
 
 
 ### -param Guid [in]
 
 
+
 ### -param QueryBufferLength [in]
+
 
 
 ### -param QueryBuffer [out]
 
 
-## -remarks

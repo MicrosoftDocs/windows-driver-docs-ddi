@@ -7,8 +7,8 @@ old-location: netvista\ndiscmactivatevc.htm
 old-project: netvista
 ms.assetid: 9091426c-3174-4367-b7c7-5684877efe9c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisCmActivateVc
+ms.date: 1/18/2018
+ms.keywords: NdisCmActivateVc function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_425eba15-2cda-4e36-b88d-59978501ecbf.xml, ndis/NdisCmActivateVc, netvista.ndiscmactivatevc, NdisCmActivateVc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    N
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisCmActivateVc
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_CallManager_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisCmActivateVc
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCmActivateVc function
 
 
-
 ## -description
+
+
 <b>NdisCmActivateVc</b> passes CM-supplied call parameters, including media parameters, for a particular VC
   down to the underlying miniport driver.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisCmActivateVc(
@@ -55,6 +66,9 @@ NDIS_STATUS NdisCmActivateVc(
 
 
 ## -parameters
+
+
+
 
 ### -param NdisVcHandle [in]
 
@@ -74,15 +88,20 @@ Pointer to a CM-allocated resident buffer, formatted as a structure of type
 
 
 ## -returns
+
+
 When 
      <b>NdisCmActivateVc</b> returns anything other than NDIS_STATUS_PENDING, the call manager should make an
      internal call to its 
-     <a href="..\ndis\nc-ndis-protocol_cm_activate_vc_complete.md">
-     ProtocolCmActivateVcComplete</a> function. Otherwise, NDIS calls the CM's 
+     <mshelp:link keywords="netvista.protocolcmactivatevccomplete" tabindex="0"><i>
+     ProtocolCmActivateVcComplete</i></mshelp:link> function. Otherwise, NDIS calls the CM's 
      <i>ProtocolCmActivateVcComplete</i> function when this operation is completed.
 
 
+
 ## -remarks
+
+
 <b>NdisCmActivateVc</b> notifies the underlying miniport driver to set up call and media parameters on a
     newly created VC or to change those of an established VC. NDIS forwards the given call parameters and VC
     handle to the underlying miniport driver's 
@@ -99,15 +118,19 @@ A stand-alone CM always calls
     call to 
     <b>NdisCmActivateVc</b>, the underlying miniport driver's 
     <i>MiniportCoActivateVc</i> function must do either of the following:
-
+<ul>
+<li>
 Update the state that the miniport driver maintains about call parameters to the new values supplied
       by the call manager if the miniport driver can continue to make transfers on the VC according to the
       newly modified call parameters.
 
+</li>
+<li>
 Fail the call if the miniport driver cannot continue to make transfers under the constraints of the
       given call parameters.
 
-When the underlying miniport driver fails a request to set or reset call parameters, the call manager
+</li>
+</ul>When the underlying miniport driver fails a request to set or reset call parameters, the call manager
     might modify its original specification at 
     <i>CallParameters</i> and call 
     <b>NdisCmActivateVc</b> again. The limit on the number of times any call manager makes repeated attempts
@@ -122,8 +145,8 @@ For a client-initiated outgoing call, a stand-alone CM usually calls
     <b>NdisCmActivateVc</b> after it has called 
     <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a> successfully and before it
     calls 
-    <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">
-    NdisCmDispatchIncomingCall</a>.
+    <mshelp:link keywords="netvista.ndiscmdispatchincomingcall" tabindex="0"><b>
+    NdisCmDispatchIncomingCall</b></mshelp:link>.
 
 In the process of setting up an outgoing call and while any VC remains activated, the client can
     request changes to the call parameters for that VC, for example, by calling 
@@ -137,43 +160,33 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
     <b>NdisMCmActivateVc</b> instead.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQos</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-protocol_cm_activate_vc_complete.md">
-   ProtocolCmActivateVcComplete</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+
+<a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
+
+<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
+
+<mshelp:link keywords="netvista.protocolcmactivatevccomplete" tabindex="0"><i>
+   ProtocolCmActivateVcComplete</i></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
+
+<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQos</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCmActivateVc function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCmActivateVc function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

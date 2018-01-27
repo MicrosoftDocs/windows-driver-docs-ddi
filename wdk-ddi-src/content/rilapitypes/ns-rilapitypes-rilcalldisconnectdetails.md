@@ -7,8 +7,8 @@ old-location: netvista\rilcalldisconnectdetails_2.htm
 old-project: netvista
 ms.assetid: 57b4d120-e12a-4821-a379-a392b804590c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCALLDISCONNECTDETAILS, *LPRILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS
+ms.date: 1/18/2018
+ms.keywords: RILCALLDISCONNECTDETAILS, netvista.rilcalldisconnectdetails_2, RILCALLDISCONNECTDETAILS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLDISCONNECTDETAILS, *LPRILCALLDISCONNECTDETAILS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCALLDISCONNECTDETAILS
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILCALLDISCONNECTDETAILS
+product: Windows
+targetos: Windows
+req.typenames: RILCALLDISCONNECTDETAILS, *LPRILCALLDISCONNECTDETAILS
 req.product: Windows 10 or later.
 ---
 
 # RILCALLDISCONNECTDETAILS structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILCALLDISCONNECTDETAILS {
@@ -77,73 +87,103 @@ typedef struct _RILCALLDISCONNECTDETAILS {
 
 ## -struct-fields
 
-### -field dwDisconnectGroup
 
-
-### -field RILCAUSEUNION
 
 
 ### -field causeUnion
 
 
-### -field switch_is
+
+### -field causeUnion.unGPPCause
+
+ 
+
+
+### -field causeUnion.unGPPRejectCause
+
+ 
+
+
+### -field causeUnion.unGPP2Cause
+
+ 
+
+
+### -field causeUnion.unIMSSIPCause
+
+ 
+
+
+### -field causeUnion.dwASCode
+
+ 
+
+
+### -field causeUnion.dwOtherCode
+
+ 
+
+
+### -field RILCAUSEUNION
+
 
 
 ### -field dwDisconnectGroup
 
 
-### -field unGPPCause
+
+#### - dwOtherCode
 
 
-### -field case
+
+#### - RIL_CD_3GPP_NETWORK_CAUSE
 
 
-### -field RIL_CD_3GPP_NETWORK_CAUSE
+
+#### - RIL_CD_3GPP_REJECT_CAUSE
 
 
-### -field unGPPRejectCause
+
+#### - RIL_CD_AS_CAUSE
 
 
-### -field case
+
+#### - case
 
 
-### -field RIL_CD_3GPP_REJECT_CAUSE
+
+#### - dwASCode
 
 
-### -field unGPP2Cause
+
+#### - RIL_CD_OTHER_CAUSE
 
 
-### -field case
+
+#### - RIL_CD_3GPP2_VENDOR_CAUSE
 
 
-### -field RIL_CD_3GPP2_VENDOR_CAUSE
+
+#### - switch_is
 
 
-### -field unIMSSIPCause
+
+#### - RIL_CD_IMS_SIP_CAUSE
 
 
-### -field case
+
+#### - unGPP2Cause
 
 
-### -field RIL_CD_IMS_SIP_CAUSE
+
+#### - unGPPRejectCause
 
 
-### -field dwASCode
+
+#### - unIMSSIPCause
 
 
-### -field case
+
+#### - unGPPCause
 
 
-### -field RIL_CD_AS_CAUSE
-
-
-### -field dwOtherCode
-
-
-### -field case
-
-
-### -field RIL_CD_OTHER_CAUSE
-
-
-## -remarks

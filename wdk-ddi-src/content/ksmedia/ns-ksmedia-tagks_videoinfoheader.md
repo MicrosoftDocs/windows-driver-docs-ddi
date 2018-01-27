@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 402f292c-14f8-4ff3-b1b3-b992578cbcc8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_VIDEOINFOHEADER, KS_VIDEOINFOHEADER, *PKS_VIDEOINFOHEADER
+ms.keywords: tagKS_VIDEOINFOHEADER, vidcapstruct_785a83de-3f90-44f1-b20f-9509032e8a06.xml, PKS_VIDEOINFOHEADER structure pointer [Streaming Media Devices], stream.ks_videoinfoheader, PKS_VIDEOINFOHEADER, ksmedia/PKS_VIDEOINFOHEADER, *PKS_VIDEOINFOHEADER, KS_VIDEOINFOHEADER, KS_VIDEOINFOHEADER structure [Streaming Media Devices], ksmedia/KS_VIDEOINFOHEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_VIDEOINFOHEADER
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KS_VIDEOINFOHEADER
+product: Windows
+targetos: Windows
 req.typenames: KS_VIDEOINFOHEADER, *PKS_VIDEOINFOHEADER
 ---
 
 # tagKS_VIDEOINFOHEADER structure
 
 
-
 ## -description
+
+
 The KS_VIDEOINFOHEADER structure describes the bitmap and color information for a video stream.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagKS_VIDEOINFOHEADER {
@@ -58,6 +68,9 @@ typedef struct tagKS_VIDEOINFOHEADER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field rcSource
 
@@ -90,6 +103,8 @@ Describes a <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPI
 
 
 ## -remarks
+
+
 To describe a video stream with bob or weave settings, use <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>.
 
 The KS_VIDEOINFOHEADER structure is identical to the Microsoft DirectShow VIDEOINFOHEADER structure.
@@ -101,15 +116,13 @@ Ideally, a sink filter checks <b>rcSource</b> and if the sink filter does not su
 The <b>rcTarget</b> member specifies the destination rectangle for the video. Most source filters set this member to all zeros. A downstream filter can request that the video be placed in a particular area of the buffers that it supplies. In this case, it calls the Win32 function <b>QueryAccept</b> with a nonempty target.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>
-</dt>
-</dl>
+
+<a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
+
  
 
  

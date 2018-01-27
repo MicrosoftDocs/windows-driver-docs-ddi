@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c96d1c81-429f-46de-b56c-6424734ccd7a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _IO_PAGING_PRIORITY, IO_PAGING_PRIORITY
+ms.keywords: wdm/IoPagingPriorityInvalid, wdm/IoPagingPriorityNormal, IoPagingPriorityNormal, IoPagingPriorityReserved1, wdm/IoPagingPriorityReserved1, wdm/IO_PAGING_PRIORITY, sysenum_8e021ebd-f26a-4749-8e76-c540af5dfae1.xml, kernel.io_paging_priority, _IO_PAGING_PRIORITY, IoPagingPriorityReserved2, IoPagingPriorityHigh, IO_PAGING_PRIORITY, wdm/IoPagingPriorityHigh, wdm/IoPagingPriorityReserved2, IoPagingPriorityInvalid, IO_PAGING_PRIORITY enumeration [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IO_PAGING_PRIORITY
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	IO_PAGING_PRIORITY
+product: Windows
+targetos: Windows
 req.typenames: IO_PAGING_PRIORITY
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _IO_PAGING_PRIORITY enumeration
 
 
-
 ## -description
+
+
 The <b>IO_PAGING_PRIORITY</b> enumeration describes the priority value for a paging I/O IRP.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _IO_PAGING_PRIORITY { 
@@ -58,6 +68,9 @@ typedef enum _IO_PAGING_PRIORITY {
 
 
 ## -enum-fields
+
+
+
 
 ### -field IoPagingPriorityInvalid
 
@@ -85,15 +98,16 @@ Reserved for system use.
 
 
 ## -remarks
+
+
 The <a href="..\ntddk\nf-ntddk-iogetpagingiopriority.md">IoGetPagingIoPriority</a> routine returns an <b>IO_PAGING_PRIORITY</b> value to indicate the priority value of a paging I/O IRP. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-iogetpagingiopriority.md">IoGetPagingIoPriority</a>
-</dt>
-</dl>
+
  
 
  

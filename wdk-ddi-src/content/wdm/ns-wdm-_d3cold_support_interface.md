@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5B681719-FBCC-417A-9FEB-ACB386FA3BE2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _D3COLD_SUPPORT_INTERFACE, *PD3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE
+ms.keywords: D3COLD_SUPPORT_INTERFACE structure [Kernel-Mode Driver Architecture], wdm/D3COLD_SUPPORT_INTERFACE, wdm/PD3COLD_SUPPORT_INTERFACE, PD3COLD_SUPPORT_INTERFACE structure pointer [Kernel-Mode Driver Architecture], kernel.d3cold_support_interface, D3COLD_SUPPORT_INTERFACE, PD3COLD_SUPPORT_INTERFACE, *PD3COLD_SUPPORT_INTERFACE, _D3COLD_SUPPORT_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3COLD_SUPPORT_INTERFACE
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PD3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	D3COLD_SUPPORT_INTERFACE
+product: Windows
+targetos: Windows
+req.typenames: D3COLD_SUPPORT_INTERFACE, *PD3COLD_SUPPORT_INTERFACE
 req.product: Windows 10 or later.
 ---
 
 # _D3COLD_SUPPORT_INTERFACE structure
 
 
-
 ## -description
+
+
 The <b>D3COLD_SUPPORT_INTERFACE</b> interface structure contains pointers to the routines in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967714">GUID_D3COLD_SUPPORT_INTERFACE</a> driver interface.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3COLD_SUPPORT_INTERFACE {
@@ -63,6 +73,9 @@ typedef struct _D3COLD_SUPPORT_INTERFACE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -115,38 +128,32 @@ A pointer to a <a href="..\wdm\nc-wdm-get_d3cold_last_transition_status.md">GetL
 
 
 ## -remarks
+
+
 A device driver that successfully queries for the GUID_D3COLD_SUPPORT_INTERFACE interface receives a pointer to a <b>D3COLD_SUPPORT_INTERFACE</b> structure in which the pointers to the routines in the interface are all non-NULL and valid.
 
 The <b>D3COLD_SUPPORT_INTERFACE</b> structure is an extended version of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-set_d3cold_support.md">SetD3ColdSupport</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-get_idle_wake_info.md">GetIdleWakeInfo</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetD3ColdCapability</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetBusDriverD3ColdSupport</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-get_d3cold_last_transition_status.md">GetLastTransitionStatus</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
+
+<a href="..\wdm\nc-wdm-set_d3cold_support.md">SetD3ColdSupport</a>
+
+<a href="..\wdm\nc-wdm-get_idle_wake_info.md">GetIdleWakeInfo</a>
+
+<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetBusDriverD3ColdSupport</a>
+
+<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetD3ColdCapability</a>
+
+<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+
+<a href="..\wdm\nc-wdm-get_d3cold_last_transition_status.md">GetLastTransitionStatus</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8d91390b-22a1-4e0b-8c9e-78c0872e7b21
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltParseFileName
+ms.keywords: ifsk.fltparsefilename, FltParseFileName function [Installable File System Drivers], FltApiRef_p_to_z_57a4d7c0-f653-4c91-a16b-1de79ef56342.xml, FltParseFileName, fltkernel/FltParseFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP with Service Pack 2 (SP2) and
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltParseFileName
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltParseFileName
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltParseFileName function
 
 
-
 ## -description
+
+
 <b>FltParseFileName</b> parses the extension, stream, and final component from a file name string. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltParseFileName(
@@ -56,6 +66,9 @@ NTSTATUS FltParseFileName(
 
 
 ## -parameters
+
+
+
 
 ### -param FileName [in]
 
@@ -78,15 +91,28 @@ Pointer to a UNICODE_STRING structure that receives the final name component par
 
 
 ## -returns
+
+
 <b>FltParseFileName</b> returns STATUS_SUCCESS or an appropriate NTSTATUS error code. 
 
 
+
 ## -remarks
+
+
 <b>FltParseFileName</b> parses the extension, stream name, and final component from a file name string. The file name is not required to be normalized or a full path name. If the file name is a short file name, <b>FltParseFileName</b> parses only the extension. 
 
 The following is an example of a normalized name for a local file: 
-
-<b>FltParseFileName</b> parses this normalized name as follows: 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>\Device\HarddiskVolume1\Documents and Settings\MyUser\My Documents\Test Results.txt:stream1</pre>
+</td>
+</tr>
+</table></span></div><b>FltParseFileName</b> parses this normalized name as follows: 
 
 <i>Extension</i>: "txt" 
 
@@ -95,8 +121,18 @@ The following is an example of a normalized name for a local file:
 <i>FinalComponent</i>: "Test Results.txt:stream1" 
 
 The following is an example of a short name for a file: 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>TestRe~1.txt</pre>
+</td>
+</tr>
+</table></span></div><b>FltParseFileName</b> parses this short name as follows: 
 
-<b>FltParseFileName</b> parses this short name as follows: 
+<i>Extension</i>: "txt" 
 
 <i>Stream</i>: <b>NULL</b>
 
@@ -107,18 +143,15 @@ For more information about file name normalization and file name parsing, see <a
 To parse the contents of a FLT_FILE_NAME_INFORMATION structure, call <a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
  
 
  

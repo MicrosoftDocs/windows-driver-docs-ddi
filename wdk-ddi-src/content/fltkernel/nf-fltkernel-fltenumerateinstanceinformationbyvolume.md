@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2bccd6db-5538-43f3-a4b2-7d14b1cf12d7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltEnumerateInstanceInformationByVolume
+ms.keywords: FltEnumerateInstanceInformationByVolume, FltApiRef_e_to_o_682cf119-8631-4725-b2cc-eb0218acb4d7.xml, fltkernel/FltEnumerateInstanceInformationByVolume, ifsk.fltenumerateinstanceinformationbyvolume, FltEnumerateInstanceInformationByVolume routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltEnumerateInstanceInformationByVolume
-req.alt-loc: FltMgr.lib,FltMgr.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	FltMgr.lib
+-	FltMgr.dll
+apiname: 
+-	FltEnumerateInstanceInformationByVolume
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltEnumerateInstanceInformationByVolume function
 
 
-
 ## -description
+
+
 The <b>FltEnumerateInstanceInformationByVolume</b> routine provides information about minifilter driver instances and legacy filter drivers (Windows Vista only) that are attached to a given volume.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltEnumerateInstanceInformationByVolume(
@@ -59,6 +70,9 @@ NTSTATUS FltEnumerateInstanceInformationByVolume(
 
 ## -parameters
 
+
+
+
 ### -param Volume [in]
 
 Opaque pointer for the volume. 
@@ -72,7 +86,6 @@ Zero-based index of the minifilter driver instance or legacy filter driver for w
 ### -param InformationClass [in]
 
 Type of information to be returned for the minifilter driver instance or legacy filter driver. This parameter can have one of the following values.
-
 <table>
 <tr>
 <th>Value</th>
@@ -118,8 +131,7 @@ The buffer pointed to by the <i>Buffer</i> parameter receives an <a href="..\flt
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Buffer [out]
@@ -138,24 +150,65 @@ Pointer to a caller-allocated variable that receives the number of bytes returne
 
 
 ## -returns
+
+
 <b>FltEnumerateInstanceInformationByVolume</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The buffer that the <i>Buffer</i> parameter points to is not large enough to store the requested information. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+The buffer that the <i>Buffer</i> parameter points to is not large enough to store the requested information. This is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FLT_DELETING_OBJECT</b></dt>
-</dl>A matching minifilter instance was found, but it is being torn down.  This is an error code.  Note that this return value does not apply to legacy filter drivers because legacy filter drivers cannot be unloaded.
+</dl>
+</td>
+<td width="60%">
+A matching minifilter instance was found, but it is being torn down.  This is an error code.  Note that this return value does not apply to legacy filter drivers because legacy filter drivers cannot be unloaded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>An invalid value was specified for the <i>InformationClass</i> parameter. For example, if <b>InstanceAggregateStandardInformation</b> is specified on an operating system prior to Windows Vista, the routine will return STATUS_INVALID_PARAMETER.  This is an error code. 
+</dl>
+</td>
+<td width="60%">
+An invalid value was specified for the <i>InformationClass</i> parameter. For example, if <b>InstanceAggregateStandardInformation</b> is specified on an operating system prior to Windows Vista, the routine will return STATUS_INVALID_PARAMETER.  This is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NO_MORE_ENTRIES</b></dt>
-</dl>There are no more entries in the volume's instance/filter list. This is a warning code.
+</dl>
+</td>
+<td width="60%">
+There are no more entries in the volume's instance/filter list. This is a warning code.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 Using the <i>Index</i> parameter is simply a way for <b>FltEnumerateInstanceInformationByVolume</b> to select among minifilter driver instances and legacy filter drivers in the instance/filter list for the volume that is specified by <i>Volume</i>. Because the minifilter driver instances in the instance/filter list can change at any time, two calls to <b>FltEnumerateInstanceInformationByVolume</b> with the same <i>Index</i> and <i>Volume</i> values are not guaranteed to return the same result.
 
 Starting with Windows Vista, this routine can return both legacy filter driver information and minifilter driver instance information when the value of the <i>InformationClass</i> parameter is <b>InstanceAggregateStandardInformation</b>.  For earlier operating systems, this routine cannot return legacy filter information because the INSTANCE_AGGREGATE_STANDARD_INFORMATION structure is not available.
@@ -171,36 +224,27 @@ To enumerate instances of all minifilter drivers on all volumes, call <a href=".
 To enumerate all volumes that are known to the Filter Manager, call <a href="..\fltkernel\nf-fltkernel-fltenumeratevolumes.md">FltEnumerateVolumes</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltenumeratefilterinformation.md">FltEnumerateFilterInformation</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstances.md">FltEnumerateInstances</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltenumeratevolumes.md">FltEnumerateVolumes</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetfilterinformation.md">FltGetFilterInformation</a>
-</dt>
-<dt>
+
 <a href="..\fltuserstructures\ns-fltuserstructures-_instance_aggregate_standard_information.md">INSTANCE_AGGREGATE_STANDARD_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\fltuserstructures\ns-fltuserstructures-_instance_basic_information.md">INSTANCE_BASIC_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\fltuserstructures\ns-fltuserstructures-_instance_full_information.md">INSTANCE_FULL_INFORMATION</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstances.md">FltEnumerateInstances</a>
+
+<a href="..\fltuserstructures\ns-fltuserstructures-_instance_basic_information.md">INSTANCE_BASIC_INFORMATION</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetfilterinformation.md">FltGetFilterInformation</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltenumeratevolumes.md">FltEnumerateVolumes</a>
+
 <a href="..\fltuserstructures\ns-fltuserstructures-_instance_partial_information.md">INSTANCE_PARTIAL_INFORMATION</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
+
  
 
  

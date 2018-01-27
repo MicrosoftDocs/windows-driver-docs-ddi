@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1b7b1774-3144-4929-83d8-c52a7de6936d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.videoprocessbeginframe, VideoProcessBeginFrame callback function [Display Devices], VideoProcessBeginFrame, PFND3DDDI_VIDEOPROCESSBEGINFRAME, PFND3DDDI_VIDEOPROCESSBEGINFRAME, d3dumddi/VideoProcessBeginFrame, UserModeDisplayDriver_Functions_c3ad6569-b0a0-4688-bd1a-f02a7176a2f2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoProcessBeginFrame
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	VideoProcessBeginFrame
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_VIDEOPROCESSBEGINFRAME callback
 
 
-
 ## -description
+
+
 The <i>VideoProcessBeginFrame</i> function notifies the user-mode display driver that processing of a video frame can begin on the specified Microsoft DirectX Video Accelerator (VA) video processing device.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_VIDEOPROCESSBEGINFRAME VideoProcessBeginFrame;
@@ -58,44 +68,76 @@ __checkReturn HRESULT APIENTRY VideoProcessBeginFrame(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param hVideoProcessor [in]
+### -param hVideoProcess
+
+
+
+
+
+
+#### - hVideoProcessor [in]
 
  The handle to the DirectX VA video processing device that should start processing the video frame. The <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a> function created this handle.
 
 
 ## -returns
+
+
 <i>VideoProcessBeginFrame</i> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>Video frame processing successfully began.
+</dl>
+</td>
+<td width="60%">
+Video frame processing successfully began.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_OUTOFMEMORY</b></dt>
-</dl><i>VideoProcessBeginFrame</i> could not allocate the required memory for it to complete.
+</dl>
+</td>
+<td width="60%">
+<i>VideoProcessBeginFrame</i> could not allocate the required memory for it to complete.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The <i>VideoProcessBeginFrame</i> function notifies the user-mode display driver that its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_videoprocessblt.md">VideoProcessBlt</a> function can be called on the specified video processing device.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_videoprocessblt.md">VideoProcessBlt</a>
-</dt>
-</dl>
+
  
 
  

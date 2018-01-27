@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a9951e7b-60a2-4bf2-913c-b7291d7c3173
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExAllocatePoolWithTag
+ms.keywords: ExAllocatePoolWithTag routine [Kernel-Mode Driver Architecture], k102_13ab2d7e-dd96-4474-bf27-59ee9b7d84d6.xml, ExAllocatePoolWithTag, wdm/ExAllocatePoolWithTag, kernel.exallocatepoolwithtag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExAllocatePoolWithTag
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: CheckDeviceObjectFlags, IrqlExAllocatePool, IrqlExFree1, PowerDownAllocate, PowerUpFail, HwStorPortProhibitedDDIs, SpNoWait, StorPortStartIo
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ExAllocatePoolWithTag
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ExAllocatePoolWithTag function
 
 
-
 ## -description
+
+
 The <b>ExAllocatePoolWithTag</b> routine allocates pool memory of the specified type and returns a pointer to the allocated block.
 
 
-
 ## -syntax
+
 
 ````
 PVOID ExAllocatePoolWithTag(
@@ -56,6 +66,9 @@ PVOID ExAllocatePoolWithTag(
 
 
 ## -parameters
+
+
+
 
 ### -param PoolType [in]
 
@@ -77,10 +90,15 @@ The pool tag to use for the allocated memory. Specify the pool tag as a characte
 
 
 ## -returns
+
+
 <b>ExAllocatePoolWithTag</b> returns <b>NULL</b> if there is insufficient memory in the free pool to satisfy the request. Otherwise, the routine returns a pointer to the allocated memory.
 
 
+
 ## -remarks
+
+
 This routine is used for the general pool allocation of memory.
 
 If <i>NumberOfBytes</i> is PAGE_SIZE or greater, a page-aligned buffer is allocated. Memory allocations of PAGE_SIZE or less are allocated within a page and do not cross page boundaries. Memory allocations of less than PAGE_SIZE are not necessarily page-aligned but are aligned to 8-byte boundaries in 32-bit systems and to 16-byte boundaries in 64-bit systems.
@@ -91,33 +109,27 @@ The system associates the pool tag with the allocated memory. Programming tools,
 
 The value of <i>Tag</i> is stored, and sometimes displayed, in reverse (little-endian) order. For example, if a caller passes 'Fred' as a <i>Tag</i>, it appears as "derF" in a pool dump and in pool usage tracking in the debugger, and as 0x64657246 in the registry and in tool displays.
 
-The allocated buffer can be freed with either <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> or <a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>.
+The allocated buffer can be freed with either <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> or <a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>.
 
 The system automatically sets certain standard event objects when the amount of pool (paged or nonpaged) is high or low. Drivers can wait for these events to tune their pool usage. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563847">Standard Event Objects</a>.
 
 Callers of <b>ExAllocatePoolWithTag</b> must be executing at IRQL &lt;= DISPATCH_LEVEL. A caller executing at DISPATCH_LEVEL must specify a <b>NonPaged</b><i>Xxx</i> value for <i>PoolType</i>. A caller executing at IRQL &lt;= APC_LEVEL can specify any <b>POOL_TYPE</b> value, but the IRQL and environment must also be considered for determining the page type.
-
-In a non-uniform memory access (NUMA) multiprocessor architecture, <b>ExAllocatePoolWithTag</b> tries to allocate memory that is local to the processor that is calling <b>ExAllocatePoolWithTag</b>. If no local memory is available, <b>ExAllocatePoolWithTag</b> allocates the closest available memory.
+<div class="alert"><b>Note</b>  Do not set <i>NumberOfBytes</i> = 0. Avoid zero-length allocations because they waste pool header space and, in many cases, indicate a potential validation issue in the calling code. For this reason, <a href="https://msdn.microsoft.com/library/windows/hardware/ff557262">Driver Verifier</a> flags such allocations as possible errors.</div><div> </div>In a non-uniform memory access (NUMA) multiprocessor architecture, <b>ExAllocatePoolWithTag</b> tries to allocate memory that is local to the processor that is calling <b>ExAllocatePoolWithTag</b>. If no local memory is available, <b>ExAllocatePoolWithTag</b> allocates the closest available memory.
+<div class="alert"><b>Note</b>  Memory that <b>ExAllocatePoolWithTag</b> allocates is uninitialized. A kernel-mode driver must first zero this memory if it is going to make it visible to user-mode software (to avoid leaking potentially privileged contents).</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-exallocatepoolwithtagpriority.md">ExAllocatePoolWithTagPriority</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtagpriority.md">ExAllocatePoolWithTagPriority</a>
+
+<a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
+
  
 
  

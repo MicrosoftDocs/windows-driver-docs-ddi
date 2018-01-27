@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 54853C39-FA6C-4F9B-A202-F116C43D3A4E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UDECX_WDF_DEVICE_CONFIG, UDECX_WDF_DEVICE_CONFIG, *PUDECX_WDF_DEVICE_CONFIG
+ms.keywords: UDECX_WDF_DEVICE_CONFIG, udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG, PUDECX_WDF_DEVICE_CONFIG structure pointer [Buses], *PUDECX_WDF_DEVICE_CONFIG, buses.udecx_wdf_device_config, _UDECX_WDF_DEVICE_CONFIG, PUDECX_WDF_DEVICE_CONFIG, udecxwdfdevice/PUDECX_WDF_DEVICE_CONFIG, UDECX_WDF_DEVICE_CONFIG structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UDECX_WDF_DEVICE_CONFIG
-req.alt-loc: udecxwdfdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: UDECX_WDF_DEVICE_CONFIG, *PUDECX_WDF_DEVICE_CONFIG
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	udecxwdfdevice.h
+apiname: 
+-	UDECX_WDF_DEVICE_CONFIG
+product: Windows
+targetos: Windows
+req.typenames: *PUDECX_WDF_DEVICE_CONFIG, UDECX_WDF_DEVICE_CONFIG
 req.product: Windows 10 or later.
 ---
 
 # _UDECX_WDF_DEVICE_CONFIG structure
 
 
-
 ## -description
+
+
 Contains pointers to event callback functions implemented by the UDE client driver for a USB host controller. Initialize this structure by calling <a href="..\udecxwdfdevice\nf-udecxwdfdevice-udecx_wdf_device_config_init.md">UDECX_WDF_DEVICE_CONFIG_INIT</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UDECX_WDF_DEVICE_CONFIG {
@@ -59,6 +69,9 @@ typedef struct _UDECX_WDF_DEVICE_CONFIG {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -90,18 +103,12 @@ A <a href="..\udecxwdfdevice\ne-udecxwdfdevice-_udecx_wdf_device_reset_action.md
 A pointer to an <a href="..\udecxwdfdevice\nc-udecxwdfdevice-evt_udecx_wdf_device_reset.md">EVT_UDECX_WDF_DEVICE_RESET</a> callback function.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\udecxwdfdevice\nf-udecxwdfdevice-udecx_wdf_device_config_init.md">UDECX_WDF_DEVICE_CONFIG_INIT</a>
-</dt>
-<dt>
+
 <a href="..\udecxwdfdevice\nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation.md">UdecxWdfDeviceAddUsbDeviceEmulation</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4812eeb4-134f-4ecb-870b-dbab04c1137b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtCreateResourceManager
+ms.keywords: kernel.zwcreateresourcemanager, ZwCreateResourceManager, ZwCreateResourceManager routine [Kernel-Mode Driver Architecture], ktm_ref_9cb25714-3d40-48b3-8f24-a4a4fb10c4d1.xml, NtCreateResourceManager, wdm/NtCreateResourceManager, wdm/ZwCreateResourceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later operating system
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwCreateResourceManager,NtCreateResourceManager
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ZwCreateResourceManager
+-	NtCreateResourceManager
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # NtCreateResourceManager function
 
 
-
 ## -description
+
+
 The <b>ZwCreateResourceManager</b> routine creates a <a href="https://msdn.microsoft.com/b44f2035-ee9f-453b-b12d-89ca36a8b280">resource manager object</a>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ZwCreateResourceManager(
@@ -61,6 +72,9 @@ NTSTATUS ZwCreateResourceManager(
 
 ## -parameters
 
+
+
+
 ### -param ResourceManagerHandle [out]
 
 A pointer to a caller-allocated variable that receives a handle to the new resource manager object if the call to <b>ZwCreateResourceManager</b> is successful.
@@ -69,7 +83,6 @@ A pointer to a caller-allocated variable that receives a handle to the new resou
 ### -param DesiredAccess [in]
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that specifies the caller's requested access to the resource manager object. In addition to the access rights that are defined for all kinds of objects (see <b>ACCESS_MASK</b>), the caller can specify any of the following access right flags for resource manager objects:
-
 <table>
 <tr>
 <th>ACCESS_MASK flag</th>
@@ -145,11 +158,9 @@ Not used.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 Alternatively, you can specify one or more of the following generic <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> flags. (The STANDARD_RIGHTS_<i>Xxx</i> flags are predefined system values that are used to enforce security on system objects.) You can also combine these generic flags with additional flags from the preceding table. The following table shows how generic access rights correspond to specific access rights. 
-
 <table>
 <tr>
 <th>Generic access right</th>
@@ -195,8 +206,7 @@ STANDARD_RIGHTS_REQUIRED, RESOURCEMANAGER_GENERIC_READ, RESOURCEMANAGER_GENERIC_
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param TmHandle [in]
@@ -204,9 +214,9 @@ STANDARD_RIGHTS_REQUIRED, RESOURCEMANAGER_GENERIC_READ, RESOURCEMANAGER_GENERIC_
 A handle to a <a href="https://msdn.microsoft.com/af53cda4-e2ab-47df-9311-a4da2a2ee08d">transaction manager object</a> that was obtained by a previous all to <a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a> or <a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>. 
 
 
-### -param ResourceManagerGuid [in, optional]
+### -param RmGuid
 
-A pointer to a GUID that KTM will use to identify the resource manager. If this pointer is <b>NULL</b>, KTM generates a GUID.
+TBD
 
 
 ### -param ObjectAttributes [in, optional]
@@ -217,7 +227,6 @@ A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATT
 ### -param CreateOptions [in, optional]
 
 Optional object creation flags. The following table contains the available flags, which are defined in Ktmtypes.h. 
-
 <table>
 <tr>
 <th><i>CreateOptions</i> flag</th>
@@ -243,8 +252,7 @@ The caller will manage volatile resources. It will be non-persistent and will no
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 This parameter is optional and can be zero. 
 
@@ -254,39 +262,117 @@ This parameter is optional and can be zero.
 A pointer to a caller-supplied <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a NULL-terminated string. The string provides a description of the resource manager. KTM stores a copy of the string and includes the string in messages that it writes to the log stream. The maximum string length is MAX_RESOURCEMANAGER_DESCRIPTION_LENGTH. This parameter is optional and can be <b>NULL</b>. 
 
 
+#### - ResourceManagerGuid [in, optional]
+
+A pointer to a GUID that KTM will use to identify the resource manager. If this pointer is <b>NULL</b>, KTM generates a GUID.
+
+
 ## -returns
+
+
 <b>ZwCreateResourceManager</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_TYPE_MISMATCH</b></dt>
-</dl>The handle that <i>TmHandle</i> specifies is not a handle to a transaction object.
+</dl>
+</td>
+<td width="60%">
+The handle that <i>TmHandle</i> specifies is not a handle to a transaction object.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>The handle that <i>TmHandle</i> specifies is invalid.
+</dl>
+</td>
+<td width="60%">
+The handle that <i>TmHandle</i> specifies is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>The caller does not have appropriate access to the specified transaction manager object.
+</dl>
+</td>
+<td width="60%">
+The caller does not have appropriate access to the specified transaction manager object.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_TRANSACTION_OBJECT_EXPIRED</b></dt>
-</dl>The handle that <i>TmHandle</i> specifies is closed.
+</dl>
+</td>
+<td width="60%">
+The handle that <i>TmHandle</i> specifies is closed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The <i>CreateOptions </i>parameter's value is invalid or the <i>Description</i> parameter's string is too long.
+</dl>
+</td>
+<td width="60%">
+The <i>CreateOptions </i>parameter's value is invalid or the <i>Description</i> parameter's string is too long.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_TM_VOLATILE</b></dt>
-</dl>The <i>CreateOptions </i>parameter does not specify RESOURCE_MANAGER_VOLATILE but the transaction manager that <i>TmHandle</i> specifies is volatile.
+</dl>
+</td>
+<td width="60%">
+The <i>CreateOptions </i>parameter does not specify RESOURCE_MANAGER_VOLATILE but the transaction manager that <i>TmHandle</i> specifies is volatile.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_NAME_COLLISION</b></dt>
-</dl>The GUID that <i>ResourceManagerGuid </i>specifies already exists.
+</dl>
+</td>
+<td width="60%">
+The GUID that <i>ResourceManagerGuid </i>specifies already exists.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>The value of the <i>DesiredAccess</i> parameter is invalid.
+</dl>
+</td>
+<td width="60%">
+The value of the <i>DesiredAccess</i> parameter is invalid.
 
- 
+</td>
+</tr>
+</table> 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
+
 ## -remarks
+
+
 A resource manager that calls <b>ZwCreateResourceManager</b> must eventually call <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> to close the object handle.
 
 For more information about <b>ZwCreateResourceManager</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542865">Creating a Resource Manager</a>.
@@ -294,45 +380,33 @@ For more information about <b>ZwCreateResourceManager</b>, see <a href="https://
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwqueryinformationresourcemanager.md">ZwQueryInformationResourceManager</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>
+
+<a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
 <a href="..\wdm\nf-wdm-zwrecoverresourcemanager.md">ZwRecoverResourceManager</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a>
+
  
 
  

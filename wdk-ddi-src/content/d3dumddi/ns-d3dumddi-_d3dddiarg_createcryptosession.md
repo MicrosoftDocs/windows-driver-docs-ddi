@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 45bc4d3f-d573-4a11-8d25-160cb8f233f4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_CREATECRYPTOSESSION, D3DDDIARG_CREATECRYPTOSESSION
+ms.keywords: UMDisplayDriver_param_Structs_39cf7246-689d-47f2-99f8-dcc3b2018958.xml, D3DDDIARG_CREATECRYPTOSESSION, display.d3dddiarg_createcryptosession, D3DDDIARG_CREATECRYPTOSESSION structure [Display Devices], _D3DDDIARG_CREATECRYPTOSESSION, d3dumddi/D3DDDIARG_CREATECRYPTOSESSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3DDDIARG_CREATECRYPTOSESSION is supported beginning 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_CREATECRYPTOSESSION
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_CREATECRYPTOSESSION
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_CREATECRYPTOSESSION
 ---
 
 # _D3DDDIARG_CREATECRYPTOSESSION structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_CREATECRYPTOSESSION structure describes an encryption session to create. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_CREATECRYPTOSESSION {
@@ -56,24 +66,15 @@ typedef struct _D3DDDIARG_CREATECRYPTOSESSION {
 
 ## -struct-fields
 
+
+
+
 ### -field CryptoType
 
 [in] A GUID that indicates the encryption type, which the driver uses for the encryption session that the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a> function creates. The GUID can be one of the following:
 
 
 
-
-### -field D3DCRYPTOTYPE_AES128_CTR
-
-A GUID that indicates the 128 bit AES-CRT block cipher.
-
-
-### -field D3DCRYPTOTYPE_PROPRIETARY
-
-A GUID that indicates a proprietary encryption algorithm. 
-
-</dd>
-</dl>
 
 ### -field DecodeProfile
 
@@ -85,15 +86,20 @@ A GUID that indicates a proprietary encryption algorithm.
 [in/out] A handle to the encryption session. The user-mode display driver must set this handle to a value that the Microsoft Direct3D runtime can use to identify the encryption session in subsequent calls. 
 
 
-## -remarks
+##### - CryptoType.D3DCRYPTOTYPE_PROPRIETARY
+
+A GUID that indicates a proprietary encryption algorithm. 
+
+
+##### - CryptoType.D3DCRYPTOTYPE_AES128_CTR
+
+A GUID that indicates the 128 bit AES-CRT block cipher.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
-</dt>
-</dl>
+
  
 
  

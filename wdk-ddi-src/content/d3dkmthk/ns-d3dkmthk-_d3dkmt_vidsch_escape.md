@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8e19e8a1-0cb6-4d57-862c-2e3a785b949b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_VIDSCH_ESCAPE, D3DKMT_VIDSCH_ESCAPE
+ms.keywords: d3dkmthk/D3DKMT_VIDSCH_ESCAPE, OpenGL_Structs_d668addb-7c4a-4f07-bf9b-71ccd4a216fa.xml, display.d3dkmt_vidsch_escape, D3DKMT_VIDSCH_ESCAPE, _D3DKMT_VIDSCH_ESCAPE, D3DKMT_VIDSCH_ESCAPE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_VIDSCH_ESCAPE
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_VIDSCH_ESCAPE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_VIDSCH_ESCAPE
 ---
 
 # _D3DKMT_VIDSCH_ESCAPE structure
 
 
-
 ## -description
+
+
 <b>Do not use the D3DKMT_VIDSCH_ESCAPE structure; it is for testing purposes only.</b>
 
 The D3DKMT_VIDSCH_ESCAPE structure describes how to control the graphics processing unit (GPU) scheduler (which is part of Dxgkrnl.sys) in a call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_VIDSCH_ESCAPE {
@@ -71,9 +81,36 @@ typedef struct _D3DKMT_VIDSCH_ESCAPE {
 
 ## -struct-fields
 
-### -field Type
 
-The escape type, of type <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_vidschescapetype.md">D3DKMT_VIDSCHESCAPETYPE</a>, which is reserved and should not be used in your driver.
+
+
+### -field TdrControl2
+
+
+
+### -field TdrControl2.NodeOrdinal
+
+Valid if <b>TdrControl</b> is set to a value of <b>D3DKMT_TDRDBGCTRLTYPE_ENGINETDR</b>.
+
+
+### -field TdrControl2.TdrControl
+
+Control TDR.
+
+
+### -field TdrLimit
+
+ 
+
+
+### -field TdrLimit.Count
+
+ 
+
+
+### -field TdrLimit.Time
+
+ 
 
 
 ### -field PreemptionControl
@@ -85,21 +122,6 @@ Enable or disable preemption.
 
 Enable or disable context delay.
 
-
-### -field TdrControl2
-
-
-### -field TdrControl
-
-Control TDR.
-
-
-### -field NodeOrdinal
-
-Valid if <b>TdrControl</b> is set to a value of <b>D3DKMT_TDRDBGCTRLTYPE_ENGINETDR</b>.
-
-</dd>
-</dl>
 
 ### -field SuspendScheduler
 
@@ -116,21 +138,24 @@ Control TDR.
 Time period to suspend.
 
 
-## -remarks
+### -field PfnControl
+
+ 
+
+
+### -field Type
+
+The escape type, of type <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_vidschescapetype.md">D3DKMT_VIDSCHESCAPETYPE</a>, which is reserved and should not be used in your driver.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_escape.md">D3DKMT_ESCAPE</a>
-</dt>
-<dt>
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_vidschescapetype.md">D3DKMT_VIDSCHESCAPETYPE</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a>
+
  
 
  

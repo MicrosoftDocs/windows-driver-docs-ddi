@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 005B2A80-F6F8-42DA-86C3-277676B9168A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCM_POWER_ROLE, UCM_POWER_ROLE
+ms.keywords: UcmPowerRoleSink, buses.ucm_power_role, _UCM_POWER_ROLE, ucmtypes/UcmPowerRoleSource, ucmtypes/UCM_POWER_ROLE, ucmtypes/UcmPowerRoleInvalid, UCM_POWER_ROLE enumeration [Buses], UcmPowerRoleInvalid, UcmPowerRoleSource, UCM_POWER_ROLE, ucmtypes/UcmPowerRoleSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 2.15
-req.alt-api: UCM_POWER_ROLE
-req.alt-loc: Ucmtypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ucmtypes.h
+apiname: 
+-	UCM_POWER_ROLE
+product: Windows
+targetos: Windows
 req.typenames: UCM_POWER_ROLE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _UCM_POWER_ROLE enumeration
 
 
-
 ## -description
+
+
 Defines power roles of USB Type-C connected devices. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _UCM_POWER_ROLE { 
@@ -56,6 +66,9 @@ typedef enum _UCM_POWER_ROLE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field UcmPowerRoleInvalid
 
@@ -72,21 +85,14 @@ Indicates the power role is set to sink power.
 Indicates the power role is set to source power. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_pd_config.md">UCM_CONNECTOR_PD_CONFIG</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt187914">UcmConnectorPowerDirectionChanged</a>
-</dt>
-<dt>
+
 <a href="..\ucmmanager\nc-ucmmanager-evt_ucm_connector_set_power_role.md">EVT_UCM_CONNECTOR_SET_POWER_ROLE</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187914">UcmConnectorPowerDirectionChanged</a>
+
  
 
  

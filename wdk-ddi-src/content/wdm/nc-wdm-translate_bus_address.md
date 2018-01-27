@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DDED1237-74B7-4127-8E86-D0794A1FB49B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+ms.keywords: kernel.translatebusaddress, TranslateBusAddress routine [Kernel-Mode Driver Architecture], TranslateBusAddress, TRANSLATE_BUS_ADDRESS, TRANSLATE_BUS_ADDRESS, wdm/TranslateBusAddress, kernel.bustranslatebusaddress, drvr_interface_68887adb-724b-47ca-80e6-b8b934ae2414.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TranslateBusAddress
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	wdm.h
+apiname: 
+-	TranslateBusAddress
+product: Windows
+targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # TRANSLATE_BUS_ADDRESS callback
 
 
-
 ## -description
+
+
 The <i>TranslateBusAddress</i> routine translates addresses on the parent bus to logical addresses.
 
 
-
 ## -prototype
+
 
 ````
 TRANSLATE_BUS_ADDRESS TranslateBusAddress;
@@ -61,6 +71,9 @@ BOOLEAN TranslateBusAddress(
 
 
 ## -parameters
+
+
+
 
 ### -param Context [in]
 
@@ -88,19 +101,17 @@ The translated (logical) address that corresponds to the bus-relative address th
 
 
 ## -returns
+
+
 The 
       <i>TranslateBusAddress</i> routine returns <b>TRUE</b> if the translation operation succeeded and <b>FALSE</b> otherwise.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_bus_interface_standard.md">BUS_INTERFACE_STANDARD</a>
-</dt>
-</dl>
+
  
 
  

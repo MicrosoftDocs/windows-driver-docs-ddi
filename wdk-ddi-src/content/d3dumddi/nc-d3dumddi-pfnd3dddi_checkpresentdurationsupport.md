@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4D3FC503-A502-41D3-AB76-5A2BEBE4C551
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.checkpresentdurationsupport, CheckPresentDurationSupport callback function [Display Devices], CheckPresentDurationSupport, PFND3DDDI_CHECKPRESENTDURATIONSUPPORT, PFND3DDDI_CHECKPRESENTDURATIONSUPPORT, d3dumddi/CheckPresentDurationSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1,WDDM 1.3 and later
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CheckPresentDurationSupport
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	CheckPresentDurationSupport
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_CHECKPRESENTDURATIONSUPPORT callback
 
 
-
 ## -description
+
+
 Called by the Microsoft Direct3D runtime to request that the user-mode display driver  get  hardware device capabilities for seamlessly switching to a new monitor refresh rate. Optionally implemented by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_CHECKPRESENTDURATIONSUPPORT CheckPresentDurationSupport;
@@ -58,32 +68,39 @@ _Check_return_ HRESULT* CheckPresentDurationSupport(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
 A handle to the display device (graphics context).
 
 
-### -param pPresentDurationSupport [in]
+### -param *
+
+
+
+
+
+
+#### - pPresentDurationSupport [in]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_checkpresentdurationsupport.md">D3DDDIARG_CHECKPRESENTDURATIONSUPPORT</a> structure that contains info on hardware device support for seamlessly switching to a new monitor refresh rate.
 
 
 ## -returns
+
+
 If this routine succeeds, it returns <b>S_OK</b>. The driver should always return a success code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_checkpresentdurationsupport.md">D3DDDIARG_CHECKPRESENTDURATIONSUPPORT</a>
-</dt>
-</dl>
+
  
 
  

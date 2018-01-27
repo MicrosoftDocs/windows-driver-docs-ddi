@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4b3a266f-4d60-4d39-81fb-ea2b4aa12a8d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_LOCKFLAGS, D3DDDICB_LOCKFLAGS
+ms.keywords: D3DDDICB_LOCKFLAGS, display.d3dddicb_lockflags, D3DDDICB_LOCKFLAGS structure [Display Devices], _D3DDDICB_LOCKFLAGS, D3D_other_Structs_6238800f-60d9-472d-aa18-10343abbcee7.xml, d3dukmdt/D3DDDICB_LOCKFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_LOCKFLAGS
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDICB_LOCKFLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_LOCKFLAGS
 ---
 
 # _D3DDDICB_LOCKFLAGS structure
 
 
-
 ## -description
+
+
 The D3DDDICB_LOCKFLAGS structure identifies how to lock an allocation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_LOCKFLAGS {
@@ -69,6 +79,9 @@ typedef struct _D3DDDICB_LOCKFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ReadOnly
 
@@ -144,7 +157,6 @@ A UINT value that specifies whether the display miniport driver can lock an allo
 This flag is also used to lock swizzled or tiled allocations that are currently located in a non-AGP aperture segment. In this type of lock, the video memory manager maps the alternate virtual address to a physical address range that can be unswizzled or untiled on the fly and then redirects the memory access to the system memory pages.
 
 The video memory manager creates the alternate virtual address when the allocation is first locked with <b>UseAlternateVA</b> and releases the virtual address in one of the following scenarios:
-
 <ul>
 <li>
 The allocation is not accessible to the CPU, and the swizzling range is released for reuse by another allocation.
@@ -162,16 +174,12 @@ The allocation is being destroyed.
 The allocation is being paged in after it was evicted while under lock.
 
 </li>
-</ul>
-Be aware that <b>UseAlternateVA</b> can only be used on the primary allocation if the primary allocation was created by specifying the <b>UseAlternateVA</b> bit-field flag in the <b>Flags</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a> structure in a call to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function. A primary allocation that is created in such a way can only be locked with the <b>UseAlternateVA</b> flag.
+</ul>Be aware that <b>UseAlternateVA</b> can only be used on the primary allocation if the primary allocation was created by specifying the <b>UseAlternateVA</b> bit-field flag in the <b>Flags</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a> structure in a call to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function. A primary allocation that is created in such a way can only be locked with the <b>UseAlternateVA</b> flag.
 
 <b>UseAlternateVA</b> cannot be used on a shared allocation.
 
 An allocation that was locked with <b>UseAlternateVA</b> set cannot be locked again.
-
-<div class="alert"><b>Note</b>  If the user-mode display driver has set <b>UseAlternateVA</b> in the <b>Flags</b> member of the <b>D3DDDICB_LOCKFLAGS</b> structure during a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a> function, the display miniport driver should not call the <a href="..\dispmprt\nc-dispmprt-dxgkcb_exclude_adapter_access.md">DxgkCbExcludeAdapterAccess</a> function.</div>
-<div> </div>
-Setting this member is equivalent to setting the tenth bit of the 32-bit <b>Value</b> member (0x00000200).
+<div class="alert"><b>Note</b>  If the user-mode display driver has set <b>UseAlternateVA</b> in the <b>Flags</b> member of the <b>D3DDDICB_LOCKFLAGS</b> structure during a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a> function, the display miniport driver should not call the <a href="..\dispmprt\nc-dispmprt-dxgkcb_exclude_adapter_access.md">DxgkCbExcludeAdapterAccess</a> function.</div><div> </div>Setting this member is equivalent to setting the tenth bit of the 32-bit <b>Value</b> member (0x00000200).
 
 
 ### -field IgnoreReadSync
@@ -194,42 +202,59 @@ A member in the union that is contained in D3DDDICB_LOCKFLAGS that can hold one 
 
 
 ## -remarks
-When you use a D3DDDICB_LOCKFLAGS structure to specify how to lock an allocation, you must adhere to the following rules:
 
+
+When you use a D3DDDICB_LOCKFLAGS structure to specify how to lock an allocation, you must adhere to the following rules:
+<ul>
+<li>
 Simultaneously specifying the <b>ReadOnly</b> and <b>WriteOnly</b> members is invalid.
 
+</li>
+<li>
 The <b>IgnoreSync</b> member has no effect if specified with the <b>Discard</b> member.
 
+</li>
+<li>
 The <b>DonotWait</b> member has no effect if specified with the <b>Discard</b> member.
 
+</li>
+<li>
 Simultaneously specifying the <b>IgnoreSync</b> and <b>AcquireAperture</b> members is invalid.
 
+</li>
+<li>
 Because specifying the <b>UseAlternateVA</b> member indicates that an aperture is acquired, the <b>AcquireAperture</b> member must also be set.
 
+</li>
+<li>
 Retired or offered allocations cannot be locked. See also <a href="https://msdn.microsoft.com/f22e19ba-9ff3-4aa1-a3f0-103f67ea7c60">Requesting to Rename an Allocation</a>.
 
+</li>
+<li>
 An allocation can be locked only if it was created with the <b>CpuVisible</b>  member set in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a> structure.
 
+</li>
+<li>
 Only the owner (creator) of a shared allocation can lock it, unless it's a GDI non-managed primary allocation.
 
+</li>
+<li>
 An allocation that is locked with a swizzled range must be unlocked before it can be locked again.
+
+</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_lock.md">D3DDDICB_LOCK</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_lock.md">D3DDDICB_LOCK</a>
+
  
 
  

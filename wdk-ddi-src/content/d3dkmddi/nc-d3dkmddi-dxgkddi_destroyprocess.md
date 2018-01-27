@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C5117F9B-876D-4F74-B528-47698666B44B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddidestroyprocess, DxgkDdiDestroyProcess callback function [Display Devices], DxgkDdiDestroyProcess, DXGKDDI_DESTROYPROCESS, DXGKDDI_DESTROYPROCESS, dispmprt/DxgkDdiDestroyProcess, d3dkmddi/DxgkDdiDestroyProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiDestroyProcess
-req.alt-loc: dispmprt.h,d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+-	d3dkmddi.h
+apiname: 
+-	DxgkDdiDestroyProcess
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_DESTROYPROCESS callback
 
 
-
 ## -description
+
+
 <b>DxgkDdiDestroyProcess</b> destroys a kernel mode driver process object.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_DESTROYPROCESS DxgkDdiDestroyProcess;
@@ -58,6 +69,9 @@ NTSTATUS APIENTRY DxgkDdiDestroyProcess(
 
 ## -parameters
 
+
+
+
 ### -param hAdapter [in]
 
 A handle to the display adapter.
@@ -70,7 +84,8 @@ A handle to the kernel mode driver process.
 
 ## -returns
 
+
+
       Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in <b>Ntstatus.h</b>.
 
 
-## -remarks

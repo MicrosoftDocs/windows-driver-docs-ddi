@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7a9d6f43-88f7-490e-9446-e707b6497a38
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ScsiReadCapacity_IN, *PScsiReadCapacity_IN, ScsiReadCapacity_IN
+ms.keywords: _ScsiReadCapacity_IN, iscsiop/PScsiReadCapacity_IN, iscsiop/ScsiReadCapacity_IN, PScsiReadCapacity_IN structure pointer [Storage Devices], PScsiReadCapacity_IN, ScsiReadCapacity_IN structure [Storage Devices], ScsiReadCapacity_IN, *PScsiReadCapacity_IN, storage.scsireadcapacity_in, structs-iSCSI_6363c086-0475-4bd2-bc15-5e49091e710b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ScsiReadCapacity_IN
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	ScsiReadCapacity_IN
+product: Windows
+targetos: Windows
 req.typenames: *PScsiReadCapacity_IN, ScsiReadCapacity_IN
 ---
 
 # _ScsiReadCapacity_IN structure
 
 
-
 ## -description
+
+
 The ScsiReadCapacity_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a> method, which is used to send a SCSI read Ccapacity command.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ScsiReadCapacity_IN {
@@ -54,6 +64,9 @@ typedef struct _ScsiReadCapacity_IN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UniqueSessionId
 
@@ -66,24 +79,22 @@ A 64-bit number that, together with the name of the target, uniquely identifies 
 
 
 ## -remarks
+
+
 You must implement this method.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-</dt>
-<dt>
+
+<a href="..\iscsiop\ns-iscsiop-_scsireadcapacity_out.md">ScsiReadCapacity_OUT</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
-</dt>
-<dt>
-<a href="..\hbapiwmi\ns-hbapiwmi-_scsireadcapacity_out.md">ScsiReadCapacity_OUT</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
  
 
  

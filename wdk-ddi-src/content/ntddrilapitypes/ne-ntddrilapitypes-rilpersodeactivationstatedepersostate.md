@@ -7,8 +7,8 @@ old-location: netvista\rilpersodeactivationstatedepersostate.htm
 old-project: netvista
 ms.assetid: 81147a47-b5aa-4f00-812d-2c6cf9d5ab8b
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILPERSODEACTIVATIONSTATEDEPERSOSTATE, RILPERSODEACTIVATIONSTATEDEPERSOSTATE
+ms.date: 1/18/2018
+ms.keywords: netvista.rilpersodeactivationstatedepersostate, RIL_DEPERSOSTATE_CK_REQUIRED, ntddrilapitypes/RIL_DEPERSOSTATE_CK_REQUIRED, RILPERSODEACTIVATIONSTATEDEPERSOSTATE, RIL_DEPERSOSTATE_PUK_BLOCKED, ntddrilapitypes/RIL_DEPERSOSTATE_PUK_BLOCKED, RIL_DEPERSOSTATE_PUK_REQUIRED, ntddrilapitypes/RIL_DEPERSOSTATE_PUK_REQUIRED, ntddrilapitypes/RIL_DEPERSOSTATE_MAX, RIL_DEPERSOSTATE_MAX, RILPERSODEACTIVATIONSTATEDEPERSOSTATE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILPERSODEACTIVATIONSTATEDEPERSOSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILPERSODEACTIVATIONSTATEDEPERSOSTATE
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILPERSODEACTIVATIONSTATEDEPERSOSTATE
+product: Windows
+targetos: Windows
 req.typenames: RILPERSODEACTIVATIONSTATEDEPERSOSTATE
 ---
 
 # RILPERSODEACTIVATIONSTATEDEPERSOSTATE enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILPERSODEACTIVATIONSTATEDEPERSOSTATE { 
@@ -57,16 +67,25 @@ typedef enum _RILPERSODEACTIVATIONSTATEDEPERSOSTATE {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_DEPERSOSTATE_READY
+
+
+
 ### -field RIL_DEPERSOSTATE_CK_REQUIRED
+
 
 
 ### -field RIL_DEPERSOSTATE_PUK_REQUIRED
 
 
+
 ### -field RIL_DEPERSOSTATE_PUK_BLOCKED
+
 
 
 ### -field RIL_DEPERSOSTATE_MAX
 
 
-## -remarks

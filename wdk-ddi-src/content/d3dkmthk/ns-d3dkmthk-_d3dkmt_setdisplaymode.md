@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cb590e18-59a4-4c4d-9d97-9f60c409c2e9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_SETDISPLAYMODE, D3DKMT_SETDISPLAYMODE
+ms.keywords: D3DKMT_SETDISPLAYMODE structure [Display Devices], _D3DKMT_SETDISPLAYMODE, OpenGL_Structs_05a13119-df17-4380-8c9b-8af52c989c73.xml, D3DKMT_SETDISPLAYMODE, display.d3dkmt_setdisplaymode, d3dkmthk/D3DKMT_SETDISPLAYMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_SETDISPLAYMODE
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_SETDISPLAYMODE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_SETDISPLAYMODE
 ---
 
 # _D3DKMT_SETDISPLAYMODE structure
 
 
-
 ## -description
+
+
 The D3DKMT_SETDISPLAYMODE structure describes the primary allocation that is used for scanning out to the display. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_SETDISPLAYMODE {
@@ -58,6 +68,9 @@ typedef struct _D3DKMT_SETDISPLAYMODE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -91,24 +104,16 @@ Supported in Windows 7 and later versions.
 [in] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setdisplaymode_flags.md">D3DKMT_SETDISPLAYMODE_FLAGS</a> structure that specifies, in bit-field flags, attributes for setting the display mode. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
-</dt>
-<dt>
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_video_signal_scanline_ordering.md">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a>
-</dt>
-<dt>
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setdisplaymode_flags.md">D3DKMT_SETDISPLAYMODE_FLAGS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetdisplaymode.md">D3DKMTSetDisplayMode</a>
-</dt>
-</dl>
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setdisplaymode_flags.md">D3DKMT_SETDISPLAYMODE_FLAGS</a>
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_video_signal_scanline_ordering.md">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a>
+
  
 
  

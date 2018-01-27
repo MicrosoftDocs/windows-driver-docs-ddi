@@ -7,8 +7,8 @@ old-location: netvista\rilmsgbcgeneral_2.htm
 old-project: netvista
 ms.assetid: 7202683f-5e02-48dd-b8b7-cb998fd660df
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILMSGBCGENERAL, *LPRILMSGBCGENERAL, RILMSGBCGENERAL
+ms.date: 1/18/2018
+ms.keywords: netvista.rilmsgbcgeneral_2, *LPRILMSGBCGENERAL, RILMSGBCGENERAL structure [Network Drivers Starting with Windows Vista], RILMSGBCGENERAL, rilapitypes/RILMSGBCGENERAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILMSGBCGENERAL
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILMSGBCGENERAL
+product: Windows
+targetos: Windows
 req.typenames: *LPRILMSGBCGENERAL, RILMSGBCGENERAL
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILMSGBCGENERAL structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILMSGBCGENERAL {
@@ -69,49 +79,65 @@ typedef struct _RILMSGBCGENERAL {
 
 ## -struct-fields
 
+
+
+
 ### -field dwGeoScope
+
 
 
 ### -field dwMsgCode
 
 
+
 ### -field dwUpdateNumber
+
 
 
 ### -field dwID
 
 
+
 ### -field dwSerialNumber
+
 
 
 ### -field rmdDataCoding
 
 
+
 ### -field dwTotalPages
+
 
 
 ### -field dwPageNumber
 
 
+
 ### -field dwWarningType
+
 
 
 ### -field bEmergencyUserAlert
 
 
+
 ### -field bMessagePopup
+
 
 
 ### -field stSCReceiveTime
 
 
+
 ### -field digSig
+
 
 
 ### -field cchMsgLength
 
 
+
 ### -field rgbMsg
 
 
-## -remarks

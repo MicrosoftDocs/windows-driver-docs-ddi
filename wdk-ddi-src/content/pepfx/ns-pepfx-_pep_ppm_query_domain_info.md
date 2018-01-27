@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c608dac0-bb2a-4d89-a2f8-1017254c8a6c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_PPM_QUERY_DOMAIN_INFO, *PPEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO
+ms.keywords: PEP_PPM_QUERY_DOMAIN_INFO, kernel.pep_ppm_query_domain_info, *PPEP_PPM_QUERY_DOMAIN_INFO, _PEP_PPM_QUERY_DOMAIN_INFO, pepfx/PEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_PPM_QUERY_DOMAIN_INFO
-req.alt-loc: Pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PPEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Pepfx.h
+apiname: 
+-	PEP_PPM_QUERY_DOMAIN_INFO
+product: Windows
+targetos: Windows
+req.typenames: PEP_PPM_QUERY_DOMAIN_INFO, *PPEP_PPM_QUERY_DOMAIN_INFO
 ---
 
 # _PEP_PPM_QUERY_DOMAIN_INFO structure
 
 
-
 ## -description
+
+
 Used in the <b>PEP_NOTIFY_PPM_QUERY_DOMAIN_INFO</b> notification that queries for information about a performance domain. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_PPM_QUERY_DOMAIN_INFO {
@@ -59,6 +69,9 @@ typedef struct _PEP_PPM_QUERY_DOMAIN_INFO {
 
 ## -struct-fields
 
+
+
+
 ### -field DomainId
 
 On input, the domain ID of the domain being queried.
@@ -67,13 +80,11 @@ On input, the domain ID of the domain being queried.
 ### -field CoordinationType
 
 On output, indicates the coordination type of the performance domain. The possible values are:
-
 <ul>
 <li>PROCESSOR_DOMAIN_COORDIANTION_SW_ALL (0x00)</li>
 <li>PROCESSOR_DOMAIN_COORDIANTION_SW_ANY (0x01)</li>
 <li>PROCESSOR_DOMAIN_COORDIANTION_HW_ALL (0x02)</li>
-</ul>
-If this notification is not supported, PROCESSOR_DOMAIN_COORDIANTION_SW_ALL coordination is used. 
+</ul>If this notification is not supported, PROCESSOR_DOMAIN_COORDIANTION_SW_ALL coordination is used. 
 
 
 ### -field IdleProcessorsDiscounted
@@ -97,15 +108,10 @@ On output, this value indicates the worst case latency for the processor to tran
 On output, this value indicates the worst case overhead (PEP code execution time plus time the processor is not executing instructions) measured from the time the OS issues the notification to the PEP to transition to a new performance level, to the time the processor is running at the new performance level, in 100ns units. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186881">Processor power management (PPM) notifications</a>
-</dt>
-</dl>
+
  
 
  

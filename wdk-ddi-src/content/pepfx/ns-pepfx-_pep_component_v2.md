@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6C7AB917-1A98-471C-BA6C-B7C6BFF1AC3F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_COMPONENT_V2, PEP_COMPONENT_V2, *PPEP_COMPONENT_V2, PEP_COMPONENT, *PPEP_COMPONENT
+ms.keywords: pepfx/PPEP_COMPONENT_V2, PPEP_COMPONENT_V2 structure pointer [Kernel-Mode Driver Architecture], PEP_COMPONENT, pepfx/PEP_COMPONENT_V2, PPEP_COMPONENT_V2, _PEP_COMPONENT_V2, PEP_COMPONENT_V2, *PPEP_COMPONENT_V2, PEP_COMPONENT_V2 structure [Kernel-Mode Driver Architecture], kernel.pep_component_v2, *PPEP_COMPONENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_COMPONENT_V2
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_COMPONENT_V2
+product: Windows
+targetos: Windows
 req.typenames: PEP_COMPONENT_V2, *PPEP_COMPONENT_V2
 ---
 
 # _PEP_COMPONENT_V2 structure
 
 
-
 ## -description
+
+
 The <b>PEP_COMPONENT_V2</b> structure specifies the power state attributes of a component in the device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_COMPONENT_V2 {
@@ -57,6 +67,9 @@ typedef struct _PEP_COMPONENT_V2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Id
 
@@ -84,15 +97,16 @@ A pointer to an array of <a href="..\wdm\ns-wdm-_po_fx_component_idle_state.md">
 
 
 ## -remarks
+
+
 This structure 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_po_fx_component_idle_state.md">PO_FX_COMPONENT_IDLE_STATE</a>
-</dt>
-</dl>
+
  
 
  

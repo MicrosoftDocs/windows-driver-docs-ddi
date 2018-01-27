@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a31a8688-6002-4ad7-b135-0a8111e2c849
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSiSCSI_Eventlog, MSiSCSI_Eventlog, *PMSiSCSI_Eventlog
+ms.keywords: PMSiSCSI_EventLog structure pointer [Storage Devices], MSiSCSI_Eventlog, PMSiSCSI_EventLog, MSiSCSI_EventLog, storage.msiscsi_eventlog, _MSiSCSI_Eventlog, MSiSCSI_EventLog structure [Storage Devices], iscsimgt/PMSiSCSI_EventLog, *PMSiSCSI_Eventlog, iscsimgt/MSiSCSI_EventLog, structs-iSCSI_d2419ba1-4f36-42c6-8a21-164dadb50263.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSiSCSI_EventLog
-req.alt-loc: Iscsimgt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: MSiSCSI_Eventlog, *PMSiSCSI_Eventlog
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Iscsimgt.h
+apiname: 
+-	MSiSCSI_EventLog
+product: Windows
+targetos: Windows
+req.typenames: *PMSiSCSI_Eventlog, MSiSCSI_Eventlog
 ---
 
 # _MSiSCSI_Eventlog structure
 
 
-
 ## -description
+
+
 This MSiSCSI_EventLog method is used to log any messages to the event log.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSiSCSI_EventLog {
@@ -57,14 +67,17 @@ typedef struct _MSiSCSI_EventLog {
 
 ## -struct-fields
 
+
+
+
 ### -field Type
 
 This specifies the EVENTLOG_MESSAGE_QUALIFIERS type of event log message.
 
 
-### -field LogToEventLog
+### -field LogToEventlog
 
-If this value it set to 1, the message will be logged to the system event log.
+ 
 
 
 ### -field Size
@@ -72,10 +85,25 @@ If this value it set to 1, the message will be logged to the system event log.
 This specifies the size of the Additional Data field.
 
 
-### -field AdditionalData[1]
+### -field AdditionalData
+
+ 
+
+
+
+#### - LogToEventLog
+
+If this value it set to 1, the message will be logged to the system event log.
+
+
+#### - AdditionalData[1]
 
 This provides additional information associated with this event.
 
 
 ## -remarks
-We recommend that you implement this class.</p>
+
+
+We recommend that you implement this class.
+
+

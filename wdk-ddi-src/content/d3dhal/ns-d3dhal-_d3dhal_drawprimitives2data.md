@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d971e866-3049-4722-bfec-ca3364f291fd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DRAWPRIMITIVES2DATA, D3DHAL_DRAWPRIMITIVES2DATA, *LPD3DHAL_DRAWPRIMITIVES2DATA
+ms.keywords: d3dstrct_c9c3dea2-965c-4e98-8ff7-2928afe049fb.xml, LPD3DHAL_DRAWPRIMITIVES2DATA, d3dhal/D3DHAL_DRAWPRIMITIVES2DATA, d3dhal/LPD3DHAL_DRAWPRIMITIVES2DATA, D3DHAL_DRAWPRIMITIVES2DATA, _D3DHAL_DRAWPRIMITIVES2DATA, display.d3dhal_drawprimitives2data, LPD3DHAL_DRAWPRIMITIVES2DATA structure pointer [Display Devices], D3DHAL_DRAWPRIMITIVES2DATA structure [Display Devices], *LPD3DHAL_DRAWPRIMITIVES2DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DRAWPRIMITIVES2DATA
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DRAWPRIMITIVES2DATA
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DRAWPRIMITIVES2DATA
 ---
 
 # _D3DHAL_DRAWPRIMITIVES2DATA structure
 
 
-
 ## -description
+
+
 The D3DHAL_DRAWPRIMITIVES2DATA structure contains the information required by the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> function to render primitives.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DRAWPRIMITIVES2DATA {
@@ -73,6 +83,55 @@ typedef struct _D3DHAL_DRAWPRIMITIVES2DATA {
 
 ## -struct-fields
 
+
+
+
+### -field lpDDVertex
+
+Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a> structure that identifies the DirectDraw surface containing the vertex data when the D3DHALDP2_USERMEMVERTICES flag is not set in <b>dwFlags</b>. Forms a union with <b>lpVertices</b>. 
+
+
+### -field lpVertices
+
+Points to a user-mode memory block containing vertex data when the D3DHALDP2_USERMEMVERTICES flag is set in <b>dwFlags</b>.
+
+
+### -field dwVertexSize
+
+Specifies the size of each vertex, in bytes. This member forms a union with <b>ddrval</b>.
+
+
+### -field ddrval
+
+Specifies the location where the driver writes the return value of <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>. D3D_OK indicates success. Otherwise, the driver should return the appropriate D3DERR_<i>Xxx</i> error code. For more information, see <a href="https://msdn.microsoft.com/033beb6e-5872-4cb3-8f39-459e2fff82cd">Return Codes for Direct3D Driver Callbacks</a>.
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>
+D3D_OK
+
+</td>
+<td>
+The operation completed successfully.
+
+</td>
+</tr>
+<tr>
+<td>
+D3DERR_COMMAND_UNPARSED
+
+</td>
+<td>
+The driver requires the Direct3D runtime to parse the execute buffer.
+
+</td>
+</tr>
+</table> 
+
+
 ### -field dwhContext
 
 Specifies the context handle of the Direct3D device.
@@ -81,7 +140,6 @@ Specifies the context handle of the Direct3D device.
 ### -field dwFlags
 
 Specifies flags that provide additional instructions to the driver or provide information from the driver. This member can be a bitwise OR of the following values:
-
 <table>
 <tr>
 <th>Value</th>
@@ -167,14 +225,12 @@ The vertex buffer allocated by the driver as a swap buffer is not in system memo
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field dwVertexType
 
 Identifies the <a href="https://msdn.microsoft.com/206f4275-bcb8-4e8e-9c11-c6fb5d9c561d">FVF</a> of the data in the vertex buffer; that is, <b>dwVertexType</b> specifies which per-vertex data fields are present in the vertex buffer that <b>lpDDVertex</b> or <b>lpVertices</b> points to. This member can be a bitwise OR of the values in the following table. Only one of the <i>D3DFVF_TEXx</i> flags is set.
-
 <table>
 <tr>
 <th>Value</th>
@@ -300,43 +356,20 @@ Each vertex has <i>x, y, z,</i> and <i>w</i> coordinates. This flag is always se
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field lpDDCommands
 
 
-### -field DirectX 8.1 and earlier versions only.
-      </b>
-
-### -field Points to the DD_SURFACE_LOCAL structure that identifies the DirectDraw surface containing the command data. The fpVidMem member of the embedded DD_SURFACE_GLOBAL structure points to the buffer that contains state change and primitive drawing commands for the driver to process. Specifically, this buffer contains one or more D3DHAL_DP2COMMAND structures, each followed by a D3DHAL_DP2Xxx structure whose exact type is identified by D3DHAL_DP2COMMAND's bCommand member.
-### -field DirectX 9.0 and later versions only.
-### -field In addition to the command-buffer functionality of DirectX 8.1 and earlier, this member can point to a response buffer that the driver returns. Specifically, this response buffer contains one or more D3DHAL_DP2RESPONSE structures, each followed by either D3DHAL_DP2RESPONSEQUERY structures or zero if the response token in the bCommand of D3DHAL_DP2RESPONSE is D3DDP2OP_RESPONSECONTINUE.
-
 
 ### -field dwCommandOffset
 
-
-### -field DirectX 8.1 and earlier versions only.
-### -field Specifies the number of bytes into the surface that lpDDCommands points to and where the command data starts.
-### -field DirectX 9.0 and later versions only.
-### -field In addition to the command-offset functionality of DirectX 8.1 and earlier, can specify where the response data starts.
 
 
 ### -field dwCommandLength
 
 Specifies the number of bytes of valid command data in the surface that <b>lpDDCommands</b> points to starting at <b>dwCommandOffset</b>.
-
-
-### -field lpDDVertex
-
-Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a> structure that identifies the DirectDraw surface containing the vertex data when the D3DHALDP2_USERMEMVERTICES flag is not set in <b>dwFlags</b>. Forms a union with <b>lpVertices</b>. 
-
-
-### -field lpVertices
-
-Points to a user-mode memory block containing vertex data when the D3DHALDP2_USERMEMVERTICES flag is set in <b>dwFlags</b>.
 
 
 ### -field dwVertexOffset
@@ -364,84 +397,99 @@ Specifies the minimum number of bytes that the driver must increase the swap com
 Points to a render state array that the driver should update when it parses render state commands from the command buffer. The driver should update this array only when the D3DHALDP2_EXECUTEBUFFER flag is set in <b>dwFlags</b>. The driver should use the <a href="..\d3d9types\ne-d3d9types-_d3drenderstatetype.md">D3DRENDERSTATETYPE</a> enumerated types to update the appropriate element of the render state array. 
 
 
-### -field dwVertexSize
-
-Specifies the size of each vertex, in bytes. This member forms a union with <b>ddrval</b>.
-
-
-### -field ddrval
-
-Specifies the location where the driver writes the return value of <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>. D3D_OK indicates success. Otherwise, the driver should return the appropriate D3DERR_<i>Xxx</i> error code. For more information, see <a href="https://msdn.microsoft.com/033beb6e-5872-4cb3-8f39-459e2fff82cd">Return Codes for Direct3D Driver Callbacks</a>.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3D_OK
-
-</td>
-<td>
-The operation completed successfully.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DERR_COMMAND_UNPARSED
-
-</td>
-<td>
-The driver requires the Direct3D runtime to parse the execute buffer.
-
-</td>
-</tr>
-</table>
- 
-
-
 ### -field dwErrorOffset
 
 
-### -field DirectX 8.1 and earlier versions only.
-### -field Specifies the location where the driver writes the offset into the surface that lpDDCommands points to where the first unhandled D3DHAL_DP2COMMAND can be found. The driver must set this value when it returns an error condition in ddrval.
-### -field DirectX 9.0 and later versions only.
-### -field In addition to the error-offset functionality of DirectX 8.1 and earlier, the driver can specify the total size, in bytes, of the outgoing response buffer or zero if the response buffer is empty of responses. This member specifies response-buffer information only when the ddrval member is set to D3D_OK for successful completion. If this member is nonzero, it indicates that previously submitted queries using the D3DDP2OP_ISSUEQUERY operation completed and that responses to those queries are specified in D3DHAL_DP2RESPONSE and D3DHAL_DP2RESPONSEQUERY structures and available in the outgoing response buffer. Each D3DHAL_DP2RESPONSEQUERY is followed by the following data related to the query: 
-### -field BOOL for D3DQUERYTYPE_EVENT 
-### -field DWORD for D3DQUERYTYPE_OCCLUSION
-### -field 
-<a href="..\d3d9types\ns-d3d9types-_d3ddevinfo_vcache.md">D3DDEVINFO_VCACHE</a> structure for D3DQUERYTYPE_VCACHE
 
-### -field The runtime parses the response buffer and updates its internal data structures.
-### -field If this member is zero and the ddrval member is set to D3D_OK, the runtime does not bother to check for responses to queries. 
+######### - dwErrorOffset.In addition to the error-offset functionality of DirectX 8.1 and earlier, the driver can specify the total size, in bytes, of the outgoing response buffer or zero if the response buffer is empty of responses. This member specifies response-buffer information only when the ddrval member is set to D3D_OK for successful completion. If this member is nonzero, it indicates that previously submitted queries using the D3DDP2OP_ISSUEQUERY operation completed and that responses to those queries are specified in D3DHAL_DP2RESPONSE and D3DHAL_DP2RESPONSEQUERY structures and available in the outgoing response buffer. Each D3DHAL_DP2RESPONSEQUERY is followed by the following data related to the query:
+
+
+
+####### - dwErrorOffset.DirectX 8.1 and earlier versions only.
+
+
+
+####### - dwCommandOffset.DirectX 8.1 and earlier versions only.
+
+
+
+###### - dwErrorOffset.The runtime parses the response buffer and updates its internal data structures.
+
+
+
+######## - lpDDCommands.In addition to the command-buffer functionality of DirectX 8.1 and earlier, this member can point to a response buffer that the driver returns. Specifically, this response buffer contains one or more D3DHAL_DP2RESPONSE structures, each followed by either D3DHAL_DP2RESPONSEQUERY structures or zero if the response token in the bCommand of D3DHAL_DP2RESPONSE is D3DDP2OP_RESPONSECONTINUE.
+
+
+
+####### - dwErrorOffset.Specifies the location where the driver writes the offset into the surface that lpDDCommands points to where the first unhandled D3DHAL_DP2COMMAND can be found. The driver must set this value when it returns an error condition in ddrval.
+
+
+
+######## - lpDDCommands.Points to the DD_SURFACE_LOCAL structure that identifies the DirectDraw surface containing the command data. The fpVidMem member of the embedded DD_SURFACE_GLOBAL structure points to the buffer that contains state change and primitive drawing commands for the driver to process. Specifically, this buffer contains one or more D3DHAL_DP2COMMAND structures, each followed by a D3DHAL_DP2Xxx structure whose exact type is identified by D3DHAL_DP2COMMAND's bCommand member.
+
+
+
+##### - dwErrorOffset.DWORD for D3DQUERYTYPE_OCCLUSION
+
+
+
+####### - lpDDCommands.DirectX 8.1 and earlier versions only.
+
+
+
+####### - lpDDCommands.DirectX 9.0 and later versions only.
+
+
+
+###### - dwCommandOffset.Specifies the number of bytes into the surface that lpDDCommands points to and where the command data starts.
+
+
+
+###### - dwErrorOffset.If this member is zero and the ddrval member is set to D3D_OK, the runtime does not bother to check for responses to queries.
+
+
+
+####### - dwCommandOffset.In addition to the command-offset functionality of DirectX 8.1 and earlier, can specify where the response data starts.
+
+
+
+####### - dwCommandOffset.DirectX 9.0 and later versions only.
+
+
+
+####### - dwErrorOffset.DirectX 9.0 and later versions only.
+
+
+
+##### - dwErrorOffset.BOOL for D3DQUERYTYPE_EVENT
+
+
+
+##### - dwErrorOffset.D3DDEVINFO_VCACHE structure for D3DQUERYTYPE_VCACHE
+
 
 
 ## -remarks
+
+
 Note that the <b>dwVertexOffset</b> member specifies values in bytes; the <b>dwVertexLength</b> member specifies values in vertices. 
 
 To calculate the valid data, in bytes, that exists in the surface at <b>lpDDVertex</b> or <b>lpVertices</b>, multiply the value in <b>dwVertexLength</b> by the value in <b>dwVertexSize</b>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-</dt>
-<dt>
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-</dt>
-<dt>
+
 <a href="..\d3d9types\ne-d3d9types-_d3drenderstatetype.md">D3DRENDERSTATETYPE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551726">DD_SURFACE_GLOBAL</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
-</dt>
-</dl>
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551726">DD_SURFACE_GLOBAL</a>
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
  
 
  

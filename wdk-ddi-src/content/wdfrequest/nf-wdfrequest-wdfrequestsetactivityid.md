@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 05FE0F91-781F-4B8B-87D1-E06BC315856C
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestSetActivityId
+ms.keywords: WdfRequestSetActivityId method, PFN_WDFREQUESTSETACTIVITYID, wdf.wdfrequestsetactivityid, WdfRequestSetActivityId, wdfrequest/WdfRequestSetActivityId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 2.0
-req.alt-api: WdfRequestSetActivityId
-req.alt-loc: WUDFx02000.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll; TBD
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	WUDFx02000.dll
+apiname: 
+-	WdfRequestSetActivityId
+product: Windows
+targetos: Windows
 req.typenames: WDF_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # WdfRequestSetActivityId function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>WdfRequestSetActivityId</b> method associates an activity identifier with an I/O request.
 
 
-
 ## -syntax
+
 
 ````
 void WdfRequestSetActivityId(
@@ -57,6 +67,9 @@ void WdfRequestSetActivityId(
 
 
 ## -parameters
+
+
+
 
 ### -param Request [in]
 
@@ -69,10 +82,15 @@ A pointer to the activity identifier GUID to store in the I/O request.
 
 
 ## -returns
+
+
 This method does not return a value.
 
 
+
 ## -remarks
+
+
 Calling <b>WdfRequestSetActivityId</b> does not set an association with any previously present activity identifier. When the driver calls <b>WdfRequestSetActivityId</b>, any existing activity identifier is overwritten.
 
 To set an association, retrieve the existing identifier by calling <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveactivityid.md">WdfRequestRetrieveActivityId</a> and then associate the existing identifier with the new one by calling <a href="https://msdn.microsoft.com/798cf3ba-e1cc-4eaf-a1d2-2313a64aab1a">EventWriteTransfer</a>.
@@ -82,12 +100,11 @@ The framework does not clear a request's activity identifier when the driver cal
 For more information about activity identifiers, see <a href="https://msdn.microsoft.com/2B70953F-5192-4654-9506-6A84373D20B4">Using Activity Identifiers</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveactivityid.md">WdfRequestRetrieveActivityId</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: daef347a-26d4-46cf-82b4-a5852fe49b71
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_CHILD_DEVICE_HPD_AWARENESS, DXGK_CHILD_DEVICE_HPD_AWARENESS, *PDXGK_CHILD_DEVICE_HPD_AWARENESS
+ms.keywords: HpdAwarenessAlwaysConnected, display.dxgk_child_device_hpd_awareness, HpdAwarenessPolled, d3dkmdt/DXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/HpdAwarenessUninitialized, d3dkmdt/HpdAwarenessAlwaysConnected, DXGK_CHILD_DEVICE_HPD_AWARENESS enumeration [Display Devices], HpdAwarenessInterruptible, PDXGK_CHILD_DEVICE_HPD_AWARENESS, *PDXGK_CHILD_DEVICE_HPD_AWARENESS, HpdAwarenessNone, d3dkmdt/HpdAwarenessPolled, PDXGK_CHILD_DEVICE_HPD_AWARENESS enumeration pointer [Display Devices], DmEnums_1d5801e8-cb03-4409-a037-b25242176eea.xml, d3dkmdt/HpdAwarenessNone, _DXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/HpdAwarenessInterruptible, HpdAwarenessUninitialized, DXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/PDXGK_CHILD_DEVICE_HPD_AWARENESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_CHILD_DEVICE_HPD_AWARENESS
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: DXGK_CHILD_DEVICE_HPD_AWARENESS, *PDXGK_CHILD_DEVICE_HPD_AWARENESS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	DXGK_CHILD_DEVICE_HPD_AWARENESS
+product: Windows
+targetos: Windows
+req.typenames: *PDXGK_CHILD_DEVICE_HPD_AWARENESS, DXGK_CHILD_DEVICE_HPD_AWARENESS
 ---
 
 # _DXGK_CHILD_DEVICE_HPD_AWARENESS enumeration
 
 
-
 ## -description
+
+
 The DXGK_CHILD_DEVICE_HPD_AWARENESS enumeration is used to describe the hot plug capabilities of a child device of a display adapter.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXGK_CHILD_DEVICE_HPD_AWARENESS { 
@@ -57,6 +67,9 @@ typedef enum _DXGK_CHILD_DEVICE_HPD_AWARENESS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field HpdAwarenessUninitialized
 
@@ -84,15 +97,16 @@ Indicates that the child device is able to generate an interrupt when an externa
 
 
 ## -remarks
+
+
 The <b>ChildCapabilities</b> member of a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a> structure is a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_capabilities.md">DXGK_CHILD_CAPABILITIES</a> structure. The <b>HpdAwareness</b> member of a <b>DXGK_CHILD_DEVICE_HPD_AWARENESS</b> structure is a <b>DXGK_CHILD_CAPABILITIES</b>  structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
-</dt>
-</dl>
+
  
 
  

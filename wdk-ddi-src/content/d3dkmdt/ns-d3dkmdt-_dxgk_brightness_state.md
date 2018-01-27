@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 60896a51-63c9-46fd-96ee-9cdbb72ac30c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_BRIGHTNESS_STATE, DXGK_BRIGHTNESS_STATE
+ms.keywords: display.dxgk_brightness_state, d3dkmdt/DXGK_BRIGHTNESS_STATE, _DXGK_BRIGHTNESS_STATE, DXGK_BRIGHTNESS_STATE structure [Display Devices], DXGK_BRIGHTNESS_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_BRIGHTNESS_STATE
-req.alt-loc: D3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,23 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmdt.h
+apiname: 
+-	DXGK_BRIGHTNESS_STATE
+product: Windows
+targetos: Windows
 req.typenames: DXGK_BRIGHTNESS_STATE
 ---
 
 # _DXGK_BRIGHTNESS_STATE structure
 
 
-
 ## -description
+
+
 Used to enable smooth brightness control for an integrated display panel. The display miniport driver must enable smooth brightness control when its <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set_state.md">DxgkDdiSetBrightnessState</a> function is called and <i>BrightnessState</i>-&gt;<b>SmoothBrightness</b> is set to 1.Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers.
 
 
 
-Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers.
-
-
 
 ## -syntax
+
 
 ````
 typedef struct _DXGK_BRIGHTNESS_STATE {
@@ -63,6 +71,9 @@ typedef struct _DXGK_BRIGHTNESS_STATE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field SmoothBrightness
 
@@ -83,15 +94,16 @@ Setting this member is equivalent to setting the remaining 31 bits (0xFFFFFFFE) 
 
 
 ## -remarks
+
+
 Do not assume that the <b>SmoothBrightness</b> members of <b>DXGK_BRIGHTNESS_STATE</b> and <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_brightness_caps.md">DXGK_BRIGHTNESS_CAPS</a> are the same. <b>DXGK_BRIGHTNESS_STATE</b>.<b>SmoothBrightness</b> is used to enable  smooth brightness control on an integrated display panel. <b>DXGK_BRIGHTNESS_CAPS</b>.<b>SmoothBrightness</b> is used to query smooth brightness control capabilities of the display panel.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set_state.md">DxgkDdiSetBrightnessState</a>
-</dt>
-</dl>
+
  
 
  

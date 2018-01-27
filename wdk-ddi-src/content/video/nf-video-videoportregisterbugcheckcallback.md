@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 55b2d603-f3ac-4a7a-91f5-83d908d1e14b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortRegisterBugcheckCallback
+ms.keywords: video/VideoPortRegisterBugcheckCallback, VideoPort_Functions_ba500792-836e-4181-983c-506bf5608a1c.xml, VideoPortRegisterBugcheckCallback function [Display Devices], display.videoportregisterbugcheckcallback, VideoPortRegisterBugcheckCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP SP1 and later versions of the
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortRegisterBugcheckCallback
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortRegisterBugcheckCallback
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortRegisterBugcheckCallback function
 
 
-
 ## -description
+
+
 The <b>VideoPortRegisterBugcheckCallback</b> function allows a video miniport driver to register for, or hook, a callback that is invoked when a specified bug check occurs.
 
 
-
 ## -syntax
+
 
 ````
 VP_STATUS VideoPortRegisterBugcheckCallback(
@@ -57,6 +67,9 @@ VP_STATUS VideoPortRegisterBugcheckCallback(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -79,10 +92,15 @@ Indicates the sum of BUGCHECK_DATA_SIZE_RESERVED and the number of bytes of data
 
 
 ## -returns
+
+
 <b>VideoPortRegisterBugcheckCallback</b> returns NO_ERROR if it succeeds. Otherwise, it returns a status code indicating the nature of the failure. 
 
 
+
 ## -remarks
+
+
 If you are developing a video miniport driver intended to run on Windows XP or an earlier NT-base operating system, you can use the <a href="..\video\nc-video-pvideo_port_get_proc_address.md">VideoPortGetProcAddress</a> callback routine to find the address of the <b>VideoPortRegisterBugcheckCallback</b> function. For details, see <a href="https://msdn.microsoft.com/48dace7e-7ba3-48bf-9788-469ff42f6fe3">Using VideoPortGetProcAddress</a>.
 
 A miniport driver can register for a callback when a specific type of bug check occurs. Currently, only <a href="https://msdn.microsoft.com/f3d6acaf-3445-4fc3-b4ed-b72a74a32b57">bug check code 0xEA</a> can be hooked. When the bug check occurs, the minidriver-supplied callback function is called and the miniport driver can append data to the dump file. This is useful for collecting statistical data when direct debugging is not possible.
@@ -96,12 +114,11 @@ The miniport driver can unregister a previously-registered callback by calling t
 For more information, see <a href="https://msdn.microsoft.com/181fd4f2-feed-4759-80a7-aec97b9094b3">Video Port Driver Support for Bug Check Callbacks</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nc-video-pvideo_bugcheck_callback.md">HwVidBugcheckCallback</a>
-</dt>
-</dl>
+
  
 
  

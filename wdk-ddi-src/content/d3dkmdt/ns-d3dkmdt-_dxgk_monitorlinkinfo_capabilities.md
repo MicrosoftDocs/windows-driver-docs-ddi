@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9838DF74-6561-40DB-A745-A15005B97AAC
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_MONITORLINKINFO_CAPABILITIES, DXGK_MONITORLINKINFO_CAPABILITIES, *PDXGK_MONITORLINKINFO_CAPABILITIES
+ms.keywords: PDXGK_MONITORLINKINFO_CAPABILITIES, _DXGK_MONITORLINKINFO_CAPABILITIES, display.dxgk_monitorlinkinfo_capabilities, d3dkmdt/DXGK_MONITORLINKINFO_CAPABILITIES, *PDXGK_MONITORLINKINFO_CAPABILITIES, d3dkmdt/PDXGK_MONITORLINKINFO_CAPABILITIES, DXGK_MONITORLINKINFO_CAPABILITIES union [Display Devices], PDXGK_MONITORLINKINFO_CAPABILITIES union pointer [Display Devices], DXGK_MONITORLINKINFO_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_MONITORLINKINFO_CAPABILITIES
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DXGK_MONITORLINKINFO_CAPABILITIES, *PDXGK_MONITORLINKINFO_CAPABILITIES
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	DXGK_MONITORLINKINFO_CAPABILITIES
+product: Windows
+targetos: Windows
+req.typenames: *PDXGK_MONITORLINKINFO_CAPABILITIES, DXGK_MONITORLINKINFO_CAPABILITIES
 ---
 
 # _DXGK_MONITORLINKINFO_CAPABILITIES structure
 
 
-
 ## -description
+
+
 Flags which describe the capabilities for driving the monitor.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _DXGK_MONITORLINKINFO_CAPABILITIES {
@@ -62,6 +72,9 @@ typedef union _DXGK_MONITORLINKINFO_CAPABILITIES {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Stereo
 
@@ -105,4 +118,8 @@ In general, this flag is target based rather than based on the combination of th
 This value is reserved for system use.
 
 
-## -remarks
+### -field Value
+
+ 
+
+

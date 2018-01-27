@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 13F74BB4-91FE-4B5C-B0EB-B3524D0BD959
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, *PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT
+ms.keywords: *PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT, DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, DXGK_GRAPHICSPOWER_REGISTER_OUTPUT structure [Display Devices], display.dxgk_graphicspower_register_output, _DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, d3dkmthk/PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT, PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT structure pointer [Display Devices], d3dkmthk/DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_GRAPHICSPOWER_REGISTER_OUTPUT
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, *PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	DXGK_GRAPHICSPOWER_REGISTER_OUTPUT
+product: Windows
+targetos: Windows
+req.typenames: *PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT, DXGK_GRAPHICSPOWER_REGISTER_OUTPUT
 ---
 
 # _DXGK_GRAPHICSPOWER_REGISTER_OUTPUT structure
 
 
-
 ## -description
+
+
 A structure containing output data used to manage shared power components.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_GRAPHICSPOWER_REGISTER_OUTPUT {
@@ -56,6 +66,9 @@ typedef struct _DXGK_GRAPHICSPOWER_REGISTER_OUTPUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DeviceHandle
 
@@ -76,5 +89,3 @@ A callback to indicate whether the specified power component is active.  The com
 
  A callback to un-register itself with the graphics driver.  All shared power components should no longer be active.  The system will behave as if SetSharedPowerComponentStateCb had been called for all active shared power components with a new active state of FALSE.  Upon return, previously provided callbacks can no longer be used.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DE7A88BA-2E59-4E8C-B315-CA6260E3D68E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DWDDM1_3DDI_DEVICEFUNCS, D3DWDDM1_3DDI_DEVICEFUNCS
+ms.keywords: D3DWDDM1_3DDI_DEVICEFUNCS, D3D11_1DDI_DEVICEFUNCS structure [Display Devices], D3D11_1DDI_DEVICEFUNCS, display.d3dwddm1_3ddi_devicefuncs, d3d10umddi/D3D11_1DDI_DEVICEFUNCS, D3DWDDM1_3DDI_DEVICEFUNCS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1,WDDM 1.3
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDI_DEVICEFUNCS
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDI_DEVICEFUNCS
+product: Windows
+targetos: Windows
 req.typenames: D3DWDDM1_3DDI_DEVICEFUNCS
 ---
 
 # D3DWDDM1_3DDI_DEVICEFUNCS structure
 
 
-
 ## -description
+
+
 Contains functions that a user-mode display driver that is optimized for the Microsoft Direct3D version 11.2 runtime can implement to render graphics primitives and process state changes. Used by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D11DDI_DEVICEFUNCS {
@@ -216,6 +226,9 @@ typedef struct D3D11DDI_DEVICEFUNCS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pfnDefaultConstantBufferUpdateSubresourceUP
 
@@ -732,6 +745,16 @@ A pointer to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resou
 A pointer to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_resourcecopyregion.md">ResourceCopyRegion(D3D11_1)</a> function. For more information about whether to implement a separate <i>ResourceConvertRegion(D3D11_1)</i> function or to point to the multipurpose <i>ResourceCopyRegion(D3D11_1)</i>, see the Remarks section of <i>ResourceCopyRegion(D3D11_1)</i>.
 
 
+### -field pfnResetPrimitiveID
+
+ 
+
+
+### -field pfnSetVertexPipelineOutput
+
+ 
+
+
 ### -field pfnDrawIndexedInstancedIndirect
 
 A pointer to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_drawindexedinstancedindirect.md">DrawIndexedInstancedIndirect</a> function.
@@ -1038,6 +1061,8 @@ A pointer to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_
 
 
 ## -remarks
+
+
 The order of user-mode display driver functions (that is, the order of the members of the <b>D3DWDDM1_3DDI_DEVICEFUNCS</b> structure) is in decreasing order of priority (in regard to performance).
 
 The user-mode display driver can use different names for these functions because the address of the function table (this structure) is shared between the Direct3D 11.2 runtime and the driver through the call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function.
@@ -1045,21 +1070,17 @@ The user-mode display driver can use different names for these functions because
 The <b>pfnResetPrimitiveID</b> and  <b>pfnSetVertexPipelineOutput</b> members (not shown here) and their data types are reserved for system use and should not be used in your driver.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_devicefuncs.md">D3D11_1DDI_DEVICEFUNCS</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_relocatedevicefuncs.md">RelocateDeviceFuncs(D3D11_2)</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_devicefuncs.md">D3D11_1DDI_DEVICEFUNCS</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+
  
 
  

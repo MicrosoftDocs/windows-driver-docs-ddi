@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: eb1a0df0-6239-4d82-8477-7dd015f80b6e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+ms.keywords: display.dxgkddiquerychildrelations, DxgkDdiQueryChildRelations callback function [Display Devices], DxgkDdiQueryChildRelations, DXGKDDI_QUERY_CHILD_RELATIONS, DXGKDDI_QUERY_CHILD_RELATIONS, dispmprt/DxgkDdiQueryChildRelations, DmFunctions_783a9c6c-f6ac-4949-87f0-674dae768d36.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiQueryChildRelations
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DxgkDdiQueryChildRelations
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_QUERY_CHILD_RELATIONS callback
 
 
-
 ## -description
+
+
 The <i>DxgkDdiQueryChildRelations</i> function enumerates the child devices of a display adapter.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_QUERY_CHILD_RELATIONS DxgkDdiQueryChildRelations;
@@ -58,6 +68,9 @@ NTSTATUS DxgkDdiQueryChildRelations(
 
 
 ## -parameters
+
+
+
 
 ### -param MiniportDeviceContext [in]
 
@@ -75,10 +88,15 @@ The total size, in bytes, of the <i>ChildRelations</i> array including the zeroe
 
 
 ## -returns
+
+
 <i>DxgkDdiQueryChildRelations</i> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
 
+
 ## -remarks
+
+
 All child devices of the display adapter are onboard; monitors and other external devices that connect to the display adapter are not considered child devices.
 
 The display miniport driver must fill in an array of DXGK_CHILD_DESCRIPTOR structures, one for each of the display adapter's children. The array must contain DXGK_CHILD_DESCRIPTOR structures for all current child devices and all potential child devices. For example, if docking a portable computer will result in new video outputs becoming available, those video outputs must have descriptors in the array, even if they are not currently available.
@@ -86,21 +104,17 @@ The display miniport driver must fill in an array of DXGK_CHILD_DESCRIPTOR struc
 The <i>DxgkDdiQueryChildRelations</i> function should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
-</dt>
-<dt>
-<a href="..\dispmprt\ns-dispmprt-_dxgk_child_status.md">DXGK_CHILD_STATUS</a>
-</dt>
-<dt>
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a>
-</dt>
-</dl>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_child_status.md">DXGK_CHILD_STATUS</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68f0038d-6c2e-4228-86b2-c96bea789474
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoQueueGetDevice
+ms.keywords: PFN_WDFIOQUEUEGETDEVICE, DFQueueObjectRef_4f5c8dbb-feb5-4c08-a2ea-06d375d5a6be.xml, WdfIoQueueGetDevice, kmdf.wdfioqueuegetdevice, wdf.wdfioqueuegetdevice, wdfio/WdfIoQueueGetDevice, WdfIoQueueGetDevice method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WdfIoQueueGetDevice
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll,WUDFx02000.dll,WUDFx02000.dll.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,20 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+-	WUDFx02000.dll
+-	WUDFx02000.dll.dll
+apiname: 
+-	WdfIoQueueGetDevice
+product: Windows
+targetos: Windows
 req.typenames: WDF_IO_QUEUE_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +50,16 @@ req.product: Windows 10 or later.
 # WdfIoQueueGetDevice function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfIoQueueGetDevice</b> method returns a handle to the framework device object that a specified I/O queue belongs to.
 
 
-
 ## -syntax
+
 
 ````
 WDFDEVICE WdfIoQueueGetDevice(
@@ -57,12 +70,17 @@ WDFDEVICE WdfIoQueueGetDevice(
 
 ## -parameters
 
+
+
+
 ### -param Queue [in]
 
 A handle to a framework queue object.
 
 
 ## -returns
+
+
 <b>WdfIoQueueGetDevice</b> returns a handle to a framework device object.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -70,18 +88,18 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-## -remarks
-For more information about the <b>WdfIoQueueGetDevice</b> method, see <a href="wdf.managing_i_o_queues#obtaining_i_o_queue_properties#obtaining_i_o_queue_properties">Obtaining I/O Queue Properties</a>.
 
-The following code example obtains a handle to the framework device object that is associated with the I/O queue that contains a specified request.
+## -remarks
+
+
+For more information about the <b>WdfIoQueueGetDevice</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Obtaining I/O Queue Properties</a>.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetioqueue.md">WdfRequestGetIoQueue</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5f2bb0ef-af54-48e7-a2f5-8c8877bedb4a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmUnmapReservedMapping
+ms.keywords: k106_48bc7719-e11c-4c70-a976-c7fbecbff464.xml, wdm/MmUnmapReservedMapping, MmUnmapReservedMapping routine [Kernel-Mode Driver Architecture], MmUnmapReservedMapping, kernel.mmunmapreservedmapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MmUnmapReservedMapping
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	MmUnmapReservedMapping
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # MmUnmapReservedMapping function
 
 
-
 ## -description
+
+
 The <b>MmUnmapReservedMapping</b> routine unmaps a memory buffer that was mapped by the <a href="..\wdm\nf-wdm-mmmaplockedpageswithreservedmapping.md">MmMapLockedPagesWithReservedMapping</a> routine. 
 
 
-
 ## -syntax
+
 
 ````
 VOID MmUnmapReservedMapping(
@@ -56,6 +66,9 @@ VOID MmUnmapReservedMapping(
 
 
 ## -parameters
+
+
+
 
 ### -param BaseAddress [in]
 
@@ -73,24 +86,20 @@ Pointer to the MDL that describes the physical memory mapping.
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-mmallocatemappingaddress.md">MmAllocateMappingAddress</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-mmfreemappingaddress.md">MmFreeMappingAddress</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-mmmaplockedpageswithreservedmapping.md">MmMapLockedPagesWithReservedMapping</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-mmfreemappingaddress.md">MmFreeMappingAddress</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a69eae04-a7e0-4d0c-a3e0-d49905096c8e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR, DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR
+ms.keywords: DmStructs_381ec3d0-fcf3-4153-8cc3-f2dda3f9684f.xml, display.dxgkmdt_opm_hdcp_key_selection_vector, DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR, DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR structure [Display Devices], _DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR, d3dkmdt/DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR
+product: Windows
+targetos: Windows
 req.typenames: DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR
 ---
 
 # _DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR structure
 
 
-
 ## -description
+
+
 The DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR structure contains a key-selection vector (KSV) for a High-bandwidth Digital Content Protection (HDCP) protected output.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR {
@@ -54,21 +64,25 @@ typedef struct _DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR {
 
 ## -struct-fields
 
+
+
+
 ### -field abKeySelectionVector
 
 A 5-byte array that comprises the HDCP KSV. Byte 0 is the least significant byte and byte 4 is the most significant byte. 
 
 
 ## -remarks
+
+
 For more information about the HDCP KSV, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=38728">HDCP Specification Revision 1.1</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_connected_hdcp_device_information.md">DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

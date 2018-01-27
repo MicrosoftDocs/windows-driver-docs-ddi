@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e5d622cc-c550-44cf-8923-5092226066d9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddistopcapture, DxgkDdiStopCapture callback function [Display Devices], DxgkDdiStopCapture, DXGKDDI_STOPCAPTURE, DXGKDDI_STOPCAPTURE, d3dkmddi/DxgkDdiStopCapture, DmFunctions_108ab359-fe5b-46f2-bc1b-f1f91bd5b327.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiStopCapture
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DxgkDdiStopCapture
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_STOPCAPTURE callback
 
 
-
 ## -description
+
+
 The <i>DxgkDdiStopCapture</i> function stops the capture hardware from using the given allocation as a capture buffer.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_STOPCAPTURE DxgkDdiStopCapture;
@@ -58,6 +68,9 @@ NTSTATUS APIENTRY DxgkDdiStopCapture(
 
 ## -parameters
 
+
+
+
 ### -param hAdapter [in]
 
 [in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
@@ -69,24 +82,27 @@ NTSTATUS APIENTRY DxgkDdiStopCapture(
 
 
 ## -returns
+
+
 <i>DxgkDdiStopCapture</i> returns STATUS_SUCCESS, or an appropriate error result if the allocation is not successfully stopped.
 
 
+
 ## -remarks
+
+
 When a capture buffer is destroyed, the DirectX graphics kernel subsystem calls the <i>DxgkDdiStopCapture</i> function to inform the display miniport driver to stop the capture hardware from using the allocation as the capture buffer. If the capture hardware already stopped using the allocation, the driver should ignore the call.
 
 <i>DxgkDdiStopCapture</i> should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_stopcapture.md">DXGKARG_STOPCAPTURE</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_stopcapture.md">DXGKARG_STOPCAPTURE</a>
+
  
 
  

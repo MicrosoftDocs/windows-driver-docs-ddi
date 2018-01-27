@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2168a4d8-a33d-4534-b4e8-126a41e528f5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _MIRACAST_CALLBACKS, MIRACAST_CALLBACKS, *PMIRACAST_CALLBACKS
+ms.keywords: _MIRACAST_CALLBACKS, netdispumdddi/MIRACAST_CALLBACKS, MIRACAST_CALLBACKS structure [Display Devices], display.miracast_callbacks, PMIRACAST_CALLBACKS, MIRACAST_CALLBACKS, PMIRACAST_CALLBACKS structure pointer [Display Devices], *PMIRACAST_CALLBACKS, netdispumdddi/PMIRACAST_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MIRACAST_CALLBACKS
-req.alt-loc: Netdispumdddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Netdispumdddi.h
+apiname: 
+-	MIRACAST_CALLBACKS
+product: Windows
+targetos: Windows
 req.typenames: MIRACAST_CALLBACKS, *PMIRACAST_CALLBACKS
 ---
 
 # _MIRACAST_CALLBACKS structure
 
 
-
 ## -description
+
+
 Contains pointers to wireless display (Miracast) runtime callback functions that the Miracast user-mode driver can call.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MIRACAST_CALLBACKS {
@@ -57,6 +67,9 @@ typedef struct _MIRACAST_CALLBACKS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ReportSessionStatus
 
@@ -82,5 +95,3 @@ A pointer to the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_get_next_chunk_d
 
 A pointer to the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_register_datarate_notifications.md">RegisterForDataRateNotifications</a>    function.
 
-
-## -remarks

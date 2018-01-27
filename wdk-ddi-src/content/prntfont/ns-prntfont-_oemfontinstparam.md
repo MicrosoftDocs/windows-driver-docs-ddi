@@ -7,8 +7,8 @@ old-location: print\oemfontinstparam.htm
 old-project: print
 ms.assetid: cdd3ed28-a077-4b89-9222-ba282b9c7205
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: _OEMFONTINSTPARAM, *POEMFONTINSTPARAM, OEMFONTINSTPARAM
+ms.date: 1/18/2018
+ms.keywords: OEMFONTINSTPARAM structure [Print Devices], *POEMFONTINSTPARAM, prntfont/OEMFONTINSTPARAM, OEMFONTINSTPARAM, prntfont/POEMFONTINSTPARAM, POEMFONTINSTPARAM structure pointer [Print Devices], _OEMFONTINSTPARAM, POEMFONTINSTPARAM, print.oemfontinstparam, print_unidrv-pscript_ui_d306ca78-7f06-4ccf-a501-7470f33f96cb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OEMFONTINSTPARAM
-req.alt-loc: prntfont.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	prntfont.h
+apiname: 
+-	OEMFONTINSTPARAM
+product: Windows
+targetos: Windows
 req.typenames: *POEMFONTINSTPARAM, OEMFONTINSTPARAM
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _OEMFONTINSTPARAM structure
 
 
-
 ## -description
+
+
 The OEMFONTINSTPARAM structure is used as an input parameter to a user interface plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554176">IPrintOemUI::FontInstallerDlgProc</a> method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _OEMFONTINSTPARAM {
@@ -59,6 +69,9 @@ typedef struct _OEMFONTINSTPARAM {
 
 
 ## -struct-fields
+
+
+
 
 ### -field cbSize
 
@@ -89,5 +102,3 @@ Unidrv-supplied flags. The only defined flag is FG_CANCHANGE which, if set, indi
 
 Pointer to a string representing the font installer's name. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff554176">IPrintOemUI::FontInstallerDlgProc</a> method must supply this string if the received message is WM_USER+WM_FI_NAME. The string must be placed in memory allocated using <b>hHeap</b>.
 
-
-## -remarks

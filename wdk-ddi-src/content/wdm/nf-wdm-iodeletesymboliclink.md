@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 68ad19a5-4694-4b75-8062-75b06bdc16ed
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoDeleteSymbolicLink
+ms.keywords: wdm/IoDeleteSymbolicLink, IoDeleteSymbolicLink routine [Kernel-Mode Driver Architecture], kernel.iodeletesymboliclink, k104_6ff2f570-3573-4d12-b338-cca69515ef1a.xml, IoDeleteSymbolicLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoDeleteSymbolicLink
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlIoPassive4, PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoDeleteSymbolicLink
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoDeleteSymbolicLink function
 
 
-
 ## -description
+
+
 The <b>IoDeleteSymbolicLink</b> routine removes a symbolic link from the system.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS IoDeleteSymbolicLink(
@@ -55,30 +65,29 @@ NTSTATUS IoDeleteSymbolicLink(
 
 ## -parameters
 
+
+
+
 ### -param SymbolicLinkName [in]
 
 Pointer to a buffered Unicode string that is the user-visible name for the symbolic link. 
 
 
 ## -returns
+
+
 <b>IoDeleteSymbolicLink</b> returns STATUS_SUCCESS if the symbolic link object is deleted.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-iocreatesymboliclink.md">IoCreateSymbolicLink</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iocreateunprotectedsymboliclink.md">IoCreateUnprotectedSymbolicLink</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-iocreatesymboliclink.md">IoCreateSymbolicLink</a>
+
 <a href="..\ntddk\nf-ntddk-iodeassignarcname.md">IoDeassignArcName</a>
-</dt>
-</dl>
+
  
 
  

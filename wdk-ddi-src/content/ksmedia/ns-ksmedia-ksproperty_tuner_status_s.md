@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5e1b37f2-f567-4c03-b0f4-cc1dbd568907
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_TUNER_STATUS_S, KSPROPERTY_TUNER_STATUS_S, *PKSPROPERTY_TUNER_STATUS_S
+ms.keywords: ksmedia/KSPROPERTY_TUNER_STATUS_S, KSPROPERTY_TUNER_STATUS_S, ksmedia/PKSPROPERTY_TUNER_STATUS_S, stream.ksproperty_tuner_status_s, *PKSPROPERTY_TUNER_STATUS_S, vidcapstruct_a36247d8-99d7-4dad-8632-5feb685616d6.xml, PKSPROPERTY_TUNER_STATUS_S structure pointer [Streaming Media Devices], PKSPROPERTY_TUNER_STATUS_S, KSPROPERTY_TUNER_STATUS_S structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPROPERTY_TUNER_STATUS_S
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KSPROPERTY_TUNER_STATUS_S, *PKSPROPERTY_TUNER_STATUS_S
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSPROPERTY_TUNER_STATUS_S
+product: Windows
+targetos: Windows
+req.typenames: *PKSPROPERTY_TUNER_STATUS_S, KSPROPERTY_TUNER_STATUS_S
 ---
 
 # KSPROPERTY_TUNER_STATUS_S structure
 
 
-
 ## -description
+
+
 The KSPROPERTY_TUNER_STATUS_S structure describes the progress of a tuning operation for TV and radio tuner devices, including present tuning frequency.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -58,6 +68,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field Property
 
 Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type. 
@@ -71,7 +84,6 @@ Specifies the current tuner frequency. This value is in hertz (Hz).
 ### -field PLLOffset
 
 Specifies the phase locked loop (PLL) offset in multiples of the tuning granularity. This is used if the tuner strategy is KS_TUNER_STRATEGY_PLL. If the tuner strategy is not KS_TUNER_STRATEGY_PLL, this value has no meaning. The following table demonstrates the value to be returned by the minidriver for various tuning conditions, assuming the tuning granularity is 62.5kHz:
-
 <table>
 <tr>
 <th>Frequency Offset</th>
@@ -127,14 +139,12 @@ Perfectly tuned
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field SignalStrength
 
 Specifies the amplitude of the signal. This is used if the tuner strategy is KS_TUNER_STRATEGY_SIGNAL_STRENGTH. Regardless of the tuning strategy supported by the minidriver, the valid values for this member are:
-
 <table>
 <tr>
 <th>Value</th>
@@ -170,8 +180,7 @@ On an acceptable frequency.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Busy
@@ -180,21 +189,20 @@ Indicates if the minidriver is presently busy with the process of tuning. This m
 
 
 ## -remarks
+
+
 For more information about the <b>PLLOffset</b> and <b>SignalStrength</b> members see <a href="https://msdn.microsoft.com/ae97d5f7-82de-4d6e-9835-ff4c7427f333">PCI based TV capture</a>. If your tuner device supports radio tuning, see <a href="https://msdn.microsoft.com/36e3ca98-cb1b-46cc-809a-8c9ad08a53c8">Video Capture Devices with Radio Tuners</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565921">KSPROPERTY_TUNER_STATUS</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
  
 
  

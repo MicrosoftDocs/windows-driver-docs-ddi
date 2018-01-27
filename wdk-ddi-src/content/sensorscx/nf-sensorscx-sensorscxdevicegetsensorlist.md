@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: C1CA7DE4-A54A-478F-9F83-585B528EF345
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SensorsCxDeviceGetSensorList
+ms.keywords: Syntax, Syntax function [Sensor Devices], sensors.sensorscxdevicegetsensorlist, SensorsCxDeviceGetSensorList, sensorscx/Syntax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: Syntax
-req.alt-loc: SensorsCx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	SensorsCx.h
+apiname: 
+-	Syntax
+product: Windows
+targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SensorsCxDeviceGetSensorList function
 
 
-
 ## -description
+
+
 This function returns a list of sensor instances associated with a WDFDEVICE.
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE NTSTATUS Syntax(
@@ -56,6 +66,9 @@ FORCEINLINE NTSTATUS Syntax(
 
 
 ## -parameters
+
+
+
 
 ### -param FxDevice [in]
 
@@ -73,13 +86,21 @@ The number of SENSOROBJECTS in pSensorInstanceList.
 
 
 ## -returns
-This function returns NTSTATUS with different values. Some values that may be returned are the following:
 
+
+This function returns NTSTATUS with different values. Some values that may be returned are the following:
+<ul>
+<li>
 STATUS_SUCCESS is returned if the function completes successfully.
 
+</li>
+<li>
 STATUS_INVALID_PARAMETER is returned if any of the _In_ parameters are NULL.
 
+</li>
+<li>
 STATUS_NOT_FOUND is returned if the controller is not available from the <b>FxDevice</b>.
 
+</li>
+</ul>
 
-## -remarks

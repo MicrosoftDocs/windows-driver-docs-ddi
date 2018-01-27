@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 211A3DBB-96B8-4DB5-BB50-FAB7500D999F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERCX_ACTIVITY_INIT
+ms.keywords: 1/SERCX_ACTIVITY_INIT, serports.sercx_activity_init, SERCX_ACTIVITY_INIT, SERCX_ACTIVITY_INIT function [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SERCX_ACTIVITY_INIT
-req.alt-loc: 1.0\Sercx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any IRQL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1.0\Sercx.h
+apiname: 
+-	SERCX_ACTIVITY_INIT
+product: Windows
+targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SERCX_ACTIVITY_INIT function
 
 
-
 ## -description
+
+
 The <b>SERCX_ACTIVITY_INIT</b> function initializes a <a href="..\sercx\ns-sercx-_sercx_activity.md">SERCX_ACTIVITY</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 VOID SERCX_ACTIVITY_INIT(
@@ -55,24 +65,25 @@ VOID SERCX_ACTIVITY_INIT(
 
 ## -parameters
 
+
+
+
 ### -param Activity [out]
 
 A pointer to the <b>SERCX_ACTIVITY</b> structure that is to be initialized.
 
 
 ## -returns
+
+
 None.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\sercx\ns-sercx-_sercx_activity.md">SERCX_ACTIVITY</a>
-</dt>
-</dl>
+
  
 
  

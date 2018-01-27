@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 09347A56-C3F8-4E0D-A557-CECB7BBC7DB8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _BDA_CAS_REQUESTTUNERDATA, *PBDA_CAS_REQUESTTUNERDATA, BDA_CAS_REQUESTTUNERDATA
+ms.keywords: PBDA_CAS_REQUESTTUNERDATA, stream.bda_cas_requesttunerdata, bdatypes/PBDA_CAS_REQUESTTUNERDATA, BDA_CAS_REQUESTTUNERDATA structure [Streaming Media Devices], PBDA_CAS_REQUESTTUNERDATA structure pointer [Streaming Media Devices], _BDA_CAS_REQUESTTUNERDATA, bdatypes/BDA_CAS_REQUESTTUNERDATA, BDA_CAS_REQUESTTUNERDATA, *PBDA_CAS_REQUESTTUNERDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BDA_CAS_REQUESTTUNERDATA
-req.alt-loc: Bdatypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PBDA_CAS_REQUESTTUNERDATA, BDA_CAS_REQUESTTUNERDATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bdatypes.h
+apiname: 
+-	BDA_CAS_REQUESTTUNERDATA
+product: Windows
+targetos: Windows
+req.typenames: BDA_CAS_REQUESTTUNERDATA, *PBDA_CAS_REQUESTTUNERDATA
 ---
 
 # _BDA_CAS_REQUESTTUNERDATA structure
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: *PBDA_CAS_REQUESTTUNERDATA, BDA_CAS_REQUESTTUNERDATA
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct _BDA_CAS_REQUESTTUNERDATA {
@@ -57,16 +67,21 @@ typedef struct _BDA_CAS_REQUESTTUNERDATA {
 
 ## -struct-fields
 
+
+
+
 ### -field ucRequestPriority
+
 
 
 ### -field ucRequestReason
 
 
+
 ### -field ucRequestConsequences
+
 
 
 ### -field ulEstimatedTime
 
 
-## -remarks

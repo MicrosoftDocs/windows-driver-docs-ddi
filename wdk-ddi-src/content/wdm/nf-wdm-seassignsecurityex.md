@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 94f6d3a3-7f0d-4f57-8240-3c4a10cf4488
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: SeAssignSecurityEx
+ms.keywords: k110_e014ad32-3cbd-47e6-908b-65357203ee59.xml, wdm/SeAssignSecurityEx, SeAssignSecurityEx routine [Kernel-Mode Driver Architecture], SeAssignSecurityEx, kernel.seassignsecurityex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SeAssignSecurityEx
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	SeAssignSecurityEx
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,14 +47,15 @@ req.product: Windows 10 or later.
 # SeAssignSecurityEx function
 
 
-
 ## -description
+
+
 The 
    <b>SeAssignSecurityEx</b> routine builds a self-relative security descriptor for a new object given the following optional parameters: a security descriptor of the object's parent directory, an explicit security descriptor for the object, and the object type.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SeAssignSecurityEx(
@@ -64,9 +74,12 @@ NTSTATUS SeAssignSecurityEx(
 
 ## -parameters
 
+
+
+
 ### -param ParentDescriptor [in, optional]
 
-Pointer to the <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> of the parent object that contains the new object being created. <i>ParentDescriptor</i> can be <b>NULL</b>, or have a <b>NULL</b> system access control list (<a href="wdkgloss.s#wdkgloss.sacl#wdkgloss.sacl">SACL</a>) or a <b>NULL</b> discretionary access control list (<a href="wdkgloss.d#wdkgloss.dacl#wdkgloss.dacl">DACL</a>).
+Pointer to the <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> of the parent object that contains the new object being created. <i>ParentDescriptor</i> can be <b>NULL</b>, or have a <b>NULL</b> system access control list (<a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">SACL</a>) or a <b>NULL</b> discretionary access control list (<a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">DACL</a>).
 
 
 ### -param ExplicitDescriptor [in, optional]
@@ -91,8 +104,7 @@ Specifies whether the new object is a directory object. If <i>IsDirectoryObject<
 
 ### -param AutoInheritFlags [in]
 
-Specifies the type of automatic inheritance that is applied to access control entries (<a href="wdkgloss.a#wdkgloss.ace#wdkgloss.ace">ACE</a>) in the access control lists (<a href="wdkgloss.a#wdkgloss.acl#wdkgloss.acl">ACL</a>) specified by <i>ParentDescriptor</i>. <i>AutoInheritFlags</i> also controls privilege checking, owner checking, and setting a default owner and group for <i>NewDescriptor</i>. <i>AutoInheritFlags</i> must be set to a logical OR of one or more of the following values:
-
+Specifies the type of automatic inheritance that is applied to access control entries (<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>) in the access control lists (<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>) specified by <i>ParentDescriptor</i>. <i>AutoInheritFlags</i> also controls privilege checking, owner checking, and setting a default owner and group for <i>NewDescriptor</i>. <i>AutoInheritFlags</i> must be set to a logical OR of one or more of the following values:
 <table>
 <tr>
 <th>Value</th>
@@ -172,11 +184,9 @@ If a group is not specified by <i>ExplicitDescriptor</i>, this flag is used in t
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 The assignment of system and discretionary ACLs is described in the following table:
-
 <table>
 <tr>
 <th></th>
@@ -220,11 +230,9 @@ Assign no ACL.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 <b>Assignment Notes</b>
-
 <ol>
 <li>
 The SEF_DEFAULT_DESCRIPTOR_FOR_OBJECT flag is not specified.
@@ -268,45 +276,78 @@ This parameter is unused.  The buffer to hold the new security descriptor is alw
 
 
 ## -returns
+
+
 <b>SeAssignSecurityEx</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The assignment was successful.
+</dl>
+</td>
+<td width="60%">
+The assignment was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_OWNER</b></dt>
-</dl>The SID provided as the owner of the new security descriptor is not a SID that the caller is authorized to assign as the owner of an object. 
+</dl>
+</td>
+<td width="60%">
+The SID provided as the owner of the new security descriptor is not a SID that the caller is authorized to assign as the owner of an object. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_PRIVILEGE_NOT_HELD</b></dt>
-</dl>The caller does not have the privilege (<b>SeSecurityPrivilege</b>) necessary to explicitly assign the specified SACL.
+</dl>
+</td>
+<td width="60%">
+The caller does not have the privilege (<b>SeSecurityPrivilege</b>) necessary to explicitly assign the specified SACL.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-<b>SeAssignSecurityEx</b> extends the basic operation of <b>SeAssignSecurity</b> in the following ways:
 
+
+<b>SeAssignSecurityEx</b> extends the basic operation of <b>SeAssignSecurity</b> in the following ways:
+<ul>
+<li>
 <i>ObjectType</i> optionally specifies an object type. Object-specific inheritance is controlled by the following members of an object-specific ACE: <b>Flags</b>, <b>InheritedObjectType</b>, and <b>Header.AceFlags</b>.
 
+</li>
+<li>
 <i>AutoInheritFlags </i>specifies the type of automatic inheritance of ACEs that is used. AutoInheritFlags also controls privilege checking, owner checking, and setting a default owner and group for <i>NewDescriptor</i>.
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
+</li>
+</ul>For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-sedeassignsecurity.md">SeDeassignSecurity</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
+
+<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
+
  
 
  

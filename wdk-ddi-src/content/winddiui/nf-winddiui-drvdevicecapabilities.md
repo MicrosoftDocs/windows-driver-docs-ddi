@@ -7,8 +7,8 @@ old-location: print\drvdevicecapabilities.htm
 old-project: print
 ms.assetid: a8ea236d-42f9-45c5-b2f6-035e0ba28f75
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: DrvDeviceCapabilities
+ms.date: 1/18/2018
+ms.keywords: print_interface-graphics_cbe99c7b-a94f-47b2-8c51-d99bdcdec7d3.xml, winddiui/DrvDeviceCapabilities, DrvDeviceCapabilities, print.drvdevicecapabilities, DrvDeviceCapabilities function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DrvDeviceCapabilities
-req.alt-loc: winddiui.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	winddiui.h
+apiname: 
+-	DrvDeviceCapabilities
+product: Windows
+targetos: Windows
+req.typenames: *PWINBIO_VERSION, WINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 
 # DrvDeviceCapabilities function
 
 
-
 ## -description
+
+
 A printer interface DLL's <b>DrvDeviceCapabilities</b> function returns requested information about a printer's capabilities.
 
 
-
 ## -syntax
+
 
 ````
 DWORD DrvDeviceCapabilities(
@@ -59,20 +69,53 @@ DWORD DrvDeviceCapabilities(
 
 ## -parameters
 
-### -param hPrinter 
+
+
+
+### -param hPrinter
 
 Caller-supplied printer handle.
 
 
-### -param pDeviceName [in]
+### -param pszDeviceName
+
+TBD
+
+
+### -param Capability
+
+TBD
+
+
+### -param pOutput
+
+TBD
+
+
+### -param pDevmode
+
+TBD
+
+
+
+#### - pDevMode [in]
+
+A caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure that describes the current print job characteristics. If this parameter is <b>NULL</b>, <b>DrvDeviceCapabilities</b> retrieves the current default initialization values for the specified printer driver, such as the user default DEVMODEW structure of the print queue.
+
+
+#### - pDeviceName [in]
 
 Caller-supplied pointer to a printer name string.
 
 
-### -param iDevCap 
+#### - pvOutput [out]
+
+A caller-supplied pointer to a buffer to receive function-supplied information. The buffer's use is dependent on the value received for the <i>iDevCap</i> parameter.
+
+
+#### - iDevCap
 
 Caller-supplied bit flag indicating the information being requested. This can be one of the flags listed in the following table. (The flags are defined in header file Wingdi.h.)
-
 <table>
 <tr>
 <th>Flag</th>
@@ -528,22 +571,12 @@ The function's return value should be the <b>dmSpecVersion</b> member of the dri
 
 </td>
 </tr>
-</table>
- 
-
-
-### -param pvOutput [out]
-
-A caller-supplied pointer to a buffer to receive function-supplied information. The buffer's use is dependent on the value received for the <i>iDevCap</i> parameter.
-
-
-### -param pDevMode [in]
-
-A caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure that describes the current print job characteristics. If this parameter is <b>NULL</b>, <b>DrvDeviceCapabilities</b> retrieves the current default initialization values for the specified printer driver, such as the user default DEVMODEW structure of the print queue.
+</table> 
 
 
 ## -returns
+
+
 The function's return value is dependent on the value received for the <i>iDevCap</i> parameter. If the received <i>iDevCap</i> value represents a capability that the driver does not support, or if an error is encountered, the function should return GDI_ERROR.
 
 
-## -remarks

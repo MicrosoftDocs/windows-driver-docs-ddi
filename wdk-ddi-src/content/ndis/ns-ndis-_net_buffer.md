@@ -7,8 +7,8 @@ old-location: netvista\net_buffer.htm
 old-project: netvista
 ms.assetid: 66a725f9-ae72-41b4-8840-63c9ff89ace7
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NET_BUFFER, *PNET_BUFFER, NET_BUFFER
+ms.date: 1/18/2018
+ms.keywords: _NET_BUFFER, ndis/NET_BUFFER, PNET_BUFFER, *PNET_BUFFER, NET_BUFFER structure [Network Drivers Starting with Windows Vista], ndis_netbuf_structures_ref_e07734b2-9135-48a5-b3d4-f6e252a52c45.xml, NET_BUFFER, netvista.net_buffer, ndis/PNET_BUFFER, PNET_BUFFER structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NET_BUFFER
-req.alt-loc: ndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-req.typenames: *PNET_BUFFER, NET_BUFFER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ndis.h
+apiname: 
+-	NET_BUFFER
+product: Windows
+targetos: Windows
+req.typenames: NET_BUFFER, *PNET_BUFFER
 ---
 
 # _NET_BUFFER structure
 
 
-
 ## -description
+
+
 The NET_BUFFER structure specifies data that is transmitted or received over the network.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NET_BUFFER {
@@ -67,10 +77,65 @@ typedef struct _NET_BUFFER {
 
 ## -struct-fields
 
+
+
+
+### -field DataLength
+
+ 
+
+
+### -field stDataLength
+
+ 
+
+
+### -field Next
+
+ 
+
+
+### -field CurrentMdl
+
+ 
+
+
+### -field CurrentMdlOffset
+
+ 
+
+
+### -field MdlChain
+
+ 
+
+
+### -field DataOffset
+
+ 
+
+
+### -field Link
+
+ 
+
+
 ### -field NetBufferHeader
 
 A 
      <a href="..\ndis\ns-ndis-_net_buffer_header.md">NET_BUFFER_HEADER</a> structure.
+
+
+### -field SharedMemoryInfo
+
+A pointer to an 
+      <mshelp:link keywords="netvista.net_buffer_shared_memory" tabindex="0"><b>
+      NET_BUFFER_SHARED_MEMORY</b></mshelp:link> structure.
+
+
+### -field ScatterGatherList
+
+The SCATTER_GATHER_LIST structure describes a scatter/gather list for DMA.
 
 
 ### -field ChecksumBias
@@ -113,49 +178,39 @@ Reserved for use by miniport drivers. Miniport drivers and NDIS intermediate dri
 <div class="alert"><b>Note</b>  The name of this member is 
       <b>NdisReserved1</b> for NDIS 6.0 drivers and is 
       <b>DataPhysicalAddress</b> for NDIS 6.1 and later drivers. For NDIS 6.0 drivers, this member is reserved
-      for NDIS.</div>
-<div> </div>
-The physical address of the data portion of a frame. This member should be to zero if the driver
+      for NDIS.</div><div> </div>The physical address of the data portion of a frame. This member should be to zero if the driver
       that allocated NET_BUFFER does not specify the address. This member is valid only if the
       NDIS_NBL_FLAGS_SPLIT_AT_UPPER_LAYER_PROTOCOL_HEADER or
       NDIS_NBL_FLAGS_SPLIT_AT_UPPER_LAYER_PROTOCOL_PAYLOAD flag is set in the 
       <b>NblFlags</b> member of the 
       <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that is
       associated with the NET_BUFFER.
-
 <div class="alert"><b>Note</b>  A miniport driver can set the 
       <b>DataPhysicalAddress</b> member of the NET_BUFFER structure, even if the structure is not associated
       with a split frame. In this case, 
-      <b>DataPhysicalAddress</b> contains the physical address of the header MDL.</div>
-<div> </div>
-
-### -field SharedMemoryInfo
-
-A pointer to an 
-      <a href="..\ndis\ns-ndis-_net_buffer_shared_memory.md">
-      NET_BUFFER_SHARED_MEMORY</a> structure.
-
-
-### -field ScatterGatherList
-
-The SCATTER_GATHER_LIST structure describes a scatter/gather list for DMA.
-
+      <b>DataPhysicalAddress</b> contains the physical address of the header MDL.</div><div> </div>
 
 ## -remarks
-NDIS drivers can call the following functions to allocate and initialize a NET_BUFFER structure:
 
+
+NDIS drivers can call the following functions to allocate and initialize a NET_BUFFER structure:
+<ul>
+<li>
 
 <a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
 
 
+</li>
+<li>
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
-       NdisAllocateNetBufferAndNetBufferList</a>
+<mshelp:link keywords="netvista.ndisallocatenetbufferandnetbufferlist" tabindex="0"><b>
+       NdisAllocateNetBufferAndNetBufferList</b></mshelp:link>
 
 
-NDIS drivers can call the 
-    <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
-    NdisAllocateNetBufferListPool</a> function and then set the 
+</li>
+</ul>NDIS drivers can call the 
+    <mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
+    NdisAllocateNetBufferListPool</b></mshelp:link> function and then set the 
     <b>fAllocateNetBuffer</b> member of the 
     <a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure to <b>TRUE</b> when allocating a 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure pool. In this
@@ -167,23 +222,29 @@ Chained to each NET_BUFFER structure are one or more buffer descriptors that map
     <b>NetBufferHeader</b> member. Such network packet data either was received or will be transmitted.
 
 To access additional data space in the MDL chain, NDIS drivers can call the following functions:
+<ul>
+<li>
+
+<mshelp:link keywords="netvista.ndisretreatnetbufferdatastart" tabindex="0"><b>
+       NdisRetreatNetBufferDataStart</b></mshelp:link>
 
 
-<a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
-       NdisRetreatNetBufferDataStart</a>
+</li>
+<li>
+
+<mshelp:link keywords="netvista.ndisretreatnetbufferlistdatastart" tabindex="0"><b>
+       NdisRetreatNetBufferListDataStart</b></mshelp:link>
 
 
-
-<a href="..\ndis\nf-ndis-ndisretreatnetbufferlistdatastart.md">
-       NdisRetreatNetBufferListDataStart</a>
-
-
-NDIS drivers typically use the 
+</li>
+</ul>NDIS drivers typically use the 
     <b>MiniportReserved</b> or 
     <b>ProtocolReserved</b> members of the NET_BUFFER structure to maintain NET_BUFFER structure context
     information.
-
-To access members of the NET_BUFFER structure, use the following macros and functions:
+<div class="alert"><b>Note</b>  Only one driver can use 
+    <b>MiniportReserved</b> or 
+    <b>ProtocolReserved</b> members. Therefore, if another driver has used either of these members, an
+    intermediate driver cannot use them.</div><div> </div>To access members of the NET_BUFFER structure, use the following macros and functions:
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568416">NET_BUFFER_NEXT_NB</a>
@@ -218,8 +279,8 @@ To access members of the NET_BUFFER structure, use the following macros and func
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568380">
-       NET_BUFFER_CURRENT_MDL_OFFSET</a>
+<mshelp:link keywords="netvista.net_buffer_current_mdl_offset" tabindex="0"><b>
+       NET_BUFFER_CURRENT_MDL_OFFSET</b></mshelp:link>
 
 
 
@@ -230,77 +291,57 @@ For more information on how to use net buffers, see
     <a href="https://msdn.microsoft.com/97cddcd1-7242-4cc5-9af9-fe82a2ef995f">NET_BUFFER Architecture</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
+<mshelp:link keywords="netvista.ndisretreatnetbufferdatastart" tabindex="0"><b>
+   NdisRetreatNetBufferDataStart</b></mshelp:link>
+
 <a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
-   NdisAllocateNetBufferAndNetBufferList</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
-   NdisAllocateNetBufferListPool</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisgetpoolfromnetbuffer.md">NdisGetPoolFromNetBuffer</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
-   NdisMSendNetBufferListsComplete</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
-   NdisRetreatNetBufferDataStart</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisretreatnetbufferlistdatastart.md">
-   NdisRetreatNetBufferListDataStart</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568378">NET_BUFFER_CHECKSUM_BIAS</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568379">NET_BUFFER_CURRENT_MDL</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568380">NET_BUFFER_CURRENT_MDL_OFFSET</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568382">NET_BUFFER_DATA_LENGTH</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568383">NET_BUFFER_DATA_OFFSET</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568386">NET_BUFFER_FIRST_MDL</a>
-</dt>
-<dt>
-<a href="..\ndis\ns-ndis-_net_buffer_header.md">NET_BUFFER_HEADER</a>
-</dt>
-<dt>
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568379">NET_BUFFER_CURRENT_MDL</a>
+
 <a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568415">NET_BUFFER_MINIPORT_RESERVED</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568416">NET_BUFFER_NEXT_NB</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568417">NET_BUFFER_PROTOCOL_RESERVED</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568378">NET_BUFFER_CHECKSUM_BIAS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568383">NET_BUFFER_DATA_OFFSET</a>
+
+<a href="..\ndis\nf-ndis-ndisgetpoolfromnetbuffer.md">NdisGetPoolFromNetBuffer</a>
+
 <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
-</dt>
-</dl>
- 
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568415">NET_BUFFER_MINIPORT_RESERVED</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568380">NET_BUFFER_CURRENT_MDL_OFFSET</a>
+
+<mshelp:link keywords="netvista.ndisretreatnetbufferlistdatastart" tabindex="0"><b>
+   NdisRetreatNetBufferListDataStart</b></mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568382">NET_BUFFER_DATA_LENGTH</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_header.md">NET_BUFFER_HEADER</a>
+
+<mshelp:link keywords="netvista.ndisallocatenetbufferandnetbufferlist" tabindex="0"><b>
+   NdisAllocateNetBufferAndNetBufferList</b></mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568417">NET_BUFFER_PROTOCOL_RESERVED</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
+   NdisAllocateNetBufferListPool</b></mshelp:link>
+
+<mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
+   NdisMSendNetBufferListsComplete</b></mshelp:link>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_BUFFER structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_BUFFER structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

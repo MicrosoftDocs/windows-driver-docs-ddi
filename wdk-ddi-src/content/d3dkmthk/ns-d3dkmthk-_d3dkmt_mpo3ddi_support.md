@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 993E0BC3-DE46-48B9-A346-386E49CE28CE
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_MPO3DDI_SUPPORT, D3DKMT_MPO3DDI_SUPPORT
+ms.keywords: D3DKMT_MPO3DDI_SUPPORT, _D3DKMT_MPO3DDI_SUPPORT, d3dkmthk/D3DKMT_MPO3DDI_SUPPORT, display.d3dkmt_mpo3ddi_support, D3DKMT_MPO3DDI_SUPPORT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_MPO3DDI_SUPPORT
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_MPO3DDI_SUPPORT
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_MPO3DDI_SUPPORT
 ---
 
 # _D3DKMT_MPO3DDI_SUPPORT structure
 
 
-
 ## -description
+
+
 A structure that holds the support status.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_MPO3DDI_SUPPORT {
@@ -54,9 +64,10 @@ typedef struct _D3DKMT_MPO3DDI_SUPPORT {
 
 ## -struct-fields
 
+
+
+
 ### -field Supported
 
 Indicates whether support exists.
 
-
-## -remarks

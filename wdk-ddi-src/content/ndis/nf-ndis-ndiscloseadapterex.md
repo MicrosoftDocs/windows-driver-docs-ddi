@@ -7,8 +7,8 @@ old-location: netvista\ndiscloseadapterex.htm
 old-project: netvista
 ms.assetid: 8e3c6373-e39d-4f9b-b874-e3a9c93791b9
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisCloseAdapterEx
+ms.date: 1/18/2018
+ms.keywords: NdisCloseAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisCloseAdapterEx, protocol_ndis_functions_ref_f349b273-d8c6-4711-af43-59646c41536c.xml, NdisCloseAdapterEx, netvista.ndiscloseadapterex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisCloseAdapterEx
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_Protocol_Driver_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,35 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisCloseAdapterEx
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCloseAdapterEx function
 
 
-
 ## -description
+
+
 A protocol driver calls the 
   <b>NdisCloseAdapterEx</b> function to release the binding and the resources that were allocated when the
   driver called the 
   <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisCloseAdapterEx(
@@ -57,6 +68,9 @@ NDIS_STATUS NdisCloseAdapterEx(
 
 ## -parameters
 
+
+
+
 ### -param NdisBindingHandle [in]
 
 The handle that NDIS provided at the 
@@ -65,25 +79,50 @@ The handle that NDIS provided at the
 
 
 ## -returns
+
+
 <b>NdisCloseAdapterEx</b> returns one of the following status values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_SUCCESS</b></dt>
-</dl><b>NdisCloseAdapterEx</b> successfully closed the binding to the underlying miniport adapter.
+</dl>
+</td>
+<td width="60%">
+<b>NdisCloseAdapterEx</b> successfully closed the binding to the underlying miniport adapter.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_PENDING</b></dt>
-</dl><b>NdisCloseAdapterEx</b> did not complete the close operation and the operation will be completed
+</dl>
+</td>
+<td width="60%">
+<b>NdisCloseAdapterEx</b> did not complete the close operation and the operation will be completed
        asynchronously. NDIS calls the protocol driver's 
-       <a href="..\ndis\nc-ndis-protocol_close_adapter_complete_ex.md">
-       ProtocolCloseAdapterCompleteEx</a> function when the operation is complete.
+       <mshelp:link keywords="netvista.protocolcloseadaptercompleteex" tabindex="0"><i>
+       ProtocolCloseAdapterCompleteEx</i></mshelp:link> function when the operation is complete.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A protocol driver typically calls 
     <b>NdisCloseAdapterEx</b> from its 
-    <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">
-    ProtocolUnbindAdapterEx</a> function. The driver can also call 
+    <mshelp:link keywords="netvista.protocolunbindadapterex" tabindex="0"><i>
+    ProtocolUnbindAdapterEx</i></mshelp:link> function. The driver can also call 
     <b>NdisCloseAdapterEx</b> from its 
     <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> function.
     For example, if the driver failed to set an OID value after it called 
@@ -106,28 +145,23 @@ As soon as the driver calls
     <i>NdisBindingHandle</i> parameter becomes invalid.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndisunbindadapter.md">NdisUnbindAdapter</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-protocol_close_adapter_complete_ex.md">
-   ProtocolCloseAdapterCompleteEx</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.protocolcloseadaptercompleteex" tabindex="0"><i>
+   ProtocolCloseAdapterCompleteEx</i></mshelp:link>
+
 <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCloseAdapterEx function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCloseAdapterEx function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

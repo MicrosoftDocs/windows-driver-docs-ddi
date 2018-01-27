@@ -7,8 +7,8 @@ old-location: print\setjobnamedproperty.htm
 old-project: print
 ms.assetid: 6A03B009-21D4-4CD2-9BB5-36F402118270
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: SetJobNamedProperty
+ms.date: 1/18/2018
+ms.keywords: SetJobNamedProperty, winspool/SetJobNamedProperty, SetJobNamedProperty function [Print Devices], print.setjobnamedproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetJobNamedProperty
-req.alt-loc: Winspool.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Winspool.h
+apiname: 
+-	SetJobNamedProperty
+product: Windows
+targetos: Windows
 req.typenames: BIDI_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SetJobNamedProperty function
 
 
-
 ## -description
 
 
 
 
+
 ## -syntax
+
 
 ````
 DWORD WINAPI SetJobNamedProperty(
@@ -57,7 +67,11 @@ DWORD WINAPI SetJobNamedProperty(
 
 ## -parameters
 
+
+
+
 ### -param hPrinter [in]
+
 
 
 ### -param JobId [in]
@@ -68,4 +82,3 @@ TD
 ### -param pProperty [in]
 
 
-## -remarks

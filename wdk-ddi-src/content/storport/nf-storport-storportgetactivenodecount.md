@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b981bfe7-832b-47ae-a742-c4829a6ad06b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetActiveNodeCount
+ms.keywords: storprt_311f0ad3-ee9a-47a1-9175-71fd0f01e03d.xml, StorPortGetActiveNodeCount routine [Storage Devices], StorPortGetActiveNodeCount, storage.storportgetactivenodecount, storport/StorPortGetActiveNodeCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortGetActiveNodeCount
-req.alt-loc: storport.h
 req.ddi-compliance: StorPortIrql
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	StorPortGetActiveNodeCount
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # StorPortGetActiveNodeCount function
 
 
-
 ## -description
+
+
 The <b>StorPortGetActiveNodeCount</b> routine returns the number of nodes that are present in the system.
 
 
-
 ## -syntax
+
 
 ````
 ULONG StorPortGetActiveNodeCount(
@@ -55,6 +65,9 @@ ULONG StorPortGetActiveNodeCount(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -67,18 +80,47 @@ A pointer to a variable that holds the number of nodes.
 
 
 ## -returns
+
+
 The <b>StorPortGetActiveNodeCount</b>routine returns one of the following status codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>This function is not implemented on the active operating system.
+</dl>
+</td>
+<td width="60%">
+This function is not implemented on the active operating system.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>The operation was successful.
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>The operation fails with this return value if one or more of the parameters are invalid, for example, if <i>NumberNodes</i> is set to <b>NULL</b>.
+</dl>
+</td>
+<td width="60%">
+The operation fails with this return value if one or more of the parameters are invalid, for example, if <i>NumberNodes</i> is set to <b>NULL</b>.
 
- 
+</td>
+</tr>
+</table> 
 
 
-## -remarks

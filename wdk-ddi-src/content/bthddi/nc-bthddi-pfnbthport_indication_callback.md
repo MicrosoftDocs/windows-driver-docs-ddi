@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: d3ca900d-1dd6-49da-ae94-855de3fbd086
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: IBidiSpl2, IBidiSpl2::UnbindDevice, UnbindDevice
+ms.keywords: bltooth.l2cap_callback_function, BluetoothPortIndicationCallback callback function [Bluetooth Devices], BluetoothPortIndicationCallback, PFNBTHPORT_INDICATION_CALLBACK, PFNBTHPORT_INDICATION_CALLBACK, bthddi/BluetoothPortIndicationCallback, bth_funcs_76d9cb39-ead0-4465-9cc5-83b559b0ba55.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BluetoothPortIndicationCallback
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	bthddi.h
+apiname: 
+-	BluetoothPortIndicationCallback
+product: Windows
+targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # PFNBTHPORT_INDICATION_CALLBACK callback
 
 
-
 ## -description
+
+
 Profile drivers implement a L2CAP callback function to provide the Bluetooth driver stack with a
   mechanism to notify the profile driver about incoming L2CAP connection requests from remote devices, and
   any changes to the status of a currently open L2CAP connection.
 
 
-
 ## -prototype
+
 
 ````
 PFNBTHPORT_INDICATION_CALLBACK BluetoothPortIndicationCallback;
@@ -61,13 +71,16 @@ void BluetoothPortIndicationCallback(
 
 ## -parameters
 
+
+
+
 ### -param Context [in]
 
 For incoming remote connection request indications, this is the context specified by the profile
      driver in the 
      <b>IndicationCallbackContext</b> member of the 
-     <a href="..\bthddi\ns-bthddi-_brb_l2ca_register_server.md">
-     _BRB_L2CA_REGISTER_SERVER</a> structure when the profile driver registered the callback function. For
+     <mshelp:link keywords="bltooth._brb_l2ca_register_server" tabindex="0"><b>
+     _BRB_L2CA_REGISTER_SERVER</b></mshelp:link> structure when the profile driver registered the callback function. For
      changes to existing L2CAP connections, this is the 
      <b>CallbackContext</b> member specified by the profile driver when it built and sent a 
      <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a> BRB.
@@ -88,27 +101,36 @@ An
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-A profile driver registers its L2CAP callback function in the following two scenarios:
 
+## -remarks
+
+
+A profile driver registers its L2CAP callback function in the following two scenarios:
+<ol>
+<li>
 When a profile driver acts as a server, it registers a L2CAP callback function using the 
       <b>IndicationCallback</b> member of the 
-      <a href="..\bthddi\ns-bthddi-_brb_l2ca_register_server.md">
-      _BRB_L2CA_REGISTER_SERVER</a> structure. The Bluetooth driver stack can then notify the profile
+      <mshelp:link keywords="bltooth._brb_l2ca_register_server" tabindex="0"><b>
+      _BRB_L2CA_REGISTER_SERVER</b></mshelp:link> structure. The Bluetooth driver stack can then notify the profile
       driver when a remote device attempts to contact it.
 
+</li>
+<li>
 When the profile driver acts as a client and attempts to connect to a remote device using the
       <b>BRB_L2CA_OPEN_CHANNEL</b> BRB, the profile driver registers its L2CAP callback function using the 
       <b>Callback</b> member of the _BRB_L2CA_OPEN_CHANNEL structure that is passed when the profile driver 
       <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">builds and sends</a> a 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a> or 
-      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
-      BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> request.
+      <mshelp:link keywords="bltooth.brb_l2ca_open_channel_response" tabindex="0"><b>
+      BRB_L2CA_OPEN_CHANNEL_RESPONSE</b></mshelp:link> request.
 
-After the profile driver registers its L2CAP callback function, the callback function is only
+</li>
+</ol>After the profile driver registers its L2CAP callback function, the callback function is only
     associated with the channel that the BRB opened. The Bluetooth driver stack can call the L2CAP callback
     function to notify the profile driver of actions that occur over the open channel to the remote device.
     Profile drivers can register a single callback function to handle channel notifications as a client and
@@ -124,21 +146,17 @@ The
     corresponds to the event and contains event-specific parameters.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthddi\ns-bthddi-_brb_l2ca_register_server.md">_BRB_L2CA_REGISTER_SERVER</a>
-</dt>
-<dt>
+
 <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
-</dt>
-<dt>
-<a href="..\bthddi\ne-bthddi-_indication_code.md">INDICATION_CODE</a>
-</dt>
-<dt>
+
 <a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
-</dt>
-</dl>
+
+<a href="..\bthddi\ne-bthddi-_indication_code.md">INDICATION_CODE</a>
+
  
 
  

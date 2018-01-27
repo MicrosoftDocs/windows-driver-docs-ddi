@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 20ee0633-a743-46e8-a094-37099b8e4427
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortCompleteRequest
+ms.keywords: storage.storportcompleterequest, StorPortCompleteRequest, StorPortCompleteRequest routine [Storage Devices], storport/StorPortCompleteRequest, storprt_c91d5dfe-31de-4804-a0be-c2bab228fbb9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortCompleteRequest
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: StorPortCompleteRequest, StorPortDDIsPortOnly
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortCompleteRequest
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortCompleteRequest function
 
 
-
 ## -description
+
+
 The <b>StorPortCompleteRequest</b> routine completes all outstanding requests setting the SRB status value to <b>SrbStatus</b>. 
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API VOID StorPortCompleteRequest(
@@ -58,6 +69,9 @@ STORPORT_API VOID StorPortCompleteRequest(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -85,19 +99,23 @@ Specifies the completion status to be set in the <b>SrbStatus</b>member of each 
 
 
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 We do not recommend that writers of Storport miniport drivers use this particular Storport interface routine. Instead, the miniport driver should call StorPortNotification( RequestComplete ) for each outstanding request.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportcompleterequest.md">ScsiPortCompleteRequest</a>
-</dt>
-</dl>
+
  
 
  

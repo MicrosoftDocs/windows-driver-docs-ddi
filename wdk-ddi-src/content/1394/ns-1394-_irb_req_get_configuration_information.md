@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 639B72C4-F99D-4983-8539-00A93398465F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _IRB_REQ_GET_CONFIGURATION_INFORMATION, IRB_REQ_GET_CONFIGURATION_INFORMATION
+ms.keywords: IRB_REQ_GET_CONFIGURATION_INFORMATION, IEEE.irb_req_get_configuration_information, _IRB_REQ_GET_CONFIGURATION_INFORMATION, IRB_REQ_GET_CONFIGURATION_INFORMATION structure [Buses], 1394/IRB_REQ_GET_CONFIGURATION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IRB_REQ_GET_CONFIGURATION_INFORMATION
-req.alt-loc: 1394.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1394.h
+apiname: 
+-	IRB_REQ_GET_CONFIGURATION_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: IRB_REQ_GET_CONFIGURATION_INFORMATION
 ---
 
 # _IRB_REQ_GET_CONFIGURATION_INFORMATION structure
 
 
-
 ## -description
+
+
 This structure contains the fields necessary for the 1394 bus driver to carry out a GetConfigurationInformation request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _IRB_REQ_GET_CONFIGURATION_INFORMATION {
@@ -63,6 +73,9 @@ typedef struct _IRB_REQ_GET_CONFIGURATION_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ConfigRom
 
@@ -119,5 +132,3 @@ Specifies the size of the buffer pointed to by <b>ModelLeaf</b> member of <b>u.G
 
 Points to a buffer to receive the model leaf TEXTUAL_LEAF structure, which describes the device model type.
 
-
-## -remarks

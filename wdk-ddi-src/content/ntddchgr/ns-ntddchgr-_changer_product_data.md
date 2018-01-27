@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 18e5b394-b0ea-481c-b634-83a2ebec4784
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CHANGER_PRODUCT_DATA, *PCHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA
+ms.keywords: storage.changer_product_data, CHANGER_PRODUCT_DATA structure [Storage Devices], structs-changer_10598085-7fbc-40f9-a04c-ca8973faace7.xml, _CHANGER_PRODUCT_DATA, *PCHANGER_PRODUCT_DATA, ntddchgr/CHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA, PCHANGER_PRODUCT_DATA, ntddchgr/PCHANGER_PRODUCT_DATA, PCHANGER_PRODUCT_DATA structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CHANGER_PRODUCT_DATA
-req.alt-loc: ntddchgr.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddchgr.h
+apiname: 
+-	CHANGER_PRODUCT_DATA
+product: Windows
+targetos: Windows
 req.typenames: *PCHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA
 ---
 
 # _CHANGER_PRODUCT_DATA structure
 
 
-
 ## -description
+
+
 The CHANGER_PRODUCT_DATA structure is used in conjunction with the <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_product_data.md">IOCTL_CHANGER_GET_PRODUCT_DATA</a> request to retrieve product data for a device. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CHANGER_PRODUCT_DATA {
@@ -57,6 +67,9 @@ typedef struct _CHANGER_PRODUCT_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field VendorId
 
@@ -83,21 +96,14 @@ Specifies the value defined by the vendor to identify this device. Serial number
 Specifies the device type of the changer. This member must be MEDIUM_CHANGER.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_product_data.md">IOCTL_CHANGER_GET_PRODUCT_DATA</a>
-</dt>
-<dt>
+
 <a href="..\mcd\nf-mcd-changergetproductdata.md">ChangerGetProductData</a>
-</dt>
-<dt>
+
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_product_data.md">IOCTL_CHANGER_GET_PRODUCT_DATA</a>
+
 <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
-</dt>
-</dl>
+
  
 
  

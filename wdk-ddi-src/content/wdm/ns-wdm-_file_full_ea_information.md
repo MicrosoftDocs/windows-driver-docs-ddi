@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1b9bbb6a-2dfb-4f3f-8083-62b51a62dec6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _FILE_FULL_EA_INFORMATION, FILE_FULL_EA_INFORMATION, *PFILE_FULL_EA_INFORMATION
+ms.keywords: wdm/FILE_FULL_EA_INFORMATION, FILE_FULL_EA_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.file_full_ea_information, wdm/PFILE_FULL_EA_INFORMATION, kstruct_b_3640566d-def9-44eb-a205-a6361d46e246.xml, FILE_FULL_EA_INFORMATION, _FILE_FULL_EA_INFORMATION, *PFILE_FULL_EA_INFORMATION, PFILE_FULL_EA_INFORMATION, PFILE_FULL_EA_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILE_FULL_EA_INFORMATION
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	FILE_FULL_EA_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: FILE_FULL_EA_INFORMATION, *PFILE_FULL_EA_INFORMATION
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _FILE_FULL_EA_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>FILE_FULL_EA_INFORMATION</b> structure provides extended attribute (EA) information. This structure is used primarily by network drivers.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILE_FULL_EA_INFORMATION {
@@ -58,6 +68,9 @@ typedef struct _FILE_FULL_EA_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NextEntryOffset
 
@@ -85,17 +98,18 @@ An array of characters naming the EA for this entry.
 
 
 ## -remarks
+
+
 This structure is longword-aligned. If a set of <b>FILE_FULL_EA_INFORMATION</b> entries is buffered, <b>NextEntryOffset</b> value in each entry, except the last, falls on a longword boundary. 
 
 The value(s) associated with each entry follows the <b>EaName</b> array. That is, an EA's values are located at <b>EaName</b> + (<b>EaNameLength</b> + 1). 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-</dt>
-</dl>
+
  
 
  

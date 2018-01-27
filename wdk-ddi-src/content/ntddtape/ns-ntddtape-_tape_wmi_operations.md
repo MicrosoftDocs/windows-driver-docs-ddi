@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 430d982e-4740-46ad-8391-aba5813a833a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _TAPE_WMI_OPERATIONS, TAPE_WMI_OPERATIONS, *PTAPE_WMI_OPERATIONS
+ms.keywords: storage.tape_wmi_operations, TAPE_WMI_OPERATIONS structure [Storage Devices], TAPE_WMI_OPERATIONS, ntddtape/PTAPE_WMI_OPERATIONS, *PTAPE_WMI_OPERATIONS, PTAPE_WMI_OPERATIONS structure pointer [Storage Devices], _TAPE_WMI_OPERATIONS, ntddtape/TAPE_WMI_OPERATIONS, PTAPE_WMI_OPERATIONS, structs-tape_93f1d9af-45b2-4121-9b4c-70ed7eaf1782.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TAPE_WMI_OPERATIONS
-req.alt-loc: ntddtape.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: TAPE_WMI_OPERATIONS, *PTAPE_WMI_OPERATIONS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddtape.h
+apiname: 
+-	TAPE_WMI_OPERATIONS
+product: Windows
+targetos: Windows
+req.typenames: *PTAPE_WMI_OPERATIONS, TAPE_WMI_OPERATIONS
 ---
 
 # _TAPE_WMI_OPERATIONS structure
 
 
-
 ## -description
+
+
 The tape miniclass driver passes this structure to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff567957">TapeMiniWMIControl</a> routine to indicate which WMI operation must be performed by the device. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _TAPE_WMI_OPERATIONS {
@@ -56,6 +66,9 @@ typedef struct _TAPE_WMI_OPERATIONS {
 
 ## -struct-fields
 
+
+
+
 ### -field Method
 
 Indicates the operation to be performed by the tape device. The operations allowed are as follows:
@@ -63,30 +76,9 @@ Indicates the operation to be performed by the tape device. The operations allow
 
 
 
-### -field TAPE_CHECK_FOR_DRIVE_PROBLEM
-
-If the tape drive supports commands to return specific device errors, such as tape alerts, the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff567957">TapeMiniWMIControl</a> routine should execute the TAPE_QUERY_DEVICE_ERROR_DATA method Otherwise, it should execute the TAPE_QUERY_IO_ERROR_DATA method.
-
-</dd>
-</dl>
 
 
 
-### -field TAPE_QUERY_DEVICE_ERROR_DATA
-
-Returns specific device errors, such as tape alerts. Not all tape drives support this method.
-
-</dd>
-</dl>
-
-
-
-### -field TAPE_QUERY_IO_ERROR_DATA  
-
-Returns general I/O error data, such as read/write errors, based on the I/O error count. All tape drives support this method.
-
-</dd>
-</dl>
 
 ### -field DataBufferSize
 
@@ -98,18 +90,27 @@ Indicates the size in bytes of the buffer in which the tape minidriver returns t
 Pointer to a buffer in which the tape minidriver returns the results of the operation. The first <b>sizeof</b>(ULONG) bytes of <b>DataBuffer</b> contain a value of type <a href="..\ntddtape\ne-ntddtape-_tape_drive_problem_type.md">TAPE_DRIVE_PROBLEM_TYPE</a>, followed by <b>DataBufferSize</b> - <b>sizeof</b>(ULONG) bytes of tape data. 
 
 
-## -remarks
+##### - Method.TAPE_CHECK_FOR_DRIVE_PROBLEM
+
+If the tape drive supports commands to return specific device errors, such as tape alerts, the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff567957">TapeMiniWMIControl</a> routine should execute the TAPE_QUERY_DEVICE_ERROR_DATA method Otherwise, it should execute the TAPE_QUERY_IO_ERROR_DATA method.
+
+
+##### - Method.TAPE_QUERY_DEVICE_ERROR_DATA
+
+Returns specific device errors, such as tape alerts. Not all tape drives support this method.
+
+
+##### - Method.TAPE_QUERY_IO_ERROR_DATA
+
+Returns general I/O error data, such as read/write errors, based on the I/O error count. All tape drives support this method.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567957">TapeMiniWMIControl</a>
-</dt>
-<dt>
+
 <a href="..\ntddtape\ne-ntddtape-_tape_drive_problem_type.md">TAPE_DRIVE_PROBLEM_TYPE</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567957">TapeMiniWMIControl</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 46b0e05e-f7e2-4a9b-bec0-26bcaf31b013
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcPinRead
+ms.keywords: ccref_f6bbe780-631d-48f8-979f-6ed4260cbe5d.xml, ifsk.ccpinread, CcPinRead routine [Installable File System Drivers], ntifs/CcPinRead, CcPinRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcPinRead
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcPinRead
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcPinRead function
 
 
-
 ## -description
+
+
 The <b>CcPinRead</b> routine pins the specified byte range of a cached file and reads the pinned data into a buffer in memory.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN CcPinRead(
@@ -58,6 +68,9 @@ BOOLEAN CcPinRead(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -77,7 +90,6 @@ Length of desired data in bytes.
 ### -param Flags [in]
 
 Bitmask of flags specifying how the pinning operation is to be performed. ORed combination of one or more of the following values: 
-
 <table>
 <tr>
 <th>Value</th>
@@ -123,8 +135,7 @@ The data is to be pinned only if a BCB already exists. Otherwise, the pin fails 
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Bcb [out]
@@ -138,10 +149,15 @@ Pointer to a buffer containing the pinned data.
 
 
 ## -returns
+
+
 <b>CcPinRead</b> returns <b>TRUE</b> if the data for the cached file was pinned and read successfully, <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 If the PIN_WAIT flag is set, <b>CcPinRead</b> is guaranteed to complete the pinning request and return <b>TRUE</b>. If the required pages of the cached file are already resident in memory, the data is pinned immediately and no blocking occurs. If any needed pages are not resident, the caller is put in a wait state until all required pages have been made resident and the data can be pinned. If the PIN_WAIT flag is not set, but the data cannot be pinned immediately, <b>CcPinRead</b> returns <b>FALSE</b>, and its output parameter values are meaningless.
 
 If the caller subsequently modifies the data read by <b>CcPinRead</b>, it must also call <a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a> so that the modified data will eventually be written to disk.
@@ -159,27 +175,21 @@ If any failure occurs, <b>CcPinRead</b> raises a status exception for that parti
 To map data for a cached file, use the <a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a> routine. To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+
+<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
+
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
  
 
  

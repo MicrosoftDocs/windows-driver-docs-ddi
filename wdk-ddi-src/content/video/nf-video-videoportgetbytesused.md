@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 67fe089d-4cde-4caa-a4ad-8e879a30b516
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortGetBytesUsed
+ms.keywords: VideoPortGetBytesUsed, display.videoportgetbytesused, VideoPortGetBytesUsed function [Display Devices], VideoPort_Functions_315c6ad1-757d-44d3-8059-d94ab407ea69.xml, video/VideoPortGetBytesUsed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortGetBytesUsed
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortGetBytesUsed
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # VideoPortGetBytesUsed function
 
 
-
 ## -description
+
+
 The <b>VideoPortGetBytesUsed</b> function is <b>obsolete</b> in Windows 2000 and later.
 
 <b>VideoPortGetBytesUsed</b> determines the size, in bytes, of the buffer associated with a DMA handle.
 
 
-
 ## -syntax
+
 
 ````
 ULONG VideoPortGetBytesUsed(
@@ -57,6 +67,9 @@ ULONG VideoPortGetBytesUsed(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -69,8 +82,15 @@ Pointer to a DMA handle. To obtain the appropriate DMA handle, use the value in 
 
 
 ## -returns
+
+
 <b>VideoPortGetBytesUsed</b> always returns zero.
 
 
+
 ## -remarks
-See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.</p>
+
+
+See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
+
+

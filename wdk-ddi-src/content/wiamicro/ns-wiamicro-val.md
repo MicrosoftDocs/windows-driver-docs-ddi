@@ -7,8 +7,8 @@ old-location: image\val.htm
 old-project: image
 ms.assetid: 9c9cf520-3249-4c1e-9d0d-e07f7127117e
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: VAL, *PVAL, VAL
+ms.date: 1/18/2018
+ms.keywords: PVAL structure pointer [Imaging Devices], VAL structure [Imaging Devices], wiamicro/VAL, VAL, PVAL, *PVAL, wiamicro/PVAL, MicroDrv_397b66fc-2f8e-434e-88ac-24b5cdd415d5.xml, image.val
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Me and in Windows XP and later v
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VAL
-req.alt-loc: wiamicro.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wiamicro.h
+apiname: 
+-	VAL
+product: Windows
+targetos: Windows
 req.typenames: *PVAL, VAL
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VAL structure
 
 
-
 ## -description
+
+
 The VAL structure is used by the microdriver and WIA Flatbed driver to pass information between each other.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct VAL {
@@ -62,6 +72,9 @@ typedef struct VAL {
 
 
 ## -struct-fields
+
+
+
 
 ### -field lVal
 
@@ -107,5 +120,3 @@ Reserved. Do not use.
 
 Specifies the device name in ASCII form. If needed for interrupt checking, the microdriver can use this name to pass to <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> (described in the Microsoft Windows SDK documentation) in order to obtain a file handle to the device.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 707ced39-4153-4a6e-b87d-7e4eb487e738
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SePrivilegeCheck
+ms.keywords: seref_45aa3a8c-26b9-4bb9-968a-5f7d4a12ca3a.xml, SePrivilegeCheck routine [Installable File System Drivers], ntifs/SePrivilegeCheck, ifsk.seprivilegecheck, SePrivilegeCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SePrivilegeCheck
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	SePrivilegeCheck
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # SePrivilegeCheck function
 
 
-
 ## -description
+
+
 The <b>SePrivilegeCheck</b> routine determines whether a specified set of privileges is enabled in the subject's access token. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN SePrivilegeCheck(
@@ -55,6 +65,9 @@ BOOLEAN SePrivilegeCheck(
 
 
 ## -parameters
+
+
+
 
 ### -param RequiredPrivileges [in, out]
 
@@ -74,42 +87,39 @@ The access mode to use for the privilege check. Either <b>UserMode</b> or <b>Ker
 
 
 ## -returns
+
+
 <b>SePrivilegeCheck</b> returns <b>TRUE</b> if all specified privileges are held by the subject, <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 An access token contains a list of the privileges held by the account associated with the token. These privileges can be enabled or disabled; most are disabled by default. <b>SePrivilegeCheck</b> checks only for enabled privileges. To get a list of all the enabled and disabled privileges held by an access token, call <b>SeQueryInformationToken</b>. 
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_luid_and_attributes.md">LUID_AND_ATTRIBUTES</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-seappendprivileges.md">SeAppendPrivileges</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-sefreeprivileges.md">SeFreePrivileges</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-seappendprivileges.md">SeAppendPrivileges</a>
+
 <a href="..\ntddk\nf-ntddk-sesingleprivilegecheck.md">SeSinglePrivilegeCheck</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-sefreeprivileges.md">SeFreePrivileges</a>
+
+<a href="..\wdm\ns-wdm-_luid_and_attributes.md">LUID_AND_ATTRIBUTES</a>
+
+<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
+
+<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
+
  
 
  

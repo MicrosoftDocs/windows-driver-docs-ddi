@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e226cd36-45af-4d80-9aba-8919b267483b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+ms.keywords: display.dxgkddigetbrightness, DxgkDdiGetBrightness callback function [Display Devices], DxgkDdiGetBrightness, DXGK_BRIGHTNESS_GET, DXGK_BRIGHTNESS_GET, dispmprt/DxgkDdiGetBrightness, DmFunctions_be286481-7cef-4059-acb2-cac6554eb346.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiGetBrightness
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DxgkDdiGetBrightness
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGK_BRIGHTNESS_GET callback
 
 
-
 ## -description
+
+
 The <i>DxgkDdiGetBrightness</i> function retrieves the currently active brightness level of an integrated display panel.
 
 
-
 ## -prototype
+
 
 ````
 DXGK_BRIGHTNESS_GET DxgkDdiGetBrightness;
@@ -58,6 +68,9 @@ NTSTATUS* DxgkDdiGetBrightness(
 
 ## -parameters
 
+
+
+
 ### -param Context [in]
 
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
@@ -69,10 +82,15 @@ A pointer to a variable that receives the brightness level.
 
 
 ## -returns
+
+
 <i>DxgkDdiGetBrightness</i> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes that are defined in <i>Ntstatus.h</i>. 
 
 
+
 ## -remarks
+
+
 When the <a href="https://msdn.microsoft.com/6352c3fd-1a5f-4137-b76e-35c5b82a56c7">monitor driver</a> initializes, it can call the display miniport driver's <i>DxgkDdiGetBrightness</i> function to retrieve the brightness level that will be currently active for the integrated display panel.
 
 Because the monitor driver always gets the brightness level for the integrated display panel on boot or resume and all changes in brightness go through the monitor driver, the monitor driver should always have the current brightness level cached. Therefore, when clients query for the current brightness level, the level is queried from the monitor driver and not from the display miniport driver.
@@ -80,12 +98,11 @@ Because the monitor driver always gets the brightness level for the integrated d
 <i>DxgkDdiGetBrightness</i> should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-</dt>
-</dl>
+
  
 
  

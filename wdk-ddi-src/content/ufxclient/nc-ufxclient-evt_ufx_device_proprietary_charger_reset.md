@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 103E60D4-4640-430D-A4AE-E03D8B6E7031
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+ms.keywords: buses.evt_ufx_device_proprietary_charger_reset, EvtUfxDeviceProprietaryChargerReset callback function [Buses], EvtUfxDeviceProprietaryChargerReset, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET, ufxclient/EvtUfxDeviceProprietaryChargerReset, PFN_UFX_DEVICE_PROPRIETARY_CHARGER_RESET callback function pointer [Buses], PFN_UFX_DEVICE_PROPRIETARY_CHARGER_RESET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: PFN_UFX_DEVICE_PROPRIETARY_CHARGER_RESET
-req.alt-loc: Ufxclient.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Ufxclient.h
+apiname: 
+-	PFN_UFX_DEVICE_PROPRIETARY_CHARGER_RESET
+product: Windows
+targetos: Windows
+req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
 # EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET callback
 
 
-
 ## -description
+
+
 The client driver's implementation to resets proprietary charger. 
 
 
-
 ## -prototype
+
 
 ````
 EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET EvtUfxDeviceProprietaryChargerReset;
@@ -60,30 +70,39 @@ typedef EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET PFN_UFX_DEVICE_PROPRIETARY_CHAR
 
 ## -parameters
 
-### -param UfxDevice [in]
+
+
+
+
+
+
+#### - UfxDevice [in]
 
 The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 <i>EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET</i> is an optional event callback.
 
 The USB function class extension (UFX) invokes this  event callback to indicate that the USB device has been detached from the charger.  The client driver initiates a request to the lower filter driver to reset the proprietary charger its initial state.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
-</dt>
-<dt>
+
 <a href="..\ufxclient\nf-ufxclient-ufxdeviceproprietarychargerdetectcomplete.md">UfxDeviceProprietaryChargerDetectComplete</a>
-</dt>
-</dl>
+
+<a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
+
  
 
  

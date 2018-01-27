@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cd763f88-0ff6-4938-ac6e-88ed3da2022b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxNameCacheExpireEntry
+ms.keywords: ifsk.rxnamecacheexpireentry, rxref_d516a8aa-e7f8-48d4-8619-6b59a862ca0c.xml, RxNameCacheExpireEntry function [Installable File System Drivers], RxNameCacheExpireEntry, namcache/RxNameCacheExpireEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxNameCacheExpireEntry
-req.alt-loc: namcache.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	namcache.h
+apiname: 
+-	RxNameCacheExpireEntry
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
 
 # RxNameCacheExpireEntry function
 
 
-
 ## -description
+
+
 <b>RxNameCacheExpireEntry</b> puts a NAME_CACHE entry on the free list for recycling.
 
 
-
 ## -syntax
+
 
 ````
 VOID RxNameCacheExpireEntry(
@@ -54,6 +64,9 @@ VOID RxNameCacheExpireEntry(
 
 
 ## -parameters
+
+
+
 
 ### -param NameCacheCtl [in]
 
@@ -66,40 +79,37 @@ A pointer to the NAME_CACHE structure to expire.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The <b>RxNameCacheExpireEntry</b> routine assumes that the name cache entry is not on the active or free list. This routine inserts the <i>NameCache</i> entry at the head of the free list and subtracts one from the <b>NumberActivates</b> member of the NAME_CACHE_CONTROL structure pointed to by <i>NameCacheCtl</i> to update statistics.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\namcache\nf-namcache-rxnamecacheactivateentry.md">RxNameCacheActivateEntry</a>
-</dt>
-<dt>
-<a href="..\namcache\nf-namcache-rxnamecachecheckentry.md">RxNameCacheCheckEntry</a>
-</dt>
-<dt>
-<a href="..\namcache\nf-namcache-rxnamecachecreateentry.md">RxNameCacheCreateEntry</a>
-</dt>
-<dt>
-<a href="..\namcache\nf-namcache-rxnamecacheexpireentrywithshortname.md">RxNameCacheExpireEntryWithShortName</a>
-</dt>
-<dt>
+
 <a href="..\namcache\nf-namcache-rxnamecachefetchentry.md">RxNameCacheFetchEntry</a>
-</dt>
-<dt>
+
 <a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
-</dt>
-<dt>
-<a href="..\namcache\nf-namcache-rxnamecachefreeentry.md">RxNameCacheFreeEntry</a>
-</dt>
-<dt>
+
+<a href="..\namcache\nf-namcache-rxnamecachecheckentry.md">RxNameCacheCheckEntry</a>
+
 <a href="..\namcache\nf-namcache-rxnamecacheinitialize.md">RxNameCacheInitialize</a>
-</dt>
-</dl>
+
+<a href="..\namcache\nf-namcache-rxnamecachefreeentry.md">RxNameCacheFreeEntry</a>
+
+<a href="..\namcache\nf-namcache-rxnamecacheexpireentrywithshortname.md">RxNameCacheExpireEntryWithShortName</a>
+
+<a href="..\namcache\nf-namcache-rxnamecachecreateentry.md">RxNameCacheCreateEntry</a>
+
  
 
  

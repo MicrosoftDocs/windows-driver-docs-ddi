@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d22f4a14-2293-4210-bead-5814484a1471
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlSetDaclSecurityDescriptor
+ms.keywords: RtlSetDaclSecurityDescriptor, k109_b2723172-ac75-4ada-b421-ae144d10d560.xml, kernel.rtlsetdaclsecuritydescriptor, RtlSetDaclSecurityDescriptor routine [Kernel-Mode Driver Architecture], wdm/RtlSetDaclSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlSetDaclSecurityDescriptor
-req.alt-loc: NtosKrnl.exe,Ntdll.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+-	Ntdll.dll
+apiname: 
+-	RtlSetDaclSecurityDescriptor
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # RtlSetDaclSecurityDescriptor function
 
 
-
 ## -description
+
+
 The <b>RtlSetDaclSecurityDescriptor</b> routine sets the DACL information of an absolute-format security descriptor, or if there is already a DACL present in the security descriptor, it is superseded.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlSetDaclSecurityDescriptor(
@@ -57,6 +68,9 @@ NTSTATUS RtlSetDaclSecurityDescriptor(
 
 
 ## -parameters
+
+
+
 
 ### -param SecurityDescriptor [in, out]
 
@@ -79,47 +93,67 @@ Whether the DACL was supplied by some default mechanism, or was explicitly speci
 
 
 ## -returns
+
+
 <b>RtlSetDaclSecurityDescriptor</b> can return one of the following status values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The call completed successfully.
+</dl>
+</td>
+<td width="60%">
+The call completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNKNOWN_REVISION</b></dt>
-</dl>The revision of the security descriptor is unknown.
+</dl>
+</td>
+<td width="60%">
+The revision of the security descriptor is unknown.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_SECURITY_DESCR</b></dt>
-</dl>The security descriptor is not an absolute format security descriptor.
+</dl>
+</td>
+<td width="60%">
+The security descriptor is not an absolute format security descriptor.
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
+
+<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556619">SECURITY_DESCRIPTOR_CONTROL</a>
-</dt>
-</dl>
+
  
 
  

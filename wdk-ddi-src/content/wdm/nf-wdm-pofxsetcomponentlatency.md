@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 670AFE37-1617-4171-9504-50B13B8E0F76
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxSetComponentLatency
+ms.keywords: PoFxSetComponentLatency routine [Kernel-Mode Driver Architecture], wdm/PoFxSetComponentLatency, PoFxSetComponentLatency, kernel.pofxsetcomponentlatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PoFxSetComponentLatency
-req.alt-loc: Ntoskrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Ntoskrnl.exe
+apiname: 
+-	PoFxSetComponentLatency
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PoFxSetComponentLatency function
 
 
-
 ## -description
+
+
 The <b>PoFxSetComponentLatency</b> routine specifies the maximum latency that can be tolerated in the transition from the idle condition to the active condition in the specified component.
 
 
-
 ## -syntax
+
 
 ````
 VOID PoFxSetComponentLatency(
@@ -56,6 +66,9 @@ VOID PoFxSetComponentLatency(
 
 
 ## -parameters
+
+
+
 
 ### -param Handle [in]
 
@@ -73,10 +86,15 @@ The maximum latency, in 100-nanosecond units, that can be tolerated in the speci
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 The calling driver supplies a maximum latency that clients of the device can tolerate in the specified component. This latency is the time required to complete a transition from the idle condition to the active condition. PoFx uses this latency as a hint to improve performance.
 
 When the component switches from the active condition to the idle condition, PoFx selects an appropriate low-power Fx state for the component to enter. After this transition completes, the time required to switch back to the active condition depends on the selected Fx state. PoFx tries to select an Fx state that does not violate the maximum latency requirement.
@@ -88,15 +106,13 @@ The device driver can call <b>PoFxSetComponentLatency</b> each time a change in 
 If a component is in the idle condition when <b>PoFxSetComponentLatency</b> is called, PoFx might change the component’s current Fx state to accommodate the new maximum latency specified by the caller.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
-</dt>
-</dl>
+
  
 
  

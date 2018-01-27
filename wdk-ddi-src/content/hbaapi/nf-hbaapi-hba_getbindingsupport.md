@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 60542ed9-fbb0-48a3-bc97-ce3db7b4ae10
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_GetBindingSupport
+ms.keywords: HBA_GetBindingSupport routine [Storage Devices], HBA_GetBindingSupport, fibreHBA_rtns_98be4752-e595-4f33-b688-a373588c16f0.xml, hbaapi/HBA_GetBindingSupport, storage.hba_getbindingsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBA_GetBindingSupport
-req.alt-loc: Hbaapi.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Hbaapi.dll
+apiname: 
+-	HBA_GetBindingSupport
+product: Windows
+targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
 
 # HBA_GetBindingSupport function
 
 
-
 ## -description
+
+
 The <b>HBA_GetBindingSupport</b> routine retrieves the binding capabilities currently enabled for the specified port.
 
 
-
 ## -syntax
+
 
 ````
 HBA_STATUS HBA_API HBA_GetBindingSupport(
@@ -55,6 +65,9 @@ HBA_STATUS HBA_API HBA_GetBindingSupport(
 
 
 ## -parameters
+
+
+
 
 ### -param Handle [in]
 
@@ -72,35 +85,59 @@ Contains a bitwise OR of flags associated with the <a href="https://msdn.microso
 
 
 ## -returns
+
+
 The <b>HBA_GetBindingSupport</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_GetBindingCapability</b> returns one of the following qualifiers.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR_ILLEGAL_WWN</b></dt>
-</dl>Returned if the adapter does not contain a port with the name <i>HbaPortWWN</i>. 
+</dl>
+</td>
+<td width="60%">
+Returned if the adapter does not contain a port with the name <i>HbaPortWWN</i>. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR_NOT_SUPPORTED</b></dt>
-</dl>Returned if the adapter does not support persistent bindings. 
+</dl>
+</td>
+<td width="60%">
+Returned if the adapter does not support persistent bindings. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR</b></dt>
-</dl>Returned if an unspecified error occurred that prevented the retrieval of the port attributes.
+</dl>
+</td>
+<td width="60%">
+Returned if an unspecified error occurred that prevented the retrieval of the port attributes.
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556046">HBA_BIND_TYPE</a>
-</dt>
-<dt>
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-</dt>
-</dl>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
  
 
  

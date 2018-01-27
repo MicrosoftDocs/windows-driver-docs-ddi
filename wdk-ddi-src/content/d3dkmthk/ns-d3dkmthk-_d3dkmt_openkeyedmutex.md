@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c5200822-b393-4ba1-8d2a-d4ab98ffcf1d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_OPENKEYEDMUTEX, D3DKMT_OPENKEYEDMUTEX
+ms.keywords: display.d3dkmt_openkeyedmutex, D3DKMT_OPENKEYEDMUTEX structure [Display Devices], OpenGL_Structs_78a96126-b992-431f-9e91-c08c61694732.xml, _D3DKMT_OPENKEYEDMUTEX, D3DKMT_OPENKEYEDMUTEX, d3dkmthk/D3DKMT_OPENKEYEDMUTEX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3DKMT_OPENKEYEDMUTEX is supported beginning with the
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_OPENKEYEDMUTEX
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_OPENKEYEDMUTEX
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_OPENKEYEDMUTEX
 ---
 
 # _D3DKMT_OPENKEYEDMUTEX structure
 
 
-
 ## -description
+
+
 The D3DKMT_OPENKEYEDMUTEX structure describes a keyed mutex that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenkeyedmutex.md">D3DKMTOpenKeyedMutex</a> function opens. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_OPENKEYEDMUTEX {
@@ -55,6 +65,9 @@ typedef struct _D3DKMT_OPENKEYEDMUTEX {
 
 ## -struct-fields
 
+
+
+
 ### -field hSharedHandle
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode shared global handle to the keyed mutex object. 
@@ -65,15 +78,10 @@ typedef struct _D3DKMT_OPENKEYEDMUTEX {
 [out] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the keyed mutex object in the current process. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenkeyedmutex.md">D3DKMTOpenKeyedMutex</a>
-</dt>
-</dl>
+
  
 
  

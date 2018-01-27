@@ -7,8 +7,8 @@ old-location: print\dot4_activity.htm
 old-project: print
 ms.assetid: CD3DBBA5-AE5C-4DC1-BE52-696138494701
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: _DOT4_ACTIVITY, *PDOT4_ACTIVITY, DOT4_ACTIVITY
+ms.date: 1/18/2018
+ms.keywords: PDOT4_ACTIVITY structure pointer [Print Devices], DOT4_ACTIVITY, PDOT4_ACTIVITY, *PDOT4_ACTIVITY, d4iface/PDOT4_ACTIVITY, d4iface/DOT4_ACTIVITY, DOT4_ACTIVITY structure [Print Devices], _DOT4_ACTIVITY, print.dot4_activity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DOT4_ACTIVITY
-req.alt-loc: D4iface.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D4iface.h
+apiname: 
+-	DOT4_ACTIVITY
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # _DOT4_ACTIVITY structure
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct _DOT4_ACTIVITY {
@@ -56,13 +66,17 @@ typedef struct _DOT4_ACTIVITY {
 
 ## -struct-fields
 
+
+
+
 ### -field ulMessage
+
 
 
 ### -field ulByteCount
 
 
+
 ### -field hChannel
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4C07239D-89AE-4A9F-B7EB-CFFE6D47F10B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBDEVICE_RESET, *PUSBDEVICE_RESET, USBDEVICE_RESET
+ms.keywords: buses._usbdevice_reset, ucxusbdevice/P_USBDEVICE_RESET, _USBDEVICE_RESET, P_USBDEVICE_RESET, *PUSBDEVICE_RESET, ucxusbdevice/_USBDEVICE_RESET, USBDEVICE_RESET, USBDEVICE_RESET structure [Buses], P_USBDEVICE_RESET structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBDEVICE_RESET
-req.alt-loc: ucxusbdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ucxusbdevice.h
+apiname: 
+-	USBDEVICE_RESET
+product: Windows
+targetos: Windows
 req.typenames: *PUSBDEVICE_RESET, USBDEVICE_RESET
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USBDEVICE_RESET structure
 
 
-
 ## -description
+
+
 Contains parameters for a request to reset the specified device.  This structure is passed by UCX in request parameters (<b>Parameters.Others.Arg1</b>) of a framework request object of the <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_reset.md">EVT_UCX_USBDEVICE_RESET</a> callback function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBDEVICE_RESET {
@@ -61,6 +71,9 @@ typedef struct _USBDEVICE_RESET {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -82,15 +95,10 @@ The number of endpoints to disable.
 A pointer to an array of handles to endpoints to disable. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_reset.md">EVT_UCX_USBDEVICE_RESET</a>
-</dt>
-</dl>
+
  
 
  

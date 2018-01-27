@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 90D08857-69E0-4DD9-9588-86900466E8DE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR
+ms.keywords: serports.evtsercxfileopen, EvtSerCxFileOpen callback function [Serial Ports], EvtSerCxFileOpen, EVT_SERCX_FILEOPEN, EVT_SERCX_FILEOPEN, 1/EvtSerCxFileOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: EvtSerCxFileOpen
-req.alt-loc: 1.0\Sercx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	1.0\Sercx.h
+apiname: 
+-	EvtSerCxFileOpen
+product: Windows
+targetos: Windows
 req.typenames: *PSENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # EVT_SERCX_FILEOPEN callback
 
 
-
 ## -description
+
+
 The <i>EvtSerCxFileOpen</i> event callback function notifies the serial controller driver that a client opened a file handle on the serial controller device and that a file object has been created to represent the device.
 
 
-
 ## -prototype
+
 
 ````
 EVT_SERCX_FILEOPEN EvtSerCxFileOpen;
@@ -58,37 +68,36 @@ NTSTATUS EvtSerCxFileOpen(
 
 ## -parameters
 
+
+
+
 ### -param Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 
 ## -returns
+
+
 The <i>EvtSerCxFileOpen</i> function returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error status code.
 
 
+
 ## -remarks
+
+
 The serial framework extension (SerCx) calls this function to prepare the serial controller hardware to accept requests for I/O operations. This function should configure the controller in a state in which it is ready to receive and transmit data. If interrupts are required, this function should enable interrupts. In addition, this function should allocate any memory that is required only during the lifetime of the file object. For example, this function can allocate an interrupt data buffer.
 
 To register an <i>EvtSerCxFileOpen</i> callback function, the driver must call the <a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a> method.
 
 For more information, see <a href="https://msdn.microsoft.com/93ec5dd7-8ef0-4cea-9253-ea5d7869d4b8">Framework File Objects</a>.
 
-The function type for this callback is declared in Sercx.h, as follows.
-
-To define an <i>EvtSerCxFileOpen</i> callback function that is named <code>MyEvtSerCxFileOpen</code>, you must first provide a function declaration that <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV) and other verification tools require, as follows.
-
-Then, implement your callback function as follows.
-
-For more information about SDV requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions Using Function Role Types for KMDF Drivers</a>.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a>
-</dt>
-</dl>
+
  
 
  

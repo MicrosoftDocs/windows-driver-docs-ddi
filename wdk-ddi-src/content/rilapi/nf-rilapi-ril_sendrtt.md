@@ -7,8 +7,8 @@ old-location: netvista\ril_sendrtt.htm
 old-project: netvista
 ms.assetid: d655aa2e-ec58-4f9b-a349-a19e7c78469a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RIL_SendRTT
+ms.date: 1/18/2018
+ms.keywords: rilapi/RIL_SendRTT, RIL_SendRTT method [Network Drivers Starting with Windows Vista], RIL_SendRTT, netvista.ril_sendrtt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RIL_SendRTT
-req.alt-loc: rilapi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,25 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-req.typenames: *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapi.h
+apiname: 
+-	RIL_SendRTT
+product: Windows
+targetos: Windows
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 
 # RIL_SendRTT function
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
 
 
-
 ## -syntax
+
 
 ````
 HRESULT  RIL_SendRTT(
@@ -61,23 +71,32 @@ HRESULT  RIL_SendRTT(
 
 ## -parameters
 
-### -param hRil 
 
 
-### -param lpContext 
+
+### -param hRil
 
 
-### -param dwID 
+
+### -param lpContext
 
 
-### -param dwExecutor 
+
+### -param dwID
 
 
-### -param lpwszRTTText 
+
+### -param dwExecutor
+
+
+
+### -param lpwszRTTText
+
 
 
 ## -returns
+
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
-## -remarks

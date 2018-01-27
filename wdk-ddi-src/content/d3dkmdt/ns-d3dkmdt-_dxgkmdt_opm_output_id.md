@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c7b2e4ba-7f76-474d-9752-0934898cac09
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKMDT_OPM_OUTPUT_ID, DXGKMDT_OPM_OUTPUT_ID
+ms.keywords: d3dkmdt/DXGKMDT_OPM_OUTPUT_ID, DXGKMDT_OPM_OUTPUT_ID structure [Display Devices], display.dxgkmdt_opm_output_id, DXGKMDT_OPM_OUTPUT_ID, DmStructs_b0696fe6-3647-4a09-9817-578d4cfbf60a.xml, _DXGKMDT_OPM_OUTPUT_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKMDT_OPM_OUTPUT_ID
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	DXGKMDT_OPM_OUTPUT_ID
+product: Windows
+targetos: Windows
 req.typenames: DXGKMDT_OPM_OUTPUT_ID
 ---
 
 # _DXGKMDT_OPM_OUTPUT_ID structure
 
 
-
 ## -description
+
+
 The DXGKMDT_OPM_OUTPUT_ID structure identifies the output connector. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKMDT_OPM_OUTPUT_ID {
@@ -55,6 +65,9 @@ typedef struct _DXGKMDT_OPM_OUTPUT_ID {
 
 
 ## -struct-fields
+
+
+
 
 ### -field rnRandomNumber
 
@@ -71,21 +84,14 @@ A bitwise OR combination of the values from the <a href="..\d3dkmdt\ne-d3dkmdt-_
 A UINT64 value that identifies the output connector. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
-</dt>
-</dl>
+
  
 
  

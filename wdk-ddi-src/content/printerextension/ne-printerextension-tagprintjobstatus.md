@@ -7,8 +7,8 @@ old-location: print\printjobstatus.htm
 old-project: print
 ms.assetid: 856FDAE1-C1D9-458D-B386-0A2D8612EA33
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: tagPrintJobStatus, PrintJobStatus
+ms.date: 1/18/2018
+ms.keywords: PrintJobStatus_Deleting, PrintJobStatus, printerextension/PrintJobStatus_Spooling, printerextension/PrintJobStatus_BlockedDeviceQueue, printerextension/PrintJobStatus_Error, printerextension/PrintJobStatus_Complete, PrintJobStatus_Error, tagPrintJobStatus, printerextension/PrintJobStatus_Printing, printerextension/PrintJobStatus, printerextension/PrintJobStatus_Printed, PrintJobStatus_BlockedDeviceQueue, PrintJobStatus_UserIntervention, printerextension/PrintJobStatus_UserIntervention, PrintJobStatus_Printed, PrintJobStatus_Retained, PrintJobStatus_Spooling, PrintJobStatus_Deleted, printerextension/PrintJobStatus_Retained, printerextension/PrintJobStatus_Deleting, PrintJobStatus_Offline, printerextension/PrintJobStatus_Paused, printerextension/PrintJobStatus_Offline, PrintJobStatus_PaperOut, printerextension/PrintJobStatus_PaperOut, print.printjobstatus, PrintJobStatus_Paused, PrintJobStatus enumeration [Print Devices], printerextension/PrintJobStatus_Restarted, PrintJobStatus_Restarted, printerextension/PrintJobStatus_Deleted, PrintJobStatus_Complete, PrintJobStatus_Printing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PrintJobStatus
-req.alt-loc: Printerextension.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Printerextension.h
+apiname: 
+-	PrintJobStatus
+product: Windows
+targetos: Windows
 req.typenames: PrintJobStatus
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # tagPrintJobStatus enumeration
 
 
-
 ## -description
+
+
 This enumeration is a one-to-one mapping to the spooler flags suppled in the JOB_INFO_X structures.
 
 For example, <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd145019(v=vs.85).aspx">JOB_INFO_1</a> has the same set of status flags as shown in the following list.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _PrintJobStatus { 
@@ -69,6 +79,9 @@ typedef enum _PrintJobStatus {
 
 
 ## -enum-fields
+
+
+
 
 ### -field PrintJobStatus_Paused
 
@@ -141,21 +154,23 @@ The job has been retained in the print queue and cannot be deleted.
 
 
 ## -remarks
+
+
 A <b>PrintJobStatus_Retained</b> flag can be raised for several reasons. For example, jobs could be kept in the queue if the administrator of the queue used the desktop print queue UI to set the “Keep Printed Jobs” feature to be on.
 
 It is possible for a job to have multiple  flag values specified simultaneously.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/3C806C3B-78A1-44B6-A9AC-E7258D216637">IPrintJob::Status</a>
-</dt>
-<dt><a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd145019(v=vs.85).aspx">JOB_INFO_1</a></dt>
-</dl>
- 
+
+<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd145019(v=vs.85).aspx">JOB_INFO_1</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20PrintJobStatus enumeration%20 RELEASE:%20(1/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20PrintJobStatus enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

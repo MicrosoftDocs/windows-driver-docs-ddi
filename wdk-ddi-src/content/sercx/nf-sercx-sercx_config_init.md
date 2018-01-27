@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: C7442A59-6D7C-4551-B0E4-F1E8A5BEB4B7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERCX_CONFIG_INIT
+ms.keywords: SERCX_CONFIG_INIT function [Serial Ports], SERCX_CONFIG_INIT, 1/SERCX_CONFIG_INIT, serports.sercx_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SERCX_CONFIG_INIT
-req.alt-loc: 1.0\Sercx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any IRQL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1.0\Sercx.h
+apiname: 
+-	SERCX_CONFIG_INIT
+product: Windows
+targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SERCX_CONFIG_INIT function
 
 
-
 ## -description
+
+
 The <b>SERCX_CONFIG_INIT</b> function initializes a <a href="..\sercx\ns-sercx-_sercx_config.md">SERCX_CONFIG</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 VOID SERCX_CONFIG_INIT(
@@ -55,24 +65,25 @@ VOID SERCX_CONFIG_INIT(
 
 ## -parameters
 
+
+
+
 ### -param Config [out]
 
 A pointer to the <b>SERCX_CONFIG</b> structure that is to be initialized.
 
 
 ## -returns
+
+
 None.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\sercx\ns-sercx-_sercx_config.md">SERCX_CONFIG</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a501a693-bea1-43eb-af8c-5512c8ee9d50
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSEVENT_ITEM, KSEVENT_ITEM, *PKSEVENT_ITEM
+ms.keywords: *PKSEVENT_ITEM, KSEVENT_ITEM, PKSEVENT_ITEM structure pointer [Streaming Media Devices], ks/PKSEVENT_ITEM, PKSEVENT_ITEM, ks-struct_1e126443-3eef-4e67-9969-69c3a4aaa17c.xml, ks/KSEVENT_ITEM, stream.ksevent_item, KSEVENT_ITEM structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSEVENT_ITEM
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSEVENT_ITEM
+product: Windows
+targetos: Windows
 req.typenames: KSEVENT_ITEM, *PKSEVENT_ITEM
 ---
 
 # KSEVENT_ITEM structure
 
 
-
 ## -description
+
+
 The KSEVENT_ITEM structure describe a minidriver's support for a specific event within an event set.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -58,6 +68,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field EventId
 
@@ -90,24 +103,22 @@ Not used by the stream class driver.
 
 
 ## -remarks
+
+
 <i>A minidriver that specifies the </i><b>AddHandler</b><i> and </i><b>RemoveHandler</b><i> members and does not properly clean the events up can cause a resource (memory/handle) leak.</i>
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
-</dt>
-<dt>
+
 <a href="..\ks\ni-ks-ioctl_ks_disable_event.md">IOCTL_KS_DISABLE_EVENT</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+
+<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+
  
 
  

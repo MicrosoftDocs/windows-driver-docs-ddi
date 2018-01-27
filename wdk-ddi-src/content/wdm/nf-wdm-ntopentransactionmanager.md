@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b3eb40ad-cda9-4a2f-a794-670bd2ee9102
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtOpenTransactionManager
+ms.keywords: NtOpenTransactionManager, ktm_ref_26c2e5a4-0a1b-4d75-994a-88f45e213fe3.xml, ZwOpenTransactionManager, wdm/NtOpenTransactionManager, wdm/ZwOpenTransactionManager, kernel.zwopentransactionmanager, ZwOpenTransactionManager routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later operating system
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwOpenTransactionManager,NtOpenTransactionManager
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ZwOpenTransactionManager
+-	NtOpenTransactionManager
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # NtOpenTransactionManager function
 
 
-
 ## -description
+
+
 The <b>ZwOpenTransactionManager</b> routine obtains a handle to an existing transaction manager object.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ZwOpenTransactionManager(
@@ -59,6 +70,9 @@ NTSTATUS ZwOpenTransactionManager(
 
 
 ## -parameters
+
+
+
 
 ### -param TmHandle [out]
 
@@ -91,38 +105,93 @@ This parameter is not used and must be zero.
 
 
 ## -returns
+
+
 <b>ZwOpenTransactionManager</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The value of an input parameter is invalid.
+</dl>
+</td>
+<td width="60%">
+The value of an input parameter is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>KTM could not allocate system resources (typically memory).
+</dl>
+</td>
+<td width="60%">
+KTM could not allocate system resources (typically memory).
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_NAME_INVALID</b></dt>
-</dl>The object name that the <i>ObjectAttributes </i>parameter specifies is invalid.
+</dl>
+</td>
+<td width="60%">
+The object name that the <i>ObjectAttributes </i>parameter specifies is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_LOG_CORRUPTION_DETECTED</b></dt>
-</dl>KTM encountered an error while creating or opening the log file.
+</dl>
+</td>
+<td width="60%">
+KTM encountered an error while creating or opening the log file.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>The value of the <i>DesiredAccess</i> parameter is invalid.
+</dl>
+</td>
+<td width="60%">
+The value of the <i>DesiredAccess</i> parameter is invalid.
 
- 
+</td>
+</tr>
+</table> 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
-## -remarks
-The caller can identify which transaction manager object to open by using one of the following three techniques:
 
+## -remarks
+
+
+The caller can identify which transaction manager object to open by using one of the following three techniques:
+<ul>
+<li>
 Use the <i>LogFileName</i> parameter to specify the path and file name of a log file stream that was created when the transaction manager object was created.
 
+</li>
+<li>
 Use the <i>TmIdentity</i> parameter to specify the GUID that identifies the transaction manager object. 
 
+</li>
+<li>
 Use the <i>ObjectAttributes</i> parameter to supply an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that contains the object name that the caller previously specified to the <a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a> routine. 
 
-You must specify only one of the above-listed parameters (an object name, a log file name, or a GUID) and set the other two parameters to <b>NULL</b>.
+</li>
+</ul>You must specify only one of the above-listed parameters (an object name, a log file name, or a GUID) and set the other two parameters to <b>NULL</b>.
 
 Your TPS component must call <a href="..\wdm\nf-wdm-zwrecovertransactionmanager.md">ZwRecoverTransactionManager</a> after it has called <b>ZwOpenTransactionManager</b>.
 
@@ -135,30 +204,23 @@ For more information about how to use <b>ZwOpenTransactionManager</b>, see <a hr
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
  
 
  

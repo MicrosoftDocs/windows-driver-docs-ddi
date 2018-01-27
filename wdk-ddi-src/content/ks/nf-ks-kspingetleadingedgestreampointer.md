@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 05615730-dbeb-496a-b4a8-a16830b31586
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinGetLeadingEdgeStreamPointer
+ms.keywords: KsPinGetLeadingEdgeStreamPointer function [Streaming Media Devices], stream.kspingetleadingedgestreampointer, KsPinGetLeadingEdgeStreamPointer, ks/KsPinGetLeadingEdgeStreamPointer, avfunc_0eb1faec-c090-4647-8306-84cff42ddf9c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsPinGetLeadingEdgeStreamPointer
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsPinGetLeadingEdgeStreamPointer
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsPinGetLeadingEdgeStreamPointer function
 
 
-
 ## -description
+
+
 The<b> KsPinGetLeadingEdgeStreamPointer</b> function acquires the leading edge stream pointer for the queue associated with the given pin.
 
 
-
 ## -syntax
+
 
 ````
 PKSSTREAM_POINTER KsPinGetLeadingEdgeStreamPointer(
@@ -54,6 +65,9 @@ PKSSTREAM_POINTER KsPinGetLeadingEdgeStreamPointer(
 
 
 ## -parameters
+
+
+
 
 ### -param Pin [in]
 
@@ -67,52 +81,48 @@ This parameter specifies how to acquire the leading edge stream pointer. Can be 
 
 
 
-### -param KSSTREAM_POINTER_STATE_UNLOCKED
+##### - State.KSSTREAM_POINTER_STATE_LOCKED
+
+Acquire and lock the leading edge stream pointer. If no data frame is associated with the stream pointer, return <b>NULL</b>. If a non<b>null</b> pointer is returned, it is a locked stream pointer and has a data frame associated with it. Frames associated with a locked stream pointer <b>cannot</b> be canceled. 
+
+
+##### - State.KSSTREAM_POINTER_STATE_UNLOCKED
 
 Acquire the leading edge stream pointer regardless of whether it references a data frame or not. 
 
 No attempts can be made to access any data associated with the pointer until the pointer is locked. Also note that frames associated with an unlocked stream pointer can be canceled.
 
 
-### -param KSSTREAM_POINTER_STATE_LOCKED
-
-Acquire and lock the leading edge stream pointer. If no data frame is associated with the stream pointer, return <b>NULL</b>. If a non<b>null</b> pointer is returned, it is a locked stream pointer and has a data frame associated with it. Frames associated with a locked stream pointer <b>cannot</b> be canceled. 
-
-</dd>
-</dl>
-
 ## -returns
+
+
 <b>KsPinGetLeadingEdgeStreamPointer</b> returns a pointer to a <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure or <b>NULL</b>. A return value of <b>NULL</b> may occur because there is no queue associated with the pin, indicating that the pin does not use the standard transport mechanism. Alternatively, a return value of <b>NULL</b> may occur because an attempt to lock the leading edge failed, indicating that there is no data frame associated with the leading edge.
 
 
+
 ## -remarks
+
+
 Filters that implement <a href="https://msdn.microsoft.com/0b6a02c2-e672-4568-a890-491c721ec3a7">Pin-Centric Processing</a> often call <b>KsPinGetLeadingEdgeStreamPointer</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksstreampointeradvance.md">KsStreamPointerAdvance</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-kspingettrailingedgestreampointer.md">KsPinGetTrailingEdgeStreamPointer</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
+
+<a href="..\ks\nf-ks-ksstreampointeradvance.md">KsStreamPointerAdvance</a>
+
+<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
+
+<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
+
+<a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
+
+<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
+
  
 
  

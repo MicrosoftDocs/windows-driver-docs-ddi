@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 474F1772-0DF9-487B-AEB9-302392AE0B98
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddigetrootpagetablesize, DxgkDdiGetRootPageTableSize callback function [Display Devices], DxgkDdiGetRootPageTableSize, DXGKDDI_GETROOTPAGETABLESIZE, DXGKDDI_GETROOTPAGETABLESIZE, d3dkmddi/DxgkDdiGetRootPageTableSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiGetRootPageTableSize
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DxgkDdiGetRootPageTableSize
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_GETROOTPAGETABLESIZE callback
 
 
-
 ## -description
+
+
 <b>DxgkDdiGetRootPageTableSize</b> returns the minimum root page table size,  in bytes, that is needed to hold the given number of page table entries. The actual number of entries in the page table could be greater than the given value. 
 
 <b>DxgkDdiGetRootPageTableSize</b> is called only when <b>DXGK_GPUMMUCAPS</b>::<b>PageTableLevelCount</b> is two.
@@ -46,8 +56,8 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
   
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_GETROOTPAGETABLESIZE DxgkDdiGetRootPageTableSize;
@@ -62,6 +72,9 @@ SIZE_T APIENTRY DxgkDdiGetRootPageTableSize(
 
 ## -parameters
 
+
+
+
 ### -param hAdapter [in]
 
 A handle to the display adapter.
@@ -73,7 +86,8 @@ The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getrootpagetablesize.md">DXGKARG_G
 
 
 ## -returns
+
+
 The page table size in bytes. The size must be a multiple of the page size of the GPU memory segment where page table is located.
 
 
-## -remarks

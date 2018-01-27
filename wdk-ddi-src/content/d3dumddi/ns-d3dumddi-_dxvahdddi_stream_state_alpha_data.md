@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0cd14f0c-5b7b-443b-ab37-c455b4accacb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVAHDDDI_STREAM_STATE_ALPHA_DATA, DXVAHDDDI_STREAM_STATE_ALPHA_DATA
+ms.keywords: DXVA2_Structs_33a16800-e101-40e7-b776-36161a8a984a.xml, DXVAHDDDI_STREAM_STATE_ALPHA_DATA, display.dxvahdddi_stream_state_alpha_data, _DXVAHDDDI_STREAM_STATE_ALPHA_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_ALPHA_DATA, DXVAHDDDI_STREAM_STATE_ALPHA_DATA structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: DXVAHDDDI_STREAM_STATE_ALPHA_DATA is supported beginn
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVAHDDDI_STREAM_STATE_ALPHA_DATA
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVAHDDDI_STREAM_STATE_ALPHA_DATA
+product: Windows
+targetos: Windows
 req.typenames: DXVAHDDDI_STREAM_STATE_ALPHA_DATA
 ---
 
 # _DXVAHDDDI_STREAM_STATE_ALPHA_DATA structure
 
 
-
 ## -description
+
+
 The DXVAHDDDI_STREAM_STATE_ALPHA_DATA structure describes stream-state data that specifies the alpha blend level per-plane. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVAHDDDI_STREAM_STATE_ALPHA_DATA {
@@ -54,6 +64,9 @@ typedef struct _DXVAHDDDI_STREAM_STATE_ALPHA_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Enable
 
@@ -66,6 +79,8 @@ typedef struct _DXVAHDDDI_STREAM_STATE_ALPHA_DATA {
 
 
 ## -remarks
+
+
 The driver multiplies the alpha value with each source pixel and blends the result with the destination pixel. For example, the driver uses the following values to perform the following calculation:
 
 Cs = source pixel color value
@@ -85,12 +100,11 @@ Ad = per-pixel destination alpha value [0.0, 1.0]
 The Ad parameter is set with values from the <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_alpha_fill_mode.md">DXVAHDDDI_ALPHA_FILL_MODE</a> enumeration.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_alpha_fill_mode.md">DXVAHDDDI_ALPHA_FILL_MODE</a>
-</dt>
-</dl>
+
  
 
  

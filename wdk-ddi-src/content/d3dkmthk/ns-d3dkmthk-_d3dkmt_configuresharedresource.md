@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba190f01-428a-4574-8032-c800ce19ba3e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_CONFIGURESHAREDRESOURCE, D3DKMT_CONFIGURESHAREDRESOURCE
+ms.keywords: D3DKMT_CONFIGURESHAREDRESOURCE structure [Display Devices], d3dkmthk/D3DKMT_CONFIGURESHAREDRESOURCE, OpenGL_Structs_ae687fae-f425-4a9b-8426-ee3cc02c8170.xml, _D3DKMT_CONFIGURESHAREDRESOURCE, D3DKMT_CONFIGURESHAREDRESOURCE, display.d3dkmt_configuresharedresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3DKMT_CONFIGURESHAREDRESOURCE is supported beginning
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_CONFIGURESHAREDRESOURCE
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_CONFIGURESHAREDRESOURCE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_CONFIGURESHAREDRESOURCE
 ---
 
 # _D3DKMT_CONFIGURESHAREDRESOURCE structure
 
 
-
 ## -description
+
+
 The D3DKMT_CONFIGURESHAREDRESOURCE structure describes parameters that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtconfiguresharedresource.md">D3DKMTConfigureSharedResource</a> function uses to configure a shared resource. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_CONFIGURESHAREDRESOURCE {
@@ -57,6 +67,9 @@ typedef struct _D3DKMT_CONFIGURESHAREDRESOURCE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -83,15 +96,10 @@ typedef struct _D3DKMT_CONFIGURESHAREDRESOURCE {
 [in] A Boolean value that specifies whether the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtconfiguresharedresource.md">D3DKMTConfigureSharedResource</a> function should allow the process to access the resource. <b>TRUE</b> indicates to allow access; <b>FALSE</b> indicates to not allow access. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtconfiguresharedresource.md">D3DKMTConfigureSharedResource</a>
-</dt>
-</dl>
+
  
 
  

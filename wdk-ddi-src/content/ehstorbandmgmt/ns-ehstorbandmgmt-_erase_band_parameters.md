@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CD7388DD-84CD-4158-91F3-9DB0559DFC2F
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ERASE_BAND_PARAMETERS, ERASE_BAND_PARAMETERS, *PERASE_BAND_PARAMETERS
+ms.keywords: ehstorbandmgmt/ERASE_BAND_PARAMETERS, storage.erase_band_parameters, ERASEBAND_AUTHKEY_CACHING_ENABLED, PERASE_BAND_PARAMETERS structure pointer [Storage Devices], _ERASE_BAND_PARAMETERS, PERASE_BAND_PARAMETERS, ehstorbandmgmt/PERASE_BAND_PARAMETERS, ERASE_BAND_PARAMETERS structure [Storage Devices], ERASE_BAND_PARAMETERS, *PERASE_BAND_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ERASE_BAND_PARAMETERS
-req.alt-loc: EhStorBandMgmt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	EhStorBandMgmt.h
+apiname: 
+-	ERASE_BAND_PARAMETERS
+product: Windows
+targetos: Windows
 req.typenames: ERASE_BAND_PARAMETERS, *PERASE_BAND_PARAMETERS
 ---
 
 # _ERASE_BAND_PARAMETERS structure
 
 
-
 ## -description
+
+
 The <b>ERASE_BAND_PARAMETERS</b> structure contains the selection criteria for a band to erase. Additionally, a new authentication key can be set. This structure is input for an <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_erase_band.md"> IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a> request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ERASE_BAND_PARAMETERS {
@@ -59,6 +69,9 @@ typedef struct _ERASE_BAND_PARAMETERS {
 
 ## -struct-fields
 
+
+
+
 ### -field StructSize
 
 The size of this structure in bytes. Set to <b>sizeof</b>(ERASE_BAND_PARAMETERS).
@@ -67,24 +80,22 @@ The size of this structure in bytes. Set to <b>sizeof</b>(ERASE_BAND_PARAMETERS)
 ### -field Flags
 
 Delete operation flags. This value is a bitwise OR combination of the following.
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field ERASEBAND_AUTHKEY_CACHING_ENABLED
-
+<td width="40%"><a id="ERASEBAND_AUTHKEY_CACHING_ENABLED"></a><a id="eraseband_authkey_caching_enabled"></a><dl>
+<dt><b>ERASEBAND_AUTHKEY_CACHING_ENABLED</b></dt>
+</dl>
 </td>
 <td width="60%">
 The new authentication key for this band is cached allowing for automation of later operations.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Reserved
@@ -105,7 +116,6 @@ The starting byte location on the storage device to begin a band search. An atte
 ### -field NewAuthKeyOffset
 
 The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the new authorization key for the band. The offset is from the beginning of <b>ERASE_BAND_PARAMETERS</b>. <b>AUTH_KEY</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -121,40 +131,36 @@ The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the new autho
 </tr>
 </table></span></div>
 
+To specify a default authentication key to the band, set   <b>NewAuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>.
 
 
-### -field KeySize
+##### - NewAuthKeyOffset.Key
+
+A variable-length byte array that contains the key data.
+
+
+##### - NewAuthKeyOffset.KeySize
 
 The size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> is set to 0, a default key is used.
 
 
-### -field Key
-
-A variable-length byte array that contains the key data.
-
-</dd>
-</dl>
-To specify a default authentication key to the band, set   <b>NewAuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>.
-
-
 ## -remarks
+
+
  Precedence is given to <b>BandID</b> for band selection.  If <b>BandID</b>  is greater than   0 and  <b>BandID</b>  is less than the  <b>MaxBandCount</b> member of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>, then   <b>BandID</b> is used as the only selection criteria for a band match. If  <b>BandID</b> == –1, then <b>BandStart</b> is used as  the match criteria to select a band. If no band matches either selection criteria, then STATUS_INVALID_PARAMETER is returned in the <i>IoStatus</i> block for <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_erase_band.md">IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a>.
 
 .
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
-</dt>
-<dt>
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band.md">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>
-</dt>
-<dt>
+
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_erase_band.md">IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a>
-</dt>
-</dl>
+
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
+
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band.md">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>
+
  
 
  

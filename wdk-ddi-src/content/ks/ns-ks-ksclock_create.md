@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 72986a01-de40-4b8f-9dfc-d26f4999e66b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCLOCK_CREATE, KSCLOCK_CREATE, *PKSCLOCK_CREATE
+ms.keywords: KSCLOCK_CREATE structure [Streaming Media Devices], ks/KSCLOCK_CREATE, PKSCLOCK_CREATE, *PKSCLOCK_CREATE, PKSCLOCK_CREATE structure pointer [Streaming Media Devices], ks/PKSCLOCK_CREATE, ks-struct_8202019a-97e5-4d76-9594-93189e3c1c30.xml, stream.ksclock_create, KSCLOCK_CREATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSCLOCK_CREATE
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KSCLOCK_CREATE, *PKSCLOCK_CREATE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSCLOCK_CREATE
+product: Windows
+targetos: Windows
+req.typenames: *PKSCLOCK_CREATE, KSCLOCK_CREATE
 ---
 
 # KSCLOCK_CREATE structure
 
 
-
 ## -description
+
+
 The KSCLOCK_CREATE structure is used in clock create parameters for the <a href="..\ks\nf-ks-kscreateclock.md">KsCreateClock</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -54,20 +64,18 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field CreateFlags
 
 Currently consists of a flags item, which must be set to zero.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-kscreateclock.md">KsCreateClock</a>
-</dt>
-</dl>
+
  
 
  

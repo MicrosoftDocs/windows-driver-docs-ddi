@@ -7,8 +7,8 @@ old-location: netvista\nmrclientdetachprovidercomplete.htm
 old-project: netvista
 ms.assetid: e54864de-9558-44b1-9c5a-0f2ecc6516b1
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NmrClientDetachProviderComplete
+ms.date: 1/18/2018
+ms.keywords: netvista.nmrclientdetachprovidercomplete, NmrClientDetachProviderComplete, NmrClientDetachProviderComplete function [Network Drivers Starting with Windows Vista], nmrref_7fb0e7ef-62a3-4dc4-a0e2-b38005056317.xml, netioddk/NmrClientDetachProviderComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NmrClientDetachProviderComplete
-req.alt-loc: netio.lib,netio.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: *PNET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	netio.lib
+-	netio.dll
+apiname: 
+-	NmrClientDetachProviderComplete
+product: Windows
+targetos: Windows
+req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
 ---
 
 # NmrClientDetachProviderComplete function
 
 
-
 ## -description
+
+
 The 
   <b>NmrClientDetachProviderComplete</b> function notifies the NMR that a client module has completed
   detaching from a provider module.
 
 
-
 ## -syntax
+
 
 ````
 VOID NmrClientDetachProviderComplete(
@@ -56,6 +67,9 @@ VOID NmrClientDetachProviderComplete(
 
 ## -parameters
 
+
+
+
 ### -param NmrBindingHandle [in]
 
 A handle used by the NMR to represent the binding between the client module and the provider
@@ -65,10 +79,15 @@ A handle used by the NMR to represent the binding between the client module and 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A client module calls the 
     <b>NmrClientDetachProviderComplete</b> function when it asynchronously completes detaching from a provider
     module after returning STATUS_PENDING from its 
@@ -81,18 +100,16 @@ A client module should not call the
     function.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
-</dt>
-<dt>
+
 <a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NmrClientDetachProviderComplete function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NmrClientDetachProviderComplete function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

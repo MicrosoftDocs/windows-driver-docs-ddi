@@ -7,8 +7,8 @@ old-location: netvista\rildialparamsoptions.htm
 old-project: netvista
 ms.assetid: 78fef8f7-e6cd-4da6-9c2a-2eaf1da6339b
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILDIALPARAMSOPTIONS, RILDIALPARAMSOPTIONS
+ms.date: 1/18/2018
+ms.keywords: RIL_DIALOPT_ANYEXECUTORFOREMERGENCY, ntddrilapitypes/RIL_DIALOPT_RESTRICTID, RILDIALPARAMSOPTIONS enumeration [Network Drivers Starting with Windows Vista], RIL_DIALOPT_RTTFULL, ntddrilapitypes/RILDIALPARAMSOPTIONS, RIL_DIALOPT_RESTRICTID, netvista.rildialparamsoptions, RILDIALPARAMSOPTIONS, RIL_DIALOPT_PRESENTID, ntddrilapitypes/RIL_DIALOPT_PRESENTID, ntddrilapitypes/RIL_DIALOPT_ANYEXECUTORFOREMERGENCY, RIL_DIALOPT_ALL, ntddrilapitypes/RIL_DIALOPT_RTTFULL, ntddrilapitypes/RIL_DIALOPT_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILDIALPARAMSOPTIONS
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILDIALPARAMSOPTIONS
+product: Windows
+targetos: Windows
 req.typenames: RILDIALPARAMSOPTIONS
 ---
 
 # RILDIALPARAMSOPTIONS enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILDIALPARAMSOPTIONS { 
@@ -58,19 +68,29 @@ typedef enum _RILDIALPARAMSOPTIONS {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_DIALOPT_NONE
+
+
+
 ### -field RIL_DIALOPT_RESTRICTID
+
 
 
 ### -field RIL_DIALOPT_PRESENTID
 
 
+
 ### -field RIL_DIALOPT_ANYEXECUTORFOREMERGENCY
+
 
 
 ### -field RIL_DIALOPT_RTTFULL
 
 
+
 ### -field RIL_DIALOPT_ALL
 
 
-## -remarks

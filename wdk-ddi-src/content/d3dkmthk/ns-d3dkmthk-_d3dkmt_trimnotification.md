@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 50E3F5CC-AFB9-4527-A812-44295373D80B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_TRIMNOTIFICATION, D3DKMT_TRIMNOTIFICATION
+ms.keywords: _D3DKMT_TRIMNOTIFICATION, D3DKMT_TRIMNOTIFICATION structure [Display Devices], D3DKMT_TRIMNOTIFICATION, display.d3dkmt_trimnotification, d3dkmthk/D3DKMT_TRIMNOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_TRIMNOTIFICATION
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_TRIMNOTIFICATION
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_TRIMNOTIFICATION
 ---
 
 # _D3DKMT_TRIMNOTIFICATION structure
 
 
-
 ## -description
+
+
 <b>D3DKMT_TRIMNOTIFICATION</b> is used to notify a driver to trim its memory residency list.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_TRIMNOTIFICATION {
@@ -55,6 +65,9 @@ typedef struct _D3DKMT_TRIMNOTIFICATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Context
 
@@ -71,15 +84,10 @@ typedef struct _D3DKMT_TRIMNOTIFICATION {
 [in] When <b>TrimToBudget</b> is set, this value specifies how much the application should evict in order to meet its current memory budget.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_trimresidencyset_flags.md">D3DDDI_TRIMRESIDENCYSET_FLAGS</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: pos\linedisplaymarqueetypetype.htm
 old-project: pos
 ms.assetid: 051A9254-42B4-4698-AFF4-0A27D83719F0
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _LineDisplayMarqueeTypeType, LineDisplayMarqueeTypeType
+ms.date: 1/18/2018
+ms.keywords: pointofservicecommontypes/PLineDisplayMarqueeTypeType, _LineDisplayMarqueeTypeType, PLineDisplayMarqueeTypeType, PLineDisplayMarqueeTypeType enumeration pointer, LineDisplayMarqueeTypeType enumeration, LineDisplayMarqueeTypeType, pos.linedisplaymarqueetypetype, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayMarqueeTypeType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: LineDisplayMarqueeTypeType
-req.alt-loc: pointofservicecommontypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pointofservicecommontypes.h
+apiname: 
+-	LineDisplayMarqueeTypeType
+product: Windows
+targetos: Windows
 req.typenames: LineDisplayMarqueeTypeType
 ---
 
 # _LineDisplayMarqueeTypeType enumeration
 
 
-
 ## -description
+
+
 This enumeration is not implemented.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _LineDisplayMarqueeTypeType { 
@@ -54,7 +64,33 @@ typedef enum _LineDisplayMarqueeTypeType {
 
 ## -enum-fields
 
-### -field 
 
 
-## -remarks
+
+### -field MarqueeTypeNone
+
+
+
+### -field MarqueeTypeUp
+
+
+
+### -field MarqueeTypeDown
+
+
+
+### -field MarqueeTypeLeft
+
+
+
+### -field MarqueeTypeRight
+
+
+
+### -field MarqueeTypeInit
+
+
+
+
+
+

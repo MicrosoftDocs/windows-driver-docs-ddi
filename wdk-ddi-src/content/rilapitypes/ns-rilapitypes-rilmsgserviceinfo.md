@@ -7,8 +7,8 @@ old-location: netvista\rilmsgserviceinfo_2.htm
 old-project: netvista
 ms.assetid: a6d5bc57-dd0e-4a75-af48-470b65e70a7d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILMSGSERVICEINFO, RILMSGSERVICEINFO, *LPRILMSGSERVICEINFO
+ms.date: 1/18/2018
+ms.keywords: rilapitypes/RILMSGSERVICEINFO, RILMSGSERVICEINFO, RILMSGSERVICEINFO structure [Network Drivers Starting with Windows Vista], *LPRILMSGSERVICEINFO, netvista.rilmsgserviceinfo_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILMSGSERVICEINFO
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILMSGSERVICEINFO
+product: Windows
+targetos: Windows
 req.typenames: RILMSGSERVICEINFO, *LPRILMSGSERVICEINFO
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILMSGSERVICEINFO structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILMSGSERVICEINFO {
@@ -59,19 +69,25 @@ typedef struct _RILMSGSERVICEINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwMsgSupport
+
 
 
 ### -field dwStoreUsed
 
 
+
 ### -field dwStoreTotal
 
 
-## -remarks

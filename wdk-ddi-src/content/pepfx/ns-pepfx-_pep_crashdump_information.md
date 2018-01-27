@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B1F680CB-8F82-4B31-A62E-23804FEB0107
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_CRASHDUMP_INFORMATION, PEP_CRASHDUMP_INFORMATION, *PPEP_CRASHDUMP_INFORMATION
+ms.keywords: PPEP_CRASHDUMP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PPEP_CRASHDUMP_INFORMATION, PEP_CRASHDUMP_INFORMATION structure [Kernel-Mode Driver Architecture], _PEP_CRASHDUMP_INFORMATION, pepfx/PPEP_CRASHDUMP_INFORMATION, kernel.pep_crashdump_information, PEP_CRASHDUMP_INFORMATION, PPEP_CRASHDUMP_INFORMATION, pepfx/PEP_CRASHDUMP_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_CRASHDUMP_INFORMATION
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_CRASHDUMP_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: PEP_CRASHDUMP_INFORMATION, *PPEP_CRASHDUMP_INFORMATION
 ---
 
 # _PEP_CRASHDUMP_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>PEP_CRASHDUMP_INFORMATION</b> structure contains information about a crash-dump device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_CRASHDUMP_INFORMATION {
@@ -54,6 +64,9 @@ typedef struct _PEP_CRASHDUMP_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DeviceHandle
 
@@ -66,23 +79,22 @@ typedef struct _PEP_CRASHDUMP_INFORMATION {
 
 
 ## -remarks
+
+
 The <i>CrashdumpInformation</i> parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186875">PowerOnDumpDeviceCallback</a> routine is a pointer to a <b>PEP_CRASHDUMP_INFORMATION</b> structure.
 
 When a fatal system error occurs, the devices in the crash-dump device chain (storage controller, PCI controller, and so on) need to be turned on so that the Windows kernel can write a crash-dump file to disk.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-pofxpoweroncrashdumpdevice.md">PoFxPowerOnCrashdumpDevice</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186875">PowerOnDumpDeviceCallback</a>
-</dt>
-</dl>
+
  
 
  

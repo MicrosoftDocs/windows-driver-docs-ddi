@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: aabad72e-2636-47cd-9986-f50ab5101e68
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmAllocateNonCachedMemory
+ms.keywords: k106_a52baa62-3e10-4158-98e5-5e4dce16ee6a.xml, MmAllocateNonCachedMemory, MmAllocateNonCachedMemory routine [Kernel-Mode Driver Architecture], ntddk/MmAllocateNonCachedMemory, kernel.mmallocatenoncachedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MmAllocateNonCachedMemory
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlMmApcLte, HwStorPortProhibitedDDIs, SpNoWait, StorPortStartIo
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	MmAllocateNonCachedMemory
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # MmAllocateNonCachedMemory function
 
 
-
 ## -description
+
+
 The <b>MmAllocateNonCachedMemory</b> routine allocates a virtual address range of noncached and cache-aligned memory.
 
 
-
 ## -syntax
+
 
 ````
 PVOID MmAllocateNonCachedMemory(
@@ -54,41 +64,44 @@ PVOID MmAllocateNonCachedMemory(
 
 ## -parameters
 
+
+
+
 ### -param NumberOfBytes [in]
 
 Specifies the size in bytes of the range to be allocated. 
 
 
 ## -returns
+
+
 If the requested memory cannot be allocated, the return value is <b>NULL</b>. Otherwise, it is the base virtual address of the allocated range. 
 
 
+
 ## -remarks
+
+
 <b>MmAllocateNonCachedMemory</b> can be called from a <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine to allocate a noncached block of virtual memory for various device-specific buffers. The function always returns a full multiple of the virtual memory page size, of nonpaged system-address-space memory, regardless of the requested allocation size.
 
 Noncached allocations are aligned on an integral multiple of the processor's data-cache-line size to prevent cache and coherency problems.
 
 The physical memory pages that <b>MmAllocateNonCachedMemory</b> returns are typically not contiguous pages.
+<div class="alert"><b>Note</b>  Memory that <b>MmAllocateNonCachedMemory</b> allocates is uninitialized. A kernel-mode driver must first zero this memory if it is going to make it visible to user-mode software (to avoid leaking potentially privileged contents).</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552087">KeGetDcacheFillSize</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552087">KeGetDcacheFillSize</a>
+
 <a href="..\ntddk\nf-ntddk-mmfreenoncachedmemory.md">MmFreeNonCachedMemory</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
+
+<a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
+
  
 
  

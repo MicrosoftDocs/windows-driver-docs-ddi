@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3ab0c8b8-1f41-48b7-9c42-ea843ebcd82e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcSetReadAheadGranularity
+ms.keywords: ntifs/CcSetReadAheadGranularity, CcSetReadAheadGranularity, ccref_9b995224-0e59-43c6-b827-c15d9ae6e86c.xml, CcSetReadAheadGranularity routine [Installable File System Drivers], ifsk.ccsetreadaheadgranularity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcSetReadAheadGranularity
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcSetReadAheadGranularity
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcSetReadAheadGranularity function
 
 
-
 ## -description
+
+
 The <b>CcSetReadAheadGranularity</b> routine sets the read-ahead granularity for a cached file.
 
 
-
 ## -syntax
+
 
 ````
 VOID CcSetReadAheadGranularity(
@@ -54,6 +64,9 @@ VOID CcSetReadAheadGranularity(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -66,28 +79,29 @@ Specifies the desired read-ahead granularity, which must be an even power of two
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 After <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a> is called to cache a file, but before <b>CcSetReadAheadGranularity</b> is called for the cached file, the default read-ahead granularity for the cached file is equal to PAGE_SIZE.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccschedulereadahead.md">CcScheduleReadAhead</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+<a href="..\ntifs\nf-ntifs-ccschedulereadahead.md">CcScheduleReadAhead</a>
+
  
 
  

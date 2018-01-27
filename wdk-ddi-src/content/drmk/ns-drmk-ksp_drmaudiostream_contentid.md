@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 16a83c46-c183-4dc2-9d98-877976cf5750
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSP_DRMAUDIOSTREAM_CONTENTID, KSP_DRMAUDIOSTREAM_CONTENTID, *PKSP_DRMAUDIOSTREAM_CONTENTID
+ms.keywords: PKSP_DRMAUDIOSTREAM_CONTENTID structure pointer [Audio Devices], KSP_DRMAUDIOSTREAM_CONTENTID, drmk/PKSP_DRMAUDIOSTREAM_CONTENTID, *PKSP_DRMAUDIOSTREAM_CONTENTID, KSP_DRMAUDIOSTREAM_CONTENTID structure [Audio Devices], PKSP_DRMAUDIOSTREAM_CONTENTID, aud-prop_f18ac59e-1ebf-4e98-8bab-1f54f76c6a64.xml, drmk/KSP_DRMAUDIOSTREAM_CONTENTID, audio.ksp_drmaudiostream_contentid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSP_DRMAUDIOSTREAM_CONTENTID
-req.alt-loc: drmk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	drmk.h
+apiname: 
+-	KSP_DRMAUDIOSTREAM_CONTENTID
+product: Windows
+targetos: Windows
 req.typenames: KSP_DRMAUDIOSTREAM_CONTENTID, *PKSP_DRMAUDIOSTREAM_CONTENTID
 ---
 
 # KSP_DRMAUDIOSTREAM_CONTENTID structure
 
 
-
 ## -description
+
+
 The KSP_DRMAUDIOSTREAM_CONTENTID structure specifies the property, request type, and context for a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>set-property request. It also specifies a list of function pointers to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536356">DRM functions</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -61,6 +71,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Property
 
@@ -108,39 +121,32 @@ Pointer to <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights<
 
 
 ## -remarks
+
+
 The structure contains function pointers to the DRM library functions in order to provide the driver with convenient access to these functions.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
-</dt>
-<dt>
-<a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a>
-</dt>
-<dt>
-<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
-</dt>
-<dt>
+
 <a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
-</dt>
-<dt>
-<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
-</dt>
-<dt>
-<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
-</dt>
-<dt>
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
-</dt>
-<dt>
+
 <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
-</dt>
-</dl>
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
+
+<a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a>
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
+
+<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
  
 
  

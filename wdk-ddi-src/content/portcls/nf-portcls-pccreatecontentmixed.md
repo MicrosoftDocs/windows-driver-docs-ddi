@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9b916d43-26ab-4354-8537-2d4789c5fb52
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcCreateContentMixed
+ms.keywords: audpc-routines_40c3dd23-60cb-48dc-a570-1ba007a27bb2.xml, portcls/PcCreateContentMixed, PcCreateContentMixed, audio.pccreatecontentmixed, PcCreateContentMixed function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The PortCls system driver implements the PcCreateCont
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PcCreateContentMixed
-req.alt-loc: Portcls.lib,Portcls.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Portcls.lib
+-	Portcls.dll
+apiname: 
+-	PcCreateContentMixed
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # PcCreateContentMixed function
 
 
-
 ## -description
+
+
 The <b>PcCreateContentMixed</b> function computes the DRM content rights for a composite stream containing mixed content from some number of KS audio streams. Note that this function call is identical in operation to the <a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a> function, and its parameter definitions and return value are also identical.
 
 
-
 ## -syntax
+
 
 ````
 PORTCLASSAPI NTSTATUS NTAPI  PcCreateContentMixed(void);
@@ -53,24 +64,42 @@ PORTCLASSAPI NTSTATUS NTAPI  PcCreateContentMixed(void);
 ## -parameters
 
 
+
+
+### -param paContentId
+
+TBD
+
+
+### -param cContentId
+
+TBD
+
+
+### -param pMixedContentId
+
+TBD
+
+
+
 ## -returns
-See return value definition in <a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>.
+
 
 See return value definition in <a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>.
 
-See return value definition in <a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>.
 
 
 ## -remarks
+
+
 For more information, see the comments in <a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6a005ff3-951f-462d-84e6-e1fd931c5afc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _URB_CONTROL_GET_STATUS_REQUEST,
+ms.keywords: usb/_URB_CONTROL_GET_STATUS_REQUEST, usbstrct_b91864c5-b19a-492d-a5dc-1fabdf4c37f9.xml, _URB_CONTROL_GET_STATUS_REQUEST, buses._urb_control_get_status_request, _URB_CONTROL_GET_STATUS_REQUEST structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: _URB_CONTROL_GET_STATUS_REQUEST
-req.alt-loc: usb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usb.h
+apiname: 
+-	_URB_CONTROL_GET_STATUS_REQUEST
+product: Windows
+targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _URB_CONTROL_GET_STATUS_REQUEST structure
 
 
-
 ## -description
+
+
 The _URB_CONTROL_GET_STATUS_REQUEST structure is used by USB client drivers to retrieve status from a device, interface, endpoint, or other device-defined target.
 
 
-
 ## -syntax
+
 
 ````
 struct _URB_CONTROL_GET_STATUS_REQUEST {
@@ -65,16 +75,38 @@ struct _URB_CONTROL_GET_STATUS_REQUEST {
 
 ## -struct-fields
 
+
+
+
 ### -field Hdr
 
 Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Length</b> must be <code>sizeof(_URB_CONTROL_GET_STATUS_REQUEST)</code>, and <b>Hdr.Function</b> must be one of the following values:
 
-<dl>
-<dd>URB_FUNCTION_GET_STATUS_FROM_DEVICE</dd>
-<dd>URB_FUNCTION_GET_STATUS_FROM_INTERFACE</dd>
-<dd>URB_FUNCTION_GET_STATUS_FROM_ENDPOINT</dd>
-<dd>URB_FUNCTION_GET_STATUS_FROM_OTHER.</dd>
-</dl>
+
+### -field _URB_HEADER
+
+ 
+
+
+### -field _URB
+
+ 
+
+
+### -field UrbLink
+
+Reserved. Do not use.
+
+
+### -field hca
+
+Reserved. Do not use.
+
+
+### -field _URB_HCD_AREA
+
+ 
+
 
 ### -field Reserved
 
@@ -101,16 +133,6 @@ Pointer to a resident buffer for the transfer or is <b>NULL</b> if an MDL is sup
 Pointer to an MDL that describes a resident buffer or is <b>NULL</b> if a buffer is supplied in <b>TransferBuffer</b>. The bus driver returns a single byte specifying the status for the target. This MDL must be allocated from nonpaged pool.
 
 
-### -field UrbLink
-
-Reserved. Do not use.
-
-
-### -field hca
-
-Reserved. Do not use.
-
-
 ### -field Reserved1
 
 Reserved. Do not use.
@@ -127,23 +149,22 @@ Reserved. Do not use.
 
 
 ## -remarks
+
+
 Drivers can use the <a href="..\usbdlib\nf-usbdlib-usbbuildgetstatusrequest.md">UsbBuildGetStatusRequest</a> service routine to format this URB.
 
 The reserved members of this structure must be treated as opaque and are reserved for system use.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\usb\ns-usb-_urb.md">URB</a>
-</dt>
-<dt>
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
+
  
 
  

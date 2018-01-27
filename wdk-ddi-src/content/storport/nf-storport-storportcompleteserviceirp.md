@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 359b1096-f987-4884-ab67-2290bf5196b5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortCompleteServiceIrp
+ms.keywords: StorPortCompleteServiceIrp routine [Storage Devices], storprt_439990ea-8133-4114-b417-1c88e53cce14.xml, storage.storportcompleteserviceirp, StorPortCompleteServiceIrp, storport/StorPortCompleteServiceIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortCompleteServiceIrp
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	StorPortCompleteServiceIrp
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # StorPortCompleteServiceIrp function
 
 
-
 ## -description
+
+
 The <b>StorPortCompleteServiceIrp</b> routine is called by a Storport virtual miniport driver when it needs to complete a request that it received in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff557410">HwStorProcessServiceRequest</a> callback routine.
 
 
-
 ## -syntax
+
 
 ````
 ULONG StorPortCompleteServiceIrp(
@@ -55,6 +65,9 @@ ULONG StorPortCompleteServiceIrp(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -67,30 +80,62 @@ A pointer to the I/O request.
 
 
 ## -returns
+
+
 <b>StorPortCompleteServiceIrp</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>This function is not implemented on the active operating system.
+</dl>
+</td>
+<td width="60%">
+This function is not implemented on the active operating system.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>Indicates that the routine completed the request successfully.
+</dl>
+</td>
+<td width="60%">
+Indicates that the routine completed the request successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>The Irp that was passed was <b>NULL</b>.
+</dl>
+</td>
+<td width="60%">
+The Irp that was passed was <b>NULL</b>.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The Storport virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557410">HwStorProcessServiceRequest</a> callback routine receives an IRP that is produced by an IOCTL when a caller, such as a user-mode application or kernel-mode driver, requires a reverse callback operation. The I/O is completed by the miniport driver by calling the <b>StorPortCompleteServiceIrp</b> routine when it needs to tell the caller of something or needs the caller to do something.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557410">HwStorProcessServiceRequest</a>
-</dt>
-</dl>
+
  
 
  

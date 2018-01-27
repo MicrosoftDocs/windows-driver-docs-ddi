@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 81adb295-a4b3-46de-8b46-15fe89c5f7a5
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT, HDAUDIO_STREAM_FORMAT
+ms.keywords: hid.ioctl_hid_get_serialnumber_string, IOCTL_HID_GET_SERIALNUMBER_STRING control code [Human Input Devices], IOCTL_HID_GET_SERIALNUMBER_STRING, hidclass/IOCTL_HID_GET_SERIALNUMBER_STRING, hidioreq_6f0fd737-3834-4f3e-be8d-4027b6525c87.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_HID_GET_SERIALNUMBER_STRING
-req.alt-loc: hidclass.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,85 +29,107 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hidclass.h
+apiname: 
+-	IOCTL_HID_GET_SERIALNUMBER_STRING
+product: Windows
+targetos: Windows
 req.typenames: *PHDAUDIO_STREAM_FORMAT, HDAUDIO_STREAM_FORMAT
 ---
 
 # IOCTL_HID_GET_SERIALNUMBER_STRING IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 The IOCTL_HID_GET_SERIALNUMBER_STRING request obtains a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection's</a> embedded string that identifies the device's serial number. The retrieved string is a NULL-terminated wide character string in a human-readable format.
 
 For general information about HIDClass devices, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
 
 
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 <b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the output buffer. If the output buffer is not large enough to hold the entire NULL-terminated embedded string, the request returns nothing in the output buffer. 
 
 
 ### -input-buffer-length
+
 The maximum possible number of characters in an embedded string is device specific. For USB devices, the maximum string length is 126 wide characters (not including the terminating NULL character). 
 
 
 ### -output-buffer
+
 <b>Irp-&gt;MdlAddress</b> points to a buffer to receive the serial number string (a NULL-terminated wide character string).
 
 
 ### -output-buffer-length
+
 The length of a NULL-terminated wide character string.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
-### -status-block
-I/O Status block
-The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
 
+
+### -status-block
+
+The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
+<ul>
+<li>
 <b>Information</b> is set to the number of bytes transferred from the device.
 
+</li>
+<li>
 <b>Status</b> is set to STATUS_SUCCESS if the transfer completed without error. Otherwise, it is set to an appropriate NTSTATUS error code.
 
-
-## -remarks
-
+</li>
+</ul>
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\hidsdi\nf-hidsdi-hidd_getindexedstring.md">HidD_GetIndexedString</a>
-</dt>
-<dt>
+
 <a href="..\hidsdi\nf-hidsdi-hidd_getmanufacturerstring.md">HidD_GetManufacturerString</a>
-</dt>
-<dt>
-<a href="..\hidsdi\nf-hidsdi-hidd_getphysicaldescriptor.md">HidD_GetPhysicalDescriptor</a>
-</dt>
-<dt>
-<a href="..\hidsdi\nf-hidsdi-hidd_getproductstring.md">HidD_GetProductString</a>
-</dt>
-<dt>
-<a href="..\hidsdi\nf-hidsdi-hidd_getserialnumberstring.md">HidD_GetSerialNumberString</a>
-</dt>
-<dt>
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_indexed_string.md">IOCTL_HID_GET_INDEXED_STRING</a>
-</dt>
-<dt>
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_manufacturer_string.md">IOCTL_HID_GET_MANUFACTURER_STRING</a>
-</dt>
-<dt>
+
 <a href="..\hidclass\ni-hidclass-ioctl_hid_get_product_string.md">IOCTL_HID_GET_PRODUCT_STRING</a>
-</dt>
-</dl>
+
+<a href="..\hidsdi\nf-hidsdi-hidd_getphysicaldescriptor.md">HidD_GetPhysicalDescriptor</a>
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_indexed_string.md">IOCTL_HID_GET_INDEXED_STRING</a>
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_manufacturer_string.md">IOCTL_HID_GET_MANUFACTURER_STRING</a>
+
+<a href="..\hidsdi\nf-hidsdi-hidd_getserialnumberstring.md">HidD_GetSerialNumberString</a>
+
+<a href="..\hidsdi\nf-hidsdi-hidd_getproductstring.md">HidD_GetProductString</a>
+
  
 
  

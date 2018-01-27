@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e80a314d-cef1-4289-84db-0a6b6531ae5f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_CREATECONTEXTALLOCATIONFLAGS, DXGK_CREATECONTEXTALLOCATIONFLAGS
+ms.keywords: display.dxgk_createcontextallocationflags, DXGK_CREATECONTEXTALLOCATIONFLAGS structure [Display Devices], d3dkmddi/DXGK_CREATECONTEXTALLOCATIONFLAGS, _DXGK_CREATECONTEXTALLOCATIONFLAGS, DXGK_CREATECONTEXTALLOCATIONFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_CREATECONTEXTALLOCATIONFLAGS
-req.alt-loc: D3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmddi.h
+apiname: 
+-	DXGK_CREATECONTEXTALLOCATIONFLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_CREATECONTEXTALLOCATIONFLAGS
 ---
 
 # _DXGK_CREATECONTEXTALLOCATIONFLAGS structure
 
 
-
 ## -description
+
+
 Specifies the properties of the context to be allocated.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_CREATECONTEXTALLOCATIONFLAGS {
@@ -60,6 +70,9 @@ typedef struct _DXGK_CREATECONTEXTALLOCATIONFLAGS {
 
 ## -struct-fields
 
+
+
+
 ### -field SharedAcrossContexts
 
 [in] A UINT value that specifies the association of the context.
@@ -69,6 +82,11 @@ If <b>SharedAcrossContexts</b> is set to one, the allocation is associated with 
 
 If <b>SharedAcrossContexts</b> is set to zero, the allocation is associated with the context specified by the <b>hContext</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_createcontextallocation.md">DXGKARGCB_CREATECONTEXTALLOCATION</a> structure. The allocated context will be made resident when <b>hContext</b> is scheduled to run on the GPU.
                                                             
+
+
+### -field MapGpuVirtualAddress
+
+ 
 
 
 ### -field Reserved
@@ -83,21 +101,21 @@ If <b>SharedAcrossContexts</b> is set to zero, the allocation is associated with
 
 
 ## -remarks
+
+
 The display miniport driver allocates GPU contexts or device-specific contexts by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>.
 
 The <b>ContextAllocationFlags</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_createcontextallocation.md">DXGKARGCB_CREATECONTEXTALLOCATION</a> structure is an <b>DXGK_CREATECONTEXTALLOCATIONFLAGS</b> data type. 
  
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_createcontextallocation.md">DXGKARGCB_CREATECONTEXTALLOCATION</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_createcontextallocation.md">DXGKARGCB_CREATECONTEXTALLOCATION</a>
+
  
 
  

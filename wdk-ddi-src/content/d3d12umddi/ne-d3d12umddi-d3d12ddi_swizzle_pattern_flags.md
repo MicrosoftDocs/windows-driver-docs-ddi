@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 613FE631-8381-4EDD-85C9-7B91F9F8B92F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_SWIZZLE_PATTERN_FLAGS, D3D12DDI_SWIZZLE_PATTERN_FLAGS
+ms.keywords: D3D12DDI_SWIZZLE_PATTERN_FLAGS enumeration [Display Devices], display.d3d12ddi_swizzle_pattern_flags, d3d12umddi/D3D12DDI_SWIZZLE_PATTERN_FLAGS, D3D12DDI_SWIZZLE_PATTERN_FLAGS_NONE, d3d12umddi/D3D12DDI_SWIZZLE_PATTERN_FLAGS_NONE, D3D12DDI_SWIZZLE_PATTERN_FLAGS_STACK_DEPTH_SLICES, D3D12DDI_SWIZZLE_PATTERN_FLAGS, d3d12umddi/D3D12DDI_SWIZZLE_PATTERN_FLAGS_STACK_DEPTH_SLICES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_SWIZZLE_PATTERN_FLAGS
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_SWIZZLE_PATTERN_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_SWIZZLE_PATTERN_FLAGS
 ---
 
 # D3D12DDI_SWIZZLE_PATTERN_FLAGS enumeration
 
 
-
 ## -description
+
+
 Specifies swizzle pattern flags.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D12DDI_SWIZZLE_PATTERN_FLAGS { 
@@ -55,6 +65,9 @@ typedef enum D3D12DDI_SWIZZLE_PATTERN_FLAGS {
 
 ## -enum-fields
 
+
+
+
 ### -field D3D12DDI_SWIZZLE_PATTERN_FLAGS_NONE
 
 No flag value.
@@ -65,4 +78,7 @@ No flag value.
 Depth slices are treated as being stacked vertically prior to swizzling.
 
 
-## -remarks
+### -field D3D12DDI_SWIZZLE_PATTERN_FLAGS_0022_CONDITIONAL_POSTAMBLE_XORS
+
+
+

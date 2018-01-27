@@ -7,8 +7,8 @@ old-location: netvista\rilsmssupportcaps.htm
 old-project: netvista
 ms.assetid: 723c6bf7-beb9-4ab8-8b84-ac22388022b9
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSMSSUPPORTCAPS, RILSMSSUPPORTCAPS
+ms.date: 1/18/2018
+ms.keywords: ntddrilapitypes/RILSMSSUPPORTCAPS, RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER, RILSMSSUPPORTCAPS, RIL_CAPS_SMSSUPPORT_ALL, ntddrilapitypes/RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER, RILSMSSUPPORTCAPS enumeration [Network Drivers Starting with Windows Vista], netvista.rilsmssupportcaps, ntddrilapitypes/RIL_CAPS_SMSSUPPORT_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSMSSUPPORTCAPS
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILSMSSUPPORTCAPS
+product: Windows
+targetos: Windows
 req.typenames: RILSMSSUPPORTCAPS
 ---
 
 # RILSMSSUPPORTCAPS enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILSMSSUPPORTCAPS { 
@@ -55,10 +65,17 @@ typedef enum _RILSMSSUPPORTCAPS {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_CAPS_SMSSUPPORT_PERSISTLINK
+
+
+
 ### -field RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER
+
 
 
 ### -field RIL_CAPS_SMSSUPPORT_ALL
 
 
-## -remarks

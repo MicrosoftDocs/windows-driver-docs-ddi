@@ -7,8 +7,8 @@ old-location: netvista\rilmanagecallsparams_v3.htm
 old-project: netvista
 ms.assetid: a398086b-827e-4684-a79c-db849926b3c3
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILMANAGECALLSPARAMS_V3, RILMANAGECALLSPARAMS_V3, *LPRILMANAGECALLSPARAMS_V3
+ms.date: 1/18/2018
+ms.keywords: *LPRILMANAGECALLSPARAMS_V3, netvista.rilmanagecallsparams_v3, ntddrilapitypes/RILMANAGECALLSPARAMS_V3, RILMANAGECALLSPARAMS_V3, RILMANAGECALLSPARAMS_V3 structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILMANAGECALLSPARAMS_V3
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILMANAGECALLSPARAMS_V3, *LPRILMANAGECALLSPARAMS_V3
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILMANAGECALLSPARAMS_V3
+product: Windows
+targetos: Windows
+req.typenames: *LPRILMANAGECALLSPARAMS_V3, RILMANAGECALLSPARAMS_V3
 ---
 
 # RILMANAGECALLSPARAMS_V3 structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILMANAGECALLSPARAMS_V3 {
@@ -59,22 +69,29 @@ typedef struct _RILMANAGECALLSPARAMS_V3 {
 
 ## -struct-fields
 
+
+
+
 ### -field dwExecutor
+
 
 
 ### -field dwCommand
 
 
+
 ### -field dwID
+
 
 
 ### -field fHasOfferAnswer
 
 
+
 ### -field rcmOfferAnswer
+
 
 
 ### -field raAddress
 
 
-## -remarks

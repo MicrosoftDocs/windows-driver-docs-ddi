@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5E52550D-0A81-4C72-9A82-7C13BC3EFE00
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExCancelTimer
+ms.keywords: kernel.excanceltimer, ExCancelTimer routine [Kernel-Mode Driver Architecture], ExCancelTimer, wdm/ExCancelTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.1.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExCancelTimer
-req.alt-loc: ntoskrnl.lib,ntoskrnl.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ntoskrnl.lib
+-	ntoskrnl.dll
+apiname: 
+-	ExCancelTimer
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ExCancelTimer function
 
 
-
 ## -description
+
+
 The <b>ExCancelTimer</b> routine cancels a timer that was set by a previous call to the <a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a> routine.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN ExCancelTimer(
@@ -55,6 +66,9 @@ BOOLEAN ExCancelTimer(
 
 
 ## -parameters
+
+
+
 
 ### -param Timer [in, out]
 
@@ -67,10 +81,15 @@ Drivers must set this parameter to <b>NULL</b>.
 
 
 ## -returns
+
+
 This routine returns <b>TRUE</b> if the timer was canceled. Otherwise, the routine returns <b>FALSE</b>.
 
 
+
 ## -remarks
+
+
 After your driver calls the <a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a> routine to set the timer, the timer might be canceled before it expires. The driver can call the <b>ExCancelTimer</b> routine to explicitly cancel a pending timer. Also, if the driver calls the <b>ExSetTimer</b> routine to set a new timer on a timer object before a previously set timer on this object expires, this <b>ExSetTimer</b> call implicitly cancels the previous timer and then starts the new timer.
 
 A return value of <b>TRUE</b> indicates that the timer was set when <b>ExCancelTimer</b> was called. In this case, the routine cancels the timer. A return value of <b>FALSE</b> indicates that the timer was not set, which might mean that the timer was never set, that the timer had already been canceled, or that the timer had already expired.
@@ -80,18 +99,15 @@ When a timer expires, the operating system signals the timer object. As an optio
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn265198">ExXxxTimer Routines and EX_TIMER Objects</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-exallocatetimer.md">ExAllocateTimer</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a>
-</dt>
-<dt>
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a>
+
  
 
  

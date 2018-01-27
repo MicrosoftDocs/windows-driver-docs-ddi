@@ -7,8 +7,8 @@ old-location: print\getinfo_glyphstring.htm
 old-project: print
 ms.assetid: ebcc1ada-af6f-46c3-a025-97079eb08816
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: _GETINFO_GLYPHSTRING, GETINFO_GLYPHSTRING, *PGETINFO_GLYPHSTRING
+ms.date: 1/18/2018
+ms.keywords: print.getinfo_glyphstring, _GETINFO_GLYPHSTRING, PGETINFO_GLYPHSTRING structure pointer [Print Devices], GETINFO_GLYPHSTRING, *PGETINFO_GLYPHSTRING, printoem/GETINFO_GLYPHSTRING, printoem/PGETINFO_GLYPHSTRING, PGETINFO_GLYPHSTRING, print_unidrv-pscript_rendering_5b2786d4-2633-4abe-8eaf-23e7100f7ba3.xml, GETINFO_GLYPHSTRING structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GETINFO_GLYPHSTRING
-req.alt-loc: printoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: GETINFO_GLYPHSTRING, *PGETINFO_GLYPHSTRING
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	printoem.h
+apiname: 
+-	GETINFO_GLYPHSTRING
+product: Windows
+targetos: Windows
+req.typenames: *PGETINFO_GLYPHSTRING, GETINFO_GLYPHSTRING
 req.product: Windows 10 or later.
 ---
 
 # _GETINFO_GLYPHSTRING structure
 
 
-
 ## -description
+
+
 The GETINFO_GLYPHSTRING structure is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GETINFO_GLYPHSTRING {
@@ -61,6 +71,9 @@ typedef struct _GETINFO_GLYPHSTRING {
 
 ## -struct-fields
 
+
+
+
 ### -field dwSize
 
 Specifies the size, in bytes, of the GETINFO_GLYPHSTRING structure. This value is supplied by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> caller.
@@ -74,7 +87,6 @@ Specifies the number of elements in the arrays pointed to by <b>pGlyphIn</b> and
 ### -field dwTypeIn
 
 Specifies the type of glyph specifier array pointed to by <b>pGlyphIn</b>. Valid values are as follows:
-
 <table>
 <tr>
 <th>Value</th>
@@ -100,8 +112,7 @@ The <b>pGlyphIn</b> array elements are of type DWORD, and contain glyph identifi
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 Supplied by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> caller.
 
@@ -114,7 +125,6 @@ Pointer to an array of glyph specifiers. The array element type is indicated by 
 ### -field dwTypeOut
 
 Specifies the type of glyph specifier array pointed to by <b>pGlyphOut</b>. Valid values are as follows:
-
 <table>
 <tr>
 <th>Value</th>
@@ -150,15 +160,10 @@ The <i>pGlyph</i> array elements are of type WCHAR. This value is valid when <b>
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
-<dl>
-<dd>
 Supplied by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> caller.
 
-</dd>
-</dl>
 
 ### -field pGlyphOut
 
@@ -171,31 +176,35 @@ Specifies the size, in bytes, of the buffer pointed to by <b>pGlyphOut</b>. This
 
 
 ## -remarks
+
+
 To convert an array of glyph specifiers from one type to another, a rendering plug-in can supply the address of a GETINFO_GLYPHSTRING structure when calling Unidrv's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function.
 
 If the conversion is from TYPE_GLYPHHANDLE to TYPE_TRANSDATA, <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> must be called twice.
-
+<ol>
+<li>
 Before the first call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>, the rendering plug-in fills in the <b>dwSize</b>, <b>dwCount</b>, <b>dwTypeIn</b>, and <b>pGlyphIn</b> members and sets <b>dwGlyphOutSize</b> member to zero. 
 
 After <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> returns, the <b>dwGlyphOutSize</b> member contains the size, in bytes, of the buffer needed to store the converted string.
 
+</li>
+<li>
 The plug-in allocates a block of memory of the size received in the <b>dwGlyphOutSize</b> member, sets the <b>pGlyphOut</b> member to point to this memory block, and calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> once more. UNIDRV then converts the string from TYPE_GLYPHHANDLE to TYPE_TRANSDATA.
 
-The values that a rendering plug-in specifies for the <b>dwTypeIn </b>and <b>pGlyphIn</b> members typically are those that were previously received as the <b>dwType </b>and <i>pGlyph</i> parameters to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554267">IPrintOemUni::OutputCharStr</a> method.
+</li>
+</ol>The values that a rendering plug-in specifies for the <b>dwTypeIn </b>and <b>pGlyphIn</b> members typically are those that were previously received as the <b>dwType </b>and <i>pGlyph</i> parameters to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554267">IPrintOemUni::OutputCharStr</a> method.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554267">IPrintOemUni::OutputCharStr</a>
-</dt>
-</dl>
- 
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20GETINFO_GLYPHSTRING structure%20 RELEASE:%20(1/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20GETINFO_GLYPHSTRING structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

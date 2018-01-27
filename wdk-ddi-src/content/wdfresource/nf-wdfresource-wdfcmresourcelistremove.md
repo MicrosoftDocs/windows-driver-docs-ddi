@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f636d85d-f7bb-4ebe-b03f-3b9c3c17bacd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfCmResourceListRemove
+ms.keywords: wdf.wdfcmresourcelistremove, DFResourceObjectRef_5b1c7fce-45d2-454e-9d21-3f8d460ba99f.xml, WdfCmResourceListRemove, PFN_WDFCMRESOURCELISTREMOVE, WdfCmResourceListRemove method, kmdf.wdfcmresourcelistremove, wdfresource/WdfCmResourceListRemove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfCmResourceListRemove
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfCmResourceListRemove
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WdfCmResourceListRemove function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfCmResourceListRemove</b> method removes a resource descriptor from a specified resource list.
 
 
-
 ## -syntax
+
 
 ````
 VOID WdfCmResourceListRemove(
@@ -57,6 +68,9 @@ VOID WdfCmResourceListRemove(
 
 
 ## -parameters
+
+
+
 
 ### -param List [in]
 
@@ -69,6 +83,8 @@ A zero-based value that is used as an index into the resource list that <i>List<
 
 
 ## -returns
+
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
@@ -76,22 +92,22 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
+
 The <b>WdfCmResourceListRemove</b> method removes the resource descriptor that is associated with the index value that the <i>Index</i> parameter specifies.
 
 When <b>WdfCmResourceListRemove</b> removes the resource descriptor that has the index value <i>n</i>, the index value of the next resource descriptor changes from <i>n</i>+1 to <i>n</i>.
 
 For more information about resource lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
-The following code example removes the third resource descriptor from the raw and translated lists of hardware resources that an <a href="..\wdffdo\nc-wdffdo-evt_wdf_device_remove_added_resources.md">EvtDeviceRemoveAddedResources</a> callback function receives.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfresource\nf-wdfresource-wdfcmresourcelistremovebydescriptor.md">WdfCmResourceListRemoveByDescriptor</a>
-</dt>
-</dl>
+
  
 
  

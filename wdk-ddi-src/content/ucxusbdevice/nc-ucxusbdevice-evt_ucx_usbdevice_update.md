@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5dbf3560-9968-4996-8bce-fb43e3918d72
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _STREAM_INFO, STREAM_INFO, *PSTREAM_INFO
+ms.keywords: buses.evt_ucx_usbdevice_update, EvtUcxUsbDeviceUpdate callback function [Buses], EvtUcxUsbDeviceUpdate, EVT_UCX_USBDEVICE_UPDATE, EVT_UCX_USBDEVICE_UPDATE, ucxusbdevice/EvtUcxUsbDeviceUpdate, PEVT_UCX_USBDEVICE_UPDATE callback function pointer [Buses], PEVT_UCX_USBDEVICE_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: PEVT_UCX_USBDEVICE_UPDATE
-req.alt-loc: ucxusbdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-req.typenames: STREAM_INFO, *PSTREAM_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ucxusbdevice.h
+apiname: 
+-	PEVT_UCX_USBDEVICE_UPDATE
+product: Windows
+targetos: Windows
+req.typenames: *PSTREAM_INFO, STREAM_INFO
 req.product: Windows 10 or later.
 ---
 
 # EVT_UCX_USBDEVICE_UPDATE callback
 
 
-
 ## -description
+
+
 The client driver's implementation that UCX calls to
     update device properties.
 
 
-
 ## -prototype
+
 
 ````
 EVT_UCX_USBDEVICE_UPDATE EvtUcxUsbDeviceUpdate;
@@ -62,6 +72,9 @@ typedef EVT_UCX_USBDEVICE_UPDATE PEVT_UCX_USBDEVICE_UPDATE;
 
 ## -parameters
 
+
+
+
 ### -param UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
@@ -73,10 +86,15 @@ Contains the <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update.md">USBD
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a> method.
 
 The host controller driver communicates with the hardware to update descriptors, LPM parameters, whether device is a hub, and
@@ -85,21 +103,17 @@ The host controller driver communicates with the hardware to update descriptors,
 The client driver returns completion status in <i>Request</i>.  The driver can complete the WDFREQUEST asynchronously.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucx_usbdevice_event_callbacks_init.md">UCX_USBDEVICE_EVENT_CALLBACKS_INIT</a>
-</dt>
-<dt>
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdeviceinitseteventcallbacks.md">UcxUsbDeviceInitSetEventCallbacks</a>
-</dt>
-<dt>
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update.md">USBDEVICE_UPDATE</a>
-</dt>
-<dt>
+
 <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
-</dt>
-</dl>
+
+<a href="..\ucxusbdevice\nf-ucxusbdevice-ucx_usbdevice_event_callbacks_init.md">UCX_USBDEVICE_EVENT_CALLBACKS_INIT</a>
+
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update.md">USBDEVICE_UPDATE</a>
+
+<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdeviceinitseteventcallbacks.md">UcxUsbDeviceInitSetEventCallbacks</a>
+
  
 
  

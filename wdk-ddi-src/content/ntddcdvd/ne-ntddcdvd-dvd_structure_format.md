@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0f3ca59b-f7e9-4bd7-a652-f7f0a6075d80
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT
+ms.keywords: structs-DVD_299fec4b-1ed0-43ea-a522-716c1a585d0e.xml, DvdCopyrightDescriptor, PDVD_STRUCTURE_FORMAT, DvdManufacturerDescriptor, PDVD_STRUCTURE_FORMAT enumeration pointer [Storage Devices], ntddcdvd/DvdBCADescriptor, ntddcdvd/PDVD_STRUCTURE_FORMAT, ntddcdvd/DVD_STRUCTURE_FORMAT, DvdMaxDescriptor, ntddcdvd/DvdCopyrightDescriptor, ntddcdvd/DvdManufacturerDescriptor, DVD_STRUCTURE_FORMAT enumeration [Storage Devices], *PDVD_STRUCTURE_FORMAT, ntddcdvd/DvdDiskKeyDescriptor, DvdBCADescriptor, DvdPhysicalDescriptor, DvdDiskKeyDescriptor, storage.dvd_structure_format, DVD_STRUCTURE_FORMAT, ntddcdvd/DvdPhysicalDescriptor, ntddcdvd/DvdMaxDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DVD_STRUCTURE_FORMAT
-req.alt-loc: ntddcdvd.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdvd.h
+apiname: 
+-	DVD_STRUCTURE_FORMAT
+product: Windows
+targetos: Windows
+req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ---
 
 # DVD_STRUCTURE_FORMAT enumeration
 
 
-
 ## -description
+
+
 The DVD_STRUCTURE_FORMAT enumeration type is used in conjunction with the <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a> request and the <a href="..\ntddcdvd\ns-ntddcdvd-dvd_read_structure.md">DVD_READ_STRUCTURE</a> structure to retrieve a DVD descriptor.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum DVD_STRUCTURE_FORMAT { 
@@ -58,6 +68,9 @@ typedef enum DVD_STRUCTURE_FORMAT {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DvdPhysicalDescriptor
 
@@ -89,18 +102,12 @@ Indicates that caller is requesting a DVD manufacturer descriptor containing dis
 Indicates that caller is requesting a DVD max descriptor. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddcdvd\ns-ntddcdvd-dvd_read_structure.md">DVD_READ_STRUCTURE</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
-</dt>
-</dl>
+
+<a href="..\ntddcdvd\ns-ntddcdvd-dvd_read_structure.md">DVD_READ_STRUCTURE</a>
+
  
 
  

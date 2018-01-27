@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: F974D5E2-7230-4F85-9C1A-7CE7E240DBE1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG, *PGNSS_SUPL_CERT_CONFIG
+ms.keywords: GNSS_SUPL_CERT_CONFIG structure [Sensor Devices], gnssdriver/PGNSS_SUPL_CERT_CONFIG, sensors.gnss_supl_cert_config, *PGNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG, PGNSS_SUPL_CERT_CONFIG structure pointer [Sensor Devices], gnssdriver/GNSS_SUPL_CERT_CONFIG, PGNSS_SUPL_CERT_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GNSS_SUPL_CERT_CONFIG
-req.alt-loc: gnssdriver.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	gnssdriver.h
+apiname: 
+-	GNSS_SUPL_CERT_CONFIG
+product: Windows
+targetos: Windows
 req.typenames: GNSS_SUPL_CERT_CONFIG, *PGNSS_SUPL_CERT_CONFIG
 ---
 
 # GNSS_SUPL_CERT_CONFIG structure
 
 
-
 ## -description
+
+
 This structure contains SUPL certificate information.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -61,6 +71,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field Size
 
 Structure size.
@@ -74,10 +87,7 @@ Version number.
 ### -field CertAction
 
 A <a href="..\gnssdriver\ne-gnssdriver-gnss_supl_cert_action.md">GNSS_SUPL_CERT_ACTION</a> enumeration value that specifies the action to take on the certificate.
-
-<table></table>
- 
-
+<table></table> 
 <table>
 <tr>
 <td>
@@ -109,20 +119,12 @@ Delete all the certificates injected to the GNSS driver previously. The values o
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
-### -field SuplCertName[MAX_PATH]
+### -field SuplCertName
 
-String containing the certificate name.
-
-
-### -field IsRoot
-
-Specify whether the certificate is a root certificate.
-
-Multiple root certificates can be configured since some mobile operator require this functionality. An IHV supporting SUPL should have support for multiple certificates.
+ 
 
 
 ### -field CertSize
@@ -130,14 +132,35 @@ Multiple root certificates can be configured since some mobile operator require 
 The size of the certificate in bytes.
 
 
-### -field Unused[512]
+### -field Unused
 
-Padding buffer.
+ 
 
 
-### -field CertData[ANYSIZE_ARRAY]
+### -field CertData
+
+ 
+
+
+
+#### - CertData[ANYSIZE_ARRAY]
 
 The binary content of the certificate.  The total size of the bytes is defined by <b>CertSize</b>. The certificate is Base64 encoded.
 
 
-## -remarks
+#### - SuplCertName[MAX_PATH]
+
+String containing the certificate name.
+
+
+#### - IsRoot
+
+Specify whether the certificate is a root certificate.
+
+Multiple root certificates can be configured since some mobile operator require this functionality. An IHV supporting SUPL should have support for multiple certificates.
+
+
+#### - Unused[512]
+
+Padding buffer.
+

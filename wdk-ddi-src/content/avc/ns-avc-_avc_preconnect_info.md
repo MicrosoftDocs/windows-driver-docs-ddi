@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 823713de-16d4-45cd-936e-1af4a8425c94
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _AVC_PRECONNECT_INFO, AVC_PRECONNECT_INFO, *PAVC_PRECONNECT_INFO
+ms.keywords: _AVC_PRECONNECT_INFO, PAVC_PRECONNECT_INFO, *PAVC_PRECONNECT_INFO, AVC_PRECONNECT_INFO structure [Streaming Media Devices], avc/AVC_PRECONNECT_INFO, stream.avc_preconnect_info, PAVC_PRECONNECT_INFO structure pointer [Streaming Media Devices], avc/PAVC_PRECONNECT_INFO, AVC_PRECONNECT_INFO, avcref_86ee1545-848a-4186-9b6a-bee1c689fa68.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AVC_PRECONNECT_INFO
-req.alt-loc: avc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	avc.h
+apiname: 
+-	AVC_PRECONNECT_INFO
+product: Windows
+targetos: Windows
 req.typenames: AVC_PRECONNECT_INFO, *PAVC_PRECONNECT_INFO
 ---
 
 # _AVC_PRECONNECT_INFO structure
 
 
-
 ## -description
+
+
 The AVC_PRECONNECT_INFO structure specifies the preconnection information for the specified pin ID (zero-based offset) on an AV/C subunit device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _AVC_PRECONNECT_INFO {
@@ -54,6 +64,9 @@ typedef struct _AVC_PRECONNECT_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PinId
 
@@ -66,6 +79,8 @@ The AVCPRECONNECTINFO values for the specified pin.
 
 
 ## -remarks
+
+
 This structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554154">AVC_FUNCTION_GET_CONNECTINFO</a> function code.
 
 This structure is used only as a member inside the AVC_MULTIFUNC_IRB structure. It is not used by itself.
@@ -73,18 +88,15 @@ This structure is used only as a member inside the AVC_MULTIFUNC_IRB structure. 
 See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">How to Use Avc.sys</a> for information about building and sending an AV/C command.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
-</dt>
-<dt>
-<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554154">AVC_FUNCTION_GET_CONNECTINFO</a>
-</dt>
-</dl>
+
+<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+
  
 
  

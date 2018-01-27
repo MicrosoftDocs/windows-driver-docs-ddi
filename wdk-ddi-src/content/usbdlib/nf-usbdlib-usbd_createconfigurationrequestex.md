@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9683b171-4f2e-4a18-89b7-76d49001be37
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_CreateConfigurationRequestEx
+ms.keywords: USBD_CreateConfigurationRequestEx routine [Buses], usbdlib/USBD_CreateConfigurationRequestEx, USBD_CreateConfigurationRequestEx, buses.usbd_createconfigurationrequestex, usbfunc_d0c1e002-ed01-4bd4-98f0-b4b2d6da2ca6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBD_CreateConfigurationRequestEx
-req.alt-loc: Usbd.lib,Usbd.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Usbd.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL (See Remarks)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Usbd.lib
+-	Usbd.dll
+apiname: 
+-	USBD_CreateConfigurationRequestEx
+product: Windows
+targetos: Windows
 req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
@@ -38,16 +48,17 @@ req.product: Windows 10 or later.
 # USBD_CreateConfigurationRequestEx function
 
 
-
 ## -description
+
+
 
    The <b>USBD_CreateConfigurationRequestEx</b> routine allocates and formats a <a href="..\usb\ns-usb-_urb.md">URB</a> to select a configuration for a USB device.
 
 <b>USBD_CreateConfigurationRequestEx</b> replaces <a href="..\usbdlib\nf-usbdlib-usbd_createconfigurationrequest.md">USBD_CreateConfigurationRequest</a>.
 
 
-
 ## -syntax
+
 
 ````
 PURB USBD_CreateConfigurationRequestEx(
@@ -58,6 +69,9 @@ PURB USBD_CreateConfigurationRequestEx(
 
 
 ## -parameters
+
+
+
 
 ### -param ConfigurationDescriptor [in]
 
@@ -70,34 +84,37 @@ Pointer to the first element of a caller-allocated array of <a href="..\usbdlib\
 
 
 ## -returns
+
+
 <b>USBD_CreateConfigurationRequestEx</b> allocates a <a href="..\usb\ns-usb-_urb.md">URB</a> structure, formats it for the URB_FUNCTION_SELECT_CONFIGURATION request (select-configuration request), and returns a pointer to the <b>URB</b>. The client driver can then use the returned <b>URB</b> to send the select-configuration request  to the host controller driver to set the configuration. You must free the <b>URB</b> when you have finished using it.
 
 
+
 ## -remarks
+
+
 For information about how to build a select-configuration reqeuest and code example, see <a href="https://msdn.microsoft.com/library/windows/hardware/gg615081">How to Select a Configuration for a USB Device</a>.
 
 The returned value is a pointer to the <a href="..\usb\ns-usb-_urb.md">URB</a> structure that you can use to submit a select-configuration request to the host controller driver to set the specified configuration.
 
 After the USB driver stack completes the select-configuration request, you can inspect the  <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a> structures.  The <b>Pipes</b> member of <b>USBD_INTERFACE_INFORMATION</b> points to an array of <a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a> structures. The USB bus driver fills the array of <b>USBD_PIPE_INFORMATION</b> structures with information about the  pipes associated with the endpoints of the interface. The client driver can obtain pipe handles from the <code>Pipes[i].PipeHandle</code> and use them to send I/O requests to specific pipes. 
 
-After you have completed all operations with the returned <a href="..\usb\ns-usb-_urb.md">URB</a>, you must free the <b>URB</b> by calling <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>. 
+After you have completed all operations with the returned <a href="..\usb\ns-usb-_urb.md">URB</a>, you must free the <b>URB</b> by calling <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>. 
 
 You can  allocate the configuration descriptor and the array from nonpaged or paged pool. Callers of this routine can run at IRQL &lt;= DISPATCH_LEVEL if the memory pointed to by <i>ConfigurationDescriptor</i> and <i>InterfaceList</i> is allocated from nonpaged pool. Otherwise, callers must run at IRQL &lt; DISPATCH_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/gg615081">How to Select a Configuration for a USB Device</a>
-</dt>
-<dt>
+
 <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\usb\ns-usb-_urb_select_configuration.md">_URB_SELECT_CONFIGURATION</a>
-</dt>
-<dt><a href="usb_reference.htm#client">USB device driver programming reference</a></dt>
-</dl>
+
  
 
  

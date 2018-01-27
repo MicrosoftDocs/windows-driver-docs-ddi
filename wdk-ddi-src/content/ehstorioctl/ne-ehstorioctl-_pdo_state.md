@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 006e2cef-4e49-4819-bfce-d9bf5983643e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _PDO_STATE, PDO_STATE
+ms.keywords: ehstorioctl/PDO_STATE_UNDEFINED, PDO_STATE enumeration [Storage Devices], PDO_STATE_STARTED, PDO_STATE_NOT_STARTED, ehstorioctl/PDO_STATE_NOT_STARTED, _PDO_STATE, PDO_STATE_UNDEFINED, ehstorioctl/PDO_STATE, storage.pdo_state, structs-silo_257b3a10-590b-4e1e-a66a-c84b4ea3b125.xml, ehstorioctl/PDO_STATE_STARTED, PDO_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PDO_STATE
-req.alt-loc: EhStorIoctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	EhStorIoctl.h
+apiname: 
+-	PDO_STATE
+product: Windows
+targetos: Windows
 req.typenames: PDO_STATE
 ---
 
 # _PDO_STATE enumeration
 
 
-
 ## -description
+
+
 This enumeration describes the states of Physical Device Objects (PDOs).
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _PDO_STATE { 
@@ -55,6 +65,9 @@ typedef enum _PDO_STATE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field PDO_STATE_UNDEFINED
 
@@ -70,5 +83,3 @@ This value indicates that the PDO is started.
 
 This value indicates that the PDO is not started.
 
-
-## -remarks

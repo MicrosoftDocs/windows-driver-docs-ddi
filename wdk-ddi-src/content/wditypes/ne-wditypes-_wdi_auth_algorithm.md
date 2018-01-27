@@ -7,8 +7,8 @@ old-location: netvista\wdi_auth_algorithm.htm
 old-project: netvista
 ms.assetid: B908A174-F977-484E-A086-6C8C9A914D6C
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WDI_AUTH_ALGORITHM, WDI_AUTH_ALGORITHM
+ms.date: 1/18/2018
+ms.keywords: WDI_AUTH_ALGO_WPA_NONE, wditypes/WDI_AUTH_ALGO_IHV_START, WDI_AUTH_ALGO_80211_OPEN, _WDI_AUTH_ALGORITHM, WDI_AUTH_ALGORITHM, wditypes/WDI_AUTH_ALGO_WPA_PSK, wditypes/WDI_AUTH_ALGO_IHV_END, WDI_AUTH_ALGO_80211_SHARED_KEY, WDI_AUTH_ALGO_RSNA, WDI_AUTH_ALGO_RSNA_PSK, wditypes/WDI_AUTH_ALGO_80211_OPEN, wditypes/WDI_AUTH_ALGO_80211_SHARED_KEY, WDI_AUTH_ALGO_IHV_START, WDI_AUTH_ALGORITHM enumeration [Device and Driver Installation], wditypes/WDI_AUTH_ALGO_RSNA, wditypes/WDI_AUTH_ALGO_WPA_NONE, netvista.wdi_auth_algorithm, WDI_AUTH_ALGO_IHV_END, netvista.wifi_auth_algorithm, WDI_AUTH_ALGO_WPA_PSK, WDI_AUTH_ALGO_WPA, wditypes/WDI_AUTH_ALGO_RSNA_PSK, wditypes/WDI_AUTH_ALGO_WPA, wditypes/WDI_AUTH_ALGORITHM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WDI_AUTH_ALGORITHM
-req.alt-loc: wditypes.hpp
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wditypes.hpp
+apiname: 
+-	WDI_AUTH_ALGORITHM
+product: Windows
+targetos: Windows
 req.typenames: WDI_AUTH_ALGORITHM
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _WDI_AUTH_ALGORITHM enumeration
 
 
-
 ## -description
+
+
 The WDI_AUTH_ALGORITHM enumeration defines the authentication algorithm values.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDI_AUTH_ALGORITHM { 
@@ -62,6 +72,9 @@ typedef enum _WDI_AUTH_ALGORITHM {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WDI_AUTH_ALGO_80211_OPEN
 
@@ -115,5 +128,3 @@ Specifies the start of the range that specifies proprietary authentication algor
 
 Specifies the end of the range that specifies proprietary authentication algorithms that are developed by an IHV. 
 
-
-## -remarks

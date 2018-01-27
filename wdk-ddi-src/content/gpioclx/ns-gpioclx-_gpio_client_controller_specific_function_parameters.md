@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 57EE1369-09A5-423F-8025-0863B449A909
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS, GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS, *PGPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS
+ms.keywords: gpioclx/GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS, GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS, *PGPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS, gpioclx/PGPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS, PGPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS structure pointer [Parallel Ports], GPIO.gpio_client_controller_specific_function_parameters, _GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS, PGPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS, GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS structure [Parallel Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS
-req.alt-loc: Gpioclx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS, *PGPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Gpioclx.h
+apiname: 
+-	GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS
+product: Windows
+targetos: Windows
+req.typenames: *PGPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS, GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS
 ---
 
 # _GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS structure
 
 
-
 ## -description
+
+
 The <b>GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS</b> structure describes the input and output buffers for a controller-specific operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS {
@@ -57,6 +67,9 @@ typedef struct _GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field InputBuffer
 
@@ -84,15 +97,18 @@ The number of bytes written to the output buffer. The GPIO controller driver set
 
 
 ## -remarks
+
+
 The <i>Parameters</i> parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh698237">CLIENT_ControllerSpecificFunction</a> function is a pointer to a <b>GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS</b> structure. This structure describes the input and output buffers from a custom I/O control request (IOCTL) for a hardware-specific operation that is implemented by the GPIO controller and supported by the GPIO controller driver.
+
+The GPIO framework extension (GpioClx) fills in the first four members of the structure before the call to the <i>CLIENT_ControllerSpecificFunction</i> function. This function fills in the last member, <b>BytesWritten</b>.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698237">CLIENT_ControllerSpecificFunction</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eebc3e2e-41fe-4087-8916-7c8a71929913
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ISCSI_Path, ISCSI_Path, *PISCSI_Path
+ms.keywords: structs-iSCSI_fe9f6ee9-2fcd-46eb-a010-98e82dbf8c70.xml, PISCSI_Path, PISCSI_Path structure pointer [Storage Devices], ISCSI_Path structure [Storage Devices], *PISCSI_Path, iscsimgt/ISCSI_Path, _ISCSI_Path, ISCSI_Path, storage.iscsi_path, iscsimgt/PISCSI_Path
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ISCSI_Path
-req.alt-loc: iscsimgt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: ISCSI_Path, *PISCSI_Path
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsimgt.h
+apiname: 
+-	ISCSI_Path
+product: Windows
+targetos: Windows
+req.typenames: *PISCSI_Path, ISCSI_Path
 ---
 
 # _ISCSI_Path structure
 
 
-
 ## -description
+
+
 The ISCSI_Path structure contains information about a connection of the iSCSI portal.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ISCSI_Path {
@@ -58,6 +68,9 @@ typedef struct _ISCSI_Path {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UniqueConnectionId
 
@@ -82,7 +95,6 @@ This specifies the state of the path: primary or secondary. If the value is 1, i
 ### -field ConnectionStatus
 
 This indicates the status of the connection.
-
 <table>
 <tr>
 <th>Type</th>
@@ -118,8 +130,7 @@ The path is reconnecting.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field TCPOffLoadAvailable
@@ -128,18 +139,18 @@ This indicates whether the connection supports TCP offload or not.
 
 
 ## -remarks
+
+
 The iSCSI headers and MOF are included in the platform SDK and WDK.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A69E2A06-EA08-465C-A1E9-2D7FAB4E2F81
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_PROCESS_FILTER_0020, D3D12DDI_VIDEO_PROCESS_FILTER_0020
+ms.keywords: d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_0020_NOISE_REDUCTION, D3D12DDI_VIDEO_PROCESS_FILTER_0020_HUE, d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_0020_BRIGHTNESS, d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_0020_ANAMORPHIC_SCALING, d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_0020, D3D12DDI_VIDEO_PROCESS_FILTER_0020_SATURATION, display.d3d12ddi_video_process_filter_0020, D3D12DDI_VIDEO_PROCESS_FILTER_0020_STEREO_ADJUSTMENT, D3D12DDI_VIDEO_PROCESS_FILTER_0020, D3D12DDI_VIDEO_PROCESS_FILTER_0020_BRIGHTNESS, d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_0020_SATURATION, D3D12DDI_VIDEO_PROCESS_FILTER_0020_CONTRAST, D3D12DDI_VIDEO_PROCESS_FILTER_0020_NOISE_REDUCTION, D3D12DDI_VIDEO_PROCESS_FILTER_0020_EDGE_ENHANCEMENT, d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_0020_EDGE_ENHANCEMENT, D3D12DDI_VIDEO_PROCESS_FILTER_0020 enumeration [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_0020_STEREO_ADJUSTMENT, d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_0020_CONTRAST, d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_0020_HUE, D3D12DDI_VIDEO_PROCESS_FILTER_0020_ANAMORPHIC_SCALING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_VIDEO_PROCESS_FILTER_0020
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_VIDEO_PROCESS_FILTER_0020
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_VIDEO_PROCESS_FILTER_0020
 ---
 
 # D3D12DDI_VIDEO_PROCESS_FILTER_0020 enumeration
 
 
-
 ## -description
+
+
 Contains video process filters.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3D12DDI_VIDEO_PROCESS_FILTER_0020 { 
@@ -60,6 +70,9 @@ typedef enum _D3D12DDI_VIDEO_PROCESS_FILTER_0020 {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D12DDI_VIDEO_PROCESS_FILTER_0020_BRIGHTNESS
 
@@ -100,5 +113,3 @@ The video processor can perform anamorphic scaling. Anamorphic scaling can be us
 
 For stereo 3D video, the video processor can adjust the offset between the left and right views, allowing the user to reduce potential eye strain.
 
-
-## -remarks

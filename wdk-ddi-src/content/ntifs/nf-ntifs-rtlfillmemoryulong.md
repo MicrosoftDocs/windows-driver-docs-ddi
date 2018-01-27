@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a3758f32-daa9-4795-9a79-694b02da43cd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlFillMemoryUlong
+ms.keywords: rtlref_11aa35b5-f5b5-459c-9996-e7dcb7741dd8.xml, RtlFillMemoryUlong routine [Installable File System Drivers], RtlFillMemoryUlong, ifsk.rtlfillmemoryulong, ntifs/RtlFillMemoryUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlFillMemoryUlong
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlFillMemoryUlong
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlFillMemoryUlong function
 
 
-
 ## -description
+
+
 The <b>RtlFillMemoryUlong</b> routine fills the specified range of memory with one or more repetitions of a ULONG value. 
 
 
-
 ## -syntax
+
 
 ````
 VOID RtlFillMemoryUlong(
@@ -55,6 +65,9 @@ VOID RtlFillMemoryUlong(
 
 
 ## -parameters
+
+
+
 
 ### -param Destination [out]
 
@@ -72,27 +85,29 @@ ULONG value with which to fill the memory block.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 If the block of memory at <i>Destination</i> is nonpaged, the caller can be running at any IRQL. Otherwise, callers of <b>RtlFillMemoryUlong</b> must be running at IRQL &lt; DISPATCH_LEVEL. 
 
 For more information about managing buffered data and initializing driver-allocated buffers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540656">Buffered Data and Buffer Initialization</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlfillmemoryulonglong.md">RtlFillMemoryUlonglong</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-rtlfillmemoryulonglong.md">RtlFillMemoryUlonglong</a>
+
+<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
+
  
 
  

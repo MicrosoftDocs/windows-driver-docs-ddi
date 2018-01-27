@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 49fb1062-9709-4691-9655-8cbf3c5055fb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlCompressBuffer
+ms.keywords: COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_XPRESS_HUFF, RtlCompressBuffer, ntifs/RtlCompressBuffer, COMPRESSION_FORMAT_XPRESS, rtlref_5d0857eb-eefe-4e85-8f89-fcbfe37ce41f.xml, COMPRESSION_ENGINE_STANDARD, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, COMPRESSION_ENGINE_HIBER, RtlCompressBuffer function [Installable File System Drivers], COMPRESSION_ENGINE_MAXIMUM, ifsk.rtlcompressbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting in Windows XP.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlCompressBuffer
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlCompressBuffer
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlCompressBuffer function
 
 
-
 ## -description
+
+
 The <b>RtlCompressBuffer</b> function compresses a buffer and can be used by a file system driver to facilitate the implementation of file compression.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlCompressBuffer(
@@ -61,21 +71,23 @@ NTSTATUS RtlCompressBuffer(
 
 ## -parameters
 
+
+
+
 ### -param CompressionFormatAndEngine [in]
 
 A bitmask that specifies the compression format and engine type. This parameter must be set to  a  valid bitwise OR combination of one format type and one engine type. For example, COMPRESSION_FORMAT_LZNT1 | COMPRESSION_ENGINE_STANDARD.
 
 The meanings of these, and other related values, are as follows.
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -param COMPRESSION_FORMAT_NONE
-
+<td width="40%"><a id="COMPRESSION_FORMAT_NONE"></a><a id="compression_format_none"></a><dl>
+<dt><b>COMPRESSION_FORMAT_NONE</b></dt>
+</dl>
 </td>
 <td width="60%">
 Not supported by this function.
@@ -83,9 +95,9 @@ Not supported by this function.
 </td>
 </tr>
 <tr>
-
-### -param COMPRESSION_FORMAT_DEFAULT
-
+<td width="40%"><a id="COMPRESSION_FORMAT_DEFAULT"></a><a id="compression_format_default"></a><dl>
+<dt><b>COMPRESSION_FORMAT_DEFAULT</b></dt>
+</dl>
 </td>
 <td width="60%">
 Not supported by this function.
@@ -93,9 +105,9 @@ Not supported by this function.
 </td>
 </tr>
 <tr>
-
-### -param COMPRESSION_FORMAT_LZNT1
-
+<td width="40%"><a id="COMPRESSION_FORMAT_LZNT1"></a><a id="compression_format_lznt1"></a><dl>
+<dt><b>COMPRESSION_FORMAT_LZNT1</b></dt>
+</dl>
 </td>
 <td width="60%">
 The function will perform LZ compression.
@@ -103,9 +115,9 @@ The function will perform LZ compression.
 </td>
 </tr>
 <tr>
-
-### -param COMPRESSION_FORMAT_XPRESS
-
+<td width="40%"><a id="COMPRESSION_FORMAT_XPRESS"></a><a id="compression_format_xpress"></a><dl>
+<dt><b>COMPRESSION_FORMAT_XPRESS</b></dt>
+</dl>
 </td>
 <td width="60%">
 The function will perform Xpress compression.
@@ -113,9 +125,9 @@ The function will perform Xpress compression.
 </td>
 </tr>
 <tr>
-
-### -param COMPRESSION_FORMAT_XPRESS_HUFF
-
+<td width="40%"><a id="COMPRESSION_FORMAT_XPRESS_HUFF"></a><a id="compression_format_xpress_huff"></a><dl>
+<dt><b>COMPRESSION_FORMAT_XPRESS_HUFF</b></dt>
+</dl>
 </td>
 <td width="60%">
 The function will perform Xpress Huffman compression.
@@ -123,9 +135,9 @@ The function will perform Xpress Huffman compression.
 </td>
 </tr>
 <tr>
-
-### -param COMPRESSION_ENGINE_STANDARD
-
+<td width="40%"><a id="COMPRESSION_ENGINE_STANDARD"></a><a id="compression_engine_standard"></a><dl>
+<dt><b>COMPRESSION_ENGINE_STANDARD</b></dt>
+</dl>
 </td>
 <td width="60%">
 The <i>UncompressedBuffer</i> buffer is compressed using an algorithm that provides a balance between data compression and performance. This value cannot be used with COMPRESSION_ENGINE_MAXIMUM.
@@ -133,9 +145,9 @@ The <i>UncompressedBuffer</i> buffer is compressed using an algorithm that provi
 </td>
 </tr>
 <tr>
-
-### -param COMPRESSION_ENGINE_MAXIMUM
-
+<td width="40%"><a id="COMPRESSION_ENGINE_MAXIMUM"></a><a id="compression_engine_maximum"></a><dl>
+<dt><b>COMPRESSION_ENGINE_MAXIMUM</b></dt>
+</dl>
 </td>
 <td width="60%">
 The <i>UncompressedBuffer</i> buffer is compressed using an algorithm that provides maximum data compression but with relatively slower performance. This value cannot be used with COMPRESSION_ENGINE_STANDARD.
@@ -143,17 +155,16 @@ The <i>UncompressedBuffer</i> buffer is compressed using an algorithm that provi
 </td>
 </tr>
 <tr>
-
-### -param COMPRESSION_ENGINE_HIBER
-
+<td width="40%"><a id="COMPRESSION_ENGINE_HIBER"></a><a id="compression_engine_hiber"></a><dl>
+<dt><b>COMPRESSION_ENGINE_HIBER</b></dt>
+</dl>
 </td>
 <td width="60%">
 Not supported by this function.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param UncompressedBuffer [in]
@@ -192,37 +203,104 @@ A pointer to a caller-allocated work space buffer used by the <b>RtlCompressBuff
 
 
 ## -returns
+
+
 <b>RtlCompressBuffer</b> returns an appropriate error status value, such as one of the following.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The <i>UncompressedBuffer</i> buffer was successfully compressed.
+</dl>
+</td>
+<td width="60%">
+The <i>UncompressedBuffer</i> buffer was successfully compressed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_ALL_ZEROS</b></dt>
-</dl>The <i>UncompressedBuffer</i> buffer was successfully compressed, but this buffer contains only zeros.
+</dl>
+</td>
+<td width="60%">
+The <i>UncompressedBuffer</i> buffer was successfully compressed, but this buffer contains only zeros.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl><dl>
+</dl>
+</td>
+<td width="60%"></td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
 <dt><b>STATUS_UNSUPPORTED_COMPRESSION</b></dt>
-</dl>COMPRESSION_FORMAT_LZNT1
+</dl>
+</td>
+<td width="60%">
+<ul>
+<li>
+COMPRESSION_FORMAT_LZNT1
 
+</li>
+<li>
  COMPRESSION_FORMAT_XPRESS
 
+</li>
+<li>
  COMPRESSION_FORMAT_XPRESS_HUFF
 
+</li>
+<li>
 COMPRESSION_FORMAT_NONE (in this case, STATUS_INVALID_PARAMETER is returned)
 
+</li>
+<li>
 COMPRESSION_FORMAT_DEFAULT (in this case, STATUS_INVALID_PARAMETER is returned)
+
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>An invalid compression engine was specified through the <i>CompressionFormatAndEngine</i> parameter. If <i>CompressionFormatAndEngine</i> is not COMPRESSION_ENGINE_STANDARD or COMPRESSION_ENGINE_MAXIMUM (but not both), this value is returned.
+</dl>
+</td>
+<td width="60%">
+An invalid compression engine was specified through the <i>CompressionFormatAndEngine</i> parameter. If <i>CompressionFormatAndEngine</i> is not COMPRESSION_ENGINE_STANDARD or COMPRESSION_ENGINE_MAXIMUM (but not both), this value is returned.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The compressed buffer is too small to hold the compressed data. That is, <i>FinalCompressedSize</i> is greater than <i>CompressedBufferSize</i>.
+</dl>
+</td>
+<td width="60%">
+The compressed buffer is too small to hold the compressed data. That is, <i>FinalCompressedSize</i> is greater than <i>CompressedBufferSize</i>.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The <b>RtlCompressBuffer</b> function takes as input an uncompressed buffer and produces its compressed equivalent provided that the compressed data fits within the specified destination buffer.
 
 To determine the correct buffer size for the <i>WorkSpace</i> parameter, use the <a href="..\ntifs\nf-ntifs-rtlgetcompressionworkspacesize.md">RtlGetCompressionWorkSpaceSize</a> function.
@@ -232,21 +310,17 @@ To decompress a compressed buffer, use the <a href="..\ntifs\nf-ntifs-rtldecompr
 To extract an uncompressed fragment from a compressed buffer, use the <a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtldecompressbuffer.md">RtlDecompressBuffer</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
+
 <a href="..\ntifs\nf-ntifs-rtlgetcompressionworkspacesize.md">RtlGetCompressionWorkSpaceSize</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
+
  
 
  

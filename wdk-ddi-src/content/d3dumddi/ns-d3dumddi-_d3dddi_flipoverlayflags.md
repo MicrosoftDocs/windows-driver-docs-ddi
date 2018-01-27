@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 09146e6b-3ac0-422a-addb-831394a15c08
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_FLIPOVERLAYFLAGS, D3DDDI_FLIPOVERLAYFLAGS
+ms.keywords: D3DDDI_FLIPOVERLAYFLAGS structure [Display Devices], display.d3dddi_flipoverlayflags, D3D_other_Structs_a62b399d-d553-4325-9f5a-ceb08287d4f4.xml, _D3DDDI_FLIPOVERLAYFLAGS, D3DDDI_FLIPOVERLAYFLAGS, d3dumddi/D3DDDI_FLIPOVERLAYFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_FLIPOVERLAYFLAGS
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDI_FLIPOVERLAYFLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_FLIPOVERLAYFLAGS
 ---
 
 # _D3DDDI_FLIPOVERLAYFLAGS structure
 
 
-
 ## -description
+
+
 The D3DDDI_FLIPOVERLAYFLAGS structure identifies how to flip a resource on an overlay.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_FLIPOVERLAYFLAGS {
@@ -60,6 +70,9 @@ typedef struct _D3DDDI_FLIPOVERLAYFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Even
 
@@ -85,15 +98,10 @@ This member is reserved and should be set to zero. Setting this member to zero i
 A member in the union that is contained in D3DDDI_FLIPOVERLAYFLAGS that can hold one 32-bit value that identifies how to flip a resource on an overlay.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_flipoverlay.md">D3DDDIARG_FLIPOVERLAY</a>
-</dt>
-</dl>
+
  
 
  

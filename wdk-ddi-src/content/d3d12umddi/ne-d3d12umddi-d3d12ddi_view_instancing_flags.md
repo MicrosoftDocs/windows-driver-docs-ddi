@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fa44933f-aa3b-466a-8ee2-2d34d0311562
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIEW_INSTANCING_FLAGS, D3D12DDI_VIEW_INSTANCING_FLAGS
+ms.keywords: display.d3d12ddi-view-instancing-flags, d3d12umddi/D3D12DDI_VIEW_INSTANCING_FLAGS, D3D12DDI_VIEW_INSTANCING_FLAG_NONE, D3D12DDI_VIEW_INSTANCING_FLAG_ENABLE_VIEW_INSTANCE_MASKING, d3d12umddi/D3D12DDI_VIEW_INSTANCING_FLAG_ENABLE_VIEW_INSTANCE_MASKING, d3d12umddi/D3D12DDI_VIEW_INSTANCING_FLAG_NONE, D3D12DDI_VIEW_INSTANCING_FLAGS, D3D12DDI_VIEW_INSTANCING_FLAGS enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_VIEW_INSTANCING_FLAGS
-req.alt-loc: d3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d12umddi.h
+apiname: 
+-	D3D12DDI_VIEW_INSTANCING_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_VIEW_INSTANCING_FLAGS
 ---
 
 # D3D12DDI_VIEW_INSTANCING_FLAGS enumeration
 
 
-
 ## -description
+
+
 Defines the view instancing flags.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3D12DDI_VIEW_INSTANCING_FLAGS { 
@@ -55,6 +65,9 @@ typedef enum _D3D12DDI_VIEW_INSTANCING_FLAGS {
 
 ## -enum-fields
 
+
+
+
 ### -field D3D12DDI_VIEW_INSTANCING_FLAG_NONE
 
 No view instancing flag is defined.
@@ -64,5 +77,3 @@ No view instancing flag is defined.
 
 The view instancing flag is enable view instance masking.
 
-
-## -remarks

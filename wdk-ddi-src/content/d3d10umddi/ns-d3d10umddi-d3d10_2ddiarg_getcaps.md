@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3a22464f-4e0b-4b14-bdbf-b34b3abf9780
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_2DDIARG_GETCAPS, D3D10_2DDIARG_GETCAPS
+ms.keywords: D3D10_2DDIARG_GETCAPS structure [Display Devices], D3D10_2DDIARG_GETCAPS, d3d10umddi/D3D10_2DDIARG_GETCAPS, display.d3d10_2ddiarg_getcaps, UMDisplayDriver_Dx11param_Structs_0d9c80db-e29f-4e2f-b697-bcf87f29034c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3D10_2DDIARG_GETCAPS is supported beginning with the
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10_2DDIARG_GETCAPS
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10_2DDIARG_GETCAPS
+product: Windows
+targetos: Windows
 req.typenames: D3D10_2DDIARG_GETCAPS
 ---
 
 # D3D10_2DDIARG_GETCAPS structure
 
 
-
 ## -description
+
+
 The D3D10_2DDIARG_GETCAPS structure contains display device capabilities of a particular type.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D10_2DDIARG_GETCAPS {
@@ -56,6 +66,9 @@ typedef struct D3D10_2DDIARG_GETCAPS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Type
 
@@ -77,18 +90,12 @@ typedef struct D3D10_2DDIARG_GETCAPS {
 [in/out] The size, in bytes, of the memory block at <b>pData</b>. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_2ddicaps_type.md">D3D10_2DDICAPS_TYPE</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getcaps.md">GetCaps(D3D10_2)</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_2ddicaps_type.md">D3D10_2DDICAPS_TYPE</a>
+
  
 
  

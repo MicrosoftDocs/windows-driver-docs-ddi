@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c2a48cf2-f595-4f78-b779-416d324e90d7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMDT_VIDPN_SOURCE_MODE_TYPE, D3DKMDT_VIDPN_SOURCE_MODE_TYPE
+ms.keywords: display.d3dkmdt_vidpn_source_mode_type, D3DKMDT_VIDPN_SOURCE_MODE_TYPE, d3dkmdt/D3DKMDT_RMT_GRAPHICS_STEREO, d3dkmdt/D3DKMDT_RMT_GRAPHICS, DmEnums_602e0ab4-4fea-489f-8f2e-c8cf9534caa8.xml, d3dkmdt/D3DKMDT_RMT_UNINITIALIZED, _D3DKMDT_VIDPN_SOURCE_MODE_TYPE, D3DKMDT_RMT_UNINITIALIZED, D3DKMDT_RMT_GRAPHICS_STEREO, D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN, d3dkmdt/D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN, d3dkmdt/D3DKMDT_VIDPN_SOURCE_MODE_TYPE, D3DKMDT_VIDPN_SOURCE_MODE_TYPE enumeration [Display Devices], D3DKMDT_RMT_GRAPHICS, D3DKMDT_RMT_TEXT, d3dkmdt/D3DKMDT_RMT_TEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMDT_VIDPN_SOURCE_MODE_TYPE
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	D3DKMDT_VIDPN_SOURCE_MODE_TYPE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMDT_VIDPN_SOURCE_MODE_TYPE
 ---
 
 # _D3DKMDT_VIDPN_SOURCE_MODE_TYPE enumeration
 
 
-
 ## -description
+
+
 The D3DKMDT_VIDPN_SOURCE_MODE_TYPE enumeration is used to indicate whether a video present network (VidPN) source mode is a graphics mode, a text mode, or a stereo mode.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3DKMDT_VIDPN_SOURCE_MODE_TYPE { 
@@ -57,6 +67,9 @@ typedef enum _D3DKMDT_VIDPN_SOURCE_MODE_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DKMDT_RMT_UNINITIALIZED
 
@@ -90,4 +103,8 @@ If mono content needs to be displayed in a stereo mode, the operating system can
 
 
 ## -remarks
-The <b>Type</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a> structure is a D3DKMDT_VIDPN_SOURCE_MODE_TYPE value.</p>
+
+
+The <b>Type</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a> structure is a D3DKMDT_VIDPN_SOURCE_MODE_TYPE value.
+
+

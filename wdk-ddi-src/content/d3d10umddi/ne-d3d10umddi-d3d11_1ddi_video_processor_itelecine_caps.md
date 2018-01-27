@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 866203d9-9621-4458-b146-be90e67c1c7c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS, D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS
+ms.keywords: d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_22, D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_222222222223, display.d3d11_1ddi_video_processor_itelecine_caps, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_222222222223, D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS, D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_22, D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_32, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_64, D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_OTHER, D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_2332, D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_2224, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_2224, D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_32322, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_OTHER, D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_64, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_87, D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_87, D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS enumeration [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_32322, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_32, D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_55, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_55, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_2332
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS
 ---
 
 # D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS enumeration
 
 
-
 ## -description
+
+
 Specifies the inverse telecine (IVTC) capabilities of a video processor.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS { 
@@ -62,6 +72,9 @@ typedef enum D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS_32
 
@@ -112,5 +125,3 @@ The video processor can reverse 2:2:2:2:2:2:2:2:2:2:2:3 pulldown.
 
 The video processor can reverse other telecine modes not listed here.
 
-
-## -remarks

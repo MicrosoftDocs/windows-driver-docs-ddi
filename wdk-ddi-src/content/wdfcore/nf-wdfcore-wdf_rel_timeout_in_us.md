@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 202c9741-140e-4d6e-961b-fb92f690e743
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_REL_TIMEOUT_IN_US
+ms.keywords: WDF_REL_TIMEOUT_IN_US, wdf.wdf_rel_timeout_in_us, wdfcore/WDF_REL_TIMEOUT_IN_US, kmdf.wdf_rel_timeout_in_us, WDF_REL_TIMEOUT_IN_US function, DFTimerObjectRef_40b7f958-a289-43c2-ba4b-7085cc1659ee.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_REL_TIMEOUT_IN_US
-req.alt-loc: None,None.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	None
+-	None.dll
+apiname: 
+-	WDF_REL_TIMEOUT_IN_US
+product: Windows
+targetos: Windows
 req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WDF_REL_TIMEOUT_IN_US function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_REL_TIMEOUT_IN_US</b> function converts a specified number of microseconds to a relative time value.
 
 
-
 ## -syntax
+
 
 ````
 LONGLONG WDF_REL_TIMEOUT_IN_US(
@@ -57,27 +68,32 @@ LONGLONG WDF_REL_TIMEOUT_IN_US(
 
 ## -parameters
 
+
+
+
 ### -param Time [in]
 
 The number of microseconds to convert.
 
 
 ## -returns
+
+
 <b>WDF_REL_TIMEOUT_IN_US</b> returns the relative time value, in system time units (100-nanosecond intervals), that represents the number of microseconds that <i>Time</i> specifies.
 
 
+
 ## -remarks
+
+
 A relative time is a time value that is relative to the current system time. For example, if a caller passes a relative time value of five microseconds to a function that accepts a time-out value, the function will time out five microseconds after it is called.
 
-The following code example starts a timer. The framework will call the timer's <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a> callback function after one hundred microseconds. 
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfcore\nf-wdfcore-wdf_abs_timeout_in_us.md">WDF_ABS_TIMEOUT_IN_US</a>
-</dt>
-</dl>
+
  
 
  

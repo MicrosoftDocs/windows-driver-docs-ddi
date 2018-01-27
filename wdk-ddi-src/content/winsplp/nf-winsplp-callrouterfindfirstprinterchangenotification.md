@@ -7,8 +7,8 @@ old-location: print\callrouterfindfirstprinterchangenotification.htm
 old-project: print
 ms.assetid: 7B974255-2FCB-4EFE-B33F-9856E0A09FC4
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: CallRouterFindFirstPrinterChangeNotification
+ms.date: 1/18/2018
+ms.keywords: print.callrouterfindfirstprinterchangenotification, winsplp/CallRouterFindFirstPrinterChangeNotification, CallRouterFindFirstPrinterChangeNotification function [Print Devices], CallRouterFindFirstPrinterChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CallRouterFindFirstPrinterChangeNotification
-req.alt-loc: Winsplp.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Winsplp.h
+apiname: 
+-	CallRouterFindFirstPrinterChangeNotification
+product: Windows
+targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # CallRouterFindFirstPrinterChangeNotification function
 
 
-
 ## -description
 
 
 
 
+
 ## -syntax
+
 
 ````
 DWORD WINAPI CallRouterFindFirstPrinterChangeNotification(
@@ -59,19 +69,25 @@ DWORD WINAPI CallRouterFindFirstPrinterChangeNotification(
 
 ## -parameters
 
+
+
+
 ### -param hPrinterRPC [in]
 
 
-### -param fdwFilterFlags 
+
+### -param fdwFilterFlags
 
 
-### -param fdwOptions 
+
+### -param fdwOptions
+
 
 
 ### -param hNotify [in]
 
 
+
 ### -param pPrinterNotifyOptions [in]
 
 
-## -remarks

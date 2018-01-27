@@ -7,8 +7,8 @@ old-location: netvista\ndis_pci_device_custom_properties.htm
 old-project: netvista
 ms.assetid: fd61184f-0502-492d-9014-6afbfd70c189
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, *PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES
+ms.date: 1/18/2018
+ms.keywords: ndis_pci_properties_ref_46b46f9e-32d9-47fb-ad16-bb8b56a5d5bd.xml, *PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES, ntddndis/NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES, ntddndis/PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES, PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES structure pointer [Network Drivers Starting with Windows Vista], NDIS_PCI_DEVICE_CUSTOM_PROPERTIES structure [Network Drivers Starting with Windows Vista], NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, netvista.ndis_pci_device_custom_properties, _NDIS_PCI_DEVICE_CUSTOM_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_PCI_DEVICE_CUSTOM_PROPERTIES
-req.alt-loc: ntddndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddndis.h
+apiname: 
+-	NDIS_PCI_DEVICE_CUSTOM_PROPERTIES
+product: Windows
+targetos: Windows
 req.typenames: NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, *PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES
 ---
 
 # _NDIS_PCI_DEVICE_CUSTOM_PROPERTIES structure
 
 
-
 ## -description
+
+
 The NDIS_PCI_DEVICE_CUSTOM_PROPERTIES structure defines the type and speed of the PCI bus that a NIC
   is running on.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NDIS_PCI_DEVICE_CUSTOM_PROPERTIES {
@@ -68,6 +78,9 @@ typedef struct _NDIS_PCI_DEVICE_CUSTOM_PROPERTIES {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -163,40 +176,38 @@ The number of message interrupts that a PCI Express device supports in hardware.
 
 
 ## -remarks
+
+
 Some high performance miniport adapters can adjust the hardware configuration and resource allocation
     based on the type and speed of the PCI bus that the NIC is running on. To provide miniport drivers with
     this information during initialization, NDIS queries the custom PCI properties of PCI adapters and
     provides the results in 
     <b>PciDeviceCustomProperties</b> member of the 
-    <a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">
-    NDIS_MINIPORT_INIT_PARAMETERS</a> structure. The type and speed of the PCI bus is also available
+    <mshelp:link keywords="netvista.ndis_miniport_init_parameters" tabindex="0"><b>
+    NDIS_MINIPORT_INIT_PARAMETERS</b></mshelp:link> structure. The type and speed of the PCI bus is also available
     through the 
-    <a href="netvista.oid_gen_pci_device_custom_properties">
-    OID_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</a> OID request and the 
-    <a href="netvista.guid_ndis_gen_pci_device_custom_properties">
-    GUID_NDIS_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</a> WMI GUID.
+    <mshelp:link keywords="netvista.oid_gen_pci_device_custom_properties" tabindex="0">
+    OID_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</mshelp:link> OID request and the 
+    <mshelp:link keywords="netvista.guid_ndis_gen_pci_device_custom_properties" tabindex="0"><b>
+    GUID_NDIS_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</b></mshelp:link> WMI GUID.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="netvista.guid_ndis_gen_pci_device_custom_properties">
-   GUID_NDIS_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</a>
-</dt>
-<dt>
-<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.guid_ndis_gen_pci_device_custom_properties" tabindex="0"><b>
+   GUID_NDIS_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</b></mshelp:link>
+
+<mshelp:link keywords="netvista.oid_gen_pci_device_custom_properties" tabindex="0">
+   OID_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</mshelp:link>
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-</dt>
-<dt>
-<a href="netvista.oid_gen_pci_device_custom_properties">
-   OID_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</a>
-</dt>
-</dl>
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
+
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PCI_DEVICE_CUSTOM_PROPERTIES structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PCI_DEVICE_CUSTOM_PROPERTIES structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D09A124A-82F6-4B0A-B60F-E60EB54B0EC1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UDECX_USB_DEVICE_PLUG_IN_OPTIONS, UDECX_USB_DEVICE_PLUG_IN_OPTIONS, *PUDECX_USB_DEVICE_PLUG_IN_OPTIONS
+ms.keywords: buses.udecx_usb_device_plug_in_options, udecxusbdevice/ PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, UDECX_USB_DEVICE_PLUG_IN_OPTIONS structure [Buses], PUDECX_USB_DEVICE_PLUG_IN_OPTIONS structure pointer [Buses], UDECX_USB_DEVICE_PLUG_IN_OPTIONS, PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, *PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, _UDECX_USB_DEVICE_PLUG_IN_OPTIONS, udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UDECX_USB_DEVICE_PLUG_IN_OPTIONS
-req.alt-loc: UdecxUsbDevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: UDECX_USB_DEVICE_PLUG_IN_OPTIONS, *PUDECX_USB_DEVICE_PLUG_IN_OPTIONS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	UdecxUsbDevice.h
+apiname: 
+-	UDECX_USB_DEVICE_PLUG_IN_OPTIONS
+product: Windows
+targetos: Windows
+req.typenames: *PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, UDECX_USB_DEVICE_PLUG_IN_OPTIONS
 req.product: Windows 10 or later.
 ---
 
 # _UDECX_USB_DEVICE_PLUG_IN_OPTIONS structure
 
 
-
 ## -description
+
+
 Contains the port numbers to which a virtual USB device is connected. Initialize this structure by calling the <a href="..\udecxusbdevice\nf-udecxusbdevice-udecx_usb_device_plug_in_options_init.md">UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT</a> method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UDECX_USB_DEVICE_PLUG_IN_OPTIONS {
@@ -56,6 +66,9 @@ typedef struct _UDECX_USB_DEVICE_PLUG_IN_OPTIONS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -72,15 +85,10 @@ The USB 2.0 port number.
 The USB 2.0 port number.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceplugin.md">UdecxUsbDevicePlugIn</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 71d6db29-0a93-4793-92f4-3e85615e1b61
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _TRANSACTIONMANAGER_INFORMATION_CLASS, TRANSACTIONMANAGER_INFORMATION_CLASS
+ms.keywords: TransactionManagerBasicInformation, TransactionManagerRecoveryInformation, wdm/TRANSACTIONMANAGER_INFORMATION_CLASS, kernel.transactionmanager_information_class, wdm/TransactionManagerBasicInformation, wdm/TransactionManagerLogInformation, TRANSACTIONMANAGER_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TransactionManagerLogPathInformation, TransactionManagerLogInformation, wdm/TransactionManagerRecoveryInformation, TRANSACTIONMANAGER_INFORMATION_CLASS, ktm_ref_55fd8dd4-e88d-40df-9091-1aecc4de38a7.xml, wdm/TransactionManagerLogPathInformation, _TRANSACTIONMANAGER_INFORMATION_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later operating system
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TRANSACTIONMANAGER_INFORMATION_CLASS
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	TRANSACTIONMANAGER_INFORMATION_CLASS
+product: Windows
+targetos: Windows
 req.typenames: TRANSACTIONMANAGER_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _TRANSACTIONMANAGER_INFORMATION_CLASS enumeration
 
 
-
 ## -description
+
+
 The <b>TRANSACTIONMANAGER_INFORMATION_CLASS</b> enumeration specifies the type of information that the <a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a> routine can retrieve for a <a href="https://msdn.microsoft.com/af53cda4-e2ab-47df-9311-a4da2a2ee08d">transaction manager object</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _TRANSACTIONMANAGER_INFORMATION_CLASS { 
@@ -57,6 +67,9 @@ typedef enum _TRANSACTIONMANAGER_INFORMATION_CLASS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field TransactionManagerBasicInformation
 
@@ -78,24 +91,16 @@ Information about a transaction manager object is stored in a <a href="..\wdm\ns
 Information about a transaction manager object is stored in a <a href="..\wdm\ns-wdm-_transactionmanager_recovery_information.md">TRANSACTIONMANAGER_RECOVERY_INFORMATION</a> structure.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_transactionmanager_basic_information.md">TRANSACTIONMANAGER_BASIC_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_transactionmanager_log_information.md">TRANSACTIONMANAGER_LOG_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_transactionmanager_logpath_information.md">TRANSACTIONMANAGER_LOGPATH_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_transactionmanager_logpath_information.md">TRANSACTIONMANAGER_LOGPATH_INFORMATION</a>
+
  
 
  

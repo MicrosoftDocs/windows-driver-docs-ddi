@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 07c0aeac-0f82-492a-aa98-0ba5a962b9cf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTEnumAdapters
+ms.keywords: display.d3dkmtenumadapters, d3dkmthk/D3DKMTEnumAdapters, D3DKMTEnumAdapters function [Display Devices], PFND3DKMT_ENUMADAPTERS, D3DKMTEnumAdapters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTEnumAdapters
-req.alt-loc: Gdi32.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Gdi32.dll
+apiname: 
+-	D3DKMTEnumAdapters
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTEnumAdapters function
 
 
-
 ## -description
+
+
 Enumerates all graphics adapters on the system.
 
 
-
 ## -syntax
+
 
 ````
 EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTEnumAdapters(
@@ -54,36 +64,69 @@ EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTEnumAdapters(
 
 ## -parameters
 
-### -param pEnumAdapters [in, out]
+
+
+
+### -param D3DKMT_ENUMADAPTERS
+
+TBD
+
+
+
+#### - pEnumAdapters [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_enumadapters.md">D3DKMT_ENUMADAPTERS</a> structure that lists all graphics adapters and their characteristics.
 
 
 ## -returns
+
+
 Returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The enumeration was successful.
+</dl>
+</td>
+<td width="60%">
+The enumeration was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER </b></dt>
-</dl>The  <i>pEnumAdapters</i> parameter was validated and determined to be incorrect.
+</dl>
+</td>
+<td width="60%">
+The  <i>pEnumAdapters</i> parameter was validated and determined to be incorrect.
 
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other NTSTATUS values.
 
 
+
 ## -remarks
+
+
 The operating system enumerates graphics adapters in the same sequence as their corresponding physical devices.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_enumadapters.md">D3DKMT_ENUMADAPTERS</a>
-</dt>
-</dl>
+
  
 
  

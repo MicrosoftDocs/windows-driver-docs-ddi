@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: e21fa089-0650-4a3f-96f9-f479d36ef080
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes
+ms.keywords: hid.pi8042_keyboard_isr, KeyboardIsr callback function [Human Input Devices], KeyboardIsr, PI8042_KEYBOARD_ISR, PI8042_KEYBOARD_ISR, ntdd8042/KeyboardIsr, i8042ref_34293f47-3e6c-4721-ab58-8ac531543c8e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeyboardIsr
-req.alt-loc: ntdd8042.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-req.typenames: *PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ntdd8042.h
+apiname: 
+-	KeyboardIsr
+product: Windows
+targetos: Windows
+req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
 ---
 
 # PI8042_KEYBOARD_ISR callback
 
 
-
 ## -description
+
+
 A PI8042_KEYBOARD_ISR-typed callback routine customizes the operation of the I8042prt keyboard ISR.
 
 
-
 ## -prototype
+
 
 ````
 PI8042_KEYBOARD_ISR KeyboardIsr;
@@ -62,6 +72,9 @@ BOOLEAN KeyboardIsr(
 
 
 ## -parameters
+
+
+
 
 ### -param IsrContext [in]
 
@@ -99,10 +112,15 @@ Pointer to a <a href="..\ntdd8042\ne-ntdd8042-_keyboard_scan_state.md">KEYBOARD_
 
 
 ## -returns
+
+
 A PI8042_KEYBOARD_ISR callback returns <b>TRUE</b> if the I8042prt keyboard ISR should continue; otherwise it returns <b>FALSE</b>.
 
 
+
 ## -remarks
+
+
 A PI8042_KEYBOARD_ISR callback is not needed if the default operation of the I8042prt keyboard ISR is sufficient. 
 
 An optional, vendor-supplied, upper-level keyboard filter driver can provide a PI8042_KEYBOARD_ISR callback. The I8042prt ISR calls the callback after it validates the interrupt and reads the scan code. 
@@ -110,24 +128,19 @@ An optional, vendor-supplied, upper-level keyboard filter driver can provide a P
 The PI8042_KEYBOARD_ISR callback runs in kernel mode at the IRQL of the I8042prt keyboard ISR.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542337">KEYBOARD_INPUT_DATA</a>
-</dt>
-<dt>
+
 <a href="..\ntdd8042\ne-ntdd8042-_keyboard_scan_state.md">KEYBOARD_SCAN_STATE</a>
-</dt>
-<dt>
-<a href="..\ntdd8042\ns-ntdd8042-_output_packet.md">OUTPUT_PACKET</a>
-</dt>
-<dt>
+
 <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
+
+<a href="..\ntdd8042\ns-ntdd8042-_output_packet.md">OUTPUT_PACKET</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542337">KEYBOARD_INPUT_DATA</a>
+
  
 
  

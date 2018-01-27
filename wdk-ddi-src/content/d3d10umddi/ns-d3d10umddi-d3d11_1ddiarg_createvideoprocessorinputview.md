@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 73F8F146-A38B-4890-867D-862361455AD4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
+ms.keywords: d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW structure pointer [Display Devices], PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, d3d10umddi/PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW structure [Display Devices], display.d3d11_1ddiarg_createvideoprocessorinputview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
 ---
 
 # D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW structure
 
 
-
 ## -description
+
+
 Describes the video processor's input view.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW {
@@ -58,6 +68,9 @@ typedef struct _D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDrvResource
 
@@ -93,15 +106,10 @@ The identifier of the first array slice.
 The number of array slices for the texture.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessoroutputview.md">D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW</a>
-</dt>
-</dl>
+
  
 
  

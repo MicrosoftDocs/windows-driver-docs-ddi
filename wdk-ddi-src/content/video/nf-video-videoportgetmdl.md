@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 03ec6323-a3f9-485d-80c8-92ac99d8e73a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortGetMdl
+ms.keywords: display.videoportgetmdl, VideoPort_Functions_570b04cd-9b69-4d1a-b953-7220d4fc7790.xml, video/VideoPortGetMdl, VideoPortGetMdl function [Display Devices], VideoPortGetMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortGetMdl
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortGetMdl
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # VideoPortGetMdl function
 
 
-
 ## -description
+
+
 The <b>VideoPortGetMdl</b> function is <b>obsolete</b> in Windows 2000 and later.
 
-<b>VideoPortGetMdl</b> retrieves the memory descriptor list (<a href="wdkgloss.m#wdkgloss.mdl#wdkgloss.mdl"><i>MDL</i></a>) that represents the page table of the locked buffer.
-
+<b>VideoPortGetMdl</b> retrieves the memory descriptor list (<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>) that represents the page table of the locked buffer.
 
 
 ## -syntax
+
 
 ````
 PVOID VideoPortGetMdl(
@@ -57,6 +67,9 @@ PVOID VideoPortGetMdl(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -69,8 +82,15 @@ Is a handle to the DMA context being queried. This handle was obtained from <a h
 
 
 ## -returns
+
+
 <b>VideoPortGetMdl</b> returns <i>pDma</i>, for compatibility reasons. 
 
 
+
 ## -remarks
-See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.</p>
+
+
+See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
+
+

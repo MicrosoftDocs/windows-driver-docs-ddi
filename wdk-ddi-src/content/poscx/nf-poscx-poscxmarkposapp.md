@@ -7,8 +7,8 @@ old-location: pos\poscxmarkposapp.htm
 old-project: pos
 ms.assetid: 6BFFD014-E9DC-495C-9810-0D23BD93C41A
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PosCxMarkPosApp
+ms.date: 1/18/2018
+ms.keywords: pos.poscxmarkposapp, PosCxMarkPosApp, PosCxMarkPosApp function, poscx/PosCxMarkPosApp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PosCxMarkPosApp
-req.alt-loc: poscx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	poscx.h
+apiname: 
+-	PosCxMarkPosApp
+product: Windows
+targetos: Windows
 req.typenames: POS_CX_EVENT_PRIORITY
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # PosCxMarkPosApp function
 
 
-
 ## -description
+
+
 PosCxMarkPosApp marks the open instance as associated or not associated with a point-of-service application.
 
 This optional method provides value if the driver implements multiple device interfaces. It helps to  identify which interface is currently in use.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PosCxMarkPosApp(
@@ -58,6 +68,9 @@ NTSTATUS PosCxMarkPosApp(
 
 
 ## -parameters
+
+
+
 
 ### -param device [in]
 
@@ -75,9 +88,18 @@ Specifies if the open instance is associated with a point-of-service application
 
 
 ## -returns
+
+
 Possible return values are:
+<table>
+<tr>
+<td><b>STATUS_SUCCESS</b></td>
+<td>Completed successfully.</td>
+</tr>
+<tr>
+<td><b>INVALID_PARAMETER</b></td>
+<td>The specified <i>fileObject</i> is invalid.</td>
+</tr>
+</table> 
 
- 
 
-
-## -remarks

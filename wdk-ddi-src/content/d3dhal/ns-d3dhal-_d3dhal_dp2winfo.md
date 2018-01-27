@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: da4cdaff-4418-4b88-bf47-5a1567e940e1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2WINFO, D3DHAL_DP2WINFO, *LPD3DHAL_DP2WINFO
+ms.keywords: LPD3DHAL_DP2WINFO, D3DHAL_DP2WINFO structure [Display Devices], D3DHAL_DP2WINFO, _D3DHAL_DP2WINFO, *LPD3DHAL_DP2WINFO, LPD3DHAL_DP2WINFO structure pointer [Display Devices], d3dstrct_f0755102-ab0f-43fd-9821-3cde940d24a1.xml, display.d3dhal_dp2winfo, d3dhal/LPD3DHAL_DP2WINFO, d3dhal/D3DHAL_DP2WINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DP2WINFO
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DP2WINFO
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DP2WINFO
 ---
 
 # _D3DHAL_DP2WINFO structure
 
 
-
 ## -description
+
+
 The D3DHAL_DP2WINFO structure is used to inform the driver of the w-range to be used for w-buffering.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DP2WINFO {
@@ -55,7 +65,11 @@ typedef struct _D3DHAL_DP2WINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field dvWNear
+
 
 
 ### -field dvWFar
@@ -64,6 +78,8 @@ Specify the near and far limit of the w-buffer, respectively. These members can 
 
 
 ## -remarks
+
+
 The <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback parses a D3DHAL_DP2WINFO structure from the command buffer and updates the driver's scaling parameters for w-buffering when <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a> is set to D3DDP2OP_WINFO.
 
 One D3DHAL_DP2WINFO structure follows the D3DHAL_DP2COMMAND structure in the command buffer.
@@ -73,16 +89,15 @@ The driver should update the w-buffer portion of its internal rendering context 
 Video adapters that do not support this feature should ignore and skip over these instructions and continue processing the rest of the command buffer.
 
 
+
 ## -see-also
-<dl>
-<dt>D3DDP2OP_WINFO</dt>
-<dt>
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-</dt>
-<dt>
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-</dt>
-</dl>
+
+D3DDP2OP_WINFO
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
  
 
  

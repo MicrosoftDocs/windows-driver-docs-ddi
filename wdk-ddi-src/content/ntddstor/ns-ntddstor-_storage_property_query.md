@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5f8e4fbd-706c-4694-bcba-927474a66e86
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_PROPERTY_QUERY, *PSTORAGE_PROPERTY_QUERY, STORAGE_PROPERTY_QUERY
+ms.keywords: ntddstor/PSTORAGE_PROPERTY_QUERY, STORAGE_PROPERTY_QUERY, ntddstor/STORAGE_PROPERTY_QUERY, *PSTORAGE_PROPERTY_QUERY, _STORAGE_PROPERTY_QUERY, PSTORAGE_PROPERTY_QUERY, storage.storage_property_query, PSTORAGE_PROPERTY_QUERY structure pointer [Storage Devices], structs-general_3b25ee3b-72f2-4f41-8c76-a1764bea86af.xml, STORAGE_PROPERTY_QUERY structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_PROPERTY_QUERY
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSTORAGE_PROPERTY_QUERY, STORAGE_PROPERTY_QUERY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	STORAGE_PROPERTY_QUERY
+product: Windows
+targetos: Windows
+req.typenames: STORAGE_PROPERTY_QUERY, *PSTORAGE_PROPERTY_QUERY
 ---
 
 # _STORAGE_PROPERTY_QUERY structure
 
 
-
 ## -description
+
+
 This structure is used in conjunction with <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> to retrieve the properties of a storage device or adapter. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STORAGE_PROPERTY_QUERY {
@@ -55,6 +65,9 @@ typedef struct _STORAGE_PROPERTY_QUERY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PropertyId
 
@@ -72,6 +85,8 @@ Contains an array of bytes with additional input parameters that are needed for 
 
 
 ## -remarks
+
+
 The results of the query can be one of 
      several structures depending on the value of the <b>PropertyId</b> member. These values are enumerated by the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a> enumeration.
@@ -81,27 +96,21 @@ If the
      <b>PropertyExistsQuery</b>, then no structure is returned. For more info, see <a href="..\ntddstor\ne-ntddstor-_storage_query_type.md">STORAGE_QUERY_TYPE</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
-</dt>
-<dt>
-<a href="..\ntddstor\ns-ntddstor-_storage_descriptor_header.md">STORAGE_DESCRIPTOR_HEADER</a>
-</dt>
-<dt>
-<a href="..\ntddstor\ne-ntddstor-_storage_query_type.md">STORAGE_QUERY_TYPE</a>
-</dt>
-<dt>
-<a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="..\ntddstor\ns-ntddstor-_storage_adapter_descriptor.md">STORAGE_ADAPTER_DESCRIPTOR</a>
-</dt>
-<dt>
+
+<a href="..\ntddstor\ns-ntddstor-_storage_descriptor_header.md">STORAGE_DESCRIPTOR_HEADER</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
-</dt>
-</dl>
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+
+<a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
+
+<a href="..\ntddstor\ne-ntddstor-_storage_query_type.md">STORAGE_QUERY_TYPE</a>
+
  
 
  

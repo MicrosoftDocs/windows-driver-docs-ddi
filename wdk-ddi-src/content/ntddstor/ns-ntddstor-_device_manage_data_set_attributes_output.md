@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FFC52136-8A1C-48F6-A846-C1C5BFB4570C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
+ms.keywords: ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure pointer [Storage Devices], ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure [Storage Devices], storage.device_manage_data_set_attributes_output, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
+product: Windows
+targetos: Windows
 req.typenames: *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
 ---
 
 # _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure
 
 
-
 ## -description
+
+
 The <b>DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</b> structure describes output for  <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> control code requests for some data set management actions. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT {
@@ -61,6 +71,9 @@ typedef struct _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -108,23 +121,22 @@ The length of the action-specific data.
 
 
 ## -remarks
+
+
 Depending on the value of <b>Action</b>, an output block is written at an offset of <b>OutputBlockOffset</b> after the beginning of this structure. The size of the output block is specified in <b>OutputBlockLength</b>. 
 
 Currently, only the <b>DeviceDsmAction_Allocation</b> action uses this structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>
-</dt>
-<dt>
+
 <a href="..\ntddstor\ns-ntddstor-_device_data_set_lb_provisioning_state.md">DEVICE_DATA_SET_LB_PROVISIONING_STATE</a>
-</dt>
-<dt>
+
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
-</dt>
-</dl>
+
  
 
  

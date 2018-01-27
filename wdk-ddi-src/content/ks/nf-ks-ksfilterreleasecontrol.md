@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4f868e88-ef5c-4fad-be53-2b5116a6385b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterReleaseControl
+ms.keywords: stream.ksfilterreleasecontrol, ks/KsFilterReleaseControl, KsFilterReleaseControl, KsFilterReleaseControl function [Streaming Media Devices], avfunc_ca99338c-1cae-4ef4-8ef5-76ee368ae1d6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsFilterReleaseControl
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KsFilterReleaseControl
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsFilterReleaseControl function
 
 
-
 ## -description
+
+
 The<b> KsFilterReleaseControl </b>function releases the control mutex for the AVStream filter specified by <i>Filter</i>.
 
 
-
 ## -syntax
+
 
 ````
 void __inline KsFilterReleaseControl(
@@ -54,30 +64,36 @@ void __inline KsFilterReleaseControl(
 
 ## -parameters
 
+
+
+
 ### -param Filter [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure representing the AVStream filter for which to release the control mutex.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 This function is an inline call to <a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a> with the appropriate typecasting. When manipulating a filter, minidrivers should call this function instead of calling <b>KsReleaseControl</b> directly.
 
 For a description of the filter control mutex, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
+
  
 
  

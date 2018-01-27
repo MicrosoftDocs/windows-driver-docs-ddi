@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b656882a-1cc7-45e8-bda4-c1450b599b4b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortPauseDevice
+ms.keywords: storprt_5506e943-789f-49d7-a9bc-c837fcd1bba2.xml, StorPortPauseDevice, StorPortPauseDevice routine [Storage Devices], storage.storportpausedevice, storport/StorPortPauseDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortPauseDevice
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortPauseDevice
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortPauseDevice function
 
 
-
 ## -description
+
+
 The <b>StorPortPauseDevice</b> routine pauses a specific logical unit device for the specified period of time. 
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API BOOLEAN StorPortPauseDevice(
@@ -58,6 +69,9 @@ STORPORT_API BOOLEAN StorPortPauseDevice(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -79,25 +93,35 @@ Identifies the target controller or device on the bus.
 Identifies the logical unit number of the target device. 
 
 
-### -param TimeOut [in]
+### -param Timeout
+
+TBD
+
+
+
+#### - TimeOut [in]
 
 Contains the interval of time that the device is to be paused, in seconds. 
 
 
 ## -returns
+
+
 <b>StorPortPauseDevice</b> returns <b>TRUE</b> if the miniport driver succeeded in pausing the device, <b>FALSE</b> if not. 
 
 
+
 ## -remarks
+
+
 When the time-out expires, I/O requests to the device will be resumed.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\nf-storport-storportresumedevice.md">StorPortResumeDevice</a>
-</dt>
-</dl>
+
  
 
  

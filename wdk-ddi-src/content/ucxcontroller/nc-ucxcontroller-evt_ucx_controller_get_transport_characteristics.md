@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4394199C-6644-4E11-BDAF-625C2F94DEE8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxInitializeDeviceInit
+ms.keywords: buses.evt_ucx_controller_get_transport_characteristics, EvUcxControllerGetTransportCharacteristics callback function [Buses], EvUcxControllerGetTransportCharacteristics, EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS, EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS, ucxcontroller/EvUcxControllerGetTransportCharacteristics, *PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS callback function pointer [Buses], *PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: *PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS
-req.alt-loc: UcxController.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	UcxController.h
+apiname: 
+-	*PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS
+product: Windows
+targetos: Windows
 req.typenames: UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS callback
 
 
-
 ## -description
+
+
  UCX invokes this callback to retrieve the host controller characteristics.
 
 
-
 ## -prototype
+
 
 ````
 EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS EvUcxControllerGetTransportCharacteristics;
@@ -61,6 +71,9 @@ typedef EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS *PFN_UCX_CONTROLLER_GET
 
 ## -parameters
 
+
+
+
 ### -param UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
@@ -72,21 +85,25 @@ A pointer to a <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_transp
 
 
 ## -returns
+
+
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it must return a status value for which NT_SUCCESS(status) equals FALSE.
 
 
+
 ## -remarks
+
+
 The UCX client driver registers its implementation with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
 This callback function is optional. Whenever transport characteristics change, the client driver is responsible for notifying UCX that one of the characteristics have changed using a new function <a href="..\ucxcontroller\nf-ucxcontroller-ucxcontrollernotifytransportcharacteristicschange.md">UcxControllerNotifyTransportCharacteristicsChange</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
-</dt>
-</dl>
+
  
 
  

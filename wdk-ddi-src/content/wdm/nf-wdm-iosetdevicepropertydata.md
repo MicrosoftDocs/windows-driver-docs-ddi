@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8e535a6a-9b17-4ef6-b068-43042a589ac0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoSetDevicePropertyData
+ms.keywords: kernel.iosetdevicepropertydata, k104_a7cd308b-4d43-4364-80fb-ae773d0de101.xml, IoSetDevicePropertyData routine [Kernel-Mode Driver Architecture], IoSetDevicePropertyData, wdm/IoSetDevicePropertyData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoSetDevicePropertyData
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoSetDevicePropertyData
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoSetDevicePropertyData function
 
 
-
 ## -description
+
+
 The <b>IoSetDevicePropertyData</b> routine modifies the current setting for a device property.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS IoSetDevicePropertyData(
@@ -60,6 +70,9 @@ NTSTATUS IoSetDevicePropertyData(
 
 
 ## -parameters
+
+
+
 
 ### -param Pdo [in]
 
@@ -105,10 +118,15 @@ A pointer to the device property data. Set this parameter to <b>NULL</b> to dele
 
 
 ## -returns
+
+
 <b>IoSetDevicePropertyData</b> returns STATUS_SUCCESS if the call was successful, or the appropriate NTSTATUS code on failure.
 
 
+
 ## -remarks
+
+
 Kernel-mode drivers use the <b>IoSetDevicePropertyData</b> routine to modify device properties that are defined as part of the unified device property model. For more information about device properties, see <a href="https://msdn.microsoft.com/f41040c5-0eac-450d-b532-9165c543cc1a">Device Properties</a>.
 
 To delete a property for a specific locale, pass a language-specific LCID value in <i>Lcid</i> and <b>NULL</b> in <i>Data</i>.
@@ -126,18 +144,15 @@ Drivers can use the <a href="..\wdm\nf-wdm-iogetdevicepropertydata.md">IoGetDevi
 Callers of <b>IoSetDeviceProperty</b> must be running at IRQL &lt;= APC_LEVEL in the context of a system thread.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
+
 <a href="..\wdm\nf-wdm-iogetdevicepropertydata.md">IoGetDevicePropertyData</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 705cfd2c-b4c0-4a59-a494-f57007e13385
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, *PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, WHEA_PCIXDEVICE_ERROR_VALIDBITS, *PWHEA_PCIXDEVICE_ERROR_VALIDBITS
+ms.keywords: WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, *PWHEA_PCIXDEVICE_ERROR_VALIDBITS, ntddk/WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, _WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, whea.whea_pcixdevice_error_section_validbits, PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union pointer [WHEA Drivers and Applications], ntddk/PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union [WHEA Drivers and Applications], WHEA_PCIXDEVICE_ERROR_VALIDBITS, whearef_aa4d8f33-e22c-46df-8bb7-408cf04db2d1.xml, *PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS
+product: Windows
+targetos: Windows
+req.typenames: WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, *PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS
 ---
 
 # _WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS structure
 
 
-
 ## -description
+
+
 The WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union describes which members of a <a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a> structure contain valid data.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS {
@@ -62,34 +72,42 @@ typedef union _WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS {
 
 ## -struct-fields
 
-### -field ErrorStatus
-
-A single bit that indicates that the <b>ErrorStatus</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
 
 
-### -field IdInfo
 
-A single bit that indicates that the <b>IdInfo</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
+### -field DUMMYSTRUCTNAME
 
-
-### -field MemoryNumber
-
-A single bit that indicates that the <b>MemoryNumber</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
+ 
 
 
-### -field IoNumber
+### -field DUMMYSTRUCTNAME.ErrorStatus
 
-A single bit that indicates that the <b>IoNumber</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
-
-
-### -field RegisterDataPairs
-
-A single bit that indicates that the <b>RegisterDataPairs</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
+ 
 
 
-### -field Reserved
+### -field DUMMYSTRUCTNAME.IdInfo
 
-Reserved for system use.
+ 
+
+
+### -field DUMMYSTRUCTNAME.MemoryNumber
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.IoNumber
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.RegisterDataPairs
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Reserved
+
+ 
 
 
 ### -field ValidBits
@@ -97,16 +115,47 @@ Reserved for system use.
 A ULONGLONG representation of the contents of the WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union.
 
 
+#### - IdInfo
+
+A single bit that indicates that the <b>IdInfo</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
+
+
+#### - Reserved
+
+Reserved for system use.
+
+
+#### - RegisterDataPairs
+
+A single bit that indicates that the <b>RegisterDataPairs</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
+
+
+#### - MemoryNumber
+
+A single bit that indicates that the <b>MemoryNumber</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
+
+
+#### - IoNumber
+
+A single bit that indicates that the <b>IoNumber</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
+
+
+#### - ErrorStatus
+
+A single bit that indicates that the <b>ErrorStatus</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
+
+
 ## -remarks
+
+
 A WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union is contained within the <a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a>
-</dt>
-</dl>
+
  
 
  

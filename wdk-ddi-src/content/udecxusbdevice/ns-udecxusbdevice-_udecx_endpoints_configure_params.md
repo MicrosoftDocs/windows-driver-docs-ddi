@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: C31AE3A8-CD3C-4270-BA5C-A61C0F386701
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UDECX_ENDPOINTS_CONFIGURE_PARAMS, *PUDECX_ENDPOINTS_CONFIGURE_PARAMS, UDECX_ENDPOINTS_CONFIGURE_PARAMS
+ms.keywords: UDECX_ENDPOINTS_CONFIGURE_PARAMS structure [Buses], PUDECX_ENDPOINTS_CONFIGURE_PARAMS, *PUDECX_ENDPOINTS_CONFIGURE_PARAMS, _UDECX_ENDPOINTS_CONFIGURE_PARAMS, udecxusbdevice/UDECX_ENDPOINTS_CONFIGURE_PARAMS, UDECX_ENDPOINTS_CONFIGURE_PARAMS, PUDECX_ENDPOINTS_CONFIGURE_PARAMS structure pointer [Buses], udecxusbdevice/PUDECX_ENDPOINTS_CONFIGURE_PARAMS, buses.udecx_endpoints_configure_params
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UDECX_ENDPOINTS_CONFIGURE_PARAMS
-req.alt-loc: UdecxUsbDevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PUDECX_ENDPOINTS_CONFIGURE_PARAMS, UDECX_ENDPOINTS_CONFIGURE_PARAMS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	UdecxUsbDevice.h
+apiname: 
+-	UDECX_ENDPOINTS_CONFIGURE_PARAMS
+product: Windows
+targetos: Windows
+req.typenames: UDECX_ENDPOINTS_CONFIGURE_PARAMS, *PUDECX_ENDPOINTS_CONFIGURE_PARAMS
 req.product: Windows 10 or later.
 ---
 
 # _UDECX_ENDPOINTS_CONFIGURE_PARAMS structure
 
 
-
 ## -description
+
+
 Contains the configuration options specified by USB device emulation class extension (UdeCx) to the client driver when the class extension invokes <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_endpoints_configure.md">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UDECX_ENDPOINTS_CONFIGURE_PARAMS {
@@ -62,6 +72,9 @@ typedef struct _UDECX_ENDPOINTS_CONFIGURE_PARAMS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -97,26 +110,24 @@ The number entries in the array pointed to by <i>EndpointsToConfigure</i>. This 
 
 A pointer to an array of UDECXUSBENDPOINT handles that indicates the endpoint objects to be configured.
 
+A pointer to an array of UDECXUSBENDPOINT handles that indicates the endpoint objects that must be released.
+
 
 ### -field ReleasedEndpointsCount
 
 The number entries in the array pointed to by <i>EndpointsToConfigure</i>. This value indicates number of endpoints to release.
 
 
-### -field EndpointsToConfigure
+### -field ReleasedEndpoints
 
-A pointer to an array of UDECXUSBENDPOINT handles that indicates the endpoint objects that must be released.
+ 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_endpoints_configure.md">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: print\exttextmetric.htm
 old-project: print
 ms.assetid: d3d2397c-71c3-4904-a1ad-96a94698e50c
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: _EXTTEXTMETRIC, EXTTEXTMETRIC, *PEXTTEXTMETRIC
+ms.date: 1/18/2018
+ms.keywords: print_unidrv-pscript_fonts_8b9f67ef-9ab0-40e4-9474-c506de9c8824.xml, PEXTTEXTMETRIC structure pointer [Print Devices], *PEXTTEXTMETRIC, prntfont/PEXTTEXTMETRIC, prntfont/EXTTEXTMETRIC, EXTTEXTMETRIC structure [Print Devices], PEXTTEXTMETRIC, EXTTEXTMETRIC, print.exttextmetric, _EXTTEXTMETRIC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: EXTTEXTMETRIC
-req.alt-loc: prntfont.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	prntfont.h
+apiname: 
+-	EXTTEXTMETRIC
+product: Windows
+targetos: Windows
 req.typenames: EXTTEXTMETRIC, *PEXTTEXTMETRIC
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _EXTTEXTMETRIC structure
 
 
-
 ## -description
-The EXTTEXTMETRIC structure is used to specify font-specific information within <a href="print.customized_font_management#ddk_unidrv_font_metrics_files_gg#ddk_unidrv_font_metrics_files_gg">Unidrv font metrics files</a> (.ufm files).
 
+
+The EXTTEXTMETRIC structure is used to specify font-specific information within <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">Unidrv font metrics files</a> (.ufm files).
 
 
 ## -syntax
+
 
 ````
 typedef struct _EXTTEXTMETRIC {
@@ -80,6 +90,9 @@ typedef struct _EXTTEXTMETRIC {
 
 ## -struct-fields
 
+
+
+
 ### -field emSize
 
 Specifies the size of the structure, in bytes.
@@ -93,7 +106,6 @@ Specifies the nominal point size of this font, in twips (1/20 of a point, or 1/1
 ### -field emOrientation
 
 Specifies the orientation of the font. The <b>emOrientation</b> member can be any of the following values: 
-
 <table>
 <tr>
 <th>Value</th>
@@ -129,8 +141,7 @@ Landscape orientation
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field emMasterHeight
@@ -141,7 +152,6 @@ Specifies the font size, in device units, for which the values in this font's ex
 ### -field emMinScale
 
 Specifies the minimum valid point size for this font. The following equation illustrates how the minimum point size is determined:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -151,14 +161,12 @@ Specifies the minimum valid point size for this font. The following equation ill
 <pre>smallest point size = (emMinScale * 72) / dfVertRes </pre>
 </td>
 </tr>
-</table></span></div>
-The value 72 represents the number of points per inch. The <i>dfVertRes</i> value is the number of dots per inch.
+</table></span></div>The value 72 represents the number of points per inch. The <i>dfVertRes</i> value is the number of dots per inch.
 
 
 ### -field emMaxScale
 
 Specifies the maximum valid point size for this font. The following equation illustrates how the maximum point size is determined:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -168,8 +176,7 @@ Specifies the maximum valid point size for this font. The following equation ill
 <pre>largest point size = (etmMaxScale * 72) / dfVertRes </pre>
 </td>
 </tr>
-</table></span></div>
-The value 72 represents the number of points per inch. The <i>dfVertRes</i> value is the number of dots per inch.
+</table></span></div>The value 72 represents the number of points per inch. The <i>dfVertRes</i> value is the number of dots per inch.
 
 
 ### -field emMasterUnits
@@ -271,5 +278,3 @@ Specifies the number of character kerning pairs defined for this font.
 
 Specifies the number of kerning tracks defined for this font.
 
-
-## -remarks

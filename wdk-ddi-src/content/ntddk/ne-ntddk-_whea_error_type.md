@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: b10dbb47-394c-42f0-9471-6e5deb73a7b9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_ERROR_TYPE, *PWHEA_ERROR_TYPE, WHEA_ERROR_TYPE
+ms.keywords: ntddk/WheaErrTypeGeneric, whea.whea_error_type, WheaErrTypeMemory, WheaErrTypePCIExpress, ntddk/WheaErrTypeNMI, WHEA_ERROR_TYPE, ntddk/WheaErrTypePCIXBus, whearef_4e585fa6-81e5-4196-b7fa-6194d3701835.xml, PWHEA_ERROR_TYPE, ntddk/WheaErrTypePCIXDevice, ntddk/WheaErrTypePCIExpress, WheaErrTypeProcessor, WheaErrTypePCIXDevice, _WHEA_ERROR_TYPE, ntddk/PWHEA_ERROR_TYPE, ntddk/WHEA_ERROR_TYPE, WHEA_ERROR_TYPE enumeration [WHEA Drivers and Applications], *PWHEA_ERROR_TYPE, WheaErrTypePCIXBus, WheaErrTypeGeneric, WheaErrTypeNMI, ntddk/WheaErrTypeMemory, ntddk/WheaErrTypeProcessor, PWHEA_ERROR_TYPE enumeration pointer [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_ERROR_TYPE
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_ERROR_TYPE
+product: Windows
+targetos: Windows
 req.typenames: *PWHEA_ERROR_TYPE, WHEA_ERROR_TYPE
 ---
 
 # _WHEA_ERROR_TYPE enumeration
 
 
-
 ## -description
+
+
 The WHEA_ERROR_TYPE enumeration defines the different types of hardware components that can report a hardware error.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WHEA_ERROR_TYPE { 
@@ -59,6 +69,9 @@ typedef enum _WHEA_ERROR_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WheaErrTypeProcessor
 
@@ -96,15 +109,16 @@ A hardware component that does not conform to any of the other WHEA_ERROR_TYPE e
 
 
 ## -remarks
+
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a> structure contains a member of type WHEA_ERROR_TYPE that specifies the type of hardware component that reported the hardware error.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
-</dt>
-</dl>
+
  
 
  

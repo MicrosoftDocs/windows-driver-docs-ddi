@@ -7,8 +7,8 @@ old-location: netvista\riluiccserviceinfo_2.htm
 old-project: netvista
 ms.assetid: e96bc5b5-655f-49e3-8489-af79d427bc74
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILUICCSERVICEINFO, RILUICCSERVICEINFO, *LPRILUICCSERVICEINFO
+ms.date: 1/18/2018
+ms.keywords: rilapitypes/RILUICCSERVICEINFO, *LPRILUICCSERVICEINFO, RILUICCSERVICEINFO, netvista.riluiccserviceinfo_2, RILUICCSERVICEINFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILUICCSERVICEINFO
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILUICCSERVICEINFO
+product: Windows
+targetos: Windows
 req.typenames: RILUICCSERVICEINFO, *LPRILUICCSERVICEINFO
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILUICCSERVICEINFO structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILUICCSERVICEINFO {
@@ -57,13 +67,17 @@ typedef struct _RILUICCSERVICEINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwService
 
 
+
 ### -field dwState
 
 
-## -remarks

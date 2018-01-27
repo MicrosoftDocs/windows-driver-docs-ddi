@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ae70c0e5-0ce0-4e44-983c-9bc0f9a1f600
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS, TAPE_WRITE_MARKS
+ms.keywords: display.ioctl_video_set_child_state_configuration, IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION control code [Display Devices], IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION, ntddvdeo/IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION, Video_IOCTLs_bd76ef78-623a-4f72-b0fd-1ac70b211a98.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION
-req.alt-loc: Ntddvdeo.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,23 +29,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PTAPE_WRITE_MARKS, TAPE_WRITE_MARKS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddvdeo.h
+apiname: 
+-	IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION
+product: Windows
+targetos: Windows
+req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ---
 
 # IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
-Performs a display device switch, a state change in which the video signal going to one display device is sent to another, possibly different type of display device. After the display device switch, the video signal can be sent to one or both display devices. When the video port driver receives a notification to switch display devices, it sends this IOCTL to the miniport driver. Normally, this IOCTL is sent after <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_validate_child_state_configuration.md">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a> indicates that the miniport driver is ready to make the switch. If the miniport driver is capable of switching display devices, it should do so and set the <b>Status</b> member of <b>StatusBlock</b> to NO_ERROR.
-
-If the miniport driver is not capable of performing the display device switch, it can set the <b>Status</b> member of <b>StatusBlock</b> to an appropriate error value (described in the <b>StatusBlock</b> section), choosing not to handle the request. Although this request is optional, it is highly recommended that the miniport driver handle this request. Failure to do so forces a call to the BIOS to handle the display device switch, which can be very inefficient, and can have an adverse effect on the system's robustness. 
-
-IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION is synchronous. After this IOCTL is sent, <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_get_child_state.md">IOCTL_VIDEO_GET_CHILD_STATE</a> should reflect the new state. 
-
-This request is modal.
-
 
 
 Performs a display device switch, a state change in which the video signal going to one display device is sent to another, possibly different type of display device. After the display device switch, the video signal can be sent to one or both display devices. When the video port driver receives a notification to switch display devices, it sends this IOCTL to the miniport driver. Normally, this IOCTL is sent after <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_validate_child_state_configuration.md">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a> indicates that the miniport driver is ready to make the switch. If the miniport driver is capable of switching display devices, it should do so and set the <b>Status</b> member of <b>StatusBlock</b> to NO_ERROR.
@@ -57,55 +62,66 @@ If the miniport driver is not capable of performing the display device switch, i
 IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION is synchronous. After this IOCTL is sent, <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_get_child_state.md">IOCTL_VIDEO_GET_CHILD_STATE</a> should reflect the new state. 
 
 This request is modal.
+
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 The VRP <b>InputBuffer</b> contains a <a href="..\video\ns-video-_video_child_state_configuration.md">VIDEO_CHILD_STATE_CONFIGURATION</a> structure.
 
 
 ### -input-buffer-length
 
+
 <text></text>
 
+
+
 ### -output-buffer
+
 None
 
 
 ### -output-buffer-length
 
+
 <text></text>
+
+
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The miniport driver sets the <b>Status</b> member to NO_ERROR if it is capable of performing the display device switch. If it is not able to carry out this operation, the miniport driver can set <b>Status</b> to an appropriate error value, or do nothing at all.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_validate_child_state_configuration.md">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a>
-</dt>
-<dt>
+
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_get_child_state.md">IOCTL_VIDEO_GET_CHILD_STATE</a>
-</dt>
-<dt>
+
 <a href="..\video\ns-video-_video_child_state_configuration.md">VIDEO_CHILD_STATE_CONFIGURATION</a>
-</dt>
-</dl>
+
  
 
  

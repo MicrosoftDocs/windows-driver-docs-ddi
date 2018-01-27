@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ee51c436-2d1c-49d0-ab76-337317eeeeda
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, WDF_POWER_POLICY_S0_IDLE_USER_CONTROL
+ms.keywords: wudfddi_types/WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, IdleUserControlInvalid, DFDeviceObjectGeneralRef_3d85e623-4e88-4e66-a21d-489aebd13ddf.xml, wdfdevice/IdleDoNotAllowUserControl, IdleAllowUserControl, wudfddi_types/IdleAllowUserControl, wdf.wdf_power_policy_s0_idle_user_control, wudfddi_types/IdleUserControlInvalid, wudfddi_types/IdleDoNotAllowUserControl, wdfdevice/WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, wdfdevice/IdleUserControlInvalid, IdleDoNotAllowUserControl, kmdf.wdf_power_policy_s0_idle_user_control, _WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, wdfdevice/IdleAllowUserControl, WDF_POWER_POLICY_S0_IDLE_USER_CONTROL enumeration, WDF_POWER_POLICY_S0_IDLE_USER_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 1.11
-req.alt-api: WDF_POWER_POLICY_S0_IDLE_USER_CONTROL
-req.alt-loc: wdfdevice.h,wudfddi_types.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,21 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfdevice.h
+-	wudfddi_types.h
+apiname: 
+-	WDF_POWER_POLICY_S0_IDLE_USER_CONTROL
+product: Windows
+targetos: Windows
 req.typenames: WDF_POWER_POLICY_S0_IDLE_USER_CONTROL
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # _WDF_POWER_POLICY_S0_IDLE_USER_CONTROL enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_POWER_POLICY_S0_IDLE_USER_CONTROL</b> enumeration identifies whether a user can control a device's behavior when the device is idle and the system is in its working (S0) state.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_POWER_POLICY_S0_IDLE_USER_CONTROL { 
@@ -58,6 +69,9 @@ typedef enum _WDF_POWER_POLICY_S0_IDLE_USER_CONTROL {
 
 
 ## -enum-fields
+
+
+
 
 ### -field IdleUserControlInvalid
 
@@ -75,17 +89,18 @@ Users can control the device's idle behavior.
 
 
 ## -remarks
+
+
 The <b>WDF_POWER_POLICY_S0_IDLE_USER_CONTROL</b> enumeration is used as a member type in the <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_idle_settings.md">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure.
 
 Users control a device's idle behavior by modifying information on a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/user-control-of-device-idle-and-wake-behavior">property sheet</a>. The framework creates the property sheet and Device Manager displays it.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_idle_settings.md">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a>
-</dt>
-</dl>
+
  
 
  

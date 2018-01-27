@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9d5c08c8-8306-46e3-b10b-eeefe473d340
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxDestroyMidAtlas
+ms.keywords: RxDestroyMidAtlas, RxDestroyMidAtlas function [Installable File System Drivers], ifsk.rxdestroymidatlas, rxref_3a954108-5744-4b47-87b7-7553d64ec038.xml, midatlax/RxDestroyMidAtlas
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxDestroyMidAtlas
-req.alt-loc: midatlax.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
-req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	midatlax.h
+apiname: 
+-	RxDestroyMidAtlas
+product: Windows
+targetos: Windows
+req.typenames: *PMCD_INIT_DATA, MCD_INIT_DATA
 ---
 
 # RxDestroyMidAtlas function
 
 
-
 ## -description
+
+
 <b>RxDestroyMidAtlas</b> destroys an existing instance of a MID_ATLAS data structure and frees the allocated memory. 
 
 
-
 ## -syntax
+
 
 ````
 VOID RxDestroyMidAtlas(
@@ -55,44 +65,58 @@ VOID RxDestroyMidAtlas(
 
 ## -parameters
 
-### -param pMidAtlas 
-
-The MID_ATLAS structure to be freed.
 
 
-### -param pContextDestructor 
+
+### -param MidAtlas
+
+TBD
+
+
+### -param ContextDestructor
+
+TBD
+
+
+
+#### - pContextDestructor
 
 An associated context destructor.
 
 
+#### - pMidAtlas
+
+The MID_ATLAS structure to be freed.
+
+
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 RDBSS defines a Multiplex ID (MID), a 16-bit value, that can be used by both the network client (mini-redirector) and the server to distinguish between the concurrently active requests on any connection. A MID is part of a MID_ATLAS data structure allocated by calling <b>RxCreateMidAtlas</b>.
 
 <b>RxDestroyMidAtlas</b> destroys a MID_ATLAS data structure previously created by a call to <b>RxCreateMidAtlas</b>. As a side effect, <b>RxDestroyMidAtlas</b> invokes the passed in context destructor on every valid context in the MID_ATLAS. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\midatlax\nf-midatlax-rxassociatecontextwithmid.md">RxAssociateContextWithMid</a>
-</dt>
-<dt>
-<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
-</dt>
-<dt>
-<a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
-</dt>
-<dt>
+
 <a href="..\midatlax\nf-midatlax-rxmapanddissociatemidfromcontext.md">RxMapAndDissociateMidFromContext</a>
-</dt>
-<dt>
+
+<a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
+
+<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
+
 <a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
-</dt>
-</dl>
+
+<a href="..\midatlax\nf-midatlax-rxassociatecontextwithmid.md">RxAssociateContextWithMid</a>
+
  
 
  

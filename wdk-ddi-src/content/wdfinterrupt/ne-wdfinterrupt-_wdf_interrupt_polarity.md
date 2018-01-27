@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6621a1ec-1d4e-4801-9418-d09a0073686a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_INTERRUPT_POLARITY, WDF_INTERRUPT_POLARITY, *PWDF_INTERRUPT_POLARITY
+ms.keywords: kmdf.wdf_interrupt_polarity, wdfinterrupt/WdfInterruptPolarityUnknown, _WDF_INTERRUPT_POLARITY, WdfInterruptPolarityUnknown, *PWDF_INTERRUPT_POLARITY, WdfInterruptActiveHigh, wdfinterrupt/WdfInterruptActiveLow, wdfinterrupt/WdfInterruptActiveHigh, PWDF_INTERRUPT_POLARITY enumeration pointer, PWDF_INTERRUPT_POLARITY, wdf.wdf_interrupt_polarity, WDF_INTERRUPT_POLARITY enumeration, WdfInterruptActiveLow, DFInterruptObjectRef_979c7766-edd8-421b-8885-8000d60da78d.xml, wdfinterrupt/PWDF_INTERRUPT_POLARITY, wdfinterrupt/WDF_INTERRUPT_POLARITY, WDF_INTERRUPT_POLARITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_INTERRUPT_POLARITY
-req.alt-loc: wdfinterrupt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfinterrupt.h
+apiname: 
+-	WDF_INTERRUPT_POLARITY
+product: Windows
+targetos: Windows
 req.typenames: WDF_INTERRUPT_POLARITY, *PWDF_INTERRUPT_POLARITY
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_INTERRUPT_POLARITY enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_INTERRUPT_POLARITY</b> enumeration type is used to specify an interrupt signal's polarity.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_INTERRUPT_POLARITY { 
@@ -58,6 +68,9 @@ typedef enum _WDF_INTERRUPT_POLARITY {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WdfInterruptPolarityUnknown
 
@@ -75,15 +88,16 @@ The interrupt signal is active when it is low.
 
 
 ## -remarks
+
+
 The <b>WDF_INTERRUPT_POLARITY</b> enumeration type is used to specify a member of the <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a>
-</dt>
-</dl>
+
  
 
  

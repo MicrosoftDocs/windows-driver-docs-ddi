@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 54647A9E-E0AB-4DE7-93FB-D0232D6AC646
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBFN_INTERFACE_INFO, *PUSBFN_INTERFACE_INFO, USBFN_INTERFACE_INFO
+ms.keywords: PUSBFN_INTERFACE_INFO, USBFN_INTERFACE_INFO structure [Buses], *PUSBFN_INTERFACE_INFO, usbfnbase/PUSBFN_INTERFACE_INFO, buses.usbfn_interface_info, PUSBFN_INTERFACE_INFO structure pointer [Buses], USBFN_INTERFACE_INFO, _USBFN_INTERFACE_INFO, usbfnbase/USBFN_INTERFACE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBFN_INTERFACE_INFO
-req.alt-loc: usbfnbase.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbfnbase.h
+apiname: 
+-	USBFN_INTERFACE_INFO
+product: Windows
+targetos: Windows
 req.typenames: *PUSBFN_INTERFACE_INFO, USBFN_INTERFACE_INFO
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USBFN_INTERFACE_INFO structure
 
 
-
 ## -description
+
+
 Describes an interface and its endpoints.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBFN_INTERFACE_INFO {
@@ -58,6 +68,9 @@ typedef struct _USBFN_INTERFACE_INFO {
 
 ## -struct-fields
 
+
+
+
 ### -field InterfaceNumber
 
 The index number of the interface.
@@ -68,25 +81,20 @@ The index number of the interface.
 The operating bus speed indicated by <a href="..\usbfnbase\ne-usbfnbase-_usbfn_bus_speed.md">USBFN_BUS_SPEED</a>-typed flags.
 
 
-### -field  Size
+### -field Size
 
 Specifies the total length, in bytes, of all data for the interface. 
 
 
-### -field  InterfaceDescriptorSet
+### -field InterfaceDescriptorSet
 
 Pointer to the first element in the array of that contains the interface descriptor set.  
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbfnbase\ne-usbfnbase-_usbfn_bus_speed.md">USBFN_BUS_SPEED</a>
-</dt>
-</dl>
+
  
 
  

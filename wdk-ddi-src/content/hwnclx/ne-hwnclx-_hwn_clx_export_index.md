@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: fcbbd188-438a-4eaa-8034-67ca52d1fb56
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _HWN_CLX_EXPORT_INDEX, *PHWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX
+ms.keywords: RegisterClientIndex, hwnclx/UnregisterClientIndex, hwnclx/HWN_CLX_EXPORT_INDEX, AddDevicePostDeviceCreateIndex, _HWN_CLX_EXPORT_INDEX, HwNExportLastExportIndex, *PHWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX, hwnclx/RegisterClientIndex, hwnclx/AddDevicePostDeviceCreateIndex, gpiobtn._hwn_clx_export_index, hwnclx/HwNExportLastExportIndex, HWN_CLX_EXPORT_INDEX enumeration, UnregisterClientIndex, AddDevicePreDeviceCreateIndex, hwnclx/AddDevicePreDeviceCreateIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HWN_CLX_EXPORT_INDEX
-req.alt-loc: Hwnclx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Hwnclx.h
+apiname: 
+-	HWN_CLX_EXPORT_INDEX
+product: Windows
+targetos: Windows
 req.typenames: *PHWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX
 ---
 
 # _HWN_CLX_EXPORT_INDEX enumeration
 
 
-
 ## -description
+
+
 Defines the position for each of the Hardware Notification exports in the export table.
 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _HWN_CLX_EXPORT_INDEX { 
@@ -58,6 +68,9 @@ typedef enum _HWN_CLX_EXPORT_INDEX {
 
 
 ## -enum-fields
+
+
+
 
 ### -field RegisterClientIndex
 
@@ -89,16 +102,12 @@ Position of the last hardware notification in the export table.
 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt><a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a></dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+
  
 
  

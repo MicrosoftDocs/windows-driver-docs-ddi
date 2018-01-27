@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9347bc8d-e8fb-440c-8ceb-ce5e8cb1429e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltIsVolumeWritable
+ms.keywords: FltIsVolumeWritable, FltApiRef_e_to_o_8b8316b0-5943-425e-a978-a2999629f93c.xml, ifsk.fltisvolumewritable, FltIsVolumeWritable routine [Installable File System Drivers], fltkernel/FltIsVolumeWritable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The FltIsVolumeWritable routine is available in Windo
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltIsVolumeWritable
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltIsVolumeWritable
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltIsVolumeWritable function
 
 
-
 ## -description
+
+
 The <b>FltIsVolumeWritable</b> routine determines whether the disk device that corresponds to a volume or minifilter driver instance is writable.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltIsVolumeWritable(
@@ -54,6 +64,9 @@ NTSTATUS FltIsVolumeWritable(
 
 
 ## -parameters
+
+
+
 
 ### -param FltObject [in]
 
@@ -66,29 +79,53 @@ A pointer to a caller-allocated Boolean variable that receives <b>TRUE</b> if th
 
 
 ## -returns
+
+
 <b>FltIsVolumeWritable</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl><b>FltIsVolumeWritable</b> encountered a memory allocation failure. This is an error code.
+</dl>
+</td>
+<td width="60%">
+<b>FltIsVolumeWritable</b> encountered a memory allocation failure. This is an error code.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>The disk device does not support IOCTL_DISK_IS_WRITABLE requests. This is an error code.
+</dl>
+</td>
+<td width="60%">
+The disk device does not support IOCTL_DISK_IS_WRITABLE requests. This is an error code.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>FltIsVolumeWritable</b> sends an <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_is_writable.md">IOCTL_DISK_IS_WRITABLE</a> request to the underlying storage device that is associated with the given volume or instance. 
 
 In versions of Windows prior to Windows Vista, the <b>FltIsVolumeWritable</b> routine accepted only volumes, not instances. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_is_writable.md">IOCTL_DISK_IS_WRITABLE</a>
-</dt>
-</dl>
+
  
 
  

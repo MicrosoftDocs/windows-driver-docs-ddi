@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4473E808-D22E-47C4-8619-7427C8BA682E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
+ms.keywords: _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, d3dukmdt/D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, display.d3dddi_getresourcepresentprivatedriverdata, D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
 ---
 
 # _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA structure
 
 
-
 ## -description
+
+
 <b>D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getresourcepresentprivatedriverdatacb.md">pfnGetResourcePresentPrivateDriverDataCb</a> to query the resource private data, which is associated with the resource during Present. 
 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA {
@@ -57,6 +67,9 @@ typedef struct _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA {
 
 ## -struct-fields
 
+
+
+
 ### -field hResource
 
 [in] A DirectX graphics kernel resource handle. 
@@ -66,9 +79,7 @@ typedef struct _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA {
 ### -field PrivateDriverDataSize
 
 [in, out] The size of the <b>pPrivateDriverData</b> buffer in bytes. When zero or when there is insufficient space, the size of the required buffer is returned back to the caller along with a <b>STATUS_INVALID_BUFFER_SIZE</b><b>HRESULT</b> value from the calling method. 
-
-<div class="alert"><b>Note</b>  By the time another call is made with the new buffer size, the resource could be associated with a different sized buffer.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  By the time another call is made with the new buffer size, the resource could be associated with a different sized buffer.</div><div> </div>
 
 ### -field pPrivateDriverData
 
@@ -76,15 +87,10 @@ typedef struct _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA {
 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getresourcepresentprivatedriverdatacb.md">pfnGetResourcePresentPrivateDriverDataCb</a>
-</dt>
-</dl>
+
  
 
  

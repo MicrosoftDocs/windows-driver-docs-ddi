@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: dcb19338-3848-4f90-876c-357f92fb2637
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _CYCLE_TIME, CYCLE_TIME, *PCYCLE_TIME
+ms.keywords: CYCLE_TIME, PCYCLE_TIME structure pointer [Buses], 1394stct_c6b1a6fa-b259-488d-a4a9-e4dace0fcf3d.xml, 1394/CYCLE_TIME, CYCLE_TIME structure [Buses], _CYCLE_TIME, *PCYCLE_TIME, PCYCLE_TIME, IEEE.cycle_time, 1394/PCYCLE_TIME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CYCLE_TIME
-req.alt-loc: 1394.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1394.h
+apiname: 
+-	CYCLE_TIME
+product: Windows
+targetos: Windows
 req.typenames: CYCLE_TIME, *PCYCLE_TIME
 ---
 
 # _CYCLE_TIME structure
 
 
-
 ## -description
+
+
 The CYCLE_TIME structure contains the IEEE 1394 isochronous cycle time.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CYCLE_TIME {
@@ -55,6 +65,9 @@ typedef struct _CYCLE_TIME {
 
 
 ## -struct-fields
+
+
+
 
 ### -field CL_CycleOffset
 
@@ -72,27 +85,24 @@ Specifies the number of seconds. This count wraps to zero every 128 seconds.
 
 
 ## -remarks
+
+
 The layout of this structure matches that of the CYCLE_TIME register in the <i>IEEE 1394-1995 specification</i>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537656">REQUEST_ISOCH_QUERY_CYCLE_TIME</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537401">ISOCH_DESCRIPTOR</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537656">REQUEST_ISOCH_QUERY_CYCLE_TIME</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\rilgetcallwaitingsettingsparams_2.htm
 old-project: netvista
 ms.assetid: 87d6c7a0-04ad-4a4e-89c2-7e5d581bd543
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILGETCALLWAITINGSETTINGSPARAMS, *LPRILGETCALLWAITINGSETTINGSPARAMS, RILGETCALLWAITINGSETTINGSPARAMS
+ms.date: 1/18/2018
+ms.keywords: RILGETCALLWAITINGSETTINGSPARAMS structure [Network Drivers Starting with Windows Vista], RILGETCALLWAITINGSETTINGSPARAMS, rilapitypes/RILGETCALLWAITINGSETTINGSPARAMS, netvista.rilgetcallwaitingsettingsparams_2, *LPRILGETCALLWAITINGSETTINGSPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILGETCALLWAITINGSETTINGSPARAMS
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILGETCALLWAITINGSETTINGSPARAMS, RILGETCALLWAITINGSETTINGSPARAMS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILGETCALLWAITINGSETTINGSPARAMS
+product: Windows
+targetos: Windows
+req.typenames: RILGETCALLWAITINGSETTINGSPARAMS, *LPRILGETCALLWAITINGSETTINGSPARAMS
 req.product: Windows 10 or later.
 ---
 
 # RILGETCALLWAITINGSETTINGSPARAMS structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILGETCALLWAITINGSETTINGSPARAMS {
@@ -57,13 +67,17 @@ typedef struct _RILGETCALLWAITINGSETTINGSPARAMS {
 
 ## -struct-fields
 
+
+
+
 ### -field dwExecutor
+
 
 
 ### -field fAllClasses
 
 
+
 ### -field dwInfoClasses
 
 
-## -remarks

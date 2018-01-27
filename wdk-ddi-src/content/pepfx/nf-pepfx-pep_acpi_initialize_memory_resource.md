@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 44EC5408-626A-4FDA-A777-C1A733D690F1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_ACPI_INITIALIZE_MEMORY_RESOURCE
+ms.keywords: kernel.pep_acpi_initialize_memory_resource, PEP_ACPI_INITIALIZE_MEMORY_RESOURCE, pepfx/PEP_ACPI_INITIALIZE_MEMORY_RESOURCE, PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_ACPI_INITIALIZE_MEMORY_RESOURCE
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_ACPI_INITIALIZE_MEMORY_RESOURCE
+product: Windows
+targetos: Windows
 req.typenames: *PPEP_WORK_TYPE, PEP_WORK_TYPE
 ---
 
 # PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function
 
 
-
 ## -description
+
+
 The <b>PEP_ACPI_INITIALIZE_MEMORY_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="..\pepfx\ns-pepfx-_pep_acpi_io_memory_resource.md">PEP_ACPI_IO_MEMORY_RESOURCE</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE VOID PEP_ACPI_INITIALIZE_MEMORY_RESOURCE(
@@ -58,6 +68,9 @@ FORCEINLINE VOID PEP_ACPI_INITIALIZE_MEMORY_RESOURCE(
 
 
 ## -parameters
+
+
+
 
 ### -param ReadWrite [in]
 
@@ -90,18 +103,16 @@ A pointer to the resource. The structure behind the pointer is of type <a href="
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\pepfx\ns-pepfx-_pep_acpi_io_memory_resource.md">PEP_ACPI_IO_MEMORY_RESOURCE</a>
-</dt>
-</dl>
+
  
 
  

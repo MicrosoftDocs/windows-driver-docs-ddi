@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3c433fe5-1782-4a00-aa7b-1558b0f56080
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_DEVICE_LAYOUT_SIGNATURE, STORAGE_DEVICE_LAYOUT_SIGNATURE, *PSTORAGE_DEVICE_LAYOUT_SIGNATURE
+ms.keywords: STORAGE_DEVICE_LAYOUT_SIGNATURE structure [Storage Devices], STORAGE_DEVICE_LAYOUT_SIGNATURE, storduid/STORAGE_DEVICE_LAYOUT_SIGNATURE, PSTORAGE_DEVICE_LAYOUT_SIGNATURE, _STORAGE_DEVICE_LAYOUT_SIGNATURE, PSTORAGE_DEVICE_LAYOUT_SIGNATURE structure pointer [Storage Devices], storduid/PSTORAGE_DEVICE_LAYOUT_SIGNATURE, structs-general_0392587a-aab6-4f49-bb7e-3ebf8acc87bb.xml, *PSTORAGE_DEVICE_LAYOUT_SIGNATURE, storage.storage_device_layout_signature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_DEVICE_LAYOUT_SIGNATURE
-req.alt-loc: storduid.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: STORAGE_DEVICE_LAYOUT_SIGNATURE, *PSTORAGE_DEVICE_LAYOUT_SIGNATURE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storduid.h
+apiname: 
+-	STORAGE_DEVICE_LAYOUT_SIGNATURE
+product: Windows
+targetos: Windows
+req.typenames: *PSTORAGE_DEVICE_LAYOUT_SIGNATURE, STORAGE_DEVICE_LAYOUT_SIGNATURE
 req.product: Windows 10 or later.
 ---
 
 # _STORAGE_DEVICE_LAYOUT_SIGNATURE structure
 
 
-
 ## -description
+
+
 The STORAGE_DEVICE_LAYOUT_SIGNATURE structure defines a device layout structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STORAGE_DEVICE_LAYOUT_SIGNATURE {
@@ -61,6 +71,23 @@ typedef struct _STORAGE_DEVICE_LAYOUT_SIGNATURE {
 
 ## -struct-fields
 
+
+
+
+### -field DeviceSpecific
+
+
+
+### -field DeviceSpecific.MbrSignature
+
+The signature value, which uniquely identifies the disk.
+
+
+### -field DeviceSpecific.GptDiskId
+
+The GUID that uniquely identifies the disk.
+
+
 ### -field Version
 
 The version of the DUID.
@@ -76,31 +103,17 @@ The size, in bytes, of this STORAGE_DEVICE_LAYOUT_SIGNATURE structure.
 A Boolean value that indicates whether the partition table of the disk is formatted with a master boot record (MBR). If <b>TRUE</b>, the partition table of the disk is formatted with a master boot record (MBR). If <b>FALSE</b>, the disk has a GUID partition table (GPT).
 
 
-### -field DeviceSpecific
-
-
-### -field MbrSignature
-
-The signature value, which uniquely identifies the disk.
-
-
-### -field GptDiskId
-
-The GUID that uniquely identifies the disk.
-
-</dd>
-</dl>
-
 ## -remarks
+
+
 The device layout signature contributes to the definition of a device unique identifier (DUID). For more information about DUIDs, see the description of the <a href="..\storduid\ns-storduid-_storage_device_unique_identifier.md">STORAGE_DEVICE_UNIQUE_IDENTIFIER</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storduid\ns-storduid-_storage_device_unique_identifier.md">STORAGE_DEVICE_UNIQUE_IDENTIFIER</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 351BC859-E703-4F75-B691-A503C08560CF
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: _LPIT, LPIT, *PLPIT
+ms.keywords: LPIT structure [ACPI Devices], acpitabl/LPIT, acpitabl/PLPIT, LPIT, *PLPIT, PLPIT structure pointer [ACPI Devices], PLPIT, _LPIT, acpi.lpit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: LPIT
-req.alt-loc: acpitabl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: LPIT, *PLPIT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	acpitabl.h
+apiname: 
+-	LPIT
+product: Windows
+targetos: Windows
+req.typenames: *PLPIT, LPIT
 ---
 
 # _LPIT structure
 
 
-
 ## -description
+
+
 Defines an LPI ACPI table.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _LPIT {
@@ -55,6 +65,9 @@ typedef struct _LPIT {
 
 ## -struct-fields
 
+
+
+
 ### -field Header
 
 A header.
@@ -64,5 +77,3 @@ A header.
 
 An array of states.
 
-
-## -remarks

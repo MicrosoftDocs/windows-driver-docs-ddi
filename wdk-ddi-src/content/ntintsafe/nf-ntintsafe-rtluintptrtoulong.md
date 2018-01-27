@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A558FB1F-3887-4BB1-9C66-AC35D1587B50
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUIntPtrToULong
+ms.keywords: RtlUIntPtrToULong function [Kernel-Mode Driver Architecture], kernel.rtluintptrtoulong, RtlUIntPtrToULong, ntintsafe/RtlUIntPtrToULong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlUIntPtrToULong
-req.alt-loc: Ntintsafe.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntintsafe.h
+apiname: 
+-	RtlUIntPtrToULong
+product: Windows
+targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
 
 # RtlUIntPtrToULong function
 
 
-
 ## -description
+
+
 Converts a value of type <b>UINT_PTR</b> to a value of type <b>LONG</b>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlUIntPtrToULong(
@@ -54,6 +64,9 @@ NTSTATUS RtlUIntPtrToULong(
 
 
 ## -parameters
+
+
+
 
 ### -param uOperand [in]
 
@@ -66,6 +79,17 @@ A pointer to the converted value. In the case where the conversion causes a trun
 
 
 ## -remarks
+
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
-This function uses the following alternate name:</p>
+This function uses the following alternate name:
+<ul>
+<li>RtlUIntPtrToDWord
+</li>
+<li>RtlSizeTToULong
+</li>
+<li>RtlSizeTToDWord
+</li>
+</ul>
+

@@ -7,8 +7,8 @@ old-location: netvista\ndismoffloadeventindicate.htm
 old-project: netvista
 ms.assetid: 81052e73-4dce-48df-8541-5da54e2156d8
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisMOffloadEventIndicate
+ms.date: 1/18/2018
+ms.keywords: NdisMOffloadEventIndicate, NdisMOffloadEventIndicate function [Network Drivers Starting with Windows Vista], tcp_chim_ndis_func_6199452b-e2ea-41ca-8a16-eaf5109430fe.xml, ndischimney/NdisMOffloadEventIndicate, netvista.ndismoffloadeventindicate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisMOffloadEventIndicate
-req.alt-loc: ndischimney.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,25 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ndischimney.h
+apiname: 
+-	NdisMOffloadEventIndicate
+product: Windows
+targetos: Windows
 req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 ---
 
 # NdisMOffloadEventIndicate function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 An offload target calls the 
   <b>NdisMOffloadEventIndicate</b> function to indicate various events to the host stack.
 
 
-
 ## -syntax
+
 
 ````
 VOID NdisMOffloadEventIndicate(
@@ -59,18 +69,21 @@ VOID NdisMOffloadEventIndicate(
 
 ## -parameters
 
+
+
+
 ### -param NdisMiniportHandle [in]
 
 The handle that the offload target obtained in a previous call to 
-     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
-     NdisMRegisterMiniportDriver</a>.
+     <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
+     NdisMRegisterMiniportDriver</b></mshelp:link>.
 
 
 ### -param OffloadBlockList [in]
 
 A pointer to an 
-     <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
-     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure. This structure identifies the offloaded state object
+     <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
+     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure. This structure identifies the offloaded state object
      on which the indication is being made. Note that there is only one NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
      structure. There is not a linked list of such structures.
      
@@ -78,19 +91,18 @@ A pointer to an
 The offload target supplies a valid 
      <i>OffloadBlockList</i> pointer when making a 
      <b>NeighborReachabilityQuery</b> indication. In this case, the offload target supplies a 
-     <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">
-     NEIGHBOR_OFFLOAD_STATE_CONST</a> structure, a 
-     <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">
-     NEIGHBOR_OFFLOAD_STATE_CACHED</a> structure, and a 
-     <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
-     NEIGHBOR_OFFLOAD_STATE_DELEGATED</a> structure (in that order) immediately following the
+     <mshelp:link keywords="netvista.neighbor_offload_state_const" tabindex="0"><b>
+     NEIGHBOR_OFFLOAD_STATE_CONST</b></mshelp:link> structure, a 
+     <mshelp:link keywords="netvista.neighbor_offload_state_cached" tabindex="0"><b>
+     NEIGHBOR_OFFLOAD_STATE_CACHED</b></mshelp:link> structure, and a 
+     <mshelp:link keywords="netvista.neighbor_offload_state_delegated" tabindex="0"><b>
+     NEIGHBOR_OFFLOAD_STATE_DELEGATED</b></mshelp:link> structure (in that order) immediately following the
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure referenced by the 
      <i>OffloadBlockList</i> pointer.
 
 An offload target must initialize the following members of an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
      structure that it passes to the 
      <b>NdisMOffloadEventIndicate</b> function:
-
 <ul>
 <li>
 All members of the NDIS_OBJECT_HEADER structure, including 
@@ -116,8 +128,7 @@ The
        <b>Status</b> member to NDIS_STATUS_SUCCESS.
 
 </li>
-</ul>
- The offload target does not have to initialize any other members of the
+</ul> The offload target does not have to initialize any other members of the
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure.
      
 
@@ -134,60 +145,56 @@ The event being indicated is specified as one of the following INDICATE_OFFLOAD_
 
 
 
-### -param NeighborReachabilityQuery
+##### - IndicationCode.NeighborReachabilityQuery
 
 Indicates that a neighbor cache entry (NCE) has become stale. For more information about NCEs,
        see RFC 2461.
 
 
-### -param NeighborReachabilityInDoubt
+##### - IndicationCode.NeighborReachabilityInDoubt
 
 Reserved.
 
-</dd>
-</dl>
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The host stack uses the 
     <b>NeighborReachabilityQuery</b> indication to detect neighbor unreachability for IPv4 and IPv6. For a
     detailed description of this indication, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/making-a-neighborreachabilityquery-indication">Making a
-    NeighborReachabilityQuery Indication</a>.
+    <mshelp:link keywords="netvista.making_a_neighborreachabilityquery_indication" tabindex="0">Making a
+    NeighborReachabilityQuery Indication</mshelp:link>.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
-</dt>
-<dt>
+
 <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
-</dt>
-<dt>
-<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-</dt>
-<dt>
+
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
-</dt>
-<dt>
+
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">NEIGHBOR_OFFLOAD_STATE_CONST</a>
-</dt>
-<dt>
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
-   NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
-</dt>
-</dl>
- 
+
+<mshelp:link keywords="netvista.neighbor_offload_state_delegated" tabindex="0"><b>
+   NEIGHBOR_OFFLOAD_STATE_DELEGATED</b></mshelp:link>
+
+<mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link>
+
+<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMOffloadEventIndicate function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMOffloadEventIndicate function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C7923B09-FBA2-43EE-A56B-0B8B6C3403A0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA
+ms.keywords: display.pfnd3d12ddi_video_process_frame_0032, PFND3D12DDI_VIDEO_PROCESS_FRAME_0032 callback function [Display Devices], PFND3D12DDI_VIDEO_PROCESS_FRAME_0032, d3d12umddi/PFND3D12DDI_VIDEO_PROCESS_FRAME_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PFND3D12DDI_VIDEO_PROCESS_FRAME_0032
-req.alt-loc: d3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d12umddi.h
+apiname: 
+-	PFND3D12DDI_VIDEO_PROCESS_FRAME_0032
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
 
 # PFND3D12DDI_VIDEO_PROCESS_FRAME_0032 callback
 
 
-
 ## -description
+
+
 Used to process a video frame.
 
 
-
 ## -prototype
+
 
 ````
 VOID APIENTRY* PFND3D12DDI_VIDEO_PROCESS_FRAME_0032(
@@ -58,33 +68,45 @@ VOID APIENTRY* PFND3D12DDI_VIDEO_PROCESS_FRAME_0032(
 
 ## -parameters
 
-### -param hDrvCommandList 
+
+
+
+### -param hDrvCommandList
 
 The command list.
 
 
-### -param hDrvVideoProcessor 
+### -param hDrvVideoProcessor
 
 The video processor.
 
 
-### -param pOutputParameters 
-
-The output arguments for the video process.
+### -param *pOutputParameters
 
 
-### -param pInputStreamParameters 
 
-The input arguments for the video process.
+### -param *pInputStreamParameters
 
 
-### -param NumInputStreams 
+
+### -param NumInputStreams
 
 The number of input streams.
 
 
+#### - pOutputParameters
+
+The output arguments for the video process.
+
+
+#### - pInputStreamParameters
+
+The input arguments for the video process.
+
+
 ## -returns
+
+
 This callback function does not return a value.
 
 
-## -remarks

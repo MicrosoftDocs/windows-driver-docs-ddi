@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 339e688f-64ec-402f-bd28-9fa487acb984
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExInterlockedPopEntryList
+ms.keywords: kernel.exinterlockedpopentrylist, wdm/ExInterlockedPopEntryList, ExInterlockedPopEntryList routine [Kernel-Mode Driver Architecture], ExInterlockedPopEntryList, k102_4673c5a1-a650-48c3-934f-c35c202277cc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExInterlockedPopEntryList
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ExInterlockedPopEntryList
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ExInterlockedPopEntryList function
 
 
-
 ## -description
+
+
 The <b>ExInterlockedPopEntryList</b> routine atomically removes an entry from the beginning of a singly linked list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563799">SINGLE_LIST_ENTRY</a> structures.
 
 
-
 ## -syntax
+
 
 ````
 PSINGLE_LIST_ENTRY ExInterlockedPopEntryList(
@@ -55,6 +65,9 @@ PSINGLE_LIST_ENTRY ExInterlockedPopEntryList(
 
 
 ## -parameters
+
+
+
 
 ### -param ListHead [in, out]
 
@@ -67,10 +80,15 @@ A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to 
 
 
 ## -returns
+
+
 <b>ExInterlockedPopEntryList</b> returns a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563799">SINGLE_LIST_ENTRY</a> structure removed from the list. If the list was empty, the routine returns <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 <b>ExInterlockedPopEntryList</b> performs the same operation as <a href="..\wdm\nf-wdm-popentrylist.md">PopEntryList</a>, but atomically. Do not mix atomic and non-atomic calls on the same list.
 
 For more information about using this routine to implement a singly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
@@ -78,24 +96,19 @@ For more information about using this routine to implement a singly linked list,
 The <b>ExInterlockedPopEntryList</b> routine can be called at any IRQL. The storage for the <i>ListHead</i> parameter must be resident at all IRQLs.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-exinterlockedpopentryslist.md">ExInterlockedPopEntrySList</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
+
 <a href="..\wdm\nf-wdm-exinterlockedpushentrylist.md">ExInterlockedPushEntryList</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-popentrylist.md">PopEntryList</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+
  
 
  

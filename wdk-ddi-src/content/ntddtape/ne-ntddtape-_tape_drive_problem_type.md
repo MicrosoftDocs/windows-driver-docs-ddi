@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c2732686-5f95-41fd-8e47-8acf6900a44b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _TAPE_DRIVE_PROBLEM_TYPE, TAPE_DRIVE_PROBLEM_TYPE
+ms.keywords: ntddtape/TapeDriveUnsupportedMedia, ntddtape/TapeDriveReadWarning, ntddtape/TapeDriveSnappedTape, TapeDriveTimetoClean, _TAPE_DRIVE_PROBLEM_TYPE, TapeDriveUnsupportedMedia, TapeDriveSnappedTape, TapeDriveWriteWarning, ntddtape/TapeDriveReadError, TapeDriveCleanDriveNow, TapeDriveProblemNone, ntddtape/TapeDriveProblemNone, structs-tape_e5fef478-5c62-4cbf-adc1-8f0cc6eabb8e.xml, TapeDriveReadWriteWarning, TapeDriveReadWarning, ntddtape/TAPE_DRIVE_PROBLEM_TYPE, TapeDriveReadError, TAPE_DRIVE_PROBLEM_TYPE, TapeDriveMediaLifeExpired, ntddtape/TapeDriveReadWriteError, TapeDriveReadWriteError, ntddtape/TapeDriveHardwareError, TapeDriveScsiConnectionError, TapeDriveWriteError, ntddtape/TapeDriveTimetoClean, ntddtape/TapeDriveWriteError, ntddtape/TapeDriveReadWriteWarning, TAPE_DRIVE_PROBLEM_TYPE enumeration [Storage Devices], storage.tape_drive_problem_type, ntddtape/TapeDriveCleanDriveNow, TapeDriveHardwareError, ntddtape/TapeDriveMediaLifeExpired, ntddtape/TapeDriveScsiConnectionError, ntddtape/TapeDriveWriteWarning
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TAPE_DRIVE_PROBLEM_TYPE
-req.alt-loc: ntddtape.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddtape.h
+apiname: 
+-	TAPE_DRIVE_PROBLEM_TYPE
+product: Windows
+targetos: Windows
 req.typenames: TAPE_DRIVE_PROBLEM_TYPE
 ---
 
 # _TAPE_DRIVE_PROBLEM_TYPE enumeration
 
 
-
 ## -description
+
+
 The TAPE_DRIVE_PROBLEM_TYPE enumerator is used to report problems with the tape drive. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _TAPE_DRIVE_PROBLEM_TYPE { 
@@ -66,6 +76,9 @@ typedef enum _TAPE_DRIVE_PROBLEM_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field TapeDriveProblemNone
 
@@ -137,18 +150,12 @@ Indicates that the media life has expired. Media needs to be replaced.
 Indicates that the tape has snapped.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddtape\ns-ntddtape-_tape_wmi_operations.md">TAPE_WMI_OPERATIONS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567957">TapeMiniWMIControl</a>
-</dt>
-</dl>
+
  
 
  

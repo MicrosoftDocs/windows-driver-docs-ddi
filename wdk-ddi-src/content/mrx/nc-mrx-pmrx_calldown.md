@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6300595e-8cf6-47c4-a6ca-7851dd95576d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _SetDSMCounters_IN, SetDSMCounters_IN, *PSetDSMCounters_IN
+ms.keywords: ifsk.mrxclosesrvopen, MRxCloseSrvOpen, MRxCollapseOpen, MRxCreate, MRxDevFcbXXXControlFile, MRxFlush, MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK], MRxLowIOSubmit[LOWIO_OP_FSCTL], MRxLowIOSubmit[LOWIO_OP_IOCTL], MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY], MRxLowIOSubmit[LOWIO_OP_READ], MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK], MRxLowIOSubmit[LOWIO_OP_UNLOCK], MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE], MRxLowIOSubmit[LOWIO_OP_WRITE], MRxQueryDirectory, MRxQueryEaInfo, MRxQueryFileInfo, MRxQueryQuotaInfo, MRxQuerySdInfo, MRxQueryVolumeInfo, MRxSetEaInfo, MRxSetFileInfo, MRxSetFileInfoAtCleanup, MRxSetQuotaInfo, MRxSetSdInfo, MRxSetVolumeInfo, MRxShouldTryToCollapseThisOpen, MRxTruncate, MRxZeroExtend, MyCalldown routine [Installable File System Drivers], MyCalldown, PMRX_CALLDOWN, PMRX_CALLDOWN, mrx/MyCalldown, mrxref_e6b5df78-d201-4f9e-9422-089772c04674.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MyCalldown
-req.alt-loc: mrx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	mrx.h
+apiname: 
+-	MyCalldown
+product: Windows
+targetos: Windows
 req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 ---
 
 # PMRX_CALLDOWN callback
 
 
-
 ## -description
+
+
 This callback is called by RDBSS to request that the network mini-redirector perform an action based in the supplied IRP.
 
 
-
 ## -prototype
+
 
 ````
 PMRX_CALLDOWN MyCalldown;
@@ -57,6 +67,9 @@ NTSTATUS MyCalldown(
 
 ## -parameters
 
+
+
+
 ### -param RxContext [in, out]
 
 A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation. 
@@ -64,112 +77,377 @@ A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is r
 
 ## -returns
 
+
+
             This callback returns STATUS_SUCCESS on success or an appropriate NTSTATUS value, such as the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>A request was made to stop or start the network mini-redirector, but the caller lacked the proper security for this operation. 
+</dl>
+</td>
+<td width="60%">
+A request was made to stop or start the network mini-redirector, but the caller lacked the proper security for this operation. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_OVERFLOW</b></dt>
-</dl>The buffer to receive the extended attribute information was too small. 
+</dl>
+</td>
+<td width="60%">
+The buffer to receive the extended attribute information was too small. 
 
 This return value should be considered success and as much valid data as possible should be returned in the <b>Info.Buffer</b> member of the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The buffer is too small to receive the requested data. 
+</dl>
+</td>
+<td width="60%">
+The buffer is too small to receive the requested data. 
 
 If this value is returned, the <b>InformationToReturn</b> member of the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter should be set to the minimum size of the expected buffer for the call to succeed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_CONNECTION_DISCONNECTED</b></dt>
-</dl>The connection was disconnected. 
+</dl>
+</td>
+<td width="60%">
+The connection was disconnected. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_EA_CORRUPT_ERROR</b></dt>
-</dl>Invalid extended attribute information was received from the remote server. 
+</dl>
+</td>
+<td width="60%">
+Invalid extended attribute information was received from the remote server. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_EA_TOO_LARGE</b></dt>
-</dl>The extended attribute information that is passed is larger than the size that is supported by the remote share. 
+</dl>
+</td>
+<td width="60%">
+The extended attribute information that is passed is larger than the size that is supported by the remote share. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FILE_CLOSED</b></dt>
-</dl>The FCB structure was acquired, but the associated SRV_OPEN structure has been closed. 
+</dl>
+</td>
+<td width="60%">
+The FCB structure was acquired, but the associated SRV_OPEN structure has been closed. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>There were insufficient resources to complete the operation. 
+</dl>
+</td>
+<td width="60%">
+There were insufficient resources to complete the operation. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INTERNAL_ERROR</b></dt>
-</dl>An internal error occurred in the network mini-redirector. 
+</dl>
+</td>
+<td width="60%">
+An internal error occurred in the network mini-redirector. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_BUFFER_SIZE</b></dt>
-</dl>The requested buffer size was too large. 
+</dl>
+</td>
+<td width="60%">
+The requested buffer size was too large. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>An invalid device request was sent to the network mini-redirector.
+</dl>
+</td>
+<td width="60%">
+An invalid device request was sent to the network mini-redirector.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_NETWORK_RESPONSE</b></dt>
-</dl>An invalid response was received from the remote server. 
+</dl>
+</td>
+<td width="60%">
+An invalid response was received from the remote server. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>An invalid parameter was specified in <i>RxContext</i>. 
+</dl>
+</td>
+<td width="60%">
+An invalid parameter was specified in <i>RxContext</i>. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_LINK_FAILED</b></dt>
-</dl>The attempt to reconnect to a remote server to complete the request failed. 
+</dl>
+</td>
+<td width="60%">
+The attempt to reconnect to a remote server to complete the request failed. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_MORE_PROCESSING_REQUIRED</b></dt>
-</dl>A network mini-redirector returns this value to disable collapsing of this open request. 
+</dl>
+</td>
+<td width="60%">
+A network mini-redirector returns this value to disable collapsing of this open request. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NETWORK_ACCESS_DENIED</b></dt>
-</dl>Network access was denied. This error can be returned if the network mini-redirector was asked to open a new file on a read-only share. 
+</dl>
+</td>
+<td width="60%">
+Network access was denied. This error can be returned if the network mini-redirector was asked to open a new file on a read-only share. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NETWORK_NAME_DELETED</b></dt>
-</dl>A network name was deleted. 
+</dl>
+</td>
+<td width="60%">
+A network name was deleted. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NONEXISTENT_EA_ENTRY</b></dt>
-</dl>There are no extended attributes on the file object and the user supplied an extended attribute index. 
+</dl>
+</td>
+<td width="60%">
+There are no extended attributes on the file object and the user supplied an extended attribute index. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>A feature that is requested, such as remote boot or a remote page file, is not implemented. 
+</dl>
+</td>
+<td width="60%">
+A feature that is requested, such as remote boot or a remote page file, is not implemented. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>A feature that is requested, such as extended attributes, is not supported. 
+</dl>
+</td>
+<td width="60%">
+A feature that is requested, such as extended attributes, is not supported. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_NAME_COLLISION</b></dt>
-</dl>The network mini-redirector was asked to create a file that already exists. 
+</dl>
+</td>
+<td width="60%">
+The network mini-redirector was asked to create a file that already exists. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_NAME_NOT_FOUND</b></dt>
-</dl>The object name was not found. This error can be returned if the network mini-redirector was asked to open a file that doesn't exist. 
+</dl>
+</td>
+<td width="60%">
+The object name was not found. This error can be returned if the network mini-redirector was asked to open a file that doesn't exist. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_PATH_NOT_FOUND</b></dt>
-</dl>The object path was not found. This error can be returned if an NTFS stream object was requested and the remote file system does not support streams. 
+</dl>
+</td>
+<td width="60%">
+The object path was not found. This error can be returned if an NTFS stream object was requested and the remote file system does not support streams. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ONLY_IF_CONNECTED</b></dt>
-</dl>The SRV_OPEN structure is not connected. 
+</dl>
+</td>
+<td width="60%">
+The SRV_OPEN structure is not connected. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_REDIRECTOR_HAS_OPEN_HANDLES</b></dt>
-</dl>This was a request to stop the network mini-redirector, but the redirector has open handles that prevent it from stopping at this time.
+</dl>
+</td>
+<td width="60%">
+This was a request to stop the network mini-redirector, but the redirector has open handles that prevent it from stopping at this time.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_REDIRECTOR_NOT_STARTED</b></dt>
-</dl>This was a request to stop the network mini-redirector, but the redirector was not started.
+</dl>
+</td>
+<td width="60%">
+This was a request to stop the network mini-redirector, but the redirector was not started.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_REDIRECTOR_STARTED</b></dt>
-</dl>This was a request to start the network mini-redirector, but the redirector was already started. 
+</dl>
+</td>
+<td width="60%">
+This was a request to start the network mini-redirector, but the redirector was already started. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_REPARSE</b></dt>
-</dl>A reparse is required to handle a symbolic link. 
+</dl>
+</td>
+<td width="60%">
+A reparse is required to handle a symbolic link. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_REQUEST_ABORTED</b></dt>
-</dl>The network request was aborted. 
+</dl>
+</td>
+<td width="60%">
+The network request was aborted. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_RETRY</b></dt>
-</dl>The operation should be retried. This error can be returned if the network mini-redirector encountered a sharing violation or an access denied error. 
+</dl>
+</td>
+<td width="60%">
+The operation should be retried. This error can be returned if the network mini-redirector encountered a sharing violation or an access denied error. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SHARING_VIOLATION</b></dt>
-</dl>A sharing violation occurred. 
+</dl>
+</td>
+<td width="60%">
+A sharing violation occurred. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>The call was unsuccessful. 
+</dl>
+</td>
+<td width="60%">
+The call was unsuccessful. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The<i> MRxCloseSrvOpen</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector close an SRV_OPEN structure.
 
 <i>MRxCloseSrvOpen</i>
@@ -279,6 +557,8 @@ Before calling<a href="https://msdn.microsoft.com/6bbb4b65-c447-47d8-9d05-f2adfb
 
 The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_FSCTL.
 
+The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
+
 The <b>LowIoContext.ParamsFor.FsCtl.FsControlCode</b> member is set to the FSCTL major control code.
 
 The <b>LowIoContext.ParamsFor.FsCtl.MinorFunction</b> member is set to the FSCTL minor control code.
@@ -292,14 +572,20 @@ The <b>LowIoContext.ParamsFor.FsCtl.pOutputBuffer</b> member is set to the outpu
 The <b>LowIoContext.ParamsFor.FsCtl.OutputBufferLength</b> member is set to the output buffer length.
 
 The file system control code (FSCTL) requests handled by a network mini-redirector can be classified into one of several categories:
-
+<ul>
+<li>
 FSCTLs that are implemented and used by RDBSS and the network mini redirector
 
+</li>
+<li>
 FSCTLs that are implemented and used only by the network mini-redirector
 
+</li>
+<li>
 FSCTLs which should never be seen by the network mini-redirector. These FSCTLs are solely intended as a debugging aid.
 
-While the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550709">MRxLowIOSubmit[LOWIO_OP_FSCTL]</a> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. The <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT can be used to release the input resource on behalf of another thread. When an asynchronous routine completes, the input resource that was acquired from the initial thread can be released. 
+</li>
+</ul>While the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550709">MRxLowIOSubmit[LOWIO_OP_FSCTL]</a> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. The <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT can be used to release the input resource on behalf of another thread. When an asynchronous routine completes, the input resource that was acquired from the initial thread can be released. 
 
 The<a href="https://msdn.microsoft.com/b416e2b4-6024-45ec-adf5-90743d417ad5"> MRxLowIOSubmit[LOWIO_OP_IOCTL]</a> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to issue an I/O system control request to the network mini-redirector.
 
@@ -308,6 +594,8 @@ RDBSS calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff55071
 Before calling<a href="https://msdn.microsoft.com/b416e2b4-6024-45ec-adf5-90743d417ad5"> MRxLowIOSubmit[LOWIO_OP_IOCTL]</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
 
 The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_IOCTL.
+
+The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
 
 The <b>LowIoContext.ParamsFor.IoCtl.IoControlCode</b> member is set to the IOCTL control code.
 
@@ -329,6 +617,8 @@ Before calling<a href="https://msdn.microsoft.com/a3ac7936-7c46-4e46-929a-dc4951
 
 The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_NOTIFY_CHANGE_DIRECTORY.
 
+The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
+
 The <b>LowIoContext.ParamsFor.NotifyChangeDirectory.WatchTree</b> member is set to <b>TRUE</b> if the <b>IrpSp-&gt;Flags</b> has the SL_WATCH_TREE bit set. 
 
 The <b>LowIoContext.ParamsFor.NotifyChangeDirectory.CompletionFilter</b> member is set to the value of <b>IrpSp-&gt;Parameters.NotifyDirectory.CompletionFilter</b>.
@@ -348,6 +638,8 @@ RDBSS calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff55072
 Before calling<a href="https://msdn.microsoft.com/26a173d8-e3ab-4c63-8390-133afd35b51a"> MRxLowIOSubmit[LOWIO_OP_READ]</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
 
 The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_READ.
+
+The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
 
 The <b>LowIoContext.ParamsFor.ReadWrite.Key</b> member is set to the value of <b>IrpSp-&gt;Parameters.Read.Key</b>.
 
@@ -369,6 +661,16 @@ Before calling<a href="https://msdn.microsoft.com/963ec2d1-5e24-4002-a8c9-44faf1
 
 The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_SHAREDLOCK.
 
+The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
+
+The <b>LowIoContext.ParamsFor.Locks.ByteOffset</b> member is set to the value of <b>IrpSp-&gt;Parameters.LockControl.ByteOffset.QuadPart</b>.
+
+The <b>LowIoContext.ParamsFor.Locks.Key</b> member is set to the value of <b>IrpSp-&gt;Parameters.LockControl.Key</b>.
+
+The <b>LowIoContext.ParamsFor.Locks.Flags</b> member is set to the value of <b>IrpSp-&gt;Flags</b>.
+
+The <b>LowIoContext.ParamsFor.Locks.Length</b> member is set to the value of <b>IrpSp-&gt;Parameters.LockControl.Length.QuadPart</b>.
+
 The <b>LowIoContext.Operation</b> member of the RX_CONTEXT structure specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because the <b>LowIoContext.Operation</b> member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and this routine could use the <b>LowIoContext.Operation</b> member to differentiate between the lock and unlock operation that is requested.
 
 If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550734">MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]</a> routine can take a long time to complete, the network mini-redirector driver should release the FCB structure before initiating the network communication. The FCB structure can be released by calling <a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>. While the <i>MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]</i> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. 
@@ -383,9 +685,19 @@ Before calling<a href="https://msdn.microsoft.com/2985ae12-965d-4871-b56e-258989
 
 The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_UNLOCK.
 
+The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
+
+The <b>LowIoContext.ParamsFor.Locks.ByteOffset</b> member is set to the value of <b>IrpSp-&gt;Parameters.LockControl.ByteOffset.QuadPart</b>.
+
+The <b>LowIoContext.ParamsFor.Locks.Key</b> member is set to the value of <b>IrpSp-&gt;Parameters.LockControl.Key</b>.
+
+The <b>LowIoContext.ParamsFor.Locks.Length</b> member is set to the value of <b>IrpSp-&gt;Parameters.LockControl.Length.QuadPart</b>.
+
 The <b>LowIoContext.Operation</b> member of the RX_CONTEXT structure specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because this <b>LowIoContext.Operation</b> member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and this routine could use the <b>LowIoContext.Operation</b> member to differentiate between the lock and unlock operation that is requested.
 
 If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550740">MRxLowIOSubmit[LOWIO_OP_UNLOCK]</a> routine can take a long time to complete, the network mini-redirector driver should release the FCB structure before initiating the network communication. The FCB structure can be released by calling <a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>. While the <i>MRxLowIOSubmit[LOWIO_OP_UNLOCK]</i> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. 
+
+The <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. 
 
 The<a href="https://msdn.microsoft.com/50f7abdf-a3f7-4625-ac54-75e80807d05e"> MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE]</a> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector remove multiple locks held on a file object.
 
@@ -395,13 +707,23 @@ Before calling<a href="https://msdn.microsoft.com/50f7abdf-a3f7-4625-ac54-75e808
 
 The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_UNLOCK_MULTIPLE.
 
+The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
+
 The <b>LowIoContext.ParamsFor.Locks.LockList</b> member is set to a list of LOWIO_LOCK_LIST elements. Each element specifies a range to be unlocked.
 
 The byte ranges to be unlocked are specified in the <b>LowIoContext.ParamsFor.Locks.LockList</b> member of the RX_CONTEXT structure. The LOWIO_LOCK_LIST structure is as follows: 
-
-The <b>LowIoContext.Operation</b> member of RX_CONTEXT specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because the <b>LowIoContext.Operation</b> member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and this routine could use the <b>LowIoContext.Operation</b> member to differentiate between the lock and unlock operation that is requested.
+<pre class="syntax" xml:space="preserve"><code>typedef struct _LOWIO_LOCK_LIST {
+  struct  _LOWIO_LOCK_LIST  *Next;
+  ULONG  LockNumber;
+  RXVBO  ByteOffset;
+  LONGLONG  Length;
+  ULONG  Key;
+  BOOLEAN  ExclusiveLock;
+} LOWIO_LOCK_LIST, *PLOWIO_LOCK_LIST;</code></pre>The <b>LowIoContext.Operation</b> member of RX_CONTEXT specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because the <b>LowIoContext.Operation</b> member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and this routine could use the <b>LowIoContext.Operation</b> member to differentiate between the lock and unlock operation that is requested.
 
 If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550745">MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE]</a> routine can take a long time to complete, the network mini-redirector driver should release the FCB structure before initiating the network communication. The FCB structure can be released by calling <a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>. While the <i>MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE]</i> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. 
+
+The <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. 
 
 The<a href="https://msdn.microsoft.com/b70838e3-4e80-4ec9-88ba-0f608a1af78e"> MRxLowIOSubmit[LOWIO_OP_WRITE]</a> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to issue a write request to the network mini-redirector.
 
@@ -410,6 +732,12 @@ RDBSS calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff55074
 Before calling<a href="https://msdn.microsoft.com/b70838e3-4e80-4ec9-88ba-0f608a1af78e"> MRxLowIOSubmit[LOWIO_OP_WRITE]</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
 
 The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_WRITE.
+
+The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
+
+The <b>LowIoContext.ParamsFor.ReadWrite.Key</b> member is set to the value of <b>IrpSp-&gt;Parameters.Read.Key</b>.
+
+The <b>ParamsFor.ReadWrite.Flags</b> member has the LOWIO_READWRITEFLAG_PAGING_IO bit is set on if <b>Irp-&gt;Flags</b> has the IRP_PAGING_IO bit on.
 
 The <b>ParamsFor.ReadWrite.Buffer</b> member is set to the user buffer locked for IoWriteAccess.
 
@@ -479,6 +807,8 @@ The <b>Info.Buffer</b> member is set to the user buffer from the I/O request pac
 
 The <b>Info.LengthRemaining</b> member is set to <b>IrpSp-&gt;Parameters.QueryFile.Length</b>.
 
+The <b>QueryDirectory.FileIndex</b> member is set to <b>IrpSp-&gt;Parameters.QueryDirectory.FileIndex</b>.
+
 The <b>QueryDirectory.RestartScan</b> member is set if <b>IrpSp-&gt;Flags</b> has the SL_RESTART_SCAN bit set.
 
 The <b>QueryDirectory.ReturnSingleEntry</b> member is set if <b>IrpSp-&gt;Flags</b> has SL_RETURN_SINGLE_ENTRY bit set.
@@ -494,6 +824,8 @@ The<a href="https://msdn.microsoft.com/44bf976b-09bc-4270-8c2e-8e55784aaa38"> MR
 RDBSS issues a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550773">MRxQueryQuotaInfo</a> in response to receiving an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a> request. 
 
 Before calling<a href="https://msdn.microsoft.com/44bf976b-09bc-4270-8c2e-8e55784aaa38"> MRxQueryQuotaInfo</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+
+The <b>Info.Buffer</b> member is set to user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
 
 The <b>Info.LengthRemaining</b> member is set to <b>IrpSp-&gt;Parameters.QueryQuota.Length</b>. 
 
@@ -523,6 +855,8 @@ Before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 The <b>QuerySecurity.SecurityInformation</b> member is set to <b>IrpSp-&gt;Parameters.QuerySecurity.SecurityInformation</b>.
 
+The <b>Info.Buffer</b> member is set to user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
+
 The <b>Info.LengthRemaining</b> member is set to <b>IrpSp-&gt;Parameters.QuerySecurity.Length</b>.
 
 On success, the network mini-redirector should set the <b>InformationToReturn</b> member of the RX_CONTEXT structure to the length of the security information returned. If the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550776">MRxQuerySdInfo</a> was successful, RDBSS sets the <b>IoStatus.Information</b> member of the IRP to the <b>InformationToReturn</b> member of RX_CONTEXT. 
@@ -530,12 +864,16 @@ On success, the network mini-redirector should set the <b>InformationToReturn</b
 The<a href="https://msdn.microsoft.com/28e36992-2b6b-4484-9e7e-2cea7a2953e9"> MRxQueryVolumeInfo</a> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector query volume information. 
 
 RDBSS issues a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a> in either of the following cases:
-
+<ul>
+<li>
 RDBSS receives an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a> request.
 
+</li>
+<li>
 RDBSS receives an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550751">IRP_MJ_FILE_SYSTEM_CONTROL</a> request for an FSCTL_LMR_GET_LINK_TRACKING_INFORMATION control code. 
 
-Before calling<a href="https://msdn.microsoft.com/28e36992-2b6b-4484-9e7e-2cea7a2953e9"> MRxQueryVolumeInfo</a> in the case of an IRP_MJ_QUERY_VOLUME_INFORMATION request, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+</li>
+</ul>Before calling<a href="https://msdn.microsoft.com/28e36992-2b6b-4484-9e7e-2cea7a2953e9"> MRxQueryVolumeInfo</a> in the case of an IRP_MJ_QUERY_VOLUME_INFORMATION request, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
 
 The <b>Info.FsInformationClass</b> member is set to <b>IrpSp-&gt;Parameters.QueryVolume.FsInformationClass</b>. 
 
@@ -583,6 +921,10 @@ RDBSS issues a call to <a href="https://msdn.microsoft.com/library/windows/hardw
 
 Before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550786">MRxSetEaInfo</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
 
+The <b>Info.Buffer</b> member is set to the user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
+
+The <b>Info.LengthRemaining</b> member is set to <b>IrpSp-&gt;Parameters.QueryEa.Length</b>.
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff550790">MRxSetFileInfo</a> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector set file information on a file system object. 
 
 RDBSS issues a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550790">MRxSetFileInfo</a> in response to receiving an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549366">IRP_MJ_SET_INFORMATION</a> request.
@@ -590,6 +932,8 @@ RDBSS issues a call to <a href="https://msdn.microsoft.com/library/windows/hardw
 Before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550790">MRxSetFileInfo</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
 
 The <b>Info.FileInformationClass</b> member is set to <b>IrpSp-&gt;Parameters.SetFile.FileInformationClass</b>, the specified FILE_INFORMATION_CLASS value.
+
+The <b>Info.Buffer</b> member is set to <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
 
 The <b>Info.Length</b> member is set to <b>IrpSp-&gt;Parameters.SetFile.Length</b>.
 
@@ -648,6 +992,8 @@ Before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 The <b>Info.FsInformationClass</b> member is set to <b>IrpSp-&gt;Parameters.SetVolume.FsInformationClass</b>. 
 
+The <b>Info.Buffer</b> member is set to <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+
 The <b>Info.LengthRemaining</b> member is set to <b>IrpSp-&gt;Parameters.SetVolume.Length</b>.
 
 The<a href="https://msdn.microsoft.com/a68755c1-73f5-4134-b506-2a0163637a13"> MRxShouldTryToCollapseThisOpen</a> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector indicate if RDBSS should try and collapse an open request onto an existing file system object.
@@ -667,12 +1013,16 @@ The<a href="https://msdn.microsoft.com/d60ec8ef-2ccf-42ad-97d2-1aaf9d60acfb"> MR
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a> is called as part of cleanup operations if both of the following conditions are true: 
-
+<ul>
+<li>
 The file object corresponds to a disk file or directory
 
+</li>
+<li>
 This is the last cleanup call and the file object was marked for truncation. 
 
-The file object is marked for truncation if the <b>fcbstate</b> member of the FCB structure has the FCB_STATE_TRUNCATE_ON_CLOSE bit set. RDBSS will uninitialize the cache map at some later time.
+</li>
+</ul>The file object is marked for truncation if the <b>fcbstate</b> member of the FCB structure has the FCB_STATE_TRUNCATE_ON_CLOSE bit set. RDBSS will uninitialize the cache map at some later time.
 
 A call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a> will be followed by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a> as part of the cleanup operation.
 
@@ -688,51 +1038,37 @@ A call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550844"
 RDBSS ignores the return value from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550844">MRxZeroExtend</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549847">MRxCollapseOpen</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549871">MRxDeallocateForFcb</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549872">MRxDeallocateForFobx</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549878">MRxExtendForCache</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550669">MRxFlush</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550677">MRxForceClosed</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550691">MRxIsLockRealizable</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550817">MRxShouldTryToCollapseThisOpen</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550669">MRxFlush</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549878">MRxExtendForCache</a>
+
+<a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550691">MRxIsLockRealizable</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549871">MRxDeallocateForFcb</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550677">MRxForceClosed</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549872">MRxDeallocateForFobx</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550844">MRxZeroExtend</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550817">MRxShouldTryToCollapseThisOpen</a>
+
  
 
  

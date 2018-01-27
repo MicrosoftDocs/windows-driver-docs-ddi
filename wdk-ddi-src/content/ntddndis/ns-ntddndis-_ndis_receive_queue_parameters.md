@@ -7,8 +7,8 @@ old-location: netvista\ndis_receive_queue_parameters.htm
 old-project: netvista
 ms.assetid: fba87554-766d-45e2-8257-584ee78dd873
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_RECEIVE_QUEUE_PARAMETERS, NDIS_RECEIVE_QUEUE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_PARAMETERS
+ms.date: 1/18/2018
+ms.keywords: NDIS_RECEIVE_QUEUE_PARAMETERS, NDIS_RECEIVE_QUEUE_PARAMETERS structure [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_7c1b89fc-ccdb-4bf4-89ab-d2278be7355b.xml, *PNDIS_RECEIVE_QUEUE_PARAMETERS, ntddndis/PNDIS_RECEIVE_QUEUE_PARAMETERS, PNDIS_RECEIVE_QUEUE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_PARAMETERS, _NDIS_RECEIVE_QUEUE_PARAMETERS, ntddndis/NDIS_RECEIVE_QUEUE_PARAMETERS, netvista.ndis_receive_queue_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.20 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_RECEIVE_QUEUE_PARAMETERS
-req.alt-loc: Ntddndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddndis.h
+apiname: 
+-	NDIS_RECEIVE_QUEUE_PARAMETERS
+product: Windows
+targetos: Windows
 req.typenames: NDIS_RECEIVE_QUEUE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_PARAMETERS
 ---
 
 # _NDIS_RECEIVE_QUEUE_PARAMETERS structure
 
 
-
 ## -description
+
+
 The <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure contains the configuration parameters of a receive
   queue.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NDIS_RECEIVE_QUEUE_PARAMETERS {
@@ -69,6 +79,9 @@ typedef struct _NDIS_RECEIVE_QUEUE_PARAMETERS {
 
 ## -struct-fields
 
+
+
+
 ### -field Header
 
 The type, revision, and size of the <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
@@ -78,85 +91,22 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
-### -field NDIS_RECEIVE_QUEUE_PARAMETERS_REVISION_2
-
-Added additional members for NDIS 6.30.
-
-Set the <b>Size</b> member to <b>NDIS_SIZEOF_RECEIVE_QUEUE_PARAMETERS_REVISION_2</b>.
-
-
-### -field NDIS_RECEIVE_QUEUE_PARAMETERS_REVISION_1
-
-Original version for NDIS 6.20.
-
-Set the <b>Size</b> member to <b>NDIS_SIZEOF_RECEIVE_QUEUE_PARAMETERS_REVISION_1</b>.
-
-</dd>
-</dl>
-
 ### -field Flags
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of the following flags. The following flags are valid for the 
-     <a href="netvista.oid_receive_filter_allocate_queue">
-     OID_RECEIVE_FILTER_ALLOCATE_QUEUE</a> OID and the 
-     <a href="netvista.oid_receive_filter_queue_parameters">
-     OID_RECEIVE_FILTER_QUEUE_PARAMETERS</a> set and query OID:
+     <mshelp:link keywords="netvista.oid_receive_filter_allocate_queue" tabindex="0">
+     OID_RECEIVE_FILTER_ALLOCATE_QUEUE</mshelp:link> OID and the 
+     <mshelp:link keywords="netvista.oid_receive_filter_queue_parameters" tabindex="0">
+     OID_RECEIVE_FILTER_QUEUE_PARAMETERS</mshelp:link> set and query OID:
 
 
 
-
-### -field NDIS_RECEIVE_QUEUE_PARAMETERS_PER_QUEUE_RECEIVE_INDICATION
-
-The miniport driver must not mix network packets for other receive queues with the packets for
-       this queue in a single call to the 
-       <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-       NdisMIndicateReceiveNetBufferLists</a> function.
-
-
-### -field NDIS_RECEIVE_QUEUE_PARAMETERS_LOOKAHEAD_SPLIT_REQUIRED
-
-The network adapter must split a received packet at an offset equal to or greater than the
-       requested lookahead size and use DMA to transfer the lookahead data and the post-lookahead data to
-       separate shared memory segments.
-
-<div class="alert"><b>Note</b>  Starting with NDIS 6.30, splitting packet data into separate lookahead buffers is no longer supported. Miniport drivers that support NDIS 6.30 or later versions must ignore this flag.</div>
-<div> </div>
-</dd>
-</dl>
 The following flags are valid for the 
-     <a href="netvista.oid_receive_filter_queue_parameters">
-     OID_RECEIVE_FILTER_QUEUE_PARAMETERS</a> set OID and <a href="https://msdn.microsoft.com/library/windows/hardware/hh439820">NDIS_STATUS_RECEIVE_FILTER_QUEUE_PARAMETERS</a> status indication:
+     <mshelp:link keywords="netvista.oid_receive_filter_queue_parameters" tabindex="0">
+     OID_RECEIVE_FILTER_QUEUE_PARAMETERS</mshelp:link> set OID and <a href="https://msdn.microsoft.com/library/windows/hardware/hh439820">NDIS_STATUS_RECEIVE_FILTER_QUEUE_PARAMETERS</a> status indication:
 
 
-
-
-### -field NDIS_RECEIVE_QUEUE_PARAMETERS_FLAGS_CHANGED
-
-The setting in the 
-       <b>Flags</b> member changed.
-
-
-### -field NDIS_RECEIVE_QUEUE_PARAMETERS_PROCESSOR_AFFINITY_CHANGED
-
-The setting in the 
-       <b>ProcessorAffinity</b> member changed.
-
-
-### -field NDIS_RECEIVE_QUEUE_PARAMETERS_SUGGESTED_RECV_BUFFER_NUMBERS_CHANGED
-
-The setting in the 
-       <b>NumSuggestedReceiveBuffers</b> member changed.
-
-
-### -field NDIS_RECEIVE_QUEUE_PARAMETERS_NAME_CHANGED
-
-The setting in the 
-       <b>QueueName</b> member changed.
-
-</dd>
-</dl>
-<div class="alert"><b>Note</b>  A driver determines which receive queue parameters have been changed by executing a bitwise <b>AND</b> operation between the <b>NDIS_RECEIVE_QUEUE_PARAMETERS_CHANGE_MASK</b> definition and the value in the <b>Flags</b> member. If the result is zero, no receive queue parameters have been changed.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  A driver determines which receive queue parameters have been changed by executing a bitwise <b>AND</b> operation between the <b>NDIS_RECEIVE_QUEUE_PARAMETERS_CHANGE_MASK</b> definition and the value in the <b>Flags</b> member. If the result is zero, no receive queue parameters have been changed.</div><div> </div>
 
 ### -field QueueType
 
@@ -208,9 +158,7 @@ A <b>ULONG</b> value for the size, in bytes, of the lookahead size requirement f
      the packet at the specified lookahead size if the flag is also set. If the flag is clear, a nonzero
      value for 
      <b>LookaheadSize</b> is invalid.
-
-<div class="alert"><b>Note</b>  Starting with NDIS 6.30, splitting packet data into separate lookahead buffers is no longer supported. The value of this member must be zero.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  Starting with NDIS 6.30, splitting packet data into separate lookahead buffers is no longer supported. The value of this member must be zero.</div><div> </div>
 
 ### -field VmName
 
@@ -234,43 +182,98 @@ A ULONG value that contains the unique identifier of a port on the Hyper-V exten
 This member is reserved for NDIS.
 
 
+### -field QosSqId
+
+ 
+
+
+
+##### - Flags.NDIS_RECEIVE_QUEUE_PARAMETERS_PER_QUEUE_RECEIVE_INDICATION
+
+The miniport driver must not mix network packets for other receive queues with the packets for
+       this queue in a single call to the 
+       <mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
+       NdisMIndicateReceiveNetBufferLists</b></mshelp:link> function.
+
+
+##### - Flags.NDIS_RECEIVE_QUEUE_PARAMETERS_NAME_CHANGED
+
+The setting in the 
+       <b>QueueName</b> member changed.
+
+
+##### - Flags.NDIS_RECEIVE_QUEUE_PARAMETERS_SUGGESTED_RECV_BUFFER_NUMBERS_CHANGED
+
+The setting in the 
+       <b>NumSuggestedReceiveBuffers</b> member changed.
+
+
+##### - Flags.NDIS_RECEIVE_QUEUE_PARAMETERS_LOOKAHEAD_SPLIT_REQUIRED
+
+The network adapter must split a received packet at an offset equal to or greater than the
+       requested lookahead size and use DMA to transfer the lookahead data and the post-lookahead data to
+       separate shared memory segments.
+<div class="alert"><b>Note</b>  Starting with NDIS 6.30, splitting packet data into separate lookahead buffers is no longer supported. Miniport drivers that support NDIS 6.30 or later versions must ignore this flag.</div><div> </div>
+
+##### - Header.NDIS_RECEIVE_QUEUE_PARAMETERS_REVISION_1
+
+Original version for NDIS 6.20.
+
+Set the <b>Size</b> member to <b>NDIS_SIZEOF_RECEIVE_QUEUE_PARAMETERS_REVISION_1</b>.
+
+
+##### - Flags.NDIS_RECEIVE_QUEUE_PARAMETERS_PROCESSOR_AFFINITY_CHANGED
+
+The setting in the 
+       <b>ProcessorAffinity</b> member changed.
+
+
+##### - Header.NDIS_RECEIVE_QUEUE_PARAMETERS_REVISION_2
+
+Added additional members for NDIS 6.30.
+
+Set the <b>Size</b> member to <b>NDIS_SIZEOF_RECEIVE_QUEUE_PARAMETERS_REVISION_2</b>.
+
+
+##### - Flags.NDIS_RECEIVE_QUEUE_PARAMETERS_FLAGS_CHANGED
+
+The setting in the 
+       <b>Flags</b> member changed.
+
+
 ## -remarks
+
+
 The <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure is used in the 
-    <a href="netvista.oid_receive_filter_allocate_queue">
-    OID_RECEIVE_FILTER_ALLOCATE_QUEUE</a> OID and the 
-    <a href="netvista.oid_receive_filter_queue_parameters">
-    OID_RECEIVE_FILTER_QUEUE_PARAMETERS</a> OID.
+    <mshelp:link keywords="netvista.oid_receive_filter_allocate_queue" tabindex="0">
+    OID_RECEIVE_FILTER_ALLOCATE_QUEUE</mshelp:link> OID and the 
+    <mshelp:link keywords="netvista.oid_receive_filter_queue_parameters" tabindex="0">
+    OID_RECEIVE_FILTER_QUEUE_PARAMETERS</mshelp:link> OID.
 
 In NDIS 6.30, the <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure is also used in <a href="https://msdn.microsoft.com/library/windows/hardware/hh439820">NDIS_STATUS_RECEIVE_FILTER_QUEUE_PARAMETERS</a> status indications.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-   NdisMIndicateReceiveNetBufferLists</a>
-</dt>
-<dt>
-<a href="netvista.oid_receive_filter_allocate_queue">
-   OID_RECEIVE_FILTER_ALLOCATE_QUEUE</a>
-</dt>
-<dt>
-<a href="netvista.oid_receive_filter_queue_parameters">
-   OID_RECEIVE_FILTER_QUEUE_PARAMETERS</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
+   NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
+
+<mshelp:link keywords="netvista.oid_receive_filter_allocate_queue" tabindex="0">
+   OID_RECEIVE_FILTER_ALLOCATE_QUEUE</mshelp:link>
+
 <a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_type.md">NDIS_RECEIVE_QUEUE_TYPE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439820">NDIS_STATUS_RECEIVE_FILTER_QUEUE_PARAMETERS</a>
-</dt>
-</dl>
- 
+
+<mshelp:link keywords="netvista.oid_receive_filter_queue_parameters" tabindex="0">
+   OID_RECEIVE_FILTER_QUEUE_PARAMETERS</mshelp:link>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RECEIVE_QUEUE_PARAMETERS structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RECEIVE_QUEUE_PARAMETERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

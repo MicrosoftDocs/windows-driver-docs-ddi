@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 28662E87-F6A4-42B0-9BF0-49A6C65B245C
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS_0020, D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS_0020
+ms.keywords: d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_EDGE_ENHANCEMENT, display.d3d12ddi_video_process_filter_flags, D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_CONTRAST, d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_BRIGHTNESS, d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS_0020, D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS_0020 enumeration [Display Devices], D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_NOISE_REDUCTION, D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_NONE, D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_HUE, d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_CONTRAST, d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_ANAMORPHIC_SCALING, D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_BRIGHTNESS, d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_HUE, d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_SATURATION, d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_NOISE_REDUCTION, d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_NONE, D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS_0020, D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_SATURATION, D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_ANAMORPHIC_SCALING, D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_STEREO_ADJUSTMENT, d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_STEREO_ADJUSTMENT, D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_EDGE_ENHANCEMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS_0020
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS_0020
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS_0020
 ---
 
 # D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS_0020 enumeration
 
 
-
 ## -description
+
+
 Defines the image filter capabilities for a video processor. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS_0020 { 
@@ -62,7 +72,11 @@ typedef enum D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS_0020 {
 
 ## -enum-fields
 
+
+
+
 ### -field D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_NONE
+
 
 
 ### -field D3D12DDI_VIDEO_PROCESS_FILTER_FLAG_0020_BRIGHTNESS
@@ -106,15 +120,16 @@ For stereo 3D video, the video processor can adjust the offset between the left 
 
 
 ## -remarks
+
+
 Brightness, hue, contrast, and saturation support are always supported. These capability flags indicate support for the image filters defined by the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_filter_0020.md">D3D12DDI_VIDEO_PROCESS_FILTER</a> enumeration. To apply a particular filter, call the SetInputStreamFilter method.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_filter_0020.md">D3D12DDI_VIDEO_PROCESS_FILTER</a>
-</dt>
-</dl>
+
  
 
  

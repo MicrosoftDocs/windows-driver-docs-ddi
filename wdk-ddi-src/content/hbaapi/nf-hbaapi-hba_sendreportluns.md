@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0df38de0-bc05-45a3-8efa-9d7a0fc2a08e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_SendReportLUNs
+ms.keywords: storage.hba_sendreportluns, hbaapi/HBA_SendReportLUNs, HBA_SendReportLUNs routine [Storage Devices], HBA_SendReportLUNs, fibreHBA_rtns_aeda6b0e-e4bf-4679-ab57-dbe562864726.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBA_SendReportLUNs
-req.alt-loc: Hbaapi.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Hbaapi.dll
+apiname: 
+-	HBA_SendReportLUNs
+product: Windows
+targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
 
 # HBA_SendReportLUNs function
 
 
-
 ## -description
+
+
 The <b>HBA_SendReportLUNs</b> routine sends a SCSI report LUNs command to the indicated remote port. 
 
 
-
 ## -syntax
+
 
 ````
 HBA_STATUS HBA_API HBA_SendReportLUNs(
@@ -59,14 +69,17 @@ HBA_STATUS HBA_API HBA_SendReportLUNs(
 
 ## -parameters
 
-### -param handle [in]
-
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the target port is located.
 
 
-### -param portWWN [in]
 
-Contains a 64-bit worldwide name (WWN) that uniquely identifies the remote target port to which the SCSI report LUNs command is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
+### -param Handle
+
+TBD
+
+
+### -param PortWWN
+
+TBD
 
 
 ### -param pRspBuffer [out]
@@ -89,42 +102,101 @@ Pointer to a buffer that receives the SCSI sense data.
 On input, indicates the size, in bytes, of the buffer at <i>pSenseBuffer</i>. On output, this member indicates the number of bytes of sense data returned. 
 
 
+#### - handle [in]
+
+Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the target port is located.
+
+
+#### - portWWN [in]
+
+Contains a 64-bit worldwide name (WWN) that uniquely identifies the remote target port to which the SCSI report LUNs command is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
+
+
 ## -returns
+
+
 The <b>HBA_ScsiReportLUNs</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_ScsiReportLUNs</b> returns one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_OK</b></dt>
-</dl>Returned if the complete payload of a reply to the SCSI report LUNs command was successfully retrieved. 
+</dl>
+</td>
+<td width="60%">
+Returned if the complete payload of a reply to the SCSI report LUNs command was successfully retrieved. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR_ILLEGAL_WWN</b></dt>
-</dl>Returned if the HBA referenced by <i>handle</i> does not contain a port with a name that matches <i>portWWN</i>. 
+</dl>
+</td>
+<td width="60%">
+Returned if the HBA referenced by <i>handle</i> does not contain a port with a name that matches <i>portWWN</i>. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR_NOT_A_TARGET</b></dt>
-</dl>Returned if the specified remote port specified by <i>portWWN </i>does not have SCSI target functionality.
+</dl>
+</td>
+<td width="60%">
+Returned if the specified remote port specified by <i>portWWN </i>does not have SCSI target functionality.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR_TARGET_BUSY</b></dt>
-</dl>Returned if the SCSI report LUNs command could not be delivered without causing a SCSI overlapped command condition.
+</dl>
+</td>
+<td width="60%">
+Returned if the SCSI report LUNs command could not be delivered without causing a SCSI overlapped command condition.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_SCSI_CHECK_CONDITION</b></dt>
-</dl>Returned if a SCSI check condition occurred and SCSI send data is provided in the buffer at <i>pSenseBuffer</i>.
+</dl>
+</td>
+<td width="60%">
+Returned if a SCSI check condition occurred and SCSI send data is provided in the buffer at <i>pSenseBuffer</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR</b></dt>
-</dl>Returned if an unspecified error occurred that prevented the execution of the SCSI report LUNs command. 
+</dl>
+</td>
+<td width="60%">
+Returned if an unspecified error occurred that prevented the execution of the SCSI report LUNs command. 
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-</dt>
-</dl>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
  
 
  

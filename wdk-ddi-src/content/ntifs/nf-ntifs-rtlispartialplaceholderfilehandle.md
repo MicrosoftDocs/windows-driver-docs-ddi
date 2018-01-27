@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: A80C5714-525F-4E07-851D-2E203DD9387A
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlIsPartialPlaceholderFileHandle
+ms.keywords: ifsk.rtlispartialplaceholderfilehandle, RtlIsPartialPlaceholderFileHandle, RtlIsPartialPlaceholderFileHandle routine [Installable File System Drivers], ntifs/RtlIsPartialPlaceholderFileHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10, version 1709.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlIsPartialPlaceholderFileHandle
-req.alt-loc: Ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntifs.h
+apiname: 
+-	RtlIsPartialPlaceholderFileHandle
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlIsPartialPlaceholderFileHandle function
 
 
-
 ## -description
+
+
 The <b>RtlIsPartialPlaceholderFileHandle</b> routine determines if a file is a known type of placeholder, based on a file
     handle.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlIsPartialPlaceholderFileHandle(
@@ -55,6 +65,9 @@ NTSTATUS RtlIsPartialPlaceholderFileHandle(
 
 
 ## -parameters
+
+
+
 
 ### -param FileHandle [in]
 
@@ -68,18 +81,16 @@ NTSTATUS RtlIsPartialPlaceholderFileHandle(
 
 
 ## -returns
+
+
 Returns<b> STATUS_SUCCESS</b> if <i>IsPartialPlaceholder</i> is valid and not undefined.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtlispartialplaceholder.md">RtlIsPartialPlaceholder</a>
-</dt>
-</dl>
+
  
 
  

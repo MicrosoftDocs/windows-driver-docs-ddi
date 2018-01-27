@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 340e9675-9d07-4224-ac1b-86e7586c0738
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _FEATURE_DATA_CD_MASTERING, FEATURE_DATA_CD_MASTERING, *PFEATURE_DATA_CD_MASTERING
+ms.keywords: _FEATURE_DATA_CD_MASTERING, FEATURE_DATA_CD_MASTERING, structs-CD-ROM_f803f10f-2ef7-4e3b-9c16-1ed2f3c5b2a5.xml, PFEATURE_DATA_CD_MASTERING, storage.feature_data_cd_mastering, ntddmmc/FEATURE_DATA_CD_MASTERING, PFEATURE_DATA_CD_MASTERING structure pointer [Storage Devices], FEATURE_DATA_CD_MASTERING structure [Storage Devices], *PFEATURE_DATA_CD_MASTERING, ntddmmc/PFEATURE_DATA_CD_MASTERING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FEATURE_DATA_CD_MASTERING
-req.alt-loc: ntddmmc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: FEATURE_DATA_CD_MASTERING, *PFEATURE_DATA_CD_MASTERING
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddmmc.h
+apiname: 
+-	FEATURE_DATA_CD_MASTERING
+product: Windows
+targetos: Windows
+req.typenames: *PFEATURE_DATA_CD_MASTERING, FEATURE_DATA_CD_MASTERING
 ---
 
 # _FEATURE_DATA_CD_MASTERING structure
 
 
-
 ## -description
+
+
 The FEATURE_DATA_CD_MASTERING structure holds information for the CD Mastering feature.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FEATURE_DATA_CD_MASTERING {
@@ -62,6 +72,9 @@ typedef struct _FEATURE_DATA_CD_MASTERING {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -114,18 +127,18 @@ Indicates the maximum length of a Cue Sheet that can be accepted by the device f
 
 
 ## -remarks
+
+
 This structure holds data for the feature named "CD Mastering" by the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. Devices that support this feature can write to a CD in either "Session-at-Once" mode or Raw mode. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
-</dt>
-</dl>
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
  
 
  

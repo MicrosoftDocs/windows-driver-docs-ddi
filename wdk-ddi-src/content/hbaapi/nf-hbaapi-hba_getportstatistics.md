@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 282eccaf-7cb9-4675-9cc3-9261ed1322ca
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_GetPortStatistics
+ms.keywords: HBA_GetPortStatistics routine [Storage Devices], hbaapi/HBA_GetPortStatistics, HBA_GetPortStatistics, storage.hba_getportstatistics, fibreHBA_rtns_cd33c55b-4c61-4353-ba28-8497e09b49dd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBA_GetPortStatistics
-req.alt-loc: Hbaapi.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Hbaapi.dll
+apiname: 
+-	HBA_GetPortStatistics
+product: Windows
+targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
 
 # HBA_GetPortStatistics function
 
 
-
 ## -description
+
+
 The <b>HBA_GetPortStatistics</b> routine retrieves statistics for the indicated port on the HBA.
 
 
-
 ## -syntax
+
 
 ````
 HBA_STATUS HBA_API HBA_GetPortStatistics(
@@ -56,9 +66,12 @@ HBA_STATUS HBA_API HBA_GetPortStatistics(
 
 ## -parameters
 
-### -param HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
+
+
+### -param Handle
+
+TBD
 
 
 ### -param PortIndex [in]
@@ -66,38 +79,65 @@ Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openad
 Contains an index that identifies which port on the HBA to query for statistics. 
 
 
-### -param HbaPortStatistics [out]
+### -param PortStatistics
+
+TBD
+
+
+
+#### - HbaPortStatistics [out]
 
 Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_portstatistics.md">HBA_PortStatistics</a> that holds the statistics that were retrieved for the port. 
 
 
+#### - HbaHandle [in]
+
+Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
+
+
 ## -returns
+
+
 The <b>HBA_GetPortStatistics</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_GetPortStatistics</b> returns one of the following qualifiers.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_OK</b></dt>
-</dl>Returned if the statistics for the port were successfully retrieved. 
+</dl>
+</td>
+<td width="60%">
+Returned if the statistics for the port were successfully retrieved. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR</b></dt>
-</dl>Returned if an unspecified error occurred that prevented the retrieval of the statistics. 
+</dl>
+</td>
+<td width="60%">
+Returned if an unspecified error occurred that prevented the retrieval of the statistics. 
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-</dt>
-<dt>
+
 <a href="..\hbaapi\ns-hbaapi-hba_portstatistics.md">HBA_PortStatistics</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-</dt>
-</dl>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
  
 
  

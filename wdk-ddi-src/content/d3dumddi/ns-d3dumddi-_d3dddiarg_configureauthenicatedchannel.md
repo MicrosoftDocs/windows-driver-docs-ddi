@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8f27fe6d-fe34-4006-a8b1-d2f2190ec044
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_CONFIGUREAUTHENICATEDCHANNEL, D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL
+ms.keywords: d3dumddi/D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL, D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL structure [Display Devices], _D3DDDIARG_CONFIGUREAUTHENICATEDCHANNEL, D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL, display.d3dddiarg_configureauthenticatedchannel, UMDisplayDriver_param_Structs_ce65fb22-4c07-4b0f-b0cc-356f0010c88d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL is supported 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL
 ---
 
 # _D3DDDIARG_CONFIGUREAUTHENICATEDCHANNEL structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL structure describes the state that is set within an authenticated channel by using the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel.md">ConfigureAuthenticatedChannel</a> function. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL {
@@ -55,6 +65,9 @@ typedef struct _D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL {
 
 
 ## -struct-fields
+
+
+
 
 ### -field InputSize
 
@@ -72,25 +85,32 @@ typedef struct _D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL {
 
 
 ## -remarks
-The first member of the input buffer that the <b>pInputData</b> member points to is always the D3DAUTHENTICATEDCHANNEL_CONFIGURE_INPUT structure, whose members specify the following information: 
 
+
+The first member of the input buffer that the <b>pInputData</b> member points to is always the D3DAUTHENTICATEDCHANNEL_CONFIGURE_INPUT structure, whose members specify the following information: 
+<ul>
+<li>
 The <b>ConfigureType</b> member identifies the configuration state to set. 
 
+</li>
+<li>
 The <b>omac</b> member identifies the One-key Cipher Block Chaining (CBC)-mode message authentication code (OMAC), which verifies that the input is from a trusted source.
 
+</li>
+<li>
 The <b>SequenceNumber</b> member specifies a unique number that the driver can use to prevent against replay attacks. 
 
-The <b>pOutputData</b> member points to a D3DAUTHENTICATEDCHANNEL_CONFIGURE_OUTPUT structure that contains the configuration type and the sequence number of the output buffer to prevent against replay attacks. 
+</li>
+</ul>The <b>pOutputData</b> member points to a D3DAUTHENTICATEDCHANNEL_CONFIGURE_OUTPUT structure that contains the configuration type and the sequence number of the output buffer to prevent against replay attacks. 
 
 Configuration state that an authenticated channel sets cannot be disabled by another authenticated channel. A call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel.md">ConfigureAuthenticatedChannel</a> function with such an attempt   fails. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel.md">ConfigureAuthenticatedChannel</a>
-</dt>
-</dl>
+
  
 
  

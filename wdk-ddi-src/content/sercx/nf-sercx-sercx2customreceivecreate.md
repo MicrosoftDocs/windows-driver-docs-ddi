@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: EC2DBC18-C3F6-4663-891E-AFF43A6D1CE3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCx2CustomReceiveCreate
+ms.keywords: SerCx2CustomReceiveCreate, serports.sercx2customreceivecreate, SerCx2CustomReceiveCreate method [Serial Ports], 2/SerCx2CustomReceiveCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.1.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SerCx2CustomReceiveCreate
-req.alt-loc: 2.0\Sercx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	2.0\Sercx.h
+apiname: 
+-	SerCx2CustomReceiveCreate
+product: Windows
+targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SerCx2CustomReceiveCreate function
 
 
-
 ## -description
+
+
 The <b>SerCx2CustomReceiveCreate</b> method creates a custom-receive object, which version 2 of the serial framework extension (SerCx2) uses to read receive data from the serial controller by means of a custom data-transfer mechanism.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SerCx2CustomReceiveCreate(
@@ -57,6 +67,9 @@ NTSTATUS SerCx2CustomReceiveCreate(
 
 
 ## -parameters
+
+
+
 
 ### -param Device [in]
 
@@ -79,33 +92,84 @@ A pointer to a location to which this method writes a <a href="https://docs.micr
 
 
 ## -returns
+
+
 This method returns STATUS_SUCCESS if the call is successful. Possible error return values include the following status codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>A custom-receive object already exists from a previous <b>SerCx2CustomReceiveCreate</b> call; or a system-DMA-receive object exists from a previous <a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2CustomReceiveCreate</a> call; or a system-DMA-transmit object exists from a previous <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2CustomTransmitCreate</a> call; or <a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a> has not yet been called to create a PIO-receive object.
+</dl>
+</td>
+<td width="60%">
+A custom-receive object already exists from a previous <b>SerCx2CustomReceiveCreate</b> call; or a system-DMA-receive object exists from a previous <a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2CustomReceiveCreate</a> call; or a system-DMA-transmit object exists from a previous <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2CustomTransmitCreate</a> call; or <a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a> has not yet been called to create a PIO-receive object.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>A parameter value is not valid.
+</dl>
+</td>
+<td width="60%">
+A parameter value is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INFO_LENGTH_MISMATCH</b></dt>
-</dl>The <i>Config</i>-&gt;<b>Size</b> value does not equal <b>sizeof</b>(<b>SERCX2_CUSTOM_RECEIVE_CONFIG</b>).
+</dl>
+</td>
+<td width="60%">
+The <i>Config</i>-&gt;<b>Size</b> value does not equal <b>sizeof</b>(<b>SERCX2_CUSTOM_RECEIVE_CONFIG</b>).
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>Insufficient resources are available to create the custom-receive object.
+</dl>
+</td>
+<td width="60%">
+Insufficient resources are available to create the custom-receive object.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This method is called by the serial controller driver to create a custom-receive object. SerCx2 uses this object to do custom-receive transactions, which are transactions that use a custom data-transfer mechanism to read data received by the serial controller.
 
 A serial controller driver must successfully call the <a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a> and <a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a> methods before calling <b>SerCx2CustomReceiveCreate</b>.
 
 Before calling <b>SerCx2CustomReceiveCreate</b>, the serial controller driver must call the <a href="..\sercx\nf-sercx-sercx2_custom_receive_config_init.md">SERCX2_CUSTOM_RECEIVE_CONFIG_INIT</a> function to initialize the <a href="..\sercx\ns-sercx-_sercx2_custom_receive_config.md">SERCX2_CUSTOM_RECEIVE_CONFIG</a> structure pointed to by <i>CustomReceiveConfig</i>. This function sets the following members of the structure to zero:
-
-If necessary, the serial controller driver can set any of these members to nonzero values after the initialization function returns. However, for convenience, <b>SerCx2CustomReceiveCreate</b> uses the following default values if these members are zero:
-
-If the calling driver sets <b>Exclusive</b> to <b>TRUE</b>, the <b>MinimumTransferUnit</b>, <b>Alignment</b>, and <b>MinimumTransactionLength</b> members must be zero. For more information, see <a href="..\sercx\ns-sercx-_sercx2_custom_receive_config.md">SERCX2_CUSTOM_RECEIVE_CONFIG</a>.
+<ul>
+<li><b>Alignment</b></li>
+<li><b>MinimumTransactionLength</b></li>
+<li><b>MaximumTransactionLength</b></li>
+<li><b>MinimumTransferUnit</b></li>
+<li><b>Exclusive</b></li>
+</ul>If necessary, the serial controller driver can set any of these members to nonzero values after the initialization function returns. However, for convenience, <b>SerCx2CustomReceiveCreate</b> uses the following default values if these members are zero:
+<ul>
+<li>If <b>Alignment</b> is zero, SerCx2 sets the data alignment value to one, which means the read buffer can start on an arbitrary byte boundary in memory.</li>
+<li>If <b>MinimumTransactionLength</b> is zero, SerCx2 sets the minimum transaction length to one byte.</li>
+<li>If <b>MaximumTransactionLength</b> is zero, SerCx2 sets the maximum transaction length to ((ULONG)-1).</li>
+<li>If <b>MinimumTransferUnit</b> is zero, SerCx2 sets the minimum transfer unit to one byte.</li>
+<li>If <b>Exclusive</b> is zero (<b>FALSE</b>), exclusive mode is disabled.</li>
+</ul>If the calling driver sets <b>Exclusive</b> to <b>TRUE</b>, the <b>MinimumTransferUnit</b>, <b>Alignment</b>, and <b>MinimumTransactionLength</b> members must be zero. For more information, see <a href="..\sercx\ns-sercx-_sercx2_custom_receive_config.md">SERCX2_CUSTOM_RECEIVE_CONFIG</a>.
 
 As an option, a serial controller driver can use the <i>Attributes</i> parameter to create a context for the custom-receive object, and to supply pointers to <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> and <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a> functions that are called to prepare the object for deletion. For more information, see <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>.
 
@@ -114,39 +178,29 @@ If the <i>Attributes</i> parameter points to a <a href="..\wdfobject\ns-wdfobjec
 For more information about creating custom-receive objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMRECEIVE</a>. For more information about custom-receive transactions, see <a href="https://msdn.microsoft.com/29849A8C-6656-444C-BE91-405A4BA2D5B0">SerCx2 Custom-Receive Transactions</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a>
-</dt>
-<dt>
+
 <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a>
-</dt>
-<dt>
+
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-</dt>
-<dt>
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMRECEIVE</a>
-</dt>
-<dt>
-<a href="..\sercx\ns-sercx-_sercx2_custom_receive_config.md">SERCX2_CUSTOM_RECEIVE_CONFIG</a>
-</dt>
-<dt>
-<a href="..\sercx\nf-sercx-sercx2_custom_receive_config_init.md">SERCX2_CUSTOM_RECEIVE_CONFIG_INIT</a>
-</dt>
-<dt>
-<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
-</dt>
-<dt>
+
 <a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
-</dt>
-<dt>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMRECEIVE</a>
+
+<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
+
+<a href="..\sercx\ns-sercx-_sercx2_custom_receive_config.md">SERCX2_CUSTOM_RECEIVE_CONFIG</a>
+
+<a href="..\sercx\nf-sercx-sercx2_custom_receive_config_init.md">SERCX2_CUSTOM_RECEIVE_CONFIG_INIT</a>
+
+<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a>
+
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-</dt>
-<dt>
+
 <a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
-</dt>
-</dl>
+
  
 
  

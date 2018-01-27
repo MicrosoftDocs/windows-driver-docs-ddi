@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3ab00f9c-7ce9-41bf-85c5-96be31d19719
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DRIVER_INITIALIZATION_DATA, DRIVER_INITIALIZATION_DATA, *PDRIVER_INITIALIZATION_DATA
+ms.keywords: DmStructs_7b91bf58-dfda-4c7c-ae26-21e577bdc152.xml, _DRIVER_INITIALIZATION_DATA, PDRIVER_INITIALIZATION_DATA structure pointer [Display Devices], dispmprt/DRIVER_INITIALIZATION_DATA, PDRIVER_INITIALIZATION_DATA, DRIVER_INITIALIZATION_DATA structure [Display Devices], *PDRIVER_INITIALIZATION_DATA, DRIVER_INITIALIZATION_DATA, dispmprt/PDRIVER_INITIALIZATION_DATA, display.driver_initialization_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DRIVER_INITIALIZATION_DATA
-req.alt-loc: Dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Dispmprt.h
+apiname: 
+-	DRIVER_INITIALIZATION_DATA
+product: Windows
+targetos: Windows
 req.typenames: DRIVER_INITIALIZATION_DATA, *PDRIVER_INITIALIZATION_DATA
 ---
 
 # _DRIVER_INITIALIZATION_DATA structure
 
 
-
 ## -description
+
+
 The <b>DRIVER_INITIALIZATION_DATA</b> structure contains pointers to functions implemented by the display miniport driver. The display miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> function provides the Microsoft DirectX graphics kernel subsystem with entry points by filling in the members of this structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DRIVER_INITIALIZATION_DATA {
@@ -147,6 +157,9 @@ typedef struct _DRIVER_INITIALIZATION_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -396,9 +409,7 @@ A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgk
 ### -field DxgkDdiCreateOverlay
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a> function.
-
-<div class="alert"><b>Note</b>  The following 5 functions are specific to the graphics context device that was created through <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>:</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The following 5 functions are specific to the graphics context device that was created through <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>:</div><div> </div>
 
 ### -field DxgkDdiDestroyDevice
 
@@ -423,9 +434,7 @@ A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgk
 ### -field DxgkDdiPresent
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a> function.
-
-<div class="alert"><b>Note</b>  The following 3 functions are specific to the overlay that was created through <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a>:</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The following 3 functions are specific to the overlay that was created through <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a>:</div><div> </div>
 
 ### -field DxgkDdiUpdateOverlay
 
@@ -440,9 +449,7 @@ A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgk
 ### -field DxgkDdiDestroyOverlay
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroyoverlay.md">DxgkDdiDestroyOverlay</a> function.
-
-<div class="alert"><b>Note</b>  The following 2 functions are specific to supporting contexts:</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The following 2 functions are specific to supporting contexts:</div><div> </div>
 
 ### -field DxgkDdiCreateContext
 
@@ -462,9 +469,7 @@ A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgk
 ### -field DxgkDdiSetDisplayPrivateDriverFormat
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setdisplayprivatedriverformat.md">DxgkDdiSetDisplayPrivateDriverFormat</a> function.
-
-<div class="alert"><b>Note</b>  The following 6 <a href="https://msdn.microsoft.com/F92F15A7-439D-4D45-84EE-A92D1E6AD779">reserved functions</a> declared in Dispmrt.h are available beginning with Windows 7:</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The following 6 <a href="https://msdn.microsoft.com/F92F15A7-439D-4D45-84EE-A92D1E6AD779">reserved functions</a> declared in Dispmrt.h are available beginning with Windows 7:</div><div> </div>
 
 ### -field DxgkDdiDescribePageTable
 
@@ -518,9 +523,7 @@ Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7
      
 
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
-
-<div class="alert"><b>Note</b>  The following 3 functions are available beginning with Windows 7:</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The following 3 functions are available beginning with Windows 7:</div><div> </div>
 
 ### -field DxgkDdiRenderKm
 
@@ -547,9 +550,7 @@ Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7
      
 
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
-
-<div class="alert"><b>Note</b>  The following 12 functions, including one reserved function, are available beginning with Windows 8:</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The following 12 functions, including one reserved function, are available beginning with Windows 8:</div><div> </div>
 
 ### -field DxgkDdiSetPowerComponentFState
 
@@ -677,16 +678,333 @@ A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgk
 Supported starting with Windows 8.1.
 
 
+### -field DxgkDdiRenderGdi
+
+ 
+
+
+### -field DxgkDdiSubmitCommandVirtual
+
+ 
+
+
+### -field DxgkDdiSetRootPageTable
+
+ 
+
+
+### -field DxgkDdiGetRootPageTableSize
+
+ 
+
+
+### -field DxgkDdiMapCpuHostAperture
+
+ 
+
+
+### -field DxgkDdiUnmapCpuHostAperture
+
+ 
+
+
+### -field DxgkDdiCheckMultiPlaneOverlaySupport2
+
+ 
+
+
+### -field DxgkDdiCreateProcess
+
+ 
+
+
+### -field DxgkDdiDestroyProcess
+
+ 
+
+
+### -field DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2
+
+ 
+
+
+### -field Reserved1
+
+ 
+
+
+### -field Reserved2
+
+ 
+
+
+### -field DxgkDdiPowerRuntimeSetDeviceHandle
+
+ 
+
+
+### -field DxgkDdiSetStablePowerState
+
+ 
+
+
+### -field DxgkDdiSetVideoProtectedRegion
+
+ 
+
+
+### -field DxgkDdiCheckMultiPlaneOverlaySupport3
+
+ 
+
+
+### -field DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay3
+
+ 
+
+
+### -field DxgkDdiPostMultiPlaneOverlayPresent
+
+ 
+
+
+### -field DxgkDdiValidateUpdateAllocationProperty
+
+ 
+
+
+### -field DxgkDdiControlModeBehavior
+
+ 
+
+
+### -field DxgkDdiUpdateMonitorLinkInfo
+
+ 
+
+
+### -field DxgkDdiCreateHwContext
+
+ 
+
+
+### -field DxgkDdiDestroyHwContext
+
+ 
+
+
+### -field DxgkDdiCreateHwQueue
+
+ 
+
+
+### -field DxgkDdiDestroyHwQueue
+
+ 
+
+
+### -field DxgkDdiSubmitCommandToHwQueue
+
+ 
+
+
+### -field DxgkDdiSwitchToHwContextList
+
+ 
+
+
+### -field DxgkDdiResetHwEngine
+
+ 
+
+
+### -field DxgkDdiCreatePeriodicFrameNotification
+
+ 
+
+
+### -field DxgkDdiDestroyPeriodicFrameNotification
+
+ 
+
+
+### -field DxgkDdiSetTimingsFromVidPn
+
+ 
+
+
+### -field DxgkDdiSetTargetGamma
+
+ 
+
+
+### -field DxgkDdiSetTargetContentType
+
+ 
+
+
+### -field DxgkDdiSetTargetAnalogCopyProtection
+
+ 
+
+
+### -field DxgkDdiSetTargetAdjustedColorimetry
+
+ 
+
+
+### -field DxgkDdiDisplayDetectControl
+
+ 
+
+
+### -field DxgkDdiQueryConnectionChange
+
+ 
+
+
+### -field DxgkDdiExchangePreStartInfo
+
+ 
+
+
+### -field DxgkDdiGetMultiPlaneOverlayCaps
+
+ 
+
+
+### -field DxgkDdiGetPostCompositionCaps
+
+ 
+
+
+### -field DxgkDdiUpdateHwContextState
+
+ 
+
+
+### -field DxgkDdiCreateProtectedSession
+
+ 
+
+
+### -field DxgkDdiDestroyProtectedSession
+
+ 
+
+
+
 ## -remarks
+
+
 The following <b>typedef</b> declarations provide function data types from data types that are dereferenced pointers to functions:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef DXGKDDI_ADD_DEVICE  *PDXGKDDI_ADD_DEVICE;
+typedef DXGKDDI_START_DEVICE  *PDXGKDDI_START_DEVICE;
+typedef DXGKDDI_STOP_DEVICE  *PDXGKDDI_STOP_DEVICE;
+typedef DXGKDDI_REMOVE_DEVICE  *PDXGKDDI_REMOVE_DEVICE;
+typedef DXGKDDI_DISPATCH_IO_REQUEST  *PDXGKDDI_DISPATCH_IO_REQUEST;
+typedef DXGKDDI_QUERY_CHILD_RELATIONS  *PDXGKDDI_QUERY_CHILD_RELATIONS;
+typedef DXGKDDI_QUERY_CHILD_STATUS  *PDXGKDDI_QUERY_CHILD_STATUS;
+typedef DXGKDDI_INTERRUPT_ROUTINE  *PDXGKDDI_INTERRUPT_ROUTINE;
+typedef DXGKDDI_DPC_ROUTINE  *PDXGKDDI_DPC_ROUTINE;
+typedef DXGKDDI_QUERY_DEVICE_DESCRIPTOR  *PDXGKDDI_QUERY_DEVICE_DESCRIPTOR;
+typedef DXGKDDI_SET_POWER_STATE  *PDXGKDDI_SET_POWER_STATE;
+typedef DXGKDDI_NOTIFY_ACPI_EVENT  *PDXGKDDI_NOTIFY_ACPI_EVENT;
+typedef DXGKDDI_RESET_DEVICE  *PDXGKDDI_RESET_DEVICE;
+typedef DXGKDDI_UNLOAD  *PDXGKDDI_UNLOAD;
+typedef DXGKDDI_QUERY_INTERFACE  *PDXGKDDI_QUERY_INTERFACE;
+typedef DXGKDDI_CONTROL_ETW_LOGGING  *PDXGKDDI_CONTROL_ETW_LOGGING;
+typedef DXGKDDI_QUERYADAPTERINFO  *PDXGKDDI_QUERYADAPTERINFO;
+typedef DXGKDDI_CREATEDEVICE  *PDXGKDDI_CREATEDEVICE;
+typedef DXGKDDI_CREATEALLOCATION  *PDXGKDDI_CREATEALLOCATION;
+typedef DXGKDDI_DESTROYALLOCATION  *PDXGKDDI_DESTROYALLOCATION;
+typedef DXGKDDI_DESCRIBEALLOCATION  *PDXGKDDI_DESCRIBEALLOCATION;
+typedef DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA  *PDXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA;
+typedef DXGKDDI_ACQUIRESWIZZLINGRANGE  *PDXGKDDI_ACQUIRESWIZZLINGRANGE;
+typedef DXGKDDI_RELEASESWIZZLINGRANGE  *PDXGKDDI_RELEASESWIZZLINGRANGE;
+typedef DXGKDDI_PATCH  *PDXGKDDI_PATCH;
+typedef DXGKDDI_SUBMITCOMMAND  *PDXGKDDI_SUBMITCOMMAND;
+typedef DXGKDDI_PREEMPTCOMMAND  *PDXGKDDI_PREEMPTCOMMAND;
+typedef DXGKDDI_BUILDPAGINGBUFFER  *PDXGKDDI_BUILDPAGINGBUFFER;
+typedef DXGKDDI_SETPALETTE  *PDXGKDDI_SETPALETTE;
+typedef DXGKDDI_SETPOINTERPOSITION  *PDXGKDDI_SETPOINTERPOSITION;
+typedef DXGKDDI_SETPOINTERSHAPE  *PDXGKDDI_SETPOINTERSHAPE;
+typedef DXGKDDI_RESETFROMTIMEOUT  *PDXGKDDI_RESETFROMTIMEOUT;
+typedef DXGKDDI_RESTARTFROMTIMEOUT  *PDXGKDDI_RESTARTFROMTIMEOUT;
+typedef DXGKDDI_ESCAPE  *PDXGKDDI_ESCAPE;
+typedef DXGKDDI_COLLECTDBGINFO  *PDXGKDDI_COLLECTDBGINFO;
+typedef DXGKDDI_QUERYCURRENTFENCE  *PDXGKDDI_QUERYCURRENTFENCE;
+typedef DXGKDDI_ISSUPPORTEDVIDPN  *PDXGKDDI_ISSUPPORTEDVIDPN;
+typedef DXGKDDI_RECOMMENDFUNCTIONALVIDPN  *PDXGKDDI_RECOMMENDFUNCTIONALVIDPN;
+typedef DXGKDDI_ENUMVIDPNCOFUNCMODALITY  *PDXGKDDI_ENUMVIDPNCOFUNCMODALITY;
+typedef DXGKDDI_SETVIDPNSOURCEADDRESS  *PDXGKDDI_SETVIDPNSOURCEADDRESS;
+typedef DXGKDDI_SETVIDPNSOURCEVISIBILITY  *PDXGKDDI_SETVIDPNSOURCEVISIBILITY;
+typedef DXGKDDI_COMMITVIDPN  *PDXGKDDI_COMMITVIDPN;
+typedef DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH  *PDXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH;
+typedef DXGKDDI_RECOMMENDMONITORMODES  *PDXGKDDI_RECOMMENDMONITORMODES;
+typedef DXGKDDI_RECOMMENDVIDPNTOPOLOGY  *PDXGKDDI_RECOMMENDVIDPNTOPOLOGY;
+typedef DXGKDDI_GETSCANLINE  *PDXGKDDI_GETSCANLINE;
+typedef DXGKDDI_STOPCAPTURE  *PDXGKDDI_STOPCAPTURE;
+typedef DXGKDDI_CONTROLINTERRUPT  *PDXGKDDI_CONTROLINTERRUPT;
+typedef DXGKDDI_CREATEOVERLAY  *PDXGKDDI_CREATEOVERLAY;
+typedef DXGKDDI_DESTROYDEVICE  *PDXGKDDI_DESTROYDEVICE;
+typedef DXGKDDI_OPENALLOCATIONINFO  *PDXGKDDI_OPENALLOCATIONINFO;
+typedef DXGKDDI_CLOSEALLOCATION  *PDXGKDDI_CLOSEALLOCATION;
+typedef DXGKDDI_RENDER  *PDXGKDDI_RENDER;
+typedef DXGKDDI_PRESENT  *PDXGKDDI_PRESENT;
+typedef DXGKDDI_UPDATEOVERLAY  *PDXGKDDI_UPDATEOVERLAY;
+typedef DXGKDDI_FLIPOVERLAY  *PDXGKDDI_FLIPOVERLAY;
+typedef DXGKDDI_DESTROYOVERLAY  *PDXGKDDI_DESTROYOVERLAY;
+typedef DXGKDDI_CREATECONTEXT  *PDXGKDDI_CREATECONTEXT; 
+typedef DXGKDDI_DESTROYCONTEXT  *PDXGKDDI_DESTROYCONTEXT;
+typedef DXGKDDI_LINK_DEVICE  *PDXGKDDI_LINK_DEVICE;
+typedef DXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT  *PDXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT;
+#if (DXGKDDI_INTERFACE_VERSION &gt;= DXGKDDI_INTERFACE_VERSION_WIN7)
+typedef DXGKDDI_DESCRIBEPAGETABLE  *PDXGKDDI_DESCRIBEPAGETABLE;
+typedef DXGKDDI_UPDATEPAGETABLE  *PDXGKDDI_UPDATEPAGETABLE;
+typedef DXGKDDI_UPDATEPAGEDIRECTORY  *PDXGKDDI_UPDATEPAGEDIRECTORY;
+typedef DXGKDDI_MOVEPAGEDIRECTORY  *PDXGKDDI_MOVEPAGEDIRECTORY;
+typedef DXGKDDI_SUBMITRENDER  *PDXGKDDI_SUBMITRENDER;
+typedef DXGKDDI_CREATEALLOCATION2  *PDXGKDDI_CREATEALLOCATION2;
+typedef DXGKDDI_RENDERKM  *PDXGKDDI_RENDERKM;
+typedef DXGKDDI_QUERYVIDPNHWCAPABILITY  *PDXGKDDI_QUERYVIDPNHWCAPABILITY;
+#endif // DXGKDDI_INTERFACE_VERSION_WIN7
+#if (DXGKDDI_INTERFACE_VERSION &gt;= DXGKDDI_INTERFACE_VERSION_WIN8)
+typedef DXGKDDISETPOWERCOMPONENTFSTATE  *PDXGKDDISETPOWERCOMPONENTFSTATE;
+typedef DXGKDDI_QUERYDEPENDENTENGINEGROUP  *PDXGKDDI_QUERYDEPENDENTENGINEGROUP;
+typedef DXGKDDI_QUERYENGINESTATUS  *PDXGKDDI_QUERYENGINESTATUS;
+typedef DXGKDDI_RESETENGINE  *PDXGKDDI_RESETENGINE;
+typedef DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP  *PDXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP;
+typedef DXGKDDI_SYSTEM_DISPLAY_ENABLE  *PDXGKDDI_SYSTEM_DISPLAY_ENABLE;
+typedef DXGKDDI_SYSTEM_DISPLAY_WRITE  *PDXGKDDI_SYSTEM_DISPLAY_WRITE; 
+typedef DXGKDDI_CANCELCOMMAND  *PDXGKDDI_CANCELCOMMAND;
+typedef DXGKDDI_GET_CHILD_CONTAINER_ID  *PDXGKDDI_GET_CHILD_CONTAINER_ID;
+typedef DXGKDDIPOWERRUNTIMECONTROLREQUEST  *PDXGKDDIPOWERRUNTIMECONTROLREQUEST; 
+typedef DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY *PDXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY;
+typedef DXGKDDI_NOTIFY_SURPRISE_REMOVAL         *PDXGKDDI_NOTIFY_SURPRISE_REMOVAL;
+#endif //
+#if (DXGKDDI_INTERFACE_VERSION &gt;= DXGKDDI_INTERFACE_VERSION_WDDM1_3)
+typedef DXGKDDI_GETNODEMETADATA  *PDXGKDDI_GETNODEMETADATA;
+typedef DXGKDDI_CONTROLINTERRUPT2  *PDXGKDDI_CONTROLINTERRUPT2;
+typedef DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT  *PDXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT;
+typedef DXGKDDI_FORMATHISTORYBUFFER  *PDXGKDDI_FORMATHISTORYBUFFER;
+typedef DXGKDDI_CALIBRATEGPUCLOCK  *PDXGKDDI_CALIBRATEGPUCLOCK; 
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
-</dt>
-</dl>
+
  
 
  

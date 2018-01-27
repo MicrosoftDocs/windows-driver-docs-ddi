@@ -7,8 +7,8 @@ old-location: image\sti_diag.htm
 old-project: image
 ms.assetid: 07caa8b0-849c-4ad9-9adb-b1726edc9234
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: _STI_DIAG, *LPSTI_DIAG, STI_DIAG, DIAG
+ms.date: 1/18/2018
+ms.keywords: image.sti_diag, LPSTI_DIAG structure pointer [Imaging Devices], STI_DIAG structure [Imaging Devices], stifnc_793c0930-51bf-46b5-89c9-9ddaf91a1fee.xml, _STI_DIAG, *LPSTI_DIAG, STI_DIAG, LPSTI_DIAG, DIAG, sti/LPSTI_DIAG, sti/STI_DIAG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STI_DIAG
-req.alt-loc: sti.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPSTI_DIAG, STI_DIAG
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	sti.h
+apiname: 
+-	STI_DIAG
+product: Windows
+targetos: Windows
+req.typenames: STI_DIAG, *LPSTI_DIAG
 req.product: Windows 10 or later.
 ---
 
 # _STI_DIAG structure
 
 
-
 ## -description
+
+
 The STI_DIAG structure is used as a parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543736">IStiDevice::Diagnostic</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543814">IStiUSD::Diagnostic</a> methods.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STI_DIAG {
@@ -58,6 +68,9 @@ typedef struct _STI_DIAG {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwSize
 
@@ -83,5 +96,3 @@ Reserved for future use.
 
 Structure of type <a href="..\sti\ns-sti-_error_infow.md">STI_ERROR_INFO</a>.
 
-
-## -remarks

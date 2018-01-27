@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0ecfed3e-477a-4014-8491-1a8997ac5b90
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ISCSI_PortalInfo, *PISCSI_PortalInfo, ISCSI_PortalInfo
+ms.keywords: iscsimgt/ISCSI_PortalInfo, _ISCSI_PortalInfo, *PISCSI_PortalInfo, ISCSI_PortalInfo structure [Storage Devices], structs-iSCSI_40fc24e8-364d-4698-911c-4128f471cdcd.xml, ISCSI_PortalInfo, storage.iscsi_portalinfo, PISCSI_PortalInfo, iscsimgt/PISCSI_PortalInfo, PISCSI_PortalInfo structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ISCSI_PortalInfo
-req.alt-loc: iscsimgt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsimgt.h
+apiname: 
+-	ISCSI_PortalInfo
+product: Windows
+targetos: Windows
 req.typenames: *PISCSI_PortalInfo, ISCSI_PortalInfo
 ---
 
 # _ISCSI_PortalInfo structure
 
 
-
 ## -description
+
+
 The ISCSI_PortalInfo structure contains information about an iSCSI portal. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ISCSI_PortalInfo {
@@ -61,6 +71,9 @@ typedef struct _ISCSI_PortalInfo {
 
 ## -struct-fields
 
+
+
+
 ### -field Index
 
 The unique port number associated with this portal.
@@ -69,7 +82,6 @@ The unique port number associated with this portal.
 ### -field PortalType
 
 The type of portal. This member can have the following symbolic constant values, which are defined in <i>Iscsimgt.h</i>.
-
 <table>
 <tr>
 <th>Portal Type</th>
@@ -95,8 +107,7 @@ The portal that the target uses to access the network. In a target, a portal is 
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Protocol
@@ -129,18 +140,12 @@ The socket number for the portal.
 The portal group tag to which the portal belongs.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561559">ISCSI_PortalInfo WMI Class</a>
-</dt>
-</dl>
+
+<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
+
  
 
  

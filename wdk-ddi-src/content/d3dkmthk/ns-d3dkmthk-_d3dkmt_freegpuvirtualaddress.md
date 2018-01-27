@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BB3DD49B-7DAB-48AC-BC63-595A184374AB
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_FREEGPUVIRTUALADDRESS, D3DKMT_FREEGPUVIRTUALADDRESS
+ms.keywords: _D3DKMT_FREEGPUVIRTUALADDRESS, D3DKMT_FREEGPUVIRTUALADDRESS structure [Display Devices], display.d3dkmt_freegpuvirtualaddress, d3dkmthk/D3DKMT_FREEGPUVIRTUALADDRESS, D3DKMT_FREEGPUVIRTUALADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_FREEGPUVIRTUALADDRESS
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_FREEGPUVIRTUALADDRESS
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_FREEGPUVIRTUALADDRESS
 ---
 
 # _D3DKMT_FREEGPUVIRTUALADDRESS structure
 
 
-
 ## -description
+
+
 <b>D3DKMT_FREEGPUVIRTUALADDRESS</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtfreegpuvirtualaddress.md">FreeGpuVirtualAddress</a> to release a range of graphics processing unit (GPU) virtual addresses that were previously reserved or mapped.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_FREEGPUVIRTUALADDRESS {
@@ -55,6 +65,9 @@ typedef struct _D3DKMT_FREEGPUVIRTUALADDRESS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hAdapter
 
@@ -71,15 +84,10 @@ Specifies the base virtual address, in bytes, of the range to free. Must be alig
 Specifies the size, in bytes, of the range to free. Must be aligned to 4 KB.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtfreegpuvirtualaddress.md">FreeGpuVirtualAddress</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E1EAA11F-B32F-4551-9788-49BC8A13BB19
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUrbCompleteWithNtStatus
+ms.keywords: UdecxUrbCompleteWithNtStatus, buses.udecxurbcompletewithntstatus, UdecxUrbCompleteWithNtStatus function [Buses], udecxurb/UdecxUrbCompleteWithNtStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 
-req.alt-api: UdecxUrbCompleteWithNtStatus
-req.alt-loc: Udecxstub.lib,Udecxstub.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Udecxstub.lib
+-	Udecxstub.dll
+apiname: 
+-	UdecxUrbCompleteWithNtStatus
+product: Windows
+targetos: Windows
+req.typenames: *PUSB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH
 req.product: Windows 10 or later.
 ---
 
 # UdecxUrbCompleteWithNtStatus function
 
 
-
 ## -description
+
+
 Completes the URB request with an <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code.
 
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE void UdecxUrbCompleteWithNtStatus(
@@ -56,6 +67,9 @@ FORCEINLINE void UdecxUrbCompleteWithNtStatus(
 
 
 ## -parameters
+
+
+
 
 ### -param Request [in]
 
@@ -68,21 +82,18 @@ A <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTST
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: b32c6a7e-84c2-412a-a13e-959aaddc81ac
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _URB_CONTROL_FEATURE_REQUEST,
+ms.keywords: usb/_URB_CONTROL_FEATURE_REQUEST, _URB_CONTROL_FEATURE_REQUEST structure [Buses], usbstrct_0552c436-5e4b-4573-b9ea-1f098de7dedd.xml, buses._urb_control_feature_request, _URB_CONTROL_FEATURE_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: _URB_CONTROL_FEATURE_REQUEST
-req.alt-loc: usb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usb.h
+apiname: 
+-	_URB_CONTROL_FEATURE_REQUEST
+product: Windows
+targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _URB_CONTROL_FEATURE_REQUEST structure
 
 
-
 ## -description
+
+
 The <b>_URB_CONTROL_FEATURE_REQUEST</b> structure is used by USB client drivers  to set or clear features on a device, interface, or endpoint.
 
 
-
 ## -syntax
+
 
 ````
 struct _URB_CONTROL_FEATURE_REQUEST {
@@ -66,21 +76,39 @@ struct _URB_CONTROL_FEATURE_REQUEST {
 
 ## -struct-fields
 
+
+
+
 ### -field Hdr
 
 Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> indicates either a set or a clear feature operation, to perform on a device, interface, endpoint or other non-standard component. <b>Hdr.Function</b> must have one of the following values:
 
-<dl>
-<dd>URB_FUNCTION_SET_FEATURE_TO_DEVICE</dd>
-<dd>URB_FUNCTION_SET_FEATURE_TO_INTERFACE</dd>
-<dd>URB_FUNCTION_SET_FEATURE_TO_ENDPOINT</dd>
-<dd>URB_FUNCTION_SET_FEATURE_TO_OTHER</dd>
-<dd>URB_FUNCTION_CLEAR_FEATURE_TO_DEVICE</dd>
-<dd>URB_FUNCTION_CLEAR_FEATURE_TO_INTERFACE </dd>
-<dd>URB_FUNCTION_CLEAR_FEATURE_TO_ENDPOINT</dd>
-<dd>URB_FUNCTION_CLEAR_FEATURE_TO_OTHER</dd>
-</dl>
 <b>Hdr.Length</b> must equal <code>sizeof(_URB_CONTROL_FEATURE_REQUEST)</code>.
+
+
+### -field _URB_HEADER
+
+ 
+
+
+### -field _URB
+
+ 
+
+
+### -field UrbLink
+
+Reserved. Do not use.
+
+
+### -field hca
+
+Reserved. Do not use.
+
+
+### -field _URB_HCD_AREA
+
+ 
 
 
 ### -field Reserved
@@ -108,16 +136,6 @@ Reserved. Do not use.
 Reserved. Do not use.
 
 
-### -field UrbLink
-
-Reserved. Do not use.
-
-
-### -field hca
-
-Reserved. Do not use.
-
-
 ### -field Reserved0
 
 Reserved. Do not use.
@@ -139,6 +157,8 @@ Reserved. Do not use.
 
 
 ## -remarks
+
+
 Drivers can use the <b>UsbBuildFeatureRequest</b> service routine to format this URB. 
 
 The reserved members of this structure must be treated as opaque and are reserved for system use.
@@ -148,18 +168,15 @@ When a driver arms a USB device for remote wakeup with an IRP_MN_WAIT_WAKE reque
 Likewise, when a driver issues a URB with a function type of URB_FUNCTION_SYNC_RESET_PIPE_AND_CLEAR_STALL to a pipe, the bus driver will automatically clear the pipe's endpoint stall feature. The driver does not have to send a control feature URB to the pipe to clear the endpoint stall.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\usb\ns-usb-_urb.md">URB</a>
-</dt>
-<dt>
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
+
  
 
  

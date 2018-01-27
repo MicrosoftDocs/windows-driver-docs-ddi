@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: A4D0B6BC-56FD-4378-A8F9-0A306D3FF22F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUsbDeviceInitSetStateChangeCallbacks
+ms.keywords: UdecxUsbDeviceInitSetStateChangeCallbacks function [Buses], buses.udecxusbdeviceinitsetstatechangecallbacks, UdecxUsbDeviceInitSetStateChangeCallbacks, udecxusbdevice/UdecxUsbDeviceInitSetStateChangeCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 
-req.alt-api: UdecxUsbDeviceInitSetStateChangeCallbacks
-req.alt-loc: Udecxstub.lib,Udecxstub.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PUDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Udecxstub.lib
+-	Udecxstub.dll
+apiname: 
+-	UdecxUsbDeviceInitSetStateChangeCallbacks
+product: Windows
+targetos: Windows
+req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
 req.product: Windows 10 or later.
 ---
 
 # UdecxUsbDeviceInitSetStateChangeCallbacks function
 
 
-
 ## -description
+
+
 Initializes a WDF-allocated structure with pointers to callback functions.
 
 
-
 ## -syntax
+
 
 ````
 void UdecxUsbDeviceInitSetStateChangeCallbacks(
@@ -55,6 +66,9 @@ void UdecxUsbDeviceInitSetStateChangeCallbacks(
 
 
 ## -parameters
+
+
+
 
 ### -param UdecxUsbDeviceInit [in, out]
 
@@ -67,24 +81,20 @@ A pointer to a <a href="..\udecxusbdevice\ns-udecxusbdevice-_udecx_usb_device_st
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
+<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
+
  
 
  

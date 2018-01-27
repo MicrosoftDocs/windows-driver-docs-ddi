@@ -7,8 +7,8 @@ old-location: netvista\rilmsgoutsubmit_2.htm
 old-project: netvista
 ms.assetid: 1e310fc1-383c-4dbc-9c72-3eb8aa8db285
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILMSGOUTSUBMIT, RILMSGOUTSUBMIT, *LPRILMSGOUTSUBMIT
+ms.date: 1/18/2018
+ms.keywords: rilapitypes/RILMSGOUTSUBMIT, *LPRILMSGOUTSUBMIT, RILMSGOUTSUBMIT structure [Network Drivers Starting with Windows Vista], RILMSGOUTSUBMIT, netvista.rilmsgoutsubmit_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILMSGOUTSUBMIT
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILMSGOUTSUBMIT
+product: Windows
+targetos: Windows
 req.typenames: RILMSGOUTSUBMIT, *LPRILMSGOUTSUBMIT
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILMSGOUTSUBMIT structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILMSGOUTSUBMIT {
@@ -64,34 +74,45 @@ typedef struct _RILMSGOUTSUBMIT {
 
 ## -struct-fields
 
+
+
+
 ### -field raDestAddress
+
 
 
 ### -field dwProtocolID
 
 
+
 ### -field rmdDataCoding
+
 
 
 ### -field dwVPFormat
 
 
+
 ### -field stVP
+
 
 
 ### -field dwMsgID
 
 
+
 ### -field cbHdrLength
+
 
 
 ### -field cchMsgLength
 
 
+
 ### -field rgbHdr
+
 
 
 ### -field rgbMsg
 
 
-## -remarks

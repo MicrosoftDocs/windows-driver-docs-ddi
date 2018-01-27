@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4ea5e428-783c-4a28-bec5-42106425ee1f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SetGroupPresharedKey_OUT, *PSetGroupPresharedKey_OUT, SetGroupPresharedKey_OUT
+ms.keywords: storage.setgrouppresharedkey_out, iscsiop/PSetGroupPresharedKey_OUT, PSetGroupPresharedKey_OUT structure pointer [Storage Devices], SetGroupPresharedKey_OUT, _SetGroupPresharedKey_OUT, iscsiop/SetGroupPresharedKey_OUT, PSetGroupPresharedKey_OUT, structs-iSCSI_81186f6a-bf08-42eb-a3d8-ae195cdd8135.xml, *PSetGroupPresharedKey_OUT, SetGroupPresharedKey_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetGroupPresharedKey_OUT
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	SetGroupPresharedKey_OUT
+product: Windows
+targetos: Windows
 req.typenames: *PSetGroupPresharedKey_OUT, SetGroupPresharedKey_OUT
 ---
 
 # _SetGroupPresharedKey_OUT structure
 
 
-
 ## -description
+
+
 The SetGroupPresharedKey_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565693">SetGroupPresharedKey</a> method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SetGroupPresharedKey_OUT {
@@ -54,27 +64,29 @@ typedef struct _SetGroupPresharedKey_OUT {
 
 ## -struct-fields
 
+
+
+
 ### -field Status
 
 On output, the status of the <b>SetGroupPresharedKey</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>. 
 
 
 ## -remarks
+
+
 You must implement this method.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565693">SetGroupPresharedKey</a>
-</dt>
-<dt>
+
 <a href="..\iscsiop\ns-iscsiop-_setgrouppresharedkey_in.md">SetGroupPresharedKey_IN</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565693">SetGroupPresharedKey</a>
+
  
 
  

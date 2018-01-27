@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f7494ea8-e639-4466-9d56-07d164f57b5b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_STARTSESSIONKEYREFRESH, D3DDDIARG_STARTSESSIONKEYREFRESH
+ms.keywords: D3DDDIARG_STARTSESSIONKEYREFRESH, d3dumddi/D3DDDIARG_STARTSESSIONKEYREFRESH, _D3DDDIARG_STARTSESSIONKEYREFRESH, UMDisplayDriver_param_Structs_63d20fb4-b769-45bf-8e3f-badb7b8e52e2.xml, D3DDDIARG_STARTSESSIONKEYREFRESH structure [Display Devices], display.d3dddiarg_startsessionkeyrefresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3DDDIARG_STARTSESSIONKEYREFRESH is supported beginni
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_STARTSESSIONKEYREFRESH
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_STARTSESSIONKEYREFRESH
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_STARTSESSIONKEYREFRESH
 ---
 
 # _D3DDDIARG_STARTSESSIONKEYREFRESH structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_STARTSESSIONKEYREFRESH structure contains information about the random number for the encryption session. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_STARTSESSIONKEYREFRESH {
@@ -55,6 +65,9 @@ typedef struct _D3DDDIARG_STARTSESSIONKEYREFRESH {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hCryptoSession
 
@@ -71,15 +84,10 @@ typedef struct _D3DDDIARG_STARTSESSIONKEYREFRESH {
 [in/out] The size, in bytes, of the number that the <b>pRandomNumber</b> member points to. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
-</dt>
-</dl>
+
  
 
  

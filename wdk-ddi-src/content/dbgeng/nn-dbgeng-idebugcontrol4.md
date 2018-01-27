@@ -7,8 +7,8 @@ old-location: debugger\idebugcontrol4.htm
 old-project: debugger
 ms.assetid: 693207c2-70d7-45be-ae22-436555225928
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugSystemObjects4, IDebugSystemObjects4::SetImplicitThreadDataOffset, SetImplicitThreadDataOffset
+ms.date: 1/19/2018
+ms.keywords: debugger.idebugcontrol4, IDebugControl4 interface [Windows Debugging], IDebugControl4 interface [Windows Debugging], described, IDebugControl4, dbgeng/IDebugControl4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugControl4,IDebugControl4.GetManagedStatus,IDebugControl4.GetManagedStatusWide,IDebugControl4.ResetManagedStatus
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,138 +26,36 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugControl4
+-	IDebugControl4.GetManagedStatus
+-	IDebugControl4.GetManagedStatusWide
+-	IDebugControl4.ResetManagedStatus
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugControl4 interface
 
 
-
 ## -description
 
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl4</b> interface inherits from <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>. <b>IDebugControl4</b> also has these types of members:
 
-The <b>IDebugControl4</b> interface has these methods.
-
-Creates a new breakpoint for the current target.
-
-Loads an extension library into the debugger engine.
-
-Assembles a single processor instruction.
-
-Calls a debugger extension.
-
-Formats a string and sends the result to output callbacks that were registered with some of the engine's clients.
-
-Formats a string and sends the result to output callbacks that were registered with some of the engine's clients.
-
-Disassembles a processor instruction in the target's memory.
-
-Evaluates an expression, returning the result.
-
-Opens the specified file and executes the debugger commands that are contained within.
-
-Executes the specified debugger commands.
-
-Returns the breakpoint with the specified breakpoint ID.
-
-Returns the breakpoint located at the specified index.
-
-Returns the frames at the top of the call stack, starting with an arbitrary register context and returning the reconstructed register context for each stack frame.
-
-
-Returns the debugger command that the engine will execute when a specified event occurs.
-
-Returns a short description of an event for a specific filter.
-
-Describes the specified event in a static list of events for the current target.
-
-Returns the command that will be executed by the debugger engine upon the second chance of a specified exception.
-
-Returns the full and abbreviated names of an expression syntax.
-
-Returns the handle for an already loaded extension library.
-
-Returns a pointer to an extension function from an extension library.
-
-Returns information about the last event that occurred in a target.
-
-Returns the name of the currently open log file.
-
-Returns the name of the currently open log file.
-
-Returns the name of the currently open log file.
-
-
-
-
-
-Returns the full name and abbreviated name of the specified processor type.
-
- Returns the standard prompt text that will be prepended to the formatted output specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a> methods.
-
-Returns the value of filter argument for the specific filters that have an argument.
-
- Retrieves information about an event of interest available in the current target.
-
-
-Returns a string that describes the target's operating system version.
-(ANSI version)
-
-Returns a string that describes the target's operating system version.
-(Unicode version)
-
-Returns version number information for the current target.
-
-Returns the value of a fixed-name alias.
-
-Returns the value of a user-named alias or an automatic alias.
-
-Requests an input string from the debugger engine.
-
-Opens a log file that will receive output from the <a href="debugger.client_objects#client_objects#client_objects">client objects</a>.
-
-Opens a log file that will receive output from the <a href="debugger.client_objects#client_objects#client_objects">client objects</a>.
-
-Opens a log file that will receive output from the client objects.
-
-Prints the call stack specified by an array of stack frames and corresponding register contexts.
-
-
-Formats and sends a user prompt to the output callback objects.
-
- Formats and sends a user prompt to the output callback objects.
-
-Formats a string and sends the result to the output callbacks that are registered with the engine's clients.
-
- Formats a string and send the result to output callbacks that have been registered with the engine's clients.
-
-Removes a breakpoint.
-
-
-
-This method is used by <a href="..\dbgeng\nn-dbgeng-idebuginputcallbacks.md">IDebugInputCallbacks</a> objects to send an input string to the engine following a request for input.
-
-Sets a debugger command for the engine to execute when a specified event occurs.
-
-Sets the command that will be executed by the debugger engine on the second chance of a specified exception.
-
-Sets the syntax that the engine will use to evaluate expressions.
-
-Sets the value of filter argument for the specific filters that can have an argument.
-
-Sets the value of a fixed-name alias.
-
-Sets the value of a user-named alias.
-
- 
 
 
 ## -members
+
 The <b>IDebugControl4</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -495,7 +391,7 @@ Requests an input string from the debugger engine.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
 </td>
 <td align="left" width="63%">
-Opens a log file that will receive output from the <a href="debugger.client_objects#client_objects#client_objects">client objects</a>.
+Opens a log file that will receive output from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">client objects</a>.
 
 </td>
 </tr>
@@ -504,7 +400,7 @@ Opens a log file that will receive output from the <a href="debugger.client_obje
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553159">OpenLogFile2Wide</a>
 </td>
 <td align="left" width="63%">
-Opens a log file that will receive output from the <a href="debugger.client_objects#client_objects#client_objects">client objects</a>.
+Opens a log file that will receive output from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">client objects</a>.
 
 </td>
 </tr>
@@ -718,9 +614,9 @@ Returns the value of a user-named alias or an automatic alias.
 
 Requests an input string from the debugger engine.
 
-Opens a log file that will receive output from the <a href="debugger.client_objects#client_objects#client_objects">client objects</a>.
+Opens a log file that will receive output from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">client objects</a>.
 
-Opens a log file that will receive output from the <a href="debugger.client_objects#client_objects#client_objects">client objects</a>.
+Opens a log file that will receive output from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">client objects</a>.
 
 Opens a log file that will receive output from the client objects.
 
@@ -756,24 +652,17 @@ Sets the value of a user-named alias.
  
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-</dt>
-<dt>
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-</dt>
-<dt>
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-</dt>
-</dl>
- 
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4 interface%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4 interface%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

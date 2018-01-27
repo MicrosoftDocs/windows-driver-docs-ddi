@@ -7,8 +7,8 @@ old-location: netvista\rilsendmsgresponseparammask_2.htm
 old-project: netvista
 ms.assetid: 09711824-5a7a-4f24-bfe4-b7b146de7bee
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSENDMSGRESPONSEPARAMMASK, RILSENDMSGRESPONSEPARAMMASK
+ms.date: 1/18/2018
+ms.keywords: RIL_PARAM_MSGRES_GWLRELAYCODE, rilapitypes/RIL_PARAM_MSGRES_GWLRELAYCODE, rilapitypes/RIL_PARAM_MSGRES_MSGID, RIL_PARAM_MSGRES_ALL, RIL_PARAM_MSGRES_MSGID, RIL_PARAM_MSGRES_GWLTRANSPORTCODE, rilapitypes/RILSENDMSGRESPONSEPARAMMASK, RILSENDMSGRESPONSEPARAMMASK, RIL_PARAM_MSGRES_CDMACAUSECODE, rilapitypes/RIL_PARAM_MSGRES_ALL, RILSENDMSGRESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_MSGRES_CDMAERRORCLASS, RIL_PARAM_MSGRES_CDMAERRORCLASS, rilapitypes/RIL_PARAM_MSGRES_GWLTRANSPORTCODE, netvista.rilsendmsgresponseparammask_2, rilapitypes/RIL_PARAM_MSGRES_CDMACAUSECODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSENDMSGRESPONSEPARAMMASK
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILSENDMSGRESPONSEPARAMMASK
+product: Windows
+targetos: Windows
 req.typenames: RILSENDMSGRESPONSEPARAMMASK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILSENDMSGRESPONSEPARAMMASK enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILSENDMSGRESPONSEPARAMMASK { 
@@ -60,22 +70,33 @@ typedef enum _RILSENDMSGRESPONSEPARAMMASK {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_PARAM_MSGRES_RETURN
+
+
+
 ### -field RIL_PARAM_MSGRES_CDMACAUSECODE
+
 
 
 ### -field RIL_PARAM_MSGRES_CDMAERRORCLASS
 
 
+
 ### -field RIL_PARAM_MSGRES_GWLTRANSPORTCODE
+
 
 
 ### -field RIL_PARAM_MSGRES_GWLRELAYCODE
 
 
+
 ### -field RIL_PARAM_MSGRES_MSGID
+
 
 
 ### -field RIL_PARAM_MSGRES_ALL
 
 
-## -remarks

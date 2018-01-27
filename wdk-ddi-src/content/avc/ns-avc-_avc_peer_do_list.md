@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5420df9b-35e7-49b4-97dc-a1d61623551c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _AVC_PEER_DO_LIST, *PAVC_PEER_DO_LIST, AVC_PEER_DO_LIST
+ms.keywords: AVC_PEER_DO_LIST, *PAVC_PEER_DO_LIST, AVC_PEER_DO_LIST structure [Streaming Media Devices], PAVC_PEER_DO_LIST structure pointer [Streaming Media Devices], avc/PAVC_PEER_DO_LIST, _AVC_PEER_DO_LIST, avcref_69feff07-d80c-4d5a-a5d8-fe942dfc5e26.xml, PAVC_PEER_DO_LIST, avc/AVC_PEER_DO_LIST, stream.avc_peer_do_list
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AVC_PEER_DO_LIST
-req.alt-loc: avc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PAVC_PEER_DO_LIST, AVC_PEER_DO_LIST
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	avc.h
+apiname: 
+-	AVC_PEER_DO_LIST
+product: Windows
+targetos: Windows
+req.typenames: AVC_PEER_DO_LIST, *PAVC_PEER_DO_LIST
 ---
 
 # _AVC_PEER_DO_LIST structure
 
 
-
 ## -description
+
+
 The AVC_PEER_DO_LIST describes all nonvirtual (peer) instances of <i>avc.sys</i>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _AVC_PEER_DO_LIST {
@@ -54,6 +64,9 @@ typedef struct _AVC_PEER_DO_LIST {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Count
 
@@ -66,6 +79,8 @@ Ignored on input. On output (and if the <b>Count</b> member is not zero) <b>Obje
 
 
 ## -remarks
+
+
 This structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554168">AVC_FUNCTION_PEER_DO_LIST</a> function code.
 
 This structure is used only as a member inside the AVC_MULTIFUNC_IRB structure. It is not used by itself.
@@ -73,18 +88,15 @@ This structure is used only as a member inside the AVC_MULTIFUNC_IRB structure. 
 See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">How to Use Avc.sys</a> For information about building and sending an AV/C command.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
-</dt>
-<dt>
+
 <a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554168">AVC_FUNCTION_PEER_DO_LIST</a>
-</dt>
-</dl>
+
  
 
  

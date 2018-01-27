@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: ec4b8630-500d-494a-9a86-2f9cf9f9227b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _SET_LOCAL_HOST_PROPS2, SET_LOCAL_HOST_PROPS2, *PSET_LOCAL_HOST_PROPS2
+ms.keywords: IEEE.set_local_host_props2, _SET_LOCAL_HOST_PROPS2, 1394/PSET_LOCAL_HOST_PROPS2, SET_LOCAL_HOST_PROPS2, SET_LOCAL_HOST_PROPS2 structure [Buses], PSET_LOCAL_HOST_PROPS2 structure pointer [Buses], 1394stct_e2833905-04e9-4824-a437-4b9f724aaaa4.xml, PSET_LOCAL_HOST_PROPS2, 1394/SET_LOCAL_HOST_PROPS2, *PSET_LOCAL_HOST_PROPS2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SET_LOCAL_HOST_PROPS2
-req.alt-loc: 1394.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: SET_LOCAL_HOST_PROPS2, *PSET_LOCAL_HOST_PROPS2
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1394.h
+apiname: 
+-	SET_LOCAL_HOST_PROPS2
+product: Windows
+targetos: Windows
+req.typenames: *PSET_LOCAL_HOST_PROPS2, SET_LOCAL_HOST_PROPS2
 ---
 
 # _SET_LOCAL_HOST_PROPS2 structure
 
 
-
 ## -description
+
+
 SET_LOCAL_HOST_PROPS2 sets a lower bound on the value the bus will use for its gap count. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SET_LOCAL_HOST_PROPS2 {
@@ -54,21 +64,25 @@ typedef struct _SET_LOCAL_HOST_PROPS2 {
 
 ## -struct-fields
 
+
+
+
 ### -field GapCountLowerBound
 
 Specifies lower bound of the gap count.
 
 
 ## -remarks
+
+
 See the <a href="http://go.microsoft.com/fwlink/p/?linkid=8729">IEEE 1394 Trade Association specification</a> website for a description of the gap count. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537663">REQUEST_SET_LOCAL_HOST_PROPERTIES</a>
-</dt>
-</dl>
+
  
 
  

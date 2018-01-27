@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9107CC24-48FF-4A2C-AA27-1E9E316B7944
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PARENT_HUB_FLAGS, *PPARENT_HUB_FLAGS, PARENT_HUB_FLAGS
+ms.keywords: PARENT_HUB_FLAGS, *PPARENT_HUB_FLAGS, PARENT_HUB_FLAGS union [Buses], _PARENT_HUB_FLAGS, ucxroothub/_PARENT_HUB_FLAGS, buses._parent_hub_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PARENT_HUB_FLAGS
-req.alt-loc: ucxroothub.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ucxroothub.h
+apiname: 
+-	PARENT_HUB_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: *PPARENT_HUB_FLAGS, PARENT_HUB_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _PARENT_HUB_FLAGS structure
 
 
-
 ## -description
+
+
 This structure is used by the <a href="..\ucxroothub\ns-ucxroothub-_hub_info_from_parent.md">HUB_INFO_FROM_PARENT</a> structure to get hub information from the parent.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _PARENT_HUB_FLAGS {
@@ -59,9 +69,22 @@ typedef union _PARENT_HUB_FLAGS {
 
 ## -struct-fields
 
-### -field AsUlong32
 
-The size of structure represented as a LONG (32-bit) value.
+
+
+### -field Flags
+
+ 
+
+
+### -field Flags.DisableLpmForAllDownstreamDevices
+
+ 
+
+
+### -field Flags.HubIsHighSpeedCapable
+
+ 
 
 
 ### -field DisableLpmForAllDownstreamDevices
@@ -74,15 +97,15 @@ Indicates that all devices behind the hub must be disabled.
 Indicates that the hub is high-speed capable.
 
 
-## -remarks
+### -field AsUlong32
+
+The size of structure represented as a LONG (32-bit) value.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxroothub\ns-ucxroothub-_hub_info_from_parent.md">HUB_INFO_FROM_PARENT</a>
-</dt>
-</dl>
+
  
 
  

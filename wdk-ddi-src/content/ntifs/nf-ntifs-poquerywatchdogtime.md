@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4833d4e2-295a-4d38-9ebf-8af68eeff948
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoQueryWatchdogTime
+ms.keywords: PoQueryWatchdogTime, wdm/PoQueryWatchdogTime, portn_1fe369ed-f8f0-4459-943f-a624764c279b.xml, kernel.poquerywatchdogtime, PoQueryWatchdogTime routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 7.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PoQueryWatchdogTime
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	PoQueryWatchdogTime
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # PoQueryWatchdogTime function
 
 
-
 ## -description
+
+
 The <b>PoQueryWatchdogTime</b> routine indicates whether the power manager has enabled a watchdog time-out counter for any power IRP that is currently assigned to the device stack.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN PoQueryWatchdogTime(
@@ -54,6 +64,9 @@ BOOLEAN PoQueryWatchdogTime(
 
 
 ## -parameters
+
+
+
 
 ### -param Pdo [in]
 
@@ -66,10 +79,15 @@ A pointer to a location into which the routine writes the time, in seconds, that
 
 
 ## -returns
+
+
 <b>PoQueryWatchdogTime</b> returns <b>TRUE</b> if a watchdog-enabled power IRP is currently assigned to the device stack. Otherwise, it returns <b>FALSE</b>.
 
 
+
 ## -remarks
+
+
 This routine enables kernel-mode drivers to monitor watchdog time-out counters that the power manager has enabled to keep track of power IRPs that it has issued. If one or more watchdog time-out counters are currently enabled, the routine returns <b>TRUE</b> and provides the amount of time that remains before the next time-out.
 
 For example, a driver that experiences delays when shutting down a device can call this routine to determine how much time remains before the driver must respond to a power IRP to prevent a controlled shutdown (a bug check) of the operating system.
@@ -79,12 +97,11 @@ The power manager sets a watchdog time-out counter when it issues a power IRP to
 If more than one power watchdog time-out is currently enabled, the routine sets *<i>SecondsRemaining</i> to the time that remains to the next time-out.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 91BB915F-E964-41D9-8D2A-3D5EF6F5B398
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPPROPERTY_ALLOCATOR_MDLCACHING, KSPPROPERTY_ALLOCATOR_MDLCACHING
+ms.keywords: KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES, ks/KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES, KSPPROPERTY_ALLOCATOR_MDLCACHING, ks/KSPPROPERTY_ALLOCATOR_MDLCACHING, stream.kspproperty_allocator_mdlcaching, KSPPROPERTY_ALLOCATOR_MDLCACHING enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPPROPERTY_ALLOCATOR_MDLCACHING
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSPPROPERTY_ALLOCATOR_MDLCACHING
+product: Windows
+targetos: Windows
 req.typenames: KSPPROPERTY_ALLOCATOR_MDLCACHING
 ---
 
 # KSPPROPERTY_ALLOCATOR_MDLCACHING enumeration
 
 
-
 ## -description
+
+
 This enumeration is used internally by the operating system.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -54,9 +64,10 @@ typedef enum  {
 
 ## -enum-fields
 
+
+
+
 ### -field KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES
 
 This value is used internally by the operating system.
 
-
-## -remarks

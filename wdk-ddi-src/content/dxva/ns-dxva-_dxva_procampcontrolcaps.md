@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93de54dc-8826-4b1c-acf7-1861f337318a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps, *LPDXVA_ProcAmpControlCaps
+ms.keywords: dxva/LPDXVA_ProcAmpControlCaps, dxvaref_7641df03-ca9f-462a-b6b8-bddd7c8a14b7.xml, DXVA_ProcAmpControlCaps, LPDXVA_ProcAmpControlCaps, dxva/DXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps structure [Display Devices], LPDXVA_ProcAmpControlCaps structure pointer [Display Devices], *LPDXVA_ProcAmpControlCaps, display.dxva_procampcontrolcaps, _DXVA_ProcAmpControlCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: DirectX 9.0 and later versions only.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVA_ProcAmpControlCaps
-req.alt-loc: dxva.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DXVA_ProcAmpControlCaps, *LPDXVA_ProcAmpControlCaps
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxva.h
+apiname: 
+-	DXVA_ProcAmpControlCaps
+product: Windows
+targetos: Windows
+req.typenames: *LPDXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps
 ---
 
 # _DXVA_ProcAmpControlCaps structure
 
 
-
 ## -description
+
+
 The DXVA_ProcAmpControlCaps structure identifies the ProcAmp operations that the hardware supports.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVA_ProcAmpControlCaps {
@@ -58,6 +68,9 @@ typedef struct _DXVA_ProcAmpControlCaps {
 
 ## -struct-fields
 
+
+
+
 ### -field Size
 
 Specifies the size of this structure in bytes.
@@ -70,13 +83,12 @@ Indicates the memory pool from which the ProcAmp control source surfaces should 
 
 ### -field d3dOutputFormat
 
-Indicates the Direct3D surface format of the output frames. Usually the ProcAmp device outputs frames in a surface format that matches the input surface format. This member ensures that the <a href="wdkgloss.v#wdkgloss.video_mixer_renderer__vmr_#wdkgloss.video_mixer_renderer__vmr_"><i>VMR</i></a> or other video renderer is able to supply the correct format for the output frame surfaces to the ProcAmp control hardware. If the <b>DXVA_VideoProcess_YUV2RGB</b> flag is returned in the <a href="..\dxva\ne-dxva-_dxva_videoprocesscaps.md">DXVA_VideoProcessCaps</a> structure, the VMR assumes that valid output formats are specified by this member as well as the RGB32 format.
+Indicates the Direct3D surface format of the output frames. Usually the ProcAmp device outputs frames in a surface format that matches the input surface format. This member ensures that the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VMR</a> or other video renderer is able to supply the correct format for the output frame surfaces to the ProcAmp control hardware. If the <b>DXVA_VideoProcess_YUV2RGB</b> flag is returned in the <a href="..\dxva\ne-dxva-_dxva_videoprocesscaps.md">DXVA_VideoProcessCaps</a> structure, the VMR assumes that valid output formats are specified by this member as well as the RGB32 format.
 
 
 ### -field ProcAmpControlProps
 
 Identifies the ProcAmp operations that the hardware supports. The driver should return a logical combination of the following ProcAmp operations.
-
 <table>
 <tr>
 <th>Value</th>
@@ -132,14 +144,12 @@ Saturation adjustments to the video image are allowed.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field VideoProcessingCaps
 
 Identifies the operations that can be performed by the ProcAmp control hardware concurrently with the requested ProcAmp adjustment. The driver should return a logical combination of one of the following ProcAmp operations.
-
 <table>
 <tr>
 <th>Value</th>
@@ -195,22 +205,15 @@ Indicates that the VMR will not perform a buffer copy when an alpha value is cha
 
 </td>
 </tr>
-</table>
- 
-
-
-## -remarks
+</table> 
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dxva\ne-dxva-_dxva_videoprocesscaps.md">DXVA_VideoProcessCaps</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ne-dxva-_dxva_procampcontrolprop.md">DXVA_ProcAmpControlProp</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a3b68f6f-d482-4350-a5b8-9fe6afdefb69
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_COINSTALLER_INSTALL_OPTIONS, *PWDF_COINSTALLER_INSTALL_OPTIONS, WDF_COINSTALLER_INSTALL_OPTIONS
+ms.keywords: wdf.wdfinterruptreleaselock, PFN_WDFINTERRUPTRELEASELOCK, WdfInterruptReleaseLock callback function, WdfInterruptReleaseLock, wdfinterrupt/WdfInterruptReleaseLock, DFInterruptObjectRef_70637f8b-a7d9-4637-b02c-1ebed3e363c7.xml, kmdf.wdfinterruptreleaselock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WdfInterruptReleaseLock
-req.alt-loc: wdfinterrupt.h
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2, WdfInterruptLock, WdfInterruptLockRelease
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	wdfinterrupt.h
+apiname: 
+-	WdfInterruptReleaseLock
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_COINSTALLER_INSTALL_OPTIONS, WDF_COINSTALLER_INSTALL_OPTIONS
 req.product: Windows 10 or later.
 ---
@@ -38,8 +47,9 @@ req.product: Windows 10 or later.
 # PFN_WDFINTERRUPTRELEASELOCK callback
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfInterruptReleaseLock</b> method ends a code sequence that executes at the device's DIRQL while holding an interrupt object's spin lock. 
@@ -47,8 +57,8 @@ The <b>WdfInterruptReleaseLock</b> method ends a code sequence that executes at 
 For passive level interrupt objects, the method ends a code sequence that executes at passive level while holding an interrupt object's passive lock.
 
 
-
 ## -prototype
+
 
 ````
 VOID WdfInterruptReleaseLock(
@@ -59,12 +69,28 @@ VOID WdfInterruptReleaseLock(
 
 ## -parameters
 
-### -param Interrupt [in]
+
+
+
+### -param DriverGlobals
+
+
+
+### -param WDFINTERRUPT
+
+
+
+
+
+
+#### - Interrupt [in]
 
 A handle to a framework interrupt object.
 
 
 ## -returns
+
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -72,7 +98,10 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
+
 The <b>WdfInterruptReleaseLock</b> method releases the specified interrupt object's spin lock or wait lock and returns the processor's IRQL to the level that it was set to before the driver called <a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a>.
 
 Your driver cannot call <b>WdfInterruptReleaseLock</b> before the framework has called the driver's <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_enable.md">EvtInterruptEnable</a> callback function or after the framework has called the driver's <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_disable.md">EvtInterruptDisable</a> callback function.
@@ -85,24 +114,18 @@ This method must be called at the DIRQL that was set by <a href="https://msdn.mi
 
 For passive level interrupts, the driver must call <b>WdfInterruptReleaseLock</b> at IRQL = PASSIVE_LEVEL.
 
-For a code example that uses <b>WdfInterruptReleaseLock</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a>.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a>
-</dt>
-<dt>
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsynchronize.md">WdfInterruptSynchronize</a>
-</dt>
-<dt>
+
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_disable.md">EvtInterruptDisable</a>
-</dt>
-<dt>
+
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_enable.md">EvtInterruptEnable</a>
-</dt>
-</dl>
+
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsynchronize.md">WdfInterruptSynchronize</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c4a5eb8-d364-4e5d-9d2f-2605c8c34f63
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: *PPOWER_ACTION, *PPOWER_ACTION, POWER_ACTION
+ms.keywords: umdf.power_action, PPOWER_ACTION enumeration pointer, PowerActionShutdownReset, wudfddi/PowerActionNone, wudfddi/PowerActionReserved, PowerActionWarmEject, wdf.power_action, wudfddi/PowerActionHibernate, PowerActionSleep, wudfddi/PowerActionWarmEject, wudfddi/PowerActionSleep, PowerActionReserved, wudfddi/POWER_ACTION, wudfddi/PowerActionShutdownOff, PowerActionShutdownOff, PowerActionNone, POWER_ACTION enumeration, wudfddi/PowerActionShutdownReset, PPOWER_ACTION, wudfddi/PPOWER_ACTION, umdfstructs_02db2a83-1907-4aa2-9cdd-af3477e78ddd.xml, *PPOWER_ACTION, PowerActionShutdown, PowerActionHibernate, POWER_ACTION, wudfddi/PowerActionShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.9
-req.alt-api: POWER_ACTION
-req.alt-loc: Wudfddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wudfddi.h
+apiname: 
+-	POWER_ACTION
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 ---
 
 # *PPOWER_ACTION enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>POWER_ACTION</b> enumeration identifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564553">system power actions</a> that can occur on a computer.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -62,6 +72,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field PowerActionNone
 
@@ -103,16 +116,22 @@ The computer is entering its shutdown (S5) state. After all devices have entered
 The computer is being ejected from an ACPI-compatible dock device. Typically, the computer's power state does not change.
 
 
+### -field PowerActionDisplayOff
+
+
+
+
 ## -remarks
+
+
 The <b>POWER_ACTION</b> enumeration is used as the return value for <a href="https://msdn.microsoft.com/library/windows/hardware/ff556936">IWDFDevice2::GetSystemPowerAction</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556936">IWDFDevice2::GetSystemPowerAction</a>
-</dt>
-</dl>
+
  
 
  

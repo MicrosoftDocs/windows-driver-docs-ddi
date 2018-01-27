@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: de2d5e08-1c8f-4c67-91e0-db7552b0b883
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_CONTENT_PROTECTION_CAPS, D3D11_1DDI_CONTENT_PROTECTION_CAPS
+ms.keywords: d3d10umddi/D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECTED_MEMORY_TRANSITION, D3D11_1DDI_CONTENT_PROTECTION_CAPS enumeration [Display Devices], d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_SEQUENTIAL_CTR_IV, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_CONTENT_KEY, D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECTED_MEMORY_PAGEABLE, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK_KEY, d3d10umddi/, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_PARTIAL_DECRYPTION, D3D11_1DDI_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK, D3D11_1DDI_CONTENT_PROTECTION_CAPS_HARDWARE, D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_TEARDOWN, D3D11_1DDI_CONTENT_PROTECTION_CAPS, display.d3d11_1ddi_content_protection_caps, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_ENCRYPT_SLICEDATA_ONLY, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_FRESHEN_SESSION_KEY, d3d10umddi/D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECTED_MEMORY_PAGEABLE, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_HARDWARE, D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_DRM_COMMUNICATION, D3D11_1DDI_CONTENT_PROTECTION_CAPS_SOFTWARE, D3D11_1DDI_CONTENT_PROTECTION_CAPS_PROTECTION_ALWAYS_ON, d3d10umddi/D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_TEARDOWN, D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECT_UNCOMPRESSED, D3D11_1DDI_CONTENT_PROTECTION_CAPS_FRESHEN_SESSION_KEY, d3d10umddi/D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_DRM_COMMUNICATION, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_DECRYPTION_BLT, D3D11_1DDI_CONTENT_PROTECTION_CAPS_PARTIAL_DECRYPTION, D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECTED_MEMORY_TRANSITION, D3D11_1DDI_CONTENT_PROTECTION_CAPS_CONTENT_KEY, D3D11_1DDI_CONTENT_PROTECTION_CAPS_SEQUENTIAL_CTR_IV, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK, D3D11_1DDI_CONTENT_PROTECTION_CAPS_ENCRYPT_SLICEDATA_ONLY, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_SOFTWARE, D3D11_1DDI_CONTENT_PROTECTION_CAPS_DECRYPTION_BLT, D3D11_1DDI_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK_KEY, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_PROTECTION_ALWAYS_ON, d3d10umddi/D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECT_UNCOMPRESSED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDI_CONTENT_PROTECTION_CAPS
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDI_CONTENT_PROTECTION_CAPS
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_CONTENT_PROTECTION_CAPS
 ---
 
 # D3D11_1DDI_CONTENT_PROTECTION_CAPS enumeration
 
 
-
 ## -description
+
+
 Describes content-protection capabilities.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D11_1DDI_CONTENT_PROTECTION_CAPS { 
@@ -71,6 +81,9 @@ typedef enum D3D11_1DDI_CONTENT_PROTECTION_CAPS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D11_1DDI_CONTENT_PROTECTION_CAPS_SOFTWARE
 
@@ -130,12 +143,10 @@ The driver supports calls to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1
 ### -field D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECT_UNCOMPRESSED
 
 The hardware supports the protection of specific resources using the WDDM 2.0 and later versions of the Graphics Content Protection DDI. This protection means:
-
 <ul>
 <li>The contents of a protected allocation can never be read by the CPU.</li>
 <li>The hardware can ensure that a protected resource cannot be copied to an unprotected resource.</li>
-</ul>
-Supported starting with Windows 10.
+</ul>Supported starting with Windows 10.
 
 
 ### -field D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECTED_MEMORY_PAGEABLE
@@ -166,27 +177,19 @@ The secure environment is tightly coupled with the GPU and an <b>ID3D11CryptoSes
 Supported starting with Windows 10.
 
 
-### -field 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md">D3D11_1DDI_AES_CTR_IV</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_decryptionblt.md">DecryptionBlt(D3D11_1)</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_encryptionblt.md">EncryptionBlt(D3D11_1)</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_sethardwareprotection.md">SetHardwareProtection</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_decryptionblt.md">DecryptionBlt(D3D11_1)</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md">D3D11_1DDI_AES_CTR_IV</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_encryptionblt.md">EncryptionBlt(D3D11_1)</a>
+
  
 
  

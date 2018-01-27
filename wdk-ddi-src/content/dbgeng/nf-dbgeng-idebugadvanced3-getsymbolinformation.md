@@ -7,8 +7,8 @@ old-location: debugger\getsymbolinformation.htm
 old-project: debugger
 ms.assetid: 1866c6ad-57a2-4f3d-a2c8-f5748ecf42bc
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugAdvanced3, IDebugAdvanced3::GetSymbolInformation, GetSymbolInformation
+ms.date: 1/19/2018
+ms.keywords: GetSymbolInformation, IDebugAdvanced2::GetSymbolInformation, IDebugAdvanced_353e07f5-e506-4d5f-8c64-d3f500ff283f.xml, dbgeng/IDebugAdvanced2::GetSymbolInformation, IDebugAdvanced3, IDebugAdvanced2 interface [Windows Debugging], GetSymbolInformation method, IDebugAdvanced3::GetSymbolInformation, GetSymbolInformation method [Windows Debugging], IDebugAdvanced3 interface, dbgeng/IDebugAdvanced3::GetSymbolInformation, GetSymbolInformation method [Windows Debugging], debugger.getsymbolinformation, IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformation method, GetSymbolInformation method [Windows Debugging], IDebugAdvanced2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugAdvanced2.GetSymbolInformation,IDebugAdvanced3.GetSymbolInformation
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugAdvanced2.GetSymbolInformation
+-	IDebugAdvanced3.GetSymbolInformation
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugAdvanced3::GetSymbolInformation method
 
 
-
 ## -description
+
+
 The <b>GetSymbolInformation</b> method returns specified information about a symbol.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT GetSymbolInformation(
@@ -62,10 +73,12 @@ HRESULT GetSymbolInformation(
 
 ## -parameters
 
+
+
+
 ### -param Which [in]
 
 Specifies the piece of information to return.  <i>Which</i> can take one of the values in the follow table.
-
 <table>
 <tr>
 <th>Value</th>
@@ -113,8 +126,7 @@ Returns a list of symbol names and offsets for the symbols in the specified modu
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Arg64 [in]
@@ -124,56 +136,12 @@ Specifies a 64-bit argument.  This parameter has the following interpretations d
 
 
 
-### -param DEBUG_SYMINFO_BREAKPOINT_SOURCE_LINE
-
-Ignored.
-
-
-### -param DEBUG_SYMINFO_IMAGEHLP_MODULEW64
-
-The base address of the module whose description is being requested.
-
-
-### -param DEBUG_SYMINFO_GET_SYMBOL_NAME_BY_OFFSET_AND_TAG_WIDE
-
-Specifies the address in the target's memory of the symbol whose name is being requested.
-
-
-### -param DEBUG_SYMINFO_GET_MODULE_SYMBOL_NAMES_AND_OFFSETS
-
-Specifies the module whose symbols are requested.  <i>Arg64</i> is a location within the memory allocation of the module.
-
-</dd>
-</dl>
-
 ### -param Arg32 [in]
 
 Specifies a 32-bit argument.  This parameter has the following interpretations depending on the value of <i>Which</i>:
 
 
 
-
-### -param DEBUG_SYMINFO_BREAKPOINT_SOURCE_LINE
-
-The engine breakpoint ID of the desired breakpoint.
-
-
-### -param DEBUG_SYMINFO_IMAGEHLP_MODULEW64
-
-Set to zero.
-
-
-### -param DEBUG_SYMINFO_GET_SYMBOL_NAME_BY_OFFSET_AND_TAG_WIDE
-
-The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in the <b>SymTagEnum</b> enumeration defined in Dbghelp.h.  For more information, see PDB documentation.
-
-
-### -param DEBUG_SYMINFO_GET_MODULE_SYMBOL_NAMES_AND_OFFSETS
-
-The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in the <b>SymTagEnum</b> enumeration defined in Dbghelp.h.  For more information, see PDB documentation.
-
-</dd>
-</dl>
 
 ### -param Buffer [out, optional]
 
@@ -205,16 +173,77 @@ Specifies the size, in characters, of the string buffer <i>StringBuffer</i>.
 Receives the size, in characters, of the string returned to <i>StringBuffer</i>.  If <i>StringSize</i> is <b>NULL</b>, this information is not returned.
 
 
+##### - Arg64.DEBUG_SYMINFO_IMAGEHLP_MODULEW64
+
+The base address of the module whose description is being requested.
+
+
+##### - Arg64.DEBUG_SYMINFO_GET_MODULE_SYMBOL_NAMES_AND_OFFSETS
+
+Specifies the module whose symbols are requested.  <i>Arg64</i> is a location within the memory allocation of the module.
+
+
+##### - Arg64.DEBUG_SYMINFO_GET_SYMBOL_NAME_BY_OFFSET_AND_TAG_WIDE
+
+Specifies the address in the target's memory of the symbol whose name is being requested.
+
+
+##### - Arg32.DEBUG_SYMINFO_BREAKPOINT_SOURCE_LINE
+
+The engine breakpoint ID of the desired breakpoint.
+
+
+##### - Arg32.DEBUG_SYMINFO_GET_MODULE_SYMBOL_NAMES_AND_OFFSETS
+
+The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in the <b>SymTagEnum</b> enumeration defined in Dbghelp.h.  For more information, see PDB documentation.
+
+
+##### - Arg32.DEBUG_SYMINFO_GET_SYMBOL_NAME_BY_OFFSET_AND_TAG_WIDE
+
+The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in the <b>SymTagEnum</b> enumeration defined in Dbghelp.h.  For more information, see PDB documentation.
+
+
+##### - Arg64.DEBUG_SYMINFO_BREAKPOINT_SOURCE_LINE
+
+Ignored.
+
+
+##### - Arg32.DEBUG_SYMINFO_IMAGEHLP_MODULEW64
+
+Set to zero.
+
+
 ## -returns
+
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method was successful.
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_FALSE</b></dt>
-</dl>The method was successful. However, the information would not fit in the buffer <i>Buffer</i> or the string would not fit in the buffer <i>StringBuffer</i>, so the information or name was truncated.
+</dl>
+</td>
+<td width="60%">
+The method was successful. However, the information would not fit in the buffer <i>Buffer</i> or the string would not fit in the buffer <i>StringBuffer</i>, so the information or name was truncated.
 
- 
+</td>
+</tr>
+</table> 
 
 
-## -remarks

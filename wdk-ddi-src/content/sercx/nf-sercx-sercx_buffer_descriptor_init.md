@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 73C7C38A-F6E1-4276-A66A-0C16BC6E8F1C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERCX_BUFFER_DESCRIPTOR_INIT
+ms.keywords: SERCX_BUFFER_DESCRIPTOR_INIT, 1/SERCX_BUFFER_DESCRIPTOR_INIT, SERCX_BUFFER_DESCRIPTOR_INIT function [Serial Ports], serports.sercx_buffer_descriptor_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SERCX_BUFFER_DESCRIPTOR_INIT
-req.alt-loc: 1.0\Sercx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any IRQL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1.0\Sercx.h
+apiname: 
+-	SERCX_BUFFER_DESCRIPTOR_INIT
+product: Windows
+targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SERCX_BUFFER_DESCRIPTOR_INIT function
 
 
-
 ## -description
+
+
 The <b>SERCX_BUFFER_DESCRIPTOR_INIT</b> function initializes a <a href="..\sercx\ns-sercx-sercx_buffer_descriptor.md">SERCX_BUFFER_DESCRIPTOR</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 VOID SERCX_BUFFER_DESCRIPTOR_INIT(
@@ -55,24 +65,25 @@ VOID SERCX_BUFFER_DESCRIPTOR_INIT(
 
 ## -parameters
 
+
+
+
 ### -param Descriptor [out]
 
 A pointer to the <b>SERCX_BUFFER_DESCRIPTOR</b> structure that is to be initialized.
 
 
 ## -returns
+
+
 None.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\sercx\ns-sercx-sercx_buffer_descriptor.md">SERCX_BUFFER_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

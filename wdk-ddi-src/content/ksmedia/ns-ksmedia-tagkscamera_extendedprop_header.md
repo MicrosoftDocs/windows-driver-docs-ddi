@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2CE89C1E-8FE8-4304-BD3F-5A926CAC74B4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKSCAMERA_EXTENDEDPROP_HEADER, *PKSCAMERA_EXTENDEDPROP_HEADER, KSCAMERA_EXTENDEDPROP_HEADER
+ms.keywords: KSCAMERA_EXTENDEDPROP_HEADER structure [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_CAPS_CANCELLABLE, ksmedia/KSCAMERA_EXTENDEDPROP_HEADER, PKSCAMERA_EXTENDEDPROP_HEADER, PKSCAMERA_EXTENDEDPROP_HEADER structure pointer [Streaming Media Devices], ksmedia/PKSCAMERA_EXTENDEDPROP_HEADER, *PKSCAMERA_EXTENDEDPROP_HEADER, KSCAMERA_EXTENDEDPROP_CAPS_ASYNCCONTROL, KSCAMERA_EXTENDEDPROP_HEADER, stream.kscamera_extendedprop_header, tagKSCAMERA_EXTENDEDPROP_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSCAMERA_EXTENDEDPROP_HEADER
-req.alt-loc: Ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ksmedia.h
+apiname: 
+-	KSCAMERA_EXTENDEDPROP_HEADER
+product: Windows
+targetos: Windows
 req.typenames: *PKSCAMERA_EXTENDEDPROP_HEADER, KSCAMERA_EXTENDEDPROP_HEADER
 ---
 
 # tagKSCAMERA_EXTENDEDPROP_HEADER structure
 
 
-
 ## -description
+
+
 The <b>KSCAMERA_EXTENDEDPROP_HEADER</b> structure is the payload header for an extend control property.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _KSCAMERA_EXTENDEDPROP_HEADER {
@@ -58,6 +68,9 @@ typedef struct _KSCAMERA_EXTENDEDPROP_HEADER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -89,16 +102,15 @@ The high order bit of the <b>Flags</b> value is reserved.  This bit serves as th
 ### -field Capability
 
 This member is read only and indicates the standard capabilities of the control. The following capabilities are defined.
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field KSCAMERA_EXTENDEDPROP_CAPS_ASYNCCONTROL
-
+<td width="40%"><a id="KSCAMERA_EXTENDEDPROP_CAPS_ASYNCCONTROL"></a><a id="kscamera_extendedprop_caps_asynccontrol"></a><dl>
+<dt><b>KSCAMERA_EXTENDEDPROP_CAPS_ASYNCCONTROL</b></dt>
+</dl>
 </td>
 <td width="60%">
 The control supports asynchronous operation.
@@ -106,28 +118,22 @@ The control supports asynchronous operation.
 </td>
 </tr>
 <tr>
-
-### -field KSCAMERA_EXTENDEDPROP_CAPS_CANCELLABLE
-
+<td width="40%"><a id="KSCAMERA_EXTENDEDPROP_CAPS_CANCELLABLE"></a><a id="kscamera_extendedprop_caps_cancellable"></a><dl>
+<dt><b>KSCAMERA_EXTENDEDPROP_CAPS_CANCELLABLE</b></dt>
+</dl>
 </td>
 <td width="60%">
 Applies only to asynchronous controls. This flag marks the control operation as cancellable. If a synchronous control sets this flag, it is be marked as being invalid and is not exposed to higher level applications.
 
 </td>
 </tr>
-</table>
- 
-
-
-## -remarks
+</table> 
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-tagkscamera_extendedprop_value.md">KSCAMERA_EXTENDEDPROP_VALUE</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 72b8aad8-39e1-4624-ac77-13eb52036b3b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltProcessFileLock
+ms.keywords: FltProcessFileLock routine [Installable File System Drivers], fltkernel/FltProcessFileLock, FltProcessFileLock, FltApiRef_p_to_z_e4ff8145-c586-4c3c-acfa-d4c22f48a5d2.xml, ifsk.fltprocessfilelock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with  Windows XP with SP2 or Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltProcessFileLock
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltProcessFileLock
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltProcessFileLock function
 
 
-
 ## -description
+
+
 The <b>FltProcessFileLock</b> routine processes and completes a file lock operation.
 
 
-
 ## -syntax
+
 
 ````
 FLT_PREOP_CALLBACK_STATUS FltProcessFileLock(
@@ -55,6 +65,9 @@ FLT_PREOP_CALLBACK_STATUS FltProcessFileLock(
 
 
 ## -parameters
+
+
+
 
 ### -param FileLock [in]
 
@@ -72,21 +85,54 @@ Context pointer to be used when completing the operation. This context pointer i
 
 
 ## -returns
+
+
 <b>FltProcessFileLock</b> returns one of the following. 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>FLT_PREOP_COMPLETE</b></dt>
-</dl>The Filter Manager is done with the <i>CallbackData</i>, which can now be completed. 
+</dl>
+</td>
+<td width="60%">
+The Filter Manager is done with the <i>CallbackData</i>, which can now be completed. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>FLT_PREOP_DISALLOW_FASTIO</b></dt>
-</dl>The <i>CallbackData</i> represents a fast I/O operation, and a minifilter driver in the stack has disallowed the fast I/O to be used for this operation. The Filter Manager does not send the operation to any minifilter drivers below the one that disallowed the operation. In this case, the Filter Manager only calls the postoperation callback routines (and <i>CompleteLockCallbackDataRoutine</i> callbacks) of the minifilter drivers above the minifilter driver that disallowed the fast I/O operation. 
+</dl>
+</td>
+<td width="60%">
+The <i>CallbackData</i> represents a fast I/O operation, and a minifilter driver in the stack has disallowed the fast I/O to be used for this operation. The Filter Manager does not send the operation to any minifilter drivers below the one that disallowed the operation. In this case, the Filter Manager only calls the postoperation callback routines (and <i>CompleteLockCallbackDataRoutine</i> callbacks) of the minifilter drivers above the minifilter driver that disallowed the fast I/O operation. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>FLT_PREOP_PENDING</b></dt>
-</dl>The lock operation has been pended. 
+</dl>
+</td>
+<td width="60%">
+The lock operation has been pended. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>FltProcessFileLock</b> processes a file lock (<a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a>) operation. The lock operation can be a fast I/O or IRP-based operation. 
 
 For unlock operations, the Filter Manager calls the <i>UnlockRoutine</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551951">PUNLOCK_ROUTINE</a>) callback routine that the caller registered for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540328">FILE_LOCK</a> structure in a previous call to <a href="..\fltkernel\nf-fltkernel-fltallocatefilelock.md">FltAllocateFileLock</a>. 
@@ -103,48 +149,35 @@ To free an initialized<a href="https://msdn.microsoft.com/library/windows/hardwa
 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540328">FILE_LOCK</a>
-</dt>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544645">FLT_IS_FASTIO_OPERATION</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltallocatefilelock.md">FltAllocateFileLock</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltchecklockforreadaccess.md">FltCheckLockForReadAccess</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltchecklockforwriteaccess.md">FltCheckLockForWriteAccess</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltfreefilelock.md">FltFreeFileLock</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltinitializefilelock.md">FltInitializeFileLock</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltuninitializefilelock.md">FltUninitializeFileLock</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlprocessfilelock~r2.md">FsRtlProcessFileLock</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatefilelock.md">FltAllocateFileLock</a>
+
 <a href="..\fltkernel\nc-fltkernel-pflt_complete_lock_callback_data_routine.md">PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551951">PUNLOCK_ROUTINE</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltchecklockforwriteaccess.md">FltCheckLockForWriteAccess</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltchecklockforreadaccess.md">FltCheckLockForReadAccess</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltuninitializefilelock.md">FltUninitializeFileLock</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltfreefilelock.md">FltFreeFileLock</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544645">FLT_IS_FASTIO_OPERATION</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlprocessfilelock~r2.md">FsRtlProcessFileLock</a>
+
  
 
  

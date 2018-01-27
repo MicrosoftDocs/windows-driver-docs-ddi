@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ead50a69-fe33-4e6c-84f9-98491d188140
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinReleaseControl
+ms.keywords: avfunc_24f35b7d-4ecc-4a64-8b78-9972ba7bab5c.xml, KsPinReleaseControl, stream.kspinreleasecontrol, ks/KsPinReleaseControl, KsPinReleaseControl function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsPinReleaseControl
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KsPinReleaseControl
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsPinReleaseControl function
 
 
-
 ## -description
+
+
 The<b> KsPinReleaseControl </b>function releases the control mutex for the AVStream pin specified by <i>Pin</i>.
 
 
-
 ## -syntax
+
 
 ````
 void __inline KsPinReleaseControl(
@@ -54,33 +64,38 @@ void __inline KsPinReleaseControl(
 
 ## -parameters
 
+
+
+
 ### -param Pin [in]
 
 A pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure representing the pin for which to release the control mutex.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The pin control mutex is the same mutex that is used by <i>Pin</i>'s parent. In other words, the pin control mutex <i>is</i> the filter control mutex of <i>Pin</i>'s parent. For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.
 
 Note that this function is an inline call to <a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>. Minidrivers manipulating a pin should call this function instead of calling <b>KsReleaseControl</b> directly. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
+
  
 
  

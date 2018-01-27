@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ffc7c1ec-faec-4383-ab69-844cf68d054f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PSTOR_POWER_ACTION, *PSTOR_POWER_ACTION, STOR_POWER_ACTION
+ms.keywords: storport/StorPowerActionReserved, StorPowerActionShutdownOff, storport/StorPowerActionSleep, StorPowerActionWarmEject, storage.stor_power_action, structs-storport_53754a67-bd34-4f06-92ba-2f45d7fa66a9.xml, StorPowerActionShutdown, StorPowerActionNone, StorPowerActionShutdownReset, STOR_POWER_ACTION enumeration [Storage Devices], storport/StorPowerActionNone, StorPowerActionReserved, StorPowerActionSleep, storport/StorPowerActionHibernate, PSTOR_POWER_ACTION, *PSTOR_POWER_ACTION, PSTOR_POWER_ACTION enumeration pointer [Storage Devices], storport/PSTOR_POWER_ACTION, STOR_POWER_ACTION, storport/StorPowerActionShutdown, StorPowerActionHibernate, storport/STOR_POWER_ACTION, storport/StorPowerActionShutdownReset, storport/StorPowerActionWarmEject, storport/StorPowerActionShutdownOff
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STOR_POWER_ACTION
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSTOR_POWER_ACTION, STOR_POWER_ACTION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	STOR_POWER_ACTION
+product: Windows
+targetos: Windows
+req.typenames: STOR_POWER_ACTION, *PSTOR_POWER_ACTION
 req.product: Windows 10 or later.
 ---
 
 # *PSTOR_POWER_ACTION enumeration
 
 
-
 ## -description
+
+
 The STOR_POWER_ACTION enumerator indicates the power state that the system is about to enter during a power transition. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -61,6 +71,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field StorPowerActionNone
 
@@ -102,15 +115,10 @@ The system is shutting down and powering off.
 The system is preparing for ejection.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\ns-storport-_scsi_power_request_block.md">SCSI_POWER_REQUEST_BLOCK</a>
-</dt>
-</dl>
+
  
 
  

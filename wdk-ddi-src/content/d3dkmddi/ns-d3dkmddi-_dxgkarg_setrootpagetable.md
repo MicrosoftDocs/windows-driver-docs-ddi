@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D3863924-29EE-4886-B8DC-F9020A7C85A4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_SETROOTPAGETABLE, DXGKARG_SETROOTPAGETABLE
+ms.keywords: d3dkmddi/DXGKARG_SETROOTPAGETABLE, _DXGKARG_SETROOTPAGETABLE, DXGKARG_SETROOTPAGETABLE, DXGKARG_SETROOTPAGETABLE structure [Display Devices], display.dxgkarg_setrootpagetable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_SETROOTPAGETABLE
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_SETROOTPAGETABLE
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_SETROOTPAGETABLE
 ---
 
 # _DXGKARG_SETROOTPAGETABLE structure
 
 
-
 ## -description
+
+
 <b>DXGKARG_SETROOTPAGETABLE</b> is used by the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setrootpagetable.md">DxgkDdiSetRootPageTable</a>device driver interface (DDI) to notify a context when its associated root page table is resized or moved in memory.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_SETROOTPAGETABLE {
@@ -55,6 +65,9 @@ typedef struct _DXGKARG_SETROOTPAGETABLE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hContext
 
@@ -71,18 +84,12 @@ The GPU physical address of the root page table.
  The root page table size in entries. GPU should generate invalid fault when a virtual address has a top level page table entry index, which is greater or equal this value.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setrootpagetable.md">DxgkDdiSetRootPageTable</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
-</dt>
-</dl>
+
  
 
  

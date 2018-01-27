@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c8b13348-71a6-4981-8c99-6368fa0f01ff
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_UNORDEREDPRESENTSWAPCHAIN, D3DKMT_UNORDEREDPRESENTSWAPCHAIN
+ms.keywords: D3DKMT_UNORDEREDPRESENTSWAPCHAIN, _D3DKMT_UNORDEREDPRESENTSWAPCHAIN, d3dkmthk/D3DKMT_UNORDEREDPRESENTSWAPCHAIN, D3DKMT_UNORDEREDPRESENTSWAPCHAIN structure [Display Devices], display.d3dkmt-unorderedpresentswapchain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_UNORDEREDPRESENTSWAPCHAIN
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_UNORDEREDPRESENTSWAPCHAIN
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_UNORDEREDPRESENTSWAPCHAIN
 ---
 
 # _D3DKMT_UNORDEREDPRESENTSWAPCHAIN structure
 
 
-
 ## -description
+
+
 Used to store information about the swapchain being presented.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_UNORDEREDPRESENTSWAPCHAIN {
@@ -57,6 +67,9 @@ typedef struct _D3DKMT_UNORDEREDPRESENTSWAPCHAIN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hNtSwapChain
 
@@ -82,5 +95,3 @@ Size of the metadata.
 
 A pointer to the metadata for the frame.
 
-
-## -remarks

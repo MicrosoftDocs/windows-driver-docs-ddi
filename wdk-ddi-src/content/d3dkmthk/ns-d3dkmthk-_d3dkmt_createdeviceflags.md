@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 90d4ce0a-1f36-4f2e-bdbe-5f80c8dfb92a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_CREATEDEVICEFLAGS, D3DKMT_CREATEDEVICEFLAGS
+ms.keywords: D3DKMT_CREATEDEVICEFLAGS structure [Display Devices], display.d3dkmt_createdeviceflags, _D3DKMT_CREATEDEVICEFLAGS, OpenGL_Structs_7cb495c3-44aa-46cb-8bca-87b66c5d422f.xml, d3dkmthk/D3DKMT_CREATEDEVICEFLAGS, D3DKMT_CREATEDEVICEFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_CREATEDEVICEFLAGS
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_CREATEDEVICEFLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_CREATEDEVICEFLAGS
 ---
 
 # _D3DKMT_CREATEDEVICEFLAGS structure
 
 
-
 ## -description
+
+
 The D3DKMT_CREATEDEVICEFLAGS structure identifies the type of device context to be created in a call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_CREATEDEVICEFLAGS {
@@ -60,6 +70,9 @@ typedef struct _D3DKMT_CREATEDEVICEFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field LegacyMode
 
@@ -88,21 +101,13 @@ Setting this member is equivalent to setting the second bit of a 32-bit value (0
 
 This member is reserved and should be set to zero. Setting this member is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of a 32-bit value to zeros.
 
-
-### -field Reserved
-
 This member is reserved and should be set to zero. Setting this member is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of a 32-bit value to zeros.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createdevice.md">D3DKMT_CREATEDEVICE</a>
-</dt>
-</dl>
+
  
 
  

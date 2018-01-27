@@ -7,8 +7,8 @@ old-location: netvista\fwps_fields_rpc_proxy_if_if.htm
 old-project: netvista
 ms.assetid: 60389be9-8cda-40cf-b02a-c13a2d17091f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: FWPS_FIELDS_RPC_PROXY_IF_, FWPS_FIELDS_RPC_PROXY_IF_IF
+ms.date: 1/18/2018
+ms.keywords: FWPS_FIELD_RPC_PROXY_IF_SERVER_NAME, FWPS_FIELD_RPC_PROXY_IF_CLIENT_TOKEN, FWPS_FIELD_RPC_PROXY_IF_IF_UUID, FWPS_FIELDS_RPC_PROXY_IF_, FWPS_FIELD_RPC_PROXY_IF_IF_VERSION, FWPS_FIELD_RPC_PROXY_IF_MAX, FWPS_FIELDS_RPC_PROXY_IF_IF, fwpsk/FWPS_FIELD_RPC_PROXY_IF_MAX, fwpsk/FWPS_FIELDS_RPC_PROXY_IF_IF, fwpsk/FWPS_FIELD_RPC_PROXY_IF_IF_VERSION, FWPS_FIELDS_RPC_PROXY_IF_IF enumeration [Network Drivers Starting with Windows Vista], fwpsk/FWPS_FIELD_RPC_PROXY_IF_CLIENT_CERT_OID, netvista.fwps_fields_rpc_proxy_if_if, wfp_ref_5_const_3_data_fields_666debd4-c19e-4dcd-91d9-024f298b342f.xml, fwpsk/FWPS_FIELD_RPC_PROXY_IF_IF_UUID, fwpsk/FWPS_FIELD_RPC_PROXY_IF_CLIENT_TOKEN, FWPS_FIELD_RPC_PROXY_IF_CLIENT_CERT_KEY_LENGTH, fwpsk/FWPS_FIELD_RPC_PROXY_IF_SERVER_NAME, FWPS_FIELD_RPC_PROXY_IF_CLIENT_CERT_OID, FWPS_FIELD_RPC_PROXY_IF_PROXY_AUTH_TYPE, FWPS_FIELD_RPC_PROXY_IF_SERVER_PORT, fwpsk/FWPS_FIELD_RPC_PROXY_IF_SERVER_PORT, fwpsk/FWPS_FIELD_RPC_PROXY_IF_CLIENT_CERT_KEY_LENGTH, fwpsk/FWPS_FIELD_RPC_PROXY_IF_PROXY_AUTH_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FWPS_FIELDS_RPC_PROXY_IF_IF
-req.alt-loc: fwpsk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	fwpsk.h
+apiname: 
+-	FWPS_FIELDS_RPC_PROXY_IF_IF
+product: Windows
+targetos: Windows
 req.typenames: FWPS_FIELDS_RPC_PROXY_IF_IF
 ---
 
 # FWPS_FIELDS_RPC_PROXY_IF_ enumeration
 
 
-
 ## -description
+
+
 The FWPS_FIELDS_RPC_PROXY_IF_IF enumeration type specifies the data field identifiers for the
   FWPS_LAYER_RPC_PROXY_IF 
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum FWPS_FIELDS_RPC_PROXY_IF_ { 
@@ -63,6 +73,9 @@ typedef enum FWPS_FIELDS_RPC_PROXY_IF_ {
 
 
 ## -enum-fields
+
+
+
 
 ### -field FWPS_FIELD_RPC_PROXY_IF_CLIENT_TOKEN
 
@@ -110,5 +123,3 @@ The object identifier (OID) in the client certificate.
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
 
-
-## -remarks

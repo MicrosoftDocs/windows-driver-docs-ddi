@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 199FEA6A-A57F-4B13-832A-65DB7729455F
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: _SECURE_ELEMENT_ROUTING_TABLE_ENTRY, *PSECURE_ELEMENT_ROUTING_TABLE_ENTRY, SECURE_ELEMENT_ROUTING_TABLE_ENTRY
+ms.keywords: *PSECURE_ELEMENT_ROUTING_TABLE_ENTRY, nfcsedev/P_SECURE_ELEMENT_ROUTING_TABLE_ENTRY, SECURE_ELEMENT_ROUTING_TABLE_ENTRY, _SECURE_ELEMENT_ROUTING_TABLE_ENTRY, P_SECURE_ELEMENT_ROUTING_TABLE_ENTRY structure pointer [Near-Field Proximity Drivers], P_SECURE_ELEMENT_ROUTING_TABLE_ENTRY, nfpdrivers._secure_element_routing_table_entry, nfcsedev/_SECURE_ELEMENT_ROUTING_TABLE_ENTRY, SECURE_ELEMENT_ROUTING_TABLE_ENTRY structure [Near-Field Proximity Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SECURE_ELEMENT_ROUTING_TABLE_ENTRY
-req.alt-loc: nfcsedev.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	nfcsedev.h
+apiname: 
+-	SECURE_ELEMENT_ROUTING_TABLE_ENTRY
+product: Windows
+targetos: Windows
 req.typenames: *PSECURE_ELEMENT_ROUTING_TABLE_ENTRY, SECURE_ELEMENT_ROUTING_TABLE_ENTRY
 ---
 
 # _SECURE_ELEMENT_ROUTING_TABLE_ENTRY structure
 
 
-
 ## -description
+
+
 SECURE_ELEMENT_ROUTING_TABLE_ENTRY is a member of <a href="..\nfcsedev\ns-nfcsedev-_secure_element_routing_table.md">SECURE_ELEMENT_ROUTING_TABLE</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SECURE_ELEMENT_ROUTING_TABLE_ENTRY {
@@ -59,9 +69,6 @@ typedef struct _SECURE_ELEMENT_ROUTING_TABLE_ENTRY {
 
 ## -struct-fields
 
-### -field eRoutingType
-
-NFC Forum listen mode routing table entry type.
 
 
 
@@ -81,4 +88,8 @@ AID routing table control information.
 
 
 
-## -remarks
+### -field eRoutingType
+
+NFC Forum listen mode routing table entry type.
+
+

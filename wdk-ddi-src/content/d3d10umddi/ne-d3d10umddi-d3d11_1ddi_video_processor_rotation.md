@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4fe01ddd-723f-4b3c-884a-a18d4f8512e5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_ROTATION, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION
+ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_270, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_270, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION enumeration [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_ROTATION, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_90, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_IDENTITY, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_180, display.d3d11_1ddi_video_processor_rotation, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_90, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_180, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_IDENTITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDI_VIDEO_PROCESSOR_ROTATION
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDI_VIDEO_PROCESSOR_ROTATION
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_ROTATION
 ---
 
 # D3D11_1DDI_VIDEO_PROCESSOR_ROTATION enumeration
 
 
-
 ## -description
+
+
 Specifies the clockwise rotation of the input stream of the video processor.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D11_1DDI_VIDEO_PROCESSOR_ROTATION { 
@@ -56,6 +66,9 @@ typedef enum D3D11_1DDI_VIDEO_PROCESSOR_ROTATION {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_IDENTITY
 
@@ -76,5 +89,3 @@ Indicates that rotation is 180 degrees clockwise—inverted landscape mode.
 
 Indicates that rotation is 270 degrees clockwise—inverted portrait mode.
 
-
-## -remarks

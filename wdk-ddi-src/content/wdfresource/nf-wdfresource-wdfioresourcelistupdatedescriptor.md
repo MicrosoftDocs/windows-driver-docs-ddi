@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a571c054-380d-4d56-9094-d55868222b33
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoResourceListUpdateDescriptor
+ms.keywords: WdfIoResourceListUpdateDescriptor method, kmdf.wdfioresourcelistupdatedescriptor, PFN_WDFIORESOURCELISTUPDATEDESCRIPTOR, DFResourceObjectRef_e9c68945-23e3-47f1-99b1-a0c62944669f.xml, wdf.wdfioresourcelistupdatedescriptor, WdfIoResourceListUpdateDescriptor, wdfresource/WdfIoResourceListUpdateDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfIoResourceListUpdateDescriptor
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfIoResourceListUpdateDescriptor
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WdfIoResourceListUpdateDescriptor function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfIoResourceListUpdateDescriptor</b> method updates a resource descriptor in a resource requirements list's <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">logical configuration</a>.
 
 
-
 ## -syntax
+
 
 ````
 VOID WdfIoResourceListUpdateDescriptor(
@@ -58,6 +69,9 @@ VOID WdfIoResourceListUpdateDescriptor(
 
 
 ## -parameters
+
+
+
 
 ### -param ResourceList [in]
 
@@ -75,6 +89,8 @@ A zero-based value that is used as an index into the set of resource descriptors
 
 
 ## -returns
+
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
@@ -82,20 +98,20 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
+
 The <b>WdfIoResourceListUpdateDescriptor</b> method locates the resource descriptor that the <i>Index</i> parameter identifies. Then the method copies the resource descriptor that the <i>Descriptor</i> parameter specifies into the descriptor that <i>Index</i> specifies.
 
 For more information about resource requirements lists and logical configurations, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
-The following code example initializes a new resource descriptor and then calls <b>WdfIoResourceListUpdateDescriptor</b> to replace the second descriptor in a logical configuration with the new descriptor.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

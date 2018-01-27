@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ac69fdaa-f1e3-4487-93e1-f900f73be2fe
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BdaCreatePin
+ms.keywords: stream.bdacreatepin, BdaCreatePin function [Streaming Media Devices], bdasup/BdaCreatePin, bdaref_e84fba91-044c-40f3-9364-ede0bbabda48.xml, BdaCreatePin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available on Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BdaCreatePin
-req.alt-loc: Bdasup.lib,Bdasup.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Bdasup.lib
+-	Bdasup.dll
+apiname: 
+-	BdaCreatePin
+product: Windows
+targetos: Windows
 req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 ---
 
 # BdaCreatePin function
 
 
-
 ## -description
+
+
 The <b>BdaCreatePin</b> function creates a new pin in the specified filter. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS BdaCreatePin(
@@ -55,6 +66,9 @@ NTSTATUS BdaCreatePin(
 
 
 ## -parameters
+
+
+
 
 ### -param pKSFilter [in]
 
@@ -72,33 +86,33 @@ Points to a variable that receives the identifier for the created pin.
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS or an appropriate error code. 
 
 
+
 ## -remarks
+
+
 A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethodcreatepin.md">BdaMethodCreatePin</a> function when the network provider dynamically creates a pin using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563411">KSMETHOD_BDA_CREATE_PIN_FACTORY</a> request of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a> method set. If a BDA minidriver must create a pin without relying on the network provider, the BDA minidriver should call the <b>BdaCreatePin</b> function directly.
 
 .
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\bdasup\nf-bdasup-bdadeletepin.md">BdaDeletePin</a>
-</dt>
-<dt>
+
 <a href="..\bdasup\nf-bdasup-bdamethodcreatepin.md">BdaMethodCreatePin</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563411">KSMETHOD_BDA_CREATE_PIN_FACTORY</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563411">KSMETHOD_BDA_CREATE_PIN_FACTORY</a>
+
+<a href="..\bdasup\nf-bdasup-bdadeletepin.md">BdaDeletePin</a>
+
  
 
  

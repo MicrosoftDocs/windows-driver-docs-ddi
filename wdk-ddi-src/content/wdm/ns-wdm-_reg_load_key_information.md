@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4012667b-d287-4846-8860-0cca977f9792
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _REG_LOAD_KEY_INFORMATION, REG_LOAD_KEY_INFORMATION, *PREG_LOAD_KEY_INFORMATION
+ms.keywords: _REG_LOAD_KEY_INFORMATION, PREG_LOAD_KEY_INFORMATION, kernel.reg_load_key_information, REG_LOAD_KEY_INFORMATION, REG_LOAD_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_d_31dae695-0a6f-4309-9c39-25c2df4a5b23.xml, *PREG_LOAD_KEY_INFORMATION, PREG_LOAD_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/REG_LOAD_KEY_INFORMATION, wdm/PREG_LOAD_KEY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: REG_LOAD_KEY_INFORMATION
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	REG_LOAD_KEY_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: REG_LOAD_KEY_INFORMATION, *PREG_LOAD_KEY_INFORMATION
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _REG_LOAD_KEY_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>REG_LOAD_KEY_INFORMATION</b> structure contains information about a registry hive that is being loaded.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _REG_LOAD_KEY_INFORMATION {
@@ -64,6 +74,9 @@ typedef struct _REG_LOAD_KEY_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Object
 
@@ -121,29 +134,26 @@ Reserved for system use.
 
 
 ## -remarks
+
+
 The operating system passes the <b>REG_LOAD_KEY_INFORMATION</b> structure to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine every time a user-mode thread calls <a href="https://msdn.microsoft.com/536395aa-03ba-430d-a66d-fcabdc9dfe22">RegLoadKey</a> to load a registry hive.
 
 For more information about registry filtering operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/536395aa-03ba-430d-a66d-fcabdc9dfe22">RegLoadKey</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/536395aa-03ba-430d-a66d-fcabdc9dfe22">RegLoadKey</a>
+
+<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d3479656-310f-4e2d-a671-296bc3e2f1ab
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DsmSetLoadBalancePolicy_OUT, DsmSetLoadBalancePolicy_OUT, *PDsmSetLoadBalancePolicy_OUT
+ms.keywords: mpiodisk/DsmSetLoadBalancePolicy_OUT, mpiodisk/PDsmSetLoadBalancePolicy_OUT, DsmSetLoadBalancePolicy_OUT structure [Storage Devices], *PDsmSetLoadBalancePolicy_OUT, PDsmSetLoadBalancePolicy_OUT, PDsmSetLoadBalancePolicy_OUT structure pointer [Storage Devices], _DsmSetLoadBalancePolicy_OUT, storage.dsmsetloadbalancepolicy_out, structs-scsibus_f22d33bc-ce52-4369-8dd2-085c393a9107.xml, DsmSetLoadBalancePolicy_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DsmSetLoadBalancePolicy_OUT
-req.alt-loc: mpiodisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DsmSetLoadBalancePolicy_OUT, *PDsmSetLoadBalancePolicy_OUT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mpiodisk.h
+apiname: 
+-	DsmSetLoadBalancePolicy_OUT
+product: Windows
+targetos: Windows
+req.typenames: *PDsmSetLoadBalancePolicy_OUT, DsmSetLoadBalancePolicy_OUT
 ---
 
 # _DsmSetLoadBalancePolicy_OUT structure
 
 
-
 ## -description
+
+
 The <b>DsmSetLoadBalancePolicy_OUT</b> structure reports the output parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552670">DsmSetLoadBalancePolicy</a> method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DsmSetLoadBalancePolicy_OUT {
@@ -54,9 +64,10 @@ typedef struct _DsmSetLoadBalancePolicy_OUT {
 
 ## -struct-fields
 
+
+
+
 ### -field Status
 
 The status of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552670">DsmSetLoadBalancePolicy</a> operation.
 
-
-## -remarks

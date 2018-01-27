@@ -7,8 +7,8 @@ old-location: netvista\dot11_auth_algorithm.htm
 old-project: netvista
 ms.assetid: 27bba553-2d46-4892-864a-52e44caf6d56
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _DOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGORITHM, *PDOT11_AUTH_ALGORITHM
+ms.date: 1/18/2018
+ms.keywords: *PDOT11_AUTH_ALGORITHM, wlantypes/DOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGO_WPA_NONE, DOT11_AUTH_ALGORITHM, wlantypes/DOT11_AUTH_ALGO_IHV_END, DOT11_AUTH_ALGO_80211_SHARED_KEY, DOT11_AUTH_ALGO_80211_OPEN, DOT11_AUTH_ALGO_IHV_END, wlantypes/DOT11_AUTH_ALGO_80211_SHARED_KEY, DOT11_AUTH_ALGO_RSNA, DOT11_AUTH_ALGO_WPA_PSK, wlantypes/DOT11_AUTH_ALGO_WPA_PSK, DOT11_AUTH_ALGO_IHV_START, DOT11_AUTH_ALGO_WPA, wlantypes/DOT11_AUTH_ALGO_IHV_START, wlantypes/DOT11_AUTH_ALGO_WPA_NONE, PDOT11_AUTH_ALGORITHM enumeration pointer [Network Drivers Starting with Windows Vista], wlantypes/DOT11_AUTH_ALGO_RSNA, wlantypes/DOT11_AUTH_ALGO_RSNA_PSK, DOT11_AUTH_ALGORITHM enumeration [Network Drivers Starting with Windows Vista], Native_802.11_data_types_e6d2770c-b7fd-467c-a94e-b2f77a515e76.xml, _DOT11_AUTH_ALGORITHM, netvista.dot11_auth_algorithm, wlantypes/DOT11_AUTH_ALGO_WPA, wlantypes/PDOT11_AUTH_ALGORITHM, wlantypes/DOT11_AUTH_ALGO_80211_OPEN, DOT11_AUTH_ALGO_RSNA_PSK, PDOT11_AUTH_ALGORITHM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DOT11_AUTH_ALGORITHM
-req.alt-loc: wlantypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,17 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DOT11_AUTH_ALGORITHM, *PDOT11_AUTH_ALGORITHM
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wlantypes.h
+apiname: 
+-	DOT11_AUTH_ALGORITHM
+product: Windows
+targetos: Windows
+req.typenames: *PDOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGORITHM
 req.product: Windows 10 or later.
 ---
 
 # _DOT11_AUTH_ALGORITHM enumeration
 
 
-
 ## -description
 
+
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_AUTH_ALGORITHM enumeration defines a wireless LAN (WLAN) authentication algorithm.
+
+
 ## -syntax
+
 
 ````
 typedef enum _DOT11_AUTH_ALGORITHM { 
@@ -59,6 +72,9 @@ typedef enum _DOT11_AUTH_ALGORITHM {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DOT11_AUTH_ALGO_80211_OPEN
 
@@ -157,7 +173,14 @@ The
      mode.
 
 
+### -field v1_enum
+
+
+
+
 ## -remarks
+
+
 An IHV can assign a value for its proprietary authentication algorithms from 
     DOT11_AUTH_ALGO_IHV_START through 
     DOT11_AUTH_ALGO_IHV_END. The IHV must assign a unique number from this range for each of its
@@ -168,11 +191,11 @@ If the IHV develops its own support for an authentication algorithm supported by
     version of RSNA, it must assign a value for this version from 
     DOT11_AUTH_ALGO_IHV_START through 
     DOT11_AUTH_ALGO_IHV_END.
-
-Starting with Windows 7, an 802.11 miniport driver can report any combination of supported
+<div class="alert"><b>Note</b>  The 802.11 station must implicitly enable the 802.11 Open System authentication
+    algorithm whenever it enables a WPA or RSNA authentication algorithm.</div><div> </div>Starting with Windows 7, an 802.11 miniport driver can report any combination of supported
     authentication and cipher algorithm pairs in the 
-    <a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">
-    DOT11_AUTH_CIPHER_PAIR_LIST</a> structure. However, if the operating system starts Soft AP, it enables
+    <mshelp:link keywords="netvista.dot11_auth_cipher_pair_list" tabindex="0"><b>
+    DOT11_AUTH_CIPHER_PAIR_LIST</b></mshelp:link> structure. However, if the operating system starts Soft AP, it enables
     only the 
     DOT11_AUTH_ALGO_RSNA_PSK authentication algorithm and the 
     DOT11_CIPHER_ALGO_CCMP cipher algorithm. To support Soft AP, the miniport driver must support this
@@ -186,26 +209,22 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569436">OID_DOT11_WPS_ENABLED</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\windot11\ns-windot11-dot11_association_completion_parameters.md">
-   DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a>
-</dt>
-<dt>
-<a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.oid_dot11_enabled_authentication_algorithm" tabindex="0">
+   OID_DOT11_ENABLED_AUTHENTICATION_ALGORITHM</mshelp:link>
+
+<mshelp:link keywords="netvista.dot11_association_completion_parameters" tabindex="0"><b>
+   DOT11_ASSOCIATION_COMPLETION_PARAMETERS</b></mshelp:link>
+
 <a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">DOT11_AUTH_CIPHER_PAIR_LIST</a>
-</dt>
-<dt>
-<a href="netvista.oid_dot11_enabled_authentication_algorithm">
-   OID_DOT11_ENABLED_AUTHENTICATION_ALGORITHM</a>
-</dt>
-</dl>
+
+<a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
+
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_AUTH_ALGORITHM enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_AUTH_ALGORITHM enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

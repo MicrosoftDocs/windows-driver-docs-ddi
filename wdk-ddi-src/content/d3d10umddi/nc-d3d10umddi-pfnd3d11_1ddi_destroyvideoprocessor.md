@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a04776ba-bc80-498e-b25d-511ecb03fb63
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.destroyvideoprocessor1, pfnDestroyVideoProcessor callback function [Display Devices], pfnDestroyVideoProcessor, PFND3D11_1DDI_DESTROYVIDEOPROCESSOR, PFND3D11_1DDI_DESTROYVIDEOPROCESSOR, d3d10umddi/pfnDestroyVideoProcessor, display.pfndestroyvideoprocessor1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnDestroyVideoProcessor
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	pfnDestroyVideoProcessor
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_DESTROYVIDEOPROCESSOR callback
 
 
-
 ## -description
+
+
 Releases resources for the video processor object that were created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function.
 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11_1DDI_DESTROYVIDEOPROCESSOR pfnDestroyVideoProcessor;
@@ -59,31 +69,43 @@ VOID APIENTRY* pfnDestroyVideoProcessor(
 
 ## -parameters
 
-### -param hDevice [in]
+
+
+
+### -param D3D10DDI_HDEVICE
+
+
+
+### -param D3D11_1DDI_HVIDEOPROCESSOR
+
+
+
+
+
+
+#### - hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-### -param hProcessor [in]
+#### - hProcessor [in]
 
 A handle to the driver's private data for the video processor object. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>.
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
-</dt>
-</dl>
+
  
 
  

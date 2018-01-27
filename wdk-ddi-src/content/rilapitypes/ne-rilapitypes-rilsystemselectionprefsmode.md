@@ -7,8 +7,8 @@ old-location: netvista\rilsystemselectionprefsmode_2.htm
 old-project: netvista
 ms.assetid: 10aa6bfb-5ada-42f6-8f89-d8d4066d196b
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSYSTEMSELECTIONPREFSMODE, RILSYSTEMSELECTIONPREFSMODE
+ms.date: 1/18/2018
+ms.keywords: rilapitypes/RIL_OPSELMODE_MAX, RILSYSTEMSELECTIONPREFSMODE enumeration [Network Drivers Starting with Windows Vista], RILSYSTEMSELECTIONPREFSMODE, netvista.rilsystemselectionprefsmode_2, rilapitypes/RILSYSTEMSELECTIONPREFSMODE, rilapitypes/RIL_OPSELMODE_MANUAL, RIL_OPSELMODE_MAX, RIL_OPSELMODE_MANUAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSYSTEMSELECTIONPREFSMODE
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILSYSTEMSELECTIONPREFSMODE
+product: Windows
+targetos: Windows
 req.typenames: RILSYSTEMSELECTIONPREFSMODE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILSYSTEMSELECTIONPREFSMODE enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILSYSTEMSELECTIONPREFSMODE { 
@@ -56,10 +66,17 @@ typedef enum _RILSYSTEMSELECTIONPREFSMODE {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_OPSELMODE_AUTOMATIC
+
+
+
 ### -field RIL_OPSELMODE_MANUAL
+
 
 
 ### -field RIL_OPSELMODE_MAX
 
 
-## -remarks

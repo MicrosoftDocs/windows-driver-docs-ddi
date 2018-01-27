@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 2598ebb3-1c9c-4ec1-b172-8c6d53415c9d
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND
+ms.keywords: bltooth.sdpbyteswapuuid128, SdpByteSwapUuid128 callback function [Bluetooth Devices], SdpByteSwapUuid128, PBYTESWAPUUID128, PBYTESWAPUUID128, sdplib/SdpByteSwapUuid128, bth_funcs_b14ffa6d-3cad-4683-94fe-367272b9afb1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SdpByteSwapUuid128
-req.alt-loc: sdplib.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	sdplib.h
+apiname: 
+-	SdpByteSwapUuid128
+product: Windows
+targetos: Windows
 req.typenames: *PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND
 ---
 
 # PBYTESWAPUUID128 callback
 
 
-
 ## -description
+
+
 The Bluetooth 
   <b>SdpByteSwapUuid128</b> function is used to reverse the byte order of a 128-bit universally unique
   identifier (UUID).
 
 
-
 ## -prototype
+
 
 ````
 PBYTESWAPUUID128 SdpByteSwapUuid128;
@@ -60,21 +70,40 @@ void SdpByteSwapUuid128(
 
 ## -parameters
 
-### -param pUuidFrom 
+
+
+
+### -param *pUuidFrom
+
+
+
+### -param *pUuiidTo
+
+
+
+
+
+
+#### - pUuidFrom
 
 A pointer to the 128-bit GUID for which to reverse the byte order.
 
 
-### -param pUuidTo 
+#### - pUuidTo
 
 A pointer to the converted 128-bit GUID.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The 
     <b>SdpByteSwapUuid128</b> function always reverses the byte order of the value pointed to by the *
     <i>pUuidFrom</i> parameter. Writers of Bluetooth device drivers can use this function to convert 128-bit
@@ -85,12 +114,11 @@ Bluetooth profile drivers can obtain a pointer to this function through the
     <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

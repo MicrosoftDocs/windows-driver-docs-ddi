@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: D9146B9F-5AE4-436B-B223-0A61400FE9AC
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _SERIAL_CHARS, SERIAL_CHARS, *PSERIAL_CHARS
+ms.keywords: SERIAL_CHARS, *PSERIAL_CHARS, SERIAL_CHARS structure [Serial Ports], ntddser/SERIAL_CHARS, ntddser/PSERIAL_CHARS, PSERIAL_CHARS structure pointer [Serial Ports], PSERIAL_CHARS, serports.serial_chars, _SERIAL_CHARS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SERIAL_CHARS
-req.alt-loc: Ntddser.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddser.h
+apiname: 
+-	SERIAL_CHARS
+product: Windows
+targetos: Windows
 req.typenames: SERIAL_CHARS, *PSERIAL_CHARS
 ---
 
 # _SERIAL_CHARS structure
 
 
-
 ## -description
+
+
 The <b>SERIAL_CHARS</b> structure specifies the special characters that the serial controller driver uses for handshake flow control.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SERIAL_CHARS {
@@ -58,6 +68,9 @@ typedef struct _SERIAL_CHARS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field EofChar
 
@@ -90,26 +103,24 @@ The XOFF (transmit off) character to use for both transmit and receive operation
 
 
 ## -remarks
+
+
 This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a> and <a href="..\ntddser\ni-ntddser-ioctl_serial_get_chars.md">IOCTL_SERIAL_GET_CHARS</a> requests.
 
 An <b>IOCTL_SERIAL_SET_CHARS</b> request to set the XON and XOFF characters to the same value will fail.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_chars.md">IOCTL_SERIAL_GET_CHARS</a>
-</dt>
-<dt>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
-</dt>
-<dt>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
-</dt>
-<dt>
+
 <a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
-</dt>
-</dl>
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_get_chars.md">IOCTL_SERIAL_GET_CHARS</a>
+
  
 
  

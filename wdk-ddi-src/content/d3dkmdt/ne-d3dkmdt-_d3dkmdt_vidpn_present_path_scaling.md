@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4453534e-ce2b-4b0d-a93d-3d17185083fd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMDT_VIDPN_PRESENT_PATH_SCALING, D3DKMDT_VIDPN_PRESENT_PATH_SCALING
+ms.keywords: d3dkmdt/D3DKMDT_VPPS_UNPINNED, D3DKMDT_VIDPN_PRESENT_PATH_SCALING, D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX, D3DKMDT_VIDPN_PRESENT_PATH_SCALING enumeration [Display Devices], d3dkmdt/D3DKMDT_VPPS_UNINITIALIZED, d3dkmdt/D3DKMDT_VPPS_CUSTOM, D3DKMDT_VPPS_UNINITIALIZED, d3dkmdt/D3DKMDT_VPPS_STRETCHED, d3dkmdt/D3DKMDT_VPPS_RESERVED1, d3dkmdt/D3DKMDT_VPPS_NOTSPECIFIED, d3dkmdt/D3DKMDT_VPPS_IDENTITY, D3DKMDT_VPPS_UNPINNED, d3dkmdt/D3DKMDT_VPPS_CENTERED, D3DKMDT_VPPS_RESERVED1, D3DKMDT_VPPS_IDENTITY, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_SCALING, D3DKMDT_VPPS_STRETCHED, D3DKMDT_VPPS_NOTSPECIFIED, d3dkmdt/D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX, _D3DKMDT_VIDPN_PRESENT_PATH_SCALING, D3DKMDT_VPPS_CENTERED, display.d3dkmdt_vidpn_present_path_scaling, DmEnums_a2e5faad-ade2-4a1d-b096-f221bf0bdf20.xml, D3DKMDT_VPPS_CUSTOM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMDT_VIDPN_PRESENT_PATH_SCALING
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	D3DKMDT_VIDPN_PRESENT_PATH_SCALING
+product: Windows
+targetos: Windows
 req.typenames: D3DKMDT_VIDPN_PRESENT_PATH_SCALING
 ---
 
 # _D3DKMDT_VIDPN_PRESENT_PATH_SCALING enumeration
 
 
-
 ## -description
+
+
 The D3DKMDT_VIDPN_PRESENT_PATH_SCALING enumeration is used to indicate the scaling transformation applied to content displayed on a VidPN present path.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3DKMDT_VIDPN_PRESENT_PATH_SCALING { 
@@ -61,6 +71,9 @@ typedef enum _D3DKMDT_VIDPN_PRESENT_PATH_SCALING {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DKMDT_VPPS_UNINITIALIZED
 
@@ -114,20 +127,20 @@ Indicates that no transformation has been specified. See further information in 
 
 
 ## -remarks
+
+
 The <b>Scaling</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_transformation.md">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a> structure is a value from the D3DKMDT_VIDPN_PRESENT_PATH_SCALING enumeration.
 
 If D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX or D3DKMDT_VPPS_CUSTOM values are specified but the path is on a display miniport driver that does not support these values (which are available beginning with Windows 7), the driver's calls to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a> should return STATUS_GRAPHICS_VIDPN_MODALITY_NOT_SUPPORTED, and the operating system will apply the system default scaling. If a driver cannot support the requested scaling value on the specified path, its calls to <b>DxgkDdiCommitVidPn</b> should return STATUS_GRAPHICS_VIDPN_MODALITY_NOT_SUPPORTED.
+<div class="alert"><b>Note</b>    A display miniport driver that supports the D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX or D3DKMDT_VPPS_CUSTOM values should never set a value of D3DKMDT_VPPS_NOTSPECIFIED.</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_scaling_support.md">D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT</a>
-</dt>
-</dl>
+
  
 
  

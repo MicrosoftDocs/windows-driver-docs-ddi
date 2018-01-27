@@ -7,8 +7,8 @@ old-location: netvista\wdi_bss_selection_flags.htm
 old-project: netvista
 ms.assetid: 9C2F862B-8BA8-4947-9C3D-538715C99F26
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WDI_BSS_SELECTION_FLAGS, WDI_BSS_SELECTION_FLAGS
+ms.date: 1/18/2018
+ms.keywords: wditypes/WDI_BSS_SELECTION_HOST_PREFERRED, WDI_BSS_SELECTION_RECENT_ASSOCIATION_ERROR, _WDI_BSS_SELECTION_FLAGS, wditypes/WDI_BSS_SELECTION_RECENT_ASSOCIATION_ERROR, wditypes/WDI_BSS_SELECTION_FLAGS_AP_REQUESTED_TRANSITION, wditypes/WDI_BSS_SELECTION_FLAGS, netvista.wdi_bss_selection_flags, WDI_BSS_SELECTION_FLAGS_AP_REQUESTED_TRANSITION, WDI_BSS_SELECTION_FLAGS, WDI_BSS_SELECTION_HOST_PREFERRED, WDI_BSS_SELECTION_FLAGS enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WDI_BSS_SELECTION_FLAGS
-req.alt-loc: wditypes.hpp
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wditypes.hpp
+apiname: 
+-	WDI_BSS_SELECTION_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: WDI_BSS_SELECTION_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _WDI_BSS_SELECTION_FLAGS enumeration
 
 
-
 ## -description
+
+
 The WDI_BSS_SELECTION_FLAGS enumeration defines flags for BSS selection.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDI_BSS_SELECTION_FLAGS { 
@@ -56,6 +66,9 @@ typedef enum _WDI_BSS_SELECTION_FLAGS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WDI_BSS_SELECTION_HOST_PREFERRED
 
@@ -71,5 +84,3 @@ Set for BSS entries that had recent association failures or were recently disass
 
 Specifies whether this roam was requested by the AP or not (11v BSS Transition management request).
 
-
-## -remarks

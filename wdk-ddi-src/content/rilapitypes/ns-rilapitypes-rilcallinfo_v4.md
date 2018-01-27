@@ -7,8 +7,8 @@ old-location: netvista\rilcallinfo_v4_2.htm
 old-project: netvista
 ms.assetid: c369a79d-2f54-4a00-9442-0d96c714d726
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCALLINFO_V4, *LPRILCALLINFO_V4, RILCALLINFO_V4
+ms.date: 1/18/2018
+ms.keywords: rilapitypes/RILCALLINFO_V4, *LPRILCALLINFO_V4, RILCALLINFO_V4 structure [Network Drivers Starting with Windows Vista], RILCALLINFO_V4, netvista.rilcallinfo_v4_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCALLINFO_V4
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILCALLINFO_V4
+product: Windows
+targetos: Windows
 req.typenames: *LPRILCALLINFO_V4, RILCALLINFO_V4
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILCALLINFO_V4 structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILCALLINFO_V4 {
@@ -74,64 +84,85 @@ typedef struct _RILCALLINFO_V4 {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwExecutor
+
 
 
 ### -field dwID
 
 
+
 ### -field dwDirection
+
 
 
 ### -field dwStatus
 
 
+
 ### -field dwType
+
 
 
 ### -field dwMultiparty
 
 
+
 ### -field raAddress
+
 
 
 ### -field rsaSubAddress
 
 
+
 ### -field wszDescription
+
 
 
 ### -field dwNumberPresentationIndicator
 
 
+
 ### -field dwNamePresentationIndicator
+
 
 
 ### -field dwFlags
 
 
+
 ### -field dwDisconnectInitiator
+
 
 
 ### -field dwDisconnectReason
 
 
+
 ### -field stDisconnectDetails
+
 
 
 ### -field rcmOfferAnswer
 
 
+
 ### -field rchsHandoverState
+
 
 
 ### -field dwCallModificationCauseCode
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 68e6ab20-b8a2-4a72-bb38-28fe4345e638
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SM_SendLIRR_OUT, *PSM_SendLIRR_OUT, SM_SendLIRR_OUT
+ms.keywords: SM_SendLIRR_OUT, storage.sm_sendlirr_out, hbapiwmi/PSM_SendLIRR_OUT, _SM_SendLIRR_OUT, SM_SendLIRR_OUT structure [Storage Devices], hbapiwmi/SM_SendLIRR_OUT, *PSM_SendLIRR_OUT, PSM_SendLIRR_OUT structure pointer [Storage Devices], structs-Fibre_42d6f555-895e-4cb7-a2fb-8bc61025a940.xml, PSM_SendLIRR_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SM_SendLIRR_OUT
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	SM_SendLIRR_OUT
+product: Windows
+targetos: Windows
 req.typenames: *PSM_SendLIRR_OUT, SM_SendLIRR_OUT
 ---
 
 # _SM_SendLIRR_OUT structure
 
 
-
 ## -description
+
+
 The SM_SendLIRR_OUT structure is used to receive output parameters from the SM_SendLIRR method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SM_SendLIRR_OUT {
@@ -56,6 +66,9 @@ typedef struct _SM_SendLIRR_OUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HBAStatus
 
@@ -78,4 +91,8 @@ The results of the common transport command.
 
 
 ## -remarks
-The WMI tool suite generates a declaration of the SM_SendRNID_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.</p>
+
+
+The WMI tool suite generates a declaration of the SM_SendRNID_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.
+
+

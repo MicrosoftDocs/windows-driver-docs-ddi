@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: C0DA1B09-230E-4DE6-98CD-F80243D63B95
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: _GIC_ITS, GIC_ITS, *PGIC_ITS
+ms.keywords: acpi.gic_its, GIC_ITS structure [ACPI Devices], acpitabl/GIC_ITS, _GIC_ITS, GIC_ITS, *PGIC_ITS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709 and later versions.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GIC_ITS
-req.alt-loc: Acpitabl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Acpitabl.h
+apiname: 
+-	GIC_ITS
+product: Windows
+targetos: Windows
 req.typenames: GIC_ITS
 ---
 
 # _GIC_ITS structure
 
 
-
 ## -description
+
+
 This topic describes the <b>GIC_ITS</b> structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GIC_ITS {
@@ -58,6 +68,9 @@ typedef struct _GIC_ITS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Type
 
@@ -88,5 +101,3 @@ Defines the <b>ULONGLONG</b> member <b>PhysicalAddress</b>.
 
 Reserved for future use.
 
-
-## -remarks

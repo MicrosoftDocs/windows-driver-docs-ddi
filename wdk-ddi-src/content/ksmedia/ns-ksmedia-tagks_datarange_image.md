@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 81ad341a-5f68-43aa-98ea-193780a7c5b2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_DATARANGE_IMAGE, *PKS_DATARANGE_IMAGE, KS_DATARANGE_IMAGE
+ms.keywords: stream.ks_datarange_image, KS_DATARANGE_IMAGE structure [Streaming Media Devices], KS_DATARANGE_IMAGE, ksmedia/PKS_DATARANGE_IMAGE, PKS_DATARANGE_IMAGE structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_IMAGE, tagKS_DATARANGE_IMAGE, *PKS_DATARANGE_IMAGE, PKS_DATARANGE_IMAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_DATARANGE_IMAGE
-req.alt-loc: Ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKS_DATARANGE_IMAGE, KS_DATARANGE_IMAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ksmedia.h
+apiname: 
+-	KS_DATARANGE_IMAGE
+product: Windows
+targetos: Windows
+req.typenames: KS_DATARANGE_IMAGE, *PKS_DATARANGE_IMAGE
 ---
 
 # tagKS_DATARANGE_IMAGE structure
 
 
-
 ## -description
+
+
 Specifies an image data range that is used in the <a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a> structure that describes a pin (or stream).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagKS_DATARANGE_IMAGE {
@@ -55,6 +65,9 @@ typedef struct tagKS_DATARANGE_IMAGE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DataRange
 
@@ -71,24 +84,16 @@ A <a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREA
 A <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a> structure that specifies image color and dimension information that the still image capture stream would provide.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
-</dt>
-<dt>
+
+<a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
+
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

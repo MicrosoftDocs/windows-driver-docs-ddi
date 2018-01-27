@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 0CD692E2-B2D6-4786-8C0B-C0DCAFCF6259
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbRequestGetController
+ms.keywords: SpbRequestGetController, spbcx/SpbRequestGetController, SPB.spbrequestgetcontroller, SpbRequestGetController method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SpbRequestGetController
-req.alt-loc: spbcxstubs.lib,spbcxstubs.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	spbcxstubs.lib
+-	spbcxstubs.dll
+apiname: 
+-	SpbRequestGetController
+product: Windows
+targetos: Windows
 req.typenames: *PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # SpbRequestGetController function
 
 
-
 ## -description
+
+
 The <b>SpbRequestGetController</b> method returns the WDFDEVICE handle to the device object for the SPB controller that the specified I/O request was sent to.
 
 
-
 ## -syntax
+
 
 ````
 WDFDEVICE SpbRequestGetController(
@@ -55,24 +66,25 @@ WDFDEVICE SpbRequestGetController(
 
 ## -parameters
 
+
+
+
 ### -param SpbRequest [in]
 
 The <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to the I/O request from which to retrieve the WDFDEVICE handle. The SPB controller driver previously received this handle through one of its registered <a href="https://msdn.microsoft.com/1DA1FF41-FB01-45CC-B0C1-EAF2C81D0CDA">event callback functions</a>.
 
 
 ## -returns
+
+
 <b>SpbRequestGetController</b> returns the WDFDEVICE handle that the I/O request was sent to.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dcc0519e-f919-48bc-829f-416648de0b40
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.getinfo, GetInfo callback function [Display Devices], GetInfo, PFND3DDDI_GETINFO, PFND3DDDI_GETINFO, d3dumddi/GetInfo, UserModeDisplayDriver_Functions_21bbab23-9804-468e-80fb-6618f8356ac7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GetInfo
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	GetInfo
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_GETINFO callback
 
 
-
 ## -description
+
+
 The <i>GetInfo</i> function retrieves information about the specified display device.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_GETINFO GetInfo;
@@ -60,56 +70,98 @@ __checkReturn HRESULT APIENTRY GetInfo(
 
 ## -parameters
 
-### -param hDevice 
+
+
+
+### -param hDevice
 
  A handle to the display device (graphics context).
 
 
-### -param DevInfoID 
-
- An identifier for the type of device information to retrieve.
+### -param UINT
 
 
-### -param pDevInfoStruct 
 
- A pointer to a buffer of the type that <i>DevInfoID</i> specifies that receives information about the device.
+### -param *
 
 
-### -param DevInfoSize 
+
+### -param DevInfoSize
 
  The size, in bytes, of the buffer that is supplied by <i>pDevInfoStruct</i>.
 
 
+#### - DevInfoID
+
+ An identifier for the type of device information to retrieve.
+
+
+#### - pDevInfoStruct
+
+ A pointer to a buffer of the type that <i>DevInfoID</i> specifies that receives information about the device.
+
+
 ## -returns
+
+
 <i>GetInfo</i> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The device information is successfully retrieved.
+</dl>
+</td>
+<td width="60%">
+The device information is successfully retrieved.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_NOTIMPL</b></dt>
-</dl>The driver does not support the requested type of device information.
+</dl>
+</td>
+<td width="60%">
+The driver does not support the requested type of device information.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_INVALIDARG</b></dt>
-</dl>Parameters were validated and determined to be incorrect.
+</dl>
+</td>
+<td width="60%">
+Parameters were validated and determined to be incorrect.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The Microsoft DirectX 7 and DirectX 8 runtimes call the <i>GetInfo</i> function to query a user-mode display driver for additional device information.
 
 The Direct3D 8 runtime sets the D3DDDIDEVINFOID_VCACHE flag in the <i>DevInfoID</i> parameter and specifies an empty <a href="..\d3dumddi\ns-d3dumddi-_d3dddidevinfo_vcache.md">D3DDDIDEVINFO_VCACHE</a> structure in the <i>pDevInfoStruct</i> parameter to query the user-mode display driver's support for vertex cache.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddidevinfo_vcache.md">D3DDDIDEVINFO_VCACHE</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
  
 
  

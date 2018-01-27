@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E7E80C4E-C002-4F00-AF7E-6B8DDA337323
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_SPEC_VERSION, *PSTORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION
+ms.keywords: ntddstor/PSTORAGE_SPEC_VERSION, _STORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION union pointer [Storage Devices], STORAGE_SPEC_VERSION union [Storage Devices], ntddstor/STORAGE_SPEC_VERSION, storage.storage_spec_version, PSTORAGE_SPEC_VERSION, *PSTORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_SPEC_VERSION
-req.alt-loc: Ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddstor.h
+apiname: 
+-	STORAGE_SPEC_VERSION
+product: Windows
+targetos: Windows
 req.typenames: *PSTORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION
 ---
 
 # _STORAGE_SPEC_VERSION structure
 
 
-
 ## -description
+
+
 Indicates the specification of the storage device.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _STORAGE_SPEC_VERSION {
@@ -64,46 +74,43 @@ typedef union _STORAGE_SPEC_VERSION {
 
 ## -struct-fields
 
+
+
+
 ### -field DUMMYSTRUCTNAME
 
 The major and minor version of the storage specification.
 
 
-### -field MinorVersion
+### -field DUMMYSTRUCTNAME.MinorVersion
 
 The minor version of the storage specification.
 
 
-### -field DUMMYSTRUCTNAME
+### -field DUMMYSTRUCTNAME.MinorVersion.DUMMYSTRUCTNAME
 
 The minor and sub-minor version of the storage specification.
 
 
-### -field SubMinor
+### -field DUMMYSTRUCTNAME.MinorVersion.DUMMYSTRUCTNAME.SubMinor
 
 The sub-minor version of the storage specification.
 
 
-### -field Minor
+### -field DUMMYSTRUCTNAME.MinorVersion.DUMMYSTRUCTNAME.Minor
 
 The minor version of the storage specification.
 
-</dd>
-</dl>
 
-### -field AsUshort
+### -field DUMMYSTRUCTNAME.MinorVersion.AsUshort
 
 The combination of the <b>Minor</b> and <b>SubMinor</b> versions of the storage specification.
 
-</dd>
-</dl>
 
-### -field MajorVersion
+### -field DUMMYSTRUCTNAME.MajorVersion
 
 The major version of the storage specification.
 
-</dd>
-</dl>
 
 ### -field AsUlong
 
@@ -111,4 +118,8 @@ The combination of the <b>MajorVersion</b> and <b>MinorVersion</b> versions of t
 
 
 ## -remarks
-This union allows for specifying the storage specification version, such as SBC 3, SATA 3.2, and NVMe 1.2.</p>
+
+
+This union allows for specifying the storage specification version, such as SBC 3, SATA 3.2, and NVMe 1.2.
+
+

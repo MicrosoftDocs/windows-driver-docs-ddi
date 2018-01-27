@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6149765b-cd2c-44f5-aa72-f4755e0b034c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FILE_FS_DRIVER_PATH_INFORMATION, FILE_FS_DRIVER_PATH_INFORMATION, *PFILE_FS_DRIVER_PATH_INFORMATION
+ms.keywords: _FILE_FS_DRIVER_PATH_INFORMATION, FILE_FS_DRIVER_PATH_INFORMATION structure [Installable File System Drivers], ifsk.file_fs_driver_path_information, fileinformationstructures_9d09c9ee-18a0-4230-af6b-0cddadbac901.xml, PFILE_FS_DRIVER_PATH_INFORMATION structure pointer [Installable File System Drivers], PFILE_FS_DRIVER_PATH_INFORMATION, ntifs/PFILE_FS_DRIVER_PATH_INFORMATION, ntifs/FILE_FS_DRIVER_PATH_INFORMATION, *PFILE_FS_DRIVER_PATH_INFORMATION, FILE_FS_DRIVER_PATH_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILE_FS_DRIVER_PATH_INFORMATION
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FILE_FS_DRIVER_PATH_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: FILE_FS_DRIVER_PATH_INFORMATION, *PFILE_FS_DRIVER_PATH_INFORMATION
 ---
 
 # _FILE_FS_DRIVER_PATH_INFORMATION structure
 
 
-
 ## -description
+
+
 The FILE_FS_DRIVER_PATH_INFORMATION structure is used to query whether a given driver is in the I/O path for a file system volume. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILE_FS_DRIVER_PATH_INFORMATION {
@@ -55,6 +65,9 @@ typedef struct _FILE_FS_DRIVER_PATH_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DriverInPath
 
@@ -72,6 +85,8 @@ Caller-supplied Unicode string containing the name of the driver.
 
 
 ## -remarks
+
+
 To perform this query, call <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, passing FileFsDriverPathInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_FS_DRIVER_PATH_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
 
 This information is file system-independent. Thus the call to <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a> does not cause an IRP to be sent to the file system. 
@@ -83,15 +98,13 @@ The size of the buffer passed in the <i>FileInformation</i> parameter to <a href
 This structure must be aligned on a LONGLONG (8-byte) boundary. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
+
  
 
  

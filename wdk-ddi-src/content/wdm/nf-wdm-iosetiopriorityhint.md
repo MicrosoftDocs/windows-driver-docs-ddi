@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ecd4ed14-b9f2-45ff-a42b-5c67f1ccfd91
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoSetIoPriorityHint
+ms.keywords: IoSetIoPriorityHint routine [Kernel-Mode Driver Architecture], k104_9d72dacc-03a6-4dda-8c2b-69b59a817392.xml, wdm/IoSetIoPriorityHint, kernel.iosetiopriorityhint, IoSetIoPriorityHint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoSetIoPriorityHint
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoSetIoPriorityHint
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoSetIoPriorityHint function
 
 
-
 ## -description
+
+
 The <b>IoSetIoPriorityHint</b> routine sets the <a href="https://msdn.microsoft.com/c34afff2-32f2-451b-ab16-ff048d5c3204">priority hint value</a> for an IRP.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS IoSetIoPriorityHint(
@@ -55,6 +65,9 @@ NTSTATUS IoSetIoPriorityHint(
 
 
 ## -parameters
+
+
+
 
 ### -param Irp [in]
 
@@ -67,22 +80,25 @@ Specifies the <a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a> 
 
 
 ## -returns
+
+
 <b>IoSetIoPriorityHint</b> returns STATUS_SUCCESS if the operation succeeds and the appropriate NTSTATUS value if the operation fails.
 
 
+
 ## -remarks
+
+
 For more information about priority hints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565403">Using IRP Priority Hints</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iogetiopriorityhint.md">IoGetIoPriorityHint</a>
-</dt>
-</dl>
+
  
 
  

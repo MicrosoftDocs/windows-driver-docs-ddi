@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 33b68e74-64ca-49e0-b469-96d430c2a5c0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_MVvalue, DXVA_MVvalue, *LPDXVA_MVvalue
+ms.keywords: dxva/DXVA_MVvalue, LPDXVA_MVvalue structure pointer [Display Devices], display.dxva_mvvalue, DXVA_MVvalue, dxvaref_4eeb8072-1676-479e-b92c-05d8ba9c4586.xml, LPDXVA_MVvalue, *LPDXVA_MVvalue, DXVA_MVvalue structure [Display Devices], dxva/LPDXVA_MVvalue, _DXVA_MVvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVA_MVvalue
-req.alt-loc: dxva.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DXVA_MVvalue, *LPDXVA_MVvalue
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxva.h
+apiname: 
+-	DXVA_MVvalue
+product: Windows
+targetos: Windows
+req.typenames: *LPDXVA_MVvalue, DXVA_MVvalue
 ---
 
 # _DXVA_MVvalue structure
 
 
-
 ## -description
+
+
 The DXVA_MVvalue structure is sent by the host decoder to the accelerator to specify the two-dimensional motion vector value.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVA_MVvalue {
@@ -54,6 +64,9 @@ typedef struct _DXVA_MVvalue {
 
 
 ## -struct-fields
+
+
+
 
 ### -field horz
 
@@ -66,18 +79,18 @@ Specifies the vertical component of the value of a motion vector. Contains a sig
 
 
 ## -remarks
+
+
 The DXVA_MVvalue structure is used in the <a href="..\dxva\ns-dxva-_dxva_mbctrl_p_hostresiddiff_1.md">DXVA_MBctrl_P_HostResidDiff_1</a> and <a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a> structures.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_mbctrl_p_hostresiddiff_1.md">DXVA_MBctrl_P_HostResidDiff_1</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
-</dt>
-</dl>
+
  
 
  

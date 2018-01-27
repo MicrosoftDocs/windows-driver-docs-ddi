@@ -7,8 +7,8 @@ old-location: netvista\ndismsetbusdata.htm
 old-project: netvista
 ms.assetid: 0b9153b3-f379-40c4-87f6-1fa380070e65
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisMSetBusData
+ms.date: 1/18/2018
+ms.keywords: netvista.ndismsetbusdata, hardware_configuration_ref_4fd9608c-60b9-4a86-9aa3-02d6ec17da92.xml, NdisMSetBusData function [Network Drivers Starting with Windows Vista], ndis/NdisMSetBusData, NdisMSetBusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisMSetBusData
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisMSetBusData
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMSetBusData function
 
 
-
 ## -description
+
+
 NDIS drivers call the 
   <b>NdisMSetBusData</b> function to write to the configuration space of a device.
 
 
-
 ## -syntax
+
 
 ````
 ULONG NdisMSetBusData(
@@ -59,12 +70,12 @@ ULONG NdisMSetBusData(
 
 ## -parameters
 
-### -param MiniportAdapterHandle [in]
 
-The miniport adapter handle that NDIS passed to the 
-     <i>MiniportAdapterHandle</i> parameter of the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
-     MiniportInitializeEx</a> function.
+
+
+### -param NdisMiniportHandle
+
+TBD
 
 
 ### -param WhichSpace [in]
@@ -91,33 +102,43 @@ A pointer to a buffer that contains the data to write to the bus. Must be at lea
 The length, in bytes, of the data to write.
 
 
+#### - MiniportAdapterHandle [in]
+
+The miniport adapter handle that NDIS passed to the 
+     <i>MiniportAdapterHandle</i> parameter of the 
+     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
+     MiniportInitializeEx</i></mshelp:link> function.
+
+
 ## -returns
+
+
 <b>NdisMGetBusData</b> returns the number of bytes written.
 
 
+
 ## -remarks
+
+
 This function replaces the NDIS 5.1 
-    <a href="https://msdn.microsoft.com/6783ad54-3382-456b-a59e-3fc2b1f91cd6">
-    NdisWritePciSlotInformation</a> function.
+    <mshelp:link keywords="netxp.ndiswritepcislotinformation" tabindex="0"><b>
+    NdisWritePciSlotInformation</b></mshelp:link> function.
+
 
 
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
-</dt>
-</dl>
- 
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMSetBusData function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMSetBusData function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

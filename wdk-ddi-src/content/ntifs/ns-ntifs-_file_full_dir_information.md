@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 31b1c2f6-415b-4183-8016-51686c460889
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FILE_FULL_DIR_INFORMATION, FILE_FULL_DIR_INFORMATION, *PFILE_FULL_DIR_INFORMATION
+ms.keywords: PFILE_FULL_DIR_INFORMATION, *PFILE_FULL_DIR_INFORMATION, PFILE_FULL_DIR_INFORMATION structure pointer [Installable File System Drivers], _FILE_FULL_DIR_INFORMATION, ntifs/PFILE_FULL_DIR_INFORMATION, fileinformationstructures_2dfa5780-08bf-4cb8-96f6-c247baaa813a.xml, FILE_FULL_DIR_INFORMATION structure [Installable File System Drivers], ifsk.file_full_dir_information, FILE_FULL_DIR_INFORMATION, ntifs/FILE_FULL_DIR_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILE_FULL_DIR_INFORMATION
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: FILE_FULL_DIR_INFORMATION, *PFILE_FULL_DIR_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FILE_FULL_DIR_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: *PFILE_FULL_DIR_INFORMATION, FILE_FULL_DIR_INFORMATION
 ---
 
 # _FILE_FULL_DIR_INFORMATION structure
 
 
-
 ## -description
+
+
 The FILE_FULL_DIR_INFORMATION structure is used to query detailed information for the files in a directory. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILE_FULL_DIR_INFORMATION {
@@ -64,6 +74,9 @@ typedef struct _FILE_FULL_DIR_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NextEntryOffset
 
@@ -140,31 +153,34 @@ Specifies the first character of the file name string. This is followed in memor
 
 
 ## -remarks
-This information can be queried in either of the following ways: 
 
+
+This information can be queried in either of the following ways: 
+<ul>
+<li>
 Call <a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>, passing FileFullDirectoryInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_FULL_DIR_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
 
+</li>
+<li>
 Create an IRP with major function code IRP_MJ_DIRECTORY_CONTROL and minor function code IRP_MN_QUERY_DIRECTORY. 
 
-No specific access rights are required to query this information. 
+</li>
+</ul>No specific access rights are required to query this information. 
 
 All dates and times are in absolute system-time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601. 
 
 This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer contains two or more of these structures, the <b>NextEntryOffset</b> value in each entry, except the last, falls on an 8-byte boundary. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
+
+<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
+
  
 
  

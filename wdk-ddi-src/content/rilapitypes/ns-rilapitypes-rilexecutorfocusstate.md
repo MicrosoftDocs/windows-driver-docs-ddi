@@ -7,8 +7,8 @@ old-location: netvista\rilexecutorfocusstate_2.htm
 old-project: netvista
 ms.assetid: d462092c-e40f-4685-974e-3fb31cbafa62
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILEXECUTORFOCUSSTATE, *LPRILEXECUTORFOCUSSTATE, RILEXECUTORFOCUSSTATE
+ms.date: 1/18/2018
+ms.keywords: RILEXECUTORFOCUSSTATE, *LPRILEXECUTORFOCUSSTATE, rilapitypes/RILEXECUTORFOCUSSTATE, netvista.rilexecutorfocusstate_2, RILEXECUTORFOCUSSTATE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILEXECUTORFOCUSSTATE
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILEXECUTORFOCUSSTATE
+product: Windows
+targetos: Windows
 req.typenames: *LPRILEXECUTORFOCUSSTATE, RILEXECUTORFOCUSSTATE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILEXECUTORFOCUSSTATE structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILEXECUTORFOCUSSTATE {
@@ -58,16 +68,21 @@ typedef struct _RILEXECUTORFOCUSSTATE {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwNumberOfExecutors
+
 
 
 ### -field fFocusStates
 
 
-## -remarks

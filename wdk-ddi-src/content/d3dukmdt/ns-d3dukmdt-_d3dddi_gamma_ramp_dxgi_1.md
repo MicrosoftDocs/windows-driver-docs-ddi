@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f5c67404-3baf-44f1-8b19-f099cf71c178
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_GAMMA_RAMP_DXGI_1, D3DDDI_GAMMA_RAMP_DXGI_1
+ms.keywords: d3dukmdt/D3DDDI_GAMMA_RAMP_DXGI_1, display.d3dddi_gamma_ramp_dxgi_1, DmStructs_378e6432-010f-453c-8e59-d32f243543f0.xml, D3DDDI_GAMMA_RAMP_DXGI_1, D3DDDI_GAMMA_RAMP_DXGI_1 structure [Display Devices], _D3DDDI_GAMMA_RAMP_DXGI_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_GAMMA_RAMP_DXGI_1
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_GAMMA_RAMP_DXGI_1
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_GAMMA_RAMP_DXGI_1
 ---
 
 # _D3DDDI_GAMMA_RAMP_DXGI_1 structure
 
 
-
 ## -description
+
+
 The D3DDDI_GAMMA_RAMP_DXGI_1 structure describes a gamma function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_GAMMA_RAMP_DXGI_1 {
@@ -55,6 +65,9 @@ typedef struct _D3DDDI_GAMMA_RAMP_DXGI_1 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Scale
 
@@ -71,15 +84,10 @@ A <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_dxgi_rgb.md">D3DDDI_DXGI_RGB</a> struc
 An array of <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_dxgi_rgb.md">D3DDDI_DXGI_RGB</a> structures that describe the curve of the gamma function.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_dxgi_rgb.md">D3DDDI_DXGI_RGB</a>
-</dt>
-</dl>
+
  
 
  

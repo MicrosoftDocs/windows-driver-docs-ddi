@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7B67BB47-6F95-4B1A-A823-F796529D5C48
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltFastIoMdlWriteComplete
+ms.keywords: ifsk.fltfastiomdlwritecomplete, FsRtlMdlWriteCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlWriteCompleteDev, FltFastIoMdlWriteComplete, FsRtlMdlWriteCompleteDev
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with  Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlMdlWriteCompleteDev
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlMdlWriteCompleteDev
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltFastIoMdlWriteComplete function
 
 
-
 ## -description
+
+
 The <b>FltFastIoMdlWriteComplete</b> routine frees the resources that <a href="..\fltkernel\nf-fltkernel-fltfastiopreparemdlwrite.md">FltFastIoPrepareMdlWrite</a> allocated.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlMdlWriteCompleteDev(
@@ -57,7 +67,10 @@ BOOLEAN FsRtlMdlWriteCompleteDev(
 
 ## -parameters
 
-### -param InitiatingInstance 
+
+
+
+### -param InitiatingInstance
 
 Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
@@ -78,10 +91,15 @@ A pointer to a linked list of memory descriptor lists (MDLs) that <a href="..\fl
 
 
 ## -returns
+
+
 The <b>FltFastIoMdlWriteComplete</b> routine returns <b>TRUE</b> if the operation succeeds and <b>FALSE</b> if the operation fails or if the FO_WRITE_THROUGH flag is set in the file object.
 
 
+
 ## -remarks
+
+
 The <b>FltFastIoMdlWriteComplete</b> routine frees the memory descriptor lists (MDLs) that <a href="..\fltkernel\nf-fltkernel-fltfastiopreparemdlwrite.md">FltFastIoPrepareMdlWrite</a> allocated and unlocks the cache memory that <b>FltFastIoPrepareMdlWrite</b> locked.
 
 If the FO_WRITE_THROUGH flag is set on the file object pointed to by the <i>FileObject</i> parameter, <b>FltFastIoMdlWriteComplete</b> immediately flushes the cached memory to disk. This flush operation re-enters the file system and can cause <b>FltFastIoMdlWriteComplete</b> to raise an exception if the flush operation fails. 
@@ -89,12 +107,11 @@ If the FO_WRITE_THROUGH flag is set on the file object pointed to by the <i>File
 Each call to <a href="..\fltkernel\nf-fltkernel-fltfastiopreparemdlwrite.md">FltFastIoPrepareMdlWrite</a> must be followed by a call to <b>FltFastIoMdlWriteComplete</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltfastiopreparemdlwrite.md">FltFastIoPrepareMdlWrite</a>
-</dt>
-</dl>
+
  
 
  

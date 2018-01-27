@@ -7,8 +7,8 @@ old-location: debugger\idebugeventcallbackswide_loadmodule.htm
 old-project: debugger
 ms.assetid: 03a76d41-3af1-48a9-832a-1c255a8b0cc4
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugEventCallbacksWide, IDebugEventCallbacksWide::LoadModule, LoadModule
+ms.date: 1/19/2018
+ms.keywords: IDebugEventCallbacksWide::LoadModule, debugger.idebugeventcallbackswide_loadmodule, IDebugEventCallbacksWide, LoadModule, dbgeng/IDebugEventCallbacksWide::LoadModule, LoadModule method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging], LoadModule method, LoadModule method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugEventCallbacksWide.LoadModule
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugEventCallbacksWide.LoadModule
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacksWide::LoadModule method
 
 
-
 ## -description
+
+
 The <b>LoadModule</b> callback method is called by the engine when a module-load debugging event occurs in the target.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT LoadModule(
@@ -59,6 +69,9 @@ HRESULT LoadModule(
 
 
 ## -parameters
+
+
+
 
 ### -param ImageFileHandle [in]
 
@@ -96,12 +109,19 @@ Specifies the time and date stamp of the module's image file.  If this informati
 
 
 ## -returns
+
+
 This method returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541651">DEBUG_STATUS_XXX</a> value, which indicates how the execution of the target should proceed after the engine processes this event.  For details on how the engine treats this value, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
 
 
+
 ## -remarks
+
+
 This method is only called by the engine if the DEBUG_EVENT_LOAD_MODULE flag is set in the mask returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550625">IDebugEventCallbacksWide::GetInterestMask</a>.
 
 After calling this method, the engine will call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550587">IDebugEventCallbacksWide::ChangeSymbolState</a>, with the <i>Flags</i> parameter containing the bit flag DEBUG_CSS_LOADS.
 
-For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>. </p>
+For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>. 
+
+

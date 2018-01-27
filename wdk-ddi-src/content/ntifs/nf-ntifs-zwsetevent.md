@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f561fc3e-2233-4237-a88d-bd5a887a1e7a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwSetEvent
+ms.keywords: NtSetEvent, ntifs/NtSetEvent, k111_e01bbbbf-29f9-4c0a-89a2-84cf927aeb47.xml, ZwSetEvent, kernel.zwsetevent, ntifs/ZwSetEvent, ZwSetEvent routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwSetEvent,NtSetEvent
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ZwSetEvent
+-	NtSetEvent
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # ZwSetEvent function
 
 
-
 ## -description
+
+
 The <b>ZwSetEvent</b> routine sets an event object to a Signaled state and attempts to satisfy as many waits as possible.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ZwSetEvent(
@@ -54,6 +65,9 @@ NTSTATUS ZwSetEvent(
 
 
 ## -parameters
+
+
+
 
 ### -param EventHandle [in]
 
@@ -66,59 +80,81 @@ An optional pointer to a variable where the previous state of the event object i
 
 
 ## -returns
+
+
 <b>ZwSetEvent</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>The caller did not have the required privileges to modify the event specified by the <i>EventHandle</i> parameter. 
+</dl>
+</td>
+<td width="60%">
+The caller did not have the required privileges to modify the event specified by the <i>EventHandle</i> parameter. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>Resources required by this function could not be allocated. 
+</dl>
+</td>
+<td width="60%">
+Resources required by this function could not be allocated. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>The supplied <i>EventHandle</i> parameter was invalid. 
+</dl>
+</td>
+<td width="60%">
+The supplied <i>EventHandle</i> parameter was invalid. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-<b>ZwSetEvent</b> sets an event object to a Signaled state and attempts to satisfy as many waits as possible.
 
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
+<b>ZwSetEvent</b> sets an event object to a Signaled state and attempts to satisfy as many waits as possible.
+<div class="alert"><b>Note</b>  If the call to the <b>ZwSetEvent</b> function occurs in user mode, you should use the name "<a href="https://msdn.microsoft.com/library/windows/hardware/ff557667">NtSetEvent</a>" instead of "<b>ZwSetEvent</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-zwcreateevent.md">ZwCreateEvent</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
+
 <a href="..\ntifs\nf-ntifs-zwwaitforsingleobject.md">ZwWaitForSingleObject</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-zwcreateevent.md">ZwCreateEvent</a>
+
+<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
+
+<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
+
  
 
  

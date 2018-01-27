@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: AD653C7C-7C43-4258-98F8-3D9EDB51AE44
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidRegisterMinidriver
+ms.keywords: hid.ioctl_hid_send_idle_notification_request, IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST control code [Human Input Devices], IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST, hidport/IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST
-req.alt-loc: Hidport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,51 +29,78 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Hidport.h
+apiname: 
+-	IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST
+product: Windows
+targetos: Windows
+req.typenames: *PUSAGE_AND_PAGE, USAGE_AND_PAGE
 ---
 
 # IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 The <b>IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST</b> 
    control code is the IOCTL of the idle notification request IRP that HIDClass sends to HID mini drivers, such as HIDUSB, to inform the bus driver that the device is now idle.
 
 For general information about HIDClass devices, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
 
 
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 <b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code.
 
 
 ### -input-buffer-length
+
  The size of a status code.
 
 
 ### -output-buffer
 
+
        None.
 
 
 ### -output-buffer-length
+
 None.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The bus or port driver sets Irp-&gt;IoStatus.Status to STATUS_SUCCESS or the appropriate error status.
 
-
-## -remarks

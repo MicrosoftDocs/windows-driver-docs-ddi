@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 211d41ae-18d3-4ca5-b9f5-868d97fab6fb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoWMIDeviceObjectToProviderId
+ms.keywords: kernel.iowmideviceobjecttoproviderid, IoWMIDeviceObjectToProviderId routine [Kernel-Mode Driver Architecture], wdm/IoWMIDeviceObjectToProviderId, IoWMIDeviceObjectToProviderId, k104_e24ce1c2-9f90-49b5-88be-1bbf40074aee.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoWMIDeviceObjectToProviderId
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoWMIDeviceObjectToProviderId
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoWMIDeviceObjectToProviderId function
 
 
-
 ## -description
+
+
 The <b>IoWMIDeviceObjectToProviderId</b> routine translates the specified device object into the corresponding WMI Provider ID.
 
 
-
 ## -syntax
+
 
 ````
 ULONG IoWMIDeviceObjectToProviderId(
@@ -55,33 +65,38 @@ ULONG IoWMIDeviceObjectToProviderId(
 
 ## -parameters
 
+
+
+
 ### -param DeviceObject [in]
 
 Pointer to a device object. 
 
 
 ## -returns
+
+
 <b>IoWMIDeviceObjectToProviderId </b>returns the WMI Provider ID associated with the specified device object.
 
 
+
 ## -remarks
+
+
 <b>IoWMIDeviceObjectToProviderId</b> should be used when filling in the <b>ProviderId</b> member of the <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a> structure in those cases when the <b>WNODEHEADER</b> structure is being initialized as part of a <a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a> or <a href="..\wmistr\ns-wmistr-tagwnode_event_reference.md">WNODE_EVENT_REFERENCE</a> structure. (If the <b>WNODE_HEADER</b> is being used for other purposes, <i>ProviderId</i> is reserved.)
 
 When running on a 32-bit operating system, the provider ID and the device object are identical. When running on a 64-bit operating system, <b>IoWMIDeviceObjectToProviderId</b> will convert the 64-bit device object to a 32-bit provider ID.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
-</dt>
-<dt>
-<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
-</dt>
-<dt>
+
 <a href="..\wmistr\ns-wmistr-tagwnode_event_reference.md">WNODE_EVENT_REFERENCE</a>
-</dt>
-</dl>
+
+<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
+
+<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
+
  
 
  

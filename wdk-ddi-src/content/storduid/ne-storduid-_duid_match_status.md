@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 61a60e77-387c-42d6-b56b-694ce0c86570
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DUID_MATCH_STATUS, DUID_MATCH_STATUS
+ms.keywords: storduid/DuidErrorInvalidLayoutSigSize, DuidErrorGeneral, DuidErrorMissingDuid, storduid/DuidSubIdMatch, DUID_MATCH_STATUS, storduid/DuidErrorInvalidDeviceIdDescSize, storduid/DuidExactMatch, DuidErrorInvalidDeviceIdDescSize, structs-general_8e33f54f-7115-42c2-aa06-112c79f9c392.xml, _DUID_MATCH_STATUS, DUID_MATCH_STATUS enumeration [Storage Devices], DuidErrorInvalidLayoutSigSize, DuidExactMatch, DuidErrorVersionMismatch, DuidErrorInvalidDuid, storduid/DuidErrorInvalidDeviceDescSize, DuidErrorInvalidDeviceDescSize, DuidErrorMaximum, DuidNoMatch, DuidErrorInvalidLayoutSigVersion, storduid/DuidErrorInvalidLayoutSigVersion, storduid/DuidErrorInvalidDuid, storduid/DuidErrorMissingDuid, storduid/DUID_MATCH_STATUS, storduid/DuidErrorVersionMismatch, storage.duid_match_status, storduid/DuidErrorGeneral, storduid/DuidErrorMaximum, storduid/DuidNoMatch, DuidSubIdMatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DUID_MATCH_STATUS
-req.alt-loc: storduid.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storduid.h
+apiname: 
+-	DUID_MATCH_STATUS
+product: Windows
+targetos: Windows
 req.typenames: DUID_MATCH_STATUS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _DUID_MATCH_STATUS enumeration
 
 
-
 ## -description
+
+
 The DUID_MATCH_STATUS enumeration lists the status values that the <a href="..\storduid\nf-storduid-comparestorageduids.md">CompareStorageDuids</a> routine returns.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DUID_MATCH_STATUS { 
@@ -65,6 +75,9 @@ typedef enum _DUID_MATCH_STATUS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DuidExactMatch
 
@@ -126,21 +139,14 @@ At least one of the two DUIDs to compare contains an invalid drive layout signat
 This value delimits the upper limit of the enumeration values in this enumeration. This value allows a DUID consumer to create a loop that tests for all valid error values that the <a href="..\storduid\nf-storduid-comparestorageduids.md">CompareStorageDuids</a> routine returns. As new identifier data is added to future versions of the DUID, new error values will specify which parts of the DUID are not well-formed.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storduid\nf-storduid-comparestorageduids.md">CompareStorageDuids</a>
-</dt>
-<dt>
+
 <a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

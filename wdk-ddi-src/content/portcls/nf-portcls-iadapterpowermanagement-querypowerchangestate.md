@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 32cd29c3-e8da-4119-84a4-3ce4daed528e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IAdapterPowerManagement, IAdapterPowerManagement::QueryPowerChangeState, QueryPowerChangeState
+ms.keywords: IAdapterPowerManagement, audmp-routines_4a5ebdca-faa4-4f99-89d1-6c86a928243c.xml, audio.iadapterpowermanagement_querypowerchangestate, QueryPowerChangeState, IAdapterPowerManagement interface [Audio Devices], QueryPowerChangeState method, QueryPowerChangeState method [Audio Devices], portcls/IAdapterPowerManagement::QueryPowerChangeState, IAdapterPowerManagement::QueryPowerChangeState, QueryPowerChangeState method [Audio Devices], IAdapterPowerManagement interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IAdapterPowerManagement.QueryPowerChangeState
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IAdapterPowerManagement.QueryPowerChangeState
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IAdapterPowerManagement::QueryPowerChangeState method
 
 
-
 ## -description
+
+
 The <code>QueryPowerChangeState</code> method is called by PortCls in response to the receipt of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a> power IRP.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS QueryPowerChangeState(
@@ -54,33 +64,38 @@ NTSTATUS QueryPowerChangeState(
 
 ## -parameters
 
+
+
+
 ### -param NewStateQuery [in]
 
 Specifies the new power state that is being requested for the device. This parameter is a union of type POWER_STATE. The new power state (<i>NewStateQuery</i>.<b>DeviceState</b>) can be one of the DEVICE_POWER_STATE enumeration values listed in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536488">IAdapterPowerManagement::PowerChangeState</a>.
 
 
 ## -returns
+
+
 <code>QueryPowerChangeState</code> returns STATUS_SUCCESS if call was successful. Otherwise, the method returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 PortCls calls the <code>QueryPowerChangeState</code> method on behalf of the system to query the adapter driver for acceptability of a potential device power-state change. The driver can deny the power state change by returning a value other than STATUS_SUCCESS. A call to <code>QueryPowerStateChange</code> is not guaranteed to occur prior to all <b>PowerChangeState</b> calls.
 
 The code for this method must reside in paged memory.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536488">IAdapterPowerManagement::PowerChangeState</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a>
+
  
 
  

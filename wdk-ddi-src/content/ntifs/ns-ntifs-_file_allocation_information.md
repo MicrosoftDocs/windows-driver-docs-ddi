@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 52c62e52-3bf7-40eb-80ff-df14c50c86e1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FILE_ALLOCATION_INFORMATION, *PFILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION
+ms.keywords: PFILE_ALLOCATION_INFORMATION, ntifs/FILE_ALLOCATION_INFORMATION, ntifs/PFILE_ALLOCATION_INFORMATION, *PFILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION, fileinformationstructures_79d60e3b-f403-46d8-b600-62aeddcb88e0.xml, ifsk.file_allocation_information, PFILE_ALLOCATION_INFORMATION structure pointer [Installable File System Drivers], _FILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILE_ALLOCATION_INFORMATION
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FILE_ALLOCATION_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: *PFILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION
 ---
 
 # _FILE_ALLOCATION_INFORMATION structure
 
 
-
 ## -description
+
+
 The FILE_ALLOCATION_INFORMATION structure is used to set the allocation size for a file. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILE_ALLOCATION_INFORMATION {
@@ -54,19 +64,28 @@ typedef struct _FILE_ALLOCATION_INFORMATION {
 
 ## -struct-fields
 
+
+
+
 ### -field AllocationSize
 
 File allocation size, in bytes. Usually this value is a multiple of the sector or cluster size of the underlying physical device. 
 
 
 ## -remarks
-This operation can be performed in either of the following ways: 
 
+
+This operation can be performed in either of the following ways: 
+<ul>
+<li>
 Call <a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a> or <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>, passing FileAllocationInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_ALLOCATION_INFORMATION-structured buffer as the value of <i>FileInformation</i>. The <i>FileHandle</i> parameter specifies the file whose allocation size is to be set. 
 
+</li>
+<li>
 Create an IRP with major function code IRP_MJ_SET_INFORMATION. 
 
-This operation is valid only for files. It is undefined for directories. 
+</li>
+</ul>This operation is valid only for files. It is undefined for directories. 
 
 File system minifilters must use <a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>, not <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>, to set the allocation size for a file. 
 
@@ -79,21 +98,17 @@ The size of the <i>FileInformation</i> buffer passed to <a href="..\fltkernel\nf
 This structure must be aligned on a LONGLONG (8-byte) boundary. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\ns-ntddk-_file_end_of_file_information.md">FILE_END_OF_FILE_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549366">IRP_MJ_SET_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\ns-ntddk-_file_end_of_file_information.md">FILE_END_OF_FILE_INFORMATION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549366">IRP_MJ_SET_INFORMATION</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
+
  
 
  

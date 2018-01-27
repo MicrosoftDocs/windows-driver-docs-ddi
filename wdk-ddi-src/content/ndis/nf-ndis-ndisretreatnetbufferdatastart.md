@@ -7,8 +7,8 @@ old-location: netvista\ndisretreatnetbufferdatastart.htm
 old-project: netvista
 ms.assetid: 4b58a1dc-8a5a-464b-a2a2-deb952febe25
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisRetreatNetBufferDataStart
+ms.date: 1/18/2018
+ms.keywords: netvista.ndisretreatnetbufferdatastart, ndis/NdisRetreatNetBufferDataStart, NdisRetreatNetBufferDataStart function [Network Drivers Starting with Windows Vista], NdisRetreatNetBufferDataStart, ndis_netbuf_functions_ref_1075cc2e-490a-4b90-93d9-269e226e8dde.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisRetreatNetBufferDataStart
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_NetBuffer_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,35 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisRetreatNetBufferDataStart
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisRetreatNetBufferDataStart function
 
 
-
 ## -description
+
+
 Call the 
   <b>NdisRetreatNetBufferDataStart</b> function to access more 
   <i>used data space</i> in the MDL chain of a 
   <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisRetreatNetBufferDataStart(
@@ -59,6 +70,9 @@ NDIS_STATUS NdisRetreatNetBufferDataStart(
 
 
 ## -parameters
+
+
+
 
 ### -param NetBuffer [in]
 
@@ -90,23 +104,56 @@ An optional entry point for an
 
 
 ## -returns
+
+
 <b>NdisRetreatNetBufferDataStart</b> returns one of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_SUCCESS</b></dt>
-</dl><b>NdisRetreatNetBufferDataStart</b> successfully allocated 
+</dl>
+</td>
+<td width="60%">
+<b>NdisRetreatNetBufferDataStart</b> successfully allocated 
        <i>used data space</i> either by using the 
        <i>unused data space</i> or by allocating new storage.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_RESOURCES</b></dt>
-</dl><b>NdisRetreatNetBufferDataStart</b> failed due to insufficient resources.
+</dl>
+</td>
+<td width="60%">
+<b>NdisRetreatNetBufferDataStart</b> failed due to insufficient resources.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_FAILURE</b></dt>
-</dl><b>NdisRetreatNetBufferDataStart</b> failed for reasons other than insufficient resources.
+</dl>
+</td>
+<td width="60%">
+<b>NdisRetreatNetBufferDataStart</b> failed for reasons other than insufficient resources.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>NdisRetreatNetBufferDataStart</b> attempts to satisfy the request by reducing the value of the 
     <b>DataOffset</b> member of the 
     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.
@@ -120,28 +167,25 @@ If there isn't enough
     driver's design requirements.
 
 Call the 
-    <a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
-    NdisAdvanceNetBufferDataStart</a> function to release the 
+    <mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
+    NdisAdvanceNetBufferDataStart</b></mshelp:link> function to release the 
     <i>used data space</i> that was added with 
     <b>NdisRetreatNetBufferDataStart</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
-   NdisAdvanceNetBufferDataStart</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
-</dt>
-<dt>
+
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-</dt>
-</dl>
- 
+
+<mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
+   NdisAdvanceNetBufferDataStart</b></mshelp:link>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisRetreatNetBufferDataStart function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisRetreatNetBufferDataStart function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

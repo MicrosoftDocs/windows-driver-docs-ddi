@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 583fe92d-ce81-47b4-bd75-5566a5379790
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _NETWORK_OPEN_ECP_CONTEXT, NETWORK_OPEN_ECP_CONTEXT, *PNETWORK_OPEN_ECP_CONTEXT
+ms.keywords: ifsk.network_open_ecp_context, *PNETWORK_OPEN_ECP_CONTEXT, _NETWORK_OPEN_ECP_CONTEXT, ntifs/NETWORK_OPEN_ECP_CONTEXT, PNETWORK_OPEN_ECP_CONTEXT, PNETWORK_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], ECP_Structures_9cdb7dab-17df-47f3-b994-fca989b3442e.xml, NETWORK_OPEN_ECP_CONTEXT structure [Installable File System Drivers], ntifs/PNETWORK_OPEN_ECP_CONTEXT, NETWORK_OPEN_ECP_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This structure is available starting with Windows Vi
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NETWORK_OPEN_ECP_CONTEXT
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	NETWORK_OPEN_ECP_CONTEXT
+product: Windows
+targetos: Windows
 req.typenames: NETWORK_OPEN_ECP_CONTEXT, *PNETWORK_OPEN_ECP_CONTEXT
 ---
 
 # _NETWORK_OPEN_ECP_CONTEXT structure
 
 
-
 ## -description
+
+
 The <b>NETWORK_OPEN_ECP_CONTEXT</b> structure is used to interpret network ECP contexts on files. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NETWORK_OPEN_ECP_CONTEXT {
@@ -67,6 +77,54 @@ typedef struct _NETWORK_OPEN_ECP_CONTEXT {
 
 ## -struct-fields
 
+
+
+
+### -field DUMMYSTRUCTNAME
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.in
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.in.Location
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.in.Integrity
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.in.Flags
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.out
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.out.Location
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.out.Integrity
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.out.Flags
+
+ 
+
+
 ### -field Size
 
 The size, in bytes, of this structure. 
@@ -77,36 +135,54 @@ The size, in bytes, of this structure.
 Reserved. Must be set to zero. 
 
 
-### -field ( unnamed struct )
+##### - ( unnamed struct ).out
 
-A structure that contains restrictions for opening the file and to apply to the file after it is opened. 
-
-
-### -field in
-
-A structure in the DUMMYSTRUCTNAME structure that contains restrictions for opening a file.
+A structure in the DUMMYSTRUCTNAME structure that contains information that a file provides after it is opened.
 
 
 
 
-### -field Location
+###### - ( unnamed struct ).out.Location
 
 A <a href="..\ntifs\ne-ntifs-network_open_location_qualifier.md">NETWORK_OPEN_LOCATION_QUALIFIER</a>-typed value that specifies the location restriction to attach to the file. 
 
 
-### -field Integrity
+###### - ( unnamed struct ).in.Location
+
+A <a href="..\ntifs\ne-ntifs-network_open_location_qualifier.md">NETWORK_OPEN_LOCATION_QUALIFIER</a>-typed value that specifies the location restriction to attach to the file. 
+
+
+###### - ( unnamed struct ).out.Integrity
 
 This member is currently not implemented and should be ignored. 
 
 A <a href="..\ntifs\ne-ntifs-network_open_integrity_qualifier.md">NETWORK_OPEN_INTEGRITY_QUALIFIER</a>-typed value that specifies the integrity restriction to attach to the file. 
 
 
-### -field Flags
+###### - ( unnamed struct ).in.Integrity
+
+This member is currently not implemented and should be ignored. 
+
+A <a href="..\ntifs\ne-ntifs-network_open_integrity_qualifier.md">NETWORK_OPEN_INTEGRITY_QUALIFIER</a>-typed value that specifies the integrity restriction to attach to the file. 
+
+
+#### - ( unnamed struct )
+
+A structure that contains restrictions for opening the file and to apply to the file after it is opened. 
+
+
+##### - ( unnamed struct ).in
+
+A structure in the DUMMYSTRUCTNAME structure that contains restrictions for opening a file.
+
+
+
+
+###### - ( unnamed struct ).in.Flags
 
 Supported starting with Windows 7.
 
 A value that specifies attributes for the file. This member is a bitwise OR of any of the flags in the following table.
-
 <table>
 <tr>
 <th>Value</th>
@@ -164,37 +240,14 @@ This flag forces the redirector to use synchronous I/O even though the handle wa
 
 </td>
 </tr>
-</table>
- 
-
-</dd>
-</dl>
-
-### -field out
-
-A structure in the DUMMYSTRUCTNAME structure that contains information that a file provides after it is opened.
+</table> 
 
 
-
-
-### -field Location
-
-A <a href="..\ntifs\ne-ntifs-network_open_location_qualifier.md">NETWORK_OPEN_LOCATION_QUALIFIER</a>-typed value that specifies the location restriction to attach to the file. 
-
-
-### -field Integrity
-
-This member is currently not implemented and should be ignored. 
-
-A <a href="..\ntifs\ne-ntifs-network_open_integrity_qualifier.md">NETWORK_OPEN_INTEGRITY_QUALIFIER</a>-typed value that specifies the integrity restriction to attach to the file. 
-
-
-### -field Flags
+###### - ( unnamed struct ).out.Flags
 
 Supported starting with Windows 7.
 
 A value that specifies attributes for the file. This member is a bitwise OR of any of the flags in the following table.
-
 <table>
 <tr>
 <th>Value</th>
@@ -238,15 +291,12 @@ This flag forces the redirector to use synchronous I/O even though the handle wa
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
-</dd>
-</dl>
-</dd>
-</dl>
 
 ## -remarks
+
+
 For information about how to use ECPs to associate extra information with a file when the file is created, see <a href="https://msdn.microsoft.com/e32aeec6-1a0a-4d21-8358-89d9fc0a15eb">Using Extra Create Parameters with an IRP_MJ_CREATE Operation</a>. 
 
 The NETWORK_OPEN_ECP_CONTEXT structure is read-only. You should use it to retrieve information about the network ECP context on a file only. For more information about this issue, see <a href="https://msdn.microsoft.com/6acb4be4-a7aa-431d-b2d8-3ef6d41cb4ef">System-Defined ECPs</a>.
@@ -256,18 +306,15 @@ If a caller must verify that the file system acknowledged the <b>NETWORK_OPEN_EC
 Drivers that run on Windows 7 and later versions of Windows and that must interpret network ECP contexts on files that reside on Windows Vista must use the <a href="..\ntifs\ns-ntifs-_network_open_ecp_context_v0.md">NETWORK_OPEN_ECP_CONTEXT_V0</a> structure instead. Drivers that run on Windows Vista and later versions of Windows use the <b>NETWORK_OPEN_ECP_CONTEXT</b> structure to interpret network ECP contexts on files. However, the <b>DUMMYSTRUCTNAME.in.Flags</b> and <b>DUMMYSTRUCTNAME.out.Flags</b> members are only supported starting with Windows 7. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\ns-ntifs-_network_open_ecp_context_v0.md">NETWORK_OPEN_ECP_CONTEXT_V0</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ne-ntifs-network_open_integrity_qualifier.md">NETWORK_OPEN_INTEGRITY_QUALIFIER</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\ns-ntifs-_network_open_ecp_context_v0.md">NETWORK_OPEN_ECP_CONTEXT_V0</a>
+
 <a href="..\ntifs\ne-ntifs-network_open_location_qualifier.md">NETWORK_OPEN_LOCATION_QUALIFIER</a>
-</dt>
-</dl>
+
  
 
  

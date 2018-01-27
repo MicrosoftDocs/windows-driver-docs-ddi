@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4fd09b30-d63b-4b7f-9f6c-ef028e5e549f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _TAPE_DRIVE_PROBLEM_TYPE, TAPE_DRIVE_PROBLEM_TYPE
+ms.keywords: storage.ioctl_tape_get_media_params, IOCTL_TAPE_GET_MEDIA_PARAMS control code [Storage Devices], IOCTL_TAPE_GET_MEDIA_PARAMS, ntddtape/IOCTL_TAPE_GET_MEDIA_PARAMS, k307_c8991fab-1c8d-4792-9ecc-6bb7e4643e68.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_TAPE_GET_MEDIA_PARAMS
-req.alt-loc: Ntddtape.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,69 +29,89 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddtape.h
+apiname: 
+-	IOCTL_TAPE_GET_MEDIA_PARAMS
+product: Windows
+targetos: Windows
 req.typenames: TAPE_DRIVE_PROBLEM_TYPE
 ---
 
 # IOCTL_TAPE_GET_MEDIA_PARAMS IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 Returns information about the media's total and remaining capacity, its block size, the number of partitions, and whether it is write-protected.
 
-
-
-Returns information about the media's total and remaining capacity, its block size, the number of partitions, and whether it is write-protected.
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 None.
 
 
 ### -input-buffer-length
+
 None.
 
 
 ### -output-buffer
+
 The driver returns the <a href="..\ntddtape\ns-ntddtape-_tape_get_media_parameters.md">TAPE_GET_MEDIA_PARAMETERS</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. For a description of the TAPE_GET_MEDIA_PARAMETERS structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567937">TapeMiniGetMediaParameters</a>.
 
 
 ### -output-buffer-length
+
 <b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be &gt;= <b>sizeof</b>(TAPE_GET_MEDIA_PARAMETERS).
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Information</b> field is set to the number of bytes returned. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_IO_DEVICE_ERROR, STATUS_DEVICE_DATA_ERROR, STATUS_DATA_OVERRUN, STATUS_NO_SUCH_DEVICE, STATUS_IO_TIMEOUT, STATUS_DEVICE_NOT_READY, STATUS_INFO_LENGTH_MISMATCH, STATUS_NO_MEDIA_IN_DEVICE, or STATUS_VERIFY_REQUIRED.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddtape\ns-ntddtape-_tape_get_media_parameters.md">TAPE_GET_MEDIA_PARAMETERS</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567937">TapeMiniGetMediaParameters</a>
-</dt>
-<dt>
+
 <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
-</dt>
-</dl>
+
+<a href="..\ntddtape\ns-ntddtape-_tape_get_media_parameters.md">TAPE_GET_MEDIA_PARAMETERS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567937">TapeMiniGetMediaParameters</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e318e13b-8b6c-4593-93ce-17d2a1056ac2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoRegisterFsRegistrationChangeEx
+ms.keywords: IoRegisterFsRegistrationChangeEx, ioref_330f3a93-4d81-4a6b-9733-521558d255a6.xml, ifsk.ioregisterfsregistrationchangeex, IoRegisterFsRegistrationChangeEx routine [Installable File System Drivers], ntifs/IoRegisterFsRegistrationChangeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is only available on the Update Rollup f
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoRegisterFsRegistrationChangeEx
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	IoRegisterFsRegistrationChangeEx
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # IoRegisterFsRegistrationChangeEx function
 
 
-
 ## -description
+
+
 The <b>IoRegisterFsRegistrationChangeEx</b> routine registers a file system filter driver's notification routine to be called whenever a file system registers or unregisters itself as an active file system.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS IoRegisterFsRegistrationChangeEx(
@@ -54,6 +64,9 @@ NTSTATUS IoRegisterFsRegistrationChangeEx(
 
 
 ## -parameters
+
+
+
 
 ### -param DriverObject [in]
 
@@ -66,18 +79,43 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 
 
 ## -returns
+
+
 <b>IoRegisterFsRegistrationChangeEx</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The notification routine was successfully registered.
+</dl>
+</td>
+<td width="60%">
+The notification routine was successfully registered.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>A notification packet could not be allocated for the notification routine.
+</dl>
+</td>
+<td width="60%">
+A notification packet could not be allocated for the notification routine.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The effect of <b>IoRegisterFsRegistrationChangeEx</b> is identical to that of <a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a> on Windows XP and later. 
 
 <b>IoRegisterFsRegistrationChangeEx</b> registers a file system filter driver to be notified whenever a file system calls <a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a> or <a href="..\ntifs\nf-ntifs-iounregisterfilesystem.md">IoUnregisterFileSystem</a>. 
@@ -95,21 +133,17 @@ Because the caller's notification routine can be called even before <b>IoRegiste
 If a file system filter driver calls <b>IoRegisterFsRegistrationChangeEx</b> twice in succession (without calling <a href="..\ntifs\nf-ntifs-iounregisterfsregistrationchange.md">IoUnregisterFsRegistrationChange</a> in between), passing the same values for the <i>DriverObject</i> and <i>DriverNotificationRoutine</i> parameters that it registered in the previous call to <b>IoRegisterFsRegistrationChangeEx</b>, and no other filter drivers have registered since the first call, <b>IoRegisterFsRegistrationChangeEx</b> returns STATUS_DEVICE_ALREADY_ATTACHED. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-iounregisterfilesystem.md">IoUnregisterFileSystem</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-iounregisterfsregistrationchange.md">IoUnregisterFsRegistrationChange</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-iounregisterfilesystem.md">IoUnregisterFileSystem</a>
+
+<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
+
+<a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
+
  
 
  

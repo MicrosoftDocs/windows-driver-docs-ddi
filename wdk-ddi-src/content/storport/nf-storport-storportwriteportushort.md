@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7655b6a1-2ed4-4e57-b8b5-e7b8ff2dd1e5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortWritePortUshort
+ms.keywords: storport/StorPortWritePortUshort, storprt_7e675f67-f027-48e7-a41b-b672b0f81d20.xml, StorPortWritePortUshort routine [Storage Devices], StorPortWritePortUshort, storage.storportwriteportushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortWritePortUshort
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortWritePortUshort
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortWritePortUshort function
 
 
-
 ## -description
+
+
 The <b>StorPortWritePortUshort</b> routine writes a value to a specified register address. 
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API VOID StorPortWritePortUshort(
@@ -56,6 +67,9 @@ STORPORT_API VOID StorPortWritePortUshort(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -73,22 +87,25 @@ Contains the value to be written.
 
 
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 For more information, see <a href="..\srb\nf-srb-scsiportwriteportushort.md">ScsiPortWritePortUshort</a>. For a buffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportbufferushort.md">StorPortWritePortBufferUshort</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\srb\nf-srb-scsiportwriteportushort.md">ScsiPortWritePortUshort</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportwriteportbufferushort.md">StorPortWritePortBufferUshort</a>
-</dt>
-</dl>
+
+<a href="..\srb\nf-srb-scsiportwriteportushort.md">ScsiPortWritePortUshort</a>
+
  
 
  

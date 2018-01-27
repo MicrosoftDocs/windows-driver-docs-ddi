@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0320AB36-CA88-40E7-859E-B940401474DD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExSetTimer
+ms.keywords: ExSetTimer, wdm/ExSetTimer, ExSetTimer routine [Kernel-Mode Driver Architecture], kernel.exsettimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.1.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExSetTimer
-req.alt-loc: ntoskrnl.lib,ntoskrnl.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ntoskrnl.lib
+-	ntoskrnl.dll
+apiname: 
+-	ExSetTimer
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ExSetTimer function
 
 
-
 ## -description
+
+
 The <b>ExSetTimer</b> routine starts a timer operation and sets the timer to expire at the specified due time.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN ExSetTimer(
@@ -57,6 +68,9 @@ BOOLEAN ExSetTimer(
 
 
 ## -parameters
+
+
+
 
 ### -param Timer [in]
 
@@ -81,10 +95,15 @@ A pointer to an <a href="..\wdm\ns-wdm-_ext_set_parameters_v0.md">EXT_SET_PARAME
 
 
 ## -returns
+
+
 This routine returns <b>TRUE</b> if it cancels a timer that was pending at the time that the routine was called. Otherwise, the routine returns <b>FALSE</b>. For more information, see Remarks.
 
 
+
 ## -remarks
+
+
 Your driver can call this routine to set a timer to expire at a future time. The driver can then wait for the timer to expire. Or, the driver can implement a callback routine that is called when the timer expires.
 
 After a driver calls <b>ExSetTimer</b>, the driver can call a routine such as <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a> or or <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a> to wait for the timer to expire. When the timer expires, the operating system signals the timer object.
@@ -106,30 +125,23 @@ To avoid excessive power consumption, a driver should not set the period of a lo
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn265198">ExXxxTimer Routines and EX_TIMER Objects</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-exallocatetimer.md">ExAllocateTimer</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-exinitializesettimerparameters.md">ExInitializeSetTimerParameters</a>
-</dt>
-<dt>
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265190">ExTimerCallback</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_ext_set_parameters_v0.md">EXT_SET_PARAMETERS</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_ext_set_parameters_v0.md">EXT_SET_PARAMETERS</a>
+
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265190">ExTimerCallback</a>
+
+<a href="..\wdm\nf-wdm-exinitializesettimerparameters.md">ExInitializeSetTimerParameters</a>
+
+<a href="..\wdm\nf-wdm-exallocatetimer.md">ExAllocateTimer</a>
+
  
 
  

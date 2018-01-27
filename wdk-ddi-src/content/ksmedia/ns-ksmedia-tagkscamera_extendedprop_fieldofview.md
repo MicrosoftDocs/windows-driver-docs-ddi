@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: CC3FFC63-8404-4EA6-9738-F0A3C52585B8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKSCAMERA_EXTENDEDPROP_FIELDOFVIEW, KSCAMERA_EXTENDEDPROP_FIELDOFVIEW, *PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW
+ms.keywords: KSCAMERA_EXTENDEDPROP_FIELDOFVIEW, ksmedia/PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW, KSCAMERA_EXTENDEDPROP_FIELDOFVIEW structure [Streaming Media Devices], stream.kscamera_extendedprop_fieldofview, ksmedia/KSCAMERA_EXTENDEDPROP_FIELDOFVIEW, PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW structure pointer [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW, *PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW, tagKSCAMERA_EXTENDEDPROP_FIELDOFVIEW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.1.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSCAMERA_EXTENDEDPROP_FIELDOFVIEW
-req.alt-loc: Ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KSCAMERA_EXTENDEDPROP_FIELDOFVIEW, *PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ksmedia.h
+apiname: 
+-	KSCAMERA_EXTENDEDPROP_FIELDOFVIEW
+product: Windows
+targetos: Windows
+req.typenames: *PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW, KSCAMERA_EXTENDEDPROP_FIELDOFVIEW
 ---
 
 # tagKSCAMERA_EXTENDEDPROP_FIELDOFVIEW structure
 
 
-
 ## -description
+
+
 The <i>Field of View Control</i> property describes the current Field of View (FOV) of the camera along with the pitch angle of the camera position.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _KSCAMERA_EXTENDEDPROP_FIELDOFVIEW {
@@ -56,6 +66,9 @@ typedef struct _KSCAMERA_EXTENDEDPROP_FIELDOFVIEW {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NormalizedFocalLengthX
 
@@ -77,15 +90,10 @@ Reserved. Set to 0.
 Reserved. Set to 0.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn567574">KSPROPERTY_CAMERACONTROL_EXTENDED_FIELDOFVIEW</a>
-</dt>
-</dl>
+
  
 
  

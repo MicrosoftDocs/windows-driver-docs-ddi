@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3822B8A2-1EFB-45C7-A7DB-FBCE76A06336
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_REMOVE_LOCK_OPTIONS_FLAGS, WDF_REMOVE_LOCK_OPTIONS_FLAGS
+ms.keywords: WDF_REMOVE_LOCK_OPTION_ACQUIRE_FOR_IO, WDF_REMOVE_LOCK_OPTIONS_FLAGS, wdfdevice/WDF_REMOVE_LOCK_OPTIONS_FLAGS, WDF_REMOVE_LOCK_OPTIONS_FLAGS enumeration, _WDF_REMOVE_LOCK_OPTIONS_FLAGS, wdf.wdf_remove_lock_options_flags, wdfdevice/WDF_REMOVE_LOCK_OPTION_ACQUIRE_FOR_IO, kmdf.wdf_remove_lock_options_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.11
 req.umdf-ver: 
-req.alt-api: WDF_REMOVE_LOCK_OPTIONS_FLAGS
-req.alt-loc: wdfdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfdevice.h
+apiname: 
+-	WDF_REMOVE_LOCK_OPTIONS_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: WDF_REMOVE_LOCK_OPTIONS_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_REMOVE_LOCK_OPTIONS_FLAGS enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_REMOVE_LOCK_OPTIONS_FLAGS</b> enumeration type defines flags that are used in a driver's <a href="..\wdfdevice\ns-wdfdevice-_wdf_remove_lock_options.md">WDF_REMOVE_LOCK_OPTIONS</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_REMOVE_LOCK_OPTIONS_FLAGS { 
@@ -57,27 +67,29 @@ typedef enum _WDF_REMOVE_LOCK_OPTIONS_FLAGS {
 
 ## -enum-fields
 
+
+
+
 ### -field WDF_REMOVE_LOCK_OPTION_ACQUIRE_FOR_IO
 
 Specifies that the framework should acquire a remove lock before delivering an IRP of any type to the driver.
 
 
 ## -remarks
+
+
 For more information about using remove locks in a framework-based driver, see <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetremovelockoptions.md">WdfDeviceInitSetRemoveLockOptions</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetremovelockoptions.md">WdfDeviceInitSetRemoveLockOptions</a>
-</dt>
-<dt>
-<a href="..\wdfdevice\nf-wdfdevice-wdf_remove_lock_options_init.md">WDF_REMOVE_LOCK_OPTIONS_INIT</a>
-</dt>
-<dt>
+
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_remove_lock_options.md">WDF_REMOVE_LOCK_OPTIONS</a>
-</dt>
-</dl>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetremovelockoptions.md">WdfDeviceInitSetRemoveLockOptions</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdf_remove_lock_options_init.md">WDF_REMOVE_LOCK_OPTIONS_INIT</a>
+
  
 
  

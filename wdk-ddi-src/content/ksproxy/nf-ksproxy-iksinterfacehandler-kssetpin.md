@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 71e4be0a-a5a6-469a-948b-bc5277bc8cbe
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsInterfaceHandler, IKsInterfaceHandler::KsSetPin, KsSetPin
+ms.keywords: IKsInterfaceHandler::KsSetPin, KsSetPin method [Streaming Media Devices], KsSetPin method [Streaming Media Devices], IKsInterfaceHandler interface, IKsInterfaceHandler, KsSetPin, ksproxy_3746aba4-11e3-45a5-8495-eda1cad5bf9b.xml, stream.iksinterfacehandler_kssetpin, ksproxy/IKsInterfaceHandler::KsSetPin, IKsInterfaceHandler interface [Streaming Media Devices], KsSetPin method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsInterfaceHandler.KsSetPin
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ksproxy.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsInterfaceHandler.KsSetPin
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsInterfaceHandler::KsSetPin method
 
 
-
 ## -description
+
+
 The <b>KsSetPin</b> method informs the streaming interface handler about the pin with which to communicate when passing data.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT KsSetPin(
@@ -54,28 +64,34 @@ HRESULT KsSetPin(
 
 ## -parameters
 
+
+
+
 ### -param KsPin [in]
 
 Pointer to the <a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a> interface for the pin to which this streaming interface handler is to be attached. This pin must support the <a href="..\ksproxy\nn-ksproxy-iksobject.md">IKsObject</a> interface from which the underlying kernel handle can be obtained.
 
 
 ## -returns
+
+
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
+
 ## -remarks
+
+
 The <b>KsSetPin</b> method is called after an instance of the interface handler is created but before any streaming is required of the instance.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ksproxy\nn-ksproxy-iksobject.md">IKsObject</a>
-</dt>
-<dt>
+
 <a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a>
-</dt>
-</dl>
+
+<a href="..\ksproxy\nn-ksproxy-iksobject.md">IKsObject</a>
+
  
 
  

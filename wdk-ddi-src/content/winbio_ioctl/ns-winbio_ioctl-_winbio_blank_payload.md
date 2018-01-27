@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 0bc28853-1c00-42d3-a269-198093d64dd7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WINBIO_BLANK_PAYLOAD, WINBIO_BLANK_PAYLOAD, *PWINBIO_BLANK_PAYLOAD
+ms.keywords: biometric_ref_4a39daf0-52f5-40bf-abc6-40cd3d866f39.xml, PWINBIO_BLANK_PAYLOAD, *PWINBIO_BLANK_PAYLOAD, winbio_ioctl/WINBIO_BLANK_PAYLOAD, WINBIO_BLANK_PAYLOAD structure [Biometric Devices], PWINBIO_BLANK_PAYLOAD structure pointer [Biometric Devices], WINBIO_BLANK_PAYLOAD, biometric.winbio_blank_payload, winbio_ioctl/PWINBIO_BLANK_PAYLOAD, _WINBIO_BLANK_PAYLOAD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WINBIO_BLANK_PAYLOAD
-req.alt-loc: winbio_ioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	winbio_ioctl.h
+apiname: 
+-	WINBIO_BLANK_PAYLOAD
+product: Windows
+targetos: Windows
 req.typenames: WINBIO_BLANK_PAYLOAD, *PWINBIO_BLANK_PAYLOAD
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _WINBIO_BLANK_PAYLOAD structure
 
 
-
 ## -description
+
+
 The <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_reset.md">IOCTL_BIOMETRIC_RESET</a> and <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_update_firmware.md">IOCTL_BIOMETRIC_UPDATE_FIRMWARE</a> IOCTLs return the WINBIO_BLANK_PAYLOAD structure as output.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WINBIO_BLANK_PAYLOAD {
@@ -56,6 +66,9 @@ typedef struct _WINBIO_BLANK_PAYLOAD {
 
 ## -struct-fields
 
+
+
+
 ### -field PayloadSize
 
  The total size of the payload.  This includes the fixed length structure and any variable data at the end.
@@ -64,7 +77,6 @@ typedef struct _WINBIO_BLANK_PAYLOAD {
 ### -field WinBioHresult
 
 The status detail of the I/O operation.  This is where WINBIO error and information codes will be passed. The following table shows possible values.
-
 <table>
 <tr>
 <th>Status value</th>
@@ -100,8 +112,5 @@ The device is in the middle of a vendor-specific operation.  This should only be
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
-
-## -remarks

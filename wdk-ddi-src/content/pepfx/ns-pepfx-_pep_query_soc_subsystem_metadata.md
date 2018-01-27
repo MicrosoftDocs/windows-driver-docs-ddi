@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D823EF66-1440-45B7-A0D8-A98522AA69E1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_QUERY_SOC_SUBSYSTEM_METADATA, *PPEP_QUERY_SOC_SUBSYSTEM_METADATA, PEP_QUERY_SOC_SUBSYSTEM_METADATA
+ms.keywords: PPEP_QUERY_SOC_SUBSYSTEM_METADATA, kernel.pep_query_soc_subsystem_metadata, PEP_QUERY_SOC_SUBSYSTEM_METADATA structure [Kernel-Mode Driver Architecture], _PEP_QUERY_SOC_SUBSYSTEM_METADATA, *PPEP_QUERY_SOC_SUBSYSTEM_METADATA, pepfx/PEP_QUERY_SOC_SUBSYSTEM_METADATA, PPEP_QUERY_SOC_SUBSYSTEM_METADATA structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_QUERY_SOC_SUBSYSTEM_METADATA, PEP_QUERY_SOC_SUBSYSTEM_METADATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_QUERY_SOC_SUBSYSTEM_METADATA
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PPEP_QUERY_SOC_SUBSYSTEM_METADATA, PEP_QUERY_SOC_SUBSYSTEM_METADATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_QUERY_SOC_SUBSYSTEM_METADATA
+product: Windows
+targetos: Windows
+req.typenames: PEP_QUERY_SOC_SUBSYSTEM_METADATA, *PPEP_QUERY_SOC_SUBSYSTEM_METADATA
 ---
 
 # _PEP_QUERY_SOC_SUBSYSTEM_METADATA structure
 
 
-
 ## -description
+
+
 The <b>PEP_QUERY_SOC_SUBSYSTEM_METADATA</b> structure is used with the <b>PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</b> notification to collect optional metadata about the system on a chip (SoC) subsystem whose blocking time has just been queried.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_QUERY_SOC_SUBSYSTEM_METADATA {
@@ -58,6 +68,9 @@ typedef struct _PEP_QUERY_SOC_SUBSYSTEM_METADATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PlatformIdleStateIndex
 
@@ -89,16 +102,12 @@ This member is reserved and should be set to zero.
 [in/out] An array of pointers to <a href="..\pepfx\ns-pepfx-_pep_soc_subsystem_metadata.md">PEP_SOC_SUBSYSTEM_METADATA</a> structures.  Each entry holds one key/value metadata string-pair.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt><b>PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</b></dt>
-<dt>
+
+<b>PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</b>
+
 <a href="..\pepfx\ns-pepfx-_pep_soc_subsystem_metadata.md">PEP_SOC_SUBSYSTEM_METADATA</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\wdi_tx_complete_data.htm
 old-project: netvista
 ms.assetid: bf7951de-3368-4faf-9bae-272c6d76d1a0
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WDI_TX_COMPLETE_DATA, *PWDI_TX_COMPLETE_DATA, WDI_TX_COMPLETE_DATA
+ms.date: 1/18/2018
+ms.keywords: WDI_TX_COMPLETE_DATA, dot11wdi/PWDI_TX_COMPLETE_DATA, _WDI_TX_COMPLETE_DATA, WDI_TX_COMPLETE_DATA structure [Network Drivers Starting with Windows Vista], *PWDI_TX_COMPLETE_DATA, PWDI_TX_COMPLETE_DATA, dot11wdi/WDI_TX_COMPLETE_DATA, netvista.wdi_tx_complete_data, PWDI_TX_COMPLETE_DATA structure pointer [Network Drivers Starting with Windows Vista], netvista.wifi_tx_complete_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WDI_TX_COMPLETE_DATA
-req.alt-loc: dot11wdi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dot11wdi.h
+apiname: 
+-	WDI_TX_COMPLETE_DATA
+product: Windows
+targetos: Windows
 req.typenames: *PWDI_TX_COMPLETE_DATA, WDI_TX_COMPLETE_DATA
 ---
 
 # _WDI_TX_COMPLETE_DATA structure
 
 
-
 ## -description
+
+
 The WDI_TX_COMPLETE_DATA structure defines TX completion data.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WDI_TX_COMPLETE_DATA {
@@ -59,6 +69,9 @@ typedef struct _WDI_TX_COMPLETE_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field SeqCtl
 
@@ -94,5 +107,3 @@ Reserved for IHV use.
 
 Reserved for IHV use.
 
-
-## -remarks

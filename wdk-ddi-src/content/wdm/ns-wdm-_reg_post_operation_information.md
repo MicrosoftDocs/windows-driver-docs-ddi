@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2266e816-2060-4071-bf9f-319daefbfc50
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _REG_POST_OPERATION_INFORMATION, REG_POST_OPERATION_INFORMATION, *PREG_POST_OPERATION_INFORMATION
+ms.keywords: kstruct_d_70ca0f06-65d5-4b1b-ab66-cc44361d4e5a.xml, *PREG_POST_OPERATION_INFORMATION, PREG_POST_OPERATION_INFORMATION, wdm/REG_POST_OPERATION_INFORMATION, PREG_POST_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PREG_POST_OPERATION_INFORMATION, REG_POST_OPERATION_INFORMATION, REG_POST_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.reg_post_operation_information, _REG_POST_OPERATION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available on Microsoft Windows Server 2003 and later 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: REG_POST_OPERATION_INFORMATION
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: REG_POST_OPERATION_INFORMATION, *PREG_POST_OPERATION_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	REG_POST_OPERATION_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: *PREG_POST_OPERATION_INFORMATION, REG_POST_OPERATION_INFORMATION
 req.product: Windows 10 or later.
 ---
 
 # _REG_POST_OPERATION_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>REG_POST_OPERATION_INFORMATION</b> structure contains information about a completed registry operation that a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine can use.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _REG_POST_OPERATION_INFORMATION {
@@ -60,6 +70,9 @@ typedef struct _REG_POST_OPERATION_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Object
 
@@ -97,23 +110,22 @@ This member is reserved for future use. This member is defined for Windows Vista
 
 
 ## -remarks
+
+
 For more information about handling post-notifications, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546907">Handling Notifications</a>.
 
 For more information about registry filtering operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_reg_query_value_key_information.md">REG_QUERY_VALUE_KEY_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
  
 
  

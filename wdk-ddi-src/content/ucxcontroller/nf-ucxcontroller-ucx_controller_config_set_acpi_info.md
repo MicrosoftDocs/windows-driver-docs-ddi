@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D060CE9D-B23A-4E6C-9CC3-1DDAB0583FF8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCX_CONTROLLER_CONFIG_SET_ACPI_INFO
+ms.keywords: UCX_CONTROLLER_CONFIG_SET_ACPI_INFO, buses._ucx_controller_config_set_acpi_info, ucxcontroller/UCX_CONTROLLER_CONFIG_SET_ACPI_INFO, UCX_CONTROLLER_CONFIG_SET_ACPI_INFO function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UCX_CONTROLLER_CONFIG_SET_ACPI_INFO
-req.alt-loc: Ucxcontroller.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ucxcontroller.h
+apiname: 
+-	UCX_CONTROLLER_CONFIG_SET_ACPI_INFO
+product: Windows
+targetos: Windows
 req.typenames: UCX_CONTROLLER_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # UCX_CONTROLLER_CONFIG_SET_ACPI_INFO function
 
 
-
 ## -description
+
+
 Initializes a <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a> structure with the specified values for the controller with ACPI as the parent. 
 
 
-
 ## -syntax
+
 
 ````
 __inline
@@ -59,42 +69,42 @@ void UCX_CONTROLLER_CONFIG_SET_ACPI_INFO(
 
 ## -parameters
 
-### -param Config 
+
+
+
+### -param Config
 
 A pointer to a <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a> structure to initialize.
 
 
-### -param VendorId 
+### -param VendorId
 
 A string that contains the vendor identifier for the device.
 
 
-### -param DeviceId 
+### -param DeviceId
 
 A string that specifies the device identifier assigned by the manufacturer.
 
 
-### -param RevisionId 
+### -param RevisionId
 
 A string that Specifies the revision level of the device described by the <b>DeviceID</b> member.
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
-</dt>
-<dt>
+
 <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
-</dt>
-</dl>
+
  
 
  

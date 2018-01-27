@@ -7,8 +7,8 @@ old-location: netvista\wwan_ip_configuration_flags.htm
 old-project: netvista
 ms.assetid: 5157F48F-E1D3-4B22-BBB0-0FC7965C794B
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WWAN_IP_CONFIGURATION_FLAGS, WWAN_IP_CONFIGURATION_FLAGS
+ms.date: 1/18/2018
+ms.keywords: WWAN_IP_CONFIGURATION_FLAGS union [Network Drivers Starting with Windows Vista], WWAN_IP_CONFIGURATION_FLAGS, netvista.wwan_ip_configuration_flags, wwan/WWAN_IP_CONFIGURATION_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 8.1 and later versions of Windo
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WWAN_IP_CONFIGURATION_FLAGS
-req.alt-loc: wwan.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wwan.h
+apiname: 
+-	WWAN_IP_CONFIGURATION_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: WWAN_IP_CONFIGURATION_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # WWAN_IP_CONFIGURATION_FLAGS structure
 
 
-
 ## -description
+
+
 The WWAN_IP_CONFIGURATION_FLAGS structure represents flags that describe the availability of the IP address, gateway, DNS server, and/or MTU information of a PDP context.
 
 
-
 ## -syntax
+
 
 ````
 typedef union {
@@ -61,12 +71,45 @@ typedef union {
 
 ## -struct-fields
 
+
+
+
+### -field AddressAvailable
+
+ 
+
+
+### -field GatewayAvailable
+
+ 
+
+
+### -field DnsServerAvailable
+
+ 
+
+
+### -field MTUAvailable
+
+ 
+
+
 ### -field Value
 
 Reserved. Do not use.
 
 
-### -field ( unnamed struct )
+##### - ( unnamed struct ).DnsServerAvailable:1
+
+A DNS server is available.
+
+
+##### - ( unnamed struct ).GatewayAvailable:1
+
+A gateway is available.
+
+
+#### - ( unnamed struct )
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -86,40 +129,23 @@ struct
 </tr>
 </table></span></div>
 
-### -field AddressAvailable:1
+##### - ( unnamed struct ).AddressAvailable:1
 
 An address is available.
 
 
-### -field GatewayAvailable:1
-
-A gateway is available.
-
-
-### -field DnsServerAvailable:1
-
-A DNS server is available.
-
-
-### -field MTUAvailable:1
+##### - ( unnamed struct ).MTUAvailable:1
 
 An MTU is available.
 
-</dd>
-</dl>
-
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wwan\ns-wwan-wwan_ip_configuration_flags.md">WWAN_IP_CONFIGURATION_FLAGS</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_IP_CONFIGURATION_FLAGS union%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_IP_CONFIGURATION_FLAGS union%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

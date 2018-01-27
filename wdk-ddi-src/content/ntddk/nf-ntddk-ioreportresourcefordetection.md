@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 83b8e0b0-112c-4263-91f8-0c2e20dd76a4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoReportResourceForDetection
+ms.keywords: IoReportResourceForDetection, kernel.ioreportresourcefordetection, k104_e2a8d386-d1bb-4bf5-aa30-d3a905e91174.xml, IoReportResourceForDetection routine [Kernel-Mode Driver Architecture], ntddk/IoReportResourceForDetection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoReportResourceForDetection
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoReportResourceForDetection
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # IoReportResourceForDetection function
 
 
-
 ## -description
+
+
 The <b>IoReportResourceForDetection</b> routine claims hardware resources in the configuration registry for a legacy device.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS IoReportResourceForDetection(
@@ -59,6 +69,9 @@ NTSTATUS IoReportResourceForDetection(
 
 
 ## -parameters
+
+
+
 
 ### -param DriverObject [in]
 
@@ -96,18 +109,43 @@ Pointer to a caller-supplied Boolean value that is set to <b>TRUE</b> on return 
 
 
 ## -returns
+
+
 <b>IoReportResourceForDetection</b> returns STATUS_SUCCESS if the resources are claimed. Possible error return values include the following.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_CONFLICTING_ADDRESSES</b></dt>
-</dl>The resources could not be claimed because they are already in use or are needed for a PnP-enumerable device.
+</dl>
+</td>
+<td width="60%">
+The resources could not be claimed because they are already in use or are needed for a PnP-enumerable device.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>The <i>DeviceList</i> or <i>DriverList</i> is invalid.
+</dl>
+</td>
+<td width="60%">
+The <i>DeviceList</i> or <i>DriverList</i> is invalid.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This routine is for drivers that detect earlier hardware which cannot be enumerated by Plug and Play (PnP).
 
 If a driver supports only PnP hardware, it does no detection and therefore does not call <b>IoReportResourceForDetection</b>. The PnP system enumerates each PnP device, assigns resources to the device, and passes those resources to the device's drivers in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a> request.
@@ -137,15 +175,13 @@ A driver can call this routine more than once for a given device. If one set of 
 Callers of <b>IoReportResourceForDetection</b> must be running at IRQL = PASSIVE_LEVEL in the context of a system thread.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-ioreportdetecteddevice.md">IoReportDetectedDevice</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+
  
 
  

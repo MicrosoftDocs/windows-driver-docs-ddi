@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b1fa148e-73e2-437f-bd3a-e879bd457c76
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoStartPacket
+ms.keywords: wdm/IoStartPacket, IoStartPacket, IoStartPacket routine [Kernel-Mode Driver Architecture], kernel.iostartpacket, k104_d27461b9-32fe-4d7b-853d-fd110fcdb644.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoStartPacket
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoStartPacket
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # IoStartPacket function
 
 
-
 ## -description
+
+
 The <b>IoStartPacket</b> routine calls the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine with the given IRP or inserts the IRP into the device queue associated with the given device object if the device is already busy. 
 
 
-
 ## -syntax
+
 
 ````
 VOID IoStartPacket(
@@ -56,6 +66,9 @@ VOID IoStartPacket(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceObject [in]
 
@@ -78,10 +91,15 @@ Specifies the entry point for a driver-supplied <a href="https://msdn.microsoft.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 If the driver is already busy processing a request for the target device object, then the packet is queued in the device queue. Otherwise, this routine calls the driver's <i>StartIo</i> routine with the specified IRP.
 
 If a non-NULL <i>CancelFunction</i> pointer is supplied, it is set in the IRP so the driver's <i>Cancel</i> routine is called if the IRP is canceled before its completion.
@@ -91,24 +109,19 @@ Drivers that do not have a <i>StartIo</i> routine cannot call <b>IoStartPacket</
 Callers of <b>IoStartPacket</b> must be running at IRQL &lt;= DISPATCH_LEVEL. Usually, this routine is called from a device driver's Dispatch routine at IRQL = PASSIVE_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a>
+
 <a href="..\wdm\nf-wdm-iosetcancelroutine.md">IoSetCancelRoutine</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-iostartnextpacket.md">IoStartNextPacket</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-iostartnextpacketbykey.md">IoStartNextPacketByKey</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="..\wdm\nf-wdm-iostartnextpacketbykey.md">IoStartNextPacketByKey</a>
+
+<a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A64D2A22-5702-4931-AF2F-58BB919D764E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_TEXTURE_LAYOUT_CAPS_0026, D3D12DDI_TEXTURE_LAYOUT_CAPS_0026
+ms.keywords: D3D12DDI_TEXTURE_LAYOUT_CAPS_0026, d3d12umddi/D3D12DDI_TEXTURE_LAYOUT_CAPS_0026, D3D12DDI_TEXTURE_LAYOUT_CAPS_0026 structure [Display Devices], display.d3d12ddi_texture_layout_caps_0026
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_TEXTURE_LAYOUT_CAPS_0026
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_TEXTURE_LAYOUT_CAPS_0026
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_TEXTURE_LAYOUT_CAPS_0026
 ---
 
 # D3D12DDI_TEXTURE_LAYOUT_CAPS_0026 structure
 
 
-
 ## -description
+
+
 Specifies texture layout capabilities.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDI_TEXTURE_LAYOUT_CAPS_0026 {
@@ -57,6 +67,9 @@ typedef struct D3D12DDI_TEXTURE_LAYOUT_CAPS_0026 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DeviceDependentLayoutCount
 
@@ -82,5 +95,3 @@ Whether the texture layout supports row major texture.
 
 Whether the texture layout can choose any swizzle pattern for a subresource. 
 
-
-## -remarks

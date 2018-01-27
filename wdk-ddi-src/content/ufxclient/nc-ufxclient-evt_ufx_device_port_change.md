@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: A231F47E-C7A2-4C21-99F8-EC856C6F6D88
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+ms.keywords: buses.evt_ufx_device_port_change, EvtUfxDevicePortChange callback function [Buses], EvtUfxDevicePortChange, EVT_UFX_DEVICE_PORT_CHANGE, EVT_UFX_DEVICE_PORT_CHANGE, ufxclient/EvtUfxDevicePortChange, PFN_UFX_DEVICE_PORT_CHANGE callback function pointer [Buses], PFN_UFX_DEVICE_PORT_CHANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: PFN_UFX_DEVICE_PORT_CHANGE
-req.alt-loc: Ufxclient.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Ufxclient.h
+apiname: 
+-	PFN_UFX_DEVICE_PORT_CHANGE
+product: Windows
+targetos: Windows
+req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
 # EVT_UFX_DEVICE_PORT_CHANGE callback
 
 
-
 ## -description
+
+
 The client driver's implementation to update the type of the new port to which the USB device is connected.
 
 
-
 ## -prototype
+
 
 ````
 EVT_UFX_DEVICE_PORT_CHANGE EvtUfxDevicePortChange;
@@ -61,21 +71,35 @@ typedef EVT_UFX_DEVICE_PORT_CHANGE PFN_UFX_DEVICE_PORT_CHANGE;
 
 ## -parameters
 
-### -param UfxDevice [in]
+
+
+
+
+
+
+
+
+
+#### - UfxDevice [in]
 
 The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
 
 
-### -param NewPort [in]
+#### - NewPort [in]
 
 A USBFN_PORT_STATE-typed flag that indicates the type of the new port.
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_PORT_CHANGE</i> implementation with the USB function class extension (UFX) by calling the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a> method.
 
 UFX invokes this event callback to inform the client driver about the new state of the device.
@@ -83,15 +107,13 @@ UFX invokes this event callback to inform the client driver about the new state 
 The client driver indicates completion of this event by calling the <a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a> method.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
-</dt>
-<dt>
+
 <a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
-</dt>
-</dl>
+
  
 
  

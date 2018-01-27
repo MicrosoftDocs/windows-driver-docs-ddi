@@ -7,8 +7,8 @@ old-location: netvista\wwan_uicc_passthrough_action.htm
 old-project: netvista
 ms.assetid: 4C9293CB-D92D-4C31-929F-16C1B8918933
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WWAN_UICC_PASSTHROUGH_ACTION, WWAN_UICC_PASSTHROUGH_ACTION, *PWWAN_UICC_PASSTHROUGH_ACTION
+ms.date: 1/18/2018
+ms.keywords: WWAN_UICC_PASSTHROUGH_ACTION enumeration [Network Drivers Starting with Windows Vista], WwanUiccPassThroughDisable, WwanUiccPassThroughActionMaximum, wwan/WWAN_UICC_PASSTHROUGH_ACTION, wwan/WwanUiccPassThroughActionMaximum, WwanUiccPassThroughEnable, *PWWAN_UICC_PASSTHROUGH_ACTION, wwan/WwanUiccPassThroughDisable, wwan/WwanUiccPassThroughEnable, netvista.wwan_uicc_passthrough_action, _WWAN_UICC_PASSTHROUGH_ACTION, WWAN_UICC_PASSTHROUGH_ACTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WWAN_UICC_PASSTHROUGH_ACTION
-req.alt-loc: wwan.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: WWAN_UICC_PASSTHROUGH_ACTION, *PWWAN_UICC_PASSTHROUGH_ACTION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wwan.h
+apiname: 
+-	WWAN_UICC_PASSTHROUGH_ACTION
+product: Windows
+targetos: Windows
+req.typenames: *PWWAN_UICC_PASSTHROUGH_ACTION, WWAN_UICC_PASSTHROUGH_ACTION
 req.product: Windows 10 or later.
 ---
 
 # _WWAN_UICC_PASSTHROUGH_ACTION enumeration
 
 
-
 ## -description
+
+
 The <b>WWAN_UICC_PASSTHROUGH_ACTION</b> enumeration defines the passthrough action specified by the MB host for a modem miniport adapter after it resets a UICC smart card.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WWAN_UICC_PASSTHROUGH_ACTION { 
@@ -56,6 +66,9 @@ typedef enum _WWAN_UICC_PASSTHROUGH_ACTION {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WwanUiccPassThroughDisable
 
@@ -73,21 +86,15 @@ The maximum value for this enumeration. This value might change in future versio
      header files and binaries.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wwan\ns-wwan-_wwan_set_uicc_reset.md">WWAN_SET_UICC_RESET</a>
-</dt>
-<dt>
+
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_UICC_PASSTHROUGH_ACTION enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_UICC_PASSTHROUGH_ACTION enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

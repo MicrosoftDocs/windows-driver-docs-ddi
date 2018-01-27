@@ -7,8 +7,8 @@ old-location: netvista\rilsmsmsginflags.htm
 old-project: netvista
 ms.assetid: aaa7967a-dfbc-4c4c-a309-095628fae6c0
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSMSMSGINFLAGS, RILSMSMSGINFLAGS
+ms.date: 1/18/2018
+ms.keywords: netvista.rilsmsmsginflags, RILSMSMSGINFLAGS enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_SMSMSGIN_ALL, RILSMSMSGINFLAGS, RIL_SMSMSGIN_IMS, RIL_SMSMSGIN_ALL, ntddrilapitypes/RILSMSMSGINFLAGS, ntddrilapitypes/RIL_SMSMSGIN_IMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSMSMSGINFLAGS
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILSMSMSGINFLAGS
+product: Windows
+targetos: Windows
 req.typenames: RILSMSMSGINFLAGS
 ---
 
 # RILSMSMSGINFLAGS enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILSMSMSGINFLAGS { 
@@ -55,10 +65,17 @@ typedef enum _RILSMSMSGINFLAGS {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_SMSMSGIN_NONE
+
+
+
 ### -field RIL_SMSMSGIN_IMS
+
 
 
 ### -field RIL_SMSMSGIN_ALL
 
 
-## -remarks

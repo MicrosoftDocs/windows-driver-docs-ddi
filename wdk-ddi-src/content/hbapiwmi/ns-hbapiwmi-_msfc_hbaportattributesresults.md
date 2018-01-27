@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cd6797a3-3128-4100-81f0-82e4d6f209b4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSFC_HBAPortAttributesResults, *PMSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults
+ms.keywords: PMSFC_HBAPortAttributesResults structure pointer [Storage Devices], storage.msfc_hbaportattributesresults, structs-Fibre_976d4a28-f7d1-4a94-849c-f917f5bce339.xml, hbapiwmi/MSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults structure [Storage Devices], *PMSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults, _MSFC_HBAPortAttributesResults, PMSFC_HBAPortAttributesResults, hbapiwmi/PMSFC_HBAPortAttributesResults
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSFC_HBAPortAttributesResults
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PMSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	MSFC_HBAPortAttributesResults
+product: Windows
+targetos: Windows
+req.typenames: MSFC_HBAPortAttributesResults, *PMSFC_HBAPortAttributesResults
 ---
 
 # _MSFC_HBAPortAttributesResults structure
 
 
-
 ## -description
+
+
 The  structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a> WMI method to report the attributes for a specified remote fibre channel port.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSFC_HBAPortAttributesResults {
@@ -66,6 +76,9 @@ typedef struct _MSFC_HBAPortAttributesResults {
 
 ## -struct-fields
 
+
+
+
 ### -field NodeWWN
 
 Contains a 64 bit world-wide name (WWN) that uniquely identifies the fibre channel node associated with <b>PortWWN</b>. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
@@ -84,7 +97,6 @@ Contains the current fibre channel address of <b>PortWWN</b>. The high order byt
 ### -field PortType
 
 Indicates the port type. This member must have one of the following values: 
-
 <table>
 <tr>
 <th>Value</th>
@@ -200,14 +212,12 @@ Point to point.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field PortState
 
 Contains the state of the port indicated by <b>PortWWN</b>. This member must have one of the following values:
-
 <table>
 <tr>
 <th>Value</th>
@@ -293,8 +303,7 @@ Loopback.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field PortSupportedClassofService
@@ -320,7 +329,6 @@ Indicates the signaling bit rates at which <b>PortWWN</b> can operate. For a lis
 ### -field PortSpeed
 
 Indicates the signaling bit rates at which <b>PortWWN</b> is currently operating. This member must have one of the following values: 
-
 <table>
 <tr>
 <th>Value</th>
@@ -386,8 +394,7 @@ The speed at which the port will operate has not yet been established.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field PortMaxFrameSize
@@ -405,15 +412,10 @@ Contains the name identifier for the fabric to which <b>PortWWN</b> is attached.
 Indicates the number of ports that are visible to <b>PortWWN</b>. For a more detailed explanation of the sorts of ports that this number takes into consideration, see the T11 committee's specification for <i>Fibre Channel HBA API</i> (FC-HBA). 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
-</dt>
-</dl>
+
  
 
  

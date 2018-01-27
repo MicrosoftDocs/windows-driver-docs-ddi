@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C7A2CECA-AAE5-4804-92FF-C47984BA38AF
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_QUERYDISPLAYIDIN, DXGK_QUERYDISPLAYIDIN
+ms.keywords: _DXGK_QUERYDISPLAYIDIN, display.dxgk_querydisplayidin, DXGK_QUERYDISPLAYIDIN structure [Display Devices], DXGK_QUERYDISPLAYIDIN, d3dkmddi/DXGK_QUERYDISPLAYIDIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_QUERYDISPLAYIDIN
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_QUERYDISPLAYIDIN
+product: Windows
+targetos: Windows
 req.typenames: DXGK_QUERYDISPLAYIDIN
 ---
 
 # _DXGK_QUERYDISPLAYIDIN structure
 
 
-
 ## -description
+
+
 Used to query a display ID.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_QUERYDISPLAYIDIN {
@@ -54,9 +64,10 @@ typedef struct _DXGK_QUERYDISPLAYIDIN {
 
 ## -struct-fields
 
+
+
+
 ### -field TargetId
 
 The ID being queried.
 
-
-## -remarks

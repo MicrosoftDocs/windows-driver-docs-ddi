@@ -7,8 +7,8 @@ old-location: netvista\rilgppcause.htm
 old-project: netvista
 ms.assetid: 4072183a-36b5-4a77-a1a5-95b97950b01a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILGPPCAUSE, *LPRILGPPCAUSE, RILGPPCAUSE
+ms.date: 1/18/2018
+ms.keywords: netvista.rilgppcause, RILGPPCAUSE structure [Network Drivers Starting with Windows Vista], *LPRILGPPCAUSE, ntddrilapitypes/RILGPPCAUSE, RILGPPCAUSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILGPPCAUSE
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILGPPCAUSE
+product: Windows
+targetos: Windows
 req.typenames: *LPRILGPPCAUSE, RILGPPCAUSE
 ---
 
 # RILGPPCAUSE structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILGPPCAUSE {
@@ -55,10 +65,13 @@ typedef struct _RILGPPCAUSE {
 
 ## -struct-fields
 
+
+
+
 ### -field dwLocation
+
 
 
 ### -field dwCauseValue
 
 
-## -remarks

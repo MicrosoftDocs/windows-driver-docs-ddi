@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 627FB3E6-3C5D-4104-B129-08D3EC0B963E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES
+ms.keywords: display.dxgk_buildpagingbuffer_copypagetableentries, d3dkmddi/DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES
+product: Windows
+targetos: Windows
 req.typenames: DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES
 ---
 
 # _DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES structure
 
 
-
 ## -description
+
+
 <b>DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</b> describes the operation used copy page table entries from one location to another. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES {
@@ -55,6 +65,9 @@ typedef struct _DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES {
 
 ## -struct-fields
 
+
+
+
 ### -field NumRanges
 
 The number of elements in the <b>pRanges</b> array.
@@ -65,18 +78,12 @@ The number of elements in the <b>pRanges</b> array.
 A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copy_range.md">DXGK_BUILDPAGINGBUFFER_COPY_RANGE</a> structure describing each range of page table entries to copy.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copy_range.md">DXGK_BUILDPAGINGBUFFER_COPY_RANGE</a>
-</dt>
-</dl>
+
  
 
  

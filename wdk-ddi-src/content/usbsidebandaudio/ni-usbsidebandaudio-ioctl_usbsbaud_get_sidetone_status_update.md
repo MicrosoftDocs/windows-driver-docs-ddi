@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: E9A20241-99AE-431B-9015-7542A66AC073
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _USBSCAN_TIMEOUT, *PUSBSCAN_TIMEOUT, USBSCAN_TIMEOUT
+ms.keywords: audio.ioctl_usbsbaud_get_sidetone_status_update, IOCTL_USBSBAUD_GET_SIDETONE_STATUS_UPDATE control code [Audio Devices], IOCTL_USBSBAUD_GET_SIDETONE_STATUS_UPDATE, usbsidebandaudio/IOCTL_USBSBAUD_GET_SIDETONE_STATUS_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_USBSBAUD_GET_SIDETONE_STATUS_UPDATE
-req.alt-loc: USBSidebandAudio.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	USBSidebandAudio.h
+apiname: 
+-	IOCTL_USBSBAUD_GET_SIDETONE_STATUS_UPDATE
+product: Windows
+targetos: Windows
 req.typenames: *PUSBSCAN_TIMEOUT, USBSCAN_TIMEOUT
 req.product: Windows 10 or later.
 ---
@@ -38,68 +47,76 @@ req.product: Windows 10 or later.
 # IOCTL_USBSBAUD_GET_SIDETONE_STATUS_UPDATE IOCTL
 
 
+##  Major Code: 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
 
 ## -description
+
+
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 TBD
 
 
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 TBD
 
 
 ### -input-buffer-length
+
 TBD
 
 
 ### -output-buffer
+
 TBD
 
 
 ### -output-buffer-length
-TBD
-
-TBD
 
 TBD
 
 
 ### -in-out-buffer
 
-<text></text>
+TBD
+
 
 ### -inout-buffer-length
 
-<text></text>
+TBD
+
 
 ### -status-block
-I/O Status block
+
 <b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
 
 
 ## -remarks
+
+
 TBD
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
-</dt>
-<dt>
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-</dt>
-<dt>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
-</dt>
-</dl>
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
  
 
  

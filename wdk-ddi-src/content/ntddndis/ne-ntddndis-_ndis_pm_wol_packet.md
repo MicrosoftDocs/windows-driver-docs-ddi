@@ -7,8 +7,8 @@ old-location: netvista\ndis_pm_wol_packet.htm
 old-project: netvista
 ms.assetid: 154a9d3d-4bb9-4c63-a820-816b254c69c2
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_PM_WOL_PACKET, *PNDIS_PM_WOL_PACKET, NDIS_PM_WOL_PACKET
+ms.date: 1/18/2018
+ms.keywords: NdisPMWoLPacketUnspecified, NDIS_PM_WOL_PACKET enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisPMWoLPacketMagicPacket, NdisPMWoLPacketIPv4TcpSyn, *PNDIS_PM_WOL_PACKET, ntddndis/NDIS_PM_WOL_PACKET, NdisPMWoLPacketMagicPacket, NdisPMWoLPacketEapolRequestIdMessage, PNDIS_PM_WOL_PACKET enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisPMWoLPacketBitmapPattern, PNDIS_PM_WOL_PACKET, ntddndis/PNDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketIPv4TcpSyn, _NDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketUnspecified, NDIS_PM_WOL_PACKET, NdisPMWoLPacketIPv6TcpSyn, ntddndis/NdisPMWoLPacketEapolRequestIdMessage, netvista.ndis_pm_wol_packet, ntddndis/NdisPMWoLPacketMaximum, miniport_power_management_ref_4788c1ee-7ed8-49f2-950b-7a820223bc32.xml, NdisPMWoLPacketMaximum, NdisPMWoLPacketBitmapPattern, ntddndis/NdisPMWoLPacketIPv6TcpSyn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.20 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_PM_WOL_PACKET
-req.alt-loc: ntddndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PNDIS_PM_WOL_PACKET, NDIS_PM_WOL_PACKET
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddndis.h
+apiname: 
+-	NDIS_PM_WOL_PACKET
+product: Windows
+targetos: Windows
+req.typenames: NDIS_PM_WOL_PACKET, *PNDIS_PM_WOL_PACKET
 ---
 
 # _NDIS_PM_WOL_PACKET enumeration
 
 
-
 ## -description
+
+
 The <b>NDIS_PM_WOL_PACKET</b> enumeration identifies the type of a wake-on-LAN (WOL) packet.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _NDIS_PM_WOL_PACKET { 
@@ -60,6 +70,9 @@ typedef enum _NDIS_PM_WOL_PACKET {
 
 ## -enum-fields
 
+
+
+
 ### -field NdisPMWoLPacketUnspecified
 
 The WOL packet type is not specified.
@@ -75,7 +88,7 @@ Specifies a bitmap pattern. This packet type is specified in the
 ### -field NdisPMWoLPacketMagicPacket
 
 WOL packets based on WOL magic packet. The media access control (MAC) address in the 
-     <a href="netvista.wol_methods_in_windows_7">magic packet</a> is the current MAC
+     <a href="https://technet.microsoft.com/en-us/windows/hh147630.aspx">magic packet</a> is the current MAC
      address of the network adapter.
 
 
@@ -104,20 +117,23 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 ## -remarks
+
+
 The <b>NDIS_PM_WOL_PACKET</b> enumeration is used in the 
     <b>WoLPacketType</b> member of the 
     <a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a> structure.
+<div class="alert"><b>Note</b>  The <b>NDIS_PM_WOL_PACKET</b> enumeration type specifies packet based wake-on-LAN (WOL)
+    patterns. Wake-on-LAN that is based on NETBIOS over TCP is obsolete and, if necessary, it can be set with
+    the pattern bitmap method.</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PM_WOL_PACKET enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PM_WOL_PACKET enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

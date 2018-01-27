@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DD8A7E50-664B-49B8-905B-A5BE02A48DCE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _DEVICE_RESET_INTERFACE_STANDARD, *PDEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD
+ms.keywords: DEVICE_RESET_INTERFACE_STANDARD, wdm/PDEVICE_RESET_INTERFACE_STANDARD, _DEVICE_RESET_INTERFACE_STANDARD, PDEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture], *PDEVICE_RESET_INTERFACE_STANDARD, wdm/DEVICE_RESET_INTERFACE_STANDARD, kernel.device_reset_interface_standard, PDEVICE_RESET_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DEVICE_RESET_INTERFACE_STANDARD
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	DEVICE_RESET_INTERFACE_STANDARD
+product: Windows
+targetos: Windows
 req.typenames: *PDEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _DEVICE_RESET_INTERFACE_STANDARD structure
 
 
-
 ## -description
+
+
 The <b>DEVICE_RESET_INTERFACE_STANDARD</b> structure enables function drivers to reset and recover malfunctioning devices. This structure describes the <a href="https://msdn.microsoft.com/library/windows/hardware/dn928420">GUID_DEVICE_RESET_INTERFACE_STANDARD</a> interface.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DEVICE_RESET_INTERFACE_STANDARD {
@@ -60,6 +70,9 @@ typedef struct _DEVICE_RESET_INTERFACE_STANDARD {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -91,38 +104,39 @@ A pointer to an <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDeref
 A pointer to the interface's <a href="https://msdn.microsoft.com/library/windows/hardware/dn939354">DeviceReset</a> routine. This routine can be used by function drivers to attempt to reset and recover a malfunctioning device.
 
 
+### -field SupportedResetTypes
+
+ 
+
+
 ### -field Reserved
 
 This member is reserved for future use.
 
 
 ## -remarks
+
+
 The <b>DEVICE_RESET_INTERFACE_STANDARD</b> structure is an extension of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure. A driver obtains a pointer to the <b>DEVICE_RESET_INTERFACE_STANDARD</b> structure by sending an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a> IRP to its bus driver with <b>InterfaceType</b> set to GUID_DEVICE_RESET_INTERFACE_STANDARD.
 
 For more information about the purpose of this interface, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn928420">GUID_DEVICE_RESET_INTERFACE_STANDARD</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn928420">GUID_DEVICE_RESET_INTERFACE_STANDARD</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn939354">DeviceReset</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+
 <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn939354">DeviceReset</a>
+
 <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn928420">GUID_DEVICE_RESET_INTERFACE_STANDARD</a>
+
  
 
  

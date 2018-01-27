@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b5c3a750-7ccb-42ab-9648-17c43e390ec8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_DRAWPRIMITIVE, D3DDDIARG_DRAWPRIMITIVE
+ms.keywords: _D3DDDIARG_DRAWPRIMITIVE, display.d3dddiarg_drawprimitive, UMDisplayDriver_param_Structs_19d7b078-8ea3-4b3a-982a-1163643df142.xml, D3DDDIARG_DRAWPRIMITIVE structure [Display Devices], d3dumddi/D3DDDIARG_DRAWPRIMITIVE, D3DDDIARG_DRAWPRIMITIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_DRAWPRIMITIVE
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_DRAWPRIMITIVE
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_DRAWPRIMITIVE
 ---
 
 # _D3DDDIARG_DRAWPRIMITIVE structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_DRAWPRIMITIVE structure describes a nonindexed primitive to draw. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_DRAWPRIMITIVE {
@@ -55,6 +65,9 @@ typedef struct _D3DDDIARG_DRAWPRIMITIVE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PrimitiveType
 
@@ -72,17 +85,18 @@ typedef struct _D3DDDIARG_DRAWPRIMITIVE {
 
 
 ## -remarks
+
+
 The Microsoft Direct3D runtime does not transform the vertex data before passing a pointer to the description of the vertex data in the <i>pData</i> parameter in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive.md">DrawPrimitive</a> function. 
 
 When the runtime specifies triangle-edge flags in the value that is pointed to by the <i>pFlagBuffer</i> parameter in the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive.md">DrawPrimitive</a> call, the runtime also specifies to draw one or more triangles (that is, the runtime specifies the D3DPT_TRIANGLEFAN value in the <b>PrimitiveType</b> member and from 0x00000001 to 0xFFFFFFFF in the <b>PrimitiveCount</b> member of D3DDDIARG_DRAWPRIMITIVE that is pointed to by the <i>pData</i> parameter in the <b>DrawPrimitive</b> call).
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive.md">DrawPrimitive</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: e7e9fdae-4951-4878-a5b6-81d681eca472
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: _ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, *PACPI_ENUM_CHILDREN_OUTPUT_BUFFER
+ms.keywords: _ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, acpiioct/ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, *PACPI_ENUM_CHILDREN_OUTPUT_BUFFER, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure [ACPI Devices], acpi.acpi_enum_children_output_buffer, acpi-meth-eval-ref_cb8acde5-31cb-4b32-9337-e196db32de8b.xml, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ACPI_ENUM_CHILDREN_OUTPUT_BUFFER
-req.alt-loc: Acpiioct.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Acpiioct.h
+apiname: 
+-	ACPI_ENUM_CHILDREN_OUTPUT_BUFFER
+product: Windows
+targetos: Windows
 req.typenames: ACPI_ENUM_CHILDREN_OUTPUT_BUFFER
 ---
 
 # _ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure
 
 
-
 ## -description
+
+
 The ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure contains an array of object names in an ACPI namespace. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ACPI_ENUM_CHILDREN_OUTPUT_BUFFER {
@@ -55,6 +65,9 @@ typedef struct _ACPI_ENUM_CHILDREN_OUTPUT_BUFFER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Signature
 
@@ -72,20 +85,20 @@ An array of elements of type ACPI_ENUM_CHILD. Each ACPI_ENUM_CHILD structure con
 
 
 ## -remarks
+
+
 A driver for a device uses an <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_enum_children.md">IOCTL_ACPI_ENUM_CHILDREN</a> request to enumerate the child objects of the device. The enumerated child objects can be devices or any object of a supplied name. This request returns an ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure, which includes the <b>Children</b> member that contains an array of <a href="..\acpiioct\ns-acpiioct-_acpi_enum_child.md">ACPI_ENUM_CHILD</a> structures. 
 
 For information about how to enumerate child objects of a device, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/enumerating-child-devices-and-control-methods">Enumerating Child Devices and Control Methods</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\acpiioct\ns-acpiioct-_acpi_enum_child.md">ACPI_ENUM_CHILD</a>
-</dt>
-<dt>
+
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_enum_children.md">IOCTL_ACPI_ENUM_CHILDREN</a>
-</dt>
-</dl>
+
  
 
  

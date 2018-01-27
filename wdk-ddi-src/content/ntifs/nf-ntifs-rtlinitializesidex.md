@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 367D8BC1-07F4-474E-913A-5F825320A70C
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlInitializeSidEx
+ms.keywords: RtlInitializeSidEx, RtlInitializeSidEx routine [Installable File System Drivers], ntifs/RtlInitializeSidEx, ifsk.rtlinitializesidex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Windows 10 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlInitializeSidEx
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlInitializeSidEx
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlInitializeSidEx function
 
 
-
 ## -description
+
+
 The <b>RtlInitializeSidEx</b> routine initializes a pre-allocated security identifier (SID) structure. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlInitializeSidEx(
@@ -56,6 +66,9 @@ NTSTATUS RtlInitializeSidEx(
 
 
 ## -parameters
+
+
+
 
 ### -param Sid [out]
 
@@ -72,39 +85,67 @@ Pointer to an <a href="..\ntifs\ns-ntifs-_sid_identifier_authority.md">SID_IDENT
 Number of sub-authorities to set in the SID.
 
 
-### -param ... 
+### -param param
+
+TBD
+
+
+
+####### - ...
 
 The values to set each sub-authority. The caller must specify the SubAuthorityCount argument.
 
 
 ## -returns
+
+
 <b>RtlInitializeSid</b> returns one of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The SID was successfully initialized.
+</dl>
+</td>
+<td width="60%">
+The SID was successfully initialized.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The specified <i>SubAuthorityCount</i> value is invalid.
+</dl>
+</td>
+<td width="60%">
+The specified <i>SubAuthorityCount</i> value is invalid.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_sid_identifier_authority.md">SID_IDENTIFIER_AUTHORITY</a>
-</dt>
-</dl>
+
  
 
  

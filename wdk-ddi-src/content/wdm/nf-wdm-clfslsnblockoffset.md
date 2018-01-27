@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8b2cf728-8859-4b7d-99f0-2ee7604ab480
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsLsnBlockOffset
+ms.keywords: ClfsLsnBlockOffset routine [Kernel-Mode Driver Architecture], ClfsLsnBlockOffset, Clfs_700ff9e8-40ea-4659-b4a5-99432fb1577c.xml, wdm/ClfsLsnBlockOffset, kernel.clfslsnblockoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ClfsLsnBlockOffset
-req.alt-loc: Clfs.sys,Ext-MS-Win-fs-clfs-l1-1-0.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Clfs.sys
+-	Ext-MS-Win-fs-clfs-l1-1-0.dll
+apiname: 
+-	ClfsLsnBlockOffset
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ClfsLsnBlockOffset function
 
 
-
 ## -description
+
+
 The <b>ClfsLsnBlockOffset</b> routine returns the sector-aligned block offset contained in a specified LSN.
 
 
-
 ## -syntax
+
 
 ````
 ULONG ClfsLsnBlockOffset(
@@ -55,33 +66,38 @@ ULONG ClfsLsnBlockOffset(
 
 ## -parameters
 
+
+
+
 ### -param plsn [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure from which the block offset is retrieved.
 
 
 ## -returns
+
+
 <b>ClfsLsnBlockOffset</b> returns the block offset contained in the LSN that is supplied by the caller.
 
 
+
 ## -remarks
+
+
 The block offset returned by this routine is a multiple of the sector size on the stable storage medium. For example, if the sector size is 1024 bytes, the block offset is a multiple of 1024. 
 
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-clfslsncreate.md">ClfsLsnCreate</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-clfslsncontainer.md">ClfsLsnContainer</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-clfslsnrecordsequence.md">ClfsLsnRecordSequence</a>
-</dt>
-</dl>
+
  
 
  

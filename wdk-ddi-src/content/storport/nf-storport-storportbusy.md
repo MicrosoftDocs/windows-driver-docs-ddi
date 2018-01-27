@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 81e5b26d-78b5-4ee7-a47c-fc92d01752d1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortBusy
+ms.keywords: storport/StorPortBusy, storage.storportbusy, StorPortBusy, StorPortBusy routine [Storage Devices], storprt_b4765f8e-c48f-4920-bd1a-1ff9dbdd8656.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortBusy
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortBusy
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortBusy function
 
 
-
 ## -description
+
+
 The <b>StorPortBusy</b> routine notifies the port driver that the adapter is currently busy, handling outstanding requests. 
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API BOOLEAN StorPortBusy(
@@ -55,6 +66,9 @@ STORPORT_API BOOLEAN StorPortBusy(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -67,21 +81,25 @@ Indicates the number of requests that the adapter must complete before resuming 
 
 
 ## -returns
+
+
 <b>StorPortBusy</b> returns <b>TRUE</b> if the miniport driver succeeded in notifying the port driver, <b>FALSE</b> if not.
 
 
+
 ## -remarks
+
+
 The Storport driver will hold any number of requests until the adapter has completed enough outstanding requests so that it may continue processing requests. 
 
 The library of support routines provided by the SCSI Port driver does not include any routine similar to this one. This functionality is only available with the Storport driver library. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\nf-storport-storportready.md">StorPortReady</a>
-</dt>
-</dl>
+
  
 
  

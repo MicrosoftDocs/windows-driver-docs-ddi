@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: EEE091E4-29D1-4C6F-B543-C54736660CCA
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _PCNOTIFICATION_BUFFER, PCNOTIFICATION_BUFFER, *PPCNOTIFICATION_BUFFER
+ms.keywords: _PCNOTIFICATION_BUFFER, PCNOTIFICATION_BUFFER structure [Audio Devices], *PPCNOTIFICATION_BUFFER, PPCNOTIFICATION_BUFFER structure pointer [Audio Devices], portcls/PPCNOTIFICATION_BUFFER, PPCNOTIFICATION_BUFFER, portcls/PCNOTIFICATION_BUFFER, audio.pcnotification_buffer, PCNOTIFICATION_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PCNOTIFICATION_BUFFER
-req.alt-loc: Portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Portcls.h
+apiname: 
+-	PCNOTIFICATION_BUFFER
+product: Windows
+targetos: Windows
 req.typenames: PCNOTIFICATION_BUFFER, *PPCNOTIFICATION_BUFFER
 ---
 
 # _PCNOTIFICATION_BUFFER structure
 
 
-
 ## -description
+
+
 The notification buffer used by <a href="..\portcls\nn-portcls-iportclsnotifications.md">IPortClsNotifications</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PCNOTIFICATION_BUFFER {
@@ -54,20 +64,18 @@ typedef struct _PCNOTIFICATION_BUFFER {
 
 ## -struct-fields
 
+
+
+
 ### -field NotificationBuffer
 
 The notification buffer used by <a href="..\portcls\nn-portcls-iportclsnotifications.md">IPortClsNotifications</a>.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iportclsnotifications.md">IPortClsNotifications</a>
-</dt>
-</dl>
+
  
 
  

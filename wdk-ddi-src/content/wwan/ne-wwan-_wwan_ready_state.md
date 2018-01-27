@@ -7,8 +7,8 @@ old-location: netvista\wwan_ready_state.htm
 old-project: netvista
 ms.assetid: 46fec377-ba2c-469a-96be-23aa07079f8c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WWAN_READY_STATE, WWAN_READY_STATE, *PWWAN_READY_STATE
+ms.date: 1/18/2018
+ms.keywords: netvista.wwan_ready_state, wwan/WwanReadyStateDeviceLocked, wwan/PWWAN_READY_STATE, _WWAN_READY_STATE, WwanReadyStateSimNotInserted, wwan/WwanReadyStateBadSim, WwanReadyStateFailure, *PWWAN_READY_STATE, wwan/WwanReadyStateInitialized, WwanReadyStateBadSim, WWAN_READY_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanReadyStateNotActivated, WwanReadyStateNotActivated, WwanReadyStateDeviceLocked, PWWAN_READY_STATE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanReadyStateSimNotInserted, WwanReadyStateInitialized, WwanReadyStateOff, PWWAN_READY_STATE, wwan/WWAN_READY_STATE, WWAN_READY_STATE, wwan/WwanReadyStateOff, WwanRef_08468e16-e4da-49ff-9b2a-2cee4df6c72f.xml, wwan/WwanReadyStateFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WWAN_READY_STATE
-req.alt-loc: wwan.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: WWAN_READY_STATE, *PWWAN_READY_STATE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wwan.h
+apiname: 
+-	WWAN_READY_STATE
+product: Windows
+targetos: Windows
+req.typenames: *PWWAN_READY_STATE, WWAN_READY_STATE
 req.product: Windows 10 or later.
 ---
 
 # _WWAN_READY_STATE enumeration
 
 
-
 ## -description
+
+
 The WWAN_READY_STATE enumeration lists the different device ready-states that are supported by the MB
   device.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WWAN_READY_STATE { 
@@ -61,6 +71,9 @@ typedef enum _WWAN_READY_STATE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WwanReadyStateOff
 
@@ -104,20 +117,30 @@ Note that if a device is locked because it requires a PIN type other than PIN1 o
      <i>query</i> requests should return the PIN type needed to unlock the device.
 
 
+### -field WwanReadyStateNoEsimProfile
+
+
+
+### -field WwanReadyStateMax
+
+
+
+
 ## -remarks
+
+
 For devices that use a SIM card, this enumeration indicates if the SIM card has been initialized and
     is ready for access.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wwan\ns-wwan-_wwan_ready_info.md">WWAN_READY_INFO</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_READY_STATE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_READY_STATE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

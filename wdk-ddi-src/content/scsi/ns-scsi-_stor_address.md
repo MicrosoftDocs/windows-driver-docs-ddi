@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 464AE3EA-D941-430F-8362-B66F4D00AE50
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STOR_ADDRESS, *PSTOR_ADDRESS, STOR_ADDRESS
+ms.keywords: storage.stor_address, STOR_ADDRESS, storport/PSTOR_ADDRESS, *PSTOR_ADDRESS, STOR_ADDRESS structure [Storage Devices], PSTOR_ADDRESS structure pointer [Storage Devices], PSTOR_ADDRESS, STOR_ADDRESS_TYPE_UNKNOWN, STOR_ADDRESS_TYPE_BTL8, storport/STOR_ADDRESS, _STOR_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STOR_ADDRESS
-req.alt-loc: Storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Storport.h
+apiname: 
+-	STOR_ADDRESS
+product: Windows
+targetos: Windows
 req.typenames: *PSTOR_ADDRESS, STOR_ADDRESS
 req.product: Windows 10 or later.
 ---
@@ -38,14 +47,15 @@ req.product: Windows 10 or later.
 # _STOR_ADDRESS structure
 
 
-
 ## -description
+
+
 
    A general structure for holding a storage device address.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STOR_ADDRESS {
@@ -59,19 +69,21 @@ typedef struct _STOR_ADDRESS {
 
 ## -struct-fields
 
+
+
+
 ### -field Type
 
 The address type. This can be one of the following:
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field STOR_ADDRESS_TYPE_UNKNOWN
-
+<td width="40%"><a id="STOR_ADDRESS_TYPE_UNKNOWN"></a><a id="stor_address_type_unknown"></a><dl>
+<dt><b>STOR_ADDRESS_TYPE_UNKNOWN</b></dt>
+</dl>
 </td>
 <td width="60%">
 The address type is unknown.
@@ -79,17 +91,16 @@ The address type is unknown.
 </td>
 </tr>
 <tr>
-
-### -field STOR_ADDRESS_TYPE_BTL8
-
+<td width="40%"><a id="STOR_ADDRESS_TYPE_BTL8"></a><a id="stor_address_type_btl8"></a><dl>
+<dt><b>STOR_ADDRESS_TYPE_BTL8</b></dt>
+</dl>
 </td>
 <td width="60%">
 The address is an 8-bit Bus-Target-LUN address.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Port
@@ -107,18 +118,12 @@ The byte length of the <b>AddressData</b>. If <b>Type</b> is set to <b>STOR_ADDR
 The address data specific to an address type.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\scsi\ns-scsi-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
-</dt>
-<dt>
+
+<a href="..\storport\ns-storport-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
+
 <a href="..\storport\nf-storport-storportsetunitattributes.md">StorPortSetUnitAttributes</a>
-</dt>
-</dl>
+
  
 
  

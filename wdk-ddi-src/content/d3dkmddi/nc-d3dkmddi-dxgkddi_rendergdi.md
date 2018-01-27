@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 90C34125-FC32-46E3-81F7-6B2AACED9BAC
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddirendergdi, DxgkDdiRenderGdi callback function [Display Devices], DxgkDdiRenderGdi, DXGKDDI_RENDERGDI, DXGKDDI_RENDERGDI, d3dkmddi/DxgkDdiRenderGdi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiRenderGdi
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DxgkDdiRenderGdi
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_RENDERGDI callback
 
 
-
 ## -description
+
+
 <b>DxgkDdiRenderGdi</b> is used when submitting Windows Graphics Device Interface (GDI) commands for contexts that support virtual addressing.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_RENDERGDI DxgkDdiRenderGdi;
@@ -58,6 +68,9 @@ NTSTATUS APIENTRY DxgkDdiRenderGdi(
 
 ## -parameters
 
+
+
+
 ### -param hContext [in]
 
 A handle to a context block that is associated with a display adapter. 
@@ -69,25 +82,43 @@ A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_rendergdi.md">DXGKARG_R
 
 
 ## -returns
+
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt>STATUS_SUCCESS</dt>
-</dl>The submitted command is well-formed.
+</dl>
+</td>
+<td width="60%">
+The submitted command is well-formed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt>(other)</dt>
-</dl>All other return values will lead to the OS <i>bugcheck</i>.
+</dl>
+</td>
+<td width="60%">
+All other return values will lead to the OS <i>bugcheck</i>.
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_rendergdi.md">DXGKARG_RENDERGDI</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a63079ab-45ec-44b2-8769-f5b30f378972
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_WMI_PROVIDER_CONFIG_INIT
+ms.keywords: wdf.wdf_wmi_provider_config_init, kmdf.wdf_wmi_provider_config_init, WDF_WMI_PROVIDER_CONFIG_INIT, wdfwmi/WDF_WMI_PROVIDER_CONFIG_INIT, DFWMIRef_34f9d195-3f6b-419d-bab7-29ad49c3d177.xml, WDF_WMI_PROVIDER_CONFIG_INIT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WDF_WMI_PROVIDER_CONFIG_INIT
-req.alt-loc: wdfwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfwmi.h
+apiname: 
+-	WDF_WMI_PROVIDER_CONFIG_INIT
+product: Windows
+targetos: Windows
 req.typenames: WDF_WMI_PROVIDER_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # WDF_WMI_PROVIDER_CONFIG_INIT function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_WMI_PROVIDER_CONFIG_INIT</b> function initializes a <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 VOID WDF_WMI_PROVIDER_CONFIG_INIT(
@@ -57,6 +67,9 @@ VOID WDF_WMI_PROVIDER_CONFIG_INIT(
 
 
 ## -parameters
+
+
+
 
 ### -param Config [out]
 
@@ -69,21 +82,23 @@ A pointer to a GUID that identifies a WMI data provider's data block.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The <b>WDF_WMI_PROVIDER_CONFIG_INIT</b> function zeros the specified <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a> structure and sets its <b>Size</b> member. This function also copies the specified GUID into the structure's <b>Guid</b> member.
 
-For a code example that uses <b>WDF_WMI_PROVIDER_CONFIG_INIT</b>, see <a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
-</dt>
-</dl>
+
  
 
  

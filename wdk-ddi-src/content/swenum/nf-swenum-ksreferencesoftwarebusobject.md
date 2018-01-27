@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 56c7ce80-36da-4991-a640-f87b712f683e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsReferenceSoftwareBusObject
+ms.keywords: swenum/KsReferenceSoftwareBusObject, KsReferenceSoftwareBusObject function [Streaming Media Devices], stream.ksreferencesoftwarebusobject, ksfunc_38a63d2d-e988-474d-890b-dd9a2aeeaff4.xml, KsReferenceSoftwareBusObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsReferenceSoftwareBusObject
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsReferenceSoftwareBusObject
+product: Windows
+targetos: Windows
 req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # KsReferenceSoftwareBusObject function
 
 
-
 ## -description
+
+
 <i>This function is intended for internal use only.</i>
 
 The <b>KsReferenceSoftwareBusObject</b> function increments the reference count of the demand-load bus enumerator object's PDO. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsReferenceSoftwareBusObject(
@@ -57,33 +68,38 @@ NTSTATUS KsReferenceSoftwareBusObject(
 
 ## -parameters
 
+
+
+
 ### -param Header [in]
 
 Pointer to the device header (extension) of the demand-load bus enumerator.
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS if the request is handled. Otherwise, it returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 A minidriver can access this function through the <b>ReferenceDeviceObject</b> member of the BUS_INTERFACE_SWENUM structure.
 
 The device object remains active and enumerated until the reference count returns to 0.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\swenum\ns-swenum-_bus_interface_swenum.md">BUS_INTERFACE_SWENUM</a>
-</dt>
-<dt>
+
 <a href="..\swenum\nf-swenum-ksdereferencesoftwarebusobject.md">KsDereferenceSoftwareBusObject</a>
-</dt>
-<dt>
+
+<a href="..\swenum\ns-swenum-_bus_interface_swenum.md">BUS_INTERFACE_SWENUM</a>
+
 <a href="..\swenum\nf-swenum-ksquerysoftwarebusinterface.md">KsQuerySoftwareBusInterface</a>
-</dt>
-</dl>
+
  
 
  

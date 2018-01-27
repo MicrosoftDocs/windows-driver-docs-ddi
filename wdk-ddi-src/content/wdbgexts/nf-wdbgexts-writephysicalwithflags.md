@@ -7,8 +7,8 @@ old-location: debugger\writephysicalwithflags.htm
 old-project: debugger
 ms.assetid: ae679f76-2e26-43f2-a097-1e158fbc0cc7
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: WritePhysicalWithFlags
+ms.date: 1/19/2018
+ms.keywords: WdbgExts_Ref_7ef1e63e-87e2-4bf3-a432-78639684a18c.xml, wdbgexts/WritePhysicalWithFlags, debugger.writephysicalwithflags, WritePhysicalWithFlags function [Windows Debugging], WritePhysicalWithFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WritePhysicalWithFlags
-req.alt-loc: wdbgexts.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdbgexts.h
+apiname: 
+-	WritePhysicalWithFlags
+product: Windows
+targetos: Windows
 req.typenames: EXT_TDOP
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # WritePhysicalWithFlags function
 
 
-
 ## -description
+
+
 The <b>WritePhysicalWithFlags</b> function writes to physical memory.
 
 
-
 ## -syntax
+
 
 ````
 VOID WritePhysicalWithFlags(
@@ -59,25 +69,27 @@ VOID WritePhysicalWithFlags(
 
 ## -parameters
 
-### -param address 
+
+
+
+### -param address
 
 Specifies the physical address to write.
 
 
-### -param buf 
+### -param buf
 
 Specifies the address of an array of bytes to hold the data that is  written.
 
 
-### -param size 
+### -param size
 
 Specifies the number of bytes to write. 
 
 
-### -param flags 
+### -param flags
 
 Specifies the properties of the physical memory to be written to.  This must match the way the physical memory was advertised to the operating system on the target.  Possible values are listed in the following table.
-
 <table>
 <tr>
 <th>Value</th>
@@ -123,35 +135,37 @@ The physical memory is write-combined.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
-### -param sizew 
+### -param sizew
 
 Receives the number of bytes actually written.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wdbgexts.h before dbgeng.h. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\dbgeng\nf-dbgeng-idebugdataspaces-writephysical.md">WritePhysical</a>
-</dt>
-<dt>
+
 <a href="..\wdbgexts\nf-wdbgexts-readphysicalwithflags.md">ReadPhysicalWithFlags</a>
-</dt>
-</dl>
- 
+
+<a href="..\wdbgexts\nf-wdbgexts-writephysical.md">WritePhysical</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20WritePhysicalWithFlags function%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20WritePhysicalWithFlags function%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

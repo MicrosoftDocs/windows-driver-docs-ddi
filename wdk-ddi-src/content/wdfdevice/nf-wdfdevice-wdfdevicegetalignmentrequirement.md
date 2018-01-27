@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 531f5e99-0e04-47dd-86bb-c35aa549c63a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceGetAlignmentRequirement
+ms.keywords: kmdf.wdfdevicegetalignmentrequirement, PFN_WDFDEVICEGETALIGNMENTREQUIREMENT, WdfDeviceGetAlignmentRequirement method, WdfDeviceGetAlignmentRequirement, wdfdevice/WdfDeviceGetAlignmentRequirement, DFDeviceObjectGeneralRef_c7135427-9887-44e5-8380-28ebef4174a9.xml, wdf.wdfdevicegetalignmentrequirement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfDeviceGetAlignmentRequirement
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfDeviceGetAlignmentRequirement
+product: Windows
+targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WdfDeviceGetAlignmentRequirement function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfDeviceGetAlignmentRequirement</b> method retrieves a device's address alignment requirement for memory transfer operations.
 
 
-
 ## -syntax
+
 
 ````
 ULONG WdfDeviceGetAlignmentRequirement(
@@ -57,28 +68,27 @@ ULONG WdfDeviceGetAlignmentRequirement(
 
 ## -parameters
 
+
+
+
 ### -param Device [in]
 
 A handle to a framework device object.
 
 
 ## -returns
+
+
 <b>WdfDeviceGetAlignmentRequirement</b> returns the device's current alignment requirement. This value is one of the FILE_<i>XXXX</i>_ALIGNMENT constants that are defined in <i>wdm.h</i>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-For a code example that uses <b>WdfDeviceGetAlignmentRequirement</b>, see <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetalignmentrequirement.md">WdfDeviceSetAlignmentRequirement</a>.
-
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetalignmentrequirement.md">WdfDeviceSetAlignmentRequirement</a>
-</dt>
-</dl>
+
  
 
  

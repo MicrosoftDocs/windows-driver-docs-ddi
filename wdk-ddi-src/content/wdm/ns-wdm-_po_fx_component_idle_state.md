@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4F0BF45D-F854-480C-B0AC-8134C6BF3266
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PO_FX_COMPONENT_IDLE_STATE, PO_FX_COMPONENT_IDLE_STATE, *PPO_FX_COMPONENT_IDLE_STATE
+ms.keywords: PPO_FX_COMPONENT_IDLE_STATE, PPO_FX_COMPONENT_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], wdm/PO_FX_COMPONENT_IDLE_STATE, PO_FX_COMPONENT_IDLE_STATE structure [Kernel-Mode Driver Architecture], wdm/PPO_FX_COMPONENT_IDLE_STATE, PO_FX_COMPONENT_IDLE_STATE, kernel.po_fx_component_idle_state, *PPO_FX_COMPONENT_IDLE_STATE, _PO_FX_COMPONENT_IDLE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PO_FX_COMPONENT_IDLE_STATE
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: PO_FX_COMPONENT_IDLE_STATE, *PPO_FX_COMPONENT_IDLE_STATE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	PO_FX_COMPONENT_IDLE_STATE
+product: Windows
+targetos: Windows
+req.typenames: *PPO_FX_COMPONENT_IDLE_STATE, PO_FX_COMPONENT_IDLE_STATE
 req.product: Windows 10 or later.
 ---
 
 # _PO_FX_COMPONENT_IDLE_STATE structure
 
 
-
 ## -description
+
+
 The <b>PO_FX_COMPONENT_IDLE_STATE</b> structure specifies the attributes of an Fx power state of a component in a device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PO_FX_COMPONENT_IDLE_STATE {
@@ -56,6 +66,9 @@ typedef struct _PO_FX_COMPONENT_IDLE_STATE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field TransitionLatency
 
@@ -74,6 +87,8 @@ The power, in microwatts, that the component consumes in this Fx state. Set this
 
 
 ## -remarks
+
+
  The <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a> structure contains a pointer to an array of <b>PO_FX_COMPONENT_IDLE_STATE</b> structures. Each array element specifies the attributes of an Fx state. Element 0 describes F0, element 1 describes F1, and so on.
 
 When the driver registers a device with PoFx, the driver supplies an array of <b>PO_FX_COMPONENT</b> structures. Each array element describes the power attributes of a component in the device.
@@ -81,12 +96,11 @@ When the driver registers a device with PoFx, the driver supplies an array of <b
 Do not set <b>TransitionLatency</b> and <b>ResidencyRequirement</b> to <b>PO_FX_UNKNOWN_TIME</b> because  it may prevent the power management framework (PoFx) from selecting the idle state.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a>
-</dt>
-</dl>
+
  
 
  

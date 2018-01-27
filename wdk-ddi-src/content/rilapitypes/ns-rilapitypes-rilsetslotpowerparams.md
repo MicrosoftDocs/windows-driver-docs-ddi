@@ -7,8 +7,8 @@ old-location: netvista\rilsetslotpowerparams_2.htm
 old-project: netvista
 ms.assetid: 1f62344f-9e54-4a17-9c0c-ef46614508f2
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSETSLOTPOWERPARAMS, RILSETSLOTPOWERPARAMS, *LPRILSETSLOTPOWERPARAMS
+ms.date: 1/18/2018
+ms.keywords: RILSETSLOTPOWERPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSETSLOTPOWERPARAMS, netvista.rilsetslotpowerparams_2, RILSETSLOTPOWERPARAMS, rilapitypes/RILSETSLOTPOWERPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSETSLOTPOWERPARAMS
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILSETSLOTPOWERPARAMS
+product: Windows
+targetos: Windows
 req.typenames: RILSETSLOTPOWERPARAMS, *LPRILSETSLOTPOWERPARAMS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILSETSLOTPOWERPARAMS structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILSETSLOTPOWERPARAMS {
@@ -56,10 +66,13 @@ typedef struct _RILSETSLOTPOWERPARAMS {
 
 ## -struct-fields
 
+
+
+
 ### -field dwSlotIndex
+
 
 
 ### -field fPowerOn
 
 
-## -remarks

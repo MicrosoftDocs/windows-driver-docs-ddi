@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e43f782-c89c-4926-83db-efe737544065
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_OFFER_PRIORITY, D3DDDI_OFFER_PRIORITY
+ms.keywords: D3DDDI_OFFER_PRIORITY_LOW, d3dukmdt/D3DDDI_OFFER_PRIORITY_HIGH, d3dukmdt/D3DDDI_OFFER_PRIORITY_AUTO, D3DDDI_OFFER_PRIORITY_NORMAL, d3dukmdt/D3DDDI_OFFER_PRIORITY_NONE, D3DDDI_OFFER_PRIORITY_NONE, D3DDDI_OFFER_PRIORITY_HIGH, _D3DDDI_OFFER_PRIORITY, D3DDDI_OFFER_PRIORITY, D3DDDI_OFFER_PRIORITY_AUTO, D3DDDI_OFFER_PRIORITY enumeration [Display Devices], d3dukmdt/D3DDDI_OFFER_PRIORITY_LOW, display.d3dddi_offer_priority, d3dukmdt/D3DDDI_OFFER_PRIORITY_NORMAL, d3dukmdt/D3DDDI_OFFER_PRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_OFFER_PRIORITY
-req.alt-loc: D3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dukmdt.h
+apiname: 
+-	D3DDDI_OFFER_PRIORITY
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_OFFER_PRIORITY
 ---
 
 # _D3DDDI_OFFER_PRIORITY enumeration
 
 
-
 ## -description
+
+
 Indicates the importance of video memory resources  that the user-mode display driver offers for reuse.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3DDDI_OFFER_PRIORITY { 
@@ -58,12 +68,13 @@ typedef enum _D3DDDI_OFFER_PRIORITY {
 
 ## -enum-fields
 
+
+
+
 ### -field D3DDDI_OFFER_PRIORITY_NONE
 
 The allocation should not be offered.
-
-<div class="alert"><b>Note</b>  Do not use this value in the <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_offerallocations.md">D3DDDICB_OFFERALLOCATIONS</a>.<b>Priority</b> member.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  Do not use this value in the <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_offerallocations.md">D3DDDICB_OFFERALLOCATIONS</a>.<b>Priority</b> member.</div><div> </div>
 
 ### -field D3DDDI_OFFER_PRIORITY_LOW
 
@@ -85,18 +96,12 @@ The allocation has useful content and cannot easily be regenerated. The video me
 The video memory manager should make a policy decision on the allocation's value based on its  priority for eviction.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_offerallocations.md">D3DDDICB_OFFERALLOCATIONS</a>
-</dt>
-</dl>
+
  
 
  

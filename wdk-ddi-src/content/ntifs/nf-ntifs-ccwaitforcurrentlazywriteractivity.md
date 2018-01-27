@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: eda2198d-d9c9-498a-b94f-5ebdaae417be
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcWaitForCurrentLazyWriterActivity
+ms.keywords: CcWaitForCurrentLazyWriterActivity routine [Installable File System Drivers], ntifs/CcWaitForCurrentLazyWriterActivity, CcWaitForCurrentLazyWriterActivity, ifsk.ccwaitforcurrentlazywriteractivity, ccref_a216c467-24be-4ea5-9c53-71cf1fe1c47d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available on Microsoft Windows 2000 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcWaitForCurrentLazyWriterActivity
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcWaitForCurrentLazyWriterActivity
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcWaitForCurrentLazyWriterActivity function
 
 
-
 ## -description
+
+
 The <b>CcWaitForCurrentLazyWriterActivity</b> routine puts the caller into a wait state until the current batch of lazy writer activity is completed.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS CcWaitForCurrentLazyWriterActivity(void);
@@ -53,42 +63,35 @@ NTSTATUS CcWaitForCurrentLazyWriterActivity(void);
 ## -parameters
 
 
+
+
+
 ## -returns
+
+
 <b>CcWaitForCurrentLazyWriterActivity</b> can return one of the following NTSTATUS values: 
-<dl>
-<dt>STATUS_SUCCESS</dt>
-<dt>STATUS_INSUFFICIENT_RESOURCES</dt>
-</dl><b>CcWaitForCurrentLazyWriterActivity</b> can return one of the following NTSTATUS values: 
-<dl>
-<dt>STATUS_SUCCESS</dt>
-<dt>STATUS_INSUFFICIENT_RESOURCES</dt>
-</dl><b>CcWaitForCurrentLazyWriterActivity</b> can return one of the following NTSTATUS values: 
-<dl>
-<dt>STATUS_SUCCESS</dt>
-<dt>STATUS_INSUFFICIENT_RESOURCES</dt>
-</dl>
+
+
 
 ## -remarks
+
+
 <b>CcWaitForCurrentLazyWriterActivity</b> puts the calling thread into a wait state until all work items currently in the lazy writer (read ahead or write behind) work queue have completed.
 
 To prevent deadlock, the caller should release any currently held synchronization objects before calling <b>CcWaitForCurrentLazyWriterActivity</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
+
+<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
+
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
  
 
  

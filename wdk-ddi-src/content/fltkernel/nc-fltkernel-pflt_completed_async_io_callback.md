@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 920e4236-9078-41c6-befb-9e82accbfa59
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IXpsPartIterator, IXpsPartIterator::Reset, Reset
+ms.keywords: ifsk.pflt_completed_async_io_callback, PFLT_COMPLETED_ASYNC_IO_CALLBACK function pointer [Installable File System Drivers], PFLT_COMPLETED_ASYNC_IO_CALLBACK, fltkernel/PFLT_COMPLETED_ASYNC_IO_CALLBACK, FltCallbacks_b85c12a6-7d3b-4d0c-9d21-9d9613aa057c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PFLT_COMPLETED_ASYNC_IO_CALLBACK
-req.alt-loc: fltkernel.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	fltkernel.h
+apiname: 
+-	PFLT_COMPLETED_ASYNC_IO_CALLBACK
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # PFLT_COMPLETED_ASYNC_IO_CALLBACK callback
 
 
-
 ## -description
+
+
 A minifilter driver that initiates an asynchronous I/O operation can specify a routine of type PFLT_COMPLETED_ASYNC_IO_CALLBACK routine to be called when the operation is completed. 
 
 
-
 ## -prototype
+
 
 ````
 typedef VOID ( *PFLT_COMPLETED_ASYNC_IO_CALLBACK)(
@@ -54,6 +64,9 @@ typedef VOID ( *PFLT_COMPLETED_ASYNC_IO_CALLBACK)(
 
 
 ## -parameters
+
+
+
 
 ### -param CallbackData [in]
 
@@ -66,40 +79,50 @@ Context pointer that the minifilter driver passed as a parameter to <a href="..\
 
 
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 When a minifilter driver calls <a href="..\fltkernel\nf-fltkernel-fltperformasynchronousio.md">FltPerformAsynchronousIo</a>, <a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a> or <a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a> to initiate an asynchronous I/O operation, the minifilter driver can optionally specify a callback routine to be called when the I/O operation is completed. This is done by specifying a routine of type PFLT_COMPLETED_ASYNC_IO_CALLBACK for the <i>CallbackRoutine</i> parameter. 
 
 When the I/O operation is completed, this callback routine is called in an arbitrary thread context, at IRQL &lt;= DISPATCH_LEVEL. 
 
 Because the PFLT_COMPLETED_ASYNC_IO_CALLBACK routine can be called at IRQL DISPATCH_LEVEL, it is subject to the following constraints: 
-
+<ul>
+<li>
 It cannot safely call any kernel-mode routines that require a lower IRQL. 
 
+</li>
+<li>
 Any data structures used in this routine must be allocated from nonpaged pool. 
 
+</li>
+<li>
 It cannot be made pageable. 
 
+</li>
+<li>
 It cannot acquire resources, mutexes, or fast mutexes. However, it can acquire spin locks. 
+
+</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltperformasynchronousio.md">FltPerformAsynchronousIo</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltperformasynchronousio.md">FltPerformAsynchronousIo</a>
+
  
 
  

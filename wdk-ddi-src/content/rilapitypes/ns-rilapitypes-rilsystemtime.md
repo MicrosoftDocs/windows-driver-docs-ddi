@@ -7,8 +7,8 @@ old-location: netvista\rilsystemtime_2.htm
 old-project: netvista
 ms.assetid: 436fd67e-6696-4079-9bcf-7260de3bbc00
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSYSTEMTIME, RILSYSTEMTIME, *LPRILSYSTEMTIME
+ms.date: 1/18/2018
+ms.keywords: rilapitypes/RILSYSTEMTIME, *LPRILSYSTEMTIME, netvista.rilsystemtime_2, RILSYSTEMTIME, RILSYSTEMTIME structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSYSTEMTIME
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILSYSTEMTIME, *LPRILSYSTEMTIME
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILSYSTEMTIME
+product: Windows
+targetos: Windows
+req.typenames: *LPRILSYSTEMTIME, RILSYSTEMTIME
 req.product: Windows 10 or later.
 ---
 
 # RILSYSTEMTIME structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILSYSTEMTIME {
@@ -62,28 +72,37 @@ typedef struct _RILSYSTEMTIME {
 
 ## -struct-fields
 
+
+
+
 ### -field wYear
+
 
 
 ### -field wMonth
 
 
+
 ### -field wDayOfWeek
+
 
 
 ### -field wDay
 
 
+
 ### -field wHour
+
 
 
 ### -field wMinute
 
 
+
 ### -field wSecond
+
 
 
 ### -field wMilliseconds
 
 
-## -remarks

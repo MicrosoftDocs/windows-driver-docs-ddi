@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 269be3a9-7dd8-45e2-8687-99f8ca8f9b8b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltFlushBuffers
+ms.keywords: fltkernel/FltFlushBuffers, FltFlushBuffers, FltFlushBuffers routine [Installable File System Drivers], ifsk.fltflushbuffers, FltApiRef_e_to_o_cd194ce5-6afd-49f2-84c5-aa93ede9309a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltFlushBuffers
-req.alt-loc: FltMgr.lib,FltMgr.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	FltMgr.lib
+-	FltMgr.dll
+apiname: 
+-	FltFlushBuffers
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltFlushBuffers function
 
 
-
 ## -description
+
+
 The <b>FltFlushBuffers</b> routine is used by the minifilter driver to send a flush request for a given file to the file system. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltFlushBuffers(
@@ -54,6 +65,9 @@ NTSTATUS FltFlushBuffers(
 
 
 ## -parameters
+
+
+
 
 ### -param Instance [in]
 
@@ -66,27 +80,51 @@ File object pointer for the file. This parameter is required and cannot be <b>NU
 
 
 ## -returns
+
+
 <b>FltFlushBuffers</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_MEDIA_WRITE_PROTECTED</b></dt>
-</dl>The file resides on a write-protected volume. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+The file resides on a write-protected volume. This is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_VOLUME_DISMOUNTED</b></dt>
-</dl>The file resides on a volume that is not currently mounted. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+The file resides on a volume that is not currently mounted. This is an error code. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A minifilter driver can call <b>FltFlushBuffers</b> to issue an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549235">IRP_MJ_FLUSH_BUFFERS</a> request to the file system for a given file. The flush operation is synchronous and is issued to the instance(s) below the specified instance. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549235">IRP_MJ_FLUSH_BUFFERS</a>
-</dt>
-</dl>
+
  
 
  

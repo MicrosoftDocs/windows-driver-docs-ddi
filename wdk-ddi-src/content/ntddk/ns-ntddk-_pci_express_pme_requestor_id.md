@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 2305ffbd-22c8-4f63-bbe4-fd297bf98e39
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _PCI_EXPRESS_PME_REQUESTOR_ID, *PPCI_EXPRESS_PME_REQUESTOR_ID, PCI_EXPRESS_PME_REQUESTOR_ID
+ms.keywords: PCI.pci_express_pme_requestor_id, ntddk/PCI_EXPRESS_PME_REQUESTOR_ID, ntddk/PPCI_EXPRESS_PME_REQUESTOR_ID, PCI_EXPRESS_PME_REQUESTOR_ID union [Buses], PCI_EXPRESS_PME_REQUESTOR_ID, PPCI_EXPRESS_PME_REQUESTOR_ID, _PCI_EXPRESS_PME_REQUESTOR_ID, *PPCI_EXPRESS_PME_REQUESTOR_ID, PPCI_EXPRESS_PME_REQUESTOR_ID union pointer [Buses], pci_struct_0cb11d1f-7426-42fc-9d77-373516a492ae.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PCI_EXPRESS_PME_REQUESTOR_ID
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	PCI_EXPRESS_PME_REQUESTOR_ID
+product: Windows
+targetos: Windows
 req.typenames: *PPCI_EXPRESS_PME_REQUESTOR_ID, PCI_EXPRESS_PME_REQUESTOR_ID
 ---
 
 # _PCI_EXPRESS_PME_REQUESTOR_ID structure
 
 
-
 ## -description
+
+
 The PCI_EXPRESS_PME_REQUESTOR_ID structure describes the identifier of the requester of a power management event (PME).
 
 
-
 ## -syntax
+
 
 ````
 typedef union _PCI_EXPRESS_PME_REQUESTOR_ID {
@@ -59,19 +69,27 @@ typedef union _PCI_EXPRESS_PME_REQUESTOR_ID {
 
 ## -struct-fields
 
-### -field FunctionNumber
-
-The function number of the requester.
 
 
-### -field DeviceNumber
 
-The device number of the requester.
+### -field DUMMYSTRUCTNAME
+
+ 
 
 
-### -field BusNumber
+### -field DUMMYSTRUCTNAME.FunctionNumber
 
-The bus number of the requester.
+ 
+
+
+### -field DUMMYSTRUCTNAME.DeviceNumber
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.BusNumber
+
+ 
 
 
 ### -field AsUSHORT
@@ -79,18 +97,34 @@ The bus number of the requester.
 A USHORT representation of the contents of the PCI_EXPRESS_PME_REQUESTOR_ID structure.
 
 
+#### - BusNumber
+
+The bus number of the requester.
+
+
+#### - DeviceNumber
+
+The device number of the requester.
+
+
+#### - FunctionNumber
+
+The function number of the requester.
+
+
 ## -remarks
+
+
 The PCI_EXPRESS_PME_REQUESTOR_ID structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_PME_REQUESTOR_ID structure is contained in the <b>PMERequestorId</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537477">PCI_EXPRESS_ROOT_STATUS_REGISTER</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537477">PCI_EXPRESS_ROOT_STATUS_REGISTER</a>
-</dt>
-</dl>
+
  
 
  

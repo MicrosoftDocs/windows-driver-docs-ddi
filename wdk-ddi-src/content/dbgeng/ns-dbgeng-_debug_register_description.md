@@ -7,8 +7,8 @@ old-location: debugger\debug_register_description.htm
 old-project: debugger
 ms.assetid: 92e7800d-4de6-498c-87f8-8690d7e8fc51
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _DEBUG_REGISTER_DESCRIPTION, *PDEBUG_REGISTER_DESCRIPTION, DEBUG_REGISTER_DESCRIPTION
+ms.date: 1/19/2018
+ms.keywords: DEBUG_REGISTER_DESCRIPTION structure [Windows Debugging], dbgeng/PDEBUG_REGISTER_DESCRIPTION, *PDEBUG_REGISTER_DESCRIPTION, debugger.debug_register_description, dbgeng/DEBUG_REGISTER_DESCRIPTION, PDEBUG_REGISTER_DESCRIPTION structure pointer [Windows Debugging], PDEBUG_REGISTER_DESCRIPTION, Structures_a7dd005e-3383-4c58-8b01-fe2127d6bc20.xml, _DEBUG_REGISTER_DESCRIPTION, DEBUG_REGISTER_DESCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DEBUG_REGISTER_DESCRIPTION
-req.alt-loc: DbgEng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PDEBUG_REGISTER_DESCRIPTION, DEBUG_REGISTER_DESCRIPTION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	DbgEng.h
+apiname: 
+-	DEBUG_REGISTER_DESCRIPTION
+product: Windows
+targetos: Windows
+req.typenames: DEBUG_REGISTER_DESCRIPTION, *PDEBUG_REGISTER_DESCRIPTION
 ---
 
 # _DEBUG_REGISTER_DESCRIPTION structure
 
 
-
 ## -description
+
+
 The <b>DEBUG_REGISTER_DESCRIPTION</b> structure is returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff546575">GetDescription</a> to describe a processor's register.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DEBUG_REGISTER_DESCRIPTION {
@@ -59,6 +69,9 @@ typedef struct _DEBUG_REGISTER_DESCRIPTION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Type
 
@@ -96,6 +109,10 @@ Reserved for system use.
 
 
 ## -remarks
+
+
 If this register is a subregister, the value of the full register can be turned into the value of the sub-register by first shifting <b>SubregShift</b> bits to the right and then combining the result with <b>SubregMask</b> using the bitwise-AND operator.  The size of the sub-register (<b>SubregLength</b>) is the number of bits set in <b>SubregMask</b>.
 
-For general information about registers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.</p>
+For general information about registers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+
+

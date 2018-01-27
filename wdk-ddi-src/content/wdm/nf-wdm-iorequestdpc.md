@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 196555c8-74a6-4dae-ac4d-52654015ffeb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoRequestDpc
+ms.keywords: IoRequestDpc routine [Kernel-Mode Driver Architecture], wdm/IoRequestDpc, kernel.iorequestdpc, IoRequestDpc, k104_37f449eb-de3d-4932-b845-388c73c55d01.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoRequestDpc
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DIRQL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	IoRequestDpc
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoRequestDpc function
 
 
-
 ## -description
+
+
 The <b>IoRequestDpc</b> routine queues a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff544079">DpcForIsr</a> routine to complete interrupt-driven I/O processing at a lower IRQL.
 
 
-
 ## -syntax
+
 
 ````
 VOID IoRequestDpc(
@@ -56,6 +66,9 @@ VOID IoRequestDpc(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceObject [in]
 
@@ -73,28 +86,30 @@ Pointer to a driver-determined context to be passed to the DPC routine.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 Callers of <b>IoRequestDpc</b> must be running at DIRQL.
 
 Drivers call  <b>IoRequestDpc</b> from an <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a> routine. Because of this, <b>IoRequestDpc</b> runs at the DIRQL value that was specified by <i>SynchronizeIrql</i> when the driver called <a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>. However, it is also possible to queue a DPC at any IRQL &gt;= DISPATCH_LEVEL by using the <b>Ke<i>Xxx</i>Dpc</b> routines. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565664">Which Type of DPC Should You Use?</a>
 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-ioinitializedpcrequest.md">IoInitializeDpcRequest</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-ioinitializedpcrequest.md">IoInitializeDpcRequest</a>
+
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+
  
 
  

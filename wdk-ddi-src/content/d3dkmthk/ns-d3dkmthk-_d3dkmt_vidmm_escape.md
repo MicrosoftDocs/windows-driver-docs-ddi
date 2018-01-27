@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b9fb9960-9e6a-4c41-9c40-8ad307f83f0e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_VIDMM_ESCAPE, D3DKMT_VIDMM_ESCAPE
+ms.keywords: _D3DKMT_VIDMM_ESCAPE, display.d3dkmt_vidmm_escape, d3dkmthk/D3DKMT_VIDMM_ESCAPE, D3DKMT_VIDMM_ESCAPE, D3DKMT_VIDMM_ESCAPE structure [Display Devices], OpenGL_Structs_9a9c243b-b99e-43f2-a749-afbb839fb7c0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_VIDMM_ESCAPE
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_VIDMM_ESCAPE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_VIDMM_ESCAPE
 ---
 
 # _D3DKMT_VIDMM_ESCAPE structure
 
 
-
 ## -description
+
+
 <b>Do not use the D3DKMT_VIDMM_ESCAPE structure; it is for testing purposes only.</b>
 
 The D3DKMT_VIDMM_ESCAPE structure describes how to control the video memory manager (which is part of Dxgkrnl.sys) in a call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_VIDMM_ESCAPE {
@@ -92,85 +102,299 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
 
 ## -struct-fields
 
-### -field Type
+
 
 
 ### -field SetFault
 
 
-### -field ProbeAndLock
+
+### -field SetFault.ProbeAndLock
 
 
-### -field SplitPoin
+
+### -field SetFault.SplitPoint
+
+ 
 
 
-### -field HotAddMemory
+### -field SetFault.NoDemotion
+
+ 
 
 
-### -field SwizzlingAperture
+### -field SetFault.SwizzlingAperture
 
 
-### -field PagingPathLockSubRange
+
+### -field SetFault.PagingPathLockSubRange
 
 
-### -field PagingPathLockMinRange
+
+### -field SetFault.PagingPathLockMinRange
 
 
-### -field ComplexLock
+
+### -field SetFault.ComplexLock
 
 
-### -field FailVARotation
+
+### -field SetFault.FailVARotation
 
 
-### -field NoWriteCombined
+
+### -field SetFault.NoWriteCombined
 
 
-### -field NoPrePatching
+
+### -field SetFault.NoPrePatching
 
 
-### -field AlwaysRepatch
+
+### -field SetFault.AlwaysRepatch
 
 
-### -field ExpectPreparationFailure
+
+### -field SetFault.ExpectPreparationFailure
 
 
-### -field FailUserModeVAMapping
+
+### -field SetFault.FailUserModeVAMapping
 
 
-### -field NeverDiscardOfferedAllocation
+
+### -field SetFault.NeverDiscardOfferedAllocation
 
 
-### -field AlwaysDiscardOfferedAllocation
+
+### -field SetFault.AlwaysDiscardOfferedAllocation
 
 
-### -field Reserved
+
+### -field SetFault.Reserved
 
 
-### -field Reserved
+
+### -field SetFault.Value
 
 
-### -field Value
-
-</dl>
 
 ### -field Evict
+
+
+
+### -field Evict.ResourceHandle
+
+ 
+
+
+### -field Evict.AllocationHandle
+
+ 
+
+
+### -field Evict.hProcess
+
+ 
 
 
 ### -field EvictByNtHandle
 
 
-## -remarks
+
+### -field EvictByNtHandle.NtHandle
+
+ 
+
+
+### -field GetVads
+
+ 
+
+
+### -field GetVads.GetNumVads
+
+ 
+
+
+### -field GetVads.GetNumVads.NumVads
+
+ 
+
+
+### -field GetVads.GetVad
+
+ 
+
+
+### -field GetVads.GetVadRange
+
+ 
+
+
+### -field GetVads.GetGpuMmuCaps
+
+ 
+
+
+### -field GetVads.GetPte
+
+ 
+
+
+### -field GetVads.GetSegmentCaps
+
+ 
+
+
+### -field GetVads.Command
+
+ 
+
+
+### -field GetVads.Status
+
+ 
+
+
+### -field SetBudget
+
+ 
+
+
+### -field SetBudget.LocalMemoryBudget
+
+ 
+
+
+### -field SetBudget.SystemMemoryBudget
+
+ 
+
+
+### -field SuspendProcess
+
+ 
+
+
+### -field SuspendProcess.hProcess
+
+ 
+
+
+### -field SuspendProcess.bAllowWakeOnSubmission
+
+ 
+
+
+### -field ResumeProcess
+
+ 
+
+
+### -field ResumeProcess.hProcess
+
+ 
+
+
+### -field GetBudget
+
+ 
+
+
+### -field GetBudget.NumBytesToTrim
+
+ 
+
+
+### -field SetTrimIntervals
+
+ 
+
+
+### -field SetTrimIntervals.MinTrimInterval
+
+ 
+
+
+### -field SetTrimIntervals.MaxTrimInterval
+
+ 
+
+
+### -field SetTrimIntervals.IdleTrimInterval
+
+ 
+
+
+### -field Wake
+
+ 
+
+
+### -field Wake.bFlush
+
+ 
+
+
+### -field Defrag
+
+ 
+
+
+### -field Defrag.Operation
+
+ 
+
+
+### -field Defrag.SegmentId
+
+ 
+
+
+### -field Defrag.TotalCommitted
+
+ 
+
+
+### -field Defrag.TotalFree
+
+ 
+
+
+### -field Defrag.LargestGapBefore
+
+ 
+
+
+### -field Defrag.LargestGapAfter
+
+ 
+
+
+### -field EvictByCriteria
+
+ 
+
+
+### -field Type
+
+
+
+##### - SetFault.HotAddMemory
+
+
+
+##### - SetFault.SplitPoin
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_escape.md">D3DKMT_ESCAPE</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 70d16119-ac78-40a2-995a-d20ca63c53c1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUlonglongByteSwap
+ms.keywords: RtlUlonglongByteSwap, k109_e3102ade-bf90-43a5-831d-c4c215a6872c.xml, wdm/RtlUlonglongByteSwap, RtlUlonglongByteSwap routine [Kernel-Mode Driver Architecture], kernel.rtlulonglongbyteswap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlUlonglongByteSwap
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlUlonglongByteSwap
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RtlUlonglongByteSwap function
 
 
-
 ## -description
+
+
 The <b>RtlUlonglongByteSwap</b> routine reverses the ordering of the eight bytes in a 64-bit unsigned integer value.
 
 
-
 ## -syntax
+
 
 ````
 ULONGLONG RtlUlonglongByteSwap(
@@ -55,16 +65,24 @@ ULONGLONG RtlUlonglongByteSwap(
 
 ## -parameters
 
+
+
+
 ### -param Source [in]
 
 A ULONGLONG value to convert to a byte-swapped version.
 
 
 ## -returns
+
+
 The byte-swapped version of the <i>Source</i> input parameter value.
 
 
+
 ## -remarks
+
+
 For example, if the <i>Source</i> parameter value is 0x0123456789abcdef, the routine returns 0xefcdab8967452301.
 
 A typical use of this routine is to convert a ULONGLONG value from little-endian byte format to big-endian byte format, and vice versa.
@@ -72,15 +90,13 @@ A typical use of this routine is to convert a ULONGLONG value from little-endian
 To reverse the ordering of bytes in a USHORT value, use the <a href="..\wdm\nf-wdm-rtlushortbyteswap.md">RtlUshortByteSwap</a> routine. To reverse ordering of bytes in a ULONG value, use the <a href="..\wdm\nf-wdm-rtlulongbyteswap.md">RtlUlongByteSwap</a> routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlulongbyteswap.md">RtlUlongByteSwap</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlushortbyteswap.md">RtlUshortByteSwap</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 40210313-1216-4E1A-B696-B23D2ACED605
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcUnregisterIoTimeout
+ms.keywords: audio.iminiportwavertoutputstream, IMiniportWaveRTOutputStream interface [Audio Devices], IMiniportWaveRTOutputStream interface [Audio Devices], described, IMiniportWaveRTOutputStream, portcls/IMiniportWaveRTOutputStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportWaveRTOutputStream
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,27 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IMiniportWaveRTOutputStream
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportWaveRTOutputStream interface
 
 
-
 ## -description
+
+
 The <code>IMiniportWaveRTOutputStream</code> interface represents the output wave stream. <code>IMiniportWaveRTOutputStream</code> inherits from the <b>IUnknown</b> interface.
 
 <code>IMiniportWaveRTOutputStream</code> is supported in Windows 10 and later.
 
-
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMiniportWaveRTOutputStream</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface but does not have additional members.
-
-
-## -remarks

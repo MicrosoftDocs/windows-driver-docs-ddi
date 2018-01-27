@@ -7,8 +7,8 @@ old-location: netvista\offload_security_association.htm
 old-project: netvista
 ms.assetid: 2c392a13-4db4-4b22-aacf-4450eb1e191c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _OFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
+ms.date: 1/18/2018
+ms.keywords: netvista.offload_security_association, POFFLOAD_SECURITY_ASSOCIATION structure pointer [Network Drivers Starting with Windows Vista], POFFLOAD_SECURITY_ASSOCIATION, ntddndis/POFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION, 216offload_3c6a958b-81b2-4f18-b974-b0669b6294e1.xml, OFFLOAD_SECURITY_ASSOCIATION structure [Network Drivers Starting with Windows Vista], _OFFLOAD_SECURITY_ASSOCIATION, ntddndis/OFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OFFLOAD_SECURITY_ASSOCIATION
-req.alt-loc: ntddndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddndis.h
+apiname: 
+-	OFFLOAD_SECURITY_ASSOCIATION
+product: Windows
+targetos: Windows
+req.typenames: *POFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION
 ---
 
 # _OFFLOAD_SECURITY_ASSOCIATION structure
 
 
-
 ## -description
+
+
 The OFFLOAD_SECURITY_ASSOCIATION structure specifies a single security association (SA).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _OFFLOAD_SECURITY_ASSOCIATION {
@@ -58,6 +68,9 @@ typedef struct _OFFLOAD_SECURITY_ASSOCIATION {
 
 ## -struct-fields
 
+
+
+
 ### -field Operation
 
 The Internet Protocol security (IPsec) operation for which the SA is to be used. The following
@@ -66,18 +79,6 @@ The Internet Protocol security (IPsec) operation for which the SA is to be used.
 
 
 
-
-### -field AUTHENTICATE
-
-The SA will be used for authentication (integrity checking).
-
-
-### -field ENCRYPT
-
-The SA will be used for encryption/decryption (confidentiality).
-
-</dd>
-</dl>
 
 ### -field SPI
 
@@ -101,29 +102,38 @@ The confidentiality (encryption/decryption) algorithm for the SA, formatted as a
 This member is reserved.
 
 
+##### - Operation.AUTHENTICATE
+
+The SA will be used for authentication (integrity checking).
+
+
+##### - Operation.ENCRYPT
+
+The SA will be used for encryption/decryption (confidentiality).
+
+
 ## -remarks
+
+
 The OFFLOAD_SECURITY_ASSOCIATION structure is used with the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a> and 
-    <a href="netvista.oid_tcp_task_ipsec_add_udpesp_sa">
-    OID_TCP_TASK_IPSEC_ADD_UDPESP_SA</a> OIDs.
+    <mshelp:link keywords="netvista.oid_tcp_task_ipsec_add_udpesp_sa" tabindex="0">
+    OID_TCP_TASK_IPSEC_ADD_UDPESP_SA</mshelp:link> OIDs.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddndis\ns-ntddndis-_offload_algo_info.md">OFFLOAD_ALGO_INFO</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.oid_tcp_task_ipsec_add_udpesp_sa" tabindex="0">
+   OID_TCP_TASK_IPSEC_ADD_UDPESP_SA</mshelp:link>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
-</dt>
-<dt>
-<a href="netvista.oid_tcp_task_ipsec_add_udpesp_sa">
-   OID_TCP_TASK_IPSEC_ADD_UDPESP_SA</a>
-</dt>
-</dl>
+
+<a href="..\ntddndis\ns-ntddndis-_offload_algo_info.md">OFFLOAD_ALGO_INFO</a>
+
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20OFFLOAD_SECURITY_ASSOCIATION structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20OFFLOAD_SECURITY_ASSOCIATION structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

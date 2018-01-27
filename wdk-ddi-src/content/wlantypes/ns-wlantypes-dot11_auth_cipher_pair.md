@@ -7,8 +7,8 @@ old-location: netvista\dot11_auth_cipher_pair.htm
 old-project: netvista
 ms.assetid: 301e9c21-69e7-48d3-b170-de01684f4a12
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DOT11_AUTH_CIPHER_PAIR, *PDOT11_AUTH_CIPHER_PAIR, DOT11_AUTH_CIPHER_PAIR
+ms.date: 1/18/2018
+ms.keywords: *PDOT11_AUTH_CIPHER_PAIR, netvista.dot11_auth_cipher_pair, Native_802.11_data_types_84940691-1e26-4039-927d-e1f1e0d14ea1.xml, DOT11_AUTH_CIPHER_PAIR structure [Network Drivers Starting with Windows Vista], wlantypes/PDOT11_AUTH_CIPHER_PAIR, PDOT11_AUTH_CIPHER_PAIR, DOT11_AUTH_CIPHER_PAIR, PDOT11_AUTH_CIPHER_PAIR structure pointer [Network Drivers Starting with Windows Vista], wlantypes/DOT11_AUTH_CIPHER_PAIR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DOT11_AUTH_CIPHER_PAIR
-req.alt-loc: wlantypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wlantypes.h
+apiname: 
+-	DOT11_AUTH_CIPHER_PAIR
+product: Windows
+targetos: Windows
 req.typenames: *PDOT11_AUTH_CIPHER_PAIR, DOT11_AUTH_CIPHER_PAIR
 req.product: Windows 10 or later.
 ---
@@ -38,10 +47,15 @@ req.product: Windows 10 or later.
 # DOT11_AUTH_CIPHER_PAIR structure
 
 
-
 ## -description
 
+
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_AUTH_CIPHER_PAIR structure defines a pair of 802.11 authentication and cipher algorithms
+  that can be enabled at the same time on the 802.11 station.
+
+
 ## -syntax
+
 
 ````
 typedef struct DOT11_AUTH_CIPHER_PAIR {
@@ -52,6 +66,9 @@ typedef struct DOT11_AUTH_CIPHER_PAIR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field AuthAlgoId
 
@@ -66,19 +83,21 @@ A cipher algorithm as specified by a
 
 
 ## -remarks
+
+
 The DOT11_AUTH_CIPHER_PAIR structure defines an authentication and cipher algorithm that can be
     enabled together for basic service set (BSS) network connections.
 
 A miniport driver returns a list of these structures when either 
-    <a href="netvista.oid_dot11_supported_unicast_algorithm_pair">
-    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a> or 
-    <a href="netvista.oid_dot11_supported_multicast_algorithm_pair">
-    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a> is queried.
+    <mshelp:link keywords="netvista.oid_dot11_supported_unicast_algorithm_pair" tabindex="0">
+    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</mshelp:link> or 
+    <mshelp:link keywords="netvista.oid_dot11_supported_multicast_algorithm_pair" tabindex="0">
+    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</mshelp:link> is queried.
 
 Starting with Windows 7, an 802.11 miniport driver can report any combination of supported
     authentication and cipher algorithm pairs in the 
-    <a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">
-    DOT11_AUTH_CIPHER_PAIR_LIST</a> structure. However, if the operating system starts Soft AP, it enables
+    <mshelp:link keywords="netvista.dot11_auth_cipher_pair_list" tabindex="0"><b>
+    DOT11_AUTH_CIPHER_PAIR_LIST</b></mshelp:link> structure. However, if the operating system starts Soft AP, it enables
     only the 
     <b>DOT11_AUTH_ALGO_RSNA_PSK</b> authentication algorithm and the 
     <b>DOT11_CIPHER_ALGO_CCMP</b> cipher algorithm. To support Soft AP, the miniport driver must support this
@@ -94,29 +113,24 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569436">OID_DOT11_WPS_ENABLED</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>
-</dt>
-<dt>
+
 <a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">DOT11_AUTH_CIPHER_PAIR_LIST</a>
-</dt>
-<dt>
+
 <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
-</dt>
-<dt>
-<a href="netvista.oid_dot11_supported_multicast_algorithm_pair">
-   OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>
-</dt>
-<dt>
-<a href="netvista.oid_dot11_supported_unicast_algorithm_pair">
-   OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
-</dt>
-</dl>
+
+<mshelp:link keywords="netvista.oid_dot11_supported_unicast_algorithm_pair" tabindex="0">
+   OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</mshelp:link>
+
+<mshelp:link keywords="netvista.oid_dot11_supported_multicast_algorithm_pair" tabindex="0">
+   OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</mshelp:link>
+
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_AUTH_CIPHER_PAIR structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_AUTH_CIPHER_PAIR structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5b8ba64e-3147-45b4-9861-da2186c2ba10
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: SeFreePrivileges
+ms.keywords: SeFreePrivileges, ntifs/SeFreePrivileges, SeFreePrivileges routine [Kernel-Mode Driver Architecture], seref_e40724d7-f170-4dbd-89a6-2cdcdd13e87d.xml, kernel.sefreeprivileges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SeFreePrivileges
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	SeFreePrivileges
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # SeFreePrivileges function
 
 
-
 ## -description
+
+
 The <b>SeFreePrivileges</b> routine frees a privilege set returned by <b>SeAccessCheck</b>.
 
 
-
 ## -syntax
+
 
 ````
 VOID SeFreePrivileges(
@@ -54,34 +64,38 @@ VOID SeFreePrivileges(
 
 ## -parameters
 
+
+
+
 ### -param Privileges [in]
 
 Pointer to the privilege set to be freed.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-seappendprivileges.md">SeAppendPrivileges</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
+
+<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
+
  
 
  

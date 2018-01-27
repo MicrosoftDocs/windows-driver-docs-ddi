@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: EC287CF0-9B39-4412-849E-9F86EEE69365
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _BDA_DRM_DRMSTATUS, *PBDA_DRM_DRMSTATUS, BDA_DRM_DRMSTATUS
+ms.keywords: PBDA_DRM_DRMSTATUS, _BDA_DRM_DRMSTATUS, PBDA_DRM_DRMSTATUS structure pointer [Streaming Media Devices], BDA_DRM_DRMSTATUS, BDA_DRM_DRMSTATUS structure [Streaming Media Devices], *PBDA_DRM_DRMSTATUS, bdatypes/BDA_DRM_DRMSTATUS, stream.bda_drm_drmstatus, bdatypes/PBDA_DRM_DRMSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BDA_DRM_DRMSTATUS
-req.alt-loc: Bdatypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bdatypes.h
+apiname: 
+-	BDA_DRM_DRMSTATUS
+product: Windows
+targetos: Windows
 req.typenames: *PBDA_DRM_DRMSTATUS, BDA_DRM_DRMSTATUS
 ---
 
 # _BDA_DRM_DRMSTATUS structure
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: *PBDA_DRM_DRMSTATUS, BDA_DRM_DRMSTATUS
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct _BDA_DRM_DRMSTATUS {
@@ -57,16 +67,21 @@ typedef struct _BDA_DRM_DRMSTATUS {
 
 ## -struct-fields
 
+
+
+
 ### -field lResult
+
 
 
 ### -field DRMuuid
 
 
+
 ### -field ulDrmUuidListStringSize
+
 
 
 ### -field argbDrmUuidListString
 
 
-## -remarks

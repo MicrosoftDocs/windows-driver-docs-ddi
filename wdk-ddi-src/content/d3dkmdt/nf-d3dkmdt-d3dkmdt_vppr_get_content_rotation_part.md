@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B533B0DD-B72C-4294-8E88-4C15EA1BB16E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART
+ms.keywords: d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART, D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART function [Display Devices], D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART, display.d3dkmdt_vppr_get_content_rotation_part
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1,DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INT
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART
-req.alt-loc: D3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmdt.h
+apiname: 
+-	D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART
+product: Windows
+targetos: Windows
 req.typenames: DXGK_RENDER_PIPELINE_STAGE
 ---
 
 # D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART function
 
 
-
 ## -description
+
+
 A helper function that extracts the rotation angle from a given value of the <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation.md">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</a> enumeration. Only drivers that support path-independent rotation (DXGKDDI_INTERFACE_VERSION &gt;= DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION) should call this function.
 
 
-
 ## -syntax
+
 
 ````
 __inline
@@ -56,7 +66,10 @@ D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
 
 ## -parameters
 
-### -param Rotation 
+
+
+
+### -param Rotation
 
 On input, a value from  the <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation.md">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</a> enumeration.
 
@@ -64,6 +77,8 @@ On output, a value between 1 and 4, inclusive, that corresponds to the <b>ROTATI
 
 
 ## -returns
+
+
 The returned value corresponds to the rotation angle as follows:<table>
 <tr>
 <td>Input enumeration value</td>
@@ -178,21 +193,42 @@ The returned value corresponds to the rotation angle as follows:<table>
 
 
 
- 
 
 
 ## -remarks
-This function is declared inline in D3dkmdt.h as:
 
-Your driver typically won't need to call this function.
+
+This function is declared inline in D3dkmdt.h as:
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>__inline
+D3DKMDT_VIDPN_PRESENT_PATH_ROTATION 
+    D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART(
+        D3DKMDT_VIDPN_PRESENT_PATH_ROTATION Rotation)
+{
+    if ((Rotation &gt;= D3DKMDT_VPPR_IDENTITY_OFFSET90) &amp;&amp;
+        (Rotation &lt;= D3DKMDT_VPPR_ROTATE270_OFFSET270))
+    {
+        Rotation = 
+            (D3DKMDT_VIDPN_PRESENT_PATH_ROTATION)(
+                ((Rotation - 1) % 4) + 1);
+    }
+    return Rotation;
+}</pre>
+</td>
+</tr>
+</table></span></div>Your driver typically won't need to call this function.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation.md">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</a>
-</dt>
-</dl>
+
  
 
  

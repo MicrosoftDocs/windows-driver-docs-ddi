@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 45db9dbb-d1e1-4ed3-bf4d-99b6ac7542ae
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_PRESENT_MULTIPLANE_OVERLAY, D3DDDI_PRESENT_MULTIPLANE_OVERLAY
+ms.keywords: display.d3dddi_present_multiplane_overlay, _D3DDDI_PRESENT_MULTIPLANE_OVERLAY, D3DDDI_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices], D3DDDI_PRESENT_MULTIPLANE_OVERLAY, d3dumddi/D3DDDI_PRESENT_MULTIPLANE_OVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_PRESENT_MULTIPLANE_OVERLAY
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	D3DDDI_PRESENT_MULTIPLANE_OVERLAY
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_PRESENT_MULTIPLANE_OVERLAY
 ---
 
 # _D3DDDI_PRESENT_MULTIPLANE_OVERLAY structure
 
 
-
 ## -description
+
+
 Specifies an overlay plane to display.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_PRESENT_MULTIPLANE_OVERLAY {
@@ -57,6 +67,9 @@ typedef struct _D3DDDI_PRESENT_MULTIPLANE_OVERLAY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field LayerIndex
 
@@ -83,15 +96,10 @@ The zero-based index into the resource, which is specified by the handle in the 
 A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_multiplane_overlay_attributes.md">D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a> structure that specifies overlay plane attributes.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_multiplane_overlay_attributes.md">D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
-</dt>
-</dl>
+
  
 
  

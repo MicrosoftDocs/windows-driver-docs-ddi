@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6e998b5a-7f2a-4ab2-9382-f70476e5f34f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: NpdBrokerUninitialize
+ms.keywords: stream.kstrfreeframe, KStrFreeFrame routine [Streaming Media Devices], KStrFreeFrame, PFNALLOCATOR_FREEFRAME, PFNALLOCATOR_FREEFRAME, ks/KStrFreeFrame, ksfunc_fbbb5f23-02d9-4670-8e9a-c157402d413e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KStrFreeFrame
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ks.h
+apiname: 
+-	KStrFreeFrame
+product: Windows
+targetos: Windows
 req.typenames: KEYWORDSELECTOR
 ---
 
 # PFNALLOCATOR_FREEFRAME callback
 
 
-
 ## -description
+
+
 The <i>KStrFreeFrame</i> routine describes a vendor-supplied frame deallocation function. 
 
 
-
 ## -prototype
+
 
 ````
 PFNALLOCATOR_FREEFRAME KStrFreeFrame;
@@ -58,6 +68,9 @@ VOID KStrFreeFrame(
 
 ## -parameters
 
+
+
+
 ### -param FileObject [in]
 
 Pointer to a <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure for which this frame has been allocated.
@@ -69,24 +82,27 @@ A pointer to a buffer containing the frame to release.
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS if the request is handled.  Otherwise returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 This type is used in the <b>FreeFrame</b> member of the <a href="..\ks\ns-ks-ksstreamallocator_functiontable.md">KSSTREAMALLOCATOR_FUNCTIONTABLE</a> structure.
 
 You can pass an instance of this structure as part of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565633">KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE</a> property request.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\ns-ks-ksstreamallocator_functiontable.md">KSSTREAMALLOCATOR_FUNCTIONTABLE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565633">KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE</a>
-</dt>
-</dl>
+
  
 
  

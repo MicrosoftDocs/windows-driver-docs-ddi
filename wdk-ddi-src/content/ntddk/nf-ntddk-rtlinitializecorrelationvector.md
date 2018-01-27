@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ebf5ccbe-3325-4d3d-86c9-230776f2c9ef
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlInitializeCorrelationVector
+ms.keywords: kernel.rtlinitializecorrelationvector, RtlInitializeCorrelationVector function [Kernel-Mode Driver Architecture], ntddk/RtlInitializeCorrelationVector, RtlInitializeCorrelationVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlInitializeCorrelationVector
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlInitializeCorrelationVector
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # RtlInitializeCorrelationVector function
 
 
-
 ## -description
+
+
 
 			
               Initializes the specified correlation vector with
     the supplied GUID.
 
 
-
 ## -syntax
+
 
 ````
  NTSTATUS  RtlInitializeCorrelationVector(
@@ -59,6 +69,9 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 ## -parameters
 
+
+
+
 ### -param CorrelationVector [in, out]
 
 A pointer to a  <a href="..\ntddk\ns-ntddk-correlation_vector.md">CORRELATION_VECTOR</a> structure that represents the correlation vector to be initialized.
@@ -67,7 +80,6 @@ A pointer to a  <a href="..\ntddk\ns-ntddk-correlation_vector.md">CORRELATION_VE
 ### -param Version [in]
 
 The version of the correlation vector. Possible values are: 
-
 <ul>
 <li>RTL_CORRELATION_VECTOR_VERSION_1</li>
 <li>RTL_CORRELATION_VECTOR_VERSION_2</li>
@@ -82,26 +94,44 @@ The GUID to initialize the correlation vector. The first 22 bytes
 
 ## -returns
 
+
+
 Returns an NTSTATUS value that indicates the success of failure of the operation. 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The correlation vector was successfully initialized.
+</dl>
+</td>
+<td width="60%">
+The correlation vector was successfully initialized.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The supplied GUID is null.
+</dl>
+</td>
+<td width="60%">
+The supplied GUID is null.
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-correlation_vector.md">CORRELATION_VECTOR</a>
-</dt>
-</dl>
+
  
 
  

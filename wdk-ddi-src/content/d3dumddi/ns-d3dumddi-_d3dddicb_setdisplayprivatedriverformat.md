@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b10b020d-f18c-403d-b1ee-79552d18ad4e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT, D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT
+ms.keywords: d3dumddi/D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT, display.d3dddicb_setdisplayprivatedriverformat, D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT structure [Display Devices], D3D_param_Structs_e953e85b-93cb-46c0-bab8-6d414568b153.xml, D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT, _D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT
 ---
 
 # _D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT structure
 
 
-
 ## -description
+
+
 The D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT structure describes the private-format attribute to set for a video present source in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplayprivatedriverformatcb.md">pfnSetDisplayPrivateDriverFormatCb</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT {
@@ -55,6 +65,9 @@ typedef struct _D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT {
 
 ## -struct-fields
 
+
+
+
 ### -field VidPnSourceId
 
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology to set a private-format attribute on (that is, the identifier of the primary surface to set a private-format attribute on). 
@@ -65,15 +78,10 @@ typedef struct _D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT {
 [in] A UINT value that specifies the private-format attribute to set for the video present source that the <b>VidPnSourceId</b> member specifies.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplayprivatedriverformatcb.md">pfnSetDisplayPrivateDriverFormatCb</a>
-</dt>
-</dl>
+
  
 
  

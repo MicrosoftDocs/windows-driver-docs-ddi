@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 414d0b36-d7c2-4a01-8ceb-3817a11c422c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcFastCopyWrite
+ms.keywords: ntifs/CcFastCopyWrite, CcFastCopyWrite, ifsk.ccfastcopywrite, ccref_f5763242-c6f6-4638-8577-a6c65001a8ca.xml, CcFastCopyWrite routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcFastCopyWrite
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcFastCopyWrite
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcFastCopyWrite function
 
 
-
 ## -description
+
+
 The <b>CcFastCopyWrite</b> routine performs a fast copy write from a buffer in memory to a cached file.
 
 
-
 ## -syntax
+
 
 ````
 VOID CcFastCopyWrite(
@@ -56,6 +66,9 @@ VOID CcFastCopyWrite(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -78,34 +91,43 @@ Pointer to the buffer from which the data is to be copied.
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-<b>CcFastCopyWrite</b> is a faster version of <a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>. It differs from <b>CcCopyWrite</b> in the following respects:
 
+## -remarks
+
+
+<b>CcFastCopyWrite</b> is a faster version of <a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>. It differs from <b>CcCopyWrite</b> in the following respects:
+<ul>
+<li>
 <i>FileOffset</i> is a ULONG, not a PLARGE_INTEGER.
 
+</li>
+<li>
 There is no <i>Wait</i> parameter. The caller must be able to enter a wait state until all the data has been copied.
 
+</li>
+<li>
 <b>CcFastCopyWrite</b> does not return a BOOLEAN to indicate whether the write operation was successful.
 
-If the required pages of the cached file are already resident in memory, the data is copied immediately and no blocking occurs. If any needed pages are not resident, the caller is put in a wait state until all required pages have been made resident and the data can be copied.
+</li>
+</ul>If the required pages of the cached file are already resident in memory, the data is copied immediately and no blocking occurs. If any needed pages are not resident, the caller is put in a wait state until all required pages have been made resident and the data can be copied.
 
 If any failure occurs, <b>CcFastCopyWrite</b> raises a status exception for that particular failure. For example, if a pool allocation failure occurs, <b>CcFastCopyWrite</b> raises a STATUS_INSUFFICIENT_RESOURCES exception; if an I/O error occurs, <b>CcFastCopyWrite</b> raises the status exception of the I/O error. Therefore, to gain control if a failure occurs, the driver should wrap the call to <b>CcFastCopyWrite</b> in a <b>try-except</b> or <b>try-finally</b> statement.
 
 To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-</dt>
-</dl>
+
  
 
  

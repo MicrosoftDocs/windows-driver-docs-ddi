@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9ca03060-2f2b-4427-a161-fcce2be94b26
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _WRITE_ROTATION, WRITE_ROTATION, *PWRITE_ROTATION
+ms.keywords: storage.ioctl_cdrom_get_volume, IOCTL_CDROM_GET_VOLUME control code [Storage Devices], IOCTL_CDROM_GET_VOLUME, ntddcdrm/IOCTL_CDROM_GET_VOLUME, k307_40300286-1334-4229-a798-2bfef8866ca7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Obsolete, beginning with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_CDROM_GET_VOLUME
-req.alt-loc: ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,67 +29,95 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdrm.h
+apiname: 
+-	IOCTL_CDROM_GET_VOLUME
+product: Windows
+targetos: Windows
 req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
 
 # IOCTL_CDROM_GET_VOLUME IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 Determines the current volume for each of its device's audio ports.  Obsolete, beginning with Windows Vista.
 
-
-
-Determines the current volume for each of its device's audio ports.  Obsolete, beginning with Windows Vista.
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 Input buffer.
 
 
 ### -input-buffer-length
+
 <i>
        Parameters.DeviceIoControl.OutputBufferLength</i> in the I/O stack location indicates the size, in bytes, of the buffer, which must be greater than or equal to <b> sizeof</b>(VOLUME_CONTROL).
 
 
 ### -output-buffer
+
 The driver returns the <a href="..\ntddcdrm\ns-ntddcdrm-_volume_control.md">VOLUME_CONTROL</a> data in the buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>.
 
 
 ### -output-buffer-length
+
 Length of the <a href="..\ntddcdrm\ns-ntddcdrm-_volume_control.md">VOLUME_CONTROL</a> data.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Information</b> field is set to <b>sizeof</b>(VOLUME_CONTROL) when the <b>Status</b> field is set to STATUS_SUCCESS. Otherwise, the <b>Information</b> field is set to zero, and the <b>Status</b> field possibly can be set to STATUS_BUFFER_TOO_SMALL, STATUS_DEVICE_NOT_READY, STATUS_IO_DEVICE_ERROR, STATUS_VERIFY_REQUIRED, or STATUS_IO_TIMEOUT.
 
 
 ## -remarks
+
+
 Beginning with Windows Vista, CDROM class drivers do not use this IOCTL. Prior to Windows Vista, this IOCTL was used for audio playback on older CD-ROM drives that supported direct audio output in hardware.
 
 Client applications should use the <i>Media Control Interface (MCI) API</i> rather than issuing this IOCTL.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_volume_control.md">VOLUME_CONTROL</a>
-</dt>
-</dl>
+
  
 
  

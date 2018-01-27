@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4f90b553-f652-413f-9723-a5a578de9f8d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IRegistryKey, IRegistryKey::EnumerateValueKey, EnumerateValueKey
+ms.keywords: IRegistryKey interface [Audio Devices], EnumerateValueKey method, audmp-routines_8b4fc752-24a3-4331-b90b-85642dc2121a.xml, EnumerateValueKey method [Audio Devices], EnumerateValueKey method [Audio Devices], IRegistryKey interface, EnumerateValueKey, portcls/IRegistryKey::EnumerateValueKey, IRegistryKey, audio.iregistrykey_enumeratevaluekey, IRegistryKey::EnumerateValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IRegistryKey.EnumerateValueKey
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IRegistryKey.EnumerateValueKey
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IRegistryKey::EnumerateValueKey method
 
 
-
 ## -description
+
+
 The <code>EnumerateValueKey</code> method returns information about a registry entry that contains a value key.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS EnumerateValueKey(
@@ -58,6 +68,9 @@ NTSTATUS EnumerateValueKey(
 
 ## -parameters
 
+
+
+
 ### -param Index [in]
 
 Specifies the subkey index. This parameter identifies the subkey whose value is requested. If the key contains <i>n</i> subkeys, valid indices range from 0 to <i>n</i>-1. If the index exceeds this range, the method returns STATUS_NO_MORE_ENTRIES.
@@ -66,7 +79,6 @@ Specifies the subkey index. This parameter identifies the subkey whose value is 
 ### -param KeyValueInformationClass [in]
 
 Specifies the type of information to be returned in the buffer. Set this parameter to one of the following KEY_VALUE_INFORMATION_CLASS enumeration values:
-
 <ul>
 <li>
 <b>KeyValueBasicInformation</b>
@@ -98,41 +110,63 @@ Output pointer for the length of the resulting data. This parameter points to a 
 
 
 ## -returns
+
+
 <code>EnumerateValueKey</code> returns STATUS_SUCCESS if the call was successful in copying the requested information into the <i>KeyValueInformation</i> buffer. If the specified buffer size is too small to receive all of the available information, the method returns STATUS_BUFFER_OVERFLOW. Otherwise, the method returns an appropriate error code. The following table shows some of the possible return status codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>Indicates that the specified buffer is too small to receive any information.
+</dl>
+</td>
+<td width="60%">
+Indicates that the specified buffer is too small to receive any information.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>Indicates that one of the parameters passed to the method is not valid.
+</dl>
+</td>
+<td width="60%">
+Indicates that one of the parameters passed to the method is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NO_MORE_ENTRIES</b></dt>
-</dl>Indicates that no more value keys are available (the <i>Index</i> parameter is greater than or equal to the number of value keys).
+</dl>
+</td>
+<td width="60%">
+Indicates that no more value keys are available (the <i>Index</i> parameter is greater than or equal to the number of value keys).
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
-</dt>
-<dt>
+
+<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
+
+<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
+
+<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+
 <a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
-</dt>
-</dl>
+
  
 
  

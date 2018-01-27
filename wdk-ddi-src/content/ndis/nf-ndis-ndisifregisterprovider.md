@@ -7,8 +7,8 @@ old-location: netvista\ndisifregisterprovider.htm
 old-project: netvista
 ms.assetid: 1624426b-9e67-4aa2-83d8-f1e6fa484858
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisIfRegisterProvider
+ms.date: 1/18/2018
+ms.keywords: NdisIfRegisterProvider, netvista.ndisifregisterprovider, ndis/NdisIfRegisterProvider, net_if_functions_ref_a2d7c012-0ca6-4512-88dd-a51a85edae0a.xml, NdisIfRegisterProvider function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisIfRegisterProvider
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_Interfaces_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisIfRegisterProvider
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisIfRegisterProvider function
 
 
-
 ## -description
+
+
 The 
   <b>NdisIfRegisterProvider</b> function registers an NDIS network interface provider.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisIfRegisterProvider(
@@ -57,11 +68,14 @@ NDIS_STATUS NdisIfRegisterProvider(
 
 ## -parameters
 
+
+
+
 ### -param ProviderCharacteristics [in]
 
 A pointer to a caller-provided 
-     <a href="..\ndis\ns-ndis-_ndis_if_provider_characteristics.md">
-     NDIS_IF_PROVIDER_CHARACTERISTICS</a> structure. This structure defines the characteristics of the
+     <mshelp:link keywords="netvista.ndis_if_provider_characteristics" tabindex="0"><b>
+     NDIS_IF_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure. This structure defines the characteristics of the
      provider, including the entry points for its provider callback functions.
 
 
@@ -71,7 +85,13 @@ A handle to a caller-provided context area for this network interface provider. 
      to <b>NULL</b> if there is no context area.
 
 
-### -param pNdisProviderHandle [out]
+### -param pNdisIfProviderHandle
+
+TBD
+
+
+
+#### - pNdisProviderHandle [out]
 
 A pointer to a caller-provided handle variable. If the registration operation succeeds, NDIS
      writes a handle to this variable that identifies the network interface provider. The interface provider
@@ -79,29 +99,70 @@ A pointer to a caller-provided handle variable. If the registration operation su
 
 
 ## -returns
+
+
 <b>NdisIfRegisterProvider</b> returns one of the following status values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_SUCCESS</b></dt>
-</dl>The operation completed successfully.
+</dl>
+</td>
+<td width="60%">
+The operation completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_RESOURCES</b></dt>
-</dl>The operation failed because of insufficient resources.
+</dl>
+</td>
+<td width="60%">
+The operation failed because of insufficient resources.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_INVALID_PARAMETER</b></dt>
-</dl><b>NdisIfRegisterProvider</b> failed to register the provider because the 
-       <a href="..\ndis\ns-ndis-_ndis_if_provider_characteristics.md">
-       NDIS_IF_PROVIDER_CHARACTERISTICS</a> structure at the 
+</dl>
+</td>
+<td width="60%">
+<b>NdisIfRegisterProvider</b> failed to register the provider because the 
+       <mshelp:link keywords="netvista.ndis_if_provider_characteristics" tabindex="0"><b>
+       NDIS_IF_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure at the 
        <i>ProviderCharacteristics</i> parameter contained invalid member data.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_NOT_SUPPORTED</b></dt>
-</dl><b>NdisIfRegisterProvider</b> failed to register the provider because the 
+</dl>
+</td>
+<td width="60%">
+<b>NdisIfRegisterProvider</b> failed to register the provider because the 
        <b>Header</b> member in NDIS_IF_PROVIDER_CHARACTERISTICS specifies a structure version that is not
        supported.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 NDIS drivers call the 
     <b>NdisIfRegisterProvider</b> function once during initialization to register as an NDIS interface
     provider. For example, the driver can call 
@@ -112,8 +173,8 @@ NDIS drivers call the
 
 To handle interface provider OID requests, interface providers provide entry points for callback
     functions in the 
-    <a href="..\ndis\ns-ndis-_ndis_if_provider_characteristics.md">
-    NDIS_IF_PROVIDER_CHARACTERISTICS</a> structure at the 
+    <mshelp:link keywords="netvista.ndis_if_provider_characteristics" tabindex="0"><b>
+    NDIS_IF_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure at the 
     <i>ProviderCharacteristics</i> parameter of 
     <b>NdisIfRegisterProvider</b>.
 
@@ -134,25 +195,21 @@ A component that is no longer an interface provider can call the
     <b>NdisIfRegisterProvider</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
+<mshelp:link keywords="netvista.ndis_if_provider_characteristics" tabindex="0"><b>
+   NDIS_IF_PROVIDER_CHARACTERISTICS</b></mshelp:link>
+
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-</dt>
-<dt>
-<a href="..\ndis\ns-ndis-_ndis_if_provider_characteristics.md">
-   NDIS_IF_PROVIDER_CHARACTERISTICS</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndisifderegisterprovider.md">NdisIfDeregisterProvider</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisIfRegisterProvider function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisIfRegisterProvider function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

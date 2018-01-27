@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e0371aeb-fcc0-4749-b70e-26b05b4f12b2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfWmiInstanceGetProvider
+ms.keywords: wdf.wdfwmiinstancegetprovider, PFN_WDFWMIINSTANCEGETPROVIDER, WdfWmiInstanceGetProvider method, DFWMIRef_f5950eae-6036-4acc-91ab-d7d49ae74202.xml, WdfWmiInstanceGetProvider, kmdf.wdfwmiinstancegetprovider, wdfwmi/WdfWmiInstanceGetProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfWmiInstanceGetProvider
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfWmiInstanceGetProvider
+product: Windows
+targetos: Windows
 req.typenames: WDF_WMI_PROVIDER_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WdfWmiInstanceGetProvider function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfWmiInstanceGetProvider</b> method returns a handle to the WMI provider object that is the parent object of a specified WMI instance object.
 
 
-
 ## -syntax
+
 
 ````
 WDFWMIPROVIDER WdfWmiInstanceGetProvider(
@@ -57,30 +68,29 @@ WDFWMIPROVIDER WdfWmiInstanceGetProvider(
 
 ## -parameters
 
+
+
+
 ### -param WmiInstance [in]
 
 A handle to a WMI instance object that the driver obtained from a previous call to <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>.
 
 
 ## -returns
+
+
 <b>WdfWmiInstanceGetProvider</b> returns a handle to a WMI provider object.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-The following code example obtains a handle to the WMI provider object that is the parent object of a specified WMI instance object.
-
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6d94189f-d6ab-40ad-85e5-f4efe8c30ed8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: IDE_DEVICE_TYPE, IDE_DEVICE_TYPE
+ms.keywords: DeviceIsAta, irb/DeviceUnknown, IDE_DEVICE_TYPE, irb/DeviceIsAtapi, irb/IDE_DEVICE_TYPE, DeviceIsAtapi, DeviceUnknown, storage.ide_device_type, structs-ATA_ebe5b232-fdb1-4be8-ada6-54e2dc3d09a8.xml, irb/DeviceNotExist, irb/DeviceIsAta, DeviceNotExist, IDE_DEVICE_TYPE enumeration [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDE_DEVICE_TYPE
-req.alt-loc: irb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	irb.h
+apiname: 
+-	IDE_DEVICE_TYPE
+product: Windows
+targetos: Windows
 req.typenames: IDE_DEVICE_TYPE
 ---
 
 # IDE_DEVICE_TYPE enumeration
 
 
-
 ## -description
+
+
 The IDE_DEVICE_TYPE enumeration type indicates the device type.
-
-
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -56,6 +66,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DeviceUnknown
 
@@ -76,5 +89,3 @@ Indicates an ATAPI device.
 
 Indicates that the device does not exist.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 735bff90-7406-4fe8-87d5-de3aa48fbcd0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_MPEGVIDEOINFO2, KS_MPEGVIDEOINFO2, *PKS_MPEGVIDEOINFO2
+ms.keywords: KS_MPEGVIDEOINFO2 structure [Streaming Media Devices], *PKS_MPEGVIDEOINFO2, ksmedia/KS_MPEGVIDEOINFO2, stream.ks_mpegvideoinfo2, ksmedia/PKS_MPEGVIDEOINFO2, PKS_MPEGVIDEOINFO2, KS_MPEGVIDEOINFO2, vidcapstruct_decbdb49-a4a2-44d6-a005-bd3cbe0df02e.xml, tagKS_MPEGVIDEOINFO2, PKS_MPEGVIDEOINFO2 structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_MPEGVIDEOINFO2
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KS_MPEGVIDEOINFO2
+product: Windows
+targetos: Windows
 req.typenames: KS_MPEGVIDEOINFO2, *PKS_MPEGVIDEOINFO2
 ---
 
 # tagKS_MPEGVIDEOINFO2 structure
 
 
-
 ## -description
+
+
 The KS_MPEGVIDEOINFO2 structure describes an MPEG-2 video stream, including bob or weave settings.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagKS_MPEGVIDEOINFO2 {
@@ -59,6 +69,9 @@ typedef struct tagKS_MPEGVIDEOINFO2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hdr
 
@@ -88,7 +101,6 @@ Specifies the MPEG-2 level. This member must be one of the values from the <a hr
 ### -field dwFlags
 
 Specifies the flags that indicate preferences. This member can be set to one or more (logical OR) values that are defined in <i>ksmedia.h</i>.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -184,8 +196,7 @@ If set, the PTS and DTS timestamps advance at 27 MHz rather than 90 kHz.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field bSequenceHeader
@@ -193,15 +204,10 @@ If set, the PTS and DTS timestamps advance at 27 MHz rather than 90 kHz.
 The length of the <b>bSequenceHeader</b> member, in bytes (zero for DVD).
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>
-</dt>
-</dl>
+
  
 
  

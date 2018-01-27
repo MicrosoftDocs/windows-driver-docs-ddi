@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7e32b408-930d-4ef4-960e-1a0da5ef6803
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMusicTechnology, IMusicTechnology::SetTechnology, SetTechnology
+ms.keywords: IMusicTechnology::SetTechnology, SetTechnology method [Audio Devices], SetTechnology method [Audio Devices], IMusicTechnology interface, portcls/IMusicTechnology::SetTechnology, IMusicTechnology, IMusicTechnology interface [Audio Devices], SetTechnology method, audio.imusictechnology_settechnology, SetTechnology, audmp-routines_d1d6abaa-c4b8-4dce-8ce5-9fc12cc87852.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMusicTechnology.SetTechnology
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IMusicTechnology.SetTechnology
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMusicTechnology::SetTechnology method
 
 
-
 ## -description
+
+
 The <code>SetTechnology</code> method changes the <b>Technology</b> member of each <a href="..\ksmedia\ns-ksmedia-ksdatarange_music.md">KSDATARANGE_MUSIC</a> structure in the data ranges for the miniport driver's pins.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SetTechnology(
@@ -54,52 +64,94 @@ NTSTATUS SetTechnology(
 
 ## -parameters
 
+
+
+
 ### -param Technology [in]
 
 Specifies a technology GUID. This parameter should point to one of the GUIDs that are defined for the <b>Technology</b> member of the <a href="..\ksmedia\ns-ksmedia-ksdatarange_music.md">KSDATARANGE_MUSIC</a> structure.
 
 
 ## -returns
+
+
 <code>SetTechnology</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 The <code>SetTechology</code> method should be called before the miniport driver's <b>Init</b> method. If <code>SetTechnology</code> is not called, the miniport driver's <b>Technology</b> members are all set to KSMUSIC_TECHNOLOGY_PORT by default.
 
 The following table lists the GUIDs that are defined for the <i>Technology</i> parameter and the corresponding integer value to which the <b>wTechnology</b> member of the MIDIOUTCAPS structure is set during a call to <b>midiOutGetDevCaps</b>.
-
+<table>
+<tr>
+<th>Technology GUID</th>
+<th>MIDIOUTCAPS.wTechnology</th>
+</tr>
+<tr>
+<td>
 KSMUSIC_TECHNOLOGY_PORT
 
+</td>
+<td>
 MOD_MIDIPORT
 
+</td>
+</tr>
+<tr>
+<td>
 KSMUSIC_TECHNOLOGY_SQSYNTH
 
+</td>
+<td>
 MOD_SQSYNTH
 
+</td>
+</tr>
+<tr>
+<td>
 KSMUSIC_TECHNOLOGY_FMSYNTH 
 
+</td>
+<td>
 MOD_FMSYNTH
 
+</td>
+</tr>
+<tr>
+<td>
 KSMUSIC_TECHNOLOGY_WAVETABLE
 
+</td>
+<td>
 MOD_WAVETABLE
 
+</td>
+</tr>
+<tr>
+<td>
 KSMUSIC_TECHNOLOGY_SWSYNTH
 
+</td>
+<td>
 MOD_SWSYNTH
+
+</td>
+</tr>
+</table> 
 
 For more information, see <a href="https://msdn.microsoft.com/3b7c2907-e67f-458e-809d-080dcc30be1a">Music Technology GUIDs</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-imusictechnology.md">IMusicTechnology</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-ksdatarange_music.md">KSDATARANGE_MUSIC</a>
-</dt>
-</dl>
+
  
 
  

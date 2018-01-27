@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1A7C7181-00AF-4AAB-822F-017F11DB9409
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_STREAM, KSPROPERTY_STREAM
+ms.keywords: KSPROPERTY_STREAM_PRESENTATIONEXTENT, KSPROPERTY_STREAM, ks/KSPROPERTY_STREAM, stream.ksproperty_stream, KSPROPERTY_STREAM_QUALITY, KSPROPERTY_STREAM_PIPE_ID, ks/KSPROPERTY_STREAM_PRESENTATIONTIME, ks/KSPROPERTY_STREAM_PRESENTATIONEXTENT, ks/KSPROPERTY_STREAM_PIPE_ID, KSPROPERTY_STREAM_TIMEFORMAT, ks/KSPROPERTY_STREAM_MASTERCLOCK, KSPROPERTY_STREAM enumeration [Streaming Media Devices], KSPROPERTY_STREAM_MASTERCLOCK, ks/KSPROPERTY_STREAM_TIMEFORMAT, KSPROPERTY_STREAM_DEGRADATION, KSPROPERTY_STREAM_RATECAPABILITY, ks/KSPROPERTY_STREAM_RATECAPABILITY, ks/KSPROPERTY_STREAM_RATE, KSPROPERTY_STREAM_RATE, ks/KSPROPERTY_STREAM_QUALITY, ks/KSPROPERTY_STREAM_ALLOCATOR, ks/KSPROPERTY_STREAM_FRAMETIME, ks/KSPROPERTY_STREAM_DEGRADATION, KSPROPERTY_STREAM_PRESENTATIONTIME, KSPROPERTY_STREAM_ALLOCATOR, KSPROPERTY_STREAM_FRAMETIME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPROPERTY_STREAM
-req.alt-loc: Ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ks.h
+apiname: 
+-	KSPROPERTY_STREAM
+product: Windows
+targetos: Windows
 req.typenames: KSPROPERTY_STREAM
 ---
 
 # KSPROPERTY_STREAM enumeration
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: KSPROPERTY_STREAM
 
 
 
+
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -63,6 +73,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field KSPROPERTY_STREAM_ALLOCATOR
 
@@ -118,5 +131,3 @@ Specify in conjunction with KSPROPERTY_STREAM_RATECAPABILITY and use this to set
 
 Used internally for communication between the KSProxy system driver and AVStream.
 
-
-## -remarks

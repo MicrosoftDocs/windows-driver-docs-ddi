@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 53631f26-8377-4ab5-83db-ed241c11643a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSDATARANGE_AUDIO, *PKSDATARANGE_AUDIO, KSDATARANGE_AUDIO
+ms.keywords: KSDATARANGE_AUDIO, *PKSDATARANGE_AUDIO, PKSDATARANGE_AUDIO, PKSDATARANGE_AUDIO structure pointer [Audio Devices], ksmedia/KSDATARANGE_AUDIO, KSDATARANGE_AUDIO structure [Audio Devices], ksmedia/PKSDATARANGE_AUDIO, aud-prop_9a59d4cd-4c84-4c22-8a36-741cf53ec08d.xml, audio.ksdatarange_audio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSDATARANGE_AUDIO
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSDATARANGE_AUDIO, KSDATARANGE_AUDIO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSDATARANGE_AUDIO
+product: Windows
+targetos: Windows
+req.typenames: KSDATARANGE_AUDIO, *PKSDATARANGE_AUDIO
 ---
 
 # KSDATARANGE_AUDIO structure
 
 
-
 ## -description
+
+
 The KSDATARANGE_AUDIO structure specifies a range of audio formats.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -58,6 +68,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DataRange
 
@@ -90,17 +103,18 @@ Specifies the maximum frequency allowed.
 
 
 ## -remarks
+
+
 For examples of data ranges that use the KSDATARANGE_AUDIO structure, see <a href="https://msdn.microsoft.com/e8a9b681-3bd2-46ed-970f-5217dbfb2e4e">PCM Stream Data Range</a>, <a href="https://msdn.microsoft.com/cc31eb2d-7421-4748-b14c-f4d3d15f9884">DirectSound Stream Data Range</a>, and <a href="https://msdn.microsoft.com/87d59554-43fa-4d61-9829-c38691d0a525">Specifying AC-3 Data Ranges</a>.
 
 For information about data ranges and intersection handling, see <a href="https://msdn.microsoft.com/7206afdb-8a34-4b5a-8cea-87119f426161">Data-Intersection Handlers</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
-</dt>
-</dl>
+
  
 
  

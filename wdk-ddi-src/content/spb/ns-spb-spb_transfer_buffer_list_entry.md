@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: C53F4F44-5338-4BEF-8055-AE4AC37002AC
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB_TRANSFER_BUFFER_LIST_ENTRY, SPB_TRANSFER_BUFFER_LIST_ENTRY, *PSPB_TRANSFER_BUFFER_LIST_ENTRY
+ms.keywords: spb/SPB_TRANSFER_BUFFER_LIST_ENTRY, PSPB_TRANSFER_BUFFER_LIST_ENTRY structure pointer [Buses], SPB_TRANSFER_BUFFER_LIST_ENTRY structure [Buses], PSPB_TRANSFER_BUFFER_LIST_ENTRY, SPB.spb_transfer_buffer_list_entry, *PSPB_TRANSFER_BUFFER_LIST_ENTRY, spb/PSPB_TRANSFER_BUFFER_LIST_ENTRY, SPB_TRANSFER_BUFFER_LIST_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SPB_TRANSFER_BUFFER_LIST_ENTRY
-req.alt-loc: Spb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Spb.h
+apiname: 
+-	SPB_TRANSFER_BUFFER_LIST_ENTRY
+product: Windows
+targetos: Windows
 req.typenames: SPB_TRANSFER_BUFFER_LIST_ENTRY, *PSPB_TRANSFER_BUFFER_LIST_ENTRY
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SPB_TRANSFER_BUFFER_LIST_ENTRY structure
 
 
-
 ## -description
+
+
 The <b>SPB_TRANSFER_BUFFER_LIST_ENTRY</b> structure describes either a simple transfer buffer, or an element in an array of one or more transfer buffers.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SPB_TRANSFER_BUFFER_LIST_ENTRY {
@@ -55,6 +65,9 @@ typedef struct _SPB_TRANSFER_BUFFER_LIST_ENTRY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Buffer
 
@@ -67,26 +80,24 @@ The size, in bytes, of the transfer buffer that <b>Buffer</b> points to.
 
 
 ## -remarks
+
+
 To request an <a href="https://msdn.microsoft.com/7415DB28-5E93-4F47-B169-7C652969D4C7">I/O transfer sequence</a> for a target device on the bus, a client (peripheral driver) of the SPB controller driver sends an <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a> request that describes the sequence. The transfers in the sequence are described by an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a> structure that is followed by an array of one or more <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a> structures. Each element in this array describes an individual transfer in the sequence, and each element contains an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a> structure that describes the buffer to use for the transfer.
 
 If the buffer format is  <b>SpbTransferBufferFormatSimple</b>, an  <b>SPB_TRANSFER_BUFFER</b> structure contains a single <b>SPB_TRANSFER_BUFFER_LIST_ENTRY</b> structure that describes a simple buffer that is specified by an address and a length. If the buffer format is <b>SpbTransferBufferFormatList</b>, the buffer is a scatter-gather list, and the  <b>SPB_TRANSFER_BUFFER</b> structure contains a pointer to an <b>SPB_TRANSFER_BUFFER_LIST_ENTRY</b> array that describes the list.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a>
+
  
 
  

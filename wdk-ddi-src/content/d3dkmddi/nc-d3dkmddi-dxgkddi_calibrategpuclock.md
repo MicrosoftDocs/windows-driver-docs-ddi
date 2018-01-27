@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: AF912508-D6EF-450D-AEC3-47D1C44D0DA0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddicalibrategpuclock, DxgkDdiCalibrateGpuClock callback function [Display Devices], DxgkDdiCalibrateGpuClock, DXGKDDI_CALIBRATEGPUCLOCK, DXGKDDI_CALIBRATEGPUCLOCK, d3dkmddi/DxgkDdiCalibrateGpuClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1,WDDM 1.3
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiCalibrateGpuClock
-req.alt-loc: D3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3dkmddi.h
+apiname: 
+-	DxgkDdiCalibrateGpuClock
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_CALIBRATEGPUCLOCK callback
 
 
-
 ## -description
+
+
 Called by the  Microsoft DirectX graphics kernel subsystem to calibrate the GPU time stamps in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer.md">DXGK_HISTORY_BUFFER</a> history buffer with the CPU clock time.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_CALIBRATEGPUCLOCK DxgkDdiCalibrateGpuClock;
@@ -59,6 +69,9 @@ _Check_return NTSTATUS APIENTRY* DxgkDdiCalibrateGpuClock(
 
 
 ## -parameters
+
+
+
 
 ### -param hAdapter [in]
 
@@ -83,10 +96,15 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn46
 
 
 ## -returns
+
+
 Returns <b>STATUS_SUCCESS</b> if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
+
 ## -remarks
+
+
 The DirectX graphics kernel subsystem uses the returned info in the <i>pClockCalibration</i> parameter to estimate the drift between the GPU and CPU clocks.
 
 To minimize calibration inaccuracies, the driver should compute the values for the <b>GpuClockCounter</b>
@@ -95,18 +113,15 @@ To minimize calibration inaccuracies, the driver should compute the values for t
 The DirectX graphics kernel subsystem calls this function often enough, typically at least once every 30ms, to minimize the accumulated drift between the GPU and CPU clocks.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer.md">DXGK_HISTORY_BUFFER</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn467320">DXGKARG_CALIBRATEGPUCLOCK</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer.md">DXGK_HISTORY_BUFFER</a>
+
  
 
  

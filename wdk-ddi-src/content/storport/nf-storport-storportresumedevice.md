@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 81b979a8-87bb-48f3-b44a-bac9286648fa
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortResumeDevice
+ms.keywords: storprt_62696d8f-cfb1-43fd-8b23-b14f1ac0d429.xml, StorPortResumeDevice routine [Storage Devices], storage.storportresumedevice, storport/StorPortResumeDevice, StorPortResumeDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortResumeDevice
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortResumeDevice
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortResumeDevice function
 
 
-
 ## -description
+
+
 The <b>StorPortResumeDevice</b> routine resumes a previously paused logical unit.
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API BOOLEAN StorPortResumeDevice(
@@ -57,6 +68,9 @@ STORPORT_API BOOLEAN StorPortResumeDevice(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -79,18 +93,16 @@ Identifies the logical unit number of the target device.
 
 
 ## -returns
+
+
 <b>StorPortResumeDevice</b> returns <b>TRUE</b> if the miniport driver succeeded in resuming the paused device, <b>FALSE</b> if not. 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\nf-storport-storportpausedevice.md">StorPortPauseDevice</a>
-</dt>
-</dl>
+
  
 
  

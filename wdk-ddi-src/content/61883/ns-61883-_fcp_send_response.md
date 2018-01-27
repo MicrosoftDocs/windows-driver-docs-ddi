@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 65C76CA1-F7F2-4DFD-B928-0595A137BF28
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _FCP_SEND_RESPONSE, *PFCP_SEND_RESPONSE, FCP_SEND_RESPONSE
+ms.keywords: *PFCP_SEND_RESPONSE, 61883/FCP_SEND_RESPONSE, 61883/PFCP_SEND_RESPONSE, PFCP_SEND_RESPONSE, PFCP_SEND_RESPONSE structure pointer [Buses], FCP_SEND_RESPONSE, IEEE.fcp_send_response, _FCP_SEND_RESPONSE, FCP_SEND_RESPONSE structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FCP_SEND_RESPONSE
-req.alt-loc: 61883.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PFCP_SEND_RESPONSE, FCP_SEND_RESPONSE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	61883.h
+apiname: 
+-	FCP_SEND_RESPONSE
+product: Windows
+targetos: Windows
+req.typenames: FCP_SEND_RESPONSE, *PFCP_SEND_RESPONSE
 ---
 
 # _FCP_SEND_RESPONSE structure
 
 
-
 ## -description
+
+
 This structure is used for a send response. 
 
 The request sends an FCP response to the device. The  request is used in conjunction with GetFcpRequest. A client driver should use SendFcpResponse to return an FCP response for a received FCP request. If the protocol driver is being used to represent a virtual device on the machine, the <b>NodeAddress</b> member from GetFcpRequest must be specified in the <b>NodeAddress</b> member of the FCP_SEND_RESPONSE structure. This information is required in order to route the response to the proper node on the 1394 bus.
@@ -46,8 +56,8 @@ The request sends an FCP response to the device. The  request is used in conjunc
 If the protocol driver is being used to control a physical device, the 1394 bus driver determines the node address dynamically, and <b>NodeAddress</b> is not used. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FCP_SEND_RESPONSE {
@@ -59,6 +69,9 @@ typedef struct _FCP_SEND_RESPONSE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NodeAddress
 
@@ -78,6 +91,8 @@ On input, a pointer to an <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ## -remarks
+
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
 
 If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_INVALID_PARAMETER.
@@ -85,12 +100,11 @@ If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoSt
 If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_INSUFFICIENT_RESOURCES.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-</dt>
-</dl>
+
  
 
  

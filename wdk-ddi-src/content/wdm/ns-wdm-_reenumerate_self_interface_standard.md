@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f44a57e9-4536-46a7-a80e-d4bbbb2a9ad5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _REENUMERATE_SELF_INTERFACE_STANDARD, *PREENUMERATE_SELF_INTERFACE_STANDARD, REENUMERATE_SELF_INTERFACE_STANDARD
+ms.keywords: drvr_interface_6e913216-4d26-4c59-b040-854f5aac2a9a.xml, REENUMERATE_SELF_INTERFACE_STANDARD, wdm/PREENUMERATE_SELF_INTERFACE_STANDARD, PREENUMERATE_SELF_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture], PREENUMERATE_SELF_INTERFACE_STANDARD, kernel.reenumerate_self_interface_standard, _REENUMERATE_SELF_INTERFACE_STANDARD, wdm/REENUMERATE_SELF_INTERFACE_STANDARD, *PREENUMERATE_SELF_INTERFACE_STANDARD, REENUMERATE_SELF_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: REENUMERATE_SELF_INTERFACE_STANDARD
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	REENUMERATE_SELF_INTERFACE_STANDARD
+product: Windows
+targetos: Windows
 req.typenames: *PREENUMERATE_SELF_INTERFACE_STANDARD, REENUMERATE_SELF_INTERFACE_STANDARD
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _REENUMERATE_SELF_INTERFACE_STANDARD structure
 
 
-
 ## -description
+
+
 The <b>REENUMERATE_SELF_INTERFACE_STANDARD</b> interface structure enables a driver to request that its parent bus driver reenumerate the driver's device. This structure  defines the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546570">GUID_REENUMERATE_SELF_INTERFACE_STANDARD</a> interface.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _REENUMERATE_SELF_INTERFACE_STANDARD {
@@ -59,6 +69,9 @@ typedef struct _REENUMERATE_SELF_INTERFACE_STANDARD {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -91,32 +104,28 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 
 ## -remarks
+
+
 A driver obtains a pointer to the <b>REENUMERATE_SELF_INTERFACE_STANDARD</b> structure by sending an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a> IRP to its bus driver with <b>InterfaceType</b> set to GUID_REENUMERATE_SELF_INTERFACE_STANDARD.
 
 The <b>REENUMERATE_SELF_INTERFACE_STANDARD</b> structure is an extension of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546570">GUID_REENUMERATE_SELF_INTERFACE_STANDARD</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
+
+<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560837">ReenumerateSelf</a>
-</dt>
-</dl>
+
  
 
  

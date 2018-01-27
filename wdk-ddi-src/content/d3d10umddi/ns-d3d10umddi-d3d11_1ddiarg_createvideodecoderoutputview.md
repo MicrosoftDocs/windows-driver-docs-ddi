@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6DD555B1-01E8-48DE-B957-2752671B7EBB
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW, D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW
+ms.keywords: D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW, d3d10umddi/PD3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW, PD3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW structure pointer [Display Devices], d3d10umddi/D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW, PD3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW, D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW structure [Display Devices], display.d3d11_1ddiarg_createvideodecoderoutputview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW
 ---
 
 # D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW structure
 
 
-
 ## -description
+
+
 Describes the video decoder's output-view state.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW {
@@ -57,6 +67,9 @@ typedef struct _D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDrvResource
 
@@ -82,5 +95,3 @@ The identifier of the first array slice.
 
 The number of array slices for the texture.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 14aaf96a-4d1f-4e4a-9fed-e493090157b8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDiscardEvent
+ms.keywords: ksfunc_553391e5-343a-4cc7-9bc5-99971cff2fcd.xml, KsDiscardEvent function [Streaming Media Devices], KsDiscardEvent, stream.ksdiscardevent, ks/KsDiscardEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsDiscardEvent
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsDiscardEvent
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsDiscardEvent function
 
 
-
 ## -description
+
+
 The <b>KsDiscardEvent</b> function discards the memory used by an event entry after the objects have been dereferenced. The function can be called when manually disabling events that have not been disabled by the event owner (by calling the <b>KsFreeEventList</b> function to disable events). For example, the function can be called when asynchronously enabling an event fails and the event entry needs to be discarded.
 
 
-
 ## -syntax
+
 
 ````
 VOID KsDiscardEvent(
@@ -54,28 +65,34 @@ VOID KsDiscardEvent(
 
 ## -parameters
 
+
+
+
 ### -param EventEntry [in]
 
 Specifies the pointer to the entry to discard. This pointer is no longer valid after a successful call to this function.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 Typically, the <b>KsDiscardEvent</b> function is automatically called by the <a href="..\ks\nf-ks-ksdisableevent.md">KsDisableEvent</a> function when a request to disable an event occurs, or by the <a href="..\ks\nf-ks-ksfreeeventlist.md">KsFreeEventList</a> function when a request to free a list of events occurs. This function can only be called at PASSIVE_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksdisableevent.md">KsDisableEvent</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksfreeeventlist.md">KsFreeEventList</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksdisableevent.md">KsDisableEvent</a>
+
  
 
  

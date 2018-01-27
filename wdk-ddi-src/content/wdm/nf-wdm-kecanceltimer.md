@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: aefbf6d6-c107-4bf2-993d-d7ba8ea7ffcd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeCancelTimer
+ms.keywords: k105_89adf0ea-9f6b-4e21-be3a-7f75f1baec10.xml, KeCancelTimer routine [Kernel-Mode Driver Architecture], KeCancelTimer, kernel.kecanceltimer, wdm/KeCancelTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeCancelTimer
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlKeDispatchLte, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeCancelTimer
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeCancelTimer function
 
 
-
 ## -description
+
+
 The <b>KeCancelTimer</b> routine dequeues a timer object before the timer interval, if any was set, expires.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN KeCancelTimer(
@@ -55,16 +65,25 @@ BOOLEAN KeCancelTimer(
 
 ## -parameters
 
-### -param Timer [in, out]
+
+
+
+
+#### - Timer [in, out]
 
 Pointer to an initialized timer object, for which the caller provides the storage.
 
 
 ## -returns
+
+
 If the specified timer object is in the system timer queue, <b>KeCancelTimer</b> returns <b>TRUE</b>.
 
 
+
 ## -remarks
+
+
 If the timer object is currently in the system timer queue, it is removed from the queue. If a DPC object is associated with the timer, it too is canceled. Otherwise, no operation is performed.
 
 The routine returns <b>TRUE</b> if the timer is still in the timer queue. A nonperiodic timer is removed from the system queue as soon as it expires. Thus, for nonperiodic timers, <b>KeCancelTimer</b> returns <b>FALSE</b> if the timer DPC has been queued. Periodic timers are always in the timer queue, so <b>KeCancelTimer</b> always returns <b>TRUE</b> for periodic timers. 
@@ -78,18 +97,15 @@ Drivers do not need to synchronize for data stored in global variables or driver
 For more information about timer objects, see <a href="https://msdn.microsoft.com/b58487de-6e9e-45f4-acb8-9233c8718ee2">Timer Objects and DPCs</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
+
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
  
 
  

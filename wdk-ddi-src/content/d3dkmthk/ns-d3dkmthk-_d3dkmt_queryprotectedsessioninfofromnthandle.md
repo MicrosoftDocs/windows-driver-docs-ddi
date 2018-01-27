@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e08d27e7-e9b7-45e7-9bbd-dcb9aa8f85ed
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE, D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
+ms.keywords: d3dkmthk/D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE, _D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE, D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE structure [Display Devices], display.d3dkmt-queryprotectedsessioninfofromnthandle, D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
 ---
 
 # _D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE structure
 
 
-
 ## -description
+
+
 Used to query information on the protected session.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE {
@@ -57,6 +67,9 @@ typedef struct _D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hNtHandle
 
@@ -82,5 +95,3 @@ The private runtime data.
 
 The size of the private runtime data.
 
-
-## -remarks

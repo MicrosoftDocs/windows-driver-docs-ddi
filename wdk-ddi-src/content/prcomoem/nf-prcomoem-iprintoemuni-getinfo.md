@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_getinfo.htm
 old-project: print
 ms.assetid: 8c4ab4a0-387f-49f8-bb9e-4851c5079cff
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IPrintOemUni, IPrintOemUni::GetInfo, GetInfo
+ms.date: 1/18/2018
+ms.keywords: IPrintOemUni, IPrintOemUni::GetInfo, IPrintOemUni interface [Print Devices], GetInfo method, print_unidrv-pscript_rendering_67919d6c-27a7-4f53-b558-9a6d6b391dad.xml, prcomoem/IPrintOemUni::GetInfo, GetInfo method [Print Devices], IPrintOemUni interface, GetInfo, GetInfo method [Print Devices], print.iprintoemuni_getinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPrintOemUni.GetInfo
-req.alt-loc: Prcomoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Prcomoem.h
+apiname: 
+-	IPrintOemUni.GetInfo
+product: Windows
+targetos: Windows
+req.typenames: *POEMPTOPTS, OEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
 # IPrintOemUni::GetInfo method
 
 
-
 ## -description
+
+
 A rendering plug-in's <code>IPrintOemUni::GetInfo</code> method returns identification information.
 
 
-
 ## -syntax
+
 
 ````
 STDMETHOD GetInfo(
@@ -58,66 +68,88 @@ STDMETHOD GetInfo(
 
 ## -parameters
 
-### -param dwMode 
+
+
+
+### -param dwMode
 
 Contains one of the following caller-supplied integer constants.
 
 
 
 
-### -param OEMGI_GETREQUESTEDHELPERINTERFACES
-
-The method must write the bit flag value of OEMPUBLISH_IPRINTCOREHELPER to the buffer <i>pBuffer</i> if the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554269">IPrintOemUni::PublishDriverInterface</a> method should be called with parameter <i>pIUnknown</i> pointing to an object that implements the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552940">IPrintCoreHelperUni Interface</a>.
-
-</dd>
-</dl>
 
 
 
-### -param OEMGI_GETSIGNATURE
 
-The method must return a unique four-byte identification signature. The plug-in must also place this signature in <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structures, as described in the description of the <a href="..\printoem\ns-printoem-_oemcuipparam.md">OEMCUIPPARAM</a>. structure's <b>pOEMOptItems</b> member.
-
-</dd>
-</dl>
-
-
-
-### -param OEMGI_GETVERSION
-
-The method must return the user interface plug-in's version number as a DWORD. The version format is developer-defined.
-
-</dd>
-</dl>
-
-### -param pBuffer 
+### -param pBuffer
 
 Caller-supplied pointer to memory allocated to receive the information specified by <i>dwInfo</i>.
 
 
-### -param cbSize 
+### -param cbSize
 
 Caller-supplied size of the buffer pointed to by <i>pBuffer</i>.
 
 
-### -param pcbNeeded 
+### -param pcbNeeded
 
 Caller-supplied pointer to a location to receive the number of bytes written into the buffer pointed to by <i>pBuffer</i>.
 
 
+##### - dwMode.OEMGI_GETSIGNATURE
+
+The method must return a unique four-byte identification signature. The plug-in must also place this signature in <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structures, as described in the description of the <a href="..\printoem\ns-printoem-_oemcuipparam.md">OEMCUIPPARAM</a>. structure's <b>pOEMOptItems</b> member.
+
+
+##### - dwMode.OEMGI_GETVERSION
+
+The method must return the user interface plug-in's version number as a DWORD. The version format is developer-defined.
+
+
+##### - dwMode.OEMGI_GETREQUESTEDHELPERINTERFACES
+
+The method must write the bit flag value of OEMPUBLISH_IPRINTCOREHELPER to the buffer <i>pBuffer</i> if the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554269">IPrintOemUni::PublishDriverInterface</a> method should be called with parameter <i>pIUnknown</i> pointing to an object that implements the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552940">IPrintCoreHelperUni Interface</a>.
+
+
 ## -returns
+
+
 The method must return one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The operation succeeded.
+</dl>
+</td>
+<td width="60%">
+The operation succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_FAIL</b></dt>
-</dl>The operation failed.
+</dl>
+</td>
+<td width="60%">
+The operation failed.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A rendering plug-in for Unidrv must implement the <code>IPrintOemUni::GetInfo</code> method, which is called immediately after the plug-in is loaded. The method should return the specified information by writing it to the address specified by <i>pBuffer</i> and writing the size, in bytes, of the returned information into the location specified by <i>pcbNeeded</i>.
 
 If <i>pBuffer</i> is <b>NULL</b>, the method should just use <i>pcbNeeded</i> to return the number of bytes required to store the specified information.
@@ -125,18 +157,16 @@ If <i>pBuffer</i> is <b>NULL</b>, the method should just use <i>pcbNeeded</i> to
 For more information about creating and installing rendering plug-ins, see <a href="https://msdn.microsoft.com/b7761209-1f6f-4288-af47-4ed855c2e629">Customizing Microsoft's Printer Drivers</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554178">IPrintOemUI::GetInfo</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553221">IPrintOemPS::GetInfo</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUni::GetInfo method%20 RELEASE:%20(1/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUni::GetInfo method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

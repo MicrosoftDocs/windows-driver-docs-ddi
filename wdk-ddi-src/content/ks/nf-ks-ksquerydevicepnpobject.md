@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 207b776a-8f51-4385-a171-a9d0e84e70b5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsQueryDevicePnpObject
+ms.keywords: ksfunc_dd821abc-bd3b-45e9-a1de-1f9fd201db8e.xml, KsQueryDevicePnpObject function [Streaming Media Devices], stream.ksquerydevicepnpobject, ks/KsQueryDevicePnpObject, KsQueryDevicePnpObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsQueryDevicePnpObject
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsQueryDevicePnpObject
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsQueryDevicePnpObject function
 
 
-
 ## -description
+
+
 The <b>KsQueryDevicePnpObject</b> function returns the PnP device object that can be stored in the device header. This is the next device object on the PnP stack and is the device object that PnP requests are forwarded to if <b>KsDefaultDispatchPnp</b> is used.
 
 
-
 ## -syntax
+
 
 ````
 PDEVICE_OBJECT KsQueryDevicePnpObject(
@@ -54,24 +65,25 @@ PDEVICE_OBJECT KsQueryDevicePnpObject(
 
 ## -parameters
 
+
+
+
 ### -param Header [in]
 
 Points to a header previously allocated by <a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a> whose PnP device object is to be returned.
 
 
 ## -returns
+
+
 The <b>KsQueryDevicePnpObject</b> function returns the previously set PnP device object. If none was set, it returns <b>NULL</b>.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561665">KsDefaultDispatchPnp</a>
-</dt>
-</dl>
+
  
 
  

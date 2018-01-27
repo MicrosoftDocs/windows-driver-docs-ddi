@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ea4672a2-ba21-42d4-9ff3-4fa611f86c90
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddidestroyoverlay, DxgkDdiDestroyOverlay callback function [Display Devices], DxgkDdiDestroyOverlay, DXGKDDI_DESTROYOVERLAY, DXGKDDI_DESTROYOVERLAY, d3dkmddi/DxgkDdiDestroyOverlay, DmFunctions_e4fa2e3e-ac60-4235-92cc-77e71116a4d4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiDestroyOverlay
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DxgkDdiDestroyOverlay
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_DESTROYOVERLAY callback
 
 
-
 ## -description
+
+
 The <i>DxgkDdiDestroyOverlay</i> function disables overlay hardware and deletes the specified overlay handle.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_DESTROYOVERLAY DxgkDdiDestroyOverlay;
@@ -57,28 +67,34 @@ NTSTATUS APIENTRY DxgkDdiDestroyOverlay(
 
 ## -parameters
 
+
+
+
 ### -param hOverlay [in]
 
 [in] A handle to the overlay to destroy. The display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hOverlay</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a> structure. 
 
 
 ## -returns
+
+
 <i>DxgkDdiDestroyOverlay</i> returns STATUS_SUCCESS, or an appropriate error result if overlay hardware is not successfully disabled.
 
 
+
 ## -remarks
+
+
 <i>DxgkDdiDestroyOverlay</i> should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9e083aba-1039-4ad3-9650-0e6e38ceb0c0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _CLS_CONTAINER_INFORMATION, *PCLS_CONTAINER_INFORMATION, PPCLS_CONTAINER_INFORMATION, CLS_CONTAINER_INFORMATION, CLFS_CONTAINER_INFORMATION, *PCLFS_CONTAINER_INFORMATION
+ms.keywords: *PCLFS_CONTAINER_INFORMATION, wdm/PPCLS_CONTAINER_INFORMATION, PCLS_CONTAINER_INFORMATION, wdm/PCLFS_CONTAINER_INFORMATION, *PCLS_CONTAINER_INFORMATION, PPCLS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], CLFS_CONTAINER_INFORMATION, PPCLS_CONTAINER_INFORMATION, CLFS_CONTAINER_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PCLS_CONTAINER_INFORMATION, PCLFS_CONTAINER_INFORMATION, wdm/PPCLFS_CONTAINER_INFORMATION, wdm/CLS_CONTAINER_INFORMATION, PPCLFS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], CLS_CONTAINER_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.clfs_container_information, PPCLFS_CONTAINER_INFORMATION, wdm/CLFS_CONTAINER_INFORMATION, CLS_CONTAINER_INFORMATION, kstruct_a_757d7a17-feb2-4b99-8b6f-f83288858851.xml, PCLS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _CLS_CONTAINER_INFORMATION, PCLFS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CLS_CONTAINER_INFORMATION
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PCLS_CONTAINER_INFORMATION, PPCLS_CONTAINER_INFORMATION, CLS_CONTAINER_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	CLS_CONTAINER_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: CLS_CONTAINER_INFORMATION, PPCLS_CONTAINER_INFORMATION, *PCLS_CONTAINER_INFORMATION
 req.product: Windows 10 or later.
 ---
 
 # _CLS_CONTAINER_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>CLFS_CONTAINER_INFORMATION</b> structure holds descriptive information for an individual container in a Common Log File System (CLFS) log.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CLS_CONTAINER_INFORMATION {
@@ -64,6 +74,9 @@ typedef struct _CLS_CONTAINER_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field FileAttributes
 
@@ -108,7 +121,6 @@ An array of wide characters that holds the file name of the container.
 ### -field State
 
 An integer that specifies the state of the container. This member must be one of the following values.
-
 <table>
 <tr>
 <th>Value</th>
@@ -174,8 +186,7 @@ The container is marked for deletion, but still contains records that are pendin
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field PhysicalContainerId
@@ -189,26 +200,24 @@ A 32-bit identifier that changes every time the container is recycled.
 
 
 ## -remarks
+
+
 The <a href="..\wdm\nf-wdm-clfsscanlogcontainers.md">ClfsScanLogContainers</a> function writes descriptive information into an array of <b>CLFS_CONTAINER_INFORMATION</b> structures.
 
 Time values <b>CreationTime</b>, <b>LastAccessTime</b>, and <b>LastWriteTime</b> are expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-clfsscanlogcontainers.md">ClfsScanLogContainers</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-clfscreatescancontext.md">ClfsCreateScanContext</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+
 <a href="..\wdm\ns-wdm-_cls_scan_context.md">CLFS_SCAN_CONTEXT</a>
-</dt>
-</dl>
+
  
 
  

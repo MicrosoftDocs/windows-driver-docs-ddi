@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9F79816F-866F-4B68-898F-87D310EFBBE7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsAllocator, IKsAllocator::KsGetAllocatorHandle, KsGetAllocatorHandle
+ms.keywords: IKsAllocator, IKsAllocator interface [Streaming Media Devices], KsGetAllocatorHandle method, KsGetAllocatorHandle method [Streaming Media Devices], KsGetAllocatorHandle method [Streaming Media Devices], IKsAllocator interface, KsGetAllocatorHandle, stream.iksallocator_ksgetallocatorhandle, IKsAllocator::KsGetAllocatorHandle, ksproxy/IKsAllocator::KsGetAllocatorHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsAllocator.KsGetAllocatorHandle
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,24 +26,36 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ksproxy.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsAllocator.KsGetAllocatorHandle
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsAllocator::KsGetAllocatorHandle method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Retrieves a file handle to an allocator.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT KsGetAllocatorHandle(
@@ -57,23 +67,20 @@ HRESULT KsGetAllocatorHandle(
 ## -parameters
 
 
+
+
+
 ## -returns
+
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksproxy\nn-ksproxy-iksallocator.md">IKsAllocator</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\ndiswriteeventlogentry.htm
 old-project: netvista
 ms.assetid: 1f3fbcf1-e6f4-4117-a795-f4b14ef9fc96
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisWriteEventLogEntry
+ms.date: 1/18/2018
+ms.keywords: netvista.ndiswriteeventlogentry, NdisWriteEventLogEntry, NdisWriteEventLogEntry function [Network Drivers Starting with Windows Vista], miniport_logging_ref_435a14ad-ae5a-4ff9-80a9-2c41966ed8ba.xml, ndis/NdisWriteEventLogEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    N
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisWriteEventLogEntry
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_Miscellaneous_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisWriteEventLogEntry
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisWriteEventLogEntry function
 
 
-
 ## -description
+
+
 <b>NdisWriteEventLogEntry</b> logs an event to the Win32 event log.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisWriteEventLogEntry(
@@ -59,6 +70,9 @@ NDIS_STATUS NdisWriteEventLogEntry(
 
 
 ## -parameters
+
+
+
 
 ### -param LogHandle [in]
 
@@ -105,22 +119,55 @@ Either <b>NULL</b> or points to buffered binary dump data that is useful for und
 
 
 ## -returns
+
+
 <b>NdisWriteEventLogEntry</b> can return one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_SUCCESS</b></dt>
-</dl>The event was successfully logged.
+</dl>
+</td>
+<td width="60%">
+The event was successfully logged.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_BUFFER_TOO_SHORT</b></dt>
-</dl>The optionally supplied Unicode strings and binary dump data exceed the maximum-allowed size
+</dl>
+</td>
+<td width="60%">
+The optionally supplied Unicode strings and binary dump data exceed the maximum-allowed size
        (MAX_EVENT_LOG_DATA_SIZE).
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_RESOURCES</b></dt>
-</dl>NDIS was unable to allocate memory for the I/O error log record.
+</dl>
+</td>
+<td width="60%">
+NDIS was unable to allocate memory for the I/O error log record.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>NdisWriteEventLogEntry</b> allocates an I/O error log record, fills in the record with the supplied
     information about the event, and then writes the record to the I/O error log file. A user can view the
     logged event, including an optional description of the event and/or optional binary dump data, with the
@@ -149,24 +196,20 @@ The system limits the total size of the optional data supplied to
     <b>NdisWriteErrorLogEntry</b> to log events and errors.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-</dt>
-<dt>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
 <a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisWriteEventLogEntry function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisWriteEventLogEntry function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

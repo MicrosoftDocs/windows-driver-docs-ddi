@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f9415dc9-352a-4e93-a0c1-2519c8c89762
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_CREATEDEVICEFLAGS, D3DDDI_CREATEDEVICEFLAGS
+ms.keywords: D3D_other_Structs_45151acf-e91a-454b-be32-b7b7aaa619e9.xml, d3dumddi/D3DDDI_CREATEDEVICEFLAGS, D3DDDI_CREATEDEVICEFLAGS, D3DDDI_CREATEDEVICEFLAGS structure [Display Devices], display.d3dddi_createdeviceflags, _D3DDDI_CREATEDEVICEFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_CREATEDEVICEFLAGS
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDI_CREATEDEVICEFLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_CREATEDEVICEFLAGS
 ---
 
 # _D3DDDI_CREATEDEVICEFLAGS structure
 
 
-
 ## -description
+
+
 The D3DDDI_CREATEDEVICEFLAGS structure describes how to create a device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_CREATEDEVICEFLAGS {
@@ -60,6 +70,9 @@ typedef struct _D3DDDI_CREATEDEVICEFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field AllowMultithreading
 
@@ -87,18 +100,12 @@ This member is reserved and should be set to zero. Setting this member to zero i
 A member in the union that is contained in D3DDDI_CREATEDEVICEFLAGS that can hold one 32-bit value that identifies how to create the device.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
+
  
 
  

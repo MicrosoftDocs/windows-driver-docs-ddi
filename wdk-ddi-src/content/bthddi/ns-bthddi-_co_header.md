@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 76fa3316-bbec-4bf1-8cb8-d92e9f54d2d6
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _CO_HEADER, CO_HEADER
+ms.keywords: bltooth.co_header, bth_structs_bb345dd7-5895-472a-ab07-38c8b5ac6a72.xml, CO_HEADER, CO_HEADER structure [Bluetooth Devices], _CO_HEADER, bthddi/CO_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CO_HEADER
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthddi.h
+apiname: 
+-	CO_HEADER
+product: Windows
+targetos: Windows
 req.typenames: CO_HEADER
 ---
 
 # _CO_HEADER structure
 
 
-
 ## -description
+
+
 The CO_HEADER structure is used to specify values for the 
   <b>Header</b> member of the 
   <a href="..\bthddi\ns-bthddi-_l2cap_config_option.md">L2CAP_CONFIG_OPTION</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CO_HEADER {
@@ -56,6 +66,9 @@ typedef struct _CO_HEADER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Type
 
@@ -69,15 +82,10 @@ The size, in bytes, of the vendor-specific option stored in the L2CAP_CONFIG_OPT
      structure.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthddi\ns-bthddi-_l2cap_config_option.md">L2CAP_CONFIG_OPTION</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 24ae7329-064f-43bf-8c1d-8aad9fdf2254
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CREATE_DISK_GPT, CREATE_DISK_GPT, *PCREATE_DISK_GPT
+ms.keywords: structs-disk_c5c62f65-c252-482b-bbf7-1bb021920649.xml, ntdddisk/CREATE_DISK_GPT, ntdddisk/PCREATE_DISK_GPT, CREATE_DISK_GPT, _CREATE_DISK_GPT, PCREATE_DISK_GPT structure pointer [Storage Devices], storage.create_disk_gpt, *PCREATE_DISK_GPT, CREATE_DISK_GPT structure [Storage Devices], PCREATE_DISK_GPT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CREATE_DISK_GPT
-req.alt-loc: ntdddisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntdddisk.h
+apiname: 
+-	CREATE_DISK_GPT
+product: Windows
+targetos: Windows
 req.typenames: CREATE_DISK_GPT, *PCREATE_DISK_GPT
 ---
 
 # _CREATE_DISK_GPT structure
 
 
-
 ## -description
+
+
 The CREATE_DISK_GPT structure is used with the IOCTL <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a> to initialize a disk with an empty GPT partition table.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CREATE_DISK_GPT {
@@ -55,6 +65,9 @@ typedef struct _CREATE_DISK_GPT {
 
 ## -struct-fields
 
+
+
+
 ### -field DiskId
 
 Specifies the GUID that uniquely identifies the disk.
@@ -65,18 +78,12 @@ Specifies the GUID that uniquely identifies the disk.
 Specifies the maximum number of partitions allowed on the disk.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntdddisk\ns-ntdddisk-_create_disk.md">CREATE_DISK</a>
-</dt>
-<dt>
+
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
-</dt>
-</dl>
+
+<a href="..\ntdddisk\ns-ntdddisk-_create_disk.md">CREATE_DISK</a>
+
  
 
  

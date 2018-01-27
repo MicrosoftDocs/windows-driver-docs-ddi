@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 429A1C54-14F0-4E50-B0D6-BB73FCFD1904
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_CREATEHWCONTEXTFLAGS, D3DDDI_CREATEHWCONTEXTFLAGS
+ms.keywords: d3dukmdt/D3DDDI_CREATEHWCONTEXTFLAGS, _D3DDDI_CREATEHWCONTEXTFLAGS, D3DDDI_CREATEHWCONTEXTFLAGS structure [Display Devices], display.d3dddi_createhwcontextflags, D3DDDI_CREATEHWCONTEXTFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_CREATEHWCONTEXTFLAGS
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_CREATEHWCONTEXTFLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_CREATEHWCONTEXTFLAGS
 ---
 
 # _D3DDDI_CREATEHWCONTEXTFLAGS structure
 
 
-
 ## -description
+
+
 A structure used to create hardware context flags.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_CREATEHWCONTEXTFLAGS {
@@ -59,6 +69,9 @@ typedef struct _D3DDDI_CREATEHWCONTEXTFLAGS {
 
 ## -struct-fields
 
+
+
+
 ### -field Reserved
 
 This value is reserved for system use.
@@ -68,5 +81,3 @@ This value is reserved for system use.
 
 This value is used to operate over the members collectively.
 
-
-## -remarks

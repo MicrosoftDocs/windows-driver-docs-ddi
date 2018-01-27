@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 91e4876a-82c0-4e74-84c8-4b7a6abe0756
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.pfnflipoverlaycb, pfnFlipOverlayCb callback function [Display Devices], pfnFlipOverlayCb, PFND3DDDI_FLIPOVERLAYCB, PFND3DDDI_FLIPOVERLAYCB, d3dumddi/pfnFlipOverlayCb, D3Druntime_Functions_68f39dc6-3dd7-4742-81c9-f23874c6c38f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnFlipOverlayCb
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	pfnFlipOverlayCb
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_FLIPOVERLAYCB callback
 
 
-
 ## -description
+
+
 The <b>pfnFlipOverlayCb</b> function changes the allocation to display on the overlay or indicates to display the other field of the currently displaying allocation, when deinterlacing an interleaved resource.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_FLIPOVERLAYCB pfnFlipOverlayCb;
@@ -58,47 +68,80 @@ __checkReturn HRESULT APIENTRY CALLBACK pfnFlipOverlayCb(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
 A handle to the display device (graphics context).
 
 
-### -param pData [in]
+### -param *
+
+
+
+
+
+
+#### - pData [in]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_flipoverlay.md">D3DDDICB_FLIPOVERLAY</a> structure that describes how to change the display on the overlay.
 
 
 ## -returns
+
+
 <b>pfnFlipOverlayCb</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The display on the overlay object was successfully changed.
+</dl>
+</td>
+<td width="60%">
+The display on the overlay object was successfully changed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_INVALIDARG</b></dt>
-</dl>Parameters were validated and determined to be incorrect.
+</dl>
+</td>
+<td width="60%">
+Parameters were validated and determined to be incorrect.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_OUTOFMEMORY</b></dt>
-</dl><b>pfnFlipOverlayCb</b> could not allocate memory that was required for it to complete.
+</dl>
+</td>
+<td width="60%">
+<b>pfnFlipOverlayCb</b> could not allocate memory that was required for it to complete.
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other HRESULT values.
 
-The following code example shows how to flip the overlay object.
-
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_flipoverlay.md">D3DDDICB_FLIPOVERLAY</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+
  
 
  

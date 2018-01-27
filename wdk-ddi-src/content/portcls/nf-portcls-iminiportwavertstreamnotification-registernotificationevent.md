@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 269eccd8-e477-4082-930b-1f4b3e3706b9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWaveRTStreamNotification, IMiniportWaveRTStreamNotification::RegisterNotificationEvent, RegisterNotificationEvent
+ms.keywords: RegisterNotificationEvent method [Audio Devices], RegisterNotificationEvent, audio.iminiportwavertstreamnotification_registernotificationevent, IMiniportWaveRTStreamNotification interface [Audio Devices], RegisterNotificationEvent method, IMiniportWaveRTStreamNotification, RegisterNotificationEvent method [Audio Devices], IMiniportWaveRTStreamNotification interface, audmp-routines_82613ca5-1ae2-449d-8883-2d6ee50aecf7.xml, portcls/IMiniportWaveRTStreamNotification::RegisterNotificationEvent, IMiniportWaveRTStreamNotification::RegisterNotificationEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later Windows operatin
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportWaveRTStreamNotification.RegisterNotificationEvent
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: Passive level.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IMiniportWaveRTStreamNotification.RegisterNotificationEvent
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportWaveRTStreamNotification::RegisterNotificationEvent method
 
 
-
 ## -description
+
+
 The <code>RegisterNotificationEvent</code> method registers an event to be notified for DMA-driven event notification.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RegisterNotificationEvent(
@@ -54,16 +64,24 @@ NTSTATUS RegisterNotificationEvent(
 
 ## -parameters
 
+
+
+
 ### -param NotificationEvent [in]
 
 A pointer to a kernel event (PKEVENT) to be registered for notification as DMA progresses.
 
 
 ## -returns
+
+
 <code>RegisterNotificationEvent</code> returns a status value of STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error status code.
 
 
+
 ## -remarks
+
+
 The port driver calls this method in response to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537385">KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT</a> property request from a client.  The port driver maps the user-mode event handle to a kernel event pointer and passes the pointer in with the <i>NotificationEvent</i> parameter.
 
 Typically, when DMA-driven event notification is enabled, the DMA hardware is programmed to generate hardware interrupts at the intended notification points in the cyclic audio buffer.  When the driver interrupt service routine (ISR) detects this interrupt, it queues a deferred procedure call (DPC).  The DPC, in turn, signals each registered event. We recommend using a try/except construct  around the event that signals the call.
@@ -71,18 +89,15 @@ Typically, when DMA-driven event notification is enabled, the DMA hardware is pr
 For more information about the behavior of the KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT property, see the <a href="..\ksmedia\ns-ksmedia-ksrtaudio_notification_event_property.md">KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537385">KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-ksrtaudio_notification_event_property.md">KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537385">KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT</a>
+
  
 
  

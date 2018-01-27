@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: F077B970-F146-43BC-BB92-A836C8843890
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSGRAPHMANAGER_FUNCTIONTABLE, PKSGRAPHMANAGER_FUNCTIONTABLE, KSGRAPHMANAGER_FUNCTIONTABLE
+ms.keywords: PKSGRAPHMANAGER_FUNCTIONTABLE, ks/PKSGRAPHMANAGER_FUNCTIONTABLE, PKSGRAPHMANAGER_FUNCTIONTABLE structure [Streaming Media Devices], ks/KSGRAPHMANAGER_FUNCTIONTABLE, stream.ksgraphmanager_functiontable, KSGRAPHMANAGER_FUNCTIONTABLE structure [Streaming Media Devices], KSGRAPHMANAGER_FUNCTIONTABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSGRAPHMANAGER_FUNCTIONTABLE
-req.alt-loc: Ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: PKSGRAPHMANAGER_FUNCTIONTABLE, KSGRAPHMANAGER_FUNCTIONTABLE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ks.h
+apiname: 
+-	KSGRAPHMANAGER_FUNCTIONTABLE
+product: Windows
+targetos: Windows
+req.typenames: KSGRAPHMANAGER_FUNCTIONTABLE, PKSGRAPHMANAGER_FUNCTIONTABLE
 ---
 
 # KSGRAPHMANAGER_FUNCTIONTABLE structure
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: PKSGRAPHMANAGER_FUNCTIONTABLE, KSGRAPHMANAGER_FUNCTIONTABLE
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct _KSGRAPHMANAGER_FUNCTIONTABLE {
@@ -54,7 +64,9 @@ typedef struct _KSGRAPHMANAGER_FUNCTIONTABLE {
 
 ## -struct-fields
 
+
+
+
 ### -field NotifyEvent
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 43cd8e6b-5710-4308-a7c4-fb6f14940977
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1
+ms.keywords: bltooth.ioctl_internal_bthenum_get_enuminfo, IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO control code [Bluetooth Devices], IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO, bthioctl/IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO, bth_ioctls_110043d4-a637-4e7a-91d4-fd15a4c39a05.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO
-req.alt-loc: Bthioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,36 +29,55 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bthioctl.h
+apiname: 
+-	IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO
+product: Windows
+targetos: Windows
 req.typenames: *PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1
 ---
 
 # IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
-The IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO request obtains information about the underlying device and
-     service that caused the Plug and Play (PnP) manager to load the profile driver.
-
 
 
 The IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO request obtains information about the underlying device and
      service that caused the Plug and Play (PnP) manager to load the profile driver.
+
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 None.
 
 
 ### -input-buffer-length
+
 None.
 
 
 ### -output-buffer
+
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a 
       <a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a> structure that
@@ -69,32 +86,34 @@ The
 
 
 ### -output-buffer-length
+
 The length of a 
       <a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a> structure.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 <b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 959a78e2-b5c8-47b0-97b1-52d9565a6dab
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsPropertySet, IKsPropertySet::Set, Set
+ms.keywords: ksproxy_957cf2a5-1dc6-4e89-86c5-b2f01d913b66.xml, Set method [Streaming Media Devices], IKsPropertySet, IKsPropertySet::Set, Set method [Streaming Media Devices], IKsPropertySet interface, stream.ikspropertyset_set, ksproxy/IKsPropertySet::Set, IKsPropertySet interface [Streaming Media Devices], Set method, Set
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsPropertySet.Set
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ksproxy.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsPropertySet.Set
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsPropertySet::Set method
 
 
-
 ## -description
+
+
 The <b>Set</b> method sets a property identified by a property-set GUID and a property identifier.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT Set(
@@ -58,6 +68,9 @@ HRESULT Set(
 
 
 ## -parameters
+
+
+
 
 ### -param PropSet [in]
 
@@ -90,24 +103,30 @@ Size, in bytes, of the buffer at <i>PropertyData</i>.
 
 
 ## -returns
+
+
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
+
 ## -remarks
-<p class="note">Header files <i>ksproxy.h</i> and <i>dsound.h</i> define similar but incompatible versions of the <b>IKsPropertySet</b> interface. Applications that require the KS proxy module should use the version defined in <i>ksproxy.h</i>. The DirectSound version of <b>IKsPropertySet</b> is described in the DirectSound reference pages in the Microsoft Windows SDK documentation.
+
+
+<div class="alert"><b>Warning</b>  <p class="note">Header files <i>ksproxy.h</i> and <i>dsound.h</i> define similar but incompatible versions of the <b>IKsPropertySet</b> interface. Applications that require the KS proxy module should use the version defined in <i>ksproxy.h</i>. The DirectSound version of <b>IKsPropertySet</b> is described in the DirectSound reference pages in the Microsoft Windows SDK documentation.
+
 <p class="note">
 
 If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whichever header file the compiler scans first is the one whose definition of <b>IKsPropertySet</b> is used by the compiler.
 
 
 
+</div><div> </div>
+
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560719">IKsPropertySet::Get</a>
-</dt>
-</dl>
+
  
 
  

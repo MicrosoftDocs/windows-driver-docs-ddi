@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1C29A0B4-E50D-4EA2-95A4-4845BD14C88A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPositionNotify, IPositionNotify::PositionNotify, PositionNotify
+ms.keywords: IPositionNotify::PositionNotify, audio.ipositionnotify_positionnotify, IPositionNotify, dmusicks/IPositionNotify::PositionNotify, PositionNotify method [Audio Devices], IPositionNotify interface, PositionNotify, IPositionNotify interface [Audio Devices], PositionNotify method, PositionNotify method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPositionNotify.PositionNotify
-req.alt-loc: Dmusicks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dmusicks.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Dmusicks.h
+apiname: 
+-	IPositionNotify.PositionNotify
+product: Windows
+targetos: Windows
 req.typenames: DMUS_STREAM_TYPE
 ---
 
 # IPositionNotify::PositionNotify method
 
 
-
 ## -description
+
+
 Byte position notify for MXF graph.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT PositionNotify(
@@ -54,22 +64,24 @@ HRESULT PositionNotify(
 
 ## -parameters
 
+
+
+
 ### -param bytePosition [in]
 
 
+
 ## -returns
+
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dmusicks\nn-dmusicks-ipositionnotify.md">IPositionNotify</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 1a166876-88b9-484d-bceb-0446875185cc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _PCI_DEVICE_PRESENT_INTERFACE, PCI_DEVICE_PRESENT_INTERFACE, *PPCI_DEVICE_PRESENT_INTERFACE
+ms.keywords: PCI_DEVICE_PRESENT_INTERFACE structure [Buses], PCI.pci_device_present_interface, PCI_DEVICE_PRESENT_INTERFACE, *PPCI_DEVICE_PRESENT_INTERFACE, _PCI_DEVICE_PRESENT_INTERFACE, wdm/
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PCI_DEVICE_PRESENT_INTERFACE
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: PCI_DEVICE_PRESENT_INTERFACE, *PPCI_DEVICE_PRESENT_INTERFACE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	PCI_DEVICE_PRESENT_INTERFACE
+product: Windows
+targetos: Windows
+req.typenames: *PPCI_DEVICE_PRESENT_INTERFACE, PCI_DEVICE_PRESENT_INTERFACE
 req.product: Windows 10 or later.
 ---
 
 # _PCI_DEVICE_PRESENT_INTERFACE structure
 
 
-
 ## -description
-The <b>PCI_DEVICE_PRESENT_INTERFACE</b> structure is reserved for system use.
 
+
+The <b>PCI_DEVICE_PRESENT_INTERFACE</b> structure is reserved for system use.
 
 
 ## -struct-fields
 
-
-## -remarks

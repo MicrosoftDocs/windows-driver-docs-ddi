@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 21ca4ec1-fd5f-46bb-9760-3bb0cdb761b9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoCreateUnprotectedSymbolicLink
+ms.keywords: kernel.iocreateunprotectedsymboliclink, IoCreateUnprotectedSymbolicLink routine [Kernel-Mode Driver Architecture], wdm/IoCreateUnprotectedSymbolicLink, IoCreateUnprotectedSymbolicLink, k104_72bb6571-da2d-4027-bfcd-24438e3bd08a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoCreateUnprotectedSymbolicLink
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlIoPassive4, PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoCreateUnprotectedSymbolicLink
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoCreateUnprotectedSymbolicLink function
 
 
-
 ## -description
+
+
 The <b>IoCreateUnprotectedSymbolicLink</b> routine sets up an unprotected symbolic link between a device object name and a corresponding Win32-visible name.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS IoCreateUnprotectedSymbolicLink(
@@ -55,6 +65,9 @@ NTSTATUS IoCreateUnprotectedSymbolicLink(
 
 
 ## -parameters
+
+
+
 
 ### -param SymbolicLinkName [in]
 
@@ -67,10 +80,15 @@ Supplies the name of the device object to which the symbolic link name refers.
 
 
 ## -returns
+
+
 <b>IoCreateUnprotectedSymbolicLink</b> returns the final status of the operation.
 
 
+
 ## -remarks
+
+
 WDM drivers do not name device objects and therefore should not use this routine. Instead, a WDM driver should call <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a> to set up a symbolic link. 
 
 <b>IoCreateUnprotectedSymbolicLink</b> can be used by drivers if the user needs to be able to manipulate the symbolic link. For example, the parallel and serial drivers create unprotected symbolic links for LPTx and COMx, so that users can manipulate and reassign them by using the MODE command.
@@ -80,21 +98,17 @@ In general, drivers should call this routine instead of <a href="..\wdm\nf-wdm-i
 For more information about when to use <b>IoCreateSymbolicLink</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556420">Named Device Objects</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-ioassignarcname.md">IoAssignArcName</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iocreatesymboliclink.md">IoCreateSymbolicLink</a>
-</dt>
-<dt>
+
+<a href="..\ntddk\nf-ntddk-ioassignarcname.md">IoAssignArcName</a>
+
 <a href="..\wdm\nf-wdm-iodeletesymboliclink.md">IoDeleteSymbolicLink</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
+
  
 
  

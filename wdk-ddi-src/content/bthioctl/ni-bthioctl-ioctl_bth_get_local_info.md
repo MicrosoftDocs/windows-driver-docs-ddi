@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 0eaee91f-c3d1-4715-9d7a-15dc3935eb36
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1
+ms.keywords: bltooth.ioctl_bth_get_local_info, IOCTL_BTH_GET_LOCAL_INFO control code [Bluetooth Devices], IOCTL_BTH_GET_LOCAL_INFO, bthioctl/IOCTL_BTH_GET_LOCAL_INFO, bth_ioctls_930c11ef-ff69-4044-a4ae-6ea3802a5132.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_BTH_GET_LOCAL_INFO
-req.alt-loc: Bthioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,39 +29,58 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bthioctl.h
+apiname: 
+-	IOCTL_BTH_GET_LOCAL_INFO
+product: Windows
+targetos: Windows
 req.typenames: *PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1
 ---
 
 # IOCTL_BTH_GET_LOCAL_INFO IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
-The IOCTL_BTH_GET_LOCAL_INFO request returns information about the local Bluetooth system and
-     radio.
-
 
 
 The IOCTL_BTH_GET_LOCAL_INFO request returns information about the local Bluetooth system and
      radio.
+
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer for a 
       <a href="..\bthioctl\ns-bthioctl-_bth_local_radio_info.md">BTH_LOCAL_RADIO_INFO</a> structure.
 
 
 ### -input-buffer-length
+
 The length of a 
       <a href="..\bthioctl\ns-bthioctl-_bth_local_radio_info.md">BTH_LOCAL_RADIO_INFO</a> structure.
 
 
 ### -output-buffer
+
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a 
       <a href="..\bthioctl\ns-bthioctl-_bth_local_radio_info.md">BTH_LOCAL_RADIO_INFO</a> structure. The
@@ -73,20 +90,27 @@ The
 
 
 ### -output-buffer-length
+
 The length of a 
       <a href="..\bthioctl\ns-bthioctl-_bth_local_radio_info.md">BTH_LOCAL_RADIO_INFO</a> structure.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The 
       <b>Information</b> member of the STATUS_BLOCK structure is set to the size, in bytes, of the output
       buffer.
@@ -95,19 +119,14 @@ The
       <b>Status</b> member of the STATUS_BLOCK structure is always set to STATUS_SUCCESS.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\bthioctl\ns-bthioctl-_bth_local_radio_info.md">BTH_LOCAL_RADIO_INFO</a>
-</dt>
-<dt><a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a></dt>
-<dt>
+
 <a href="..\bthioctl\ns-bthioctl-_bth_radio_info.md">BTH_RADIO_INFO</a>
-</dt>
-</dl>
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
+
+<a href="..\bthioctl\ns-bthioctl-_bth_local_radio_info.md">BTH_LOCAL_RADIO_INFO</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 36883440-805F-4588-AA04-3A7BCBEB6D76
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxUsbDeviceCreate
+ms.keywords: UcxUsbDeviceCreate method [Buses], UcxUsbDeviceCreate, ucxusbdevice/UcxUsbDeviceCreate, buses._ucxusbdevicecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: UcxUsbDeviceCreate
-req.alt-loc: ucxusbdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ucxusbdevice.h
+apiname: 
+-	UcxUsbDeviceCreate
+product: Windows
+targetos: Windows
 req.typenames: UCX_USBDEVICE_CHARACTERISTIC_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # UcxUsbDeviceCreate function
 
 
-
 ## -description
+
+
 Creates a USB device object on the specified controller.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS UcxUsbDeviceCreate(
@@ -57,6 +67,9 @@ NTSTATUS UcxUsbDeviceCreate(
 
 
 ## -parameters
+
+
+
 
 ### -param Controller [in]
 
@@ -81,21 +94,25 @@ A pointer to a variable that receives a handle to the new USB device object.
 
 
 ## -returns
+
+
 The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code. 
 
 
+
 ## -remarks
+
+
 The client driver for the host controller must call this method after the <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> call. The parent of the new USB device object is the parent hub device specified by UCX.
 
 For a code example, see <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_usbdevice_add.md">EVT_UCX_CONTROLLER_USBDEVICE_ADD</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_usbdevice_add.md">EVT_UCX_CONTROLLER_USBDEVICE_ADD</a>
-</dt>
-</dl>
+
  
 
  

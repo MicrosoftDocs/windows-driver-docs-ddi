@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 301b4b63-0337-4f78-a4f8-6b2d2b168663
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_REQUEST_FORWARD_OPTIONS_INIT
+ms.keywords: WDF_REQUEST_FORWARD_OPTIONS_INIT, DFRequestObjectRef_ade75e55-accb-4fe0-a1be-b5acd9e4c34b.xml, WDF_REQUEST_FORWARD_OPTIONS_INIT function, kmdf.wdf_request_forward_options_init, wdfrequest/WDF_REQUEST_FORWARD_OPTIONS_INIT, wdf.wdf_request_forward_options_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.9
 req.umdf-ver: 
-req.alt-api: WDF_REQUEST_FORWARD_OPTIONS_INIT
-req.alt-loc: wdfrequest.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfrequest.h
+apiname: 
+-	WDF_REQUEST_FORWARD_OPTIONS_INIT
+product: Windows
+targetos: Windows
 req.typenames: WDF_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # WDF_REQUEST_FORWARD_OPTIONS_INIT function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_REQUEST_FORWARD_OPTIONS_INIT</b> function initializes a <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_forward_options.md">WDF_REQUEST_FORWARD_OPTIONS</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 VOID WDF_REQUEST_FORWARD_OPTIONS_INIT(
@@ -57,16 +67,24 @@ VOID WDF_REQUEST_FORWARD_OPTIONS_INIT(
 
 ## -parameters
 
+
+
+
 ### -param ForwardOptions [out]
 
 A pointer to a <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_forward_options.md">WDF_REQUEST_FORWARD_OPTIONS</a> structure.
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 Before a driver calls <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoparentdeviceioqueue.md">WdfRequestForwardToParentDeviceIoQueue</a>, it must call <b>WDF_REQUEST_FORWARD_OPTIONS_INIT</b> to initialize a <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_forward_options.md">WDF_REQUEST_FORWARD_OPTIONS</a> structure.
 
 The <b>WDF_REQUEST_FORWARD_OPTIONS_INIT</b> function zeros the specified <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_forward_options.md">WDF_REQUEST_FORWARD_OPTIONS</a> structure and sets the structure's <b>Size</b> member. Then the function sets the <a href="..\wdfrequest\ne-wdfrequest-_wdf_request_forward_options_flags.md">WDF_REQUEST_FORWARD_OPTION_SEND_AND_FORGET</a> flag.
@@ -74,15 +92,13 @@ The <b>WDF_REQUEST_FORWARD_OPTIONS_INIT</b> function zeros the specified <a href
 For a code example that uses <b>WDF_REQUEST_FORWARD_OPTIONS_INIT</b>, see <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoparentdeviceioqueue.md">WdfRequestForwardToParentDeviceIoQueue</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_forward_options.md">WDF_REQUEST_FORWARD_OPTIONS</a>
-</dt>
-<dt>
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoparentdeviceioqueue.md">WdfRequestForwardToParentDeviceIoQueue</a>
-</dt>
-</dl>
+
  
 
  

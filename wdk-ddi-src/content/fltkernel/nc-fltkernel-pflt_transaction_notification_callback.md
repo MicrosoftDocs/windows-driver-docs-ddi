@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ed441ca2-ca98-4c8c-9c2f-4258c535ebac
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IXpsPartIterator, IXpsPartIterator::Reset, Reset
+ms.keywords: ifsk.pflt_transaction_notification_callback, TransactionNotificationCallback routine [Installable File System Drivers], TransactionNotificationCallback, PFLT_TRANSACTION_NOTIFICATION_CALLBACK, PFLT_TRANSACTION_NOTIFICATION_CALLBACK, fltkernel/TransactionNotificationCallback, FltCallbacks_e4045561-4dc3-44eb-b5c6-086e767f9c22.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The PFLT_TRANSACTION_NOTIFICATION_CALLBACK routine is
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TransactionNotificationCallback
-req.alt-loc: fltkernel.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	fltkernel.h
+apiname: 
+-	TransactionNotificationCallback
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # PFLT_TRANSACTION_NOTIFICATION_CALLBACK callback
 
 
-
 ## -description
+
+
 A minifilter driver can register a routine of type PFLT_TRANSACTION_NOTIFICATION_CALLBACK as its <i>TransactionNotificationCallback</i> routine. 
 
 
-
 ## -prototype
+
 
 ````
 PFLT_TRANSACTION_NOTIFICATION_CALLBACK TransactionNotificationCallback;
@@ -59,6 +69,9 @@ NTSTATUS TransactionNotificationCallback(
 
 ## -parameters
 
+
+
+
 ### -param FltObjects [in]
 
 Pointer to an <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a> structure that contains opaque pointers for the objects related to the current operation. 
@@ -72,7 +85,6 @@ Pointer to the minifilter driver's transaction context.
 ### -param NotificationMask [in]
 
 Specifies the type of notifications that the filter manager is sending to the minifilter driver, as one of the following values. 
-
 <table>
 <tr>
 <th>Value</th>
@@ -128,23 +140,47 @@ This notification is sent when the transaction is being rolled back or aborted.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 The PFLT_TRANSACTION_NOTIFICATION_CALLBACK routine returns one of the following NTSTATUS values: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>Returning this status value indicates that the minifilter driver is finished with the transaction. This is a success code. 
+</dl>
+</td>
+<td width="60%">
+Returning this status value indicates that the minifilter driver is finished with the transaction. This is a success code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_PENDING</b></dt>
-</dl>Returning this status value indicates that the minifilter driver is not yet finished with the transaction. This is a success code. 
+</dl>
+</td>
+<td width="60%">
+Returning this status value indicates that the minifilter driver is not yet finished with the transaction. This is a success code. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 When a minifilter driver registers itself by calling <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a> from its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine, it can register a routine of type PFLT_TRANSACTION_NOTIFICATION_CALLBACK as the minifilter's <i>TransactionNotificationCallback</i> routine. 
 
 To register the <i>TransactionNotificationCallback</i> routine, the minifilter driver stores the address of a routine of type PFLT_TRANSACTION_NOTIFICATION_CALLBACK in the <b>TransactionNotificationCallback</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a> structure that the minifilter driver passes as the <i>Registration</i> parameter of <b>FltRegisterFilter</b>. 
@@ -170,30 +206,23 @@ If the minifilter driver returns STATUS_PENDING from this callback routine, it m
 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
-</dt>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltcommitcomplete.md">FltCommitComplete</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltpreparecomplete.md">FltPrepareComplete</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltprepreparecomplete.md">FltPrePrepareComplete</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltrollbackcomplete.md">FltRollbackComplete</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+
  
 
  

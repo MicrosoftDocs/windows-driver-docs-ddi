@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93192DAD-D81E-4A2E-A74B-66F7F5BA0B2D
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_FEATURE_0020, D3D12DDI_FEATURE_0020
+ms.keywords: d3d12umddi/D3D12DDI_FEATURE_0020, D3D12DDI_FEATURE_0020_VIDEO, display.d3d12ddi_feature_0020, d3d12umddi/D3D12DDI_FEATURE_0020_VIDEO, D3D12DDI_FEATURE_0020, D3D12DDI_FEATURE_0020 enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_FEATURE_0020
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_FEATURE_0020
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_FEATURE_0020
 ---
 
 # D3D12DDI_FEATURE_0020 enumeration
 
 
-
 ## -description
+
+
 Contains available features.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3D12DDI_FEATURE_0020 { 
@@ -54,9 +64,27 @@ typedef enum _D3D12DDI_FEATURE_0020 {
 
 ## -enum-fields
 
+
+
+
 ### -field D3D12DDI_FEATURE_0020_VIDEO
 
 A feature. 
 
 
-## -remarks
+### -field D3D12DDI_FEATURE_0020_PASS_EXPERIMENT
+
+
+
+### -field D3D12DDI_FEATURE_0021_SHADERCACHING
+
+
+
+### -field D3D12DDI_FEATURE_0030_CONTENT_PROTECTION_RESOURCES
+
+
+
+### -field D3D12DDI_FEATURE_0030_CONTENT_PROTECTION_STREAMING
+
+
+

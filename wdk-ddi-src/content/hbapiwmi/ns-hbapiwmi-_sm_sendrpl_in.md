@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5d97b852-57ba-4696-879b-d93a8f539304
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SM_SendRPL_IN, *PSM_SendRPL_IN, SM_SendRPL_IN
+ms.keywords: hbapiwmi/SM_SendRPL_IN, PSM_SendRPL_IN, SM_SendRPL_IN structure [Storage Devices], PSM_SendRPL_IN structure pointer [Storage Devices], hbapiwmi/PSM_SendRPL_IN, *PSM_SendRPL_IN, structs-Fibre_54275ca2-35b3-43f4-a62d-63c296b14663.xml, SM_SendRPL_IN, storage.sm_sendrpl_in, _SM_SendRPL_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SM_SendRPL_IN
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	SM_SendRPL_IN
+product: Windows
+targetos: Windows
 req.typenames: *PSM_SendRPL_IN, SM_SendRPL_IN
 ---
 
 # _SM_SendRPL_IN structure
 
 
-
 ## -description
+
+
 The SM_SendRPL_IN structure is used to provide input parameters to the SM_SendRPL method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SM_SendRPL_IN {
@@ -57,6 +67,9 @@ typedef struct _SM_SendRPL_IN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HbaPortWWN
 
@@ -84,4 +97,8 @@ The response buffer size.
 
 
 ## -remarks
-The WMI tool suite generates a declaration of the SM_SendRPL_IN structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.</p>
+
+
+The WMI tool suite generates a declaration of the SM_SendRPL_IN structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.
+
+

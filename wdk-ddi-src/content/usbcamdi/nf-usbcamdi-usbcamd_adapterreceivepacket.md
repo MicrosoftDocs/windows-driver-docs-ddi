@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 12a5ca64-7187-4a70-83ca-0ade6a8b1343
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: USBCAMD_AdapterReceivePacket
+ms.keywords: USBCAMD_AdapterReceivePacket, usbcmdpr_ad9c24d0-76a2-43a4-9634-a70e9260d907.xml, stream.usbcamd_adapterreceivepacket, usbcamdi/USBCAMD_AdapterReceivePacket, USBCAMD_AdapterReceivePacket function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBCAMD_AdapterReceivePacket
-req.alt-loc: usbcamd2.lib,usbcamd2.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Usbcamd2.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	usbcamd2.lib
+-	usbcamd2.dll
+apiname: 
+-	USBCAMD_AdapterReceivePacket
+product: Windows
+targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # USBCAMD_AdapterReceivePacket function
 
 
-
 ## -description
+
+
 The <b>USBCAMD_AdapterReceivePacket</b> function allows USBCAMD to process an adapter-based stream request block (SRB).
 
 
-
 ## -syntax
+
 
 ````
 PVOID USBCAMD_AdapterReceivePacket(
@@ -57,6 +68,9 @@ PVOID USBCAMD_AdapterReceivePacket(
 
 
 ## -parameters
+
+
+
 
 ### -param Srb [in]
 
@@ -79,24 +93,27 @@ Specifies if USBCAMD is to process and complete the SRB request. Specify <b>TRUE
 
 
 ## -returns
+
+
 <b>USBCAMD_AdapterReceivePacket</b> returns a pointer to the device-specific context for this instance of the camera.
 
 
+
 ## -remarks
+
+
 Typically, this function is called by the camera minidriver from its <a href="..\usbcamdi\nc-usbcamdi-padapter_receive_packet_routine.md">AdapterReceivePacket</a> routine. 
 
 This function can also be used by the minidriver to retrieve the device context by setting the <i>NeedsCompletion</i> parameter to <b>FALSE</b>. In this case, the <i>DeviceData</i> and <i>DeviceObject</i> parameters are ignored.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data.md">USBCAMD_DEVICE_DATA</a>
-</dt>
-<dt>
+
 <a href="..\usbcamdi\nc-usbcamdi-padapter_receive_packet_routine.md">AdapterReceivePacket</a>
-</dt>
-</dl>
+
+<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data.md">USBCAMD_DEVICE_DATA</a>
+
  
 
  

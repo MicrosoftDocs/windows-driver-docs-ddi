@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 876453a7-922e-4ab7-a609-64d31e60ce88
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlUpperOplockFsctrl
+ms.keywords: ifsk.ioctl_redir_query_path, IOCTL_REDIR_QUERY_PATH control code [Installable File System Drivers], IOCTL_REDIR_QUERY_PATH, ntifs/IOCTL_REDIR_QUERY_PATH, ioctl_ref_f46fa4a1-0546-4d70-8490-7a233a2e743f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_REDIR_QUERY_PATH
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,95 +29,224 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	IOCTL_REDIR_QUERY_PATH
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # IOCTL_REDIR_QUERY_PATH IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 The <b>IOCTL_REDIR_QUERY_PATH</b> control code is sent by the multiple UNC provider (MUP) to network redirectors to determine which provider can handle a specific UNC path in a name-based operation, typically an IRP_MJ_CREATE request. This request is referred to as "prefix resolution."
 
 MUP is a kernel-mode component responsible for channeling all remote file system accesses that use a UNC name to a network redirector (the UNC provider) capable of handling the remote file system requests. MUP is involved when a UNC path is used as illustrated by the following example that could be executed from a command line:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>notepad \\server\public\readme.txt</pre>
+</td>
+</tr>
+</table></span></div>MUP is not involved during an operation that creates a mapped drive letter (the "NET USE" command, for example). This operation is handled by the multiple provider router (MPR) and a user-mode WNet provider DLL for the network redirector. However, a user-mode WNet provider DLL might communicate directly with a kernel-mode network redirector driver during this operation.
 
+On Windows Server 2003, Windows XP, and Windows 2000, remote file operations that are performed on a mapped drive that does not represent a Distributed File System (DFS) drive don't go through MUP. These operations go directly to the network provider that handled the drive letter mapping.
 
+For network redirectors that conform to the Windows Vista redirector model, MUP is involved even when a mapped network drive is used. File operations performed on the mapped drive go through MUP to the network redirector. Note that in this case, MUP simply passes the operation to the network redirector that is involved.
 
-## -syntax
+The IOCTL_REDIR_QUERY_PATH control code is sent to network redirectors that have registered with MUP as Universal Naming Convention (UNC) providers by calling <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider~r2.md">FsRtlRegisterUncProvider</a>. There can be multiple UNC providers registered with MUP. 
 
-````
-notepad \\server\public\readme.txt
-````
+The prefix resolution operation serves two purposes:
+<ul>
+<li>
+The name-based operation that resulted in the prefix resolution is routed to the provider that claims the prefix. If successful, MUP ensures that subsequent handle-based operations (IRP_MJ_READ and IRP_MJ_WRITE, for example) go to the same provider completely bypassing MUP.
 
+</li>
+<li>
+The provider and the prefix that it claimed are entered in a prefix cache that is maintained by MUP. For subsequent name-based operations, MUP uses this prefix cache to determine whether a provider has already claimed a prefix before MUP attempts to perform a prefix resolution. Each entry in this prefix cache is subject to a timeout (referred to as TTL) once it is added to the cache. An entry is thrown away after this timeout expires, at which point of time, MUP will perform prefix resolution again for this prefix on a subsequent name-based operation.
+
+</li>
+</ul>
 
 ## -ioctlparameters
 
-### -input-buffer
-<b>IrpSp-&gt;Parameters.DeviceIoControl.Type3InputBuffer</b> is set to a <b>QUERY_PATH_REQUEST</b> data structure that contains the request. 
 
+
+
+### -input-buffer
+
+<b>IrpSp-&gt;Parameters.DeviceIoControl.Type3InputBuffer</b> is set to a <b>QUERY_PATH_REQUEST</b> data structure that contains the request. 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _QUERY_PATH_REQUEST {
+  ULONG  PathNameLength;
+  PIO_SECURITY_CONTEXT SecurityContext;
+  WCHAR  FilePathName[1];
+} QUERY_PATH_REQUEST, *PQUERY_PATH_REQUEST;</pre>
+</td>
+</tr>
+</table></span></div><table>
+<tr>
+<th>Structure member</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
 <b>PathNameLength</b>
 
+</td>
+<td>
 The length, in bytes, of the Unicode string contained in the <b>FilePathName</b> member.
 
+</td>
+</tr>
+<tr>
+<td>
 <b>SecurityContext</b>
 
+</td>
+<td>
 A pointer to the security context.
 
+</td>
+</tr>
+<tr>
+<td>
 <b>FilePathName</b>
 
+</td>
+<td>
 A non-NULL terminated Unicode string of the form \&lt;server&gt;\&lt;share&gt;\&lt;path&gt;. The length of the string, in bytes, is specified by the <b>PathNameLength</b> member.
 
- 
+</td>
+</tr>
+</table> 
 
 
 ### -input-buffer-length
 
+
 <text></text>
 
-### -output-buffer
-<b>IRP-&gt;UserBuffer</b> is set to a <b>QUERY_PATH_REQUEST</b> data structure that contains the response.
 
+
+### -output-buffer
+
+<b>IRP-&gt;UserBuffer</b> is set to a <b>QUERY_PATH_REQUEST</b> data structure that contains the response.
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _QUERY_PATH_RESPONSE {
+  ULONG  LengthAccepted;
+} QUERY_PATH_RESPONSE, *PQUERY_PATH_RESPONSE;</pre>
+</td>
+</tr>
+</table></span></div><table>
+<tr>
+<th>Structure member</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
 <b>LengthAccepted</b>
 
+</td>
+<td>
 The length, in bytes, of the prefix claimed by the provider from the Unicode string path that is specified in the <b>FilePathName</b> member of the <b>QUERY_PATH_REQUEST</b> structure.
 
- 
+</td>
+</tr>
+</table> 
 
 
 ### -output-buffer-length
 
+
 <text></text>
+
+
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Status</b> member is set to STATUS_SUCCESS on success if the \\server\share prefix name is recognized or to an appropriate NTSTATUS value, such as one of the following:  
 
 
 
- The network path cannot be located. The machine name (\\server, for example) is not valid or the network redirector cannot resolve the machine name (using whatever name resolution mechanisms are available). 
-
-The specified share name cannot be found on the remote server. The machine name (\\server, for example) is valid, but specified share name cannot be found on the remote server.
-
-There were insufficient resources available to allocate memory for buffers.
-
-An IOCTL_REDIR_QUERY_PATH request should only come from MUP, and the <b>RequestorMode</b> member of the IRP structure should always be <b>KernelMode</b>. This error code is returned if the <b>RequestorMode</b> of the calling thread was not <b>KernelMode</b>. 
-
-The <b>PathNameLength</b> member in the <b>QUERY_PATH_REQUEST</b> structure exceeds the maximum allowable length, UNICODE_STRING_MAX_BYTES, for a Unicode string. 
-
-If the prefix resolution operation failed due to invalid or incorrect credentials, the provider should return the exact error code that the remote server returns; these error codes must not be translated to STATUS_BAD_NETWORK_NAME or STATUS_BAD_NETWORK_PATH. Error codes like STATUS_LOGON_FAILURE and  STATUS_ACCESS_DENIED serve as a feedback mechanism to the user that indicate the requirement to use appropriate credentials. These error codes are also used in certain cases to prompt the user automatically for credentials. Without these error codes, the user might assume that the machine is not accessible. 
-
 If the network redirector is unable to resolve a prefix, it must return an NTSTATUS code that closely matches the intended semantics from the above list of recommended NTSTATUS codes. A network redirector must not return the actual encountered error (STATUS_CONNECTION_REFUSED, for example) directly to MUP if the NTSTATUS code is not from the above list. 
 
 
+#### -STATUS_BAD_NETWORK_NAME
+
+The specified share name cannot be found on the remote server. The machine name (\\server, for example) is valid, but specified share name cannot be found on the remote server.
+
+
+#### -STATUS_BAD_NETWORK_PATH
+
+ The network path cannot be located. The machine name (\\server, for example) is not valid or the network redirector cannot resolve the machine name (using whatever name resolution mechanisms are available). 
+
+
+#### -STATUS_INSUFFICIENT_RESOURCES
+
+There were insufficient resources available to allocate memory for buffers.
+
+
+#### -STATUS_INVALID_DEVICE_REQUEST
+
+An IOCTL_REDIR_QUERY_PATH request should only come from MUP, and the <b>RequestorMode</b> member of the IRP structure should always be <b>KernelMode</b>. This error code is returned if the <b>RequestorMode</b> of the calling thread was not <b>KernelMode</b>. 
+
+
+#### -STATUS_INVALID_PARAMETER
+
+The <b>PathNameLength</b> member in the <b>QUERY_PATH_REQUEST</b> structure exceeds the maximum allowable length, UNICODE_STRING_MAX_BYTES, for a Unicode string. 
+
+
+#### -STATUS_LOGON_FAILURE or STATUS_ACCESS_DENIED
+
+If the prefix resolution operation failed due to invalid or incorrect credentials, the provider should return the exact error code that the remote server returns; these error codes must not be translated to STATUS_BAD_NETWORK_NAME or STATUS_BAD_NETWORK_PATH. Error codes like STATUS_LOGON_FAILURE and  STATUS_ACCESS_DENIED serve as a feedback mechanism to the user that indicate the requirement to use appropriate credentials. These error codes are also used in certain cases to prompt the user automatically for credentials. Without these error codes, the user might assume that the machine is not accessible. 
+
+
 ## -remarks
+
+
 Network redirectors should only honor kernel-mode senders of this IOCTL, by verifying that the <b>RequestorMode</b> member of the IRP structure is <b>KernelMode</b>. 
 
 Note that IOCTL_REDIR_QUERY_PATH is a METHOD_NEITHER IOCTL. This means that the input and output buffers might not be at the same address. A common mistake by UNC providers is to assume that the input buffer and the output buffer are the same and to use the input buffer pointer to provide the response.
@@ -141,18 +268,15 @@ For more information, see the following sections in the Design Guide:
 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-fsrtlderegisteruncprovider.md">FsRtlDeregisterUncProvider</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex~r3.md">FsRtlRegisterUncProviderEx</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ni-ntifs-ioctl_redir_query_path_ex.md">IOCTL_REDIR_QUERY_PATH_EX</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex~r3.md">FsRtlRegisterUncProviderEx</a>
+
+<a href="..\ntifs\nf-ntifs-fsrtlderegisteruncprovider.md">FsRtlDeregisterUncProvider</a>
+
  
 
  

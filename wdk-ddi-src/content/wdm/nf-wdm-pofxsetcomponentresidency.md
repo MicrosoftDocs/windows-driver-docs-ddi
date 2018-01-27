@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B4216BA1-FC5C-4A3B-BB74-E071BD2048F8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxSetComponentResidency
+ms.keywords: PoFxSetComponentResidency routine [Kernel-Mode Driver Architecture], kernel.pofxsetcomponentresidency, PoFxSetComponentResidency, wdm/PoFxSetComponentResidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PoFxSetComponentResidency
-req.alt-loc: Ntoskrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Ntoskrnl.exe
+apiname: 
+-	PoFxSetComponentResidency
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PoFxSetComponentResidency function
 
 
-
 ## -description
+
+
 The <b>PoFxSetComponentResidency</b> routine sets the estimated time for how long a component is likely to remain idle after the component enters the idle condition.
 
 
-
 ## -syntax
+
 
 ````
 VOID PoFxSetComponentResidency(
@@ -56,6 +66,9 @@ VOID PoFxSetComponentResidency(
 
 
 ## -parameters
+
+
+
 
 ### -param Handle [in]
 
@@ -73,12 +86,19 @@ The estimated residency time, in 100-nanosecond units. This parameter is a hint 
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 The calling driver supplies an estimated residency time that PoFx can use as a hint to improve performance. PoFx uses this hint to select an appropriate low-power Fx state for a component that is in the idle condition.
 
 The device driver can call <b>PoFxSetComponentResidency</b> each time a change in circumstances requires a change in the estimated residency time. After each call, the new estimated residency time remains in effect until the driver calls <b>PoFxSetComponentResidency</b> again to update it.
 
-If a component is in the idle condition when <b>PoFxSetComponentResidency</b> is called, PoFx might change the component’s Fx state to accommodate the new estimated residency time specified by the caller.</p>
+If a component is in the idle condition when <b>PoFxSetComponentResidency</b> is called, PoFx might change the component’s Fx state to accommodate the new estimated residency time specified by the caller.
+
+

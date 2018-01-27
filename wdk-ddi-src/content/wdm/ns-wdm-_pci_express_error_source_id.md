@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 53efddbc-0e65-487c-b406-c7d093ca5667
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _PCI_EXPRESS_ERROR_SOURCE_ID, PCI_EXPRESS_ERROR_SOURCE_ID, *PPCI_EXPRESS_ERROR_SOURCE_ID
+ms.keywords: pci_struct_f111f61b-46a0-450d-bbce-172f125a6903.xml, PCI_EXPRESS_ERROR_SOURCE_ID, PPCI_EXPRESS_ERROR_SOURCE_ID union pointer [Buses], *PPCI_EXPRESS_ERROR_SOURCE_ID, PCI_EXPRESS_ERROR_SOURCE_ID union [Buses], PPCI_EXPRESS_ERROR_SOURCE_ID, wdm/PCI_EXPRESS_ERROR_SOURCE_ID, PCI.pci_express_error_source_id, _PCI_EXPRESS_ERROR_SOURCE_ID, wdm/PPCI_EXPRESS_ERROR_SOURCE_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PCI_EXPRESS_ERROR_SOURCE_ID
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: PCI_EXPRESS_ERROR_SOURCE_ID, *PPCI_EXPRESS_ERROR_SOURCE_ID
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	PCI_EXPRESS_ERROR_SOURCE_ID
+product: Windows
+targetos: Windows
+req.typenames: *PPCI_EXPRESS_ERROR_SOURCE_ID, PCI_EXPRESS_ERROR_SOURCE_ID
 req.product: Windows 10 or later.
 ---
 
 # _PCI_EXPRESS_ERROR_SOURCE_ID structure
 
 
-
 ## -description
+
+
 The PCI_EXPRESS_ERROR_SOURCE_ID structure describes the identifiers of the first correctable error and the first uncorrectable error that are reported in the PCI Express (PCIe) root error status register.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _PCI_EXPRESS_ERROR_SOURCE_ID {
@@ -63,34 +73,42 @@ typedef union _PCI_EXPRESS_ERROR_SOURCE_ID {
 
 ## -struct-fields
 
-### -field CorrectableSourceIdFun
-
-The function number of the requester that reported the first correctable error.
 
 
-### -field CorrectableSourceIdDev
 
-The device number of the requester that reported the first correctable error.
+### -field DUMMYSTRUCTNAME
 
-
-### -field CorrectableSourceIdBus
-
-The bus number of the requester that reported the first correctable error.
+ 
 
 
-### -field UncorrectableSourceIdFun
+### -field DUMMYSTRUCTNAME.CorrectableSourceIdFun
 
-The function number of the requester that reported the first uncorrectable error.
-
-
-### -field UncorrectableSourceIdDev
-
-The device number of the requester that reported the first uncorrectable error.
+ 
 
 
-### -field UncorrectableSourceIdBus
+### -field DUMMYSTRUCTNAME.CorrectableSourceIdDev
 
-The bus number of the requester that reported the first uncorrectable error.
+ 
+
+
+### -field DUMMYSTRUCTNAME.CorrectableSourceIdBus
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.UncorrectableSourceIdFun
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.UncorrectableSourceIdDev
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.UncorrectableSourceIdBus
+
+ 
 
 
 ### -field AsULONG
@@ -98,18 +116,49 @@ The bus number of the requester that reported the first uncorrectable error.
 A ULONG representation of the contents of the PCI_EXPRESS_ERROR_SOURCE_ID structure.
 
 
+#### - UncorrectableSourceIdFun
+
+The function number of the requester that reported the first uncorrectable error.
+
+
+#### - UncorrectableSourceIdBus
+
+The bus number of the requester that reported the first uncorrectable error.
+
+
+#### - UncorrectableSourceIdDev
+
+The device number of the requester that reported the first uncorrectable error.
+
+
+#### - CorrectableSourceIdBus
+
+The bus number of the requester that reported the first correctable error.
+
+
+#### - CorrectableSourceIdDev
+
+The device number of the requester that reported the first correctable error.
+
+
+#### - CorrectableSourceIdFun
+
+The function number of the requester that reported the first correctable error.
+
+
 ## -remarks
+
+
 The PCI_EXPRESS_ERROR_SOURCE_ID structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_ERROR_SOURCE_ID structure is contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
-</dt>
-</dl>
+
  
 
  

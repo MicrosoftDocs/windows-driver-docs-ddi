@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F870E56B-5D80-4E9C-A06E-D21A9BFA1ED8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_QUERY_COMPONENT_PERF_SET, PEP_QUERY_COMPONENT_PERF_SET, *PPEP_QUERY_COMPONENT_PERF_SET
+ms.keywords: *PPEP_QUERY_COMPONENT_PERF_SET, PPEP_QUERY_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], PEP_QUERY_COMPONENT_PERF_SET, kernel.pep_query_component_perf_set, PPEP_QUERY_COMPONENT_PERF_SET, pepfx/PEP_QUERY_COMPONENT_PERF_SET, pepfx/PPEP_QUERY_COMPONENT_PERF_SET, _PEP_QUERY_COMPONENT_PERF_SET, PEP_QUERY_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_QUERY_COMPONENT_PERF_SET
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: PEP_QUERY_COMPONENT_PERF_SET, *PPEP_QUERY_COMPONENT_PERF_SET
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_QUERY_COMPONENT_PERF_SET
+product: Windows
+targetos: Windows
+req.typenames: *PPEP_QUERY_COMPONENT_PERF_SET, PEP_QUERY_COMPONENT_PERF_SET
 ---
 
 # _PEP_QUERY_COMPONENT_PERF_SET structure
 
 
-
 ## -description
+
+
 The <b>PEP_QUERY_COMPONENT_PERF_SET</b> structure contains query information about a set of performance state values (P-state set) for a component.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_QUERY_COMPONENT_PERF_SET {
@@ -67,6 +77,34 @@ typedef struct _PEP_QUERY_COMPONENT_PERF_SET {
 
 
 ## -struct-fields
+
+
+
+
+### -field Discrete
+
+ 
+
+
+### -field Discrete.Count
+
+ 
+
+
+### -field Range
+
+ 
+
+
+### -field Range.Minimum
+
+ 
+
+
+### -field Range.Maximum
+
+ 
+
 
 ### -field DeviceHandle
 
@@ -98,64 +136,55 @@ typedef struct _PEP_QUERY_COMPONENT_PERF_SET {
 [out] A <a href="..\pepfx\ne-pepfx-_pep_perf_state_type.md">PEP_PERF_STATE_TYPE</a> enumeration value that indicates whether the performance values for this P-state set are expressed as a list of discrete values or as a continuous range of values.
 
 
-### -field ( unnamed union )
-
-Either the number of discrete performance values in this P-state set, or the range of values in this P-state set.
-
-
-### -field Discrete
+##### - ( unnamed union ).Discrete
 
 [out] Use this structure if <b>Type</b> = <b>PepPerfStateTypeDiscrete</b>.
 
 
-### -field Count
-
-The number of discrete performance values in this P-state set.
-
-</dd>
-</dl>
-
-### -field Range
-
-[out] Use this structure if <b>Type</b> = <b>PepPerfStateTypeRange</b>.
-
-
-### -field Minimum
+###### - ( unnamed union ).Range.Minimum
 
 The minimum value in the range of performance values for this P-state set. This value is expressed in the measurement units indicated by the <b>Unit</b> member.
 
 
-### -field Maximum
+##### - ( unnamed union ).Range
+
+[out] Use this structure if <b>Type</b> = <b>PepPerfStateTypeRange</b>.
+
+
+#### - ( unnamed union )
+
+Either the number of discrete performance values in this P-state set, or the range of values in this P-state set.
+
+
+###### - ( unnamed union ).Discrete.Count
+
+The number of discrete performance values in this P-state set.
+
+
+###### - ( unnamed union ).Range.Maximum
 
 The maximum value in the range of performance values for this P-state set. This value is expressed in the measurement units indicated by the <b>Unit</b> member.
 
-</dd>
-</dl>
-</dd>
-</dl>
 
 ## -remarks
+
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186840">PEP_DPM_QUERY_COMPONENT_PERF_SET</a> notification. The <b>DeviceHandle</b>, <b>Component</b>, <b>Set</b>, and <b>Flags</b> members contain input values that are supplied by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) when this notification is sent. The <b>Discrete</b> member or <b>Range</b> member contains an output value that the PEP writes to the structure in response to the notification.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186840">PEP_DPM_QUERY_COMPONENT_PERF_SET</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
-</dt>
-<dt>
+
 <a href="..\pepfx\ne-pepfx-_pep_perf_state_type.md">PEP_PERF_STATE_TYPE</a>
-</dt>
-<dt>
+
+<a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
+
 <a href="..\pepfx\ne-pepfx-_pep_perf_state_unit.md">PEP_PERF_STATE_UNIT</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186840">PEP_DPM_QUERY_COMPONENT_PERF_SET</a>
+
  
 
  

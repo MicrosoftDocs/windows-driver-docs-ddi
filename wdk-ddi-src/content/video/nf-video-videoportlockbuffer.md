@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba65d1b1-a720-4f21-8c6d-af70185c0c24
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortLockBuffer
+ms.keywords: display.videoportlockbuffer, VideoPortLockBuffer, VideoPortLockBuffer function [Display Devices], VideoPort_Functions_8c96bd4d-b9fc-4ff7-9d81-1087d6527700.xml, video/VideoPortLockBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of the Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortLockBuffer
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortLockBuffer
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortLockBuffer function
 
 
-
 ## -description
+
+
 The <b>VideoPortLockBuffer</b> function probes the specified buffer, makes the buffer's memory pages resident in memory, and locks the physical pages mapped by the virtual address range.
 
 
-
 ## -syntax
+
 
 ````
 PVOID VideoPortLockBuffer(
@@ -57,6 +67,9 @@ PVOID VideoPortLockBuffer(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -79,19 +92,23 @@ Specifies the type of operation for which the caller wants the access rights pro
 
 
 ## -returns
-Returns a pointer to a memory descriptor list (<a href="wdkgloss.m#wdkgloss.mdl#wdkgloss.mdl"><i>MDL</i></a>), or a <b>NULL</b> pointer if the MDL for the memory to be locked cannot be allocated.
+
+
+Returns a pointer to a memory descriptor list (<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>), or a <b>NULL</b> pointer if the MDL for the memory to be locked cannot be allocated.
+
 
 
 ## -remarks
+
+
 To unlock the buffer, the video miniport driver should call <a href="..\video\nf-video-videoportunlockbuffer.md">VideoPortUnlockBuffer</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nf-video-videoportunlockbuffer.md">VideoPortUnlockBuffer</a>
-</dt>
-</dl>
+
  
 
  

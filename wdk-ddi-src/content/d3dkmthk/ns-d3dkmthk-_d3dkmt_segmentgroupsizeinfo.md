@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4D9D8179-AA55-409B-A733-7346EC06391B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_SEGMENTGROUPSIZEINFO, D3DKMT_SEGMENTGROUPSIZEINFO
+ms.keywords: display.d3dkmt_segmentgroupsizeinfo, D3DKMT_SEGMENTGROUPSIZEINFO, D3DKMT_SEGMENTGROUPSIZEINFO structure [Display Devices], d3dkmthk/D3DKMT_SEGMENTGROUPSIZEINFO, _D3DKMT_SEGMENTGROUPSIZEINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_SEGMENTGROUPSIZEINFO
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_SEGMENTGROUPSIZEINFO
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_SEGMENTGROUPSIZEINFO
 ---
 
 # _D3DKMT_SEGMENTGROUPSIZEINFO structure
 
 
-
 ## -description
+
+
 A structure that holds information about the segment group size.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_SEGMENTGROUPSIZEINFO {
@@ -57,6 +67,9 @@ typedef struct _D3DKMT_SEGMENTGROUPSIZEINFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PhysicalAdapterIndex
 
@@ -82,5 +95,3 @@ The size of non-local memory.
 
 The size of non-budget memory.
 
-
-## -remarks

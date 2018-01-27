@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53dd0306-4dcc-47a0-aa98-67d289c93b9b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_QUERYALLOCATIONRESIDENCY, D3DKMT_QUERYALLOCATIONRESIDENCY
+ms.keywords: _D3DKMT_QUERYALLOCATIONRESIDENCY, d3dkmthk/D3DKMT_QUERYALLOCATIONRESIDENCY, OpenGL_Structs_eae296e3-82c5-4229-b31a-bdb85d7e6c0c.xml, D3DKMT_QUERYALLOCATIONRESIDENCY structure [Display Devices], D3DKMT_QUERYALLOCATIONRESIDENCY, display.d3dkmt_queryallocationresidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_QUERYALLOCATIONRESIDENCY
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_QUERYALLOCATIONRESIDENCY
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_QUERYALLOCATIONRESIDENCY
 ---
 
 # _D3DKMT_QUERYALLOCATIONRESIDENCY structure
 
 
-
 ## -description
+
+
 The D3DKMT_QUERYALLOCATIONRESIDENCY structure describes information for retrieving the residency status from a resource or list of allocations. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_QUERYALLOCATIONRESIDENCY {
@@ -57,6 +67,9 @@ typedef struct _D3DKMT_QUERYALLOCATIONRESIDENCY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -89,7 +102,6 @@ If the OpenGL ICD sets the handle in the <b>hResource</b> member to a non-<b>NUL
 ### -field pResidencyStatus
 
 [out] A pointer to an array of D3DKMT_ALLOCATIONRESIDENCYSTATUS enumerators. If the <b>hResource</b> member is non-<b>NULL</b>, the array contains a single element and receives one of the enumerators that are listed in the following table to indicate the residency status of the resource. If <b>hResource</b> is <b>NULL</b>, the number of elements in the array is specified by the <b>AllocationCount</b> member, and each element receives one of the following enumerators to indicate the residency status of the corresponding allocation in the <b>phAllocationList</b> array.
-
 <table>
 <tr>
 <th>Enumerator</th>
@@ -125,19 +137,13 @@ The resource or allocation is nonresident.
 
 </td>
 </tr>
-</table>
- 
-
-
-## -remarks
+</table> 
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryallocationresidency.md">D3DKMTQueryAllocationResidency</a>
-</dt>
-</dl>
+
  
 
  

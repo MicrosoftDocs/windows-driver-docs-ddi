@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E3F590EA-2B3B-464B-9D72-708B24CA3052
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_MULTIPLANEOVERLAYCAPS, DXGK_MULTIPLANEOVERLAYCAPS
+ms.keywords: DXGK_MULTIPLANEOVERLAYCAPS, d3dkmddi/DXGK_MULTIPLANEOVERLAYCAPS, DXGK_MULTIPLANEOVERLAYCAPS structure [Display Devices], _DXGK_MULTIPLANEOVERLAYCAPS, display.dxgk_multiplaneoverlaycaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_MULTIPLANEOVERLAYCAPS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_MULTIPLANEOVERLAYCAPS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_MULTIPLANEOVERLAYCAPS
 ---
 
 # _DXGK_MULTIPLANEOVERLAYCAPS structure
 
 
-
 ## -description
+
+
 Multiplane overlay capabilities returned by the DxgkDdiGetMultiPlaneOverlayCaps function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_MULTIPLANEOVERLAYCAPS {
@@ -69,6 +79,9 @@ typedef struct _DXGK_MULTIPLANEOVERLAYCAPS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Rotation
 
@@ -145,4 +158,3 @@ This member is reserved and should be set to zero. Setting this member to zero i
 ### -field Value
 
 
-## -remarks

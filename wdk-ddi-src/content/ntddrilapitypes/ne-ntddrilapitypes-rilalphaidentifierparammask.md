@@ -7,8 +7,8 @@ old-location: netvista\rilalphaidentifierparammask.htm
 old-project: netvista
 ms.assetid: 33f51fb2-3308-4e24-925a-b17e117b18b6
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILALPHAIDENTIFIERPARAMMASK, RILALPHAIDENTIFIERPARAMMASK
+ms.date: 1/18/2018
+ms.keywords: ntddrilapitypes/RILALPHAIDENTIFIERPARAMMASK, RILALPHAIDENTIFIERPARAMMASK, RILALPHAIDENTIFIERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_AI_ALL, ntddrilapitypes/RIL_PARAM_AI_ALL, ntddrilapitypes/RIL_PARAM_AI_REASON, RIL_PARAM_AI_REASON, netvista.rilalphaidentifierparammask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILALPHAIDENTIFIERPARAMMASK
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILALPHAIDENTIFIERPARAMMASK
+product: Windows
+targetos: Windows
 req.typenames: RILALPHAIDENTIFIERPARAMMASK
 ---
 
 # RILALPHAIDENTIFIERPARAMMASK enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILALPHAIDENTIFIERPARAMMASK { 
@@ -55,10 +65,17 @@ typedef enum _RILALPHAIDENTIFIERPARAMMASK {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_PARAM_AI_TYPE
+
+
+
 ### -field RIL_PARAM_AI_REASON
+
 
 
 ### -field RIL_PARAM_AI_ALL
 
 
-## -remarks

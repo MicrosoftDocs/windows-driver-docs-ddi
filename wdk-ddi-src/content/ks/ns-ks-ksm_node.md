@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0e3f5abb-bf66-40e9-b318-9f6215f3d56c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSM_NODE, *PKSM_NODE, KSM_NODE
+ms.keywords: ks/PKSM_NODE, stream.ksm_node, KSM_NODE, ks/KSM_NODE, KSM_NODE structure [Streaming Media Devices], PKSM_NODE, PKSM_NODE structure pointer [Streaming Media Devices], ks-struct_14efff2f-6d11-4055-a4f8-35d9389589b8.xml, *PKSM_NODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSM_NODE
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSM_NODE
+product: Windows
+targetos: Windows
 req.typenames: *PKSM_NODE, KSM_NODE
 ---
 
 # KSM_NODE structure
 
 
-
 ## -description
+
+
 Just as <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a> is used for properties on a node, the KSM_NODE structure is used for methods on a node.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Method
 
@@ -71,15 +84,10 @@ Specifies the node ID.
 Reserved for system use. Should be set to zero.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a2be4958-3f11-4b9d-9c0c-c339ebbbce04
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VIDEO_PORT_AGP_INTERFACE, VIDEO_PORT_AGP_INTERFACE, *PVIDEO_PORT_AGP_INTERFACE
+ms.keywords: display.video_port_agp_interface, video/PVIDEO_PORT_AGP_INTERFACE, *PVIDEO_PORT_AGP_INTERFACE, VIDEO_PORT_AGP_INTERFACE, Video_Structs_0b0b9383-1396-487e-afbb-5437ea3a2ec3.xml, video/VIDEO_PORT_AGP_INTERFACE, PVIDEO_PORT_AGP_INTERFACE structure pointer [Display Devices], PVIDEO_PORT_AGP_INTERFACE, VIDEO_PORT_AGP_INTERFACE structure [Display Devices], _VIDEO_PORT_AGP_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VIDEO_PORT_AGP_INTERFACE
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	video.h
+apiname: 
+-	VIDEO_PORT_AGP_INTERFACE
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_AGP_INTERFACE, *PVIDEO_PORT_AGP_INTERFACE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _VIDEO_PORT_AGP_INTERFACE structure
 
 
-
 ## -description
+
+
 The VIDEO_PORT_AGP_INTERFACE structure describes the AGP service routines provided by the video port driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _VIDEO_PORT_AGP_INTERFACE {
@@ -67,6 +77,9 @@ typedef struct _VIDEO_PORT_AGP_INTERFACE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -139,18 +152,18 @@ Specifies the maximum total number of bytes of AGP memory that a miniport driver
 
 
 ## -remarks
+
+
 PnP video miniport drivers that can use AGP must fill in the <b>Size</b> and <b>Version</b> members, and then call the <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a> function, which initializes the remaining members of this structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

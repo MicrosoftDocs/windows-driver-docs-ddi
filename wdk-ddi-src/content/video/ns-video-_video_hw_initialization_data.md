@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1f6bc444-12d6-4406-891e-87dfca437284
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VIDEO_HW_INITIALIZATION_DATA, *PVIDEO_HW_INITIALIZATION_DATA, VIDEO_HW_INITIALIZATION_DATA
+ms.keywords: video/VIDEO_HW_INITIALIZATION_DATA, PVIDEO_HW_INITIALIZATION_DATA structure pointer [Display Devices], VIDEO_HW_INITIALIZATION_DATA, *PVIDEO_HW_INITIALIZATION_DATA, _VIDEO_HW_INITIALIZATION_DATA, VIDEO_HW_INITIALIZATION_DATA structure [Display Devices], Video_Structs_1ab4d104-315b-4b04-b9dc-3088437cc6d3.xml, video/PVIDEO_HW_INITIALIZATION_DATA, display.video_hw_initialization_data, PVIDEO_HW_INITIALIZATION_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VIDEO_HW_INITIALIZATION_DATA
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	video.h
+apiname: 
+-	VIDEO_HW_INITIALIZATION_DATA
+product: Windows
+targetos: Windows
 req.typenames: *PVIDEO_HW_INITIALIZATION_DATA, VIDEO_HW_INITIALIZATION_DATA
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _VIDEO_HW_INITIALIZATION_DATA structure
 
 
-
 ## -description
+
+
 The VIDEO_HW_INITIALIZATION_DATA structure specifies the entry points and storage requirements for the miniport driver. This structure is created on the stack and initialized by the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _VIDEO_HW_INITIALIZATION_DATA {
@@ -74,6 +84,9 @@ typedef struct _VIDEO_HW_INITIALIZATION_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HwInitDataSize
 
@@ -149,7 +162,7 @@ Pointer to the miniport driver's <a href="..\video\nc-video-pvideo_hw_get_child_
 
 ### -field HwQueryInterface
 
-Pointer to the miniport driver's <a href="..\video\nc-video-pvideo_hw_query_interface.md">HwVidQueryInterface</a> function. This can be optionally implemented in a miniport driver that supports external programming interfaces for inter-device communication, such as <a href="wdkgloss.i#wdkgloss.inter_integrated_circuit__i2c_#wdkgloss.inter_integrated_circuit__i2c_"><i>I2C</i></a> (or I²C) support for MPEG decoders. Otherwise, this member should be set to <b>NULL</b>.
+Pointer to the miniport driver's <a href="..\video\nc-video-pvideo_hw_query_interface.md">HwVidQueryInterface</a> function. This can be optionally implemented in a miniport driver that supports external programming interfaces for inter-device communication, such as <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">I2C</a> (or I²C) support for MPEG decoders. Otherwise, this member should be set to <b>NULL</b>.
 
 
 ### -field HwChildDeviceExtensionSize
@@ -183,29 +196,26 @@ Reserved for system use.
 
 
 ## -remarks
+
+
 A miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> function must initialize this structure with zeros before it sets relevant values in any member.
 
 The video port driver will ignore the <b>HwLegacyResourceCount</b> and <b>HwLegacyResourceList</b> members when <b>HwGetLegacyResources</b> is initialized with a pointer to a <a href="..\video\nc-video-pvideo_hw_legacyresources.md">HwVidLegacyResources</a> implementation.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\miniport\ns-miniport-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
-</dt>
-<dt>
-<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
-</dt>
-<dt>
+
 <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-</dt>
-<dt>
+
+<a href="..\miniport\ns-miniport-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
+
 <a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
-</dt>
-<dt>
+
+<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
+
 <a href="..\video\nc-video-pvideo_hw_legacyresources.md">HwVidLegacyResources</a>
-</dt>
-</dl>
+
  
 
  

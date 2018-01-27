@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 04447D92-EB9E-400B-A018-E70B186EA3DB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExSetFirmwareEnvironmentVariable
+ms.keywords: ExSetFirmwareEnvironmentVariable, ExSetFirmwareEnvironmentVariable routine [Kernel-Mode Driver Architecture], kernel.exsetfirmwareenvironmentvariable, wdm/ExSetFirmwareEnvironmentVariable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExSetFirmwareEnvironmentVariable
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ExSetFirmwareEnvironmentVariable
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ExSetFirmwareEnvironmentVariable function
 
 
-
 ## -description
+
+
 The <b>ExSetFirmwareEnvironmentVariable</b> routine sets the value of the specified system firmware environment variable.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ExSetFirmwareEnvironmentVariable(
@@ -58,6 +68,9 @@ NTSTATUS ExSetFirmwareEnvironmentVariable(
 
 
 ## -parameters
+
+
+
 
 ### -param VariableName [in]
 
@@ -85,24 +98,65 @@ The attributes to assign to the specified environment variable. The VARIABLE_ATT
 
 
 ## -returns
+
+
 <b>ExSetFirmwareEnvironmentVariable</b> returns STATUS_SUCCESS if it is successful. Possible return values include the following error status codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>Available system resources are insufficient to complete the requested operation.
+</dl>
+</td>
+<td width="60%">
+Available system resources are insufficient to complete the requested operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>One of the parameters is not valid.
+</dl>
+</td>
+<td width="60%">
+One of the parameters is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>This routine is not supported on this platform.
+</dl>
+</td>
+<td width="60%">
+This routine is not supported on this platform.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>The firmware returned an unrecognized error.
+</dl>
+</td>
+<td width="60%">
+The firmware returned an unrecognized error.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The caller requires the system environment privilege (SE_SYSTEM_ENVIRONMENT_PRIVILEGE) to use this routine.
 
 System firmware environment variables contain data values that are passed between the boot firmware environment implemented in the hardware platform and the operating-system loaders and other software that runs in the firmware environment.  For more information, see Remarks in <a href="..\wdm\nf-wdm-exgetfirmwareenvironmentvariable.md">ExGetFirmwareEnvironmentVariable</a>.
@@ -112,18 +166,15 @@ If you create a backup datastore, you can use the  <a href="..\wdm\nf-wdm-exgetf
 <b>ExSetFirmwareEnvironmentVariable</b> is the kernel-mode equivalent of the Win32 <a href="https://msdn.microsoft.com/42117632-61aa-4f83-abe1-c08f40cf3f0a">SetFirmwareEnvironmentVariable</a> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-exgetfirmwareenvironmentvariable.md">ExGetFirmwareEnvironmentVariable</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/42117632-61aa-4f83-abe1-c08f40cf3f0a">SetFirmwareEnvironmentVariable</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-exgetfirmwareenvironmentvariable.md">ExGetFirmwareEnvironmentVariable</a>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
  
 
  

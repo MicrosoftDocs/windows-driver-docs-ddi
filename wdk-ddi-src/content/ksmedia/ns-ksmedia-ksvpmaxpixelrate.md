@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6510e732-b0ad-43c7-87a3-3630fdfd848d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSVPMAXPIXELRATE, *PKSVPMAXPIXELRATE, KSVPMAXPIXELRATE
+ms.keywords: KSVPMAXPIXELRATE structure [Streaming Media Devices], dvdref_c9ca0c83-e189-48b3-a798-95456c07ae0b.xml, stream.ksvpmaxpixelrate, PKSVPMAXPIXELRATE structure pointer [Streaming Media Devices], ksmedia/KSVPMAXPIXELRATE, PKSVPMAXPIXELRATE, ksmedia/PKSVPMAXPIXELRATE, KSVPMAXPIXELRATE, *PKSVPMAXPIXELRATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSVPMAXPIXELRATE
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSVPMAXPIXELRATE, KSVPMAXPIXELRATE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSVPMAXPIXELRATE
+product: Windows
+targetos: Windows
+req.typenames: KSVPMAXPIXELRATE, *PKSVPMAXPIXELRATE
 ---
 
 # KSVPMAXPIXELRATE structure
 
 
-
 ## -description
+
+
 The KSVPMAXPIXELRATE structure is used to describe the maximum pixel rate of a video port.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -72,15 +85,16 @@ Reserved. Do not use.
 
 
 ## -remarks
+
+
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566494">KSPROPERTY_VPCONFIG_MAXPIXELRATE</a> property.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566494">KSPROPERTY_VPCONFIG_MAXPIXELRATE</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 686bc6e0-7455-4b86-93ce-09b7c7d60240
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _FEATURE_DATA_RESERVED, FEATURE_DATA_RESERVED, *PFEATURE_DATA_RESERVED
+ms.keywords: structs-CD-ROM_4fc9f24f-2488-493d-8e63-2e4c8a3ab879.xml, storage.feature_data_reserved, ntddmmc/FEATURE_DATA_RESERVED, FEATURE_DATA_RESERVED structure [Storage Devices], ntddmmc/PFEATURE_DATA_RESERVED, *PFEATURE_DATA_RESERVED, PFEATURE_DATA_RESERVED, FEATURE_DATA_RESERVED, _FEATURE_DATA_RESERVED, PFEATURE_DATA_RESERVED structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FEATURE_DATA_RESERVED
-req.alt-loc: ntddmmc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: FEATURE_DATA_RESERVED, *PFEATURE_DATA_RESERVED
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddmmc.h
+apiname: 
+-	FEATURE_DATA_RESERVED
+product: Windows
+targetos: Windows
+req.typenames: *PFEATURE_DATA_RESERVED, FEATURE_DATA_RESERVED
 ---
 
 # _FEATURE_DATA_RESERVED structure
 
 
-
 ## -description
+
+
 The FEATURE_DATA_RESERVED structure holds information about an unspecified feature. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FEATURE_DATA_RESERVED {
@@ -54,6 +64,9 @@ typedef struct _FEATURE_DATA_RESERVED {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -66,18 +79,18 @@ Contains an array describing unspecified feature structure members.
 
 
 ## -remarks
+
+
 You can use this structure to access the data of any feature structure as though it were a simple character array.  
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
-</dt>
-</dl>
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
  
 
  

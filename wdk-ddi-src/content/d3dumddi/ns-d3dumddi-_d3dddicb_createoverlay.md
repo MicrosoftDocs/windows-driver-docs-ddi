@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 52f95379-7bfd-4606-9199-ea253ccd6f35
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_CREATEOVERLAY, D3DDDICB_CREATEOVERLAY
+ms.keywords: _D3DDDICB_CREATEOVERLAY, display.d3dddicb_createoverlay, D3D_param_Structs_d6883734-5c4a-480f-bb54-12df15297daa.xml, d3dumddi/D3DDDICB_CREATEOVERLAY, D3DDDICB_CREATEOVERLAY, D3DDDICB_CREATEOVERLAY structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_CREATEOVERLAY
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_CREATEOVERLAY
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_CREATEOVERLAY
 ---
 
 # _D3DDDICB_CREATEOVERLAY structure
 
 
-
 ## -description
+
+
 The D3DDDICB_CREATEOVERLAY structure describes overlay hardware.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_CREATEOVERLAY {
@@ -55,6 +65,9 @@ typedef struct _D3DDDICB_CREATEOVERLAY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field VidPnSourceId
 
@@ -71,18 +84,12 @@ typedef struct _D3DDDICB_CREATEOVERLAY {
 [out] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the kernel-mode overlay object. This overlay object represents the overlay hardware in subsequent calls by the user-mode display driver to the Microsoft Direct3D runtime.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_kerneloverlayinfo.md">D3DDDI_KERNELOVERLAYINFO</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a>
-</dt>
-</dl>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_kerneloverlayinfo.md">D3DDDI_KERNELOVERLAYINFO</a>
+
  
 
  

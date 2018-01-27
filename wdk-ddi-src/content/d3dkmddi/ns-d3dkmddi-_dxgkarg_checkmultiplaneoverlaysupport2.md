@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 477EBC8A-04A5-4904-AC62-0FA7DB861ACC
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, *IN_OUT_PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2
+ms.keywords: _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 structure [Display Devices], d3dkmddi/DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, display.dxgkarg_checkmultiplaneoverlaysupport2, *IN_OUT_PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2
 ---
 
 # _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 structure
 
 
-
 ## -description
+
+
 <b>DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2</b> is passed to the  <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport2.md">DxgkDdiCheckMultiPlaneOverlaySupport2</a> function to determine whether a specific multi-plane overlay configuration is supported. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 {
@@ -56,6 +66,9 @@ typedef struct _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PlaneCount
 
@@ -79,18 +92,12 @@ A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_plane_w
 Specifies additional information.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport2.md">DxgkDdiCheckMultiPlaneOverlaySupport2</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_plane_with_source.md">DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport2.md">DxgkDdiCheckMultiPlaneOverlaySupport2</a>
+
  
 
  

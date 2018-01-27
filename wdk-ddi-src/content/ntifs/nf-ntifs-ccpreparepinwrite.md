@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1645c7e9-5ae7-41d1-92db-1f069f79ac81
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcPreparePinWrite
+ms.keywords: ccref_00b887b5-cd87-44be-b96e-6be96df13a2b.xml, ifsk.ccpreparepinwrite, ntifs/CcPreparePinWrite, CcPreparePinWrite, CcPreparePinWrite routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcPreparePinWrite
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcPreparePinWrite
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcPreparePinWrite function
 
 
-
 ## -description
+
+
 The <b>CcPreparePinWrite</b> routine pins the specified byte range of a cached file for write access.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN CcPreparePinWrite(
@@ -59,6 +69,9 @@ BOOLEAN CcPreparePinWrite(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -83,7 +96,6 @@ Set to <b>TRUE</b> if the buffer is to be zeroed on return. This parameter is ig
 ### -param Flags [in]
 
 Bitmask of flags specifying how the pinning operation is to be performed. ORed combination of one or more of the following values: 
-
 <table>
 <tr>
 <th>Value</th>
@@ -139,8 +151,7 @@ The caller is responsible for  keeping track of dirty pages. If this flag is set
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Bcb [out]
@@ -154,10 +165,15 @@ Returns pointer to desired data, valid until the buffer is unpinned or freed.
 
 
 ## -returns
+
+
 <b>CcPreparePinWrite</b> returns <b>TRUE</b> if the cached file was pinned successfully, <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 <b>CcPreparePinWrite</b> pins the specified file pages in the system cache. Pages to be completely overwritten may be satisfied with pages of zeros.
 
 If the PIN_WAIT flag is set, <b>CcPreparePinWrite</b> is guaranteed to complete the preparation request and return <b>TRUE</b>. If all of the pages can be prepared immediately, no blocking occurs. If any needed pages are not resident, the caller is put in a wait state until all required pages have been made resident and the pages can be prepared. If the PIN_WAIT flag is not set, but not all of the pages can be prepared immediately, <b>CcPreparePinWrite</b> returns <b>FALSE</b>, and its output parameter values are meaningless.
@@ -177,30 +193,23 @@ It is not necessary to call <a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">
 If any failure occurs, <b>CcPreparePinWrite</b> raises a status exception for that particular failure. For example, if a pool allocation failure occurs, <b>CcPreparePinWrite</b> raises a STATUS_INSUFFICIENT_RESOURCES exception; if an I/O error occurs, <b>CcPreparePinWrite</b> raises the status exception of the I/O error. Therefore, to gain control if a failure occurs, the driver should wrap the call to <b>CcPreparePinWrite</b> in a <b>try-except</b> or <b>try-finally</b> statement. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+
+<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
+
 <a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+
 <a href="..\ntifs\nf-ntifs-mmsetaddressrangemodified.md">MmSetAddressRangeModified</a>
-</dt>
-</dl>
+
  
 
  

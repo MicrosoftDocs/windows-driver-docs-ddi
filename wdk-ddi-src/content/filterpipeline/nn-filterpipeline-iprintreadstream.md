@@ -7,8 +7,8 @@ old-location: print\iprintreadstream.htm
 old-project: print
 ms.assetid: f31a6547-44ec-4331-8f9b-e46192f4966a
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IXpsPartIterator, IXpsPartIterator::Reset, Reset
+ms.date: 1/18/2018
+ms.keywords: print.iprintreadstream, IPrintReadStream interface [Print Devices], IPrintReadStream interface [Print Devices], described, IPrintReadStream, filterpipeline/IPrintReadStream, filterpipeline_51454792-ccd6-4c55-adbc-d5cc1536f93c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPrintReadStream
-req.alt-loc: filterpipeline.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,34 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	filterpipeline.h
+apiname: 
+-	IPrintReadStream
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # IPrintReadStream interface
 
 
-
 ## -description
+
+
 Filters use the <code>IPrintReadStream</code> interface to read data as a raw stream of bytes.
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintReadStream</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IPrintReadStream</b> also has these types of members:
-
-The <b>IPrintReadStream</b> interface has these methods.
-
-The <code>ReadBytes</code> method reads a number of bytes into a buffer.
-
-The <code>Seek</code> method changes the seek pointer to a new location in the stream.
-
- 
-
-
 ## -members
+
 The <b>IPrintReadStream</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -86,5 +84,3 @@ The <code>Seek</code> method changes the seek pointer to a new location in the s
 
  
 
-
-## -remarks

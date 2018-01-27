@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e06888eb-2ced-46c0-bdbf-3bad57020bf7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlLengthSecurityDescriptor
+ms.keywords: RtlLengthSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_ea245194-f36b-4b47-9d81-2d72fc19d5bc.xml, kernel.rtllengthsecuritydescriptor, RtlLengthSecurityDescriptor, wdm/RtlLengthSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlLengthSecurityDescriptor
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlLengthSecurityDescriptor
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RtlLengthSecurityDescriptor function
 
 
-
 ## -description
+
+
 The <b>RtlLengthSecurityDescriptor</b> routine returns the size of a given security descriptor.
 
 
-
 ## -syntax
+
 
 ````
 ULONG RtlLengthSecurityDescriptor(
@@ -55,33 +65,31 @@ ULONG RtlLengthSecurityDescriptor(
 
 ## -parameters
 
+
+
+
 ### -param SecurityDescriptor [in]
 
 Pointer to a <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>. 
 
 
 ## -returns
+
+
 <b>RtlLengthSecurityDescriptor</b> returns the size in bytes of the descriptor. 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
+
+<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+
  
 
  

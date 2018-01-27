@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 61418263-3159-413d-844f-83556ce6baf0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVAHDDDI_OUTPUT_RATE, DXVAHDDDI_OUTPUT_RATE
+ms.keywords: DXVAHDDDI_OUTPUT_RATE_NORMAL, DXVA2_Structs_34010924-8e9c-440c-a972-e2ae58124666.xml, display.dxvahdddi_output_rate, d3dumddi/DXVAHDDDI_OUTPUT_RATE_NORMAL, DXVAHDDDI_OUTPUT_RATE_HALF, d3dumddi/DXVAHDDDI_OUTPUT_RATE, _DXVAHDDDI_OUTPUT_RATE, DXVAHDDDI_OUTPUT_RATE enumeration [Display Devices], DXVAHDDDI_OUTPUT_RATE_CUSTOM, DXVAHDDDI_OUTPUT_RATE, d3dumddi/DXVAHDDDI_OUTPUT_RATE_CUSTOM, d3dumddi/DXVAHDDDI_OUTPUT_RATE_HALF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: DXVAHDDDI_OUTPUT_RATE is supported beginning with the
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVAHDDDI_OUTPUT_RATE
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVAHDDDI_OUTPUT_RATE
+product: Windows
+targetos: Windows
 req.typenames: DXVAHDDDI_OUTPUT_RATE
 ---
 
 # _DXVAHDDDI_OUTPUT_RATE enumeration
 
 
-
 ## -description
+
+
 The DXVAHDDDI_OUTPUT_RATE enumeration contains values that identify the output rate that the driver should use. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXVAHDDDI_OUTPUT_RATE { 
@@ -55,6 +65,9 @@ typedef enum _DXVAHDDDI_OUTPUT_RATE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXVAHDDDI_OUTPUT_RATE_NORMAL
 
@@ -72,21 +85,20 @@ A value that specifies that the driver should use a custom output rate for the f
 
 
 ## -remarks
+
+
 For more information about output rate, see <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_output_rate_data.md">DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA</a> and <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_data.md">DXVAHDDDI_STREAM_DATA</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_custom_rate_data.md">DXVAHDDDI_CUSTOM_RATE_DATA</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_data.md">DXVAHDDDI_STREAM_DATA</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_output_rate_data.md">DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_custom_rate_data.md">DXVAHDDDI_CUSTOM_RATE_DATA</a>
+
  
 
  

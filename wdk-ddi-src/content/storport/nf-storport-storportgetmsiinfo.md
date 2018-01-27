@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3c98c04c-246a-42a0-bb40-f7771f7ae968
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetMSIInfo
+ms.keywords: StorPortGetMSIInfo routine [Storage Devices], storport/StorPortGetMSIInfo, StorPortGetMSIInfo, storprt_32654460-fd47-4dc9-bd33-2080b881502f.xml, storage.storportgetmsiinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available starting with Windows Vist
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortGetMSIInfo
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	StorPortGetMSIInfo
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # StorPortGetMSIInfo function
 
 
-
 ## -description
+
+
 The <b>StorPortGetMSIInfo</b> routine retrieves the message signaled interrupt (MSI) information for the specified message. 
 
 
-
 ## -syntax
+
 
 ````
 ULONG StorPortGetMSIInfo(
@@ -56,6 +66,9 @@ ULONG StorPortGetMSIInfo(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -73,16 +86,44 @@ A pointer to a miniport driver-provided <a href="..\storport\ns-storport-_messag
 
 
 ## -returns
+
+
 <b>StorPortGetMSIInfo</b> returns one of the status codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>This function is not implemented on the active operating system.
+</dl>
+</td>
+<td width="60%">
+This function is not implemented on the active operating system.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>Indicates that the MSI information was successfully received for the specified message.
+</dl>
+</td>
+<td width="60%">
+Indicates that the MSI information was successfully received for the specified message.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl><i>HwDeviceExtension</i> passed was <b>NULL</b>.
+</dl>
+</td>
+<td width="60%">
+<i>HwDeviceExtension</i> passed was <b>NULL</b>.
 
 -or-
 
@@ -91,22 +132,28 @@ The pointer in <i>InterruptInfo</i> for the structure to receive the information
 -or-
 
 <i>MessageId</i> passed to the function is incorrect.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>The HBA does not support MSI.
+</dl>
+</td>
+<td width="60%">
+The HBA does not support MSI.
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\ns-storport-_message_interrupt_information.md">MESSAGE_INTERRUPT_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

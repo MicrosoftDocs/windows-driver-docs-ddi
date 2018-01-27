@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 746f13f5-c92d-4dae-8fd7-4c9fdfa9e044
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IXpsPartIterator, IXpsPartIterator::Reset, Reset
+ms.keywords: ifsk.pflt_filter_unload_callback, FilterUnloadCallback routine [Installable File System Drivers], FilterUnloadCallback, PFLT_FILTER_UNLOAD_CALLBACK, PFLT_FILTER_UNLOAD_CALLBACK, fltkernel/FilterUnloadCallback, FltCallbacks_e28b1a16-b974-493a-8ab5-7b6004d66268.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FilterUnloadCallback
-req.alt-loc: fltkernel.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	fltkernel.h
+apiname: 
+-	FilterUnloadCallback
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # PFLT_FILTER_UNLOAD_CALLBACK callback
 
 
-
 ## -description
+
+
 A minifilter driver can register a routine of type PFLT_FILTER_UNLOAD_CALLBACK as the minifilter driver's <i>FilterUnloadCallback</i> routine. 
 
 
-
 ## -prototype
+
 
 ````
 PFLT_FILTER_UNLOAD_CALLBACK FilterUnloadCallback;
@@ -57,10 +67,12 @@ NTSTATUS FilterUnloadCallback(
 
 ## -parameters
 
-### -param Flags 
+
+
+
+### -param Flags
 
 Bitmask of flags describing the unload request. This parameter can be <b>NULL</b> or the following: 
-
 <table>
 <tr>
 <th>Flag</th>
@@ -76,20 +88,36 @@ The filter manager sets this flag to indicate that the unload operation is manda
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 This callback routine returns STATUS_SUCCESS or an NTSTATUS value such as the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FLT_DO_NOT_DETACH</b></dt>
-</dl>If the unload operation is not mandatory, returning this status value prevents the minifilter driver from being unloaded. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+If the unload operation is not mandatory, returning this status value prevents the minifilter driver from being unloaded. This is an error code. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 When a minifilter driver registers itself by calling <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>, it can register a <i>FilterUnloadCallback</i> routine. To register this callback routine, the minifilter driver stores the address of a routine of type PFLT_FILTER_UNLOAD_CALLBACK in the <b>FilterUnloadCallback</b> field of the <a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a> structure that the minifilter driver passes as a parameter to <b>FltRegisterFilter</b>. 
 
 Minifilter drivers are not required to register a <i>FilterUnloadCallback</i> routine. However, registering an unload routine is strongly recommended. If a minifilter driver does not register a <i>FilterUnloadCallback</i> routine, it cannot be unloaded. 
@@ -101,15 +129,13 @@ If the unload operation is not mandatory, and the <i>FilterUnloadCallback</i> ro
 If the FLTFL_FILTER_UNLOAD_MANDATORY flag is set in the <i>Flags</i> parameter, the unload operation is mandatory, and the minifilter driver cannot prevent itself from being unloaded. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
-</dt>
-</dl>
+
  
 
  

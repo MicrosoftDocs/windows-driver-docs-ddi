@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 26ce460f-b12d-4e5e-994a-047a1853325d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _PDO_INFORMATION, *PPDO_INFORMATION, PDO_INFORMATION
+ms.keywords: mpiodisk/PDO_INFORMATION, mpiodisk/PPDO_INFORMATION, *PPDO_INFORMATION, PPDO_INFORMATION structure pointer [Storage Devices], storage.pdo_information, PPDO_INFORMATION, PDO_INFORMATION structure [Storage Devices], _PDO_INFORMATION, PDO_INFORMATION, structs-scsibus_da7fe7ec-475b-4779-b4ed-7cf903fe2525.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PDO_INFORMATION
-req.alt-loc: mpiodisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PPDO_INFORMATION, PDO_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mpiodisk.h
+apiname: 
+-	PDO_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: PDO_INFORMATION, *PPDO_INFORMATION
 ---
 
 # _PDO_INFORMATION structure
 
 
-
 ## -description
+
+
 The PDO_INFORMATION structure represents a device-path pairing, which is an instance of a LUN through a particular path.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PDO_INFORMATION {
@@ -59,6 +69,9 @@ typedef struct _PDO_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ScsiAddress
 
@@ -94,5 +107,3 @@ An unsigned 64-bitfield that represents the identifier that is associated with t
 
 Should be zero.
 
-
-## -remarks

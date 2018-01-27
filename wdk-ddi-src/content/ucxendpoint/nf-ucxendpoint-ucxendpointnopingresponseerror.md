@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 0EDC524E-12BB-49AD-AA12-A7D9CF7D2F9C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxEndpointNoPingResponseError
+ms.keywords: buses._ucxendpointnopingresponseerror, UcxEndpointNoPingResponseError, ucxendpoint/UcxEndpointNoPingResponseError, UcxEndpointNoPingResponseError method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: UcxEndpointNoPingResponseError
-req.alt-loc: ucxendpoint.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ucxendpoint.h
+apiname: 
+-	UcxEndpointNoPingResponseError
+product: Windows
+targetos: Windows
 req.typenames: UCX_ENDPOINT_CHARACTERISTIC_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,14 +47,15 @@ req.product: Windows 10 or later.
 # UcxEndpointNoPingResponseError function
 
 
-
 ## -description
+
+
 Notifies UCX about a "No Ping Response" error for a transfer on
     the specified endpoint object
 
 
-
 ## -syntax
+
 
 ````
 void UcxEndpointNoPingResponseError(
@@ -56,24 +66,25 @@ void UcxEndpointNoPingResponseError(
 
 ## -parameters
 
+
+
+
 ### -param Endpoint [in]
 
 A handle to the endpoint object. The client driver retrieved the handle in a previous call to <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>.
 
 
 ## -returns
+
+
 This method does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
-</dt>
-</dl>
+
  
 
  

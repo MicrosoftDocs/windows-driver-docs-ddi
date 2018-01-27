@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: B4312084-E545-45FD-BA93-3BE551CE52DF
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCAMERA_PERFRAMESETTING_ITEM_TYPE, KSCAMERA_PERFRAMESETTING_ITEM_TYPE
+ms.keywords: KSCAMERA_PERFRAMESETTING_ITEM_TYPE, KSCAMERA_PERFRAMESETTING_ITEM_TYPE enumeration [Streaming Media Devices], ksmedia/KSCAMERA_PERFRAMESETTING_ITEM_FLASH, KSCAMERA_PERFRAMESETTING_ITEM_FLASH, ksmedia/KSCAMERA_PERFRAMESETTING_ITEM_ISO, KSCAMERA_PERFRAMESETTING_ITEM_EXPOSURE_TIME, KSCAMERA_PERFRAMESETTING_ITEM_ISO, ksmedia/KSCAMERA_PERFRAMESETTING_ITEM_EXPOSURE_TIME, ksmedia/KSCAMERA_PERFRAMESETTING_ITEM_TYPE, KSCAMERA_PERFRAMESETTING_ITEM_PHOTOCONFIRMATION, ksmedia/KSCAMERA_PERFRAMESETTING_ITEM_PHOTOCONFIRMATION, ksmedia/KSCAMERA_PERFRAMESETTING_ITEM_EXPOSURE_COMPENSATION, stream.kscamera_perframesetting_item_type, KSCAMERA_PERFRAMESETTING_ITEM_CUSTOM, ksmedia/KSCAMERA_PERFRAMESETTING_ITEM_FOCUS, KSCAMERA_PERFRAMESETTING_ITEM_EXPOSURE_COMPENSATION, KSCAMERA_PERFRAMESETTING_ITEM_FOCUS, ksmedia/KSCAMERA_PERFRAMESETTING_ITEM_CUSTOM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSCAMERA_PERFRAMESETTING_ITEM_TYPE
-req.alt-loc: Ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ksmedia.h
+apiname: 
+-	KSCAMERA_PERFRAMESETTING_ITEM_TYPE
+product: Windows
+targetos: Windows
 req.typenames: KSCAMERA_PERFRAMESETTING_ITEM_TYPE
 ---
 
 # KSCAMERA_PERFRAMESETTING_ITEM_TYPE enumeration
 
 
-
 ## -description
+
+
 This enumeration contains the different item types for the per-frame settings DDI.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -59,6 +69,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field KSCAMERA_PERFRAMESETTING_ITEM_EXPOSURE_TIME
 
@@ -94,5 +107,3 @@ This is a photo confirmation item type.
 
 This is a custom item type.
 
-
-## -remarks

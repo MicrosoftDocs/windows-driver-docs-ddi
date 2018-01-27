@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92e6090e-6a31-45d9-ac6d-a20bf180f12e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSWAVE_COMPATCAPS, *PKSWAVE_COMPATCAPS, KSWAVE_COMPATCAPS
+ms.keywords: *PKSWAVE_COMPATCAPS, KSWAVE_COMPATCAPS structure [Streaming Media Devices], ksmedia/KSWAVE_COMPATCAPS, ksmedia/PKSWAVE_COMPATCAPS, PKSWAVE_COMPATCAPS, PKSWAVE_COMPATCAPS structure pointer [Streaming Media Devices], dvdref_496e945d-fb6d-47da-8668-4cb8f1b265e6.xml, KSWAVE_COMPATCAPS, stream.kswave_compatcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSWAVE_COMPATCAPS
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSWAVE_COMPATCAPS, KSWAVE_COMPATCAPS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSWAVE_COMPATCAPS
+product: Windows
+targetos: Windows
+req.typenames: KSWAVE_COMPATCAPS, *PKSWAVE_COMPATCAPS
 ---
 
 # KSWAVE_COMPATCAPS structure
 
 
-
 ## -description
+
+
 The KSWAVE_COMPATCAPS structure is used to describe the compatible capabilities of a device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -54,10 +64,12 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field ulDeviceType
 
 Specifies the following flags:
-
 <table>
 <tr>
 <th>Flag</th>
@@ -83,20 +95,20 @@ Indicates that the device produces output.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -remarks
+
+
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566516">KSPROPERTY_WAVE_COMPATIBLE_CAPABILITIES</a> property.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566516">KSPROPERTY_WAVE_COMPATIBLE_CAPABILITIES</a>
-</dt>
-</dl>
+
  
 
  

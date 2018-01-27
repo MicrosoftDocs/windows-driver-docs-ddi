@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: CE0C4DAA-0B14-4CC3-B75A-66329A5830E7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_PPM_QUERY_STATE_NAME, PEP_PPM_QUERY_STATE_NAME, *PPEP_PPM_QUERY_STATE_NAME
+ms.keywords: pepfx/PEP_PPM_QUERY_STATE_NAME, *PPEP_PPM_QUERY_STATE_NAME, _PEP_PPM_QUERY_STATE_NAME, PPEP_PPM_QUERY_STATE_NAME, pepfx/PPEP_PPM_QUERY_STATE_NAME, PEP_PPM_QUERY_STATE_NAME, kernel.pep_ppm_query_state_name, PPEP_PPM_QUERY_STATE_NAME structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_QUERY_STATE_NAME structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_PPM_QUERY_STATE_NAME
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: PEP_PPM_QUERY_STATE_NAME, *PPEP_PPM_QUERY_STATE_NAME
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_PPM_QUERY_STATE_NAME
+product: Windows
+targetos: Windows
+req.typenames: *PPEP_PPM_QUERY_STATE_NAME, PEP_PPM_QUERY_STATE_NAME
 ---
 
 # _PEP_PPM_QUERY_STATE_NAME structure
 
 
-
 ## -description
+
+
 The <b>PEP_PPM_QUERY_STATE_NAME</b> structure contains information about a specific coordinated or platform idle state. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_PPM_QUERY_STATE_NAME {
@@ -55,6 +65,9 @@ typedef struct _PEP_PPM_QUERY_STATE_NAME {
 
 
 ## -struct-fields
+
+
+
 
 ### -field StateIndex
 
@@ -73,18 +86,12 @@ If <b>Name</b> is not <b>NULL</b>, supplies the size of the <b>Name</b> buffer, 
 [in] A pointer to a buffer to copy the name of the state to, or <b>NULL</b>. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186778">PEP_NOTIFY_PPM_QUERY_COORDINATED_STATE_NAME notification</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186786">PEP_NOTIFY_PPM_QUERY_PROCESSOR_STATE_NAME notification</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: print\getjobnamedpropertyvalue.htm
 old-project: print
 ms.assetid: A9256A7B-B851-498C-94C3-95268D079828
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: GetJobNamedPropertyValue
+ms.date: 1/18/2018
+ms.keywords: GetJobNamedPropertyValue function [Print Devices], print.getjobnamedpropertyvalue, winspool/GetJobNamedPropertyValue, GetJobNamedPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GetJobNamedPropertyValue
-req.alt-loc: spoolss.dll,WinSpool.drv
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: WinSpool.lib
 req.dll: Spoolss.dll; WinSpool.drv
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	spoolss.dll
+-	WinSpool.drv
+apiname: 
+-	GetJobNamedPropertyValue
+product: Windows
+targetos: Windows
 req.typenames: BIDI_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,14 +48,15 @@ req.product: Windows 10 or later.
 # GetJobNamedPropertyValue function
 
 
-
 ## -description
+
+
 Retrieves the value of the named property for the specified print job on the specified printer.  
 
 
 
-
 ## -syntax
+
 
 ````
 DWORD WINAPI GetJobNamedPropertyValue(
@@ -58,6 +69,9 @@ DWORD WINAPI GetJobNamedPropertyValue(
 
 
 ## -parameters
+
+
+
 
 ### -param hPrinter [in]
 
@@ -84,8 +98,9 @@ Value of the named property. The caller needs to free this using the <a href="..
 
 
 ## -returns
+
+
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.  
 
 
 
-## -remarks

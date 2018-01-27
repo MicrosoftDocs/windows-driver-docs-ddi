@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 343d965d-3e85-423e-a46b-894b19d5df4e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryLogicalProcessorRelationship
+ms.keywords: KeQueryLogicalProcessorRelationship routine [Kernel-Mode Driver Architecture], kernel.kequerylogicalprocessorrelationship, KeQueryLogicalProcessorRelationship, wdm/KeQueryLogicalProcessorRelationship, k105_0db645b1-dfa2-4d90-856f-975997dc09a8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeQueryLogicalProcessorRelationship
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeQueryLogicalProcessorRelationship
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeQueryLogicalProcessorRelationship function
 
 
-
 ## -description
+
+
 The <b>KeQueryLogicalProcessorRelationship</b> routine gets information about the relationships of one or more processors to the other processors in a multiprocessor system.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KeQueryLogicalProcessorRelationship(
@@ -58,6 +68,9 @@ NTSTATUS KeQueryLogicalProcessorRelationship(
 
 ## -parameters
 
+
+
+
 ### -param ProcessorNumber [in, optional]
 
 A pointer to a <a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a> structure that identifies the logical processor for which the caller requests relationship information. To request information about <u>all</u> logical processors in the system, set this parameter to <b>NULL</b>. 
@@ -66,7 +79,6 @@ A pointer to a <a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_
 ### -param RelationshipType [in]
 
 Specifies the type of relationship information that is requested by the caller. Set this parameter to one of the following <a href="http://go.microsoft.com/fwlink/p/?linkid=155068">LOGICAL_PROCESSOR_RELATIONSHIP</a> enumeration values:
-
 <ul>
 <li>
 <b>RelationProcessorCore</b>
@@ -105,33 +117,55 @@ A pointer to a location that contains the size, in bytes, of the buffer that is 
 
 
 ## -returns
+
+
 <b>KeQueryLogicalProcessorRelationship</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The <i>ProcessorNumber</i> parameter points to a PROCESSOR_NUMBER structure that contains invalid information.
+</dl>
+</td>
+<td width="60%">
+The <i>ProcessorNumber</i> parameter points to a PROCESSOR_NUMBER structure that contains invalid information.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INFO_LENGTH_MISMATCH</b></dt>
-</dl>The caller-allocated buffer that is pointed to by the <i>Information</i> parameter is not large enough to contain the requested relationship information.
+</dl>
+</td>
+<td width="60%">
+The caller-allocated buffer that is pointed to by the <i>Information</i> parameter is not large enough to contain the requested relationship information.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 To determine the buffer size to allocate, initially call <b>KeQueryLogicalProcessorRelationship</b> with <i>Information</i> = <b>NULL</b> and *<i>Length</i> = 0. In response, the routine writes the required buffer size to *<i>Length</i> and returns STATUS_INFO_LENGTH_MISMATCH. Next, allocate a buffer of the required size and call <b>KeQueryLogicalProcessorRelationship</b> a second time. In this second call, set <i>Information</i> to the buffer address and *<i>Length</i> to the buffer size. If the second call succeeds, the routine writes the requested relationship information to the buffer and returns STATUS_SUCCESS.
 
-The following code example gets processor relationship information for all the logical processors in a multiprocessor system:
-
-The NT_ASSERT macro is defined in the Wdm.h header file. The NT_SUCCESS macro is defined in the Ntdef.h header file.
 
 
 ## -see-also
-<dl>
-<dt><a href="http://go.microsoft.com/fwlink/p/?linkid=155068">LOGICAL_PROCESSOR_RELATIONSHIP</a></dt>
-<dt>
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=155068">LOGICAL_PROCESSOR_RELATIONSHIP</a>
+
 <a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
-</dt>
-<dt><a href="http://go.microsoft.com/fwlink/p/?linkid=155065">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a></dt>
-</dl>
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=155065">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 552986F7-AEE9-4CBF-A932-629885F99487
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, *PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
+ms.keywords: usbsidebandaudio/PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure [Audio Devices], PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, audio.usbsidebandaudio_endpoint_descriptor, *PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, usbsidebandaudio/USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, _USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
-req.alt-loc: 
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,16 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	kbSyntax
+apitype: 
+-	<TBD>
+apilocation: 
+-	
+apiname: 
+-	USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
+product: Windows
+targetos: Windows
 req.typenames: *PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
@@ -38,15 +46,16 @@ req.product: Windows 10 or later.
 # _USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 TBD
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR {
@@ -63,39 +72,76 @@ typedef struct _USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR {
 
 ## -struct-fields
 
-### -field Reserved 0
+
+
+
+### -field CbSize
+
+ 
+
+
+### -field Category
+
+ 
+
+
+### -field Direction
+
+ 
+
+
+### -field Capabilities
+
+ 
+
+
+### -field FriendlyName
+
+ 
+
+
+### -field VolumePropertyValuesSize
+
+ 
+
+
+### -field SidetoneVolumePropertyValueSize
+
+ 
+
+
+
+#### - Reserved 5
 
 TBD
 
 
-### -field Reserved 1
+#### - Reserved 6
 
 TBD
 
 
-### -field Reserved 2
+#### - Reserved 3
 
 TBD
 
 
-### -field Reserved 3
+#### - Reserved 2
 
 TBD
 
 
-### -field Reserved 4
+#### - Reserved 4
 
 TBD
 
 
-### -field Reserved 5
+#### - Reserved 0
 
 TBD
 
 
-### -field Reserved 6
+#### - Reserved 1
 
 TBD
 
-
-## -remarks

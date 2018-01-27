@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a655bcde-c627-4c90-8579-348ab0174c27
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcDeferWrite
+ms.keywords: ccref_06158fb8-cf33-42fa-bf7c-94b3a5e1fcfd.xml, ntifs/CcDeferWrite, CcDeferWrite, ifsk.ccdeferwrite, CcDeferWrite routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcDeferWrite
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcDeferWrite
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcDeferWrite function
 
 
-
 ## -description
+
+
 The <b>CcDeferWrite</b> routine defers writing to a cached file. The post routine that is supplied, is called by the cache manager when it can accommodate the write operation.
 
 
-
 ## -syntax
+
 
 ````
 VOID CcDeferWrite(
@@ -59,6 +69,9 @@ VOID CcDeferWrite(
 
 ## -parameters
 
+
+
+
 ### -param FileObject [in]
 
 Pointer to a file object for the cached file to which the data is to be written.
@@ -69,7 +82,6 @@ Pointer to a file object for the cached file to which the data is to be written.
 Address of a routine for the cache manager to call to write to the cached file. Note that it is possible that this routine will be called immediately, even if <a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a> has just returned <b>FALSE</b> .
 
 The post routine is defined in ntifs.h as:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -106,10 +118,15 @@ Set to <b>FALSE</b> if the request is being posted for the first time, <b>TRUE</
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A file system would normally call <b>CcDeferWrite</b> after receiving a return value of <b>FALSE</b> from <a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a>.
 
 To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>.
@@ -117,18 +134,15 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 The context parameters passed to <i>PostRoutine</i> are typically the I/O request and related context data.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccsetdirtypagethreshold.md">CcSetDirtyPageThreshold</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ec832068-9b5d-40ce-bafc-31642539e2d9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _tagKSJACK_SINK_INFORMATION, *PKSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION
+ms.keywords: KSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION structure [Audio Devices], ksmedia/PKSJACK_SINK_INFORMATION, PKSJACK_SINK_INFORMATION, _tagKSJACK_SINK_INFORMATION, PKSJACK_SINK_INFORMATION structure pointer [Audio Devices], audio.ksjack_sink_information, ksmedia/KSJACK_SINK_INFORMATION, *PKSJACK_SINK_INFORMATION, aud-prop_e9bbfa8a-d002-400c-a35d-3da0a8026cd6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later Windows operating sy
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSJACK_SINK_INFORMATION
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSJACK_SINK_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: *PKSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION
 ---
 
 # _tagKSJACK_SINK_INFORMATION structure
 
 
-
 ## -description
+
+
 The <code>KSJACK_SINK_INFORMATION</code> structure specifies information about a display-related digital audio device, such as an HDMI device or a display port.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _tagKSJACK_SINK_INFORMATION {
@@ -61,6 +71,9 @@ typedef struct _tagKSJACK_SINK_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ConnType
 
@@ -102,20 +115,21 @@ Specifies the length of the <b>SinkDescription</b>[] member.
 Specifies a string that contains the sink name, which must be NULL-terminated. The maximum length is defined by the MAX_SINK_DESCRIPTION_NAME_LENGTH constant (31  characters, plus a terminating <b>NULL</b>).
 
 
-### -field Reserved
+### -field PortId
+
+ 
+
+
+
+#### - Reserved
 
 Reserved.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-</dt>
-</dl>
+
  
 
  

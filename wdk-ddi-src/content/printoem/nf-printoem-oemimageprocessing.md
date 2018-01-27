@@ -7,8 +7,8 @@ old-location: print\oemimageprocessing.htm
 old-project: print
 ms.assetid: 965e17bc-2a38-4caa-a0dd-41ee1e1198f0
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: OEMImageProcessing
+ms.date: 1/18/2018
+ms.keywords: print_obsoletefunctions_c65011ae-a69c-4cbe-88a8-13847401c7df.xml, printoem/OEMImageProcessing, OEMImageProcessing function [Print Devices], OEMImageProcessing, print.oemimageprocessing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OEMImageProcessing
-req.alt-loc: printoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	printoem.h
+apiname: 
+-	OEMImageProcessing
+product: Windows
+targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
 ---
@@ -38,10 +47,13 @@ req.product: Windows 10 or later.
 # OEMImageProcessing function
 
 
-
 ## -description
 
+
+
+
 ## -syntax
+
 
 ````
 PBYTE APIENTRY OEMImageProcessing(
@@ -57,22 +69,29 @@ PBYTE APIENTRY OEMImageProcessing(
 
 ## -parameters
 
-### -param pdevobj 
 
 
-### -param pSrcBitmap 
+
+### -param pdevobj
 
 
-### -param pBitmapInfoHeader 
+
+### -param pSrcBitmap
 
 
-### -param pColorTable 
+
+### -param pBitmapInfoHeader
 
 
-### -param dwCallbackID 
+
+### -param pColorTable
 
 
-### -param pIPParams 
+
+### -param dwCallbackID
 
 
-## -remarks
+
+### -param pIPParams
+
+

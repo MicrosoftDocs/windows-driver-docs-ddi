@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 06d55d5d-1b2e-43f9-8d01-2f81489cc861
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlBalanceReads
+ms.keywords: FsRtlBalanceReads routine [Installable File System Drivers], FsRtlBalanceReads, ntifs/FsRtlBalanceReads, ifsk.fsrtlbalancereads, fsrtlref_9785018d-4a2f-44e8-a533-85ab1878e855.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlBalanceReads
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlBalanceReads
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlBalanceReads function
 
 
-
 ## -description
+
+
 The <b>FsRtlBalanceReads</b> routine signals to a fault-tolerant disk driver that it is now safe to start balancing reads from a mirrored drive. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlBalanceReads(
@@ -54,25 +64,32 @@ NTSTATUS FsRtlBalanceReads(
 
 ## -parameters
 
+
+
+
 ### -param TargetDevice [in]
 
 A pointer to the device object from which the device starts the balanced read. 
 
 
 ## -returns
+
+
 <b>FsRtlBalanceReads</b> returns STATUS_INVALID_DEVICE_REQUEST if the device is not a mirror. 
 
 
+
 ## -remarks
+
+
 <b>FsRtlBalanceReads</b> signals to a fault-tolerant disk driver that it is safe to start balancing reads from a mirrored drive. A file system typically calls <b>FsRtlBalanceReads</b> for a newly mounted volume once it has determined that the volume is clean. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccistheredirtydata.md">CcIsThereDirtyData</a>
-</dt>
-</dl>
+
  
 
  

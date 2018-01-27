@@ -7,8 +7,8 @@ old-location: print\opttype.htm
 old-project: print
 ms.assetid: 041dd438-e837-4912-bda7-de654204198b
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: _OPTTYPE, *POPTTYPE, OPTTYPE
+ms.date: 1/18/2018
+ms.keywords: print.opttype, POPTTYPE, compstui/POPTTYPE, POPTTYPE structure pointer [Print Devices], cpsuifnc_de1ff2db-9eea-4daf-bc9e-2e24a2dd5271.xml, OPTTYPE structure [Print Devices], compstui/OPTTYPE, OPTTYPE, _OPTTYPE, *POPTTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OPTTYPE
-req.alt-loc: compstui.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	compstui.h
+apiname: 
+-	OPTTYPE
+product: Windows
+targetos: Windows
 req.typenames: *POPTTYPE, OPTTYPE
 ---
 
 # _OPTTYPE structure
 
 
-
 ## -description
+
+
 The OPTTYPE structure is used by CPSUI applications (including printer interface DLLs) for describing the type and other characteristics of a <a href="https://msdn.microsoft.com/572330d6-1a1b-46fd-bfb4-be2b0990bca4">property sheet option</a>, if the option is specified by an <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _OPTTYPE {
@@ -62,6 +72,9 @@ typedef struct _OPTTYPE {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
 
 Size, in bytes, of the OPTTYPE structure.
@@ -79,23 +92,7 @@ Optional bit flags that modify the option's characteristics. The following flags
 
 
 
-### -field OPTTF_NOSPACE_BEFORE_POSTFIX
 
-CPSUI should not add a space character between the string specified by the <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structure's <b>pName</b> string and the <a href="..\compstui\ns-compstui-_optparam.md">OPTPARAM</a> structure's <b>pData</b> string, when displaying the option.
-
-Valid only if the option type is or <a href="https://msdn.microsoft.com/library/windows/hardware/ff562847">TVOT_SCROLLBAR</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff562848">TVOT_TRACKBAR</a>.
-
-</dd>
-</dl>
-
-
-
-### -field OPTTF_TYPE_DISABLED
-
-All the OPTPARAM structures to which <b>pOptParam</b> points are disabled, so that none of the parameter values are user-selectable.
-
-</dd>
-</dl>
 
 ### -field Count
 
@@ -129,4 +126,14 @@ Reserved, must be initialized to zero.
 Reserved, must be initialized to zero.
 
 
-## -remarks
+##### - Flags.OPTTF_NOSPACE_BEFORE_POSTFIX
+
+CPSUI should not add a space character between the string specified by the <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structure's <b>pName</b> string and the <a href="..\compstui\ns-compstui-_optparam.md">OPTPARAM</a> structure's <b>pData</b> string, when displaying the option.
+
+Valid only if the option type is or <a href="https://msdn.microsoft.com/library/windows/hardware/ff562847">TVOT_SCROLLBAR</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff562848">TVOT_TRACKBAR</a>.
+
+
+##### - Flags.OPTTF_TYPE_DISABLED
+
+All the OPTPARAM structures to which <b>pOptParam</b> points are disabled, so that none of the parameter values are user-selectable.
+

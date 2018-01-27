@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 03fde4a7-a4d1-4045-ac0c-6a37f2367b9d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfCollectionRemoveItem
+ms.keywords: wdfcollection/WdfCollectionRemoveItem, kmdf.wdfcollectionremoveitem, DFCollectionObjectRef_a037497e-b219-41c1-8d65-29cf8be17989.xml, WdfCollectionRemoveItem, wdf.wdfcollectionremoveitem, WdfCollectionRemoveItem method, PFN_WDFCOLLECTIONREMOVEITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WdfCollectionRemoveItem
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll,WUDFx02000.dll,WUDFx02000.dll.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,37 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: *PWDF_CHILD_RETRIEVE_INFO, WDF_CHILD_RETRIEVE_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+-	WUDFx02000.dll
+-	WUDFx02000.dll.dll
+apiname: 
+-	WdfCollectionRemoveItem
+product: Windows
+targetos: Windows
+req.typenames: WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO
 req.product: Windows 10 or later.
 ---
 
 # WdfCollectionRemoveItem function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfCollectionRemoveItem</b> method removes a specified object from an object collection, based on a specified index value. 
 
 
-
 ## -syntax
+
 
 ````
 VOID WdfCollectionRemoveItem(
@@ -57,6 +70,9 @@ VOID WdfCollectionRemoveItem(
 
 
 ## -parameters
+
+
+
 
 ### -param Collection [in]
 
@@ -69,12 +85,17 @@ A zero-based index that identifies the object to remove.
 
 
 ## -returns
+
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
+
 ## -remarks
+
+
 Index values represent the order in which objects are added to a collection. An index value of zero represents the first object that was added to the collection, an index value of one represents the second object, and so on. 
 
 When <b>WdfCollectionRemoveItem</b> removes an object from a collection, it decrements the object's reference count. 
@@ -82,15 +103,12 @@ When <b>WdfCollectionRemoveItem</b> removes an object from a collection, it decr
 For more information about object collections, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-collections">Framework Object Collections</a>
 
 
-For a code example that uses <b>WdfCollectionRemoveItem</b>, see <a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetfirstitem.md">WdfCollectionGetFirstItem</a>.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectionremove.md">WdfCollectionRemove</a>
-</dt>
-</dl>
+
  
 
  

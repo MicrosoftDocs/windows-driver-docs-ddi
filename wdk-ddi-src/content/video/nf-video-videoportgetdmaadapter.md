@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e28649d3-cb4f-4589-b421-a7cdd9139e4c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortGetDmaAdapter
+ms.keywords: VideoPort_Functions_a45601ab-cd5a-4aed-95ec-731f09b175a4.xml, display.videoportgetdmaadapter, VideoPortGetDmaAdapter, video/VideoPortGetDmaAdapter, VideoPortGetDmaAdapter function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of the Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortGetDmaAdapter
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortGetDmaAdapter
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortGetDmaAdapter function
 
 
-
 ## -description
+
+
 The <b>VideoPortGetDmaAdapter</b> function returns a pointer to a <b>VP_DMA_ADAPTER</b> structure, which is used in subsequent calls to other DMA-related functions.
 
 
-
 ## -syntax
+
 
 ````
 PVP_DMA_ADAPTER VideoPortGetDmaAdapter(
@@ -55,6 +65,9 @@ PVP_DMA_ADAPTER VideoPortGetDmaAdapter(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -67,10 +80,15 @@ Pointer to a <a href="..\video\ns-video-_vp_device_description.md">VP_DEVICE_DES
 
 
 ## -returns
+
+
 <b>VideoPortGetDmaAdapter</b> returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a> structure on success; if it is unsuccessful in obtaining information about the DMA adapter, it returns <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 The <b>VP_DMA_ADAPTER</b> structure contains attribute information about a particular DMA adapter. This structure is an opaque data type that is used internally by the video port driver.
 
 A video miniport driver should call the video port driver's <b>VideoPortGetDmaAdapter</b> to obtain information about a DMA adapter.
@@ -94,21 +112,17 @@ This structure has no public members.
 This structure is available in Windows XP and later.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\video\nf-video-videoportstartdma.md">VideoPortStartDma</a>
-</dt>
-<dt>
-<a href="..\video\nf-video-videoportputdmaadapter.md">VideoPortPutDmaAdapter</a>
-</dt>
-<dt>
-<a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>
-</dt>
-<dt>
+
 <a href="..\video\ns-video-_vp_device_description.md">VP_DEVICE_DESCRIPTION</a>
-</dt>
-</dl>
+
+<a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>
+
+<a href="..\video\nf-video-videoportstartdma.md">VideoPortStartDma</a>
+
+<a href="..\video\nf-video-videoportputdmaadapter.md">VideoPortPutDmaAdapter</a>
+
  
 
  

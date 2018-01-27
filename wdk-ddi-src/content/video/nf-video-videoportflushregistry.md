@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8b940eec-dac6-4a01-afc8-73115bf994c3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortFlushRegistry
+ms.keywords: video/VideoPortFlushRegistry, VideoPortFlushRegistry function [Display Devices], display.videoportflushregistry, VideoPortFlushRegistry, VideoPort_Functions_fe7df781-6130-484d-b582-55446711fef6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2003 and later versions o
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortFlushRegistry
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortFlushRegistry
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortFlushRegistry function
 
 
-
 ## -description
+
+
 The <b>VideoPortFlushRegistry</b> function flushes registry keys and values associated with the video miniport driver.
 
 
-
 ## -syntax
+
 
 ````
 VP_STATUS VideoPortFlushRegistry(
@@ -55,27 +65,27 @@ VP_STATUS VideoPortFlushRegistry(
 
 ## -parameters
 
-### -param HwDeviceExtension 
+
+
+
+### -param HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
 
 ## -returns
+
+
 <b>VideoPortFlushRegistry</b> returns NO_ERROR.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportsetregistryparameters.md">VideoPortSetRegistryParameters</a>
-</dt>
-</dl>
+
  
 
  

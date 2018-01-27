@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9c29689c-ce5e-4b29-a17b-32d96f8f87e7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcUnpinDataForThread
+ms.keywords: ntifs/CcUnpinDataForThread, CcUnpinDataForThread routine [Installable File System Drivers], ccref_71102887-ef3b-44b1-8b1f-e2b07dea3392.xml, ifsk.ccunpindataforthread, CcUnpinDataForThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcUnpinDataForThread
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcUnpinDataForThread
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcUnpinDataForThread function
 
 
-
 ## -description
+
+
 The <b>CcUnpinDataForThread</b> routine releases pages of a cached file whose buffer control block (BCB) was modified by an earlier call to <a href="..\ntifs\nf-ntifs-ccsetbcbownerpointer.md">CcSetBcbOwnerPointer</a>.
 
 
-
 ## -syntax
+
 
 ````
 VOID CcUnpinDataForThread(
@@ -54,6 +64,9 @@ VOID CcUnpinDataForThread(
 
 
 ## -parameters
+
+
+
 
 ### -param Bcb [in]
 
@@ -66,10 +79,15 @@ Identifies the thread that originally acquired the BCB. Must match the owner poi
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>CcUnpinDataForThread</b> releases the BCB for the indicated thread and performs any other necessary cleanup.
 
 Each call to <a href="..\ntifs\nf-ntifs-ccsetbcbownerpointer.md">CcSetBcbOwnerPointer</a> must be matched by a subsequent call to <b>CcUnpinDataForThread</b>.
@@ -77,15 +95,13 @@ Each call to <a href="..\ntifs\nf-ntifs-ccsetbcbownerpointer.md">CcSetBcbOwnerPo
 <b>CcUnpinDataForThread</b> is functionally equivalent to <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>, except that it also releases the BCB resource for the indicated thread.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccsetbcbownerpointer.md">CcSetBcbOwnerPointer</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
-</dt>
-</dl>
+
  
 
  

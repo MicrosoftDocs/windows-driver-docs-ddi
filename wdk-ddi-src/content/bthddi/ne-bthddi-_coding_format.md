@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 3A97BBAF-47B0-4987-B5EC-2B3A40F2B42D
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _CODING_FORMAT, *PCODING_FORMAT, CODING_FORMAT
+ms.keywords: PCODING_FORMAT, _CODING_FORMAT, *PCODING_FORMAT, bthddi/PCODING_FORMAT, CODING_FORMAT, bthddi/CODING_FORMAT, bthddi/, CODING_FORMAT enumeration [Bluetooth Devices], PCODING_FORMAT enumeration pointer [Bluetooth Devices], bltooth.coding_format
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CODING_FORMAT
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthddi.h
+apiname: 
+-	CODING_FORMAT
+product: Windows
+targetos: Windows
 req.typenames: *PCODING_FORMAT, CODING_FORMAT
 ---
 
 # _CODING_FORMAT enumeration
 
 
-
 ## -description
+
+
 This enumeration is for internal use only.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _CODING_FORMAT { 
@@ -54,7 +64,37 @@ typedef enum _CODING_FORMAT {
 
 ## -enum-fields
 
-### -field 
 
 
-## -remarks
+
+### -field ScoCodingFormatULaw
+
+
+
+### -field ScoCodingFormatALaw
+
+
+
+### -field ScoCodingFormatCVSD
+
+
+
+### -field ScoCodingFormatTransparent
+
+
+
+### -field ScoCodingFormatLinearPCM
+
+
+
+### -field ScoCodingFormatMSBC
+
+
+
+### -field ScoCodingFormatVendorSpecific
+
+
+
+
+
+

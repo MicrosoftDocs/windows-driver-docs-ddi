@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: D4A9B507-E199-42EA-BC29-6F477BEC8D20
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _SET_UNIT_INFO, *PSET_UNIT_INFO, SET_UNIT_INFO
+ms.keywords: PSET_UNIT_INFO structure pointer [Buses], PSET_UNIT_INFO, 61883/SET_UNIT_INFO, IEEE.set_unit_info, SET_UNIT_INFO structure [Buses], *PSET_UNIT_INFO, 61883/PSET_UNIT_INFO, _SET_UNIT_INFO, SET_UNIT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SET_UNIT_INFO
-req.alt-loc: 61883.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	61883.h
+apiname: 
+-	SET_UNIT_INFO
+product: Windows
+targetos: Windows
 req.typenames: *PSET_UNIT_INFO, SET_UNIT_INFO
 ---
 
 # _SET_UNIT_INFO structure
 
 
-
 ## -description
+
+
 This structure is used to set unit information.
 
 The Av61883_SetUnitInfo request sets the parameters that the IEC-61883 protocol driver should use when capturing and transmitting isochronous packets. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SET_UNIT_INFO {
@@ -56,6 +66,9 @@ typedef struct _SET_UNIT_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field nLevel
 
@@ -78,17 +91,18 @@ If <b>nLevel</b> is SET_CMP_ADDRESS_RANGE_TYPE, this member is a pointer to a ca
 
 
 ## -remarks
+
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
 
 If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_INVALID_PARAMETER.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-</dt>
-</dl>
+
  
 
  

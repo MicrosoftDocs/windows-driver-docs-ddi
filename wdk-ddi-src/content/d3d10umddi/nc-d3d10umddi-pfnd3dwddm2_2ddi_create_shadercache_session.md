@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 14B3AB7A-DB27-412F-9578-5BA44628ECE7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.pfnd3dwddm2_2ddi_create_shadercache_session, pfnCreateShaderCacheSession callback function [Display Devices], pfnCreateShaderCacheSession, PFND3DWDDM2_2DDI_CREATE_SHADERCACHE_SESSION, PFND3DWDDM2_2DDI_CREATE_SHADERCACHE_SESSION, d3d10umddi/pfnCreateShaderCacheSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnCreateShaderCacheSession
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	pfnCreateShaderCacheSession
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3DWDDM2_2DDI_CREATE_SHADERCACHE_SESSION callback
 
 
-
 ## -description
+
+
 The <i>pfnCreateShaderCacheSession</i> callback function creates a shader cache session.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DWDDM2_2DDI_CREATE_SHADERCACHE_SESSION pfnCreateShaderCacheSession;
@@ -59,37 +69,59 @@ VOID APIENTRY* pfnCreateShaderCacheSession(
 
 ## -parameters
 
-### -param hDevice 
-
-The handle of a device.
 
 
-### -param hCacheSession 
 
-The handle of a cache session.
+### -param D3D10DDI_HDEVICE
 
 
-### -param hRTCacheSession 
+
+### -param D3DWDDM2_2DDI_HCACHESESSION
+
+
+
+### -param D3DWDDM2_2DDI_HRTCACHESESSION
+
+
+
+
+
+
+#### - hRTCacheSession
 
 The handle of the cache session for the driver to use when it calls back into the runtime.
 
 
+#### - hDevice
+
+The handle of a device.
+
+
+#### - hCacheSession
+
+The handle of a cache session.
+
+
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 The runtime uses the object that is created to inform the driver of different caching contexts. It can be used to direct the caching callbacks towards a process-local cache or a per-component cache which is shared by multiple processes.
 
 Access this callback function by using the <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_devicefuncs.md">D3DWDDM2_2DDI_DEVICEFUNCS</a> structure. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_devicefuncs.md">D3DWDDM2_2DDI_DEVICEFUNCS</a>
-</dt>
-</dl>
+
  
 
  

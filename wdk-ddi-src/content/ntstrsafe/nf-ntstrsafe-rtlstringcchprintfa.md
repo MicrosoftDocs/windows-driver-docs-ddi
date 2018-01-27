@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e1c04e73-3055-4de8-bd8d-8d0a13541612
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCchPrintfA
+ms.keywords: kernel.rtlstringcchprintf, ntstrsafe/RtlStringCchPrintfA, RtlStringCchPrintfW function [Kernel-Mode Driver Architecture], safestrings_d1041cf8-bec9-4eef-8de8-7b662d474263.xml, RtlStringCchPrintfA, RtlStringCchPrintfW, RtlStringCchPrintf, ntstrsafe/RtlStringCchPrintfW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows XP with Service Pack 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlStringCchPrintfW,RtlStringCchPrintfA,RtlStringCchPrintfW
-req.alt-loc: Ntstrsafe.lib,Ntstrsafe.dll
 req.ddi-compliance: 
 req.unicode-ansi: RtlStringCchPrintfW (Unicode) and RtlStringCchPrintfA (ANSI)
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ntstrsafe.lib
+-	Ntstrsafe.dll
+apiname: 
+-	RtlStringCchPrintfW
+-	RtlStringCchPrintfA
+-	RtlStringCchPrintfW
+product: Windows
+targetos: Windows
 req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCchPrintfA function
 
 
-
 ## -description
+
+
 The <b>RtlStringCchPrintfW</b> and <b>RtlStringCchPrintfA</b> functions create a character-counted text string, with formatting that is based on supplied formatting information.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlStringCchPrintfW(
@@ -56,6 +69,9 @@ NTSTATUS RtlStringCchPrintfW(
 
 
 ## -parameters
+
+
+
 
 ### -param pszDest [out]
 
@@ -72,78 +88,145 @@ The size of the destination buffer, in characters. The buffer must be large enou
 A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="http://msdn.microsoft.com/en-us/library/56e442dc.aspx">formatting directives</a>.
 
 
-### -param ... 
+### -param param
+
+TBD
+
+
+
+####### - ...
 
 A list of arguments that are interpreted by the function, based on formatting directives contained in the <i>pszFormat</i> string.
 
 
 ## -returns
+
+
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>This <i>success</i> status means source data was present, the string was created without truncation, and the resultant destination buffer is null-terminated.
+</dl>
+</td>
+<td width="60%">
+This <i>success</i> status means source data was present, the string was created without truncation, and the resultant destination buffer is null-terminated.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_OVERFLOW</b></dt>
-</dl>This <i>warning</i> status means the operation did not complete due to insufficient space in the destination buffer. The destination buffer contains a truncated version of the output string.
+</dl>
+</td>
+<td width="60%">
+This <i>warning</i> status means the operation did not complete due to insufficient space in the destination buffer. The destination buffer contains a truncated version of the output string.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>This <i>error</i> status means the function received an invalid input parameter. For more information, see the following paragraph.
+</dl>
+</td>
+<td width="60%">
+This <i>error</i> status means the function received an invalid input parameter. For more information, see the following paragraph.
 
 The function returns the STATUS_INVALID_PARAMETER value when:
 
- 
+<ul>
+<li>The value in <i>cchDest </i> is larger than the maximum buffer size.</li>
+<li>The destination buffer was already full.</li>
+<li>A <b>NULL</b> pointer was present.</li>
+<li>The destination buffer's length was zero, but a nonzero length source string was present.</li>
+</ul>
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-<b>RtlStringCchPrintfW</b> and <b>RtlStringCchPrintfA</b> should be used instead of the following functions:
 
+
+<b>RtlStringCchPrintfW</b> and <b>RtlStringCchPrintfA</b> should be used instead of the following functions:
+<ul>
+<li>
 <b>sprintf</b>
 
+</li>
+<li>
 <b>swprintf</b>
 
+</li>
+<li>
 _<b>snprintf</b>
 
+</li>
+<li>
 _<b>snwprintf</b>
 
-All of these functions accept a format string and a list of arguments and return a formatted string. <b>RtlStringCchPrintfW</b> and <b>RtlStringCchPrintfA</b> accept the size, in characters, of the destination buffer to ensure that the functions do not write past the end of the buffer.
+</li>
+</ul>All of these functions accept a format string and a list of arguments and return a formatted string. <b>RtlStringCchPrintfW</b> and <b>RtlStringCchPrintfA</b> accept the size, in characters, of the destination buffer to ensure that the functions do not write past the end of the buffer.
 
 Use <b>RtlStringCchPrintfW</b> to handle Unicode strings and <b>RtlStringCchPrintfA</b> to handle ANSI strings. The form you use depends on your data.
-
+<table>
+<tr>
+<th>String data type</th>
+<th>String literal</th>
+<th>Function</th>
+</tr>
+<tr>
+<td>
 WCHAR
 
+</td>
+<td>
 L"string"
 
+</td>
+<td>
 <b>RtlStringCchPrintfW</b>
 
+</td>
+</tr>
+<tr>
+<td>
 <b>char</b>
 
+</td>
+<td>
 "string"
 
+</td>
+<td>
 <b>RtlStringCchPrintfA</b>
+
+</td>
+</tr>
+</table> 
 
 If  <i>pszDest </i>and <i>pszFormat</i> point to overlapping strings, or if any argument strings overlap, behavior of the function is undefined.
 
 Neither <i>pszFormat</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to handle <b>NULL</b> string pointer values, use <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfexw.md">RtlStringCchPrintfEx</a>.
 
-The following example shows a simple use of <b>RtlStringCchPrintfW</b> using four arguments.
-
-The resultant string is "The answer is 1 + 2 = 3." It is contained in the buffer at <i>pszDest</i>.
-
-For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfw.md">RtlStringCbPrintf</a>
-</dt>
-<dt>
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfexw.md">RtlStringCchPrintfEx</a>
-</dt>
-<dt>
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfw.md">RtlStringCchVPrintf</a>
-</dt>
-</dl>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfexw.md">RtlStringCchPrintfEx</a>
+
  
 
  

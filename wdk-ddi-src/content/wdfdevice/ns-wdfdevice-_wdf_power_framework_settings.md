@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2512682A-4E1C-453F-8C46-E8979E46B8EF
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_POWER_FRAMEWORK_SETTINGS, *PWDF_POWER_FRAMEWORK_SETTINGS, WDF_POWER_FRAMEWORK_SETTINGS
+ms.keywords: PWDF_POWER_FRAMEWORK_SETTINGS structure pointer, wdfdevice/PWDF_POWER_FRAMEWORK_SETTINGS, _WDF_POWER_FRAMEWORK_SETTINGS, wdfdevice/WDF_POWER_FRAMEWORK_SETTINGS, *PWDF_POWER_FRAMEWORK_SETTINGS, PWDF_POWER_FRAMEWORK_SETTINGS, wdf.wdf_power_framework_settings, WDF_POWER_FRAMEWORK_SETTINGS structure, kmdf.wdf_power_framework_settings, WDF_POWER_FRAMEWORK_SETTINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.11
 req.umdf-ver: 
-req.alt-api: WDF_POWER_FRAMEWORK_SETTINGS
-req.alt-loc: wdfdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,23 +29,35 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PWDF_POWER_FRAMEWORK_SETTINGS, WDF_POWER_FRAMEWORK_SETTINGS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfdevice.h
+apiname: 
+-	WDF_POWER_FRAMEWORK_SETTINGS
+product: Windows
+targetos: Windows
+req.typenames: WDF_POWER_FRAMEWORK_SETTINGS, *PWDF_POWER_FRAMEWORK_SETTINGS
 req.product: Windows 10 or later.
 ---
 
 # _WDF_POWER_FRAMEWORK_SETTINGS structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The 
   <b>WDF_POWER_FRAMEWORK_SETTINGS</b> structure describes power management framework (PoFx) settings for single-component devices.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WDF_POWER_FRAMEWORK_SETTINGS {
@@ -65,6 +75,9 @@ typedef struct _WDF_POWER_FRAMEWORK_SETTINGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -114,6 +127,8 @@ A context pointer that the framework supplies to  <a href="https://msdn.microsof
 
 
 ## -remarks
+
+
 The <b>WDF_POWER_FRAMEWORK_SETTINGS</b> structure is used an input to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>.
 
 To initialize its <b>WDF_POWER_FRAMEWORK_SETTINGS</b> structure, your driver should call <a href="..\wdfdevice\nf-wdfdevice-wdf_power_framework_settings_init.md">WDF_POWER_FRAMEWORK_SETTINGS_INIT</a>.
@@ -124,21 +139,17 @@ This structure is not applicable to KMDF client drivers for multiple-component d
  
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfdevice\nf-wdfdevice-wdf_power_framework_settings_init.md">WDF_POWER_FRAMEWORK_SETTINGS_INIT</a>
-</dt>
-<dt>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>
-</dt>
-<dt>
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>
-</dt>
-<dt>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdf_power_framework_settings_init.md">WDF_POWER_FRAMEWORK_SETTINGS_INIT</a>
+
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_pre_po_fx_unregister_device.md">EvtDeviceWdmPrePoFxUnregisterDevice</a>
-</dt>
-</dl>
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>
+
  
 
  

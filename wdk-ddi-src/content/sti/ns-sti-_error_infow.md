@@ -7,8 +7,8 @@ old-location: image\sti_error_info.htm
 old-project: image
 ms.assetid: e448ddfc-ae5a-4eb8-a39c-e46771278081
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: _ERROR_INFOW, *PSTI_ERROR_INFOW, STI_ERROR_INFOW, *PSTI_ERROR_INFO, STI_ERROR_INFO
+ms.date: 1/18/2018
+ms.keywords: sti/STI_ERROR_INFO, image.sti_error_info, STI_ERROR_INFO structure [Imaging Devices], STI_ERROR_INFOW, STI_ERROR_INFO, _ERROR_INFOW, PSTI_ERROR_INFO structure pointer [Imaging Devices], sti/PSTI_ERROR_INFO, stifnc_c4e51568-9e80-4866-9258-72a8fcbd242d.xml, *PSTI_ERROR_INFO, *PSTI_ERROR_INFOW, PSTI_ERROR_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STI_ERROR_INFO
-req.alt-loc: sti.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSTI_ERROR_INFOW, STI_ERROR_INFOW
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	sti.h
+apiname: 
+-	STI_ERROR_INFO
+product: Windows
+targetos: Windows
+req.typenames: STI_ERROR_INFOW, *PSTI_ERROR_INFOW
 req.product: Windows 10 or later.
 ---
 
 # _ERROR_INFOW structure
 
 
-
 ## -description
+
+
 The STI_ERROR_INFO structure is used as a parameter for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543749">IStiDevice::GetLastErrorInfo</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543820">IStiUSD::GetLastErrorInfo</a> methods. It is also used as a member of the <a href="..\sti\ns-sti-_sti_diag.md">STI_DIAG</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ERROR_INFO {
@@ -57,6 +67,9 @@ typedef struct _ERROR_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwSize
 
@@ -77,5 +90,3 @@ Optional, vendor-specific error code.
 
 Optional character array containing a text string describing the error.
 
-
-## -remarks

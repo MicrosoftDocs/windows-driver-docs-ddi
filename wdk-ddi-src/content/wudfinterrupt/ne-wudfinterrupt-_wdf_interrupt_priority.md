@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ECAB84B8-1C39-473C-A6AE-41D1EBDB1FF4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY
+ms.keywords: wudfinterrupt/PWDF_INTERRUPT_PRIORITY, wudfinterrupt/WDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY enumeration, wudfinterrupt/WdfIrqPriorityUndefined, wudfinterrupt/WdfIrqPriorityHigh, wudfinterrupt/WdfIrqPriorityLow, umdf.wdf_interrupt_priority, *PWDF_INTERRUPT_PRIORITY, WdfIrqPriorityNormal, PWDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY, _WDF_INTERRUPT_PRIORITY, WdfIrqPriorityUndefined, WdfIrqPriorityLow, wudfinterrupt/WdfIrqPriorityNormal, wdf.wdf_interrupt_priority_umdf, WdfIrqPriorityHigh, PWDF_INTERRUPT_PRIORITY enumeration pointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.11
-req.alt-api: WDF_INTERRUPT_PRIORITY
-req.alt-loc: Wudfinterrupt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,23 +29,35 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: WDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wudfinterrupt.h
+apiname: 
+-	WDF_INTERRUPT_PRIORITY
+product: Windows
+targetos: Windows
+req.typenames: *PWDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY
 req.product: Windows 10 or later.
 ---
 
 # _WDF_INTERRUPT_PRIORITY enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
       The <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_priority.md">WDF_INTERRUPT_PRIORITY</a> enumeration type identifies relative priorities for device interrupts.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_INTERRUPT_PRIORITY { 
@@ -60,6 +70,9 @@ typedef enum _WDF_INTERRUPT_PRIORITY {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WdfIrqPriorityUndefined
 
@@ -82,15 +95,16 @@ The device's interrupt has a relatively high priority, typically because the int
 
 
 ## -remarks
+
+
 The <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_priority.md">WDF_INTERRUPT_PRIORITY</a> enumeration type is used as input to the <a href="https://msdn.microsoft.com/EDBCBB37-41A4-4234-BE8C-4C8739BC287B">IWDFInterrupt::SetPolicy</a> method.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/EDBCBB37-41A4-4234-BE8C-4C8739BC287B">IWDFInterrupt::SetPolicy</a>
-</dt>
-</dl>
+
  
 
  

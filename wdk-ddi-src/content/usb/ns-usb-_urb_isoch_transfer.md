@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: b021211a-3f72-47ff-9e69-bbf3807f4ec4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _URB_ISOCH_TRANSFER,
+ms.keywords: _URB_ISOCH_TRANSFER, USBD_START_ISO_TRANSFER_ASAP, buses._urb_isoch_transfer, usb/_URB_ISOCH_TRANSFER, _URB_ISOCH_TRANSFER structure [Buses], usbstrct_5a064ef7-b08f-405f-8d73-22fea138ac29.xml, USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: _URB_ISOCH_TRANSFER
-req.alt-loc: usb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usb.h
+apiname: 
+-	_URB_ISOCH_TRANSFER
+product: Windows
+targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _URB_ISOCH_TRANSFER structure
 
 
-
 ## -description
+
+
 The <b>_URB_ISOCH_TRANSFER</b> structure is used by USB client drivers to send data to or retrieve data from an isochronous transfer pipe.
 
 
-
 ## -syntax
+
 
 ````
 struct _URB_ISOCH_TRANSFER {
@@ -66,9 +76,37 @@ struct _URB_ISOCH_TRANSFER {
 
 ## -struct-fields
 
+
+
+
 ### -field Hdr
 
 A pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_ISOCH_TRANSFER, and <b>Hdr.Length</b> must be the size of this variable-length data structure.
+
+
+### -field _URB_HEADER
+
+ 
+
+
+### -field _URB
+
+ 
+
+
+### -field UrbLink
+
+Reserved. Do not use.
+
+
+### -field hca
+
+Reserved. Do not use.
+
+
+### -field _URB_HCD_AREA
+
+ 
 
 
 ### -field PipeHandle
@@ -82,16 +120,15 @@ Specifies an opaque handle to the isochronous pipe. The host controller driver r
 Specifies zero, one, or a combination of the following flags:
 
 
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field USBD_TRANSFER_DIRECTION_IN
-
+<td width="40%"><a id="USBD_TRANSFER_DIRECTION_IN"></a><a id="usbd_transfer_direction_in"></a><dl>
+<dt><b>USBD_TRANSFER_DIRECTION_IN</b></dt>
+</dl>
 </td>
 <td width="60%">
 Is set to request data from a device. To transfer data to a device, this flag must be clear. 
@@ -99,9 +136,9 @@ Is set to request data from a device. To transfer data to a device, this flag mu
 </td>
 </tr>
 <tr>
-
-### -field USBD_SHORT_TRANSFER_OK
-
+<td width="40%"><a id="USBD_SHORT_TRANSFER_OK"></a><a id="usbd_short_transfer_ok"></a><dl>
+<dt><b>USBD_SHORT_TRANSFER_OK</b></dt>
+</dl>
 </td>
 <td width="60%">
 Is set to direct the host controller not to return an error when it receives a packet from the device that is shorter than the maximum packet size for the endpoint. This flag has no effect on an isochronous pipe, because the bus driver does not return an error when it receives short packets on an isochronous pipe.
@@ -109,17 +146,16 @@ Is set to direct the host controller not to return an error when it receives a p
 </td>
 </tr>
 <tr>
-
-### -field USBD_START_ISO_TRANSFER_ASAP
-
+<td width="40%"><a id="USBD_START_ISO_TRANSFER_ASAP"></a><a id="usbd_start_iso_transfer_asap"></a><dl>
+<dt><b>USBD_START_ISO_TRANSFER_ASAP</b></dt>
+</dl>
 </td>
 <td width="60%">
 Causes the transfer to begin on the next frame, if no transfers have been submitted to the pipe since the pipe was opened or last reset. Otherwise, the transfer begins on the first frame that follows all currently queued requests for the pipe. The actual frame that the transfer begins on will be adjusted for bus latency by the host controller driver.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field TransferBufferLength
@@ -135,16 +171,6 @@ A pointer to a resident buffer for the transfer is <b>NULL</b> if an MDL is supp
 ### -field TransferBufferMDL
 
 A pointer to an MDL that describes a resident buffer is <b>NULL</b> if a buffer is supplied in <b>TransferBuffer</b>. The contents of the buffer depend on the value of <b>TransferFlags</b>. If USBD_TRANSFER_DIRECTION_IN is specified, the described buffer will contain data that is read from the device on return from the host controller driver. Otherwise, the buffer contains driver-supplied data for transfer to the device. This MDL must be allocated from nonpaged pool.
-
-
-### -field UrbLink
-
-Reserved. Do not use.
-
-
-### -field hca
-
-Reserved. Do not use.
 
 
 ### -field StartFrame
@@ -170,23 +196,55 @@ Contains a variable-length array of <a href="..\usb\ns-usb-_usbd_iso_packet_desc
 
 
 ## -remarks
-The USB bus driver always returns a value of USBD_STATUS_SUCCESS in <b>Hdr.Status</b>, unless  every packet in the transfer generated an error or the request was not well-formed and could not be executed at all. The following table includes possible error codes returned in <b>Hdr.Status</b>.
 
+
+The USB bus driver always returns a value of USBD_STATUS_SUCCESS in <b>Hdr.Status</b>, unless  every packet in the transfer generated an error or the request was not well-formed and could not be executed at all. The following table includes possible error codes returned in <b>Hdr.Status</b>.
+<table>
+<tr>
+<th>Error value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>
 USBD_STATUS_ISOCH_REQUEST_FAILED
 
+</td>
+<td>
 Indicates that every packet of an isochronous request was completed with errors. 
 
+</td>
+</tr>
+<tr>
+<td>
 USBD_STATUS_BAD_START_FRAME
 
+</td>
+<td>
 Indicates that the requested start frame is not within USBD_ISO_START_FRAME_RANGE of the current USB frame. 
 
+</td>
+</tr>
+<tr>
+<td>
 USBD_ISO_NOT_ACCESSED_LATE
 
+</td>
+<td>
 Indicates that every packet was submitted too late for the packet to be sent, based on the requested start frame. 
 
+</td>
+</tr>
+<tr>
+<td>
 USBD_STATUS_INVALID_PARAMETER
 
+</td>
+<td>
 Indicates that one of the URB parameters was incorrect. 
+
+</td>
+</tr>
+</table> 
 
 Before the host controller sends an isochronous request to a USB device, it requires information about the device's endpoint to which it must send or receive data. This information is stored in endpoint descriptors (<a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>) that are retrieved from the selected configuration descriptor. 
 After the bus driver gets the endpoint descriptor, it creates an isochronous transfer pipe to set up the data transfer. The pipe's attributes are stored in the <a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a> structure. For isochronous transfers, the members are set as follows:<ul>
@@ -219,6 +277,8 @@ Microframe 5<code> IsoPacket.Element[4].Offset = 4096</code>
 
 If bits <b>12.. 11</b> are set to 1 (indicating two packets per microframe),  <b>IsoPacket</b> contains the following entries:
 
+Microframe 1<code> IsoPacket.Element[0].Offset = 0</code> (start address) 
+
 Microframe 2<code> IsoPacket.Element[1].Offset = 2048</code>
 
 Microframe 3<code> IsoPacket.Element[2].Offset = 4096</code>
@@ -238,27 +298,21 @@ The <b>TransferBuffer</b> or <b>TransferBufferMDL</b> members must specify a vir
 Treat other members that are part of this structure but not described here as opaque. They are reserved for system use. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
-</dt>
-<dt>
-<a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
-</dt>
-<dt>
-<a href="..\usb\ns-usb-_urb.md">URB</a>
-</dt>
-<dt>
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406225">How to Transfer Data to USB Isochronous Endpoints</a>
-</dt>
-<dt>
+
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
+<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
+
+<a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
+
  
 
  

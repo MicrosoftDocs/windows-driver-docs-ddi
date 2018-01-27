@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5189ffad-e5dc-4f5a-a7e3-481d36332c81
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PNP_LOCATION_INTERFACE, PNP_LOCATION_INTERFACE, *PPNP_LOCATION_INTERFACE
+ms.keywords: PNP_LOCATION_INTERFACE, PPNP_LOCATION_INTERFACE, *PPNP_LOCATION_INTERFACE, ntddk/PNP_LOCATION_INTERFACE, kernel.pnp_location_interface, ntddk/PPNP_LOCATION_INTERFACE, _PNP_LOCATION_INTERFACE, PPNP_LOCATION_INTERFACE structure pointer [Kernel-Mode Driver Architecture], PNP_LOCATION_INTERFACE structure [Kernel-Mode Driver Architecture], drvr_interface_06c9b5c0-359b-4b14-9ade-8f88f04ee534.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows Server 2003 and later versions of the Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PNP_LOCATION_INTERFACE
-req.alt-loc: Ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: PNP_LOCATION_INTERFACE, *PPNP_LOCATION_INTERFACE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddk.h
+apiname: 
+-	PNP_LOCATION_INTERFACE
+product: Windows
+targetos: Windows
+req.typenames: *PPNP_LOCATION_INTERFACE, PNP_LOCATION_INTERFACE
 ---
 
 # _PNP_LOCATION_INTERFACE structure
 
 
-
 ## -description
+
+
 The <b>PNP_LOCATION_INTERFACE</b> structure describes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546564">GUID_PNP_LOCATION_INTERFACE</a> interface.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PNP_LOCATION_INTERFACE {
@@ -58,6 +68,9 @@ typedef struct _PNP_LOCATION_INTERFACE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -90,24 +103,22 @@ A pointer to the <a href="..\ntddk\nc-ntddk-pget_location_string.md">PnpGetLocat
 
 
 ## -remarks
+
+
 A driver obtains a pointer to the <b>PNP_LOCATION_INTERFACE</b> structure by sending an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a> IRP to its bus driver with <b>InterfaceType</b> set to GUID_PNP_LOCATION_INTERFACE.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nc-ntddk-pget_location_string.md">PnpGetLocationString</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
+
+<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+
  
 
  

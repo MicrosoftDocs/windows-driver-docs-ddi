@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5861efcb-1792-406a-820a-38fbfb283c1f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VIDEO_PORT_CONFIG_INFO, VIDEO_PORT_CONFIG_INFO, *PVIDEO_PORT_CONFIG_INFO
+ms.keywords: video/PVIDEO_PORT_CONFIG_INFO, Video_Structs_5566366c-4ec3-4983-873f-28af2fe51bd6.xml, *PVIDEO_PORT_CONFIG_INFO, video/VIDEO_PORT_CONFIG_INFO, PVIDEO_PORT_CONFIG_INFO, PVIDEO_PORT_CONFIG_INFO structure pointer [Display Devices], display.video_port_config_info, _VIDEO_PORT_CONFIG_INFO, VIDEO_PORT_CONFIG_INFO, VIDEO_PORT_CONFIG_INFO structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VIDEO_PORT_CONFIG_INFO
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	video.h
+apiname: 
+-	VIDEO_PORT_CONFIG_INFO
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_CONFIG_INFO, *PVIDEO_PORT_CONFIG_INFO
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _VIDEO_PORT_CONFIG_INFO structure
 
 
-
 ## -description
+
+
 The VIDEO_PORT_CONFIG_INFO structure contains bus-specific adapter configuration information. This structure is used to set up the video hardware and to supply the video port driver with configuration information. The video port driver can then allocate necessary system resources for the miniport driver and its adapter.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _VIDEO_PORT_CONFIG_INFO {
@@ -82,6 +92,9 @@ typedef struct _VIDEO_PORT_CONFIG_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Length
 
@@ -233,39 +246,26 @@ Pointer to the registry path containing the device's service. The display driver
 Indicates to a driver the amount, in bytes, of physical memory in the system.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-</dt>
-<dt>
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_save_hardware_state.md">IOCTL_VIDEO_SAVE_HARDWARE_STATE</a>
-</dt>
-<dt>
-<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
-</dt>
-<dt>
-<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
-</dt>
-<dt>
-<a href="..\video\nc-video-pvideo_port_get_proc_address.md">VideoPortGetProcAddress</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
-</dt>
-<dt>
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-</dt>
-<dt>
-<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
-</dt>
-</dl>
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_save_hardware_state.md">IOCTL_VIDEO_SAVE_HARDWARE_STATE</a>
+
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+
+<a href="..\video\nc-video-pvideo_port_get_proc_address.md">VideoPortGetProcAddress</a>
+
+<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
+
+<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
+
  
 
  

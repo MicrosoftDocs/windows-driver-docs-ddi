@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 88471e00-4913-44fd-b9f4-960ec46fb75a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _OSVERSIONINFOEXW, OSVERSIONINFOEXW, *LPOSVERSIONINFOEXW, *POSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, OSVERSIONINFOEX
+ms.keywords: PRTL_OSVERSIONINFOEXW structure pointer [Kernel-Mode Driver Architecture], wdm/RTL_OSVERSIONINFOEXW, *POSVERSIONINFOEXW, OSVERSIONINFOEX, OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW structure [Kernel-Mode Driver Architecture], PRTL_OSVERSIONINFOEXW, wdm/PRTL_OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW, _OSVERSIONINFOEXW, *LPOSVERSIONINFOEXW, kstruct_d_a7e48147-5619-4ab4-b83a-18139aa0a2c5.xml, kernel.rtl_osversioninfoexw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RTL_OSVERSIONINFOEXW
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: OSVERSIONINFOEXW, *LPOSVERSIONINFOEXW, *POSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	RTL_OSVERSIONINFOEXW
+product: Windows
+targetos: Windows
+req.typenames: RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, *LPOSVERSIONINFOEXW, *POSVERSIONINFOEXW, OSVERSIONINFOEXW
 req.product: Windows 10 or later.
 ---
 
 # _OSVERSIONINFOEXW structure
 
 
-
 ## -description
+
+
 The <b>RTL_OSVERSIONINFOEXW</b> structure contains operating system version information.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _OSVERSIONINFOEXW {
@@ -64,6 +74,9 @@ typedef struct _OSVERSIONINFOEXW {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwOSVersionInfoSize
 
@@ -108,7 +121,6 @@ The minor version number of the latest service pack installed on the system. For
 ### -field wSuiteMask
 
 The product suites available on the system. This member is set to zero or to the bitwise OR of one or more of the following values.
-
 <table>
 <tr>
 <th>Value</th>
@@ -246,16 +258,12 @@ Windows Home Server is installed.
 
 </td>
 </tr>
-</table>
- 
-
-<div class="alert"><b>Note</b>    You should not rely solely on the VER_SUITE_SMALLBUSINESS flag to determine whether Small Business Server is currently installed. Both this flag and the VER_SUITE_SMALLBUSINESS_RESTRICTED flag are set when this product suite is installed. If you upgrade this installation to Windows Server, Standard Edition, the VER_SUITE_SMALLBUSINESS_RESTRICTED flag is cleared, but the VER_SUITE_SMALLBUSINESS flag remains set, which, in this case, indicates that Small Business Server was previously installed on this system. If this installation is further upgraded to Windows Server, Enterprise Edition, the VER_SUITE_SMALLBUSINESS flag remains set.</div>
-<div> </div>
+</table> 
+<div class="alert"><b>Note</b>    You should not rely solely on the VER_SUITE_SMALLBUSINESS flag to determine whether Small Business Server is currently installed. Both this flag and the VER_SUITE_SMALLBUSINESS_RESTRICTED flag are set when this product suite is installed. If you upgrade this installation to Windows Server, Standard Edition, the VER_SUITE_SMALLBUSINESS_RESTRICTED flag is cleared, but the VER_SUITE_SMALLBUSINESS flag remains set, which, in this case, indicates that Small Business Server was previously installed on this system. If this installation is further upgraded to Windows Server, Enterprise Edition, the VER_SUITE_SMALLBUSINESS flag remains set.</div><div> </div>
 
 ### -field wProductType
 
 The product type. This member contains additional information about the system. This member can be one of the following values: 
-
 <table>
 <tr>
 <th>Value</th>
@@ -291,8 +299,7 @@ Windows 2000 or later server
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field wReserved
@@ -301,6 +308,8 @@ Reserved for future use.
 
 
 ## -remarks
+
+
 The information in this structure includes the major and minor version numbers, the build number, the platform identifier, the installed product suites, and the latest service pack that is installed on the system. This structure is used with the <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a> and <a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a> routines.
 
 Relying on version information is not always the best way to test whether a feature is available. For guidance, refer to the documentation for the feature you are interested in.
@@ -308,80 +317,290 @@ Relying on version information is not always the best way to test whether a feat
 If possible, design the version detection code in your driver to enable the driver to run on future versions of Windows. If your driver requires a particular operating system version, be sure to treat this version as the minimum supported version, and not as the only version on which the driver can run.
 
 The following table summarizes the version information that is returned by supported versions of Windows. Use the information in the "Other" column to distinguish between operating systems with identical version numbers.
-
+<table>
+<tr>
+<th>Operating system</th>
+<th>Version number</th>
+<th>dwMajorVersion</th>
+<th>dwMinorVersion</th>
+<th>Other</th>
+</tr>
+<tr>
+<td>
 Windows 8.1
 
+</td>
+<td>
 6.3
 
+</td>
+<td>
 6
 
+</td>
+<td>
 3
 
+</td>
+<td>
 <b>wProductType</b> == VER_NT_WORKSTATION
 
+</td>
+</tr>
+<tr>
+<td>
 Windows 8
 
+</td>
+<td>
 6.2
 
+</td>
+<td>
+6
+
+</td>
+<td>
 2
 
+</td>
+<td>
+<b>wProductType</b> == VER_NT_WORKSTATION
+
+</td>
+</tr>
+<tr>
+<td>
 Windows Server 2012
 
+</td>
+<td>
+6.2
+
+</td>
+<td>
+6
+
+</td>
+<td>
+2
+
+</td>
+<td>
 <b>wProductType</b> != VER_NT_WORKSTATION
 
+</td>
+</tr>
+<tr>
+<td>
 Windows 7
 
+</td>
+<td>
 6.1
 
+</td>
+<td>
+6
+
+</td>
+<td>
 1
 
+</td>
+<td>
+<b>wProductType</b> == VER_NT_WORKSTATION
+
+</td>
+</tr>
+<tr>
+<td>
 Windows Server 2008 R2
 
+</td>
+<td>
+6.1
+
+</td>
+<td>
+6
+
+</td>
+<td>
+1
+
+</td>
+<td>
+<b>wProductType</b> != VER_NT_WORKSTATION
+
+</td>
+</tr>
+<tr>
+<td>
 Windows Server 2008
 
+</td>
+<td>
 6.0
 
+</td>
+<td>
+6
+
+</td>
+<td>
 0
 
+</td>
+<td>
+<b>wProductType</b> != VER_NT_WORKSTATION
+
+</td>
+</tr>
+<tr>
+<td>
 Windows Vista
 
+</td>
+<td>
+6.0
+
+</td>
+<td>
+6
+
+</td>
+<td>
+0
+
+</td>
+<td>
+<b>wProductType</b> == VER_NT_WORKSTATION
+
+</td>
+</tr>
+<tr>
+<td>
 Windows Home Server
 
+</td>
+<td>
 5.2
 
+</td>
+<td>
 5
 
+</td>
+<td>
+2
+
+</td>
+<td>
 <b>wSuiteMask</b> == VER_SUITE_WH_SERVER
 
+</td>
+</tr>
+<tr>
+<td>
 Windows Server 2003
 
+</td>
+<td>
+5.2
+
+</td>
+<td>
+5
+
+</td>
+<td>
+2
+
+</td>
+<td>
 Not applicable
 
+</td>
+</tr>
+<tr>
+<td>
 Windows XP Professional x64 Edition (see note)
 
+</td>
+<td>
+5.2
+
+</td>
+<td>
+5
+
+</td>
+<td>
+2
+
+</td>
+<td>
 <b>wProductType</b> == VER_NT_WORKSTATION 
 
+</td>
+</tr>
+<tr>
+<td>
 Windows XP
 
+</td>
+<td>
 5.1
 
+</td>
+<td>
+5
+
+</td>
+<td>
+1
+
+</td>
+<td>
+Not applicable
+
+</td>
+</tr>
+<tr>
+<td>
 Windows 2000
 
+</td>
+<td>
 5.0
+
+</td>
+<td>
+5
+
+</td>
+<td>
+0
+
+</td>
+<td>
+Not applicable
+
+</td>
+</tr>
+</table> 
+<div class="alert"><b>Note</b>  Only a 64-bit kernel-mode driver can run on Windows XP Professional x64 Edition. Therefore, a 32-bit kernel-mode driver can safely omit checking for this version of Windows.</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_osversioninfow.md">RTL_OSVERSIONINFOW</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
+
  
 
  

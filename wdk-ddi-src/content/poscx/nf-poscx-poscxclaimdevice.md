@@ -7,8 +7,8 @@ old-location: pos\poscxclaimdevice.htm
 old-project: pos
 ms.assetid: 16EB583C-FB61-4811-A691-3FBD159F8FD0
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PosCxClaimDevice
+ms.date: 1/18/2018
+ms.keywords: PosCxClaimDevice, pos.poscxclaimdevice, poscx/PosCxClaimDevice, PosCxClaimDevice function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PosCxClaimDevice
-req.alt-loc: poscx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	poscx.h
+apiname: 
+-	PosCxClaimDevice
+product: Windows
+targetos: Windows
 req.typenames: POS_CX_EVENT_PRIORITY
 req.product: Windows 10 or later.
 ---
@@ -38,8 +47,9 @@ req.product: Windows 10 or later.
 # PosCxClaimDevice function
 
 
-
 ## -description
+
+
 PosCxClaimDevice is called to claim a device for exclusive use. 
 
 The caller should call <a href="..\poscx\nf-poscx-poscxreleasedevice.md">PosCxReleaseDevice</a> when the device is no longer needed. 
@@ -49,8 +59,8 @@ The caller should call <a href="..\poscx\nf-poscx-poscxreleasedevice.md">PosCxRe
 If the device is already claimed, the caller must wait until access is granted.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PosCxClaimDevice(
@@ -61,6 +71,9 @@ NTSTATUS PosCxClaimDevice(
 
 
 ## -parameters
+
+
+
 
 ### -param device [in]
 
@@ -73,9 +86,26 @@ A handle to a framework request object that represents the request. This request
 
 
 ## -returns
+
+
 Possible return values are:
+<table>
+<tr>
+<td><b>STATUS_SUCCESS</b></td>
+<td>The device was successfully claimed.</td>
+</tr>
+<tr>
+<td><b>STATUS_PENDING</b></td>
+<td>The claim request was queued.</td>
+</tr>
+<tr>
+<td><b>STATUS_DEVICE_NOT_READY</b></td>
+<td>The PosCx library was not successfully initialized.</td>
+</tr>
+<tr>
+<td><b>STATUS_ACCESS_DENIED</b></td>
+<td>The current owner has retained device ownership.</td>
+</tr>
+</table> 
 
- 
 
-
-## -remarks

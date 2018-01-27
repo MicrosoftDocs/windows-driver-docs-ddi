@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b2ced4fb-5104-4bf3-8c6c-bf129e3dff97
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxAssociateContextWithMid
+ms.keywords: RxAssociateContextWithMid, ifsk.rxassociatecontextwithmid, rxref_fdf65b83-9924-4463-bf63-ca28d11f3090.xml, midatlax/RxAssociateContextWithMid, RxAssociateContextWithMid function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxAssociateContextWithMid
-req.alt-loc: midatlax.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
-req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	midatlax.h
+apiname: 
+-	RxAssociateContextWithMid
+product: Windows
+targetos: Windows
+req.typenames: *PMCD_INIT_DATA, MCD_INIT_DATA
 ---
 
 # RxAssociateContextWithMid function
 
 
-
 ## -description
+
+
 <b>RxAssociateContextWithMid</b> associates the supplied opaque context with an available multiplex ID (MID) from a MID_ATLAS. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RxAssociateContextWithMid(
@@ -56,57 +66,96 @@ NTSTATUS RxAssociateContextWithMid(
 
 ## -parameters
 
-### -param pMidAtlas 
-
-A pointer to the MID_ATLAS data structure.
 
 
-### -param pContext 
 
-A pointer to the context.
+### -param MidAtlas
+
+TBD
 
 
-### -param pNewMid 
+### -param Context
+
+TBD
+
+
+### -param NewMid
+
+TBD
+
+
+
+#### - pNewMid
 
 A pointer to the multiplex ID to be associated with the context.
 
 
+#### - pContext
+
+A pointer to the context.
+
+
+#### - pMidAtlas
+
+A pointer to the MID_ATLAS data structure.
+
+
 ## -returns
+
+
 <b>RxAssociateContextWithMid</b> returns STATUS_SUCCESS on success or one of the following error values: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>This error is returned when it was not possible to allocate sufficient memory for the new MID_MAP data structure.
+</dl>
+</td>
+<td width="60%">
+This error is returned when it was not possible to allocate sufficient memory for the new MID_MAP data structure.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>This error is returned for several cases including when the number of MIDs already in use is greater than the maximum number of MIDs set when the MID_ATLAS structure was created.
+</dl>
+</td>
+<td width="60%">
+This error is returned for several cases including when the number of MIDs already in use is greater than the maximum number of MIDs set when the MID_ATLAS structure was created.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 RDBSS defines a Multiplex ID (MID), a 16-bit value, that can be used by both the network client (mini-redirector) and the server to distinguish between the concurrently active requests on any connection. A MID is a component of a MID_ATLAS data structure allocated by calling <b>RxCreateMidAtlas</b>. A MID_MAP data structure is allocated and used for mapping MIDs to RX_CONTEXT data structures. <b>RxAssociateContextWithMid</b> allocates non-paged pool memory when creating a new MID_MAP data structure.
 
 The <i>pContext</i> parameter can be any opaque context but it is commonly an RX_CONTEXT. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
-</dt>
-<dt>
-<a href="..\midatlax\nf-midatlax-rxdestroymidatlas.md">RxDestroyMidAtlas</a>
-</dt>
-<dt>
-<a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
-</dt>
-<dt>
+
 <a href="..\midatlax\nf-midatlax-rxmapanddissociatemidfromcontext.md">RxMapAndDissociateMidFromContext</a>
-</dt>
-<dt>
+
+<a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
+
+<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
+
 <a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
-</dt>
-</dl>
+
+<a href="..\midatlax\nf-midatlax-rxdestroymidatlas.md">RxDestroyMidAtlas</a>
+
  
 
  

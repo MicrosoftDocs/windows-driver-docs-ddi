@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c7060b86-8ff6-4229-94e0-7965ae59aa90
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: SeDeassignSecurity
+ms.keywords: wdm/SeDeassignSecurity, k110_9c1ca048-addd-4343-bfee-34e905b143b3.xml, SeDeassignSecurity, SeDeassignSecurity routine [Kernel-Mode Driver Architecture], kernel.sedeassignsecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SeDeassignSecurity
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	SeDeassignSecurity
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,14 +47,15 @@ req.product: Windows 10 or later.
 # SeDeassignSecurity function
 
 
-
 ## -description
+
+
 The  
    <b>SeDeassignSecurity</b> routine deallocates the memory associated with a security descriptor that was assigned using <b>SeAssignSecurity</b>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SeDeassignSecurity(
@@ -56,27 +66,27 @@ NTSTATUS SeDeassignSecurity(
 
 ## -parameters
 
+
+
+
 ### -param SecurityDescriptor [in, out]
 
 Pointer to the buffered <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> being released.
 
 
 ## -returns
+
+
 If the deallocation succeeds, <b>SeDeassignSecurity</b> returns STATUS_SUCCESS.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9d9b4bba-0216-48cf-81aa-160b7252ba20
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FLT_RELATED_CONTEXTS, *PFLT_RELATED_CONTEXTS, FLT_RELATED_CONTEXTS
+ms.keywords: PFLT_RELATED_CONTEXTS structure pointer [Installable File System Drivers], FLT_RELATED_CONTEXTS structure [Installable File System Drivers], _FLT_RELATED_CONTEXTS, FltSystemStructures_a7a436e2-2a17-41a2-97db-d6bae407d139.xml, PFLT_RELATED_CONTEXTS, *PFLT_RELATED_CONTEXTS, FLT_RELATED_CONTEXTS, fltkernel/PFLT_RELATED_CONTEXTS, ifsk.flt_related_contexts, fltkernel/FLT_RELATED_CONTEXTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FLT_RELATED_CONTEXTS
-req.alt-loc: fltkernel.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PFLT_RELATED_CONTEXTS, FLT_RELATED_CONTEXTS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	fltkernel.h
+apiname: 
+-	FLT_RELATED_CONTEXTS
+product: Windows
+targetos: Windows
+req.typenames: FLT_RELATED_CONTEXTS, *PFLT_RELATED_CONTEXTS
 ---
 
 # _FLT_RELATED_CONTEXTS structure
 
 
-
 ## -description
+
+
 The <b>FLT_RELATED_CONTEXTS</b> structure contains a minifilter driver's contexts for the objects associated with an I/O operation. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FLT_RELATED_CONTEXTS {
@@ -58,6 +68,9 @@ typedef struct _FLT_RELATED_CONTEXTS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field VolumeContext
 
@@ -90,6 +103,8 @@ On Windows Vista and later, this member is an opaque pointer to the minifilter's
 
 
 ## -remarks
+
+
 The <b>FLT_RELATED_CONTEXTS</b> structure contains a minifilter driver's contexts for the objects associated with an I/O operation or an instance setup or teardown operation. 
 
 A minifilter driver uses the <b>FLT_RELATED_CONTEXTS</b> structure to retrieve multiple contexts for a given operation. To do so, the minifilter driver allocates an empty <b>FLT_RELATED_CONTEXTS</b> structure and passes a pointer to it as the <i>Contexts</i> parameter to <a href="..\fltkernel\nf-fltkernel-fltgetcontexts.md">FltGetContexts</a>. 
@@ -99,24 +114,19 @@ A minifilter can also use this structure to release multiple contexts for a give
 For more information about using contexts, see the reference entry for <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
-</dt>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetcontexts.md">FltGetContexts</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltreleasecontexts.md">FltReleaseContexts</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetcontexts.md">FltGetContexts</a>
+
  
 
  

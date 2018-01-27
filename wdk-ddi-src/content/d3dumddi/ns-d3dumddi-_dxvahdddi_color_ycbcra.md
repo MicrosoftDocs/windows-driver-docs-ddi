@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e2a624e9-599e-4325-820b-945b3e649323
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVAHDDDI_COLOR_YCbCrA, DXVAHDDDI_COLOR_YCbCrA
+ms.keywords: DXVAHDDDI_COLOR_YCbCrA, display.dxvahdddi_color_ycbcra, d3dumddi/DXVAHDDDI_COLOR_YCbCrA, DXVA2_Structs_28a4ec5c-f8e6-414b-ac91-846e3b0fdbf8.xml, DXVAHDDDI_COLOR_YCbCrA structure [Display Devices], _DXVAHDDDI_COLOR_YCbCrA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: DXVAHDDDI_COLOR_YCbCrA is supported beginning with th
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVAHDDDI_COLOR_YCbCrA
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVAHDDDI_COLOR_YCbCrA
+product: Windows
+targetos: Windows
 req.typenames: DXVAHDDDI_COLOR_YCbCrA
 ---
 
 # _DXVAHDDDI_COLOR_YCbCrA structure
 
 
-
 ## -description
+
+
 The DXVAHDDDI_COLOR_YCbCrA structure describes color in YCbCr terms.  
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVAHDDDI_COLOR_YCbCrA {
@@ -56,6 +66,9 @@ typedef struct _DXVAHDDDI_COLOR_YCbCrA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Y
 
@@ -78,17 +91,18 @@ typedef struct _DXVAHDDDI_COLOR_YCbCrA {
 
 
 ## -remarks
+
+
 The setting of DXVAHDDDI_COLOR_YCbCrA for YCbCr black with opaque alpha is (0.0625, 0.5, 0.5, 1.0), which is (16, 128, 128, 255) when 8-bit presentation is used.
 
 A DXVAHDDDI_COLOR_YCbCrA structure is specified in the <b>YCbCr</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color.md">DXVAHDDDI_COLOR</a> union to specify the color in YCbCr terms.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color.md">DXVAHDDDI_COLOR</a>
-</dt>
-</dl>
+
  
 
  

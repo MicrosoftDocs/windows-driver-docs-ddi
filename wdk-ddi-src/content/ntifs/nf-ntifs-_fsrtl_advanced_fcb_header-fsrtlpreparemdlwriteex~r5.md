@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6A9BBBAD-F6D1-49A4-9FBA-7F263C1793F0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlPrepareMdlWriteEx
+ms.keywords: FsRtlPrepareMdlWriteEx routine [Installable File System Drivers], ntifs/FsRtlPrepareMdlWriteEx, FsRtlPrepareMdlWriteEx, ifsk.fsrtlpreparemdlwriteex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlPrepareMdlWriteEx
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlPrepareMdlWriteEx
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlPrepareMdlWriteEx function
 
 
-
 ## -description
+
+
 The <b>FsRtlPrepareMdlWriteEx</b> routine returns a linked list of memory descriptor lists (MDLs) that point to the specified range of cached file data to write data directly to the cache. If the cache support for the write is not available, the routine reverts to an IRP based MDL write operation.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlPrepareMdlWriteEx(
@@ -58,6 +68,9 @@ NTSTATUS FsRtlPrepareMdlWriteEx(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -90,15 +103,32 @@ A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> 
 
 
 ## -returns
+
+
 <b>FsRtlPrepareMdlWriteEx</b> returns <b>STATUS_SUCCESS</b> or an appropriate <b>NTSTATUS</b> value, such as one of the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>An IRP for the IRP based write could not be allocated.
+</dl>
+</td>
+<td width="60%">
+An IRP for the IRP based write could not be allocated.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 If fast I/O is available for the file system, the <b>FsRtlPrepareMdlWriteEx</b> routine will bypass the usual IRP write mechanism and return a linked list of memory descriptor lists (MDL) that the caller can use to write data directly to the file cache. Instead of copying data buffered data into the cache, the physical pages that the caller will overwrite are locked in memory and can be written to directly. <b>FsRtlPrepareMdlWriteEx</b> returns one or more memory descriptor lists (MDLs) that point to the specified byte range.
 
  If fast I/O is not enabled, <b>FsRtlPrepareMdlWriteEx</b> will generate a synchronous IRP based MDL write prepare and return the MDLs allocated from the request.
@@ -108,18 +138,15 @@ The pages that the MDLs point to are locked in memory, but are not mapped in sys
 Each call to <b>FsRtlPrepareMdlWriteEx</b> must be followed by a call to <a href="..\ntifs\nf-ntifs-ccmdlwritecomplete.md">CcMdlWriteComplete</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccmdlwritecomplete.md">CcMdlWriteComplete</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-ccmdlwritecomplete.md">CcMdlWriteComplete</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
-</dt>
-</dl>
+
  
 
  

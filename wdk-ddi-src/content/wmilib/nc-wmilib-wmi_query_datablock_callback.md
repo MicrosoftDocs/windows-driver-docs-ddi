@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c8996367-9ac5-4725-93ff-f13a334fbc5a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _WMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR
+ms.keywords: kernel.dpwmiquerydatablock, DpWmiQueryDataBlock, DpWmiQueryDataBlock callback function [Kernel-Mode Driver Architecture], DpWmiQueryDataBlock, WMI_QUERY_DATABLOCK_CALLBACK, WMI_QUERY_DATABLOCK_CALLBACK, wmilib/DpWmiQueryDataBlock, k903_9a558594-4fe5-4e18-823a-8b487e1770d9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DpWmiQueryDataBlock
-req.alt-loc: Wmilib.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-req.typenames: WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wmilib.h
+apiname: 
+-	DpWmiQueryDataBlock
+product: Windows
+targetos: Windows
+req.typenames: *PWMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR
 req.product: Windows 10 or later.
 ---
 
 # WMI_QUERY_DATABLOCK_CALLBACK callback
 
 
-
 ## -description
+
+
 The <i>DpWmiQueryDataBlock</i> routine returns either a single instance or all instances of a data block. This routine is required.
 
 
-
 ## -prototype
+
 
 ````
 WMI_QUERY_DATABLOCK_CALLBACK DpWmiQueryDataBlock;
@@ -64,6 +74,9 @@ NTSTATUS DpWmiQueryDataBlock(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceObject [in]
 
@@ -106,52 +119,57 @@ Pointer to the buffer to receive instance data. If the buffer is large enough to
 
 
 ## -returns
+
+
 <i>DpWmiQueryDataBlock</i> returns STATUS_SUCCESS or an error status such as the following:
-<dl>
-<dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-<dt><b>STATUS_WMI_GUID_NOT_FOUND</b></dt>
-<dt><b>STATUS_WMI_INSTANCE_NOT_FOUND</b></dt>
-</dl>If the driver cannot complete the request immediately, it can return STATUS_PENDING.
+
+If the driver cannot complete the request immediately, it can return STATUS_PENDING.
+
 
 
 ## -remarks
+
+
 WMI calls a driver's <i>DpWmiQueryDataBlock</i> routine after the driver calls <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a> in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551718">IRP_MN_QUERY_SINGLE_INSTANCE</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a> request. The driver must place the address of its <i>DpWmiQueryDataBlock</i> routine in the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure that it passes to <b>WmiSystemControl</b>.
 
 The driver is responsible for validating all input arguments. Specifically, the driver must do the following:
-
+<ul>
+<li>
 Verify that the <i>GuidIndex</i> value is between zero and GuidCount-1, based on the <b>GuidCount</b> member of the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure.
 
+</li>
+<li>
 Verify that the driver has not flagged the specified data block for removal. If the driver recently specified the WMIREG_FLAG_REMOVE_GUID flag in a <a href="..\wmilib\ns-wmilib-_wmiguidreginfo.md">WMIGUIDREGINFO</a> structure that is contained in a <b>WMILIB_CONTEXT</b> structure, it is possible for a query to arrive before the removal occurs.
 
+</li>
+<li>
 Verify that the <i>InstanceIndex</i> and <i>InstanceCount</i> values, together, specify a number of data block instances that is within the range supported by the driver for the data block. If <i>InstanceIndex</i> is nonzero, <i>InstanceCount</i> must be 1. If <i>InstanceIndex</i> is 0, <i>InstanceCount</i> must not be greater than the number of instances supported.
 
+</li>
+<li>
 Verify that the buffer described by <i>Buffer</i> and <i>BufferAvail</i> is large enough to hold all requested instances of the data block. Each instance must begin on an 8-byte boundary, and additional padding might exist between data items within each instance.
 
-After writing instance data to the buffer, the driver calls <a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a> to complete the request. If the buffer described by <i>Buffer</i> and <i>BufferAvail</i> is zero, or is too small to receive all the requested data, the call to <b>WmiCompleteRequest</b> must specify STATUS_BUFFER_TOO_SMALL for the <i>Status</i> parameter and the required buffer size for the <i>BufferUsed</i> parameter.
+</li>
+</ul>After writing instance data to the buffer, the driver calls <a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a> to complete the request. If the buffer described by <i>Buffer</i> and <i>BufferAvail</i> is zero, or is too small to receive all the requested data, the call to <b>WmiCompleteRequest</b> must specify STATUS_BUFFER_TOO_SMALL for the <i>Status</i> parameter and the required buffer size for the <i>BufferUsed</i> parameter.
 
 This routine can be pageable.
 
 For more information about implementing this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540741">Calling WmiSystemControl to Handle WMI IRPs</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551718">IRP_MN_QUERY_SINGLE_INSTANCE</a>
-</dt>
-<dt>
-<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
-</dt>
-<dt>
+
 <a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a>
-</dt>
-<dt>
+
 <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
-</dt>
-</dl>
+
+<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551718">IRP_MN_QUERY_SINGLE_INSTANCE</a>
+
  
 
  

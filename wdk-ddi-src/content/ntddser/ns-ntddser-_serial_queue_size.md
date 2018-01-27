@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 5EEE0B7D-2857-42D1-A387-9D38DAC2E368
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _SERIAL_QUEUE_SIZE, SERIAL_QUEUE_SIZE, *PSERIAL_QUEUE_SIZE
+ms.keywords: ntddser/SERIAL_QUEUE_SIZE, *PSERIAL_QUEUE_SIZE, serports.serial_queue_size, _SERIAL_QUEUE_SIZE, PSERIAL_QUEUE_SIZE structure pointer [Serial Ports], ntddser/PSERIAL_QUEUE_SIZE, PSERIAL_QUEUE_SIZE, SERIAL_QUEUE_SIZE, SERIAL_QUEUE_SIZE structure [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SERIAL_QUEUE_SIZE
-req.alt-loc: Ntddser.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: SERIAL_QUEUE_SIZE, *PSERIAL_QUEUE_SIZE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddser.h
+apiname: 
+-	SERIAL_QUEUE_SIZE
+product: Windows
+targetos: Windows
+req.typenames: *PSERIAL_QUEUE_SIZE, SERIAL_QUEUE_SIZE
 ---
 
 # _SERIAL_QUEUE_SIZE structure
 
 
-
 ## -description
+
+
 The <b>SERIAL_QUEUE_SIZE</b> structure is used to resize the input buffer that the serial controller driver uses for serial receive operations.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SERIAL_QUEUE_SIZE {
@@ -54,6 +64,9 @@ typedef struct _SERIAL_QUEUE_SIZE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field InSize
 
@@ -66,18 +79,18 @@ Not used. Set to zero.
 
 
 ## -remarks
+
+
 This structure is used by <a href="..\ntddser\ni-ntddser-ioctl_serial_set_queue_size.md">IOCTL_SERIAL_SET_QUEUE_SIZE</a> requests to specify the size requested for the new input buffer. This buffer is used internally by the serial controller driver to hold data received from the serial controller until the data can be copied to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a> request packet. If the requested buffer size is greater than the current receive buffer size, a new receive buffer is created. Otherwise, the receive buffer is not changed.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddser\ni-ntddser-ioctl_serial_set_queue_size.md">IOCTL_SERIAL_SET_QUEUE_SIZE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
-</dt>
-</dl>
+
  
 
  

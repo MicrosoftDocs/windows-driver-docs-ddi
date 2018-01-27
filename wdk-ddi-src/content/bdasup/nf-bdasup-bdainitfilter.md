@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d6f5c6e5-d944-42a6-bfc2-decc7606cba1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BdaInitFilter
+ms.keywords: BdaInitFilter function [Streaming Media Devices], bdasup/BdaInitFilter, BdaInitFilter, stream.bdainitfilter, bdaref_9ad4e7ef-1880-4233-83c5-4d066c8f26e5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available on Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BdaInitFilter
-req.alt-loc: Bdasup.lib,Bdasup.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Bdasup.lib
+-	Bdasup.dll
+apiname: 
+-	BdaInitFilter
+product: Windows
+targetos: Windows
 req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 ---
 
 # BdaInitFilter function
 
 
-
 ## -description
+
+
 The <b>BdaInitFilter</b> function initializes the BDA filter context associated with a filter instance. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS BdaInitFilter(
@@ -54,6 +65,9 @@ NTSTATUS BdaInitFilter(
 
 
 ## -parameters
+
+
+
 
 ### -param pKSFilter [in]
 
@@ -66,30 +80,31 @@ Points to a <a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEM
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS or an appropriate error code. 
 
 
+
 ## -remarks
+
+
 A BDA minidriver calls the <b>BdaInitFilter</b> function to initialize an instance of a filter using a specific BDA filter template and a filter factory that was previously created through a call to the <a href="..\bdasup\nf-bdasup-bdacreatefilterfactory.md">BdaCreateFilterFactory</a> function. The BDA minidriver can subsequently use this filter instance in calls to other BDA support functions, such as, <a href="..\bdasup\nf-bdasup-bdacreatepin.md">BdaCreatePin</a>. 
 
 When a BDA minidriver calls <b>BdaInitFilter</b>, the BDA support driver (<i>Bdasup.sys</i>) creates its own BDA filter context. This BDA filter context is hidden from the BDA minidriver. However, when required, the BDA support driver can access this BDA filter context. The BDA support driver adds a pointer to this BDA filter context to the object bag for the associated <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> object. When the associated KSFILTER object is destroyed, AVStream requests that the BDA support driver delete this BDA filter context from the object bag. In this way, the BDA support driver can destroy this BDA filter context without requiring intervention by the BDA minidriver. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bdasup\nf-bdasup-bdacreatefilterfactory.md">BdaCreateFilterFactory</a>
-</dt>
-<dt>
-<a href="..\bdasup\nf-bdasup-bdacreatepin.md">BdaCreatePin</a>
-</dt>
-<dt>
-<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
-</dt>
-</dl>
+
+<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
+
+<a href="..\bdasup\nf-bdasup-bdacreatepin.md">BdaCreatePin</a>
+
  
 
  

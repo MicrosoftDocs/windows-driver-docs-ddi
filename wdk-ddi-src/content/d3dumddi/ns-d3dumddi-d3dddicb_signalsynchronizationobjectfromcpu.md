@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 14CA5FD1-00CB-474B-A2A3-4264CAFA063A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
+ms.keywords: display.d3dddicb_signalsynchronizationobjectfromcpu, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
 ---
 
 # D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure
 
 
-
 ## -description
+
+
 <b>D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectfromcpucb.md">pfnSignalSynchronizationObjectFromCpuCb</a> to enable a driver to signal a monitored fence.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU {
@@ -55,6 +65,9 @@ typedef struct D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ObjectCount
 
@@ -71,15 +84,10 @@ typedef struct D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU {
 [in] An array of 64 bit monitored fence values to signal, each corresponding to an object in the <b>ObjectHandleArray</b>.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectfromcpucb.md">pfnSignalSynchronizationObjectFromCpuCb</a>
-</dt>
-</dl>
+
  
 
  

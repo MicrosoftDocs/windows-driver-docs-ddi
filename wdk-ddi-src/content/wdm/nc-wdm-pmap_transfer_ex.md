@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9F6A20F0-94B1-4DA2-9FEA-F44D6AFDD16D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+ms.keywords: kernel.maptransferex, MapTransferEx, MapTransferEx callback function [Kernel-Mode Driver Architecture], MapTransferEx, PMAP_TRANSFER_EX, PMAP_TRANSFER_EX, wdm/MapTransferEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MapTransferEx
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wdm.h
+apiname: 
+-	MapTransferEx
+product: Windows
+targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PMAP_TRANSFER_EX callback
 
 
-
 ## -description
+
+
 The <b>MapTransferEx</b> routine sets up map registers to map the physical addresses in a scatter/gather list to the logical addresses that are required to do a DMA transfer.
 
 
-
 ## -prototype
+
 
 ````
 PMAP_TRANSFER_EX MapTransferEx;
@@ -67,6 +77,9 @@ NTSTATUS MapTransferEx(
 
 
 ## -parameters
+
+
+
 
 ### -param DmaAdapter [in]
 
@@ -124,24 +137,65 @@ The driver-determined context for the <i>DmaCompletionRoutine</i> routine. This 
 
 
 ## -returns
+
+
 <b>MapTransferEx</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following status codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETERS</b></dt>
-</dl>The routine failed due to invalid parameter values passed by the caller.
+</dl>
+</td>
+<td width="60%">
+The routine failed due to invalid parameter values passed by the caller.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The caller-supplied buffer in <i>ScatterGatherBuffer</i> is too small to contain the scatter/gather list.
+</dl>
+</td>
+<td width="60%">
+The caller-supplied buffer in <i>ScatterGatherBuffer</i> is too small to contain the scatter/gather list.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>The routine failed to allocate resources required for the DMA transfer.
+</dl>
+</td>
+<td width="60%">
+The routine failed to allocate resources required for the DMA transfer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_CANCELLED</b></dt>
-</dl>This transfer was canceled.
+</dl>
+</td>
+<td width="60%">
+This transfer was canceled.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>MapTransferEx</b><i> is not a system routine that can be called directly by name. This routine can be called only by pointer from the address returned in a </i><a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a><i> structure. </i>Drivers obtain the address of this routine by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> with the <b>Version</b> member of the <i>DeviceDescription</i> parameter set to DEVICE_DESCRIPTION_VERSION3. If <b>IoGetDmaAdapter</b> returns <b>NULL</b>, the routine is not available on your platform.
 
 For a transfer that uses a system DMA controller, the caller can, as an option, supply a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450991">DmaCompletionRoutine</a> callback routine that is called when the transfer finishes. The operating system schedules this callback in response to the DMA completion interrupt from the system DMA controller.
@@ -150,7 +204,7 @@ The number of map registers that can be set up by <b>MapTransferEx</b> cannot ex
 
 The <i>Mdl</i>, <i>Offset</i>, and <i>Length</i> parameters describe the I/O data buffer for the requested DMA transfer. The number of allocated map registers might not be sufficient to map all of the memory in this buffer, or the scatter/gather buffer pointed to by <i>ScatterGatherBuffer</i> might not be large enough to describe the entire buffer. <b>MapTransferEx</b> writes an output value to *<i>Length</i> to tell the driver how much of the buffer memory for the requested DMA transfer was mapped by the routine. The routine writes a scatter/gather list to the buffer pointed to by <i>ScatterGatherBuffer</i>. This list describes the buffer fragments that were successfully mapped by the routine.
 
-If a call to <b>MapTransferEx</b> is successful, <b>MapTransferEx</b> writes the *<i>Length</i> output value before it returns. If the caller specifies a <i>DmaCompletionRoutine</i>, the updated *<i>Length</i> output value is always written before the <i>DmaCompletionRoutine</i> runs. For more information, see <a href="kernel.using_the_maptransferex_routine#multiple_calls_to_maptransferex#multiple_calls_to_maptransferex">Multiple calls to <b>MapTransferEx</b></a>.
+If a call to <b>MapTransferEx</b> is successful, <b>MapTransferEx</b> writes the *<i>Length</i> output value before it returns. If the caller specifies a <i>DmaCompletionRoutine</i>, the updated *<i>Length</i> output value is always written before the <i>DmaCompletionRoutine</i> runs. For more information, see <a href="https://msdn.microsoft.com/79D3DDB2-B134-43B2-A6CC-94035C793047">Multiple calls to MapTransferEx</a>.
 
 The <i>Offset</i> parameter specifies the starting offset in the MDL chain that describes the memory in the I/O data buffer. For example, assume that the MDL chain contains two MDLs, MDL₁ and MDL₂, and that MDL₁ describes N₁ bytes of memory, and MDL₂ describes N₂ bytes. If <i>Offset</i> = N, where N₁ &lt; N &lt; N₁ + N₂, the buffer contains none of the memory described by MDL₁, and starts at an offset of N - N₁ bytes in the memory described by MDL₂.
 
@@ -159,57 +213,59 @@ If the transfer uses a system DMA controller, the caller can set <i>ScatterGathe
 If <i>ScatterGatherBuffer</i> is non-NULL and <i>ScatterGatherBufferSize</i> specifies a size that is too small to contain a scatter/gather list of at least one element, <b>MapTransferEx</b> fails and returns STATUS_INVALID_PARAMETER.
 
 <b>MapTransferEx</b> is an extended version of the <a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a> routine. The extended version has these advantages:
-
+<ul>
+<li>
 <b>MapTransferEx</b> can process all of the buffer fragments in an MDL chain in one call, but <b>MapTransfer</b> can process only one physically contiguous buffer fragment per call.
 
+</li>
+<li>
 <b>MapTransferEx</b> can generate an entire scatter/gather list in one call, but <b>MapTransfer</b> can generate only one scatter/gather list element per call.
 
+</li>
+<li>
 <b>MapTransferEx</b> can map all of the buffer fragments in a scatter/gather list in one call, but <b>MapTransfer</b> can map only one physically contiguous buffer fragment per call.
 
+</li>
+<li>
 <b>MapTransferEx</b> requires only the starting offset for the entire scatter/gather list, but <b>MapTransfer</b> requires a starting virtual address for each physically contiguous buffer fragment.
 
+</li>
+<li>
 A <b>MapTransferEx</b> call can map a buffer that extends through one or more MDLs, but a <b>MapTransfer</b> call can map only one physically contiguous buffer fragment in the memory that is described by an MDL.
 
+</li>
+<li>
 For a system DMA transfer, <b>MapTransferEx</b> enables the caller to supply a <i>DmaCompletionRoutine</i> callback routine to receive notification after the transfer completes, but <b>MapTransfer</b> does not provide a way to notify the caller when a DMA transfer completes.
 
-Each successful call to <b>MapTransferEx</b> must be followed by a corresponding call to the <a href="..\wdm\nc-wdm-pflush_adapter_buffers_ex.md">FlushAdapterBuffersEx</a> routine. The <b>FlushAdapterBuffersEx</b> call that follows a <b>MapTransferEx</b> call must occur before the next <b>MapTransferEx</b> call occurs. The <b>FlushAdapterBuffersEx</b> call is required even if a call to the <a href="..\wdm\nc-wdm-pcancel_mapped_transfer.md">CancelMappedTransfer</a> routine succeeds in canceling the mapped transfer requested by the preceding <b>MapTransferEx</b> call.
+</li>
+</ul>Each successful call to <b>MapTransferEx</b> must be followed by a corresponding call to the <a href="..\wdm\nc-wdm-pflush_adapter_buffers_ex.md">FlushAdapterBuffersEx</a> routine. The <b>FlushAdapterBuffersEx</b> call that follows a <b>MapTransferEx</b> call must occur before the next <b>MapTransferEx</b> call occurs. The <b>FlushAdapterBuffersEx</b> call is required even if a call to the <a href="..\wdm\nc-wdm-pcancel_mapped_transfer.md">CancelMappedTransfer</a> routine succeeds in canceling the mapped transfer requested by the preceding <b>MapTransferEx</b> call.
 
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh825928">Using the MapTransferEx Routine</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-pcalculate_scatter_gather_list_size.md">CalculateScatterGatherList</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-pcancel_mapped_transfer.md">CancelMappedTransfer</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450991">DmaCompletionRoutine</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-pflush_adapter_buffers_ex.md">FlushAdapterBuffersEx</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-pget_dma_transfer_info.md">GetDmaTransferInfo</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450991">DmaCompletionRoutine</a>
+
+<a href="..\wdm\nc-wdm-pflush_adapter_buffers_ex.md">FlushAdapterBuffersEx</a>
+
+<a href="..\wdm\nc-wdm-pcancel_mapped_transfer.md">CancelMappedTransfer</a>
+
+<a href="..\wdm\nc-wdm-pcalculate_scatter_gather_list_size.md">CalculateScatterGatherList</a>
+
+<a href="..\wdm\nc-wdm-pget_dma_transfer_info.md">GetDmaTransferInfo</a>
+
+<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
+
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+
  
 
  

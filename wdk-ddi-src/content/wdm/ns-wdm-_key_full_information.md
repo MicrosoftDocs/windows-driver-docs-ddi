@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dd099435-e3e3-4d78-a829-0f12f2db46d9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _KEY_FULL_INFORMATION, *PKEY_FULL_INFORMATION, KEY_FULL_INFORMATION
+ms.keywords: *PKEY_FULL_INFORMATION, kernel.key_full_information, wdm/KEY_FULL_INFORMATION, wdm/PKEY_FULL_INFORMATION, kstruct_c_1b9700b5-eedf-4f0f-8b73-bf4b9cfa0ccd.xml, PKEY_FULL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PKEY_FULL_INFORMATION, _KEY_FULL_INFORMATION, KEY_FULL_INFORMATION, KEY_FULL_INFORMATION structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KEY_FULL_INFORMATION
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PKEY_FULL_INFORMATION, KEY_FULL_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	KEY_FULL_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: KEY_FULL_INFORMATION, *PKEY_FULL_INFORMATION
 req.product: Windows 10 or later.
 ---
 
 # _KEY_FULL_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>KEY_FULL_INFORMATION</b> structure defines the information available for a registry key, including information about its subkeys and the maximum length for their names and value entries. This information can be used to size buffers to get the names of subkeys and their value entries.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _KEY_FULL_INFORMATION {
@@ -64,6 +74,9 @@ typedef struct _KEY_FULL_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field LastWriteTime
 
@@ -121,36 +134,30 @@ An array of wide characters that contains the name of the class of the key. This
 
 
 ## -remarks
+
+
 The <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a> and <a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a> routines use the <b>KEY_FULL_INFORMATION</b> structure to contain the full information for a registry key. When the <i>KeyInformationClass</i> parameter of either routine is <b>KeyFullInformation</b>, the <i>KeyInformation</i> buffer is treated as a <b>KEY_FULL_INFORMATION</b> structure.  For more information about the <b>KeyFullInformation</b> enumeration value, see <a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
+
+<a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a>
+
 <a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+
+<a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
+
+<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
+
  
 
  

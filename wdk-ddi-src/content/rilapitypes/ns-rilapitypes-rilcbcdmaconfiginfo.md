@@ -7,8 +7,8 @@ old-location: netvista\rilcbcdmaconfiginfo_2.htm
 old-project: netvista
 ms.assetid: a12254b0-fb4d-49ff-a046-cae99c12f535
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCBCDMACONFIGINFO, *LPRILCBCDMACONFIGINFO, RILCBCDMACONFIGINFO
+ms.date: 1/18/2018
+ms.keywords: rilapitypes/RILCBCDMACONFIGINFO, RILCBCDMACONFIGINFO, *LPRILCBCDMACONFIGINFO, netvista.rilcbcdmaconfiginfo_2, RILCBCDMACONFIGINFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCBCDMACONFIGINFO
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILCBCDMACONFIGINFO, RILCBCDMACONFIGINFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILCBCDMACONFIGINFO
+product: Windows
+targetos: Windows
+req.typenames: RILCBCDMACONFIGINFO, *LPRILCBCDMACONFIGINFO
 req.product: Windows 10 or later.
 ---
 
 # RILCBCDMACONFIGINFO structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILCBCDMACONFIGINFO {
@@ -57,13 +67,17 @@ typedef struct _RILCBCDMACONFIGINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field fAccept
+
 
 
 ### -field dwBroadcastMsgLang
 
 
+
 ### -field dwBroadcastServiceCategory
 
 
-## -remarks

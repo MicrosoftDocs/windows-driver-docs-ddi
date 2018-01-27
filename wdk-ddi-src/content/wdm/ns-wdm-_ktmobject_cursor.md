@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0cfcd019-0c5b-4635-859f-741a6e4aa91d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _KTMOBJECT_CURSOR, KTMOBJECT_CURSOR, *PKTMOBJECT_CURSOR
+ms.keywords: PKTMOBJECT_CURSOR structure pointer [Kernel-Mode Driver Architecture], KTMOBJECT_CURSOR, wdm/KTMOBJECT_CURSOR, PKTMOBJECT_CURSOR, ktm_ref_dab40de2-cd5f-4f13-93e8-5baa3b9cc37f.xml, wdm/PKTMOBJECT_CURSOR, _KTMOBJECT_CURSOR, *PKTMOBJECT_CURSOR, kernel.ktmobject_cursor, KTMOBJECT_CURSOR structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later operating system
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KTMOBJECT_CURSOR
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: KTMOBJECT_CURSOR, *PKTMOBJECT_CURSOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	KTMOBJECT_CURSOR
+product: Windows
+targetos: Windows
+req.typenames: *PKTMOBJECT_CURSOR, KTMOBJECT_CURSOR
 req.product: Windows 10 or later.
 ---
 
 # _KTMOBJECT_CURSOR structure
 
 
-
 ## -description
+
+
 The <b>KTMOBJECT_CURSOR</b> structure receives enumeration information about KTM objects when a component calls <a href="..\wdm\nf-wdm-zwenumeratetransactionobject.md">ZwEnumerateTransactionObject</a>. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _KTMOBJECT_CURSOR {
@@ -56,6 +66,9 @@ typedef struct _KTMOBJECT_CURSOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field LastQuery
 
@@ -73,15 +86,16 @@ A caller-allocated array of GUID-typed elements. After <b>ZwEnumerateTransaction
 
 
 ## -remarks
+
+
 The <b>KTMOBJECT_CURSOR</b> structure is used at the beginning of buffers that callers pass to the <b>ZwEnumerateTransactionObject</b> routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwenumeratetransactionobject.md">ZwEnumerateTransactionObject</a>
-</dt>
-</dl>
+
  
 
  

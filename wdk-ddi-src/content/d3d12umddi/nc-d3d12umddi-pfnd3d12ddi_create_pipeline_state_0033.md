@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F8255544-D5B6-4692-BDC0-EF5A2B856153
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA
+ms.keywords: display.pfnd3d12ddi_create_pipeline_state_0033, PFND3D12DDI_CREATE_PIPELINE_STATE_0033 entry point [Display Devices], PFND3D12DDI_CREATE_PIPELINE_STATE_0033, d3d12umddi/PFND3D12DDI_CREATE_PIPELINE_STATE_0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PFND3D12DDI_CREATE_PIPELINE_STATE_0033
-req.alt-loc: d3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d12umddi.h
+apiname: 
+-	PFND3D12DDI_CREATE_PIPELINE_STATE_0033
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
 
 # PFND3D12DDI_CREATE_PIPELINE_STATE_0033 callback
 
 
-
 ## -description
+
+
 Used to create a pipeline state.
 
 
-
 ## -prototype
+
 
 ````
 HRESULT APIENTRY* PFND3D12DDI_CREATE_PIPELINE_STATE_0033(
@@ -57,28 +67,51 @@ HRESULT APIENTRY* PFND3D12DDI_CREATE_PIPELINE_STATE_0033(
 
 ## -parameters
 
-### -param d3d12ddi_hdevice 
+
+
+
+### -param D3D12DDI_HDEVICE
+
+
+
+### -param *
+
+
+
+### -param D3D12DDI_HPIPELINESTATE
+
+
+
+### -param D3D12DDI_HRTPIPELINESTATE
+
+
+
+
+
+
+#### - d3d12ddi_hrtpipelinestate
+
+Used to create a pipeline state.
+
+
+#### - d3d12ddi_hpipelinestate
+
+Used to create a pipeline state.
+
+
+#### - d3d12ddi_hdevice
 
 The hardware device being processed.
 
 
-### -param d3d12ddiarg_create_pipeline_state_0033 [in]
+#### - d3d12ddiarg_create_pipeline_state_0033 [in]
 
 The arguments used to create a pipeline state.
 
 
-### -param d3d12ddi_hpipelinestate 
-
-Used to create a pipeline state.
-
-
-### -param d3d12ddi_hrtpipelinestate 
-
-Used to create a pipeline state.
-
-
 ## -returns
+
+
 Returns STATUS_SUCCESS if completed successfully.
 
 
-## -remarks

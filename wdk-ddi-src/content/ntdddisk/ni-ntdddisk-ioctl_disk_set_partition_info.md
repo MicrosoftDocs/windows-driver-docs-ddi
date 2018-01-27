@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3ff5a328-04b0-4de9-abe1-759c36f31899
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DETECTION_TYPE, DETECTION_TYPE
+ms.keywords: storage.ioctl_disk_set_partition_info, IOCTL_DISK_SET_PARTITION_INFO control code [Storage Devices], IOCTL_DISK_SET_PARTITION_INFO, ntdddisk/IOCTL_DISK_SET_PARTITION_INFO, k307_9035067b-43ed-4b4f-9516-23fd7448d5e6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_DISK_SET_PARTITION_INFO
-req.alt-loc: Ntdddisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,63 +29,85 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntdddisk.h
+apiname: 
+-	IOCTL_DISK_SET_PARTITION_INFO
+product: Windows
+targetos: Windows
 req.typenames: DETECTION_TYPE
 ---
 
 # IOCTL_DISK_SET_PARTITION_INFO IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 Changes the partition type of the specified disk partition. (Floppy drivers need not handle this request.)
 
-
-
-Changes the partition type of the specified disk partition. (Floppy drivers need not handle this request.)
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="..\ntdddisk\ns-ntdddisk-_set_partition_information.md">SET_PARTITION_INFORMATION</a> to be set. 
 
 
 ### -input-buffer-length
+
 <b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the buffer, which must be &gt;= <b>sizeof</b>(SET_PARTITION_INFORMATION).
 
 
 ### -output-buffer
+
 None.
 
 
 ### -output-buffer-length
+
 None.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Information</b> field is set to zero. The <b>Status</b> field can be set to STATUS_SUCCESS, or possibly to STATUS_INVALID_PARAMETER, STATUS_INVALID_DEVICE_REQUEST, STATUS_UNSUCCESSFUL, STATUS_INFO_LENGTH_MISMATCH, STATUS_INSUFFICIENT_RESOURCES, or STATUS_BUFFER_TOO_SMALL.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntdddisk\ns-ntdddisk-_set_partition_information.md">SET_PARTITION_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

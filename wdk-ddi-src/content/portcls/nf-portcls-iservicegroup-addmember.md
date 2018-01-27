@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1eddb631-db85-4243-89a4-a4ab042cee28
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IServiceGroup, IServiceGroup::AddMember, AddMember
+ms.keywords: portcls/IServiceGroup::AddMember, AddMember, audio.iservicegroup_addmember, audmp-routines_0d318d56-28e9-4e42-84b3-1d0eb4110f71.xml, AddMember method [Audio Devices], IServiceGroup, IServiceGroup::AddMember, AddMember method [Audio Devices], IServiceGroup interface, IServiceGroup interface [Audio Devices], AddMember method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IServiceGroup.AddMember
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IServiceGroup.AddMember
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IServiceGroup::AddMember method
 
 
-
 ## -description
+
+
 The <code>AddMember</code> method adds a member to the service group.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS AddMember(
@@ -54,28 +64,34 @@ NTSTATUS AddMember(
 
 ## -parameters
 
+
+
+
 ### -param pServiceSink [in]
 
 Pointer to the <a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a> interface of the new member of the service group
 
 
 ## -returns
+
+
 <code>AddMember</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 The <code>AddMember</code> method calls <b>AddRef</b> on the <i>pServiceSink</i> object. When the object is later removed, the <b>RemoveMember</b> method calls <b>Release</b> on the <i>pServiceSink</i> object. This behavior is in accordance with the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-</dt>
-<dt>
+
 <a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
  
 
  

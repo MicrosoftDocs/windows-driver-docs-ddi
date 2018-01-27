@@ -7,8 +7,8 @@ old-location: image\wia_micr_info.htm
 old-project: image
 ms.assetid: E91F5D6F-40F9-4CE2-8C51-4CA7FB27F2C3
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: _WIA_MICR_INFO, WIA_MICR_INFO
+ms.date: 1/18/2018
+ms.keywords: _WIA_MICR_INFO, WIA_MICR_INFO structure [Imaging Devices], WIA_MICR_INFO, wiadef/WIA_MICR_INFO, image.wia_micr_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WIA_MICR_INFO
-req.alt-loc: wiadef.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wiadef.h
+apiname: 
+-	WIA_MICR_INFO
+product: Windows
+targetos: Windows
 req.typenames: WIA_MICR_INFO
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _WIA_MICR_INFO structure
 
 
-
 ## -description
+
+
 The <b>WIA_MICR_INFO</b> structure stores information for one decoded MICR code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WIA_MICR_INFO {
@@ -57,6 +67,9 @@ typedef struct _WIA_MICR_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -77,5 +90,3 @@ Length of the MICR text, in characters, excluding the length of the NULL termina
 
 Placeholder for a NULL terminated character string containing the MICR text.
 
-
-## -remarks

@@ -7,8 +7,8 @@ old-location: netvista\ndisregisterdeviceex.htm
 old-project: netvista
 ms.assetid: 8e0d406e-748c-4b37-90fb-c7b9dfc28362
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisRegisterDeviceEx
+ms.date: 1/18/2018
+ms.keywords: NdisRegisterDeviceEx function [Network Drivers Starting with Windows Vista], ndis/NdisRegisterDeviceEx, netvista.ndisregisterdeviceex, NdisRegisterDeviceEx, ndis_devices_ref_57ed58e5-f149-4cbe-ad9d-667f433a7e77.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisRegisterDeviceEx
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_Miscellaneous_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisRegisterDeviceEx
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisRegisterDeviceEx function
 
 
-
 ## -description
+
+
 The 
   <b>NdisRegisterDeviceEx</b> function creates a device object that is based upon the specified
   attributes.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisRegisterDeviceEx(
@@ -59,20 +70,23 @@ NDIS_STATUS NdisRegisterDeviceEx(
 
 ## -parameters
 
+
+
+
 ### -param NdisHandle [in]
 
 A miniport driver handle or filter driver handle that the caller obtained by calling the 
-     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
-     NdisMRegisterMiniportDriver</a> function or the 
-     <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
-     NdisFRegisterFilterDriver</a> function respectively.
+     <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
+     NdisMRegisterMiniportDriver</b></mshelp:link> function or the 
+     <mshelp:link keywords="netvista.ndisfregisterfilterdriver" tabindex="0"><b>
+     NdisFRegisterFilterDriver</b></mshelp:link> function respectively.
 
 
 ### -param DeviceObjectAttributes [in]
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_device_object_attributes.md">
-     NDIS_DEVICE_OBJECT_ATTRIBUTES</a> structure that contains the attributes for the new device.
+     <mshelp:link keywords="netvista.ndis_device_object_attributes" tabindex="0"><b>
+     NDIS_DEVICE_OBJECT_ATTRIBUTES</b></mshelp:link> structure that contains the attributes for the new device.
 
 
 ### -param pDeviceObject [out]
@@ -92,35 +106,70 @@ A pointer to a caller-supplied variable in which this function, if it succeeds, 
 
 
 ## -returns
+
+
 <b>NdisRegisterDeviceEx</b> returns one of the following status values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_SUCCESS</b></dt>
-</dl><b>NdisRegisterDeviceEx</b> successfully registered the device.
+</dl>
+</td>
+<td width="60%">
+<b>NdisRegisterDeviceEx</b> successfully registered the device.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_NOT_SUPPORTED</b></dt>
-</dl>The caller is not an NDIS driver.
+</dl>
+</td>
+<td width="60%">
+The caller is not an NDIS driver.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_<i>XXX</i> or NTSTATUS_<i>XXX</i></b></dt>
-</dl>The driver's attempt to register the device failed. Usually, such an error status is propagated
+</dl>
+</td>
+<td width="60%">
+The driver's attempt to register the device failed. Usually, such an error status is propagated
        from an 
        <b>Ndis<i>Xxx</i></b> function or a kernel-mode support routine.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 Miniport drivers and filter drivers can call 
     <b>NdisRegisterDeviceEx</b> to register a virtual device.
-
-If an NDIS driver requires space for context information in the device object, the driver can pass a
+<div class="alert"><b>Note</b>  NDIS drivers must not modify the 
+    <b>DeviceExtension</b> member of the 
+    <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that 
+    <b>NdisRegisterDeviceEx</b> created.</div><div> </div>If an NDIS driver requires space for context information in the device object, the driver can pass a
     nonzero value for the 
     <b>ExtensionSize</b> member in the 
-    <a href="..\ndis\ns-ndis-_ndis_device_object_attributes.md">
-    NDIS_DEVICE_OBJECT_ATTRIBUTES</a> structure at the 
+    <mshelp:link keywords="netvista.ndis_device_object_attributes" tabindex="0"><b>
+    NDIS_DEVICE_OBJECT_ATTRIBUTES</b></mshelp:link> structure at the 
     <i>DeviceObjectAttributes</i> parameter. In this case, NDIS allocates the extension for the driver, and
     the driver can call the 
-    <a href="..\ndis\nf-ndis-ndisgetdevicereservedextension.md">
-    NdisGetDeviceReservedExtension</a> function to get a pointer to the extension.
+    <mshelp:link keywords="netvista.ndisgetdevicereservedextension" tabindex="0"><b>
+    NdisGetDeviceReservedExtension</b></mshelp:link> function to get a pointer to the extension.
 
 The driver must subsequently call the 
     <a href="..\ndis\nf-ndis-ndisderegisterdeviceex.md">NdisDeregisterDeviceEx</a> function
@@ -129,31 +178,25 @@ The driver must subsequently call the
     <b>NdisDeregisterDeviceEx</b> frees the extension.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-<dt>
+
 <a href="..\ndis\ns-ndis-_ndis_device_object_attributes.md">NDIS_DEVICE_OBJECT_ATTRIBUTES</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisderegisterdeviceex.md">NdisDeregisterDeviceEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisgetdevicereservedextension.md">
-   NdisGetDeviceReservedExtension</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nf-ndis-ndisderegisterdeviceex.md">NdisDeregisterDeviceEx</a>
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<mshelp:link keywords="netvista.ndisgetdevicereservedextension" tabindex="0"><b>
+   NdisGetDeviceReservedExtension</b></mshelp:link>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisRegisterDeviceEx function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisRegisterDeviceEx function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

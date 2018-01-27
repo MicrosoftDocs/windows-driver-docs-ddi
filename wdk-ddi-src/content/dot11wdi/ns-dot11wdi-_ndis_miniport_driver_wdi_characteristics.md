@@ -7,8 +7,8 @@ old-location: netvista\ndis_miniport_driver_wdi_characteristics.htm
 old-project: netvista
 ms.assetid: 2F69C228-FF2D-4277-A4C9-14FBADA1CD31
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS, *PNDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS, NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS
+ms.date: 1/18/2018
+ms.keywords: PNDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS, PNDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS, NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], dot11wdi/NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS, dot11wdi/PNDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS, netvista.ndis_miniport_driver_wdi_characteristics, *PNDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS, _NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS
-req.alt-loc: dot11wdi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PNDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS, NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dot11wdi.h
+apiname: 
+-	NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS
+product: Windows
+targetos: Windows
+req.typenames: NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS, *PNDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS
 ---
 
 # _NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS structure
 
 
-
 ## -description
+
+
 The NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS structure defines the set of handlers that a WDI miniport driver must implement. It is used by the IHV driver to register additional handlers for the control path and the full set of handlers for the data path.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS {
@@ -68,6 +78,9 @@ typedef struct _NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS {
 
 ## -struct-fields
 
+
+
+
 ### -field Header
 
 The 
@@ -83,37 +96,12 @@ To indicate the version of the NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS structur
 
 
 
-### -field NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS_REVISION_1
-
-Set the 
-        <b>Size</b> member to NDIS_SIZEOF_MINIPORT_WDI_CHARACTERISTICS_REVISION_1.
-
-</dd>
-</dl>
-
 ### -field WdiVersion
 
 The version of WDI used by the driver. Set this member to one of the following values:
 
 
 
-
-### -field WDI_VERSION_LATEST
-
-The latest WDI version
-
-
-### -field WDI_VERSION_1_0_1
-
-WDI version 1.0.1
-
-
-### -field WDI_VERSION_1_0
-
-WDI version 1.0
-
-</dd>
-</dl>
 
 ### -field AllocateAdapterHandler
 
@@ -188,4 +176,23 @@ The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_cancel_idle
 
 
 
-## -remarks
+##### - WdiVersion.WDI_VERSION_LATEST
+
+The latest WDI version
+
+
+##### - WdiVersion.WDI_VERSION_1_0
+
+WDI version 1.0
+
+
+##### - Header.NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS_REVISION_1
+
+Set the 
+        <b>Size</b> member to NDIS_SIZEOF_MINIPORT_WDI_CHARACTERISTICS_REVISION_1.
+
+
+##### - WdiVersion.WDI_VERSION_1_0_1
+
+WDI version 1.0.1
+

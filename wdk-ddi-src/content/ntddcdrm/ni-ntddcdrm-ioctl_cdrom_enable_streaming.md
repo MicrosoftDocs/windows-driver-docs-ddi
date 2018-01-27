@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: DC31EABA-CE58-4B6F-ADCD-0BF72A92C6AB
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _WRITE_ROTATION, WRITE_ROTATION, *PWRITE_ROTATION
+ms.keywords: storage.ioctl_cdrom_enable_streaming, IOCTL_CDROM_ENABLE_STREAMING control code [Storage Devices], IOCTL_CDROM_ENABLE_STREAMING, ntddcdrm/IOCTL_CDROM_ENABLE_STREAMING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_CDROM_ENABLE_STREAMING
-req.alt-loc: ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdrm.h
+apiname: 
+-	IOCTL_CDROM_ENABLE_STREAMING
+product: Windows
+targetos: Windows
 req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
 
 # IOCTL_CDROM_ENABLE_STREAMING IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 Enables or disables CDROM streaming mode on a per-handle basis for raw read and write requests. 
 
 To perform this operation, call the 
@@ -46,68 +61,95 @@ To perform this operation, call the
    function and specify the <b>IOCTL_CDROM_ENABLE_STREAMING</b> I/O control request as the <i>dwIoControlCode</i> parameter.
 
 
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_streaming_control.md">CDROM_STREAMING_CONTROL</a>
 
 
 
 ### -input-buffer-length
+
 Length of a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_streaming_control.md">CDROM_STREAMING_CONTROL</a>.
 
 
 ### -output-buffer
+
 None.
 
 
 ### -output-buffer-length
+
 None.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Information</b> field is set to the number of bytes returned. 
 
 Because of  status code propagation from other APIs, the <b>Status</b> field can be set to (but not limited to) the following:
 
 
 
-The request completed successfully.
+
+#### -STATUS_INFO_LENGTH_MISMATCH
 
 The input buffer length is smaller than required.
 
-The request type is not one of the four in types defined in the <b>STREAMING_CONTROL_REQUEST_TYPE</b> enumeration.
 
-Cannot find the file object context in the request.
+#### -STATUS_INVALID_DEVICE_REQUEST
 
 The requested streaming mode is not supported.
 
 
+#### -STATUS_INVALID_HANDLE
+
+Cannot find the file object context in the request.
+
+
+#### -STATUS_INVALID_PARAMETER
+
+The request type is not one of the four in types defined in the <b>STREAMING_CONTROL_REQUEST_TYPE</b> enumeration.
+
+
+#### -STATUS_SUCCESS
+
+The request completed successfully.
+
+
 ## -remarks
+
+
 By default, streaming is disabled for all newly opened raw CDROM handles. A playback application that does not want to use the  file system and prefers to work with raw data should open two file handles for the same device: a regular one for file system metadata and a streaming one for real-time files.
 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_streaming_control.md">CDROM_STREAMING_CONTROL</a>
-</dt>
-</dl>
+
  
 
  

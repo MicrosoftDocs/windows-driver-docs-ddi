@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d6afe946-90cb-4b17-94ed-2e7c508985a3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _HW_CLOCK_OBJECT, HW_CLOCK_OBJECT, *PHW_CLOCK_OBJECT
+ms.keywords: PHW_CLOCK_OBJECT structure pointer [Streaming Media Devices], HW_CLOCK_OBJECT structure [Streaming Media Devices], stream.hw_clock_object, strmini/PHW_CLOCK_OBJECT, PHW_CLOCK_OBJECT, strclass-struct_95b6e9db-af87-415b-aad2-b3763c4dd0d9.xml, *PHW_CLOCK_OBJECT, _HW_CLOCK_OBJECT, HW_CLOCK_OBJECT, strmini/HW_CLOCK_OBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HW_CLOCK_OBJECT
-req.alt-loc: strmini.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: HW_CLOCK_OBJECT, *PHW_CLOCK_OBJECT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	strmini.h
+apiname: 
+-	HW_CLOCK_OBJECT
+product: Windows
+targetos: Windows
+req.typenames: *PHW_CLOCK_OBJECT, HW_CLOCK_OBJECT
 req.product: Windows 10 or later.
 ---
 
 # _HW_CLOCK_OBJECT structure
 
 
-
 ## -description
+
+
 The HW_CLOCK_OBJECT structure describes the clock associated with a stream.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _HW_CLOCK_OBJECT {
@@ -56,6 +66,9 @@ typedef struct _HW_CLOCK_OBJECT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HwClockFunction
 
@@ -69,38 +82,29 @@ Specifies which options the <i>StrMiniClock</i> routine supports.
 
 
 
-### -field CLOCK_SUPPORT_CAN_READ_ONBOARD_CLOCK
-
-The <i>StrMiniClock</i> routine can return the current clock value for the stream's clock. The <i>StrMiniClock</i> routine must be able to handle a <b>Function</b> setting of TIME_READ_ONBOARD_CLOCK in the <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a> structure passed as a parameter.
-
-
-### -field CLOCK_SUPPORT_CAN_RETURN_STREAM_TIME
-
-The <i>StrMiniClock</i> routine can return the current presentation time stamp for the stream. The <i>StrMiniClock</i> routine must be able to handle a <b>Function</b> setting of TIME_GET_STREAM_TIME in the <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a> structure passed as a parameter.
-
-</dd>
-</dl>
-
 ### -field Reserved
 
 Reserved for system use. Do not use.
 
 
-## -remarks
+##### - ClockSupportFlags.CLOCK_SUPPORT_CAN_READ_ONBOARD_CLOCK
+
+The <i>StrMiniClock</i> routine can return the current clock value for the stream's clock. The <i>StrMiniClock</i> routine must be able to handle a <b>Function</b> setting of TIME_READ_ONBOARD_CLOCK in the <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a> structure passed as a parameter.
+
+
+##### - ClockSupportFlags.CLOCK_SUPPORT_CAN_RETURN_STREAM_TIME
+
+The <i>StrMiniClock</i> routine can return the current presentation time stamp for the stream. The <i>StrMiniClock</i> routine must be able to handle a <b>Function</b> setting of TIME_GET_STREAM_TIME in the <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a> structure passed as a parameter.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568452">StrMiniClock</a>
-</dt>
-<dt>
+
 <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
-</dt>
-</dl>
+
+<a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a>
+
  
 
  

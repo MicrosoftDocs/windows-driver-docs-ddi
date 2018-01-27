@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d64fb3e6-fba1-4383-bdb0-a63dc7c16033
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCbCopyNW
+ms.keywords: RtlStringCbCopyNA, ntstrsafe/RtlStringCbCopyNA, RtlStringCbCopyNW function [Kernel-Mode Driver Architecture], RtlStringCbCopyN, RtlStringCbCopyNW, safestrings_a3f7f7a8-b4a1-4c7c-b384-2243b3c97a4e.xml, ntstrsafe/RtlStringCbCopyNW, kernel.rtlstringcbcopyn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP with Service Pack 1 (SP1) and
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlStringCbCopyNW,RtlStringCbCopyNA,RtlStringCbCopyNW
-req.alt-loc: Ntstrsafe.lib,Ntstrsafe.dll
 req.ddi-compliance: 
 req.unicode-ansi: RtlStringCbCopyNW (Unicode) and RtlStringCbCopyNA (ANSI)
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ntstrsafe.lib
+-	Ntstrsafe.dll
+apiname: 
+-	RtlStringCbCopyNW
+-	RtlStringCbCopyNA
+-	RtlStringCbCopyNW
+product: Windows
+targetos: Windows
 req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCbCopyNW function
 
 
-
 ## -description
+
+
 The <b>RtlStringCbCopyNW</b> and <b>RtlStringCbCopyNA</b> functions copy a byte-counted string to a buffer while limiting the size of the copied string.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlStringCbCopyNW(
@@ -56,6 +69,9 @@ NTSTATUS RtlStringCbCopyNW(
 
 
 ## -parameters
+
+
+
 
 ### -param pszDest [out]
 
@@ -76,46 +92,114 @@ For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * <b>sizeof</
 A pointer to a caller-supplied, null-terminated string. 
 
 
-### -param cbSrc [in]
+### -param cbToCopy
+
+TBD
+
+
+
+#### - cbSrc [in]
 
 The maximum number of bytes to copy from <i>pszSrc</i> to <i>pszDest</i>.
 
 
 ## -returns
+
+
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>This <i>success</i> status means source data was present, the string was copied without truncation, and the resultant destination buffer is null-terminated.
+</dl>
+</td>
+<td width="60%">
+This <i>success</i> status means source data was present, the string was copied without truncation, and the resultant destination buffer is null-terminated.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_OVERFLOW</b></dt>
-</dl>This <i>warning</i> status means the copy operation did not complete due to insufficient space in the destination buffer. The destination buffer contains a truncated version of the copied string.
+</dl>
+</td>
+<td width="60%">
+This <i>warning</i> status means the copy operation did not complete due to insufficient space in the destination buffer. The destination buffer contains a truncated version of the copied string.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>This <i>error</i> status means the function received an invalid input parameter. For more information, see the following paragraph.
+</dl>
+</td>
+<td width="60%">
+This <i>error</i> status means the function received an invalid input parameter. For more information, see the following paragraph.
 
 The function returns the STATUS_INVALID_PARAMETER value when:
 
- 
+<ul>
+<li>The value in <i>cbDest</i> is larger than the maximum buffer size.</li>
+<li>The destination buffer was already full.</li>
+<li>A <b>NULL</b> pointer was present.</li>
+<li>The destination buffer's length was zero, but a nonzero length source string was present.</li>
+</ul>
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>RtlStringCbCopyNW</b> and <b>RtlStringCbCopyNA</b> should be used instead of <b>strncpy</b>. However, these functions  differ in behavior. If <i>cbSrc</i> is larger than the number of bytes in <i>pszSrc</i>, the <b>RtlStringCbCopyN </b>functions—unlike <b>strncpy</b>—do not fill <i>pszDest</i> with null characters until <i>cbSrc</i> bytes have been copied.
 
 <b>RtlStringCbCopyN</b> copies a given number of bytes from a source string. The size, in bytes, of the destination buffer is provided to the function to ensure that <b>RtlStringCbCopyN</b> does not write past the end of this buffer.
 
 Use <b>RtlStringCbCopyNW</b> to handle Unicode strings and <b>RtlStringCbCopyNA</b> to handle ANSI strings. The form you use depends on your data, as shown in the following table.
-
+<table>
+<tr>
+<th>String data type</th>
+<th>String literal</th>
+<th>Function</th>
+</tr>
+<tr>
+<td>
 WCHAR
 
+</td>
+<td>
 L"string"
 
+</td>
+<td>
 <b>RtlStringCbCopyNW</b>
 
+</td>
+</tr>
+<tr>
+<td>
 <b>char</b>
 
+</td>
+<td>
 "string"
 
+</td>
+<td>
 <b>RtlStringCbCopyNA</b>
+
+</td>
+</tr>
+</table> 
 
 If <i>pszSrc</i> and <i>pszDest</i> point to overlapping strings, the behavior of the function is undefined.
 
@@ -124,18 +208,15 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to hand
 For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyw.md">RtlStringCbCopy</a>
-</dt>
-<dt>
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopynw.md">RtlStringCchCopyN</a>
-</dt>
-<dt>
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopynexw.md">RtlStringCbCopyNEx</a>
-</dt>
-</dl>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopynw.md">RtlStringCchCopyN</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyw.md">RtlStringCbCopy</a>
+
  
 
  

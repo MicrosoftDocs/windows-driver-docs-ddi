@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bb9ebe0b-4a6e-41ff-a460-6c0b3a749d8d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSynchronousDeviceControl
+ms.keywords: stream.ikspinpipe, IKsPinPipe interface [Streaming Media Devices], IKsPinPipe interface [Streaming Media Devices], described, IKsPinPipe, ksproxy/IKsPinPipe, ksproxy_baf35b14-3ad8-491c-86cf-9ac2b76d9504.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsPinPipe
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,155 +29,33 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsPinPipe
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsPinPipe interface
 
 
-
 ## -description
+
+
 The <b>IKsPinPipe</b> interface is for proxy use and not recommended for application use. <b>IKsPinPipe</b> provides methods that control a pin pipe. 
 
 The IID for this interface is IID_IKsPinPipe.
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPinPipe</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IKsPinPipe</b> also has these types of members:
-
-The <b>IKsPinPipe</b> interface has these methods.
-
-Not recommended for application use.
-
-Returns the name of a filter
-
-Not recommended for application use.
-
-Not recommended for application use.
-
-Returns the name of a pin. 
-
-Not recommended for application use.
-
-Not recommended for application use.
-
-Not recommended for application use.
-
-Not recommended for application use.
-
-Not recommended for application use.
-
-Not recommended for application use.
-
- 
-
-The following methods are listed in Vtable order.
-
-<b>QueryInterface</b>
-
-Returns pointers to supported interfaces.
-
-<b>AddRef</b>
-
-Increments reference count.
-
-<b>Release</b>
-
-Decrements reference count.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPinPipe</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IKsPinPipe</b> also has these types of members:
-
-The <b>IKsPinPipe</b> interface has these methods.
-
-Not recommended for application use.
-
-Returns the name of a filter
-
-Not recommended for application use.
-
-Not recommended for application use.
-
-Returns the name of a pin. 
-
-Not recommended for application use.
-
-Not recommended for application use.
-
-Not recommended for application use.
-
-Not recommended for application use.
-
-Not recommended for application use.
-
-Not recommended for application use.
-
- 
-
-The following methods are listed in Vtable order.
-
-<b>QueryInterface</b>
-
-Returns pointers to supported interfaces.
-
-<b>AddRef</b>
-
-Increments reference count.
-
-<b>Release</b>
-
-Decrements reference count.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPinPipe</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IKsPinPipe</b> also has these types of members:
-
-The <b>IKsPinPipe</b> interface has these methods.
-
-Not recommended for application use.
-
-Returns the name of a filter
-
-Not recommended for application use.
-
-Not recommended for application use.
-
-Returns the name of a pin. 
-
-Not recommended for application use.
-
-Not recommended for application use.
-
-Not recommended for application use.
-
-Not recommended for application use.
-
-Not recommended for application use.
-
-Not recommended for application use.
-
- 
-
-The following methods are listed in Vtable order.
-
-<b>QueryInterface</b>
-
-Returns pointers to supported interfaces.
-
-<b>AddRef</b>
-
-Increments reference count.
-
-<b>Release</b>
-
-Decrements reference count.
-
- 
-
-
 ## -members
+
 The <b>IKsPinPipe</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -359,5 +235,3 @@ Decrements reference count.
 
  
 
-
-## -remarks

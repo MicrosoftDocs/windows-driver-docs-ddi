@@ -7,8 +7,8 @@ old-location: netvista\wdi_rx_throttle_level.htm
 old-project: netvista
 ms.assetid: 637c0892-8d73-45b7-b679-ff3a0ba78a9c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WDI_RX_THROTTLE_LEVEL, WDI_RX_THROTTLE_LEVEL
+ms.date: 1/18/2018
+ms.keywords: WDI_RX_THROTTLE_LEVEL, dot11wdi/WDI_RxThrottleLevelMedium, WDI_RxThrottleLevelNone, dot11wdi/WDI_RxThrottleLevelNone, netvista.wifi_rx_throttle_level, netvista.wdi_rx_throttle_level, WDI_RX_THROTTLE_LEVEL enumeration [Network Drivers Starting with Windows Vista], dot11wdi/WDI_RxThrottleLevelAggressive, _WDI_RX_THROTTLE_LEVEL, WDI_RxThrottleLevelAggressive, WDI_RxThrottleLevelMedium, dot11wdi/WDI_RX_THROTTLE_LEVEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WDI_RX_THROTTLE_LEVEL
-req.alt-loc: dot11wdi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dot11wdi.h
+apiname: 
+-	WDI_RX_THROTTLE_LEVEL
+product: Windows
+targetos: Windows
 req.typenames: WDI_RX_THROTTLE_LEVEL
 ---
 
 # _WDI_RX_THROTTLE_LEVEL enumeration
 
 
-
 ## -description
+
+
 The WDI_RX_THROTTLE_LEVEL enumeration defines the RX throttle level. The interpretation and implementation mechanisms of these throttle levels are defined by the independent hardware vendor (IHV).
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDI_RX_THROTTLE_LEVEL { 
@@ -55,6 +65,9 @@ typedef enum _WDI_RX_THROTTLE_LEVEL {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WDI_RxThrottleLevelNone
 
@@ -71,4 +84,7 @@ Medium throttling.
 Aggressive throttling.
 
 
-## -remarks
+### -field WDI_RxThrottleLevelMax
+
+
+

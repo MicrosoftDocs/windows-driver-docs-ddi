@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 02bf5e91-bce0-4b8d-aec6-659ed1efd2b5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SM_AddTarget_IN, *PSM_AddTarget_IN, SM_AddTarget_IN
+ms.keywords: SM_AddTarget_IN, PSM_AddTarget_IN structure pointer [Storage Devices], storage.sm_addtarget_in, structs-Fibre_5be38245-d926-427e-bad7-2d537495eb88.xml, PSM_AddTarget_IN, *PSM_AddTarget_IN, _SM_AddTarget_IN, SM_AddTarget_IN structure [Storage Devices], hbapiwmi/SM_AddTarget_IN, hbapiwmi/PSM_AddTarget_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SM_AddTarget_IN
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	SM_AddTarget_IN
+product: Windows
+targetos: Windows
 req.typenames: *PSM_AddTarget_IN, SM_AddTarget_IN
 ---
 
 # _SM_AddTarget_IN structure
 
 
-
 ## -description
+
+
 The SM_AddTarget_IN structure is used to provide input parameters to the SM_AddTarget WMI method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SM_AddTarget_IN {
@@ -56,6 +66,9 @@ typedef struct _SM_AddTarget_IN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HbaPortWWN
 
@@ -76,5 +89,3 @@ A worldwide name (WWN) that specifies the SAS domain worldwide name of the local
 
 The scope of the target events to report. If this member is zero, the WMI client will receive events that are associated with the port that is indicated by DiscoveredPortWWN. If this member is nonzero, the WMI client will receive events that are associated with all currently discovered targets as well as targets that are discovered in the future.
 
-
-## -remarks

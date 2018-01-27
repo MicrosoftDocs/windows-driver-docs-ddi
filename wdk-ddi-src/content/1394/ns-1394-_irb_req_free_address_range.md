@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 18C1A210-6C6D-4BA7-AE62-81774DD62C58
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _IRB_REQ_FREE_ADDRESS_RANGE, IRB_REQ_FREE_ADDRESS_RANGE
+ms.keywords: IRB_REQ_FREE_ADDRESS_RANGE structure [Buses], IEEE.irb_req_free_address_range, 1394/IRB_REQ_FREE_ADDRESS_RANGE, IRB_REQ_FREE_ADDRESS_RANGE, _IRB_REQ_FREE_ADDRESS_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IRB_REQ_FREE_ADDRESS_RANGE
-req.alt-loc: 1394.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1394.h
+apiname: 
+-	IRB_REQ_FREE_ADDRESS_RANGE
+product: Windows
+targetos: Windows
 req.typenames: IRB_REQ_FREE_ADDRESS_RANGE
 ---
 
 # _IRB_REQ_FREE_ADDRESS_RANGE structure
 
 
-
 ## -description
+
+
 This structure contains the fields necessary for the 1394 stack to carry out a free address range reqeust.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _IRB_REQ_FREE_ADDRESS_RANGE {
@@ -56,6 +66,9 @@ typedef struct _IRB_REQ_FREE_ADDRESS_RANGE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field nAddressesToFree
 
@@ -76,5 +89,3 @@ Points to the handle that was previously received in <b>IRB.u.AllocateAddressRan
 
 Points to the device extension associated with the device object. Not setting this member can lead to unexpected behavior when the driver tries to access the allocated address space. 
 
-
-## -remarks

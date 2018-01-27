@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 80d3d199-42ad-4f21-8122-05dfad37016d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgk_monitorsourcemodeset_interface_pfnacquirepreferredmodeinfo, pfnAcquirePreferredModeInfo callback function [Display Devices], pfnAcquirePreferredModeInfo, DXGKDDI_MONITORSOURCEMODESET_ACQUIREPREFERREDMODEINFO, DXGKDDI_MONITORSOURCEMODESET_ACQUIREPREFERREDMODEINFO, d3dkmddi/pfnAcquirePreferredModeInfo, VidPnFunctions_c7c55840-18b7-40ad-8cf9-5350c7723246.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnAcquirePreferredModeInfo
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	pfnAcquirePreferredModeInfo
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_MONITORSOURCEMODESET_ACQUIREPREFERREDMODEINFO callback
 
 
-
 ## -description
+
+
 The <b>pfnAcquirePreferredModeInfo</b> returns a descriptor of the preferred mode in a specified monitor source mode set object.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_MONITORSOURCEMODESET_ACQUIREPREFERREDMODEINFO pfnAcquirePreferredModeInfo;
@@ -58,6 +68,9 @@ NTSTATUS APIENTRY pfnAcquirePreferredModeInfo(
 
 ## -parameters
 
+
+
+
 ### -param hMonitorSourceModeSet [in]
 
 [in] A handle to a monitor source mode set object. The display miniport driver previously obtained this handle by calling the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_acquiremonitorsourcemodeset.md">pfnAcquireMonitorSourceModeSet</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568433">Monitor interface</a>.
@@ -69,21 +82,56 @@ NTSTATUS APIENTRY pfnAcquirePreferredModeInfo(
 
 
 ## -returns
+
+
 The <b>pfnAcquirePreferredModeInfo</b> function returns one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The function successfully returned a descriptor of the preferred mode.
+</dl>
+</td>
+<td width="60%">
+The function successfully returned a descriptor of the preferred mode.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATIS_GRAPHICS_NO_PREFERRED_MODE</b></dt>
-</dl>The function succeeded, but the specified monitor source mode set does not have a preferred mode.
+</dl>
+</td>
+<td width="60%">
+The function succeeded, but the specified monitor source mode set does not have a preferred mode.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_INVALID_MONITOR_SOURCEMODESET</b></dt>
-</dl>The handle supplied in <i>hMonitorSourceModeSet</i> was invalid.
+</dl>
+</td>
+<td width="60%">
+The handle supplied in <i>hMonitorSourceModeSet</i> was invalid.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 When you have finished using the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_source_mode.md">D3DKMDT_MONITOR_SOURCE_MODE</a> structure, you must release the structure by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorsourcemodeset_releasemodeinfo.md">pfnReleaseModeInfo</a>.
 
-The D3DKMDT_HMONITORSOURCEMODESET data type is defined in <i>D3dkmdt.h</i>. </p>
+The D3DKMDT_HMONITORSOURCEMODESET data type is defined in <i>D3dkmdt.h</i>. 
+
+

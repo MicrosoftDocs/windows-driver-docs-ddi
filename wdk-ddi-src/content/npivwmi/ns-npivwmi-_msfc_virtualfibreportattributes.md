@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FD8D6063-E6DD-4EA6-9675-774C58C08B40
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes
+ms.keywords: PMSFC_VirtualFibrePortAttributes, npivwmi/MSFC_VirtualFibrePortAttributes, npivwmi/PMSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes, _MSFC_VirtualFibrePortAttributes, storage.msfc_virtualfibreportattributes, MSFC_VirtualFibrePortAttributes structure [Storage Devices], PMSFC_VirtualFibrePortAttributes structure pointer [Storage Devices], MSFC_VirtualFibrePortAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSFC_VirtualFibrePortAttributes
-req.alt-loc: npivwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	npivwmi.h
+apiname: 
+-	MSFC_VirtualFibrePortAttributes
+product: Windows
+targetos: Windows
+req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
 ---
 
 # _MSFC_VirtualFibrePortAttributes structure
 
 
-
 ## -description
+
+
 The MSFC_VirtualFibrePortAttributes structure contains attribute information for a virtual port.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSFC_VirtualFibrePortAttributes {
@@ -59,6 +69,9 @@ typedef struct _MSFC_VirtualFibrePortAttributes {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Status
 
@@ -95,15 +108,10 @@ The world wide node name of the physical port.
 The world wide port name of the fabric.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh127629">MSFC_VirtualFibrePortAttributes WMI Class</a>
-</dt>
-</dl>
+
  
 
  

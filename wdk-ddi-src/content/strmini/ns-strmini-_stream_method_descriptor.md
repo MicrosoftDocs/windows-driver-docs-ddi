@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2C35EF9F-143C-4DE2-93D0-5BCF8AADF11B
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _STREAM_METHOD_DESCRIPTOR, *PSTREAM_METHOD_DESCRIPTOR, STREAM_METHOD_DESCRIPTOR
+ms.keywords: PSTREAM_METHOD_DESCRIPTOR structure pointer [Streaming Media Devices], strmini/PSTREAM_METHOD_DESCRIPTOR, STREAM_METHOD_DESCRIPTOR, strmini/STREAM_METHOD_DESCRIPTOR, PSTREAM_METHOD_DESCRIPTOR, STREAM_METHOD_DESCRIPTOR structure [Streaming Media Devices], stream.stream_method_descriptor, *PSTREAM_METHOD_DESCRIPTOR, _STREAM_METHOD_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STREAM_METHOD_DESCRIPTOR
-req.alt-loc: Strmini.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,12 +29,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSTREAM_METHOD_DESCRIPTOR, STREAM_METHOD_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Strmini.h
+apiname: 
+-	STREAM_METHOD_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: STREAM_METHOD_DESCRIPTOR, *PSTREAM_METHOD_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
 # _STREAM_METHOD_DESCRIPTOR structure
-
 
 
 ## -description
@@ -44,7 +52,9 @@ req.product: Windows 10 or later.
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct _STREAM_METHOD_DESCRIPTOR {
@@ -59,19 +69,25 @@ typedef struct _STREAM_METHOD_DESCRIPTOR {
 
 ## -struct-fields
 
+
+
+
 ### -field MethodSetID
+
 
 
 ### -field Method
 
 
+
 ### -field MethodInfo
+
 
 
 ### -field MethodInputSize
 
 
+
 ### -field MethodOutputSize
 
 
-## -remarks

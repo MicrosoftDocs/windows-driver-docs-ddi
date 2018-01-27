@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06034776-4faf-4918-b9ec-bc095455cf14
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _CM_EISA_FUNCTION_INFORMATION, CM_EISA_FUNCTION_INFORMATION, *PCM_EISA_FUNCTION_INFORMATION
+ms.keywords: wdm/CM_EISA_FUNCTION_INFORMATION, PCM_EISA_FUNCTION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PCM_EISA_FUNCTION_INFORMATION, CM_EISA_FUNCTION_INFORMATION, *PCM_EISA_FUNCTION_INFORMATION, wdm/PCM_EISA_FUNCTION_INFORMATION, CM_EISA_FUNCTION_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.cm_eisa_function_information, kstruct_a_0ecf5914-f26d-415f-b410-ff2f131b2b08.xml, _CM_EISA_FUNCTION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CM_EISA_FUNCTION_INFORMATION
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	CM_EISA_FUNCTION_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: CM_EISA_FUNCTION_INFORMATION, *PCM_EISA_FUNCTION_INFORMATION
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _CM_EISA_FUNCTION_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>CM_EISA_FUNCTION_INFORMATION</b> structure defines detailed EISA configuration information returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a> for the input <i>BusDataType </i><b>EisaConfiguration</b>, or by <b>HalGetBusDataByOffset</b> for the input <i>BusDataType </i><b>EisaConfiguration</b> and the <i>Offset</i> zero, assuming the caller-allocated <i>Buffer</i> is of sufficient <i>Length</i>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CM_EISA_FUNCTION_INFORMATION {
@@ -66,6 +76,9 @@ typedef struct _CM_EISA_FUNCTION_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field CompressedId
 
@@ -101,68 +114,36 @@ The EISA selections for the device.
 
 Indicates which of the members has available information. Callers can use the following system-defined masks to determine whether a particular type of configuration information can be or has been returned by <b>HalGetBusData</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>:
 
-<dl>
-<dd>
 EISA_FUNCTION_ENABLED
 
-</dd>
-<dd>
 EISA_FREE_FORM_DATA
 
-</dd>
-<dd>
 EISA_HAS_PORT_INIT_ENTRY
 
-</dd>
-<dd>
 EISA_HAS_PORT_RANGE
 
-</dd>
-<dd>
 EISA_HAS_DMA_ENTRY
 
-</dd>
-<dd>
 EISA_HAS_IRQ_ENTRY
 
-</dd>
-<dd>
 EISA_HAS_MEMORY_ENTRY
 
-</dd>
-<dd>
 EISA_HAS_TYPE_ENTRY
 
-</dd>
-<dd>
 EISA_HAS_INFORMATION
 
-</dd>
-</dl>
 The EISA_HAS_INFORMATION mask is a combination of the following:
 
-<dl>
-<dd>
 EISA_HAS_PORT_RANGE
 
-</dd>
-<dd>
 EISA_HAS_DMA_ENTRY
 
-</dd>
-<dd>
 EISA_HAS_IRQ_ENTRY
 
-</dd>
-<dd>
 EISA_HAS_MEMORY_ENTRY
 
-</dd>
-<dd>
 EISA_HAS_TYPE_ENTRY
 
-</dd>
-</dl>
 
 ### -field TypeString
 
@@ -172,7 +153,6 @@ Specifies the type of device.
 ### -field EisaMemory
 
 Describes the EISA device memory configuration information, defined as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -193,7 +173,6 @@ Describes the EISA device memory configuration information, defined as follows:
 ### -field EisaIrq
 
 Describes the EISA interrupt configuration information, defined as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -211,7 +190,6 @@ Describes the EISA interrupt configuration information, defined as follows:
 ### -field EisaDma
 
 Describes the EISA DMA configuration information, defined as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -229,7 +207,6 @@ Describes the EISA DMA configuration information, defined as follows:
 ### -field EisaPort
 
 Describes the EISA device port configuration information, defined as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -250,21 +227,20 @@ Vendor-supplied, device-specific initialization data, if any.
 
 
 ## -remarks
+
+
 The information returned by <b>HalGetBusData</b> or <b>HalGetBusDataByOffset</b> in <b>CM_EISA_FUNCTION_INFORMATION</b> and/or in the <a href="..\wdm\ns-wdm-_cm_eisa_slot_information.md">CM_EISA_SLOT_INFORMATION</a> header immediately preceding it is read-only.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_cm_eisa_slot_information.md">CM_EISA_SLOT_INFORMATION</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
+
  
 
  

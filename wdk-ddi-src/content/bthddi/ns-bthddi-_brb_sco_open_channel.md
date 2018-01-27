@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 7f73aaec-09fb-45f2-bff0-daef9fdb9b90
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BRB_SCO_OPEN_CHANNEL,
+ms.keywords: _BRB_SCO_OPEN_CHANNEL structure [Bluetooth Devices], bthddi/_BRB_SCO_OPEN_CHANNEL, _BRB_SCO_OPEN_CHANNEL, bltooth._brb_sco_open_channel, bth_structs_f852010d-7117-48fe-bd65-f4e4f17e8706.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: _BRB_SCO_OPEN_CHANNEL
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthddi.h
+apiname: 
+-	_BRB_SCO_OPEN_CHANNEL
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # _BRB_SCO_OPEN_CHANNEL structure
 
 
-
 ## -description
+
+
 The _BRB_SCO_OPEN_CHANNEL structure describes a SCO channel to open to a remote device, or a response
   from the profile driver accepting or rejecting an incoming SCO connection request that was initiated by a
   remote device.
 
 
-
 ## -syntax
+
 
 ````
 struct _BRB_SCO_OPEN_CHANNEL {
@@ -70,6 +80,9 @@ struct _BRB_SCO_OPEN_CHANNEL {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Hdr
 
@@ -98,7 +111,6 @@ The reception bandwidth, in bytes per second, to be assigned to the SCO channel.
 A value that represents, in milliseconds, the upper limit of the sum of the synchronous interval
      and the size of the (e)SCO window. Possible values are listed in the following table.
      
-
 <table>
 <tr>
 <td>
@@ -143,8 +155,7 @@ The channel doesn't have a preferred
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field PacketType
@@ -155,77 +166,51 @@ A flag or combination of flags that indicate the type of data packets that the S
      
 
 
-### -field SCO_HV1
-### -field SCO_HV2
-### -field SCO_HV3
-### -field SCO_EV3
-### -field SCO_EV4
-### -field SCO_EV5
-
-
 ### -field ContentFormat
 
 The audio voice settings for the channel. Use the following definitions to encode this member:
      
 
 
-
-### -field SCO_VS_AIR_CODING_DATA
-     
-
-### -field SCO_VS_AIR_CODING_FORMAT_ALAW
-     
-
-### -field SCO_VS_AIR_CODING_FORMAT_CVSD
-     
-
-### -field SCO_VS_AIR_CODING_FORMAT_MASK
-     
-
-### -field SCO_VS_AIR_CODING_FORMAT_MULAW
-     
-
-### -field SCO_VS_IN_CODING_ALAW 
-     
-
-### -field SCO_VS_IN_CODING_LINEAR
-     
-
-### -field SCO_VS_IN_CODING_MASK
-     
-
-### -field SCO_VS_IN_CODING_MULAW
-     
-
-### -field SCO_VS_IN_DATA_FORMAT_1C
-     
-
-### -field SCO_VS_IN_DATA_FORMAT_2C
-     
-
-### -field SCO_VS_IN_DATA_FORMAT_MASK
-     
-
-### -field SCO_VS_IN_DATA_FORMAT_SM
-     
-
-### -field SCO_VS_IN_DATA_FORMAT_US
-     
-
-### -field SCO_VS_IN_SAMPLE_SIZE_8BIT
-     
-
-### -field SCO_VS_IN_SAMPLE_SIZE_16BIT
-     
-
-### -field SCO_VS_IN_SAMPLE_SIZE_MASK
-     
-
-### -field SCO_VS_PCM_BIT_POS_MASK
-     
-
-### -field SCO_VS_SETTING_DEFAULT
-
+<dl>
+<dt>SCO_VS_AIR_CODING_DATA
+     </dt>
+<dt>SCO_VS_AIR_CODING_FORMAT_ALAW
+     </dt>
+<dt>SCO_VS_AIR_CODING_FORMAT_CVSD
+     </dt>
+<dt>SCO_VS_AIR_CODING_FORMAT_MASK
+     </dt>
+<dt>SCO_VS_AIR_CODING_FORMAT_MULAW
+     </dt>
+<dt>SCO_VS_IN_CODING_ALAW 
+     </dt>
+<dt>SCO_VS_IN_CODING_LINEAR
+     </dt>
+<dt>SCO_VS_IN_CODING_MASK
+     </dt>
+<dt>SCO_VS_IN_CODING_MULAW
+     </dt>
+<dt>SCO_VS_IN_DATA_FORMAT_1C
+     </dt>
+<dt>SCO_VS_IN_DATA_FORMAT_2C
+     </dt>
+<dt>SCO_VS_IN_DATA_FORMAT_MASK
+     </dt>
+<dt>SCO_VS_IN_DATA_FORMAT_SM
+     </dt>
+<dt>SCO_VS_IN_DATA_FORMAT_US
+     </dt>
+<dt>SCO_VS_IN_SAMPLE_SIZE_8BIT
+     </dt>
+<dt>SCO_VS_IN_SAMPLE_SIZE_16BIT
+     </dt>
+<dt>SCO_VS_IN_SAMPLE_SIZE_MASK
+     </dt>
+<dt>SCO_VS_PCM_BIT_POS_MASK
+     </dt>
+<dt>SCO_VS_SETTING_DEFAULT</dt>
+</dl>
 
 
 
@@ -237,8 +222,8 @@ Reserved for future use. Do not use.
 ### -field RetransmissionEffort
 
 A 
-     <a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">
-     SCO_RETRANSMISSION_EFFORT</a> enumeration value that determines the retransmission policies for the
+     <mshelp:link keywords="bltooth.sco_retransmission_effort" tabindex="0"><b>
+     SCO_RETRANSMISSION_EFFORT</b></mshelp:link> enumeration value that determines the retransmission policies for the
      channel.
 
 
@@ -247,7 +232,6 @@ A
 Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
      the following table:
      
-
 <table>
 <tr>
 <td>
@@ -289,8 +273,7 @@ The profile driver indicates its preference that users not be prompted for a PIN
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field CallbackFlags
@@ -298,7 +281,6 @@ The profile driver indicates its preference that users not be prompted for a PIN
 A flag that specifies when the function assigned to the 
      <b>Callback</b> member should be sent to the client. Currently, there is only one valid flag:
      
-
 <table>
 <tr>
 <td>
@@ -320,8 +302,7 @@ The profile driver should be notified when the remote device is disconnected.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Callback
@@ -357,7 +338,6 @@ A flag that indicates whether the local server will accept or reject an incoming
      This member is used only when building and sending a <b>BRB_SCO_OPEN_CHANNEL_RESPONSE</b> request. Valid flag
      values are listed in the following table.
      
-
 <table>
 <tr>
 <th>Flag</th>
@@ -405,11 +385,36 @@ The local server rejects the SCO connection request because it does not accept c
 
 </td>
 </tr>
-</table>
- 
+</table> 
+
+
+##### - PacketType.SCO_EV3
+
+
+
+##### - PacketType.SCO_EV5
+
+
+
+##### - PacketType.SCO_EV4
+
+
+
+##### - PacketType.SCO_HV2
+
+
+
+##### - PacketType.SCO_HV3
+
+
+
+##### - PacketType.SCO_HV1
+
 
 
 ## -remarks
+
+
 To open a SCO channel, profile drivers should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a> request.
@@ -420,8 +425,8 @@ If the asynchronous connectionless link to the remote device does not exist prio
 To accept or reject an incoming SCO connection request initiated by a remote device, profile drivers
     should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <a href="https://social.msdn.microsoft.com/Forums/en-US/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">
-    BRB_SCO_OPEN_CHANNEL_RESPONSE</a> request.
+    <mshelp:link keywords="bltooth.brb_sco_open_channel_response" tabindex="0"><b>
+    BRB_SCO_OPEN_CHANNEL_RESPONSE</b></mshelp:link> request.
 
 A profile driver should build and send a <b>BRB_SCO_OPEN_CHANNEL_RESPONSE</b> request when the Bluetooth
     driver stack calls the profile driver's 
@@ -434,30 +439,23 @@ The profile driver specifies whether the connection should be accepted by storin
     <b>Response</b> member of this structure. In this context, the local system is the server.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-</dt>
-<dt>
-<a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">SCO_RETRANSMISSION_EFFORT</a>
-</dt>
-<dt>
-<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
-</dt>
-<dt>
+
+<a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">SCO_RETRANSMISSION_EFFORT</a>
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
 <a href="https://social.msdn.microsoft.com/Forums/en-US/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">BRB_SCO_OPEN_CHANNEL_RESPONSE</a>
-</dt>
-</dl>
+
+<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
+
  
 
  

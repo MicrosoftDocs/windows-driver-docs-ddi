@@ -7,8 +7,8 @@ old-location: netvista\rilradiostategroupflags.htm
 old-project: netvista
 ms.assetid: b44debf9-4f44-44fc-9857-e4725edc888f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILRADIOSTATEGROUPFLAGS, RILRADIOSTATEGROUPFLAGS
+ms.date: 1/18/2018
+ms.keywords: RILRADIOSTATEGROUPFLAGS enumeration [Network Drivers Starting with Windows Vista], netvista.rilradiostategroupflags, ntddrilapitypes/RIL_RADIOSTATE_GROUPFLAG_HASSUBGROUPS, RIL_RADIOSTATE_GROUPFLAG_HASSUBGROUPS, ntddrilapitypes/RILRADIOSTATEGROUPFLAGS, RILRADIOSTATEGROUPFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILRADIOSTATEGROUPFLAGS
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILRADIOSTATEGROUPFLAGS
+product: Windows
+targetos: Windows
 req.typenames: RILRADIOSTATEGROUPFLAGS
 ---
 
 # RILRADIOSTATEGROUPFLAGS enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILRADIOSTATEGROUPFLAGS { 
@@ -54,7 +64,13 @@ typedef enum _RILRADIOSTATEGROUPFLAGS {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_RADIOSTATE_GROUPFLAG_NONE
+
+
+
 ### -field RIL_RADIOSTATE_GROUPFLAG_HASSUBGROUPS
 
 
-## -remarks

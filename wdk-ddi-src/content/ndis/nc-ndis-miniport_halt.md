@@ -7,8 +7,8 @@ old-location: netvista\miniporthaltex.htm
 old-project: netvista
 ms.assetid: b8d452b4-bef3-4991-87cf-fac15bedfde4
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RxNameCacheInitialize
+ms.date: 1/18/2018
+ms.keywords: netvista.miniporthaltex, MiniportHaltEx callback function [Network Drivers Starting with Windows Vista], MiniportHaltEx, MINIPORT_HALT, MINIPORT_HALT, ndis/MiniportHaltEx, miniport_functions_ref_aa826b59-f204-43ea-81b6-f1bab84a7a23.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MiniportHaltEx
-req.alt-loc: Ndis.h
 req.ddi-compliance: WlanAssociation, WlanConnectionRoaming, WlanDisassociation, WlanTimedAssociation, WlanTimedConnectionRoaming, WlanTimedConnectRequest, WlanTimedLinkQuality, WlanTimedScan
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Ndis.h
+apiname: 
+-	MiniportHaltEx
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
 
 # MINIPORT_HALT callback
 
 
-
 ## -description
+
+
 NDIS calls a miniport driver's 
    <i>MiniportHaltEx</i> function to free resources when a miniport adapter is
    removed, and to stop the hardware. This function puts the miniport into the Halted state, where no other callback can occur (including <a href="..\ndis\nc-ndis-miniport_shutdown.md">MiniportShutdownEx</a>). For more information about miniport driver states, see <a href="https://msdn.microsoft.com/b47e2cbe-9da3-4600-9afe-b082e60b87fb">Miniport Adapter States and Operations</a>.
-
-
+<div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_HALT</b> type. For more information,
+   see the following Examples section.</div><div> </div>
 
 ## -prototype
+
 
 ````
 MINIPORT_HALT MiniportHaltEx;
@@ -59,6 +70,9 @@ VOID MiniportHaltEx(
 
 
 ## -parameters
+
+
+
 
 ### -param MiniportAdapterContext [in]
 
@@ -75,29 +89,12 @@ The reason for halting the miniport adapter. It can be one of the following valu
 
 
 
-### -param NdisHaltDeviceDisabled
-
-NDIS is halting the miniport adapter in response to a Plug and Play (PnP) remove message.
-
-
-### -param NdisHaltDeviceInstanceDeInitialized
-
-NDIS is halting the miniport adapter in response to an intermediate driver calling the 
-       <a href="..\ndis\nf-ndis-ndisimdeinitializedeviceinstance.md">
-       NdisIMDeInitializeDeviceInstance</a> function.
-
-
-### -param NdisHaltDevicePoweredDown
+##### - HaltAction.NdisHaltDevicePoweredDown
 
 NDIS is halting the miniport adapter because the system is going to a sleeping state.
 
 
-### -param NdisHaltDeviceSurpriseRemoved
-
-The miniport adapter has been surprise removed and the hardware is not present.
-
-
-### -param NdisHaltDeviceFailed
+##### - HaltAction.NdisHaltDeviceFailed
 
 The miniport adapter is being removed because of a hardware failure. Either the miniport driver
        called the 
@@ -105,36 +102,56 @@ The miniport adapter is being removed because of a hardware failure. Either the 
        bus driver did not power up the NIC on resume.
 
 
-### -param NdisHaltDeviceInitializationFailed
+##### - HaltAction.NdisHaltDeviceDisabled
+
+NDIS is halting the miniport adapter in response to a Plug and Play (PnP) remove message.
+
+
+##### - HaltAction.NdisHaltDeviceStopped
+
+NDIS is halting the miniport adapter in response to a PnP stop device message.
+
+
+##### - HaltAction.NdisHaltDeviceInitializationFailed
 
 NDIS could not initialize the miniport adapter for an unknown reason after the 
        <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function completed successfully.
 
 
-### -param NdisHaltDeviceStopped
+##### - HaltAction.NdisHaltDeviceInstanceDeInitialized
 
-NDIS is halting the miniport adapter in response to a PnP stop device message.
+NDIS is halting the miniport adapter in response to an intermediate driver calling the 
+       <mshelp:link keywords="netvista.ndisimdeinitializedeviceinstance" tabindex="0"><b>
+       NdisIMDeInitializeDeviceInstance</b></mshelp:link> function.
 
-</dd>
-</dl>
+
+##### - HaltAction.NdisHaltDeviceSurpriseRemoved
+
+The miniport adapter has been surprise removed and the hardware is not present.
+
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A driver specifies the 
     <i>MiniportHaltEx</i> entry point when it calls the 
-    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
-    NdisMRegisterMiniportDriver</a> function.
+    <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
+    NdisMRegisterMiniportDriver</b></mshelp:link> function.
 
 NDIS can call 
     <i>MiniportHaltEx</i> at any time after a driver's 
     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function
     returns successfully. If the driver controls a physical NIC, 
     <i>MiniportHaltEx</i> should stop the NIC. If an NDIS intermediate driver calls the 
-    <a href="..\ndis\nf-ndis-ndisimdeinitializedeviceinstance.md">
-    NdisIMDeInitializeDeviceInstance</a> function, NDIS calls the 
+    <mshelp:link keywords="netvista.ndisimdeinitializedeviceinstance" tabindex="0"><b>
+    NdisIMDeInitializeDeviceInstance</b></mshelp:link> function, NDIS calls the 
     <i>MiniportHaltEx</i> function for the driver's virtual device.
 
 <i>MiniportHaltEx</i> must free all resources that were allocated in 
@@ -151,8 +168,8 @@ If a NIC generates interrupts, a miniport driver's
     <i>MiniportHaltEx</i> function can be preempted by the driver's 
     <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a> function until the 
     <i>MiniportHaltEx</i> call to the 
-    <a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">
-    NdisMDeregisterInterruptEx</a> function returns. Such a driver's 
+    <mshelp:link keywords="netvista.ndismderegisterinterruptex" tabindex="0"><b>
+    NdisMDeregisterInterruptEx</b></mshelp:link> function returns. Such a driver's 
     <i>MiniportHaltEx</i> function should disable interrupts, and call 
     <b>
     NdisMDeregisterInterruptEx</b> as soon as possible. Note that a driver can keep getting interrupts
@@ -186,74 +203,79 @@ If the driver must wait for any operation to complete,
 
 NDIS calls
     <i>MiniportHaltEx</i> at IRQL = PASSIVE_LEVEL.
-
-To define a <i>MiniportHaltEx</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>MiniportHaltEx</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>MiniportHaltEx</i> function that is named "MyHaltEx", use the <b>MINIPORT_HALT</b> type as shown in this code example:
-
-Then, implement your function as follows:
-
-The <b>MINIPORT_HALT</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_HALT</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>MINIPORT_HALT MyHaltEx;</pre>
+</td>
+</tr>
+</table></span></div>Then, implement your function as follows:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>_Use_decl_annotations_
+VOID
+ MyHaltEx(
+    NDIS_HANDLE  MiniportAdapterContext,
+    NDIS_HALT_ACTION  HaltAction
+    )
+  {...}</pre>
+</td>
+</tr>
+</table></span></div>The <b>MINIPORT_HALT</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_HALT</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_return_net_buffer_lists.md">
-   MiniportReturnNetBufferLists</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisimdeinitializedeviceinstance.md">
-   NdisIMDeInitializeDeviceInstance</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">NdisMDeregisterInterruptEx</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismremoveminiport.md">NdisMRemoveMiniport</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismsleep.md">NdisMSleep</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/3ca03511-a912-4ee3-bd9f-1bd8e6996c48">Adapter States of a Miniport Driver</a>
-</dt>
-<dt>
+
+<a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
+
+<a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">NdisMDeregisterInterruptEx</a>
+
 <a href="https://msdn.microsoft.com/fd57a2b1-593d-412b-96b5-eabd3ea392e0">Halting a Miniport Adapter</a>
-</dt>
-<dt>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
 <a href="https://msdn.microsoft.com/b47e2cbe-9da3-4600-9afe-b082e60b87fb">Miniport Adapter States and Operations</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/20047ee2-ba37-47c2-858f-36e31ae19154">Miniport Driver Reset and Halt Functions</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a>
+
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+
+<a href="https://msdn.microsoft.com/3ca03511-a912-4ee3-bd9f-1bd8e6996c48">Adapter States of a Miniport Driver</a>
+
+<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
+
+<a href="..\ndis\nf-ndis-ndismremoveminiport.md">NdisMRemoveMiniport</a>
+
+<a href="..\ndis\nf-ndis-ndismsleep.md">NdisMSleep</a>
+
+<mshelp:link keywords="netvista.ndisimdeinitializedeviceinstance" tabindex="0"><b>
+   NdisIMDeInitializeDeviceInstance</b></mshelp:link>
+
+<mshelp:link keywords="netvista.miniportreturnnetbufferlists" tabindex="0"><i>
+   MiniportReturnNetBufferLists</i></mshelp:link>
+
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20MINIPORT_HALT callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20MINIPORT_HALT callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

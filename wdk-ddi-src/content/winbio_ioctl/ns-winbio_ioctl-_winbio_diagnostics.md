@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 06f6abf1-9b44-4cf3-96d3-2017e0f6adda
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WINBIO_DIAGNOSTICS, *PWINBIO_DIAGNOSTICS, WINBIO_DIAGNOSTICS
+ms.keywords: *PWINBIO_DIAGNOSTICS, winbio_ioctl/PWINBIO_DIAGNOSTICS, WINBIO_DIAGNOSTICS, _WINBIO_DIAGNOSTICS, WINBIO_DIAGNOSTICS structure [Biometric Devices], PWINBIO_DIAGNOSTICS structure pointer [Biometric Devices], PWINBIO_DIAGNOSTICS, biometric.winbio_diagnostics, biometric_ref_eca83e57-bec6-4d83-8596-978b73eed6de.xml, winbio_ioctl/WINBIO_DIAGNOSTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WINBIO_DIAGNOSTICS
-req.alt-loc: winbio_ioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PWINBIO_DIAGNOSTICS, WINBIO_DIAGNOSTICS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	winbio_ioctl.h
+apiname: 
+-	WINBIO_DIAGNOSTICS
+product: Windows
+targetos: Windows
+req.typenames: WINBIO_DIAGNOSTICS, *PWINBIO_DIAGNOSTICS
 req.product: Windows 10 or later.
 ---
 
 # _WINBIO_DIAGNOSTICS structure
 
 
-
 ## -description
+
+
 The <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_get_sensor_status.md">IOCTL_BIOMETRIC_GET_SENSOR_STATUS</a> IOCTL returns the WINBIO_DIAGNOSTICS structure as output.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WINBIO_DIAGNOSTICS {
@@ -58,6 +68,9 @@ typedef struct _WINBIO_DIAGNOSTICS {
 
 ## -struct-fields
 
+
+
+
 ### -field PayloadSize
 
 The total size of the payload.  This includes the fixed length structure and any variable data at the end.
@@ -66,7 +79,6 @@ The total size of the payload.  This includes the fixed length structure and any
 ### -field WinBioHresult
 
 The status detail of the I/O operation.  This is where WINBIO error and information codes will be passed. The following table shows possible values.
-
 <table>
 <tr>
 <th>Status value</th>
@@ -92,8 +104,7 @@ The driver could not gather the necessary information from the device.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field SensorStatus
@@ -106,15 +117,10 @@ A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware
 An optional <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_data.md">WINBIO_DATA</a> structure for vendor-specific additional information.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_get_sensor_status.md">IOCTL_BIOMETRIC_GET_SENSOR_STATUS</a>
-</dt>
-</dl>
+
  
 
  

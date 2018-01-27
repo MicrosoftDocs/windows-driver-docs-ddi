@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D72D6C06-DD6A-4051-9AD0-FD1E240C164A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_CHECKPRESENTDURATIONSUPPORT, D3DDDIARG_CHECKPRESENTDURATIONSUPPORT
+ms.keywords: D3DDDIARG_CHECKPRESENTDURATIONSUPPORT structure [Display Devices], D3DDDIARG_CHECKPRESENTDURATIONSUPPORT, display.d3dddiarg_checkpresentdurationsupport, d3dumddi/D3DDDIARG_CHECKPRESENTDURATIONSUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1,WDDM 1.3 and later
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_CHECKPRESENTDURATIONSUPPORT
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	D3DDDIARG_CHECKPRESENTDURATIONSUPPORT
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_CHECKPRESENTDURATIONSUPPORT
 ---
 
 # D3DDDIARG_CHECKPRESENTDURATIONSUPPORT structure
 
 
-
 ## -description
+
+
 Used in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkpresentdurationsupport.md">CheckPresentDurationSupport</a> function to check details on hardware device support for seamlessly switching to a new monitor refresh rate.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -56,6 +66,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field VidPnSourceId
 
@@ -82,6 +95,8 @@ See Remarks for more limitations on this value.
 
 
 ## -remarks
+
+
 Either  <b>ClosestSmallerDuration</b> or <b>ClosestLargerDuration</b> can be zero. However, if both  are zero, the device cannot seamlessly switch to a new refresh rate.
 
 If both <b>ClosestSmallerDuration</b> and <b>ClosestLargerDuration</b> have the same value as <b>DesiredPresentDuration</b>, the device can precisely match <b>DesiredPresentDuration</b>.
@@ -89,12 +104,11 @@ If both <b>ClosestSmallerDuration</b> and <b>ClosestLargerDuration</b> have the 
 The difference between <b>DesiredPresentDuration</b> and <b>ClosestSmallerDuration</b> (or <b>ClosestLargerDuration</b>) represents the driver’s knowledge of the device capabilities, but there will be additional error during execution. The final accuracy of the device when using per-present durations should typically be the same as the accuracy using  existing presentation modes.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkpresentdurationsupport.md">CheckPresentDurationSupport</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 43392c57-8fe9-4219-9f00-ac73c83c3abc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlSetOwnerSecurityDescriptor
+ms.keywords: ifsk.rtlsetownersecuritydescriptor, rtlref_c8ec0e44-dadc-42ad-9947-2ecb5ec4aa57.xml, RtlSetOwnerSecurityDescriptor routine [Installable File System Drivers], ntifs/RtlSetOwnerSecurityDescriptor, RtlSetOwnerSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlSetOwnerSecurityDescriptor
-req.alt-loc: NtosKrnl.exe,Ntdll.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+-	Ntdll.dll
+apiname: 
+-	RtlSetOwnerSecurityDescriptor
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlSetOwnerSecurityDescriptor function
 
 
-
 ## -description
+
+
 The <b>RtlSetOwnerSecurityDescriptor</b> routine sets the owner information of an absolute-format security descriptor. It replaces any owner information that is already present in the security descriptor. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlSetOwnerSecurityDescriptor(
@@ -55,6 +66,9 @@ NTSTATUS RtlSetOwnerSecurityDescriptor(
 
 
 ## -parameters
+
+
+
 
 ### -param SecurityDescriptor [in, out]
 
@@ -72,54 +86,78 @@ Set to <b>TRUE</b> if the owner information is derived from a default mechanism.
 
 
 ## -returns
+
+
 <b>RtlSetOwnerSecurityDescriptor</b> can return one of the following status codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The owner was successfully set or reset.
+</dl>
+</td>
+<td width="60%">
+The owner was successfully set or reset.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNKNOWN_REVISION</b></dt>
-</dl>The given security descriptor's version is not recognized by this routine.
+</dl>
+</td>
+<td width="60%">
+The given security descriptor's version is not recognized by this routine.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_SECURITY_DESCR</b></dt>
-</dl>The given security descriptor is not a valid absolute security descriptor.
+</dl>
+</td>
+<td width="60%">
+The given security descriptor is not a valid absolute security descriptor.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlcreatesecuritydescriptorrelative.md">RtlCreateSecurityDescriptorRelative</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556619">SECURITY_DESCRIPTOR_CONTROL</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-rtlcreatesecuritydescriptorrelative.md">RtlCreateSecurityDescriptorRelative</a>
+
+<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
+
+<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556619">SECURITY_DESCRIPTOR_CONTROL</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 0692D8A3-CA43-4D27-9E8E-EB104DB1651F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbTargetGetConnectionParameters
+ms.keywords: SpbTargetGetConnectionParameters, SpbTargetGetConnectionParameters method [Buses], SPB.spbtargetgetconnectionparameters, spbcx/SpbTargetGetConnectionParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SpbTargetGetConnectionParameters
-req.alt-loc: spbcxstubs.lib,spbcxstubs.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	spbcxstubs.lib
+-	spbcxstubs.dll
+apiname: 
+-	SpbTargetGetConnectionParameters
+product: Windows
+targetos: Windows
 req.typenames: *PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # SpbTargetGetConnectionParameters function
 
 
-
 ## -description
+
+
 The <b>SpbTargetGetConnectionParameters</b> method retrieves the connection parameters for a target device on the bus.
 
 
-
 ## -syntax
+
 
 ````
 VOID SpbTargetGetConnectionParameters(
@@ -55,6 +66,9 @@ VOID SpbTargetGetConnectionParameters(
 
 
 ## -parameters
+
+
+
 
 ### -param Target [in]
 
@@ -67,10 +81,15 @@ A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/wind
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 This method retrieves a set of connection parameters that the SPB controller driver requires to access the specified target device on the bus. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh406204">SPB_CONNECTION_PARAMETERS</a>.
 
 A client (peripheral driver) that successfully opens a connection to a target has exclusive use of that target.
@@ -80,24 +99,19 @@ The SPB framework extension (SpbCx) calls your controller driver's <a href="http
 <b>SpbTargetGetConnectionParameters</b> will not fail if it is called with a valid SPBTARGET handle.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406204">SPB_CONNECTION_PARAMETERS</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406205">SPB_CONNECTION_PARAMETERS_INIT</a>
-</dt>
-<dt>
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
+
+<a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406205">SPB_CONNECTION_PARAMETERS_INIT</a>
+
  
 
  

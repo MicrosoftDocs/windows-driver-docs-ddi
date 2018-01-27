@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6cdc0665-61e6-4c13-9b15-46ce301febec
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_MULTISAMPLEMETHOD, D3DKMT_MULTISAMPLEMETHOD
+ms.keywords: D3DKMT_MULTISAMPLEMETHOD structure [Display Devices], _D3DKMT_MULTISAMPLEMETHOD, d3dkmthk/D3DKMT_MULTISAMPLEMETHOD, OpenGL_Structs_0617065f-aa53-4b1a-9a3f-e135972d4852.xml, display.d3dkmt_multisamplemethod, D3DKMT_MULTISAMPLEMETHOD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_MULTISAMPLEMETHOD
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_MULTISAMPLEMETHOD
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_MULTISAMPLEMETHOD
 ---
 
 # _D3DKMT_MULTISAMPLEMETHOD structure
 
 
-
 ## -description
+
+
 The D3DKMT_MULTISAMPLEMETHOD structure describes a multiple-sampling method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_MULTISAMPLEMETHOD {
@@ -55,6 +65,9 @@ typedef struct _D3DKMT_MULTISAMPLEMETHOD {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NumSamples
 
@@ -72,18 +85,18 @@ typedef struct _D3DKMT_MULTISAMPLEMETHOD {
 
 
 ## -remarks
+
+
 The driver can partition its quality levels for a given multiple-sampling method into as many increments as it requires, with the condition that each incremental step noticeably improves the quality of the presented image.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getmultisamplemethodlist.md">D3DKMT_GETMULTISAMPLEMETHODLIST</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetmultisamplemethodlist.md">D3DKMTGetMultisampleMethodList</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getmultisamplemethodlist.md">D3DKMT_GETMULTISAMPLEMETHODLIST</a>
+
  
 
  

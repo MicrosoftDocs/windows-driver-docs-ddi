@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 00f776f7-83c5-4856-a1d3-8b76122d3986
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsAdvanceLogBase
+ms.keywords: Clfs_d8f1a522-ef50-47fe-bd39-f18f2f176a3b.xml, kernel.clfsadvancelogbase, ClfsAdvanceLogBase, ClfsAdvanceLogBase routine [Kernel-Mode Driver Architecture], wdm/ClfsAdvanceLogBase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ClfsAdvanceLogBase
-req.alt-loc: Clfs.sys,Ext-MS-Win-fs-clfs-l1-1-0.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Clfs.sys
+-	Ext-MS-Win-fs-clfs-l1-1-0.dll
+apiname: 
+-	ClfsAdvanceLogBase
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ClfsAdvanceLogBase function
 
 
-
 ## -description
+
+
 The <b>ClfsAdvanceLogBase</b> routine sets the base LSN of a CLFS stream.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ClfsAdvanceLogBase(
@@ -56,6 +67,9 @@ NTSTATUS ClfsAdvanceLogBase(
 
 
 ## -parameters
+
+
+
 
 ### -param pvMarshalContext [in, out]
 
@@ -73,10 +87,15 @@ This parameter is reserved for system use. Callers must set this parameter to ze
 
 
 ## -returns
+
+
 <b>ClfsAdvanceLogBase</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
+
 ## -remarks
+
+
 <b>ClfsAdvanceLogBase</b> does not write any records to the CLFS log; the only updates to the log are in the metadata. If you want to update the base LSN and write a restart record to a stream at the same time, call <a href="..\wdm\nf-wdm-clfswriterestartarea.md">ClfsWriteRestartArea</a>.
 
 Whenever possible, CLFS avoids writing queued log records that have LSNs less than the new base LSN to stable storage.
@@ -86,12 +105,11 @@ Whenever possible, CLFS avoids writing queued log records that have LSNs less th
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-clfswriterestartarea.md">ClfsWriteRestartArea</a>
-</dt>
-</dl>
+
  
 
  

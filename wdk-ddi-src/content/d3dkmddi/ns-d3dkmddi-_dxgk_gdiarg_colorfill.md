@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f7dad933-31e6-4de2-9753-67c054f44c4a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_GDIARG_COLORFILL, DXGK_GDIARG_COLORFILL
+ms.keywords: DXGK_GDIARG_COLORFILL structure [Display Devices], _DXGK_GDIARG_COLORFILL, DXGK_GDIARG_COLORFILL, display.dxgk_gdiarg_colorfill, DmStructs_d80a1a76-a7d1-4c7e-b9b1-3c6986124f77.xml, d3dkmddi/DXGK_GDIARG_COLORFILL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_GDIARG_COLORFILL
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_GDIARG_COLORFILL
+product: Windows
+targetos: Windows
 req.typenames: DXGK_GDIARG_COLORFILL
 ---
 
 # _DXGK_GDIARG_COLORFILL structure
 
 
-
 ## -description
+
+
 The DXGK_GDIARG_COLORFILL structure describes the characteristics of a GDI hardware-accelerated color fill operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_GDIARG_COLORFILL {
@@ -59,6 +69,9 @@ typedef struct _DXGK_GDIARG_COLORFILL {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DstRect
 
@@ -109,24 +122,16 @@ The destination rectangle defined by <b>DstRect</b> can exceed the bounds of the
      
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_gdirop_colorfill.md">DXGK_GDIROP_COLORFILL</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-</dt>
-</dl>
+
  
 
  

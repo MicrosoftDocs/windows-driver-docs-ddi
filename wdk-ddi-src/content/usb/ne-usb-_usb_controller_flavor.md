@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: c732fe90-50fb-4f6e-b42e-cb35c1ed0091
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_CONTROLLER_FLAVOR, USB_CONTROLLER_FLAVOR
+ms.keywords: OHCI_NEC, EHCI_NVIDIA_Tegra2, usb/UHCI_Piix3, OHCI_Generic, UHCI_Intel, buses.usb_controller_flavor, usb/UHCI_Ich2, UHCI_VIA_x04, usb/EHCI_Generic, UHCI_Ich5, usb/USB_HcGeneric, UHCI_VIA_x0E_FIFO, usb/UHCI_Ich5, usb/UHCI_Generic, UHCI_Ich6, UHCI_VIA, EHCI_Lucent, usb/EHCI_NVIDIA_Tegra3, usbstrct_a1b79c0b-7ee4-48bd-9793-8f37b9d248f2.xml, usb/EHCI_NVIDIA_Tegra2, usb/EHCI_Intel_Medfield, USB_CONTROLLER_FLAVOR, usb/OHCI_NEC, UHCI_VIA_x03, UHCI_Generic, _USB_CONTROLLER_FLAVOR, EHCI_Intel_Medfield, UHCI_Ich3m, USB_CONTROLLER_FLAVOR enumeration [Buses], EHCI_NEC, usb/USB_CONTROLLER_FLAVOR, usb/OHCI_Generic, UHCI_Ich4, usb/EHCI_NEC, UHCI_VIA_x01, usb/EHCI_Lucent, usb/UHCI_Intel, usb/UHCI_Ich1, usb/UHCI_VIA_x04, usb/UHCI_VIA_x02, usb/UHCI_Piix4, USB_HcGeneric, usb/UHCI_VIA_x0E_FIFO, EHCI_NVIDIA_Tegra3, usb/UHCI_Ich3m, usb/UHCI_Ich6, usb/UHCI_VIA, usb/UHCI_VIA_x01, EHCI_Generic, UHCI_Piix3, UHCI_Ich2, OHCI_Hydra, UHCI_VIA_x02, UHCI_Ich1, UHCI_Piix4, usb/UHCI_VIA_x03, usb/OHCI_Hydra, usb/UHCI_Ich4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_CONTROLLER_FLAVOR
-req.alt-loc: usb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usb.h
+apiname: 
+-	USB_CONTROLLER_FLAVOR
+product: Windows
+targetos: Windows
 req.typenames: USB_CONTROLLER_FLAVOR
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USB_CONTROLLER_FLAVOR enumeration
 
 
-
 ## -description
+
+
 The <b>USB_CONTROLLER_FLAVOR</b> enumeration specifies the type of USB host controller.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _USB_CONTROLLER_FLAVOR { 
@@ -79,6 +89,9 @@ typedef enum _USB_CONTROLLER_FLAVOR {
 
 
 ## -enum-fields
+
+
+
 
 ### -field USB_HcGeneric
 
@@ -118,6 +131,10 @@ Indicates an Intel PIIX3 UHCI host controller.
 ### -field UHCI_Ich2
 
 Indicates an Intel ICH2 UHCI host controller.
+
+
+### -field UHCI_Reserved204
+
 
 
 ### -field UHCI_Ich1
@@ -210,18 +227,12 @@ Indicates a Revision 3 NVIDIA Tegra EHCI host controller.
 Indicates an Intel Medfield host controller.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539256">USB_CONTROLLER_INFO_0</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: BE2E35B0-1C34-4740-ABED-4E96F8908174
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxSetComponentWake
+ms.keywords: PoFxSetComponentWake, wdm/PoFxSetComponentWake, kernel.pofxsetcomponentwake, PoFxSetComponentWake routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PoFxSetComponentWake
-req.alt-loc: Ntoskrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Ntoskrnl.exe
+apiname: 
+-	PoFxSetComponentWake
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PoFxSetComponentWake function
 
 
-
 ## -description
+
+
 The <b>PoFxSetComponentWake</b> routine indicates whether the driver arms the specified component to wake whenever the component enters the idle condition.
 
 
-
 ## -syntax
+
 
 ````
 VOID PoFxSetComponentWake(
@@ -56,6 +66,9 @@ VOID PoFxSetComponentWake(
 
 
 ## -parameters
+
+
+
 
 ### -param Handle [in]
 
@@ -73,10 +86,15 @@ Whether the driver arms the component to wake whenever the component enters the 
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 Before a component enters a low-power Fx state, the driver might arm the component to automatically wake in response to an input signal from an external source (for example, if the user pushes a button). The <i>WakeHint</i> parameter informs PoFx whether the driver arms the component to wake. If a component is armed to wake, PoFx will not switch the component to a low-power Fx state from which the component cannot wake.
 
 When a device is registered with PoFx, the registration information for each component in the device is contained in a separate <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a> structure. The <b>DeepestWakeableIdleState</b> member of this structure specifies the deepest Fx state from which the component can wake.
@@ -87,12 +105,11 @@ The device driver can call <b>PoFxSetComponentWake</b> each time a change in con
 If a component is in the idle condition when <b>PoFxSetComponentWake</b> is called, PoFx might change the component’s Fx state to accommodate the new <i>WakeHint</i> parameter value specified by the caller.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a>
-</dt>
-</dl>
+
  
 
  

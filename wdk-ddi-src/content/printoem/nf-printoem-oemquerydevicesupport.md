@@ -7,8 +7,8 @@ old-location: print\oemquerydevicesupport.htm
 old-project: print
 ms.assetid: 38e1bb07-be98-494b-a9c9-a83edef367e0
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: OEMQueryDeviceSupport
+ms.date: 1/18/2018
+ms.keywords: OEMQueryDeviceSupport function [Print Devices], print.oemquerydevicesupport, printoem/OEMQueryDeviceSupport, OEMQueryDeviceSupport, print_unidrv-pscript_rendering_9bfec781-8785-4ff6-8abf-6e14233827dc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OEMQueryDeviceSupport
-req.alt-loc: printoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	printoem.h
+apiname: 
+-	OEMQueryDeviceSupport
+product: Windows
+targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # OEMQueryDeviceSupport function
 
 
-
 ## -description
+
+
 The <code>OEMQueryDeviceSupport</code> function returns requested device-specific information.
 
 
-
 ## -syntax
+
 
 ````
 BOOL APIENTRY OEMQueryDeviceSupport(
@@ -62,28 +72,37 @@ BOOL APIENTRY OEMQueryDeviceSupport(
 
 ## -parameters
 
-### -param pso 
 
 
-### -param pxlo 
+
+### -param pso
 
 
-### -param pxo 
+
+### -param pxlo
 
 
-### -param iType 
+
+### -param pxo
 
 
-### -param cjIn 
+
+### -param iType
+
+
+
+### -param cjIn
+
 
 
 ### -param pvIn [in]
 
 
-### -param cjOut 
+
+### -param cjOut
+
 
 
 ### -param pvOut [out]
 
 
-## -remarks

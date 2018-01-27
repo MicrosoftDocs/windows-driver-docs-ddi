@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 76509992-E5A7-4C2F-84D3-B3FD06ACEFE1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _GPIO_PIN_CONFIG_TYPE, GPIO_PIN_CONFIG_TYPE
+ms.keywords: kernel.gpio_pin_config_type, PullDefault, pepfx/PullDown, pepfx/PullNone, PullUp, pepfx/PullDefault, PullDown, pepfx/PullUp, GPIO_PIN_CONFIG_TYPE enumeration [Kernel-Mode Driver Architecture], PullNone, _GPIO_PIN_CONFIG_TYPE, GPIO_PIN_CONFIG_TYPE, pepfx/GPIO_PIN_CONFIG_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GPIO_PIN_CONFIG_TYPE
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	GPIO_PIN_CONFIG_TYPE
+product: Windows
+targetos: Windows
 req.typenames: GPIO_PIN_CONFIG_TYPE
 ---
 
 # _GPIO_PIN_CONFIG_TYPE enumeration
 
 
-
 ## -description
+
+
 The <b>GPIO_PIN_CONFIG_TYPE</b> enumeration describes a connection IO resource.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _GPIO_PIN_CONFIG_TYPE { 
@@ -56,6 +66,9 @@ typedef enum _GPIO_PIN_CONFIG_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field PullDefault
 
@@ -76,5 +89,3 @@ Indicates that this pin is configured to use a pull-down resistor.
 
 Indicates that this pin is not configured to use a pull-up or pull-down resistor.
 
-
-## -remarks

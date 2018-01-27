@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fe545ee3-8004-46fc-a49a-4274f8d1a6a7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_DATAFORMAT_DV_AVC, *PKS_DATAFORMAT_DV_AVC, KS_DATAFORMAT_DV_AVC
+ms.keywords: PKS_DATAFORMAT_DV_AVC, KS_DATAFORMAT_DV_AVC, PKS_DATAFORMAT_DV_AVC structure pointer [Streaming Media Devices], stream.ks_dataformat_dv_avc, tagKS_DATAFORMAT_DV_AVC, avcsref_36d913e1-7071-46db-849d-2493fa30aad8.xml, avcstrm/KS_DATAFORMAT_DV_AVC, *PKS_DATAFORMAT_DV_AVC, KS_DATAFORMAT_DV_AVC structure [Streaming Media Devices], avcstrm/PKS_DATAFORMAT_DV_AVC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_DATAFORMAT_DV_AVC
-req.alt-loc: avcstrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	avcstrm.h
+apiname: 
+-	KS_DATAFORMAT_DV_AVC
+product: Windows
+targetos: Windows
 req.typenames: *PKS_DATAFORMAT_DV_AVC, KS_DATAFORMAT_DV_AVC
 ---
 
 # tagKS_DATAFORMAT_DV_AVC structure
 
 
-
 ## -description
+
+
 The KS_DATAFORMAT_DV_AVC structure stores the data format for an AV/C digital video connection.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagKS_DATAFORMAT_DV_AVC {
@@ -55,6 +65,9 @@ typedef struct tagKS_DATAFORMAT_DV_AVC {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DataFormat
 
@@ -71,21 +84,14 @@ Specifies the digital video information, for example, sound tracks and video inf
 Specifies the AV/C connection information.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-</dt>
-<dt>
-<a href="..\avcstrm\ns-avcstrm-_dvinfo.md">DVINFO</a>
-</dt>
-<dt>
+
 <a href="..\avc\ns-avc-_avcconnectinfo.md">AVCCONNECTINFO</a>
-</dt>
-</dl>
+
+<a href="..\avcstrm\ns-avcstrm-_dvinfo.md">DVINFO</a>
+
  
 
  

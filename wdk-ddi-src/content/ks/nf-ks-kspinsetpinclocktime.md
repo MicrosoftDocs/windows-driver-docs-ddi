@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 85dac103-c729-4202-96b1-661891c6a531
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinSetPinClockTime
+ms.keywords: stream.kspinsetpinclocktime, avfunc_8f1c1b04-c5eb-4aa1-9cdf-84b86da388e9.xml, ks/KsPinSetPinClockTime, KsPinSetPinClockTime function [Streaming Media Devices], KsPinSetPinClockTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsPinSetPinClockTime
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsPinSetPinClockTime
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsPinSetPinClockTime function
 
 
-
 ## -description
+
+
 The<b> KsPinSetPinClockTime </b>function sets the current time on the clock exposed by <i>Pin</i>.
 
 
-
 ## -syntax
+
 
 ````
 VOID KsPinSetPinClockTime(
@@ -54,6 +65,9 @@ VOID KsPinSetPinClockTime(
 
 
 ## -parameters
+
+
+
 
 ### -param Pin [in]
 
@@ -66,40 +80,37 @@ This parameter specifies the time that is set on the clock exposed by <i>Pin</i>
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>KsPinSetPinClockTime </b>modifies the current time returned by the clock. If an external clock is used, this function can still be used to force a resetting of the current timer when the external timer is not being used. In this case, the time provided is ignored and must be set to zero.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
-</dt>
-<dt>
-<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
-</dt>
-<dt>
-<a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceClock</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
+
+<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+
+<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
+
+<a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceClock</a>
+
+<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
+
+<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
+
+<a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
+
  
 
  

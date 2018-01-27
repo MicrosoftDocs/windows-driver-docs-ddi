@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A9E28600-45B2-4082-917F-29B3237DEC84
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _BAND_LOCATION_INFO, *PBAND_LOCATION_INFO, BAND_LOCATION_INFO
+ms.keywords: ehstorbandmgmt/PBAND_LOCATION_INFO, storage.band_location_info, ehstorbandmgmt/BAND_LOCATION_INFO, BAND_LOCATION_INFO, PBAND_LOCATION_INFO structure pointer [Storage Devices], _BAND_LOCATION_INFO, BAND_LOCATION_INFO structure [Storage Devices], PBAND_LOCATION_INFO, *PBAND_LOCATION_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BAND_LOCATION_INFO
-req.alt-loc: EhStorBandMgmt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	EhStorBandMgmt.h
+apiname: 
+-	BAND_LOCATION_INFO
+product: Windows
+targetos: Windows
 req.typenames: *PBAND_LOCATION_INFO, BAND_LOCATION_INFO
 ---
 
 # _BAND_LOCATION_INFO structure
 
 
-
 ## -description
+
+
 The <b>BAND_LOCATION_INFO</b> structure specifies the location information for a band table entry query.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BAND_LOCATION_INFO {
@@ -57,6 +67,9 @@ typedef struct _BAND_LOCATION_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field StructSize
 
@@ -84,21 +97,20 @@ A metadata field used as a data area for a band management application.
 
 
 ## -remarks
+
+
 <b>BandStart</b> and <b>BandSize</b> must be a multiple of the sector size of the underlying storage device.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table_entry.md">BAND_TABLE_ENTRY</a>
-</dt>
-<dt>
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_create_band.md">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a>
-</dt>
-<dt>
+
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands.md">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a>
-</dt>
-</dl>
+
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_create_band.md">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a>
+
  
 
  

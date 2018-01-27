@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dcd13afa-1467-407c-b843-ff88bd6526c3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcMdlWriteComplete
+ms.keywords: CcMdlWriteComplete, ifsk.ccmdlwritecomplete, ccref_fe5a4900-c0bc-4100-b3e9-e2b7d780a9d2.xml, CcMdlWriteComplete routine [Installable File System Drivers], ntifs/CcMdlWriteComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcMdlWriteComplete
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcMdlWriteComplete
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcMdlWriteComplete function
 
 
-
 ## -description
+
+
 The <b>CcMdlWriteComplete</b> routine frees the memory descriptor lists (MDL) created by <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a> for a cached file.
 
 
-
 ## -syntax
+
 
 ````
 VOID CcMdlWriteComplete(
@@ -55,6 +65,9 @@ VOID CcMdlWriteComplete(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -72,10 +85,15 @@ Address of the MDL chain returned by <a href="..\ntifs\nf-ntifs-ccpreparemdlwrit
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 File systems call <b>CcMdlWriteComplete</b> to free the memory descriptor lists (MDL) created by <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a> for a cached file and to mark the specified byte range for write. All physical pages that were locked down are unlocked. Any pages that were mapped are unmapped.
 
 If the FO_WRITE_THROUGH flag is set on the file object pointed to by the <i>FileObject</i> parameter, the file data is immediately flushed to disk. This flush operation re-enters the file system and can cause <b>CcMdlWriteComplete</b> to raise an exception if the flush operation fails. In this case, the MDL has not been freed and the caller may re-try the operation.
@@ -87,15 +105,13 @@ Before using <b>CcMdlWriteComplete</b>, file system developers are strongly enco
 Each call to <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a> must be followed by a call to <b>CcMdlWriteComplete</b> or <a href="..\ntifs\nf-ntifs-ccmdlwriteabort.md">CcMdlWriteAbort</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccmdlwriteabort.md">CcMdlWriteAbort</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ccmdlwriteabort.md">CcMdlWriteAbort</a>
+
  
 
  

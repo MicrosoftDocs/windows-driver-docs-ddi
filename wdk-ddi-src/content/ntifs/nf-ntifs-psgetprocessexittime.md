@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2d98e2f5-0dc4-4490-a039-eb57f0e5fa87
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PsGetProcessExitTime
+ms.keywords: psref_a3867d14-4a6b-4560-a580-cdc00075b185.xml, ifsk.psgetprocessexittime, PsGetProcessExitTime routine [Installable File System Drivers], PsGetProcessExitTime, ntifs/PsGetProcessExitTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PsGetProcessExitTime
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	PsGetProcessExitTime
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # PsGetProcessExitTime function
 
 
-
 ## -description
+
+
 The <b>PsGetProcessExitTime</b> routine returns the exit time for the current process.
 
 
-
 ## -syntax
+
 
 ````
 LARGE_INTEGER PsGetProcessExitTime(
@@ -54,33 +64,37 @@ LARGE_INTEGER PsGetProcessExitTime(
 
 ## -parameters
 
-### -param  
 
-None
+
+
+
+
 
 
 ## -returns
+
+
 <b>PsGetProcessExitTime</b> returns the exit time for the current process, in system time format. 
 
 
+
 ## -remarks
+
+
 System time is a count of 100-nanosecond intervals since January 1, 1601. System time is typically updated approximately every ten milliseconds. This value is computed for the GMT time zone. To adjust this value for the local time zone, use <b>ExSystemTimeToLocalTime</b>.
 
 For more information about converting time values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542994">Data Conversions</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-psisthreadterminating.md">PsIsThreadTerminating</a>
-</dt>
-</dl>
+
  
 
  

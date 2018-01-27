@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 01c34bb8-b164-425d-b81c-7eefc08296e2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, *PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, FEATURE_DATA_CD_AUDIO_ANALOG_PLAY
+ms.keywords: *PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, storage.feature_data_cd_audio_analog_play, PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, _FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, ntddmmc/PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure pointer [Storage Devices], structs-CD-ROM_87a067ea-0911-429b-808a-102f9600ecac.xml, FEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure [Storage Devices], ntddmmc/FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, FEATURE_DATA_CD_AUDIO_ANALOG_PLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FEATURE_DATA_CD_AUDIO_ANALOG_PLAY
-req.alt-loc: ntddmmc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, FEATURE_DATA_CD_AUDIO_ANALOG_PLAY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddmmc.h
+apiname: 
+-	FEATURE_DATA_CD_AUDIO_ANALOG_PLAY
+product: Windows
+targetos: Windows
+req.typenames: FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, *PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY
 ---
 
 # _FEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure
 
 
-
 ## -description
+
+
 The FEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure holds information about the CD Audio External Play feature.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FEATURE_DATA_CD_AUDIO_ANALOG_PLAY {
@@ -59,6 +69,9 @@ typedef struct _FEATURE_DATA_CD_AUDIO_ANALOG_PLAY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -93,19 +106,20 @@ Reserved.
 ### -field NumerOfVolumeLevels
 
 
+
 ## -remarks
+
+
 This structure holds data for the feature named "CD Audio External Play" by the <i>MMC-3 </i>specification. Devices that support this feature can play CD audio data and channel it directly to an external output.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
-</dt>
-</dl>
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
  
 
  

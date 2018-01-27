@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7a6ae185-2f91-4285-b540-61130aef464c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _GetDiscoveredPortAttributes_OUT, *PGetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT
+ms.keywords: PGetDiscoveredPortAttributes_OUT structure pointer [Storage Devices], GetDiscoveredPortAttributes_OUT, *PGetDiscoveredPortAttributes_OUT, hbapiwmi/GetDiscoveredPortAttributes_OUT, structs-Fibre_611d9a0e-b0dc-472e-9bec-3902412e8ec4.xml, _GetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT structure [Storage Devices], storage.getdiscoveredportattributes_out, PGetDiscoveredPortAttributes_OUT, hbapiwmi/PGetDiscoveredPortAttributes_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GetDiscoveredPortAttributes_OUT
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	GetDiscoveredPortAttributes_OUT
+product: Windows
+targetos: Windows
 req.typenames: *PGetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT
 ---
 
 # _GetDiscoveredPortAttributes_OUT structure
 
 
-
 ## -description
+
+
 The GetDiscoveredPortAttributes_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a> WMI method to the WMI client. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GetDiscoveredPortAttributes_OUT {
@@ -54,6 +64,9 @@ typedef struct _GetDiscoveredPortAttributes_OUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HBAStatus
 
@@ -66,15 +79,16 @@ Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattri
 
 
 ## -remarks
+
+
 The WMI tool suite generates a declaration of the GetDiscoveredPortAttributes_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
-</dt>
-</dl>
+
  
 
  

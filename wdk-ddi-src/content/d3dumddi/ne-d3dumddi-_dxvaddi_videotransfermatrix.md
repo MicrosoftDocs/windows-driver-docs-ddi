@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ef1f3c9b-70e5-48bd-b9f4-60ec661dc880
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVADDI_VIDEOTRANSFERMATRIX, DXVADDI_VIDEOTRANSFERMATRIX
+ms.keywords: DXVADDI_VIDEOTRANSFERMATRIX enumeration [Display Devices], DXVADDI_VideoTransferMatrix_BT709, DXVADDI_VideoTransferMatrix_Unknown, d3dumddi/DXVADDI_VideoTransferMatrix_BT709, d3dumddi/DXVADDI_VideoTransferMatrix_SMPTE240M, DXVA2_Structs_af3c1fd4-43c5-4700-b88e-46f54feed5d2.xml, DXVADDI_VideoTransferMatrixMask, d3dumddi/DXVADDI_VIDEOTRANSFERMATRIX, display.dxvaddi_videotransfermatrix, DXVADDI_VideoTransferMatrix_BT601, _DXVADDI_VIDEOTRANSFERMATRIX, d3dumddi/DXVADDI_VideoTransferMatrix_Unknown, DXVADDI_VIDEOTRANSFERMATRIX, d3dumddi/DXVADDI_VideoTransferMatrix_BT601, d3dumddi/DXVADDI_VideoTransferMatrixMask, DXVADDI_VideoTransferMatrix_SMPTE240M
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVADDI_VIDEOTRANSFERMATRIX
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVADDI_VIDEOTRANSFERMATRIX
+product: Windows
+targetos: Windows
 req.typenames: DXVADDI_VIDEOTRANSFERMATRIX
 ---
 
 # _DXVADDI_VIDEOTRANSFERMATRIX enumeration
 
 
-
 ## -description
+
+
 The DXVADDI_VIDEOTRANSFERMATRIX enumeration type contains values that identify the conversion matrix from Y'Cb'Cr' to (studio) R'G'B'.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXVADDI_VIDEOTRANSFERMATRIX { 
@@ -57,6 +67,9 @@ typedef enum _DXVADDI_VIDEOTRANSFERMATRIX {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXVADDI_VideoTransferMatrixMask
 
@@ -84,15 +97,16 @@ Specifies a HD video standard that is rarely used in Japan.
 
 
 ## -remarks
+
+
 One of the values of DXVADDI_VIDEOTRANSFERMATRIX can be specified in the <b>VideoTransferMatrix</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
-</dt>
-</dl>
+
  
 
  

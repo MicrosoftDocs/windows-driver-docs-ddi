@@ -7,8 +7,8 @@ old-location: netvista\rilequipmentstate_2.htm
 old-project: netvista
 ms.assetid: fd3af191-aae8-4afa-b737-8c51029df0e4
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILEQUIPMENTSTATE, RILEQUIPMENTSTATE
+ms.date: 1/18/2018
+ms.keywords: RILEQUIPMENTSTATE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_EQSTATE_FULL, netvista.rilequipmentstate_2, rilapitypes/RIL_EQSTATE_SHUTDOWN, RIL_EQSTATE_MAX, rilapitypes/RIL_EQSTATE_MAX, RIL_EQSTATE_SHUTDOWN, RIL_EQSTATE_FULL, rilapitypes/RILEQUIPMENTSTATE, RILEQUIPMENTSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILEQUIPMENTSTATE
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILEQUIPMENTSTATE
+product: Windows
+targetos: Windows
 req.typenames: RILEQUIPMENTSTATE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILEQUIPMENTSTATE enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILEQUIPMENTSTATE { 
@@ -57,13 +67,21 @@ typedef enum _RILEQUIPMENTSTATE {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_EQSTATE_MINIMUM
+
+
+
 ### -field RIL_EQSTATE_FULL
+
 
 
 ### -field RIL_EQSTATE_SHUTDOWN
 
 
+
 ### -field RIL_EQSTATE_MAX
 
 
-## -remarks

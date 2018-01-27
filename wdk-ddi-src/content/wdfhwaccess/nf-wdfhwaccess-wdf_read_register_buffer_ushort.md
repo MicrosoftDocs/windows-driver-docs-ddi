@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: BA47B3D0-9515-40C6-B23D-A2D9FC993FB3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_READ_REGISTER_BUFFER_USHORT
+ms.keywords: WDF_READ_REGISTER_BUFFER_USHORT, wdf.wdf_read_register_buffer_ushort, WDF_READ_REGISTER_BUFFER_USHORT function, wdfhwaccess/WDF_READ_REGISTER_BUFFER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 2.0
-req.alt-api: WDF_READ_REGISTER_BUFFER_USHORT
-req.alt-loc: Wdfhwaccess.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,25 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdfhwaccess.h
+apiname: 
+-	WDF_READ_REGISTER_BUFFER_USHORT
+product: Windows
+targetos: Windows
+req.typenames: *PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 
 # WDF_READ_REGISTER_BUFFER_USHORT function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>WDF_READ_REGISTER_BUFFER_USHORT</b> function reads a number of USHORT values from the specified register address into a buffer.
 
 
-
 ## -syntax
+
 
 ````
 void WDF_READ_REGISTER_BUFFER_USHORT(
@@ -59,6 +69,9 @@ void WDF_READ_REGISTER_BUFFER_USHORT(
 
 
 ## -parameters
+
+
+
 
 ### -param Device [in]
 
@@ -75,13 +88,14 @@ A pointer to the register, which must be a mapped range in memory space.
 A pointer to a buffer into which an array of USHORT values is read.
 
 
-### -param Count  [in]
+### -param Count [in]
 
 Specifies the number of USHORT values to be read into the buffer.
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
-## -remarks

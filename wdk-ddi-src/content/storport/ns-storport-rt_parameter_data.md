@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: EB23D502-87E4-48B1-B1DC-0B215AB361C8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: RT_PARAMETER_DATA, *PRT_PARAMETER_DATA, RT_PARAMETER_DATA
+ms.keywords: RT_PARAMETER_DATA, scsi/RT_PARAMETER_DATA, RT_PARAMETER_DATA structure [Storage Devices], scsi/PRT_PARAMETER_DATA, PRT_PARAMETER_DATA structure pointer [Storage Devices], *PRT_PARAMETER_DATA, PRT_PARAMETER_DATA, storage.rt_parameter_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 10, version 1709 and later vers
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RT_PARAMETER_DATA
-req.alt-loc: scsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	scsi.h
+apiname: 
+-	RT_PARAMETER_DATA
+product: Windows
+targetos: Windows
 req.typenames: *PRT_PARAMETER_DATA, RT_PARAMETER_DATA
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # RT_PARAMETER_DATA structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>RT_PARAMETER_DATA</b> structure contains the parameter data for the report timestamp command. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RT_PARAMETER_DATA {
@@ -62,7 +72,10 @@ typedef struct _RT_PARAMETER_DATA {
 
 ## -struct-fields
 
-### -field     ParameterDataLength
+
+
+
+### -field ParameterDataLength
 
 Indicates the number of bytes that follow in the parameter data.
 
@@ -70,7 +83,6 @@ Indicates the number of bytes that follow in the parameter data.
 ### -field Origin
 
 Indicates the most recent event that initialized the returned device clock.
-
 <table>
 <tr>
 <th>Value</th>
@@ -78,9 +90,9 @@ Indicates the most recent event that initialized the returned device clock.
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0
-
+<dl>
+<dt>0</dt>
+</dl>
 </td>
 <td width="60%">
 Device clock initialized to zero at power on or as the result of a hard reset.
@@ -89,9 +101,9 @@ Device clock initialized to zero at power on or as the result of a hard reset.
 </tr>
 <tr>
 <td width="40%">
-
-### -field 1
-
+<dl>
+<dt>1</dt>
+</dl>
 </td>
 <td width="60%">
 Reserved for future use.
@@ -100,9 +112,9 @@ Reserved for future use.
 </tr>
 <tr>
 <td width="40%">
-
-### -field 2
-
+<dl>
+<dt>2</dt>
+</dl>
 </td>
 <td width="60%">
 Device clock initialized by the SET TIMESTAMP command.
@@ -111,9 +123,9 @@ Device clock initialized by the SET TIMESTAMP command.
 </tr>
 <tr>
 <td width="40%">
-
-### -field 3
-
+<dl>
+<dt>3</dt>
+</dl>
 </td>
 <td width="60%">
 Device clock initialized by an unknown method.
@@ -121,18 +133,17 @@ Device clock initialized by an unknown method.
 </td>
 </tr>
 <tr>
-
-### -field 
-### -field 4 to 7
-
+<td width="40%"><a id=""></a><dl>
+<dt><b></b></dt>
+<dt>4 to 7</dt>
+</dl>
 </td>
 <td width="60%">
 Reserved for future use.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Reserved1
@@ -155,15 +166,10 @@ Contains the current value of a device clock.
 Reserved for future use.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\scsi\ns-scsi-st_parameter_data.md">ST_PARAMETER_DATA</a>
-</dt>
-</dl>
+
+<a href="..\storport\ns-storport-st_parameter_data.md">ST_PARAMETER_DATA</a>
+
  
 
  

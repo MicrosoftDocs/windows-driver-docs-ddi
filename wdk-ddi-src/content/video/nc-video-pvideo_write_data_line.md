@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3f860619-a479-4291-b3f3-ea4d309beee7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VHF_CONFIG, VHF_CONFIG, *PVHF_CONFIG
+ms.keywords: display.writedataline, WriteDataLine callback function [Display Devices], WriteDataLine, PVIDEO_WRITE_DATA_LINE, PVIDEO_WRITE_DATA_LINE, video/WriteDataLine, VideoMiniport_Functions_35effeac-fbe1-44b9-905f-111460800d86.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WriteDataLine
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	video.h
+apiname: 
+-	WriteDataLine
+product: Windows
+targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PVIDEO_WRITE_DATA_LINE callback
 
 
-
 ## -description
+
+
 <i>WriteDataLine</i> sets the I2C serial data line to high or low.
 
 
-
 ## -prototype
+
 
 ````
 PVIDEO_WRITE_DATA_LINE WriteDataLine;
@@ -59,45 +69,47 @@ VOID WriteDataLine(
 
 ## -parameters
 
-### -param HwDeviceExtension 
+
+
+
+### -param HwDeviceExtension
 
 Pointer to the video miniport driver's per-adapter storage area. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543119">Device Extensions</a>.
 
 
-### -param Data 
+### -param Data
 
 Supplies a value that specifies whether to set the serial data line to high or low. A value of 0 specifies that the data line should be set to low, and a value of 1 specifies that the data line should be set to high.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <i>WriteDataLine</i> should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
-</dt>
-<dt>
+
 <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
-</dt>
-<dt>
-<a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
-</dt>
-<dt>
-<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
-</dt>
-<dt>
-<a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
-</dt>
-<dt>
+
 <a href="..\video\nc-video-pvideo_write_clock_line.md">WriteClockLine</a>
-</dt>
-</dl>
+
+<a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
+
+<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
+
+<a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
+
  
 
  

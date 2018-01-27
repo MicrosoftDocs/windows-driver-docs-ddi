@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ae4f4dfd-2a1d-4116-b56c-f7250697cf9e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltIsEcpAcknowledged
+ms.keywords: ifsk.fltisecpacknowledged, FltIsEcpAcknowledged routine [Installable File System Drivers], FltIsEcpAcknowledged, fltkernel/FltIsEcpAcknowledged, FltApiRef_e_to_o_a5a70461-2108-4e8f-a01b-0fec773f6010.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available starting with Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltIsEcpAcknowledged
-req.alt-loc: FltMgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: FltMgr.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	FltMgr.sys
+apiname: 
+-	FltIsEcpAcknowledged
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltIsEcpAcknowledged function
 
 
-
 ## -description
+
+
 The <b>FltIsEcpAcknowledged</b> routine is used to determine if a given extra create parameter context structure (ECP) has been marked as acknowledged.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FltIsEcpAcknowledged(
@@ -54,6 +64,9 @@ BOOLEAN FltIsEcpAcknowledged(
 
 
 ## -parameters
+
+
+
 
 ### -param Filter [in]
 
@@ -66,37 +79,35 @@ Pointer to the ECP to test for acknowledgment.
 
 
 ## -returns
+
+
 The routine returns <b>TRUE</b> if the ECP was marked as acknowledged and <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 To mark an ECP as acknowledged, use the <a href="..\fltkernel\nf-fltkernel-fltacknowledgeecp.md">FltAcknowledgeEcp</a> routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltacknowledgeecp.md">FltAcknowledgeEcp</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltisecpfromusermode.md">FltIsEcpFromUserMode</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltacknowledgeecp.md">FltAcknowledgeEcp</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
+
  
 
  

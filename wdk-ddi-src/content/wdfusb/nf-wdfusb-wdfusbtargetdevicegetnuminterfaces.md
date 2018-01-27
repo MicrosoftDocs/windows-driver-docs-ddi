@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d81bdeeb-07de-483d-9803-3577f1076e28
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetDeviceGetNumInterfaces
+ms.keywords: WdfUsbTargetDeviceGetNumInterfaces method, PFN_WDFUSBTARGETDEVICEGETNUMINTERFACES, WdfUsbTargetDeviceGetNumInterfaces, wdf.wdfusbtargetdevicegetnuminterfaces, wdfusb/WdfUsbTargetDeviceGetNumInterfaces, kmdf.wdfusbtargetdevicegetnuminterfaces, DFUsbRef_8819241f-cfcd-49de-8775-4f415ab63593.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WdfUsbTargetDeviceGetNumInterfaces
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll,WUDFx02000.dll,WUDFx02000.dll.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2, UsbKmdfIrql, UsbKmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,20 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+-	WUDFx02000.dll
+-	WUDFx02000.dll.dll
+apiname: 
+-	WdfUsbTargetDeviceGetNumInterfaces
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +50,16 @@ req.product: Windows 10 or later.
 # WdfUsbTargetDeviceGetNumInterfaces function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfUsbTargetDeviceGetNumInterfaces</b> method returns the number of USB device interfaces that are supported by a specified USB device.
 
 
-
 ## -syntax
+
 
 ````
 UCHAR WdfUsbTargetDeviceGetNumInterfaces(
@@ -57,29 +70,34 @@ UCHAR WdfUsbTargetDeviceGetNumInterfaces(
 
 ## -parameters
 
+
+
+
 ### -param UsbDevice [in]
 
 A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
 ## -returns
+
+
 <b>WdfUsbTargetDeviceGetNumInterfaces</b> returns the number of USB interfaces that the device supports.
 
 A bug check occurs if a driver-supplied object handle is invalid.
 
 
+
 ## -remarks
+
+
 For more information about the <b>WdfUsbTargetDeviceGetNumInterfaces</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
 
-The following code example obtains the number of USB device interfaces that a specified USB device supports.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
-</dt>
-</dl>
+
  
 
  

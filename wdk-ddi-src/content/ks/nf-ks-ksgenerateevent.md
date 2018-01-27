@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4f142e5f-7d8a-47e0-8757-8c6e527a2472
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGenerateEvent
+ms.keywords: stream.ksgenerateevent, ks/KsGenerateEvent, KsGenerateEvent, KsGenerateEvent function [Streaming Media Devices], ksfunc_929fd3d4-2f02-4106-b8cd-25c3fb13ba05.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsGenerateEvent
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: Any level (See Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsGenerateEvent
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsGenerateEvent function
 
 
-
 ## -description
+
+
 The <b>KsGenerateEvent</b> function generates a standard event notification given an event entry structure.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsGenerateEvent(
@@ -54,34 +65,38 @@ NTSTATUS KsGenerateEvent(
 
 ## -parameters
 
+
+
+
 ### -param EventEntry [in]
 
 Specifies the event entry structure that references the event data. The information is used to determine what type of notification to perform. If the notification type is not one of the predefined standards, an error is returned. In the case of a single, nonrecurring event, this entry will be invalid on returning from the function. Therefore, any code that enumerates a list of events must preincrement to acquire the next event in the list before passing this event to the function.
 
 
 ## -returns
+
+
 The <b>KsGenerateEvent</b> function returns STATUS_SUCCESS if successful, or if unsuccessful it returns an exception or memory error.
 
 
+
 ## -remarks
+
+
 A device determines when event notifications are generated using the <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a> structure, then uses this function to perform the actual notification. <b>KsGenerateEvent</b> can be called at any IRQL. If called above DISPATCH_LEVEL, signaling of the event will be performed asynchronously in a DPC.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
+
+<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\netallocatemdl.htm
 old-project: netvista
 ms.assetid: 14247f48-7ef8-481c-aa1e-e657475812fa
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RxNameCacheInitialize
+ms.date: 1/18/2018
+ms.keywords: netvista.netallocatemdl, NetAllocateMdl callback function [Network Drivers Starting with Windows Vista], NetAllocateMdl, NET_BUFFER_ALLOCATE_MDL_HANDLER, NET_BUFFER_ALLOCATE_MDL_HANDLER, ndis/NetAllocateMdl, ndis_netbuf_functions_ref_d6801343-5c75-4328-b2d9-4b252afdfe15.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NetAllocateMdl
-req.alt-loc: Ndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Ndis.h
+apiname: 
+-	NetAllocateMdl
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
 
 # NET_BUFFER_ALLOCATE_MDL_HANDLER callback
 
 
-
 ## -description
+
+
 The 
   <i>NetAllocateMdl</i> function allocates an MDL with an associated memory block of a specified size.
 
 
-
 ## -prototype
+
 
 ````
 NET_BUFFER_ALLOCATE_MDL_HANDLER NetAllocateMdl;
@@ -58,6 +68,9 @@ PMDL NetAllocateMdl(
 
 ## -parameters
 
+
+
+
 ### -param BufferSize [in]
 
 The size of the memory block, in bytes. When calling 
@@ -65,16 +78,21 @@ The size of the memory block, in bytes. When calling
 
 
 ## -returns
+
+
 <i>NetAllocateMdl</i> returns a pointer to the allocated MDL. If the allocation fails, the return value
      is <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 If the NDIS driver specifies an entry point for the 
     <i>NetAllocateMdl</i> function at the 
     <i>AllocateMdl</i> parameter of the 
-    <a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
-    NdisRetreatNetBufferDataStart</a> function, NDIS calls 
+    <mshelp:link keywords="netvista.ndisretreatnetbufferdatastart" tabindex="0"><b>
+    NdisRetreatNetBufferDataStart</b></mshelp:link> function, NDIS calls 
     <i>NetAllocateMdl</i> to allocate an MDL and memory.
 
 NDIS specifies the size of the associated memory block at 
@@ -90,19 +108,17 @@ NDIS calls
     <i>NetAllocateMdl</i> at IRQL &lt;= DISPATCH_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
+<mshelp:link keywords="netvista.ndisretreatnetbufferdatastart" tabindex="0"><b>
+   NdisRetreatNetBufferDataStart</b></mshelp:link>
+
 <a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
-   NdisRetreatNetBufferDataStart</a>
-</dt>
-</dl>
+
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_BUFFER_ALLOCATE_MDL_HANDLER callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_BUFFER_ALLOCATE_MDL_HANDLER callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

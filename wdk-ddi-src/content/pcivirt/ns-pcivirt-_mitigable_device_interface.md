@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 1fac7c03-2a48-4b29-951d-c777fbec7dd3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _MITIGABLE_DEVICE_INTERFACE, *PMITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE
+ms.keywords: MITIGABLE_DEVICE_INTERFACE structure [Buses], *PMITIGABLE_DEVICE_INTERFACE, PCI.mitigable_device_interface, _MITIGABLE_DEVICE_INTERFACE, pcivirt/MITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MITIGABLE_DEVICE_INTERFACE
-req.alt-loc: Pcivirt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Pcivirt.h
+apiname: 
+-	MITIGABLE_DEVICE_INTERFACE
+product: Windows
+targetos: Windows
 req.typenames: *PMITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE
 ---
 
 # _MITIGABLE_DEVICE_INTERFACE structure
 
 
-
 ## -description
+
+
 Stores function pointers to callback functions implemented by the physical function (PF) driver  for the mitigable device interface.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MITIGABLE_DEVICE_INTERFACE {
@@ -58,6 +68,9 @@ typedef struct _MITIGABLE_DEVICE_INTERFACE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -90,6 +103,10 @@ Pointer to the driver's implementation of the <a href="https://msdn.microsoft.co
 
 
 ## -remarks
+
+
 This callback function is implemented by the physical function (PF) driver. It is invoked  when the system wants to reset a specific virtual function. 
 
-The PF driver registers its implementation by setting the <b>ReadVfConfig</b> member of the <a href="https://msdn.microsoft.com/c71add7d-9920-4b2f-a46a-4a09a94f3900">SRIOV_DEVICE_INTERFACE_STANDARD</a>, configuring a <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure, and calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.</p>
+The PF driver registers its implementation by setting the <b>ReadVfConfig</b> member of the <a href="https://msdn.microsoft.com/c71add7d-9920-4b2f-a46a-4a09a94f3900">SRIOV_DEVICE_INTERFACE_STANDARD</a>, configuring a <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure, and calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.
+
+

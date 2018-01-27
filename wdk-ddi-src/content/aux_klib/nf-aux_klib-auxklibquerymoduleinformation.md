@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5e267d53-4e92-4c94-8a59-93d3c79574dd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: AuxKlibQueryModuleInformation
+ms.keywords: aux_klib_555c5806-0b0d-48c1-9c50-b0496fb4e807.xml, kernel.auxklibquerymoduleinformation, AuxKlibQueryModuleInformation, AuxKlibQueryModuleInformation routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibQueryModuleInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AuxKlibQueryModuleInformation
-req.alt-loc: Aux_Klib.lib,Aux_Klib.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Aux_Klib.lib
 req.dll: 
 req.irql: 
-req.typenames: REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Aux_Klib.lib
+-	Aux_Klib.dll
+apiname: 
+-	AuxKlibQueryModuleInformation
+product: Windows
+targetos: Windows
+req.typenames: *PREPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA
 ---
 
 # AuxKlibQueryModuleInformation function
 
 
-
 ## -description
+
+
 The <b>AuxKlibQueryModuleInformation</b> routine retrieves information about the image modules that the operating system has loaded.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS AuxKlibQueryModuleInformation(
@@ -55,6 +66,9 @@ NTSTATUS AuxKlibQueryModuleInformation(
 
 
 ## -parameters
+
+
+
 
 ### -param BufferSize [in, out]
 
@@ -72,47 +86,51 @@ A pointer to an array of <a href="..\aux_klib\ns-aux_klib-_aux_module_basic_info
 
 
 ## -returns
+
+
 <b>AuxKlibQueryModuleInformation</b> returns STATUS_SUCCESS if the operation succeeds. <b>AuxKlibQueryModuleInformation</b> returns STATUS_BUFFER_TOO_SMALL if the <i>QueryInfo</i> pointer is not <b>NULL</b> and the driver-supplied <i>BufferSize</i> value is too small.
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
-## -remarks
-To obtain information about the operating system's loaded image modules, a driver must:
 
+## -remarks
+
+
+To obtain information about the operating system's loaded image modules, a driver must:
+<ol>
+<li>
 Call <b>AuxKlibQueryModuleInformation</b> with a <b>NULL</b> <i>QueryInfo</i> pointer. After <b>AuxKlibQueryModuleInformation</b> returns, the location that the <i>BufferSize</i> parameter points to will contain the number of bytes that the driver will have to allocate for the array.
 
+</li>
+<li>
 Call a memory allocation routine, such as <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>, to allocate a buffer for the array. 
 
+</li>
+<li>
 Call <b>AuxKlibQueryModuleInformation</b> again. This time, the <i>QueryInfo</i> pointer must contain the address of the allocated buffer. After <b>AuxKlibQueryModuleInformation</b> returns, the buffer contains an array of module information. 
 
-The number of loaded modules can change between the first and second calls to <b>AuxKlibQueryModuleInformation</b>. As a result, the second call to <b>AuxKlibQueryModuleInformation</b> might return STATUS_BUFFER_TOO_SMALL even if the driver allocates a buffer that is based on the size that was obtained from the first call.
+</li>
+</ol>The number of loaded modules can change between the first and second calls to <b>AuxKlibQueryModuleInformation</b>. As a result, the second call to <b>AuxKlibQueryModuleInformation</b> might return STATUS_BUFFER_TOO_SMALL even if the driver allocates a buffer that is based on the size that was obtained from the first call.
 
 If a call to <b>AuxKlibQueryModuleInformation</b> succeeds, the routine writes an <b>ImageBase</b> value to each element in the <i>QueryInfo</i> array. Each <b>ImageBase</b> value is a pointer to the base of a loaded driver image. This pointer remains valid only while the driver remains loaded. The caller should assume that the driver can be unloaded at any time unless the caller can guarantee otherwise. For example, a driver might be unloaded between a call to <b>AuxKlibQueryModuleInformation</b> that obtains a pointer to the driver image and a call to <a href="..\aux_klib\nf-aux_klib-auxklibgetimageexportdirectory.md">AuxKlibGetImageExportDirectory</a> that uses this pointer.
 
 Drivers must call <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a> before calling <b>AuxKlibQueryModuleInformation</b>.
 
-The following code example illustrates the steps that are listed in the preceding Remarks section.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\aux_klib\ns-aux_klib-_aux_module_basic_info.md">AUX_MODULE_BASIC_INFO</a>
-</dt>
-<dt>
-<a href="..\aux_klib\ns-aux_klib-_aux_module_extended_info.md">AUX_MODULE_EXTENDED_INFO</a>
-</dt>
-<dt>
-<a href="..\aux_klib\nf-aux_klib-auxklibgetimageexportdirectory.md">AuxKlibGetImageExportDirectory</a>
-</dt>
-<dt>
+
 <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
-</dt>
-<dt>
+
+<a href="..\aux_klib\ns-aux_klib-_aux_module_extended_info.md">AUX_MODULE_EXTENDED_INFO</a>
+
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-</dt>
-</dl>
+
+<a href="..\aux_klib\nf-aux_klib-auxklibgetimageexportdirectory.md">AuxKlibGetImageExportDirectory</a>
+
+<a href="..\aux_klib\ns-aux_klib-_aux_module_basic_info.md">AUX_MODULE_BASIC_INFO</a>
+
  
 
  

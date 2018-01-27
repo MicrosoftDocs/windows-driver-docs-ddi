@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 723A64D3-30E0-4B8C-8CAB-3D7B685860F3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_GM, KSPROPERTY_GM
+ms.keywords: ks/KSPROPERTY_GM_RENDER_CLOCK, ks/KSPROPERTY_GM_TIMESTAMP_CLOCK, ks/KSPROPERTY_GM, KSPROPERTY_GM_GRAPHMANAGER, KSPROPERTY_GM_RENDER_CLOCK, KSPROPERTY_GM_RATEMATCH, KSPROPERTY_GM_TIMESTAMP_CLOCK, ks/KSPROPERTY_GM_RATEMATCH, KSPROPERTY_GM, ks/KSPROPERTY_GM_GRAPHMANAGER, KSPROPERTY_GM enumeration [Streaming Media Devices], stream.ksproperty_gm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPROPERTY_GM
-req.alt-loc: Ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ks.h
+apiname: 
+-	KSPROPERTY_GM
+product: Windows
+targetos: Windows
 req.typenames: KSPROPERTY_GM
 ---
 
 # KSPROPERTY_GM enumeration
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: KSPROPERTY_GM
 
 
 
+
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -56,6 +66,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field KSPROPERTY_GM_GRAPHMANAGER
 
@@ -76,5 +89,3 @@ Not supported.
 
 Not supported.
 
-
-## -remarks

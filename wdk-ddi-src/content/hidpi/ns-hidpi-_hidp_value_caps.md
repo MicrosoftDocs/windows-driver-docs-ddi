@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 37084f3a-f57e-45bb-a364-157b3d155394
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _HIDP_VALUE_CAPS, *PHIDP_VALUE_CAPS, HIDP_VALUE_CAPS
+ms.keywords: PHIDP_VALUE_CAPS structure pointer [Human Input Devices], hidpi/PHIDP_VALUE_CAPS, _HIDP_VALUE_CAPS, HIDP_VALUE_CAPS, PHIDP_VALUE_CAPS, hid.hidp_value_caps, HIDP_VALUE_CAPS structure [Human Input Devices], hidpi/HIDP_VALUE_CAPS, *PHIDP_VALUE_CAPS, hidstrct_cbe30aff-5a6a-40d4-9621-b8d93ebb1948.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HIDP_VALUE_CAPS
-req.alt-loc: hidpi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PHIDP_VALUE_CAPS, HIDP_VALUE_CAPS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hidpi.h
+apiname: 
+-	HIDP_VALUE_CAPS
+product: Windows
+targetos: Windows
+req.typenames: HIDP_VALUE_CAPS, *PHIDP_VALUE_CAPS
 ---
 
 # _HIDP_VALUE_CAPS structure
 
 
-
 ## -description
-The HIDP_VALUE_CAPS structure contains information that describes the capability of a set of HID control values (either a single usage or a <a href="hid.hid_usages#usage_range#usage_range">usage range</a>).
 
+
+The HIDP_VALUE_CAPS structure contains information that describes the capability of a set of HID control values (either a single usage or a <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage range</a>).
 
 
 ## -syntax
+
 
 ````
 typedef struct _HIDP_VALUE_CAPS {
@@ -96,6 +106,101 @@ typedef struct _HIDP_VALUE_CAPS {
 
 
 ## -struct-fields
+
+
+
+
+### -field Range
+
+Specifies, if <b>IsRange</b> is <b>TRUE</b>, information about a usage range. Otherwise, if <b>IsRange</b> is <b>FALSE</b>, <b>NotRange</b> contains information about a single usage. 
+
+
+
+### -field Range.UsageMin
+
+Indicates the inclusive lower bound of usage range whose inclusive upper bound is specified by <b>Range.UsageMax</b>.
+
+
+### -field Range.UsageMax
+
+Indicates the inclusive upper bound of a usage range whose inclusive lower bound is indicated by <b>Range.UsageMin</b>.
+
+
+### -field Range.StringMin
+
+Indicates the inclusive lower bound of a range of string descriptors (specified by string minimum and string maximum items) whose inclusive upper bound is indicated by <b>Range.StringMax</b>.
+
+
+
+### -field Range.StringMax
+
+Indicates the inclusive upper bound of a range of string descriptors (specified by string minimum and string maximum items) whose inclusive lower bound is indicated by <b>Range.StringMin</b>.
+
+
+### -field Range.DesignatorMin
+
+Indicates the inclusive lower bound of a range of designators (specified by designator minimum and designator maximum items) whose inclusive lower bound is indicated by <b>Range.DesignatorMax</b>.
+
+
+### -field Range.DesignatorMax
+
+Indicates the inclusive upper bound of a range of designators (specified by designator minimum and designator maximum items) whose inclusive lower bound is indicated by <b>Range.DesignatorMin</b>.
+
+
+### -field Range.DataIndexMin
+
+Indicates the inclusive lower bound of a sequential range of <a href="https://msdn.microsoft.com/84577544-515a-4fdc-86e5-518182c6c461">data indices</a> that correspond, one-to-one and in the same order, to the usages specified by the usage range <b>Range.UsageMin</b> to <b>Range.UsageMax</b>.
+
+
+### -field Range.DataIndexMax
+
+Indicates the inclusive upper bound of a sequential range of data indices that correspond, one-to-one and in the same order, to the usages specified by the usage range <b>Range.UsageMin</b> to <b>Range.UsageMax</b>.
+
+
+### -field NotRange
+
+Specifies, if <b>IsRange</b> is <b>FALSE</b>, information about a single usage. Otherwise, if <b>IsRange</b> is <b>TRUE</b>, <b>Range</b> contains information about a usage range.
+
+
+### -field NotRange.Reserved1
+
+Reserved for internal system use.
+
+
+### -field NotRange.Usage
+
+Indicates a <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage ID</a>.
+
+
+### -field NotRange.StringIndex
+
+Indicates a string descriptor ID for the usage specified by <b>NotRange.Usage</b>.
+
+
+### -field NotRange.Reserved2
+
+Reserved for internal system use.
+
+
+### -field NotRange.DesignatorIndex
+
+Indicates a designator ID for the usage specified by <b>NotRange.Usage</b>.
+
+
+### -field NotRange.Reserved3
+
+Reserved for internal system use.
+
+
+### -field NotRange.DataIndex
+
+Indicates the data index of the usage specified by <b>NotRange.Usage</b>.
+
+
+### -field NotRange.Reserved4
+
+Reserved for internal system use.
+
 
 ### -field UsagePage
 
@@ -207,135 +312,33 @@ Specifies a usage's signed lower bound after scaling is applied to the logical m
 Specifies a usage's signed upper bound after scaling is applied to the logical maximum value.
 
 
-### -field Range
-
-Specifies, if <b>IsRange</b> is <b>TRUE</b>, information about a usage range. Otherwise, if <b>IsRange</b> is <b>FALSE</b>, <b>NotRange</b> contains information about a single usage. 
-
-
-
-### -field UsageMin
-
-Indicates the inclusive lower bound of usage range whose inclusive upper bound is specified by <b>Range.UsageMax</b>.
-
-
-### -field UsageMax
-
-Indicates the inclusive upper bound of a usage range whose inclusive lower bound is indicated by <b>Range.UsageMin</b>.
-
-
-### -field StringMin
-
-Indicates the inclusive lower bound of a range of string descriptors (specified by string minimum and string maximum items) whose inclusive upper bound is indicated by <b>Range.StringMax</b>.
-
-
-
-### -field StringMax
-
-Indicates the inclusive upper bound of a range of string descriptors (specified by string minimum and string maximum items) whose inclusive lower bound is indicated by <b>Range.StringMin</b>.
-
-
-### -field DesignatorMin
-
-Indicates the inclusive lower bound of a range of designators (specified by designator minimum and designator maximum items) whose inclusive lower bound is indicated by <b>Range.DesignatorMax</b>.
-
-
-### -field DesignatorMax
-
-Indicates the inclusive upper bound of a range of designators (specified by designator minimum and designator maximum items) whose inclusive lower bound is indicated by <b>Range.DesignatorMin</b>.
-
-
-### -field DataIndexMin
-
-Indicates the inclusive lower bound of a sequential range of <a href="https://msdn.microsoft.com/84577544-515a-4fdc-86e5-518182c6c461">data indices</a> that correspond, one-to-one and in the same order, to the usages specified by the usage range <b>Range.UsageMin</b> to <b>Range.UsageMax</b>.
-
-
-### -field DataIndexMax
-
-Indicates the inclusive upper bound of a sequential range of data indices that correspond, one-to-one and in the same order, to the usages specified by the usage range <b>Range.UsageMin</b> to <b>Range.UsageMax</b>.
-
-</dd>
-</dl>
-
-### -field NotRange
-
-Specifies, if <b>IsRange</b> is <b>FALSE</b>, information about a single usage. Otherwise, if <b>IsRange</b> is <b>TRUE</b>, <b>Range</b> contains information about a usage range.
-
-
-### -field Usage
-
-Indicates a <a href="hid.hid_usages#usage_id#usage_id">usage ID</a>.
-
-
-### -field Reserved1
-
-Reserved for internal system use.
-
-
-### -field StringIndex
-
-Indicates a string descriptor ID for the usage specified by <b>NotRange.Usage</b>.
-
-
-### -field Reserved2
-
-Reserved for internal system use.
-
-
-### -field DesignatorIndex
-
-Indicates a designator ID for the usage specified by <b>NotRange.Usage</b>.
-
-
-### -field Reserved3
-
-Reserved for internal system use.
-
-
-### -field DataIndex
-
-Indicates the data index of the usage specified by <b>NotRange.Usage</b>.
-
-
-### -field Reserved4
-
-Reserved for internal system use.
-
-</dd>
-</dl>
-
 ## -remarks
+
+
 Clients obtain a <a href="https://msdn.microsoft.com/d447dda6-a1e5-4e57-b06f-f79f8662c236">value capability array</a> by calling <a href="..\hidpi\nf-hidpi-hidp_getvaluecaps.md">HidP_GetValueCaps</a> or <a href="..\hidpi\nf-hidpi-hidp_getspecificvaluecaps.md">HidP_GetSpecificValueCaps</a>. These routines return an array of HIDP_VALUE_CAPS structures in a caller-allocated buffer. The required buffer length is specified in the <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure returned by <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>. 
 
 For information about the capabilities of HID control values, see <a href="https://msdn.microsoft.com/228fab4f-ff90-43c5-bc68-26b29e8a7dd6">Collection Capability</a> and <a href="https://msdn.microsoft.com/d447dda6-a1e5-4e57-b06f-f79f8662c236">Value Capability Arrays</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\hidpi\nf-hidpi-hidp_getbuttoncaps.md">HidP_GetButtonCaps</a>
-</dt>
-<dt>
-<a href="..\hidpi\nf-hidpi-hidp_getspecificbuttoncaps.md">HidP_GetSpecificButtonCaps</a>
-</dt>
-<dt>
-<a href="..\hidpi\nf-hidpi-hidp_getspecificvaluecaps.md">HidP_GetSpecificValueCaps</a>
-</dt>
-<dt>
-<a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
-</dt>
-<dt>
+
 <a href="..\hidpi\nf-hidpi-hidp_getusagevaluearray.md">HidP_GetUsageValueArray</a>
-</dt>
-<dt>
+
+<a href="..\hidpi\nf-hidpi-hidp_getspecificvaluecaps.md">HidP_GetSpecificValueCaps</a>
+
 <a href="..\hidpi\nf-hidpi-hidp_getvaluecaps.md">HidP_GetValueCaps</a>
-</dt>
-<dt>
+
 <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
-</dt>
-<dt>
+
+<a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
+
+<a href="..\hidpi\nf-hidpi-hidp_getspecificbuttoncaps.md">HidP_GetSpecificButtonCaps</a>
+
 <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
-</dt>
-</dl>
+
  
 
  

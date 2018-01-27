@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3f4d8c5c-3a83-4027-8d9e-5ff7db4a6853
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlMupGetProviderInfoFromFileObject
+ms.keywords: fsrtlref_7ad681c5-3f7c-42d1-8644-7cd677101413.xml, ifsk.fsrtlmupgetproviderinfofromfileobject, FsRtlMupGetProviderInfoFromFileObject, FsRtlMupGetProviderInfoFromFileObject routine [Installable File System Drivers], ntifs/FsRtlMupGetProviderInfoFromFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The FsRtlMupGetProviderInfoFromFileObject function is
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlMupGetProviderInfoFromFileObject
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlMupGetProviderInfoFromFileObject
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlMupGetProviderInfoFromFileObject function
 
 
-
 ## -description
+
+
 The <b>FsRtlMupGetProviderInfoFromFileObject</b> routine gets information about a network redirector that is registered with the multiple UNC provider (MUP) from a file object for a file that is located on a remote file system.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlMupGetProviderInfoFromFileObject(
@@ -56,6 +66,9 @@ NTSTATUS FsRtlMupGetProviderInfoFromFileObject(
 
 
 ## -parameters
+
+
+
 
 ### -param pFileObject [in]
 
@@ -78,36 +91,104 @@ A pointer to a ULONG-typed variable that contains the size, in bytes, of the buf
 
 
 ## -returns
+
+
 The <b>FsRtlMupGetProviderInfoFromFileObject</b> routine returns one of the following NTSTATUS values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The information about the network redirector was successfully returned in the buffer that is pointed to by the <i>pBuffer </i>parameter.
+</dl>
+</td>
+<td width="60%">
+The information about the network redirector was successfully returned in the buffer that is pointed to by the <i>pBuffer </i>parameter.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>One of the parameters was <b>NULL</b> or contained an invalid value.
+</dl>
+</td>
+<td width="60%">
+One of the parameters was <b>NULL</b> or contained an invalid value.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_NAME_NOT_FOUND</b></dt>
-</dl>The file object that is pointed to by the <i>pFileObject </i>parameter does not correspond to a completely opened remote file system file object.
+</dl>
+</td>
+<td width="60%">
+The file object that is pointed to by the <i>pFileObject </i>parameter does not correspond to a completely opened remote file system file object.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The size of the buffer that is pointed to by the <i>pBuffer</i> parameter is too small to return any data. In this situation, the variable that is pointed to by the <i>pBufferSize</i> parameter receives the required size, in bytes, of the buffer.
+</dl>
+</td>
+<td width="60%">
+The size of the buffer that is pointed to by the <i>pBuffer</i> parameter is too small to return any data. In this situation, the variable that is pointed to by the <i>pBufferSize</i> parameter receives the required size, in bytes, of the buffer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_OVERFLOW</b></dt>
-</dl>The size of the buffer that is pointed to by the <i>pBuffer</i> parameter is too small to return all of the data. Only the data that would fit in the buffer was returned. In this situation, the variable that is pointed to by the <i>pBufferSize</i> parameter receives the required size, in bytes, of the buffer.
+</dl>
+</td>
+<td width="60%">
+The size of the buffer that is pointed to by the <i>pBuffer</i> parameter is too small to return all of the data. Only the data that would fit in the buffer was returned. In this situation, the variable that is pointed to by the <i>pBufferSize</i> parameter receives the required size, in bytes, of the buffer.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A file system filter driver can call the <b>FsRtlMupGetProviderInfoFromFileObject</b> routine to get information about a network redirector from a file object for a file that is located on a remote file system. The amount of information that is returned by the <b>FsRtlMupGetProviderInfoFromFileObject</b> routine depends on the value of the <i>Level</i> parameter. If the <i>Level </i>parameter is set to 1, the <b>FsRtlMupGetProviderInfoFromFileObject</b> routine returns a FSRTL_MUP_PROVIDER_INFO_LEVEL_1 structure in the buffer that is pointed to by the <i>pBuffer </i>parameter. The FSRTL_MUP_PROVIDER_INFO_LEVEL_1 structure is defined as follows:
-
-
-
-The provider identifier of the network redirector.
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _FSRTL_MUP_PROVIDER_INFO_LEVEL_1 {
+  ULONG32  ProviderId;
+} FSRTL_MUP_PROVIDER_INFO_LEVEL_1, *PFSRTL_MUP_PROVIDER_INFO_LEVEL_1;</pre>
+</td>
+</tr>
+</table></span></div>
 
 If the <i>Level </i>parameter is set to 2, the <b>FsRtlMupGetProviderInfoFromFileObject</b> routine returns a FSRTL_MUP_PROVIDER_INFO_LEVEL_2 structure in the buffer that is pointed to by the <i>pBuffer </i>parameter. The FSRTL_MUP_PROVIDER_INFO_LEVEL_2 structure is defined as follows:
-
-A Unicode string that contains the device name of the network redirector.
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _FSRTL_MUP_PROVIDER_INFO_LEVEL_2 {
+  ULONG32  ProviderId;
+  UNICODE_STRING  ProviderName;
+} FSRTL_MUP_PROVIDER_INFO_LEVEL_2, *PFSRTL_MUP_PROVIDER_INFO_LEVEL_2;</pre>
+</td>
+</tr>
+</table></span></div>
 
 A file system filter driver can quickly compare the value of the provider identifier to the value of other provider identifiers without needing to do a string comparison.
 
@@ -116,12 +197,11 @@ The value of the UNC provider identifier for a particular network redirector rem
 To get the UNC provider identifier of a network redirector from the device name of the network redirector, a file system filter driver can call the <a href="..\ntifs\nf-ntifs-fsrtlmupgetprovideridfromname.md">FsRtlMupGetProviderIdFromName</a> routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-fsrtlmupgetprovideridfromname.md">FsRtlMupGetProviderIdFromName</a>
-</dt>
-</dl>
+
  
 
  

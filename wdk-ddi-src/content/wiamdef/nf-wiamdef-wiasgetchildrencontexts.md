@@ -7,8 +7,8 @@ old-location: image\wiasgetchildrencontexts.htm
 old-project: image
 ms.assetid: a69216f4-1272-488f-8d06-8dc3b6a88452
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: wiasGetChildrenContexts
+ms.date: 1/18/2018
+ms.keywords: image.wiasgetchildrencontexts, wiasGetChildrenContexts function [Imaging Devices], wiasFncs_fff487b8-2797-4df4-ae22-f25c08f21dfc.xml, wiamdef/wiasGetChildrenContexts, wiasGetChildrenContexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: wiasGetChildrenContexts
-req.alt-loc: Wiaservc.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-req.typenames: *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Wiaservc.dll
+apiname: 
+-	wiasGetChildrenContexts
+product: Windows
+targetos: Windows
+req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
 # wiasGetChildrenContexts function
 
 
-
 ## -description
+
+
 The <b>wiasGetChildrenContexts</b> function retrieves an array of item contexts belonging to the current item's children.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT _stdcall wiasGetChildrenContexts(
@@ -56,6 +66,9 @@ HRESULT _stdcall wiasGetChildrenContexts(
 
 
 ## -parameters
+
+
+
 
 ### -param pParentContext [in]
 
@@ -73,7 +86,8 @@ Pointer to a memory location that points to an array whose elements are addresse
 
 
 ## -returns
+
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Windows SDK documentation).
 
 
-## -remarks

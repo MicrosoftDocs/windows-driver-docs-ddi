@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 246EBAFC-EBEB-4B58-83C1-731314CECF2E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_HISTORY_BUFFER_HEADER, DXGK_HISTORY_BUFFER_HEADER
+ms.keywords: _DXGK_HISTORY_BUFFER_HEADER, display.dxgk_history_buffer_header, DXGK_HISTORY_BUFFER_HEADER structure [Display Devices], d3dkmddi/DXGK_HISTORY_BUFFER_HEADER, DXGK_HISTORY_BUFFER_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1,WDDM 1.3 and later
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_HISTORY_BUFFER_HEADER
-req.alt-loc: D3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmddi.h
+apiname: 
+-	DXGK_HISTORY_BUFFER_HEADER
+product: Windows
+targetos: Windows
 req.typenames: DXGK_HISTORY_BUFFER_HEADER
 ---
 
 # _DXGK_HISTORY_BUFFER_HEADER structure
 
 
-
 ## -description
+
+
 Specifies how data is stored in a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer.md">DXGK_HISTORY_BUFFER</a> history buffer.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_HISTORY_BUFFER_HEADER {
@@ -56,6 +66,9 @@ typedef struct _DXGK_HISTORY_BUFFER_HEADER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field RenderCbSequence
 
@@ -76,10 +89,7 @@ The driver should include all time stamps that are logged, even if the buffer mu
 The size, in bytes, of optional private data that the driver stores. The driver can use this data for any purpose.
 
 If zero, the driver doesn't need to store private data in the history buffer.
-
-<div class="alert"><b>Note</b>  This value should be a multiple of 8 bytes to ensure that time stamp data is aligned to a 64-bit boundary.</div>
-<div> </div>
-If the history buffer doesn't need to be formatted when the DMA buffer completes its execution, then when the DirectX graphics kernel subsystem writes logs to ETW, it uses <b>PrivateDataSize</b> as a direct offset from the header to reference the time stamps.
+<div class="alert"><b>Note</b>  This value should be a multiple of 8 bytes to ensure that time stamp data is aligned to a 64-bit boundary.</div><div> </div>If the history buffer doesn't need to be formatted when the DMA buffer completes its execution, then when the DirectX graphics kernel subsystem writes logs to ETW, it uses <b>PrivateDataSize</b> as a direct offset from the header to reference the time stamps.
 
 
 ### -field Reserved
@@ -88,21 +98,20 @@ Reserved for system use and must be set to zero.
 
 
 ## -remarks
+
+
 Only the time stamp portion of the history buffer, along with  the number of time stamps, will be logged to ETW. Header data and private driver data will not be logged to ETW as part of the time stamp buffer. However, parts of the header will be logged separately.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_renderflags.md">D3DDDICB_RENDERFLAGS</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer.md">DXGK_HISTORY_BUFFER</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_renderflags.md">D3DDDICB_RENDERFLAGS</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer.md">DXGK_HISTORY_BUFFER</a>
+
  
 
  

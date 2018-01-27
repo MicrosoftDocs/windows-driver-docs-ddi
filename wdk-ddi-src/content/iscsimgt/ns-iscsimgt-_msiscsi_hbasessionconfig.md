@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a97f39b7-9356-45f1-b0a2-bd18eb4c7467
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSiSCSI_HBASessionConfig, *PMSiSCSI_HBASessionConfig, MSiSCSI_HBASessionConfig
+ms.keywords: *PMSiSCSI_HBASessionConfig, iscsimgt/PMSiSCSI_HBASessionConfig, structs-iSCSI_e8f9731d-11fb-42e1-90a0-09e3e6597ebe.xml, _MSiSCSI_HBASessionConfig, storage.msiscsi_hbasessionconfig, MSiSCSI_HBASessionConfig, iscsimgt/MSiSCSI_HBASessionConfig, MSiSCSI_HBASessionConfig structure [Storage Devices], PMSiSCSI_HBASessionConfig structure pointer [Storage Devices], PMSiSCSI_HBASessionConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSiSCSI_HBASessionConfig
-req.alt-loc: iscsimgt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsimgt.h
+apiname: 
+-	MSiSCSI_HBASessionConfig
+product: Windows
+targetos: Windows
 req.typenames: *PMSiSCSI_HBASessionConfig, MSiSCSI_HBASessionConfig
 ---
 
 # _MSiSCSI_HBASessionConfig structure
 
 
-
 ## -description
+
+
 The MSiSCSI_HBASessionConfig structure contains the default logon characteristics that a particular instance of a storage miniport driver uses to create a logon session with a target device. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSiSCSI_HBASessionConfig {
@@ -58,6 +68,9 @@ typedef struct _MSiSCSI_HBASessionConfig {
 
 
 ## -struct-fields
+
+
+
 
 ### -field InitialR2T
 
@@ -96,15 +109,16 @@ The maximum number of outstanding R2T requests for each task, excluding the firs
 
 
 ## -remarks
+
+
 It is optional that you implement this class.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563022">MSiSCSI_HBASessionConfig WMI Class</a>
-</dt>
-</dl>
+
  
 
  

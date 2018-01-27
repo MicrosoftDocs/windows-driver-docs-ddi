@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 84b0f28d-2157-492e-bafa-ea97956d66f2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032, D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032
+ms.keywords: d3d12umddi/D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032, D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032, D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032 structure [Display Devices], display.d3d12ddi-writebufferimmediate-parameter-0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032
-req.alt-loc: d3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d12umddi.h
+apiname: 
+-	D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032
 ---
 
 # D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032 structure
 
 
-
 ## -description
+
+
 Write buffer immediate parameter.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032 {
@@ -55,6 +65,9 @@ typedef struct _D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032 {
 
 ## -struct-fields
 
+
+
+
 ### -field Dst
 
 Destination.
@@ -64,5 +77,3 @@ Destination.
 
 Value.
 
-
-## -remarks

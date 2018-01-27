@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DE3C133C-C1A9-4735-B1C4-9F6E791845A1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_ALLOCATION_INFO_FLAGS_0022, D3D12DDI_ALLOCATION_INFO_FLAGS_0022
+ms.keywords: d3d12umddi/D3D12DDI_ALLOCATION_INFO_FLAGS_0022_STEREO, D3D12DDI_ALLOCATION_INFO_FLAGS_0022_PRIMARY, d3d12umddi/D3D12DDI_ALLOCATION_INFO_FLAGS_0022_PRIMARY, D3D12DDI_ALLOCATION_INFO_FLAGS_0022_STEREO, d3d12umddi/D3D12DDI_ALLOCATION_INFO_FLAGS_0022, d3d12umddi/D3D12DDI_ALLOCATION_INFO_FLAGS_0022_NONE, display.d3d12ddi_allocation_info_flags_0022, D3D12DDI_ALLOCATION_INFO_FLAGS_0022 enumeration [Display Devices], D3D12DDI_ALLOCATION_INFO_FLAGS_0022_OVERRIDE_PRIORITY, d3d12umddi/D3D12DDI_ALLOCATION_INFO_FLAGS_0022_OVERRIDE_PRIORITY, D3D12DDI_ALLOCATION_INFO_FLAGS_0022, D3D12DDI_ALLOCATION_INFO_FLAGS_0022_NONE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_ALLOCATION_INFO_FLAGS_0022
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_ALLOCATION_INFO_FLAGS_0022
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_ALLOCATION_INFO_FLAGS_0022
 ---
 
 # D3D12DDI_ALLOCATION_INFO_FLAGS_0022 enumeration
 
 
-
 ## -description
+
+
 Contains allocation information flags.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D12DDI_ALLOCATION_INFO_FLAGS_0022 { 
@@ -56,6 +66,9 @@ typedef enum D3D12DDI_ALLOCATION_INFO_FLAGS_0022 {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D12DDI_ALLOCATION_INFO_FLAGS_0022_NONE
 
@@ -76,5 +89,3 @@ A stereo value.
 
 An override priority. 
 
-
-## -remarks

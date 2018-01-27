@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c1af342a-438d-4c83-be2d-a4c4c9f204b5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDispatchSetSecurity
+ms.keywords: stream.ksdispatchsetsecurity, KsDispatchSetSecurity function [Streaming Media Devices], ksfunc_b643b100-dc1c-4df4-b1e4-32ac7ae59b2a.xml, ks/KsDispatchSetSecurity, KsDispatchSetSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsDispatchSetSecurity
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsDispatchSetSecurity
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsDispatchSetSecurity function
 
 
-
 ## -description
+
+
 The <b>KsDispatchSetSecurity</b> function is used in the KSDISPATCH_TABLE.SetSecurity entry to handle setting the current security descriptor. The assumption is that the KSOBJECT_HEADER structure is being used in the <b>FsContext</b> data structure and that the <b>CreateItem</b> points to a valid item that optionally contains a security descriptor.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsDispatchSetSecurity(
@@ -54,6 +65,9 @@ NTSTATUS KsDispatchSetSecurity(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceObject [in]
 
@@ -66,8 +80,15 @@ Specifies the IRP that is being handled.
 
 
 ## -returns
+
+
 The <b>KsDispatchSetSecurity</b> function returns the security set status and completes the IRP.
 
 
+
 ## -remarks
-This security descriptor must be allocated in its own piece of pool memory, since <b>KsDispatchSetSecurity</b> will replace the existing descriptor with a new allocation. Therefore, it cannot be shared with <b>CreateItem</b>.</p>
+
+
+This security descriptor must be allocated in its own piece of pool memory, since <b>KsDispatchSetSecurity</b> will replace the existing descriptor with a new allocation. Therefore, it cannot be shared with <b>CreateItem</b>.
+
+

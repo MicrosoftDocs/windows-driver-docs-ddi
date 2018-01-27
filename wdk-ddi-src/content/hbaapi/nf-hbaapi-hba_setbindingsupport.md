@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2d4ac375-ede9-406e-bac0-9caa2273c91a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_SetBindingSupport
+ms.keywords: storage.hba_setbindingsupport, hbaapi/HBA_SetBindingSupport, fibreHBA_rtns_5adce4be-2d9d-4e53-ab21-3a15810153d7.xml, HBA_SetBindingSupport, HBA_SetBindingSupport routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBA_SetBindingSupport
-req.alt-loc: Hbaapi.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Hbaapi.dll
+apiname: 
+-	HBA_SetBindingSupport
+product: Windows
+targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
 
 # HBA_SetBindingSupport function
 
 
-
 ## -description
+
+
 The <b>HBA_SetBindingSupport</b> routine enables the indicated set of capabilities on the adapter. 
 
 
-
 ## -syntax
+
 
 ````
 HBA_STATUS HBA_API HBA_SetBindingSupport(
@@ -55,6 +65,9 @@ HBA_STATUS HBA_API HBA_SetBindingSupport(
 
 
 ## -parameters
+
+
+
 
 ### -param Handle [in]
 
@@ -72,38 +85,79 @@ Contains a bitwise OR of a set of flags that indicate the capabilities to enable
 
 
 ## -returns
+
+
 The <b>HBA_SetBindingSupport</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_SetBindingSupport</b> returns one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_OK</b></dt>
-</dl>Returned if the binding capabilities were successfully enabled. 
+</dl>
+</td>
+<td width="60%">
+Returned if the binding capabilities were successfully enabled. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR_ILLEGAL_WWN</b></dt>
-</dl>Returned if the HBA referenced by <i>handle</i> does not contain a port with a name that matches <i>HbaPortWWN</i>. 
+</dl>
+</td>
+<td width="60%">
+Returned if the HBA referenced by <i>handle</i> does not contain a port with a name that matches <i>HbaPortWWN</i>. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR_NOT_SUPPORTED</b></dt>
-</dl>Returned if the adapter referenced by <i>handle </i>does not support persistent bindings. 
+</dl>
+</td>
+<td width="60%">
+Returned if the adapter referenced by <i>handle </i>does not support persistent bindings. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR_INCAPABLE</b></dt>
-</dl>Returned if one or more of the flags specified by <i>Flags</i> corresponds to a capability not implemented for the port referenced by <i>HbaPortWWN</i>.
+</dl>
+</td>
+<td width="60%">
+Returned if one or more of the flags specified by <i>Flags</i> corresponds to a capability not implemented for the port referenced by <i>HbaPortWWN</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR</b></dt>
-</dl>Returned if an unspecified error occurred that prevented the routine from enabling the specified capabilities. 
+</dl>
+</td>
+<td width="60%">
+Returned if an unspecified error occurred that prevented the routine from enabling the specified capabilities. 
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-</dt>
-</dl>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
  
 
  

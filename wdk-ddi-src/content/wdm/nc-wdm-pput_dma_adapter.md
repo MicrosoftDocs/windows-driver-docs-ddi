@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 05a76baf-e5f7-41ca-ac9f-4538cd3e0292
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+ms.keywords: kernel.putdmaadapter, PutDmaAdapter, PutDmaAdapter callback function [Kernel-Mode Driver Architecture], PutDmaAdapter, PPUT_DMA_ADAPTER, PPUT_DMA_ADAPTER, wdm/PutDmaAdapter, kdma_49fe7ec6-e0a3-445e-9275-08b94ca2cf48.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PutDmaAdapter
-req.alt-loc: wdm.h
 req.ddi-compliance: IrqlDispatch
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	wdm.h
+apiname: 
+-	PutDmaAdapter
+product: Windows
+targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PPUT_DMA_ADAPTER callback
 
 
-
 ## -description
+
+
 The <b>PutDmaAdapter</b> routine frees a <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure previously allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>.
 
 
-
 ## -prototype
+
 
 ````
 PPUT_DMA_ADAPTER PutDmaAdapter;
@@ -58,16 +68,24 @@ VOID PutDmaAdapter(
 
 ## -parameters
 
+
+
+
 ### -param DmaAdapter [in]
 
 Pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure to be released.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>PutDmaAdapter</b>
            is not a system routine that can be called directly by name. This routine is callable only by pointer from the address returned in a 
           <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
@@ -78,18 +96,15 @@ None
 A driver must call <b>PutDmaAdapter</b> when it receives a PnP <a href="https://msdn.microsoft.com/library/windows/hardware/ff551755">IRP_MN_STOP_DEVICE</a> request. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+
  
 
  

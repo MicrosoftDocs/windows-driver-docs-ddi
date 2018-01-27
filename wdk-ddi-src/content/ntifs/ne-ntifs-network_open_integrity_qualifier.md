@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6a51ee2e-2df6-44f4-8e95-776851d743a6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: NETWORK_OPEN_INTEGRITY_QUALIFIER, NETWORK_OPEN_INTEGRITY_QUALIFIER
+ms.keywords: ifsk.network_open_integrity_qualifier, NetworkOpenIntegritySigned, NetworkOpenIntegrityNone, NetworkOpenIntegrityEncrypted, NETWORK_OPEN_INTEGRITY_QUALIFIER, ntifs/NetworkOpenIntegritySigned, NetworkOpenIntegrityMaximum, ntifs/NetworkOpenIntegrityNone, NetworkOpenIntegrityAny, ntifs/NETWORK_OPEN_INTEGRITY_QUALIFIER, NETWORK_OPEN_INTEGRITY_QUALIFIER enumeration [Installable File System Drivers], ECP_Structures_e5f36510-f63f-47bc-941c-690d51ea0608.xml, ntifs/NetworkOpenIntegrityAny, ntifs/NetworkOpenIntegrityMaximum, ntifs/NetworkOpenIntegrityEncrypted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This enumeration type is available starting with Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NETWORK_OPEN_INTEGRITY_QUALIFIER
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	NETWORK_OPEN_INTEGRITY_QUALIFIER
+product: Windows
+targetos: Windows
 req.typenames: NETWORK_OPEN_INTEGRITY_QUALIFIER
 ---
 
 # NETWORK_OPEN_INTEGRITY_QUALIFIER enumeration
 
 
-
 ## -description
+
+
 The NETWORK_OPEN_INTEGRITY_QUALIFIER enumeration type contains values that identify the kind of integrity restriction to attach to a file.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -57,6 +67,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field NetworkOpenIntegrityAny
 
@@ -82,5 +95,3 @@ Indicates that the file is encrypted end-to-end.
 
 Indicates that the file has the best integrity that is available. 
 
-
-## -remarks

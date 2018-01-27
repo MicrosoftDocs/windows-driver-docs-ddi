@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5A2B787B-13B8-48E9-B53E-7F6409820B88
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+ms.keywords: buses.evt_ufx_device_super_speed_power_feature, EvtUfxDeviceSuperSpeedPowerFeature callback function [Buses], EvtUfxDeviceSuperSpeedPowerFeature, EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE, EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE, ufxclient/EvtUfxDeviceSuperSpeedPowerFeature, PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback function pointer [Buses], PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE
-req.alt-loc: Ufxclient.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Ufxclient.h
+apiname: 
+-	PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE
+product: Windows
+targetos: Windows
+req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
 # EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback
 
 
-
 ## -description
+
+
 The client driver's implementation to set or clear the specified power feature on the function controller. 
 
 
-
 ## -prototype
+
 
 ````
 EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE EvtUfxDeviceSuperSpeedPowerFeature;
@@ -62,33 +72,46 @@ typedef EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE PFN_UFX_DEVICE_SUPER_SPEED_POWE
 
 ## -parameters
 
-### -param UfxDevice [in]
+
+
+
+
+
+
+
+
+
+#### - UfxDevice [in]
 
 The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
 
 
-### -param Feature [in]
-
-Feature selector for the power feature that is set or cleared, as defined in section 9.4 of the USB 3.0 Specification.  The feature selector can be one of these values: 
-
-<ul>
-<li>U1_ENABLE</li>
-<li>U2_ENABLE
-</li>
-</ul>
-
-### -param Set [in]
+#### - Set [in]
 
 If TRUE, set the feature.
 
 If FALSE, clear the feature.
 
 
+#### - Feature [in]
+
+Feature selector for the power feature that is set or cleared, as defined in section 9.4 of the USB 3.0 Specification.  The feature selector can be one of these values: 
+<ul>
+<li>U1_ENABLE</li>
+<li>U2_ENABLE
+</li>
+</ul>
+
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE</i> implementation with the USB function class extension (UFX) by calling the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a> method.
 
 This event callback is only required for controllers that support SuperSpeed operation.
@@ -96,15 +119,13 @@ This event callback is only required for controllers that support SuperSpeed ope
 The client driver indicates completion of this event by calling the <a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a> method.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
-</dt>
-<dt>
+
 <a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
-</dt>
-</dl>
+
  
 
  

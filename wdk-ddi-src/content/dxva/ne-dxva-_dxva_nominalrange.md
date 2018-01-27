@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9e319f9d-4c24-4dd3-b5a1-b244714c06dc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_NominalRange, DXVA_NominalRange
+ms.keywords: DXVA_NominalRangeMask, DXVA_NominalRange_Unknown, DXVA_NominalRangeShift, display.dxva_nominalrange, dxva/DXVA_NominalRange_16_235, DXVA_NominalRange_Normal, DXVA_NominalRange_Wide, dxva/DXVA_NominalRange, dxva/DXVA_NominalRange_48_208, dxva/DXVA_NominalRange_Unknown, dxva/DXVA_NominalRangeShift, dxva/DXVA_NominalRange_Wide, dxva/DXVA_NominalRangeMask, DXVA_NominalRange, _DXVA_NominalRange, DXVA_NominalRange enumeration [Display Devices], DXVA_NominalRange_0_255, DXVA_NominalRange_16_235, DXVA_NominalRange_48_208, dxvaref_5931dd2e-baac-48a6-931a-b7f3fc965b4d.xml, dxva/DXVA_NominalRange_Normal, dxva/DXVA_NominalRange_0_255
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This enumeration type applies only to Windows Server 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVA_NominalRange
-req.alt-loc: dxva.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxva.h
+apiname: 
+-	DXVA_NominalRange
+product: Windows
+targetos: Windows
 req.typenames: DXVA_NominalRange
 ---
 
 # _DXVA_NominalRange enumeration
 
 
-
 ## -description
+
+
 The DXVA_NominalRange enumeration type contains enumerators that identify whether sample data includes headroom (values beyond 1.0 white) and toeroom (superblacks below the reference 0.0 black). 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXVA_NominalRange { 
@@ -60,6 +70,9 @@ typedef enum _DXVA_NominalRange {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXVA_NominalRangeShift
 
@@ -102,17 +115,18 @@ Specifies that normalized chroma [0..1] maps to [48..208] (8bit) or [192..832] (
 
 
 ## -remarks
+
+
 One of the enumerators of DXVA_NominalRange can be specified in the <b>NominalRange</b> member of the <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a> structure.
 
 Wide gamut R'G'B' (that is, blackpoint at 16,16,16 and whitepoint at 235,235,235) must be differentiated from normal <a href="http://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
-</dt>
-</dl>
+
  
 
  

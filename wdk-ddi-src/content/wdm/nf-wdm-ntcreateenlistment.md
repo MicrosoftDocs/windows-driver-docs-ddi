@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5ffd8262-10b3-4c40-bd3e-050271338508
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtCreateEnlistment
+ms.keywords: kernel.zwcreateenlistment, NtCreateEnlistment, ktm_ref_30b47803-67b7-4a88-9f87-0dbee055f580.xml, wdm/ZwCreateEnlistment, ZwCreateEnlistment, ZwCreateEnlistment routine [Kernel-Mode Driver Architecture], wdm/NtCreateEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later operating system
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwCreateEnlistment,NtCreateEnlistment
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ZwCreateEnlistment
+-	NtCreateEnlistment
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # NtCreateEnlistment function
 
 
-
 ## -description
+
+
 The <b>ZwCreateEnlistment</b> routine creates a new <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a> for a transaction.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ZwCreateEnlistment(
@@ -62,6 +73,9 @@ NTSTATUS ZwCreateEnlistment(
 
 ## -parameters
 
+
+
+
 ### -param EnlistmentHandle [out]
 
 A pointer to a caller-allocated variable that receives a handle to the new enlistment object if the call to <b>ZwCreateEnlistment</b> succeeds.
@@ -70,7 +84,6 @@ A pointer to a caller-allocated variable that receives a handle to the new enlis
 ### -param DesiredAccess [in]
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that specifies the caller's requested access to the enlistment object. In addition to the access rights that are defined for all kinds of objects (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>), the caller can specify any of the following access right flags for enlistment objects:
-
 <table>
 <tr>
 <th>ACCESS_MASK flag</th>
@@ -126,11 +139,9 @@ Perform operations that a <a href="https://msdn.microsoft.com/6f6bf61a-fe53-47b5
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 Alternatively, you can specify one or more of the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> bitmaps. These bitmaps combine the flags from the previous table with the STANDARD_RIGHTS_<i>XXX</i> flags that are described on the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> reference page. You can also combine these bitmaps together with additional flags from the previous table. The following table shows how the bitmaps correspond to specific access rights. 
-
 <table>
 <tr>
 <th>Generic access right</th>
@@ -176,8 +187,7 @@ STANDARD_RIGHTS_REQUIRED, ENLISTMENT_GENERIC_READ, ENLISTMENT_GENERIC_WRITE, and
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param ResourceManagerHandle [in]
@@ -198,7 +208,6 @@ A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATT
 ### -param CreateOptions [in, optional]
 
 Enlistment option flags. The following table contains the only available flag. 
-
 <table>
 <tr>
 <th><i>CreateOptions</i> flag</th>
@@ -214,8 +223,7 @@ The caller is enlisting as a <a href="https://msdn.microsoft.com/6f6bf61a-fe53-4
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 This parameter is optional and can be zero. 
 
@@ -231,38 +239,111 @@ A pointer to caller-defined information that uniquely identifies the enlistment.
 
 
 ## -returns
+
+
 <b>ZwCreateEnlistment</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>An object handle is invalid.
+</dl>
+</td>
+<td width="60%">
+An object handle is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The <i>CreateOptions</i> or <i>NotificationMask</i> parameter's value is invalid, or KTM could not find the transaction that the <i>TransactionHandle</i> parameter specifies.
+</dl>
+</td>
+<td width="60%">
+The <i>CreateOptions</i> or <i>NotificationMask</i> parameter's value is invalid, or KTM could not find the transaction that the <i>TransactionHandle</i> parameter specifies.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>A memory allocation failed.
+</dl>
+</td>
+<td width="60%">
+A memory allocation failed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_TRANSACTIONMANAGER_NOT_ONLINE</b></dt>
-</dl>The enlistment failed because KTM or the resource manager is not in an operational state.
+</dl>
+</td>
+<td width="60%">
+The enlistment failed because KTM or the resource manager is not in an operational state.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_TRANSACTION_NOT_ACTIVE</b></dt>
-</dl>The enlistment failed because the transaction that the <i>TransactionHandle</i> parameter specifies is not active.
+</dl>
+</td>
+<td width="60%">
+The enlistment failed because the transaction that the <i>TransactionHandle</i> parameter specifies is not active.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_TRANSACTION_SUPERIOR_EXISTS</b></dt>
-</dl>The caller tried to register as a superior transaction manager but a <a href="https://msdn.microsoft.com/6f6bf61a-fe53-47b5-9559-f76334969af8">superior transaction manager</a> already exists.
+</dl>
+</td>
+<td width="60%">
+The caller tried to register as a superior transaction manager but a <a href="https://msdn.microsoft.com/6f6bf61a-fe53-47b5-9559-f76334969af8">superior transaction manager</a> already exists.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_TM_VOLATILE</b></dt>
-</dl>The caller is trying to register as a superior transaction manager, but the caller's resource manager object is <a href="kernel.creating_a_resource_manager#kernel.creating_a_volatile_resource_manager#kernel.creating_a_volatile_resource_manager">volatile</a> while the associated transaction manager object is not volatile.
+</dl>
+</td>
+<td width="60%">
+The caller is trying to register as a superior transaction manager, but the caller's resource manager object is <a href="https://msdn.microsoft.com/b2841d56-650a-487c-a002-2521cd1b461b">volatile</a> while the associated transaction manager object is not volatile.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>The value of the <i>DesiredAccess</i> parameter is invalid.
+</dl>
+</td>
+<td width="60%">
+The value of the <i>DesiredAccess</i> parameter is invalid.
 
- 
+</td>
+</tr>
+</table> 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
+
 ## -remarks
+
+
 A resource manager calls <b>ZwCreateEnlistment</b> to enlist in a transaction. 
 
 Resource managers that are not superior must include the ENLISTMENT_SUBORDINATE_RIGHTS flag in their access mask. 
@@ -273,98 +354,81 @@ Resource managers that are not superior must include the ENLISTMENT_SUBORDINATE_
 A resource manager that calls <b>ZwCreateEnlistment</b> must eventually call <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> to close the object handle.
 
 Your resource manager can use the <i>EnlistmentKey</i> parameter to assign a unique value to each enlistment, such as a pointer to a data structure that contains information about the enlistment. For example, if the resource manager stores the enlistment object's handle in the structure, the resource manager can do the following:
-
+<ol>
+<li>
 Call <a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a> to obtain a notification.
 
+</li>
+<li>
 Obtain the enlistment key value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564813">TRANSACTION_NOTIFICATION</a> structure.
 
+</li>
+<li>
 Use the enlistment key to find the stored enlistment object handle.
 
+</li>
+<li>
 Call routines that require the enlistment handle as input, such as <a href="..\wdm\nf-wdm-zwcommitcomplete.md">ZwCommitComplete</a> or <a href="..\wdm\nf-wdm-zwrollbackcomplete.md">ZwRollbackComplete</a>.
 
-For more information about <b>ZwCreateEnlistment</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542865">Creating a Resource Manager</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff542870">Creating a Superior Transaction Manager</a>.
+</li>
+</ol>For more information about <b>ZwCreateEnlistment</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542865">Creating a Resource Manager</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff542870">Creating a Superior Transaction Manager</a>.
 
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564813">TRANSACTION_NOTIFICATION</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwcommitcomplete.md">ZwCommitComplete</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwcommitenlistment.md">ZwCommitEnlistment</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwpreparecomplete.md">ZwPrepareComplete</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwprepareenlistment.md">ZwPrepareEnlistment</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwprepreparecomplete.md">ZwPrePrepareComplete</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwpreprepareenlistment.md">ZwPrePrepareEnlistment</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwqueryinformationenlistment.md">ZwQueryInformationEnlistment</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwreadonlyenlistment.md">ZwReadOnlyEnlistment</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwrecoverenlistment.md">ZwRecoverEnlistment</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwrollbackcomplete.md">ZwRollbackComplete</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564813">TRANSACTION_NOTIFICATION</a>
+
 <a href="..\wdm\nf-wdm-zwrollbackenlistment.md">ZwRollbackEnlistment</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwsetinformationenlistment.md">ZwSetInformationEnlistment</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
+
+<a href="..\wdm\nf-wdm-zwcommitenlistment.md">ZwCommitEnlistment</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
+
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+<a href="..\wdm\nf-wdm-zwprepareenlistment.md">ZwPrepareEnlistment</a>
+
+<a href="..\wdm\nf-wdm-zwreadonlyenlistment.md">ZwReadOnlyEnlistment</a>
+
+<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
+
+<a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
+
+<a href="..\wdm\nf-wdm-zwrecoverenlistment.md">ZwRecoverEnlistment</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="..\wdm\nf-wdm-zwprepreparecomplete.md">ZwPrePrepareComplete</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="..\wdm\nf-wdm-zwpreparecomplete.md">ZwPrepareComplete</a>
+
 <a href="..\wdm\nf-wdm-zwsinglephasereject.md">ZwSinglePhaseReject</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a>
+
+<a href="..\wdm\nf-wdm-zwqueryinformationenlistment.md">ZwQueryInformationEnlistment</a>
+
+<a href="..\wdm\nf-wdm-zwrollbackcomplete.md">ZwRollbackComplete</a>
+
+<a href="..\wdm\nf-wdm-zwsetinformationenlistment.md">ZwSetInformationEnlistment</a>
+
  
 
  

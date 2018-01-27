@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 29ccde7c-801c-4e90-bc39-8581f262cc65
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.setzrange, SetZRange callback function [Display Devices], SetZRange, PFND3DDDI_SETZRANGE, PFND3DDDI_SETZRANGE, d3dumddi/SetZRange, UserModeDisplayDriver_Functions_1f472784-89a0-4ddf-ae47-ee891774d03e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetZRange
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	SetZRange
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_SETZRANGE callback
 
 
-
 ## -description
+
+
 The <i>SetZRange</i> function informs the driver about the range of z values.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_SETZRANGE SetZRange;
@@ -58,32 +68,39 @@ __checkReturn HRESULT APIENTRY SetZRange(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param pData [in]
+### -param *
+
+
+
+
+
+
+#### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_zrange.md">D3DDDIARG_ZRANGE</a> structure that specifies minimum and maximum values for the range of z values.
 
 
 ## -returns
+
+
 <i>SetZRange</i> returns S_OK or an appropriate error result if the driver is not successfully informed about the range of z values.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_zrange.md">D3DDDIARG_ZRANGE</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_zrange.md">D3DDDIARG_ZRANGE</a>
+
  
 
  

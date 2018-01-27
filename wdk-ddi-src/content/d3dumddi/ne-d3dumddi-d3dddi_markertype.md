@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 55A48F87-B96C-42E7-B9B4-3C829097CAE9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_MARKERTYPE, D3DDDI_MARKERTYPE
+ms.keywords: D3DDDI_MARKERTYPE enumeration [Display Devices], d3dumddi/D3DDDIMT_PROFILE, display.d3dddi_markertype, D3DDDIMT_NONE, d3dumddi/D3DDDI_MARKERTYPE, D3DDDI_MARKERTYPE, d3dumddi/D3DDDIMT_NONE, D3DDDIMT_PROFILE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_MARKERTYPE
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	D3DDDI_MARKERTYPE
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_MARKERTYPE
 ---
 
 # D3DDDI_MARKERTYPE enumeration
 
 
-
 ## -description
+
+
 Indicates the type of Event Tracing for Windows (ETW) marker event that the user-mode display driver supports.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3DDDI_MARKERTYPE { 
@@ -54,6 +64,9 @@ typedef enum D3DDDI_MARKERTYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DDDIMT_NONE
 
@@ -67,15 +80,10 @@ Profile mode, where the driver estimates the length of time the GPU takes to exe
 See Remarks of the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarkermode.md">pfnSetMarkerMode</a> function for more info.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarkermode.md">pfnSetMarkerMode</a>
-</dt>
-</dl>
+
  
 
  

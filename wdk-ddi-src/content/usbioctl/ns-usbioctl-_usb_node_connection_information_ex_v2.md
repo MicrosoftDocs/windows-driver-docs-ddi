@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F886F470-BAAB-41C6-8431-01BF99236F81
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_NODE_CONNECTION_INFORMATION_EX_V2, USB_NODE_CONNECTION_INFORMATION_EX_V2, *PUSB_NODE_CONNECTION_INFORMATION_EX_V2
+ms.keywords: PUSB_NODE_CONNECTION_INFORMATION_EX_V2, usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX_V2, *PUSB_NODE_CONNECTION_INFORMATION_EX_V2, buses._usb_node_connection_information_ex_v2, usbioctl/USB_NODE_CONNECTION_INFORMATION_EX_V2, USB_NODE_CONNECTION_INFORMATION_EX_V2, USB_NODE_CONNECTION_INFORMATION_EX_V2 structure [Buses], PUSB_NODE_CONNECTION_INFORMATION_EX_V2 structure pointer [Buses], _USB_NODE_CONNECTION_INFORMATION_EX_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_NODE_CONNECTION_INFORMATION_EX_V2
-req.alt-loc: Usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Usbioctl.h
+apiname: 
+-	USB_NODE_CONNECTION_INFORMATION_EX_V2
+product: Windows
+targetos: Windows
 req.typenames: USB_NODE_CONNECTION_INFORMATION_EX_V2, *PUSB_NODE_CONNECTION_INFORMATION_EX_V2
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USB_NODE_CONNECTION_INFORMATION_EX_V2 structure
 
 
-
 ## -description
+
+
 The <b>USB_NODE_CONNECTION_INFORMATION_EX_V2</b> structure is used with the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex_v2.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</a> I/O control request to retrieve speed information about a Universal Serial Bus (USB) device that is attached to a particular port.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USB_NODE_CONNECTION_INFORMATION_EX_V2 {
@@ -57,6 +67,9 @@ typedef struct _USB_NODE_CONNECTION_INFORMATION_EX_V2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ConnectionIndex
 
@@ -82,18 +95,12 @@ Upon completion of the request, <b>SupportedUsbProtocols</b> contains flags, whi
 A bitmask that indicates the properties and capabilities of the attached device or  port. For more information, see <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex_v2_flags.md">USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS</a>.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex_v2_flags.md">USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS</a>
-</dt>
-<dt>
+
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex_v2.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</a>
-</dt>
-</dl>
+
+<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex_v2_flags.md">USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS</a>
+
  
 
  

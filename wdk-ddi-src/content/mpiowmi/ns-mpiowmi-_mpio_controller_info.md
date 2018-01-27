@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 30600e86-dd35-4498-91a8-14a722b2e868
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MPIO_CONTROLLER_INFO, MPIO_CONTROLLER_INFO, *PMPIO_CONTROLLER_INFO
+ms.keywords: mpiowmi/PMPIO_CONTROLLER_INFO, storage.mpio_controller_info, _MPIO_CONTROLLER_INFO, structs-scsibus_6b7edecb-9938-49fb-8367-5d176f83c0a5.xml, PMPIO_CONTROLLER_INFO structure pointer [Storage Devices], *PMPIO_CONTROLLER_INFO, PMPIO_CONTROLLER_INFO, mpiowmi/MPIO_CONTROLLER_INFO, MPIO_CONTROLLER_INFO structure [Storage Devices], MPIO_CONTROLLER_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MPIO_CONTROLLER_INFO
-req.alt-loc: mpiowmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: MPIO_CONTROLLER_INFO, *PMPIO_CONTROLLER_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mpiowmi.h
+apiname: 
+-	MPIO_CONTROLLER_INFO
+product: Windows
+targetos: Windows
+req.typenames: *PMPIO_CONTROLLER_INFO, MPIO_CONTROLLER_INFO
 ---
 
 # _MPIO_CONTROLLER_INFO structure
 
 
-
 ## -description
+
+
 The MPIO_CONTROLLER_INFO structure represents a storage controller.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MPIO_CONTROLLER_INFO {
@@ -58,6 +68,9 @@ typedef struct _MPIO_CONTROLLER_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field IdentifierType
 
@@ -88,5 +101,3 @@ Should be zero.
 
 A string field of maximum length 63 characters. This string field returns the friendly name of the DSM that controls the devices that are exposed by this controller.
 
-
-## -remarks

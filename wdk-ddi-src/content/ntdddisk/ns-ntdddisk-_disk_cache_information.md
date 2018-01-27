@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 17ea8b6b-d41f-4224-880a-49443756d0de
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION, *PDISK_CACHE_INFORMATION
+ms.keywords: PDISK_CACHE_INFORMATION, structs-disk_def992c5-6103-4eab-8598-4d52808e6b8c.xml, _DISK_CACHE_INFORMATION, storage.disk_cache_information, PDISK_CACHE_INFORMATION structure pointer [Storage Devices], DISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION structure [Storage Devices], *PDISK_CACHE_INFORMATION, ntdddisk/PDISK_CACHE_INFORMATION, ntdddisk/DISK_CACHE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DISK_CACHE_INFORMATION
-req.alt-loc: ntdddisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntdddisk.h
+apiname: 
+-	DISK_CACHE_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: DISK_CACHE_INFORMATION, *PDISK_CACHE_INFORMATION
 ---
 
 # _DISK_CACHE_INFORMATION structure
 
 
-
 ## -description
+
+
 The DISK_CACHE_INFORMATION structure is used with the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_cache_information.md">IOCTL_DISK_GET_CACHE_INFORMATION</a> request to retrieve cache information.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DISK_CACHE_INFORMATION {
@@ -70,6 +80,49 @@ typedef struct _DISK_CACHE_INFORMATION {
 
 
 ## -struct-fields
+
+
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.ScalarPrefetch
+
+ 
+
+
+### -field DUMMYUNIONNAME.ScalarPrefetch.Minimum
+
+ 
+
+
+### -field DUMMYUNIONNAME.ScalarPrefetch.Maximum
+
+ 
+
+
+### -field DUMMYUNIONNAME.ScalarPrefetch.MaximumBlocks
+
+ 
+
+
+### -field DUMMYUNIONNAME.BlockPrefetch
+
+ 
+
+
+### -field DUMMYUNIONNAME.BlockPrefetch.Minimum
+
+ 
+
+
+### -field DUMMYUNIONNAME.BlockPrefetch.Maximum
+
+ 
+
 
 ### -field ParametersSavable
 
@@ -106,53 +159,45 @@ Disables prefetching. Prefetching might be disabled whenever the number of block
 When <b>TRUE</b>, Indicates that <b>ScalarPrefetch.Maximum</b> should be used together with the transfer length to calculate the amount of data that can be prefetched. When <b>FALSE</b>, <b>BlockPrefetch.Maximum</b> will be the maximum number of disk blocks that can be prefetched.
 
 
-### -field ScalarPrefetch
+#### - BlockPrefetch
 
 
-### -field Minimum
 
-Contains the scalar multiplier of the transfer length of the request when <b>PrefetchScalar</b> is <b>TRUE</b>. If <b>PrefetchScalar</b> is <b>TRUE</b>, the value in <b>ScalarPrefetch.Minimum</b> is multiplied by the transfer length to obtain the minimum amount of data that can be prefetched into the cache on a disk operation. 
-
-
-### -field Maximum
+##### - BlockPrefetch.Maximum
 
 Contains the scalar multiplier of the transfer length of the request when <b>PrefetchScalar</b> is <b>TRUE</b>. If <b>PrefetchScalar</b> is <b>TRUE</b>, the value in <b>ScalarPrefetch.Maximum</b> is multiplied by the transfer length to obtain the maximum amount of data that can be prefetched into the cache on a disk operation. 
 
 
-### -field MaximumBlocks
+##### - ScalarPrefetch.Maximum
+
+Contains the scalar multiplier of the transfer length of the request when <b>PrefetchScalar</b> is <b>TRUE</b>. If <b>PrefetchScalar</b> is <b>TRUE</b>, the value in <b>ScalarPrefetch.Maximum</b> is multiplied by the transfer length to obtain the maximum amount of data that can be prefetched into the cache on a disk operation. 
+
+
+#### - ScalarPrefetch
+
+
+
+##### - BlockPrefetch.Minimum
+
+Contains the scalar multiplier of the transfer length of the request when <b>PrefetchScalar</b> is <b>TRUE</b>. If <b>PrefetchScalar</b> is <b>TRUE</b>, the value in <b>ScalarPrefetch.Minimum</b> is multiplied by the transfer length to obtain the minimum amount of data that can be prefetched into the cache on a disk operation. 
+
+
+##### - ScalarPrefetch.Minimum
+
+Contains the scalar multiplier of the transfer length of the request when <b>PrefetchScalar</b> is <b>TRUE</b>. If <b>PrefetchScalar</b> is <b>TRUE</b>, the value in <b>ScalarPrefetch.Minimum</b> is multiplied by the transfer length to obtain the minimum amount of data that can be prefetched into the cache on a disk operation. 
+
+
+##### - ScalarPrefetch.MaximumBlocks
 
 Contains the maximum size, in blocks, of the transfer length. 
 
-</dd>
-</dl>
-
-### -field BlockPrefetch
-
-
-### -field Minimum
-
-Contains the scalar multiplier of the transfer length of the request when <b>PrefetchScalar</b> is <b>TRUE</b>. If <b>PrefetchScalar</b> is <b>TRUE</b>, the value in <b>ScalarPrefetch.Minimum</b> is multiplied by the transfer length to obtain the minimum amount of data that can be prefetched into the cache on a disk operation. 
-
-
-### -field Maximum
-
-Contains the scalar multiplier of the transfer length of the request when <b>PrefetchScalar</b> is <b>TRUE</b>. If <b>PrefetchScalar</b> is <b>TRUE</b>, the value in <b>ScalarPrefetch.Maximum</b> is multiplied by the transfer length to obtain the maximum amount of data that can be prefetched into the cache on a disk operation. 
-
-</dd>
-</dl>
-
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_cache_information.md">IOCTL_DISK_GET_CACHE_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\ntdddisk\ns-ntdddisk-_disk_cache_information.md">DISK_CACHE_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

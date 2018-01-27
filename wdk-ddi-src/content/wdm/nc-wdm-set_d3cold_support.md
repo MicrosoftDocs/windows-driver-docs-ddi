@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 423C621D-0AE3-468A-94A0-AA3922B410F0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+ms.keywords: kernel.setd3coldsupport, SetD3ColdSupport routine [Kernel-Mode Driver Architecture], SetD3ColdSupport, SET_D3COLD_SUPPORT, SET_D3COLD_SUPPORT, wdm/SetD3ColdSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetD3ColdSupport
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wdm.h
+apiname: 
+-	SetD3ColdSupport
+product: Windows
+targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SET_D3COLD_SUPPORT callback
 
 
-
 ## -description
+
+
 The <i>SetD3ColdSupport</i> routine enables or disables transitions to the D3cold device power state.
 
 
-
 ## -prototype
+
 
 ````
 SET_D3COLD_SUPPORT SetD3ColdSupport;
@@ -59,6 +69,9 @@ VOID SetD3ColdSupport(
 
 ## -parameters
 
+
+
+
 ### -param Context [in, optional]
 
 A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a> structure for the interface.
@@ -70,10 +83,15 @@ Whether to allow transitions from D3hot to D3cold. Set to <b>TRUE</b> to enable 
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 The driver that is the power policy owner (PPO) for a device can call this routine to enable or disable transitions to the D3cold substate that might occur when the computer is in the S0 (working) system power state and is not preparing to exit S0.
 
 If a device must be able to signal a wake event from any low-power Dx state that it enters, the driver for this device should not enable transitions to the D3cold substate unless the device can signal a wake event from this substate. Otherwise, after entering D3cold, the device will be unavailable until the computer restarts or wakes from a sleeping state.
@@ -103,28 +121,33 @@ If the driver calls <i>SetD3ColdSupport</i> to enable transitions to D3cold, the
 The <i>SetD3ColdSupport</i> routine affects only D3hot-to-D3cold transitions that might occur when the computer is in (and is not preparing to exit) the S0 state. This routine has no effect on the case in which the computer is preparing to exit S0 and enter a low-power system state. A device in the D3hot substate might always enter the D3cold substate just before the computer enters a system low-power state.
 
 By default, before the first call to the <i>SetD3ColdSupport</i> routine, D3hot-to-D3cold transitions are disabled. To change this default so that D3hot-to-D3cold transitions are enabled before the first <i>SetD3ColdSupport</i> call, the driver package for the device can include the following two lines in the <b>DDInstall.HW</b> section of the INF file that installs the driver:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Include = machine.inf
+Needs = PciD3ColdSupported
+</pre>
+</td>
+</tr>
+</table></span></div>Windows 8 is the first version of Windows to support devices that can enter and exit the D3cold substate while the computer remains in the S0 state. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543186">Device Low-Power States</a>.
 
-Windows 8 is the first version of Windows to support devices that can enter and exit the D3cold substate while the computer remains in the S0 state. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543186">Device Low-Power States</a>.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
-</dt>
-<dt>
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EvtDeviceD0Entry</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetD3ColdCapability</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551766">IRP_MN_WAIT_WAKE</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a>
+
+<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetD3ColdCapability</a>
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EvtDeviceD0Entry</a>
+
  
 
  

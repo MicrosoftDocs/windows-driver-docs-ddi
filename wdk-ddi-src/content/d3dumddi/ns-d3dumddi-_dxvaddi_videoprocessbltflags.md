@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 790a18fa-5481-432a-921b-6310a0ab78d7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVADDI_VIDEOPROCESSBLTFLAGS, DXVADDI_VIDEOPROCESSBLTFLAGS
+ms.keywords: d3dumddi/DXVADDI_VIDEOPROCESSBLTFLAGS, DXVA2_Structs_8c40b10b-d3f4-420b-986a-455b20b01288.xml, _DXVADDI_VIDEOPROCESSBLTFLAGS, DXVADDI_VIDEOPROCESSBLTFLAGS, display.dxvaddi_videoprocessbltflags, DXVADDI_VIDEOPROCESSBLTFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVADDI_VIDEOPROCESSBLTFLAGS
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVADDI_VIDEOPROCESSBLTFLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXVADDI_VIDEOPROCESSBLTFLAGS
 ---
 
 # _DXVADDI_VIDEOPROCESSBLTFLAGS structure
 
 
-
 ## -description
+
+
 The DXVADDI_VIDEOPROCESSBLTFLAGS structure identifies changes in the current destination surface from the previous destination surface.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVADDI_VIDEOPROCESSBLTFLAGS {
@@ -63,6 +73,9 @@ typedef struct _DXVADDI_VIDEOPROCESSBLTFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field BackgroundChanged
 
@@ -105,15 +118,10 @@ DXVADDI_DESTDATA_RFF_TFF_PRESENT (0x0004)
 A 32-bit value that identifies changes in the current destination surface from the previous destination surface.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a>
-</dt>
-</dl>
+
  
 
  

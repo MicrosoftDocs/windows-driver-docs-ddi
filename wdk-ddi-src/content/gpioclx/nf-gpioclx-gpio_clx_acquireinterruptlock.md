@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: E0332415-1028-489B-AA81-DF8AEE0A28E8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GPIO_CLX_AcquireInterruptLock
+ms.keywords: GPIO_CLX_AcquireInterruptLock method [Parallel Ports], GPIO.gpio_clx_acquireinterruptlock, gpioclx/GPIO_CLX_AcquireInterruptLock, GPIO_CLX_AcquireInterruptLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GPIO_CLX_AcquireInterruptLock
-req.alt-loc: Msgpioclxstub.lib,Msgpioclxstub.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Msgpioclxstub.lib
 req.dll: 
 req.irql: DIRQL or at PASSIVE_LEVEL. See Remarks.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Msgpioclxstub.lib
+-	Msgpioclxstub.dll
+apiname: 
+-	GPIO_CLX_AcquireInterruptLock
+product: Windows
+targetos: Windows
 req.typenames: *PGPIO_CONNECT_IO_PINS_MODE, GPIO_CONNECT_IO_PINS_MODE
 ---
 
 # GPIO_CLX_AcquireInterruptLock function
 
 
-
 ## -description
+
+
 The <b>GPIO_CLX_AcquireInterruptLock</b> method acquires an interrupt lock on a bank of pins in the general-purpose I/O (GPIO) controller.
 
 
-
 ## -syntax
+
 
 ````
 VOID GPIO_CLX_AcquireInterruptLock(
@@ -54,6 +65,9 @@ VOID GPIO_CLX_AcquireInterruptLock(
 
 
 ## -parameters
+
+
+
 
 ### -param Context [in]
 
@@ -66,10 +80,15 @@ The identifier for this bank of GPIO pins. If N is the number of banks in the GP
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 A GPIO controller driver thread calls this method to synchronize to the interrupt service routine (ISR) in GpioClx. While the caller holds the interrupt lock, the ISR cannot call driver-implemented callback functions to access GPIO registers in the specified bank. A GPIO controller driver should call this method before it tries to access GPIO registers that might be accessed by the GpioClx ISR.
 
 The GpioClx ISR calls driver-implemented callback functions to access interrupt status and enable registers in the GPIO controller. Depending on the capabilities of the GPIO controller, the ISR is called either at DIRQL or at PASSIVE_LEVEL. For more information, see <a href="https://msdn.microsoft.com/638B52A0-CB8D-4A79-B7D1-ED2474E46DAE">Interrupt-Related Callbacks</a>.
@@ -83,12 +102,11 @@ The GPIO controller driver can independently acquire and release interrupt locks
 If the <i>Context</i> parameter is NULL or points to an invalid GPIO device context, this method causes a bug check in debug builds of GpioClx.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439494">GPIO_CLX_ReleaseInterruptLock</a>
-</dt>
-</dl>
+
  
 
  

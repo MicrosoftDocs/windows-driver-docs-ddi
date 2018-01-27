@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: e59d7087-58eb-4bc3-a4e0-4597ee28dcd6
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_SetUsageValue
+ms.keywords: HidP_SetUsageValue routine [Human Input Devices], hidfunc_8e494117-11e2-42b8-96b0-6aaa2cb35d44.xml, hid.hidp_setusagevalue, HidP_SetUsageValue, hidpi/HidP_SetUsageValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Windo
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HidP_SetUsageValue
-req.alt-loc: Hidparse.lib,Hidparse.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Hidparse.lib
+-	Hidparse.dll
+apiname: 
+-	HidP_SetUsageValue
+product: Windows
+targetos: Windows
 req.typenames: HIDP_REPORT_TYPE
 ---
 
 # HidP_SetUsageValue function
 
 
-
 ## -description
+
+
 The <b>HidP_SetUsageValue</b> routine sets a HID control value in a specified HID report.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS __stdcall HidP_SetUsageValue(
@@ -61,6 +72,9 @@ NTSTATUS __stdcall HidP_SetUsageValue(
 
 ## -parameters
 
+
+
+
 ### -param ReportType [in]
 
 Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of HID report located at <i>Report</i>.
@@ -68,7 +82,7 @@ Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a
 
 ### -param UsagePage [in]
 
-Specifies the <a href="hid.hid_usages#usage_page#usage_page">usage page</a> of a usage.
+Specifies the <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage page</a> of a usage.
 
 
 ### -param LinkCollection [in]
@@ -102,50 +116,112 @@ Specifies the size, in bytes, of the HID report located at <i>Report</i>, which 
 
 
 ## -returns
+
+
 <b>HidP_SetUsageValue</b> returns one of the following status values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_SUCCESS</b></dt>
-</dl>The routine successfully set the usage value.
+</dl>
+</td>
+<td width="60%">
+The routine successfully set the usage value.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INCOMPATIBLE_REPORT_ID</b></dt>
-</dl>The usage does not exist in the specified report, but it does exist in a different report of the specified type.
+</dl>
+</td>
+<td width="60%">
+The usage does not exist in the specified report, but it does exist in a different report of the specified type.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INVALID_PREPARSED_DATA</b></dt>
-</dl>The preparsed data is not valid.
+</dl>
+</td>
+<td width="60%">
+The preparsed data is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_REPORT_DOES_NOT_EXIST</b></dt>
-</dl>There are no reports of the specified type.
+</dl>
+</td>
+<td width="60%">
+There are no reports of the specified type.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_USAGE_NOT_FOUND</b></dt>
-</dl>The usage does not exist in any report of the specified report type.
+</dl>
+</td>
+<td width="60%">
+The usage does not exist in any report of the specified report type.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INVALID_REPORT_LENGTH</b></dt>
-</dl>The report length is not valid.
+</dl>
+</td>
+<td width="60%">
+The report length is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INVALID_REPORT_TYPE</b></dt>
-</dl>The specified report type is not valid.
+</dl>
+</td>
+<td width="60%">
+The specified report type is not valid.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>HidP_SetUsageValue</b> routine does not sign the value. A user-mode application or kernel-mode driver must either sign the value, at the position provided in the <a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a> structure for this value, or call <a href="..\hidpi\nf-hidpi-hidp_setscaledusagevalue.md">HidP_SetScaledUsageValue</a>.
 
 For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-</dt>
-<dt>
-<a href="..\hidpi\nf-hidpi-hidp_setscaledusagevalue.md">HidP_SetScaledUsageValue</a>
-</dt>
-<dt>
+
 <a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
-</dt>
-</dl>
+
+<a href="..\hidpi\nf-hidpi-hidp_setscaledusagevalue.md">HidP_SetScaledUsageValue</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
  
 
  

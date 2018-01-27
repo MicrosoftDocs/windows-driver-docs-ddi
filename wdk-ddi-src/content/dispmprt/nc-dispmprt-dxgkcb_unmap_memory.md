@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 71e8eb0e-599b-44cf-955b-828f6667edf6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+ms.keywords: display.dxgkcbunmapmemory, DxgkCbUnmapMemory callback function [Display Devices], DxgkCbUnmapMemory, DXGKCB_UNMAP_MEMORY, DXGKCB_UNMAP_MEMORY, dispmprt/DxgkCbUnmapMemory, DpFunctions_d0ba5b02-22ab-4fad-a54a-1e402f538456.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkCbUnmapMemory
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DxgkCbUnmapMemory
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKCB_UNMAP_MEMORY callback
 
 
-
 ## -description
+
+
 The <b>DxgkCbUnmapMemory</b> function unmaps a range of addresses previously mapped by <a href="..\dispmprt\nc-dispmprt-dxgkcb_map_memory.md">DxgkCbMapMemory</a>.
 
 
-
 ## -prototype
+
 
 ````
 DXGKCB_UNMAP_MEMORY DxgkCbUnmapMemory;
@@ -58,6 +68,9 @@ NTSTATUS DxgkCbUnmapMemory(
 
 ## -parameters
 
+
+
+
 ### -param DeviceHandle [in]
 
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
@@ -69,18 +82,16 @@ The beginning address of the range to be unmapped. This address can be a virtual
 
 
 ## -returns
+
+
 <b>DxgkCbUnmapMemory</b> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_map_memory.md">DxgkCbMapMemory</a>
-</dt>
-</dl>
+
  
 
  

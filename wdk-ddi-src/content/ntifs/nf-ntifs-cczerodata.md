@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 97a0f314-5813-4ff8-8a94-c675874cdc3b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcZeroData
+ms.keywords: CcZeroData routine [Installable File System Drivers], ccref_af6df6fe-6fa3-41e9-b3af-2530ca6a2c85.xml, ifsk.cczerodata, CcZeroData, ntifs/CcZeroData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows 2000 and later Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcZeroData
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcZeroData
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcZeroData function
 
 
-
 ## -description
+
+
 The <b>CcZeroData</b> routine zeros the specified range of bytes in a cached or noncached file.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN CcZeroData(
@@ -56,6 +66,9 @@ BOOLEAN CcZeroData(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -78,10 +91,15 @@ Set to <b>TRUE</b> if the caller should be put into a wait state until the entir
 
 
 ## -returns
+
+
 <b>CcZeroData</b> returns <b>TRUE</b> if the data is zeroed successfully; otherwise, returns <b>FALSE</b>.
 
 
+
 ## -remarks
+
+
 The file to be zeroed can be cached or noncached. However, if the file is noncached, the values of <i>StartOffset</i> and <i>EndOffset</i> must both be multiples of the volume's sector size. (For information about how to determine sector size, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553208">Kernel-Mode Driver Architecture Design Guide</a> and <a href="https://msdn.microsoft.com/9ca2dfee-abb3-40cb-aa04-b9e1bc0b1fa5">Kernel-Mode Driver Architecture Reference</a>.)
 
 If a pool allocation failure occurs and <i>Wait</i> was specified as <b>TRUE</b>, <b>CcZeroData</b> raises a STATUS_INSUFFICIENT_RESOURCES exception. If a pool allocation failure occurs and <i>Wait</i> was specified as <b>FALSE</b>, <b>CcZeroData</b> returns <b>FALSE</b>, but does not raise an exception.
@@ -95,24 +113,26 @@ If <i>Wait</i> is <b>FALSE</b> and if the required pages of the cached file are 
 If a pool allocation failure occurs, <b>CcZeroData</b> raises a STATUS_INSUFFICIENT_RESOURCES exception.  If <b>CcZeroData</b> encounters any other errors, including IO errors, the errors will be raised to the caller.
 
 For Windows Vista and later Windows operating systems, the behavior of <b>CcZeroData</b> is as follows:
-
+<ul>
+<li>
 If the stream is cached and write_through, <i>StartOffset</i> does not have to be sector aligned.  
 
+</li>
+<li>
 If <i>EndOffset</i> is not aligned, it will be rounded up to the next sector size.  
+
+</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539143">CcIsFileCached</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539143">CcIsFileCached</a>
+
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
  
 
  

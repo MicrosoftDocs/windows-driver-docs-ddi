@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 359ed0d2-91b1-46d1-a358-babe7cb993fb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _IO_CONTAINER_INFORMATION_CLASS, IO_CONTAINER_INFORMATION_CLASS
+ms.keywords: wdm/IO_CONTAINER_INFORMATION_CLASS, wdm/IoSessionStateInformation, IoSessionStateInformation, wdm/IoMaxContainerInformationClass, IoMaxContainerInformationClass, _IO_CONTAINER_INFORMATION_CLASS, IO_CONTAINER_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], sysenum_f1533e86-b529-4ef0-b603-e57f4863b740.xml, kernel.io_container_information_class, IO_CONTAINER_INFORMATION_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IO_CONTAINER_INFORMATION_CLASS
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	IO_CONTAINER_INFORMATION_CLASS
+product: Windows
+targetos: Windows
 req.typenames: IO_CONTAINER_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _IO_CONTAINER_INFORMATION_CLASS enumeration
 
 
-
 ## -description
+
+
 The <b>IO_CONTAINER_INFORMATION_CLASS</b> enumeration contains constants that indicate the classes of system information that a kernel-mode driver can request.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _IO_CONTAINER_INFORMATION_CLASS { 
@@ -55,6 +65,9 @@ typedef enum _IO_CONTAINER_INFORMATION_CLASS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field IoSessionStateInformation
 
@@ -67,15 +80,16 @@ Specifies the maximum value in this enumeration type.
 
 
 ## -remarks
+
+
 To request system information, a driver calls the <a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a> routine and sets this routine's <i>InformationClass</i> parameter to an <b>IO_CONTAINER_NOTIFICATION_CLASS</b> constant (other than <b>IoMaxContainerInformationClass</b>). Currently, <b>IoGetContainerInformation</b> supports only <i>InformationClass</i> = <b>IoSessionStateInformation</b>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a>
-</dt>
-</dl>
+
  
 
  

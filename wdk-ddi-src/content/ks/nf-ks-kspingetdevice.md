@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 965aa806-90cc-4c82-a126-42ae433cba3b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinGetDevice
+ms.keywords: stream.kspingetdevice, KsPinGetDevice function [Streaming Media Devices], avfunc_09495aa3-2bed-4093-a989-2ae444f1c372.xml, ks/KsPinGetDevice, KsPinGetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsPinGetDevice
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KsPinGetDevice
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsPinGetDevice function
 
 
-
 ## -description
+
+
 The<b> KsPinGetDevice </b>function returns the AVStream device to which <i>Pin</i> belongs.
 
 
-
 ## -syntax
+
 
 ````
 PKSDEVICE __inline KsPinGetDevice(
@@ -54,34 +64,38 @@ PKSDEVICE __inline KsPinGetDevice(
 
 ## -parameters
 
+
+
+
 ### -param Pin [in]
 
 A pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure representing the pin for which to return the owning AVStream device.
 
 
 ## -returns
+
+
 <b>KsPinGetDevice </b>returns a pointer to a <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure representing the AVStream device to which <i>Pin</i> belongs.
 
 
+
 ## -remarks
+
+
 This call is an inline function call to <a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>
+
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
  
 
  

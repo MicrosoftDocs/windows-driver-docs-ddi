@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 35e2b098-1bc2-4ffc-86c8-b60b651df027
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _INSTANCE_BASIC_INFORMATION, PINSTANCE_BASIC_INFORMATION, INSTANCE_BASIC_INFORMATION
+ms.keywords: PINSTANCE_BASIC_INFORMATION structure pointer [Installable File System Drivers], fltuserstructures/INSTANCE_BASIC_INFORMATION, INSTANCE_BASIC_INFORMATION, PINSTANCE_BASIC_INFORMATION, ifsk.instance_basic_information, fltuserstructures/PINSTANCE_BASIC_INFORMATION, FltSystemStructures_bc615e69-e0f4-478b-9684-9371d62f5602.xml, _INSTANCE_BASIC_INFORMATION, INSTANCE_BASIC_INFORMATION structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: INSTANCE_BASIC_INFORMATION
-req.alt-loc: fltuserstructures.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	fltuserstructures.h
+apiname: 
+-	INSTANCE_BASIC_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: PINSTANCE_BASIC_INFORMATION, INSTANCE_BASIC_INFORMATION
 ---
 
 # _INSTANCE_BASIC_INFORMATION structure
 
 
-
 ## -description
+
+
 The INSTANCE_BASIC_INFORMATION structure contains basic information for a minifilter instance. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _INSTANCE_BASIC_INFORMATION {
@@ -55,6 +65,9 @@ typedef struct _INSTANCE_BASIC_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NextEntryOffset
 
@@ -72,42 +85,34 @@ Byte offset of the first character of the instance name string. This character i
 
 
 ## -remarks
+
+
 This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer contains two or more of these structures, the <b>NextEntryOffset</b> value in each entry, except the last, falls on an 8-byte boundary.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540538">FilterInstanceFindClose</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540541">FilterInstanceFindFirst</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541493">FilterInstanceFindNext</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541499">FilterInstanceGetInformation</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541535">FilterVolumeInstanceFindClose</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541541">FilterVolumeInstanceFindFirst</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541551">FilterVolumeInstanceFindNext</a>
-</dt>
-<dt>
+
 <a href="..\fltuserstructures\ns-fltuserstructures-_instance_aggregate_standard_information.md">INSTANCE_AGGREGATE_STANDARD_INFORMATION</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540538">FilterInstanceFindClose</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540541">FilterInstanceFindFirst</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541493">FilterInstanceFindNext</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541499">FilterInstanceGetInformation</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541551">FilterVolumeInstanceFindNext</a>
+
 <a href="..\fltuserstructures\ns-fltuserstructures-_instance_full_information.md">INSTANCE_FULL_INFORMATION</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541535">FilterVolumeInstanceFindClose</a>
+
 <a href="..\fltuserstructures\ns-fltuserstructures-_instance_partial_information.md">INSTANCE_PARTIAL_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

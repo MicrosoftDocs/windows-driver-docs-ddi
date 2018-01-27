@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 07785939-C3D1-4085-BA1A-91E8FEE52B70
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_EVICT, D3DKMT_EVICT
+ms.keywords: D3DKMT_EVICT, _D3DKMT_EVICT, d3dkmthk/D3DKMT_EVICT, display.d3dkmt_evict, D3DKMT_EVICT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_EVICT
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_EVICT
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_EVICT
 ---
 
 # _D3DKMT_EVICT structure
 
 
-
 ## -description
+
+
 <b>D3DKMT_EVICT</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtevict.md">D3DKMTEvict</a> to subtract one from the residency reference count.
 
 Once this count reaches zero, it will remove the allocation from the device residency list.
   
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_EVICT {
@@ -60,6 +70,9 @@ typedef struct _D3DKMT_EVICT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -86,18 +99,12 @@ typedef struct _D3DKMT_EVICT {
 [out] When non-zero, specifies how much the application should evict in order to meet its current memory budget.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_evict_flags.md">D3DDDI_EVICT_FLAGS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtevict.md">D3DKMTEvict</a>
-</dt>
-</dl>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_evict_flags.md">D3DDDI_EVICT_FLAGS</a>
+
  
 
  

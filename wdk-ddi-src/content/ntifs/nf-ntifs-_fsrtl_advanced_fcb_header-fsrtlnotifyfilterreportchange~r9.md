@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7924405f-9862-4704-bff1-05e0285592b9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlNotifyFilterReportChange
+ms.keywords: FsRtlNotifyFilterReportChange, FsRtlNotifyFilterReportChange function [Installable File System Drivers], fsrtlref_c4a79c57-aa80-40f3-9882-76ed887c99cb.xml, ntifs/FsRtlNotifyFilterReportChange, ifsk.fsrtlnotifyfilterreportchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Update Rollup for Window
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlNotifyFilterReportChange
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlNotifyFilterReportChange
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlNotifyFilterReportChange function
 
 
-
 ## -description
+
+
 <b>FsRtlNotifyFilterReportChange</b> completes IRP_MN_NOTIFY_CHANGE_DIRECTORY requests that are pending in the specified notify list. 
 
 
-
 ## -syntax
+
 
 ````
 VOID FsRtlNotifyFilterReportChange(
@@ -62,6 +72,9 @@ VOID FsRtlNotifyFilterReportChange(
 
 
 ## -parameters
+
+
+
 
 ### -param NotifySync [in]
 
@@ -114,30 +127,31 @@ Context pointer to pass to the filter callback routine. For more information, se
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A file system that has received an IRP with major function code <a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>, minor function code IRP_MN_NOTIFY_CHANGE_DIRECTORY, calls <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterchangedirectory~r10.md">FsRtlNotifyFilterChangeDirectory</a> to create a notify structure to hold the IRP and add the notify structure to the notify list for the current volume. 
 
 When a change occurs to the directory, the file system calls <b>FsRtlNotifyFilterReportChange</b> to complete the pending IRP_MN_NOTIFY_CHANGE_DIRECTORY requests in the notify list. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterchangedirectory~r10.md">FsRtlNotifyFilterChangeDirectory</a>
-</dt>
-<dt>
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
-</dt>
-</dl>
+
+<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterchangedirectory~r10.md">FsRtlNotifyFilterChangeDirectory</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>
+
  
 
  

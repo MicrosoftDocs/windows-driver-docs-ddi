@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 981a3560-473a-40b2-a1dc-4ab9dc618e67
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcUnregisterIoTimeout
+ms.keywords: audio.iminiport, IMiniport interface [Audio Devices], IMiniport interface [Audio Devices], described, IMiniport, portcls/IMiniport, audmp-routines_8ecaedd2-12d2-420f-a5e7-0f71451cf989.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniport
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,46 +29,64 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IMiniport
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniport interface
 
 
-
 ## -description
+
+
 The <code>IMiniport</code> interface is the generic miniport interface that all miniport objects support. <code>IMiniport</code> inherits from the <b>IUnknown</b> interface.
 
 <code>IMiniport</code> is the base interface for the following miniport interfaces:
-
+<dl>
+<dd>
 
 <a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
 
 
+</dd>
+<dd>
 
 <a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
 
 
+</dd>
+<dd>
 
 <a href="..\portcls\nn-portcls-iminiporttopology.md">IMiniportTopology</a>
 
 
+</dd>
+<dd>
 
 <a href="..\portcls\nn-portcls-iminiportwavecyclic.md">IMiniportWaveCyclic</a>
 
 
+</dd>
+<dd>
 
 <a href="..\portcls\nn-portcls-iminiportwavepci.md">IMiniportWavePci</a>
 
 
+</dd>
+<dd>
 
 <a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
 
 
-
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMiniport</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface but does not have additional members.
-
-
-## -remarks
+</dd>
+</dl>

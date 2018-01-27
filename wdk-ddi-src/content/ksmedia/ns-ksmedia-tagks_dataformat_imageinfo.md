@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d63289bc-9603-4e79-8a77-d2eb0f2c784c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_DATAFORMAT_IMAGEINFO, KS_DATAFORMAT_IMAGEINFO, *PKS_DATAFORMAT_IMAGEINFO
+ms.keywords: stream.ks_dataformat_imageinfo, PKS_DATAFORMAT_IMAGEINFO, KS_DATAFORMAT_IMAGEINFO, *PKS_DATAFORMAT_IMAGEINFO, ksmedia/PKS_DATAFORMAT_IMAGEINFO, tagKS_DATAFORMAT_IMAGEINFO, ksmedia/KS_DATAFORMAT_IMAGEINFO, KS_DATAFORMAT_IMAGEINFO structure [Streaming Media Devices], PKS_DATAFORMAT_IMAGEINFO structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_DATAFORMAT_IMAGEINFO
-req.alt-loc: Ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ksmedia.h
+apiname: 
+-	KS_DATAFORMAT_IMAGEINFO
+product: Windows
+targetos: Windows
 req.typenames: KS_DATAFORMAT_IMAGEINFO, *PKS_DATAFORMAT_IMAGEINFO
 ---
 
 # tagKS_DATAFORMAT_IMAGEINFO structure
 
 
-
 ## -description
+
+
 Specifies an image data format that is used for an independent image pin (or stream).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagKS_DATAFORMAT_IMAGEINFO {
@@ -55,6 +65,9 @@ typedef struct tagKS_DATAFORMAT_IMAGEINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field DataFormat
 
 A <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure that specifies the data format of the image stream.
@@ -65,18 +78,12 @@ A <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure that specifie
 A <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a> structure that specifies image color and dimension information that the still image capture stream would provide.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-</dt>
-</dl>
+
  
 
  

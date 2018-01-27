@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c981e56f-e582-4c06-8d32-b070d58065d2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortAllocatePool
+ms.keywords: VideoPortAllocatePool function [Display Devices], video/VideoPortAllocatePool, VideoPortAllocatePool, VideoPort_Functions_a9163e5b-6519-4427-a748-066ad120022a.xml, display.videoportallocatepool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of the Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortAllocatePool
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortAllocatePool
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortAllocatePool function
 
 
-
 ## -description
+
+
 The <b>VideoPortAllocatePool</b> function allocates a block of pool memory, inserting a caller-supplied tag at the beginning of the memory.
 
 
-
 ## -syntax
+
 
 ````
 PVOID VideoPortAllocatePool(
@@ -58,6 +68,9 @@ PVOID VideoPortAllocatePool(
 
 ## -parameters
 
+
+
+
 ### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
@@ -66,7 +79,6 @@ Pointer to the miniport driver's device extension.
 ### -param PoolType [in]
 
 Specifies the type of memory pool to allocate. This parameter can be set to one of the following:
-
 <table>
 <tr>
 <th>Value</th>
@@ -112,8 +124,7 @@ The pool is from cache-aligned, paged memory.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param NumberOfBytes [in]
@@ -127,10 +138,15 @@ Specifies a four-byte allocation tag, consisting of up to four ASCII characters,
 
 
 ## -returns
+
+
 On successful allocation of the memory pool, <b>VideoPortAllocatePool</b> returns the address of the allocated memory pool. Otherwise, this function returns <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 <b>VideoPortAllocatePool</b> is intended to replace <b>VideoPortAllocateBuffer</b>, which is obsolete.
 
 The <i>Tag</i> string should be specified in byte-reversed order. It is recommended that the first letter in the string (before it is reversed) be 'D' to denote a display driver; the other three bytes should be indicative of the driver name. For example, the <i>Tag</i> string 'zyxD' appears as 'Dxyz' if pool is dumped. The tag appears in any crash dump of the system that occurs.
@@ -138,12 +154,11 @@ The <i>Tag</i> string should be specified in byte-reversed order. It is recommen
 Callers of <b>VideoPortAllocatePool</b> can be running at IRQL = DISPATCH_LEVEL only if the requested <i>PoolType</i> is one of the <b>VpNonPaged</b><i>Xxx</i> types. Otherwise, callers must be running at IRQL &lt; DISPATCH_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nf-video-videoportfreepool.md">VideoPortFreePool</a>
-</dt>
-</dl>
+
  
 
  

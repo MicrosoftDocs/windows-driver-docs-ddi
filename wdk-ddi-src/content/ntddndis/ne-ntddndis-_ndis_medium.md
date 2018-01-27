@@ -7,8 +7,8 @@ old-location: netvista\ndis_medium.htm
 old-project: netvista
 ms.assetid: 3e4aa7fb-0dd4-4c45-ab5e-21342e9fb4d8
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_MEDIUM, NDIS_MEDIUM, *PNDIS_MEDIUM
+ms.date: 1/18/2018
+ms.keywords: NdisMediumInfiniBand, _NDIS_MEDIUM, ntddndis/NdisMediumBpc, NdisMediumWirelessWan, ntddndis/NdisMediumLoopback, NDIS_MEDIUM enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisMediumAtm, ntddndis/NDIS_MEDIUM, ntddndis/NdisMedium802_3, ntddndis/NdisMediumLocalTalk, NdisMediumLocalTalk, NdisMediumMax, ntddndis/NdisMedium802_5, NdisMediumCoWan, ntddndis/NdisMediumDix, NdisMediumBpc, NdisMediumNative802_11, PNDIS_MEDIUM enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_MEDIUM, NdisMediumWan, NdisMedium1394, NDIS_MEDIUM, NdisMedium802_5, NdisMediumIP, ntddndis/NdisMediumIP, NdisMediumDix, ntddndis/NdisMediumArcnetRaw, ntddndis/NdisMediumInfiniBand, ntddndis/NdisMediumTunnel, NdisMediumIrda, NdisMedium802_3, NdisMediumAtm, protocol_structures_ref_3b154721-1574-4855-9028-704ce215eb91.xml, NdisMediumTunnel, netvista.ndis_medium, ntddndis/NdisMediumWirelessWan, ntddndis/NdisMediumCoWan, NdisMediumArcnet878_2, ntddndis/NdisMediumMax, ntddndis/NdisMedium1394, ntddndis/NdisMediumWan, NdisMediumFddi, ntddndis/NdisMediumFddi, PNDIS_MEDIUM, ntddndis/NdisMediumNative802_11, NdisMediumLoopback, ntddndis/NdisMediumIrda, ntddndis/NdisMediumArcnet878_2, *PNDIS_MEDIUM, NdisMediumArcnetRaw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 5.1, and NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_MEDIUM
-req.alt-loc: ntddndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: NDIS_MEDIUM, *PNDIS_MEDIUM
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddndis.h
+apiname: 
+-	NDIS_MEDIUM
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_MEDIUM, NDIS_MEDIUM
 ---
 
 # _NDIS_MEDIUM enumeration
 
 
-
 ## -description
+
+
 The <b>NDIS_MEDIUM</b> enumeration type identifies the medium types that NDIS drivers support.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _NDIS_MEDIUM { 
@@ -77,6 +87,9 @@ typedef enum _NDIS_MEDIUM {
 
 ## -enum-fields
 
+
+
+
 ### -field NdisMedium802_3
 
 Specifies an Ethernet (802.3) network.
@@ -85,16 +98,12 @@ Specifies an Ethernet (802.3) network.
 ### -field NdisMedium802_5
 
 Specifies a Token Ring (802.5) network.
-
-<div class="alert"><b>Note</b>   Not supported in Windows 8 or later.</div>
-<div> </div>
+<div class="alert"><b>Note</b>   Not supported in Windows 8 or later.</div><div> </div>
 
 ### -field NdisMediumFddi
 
 Specifies a Fiber Distributed Data Interface (FDDI) network.
-
-<div class="alert"><b>Note</b>   Not supported in Windows Vista/Windows Server 2008 or later.</div>
-<div> </div>
+<div class="alert"><b>Note</b>   Not supported in Windows Vista/Windows Server 2008 or later.</div><div> </div>
 
 ### -field NdisMediumWan
 
@@ -116,16 +125,12 @@ Specifies an Ethernet network for which the drivers use the DIX Ethernet header 
 ### -field NdisMediumArcnetRaw
 
 Specifies an ARCNET network.
-
-<div class="alert"><b>Note</b>   Not supported in Windows Vista/Windows Server 2008 or later.</div>
-<div> </div>
+<div class="alert"><b>Note</b>   Not supported in Windows Vista/Windows Server 2008 or later.</div><div> </div>
 
 ### -field NdisMediumArcnet878_2
 
 Specifies an ARCNET (878.2) network.
-
-<div class="alert"><b>Note</b>   Not supported in Windows Vista/Windows Server 2008 or later.</div>
-<div> </div>
+<div class="alert"><b>Note</b>   Not supported in Windows Vista/Windows Server 2008 or later.</div><div> </div>
 
 ### -field NdisMediumAtm
 
@@ -169,9 +174,7 @@ Specifies a wide area network in a connection-oriented environment.
 ### -field NdisMedium1394
 
 Specifies an IEEE 1394 (fire wire) network. 
-
-<div class="alert"><b>Note</b>   Not supported in Windows Vista/Windows Server 2008 or later.</div>
-<div> </div>
+<div class="alert"><b>Note</b>   Not supported in Windows Vista/Windows Server 2008 or later.</div><div> </div>
 
 ### -field NdisMediumInfiniBand
 
@@ -193,6 +196,10 @@ Specifies a native IEEE 802.11 network.
 Specifies an NDIS loopback network.
 
 
+### -field NdisMediumWiMAX
+
+
+
 ### -field NdisMediumIP
 
 Specifies a generic medium that is capable of sending and receiving raw IP packets.
@@ -202,5 +209,3 @@ Specifies a generic medium that is capable of sending and receiving raw IP packe
 
 A maximum value for testing purposes.
 
-
-## -remarks

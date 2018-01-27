@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 21eefb20-b5ad-43c7-a1aa-92731c856363
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: LOCATION_DESIRED_ACCURACY, LOCATION_DESIRED_ACCURACY
+ms.keywords: LOCATION_DESIRED_ACCURACY, sensors.location_desired_accuracy, LOCATION_DESIRED_ACCURACY_HIGH, sensorsclassextension/LOCATION_DESIRED_ACCURACY_DEFAULT, Sensor_Enums_a794ec29-a465-4d6a-b32e-c5eb890c95ae.xml, LOCATION_DESIRED_ACCURACY enumeration [Sensor Devices], sensorsclassextension/LOCATION_DESIRED_ACCURACY, LOCATION_DESIRED_ACCURACY_DEFAULT, sensorsclassextension/LOCATION_DESIRED_ACCURACY_HIGH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 7,Available in Windows 7.
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: LOCATION_DESIRED_ACCURACY
-req.alt-loc: SensorsClassExtension.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	SensorsClassExtension.h
+apiname: 
+-	LOCATION_DESIRED_ACCURACY
+product: Windows
+targetos: Windows
 req.typenames: LOCATION_DESIRED_ACCURACY
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # LOCATION_DESIRED_ACCURACY enumeration
 
 
-
 ## -description
+
+
 The <b>LOCATION_DESIRED_ACCURACY </b>enumeration type defines values for the <a href="https://msdn.microsoft.com/1BF1568D-A889-4158-9C6D-160D9B06F0DE">SENSOR_PROPERTY_LOCATION_DESIRED_ACCURACY</a> property.
 
 
-
 ## -syntax
+
 
 ````
 enum LOCATION_DESIRED_ACCURACY {
@@ -57,6 +67,9 @@ enum LOCATION_DESIRED_ACCURACY {
 
 ## -enum-fields
 
+
+
+
 ### -field LOCATION_DESIRED_ACCURACY_DEFAULT
 
 Indicates that the sensor should use the accuracy for which it can optimize power and other such cost considerations.
@@ -67,15 +80,10 @@ Indicates that the sensor should use the accuracy for which it can optimize powe
 Indicates that the sensor should deliver the highest-accuracy report possible. This includes using services that might charge money, or consuming higher levels of battery power or connection bandwidth.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545610">ISensorDriver::OnGetProperties</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2dc32517-3730-4a1c-a59a-f5036d6f54ef
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeRemoveEntryDeviceQueue
+ms.keywords: k105_351b5540-c341-46d1-b2da-1ea88f78b7b2.xml, wdm/KeRemoveEntryDeviceQueue, KeRemoveEntryDeviceQueue, kernel.keremoveentrydevicequeue, KeRemoveEntryDeviceQueue routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeRemoveEntryDeviceQueue
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlKeDispatchLte, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeRemoveEntryDeviceQueue
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeRemoveEntryDeviceQueue function
 
 
-
 ## -description
+
+
 The <b>KeRemoveEntryDeviceQueue</b> routine returns whether the specified entry is in the device queue and removes it, if it was queued, from the device queue.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN KeRemoveEntryDeviceQueue(
@@ -55,6 +65,9 @@ BOOLEAN KeRemoveEntryDeviceQueue(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceQueue [in, out]
 
@@ -67,10 +80,15 @@ Pointer to the entry to be removed from the specified <i>DeviceQueue</i>.
 
 
 ## -returns
+
+
 If the <i>DeviceQueueEntry</i> is queued, it is removed and <b>KeRemoveEntryDeviceQueue</b> returns <b>TRUE</b>.
 
 
+
 ## -remarks
+
+
 The IRQL is set to DISPATCH_LEVEL and the <i>DeviceQueue</i> spin lock is acquired.
 
 If the specified <i>DeviceQueueEntry</i> is not in the queue, the IRP either is already being processed, or the IRP has been canceled. In this case, <b>KeRemoveEntryDeviceQueue</b> simply returns <b>FALSE</b>.
@@ -78,24 +96,19 @@ If the specified <i>DeviceQueueEntry</i> is not in the queue, the IRP either is 
 The specified <i>DeviceQueue</i> spin lock is released and IRQL is restored to its previous value. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-keinsertdevicequeue.md">KeInsertDeviceQueue</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keremovebykeydevicequeue.md">KeRemoveByKeyDeviceQueue</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-keremovedevicequeue.md">KeRemoveDeviceQueue</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
+
+<a href="..\wdm\nf-wdm-keremovebykeydevicequeue.md">KeRemoveByKeyDeviceQueue</a>
+
+<a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
+
  
 
  

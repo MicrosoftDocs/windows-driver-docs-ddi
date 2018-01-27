@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ef1fd29c-e0ef-4c08-ab3a-b1a3c694c06b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsRemoveCreateThreadNotifyRoutine
+ms.keywords: kernel.psremovecreatethreadnotifyroutine, PsRemoveCreateThreadNotifyRoutine routine [Kernel-Mode Driver Architecture], ntddk/PsRemoveCreateThreadNotifyRoutine, k108_cfa75911-6de3-4459-8093-855279e0a5f7.xml, PsRemoveCreateThreadNotifyRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PsRemoveCreateThreadNotifyRoutine
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	PsRemoveCreateThreadNotifyRoutine
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # PsRemoveCreateThreadNotifyRoutine function
 
 
-
 ## -description
+
+
 The <b>PsRemoveCreateThreadNotifyRoutine</b> routine removes a callback routine that was registered by the <a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a> routine.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PsRemoveCreateThreadNotifyRoutine(
@@ -54,25 +64,32 @@ NTSTATUS PsRemoveCreateThreadNotifyRoutine(
 
 ## -parameters
 
+
+
+
 ### -param NotifyRoutine [in]
 
 Pointer to the callback routine that the driver has previously registered through <a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>. 
 
 
 ## -returns
+
+
 <b>PsRemoveCreateThreadNotifyRoutine</b> returns STATUS_SUCCESS if it  successfully removes the callback routine, or STATUS_PROCEDURE_NOT_FOUND if the value of <i>NotifyRoutine</i> does not match any registered callback routine.
 
 
+
 ## -remarks
+
+
 If the driver's callback routine is currently running, <b>PsRemoveCreateThreadNotifyRoutine</b> waits until the callback routine exits before removing it. Therefore, the callback routine itself must not call <b>PsRemoveCreateThreadNotifyRoutine</b>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
-</dt>
-</dl>
+
  
 
  

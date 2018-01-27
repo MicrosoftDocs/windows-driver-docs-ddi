@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 58dd579c-3fb8-45c7-a7bc-ca0919166153
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCeQueryInformation
+ms.keywords: rxref_b7508a13-8eb0-42d0-917c-300a5eb4c0e9.xml, RxCeQueryInformation, ifsk.rxcequeryinformation, rxce/RxCeQueryInformation, RxCeQueryInformation function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxCeQueryInformation
-req.alt-loc: rxce.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rxce.h
+apiname: 
+-	RxCeQueryInformation
+product: Windows
+targetos: Windows
 req.typenames: *LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RxCeQueryInformation function
 
 
-
 ## -description
+
+
 <b>RxCeQueryInformation</b> queries information about a connection in a caller-allocated buffer.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RxCeQueryInformation(
@@ -58,6 +68,9 @@ NTSTATUS RxCeQueryInformation(
 
 ## -parameters
 
+
+
+
 ### -param pVc [in]
 
 A pointer to the virtual circuit associated with this connection.
@@ -70,28 +83,6 @@ The desired information class for this query type. The value specified for <i>In
 
 
 
-### -param RxCeTransportProviderInformation
-
-Query the transport for provider information. An RXCE_TRANSPORT_PROVIDER_INFO structure is copied to the <i>pInformation</i> buffer on success. Note that RXCE_TRANSPORT_PROVIDER_INFO is a typedef for TDI_PROVIDER_INFO.
-
-
-### -param RxCeConnectionInformation
-
-Query For information about the connection. An RXCE_CONNECTION_INFORMATION structure is copied to the <i>pInformation</i> buffer on success. Note that RXCE_CONNECTION_INFORMATION is a typedef for TDI_CONNECTION_INFORMATION.
-
-
-### -param RxCeConnectionEndpointInformation
-
-Query the transport For information about the connection endpoint. An RXCE_CONNECTION_INFO structure is copied to the <i>pInformation</i> buffer on success. Note that RXCE_CONNECTION_INFO is a typedef for TDI_CONNECTION_INFO.
-
-
-### -param RxCeRemoteAddressInformation
-
-Query the transport For information about the remote address. A  TDI_ADDRESS_INFO structure is copied to the <i>pInformation</i> buffer on success. 
-
-</dd>
-</dl>
-
 ### -param pInformation [out]
 
 The caller-supplied buffer for returning information. 
@@ -102,17 +93,66 @@ The caller-supplied buffer for returning information.
 The length of  the buffer. 
 
 
+##### - InformationClass.RxCeConnectionInformation
+
+Query For information about the connection. An RXCE_CONNECTION_INFORMATION structure is copied to the <i>pInformation</i> buffer on success. Note that RXCE_CONNECTION_INFORMATION is a typedef for TDI_CONNECTION_INFORMATION.
+
+
+##### - InformationClass.RxCeRemoteAddressInformation
+
+Query the transport For information about the remote address. A  TDI_ADDRESS_INFO structure is copied to the <i>pInformation</i> buffer on success. 
+
+
+##### - InformationClass.RxCeConnectionEndpointInformation
+
+Query the transport For information about the connection endpoint. An RXCE_CONNECTION_INFO structure is copied to the <i>pInformation</i> buffer on success. Note that RXCE_CONNECTION_INFO is a typedef for TDI_CONNECTION_INFO.
+
+
+##### - InformationClass.RxCeTransportProviderInformation
+
+Query the transport for provider information. An RXCE_TRANSPORT_PROVIDER_INFO structure is copied to the <i>pInformation</i> buffer on success. Note that RXCE_TRANSPORT_PROVIDER_INFO is a typedef for TDI_PROVIDER_INFO.
+
+
 ## -returns
+
+
 <b>RxCeQueryInformation</b> returns STATUS_SUCCESS on success or one of the following warning or error codes: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_OVERFLOW</b></dt>
-</dl>This specified <i>length</i> of the output buffer pointed to by <i>pInformation</i> was not large enough to receive the information requested by the <i>InformationClass</i> query type.
+</dl>
+</td>
+<td width="60%">
+This specified <i>length</i> of the output buffer pointed to by <i>pInformation</i> was not large enough to receive the information requested by the <i>InformationClass</i> query type.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>The allocation of nonpaged pool memory needed by this routine failed. 
+</dl>
+</td>
+<td width="60%">
+The allocation of nonpaged pool memory needed by this routine failed. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>This value can be returned for any of the following conditions:
+</dl>
+</td>
+<td width="60%">
+This value can be returned for any of the following conditions:
+
 <dl>
 <dd>
 The <i>pVC</i> parameter passed to this routine was invalid.
@@ -126,16 +166,16 @@ The connection, address, or transport defined for this virtual circuit was inval
 The <i>InformationClass</i> for this query type was not one of the allowed values.
 
 </dd>
-</dl>The <i>pVC</i> parameter passed to this routine was invalid.
+</dl>
+</td>
+</tr>
+</table> 
 
-The connection, address, or transport defined for this virtual circuit was invalid. 
-
-The <i>InformationClass</i> for this query type was not one of the allowed values.
-
- 
 
 
 ## -remarks
+
+
 <b>RxCeQueryInformation</b> returns information for a given virtual circuit. The  only values for <i>InformationClass</i> that can be specified when calling <b>RxCeQueryInformation</b> are the following:
 
 RxCeTransportProviderInformation
@@ -149,15 +189,13 @@ RxCeRemoteAddressInformation
 For some values of <i>InformationClass</i>, <b>RxCeQueryInformation</b> calls <b>TdiBuildQueryInformation</b> and TDI to retrieve the requested information.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\rxce\nf-rxce-rxcequeryadapterstatus.md">RxCeQueryAdapterStatus</a>
-</dt>
-<dt>
+
 <a href="..\rxce\nf-rxce-rxcequerytransportinformation.md">RxCeQueryTransportInformation</a>
-</dt>
-</dl>
+
+<a href="..\rxce\nf-rxce-rxcequeryadapterstatus.md">RxCeQueryAdapterStatus</a>
+
  
 
  

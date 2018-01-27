@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a5447dd8-6a4f-4686-b4e3-7deb4b61ff92
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryActiveGroupCount
+ms.keywords: KeQueryActiveGroupCount, kernel.kequeryactivegroupcount, wdm/KeQueryActiveGroupCount, KeQueryActiveGroupCount routine [Kernel-Mode Driver Architecture], k105_29b5c7ca-1596-4a3e-8cda-20c6ccec4ebb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 7.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeQueryActiveGroupCount
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeQueryActiveGroupCount
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeQueryActiveGroupCount function
 
 
-
 ## -description
+
+
 The <b>KeQueryActiveGroupCount</b> routine returns the number of active processor groups in a multiprocessor system.
 
 
-
 ## -syntax
+
 
 ````
 USHORT KeQueryActiveGroupCount(void);
@@ -54,37 +64,39 @@ USHORT KeQueryActiveGroupCount(void);
 ## -parameters
 
 
+
+
+
 ## -returns
-<b>KeQueryActiveGroupCount</b> returns a count of the active groups.
+
 
 <b>KeQueryActiveGroupCount</b> returns a count of the active groups.
 
-<b>KeQueryActiveGroupCount</b> returns a count of the active groups.
 
 
 ## -remarks
+
+
 A processor group is active if it contains one or more active logical processors.
 
 An active logical processor is a logical processor that Windows has started up and added to a multiprocessor system. The term <i>active processor</i> applies to a processor that is available to perform processing work, regardless of whether the processor is currently performing processing work or is idle. In some systems, the number of active processors might remain unchanged from system startup to shutdown. In other systems, Windows might dynamically add active processors while the system is running. Windows never removes active processors from a system.
 
 Thus, the number of active processors in a multiprocessor system can increase between system startup and shutdown, but this number never decreases. Similarly, the number of active groups in the system can increase if a processor is dynamically added to an inactive group while the system is running. The number of active groups never decreases.
 
-In contrast, the value that is returned by <a href="..\ntddk\nf-ntddk-kequerymaximumgroupcount.md">KeQueryMaximumGroupCount</a> remains constant during runtime. This value is the maximum number of groups that the system can have.
+In contrast, the value that is returned by <a href="..\wdm\nf-wdm-kequerymaximumgroupcount.md">KeQueryMaximumGroupCount</a> remains constant during runtime. This value is the maximum number of groups that the system can have.
 
-Call the <a href="..\ntddk\nf-ntddk-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a> routine to determine the number of active logical processors in a particular group.
+Call the <a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a> routine to determine the number of active logical processors in a particular group.
 
 Windows 7 is the first version of Windows to support processor groups. In Windows 7, only 64-bit versions of Windows support multiple groups; 32-bit versions of Windows support only one group. If a multiprocessor system is running a 64-bit version of Windows and contains no more than 64 logical processors, Windows assigns all processors to group 0. A multiprocessor system that is running a 32-bit version of Windows can contain no more than 32 processors.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\nf-ntddk-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-kequerymaximumgroupcount.md">KeQueryMaximumGroupCount</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-kequerymaximumgroupcount.md">KeQueryMaximumGroupCount</a>
+
+<a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
+
  
 
  

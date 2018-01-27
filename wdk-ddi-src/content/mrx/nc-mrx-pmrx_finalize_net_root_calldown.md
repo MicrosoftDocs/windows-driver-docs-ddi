@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 59f5b6e0-9edc-45c9-9d22-1555edb8f7c6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _SetDSMCounters_IN, SetDSMCounters_IN, *PSetDSMCounters_IN
+ms.keywords: ifsk.mrxfinalizenetroot, MRxFinalizeNetRoot routine [Installable File System Drivers], MRxFinalizeNetRoot, PMRX_FINALIZE_NET_ROOT_CALLDOWN, PMRX_FINALIZE_NET_ROOT_CALLDOWN, mrx/MRxFinalizeNetRoot, mrxref_5f5d7468-3257-4800-99fe-e5e6b7c99e37.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MRxFinalizeNetRoot
-req.alt-loc: mrx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	mrx.h
+apiname: 
+-	MRxFinalizeNetRoot
+product: Windows
+targetos: Windows
 req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 ---
 
 # PMRX_FINALIZE_NET_ROOT_CALLDOWN callback
 
 
-
 ## -description
+
+
 The<i> MRxFinalizeNetRoot</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector finalize a NET_ROOT structure.
 
 
-
 ## -prototype
+
 
 ````
 PMRX_FINALIZE_NET_ROOT_CALLDOWN MRxFinalizeNetRoot;
@@ -58,50 +68,62 @@ NTSTATUS MRxFinalizeNetRoot(
 
 ## -parameters
 
-### -param pNetRoot [in, out]
+
+
+
+### -param NetRoot
+
+
+
+### -param Force
+
+
+
+
+
+
+#### - pNetRoot [in, out]
 
 A pointer to the NET_ROOT structure to finalize. 
 
 
-### -param ForceDisconnect [in]
+#### - ForceDisconnect [in]
 
 A pointer to a Boolean value that indicates if the disconnect is to be forced. RDBSS currently passes <b>FALSE</b> for this parameter in all cases.
 
 
 ## -returns
+
+
 <i>MRxFinalizeNetRoot</i> returns STATUS_SUCCESS on success. 
 
 
+
 ## -remarks
+
+
 <i>MRxFinalizeNetRoot</i> is called by RDBSS when RDBSS finalizes a NET_ROOT structure. Because a NET_ROOT structure is always associated with one or more V_NET_ROOT structures, this finalization normally occurs when the last V_NET_ROOT structure on the NET_ROOT structure is finalized. 
 
 RDBSS ignores the return value from <i>MRxFinalizeNetRoot</i>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549864">MRxCreateSrvCall</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549869">MRxCreateVNetRoot</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550649">MRxExtractNetRootName</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550656">MRxFinalizeSrvCall</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550663">MRxFinalizeVNetRoot</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550750">MRxPreparseName</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550656">MRxFinalizeSrvCall</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549869">MRxCreateVNetRoot</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550649">MRxExtractNetRootName</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550824">MRxSrvCallWinnerNotify</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550663">MRxFinalizeVNetRoot</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b4d01c1f-8267-490e-a808-87d9be666a94
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_ExtendedFormat, DXVA_ExtendedFormat
+ms.keywords: dxvaref_3e46e283-492a-4ec5-8213-ff05215b0676.xml, _DXVA_ExtendedFormat, dxva/DXVA_ExtendedFormat, DXVA_ExtendedFormat, display.dxva_extendedformat, DXVA_ExtendedFormat structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This structure applies only to Windows Server 2003 wi
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVA_ExtendedFormat
-req.alt-loc: dxva.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxva.h
+apiname: 
+-	DXVA_ExtendedFormat
+product: Windows
+targetos: Windows
 req.typenames: DXVA_ExtendedFormat
 ---
 
 # _DXVA_ExtendedFormat structure
 
 
-
 ## -description
+
+
 The DXVA_ExtendedFormat structure describes the extended format of the video frame. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVA_ExtendedFormat {
@@ -59,6 +69,9 @@ typedef struct _DXVA_ExtendedFormat {
 
 
 ## -struct-fields
+
+
+
 
 ### -field SampleFormat
 
@@ -95,33 +108,22 @@ Specifies color primaries, which state which RGB basis functions are used. The 5
 Specifies the conversion function from R'G'B' to RGB. The 5 bits are defined by the <a href="..\dxva\ne-dxva-_dxva_videotransferfunction.md">DXVA_VideoTransferFunction</a> enumeration type. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\dxva\ne-dxva-_dxva_nominalrange.md">DXVA_NominalRange</a>
-</dt>
-<dt>
-<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
-</dt>
-<dt>
-<a href="..\dxva\ne-dxva-_dxva_videochromasubsampling.md">DXVA_VideoChromaSubsampling</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ne-dxva-_dxva_videolighting.md">DXVA_VideoLighting</a>
-</dt>
-<dt>
-<a href="..\dxva\ne-dxva-_dxva_videoprimaries.md">DXVA_VideoPrimaries</a>
-</dt>
-<dt>
-<a href="..\dxva\ne-dxva-_dxva_videotransferfunction.md">DXVA_VideoTransferFunction</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ne-dxva-_dxva_videotransfermatrix.md">DXVA_VideoTransferMatrix</a>
-</dt>
-</dl>
+
+<a href="..\dxva\ne-dxva-_dxva_videoprimaries.md">DXVA_VideoPrimaries</a>
+
+<a href="..\dxva\ne-dxva-_dxva_nominalrange.md">DXVA_NominalRange</a>
+
+<a href="..\dxva\ne-dxva-_dxva_videochromasubsampling.md">DXVA_VideoChromaSubsampling</a>
+
+<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
+
+<a href="..\dxva\ne-dxva-_dxva_videotransferfunction.md">DXVA_VideoTransferFunction</a>
+
  
 
  

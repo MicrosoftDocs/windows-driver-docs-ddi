@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: C7D7935C-0536-43E6-8924-1DC13B258007
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBFN_INTERFACE_ATTACH, USBFN_INTERFACE_ATTACH, *PUSBFN_INTERFACE_ATTACH
+ms.keywords: usbfnattach/PUSBFN_INTERFACE_ATTACH, PUSBFN_INTERFACE_ATTACH, _USBFN_INTERFACE_ATTACH, PUSBFN_INTERFACE_ATTACH structure pointer [Buses], USBFN_INTERFACE_ATTACH structure [Buses], USBFN_INTERFACE_ATTACH, *PUSBFN_INTERFACE_ATTACH, usbfnattach/USBFN_INTERFACE_ATTACH, buses.usbfn_interface_attach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBFN_INTERFACE_ATTACH
-req.alt-loc: usbfnattach.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: USBFN_INTERFACE_ATTACH, *PUSBFN_INTERFACE_ATTACH
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbfnattach.h
+apiname: 
+-	USBFN_INTERFACE_ATTACH
+product: Windows
+targetos: Windows
+req.typenames: *PUSBFN_INTERFACE_ATTACH, USBFN_INTERFACE_ATTACH
 req.product: Windows 10 or later.
 ---
 
 # _USBFN_INTERFACE_ATTACH structure
 
 
-
 ## -description
+
+
 Stores pointers to driver-implemented callback functions for handling attach and detach operations.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBFN_INTERFACE_ATTACH {
@@ -57,6 +67,9 @@ typedef struct _USBFN_INTERFACE_ATTACH {
 
 
 ## -struct-fields
+
+
+
 
 ### -field InterfaceHeader
 
@@ -78,15 +91,10 @@ A pointer to the driver's implementation of the <a href="..\usbfnattach\nc-usbfn
 A pointer to the driver's implementation of the <a href="..\usbfnattach\nc-usbfnattach-usbfn_set_device_state.md">USBFN_SET_DEVICE_STATE</a> callback function.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/05D2B46A-282C-4B75-9F5C-2FC0AF344AB9">USB filter driver for supporting proprietary chargers</a>
-</dt>
-</dl>
+
  
 
  

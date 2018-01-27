@@ -7,8 +7,8 @@ old-location: image\iwiadrvitem_interface.htm
 old-project: image
 ms.assetid: 0609e1b2-48df-413c-90bd-d7ddea26510a
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: IWiaMiniDrvTransferCallback, IWiaMiniDrvTransferCallback::SendMessage, SendMessage
+ms.date: 1/18/2018
+ms.keywords: image.iwiadrvitem_interface, IWiaDrvItem interface [Imaging Devices], IWiaDrvItem interface [Imaging Devices], described, IWiaDrvItem, wiamindr_lh/IWiaDrvItem, DrvItem_9dbe78e4-0823-4edc-b86e-75e25d4de981.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IWiaDrvItem
-req.alt-loc: wiamindr_lh.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,57 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-req.typenames: *PSCANWINDOW, SCANWINDOW
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	wiamindr_lh.h
+apiname: 
+-	IWiaDrvItem
+product: Windows
+targetos: Windows
+req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
 ---
 
 # IWiaDrvItem interface
 
 
-
 ## -description
+
+
 The <b>IWiaDrvItem</b> interface provides methods that a WIA minidriver can use to manage a tree of <b>IWiaDrvItem</b> items.
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaDrvItem</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IWiaDrvItem</b> also has these types of members:
-
-The <b>IWiaDrvItem</b> interface has these methods.
-
-The AddItemToFolder method adds an IWiaDrvItem item to a folder in a driver item tree.
-
-The <b>IWiaDrvItem::DumpItemData</b> method dumps private data associated with an <b>IWiaDrvItem</b> item into an allocated private buffer.
-
-The <b>IWiaDrvItem::FindChildItemByName</b> method searches the driver item tree for a specific child item.
-
-The<b> IWiaDrvItem::FindItemByName</b> method locates an item in a driver item tree by the item's full name.
-
-The<b> IWiaDrvItem::GetDeviceSpecContext</b> method gets a device-specific context.
-
-The <b>IWiaDrvItem::GetFirstChildItem</b> method gets the first child item in an <b>IWiaDrvItem</b> folder item.
-
-The <b>IWiaDrvItem::GetFullItemName</b> method gets the item's full name, including path information.
-
-The <b>IWiaDrvItem::GetItemFlags</b> method gets the item flags of the current <b>IWiaDrvItem</b> item.
-
-The <b>IWiaDrvItem::GetItemName</b> method gets the current <b>IWiaDrvItem</b> item name, not including path information.
-
-The <b>IWiaDrvItem::GetNextSiblingItem</b> method gets the next sibling of the current item in an <b>IWiaDrvItem</b> folder.
-
-The <b>IWiaDrvItem::GetParentItem</b> gets the parent item of the current item.
-
-The <b>IWiaDrvItem::RemoveItemFromFolder</b> method removes an item from a parent folder.
-
-The <b>IWiaDrvItem::UnlinkItemTree</b> method unlinks the driver item tree and releases all items in the tree.
-
- 
-
-
 ## -members
+
 The <b>IWiaDrvItem</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -230,5 +206,3 @@ The <b>IWiaDrvItem::UnlinkItemTree</b> method unlinks the driver item tree and r
 
  
 
-
-## -remarks

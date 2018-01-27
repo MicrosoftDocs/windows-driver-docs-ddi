@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f9e08a57-c9dd-4703-b29d-c169ba77f194
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCreateSecurityDescriptor
+ms.keywords: kernel.rtlcreatesecuritydescriptor, RtlCreateSecurityDescriptor, wdm/RtlCreateSecurityDescriptor, RtlCreateSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_3e7817b3-76e0-4acb-b8a3-af78219ffb85.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlCreateSecurityDescriptor
-req.alt-loc: NtosKrnl.exe,Ntdll.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+-	Ntdll.dll
+apiname: 
+-	RtlCreateSecurityDescriptor
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # RtlCreateSecurityDescriptor function
 
 
-
 ## -description
+
+
 The <b>RtlCreateSecurityDescriptor</b> routine initializes a new absolute-format security descriptor. On return, the security descriptor is initialized with no system ACL, no discretionary ACL, no owner, no primary group, and all control flags set to zero.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlCreateSecurityDescriptor(
@@ -55,6 +66,9 @@ NTSTATUS RtlCreateSecurityDescriptor(
 
 
 ## -parameters
+
+
+
 
 ### -param SecurityDescriptor [out]
 
@@ -67,36 +81,57 @@ Specifies the revision level to assign to the security descriptor. Set this para
 
 
 ## -returns
+
+
 <b>RtlCreateSecurityDescriptor</b> can return one of the following.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The call completed successfully.
+</dl>
+</td>
+<td width="60%">
+The call completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNKNOWN_REVISION</b></dt>
-</dl>The caller specified an unsupported value  for <i>Revision</i>.
+</dl>
+</td>
+<td width="60%">
+The caller specified an unsupported value  for <i>Revision</i>.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A successful call to this routine initializes a security descriptor. The fields in this descriptor are set to initial values that indicate that there are no security constraints.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+
+<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+
  
 
  

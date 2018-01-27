@@ -7,8 +7,8 @@ old-location: print\iprintcorehelperuni_getoption.htm
 old-project: print
 ms.assetid: 0850ba08-089a-4715-bee4-a44a95e6dee6
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IPrintCoreHelperUni, IPrintCoreHelperUni::GetOption, GetOption
+ms.date: 1/18/2018
+ms.keywords: prcomoem/IPrintCoreHelperUni::GetOption, IPrintCoreHelperUni::GetOption, GetOption, print_unidrv-pscript_allplugins_a80d7019-a2e6-4c41-885d-831c429c5dac.xml, IPrintCoreHelperUni interface [Print Devices], GetOption method, GetOption method [Print Devices], IPrintCoreHelperUni interface, print.iprintcorehelperuni_getoption, GetOption method [Print Devices], IPrintCoreHelperUni
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPrintCoreHelperUni.GetOption
-req.alt-loc: Prcomoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Prcomoem.h
+apiname: 
+-	IPrintCoreHelperUni.GetOption
+product: Windows
+targetos: Windows
+req.typenames: *POEMPTOPTS, OEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
 # IPrintCoreHelperUni::GetOption method
 
 
-
 ## -description
+
+
 The <code>IPrintCoreHelperUni::GetOption</code> method gets a specified option for a given feature.
 
 
-
 ## -syntax
+
 
 ````
 STDMETHOD GetOption(
@@ -57,6 +67,9 @@ STDMETHOD GetOption(
 
 
 ## -parameters
+
+
+
 
 ### -param pDevmode [in, optional]
 
@@ -79,27 +92,76 @@ A pointer to a variable that contains the address of an ANSI string. When <code>
 
 
 ## -returns
+
+
 <code>IPrintCoreHelperUni::GetOption</code> should return one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method read the option for the specified feature.
+</dl>
+</td>
+<td width="60%">
+The method read the option for the specified feature.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_FAIL</b></dt>
-</dl>The caller provided information that resulted in an invalid request. For example, the feature that was requested does not exist.
+</dl>
+</td>
+<td width="60%">
+The caller provided information that resulted in an invalid request. For example, the feature that was requested does not exist.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_INVALIDARG</b></dt>
-</dl>The arguments were invalid. This value might mean that the feature is not supported or that too many options were requested for the feature.
+</dl>
+</td>
+<td width="60%">
+The arguments were invalid. This value might mean that the feature is not supported or that too many options were requested for the feature.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_OUTOFMEMORY</b></dt>
-</dl>The core driver was not able to service the request because there was insufficient memory.
+</dl>
+</td>
+<td width="60%">
+The core driver was not able to service the request because there was insufficient memory.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_UNEXPECTED, or other return codes not listed here</b></dt>
-</dl>The core driver seems to be in an invalid state. The caller should return a failure code.
+</dl>
+</td>
+<td width="60%">
+The core driver seems to be in an invalid state. The caller should return a failure code.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <code>IPrintCoreHelperUni::GetOption</code> cannot be used for features that allow multiple options to be set simultaneously. 
 
 Feature keywords are as defined in the GPD file. In addition, the Unidrv driver supports several reserved keywords for options that are stored in its private <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure. For the list of Unidrv features, see <a href="https://msdn.microsoft.com/eb2cbe3c-b516-4db3-92ad-5eafd7181624">Keyword Mapping</a>.
@@ -107,15 +169,14 @@ Feature keywords are as defined in the GPD file. In addition, the Unidrv driver 
 The caller should not free the string that is pointed to by <i>ppszOption</i> and should not modify the string in any way.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552945">IPrintCoreHelperUni::SetOptions</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperUni::GetOption method%20 RELEASE:%20(1/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperUni::GetOption method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

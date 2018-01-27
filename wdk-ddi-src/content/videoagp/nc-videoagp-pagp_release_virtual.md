@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4e880b39-e0ee-4801-86b7-ffc06ed415ab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
+ms.keywords: display.agpreleasevirtual, AgpReleaseVirtual callback function [Display Devices], AgpReleaseVirtual, PAGP_RELEASE_VIRTUAL, PAGP_RELEASE_VIRTUAL, videoagp/AgpReleaseVirtual, VideoPort_Functions_4ea0bf12-5d18-4704-9efe-7d8a65a44f1f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AgpReleaseVirtual
-req.alt-loc: videoagp.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	videoagp.h
+apiname: 
+-	AgpReleaseVirtual
+product: Windows
+targetos: Windows
+req.typenames: *PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.
 ---
 
 # PAGP_RELEASE_VIRTUAL callback
 
 
-
 ## -description
+
+
 The <b>AgpReleaseVirtual</b> function frees system memory reserved by a previous call to <a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a>.
 
 
-
 ## -prototype
+
 
 ````
 PAGP_RELEASE_VIRTUAL AgpReleaseVirtual;
@@ -59,6 +69,9 @@ VOID APIENTRY AgpReleaseVirtual(
 
 ## -parameters
 
+
+
+
 ### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
@@ -70,22 +83,25 @@ Is the context handle that identifies the reserved virtual address range to be r
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The miniport driver must call <a href="..\videoagp\nc-videoagp-pagp_free_virtual.md">AgpFreeVirtual</a> to unmap all committed memory within the range identified by <b>VirtualReserveContext</b> before calling <b>AgpReleaseVirtual</b> to release it.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\videoagp\nc-videoagp-pagp_free_physical.md">AgpFreePhysical</a>
-</dt>
-<dt>
+
 <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 36F009C8-046B-437A-83D6-AE8D5BF51AF3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBDEVICE_UPDATE_FLAGS, USBDEVICE_UPDATE_FLAGS
+ms.keywords: ucxusbdevice/_USBDEVICE_UPDATE_FLAGS, ucxusbdevice/P_USBDEVICE_UPDATE_FLAGS, USBDEVICE_UPDATE_FLAGS structure [Buses], USBDEVICE_UPDATE_FLAGS, P_USBDEVICE_UPDATE_FLAGS structure pointer [Buses], _USBDEVICE_UPDATE_FLAGS, buses._usbdevice_update_flags, P_USBDEVICE_UPDATE_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBDEVICE_UPDATE_FLAGS
-req.alt-loc: ucxusbdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ucxusbdevice.h
+apiname: 
+-	USBDEVICE_UPDATE_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: USBDEVICE_UPDATE_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USBDEVICE_UPDATE_FLAGS structure
 
 
-
 ## -description
+
+
 Contains request flags set by UCX that is  passed in the <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update.md">USBDEVICE_UPDATE</a> structure when UCX invokes the client driver's <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_update.md">EVT_UCX_USBDEVICE_UPDATE</a> callback function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBDEVICE_UPDATE_FLAGS {
@@ -61,6 +71,9 @@ typedef struct _USBDEVICE_UPDATE_FLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UpdateDeviceDescriptor
 
@@ -102,21 +115,14 @@ If set, indicates a request to  update the root port resume time.
 Do not use. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update.md">USBDEVICE_UPDATE</a>
-</dt>
-<dt>
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_failure_flags.md">USBDEVICE_UPDATE_FAILURE_FLAGS</a>
-</dt>
-<dt>
+
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_20_hardware_lpm_parameters.md">USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS</a>
-</dt>
-</dl>
+
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_failure_flags.md">USBDEVICE_UPDATE_FAILURE_FLAGS</a>
+
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update.md">USBDEVICE_UPDATE</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F5520F9F-159E-42D9-A7F4-426CB935D29D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_ULONG
+ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_ULONG function [Buses], UCM_PD_POWER_DATA_OBJECT_INIT_ULONG, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_ULONG, buses.ucm_pd_power_data_object_init_ulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 2.15
-req.alt-api: UCM_PD_POWER_DATA_OBJECT_INIT_ULONG
-req.alt-loc: Ucmtypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ucmtypes.h
+apiname: 
+-	UCM_PD_POWER_DATA_OBJECT_INIT_ULONG
+product: Windows
+targetos: Windows
 req.typenames: UCM_TYPEC_PARTNER
 req.product: Windows 10 or later.
 ---
@@ -38,14 +47,15 @@ req.product: Windows 10 or later.
 # UCM_PD_POWER_DATA_OBJECT_INIT_ULONG function
 
 
-
 ## -description
+
+
 Initializes a <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a>  structure by interpreting Power Data Object values and sets each field correctly.
 
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE void UCM_PD_POWER_DATA_OBJECT_INIT_ULONG(
@@ -56,6 +66,9 @@ FORCEINLINE void UCM_PD_POWER_DATA_OBJECT_INIT_ULONG(
 
 
 ## -parameters
+
+
+
 
 ### -param Pdo [out]
 
@@ -68,10 +81,15 @@ The ULONG value to set in the <b>Ul</b> member of   <a href="..\ucmtypes\ns-ucmt
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
+
 ## -remarks
+
+
 A Power Data Object, as defined by the Power Delivery specification,  is a 32-bit value. The hardware is expected to retrieve the Power Data Objects as 32-bit values. This utility function initializes a <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a>  structure by interpreting those values and setting each field correctly.
 
 
@@ -80,12 +98,11 @@ The  structure is 4 bytes and the client driver can memcopy the Power Data Objec
 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a>
-</dt>
-</dl>
+
  
 
  

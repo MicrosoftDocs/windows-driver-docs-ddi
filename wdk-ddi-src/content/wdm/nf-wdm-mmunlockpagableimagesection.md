@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3a6e3029-d378-4e42-8556-e3640cfdb392
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmUnlockPagableImageSection
+ms.keywords: k106_1420e152-a858-4256-87ed-8fa78ee76379.xml, MmUnlockPagableImageSection routine [Kernel-Mode Driver Architecture], wdm/MmUnlockPagableImageSection, MmUnlockPagableImageSection, kernel.mmunlockpagableimagesection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MmUnlockPagableImageSection
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlMmApcLte, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	MmUnlockPagableImageSection
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # MmUnlockPagableImageSection function
 
 
-
 ## -description
+
+
 The <b>MmUnlockPagableImageSection</b> routine releases a section of driver code or driver data, previously locked into system space with <b>MmLockPagableCodeSection</b>, <b>MmLockPagableDataSection</b> or <b>MmLockPagableSectionByHandle</b>, so the section can be paged out again. 
 
 
-
 ## -syntax
+
 
 ````
 VOID MmUnlockPagableImageSection(
@@ -55,16 +65,24 @@ VOID MmUnlockPagableImageSection(
 
 ## -parameters
 
+
+
+
 ### -param ImageSectionHandle [in]
 
 Specifies the handle returned by a call to <a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a> or <a href="..\wdm\nf-wdm-mmlockpagabledatasection.md">MmLockPagableDataSection</a>. 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The handle for a driver's pageable section must not be released if the driver has any outstanding IRPs in its device queue(s) or internal queue(s). A call to <b>MmUnlockPagableImageSection</b> restores the pageability of that entire section when there are no more references to the handle for that section. 
 
 The memory manager maintains the reference count on the handle to a section. A pageable section is only available to be paged out when the reference count is zero. Every lock request increments the count; every unlock request decrements the count. A driver must unlock a section as many times as it locks a section to make the section available to be paged out.
@@ -76,24 +94,19 @@ In most cases, <b>MmUnlockPagableImageSection</b> is called before a driver's <i
 For more information about paging code and data, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554346">Making Drivers Pageable</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-mmpageentiredriver.md">MmPageEntireDriver</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-mmlockpagabledatasection.md">MmLockPagableDataSection</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-mmlockpagablesectionbyhandle.md">MmLockPagableSectionByHandle</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
+
+<a href="..\wdm\nf-wdm-mmlockpagabledatasection.md">MmLockPagableDataSection</a>
+
  
 
  

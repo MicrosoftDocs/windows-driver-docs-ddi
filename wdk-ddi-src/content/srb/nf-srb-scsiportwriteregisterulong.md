@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d6e05c62-da0c-43a5-b51e-4c73f650b77d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortWriteRegisterUlong
+ms.keywords: scsiprt_8a175f68-d47c-4db0-bc22-bde418a56503.xml, ScsiPortWriteRegisterUlong routine [Storage Devices], srb/ScsiPortWriteRegisterUlong, storage.scsiportwriteregisterulong, ScsiPortWriteRegisterUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ScsiPortWriteRegisterUlong
-req.alt-loc: Scsiport.lib,Scsiport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Scsiport.lib
+-	Scsiport.dll
+apiname: 
+-	ScsiPortWriteRegisterUlong
+product: Windows
+targetos: Windows
 req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ScsiPortWriteRegisterUlong function
 
 
-
 ## -description
+
+
 The <b>ScsiPortWriteRegisterUlong</b> routine transfers a ULONG value to the HBA.
-
-
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 VOID ScsiPortWriteRegisterUlong(
@@ -55,6 +66,9 @@ VOID ScsiPortWriteRegisterUlong(
 
 
 ## -parameters
+
+
+
 
 ### -param Register [in]
 
@@ -67,18 +81,16 @@ Specifies the value to be written to the HBA's register.
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
-</dt>
-</dl>
+
  
 
  

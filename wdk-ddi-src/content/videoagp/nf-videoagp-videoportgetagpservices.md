@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3b01831d-d429-4dc5-9b12-a0e1fc58634d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortGetAgpServices
+ms.keywords: VideoPort_Functions_498a8f06-f24e-4116-90df-30360fa111a1.xml, display.videoportgetagpservices, VideoPortGetAgpServices function [Display Devices], VideoPortGetAgpServices, videoagp/VideoPortGetAgpServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortGetAgpServices
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortGetAgpServices
+product: Windows
+targetos: Windows
+req.typenames: *PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.
 ---
 
 # VideoPortGetAgpServices function
 
 
-
 ## -description
+
+
 The <b>VideoPortGetAgpServices</b> function is <b>obsolete</b> and is supported only for backward compatibility with existing drivers. In its place, driver writers should use <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>.
 
 <b>VideoPortGetAgpServices</b> returns a list of video port driver-implemented AGP service functions.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN VideoPortGetAgpServices(
@@ -57,6 +67,9 @@ BOOLEAN VideoPortGetAgpServices(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -69,50 +82,50 @@ Pointer to an uninitialized, miniport driver-allocated <a href="..\videoagp\ns-v
 
 
 ## -returns
+
+
 <b>VideoPortGetAgpServices</b> returns <b>TRUE</b> after it successfully initializes the VIDEO_PORT_AGP_SERVICES structure to which <i>AgpServices</i> points; otherwise it returns <b>FALSE</b>.
 
 
+
 ## -remarks
+
+
 PnP video miniport drivers that can use AGP should call <b>VideoPortGetAgpServices</b>.
 
 The video port driver initializes the <a href="..\videoagp\ns-videoagp-_video_port_agp_services.md">VIDEO_PORT_AGP_SERVICES</a> structure as follows:
-
+<ul>
+<li>
 All function pointers are initialized to point to the corresponding video port driver-implemented AGP service functions.
 
+</li>
+<li>
 The <b>AllocationLimit</b> field is initialized to the maximum amount of AGP memory that a miniport driver is allowed to commit, in bytes.
+
+</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
-</dt>
-<dt>
-<a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
-</dt>
-<dt>
-<a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a>
-</dt>
-<dt>
+
 <a href="..\videoagp\nc-videoagp-pagp_free_physical.md">AgpFreePhysical</a>
-</dt>
-<dt>
-<a href="..\videoagp\nc-videoagp-pagp_free_virtual.md">AgpFreeVirtual</a>
-</dt>
-<dt>
-<a href="..\videoagp\nc-videoagp-pagp_release_physical.md">AgpReleasePhysical</a>
-</dt>
-<dt>
-<a href="..\videoagp\nc-videoagp-pagp_release_virtual.md">AgpReleaseVirtual</a>
-</dt>
-<dt>
+
+<a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a>
+
 <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
-</dt>
-<dt><b>AgpReleasePhysical</b></dt>
-<dt>
+
+<a href="..\videoagp\nc-videoagp-pagp_release_virtual.md">AgpReleaseVirtual</a>
+
+<a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
+
+<a href="..\videoagp\nc-videoagp-pagp_free_virtual.md">AgpFreeVirtual</a>
+
+<b>AgpReleasePhysical</b>
+
+<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
+
 <a href="..\videoagp\ns-videoagp-_video_port_agp_services.md">VIDEO_PORT_AGP_SERVICES</a>
-</dt>
-</dl>
+
  
 
  

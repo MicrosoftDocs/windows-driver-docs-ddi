@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d68d6e50-1373-43bc-a22b-dd9db47614c8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_COPPSetProtectionLevelCmdData, DXVA_COPPSetProtectionLevelCmdData
+ms.keywords: dxvaref_ac7e802b-dd23-49da-ab02-21d80eaabe86.xml, _DXVA_COPPSetProtectionLevelCmdData, DXVA_COPPSetProtectionLevelCmdData structure [Display Devices], dxva/DXVA_COPPSetProtectionLevelCmdData, display.dxva_coppsetprotectionlevelcmddata, DXVA_COPPSetProtectionLevelCmdData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This structure applies only to Windows Server 2003 wi
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVA_COPPSetProtectionLevelCmdData
-req.alt-loc: dxva.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxva.h
+apiname: 
+-	DXVA_COPPSetProtectionLevelCmdData
+product: Windows
+targetos: Windows
 req.typenames: DXVA_COPPSetProtectionLevelCmdData
 ---
 
 # _DXVA_COPPSetProtectionLevelCmdData structure
 
 
-
 ## -description
+
+
 The DXVA_COPPSetProtectionLevelCmdData structure describes the protection types and levels to set on the physical connector associated with a COPP DirectX VA device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVA_COPPSetProtectionLevelCmdData {
@@ -57,10 +67,12 @@ typedef struct _DXVA_COPPSetProtectionLevelCmdData {
 
 ## -struct-fields
 
+
+
+
 ### -field ProtType
 
 Specifies one of the following protection types to set on the physical connector associated with a COPP device:
-
 <ul>
 <li>
 COPP_ProtectionType_None (0x00)
@@ -83,7 +95,6 @@ COPP_ProtectionType_CGMSA (0x04)
 ### -field ProtLevel
 
 Specifies the protection level to set for the protection type in <b>ProtType</b> or COPP_NoProtectionLevelAvailable (-1) if no protection level is available.
-
 <ul>
 <li>For COPP_ProtectionType_ACP, specifies one of the following values from the <b>COPP_ACP_Protection_Level</b> enumerated type:<ul>
 <li>COPP_ACP_Level0 or COPP_ACP_LevelMin (0)</li>
@@ -119,18 +130,12 @@ Specifies a value that indicates the valid bitfields in the following <b>Extende
 Specifies additional 32-bit data for the protection type in <b>ProtType</b>. Not currently used.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_coppcommand.md">DXVA_COPPCommand</a>
-</dt>
-</dl>
+
  
 
  

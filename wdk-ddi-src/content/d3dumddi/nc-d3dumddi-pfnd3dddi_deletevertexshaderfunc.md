@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 780fc47c-bbb9-400a-a2f3-cdce4a18072f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.deletevertexshaderfunc, DeleteVertexShaderFunc callback function [Display Devices], DeleteVertexShaderFunc, PFND3DDDI_DELETEVERTEXSHADERFUNC, PFND3DDDI_DELETEVERTEXSHADERFUNC, d3dumddi/DeleteVertexShaderFunc, UserModeDisplayDriver_Functions_fda8f115-6f28-4295-b74e-14f32168a616.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DeleteVertexShaderFunc
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DeleteVertexShaderFunc
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_DELETEVERTEXSHADERFUNC callback
 
 
-
 ## -description
+
+
 The <b>DeleteVertexShaderFunc</b> function cleans up driver-side resources that are associated with vertex shader code.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_DELETEVERTEXSHADERFUNC DeleteVertexShaderFunc;
@@ -58,33 +68,46 @@ __checkReturn HRESULT APIENTRY DeleteVertexShaderFunc(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param hShaderHandle [in]
+### -param HANDLE
+
+
+
+
+
+
+#### - hShaderHandle [in]
 
  A handle to the vertex shader code object.
 
 
 ## -returns
+
+
 <b>DeleteVertexShaderFunc</b> returns S_OK or an appropriate error result if the vertex shader code object is not successfully cleaned up.
 
 
+
 ## -remarks
+
+
 The <b>DeleteVertexShaderFunc</b> function notifies the driver about the deletion of the vertex shader code object that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvertexshaderfunc.md">CreateVertexShaderFunc</a> function created. The driver can then clean up any driver-side resources that are associated with the vertex shader code.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvertexshaderfunc.md">CreateVertexShaderFunc</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-</dt>
-</dl>
+
  
 
  

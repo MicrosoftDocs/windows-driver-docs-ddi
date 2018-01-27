@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: FB47F5BE-76B4-4A99-A15F-DE3E11D1DA2B
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlIsPartialPlaceholder
+ms.keywords: RtlIsPartialPlaceholder, ifsk.rtlispartialplaceholder, RtlIsPartialPlaceholder routine [Installable File System Drivers], ntifs/RtlIsPartialPlaceholder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10, version 1709.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlIsPartialPlaceholder
-req.alt-loc: Ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntifs.h
+apiname: 
+-	RtlIsPartialPlaceholder
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlIsPartialPlaceholder function
 
 
-
 ## -description
+
+
 The <b>RtlIsPartialPlaceholder</b> routine determines if a file or a directory is a CloudFiles placeholder,
     based on the <b>FileAttributes</b> and <b>ReparseTag</b> values of the file. These values can be obtained by listing the directory containing the file or by directly querying <b>FileAttributeTagInfo</b> on the file.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN RtlIsPartialPlaceholder(
@@ -55,6 +65,9 @@ BOOLEAN RtlIsPartialPlaceholder(
 
 
 ## -parameters
+
+
+
 
 ### -param FileAttributes [in]
 
@@ -67,22 +80,19 @@ The ReparseTag or EaSize of a file or directory.
 
 
 ## -returns
+
+
 This function returns <b>TRUE</b> if the file or directory is a partial placeholder. It  returns <b>FALSE</b> if either the
         file or directory is not a placeholder or is a full placeholder.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlispartialplaceholderfileinfo.md">RtlIsPartialPlaceholderFileInfo</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtlispartialplaceholderfilehandle.md">RtlIsPartialPlaceholderFileHandle</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-rtlispartialplaceholderfileinfo.md">RtlIsPartialPlaceholderFileInfo</a>
+
  
 
  

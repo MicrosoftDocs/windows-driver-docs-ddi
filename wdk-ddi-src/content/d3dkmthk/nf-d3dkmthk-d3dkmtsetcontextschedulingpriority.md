@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 781d5a78-a3e2-4cac-868d-c4ae8b39b2fc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTSetContextSchedulingPriority
+ms.keywords: OpenGL_Functions_f9314ed6-8aad-4c55-b42a-f1223dada5bc.xml, display.d3dkmtsetcontextschedulingpriority, d3dkmthk/D3DKMTSetContextSchedulingPriority, D3DKMTSetContextSchedulingPriority function [Display Devices], D3DKMTSetContextSchedulingPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTSetContextSchedulingPriority
-req.alt-loc: Gdi32.dll,API-MS-Win-dx-d3dkmt-l1-1-0.dll,API-MS-Win-dx-d3dkmt-l1-1-1.dll,API-MS-Win-DX-D3DKMT-L1-1-2.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Gdi32.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-0.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-1.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+apiname: 
+-	D3DKMTSetContextSchedulingPriority
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTSetContextSchedulingPriority function
 
 
-
 ## -description
+
+
 The <b>D3DKMTSetContextSchedulingPriority</b> function sets the scheduling priority for a device context.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS APIENTRY D3DKMTSetContextSchedulingPriority(
@@ -54,34 +67,61 @@ NTSTATUS APIENTRY D3DKMTSetContextSchedulingPriority(
 
 ## -parameters
 
-### -param pData [in]
+
+
+
+### -param D3DKMT_SETCONTEXTSCHEDULINGPRIORITY
+
+TBD
+
+
+
+#### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setcontextschedulingpriority.md">D3DKMT_SETCONTEXTSCHEDULINGPRIORITY</a> structure that describes parameters for setting the scheduling priority for a device context.
 
 
 ## -returns
+
+
 <b>D3DKMTSetContextSchedulingPriority</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The scheduling priority was successfully set.
+</dl>
+</td>
+<td width="60%">
+The scheduling priority was successfully set.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>Parameters were validated and determined to be incorrect.
+</dl>
+</td>
+<td width="60%">
+Parameters were validated and determined to be incorrect.
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other NTSTATUS values.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setcontextschedulingpriority.md">D3DKMT_SETCONTEXTSCHEDULINGPRIORITY</a>
-</dt>
-</dl>
+
  
 
  

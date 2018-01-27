@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e398b1a3-60bf-4a4a-b5c2-1dc11cf3dae1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_1_DDI_BLEND_DESC, D3D10_1_DDI_BLEND_DESC
+ms.keywords: D3D10_1_DDI_BLEND_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_088d7013-3c56-4bfc-8e68-250b8e020a52.xml, D3D10_1_DDI_BLEND_DESC, d3d10umddi/D3D10_1_DDI_BLEND_DESC, display.d3d10_1_ddi_blend_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3D10_1_DDI_BLEND_DESC is supported on Windows Vista 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10_1_DDI_BLEND_DESC
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10_1_DDI_BLEND_DESC
+product: Windows
+targetos: Windows
 req.typenames: D3D10_1_DDI_BLEND_DESC
 ---
 
 # D3D10_1_DDI_BLEND_DESC structure
 
 
-
 ## -description
+
+
 The D3D10_1_DDI_BLEND_DESC structure describes a blend state.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D10_1_DDI_BLEND_DESC {
@@ -55,6 +65,9 @@ typedef struct D3D10_1_DDI_BLEND_DESC {
 
 
 ## -struct-fields
+
+
+
 
 ### -field AlphaToCoverageEnable
 
@@ -71,27 +84,18 @@ typedef struct D3D10_1_DDI_BLEND_DESC {
 [in] An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_render_target_blend_desc1.md">D3D10_DDI_RENDER_TARGET_BLEND_DESC1</a> structures that indicate the blend state for each associated render target.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_1ddi_calcprivateblendstatesize.md">CalcPrivateBlendStateSize(D3D10_1)</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_1ddi_createblendstate.md">CreateBlendState(D3D10_1)</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend_op.md">D3D10_DDI_BLEND_OP</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_render_target_blend_desc1.md">D3D10_DDI_RENDER_TARGET_BLEND_DESC1</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_1ddi_createblendstate.md">CreateBlendState(D3D10_1)</a>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend_op.md">D3D10_DDI_BLEND_OP</a>
+
  
 
  

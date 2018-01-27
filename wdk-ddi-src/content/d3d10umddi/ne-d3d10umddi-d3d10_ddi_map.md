@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f544ae60-b9c4-497c-8cb5-a2f9500a0cde
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_DDI_MAP, D3D10_DDI_MAP
+ms.keywords: D3D10_DDI_MAP_WRITE_NOOVERWRITE, D3D10_DDI_MAP_WRITE, D3D10_DDI_MAP_READ, UMDisplayDriver_Dx10param_Structs_7bf6d24a-def5-4d66-9b15-fee9a619597b.xml, d3d10umddi/D3D10_DDI_MAP_READ, d3d10umddi/D3D10_DDI_MAP_WRITE, d3d10umddi/D3D10_DDI_MAP_WRITE_NOOVERWRITE, d3d10umddi/D3D10_DDI_MAP_WRITE_DISCARD, D3D10_DDI_MAP_WRITE_DISCARD, D3D10_DDI_MAP, d3d10umddi/D3D10_DDI_MAP, D3D10_DDI_MAP enumeration [Display Devices], D3D10_DDI_MAP_READWRITE, d3d10umddi/D3D10_DDI_MAP_READWRITE, display.d3d10_ddi_map
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10_DDI_MAP
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10_DDI_MAP
+product: Windows
+targetos: Windows
 req.typenames: D3D10_DDI_MAP
 ---
 
 # D3D10_DDI_MAP enumeration
 
 
-
 ## -description
+
+
 The D3D10_DDI_MAP enumeration type contains values that identify the access levels to map to a subresource in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcemap.md">ResourceMap</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D10_DDI_MAP { 
@@ -57,6 +67,9 @@ typedef enum D3D10_DDI_MAP {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D10_DDI_MAP_READ
 
@@ -83,15 +96,10 @@ Write access is requested for the CPU to the subresource. However, the contents 
 Write access is requested for the CPU to the subresource. However, the requesting application will not overwrite any data that was previously used by the GPU. You can use this access level only with dynamic vertex and index buffers. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcemap.md">ResourceMap</a>
-</dt>
-</dl>
+
  
 
  

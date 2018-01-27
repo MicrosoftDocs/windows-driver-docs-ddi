@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 372a155f-e270-49ab-a5ab-9b933b29ed74
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlFindMostSignificantBit
+ms.keywords: RtlFindMostSignificantBit, k109_c8dcb9dd-ec2c-4b0c-92f2-167dcee10a96.xml, RtlFindMostSignificantBit routine [Kernel-Mode Driver Architecture], kernel.rtlfindmostsignificantbit, wdm/RtlFindMostSignificantBit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlFindMostSignificantBit
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlFindMostSignificantBit
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RtlFindMostSignificantBit function
 
 
-
 ## -description
+
+
 The <b>RtlFindMostSignificantBit</b> routine returns the zero-based position of the most significant nonzero bit in its parameter.
 
 
-
 ## -syntax
+
 
 ````
 CCHAR RtlFindMostSignificantBit(
@@ -55,24 +65,25 @@ CCHAR RtlFindMostSignificantBit(
 
 ## -parameters
 
+
+
+
 ### -param Set [in]
 
 The 64-bit value to be searched for its most significant nonzero bit. 
 
 
 ## -returns
+
+
 The zero-based bit position of the most significant nonzero bit, or -1 if every bit is zero.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlfindleastsignificantbit.md">RtlFindLeastSignificantBit</a>
-</dt>
-</dl>
+
  
 
  

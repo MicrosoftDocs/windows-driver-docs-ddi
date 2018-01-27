@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 0a9f3720-8ae4-4219-a8b3-f1b88126f176
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BRB_L2CA_CLOSE_CHANNEL,
+ms.keywords: bltooth._brb_l2ca_close_channel, bthddi/_BRB_L2CA_CLOSE_CHANNEL, bth_structs_97d7dc1f-eb95-4cf3-8d21-a814622a0b81.xml, _BRB_L2CA_CLOSE_CHANNEL structure [Bluetooth Devices], _BRB_L2CA_CLOSE_CHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: _BRB_L2CA_CLOSE_CHANNEL
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthddi.h
+apiname: 
+-	_BRB_L2CA_CLOSE_CHANNEL
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # _BRB_L2CA_CLOSE_CHANNEL structure
 
 
-
 ## -description
+
+
 The _BRB_L2CA_CLOSE_CHANNEL structure describes an open L2CAP channel to close.
 
 
-
 ## -syntax
+
 
 ````
 struct _BRB_L2CA_CLOSE_CHANNEL {
@@ -55,6 +65,9 @@ struct _BRB_L2CA_CLOSE_CHANNEL {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Hdr
 
@@ -72,11 +85,13 @@ The address of the remote device.
 
 The L2CAP channel handle that was returned by Bluetooth driver stack in response to an earlier 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a> or 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
-     BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> request. This is the channel handle to close.
+     <mshelp:link keywords="bltooth.brb_l2ca_open_channel_response" tabindex="0"><b>
+     BRB_L2CA_OPEN_CHANNEL_RESPONSE</b></mshelp:link> request. This is the channel handle to close.
 
 
 ## -remarks
+
+
 To close a L2CAP channel, profile drivers should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536614">BRB_L2CA_CLOSE_CHANNEL</a> request.
@@ -86,22 +101,18 @@ A <b>BRB_L2CA_CLOSE_CHANNEL</b> request can be made for a channel that was initi
     individually.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
-   BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536614">BRB_L2CA_CLOSE_CHANNEL</a>
-</dt>
-</dl>
+
+<mshelp:link keywords="bltooth.brb_l2ca_open_channel_response" tabindex="0"><b>
+   BRB_L2CA_OPEN_CHANNEL_RESPONSE</b></mshelp:link>
+
  
 
  

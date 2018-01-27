@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7d495d67-fe43-43d5-8a35-50c070b78b8d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlIsNtstatusExpected
+ms.keywords: ntifs/FsRtlIsNtstatusExpected, FsRtlIsNtstatusExpected routine [Installable File System Drivers], FsRtlIsNtstatusExpected, ifsk.fsrtlisntstatusexpected, fsrtlref_c480df4e-1601-4df7-809f-b1dec9549412.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlIsNtstatusExpected
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlIsNtstatusExpected
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlIsNtstatusExpected function
 
 
-
 ## -description
+
+
 The <b>FsRtlIsNtstatusExpected</b> routine determines whether the specified exception is handled by the exception filter.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlIsNtstatusExpected(
@@ -54,25 +64,32 @@ BOOLEAN FsRtlIsNtstatusExpected(
 
 ## -parameters
 
+
+
+
 ### -param Exception [in]
 
 Status value of the exception.
 
 
 ## -returns
+
+
 <b>FsRtlIsNtstatusExpected</b> returns <b>TRUE</b> if the status value indicates a nonfatal system error status, <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 File systems use <b>FsRtlIsNtstatusExpected</b> to determine whether to attempt to handle an exception. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnormalizentstatus~r1.md">FsRtlNormalizeNtstatus</a>
-</dt>
-</dl>
+
  
 
  

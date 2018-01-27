@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 717BE2D2-2CF3-4A8C-B7DC-41E45C56B02B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCX_CONTROLLER_STATE, UCX_CONTROLLER_STATE
+ms.keywords: buses.ucx_controller_state, ucxcontroller/UCX_CONTROLLER_STATE, _UCX_CONTROLLER_STATE, UCX_CONTROLLER_STATE, ucxcontroller/UcxControllerStatePreserved, UCX_CONTROLLER_STATE enumeration [Buses], ucxcontroller/UcxControllerStateLost, UcxControllerStateLost, UcxControllerStatePreserved
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UCX_CONTROLLER_STATE
-req.alt-loc: Ucxcontroller.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ucxcontroller.h
+apiname: 
+-	UCX_CONTROLLER_STATE
+product: Windows
+targetos: Windows
 req.typenames: UCX_CONTROLLER_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _UCX_CONTROLLER_STATE enumeration
 
 
-
 ## -description
+
+
 This enumeration provides values to specify the UCX controller state after a  reset.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _UCX_CONTROLLER_STATE { 
@@ -56,6 +66,9 @@ typedef enum _UCX_CONTROLLER_STATE {
 
 ## -enum-fields
 
+
+
+
 ### -field UcxControllerStateLost
 
 Indicates the controller state was lost after reset.
@@ -66,15 +79,10 @@ Indicates the controller state was lost after reset.
 Indicates the controller state was preserved after reset.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_reset_complete_info.md">UCX_CONTROLLER_RESET_COMPLETE_INFO</a>
-</dt>
-</dl>
+
  
 
  

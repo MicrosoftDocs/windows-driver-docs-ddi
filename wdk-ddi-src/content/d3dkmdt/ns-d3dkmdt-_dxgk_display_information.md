@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e6902724-a81b-4a06-8089-a8e98392dc78
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_DISPLAY_INFORMATION, *PDXGK_DISPLAY_INFORMATION, DXGK_DISPLAY_INFORMATION
+ms.keywords: PDXGK_DISPLAY_INFORMATION, DXGK_DISPLAY_INFORMATION, d3dkmdt/DXGK_DISPLAY_INFORMATION, PDXGK_DISPLAY_INFORMATION structure pointer [Display Devices], _DXGK_DISPLAY_INFORMATION, *PDXGK_DISPLAY_INFORMATION, d3dkmdt/PDXGK_DISPLAY_INFORMATION, display.dxgk_display_information, DXGK_DISPLAY_INFORMATION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_DISPLAY_INFORMATION
-req.alt-loc: D3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PDXGK_DISPLAY_INFORMATION, DXGK_DISPLAY_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmdt.h
+apiname: 
+-	DXGK_DISPLAY_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: DXGK_DISPLAY_INFORMATION, *PDXGK_DISPLAY_INFORMATION
 ---
 
 # _DXGK_DISPLAY_INFORMATION structure
 
 
-
 ## -description
+
+
 Contains the display information that is passed between the operating system and the display miniport driver when the driver is started or stopped in response to a Plug and Play (PnP) event.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_DISPLAY_INFORMATION {
@@ -59,6 +69,9 @@ typedef struct _DXGK_DISPLAY_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Width
 
@@ -93,26 +106,23 @@ An integer value that specifies the identifier of the video present target on th
 ### -field AcpiId
 
 A ULONG value that specifies the ACPI identifier of the video present target specified by the <b>TargetId</b> member.
-
-<div class="alert"><b>Note</b>  If the video present target is not an ACPI device, this member must be set to zero.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  If the video present target is not an ACPI device, this member must be set to zero.</div><div> </div>
 
 ## -remarks
+
+
 For more information on the use of the members of <b>DXGK_DISPLAY_INFORMATION</b>, see <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a> and <a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
-</dt>
-</dl>
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+<a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a>
+
  
 
  

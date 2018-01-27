@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 400ff6fc-6eb7-4b3f-afec-7d0b69039ed1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSiSCSI_PortalInfoClass, *PMSiSCSI_PortalInfoClass, MSiSCSI_PortalInfoClass
+ms.keywords: *PMSiSCSI_PortalInfoClass, MSiSCSI_PortalInfoClass, iscsimgt/PMSiSCSI_PortalInfoClass, PMSiSCSI_PortalInfoClass, MSiSCSI_PortalInfoClass structure [Storage Devices], storage.msiscsi_portalinfoclass, iscsimgt/MSiSCSI_PortalInfoClass, PMSiSCSI_PortalInfoClass structure pointer [Storage Devices], _MSiSCSI_PortalInfoClass, structs-iSCSI_dec2f67f-5b12-4432-8c64-eef6efeb7e6a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSiSCSI_PortalInfoClass
-req.alt-loc: iscsimgt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PMSiSCSI_PortalInfoClass, MSiSCSI_PortalInfoClass
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsimgt.h
+apiname: 
+-	MSiSCSI_PortalInfoClass
+product: Windows
+targetos: Windows
+req.typenames: MSiSCSI_PortalInfoClass, *PMSiSCSI_PortalInfoClass
 ---
 
 # _MSiSCSI_PortalInfoClass structure
 
 
-
 ## -description
+
+
 The MSiSCSI_PortalInfoClass structure contains information about a collection of iSCSI portals.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSiSCSI_PortalInfoClass {
@@ -54,6 +64,9 @@ typedef struct _MSiSCSI_PortalInfoClass {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PortalInfoCount
 
@@ -66,18 +79,18 @@ A variable length array of <a href="..\iscsimgt\ns-iscsimgt-_iscsi_portalinfo.md
 
 
 ## -remarks
+
+
 We recommend that you implement this class.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\iscsimgt\ns-iscsimgt-_iscsi_portalinfo.md">ISCSI_PortalInfo</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563100">MSiSCSI_PortalInfoClass WMI Class</a>
-</dt>
-</dl>
+
+<a href="..\iscsimgt\ns-iscsimgt-_iscsi_portalinfo.md">ISCSI_PortalInfo</a>
+
  
 
  

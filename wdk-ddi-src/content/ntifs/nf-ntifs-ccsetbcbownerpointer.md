@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fa99ebc4-72d3-42ef-9dda-dcfdd438f66f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcSetBcbOwnerPointer
+ms.keywords: CcSetBcbOwnerPointer, ccref_9ad1d1a5-0600-4cfa-88d3-e4e5d2cd9df1.xml, ifsk.ccsetbcbownerpointer, CcSetBcbOwnerPointer routine [Installable File System Drivers], ntifs/CcSetBcbOwnerPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcSetBcbOwnerPointer
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcSetBcbOwnerPointer
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcSetBcbOwnerPointer function
 
 
-
 ## -description
+
+
 The <b>CcSetBcbOwnerPointer</b> routine sets the owner thread pointer for a pinned buffer control block (BCB).
 
 
-
 ## -syntax
+
 
 ````
 VOID CcSetBcbOwnerPointer(
@@ -54,6 +64,9 @@ VOID CcSetBcbOwnerPointer(
 
 
 ## -parameters
+
+
+
 
 ### -param Bcb [in]
 
@@ -66,10 +79,15 @@ A valid resource owner pointer, which means a pointer to an allocated system add
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 File systems call <b>CcSetBcbOwnerPointer</b> to set the resource owner for a pinned buffer control block (BCB), in cases where another thread will unpin the BCB and thus the current thread can exit.
 
 Each call to <b>CcSetBcbOwnerPointer</b> must be matched by a subsequent call to <a href="..\ntifs\nf-ntifs-ccunpindataforthread.md">CcUnpinDataForThread</a>, which must be called with the same owner pointer.
@@ -77,18 +95,15 @@ Each call to <b>CcSetBcbOwnerPointer</b> must be matched by a subsequent call to
 BCBs that have been modified by <b>CcSetBcbOwnerPointer</b> cannot be unpinned by calling <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccunpindataforthread.md">CcUnpinDataForThread</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-exsetresourceownerpointer.md">ExSetResourceOwnerPointer</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
+
  
 
  

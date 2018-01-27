@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d882a13e-cc07-4e82-857e-499bc397517e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
+ms.keywords: display.dxvahdddi_stream_state_private_ivtc_data, d3dumddi/DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, DXVA2_Structs_f5928683-1553-42e0-a36e-86ff64301b45.xml, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA is supported
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
+product: Windows
+targetos: Windows
 req.typenames: DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
 ---
 
 # _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure
 
 
-
 ## -description
+
+
 The DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure describes private stream-state data that is used to query the inverse telecine statistics from the driver. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA {
@@ -57,6 +67,9 @@ typedef struct _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA {
 
 ## -struct-fields
 
+
+
+
 ### -field Enable
 
 [in/out] A Boolean value that indicates whether to capture the statistics is enabled. By enabling the capture of statistics, the driver resets all the statistics data to zero. The default value is <b>FALSE</b>, which indicates that capturing the statistics is disabled. 
@@ -65,7 +78,6 @@ typedef struct _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA {
 ### -field ITelecineFlags
 
 [out] One of the following DXVAHDDDI_ITELECINE_CAPS enumeration values that indicates the telecine type that the driver detected while reversing the telecined frames.
-
 <table>
 <tr>
 <th>Value</th>
@@ -171,8 +183,7 @@ The driver can perform reverse non-standard telecine.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Frames
@@ -186,29 +197,38 @@ The driver can perform reverse non-standard telecine.
 
 
 ## -remarks
+
+
 The DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC GUID is set in the <b>Guid</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_private_data.md">DXVAHDDDI_STREAM_STATE_PRIVATE_DATA</a> structure when the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_getvideoprocessstreamstateprivate.md">GetVideoProcessStreamStatePrivate</a> function is called to query the inverse telecine statistics from the driver.
 
 When an application de-interlaces an interlaced stream, the driver might inverse the telecined frames. If the driver supports inverse telecine statistics, the application can query the statistics data.
 
 The playback application can dynamically switch the frame rate converter as described in the following scenario:
-
+<ul>
+<li>
 The application enables the inverse telecine statistics. 
 
+</li>
+<li>
 The application begins to de-interlace the interlaced fields to the progressive frames. 
 
+</li>
+<li>
 At some point, the application queries the statistics and determines the streams are telecined frames.
 
+</li>
+<li>
 The application enables the custom frame rate in order to output the frames at the original content frame rate (for example, 60i -&gt; 24p). 
 
-The application continues to query the statistics to determine if the frames are changed (for example, progressive or interlaced).
+</li>
+</ul>The application continues to query the statistics to determine if the frames are changed (for example, progressive or interlaced).
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_data.md">DXVAHDDDI_STREAM_DATA</a>
-</dt>
-</dl>
+
  
 
  

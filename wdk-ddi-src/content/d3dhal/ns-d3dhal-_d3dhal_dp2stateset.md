@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3405cca6-8d65-4879-98e8-3cd8f66003a5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2STATESET, D3DHAL_DP2STATESET, *LPD3DHAL_DP2STATESET
+ms.keywords: display.d3dhal_dp2stateset, d3dhal/LPD3DHAL_DP2STATESET, LPD3DHAL_DP2STATESET structure pointer [Display Devices], D3DHAL_DP2STATESET structure [Display Devices], d3dhal/D3DHAL_DP2STATESET, LPD3DHAL_DP2STATESET, d3dstrct_5aa94d41-9558-4d2d-ae6c-fb9d6e347fa5.xml, *LPD3DHAL_DP2STATESET, _D3DHAL_DP2STATESET, D3DHAL_DP2STATESET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DP2STATESET
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DP2STATESET
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DP2STATESET
 ---
 
 # _D3DHAL_DP2STATESET structure
 
 
-
 ## -description
+
+
 The D3DHAL_DP2STATESET structure is used to inform the driver about stateset operations to perform.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DP2STATESET {
@@ -56,10 +66,12 @@ typedef struct _D3DHAL_DP2STATESET {
 
 ## -struct-fields
 
+
+
+
 ### -field dwOperation
 
 Specifies the operation to perform. The value of this member can be one of the following:
-
 <table>
 <tr>
 <th>Value</th>
@@ -127,8 +139,7 @@ Specifies that the stateset referenced by <b>dwParam</b> should be executed.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field dwParam
@@ -143,7 +154,6 @@ Specifies the state block type. The driver should ignore this member unless it i
 If the driver implements extended render states, that is, render states beyond those the Direct3D runtime supplies, it can use <b>sbType</b> to determine what types of predefined render states are being used. From this information the driver can determine how to append the state block appropriately, to support its extensions. 
 
 The <b>sbType</b> member, which is valid only for D3DHAL_STATESETBEGIN, D3DHAL_STATESETEND, and D3DHAL_STATECREATE, specifies the state block type with one of the following D3DSTATEBLOCKTYPE enumerated types. For more details see the DirectX SDK documentation.
-
 <table>
 <tr>
 <th>Value</th>
@@ -415,9 +425,12 @@ No predefined state group is specified.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -remarks
-See <a href="https://msdn.microsoft.com/276d3cdb-34bf-49e8-aae5-94315746c5ff">Accelerated State Management</a> in the Graphics Design Guide for more information about the use of this structure in state block management.</p>
+
+
+See <a href="https://msdn.microsoft.com/276d3cdb-34bf-49e8-aae5-94315746c5ff">Accelerated State Management</a> in the Graphics Design Guide for more information about the use of this structure in state block management.
+
+

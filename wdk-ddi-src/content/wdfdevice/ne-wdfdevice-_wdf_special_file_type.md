@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3879570f-e083-4eaf-aa5b-9b78d8f826c1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_SPECIAL_FILE_TYPE, WDF_SPECIAL_FILE_TYPE, *PWDF_SPECIAL_FILE_TYPE
+ms.keywords: PWDF_SPECIAL_FILE_TYPE, wdf.wdf_special_file_type, *PWDF_SPECIAL_FILE_TYPE, wdfdevice/PWDF_SPECIAL_FILE_TYPE, wdfdevice/WDF_SPECIAL_FILE_TYPE, PWDF_SPECIAL_FILE_TYPE enumeration pointer, DFDeviceObjectGeneralRef_66afb20c-b1d5-480a-b4bb-48b6e092fe5e.xml, WdfSpecialFileHibernation, WDF_SPECIAL_FILE_TYPE enumeration, WdfSpecialFileMax, wdfdevice/WdfSpecialFileDump, wdfdevice/WdfSpecialFileHibernation, WDF_SPECIAL_FILE_TYPE, wdfdevice/WdfSpecialFilePaging, wdfdevice/WdfSpecialFileBoot, wdfdevice/WdfSpecialFileMax, WdfSpecialFileDump, WdfSpecialFilePaging, _WDF_SPECIAL_FILE_TYPE, WdfSpecialFileBoot, WdfSpecialFileUndefined, kmdf.wdf_special_file_type, wdfdevice/WdfSpecialFileUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WDF_SPECIAL_FILE_TYPE
-req.alt-loc: wdfdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-req.typenames: WDF_SPECIAL_FILE_TYPE, *PWDF_SPECIAL_FILE_TYPE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfdevice.h
+apiname: 
+-	WDF_SPECIAL_FILE_TYPE
+product: Windows
+targetos: Windows
+req.typenames: *PWDF_SPECIAL_FILE_TYPE, WDF_SPECIAL_FILE_TYPE
 req.product: Windows 10 or later.
 ---
 
 # _WDF_SPECIAL_FILE_TYPE enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_SPECIAL_FILE_TYPE</b> enumeration identifies special file types that a device can support.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_SPECIAL_FILE_TYPE { 
@@ -61,6 +71,9 @@ typedef enum _WDF_SPECIAL_FILE_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WdfSpecialFileUndefined
 
@@ -93,15 +106,16 @@ For internal use only.
 
 
 ## -remarks
+
+
 For more information, see <a href="https://msdn.microsoft.com/350e715f-be36-4999-99a2-6175d9763b3f">Supporting Special Files</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetspecialfilesupport.md">WdfDeviceSetSpecialFileSupport</a>
-</dt>
-</dl>
+
  
 
  

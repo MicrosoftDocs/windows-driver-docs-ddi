@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2abe7751-ef8c-4511-aaf6-755428c451fe
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwMapViewOfSection
+ms.keywords: wdm/NtMapViewOfSection, ZwMapViewOfSection, k111_cdad5afa-13b3-415e-96e8-688e7984a9fd.xml, ZwMapViewOfSection routine [Kernel-Mode Driver Architecture], kernel.zwmapviewofsection, NtMapViewOfSection, wdm/ZwMapViewOfSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwMapViewOfSection,NtMapViewOfSection
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ZwMapViewOfSection
+-	NtMapViewOfSection
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ZwMapViewOfSection function
 
 
-
 ## -description
-The <b>ZwMapViewOfSection</b> routine maps a <a href="wdkgloss.v#wdkgloss.view#wdkgloss.view"><i>view</i></a> of a section into the virtual address space of a subject process.
 
+
+The <b>ZwMapViewOfSection</b> routine maps a <a href="https://msdn.microsoft.com/library/windows/hardware/dn927297">view</a> of a section into the virtual address space of a subject process.
 
 
 ## -syntax
+
 
 ````
 NTSTATUS ZwMapViewOfSection(
@@ -63,6 +74,9 @@ NTSTATUS ZwMapViewOfSection(
 
 
 ## -parameters
+
+
+
 
 ### -param SectionHandle [in]
 
@@ -107,18 +121,6 @@ Specifies how the view is to be shared with child processes. The possible values
 
 
 
-
-### -param ViewShare
-
-The view will be mapped into any child processes that are created in the future.
-
-
-### -param ViewUnmap
-
-The view will not be mapped into child processes.
-
-</dd>
-</dl>
 Drivers should typically specify <b>ViewUnmap</b> for this parameter.
 
 
@@ -132,25 +134,76 @@ Specifies a set of flags that describes the type of allocation to be performed f
 Specifies the type of protection for the region of initially committed pages. Device and intermediate drivers should set this value to PAGE_READWRITE.
 
 
+##### - InheritDisposition.ViewShare
+
+The view will be mapped into any child processes that are created in the future.
+
+
+##### - InheritDisposition.ViewUnmap
+
+The view will not be mapped into child processes.
+
+
 ## -returns
+
+
 <b>ZwMapViewOfSection</b> returns an NTSTATUS value. Possible return values include the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The routine successfully performed the requested operation.
+</dl>
+</td>
+<td width="60%">
+The routine successfully performed the requested operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_CONFLICTING_ADDRESSES</b></dt>
-</dl>The specified address range conflicts with an address range already reserved, or the specified cache attribute type conflicts with the address range's existing cache attribute. For example, if the memory being mapped lies within a large page that is already mapped as fully cached, then it is illegal to request to map this memory as noncached or write combined.
+</dl>
+</td>
+<td width="60%">
+The specified address range conflicts with an address range already reserved, or the specified cache attribute type conflicts with the address range's existing cache attribute. For example, if the memory being mapped lies within a large page that is already mapped as fully cached, then it is illegal to request to map this memory as noncached or write combined.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PAGE_PROTECTION</b></dt>
-</dl>The value specified for the <i>Protect</i> parameter is invalid.
+</dl>
+</td>
+<td width="60%">
+The value specified for the <i>Protect</i> parameter is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SECTION_PROTECTION </b></dt>
-</dl>The value specified for the <i>AllocationType</i> parameter is incompatible with the protection type specified when the section was created.
+</dl>
+</td>
+<td width="60%">
+The value specified for the <i>AllocationType</i> parameter is incompatible with the protection type specified when the section was created.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 Several different views of a section can be concurrently mapped into the virtual address space of one or more processes.
 
 If the specified section does not exist or the access requested is not allowed, <b>ZwMapViewOfSection</b> returns an error.
@@ -160,34 +213,26 @@ Do not use <b>ZwMapViewOfSection</b> to map a memory range from <b>\Device\Physi
 User applications cannot access <b>\Device\PhysicalMemory</b> directly starting with Windows Server 2003 with Service Pack 1 (SP1) and can access it only if the driver passes a handle to the application.
 
 For more information about section objects, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563684">Section Objects and Views</a>.
+<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtMapViewOfSection</b>" instead of "<b>ZwMapViewOfSection</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566431">ZwCurrentProcess</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwunmapviewofsection.md">ZwUnmapViewOfSection</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566431">ZwCurrentProcess</a>
+
+<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
+
+<a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
  
 
  

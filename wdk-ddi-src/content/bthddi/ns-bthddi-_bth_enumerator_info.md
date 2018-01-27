@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: e526d664-35cf-4738-9501-08298e90be1e
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTH_ENUMERATOR_INFO, *PBTH_ENUMERATOR_INFO, BTH_ENUMERATOR_INFO
+ms.keywords: BTH_ENUMERATOR_INFO, bltooth.bth_enumerator_info, *PBTH_ENUMERATOR_INFO, bthddi/PBTH_ENUMERATOR_INFO, bth_structs_7cdc888a-ed42-4988-917f-578522399179.xml, bthddi/BTH_ENUMERATOR_INFO, PBTH_ENUMERATOR_INFO structure pointer [Bluetooth Devices], PBTH_ENUMERATOR_INFO, BTH_ENUMERATOR_INFO structure [Bluetooth Devices], _BTH_ENUMERATOR_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BTH_ENUMERATOR_INFO
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-req.typenames: *PBTH_ENUMERATOR_INFO, BTH_ENUMERATOR_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthddi.h
+apiname: 
+-	BTH_ENUMERATOR_INFO
+product: Windows
+targetos: Windows
+req.typenames: BTH_ENUMERATOR_INFO, *PBTH_ENUMERATOR_INFO
 ---
 
 # _BTH_ENUMERATOR_INFO structure
 
 
-
 ## -description
+
+
 The BTH_ENUMERATOR_INFO structure contains information about an underlying device and the service
   that caused the Plug and Play (PnP) manager to load the profile driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BTH_ENUMERATOR_INFO {
@@ -69,6 +79,9 @@ typedef struct _BTH_ENUMERATOR_INFO {
 
 ## -struct-fields
 
+
+
+
 ### -field EnumeratorType
 
 Reserved for use by the Bluetooth driver stack. Do not use.
@@ -90,7 +103,6 @@ If the enumeration was caused by a connection request, this member contains the 
 ### -field Flags
 
 A flag that indicates the direction of the request. Possible values include:
-
 <ul>
 <li>BTH_ENUMERATORFL_INCOMING</li>
 <li>BTH_ENUMERATORFL_OUTGOING</li>
@@ -162,26 +174,25 @@ The device string for the remote device.
 
 
 ## -remarks
+
+
 The 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
-    IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a> call's output buffer contains the information about an
+    <mshelp:link keywords="bltooth.ioctl_internal_bthenum_get_enuminfo" tabindex="0"><b>
+    IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</b></mshelp:link> call's output buffer contains the information about an
     underlying device and the service that caused the Plug and Play (PnP) manager to load the profile
     driver.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
+<mshelp:link keywords="bltooth.ioctl_internal_bthenum_get_enuminfo" tabindex="0"><b>
+   IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</b></mshelp:link>
+
 <a href="..\bthddi\ne-bthddi-_enumerator_type.md">ENUMERATOR_TYPE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/d5acaec6-7b3b-4dd9-8901-f96b4e49149f">ENUMERATOR_ACTION</a>
-</dt>
-<dt>
-<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
-   IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a>
-</dt>
-</dl>
+
  
 
  

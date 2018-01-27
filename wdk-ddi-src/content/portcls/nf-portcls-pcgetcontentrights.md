@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a4e8aee0-d3ac-4086-99a3-a0339b198372
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcGetContentRights
+ms.keywords: audio.pcgetcontentrights, audpc-routines_0f94b5f4-2667-488d-a191-4cf13a1f3a27.xml, portcls/PcGetContentRights, PcGetContentRights function [Audio Devices], PcGetContentRights
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The PortCls system driver implements the PcGetContent
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PcGetContentRights
-req.alt-loc: Portcls.lib,Portcls.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Portcls.lib
+-	Portcls.dll
+apiname: 
+-	PcGetContentRights
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # PcGetContentRights function
 
 
-
 ## -description
+
+
 The <b>PcGetContentRights</b> function retrieves the DRM content rights assigned to a DRM content ID. Note that this function call is identical in operation to the <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a> function, and its parameter definitions and return value are also identical.
 
 
-
 ## -syntax
+
 
 ````
 PORTCLASSAPI NTSTATUS NTAPI  PcGetContentRights(void);
@@ -53,24 +64,37 @@ PORTCLASSAPI NTSTATUS NTAPI  PcGetContentRights(void);
 ## -parameters
 
 
+
+
+### -param ContentId
+
+TBD
+
+
+### -param DrmRights
+
+TBD
+
+
+
 ## -returns
-See return value definition in <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>.
+
 
 See return value definition in <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>.
 
-See return value definition in <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>.
 
 
 ## -remarks
+
+
 For more information, see the comments in <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
-</dt>
-</dl>
+
  
 
  

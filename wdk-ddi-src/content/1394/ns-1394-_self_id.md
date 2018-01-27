@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: c168ca19-e4a7-484d-8aed-0b7e7033b760
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _SELF_ID, *PSELF_ID, SELF_ID
+ms.keywords: *PSELF_ID, PSELF_ID, 1394/PSELF_ID, _SELF_ID, SELF_ID structure [Buses], 1394stct_43f63a99-a4c6-4960-93c4-98bb65d242bd.xml, PSELF_ID structure pointer [Buses], SELF_ID, 1394/SELF_ID, IEEE.self_id
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SELF_ID
-req.alt-loc: 1394.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSELF_ID, SELF_ID
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1394.h
+apiname: 
+-	SELF_ID
+product: Windows
+targetos: Windows
+req.typenames: SELF_ID, *PSELF_ID
 ---
 
 # _SELF_ID structure
 
 
-
 ## -description
+
+
 The SELF_ID structure contains a raw packet zero self-ID packet. See the <a href="http://go.microsoft.com/fwlink/p/?linkid=8729">IEEE 1394 Trade Association specification</a> website for details.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SELF_ID {
@@ -66,6 +76,9 @@ typedef struct _SELF_ID {
 
 
 ## -struct-fields
+
+
+
 
 ### -field SID_Phys_ID
 
@@ -96,40 +109,22 @@ Always zero. This member contains bit 7 of byte 1 of the self-ID packet.
 
 The possible power classes are:
 
-<dl>
-<dd>
 POWER_CLASS_NOT_NEED_NOT_REPEAT
 
-</dd>
-<dd>
 POWER_CLASS_SELF_POWER_PROVIDE_15W
 
-</dd>
-<dd>
 POWER_CLASS_SELF_POWER_PROVIDE_30W
 
-</dd>
-<dd>
 POWER_CLASS_SELF_POWER_PROVIDE_45W
 
-</dd>
-<dd>
 POWER_CLASS_MAYBE_POWERED_UPTO_1W
 
-</dd>
-<dd>
 POWER_CLASS_IS_POWERED_UPTO_1W_NEEDS_2W
 
-</dd>
-<dd>
 POWER_CLASS_IS_POWERED_UPTO_1W_NEEDS_5W
 
-</dd>
-<dd>
 POWER_CLASS_IS_POWERED_UPTO_1W_NEEDS_9W
 
-</dd>
-</dl>
 This member contains bits 0-2 of byte 2 of the self-ID packet. 
 
 
@@ -146,7 +141,6 @@ Currently always zero. This member contains bits 4-5 of byte 2 of the self-ID pa
 ### -field SID_Speed
 
 Specifies the maximum data transfer rate that is supported by the node. This member must have one of the values specified in the following table.
-
 <table>
 <tr>
 <th>Value</th>
@@ -192,8 +186,7 @@ Reserved (generally treated as S400/S800 speed)
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field SID_More_Packets
@@ -220,37 +213,28 @@ Byte 3 - Bits 4-5
 
 Specifies port status. Possible values are:
 
-<dl>
-<dd>
 SELF_ID_CONNECTED_TO_CHILD
 
-</dd>
-<dd>
 SELF_ID_CONNECTED_TO_PARENT
 
-</dd>
-<dd>
 SELF_ID_NOT_CONNECTED
 
-</dd>
-<dd>
 SELF_ID_NOT_PRESENT
 
-</dd>
-</dl>
 Member <b>SID_Port1</b> contains bits 2-3 of byte 3 of the self-ID packet. Member <b>SID_Port2</b> contains bits 4-5 of byte 3 of the self-ID packet. Member <b>SID_Port3</b> contains bits 6-7 of byte 3 of the self-ID packet. 
 
 
 ## -remarks
+
+
 This structure corresponds to self ID packet 0, as described in the <i>P1394a</i> specification.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538877">TOPOLOGY_MAP</a>
-</dt>
-</dl>
+
  
 
  

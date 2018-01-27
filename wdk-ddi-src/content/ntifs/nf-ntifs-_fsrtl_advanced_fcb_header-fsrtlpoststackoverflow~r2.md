@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fbd6f3b5-ecf7-438e-8e28-a06eaa141fc3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlPostStackOverflow
+ms.keywords: fsrtlref_c2a888d0-ecfc-4b50-b6f0-753ef43375de.xml, FsRtlPostStackOverflow, ntifs/FsRtlPostStackOverflow, ifsk.fsrtlpoststackoverflow, FsRtlPostStackOverflow routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlPostStackOverflow
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlPostStackOverflow
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlPostStackOverflow function
 
 
-
 ## -description
+
+
 The <b>FsRtlPostStackOverflow</b> routine posts a stack overflow item to the stack overflow thread.
 
 
-
 ## -syntax
+
 
 ````
 VOID FsRtlPostStackOverflow(
@@ -55,6 +65,9 @@ VOID FsRtlPostStackOverflow(
 
 
 ## -parameters
+
+
+
 
 ### -param Context [in]
 
@@ -72,10 +85,15 @@ A pointer to a callback routine to be invoked when processing the request in the
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A file system typically calls <b>FsRtlPostStackOverflow</b> during a file I/O operation when the amount of remaining stack space returned by <a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a> is below the file system's stack overflow threshold for the operation. <b>FsRtlPostStackOverflow</b> posts the I/O request to a special stack overflow work queue. When the I/O operation has been completed, the caller's <i>Event</i> is set to a signaled state. 
 
 File system filter drivers should use <a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a> instead of <b>FsRtlPostStackOverflow</b>, because <b>IoQueueWorkItem</b> ensures that the device object that is associated with the specified work item is available for the processing of the work item. 
@@ -83,21 +101,17 @@ File system filter drivers should use <a href="..\wdm\nf-wdm-ioqueueworkitem.md"
 If a pool allocation failure occurs, <b>FsRtlPostStackOverflow</b> raises a STATUS_INSUFFICIENT_RESOURCES exception. To gain control if this pool allocation failure occurs, the driver should wrap the call to <b>FsRtlPostStackOverflow</b> in a <b>try-except</b> or <b>try-finally</b> statement.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpostpagingfilestackoverflow~r2.md">FsRtlPostPagingFileStackOverflow</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
+
+<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
+
  
 
  

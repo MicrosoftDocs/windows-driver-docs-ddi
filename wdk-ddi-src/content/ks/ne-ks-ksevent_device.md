@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92594bdd-a458-4262-ac4c-013cffb7a725
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSEVENT_DEVICE, KSEVENT_DEVICE
+ms.keywords: KSEVENT_DEVICE, KSEVENT_DEVICE_PREEMPTED, ks/KSEVENT_DEVICE, KSEVENT_DEVICE_LOST, KSEVENT_DEVICE enumeration [Streaming Media Devices], stream.ksevent_device, ks/KSEVENT_DEVICE_PREEMPTED, ks/KSEVENT_DEVICE_LOST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSEVENT_DEVICE
-req.alt-loc: Ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ks.h
+apiname: 
+-	KSEVENT_DEVICE
+product: Windows
+targetos: Windows
 req.typenames: KSEVENT_DEVICE
 ---
 
 # KSEVENT_DEVICE enumeration
 
 
-
 ## -description
+
+
 Specifies event notifications that the driver generates to indicate that a device has been lost or preempted.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -55,6 +65,9 @@ typedef enum  {
 
 ## -enum-fields
 
+
+
+
 ### -field KSEVENT_DEVICE_LOST
 
 A camera device has been removed from the system. See <a href="https://msdn.microsoft.com/library/windows/hardware/jj156039">KSEVENT_DEVICE_LOST</a>.
@@ -65,18 +78,21 @@ A camera device has been removed from the system. See <a href="https://msdn.micr
 A camera device has been preempted by a new Windows app. See <a href="https://msdn.microsoft.com/library/windows/hardware/jj156040">KSEVENT_DEVICE_PREEMPTED</a>.
 
 
-## -remarks
+### -field KSEVENT_DEVICE_THERMAL_HIGH
+
+
+
+### -field KSEVENT_DEVICE_THERMAL_LOW
+
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj156039">KSEVENT_DEVICE_LOST</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj156040">KSEVENT_DEVICE_PREEMPTED</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj156039">KSEVENT_DEVICE_LOST</a>
+
  
 
  

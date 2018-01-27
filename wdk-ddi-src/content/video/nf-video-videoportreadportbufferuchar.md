@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7eda10df-56f8-4bb5-8f36-6246e51c1638
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortReadPortBufferUchar
+ms.keywords: VideoPortReadPortBufferUchar, VideoPortReadPortBufferUchar function [Display Devices], VideoPort_Functions_b3c67bc0-e12c-4625-bba6-d7fb64e0c824.xml, video/VideoPortReadPortBufferUchar, display.videoportreadportbufferuchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortReadPortBufferUchar
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortReadPortBufferUchar
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortReadPortBufferUchar function
 
 
-
 ## -description
+
+
 The <b>VideoPortReadPortBufferUchar</b> function reads a number of bytes from a mapped I/O port and writes them into a buffer.
 
 
-
 ## -syntax
+
 
 ````
 VOID VideoPortReadPortBufferUchar(
@@ -57,7 +67,10 @@ VOID VideoPortReadPortBufferUchar(
 
 ## -parameters
 
-### -param Port 
+
+
+
+### -param Port
 
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
@@ -67,16 +80,21 @@ Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space ran
 Pointer to a buffer into which the UCHAR values are written.
 
 
-### -param Count 
+### -param Count
 
 Specifies the number of bytes to be written to the buffer.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The buffer must be large enough to contain at least the specified number of bytes.
 
 A miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortReadPortBufferUchar</b>.
@@ -84,18 +102,15 @@ A miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInte
 Callers of <b>VideoPortReadPortBufferUchar</b> can be running at any IRQL, provided that the memory pointed to by the <i>Buffer</i> parameter is resident and that pointed to by the <i>Port</i> parameter is resident, mapped device memory.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
-</dt>
-<dt>
-<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-</dt>
-</dl>
+
+<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+
+<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
  
 
  

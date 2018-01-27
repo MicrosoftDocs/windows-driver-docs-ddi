@@ -7,8 +7,8 @@ old-location: pos\poseventtype.htm
 old-project: pos
 ms.assetid: 2ba0c81f-2eff-48bf-8c3e-9047a398f735
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _PosEventType, PosEventType
+ms.date: 1/18/2018
+ms.keywords: BarcodeScannerTriggerReleased, pointofservicedriverinterface/StatusUpdated, pointofservicedriverinterface/InvalidEvent, pointofservicedriverinterface/BarcodeScannerTriggerReleased, pointofservicedriverinterface/ReleaseDeviceRequested, pointofservicedriverinterface/MagneticStripeReaderErrorOccurred, pointofservicedriverinterface/PointOfServicePrinterErrorOccurred, PosEventType enumeration, pointofservicedriverinterface/BarcodeScannerTriggerPressed, pointofservicedriverinterface/BarcodeScannerDataReceived, BarcodeScannerErrorOccurred, DrawerClosed, pointofservicedriverinterface/DrawerClosed, InvalidEvent, BarcodeScannerTriggerPressed, _Max, BarcodeScannerDataReceived, PointOfServicePrinterErrorOccurred, AlarmTimeoutExpired, ReleaseDeviceRequested, MagneticStripeReaderDataReceived, pos.poseventtype, pointofservicedriverinterface/BarcodeScannerImagePreviewReceived, StatusUpdated, pointofservicedriverinterface/BarcodeScannerErrorOccurred, pointofservicedriverinterface/MagneticStripeReaderDataReceived, _PosEventType, DrawerOpened, PosEventType, pointofservicedriverinterface/PosEventType, MagneticStripeReaderErrorOccurred, pointofservicedriverinterface/DrawerOpened, pointofservicedriverinterface/AlarmTimeoutExpired, BarcodeScannerImagePreviewReceived, pointofservicedriverinterface/_Max
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PosEventType
-req.alt-loc: pointofservicedriverinterface.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pointofservicedriverinterface.h
+apiname: 
+-	PosEventType
+product: Windows
+targetos: Windows
 req.typenames: PosEventType
 ---
 
 # _PosEventType enumeration
 
 
-
 ## -description
+
+
 This enumeration defines values used in the <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_poseventdataheader.md">PosEventDataHeader</a> structure to indicate the type of event that was raised.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _PosEventType { 
@@ -68,9 +78,16 @@ typedef enum _PosEventType {
 
 ## -enum-fields
 
+
+
+
 ### -field InvalidEvent
 
 The event code is not valid.
+
+
+### -field _MinEventType
+
 
 
 ### -field ReleaseDeviceRequested
@@ -142,5 +159,3 @@ Represents the DrawerOpened event.
 
 Represents the _Max event.
 
-
-## -remarks

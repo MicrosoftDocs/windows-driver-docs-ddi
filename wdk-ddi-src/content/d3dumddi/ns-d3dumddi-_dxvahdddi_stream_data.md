@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3b8fc849-8794-4dab-af28-a1c0dfd859d3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVAHDDDI_STREAM_DATA, DXVAHDDDI_STREAM_DATA
+ms.keywords: d3dumddi/DXVAHDDDI_STREAM_DATA, DXVA2_Structs_d7fc6fd4-0b17-49b3-bb42-0e0c8f3cc124.xml, _DXVAHDDDI_STREAM_DATA, DXVAHDDDI_STREAM_DATA structure [Display Devices], display.dxvahdddi_stream_data, DXVAHDDDI_STREAM_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: DXVAHDDDI_STREAM_DATA is supported beginning with the
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVAHDDDI_STREAM_DATA
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVAHDDDI_STREAM_DATA
+product: Windows
+targetos: Windows
 req.typenames: DXVAHDDDI_STREAM_DATA
 ---
 
 # _DXVAHDDDI_STREAM_DATA structure
 
 
-
 ## -description
+
+
 The DXVAHDDDI_STREAM_DATA structure describes an input stream that is processed. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVAHDDDI_STREAM_DATA {
@@ -60,6 +70,9 @@ typedef struct _DXVAHDDDI_STREAM_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Enable
 
@@ -102,55 +115,81 @@ typedef struct _DXVAHDDDI_STREAM_DATA {
 
 
 ## -remarks
-The driver must allocate the surfaces that the <b>pPastSurfaces</b>, <b>InputSurface</b>, and <b>pFutureSurfaces</b> members specify in the pool type, which the driver sets in the <b>InputPool</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a> structure, and with one of the following surface types; otherwise, the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_videoprocessblthd.md">VideoProcessBltHD</a> function returns an error.
 
+
+The driver must allocate the surfaces that the <b>pPastSurfaces</b>, <b>InputSurface</b>, and <b>pFutureSurfaces</b> members specify in the pool type, which the driver sets in the <b>InputPool</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a> structure, and with one of the following surface types; otherwise, the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_videoprocessblthd.md">VideoProcessBltHD</a> function returns an error.
+<ul>
+<li>
 A video surface that is created with the DXVAHD_SURFACE_TYPE_VIDEO_INPUT or DXVAHD_SURFACE_TYPE_VIDEO_INPUT_PRIVATE type. 
 
+</li>
+<li>
 A decode render target surface that is created with the DXVA2_VideoDecodeRenderTarget type. 
 
+</li>
+<li>
 An off-screen plain surface. 
 
-The <b>OutputIndex</b> member is a zero-based cyclic number that indicates the frame index number of the output. The driver uses this output-index information to perform the video processing in a certain pattern or cycle, especially when the driver performs deinterlacing, frame-rate conversion, and inverse telecine. For example, with the following output-index pattern, the driver performs the indicated video processing:
-
+</li>
+</ul>The <b>OutputIndex</b> member is a zero-based cyclic number that indicates the frame index number of the output. The driver uses this output-index information to perform the video processing in a certain pattern or cycle, especially when the driver performs deinterlacing, frame-rate conversion, and inverse telecine. For example, with the following output-index pattern, the driver performs the indicated video processing:
+<ul>
+<li>
 Progressive format at normal and half rate:  
 
 OutputIndex = 0, 0,...
 
+</li>
+<li>
 Progressive format at 2/1 custom rate (double frame-rate conversion, OutputFrames=2):  
 
 OutputIndex = 0, 1, 0, 1,...
 
+</li>
+<li>
 Interlaced format at normal rate:  
 
 OutputIndex = 0, 1, 0, 1,... (0: first field, 1: second field)
 
+</li>
+<li>
 Interlaced format at half rate:  
 
 OutputIndex = 0, 0,... (for example, first and second fields are blended to one frame)
 
+</li>
+<li>
 Interlaced at 4/5 custom rate (3:2 inverse telecine, OutputFrames=4):  
 
 OutputIndex = 0, 1, 2, 3, 0, 1, 2, 3,... (0:A, 1:B, 2:C, 3:D film frame) 
 
-The <b>InputFrameOrField</b> member is a zero-based number that indicates the frame or the field number of the input surface. For example, with the following input-frame-or-field number, the driver can perform the indicated video processing: 
-
+</li>
+</ul>The <b>InputFrameOrField</b> member is a zero-based number that indicates the frame or the field number of the input surface. For example, with the following input-frame-or-field number, the driver can perform the indicated video processing: 
+<ul>
+<li>
 Progressive format and interlaced format at normal rate:  
 
 InputFrameOrField = 0, 1, 2,...
 
+</li>
+<li>
 Progressive format and interlaced format at half rate:  
 
 InputFrameOrField = 0, 2, 4,...
 
+</li>
+<li>
 Interlaced format at 4/5 custom rate (3:2 inverse telecine, OutputFrames=4 and InputFrameOrField=10):  
 
 InputFrameOrField = 0, 0, 0, 0, 10, 10, 10, 10, 20, 20, 20, 20,...
 
+</li>
+<li>
 Interlaced format at 4/15 custom rate (8:7 inverse telecine, OutputFrames=2 and InputFrameOrField=15):  
 
 InputFrameOrField = 0, 0, 15, 15, 30, 30,...
 
-The application should cause both the <b>OutputIndex</b> and <b>InputFrameOrField</b> members to reset when either the frame format or the output rate is changed so that the driver can reset its internal processing state. For more information about changing frame format or output rate, see <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_frame_format_data.md">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a> and <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_output_rate_data.md">DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA</a>.
+</li>
+</ul>The application should cause both the <b>OutputIndex</b> and <b>InputFrameOrField</b> members to reset when either the frame format or the output rate is changed so that the driver can reset its internal processing state. For more information about changing frame format or output rate, see <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_frame_format_data.md">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a> and <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_output_rate_data.md">DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA</a>.
 
 However, if the driver switches between normal and half rate (values from the <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_output_rate.md">DXVAHDDDI_OUTPUT_RATE</a> enumeration), the driver should not require the reset. 
 
@@ -159,20 +198,32 @@ If both the <b>OutputIndex</b> and <b>InputFrameOrField</b> members remain uncha
 The driver should fallback to a less intensive video processing method as less reference frames are provided. The driver should fallback to Bob de-interlacing when no reference samples are provided.
 
 An application can provide less past and future reference frames than the reference frames that the driver requests. For example, an application can provide less reference frames in the following conditions:
-
+<ul>
+<li>
 At the beginning or at the end of the frame sequence. 
 
+</li>
+<li>
 Transition between progressive and interlaced. 
 
+</li>
+<li>
 Normal or half rate progressive stream. 
 
+</li>
+<li>
 Sub-video streams that do not require high quality de-interlacing. 
 
+</li>
+<li>
 While throttling the reference frames to recover from frame drops and to keep up the frame rate. 
 
+</li>
+<li>
 Frame dropping from the input (for example, frame drops in the decoder). 
 
-Both the past and the future reference frames are provided in the  <b>pPastSurfaces</b> and <b>pFutureSurfaces</b> array members in temporal order from older to newer frames continuously. For example, the order of the elements in the arrays are as shown in the following example:
+</li>
+</ul>Both the past and the future reference frames are provided in the  <b>pPastSurfaces</b> and <b>pFutureSurfaces</b> array members in temporal order from older to newer frames continuously. For example, the order of the elements in the arrays are as shown in the following example:
 
 <b>pPastSurfaces</b> [] = {..., T-3, T-2, T-1}
 
@@ -181,12 +232,19 @@ Both the past and the future reference frames are provided in the  <b>pPastSurfa
 <b>pFutureSurfaces</b> [] = {T+1, T+2, T+3,...}
 
 The input and reference frames change location from the future location to the past location through the current location as the <b>OutputIndex</b> and <b>InputFrameOrField</b> members increment. For example, the input surface changes as the <b>OutputIndex</b> and <b>InputFrameOrField</b> increment when the driver performs the following video processing:
-
+<ul>
+<li>
 Progressive format at normal rate:  
 
 OutputIndex = 0, 0, 0,... 
 
+InputFrameOrField = 0, 1, 2,...
+
 InputSurface = T, T+1, T+2,...
+
+</li>
+<li>
+Interlaced format at normal rate:  
 
 OutputIndex = 0, 1, 0, 1, 0, 1,... 
 
@@ -194,39 +252,106 @@ InputFrameOrField = 0, 1, 2, 3, 4, 5,...
 
 InputSurface = T, T, T+1, T+1, T+2, T+2,...
 
+</li>
+<li>
+Interlaced format at half rate:  
+
+OutputIndex = 0, 0, 0,... 
+
+InputFrameOrField = 0, 2, 4,...
+
+InputSurface = T, T+1, T+2,...
+
+</li>
+<li>
+Interlaced format at 4/5 custom rate (3:2 inverse telecine, OutputFrames=4 and InputFrameOrField=10):  
+
 OutputIndex = 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3,... 
+
+InputFrameOrField = 0, 0, 0, 0, 10, 10, 10, 10, 20, 20, 20, 20,...
 
 InputSurface = T, T, T, T, T+5, T+5, T+5, T+5, T+10, T+10, T+10, T+10,... 
 
+</li>
+<li>
+Interlaced format at 4/15 custom rate (8:7 inverse telecine, OutputFrames=2 and InputFrameOrField=15):  
+
+OutputIndex = 0, 1, 0, 1, 0, 1,... 
+
+InputFrameOrField = 0, 0, 15, 15, 30, 30,...
+
 InputSurface = T, T, T+7, T+7, T+15, T+15,...  (note that T+7 frame contains 15th field) 
 
-The following pseudo-code example shows the interaction between the application (APP) and the driver (DRV) while performing Inverse Telecine (IVTC) on 3:2 pull-down, 30 frames (60 fields) per second interlaced content:
+</li>
+</ul>The following pseudo-code example shows the interaction between the application (APP) and the driver (DRV) while performing Inverse Telecine (IVTC) on 3:2 pull-down, 30 frames (60 fields) per second interlaced content:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>-[60i -&gt; 60p]
+DRV: VPGuid[0] requests 1 past and 2 future reference frames.
+APP: Creates VPGuid[0] video processor and set output rate to normal.
+APP: Decodes frame 0(A0:A1), 1(A0:B1), 2(B0:C1), 3(C0:C1), 4(D0:D1), ...
+    :
+-APP: VPBltHD(frame x, 0, 1, 2), InputFrameOrField=0, OutputIndex=0
+DRV: Bob [0(A0)+0(A1)] = A'
+-APP: VPBltHD(frame x, 0, 1, 2), InputFrameOrField=1, OutputIndex=1
+DRV: Weave [0(A1)+1(A0)] = A
+-APP: VPBltHD(frame 0, 1, 2, 3), InputFrameOrField=2, OutputIndex=0
+DRV: Weave [1(A0)+0(A1)] = A
+-APP: VPBltHD(frame 0, 1, 2, 3), InputFrameOrField=3, OutputIndex=1
+DRV: Weave [1(B1)+2(B0)] = B
+-APP: VPBltHD(frame 1, 2, 3, 4), InputFrameOrField=4, OutputIndex=0
+DRV: Weave [2(B0)+1(B1)] = B
+-APP: VPBltHD(frame 1, 2, 3, 4), InputFrameOrField=5, OutputIndex=1
+DRV: Weave [2(C1)+3(C0)] = C
+-APP: VPBltHD(frame 2, 3, 4, 5), InputFrameOrField=6, OutputIndex=0
+DRV: Weave [3(C0)+3(C1)] = C
+-APP: VPBltHD(frame 2, 3, 4, 5), InputFrameOrField=7, OutputIndex=1
+DRV: Weave [3(C1)+3(C0)] = C
+-APP: VPBltHD(frame 3, 4, 5, 6), InputFrameOrField=8, OutputIndex=0
+DRV: Weave [4(D0)+4(D1)] = D
+-APP: VPBltHD(frame 3, 4, 5, 6), InputFrameOrField=9, OutputIndex=1
+DRV: Weave [4(D1)+4(D0)] = D
+    :
+-[60i -&gt; 24p]
+DRV: VPGuid[1] requests 4 future reference frames.
+DRV: Exports CustomRate=4/5, OutputFrames=4, InputInterlaced=TRUE, InputFramesOrFields=10.
+APP: Creates VPGuid[1] video processor and set output rate to 4/5 custom rate.
+-APP: VPBltHD(frame 0, 1, 2, 3, 4), InputFrameOrField=0, OutputIndex=0
+DRV: Bob [0(A0)+0(A1)] = A' (playback or speed mode) or Weave [0(A0)+0(A1)] = A (quality mode)
+-APP: VPBltHD(frame 0, 1, 2, 3, 4), InputFrameOrField=0, OutputIndex=1
+DRV: Weave [1(B1)+2(B0)] = B
+-APP: VPBltHD(frame 0, 1, 2, 3, 4), InputFrameOrField=0, OutputIndex=2
+DRV: Weave [3(C0)+3(C1)] = C
+-APP: VPBltHD(frame 0, 1, 2, 3, 4), InputFrameOrField=0, OutputIndex=3
+DRV: Weave [4(D0)+4(D1)] = D
+-APP: VPBltHD(frame 5, 6, 7, 8, 9), InputFrameOrField=10, OutputIndex=0
+DRV: Weave [0(A0)+0(A1)] = A
+    :</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_output_rate.md">DXVAHDDDI_OUTPUT_RATE</a>
-</dt>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_frame_format_data.md">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a>
-</dt>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_output_rate_data.md">DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_surface.md">DXVAHDDDI_SURFACE</a>
-</dt>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpcaps.md">DXVAHDDDI_VPCAPS</a>
-</dt>
-<dt>
+
+<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_output_rate.md">DXVAHDDDI_OUTPUT_RATE</a>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_videoprocessblthd.md">VideoProcessBltHD</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_output_rate_data.md">DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpcaps.md">DXVAHDDDI_VPCAPS</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_frame_format_data.md">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a>
+
  
 
  

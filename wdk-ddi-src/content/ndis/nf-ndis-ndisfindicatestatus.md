@@ -7,8 +7,8 @@ old-location: netvista\ndisfindicatestatus.htm
 old-project: netvista
 ms.assetid: fd81d777-8479-41e3-8f71-e5f4134b60a0
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisFIndicateStatus
+ms.date: 1/18/2018
+ms.keywords: ndis/NdisFIndicateStatus, ndis_status_ref_e649b130-878b-4019-b377-dd099de6eb8e.xml, NdisFIndicateStatus function [Network Drivers Starting with Windows Vista], netvista.ndisfindicatestatus, NdisFIndicateStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisFIndicateStatus
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_StatusIndication_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisFIndicateStatus
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFIndicateStatus function
 
 
-
 ## -description
+
+
 The 
   <b>NdisFIndicateStatus</b> function passes on a filtered status indication from an underlying driver or
   originates a status indication.
 
 
-
 ## -syntax
+
 
 ````
 VOID NdisFIndicateStatus(
@@ -56,6 +67,9 @@ VOID NdisFIndicateStatus(
 
 
 ## -parameters
+
+
+
 
 ### -param NdisFilterHandle [in]
 
@@ -72,10 +86,15 @@ A pointer to an
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 Filter drivers can call 
     <b>NdisFIndicateStatus</b> from the 
     <a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a> function, to pass on a
@@ -93,27 +112,22 @@ A filter driver can call
     <a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
-</dt>
-<dt>
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
 <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndisfsetattributes.md">NdisFSetAttributes</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFIndicateStatus function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFIndicateStatus function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

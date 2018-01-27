@@ -7,8 +7,8 @@ old-location: netvista\ndisifregisterinterface.htm
 old-project: netvista
 ms.assetid: d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisIfRegisterInterface
+ms.date: 1/18/2018
+ms.keywords: netvista.ndisifregisterinterface, NdisIfRegisterInterface function [Network Drivers Starting with Windows Vista], net_if_functions_ref_baca325c-667d-4472-9c91-dbc8fd41d033.xml, ndis/NdisIfRegisterInterface, NdisIfRegisterInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisIfRegisterInterface
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_Interfaces_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisIfRegisterInterface
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisIfRegisterInterface function
 
 
-
 ## -description
+
+
 The 
   <b>NdisIfRegisterInterface</b> function registers an NDIS network interface.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisIfRegisterInterface(
@@ -59,12 +70,15 @@ NDIS_STATUS NdisIfRegisterInterface(
 
 ## -parameters
 
+
+
+
 ### -param NdisProviderHandle [in]
 
 A handle that identifies the network interface provider that is registering the interface. The
      caller obtained this handle from a previous call to the 
-     <a href="..\ndis\nf-ndis-ndisifregisterprovider.md">
-     NdisIfRegisterProvider</a> function.
+     <mshelp:link keywords="netvista.ndisifregisterprovider" tabindex="0"><b>
+     NdisIfRegisterProvider</b></mshelp:link> function.
 
 
 ### -param NetLuid [in]
@@ -93,7 +107,13 @@ A pointer to a caller-allocated
      while the interface exists.
 
 
-### -param pIfIndex [out]
+### -param pfIndex
+
+TBD
+
+
+
+#### - pIfIndex [out]
 
 A pointer to a caller-supplied interface index variable. If NDIS successfully registers an
      interface, NDIS allocates an interface index for that interface and sets the value at 
@@ -104,26 +124,67 @@ A pointer to a caller-supplied interface index variable. If NDIS successfully re
 
 
 ## -returns
+
+
 <b>NdisIfRegisterInterface</b> returns one of the following status values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_SUCCESS</b></dt>
-</dl>The operation completed successfully.
+</dl>
+</td>
+<td width="60%">
+The operation completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_RESOURCES</b></dt>
-</dl>The operation failed because of insufficient resources.
+</dl>
+</td>
+<td width="60%">
+The operation failed because of insufficient resources.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_INVALID_PARAMETER</b></dt>
-</dl><b>NdisIfRegisterInterface</b> failed because some of the input parameters are invalid.
+</dl>
+</td>
+<td width="60%">
+<b>NdisIfRegisterInterface</b> failed because some of the input parameters are invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_DUPLICATE_OBJECTID</b></dt>
-</dl><b>NdisIfRegisterInterface</b> failed because there is already an interface registered with the same
+</dl>
+</td>
+<td width="60%">
+<b>NdisIfRegisterInterface</b> failed because there is already an interface registered with the same
        NET_LUID value that the 
        <i>NetLuid</i> parameter specified.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 NDIS interface providers call the 
     <b>NdisIfRegisterInterface</b> function to register a network interface. A call to this function does not
     imply that the interface is active.
@@ -160,34 +221,28 @@ NDIS might not return the same interface index every time a provider registers a
 
 To indicate that an interface should be removed from the list of known interfaces on the computer, an
     interface provider calls the 
-    <a href="..\ndis\nf-ndis-ndisifderegisterinterface.md">
-    NdisIfDeregisterInterface</a> function, for example, because the interface has been uninstalled. .
+    <mshelp:link keywords="netvista.ndisifderegisterinterface" tabindex="0"><b>
+    NdisIfDeregisterInterface</b></mshelp:link> function, for example, because the interface has been uninstalled. .
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565890">NDIS_MAKE_NET_LUID</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisifderegisterinterface.md">NdisIfDeregisterInterface</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisifregisterprovider.md">NdisIfRegisterProvider</a>
-</dt>
-<dt>
+
 <a href="..\ndis\ns-ndis-_net_if_information.md">NET_IF_INFORMATION</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565890">NDIS_MAKE_NET_LUID</a>
+
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-</dt>
-</dl>
- 
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+
+<a href="..\ndis\nf-ndis-ndisifregisterprovider.md">NdisIfRegisterProvider</a>
+
+<a href="..\ndis\nf-ndis-ndisifderegisterinterface.md">NdisIfDeregisterInterface</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisIfRegisterInterface function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisIfRegisterInterface function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

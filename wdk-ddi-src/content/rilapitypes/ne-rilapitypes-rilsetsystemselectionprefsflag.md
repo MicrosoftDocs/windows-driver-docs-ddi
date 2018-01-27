@@ -7,8 +7,8 @@ old-location: netvista\rilsetsystemselectionprefsflag_2.htm
 old-project: netvista
 ms.assetid: d932f5c8-d6a6-4611-b6f2-12c501df1117
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSETSYSTEMSELECTIONPREFSFLAG, RILSETSYSTEMSELECTIONPREFSFLAG
+ms.date: 1/18/2018
+ms.keywords: rilapitypes/RIL_SSSPFLAG_ENFORCESCAN, netvista.rilsetsystemselectionprefsflag_2, RIL_SSSPFLAG_ENFORCESCAN, rilapitypes/RIL_SSSPFLAG_ALL, RIL_SSSPFLAG_ALL, RIL_SSSPFLAG_APPLYIMMEDIATELY, RILSETSYSTEMSELECTIONPREFSFLAG, rilapitypes/RIL_SSSPFLAG_APPLYIMMEDIATELY, rilapitypes/RILSETSYSTEMSELECTIONPREFSFLAG, RILSETSYSTEMSELECTIONPREFSFLAG enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSETSYSTEMSELECTIONPREFSFLAG
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILSETSYSTEMSELECTIONPREFSFLAG
+product: Windows
+targetos: Windows
 req.typenames: RILSETSYSTEMSELECTIONPREFSFLAG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILSETSYSTEMSELECTIONPREFSFLAG enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILSETSYSTEMSELECTIONPREFSFLAG { 
@@ -57,13 +67,21 @@ typedef enum _RILSETSYSTEMSELECTIONPREFSFLAG {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_SSSPFLAG_NONE
+
+
+
 ### -field RIL_SSSPFLAG_APPLYIMMEDIATELY
+
 
 
 ### -field RIL_SSSPFLAG_ENFORCESCAN
 
 
+
 ### -field RIL_SSSPFLAG_ALL
 
 
-## -remarks

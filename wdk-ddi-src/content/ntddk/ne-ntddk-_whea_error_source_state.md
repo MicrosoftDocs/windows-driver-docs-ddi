@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 7be90712-9f6f-4998-a8ca-148ff900c82c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_ERROR_SOURCE_STATE, WHEA_ERROR_SOURCE_STATE, *PWHEA_ERROR_SOURCE_STATE
+ms.keywords: ntddk/PWHEA_ERROR_SOURCE_STATE, whearef_c6edca73-b5ec-4473-bbe3-9ed5e48f017d.xml, PWHEA_ERROR_SOURCE_STATE enumeration pointer [WHEA Drivers and Applications], WHEA_ERROR_SOURCE_STATE enumeration [WHEA Drivers and Applications], WHEA_ERROR_SOURCE_STATE, ntddk/WheaErrSrcStateStarted, WheaErrSrcStateStarted, *PWHEA_ERROR_SOURCE_STATE, ntddk/WHEA_ERROR_SOURCE_STATE, _WHEA_ERROR_SOURCE_STATE, whea.whea_error_source_state, ntddk/WheaErrSrcStateStopped, WheaErrSrcStateStopped, PWHEA_ERROR_SOURCE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_ERROR_SOURCE_STATE
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_ERROR_SOURCE_STATE
+product: Windows
+targetos: Windows
 req.typenames: WHEA_ERROR_SOURCE_STATE, *PWHEA_ERROR_SOURCE_STATE
 ---
 
 # _WHEA_ERROR_SOURCE_STATE enumeration
 
 
-
 ## -description
+
+
 The WHEA_ERROR_SOURCE_STATE enumeration defines the different runtime states for an error source.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WHEA_ERROR_SOURCE_STATE { 
@@ -54,6 +64,9 @@ typedef enum _WHEA_ERROR_SOURCE_STATE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WheaErrSrcStateStopped
 
@@ -66,15 +79,16 @@ The error source is started.
 
 
 ## -remarks
+
+
 The <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure contains a member of type WHEA_ERROR_SOURCE_STATE that indicates the runtime state of the error source.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

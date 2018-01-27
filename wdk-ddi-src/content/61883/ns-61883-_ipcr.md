@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 81c89fbc-5d58-4983-b591-765a7818b932
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _IPCR, *PIPCR, IPCR
+ms.keywords: PIPCR, 61883/PIPCR, *PIPCR, _IPCR, IPCR, IEEE.ipcr, PIPCR structure pointer [Buses], IPCR structure [Buses], 61883/IPCR, 61883_structures_e7226c37-f3b1-4e57-977a-6fb25c853f19.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPCR
-req.alt-loc: 61883.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	61883.h
+apiname: 
+-	IPCR
+product: Windows
+targetos: Windows
 req.typenames: *PIPCR, IPCR
 ---
 
 # _IPCR structure
 
 
-
 ## -description
+
+
 The IPCR structure contains initialization values for an input plug. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _IPCR {
@@ -58,6 +68,9 @@ typedef struct _IPCR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Reserved0
 
@@ -89,15 +102,10 @@ Indicates, when one, that there is a broadcast-in connection to the input plug. 
 Indicates, when one, that the corresponding input plug is on-line. When zero it indicates that the input plug is off-line.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537010">AV_PCR</a>
-</dt>
-</dl>
+
  
 
  

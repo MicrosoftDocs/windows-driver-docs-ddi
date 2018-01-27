@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 816baec4-3dd0-4025-ba34-035bf6f241d3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SUB_Q_CURRENT_POSITION, *PSUB_Q_CURRENT_POSITION, SUB_Q_CURRENT_POSITION
+ms.keywords: ntddcdrm/PSUB_Q_CURRENT_POSITION, structs-CD-ROM_f9833ad0-bb9c-418e-8e98-2c2f790a0e7e.xml, SUB_Q_CURRENT_POSITION, _SUB_Q_CURRENT_POSITION, SUB_Q_CURRENT_POSITION structure [Storage Devices], PSUB_Q_CURRENT_POSITION structure pointer [Storage Devices], PSUB_Q_CURRENT_POSITION, ntddcdrm/SUB_Q_CURRENT_POSITION, storage.sub_q_current_position, *PSUB_Q_CURRENT_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SUB_Q_CURRENT_POSITION
-req.alt-loc: ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSUB_Q_CURRENT_POSITION, SUB_Q_CURRENT_POSITION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdrm.h
+apiname: 
+-	SUB_Q_CURRENT_POSITION
+product: Windows
+targetos: Windows
+req.typenames: SUB_Q_CURRENT_POSITION, *PSUB_Q_CURRENT_POSITION
 ---
 
 # _SUB_Q_CURRENT_POSITION structure
 
 
-
 ## -description
+
+
 The SUB_Q_CURRENT_POSITION structure contains position information and is used in conjunction with <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_channel_data.md">SUB_Q_CHANNEL_DATA</a>. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SUB_Q_CURRENT_POSITION {
@@ -60,6 +70,9 @@ typedef struct _SUB_Q_CURRENT_POSITION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -101,24 +114,16 @@ Gives the current location relative to the logical beginning of the media. The b
 Gives the current location relative to the logical beginning of the current track. The bytes in this array are arranged in big-endian order. <b>TrackRelativeAddress</b>[0] contains the most significant byte, and <b>TrackRelativeAddress</b>[3] contains the least significant byte. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
-</dt>
-<dt>
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
-</dt>
-<dt>
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_channel_data.md">SUB_Q_CHANNEL_DATA</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_header.md">SUB_Q_HEADER</a>
-</dt>
-</dl>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_channel_data.md">SUB_Q_CHANNEL_DATA</a>
+
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
+
  
 
  

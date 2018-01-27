@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1DA52354-2338-4214-8489-B6BFCD6060FB
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA
+ms.keywords: display.pfnd3d12ddi_createcommandqueue_0023, pfnCreateCommandQueue callback function [Display Devices], pfnCreateCommandQueue, PFND3D12DDI_CREATECOMMANDQUEUE_0023, PFND3D12DDI_CREATECOMMANDQUEUE_0023, d3d12umddi/pfnCreateCommandQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnCreateCommandQueue
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	pfnCreateCommandQueue
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
 
 # PFND3D12DDI_CREATECOMMANDQUEUE_0023 callback
 
 
-
 ## -description
+
+
 The <i>pfnCreateCommandQueue</i> callback function is used to create command queue. 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D12DDI_CREATECOMMANDQUEUE_0023 pfnCreateCommandQueue;
@@ -60,29 +70,58 @@ HRESULT APIENTRY* pfnCreateCommandQueue(
 
 ## -parameters
 
-### -param hDevice 
-
-The handle of a device.
 
 
-### -param CreateCommandQueue [in]
 
-An argument used to create a command queue. 
-
-
-### -param hDrvCommandQueue 
-
-The handle of a command queue.
+### -param D3D12DDI_HDEVICE
 
 
-### -param hRTCommandQueue 
+
+### -param *
+
+
+
+### -param D3D12DDI_HCOMMANDQUEUE
+
+
+
+### -param D3D12DDI_HRTCOMMANDQUEUE
+
+
+
+
+
+
+#### - hRTCommandQueue
 
 The handle of the command queue for the driver to use when it calls back into the runtime.
 
 
+#### - hDrvCommandQueue
+
+The handle of a command queue.
+
+
+#### - CreateCommandQueue [in]
+
+An argument used to create a command queue. 
+
+
+#### - hDevice
+
+The handle of a device.
+
+
 ## -returns
+
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
+
 ## -remarks
-Access this callback function by using a device functions core structure, such as the <b>D3D12DDI_DEVICE_FUNCS_CORE_0003</b> structure.</p>
+
+
+Access this callback function by using a device functions core structure, such as the <b>D3D12DDI_DEVICE_FUNCS_CORE_0003</b> structure.
+
+

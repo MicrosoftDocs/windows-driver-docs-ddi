@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8ee658bf-2243-4b1f-b4d6-5d9b6388e972
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _USB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
+ms.keywords: stream.adapterreceivepacket, AdapterReceivePacket, AdapterReceivePacket callback function [Streaming Media Devices], AdapterReceivePacket, PADAPTER_RECEIVE_PACKET_ROUTINE, PADAPTER_RECEIVE_PACKET_ROUTINE, usbcamdi/AdapterReceivePacket, usbcmdpr_4f4422ba-64f3-4eee-8450-4a3b5715b910.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AdapterReceivePacket
-req.alt-loc: usbcamdi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	usbcamdi.h
+apiname: 
+-	AdapterReceivePacket
+product: Windows
+targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PADAPTER_RECEIVE_PACKET_ROUTINE callback
 
 
-
 ## -description
+
+
 A camera minidriver's <i>AdapterReceivePacket</i> callback function processes adapter-based stream request blocks (SRBs) passed to it by the stream class driver.
 
 
-
 ## -prototype
+
 
 ````
 VOID AdapterReceivePacket(
@@ -55,25 +65,32 @@ VOID AdapterReceivePacket(
 
 ## -parameters
 
+
+
+
 ### -param Srb [in]
 
 Specifies the SRB to be processed by the camera minidriver.
 
 
 ## -returns
+
+
 <i>AdapterReceivePacket</i> does not return a value.
 
 
+
 ## -remarks
+
+
 A camera's minidriver provides USBCAMD with the address of its <i>AdapterReceivePacket</i> function that processes SRBs in its call to the <b>USBCAMD_DriverEntry</b> service.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbcamdi\nf-usbcamdi-usbcamd_driverentry.md">USBCAMD_DriverEntry</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: CE485A6F-8480-4535-9145-A8CBF78C804D
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: _NFC_CX_HOST_ACTION, NFC_CX_HOST_ACTION, *PNFC_CX_HOST_ACTION
+ms.keywords: HostActionUnload, NFC_CX_HOST_ACTION, nfccx/HostActionStop, nfpdrivers.nfc_cx_host_action, nfccx/NFC_CX_HOST_ACTION, HostActionRestart, nfccx/HostActionStart, nfccx/HostActionUnload, *PNFC_CX_HOST_ACTION, NFC_CX_HOST_ACTION enumeration [Near-Field Proximity Drivers], HostActionStart, HostActionStop, nfccx/HostActionRestart, _NFC_CX_HOST_ACTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NFC_CX_HOST_ACTION
-req.alt-loc: nfccx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Requires same
-req.typenames: NFC_CX_HOST_ACTION, *PNFC_CX_HOST_ACTION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	nfccx.h
+apiname: 
+-	NFC_CX_HOST_ACTION
+product: Windows
+targetos: Windows
+req.typenames: *PNFC_CX_HOST_ACTION, NFC_CX_HOST_ACTION
 ---
 
 # _NFC_CX_HOST_ACTION enumeration
 
 
-
 ## -description
+
+
 The NFC_CX_HOST_ACTION enumeration specifies host actions.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _NFC_CX_HOST_ACTION { 
@@ -56,6 +66,9 @@ typedef enum _NFC_CX_HOST_ACTION {
 
 
 ## -enum-fields
+
+
+
 
 ### -field HostActionStart
 
@@ -77,14 +90,12 @@ Specifies a full driver restart.
 Specifies to unload the driver.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt><a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a></dt>
-<dt><a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a></dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
  
 
  

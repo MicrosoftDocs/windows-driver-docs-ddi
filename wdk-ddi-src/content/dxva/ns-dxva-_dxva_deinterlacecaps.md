@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: be503505-fb20-4a8d-b395-7e807cde9fb6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_DeinterlaceCaps, DXVA_DeinterlaceCaps, *LPDXVA_DeinterlaceCaps
+ms.keywords: DXVA_DeinterlaceCaps, LPDXVA_DeinterlaceCaps, dxva/LPDXVA_DeinterlaceCaps, _DXVA_DeinterlaceCaps, LPDXVA_DeinterlaceCaps structure pointer [Display Devices], *LPDXVA_DeinterlaceCaps, DXVA_DeinterlaceCaps structure [Display Devices], display.dxva_deinterlacecaps, dxva/DXVA_DeinterlaceCaps, dxvaref_daa1a58d-aec2-4370-9baa-7a3b8cbcacf8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVA_DeinterlaceCaps
-req.alt-loc: dxva.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DXVA_DeinterlaceCaps, *LPDXVA_DeinterlaceCaps
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxva.h
+apiname: 
+-	DXVA_DeinterlaceCaps
+product: Windows
+targetos: Windows
+req.typenames: *LPDXVA_DeinterlaceCaps, DXVA_DeinterlaceCaps
 ---
 
 # _DXVA_DeinterlaceCaps structure
 
 
-
 ## -description
+
+
 The DXVA_DeinterlaceCaps structure describes the driver capabilities for a deinterlace mode.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVA_DeinterlaceCaps {
@@ -60,6 +70,9 @@ typedef struct _DXVA_DeinterlaceCaps {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -104,18 +117,18 @@ Specifies a <a href="..\dxva\ne-dxva-_dxva_deinterlacetech.md">DXVA_DeinterlaceT
 
 
 ## -remarks
+
+
 The driver receives the DXVA_DeinterlaceCaps structure with the <b>Size</b> member assigned, assigns values to the remaining members, and returns DXVA_DeinterlaceCaps to the renderer.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dxva\ne-dxva-_dxva_videoprocesscaps.md">DXVA_VideoProcessCaps</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ne-dxva-_dxva_deinterlacetech.md">DXVA_DeinterlaceTech</a>
-</dt>
-</dl>
+
  
 
  

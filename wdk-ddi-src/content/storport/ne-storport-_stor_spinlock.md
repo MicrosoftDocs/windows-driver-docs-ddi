@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 73e5e994-4133-4651-bb94-1d21386be1cd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STOR_SPINLOCK, STOR_SPINLOCK
+ms.keywords: storport/StartIoLock, storport/STOR_SPINLOCK, StartIoLock, InterruptLock, _STOR_SPINLOCK, storage.stor_spinlock, STOR_SPINLOCK, STOR_SPINLOCK enumeration [Storage Devices], storport/InterruptLock, storport/DpcLock, DpcLock, structs-general_53d45f74-68b2-4839-81c1-c93a2773f0d8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STOR_SPINLOCK
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	STOR_SPINLOCK
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _STOR_SPINLOCK enumeration
 
 
-
 ## -description
+
+
 The STOR_SPINLOCK enumeration is used to specify the type of a spinlock.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _STOR_SPINLOCK { 
@@ -56,6 +66,9 @@ typedef enum _STOR_SPINLOCK {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DpcLock
 
@@ -72,15 +85,10 @@ Indicates a StartIo spinlock.
 Indicates an Interrupt spinlock.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 24444451-7323-4e1a-9981-cf5caa00c4e3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PREEMPTCOMMANDFLAGS, DXGK_PREEMPTCOMMANDFLAGS
+ms.keywords: display.dxgk_preemptcommandflags, _DXGK_PREEMPTCOMMANDFLAGS, DXGK_PREEMPTCOMMANDFLAGS structure [Display Devices], DmStructs_7163ce37-49c8-4b17-aadc-cd36ad5cac9d.xml, DXGK_PREEMPTCOMMANDFLAGS, d3dkmddi/DXGK_PREEMPTCOMMANDFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_PREEMPTCOMMANDFLAGS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_PREEMPTCOMMANDFLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PREEMPTCOMMANDFLAGS
 ---
 
 # _DXGK_PREEMPTCOMMANDFLAGS structure
 
 
-
 ## -description
+
+
 The DXGK_PREEMPTCOMMANDFLAGS structure specifies a union that contains either a structure with a reserved member or a 32-bit value. No bit-field flags are currently defined.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_PREEMPTCOMMANDFLAGS {
@@ -59,6 +69,9 @@ typedef struct _DXGK_PREEMPTCOMMANDFLAGS {
 
 ## -struct-fields
 
+
+
+
 ### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting all 32 bits (0xFFFFFFFF) of the 32-bit <b>Value</b> member to zeros.
@@ -69,15 +82,10 @@ This member is reserved and should be set to zero. Setting this member to zero i
 A member in the union that DXGK_PREEMPTCOMMANDFLAGS contains that can hold a 32-bit value.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_preemptcommand.md">DXGKARG_PREEMPTCOMMAND</a>
-</dt>
-</dl>
+
  
 
  

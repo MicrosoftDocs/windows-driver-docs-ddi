@@ -7,8 +7,8 @@ old-location: netvista\ndis_pm_wol_pattern.htm
 old-project: netvista
 ms.assetid: 2ca1fdbe-efd3-4607-aab1-751e6d5d025b
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_PM_WOL_PATTERN, *PNDIS_PM_WOL_PATTERN, NDIS_PM_WOL_PATTERN
+ms.date: 1/18/2018
+ms.keywords: NDIS_PM_WOL_PATTERN structure [Network Drivers Starting with Windows Vista], PNDIS_PM_WOL_PATTERN structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_WOL_PATTERN, ntddndis/NDIS_PM_WOL_PATTERN, netvista.ndis_pm_wol_pattern, NDIS_PM_WOL_PATTERN, miniport_power_management_ref_ce048c91-111a-406d-8dc9-958394bc78cd.xml, *PNDIS_PM_WOL_PATTERN, PNDIS_PM_WOL_PATTERN, ntddndis/PNDIS_PM_WOL_PATTERN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.20 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_PM_WOL_PATTERN
-req.alt-loc: ntddndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddndis.h
+apiname: 
+-	NDIS_PM_WOL_PATTERN
+product: Windows
+targetos: Windows
 req.typenames: *PNDIS_PM_WOL_PATTERN, NDIS_PM_WOL_PATTERN
 ---
 
 # _NDIS_PM_WOL_PATTERN structure
 
 
-
 ## -description
+
+
 The <b>NDIS_PM_WOL_PATTERN</b> structure defines a wake-on-LAN (WOL) pattern.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NDIS_PM_WOL_PATTERN {
@@ -86,6 +96,130 @@ typedef struct _NDIS_PM_WOL_PATTERN {
 
 ## -struct-fields
 
+
+
+
+### -field WoLPattern
+
+A union that contains the following member structures.
+
+
+### -field WoLPattern.IPv4TcpSynParameters
+
+A structure that contains IPv4 TCP SYN information. This structure contains the following
+      members:
+
+
+### -field WoLPattern.IPv4TcpSynParameters.Flags
+
+A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
+
+
+### -field WoLPattern.IPv4TcpSynParameters.IPv4SourceAddress
+
+The IPv4 source address in the TCP SYN packet.
+
+
+### -field WoLPattern.IPv4TcpSynParameters.IPv4DestAddress
+
+The IPv4 destination address in the TCP SYN packet.
+
+
+### -field WoLPattern.IPv4TcpSynParameters.TCPSourcePortNumber
+
+The TCP source port number in the TCP SYN packet.
+
+
+### -field WoLPattern.IPv4TcpSynParameters.TCPDestPortNumber
+
+The TCP destination port number in the TCP SYN packet.
+
+
+### -field WoLPattern.IPv6TcpSynParameters
+
+A structure that contains IPv6 TCP SYN information. This structure contains the following
+      members:
+
+
+### -field WoLPattern.IPv6TcpSynParameters.Flags
+
+A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
+
+
+### -field WoLPattern.IPv6TcpSynParameters.IPv6SourceAddress
+
+The IPv6 source address in the TCP SYN packet.
+
+
+### -field WoLPattern.IPv6TcpSynParameters.IPv6DestAddress
+
+The IPv6 destination address in the TCP SYN packet.
+
+
+### -field WoLPattern.IPv6TcpSynParameters.TCPSourcePortNumber
+
+The TCP source port in the TCP SYN packet.
+
+
+### -field WoLPattern.IPv6TcpSynParameters.TCPDestPortNumber
+
+The TCP destination port in the TCP SYN packet.
+
+
+### -field WoLPattern.EapolRequestIdMessageParameters
+
+A structure that contains 802.1X EAPOL request identity message parameters. This structure
+      contains the following members:
+
+
+### -field WoLPattern.EapolRequestIdMessageParameters.Flags
+
+A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
+
+
+### -field WoLPattern.WoLBitMapPattern
+
+A structure that specifies a WOL bitmap pattern. For more information about bitmap patterns, see
+      the Remarks section. The structure has the following members:
+
+
+### -field WoLPattern.WoLBitMapPattern.Flags
+
+A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
+
+
+### -field WoLPattern.WoLBitMapPattern.MaskOffset
+
+The offset, in bytes, for a mask buffer from the beginning of the NDIS_PM_WOL_PATTERN
+        structure.
+
+The mask specifies which bytes in incoming packets should be matched against the bitmap pattern.
+        Each bit in the bitmask corresponds to a byte in the pattern. If a bit is zero, the corresponding
+        byte in the incoming packet should not be pattern-matched. If the bit is one, the network adapter compares the
+        byte to the incoming packet with the byte specified in the pattern.
+
+
+### -field WoLPattern.WoLBitMapPattern.MaskSize
+
+The size, in bytes, of the mask.
+
+
+### -field WoLPattern.WoLBitMapPattern.PatternOffset
+
+The offset, in bytes, for a pattern buffer from the beginning of the NDIS_PM_WOL_PATTERN
+       structure.
+
+
+### -field WoLPattern.WoLBitMapPattern.PatternSize
+
+The size, in bytes, of the pattern.
+
+
+### -field _WOL_PATTERN
+
+ 
+
+
 ### -field Header
 
 The type, revision, and size of the <b>NDIS_PM_WOL_PATTERN</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
@@ -94,22 +228,6 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
-
-### -field NDIS_PM_WOL_PATTERN_REVISION_2
-
-Revisions made to  the <a href="..\ntddndis\ne-ntddndis-_ndis_pm_wol_packet.md">NDIS_PM_WOL_PACKET</a> enumeration for NDIS 6.30.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_WOL_PATTERN_REVISION_2.
-
-
-### -field NDIS_PM_WOL_PATTERN_REVISION_1
-
-Original version for NDIS 6.20.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_WOL_PATTERN_REVISION_1.
-
-</dd>
-</dl>
 
 ### -field Flags
 
@@ -127,23 +245,6 @@ A ULONG value that contains the priority of the WOL pattern. If an overlying dri
 
 
 
-
-### -field NDIS_PM_WOL_PRIORITY_LOWEST
-
-Specifies the lowest priority WOL pattern.
-
-
-### -field NDIS_PM_WOL_PRIORITY_NORMAL
-
-Specifies a normal priority WOL pattern.
-
-
-### -field NDIS_PM_WOL_PRIORITY_HIGHEST
-
-Specifies the highest priority WOL pattern.
-
-</dd>
-</dl>
 
 ### -field WoLPacketType
 
@@ -177,133 +278,38 @@ A ULONG value that contains an offset, in bytes. The
      <b>NextWoLPatternOffset</b> is zero, the current structure is the last structure in the list.
 
 
-### -field WoLPattern
+##### - Priority.NDIS_PM_WOL_PRIORITY_HIGHEST
 
-A union that contains the following member structures.
-
-
-### -field IPv4TcpSynParameters
-
-A structure that contains IPv4 TCP SYN information. This structure contains the following
-      members:
+Specifies the highest priority WOL pattern.
 
 
-### -field Flags
+##### - Header.NDIS_PM_WOL_PATTERN_REVISION_2
 
-A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
+Revisions made to  the <a href="..\ntddndis\ne-ntddndis-_ndis_pm_wol_packet.md">NDIS_PM_WOL_PACKET</a> enumeration for NDIS 6.30.
 
-
-### -field IPv4SourceAddress
-
-The IPv4 source address in the TCP SYN packet.
+Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_WOL_PATTERN_REVISION_2.
 
 
-### -field IPv4DestAddress
+##### - Header.NDIS_PM_WOL_PATTERN_REVISION_1
 
-The IPv4 destination address in the TCP SYN packet.
+Original version for NDIS 6.20.
 
-
-### -field TCPSourcePortNumber
-
-The TCP source port number in the TCP SYN packet.
+Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_WOL_PATTERN_REVISION_1.
 
 
-### -field TCPDestPortNumber
+##### - Priority.NDIS_PM_WOL_PRIORITY_LOWEST
 
-The TCP destination port number in the TCP SYN packet.
-
-</dd>
-</dl>
-
-### -field IPv6TcpSynParameters
-
-A structure that contains IPv6 TCP SYN information. This structure contains the following
-      members:
+Specifies the lowest priority WOL pattern.
 
 
-### -field Flags
+##### - Priority.NDIS_PM_WOL_PRIORITY_NORMAL
 
-A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
+Specifies a normal priority WOL pattern.
 
-
-### -field IPv6SourceAddress
-
-The IPv6 source address in the TCP SYN packet.
-
-
-### -field IPv6DestAddress
-
-The IPv6 destination address in the TCP SYN packet.
-
-
-### -field TCPSourcePortNumber
-
-The TCP source port in the TCP SYN packet.
-
-
-### -field TCPDestPortNumber
-
-The TCP destination port in the TCP SYN packet.
-
-</dd>
-</dl>
-
-### -field EapolRequestIdMessageParameters
-
-A structure that contains 802.1X EAPOL request identity message parameters. This structure
-      contains the following members:
-
-
-### -field Flags
-
-A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
-
-</dd>
-</dl>
-
-### -field WoLBitMapPattern
-
-A structure that specifies a WOL bitmap pattern. For more information about bitmap patterns, see
-      the Remarks section. The structure has the following members:
-
-
-### -field Flags
-
-A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
-
-
-### -field MaskOffset
-
-The offset, in bytes, for a mask buffer from the beginning of the NDIS_PM_WOL_PATTERN
-        structure.
-
-The mask specifies which bytes in incoming packets should be matched against the bitmap pattern.
-        Each bit in the bitmask corresponds to a byte in the pattern. If a bit is zero, the corresponding
-        byte in the incoming packet should not be pattern-matched. If the bit is one, the network adapter compares the
-        byte to the incoming packet with the byte specified in the pattern.
-
-
-### -field MaskSize
-
-The size, in bytes, of the mask.
-
-
-### -field PatternOffset
-
-The offset, in bytes, for a pattern buffer from the beginning of the NDIS_PM_WOL_PATTERN
-       structure.
-
-
-### -field PatternSize
-
-The size, in bytes, of the pattern.
-
-</dd>
-</dl>
-</dd>
-</dl>
 
 ## -remarks
+
+
 The NDIS_PM_WOL_PATTERN structure is used in the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569764">OID_PM_ADD_WOL_PATTERN</a> and 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569772">OID_PM_WOL_PATTERN_LIST</a> OID
@@ -337,27 +343,22 @@ The upper layer driver sets the NDIS_PM_WOL_IPV4_DEST_ADDR_WILDCARD_ENABLED and
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569768">OID_PM_PARAMETERS</a> OID.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-</dt>
-<dt>
-<a href="..\ntddndis\ne-ntddndis-_ndis_pm_wol_packet.md">NDIS_PM_WOL_PACKET</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569764">OID_PM_ADD_WOL_PATTERN</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569772">OID_PM_WOL_PATTERN_LIST</a>
-</dt>
-<dt>
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_pm_counted_string.md">NDIS_PM_COUNTED_STRING</a>
-</dt>
-</dl>
- 
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_pm_wol_packet.md">NDIS_PM_WOL_PACKET</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PM_WOL_PATTERN structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PM_WOL_PATTERN structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

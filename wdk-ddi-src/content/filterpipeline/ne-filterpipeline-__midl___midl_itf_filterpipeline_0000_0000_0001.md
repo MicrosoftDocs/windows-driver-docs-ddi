@@ -7,8 +7,8 @@ old-location: print\expscompressionoptions.htm
 old-project: print
 ms.assetid: 7df53803-4e01-4d00-b7a4-2f2d1dde5ad8
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: __MIDL___MIDL_itf_filterpipeline_0000_0000_0001, EXpsCompressionOptions
+ms.date: 1/18/2018
+ms.keywords: EXpsCompressionOptions, __MIDL___MIDL_itf_filterpipeline_0000_0000_0001, Compression_Normal, EXpsCompressionOptions enumeration [Print Devices], Compression_Small, filterpipeline/Compression_Small, filterpipeline/Compression_Normal, filterpipeline/EXpsCompressionOptions, filterpipeline/Compression_Fast, print.expscompressionoptions, filterpipeline_eb934659-a4bd-4063-b0a7-f4011998c0ec.xml, Compression_NotCompressed, filterpipeline/Compression_NotCompressed, Compression_Fast
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: EXpsCompressionOptions
-req.alt-loc: filterpipeline.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: Filterpipeline.idl
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	filterpipeline.h
+apiname: 
+-	EXpsCompressionOptions
+product: Windows
+targetos: Windows
 req.typenames: EXpsCompressionOptions
 ---
 
 # __MIDL___MIDL_itf_filterpipeline_0000_0000_0001 enumeration
 
 
-
 ## -description
+
+
 The ExpsCompressionOptions enumeration describes compression options for an XPS part.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -56,6 +66,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field Compression_NotCompressed
 
@@ -76,5 +89,3 @@ The compression for the part is optimized for size.
 
 The compression for the part is optimized for speed.
 
-
-## -remarks

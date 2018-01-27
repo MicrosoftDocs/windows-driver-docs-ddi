@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1f6c6a37-9510-47bc-b507-b3fd7477b432
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _FEATURE_DATA_FIRMWARE_DATE, FEATURE_DATA_FIRMWARE_DATE, *PFEATURE_DATA_FIRMWARE_DATE
+ms.keywords: FEATURE_DATA_FIRMWARE_DATE, ntddmmc/FEATURE_DATA_FIRMWARE_DATE, PFEATURE_DATA_FIRMWARE_DATE, _FEATURE_DATA_FIRMWARE_DATE, FEATURE_DATA_FIRMWARE_DATE structure [Storage Devices], ntddmmc/PFEATURE_DATA_FIRMWARE_DATE, storage.feature_data_firmware_date, PFEATURE_DATA_FIRMWARE_DATE structure pointer [Storage Devices], *PFEATURE_DATA_FIRMWARE_DATE, structs-CD-ROM_5e7edafb-823d-4e78-a601-a8f29c62ee4e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FEATURE_DATA_FIRMWARE_DATE
-req.alt-loc: ntddmmc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddmmc.h
+apiname: 
+-	FEATURE_DATA_FIRMWARE_DATE
+product: Windows
+targetos: Windows
 req.typenames: FEATURE_DATA_FIRMWARE_DATE, *PFEATURE_DATA_FIRMWARE_DATE
 ---
 
 # _FEATURE_DATA_FIRMWARE_DATE structure
 
 
-
 ## -description
+
+
 The FEATURE_DATA_FIRMWARE_DATE structure holds the date information associated with the Firmware Information feature. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FEATURE_DATA_FIRMWARE_DATE {
@@ -60,6 +70,9 @@ typedef struct _FEATURE_DATA_FIRMWARE_DATE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -102,15 +115,16 @@ Reserved.
 
 
 ## -remarks
+
+
 The structure holds the date information associated with the feature named "Firmware Information" by the <i>SCSI Multimedia - 4</i> (<i>MMC-4</i>) specification. Devices that support this feature can be queried for the date and Greenwich Mean Time (GMT) of the creation of the firmware revision currently loaded on the device. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-</dt>
-</dl>
+
  
 
  

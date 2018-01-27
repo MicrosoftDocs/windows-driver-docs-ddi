@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6fd0696d-5b8d-4502-bbdb-a013bee2e9d4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ZONE_DESCRIPTIOR, ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
+ms.keywords: storage.ioctl_mountdev_link_deleted, IOCTL_MOUNTDEV_LINK_DELETED control code [Storage Devices], IOCTL_MOUNTDEV_LINK_DELETED, mountdev/IOCTL_MOUNTDEV_LINK_DELETED, k307_b0ab5504-dac9-410f-bb73-bbb5876e4a59.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_MOUNTDEV_LINK_DELETED
-req.alt-loc: mountdev.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,58 +29,82 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mountdev.h
+apiname: 
+-	IOCTL_MOUNTDEV_LINK_DELETED
+product: Windows
+targetos: Windows
 req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
 ---
 
 # IOCTL_MOUNTDEV_LINK_DELETED IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
-Support for this IOCTL by the mount manager clients is optional. It alerts the mount manager client that a persistent name associated with it has been deleted. The input for this IOCTL is the persistent name that was deleted. 
 
+
+Support for this IOCTL by the mount manager clients is optional. It alerts the mount manager client that a persistent name associated with it has been deleted. The input for this IOCTL is the persistent name that was deleted. 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 The mount point manager places a variable-length structure of type <a href="..\mountmgr\ns-mountmgr-_mountdev_name.md">MOUNTDEV_NAME</a>, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The mount manager inserts the persistent name just assigned at the address pointed to by the <i>Name</i> member of this structure. 
 
 
 ### -input-buffer-length
+
 <b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the input buffer, which must be greater than or equal to <b>sizeof</b>(MOUNTDEV_NAME).
 
 
 ### -output-buffer
+
 None
 
 
 ### -output-buffer-length
+
 None
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 No status.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\mountmgr\ns-mountmgr-_mountdev_name.md">MOUNTDEV_NAME</a>
-</dt>
-</dl>
+
  
 
  

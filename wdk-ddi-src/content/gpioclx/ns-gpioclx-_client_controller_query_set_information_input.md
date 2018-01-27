@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: C4AA60FF-03AD-444F-B897-654B787B5F86
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, *PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
+ms.keywords: CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure [Parallel Ports], *PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, gpioclx/PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, GPIO.client_controller_query_set_information_input, _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, gpioclx/CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure pointer [Parallel Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
-req.alt-loc: Gpioclx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Gpioclx.h
+apiname: 
+-	CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
+product: Windows
+targetos: Windows
 req.typenames: CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, *PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
 ---
 
 # _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure
 
 
-
 ## -description
+
+
 The <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</b> structure contains a request for the hardware attributes of the general-purpose I/O (GPIO) controller.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT {
@@ -72,6 +82,64 @@ typedef struct _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT {
 
 ## -struct-fields
 
+
+
+
+### -field BankPowerInformation
+
+ 
+
+
+### -field BankPowerInformation.BankId
+
+ 
+
+
+### -field BankInterruptBinding
+
+ 
+
+
+### -field BankInterruptBinding.ResourcesTranslated
+
+ 
+
+
+### -field BankInterruptBinding.ResourcesRaw
+
+ 
+
+
+### -field BankInterruptBinding.TotalBanks
+
+ 
+
+
+### -field ControllerFunctionBankMapping
+
+ 
+
+
+### -field ControllerFunctionBankMapping.InputBuffer
+
+ 
+
+
+### -field ControllerFunctionBankMapping.InputBufferSize
+
+ 
+
+
+### -field ControllerFunctionBankMapping.OutputBufferSize
+
+ 
+
+
+### -field ControllerFunctionBankMapping.TotalBanks
+
+ 
+
+
 ### -field RequestType
 
 The type of attribute information that is being requested. This member is set to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh698240">CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE</a> enumeration value.
@@ -87,10 +155,29 @@ Specifies the size, in bytes, of the <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_
 A set of flag bits that supply additional information about the type of attribute request indicated by the <b>RequestType</b> member. No flags are currently defined for the <b>Flags</b> member.
 
 
-### -field ( unnamed union )
+###### - ( unnamed union ).ControllerFunctionBankMapping.OutputBufferSize
+
+The size, in bytes, of the output buffer for the IOCTL.
+
+
+###### - ( unnamed union ).BankPowerInformation.BankId
+
+The identifier for a bank of GPIO pins. If M is the number of banks in the GPIO controller, <b>BankId</b> is an integer in the range 0 to M–1. The GPIO framework extension (GpioClx) previously obtained the number of banks in the controller from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a> event callback function. For more information, see Remarks in <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>.
+
+
+###### - ( unnamed union ).ControllerFunctionBankMapping.InputBufferSize
+
+The size, in bytes, of the input buffer for the IOCTL.
+
+
+##### - ( unnamed union ).BankInterruptBinding
+
+A structure that contains information about the interrupt resources that are assigned to the GPIO controller.
+
+
+#### - ( unnamed union )
 
 A union of members that contain input information for the various types of attribute requests. The <b>RequestType</b> member determines which member of this union is used. The following table shows the union member that corresponds to each valid <b>RequestType</b> value.
-
 <table>
 <tr>
 <th><b>RequestType</b> value</th>
@@ -108,92 +195,61 @@ A union of members that contain input information for the various types of attri
 <td><b>QueryControllerFunctionBankMappingInformation</b></td>
 <td><b>ControllerFunctionBankMapping</b></td>
 </tr>
-</table>
- 
+</table> 
 
 
-### -field BankPowerInformation
-
-A structure that contains information about the GPIO bank whose power attributes are being requested.
-
-
-### -field BankId
-
-The identifier for a bank of GPIO pins. If M is the number of banks in the GPIO controller, <b>BankId</b> is an integer in the range 0 to M–1. The GPIO framework extension (GpioClx) previously obtained the number of banks in the controller from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a> event callback function. For more information, see Remarks in <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>.
-
-</dd>
-</dl>
-
-### -field BankInterruptBinding
-
-A structure that contains information about the interrupt resources that are assigned to the GPIO controller.
-
-
-### -field ResourcesTranslated
-
-A handle to a framework resource-list object that identifies the translated hardware resources that the Plug and Play manager has assigned to the device.
-
-
-### -field ResourcesRaw
+###### - ( unnamed union ).BankInterruptBinding.ResourcesRaw
 
 A handle to a framework resource-list object that identifies the raw hardware resources that the Plug and Play manager has assigned to the device.
 
 
-### -field TotalBanks
-
-The number of banks in the GPIO controller. This member indicates the expected length of the <b>BankInterruptBinding.ResourceMapping</b> array in the caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh698239">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a> structure, if the caller supplies a non-NULL pointer to this structure.
-
-</dd>
-</dl>
-
-### -field ControllerFunctionBankMapping
-
-A structure that contains information about an I/O control request (IOCTL).
-
-
-### -field InputBuffer
+###### - ( unnamed union ).ControllerFunctionBankMapping.InputBuffer
 
 A pointer to the input buffer for the IOCTL.
 
 
-### -field InputBufferSize
+###### - ( unnamed union ).BankInterruptBinding.ResourcesTranslated
 
-The size, in bytes, of the input buffer for the IOCTL.
-
-
-### -field OutputBufferSize
-
-The size, in bytes, of the output buffer for the IOCTL.
+A handle to a framework resource-list object that identifies the translated hardware resources that the Plug and Play manager has assigned to the device.
 
 
-### -field TotalBanks
+##### - ( unnamed union ).BankPowerInformation
+
+A structure that contains information about the GPIO bank whose power attributes are being requested.
+
+
+###### - ( unnamed union ).BankInterruptBinding.TotalBanks
+
+The number of banks in the GPIO controller. This member indicates the expected length of the <b>BankInterruptBinding.ResourceMapping</b> array in the caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh698239">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a> structure, if the caller supplies a non-NULL pointer to this structure.
+
+
+###### - ( unnamed union ).ControllerFunctionBankMapping.TotalBanks
 
 The number of banks in the GPIO controller. This member indicates the expected length of the <b>ControllerFunctionBankMapping.Mapping</b> array in the caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh698239">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a> structure, if the caller supplies a non-NULL pointer to this structure.
 
-</dd>
-</dl>
-</dd>
-</dl>
+
+##### - ( unnamed union ).ControllerFunctionBankMapping
+
+A structure that contains information about an I/O control request (IOCTL).
+
 
 ## -remarks
+
+
 The <i>InputBuffer</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh698241">CLIENT_QuerySetControllerInformation</a> function is a pointer to a <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</b> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698241">CLIENT_QuerySetControllerInformation</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698239">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+
  
 
  

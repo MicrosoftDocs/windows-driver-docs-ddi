@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 34DAA236-ACD0-4C25-BB45-00A81D2F131D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, *PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE
+ms.keywords: strmini/DeviceNotificationMaximum, DeleteDeviceEvent, SignalDeviceEvent, strmini/SignalDeviceEvent, stream.stream_minidriver_device_notification_type, strmini/STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, ReadyForNextDeviceRequest, strmini/DeleteDeviceEvent, strmini/ReadyForNextDeviceRequest, _STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, strmini/PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, DeviceNotificationMaximum, STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE enumeration [Streaming Media Devices], SignalMultipleDeviceInstanceEvents, strmini/SignalMultipleDeviceEvents, PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, DeviceRequestComplete, PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE enumeration pointer [Streaming Media Devices], SignalMultipleDeviceEvents, strmini/SignalMultipleDeviceInstanceEvents, strmini/DeviceRequestComplete, *PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE
-req.alt-loc: Strmini.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,12 +29,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, *PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Strmini.h
+apiname: 
+-	STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE
+product: Windows
+targetos: Windows
+req.typenames: *PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
 ---
 
 # _STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE enumeration
-
 
 
 ## -description
@@ -44,7 +52,9 @@ req.product: Windows 10 or later.
 
 
 
+
 ## -syntax
+
 
 ````
 typedef enum _STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE { 
@@ -63,6 +73,9 @@ typedef enum _STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE {
 
 ## -enum-fields
 
+
+
+
 ### -field ReadyForNextDeviceRequest
 
 Indicates that the minidriver is ready for the next device request.
@@ -76,16 +89,19 @@ Indicates that the specified device SRB has completed.
 ### -field SignalMultipleDeviceEvents
 
 
+
 ### -field SignalDeviceEvent
+
 
 
 ### -field DeleteDeviceEvent
 
 
+
 ### -field SignalMultipleDeviceInstanceEvents
+
 
 
 ### -field DeviceNotificationMaximum
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3c2cb5c2-7461-40fc-a6c7-e4a107b24f74
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2BUFFERBLT, D3DHAL_DP2BUFFERBLT, *LPD3DHAL_DP2BUFFERBLT
+ms.keywords: display.d3dhal_dp2bufferblt, LPD3DHAL_DP2BUFFERBLT structure pointer [Display Devices], d3dstrct_a8101d2a-8883-434e-8577-90e18bc3f2e0.xml, D3DHAL_DP2BUFFERBLT, LPD3DHAL_DP2BUFFERBLT, *LPD3DHAL_DP2BUFFERBLT, _D3DHAL_DP2BUFFERBLT, d3dhal/D3DHAL_DP2BUFFERBLT, D3DHAL_DP2BUFFERBLT structure [Display Devices], d3dhal/LPD3DHAL_DP2BUFFERBLT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DP2BUFFERBLT
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DP2BUFFERBLT
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DP2BUFFERBLT
 ---
 
 # _D3DHAL_DP2BUFFERBLT structure
 
 
-
 ## -description
+
+
 
    DirectX 8.0 and later versions only.
    
@@ -46,8 +56,8 @@ req.typenames: D3DHAL_DP2BUFFERBLT
 D3DHAL_DP2BUFFERBLT is used for vertex or index buffer blts when <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> responds to the D3DDP2OP_BUFFERBLT command token.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DP2BUFFERBLT {
@@ -61,6 +71,9 @@ typedef struct _D3DHAL_DP2BUFFERBLT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwDDDestSurface
 
@@ -88,24 +101,24 @@ Unused.
 
 
 ## -remarks
+
+
 The <a href="https://msdn.microsoft.com/8b012e65-b78b-41a4-ac05-d9be015b6ed8">CreateD3DBuffer</a> callback creates the small integer handles to the vertex or index buffers that can be used as source and destination buffers for buffer blts.
 
 See Remarks for <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2texblt.md">D3DHAL_DP2TEXBLT</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/8b012e65-b78b-41a4-ac05-d9be015b6ed8">CreateD3DBuffer</a>
-</dt>
-<dt>D3DDP2OP_BUFFERBLT</dt>
-<dt>
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-</dt>
-<dt>
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-</dt>
-</dl>
+
+D3DDP2OP_BUFFERBLT
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+<a href="https://msdn.microsoft.com/8b012e65-b78b-41a4-ac05-d9be015b6ed8">CreateD3DBuffer</a>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\riluiccprlid_2.htm
 old-project: netvista
 ms.assetid: d91d48a8-492d-4f23-9c7a-10920c9e4845
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILUICCPRLID, RILUICCPRLID
+ms.date: 1/18/2018
+ms.keywords: RILUICCPRLID, RILUICCPRLID enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccprlid_2, rilapitypes/RILUICCPRLID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILUICCPRLID
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILUICCPRLID
+product: Windows
+targetos: Windows
 req.typenames: RILUICCPRLID
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILUICCPRLID enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILUICCPRLID { 
@@ -54,5 +64,3 @@ typedef enum _RILUICCPRLID {
 
 ## -enum-fields
 
-
-## -remarks

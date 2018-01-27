@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 47142adb-4d22-41eb-b455-93409bbffffb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmTcpciPortControllerSetHardwareRequestQueue
+ms.keywords: UcmTcpciPortControllerSetHardwareRequestQueue, buses.ucmtcpciportcontrollersethardwarerequestqueue, UcmTcpciPortControllerSetHardwareRequestQueue method [Buses], ucmtcpciportcontroller/UcmTcpciPortControllerSetHardwareRequestQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UcmTcpciPortControllerSetHardwareRequestQueue
-req.alt-loc: ucmtcpciportcontroller.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ucmtcpciportcontroller.h
+apiname: 
+-	UcmTcpciPortControllerSetHardwareRequestQueue
+product: Windows
+targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # UcmTcpciPortControllerSetHardwareRequestQueue function
 
 
-
 ## -description
+
+
 
 
                 Assigns a framework queue object to which the UcmTcpciCx dispatches hardware requests for the port controller.
 
 
-
 ## -syntax
+
 
 ````
 VOID UcmTcpciPortControllerSetHardwareRequestQueue(
@@ -58,21 +68,29 @@ VOID UcmTcpciPortControllerSetHardwareRequestQueue(
 
 ## -parameters
 
-### -param PortControllerObject 
+
+
+
+### -param PortControllerObject
 
 Handle to the port controller object that the client driver received in the previous call to <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>.
 
 
-### -param HardwareRequestQueue 
+### -param HardwareRequestQueue
 
 A handle to the framework queue object to assign.
 
 
 ## -returns
+
+
 This method does not return a value.
 
 
+
 ## -remarks
+
+
 The client driver must call <b>UcmTcpciPortControllerSetHardwareRequestQueue</b> after creating the port controller object. The driver must call this method only once before calling <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollerstart.md">UcmTcpciPortControllerStart</a>.
 
 The parent of the queue object is the port controller object. 
@@ -81,12 +99,11 @@ The parent of the queue object is the port controller object.
 A client driver may choose to use the same queue across multiple port controller objects. However, in that case the driver must make sure that the port controller objects do not outlive the queue object. The queue object must be deleted only after all the port controllers have been stopped. UcmTcpciCx guarantees  that only one request is processed in the queue at a time per port controller object.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>
-</dt>
-</dl>
+
  
 
  

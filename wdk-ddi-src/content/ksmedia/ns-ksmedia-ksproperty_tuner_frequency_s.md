@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 19d2c3cc-69e3-4216-9eb7-32b522fe058b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_TUNER_FREQUENCY_S, *PKSPROPERTY_TUNER_FREQUENCY_S, KSPROPERTY_TUNER_FREQUENCY_S
+ms.keywords: PKSPROPERTY_TUNER_FREQUENCY_S structure pointer [Streaming Media Devices], KSPROPERTY_TUNER_FREQUENCY_S structure [Streaming Media Devices], KSPROPERTY_TUNER_FREQUENCY_S, PKSPROPERTY_TUNER_FREQUENCY_S, vidcapstruct_7757eed6-a41b-4bcd-ad7b-05aca3b54cd0.xml, ksmedia/PKSPROPERTY_TUNER_FREQUENCY_S, *PKSPROPERTY_TUNER_FREQUENCY_S, ksmedia/KSPROPERTY_TUNER_FREQUENCY_S, stream.ksproperty_tuner_frequency_s
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPROPERTY_TUNER_FREQUENCY_S
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSPROPERTY_TUNER_FREQUENCY_S, KSPROPERTY_TUNER_FREQUENCY_S
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSPROPERTY_TUNER_FREQUENCY_S
+product: Windows
+targetos: Windows
+req.typenames: KSPROPERTY_TUNER_FREQUENCY_S, *PKSPROPERTY_TUNER_FREQUENCY_S
 ---
 
 # KSPROPERTY_TUNER_FREQUENCY_S structure
 
 
-
 ## -description
+
+
 The KSPROPERTY_TUNER_FREQUENCY_S structure describes the frequency of a TV or radio tuner device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -60,6 +70,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Property
 
@@ -101,24 +114,16 @@ Specifies the video subchannel of a digital television source. If the request is
 Specifies the current country code for the tuning operation. Country codes follow the Telephony API (TAPI) region code values that correspond to the international long distance dialing codes. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ne-ksmedia-ks_tuner_tuning_flags.md">KS_TUNER_TUNING_FLAGS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
-</dt>
-<dt>
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565833">KSPROPERTY_TUNER_FREQUENCY</a>
-</dt>
-</dl>
+
  
 
  

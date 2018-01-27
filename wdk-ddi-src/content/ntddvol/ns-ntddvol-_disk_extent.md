@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 74ffdfba-1b80-479d-9637-43222a438fa9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DISK_EXTENT, *PDISK_EXTENT, DISK_EXTENT
+ms.keywords: _DISK_EXTENT, ntddvol/DISK_EXTENT, DISK_EXTENT, *PDISK_EXTENT, ntddvol/PDISK_EXTENT, PDISK_EXTENT, structs-disk_2874d2a7-dc4e-46e6-9d43-2374e82c857b.xml, storage.disk_extent, PDISK_EXTENT structure pointer [Storage Devices], DISK_EXTENT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DISK_EXTENT
-req.alt-loc: ntddvol.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PDISK_EXTENT, DISK_EXTENT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddvol.h
+apiname: 
+-	DISK_EXTENT
+product: Windows
+targetos: Windows
+req.typenames: DISK_EXTENT, *PDISK_EXTENT
 ---
 
 # _DISK_EXTENT structure
 
 
-
 ## -description
+
+
 The DISK_EXTENT structure contains information defining the location and length of a volume extent on a disk.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DISK_EXTENT {
@@ -55,6 +65,9 @@ typedef struct _DISK_EXTENT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DiskNumber
 
@@ -71,18 +84,12 @@ Specifies the offset, in bytes, from the beginning of the disk.
 Specifies the number of bytes of this extent.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddvol\ni-ntddvol-ioctl_volume_get_volume_disk_extents.md">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>
-</dt>
-<dt>
+
 <a href="..\ntddvol\ns-ntddvol-_volume_disk_extents.md">VOLUME_DISK_EXTENTS</a>
-</dt>
-</dl>
+
  
 
  

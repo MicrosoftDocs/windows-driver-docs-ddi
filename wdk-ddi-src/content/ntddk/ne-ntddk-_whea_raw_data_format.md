@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 809f2d72-e769-48c1-9ecf-6fa9020f6cdb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+ms.keywords: ntddk/WheaRawDataFormatIA32MCA, WheaRawDataFormatAMD64MCA, ntddk/WheaRawDataFormatAMD64MCA, ntddk/WheaRawDataFormatPCIExpress, WheaRawDataFormatIntel64MCA, WheaRawDataFormatGeneric, WheaRawDataFormatPCIXBus, ntddk/WheaRawDataFormatMax, WheaRawDataFormatPCIExpress, WheaRawDataFormatMax, whearef_9ecb0580-4372-40f3-93da-4f866ee6211f.xml, ntddk/WheaRawDataFormatNMIPort, ntddk/PWHEA_RAW_DATA_FORMAT, WheaRawDataFormatMemory, _WHEA_RAW_DATA_FORMAT, ntddk/WheaRawDataFormatGeneric, WHEA_RAW_DATA_FORMAT enumeration [WHEA Drivers and Applications], ntddk/WheaRawDataFormatMemory, ntddk/WheaRawDataFormatPCIXBus, ntddk/WheaRawDataFormatIntel64MCA, *PWHEA_RAW_DATA_FORMAT, ntddk/WHEA_RAW_DATA_FORMAT, WheaRawDataFormatIPFSalRecord, whea.whea_raw_data_format, WHEA_RAW_DATA_FORMAT, WheaRawDataFormatIA32MCA, WheaRawDataFormatPCIXDevice, PWHEA_RAW_DATA_FORMAT, WheaRawDataFormatNMIPort, ntddk/WheaRawDataFormatPCIXDevice, ntddk/WheaRawDataFormatIPFSalRecord, PWHEA_RAW_DATA_FORMAT enumeration pointer [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_RAW_DATA_FORMAT
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_RAW_DATA_FORMAT
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # _WHEA_RAW_DATA_FORMAT enumeration
 
 
-
 ## -description
+
+
 The WHEA_RAW_DATA_FORMAT enumeration defines the possible formats that raw hardware error data can be encoded in a hardware error packet.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WHEA_RAW_DATA_FORMAT { 
@@ -63,6 +73,9 @@ typedef enum _WHEA_RAW_DATA_FORMAT {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WheaRawDataFormatIPFSalRecord
 
@@ -120,24 +133,22 @@ The maximum number of formats of raw hardware error data.
 
 
 ## -remarks
+
+
 The <a href="..\ntddk\ns-ntddk-_whea_error_packet_v1.md">WHEA_ERROR_PACKET_V1</a> structure contains a member of type WHEA_RAW_DATA_FORMAT that specifies the format of the raw data that is contained in the hardware error packet.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540659">HalQuerySystemInformation</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
-</dt>
-<dt>
-<a href="..\ntddk\ns-ntddk-_whea_error_packet_v1.md">WHEA_ERROR_PACKET_V1</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\ns-ntddk-_whea_error_packet_v1.md">WHEA_ERROR_PACKET_V1</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540659">HalQuerySystemInformation</a>
+
  
 
  

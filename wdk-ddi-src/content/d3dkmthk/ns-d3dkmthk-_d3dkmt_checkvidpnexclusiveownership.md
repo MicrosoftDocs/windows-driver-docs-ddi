@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5a7f05a0-11ae-49ed-9015-f2712cc77880
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP
+ms.keywords: D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP structure [Display Devices], D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, d3dkmthk/D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, display.d3dkmt_checkvidpnexclusiveownership, OpenGL_Structs_23afa7dd-8aaa-402b-9b99-235be17cd26e.xml, _D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP is supported begi
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP
 ---
 
 # _D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP structure
 
 
-
 ## -description
+
+
 The D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP structure describes the parameters to determine the video present source in the path of a video present network (VidPN) topology that exclusively owns the VidPN.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP {
@@ -55,6 +65,9 @@ typedef struct _D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP {
 
 ## -struct-fields
 
+
+
+
 ### -field hAdapter
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the graphics adapter. 
@@ -65,15 +78,10 @@ typedef struct _D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP {
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology to check about. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcheckvidpnexclusiveownership.md">D3DKMTCheckVidPnExclusiveOwnership</a>
-</dt>
-</dl>
+
  
 
  

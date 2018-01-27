@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C859CB06-3F71-4F6D-9949-0E9AE75CEC20
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_DEALLOCATE2, D3DDDICB_DEALLOCATE2
+ms.keywords: d3dumddi/D3DDDICB_DEALLOCATE2, D3DDDICB_DEALLOCATE2, D3DDDICB_DEALLOCATE2 structure [Display Devices], display.d3dddicb_deallocate2, _D3DDDICB_DEALLOCATE2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_DEALLOCATE2
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_DEALLOCATE2
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_DEALLOCATE2
 ---
 
 # _D3DDDICB_DEALLOCATE2 structure
 
 
-
 ## -description
+
+
 The <b>D3DDDICB_DEALLOCATE2</b> structure describes parameters for releasing allocations with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocate2cb.md">pfnDeallocate2Cb</a>
 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_DEALLOCATE2 {
@@ -57,6 +67,9 @@ typedef struct _D3DDDICB_DEALLOCATE2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hResource
 
@@ -80,18 +93,12 @@ If the user-mode display driver sets the handle in the <b>hResource</b> member t
 [in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_destroyallocation2flags.md">D3DDDICB_DESTROYALLOCATION2FLAGS</a> structure that contains additional details about the operation.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocate2cb.md">pfnDeallocate2Cb</a>
-</dt>
-<dt>
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_destroyallocation2flags.md">D3DDDICB_DESTROYALLOCATION2FLAGS</a>
-</dt>
-</dl>
+
  
 
  

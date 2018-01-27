@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 62c2182c-af55-4482-a890-803f92dc863a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_MONITOR_INFO,
+ms.keywords: iddcx/IDDCX_MONITOR_INFO, display.iddcx_monitor_info, IDDCX_MONITOR_INFO structure [Display Devices], IDDCX_MONITOR_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDDCX_MONITOR_INFO
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDDCX_MONITOR_INFO
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDDCX_MONITOR_INFO structure
 
 
-
 ## -description
+
+
 Gives information about the current monitor and its connection type.
              
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDDCX_MONITOR_INFO {
@@ -58,6 +68,9 @@ typedef struct IDDCX_MONITOR_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -76,10 +89,8 @@ The monitor connector type of the monitor
 
 
                      This is a zero-based unique identifier for this connector. It should be unique for this adapter and the value should not change for this connector across system reboot or driver upgrade. 
-
 <div class="alert"><b>Note</b>  The value has to be between 0 and the <a href="..\iddcx\ns-iddcx-iddcx_adapter_caps.md">IDDCX_ADAPTER_CAPS</a> value MaxMonitorsSupported minus 1.
-                 </div>
-<div> </div>
+                 </div><div> </div>
 
 ### -field MonitorDescription
 
@@ -94,5 +105,3 @@ The monitor connector type of the monitor
                      Container Id of the monitor being connected. If any device is also inside the monitor (eg audio, touch etc), then those devices should all have the same container id.
                  
 
-
-## -remarks

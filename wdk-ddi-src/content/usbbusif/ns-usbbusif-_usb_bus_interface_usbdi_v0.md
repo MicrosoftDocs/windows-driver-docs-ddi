@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: f21ba9f4-9571-4918-8f10-97bd308c69f3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_BUS_INTERFACE_USBDI_V0, *PUSB_BUS_INTERFACE_USBDI_V0, USB_BUS_INTERFACE_USBDI_V0
+ms.keywords: buses.usb_bus_interface_usbdi_v0, usbinterKR_2af580ba-2b3f-4f20-808a-5cd5d42b8ada.xml, *PUSB_BUS_INTERFACE_USBDI_V0, usbbusif/USB_BUS_INTERFACE_USBDI_V0, PUSB_BUS_INTERFACE_USBDI_V0 structure pointer [Buses], _USB_BUS_INTERFACE_USBDI_V0, USB_BUS_INTERFACE_USBDI_V0, PUSB_BUS_INTERFACE_USBDI_V0, usbbusif/PUSB_BUS_INTERFACE_USBDI_V0, USB_BUS_INTERFACE_USBDI_V0 structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_BUS_INTERFACE_USBDI_V0
-req.alt-loc: usbbusif.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbbusif.h
+apiname: 
+-	USB_BUS_INTERFACE_USBDI_V0
+product: Windows
+targetos: Windows
 req.typenames: *PUSB_BUS_INTERFACE_USBDI_V0, USB_BUS_INTERFACE_USBDI_V0
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USB_BUS_INTERFACE_USBDI_V0 structure
 
 
-
 ## -description
+
+
 The <b>USB_BUS_INTERFACE_USBDI_V0</b> structure is provided by the USB hub driver to allow USB clients to make direct calls to the hub driver without allocating IRPs. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USB_BUS_INTERFACE_USBDI_V0 {
@@ -63,6 +73,9 @@ typedef struct _USB_BUS_INTERFACE_USBDI_V0 {
 
 ## -struct-fields
 
+
+
+
 ### -field Size
 
 Specifies the size in bytes of the buffer that holds the interface pointers. 
@@ -71,7 +84,6 @@ Specifies the size in bytes of the buffer that holds the interface pointers.
 ### -field Version
 
 Indicates, on input, the version of the interface. This member should have one of the following values:
-
 <table>
 <tr>
 <th>Value</th>
@@ -117,8 +129,7 @@ Version 3 of the interface.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field BusContext
@@ -157,18 +168,18 @@ Pointer to a routine that returns information about the bus. The information tha
 
 
 ## -remarks
+
+
 For information about how to query for these interfaces, see <a href="https://msdn.microsoft.com/1a916e21-3545-4a4e-8309-ba10b3690d63">Querying for USB Interfaces</a>. Callers of the routines in this structure can be running at IRQL &lt;= DISPATCH_LEVEL. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/1b571ee0-d47f-40b6-8beb-d57b49ae3ac8">Bus Driver Interface Routines for USB Client Drivers</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
  
 
  

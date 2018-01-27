@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 195B9FA2-F7B2-4EA0-9D53-63E438666760
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GPIO_CLX_ReleaseInterruptLock
+ms.keywords: GPIO_CLX_ReleaseInterruptLock method [Parallel Ports], gpioclx/GPIO_CLX_ReleaseInterruptLock, GPIO_CLX_ReleaseInterruptLock, GPIO.gpio_clx_releaseinterruptlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GPIO_CLX_ReleaseInterruptLock
-req.alt-loc: Msgpioclxstub.lib,Msgpioclxstub.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Msgpioclxstub.lib
 req.dll: 
 req.irql: See Remarks.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Msgpioclxstub.lib
+-	Msgpioclxstub.dll
+apiname: 
+-	GPIO_CLX_ReleaseInterruptLock
+product: Windows
+targetos: Windows
 req.typenames: *PGPIO_CONNECT_IO_PINS_MODE, GPIO_CONNECT_IO_PINS_MODE
 ---
 
 # GPIO_CLX_ReleaseInterruptLock function
 
 
-
 ## -description
+
+
 The <b>GPIO_CLX_ReleaseInterruptLock</b> method releases an interrupt lock on the specified bank.
 
 
-
 ## -syntax
+
 
 ````
 VOID GPIO_CLX_ReleaseInterruptLock(
@@ -54,6 +65,9 @@ VOID GPIO_CLX_ReleaseInterruptLock(
 
 
 ## -parameters
+
+
+
 
 ### -param Context [in]
 
@@ -66,10 +80,15 @@ The identifier for this bank of GPIO pins. If N is the number of banks in the GP
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 This method releases the interrupt lock that the caller acquired in a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439482">GPIO_CLX_AcquireInterruptLock</a> method.
 
 If the previous call to the <b>GPIO_CLX_AcquireInterruptLock</b> method raised the calling thread's IRQL, <b>GPIO_CLX_ReleaseInterruptLock</b> restores this IRQL to its original level.
@@ -77,12 +96,11 @@ If the previous call to the <b>GPIO_CLX_AcquireInterruptLock</b> method raised t
 If the <i>Context</i> parameter is NULL or points to an invalid GPIO device context, this method causes a bug check in debug builds of GpioClx.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439482">GPIO_CLX_AcquireInterruptLock</a>
-</dt>
-</dl>
+
  
 
  

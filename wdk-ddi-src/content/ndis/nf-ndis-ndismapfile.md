@@ -7,8 +7,8 @@ old-location: netvista\ndismapfile.htm
 old-project: netvista
 ms.assetid: 965bb4c7-826d-425b-b10d-2d5a29ca0f91
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisMapFile
+ms.date: 1/18/2018
+ms.keywords: netvista.ndismapfile, ndis/NdisMapFile, VOID, ndis_file_ref_5bc73f64-8379-45bb-a37b-fe9a946af119.xml, NdisMapFile, NdisMapFile function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    N
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisMapFile
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_Miscellaneous_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisMapFile
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMapFile function
 
 
-
 ## -description
+
+
 The 
   <b>NdisMapFile</b> function maps an already open file into a caller-accessible buffer if the file is
   currently unmapped.
 
 
-
 ## -syntax
+
 
 ````
 VOID NdisMapFile(
@@ -58,6 +69,9 @@ VOID NdisMapFile(
 
 ## -parameters
 
+
+
+
 ### -param Status [out]
 
 A pointer to a caller-supplied variable in which this function returns the status of the mapping
@@ -66,19 +80,6 @@ A pointer to a caller-supplied variable in which this function returns the statu
 
 
 
-
-### -param NDIS_STATUS_SUCCESS
-
-The caller has exclusive access to the file contents until the 
-       <a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a> function is called.
-
-
-### -param NDIS_STATUS_ALREADY_MAPPED
-
-The caller cannot access the file contents at this time.
-
-</dd>
-</dl>
 
 ### -param MappedBuffer [out]
 
@@ -92,11 +93,27 @@ The handle that was returned by a preceding call to the
      <a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a> function.
 
 
+##### - Status.NDIS_STATUS_ALREADY_MAPPED
+
+The caller cannot access the file contents at this time.
+
+
+##### - Status.NDIS_STATUS_SUCCESS
+
+The caller has exclusive access to the file contents until the 
+       <a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a> function is called.
+
+
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>NdisMapFile</b> associates (maps) a virtual address range with an opened file so the driver can access
     the file contents. 
     <b>NdisMapFile</b> allows only one mapping of a particular file to be outstanding at any time.
@@ -114,24 +131,20 @@ A miniport driver can call
     <b>NdisMapFile</b> only during initialization.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a>
-</dt>
-<dt>
+
+<a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
+
 <a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMapFile function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMapFile function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

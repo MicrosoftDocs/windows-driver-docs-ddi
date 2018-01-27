@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 13cb1da1-0bb7-444e-a0e1-abcac7d0240d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_PDO_EVENT_CALLBACKS, WDF_PDO_EVENT_CALLBACKS, *PWDF_PDO_EVENT_CALLBACKS
+ms.keywords: PWDF_PDO_EVENT_CALLBACKS, wdfpdo/WDF_PDO_EVENT_CALLBACKS, _WDF_PDO_EVENT_CALLBACKS, *PWDF_PDO_EVENT_CALLBACKS, wdf.wdf_pdo_event_callbacks, wdfpdo/PWDF_PDO_EVENT_CALLBACKS, DFDeviceObjectFdoPdoRef_7a22d0f9-82ea-448e-8272-d3009beea440.xml, WDF_PDO_EVENT_CALLBACKS, PWDF_PDO_EVENT_CALLBACKS structure pointer, kmdf.wdf_pdo_event_callbacks, WDF_PDO_EVENT_CALLBACKS structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WDF_PDO_EVENT_CALLBACKS
-req.alt-loc: wdfpdo.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfpdo.h
+apiname: 
+-	WDF_PDO_EVENT_CALLBACKS
+product: Windows
+targetos: Windows
 req.typenames: WDF_PDO_EVENT_CALLBACKS, *PWDF_PDO_EVENT_CALLBACKS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_PDO_EVENT_CALLBACKS structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_PDO_EVENT_CALLBACKS</b> structure is the dispatch table for a bus driver's event callback functions.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WDF_PDO_EVENT_CALLBACKS {
@@ -63,6 +73,9 @@ typedef struct _WDF_PDO_EVENT_CALLBACKS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -105,26 +118,24 @@ A pointer to the driver's <a href="..\wdfpdo\nc-wdfpdo-evt_wdf_device_reported_m
 
 
 ## -remarks
+
+
 The <b>WDF_PDO_EVENT_CALLBACKS</b> structure is used as input to <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>.
 
 Drivers must call <a href="..\wdfpdo\nf-wdfpdo-wdf_pdo_event_callbacks_init.md">WDF_PDO_EVENT_CALLBACKS_INIT</a> to initialize this structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdffdo\ns-wdffdo-_wdf_fdo_event_callbacks.md">WDF_FDO_EVENT_CALLBACKS</a>
-</dt>
-<dt>
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a>
-</dt>
-<dt>
+
 <a href="..\wdfpdo\nf-wdfpdo-wdf_pdo_event_callbacks_init.md">WDF_PDO_EVENT_CALLBACKS_INIT</a>
-</dt>
-<dt>
+
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a>
+
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>
-</dt>
-</dl>
+
+<a href="..\wdffdo\ns-wdffdo-_wdf_fdo_event_callbacks.md">WDF_FDO_EVENT_CALLBACKS</a>
+
  
 
  

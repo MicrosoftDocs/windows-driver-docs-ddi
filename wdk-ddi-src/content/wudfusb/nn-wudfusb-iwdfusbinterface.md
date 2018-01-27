@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 90770016-1267-437e-af70-99741231dc29
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetPipe2, IWDFUsbTargetPipe2::ConfigureContinuousReader, ConfigureContinuousReader
+ms.keywords: wdf.iwdfusbinterface, IWDFUsbInterface interface, IWDFUsbInterface interface, described, IWDFUsbInterface, wudfusb/IWDFUsbInterface, UMDFUSBref_d505d36b-9a59-452d-b35f-ceeff7a0b818.xml, umdf.iwdfusbinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.5
-req.alt-api: IWDFUsbInterface
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFUsbInterface
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,8 +47,9 @@ req.product: Windows 10 or later.
 # IWDFUsbInterface interface
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
@@ -47,33 +57,9 @@ The <b>IWDFUsbInterface</b> interface exposes a USB interface that a USB device 
 
 
 
-The <b>IWDFUsbInterface</b> interface exposes a USB interface that a USB device exposes.
-
-
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFUsbInterface</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>. <b>IWDFUsbInterface</b> also has these types of members:
-
-The <b>IWDFUsbInterface</b> interface has these methods.
-
-The <a href="https://msdn.microsoft.com/0deccfee-34e3-47ee-b141-9758cffcd0c2">GetConfiguredSettingIndex</a> method retrieves the current setting index for a USB interface.
-
-The <a href="https://msdn.microsoft.com/ae4cffc8-65db-452c-9b85-19752c32c421">GetInterfaceDescriptor</a> method retrieves a descriptor for a USB interface.
-
-The <a href="https://msdn.microsoft.com/de8de14a-94a8-49e2-912a-9c174f5a2c74">GetInterfaceNumber</a> method retrieves the index of a USB interface.
-
-The <a href="https://msdn.microsoft.com/60ec8b38-8ab2-45d8-92ab-5943fd9bba79">GetNumEndPoints</a> method retrieves the number of endpoints (pipes) on a USB interface.
-
-The <a href="https://msdn.microsoft.com/31c23596-21b2-4fb2-96bd-5372fe2432ab">GetWinUsbHandle</a> method retrieves the WinUsb interface handle that is associated with a USB interface.
-
-The <a href="https://msdn.microsoft.com/abfaad6b-be42-4547-aa26-5b44e53118bc">RetrieveUsbPipeObject</a> method retrieves a USB pipe object for the specified pipe index.
-
-The <a href="https://msdn.microsoft.com/c47b025b-1be9-4fdc-965a-a9a82a394177">SelectSetting</a> method selects the specified alternate setting on a USB interface.
-
- 
-
 
 ## -members
+
 The <b>IWDFUsbInterface</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -159,5 +145,3 @@ The <a href="https://msdn.microsoft.com/c47b025b-1be9-4fdc-965a-a9a82a394177">Se
 
  
 
-
-## -remarks

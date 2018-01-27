@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 9759ed77-d91a-466b-9678-4ed4fb4359e4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VPCI_PNP_ID, VPCI_PNP_ID, *PVPCI_PNP_ID
+ms.keywords: VPCI_PNP_ID, PCI.vpci_pnp_id, *PVPCI_PNP_ID, _VPCI_PNP_ID, pcivirt/VPCI_PNP_ID, VPCI_PNP_ID structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VPCI_PNP_ID
-req.alt-loc: Pcivirt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Pcivirt.h
+apiname: 
+-	VPCI_PNP_ID
+product: Windows
+targetos: Windows
+req.typenames: *PVPCI_PNP_ID, VPCI_PNP_ID
 ---
 
 # _VPCI_PNP_ID structure
 
 
-
 ## -description
+
+
 Stores the PnP identifiers for a virtual PCI device. For example strings, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _VPCI_PNP_ID {
@@ -60,6 +70,9 @@ typedef struct _VPCI_PNP_ID {
 
 
 ## -struct-fields
+
+
+
 
 ### -field VendorID
 
@@ -101,13 +114,10 @@ PCI SIG-assigned identifier for the vendor of the subsystem.
 Vendor-defined subsystem identifier.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt><a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a></dt>
-</dl>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a>
+
  
 
  

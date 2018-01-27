@@ -7,8 +7,8 @@ old-location: netvista\fwps_fields_ikeext_v6.htm
 old-project: netvista
 ms.assetid: 1e355322-23ae-4cc6-af2f-5852515c8056
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: FWPS_FIELDS_IKEEXT_V6_, FWPS_FIELDS_IKEEXT_V6
+ms.date: 1/18/2018
+ms.keywords: FWPS_FIELD_IKEEXT_V6_MAX, netvista.fwps_fields_ikeext_v6, fwpsk/FWPS_FIELD_IKEEXT_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_IKEEXT_V6_IP_REMOTE_ADDRESS, FWPS_FIELD_IKEEXT_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_IKEEXT_V6_PROFILE_ID, fwpsk/FWPS_FIELD_IKEEXT_V6_MAX, FWPS_FIELD_IKEEXT_V6_IP_LOCAL_ADDRESS, FWPS_FIELD_IKEEXT_V6_IP_REMOTE_ADDRESS, FWPS_FIELDS_IKEEXT_V6, fwpsk/FWPS_FIELDS_IKEEXT_V6, fwpsk/FWPS_FIELD_IKEEXT_V6_PROFILE_ID, wfp_ref_5_const_3_data_fields_0fbd1f0f-2524-4bec-a340-eaaa81539655.xml, FWPS_FIELDS_IKEEXT_V6 enumeration [Network Drivers Starting with Windows Vista], fwpsk/FWPS_FIELD_IKEEXT_V6_IP_LOCAL_INTERFACE, FWPS_FIELDS_IKEEXT_V6_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Unless otherwise noted, supported starting with Windo
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FWPS_FIELDS_IKEEXT_V6
-req.alt-loc: fwpsk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	fwpsk.h
+apiname: 
+-	FWPS_FIELDS_IKEEXT_V6
+product: Windows
+targetos: Windows
 req.typenames: FWPS_FIELDS_IKEEXT_V6
 ---
 
 # FWPS_FIELDS_IKEEXT_V6_ enumeration
 
 
-
 ## -description
+
+
 The FWPS_FIELDS_IKEEXT_V6 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_IKEEXT_V6 
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum FWPS_FIELDS_IKEEXT_V6_ { 
@@ -61,6 +71,9 @@ typedef enum FWPS_FIELDS_IKEEXT_V6_ {
 
 
 ## -enum-fields
+
+
+
 
 ### -field FWPS_FIELD_IKEEXT_V6_IP_LOCAL_ADDRESS
 
@@ -83,14 +96,14 @@ The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID
 The profile identifier (network category) of the network interface. The possible network category
      values are: public (1), private (2), or domain (3).
      
+<div class="alert"><b>Note</b>  Supported starting with Windows 7.</div><div> </div>
 
-<div class="alert"><b>Note</b>  Supported starting with Windows 7.</div>
-<div> </div>
+### -field FWPS_FIELD_IKEEXT_V6_IPSEC_SECURITY_REALM_ID
+
+
 
 ### -field FWPS_FIELD_IKEEXT_V6_MAX
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
 
-
-## -remarks

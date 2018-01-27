@@ -7,8 +7,8 @@ old-location: netvista\net_if_information.htm
 old-project: netvista
 ms.assetid: 5508650c-473c-4710-869e-053481e83f1b
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NET_IF_INFORMATION, NET_IF_INFORMATION, *PNET_IF_INFORMATION
+ms.date: 1/18/2018
+ms.keywords: netvista.net_if_information, PNET_IF_INFORMATION, ndis/NET_IF_INFORMATION, ndis/PNET_IF_INFORMATION, net_if_struct_ref_ceb46daa-0e14-4ed8-9f05-9cd064a57dfb.xml, NET_IF_INFORMATION structure [Network Drivers Starting with Windows Vista], PNET_IF_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], NET_IF_INFORMATION, *PNET_IF_INFORMATION, _NET_IF_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NET_IF_INFORMATION
-req.alt-loc: ndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-req.typenames: NET_IF_INFORMATION, *PNET_IF_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ndis.h
+apiname: 
+-	NET_IF_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: *PNET_IF_INFORMATION, NET_IF_INFORMATION
 ---
 
 # _NET_IF_INFORMATION structure
 
 
-
 ## -description
+
+
 The NET_IF_INFORMATION structure provides NDIS with information about a registered network
   interface.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NET_IF_INFORMATION {
@@ -73,6 +83,9 @@ typedef struct _NET_IF_INFORMATION {
 
 ## -struct-fields
 
+
+
+
 ### -field Header
 
 The 
@@ -94,38 +107,11 @@ Flags that provide information about the interface that this structure describes
 
 
 
-### -field NIIF_HARDWARE_INTERFACE
-
-Set if the network interface is for hardware.
-
-
-### -field NIIF_FILTER_INTERFACE
-
-Set if the network interface is for a filter module.
-
-
-### -field NIIF_NDIS_RESERVED1
-
-Reserved for NDIS.
-
-
-### -field NIIF_NDIS_RESERVED2
-
-Reserved for NDIS.
-
-
-### -field NIIF_NDIS_RESERVED3
-
-Reserved for NDIS.
-
-</dd>
-</dl>
-
 ### -field PhysicalLocation
 
 The physical location for the hardware that is associated with an interface specified in a 
-     <a href="https://msdn.microsoft.com/e5661e05-a83f-4632-af98-2a021eeb7d80">
-     NET_PHYSICAL_LOCATION</a> structure.
+     <mshelp:link keywords="netvista.net_physical_location" tabindex="0"><b>
+     NET_PHYSICAL_LOCATION</b></mshelp:link> structure.
 
 
 ### -field WanTunnelType
@@ -230,8 +216,8 @@ The GUID that is associated with the network that the interface belongs to. If t
 
 The statistics that the interface supports. For more information, see the 
      <b>SupportedStatistics</b> member of the 
-     <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
-     NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a> structure .
+     <mshelp:link keywords="netvista.ndis_miniport_adapter_general_attributes" tabindex="0"><b>
+     NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</b></mshelp:link> structure .
 
 
 ### -field MediaType
@@ -248,12 +234,39 @@ The physical medium type for the interface. For more information, see
 
 
 
+##### - Flags.NIIF_NDIS_RESERVED2
+
+Reserved for NDIS.
+
+
+##### - Flags.NIIF_HARDWARE_INTERFACE
+
+Set if the network interface is for hardware.
+
+
+##### - Flags.NIIF_NDIS_RESERVED1
+
+Reserved for NDIS.
+
+
+##### - Flags.NIIF_NDIS_RESERVED3
+
+Reserved for NDIS.
+
+
+##### - Flags.NIIF_FILTER_INTERFACE
+
+Set if the network interface is for a filter module.
+
+
 ## -remarks
+
+
 A network interface provider initializes a NET_IF_INFORMATION structure to provide NDIS with
     information about a registered interface. To register an interface, a provider passes a pointer to a
     NET_IF_INFORMATION structure to the 
-    <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">
-    NdisIfRegisterInterface</a> function.
+    <mshelp:link keywords="netvista.ndisifregisterinterface" tabindex="0"><b>
+    NdisIfRegisterInterface</b></mshelp:link> function.
 
 The interface provider should allocate enough memory for the structure and the arrays that the 
     <b>PhysAddressOffset</b>, 
@@ -262,55 +275,41 @@ The interface provider should allocate enough memory for the structure and the a
     structure and set the offset members to identify the location of the arrays.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\nf-ntddk-exuuidcreate.md">ExUuidCreate</a>
-</dt>
-<dt>
-<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
-</dt>
-<dt>
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
-   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
-</dt>
-<dt>
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568739">NET_IF_ACCESS_TYPE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568741">NET_IF_CONNECTION_TYPE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568750">NET_PHYSICAL_LOCATION</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569074">OID_802_3_PERMANENT_ADDRESS</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
-</dt>
-<dt>
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
-</dt>
-</dl>
- 
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+
+<a href="..\ntddk\nf-ntddk-exuuidcreate.md">ExUuidCreate</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569074">OID_802_3_PERMANENT_ADDRESS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568750">NET_PHYSICAL_LOCATION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568741">NET_IF_CONNECTION_TYPE</a>
+
+<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568739">NET_IF_ACCESS_TYPE</a>
+
+<mshelp:link keywords="netvista.ndis_miniport_adapter_general_attributes" tabindex="0"><b>
+   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</b></mshelp:link>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_IF_INFORMATION structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_IF_INFORMATION structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

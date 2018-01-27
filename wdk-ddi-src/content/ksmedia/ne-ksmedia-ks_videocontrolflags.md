@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7f8b3727-132c-41c8-a252-0f9c8812002f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_VideoControlFlags, KS_VideoControlFlags
+ms.keywords: KS_VideoControlFlag_ExternalTriggerEnable, ksmedia/KS_VideoControlFlag_ExternalTriggerEnable, KS_VideoControlFlag_Trigger, KS_VideoControlFlag_StartPhotoSequenceCapture, KS_VideoControlFlag_IndependentImagePin, ksmedia/KS_VideoControlFlags, ksmedia/KS_VideoControlFlag_FlipHorizontal, ksmedia/KS_VideoControlFlag_IndependentImagePin, KS_VideoControlFlags, ksmedia/KS_VideoControlFlag_Trigger, KS_Obsolete_VideoControlFlag_Trigger, ksmedia/KS_Obsolete_VideoControlFlag_ExternalTriggerEnable, KS_VideoControlFlags enumeration [Streaming Media Devices], KS_VideoControlFlag_FlipHorizontal, vidcapstruct_ae01591c-4ee4-4e70-bfc2-c78ad73a296f.xml, KS_Obsolete_VideoControlFlag_ExternalTriggerEnable, ksmedia/KS_Obsolete_VideoControlFlag_Trigger, ksmedia/KS_VideoControlFlag_FlipVertical, KS_VideoControlFlag_FlipVertical, ksmedia/KS_VideoControlFlag_StillCapturePreviewFrame, stream.ks_videocontrolflags, ksmedia/KS_VideoControlFlag_StartPhotoSequenceCapture, ksmedia/KS_VideoControlFlag_StopPhotoSequenceCapture, KS_VideoControlFlag_StillCapturePreviewFrame, KS_VideoControlFlag_StopPhotoSequenceCapture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_VideoControlFlags
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KS_VideoControlFlags
+product: Windows
+targetos: Windows
 req.typenames: KS_VideoControlFlags
 ---
 
 # KS_VideoControlFlags enumeration
 
 
-
 ## -description
+
+
 The KS_VideoControlFlags enumeration defines video control capabilities for a specific stream.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -64,6 +74,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field KS_VideoControlFlag_FlipHorizontal
 
@@ -123,18 +136,12 @@ Stop photo sequence operation.
 Supported starting with Windows 8.1.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ksmedia\ns-ksmedia-ksproperty_videocontrol_caps_s.md">KSPROPERTY_VIDEOCONTROL_CAPS_S</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-ksproperty_videocontrol_mode_s.md">KSPROPERTY_VIDEOCONTROL_MODE_S</a>
-</dt>
-</dl>
+
+<a href="..\ksmedia\ns-ksmedia-ksproperty_videocontrol_caps_s.md">KSPROPERTY_VIDEOCONTROL_CAPS_S</a>
+
  
 
  

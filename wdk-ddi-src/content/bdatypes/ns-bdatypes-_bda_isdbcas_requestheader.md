@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: E83111C1-5A46-4AB4-B54C-F8330943070D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _BDA_ISDBCAS_REQUESTHEADER, *PBDA_ISDBCAS_REQUESTHEADER, BDA_ISDBCAS_REQUESTHEADER
+ms.keywords: *PBDA_ISDBCAS_REQUESTHEADER, BDA_ISDBCAS_REQUESTHEADER, bdatypes/PBDA_ISDBCAS_REQUESTHEADER, bdatypes/BDA_ISDBCAS_REQUESTHEADER, BDA_ISDBCAS_REQUESTHEADER structure [Streaming Media Devices], _BDA_ISDBCAS_REQUESTHEADER, PBDA_ISDBCAS_REQUESTHEADER structure pointer [Streaming Media Devices], PBDA_ISDBCAS_REQUESTHEADER, stream.bda_isdbcas_requestheader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BDA_ISDBCAS_REQUESTHEADER
-req.alt-loc: Bdatypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PBDA_ISDBCAS_REQUESTHEADER, BDA_ISDBCAS_REQUESTHEADER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bdatypes.h
+apiname: 
+-	BDA_ISDBCAS_REQUESTHEADER
+product: Windows
+targetos: Windows
+req.typenames: BDA_ISDBCAS_REQUESTHEADER, *PBDA_ISDBCAS_REQUESTHEADER
 ---
 
 # _BDA_ISDBCAS_REQUESTHEADER structure
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: *PBDA_ISDBCAS_REQUESTHEADER, BDA_ISDBCAS_REQUESTHEADER
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct _BDA_ISDBCAS_REQUESTHEADER {
@@ -56,6 +66,9 @@ typedef struct _BDA_ISDBCAS_REQUESTHEADER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field bInstruction
 
@@ -75,4 +88,3 @@ Specifies the size in bytes of the <b>argbIsdbCommand</b> member.
 ### -field argbIsdbCommand
 
 
-## -remarks

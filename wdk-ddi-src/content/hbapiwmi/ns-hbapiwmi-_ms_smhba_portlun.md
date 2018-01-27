@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cf62685f-7b4d-4671-a755-d59a593bf5d6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MS_SMHBA_PORTLUN, MS_SMHBA_PORTLUN, *PMS_SMHBA_PORTLUN
+ms.keywords: _MS_SMHBA_PORTLUN, *PMS_SMHBA_PORTLUN, PMS_SMHBA_PORTLUN, MS_SMHBA_PORTLUN, hbapiwmi/MS_SMHBA_PORTLUN, storage.ms_smhba_portlun, structs-Fibre_a0363ae3-80ce-4efd-8409-826d1810190c.xml, hbapiwmi/PMS_SMHBA_PORTLUN, MS_SMHBA_PORTLUN structure [Storage Devices], PMS_SMHBA_PORTLUN structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MS_SMHBA_PORTLUN
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	MS_SMHBA_PORTLUN
+product: Windows
+targetos: Windows
 req.typenames: MS_SMHBA_PORTLUN, *PMS_SMHBA_PORTLUN
 ---
 
 # _MS_SMHBA_PORTLUN structure
 
 
-
 ## -description
+
+
 The MS_SMHBA_PORTLUN structure reports target LUN information that is associated with a port.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MS_SMHBA_PORTLUN {
@@ -55,6 +65,9 @@ typedef struct _MS_SMHBA_PORTLUN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PortWWN
 
@@ -70,5 +83,3 @@ A worldwide name that specifies the SAS domain worldwide name of the local port.
 
 The target LUN number.
 
-
-## -remarks

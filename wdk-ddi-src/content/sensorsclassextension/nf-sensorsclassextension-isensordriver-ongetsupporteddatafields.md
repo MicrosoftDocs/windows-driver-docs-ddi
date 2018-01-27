@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 5020212e-9e3f-468f-8f7c-77d70a8f024b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ISensorDriver, ISensorDriver::OnGetSupportedDataFields, OnGetSupportedDataFields
+ms.keywords: OnGetSupportedDataFields method [Sensor Devices], ISensorDriver::OnGetSupportedDataFields, OnGetSupportedDataFields, ISensorDriver, sensors.isensordriver_ongetsupporteddatafields
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OnGetSupportedDataFields
-req.alt-loc: SensorsClassExtension.lib,SensorsClassExtension.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	SensorsClassExtension.lib
+-	SensorsClassExtension.dll
+apiname: 
+-	OnGetSupportedDataFields
+product: Windows
+targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ISensorDriver::OnGetSupportedDataFields method
 
 
-
 ## -description
+
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545620">ISensorDriver::OnGetSupportedDataFields</a> method retrieves the list of data fields that the specified sensor can provide.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT OnGetSupportedDataFields(
@@ -56,23 +67,33 @@ HRESULT OnGetSupportedDataFields(
 
 ## -parameters
 
-### -param pwszSensorID 
+
+
+
+### -param pwszSensorID
 
 LPWSTR that contains the ID for the sensor from which the client application is requesting the data fields list.
 
 
-### -param ppSupportedDataFields 
+### -param ppSupportedDataFields
 
 Address of an IPortableDeviceKeyCollection pointer that receives the list of PROPERTYKEY values that represent the supported data fields.
 
 
 ## -returns
+
+
 If the operation succeeds, this method returns S_OK. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
+
 ## -remarks
+
+
 Data fields contain sensor-generated data, as opposed to properties, which describe the sensor device. Platform-defined data fields are defined in sensors.h.
 
 All drivers must support SENSOR_DATA_TYPE_TIMESTAMP as a required data field.
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=131484">IPortableDeviceKeyCollection</a> is documented in Windows Portable Devices.</p>
+<a href="http://go.microsoft.com/fwlink/p/?linkid=131484">IPortableDeviceKeyCollection</a> is documented in Windows Portable Devices.
+
+

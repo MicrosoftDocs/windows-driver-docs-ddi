@@ -7,8 +7,8 @@ old-location: netvista\ndismresetminiport.htm
 old-project: netvista
 ms.assetid: 614C6E21-00D0-4F57-9E09-D1BAB166BA42
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisMResetMiniport
+ms.date: 1/18/2018
+ms.keywords: NdisMResetMiniport function [Network Drivers Starting with Windows Vista], netvista.ndismresetminiport, NdisMResetMiniport, ndis/NdisMResetMiniport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.30 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisMResetMiniport
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisMResetMiniport
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMResetMiniport function
 
 
-
 ## -description
+
+
 A miniport driver calls the <b>NdisMResetMiniport</b> function to trigger a later reset operation from NDIS.
 
 
-
 ## -syntax
+
 
 ````
 void NdisMResetMiniport(
@@ -54,18 +65,28 @@ void NdisMResetMiniport(
 
 ## -parameters
 
+
+
+
 ### -param MiniportAdapterHandle [in]
 
 The miniport adapter handle that NDIS passed to the <i>MiniportAdapterHandle</i> parameter of <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
+
 ## -remarks
+
+
 A miniport driver calls <b>NdisMResetMiniport</b> when it determines that the device requires a hardware reset.
 
 As a result, NDIS schedules a work item for calling the miniport driver's <a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a> function asynchronously.
 
-<b>NdisMResetMiniport</b> must be called at IRQL &lt;= DISPATCH_LEVEL.</p>
+<b>NdisMResetMiniport</b> must be called at IRQL &lt;= DISPATCH_LEVEL.
+
+

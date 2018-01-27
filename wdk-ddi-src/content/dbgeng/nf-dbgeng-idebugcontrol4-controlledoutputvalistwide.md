@@ -7,8 +7,8 @@ old-location: debugger\controlledoutputvalistwide.htm
 old-project: debugger
 ms.assetid: 8576a20b-bdb8-47d9-a21e-689a315c6886
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugControl4, IDebugControl4::ControlledOutputVaListWide, ControlledOutputVaListWide
+ms.date: 1/19/2018
+ms.keywords: IDebugControl4::ControlledOutputVaListWide, ControlledOutputVaListWide method [Windows Debugging], dbgeng/IDebugControl4::ControlledOutputVaListWide, ControlledOutputVaListWide method [Windows Debugging], IDebugControl4 interface, debugger.controlledoutputvalistwide, IDebugControl4, IDebugControl4 interface [Windows Debugging], ControlledOutputVaListWide method, ControlledOutputVaListWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugControl4.ControlledOutputVaListWide
-req.alt-loc: Dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Dbgeng.h
+apiname: 
+-	IDebugControl4.ControlledOutputVaListWide
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugControl4::ControlledOutputVaListWide method
 
 
-
 ## -description
-The <b>ControlledOutputVaListWide</b>  method formats a string and sends the result to <a href="debugger.using_input_and_output#output_callbacks#output_callbacks">output callbacks</a> that were registered with some of the engine's clients.
 
+
+The <b>ControlledOutputVaListWide</b>  method formats a string and sends the result to <a href="https://msdn.microsoft.com/7a23ee09-0314-400a-8152-eef49a225427">output callbacks</a> that were registered with some of the engine's clients.
 
 
 ## -syntax
+
 
 ````
 HRESULT ControlledOutputVaListWide(
@@ -56,6 +66,9 @@ HRESULT ControlledOutputVaListWide(
 
 
 ## -parameters
+
+
+
 
 ### -param OutputControl [in]
 
@@ -72,7 +85,6 @@ Specifies the output-type bit field.  See <a href="https://msdn.microsoft.com/li
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
 The <b>%p</b> conversion character is supported, but it represents a pointer in a target's address space.  It might not have any modifiers, and it uses the debugger's internal address formatting.  The following additional conversion characters are supported.
-
 <table>
 <tr>
 <th>Character</th>
@@ -242,13 +254,11 @@ String that contains the name of the specified symbol (and displacement, if any)
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 The %Y format specifier can be used to support the Debugger Markup Language (DML). For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt613235">Customizing Debugger Output Using DML</a>.
 
 The following table summarizes the use of the %Y format specifier.
-
 <table>
 <tr>
 <td>Character</td>
@@ -340,11 +350,9 @@ ULONG64
 <td>Debugger formatted pointer</td>
 <td>	Address as source line information.</td>
 </tr>
-</table>
- 
+</table> 
 
 This code snippet illustrates the use of the  %Y format specifier.
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -383,9 +391,7 @@ This code snippet illustrates the use of the  %Y format specifier.
 </pre>
 </td>
 </tr>
-</table></span></div>
-This sample code would generate the following output.
-
+</table></span></div>This sample code would generate the following output.
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -413,46 +419,58 @@ DML/NORMAL Y{l}: [d:\th\minkernel\kernelbase\debug.c @ 443]
 </table></span></div>
 
 
-
 ### -param Args [in]
 
 Specifies additional parameters that represent values to be inserted into the output during formatting.  <i>Args</i> must be initialized using <b>va_start</b>.  This method does not call <b>va_end</b>.
 
 
 ## -returns
+
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method was successful.
+</dl>
+</td>
+<td width="60%">
+The method was successful.
 
- 
+</td>
+</tr>
+</table> 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
+
 ## -remarks
+
+
 When generating very large output strings, it is possible to reach the limits of the debugger engine or of the operating system.  For example, some versions of the debugger engine have a 16K character limit for a single output.  If you find that very large output is getting truncated, you might need to split your output into multiple requests.
 
 The macros <b>va_list</b>, <b>va_start</b>, and <b>va_end</b> are defined in Stdarg.h.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
-</dt>
-<dt>
+
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
-</dt>
-</dl>
- 
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::ControlledOutputVaListWide method%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::ControlledOutputVaListWide method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

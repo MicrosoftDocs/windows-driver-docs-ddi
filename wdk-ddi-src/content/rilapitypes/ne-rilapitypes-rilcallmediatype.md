@@ -7,8 +7,8 @@ old-location: netvista\rilcallmediatype_2.htm
 old-project: netvista
 ms.assetid: f4ecaf9a-1d8d-4a56-afa0-b893eb0c4c62
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCALLMEDIATYPE, RILCALLMEDIATYPE
+ms.date: 1/18/2018
+ms.keywords: rilapitypes/RIL_CALLMEDIATYPE_VIDEO, netvista.rilcallmediatype_2, RIL_CALLMEDIATYPE_VIDEO, RIL_CALLMEDIATYPE_MAX, RIL_CALLMEDIATYPE_AUDIO, rilapitypes/RIL_CALLMEDIATYPE_MAX, rilapitypes/RIL_CALLMEDIATYPE_CUSTOM, RIL_CALLMEDIATYPE_CUSTOM, RILCALLMEDIATYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_CALLMEDIATYPE_AUDIO, rilapitypes/RILCALLMEDIATYPE, RILCALLMEDIATYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCALLMEDIATYPE
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILCALLMEDIATYPE
+product: Windows
+targetos: Windows
 req.typenames: RILCALLMEDIATYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILCALLMEDIATYPE enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILCALLMEDIATYPE { 
@@ -58,16 +68,25 @@ typedef enum _RILCALLMEDIATYPE {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_CALLMEDIATYPE_UNKNOWN
+
+
+
 ### -field RIL_CALLMEDIATYPE_AUDIO
+
 
 
 ### -field RIL_CALLMEDIATYPE_VIDEO
 
 
+
 ### -field RIL_CALLMEDIATYPE_CUSTOM
+
 
 
 ### -field RIL_CALLMEDIATYPE_MAX
 
 
-## -remarks

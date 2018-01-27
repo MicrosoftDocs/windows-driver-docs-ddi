@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0c1a9a60-de17-41d1-b31d-c1d3c95d8121
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.flush, Flush callback function [Display Devices], Flush, PFND3DDDI_FLUSH, PFND3DDDI_FLUSH, d3dumddi/Flush, UserModeDisplayDriver_Functions_a39b804f-2f41-473f-8160-4c23655c24ec.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: Flush
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	Flush
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_FLUSH callback
 
 
-
 ## -description
+
+
 The <i>Flush</i> function submits outstanding hardware commands that are in the hardware command buffer to the display miniport driver.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_FLUSH Flush;
@@ -57,38 +67,64 @@ __checkReturn HRESULT APIENTRY Flush(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
 
 ## -returns
+
+
 <i>Flush</i> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>Hardware commands were successfully flushed.
+</dl>
+</td>
+<td width="60%">
+Hardware commands were successfully flushed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_OUTOFMEMORY</b></dt>
-</dl><i>Flush</i> could not allocate the required memory for it to complete.
+</dl>
+</td>
+<td width="60%">
+<i>Flush</i> could not allocate the required memory for it to complete.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The Microsoft Direct3D runtime can call the user-mode display driver's <i>Flush</i> function at any time to notify the user-mode display driver to submit any outstanding hardware commands that are in the hardware command buffer to the display miniport driver. However, a call to <i>Flush</i> should never cause the user-mode display driver to submit invalid commands to the display miniport driver. 
 
 To submit commands to the display miniport driver, the user-mode display driver's <i>Flush</i> function should typically call the runtime's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-</dt>
-</dl>
+
  
 
  

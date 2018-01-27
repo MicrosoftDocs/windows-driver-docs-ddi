@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a3b9695e-b317-471b-91de-e191c1f5cb17
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _MIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
+ms.keywords: _MIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE, netdispumdddi/MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE, PMIRACAST_DRIVER_INTERFACE, PMIRACAST_DRIVER_INTERFACE structure pointer [Display Devices], netdispumdddi/PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE structure [Display Devices], display.miracast_driver_interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MIRACAST_DRIVER_INTERFACE
-req.alt-loc: Netdispumdddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Netdispumdddi.h
+apiname: 
+-	MIRACAST_DRIVER_INTERFACE
+product: Windows
+targetos: Windows
+req.typenames: *PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE
 ---
 
 # _MIRACAST_DRIVER_INTERFACE structure
 
 
-
 ## -description
+
+
 Contains pointers to wireless display (Miracast) functions that are implemented by the Miracast user-mode driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MIRACAST_DRIVER_INTERFACE {
@@ -58,6 +68,9 @@ typedef struct _MIRACAST_DRIVER_INTERFACE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -89,30 +102,20 @@ A pointer to the driver's   <a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_
 A pointer to the driver's  <a href="..\netdispumdddi\nc-netdispumdddi-pfn_handle_kmd_message.md">HandleKernelModeMessage</a> function.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
-</dt>
-<dt>
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
-</dt>
-<dt>
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_handle_kmd_message.md">HandleKernelModeMessage</a>
-</dt>
-<dt>
-<a href="..\netdispumdddi\nc-netdispumdddi-query_miracast_driver_interface.md">QueryMiracastDriverInterface</a>
-</dt>
-<dt>
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
-</dt>
-<dt>
+
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
-</dt>
-</dl>
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
+
+<a href="..\netdispumdddi\nc-netdispumdddi-query_miracast_driver_interface.md">QueryMiracastDriverInterface</a>
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_handle_kmd_message.md">HandleKernelModeMessage</a>
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
+
  
 
  

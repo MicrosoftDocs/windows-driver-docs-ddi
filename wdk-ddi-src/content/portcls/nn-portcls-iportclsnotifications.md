@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 03F65E4E-C942-4748-8D3E-938A6AC51B2A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcUnregisterIoTimeout
+ms.keywords: audio.iportclsnotifications, IPortClsNotifications interface [Audio Devices], IPortClsNotifications interface [Audio Devices], described, IPortClsNotifications, portcls/IPortClsNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 10, version 1703 and later ver
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPortClsNotifications
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IPortClsNotifications
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPortClsNotifications interface
 
 
-
 ## -description
+
+
 An interface implemented by ports to provide
  notification helpers to miniports to support audio module communication.
 
@@ -49,22 +59,8 @@ For more information about audio modules,
 The miniport audio driver will call into their port to create and send the notification.  
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortClsNotifications</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IPortClsNotifications</b> also has these types of members:
-
-The <b>IPortClsNotifications</b> interface has these methods.
-
-Allocates a buffer of the specified size, in the specified memory pool, for use in sending notifications, to allow for communications between audio modules and UWP apps. 
-
-Frees a previously allocated IPortClsNotifications buffer. The buffer is used in sending notifications, to allow for communications between audio modules and UWP apps. 
-
-Sends a notification to the listening UWP apps, to allow for communications between audio modules and UWP apps. 
-
- 
-
-
 ## -members
+
 The <b>IPortClsNotifications</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -106,5 +102,3 @@ Sends a notification to the listening UWP apps, to allow for communications betw
 
  
 
-
-## -remarks

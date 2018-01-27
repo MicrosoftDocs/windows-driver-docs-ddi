@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 14D652C4-9812-481E-8E69-A6D7923F01A3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_SETTIMINGSFROMVIDPN, DXGKARG_SETTIMINGSFROMVIDPN, *IN_OUT_PDXGKARG_SETTIMINGSFROMVIDPN
+ms.keywords: DXGKARG_SETTIMINGSFROMVIDPN, PDXGKARG_SETTIMINGSFROMVIDPN structure pointer [Display Devices], *IN_OUT_PDXGKARG_SETTIMINGSFROMVIDPN, DXGKARG_SETTIMINGSFROMVIDPN structure [Display Devices], d3dkmddi/PDXGKARG_SETTIMINGSFROMVIDPN, PDXGKARG_SETTIMINGSFROMVIDPN, d3dkmddi/DXGKARG_SETTIMINGSFROMVIDPN, display.dxgkarg_settimingsfromvidpn, _DXGKARG_SETTIMINGSFROMVIDPN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_SETTIMINGSFROMVIDPN
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_SETTIMINGSFROMVIDPN
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_SETTIMINGSFROMVIDPN
 ---
 
 # _DXGKARG_SETTIMINGSFROMVIDPN structure
 
 
-
 ## -description
+
+
 Used to hold the arguments for <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_settimingsfromvidpn.md">DXGKDDI_SETTIMINGSFROMVIDPN</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_SETTIMINGSFROMVIDPN {
@@ -57,6 +67,9 @@ typedef struct _DXGKARG_SETTIMINGSFROMVIDPN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hFunctionalVidPn
 
@@ -82,5 +95,3 @@ Number of pointers in the array pointed to by pSetTimingPathInfo.
 
 An array of pointers to DXGK_SET_TIMING_PATH_INFO structures that specify per path details of the timings to be set. It also allows feedback from the driver on additional work the OS needs to do either before the timings changes can be made, or after changes are complete.
 
-
-## -remarks

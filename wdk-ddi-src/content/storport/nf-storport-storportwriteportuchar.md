@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 421bd075-e919-4389-af38-e0dd686f7c05
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortWritePortUchar
+ms.keywords: storprt_602c6d78-179c-4eaa-8131-ec2be13b2050.xml, storage.storportwriteportuchar, StorPortWritePortUchar routine [Storage Devices], StorPortWritePortUchar, storport/StorPortWritePortUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortWritePortUchar
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortWritePortUchar
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortWritePortUchar function
 
 
-
 ## -description
+
+
 The <b>StorPortWritePortUchar</b> routine writes a value to a specified register address. 
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API VOID StorPortWritePortUchar(
@@ -56,6 +67,9 @@ STORPORT_API VOID StorPortWritePortUchar(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -73,22 +87,25 @@ Contains the value to be written.
 
 
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 For more information, see <a href="..\srb\nf-srb-scsiportwriteportuchar.md">ScsiPortWritePortUchar</a>. For a buffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportbufferuchar.md">StorPortWritePortBufferUchar</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportwriteportuchar.md">ScsiPortWritePortUchar</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportwriteportbufferuchar.md">StorPortWritePortBufferUchar</a>
-</dt>
-</dl>
+
  
 
  

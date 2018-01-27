@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0e72c1a7-5712-46fc-a65f-20183830cb72
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DISPLAY_BRIGHTNESS, DISPLAY_BRIGHTNESS, *PDISPLAY_BRIGHTNESS
+ms.keywords: ntddvdeo/DISPLAY_BRIGHTNESS, PDISPLAY_BRIGHTNESS, ntddvdeo/PDISPLAY_BRIGHTNESS, DISPLAY_BRIGHTNESS, display.display_brightness, PDISPLAY_BRIGHTNESS structure pointer [Display Devices], _DISPLAY_BRIGHTNESS, *PDISPLAY_BRIGHTNESS, DISPLAY_BRIGHTNESS structure [Display Devices], Video_Structs_9be4657c-394e-4286-8157-e95f3ada36c8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DISPLAY_BRIGHTNESS
-req.alt-loc: ntddvdeo.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddvdeo.h
+apiname: 
+-	DISPLAY_BRIGHTNESS
+product: Windows
+targetos: Windows
 req.typenames: DISPLAY_BRIGHTNESS, *PDISPLAY_BRIGHTNESS
 ---
 
 # _DISPLAY_BRIGHTNESS structure
 
 
-
 ## -description
+
+
 The DISPLAY_BRIGHTNESS structure is reserved for system use.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DISPLAY_BRIGHTNESS {
@@ -55,6 +65,9 @@ typedef struct _DISPLAY_BRIGHTNESS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ucDisplayPolicy
 
@@ -70,5 +83,3 @@ Reserved for system use.
 
 Reserved for system use.
 
-
-## -remarks

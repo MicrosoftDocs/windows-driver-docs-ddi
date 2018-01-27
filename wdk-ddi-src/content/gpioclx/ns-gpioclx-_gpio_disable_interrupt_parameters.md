@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 6F71C67C-ACA6-405A-9371-9DC72CC6DDCE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _GPIO_DISABLE_INTERRUPT_PARAMETERS, *PGPIO_DISABLE_INTERRUPT_PARAMETERS, GPIO_DISABLE_INTERRUPT_PARAMETERS
+ms.keywords: PGPIO_DISABLE_INTERRUPT_PARAMETERS, GPIO.gpio_disable_interrupt_parameters, *PGPIO_DISABLE_INTERRUPT_PARAMETERS, GPIO_DISABLE_INTERRUPT_PARAMETERS, gpioclx/PGPIO_DISABLE_INTERRUPT_PARAMETERS, _GPIO_DISABLE_INTERRUPT_PARAMETERS, gpioclx/GPIO_DISABLE_INTERRUPT_PARAMETERS, GPIO_DISABLE_INTERRUPT_PARAMETERS structure [Parallel Ports], PGPIO_DISABLE_INTERRUPT_PARAMETERS structure pointer [Parallel Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GPIO_DISABLE_INTERRUPT_PARAMETERS
-req.alt-loc: Gpioclx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PGPIO_DISABLE_INTERRUPT_PARAMETERS, GPIO_DISABLE_INTERRUPT_PARAMETERS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Gpioclx.h
+apiname: 
+-	GPIO_DISABLE_INTERRUPT_PARAMETERS
+product: Windows
+targetos: Windows
+req.typenames: GPIO_DISABLE_INTERRUPT_PARAMETERS, *PGPIO_DISABLE_INTERRUPT_PARAMETERS
 ---
 
 # _GPIO_DISABLE_INTERRUPT_PARAMETERS structure
 
 
-
 ## -description
+
+
 The <b>GPIO_DISABLE_INTERRUPT_PARAMETERS</b> structure describes a general-purpose I/O (GPIO) interrupt pin to disable.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GPIO_DISABLE_INTERRUPT_PARAMETERS {
@@ -55,6 +65,9 @@ typedef struct _GPIO_DISABLE_INTERRUPT_PARAMETERS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field BankId
 
@@ -72,6 +85,8 @@ A set of flags to control the interrupt-disable operation. The <b>RetryDisableOn
 
 
 ## -remarks
+
+
 The <i>DisableParameters</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439371">CLIENT_DisableInterrupt</a> event callback function is a pointer to a caller-allocated <b>GPIO_DISABLE_INTERRUPT_PARAMETERS</b> structure.
 
 The <i>CLIENT_DisableInterrupt</i> function for a memory-mapped GPIO controller is expected to always succeed in disabling the interrupt. However, the <i>CLIENT_DisableInterrupt</i> function for a controller that is not memory-mapped must send an I/O request to the controller to disable the interrupt, and this request might fail. If the request fails to disable the interrupt, the function must return an error status code.
@@ -79,18 +94,15 @@ The <i>CLIENT_DisableInterrupt</i> function for a memory-mapped GPIO controller 
 After a <i>CLIENT_DisableInterrupt</i> call fails, GpioClx might retry the call one or more times. During each retry, GpioClx sets the <b>RetryDisableOnFailure</b> flag to indicate that the previous call failed. The <i>CLIENT_DisableInterrupt</i> function might respond to this flag by taking additional steps to increase the likelihood that the next attempt to disable the interrupt succeeds.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439371">CLIENT_DisableInterrupt</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439371">CLIENT_DisableInterrupt</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+
  
 
  

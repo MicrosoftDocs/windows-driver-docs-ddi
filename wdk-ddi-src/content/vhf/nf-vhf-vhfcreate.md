@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 11A98BBE-2609-4E55-8988-42620EB15281
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: VhfCreate
+ms.keywords: VhfCreate, hid.vhfcreate, vhf/VhfCreate, VhfCreate method [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VhfCreate
-req.alt-loc: vhfKm.lib,vhfKm.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: VhfKm.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	vhfKm.lib
+-	vhfKm.dll
+apiname: 
+-	VhfCreate
+product: Windows
+targetos: Windows
 req.typenames: *PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # VhfCreate function
 
 
-
 ## -description
+
+
 The HID source driver calls this method to create a virtual HID device.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS VhfCreate(
@@ -55,6 +66,9 @@ NTSTATUS VhfCreate(
 
 
 ## -parameters
+
+
+
 
 ### -param VhfConfig [in]
 
@@ -67,10 +81,15 @@ A handle to the new virtual HID device.
 
 
 ## -returns
+
+
 If the <b>VhfCreate</b> call succeeds, the method returns STATUS_SUCCESS. Otherwise an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS </a> value.
 
 
+
 ## -remarks
+
+
  This method returns synchronously after validating the <a href="..\vhf\ns-vhf-_vhf_config.md">VHF_CONFIG</a> structure and creating a virtual HID device. The virtual HID device is only reported to PnP. The initialization, installation, and starting of the device may not complete before this method returns.
 
 A Kernel-Mode Driver Framework (KMDF) driver can call <b>VhfCreate</b> at any point after successfully creating its own device object by calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. The driver can do so in its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>, <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>, <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EvtDeviceD0Entry</a>, <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_init.md">EvtDeviceSelfManagedIoInit</a>.
@@ -78,12 +97,11 @@ A Kernel-Mode Driver Framework (KMDF) driver can call <b>VhfCreate</b> at any po
 VHF does not invoke any callback functions that are specified in <a href="..\vhf\ns-vhf-_vhf_config.md">VHF_CONFIG</a> until the HID source driver calls <a href="..\vhf\nf-vhf-vhfstart.md">VhfStart</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/26964963-792F-4529-B4FC-110BF5C65B35">Write a HID source driver by using Virtual HID Framework (VHF)</a>
-</dt>
-</dl>
+
  
 
  

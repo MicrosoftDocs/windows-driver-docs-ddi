@@ -7,8 +7,8 @@ old-location: netvista\ndismcmdeletevc.htm
 old-project: netvista
 ms.assetid: b55d0995-efd8-4a61-85e9-970559e21a88
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisMCmDeleteVc
+ms.date: 1/18/2018
+ms.keywords: condis_mcm_ref_a6a2bb4d-a82e-422f-b9f0-821519513cb4.xml, NdisMCmDeleteVc, netvista.ndismcmdeletevc, ndis/NdisMCmDeleteVc, NdisMCmDeleteVc function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    N
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisMCmDeleteVc
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_MCM_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisMCmDeleteVc
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCmDeleteVc function
 
 
-
 ## -description
+
+
 <b>NdisMCmDeleteVc</b> destroys a caller-created VC.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisMCmDeleteVc(
@@ -54,6 +65,9 @@ NDIS_STATUS NdisMCmDeleteVc(
 
 ## -parameters
 
+
+
+
 ### -param NdisVcHandle [in]
 
 Specifies the handle identifying the VC to be deleted. The caller originally obtained this handle
@@ -62,18 +76,43 @@ Specifies the handle identifying the VC to be deleted. The caller originally obt
 
 
 ## -returns
+
+
 <b>NdisMCmDeleteVc</b> can return one of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_SUCCESS</b></dt>
-</dl>NDIS deleted the VC.
+</dl>
+</td>
+<td width="60%">
+NDIS deleted the VC.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_NOT_ACCEPTED</b></dt>
-</dl>The VC is still active, so it could not be deleted.
+</dl>
+</td>
+<td width="60%">
+The VC is still active, so it could not be deleted.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 When an MCM driver calls 
     <b>NdisMCmDeleteVc</b>, there must be no outstanding calls on the given VC and that VC must have been
     deactivated. To meet these requirements implies that the MCM driver has already called 
@@ -103,30 +142,24 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
     <b>NdisCoDeleteVc</b> instead.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_co_delete_vc.md">MiniportCoDeleteVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
-</dt>
-<dt>
+
+<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
 <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
+
+<a href="..\ndis\nc-ndis-miniport_co_delete_vc.md">MiniportCoDeleteVc</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmDeleteVc function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmDeleteVc function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

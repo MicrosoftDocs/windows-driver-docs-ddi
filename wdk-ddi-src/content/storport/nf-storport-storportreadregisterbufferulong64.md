@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 585EE323-99EC-4367-8D97-CB554D695C11
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortReadRegisterBufferUlong64
+ms.keywords: storport/StorPortReadRegisterBufferUlong64, StorPortReadRegisterBufferUlong64 routine [Storage Devices], StorPortReadRegisterBufferUlong64, storage.storportreadregisterbufferulong64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortReadRegisterBufferUlong64
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: storport.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	StorPortReadRegisterBufferUlong64
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,14 +47,15 @@ req.product: Windows 10 or later.
 # StorPortReadRegisterBufferUlong64 macro
 
 
-
 ## -description
+
+
 This <b>StorPortReadRegisterBufferUlong64</b> routine reads a number of <b>ULONG64</b> values from the specified 64-bit register address into a buffer.
  
 
 
-
 ## -syntax
+
 
 ````
  VOID StorPortReadRegisterBufferUlong64(
@@ -58,31 +68,57 @@ This <b>StorPortReadRegisterBufferUlong64</b> routine reads a number of <b>ULONG
 
 ## -parameters
 
-### -param Register [in]
-
-Pointer to the register where the data is to be read. The register must be a mapped range in memory space
 
 
-### -param Buffer [out]
 
-Pointer to the buffer that receives the data that is read.
+### -param h
+
+TBD
 
 
-### -param Count [in]
+### -param r
+
+TBD
+
+
+### -param b
+
+TBD
+
+
+### -param c
+
+TBD
+
+
+
+
+#### - Count [in]
 
 Specifies the number of data values to read. Each data item has a size of <b>sizeof</b>(ULONG64). 
 
 
+#### - Register [in]
+
+Pointer to the register where the data is to be read. The register must be a mapped range in memory space
+
+
+#### - Buffer [out]
+
+Pointer to the buffer that receives the data that is read.
+
+
 ## -remarks
+
+
 The <b>StorPortReadRegisterBufferUlong64</b> routine is only available on the 64-bit version of Windows.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\nf-storport-storportwriteregisterbufferulong64.md">StorPortWriteRegisterBufferUlong64</a>
-</dt>
-</dl>
+
  
 
  

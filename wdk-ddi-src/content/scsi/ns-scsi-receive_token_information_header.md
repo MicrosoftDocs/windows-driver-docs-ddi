@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3D8BF059-2063-499E-B287-41EE184A2264
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: RECEIVE_TOKEN_INFORMATION_HEADER, *PRECEIVE_TOKEN_INFORMATION_HEADER, RECEIVE_TOKEN_INFORMATION_HEADER
+ms.keywords: SERVICE_ACTION_POPULATE_TOKEN, scsi/PRECEIVE_TOKEN_INFORMATION_HEADER, PRECEIVE_TOKEN_INFORMATION_HEADER structure pointer [Storage Devices], TRANSFER_COUNT_UNITS_GIBIBYTES, PRECEIVE_TOKEN_INFORMATION_HEADER, TRANSFER_COUNT_UNITS_EXBIBYTES, TRANSFER_COUNT_UNITS_BYTES, TRANSFER_COUNT_UNITS_NUMBER_BLOCKS, TRANSFER_COUNT_UNITS_MEBIBYTES, scsi/RECEIVE_TOKEN_INFORMATION_HEADER, storage.receive_token_information_header, TRANSFER_COUNT_UNITS_KIBIBYTES, TRANSFER_COUNT_UNITS_PEBIBYTES, TRANSFER_COUNT_UNITS_TEBIBYTES, RECEIVE_TOKEN_INFORMATION_HEADER structure [Storage Devices], RECEIVE_TOKEN_INFORMATION_HEADER, SERVICE_ACTION_WRITE_USING_TOKEN, *PRECEIVE_TOKEN_INFORMATION_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RECEIVE_TOKEN_INFORMATION_HEADER
-req.alt-loc: scsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PRECEIVE_TOKEN_INFORMATION_HEADER, RECEIVE_TOKEN_INFORMATION_HEADER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	scsi.h
+apiname: 
+-	RECEIVE_TOKEN_INFORMATION_HEADER
+product: Windows
+targetos: Windows
+req.typenames: RECEIVE_TOKEN_INFORMATION_HEADER, *PRECEIVE_TOKEN_INFORMATION_HEADER
 req.product: Windows 10 or later.
 ---
 
 # RECEIVE_TOKEN_INFORMATION_HEADER structure
 
 
-
 ## -description
+
+
 The <b>RECEIVE_TOKEN_INFORMATION_HEADER</b> structure contains information returned as status from an offload data transfer operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RECEIVE_TOKEN_INFORMATION_HEADER {
@@ -69,6 +79,9 @@ typedef struct _RECEIVE_TOKEN_INFORMATION_HEADER {
 
 ## -struct-fields
 
+
+
+
 ### -field AvailableData
 
 The amount of data available in the <b>SenseData</b> array and any additional result information.
@@ -77,16 +90,15 @@ The amount of data available in the <b>SenseData</b> array and any additional re
 ### -field ResponseToServiceAction
 
 A response code indicating which command action the response is for. The service action codes are the following.
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field SERVICE_ACTION_POPULATE_TOKEN
-
+<td width="40%"><a id="SERVICE_ACTION_POPULATE_TOKEN"></a><a id="service_action_populate_token"></a><dl>
+<dt><b>SERVICE_ACTION_POPULATE_TOKEN</b></dt>
+</dl>
 </td>
 <td width="60%">
 The response information is for a POPULATE TOKEN command.
@@ -94,17 +106,16 @@ The response information is for a POPULATE TOKEN command.
 </td>
 </tr>
 <tr>
-
-### -field SERVICE_ACTION_WRITE_USING_TOKEN
-
+<td width="40%"><a id="SERVICE_ACTION_WRITE_USING_TOKEN"></a><a id="service_action_write_using_token"></a><dl>
+<dt><b>SERVICE_ACTION_WRITE_USING_TOKEN</b></dt>
+</dl>
 </td>
 <td width="60%">
 The response information is for a WRITE USING TOKEN command.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Reserved1
@@ -115,7 +126,6 @@ Reserved.
 ### -field OperationStatus
 
 The current status of the copy operation. The status can be one of the following values.
-
 <table>
 <tr>
 <th>Value</th>
@@ -123,9 +133,9 @@ The current status of the copy operation. The status can be one of the following
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0x01
-
+<dl>
+<dt>0x01</dt>
+</dl>
 </td>
 <td width="60%">
 The operation completed successfully.
@@ -134,9 +144,9 @@ The operation completed successfully.
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0x02
-
+<dl>
+<dt>0x02</dt>
+</dl>
 </td>
 <td width="60%">
 The operation completed unsuccessfully.
@@ -145,9 +155,9 @@ The operation completed unsuccessfully.
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0x04
-
+<dl>
+<dt>0x04</dt>
+</dl>
 </td>
 <td width="60%">
 The operation completed successfully but the copy initiator should verify that all data was transferred.
@@ -156,9 +166,9 @@ The operation completed successfully but the copy initiator should verify that a
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0x10
-
+<dl>
+<dt>0x10</dt>
+</dl>
 </td>
 <td width="60%">
 The operation is in progress. Foreground or background operation state is unknown.
@@ -167,9 +177,9 @@ The operation is in progress. Foreground or background operation state is unknow
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0x11
-
+<dl>
+<dt>0x11</dt>
+</dl>
 </td>
 <td width="60%">
 The operation is in progress in the foreground.
@@ -178,9 +188,9 @@ The operation is in progress in the foreground.
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0x12
-
+<dl>
+<dt>0x12</dt>
+</dl>
 </td>
 <td width="60%">
 The operation is in progress in the background.
@@ -189,20 +199,19 @@ The operation is in progress in the background.
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0x60
-
+<dl>
+<dt>0x60</dt>
+</dl>
 </td>
 <td width="60%">
 The operation was terminated. Possibly by an existing resource reservation.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
-### -field Reserved2 
+### -field Reserved2
 
 Reserved.
 
@@ -235,16 +244,15 @@ The length, in bytes, of the data in <b>SenseData</b>.
 ### -field TransferCountUnits
 
 The byte units applied to <i>TransferCount</i>. Each unit expansion is a exponent in base 2. The multiplier value of <b>TRANSFER_COUNT_UNITS_KIBIBYTES</b>, for example, is 1024 and not 1000. The defined units are the following.
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field TRANSFER_COUNT_UNITS_BYTES
-
+<td width="40%"><a id="TRANSFER_COUNT_UNITS_BYTES"></a><a id="transfer_count_units_bytes"></a><dl>
+<dt><b>TRANSFER_COUNT_UNITS_BYTES</b></dt>
+</dl>
 </td>
 <td width="60%">
 Transfer count is in bytes.
@@ -252,9 +260,9 @@ Transfer count is in bytes.
 </td>
 </tr>
 <tr>
-
-### -field TRANSFER_COUNT_UNITS_KIBIBYTES
-
+<td width="40%"><a id="TRANSFER_COUNT_UNITS_KIBIBYTES"></a><a id="transfer_count_units_kibibytes"></a><dl>
+<dt><b>TRANSFER_COUNT_UNITS_KIBIBYTES</b></dt>
+</dl>
 </td>
 <td width="60%">
 Transfer count is in kilobytes.
@@ -262,9 +270,9 @@ Transfer count is in kilobytes.
 </td>
 </tr>
 <tr>
-
-### -field TRANSFER_COUNT_UNITS_MEBIBYTES
-
+<td width="40%"><a id="TRANSFER_COUNT_UNITS_MEBIBYTES"></a><a id="transfer_count_units_mebibytes"></a><dl>
+<dt><b>TRANSFER_COUNT_UNITS_MEBIBYTES</b></dt>
+</dl>
 </td>
 <td width="60%">
 Transfer count is in megabytes.
@@ -272,9 +280,9 @@ Transfer count is in megabytes.
 </td>
 </tr>
 <tr>
-
-### -field TRANSFER_COUNT_UNITS_GIBIBYTES
-
+<td width="40%"><a id="TRANSFER_COUNT_UNITS_GIBIBYTES"></a><a id="transfer_count_units_gibibytes"></a><dl>
+<dt><b>TRANSFER_COUNT_UNITS_GIBIBYTES</b></dt>
+</dl>
 </td>
 <td width="60%">
 Transfer count is in gigabytes.
@@ -282,9 +290,9 @@ Transfer count is in gigabytes.
 </td>
 </tr>
 <tr>
-
-### -field TRANSFER_COUNT_UNITS_TEBIBYTES
-
+<td width="40%"><a id="TRANSFER_COUNT_UNITS_TEBIBYTES"></a><a id="transfer_count_units_tebibytes"></a><dl>
+<dt><b>TRANSFER_COUNT_UNITS_TEBIBYTES</b></dt>
+</dl>
 </td>
 <td width="60%">
 Transfer count is in terabytes.
@@ -292,9 +300,9 @@ Transfer count is in terabytes.
 </td>
 </tr>
 <tr>
-
-### -field TRANSFER_COUNT_UNITS_PEBIBYTES
-
+<td width="40%"><a id="TRANSFER_COUNT_UNITS_PEBIBYTES"></a><a id="transfer_count_units_pebibytes"></a><dl>
+<dt><b>TRANSFER_COUNT_UNITS_PEBIBYTES</b></dt>
+</dl>
 </td>
 <td width="60%">
 Transfer count is in petabytes.
@@ -302,9 +310,9 @@ Transfer count is in petabytes.
 </td>
 </tr>
 <tr>
-
-### -field TRANSFER_COUNT_UNITS_EXBIBYTES
-
+<td width="40%"><a id="TRANSFER_COUNT_UNITS_EXBIBYTES"></a><a id="transfer_count_units_exbibytes"></a><dl>
+<dt><b>TRANSFER_COUNT_UNITS_EXBIBYTES</b></dt>
+</dl>
 </td>
 <td width="60%">
 Transfer count is in exabytes.
@@ -312,17 +320,16 @@ Transfer count is in exabytes.
 </td>
 </tr>
 <tr>
-
-### -field TRANSFER_COUNT_UNITS_NUMBER_BLOCKS
-
+<td width="40%"><a id="TRANSFER_COUNT_UNITS_NUMBER_BLOCKS"></a><a id="transfer_count_units_number_blocks"></a><dl>
+<dt><b>TRANSFER_COUNT_UNITS_NUMBER_BLOCKS</b></dt>
+</dl>
 </td>
 <td width="60%">
 Transfer count is not an exponent, but in units of logical block length.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field TransferCount
@@ -346,17 +353,18 @@ Sense data returned for the copy operation.
 
 
 ## -remarks
+
+
 If <b>RECEIVE_TOKEN_INFORMATION_HEADER</b> is for a POPULATE TOKEN command operation, and the command completed successfully, a <a href="..\scsi\ns-scsi-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a> structure will also be present after <b>SenseData</b> at an offset of <b>SenseDataFieldLength</b> from the beginning of the <b>SenseData</b> array. The <b>RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</b> structure will contain the token created as a representation of data (ROD) for the range parameters sent with the command.
 
 All multibyte values are in big endian format. Prior to evaluation, these values must be converted to match the endian format of the current platform.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\scsi\ns-scsi-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a>
-</dt>
-</dl>
+
  
 
  

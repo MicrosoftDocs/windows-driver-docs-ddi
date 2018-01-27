@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 04e50a2c-eb85-4fc8-9751-798397eddf95
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _OSVERSIONINFOW, *PRTL_OSVERSIONINFOW, *POSVERSIONINFOW, OSVERSIONINFOW, RTL_OSVERSIONINFOW, *LPOSVERSIONINFOW, OSVERSIONINFO
+ms.keywords: wdm/RTL_OSVERSIONINFOW, kstruct_d_61d86312-0550-4bce-81c8-bb29551cc586.xml, PRTL_OSVERSIONINFOW structure pointer [Kernel-Mode Driver Architecture], OSVERSIONINFOW, *POSVERSIONINFOW, RTL_OSVERSIONINFOW, _OSVERSIONINFOW, kernel.rtl_osversioninfow, *PRTL_OSVERSIONINFOW, RTL_OSVERSIONINFOW structure [Kernel-Mode Driver Architecture], wdm/PRTL_OSVERSIONINFOW, PRTL_OSVERSIONINFOW, OSVERSIONINFO, *LPOSVERSIONINFOW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RTL_OSVERSIONINFOW
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PRTL_OSVERSIONINFOW, *POSVERSIONINFOW, OSVERSIONINFOW, RTL_OSVERSIONINFOW, *LPOSVERSIONINFOW
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	RTL_OSVERSIONINFOW
+product: Windows
+targetos: Windows
+req.typenames: OSVERSIONINFOW, *LPOSVERSIONINFOW, *PRTL_OSVERSIONINFOW, RTL_OSVERSIONINFOW, *POSVERSIONINFOW
 req.product: Windows 10 or later.
 ---
 
 # _OSVERSIONINFOW structure
 
 
-
 ## -description
+
+
 The <b>RTL_OSVERSIONINFOW</b> structure contains operating system version information. The information includes major and minor version numbers, a build number, a platform identifier, and descriptive text about the operating system. The <b>RTL_OSVERSIONINFOW</b> structure is used with <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _OSVERSIONINFOW {
@@ -59,6 +69,9 @@ typedef struct _OSVERSIONINFOW {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwOSVersionInfoSize
 
@@ -91,21 +104,20 @@ The service-pack version string. This member contains a null-terminated string, 
 
 
 ## -remarks
+
+
 For a list of the major and minor version numbers for the various versions of Windows, see <a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a>
+
  
 
  

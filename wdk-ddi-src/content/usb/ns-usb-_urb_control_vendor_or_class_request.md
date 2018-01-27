@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 3d355489-cc70-4fa1-b08f-08ccf84f5490
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _URB_CONTROL_VENDOR_OR_CLASS_REQUEST,
+ms.keywords: _URB_CONTROL_VENDOR_OR_CLASS_REQUEST, usbstrct_d0af3922-2ab9-480d-b508-d7b3ce850f53.xml, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure [Buses], usb/_URB_CONTROL_VENDOR_OR_CLASS_REQUEST, buses._urb_control_vendor_or_class_request, USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: _URB_CONTROL_VENDOR_OR_CLASS_REQUEST
-req.alt-loc: usb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usb.h
+apiname: 
+-	_URB_CONTROL_VENDOR_OR_CLASS_REQUEST
+product: Windows
+targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure
 
 
-
 ## -description
+
+
 The <b>_URB_CONTROL_VENDOR_OR_CLASS_REQUEST</b> structure is used by USB client drivers to issue a vendor or class-specific command to a device, interface, endpoint, or other device-defined target.
 
 
-
 ## -syntax
+
 
 ````
 struct _URB_CONTROL_VENDOR_OR_CLASS_REQUEST {
@@ -67,12 +77,41 @@ struct _URB_CONTROL_VENDOR_OR_CLASS_REQUEST {
 
 ## -struct-fields
 
+
+
+
 ### -field Hdr
 
 Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be one of URB_FUNCTION_CLASS_XXX or URB_FUNCTION_VENDOR_XXX GET_STATUS, and <b>Hdr.Length</b> must be <code>sizeof(_URB_CONTROL_VENDOR_OR_CLASS_REQUEST)</code>.
 
 
+### -field _URB_HEADER
+
+ 
+
+
+### -field _URB
+
+ 
+
+
+### -field UrbLink
+
+Reserved. Do not use.
+
+
+### -field hca
+
+Reserved. Do not use.
+
+
+### -field _URB_HCD_AREA
+
+ 
+
+
 ### -field Reserved
+
 
 
 ### -field TransferFlags
@@ -81,16 +120,15 @@ Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure th
 Specifies zero, one, or a combination of the following flags:
 
 
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field USBD_TRANSFER_DIRECTION_IN
-
+<td width="40%"><a id="USBD_TRANSFER_DIRECTION_IN"></a><a id="usbd_transfer_direction_in"></a><dl>
+<dt><b>USBD_TRANSFER_DIRECTION_IN</b></dt>
+</dl>
 </td>
 <td width="60%">
 Is set to request data from a device. To transfer data to a device, this flag must be clear. The flag must be set if the pipe is an interrupt transfer pipe.
@@ -98,9 +136,9 @@ Is set to request data from a device. To transfer data to a device, this flag mu
 </td>
 </tr>
 <tr>
-
-### -field USBD_SHORT_TRANSFER_OK
-
+<td width="40%"><a id="USBD_SHORT_TRANSFER_OK"></a><a id="usbd_short_transfer_ok"></a><dl>
+<dt><b>USBD_SHORT_TRANSFER_OK</b></dt>
+</dl>
 </td>
 <td width="60%">
 Is set to direct the host controller not to return an error when it receives a packet from the device that is shorter than the maximum packet size for the endpoint. The maximum packet size for the endpoint is reported in the <b>bMaxPacketSize0</b> member  of the <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a> structure (device descriptor) for the default control endpoint. For a non-default control endpoint,  maximum packet size  is set in the <b>wMaxPacketSize</b> member of the <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a> structure (endpoint descriptor).
@@ -118,8 +156,7 @@ This flag should not be set unless USBD_TRANSFER_DIRECTION_IN is also set.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field TransferBufferLength
@@ -135,16 +172,6 @@ Pointer to a resident buffer for the transfer or is <b>NULL</b> if an MDL is sup
 ### -field TransferBufferMDL
 
 Pointer to an MDL that describes a resident buffer or is <b>NULL</b> if a buffer is supplied in <b>TransferBuffer</b>. The contents of the buffer depend on the value of <b>TransferFlags</b>. If USBD_TRANSFER_DIRECTION_IN is specified, the described buffer will contain data read from the device on return from the host controller driver. Otherwise, the buffer contains driver-supplied data for transfer to the device. This MDL must be allocated from nonpaged pool.
-
-
-### -field UrbLink
-
-Reserved. Do not use.
-
-
-### -field hca
-
-Reserved. Do not use.
 
 
 ### -field RequestTypeReservedBits
@@ -173,23 +200,22 @@ Reserved. Do not use.
 
 
 ## -remarks
+
+
 Drivers can use the <b>UsbBuildVendorRequest</b> service routine format this URB.
 
 The reserved members of this structure must be treated as opaque and are reserved for system use.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\usb\ns-usb-_urb.md">URB</a>
-</dt>
-<dt>
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
+
  
 
  

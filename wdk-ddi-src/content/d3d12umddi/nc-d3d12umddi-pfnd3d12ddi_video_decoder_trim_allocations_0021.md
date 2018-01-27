@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2E90B365-8C5D-4586-AAA8-D49CC9BBCF70
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA
+ms.keywords: display.pfnd3d12ddi_video_decoder_trim_allocations, pfnDecoderTrimAllocations callback function [Display Devices], pfnDecoderTrimAllocations, PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021, PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021, d3d12umddi/pfnDecoderTrimAllocations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnDecoderTrimAllocations
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	pfnDecoderTrimAllocations
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
 
 # PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021 callback
 
 
-
 ## -description
+
+
 The <i>pfnDecoderTrimAllocations</i> callback function trims allocations for submissions that are finished.
 
 
-
 ## -prototype
+
 
 ````
 PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021 pfnDecoderTrimAllocations;
@@ -58,15 +68,26 @@ UINT64 APIENTRY* pfnDecoderTrimAllocations(
 
 ## -parameters
 
-### -param hDrvVideoDecoder 
+
+
+
+### -param hdrvDevice
+
+
+
+### -param hDrvVideoDecoder
 
 The video decoder for which to submit this frame.
 
 
-### -param SubmissionID 
+### -param SubmissionID
 
 The submission ID is a monotonically increasing integer value.  The value passed to this method indicates that the submission ID and all earlier values are now complete and the driver may free or re-use resources associated with this ID.
 
 
 ## -remarks
-Applications track command completion.  To allow driver to manage memory, an application calls this method with a <i>SubmissionID</i> parameter to indicate which submissions are complete.</p>
+
+
+Applications track command completion.  To allow driver to manage memory, an application calls this method with a <i>SubmissionID</i> parameter to indicate which submissions are complete.
+
+

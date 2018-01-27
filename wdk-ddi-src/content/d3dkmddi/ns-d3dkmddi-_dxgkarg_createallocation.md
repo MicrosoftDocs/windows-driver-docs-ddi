@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e1464561-b9f2-41aa-921e-84f3a855130f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_CREATEALLOCATION, DXGKARG_CREATEALLOCATION, *INOUT_PDXGKARG_CREATEALLOCATION
+ms.keywords: DXGKARG_CREATEALLOCATION structure [Display Devices], d3dkmddi/DXGKARG_CREATEALLOCATION, DXGKARG_CREATEALLOCATION, display.dxgkarg_createallocation, DmStructs_751430a9-4161-4230-bb97-d09600d48d62.xml, *INOUT_PDXGKARG_CREATEALLOCATION, _DXGKARG_CREATEALLOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_CREATEALLOCATION
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_CREATEALLOCATION
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_CREATEALLOCATION
 ---
 
 # _DXGKARG_CREATEALLOCATION structure
 
 
-
 ## -description
+
+
 The DXGKARG_CREATEALLOCATION structure describes how the display miniport driver should create allocations.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_CREATEALLOCATION {
@@ -58,6 +68,9 @@ typedef struct _DXGKARG_CREATEALLOCATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pPrivateDriverData
 
@@ -89,21 +102,14 @@ typedef struct _DXGKARG_CREATEALLOCATION {
 [in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createallocationflags.md">DXGK_CREATEALLOCATIONFLAGS</a> structure that identifies how to create allocations. Setting all of the bit-field flags to 0 indicates that allocations belong to the device and not to a particular resource.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createallocationflags.md">DXGK_CREATEALLOCATIONFLAGS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createallocationflags.md">DXGK_CREATEALLOCATIONFLAGS</a>
+
  
 
  

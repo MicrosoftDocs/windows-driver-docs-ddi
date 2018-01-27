@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: F1E869AE-2FAF-402F-9C50-58D81E0EFF69
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SENSOR_STATE, SENSOR_STATE
+ms.keywords: SENSOR_STATE, sensors.sensor_state, SensorState_Initializing, SensorState_Idle, SENSOR_STATE enumeration [Sensor Devices], sensorsdef/SENSOR_STATE, SensorState_Active, sensorsdef/SensorState_Error, sensorsdef/SensorState_Initializing, sensorsdef/SensorState_Active, sensorsdef/SensorState_Idle, SensorState_Error
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SENSOR_STATE
-req.alt-loc: Sensorsdef.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Sensorsdef.h
+apiname: 
+-	SENSOR_STATE
+product: Windows
+targetos: Windows
 req.typenames: SENSOR_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SENSOR_STATE enumeration
 
 
-
 ## -description
+
+
 This enumeration represents the valid states of a sensor.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _SENSOR_STATE { 
@@ -57,6 +67,9 @@ typedef enum _SENSOR_STATE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field SensorState_Initializing
 
@@ -77,5 +90,3 @@ Indicates that the sensor is active.
 
 Indicates that the sensor is in an error state.
 
-
-## -remarks

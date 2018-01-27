@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8e3126df-d081-4545-a5db-8637ee27f15b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _STATUS_BLOCK, *PSTATUS_BLOCK, STATUS_BLOCK
+ms.keywords: _STATUS_BLOCK, STATUS_BLOCK, PSTATUS_BLOCK, *PSTATUS_BLOCK, display.status_block, video/STATUS_BLOCK, Video_Structs_90f8dc6a-a666-4976-bc71-edf43b31b6e4.xml, video/PSTATUS_BLOCK, PSTATUS_BLOCK structure pointer [Display Devices], STATUS_BLOCK structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STATUS_BLOCK
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	video.h
+apiname: 
+-	STATUS_BLOCK
+product: Windows
+targetos: Windows
 req.typenames: *PSTATUS_BLOCK, STATUS_BLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _STATUS_BLOCK structure
 
 
-
 ## -description
-The STATUS_BLOCK structure is a substructure within the VIDEO_REQUEST_PACKET structure. A miniport driver's <a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a> function must set the status block of each <a href="wdkgloss.v#wdkgloss.video_request_packet__vrp_#wdkgloss.video_request_packet__vrp_"><i>VRP</i></a> that it gets.
 
+
+The STATUS_BLOCK structure is a substructure within the VIDEO_REQUEST_PACKET structure. A miniport driver's <a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a> function must set the status block of each <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VRP</a> that it gets.
 
 
 ## -syntax
+
 
 ````
 typedef struct _STATUS_BLOCK {
@@ -59,6 +69,9 @@ typedef struct _STATUS_BLOCK {
 
 ## -struct-fields
 
+
+
+
 ### -field Status
 
 Indicates the result of the requested operation. This member might be one of the following status codes:
@@ -66,66 +79,17 @@ Indicates the result of the requested operation. This member might be one of the
 
 
 
-### -field ERROR_INSUFFICIENT_BUFFER
-
-Either the VRP <b>InputBuffer</b> is too small to provide the data required to process the given request or the <b>OutputBuffer</b> is too small to return the requested data.
-
-</dd>
-</dl>
 
 
 
-### -field ERROR_INVALID_FUNCTION
-
-The miniport driver does not handle this request.
-
-</dd>
-</dl>
 
 
 
-### -field ERROR_INVALID_PARAMETER
-
-A parameter in the VRP is invalid.
-
-</dd>
-</dl>
 
 
 
-### -field ERROR_IO_PENDING
-
-An operation has not yet completed.
-
-</dd>
-</dl>
 
 
-
-### -field ERROR_MORE_DATA
-
-The driver has additional data to be returned but has already filled the given VRP <b>OutputBuffer</b>.
-
-</dd>
-</dl>
-
-
-
-### -field ERROR_NOT_ENOUGH_MEMORY
-
-There is insufficient memory to process the request.
-
-</dd>
-</dl>
-
-
-
-### -field NO_ERROR
-
-The requested operation has been carried out and completed successfully.
-
-</dd>
-</dl>
 
 ### -field Pointer
 
@@ -137,18 +101,47 @@ Should be ignored by the miniport driver. This member of the union exists to gua
 Supplies additional information about the completed operation. The meaning of the value varies according to VRP. Generally, this member is used to return the minimum size required for the input buffer if the VRP passes data in the <b>InputBuffer</b>. Alternatively, it contains the number of bytes of data transferred if the requested operation returns data in the VRP <b>OutputBuffer</b>.
 
 
-## -remarks
+##### - Status.ERROR_MORE_DATA
+
+The driver has additional data to be returned but has already filled the given VRP <b>OutputBuffer</b>.
+
+
+##### - Status.ERROR_INVALID_FUNCTION
+
+The miniport driver does not handle this request.
+
+
+##### - Status.ERROR_INSUFFICIENT_BUFFER
+
+Either the VRP <b>InputBuffer</b> is too small to provide the data required to process the given request or the <b>OutputBuffer</b> is too small to return the requested data.
+
+
+##### - Status.ERROR_IO_PENDING
+
+An operation has not yet completed.
+
+
+##### - Status.ERROR_INVALID_PARAMETER
+
+A parameter in the VRP is invalid.
+
+
+##### - Status.NO_ERROR
+
+The requested operation has been carried out and completed successfully.
+
+
+##### - Status.ERROR_NOT_ENOUGH_MEMORY
+
+There is insufficient memory to process the request.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a>
-</dt>
-<dt>
+
 <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
-</dt>
-</dl>
+
+<a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a>
+
  
 
  

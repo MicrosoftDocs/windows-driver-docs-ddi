@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: f9ed28a5-835c-47c8-b9cf-888785013b69
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidD_GetNumInputBuffers
+ms.keywords: HidD_GetNumInputBuffers, hidsdi/HidD_GetNumInputBuffers, hid.hidd_getnuminputbuffers, hidfunc_addf7040-0b62-45bc-8b43-1aa0157924e8.xml, HidD_GetNumInputBuffers routine [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Windo
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HidD_GetNumInputBuffers
-req.alt-loc: Hid.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
-req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Hid.dll
+apiname: 
+-	HidD_GetNumInputBuffers
+product: Windows
+targetos: Windows
+req.typenames: *PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION
 ---
 
 # HidD_GetNumInputBuffers function
 
 
-
 ## -description
+
+
 The <b>HidD_GetNumInputBuffers</b> routine returns the current size, in number of reports, of the ring buffer that the HID class driver uses to queue input reports from a specified <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a>.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN __stdcall HidD_GetNumInputBuffers(
@@ -54,6 +64,9 @@ BOOLEAN __stdcall HidD_GetNumInputBuffers(
 
 
 ## -parameters
+
+
+
 
 ### -param HidDeviceObject [in]
 
@@ -66,27 +79,29 @@ Pointer to a caller-allocated variable that the routine uses to return the maxim
 
 
 ## -returns
+
+
 <b>HidD_GetNumInputBuffers</b> returns <b>TRUE</b> if it succeeds; otherwise, it returns <b>FALSE</b>.
 
 
+
 ## -remarks
+
+
 Only user-mode applications can call <b>HidD_GetNumInputBuffers</b>. Kernel-mode drivers can use the <a href="..\hidclass\ni-hidclass-ioctl_get_num_device_input_buffers.md">IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS</a> request.
 
 For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\hidsdi\nf-hidsdi-hidd_setnuminputbuffers.md">HidD_SetNumInputBuffers</a>
-</dt>
-<dt>
-<a href="..\hidclass\ni-hidclass-ioctl_get_num_device_input_buffers.md">IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS</a>
-</dt>
-<dt>
+
 <a href="..\hidclass\ni-hidclass-ioctl_set_num_device_input_buffers.md">IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS</a>
-</dt>
-</dl>
+
+<a href="..\hidclass\ni-hidclass-ioctl_get_num_device_input_buffers.md">IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS</a>
+
+<a href="..\hidsdi\nf-hidsdi-hidd_setnuminputbuffers.md">HidD_SetNumInputBuffers</a>
+
  
 
  

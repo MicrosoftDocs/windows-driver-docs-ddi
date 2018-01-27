@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 69cc1253-07eb-43cf-abc7-5ad02ecb014d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PsImpersonateClient
+ms.keywords: psref_57279501-1e5a-4113-93ea-a04825989e73.xml, PsImpersonateClient, ntifs/PsImpersonateClient, PsImpersonateClient routine [Installable File System Drivers], ifsk.psimpersonateclient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of the Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PsImpersonateClient
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	PsImpersonateClient
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # PsImpersonateClient function
 
 
-
 ## -description
+
+
 The <b>PsImpersonateClient</b> routine causes a server thread to impersonate a client. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PsImpersonateClient(
@@ -57,6 +67,9 @@ NTSTATUS PsImpersonateClient(
 
 
 ## -parameters
+
+
+
 
 ### -param Thread [in, out]
 
@@ -84,18 +97,43 @@ A <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPE
 
 
 ## -returns
+
+
 <b>PsImpersonateClient</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>It was not possible to impersonate a client because of job restrictions.
+</dl>
+</td>
+<td width="60%">
+It was not possible to impersonate a client because of job restrictions.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>There was insufficient memory to complete the operation.
+</dl>
+</td>
+<td width="60%">
+There was insufficient memory to complete the operation.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>PsImpersonateClient</b> causes the specified server thread to impersonate the specified client. 
 
 The server thread could already be impersonating a client when <b>PsImpersonateClient</b> is called. If this is the case, the reference count on the token representing that client is decremented. To preserve this token for later use, drivers should call <a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a> before calling <b>PsImpersonateClient</b> and save the pointer that is returned by <b>PsReferenceImpersonationToken</b>. 
@@ -115,24 +153,19 @@ The <a href="..\ntifs\nf-ntifs-seimpersonateclientex.md">SeImpersonateClientEx</
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-psgetcurrentthread.md">PsGetCurrentThread</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-psreverttoself.md">PsRevertToSelf</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-seimpersonateclientex.md">SeImpersonateClientEx</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-psreverttoself.md">PsRevertToSelf</a>
+
 <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+
  
 
  

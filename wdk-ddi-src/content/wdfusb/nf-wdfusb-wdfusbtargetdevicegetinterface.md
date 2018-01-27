@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2c7d31a3-081a-420a-ab61-33700155d858
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetDeviceGetInterface
+ms.keywords: kmdf.wdfusbtargetdevicegetinterface, WdfUsbTargetDeviceGetInterface method, PFN_WDFUSBTARGETDEVICEGETINTERFACE, DFUsbRef_b2c7b272-fe4a-4422-9e98-e756cdf3f264.xml, wdf.wdfusbtargetdevicegetinterface, wdfusb/WdfUsbTargetDeviceGetInterface, WdfUsbTargetDeviceGetInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WdfUsbTargetDeviceGetInterface
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll,WUDFx02000.dll,WUDFx02000.dll.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2, UsbKmdfIrql, UsbKmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,20 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+-	WUDFx02000.dll
+-	WUDFx02000.dll.dll
+apiname: 
+-	WdfUsbTargetDeviceGetInterface
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +50,16 @@ req.product: Windows 10 or later.
 # WdfUsbTargetDeviceGetInterface function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfUsbTargetDeviceGetInterface</b> method returns a handle to the framework USB interface object that is associated with a specified interface index.
 
 
-
 ## -syntax
+
 
 ````
 WDFUSBINTERFACE WdfUsbTargetDeviceGetInterface(
@@ -57,6 +70,9 @@ WDFUSBINTERFACE WdfUsbTargetDeviceGetInterface(
 
 
 ## -parameters
+
+
+
 
 ### -param UsbDevice [in]
 
@@ -69,23 +85,25 @@ A zero-based index value that specifies a USB interface object in the current co
 
 
 ## -returns
+
+
 <b>WdfUsbTargetDeviceGetInterface</b> returns a handle to a USB interface object. If the <i>InterfaceIndex</i> value is invalid, this method returns <b>NULL</b>. 
 
 A bug check occurs if a driver-supplied object handle is invalid.
 
 
+
 ## -remarks
+
+
 For more information about the <b>WdfUsbTargetDeviceGetInterface</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
 
-The following code example obtains a handle to the first USB interface object that the framework has created for a USB device. The example then obtains the number of endpoints that are associated with the interface object.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
-</dt>
-</dl>
+
  
 
  

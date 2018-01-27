@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6e7ccf24-6403-44bf-9369-d2825646e950
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_ACQUIREKEYEDMUTEX2, D3DKMT_ACQUIREKEYEDMUTEX2
+ms.keywords: display.d3dkmt_acquirekeyedmutex2, _D3DKMT_ACQUIREKEYEDMUTEX2, D3DKMT_ACQUIREKEYEDMUTEX2, D3DKMT_ACQUIREKEYEDMUTEX2 structure [Display Devices], d3dkmthk/D3DKMT_ACQUIREKEYEDMUTEX2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_ACQUIREKEYEDMUTEX2
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_ACQUIREKEYEDMUTEX2
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_ACQUIREKEYEDMUTEX2
 ---
 
 # _D3DKMT_ACQUIREKEYEDMUTEX2 structure
 
 
-
 ## -description
+
+
 Describes a keyed mutex object that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmutex2.md">D3DKMTAcquireKeyedMutex2</a> function acquires that includes private data.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_ACQUIREKEYEDMUTEX2 {
@@ -58,6 +68,9 @@ typedef struct _D3DKMT_ACQUIREKEYEDMUTEX2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hKeyedMutex
 
@@ -89,15 +102,10 @@ typedef struct _D3DKMT_ACQUIREKEYEDMUTEX2 {
 [in] The size, in bytes, of the <b>pPrivateRuntimeData</b> member.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmutex2.md">D3DKMTAcquireKeyedMutex2</a>
-</dt>
-</dl>
+
  
 
  

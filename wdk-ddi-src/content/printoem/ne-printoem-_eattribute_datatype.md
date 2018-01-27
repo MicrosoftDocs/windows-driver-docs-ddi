@@ -7,8 +7,8 @@ old-location: print\eattribute_datatype.htm
 old-project: print
 ms.assetid: 51d3e768-11b1-411d-89b1-4fec19306b97
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: _EATTRIBUTE_DATATYPE, EATTRIBUTE_DATATYPE
+ms.date: 1/18/2018
+ms.keywords: printoem/kADT_LONG, EATTRIBUTE_DATATYPE, kADT_RECT, printoem/kADT_ASCII, kADT_UNKNOWN, kADT_UNICODE, printoem/kADT_BOOL, printoem/kADT_RECT, kADT_BOOL, printoem/kADT_DWORD, EATTRIBUTE_DATATYPE enumeration [Print Devices], printoem/kADT_UNICODE, kADT_LONG, printoem/kADT_UNKNOWN, kADT_BINARY, printoem/kADT_INT, kADT_INT, print.eattribute_datatype, printoem/kADT_SIZE, _EATTRIBUTE_DATATYPE, printoem/EATTRIBUTE_DATATYPE, kADT_DWORD, kADT_CUSTOMSIZEPARAMS, printoem/kADT_CUSTOMSIZEPARAMS, print_unidrv-pscript_allplugins_6cda9036-f339-4700-808e-06c8867e5ba0.xml, kADT_SIZE, kADT_ASCII, printoem/kADT_BINARY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: EATTRIBUTE_DATATYPE
-req.alt-loc: printoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	printoem.h
+apiname: 
+-	EATTRIBUTE_DATATYPE
+product: Windows
+targetos: Windows
 req.typenames: EATTRIBUTE_DATATYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _EATTRIBUTE_DATATYPE enumeration
 
 
-
 ## -description
+
+
 The EATTRIBUTE_DATATYPE enumerates the possible data types for a global attribute, feature attribute or option attribute.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _EATTRIBUTE_DATATYPE { 
@@ -64,6 +74,9 @@ typedef enum _EATTRIBUTE_DATATYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field kADT_UNKNOWN
 
@@ -120,18 +133,13 @@ The attribute is of type RECT.
 The attribute is an array containing CUSTOMPARAM_MAX (a constant defined in printoem.h) elements. Each element is a <a href="..\printoem\ns-printoem-_customsizeparam.md">CUSTOMSIZEPARAM</a> structure.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\printoem\ns-printoem-_customsizeparam.md">CUSTOMSIZEPARAM</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20EATTRIBUTE_DATATYPE enumeration%20 RELEASE:%20(1/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20EATTRIBUTE_DATATYPE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

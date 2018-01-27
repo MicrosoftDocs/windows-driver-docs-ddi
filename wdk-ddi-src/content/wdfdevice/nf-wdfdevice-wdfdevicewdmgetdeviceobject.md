@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 87a427ae-5c1e-4975-a48f-80c3549a3564
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceWdmGetDeviceObject
+ms.keywords: wdf.wdfdevicewdmgetdeviceobject, WdfDeviceWdmGetDeviceObject, WdfDeviceWdmGetDeviceObject method, wdfdevice/WdfDeviceWdmGetDeviceObject, kmdf.wdfdevicewdmgetdeviceobject, PFN_WDFDEVICEWDMGETDEVICEOBJECT, DFDeviceObjectGeneralRef_b145d3cd-578a-4be9-80d1-b260f5693b3d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfDeviceWdmGetDeviceObject
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfDeviceWdmGetDeviceObject
+product: Windows
+targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WdfDeviceWdmGetDeviceObject function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfDeviceWdmGetDeviceObject</b> method returns the Windows Driver Model (WDM) device object that is associated with a specified framework device object.
 
 
-
 ## -syntax
+
 
 ````
 PDEVICE_OBJECT WdfDeviceWdmGetDeviceObject(
@@ -57,29 +68,40 @@ PDEVICE_OBJECT WdfDeviceWdmGetDeviceObject(
 
 ## -parameters
 
-### -param hDevice [in]
+
+
+
+### -param Device
+
+TBD
+
+
+
+#### - hDevice [in]
 
 A handle to a framework device object.
 
 
 ## -returns
+
+
 <b>WdfDeviceWdmGetDeviceObject</b> returns a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 
+
 ## -remarks
+
+
 The pointer that the <b>WdfDeviceWdmGetDeviceObject</b> method returns is valid until the framework device object is deleted. If the driver provides an <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> function for the framework device object, the pointer is valid until the callback function returns.
 
-The following code example creates a tracing message that contains pointers to the WDM device objects that represent a device's PDO and FDO.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetphysicaldevice.md">WdfDeviceWdmGetPhysicalDevice</a>
-</dt>
-</dl>
+
  
 
  

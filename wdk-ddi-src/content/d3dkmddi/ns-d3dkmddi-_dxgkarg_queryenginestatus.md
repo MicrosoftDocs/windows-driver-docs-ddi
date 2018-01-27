@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f7255c97-5c25-4ee2-988b-ff301878fe7c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_QUERYENGINESTATUS, DXGKARG_QUERYENGINESTATUS, *INOUT_PDXGKARG_QUERYENGINESTATUS
+ms.keywords: _DXGKARG_QUERYENGINESTATUS, d3dkmddi/DXGKARG_QUERYENGINESTATUS, DXGKARG_QUERYENGINESTATUS, display.dxgkarg_queryenginestatus, DXGKARG_QUERYENGINESTATUS structure [Display Devices], *INOUT_PDXGKARG_QUERYENGINESTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_QUERYENGINESTATUS
-req.alt-loc: D3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmddi.h
+apiname: 
+-	DXGKARG_QUERYENGINESTATUS
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_QUERYENGINESTATUS
 ---
 
 # _DXGKARG_QUERYENGINESTATUS structure
 
 
-
 ## -description
+
+
 Used in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryenginestatus.md">DxgkDdiQueryEngineStatus</a> function to specify a node within an active physical adapter (engine) that is to be queried for its progress.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_QUERYENGINESTATUS {
@@ -55,6 +65,9 @@ typedef struct _DXGKARG_QUERYENGINESTATUS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NodeOrdinal
 
@@ -72,18 +85,18 @@ typedef struct _DXGKARG_QUERYENGINESTATUS {
 
 
 ## -remarks
+
+
 For more information, see <a href="https://msdn.microsoft.com/5BC4F94C-2B45-44E2-8BBF-B455BB864A29">TDR changes in Windows 8</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_enginestatus.md">DXGK_ENGINESTATUS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryenginestatus.md">DxgkDdiQueryEngineStatus</a>
-</dt>
-</dl>
+
  
 
  

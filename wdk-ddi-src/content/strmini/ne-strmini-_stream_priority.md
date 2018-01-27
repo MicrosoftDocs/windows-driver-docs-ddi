@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 790A00A5-1107-4686-B690-80D07B69AF62
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _STREAM_PRIORITY, STREAM_PRIORITY, *PSTREAM_PRIORITY
+ms.keywords: LowToHigh, *PSTREAM_PRIORITY, Low, PSTREAM_PRIORITY, strmini/Low, strmini/LowToHigh, STREAM_PRIORITY, stream.stream_priority, PSTREAM_PRIORITY enumeration pointer [Streaming Media Devices], strmini/PSTREAM_PRIORITY, strmini/STREAM_PRIORITY, STREAM_PRIORITY enumeration [Streaming Media Devices], Dispatch, High, _STREAM_PRIORITY, strmini/High, strmini/Dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STREAM_PRIORITY
-req.alt-loc: Strmini.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Strmini.h
+apiname: 
+-	STREAM_PRIORITY
+product: Windows
+targetos: Windows
 req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _STREAM_PRIORITY enumeration
 
 
-
 ## -description
+
+
 TD
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _STREAM_PRIORITY { 
@@ -58,6 +68,9 @@ typedef enum _STREAM_PRIORITY {
 
 
 ## -enum-fields
+
+
+
 
 ### -field High
 
@@ -74,9 +87,7 @@ Medium priority, IRQL equal to dispatch level.
 Lowest priority, IRQL equal to passive or APC level.
 
 
-### -field LowToHigh                   
+### -field LowToHigh
 
 Go from low priority to high priority.
 
-
-## -remarks

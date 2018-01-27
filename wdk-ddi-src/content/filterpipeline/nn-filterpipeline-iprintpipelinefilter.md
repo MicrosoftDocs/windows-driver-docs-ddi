@@ -7,8 +7,8 @@ old-location: print\iprintpipelinefilter.htm
 old-project: print
 ms.assetid: e8841091-1d62-4770-aa85-993b49efbd48
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IXpsPartIterator, IXpsPartIterator::Reset, Reset
+ms.date: 1/18/2018
+ms.keywords: print.iprintpipelinefilter, IPrintPipelineFilter interface [Print Devices], IPrintPipelineFilter interface [Print Devices], described, IPrintPipelineFilter, filterpipeline/IPrintPipelineFilter, filterpipeline_67beec81-fbba-43d2-af2f-ddbc32c68fce.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPrintPipelineFilter
-req.alt-loc: filterpipeline.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,36 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	filterpipeline.h
+apiname: 
+-	IPrintPipelineFilter
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # IPrintPipelineFilter interface
 
 
-
 ## -description
+
+
 The methods in the <code>IPrintPipelineFilter</code> interface are called for initialization and shutdown. A filter must implement these methods.
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintPipelineFilter</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IPrintPipelineFilter</b> also has these types of members:
-
-The <b>IPrintPipelineFilter</b> interface has these methods.
-
-The <code>InitializeFilter</code> method initializes a filter.
-
-The Pipeline Manager uses the <code>ShutdownOperation</code> method to shut down a filter if the print job is canceled or an error occurs.
-
-The <code>StartOperation</code> method starts the operation of a filter. The filter reads, processes, and writes data in this method.
-
- 
-
-
 ## -members
+
 The <b>IPrintPipelineFilter</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -99,5 +95,3 @@ The <code>StartOperation</code> method starts the operation of a filter. The fil
 
  
 
-
-## -remarks

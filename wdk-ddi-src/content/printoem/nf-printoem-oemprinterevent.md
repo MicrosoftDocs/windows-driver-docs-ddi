@@ -7,8 +7,8 @@ old-location: print\oemprinterevent.htm
 old-project: print
 ms.assetid: bbd37342-f0d0-43e0-bc27-1b47c426da6e
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: OEMPrinterEvent
+ms.date: 1/18/2018
+ms.keywords: print_obsoletefunctions_0eaf5d52-f558-401d-a06f-80925e997e3a.xml, OEMPrinterEvent, OEMPrinterEvent function [Print Devices], printoem/OEMPrinterEvent, print.oemprinterevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OEMPrinterEvent
-req.alt-loc: printoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	printoem.h
+apiname: 
+-	OEMPrinterEvent
+product: Windows
+targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
 ---
@@ -38,10 +47,13 @@ req.product: Windows 10 or later.
 # OEMPrinterEvent function
 
 
-
 ## -description
 
+
+
+
 ## -syntax
+
 
 ````
 BOOL APIENTRY OEMPrinterEvent(
@@ -55,16 +67,21 @@ BOOL APIENTRY OEMPrinterEvent(
 
 ## -parameters
 
-### -param pPrinterName 
 
 
-### -param iDriverEvent 
+
+### -param pPrinterName
 
 
-### -param dwFlags 
+
+### -param iDriverEvent
 
 
-### -param lParam 
+
+### -param dwFlags
 
 
-## -remarks
+
+### -param lParam
+
+

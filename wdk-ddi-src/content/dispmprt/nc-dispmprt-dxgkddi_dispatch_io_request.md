@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e1973aca-cbc2-4780-a3b5-7601e1cc6c90
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+ms.keywords: display.dxgkddidispatchiorequest, DxgkDdiDispatchIoRequest callback function [Display Devices], DxgkDdiDispatchIoRequest, DXGKDDI_DISPATCH_IO_REQUEST, DXGKDDI_DISPATCH_IO_REQUEST, dispmprt/DxgkDdiDispatchIoRequest, DmFunctions_17ebc963-6659-4f1b-bd5a-f804c04be8b5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiDispatchIoRequest
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DxgkDdiDispatchIoRequest
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_DISPATCH_IO_REQUEST callback
 
 
-
 ## -description
+
+
 The <i>DxgkDdiDispatchIoRequest</i> function handles I/O control (IOCTL) requests.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_DISPATCH_IO_REQUEST DxgkDdiDispatchIoRequest;
@@ -58,6 +68,9 @@ NTSTATUS DxgkDdiDispatchIoRequest(
 
 
 ## -parameters
+
+
+
 
 ### -param MiniportDeviceContext [in]
 
@@ -75,19 +88,23 @@ A pointer to a <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUES
 
 
 ## -returns
+
+
 <i>DxgkDdiDispatchIoRequest</i> returns STATUS_SUCCESS if it succeeds; otherwise it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
 
+
 ## -remarks
+
+
 The <i>DxgkDdiDispatchIoRequest</i> function should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
-</dt>
-</dl>
+
  
 
  

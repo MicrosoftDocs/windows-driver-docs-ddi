@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2a4dd5a8-e9cc-4404-8031-5091ff2aa50d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsQuerySoftwareBusInterface
+ms.keywords: stream.ksquerysoftwarebusinterface, ksfunc_58ad39a9-6e7b-416b-9ca6-a5a92bb0a7fc.xml, swenum/KsQuerySoftwareBusInterface, KsQuerySoftwareBusInterface function [Streaming Media Devices], KsQuerySoftwareBusInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsQuerySoftwareBusInterface
-req.alt-loc: swenum.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	swenum.h
+apiname: 
+-	KsQuerySoftwareBusInterface
+product: Windows
+targetos: Windows
 req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # KsQuerySoftwareBusInterface function
 
 
-
 ## -description
+
+
 <i>This function is intended for internal use only.</i>
 
-The <b>KsQuerySoftwareBusInterface</b> function creates a buffer from the paged pool and copies the reference string associated with the demand-load bus enumerator object's PDO into the buffer. It is the caller's responsibility to free the buffer using <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>. 
-
+The <b>KsQuerySoftwareBusInterface</b> function creates a buffer from the paged pool and copies the reference string associated with the demand-load bus enumerator object's PDO into the buffer. It is the caller's responsibility to free the buffer using <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>. 
 
 
 ## -syntax
+
 
 ````
 NTSTATUS KsQuerySoftwareBusInterface(
@@ -57,6 +67,9 @@ NTSTATUS KsQuerySoftwareBusInterface(
 
 
 ## -parameters
+
+
+
 
 ### -param PnpDeviceObject [in]
 
@@ -69,25 +82,27 @@ Pointer to the demand-load bus enumerator's interface.
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS if the request is handled. Otherwise, it returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 A minidriver can access this function through the <b>QueryReferenceString</b> member of the BUS_INTERFACE_SWENUM structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\swenum\ns-swenum-_bus_interface_swenum.md">BUS_INTERFACE_SWENUM</a>
-</dt>
-<dt>
+
 <a href="..\swenum\nf-swenum-ksreferencesoftwarebusobject.md">KsReferenceSoftwareBusObject</a>
-</dt>
-<dt>
+
 <a href="..\swenum\nf-swenum-ksdereferencesoftwarebusobject.md">KsDereferenceSoftwareBusObject</a>
-</dt>
-</dl>
+
+<a href="..\swenum\ns-swenum-_bus_interface_swenum.md">BUS_INTERFACE_SWENUM</a>
+
  
 
  

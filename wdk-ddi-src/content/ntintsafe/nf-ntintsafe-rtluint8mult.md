@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3F9E47F5-1DE3-4949-BE92-8C8F571BFD3D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUInt8Mult
+ms.keywords: RtlUInt8Mult, ntintsafe/RtlUInt8Mult, RtlUInt8Mult function [Kernel-Mode Driver Architecture], kernel.rtluint8mult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlUInt8Mult
-req.alt-loc: ntintsafe.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntintsafe.h
+apiname: 
+-	RtlUInt8Mult
+product: Windows
+targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
 
 # RtlUInt8Mult function
 
 
-
 ## -description
+
+
 Multiplies one value of type <b>UINT8</b> by another.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlUInt8Mult(
@@ -55,6 +65,9 @@ NTSTATUS RtlUInt8Mult(
 
 
 ## -parameters
+
+
+
 
 ### -param u8Multiplicand [in]
 
@@ -72,4 +85,8 @@ A pointer to the result. If the operation results in a value that overflows or u
 
 
 ## -remarks
-This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.</p>
+
+
+This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
+

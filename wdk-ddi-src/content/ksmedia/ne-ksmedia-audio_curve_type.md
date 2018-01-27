@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: E3CE3385-8744-4E3F-A5EF-41AC4E3E4375
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: AUDIO_CURVE_TYPE, AUDIO_CURVE_TYPE
+ms.keywords: AUDIO_CURVE_TYPE, AUDIO_CURVE_TYPE_NONE, ksmedia/AUDIO_CURVE_TYPE_NONE, AUDIO_CURVE_TYPE_WINDOWS_FADE, AUDIO_CURVE_TYPE enumeration [Audio Devices], ksmedia/AUDIO_CURVE_TYPE, audio.audio_curve_type, ksmedia/AUDIO_CURVE_TYPE_WINDOWS_FADE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AUDIO_CURVE_TYPE
-req.alt-loc: Ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ksmedia.h
+apiname: 
+-	AUDIO_CURVE_TYPE
+product: Windows
+targetos: Windows
 req.typenames: AUDIO_CURVE_TYPE
 ---
 
 # AUDIO_CURVE_TYPE enumeration
 
 
-
 ## -description
+
+
 The <b>AUDIO_CURVE_TYPE</b> enumeration defines constants that specify a curve algorithm to be applied to set a volume level. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _AUDIO_CURVE_TYPE { 
@@ -54,6 +64,9 @@ typedef enum _AUDIO_CURVE_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field AUDIO_CURVE_TYPE_NONE
 
@@ -66,6 +79,8 @@ Specifies that the algorithm that is applied to the volume setting must follow t
 
 
 ## -remarks
+
+
 The following snippet of pseudocode shows the logic for the algorithm that is applied to the volume setting to reach the target volume level.<pre class="syntax" xml:space="preserve"><code>// POWER IN AMPLITUDE: 1.75
 
 // Fade In:
@@ -103,15 +118,13 @@ And the following diagram shows a graphical representation of the preceding pseu
 <img alt="Graphical representation of volume level curve" src="images/curve_type.png"/>
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-_tagksaudioengine_volumelevel.md">KSAUDIOENGINE_VOLUMELEVEL</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh831855">KSPROPERTY_AUDIOENGINE_VOLUMELEVEL</a>
-</dt>
-</dl>
+
  
 
  

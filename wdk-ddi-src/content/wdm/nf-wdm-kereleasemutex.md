@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d220f913-6111-435d-b617-257edf2a9c68
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeReleaseMutex
+ms.keywords: kernel.kereleasemutex, KeReleaseMutex, k105_4237a9e6-715b-4e40-aab8-9b1458a220ae.xml, wdm/KeReleaseMutex, KeReleaseMutex routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeReleaseMutex
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlKeDispatchLte, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeReleaseMutex
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeReleaseMutex function
 
 
-
 ## -description
+
+
 The <b>KeReleaseMutex</b> routine releases a mutex object, and specifies whether the caller is to call one of the <b>KeWait<i>Xxx</i></b> routines as soon as <b>KeReleaseMutex</b> returns control. 
 
 
-
 ## -syntax
+
 
 ````
 LONG KeReleaseMutex(
@@ -55,6 +65,9 @@ LONG KeReleaseMutex(
 
 
 ## -parameters
+
+
+
 
 ### -param Mutex [in, out]
 
@@ -67,10 +80,15 @@ Specifies whether the call to <b>KeReleaseMutex</b> is to be immediately followe
 
 
 ## -returns
+
+
 If the return value is zero, the mutex object was released and attained a state of <i>signaled</i>.
 
 
+
 ## -remarks
+
+
 For better performance, use fast mutexes or guarded mutexes. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540595">Alternatives to Mutex Objects</a>.
 
 If the mutex object attains a signaled state, an attempt is made to satisfy a wait for the mutex object.
@@ -90,30 +108,23 @@ If a mutex is acquired recursively, the holding thread must call <b>KeReleaseMut
 For more information about mutex objects, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556417">Mutex Objects</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545549">ExReleaseFastMutex</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545567">ExReleaseFastMutexUnsafe</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kereadstatemutex.md">KeReadStateMutex</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-kereadstatemutex.md">KeReadStateMutex</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545567">ExReleaseFastMutexUnsafe</a>
+
  
 
  

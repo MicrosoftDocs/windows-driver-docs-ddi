@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 76B45154-5E81-4515-ADEE-11401FDF4681
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSSTACK_USE, KSSTACK_USE
+ms.keywords: ks/KsStackCopyToNewLocation, stream.ksstack_use, ks/KsStackReuseCurrentLocation, ks/KsStackUseNewLocation, KsStackCopyToNewLocation, KsStackReuseCurrentLocation, KSSTACK_USE, ks/KSSTACK_USE, KSSTACK_USE enumeration [Streaming Media Devices], KsStackUseNewLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSSTACK_USE
-req.alt-loc: Ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ks.h
+apiname: 
+-	KSSTACK_USE
+product: Windows
+targetos: Windows
 req.typenames: KSSTACK_USE
 ---
 
 # KSSTACK_USE enumeration
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: KSSTACK_USE
 
 
 
+
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -56,13 +66,17 @@ typedef enum  {
 
 ## -enum-fields
 
+
+
+
 ### -field KsStackCopyToNewLocation
+
 
 
 ### -field KsStackReuseCurrentLocation
 
 
+
 ### -field KsStackUseNewLocation
 
 
-## -remarks

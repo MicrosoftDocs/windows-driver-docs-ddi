@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: acddecb5-f3e9-413e-a68c-91d71119e0f6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: NpdBrokerUninitialize
+ms.keywords: stream.kstrirplistcallback, KStrIrpListCallback routine [Streaming Media Devices], KStrIrpListCallback, PFNKSIRPLISTCALLBACK, PFNKSIRPLISTCALLBACK, ks/KStrIrpListCallback, ksfunc_90be2b49-883f-476a-9d01-d1e1296844ab.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KStrIrpListCallback
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ks.h
+apiname: 
+-	KStrIrpListCallback
+product: Windows
+targetos: Windows
 req.typenames: KEYWORDSELECTOR
 ---
 
 # PFNKSIRPLISTCALLBACK callback
 
 
-
 ## -description
+
+
 A streaming minidriver's <i>KStrIrpListCallback</i> routine is called to determine whether the passed in IRP should be moved from the source list to the destination list, or if IRP enumeration should be terminated.
 
 
-
 ## -prototype
+
 
 ````
 PFNKSIRPLISTCALLBACK KStrIrpListCallback;
@@ -58,6 +68,9 @@ NTSTATUS KStrIrpListCallback(
 
 ## -parameters
 
+
+
+
 ### -param Irp [in]
 
 Pointer to the IRP to possibly move to the destination list from the source list.
@@ -69,21 +82,25 @@ Passed from <a href="..\ks\nf-ks-ksmoveirpsoncancelablequeue.md">KsMoveIrpsOnCan
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS to indicate the passed in IRP should be moved from the source list to the destination list. Returns STATUS_NO_MATCH if the passed in IRP should not be moved. Returns any other value to terminate enumeration.
 
 
+
 ## -remarks
+
+
 <i>KStrIrpListCallback</i> is called at DISPATCH_LEVEL.
 
 <i>KStrIrpListCallback</i> is always called at least once at the end of list processing with a <b>NULL</b> IRP value in order to complete list processing.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ksmoveirpsoncancelablequeue.md">KsMoveIrpsOnCancelableQueue</a>
-</dt>
-</dl>
+
  
 
  

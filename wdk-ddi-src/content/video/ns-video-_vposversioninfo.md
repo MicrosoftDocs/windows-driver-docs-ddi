@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b6335df5-81d9-4a00-8e97-0ebebb987d32
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VPOSVERSIONINFO, VPOSVERSIONINFO, *PVPOSVERSIONINFO
+ms.keywords: Video_Structs_893105be-4f14-4903-aae1-85ffe8ef8a2b.xml, display.vposversioninfo, _VPOSVERSIONINFO, video/VPOSVERSIONINFO, *PVPOSVERSIONINFO, PVPOSVERSIONINFO structure pointer [Display Devices], VPOSVERSIONINFO structure [Display Devices], PVPOSVERSIONINFO, VPOSVERSIONINFO, video/PVPOSVERSIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VPOSVERSIONINFO
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-req.typenames: VPOSVERSIONINFO, *PVPOSVERSIONINFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	video.h
+apiname: 
+-	VPOSVERSIONINFO
+product: Windows
+targetos: Windows
+req.typenames: *PVPOSVERSIONINFO, VPOSVERSIONINFO
 req.product: Windows 10 or later.
 ---
 
 # _VPOSVERSIONINFO structure
 
 
-
 ## -description
+
+
 The VPOSVERSIONINFO structure contains version information about the currently running operating system.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _VPOSVERSIONINFO {
@@ -59,6 +69,9 @@ typedef struct _VPOSVERSIONINFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -91,17 +104,18 @@ Specifies the minor version number of the latest Service Pack installed on the o
 
 
 ## -remarks
+
+
 This structure is available in Windows XP and later.
 
 To obtain version information about the currently running operating system, a video miniport driver would call the <a href="..\video\nf-video-videoportgetversion.md">VideoPortGetVersion</a> function, which fills in this structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nf-video-videoportgetversion.md">VideoPortGetVersion</a>
-</dt>
-</dl>
+
  
 
  

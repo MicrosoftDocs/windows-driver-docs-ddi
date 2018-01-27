@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 00f8b16c-3ec1-48ac-930b-17aca16cc04f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_LOCK, D3DDDIARG_LOCK
+ms.keywords: d3dumddi/D3DDDIARG_LOCK, display.d3dddiarg_lock, D3DDDIARG_LOCK, _D3DDDIARG_LOCK, D3DDDIARG_LOCK structure [Display Devices], UMDisplayDriver_param_Structs_484ea489-6a0a-466a-b4d2-39d6f0eb5642.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_LOCK
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_LOCK
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_LOCK
 ---
 
 # _D3DDDIARG_LOCK structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_LOCK structure describes a resource or a surface within the resource to lock. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_LOCK {
@@ -64,14 +74,7 @@ typedef struct _D3DDDIARG_LOCK {
 
 ## -struct-fields
 
-### -field hResource
 
-[in] A handle to the resource to be locked. 
-
-
-### -field SubResourceIndex
-
-[in] The zero-based index into the resource, which is specified by the handle that is specified by <b>hResource</b>. This index indicates the subresource or surface to be locked.
 
 
 ### -field Range
@@ -87,6 +90,16 @@ typedef struct _D3DDDIARG_LOCK {
 ### -field Box
 
 [in] A D3DDDIBOX structure that describes the subvolume of the volume to lock.
+
+
+### -field hResource
+
+[in] A handle to the resource to be locked. 
+
+
+### -field SubResourceIndex
+
+[in] The zero-based index into the resource, which is specified by the handle that is specified by <b>hResource</b>. This index indicates the subresource or surface to be locked.
 
 
 ### -field pSurfData
@@ -110,26 +123,35 @@ typedef struct _D3DDDIARG_LOCK {
 
 
 ## -remarks
-The members of the structure that is specified by the <b>Flags</b> member must adhere to the following rules:
 
+
+The members of the structure that is specified by the <b>Flags</b> member must adhere to the following rules:
+<ul>
+<li>
 The <b>ReadOnly</b> and <b>WriteOnly</b> bit-field flags must not be set simultaneously.
 
+</li>
+<li>
 The <b>NoOverwrite</b> bit-field flag must not be simultaneously set with the <b>Discard</b> bit-field flag.
 
+</li>
+<li>
 Only one of the <b>RangeValid</b>, <b>AreaValid</b>, and <b>BoxValid</b> bit-field flags must be set at any time.
 
+</li>
+<li>
 The <b>ReadOnly</b> bit-field flag must not be simultaneously set with the <b>Discard</b> bit-field flag.
+
+</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_lockflags.md">D3DDDI_LOCKFLAGS</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a>
-</dt>
-</dl>
+
  
 
  

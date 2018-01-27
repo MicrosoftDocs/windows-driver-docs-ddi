@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ca9fc65f-299d-4d23-b98e-471daf07f413
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IServiceGroup, IServiceGroup::SupportDelayedService, SupportDelayedService
+ms.keywords: IServiceGroup interface [Audio Devices], SupportDelayedService method, SupportDelayedService method [Audio Devices], IServiceGroup, SupportDelayedService method [Audio Devices], IServiceGroup interface, IServiceGroup::SupportDelayedService, SupportDelayedService, audio.iservicegroup_supportdelayedservice, portcls/IServiceGroup::SupportDelayedService, audmp-routines_6eb53e77-9437-43b5-8a5c-e33e15cb9cf3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IServiceGroup.SupportDelayedService
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IServiceGroup.SupportDelayedService
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IServiceGroup::SupportDelayedService method
 
 
-
 ## -description
+
+
 The <code>SupportDelayedService</code> method indicates that the service group should prepare to support delayed service.
 
 
-
 ## -syntax
+
 
 ````
 VOID SupportDelayedService(
@@ -54,26 +64,34 @@ VOID SupportDelayedService(
 
 ## -parameters
 
-### -param None 
+
+
+
+
+#### - None
+
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The <code>SupportDelayedService</code> method initializes the notification timer that is used for delayed service. Call this method once before making any calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff537003">IServiceGroup::RequestDelayedService</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537003">IServiceGroup::RequestDelayedService</a>
-</dt>
-</dl>
+
  
 
  

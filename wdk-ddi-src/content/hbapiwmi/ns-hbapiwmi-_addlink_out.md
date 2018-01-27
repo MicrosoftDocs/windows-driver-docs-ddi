@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fe088ec7-2577-488d-a1c7-a7e2a1f86f6a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _AddLink_OUT, *PAddLink_OUT, AddLink_OUT
+ms.keywords: structs-Fibre_5f49a86f-a59f-4572-bfa2-5bb78dfe599b.xml, hbapiwmi/AddLink_OUT, hbapiwmi/PAddLink_OUT, AddLink_OUT, AddLink_OUT structure [Storage Devices], _AddLink_OUT, PAddLink_OUT, PAddLink_OUT structure pointer [Storage Devices], *PAddLink_OUT, storage.addlink_out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AddLink_OUT
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	AddLink_OUT
+product: Windows
+targetos: Windows
 req.typenames: *PAddLink_OUT, AddLink_OUT
 ---
 
 # _AddLink_OUT structure
 
 
-
 ## -description
+
+
 The AddLink_OUT structure is used by an HBA miniport driver to report the status of a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550128">AddLink</a> WMI method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _AddLink_OUT {
@@ -54,27 +64,29 @@ typedef struct _AddLink_OUT {
 
 ## -struct-fields
 
+
+
+
 ### -field HBAStatus
 
 Contains a value associated with the WMI class qualifier <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the result of an HBA query operation.
 
 
 ## -remarks
+
+
 The WMI tool suite generates a declaration of the AddLink_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562490">MSFC_EventControl WMI Class</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550128">AddLink</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550128">AddLink</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562490">MSFC_EventControl WMI Class</a>
-</dt>
-</dl>
+
  
 
  

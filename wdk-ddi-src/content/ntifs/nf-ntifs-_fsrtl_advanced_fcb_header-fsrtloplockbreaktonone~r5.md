@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9604c9bf-f15e-49fd-82c8-90a4a5cc1ba0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlOplockBreakToNone
+ms.keywords: ifsk.fsrtloplockbreaktonone, fsrtlref_8d6206fb-3cc8-4f43-83b1-266c398f933e.xml, FsRtlOplockBreakToNone function [Installable File System Drivers], ntifs/FsRtlOplockBreakToNone, FsRtlOplockBreakToNone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlOplockBreakToNone
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FsRtlOplockBreakToNone
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlOplockBreakToNone function
 
 
-
 ## -description
+
+
 The <b>FsRtlOplockBreakToNone</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockbreaktononeex~r5.md">FsRtlOplockBreakToNoneEx</a> instead.
 
 
-
 ## -syntax
+
 
 ````
   FsRtlOplockBreakToNone(
@@ -54,9 +64,39 @@ The <b>FsRtlOplockBreakToNone</b> routine is obsolete, but is exported to suppor
 
 ## -parameters
 
-### -param  
-
-Reserved.
 
 
-## -remarks
+
+### -param Oplock
+
+TBD
+
+
+### -param IrpSp
+
+TBD
+
+
+### -param Irp
+
+TBD
+
+
+### -param Context
+
+TBD
+
+
+### -param CompletionRoutine
+
+TBD
+
+
+### -param PostIrpRoutine
+
+TBD
+
+
+
+
+

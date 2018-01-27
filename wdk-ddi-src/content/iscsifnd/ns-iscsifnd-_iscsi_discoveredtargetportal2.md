@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 68128d39-2490-4c6b-8780-e5aa542a4e3d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ISCSI_DiscoveredTargetPortal2, ISCSI_DiscoveredTargetPortal2, *PISCSI_DiscoveredTargetPortal2
+ms.keywords: iscsifnd/ISCSI_DiscoveredTargetPortal2, ISCSI_DiscoveredTargetPortal2, PISCSI_DiscoveredTargetPortal2 structure pointer [Storage Devices], ISCSI_DiscoveredTargetPortal2 structure [Storage Devices], storage.iscsi_discoveredtargetportal2, *PISCSI_DiscoveredTargetPortal2, _ISCSI_DiscoveredTargetPortal2, iscsifnd/PISCSI_DiscoveredTargetPortal2, structs-iSCSI_bbb760ce-7dc5-4f04-880e-3ff53921ed78.xml, PISCSI_DiscoveredTargetPortal2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ISCSI_DiscoveredTargetPortal2
-req.alt-loc: iscsifnd.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsifnd.h
+apiname: 
+-	ISCSI_DiscoveredTargetPortal2
+product: Windows
+targetos: Windows
 req.typenames: ISCSI_DiscoveredTargetPortal2, *PISCSI_DiscoveredTargetPortal2
 ---
 
 # _ISCSI_DiscoveredTargetPortal2 structure
 
 
-
 ## -description
+
+
 The ISCSI_DiscoveredTargetPortal2 structure provides information that is associated with a discovered target portal. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ISCSI_DiscoveredTargetPortal2 {
@@ -58,6 +68,9 @@ typedef struct _ISCSI_DiscoveredTargetPortal2 {
 
 ## -struct-fields
 
+
+
+
 ### -field Socket
 
 The socket number of the portal. 
@@ -71,7 +84,6 @@ The network address of the portal.
 ### -field SecurityBitmap
 
 A bitmap, which is defined in the <i>iSNS specification</i>, that indicates the security characteristics of logon connections that are made to this target portal. The following table describes possible security flag values. 
-
 <table>
 <tr>
 <th>Security flags</th>
@@ -147,8 +159,7 @@ The other mask values are valid. If this bit is not set security flags are not s
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 For more information about how to configure the default security characteristics that are assigned of the target portal in the registry, see the Remarks section.
 
@@ -164,6 +175,8 @@ A variable-length array of characters that contains the encryption key that is a
 
 
 ## -remarks
+
+
 The ISCSI_DiscoveredTargetPortal2 structure is a superset of the information that is provided by the <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal.md">ISCSI_DiscoveredTargetPortal</a> structure, which only defines the target portal address. In addition to the network address of the target portal, the ISCSI_DiscoveredTargetPortal2 structure contains information about the target portal's security characteristics.
 
 If the iSNS server does not assign a security bitmap to the target portal, the operating system associates the bitmap in the <b>DefaultSecurityBitmap</b> registry value with the portal. The <b>DefaultSecurityBitmap</b> registry value is located under the following registry key: <b>HKLM\Software\Microsoft\Windows NT\Current Version\ISCSI\Discovery Values</b>. 
@@ -175,18 +188,15 @@ In general, management applications should use the iSCSI client PSKey command to
 The WMI tool suite automatically generates a declaration of the ISCSI_DiscoveredTargetPortal2 structure when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561524">ISCSI_DiscoveredTargetPortal WMI Class</a> in <i>Discover.mof</i>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal.md">ISCSI_DiscoveredTargetPortal</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561524">ISCSI_DiscoveredTargetPortal WMI Class</a>
-</dt>
-<dt>
+
+<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal.md">ISCSI_DiscoveredTargetPortal</a>
+
 <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
-</dt>
-</dl>
+
  
 
  

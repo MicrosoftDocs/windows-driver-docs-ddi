@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 304df6fb-8586-454a-a89a-24ac8848d3a1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortPause
+ms.keywords: StorPortPause routine [Storage Devices], storprt_0d8b3555-f061-4320-948e-f8db6a204d0e.xml, storport/StorPortPause, storage.storportpause, StorPortPause
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortPause
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortPause
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortPause function
 
 
-
 ## -description
+
+
 The <b>StorPortPause</b> routine pauses an adapter for the specified period of time. 
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API BOOLEAN StorPortPause(
@@ -56,30 +67,43 @@ STORPORT_API BOOLEAN StorPortPause(
 
 ## -parameters
 
+
+
+
 ### -param HwDeviceExtension [in]
 
 Pointer to the hardware device extension of the adapter to pause. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
 
-### -param TimeOut [in]
+### -param Timeout
+
+TBD
+
+
+
+#### - TimeOut [in]
 
 Specifies the interval of time, in seconds, that the adapter is to be paused. 
 
 
 ## -returns
+
+
 <b>StorPortPause</b> returns <b>TRUE</b> if the miniport driver succeeded in pausing the adapter, <b>FALSE</b> if not. 
 
 
+
 ## -remarks
+
+
 All requests to the adapter are held until the time-out expires or the device resumes. All requests to all targets attached to the adapter will be held until the adapter is resumed or the time-out expires.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\nf-storport-storportresume.md">StorPortResume</a>
-</dt>
-</dl>
+
  
 
  

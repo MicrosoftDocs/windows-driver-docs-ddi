@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1D47C803-693B-4205-9D25-82489BFEC82C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE, *PPEP_PREPARE_DEVICE
+ms.keywords: PEP_PREPARE_DEVICE, pepfx/PPEP_PREPARE_DEVICE, _PEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_PREPARE_DEVICE structure pointer [Kernel-Mode Driver Architecture], *PPEP_PREPARE_DEVICE, kernel.pep_prepare_device, pepfx/PEP_PREPARE_DEVICE, PPEP_PREPARE_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_PREPARE_DEVICE
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: PEP_PREPARE_DEVICE, *PPEP_PREPARE_DEVICE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_PREPARE_DEVICE
+product: Windows
+targetos: Windows
+req.typenames: *PPEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE
 ---
 
 # _PEP_PREPARE_DEVICE structure
 
 
-
 ## -description
+
+
 The <b>PEP_PREPARE_DEVICE</b> structure identifies a device that must be started up in preparation for its use by the operating system.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_PREPARE_DEVICE {
@@ -54,6 +64,9 @@ typedef struct _PEP_PREPARE_DEVICE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DeviceId
 
@@ -66,18 +79,18 @@ typedef struct _PEP_PREPARE_DEVICE {
 
 
 ## -remarks
+
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186832">PEP_DPM_PREPARE_DEVICE</a> notification. The <b>DeviceId</b> member of the structure contains an input value that is supplied by the Windows <a href="https://msdn.microsoft.com/9F2D8ACD-44D5-46E0-9FC7-1B38B99450FF">power management framework</a> (PoFx). The <b>DeviceAccepted</b> member contains an output value that the PEP writes to the structure in response to this notification.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186832">PEP_DPM_PREPARE_DEVICE</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
  
 
  

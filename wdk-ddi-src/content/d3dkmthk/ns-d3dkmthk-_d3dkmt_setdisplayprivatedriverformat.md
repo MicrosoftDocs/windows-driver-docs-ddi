@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a99a3b15-8c91-4aef-a82c-665c8494fa57
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT
+ms.keywords: OpenGL_Structs_c5440fbe-47f2-43eb-ae09-e9295bfa4bad.xml, display.d3dkmt_setdisplayprivatedriverformat, D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT structure [Display Devices], _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, d3dkmthk/D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT
 ---
 
 # _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT structure
 
 
-
 ## -description
+
+
 The D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT structure describes the private-format attribute to set for a video present source. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT {
@@ -55,6 +65,9 @@ typedef struct _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -71,15 +84,10 @@ typedef struct _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT {
 [in] A UINT value that specifies the private-format attribute to set for the video present source that the <b>VidPnSourceId</b> member specifies. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetdisplayprivatedriverformat.md">D3DKMTSetDisplayPrivateDriverFormat</a>
-</dt>
-</dl>
+
  
 
  

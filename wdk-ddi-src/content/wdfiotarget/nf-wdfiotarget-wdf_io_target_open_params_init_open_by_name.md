@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e84652c5-a234-4336-92f3-827f965865f8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME
+ms.keywords: DFIOTargetRef_fd8afc87-6dae-469e-906f-f2fa99aba08e.xml, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME, wdf.wdf_io_target_open_params_init_open_by_name, kmdf.wdf_io_target_open_params_init_open_by_name, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME function, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME
-req.alt-loc: wdfiotarget.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,25 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-req.typenames: WDF_IO_TARGET_STATE, *PWDF_IO_TARGET_STATE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfiotarget.h
+apiname: 
+-	WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME
+product: Windows
+targetos: Windows
+req.typenames: *PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE
 req.product: Windows 10 or later.
 ---
 
 # WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME</b> function initializes a driver's <a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a> structure so the driver can open an I/O target by specifying the name of the device, file, or device interface. If the supplied name does not exist, the system will not try to create it.
 
 
-
 ## -syntax
+
 
 ````
 VOID WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME(
@@ -58,6 +68,9 @@ VOID WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME(
 
 
 ## -parameters
+
+
+
 
 ### -param Params [out]
 
@@ -75,10 +88,15 @@ A value for the <b>DesiredAccess</b> member of the <a href="..\wdfiotarget\ns-wd
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 If <i>TargetDeviceName</i> specifies the name of a file that already exists, the system opens the existing file. If the file does not exist, the open operation fails.
 
 The <a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a> structure is used as input to the <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a> method.
@@ -90,35 +108,25 @@ The <b>WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME</b> function initializes the 
 
 
 
-<b>KMDF </b>The <b>WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME</b> function initializes the <b>CreateDisposition</b> member to <b>FILE_OPEN</b>.
-
 
 <b>UMDF </b>The <b>WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME</b> function initializes the <b>CreateDisposition</b> member to <b>OPEN_EXISTING</b>.
 
 
-
-<b>UMDF </b>The <b>WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME</b> function initializes the <b>CreateDisposition</b> member to <b>OPEN_EXISTING</b>.
 
 For more information about I/O targets, see <a href="https://msdn.microsoft.com/77fd1b64-c3a9-4e12-ac69-0e3725695795">Using I/O Targets</a>.
 
-For a code example that uses <b>WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME</b>, see <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a>
-</dt>
-<dt>
-<a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_existing_device.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE</a>
-</dt>
-<dt>
-<a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_create_by_name.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME</a>
-</dt>
-<dt>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
-</dt>
-</dl>
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_create_by_name.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME</a>
+
+<a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a>
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_existing_device.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE</a>
+
  
 
  

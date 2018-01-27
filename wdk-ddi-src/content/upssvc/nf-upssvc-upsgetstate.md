@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: c60284ff-ebbd-455d-949c-e6d31ce65d5d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: UPSGetState
+ms.keywords: upssvc/UPSGetState, UPSGetState function [Battery Devices], UPS_fns_27023786-6c6e-43fe-96cb-0f298fec5ff1.xml, UPSGetState, battery.upsgetstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UPSGetState
-req.alt-loc: Upssvc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Upssvc.h
+apiname: 
+-	UPSGetState
+product: Windows
+targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # UPSGetState function
 
 
-
 ## -description
+
+
 The <b>UPSGetState</b> function returns the operational state of the UPS.
 
 
-
 ## -syntax
+
 
 ````
 DWORD UPSGetState(
@@ -55,28 +65,73 @@ DWORD UPSGetState(
 
 ## -parameters
 
-### -param  
 
-None
+
+
+
+
 
 
 ## -returns
+
+
 The <b>UPSGetState</b> function returns one of the following DWORD values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>UPS_ONLINE </b></dt>
-</dl>Utility-supplied power is normal.
+</dl>
+</td>
+<td width="60%">
+Utility-supplied power is normal.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>UPS_ONBATTERY</b></dt>
-</dl>Utility-supplied power is inadequate, and the UPS batteries are discharging.
+</dl>
+</td>
+<td width="60%">
+Utility-supplied power is inadequate, and the UPS batteries are discharging.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>UPS_LOWBATTERY</b></dt>
-</dl>Utility-supplied power is inadequate, and the UPS batteries are critically low.
+</dl>
+</td>
+<td width="60%">
+Utility-supplied power is inadequate, and the UPS batteries are critically low.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>UPS_NOCOMM</b></dt>
-</dl>Communication with the UPS is not currently established.
+</dl>
+</td>
+<td width="60%">
+Communication with the UPS is not currently established.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-This is a nonblocking call. </p>
+
+
+This is a nonblocking call. 
+
+

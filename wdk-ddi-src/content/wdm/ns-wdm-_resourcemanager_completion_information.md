@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c3b866c2-5908-418e-8744-9f8f22cdc88a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _RESOURCEMANAGER_COMPLETION_INFORMATION, *PRESOURCEMANAGER_COMPLETION_INFORMATION, RESOURCEMANAGER_COMPLETION_INFORMATION
+ms.keywords: *PRESOURCEMANAGER_COMPLETION_INFORMATION, kernel.resourcemanager_completion_information, ktm_ref_8a799d2d-405f-4ee9-bb2d-010c131666d0.xml, _RESOURCEMANAGER_COMPLETION_INFORMATION, RESOURCEMANAGER_COMPLETION_INFORMATION, RESOURCEMANAGER_COMPLETION_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/RESOURCEMANAGER_COMPLETION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later operating system
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RESOURCEMANAGER_COMPLETION_INFORMATION
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PRESOURCEMANAGER_COMPLETION_INFORMATION, RESOURCEMANAGER_COMPLETION_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	RESOURCEMANAGER_COMPLETION_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: RESOURCEMANAGER_COMPLETION_INFORMATION, *PRESOURCEMANAGER_COMPLETION_INFORMATION
 req.product: Windows 10 or later.
 ---
 
 # _RESOURCEMANAGER_COMPLETION_INFORMATION structure
 
 
-
 ## -description
-The <b>RESOURCEMANAGER_COMPLETION_INFORMATION</b> structure is not used. 
 
+
+The <b>RESOURCEMANAGER_COMPLETION_INFORMATION</b> structure is not used. 
 
 
 ## -struct-fields
 
-
-## -remarks

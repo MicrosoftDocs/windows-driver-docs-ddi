@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 28f0e98f-1f7b-4dcf-8151-e13981634617
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlSupportsPerFileContexts
+ms.keywords: fsrtlref_98e99a7a-c80d-43d5-a0f6-3eea35a8d20a.xml, FsRtlSupportsPerFileContexts, ntifs/FsRtlSupportsPerFileContexts, FsRtlSupportsPerFileContexts function [Installable File System Drivers], ifsk.fsrtlsupportsperfilecontexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlSupportsPerFileContexts
-req.alt-loc: Ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ntifs.h
 req.dll: 
 req.irql: Any
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntifs.h
+apiname: 
+-	FsRtlSupportsPerFileContexts
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlSupportsPerFileContexts macro
 
 
-
 ## -description
+
+
 The <b>FsRtlSupportsPerFileContexts</b> macro checks if per file context information is supported by the file system that is associated with a specified <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlSupportsPerFileContexts(
@@ -54,24 +64,34 @@ BOOLEAN FsRtlSupportsPerFileContexts(
 
 ## -parameters
 
-### -param FileObject 
+
+
+
+### -param _fo
+
+TBD
+
+
+
+
+#### - FileObject
 
 A FILE_OBJECT that is associated with the file system to be checked.
 
 
 ## -remarks
+
+
 None
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: print\oembitblt.htm
 old-project: print
 ms.assetid: d47e1bdb-2c91-4f73-b742-5312d989781a
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: OEMBitBlt
+ms.date: 1/18/2018
+ms.keywords: OEMBitBlt function [Print Devices], print.oembitblt, print_unidrv-pscript_rendering_972c744c-971c-423f-a4fe-92b87cef8094.xml, printoem/OEMBitBlt, OEMBitBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OEMBitBlt
-req.alt-loc: printoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	printoem.h
+apiname: 
+-	OEMBitBlt
+product: Windows
+targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # OEMBitBlt function
 
 
-
 ## -description
-The <code>OEMBitBlt</code> function provides general bit-block transfer capabilities between <a href="wdkgloss.d#wdkgloss.device-managed_surface#wdkgloss.device-managed_surface"><i>device-managed surfaces</i></a>, between GDI-managed standard-format bitmaps, or between a device-managed surface and a GDI-managed standard-format bitmap.
 
+
+The <code>OEMBitBlt</code> function provides general bit-block transfer capabilities between <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device-managed surfaces</a>, between GDI-managed standard-format bitmaps, or between a device-managed surface and a GDI-managed standard-format bitmap.
 
 
 ## -syntax
+
 
 ````
 BOOL  APIENTRY OEMBitBlt(
@@ -65,37 +75,49 @@ BOOL  APIENTRY OEMBitBlt(
 
 ## -parameters
 
-### -param psoTrg 
 
 
-### -param psoSrc 
+
+### -param psoTrg
 
 
-### -param psoMask 
+
+### -param psoSrc
 
 
-### -param pco 
+
+### -param psoMask
 
 
-### -param pxlo 
+
+### -param pco
 
 
-### -param prclTrg 
+
+### -param pxlo
 
 
-### -param pptlSrc 
+
+### -param prclTrg
 
 
-### -param pptlMask 
+
+### -param pptlSrc
 
 
-### -param pbo 
+
+### -param pptlMask
 
 
-### -param pptlBrush 
+
+### -param pbo
 
 
-### -param rop4 
+
+### -param pptlBrush
 
 
-## -remarks
+
+### -param rop4
+
+

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0a9685f8-f201-4d1b-aef6-c4ac78100a80
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_KERNELOVERLAYINFO, D3DDDI_KERNELOVERLAYINFO
+ms.keywords: _D3DDDI_KERNELOVERLAYINFO, d3dukmdt/D3DDDI_KERNELOVERLAYINFO, D3D_other_Structs_ee8ebc87-60be-4b70-8428-4db20bcbdaa0.xml, display.d3dddi_kerneloverlayinfo, D3DDDI_KERNELOVERLAYINFO structure [Display Devices], D3DDDI_KERNELOVERLAYINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_KERNELOVERLAYINFO
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_KERNELOVERLAYINFO
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_KERNELOVERLAYINFO
 ---
 
 # _D3DDDI_KERNELOVERLAYINFO structure
 
 
-
 ## -description
+
+
 The D3DDDI_KERNELOVERLAYINFO structure describes information for a kernel-mode overlay object.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_KERNELOVERLAYINFO {
@@ -57,6 +67,9 @@ typedef struct _D3DDDI_KERNELOVERLAYINFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hAllocation
 
@@ -83,21 +96,14 @@ typedef struct _D3DDDI_KERNELOVERLAYINFO {
 [in] The size, in bytes, of the block of private data that is pointed to by <b>pPrivateDriverData</b>.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddirect.md">D3DDDIRECT</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlaycb.md">pfnUpdateOverlayCb</a>
-</dt>
-</dl>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddirect.md">D3DDDIRECT</a>
+
  
 
  

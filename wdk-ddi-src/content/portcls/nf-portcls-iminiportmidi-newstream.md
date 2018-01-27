@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6760c893-0574-4fb1-b714-d506ebbd0872
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportMidi, IMiniportMidi::NewStream, NewStream
+ms.keywords: NewStream method [Audio Devices], IMiniportMidi interface [Audio Devices], NewStream method, IMiniportMidi, audmp-routines_4cc2fc38-bf0b-467e-83d4-678189d8fc0f.xml, portcls/IMiniportMidi::NewStream, NewStream, IMiniportMidi::NewStream, NewStream method [Audio Devices], IMiniportMidi interface, audio.iminiportmidi_newstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportMidi.NewStream
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IMiniportMidi.NewStream
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportMidi::NewStream method
 
 
-
 ## -description
+
+
 The <code>NewStream</code> method creates a new instance of a logical stream associated with a specified physical channel.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS NewStream(
@@ -59,6 +69,9 @@ NTSTATUS NewStream(
 
 
 ## -parameters
+
+
+
 
 ### -param Stream [out]
 
@@ -96,36 +109,35 @@ Output pointer for the service group. This parameter points to a caller-allocate
 
 
 ## -returns
+
+
 <code>NewStream</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 The <code>NewStream</code> method sets the initial state of the stream to KSSTATE_STOP.
 
 The <i>Stream</i>, <i>OuterUnknown</i>, and <i>ServiceGroup</i> parameters follow the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
-</dt>
-<dt>
-<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
-</dt>
-<dt>
+
+<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
+
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-</dt>
-<dt>
+
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
+
  
 
  

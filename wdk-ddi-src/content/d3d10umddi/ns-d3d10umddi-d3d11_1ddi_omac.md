@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6807f32a-0e63-4603-abfb-b35d0d0d5f8c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_OMAC, D3D11_1DDI_OMAC
+ms.keywords: d3d10umddi/D3D11_1DDI_OMAC, D3D11_1DDI_OMAC, D3D11_1DDI_OMAC structure [Display Devices], display.d3d11_1ddi_omac
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDI_OMAC
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDI_OMAC
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_OMAC
 ---
 
 # D3D11_1DDI_OMAC structure
 
 
-
 ## -description
+
+
 Contains a Message Authentication Code (MAC).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D11_1DDI_OMAC {
@@ -54,9 +64,10 @@ typedef struct D3D11_1DDI_OMAC {
 
 ## -struct-fields
 
+
+
+
 ### -field Omac
 
 A byte array that contains the cryptographic MAC value of the message.
 
-
-## -remarks

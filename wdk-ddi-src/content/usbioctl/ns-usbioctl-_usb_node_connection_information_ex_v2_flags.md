@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F066CE0E-3247-4C42-9EF6-8A6EB0C0BC71
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, *PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS
+ms.keywords: PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, *PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS union pointer [Buses], _USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, usbioctl/USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, buses.usb_node_connection_information_ex_v2_flags, usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS union [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS
-req.alt-loc: Usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Usbioctl.h
+apiname: 
+-	USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: *PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,8 +47,9 @@ req.product: Windows 10 or later.
 # _USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS structure
 
 
-
 ## -description
+
+
 The <b>USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS</b> union is used to indicate the speed at which a USB 3.0  device is currently operating and whether it can operate at higher speed, when attached to a particular port. 
 
 Device speed information is obtained in the <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex_v2.md">USB_NODE_CONNECTION_INFORMATION_EX_V2</a> structure by the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex_v2.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</a> I/O control request.
@@ -47,8 +57,8 @@ Device speed information is obtained in the <a href="..\usbioctl\ns-usbioctl-_us
 Or: the speed in which a device attached to a port is currently operating and at what speeds it is capable of operating.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS {
@@ -64,9 +74,7 @@ typedef union _USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS {
 
 ## -struct-fields
 
-### -field ul
 
-A bitmask that indicates the USB speed of the device that is attached to the port.
 
 
 ### -field DeviceIsOperatingAtSuperSpeedOrHigher
@@ -79,23 +87,32 @@ If <b>TRUE</b>, the attached device is currently operating at SuperSpeed or a hi
 If <b>TRUE</b>, the attached device is a USB 3.0 device and is capable of operating at SuperSpeed or a higher speed that is defined by the official USB specification.
 
 
+### -field DeviceIsOperatingAtSuperSpeedPlusOrHigher
+
+ 
+
+
+### -field DeviceIsSuperSpeedPlusCapableOrHigher
+
+ 
+
+
 ### -field ReservedMBZ
 
 Reserved. Do not use.
 
 
-## -remarks
+### -field ul
+
+A bitmask that indicates the USB speed of the device that is attached to the port.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex_v2_flags.md">USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS</a>
-</dt>
-<dt>
+
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex_v2.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</a>
-</dt>
-</dl>
+
+<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex_v2_flags.md">USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS</a>
+
  
 
  

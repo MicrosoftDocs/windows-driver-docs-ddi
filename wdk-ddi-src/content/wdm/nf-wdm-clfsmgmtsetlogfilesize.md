@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 76588bdd-ceb8-4c8b-bcd7-23184feacf86
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsMgmtSetLogFileSize
+ms.keywords: Clfs_management_a4f0865a-5c4b-411b-a8a5-349b49c1528b.xml, ClfsMgmtSetLogFileSize, wdm/ClfsMgmtSetLogFileSize, kernel.clfsmgmtsetlogfilesize, ClfsMgmtSetLogFileSize routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Server 2003 R2 and 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ClfsMgmtSetLogFileSize
-req.alt-loc: Clfs.sys,Ext-MS-Win-fs-clfs-l1-1-0.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Clfs.sys
+-	Ext-MS-Win-fs-clfs-l1-1-0.dll
+apiname: 
+-	ClfsMgmtSetLogFileSize
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ClfsMgmtSetLogFileSize function
 
 
-
 ## -description
+
+
 The <b>ClfsMgmtSetLogFileSize</b> routine adds containers to a log or deletes containers from a log.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ClfsMgmtSetLogFileSize(
@@ -59,6 +70,9 @@ NTSTATUS ClfsMgmtSetLogFileSize(
 
 ## -parameters
 
+
+
+
 ### -param LogFile [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents the CLFS log, or a stream within the log, to which containers are being added or deleted.
@@ -67,7 +81,6 @@ A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> struc
 ### -param NewSizeInContainers [in]
 
 A pointer to the requested log size. The caller sets this parameter to one of the following values.
-
 <table>
 <tr>
 <th>Value</th>
@@ -116,8 +129,7 @@ If a maximum size policy is installed, the log expands to the maximum number of 
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 To determine the actual log size, which might be different from the requested size, use the <i>ResultingSizeInContainers</i> parameter.
 
@@ -138,47 +150,110 @@ A pointer to the resulting log size. If successful, the routine writes the actua
 
 
 ## -returns
+
+
 The <b>ClfsMgmtSetLogFileSize</b> routine returns one of the following NTSTATUS values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The log file size has been set. The <i>ResultingSizeInContainers</i> parameter contains the current size of the log.
+</dl>
+</td>
+<td width="60%">
+The log file size has been set. The <i>ResultingSizeInContainers</i> parameter contains the current size of the log.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>CLFS management was not able to set the log file size.
+</dl>
+</td>
+<td width="60%">
+CLFS management was not able to set the log file size.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER_1</b></dt>
-</dl>The value of the <i>LogFile</i> parameter is <b>NULL</b>, or the contents of the <i>NewSizeInContainers</i> parameter is 1.
+</dl>
+</td>
+<td width="60%">
+The value of the <i>LogFile</i> parameter is <b>NULL</b>, or the contents of the <i>NewSizeInContainers</i> parameter is 1.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER_2</b></dt>
-</dl>The value of the <i>NewSizeInContainers</i> parameter is <b>NULL</b>.
+</dl>
+</td>
+<td width="60%">
+The value of the <i>NewSizeInContainers</i> parameter is <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_LOG_POLICY_INVALID</b></dt>
-</dl>There is a conflict between the maximum size and minimum size policies for the log.
+</dl>
+</td>
+<td width="60%">
+There is a conflict between the maximum size and minimum size policies for the log.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_COULD_NOT_RESIZE_LOG</b></dt>
-</dl>CLFS management could not delete enough containers to reach <i>NewSizeInContainers</i>.
+</dl>
+</td>
+<td width="60%">
+CLFS management could not delete enough containers to reach <i>NewSizeInContainers</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_LOG_POLICY_CONFLICT</b></dt>
-</dl>CLFS management could not add enough containers to the log to reach <i>NewSizeInContainers</i>. This might be due to a conflict with a policy that the client set.
+</dl>
+</td>
+<td width="60%">
+CLFS management could not add enough containers to the log to reach <i>NewSizeInContainers</i>. This might be due to a conflict with a policy that the client set.
 
- 
+</td>
+</tr>
+</table> 
 
 This routine might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS Values</a>.
 
 
+
 ## -remarks
+
+
 The <b>ClfsMgmtSetLogFileSize</b> routine is typically used only when a client starts or stops. Do not call the <b>ClfsMgmtSetLogFileSize</b> routine from within your <a href="..\wdm\nc-wdm-pclfs_client_advance_tail_callback.md">ClfsAdvanceTailCallback</a> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-clfsmgmtinstallpolicy.md">ClfsMgmtInstallPolicy</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\ndismregisterioportrange.htm
 old-project: netvista
 ms.assetid: 3e7fc02b-9562-44b9-8659-793a1d96d1e9
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisMRegisterIoPortRange
+ms.date: 1/18/2018
+ms.keywords: NdisMRegisterIoPortRange function [Network Drivers Starting with Windows Vista], NdisMRegisterIoPortRange, miniport_port_io_ref_fa0141f1-639d-485d-a074-8af029c04406.xml, netvista.ndismregisterioportrange, ndis/NdisMRegisterIoPortRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    N
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisMRegisterIoPortRange
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_Miniport_Driver_Function, NdisMRegisterIoPortRange
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,35 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisMRegisterIoPortRange
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMRegisterIoPortRange function
 
 
-
 ## -description
+
+
 <b>NdisMRegisterIoPortRange</b> sets up driver access to device I/O ports with the 
   <b>NdisRawReadPort<i>Xxx</i></b> and 
   <b>NdisRawWritePort<i>Xxx</i></b> functions and claims the range of I/O port addresses in the registry for that driver's
   NIC.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisMRegisterIoPortRange(
@@ -59,6 +70,9 @@ NDIS_STATUS NdisMRegisterIoPortRange(
 
 
 ## -parameters
+
+
+
 
 ### -param PortOffset [out]
 
@@ -85,37 +99,78 @@ Specifies the number of ports in the range to be mapped.
 
 
 ## -returns
+
+
 <b>NdisMRegisterIoPortRange</b> can return one of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_SUCCESS</b></dt>
-</dl>The given range of I/O ports was mapped successfully so the value at 
+</dl>
+</td>
+<td width="60%">
+The given range of I/O ports was mapped successfully so the value at 
        <i>PortOffset</i> is valid and the mapped range has been claimed in the registry for the NIC.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_RESOURCE_CONFLICT</b></dt>
-</dl>An attempt to claim the I/O port range in the registry has failed, possibly because another
+</dl>
+</td>
+<td width="60%">
+An attempt to claim the I/O port range in the registry has failed, possibly because another
        driver already claimed the range for its device. 
        <b>NdisMRegisterIoPortRange</b> logs an error if this occurs.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_RESOURCES</b></dt>
-</dl>The port range could not be mapped or NDIS could not allocate resources to check the registry
+</dl>
+</td>
+<td width="60%">
+The port range could not be mapped or NDIS could not allocate resources to check the registry
        for hardware-resource conflicts.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_FAILURE</b></dt>
-</dl>Either the bus type or bus number is out of range or the given 
+</dl>
+</td>
+<td width="60%">
+Either the bus type or bus number is out of range or the given 
        <i>InitialPort</i> and 
        <i>NumberOfPorts</i> were invalid (possibly not within the I/O port space of the current
        platform).
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A miniport driver calls 
     <b>NdisMRegisterIoPortRange</b> from its 
     <i>MiniportInitializeEx</i> function. 
     <i>MiniportInitializeEx</i> must call 
-    <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
-    NdisMSetMiniportAttributes</a> before calling 
+    <mshelp:link keywords="netvista.ndismsetminiportattributes" tabindex="0"><b>
+    NdisMSetMiniportAttributes</b></mshelp:link> before calling 
     <b>NdisMRegisterIoPortRange</b>.
 
 <b>NdisMRegisterIoPortRange</b> maps a bus-relative device address range that the miniport driver can use
@@ -140,75 +195,54 @@ Drivers of NICs with device registers in the host memory space call
     <b>NdisRead/WriteRegister<i>Xxx</i></b> functions to access the NIC registers.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismderegisterioportrange.md">NdisMDeregisterIoPortRange</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisrawreadportbufferuchar.md">NdisRawReadPortBufferUchar</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisrawreadportbufferulong.md">NdisRawReadPortBufferUlong</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisrawreadportbufferushort.md">NdisRawReadPortBufferUshort</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisrawreadportuchar.md">NdisRawReadPortUchar</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisrawreadportulong.md">NdisRawReadPortUlong</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisrawreadportushort.md">NdisRawReadPortUshort</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisrawwriteportbufferuchar.md">NdisRawWritePortBufferUchar</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisrawwriteportbufferulong.md">NdisRawWritePortBufferUlong</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisrawwriteportbufferushort.md">NdisRawWritePortBufferUshort</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndisrawwriteportuchar.md">NdisRawWritePortUchar</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisrawwriteportulong.md">NdisRawWritePortUlong</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisrawwriteportushort.md">NdisRawWritePortUshort</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisreadregisteruchar.md">NdisReadRegisterUchar</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisreadregisterulong.md">NdisReadRegisterUlong</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisreadregisterushort.md">NdisReadRegisterUshort</a>
-</dt>
-<dt>
+
+<a href="..\ndis\nf-ndis-ndisrawreadportulong.md">NdisRawReadPortUlong</a>
+
+<a href="..\ndis\nf-ndis-ndisrawreadportbufferuchar.md">NdisRawReadPortBufferUchar</a>
+
+<a href="..\ndis\nf-ndis-ndisrawreadportbufferushort.md">NdisRawReadPortBufferUshort</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
 <a href="..\ndis\nf-ndis-ndiswriteregisteruchar.md">NdisWriteRegisterUchar</a>
-</dt>
-<dt>
+
+<a href="..\ndis\nf-ndis-ndisreadregisterushort.md">NdisReadRegisterUshort</a>
+
+<a href="..\ndis\nf-ndis-ndisrawreadportuchar.md">NdisRawReadPortUchar</a>
+
+<a href="..\ndis\nf-ndis-ndisreadregisterulong.md">NdisReadRegisterUlong</a>
+
+<a href="..\ndis\nf-ndis-ndisreadregisteruchar.md">NdisReadRegisterUchar</a>
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportbufferulong.md">NdisRawWritePortBufferUlong</a>
+
+<a href="..\ndis\nf-ndis-ndisrawreadportushort.md">NdisRawReadPortUshort</a>
+
 <a href="..\ndis\nf-ndis-ndiswriteregisterulong.md">NdisWriteRegisterUlong</a>
-</dt>
-<dt>
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportbufferushort.md">NdisRawWritePortBufferUshort</a>
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportbufferuchar.md">NdisRawWritePortBufferUchar</a>
+
+<a href="..\ndis\nf-ndis-ndismderegisterioportrange.md">NdisMDeregisterIoPortRange</a>
+
+<a href="..\ndis\nf-ndis-ndisrawreadportbufferulong.md">NdisRawReadPortBufferUlong</a>
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportulong.md">NdisRawWritePortUlong</a>
+
+<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportushort.md">NdisRawWritePortUshort</a>
+
 <a href="..\ndis\nf-ndis-ndiswriteregisterushort.md">NdisWriteRegisterUshort</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMRegisterIoPortRange function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMRegisterIoPortRange function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

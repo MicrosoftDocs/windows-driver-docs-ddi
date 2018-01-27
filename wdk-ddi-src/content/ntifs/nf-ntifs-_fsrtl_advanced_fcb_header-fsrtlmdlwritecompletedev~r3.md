@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7d0525f1-8422-47a4-a64e-11e35496a849
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlMdlWriteCompleteDev
+ms.keywords: FsRtlMdlWriteCompleteDev routine [Installable File System Drivers], fsrtlref_c0520b55-791c-4527-a734-1495a2a4809b.xml, ntifs/FsRtlMdlWriteCompleteDev, ifsk.fsrtlmdlwritecompletedev, FsRtlMdlWriteCompleteDev
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlMdlWriteCompleteDev
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlMdlWriteCompleteDev
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlMdlWriteCompleteDev function
 
 
-
 ## -description
+
+
 The <b>FsRtlMdlWriteCompleteDev</b> routine frees the resources that <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev~r6.md">FsRtlPrepareMdlWriteDev</a> allocated.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlMdlWriteCompleteDev(
@@ -56,6 +66,9 @@ BOOLEAN FsRtlMdlWriteCompleteDev(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -78,10 +91,15 @@ The device object for the device that holds the file data.
 
 
 ## -returns
+
+
 The <b>FsRtlMdlWriteCompleteDev</b> routine returns <b>TRUE</b> if the operation succeeds and <b>FALSE</b> if the operation fails or if the FO_WRITE_THROUGH flag is set in the file object.
 
 
+
 ## -remarks
+
+
 The <b>FsRtlMdlWriteCompleteDev</b> routine frees the memory descriptor lists (MDLs) that <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev~r6.md">FsRtlPrepareMdlWriteDev</a> allocated and unlocks the cache memory that <b>FsRtlPrepareMdlWriteDev</b> locked.
 
 If the FO_WRITE_THROUGH flag is set on the file object pointed to by the <i>FileObject</i> parameter, <b>FsRtlMdlWriteCompleteDev</b> immediately flushes the cached memory to disk. This flush operation re-enters the file system and can cause <b>FsRtlMdlWriteCompleteDev</b> to raise an exception if the flush operation fails. 
@@ -89,12 +107,11 @@ If the FO_WRITE_THROUGH flag is set on the file object pointed to by the <i>File
 Each call to <b>FsRtlPrepareMdlWrite</b> must be followed by a call to <b>FsRtlMdlWriteCompleteDev</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev~r6.md">FsRtlPrepareMdlWriteDev</a>
-</dt>
-</dl>
+
  
 
  

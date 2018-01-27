@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 2837C3BE-71EB-4949-AB46-5333CF4575A8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxInitialize
+ms.keywords: SerCxInitialize, 1/SerCxInitialize, serports.sercxinitialize, SerCxInitialize method [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SerCxInitialize
-req.alt-loc: 1.0\Sercx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	1.0\Sercx.h
+apiname: 
+-	SerCxInitialize
+product: Windows
+targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SerCxInitialize function
 
 
-
 ## -description
+
+
 The <b>SerCxInitialize</b> method completes the initialization of the serial framework extension (SerCx) after this driver creates the associated device object.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SerCxInitialize(
@@ -55,6 +65,9 @@ NTSTATUS SerCxInitialize(
 
 
 ## -parameters
+
+
+
 
 ### -param FxDevice [in]
 
@@ -67,18 +80,43 @@ A pointer to a caller-allocated <a href="..\sercx\ns-sercx-_sercx_config.md">SER
 
 
 ## -returns
+
+
 <b>SerCxInitialize</b> returns STATUS_SUCCESS if it is successful. Possible error return values include the following status codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>The method was called at the wrong IRQL; or the WDFDEVICE handle is not valid; or either <i>FxDevice</i> or <i>Config</i> is NULL.
+</dl>
+</td>
+<td width="60%">
+The method was called at the wrong IRQL; or the WDFDEVICE handle is not valid; or either <i>FxDevice</i> or <i>Config</i> is NULL.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>Could not allocate system resources (typically memory).
+</dl>
+</td>
+<td width="60%">
+Could not allocate system resources (typically memory).
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The serial controller driver calls this method after it creates the associated device object.
 
 <b>SerCxInitialize</b> registers the controller driver’s I/O callback functions with SerCx. In addition, this method defines the transfer mode for the I/O queue.  During the call, this method creates all of the internal structures required by SerCx (including the I/O queue for the serial controller).  After this method returns, SerCx is ready to process I/O.  However, the controller driver might configure controller hardware settings before it returns from the <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback or before it adds the PDO to the child list.
@@ -88,18 +126,15 @@ If the parameters are invalid (as described in <a href="..\sercx\ns-sercx-_sercx
 This routine must be called before committing the device (returning from <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> or adding the PDO to the child list).
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-</dt>
-<dt>
-<a href="..\sercx\ns-sercx-_sercx_config.md">SERCX_CONFIG</a>
-</dt>
-<dt>
+
 <a href="..\sercx\nf-sercx-sercx_config_init.md">SERCX_CONFIG_INIT</a>
-</dt>
-</dl>
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+<a href="..\sercx\ns-sercx-_sercx_config.md">SERCX_CONFIG</a>
+
  
 
  

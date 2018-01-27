@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: EC32BFE8-6E93-4CEF-8EA8-856B0E431FCF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+ms.keywords: buses.evt_ufx_device_port_detect, EvtUfxDevicePortDetect callback function [Buses], EvtUfxDevicePortDetect, EVT_UFX_DEVICE_PORT_DETECT, EVT_UFX_DEVICE_PORT_DETECT, ufxclient/EvtUfxDevicePortDetect, PFN_UFX_DEVICE_PORT_DETECT callback function pointer [Buses], PFN_UFX_DEVICE_PORT_DETECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: PFN_UFX_DEVICE_PORT_DETECT
-req.alt-loc: Ufxclient.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Ufxclient.h
+apiname: 
+-	PFN_UFX_DEVICE_PORT_DETECT
+product: Windows
+targetos: Windows
+req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
 # EVT_UFX_DEVICE_PORT_DETECT callback
 
 
-
 ## -description
+
+
 The client driver's implementation to initiate port detection
 
 
-
 ## -prototype
+
 
 ````
 EVT_UFX_DEVICE_PORT_DETECT EvtUfxDevicePortDetect;
@@ -60,30 +70,39 @@ typedef EVT_UFX_DEVICE_PORT_DETECT PFN_UFX_DEVICE_PORT_DETECT;
 
 ## -parameters
 
-### -param UfxDevice [in]
+
+
+
+
+
+
+#### - UfxDevice [in]
 
 The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_PORT_DETECT</i> implementation with the USB function class extension (UFX) by calling the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a> method.
 
 The client driver must indicate completion of port detection by calling the <a href="..\ufxclient\nf-ufxclient-ufxdeviceportdetectcomplete.md">UfxDevicePortDetectComplete</a> or <a href="..\ufxclient\nf-ufxclient-ufxdeviceportdetectcompleteex.md">UfxDevicePortDetectCompleteEx</a> methods.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
-</dt>
-<dt>
+
 <a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
-</dt>
-</dl>
+
  
 
  

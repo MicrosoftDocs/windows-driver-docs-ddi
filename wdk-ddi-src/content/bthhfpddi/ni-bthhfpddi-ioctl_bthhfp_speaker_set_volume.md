@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: D08D9CEB-8A5C-41E6-AF05-2AE8719DD462
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT
+ms.keywords: audio.ioctl_bthhfp_speaker_set_volume, IOCTL_BTHHFP_SPEAKER_SET_VOLUME control code [Audio Devices], IOCTL_BTHHFP_SPEAKER_SET_VOLUME, bthhfpddi/IOCTL_BTHHFP_SPEAKER_SET_VOLUME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_BTHHFP_SPEAKER_SET_VOLUME
-req.alt-loc: Bthhfpddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,66 +29,94 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bthhfpddi.h
+apiname: 
+-	IOCTL_BTHHFP_SPEAKER_SET_VOLUME
+product: Windows
+targetos: Windows
 req.typenames: *PHFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION
 ---
 
 # IOCTL_BTHHFP_SPEAKER_SET_VOLUME IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 The <b>IOCTL_BTHHFP_SPEAKER_SET_VOLUME</b> IOCTL sets the volume level for the  
    speaker of the Bluetooth device. 
 
 
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 A LONG that represents the volume level in 1/65536 decibels.
 
 
 ### -input-buffer-length
+
 The size of a LONG.
 
 
 ### -output-buffer
+
 N/A
 
 
 ### -output-buffer-length
+
 N/A
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 N/A
 
 
 ## -remarks
+
+
 The audio driver sends this request when handling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537309">KSPROPERTY_AUDIO_VOLUMELEVEL</a> property for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537208">KSNODETYPE_VOLUME</a> node in the KS topology of the speaker path. The request’s input parameter is the same as the <b>KSPROPERTY_AUDIO_VOLUMELEVEL</b> property value.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537208">KSNODETYPE_VOLUME</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537309">KSPROPERTY_AUDIO_VOLUMELEVEL</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 05057ae7-0f91-4f5a-8c72-652ec04ee3ab
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwOpenKeyEx
+ms.keywords: wdm/ZwOpenKeyEx, k111_4e01a648-6ffc-418f-821c-9a4ef821dc3b.xml, ZwOpenKeyEx routine [Kernel-Mode Driver Architecture], ZwOpenKeyEx, kernel.zwopenkeyex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwOpenKeyEx
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ZwOpenKeyEx
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ZwOpenKeyEx function
 
 
-
 ## -description
+
+
 The <b>ZwOpenKeyEx</b> routine opens an existing registry key. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ZwOpenKeyEx(
@@ -57,6 +67,9 @@ NTSTATUS ZwOpenKeyEx(
 
 
 ## -parameters
+
+
+
 
 ### -param KeyHandle [out]
 
@@ -76,7 +89,6 @@ A pointer to the object attributes of the key being opened. This parameter point
 ### -param OpenOptions [in]
 
 Specifies the options to apply when opening the key. Set this parameter to zero or to the bitwise OR of one or more of the following REG_OPTION_<i>XXX</i> flag bits:
-
 <table>
 <tr>
 <th><i>OpenOptions</i> flag</th>
@@ -102,35 +114,91 @@ The key should be opened with special privileges that allow backup and restore o
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 <b>ZwOpenKeyEx</b> returns STATUS_SUCCESS if the call succeeds in opening the key. Possible error return values include the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER_4</b></dt>
-</dl>The <i>OpenOptions</i> parameter specifies invalid options. 
+</dl>
+</td>
+<td width="60%">
+The <i>OpenOptions</i> parameter specifies invalid options. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_PATH_SYNTAX_BAD</b></dt>
-</dl>The registry path in the object attributes is invalid. 
+</dl>
+</td>
+<td width="60%">
+The registry path in the object attributes is invalid. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_NAME_NOT_FOUND</b></dt>
-</dl>The registry key name in the object attributes was not found. 
+</dl>
+</td>
+<td width="60%">
+The registry key name in the object attributes was not found. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_TYPE_MISMATCH</b></dt>
-</dl>The named registry key is a symbolic link, but the REG_OPTION_OPEN_LINK flag bit is not set in <i>OpenOptions</i>. 
+</dl>
+</td>
+<td width="60%">
+The named registry key is a symbolic link, but the REG_OPTION_OPEN_LINK flag bit is not set in <i>OpenOptions</i>. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>The caller did not have the required access rights to open a handle for the named registry key.
+</dl>
+</td>
+<td width="60%">
+The caller did not have the required access rights to open a handle for the named registry key.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>A memory allocation operation failed. 
+</dl>
+</td>
+<td width="60%">
+A memory allocation operation failed. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This routine supplies a handle with which the caller can access a registry key. If the specified key does not exist, the routine returns an error status value and does not supply a key handle.
 
 The <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a> routine is similar to <b>ZwOpenKeyEx</b> but does not accept an <i>OpenOptions</i> parameter. The <i>OpenOptions</i> parameter of <b>ZwOpenKeyEx</b> enables the caller to open a key that is a symbolic link, or to open a key for backup and restore operations. A call to <b>ZwOpenKeyEx</b> with <i>OpenOptions</i> = 0 is equivalent to a call to <b>ZwOpenKey</b>.
@@ -144,24 +212,19 @@ If the kernel-mode caller is not running in a system thread context, it must ens
 For more information about working with registry keys in kernel mode, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565537">Using the Registry in a Driver</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-</dt>
-<dt>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
-</dt>
-</dl>
+
  
 
  

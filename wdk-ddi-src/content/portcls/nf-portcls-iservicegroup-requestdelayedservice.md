@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 045a6c20-2e4e-4669-953d-f8648bf2d718
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IServiceGroup, IServiceGroup::RequestDelayedService, RequestDelayedService
+ms.keywords: RequestDelayedService method [Audio Devices], audio.iservicegroup_requestdelayedservice, IServiceGroup interface [Audio Devices], RequestDelayedService method, IServiceGroup::RequestDelayedService, portcls/IServiceGroup::RequestDelayedService, IServiceGroup, RequestDelayedService method [Audio Devices], IServiceGroup interface, RequestDelayedService, audmp-routines_2f9be34c-bff3-46d4-a490-595c8f4311b9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IServiceGroup.RequestDelayedService
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IServiceGroup.RequestDelayedService
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IServiceGroup::RequestDelayedService method
 
 
-
 ## -description
+
+
 The <code>RequestDelayedService</code> method requests service after the specified delay.
 
 
-
 ## -syntax
+
 
 ````
 void RequestDelayedService(
@@ -54,28 +64,40 @@ void RequestDelayedService(
 
 ## -parameters
 
-### -param ulDelay [in]
+
+
+
+### -param ullDelay
+
+
+
+
+
+#### - ulDelay [in]
 
 Specifies the absolute or relative time at which the timer is to expire. If the value of <i>ulDelay</i> is negative, the expiration time is relative to the current system time. Otherwise, the expiration time is absolute. The expiration time is expressed in system time units (100-nanosecond intervals). Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes. 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 Before calling <code>RequestDelayedService</code> to request a timer delay, initialize the timer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff537004">IServiceGroup::SupportDelayedService</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537004">IServiceGroup::SupportDelayedService</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
  
 
  

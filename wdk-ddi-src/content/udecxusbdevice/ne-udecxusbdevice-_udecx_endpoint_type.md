@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: EFA5DDC0-9E6B-450E-B191-1DA9FBAC269C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE, *PUDECX_ENDPOINT_TYPE
+ms.keywords: *PUDECX_ENDPOINT_TYPE, udecxusbdevice/UdecxEndpointTypeDynamic, UDECX_ENDPOINT_TYPE enumeration [Buses], udecxusbdevice/UdecxEndpointTypeInvalid, buses.udecx_endpoint_type, udecxusbdevice/UdecxEndpointTypeSimple, UdecxEndpointTypeDynamic, _UDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE, UdecxEndpointTypeSimple, udecxusbdevice/UDECX_ENDPOINT_TYPE, UdecxEndpointTypeInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UDECX_ENDPOINT_TYPE
-req.alt-loc: UdecxUsbDevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-req.typenames: UDECX_ENDPOINT_TYPE, *PUDECX_ENDPOINT_TYPE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	UdecxUsbDevice.h
+apiname: 
+-	UDECX_ENDPOINT_TYPE
+product: Windows
+targetos: Windows
+req.typenames: *PUDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE
 req.product: Windows 10 or later.
 ---
 
 # _UDECX_ENDPOINT_TYPE enumeration
 
 
-
 ## -description
+
+
 Defines values for endpoint types supported by a virtual USB device.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _UDECX_ENDPOINT_TYPE { 
@@ -56,6 +66,9 @@ typedef enum _UDECX_ENDPOINT_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field UdecxEndpointTypeInvalid
 
@@ -72,18 +85,12 @@ The endpoint is defined in the first (and only) interface setting of the interfa
 The endpoint is dynamically created in the client driver's implementation of the <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_endpoints_configure.md">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a> callback.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitsetendpointstype.md">UdecxUsbDeviceInitSetEndpointsType</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/4DABCC96-F3F5-43D9-9BCF-A2663ED30137">USB endpoints</a>
-</dt>
-</dl>
+
  
 
  

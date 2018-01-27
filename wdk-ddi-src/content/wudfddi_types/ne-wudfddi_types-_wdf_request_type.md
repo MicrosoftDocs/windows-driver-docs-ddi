@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a883f22e-0d6f-4755-882b-ad5a60a09271
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_REQUEST_TYPE, WDF_REQUEST_TYPE, *PWDF_REQUEST_TYPE
+ms.keywords: WdfRequestRead, wudfddi_types/WdfRequestRead, WdfRequestCreate, WdfRequestDeviceIoControl, wudfddi_types/WdfRequestQueryInformation, wudfddi_types/WdfRequestTypeNoFormat, umdf.wdf_request_type__umdf_, wudfddi_types/WdfRequestUndefined, wudfddi_types/WdfRequestUsb, WdfRequestClose, wudfddi_types/WDF_REQUEST_TYPE, wudfddi_types/WdfRequestCleanup, WdfRequestCleanup, umdfstructs_6faf9392-ee30-4144-a96c-7f1fcc329de8.xml, wudfddi_types/WdfRequestCreate, WdfRequestQueryInformation, WdfRequestFlushBuffers, wudfddi_types/WdfRequestInternalIoctl, wudfddi_types/WdfRequestSetInformation, wudfddi_types/WdfRequestMaximum, WdfRequestSetInformation, wudfddi_types/WdfRequestFlushBuffers, WdfRequestOther, wudfddi_types/WdfRequestOther, WDF_REQUEST_TYPE, WdfRequestUndefined, WdfRequestWrite, _WDF_REQUEST_TYPE, *PWDF_REQUEST_TYPE, WdfRequestUsb, wudfddi_types/WdfRequestDeviceIoControl, wdf.wdf_request_type__umdf_, WDF_REQUEST_TYPE enumeration, WdfRequestMaximum, wudfddi_types/WdfRequestClose, WdfRequestInternalIoctl, WdfRequestTypeNoFormat, wudfddi_types/WdfRequestWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WDF_REQUEST_TYPE
-req.alt-loc: Wudfddi_types.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wudfddi_types.h
+apiname: 
+-	WDF_REQUEST_TYPE
+product: Windows
+targetos: Windows
 req.typenames: WDF_REQUEST_TYPE, *PWDF_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,16 +47,17 @@ req.product: Windows 10 or later.
 # _WDF_REQUEST_TYPE enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
       The <b>WDF_REQUEST_TYPE</b> enumeration identifies the types of I/O requests that a UMDF request object can represent.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_REQUEST_TYPE { 
@@ -71,6 +81,9 @@ typedef enum _WDF_REQUEST_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WdfRequestUndefined
 
@@ -127,12 +140,12 @@ This value is reserved for internal use only.
 The request object's type has not been specified.
 
 
-### -field WdfRequestFlushBuffers 
+### -field WdfRequestFlushBuffers
 
 The request object represents a request to flush cached buffers. The framework delivers this type of request to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556847">IQueueCallbackDefaultIoHandler::OnDefaultIoHandler</a> callback function. 
 
 
-### -field WdfRequestQueryInformation 
+### -field WdfRequestQueryInformation
 
 The request object represents a request to obtain information about a file. The framework delivers this type of request to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556847">IQueueCallbackDefaultIoHandler::OnDefaultIoHandler</a> callback function. 
 
@@ -148,35 +161,30 @@ The maximum value for the enumeration is exceeded.
 
 
 ## -remarks
+
+
 The <b>WDF_REQUEST_TYPE</b> enumeration is used as an input parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff557014">IWDFDevice::ConfigureRequestDispatching</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff558946">IWDFIoQueue::ConfigureRequestDispatching</a>. It is also used for the return value of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559124">IWDFIoRequest::GetType</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff560296">IWDFRequestCompletionParams::GetCompletedRequestType</a>.
 
 For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554910">IFileCallbackClose::OnCloseFile</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556854">IQueueCallbackDeviceIoControl::OnDeviceIoControl</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556885">IQueueCallbackWrite::OnWrite</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556854">IQueueCallbackDeviceIoControl::OnDeviceIoControl</a>
+
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556885">IQueueCallbackWrite::OnWrite</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554910">IFileCallbackClose::OnCloseFile</a>
+
  
 
  

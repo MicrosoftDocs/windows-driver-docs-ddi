@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BCA741A8-2294-43C1-8B9C-3724274D637B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION
+ms.keywords: D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION structure [Display Devices], d3dukmdt/D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, display.d3dddi_updategpuvirtualaddress_operation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION
 ---
 
 # _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION structure
 
 
-
 ## -description
+
+
 <b>D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION</b> describes a virtual address update operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION {
@@ -82,7 +92,7 @@ typedef struct _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION {
 
 ## -struct-fields
 
-### -field OperationType
+
 
 
 ### -field Map
@@ -90,7 +100,7 @@ typedef struct _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION {
 Maps the given virtual address range to the given allocation range. The allocation does not have to be resident at the time of submission or at the time of mapping. The read-write protection is set to the pages. <b>DriverProtection</b> for the pages is set to zero.
 
 
-### -field BaseAddress
+### -field Map.BaseAddress
 
 Specifies the <b>BaseAddress</b> of the GPU virtual address range to update. The value is in bytes and must be 4KB aligned.
 
@@ -98,36 +108,34 @@ The entire range from <b>BaseAddress</b> to <b>BaseAddress</b>+<b>SizeInBytes</b
 
 
 
-### -field SizeInBytes
+### -field Map.SizeInBytes
 
 Specifies the size, in bytes, for the range being updated. The value must be 4KB aligned.
 
 
-### -field hAllocation
+### -field Map.hAllocation
 
 Specifies the allocation the range needs to be mapped to.
 
 
-### -field AllocationOffsetInBytes
+### -field Map.AllocationOffsetInBytes
 
 Specifies the offset, in bytes, to the first page in the allocation to map. The value must be 4KB aligned.
 
 
-### -field AllocationSizeInBytes
+### -field Map.AllocationSizeInBytes
 
 Specifies the size of the allocation range to map, in bytes. The value must be 4KB aligned and must be less than <b>Map.SizeInBytes</b>. If this value is zero, <b>Map.SizeInBytes</b> is used.
 
 When this value is than <b>Map.SizeInBytes</b>, <b>Map.SizeInBytes</b> must be a multiple of it. In this case <b>Map.SizeInBytes</b>/<b>Map.AllocationSizeInBytes</b> virtual address ranges will be mapped to the same allocation range. 
 
-</dd>
-</dl>
 
 ### -field MapProtect
 
 Maps the given virtual address range to the given allocation range. The allocation does not have to be resident at the time of submission or at the time of mapping. The page protection is specified in the operation.
 
 
-### -field BaseAddress
+### -field MapProtect.BaseAddress
 
 Specifies the <b>BaseAddress</b> of the GPU virtual address range to update. The value is in bytes and must be 4KB aligned.
 
@@ -136,22 +144,22 @@ The entire range from <b>BaseAddress</b> to <b>BaseAddress</b>+<b>SizeInBytes</b
 
 
 
-### -field SizeInBytes
+### -field MapProtect.SizeInBytes
 
 Specifies the size, in bytes, for the range being updated. The value must be 4KB aligned.
 
 
-### -field hAllocation
+### -field MapProtect.hAllocation
 
 Specifies the allocation the range needs to be mapped to.
 
 
-### -field AllocationOffsetInBytes
+### -field MapProtect.AllocationOffsetInBytes
 
 Specifies the offset, in bytes, to the first page in the allocation to map. The value must be 4KB aligned.
 
 
-### -field AllocationSizeInBytes
+### -field MapProtect.AllocationSizeInBytes
 
 Specifies the size of the allocation range to map, in bytes. The value must be 4KB aligned and must be less than Map.<b>SizeInBytes</b>. If this value is zero, <b>Map.SizeInBytes</b> is used.
 
@@ -159,74 +167,71 @@ Specifies the size of the allocation range to map, in bytes. The value must be 4
 When this value is less than <b>Map.SizeInBytes</b>, <b>Map.SizeInBytes</b> must be a multiple of it. In this case <b>Map.SizeInBytes</b>/<b>Map.AllocationSizeInBytes</b> virtual address ranges will be mapped to the same allocation range.
 
 
-### -field Protection
+### -field MapProtect.Protection
 
 Specifies API defined protection for the pages.
 
 
-### -field DriverProtection
+### -field MapProtect.DriverProtection
 
 Specifies driver specific protection for the pages.
 
-</dd>
-</dl>
 
 ### -field Unmap
 
 Puts the specified virtual address range to the <i>zero</i> state or to the <i>invalid</i> state.
 
 
-### -field BaseAddress
+### -field Unmap.BaseAddress
 
 Specifies the <b>BaseAddress</b> of the GPU virtual address range to put back into the <i>zero</i> state. The value is in bytes and must be 4KB aligned.
 
 
-### -field SizeInBytes
+### -field Unmap.SizeInBytes
 
 Specifies the size, in bytes, for the range to be freed. The value must be 4KB aligned.
 
 
-### -field Protection
+### -field Unmap.Protection
 
 Defines is the page table entry state after un-mapping, either <i>Zero</i> or <i>NoAccess</i>. 
 
-</dd>
-</dl>
 
 ### -field Copy
 
 The copy operation copies all mappings from source GPU virtual address range to the destination range. The source and destination ranges are allowed to intersect. Both ranges must belong to a reserved (zero) virtual address range.
 
 
-### -field BaseAddress
+### -field Copy.SourceAddress
 
-Specifies the start virtual address of the source virtual address range. The value is in bytes and must be 4KB aligned.
+ 
 
 
-### -field SizeInBytes
+### -field Copy.SizeInBytes
 
 Specifies the size, in bytes, for the range being copied. The value must be 4KB aligned.
 
 
-### -field DestAddress
+### -field Copy.DestAddress
 
 Specifies the start virtual address of the destination virtual address range. The value is in bytes and must be 4KB aligned.
 
-</dd>
-</dl>
 
-## -remarks
+### -field OperationType
+
+
+
+##### - Copy.BaseAddress
+
+Specifies the start virtual address of the source virtual address range. The value is in bytes and must be 4KB aligned.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updategpuvirtualaddresscb.md">pfnUpdateGpuVirtualAddressCb</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a>
-</dt>
-</dl>
+
  
 
  

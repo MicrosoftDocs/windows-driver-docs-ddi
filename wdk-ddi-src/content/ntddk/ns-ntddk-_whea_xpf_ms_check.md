@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: aa446b31-ac53-4623-bacd-72ab72e94618
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_XPF_MS_CHECK, WHEA_XPF_MS_CHECK, *PWHEA_XPF_MS_CHECK
+ms.keywords: *PWHEA_XPF_MS_CHECK, whearef_ebbe0f28-499b-41ad-9e2b-c533c391c154.xml, PWHEA_XPF_MS_CHECK, ntddk/WHEA_XPF_MS_CHECK, PWHEA_XPF_MS_CHECK union pointer [WHEA Drivers and Applications], WHEA_XPF_MS_CHECK, WHEA_XPF_MS_CHECK union [WHEA Drivers and Applications], ntddk/PWHEA_XPF_MS_CHECK, whea.whea_xpf_ms_check, _WHEA_XPF_MS_CHECK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_XPF_MS_CHECK
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: WHEA_XPF_MS_CHECK, *PWHEA_XPF_MS_CHECK
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_XPF_MS_CHECK
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_XPF_MS_CHECK, WHEA_XPF_MS_CHECK
 ---
 
 # _WHEA_XPF_MS_CHECK structure
 
 
-
 ## -description
+
+
 The WHEA_XPF_MS_CHECK union describes microarchitecture-specific error information for an x86 or x64 processor.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _WHEA_XPF_MS_CHECK {
@@ -70,122 +80,82 @@ typedef union _WHEA_XPF_MS_CHECK {
 
 ## -struct-fields
 
-### -field ErrorTypeValid
 
-A single bit that indicates that the <b>ErrorType</b> member contains valid data.
 
 
-### -field ProcessorContextCorruptValid
+### -field DUMMYSTRUCTNAME
 
-A single bit that indicates that the <b>ProcessorContextCorrupt</b> member contains valid data.
+ 
 
 
-### -field UncorrectedValid
+### -field DUMMYSTRUCTNAME.ErrorTypeValid
 
-A single bit that indicates that the <b>Uncorrected</b> member contains valid data.
+ 
 
 
-### -field PreciseIPValid
+### -field DUMMYSTRUCTNAME.ProcessorContextCorruptValid
 
-A single bit that indicates that the <b>PreciseIP</b> member contains valid data.
+ 
 
 
-### -field RestartableIPValid
+### -field DUMMYSTRUCTNAME.UncorrectedValid
 
-A single bit that indicates that the <b>RestartableIP</b> member contains valid data.
+ 
 
 
-### -field OverflowValid
+### -field DUMMYSTRUCTNAME.PreciseIPValid
 
-A single bit that indicates that the <b>Overflow</b> member contains valid data.
+ 
 
 
-### -field ReservedValid
+### -field DUMMYSTRUCTNAME.RestartableIPValid
 
-Reserved for system use.
+ 
 
 
-### -field ErrorType
+### -field DUMMYSTRUCTNAME.OverflowValid
 
-The type of error that occurred. Possible values are:
+ 
 
 
+### -field DUMMYSTRUCTNAME.ReservedValue
 
+ 
 
-### -field XPF_MS_CHECK_ERRORTYPE_NOERROR
 
-No error occurred.
+### -field DUMMYSTRUCTNAME.ErrorType
 
+ 
 
-### -field XPF_MS_CHECK_ERRORTYPE_UNCLASSIFIED
 
-An unclassified error.
+### -field DUMMYSTRUCTNAME.ProcessorContextCorrupt
 
+ 
 
-### -field XPF_MS_CHECK_ERRORTYPE_MCROMPARITY
 
-A microcode ROM parity error.
+### -field DUMMYSTRUCTNAME.Uncorrected
 
+ 
 
-### -field XPF_MS_CHECK_ERRORTYPE_EXTERNAL
 
-An external error.
+### -field DUMMYSTRUCTNAME.PreciseIP
 
+ 
 
-### -field XPF_MS_CHECK_ERRORTYPE_FRC
 
-A functional redundancy checking (FRC) error.
+### -field DUMMYSTRUCTNAME.RestartableIP
 
+ 
 
-### -field XPF_MS_CHECK_ERRORTYPE_INTERNALUNCLASSIFIED
 
-An unclassified internal error.
+### -field DUMMYSTRUCTNAME.Overflow
 
-</dd>
-</dl>
-All other values are processor-specific.
+ 
 
-This member contains valid data only if the <b>ErrorTypeValid</b> bit is set.
 
+### -field DUMMYSTRUCTNAME.Reserved
 
-### -field ProcessorContextCorrupt
-
-A single bit that indicates that the processor context might have been corrupted.
-
-This member contains valid data only if the <b>ProcessorContextCorruptValid</b> bit is set.
-
-
-### -field Uncorrected
-
-A single bit that indicates that the error has not been corrected.
-
-This member contains valid data only if the <b>UncorrectedValid</b> bit is set.
-
-
-### -field PreciseIP
-
-A single bit that indicates that the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structure that contains this WHEA_XPF_MS_CHECK union is directly associated with the error.
-
-This member contains valid data only if the <b>PreciseIPValid </b>bit is set.
-
-
-### -field RestartableIP
-
-A single bit that indicates that program execution can be restarted reliably at the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> union that contains this WHEA_XPF_MS_CHECK structure.
-
-This member contains valid data only if the <b>RestartableIPValid</b> bit is set.
-
-
-### -field Overflow
-
-A single bit that indicates that an error overflow occurred.
-
-This member contains valid data only if the <b>OverflowValid</b> bit is set.
-
-
-### -field Reserved
-
-Reserved for system use.
+ 
 
 
 ### -field XpfMsCheck
@@ -193,16 +163,133 @@ Reserved for system use.
 A ULONGLONG representation of the contents of the WHEA_XPF_MS_CHECK union.
 
 
+#### - Reserved
+
+Reserved for system use.
+
+
+#### - RestartableIPValid
+
+A single bit that indicates that the <b>RestartableIP</b> member contains valid data.
+
+
+#### - PreciseIP
+
+A single bit that indicates that the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structure that contains this WHEA_XPF_MS_CHECK union is directly associated with the error.
+
+This member contains valid data only if the <b>PreciseIPValid </b>bit is set.
+
+
+#### - ErrorType
+
+The type of error that occurred. Possible values are:
+
+
+
+All other values are processor-specific.
+
+This member contains valid data only if the <b>ErrorTypeValid</b> bit is set.
+
+
+#### - OverflowValid
+
+A single bit that indicates that the <b>Overflow</b> member contains valid data.
+
+
+#### - ErrorTypeValid
+
+A single bit that indicates that the <b>ErrorType</b> member contains valid data.
+
+
+##### - ErrorType.XPF_MS_CHECK_ERRORTYPE_MCROMPARITY
+
+A microcode ROM parity error.
+
+
+#### - Uncorrected
+
+A single bit that indicates that the error has not been corrected.
+
+This member contains valid data only if the <b>UncorrectedValid</b> bit is set.
+
+
+#### - ProcessorContextCorruptValid
+
+A single bit that indicates that the <b>ProcessorContextCorrupt</b> member contains valid data.
+
+
+##### - ErrorType.XPF_MS_CHECK_ERRORTYPE_NOERROR
+
+No error occurred.
+
+
+#### - RestartableIP
+
+A single bit that indicates that program execution can be restarted reliably at the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> union that contains this WHEA_XPF_MS_CHECK structure.
+
+This member contains valid data only if the <b>RestartableIPValid</b> bit is set.
+
+
+##### - ErrorType.XPF_MS_CHECK_ERRORTYPE_EXTERNAL
+
+An external error.
+
+
+#### - UncorrectedValid
+
+A single bit that indicates that the <b>Uncorrected</b> member contains valid data.
+
+
+#### - Overflow
+
+A single bit that indicates that an error overflow occurred.
+
+This member contains valid data only if the <b>OverflowValid</b> bit is set.
+
+
+##### - ErrorType.XPF_MS_CHECK_ERRORTYPE_INTERNALUNCLASSIFIED
+
+An unclassified internal error.
+
+
+#### - ProcessorContextCorrupt
+
+A single bit that indicates that the processor context might have been corrupted.
+
+This member contains valid data only if the <b>ProcessorContextCorruptValid</b> bit is set.
+
+
+##### - ErrorType.XPF_MS_CHECK_ERRORTYPE_FRC
+
+A functional redundancy checking (FRC) error.
+
+
+#### - ReservedValid
+
+Reserved for system use.
+
+
+##### - ErrorType.XPF_MS_CHECK_ERRORTYPE_UNCLASSIFIED
+
+An unclassified error.
+
+
+#### - PreciseIPValid
+
+A single bit that indicates that the <b>PreciseIP</b> member contains valid data.
+
+
 ## -remarks
+
+
 If the <b>CheckInfoId</b> member of a <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structure contains WHEA_MSCHECK_GUID, the <b>CheckInfo</b> member of the WHEA_XPF_PROCINFO structure contains a WHEA_XPF_MS_CHECK union.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a>
-</dt>
-</dl>
+
  
 
  

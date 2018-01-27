@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: D77E272D-833E-40EA-97AA-137E0A219730
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: _UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS
+ms.keywords: acpi.ioctl_acpi_get_device_specific_data, IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA control code [ACPI Devices], IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA, acpiioct/IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA
-req.alt-loc: Acpiioct.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,69 +29,90 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Acpiioct.h
+apiname: 
+-	IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA
+product: Windows
+targetos: Windows
 req.typenames: *PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS
 ---
 
 # IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA IOCTL
 
 
+##  Major Code: 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
 
 ## -description
-The <b>IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA</b> control code is used to get device specific data.
 
+
+The <b>IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA</b> control code is used to get device specific data.
 
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 An input buffer structure that depends on the type of input arguments to be passed to the control method.
 
 
 ### -input-buffer-length
+
 The size, in bytes, of the input buffer.
 
 
 ### -output-buffer
+
 An output buffer structure that contains the output arguments from the control method.
 
 
 ### -output-buffer-length
+
 The size, in bytes, of the output buffer.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 <b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
-</dt>
-<dt>
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-</dt>
-<dt>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
-</dt>
-</dl>
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
  
 
  

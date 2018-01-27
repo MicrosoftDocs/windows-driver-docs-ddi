@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E81A31B5-E06F-4848-9AC6-8A18E8E97E15
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_DEVICEEXECUTION_STATE, D3DDDI_DEVICEEXECUTION_STATE
+ms.keywords: d3dumddi/D3DDDI_DEVICEEXECUTION_RESET, D3DDDI_DEVICEEXECUTION_ERROR_OUTOFMEMORY, d3dumddi/D3DDDI_DEVICEEXECUTION_HUNG, d3dumddi/D3DDDI_DEVICEEXECUTION_ACTIVE, D3DDDI_DEVICEEXECUTION_STOPPED, D3DDDI_DEVICEEXECUTION_RESET, d3dumddi/D3DDDI_DEVICEEXECUTION_STOPPED, display.d3dddi_deviceexecution_state, d3dumddi/D3DDDI_DEVICEEXECUTION_ERROR_OUTOFMEMORY, D3DDDI_DEVICEEXECUTION_STATE, D3DDDI_DEVICEEXECUTION_ACTIVE, D3DDDI_DEVICEEXECUTION_ERROR_DMAFAULT, d3dumddi/D3DDDI_DEVICEEXECUTION_STATE, _D3DDDI_DEVICEEXECUTION_STATE, d3dumddi/D3DDDI_DEVICEEXECUTION_ERROR_DMAFAULT, D3DDDI_DEVICEEXECUTION_HUNG, D3DDDI_DEVICEEXECUTION_STATE enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_DEVICEEXECUTION_STATE
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	D3DDDI_DEVICEEXECUTION_STATE
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_DEVICEEXECUTION_STATE
 ---
 
 # _D3DDDI_DEVICEEXECUTION_STATE enumeration
 
 
-
 ## -description
+
+
 Indicates the state of the device.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3DDDI_DEVICEEXECUTION_STATE { 
@@ -58,6 +68,9 @@ typedef enum _D3DDDI_DEVICEEXECUTION_STATE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DDDI_DEVICEEXECUTION_ACTIVE
 
@@ -88,5 +101,3 @@ The device has run out of memory.
 
 The device has a DMA fault error.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1C66E50F-3BD7-4038-9FDF-2F2B712D9B5E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsAttachSiloToCurrentThread
+ms.keywords: PsAttachSiloToCurrentThread routine [Kernel-Mode Driver Architecture], ntddk/PsAttachSiloToCurrentThread, PsAttachSiloToCurrentThread, kernel.psattachsilotocurrentthread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1607
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PsAttachSiloToCurrentThread
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	PsAttachSiloToCurrentThread
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # PsAttachSiloToCurrentThread function
 
 
-
 ## -description
+
+
 This routine places a thread temporarily into the specified <i>Silo</i>.
 
 
-
 ## -syntax
+
 
 ````
 PESILO PsAttachSiloToCurrentThread(
@@ -54,27 +64,34 @@ PESILO PsAttachSiloToCurrentThread(
 
 ## -parameters
 
+
+
+
 ### -param Silo [in]
 
 The silo that the thread is to impersonate. The caller must hold a  reference to the silo throughout the duration of the impersonation.
 
 
 ## -returns
+
+
 The previous silo that was attached to the current thread.
 
 
+
 ## -remarks
+
+
 The specified <i>Silo</i> is attached to the current thread so that it becomes the effective silo for the thread.
 
 The thread then operates within the namespace of the attached silo until <a href="..\ntddk\nf-ntddk-psdetachsilofromcurrentthread.md">PsDetachSiloFromCurrentThread</a> is called.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-psdetachsilofromcurrentthread.md">PsDetachSiloFromCurrentThread</a>
-</dt>
-</dl>
+
  
 
  

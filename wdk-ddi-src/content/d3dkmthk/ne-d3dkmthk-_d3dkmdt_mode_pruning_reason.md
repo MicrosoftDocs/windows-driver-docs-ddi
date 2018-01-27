@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 41b80b84-3ed6-4ca3-a2ca-63982585d6dc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMDT_MODE_PRUNING_REASON, D3DKMDT_MODE_PRUNING_REASON
+ms.keywords: display.d3dkmdt_mode_pruning_reason, d3dkmthk/D3DKMDT_MPR_DESCRIPTOR_MONITOR_SOURCE_MODE, d3dkmthk/D3DKMDT_MODE_PRUNING_REASON, d3dkmthk/D3DKMDT_MPR_DRIVER_RECOMMENDED_MONITOR_SOURCE_MODE, d3dkmthk/D3DKMDT_MPR_ALLCAPS, d3dkmthk/D3DKMDT_MPR_DESCRIPTOR_OVERRIDE_MONITOR_SOURCE_MODE, D3DKMDT_MPR_MONITOR_FREQUENCY_RANGE_OVERRIDE, D3DKMDT_MPR_DESCRIPTOR_OVERRIDE_MONITOR_FREQUENCY_RANGE, d3dkmthk/D3DKMDT_MPR_DEFAULT_PROFILE_MONITOR_SOURCE_MODE, D3DKMDT_MPR_DESCRIPTOR_MONITOR_SOURCE_MODE, D3DKMDT_MPR_DESCRIPTOR_OVERRIDE_MONITOR_SOURCE_MODE, d3dkmthk/D3DKMDT_MPR_DESCRIPTOR_OVERRIDE_MONITOR_FREQUENCY_RANGE, d3dkmthk/D3DKMDT_MPR_CLONE_PATH_PRUNED, D3DKMDT_MPR_DESCRIPTOR_MONITOR_FREQUENCY_RANGE, D3DKMDT_MPR_MAXVALID, D3DKMDT_MPR_UNINITIALIZED, _D3DKMDT_MODE_PRUNING_REASON, d3dkmthk/D3DKMDT_MPR_MONITOR_FREQUENCY_RANGE_OVERRIDE, OpenGL_Structs_e0bd4d47-ff41-4899-8c2a-3738e40ad653.xml, D3DKMDT_MPR_DRIVER_RECOMMENDED_MONITOR_SOURCE_MODE, d3dkmthk/D3DKMDT_MPR_DESCRIPTOR_MONITOR_FREQUENCY_RANGE, D3DKMDT_MODE_PRUNING_REASON enumeration [Display Devices], D3DKMDT_MPR_DEFAULT_PROFILE_MONITOR_SOURCE_MODE, D3DKMDT_MODE_PRUNING_REASON, d3dkmthk/D3DKMDT_MPR_UNINITIALIZED, D3DKMDT_MPR_ALLCAPS, d3dkmthk/D3DKMDT_MPR_MAXVALID, D3DKMDT_MPR_CLONE_PATH_PRUNED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMDT_MODE_PRUNING_REASON
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMDT_MODE_PRUNING_REASON
+product: Windows
+targetos: Windows
 req.typenames: D3DKMDT_MODE_PRUNING_REASON
 ---
 
 # _D3DKMDT_MODE_PRUNING_REASON enumeration
 
 
-
 ## -description
+
+
 The D3DKMDT_MODE_PRUNING_REASON enumeration type contains values that identify the reason why the monitor either supports a display mode or does not support a display mode. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3DKMDT_MODE_PRUNING_REASON { 
@@ -63,6 +73,9 @@ typedef enum _D3DKMDT_MODE_PRUNING_REASON {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DKMDT_MPR_UNINITIALIZED
 
@@ -122,35 +135,53 @@ Valid enumeration values were exceeded.
 
 
 ## -remarks
+
+
 The setting of the <b>ValidatedAgainstMonitorCaps</b> member of the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmdt_displaymode_flags.md">D3DKMDT_DISPLAYMODE_FLAGS</a> structure indicates whether the monitor supports a display mode or not. If the monitor does not support a display mode, the operating system removes the display mode from the list of display modes that are available to the monitor.
 
 When a display mode is supported, the reason type can be one of the following:
-
+<ul>
+<li>
 D3DKMDT_MPR_DRIVER_RECOMMENDED_MONITOR_SOURCE_MODE
 
+</li>
+<li>
 D3DKMDT_MPR_DESCRIPTOR_MONITOR_SOURCE_MODE
 
+</li>
+<li>
 D3DKMDT_MPR_DESCRIPTOR_OVERRIDE_MONITOR_SOURCE_MODE
 
+</li>
+<li>
 D3DKMDT_MPR_DEFAULT_PROFILE_MONITOR_SOURCE_MODE
 
+</li>
+<li>
 D3DKMDT_MPR_MONITOR_FREQUENCY_RANGE_OVERRIDE
 
-When a display mode is not supported, the reason type can be one of the following:
-
+</li>
+</ul>When a display mode is not supported, the reason type can be one of the following:
+<ul>
+<li>
 D3DKMDT_MPR_DESCRIPTOR_MONITOR_FREQUENCY_RANGE
 
+</li>
+<li>
 D3DKMDT_MPR_DESCRIPTOR_OVERRIDE_MONITOR_FREQUENCY_RANGE
 
+</li>
+<li>
 D3DKMDT_MPR_ALLCAPS
+
+</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmdt_displaymode_flags.md">D3DKMDT_DISPLAYMODE_FLAGS</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CD1F59DA-3D84-422B-A862-8F4C5E1AA515
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: UFS_DEVICE_DESCRIPTOR, UFS_DEVICE_DESCRIPTOR, *PUFS_DEVICE_DESCRIPTOR
+ms.keywords: *PUFS_DEVICE_DESCRIPTOR, PUFS_DEVICE_DESCRIPTOR structure pointer [Storage Devices], UFS_DEVICE_DESCRIPTOR, ufs/UFS_DEVICE_DESCRIPTOR, ufs/PUFS_DEVICE_DESCRIPTOR, PUFS_DEVICE_DESCRIPTOR, storage.ufs_device_descriptor, UFS_DEVICE_DESCRIPTOR structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UFS_DEVICE_DESCRIPTOR
-req.alt-loc: Ufs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ufs.h
+apiname: 
+-	UFS_DEVICE_DESCRIPTOR
+product: Windows
+targetos: Windows
 req.typenames: UFS_DEVICE_DESCRIPTOR, *PUFS_DEVICE_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
@@ -38,14 +47,15 @@ req.product: Windows 10 or later.
 # UFS_DEVICE_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 <b>UFS_DEVICE_DESCRIPTOR</b> is the main descriptor for Universal Flash Storage (UFS) devices and should be the first descriptor retrieved as it specifies the device class and sub-class and the protocol (command set) to use to access this device and the maximum number of logical
 units contained within the device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UFS_DEVICE_DESCRIPTOR {
@@ -92,6 +102,9 @@ typedef struct _UFS_DEVICE_DESCRIPTOR {
 
 ## -struct-fields
 
+
+
+
 ### -field bLength
 
 Specifies the length, in bytes, of this descriptor.
@@ -105,7 +118,6 @@ Specifies the type of the descriptor. This descriptor will have a value of <b>UF
 ### -field bDevice
 
 Specifies the device type.
-
 <table>
 <tr>
 <th>Value</th>
@@ -119,14 +131,12 @@ Specifies the device type.
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field bDeviceClass
 
 Specifies the device class.
-
 <table>
 <tr>
 <th>Value</th>
@@ -140,14 +150,12 @@ Specifies the device class.
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field bDeviceSubClass
 
 Specifies the UFS mass storage subclasses in a bit map as follows:
-
 <table>
 <tr>
 <th>Bit</th>
@@ -169,14 +177,12 @@ Specifies the UFS mass storage subclasses in a bit map as follows:
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field bProtocol
 
 Specifies the protocol support by the UFS device.
-
 <table>
 <tr>
 <th>Value</th>
@@ -190,11 +196,10 @@ Specifies the protocol support by the UFS device.
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table>
- 
+</table> 
 
 
-### -field  bNumberLU
+### -field bNumberLU
 
 Specifies the number of Logical Units. This does not include the number of well known logical units.
 
@@ -207,7 +212,6 @@ Specifies the number of well known logical units.
 ### -field bBootEnable
 
 Specifies if a device's boot feature is enabled.
-
 <table>
 <tr>
 <th>Value</th>
@@ -225,8 +229,7 @@ Specifies if a device's boot feature is enabled.
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field bDescrAccessEn
@@ -234,7 +237,6 @@ Specifies if a device's boot feature is enabled.
 Indicates whether the Device Descriptor can be
 read after the partial initialization phase of the
 boot sequence.
-
 <table>
 <tr>
 <th>Value</th>
@@ -252,15 +254,13 @@ boot sequence.
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field bInitPowerMode
 
 <b>bInitPowerMode</b> defines the Power Mode
 after device initialization or hardware reset.
-
 <table>
 <tr>
 <th>Value</th>
@@ -278,8 +278,7 @@ after device initialization or hardware reset.
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field bHighPriorityLUN
@@ -291,7 +290,6 @@ logical unit.
 ### -field bSecureRemovalType
 
 Specifies the secure removal type.
-
 <table>
 <tr>
 <th>Value</th>
@@ -323,14 +321,12 @@ define mechanism.</td>
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field bSecurityLU
 
 Specifies if there is support for security LU's
-
 <table>
 <tr>
 <th>Value</th>
@@ -348,15 +344,13 @@ Specifies if there is support for security LU's
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field bBackgroundOpsTermLat
 
 <b>bBackgroundOpsTermLat</b> defines the maximum latency for starting data transmission when background
 operations are ongoing. The termination latency limit applies to two cases:
-
 <ul>
 <li>When the device receives a COMMAND UFS Protocol Information Units (UPIU) with a transfer request. The device shall start the data
 transfer and send a DATA IN UPIU or a RTT UPIU within the latency limit.</li>
@@ -432,7 +426,6 @@ Specifies the frequency and method of real-time clock updates. Bits 10 to 15 are
 ### -field bUFSFeaturesSupport
 
 Specifies which features are supported on this device. A feature is supported if its related bit is set to 1.
-
 <table>
 <tr>
 <th>Bit</th>
@@ -454,8 +447,7 @@ Specifies which features are supported on this device. A feature is supported if
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field bFFUTimeout
@@ -491,15 +483,12 @@ amount of data that may be written during the
 pre-soldering phase of the PSA flow.
 
 
-### -field bPSAStateTimeout
+### -field dPSAStateTimeout
 
-Specifies the command
-maximum timeout for a change in <b>bPSAState</b>. The timeout value is calculated as follows (in microseconds):
-
-100 x 2 ^ <b>bPSAStateTimeout</b>
+ 
 
 
-### -field  iProductRevisionLevel
+### -field iProductRevisionLevel
 
 Specifies the index to the string which contains the Product
 Revision Level.
@@ -515,42 +504,43 @@ Reserved for future use.
 Reserved for future use.
 
 
+#### - bPSAStateTimeout
+
+Specifies the command
+maximum timeout for a change in <b>bPSAState</b>. The timeout value is calculated as follows (in microseconds):
+
+100 x 2 ^ <b>bPSAStateTimeout</b>
+
+
 ## -remarks
+
+
 If <b>bBootEnable</b> in the <b>UFS_DEVICE_DESCRIPTOR</b> is set to zero or if the Boot well known logical unit is not mapped to an enabled logical unit, then the Boot well known logical unit shall terminate.
 
 <b>UFS_DEVICE_DESCRIPTOR</b> is read only, some of its parameters may be changed by changing the corresponding parameter in <a href="..\ufs\ns-ufs-ufs_unit_config_descriptor.md">UFS_UNIT_CONFIG_DESCRIPTOR</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ufs\ns-ufs-ufs_unit_config_descriptor.md">UFS_UNIT_CONFIG_DESCRIPTOR</a>
-</dt>
-<dt>
-<a href="..\ufs\ns-ufs-ufs_config_descriptor.md">UFS_CONFIG_DESCRIPTOR</a>
-</dt>
-<dt>
-<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
-</dt>
-<dt>
-<a href="..\ufs\ns-ufs-ufs_unit_descriptor.md">UFS_UNIT_DESCRIPTOR</a>
-</dt>
-<dt>
-<a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="..\ufs\ns-ufs-ufs_power_descriptor.md">UFS_POWER_DESCRIPTOR</a>
-</dt>
-<dt>
-<a href="..\ufs\ns-ufs-ufs_interconnect_descriptor.md">UFS_INTERCONNECT_DESCRIPTOR</a>
-</dt>
-<dt>
-<a href="..\ufs\ns-ufs-_ufs_string_descriptor.md">UFS_STRING_DESCRIPTOR</a>
-</dt>
-<dt>
+
+<a href="..\ufs\ns-ufs-ufs_unit_descriptor.md">UFS_UNIT_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_unit_config_descriptor.md">UFS_UNIT_CONFIG_DESCRIPTOR</a>
+
 <a href="..\ufs\ns-ufs-ufs_device_health_descriptor.md">UFS_DEVICE_HEALTH_DESCRIPTOR</a>
-</dt>
-</dl>
+
+<a href="..\ufs\ns-ufs-_ufs_string_descriptor.md">UFS_STRING_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_config_descriptor.md">UFS_CONFIG_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_interconnect_descriptor.md">UFS_INTERCONNECT_DESCRIPTOR</a>
+
  
 
  

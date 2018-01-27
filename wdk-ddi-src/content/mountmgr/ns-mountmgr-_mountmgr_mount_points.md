@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e85c0d92-d989-4afc-8516-c63535d2c728
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MOUNTMGR_MOUNT_POINTS, *PMOUNTMGR_MOUNT_POINTS, MOUNTMGR_MOUNT_POINTS
+ms.keywords: MOUNTMGR_MOUNT_POINTS structure [Storage Devices], PMOUNTMGR_MOUNT_POINTS structure pointer [Storage Devices], _MOUNTMGR_MOUNT_POINTS, mountmgr/MOUNTMGR_MOUNT_POINTS, PMOUNTMGR_MOUNT_POINTS, MOUNTMGR_MOUNT_POINTS, *PMOUNTMGR_MOUNT_POINTS, storage.mountmgr_mount_points, structs-mntmgr_844fdf51-1324-4b1d-b68f-abba5f471652.xml, mountmgr/PMOUNTMGR_MOUNT_POINTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MOUNTMGR_MOUNT_POINTS
-req.alt-loc: mountmgr.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PMOUNTMGR_MOUNT_POINTS, MOUNTMGR_MOUNT_POINTS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mountmgr.h
+apiname: 
+-	MOUNTMGR_MOUNT_POINTS
+product: Windows
+targetos: Windows
+req.typenames: MOUNTMGR_MOUNT_POINTS, *PMOUNTMGR_MOUNT_POINTS
 ---
 
 # _MOUNTMGR_MOUNT_POINTS structure
 
 
-
 ## -description
+
+
 The MOUNTMGR_MOUNT_POINTS structure is used by mount manager to send a client the list of mount points associated with a device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MOUNTMGR_MOUNT_POINTS {
@@ -55,6 +65,9 @@ typedef struct _MOUNTMGR_MOUNT_POINTS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -72,15 +85,16 @@ Contains an array of elements of type MOUNTMGR_MOUNT_POINT that contain informat
 
 
 ## -remarks
+
+
 For a discussion of the different between symbolic links, unique IDs, and nonpersistent device names, see <a href="https://msdn.microsoft.com/fb37f862-70d6-4514-b481-16f664346422">Supporting Mount Manager Requests in a Storage Class Driver</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\mountmgr\ni-mountmgr-ioctl_mountmgr_query_points.md">IOCTL_MOUNTMGR_QUERY_POINTS</a>
-</dt>
-</dl>
+
  
 
  

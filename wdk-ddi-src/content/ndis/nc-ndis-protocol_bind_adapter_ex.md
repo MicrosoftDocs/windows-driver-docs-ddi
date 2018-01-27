@@ -7,8 +7,8 @@ old-location: netvista\protocolbindadapterex.htm
 old-project: netvista
 ms.assetid: 1958722e-012e-4110-a82c-751744bcf9b5
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RxNameCacheInitialize
+ms.date: 1/18/2018
+ms.keywords: netvista.protocolbindadapterex, ProtocolBindAdapterEx callback function [Network Drivers Starting with Windows Vista], ProtocolBindAdapterEx, PROTOCOL_BIND_ADAPTER_EX, PROTOCOL_BIND_ADAPTER_EX, ndis/ProtocolBindAdapterEx, protocol_functions_ref_82268bd4-3e45-48ba-8b80-df47fbde11e1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ProtocolBindAdapterEx
-req.alt-loc: Ndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Ndis.h
+apiname: 
+-	ProtocolBindAdapterEx
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
 
 # PROTOCOL_BIND_ADAPTER_EX callback
 
 
-
 ## -description
+
+
 NDIS calls a protocol driver's 
   <i>ProtocolBindAdapterEx</i> function to request the driver to bind to a miniport
   adapter.
-
-
+<div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_BIND_ADAPTER_EX</b> type. For more
+   information, see the following Examples section.</div><div> </div>
 
 ## -prototype
+
 
 ````
 PROTOCOL_BIND_ADAPTER_EX ProtocolBindAdapterEx;
@@ -61,12 +72,15 @@ NDIS_STATUS ProtocolBindAdapterEx(
 
 ## -parameters
 
+
+
+
 ### -param ProtocolDriverContext [in]
 
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information. The protocol driver passed this context area to the 
-     <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">
-     NdisRegisterProtocolDriver</a> function.
+     <mshelp:link keywords="netvista.ndisregisterprotocoldriver" tabindex="0"><b>
+     NdisRegisterProtocolDriver</b></mshelp:link> function.
 
 
 ### -param BindContext [in]
@@ -82,31 +96,72 @@ A pointer to an
 
 
 ## -returns
+
+
 <i>ProtocolBindAdapterEx</i> returns one of the following status values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_SUCCESS</b></dt>
-</dl><i>ProtocolBindAdapterEx</i> successfully completed the binding to the underlying
+</dl>
+</td>
+<td width="60%">
+<i>ProtocolBindAdapterEx</i> successfully completed the binding to the underlying
        miniport adapter.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_PENDING</b></dt>
-</dl><i>ProtocolBindAdapterEx</i> did not complete the bind operation and the operation
+</dl>
+</td>
+<td width="60%">
+<i>ProtocolBindAdapterEx</i> did not complete the bind operation and the operation
        will be completed asynchronously. The protocol driver must call the 
-       <a href="..\ndis\nf-ndis-ndiscompletebindadapterex.md">
-       NdisCompleteBindAdapterEx</a> function when the operation is complete.
+       <mshelp:link keywords="netvista.ndiscompletebindadapterex" tabindex="0"><b>
+       NdisCompleteBindAdapterEx</b></mshelp:link> function when the operation is complete.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_RESOURCES</b></dt>
-</dl><i>ProtocolBindAdapterEx</i> could not allocate the resources that the driver
+</dl>
+</td>
+<td width="60%">
+<i>ProtocolBindAdapterEx</i> could not allocate the resources that the driver
        requires to carry out network I/O operations.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_XXX or NTSTATUS_XXX</b></dt>
-</dl>The protocol driver's attempt to set up a binding failed. Usually, such an error status is
+</dl>
+</td>
+<td width="60%">
+The protocol driver's attempt to set up a binding failed. Usually, such an error status is
        propagated from an 
        <b>Ndis<i>Xxx</i></b> function or a kernel-mode support routine.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <i>ProtocolBindAdapterEx</i> is a required function. NDIS calls 
     <i>ProtocolBindAdapterEx</i> to perform binding operations whenever an underlying
     miniport adapter, to which the protocol driver can bind, becomes available.
@@ -159,8 +214,8 @@ If
 
 If 
     <b>NdisOpenAdapterEx</b> returns NDIS_STATUS_PENDING, NDIS calls the protocol driver's 
-    <a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
-    ProtocolOpenAdapterCompleteEx</a> function after the open operation is complete. 
+    <mshelp:link keywords="netvista.protocolopenadaptercompleteex" tabindex="0"><i>
+    ProtocolOpenAdapterCompleteEx</i></mshelp:link> function after the open operation is complete. 
     <i>ProtocolOpenAdapterCompleteEx</i> can complete the binding operations. 
     <i>ProtocolBindAdapterEx</i> can store the 
     <i>BindContext</i> handle in the binding context area. NDIS passes 
@@ -188,8 +243,8 @@ After the open operation is complete,
     <i>ProtocolBindAdapterEx</i> can return NDIS_STATUS_PENDING to defer the completion of
     the binding operations to a later time. If 
     <i>ProtocolBindAdapterEx</i> returns NDIS_STATUS_PENDING, the driver must call the 
-    <a href="..\ndis\nf-ndis-ndiscompletebindadapterex.md">
-    NdisCompleteBindAdapterEx</a> function after the binding operation is complete.
+    <mshelp:link keywords="netvista.ndiscompletebindadapterex" tabindex="0"><b>
+    NdisCompleteBindAdapterEx</b></mshelp:link> function after the binding operation is complete.
 
 Protocol drivers should use the 
     <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a> structure to
@@ -201,11 +256,11 @@ Protocol drivers should use the
     <a href="https://msdn.microsoft.com/ab664e75-d17d-4664-8c37-91fd651d23c2">Protocol Driver OID Requests</a>.
 
 NDIS can call a protocol driver's 
-    <a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
-    ProtocolReceiveNetBufferLists</a> function after the driver sets up a packet filter for the binding
+    <mshelp:link keywords="netvista.protocolreceivenetbufferlists" tabindex="0"><i>
+    ProtocolReceiveNetBufferLists</i></mshelp:link> function after the driver sets up a packet filter for the binding
     with the 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">
-    OID_GEN_CURRENT_PACKET_FILTER</a> OID. If the underlying miniport adapter does not use a packet filter
+    <mshelp:link keywords="netvista.oid_gen_current_packet_filter" tabindex="0">
+    OID_GEN_CURRENT_PACKET_FILTER</mshelp:link> OID. If the underlying miniport adapter does not use a packet filter
     for incoming packets, receive indications are enabled after the open operation is complete. Protocol
     drivers can receive status indications at the 
     <a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a> function after the
@@ -222,8 +277,8 @@ If
     appropriate error value.
 
 NDIS calls a protocol driver's 
-    <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">
-    ProtocolUnbindAdapterEx</a> function to request the driver to unbind from an underlying miniport
+    <mshelp:link keywords="netvista.protocolunbindadapterex" tabindex="0"><i>
+    ProtocolUnbindAdapterEx</i></mshelp:link> function to request the driver to unbind from an underlying miniport
     adapter.
 
 If the protocol driver successfully opens the miniport adapter but the bind operation fails (for
@@ -243,74 +298,80 @@ If the protocol driver successfully opens the miniport adapter but the bind oper
 
 NDIS calls 
     <i>ProtocolBindAdapterEx</i> at IRQL = PASSIVE_LEVEL.
-
-To define a <i>ProtocolBindAdapterEx</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>ProtocolBindAdapterEx</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolBindAdapterEx</i> function that is named "MyBindAdapterEx", use the <b>PROTOCOL_BIND_ADAPTER_EX</b> type as shown in this code example:
-
-Then, implement your function as follows:
-
-The <b>PROTOCOL_BIND_ADAPTER_EX</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_BIND_ADAPTER_EX</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PROTOCOL_BIND_ADAPTER_EX MyBindAdapterEx;</pre>
+</td>
+</tr>
+</table></span></div>Then, implement your function as follows:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>_Use_decl_annotations_
+NDIS_STATUS
+ MyBindAdapterEx(
+    NDIS_HANDLE  ProtocolDriverContext,
+    NDIS_HANDLE  BindContext,
+    PNDIS_BIND_PARAMETERS  BindParameters
+    )
+  {...}</pre>
+</td>
+</tr>
+</table></span></div>The <b>PROTOCOL_BIND_ADAPTER_EX</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_BIND_ADAPTER_EX</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
-</dt>
-<dt>
+
 <a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndiscompletebindadapterex.md">NdisCompleteBindAdapterEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisunbindadapter.md">NdisUnbindAdapter</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
-</dt>
-<dt>
+
+<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-</dt>
-<dt>
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-</dt>
-<dt>
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
-   ProtocolOpenAdapterCompleteEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
-   ProtocolReceiveNetBufferLists</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
-</dt>
-<dt>
+
+<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+
+<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
+
+<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
+
+<a href="..\ndis\nf-ndis-ndisunbindadapter.md">NdisUnbindAdapter</a>
+
+<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
+
+<a href="..\ndis\nf-ndis-ndiscompletebindadapterex.md">NdisCompleteBindAdapterEx</a>
+
 <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
-</dt>
-</dl>
- 
+
+<mshelp:link keywords="netvista.protocolreceivenetbufferlists" tabindex="0"><i>
+   ProtocolReceiveNetBufferLists</i></mshelp:link>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+<mshelp:link keywords="netvista.protocolopenadaptercompleteex" tabindex="0"><i>
+   ProtocolOpenAdapterCompleteEx</i></mshelp:link>
+
+<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_BIND_ADAPTER_EX callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_BIND_ADAPTER_EX callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

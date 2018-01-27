@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53a474a8-6cbd-4fe0-84d2-bf557b86ed71
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_MBctrl_P_OffHostIDCT_1, DXVA_MBctrl_P_OffHostIDCT_1, *LPDXVA_MBctrl_P_OffHostIDCT_1
+ms.keywords: display.dxva_mbctrl_p_offhostidct_1, DXVA_MBctrl_P_OffHostIDCT_1, DXVA_MBctrl_P_OffHostIDCT_1 structure [Display Devices], _DXVA_MBctrl_P_OffHostIDCT_1, dxva/DXVA_MBctrl_P_OffHostIDCT_1, dxvaref_5dae57d5-3e27-4928-8fd2-4c9cdad0285b.xml, *LPDXVA_MBctrl_P_OffHostIDCT_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVA_MBctrl_P_OffHostIDCT_1
-req.alt-loc: dxva.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxva.h
+apiname: 
+-	DXVA_MBctrl_P_OffHostIDCT_1
+product: Windows
+targetos: Windows
 req.typenames: DXVA_MBctrl_P_OffHostIDCT_1
 ---
 
 # _DXVA_MBctrl_P_OffHostIDCT_1 structure
 
 
-
 ## -description
+
+
 The DXVA_MBctrl_P_OffHostIDCT_1 structure is sent once per macroblock by the host decoder to the accelerator to specify macroblock control commands for most nonintra pictures using off-host IDCT.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVA_MBctrl_P_OffHostIDCT_1 {
@@ -59,6 +69,9 @@ typedef struct _DXVA_MBctrl_P_OffHostIDCT_1 {
 
 ## -struct-fields
 
+
+
+
 ### -field wMBaddress
 
 Specifies the macroblock address of the current macroblock in raster scan order. For examples of macroblock addresses see <a href="https://msdn.microsoft.com/f04c5462-db7c-4917-b8ef-22a630c82994">macroblock addresses</a>.
@@ -67,7 +80,6 @@ Specifies the macroblock address of the current macroblock in raster scan order.
 ### -field wMBtype
 
 Specifies the type of macroblock being processed. The following bits define macroblock processing.
-
 <table>
 <tr>
 <th>Bits</th>
@@ -241,8 +253,7 @@ Indicates that the macroblock is coded as intra, and no motion vectors are used 
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field dwMB_SNL
@@ -276,6 +287,8 @@ An array containing the value of the motion vector(s) for the macroblock, each r
 
 
 ## -remarks
+
+
 Each skipped macroblock specified by <i>MBskipsFollowing </i>must be generated in a manner mathematically equivalent to incrementing the value of <b>wMBaddress</b> and then repeating the same macroblock control command. Any macroblock control command with a nonzero value for <i>MBskipsFollowing</i> specifies how motion-compensated prediction is to be performed for each macroblock to be skipped, and is equivalent (except for the value of <i>MBskipsFollowing</i>) to an explicit nonskip specification of the generation of the first of the series of skipped macroblocks. Thus, whenever <i>MBskipsFollowing</i> is not zero, the following values must all be equal to zero: <i>Motion4MV</i>, <i>IntraMacroblock</i>, and <b>bNumCoef</b>.
 
 <i>MBdataLocation </i>is an index into the IDCT residual difference block data buffer, indicating the location of the residual difference data for the blocks of the current macroblock, expressed as a multiple of 32 bits. Must be zero for the first macroblock in the macroblock control command buffer. <i>MBdataLocation</i> may contain any value if <b>wPatternCode</b> is zero. When <b>wPatternCode</b> is zero, decoders are recommended but not required to set this value either to zero or to the same value as in the next macroblock control command.
@@ -285,24 +298,19 @@ For more information about how skipped macroblocks are generated, see <a href="h
 Valid combinations of <i>IntraMacroblock</i>, <i>MotionForward</i>, <i>MotionBackward</i>, <i>MotionType</i>, <i>MvertFieldSel</i>, and <b>MVector</b> are shown in the tables in <a href="https://msdn.microsoft.com/b282adac-3bf3-4477-a817-371d37b174a5">First Part of Macroblock Control Command Structure</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\dxva\ns-dxva-_dxva_mvvalue.md">DXVA_MVvalue</a>
-</dt>
-<dt>
-<a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_mbctrl_p_hostresiddiff_1.md">DXVA_MBctrl_P_HostResidDiff_1</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
-</dt>
-<dt>
+
+<a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
+
 <a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
-</dt>
-</dl>
+
+<a href="..\dxva\ns-dxva-_dxva_mvvalue.md">DXVA_MVvalue</a>
+
  
 
  

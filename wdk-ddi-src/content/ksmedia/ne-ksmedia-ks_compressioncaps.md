@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 47781af6-bf14-4b95-bef2-506aadb2d1fb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_CompressionCaps, KS_CompressionCaps
+ms.keywords: KS_CompressionCaps_CanWindow, ksmedia/KS_CompressionCaps_CanWindow, vidcapstruct_77c66492-8105-4cf2-a303-7819d83adbb4.xml, KS_CompressionCaps enumeration [Streaming Media Devices], ksmedia/KS_CompressionCaps, KS_CompressionCaps_CanCrunch, stream.ks_compressioncaps, KS_CompressionCaps, ksmedia/KS_CompressionCaps_CanCrunch, KS_CompressionCaps_CanQuality, ksmedia/KS_CompressionCaps_CanKeyFrame, ksmedia/KS_CompressionCaps_CanBFrame, KS_CompressionCaps_CanBFrame, KS_CompressionCaps_CanKeyFrame, ksmedia/KS_CompressionCaps_CanQuality
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_CompressionCaps
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KS_CompressionCaps
+product: Windows
+targetos: Windows
 req.typenames: KS_CompressionCaps
 ---
 
 # KS_CompressionCaps enumeration
 
 
-
 ## -description
+
+
 The KS_CompressionCaps enumeration defines compression capabilities of a device.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -57,6 +67,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field KS_CompressionCaps_CanQuality
 
@@ -83,18 +96,12 @@ The video compressor supports a user-specified P frame interval. The frames that
 The video compressor supports a user-specified window size (that is, the number of frames whose average size cannot exceed the specified data rate).
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-ksproperty_videocompression_getinfo_s.md">KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: C80506D2-AAB6-4A37-A62F-CDDD3DCBC7F1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _BDA_SCAN_STATE, BDA_SCAN_STATE, *PBDA_SCAN_STATE
+ms.keywords: _BDA_SCAN_STATE, bdatypes/PBDA_SCAN_STATE, *PBDA_SCAN_STATE, BDA_SCAN_STATE, bdatypes/BDA_SCAN_STATE, PBDA_SCAN_STATE structure pointer [Streaming Media Devices], stream.bda_scan_state, PBDA_SCAN_STATE, BDA_SCAN_STATE structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BDA_SCAN_STATE
-req.alt-loc: Bdatypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: BDA_SCAN_STATE, *PBDA_SCAN_STATE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bdatypes.h
+apiname: 
+-	BDA_SCAN_STATE
+product: Windows
+targetos: Windows
+req.typenames: *PBDA_SCAN_STATE, BDA_SCAN_STATE
 ---
 
 # _BDA_SCAN_STATE structure
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: BDA_SCAN_STATE, *PBDA_SCAN_STATE
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct _BDA_SCAN_STATE {
@@ -57,16 +67,21 @@ typedef struct _BDA_SCAN_STATE {
 
 ## -struct-fields
 
+
+
+
 ### -field lResult
+
 
 
 ### -field ulSignalLock
 
 
+
 ### -field ulSecondsLeft
+
 
 
 ### -field ulCurrentFrequency
 
 
-## -remarks

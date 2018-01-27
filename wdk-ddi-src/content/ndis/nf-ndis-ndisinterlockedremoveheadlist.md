@@ -7,8 +7,8 @@ old-location: netvista\ndisinterlockedremoveheadlist.htm
 old-project: netvista
 ms.assetid: 85cbc158-7132-4666-8161-a78251a62e4d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisInterlockedRemoveHeadList
+ms.date: 1/18/2018
+ms.keywords: ndis_interlocked_ref_5aacd492-068c-4cfe-afa6-4e0e63cf66e9.xml, NdisInterlockedRemoveHeadList macro [Network Drivers Starting with Windows Vista], NdisInterlockedRemoveHeadList, netvista.ndisinterlockedremoveheadlist, ndis/NdisInterlockedRemoveHeadList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see     
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisInterlockedRemoveHeadList
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisInterlockedRemoveHeadList
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisInterlockedRemoveHeadList macro
 
 
-
 ## -description
+
+
 The 
   <b>NdisInterlockedRemoveHeadList</b> function removes an entry, usually a packet, from the head of a doubly
   linked list so that access to the list is synchronized in a multiprocessor-safe way.
 
 
-
 ## -syntax
+
 
 ````
 PLIST_ENTRY NdisInterlockedRemoveHeadList(
@@ -57,17 +68,34 @@ PLIST_ENTRY NdisInterlockedRemoveHeadList(
 
 ## -parameters
 
-### -param ListHead [in]
+
+
+
+### -param _ListHead
+
+TBD
+
+
+### -param _SpinLock
+
+TBD
+
+
+
+
+#### - ListHead [in]
 
 A pointer to the head of the doubly linked list from which an entry is to be removed.
 
 
-### -param SpinLock [in]
+#### - SpinLock [in]
 
 A pointer to a caller-supplied spin lock, used to synchronize access to the list.
 
 
 ## -remarks
+
+
 Before calling any 
     <b>NdisInterlocked..List</b> function, a driver must initialize the variable at 
     <i>ListHead</i> with the 
@@ -99,29 +127,24 @@ If
     <i>ListHead</i> parameter must be resident.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.ndisinterlockedinsertheadlist" tabindex="0"><b>
+   NdisInterlockedInsertHeadList</b></mshelp:link>
+
 <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.ndisinterlockedinserttaillist" tabindex="0"><b>
+   NdisInterlockedInsertTailList</b></mshelp:link>
+
 <a href="..\ndis\nf-ndis-ndisinitializelisthead.md">NdisInitializeListHead</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
-   NdisInterlockedInsertHeadList</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">
-   NdisInterlockedInsertTailList</a>
-</dt>
-</dl>
+
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisInterlockedRemoveHeadList macro%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisInterlockedRemoveHeadList macro%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

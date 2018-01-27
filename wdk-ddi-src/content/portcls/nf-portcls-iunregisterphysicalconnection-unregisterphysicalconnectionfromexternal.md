@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 82d71ee0-13e1-4f7f-ad81-9e1b6e484052
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IUnregisterPhysicalConnection, IUnregisterPhysicalConnection::UnregisterPhysicalConnectionFromExternal, UnregisterPhysicalConnectionFromExternal
+ms.keywords: UnregisterPhysicalConnectionFromExternal method [Audio Devices], portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnectionFromExternal, IUnregisterPhysicalConnection, UnregisterPhysicalConnectionFromExternal, IUnregisterPhysicalConnection interface [Audio Devices], UnregisterPhysicalConnectionFromExternal method, UnregisterPhysicalConnectionFromExternal method [Audio Devices], IUnregisterPhysicalConnection interface, audio.iunregisterphysicalconnection_unregisterphysicalconnectionfromexternal, audmp-routines_24091cfd-dee9-400a-8cb6-f3a4a44ed9c5.xml, IUnregisterPhysicalConnection::UnregisterPhysicalConnectionFromExternal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IUnregisterPhysicalConnection.UnregisterPhysicalConnectionFromExternal
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IUnregisterPhysicalConnection.UnregisterPhysicalConnectionFromExternal
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IUnregisterPhysicalConnection::UnregisterPhysicalConnectionFromExternal method
 
 
-
 ## -description
+
+
 The <b>UnregisterPhysicalConnectionFromExternal</b> method deletes the registration of a physical connection that was registered by a previous call to <a href="..\portcls\nf-portcls-pcregisterphysicalconnectionfromexternal.md">PcRegisterPhysicalConnectionFromExternal</a>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS UnregisterPhysicalConnectionFromExternal(
@@ -57,6 +67,9 @@ NTSTATUS UnregisterPhysicalConnectionFromExternal(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceObject [in]
 
@@ -84,28 +97,29 @@ Specifies a pin ID. This parameter identifies the data sink (input) pin on the f
 
 
 ## -returns
+
+
 <b>UnregisterPhysicalConnectionFromExternal</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 For more information, see <a href="https://msdn.microsoft.com/d8ebd6d9-37ed-4890-aae1-5ecf58f2e22a">Dynamic Audio Subdevices</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iunregisterphysicalconnection.md">IUnregisterPhysicalConnection</a>
-</dt>
-<dt>
-<a href="..\portcls\nf-portcls-pcregisterphysicalconnectionfromexternal.md">PcRegisterPhysicalConnectionFromExternal</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-<dt>
+
 <a href="..\portcls\nn-portcls-iport.md">IPort</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nf-portcls-pcregisterphysicalconnectionfromexternal.md">PcRegisterPhysicalConnectionFromExternal</a>
+
+<a href="..\portcls\nn-portcls-iunregisterphysicalconnection.md">IUnregisterPhysicalConnection</a>
+
  
 
  

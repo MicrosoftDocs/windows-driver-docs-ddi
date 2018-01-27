@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c11265fb-df9d-405e-ac9f-e868ab392e7b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwCreateEvent
+ms.keywords: ntifs/NtCreateEvent, k111_53554a99-3112-4f70-8c00-9d632a74d15b.xml, ZwCreateEvent routine [Kernel-Mode Driver Architecture], ZwCreateEvent, ntifs/ZwCreateEvent, kernel.zwcreateevent, NtCreateEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows XP.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwCreateEvent,NtCreateEvent
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ZwCreateEvent
+-	NtCreateEvent
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # ZwCreateEvent function
 
 
-
 ## -description
+
+
 The <b>ZwCreateEvent</b> routine creates an event object, sets the initial state of the event to the specified value, and opens a handle to the object with the specified desired access.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ZwCreateEvent(
@@ -58,6 +69,9 @@ NTSTATUS ZwCreateEvent(
 
 ## -parameters
 
+
+
+
 ### -param EventHandle [out]
 
 A pointer to a variable that will receive the event object handle. The handle includes bookkeeping information, such as a reference count and security context.
@@ -66,7 +80,6 @@ A pointer to a variable that will receive the event object handle. The handle in
 ### -param DesiredAccess [in]
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that represents the desired types of access for the event object. The following table contains the event-specific ACCESS_MASK values.
-
 <table>
 <tr>
 <th>Value</th>
@@ -84,8 +97,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCES
 <td>EVENT_ALL_ACCESS</td>
 <td>All possible access rights to the event object.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param ObjectAttributes [in, optional]
@@ -104,30 +116,87 @@ The initial state of the event object. Set to <b>TRUE</b> to initialize the even
 
 
 ## -returns
+
+
 <b>ZwCreateEvent</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>Resources required by this function could not be allocated.
+</dl>
+</td>
+<td width="60%">
+Resources required by this function could not be allocated.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The supplied <i>ObjectAttributes</i> structure contained an invalid parameter value.
+</dl>
+</td>
+<td width="60%">
+The supplied <i>ObjectAttributes</i> structure contained an invalid parameter value.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER_4</b></dt>
-</dl>The specified <i>EventType</i> parameter was invalid. The allowable <i>EventType</i> values are <b>NotificationEvent</b> or <b>SynchronizationEvent</b>. The REALTIME_OBJECT_FLAG can also be specified for these <i>EventType</i> parameters.
+</dl>
+</td>
+<td width="60%">
+The specified <i>EventType</i> parameter was invalid. The allowable <i>EventType</i> values are <b>NotificationEvent</b> or <b>SynchronizationEvent</b>. The REALTIME_OBJECT_FLAG can also be specified for these <i>EventType</i> parameters.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_NAME_INVALID</b></dt>
-</dl>The <i>ObjectAttributes</i> parameter contained an <b>ObjectName</b> in the <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that was invalid.
+</dl>
+</td>
+<td width="60%">
+The <i>ObjectAttributes</i> parameter contained an <b>ObjectName</b> in the <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that was invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_PATH_SYNTAX_BAD</b></dt>
-</dl>The <i>ObjectAttributes</i> parameter did not contain a <b>RootDirectory</b> member, but the <b>ObjectName</b> member in the <b>OBJECT_ATTRIBUTES</b> structure was an empty string or did not contain an OBJECT_NAME_PATH_SEPARATOR character. This indicates incorrect syntax for the object path.
+</dl>
+</td>
+<td width="60%">
+The <i>ObjectAttributes</i> parameter did not contain a <b>RootDirectory</b> member, but the <b>ObjectName</b> member in the <b>OBJECT_ATTRIBUTES</b> structure was an empty string or did not contain an OBJECT_NAME_PATH_SEPARATOR character. This indicates incorrect syntax for the object path.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_PRIVILEGE_NOT_HELD</b></dt>
-</dl>The caller did not have the required privilege to create a handle with the access specified in the <i>DesiredAccess</i> parameter.
+</dl>
+</td>
+<td width="60%">
+The caller did not have the required privilege to create a handle with the access specified in the <i>DesiredAccess</i> parameter.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>ZwCreateEvent</b> creates an event object, sets it initial state to the specified value, and opens a handle to the object with the specified desired access. 
 
 <b>ZwCreateEvent</b> can create either notification or synchronization events.
@@ -141,67 +210,64 @@ A synchonization event is auto-resetting. When a synchronization event is set to
 Unlike a synchronization event, a notification event is not auto-resetting. Once a notification event is in the Signaled state, it remains in that state until it is explicitly reset.
 
 To synchronize on a notification event:
-
+<ol>
+<li>
 Create the notification event with <b>ZwCreateEvent</b> with the <i>EventType</i> parameter set to <b>NotificationEvent</b>.
 
+</li>
+<li>
 Wait for the event to be signaled by calling <a href="..\ntifs\nf-ntifs-zwwaitforsingleobject.md">ZwWaitForSingleObject</a> with the <i>EventHandle</i> returned by <b>ZwCreateEvent</b>. More than one thread of execution can wait for a given notification event to be signaled. To poll instead of stall, specify a <i>Timeout</i> of zero to <b>ZwWaitForSingleObject</b>.
 
+</li>
+<li>
 Close the handle to the notification event with <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> when access to the event is no longer needed.
 
-The <b>ZwCreateEvent</b> function is called after the <b>InitializeObjectAttributes</b> macro is used to set attributes in the <b>OBJECT_ATTRIBUTES</b> structure for the object. 
+</li>
+</ol>The <b>ZwCreateEvent</b> function is called after the <b>InitializeObjectAttributes</b> macro is used to set attributes in the <b>OBJECT_ATTRIBUTES</b> structure for the object. 
 
 There are two alternate ways to specify the name of the object passed to <b>ZwCreateEvent</b>:
-
+<ol>
+<li>
 As a fully qualified pathname, supplied in the <b>ObjectName</b> member of the input <i>ObjectAttributes</i>.
 
+</li>
+<li>
 As pathname relative to the directory represented by the handle in the <b>RootDirectory</b> member of the input <i>ObjectAttributes</i>.
 
-To release the event, a driver calls <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> with the event handle.
+</li>
+</ol>To release the event, a driver calls <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> with the event handle.
 
 For more information about events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544323">Event Objects</a>.
+<div class="alert"><b>Note</b>  If the call to the <b>ZwCreateEvent</b> routine occurs in user mode, you should use the name "<b>NtCreateEvent</b>" instead of "<b>ZwCreateEvent</b>". </div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
 <a href="..\ntifs\nf-ntifs-zwsetevent.md">ZwSetEvent</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-zwwaitforsingleobject.md">ZwWaitForSingleObject</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
+
+<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
+
  
 
  

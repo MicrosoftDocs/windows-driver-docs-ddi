@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CBBB1350-66BE-4F74-A0CE-0400245352F3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER
+ms.keywords: storage.hwstorworkitem, HwStorWorkItem routine [Storage Devices], HwStorWorkItem, HW_WORKITEM, HW_WORKITEM, storport/HwStorWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 8 and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HwStorWorkItem
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	storport.h
+apiname: 
+-	HwStorWorkItem
+product: Windows
+targetos: Windows
 req.typenames: *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # HW_WORKITEM callback
 
 
-
 ## -description
+
+
 A miniport-provided callback function for processing a Storport work item request.
 
 
-
 ## -prototype
+
 
 ````
 HW_WORKITEM HwStorWorkItem;
@@ -59,6 +69,9 @@ VOID HwStorWorkItem(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -76,29 +89,46 @@ A pointer to an opaque buffer that holds context information for the work item r
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 If needed, a work item can be queued within <b>HwStorWorkItem</b>. Call <a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a> with the current work item to reuse it. Otherwise, call <a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a> to release the work item.
 
 No locks are acquired by Storport when the callback is invoked. The miniport is responsible for any synchronization required in the callback routine.
 
 The name <i>HwStorWorkItem</i> is just a placeholder for the miniport function that is pointed to by the <i>Callback</i> parameter of  <a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef
+VOID
+HW_WORKITEM (
+    _In_     PVOID HwDeviceExtension,
+    _In_Opt_ PVOID Context,
+    _In_     PVOID Worker,
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
-</dt>
-<dt>
-<a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>
-</dt>
-</dl>
+
+<a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
+
+<a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
+
  
 
  

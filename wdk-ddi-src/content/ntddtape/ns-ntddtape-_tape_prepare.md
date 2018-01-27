@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0bca5849-e0f9-42b2-82f8-aadea2aa01ae
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _TAPE_PREPARE, TAPE_PREPARE, *PTAPE_PREPARE
+ms.keywords: ntddtape/PTAPE_PREPARE, TAPE_PREPARE, PTAPE_PREPARE, PTAPE_PREPARE structure pointer [Storage Devices], TAPE_PREPARE structure [Storage Devices], structs-tape_b563ea19-797c-4df0-a384-7e9c579ee2e9.xml, storage.tape_prepare, *PTAPE_PREPARE, _TAPE_PREPARE, ntddtape/TAPE_PREPARE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TAPE_PREPARE
-req.alt-loc: ntddtape.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: TAPE_PREPARE, *PTAPE_PREPARE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddtape.h
+apiname: 
+-	TAPE_PREPARE
+product: Windows
+targetos: Windows
+req.typenames: *PTAPE_PREPARE, TAPE_PREPARE
 ---
 
 # _TAPE_PREPARE structure
 
 
-
 ## -description
+
+
 The TAPE_PREPARE structure is used in conjunction with the <a href="..\ntddtape\ni-ntddtape-ioctl_tape_prepare.md">IOCTL_TAPE_PREPARE</a> request to load or unload tape, reset the tape's tension, lock or unlock the ejection mechanism, or format the tape.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _TAPE_PREPARE {
@@ -55,10 +65,12 @@ typedef struct _TAPE_PREPARE {
 
 ## -struct-fields
 
+
+
+
 ### -field Operation
 
 Indicates the type of operation to perform. This member can be one of the following:
-
 <table>
 <tr>
 <th>Operation</th>
@@ -124,8 +136,7 @@ Performs a low-level format of the tape. Not all devices support this feature. T
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Immediate
@@ -133,18 +144,12 @@ Performs a low-level format of the tape. Not all devices support this feature. T
 When set to <b>TRUE</b>, indicates that the target device should return status immediately. When set to <b>FALSE</b>, indicates that the device should return status after the operation is complete.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddtape\ni-ntddtape-ioctl_tape_prepare.md">IOCTL_TAPE_PREPARE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567950">TapeMiniPrepare</a>
-</dt>
-</dl>
+
  
 
  

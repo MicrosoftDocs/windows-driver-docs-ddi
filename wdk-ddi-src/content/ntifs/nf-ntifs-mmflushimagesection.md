@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e5c94f80-8ff8-4945-b1b8-a12190c3dec7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: MmFlushImageSection
+ms.keywords: MmFlushImageSection, mmref_d6a37cf0-a204-4070-80f6-bd407f671ee8.xml, MmFlushImageSection routine [Installable File System Drivers], ifsk.mmflushimagesection, ntifs/MmFlushImageSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MmFlushImageSection
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	MmFlushImageSection
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # MmFlushImageSection function
 
 
-
 ## -description
+
+
 The <b>MmFlushImageSection</b> routine flushes the image section for a file.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN MmFlushImageSection(
@@ -55,15 +65,17 @@ BOOLEAN MmFlushImageSection(
 
 ## -parameters
 
-### -param SectionPointer [in]
 
-Pointer to a structure that contains the file object's section object pointers.
+
+
+### -param SectionObjectPointer
+
+TBD
 
 
 ### -param FlushType [in]
 
 Specifies the reason for the flush operation. It can be one of the values listed in the following table. 
-
 <table>
 <tr>
 <th>FlushType Value</th>
@@ -89,15 +101,24 @@ The file is being opened for write access.
 
 </td>
 </tr>
-</table>
- 
+</table> 
+
+
+#### - SectionPointer [in]
+
+Pointer to a structure that contains the file object's section object pointers.
 
 
 ## -returns
+
+
 <b>MmFlushImageSection</b> returns <b>TRUE</b> if the flush operation is successful, or if no image section exists for the file; otherwise <b>MmFlushImageSection</b> returns <b>FALSE</b>.
+<div class="alert"><b>Note</b>  If the FlushType MmFlushForDelete value is specified and there are one or more outstanding write probes on the file's data section, <b>MmFlushImageSection</b> returns <b>FALSE</b>.</div><div> </div>
 
 
 ## -remarks
+
+
 A file system must call the <b>MmFlushImageSection</b> routine before deleting a file or opening a file for write access. 
 
 Before deleting a file, the file system should call <b>MmFlushImageSection</b> from its IRP_MJ_SET_INFORMATION or IRP_MJ_CLEANUP dispatch routine, passing <b>MmFlushForDelete</b> for the <i>FlushType</i> parameter. 
@@ -109,12 +130,11 @@ If there are no mapped views of the image section, <b>MmFlushImageSection</b> de
 Before using <b>MmFlushImageSection</b>, file system writers are strongly encouraged to study the way this routine is used in the FASTFAT sample. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
-</dt>
-</dl>
+
  
 
  

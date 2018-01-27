@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 93071B7B-74D8-44A2-984D-A6BABFC07BA3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCX_ENDPOINT_EVENT_CALLBACKS, *PUCX_ENDPOINT_EVENT_CALLBACKS, UCX_ENDPOINT_EVENT_CALLBACKS
+ms.keywords: UCX_ENDPOINT_EVENT_CALLBACKS, P_UCX_ENDPOINT_EVENT_CALLBACKS, *PUCX_ENDPOINT_EVENT_CALLBACKS, P_UCX_ENDPOINT_EVENT_CALLBACKS structure pointer [Buses], ucxendpoint/_UCX_ENDPOINT_EVENT_CALLBACKS, UCX_ENDPOINT_EVENT_CALLBACKS structure [Buses], buses._ucx_endpoint_event_callbacks, _UCX_ENDPOINT_EVENT_CALLBACKS, ucxendpoint/P_UCX_ENDPOINT_EVENT_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UCX_ENDPOINT_EVENT_CALLBACKS
-req.alt-loc: ucxendpoint.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PUCX_ENDPOINT_EVENT_CALLBACKS, UCX_ENDPOINT_EVENT_CALLBACKS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ucxendpoint.h
+apiname: 
+-	UCX_ENDPOINT_EVENT_CALLBACKS
+product: Windows
+targetos: Windows
+req.typenames: UCX_ENDPOINT_EVENT_CALLBACKS, *PUCX_ENDPOINT_EVENT_CALLBACKS
 req.product: Windows 10 or later.
 ---
 
 # _UCX_ENDPOINT_EVENT_CALLBACKS structure
 
 
-
 ## -description
+
+
 This structure provides a list of  pointers to UCX endpoint event callback functions.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UCX_ENDPOINT_EVENT_CALLBACKS {
@@ -65,6 +75,9 @@ typedef struct _UCX_ENDPOINT_EVENT_CALLBACKS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -126,18 +139,12 @@ A pointer to an <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_get_isoc
 A pointer to an <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_set_characteristic.md">EVT_UCX_ENDPOINT_SET_CHARACTERISTIC</a> callback function.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ucxendpoint\nf-ucxendpoint-ucx_endpoint_event_callbacks_init.md">UCX_ENDPOINT_EVENT_CALLBACKS_INIT</a>
-</dt>
-<dt>
+
 <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointinitseteventcallbacks.md">UcxEndpointInitSetEventCallbacks</a>
-</dt>
-</dl>
+
+<a href="..\ucxendpoint\nf-ucxendpoint-ucx_endpoint_event_callbacks_init.md">UCX_ENDPOINT_EVENT_CALLBACKS_INIT</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4f45e2ad-19f9-4308-8d63-edf066545e07
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SM_GetBindingSupport_OUT, *PSM_GetBindingSupport_OUT, SM_GetBindingSupport_OUT
+ms.keywords: SM_GetBindingSupport_OUT, hbapiwmi/SM_GetBindingSupport_OUT, PSM_GetBindingSupport_OUT structure pointer [Storage Devices], PSM_GetBindingSupport_OUT, *PSM_GetBindingSupport_OUT, structs-Fibre_687416b3-60d9-494f-895b-a23fcb666994.xml, storage.sm_getbindingsupport_out, _SM_GetBindingSupport_OUT, SM_GetBindingSupport_OUT structure [Storage Devices], hbapiwmi/PSM_GetBindingSupport_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SM_GetBindingSupport_OUT
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSM_GetBindingSupport_OUT, SM_GetBindingSupport_OUT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	SM_GetBindingSupport_OUT
+product: Windows
+targetos: Windows
+req.typenames: SM_GetBindingSupport_OUT, *PSM_GetBindingSupport_OUT
 ---
 
 # _SM_GetBindingSupport_OUT structure
 
 
-
 ## -description
+
+
 The SM_GetBindingSupport_OUT structure is used to receive output parameters from the SM_GetBindingSupport method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SM_GetBindingSupport_OUT {
@@ -54,6 +64,9 @@ typedef struct _SM_GetBindingSupport_OUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HBAStatus
 
@@ -66,4 +79,8 @@ The HBA_BIND_CAPABILITY binding capabilities.
 
 
 ## -remarks
-The WMI tool suite generates a declaration of the SM_GetBindingSupport_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.</p>
+
+
+The WMI tool suite generates a declaration of the SM_GetBindingSupport_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.
+
+

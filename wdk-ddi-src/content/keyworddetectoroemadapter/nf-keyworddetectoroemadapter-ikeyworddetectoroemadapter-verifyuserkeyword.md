@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: AFF679B6-B389-4EA2-8834-9B1B47412B7D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter::VerifyUserKeyword, VerifyUserKeyword
+ms.keywords: IKeywordDetectorOemAdapter, VerifyUserKeyword method [Audio Devices], IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter::VerifyUserKeyword, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::VerifyUserKeyword, VerifyUserKeyword method [Audio Devices], IKeywordDetectorOemAdapter interface [Audio Devices], VerifyUserKeyword method, audio.ikeyworddetectoroemadapter_verifyuserkeyword, VerifyUserKeyword
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKeywordDetectorOemAdapter.VerifyUserKeyword
-req.alt-loc: KeywordDetectorOemAdapter.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: KeywordDetectorOemAdapter.idl
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: keyworddetectoroemadapter.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	KeywordDetectorOemAdapter.h
+apiname: 
+-	IKeywordDetectorOemAdapter.VerifyUserKeyword
+product: Windows
+targetos: Windows
 req.typenames: KEYWORDID
 ---
 
 # IKeywordDetectorOemAdapter::VerifyUserKeyword method
 
 
-
 ## -description
+
+
 The <b>VerifyUserKeyword</b> method is used by the training user experience  to verify that one instance of a spoken utterance, captured during training, matches a predefined keyword within some tolerance.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT VerifyUserKeyword(
@@ -57,6 +67,9 @@ HRESULT VerifyUserKeyword(
 
 
 ## -parameters
+
+
+
 
 ### -param ModelData [in]
 
@@ -83,7 +96,6 @@ Indicates the end of the keyword in the UserRecording.
 A pointer to the buffer containing the raw data in the appropriate <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> format.
 
 The user recording must have the following attributes:
-
 <ul>
 <li>Type = Audio</li>
 <li>Subtype = IEEE_FLOAT</li>
@@ -92,41 +104,111 @@ The user recording must have the following attributes:
 </ul>
 
 ## -returns
+
+
 This method can return one of these values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl> The function exited successfully.
+</dl>
+</td>
+<td width="60%">
+ The function exited successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_NOTIMPL</b></dt>
-</dl>User keyword training is not supported for the device.
+</dl>
+</td>
+<td width="60%">
+User keyword training is not supported for the device.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_INVALIDARG</b></dt>
-</dl>One or more of the following conditions are true:
+</dl>
+</td>
+<td width="60%">
+One or more of the following conditions are true:
+
+<ul>
+<li>The <i>ModelData</i> pointer is <b>NULL</b>.</li>
+<li>The <i>KeywordId</i> parameter is invalid.</li>
+<li>The <i>LangId</i> parameter is invalid.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_NO_MATCH</b></dt>
-</dl>The user recording didn't contain the specified keyword.
+</dl>
+</td>
+<td width="60%">
+The user recording didn't contain the specified keyword.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 Note that audio is processed in a unique way for voice activation training. The following table summarizes the differences between voice activation training and the regular voice recognition usage. 
+<table>
+<tr>
+<td></td>
+<td><b>Training </b></td>
+<td><b>Recognition </b></td>
+</tr>
+<tr>
+<td>Mode</td>
+<td>Raw</td>
+<td>Speech</td>
+</tr>
+<tr>
+<td>Pin</td>
+<td>Normal</td>
+<td>Burst</td>
+</tr>
+<tr>
+<td> Audio Format</td>
+<td>32-bit float (Type = Audio, Subtype = IEEE_FLOAT, Sampling Rate = 16 kHz, bits = 32)</td>
+<td>Managed by OS audio stack</td>
+</tr>
+<tr>
+<td>Mic</td>
+<td>Mic 0 </td>
+<td>All mics in array</td>
+</tr>
+</table> 
+
 
 
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
-</dt>
-<dt>
+
 <a href="..\keyworddetectoroemadapter\ne-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0002.md">KEYWORDID</a>
-</dt>
-<dt>
+
+<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
+
 <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\rilosgeolocationinfo.htm
 old-project: netvista
 ms.assetid: 9a56152e-fb38-4470-8834-a0cbdd7b70ec
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO, *LPRILOSGEOLOCATIONINFO
+ms.date: 1/18/2018
+ms.keywords: ntddrilapitypes/RILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rilosgeolocationinfo, *LPRILOSGEOLOCATIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILOSGEOLOCATIONINFO
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILOSGEOLOCATIONINFO
+product: Windows
+targetos: Windows
 req.typenames: RILOSGEOLOCATIONINFO, *LPRILOSGEOLOCATIONINFO
 ---
 
 # RILOSGEOLOCATIONINFO structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILOSGEOLOCATIONINFO {
@@ -70,55 +80,73 @@ typedef struct _RILOSGEOLOCATIONINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwLatitude
+
 
 
 ### -field dwLongitude
 
 
+
 ### -field dwAltitude
+
 
 
 ### -field dwAccuracy
 
 
+
 ### -field dwLocationInformationMask
+
 
 
 ### -field stTimeStamp
 
 
+
 ### -field wszAddressLine1
+
 
 
 ### -field wszAddressLine2
 
 
+
 ### -field wszCity
+
 
 
 ### -field wszState
 
 
+
 ### -field wszCountry
+
 
 
 ### -field wszPostalCode
 
 
+
 ### -field wszFormattedAddress
+
 
 
 ### -field wszCountryCode
 
 
+
 ### -field wszRegionCode
 
 
-## -remarks

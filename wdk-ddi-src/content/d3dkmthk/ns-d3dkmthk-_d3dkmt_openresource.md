@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5ff63606-ced1-4482-b967-41db4746ac1d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_OPENRESOURCE, D3DKMT_OPENRESOURCE
+ms.keywords: OpenGL_Structs_b069a94a-b78c-4fbf-b78d-7c5b0d025655.xml, D3DKMT_OPENRESOURCE, _D3DKMT_OPENRESOURCE, d3dkmthk/D3DKMT_OPENRESOURCE, display.d3dkmt_openresource, D3DKMT_OPENRESOURCE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_OPENRESOURCE
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_OPENRESOURCE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_OPENRESOURCE
 ---
 
 # _D3DKMT_OPENRESOURCE structure
 
 
-
 ## -description
+
+
 The D3DKMT_OPENRESOURCE structure describes parameters for opening a resource.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_OPENRESOURCE {
@@ -70,6 +80,21 @@ typedef struct _D3DKMT_OPENRESOURCE {
 
 ## -struct-fields
 
+
+
+
+### -field pOpenAllocationInfo
+
+[in/out] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a> structures that describe each allocation to update.
+
+
+### -field pOpenAllocationInfo2
+
+This member is reserved and should be set to zero.
+
+This member is available beginning with Windows 7.
+
+
 ### -field hDevice
 
 [in] A handle to the device that the resource and allocations are associated with.
@@ -83,18 +108,6 @@ typedef struct _D3DKMT_OPENRESOURCE {
 ### -field NumAllocations
 
 [in] The number of elements in the array that <b>pOpenAllocationInfo</b> specifies, which represents the number of allocations that are associated with the resource.
-
-
-### -field pOpenAllocationInfo
-
-[in/out] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a> structures that describe each allocation to update.
-
-
-### -field pOpenAllocationInfo2
-
-This member is reserved and should be set to zero.
-
-This member is available beginning with Windows 7.
 
 
 ### -field pPrivateRuntimeData
@@ -132,18 +145,12 @@ This member is available beginning with Windows 7.
 [out] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the newly opened shared resource that is associated with the allocations.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenresource.md">D3DKMTOpenResource</a>
-</dt>
-</dl>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\wdi_txrx_mpdu_pn.htm
 old-project: netvista
 ms.assetid: F03F5BE6-B2F2-4A9A-8D6D-1ACC9F08C890
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WDI_TXRX_MPDU_PN, WDI_TXRX_MPDU_PN
+ms.date: 1/18/2018
+ms.keywords: _WDI_TXRX_MPDU_PN, netvista.wdi_txrx_mpdu_pn, WDI_TXRX_MPDU_PN, dot11wdi/WDI_TXRX_MPDU_PN, WDI_TXRX_MPDU_PN union [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WDI_TXRX_MPDU_PN
-req.alt-loc: dot11wdi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dot11wdi.h
+apiname: 
+-	WDI_TXRX_MPDU_PN
+product: Windows
+targetos: Windows
 req.typenames: WDI_TXRX_MPDU_PN
 ---
 
 # _WDI_TXRX_MPDU_PN structure
 
 
-
 ## -description
+
+
 The 
   WDI_TXRX_MPDU_PN union defines the parameters that are passed down to the TXRX component.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _WDI_TXRX_MPDU_PN {
@@ -56,6 +66,9 @@ typedef union _WDI_TXRX_MPDU_PN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Pn24
 
@@ -71,5 +84,3 @@ TKIP or CCMP: 48-bit PN
 
 WAPI: 128-bit PN
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 177ffc7d-697d-47c5-9692-19cba6734077
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SM_SendRNID_OUT, *PSM_SendRNID_OUT, SM_SendRNID_OUT
+ms.keywords: PSM_SendRNID_OUT, storage.sm_sendrnid_out, SM_SendRNID_OUT, SM_SendRNID_OUT structure [Storage Devices], hbapiwmi/SM_SendRNID_OUT, structs-Fibre_9e6a1fff-df92-4d26-af84-b99b9feecbef.xml, _SM_SendRNID_OUT, hbapiwmi/PSM_SendRNID_OUT, *PSM_SendRNID_OUT, PSM_SendRNID_OUT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SM_SendRNID_OUT
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	SM_SendRNID_OUT
+product: Windows
+targetos: Windows
 req.typenames: *PSM_SendRNID_OUT, SM_SendRNID_OUT
 ---
 
 # _SM_SendRNID_OUT structure
 
 
-
 ## -description
+
+
 The SM_SendRNID_OUT structure is used to receive output parameters from the SM_SendRNID method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SM_SendRNID_OUT {
@@ -56,6 +66,9 @@ typedef struct _SM_SendRNID_OUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HBAStatus
 
@@ -78,4 +91,8 @@ The results of the common transport command.
 
 
 ## -remarks
-The WMI tool suite generates a declaration of the SM_SendRNID_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.</p>
+
+
+The WMI tool suite generates a declaration of the SM_SendRNID_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.
+
+

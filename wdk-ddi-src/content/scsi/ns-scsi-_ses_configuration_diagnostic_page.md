@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0FD748D6-F598-44D1-A8D3-E63764CB90C6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SES_CONFIGURATION_DIAGNOSTIC_PAGE, SES_CONFIGURATION_DIAGNOSTIC_PAGE, *PSES_CONFIGURATION_DIAGNOSTIC_PAGE
+ms.keywords: scsi/PSES_CONFIGURATION_DIAGNOSTIC_PAGE, *PSES_CONFIGURATION_DIAGNOSTIC_PAGE, PSES_CONFIGURATION_DIAGNOSTIC_PAGE structure pointer [Storage Devices], SES_CONFIGURATION_DIAGNOSTIC_PAGE, PSES_CONFIGURATION_DIAGNOSTIC_PAGE, scsi/SES_CONFIGURATION_DIAGNOSTIC_PAGE, SES_CONFIGURATION_DIAGNOSTIC_PAGE structure [Storage Devices], _SES_CONFIGURATION_DIAGNOSTIC_PAGE, storage.ses_configuration_diagnostic_page
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 10, version 1709 and later vers
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SES_CONFIGURATION_DIAGNOSTIC_PAGE
-req.alt-loc: scsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	scsi.h
+apiname: 
+-	SES_CONFIGURATION_DIAGNOSTIC_PAGE
+product: Windows
+targetos: Windows
 req.typenames: SES_CONFIGURATION_DIAGNOSTIC_PAGE, *PSES_CONFIGURATION_DIAGNOSTIC_PAGE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _SES_CONFIGURATION_DIAGNOSTIC_PAGE structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 TBD
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SES_CONFIGURATION_DIAGNOSTIC_PAGE {
@@ -60,6 +70,9 @@ typedef struct _SES_CONFIGURATION_DIAGNOSTIC_PAGE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PageCode
 
@@ -86,5 +99,3 @@ Specifies the value of the generation code.
 
 Specifies the enclosure descriptors for the primary and secondary enclosures. The primary enclosure is the first index.
 
-
-## -remarks

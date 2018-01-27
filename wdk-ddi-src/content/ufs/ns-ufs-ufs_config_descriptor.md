@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: B65A2268-6959-4630-97DA-C0CFD37D9174
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: UFS_CONFIG_DESCRIPTOR, *PUFS_CONFIG_DESCRIPTOR, UFS_CONFIG_DESCRIPTOR
+ms.keywords: PUFS_CONFIG_DESCRIPTOR structure pointer [Storage Devices], UFS_CONFIG_DESCRIPTOR, UFS_CONFIG_DESCRIPTOR structure [Storage Devices], storage.ufs_config_descriptor, ufs/UFS_CONFIG_DESCRIPTOR, ufs/PUFS_CONFIG_DESCRIPTOR, *PUFS_CONFIG_DESCRIPTOR, PUFS_CONFIG_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UFS_CONFIG_DESCRIPTOR
-req.alt-loc: Ufs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PUFS_CONFIG_DESCRIPTOR, UFS_CONFIG_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ufs.h
+apiname: 
+-	UFS_CONFIG_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: UFS_CONFIG_DESCRIPTOR, *PUFS_CONFIG_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
 # UFS_CONFIG_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The <b>UFS_CONFIG_DESCRIPTOR</b> structure describes the modifiable values of the default device configuration set by the manufacturer. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UFS_CONFIG_DESCRIPTOR {
@@ -65,6 +75,9 @@ typedef struct _UFS_CONFIG_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field bLength
 
@@ -108,7 +121,7 @@ or hardware reset.
 Configures the secure removal type.
 
 
-### -field  bInitActiveICCLevel
+### -field bInitActiveICCLevel
 
 Configures the ICC level in Active mode after device
 initialization or hardware reset.
@@ -119,7 +132,7 @@ initialization or hardware reset.
 Specifies the frequency and method of real-time clock updates.
 
 
-### -field  Reserved2
+### -field Reserved2
 
 Reserved for future use.
 
@@ -129,15 +142,10 @@ Reserved for future use.
 Contains the configurable parameters of the Unit Descriptor. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ufs\ns-ufs-ufs_unit_config_descriptor.md">UFS_UNIT_CONFIG_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

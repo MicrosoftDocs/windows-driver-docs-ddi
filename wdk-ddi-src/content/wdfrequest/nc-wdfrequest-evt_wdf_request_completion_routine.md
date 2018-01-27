@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7d3eb4d6-9fc7-4924-9b95-f5824713049b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRegistryWdmGetHandle
+ms.keywords: wdf.completionroutine, CompletionRoutine callback function, CompletionRoutine, EVT_WDF_REQUEST_COMPLETION_ROUTINE, EVT_WDF_REQUEST_COMPLETION_ROUTINE, wdfrequest/CompletionRoutine, DFRequestObjectRef_5eed5273-6939-4a56-846a-ee80c92c005a.xml, kmdf.completionroutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: CompletionRoutine
-req.alt-loc: Wdfrequest.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wdfrequest.h
+apiname: 
+-	CompletionRoutine
+product: Windows
+targetos: Windows
 req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # EVT_WDF_REQUEST_COMPLETION_ROUTINE callback
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 A driver's <i>CompletionRoutine</i> event callback function executes when another driver completes a specified I/O request.
 
 
-
 ## -prototype
+
 
 ````
 EVT_WDF_REQUEST_COMPLETION_ROUTINE CompletionRoutine;
@@ -62,6 +72,9 @@ void CompletionRoutine(
 
 
 ## -parameters
+
+
+
 
 ### -param Request [in]
 
@@ -84,32 +97,29 @@ Driver-supplied context information, which the driver specified in a previous ca
 
 
 ## -returns
+
+
 None
+<h2><a id="ddk_completionroutine_df"></a><a id="DDK_COMPLETIONROUTINE_DF"></a></h2>
 
 
 ## -remarks
+
+
 To register a <i>CompletionRoutine</i> callback function for an I/O request, a driver must call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>. For more information about this callback function, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
 
 Note that the completion parameters structure contains valid information only if the driver has formatted the request by calling one of the <b>WdfIoTargetFormat</b><i>Xxx</i> methods. For an example, see <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetformatrequestforread.md">WdfIoTargetFormatRequestForRead</a>.
 
 A KMDF driver's <i>CompletionRoutine</i> can run at IRQL &lt;= DISPATCH_LEVEL regardless of the  <b>ExecutionLevel</b> specified in the <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure for the I/O request object.  
 
-The function type is declared in <i>Wdfrequest.h</i>, as follows.
-
-To define a <i>CompletionRoutine</i> callback function that is named <b>MyCompletionRoutine</b>, you must first provide a function declaration that SDV and other verification tools require, as follows:
-
-Then, implement your callback function as follows:
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>
-</dt>
-<dt>
+
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a>
-</dt>
-</dl>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>
+
  
 
  

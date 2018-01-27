@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f8a15cb0-92c5-4637-934e-021fa7969208
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSMULTIPLE_ITEM, *PKSMULTIPLE_ITEM, KSMULTIPLE_ITEM
+ms.keywords: PKSMULTIPLE_ITEM, stream.ksmultiple_item, KSMULTIPLE_ITEM, KSMULTIPLE_ITEM structure [Streaming Media Devices], PKSMULTIPLE_ITEM structure pointer [Streaming Media Devices], ks/PKSMULTIPLE_ITEM, *PKSMULTIPLE_ITEM, ks/KSMULTIPLE_ITEM, ks-struct_65ad7181-a002-4f51-8215-c82e7a1ee07c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSMULTIPLE_ITEM
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSMULTIPLE_ITEM
+product: Windows
+targetos: Windows
 req.typenames: *PKSMULTIPLE_ITEM, KSMULTIPLE_ITEM
 ---
 
 # KSMULTIPLE_ITEM structure
 
 
-
 ## -description
+
+
 The KSMULTIPLE_ITEM structure is a generic header for property data that can contain multiple entries.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field Size
 
 Specifies the size in bytes of this header and the property data that follows.
@@ -65,21 +78,14 @@ Specifies the size in bytes of this header and the property data that follows.
 Specifies the number of buffers that follow this header.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/23c020e8-b778-4784-9dc0-21920557e1c1">Kernel Streaming Property Sets</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
  
 
  

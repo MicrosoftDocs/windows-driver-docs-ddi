@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0dae335a-bcc1-4f6a-8926-e2ecc4112dc5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCreatePin
+ms.keywords: KsCreatePin, ksfunc_f49fab36-1309-4eec-addb-4eba94583692.xml, ks/KsCreatePin, KsCreatePin function [Streaming Media Devices], stream.kscreatepin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsCreatePin
-req.alt-loc: ks.lib,ks.dll,ksuser.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,33 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	ks.lib
+-	ks.dll
+-	ksuser.dll
+apiname: 
+-	KsCreatePin
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsCreatePin function
 
 
-
 ## -description
+
+
 The <b>KsCreatePin</b> function passes a connection request to a device, creating a pin instance. This function can only be called at <b>PASSIVE_LEVEL</b> for kernel-mode clients.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsCreatePin(
@@ -56,6 +68,9 @@ NTSTATUS KsCreatePin(
 
 
 ## -parameters
+
+
+
 
 ### -param FilterHandle [in]
 
@@ -78,40 +93,29 @@ Specifies the connection handle passed. The routine fills this in with a handle 
 
 
 ## -returns
+
+
 The <b>KsCreatePin</b> function returns <b>STATUS_SUCCESS</b> if the connection was successful, or it returns an error if the connection failed. Additionally, this Win32 error code (from Winerror.h) can be returned:
-<dl>
-<dt><b>ERROR_NO_MATCH</b></dt>
-<dd>
-1169L (0x491)
 
-The connection failed because the interface, medium, or data format were not found.
-
-<div class="alert"><b>Note</b>  Do not rely on using the <a href="https://msdn.microsoft.com/fe823930-e3ff-4c95-a640-bb6470c95d1d">NT_SUCCESS</a>  macro to check return codes from this function: the  macro could evaluate to <b>TRUE</b> even though the function returns the <b>ERROR_NO_MATCH</b> error code.</div>
-<div> </div>
-</dd>
-</dl>1169L (0x491)
-
-The connection failed because the interface, medium, or data format were not found.
 
 
 ## -remarks
+
+
 The routine sends an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> request to the driver. The driver accepts the request only if the interface, medium, and data format are compatible.
 
 If <i>Connect</i>-&gt;<b>PinToHandle</b> is <b>NULL</b>, <b>KsCreatePin</b> creates a pin the caller can use to send requests to the streaming driver specified in <i>Connect</i>-&gt;<b>FilterHandle</b>. <i>Connect</i>-&gt;<b>PinId</b> determines the pin type of the pin to be created.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-kspin_connect.md">KSPIN_CONNECT</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
  
 
  

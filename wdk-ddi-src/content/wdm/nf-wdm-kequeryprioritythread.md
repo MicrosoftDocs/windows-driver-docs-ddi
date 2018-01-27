@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69a8ad3f-641d-4aaf-9184-e56dee6ca347
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryPriorityThread
+ms.keywords: wdm/KeQueryPriorityThread, kernel.kequeryprioritythread, KeQueryPriorityThread routine [Kernel-Mode Driver Architecture], KeQueryPriorityThread, k105_6a330d84-aa5a-4822-a4d3-7b68aa9e8882.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeQueryPriorityThread
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeQueryPriorityThread
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeQueryPriorityThread function
 
 
-
 ## -description
+
+
 The <b>KeQueryPriorityThread</b> routine returns the current priority of a particular thread. 
 
 
-
 ## -syntax
+
 
 ````
 KPRIORITY KeQueryPriorityThread(
@@ -55,34 +65,38 @@ KPRIORITY KeQueryPriorityThread(
 
 ## -parameters
 
+
+
+
 ### -param Thread [in]
 
 Pointer to a dispatcher object of type KTHREAD. 
 
 
 ## -returns
+
+
 <b>KeQueryPriorityThread</b> returns the current priority of the specified thread. 
 
 
+
 ## -remarks
+
+
 Thread priorities range from 0 to 31, where 0 is the lowest priority and 31 is the highest. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+
 <a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-psgetcurrentthread.md">PsGetCurrentThread</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e73c885c-94e2-42cf-ace6-1b7b62aa33f5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetImageNameAndResourceId
+ms.keywords: ks/KsGetImageNameAndResourceId, ksfunc_b4a55bde-4bbb-494e-969c-924547251e1d.xml, stream.ksgetimagenameandresourceid, KsGetImageNameAndResourceId, KsGetImageNameAndResourceId function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsGetImageNameAndResourceId
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsGetImageNameAndResourceId
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsGetImageNameAndResourceId function
 
 
-
 ## -description
+
+
 The <b>KsGetImageNameAndResourceId</b> function returns the image name and resource identifier that corresponds to the <i>RegKey </i>handle. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsGetImageNameAndResourceId(
@@ -56,6 +67,9 @@ NTSTATUS KsGetImageNameAndResourceId(
 
 
 ## -parameters
+
+
+
 
 ### -param RegKey [in]
 
@@ -78,18 +92,16 @@ Pointer to a location into which the function returns the value type of the spec
 
 
 ## -returns
+
+
 <b>KsGetImageNameAndResourceId</b> returns STATUS_SUCCESS if the requested values are found; otherwise, an error code is returned.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ksmapmodulename.md">KsMapModuleName</a>
-</dt>
-</dl>
+
  
 
  

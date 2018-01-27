@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9b26f4ed-6621-4dc5-8b60-9e4d3bf8d898
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlPrefixUnicodeString
+ms.keywords: RtlPrefixUnicodeString routine [Kernel-Mode Driver Architecture], RtlPrefixUnicodeString, kernel.rtlprefixunicodestring, k109_b6130d6d-1a25-460b-a962-3b9353626768.xml, ntddk/RtlPrefixUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlPrefixUnicodeString
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlPrefixUnicodeString
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # RtlPrefixUnicodeString function
 
 
-
 ## -description
+
+
 The <b>RtlPrefixUnicodeString</b> routine compares two Unicode strings to determine whether one string is a prefix of the other. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN RtlPrefixUnicodeString(
@@ -55,6 +65,9 @@ BOOLEAN RtlPrefixUnicodeString(
 
 
 ## -parameters
+
+
+
 
 ### -param String1 [in]
 
@@ -72,18 +85,16 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 
 
 ## -returns
+
+
 <b>RtlPrefixUnicodeString</b> returns <b>TRUE</b> if <i>String1</i> is a prefix of <i>String2</i>. 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlcompareunicodestring.md">RtlCompareUnicodeString</a>
-</dt>
-</dl>
+
  
 
  

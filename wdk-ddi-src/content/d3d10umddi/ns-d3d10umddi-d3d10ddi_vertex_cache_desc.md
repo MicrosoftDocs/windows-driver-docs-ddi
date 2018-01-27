@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c6cff037-436c-4c7e-85b8-02c9d7827f95
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDI_VERTEX_CACHE_DESC, D3D10DDI_VERTEX_CACHE_DESC
+ms.keywords: D3D10DDI_VERTEX_CACHE_DESC, display.d3d10ddi_vertex_cache_desc, D3D10DDI_VERTEX_CACHE_DESC structure [Display Devices], d3d10umddi/D3D10DDI_VERTEX_CACHE_DESC, UMDisplayDriver_Dx10param_Structs_585c3ccc-83c7-4d3b-903d-7eac81a1c21c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10DDI_VERTEX_CACHE_DESC
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10DDI_VERTEX_CACHE_DESC
+product: Windows
+targetos: Windows
 req.typenames: D3D10DDI_VERTEX_CACHE_DESC
 ---
 
 # D3D10DDI_VERTEX_CACHE_DESC structure
 
 
-
 ## -description
+
+
 The D3D10DDI_VERTEX_CACHE_DESC structure describes mesh-optimization data.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D10DDI_VERTEX_CACHE_DESC {
@@ -57,10 +67,12 @@ typedef struct D3D10DDI_VERTEX_CACHE_DESC {
 
 ## -struct-fields
 
+
+
+
 ### -field Pattern
 
 [out] The bit pattern. The driver must specify the bit pattern as a CACH four-character code (FOURCC) value. The driver can use the following MAKEFOURCC macro to specify the FOURCC value as CACH:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -75,7 +87,6 @@ typedef struct D3D10DDI_VERTEX_CACHE_DESC {
 ### -field OptMethod
 
 [out] The method of mesh optimization. The driver can use one of the following values to specify the mesh optimization that it uses.
-
 <table>
 <tr>
 <th>Value</th>
@@ -101,8 +112,7 @@ Vertex-cache-based optimization
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field CacheSize
@@ -114,5 +124,3 @@ Vertex-cache-based optimization
 
 [out] The number that should be used as part of a trial-and-error procedure when you are determining when to restart the strips list. This number can be from 1 through the value that is specified in the <b>CacheSize</b> member. Typically, the best values are near <b>CacheSize</b>/2. The driver specifies a number in <b>MagicNumber</b> only if it also specifies 0 in the <b>OptMethod</b> member. 
 
-
-## -remarks

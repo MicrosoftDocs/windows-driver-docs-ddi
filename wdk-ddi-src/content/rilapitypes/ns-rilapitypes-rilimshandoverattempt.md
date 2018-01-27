@@ -7,8 +7,8 @@ old-location: netvista\rilimshandoverattempt_2.htm
 old-project: netvista
 ms.assetid: de56a241-10a3-4f9c-970c-433ab997612d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT, *LPRILIMSHANDOVERATTEMPT
+ms.date: 1/18/2018
+ms.keywords: *LPRILIMSHANDOVERATTEMPT, rilapitypes/RILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT, netvista.rilimshandoverattempt_2, RILIMSHANDOVERATTEMPT structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILIMSHANDOVERATTEMPT
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILIMSHANDOVERATTEMPT
+product: Windows
+targetos: Windows
 req.typenames: RILIMSHANDOVERATTEMPT, *LPRILIMSHANDOVERATTEMPT
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILIMSHANDOVERATTEMPT structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILIMSHANDOVERATTEMPT {
@@ -58,16 +68,21 @@ typedef struct _RILIMSHANDOVERATTEMPT {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwOldSystemType
 
 
+
 ### -field dwDestSystemType
+
 
 
 ### -field hrHandOverResult
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dcf844e3-3346-485e-8965-c8cb824e2c78
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN
+ms.keywords: display.d3dkmt_flipmodel_presenthistorytoken, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure [Display Devices], D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, OpenGL_Structs_819c22ef-0bae-476a-9cbc-0169cd7fc82f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN is Supported sta
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN
 ---
 
 # _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure
 
 
-
 ## -description
+
+
 The D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure identifies a flip present-history operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN {
@@ -72,6 +82,23 @@ typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN {
 
 ## -struct-fields
 
+
+
+
+### -field ScatterBlts
+
+This member is reserved and should be set to zero.
+
+Supported starting with Windows 8.
+
+
+### -field hSyncObject
+
+This member is reserved and should be set to zero.
+
+Supported starting with Windows 8.
+
+
 ### -field FenceValue
 
 [in] A 64-bit value that specifies the fence value that is used for the flip.
@@ -80,6 +107,16 @@ typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN {
 ### -field hLogicalSurface
 
 [in] A 64-bit value that specifies the handle to a logical surface.
+
+
+### -field dxgContext
+
+ 
+
+
+### -field VidPnSourceId
+
+ 
 
 
 ### -field SwapChainIndex
@@ -107,6 +144,16 @@ typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN {
 This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
+
+
+### -field compSurfLuid
+
+ 
+
+
+### -field confirmationCookie
+
+ 
 
 
 ### -field CompositionSyncKey
@@ -158,18 +205,54 @@ This member is reserved and should be set to zero.
 Supported starting with Windows 8.
 
 
-### -field ScatterBlts
+### -field Reserved
 
-This member is reserved and should be set to zero.
-
-Supported starting with Windows 8.
+ 
 
 
-### -field hSyncObject
+### -field SourceRect
 
-This member is reserved and should be set to zero.
+ 
 
-Supported starting with Windows 8.
+
+### -field DestWidth
+
+ 
+
+
+### -field DestHeight
+
+ 
+
+
+### -field TargetRect
+
+ 
+
+
+### -field Transform
+
+ 
+
+
+### -field CustomDuration
+
+ 
+
+
+### -field CustomDurationFlipInterval
+
+ 
+
+
+### -field PlaneIndex
+
+ 
+
+
+### -field ColorSpace
+
+ 
 
 
 ### -field DirtyRegions
@@ -177,24 +260,16 @@ Supported starting with Windows 8.
 [in] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a> structure that identifies the active rectangles (dirty regions) of the flip surface.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>
-</dt>
-<dt>
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipmodel_presenthistorytokenflags.md">D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS</a>
-</dt>
-<dt>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: print\initializemonitor.htm
 old-project: print
 ms.assetid: e9d833cd-29d6-4c71-ba90-8d7dcf934420
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: InitializeMonitor
+ms.date: 1/18/2018
+ms.keywords: spoolfnc_21afb8f9-70e1-478e-9ad0-cec810216b50.xml, InitializeMonitor, InitializeMonitor function [Print Devices], winsplp/InitializeMonitor, print.initializemonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: InitializeMonitor
-req.alt-loc: winsplp.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	winsplp.h
+apiname: 
+-	InitializeMonitor
+product: Windows
+targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # InitializeMonitor function
 
 
-
 ## -description
 
 
 
 
+
 ## -syntax
+
 
 ````
 BOOL WINAPI InitializeMonitor(
@@ -55,7 +65,9 @@ BOOL WINAPI InitializeMonitor(
 
 ## -parameters
 
+
+
+
 ### -param pRegistryRoot [in]
 
 
-## -remarks

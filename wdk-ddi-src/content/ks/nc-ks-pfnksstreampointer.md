@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4c95ccb6-c796-4bb2-b344-aa8eea28e131
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: NpdBrokerUninitialize
+ms.keywords: stream.avstrminicancelcallback, AVStrMiniCancelCallback, AVStrMiniCancelCallback routine [Streaming Media Devices], AVStrMiniCancelCallback, PFNKSSTREAMPOINTER, PFNKSSTREAMPOINTER, ks/AVStrMiniCancelCallback, avstclbk_b23a511e-6e6a-4eaf-a64e-707983534d6f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AVStrMiniCancelCallback
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ks.h
+apiname: 
+-	AVStrMiniCancelCallback
+product: Windows
+targetos: Windows
 req.typenames: KEYWORDSELECTOR
 ---
 
 # PFNKSSTREAMPOINTER callback
 
 
-
 ## -description
+
+
 AVStream calls a minidriver's <i>AVStrMiniCancelCallback</i> routine when the IRP that is associated with a cloned stream pointer is canceled. This routine is optional.
 
 
-
 ## -prototype
+
 
 ````
 PFNKSSTREAMPOINTER AVStrMiniCancelCallback;
@@ -57,16 +67,24 @@ void AVStrMiniCancelCallback(
 
 ## -parameters
 
+
+
+
 ### -param StreamPointer [in]
 
 A pointer to the clone <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> that is associated with the IRP that was canceled. <i>StreamPointer</i> was created by a call to <a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The minidriver specifies this routine's address in the <i>CancelCallback</i> parameter of <a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>.
 
 In <i>AVStrMiniCancelCallback</i>, the minidriver should set all references to the clone pointer to <b>NULL</b>.
@@ -78,18 +96,15 @@ Finally, the minidriver must call <a href="..\ks\nf-ks-ksstreampointerdelete.md"
 <i>AVStrMiniCancelCallback</i> is called with the queue's spin lock held, hence at DISPATCH_LEVEL. Accordingly, the callback routine cannot perform queue manipulation or call functions that acquire a mutex.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
+
+<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
+
  
 
  

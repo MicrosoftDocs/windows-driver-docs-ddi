@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1f66d3ed-7215-4fb5-87df-4489c3cd03c6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: InterlockedOr
+ms.keywords: InterlockedOr routine [Kernel-Mode Driver Architecture], InterlockedOr, k102_05d8ca48-ab6f-46ae-b026-cb2aaf6f37aa.xml, kernel.interlockedor, wdm/InterlockedOr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: InterlockedOr
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	InterlockedOr
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # InterlockedOr function
 
 
-
 ## -description
+
+
 The <b>InterlockedOr</b> routine atomically computes a bitwise OR operation.
 
 
-
 ## -syntax
+
 
 ````
 LONG InterlockedOr(
@@ -55,6 +65,9 @@ LONG InterlockedOr(
 
 
 ## -parameters
+
+
+
 
 ### -param Destination [in, out]
 
@@ -67,24 +80,27 @@ Specifies the value to be ORed with the variable that is pointed to by <i>Destin
 
 
 ## -returns
+
+
 <b>InterlockedOr</b> returns the original value stored in the variable pointed to by <i>Destination</i>. 
 
 
+
 ## -remarks
+
+
 <b>InterlockedOr</b> atomically computes <b>*</b><i>Destination</i><b>|=</b><i>Value</i>. 
 
 Interlocked operations cannot be used on non-cached memory. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-interlockedand.md">InterlockedAnd</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-interlockedxor.md">InterlockedXor</a>
-</dt>
-</dl>
+
  
 
  

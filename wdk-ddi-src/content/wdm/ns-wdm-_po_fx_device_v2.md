@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E2413C3A-79D3-47E3-A664-80869A721F37
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PO_FX_DEVICE_V2, PO_FX_DEVICE_V2, *PPO_FX_DEVICE_V2, PO_FX_DEVICE, *PPO_FX_DEVICE
+ms.keywords: PO_FX_DEVICE structure [Kernel-Mode Driver Architecture], PO_FX_DEVICE_V1 structure [Kernel-Mode Driver Architecture], PPO_FX_DEVICE_V1 structure pointer [Kernel-Mode Driver Architecture], PO_FX_DEVICE_V1, wdm/PO_FX_DEVICE, PPO_FX_DEVICE_V1, wdm/PPO_FX_DEVICE_V1, _PO_FX_DEVICE_V1, *PPO_FX_DEVICE_V1, *PPO_FX_DEVICE, *PPO_FX_DEVICE_V2, wdm/PO_FX_DEVICE_V1, _PO_FX_DEVICE_V2, PO_FX_DEVICE, PO_FX_DEVICE_V2, kernel.po_fx_device
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PO_FX_DEVICE_V1
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: PO_FX_DEVICE_V2, *PPO_FX_DEVICE_V2
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	PO_FX_DEVICE_V1
+product: Windows
+targetos: Windows
+req.typenames: *PPO_FX_DEVICE_V2, PO_FX_DEVICE_V2
 req.product: Windows 10 or later.
 ---
 
 # _PO_FX_DEVICE_V2 structure
 
 
-
 ## -description
+
+
 The <b>PO_FX_DEVICE</b> structure describes the power attributes of a device to the power management framework (PoFx).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PO_FX_DEVICE_V1 {
@@ -67,17 +77,15 @@ typedef struct _PO_FX_DEVICE_V1 {
 
 ## -struct-fields
 
+
+
+
 ### -field Version
 
 The version number of this structure. If the driver will register for performance state support with PoFx, set this member to <b>PO_FX_VERSION_V2</b>. Otherwise, set this member to <b>PO_FX_VERSION_V1</b>.
 
 
-### -field ComponentCount
-
-The number of elements in the <b>Components</b> array. Additionally, this member specifies the number of components in the device.
-
-
-### -field Flags
+#### - Flags
 
 Set to 0. Currently, no flags are defined for this member.
 
@@ -119,12 +127,19 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh
 A pointer to a caller-allocated device context. This pointer is passed as a parameter to each driver-implemented callback function that is pointed to by this structure. The device driver uses this context to store information about the current power state of the device. This context is opaque to PoFx.
 
 
+### -field ComponentCount
+
+The number of elements in the <b>Components</b> array. Additionally, this member specifies the number of components in the device.
+
+
 ### -field Components
 
 This member is the first element in an array of one or more <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a> elements. If the array contains more than one element, the additional elements immediately follow the <b>PO_FX_DEVICE</b> structure. The array contains one element for each component in the device.  The Fx power state of each component can be controlled independently of the Fx power states of the other components in the device. The <b>ANYSIZE_ARRAY</b> constant is defined to be 1 in the Ntdef.h header file.
 
 
 ## -remarks
+
+
 To register a device with PoFx, a driver calls the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine and supplies, as a parameter, a pointer to a <b>PO_FX_DEVICE</b> structure that describes the device.
 
 Each element in the <b>Components</b> array describes the power state attributes of one component in the device. Each component in the device is identified by its <b>Components</b> array index. Routines such as  <a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a> and <a href="..\wdm\nf-wdm-pofxcompleteidlecondition.md">PoFxCompleteIdleCondition</a> use the array index of a component to identify the component.
@@ -132,39 +147,29 @@ Each element in the <b>Components</b> array describes the power state attributes
 A device driver is not required to implement all six callback routines. The driver can set a function pointer in the <b>PO_FX_DEVICE</b> structure to NULL if the driver does not implement the corresponding callback routine. However, certain callback routines must be implemented. Specifically, if one or more components in a device has more than one Fx state, the driver must implement <a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a> routines. Otherwise, device registration fails and <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> returns <b>STATUS_INVALID_PARAMETER</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-pofxcompleteidlecondition.md">PoFxCompleteIdleCondition</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
+
+<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
+<a href="..\wdm\nf-wdm-pofxcompleteidlecondition.md">PoFxCompleteIdleCondition</a>
+
+<a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
+
+<a href="..\wdm\ns-wdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a>
+
  
 
  

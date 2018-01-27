@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 03851dee-4ed8-484f-8a00-68aca1da19ce
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDIARG_CREATEDEPTHSTENCILVIEW, D3D10DDIARG_CREATEDEPTHSTENCILVIEW
+ms.keywords: D3D10DDIARG_CREATEDEPTHSTENCILVIEW, d3d10umddi/D3D10DDIARG_CREATEDEPTHSTENCILVIEW, UMDisplayDriver_Dx10param_Structs_7460e9f5-4a7b-469a-8019-cc634f00d4c1.xml, D3D10DDIARG_CREATEDEPTHSTENCILVIEW structure [Display Devices], display.d3d10ddiarg_createdepthstencilview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10DDIARG_CREATEDEPTHSTENCILVIEW
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10DDIARG_CREATEDEPTHSTENCILVIEW
+product: Windows
+targetos: Windows
 req.typenames: D3D10DDIARG_CREATEDEPTHSTENCILVIEW
 ---
 
 # D3D10DDIARG_CREATEDEPTHSTENCILVIEW structure
 
 
-
 ## -description
+
+
 The D3D10DDIARG_CREATEDEPTHSTENCILVIEW structure describes the depth stencil view to create.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D10DDIARG_CREATEDEPTHSTENCILVIEW {
@@ -61,19 +71,7 @@ typedef struct D3D10DDIARG_CREATEDEPTHSTENCILVIEW {
 
 ## -struct-fields
 
-### -field hDrvResource
 
-[in] A handle to the base depth stencil resource. 
-
-
-### -field Format
-
-[in] A DXGI_FORMAT-typed value that indicates the pixel format of the depth stencil view.
-
-
-### -field ResourceDimension
-
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>-typed value that indicates the resource type and dimensionality of the base resource. 
 
 
 ### -field Tex1D
@@ -91,30 +89,35 @@ typedef struct D3D10DDIARG_CREATEDEPTHSTENCILVIEW {
 [in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURECUBE, a member in the union that is contained in D3D10DDIARG_CREATEDEPTHSTENCILVIEW that can hold a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_texcube_depthstencilview.md">D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW</a> structure for a cube texture. 
 
 
-## -remarks
+### -field hDrvResource
+
+[in] A handle to the base depth stencil resource. 
+
+
+### -field Format
+
+[in] A DXGI_FORMAT-typed value that indicates the pixel format of the depth stencil view.
+
+
+### -field ResourceDimension
+
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>-typed value that indicates the resource type and dimensionality of the base resource. 
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivatedepthstencilviewsize.md">CalcPrivateDepthStencilViewSize</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdepthstencilview.md">CreateDepthStencilView</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex1d_depthstencilview.md">D3D10DDIARG_TEX1D_DEPTHSTENCILVIEW</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex2d_depthstencilview.md">D3D10DDIARG_TEX2D_DEPTHSTENCILVIEW</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_texcube_depthstencilview.md">D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW</a>
-</dt>
-<dt>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex1d_depthstencilview.md">D3D10DDIARG_TEX1D_DEPTHSTENCILVIEW</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex2d_depthstencilview.md">D3D10DDIARG_TEX2D_DEPTHSTENCILVIEW</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivatedepthstencilviewsize.md">CalcPrivateDepthStencilViewSize</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdepthstencilview.md">CreateDepthStencilView</a>
+
  
 
  

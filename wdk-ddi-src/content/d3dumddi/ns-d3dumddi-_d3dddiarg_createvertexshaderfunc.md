@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2517b7a9-76f5-46f6-9225-18081cd1d357
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_CREATEVERTEXSHADERFUNC, D3DDDIARG_CREATEVERTEXSHADERFUNC
+ms.keywords: d3dumddi/D3DDDIARG_CREATEVERTEXSHADERFUNC, _D3DDDIARG_CREATEVERTEXSHADERFUNC, UMDisplayDriver_param_Structs_cbcea02a-d591-4226-8896-f8392c4b67de.xml, D3DDDIARG_CREATEVERTEXSHADERFUNC structure [Display Devices], display.d3dddiarg_createvertexshaderfunc, D3DDDIARG_CREATEVERTEXSHADERFUNC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_CREATEVERTEXSHADERFUNC
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_CREATEVERTEXSHADERFUNC
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_CREATEVERTEXSHADERFUNC
 ---
 
 # _D3DDDIARG_CREATEVERTEXSHADERFUNC structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_CREATEVERTEXSHADERFUNC structure specifies a shader handle to associate with vertex shader code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_CREATEVERTEXSHADERFUNC {
@@ -54,6 +64,9 @@ typedef struct _D3DDDIARG_CREATEVERTEXSHADERFUNC {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -66,15 +79,16 @@ typedef struct _D3DDDIARG_CREATEVERTEXSHADERFUNC {
 
 
 ## -remarks
+
+
 For more information about programming shader assemblers, see <a href="https://msdn.microsoft.com/c858766c-b414-4971-b4d9-23ec94aca8ea">Processing Shader Codes</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvertexshaderfunc.md">CreateVertexShaderFunc</a>
-</dt>
-</dl>
+
  
 
  

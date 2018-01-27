@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 67A1DAEF-13D3-4D47-B10C-0CA30C8EB22F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_AGNSS_REQUEST_PARAM, *PGNSS_AGNSS_REQUEST_PARAM, GNSS_AGNSS_REQUEST_PARAM
+ms.keywords: PGNSS_AGNSS_REQUEST_PARAM structure pointer [Sensor Devices], gnssdriver/PGNSS_AGNSS_REQUEST_PARAM, gnssdriver/GNSS_AGNSS_REQUEST_PARAM, PGNSS_AGNSS_REQUEST_PARAM, *PGNSS_AGNSS_REQUEST_PARAM, GNSS_AGNSS_REQUEST_PARAM, GNSS_AGNSS_REQUEST_PARAM structure [Sensor Devices], sensors.gnss_agnss_request_param
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GNSS_AGNSS_REQUEST_PARAM
-req.alt-loc: gnssdriver.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	gnssdriver.h
+apiname: 
+-	GNSS_AGNSS_REQUEST_PARAM
+product: Windows
+targetos: Windows
 req.typenames: *PGNSS_AGNSS_REQUEST_PARAM, GNSS_AGNSS_REQUEST_PARAM
 ---
 
 # GNSS_AGNSS_REQUEST_PARAM structure
 
 
-
 ## -description
+
+
 This structure defines AGNSS request parameters.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -56,6 +66,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -76,5 +89,3 @@ Specifies the type of the request (for example, time injection, blob injection).
 
 If the RequestType is GNSS_AGNSS_BlobInjection, this contains the required  blob format.
 
-
-## -remarks

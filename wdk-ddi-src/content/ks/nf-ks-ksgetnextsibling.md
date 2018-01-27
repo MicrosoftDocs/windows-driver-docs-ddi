@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 509cf778-2b0c-4dd2-982d-0c7be95ad407
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetNextSibling
+ms.keywords: stream.ksgetnextsibling, KsGetNextSibling function [Streaming Media Devices], ks/KsGetNextSibling, avfunc_0fedfc95-34c0-44d9-bed4-fff6bf6bd467.xml, KsGetNextSibling
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsGetNextSibling
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsGetNextSibling
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsGetNextSibling function
 
 
-
 ## -description
+
+
 The<b> KsGetNextSibling </b>function returns the next sibling of a given object.
 
 
-
 ## -syntax
+
 
 ````
 PVOID KsGetNextSibling(
@@ -54,16 +65,24 @@ PVOID KsGetNextSibling(
 
 ## -parameters
 
+
+
+
 ### -param Object [in]
 
 The object for which to find the next sibling.
 
 
 ## -returns
+
+
 <b>KsGetNextSibling</b> returns the next sibling object of <i>Object</i>. If no such sibling object exists, it returns <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 If <i>Object</i> is a filter factory, <b>KsGetNextSibling </b>returns the next filter factory belonging to the parent device, and so on. Callers must perform appropriate typecasting to and from PVOID.
 
 The object hierarchy is guaranteed stable only while the appropriate mutex is held, in this case the device mutex. For more information, see <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e-ae1a-61c50a2f2fb3">AVStream Overview</a> and <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.
@@ -71,27 +90,21 @@ The object hierarchy is guaranteed stable only while the appropriate mutex is he
 Minidrivers rarely call <b>KsGetNextSibling</b> directly. There are a number of functions that are inline calls to <b>KsGetNextSibling</b> and that perform the typecasting for you: <a href="..\ks\nf-ks-ksfilterfactorygetnextsiblingfilterfactory.md">KsFilterFactoryGetNextSiblingFilterFactory</a>, <a href="..\ks\nf-ks-ksfiltergetnextsiblingfilter.md">KsFilterGetNextSiblingFilter</a>, and <a href="..\ks\nf-ks-kspingetnextsiblingpin.md">KsPinGetNextSiblingPin</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksfilterfactorygetnextsiblingfilterfactory.md">KsFilterFactoryGetNextSiblingFilterFactory</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksfiltergetnextsiblingfilter.md">KsFilterGetNextSiblingFilter</a>
-</dt>
-<dt>
+
+<a href="..\ks\nf-ks-ksfilterfactorygetnextsiblingfilterfactory.md">KsFilterFactoryGetNextSiblingFilterFactory</a>
+
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
 <a href="..\ks\nf-ks-kspingetnextsiblingpin.md">KsPinGetNextSiblingPin</a>
-</dt>
-</dl>
+
  
 
  

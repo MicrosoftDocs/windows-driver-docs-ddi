@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 62f0bfd3-b8d9-4b29-a811-91a6c66dc24f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxpAcquirePrefixTableLockExclusive
+ms.keywords: RxpAcquirePrefixTableLockExclusive function [Installable File System Drivers], prefix/RxpAcquirePrefixTableLockExclusive, rxref_3e3f34a4-ccc4-434b-9df0-b320923178d3.xml, RxpAcquirePrefixTableLockExclusive, ifsk.rxpacquireprefixtablelockexclusive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxpAcquirePrefixTableLockExclusive
-req.alt-loc: prefix.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	prefix.h
+apiname: 
+-	RxpAcquirePrefixTableLockExclusive
+product: Windows
+targetos: Windows
 req.typenames: *PSHIMOPTS, SHIMOPTS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RxpAcquirePrefixTableLockExclusive function
 
 
-
 ## -description
+
+
 <b>RxpAcquirePrefixTableLockExclusive</b> acquires the prefix table lock exclusively. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN RxpAcquirePrefixTableLockExclusive(
@@ -56,21 +66,45 @@ BOOLEAN RxpAcquirePrefixTableLockExclusive(
 
 ## -parameters
 
-### -param pTable 
+
+
+
+### -param pTable
 
 A pointer to the RX_PREFIX_TABLE where the lock will be acquired.
 
 
-### -param Wait 
+### -param Wait
 
 A Boolean value that specifies the behavior whenever the resource cannot be acquired immediately. If <b>TRUE</b>, the caller is put into a wait state until the resource can be acquired. If <b>FALSE</b>, the routine immediately returns, whether the resource can be acquired. 
 
 
+### -param ProcessBufferingStateChangeRequests
+
+TBD
+
+
+### -param FileName
+
+TBD
+
+
+### -param LineNumber
+
+TBD
+
+
+
 ## -returns
+
+
 <b>RxpAcquirePrefixTableLockExclusive</b> returns <b>TRUE</b> if the resource is acquired. This routine returns <b>FALSE</b> if the input <i>Wait</i> is <b>FALSE</b> and exclusive access cannot be granted immediately.
 
 
+
 ## -remarks
+
+
 The <b>RxAcquirePrefixTableLockExclusive</b> routine is implemented as a macro on Windows Server 2003. On Windows XP and Windows 2000, <b>RxAcquirePrefixTableLockExclusive </b>is implemented as a routine. 
 
 The <b>RxAcquirePrefixTableLockExclusive</b> macro calls the  <b>RxpAcquirePrefixTableLockExclusive</b> routine. The <b>RxIsPrefixTableLockExclusive</b> macro can be used to determine if an exclusive prefix table lock was previously acquired. The <b>RxIsPrefixTableLockAcquired</b> macro can also be used to determine if either an exclusive or shared prefix table lock was previously acquired. 
@@ -78,30 +112,23 @@ The <b>RxAcquirePrefixTableLockExclusive</b> macro calls the  <b>RxpAcquirePrefi
 Normal kernel APC delivery should be disabled before calling this routine. Disable normal kernel APC delivery by calling <b>FsRtlEnterFileSystem</b> or <b>KeEnterCriticalRegion</b>. Delivery must remain disabled until the resource is released, at which point it can be reenabled by calling <b>FsRtlExitFileSystem</b> or <b>KeLeaveCriticalRegion</b>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545908">FsRtlExitFileSystem</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
-</dt>
-<dt>
-<a href="..\prefix\nf-prefix-rxprefixtablelookupname.md">RxPrefixTableLookupName</a>
-</dt>
-<dt>
-<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockshared.md">RxpAcquirePrefixTableLockShared</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
+
 <a href="..\prefix\nf-prefix-rxpreleaseprefixtablelock.md">RxpReleasePrefixTableLock</a>
-</dt>
-</dl>
+
+<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockshared.md">RxpAcquirePrefixTableLockShared</a>
+
+<a href="..\prefix\nf-prefix-rxprefixtablelookupname.md">RxPrefixTableLookupName</a>
+
+<a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6ab6a505-ad02-4dce-8061-bba13081208a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_CHILD_CAPABILITIES, DXGK_CHILD_CAPABILITIES, *PDXGK_CHILD_CAPABILITIES
+ms.keywords: PDXGK_CHILD_CAPABILITIES structure pointer [Display Devices], *PDXGK_CHILD_CAPABILITIES, PDXGK_CHILD_CAPABILITIES, dispmprt/PDXGK_CHILD_CAPABILITIES, dispmprt/DXGK_CHILD_CAPABILITIES, _DXGK_CHILD_CAPABILITIES, DXGK_CHILD_CAPABILITIES, DXGK_CHILD_CAPABILITIES structure [Display Devices], DmStructs_886366a4-949a-4171-abcf-e318df848285.xml, display.dxgk_child_capabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_CHILD_CAPABILITIES
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DXGK_CHILD_CAPABILITIES
+product: Windows
+targetos: Windows
 req.typenames: DXGK_CHILD_CAPABILITIES, *PDXGK_CHILD_CAPABILITIES
 ---
 
 # _DXGK_CHILD_CAPABILITIES structure
 
 
-
 ## -description
+
+
 The DXGK_CHILD_CAPABILITIES structure contains information about the capabilities of an individual child device of a display adapter.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_CHILD_CAPABILITIES {
@@ -61,6 +71,9 @@ typedef struct _DXGK_CHILD_CAPABILITIES {
 
 ## -struct-fields
 
+
+
+
 ### -field Type
 
 
@@ -68,36 +81,39 @@ typedef struct _DXGK_CHILD_CAPABILITIES {
      
 
 
-### -field VideoOutput
+### -field Type.MustBeZero
+
+ 
+
+
+### -field Type.VideoOutput
 
 A <a href="..\dispmprt\ns-dispmprt-_dxgk_video_output_capabilities.md">DXGK_VIDEO_OUTPUT_CAPABILITIES</a> structure that contains information about a video output. This member is meaningful only if the child device has type <b>TypeVideoOutput</b>.
 
 
-### -field Other
+### -field Type.Other
 
 A structure whose only member must be equal to zero if the child device has type <b>TypeOther</b>.
 
 
-### -field MustBeZero
-
-A UINT value that must be equal to zero.
-
-</dd>
-</dl>
-
-### -field IntegratedDisplayChild
+### -field Type.IntegratedDisplayChild
 
 Returns the integrated display child specific fields of the child capabilities.
 
-</dd>
-</dl>
 
 ### -field HpdAwareness
 
 A <a href="..\d3dkmdt\ne-d3dkmdt-_dxgk_child_device_hpd_awareness.md">DXGK_CHILD_DEVICE_HPD_AWARENESS</a> enumerator that indicates the child device's level of hot-plug awareness.
 
 
+###### - Type.Other.MustBeZero
+
+A UINT value that must be equal to zero.
+
+
 ## -remarks
+
+
 The <b>ChildDeviceType</b> member of a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a> structure is a <a href="..\dispmprt\ne-dispmprt-_dxgk_child_device_type.md">DXGK_CHILD_DEVICE_TYPE</a> enumerator that indicates type of the child device: <b>TypeVideoOutput</b> or <b>TypeOther</b>.
 
 If a child device is of type <b>TypeVideoOutput</b>, the <b>Type.VideoOutput</b> member of its DXGK_CHILD_DESCRIPTOR structure is a DXGK_VIDEO_OUTPUT_CAPABILITIES structure.
@@ -105,18 +121,15 @@ If a child device is of type <b>TypeVideoOutput</b>, the <b>Type.VideoOutput</b>
 If a child device is of type <b>TypeOther</b>, then <b>Type.Other.MustBeZero</b> must be set to zero.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
-</dt>
-<dt>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
 <a href="..\dispmprt\ns-dispmprt-_dxgk_video_output_capabilities.md">DXGK_VIDEO_OUTPUT_CAPABILITIES</a>
-</dt>
-</dl>
+
  
 
  

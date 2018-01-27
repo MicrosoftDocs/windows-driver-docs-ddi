@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D0036070-A23D-4525-AE80-E10B20330F97
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlLongPtrAdd
+ms.keywords: RtlLongPtrAdd, kernel.rtllongptradd, ntintsafe/RtlLongPtrAdd, RtlLongPtrAdd function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlLongPtrAdd
-req.alt-loc: Ntintsafe.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntintsafe.h
+apiname: 
+-	RtlLongPtrAdd
+product: Windows
+targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
 
 # RtlLongPtrAdd function
 
 
-
 ## -description
+
+
 Adds two values of type <b>LONG_PTR</b>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlLongPtrAdd(
@@ -56,20 +66,43 @@ NTSTATUS RtlLongPtrAdd(
 
 ## -parameters
 
-### -param u8Augend [in]
+
+
+
+### -param lAugend
+
+TBD
+
+
+### -param lAddend
+
+TBD
+
+
+### -param plResult
+
+TBD
+
+
+
+#### - u8Augend [in]
 
 The first value in the equation.
 
 
-### -param u8Addend [in]
-
-The value to add to <i>u8Augend</i>.
-
-
-### -param pu8Result [out]
+#### - pu8Result [out]
 
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 
+#### - u8Addend [in]
+
+The value to add to <i>u8Augend</i>.
+
+
 ## -remarks
-This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.</p>
+
+
+This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
+

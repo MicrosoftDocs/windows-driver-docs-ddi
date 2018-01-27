@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b38683f3-42f2-4f5e-9482-f72e9f2e0a34
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.getsupportedversions, GetSupportedVersions callback function [Display Devices], GetSupportedVersions, PFND3D10_2DDI_GETSUPPORTEDVERSIONS, PFND3D10_2DDI_GETSUPPORTEDVERSIONS, d3d10umddi/GetSupportedVersions, UserModeDisplayDriverDx11_Functions_065e47e6-c02d-4091-b614-a93aa834cbfb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: GetSupportedVersions is supported beginning with the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GetSupportedVersions
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	GetSupportedVersions
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D10_2DDI_GETSUPPORTEDVERSIONS callback
 
 
-
 ## -description
+
+
 The <i>GetSupportedVersions</i> function queries for the Direct3D interface versions that the driver supports. 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D10_2DDI_GETSUPPORTEDVERSIONS GetSupportedVersions;
@@ -59,49 +69,89 @@ HRESULT APIENTRY GetSupportedVersions(
 
 ## -parameters
 
-### -param hAdapter [in]
+
+
+
+### -param D3D10DDI_HADAPTER
+
+
+
+### -param *puEntries
+
+
+
+### -param *pSupportedDDIInterfaceVersions
+
+
+
+
+
+
+#### - hAdapter [in]
 
  A handle that identifies the graphics adapter. 
 
 
-### -param puEntries [in, out]
-
-A pointer to a variable that, on input, contains the number of entries that the <i>pSupportedDDIInterfaceVersions</i> array should return and, on output, the number of entries that the <i>pSupportedDDIInterfaceVersions</i> array actually returns. 
-
-
-### -param pSupportedDDIInterfaceVersions [out, optional]
+#### - pSupportedDDIInterfaceVersions [out, optional]
 
  A pointer to a block of memory that receives the array of Direct3D interface versions that the driver supports.
 
 
+#### - puEntries [in, out]
+
+A pointer to a variable that, on input, contains the number of entries that the <i>pSupportedDDIInterfaceVersions</i> array should return and, on output, the number of entries that the <i>pSupportedDDIInterfaceVersions</i> array actually returns. 
+
+
 ## -returns
+
+
 <i>GetSupportedVersions</i> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The capabilities are successfully retrieved.
+</dl>
+</td>
+<td width="60%">
+The capabilities are successfully retrieved.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_OUTOFMEMORY</b></dt>
-</dl><i>GetSupportedVersions</i> could not allocate memory that is required for it to complete.
+</dl>
+</td>
+<td width="60%">
+<i>GetSupportedVersions</i> could not allocate memory that is required for it to complete.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 When the Direct3D runtime calls the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_openadapter.md">OpenAdapter10_2</a> function, the <b>Interface</b> and <b>Version</b> members of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openadapter.md">D3D10DDIARG_OPENADAPTER</a> structure contain the DDI version that the runtime uses to instantiate the driver. The driver can completely ignore these members. The driver can instead return capabilities and version information out through its <i>GetSupportedVersions</i> function. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddi_adapterfuncs.md">D3D10_2DDI_ADAPTERFUNCS</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openadapter.md">D3D10DDIARG_OPENADAPTER</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_openadapter.md">OpenAdapter10_2</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openadapter.md">D3D10DDIARG_OPENADAPTER</a>
+
  
 
  

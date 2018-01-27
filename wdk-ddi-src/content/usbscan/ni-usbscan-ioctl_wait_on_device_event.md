@@ -7,8 +7,8 @@ old-location: image\ioctl_wait_on_device_event.htm
 old-project: image
 ms.assetid: 0895a19b-bb28-405a-98df-28522a18ec2b
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: _RAW_PIPE_TYPE, RAW_PIPE_TYPE
+ms.date: 1/18/2018
+ms.keywords: image.ioctl_wait_on_device_event, IOCTL_WAIT_ON_DEVICE_EVENT control code [Imaging Devices], IOCTL_WAIT_ON_DEVICE_EVENT, usbscan/IOCTL_WAIT_ON_DEVICE_EVENT, stifnc_ef4b6e5f-ed60-4354-adae-443e1a27b215.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_WAIT_ON_DEVICE_EVENT
-req.alt-loc: Usbscan.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Usbscan.h
+apiname: 
+-	IOCTL_WAIT_ON_DEVICE_EVENT
+product: Windows
+targetos: Windows
 req.typenames: RAW_PIPE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,64 +47,70 @@ req.product: Windows 10 or later.
 # IOCTL_WAIT_ON_DEVICE_EVENT IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
-Returns information about an event occurring on a USB interrupt pipe.
 
+
+Returns information about an event occurring on a USB interrupt pipe.
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 <b>NULL</b>
 
 
 ### -input-buffer-length
+
 Zero.
 
 
 ### -output-buffer
+
 Pointer to a buffer that is large enough to receive the largest packet the device is capable of sending on the interrupt pipe.
 
 
 ### -output-buffer-length
+
 Size of the output buffer.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 <b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
 
 
 ## -remarks
 
 
-Device handle, obtained by calling <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>.
-
-IOCTL_WAIT_ON_DEVICE_EVENT
-
-<b>NULL</b>
-
-Zero.
-
-Pointer to a buffer that is large enough to receive the largest packet the device is capable of sending on the interrupt pipe.
-
-Size of the output buffer.
-
-Pointer to a location to receive the number of bytes returned.
-
-Optional pointer to an OVERLAPPED structure (described in the Microsoft Windows SDK documentation).
+<h3><a id="ddk_ioctl_wait_on_device_event_si"></a><a id="DDK_IOCTL_WAIT_ON_DEVICE_EVENT_SI"></a>DeviceIoControl Parameters</h3>
 
 When the <b>DeviceloControl</b> function is called with the IOCTL_WAIT_ON_DEVICE_EVENT control code, the caller must specify a buffer pointer as the function's <i>lpOutBuffer</i> parameter. The buffer must be large enough to hold the largest packet the device can send on its interrupt pipe.
 
 The type and size of information returned are device-specific. For example, a still image device might issue an interrupt when a user presses one of its buttons, and the return packet might indicate which button was pressed.
 
-For more information, see <a href="https://msdn.microsoft.com/f9216d3c-4930-4c26-8eac-6ee500b038e0">Accessing Kernel-Mode Drivers for Still Image Devices</a>.</p>
+For more information, see <a href="https://msdn.microsoft.com/f9216d3c-4930-4c26-8eac-6ee500b038e0">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
+
+

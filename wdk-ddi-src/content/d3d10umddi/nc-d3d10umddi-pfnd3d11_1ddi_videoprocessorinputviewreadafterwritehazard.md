@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 320cfd00-656a-47ce-912e-7196986deaae
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.videoprocessorinputviewreadafterwritehazard, VideoProcessorInputViewReadAfterWriteHazard callback function [Display Devices], VideoProcessorInputViewReadAfterWriteHazard, PFND3D11_1DDI_VIDEOPROCESSORINPUTVIEWREADAFTERWRITEHAZARD, PFND3D11_1DDI_VIDEOPROCESSORINPUTVIEWREADAFTERWRITEHAZARD, d3d10umddi/VideoProcessorInputViewReadAfterWriteHazard
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoProcessorInputViewReadAfterWriteHazard
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	VideoProcessorInputViewReadAfterWriteHazard
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORINPUTVIEWREADAFTERWRITEHAZARD callback
 
 
-
 ## -description
+
+
 Notifies the display miniport driver that the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a> function is about to be called to read from a specified input view resource for a video processor. This resource had previously been written to by either the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecodersubmitbuffers.md">VideoDecoderSubmitBuffers</a> or the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_decryptionblt.md">DecryptionBlt(D3D11_1)</a> functions.
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11_1DDI_VIDEOPROCESSORINPUTVIEWREADAFTERWRITEHAZARD VideoProcessorInputViewReadAfterWriteHazard;
@@ -59,37 +69,52 @@ VOID APIENTRY* VideoProcessorInputViewReadAfterWriteHazard(
 
 ## -parameters
 
-### -param hDevice [in]
-
-A handle to the display device (graphics context).
 
 
-### -param hView [in]
 
-A handle to the driver's private data for the video processor input view that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorinputview.md">CreateVideoProcessorInputView</a> function.
+### -param D3D10DDI_HDEVICE
 
 
-### -param hResource [in]
+
+### -param D3D11_1DDI_HVIDEOPROCESSORINPUTVIEW
+
+
+
+### -param D3D10DDI_HRESOURCE
+
+
+
+
+
+
+#### - hResource [in]
 
 A handle to the driver's private data for an input view resource object. This handle is created though a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorinputview.md">CreateVideoProcessorInputView</a> function.
 
 
+#### - hView [in]
+
+A handle to the driver's private data for the video processor input view that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorinputview.md">CreateVideoProcessorInputView</a> function.
+
+
+#### - hDevice [in]
+
+A handle to the display device (graphics context).
+
+
 ## -returns
+
+
 This callback function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorinputview.md">CreateVideoProcessorInputView</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_decryptionblt.md">DecryptionBlt(D3D11_1)</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorinputview.md">CreateVideoProcessorInputView</a>
+
  
 
  

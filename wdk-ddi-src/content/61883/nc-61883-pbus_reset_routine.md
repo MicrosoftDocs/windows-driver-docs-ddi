@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 99555765-A58F-45A1-B146-3742C390E666
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _TOPOLOGY_MAP, TOPOLOGY_MAP, *PTOPOLOGY_MAP
+ms.keywords: IEEE.pbus_reset_routine, BusResetRoutine callback function [Buses], BusResetRoutine, PBUS_RESET_ROUTINE, PBUS_RESET_ROUTINE, 61883/BusResetRoutine, BusResetRoutine callback function [Buses], BusResetRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BusResetRoutine
-req.alt-loc: 61883.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	61883.h
+apiname: 
+-	BusResetRoutine
+product: Windows
+targetos: Windows
+req.typenames: *PTOPOLOGY_MAP, TOPOLOGY_MAP
 ---
 
 # PBUS_RESET_ROUTINE callback
 
 
-
 ## -description
+
+
 This is a caller-supplied function to be called by the protocol driver when the 1394 bus is reset.
 
 
-
 ## -prototype
+
 
 ````
 PBUS_RESET_ROUTINE BusResetRoutine;
@@ -60,6 +70,9 @@ typedef PBUS_RESET_ROUTINE BusResetRoutine;
 
 ## -parameters
 
+
+
+
 ### -param Context [in]
 
 Pointer to the context supplied by the caller at the <b>Context</b> member of the input BUS_RESET_NOTIFY structure. 
@@ -71,18 +84,16 @@ The bus reset information.
 
 
 ## -returns
+
+
 This callback does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-</dt>
-</dl>
+
  
 
  

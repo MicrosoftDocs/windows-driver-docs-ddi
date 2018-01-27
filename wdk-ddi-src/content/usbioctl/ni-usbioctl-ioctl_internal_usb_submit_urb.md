@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: ea4e1550-7972-4fc8-ac65-e6b4bba82f15
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_HUB_TYPE, USB_HUB_TYPE
+ms.keywords: buses.ioctl_internal_usb_submit_urb, IOCTL_INTERNAL_USB_SUBMIT_URB control code [Buses], IOCTL_INTERNAL_USB_SUBMIT_URB, usbioctl/IOCTL_INTERNAL_USB_SUBMIT_URB, usbirp_2df110d3-a22d-4074-b14f-125afd943afa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_INTERNAL_USB_SUBMIT_URB
-req.alt-loc: Usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Usbioctl.h
+apiname: 
+-	IOCTL_INTERNAL_USB_SUBMIT_URB
+product: Windows
+targetos: Windows
 req.typenames: USB_HUB_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,61 +47,70 @@ req.product: Windows 10 or later.
 # IOCTL_INTERNAL_USB_SUBMIT_URB IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
-The <b>IOCTL_INTERNAL_USB_SUBMIT_URB</b> I/O control request is used by drivers to submit an <a href="..\usb\ns-usb-_urb.md">URB</a> to the bus driver. 
-
-<b>IOCTL_INTERNAL_USB_SUBMIT_URB</b> is a kernel-mode I/O control request. This request targets the USB hub PDO.
-
 
 
 The <b>IOCTL_INTERNAL_USB_SUBMIT_URB</b> I/O control request is used by drivers to submit an <a href="..\usb\ns-usb-_urb.md">URB</a> to the bus driver. 
 
 <b>IOCTL_INTERNAL_USB_SUBMIT_URB</b> is a kernel-mode I/O control request. This request targets the USB hub PDO.
+
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 <b>Parameters.Others.Argument1</b> points to the URB, a variable-length structure. The <b>UrbHeader.Function</b> member of the URB specifies the URB type. The length of URB, as well as the meaning of any additional members depends on the value of <b>UrbHeader.Function</b>. See <a href="..\usb\ns-usb-_urb.md">URB</a> for details.
 
 
 ### -input-buffer-length
+
 The <b>UrbHeader.Length</b> member specifies the size in bytes of the URB. 
 
 
 ### -output-buffer
+
 <b>Parameters.Others.Argument1</b> points to the <a href="..\usb\ns-usb-_urb.md">URB</a> structure. The <b>UrbHeader.Status</b> contains a USB status code for the requested operation. Any additional output depends on the <b>UrbHeader.Function</b> member of the URB submitted. See <b>URB</b> for details.
 
 
 ### -output-buffer-length
+
 The <b>UrbHeader.Length</b> member specifies the size in bytes of the URB. 
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The lower-level drivers will set <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the URB can be successfully processed. Otherwise, the bus driver will set it to the appropriate error condition, such as STATUS_INVALID_PARAMETER, or STATUS_INSUFFICIENT_RESOURCES.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usb\ns-usb-_urb.md">URB</a>
-</dt>
-</dl>
+
  
 
  

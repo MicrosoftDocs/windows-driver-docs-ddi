@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 29c84529-11f6-429b-81c6-96d6a1773b3b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_AMPixAspectRatio, KS_AMPixAspectRatio
+ms.keywords: ksmedia/KS_PixAspectRatio_NTSC16x9, KS_PixAspectRatio_NTSC16x9, KS_PixAspectRatio_PAL4x3, KS_AMPixAspectRatio, ksmedia/KS_PixAspectRatio_PAL4x3, ksmedia/KS_AMPixAspectRatio, KS_PixAspectRatio_PAL16x9, ksmedia/KS_PixAspectRatio_NTSC4x3, KS_PixAspectRatio_NTSC4x3, ksmedia/KS_PixAspectRatio_PAL16x9, KS_AMPixAspectRatio enumeration [Streaming Media Devices], vidcapstruct_d891dbda-a467-4e13-bad6-fef794146717.xml, stream.ks_ampixaspectratio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_AMPixAspectRatio
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KS_AMPixAspectRatio
+product: Windows
+targetos: Windows
 req.typenames: KS_AMPixAspectRatio
 ---
 
 # KS_AMPixAspectRatio enumeration
 
 
-
 ## -description
+
+
 The KS_AMPixAspectRatio enumeration defines the pixel aspect ratio that corresponds to a 720  480 NTSC video signal or a 720 × 576 PAL video signal.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -56,6 +66,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field KS_PixAspectRatio_NTSC4x3
 
@@ -76,5 +89,3 @@ Specifies a 4 × 3 PAL pixel aspect ratio.
 
 Specifies a 16 × 9 PAL pixel aspect ratio.
 
-
-## -remarks

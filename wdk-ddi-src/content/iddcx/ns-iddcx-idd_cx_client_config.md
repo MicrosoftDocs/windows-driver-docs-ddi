@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8e286cb2-87f4-483b-bc55-f174e7de5989
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDD_CX_CLIENT_CONFIG,
+ms.keywords: IDD_CX_CLIENT_CONFIG structure [Display Devices], IDD_CX_CLIENT_CONFIG, display.idd_cx_client_config, iddcx/IDD_CX_CLIENT_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDD_CX_CLIENT_CONFIG
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDD_CX_CLIENT_CONFIG
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDD_CX_CLIENT_CONFIG structure
 
 
-
 ## -description
+
+
 The IDD_CX_CLIENT_CONFIG structure contains IDDCX callback functions that the display driver can use.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDD_CX_CLIENT_CONFIG {
@@ -72,6 +82,9 @@ typedef struct IDD_CX_CLIENT_CONFIG {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -192,5 +205,3 @@ typedef struct IDD_CX_CLIENT_CONFIG {
 
                      A pointer to the  <b>PFN_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT</b> function.
 
-
-## -remarks

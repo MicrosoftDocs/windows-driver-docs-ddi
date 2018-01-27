@@ -7,8 +7,8 @@ old-location: print\iprintreadstreamfactory.htm
 old-project: print
 ms.assetid: 91f82cab-64c4-4f25-bf9a-b0757b1a83ca
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IXpsPartIterator, IXpsPartIterator::Reset, Reset
+ms.date: 1/18/2018
+ms.keywords: print.iprintreadstreamfactory, IPrintReadStreamFactory interface [Print Devices], IPrintReadStreamFactory interface [Print Devices], described, IPrintReadStreamFactory, filterpipeline/IPrintReadStreamFactory, filterpipeline_6e71f042-ebb2-4a81-91ac-2dbfb8fd2161.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPrintReadStreamFactory
-req.alt-loc: filterpipeline.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,32 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	filterpipeline.h
+apiname: 
+-	IPrintReadStreamFactory
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # IPrintReadStreamFactory interface
 
 
-
 ## -description
+
+
 The <code>IPrintReadStreamFactory</code> interface creates a stream reader that a filter can use to access the stream. For example, a filter could use this stream to access the per-user print ticket.
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintReadStreamFactory</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IPrintReadStreamFactory</b> also has these types of members:
-
-The <b>IPrintReadStreamFactory</b> interface has these methods.
-
-The <code>GetStream</code> method gets the stream interface.
-
- 
-
-
 ## -members
+
 The <b>IPrintReadStreamFactory</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -73,5 +73,3 @@ The <code>GetStream</code> method gets the stream interface.
 
  
 
-
-## -remarks

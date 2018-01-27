@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a3e443e5-1766-4292-a25a-ad673734bac1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_TUNER_MODE_S, KSPROPERTY_TUNER_MODE_S, *PKSPROPERTY_TUNER_MODE_S
+ms.keywords: *PKSPROPERTY_TUNER_MODE_S, KSPROPERTY_TUNER_MODE_S, KSPROPERTY_TUNER_MODE_S structure [Streaming Media Devices], ksmedia/PKSPROPERTY_TUNER_MODE_S, ksmedia/KSPROPERTY_TUNER_MODE_S, PKSPROPERTY_TUNER_MODE_S, stream.ksproperty_tuner_mode_s, vidcapstruct_fe1fe8d4-8abd-4db3-8438-ef7dddadfa5c.xml, PKSPROPERTY_TUNER_MODE_S structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPROPERTY_TUNER_MODE_S
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSPROPERTY_TUNER_MODE_S
+product: Windows
+targetos: Windows
 req.typenames: KSPROPERTY_TUNER_MODE_S, *PKSPROPERTY_TUNER_MODE_S
 ---
 
 # KSPROPERTY_TUNER_MODE_S structure
 
 
-
 ## -description
+
+
 The KSPROPERTY_TUNER_MODE_S structure describes the mode of a TV or radio tuner device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field Property
 
 Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
@@ -63,7 +76,6 @@ Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPER
 ### -field Mode
 
 Specifies the current tuner mode. If the request is a Get request, the minidriver should return the current tuner mode. If the request is a Set request, the minidriver should switch the current tuner mode to the specified value. This member can be one of the following tuner modes from the KSPROPERTY_TUNER_MODES enumeration that is defined in <i>K</i><i>smedia.h</i>:
-
 <table>
 <tr>
 <th>Flag</th>
@@ -119,25 +131,17 @@ Indicates that the tuner is capable of tuning (get) or should switch to tuning (
 
 </td>
 </tr>
-</table>
- 
-
-
-## -remarks
+</table> 
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565862">KSPROPERTY_TUNER_MODE</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
  
 
  

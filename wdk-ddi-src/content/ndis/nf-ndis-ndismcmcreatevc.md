@@ -7,8 +7,8 @@ old-location: netvista\ndismcmcreatevc.htm
 old-project: netvista
 ms.assetid: b1d9ce90-9926-4ff8-a5bb-54c1a88d84dc
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisMCmCreateVc
+ms.date: 1/18/2018
+ms.keywords: NdisMCmCreateVc function [Network Drivers Starting with Windows Vista], condis_mcm_ref_eab0d24d-ee49-457d-9475-e4d7c3a50023.xml, ndis/NdisMCmCreateVc, netvista.ndismcmcreatevc, NdisMCmCreateVc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    N
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisMCmCreateVc
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_MCM_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisMCmCreateVc
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCmCreateVc function
 
 
-
 ## -description
+
+
 <b>NdisMCmCreateVc</b> sets up a connection endpoint on which an MCM driver can dispatch an incoming-call
   offer to a client.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisMCmCreateVc(
@@ -57,6 +68,9 @@ NDIS_STATUS NdisMCmCreateVc(
 
 
 ## -parameters
+
+
+
 
 ### -param MiniportAdapterHandle [in]
 
@@ -89,28 +103,69 @@ Pointer to a caller-supplied variable that must be initialized to <b>NULL</b> be
 
 
 ## -returns
+
+
 <b>NdisMCmCreateVc</b> can return one of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_SUCCESS</b></dt>
-</dl>NDIS created the VC successfully.
+</dl>
+</td>
+<td width="60%">
+NDIS created the VC successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_RESOURCES</b></dt>
-</dl>NDIS could not allocate sufficient memory to set up the VC.
+</dl>
+</td>
+<td width="60%">
+NDIS could not allocate sufficient memory to set up the VC.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_FAILURE</b></dt>
-</dl>The given 
+</dl>
+</td>
+<td width="60%">
+The given 
        <i>NdisAfHandle</i> is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_<i>XXX</i></b></dt>
-</dl>The client failed the creation of the VC for some reason, and NDIS has propagated the error
+</dl>
+</td>
+<td width="60%">
+The client failed the creation of the VC for some reason, and NDIS has propagated the error
        status returned by its 
        <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function to
        the MCM driver.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 An MCM driver creates a VC with 
     <b>NdisMCmCreateVc</b> to represent an incoming offer of a connection from a remote node directed to a SAP
     that has already been registered with the MCM driver.
@@ -136,8 +191,8 @@ When an MCM driver processes the offer of an incoming call directed to one of it
     <b>NdisMCmCreateVc</b> succeeds, the MCM driver can proceed in notifying the appropriate client, passing
     the returned value at 
     <i>NdisVcHandle</i> to 
-    <a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">
-    NdisMCmDispatchIncomingCall</a>.
+    <mshelp:link keywords="netvista.ndismcmdispatchincomingcall" tabindex="0"><b>
+    NdisMCmDispatchIncomingCall</b></mshelp:link>.
 
 The driver writer determines whether an MCM driver has an (internal) 
     <a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a> function that the
@@ -149,37 +204,29 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
     <b>NdisCoCreateVc</b> instead.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
-   NdisAllocateFromNPagedLookasideList</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
-</dt>
-</dl>
- 
+
+<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
+   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
+
+<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
+
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+
+<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
+
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmCreateVc function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmCreateVc function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

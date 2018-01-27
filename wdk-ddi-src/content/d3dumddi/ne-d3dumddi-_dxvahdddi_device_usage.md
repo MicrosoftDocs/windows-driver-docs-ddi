@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9a2e74fa-ee02-46f9-a51e-b2ffcdf7617a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVAHDDDI_DEVICE_USAGE, DXVAHDDDI_DEVICE_USAGE
+ms.keywords: DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY, d3dumddi/DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL, display.dxvahdddi_device_usage, _DXVAHDDDI_DEVICE_USAGE, d3dumddi/DXVAHDDDI_DEVICE_USAGE, d3dumddi/DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED, DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL, DXVAHDDDI_DEVICE_USAGE, d3dumddi/DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY, DXVAHDDDI_DEVICE_USAGE enumeration [Display Devices], DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED, DXVA2_Structs_37d96cb2-48a3-4538-9225-e63bfe0b5b5f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: DXVAHDDDI_DEVICE_USAGE is supported beginning with th
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVAHDDDI_DEVICE_USAGE
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVAHDDDI_DEVICE_USAGE
+product: Windows
+targetos: Windows
 req.typenames: DXVAHDDDI_DEVICE_USAGE
 ---
 
 # _DXVAHDDDI_DEVICE_USAGE enumeration
 
 
-
 ## -description
+
+
 The DXVAHDDDI_DEVICE_USAGE enumeration contains values that identify how the decode device plays video. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXVAHDDDI_DEVICE_USAGE { 
@@ -55,6 +65,9 @@ typedef enum _DXVAHDDDI_DEVICE_USAGE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL
 
@@ -72,15 +85,16 @@ A value that specifies that the device plays video at optimal quality.
 
 
 ## -remarks
+
+
 A DXVAHDDDI_DEVICE_USAGE-typed value is specified in the <b>Usage</b> member of a <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_device_desc.md">DXVAHDDDI_DEVICE_DESC</a> structure to help describe a decode device.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_device_desc.md">DXVAHDDDI_DEVICE_DESC</a>
-</dt>
-</dl>
+
  
 
  

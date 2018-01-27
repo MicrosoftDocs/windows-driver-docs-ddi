@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a2bcf1c0-a6c7-4bf3-bce6-9a661f2ab2e1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlDoesNameContainWildCards
+ms.keywords: FsRtlDoesNameContainWildCards routine [Installable File System Drivers], fsrtlref_1b39ef0b-3ec3-4d4b-9ee6-abe674e359aa.xml, ntifs/FsRtlDoesNameContainWildCards, FsRtlDoesNameContainWildCards, ifsk.fsrtldoesnamecontainwildcards
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlDoesNameContainWildCards
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlDoesNameContainWildCards
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlDoesNameContainWildCards function
 
 
-
 ## -description
+
+
 The <b>FsRtlDoesNameContainWildCards</b> routine determines whether a Unicode string contains wildcard characters. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlDoesNameContainWildCards(
@@ -54,27 +64,34 @@ BOOLEAN FsRtlDoesNameContainWildCards(
 
 ## -parameters
 
+
+
+
 ### -param Name [in]
 
 A pointer to the string to be checked.
 
 
 ## -returns
+
+
 <b>FsRtlDoesNameContainWildCards</b> returns <b>TRUE</b> if one or more wildcard characters were found, <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 The following are wildcard characters: *, ?, ANSI_DOS_STAR, ANSI_DOS_DOT, and ANSI_DOS_QM.
 
 For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
  
 
  

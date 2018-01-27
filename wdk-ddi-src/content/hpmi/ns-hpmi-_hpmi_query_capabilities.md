@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 9DEEB369-8B9E-40AA-9531-6B8138E5668F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _HPMI_QUERY_CAPABILITIES, *PHPMI_QUERY_CAPABILITIES, HPMI_QUERY_CAPABILITIES
+ms.keywords: PHPMI_QUERY_CAPABILITIES, hpmi/PHPMI_QUERY_CAPABILITIES, PHPMI_QUERY_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], powermeter.hpmi_query_capabilities, *PHPMI_QUERY_CAPABILITIES, hpmi/HPMI_QUERY_CAPABILITIES, _HPMI_QUERY_CAPABILITIES, HPMI_QUERY_CAPABILITIES structure [Power Metering and Budgeting Devices], HPMI_QUERY_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 10, version 1709 and later vers
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HPMI_QUERY_CAPABILITIES
-req.alt-loc: hpmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PHPMI_QUERY_CAPABILITIES, HPMI_QUERY_CAPABILITIES
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hpmi.h
+apiname: 
+-	HPMI_QUERY_CAPABILITIES
+product: Windows
+targetos: Windows
+req.typenames: HPMI_QUERY_CAPABILITIES, *PHPMI_QUERY_CAPABILITIES
 ---
 
 # _HPMI_QUERY_CAPABILITIES structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>HPMI_QUERY_CAPABILITIES</b> structure is used to query HPMI capabilities. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _HPMI_QUERY_CAPABILITIES {
@@ -56,26 +66,22 @@ typedef struct _HPMI_QUERY_CAPABILITIES {
 
 ## -struct-fields
 
+
+
+
 ### -field Version
 
 Set to HPMI_QUERY_CAPABILITIES_VERSION_1.  
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/35934D6C-3FB4-4AD4-AA50-BD3A7790269F">hpmi.h</a>
-</dt>
-<dt>
-<a href="..\hpmi\ns-hpmi-_hpmi_query_capabilities_response.md">HPMI_QUERY_CAPABILITIES_RESPONSE</a>
-</dt>
-<dt>
+
 <a href="..\hpmi\ni-hpmi-ioctl_hpmi_query_capabilities.md">IOCTL_HPMI_QUERY_CAPABILITIES</a>
-</dt>
-</dl>
+
+<a href="..\hpmi\ns-hpmi-_hpmi_query_capabilities_response.md">HPMI_QUERY_CAPABILITIES_RESPONSE</a>
+
  
 
  

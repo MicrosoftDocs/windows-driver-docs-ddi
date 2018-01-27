@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0271e937-a55d-4153-b1e1-045fef4b76a0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11DDIARG_CREATESHADERRESOURCEVIEW, D3D11DDIARG_CREATESHADERRESOURCEVIEW
+ms.keywords: UMDisplayDriver_Dx11param_Structs_e1d9908f-af17-4d66-ba86-4782bb22458e.xml, display.d3d11ddiarg_createshaderresourceview, D3D11DDIARG_CREATESHADERRESOURCEVIEW, d3d10umddi/D3D11DDIARG_CREATESHADERRESOURCEVIEW, D3D11DDIARG_CREATESHADERRESOURCEVIEW structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3D11DDIARG_CREATESHADERRESOURCEVIEW is supported beg
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11DDIARG_CREATESHADERRESOURCEVIEW
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D11DDIARG_CREATESHADERRESOURCEVIEW
+product: Windows
+targetos: Windows
 req.typenames: D3D11DDIARG_CREATESHADERRESOURCEVIEW
 ---
 
 # D3D11DDIARG_CREATESHADERRESOURCEVIEW structure
 
 
-
 ## -description
+
+
 The D3D11DDIARG_CREATESHADERRESOURCEVIEW structure describes the shader resource view to create.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D11DDIARG_CREATESHADERRESOURCEVIEW {
@@ -64,19 +74,7 @@ typedef struct D3D11DDIARG_CREATESHADERRESOURCEVIEW {
 
 ## -struct-fields
 
-### -field hDrvResource
 
-[in] A handle to the shader resource. 
-
-
-### -field Format
-
-[in] A DXGI_FORMAT-typed value that indicates the pixel format of the view.
-
-
-### -field ResourceDimension
-
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>-typed value that indicates the resource type and dimensionality. 
 
 
 ### -field Buffer
@@ -109,39 +107,41 @@ typedef struct D3D11DDIARG_CREATESHADERRESOURCEVIEW {
 [in] If the value in the <b>ResourceDimension</b> member is set to D3D11DDIRESOURCE_BUFFEREX, a member in the union that is contained in D3D11DDIARG_CREATESHADERRESOURCEVIEW that can hold a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_bufferex_shaderresourceview.md">D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW</a> structure for a buffer. 
 
 
-## -remarks
+### -field hDrvResource
+
+[in] A handle to the shader resource. 
+
+
+### -field Format
+
+[in] A DXGI_FORMAT-typed value that indicates the pixel format of the view.
+
+
+### -field ResourceDimension
+
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>-typed value that indicates the resource type and dimensionality. 
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize(D3D11)</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createshaderresourceview.md">CreateShaderResourceView(D3D11)</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_buffer_shaderresourceview.md">D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_bufferex_shaderresourceview.md">D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex1d_shaderresourceview.md">D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex2d_shaderresourceview.md">D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex3d_shaderresourceview.md">D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_1ddiarg_texcube_shaderresourceview.md">D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW</a>
-</dt>
-<dt>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_buffer_shaderresourceview.md">D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize(D3D11)</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_bufferex_shaderresourceview.md">D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_1ddiarg_texcube_shaderresourceview.md">D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex2d_shaderresourceview.md">D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex1d_shaderresourceview.md">D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW</a>
+
  
 
  

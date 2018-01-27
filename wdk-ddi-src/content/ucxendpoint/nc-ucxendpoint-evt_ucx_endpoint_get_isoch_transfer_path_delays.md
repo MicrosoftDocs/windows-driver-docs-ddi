@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E400CCAE-8F0F-4814-8B63-EB4E116543A2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS, UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS
+ms.keywords: buses.evt_ucx_endpoint_get_isoch_transfer_path_delays_, EvtUcxEndpointGetIsochTransferPathDelays callback function [Buses], EvtUcxEndpointGetIsochTransferPathDelays, EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS, EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS, ucxendpoint/EvtUcxEndpointGetIsochTransferPathDelays
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: EvtUcxEndpointGetIsochTransferPathDelays
-req.alt-loc: Ucxendpoint.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Ucxendpoint.h
+apiname: 
+-	EvtUcxEndpointGetIsochTransferPathDelays
+product: Windows
+targetos: Windows
 req.typenames: UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS callback
 
 
-
 ## -description
+
+
 UCX invokes this callback function to get information about transfer path delays for an isochronous endpoint. 
 
 
-
 ## -prototype
+
 
 ````
 EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS EvtUcxEndpointGetIsochTransferPathDelays;
@@ -59,9 +69,11 @@ NTSTATUS EvtUcxEndpointGetIsochTransferPathDelays(
 
 ## -parameters
 
-### -param Endpoint [in]
 
-A handle to a UCXENDPOINT object that represents the isochronous endpoint for which the client driver receives the transfer path delays.
+
+
+### -param UcxEndpoint
+
 
 
 ### -param UcxEndpointTransferPathDelays [in, out]
@@ -69,22 +81,32 @@ A handle to a UCXENDPOINT object that represents the isochronous endpoint for wh
 A pointer to a <a href="..\ucxendpoint\ns-ucxendpoint-_ucx_endpoint_isoch_transfer_path_delays.md">UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS</a> structure that contains transfer path delay values.
 
 
+#### - Endpoint [in]
+
+A handle to a UCXENDPOINT object that represents the isochronous endpoint for which the client driver receives the transfer path delays.
+
+
 ## -returns
+
+
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it must return a status value for which NT_SUCCESS(status) equals FALSE.
 
 
+
 ## -remarks
+
+
 The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
  method.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usb\ns-usb-_urb_get_isoch_pipe_transfer_path_delays.md">_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS</a>
-</dt>
-<dt><a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a></dt>
-</dl>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
+
  
 
  

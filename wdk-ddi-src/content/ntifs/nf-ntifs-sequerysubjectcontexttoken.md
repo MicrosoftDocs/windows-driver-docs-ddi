@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: af326cb1-446a-49b7-a381-472deb9ecc82
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SeQuerySubjectContextToken
+ms.keywords: seref_5b274dd0-4f8e-4f4c-b7ff-9de9b3da9213.xml, ntifs/SeQuerySubjectContextToken, ifsk.sequerysubjectcontexttoken, SeQuerySubjectContextToken, SeQuerySubjectContextToken function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SeQuerySubjectContextToken
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ntifs.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	SeQuerySubjectContextToken
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # SeQuerySubjectContextToken macro
 
 
-
 ## -description
+
+
 The <b>SeQuerySubjectContextToken</b> macro retrieves the access token for a security subject context.
 
 
-
 ## -syntax
+
 
 ````
 PACCESS_TOKEN SeQuerySubjectContextToken(
@@ -54,12 +64,17 @@ PACCESS_TOKEN SeQuerySubjectContextToken(
 
 ## -parameters
 
+
+
+
 ### -param SubjectContext [in]
 
 Pointer to the subject context to query.
 
 
 ## -remarks
+
+
 The access token pointer returned by <b>SeQuerySubjectContextToken</b> can be passed to <b>SeQueryInformationToken</b>. 
 
 <b>SeQuerySubjectContextToken</b> does not affect the lock status or access token of the subject context.
@@ -67,30 +82,23 @@ The access token pointer returned by <b>SeQuerySubjectContextToken</b> can be pa
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-sequeryauthenticationidtoken.md">SeQueryAuthenticationIdToken</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-setokenisadmin.md">SeTokenIsAdmin</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-sequeryauthenticationidtoken.md">SeQueryAuthenticationIdToken</a>
+
+<a href="..\ntifs\nf-ntifs-setokenisadmin.md">SeTokenIsAdmin</a>
+
+<a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
+
+<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
+
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+
+<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
+
  
 
  

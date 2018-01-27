@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b875755c-9559-41ee-8a9b-1de05a2f1dab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_CREATEVIDEOPROCESSDEVICE, D3DDDIARG_CREATEVIDEOPROCESSDEVICE
+ms.keywords: d3dumddi/D3DDDIARG_CREATEVIDEOPROCESSDEVICE, UMDisplayDriver_param_Structs_b8b0d8fa-b750-440d-afa4-556ffb33074a.xml, _D3DDDIARG_CREATEVIDEOPROCESSDEVICE, D3DDDIARG_CREATEVIDEOPROCESSDEVICE structure [Display Devices], display.d3dddiarg_createvideoprocessdevice, D3DDDIARG_CREATEVIDEOPROCESSDEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_CREATEVIDEOPROCESSDEVICE
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_CREATEVIDEOPROCESSDEVICE
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_CREATEVIDEOPROCESSDEVICE
 ---
 
 # _D3DDDIARG_CREATEVIDEOPROCESSDEVICE structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_CREATEVIDEOPROCESSDEVICE structure describes a Microsoft DirectX Video Acceleration (DirectX VA) video processing device to create. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_CREATEVIDEOPROCESSDEVICE {
@@ -57,6 +67,9 @@ typedef struct _D3DDDIARG_CREATEVIDEOPROCESSDEVICE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pVideoProcGuid
 
@@ -83,18 +96,12 @@ typedef struct _D3DDDIARG_CREATEVIDEOPROCESSDEVICE {
 [in/out] A handle to the video processing device. The user-mode display driver must set this handle to a value that the Microsoft Direct3D runtime can use to identify the video processing device in subsequent calls.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
+
  
 
  

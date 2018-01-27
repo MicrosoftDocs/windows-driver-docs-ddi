@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7d41c092-251e-4f93-b5be-ff989b37196b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSFC_EventBuffer, MSFC_EventBuffer, *PMSFC_EventBuffer
+ms.keywords: MSFC_EventBuffer, PMSFC_EventBuffer structure pointer [Storage Devices], storage.msfc_eventbuffer, structs-Fibre_d89430e7-c05b-4314-946e-fd8e70d938ac.xml, hbapiwmi/PMSFC_EventBuffer, MSFC_EventBuffer structure [Storage Devices], hbapiwmi/MSFC_EventBuffer, _MSFC_EventBuffer, *PMSFC_EventBuffer, PMSFC_EventBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSFC_EventBuffer
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	MSFC_EventBuffer
+product: Windows
+targetos: Windows
 req.typenames: MSFC_EventBuffer, *PMSFC_EventBuffer
 ---
 
 # _MSFC_EventBuffer structure
 
 
-
 ## -description
+
+
 The MSFC_EventBuffer structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a> method to retrieve the next events in the HBA's event queue.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSFC_EventBuffer {
@@ -54,6 +64,9 @@ typedef struct _MSFC_EventBuffer {
 
 
 ## -struct-fields
+
+
+
 
 ### -field EventType
 
@@ -66,23 +79,22 @@ Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_
 
 
 ## -remarks
+
+
 The WMI tool suite generates a declaration for this structure in <i>hbapiwm.h </i>after compiling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562483">MSFC_EventBuffer WMI Class</a>. 
 
 The <a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a> structure is declared in <i>hbaapi.h</i>. You must include <i>hbaapi.h</i> to reference this structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/528e5eaa-aaeb-4e5b-a4b2-0f518fcd79ee">EVENT_TYPE_QUALIFIERS</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a>
-</dt>
-<dt>
+
 <a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a>
+
  
 
  

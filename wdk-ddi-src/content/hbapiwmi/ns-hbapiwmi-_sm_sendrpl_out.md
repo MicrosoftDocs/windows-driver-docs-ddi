@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c8dfc30a-81ac-4342-9996-0c04db80e5e7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SM_SendRPL_OUT, SM_SendRPL_OUT, *PSM_SendRPL_OUT
+ms.keywords: hbapiwmi/SM_SendRPL_OUT, *PSM_SendRPL_OUT, PSM_SendRPL_OUT, SM_SendRPL_OUT structure [Storage Devices], PSM_SendRPL_OUT structure pointer [Storage Devices], hbapiwmi/PSM_SendRPL_OUT, SM_SendRPL_OUT, structs-Fibre_831fc75d-cdee-4fba-9dd1-22204e814d50.xml, _SM_SendRPL_OUT, storage.sm_sendrpl_out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SM_SendRPL_OUT
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: SM_SendRPL_OUT, *PSM_SendRPL_OUT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	SM_SendRPL_OUT
+product: Windows
+targetos: Windows
+req.typenames: *PSM_SendRPL_OUT, SM_SendRPL_OUT
 ---
 
 # _SM_SendRPL_OUT structure
 
 
-
 ## -description
+
+
 The SM_SendRPL_OUT structure is used to receive output parameters from the SM_SendRPL method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SM_SendRPL_OUT {
@@ -56,6 +66,9 @@ typedef struct _SM_SendRPL_OUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HBAStatus
 
@@ -78,4 +91,8 @@ The results of the common transport command.
 
 
 ## -remarks
-The WMI tool suite generates a declaration of the SM_SendRPL_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.</p>
+
+
+The WMI tool suite generates a declaration of the SM_SendRPL_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.
+
+

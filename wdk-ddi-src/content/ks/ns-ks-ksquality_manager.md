@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 33e66fa0-53d6-400a-a03b-6d7b3fd01ace
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSQUALITY_MANAGER, *PKSQUALITY_MANAGER, KSQUALITY_MANAGER
+ms.keywords: KSQUALITY_MANAGER structure [Streaming Media Devices], KSQUALITY_MANAGER, PKSQUALITY_MANAGER, ks-struct_97f36a6a-6d00-4cec-b13d-8f039b54c5a8.xml, stream.ksquality_manager, ks/PKSQUALITY_MANAGER, PKSQUALITY_MANAGER structure pointer [Streaming Media Devices], *PKSQUALITY_MANAGER, ks/KSQUALITY_MANAGER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSQUALITY_MANAGER
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSQUALITY_MANAGER, KSQUALITY_MANAGER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSQUALITY_MANAGER
+product: Windows
+targetos: Windows
+req.typenames: KSQUALITY_MANAGER, *PKSQUALITY_MANAGER
 ---
 
 # KSQUALITY_MANAGER structure
 
 
-
 ## -description
+
+
 The KSQUALITY_MANAGER structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565750">KSPROPERTY_STREAM_QUALITY</a> property and contains the handle of the quality manager sink and a context to pass in the quality complaints.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field QualityManager
 
 Specifies a handle to the quality manager sink receiving the <a href="..\ks\ns-ks-ksquality.md">KSQUALITY</a> complaint structures.
@@ -65,18 +78,12 @@ Specifies a handle to the quality manager sink receiving the <a href="..\ks\ns-k
 Specifies the context parameter to use when reporting quality problems. The context is used by the quality manager to distinguish between various clients that can send complaints to the same file object.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565750">KSPROPERTY_STREAM_QUALITY</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-ksquality.md">KSQUALITY</a>
-</dt>
-</dl>
+
  
 
  

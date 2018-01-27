@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c382689e-907c-473c-9ab1-da963d7f3ba3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoWMIAllocateInstanceIds
+ms.keywords: IoWMIAllocateInstanceIds routine [Kernel-Mode Driver Architecture], IoWMIAllocateInstanceIds, wdm/IoWMIAllocateInstanceIds, k104_52b2c9a6-e9c2-4c9f-b6f1-43ec8c72056a.xml, kernel.iowmiallocateinstanceids
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoWMIAllocateInstanceIds
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlIoPassive5, PowerIrpDDis, HwStorPortProhibitedDDIs, SpNoWait, StorPortStartIo
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoWMIAllocateInstanceIds
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoWMIAllocateInstanceIds function
 
 
-
 ## -description
+
+
 The <b>IoWMIAllocateInstanceIds</b> routine allocates one or more instance IDs that are unique to the GUID.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS IoWMIAllocateInstanceIds(
@@ -56,6 +66,9 @@ NTSTATUS IoWMIAllocateInstanceIds(
 
 
 ## -parameters
+
+
+
 
 ### -param Guid [in]
 
@@ -73,30 +86,62 @@ Pointer to the first instance identifier that the driver should use.
 
 
 ## -returns
+
+
 <b>IoWMIAllocateInstanceIds</b> returns a status code from the following list:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>Indicates that WMI successfully provided unique instance identifiers for the GUID specified.
+</dl>
+</td>
+<td width="60%">
+Indicates that WMI successfully provided unique instance identifiers for the GUID specified.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>Indicates that the WMI services are not available. 
+</dl>
+</td>
+<td width="60%">
+Indicates that the WMI services are not available. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>Indicates that insufficient resources were available to provide the caller with instance IDs.
+</dl>
+</td>
+<td width="60%">
+Indicates that insufficient resources were available to provide the caller with instance IDs.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 If greater than one instance was requested in <i>InstanceCount</i> and the routine completed successfully, <i>FirstInstanceId</i> points to the first instance that the caller should use. For each instance requested beyond one, the caller should increment the value returned in *<i>FirstInstanceId</i>. For example, if the caller requested six instances and one was returned as the value of <i>FirstInstanceId</i>, the caller should use the values 1-6 as his unique instance identifiers.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-iowmisuggestinstancename.md">IoWmiSuggestInstanceName</a>
-</dt>
-</dl>
+
  
 
  

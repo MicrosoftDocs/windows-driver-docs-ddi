@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6909579F-5387-4A35-B65B-EF77CC50DCC4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS, D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS
+ms.keywords: display.d3dddi_multiplane_overlay_group_caps, D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS, D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS
 ---
 
 # D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure
 
 
-
 ## -description
+
+
 Used by the user-mode display driver to specify a group of overlay plane capabilities.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS {
@@ -56,6 +66,9 @@ typedef struct D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NumPlanes
 
@@ -85,15 +98,10 @@ It's not guaranteed that this shrink factor can be applied in all scenarios. For
 The overlay capabilities, given as a bitwise <b>OR</b> of values from the <a href="..\d3dumddi\ne-d3dumddi-_d3dddi_multiplane_overlay_feature_caps.md">D3DDDI_MULTIPLANE_OVERLAY_FEATURE_CAPS</a> enumeration.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ne-d3dumddi-_d3dddi_multiplane_overlay_feature_caps.md">D3DDDI_MULTIPLANE_OVERLAY_FEATURE_CAPS</a>
-</dt>
-</dl>
+
  
 
  

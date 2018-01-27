@@ -7,8 +7,8 @@ old-location: netvista\rilphonebookinfoparammask_2.htm
 old-project: netvista
 ms.assetid: 5c56186c-44a7-4948-a74a-9337dd47d0a7
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILPHONEBOOKINFOPARAMMASK, RILPHONEBOOKINFOPARAMMASK
+ms.date: 1/18/2018
+ms.keywords: rilapitypes/RIL_PARAM_PBI_MAXAASTEXTLENGTH, RILPHONEBOOKINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILPHONEBOOKINFOPARAMMASK, RIL_PARAM_PBI_MAXGASLENGTH, rilapitypes/RIL_PARAM_PBI_MAXGASLENGTH, rilapitypes/RIL_PARAM_PBI_MAXANR, RIL_PARAM_PBI_MAXEMAILLENGTH, rilapitypes/RIL_PARAM_PBI_USEDAAS, netvista.rilphonebookinfoparammask_2, rilapitypes/RIL_PARAM_PBI_MAXANRLENGTH, RIL_PARAM_PBI_MAXGROUPS, RIL_PARAM_PBI_ALL, RIL_PARAM_PBI_MAXAASTEXTLENGTH, rilapitypes/RIL_PARAM_PBI_TOTALAAS, RILPHONEBOOKINFOPARAMMASK, rilapitypes/RIL_PARAM_PBI_MAXEMAILS, rilapitypes/RIL_PARAM_PBI_MAXGROUPS, RIL_PARAM_PBI_TOTAL, rilapitypes/RIL_PARAM_PBI_MAXSNELENGTH, RIL_PARAM_PBI_TOTALGAS, RIL_PARAM_PBI_USEDGAS, RIL_PARAM_PBI_MAXANR, RIL_PARAM_PBI_ADDRESSLENGTH, RIL_PARAM_PBI_MAXEMAILS, RIL_PARAM_PBI_USEDAAS, RIL_PARAM_PBI_TEXTLENGTH, rilapitypes/RIL_PARAM_PBI_TOTALGAS, rilapitypes/RIL_PARAM_PBI_USEDGAS, RIL_PARAM_PBI_MAXANRLENGTH, RIL_PARAM_PBI_MAXSNELENGTH, rilapitypes/RIL_PARAM_PBI_ALL, rilapitypes/RIL_PARAM_PBI_TEXTLENGTH, rilapitypes/RIL_PARAM_PBI_ADDRESSLENGTH, RIL_PARAM_PBI_TOTALAAS, rilapitypes/RIL_PARAM_PBI_MAXEMAILLENGTH, rilapitypes/RIL_PARAM_PBI_TOTAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILPHONEBOOKINFOPARAMMASK
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILPHONEBOOKINFOPARAMMASK
+product: Windows
+targetos: Windows
 req.typenames: RILPHONEBOOKINFOPARAMMASK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILPHONEBOOKINFOPARAMMASK enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILPHONEBOOKINFOPARAMMASK { 
@@ -70,52 +80,73 @@ typedef enum _RILPHONEBOOKINFOPARAMMASK {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_PARAM_PBI_USED
+
+
+
 ### -field RIL_PARAM_PBI_TOTAL
+
 
 
 ### -field RIL_PARAM_PBI_ADDRESSLENGTH
 
 
+
 ### -field RIL_PARAM_PBI_TEXTLENGTH
+
 
 
 ### -field RIL_PARAM_PBI_MAXANR
 
 
+
 ### -field RIL_PARAM_PBI_MAXANRLENGTH
+
 
 
 ### -field RIL_PARAM_PBI_MAXAASTEXTLENGTH
 
 
+
 ### -field RIL_PARAM_PBI_USEDAAS
+
 
 
 ### -field RIL_PARAM_PBI_TOTALAAS
 
 
+
 ### -field RIL_PARAM_PBI_MAXEMAILS
+
 
 
 ### -field RIL_PARAM_PBI_MAXEMAILLENGTH
 
 
+
 ### -field RIL_PARAM_PBI_MAXGROUPS
+
 
 
 ### -field RIL_PARAM_PBI_MAXGASLENGTH
 
 
+
 ### -field RIL_PARAM_PBI_USEDGAS
+
 
 
 ### -field RIL_PARAM_PBI_TOTALGAS
 
 
+
 ### -field RIL_PARAM_PBI_MAXSNELENGTH
+
 
 
 ### -field RIL_PARAM_PBI_ALL
 
 
-## -remarks

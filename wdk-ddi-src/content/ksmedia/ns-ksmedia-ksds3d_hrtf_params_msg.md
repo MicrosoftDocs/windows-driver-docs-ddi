@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: e746fc3d-ebfd-41a1-b640-6f803423bd95
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSDS3D_HRTF_PARAMS_MSG, *PKSDS3D_HRTF_PARAMS_MSG, KSDS3D_HRTF_PARAMS_MSG
+ms.keywords: ksmedia/KSDS3D_HRTF_PARAMS_MSG, PKSDS3D_HRTF_PARAMS_MSG structure pointer [Audio Devices], aud-prop_1f9e726f-d9b6-43e5-8c6e-82e645587ca4.xml, PKSDS3D_HRTF_PARAMS_MSG, KSDS3D_HRTF_PARAMS_MSG structure [Audio Devices], KSDS3D_HRTF_PARAMS_MSG, ksmedia/PKSDS3D_HRTF_PARAMS_MSG, audio.ksds3d_hrtf_params_msg, *PKSDS3D_HRTF_PARAMS_MSG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSDS3D_HRTF_PARAMS_MSG
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSDS3D_HRTF_PARAMS_MSG, KSDS3D_HRTF_PARAMS_MSG
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSDS3D_HRTF_PARAMS_MSG
+product: Windows
+targetos: Windows
+req.typenames: KSDS3D_HRTF_PARAMS_MSG, *PKSDS3D_HRTF_PARAMS_MSG
 ---
 
 # KSDS3D_HRTF_PARAMS_MSG structure
 
 
-
 ## -description
+
+
 The KSDS3D_HRTF_PARAMS_MSG structure specifies the parameter settings to apply to a head-relative transfer function (HRTF).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -58,6 +68,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -90,20 +103,20 @@ Specifies the additional size in bytes of the filter coefficients that are appen
 
 
 ## -remarks
+
+
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537357">KSPROPERTY_HRTF3D_PARAMS</a> property.
 
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537357">KSPROPERTY_HRTF3D_PARAMS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537357">KSPROPERTY_HRTF3D_PARAMS</a>
+
  
 
  

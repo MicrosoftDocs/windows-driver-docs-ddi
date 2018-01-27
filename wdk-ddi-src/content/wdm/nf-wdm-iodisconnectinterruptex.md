@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6c538468-2f7c-48b0-90f8-deb975c85970
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoDisconnectInterruptEx
+ms.keywords: WdmlibIoDisconnectInterruptEx, wdm/WdmlibIoDisconnectInterruptEx, kernel.iodisconnectinterruptex, wdm/IoDisconnectInterruptEx, IoDisconnectInterruptEx, k104_3bfae096-0af6-4f61-ae4b-4c83e748b071.xml, IoDisconnectInterruptEx routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista. Drivers that m
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoDisconnectInterruptEx,WdmlibIoDisconnectInterruptEx
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib; Iointex.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoDisconnectInterruptEx
+-	WdmlibIoDisconnectInterruptEx
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # IoDisconnectInterruptEx function
 
 
-
 ## -description
+
+
 For more information, see the <a href="..\iointex\nf-iointex-wdmlibiodisconnectinterruptex.md">WdmlibIoDisconnectInterruptEx</a> function.
 
 <code>#define IoDisconnectInterruptEx WdmlibIoDisconnectInterruptEx</code>
 
 
-
 ## -syntax
+
 
 ````
 VOID IoDisconnectInterruptEx(
@@ -57,24 +68,25 @@ VOID IoDisconnectInterruptEx(
 
 ## -parameters
 
+
+
+
 ### -param Parameters [in, out]
 
 For more information, see the <a href="..\iointex\nf-iointex-wdmlibiodisconnectinterruptex.md">WdmlibIoDisconnectInterruptEx</a> function.
 
 
 ## -returns
+
+
 For more information, see the <a href="..\iointex\nf-iointex-wdmlibiodisconnectinterruptex.md">WdmlibIoDisconnectInterruptEx</a> function.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\iointex\nf-iointex-wdmlibiodisconnectinterruptex.md">WdmlibIoDisconnectInterruptEx</a>
-</dt>
-</dl>
+
  
 
  

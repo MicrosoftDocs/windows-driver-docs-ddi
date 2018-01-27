@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 807CC73E-C5A5-4D49-AFAF-32A51D832F82
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_HANDLETYPE, D3D12DDI_HANDLETYPE
+ms.keywords: D3D12DDI_HT_0030_CRYPTOSESSIONPOLICY, D3D12DDI_HT_PIPELINE_STATE, d3d12umddi/D3D12DDI_HT_FENCE, d3d12umddi/D3D12DDI_HT_0032_VIDEO_DECODER_HEAP, D3D12DDI_HT_COMMAND_QUEUE, D3D12DDI_HT_0020_VIDEO_DECODE_STREAM, d3d12umddi/D3D12DDI_HT_PIPELINE_STATE, D3D12DDI_HT_0010_PIPELINE_LIBRARY, D3D12DDI_HT_PASS, d3d12umddi/D3D12DDI_HT_0020_VIDEO_DECODE_STREAM, d3d12umddi/D3D12DDI_HT_DESCRIPTOR_HEAP, D3D12DDI_HT_COMMAND_SIGNATURE, d3d12umddi/D3D12DDI_HT_COMMAND_ALLOCATOR, d3d12umddi/D3D12DDI_HANDLETYPE, d3d12umddi/D3D12DDI_HT_0030_CRYPTOSESSION, d3d12umddi/D3D12DDI_HT_COMMAND_SIGNATURE, D3D12DDI_HT_0030_PROTECTEDRESOURCESESSION, D3D12DDI_HT_0020_VIDEO_DECODER, D3D12DDI_HT_0030_CRYPTOSESSION, d3d12umddi/D3D12DDI_HT_QUERY_HEAP, d3d12umddi/D3D12DDI_HT_COMMAND_LIST, D3D12DDI_HT_0012_RESOURCE, D3D12DDI_HANDLETYPE, d3d12umddi/D3D12DDI_HT_0020_VIDEO_PROCESSOR, display.d3d12ddi_handletype, d3d12umddi/D3D12DDI_HT_0020_VIDEO_PROCESS_STREAM, D3D12DDI_HT_COMMAND_LIST, d3d12umddi/D3D12DDI_HT_0010_PIPELINE_LIBRARY, d3d12umddi/D3D12DDI_HT_0020_VIDEO_DECODER, D3D12DDI_HT_0032_VIDEO_DECODER_HEAP, d3d12umddi/D3D12DDI_HT_0030_PROTECTEDRESOURCESESSION, D3D12DDI_HT_0020_VIDEO_PROCESS_STREAM, D3D12DDI_HT_HEAP, d3d12umddi/D3D12DDI_HT_0012_RESOURCE, d3d12umddi/D3D12DDI_HT_HEAP, D3D12DDI_HANDLETYPE enumeration [Display Devices], D3D12DDI_HT_DESCRIPTOR_HEAP, d3d12umddi/D3D12DDI_HT_PASS, D3D12DDI_HT_COMMAND_ALLOCATOR, d3d12umddi/D3D12DDI_HT_0030_CRYPTOSESSIONPOLICY, D3D12DDI_HT_0020_VIDEO_PROCESSOR, d3d12umddi/D3D12DDI_HT_COMMAND_QUEUE, D3D12DDI_HT_QUERY_HEAP, D3D12DDI_HT_FENCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_HANDLETYPE
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_HANDLETYPE
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_HANDLETYPE
 ---
 
 # D3D12DDI_HANDLETYPE enumeration
 
 
-
 ## -description
+
+
 Contains driver handle types.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D12DDI_HANDLETYPE { 
@@ -72,6 +82,9 @@ typedef enum D3D12DDI_HANDLETYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D12DDI_HT_COMMAND_QUEUE
 
@@ -128,19 +141,9 @@ A pipeline library handle type.
 A video decoder handle type.
 
 
-### -field D3D12DDI_HT_0020_VIDEO_DECODE_STREAM
-
-A video decode stream handle type.
-
-
 ### -field D3D12DDI_HT_0020_VIDEO_PROCESSOR
 
 A video processor handle type.
-
-
-### -field D3D12DDI_HT_0020_VIDEO_PROCESS_STREAM
-
-A video process stream handle type.
 
 
 ### -field D3D12DDI_HT_0012_RESOURCE
@@ -173,4 +176,12 @@ A protected resource session handle type.
 A video decoder heap handle type.
 
 
-## -remarks
+#### - D3D12DDI_HT_0020_VIDEO_PROCESS_STREAM
+
+A video process stream handle type.
+
+
+#### - D3D12DDI_HT_0020_VIDEO_DECODE_STREAM
+
+A video decode stream handle type.
+

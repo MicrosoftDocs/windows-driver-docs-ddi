@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b9cc78f3-b8b5-4a54-87b2-321b75ed9a21
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PRESENTMULTIPLANEOVERLAYINFO, DXGK_PRESENTMULTIPLANEOVERLAYINFO
+ms.keywords: DXGK_PRESENTMULTIPLANEOVERLAYINFO structure [Display Devices], display.dxgk_presentmultiplaneoverlayinfo, _DXGK_PRESENTMULTIPLANEOVERLAYINFO, DXGK_PRESENTMULTIPLANEOVERLAYINFO, d3dkmddi/DXGK_PRESENTMULTIPLANEOVERLAYINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_PRESENTMULTIPLANEOVERLAYINFO
-req.alt-loc: D3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmddi.h
+apiname: 
+-	DXGK_PRESENTMULTIPLANEOVERLAYINFO
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PRESENTMULTIPLANEOVERLAYINFO
 ---
 
 # _DXGK_PRESENTMULTIPLANEOVERLAYINFO structure
 
 
-
 ## -description
+
+
 Specifies info on a VidPN input and an overlay plane to display.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_PRESENTMULTIPLANEOVERLAYINFO {
@@ -55,6 +65,9 @@ typedef struct _DXGK_PRESENTMULTIPLANEOVERLAYINFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field VidPnSourceId
 
@@ -71,15 +84,10 @@ typedef struct _DXGK_PRESENTMULTIPLANEOVERLAYINFO {
 [in] A pointer to a structure of type <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentmultiplaneoverlaylist.md">DXGK_PRESENTMULTIPLANEOVERLAYLIST</a> that describes the overlay plane to display.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentmultiplaneoverlaylist.md">DXGK_PRESENTMULTIPLANEOVERLAYLIST</a>
-</dt>
-</dl>
+
  
 
  

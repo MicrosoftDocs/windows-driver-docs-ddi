@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c94e2189-62a6-44d6-9a29-4fd32c72437a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSDS3D_BUFFER_ALL, KSDS3D_BUFFER_ALL, *PKSDS3D_BUFFER_ALL
+ms.keywords: aud-prop_46bd2b81-3d2a-49e1-93e6-867e84ae4c04.xml, ksmedia/PKSDS3D_BUFFER_ALL, audio.ksds3d_buffer_all, PKSDS3D_BUFFER_ALL, *PKSDS3D_BUFFER_ALL, ksmedia/KSDS3D_BUFFER_ALL, KSDS3D_BUFFER_ALL, KSDS3D_BUFFER_ALL structure [Audio Devices], PKSDS3D_BUFFER_ALL structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSDS3D_BUFFER_ALL
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KSDS3D_BUFFER_ALL, *PKSDS3D_BUFFER_ALL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSDS3D_BUFFER_ALL
+product: Windows
+targetos: Windows
+req.typenames: *PKSDS3D_BUFFER_ALL, KSDS3D_BUFFER_ALL
 ---
 
 # KSDS3D_BUFFER_ALL structure
 
 
-
 ## -description
+
+
 The KSDS3D_BUFFER_ALL structure specifies all the 3D characteristics of a DirectSound 3D buffer.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -61,6 +71,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Position
 
@@ -105,7 +118,6 @@ Specifies the maximum distance between the speaker and listener.
 ### -field Mode
 
 Specifies the 3D sound-processing mode. This can be one of the following values from the header file Dsound.h:
-
 <ul>
 <li>
 DS3DMODE_DISABLE 
@@ -119,25 +131,24 @@ DS3DMODE_HEADRELATIVE
 DS3DMODE_NORMAL
 
 </li>
-</ul>
-For the meaning of these parameters, see the description of the <b>dwMode</b> member of the DS3DBUFFER structure in the Microsoft Windows SDK documentation.
+</ul>For the meaning of these parameters, see the description of the <b>dwMode</b> member of the DS3DBUFFER structure in the Microsoft Windows SDK documentation.
 
 
 ## -remarks
+
+
 This structure is used to set or get the data value for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537315">KSPROPERTY_DIRECTSOUND3DBUFFER_ALL</a> property. DirectSound uses this property to implement the <b>IDirectSound3DBuffer::GetAllParameters</b> and <b>IDirectSound3DBuffer::SetAllParameters</b> methods, which are described in the Windows SDK documentation.
 
 The members of this structure are similar to those defined for the DS3DBUFFER structure in the Windows SDK documentation.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-_ds3dvector.md">DS3DVECTOR</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537315">KSPROPERTY_DIRECTSOUND3DBUFFER_ALL</a>
-</dt>
-</dl>
+
  
 
  

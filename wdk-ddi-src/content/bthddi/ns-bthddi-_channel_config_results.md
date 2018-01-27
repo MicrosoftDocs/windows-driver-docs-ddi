@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: cda3bfc6-7bdb-4b5a-8845-9a2ca1cc8014
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _CHANNEL_CONFIG_RESULTS, CHANNEL_CONFIG_RESULTS, *PCHANNEL_CONFIG_RESULTS
+ms.keywords: CHANNEL_CONFIG_RESULTS structure [Bluetooth Devices], bth_structs_9c4ea05f-7bee-473c-a311-e68f49c3013a.xml, CHANNEL_CONFIG_RESULTS, *PCHANNEL_CONFIG_RESULTS, PCHANNEL_CONFIG_RESULTS, bthddi/CHANNEL_CONFIG_RESULTS, _CHANNEL_CONFIG_RESULTS, bthddi/PCHANNEL_CONFIG_RESULTS, PCHANNEL_CONFIG_RESULTS structure pointer [Bluetooth Devices], bltooth.channel_config_results
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CHANNEL_CONFIG_RESULTS
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthddi.h
+apiname: 
+-	CHANNEL_CONFIG_RESULTS
+product: Windows
+targetos: Windows
 req.typenames: CHANNEL_CONFIG_RESULTS, *PCHANNEL_CONFIG_RESULTS
 ---
 
 # _CHANNEL_CONFIG_RESULTS structure
 
 
-
 ## -description
+
+
 The CHANNEL_CONFIG_RESULTS structure contains configuration parameters and the buffer size of any
   extra options for the inbound and outbound directions of a L2CAP channel.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CHANNEL_CONFIG_RESULTS {
@@ -56,11 +66,14 @@ typedef struct _CHANNEL_CONFIG_RESULTS {
 
 ## -struct-fields
 
+
+
+
 ### -field Params
 
 A 
-     <a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">
-     CHANNEL_CONFIG_PARAMETERS</a> structure that contains the parameters for the specified direction of
+     <mshelp:link keywords="bltooth.channel_config_parameters" tabindex="0"><b>
+     CHANNEL_CONFIG_PARAMETERS</b></mshelp:link> structure that contains the parameters for the specified direction of
      the channel.
 
 
@@ -71,21 +84,21 @@ The size, in bytes, required in the buffer to retrieve the current extra options
 
 
 ## -remarks
+
+
 The CHANNEL_CONFIG_RESULTS structure is passed in the 
     <b>InResults</b> and 
     <b>OutResults</b> members of the 
     <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">CHANNEL_CONFIG_PARAMETERS</a>
-</dt>
-<dt>
+
 <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
-</dt>
-</dl>
+
+<a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">CHANNEL_CONFIG_PARAMETERS</a>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: pos\barcodesymbologyattributesdata.htm
 old-project: pos
 ms.assetid: 0682B3AA-13F5-4686-AD78-D45DA85398B7
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _BarcodeSymbologyAttributesData, BarcodeSymbologyAttributesData
+ms.date: 1/18/2018
+ms.keywords: BarcodeSymbologyAttributesData structure, pos.barcodesymbologyattributesdata, _BarcodeSymbologyAttributesData, pointofservicecommontypes/BarcodeSymbologyAttributesData, BarcodeSymbologyAttributesData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BarcodeSymbologyAttributesData
-req.alt-loc: pointofservicecommontypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pointofservicecommontypes.h
+apiname: 
+-	BarcodeSymbologyAttributesData
+product: Windows
+targetos: Windows
 req.typenames: BarcodeSymbologyAttributesData
 ---
 
 # _BarcodeSymbologyAttributesData structure
 
 
-
 ## -description
+
+
 The <b>BarcodeSymbologyAttributesData</b> structure contains the attribute information  for a barcode symbology.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BarcodeSymbologyAttributesData {
@@ -61,6 +71,9 @@ typedef struct _BarcodeSymbologyAttributesData {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Symbology
 
@@ -113,5 +126,3 @@ The first  value in a range, or the  first  discrete value.
 
 The last value in a range, or a second discrete value.
 
-
-## -remarks

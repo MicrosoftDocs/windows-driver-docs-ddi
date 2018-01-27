@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F307A139-B55A-4C29-BE2F-14C243115F8C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS, *PUFX_ENDPOINT_CALLBACKS
+ms.keywords: buses.ufx_proprietary_charger_reset_operation, UfxProprietaryChargerReset callback function [Buses], UfxProprietaryChargerReset, UFX_PROPRIETARY_CHARGER_RESET_OPERATION, UFX_PROPRIETARY_CHARGER_RESET_OPERATION, ufxproprietarycharger/UfxProprietaryChargerReset, PFN_UFX_PROPRIETARY_CHARGER_RESET_OPERATION callback function pointer [Buses], PFN_UFX_PROPRIETARY_CHARGER_RESET_OPERATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: PFN_UFX_PROPRIETARY_CHARGER_RESET_OPERATION
-req.alt-loc: ufxproprietarycharger.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ufxproprietarycharger.h
+apiname: 
+-	PFN_UFX_PROPRIETARY_CHARGER_RESET_OPERATION
+product: Windows
+targetos: Windows
 req.typenames: UFX_ENDPOINT_CALLBACKS, *PUFX_ENDPOINT_CALLBACKS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # UFX_PROPRIETARY_CHARGER_RESET_OPERATION callback
 
 
-
 ## -description
+
+
 The filter driver's implementation to reset a charger operation.
 
 
-
 ## -prototype
+
 
 ````
 UFX_PROPRIETARY_CHARGER_RESET_OPERATION UfxProprietaryChargerReset;
@@ -60,25 +70,32 @@ typedef UFX_PROPRIETARY_CHARGER_RESET_OPERATION PFN_UFX_PROPRIETARY_CHARGER_RESE
 
 ## -parameters
 
+
+
+
 ### -param Context [in]
 
     A pointer to a driver-defined context.
 
 
 ## -returns
+
+
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it must return a status value for which NT_SUCCESS(status) equals FALSE.
 
 
+
 ## -remarks
+
+
 To support handling of proprietary chargers, the USB lower filter driver must publish support. During the publishing process, the driver also registers its implementation of this  callback function. For more information, see <a href="https://msdn.microsoft.com/05D2B46A-282C-4B75-9F5C-2FC0AF344AB9">USB filter driver for supporting proprietary chargers</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/05D2B46A-282C-4B75-9F5C-2FC0AF344AB9">USB filter driver for supporting proprietary chargers</a>
-</dt>
-</dl>
+
  
 
  

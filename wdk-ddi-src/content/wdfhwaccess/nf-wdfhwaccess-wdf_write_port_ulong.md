@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 553CA9E0-66C7-436B-AE34-5A6201479D6D
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_WRITE_PORT_ULONG
+ms.keywords: wdfhwaccess/WDF_WRITE_PORT_ULONG, wdf.wdf_write_port_ulong, WDF_WRITE_PORT_ULONG, WDF_WRITE_PORT_ULONG function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 2.0
-req.alt-api: WDF_WRITE_PORT_ULONG
-req.alt-loc: Wdfhwaccess.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,26 +26,38 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdfhwaccess.h
+apiname: 
+-	WDF_WRITE_PORT_ULONG
+product: Windows
+targetos: Windows
+req.typenames: *PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 
 # WDF_WRITE_PORT_ULONG function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>WDF_WRITE_PORT_ULONG</b> function writes a ULONG value to the specified port address.
 
 
 
-
 ## -syntax
+
 
 ````
 void WDF_WRITE_PORT_ULONG(
@@ -59,6 +69,9 @@ void WDF_WRITE_PORT_ULONG(
 
 
 ## -parameters
+
+
+
 
 ### -param Device [in]
 
@@ -77,7 +90,8 @@ Specifies a ULONG value to be written to the port.
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
-## -remarks

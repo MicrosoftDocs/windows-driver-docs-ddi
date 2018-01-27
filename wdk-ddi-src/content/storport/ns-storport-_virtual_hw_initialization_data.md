@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 10e7e097-ed84-4200-b7b6-6a838a058fd2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _VIRTUAL_HW_INITIALIZATION_DATA, VIRTUAL_HW_INITIALIZATION_DATA, *PVIRTUAL_HW_INITIALIZATION_DATA
+ms.keywords: _VIRTUAL_HW_INITIALIZATION_DATA, VIRTUAL_HW_INITIALIZATION_DATA, storage.virtual_hw_initialization_data, PVIRTUAL_HW_INITIALIZATION_DATA structure pointer [Storage Devices], storport/PVIRTUAL_HW_INITIALIZATION_DATA, structs-virtual_afc3c543-a34f-4853-b67b-06d57d0350b6.xml, *PVIRTUAL_HW_INITIALIZATION_DATA, storport/VIRTUAL_HW_INITIALIZATION_DATA, PVIRTUAL_HW_INITIALIZATION_DATA, VIRTUAL_HW_INITIALIZATION_DATA structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VIRTUAL_HW_INITIALIZATION_DATA
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: VIRTUAL_HW_INITIALIZATION_DATA, *PVIRTUAL_HW_INITIALIZATION_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	VIRTUAL_HW_INITIALIZATION_DATA
+product: Windows
+targetos: Windows
+req.typenames: *PVIRTUAL_HW_INITIALIZATION_DATA, VIRTUAL_HW_INITIALIZATION_DATA
 req.product: Windows 10 or later.
 ---
 
 # _VIRTUAL_HW_INITIALIZATION_DATA structure
 
 
-
 ## -description
+
+
 The <b>VIRTUAL_HW_INITIALIZATION_DATA</b> structure contains information particular to each virtual miniport driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _VIRTUAL_HW_INITIALIZATION_DATA {
@@ -88,6 +98,19 @@ typedef struct _VIRTUAL_HW_INITIALIZATION_DATA {
 
 
 ## -struct-fields
+
+
+
+
+### -field ReservedUshort
+
+Reserved.
+
+
+### -field PortVersionFlags
+
+A bitmap of flags that indicate the features that the port driver supports. Currently, the only flag available is SP_VER_TRACE_SUPPORT, which indicates that the port driver supports tracing.
+
 
 ### -field HwInitializationDataSize
 
@@ -199,16 +222,6 @@ The length, in bytes, of the vendor identifier.
 The vendor identifier.
 
 
-### -field ReservedUshort
-
-Reserved.
-
-
-### -field PortVersionFlags
-
-A bitmap of flags that indicate the features that the port driver supports. Currently, the only flag available is SP_VER_TRACE_SUPPORT, which indicates that the port driver supports tracing.
-
-
 ### -field DeviceIdLength
 
 The length, in bytes, of the device identifier.
@@ -256,42 +269,34 @@ A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/l
 
 
 ## -remarks
+
+
 If a virtual miniport driver will execute only on Windows 8 or later, the driver should use the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure instead of <b>VIRTUAL_HW_INITIALIZATION_DATA</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557372">HwStorCleanupTracing</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557379">HwStorCompleteServiceIrp</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557392">HwStorFreeAdapterResources</a>
-</dt>
-<dt>
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557402">HwStorInitializeTracing</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557410">HwStorProcessServiceRequest</a>
-</dt>
-<dt>
-<a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
-</dt>
-<dt>
-<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568008">VirtualHwStorFindAdapter</a>
-</dt>
-</dl>
+
+<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
+
+<a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557410">HwStorProcessServiceRequest</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557392">HwStorFreeAdapterResources</a>
+
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+
+<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557372">HwStorCleanupTracing</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557402">HwStorInitializeTracing</a>
+
  
 
  

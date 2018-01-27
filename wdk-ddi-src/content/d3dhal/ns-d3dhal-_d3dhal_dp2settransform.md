@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7905f5bd-15f5-4b4f-bc00-91acb2371dc0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2SETTRANSFORM, D3DHAL_DP2SETTRANSFORM, *LPD3DHAL_DP2SETTRANSFORM
+ms.keywords: d3dstrct_0392a6fc-4098-4c82-92fa-5684be9fa195.xml, *LPD3DHAL_DP2SETTRANSFORM, d3dhal/LPD3DHAL_DP2SETTRANSFORM, display.d3dhal_dp2settransform, LPD3DHAL_DP2SETTRANSFORM structure pointer [Display Devices], _D3DHAL_DP2SETTRANSFORM, D3DHAL_DP2SETTRANSFORM structure [Display Devices], d3dhal/D3DHAL_DP2SETTRANSFORM, D3DHAL_DP2SETTRANSFORM, LPD3DHAL_DP2SETTRANSFORM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DP2SETTRANSFORM
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DP2SETTRANSFORM
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DP2SETTRANSFORM
 ---
 
 # _D3DHAL_DP2SETTRANSFORM structure
 
 
-
 ## -description
+
+
 D3DHAL_DP2SETTRANSFORM structure is used to specify the transform state and matrix for <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DP2SETTRANSFORM {
@@ -55,10 +65,12 @@ typedef struct _D3DHAL_DP2SETTRANSFORM {
 
 ## -struct-fields
 
+
+
+
 ### -field xfrmType
 
 Specifies the type of transform being done.
-
 <table>
 <tr>
 <th>Value</th>
@@ -94,8 +106,7 @@ Specifies a world transformation.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field matrix
@@ -104,18 +115,18 @@ Specifies the matrix used to perform the transform.
 
 
 ## -remarks
+
+
 This structure is used with hardware transform and lighting and is used by the Direct3D runtime to inform the driver about the various transformation matrices.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-</dt>
-<dt>
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2multiplytransform.md">D3DHAL_DP2MULTIPLYTRANSFORM</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ba7023d9-5130-4eea-9de9-034f5bf0b145
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcSetDirtyPageThreshold
+ms.keywords: ifsk.ccsetdirtypagethreshold, ccref_df331e54-32a2-4a09-a1e6-7c1d69b2abcf.xml, CcSetDirtyPageThreshold, CcSetDirtyPageThreshold routine [Installable File System Drivers], ntifs/CcSetDirtyPageThreshold
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcSetDirtyPageThreshold
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcSetDirtyPageThreshold
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcSetDirtyPageThreshold function
 
 
-
 ## -description
+
+
 The <b>CcSetDirtyPageThreshold</b> routine sets a per-file dirty page threshold on a cached file.
 
 
-
 ## -syntax
+
 
 ````
 VOID CcSetDirtyPageThreshold(
@@ -54,6 +64,9 @@ VOID CcSetDirtyPageThreshold(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -66,10 +79,15 @@ Specifies, as a number of pages, the dirty page threshold value. To remove a per
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>CcSetDirtyPageThreshold</b> sets or removes a per-file dirty page threshold. After a per-file dirty page threshold is set on a cached file, if the file system attempts to exceed the threshold, the cache manager will refuse requests to write to the file.
 
 To determine whether the cache manager will accept or refuse write requests, use <a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a>.
@@ -77,15 +95,13 @@ To determine whether the cache manager will accept or refuse write requests, use
 Note that the <i>per-file</i> dirty page threshold is not the same as the <i>global</i> dirty page threshold for the entire system cache.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccdeferwrite.md">CcDeferWrite</a>
-</dt>
-</dl>
+
  
 
  

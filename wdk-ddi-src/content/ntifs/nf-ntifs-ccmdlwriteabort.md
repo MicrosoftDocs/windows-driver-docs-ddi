@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 32b6fc14-dbaa-41d7-a1a7-a805b9a8795a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcMdlWriteAbort
+ms.keywords: ccref_517f25ce-d707-4611-af24-c66010b0d89e.xml, ntifs/CcMdlWriteAbort, ifsk.ccmdlwriteabort, CcMdlWriteAbort, CcMdlWriteAbort routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available on Microsoft Windows XP and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcMdlWriteAbort
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcMdlWriteAbort
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcMdlWriteAbort function
 
 
-
 ## -description
+
+
 The <b>CcMdlWriteAbort</b> routine frees memory descriptor lists (MDL) created by an earlier call to <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a>. 
 
 
-
 ## -syntax
+
 
 ````
 VOID CcMdlWriteAbort(
@@ -54,6 +64,9 @@ VOID CcMdlWriteAbort(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -66,10 +79,15 @@ Address of the MDL chain returned by <a href="..\ntifs\nf-ntifs-ccpreparemdlwrit
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 File systems call <b>CcMdlWriteAbort</b> to free the memory descriptor lists (MDL) created by an earlier call to <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a> for a cached file. All physical pages that were locked down are unlocked. Any pages that were mapped are unmapped. 
 
 File systems normally call <b>CcMdlWriteAbort</b> only in cases where, after a successful call to <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a>, it is necessary to abort or fail the subsequent MDL write operation. 
@@ -77,15 +95,13 @@ File systems normally call <b>CcMdlWriteAbort</b> only in cases where, after a s
 Unlike <a href="..\ntifs\nf-ntifs-ccmdlwritecomplete.md">CcMdlWriteComplete</a>, <b>CcMdlWriteAbort</b> does not cause any data to be written to the cached file. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccmdlwritecomplete.md">CcMdlWriteComplete</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ccmdlwritecomplete.md">CcMdlWriteComplete</a>
+
  
 
  

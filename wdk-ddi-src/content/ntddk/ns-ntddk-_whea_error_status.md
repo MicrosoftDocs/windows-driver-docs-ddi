@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 5b11112b-e900-4894-a9ce-6895a4fa1956
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_ERROR_STATUS, WHEA_ERROR_STATUS, *PWHEA_ERROR_STATUS
+ms.keywords: PWHEA_ERROR_STATUS, ntddk/PWHEA_ERROR_STATUS, WHEA_ERROR_STATUS, PWHEA_ERROR_STATUS union pointer [WHEA Drivers and Applications], whea.whea_error_status, _WHEA_ERROR_STATUS, whearef_3dc93951-2c79-4b1e-b5b0-53ede31c6f37.xml, WHEA_ERROR_STATUS union [WHEA Drivers and Applications], *PWHEA_ERROR_STATUS, ntddk/WHEA_ERROR_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_ERROR_STATUS
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_ERROR_STATUS
+product: Windows
+targetos: Windows
 req.typenames: WHEA_ERROR_STATUS, *PWHEA_ERROR_STATUS
 ---
 
 # _WHEA_ERROR_STATUS structure
 
 
-
 ## -description
+
+
 The WHEA_ERROR_STATUS union describes generic error codes that are abstracted from the data contained in implementation-specific error registers.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _WHEA_ERROR_STATUS {
@@ -66,173 +76,228 @@ typedef union _WHEA_ERROR_STATUS {
 
 ## -struct-fields
 
+
+
+
+### -field DUMMYSTRUCTNAME
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Reserved1
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.ErrorType
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Address
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Control
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Data
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Responder
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Requester
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.FirstError
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Overflow
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Reserved2
+
+ 
+
+
 ### -field ErrorStatus
 
 A ULONGLONG representation of the contents of the WHEA_ERROR_STATUS union.
 
 
-### -field Reserved1
+##### - ErrorType.ERRTYP_POISONED
 
-Reserved for system use.
+A read operation was issued to data that has been corrupted.
 
 
-### -field ErrorType
+##### - ErrorType.ERRTYP_MEM
+
+A memory error.
+
+
+#### - Address
+
+A single bit that indicates if the error was detected on the address signals or during the address portion of the transaction.
+
+
+##### - ErrorType.ERRTYP_TIMEOUT
+
+A bus timeout error.
+
+
+#### - Overflow
+
+A single bit that indicates that additional errors occurred but were not logged due to an overflow of the logging resources.
+
+
+##### - ErrorType.ERRTYP_PATHERROR
+
+A bus path error.
+
+
+##### - ErrorType.ERRTYP_SELFTEST
+
+The component failed self test.
+
+
+##### - ErrorType.ERRTYP_FUNCTION
+
+An error in one or more functional units.
+
+
+#### - ErrorType
 
 The type of hardware error that occurred. Possible values are:
 
 
 
 
-### -field ERRTYP_INTERNAL
-
-An error internal to the component.
-
-
-### -field ERRTYP_BUS
-
-A bus error.
-
-
-### -field ERRTYP_MEM
-
-A memory error.
-
-
-### -field ERRTYP_TLB
-
-A translation lookaside buffer error.
-
-
-### -field ERRTYP_CACHE
-
-A cache error.
-
-
-### -field ERRTYP_FUNCTION
-
-An error in one or more functional units.
-
-
-### -field ERRTYP_SELFTEST
-
-The component failed self test.
-
-
-### -field ERRTYP_FLOW
-
-An overflow or underflow of a queue that is internal to the component.
-
-
-### -field ERRTYP_MAP
-
-The virtual address was not found on IO-TLB or IO-PDIR.
-
-
-### -field ERRTYP_IMPROPER
-
-An improper access error.
-
-
-### -field ERRTYP_UNIMPL
+##### - ErrorType.ERRTYP_UNIMPL
 
 An access to a memory address that is not mapped to any component.
 
 
-### -field ERRTYP_LOSSOFLOCKSTEP
+##### - ErrorType.ERRTYP_LOSSOFLOCKSTEP
 
 A loss of lockstep.
 
 
-### -field ERRTYP_RESPONSE
+##### - ErrorType.ERRTYP_FLOW
 
-A response was received that was not associated with a request.
-
-
-### -field ERRTYP_PARITY
-
-A bus parity error.
+An overflow or underflow of a queue that is internal to the component.
 
 
-### -field ERRTYP_PROTOCOL
+##### - ErrorType.ERRTYP_IMPROPER
 
-A bus protocol error.
-
-
-### -field ERRTYP_PATHERROR
-
-A bus path error.
+An improper access error.
 
 
-### -field ERRTYP_TIMEOUT
-
-A bus timeout error.
-
-
-### -field ERRTYP_POISONED
-
-A read operation was issued to data that has been corrupted.
-
-</dd>
-</dl>
-
-### -field Address
-
-A single bit that indicates if the error was detected on the address signals or during the address portion of the transaction.
-
-
-### -field Control
-
-A single bit that indicates if the error was detected on the control signals or during the control portion of the transaction.
-
-
-### -field Data
+#### - Data
 
 A single bit that indicates if the error was detected on the data signals or during the data portion of the transaction.
 
 
-### -field Responder
-
-A single bit that indicates that the error was detected by the responder of the transaction.
-
-
-### -field Requester
-
-A single bit that indicates that the error was detected by the requester of the transaction.
-
-
-### -field FirstError
-
-A single bit that indicates that the error is the first error to occur if multiple errors are logged for a section type. Setting of this bit is optional.
-
-
-### -field Overflow
-
-A single bit that indicates that additional errors occurred but were not logged due to an overflow of the logging resources.
-
-
-### -field Reserved2
+#### - Reserved2
 
 Reserved for system use.
 
 
+#### - FirstError
+
+A single bit that indicates that the error is the first error to occur if multiple errors are logged for a section type. Setting of this bit is optional.
+
+
+##### - ErrorType.ERRTYP_CACHE
+
+A cache error.
+
+
+##### - ErrorType.ERRTYP_MAP
+
+The virtual address was not found on IO-TLB or IO-PDIR.
+
+
+#### - Reserved1
+
+Reserved for system use.
+
+
+#### - Responder
+
+A single bit that indicates that the error was detected by the responder of the transaction.
+
+
+##### - ErrorType.ERRTYP_PROTOCOL
+
+A bus protocol error.
+
+
+##### - ErrorType.ERRTYP_RESPONSE
+
+A response was received that was not associated with a request.
+
+
+#### - Requester
+
+A single bit that indicates that the error was detected by the requester of the transaction.
+
+
+#### - Control
+
+A single bit that indicates if the error was detected on the control signals or during the control portion of the transaction.
+
+
+##### - ErrorType.ERRTYP_BUS
+
+A bus error.
+
+
+##### - ErrorType.ERRTYP_PARITY
+
+A bus parity error.
+
+
+##### - ErrorType.ERRTYP_TLB
+
+A translation lookaside buffer error.
+
+
+##### - ErrorType.ERRTYP_INTERNAL
+
+An error internal to the component.
+
+
 ## -remarks
+
+
 The WHEA_ERROR_STATUS union provides the capability to abstract information from implementation-specific error registers into generic error codes so that the operating system can process the errors without an intimate knowledge of the underlying platform. This union is derived from the Error Status section of the <a href="http://go.microsoft.com/fwlink/p/?linkid=26730">Intel Itanium Processor Family System Abstraction Layer Specification</a>.
 
 A WHEA_ERROR_STATUS union is contained within the <a href="..\ntddk\ns-ntddk-_whea_memory_error_section.md">WHEA_MEMORY_ERROR_SECTION</a>, <a href="..\ntddk\ns-ntddk-_whea_pcixbus_error_section.md">WHEA_PCIXBUS_ERROR_SECTION</a>, and <a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a> structures.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\ns-ntddk-_whea_memory_error_section.md">WHEA_MEMORY_ERROR_SECTION</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_pcixbus_error_section.md">WHEA_PCIXBUS_ERROR_SECTION</a>
-</dt>
-<dt>
+
+<a href="..\ntddk\ns-ntddk-_whea_memory_error_section.md">WHEA_MEMORY_ERROR_SECTION</a>
+
 <a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a>
-</dt>
-</dl>
+
  
 
  

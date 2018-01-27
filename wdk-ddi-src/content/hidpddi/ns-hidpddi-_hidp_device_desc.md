@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: C51D645B-5DF2-4F23-904B-AB56F97520CB
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _HIDP_DEVICE_DESC, HIDP_DEVICE_DESC, *PHIDP_DEVICE_DESC
+ms.keywords: PHIDP_DEVICE_DESC structure pointer [Human Input Devices], *PHIDP_DEVICE_DESC, HIDP_DEVICE_DESC, hid.hidp_device_desc, PHIDP_DEVICE_DESC, HIDP_DEVICE_DESC structure [Human Input Devices], hidpddi/PHIDP_DEVICE_DESC, _HIDP_DEVICE_DESC, hidpddi/HIDP_DEVICE_DESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HIDP_DEVICE_DESC
-req.alt-loc: Hidpddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Hidpddi.h
+apiname: 
+-	HIDP_DEVICE_DESC
+product: Windows
+targetos: Windows
 req.typenames: HIDP_DEVICE_DESC, *PHIDP_DEVICE_DESC
 ---
 
 # _HIDP_DEVICE_DESC structure
 
 
-
 ## -description
+
+
 Contains the device description block filled in
                          collection descriptions as linked lists. This structure is used by <a href="..\hidpddi\nf-hidpddi-hidp_getcollectiondescription.md">HidP_GetCollectionDescription</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _HIDP_DEVICE_DESC {
@@ -58,6 +68,9 @@ typedef struct _HIDP_DEVICE_DESC {
 
 
 ## -struct-fields
+
+
+
 
 ### -field CollectionDesc
 
@@ -85,15 +98,10 @@ A <a href="..\hidpddi\ns-hidpddi-_hidp_getcoldesc_dbg.md">HIDP_GETCOLDESC_DBG</a
                                       descriptor.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\hidpddi\nf-hidpddi-hidp_getcollectiondescription.md">HidP_GetCollectionDescription</a>
-</dt>
-</dl>
+
  
 
  

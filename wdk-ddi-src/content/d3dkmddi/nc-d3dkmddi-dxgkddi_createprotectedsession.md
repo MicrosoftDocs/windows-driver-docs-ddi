@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0FAE7AA0-839D-4D21-BC10-46B2B651979F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddi_createprotectedsession, DXGKDDI_CREATEPROTECTEDSESSION callback function [Display Devices], DXGKDDI_CREATEPROTECTEDSESSION, d3dkmddi/DXGKDDI_CREATEPROTECTEDSESSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKDDI_CREATEPROTECTEDSESSION
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: requires_(PASSIVE_LEVEL)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKDDI_CREATEPROTECTEDSESSION
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_CREATEPROTECTEDSESSION callback
 
 
-
 ## -description
+
+
 Used to create a protected session.
 
 
-
 ## -prototype
+
 
 ````
 NTSTATUS APIENTRY DXGKDDI_CREATEPROTECTEDSESSION(
@@ -54,6 +64,9 @@ NTSTATUS APIENTRY DXGKDDI_CREATEPROTECTEDSESSION(
 
 
 ## -parameters
+
+
+
 
 ### -param hAdapter [in]
 
@@ -66,7 +79,8 @@ A pointer to the arguments used to create a protected session.
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS if completed successfully.
 
 
-## -remarks

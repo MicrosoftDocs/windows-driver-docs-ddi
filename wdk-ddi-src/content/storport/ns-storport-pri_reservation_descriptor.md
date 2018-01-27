@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f03506f6-404e-4635-a9ad-f2f36164ff2f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PRI_RESERVATION_DESCRIPTOR, *PPRI_RESERVATION_DESCRIPTOR, PRI_RESERVATION_DESCRIPTOR
+ms.keywords: structs-general_96e112cc-0cf3-442d-bb3a-7bcad8a95220.xml, PPRI_RESERVATION_DESCRIPTOR structure pointer [Storage Devices], *PPRI_RESERVATION_DESCRIPTOR, PRI_RESERVATION_DESCRIPTOR structure [Storage Devices], storage.pri_reservation_descriptor, storport/PPRI_RESERVATION_DESCRIPTOR, storport/PRI_RESERVATION_DESCRIPTOR, PPRI_RESERVATION_DESCRIPTOR, PRI_RESERVATION_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PRI_RESERVATION_DESCRIPTOR
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PPRI_RESERVATION_DESCRIPTOR, PRI_RESERVATION_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	PRI_RESERVATION_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: PRI_RESERVATION_DESCRIPTOR, *PPRI_RESERVATION_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
 # PRI_RESERVATION_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The PRI_RESERVATION_DESCRIPTOR structure is used to construct the <a href="..\storport\ns-storport-pri_reservation_list.md">PRI_RESERVATION_LIST</a> structure that is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_RESERVATIONS.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -59,6 +69,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ReservationKey
 
@@ -91,18 +104,18 @@ Reserved. Must be zero.
 
 
 ## -remarks
+
+
 The <a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_in.md">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a> request is used to obtain information about persistent reservations and reservation keys that are active within a device server.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_in.md">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a>
-</dt>
-<dt>
+
 <a href="..\storport\ns-storport-pri_reservation_list.md">PRI_RESERVATION_LIST</a>
-</dt>
-</dl>
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_in.md">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a>
+
  
 
  

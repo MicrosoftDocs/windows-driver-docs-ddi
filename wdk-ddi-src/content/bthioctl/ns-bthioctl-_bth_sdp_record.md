@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 29aeb49a-1647-46ee-a88e-f088f8a2548f
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTH_SDP_RECORD, BTH_SDP_RECORD, *PBTH_SDP_RECORD
+ms.keywords: _BTH_SDP_RECORD, bth_structs_e77453a7-05d1-403d-9552-972368d7a76c.xml, BTH_SDP_RECORD, PBTH_SDP_RECORD structure pointer [Bluetooth Devices], PBTH_SDP_RECORD, bltooth.bth_sdp_record, *PBTH_SDP_RECORD, bthioctl/BTH_SDP_RECORD, BTH_SDP_RECORD structure [Bluetooth Devices], bthioctl/PBTH_SDP_RECORD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BTH_SDP_RECORD
-req.alt-loc: bthioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-req.typenames: BTH_SDP_RECORD, *PBTH_SDP_RECORD
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthioctl.h
+apiname: 
+-	BTH_SDP_RECORD
+product: Windows
+targetos: Windows
+req.typenames: *PBTH_SDP_RECORD, BTH_SDP_RECORD
 ---
 
 # _BTH_SDP_RECORD structure
 
 
-
 ## -description
+
+
 The BTH_SDP_RECORD structure contains information about an SDP record that is to be added to the
   local SDP server.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BTH_SDP_RECORD {
@@ -59,12 +69,14 @@ typedef struct _BTH_SDP_RECORD {
 
 ## -struct-fields
 
+
+
+
 ### -field fSecurity
 
 A combination of flags that specifies the security attributes of the SDP record. Valid flag values
      are listed in the following table.
      
-
 <table>
 <tr>
 <th>Flag</th>
@@ -120,8 +132,7 @@ No security is required to access this record.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field fOptions
@@ -129,7 +140,6 @@ No security is required to access this record.
 A combination of flags that specifies the publication options for the SDP record. Valid flag
      values are listed in the following table.
      
-
 <table>
 <tr>
 <th>Flag</th>
@@ -157,41 +167,11 @@ The record should be obtainable if specifically requested, but it should not be 
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field fCodService
 
-
-### -field A combination of flags that specifies the class of device (CoD) that the SDP record supports.
-     Multiple flags can be set for a single device. Possible values include:
-
-### -field COD_SERVICE_AUDIO
-     
-
-### -field COD_SERVICE_CAPTURING
-     
-
-### -field COD_SERVICE_INFORMATION
-     
-
-### -field COD_SERVICE_LIMITED
-     
-
-### -field COD_SERVICE_NETWORKING
-     
-
-### -field COD_SERVICE_OBJECT_XFER
-     
-
-### -field COD_SERVICE_POSITIONING
-     
-
-### -field COD_SERVICE_RENDERING
-     
-
-### -field COD_SERVICE_TELEPHONY
 
 
 ### -field recordLength
@@ -207,19 +187,61 @@ The size, in bytes, of the record.
      
 
 
+##### - fCodService.COD_SERVICE_LIMITED
+
+
+
+##### - fCodService.COD_SERVICE_POSITIONING
+
+
+
+##### - fCodService.COD_SERVICE_OBJECT_XFER
+
+
+
+####### - fCodService.A combination of flags that specifies the class of device (CoD) that the SDP record supports.
+     Multiple flags can be set for a single device. Possible values include:
+
+
+
+##### - fCodService.COD_SERVICE_AUDIO
+
+
+
+##### - fCodService.COD_SERVICE_INFORMATION
+
+
+
+##### - fCodService.COD_SERVICE_CAPTURING
+
+
+
+##### - fCodService.COD_SERVICE_NETWORKING
+
+
+
+##### - fCodService.COD_SERVICE_TELEPHONY
+
+
+
+##### - fCodService.COD_SERVICE_RENDERING
+
+
+
 ## -remarks
+
+
 This structure is passed as the input buffer and output buffer of 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record_with_info.md">
-    IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</a>.
+    <mshelp:link keywords="bltooth.ioctl_bth_sdp_submit_record_with_info" tabindex="0"><b>
+    IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</b></mshelp:link>.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record_with_info.md">
-   IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</a>
-</dt>
-</dl>
+
+<mshelp:link keywords="bltooth.ioctl_bth_sdp_submit_record_with_info" tabindex="0"><b>
+   IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</b></mshelp:link>
+
  
 
  

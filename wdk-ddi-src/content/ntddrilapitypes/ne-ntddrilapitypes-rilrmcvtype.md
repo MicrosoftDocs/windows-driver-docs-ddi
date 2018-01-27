@@ -7,8 +7,8 @@ old-location: netvista\rilrmcvtype.htm
 old-project: netvista
 ms.assetid: 007c6b45-0bec-4fcf-984a-675aa5336993
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILRMCVTYPE, RILRMCVTYPE
+ms.date: 1/18/2018
+ms.keywords: RILRMCVTYPE, RIL_RMCV_TYPE_BOOLEAN, RILRMCVTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_RMCV_TYPE_DWORD, ntddrilapitypes/RILRMCVTYPE, netvista.rilrmcvtype, RIL_RMCV_TYPE_STRING, ntddrilapitypes/RIL_RMCV_TYPE_STRING, ntddrilapitypes/RIL_RMCV_TYPE_BOOLEAN, ntddrilapitypes/RIL_RMCV_TYPE_DWORD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILRMCVTYPE
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILRMCVTYPE
+product: Windows
+targetos: Windows
 req.typenames: RILRMCVTYPE
 ---
 
 # RILRMCVTYPE enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILRMCVTYPE { 
@@ -56,13 +66,21 @@ typedef enum _RILRMCVTYPE {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_RMCV_TYPE_NONE
+
+
+
 ### -field RIL_RMCV_TYPE_BOOLEAN
+
 
 
 ### -field RIL_RMCV_TYPE_DWORD
 
 
+
 ### -field RIL_RMCV_TYPE_STRING
 
 
-## -remarks

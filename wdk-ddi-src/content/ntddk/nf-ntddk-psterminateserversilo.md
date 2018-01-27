@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C19190A3-57F9-4482-A550-045805734909
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsTerminateServerSilo
+ms.keywords: PsTerminateServerSilo routine [Kernel-Mode Driver Architecture], ntddk/PsTerminateServerSilo, PsTerminateServerSilo, kernel.psterminateserversilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1607
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PsTerminateServerSilo
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	PsTerminateServerSilo
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # PsTerminateServerSilo function
 
 
-
 ## -description
+
+
 This routine terminates the specified silo.
 
 
-
 ## -syntax
+
 
 ````
 void PsTerminateServerSilo(
@@ -55,21 +65,37 @@ void PsTerminateServerSilo(
 
 ## -parameters
 
+
+
+
 ### -param ServerSilo [in]
 
 A pointer to the silo being terminated.
 
 
-### -param ExistStatus [in]
+### -param ExitStatus
+
+TBD
+
+
+
+#### - ExistStatus [in]
 
 The exit status for the silo.
 
 
 ## -returns
+
+
 This routine does not return a value.
 
 
+
 ## -remarks
+
+
 This routine can be called within or from outside a silo context.
     Note that this is different from a BugCheck; this routine will return to
-    the caller.</p>
+    the caller.
+
+

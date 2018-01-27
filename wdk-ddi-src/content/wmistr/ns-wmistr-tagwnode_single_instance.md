@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 03e922af-f42a-4801-adc5-fc7a0b90f4a7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: tagWNODE_SINGLE_INSTANCE, *PWNODE_SINGLE_INSTANCE, WNODE_SINGLE_INSTANCE
+ms.keywords: WNODE_SINGLE_INSTANCE structure [Kernel-Mode Driver Architecture], kstruct_d_c6ae2ea3-5e64-466d-b479-02a9eea71b20.xml, tagWNODE_SINGLE_INSTANCE, WNODE_SINGLE_INSTANCE, wmistr/WNODE_SINGLE_INSTANCE, *PWNODE_SINGLE_INSTANCE, wmistr/PWNODE_SINGLE_INSTANCE, PWNODE_SINGLE_INSTANCE, PWNODE_SINGLE_INSTANCE structure pointer [Kernel-Mode Driver Architecture], kernel.wnode_single_instance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WNODE_SINGLE_INSTANCE
-req.alt-loc: wmistr.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PWNODE_SINGLE_INSTANCE, WNODE_SINGLE_INSTANCE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wmistr.h
+apiname: 
+-	WNODE_SINGLE_INSTANCE
+product: Windows
+targetos: Windows
+req.typenames: WNODE_SINGLE_INSTANCE, *PWNODE_SINGLE_INSTANCE
 req.product: Windows 10 or later.
 ---
 
 # tagWNODE_SINGLE_INSTANCE structure
 
 
-
 ## -description
+
+
 The <b>WNODE_SINGLE_INSTANCE</b> structure contains values for all data items in one instance of a data block.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagWNODE_SINGLE_INSTANCE {
@@ -60,9 +70,17 @@ typedef struct tagWNODE_SINGLE_INSTANCE {
 
 ## -struct-fields
 
+
+
+
 ### -field WnodeHeader
 
 Is a <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a> structure that contains information common to all <b>WNODE_<i>XXX</i></b> structures, such as the buffer size, the GUID that represents a data block associated with a request, and flags that provide information about the <b>WNODE_<i>XXX</i></b> data being passed or returned.
+
+
+### -field _WNODE_HEADER
+
+ 
 
 
 ### -field OffsetInstanceName
@@ -91,20 +109,20 @@ Contains additional data, including the dynamic instance name if any, padding so
 
 
 ## -remarks
+
+
 WMI passes a <b>WNODE_SINGLE_INSTANCE</b> with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550831">IRP_MN_CHANGE_SINGLE_INSTANCE</a> request to set read/write data items in an instance of a data block. A driver can ignore values passed for read-only data items in the instance.
 
 A driver fills in a <b>WNODE_SINGLE_INSTANCE</b> in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551718">IRP_MN_QUERY_SINGLE_INSTANCE</a> request or to generate an event that consists of a single instance.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
-</dt>
-<dt>
+
 <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
-</dt>
-</dl>
+
  
 
  

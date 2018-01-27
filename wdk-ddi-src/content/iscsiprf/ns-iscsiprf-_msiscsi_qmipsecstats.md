@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 265ed956-1065-44be-ac8e-94bab2e4e8b8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSiSCSI_QMIPSECStats, MSiSCSI_QMIPSECStats, *PMSiSCSI_QMIPSECStats
+ms.keywords: *PMSiSCSI_QMIPSECStats, PMSiSCSI_QMIPSECStats, iscsiprf/PMSiSCSI_QMIPSECStats, PMSiSCSI_QMIPSECStats structure pointer [Storage Devices], storage.msiscsi_qmipsecstats, structs-iSCSI_979ce8ac-35be-4ac1-930a-6614053fc805.xml, MSiSCSI_QMIPSECStats structure [Storage Devices], MSiSCSI_QMIPSECStats, _MSiSCSI_QMIPSECStats, iscsiprf/MSiSCSI_QMIPSECStats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSiSCSI_QMIPSECStats
-req.alt-loc: iscsiprf.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiprf.h
+apiname: 
+-	MSiSCSI_QMIPSECStats
+product: Windows
+targetos: Windows
 req.typenames: MSiSCSI_QMIPSECStats, *PMSiSCSI_QMIPSECStats
 ---
 
 # _MSiSCSI_QMIPSECStats structure
 
 
-
 ## -description
+
+
 The MSiSCSI_QMIPSECStats structure can be used by an iSCSI initiator to report IPsec statistics for an HBA. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSiSCSI_QMIPSECStats {
@@ -70,6 +80,9 @@ typedef struct _MSiSCSI_QMIPSECStats {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ActiveSA
 
@@ -162,15 +175,16 @@ The number of bytes that are received by using the IPsec tunnel mode.
 
 
 ## -remarks
+
+
 It is optional that you implement this class.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563105">MSiSCSI_QMIPSECStats WMI Class</a>
-</dt>
-</dl>
+
  
 
  

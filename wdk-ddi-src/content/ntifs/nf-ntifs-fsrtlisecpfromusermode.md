@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cdc5d6a3-637e-4f0e-bc94-25bfe5763695
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlIsEcpFromUserMode
+ms.keywords: ntifs/FsRtlIsEcpFromUserMode, ifsk.fsrtlisecpfromusermode, FsRtlIsEcpFromUserMode routine [Installable File System Drivers], FsRtlIsEcpFromUserMode, fsrtlref_14f09529-adf9-4113-bff4-5183ade20059.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: FsRtlIsEcpFromUserMode is available starting with Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlIsEcpFromUserMode
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlIsEcpFromUserMode
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlIsEcpFromUserMode function
 
 
-
 ## -description
+
+
 The <b>FsRtlIsEcpFromUserMode</b> routine determines whether an extra create parameter (ECP) context structure originated from user mode. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlIsEcpFromUserMode(
@@ -54,13 +64,17 @@ BOOLEAN FsRtlIsEcpFromUserMode(
 
 ## -parameters
 
+
+
+
 ### -param EcpContext [in]
 
 Pointer to the ECP context structure to test. 
 
 
 ## -returns
+
+
 <b>FsRtlIsEcpFromUserMode</b> returns <b>TRUE</b> if the ECP context structure originated in user mode and <b>FALSE</b> if the ECP context structure originated in kernel mode. 
 
 
-## -remarks

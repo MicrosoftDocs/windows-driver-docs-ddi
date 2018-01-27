@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 24e28912-13d1-460f-8d32-78bb3715adc6
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTH_RADIO_INFO, *PBTH_RADIO_INFO, BTH_RADIO_INFO
+ms.keywords: bthioctl/BTH_RADIO_INFO, BTH_RADIO_INFO, _BTH_RADIO_INFO, *PBTH_RADIO_INFO, bthioctl/PBTH_RADIO_INFO, bltooth.bth_radio_info, PBTH_RADIO_INFO structure pointer [Bluetooth Devices], PBTH_RADIO_INFO, BTH_RADIO_INFO structure [Bluetooth Devices], bth_structs_5fa8e736-47a7-4ba5-bd40-f375ac6db8af.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BTH_RADIO_INFO
-req.alt-loc: bthioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthioctl.h
+apiname: 
+-	BTH_RADIO_INFO
+product: Windows
+targetos: Windows
 req.typenames: *PBTH_RADIO_INFO, BTH_RADIO_INFO
 ---
 
 # _BTH_RADIO_INFO structure
 
 
-
 ## -description
+
+
 The BTH_RADIO_INFO structure contains information about a remote radio.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BTH_RADIO_INFO {
@@ -56,6 +66,9 @@ typedef struct _BTH_RADIO_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field lmpSupportedFeatures
 
@@ -78,6 +91,8 @@ The major version number for the LMP that is used by the local radio.
 
 
 ## -remarks
+
+
 The BTH_RADIO_INFO structure is returned as part of the output buffer of 
     <a href="..\bthioctl\ni-bthioctl-ioctl_bth_get_local_info.md">IOCTL_BTH_GET_LOCAL_INFO</a>. The local
     radio information is returned in the 
@@ -85,15 +100,13 @@ The BTH_RADIO_INFO structure is returned as part of the output buffer of
     <a href="..\bthioctl\ns-bthioctl-_bth_local_radio_info.md">BTH_LOCAL_RADIO_INFO</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_get_local_info.md">IOCTL_BTH_GET_LOCAL_INFO</a>
-</dt>
-<dt>
+
 <a href="..\bthioctl\ns-bthioctl-_bth_local_radio_info.md">BTH_LOCAL_RADIO_INFO</a>
-</dt>
-</dl>
+
  
 
  

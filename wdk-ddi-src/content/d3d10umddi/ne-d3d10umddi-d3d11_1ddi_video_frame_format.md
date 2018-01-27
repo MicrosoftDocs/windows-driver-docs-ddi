@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 36af5af2-dfb1-4827-8898-93e52f4c8312
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEO_FRAME_FORMAT, D3D11_1DDI_VIDEO_FRAME_FORMAT
+ms.keywords: d3d10umddi/D3D11_1DDI_VIDEO_FRAME_FORMAT, D3D11_1DDI_VIDEO_FRAME_FORMAT, d3d10umddi/D3D11_1DDI_VIDEO_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, D3D11_1DDI_VIDEO_FRAME_FORMAT enumeration [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, D3D11_1DDI_VIDEO_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, display.d3d11_1ddi_video_frame_format, D3D11_1DDI_VIDEO_FRAME_FORMAT_PROGRESSIVE, d3d10umddi/D3D11_1DDI_VIDEO_FRAME_FORMAT_PROGRESSIVE, D3D11_1DDI_VIDEO_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDI_VIDEO_FRAME_FORMAT
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDI_VIDEO_FRAME_FORMAT
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_FRAME_FORMAT
 ---
 
 # D3D11_1DDI_VIDEO_FRAME_FORMAT enumeration
 
 
-
 ## -description
+
+
 Describes how a video stream is interlaced.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D11_1DDI_VIDEO_FRAME_FORMAT { 
@@ -55,6 +65,9 @@ typedef enum D3D11_1DDI_VIDEO_FRAME_FORMAT {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D11_1DDI_VIDEO_FRAME_FORMAT_PROGRESSIVE
 
@@ -70,5 +83,3 @@ Frames are interlaced. The top field of each frame is displayed first.
 
 Frame are interlaced. The bottom field of each frame is displayed first.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: EFF4688D-E5B2-4F4C-837D-D536F9244AB6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_HW_FIRMWARE_DOWNLOAD, STORAGE_HW_FIRMWARE_DOWNLOAD, *PSTORAGE_HW_FIRMWARE_DOWNLOAD
+ms.keywords: _STORAGE_HW_FIRMWARE_DOWNLOAD, ntddstor/PSTORAGE_HW_FIRMWARE_DOWNLOAD, PSTORAGE_HW_FIRMWARE_DOWNLOAD structure pointer [Storage Devices], storage.storage_hw_firmware_download, STORAGE_HW_FIRMWARE_DOWNLOAD structure [Storage Devices], PSTORAGE_HW_FIRMWARE_DOWNLOAD, STORAGE_HW_FIRMWARE_DOWNLOAD, ntddstor/STORAGE_HW_FIRMWARE_DOWNLOAD, *PSTORAGE_HW_FIRMWARE_DOWNLOAD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_HW_FIRMWARE_DOWNLOAD
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: STORAGE_HW_FIRMWARE_DOWNLOAD, *PSTORAGE_HW_FIRMWARE_DOWNLOAD
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	STORAGE_HW_FIRMWARE_DOWNLOAD
+product: Windows
+targetos: Windows
+req.typenames: *PSTORAGE_HW_FIRMWARE_DOWNLOAD, STORAGE_HW_FIRMWARE_DOWNLOAD
 ---
 
 # _STORAGE_HW_FIRMWARE_DOWNLOAD structure
 
 
-
 ## -description
+
+
 This structure contains a firmware image payload to be downloaded to the target.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STORAGE_HW_FIRMWARE_DOWNLOAD {
@@ -61,6 +71,9 @@ typedef struct _STORAGE_HW_FIRMWARE_DOWNLOAD {
 
 ## -struct-fields
 
+
+
+
 ### -field Version
 
 The version of this structure. This should be set to sizeof(STORAGE_HW_FIRMWARE_DOWNLOAD).
@@ -74,7 +87,6 @@ The size of this structure and the download image buffer.
 ### -field Flags
 
 Flags associated with this download. The following are valid flags that this member can hold.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -88,8 +100,7 @@ Flags associated with this download. The following are valid flags that this mem
 <td>STORAGE_HW_FIRMWARE_REQUEST_FLAG_LAST_SEGMENT </td>
 <td>Indicates that the current firmware image segment is the last one. </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Slot
@@ -116,5 +127,3 @@ The buffer size of the ImageBuffer. This should be a multiple of ImagePayloadAli
 
 The firmware image file.
 
-
-## -remarks

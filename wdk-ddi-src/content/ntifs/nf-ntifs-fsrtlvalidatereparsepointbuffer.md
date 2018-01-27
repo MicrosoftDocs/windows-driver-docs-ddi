@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fb67b116-12f5-4eef-ab05-f2056ccec4e3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlValidateReparsePointBuffer
+ms.keywords: FsRtlValidateReparsePointBuffer, fsrtlref_809c9e16-62b6-4a08-82d5-d6e86e7844ff.xml, ntifs/FsRtlValidateReparsePointBuffer, FsRtlValidateReparsePointBuffer routine [Installable File System Drivers], ifsk.fsrtlvalidatereparsepointbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlValidateReparsePointBuffer
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlValidateReparsePointBuffer
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlValidateReparsePointBuffer function
 
 
-
 ## -description
+
+
 The <b>FsRtlValidateReparsePointBuffer</b> routine verifies that the specified reparse point buffer is valid.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlValidateReparsePointBuffer(
@@ -54,6 +64,9 @@ NTSTATUS FsRtlValidateReparsePointBuffer(
 
 
 ## -parameters
+
+
+
 
 ### -param BufferLength [in]
 
@@ -66,35 +79,66 @@ The reparse point buffer to be validated.
 
 
 ## -returns
+
+
 The<b> FsRtlValidateReparsePointBuffer</b> returns one of the following NTSTATUS values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The buffer is valid.
+</dl>
+</td>
+<td width="60%">
+The buffer is valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_IO_REPARSE_DATA_INVALID</b></dt>
-</dl>The buffer is not valid, such as if the buffer is too long or the length of the buffer and the data length in its header are not consistent.
+</dl>
+</td>
+<td width="60%">
+The buffer is not valid, such as if the buffer is too long or the length of the buffer and the data length in its header are not consistent.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_IO_REPARSE_TAG_INVALID</b></dt>
-</dl>The buffer has an invalid reparse tag.
+</dl>
+</td>
+<td width="60%">
+The buffer has an invalid reparse tag.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 For more information about reparse points, see <a href="https://msdn.microsoft.com/6aae70d9-c934-4759-bb26-728b0ac025d1">Reparse Points in a File System Filter Driver</a>.
 
 Reparse tags contain several bits that cannot be set except by system components. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=179582">Reparse Point Tags</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\ns-ntifs-_reparse_data_buffer.md">REPARSE_DATA_BUFFER</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_reparse_guid_data_buffer.md">REPARSE_GUID_DATA_BUFFER</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\ns-ntifs-_reparse_data_buffer.md">REPARSE_DATA_BUFFER</a>
+
  
 
  

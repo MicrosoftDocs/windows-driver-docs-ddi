@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 294fe805-4dce-4d0e-b0dd-9279a1ef9514
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION
+ms.keywords: D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, d3dkmthk/D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, display.d3dkmt_sharedprimaryunlocknotification, _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure [Display Devices], OpenGL_Structs_1766625b-9d47-4e86-9f24-08706541c167.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION
 ---
 
 # _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure
 
 
-
 ## -description
+
+
 The D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure describes the shared primary surface that an application just unlocked.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION {
@@ -55,6 +65,9 @@ typedef struct _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION {
 
 ## -struct-fields
 
+
+
+
 ### -field AdapterLuid
 
 [in] The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) of the graphics adapter on which the GDI shared primary surface exists.
@@ -65,15 +78,10 @@ typedef struct _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION {
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology on which the GDI shared primary surface exists.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsharedprimaryunlocknotification.md">D3DKMTSharedPrimaryUnLockNotification</a>
-</dt>
-</dl>
+
  
 
  

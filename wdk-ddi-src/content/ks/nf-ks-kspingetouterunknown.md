@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 58b14ddd-6698-487a-925d-7d559057e55d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinGetOuterUnknown
+ms.keywords: avfunc_6a9c21cd-38ab-4277-8379-346af4c9c4c9.xml, KsPinGetOuterUnknown, stream.kspingetouterunknown, KsPinGetOuterUnknown function [Streaming Media Devices], ks/KsPinGetOuterUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsPinGetOuterUnknown
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KsPinGetOuterUnknown
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsPinGetOuterUnknown function
 
 
-
 ## -description
+
+
 The<b> KsPinGetOuterUnknown</b> function returns the outer <b>IUnknown</b> of the pin specified by <i>Pin</i>.
 
 
-
 ## -syntax
+
 
 ````
 PUNKNOWN __inline KsPinGetOuterUnknown(
@@ -54,43 +64,44 @@ PUNKNOWN __inline KsPinGetOuterUnknown(
 
 ## -parameters
 
+
+
+
 ### -param Pin [in]
 
 A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which to return the outer <b>IUnknown</b>.
 
 
 ## -returns
+
+
 <b>KsPinGetOuterUnknown</b> returns a pointer to the outer <b>IUnknown</b> interface of <i>Pin</i>. This can subsequently be used to query for other interfaces.
 
 
+
 ## -remarks
+
+
 <b>KsPinGetOuterUnknown</b> is an inline function call to <a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/305039fe-0a00-4f3e-ae1a-61c50a2f2fb3">AVStream Overview</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
-</dt>
-<dt>
-<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksfilterfactorygetouterunknown.md">KsFilterFactoryGetOuterUnknown</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksdevicegetouterunknown.md">KsDeviceGetOuterUnknown</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksfilterfactorygetouterunknown.md">KsFilterFactoryGetOuterUnknown</a>
+
+<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
+
+<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
+
+<a href="https://msdn.microsoft.com/305039fe-0a00-4f3e-ae1a-61c50a2f2fb3">AVStream Overview</a>
+
  
 
  

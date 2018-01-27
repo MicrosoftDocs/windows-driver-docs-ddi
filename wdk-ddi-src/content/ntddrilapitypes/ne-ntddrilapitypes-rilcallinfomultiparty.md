@@ -7,8 +7,8 @@ old-location: netvista\rilcallinfomultiparty.htm
 old-project: netvista
 ms.assetid: 4a343e55-9150-4411-bf37-f410b94ca0aa
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCALLINFOMULTIPARTY, RILCALLINFOMULTIPARTY
+ms.date: 1/18/2018
+ms.keywords: RIL_CALL_MAX, ntddrilapitypes/RILCALLINFOMULTIPARTY, ntddrilapitypes/RIL_CALL_MULTIPARTY, RILCALLINFOMULTIPARTY, netvista.rilcallinfomultiparty, ntddrilapitypes/RIL_CALL_MAX, RIL_CALL_MULTIPARTY, RILCALLINFOMULTIPARTY enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCALLINFOMULTIPARTY
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILCALLINFOMULTIPARTY
+product: Windows
+targetos: Windows
 req.typenames: RILCALLINFOMULTIPARTY
 ---
 
 # RILCALLINFOMULTIPARTY enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILCALLINFOMULTIPARTY { 
@@ -55,10 +65,17 @@ typedef enum _RILCALLINFOMULTIPARTY {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_CALL_SINGLEPARTY
+
+
+
 ### -field RIL_CALL_MULTIPARTY
+
 
 
 ### -field RIL_CALL_MAX
 
 
-## -remarks

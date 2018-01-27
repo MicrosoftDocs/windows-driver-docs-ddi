@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 626bae87-8e5c-4d2a-8942-bddb2f6baa6b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmRollbackComplete
+ms.keywords: wdm/TmRollbackComplete, TmRollbackComplete routine [Kernel-Mode Driver Architecture], TmRollbackComplete, ktm_ref_57ef03c4-5d49-4871-a1ef-c6083c9680a8.xml, kernel.tmrollbackcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later operating system
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TmRollbackComplete
-req.alt-loc: NtosKrnl.exe,Ext-MS-Win-ntos-tm-l1-1-0.dll,tm.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,19 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+-	Ext-MS-Win-ntos-tm-l1-1-0.dll
+-	tm.sys
+apiname: 
+-	TmRollbackComplete
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +49,14 @@ req.product: Windows 10 or later.
 # TmRollbackComplete function
 
 
-
 ## -description
+
+
 The <b>TmRollbackComplete</b> routine notifies KTM that the calling resource manager has finished rolling back a transaction's data.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS TmRollbackComplete(
@@ -55,6 +67,9 @@ NTSTATUS TmRollbackComplete(
 
 
 ## -parameters
+
+
+
 
 ### -param Enlistment [in]
 
@@ -67,43 +82,54 @@ A pointer to a <a href="https://msdn.microsoft.com/de01b0f1-86b1-4e7d-af22-84dbb
 
 
 ## -returns
+
+
 <b>TmRollbackComplete</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return the following value:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_TRANSACTION_NOT_REQUESTED</b></dt>
-</dl>The transaction or its enlistment is not in the correct state.
+</dl>
+</td>
+<td width="60%">
+The transaction or its enlistment is not in the correct state.
 
- 
+</td>
+</tr>
+</table> 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
+
 ## -remarks
+
+
 The <b>TmRollbackComplete</b> routine is a pointer-based version of the <a href="..\wdm\nf-wdm-zwrollbackcomplete.md">ZwRollbackComplete</a> routine.
 
 For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of <b>Zw<i>Xxx</i></b> routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565567">Using TmXxx Routines</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
+
 <a href="..\wdm\nf-wdm-zwrollbackcomplete.md">ZwRollbackComplete</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
  
 
  

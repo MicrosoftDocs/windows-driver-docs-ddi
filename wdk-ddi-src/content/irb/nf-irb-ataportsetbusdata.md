@@ -2,13 +2,13 @@
 UID: NF:irb.AtaPortSetBusData
 title: AtaPortSetBusData function
 author: windows-driver-content
-description: The AtaPortSetBusData routine stores the data at Buffer in the indicated device's PCI configuration space at an offset that is specified in ConfigDataOffset.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
+description: The AtaPortSetBusData routine stores the data at Buffer in the indicated device's PCI configuration space at an offset that is specified in ConfigDataOffset.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models. 
 old-location: storage\ataportsetbusdata.htm
 old-project: storage
 ms.assetid: 5cc65ef9-7447-4775-bf5d-6dadd78f166c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortSetBusData
+ms.keywords: atartns_85424997-1f6e-4f48-98f0-e92a7312e62a.xml, AtaPortSetBusData, storage.ataportsetbusdata, AtaPortSetBusData routine [Storage Devices], irb/AtaPortSetBusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AtaPortSetBusData
-req.alt-loc: Pciidex.lib,Pciidex.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Pciidex.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Pciidex.lib
+-	Pciidex.dll
+apiname: 
+-	AtaPortSetBusData
+product: Windows
+targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
 
 # AtaPortSetBusData function
 
 
-
 ## -description
+
+
 The <b>AtaPortSetBusData</b> routine stores the data at <i>Buffer </i>in the indicated device's PCI configuration space at an offset that is specified in <i>ConfigDataOffset</i>.
-
-
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 ULONG AtaPortSetBusData(
@@ -58,45 +69,63 @@ ULONG AtaPortSetBusData(
 
 ## -parameters
 
-### -param ControllerExtension 
+
+
+
+### -param ControllerExtension
 
 A pointer to the controller extension.
 
 
-### -param Buffer 
+### -param Buffer
 
 A pointer to the buffer that contains the data to write to the device's PCI bus configuration space.
 
 
-### -param DataMask 
-
-Contains a data mask buffer that controls which bits of PCI bus configuration data must be updated. The length of <i>Datamask </i>must be the same length as <i>Buffer.</i>
-
-
-### -param ConfigDataOffset 
+### -param ConfigDataOffset
 
 Specifies an offset into the device's PCI bus configuration data space where the data is updated.
 
 
-### -param BufferLength 
+### -param BufferLength
 
 Specifies the length, in bytes, of the buffer.
 
 
+#### - DataMask
+
+Contains a data mask buffer that controls which bits of PCI bus configuration data must be updated. The length of <i>Datamask </i>must be the same length as <i>Buffer.</i>
+
+
 ## -returns
+
+
 <b>AtaPortSetBusData</b> returns the amount of the data that was written in bytes.
 
 
+
 ## -remarks
+
+
 <b>AtaPortSetBusData</b> completes a bitwise OR, one byte at a time, of the current PCI configuration space data with the new data in <i>Buffer</i>. Only those bits not indicated by <i>DataMask</i> are left untouched. The byte of data that follows <i>ConfigDataOffset</i>, therefore, is updated as follows:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>ConfigDataOffest[i] = 
+    (ConfigDataOffest[i] &amp; ~DataMask[i]) | 
+    (DataMask[i] &amp; Buffer[i])</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\irb\nf-irb-ataportgetbusdata.md">AtaPortGetBusData</a>
-</dt>
-</dl>
+
  
 
  

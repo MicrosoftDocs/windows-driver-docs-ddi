@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7E87D610-6449-47E0-AB6B-9D926B490B45
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddisetvidpnsourceaddresswithmultiplaneoverlay2, DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2 callback function [Display Devices], DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2, DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2, DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2, d3dkmddi/DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: INTERRUPT_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2 callback
 
 
-
 ## -description
+
+
 <b>DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2</b> is called to change the overlay configuration being displayed. It must be implemented by Windows Display Driver Model (WDDM) 2.0 or later drivers that support multi-plane overlays.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2 DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2;
@@ -58,29 +68,37 @@ NTSTATUS APIENTRY DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2(
 
 ## -parameters
 
+
+
+
 ### -param hAdapter [in]
 
 Identifies the adapter containing the overlay hardware.
 
 
-### -param pData [in]
+### -param pSetVidPnSourceAddressWithMultiPlaneOverlay
+
+
+
+
+
+
+#### - pData [in]
 
 A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay2.md">DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2</a> structure that describes the surfaces and display options to present.
 
 
 ## -returns
+
+
 If this routine succeeds, it returns <b>NTSTATUS_SUCCESS</b>. The driver should always return a success code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay2.md">DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2</a>
-</dt>
-</dl>
+
  
 
  

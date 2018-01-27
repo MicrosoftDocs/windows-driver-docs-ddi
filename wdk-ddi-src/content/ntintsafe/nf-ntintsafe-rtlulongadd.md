@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 03E5C0DB-E245-43E2-80C0-0C1D67673038
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlULongAdd
+ms.keywords: RtlULongAdd function [Kernel-Mode Driver Architecture], kernel.rtlulongadd, RtlULongAdd, ntintsafe/RtlULongAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlULongAdd
-req.alt-loc: Ntintsafe.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntintsafe.h
+apiname: 
+-	RtlULongAdd
+product: Windows
+targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
 
 # RtlULongAdd function
 
 
-
 ## -description
+
+
 Adds two values of type <b>ULONG</b>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlULongAdd(
@@ -55,6 +65,9 @@ NTSTATUS RtlULongAdd(
 
 
 ## -parameters
+
+
+
 
 ### -param ulAugend [in]
 
@@ -72,4 +85,8 @@ A pointer to the sum. If the operation results in a value that overflows or unde
 
 
 ## -remarks
-This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.</p>
+
+
+This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
+

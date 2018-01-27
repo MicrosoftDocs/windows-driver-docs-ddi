@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1d766004-c6bb-40c6-ad5d-d2bea53649d3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGIDDICB_PRESENT, DXGIDDICB_PRESENT
+ms.keywords: DXGIDDICB_PRESENT, dxgiddi/DXGIDDICB_PRESENT, display.dxgiddicb_present, UMDisplayDriver_Dx10param_Structs_932d6171-c487-44f6-834e-5d57b3e14515.xml, DXGIDDICB_PRESENT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGIDDICB_PRESENT
-req.alt-loc: dxgiddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxgiddi.h
+apiname: 
+-	DXGIDDICB_PRESENT
+product: Windows
+targetos: Windows
 req.typenames: DXGIDDICB_PRESENT
 ---
 
 # DXGIDDICB_PRESENT structure
 
 
-
 ## -description
+
+
 The DXGIDDICB_PRESENT structure describes allocations that content is copied to and from. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct DXGIDDICB_PRESENT {
@@ -58,6 +68,9 @@ typedef struct DXGIDDICB_PRESENT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hSrcAllocation
 
@@ -93,33 +106,58 @@ Broadcasting is supported only for flip operations. To broadcast a flip operatio
 The original context that the <b>hContext</b> member specifies and that the user-mode display driver presents to is not an element in the <b>BroadcastContext</b> array. For example, if the <b>BroadcastContext</b> array contains one element, the user-mode display driver sends the present operation to the owning context (<b>hContext</b>) and broadcasts to that one additional context. 
 
 
-## -remarks
+### -field BroadcastSrcAllocation
+
+ 
+
+
+### -field BroadcastDstAllocation
+
+ 
+
+
+### -field PrivateDriverDataSize
+
+ 
+
+
+### -field pPrivateDriverData
+
+ 
+
+
+### -field bOptimizeForComposition
+
+ 
+
+
+### -field SyncIntervalOverrideValid
+
+ 
+
+
+### -field SyncIntervalOverride
+
+ 
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_present.md">DXGI_DDI_ARG_PRESENT</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
-</dt>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
-</dt>
-<dt>
+
 <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_presentcb.md">pfnPresentCbDXGI</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
+
+<a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_present.md">DXGI_DDI_ARG_PRESENT</a>
+
  
 
  

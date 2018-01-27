@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: CCFC8531-4BFB-4CFA-8B57-A4FFD4151900
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUIntToIntPtr
+ms.keywords: RtlUIntToIntPtr, kernel.rtluinttointptr, ntintsafe/RtlUIntToIntPtr, RtlUIntToIntPtr function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlUIntToIntPtr
-req.alt-loc: Ntintsafe.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntintsafe.h
+apiname: 
+-	RtlUIntToIntPtr
+product: Windows
+targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
 
 # RtlUIntToIntPtr function
 
 
-
 ## -description
+
+
 Converts a value of type <b>UINT</b> to a value of type <b>INT_PTR</b>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlUIntToIntPtr(
@@ -54,6 +64,9 @@ NTSTATUS RtlUIntToIntPtr(
 
 
 ## -parameters
+
+
+
 
 ### -param uOperand [in]
 
@@ -66,4 +79,8 @@ A pointer to the converted value. In the case where the conversion causes a trun
 
 
 ## -remarks
-This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.</p>
+
+
+This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+

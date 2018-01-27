@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 41f081f3-4079-46f8-9d22-76a2d9e992b5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortEnumerateChildren
+ms.keywords: video/VideoPortEnumerateChildren, VideoPortEnumerateChildren, VideoPortEnumerateChildren function [Display Devices], VideoPort_Functions_8bc790f2-319f-41a6-9bf7-02a8605d2cc1.xml, display.videoportenumeratechildren
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortEnumerateChildren
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortEnumerateChildren
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortEnumerateChildren function
 
 
-
 ## -description
+
+
 The <b>VideoPortEnumerateChildren</b> function allows a video miniport driver to force a reenumeration of its child devices.
 
 
-
 ## -syntax
+
 
 ````
 VP_STATUS VideoPortEnumerateChildren(
@@ -55,6 +65,9 @@ VP_STATUS VideoPortEnumerateChildren(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -67,36 +80,43 @@ Must be set to <b>NULL</b>.
 
 
 ## -returns
+
+
 <b>VideoPortEnumerateChildren</b> returns NO_ERROR.
 
 
-## -remarks
-Some devices generate an interrupt when new hardware is connected to the system, or when existing hardware is disconnected from the system. For these devices, <b>VideoPortEnumerateChildren</b> can make such system changes as seamless as possible. The following is one possible scenario that forces the reenumeration of child devices through <b>VideoPortEnumerateChildren</b>:
 
+## -remarks
+
+
+Some devices generate an interrupt when new hardware is connected to the system, or when existing hardware is disconnected from the system. For these devices, <b>VideoPortEnumerateChildren</b> can make such system changes as seamless as possible. The following is one possible scenario that forces the reenumeration of child devices through <b>VideoPortEnumerateChildren</b>:
+<ul>
+<li>
 New hardware is connected, which generates an interrupt.
 
+</li>
+<li>
 The miniport driver's interrupt handler (<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>) queues a DPC routine (<a href="..\video\nc-video-pminiport_dpc_routine.md">HwVidDpcRoutine</a>) by calling <a href="..\video\nf-video-videoportqueuedpc.md">VideoPortQueueDpc</a>.
 
+</li>
+<li>
 The asynchronously executed DPC contains a call to <b>VideoPortEnumerateChildren</b>.
 
-<b>VideoPortEnumerateChildren</b> causes <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a> to be called, allowing the Plug and Play Manager to enumerate all of the adapter's child devices.
+</li>
+</ul><b>VideoPortEnumerateChildren</b> causes <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a> to be called, allowing the Plug and Play Manager to enumerate all of the adapter's child devices.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
-</dt>
-<dt>
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
-</dt>
-<dt>
+
 <a href="..\video\nc-video-pminiport_dpc_routine.md">HwVidDpcRoutine</a>
-</dt>
-<dt>
+
+<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+
+<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+
 <a href="..\video\nf-video-videoportqueuedpc.md">VideoPortQueueDpc</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 007701f4-4ee0-46e1-963c-e2af2a441a81
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SdBusSubmitRequestAsync
+ms.keywords: serports.ioctl_serial_internal_cancel_wait_wake, IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE control code [Serial Ports], IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE, ntddser/IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE, serref_0976b701-5c14-4912-854f-4d5a356744d2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE
-req.alt-loc: ntddser.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,65 +29,87 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddser.h
+apiname: 
+-	IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE
+product: Windows
+targetos: Windows
 req.typenames: SD_REQUEST_FUNCTION
 ---
 
 # IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 The IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE request disables the wait/wake operation of a serial device.
 
-
-
-The IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE request disables the wait/wake operation of a serial device.
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 None.
 
 
 ### -input-buffer-length
+
 None.
 
 
 ### -output-buffer
+
 None.
 
 
 ### -output-buffer-length
+
 None.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="serial_device_control_requests.htm#generic_status_values_for_serial_device_control_requests">Generic Status Values for Serial Device Control Requests</a>.
-
-
-## -remarks
+The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddser\ni-ntddser-ioctl_serial_internal_do_wait_wake.md">IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE</a>
-</dt>
-</dl>
+
  
 
  

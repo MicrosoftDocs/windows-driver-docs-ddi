@@ -7,8 +7,8 @@ old-location: image\channel_info.htm
 old-project: image
 ms.assetid: 1f1cb952-9a63-461f-b70f-4cc41b8d88f8
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: _CHANNEL_INFO, CHANNEL_INFO, *PCHANNEL_INFO
+ms.date: 1/18/2018
+ms.keywords: PCHANNEL_INFO structure pointer [Imaging Devices], usbscan/CHANNEL_INFO, *PCHANNEL_INFO, _CHANNEL_INFO, usbscan/PCHANNEL_INFO, stifnc_f0aea91c-5d41-43e5-bb8b-139bfb7c3198.xml, CHANNEL_INFO, image.channel_info, PCHANNEL_INFO, CHANNEL_INFO structure [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CHANNEL_INFO
-req.alt-loc: usbscan.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: CHANNEL_INFO, *PCHANNEL_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbscan.h
+apiname: 
+-	CHANNEL_INFO
+product: Windows
+targetos: Windows
+req.typenames: *PCHANNEL_INFO, CHANNEL_INFO
 req.product: Windows 10 or later.
 ---
 
 # _CHANNEL_INFO structure
 
 
-
 ## -description
+
+
 The CHANNEL_INFO structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="..\usbscan\ni-usbscan-ioctl_get_channel_align_rqst.md">IOCTL_GET_CHANNEL_ALIGN_RQST</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CHANNEL_INFO {
@@ -56,6 +66,9 @@ typedef struct _CHANNEL_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field EventChannelSize
 
@@ -71,5 +84,3 @@ Maximum packet size for the bulk IN transfer pipe.
 
 Maximum packet size for the bulk OUT transfer pipe.
 
-
-## -remarks

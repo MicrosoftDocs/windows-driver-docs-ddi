@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 83801ea2-1beb-4b73-8906-ffefee67a2ac
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_DATARANGE_VIDEO_VBI, KS_DATARANGE_VIDEO_VBI, *PKS_DATARANGE_VIDEO_VBI
+ms.keywords: stream.ks_datarange_video_vbi, KS_DATARANGE_VIDEO_VBI, PKS_DATARANGE_VIDEO_VBI structure pointer [Streaming Media Devices], vidcapstruct_79d2aa9b-f3b9-4faf-b06e-6048686602a5.xml, tagKS_DATARANGE_VIDEO_VBI, ksmedia/PKS_DATARANGE_VIDEO_VBI, KS_DATARANGE_VIDEO_VBI structure [Streaming Media Devices], *PKS_DATARANGE_VIDEO_VBI, PKS_DATARANGE_VIDEO_VBI, ksmedia/KS_DATARANGE_VIDEO_VBI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_DATARANGE_VIDEO_VBI
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KS_DATARANGE_VIDEO_VBI
+product: Windows
+targetos: Windows
 req.typenames: KS_DATARANGE_VIDEO_VBI, *PKS_DATARANGE_VIDEO_VBI
 ---
 
 # tagKS_DATARANGE_VIDEO_VBI structure
 
 
-
 ## -description
+
+
 The KS_DATARANGE_VIDEO_VBI structure describes a range of data formats containing vertical blanking interval (VBI) data.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagKS_DATARANGE_VIDEO_VBI {
@@ -59,6 +69,9 @@ typedef struct tagKS_DATARANGE_VIDEO_VBI {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DataRange
 
@@ -95,21 +108,14 @@ Specifies the configuration of the stream, including scaling, cropping, and fram
 Indicates VBI-specific information for the range of formats being described.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
-</dt>
-<dt>
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
 <a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
-</dt>
-</dl>
+
  
 
  

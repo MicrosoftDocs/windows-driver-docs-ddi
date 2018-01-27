@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f15823dd-a9c5-46a8-a376-41b831450b66
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_RemoveAllPersistentBindings
+ms.keywords: HBA_RemoveAllPersistentBindings routine [Storage Devices], hbaapi/HBA_RemoveAllPersistentBindings, storage.hba_removeallpersistentbindings, HBA_RemoveAllPersistentBindings, fibreHBA_rtns_1b72392e-f155-41aa-915a-a39da952afec.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBA_RemoveAllPersistentBindings
-req.alt-loc: Hbaapi.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Hbaapi.dll
+apiname: 
+-	HBA_RemoveAllPersistentBindings
+product: Windows
+targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
 
 # HBA_RemoveAllPersistentBindings function
 
 
-
 ## -description
+
+
 The <b>HBA_RemoveAllPersistentBindings</b> routine removes all persistent bindings for a specified HBA port.
 
 
-
 ## -syntax
+
 
 ````
 HBA_STATUS HBA_API HBA_RemoveAllPersistentBindings(
@@ -54,6 +64,9 @@ HBA_STATUS HBA_API HBA_RemoveAllPersistentBindings(
 
 
 ## -parameters
+
+
+
 
 ### -param Handle [in]
 
@@ -66,36 +79,75 @@ Contains a 64-bit worldwide name (WWN) that uniquely identifies the local HBA po
 
 
 ## -returns
+
+
 The <b>HBA_RemoveAllPersistentBindings</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_RemoveAllPersistentBindings</b> returns one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_OK</b></dt>
-</dl>Returned if all persistent bindings were successfully removed for the indicated port. 
+</dl>
+</td>
+<td width="60%">
+Returned if all persistent bindings were successfully removed for the indicated port. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR_ILLEGAL_WWN</b></dt>
-</dl>Returned if the HBA referenced by <i>handle</i> does not contain a port with a name that matches <i>HbaPortWWN</i>. 
+</dl>
+</td>
+<td width="60%">
+Returned if the HBA referenced by <i>handle</i> does not contain a port with a name that matches <i>HbaPortWWN</i>. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR_NOT_SUPPORTED</b></dt>
-</dl>Returned if the HBA referenced by <i>handle</i> does not support persistent bindings.
+</dl>
+</td>
+<td width="60%">
+Returned if the HBA referenced by <i>handle</i> does not support persistent bindings.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR</b></dt>
-</dl>Returned if an unspecified error occurred that prevented the removal of the persistent bindings. 
+</dl>
+</td>
+<td width="60%">
+Returned if an unspecified error occurred that prevented the removal of the persistent bindings. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The removal of persistent bindings does not change target mappings until the operating system is restarted or HBA and/or fabric is reinitialized. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-</dt>
-</dl>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
  
 
  

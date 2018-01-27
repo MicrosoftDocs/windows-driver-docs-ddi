@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cc2394ce-128e-46a2-8688-a71851af06cf
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCmDecodeMemIoResource
+ms.keywords: wdm/RtlCmDecodeMemIoResource, RtlCmDecodeMemIoResource, kernel.rtlcmdecodememioresource, RtlCmDecodeMemIoResource routine [Kernel-Mode Driver Architecture], k109_da737a74-2fce-4731-b24d-9014272991f1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlCmDecodeMemIoResource
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlCmDecodeMemIoResource
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RtlCmDecodeMemIoResource function
 
 
-
 ## -description
+
+
 The <b>RtlCmDecodeMemIoResource</b> routine provides the starting address and length of a <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes a range of memory or I/O port addresses. 
 
 
-
 ## -syntax
+
 
 ````
 ULONGLONG RtlCmDecodeMemIoResource(
@@ -55,6 +65,9 @@ ULONGLONG RtlCmDecodeMemIoResource(
 
 
 ## -parameters
+
+
+
 
 ### -param Descriptor [in]
 
@@ -67,22 +80,25 @@ A pointer to a variable that receives the starting address of the range of memor
 
 
 ## -returns
+
+
 <b>RtlCmDecodeMemIoResource</b> returns the length of the address range, in bytes.
 
 
+
 ## -remarks
+
+
 The <b>Type</b> member of the <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure must be <b>CmResourceTypeMemory</b>, <b>CmResourceTypeMemoryLarge</b>, or <b>CmResourceTypePort</b>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlcmencodememioresource.md">RtlCmEncodeMemIoResource</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5A85A7EC-2333-4161-A1E7-55D3420E730C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_HW_FIRMWARE_INFO, STORAGE_HW_FIRMWARE_INFO, *PSTORAGE_HW_FIRMWARE_INFO
+ms.keywords: *PSTORAGE_HW_FIRMWARE_INFO, _STORAGE_HW_FIRMWARE_INFO, ntddstor/STORAGE_HW_FIRMWARE_INFO, STORAGE_HW_FIRMWARE_INFO structure [Storage Devices], PSTORAGE_HW_FIRMWARE_INFO structure pointer [Storage Devices], PSTORAGE_HW_FIRMWARE_INFO, STORAGE_HW_FIRMWARE_INFO, storage.storage_hw_firmware_info, ntddstor/PSTORAGE_HW_FIRMWARE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_HW_FIRMWARE_INFO
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: STORAGE_HW_FIRMWARE_INFO, *PSTORAGE_HW_FIRMWARE_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	STORAGE_HW_FIRMWARE_INFO
+product: Windows
+targetos: Windows
+req.typenames: *PSTORAGE_HW_FIRMWARE_INFO, STORAGE_HW_FIRMWARE_INFO
 ---
 
 # _STORAGE_HW_FIRMWARE_INFO structure
 
 
-
 ## -description
+
+
 This structure contains information about the device firmware.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STORAGE_HW_FIRMWARE_INFO {
@@ -64,6 +74,9 @@ typedef struct _STORAGE_HW_FIRMWARE_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -88,9 +101,7 @@ Reserved for future use.
 ### -field SlotCount
 
 The number of firmware slots on the device. This is the dimension of the Slot array.
-
-<div class="alert"><b>Note</b>   Some devices can store more than 1 firmware image, if they have more than 1 firmware slot.</div>
-<div> </div>
+<div class="alert"><b>Note</b>   Some devices can store more than 1 firmware image, if they have more than 1 firmware slot.</div><div> </div>
 
 ### -field ActiveSlot
 
@@ -128,5 +139,3 @@ The image payload maximum size, this is used for a single command.
 
 Contains the slot information for each slot on the device.
 
-
-## -remarks

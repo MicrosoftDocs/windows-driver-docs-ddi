@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 36b462f7-5bad-4716-8138-af00d20e945b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddisetpointershape, DxgkDdiSetPointerShape callback function [Display Devices], DxgkDdiSetPointerShape, DXGKDDI_SETPOINTERSHAPE, DXGKDDI_SETPOINTERSHAPE, d3dkmddi/DxgkDdiSetPointerShape, DmFunctions_39ac69a2-f8dc-4704-b5ab-d57d83685071.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiSetPointerShape
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DxgkDdiSetPointerShape
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_SETPOINTERSHAPE callback
 
 
-
 ## -description
+
+
 The <i>DxgkDdiSetPointerShape</i> function sets the appearance and location of the mouse pointer.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_SETPOINTERSHAPE DxgkDdiSetPointerShape;
@@ -58,6 +68,9 @@ NTSTATUS APIENTRY DxgkDdiSetPointerShape(
 
 ## -parameters
 
+
+
+
 ### -param hAdapter [in]
 
 [in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
@@ -69,18 +82,43 @@ NTSTATUS APIENTRY DxgkDdiSetPointerShape(
 
 
 ## -returns
+
+
 <i>DxgkDdiSetPointerShape</i> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The mouse pointer is successfully drawn.
+</dl>
+</td>
+<td width="60%">
+The mouse pointer is successfully drawn.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NO_MEMORY</b></dt>
-</dl><i>DxgkDdiSetPointerShape</i> could not allocate memory that was required for it to complete.
+</dl>
+</td>
+<td width="60%">
+<i>DxgkDdiSetPointerShape</i> could not allocate memory that was required for it to complete.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The DirectX graphics kernel subsystem calls the display miniport driver's <i>DxgkDdiSetPointerShape</i> function to set information about the mouse pointer. The <i>DxgkDdiSetPointerShape</i> function is called independently of all of the other display miniport driver functions. Therefore, a <i>DxgkDdiSetPointerShape</i> thread can run simultaneously with another display miniport driver thread. However, the system ensures that <i>DxgkDdiSetPointerShape</i> and <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointerposition.md">DxgkDdiSetPointerPosition</a> threads cannot run simultaneously. 
 
 If you run a <i>DxgkDdiSetPointerShape</i> thread simultaneously with another display miniport driver thread, the display miniport driver should be able to program the mouse pointer hardware independently of other activities, such as operations that send a command buffer through direct memory access (DMA) to the graphics hardware, operations that program the graphics hardware by using memory-mapped I/O (MMIO), and so on.
@@ -90,18 +128,15 @@ If you run a <i>DxgkDdiSetPointerShape</i> thread simultaneously with another di
 <i>DxgkDdiSetPointerShape</i> should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setpointershape.md">DXGKARG_SETPOINTERSHAPE</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointerposition.md">DxgkDdiSetPointerPosition</a>
-</dt>
-</dl>
+
  
 
  

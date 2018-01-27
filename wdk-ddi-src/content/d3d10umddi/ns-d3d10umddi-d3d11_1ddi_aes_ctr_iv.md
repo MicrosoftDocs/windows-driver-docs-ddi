@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 56228a1d-ca3b-4bd4-850c-af736e91494c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_AES_CTR_IV, D3D11_1DDI_AES_CTR_IV
+ms.keywords: D3D11_1DDI_AES_CTR_IV structure [Display Devices], D3D11_1DDI_AES_CTR_IV, display.d3d11_1ddi_aes_ctr_iv, d3d10umddi/D3D11_1DDI_AES_CTR_IV
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDI_AES_CTR_IV
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D11_1DDI_AES_CTR_IV
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_AES_CTR_IV
 ---
 
 # D3D11_1DDI_AES_CTR_IV structure
 
 
-
 ## -description
+
+
 Contains an initialization vector (IV) for 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D11_1DDI_AES_CTR_IV {
@@ -55,6 +65,9 @@ typedef struct D3D11_1DDI_AES_CTR_IV {
 
 ## -struct-fields
 
+
+
+
 ### -field IV
 
 The IV, in big-endian format.
@@ -64,5 +77,3 @@ The IV, in big-endian format.
 
 The block count, in big-endian format.
 
-
-## -remarks

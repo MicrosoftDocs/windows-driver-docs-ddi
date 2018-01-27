@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 469896b3-3ae0-4edd-9fb0-ee5869633872
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MESSAGE_INTERRUPT_INFORMATION, *PMESSAGE_INTERRUPT_INFORMATION, MESSAGE_INTERRUPT_INFORMATION
+ms.keywords: storage.message_interrupt_information, PMESSAGE_INTERRUPT_INFORMATION, storport/PMESSAGE_INTERRUPT_INFORMATION, MESSAGE_INTERRUPT_INFORMATION structure [Storage Devices], *PMESSAGE_INTERRUPT_INFORMATION, _MESSAGE_INTERRUPT_INFORMATION, PMESSAGE_INTERRUPT_INFORMATION structure pointer [Storage Devices], storport/MESSAGE_INTERRUPT_INFORMATION, structs-storport_a918acbf-24eb-4112-8bab-bb2ee441064e.xml, MESSAGE_INTERRUPT_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MESSAGE_INTERRUPT_INFORMATION
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PMESSAGE_INTERRUPT_INFORMATION, MESSAGE_INTERRUPT_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	MESSAGE_INTERRUPT_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: MESSAGE_INTERRUPT_INFORMATION, *PMESSAGE_INTERRUPT_INFORMATION
 req.product: Windows 10 or later.
 ---
 
 # _MESSAGE_INTERRUPT_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>MESSAGE_INTERRUPT_INFORMATION</b> structure describes a message signaled interrupt (MSI).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MESSAGE_INTERRUPT_INFORMATION {
@@ -59,6 +69,9 @@ typedef struct _MESSAGE_INTERRUPT_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field MessageId
 
@@ -91,15 +104,16 @@ A value of type <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> 
 
 
 ## -remarks
+
+
 Miniport drivers retrieve the MSI information in a <b>MESSAGE_INTERRUPT_INFORMATION</b> structure by calling the <a href="..\storport\nf-storport-storportgetmsiinfo.md">StorPortGetMSIInfo</a> routine. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\nf-storport-storportgetmsiinfo.md">StorPortGetMSIInfo</a>
-</dt>
-</dl>
+
  
 
  

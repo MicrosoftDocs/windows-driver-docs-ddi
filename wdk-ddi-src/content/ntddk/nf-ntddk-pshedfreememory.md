@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: e0784b46-9929-480c-88d0-9983d80fd753
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PshedFreeMemory
+ms.keywords: whea.pshedfreememory, PshedFreeMemory function [WHEA Drivers and Applications], ntddk/PshedFreeMemory, PshedFreeMemory, whearef_e17812c6-f817-490d-b1f7-bf5fa16d769b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PshedFreeMemory
-req.alt-loc: Pshed.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Pshed.lib
 req.dll: Pshed.dll
 req.irql: <=DISPATCH_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Pshed.dll
+apiname: 
+-	PshedFreeMemory
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # PshedFreeMemory function
 
 
-
 ## -description
+
+
 The <b>PshedFreeMemory</b> function frees a block of memory that was previously allocated by calling the <a href="..\ntddk\nf-ntddk-pshedallocatememory.md">PshedAllocateMemory</a> function.
 
 
-
 ## -syntax
+
 
 ````
 VOID PshedFreeMemory(
@@ -54,25 +64,32 @@ VOID PshedFreeMemory(
 
 ## -parameters
 
+
+
+
 ### -param Address [in]
 
 A pointer to the block of memory being freed.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A PSHED plug-in calls the <b>PshedFreeMemory</b> function to free a block of memory that it previously allocated by calling the <a href="..\ntddk\nf-ntddk-pshedallocatememory.md">PshedAllocateMemory</a> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-pshedallocatememory.md">PshedAllocateMemory</a>
-</dt>
-</dl>
+
  
 
  

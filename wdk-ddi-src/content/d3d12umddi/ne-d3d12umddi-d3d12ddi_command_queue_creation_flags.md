@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6BA4B1B4-07D6-4498-BDA4-C559FB3E8843
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS, D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS
+ms.keywords: d3d12umddi/D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS, D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_NONE, D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_GLOBAL_REALTIME_PRIORITY, D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS enumeration [Display Devices], d3d12umddi/D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_NONE, d3d12umddi/D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_GLOBAL_REALTIME_PRIORITY, D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS, display.d3d12ddi_command_queue_creation_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS
 ---
 
 # D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS enumeration
 
 
-
 ## -description
+
+
 Defines command queue creation options. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS { 
@@ -55,6 +65,9 @@ typedef enum D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS {
 
 ## -enum-fields
 
+
+
+
 ### -field D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_NONE
 
 Create queue with default value.
@@ -64,5 +77,3 @@ Create queue with default value.
 
 Requires global real-time priority.
 
-
-## -remarks

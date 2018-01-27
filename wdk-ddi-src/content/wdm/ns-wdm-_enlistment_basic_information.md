@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 50c989b9-147c-41ea-b933-3a3e8575563e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _ENLISTMENT_BASIC_INFORMATION, ENLISTMENT_BASIC_INFORMATION, *PENLISTMENT_BASIC_INFORMATION
+ms.keywords: wdm/ENLISTMENT_BASIC_INFORMATION, PENLISTMENT_BASIC_INFORMATION, kernel.enlistment_basic_information, ktm_ref_5748a3a5-6a2a-4cf1-a610-2a406161b689.xml, PENLISTMENT_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], ENLISTMENT_BASIC_INFORMATION, _ENLISTMENT_BASIC_INFORMATION, *PENLISTMENT_BASIC_INFORMATION, wdm/PENLISTMENT_BASIC_INFORMATION, ENLISTMENT_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later operating system
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ENLISTMENT_BASIC_INFORMATION
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	ENLISTMENT_BASIC_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: ENLISTMENT_BASIC_INFORMATION, *PENLISTMENT_BASIC_INFORMATION
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _ENLISTMENT_BASIC_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>ENLISTMENT_BASIC_INFORMATION</b> structure contains information about an <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ENLISTMENT_BASIC_INFORMATION {
@@ -56,6 +66,9 @@ typedef struct _ENLISTMENT_BASIC_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field EnlistmentId
 
@@ -73,18 +86,18 @@ A GUID that KTM has assigned to the resource manager that created the enlistment
 
 
 ## -remarks
+
+
 The <b>ENLISTMENT_BASIC INFORMATION</b> structure is used with the <a href="..\wdm\nf-wdm-zwqueryinformationenlistment.md">ZwQueryInformationEnlistment</a> routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ne-wdm-_enlistment_information_class.md">ENLISTMENT_INFORMATION_CLASS</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwqueryinformationenlistment.md">ZwQueryInformationEnlistment</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ne-wdm-_enlistment_information_class.md">ENLISTMENT_INFORMATION_CLASS</a>
+
  
 
  

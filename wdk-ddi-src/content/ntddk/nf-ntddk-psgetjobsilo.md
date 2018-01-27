@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1032282B-7CA3-4162-8FC2-1A4A683E9DEF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsGetJobSilo
+ms.keywords: ntddk/PsGetJobSilo, PsGetJobSilo routine [Kernel-Mode Driver Architecture], PsGetJobSilo, kernel.psgetjobsilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1607
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PsGetJobSilo
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,17 +26,29 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	PsGetJobSilo
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # PsGetJobSilo function
 
 
-
 ## -description
+
+
 This routine returns the first job in the hierarchy that is a <i>Silo</i>.  The returned pointer is valid as long as the supplied <i>Job</i> object remains referenced.
 
 
@@ -47,8 +57,8 @@ This routine returns the first job in the hierarchy that is a <i>Silo</i>.  The 
 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PsGetJobSilo(
@@ -59,6 +69,9 @@ NTSTATUS PsGetJobSilo(
 
 
 ## -parameters
+
+
+
 
 ### -param Job [in]
 
@@ -71,18 +84,47 @@ A job object.
 
 
 ## -returns
+
+
 The following NT status codes are returned.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The <i>Job</i> parameter is <b>NULL</b>.
+</dl>
+</td>
+<td width="60%">
+The <i>Job</i> parameter is <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_JOB_NO_CONTAINER</b></dt>
-</dl>No silo is present.
+</dl>
+</td>
+<td width="60%">
+No silo is present.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>A PESILO is returned successfully.
+</dl>
+</td>
+<td width="60%">
+A PESILO is returned successfully.
 
- 
+</td>
+</tr>
+</table> 
 
 
-## -remarks

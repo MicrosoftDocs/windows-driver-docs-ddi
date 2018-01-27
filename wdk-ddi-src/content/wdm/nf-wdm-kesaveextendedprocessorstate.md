@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06be6c3b-cc1a-4e57-8700-03357215d624
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeSaveExtendedProcessorState
+ms.keywords: KeSaveExtendedProcessorState, kernel.kesaveextendedprocessorstate, XSTATE_MASK_LEGACY_SSE, XSTATE_MASK_LEGACY, XSTATE_MASK_GSSE, KeSaveExtendedProcessorState routine [Kernel-Mode Driver Architecture], XSTATE_MASK_LEGACY_FLOATING_POINT, wdm/KeSaveExtendedProcessorState, k105_e03ec6f9-5b9b-48dc-ae77-3c27e6edc910.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeSaveExtendedProcessorState
-req.alt-loc: Ntoskrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Ntoskrnl.exe
+apiname: 
+-	KeSaveExtendedProcessorState
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeSaveExtendedProcessorState function
 
 
-
 ## -description
+
+
 The <b>KeSaveExtendedProcessorState</b> routine saves extended processor state information.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KeSaveExtendedProcessorState(
@@ -56,21 +66,23 @@ NTSTATUS KeSaveExtendedProcessorState(
 
 ## -parameters
 
+
+
+
 ### -param Mask [in]
 
 A 64-bit feature mask. The bits in this mask identify the extended processor feature states to save. If a mask bit is one, the routine saves the state of the feature that is identified by this bit. If a mask bit is zero, the state for the corresponding feature is not saved. This mask must not identify extended processor features that the operating system has not enabled. To obtain a mask of the enabled features, call the <a href="..\ntddk\nf-ntddk-rtlgetenabledextendedfeatures.md">RtlGetEnabledExtendedFeatures</a> routine.
 
 A caller can set this parameter to the bitwise OR of one or more of the following <b>XSTATE_MASK_<i>XXX</i></b> flag bits:
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -param XSTATE_MASK_LEGACY_FLOATING_POINT
-
+<td width="40%"><a id="XSTATE_MASK_LEGACY_FLOATING_POINT"></a><a id="xstate_mask_legacy_floating_point"></a><dl>
+<dt><b>XSTATE_MASK_LEGACY_FLOATING_POINT</b></dt>
+</dl>
 </td>
 <td width="60%">
 The floating-point extension (x87/MMX).
@@ -78,9 +90,9 @@ The floating-point extension (x87/MMX).
 </td>
 </tr>
 <tr>
-
-### -param XSTATE_MASK_LEGACY_SSE
-
+<td width="40%"><a id="XSTATE_MASK_LEGACY_SSE"></a><a id="xstate_mask_legacy_sse"></a><dl>
+<dt><b>XSTATE_MASK_LEGACY_SSE</b></dt>
+</dl>
 </td>
 <td width="60%">
 The streaming SIMD extension (SSE).
@@ -88,9 +100,9 @@ The streaming SIMD extension (SSE).
 </td>
 </tr>
 <tr>
-
-### -param XSTATE_MASK_LEGACY
-
+<td width="40%"><a id="XSTATE_MASK_LEGACY"></a><a id="xstate_mask_legacy"></a><dl>
+<dt><b>XSTATE_MASK_LEGACY</b></dt>
+</dl>
 </td>
 <td width="60%">
 Both the x87/MMX and SSE extensions.
@@ -98,17 +110,16 @@ Both the x87/MMX and SSE extensions.
 </td>
 </tr>
 <tr>
-
-### -param XSTATE_MASK_GSSE
-
+<td width="40%"><a id="XSTATE_MASK_GSSE"></a><a id="xstate_mask_gsse"></a><dl>
+<dt><b>XSTATE_MASK_GSSE</b></dt>
+</dl>
 </td>
 <td width="60%">
 The Intel Sandy Bridge (formerly Gesher) SSE extension.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param XStateSave [out]
@@ -117,15 +128,32 @@ A pointer to a caller-allocated buffer into which the routine writes an <a href=
 
 
 ## -returns
+
+
 <b>KeSaveExtendedProcessorState</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>A memory allocation operation failed.
+</dl>
+</td>
+<td width="60%">
+A memory allocation operation failed.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 On x86-based processors that support the XSAVE and XRSTOR instructions, these instructions provide a flexible mechanism to save and restore extended processor state information. <b>KeSaveExtendedProcessorState</b> uses these instructions if they are available.
 
 To restore the extended processor state that was saved by <b>KeSaveExtendedProcessorState</b>, call the <a href="..\wdm\nf-wdm-kerestoreextendedprocessorstate.md">KeRestoreExtendedProcessorState</a> routine.
@@ -139,24 +167,19 @@ Interrupt service routines (ISRs) run under severe time constraints that typical
 The <a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a> and <a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a> routines save and restore just the floating-point state (the x87/MMX registers) and the SSE state. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-kerestoreextendedprocessorstate.md">KeRestoreExtendedProcessorState</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-rtlgetenabledextendedfeatures.md">RtlGetEnabledExtendedFeatures</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-kerestoreextendedprocessorstate.md">KeRestoreExtendedProcessorState</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566414">XSTATE_SAVE</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a>
+
+<a href="..\ntddk\nf-ntddk-rtlgetenabledextendedfeatures.md">RtlGetEnabledExtendedFeatures</a>
+
  
 
  

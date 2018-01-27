@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6b7b0bbf-79f2-4b0c-a7e6-75dc92bf8a63
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_SCANLINEORDERING, D3DDDI_SCANLINEORDERING
+ms.keywords: D3DDDI_SCANLINEORDERING_INTERLACED, D3D_other_Structs_e1e24d3b-d40e-4f20-bd78-94ab7c2d0761.xml, d3dukmdt/D3DDDI_SCANLINEORDERING_UNKNOWN, D3DDDI_SCANLINEORDERING enumeration [Display Devices], d3dukmdt/D3DDDI_SCANLINEORDERING_INTERLACED, D3DDDI_SCANLINEORDERING_UNKNOWN, d3dukmdt/D3DDDI_SCANLINEORDERING_PROGRESSIVE, d3dukmdt/D3DDDI_SCANLINEORDERING, display.d3dddi_scanlineordering, D3DDDI_SCANLINEORDERING, D3DDDI_SCANLINEORDERING_PROGRESSIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3DDDI_SCANLINEORDERING is supported beginning with t
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_SCANLINEORDERING
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_SCANLINEORDERING
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_SCANLINEORDERING
 ---
 
 # D3DDDI_SCANLINEORDERING enumeration
 
 
-
 ## -description
+
+
 The D3DDDI_SCANLINEORDERING enumeration type contains values that identify how the scan lines are drawn on a surface. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3DDDI_SCANLINEORDERING { 
@@ -55,6 +65,9 @@ typedef enum D3DDDI_SCANLINEORDERING {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DDDI_SCANLINEORDERING_UNKNOWN
 
@@ -70,5 +83,3 @@ The value indicates that scan-line ordering is progressive.
 
 The value indicates that scan-line ordering is interlaced. 
 
-
-## -remarks

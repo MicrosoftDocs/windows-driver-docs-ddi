@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e4203a9d-98f4-47f2-80ea-51074e4c0713
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_DPC_CONFIG, *PWDF_DPC_CONFIG, WDF_DPC_CONFIG
+ms.keywords: DFDpcObjectRef_797caee0-a119-4bae-837b-461e74022868.xml, wdfdpc/WDF_DPC_CONFIG, wdfdpc/PWDF_DPC_CONFIG, WDF_DPC_CONFIG, *PWDF_DPC_CONFIG, PWDF_DPC_CONFIG structure pointer, WDF_DPC_CONFIG structure, wdf.wdf_dpc_config, _WDF_DPC_CONFIG, PWDF_DPC_CONFIG, kmdf.wdf_dpc_config
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WDF_DPC_CONFIG
-req.alt-loc: wdfdpc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfdpc.h
+apiname: 
+-	WDF_DPC_CONFIG
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_DPC_CONFIG, WDF_DPC_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_DPC_CONFIG structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_DPC_CONFIG</b> structure contains configuration information for a DPC object.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WDF_DPC_CONFIG {
@@ -58,6 +68,9 @@ typedef struct _WDF_DPC_CONFIG {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -75,6 +88,8 @@ A Boolean value that, if <b>TRUE</b>, indicates that the framework will synchron
 
 
 ## -remarks
+
+
 The <b>WDF_DPC_CONFIG</b> structure is used as input to <a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>. 
 
 To initialize a <b>WDF_DPC_CONFIG</b> structure, your driver should first call <a href="..\wdfdpc\nf-wdfdpc-wdf_dpc_config_init.md">WDF_DPC_CONFIG_INIT</a> and then fill in structure members that <b>WDF_DPC_CONFIG_INIT</b> does not initialize.
@@ -88,21 +103,17 @@ For more information about <b>AutomaticSerialization</b> and synchronizing drive
 For more information about handling interrupts in framework-based drivers, see <a href="https://msdn.microsoft.com/08460510-6e5f-4c02-8086-9caa9b4b4c2d">Handling Hardware Interrupts</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
-</dt>
-<dt>
+
 <a href="..\wdfdpc\nf-wdfdpc-wdf_dpc_config_init.md">WDF_DPC_CONFIG_INIT</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
+
+<a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: image\wia_patch_codes.htm
 old-project: image
 ms.assetid: CFD2403B-DDD4-4318-9084-1B3E3462FBDC
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: _WIA_PATCH_CODES, WIA_PATCH_CODES
+ms.date: 1/18/2018
+ms.keywords: image.wia_patch_codes, wiadef/WIA_PATCH_CODES, _WIA_PATCH_CODES, WIA_PATCH_CODES, WIA_PATCH_CODES structure [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WIA_PATCH_CODES
-req.alt-loc: wiadef.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wiadef.h
+apiname: 
+-	WIA_PATCH_CODES
+product: Windows
+targetos: Windows
 req.typenames: WIA_PATCH_CODES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _WIA_PATCH_CODES structure
 
 
-
 ## -description
+
+
 The <b>WIA_PATCH_CODES</b> structure stores header information for the patch code metadata report of one scan job (one call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543956">IWiaMiniDrv::drvAcquireItemData</a>).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WIA_PATCH_CODES {
@@ -58,6 +68,9 @@ typedef struct _WIA_PATCH_CODES {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Tag
 
@@ -85,4 +98,8 @@ Placeholder for a sequence of <b>Count</b> contiguous <a href="..\wiadef\ns-wiad
 
 
 ## -remarks
-The header must be followed by a sequence of patch code information structures, one for each detected patch code, in the order the patch codes were found and decoded.</p>
+
+
+The header must be followed by a sequence of patch code information structures, one for each detected patch code, in the order the patch codes were found and decoded.
+
+

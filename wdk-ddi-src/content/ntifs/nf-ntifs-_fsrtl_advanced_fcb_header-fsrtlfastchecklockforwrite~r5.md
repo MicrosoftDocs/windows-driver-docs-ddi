@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4b4295dd-0d4b-4d41-a2ca-f09fe2d8d8b2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlFastCheckLockForWrite
+ms.keywords: FsRtlFastCheckLockForWrite routine [Installable File System Drivers], FsRtlFastCheckLockForWrite, fsrtlref_1f8feaa8-cc2d-47fb-af4a-00ef0efb4190.xml, ntifs/FsRtlFastCheckLockForWrite, ifsk.fsrtlfastchecklockforwrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlFastCheckLockForWrite
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlFastCheckLockForWrite
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlFastCheckLockForWrite function
 
 
-
 ## -description
+
+
 The <b>FsRtlFastCheckLockForWrite</b> routine determines whether the specified process has write access to a locked byte range of a file.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlFastCheckLockForWrite(
@@ -58,6 +68,9 @@ BOOLEAN FsRtlFastCheckLockForWrite(
 
 
 ## -parameters
+
+
+
 
 ### -param FileLock [in]
 
@@ -90,24 +103,20 @@ A pointer to the process ID for the process.
 
 
 ## -returns
+
+
 The <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforread~r5.md">FsRtlFastCheckLockForWrite</a> routine returns <b>TRUE</b> if the specified process has write access, <b>FALSE</b> otherwise.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforread~r5.md">FsRtlFastCheckLockForRead</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
-</dt>
-</dl>
+
  
 
  

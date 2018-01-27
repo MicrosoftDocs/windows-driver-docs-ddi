@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b3a35769-a98a-40f5-bdc1-db964d2a967c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IAllocatorMXF, IAllocatorMXF::GetBufferSize, GetBufferSize
+ms.keywords: audio.iallocatormxf_getbuffersize, dmusicks/IAllocatorMXF::GetBufferSize, GetBufferSize, IAllocatorMXF interface [Audio Devices], GetBufferSize method, IAllocatorMXF::GetBufferSize, GetBufferSize method [Audio Devices], IAllocatorMXF interface, audmp-routines_5eb7fc90-4f40-4796-9c7c-2086689f1593.xml, IAllocatorMXF, GetBufferSize method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IAllocatorMXF.GetBufferSize
-req.alt-loc: dmusicks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dmusicks.h
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dmusicks.h
+apiname: 
+-	IAllocatorMXF.GetBufferSize
+product: Windows
+targetos: Windows
 req.typenames: DMUS_STREAM_TYPE
 ---
 
 # IAllocatorMXF::GetBufferSize method
 
 
-
 ## -description
+
+
 The <code>GetBufferSize</code> method gets the buffer size from the allocator.
 
 
-
 ## -syntax
+
 
 ````
 USHORT GetBufferSize(
@@ -54,26 +64,34 @@ USHORT GetBufferSize(
 
 ## -parameters
 
-### -param None 
+
+
+
+
+#### - None
+
 
 
 ## -returns
+
+
 <code>GetBufferSize</code> returns the size in bytes of the buffer.
 
 
+
 ## -remarks
+
+
 <code>GetBufferSize</code> simply returns the size of the buffer that the allocator provides through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536492">IAllocatorMXF::GetBuffer</a> call. (For more information, see <a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a> introduction.) Because this is constant for any version of the port driver, <code>GetBufferSize</code> typically needs to be called only once, at the time that the stream is created.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536492">IAllocatorMXF::GetBuffer</a>
-</dt>
-</dl>
+
  
 
  

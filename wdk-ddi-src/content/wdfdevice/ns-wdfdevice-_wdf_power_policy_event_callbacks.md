@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6932c938-e477-4a18-9ada-bb3864c6a6f1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_POWER_POLICY_EVENT_CALLBACKS, WDF_POWER_POLICY_EVENT_CALLBACKS, *PWDF_POWER_POLICY_EVENT_CALLBACKS
+ms.keywords: WDF_POWER_POLICY_EVENT_CALLBACKS structure, _WDF_POWER_POLICY_EVENT_CALLBACKS, wdf.wdf_power_policy_event_callbacks, kmdf.wdf_power_policy_event_callbacks, wdfdevice/PWDF_POWER_POLICY_EVENT_CALLBACKS, *PWDF_POWER_POLICY_EVENT_CALLBACKS, WDF_POWER_POLICY_EVENT_CALLBACKS, DFDeviceObjectGeneralRef_d4970639-86cb-4b83-8ac8-a7662ebca017.xml, PWDF_POWER_POLICY_EVENT_CALLBACKS, wdfdevice/WDF_POWER_POLICY_EVENT_CALLBACKS, PWDF_POWER_POLICY_EVENT_CALLBACKS structure pointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_POWER_POLICY_EVENT_CALLBACKS
-req.alt-loc: wdfdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: WDF_POWER_POLICY_EVENT_CALLBACKS, *PWDF_POWER_POLICY_EVENT_CALLBACKS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfdevice.h
+apiname: 
+-	WDF_POWER_POLICY_EVENT_CALLBACKS
+product: Windows
+targetos: Windows
+req.typenames: *PWDF_POWER_POLICY_EVENT_CALLBACKS, WDF_POWER_POLICY_EVENT_CALLBACKS
 req.product: Windows 10 or later.
 ---
 
 # _WDF_POWER_POLICY_EVENT_CALLBACKS structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_POWER_POLICY_EVENT_CALLBACKS</b> structure contains pointers to a driver's power policy event callback functions. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WDF_POWER_POLICY_EVENT_CALLBACKS {
@@ -63,6 +73,9 @@ typedef struct _WDF_POWER_POLICY_EVENT_CALLBACKS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -105,17 +118,18 @@ A pointer to the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_
 
 
 ## -remarks
+
+
 The <b>WDF_POWER_POLICY_EVENT_CALLBACKS</b> structure is used as input to the <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowerpolicyeventcallbacks.md">WdfDeviceInitSetPowerPolicyEventCallbacks</a> method.
 
 Your driver should initialize its <b>WDF_POWER_POLICY_EVENT_CALLBACKS</b> structure by calling <a href="..\wdfdevice\nf-wdfdevice-wdf_power_policy_event_callbacks_init.md">WDF_POWER_POLICY_EVENT_CALLBACKS_INIT</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_pnppower_event_callbacks.md">WDF_PNPPOWER_EVENT_CALLBACKS</a>
-</dt>
-</dl>
+
  
 
  

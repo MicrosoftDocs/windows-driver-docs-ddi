@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 74BE4FF9-0342-4942-A58F-9C6D5F76E5F0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsMakeSiloContextPermanent
+ms.keywords: kernel.psmakesilocontextpermanent, PsMakeSiloContextPermanent routine [Kernel-Mode Driver Architecture], PsMakeSiloContextPermanent, ntddk/PsMakeSiloContextPermanent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1607
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PsMakeSiloContextPermanent
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	PsMakeSiloContextPermanent
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # PsMakeSiloContextPermanent function
 
 
-
 ## -description
+
+
 This routine makes the slot in a silo instance read-only, allowing the object in the slot to be retrieved without affecting the reference count on that object.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PsMakeSiloContextPermanent(
@@ -54,6 +64,9 @@ NTSTATUS PsMakeSiloContextPermanent(
 
 
 ## -parameters
+
+
+
 
 ### -param Silo [in]
 
@@ -66,19 +79,54 @@ The slot to make read-only. The slot must be previously allocated by the <a href
 
 
 ## -returns
+
+
 The following NT status codes are returned.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The slot does not contain a valid object. This is an error code.
+</dl>
+</td>
+<td width="60%">
+The slot does not contain a valid object. This is an error code.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>The slot has not been allocated. This is an error code.
+</dl>
+</td>
+<td width="60%">
+The slot has not been allocated. This is an error code.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The operation completed successfully.
+</dl>
+</td>
+<td width="60%">
+The operation completed successfully.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-Before calling this routine, the slot must contain a valid object. After it completes, the <a href="..\ntddk\nf-ntddk-psreplacesilocontext.md">PsReplaceSiloContext</a> and <a href="..\ntddk\nf-ntddk-psremovesilocontext.md">PsRemoveSiloContext</a> routines will fail with <b>STATUS_NOT_SUPPORTED</b>. </p>
+
+
+Before calling this routine, the slot must contain a valid object. After it completes, the <a href="..\ntddk\nf-ntddk-psreplacesilocontext.md">PsReplaceSiloContext</a> and <a href="..\ntddk\nf-ntddk-psremovesilocontext.md">PsRemoveSiloContext</a> routines will fail with <b>STATUS_NOT_SUPPORTED</b>. 
+
+

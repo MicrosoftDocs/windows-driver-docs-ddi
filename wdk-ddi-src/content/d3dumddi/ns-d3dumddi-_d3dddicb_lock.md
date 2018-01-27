@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e8d563fe-937a-48cb-9c7b-f282d12a9fcf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_LOCK, D3DDDICB_LOCK
+ms.keywords: d3dumddi/D3DDDICB_LOCK, display.d3dddicb_lock, D3DDDICB_LOCK structure [Display Devices], D3D_param_Structs_84ac7e9c-e228-4ace-9e1b-74af8c52af85.xml, D3DDDICB_LOCK, _D3DDDICB_LOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_LOCK
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_LOCK
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_LOCK
 ---
 
 # _D3DDDICB_LOCK structure
 
 
-
 ## -description
+
+
 The D3DDDICB_LOCK structure describes parameters for locking an allocation. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_LOCK {
@@ -61,6 +71,9 @@ typedef struct _D3DDDICB_LOCK {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hAllocation
 
@@ -103,21 +116,14 @@ This member is reserved and should be set to zero.
 This member is available beginning with Windows 7.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lockflags.md">D3DDDICB_LOCKFLAGS</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
-</dt>
-</dl>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lockflags.md">D3DDDICB_LOCKFLAGS</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a>
+
  
 
  

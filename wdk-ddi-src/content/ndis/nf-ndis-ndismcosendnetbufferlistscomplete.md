@@ -7,8 +7,8 @@ old-location: netvista\ndismcosendnetbufferlistscomplete.htm
 old-project: netvista
 ms.assetid: c4978122-6d13-4e9b-8eb7-d06cd7372268
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisMCoSendNetBufferListsComplete
+ms.date: 1/18/2018
+ms.keywords: NdisMCoSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMCoSendNetBufferListsComplete, netvista.ndismcosendnetbufferlistscomplete, NdisMCoSendNetBufferListsComplete, condis_sendrcv_ref_49470611-47cb-4778-8723-4acc2ebbfb81.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisMCoSendNetBufferListsComplete
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_MCO_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,35 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisMCoSendNetBufferListsComplete
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCoSendNetBufferListsComplete function
 
 
-
 ## -description
+
+
 The 
   <b>NdisMCoSendNetBufferListsComplete</b> function returns a linked list of 
   <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures to an overlying
   driver and returns the final status of a CoNDIS send request.
 
 
-
 ## -syntax
+
 
 ````
 VOID NdisMCoSendNetBufferListsComplete(
@@ -58,6 +69,9 @@ VOID NdisMCoSendNetBufferListsComplete(
 
 
 ## -parameters
+
+
+
 
 ### -param NdisVcHandle [in]
 
@@ -73,8 +87,8 @@ A handle that identifies a virtual connection (VC). The miniport driver obtained
 A pointer to a linked list of 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures. The miniport
      driver received the NET_BUFFER_LIST structures in previous calls to its 
-     <a href="..\ndis\nc-ndis-miniport_co_send_net_buffer_lists.md">
-     MiniportCoSendNetBufferLists</a> function.
+     <mshelp:link keywords="netvista.miniportcosendnetbufferlists" tabindex="0"><i>
+     MiniportCoSendNetBufferLists</i></mshelp:link> function.
 
 
 ### -param SendCompleteFlags [in]
@@ -88,14 +102,19 @@ NDIS flags that can be combined with a bitwise OR operation. To clear all of the
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A miniport driver calls 
     <b>NdisMCoSendNetBufferListsComplete</b> to complete send requests that NDIS made to the driver's 
-    <a href="..\ndis\nc-ndis-miniport_co_send_net_buffer_lists.md">
-    MiniportCoSendNetBufferLists</a> function. The miniport driver specifies a linked list of 
+    <mshelp:link keywords="netvista.miniportcosendnetbufferlists" tabindex="0"><i>
+    MiniportCoSendNetBufferLists</i></mshelp:link> function. The miniport driver specifies a linked list of 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that are
     associated with the completed send requests.
 
@@ -119,51 +138,28 @@ The miniport driver must set one of the following status codes in the
 
 
 
-All of the network data that is described by NET_BUFFER structures that are associated with this
-      NET_BUFFER_LIST structure was successfully transmitted over the network.
-
-The size of the data in some NET_BUFFER structures that are associated with this NET_BUFFER_LIST
-      structure was too large for the underlying network interface card (NIC).
-
-The send request for this NET_BUFFER_LIST structure failed because of insufficient
-      resources.
-
-NDIS called the 
-      <a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a> function to
-      cancel the send operation for this NET_BUFFER_LIST structure.
-
-The miniport driver aborted the send request because of a reset.
-
-The miniport driver failed the send request because of some reason other than those previously
-      described. For example, the miniport driver can fail the send request due to a hardware failure.
-
 A miniport driver's call to 
     <b>NdisMCoSendNetBufferListsComplete</b> does not necessarily indicate that the data for a send request
     has been transmitted over the network. For example, the data might be queued in the NIC hardware.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_co_send_net_buffer_lists.md">
-   MiniportCoSendNetBufferLists</a>
-</dt>
-<dt>
+
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.miniportcosendnetbufferlists" tabindex="0"><i>
+   MiniportCoSendNetBufferLists</i></mshelp:link>
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCoSendNetBufferListsComplete function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCoSendNetBufferListsComplete function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

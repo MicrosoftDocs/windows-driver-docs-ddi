@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A45231E0-0807-41AA-B20F-6335067BE99A
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaTransactionSetDeviceAddressOffset
+ms.keywords: kmdf.wdfdmatransactionsetdeviceaddressoffset, PFN_WDFDMATRANSACTIONSETDEVICEADDRESSOFFSET, wdf.wdfdmatransactionsetdeviceaddressoffset, wdfdmatransaction/WdfDmaTransactionSetDeviceAddressOffset, WdfDmaTransactionSetDeviceAddressOffset method, WdfDmaTransactionSetDeviceAddressOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 1.11
 req.umdf-ver: 
-req.alt-api: WdfDmaTransactionSetDeviceAddressOffset
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: DriverCreate
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfDmaTransactionSetDeviceAddressOffset
+product: Windows
+targetos: Windows
 req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,8 +48,9 @@ req.product: Windows 10 or later.
 # WdfDmaTransactionSetDeviceAddressOffset function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 
@@ -47,8 +58,8 @@ req.product: Windows 10 or later.
   <b>WdfDmaTransactionSetDeviceAddressOffset</b> method specifies the offset of the register that the system DMA controller will access when performing the DMA operation.
 
 
-
 ## -syntax
+
 
 ````
 void WdfDmaTransactionSetDeviceAddressOffset(
@@ -59,6 +70,9 @@ void WdfDmaTransactionSetDeviceAddressOffset(
 
 
 ## -parameters
+
+
+
 
 ### -param DmaTransaction [in]
 
@@ -71,10 +85,15 @@ The offset of the register, from the <b>DeviceAddress</b> specified in <a href="
 
 
 ## -returns
+
+
 This method does not return a value.
 
 
+
 ## -remarks
+
+
 <b>WdfDmaTransactionSetDeviceAddressOffset</b> must be used with a DMA enabler that specifies a system-mode DMA profile.
 
 Framework-based drivers call <b>WdfDmaTransactionSetDeviceAddressOffset</b> after initializing a DMA transaction and before executing it.
@@ -87,15 +106,12 @@ To do so, the driver specifies the base address of the device's register file wh
 
 If your driver calls this method on an operating system earlier than Windows 8, <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-kmdf-verifier">the framework's verifier</a> reports an error.
 
-The following code example initializes a DMA transaction.  It then sets the offset of the register that the system DMA controller will access, provides a transfer completion callback routine, and executes the DMA transaction.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_system_profile_config.md">WDF_DMA_SYSTEM_PROFILE_CONFIG</a>
-</dt>
-</dl>
+
  
 
  

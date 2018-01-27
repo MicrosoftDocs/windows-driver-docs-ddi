@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 94b72ad0-1ace-4fde-a4a9-1078103e3d9b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VHF_CONFIG, VHF_CONFIG, *PVHF_CONFIG
+ms.keywords: display.int10readmemory, Int10ReadMemory callback function [Display Devices], Int10ReadMemory, PINT10_READ_MEMORY, PINT10_READ_MEMORY, video/Int10ReadMemory, VideoPort_Functions_fab5815b-1478-4d19-823f-05fd1de02b0c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: Int10ReadMemory
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	video.h
+apiname: 
+-	Int10ReadMemory
+product: Windows
+targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PINT10_READ_MEMORY callback
 
 
-
 ## -description
+
+
 The <i>Int10ReadMemory </i>function reads a block of memory in the context of another thread and stores it in an output buffer.
 
 
-
 ## -prototype
+
 
 ````
 PINT10_READ_MEMORY Int10ReadMemory;
@@ -61,6 +71,9 @@ VP_STATUS Int10ReadMemory(
 
 
 ## -parameters
+
+
+
 
 ### -param Context [in]
 
@@ -88,19 +101,23 @@ Is the length, in bytes, of the output buffer specified by the <i>Buffer</i> par
 
 
 ## -returns
+
+
 The <i>Int10ReadMemory</i> function returns NO_ERROR upon success. Otherwise it returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 The video port implements this function, which can be accessed through a pointer in the <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

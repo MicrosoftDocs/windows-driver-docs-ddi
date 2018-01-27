@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 10088043-fc0b-4df9-a5bf-fdee9740b88a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortGetLogicalUnit
+ms.keywords: ScsiPortGetLogicalUnit routine [Storage Devices], ScsiPortGetLogicalUnit, scsiprt_2b4c797a-4fbb-4c0c-913a-628bfb6dab3d.xml, storage.scsiportgetlogicalunit, srb/ScsiPortGetLogicalUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ScsiPortGetLogicalUnit
-req.alt-loc: Scsiport.lib,Scsiport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Scsiport.lib
+-	Scsiport.dll
+apiname: 
+-	ScsiPortGetLogicalUnit
+product: Windows
+targetos: Windows
 req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ScsiPortGetLogicalUnit function
 
 
-
 ## -description
+
+
 The <b>ScsiPortGetLogicalUnit</b> routine returns a pointer to the miniport driver's per-LU storage area for a given peripheral.
-
-
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 PVOID ScsiPortGetLogicalUnit(
@@ -57,6 +68,9 @@ PVOID ScsiPortGetLogicalUnit(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -79,10 +93,15 @@ Identifies the logical unit number of the target device.
 
 
 ## -returns
+
+
 <b>ScsiPortGetLogicalUnit</b> returns a pointer to the miniport driver's storage area for the requested logical unit. If the operating system-specific port driver considers this logical unit to be nonexistent, it returns <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 <b>ScsiPortGetLogicalUnit</b> is irrelevant if the miniport driver's <b>DriverEntry</b> routine specified zero for the <b>LuExtensionSize</b> in the HW_INITIALIZATION_DATA when it called <b>ScsiPortInitialize</b>. Otherwise, the operating system-specific port driver allocates and initializes with zeros a set of LU extensions of the specified size for the miniport driver to use.
 
 Per-LU storage can be used to store data relevant to a particular peripheral, such as saved data pointers. To access this area, the miniport driver calls <b>ScsiPortGetLogicalUnit</b> when the driver is maintaining information about the state of or current operation for any particular peripheral.
@@ -90,21 +109,17 @@ Per-LU storage can be used to store data relevant to a particular peripheral, su
 The operating system-specific port driver can consider a logical unit to be nonexistent if there is no active request for that logical unit and the device has never been successfully selected.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
-</dt>
-<dt>
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
-</dt>
-<dt>
-<a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
-</dt>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportmovememory.md">ScsiPortMoveMemory</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
+
+<a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
+
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\ndis_filter_partial_characteristics.htm
 old-project: netvista
 ms.assetid: 4a7f365c-a252-4d8e-bddf-684b3298db5c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_FILTER_PARTIAL_CHARACTERISTICS, NDIS_FILTER_PARTIAL_CHARACTERISTICS, *PNDIS_FILTER_PARTIAL_CHARACTERISTICS
+ms.date: 1/18/2018
+ms.keywords: *PNDIS_FILTER_PARTIAL_CHARACTERISTICS, netvista.ndis_filter_partial_characteristics, PNDIS_FILTER_PARTIAL_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_FILTER_PARTIAL_CHARACTERISTICS, PNDIS_FILTER_PARTIAL_CHARACTERISTICS, ndis/PNDIS_FILTER_PARTIAL_CHARACTERISTICS, _NDIS_FILTER_PARTIAL_CHARACTERISTICS, NDIS_FILTER_PARTIAL_CHARACTERISTICS, NDIS_FILTER_PARTIAL_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], filter_structures_ref_34b4c497-9a4c-4d15-9d25-672a7580456b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_FILTER_PARTIAL_CHARACTERISTICS
-req.alt-loc: ndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ndis.h
+apiname: 
+-	NDIS_FILTER_PARTIAL_CHARACTERISTICS
+product: Windows
+targetos: Windows
 req.typenames: NDIS_FILTER_PARTIAL_CHARACTERISTICS, *PNDIS_FILTER_PARTIAL_CHARACTERISTICS
 ---
 
 # _NDIS_FILTER_PARTIAL_CHARACTERISTICS structure
 
 
-
 ## -description
+
+
 To specify optional entry points for a filter module, a filter driver initializes an
   NDIS_FILTER_PARTIAL_CHARACTERISTICS structure and passes it to the 
-  <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">
-  NdisSetOptionalHandlers</a> function.
-
+  <mshelp:link keywords="netvista.ndissetoptionalhandlers" tabindex="0"><b>
+  NdisSetOptionalHandlers</b></mshelp:link> function.
 
 
 ## -syntax
+
 
 ````
 typedef struct _NDIS_FILTER_PARTIAL_CHARACTERISTICS {
@@ -62,6 +72,9 @@ typedef struct _NDIS_FILTER_PARTIAL_CHARACTERISTICS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -82,85 +95,78 @@ Reserved for NDIS.
 ### -field SendNetBufferListsHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">
-     FilterSendNetBufferLists</a> function. To bypass this function, set this member to <b>NULL</b>.
+     <mshelp:link keywords="netvista.filtersendnetbufferlists" tabindex="0"><i>
+     FilterSendNetBufferLists</i></mshelp:link> function. To bypass this function, set this member to <b>NULL</b>.
 
 
 ### -field SendNetBufferListsCompleteHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_send_net_buffer_lists_complete.md">
-     FilterSendNetBufferListsComplete</a> function. To bypass this function, set this member to
+     <mshelp:link keywords="netvista.filtersendnetbufferlistscomplete" tabindex="0"><i>
+     FilterSendNetBufferListsComplete</i></mshelp:link> function. To bypass this function, set this member to
      <b>NULL</b>.
 
 
 ### -field CancelSendNetBufferListsHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_cancel_send_net_buffer_lists.md">
-     FilterCancelSendNetBufferLists</a> function. To bypass this function, set this member to <b>NULL</b>.
+     <mshelp:link keywords="netvista.filtercancelsendnetbufferlists" tabindex="0"><i>
+     FilterCancelSendNetBufferLists</i></mshelp:link> function. To bypass this function, set this member to <b>NULL</b>.
 
 
 ### -field ReceiveNetBufferListsHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">
-     FilterReceiveNetBufferLists</a> function. To bypass this function, set this member to <b>NULL</b>.
+     <mshelp:link keywords="netvista.filterreceivenetbufferlists" tabindex="0"><i>
+     FilterReceiveNetBufferLists</i></mshelp:link> function. To bypass this function, set this member to <b>NULL</b>.
 
 
 ### -field ReturnNetBufferListsHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">
-     FilterReturnNetBufferLists</a> function. To bypass this function, set this member to <b>NULL</b>.
+     <mshelp:link keywords="netvista.filterreturnnetbufferlists" tabindex="0"><i>
+     FilterReturnNetBufferLists</i></mshelp:link> function. To bypass this function, set this member to <b>NULL</b>.
 
 
 ## -remarks
+
+
 This structure specifies optional 
     <i>FilterXxx</i> functions and other characteristics for a filter module. These characteristics override
     the default values that the driver set in the 
-    <a href="..\ndis\ns-ndis-_ndis_filter_driver_characteristics.md">
-    NDIS_FILTER_DRIVER_CHARACTERISTICS</a> structure that the driver passed to the 
-    <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
-    NdisFRegisterFilterDriver</a> function.
+    <mshelp:link keywords="netvista.ndis_filter_driver_characteristics" tabindex="0"><b>
+    NDIS_FILTER_DRIVER_CHARACTERISTICS</b></mshelp:link> structure that the driver passed to the 
+    <mshelp:link keywords="netvista.ndisfregisterfilterdriver" tabindex="0"><b>
+    NdisFRegisterFilterDriver</b></mshelp:link> function.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-filter_cancel_send_net_buffer_lists.md">
-   FilterCancelSendNetBufferLists</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.filtersendnetbufferlistscomplete" tabindex="0"><i>
+   FilterSendNetBufferListsComplete</i></mshelp:link>
+
 <a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists_complete.md">
-   FilterSendNetBufferListsComplete</a>
-</dt>
-<dt>
-<a href="..\ndis\ns-ndis-_ndis_filter_driver_characteristics.md">
-   NDIS_FILTER_DRIVER_CHARACTERISTICS</a>
-</dt>
-<dt>
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
+
+<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
+
+<mshelp:link keywords="netvista.filtercancelsendnetbufferlists" tabindex="0"><i>
+   FilterCancelSendNetBufferLists</i></mshelp:link>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<mshelp:link keywords="netvista.ndis_filter_driver_characteristics" tabindex="0"><b>
+   NDIS_FILTER_DRIVER_CHARACTERISTICS</b></mshelp:link>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_FILTER_PARTIAL_CHARACTERISTICS structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_FILTER_PARTIAL_CHARACTERISTICS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: D51126FD-0448-487A-BD4E-170901E90B1E
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_FIXSESSION_PARAM, GNSS_FIXSESSION_PARAM, *PGNSS_FIXSESSION_PARAM
+ms.keywords: PGNSS_FIXSESSION_PARAM structure pointer [Sensor Devices], gnssdriver/GNSS_FIXSESSION_PARAM, PGNSS_FIXSESSION_PARAM, GNSS_FIXSESSION_PARAM, sensors.gnss_fixsession_param, sensors.gnss_fixsesson_param, *PGNSS_FIXSESSION_PARAM, gnssdriver/PGNSS_FIXSESSION_PARAM, GNSS_FIXSESSION_PARAM structure [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GNSS_FIXSESSION_PARAM
-req.alt-loc: gnssdriver.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: GNSS_FIXSESSION_PARAM, *PGNSS_FIXSESSION_PARAM
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	gnssdriver.h
+apiname: 
+-	GNSS_FIXSESSION_PARAM
+product: Windows
+targetos: Windows
+req.typenames: *PGNSS_FIXSESSION_PARAM, GNSS_FIXSESSION_PARAM
 ---
 
 # GNSS_FIXSESSION_PARAM structure
 
 
-
 ## -description
+
+
 This structure defines the parameters used by the GNSS adapter to start a fix session.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -67,6 +77,34 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
+
+### -field SingleShotParam
+
+The <a href="..\gnssdriver\ns-gnssdriver-gnss_singleshot_param.md">GNSS_SINGLESHOT_PARAM</a> structure defines the parameters for a single-shot fix session.
+
+
+### -field DistanceParam
+
+The <a href="..\gnssdriver\ns-gnssdriver-gnss_distancetracking_param.md">GNSS_DISTANCETRACKING_PARAM</a> structure defines the parameters for a distance-based tracking fix session.
+
+
+### -field ContinuousParam
+
+The <a href="..\gnssdriver\ns-gnssdriver-gnss_continuoustracking_param.md">GNSS_CONTINUOUSTRACKING_PARAM</a> structure defines the parameters for a continuous tracking fix session.
+
+
+### -field LkgFixParam
+
+The <a href="..\gnssdriver\ns-gnssdriver-gnss_lkgfix_param.md">GNSS_LKGFIX_PARAM</a>  structure is not used currently by the system.
+
+
+### -field UnusedParam
+
+ 
+
 
 ### -field Size
 
@@ -106,9 +144,9 @@ The horizontal confidence is the circular confidence requested for this fix.
 The platform expects fixes with a 95% confidence. The GNSS driver should honor this confidence value when it returns the fix and accuracy from the GNSS engine.
 
 
-### -field Reserved[9]
+### -field Reserved
 
-Reserved for future use.
+ 
 
 
 ### -field FixLevelOfDetails
@@ -120,30 +158,25 @@ The GNSS driver may choose to override this input.
 This flag is OR-ed with the bit-values defined in GNSS_FIXDETAIL_* mask.
 
 
-### -field SingleShotParam
+### -field Unused
 
-The <a href="..\gnssdriver\ns-gnssdriver-gnss_singleshot_param.md">GNSS_SINGLESHOT_PARAM</a> structure defines the parameters for a single-shot fix session.
-
-
-### -field DistanceParam
-
-The <a href="..\gnssdriver\ns-gnssdriver-gnss_distancetracking_param.md">GNSS_DISTANCETRACKING_PARAM</a> structure defines the parameters for a distance-based tracking fix session.
+ 
 
 
-### -field ContinuousParam
 
-The <a href="..\gnssdriver\ns-gnssdriver-gnss_continuoustracking_param.md">GNSS_CONTINUOUSTRACKING_PARAM</a> structure defines the parameters for a continuous tracking fix session.
-
-
-### -field LkgFixParam
-
-The <a href="..\gnssdriver\ns-gnssdriver-gnss_lkgfix_param.md">GNSS_LKGFIX_PARAM</a>  structure is not used currently by the system.
-
-
-### -field Unused[512]
+#### - Unused[512]
 
 Padding buffer.
 
 
+#### - Reserved[9]
+
+Reserved for future use.
+
+
 ## -remarks
-The fix session parameters are different for different types of sessions. This structure contains a common set of parameters applicable for all fix sessions, followed by an overloaded structure (union) for each fix session type. The GNSS driver must use the appropriate structure from the union depending on the session type.</p>
+
+
+The fix session parameters are different for different types of sessions. This structure contains a common set of parameters applicable for all fix sessions, followed by an overloaded structure (union) for each fix session type. The GNSS driver must use the appropriate structure from the union depending on the session type.
+
+

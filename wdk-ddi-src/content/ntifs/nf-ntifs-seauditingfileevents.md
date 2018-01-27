@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f9e9a53f-9f4a-4f44-befa-f11d1fb3372a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SeAuditingFileEvents
+ms.keywords: SeAuditingFileEvents routine [Installable File System Drivers], SeAuditingFileEvents, ifsk.seauditingfileevents, seref_b4b8468e-cfb2-4685-9811-2b2733e9fb36.xml, ntifs/SeAuditingFileEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SeAuditingFileEvents
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	SeAuditingFileEvents
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # SeAuditingFileEvents function
 
 
-
 ## -description
+
+
 The <b>SeAuditingFileEvents</b> routine determines whether file open events are currently being audited.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN SeAuditingFileEvents(
@@ -54,6 +64,9 @@ BOOLEAN SeAuditingFileEvents(
 
 
 ## -parameters
+
+
+
 
 ### -param AccessGranted [in]
 
@@ -66,31 +79,31 @@ This parameter is ignored.
 
 
 ## -returns
+
+
 <b>SeAuditingFileEvents</b> returns <b>TRUE</b> if file open events are currently being audited, <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-seauditingfileorglobalevents.md">SeAuditingFileOrGlobalEvents</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-sedeleteobjectauditalarm.md">SeDeleteObjectAuditAlarm</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-seopenobjectfordeleteauditalarm.md">SeOpenObjectForDeleteAuditAlarm</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+<a href="..\ntifs\nf-ntifs-sedeleteobjectauditalarm.md">SeDeleteObjectAuditAlarm</a>
+
  
 
  

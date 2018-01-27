@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1230C71C-9C1A-4F1F-8AA7-C814249675B5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WDI_TX_METADATA, WDI_TX_METADATA, *PWDI_TX_METADATA
+ms.keywords: audio.pfndrmgetcontentrights, DRMGetContentRights callback function [Audio Devices], DRMGetContentRights, PFNDRMGETCONTENTRIGHTS, PFNDRMGETCONTENTRIGHTS, drmk/DRMGetContentRights, DRMGetContentRights callback function [Audio Devices], DRMGetContentRights
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DRMGetContentRights
-req.alt-loc: Drmk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Drmk.h
+apiname: 
+-	DRMGetContentRights
+product: Windows
+targetos: Windows
 req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 ---
 
 # PFNDRMGETCONTENTRIGHTS callback
 
 
-
 ## -description
+
+
 This callback function is reserved for system use.
 
 
-
 ## -prototype
+
 
 ````
 PFNDRMGETCONTENTRIGHTS DRMGetContentRights;
@@ -60,6 +70,9 @@ typedef PFNDRMGETCONTENTRIGHTS DRMGetContentRights;
 
 ## -parameters
 
+
+
+
 ### -param ContentId [in]
 
 This parameter is reserved for system use.
@@ -71,7 +84,8 @@ This parameter is reserved for system use.
 
 
 ## -returns
+
+
 This return value is reserved for system use.
 
 
-## -remarks

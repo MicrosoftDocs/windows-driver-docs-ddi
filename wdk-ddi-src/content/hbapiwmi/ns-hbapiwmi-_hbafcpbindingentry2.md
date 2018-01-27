@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 75de51b1-063b-49b2-a390-2bafd44e04b0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _HBAFCPBindingEntry2, HBAFCPBindingEntry2, *PHBAFCPBindingEntry2
+ms.keywords: PHBAFCPBindingEntry2, storage.hbafcpbindingentry2, hbapiwmi/PHBAFCPBindingEntry2, structs-Fibre_b15c2291-b1fc-4f4f-9890-ddf50e3dee9e.xml, PHBAFCPBindingEntry2 structure pointer [Storage Devices], *PHBAFCPBindingEntry2, HBAFCPBindingEntry2 structure [Storage Devices], hbapiwmi/HBAFCPBindingEntry2, HBAFCPBindingEntry2, _HBAFCPBindingEntry2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBAFCPBindingEntry2
-req.alt-loc: Hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Hbapiwmi.h
+apiname: 
+-	HBAFCPBindingEntry2
+product: Windows
+targetos: Windows
 req.typenames: HBAFCPBindingEntry2, *PHBAFCPBindingEntry2
 ---
 
 # _HBAFCPBindingEntry2 structure
 
 
-
 ## -description
+
+
 The HBAFCPBindingEntry2 structure defines a binding between the information that uniquely identifies a logical unit for the operating system and the fibre channel protocol (FCP) identifier for the logical unit.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _HBAFCPBindingEntry2 {
@@ -57,10 +67,12 @@ typedef struct _HBAFCPBindingEntry2 {
 
 ## -struct-fields
 
+
+
+
 ### -field Type
 
 Indicates the binding type. For a description of the values that this member can have, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
-
 <table>
 <tr>
 <th>Type Value</th>
@@ -116,8 +128,7 @@ Indicates that the system should automatically generate target mappings from log
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 For information about what needs to be included to use the symbols that represent the binding types, see the Headers section.
 
@@ -127,9 +138,9 @@ For information about what needs to be included to use the symbols that represen
 Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpid.md">HBAFCPID</a> that contains the FCP identifier for the logical unit and information about the port to be queried for information about the device.
 
 
-### -field Luid[256]
+### -field Luid
 
-Contains the logical unit descriptor for the device that the operating system derives from SCSI inquiry data. 
+ 
 
 
 ### -field ScsiId
@@ -137,7 +148,14 @@ Contains the logical unit descriptor for the device that the operating system de
 Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbascsiid.md">HBAScsiID</a> that contains the information that uniquely identifies a logical unit for the operating system.
 
 
+#### - Luid[256]
+
+Contains the logical unit descriptor for the device that the operating system derives from SCSI inquiry data. 
+
+
 ## -remarks
+
+
 This structure is very similar to the <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a> structure. The only difference is that HBAFCPBindingEntry2 includes the number that the operating system generates for the logical unit. 
 
 The WMI tool suite generates a declaration of HBAFCPBindingEntry2 automatically when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556037">HBAFCPBindingEntry WMI Class</a> that is defined in <i>hbaapi.mof</i>. 
@@ -145,15 +163,13 @@ The WMI tool suite generates a declaration of HBAFCPBindingEntry2 automatically 
 For an explanation of the fibre channel protocol (FCP), see the T11 committee's <i>dpANS Fibre Channel Protocol for SCSI</i> specification. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556036">HBAFCPBindingEntry2 WMI Class</a>
-</dt>
-</dl>
+
+<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
+
  
 
  

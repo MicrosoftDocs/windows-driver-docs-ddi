@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 43ac738b-7837-4183-ad06-5c35a2af38ff
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBC_FUNCTION_DESCRIPTOR, *PUSBC_FUNCTION_DESCRIPTOR, USBC_FUNCTION_DESCRIPTOR
+ms.keywords: USBC_FUNCTION_DESCRIPTOR structure [Buses], usbbusif/USBC_FUNCTION_DESCRIPTOR, USBC_FUNCTION_DESCRIPTOR, PUSBC_FUNCTION_DESCRIPTOR structure pointer [Buses], buses.usbc_function_descriptor, usbbusif/PUSBC_FUNCTION_DESCRIPTOR, *PUSBC_FUNCTION_DESCRIPTOR, usbstrct_29623b3f-9def-4eb6-8735-eb695560ce27.xml, _USBC_FUNCTION_DESCRIPTOR, PUSBC_FUNCTION_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBC_FUNCTION_DESCRIPTOR
-req.alt-loc: usbbusif.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbbusif.h
+apiname: 
+-	USBC_FUNCTION_DESCRIPTOR
+product: Windows
+targetos: Windows
 req.typenames: *PUSBC_FUNCTION_DESCRIPTOR, USBC_FUNCTION_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USBC_FUNCTION_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The <b>USBC_FUNCTION_DESCRIPTOR</b> structure describes a USB function and its associated interface collection.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBC_FUNCTION_DESCRIPTOR {
@@ -61,6 +71,9 @@ typedef struct _USBC_FUNCTION_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field FunctionNumber
 
@@ -103,18 +116,18 @@ Reserved.
 
 
 ## -remarks
+
+
 For information on how to use user-defined callback routines to provide a custom definition of the interface collections on a device, see <a href="https://msdn.microsoft.com/3cf4e9f2-ea33-491f-94af-62d2afacc899">Customizing Enumeration of Interface Collections for Composite Devices</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
+<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+
  
 
  

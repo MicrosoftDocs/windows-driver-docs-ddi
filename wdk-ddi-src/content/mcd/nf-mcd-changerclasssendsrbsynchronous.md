@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6765d7d5-528f-42c5-98c3-0484608a020b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerClassSendSrbSynchronous
+ms.keywords: mcd/ChangerClassSendSrbSynchronous, chgrclas_ad6fe2cb-20f1-404d-ad08-5bf9798de6bd.xml, ChangerClassSendSrbSynchronous routine [Storage Devices], ChangerClassSendSrbSynchronous, storage.changerclasssendsrbsynchronous
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ChangerClassSendSrbSynchronous
-req.alt-loc: Mcd.lib,Mcd.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Mcd.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Mcd.lib
+-	Mcd.dll
+apiname: 
+-	ChangerClassSendSrbSynchronous
+product: Windows
+targetos: Windows
 req.typenames: LAMP_INTENSITY_WHITE
 ---
 
 # ChangerClassSendSrbSynchronous function
 
 
-
 ## -description
+
+
 The <b>ChangerClassSendSrbSynchronous</b> routine synchronously sends an SRB to a specified device.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ChangerClassSendSrbSynchronous(
@@ -57,6 +68,9 @@ NTSTATUS ChangerClassSendSrbSynchronous(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceObject [in]
 
@@ -84,10 +98,15 @@ Indicates a write operation when <b>TRUE</b> and read operation when <b>FALSE</b
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS if the SRB is transmitted successfully or the appropriate error code if the SRB fails or cannot be sent for some reason. 
 
 
+
 ## -remarks
+
+
 Changer miniclass drivers can call this class driver routine in Microsoft Windows XP and later operating systems. Miniclass drivers should use this routine to send an SRB to the port driver instead of calling the <i>classpnp.sys</i> library routine <b>ClassSendSrbSynchronous</b> directly. Although <i>classpnp.sys </i>is shipped with the Windows Driver Kit (WDK), it is not a supported API, and drivers that call this library's routines directly might not function properly in future releases. 
 
 <b>ChangerClassSendSrbSynchronous</b> finishes the initialization of the partially initialized SRB, setting the SRB's flags with the values indicated in the target's device object. <b>ChangerClassSendSrbSynchronous</b> creates the IRP that is used to convey the SRB to the target device, sends the IRP, then handles the IRP's completion. 
@@ -95,12 +114,11 @@ Changer miniclass drivers can call this class driver routine in Microsoft Window
 If the IRP fails and the sense request data indicates that the IRP should be retried, <b>ChangerClassSendSrbSynchronous</b> will resend the IRP. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-</dt>
-</dl>
+
  
 
  

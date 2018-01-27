@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: A8945F1C-56CF-494F-9E50-11C7A713E5F0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcCopyWriteEx
+ms.keywords: ntifs/CcCopyWriteEx, CcCopyWriteEx routine [Installable File System Drivers], ifsk.cccopywriteex, CcCopyWriteEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcCopyWriteEx
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcCopyWriteEx
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcCopyWriteEx function
 
 
-
 ## -description
+
+
 The <b>CcCopyWriteEx</b> routine copies data from a user buffer to a cached file. The I/O byte count for the operation is charged to the issuing thread.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN CcCopyWriteEx(
@@ -58,6 +68,9 @@ BOOLEAN CcCopyWriteEx(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -90,10 +103,15 @@ The thread issuing the write request. For a file system with disk I/O accounting
 
 
 ## -returns
+
+
 The <b>CcCopyWriteEx</b> routine returns <b>TRUE</b> if the data was copied successfully, <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 If <i>Wait</i> is <b>TRUE</b>, <b>CcCopyWriteEx</b> is guaranteed to complete the copy request and return <b>TRUE</b>. If the required pages of the cached file are already resident in memory, the data will be copied immediately and no blocking will occur. If any needed pages are not resident, the caller will be put in a wait state until all required pages have been made resident and the data can be copied.
 
 If <i>Wait</i> is <b>FALSE</b>, <b>CcCopyWriteEx</b> will refuse to block, and will return <b>FALSE</b>, if the required pages of the cached file are not already resident in memory or if the FO_WRITE_THROUGH flag is set on the file object.
@@ -103,12 +121,11 @@ If any failure occurs, <b>CcCopyWriteEx</b> raises a status exception for that p
 To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-</dt>
-</dl>
+
  
 
  

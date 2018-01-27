@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: f5b72de2-c2e9-44ac-a2a7-04271e9253d3
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: SdpAddAttributeToTree
+ms.keywords: SdpAddAttributeToTree function [Bluetooth Devices], SdpAddAttributeToTree, bth_funcs_5a46529e-8b1b-474a-a005-16f7a5562d91.xml, bltooth.sdpaddattributetotree, sdplib/SdpAddAttributeToTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SdpAddAttributeToTree
-req.alt-loc: sdplib.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,25 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-req.typenames: *PSDCMD_DESCRIPTOR, SDCMD_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	sdplib.h
+apiname: 
+-	SdpAddAttributeToTree
+product: Windows
+targetos: Windows
+req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
 # SdpAddAttributeToTree function
 
 
-
 ## -description
+
+
 The Bluetooth 
    <b>SdpAddAttributeToTree</b> function is used to attach an SDP attribute node to the top level of an SDP
   record.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SdpAddAttributeToTree(
@@ -60,10 +70,12 @@ NTSTATUS SdpAddAttributeToTree(
 
 ## -parameters
 
-### -param Root [in]
 
-The top level of the SDP record to which the 
-     <b>SdpAddAttributeToTree</b> function attaches the SDP attribute node.
+
+
+### -param Tree
+
+TBD
 
 
 ### -param AttribId [in]
@@ -71,38 +83,53 @@ The top level of the SDP record to which the
 The identifier of the attribute to attach.
 
 
-### -param AttribValueNode [in]
+### -param AttribValue
 
-Pointer to the SDP node to be added as an attribute.
+TBD
 
 
 ### -param tag [in]
 
 Specifies a 4-byte 
-     <a href="wdkgloss.p#wdkgloss.pool_tag#wdkgloss.pool_tag"><i>pool tag</i></a> that uniquely identifies the driver that does the memory
+     <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">pool tag</a> that uniquely identifies the driver that does the memory
      allocation. For more information about pool tags, see 
      <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>.
 
 
+#### - Root [in]
+
+The top level of the SDP record to which the 
+     <b>SdpAddAttributeToTree</b> function attaches the SDP attribute node.
+
+
+#### - AttribValueNode [in]
+
+Pointer to the SDP node to be added as an attribute.
+
+
 ## -returns
+
+
 Possible return values include:
 
 
+
 ## -remarks
+
+
 Bluetooth profile drivers can obtain a pointer to this function through the 
     <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>.
 
 For more information about the tree structure, see 
-    <a href="https://msdn.microsoft.com/762cf68b-0082-4b9e-8f24-ff19ecf6f8bd">Converting SDP Records to a
-    Tree Structure</a>.
+    <mshelp:link keywords="bltooth.converting_sdp_records_to_a_tree_structure" tabindex="0">Converting SDP Records to a
+    Tree Structure</mshelp:link>.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

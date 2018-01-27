@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F8BBD279-3694-4559-83B3-9312EF4153C0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBFN_PIPE_INFORMATION, *PUSBFN_PIPE_INFORMATION, USBFN_PIPE_INFORMATION
+ms.keywords: usbfnbase/PUSBFN_PIPE_INFORMATION, buses.usbfn_pipe_information, PUSBFN_PIPE_INFORMATION structure pointer [Buses], PUSBFN_PIPE_INFORMATION, _USBFN_PIPE_INFORMATION, *PUSBFN_PIPE_INFORMATION, usbfnbase/USBFN_PIPE_INFORMATION, USBFN_PIPE_INFORMATION, USBFN_PIPE_INFORMATION structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBFN_PIPE_INFORMATION
-req.alt-loc: usbfnbase.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbfnbase.h
+apiname: 
+-	USBFN_PIPE_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: *PUSBFN_PIPE_INFORMATION, USBFN_PIPE_INFORMATION
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USBFN_PIPE_INFORMATION structure
 
 
-
 ## -description
+
+
 Describes attributes of a pipe associated with an endpoint on a specific interface.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBFN_PIPE_INFORMATION {
@@ -56,6 +66,9 @@ typedef struct _USBFN_PIPE_INFORMATION {
 
 ## -struct-fields
 
+
+
+
 ### -field EpDesc
 
 Describes the endpoint descriptor in a <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a> structure.
@@ -66,15 +79,10 @@ Describes the endpoint descriptor in a <a href="..\usbspec\ns-usbspec-_usb_endpo
 The pipe identifier (ID).
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

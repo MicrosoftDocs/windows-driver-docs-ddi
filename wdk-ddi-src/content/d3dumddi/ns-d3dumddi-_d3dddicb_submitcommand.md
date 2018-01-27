@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53D4890A-D075-4DF7-97E6-A8E8A174866B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_SUBMITCOMMAND, D3DDDICB_SUBMITCOMMAND
+ms.keywords: display.d3dddicb_submitcommand, _D3DDDICB_SUBMITCOMMAND, d3dumddi/D3DDDICB_SUBMITCOMMAND, D3DDDICB_SUBMITCOMMAND structure [Display Devices], D3DDDICB_SUBMITCOMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_SUBMITCOMMAND
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_SUBMITCOMMAND
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_SUBMITCOMMAND
 ---
 
 # _D3DDDICB_SUBMITCOMMAND structure
 
 
-
 ## -description
+
+
 The <b>D3DDDICB_SUBMITCOMMAND</b> structure is used to submit command buffers on contexts that support graphics processing unit (GPU) virtual addressing.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_SUBMITCOMMAND {
@@ -75,6 +85,9 @@ typedef struct _D3DDDICB_SUBMITCOMMAND {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Commands
 
@@ -191,7 +204,20 @@ The number of history buffers.
 A pointer to the array of history buffers.
 
 
+### -field hSyncToken
+
+ 
+
+
+### -field pReserved
+
+ 
+
+
+
 ## -remarks
+
+
 The <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_submitcommandcb.md">pfnSubmitCommandCb</a> code path no longer provides an allocation list for the user mode driver to provide a list of allocations that will be read and written to during this command. However, it is necessary to synchronize some writes that would not normally be known without the allocation list. For this, a new small allocation list specifically for surfaces which will be written to and used for displaying content. The <b>WrittenPrimaries</b> array should be used to provide such allocations.
 
 
@@ -201,18 +227,15 @@ Despite the name, <b>WrittenPrimaries</b> must contain allocations that are cons
 If the driver receives a call to <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a> that has this flag, the allocation should be added to this list on every <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_submitcommandcb.md">pfnSubmitCommandCb</a> call that writes to the surface.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_misc_flag.md">D3D10_DDI_RESOURCE_MISC_FLAG</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_submitcommandcb.md">pfnSubmitCommandCb</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_misc_flag.md">D3D10_DDI_RESOURCE_MISC_FLAG</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
+
  
 
  

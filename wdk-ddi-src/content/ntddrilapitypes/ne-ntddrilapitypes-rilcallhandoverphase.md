@@ -7,8 +7,8 @@ old-location: netvista\rilcallhandoverphase.htm
 old-project: netvista
 ms.assetid: c97fcbba-a127-4974-bda7-47456c05558f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCALLHANDOVERPHASE, RILCALLHANDOVERPHASE
+ms.date: 1/18/2018
+ms.keywords: RIL_CALLHANDOVERPHASE_CANCELLED, RILCALLHANDOVERPHASE, netvista.rilcallhandoverphase, ntddrilapitypes/RILCALLHANDOVERPHASE, ntddrilapitypes/RIL_CALLHANDOVERPHASE_FAILED, ntddrilapitypes/RIL_CALLHANDOVERPHASE_CANCELLED, ntddrilapitypes/RIL_CALLHANDOVERPHASE_COMPLETED, RIL_CALLHANDOVERPHASE_FAILED, RIL_CALLHANDOVERPHASE_MAX, RIL_CALLHANDOVERPHASE_COMPLETED, RILCALLHANDOVERPHASE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_CALLHANDOVERPHASE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCALLHANDOVERPHASE
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILCALLHANDOVERPHASE
+product: Windows
+targetos: Windows
 req.typenames: RILCALLHANDOVERPHASE
 ---
 
 # RILCALLHANDOVERPHASE enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILCALLHANDOVERPHASE { 
@@ -57,16 +67,25 @@ typedef enum _RILCALLHANDOVERPHASE {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_CALLHANDOVERPHASE_STARTED
+
+
+
 ### -field RIL_CALLHANDOVERPHASE_COMPLETED
+
 
 
 ### -field RIL_CALLHANDOVERPHASE_FAILED
 
 
+
 ### -field RIL_CALLHANDOVERPHASE_CANCELLED
+
 
 
 ### -field RIL_CALLHANDOVERPHASE_MAX
 
 
-## -remarks

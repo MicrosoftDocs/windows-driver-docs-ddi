@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 2EB57066-164F-445C-8621-7B65E6715E97
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbDeviceInitialize
+ms.keywords: SpbDeviceInitialize method [Buses], SPB.spbdeviceinitialize, spbcx/SpbDeviceInitialize, SpbDeviceInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SpbDeviceInitialize
-req.alt-loc: spbcxstubs.lib,spbcxstubs.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	spbcxstubs.lib
+-	spbcxstubs.dll
+apiname: 
+-	SpbDeviceInitialize
+product: Windows
+targetos: Windows
 req.typenames: *PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # SpbDeviceInitialize function
 
 
-
 ## -description
+
+
 The <b>SpbDeviceInitialize</b> method completes the initialization of the SPB controller driver after this driver creates the associated device object.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SpbDeviceInitialize(
@@ -55,6 +66,9 @@ NTSTATUS SpbDeviceInitialize(
 
 
 ## -parameters
+
+
+
 
 ### -param FxDevice [in]
 
@@ -67,10 +81,15 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh40
 
 
 ## -returns
+
+
 <b>SpbDeviceInitialize</b> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns an appropriate NTSTATUS error code.
 
 
+
 ## -remarks
+
+
 Your SPB controller driver calls this method to register its event callback functions with the SPB framework extension (SpbCx) and to specify the transfer mode to use for the controller's I/O queue. <b>SpbDeviceInitialize</b> creates all of the controller's internal data structures, including the I/O queue.
 
 The SPB controller driver must call this method before it <i>commits</i> the device object—that is, before it returns from the <i>EvtDriverDeviceAdd</i> callback or adds the PDO to the controller's child list. The child list represents the devices that are attached to the bus. For more information, see <a href="https://msdn.microsoft.com/5731db82-2bc8-4a8d-98f1-3977845f572c">Enumerating the Devices on a Bus</a>.
@@ -80,21 +99,17 @@ After <b>SpbDeviceInitialize</b> returns, the controller is ready to process I/O
 If the structure pointed to by <i>Config</i> is not filled out correctly, <a href="https://msdn.microsoft.com/library/windows/hardware/ff557262">Driver Verifier</a> will raise an error. For more information about the requirements for the <i>Config</i> parameter, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh406206">SPB_CONTROLLER_CONFIG</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
-</dt>
-<dt>
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406206">SPB_CONTROLLER_CONFIG</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406207">SPB_CONTROLLER_CONFIG_INIT</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406206">SPB_CONTROLLER_CONFIG</a>
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
+
  
 
  

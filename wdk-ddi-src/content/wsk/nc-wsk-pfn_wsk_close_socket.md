@@ -7,8 +7,8 @@ old-location: netvista\wskclosesocket.htm
 old-project: netvista
 ms.assetid: 4d4e4a40-db76-4746-8049-3af8c4541283
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO
+ms.date: 1/18/2018
+ms.keywords: netvista.wskclosesocket, WskCloseSocket callback function [Network Drivers Starting with Windows Vista], WskCloseSocket, PFN_WSK_CLOSE_SOCKET, PFN_WSK_CLOSE_SOCKET, wsk/WskCloseSocket, wskref_c8c37dfe-294f-4a40-9b3a-f4ca609ad4d8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WskCloseSocket
-req.alt-loc: wsk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: *PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	wsk.h
+apiname: 
+-	WskCloseSocket
+product: Windows
+targetos: Windows
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
 # PFN_WSK_CLOSE_SOCKET callback
 
 
-
 ## -description
+
+
 The 
   <b>WskCloseSocket</b> function closes a socket and frees any associated resources.
 
 
-
 ## -prototype
+
 
 ````
 PFN_WSK_CLOSE_SOCKET WskCloseSocket;
@@ -60,6 +70,9 @@ NTSTATUS WSKAPI * WskCloseSocket(
 
 ## -parameters
 
+
+
+
 ### -param Socket [in]
 
 A pointer to a 
@@ -71,28 +84,61 @@ A pointer to a
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the close operation
      asynchronously. For more information about using IRPs with WSK functions, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
-     Kernel Functions</a>.
+     <mshelp:link keywords="netvista.using_irps_with_winsock_kernel_functions" tabindex="0">Using IRPs with Winsock
+     Kernel Functions</mshelp:link>.
 
 
 ## -returns
+
+
 <b>WskCloseSocket</b> returns one of the following NTSTATUS codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The socket was successfully closed. The IRP will be completed with success status.
+</dl>
+</td>
+<td width="60%">
+The socket was successfully closed. The IRP will be completed with success status.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_PENDING</b></dt>
-</dl>The WSK subsystem could not close the socket immediately. The WSK subsystem will complete the
+</dl>
+</td>
+<td width="60%">
+The WSK subsystem could not close the socket immediately. The WSK subsystem will complete the
        IRP after it has closed the socket. The status of the close operation will be returned in the 
        <b>IoStatus.Status</b> field of the IRP.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>Other status codes</b></dt>
-</dl>An error occurred. The IRP will be completed with failure status.
+</dl>
+</td>
+<td width="60%">
+An error occurred. The IRP will be completed with failure status.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 Before calling the 
     <b>WskCloseSocket</b> function, a WSK application must ensure that there are no other function calls in
     progress to any of the socket's functions, including any extension functions, in any of the application's
@@ -132,41 +178,32 @@ For connection-oriented sockets, the
     <a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-</dt>
-<dt>
-<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
-</dt>
-<dt>
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-</dt>
-<dt>
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-</dt>
-<dt>
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
-</dt>
-<dt>
-<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
-   WSK_PROVIDER_CONNECTION_DISPATCH</a>
-</dt>
-<dt>
-<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
-   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
-</dt>
-<dt>
+
 <a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.wsk_provider_connection_dispatch" tabindex="0"><b>
+   WSK_PROVIDER_CONNECTION_DISPATCH</b></mshelp:link>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+<mshelp:link keywords="netvista.wsk_provider_datagram_dispatch" tabindex="0"><b>
+   WSK_PROVIDER_DATAGRAM_DISPATCH</b></mshelp:link>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-</dt>
-</dl>
- 
+
+<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_CLOSE_SOCKET callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_CLOSE_SOCKET callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

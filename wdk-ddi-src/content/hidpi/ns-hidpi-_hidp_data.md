@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: f48bbf84-027f-4579-b83c-7dfb1cbe6b65
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _HIDP_DATA, HIDP_DATA, *PHIDP_DATA
+ms.keywords: PHIDP_DATA structure pointer [Human Input Devices], *PHIDP_DATA, HIDP_DATA, hid.hidp_data, hidpi/HIDP_DATA, HIDP_DATA structure [Human Input Devices], hidstrct_690e0e92-9de7-44e0-8550-4f84d7bb768e.xml, _HIDP_DATA, hidpi/PHIDP_DATA, PHIDP_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HIDP_DATA
-req.alt-loc: hidpi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: HIDP_DATA, *PHIDP_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hidpi.h
+apiname: 
+-	HIDP_DATA
+product: Windows
+targetos: Windows
+req.typenames: *PHIDP_DATA, HIDP_DATA
 ---
 
 # _HIDP_DATA structure
 
 
-
 ## -description
+
+
 The HIDP_DATA structure contains information about a HID control's <a href="https://msdn.microsoft.com/84577544-515a-4fdc-86e5-518182c6c461">data index</a> and value in a HID report.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _HIDP_DATA {
@@ -59,14 +69,7 @@ typedef struct _HIDP_DATA {
 
 ## -struct-fields
 
-### -field DataIndex
 
-Specifies the data index of a control.
-
-
-### -field Reserved
-
-Reserved for internal system use only.
 
 
 ### -field RawValue
@@ -79,19 +82,29 @@ Contains the binary data extracted from a report if the control is a value.
 Specifies, if <b>TRUE</b> and the control is a button, that the button is set to ON (1). Otherwise, if <b>On</b> is <b>FALSE</b> and the control is a button, the button is set to OFF (zero).
 
 
+### -field DataIndex
+
+Specifies the data index of a control.
+
+
+### -field Reserved
+
+Reserved for internal system use only.
+
+
 ## -remarks
+
+
 See <a href="https://msdn.microsoft.com/d26d169f-4116-4d81-94c7-63c92d22877d">Extracting and Setting Control Data by Data Indices</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\hidpi\nf-hidpi-hidp_getdata.md">HidP_GetData</a>
-</dt>
-<dt>
+
 <a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
-</dt>
-</dl>
+
  
 
  

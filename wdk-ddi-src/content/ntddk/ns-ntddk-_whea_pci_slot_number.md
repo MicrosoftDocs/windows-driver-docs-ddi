@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 4e2938a2-6301-4d2a-a467-eca1f5bbb260
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_PCI_SLOT_NUMBER, *PWHEA_PCI_SLOT_NUMBER, WHEA_PCI_SLOT_NUMBER
+ms.keywords: ntddk/PWHEA_PCI_SLOT_NUMBER, whearef_6999e061-3501-48fe-bd6c-383493056665.xml, *PWHEA_PCI_SLOT_NUMBER, WHEA_PCI_SLOT_NUMBER, _WHEA_PCI_SLOT_NUMBER, ntddk/WHEA_PCI_SLOT_NUMBER, whea.whea_pci_slot_number, WHEA_PCI_SLOT_NUMBER structure [WHEA Drivers and Applications], PWHEA_PCI_SLOT_NUMBER, PWHEA_PCI_SLOT_NUMBER structure pointer [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_PCI_SLOT_NUMBER
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PWHEA_PCI_SLOT_NUMBER, WHEA_PCI_SLOT_NUMBER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_PCI_SLOT_NUMBER
+product: Windows
+targetos: Windows
+req.typenames: WHEA_PCI_SLOT_NUMBER, *PWHEA_PCI_SLOT_NUMBER
 ---
 
 # _WHEA_PCI_SLOT_NUMBER structure
 
 
-
 ## -description
+
+
 The WHEA_PCI_SLOT_NUMBER structure describes a logical PCI slot.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WHEA_PCI_SLOT_NUMBER {
@@ -61,56 +71,54 @@ typedef struct _WHEA_PCI_SLOT_NUMBER {
 
 ## -struct-fields
 
+
+
+
 ### -field u
 
 A union that contains the following members:
 
 
-### -field bits
+### -field u.bits
 
 A structure that describes the logical PCI slot.
 
 
-### -field DeviceNumber
+### -field u.bits.DeviceNumber
 
 The device number that is assigned to the logical PCI slot. 
 
 
-### -field FunctionNumber
+### -field u.bits.FunctionNumber
 
 The specific function on the device that is located in the logical PCI slot. 
 
 
-### -field Reserved
+### -field u.bits.Reserved
 
 Reserved for system use. 
 
-</dd>
-</dl>
 
-### -field AsULONG
+### -field u.AsULONG
 
 A ULONG representation of the contents of the WHEA_PCI_SLOT_NUMBER structure.
 
-</dd>
-</dl>
 
 ## -remarks
+
+
 A WHEA_PCI_SLOT_NUMBER structure is contained within the <a href="..\ntddk\ns-ntddk-_whea_aer_bridge_descriptor.md">WHEA_AER_BRIDGE_DESCRIPTOR</a>, <a href="..\ntddk\ns-ntddk-_whea_aer_endpoint_descriptor.md">WHEA_AER_ENDPOINT_DESCRIPTOR</a>, and <a href="..\ntddk\ns-ntddk-_whea_aer_rootport_descriptor.md">WHEA_AER_ROOTPORT_DESCRIPTOR</a> structures.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\ns-ntddk-_whea_aer_bridge_descriptor.md">WHEA_AER_BRIDGE_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_aer_endpoint_descriptor.md">WHEA_AER_ENDPOINT_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_aer_rootport_descriptor.md">WHEA_AER_ROOTPORT_DESCRIPTOR</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\ns-ntddk-_whea_aer_bridge_descriptor.md">WHEA_AER_BRIDGE_DESCRIPTOR</a>
+
  
 
  

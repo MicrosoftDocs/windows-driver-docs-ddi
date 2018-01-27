@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: AC05B79E-D293-4EC7-8BF2-D14E3163FB43
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION, *PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION, USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION
+ms.keywords: _USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION, *PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION, PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION structure pointer [Buses], usbioctl/PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION, PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION, buses.usb_transport_characteristics_change_registration, USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION, usbioctl/USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION, USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION
-req.alt-loc: Usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Usbioctl.h
+apiname: 
+-	USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION
+product: Windows
+targetos: Windows
 req.typenames: *PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION, USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION structure
 
 
-
 ## -description
+
+
 Contains registration information for the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_register_for_transport_characteristics_change.md">IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE</a> 
 
 request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION {
@@ -59,7 +69,26 @@ typedef struct _USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION {
 
 ## -struct-fields
 
-### -field  ULONG
+
+
+
+### -field ChangeNotificationInputFlags
+
+ 
+
+
+### -field Handle
+
+An opaque handle for this registration.
+
+
+### -field UsbTransportCharacteristics
+
+A <a href="..\usbioctl\ns-usbioctl-_usb_transport_characteristics.md">USB_TRANSPORT_CHARACTERISTICS</a> structure that is filled by the USB driver stack with the initial values of the transport characteristics. 
+
+
+
+#### - ULONG
 
 A bitmask set by the client driver to register for change notifications that it is interested in. The following bits are valid:
 
@@ -77,27 +106,17 @@ is set, the client is notified of changes in bandwidth.
 
 
 
-### -field  Handle
-
-An opaque handle for this registration.
-
-
-### -field  UsbTransportCharacteristics
-
-A <a href="..\usbioctl\ns-usbioctl-_usb_transport_characteristics.md">USB_TRANSPORT_CHARACTERISTICS</a> structure that is filled by the USB driver stack with the initial values of the transport characteristics. 
-
-
-
 ## -remarks
+
+
 The registration handle received in this request is valid until the caller sends the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_unregister_for_transport_characteristics_change.md">IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE</a> request to unregister for notifications.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_register_for_transport_characteristics_change.md">IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE</a>
-</dt>
-</dl>
+
  
 
  

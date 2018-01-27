@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0796a1a2-1aaa-4e07-a8f1-7a3c895643e7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWavePci, IMiniportWavePci::Init, Init
+ms.keywords: IMiniportWavePci, audio.iminiportwavepci_init, Init method [Audio Devices], IMiniportWavePci interface, audmp-routines_fd2d7813-ebe8-4cf3-8a6c-4ebfccca5826.xml, portcls/IMiniportWavePci::Init, IMiniportWavePci interface [Audio Devices], Init method, IMiniportWavePci::Init, Init method [Audio Devices], Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportWavePci.Init
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IMiniportWavePci.Init
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportWavePci::Init method
 
 
-
 ## -description
+
+
 The <code>Init</code> method initializes the WavePci miniport object. Initialization includes verification of the hardware using the resources specified in the resource list.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS Init(
@@ -56,6 +66,9 @@ NTSTATUS Init(
 
 
 ## -parameters
+
+
+
 
 ### -param UnknownAdapter [in]
 
@@ -78,33 +91,33 @@ Output pointer for the service group. This parameter points to a caller-allocate
 
 
 ## -returns
+
+
 <code>Init</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 The <i>UnknownAdapter</i> and <i>ResourceList</i> parameters are the same pointer values that the adapter driver earlier passed as parameters to the <b>IPortWavePci</b> object's <b>Init</b> method (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>).
 
 The <i>UnknownAdapter</i>, <i>ResourceList</i>, <i>Port</i>, and <i>ServiceGroup</i> parameters follow the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iminiportwavepci.md">IMiniportWavePci</a>
-</dt>
-<dt>
+
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
-</dt>
-<dt>
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+<a href="..\portcls\nn-portcls-iminiportwavepci.md">IMiniportWavePci</a>
+
  
 
  

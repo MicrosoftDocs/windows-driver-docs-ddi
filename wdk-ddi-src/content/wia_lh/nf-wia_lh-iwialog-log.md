@@ -7,8 +7,8 @@ old-location: image\iwialog_log.htm
 old-project: image
 ms.assetid: bca012b4-76ae-4ba5-99b4-92a367774de7
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: IWiaLog, IWiaLog::Log, Log
+ms.date: 1/18/2018
+ms.keywords: Log method [Imaging Devices], IWiaLog interface, IWiaLog interface [Imaging Devices], Log method, IWiaLog::Log, Log method [Imaging Devices], image.iwialog_log, wia_lh/IWiaLog::Log, IWiaLog_e3605b5e-0494-46a7-85c1-3a0707a74764.xml, IWiaLog, Log
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Me, Windows XP, and later. Obsol
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IWiaLog.Log
-req.alt-loc: wia_lh.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wia_lh.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	wia_lh.h
+apiname: 
+-	IWiaLog.Log
+product: Windows
+targetos: Windows
 req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IWiaLog::Log method
 
 
-
 ## -description
+
+
 The <b>IWiaLog</b> interface is obsolete for Windows XP and later, and is no longer supported. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540599">Diagnostic Log Macros</a> instead.The <b>IWiaLog::Log</b> method writes a diagnostic log message to <i>Wiaservc.log</i>.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT Log(
@@ -58,20 +68,22 @@ HRESULT Log(
 
 ## -parameters
 
+
+
+
 ### -param lFlags [in]
 
 Specifies the type of diagnostic message. This parameter can be WIA_WARNING, WIA_TRACE or WIA_ERROR.
 
 
-### -param lResId [in]
+### -param lResID
 
-Specifies the resource id. This parameter should be set to WIALOG_NO_RESOURCE_ID.
+
 
 
 ### -param lDetail [in]
 
 Specifies the diagnostic detail level of the message. This parameter can be one of the following values.
-
 <table>
 <tr>
 <th>Level</th>
@@ -127,8 +139,7 @@ User-defined log levels.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param bstrText [in]
@@ -136,8 +147,14 @@ User-defined log levels.
 Specifies the error text. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
 
 
+#### - lResId [in]
+
+Specifies the resource id. This parameter should be set to WIALOG_NO_RESOURCE_ID.
+
+
 ## -returns
+
+
 If the method succeeds, it returns S_OK.  If the method fails, it returns a standard COM error code.
 
 
-## -remarks

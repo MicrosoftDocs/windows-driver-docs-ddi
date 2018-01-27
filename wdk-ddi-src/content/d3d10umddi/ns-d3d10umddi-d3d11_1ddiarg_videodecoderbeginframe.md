@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e2664aec-dc96-4cf6-921b-ccd4ee6cf04e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDIARG_VIDEODECODERBEGINFRAME, D3D11_1DDIARG_VIDEODECODERBEGINFRAME
+ms.keywords: D3D11_1DDIARG_VIDEODECODERBEGINFRAME structure [Display Devices], D3D11_1DDIARG_VIDEODECODERBEGINFRAME, display.d3d11_1ddiarg_videodecoderbeginframe, d3d10umddi/D3D11_1DDIARG_VIDEODECODERBEGINFRAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDIARG_VIDEODECODERBEGINFRAME
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDIARG_VIDEODECODERBEGINFRAME
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDIARG_VIDEODECODERBEGINFRAME
 ---
 
 # D3D11_1DDIARG_VIDEODECODERBEGINFRAME structure
 
 
-
 ## -description
+
+
 Specifies a content key in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a>  function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D11_1DDIARG_VIDEODECODERBEGINFRAME {
@@ -55,6 +65,9 @@ typedef struct D3D11_1DDIARG_VIDEODECODERBEGINFRAME {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hOutputView
 
@@ -73,18 +86,12 @@ For more information, see the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi
 The size, in bytes, of the content key that is specified in the <b>pContentKey</b> member.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessoroutputview.md">CreateVideoProcessorOutputView</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a>
-</dt>
-</dl>
+
  
 
  

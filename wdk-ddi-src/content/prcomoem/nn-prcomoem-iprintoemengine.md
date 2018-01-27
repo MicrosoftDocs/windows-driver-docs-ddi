@@ -7,8 +7,8 @@ old-location: print\iprintoemengine.htm
 old-project: print
 ms.assetid: DE86FA8C-2E27-4B39-B52D-6227AF56F399
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IPrintOemUni3, IPrintOemUni3::SetBandSize, SetBandSize
+ms.date: 1/18/2018
+ms.keywords: print.iprintoemengine, IPrintOemEngine interface [Print Devices], IPrintOemEngine interface [Print Devices], described, IPrintOemEngine, prcomoem/IPrintOemEngine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPrintOemEngine,IPrintOemEngine.EnableDriver,IPrintOemEngine.DisableDriver,IPrintOemEngine.EnablePDEV,IPrintOemEngine.DisablePDEV,IPrintOemEngine.ResetPDEV
-req.alt-loc: Prcomoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,15 +26,30 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Prcomoem.h
+apiname: 
+-	IPrintOemEngine
+-	IPrintOemEngine.EnableDriver
+-	IPrintOemEngine.DisableDriver
+-	IPrintOemEngine.EnablePDEV
+-	IPrintOemEngine.DisablePDEV
+-	IPrintOemEngine.ResetPDEV
+product: Windows
+targetos: Windows
+req.typenames: *POEMPTOPTS, OEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
 # IPrintOemEngine interface
-
 
 
 ## -description
@@ -44,15 +57,9 @@ req.product: Windows 10 or later.
 
 
 
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintOemEngine</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IPrintOemEngine</b> also has these types of members:
-
-The <b>IPrintOemEngine</b> interface has these methods.
-
- 
-
 
 ## -members
+
 The <b>IPrintOemEngine</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -81,5 +88,3 @@ The <b>IPrintOemEngine</b> interface has these methods.
 </tr>
 </table> 
 
-
-## -remarks

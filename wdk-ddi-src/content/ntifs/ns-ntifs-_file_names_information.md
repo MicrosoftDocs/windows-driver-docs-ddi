@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a9eb4606-fe55-4f77-914a-656ebe247066
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FILE_NAMES_INFORMATION, FILE_NAMES_INFORMATION, *PFILE_NAMES_INFORMATION
+ms.keywords: fileinformationstructures_8349a2eb-ffeb-4050-9084-b09474079415.xml, _FILE_NAMES_INFORMATION, FILE_NAMES_INFORMATION structure [Installable File System Drivers], ntifs/FILE_NAMES_INFORMATION, PFILE_NAMES_INFORMATION structure pointer [Installable File System Drivers], ntifs/PFILE_NAMES_INFORMATION, FILE_NAMES_INFORMATION, PFILE_NAMES_INFORMATION, *PFILE_NAMES_INFORMATION, ifsk.file_names_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILE_NAMES_INFORMATION
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FILE_NAMES_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: FILE_NAMES_INFORMATION, *PFILE_NAMES_INFORMATION
 ---
 
 # _FILE_NAMES_INFORMATION structure
 
 
-
 ## -description
+
+
 A FILE_NAMES_INFORMATION structure used to query detailed information about the names of files in a directory. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILE_NAMES_INFORMATION {
@@ -56,6 +66,9 @@ typedef struct _FILE_NAMES_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NextEntryOffset
 
@@ -78,29 +91,32 @@ Specifies the first character of the file name string. This is followed in memor
 
 
 ## -remarks
-This information can be queried in either of the following ways: 
 
+
+This information can be queried in either of the following ways: 
+<ul>
+<li>
 Call <a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>, passing FileNamesInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_NAMES_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
 
+</li>
+<li>
 Create an IRP with major function code IRP_MJ_DIRECTORY_CONTROL and minor function code IRP_MN_QUERY_DIRECTORY. 
 
-No specific access rights are required to query this information. 
+</li>
+</ul>No specific access rights are required to query this information. 
 
 This structure must be aligned on a LONG (4-byte) boundary. If a buffer contains two or more of these structures, the <b>NextEntryOffset</b> value in each entry, except the last, falls on a 4-byte boundary. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
+
+<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3B0A25E8-6DBC-4AA9-A0D0-DDB36B402F43
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetRequestInfo
+ms.keywords: storport/StorPortGetRequestInfo, StorPortGetRequestInfo, storage.storportgetrequestinfo, StorPortGetRequestInfo routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 8 and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortGetRequestInfo
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	StorPortGetRequestInfo
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # StorPortGetRequestInfo function
 
 
-
 ## -description
+
+
 
    The <b>StorPortGetRequestInfo</b> routine retrieves the IO request information associated with a SCSI request block (SRB) and  returns it in a <a href="..\storport\ns-storport-_stor_request_info_v1.md">STOR_REQUEST_INFO</a> structure. 
   
 
 
-
 ## -syntax
+
 
 ````
 ULONG StorPortGetRequestInfo(
@@ -58,6 +68,9 @@ ULONG StorPortGetRequestInfo(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -75,30 +88,62 @@ A pointer to a caller-supplied <a href="..\storport\ns-storport-_stor_request_in
 
 
 ## -returns
+
+
 The <b>StorPortGetRequestInfo</b> routine returns one of these status codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_UNSUPPORTED_VERSION</b></dt>
-</dl>The version specified for <a href="..\storport\ns-storport-_stor_request_info_v1.md">STOR_REQUEST_INFO</a> is invalid.
+</dl>
+</td>
+<td width="60%">
+The version specified for <a href="..\storport\ns-storport-_stor_request_info_v1.md">STOR_REQUEST_INFO</a> is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>The operation was successful.
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>Either <i>Srb</i> or <i>RequestInfo</i> is set to NULL.
+</dl>
+</td>
+<td width="60%">
+Either <i>Srb</i> or <i>RequestInfo</i> is set to NULL.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The caller of <b>StorPortGetRequestInfo</b> must set the <b>Version</b> member of <i>RequestInfo</i> to STOR_REQUEST_INFO_VER_1. Otherwise, function will return STOR_STATUS_UNSUPPORTED_VERSION.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\ns-storport-_stor_request_info_v1.md">STOR_REQUEST_INFO</a>
-</dt>
-</dl>
+
  
 
  

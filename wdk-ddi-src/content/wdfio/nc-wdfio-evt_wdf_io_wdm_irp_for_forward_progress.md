@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 71974802-954d-4856-a32b-1dcc45c36ba5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO
+ms.keywords: wdf.evtiowdmirpforforwardprogress, EvtIoWdmIrpForForwardProgress callback function, EvtIoWdmIrpForForwardProgress, EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS, EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS, wdfio/EvtIoWdmIrpForForwardProgress, DFQueueObjectRef_479581ba-4ffd-4aae-b4f0-c246daf38842.xml, kmdf.evtiowdmirpforforwardprogress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.9
 req.umdf-ver: 
-req.alt-api: EvtIoWdmIrpForForwardProgress
-req.alt-loc: Wdfio.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-req.typenames: *PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wdfio.h
+apiname: 
+-	EvtIoWdmIrpForForwardProgress
+product: Windows
+targetos: Windows
+req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
 req.product: Windows 10 or later.
 ---
 
 # EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS callback
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 A driver's <i>EvtIoWdmIrpForForwardProgress</i> callback function examines an I/O request packet (IRP) and determines whether to use a reserved request object to process the I/O request or to fail the I/O request.
 
 
-
 ## -prototype
+
 
 ````
 EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS EvtIoWdmIrpForForwardProgress;
@@ -61,6 +71,9 @@ WDF_IO_FORWARD_PROGRESS_ACTION EvtIoWdmIrpForForwardProgress(
 
 ## -parameters
 
+
+
+
 ### -param Queue [in]
 
 A handle to an I/O queue object.
@@ -72,44 +85,45 @@ A pointer to an IRP structure.
 
 
 ## -returns
+
+
 The <i>EvtIoWdmIrpForForwardProgress</i> callback function must return a <a href="..\wdfio\ne-wdfio-_wdf_io_forward_progress_action.md">WDF_IO_FORWARD_PROGRESS_ACTION</a>-typed value.
 
 
+
 ## -remarks
+
+
 A driver can register an <i>EvtIoWdmIrpForForwardProgress</i> callback function when it calls <a href="..\wdfio\nf-wdfio-wdfioqueueassignforwardprogresspolicy.md">WdfIoQueueAssignForwardProgressPolicy</a>.
 
 If your driver registers an <i>EvtIoWdmIrpForForwardProgress</i> callback function, the framework calls the function if all of the following conditions exist:
-
+<ul>
+<li>
 The framework has received a I/O request packet (<a href="..\wdm\ns-wdm-_irp.md">IRP</a>) that the I/O manager is sending to the driver.
 
+</li>
+<li>
 The framework has attempted to create a request object for the IRP, but the attempt failed.
 
+</li>
+<li>
 The driver has enabled guaranteed forward progress for the I/O queue that should receive the request object, with the <a href="..\wdfio\ne-wdfio-_wdf_io_forward_progress_reserved_policy.md">policy type</a> set to <b>WdfIoForwardProgressReservedPolicyUseExamine</b>.
 
-The framework passes the IRP to the <i>EvtIoWdmIrpForForwardProgress</i> callback function. The callback function must examine the IRP and determine whether the framework should use one of its reserved request objects for the IRP or (if the IRP is not important when the computer's available memory is low) fail the I/O request without delivering it to the driver. The callback function's return value specifies the action that the framework should take.
+</li>
+</ul>The framework passes the IRP to the <i>EvtIoWdmIrpForForwardProgress</i> callback function. The callback function must examine the IRP and determine whether the framework should use one of its reserved request objects for the IRP or (if the IRP is not important when the computer's available memory is low) fail the I/O request without delivering it to the driver. The callback function's return value specifies the action that the framework should take.
 
 For more information about the <i>EvtIoWdmIrpForForwardProgress</i> callback function, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/guaranteeing-forward-progress-of-i-o-operations">Guaranteeing Forward Progress of I/O Operations</a>.
 
 This callback function can be called at IRQL &lt;= DISPATCH_LEVEL. If the IRQL is PASSIVE_LEVEL, the framework calls the callback function within a <a href="https://msdn.microsoft.com/3781498a-45e9-4f24-8fd2-830eed61298c">critical region</a>.
 
-To define an <i>EvtIoWdmIrpForForwardProgress</i> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
-
-For example, to define an <i>EvtIoWdmIrpForForwardProgress</i> callback function that is named <i>MyIoForwardExamineIrpForForwardProgress</i>, use the <b>EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS</b> type as shown in this code example:
-
-Then, implement your callback function as follows:
-
-The <b>EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS</b> function type is defined in the Wdfinterrupt.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-US/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_allocate_request_resources.md">EvtIoAllocateRequestResources</a>
-</dt>
-<dt>
+
 <a href="..\wdfio\nc-wdfio-evt_wdf_io_allocate_resources_for_reserved_request.md">EvtIoAllocateResourcesForReservedRequest</a>
-</dt>
-</dl>
+
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_allocate_request_resources.md">EvtIoAllocateRequestResources</a>
+
  
 
  

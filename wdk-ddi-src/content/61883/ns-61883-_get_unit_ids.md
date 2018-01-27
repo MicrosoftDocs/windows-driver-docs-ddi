@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 8ffa85ee-cad6-476e-91ab-1897a6b43ca1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _GET_UNIT_IDS, *PGET_UNIT_IDS, GET_UNIT_IDS
+ms.keywords: GET_UNIT_IDS structure [Buses], PGET_UNIT_IDS, 61883/PGET_UNIT_IDS, _GET_UNIT_IDS, IEEE.get_unit_ids, PGET_UNIT_IDS structure pointer [Buses], 61883_structures_5415ce51-9c17-481b-86bd-08b8ff1595ca.xml, *PGET_UNIT_IDS, GET_UNIT_IDS, 61883/GET_UNIT_IDS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GET_UNIT_IDS
-req.alt-loc: 61883.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PGET_UNIT_IDS, GET_UNIT_IDS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	61883.h
+apiname: 
+-	GET_UNIT_IDS
+product: Windows
+targetos: Windows
+req.typenames: GET_UNIT_IDS, *PGET_UNIT_IDS
 ---
 
 # _GET_UNIT_IDS structure
 
 
-
 ## -description
+
+
 The GET_UNIT_CAPABILITIES structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536983">Av61883_GetUnitInfo</a> request to retrieve device identifiers. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GET_UNIT_IDS {
@@ -62,6 +72,9 @@ typedef struct _GET_UNIT_IDS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UniqueID
 
@@ -113,15 +126,10 @@ The length, in bytes, of the model text string, including the terminating UNICOD
 Points to a buffer that receives the "friendly name" for the model represented as a Unicode string terminated with a UNICODE_NULL. If <b>ulUnitModelLength</b> is zero in the input GET_UNIT_IDS structure, <b>UnitModelText</b> will be <b>NULL</b>. This value is retrieved from the unit directory within the device's Configuration ROM.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536983">Av61883_GetUnitInfo</a>
-</dt>
-</dl>
+
  
 
  

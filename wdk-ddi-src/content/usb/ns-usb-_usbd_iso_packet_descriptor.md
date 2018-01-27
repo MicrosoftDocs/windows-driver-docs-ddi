@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 45ceff8e-a013-45de-be2e-42c6ca30147e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBD_ISO_PACKET_DESCRIPTOR, USBD_ISO_PACKET_DESCRIPTOR, *PUSBD_ISO_PACKET_DESCRIPTOR
+ms.keywords: *PUSBD_ISO_PACKET_DESCRIPTOR, USBD_ISO_PACKET_DESCRIPTOR, PUSBD_ISO_PACKET_DESCRIPTOR structure pointer [Buses], usb/PUSBD_ISO_PACKET_DESCRIPTOR, USBD_ISO_PACKET_DESCRIPTOR structure [Buses], usbstrct_142becb1-b374-467e-9a11-2cda26e69ff4.xml, _USBD_ISO_PACKET_DESCRIPTOR, usb/USBD_ISO_PACKET_DESCRIPTOR, buses.usbd_iso_packet_descriptor, PUSBD_ISO_PACKET_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBD_ISO_PACKET_DESCRIPTOR
-req.alt-loc: usb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usb.h
+apiname: 
+-	USBD_ISO_PACKET_DESCRIPTOR
+product: Windows
+targetos: Windows
 req.typenames: USBD_ISO_PACKET_DESCRIPTOR, *PUSBD_ISO_PACKET_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USBD_ISO_PACKET_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The <b>USBD_ISO_PACKET_DESCRIPTOR</b>   structure is used by USB client drivers to describe an isochronous transfer packet.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBD_ISO_PACKET_DESCRIPTOR {
@@ -56,6 +66,9 @@ typedef struct _USBD_ISO_PACKET_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Offset
 
@@ -73,24 +86,22 @@ Contains the status, on return from the host controller driver, of this transfer
 
 
 ## -remarks
+
+
 This structure is used as part of an isochronous transfer request to the host controller driver using the <a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a> structure. The <b>Offset</b> member contains the offset from the beginning of the <b>TransferBuffer</b> or <b>TransferBufferMDL</b> members of  <b>_URB_ISOCH_TRANSFER</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
-</dt>
-<dt>
-<a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406225">How to Transfer Data to USB Isochronous Endpoints</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406225">How to Transfer Data to USB Isochronous Endpoints</a>
+
+<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
+
+<a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
+
  
 
  

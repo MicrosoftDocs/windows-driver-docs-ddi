@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a2526734-c0bf-4f6b-b91e-2f6891c46c69
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsPinEx, IKsPinEx::KsNotifyError, KsNotifyError
+ms.keywords: ksproxy/IKsPinEx::KsNotifyError, IKsPinEx::KsNotifyError, ksproxy_41c855aa-58a3-4bf6-bb8a-1eb8dfe2a3e1.xml, IKsPinEx interface [Streaming Media Devices], KsNotifyError method, KsNotifyError method [Streaming Media Devices], KsNotifyError method [Streaming Media Devices], IKsPinEx interface, IKsPinEx, stream.ikspinex_ksnotifyerror, KsNotifyError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsPinEx.KsNotifyError
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ksproxy.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsPinEx.KsNotifyError
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsPinEx::KsNotifyError method
 
 
-
 ## -description
+
+
 The <b>KsNotifyError</b> method notifies the filter graph of an error to give the filter graph an opportunity to halt. 
 
 
-
 ## -syntax
+
 
 ````
 VOID KsNotifyError(
@@ -54,6 +64,9 @@ VOID KsNotifyError(
 
 
 ## -parameters
+
+
+
 
 ### -param Sample [in]
 
@@ -66,21 +79,25 @@ Error value for notification. If ERROR_OPERATION_ABORTED (that is, the I/O was p
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The <b>KsNotifyError</b> method notifies the filter graph of the specific error using the EC_ERRORABORT event, which specifies that the error forced the termination of an I/O operation.
 
 For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK documentation.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksproxy\nn-ksproxy-ikspinex.md">IKsPinEx</a>
-</dt>
-</dl>
+
  
 
  

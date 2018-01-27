@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9360f9c4-e30e-4fc0-ade7-1d98ff8b1d1b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_COMPOSERECTS, D3DDDIARG_COMPOSERECTS
+ms.keywords: _D3DDDIARG_COMPOSERECTS, D3DDDIARG_COMPOSERECTS, UMDisplayDriver_param_Structs_2f10ffa4-f55f-490b-9aa4-08c0c3e3d924.xml, d3dumddi/D3DDDIARG_COMPOSERECTS, D3DDDIARG_COMPOSERECTS structure [Display Devices], display.d3dddiarg_composerects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_COMPOSERECTS
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_COMPOSERECTS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_COMPOSERECTS
 ---
 
 # _D3DDDIARG_COMPOSERECTS structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_COMPOSERECTS structure describes the parameters that are used to compose rectangular areas. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_COMPOSERECTS {
@@ -62,6 +72,9 @@ typedef struct _D3DDDIARG_COMPOSERECTS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hSrcResource
 
@@ -101,7 +114,6 @@ typedef struct _D3DDDIARG_COMPOSERECTS {
 ### -field Operation
 
 [in] A D3DDDI_COMPOSERECTSOP value that describes how to compose the rectangular areas. This member can be one of the following values.
-
 <table>
 <tr>
 <th>Value</th>
@@ -147,8 +159,7 @@ Combine the negative of the source bits with the destination bits and copy to th
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field XOffset
@@ -162,18 +173,43 @@ Combine the negative of the source bits with the destination bits and copy to th
 
 
 ## -remarks
+
+
 The vertex buffers that contain the composing instructions are created with D3DUSAGE_TEXTAPI usage. The following code defines the structures that are contained in the vertex buffer arrays. For more information about these structures, see the DirectX SDK documentation.
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>struct D3DCOMPOSERECTSRCDESC {
+USHORT X, Y;          // Coordinates of top-left corner
+USHORT width, height; // Width and height of the glyph in bits
+};</pre>
+</td>
+</tr>
+</table></span></div><div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>struct D3DCOMPOSERECTDSTDESC {
+USHORT RectDescIndex; // Index of one of the D3DCOMPOSERECTSRCDESC structures in the vertex buffer represented by hSrcRectDescsVB
+USHORT reserved;      // Use to align the struct and fields to good boundaries
+SHORT X, Y;            // Position in bits in the destination surface
+};</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_composerects.md">ComposeRects</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-</dt>
-</dl>
+
  
 
  

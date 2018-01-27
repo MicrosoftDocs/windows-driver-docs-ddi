@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 82e0bf14-b751-4919-b8d0-26fc7c5598a8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KeInsertHeadQueue
+ms.keywords: KeInsertHeadQueue routine [Installable File System Drivers], keref_a3279265-434b-42d6-95d9-5a8a12f54c9b.xml, KeInsertHeadQueue, ifsk.keinsertheadqueue, ntifs/KeInsertHeadQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeInsertHeadQueue
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeInsertHeadQueue
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # KeInsertHeadQueue function
 
 
-
 ## -description
+
+
 The <b>KeInsertHeadQueue</b> routine inserts an entry at the head of the given queue if it cannot immediately use the entry to satisfy a thread wait. 
 
 
-
 ## -syntax
+
 
 ````
 LONG KeInsertHeadQueue(
@@ -55,10 +65,12 @@ LONG KeInsertHeadQueue(
 
 ## -parameters
 
+
+
+
 ### -param Queue [in, out]
 
 Pointer to an initialized queue object for which the caller provides resident storage in nonpaged pool. This structure is defined as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -74,8 +86,7 @@ Pointer to an initialized queue object for which the caller provides resident st
 } KQUEUE, *PKQUEUE, *RESTRICTED_POINTER PRKQUEUE;</pre>
 </td>
 </tr>
-</table></span></div>
-<table>
+</table></span></div><table>
 <tr>
 <th>Member</th>
 <th>Meaning</th>
@@ -130,8 +141,7 @@ Pointer to the first entry in the thread list
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Entry [in, out]
@@ -140,10 +150,15 @@ Pointer to the queue entry that is to be inserted. This pointer must be a reside
 
 
 ## -returns
+
+
 <b>KeInsertHeadQueue</b> returns the previous signal state of the given queue. If it was set to zero (not signaled) before <b>KeInsertHeadQueue</b> was called, <b>KeInsertHeadQueue</b> returns zero, meaning that no entries were queued. If it was nonzero (signaled), <b>KeInsertHeadQueue</b> returns the number of entries that were queued before <b>KeInsertHeadQueue</b> was called. 
 
 
+
 ## -remarks
+
+
 Entries to be queued by <b>KeInsertHeadQueue</b> must be allocated from nonpaged pool. For example, memory for caller-defined entries can be allocated with <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>. If the caller allocates entries of a fixed size, creating a lookaside list with <a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a> and allocating from it with <a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a> is more efficient than making frequent calls to <b>ExAllocatePoolWithTag</b>, particularly for entries whose size is not a multiple of PAGE_SIZE. 
 
 If any threads are waiting on the queue object when <b>KeInsertHeadQueue</b> is called, a single thread's wait is satisfied by this call. The thread is dispatched for execution with the given <i>Entry</i> pointer. 
@@ -153,27 +168,21 @@ If no threads are currently waiting on the queue object when <b>KeInsertHeadQueu
 For more information about using driver-managed internal queues, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544165">Driver-Managed Queues</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-keinitializequeue.md">KeInitializeQueue</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-keinsertqueue.md">KeInsertQueue</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
+
 <a href="..\ntifs\nf-ntifs-keremovequeue.md">KeRemoveQueue</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-keinitializequeue.md">KeInitializeQueue</a>
+
  
 
  

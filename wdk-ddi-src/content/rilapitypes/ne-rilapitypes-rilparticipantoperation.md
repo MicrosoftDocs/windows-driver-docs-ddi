@@ -7,8 +7,8 @@ old-location: netvista\rilparticipantoperation_2.htm
 old-project: netvista
 ms.assetid: 74386760-95c8-4c69-99bf-542e7c58b8c8
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILPARTICIPANTOPERATION, RILPARTICIPANTOPERATION
+ms.date: 1/18/2018
+ms.keywords: RIL_PARTICIPANT_MAX, RILPARTICIPANTOPERATION, rilapitypes/RILPARTICIPANTOPERATION, RIL_PARTICIPANT_REMOVE, RILPARTICIPANTOPERATION enumeration [Network Drivers Starting with Windows Vista], netvista.rilparticipantoperation_2, rilapitypes/RIL_PARTICIPANT_MAX, rilapitypes/RIL_PARTICIPANT_REMOVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILPARTICIPANTOPERATION
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILPARTICIPANTOPERATION
+product: Windows
+targetos: Windows
 req.typenames: RILPARTICIPANTOPERATION
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILPARTICIPANTOPERATION enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILPARTICIPANTOPERATION { 
@@ -56,10 +66,17 @@ typedef enum _RILPARTICIPANTOPERATION {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_PARTICIPANT_ADD
+
+
+
 ### -field RIL_PARTICIPANT_REMOVE
+
 
 
 ### -field RIL_PARTICIPANT_MAX
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 82B3B3BD-CEAC-427E-A89E-84CBE85BDBE7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUsbDeviceSignalFunctionWake
+ms.keywords: UdecxUsbDeviceSignalFunctionWake function [Buses], UdecxUsbDeviceSignalFunctionWake, udecxusbdevice/UdecxUsbDeviceSignalFunctionWake, buses.udecxusbdevicesignalfunctionwake
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 
-req.alt-api: UdecxUsbDeviceSignalFunctionWake
-req.alt-loc: Udecxstub.lib,Udecxstub.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PUDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Udecxstub.lib
+-	Udecxstub.dll
+apiname: 
+-	UdecxUsbDeviceSignalFunctionWake
+product: Windows
+targetos: Windows
+req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
 req.product: Windows 10 or later.
 ---
 
 # UdecxUsbDeviceSignalFunctionWake function
 
 
-
 ## -description
+
+
 Initiates wake up of the specified function from a low power state. This applies to virtual USB 3.0 devices.
 
 
-
 ## -syntax
+
 
 ````
 void UdecxUsbDeviceSignalFunctionWake(
@@ -55,6 +66,9 @@ void UdecxUsbDeviceSignalFunctionWake(
 
 
 ## -parameters
+
+
+
 
 ### -param UdecxUsbDevice [in]
 
@@ -67,10 +81,15 @@ This value is the <b>bInterfaceNumber</b> of the interface that is waking up.
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
+
 ## -remarks
+
+
 The client driver for the device must have enabled wake capability in the most recent <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_set_function_suspend_and_wake.md">EVT_UDECX_USB_DEVICE_SET_FUNCTION_SUSPEND_AND_WAKE</a> call.
 
 
@@ -78,18 +97,15 @@ If the device is in a low power state, or going to such a state, this call also 
 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_set_function_suspend_and_wake.md">EVT_UDECX_USB_DEVICE_SET_FUNCTION_SUSPEND_AND_WAKE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
+<a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_set_function_suspend_and_wake.md">EVT_UDECX_USB_DEVICE_SET_FUNCTION_SUSPEND_AND_WAKE</a>
+
  
 
  

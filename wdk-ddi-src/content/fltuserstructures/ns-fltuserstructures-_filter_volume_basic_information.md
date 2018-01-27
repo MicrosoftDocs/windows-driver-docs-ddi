@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f6b5ccc2-81d6-47be-94dd-cf92842de51c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FILTER_VOLUME_BASIC_INFORMATION, *PFILTER_VOLUME_BASIC_INFORMATION, FILTER_VOLUME_BASIC_INFORMATION
+ms.keywords: *PFILTER_VOLUME_BASIC_INFORMATION, PFILTER_VOLUME_BASIC_INFORMATION structure pointer [Installable File System Drivers], FltSystemStructures_7bc0a3dc-37e1-4783-aecd-f4ef96e38a32.xml, _FILTER_VOLUME_BASIC_INFORMATION, fltuserstructures/FILTER_VOLUME_BASIC_INFORMATION, fltuserstructures/PFILTER_VOLUME_BASIC_INFORMATION, PFILTER_VOLUME_BASIC_INFORMATION, FILTER_VOLUME_BASIC_INFORMATION, FILTER_VOLUME_BASIC_INFORMATION structure [Installable File System Drivers], ifsk.filter_volume_basic_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILTER_VOLUME_BASIC_INFORMATION
-req.alt-loc: fltuserstructures.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PFILTER_VOLUME_BASIC_INFORMATION, FILTER_VOLUME_BASIC_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	fltuserstructures.h
+apiname: 
+-	FILTER_VOLUME_BASIC_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: FILTER_VOLUME_BASIC_INFORMATION, *PFILTER_VOLUME_BASIC_INFORMATION
 ---
 
 # _FILTER_VOLUME_BASIC_INFORMATION structure
 
 
-
 ## -description
+
+
 The caller-allocated FILTER_VOLUME_BASIC_INFORMATION  structure contains basic information for a volume.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILTER_VOLUME_BASIC_INFORMATION {
@@ -54,6 +64,9 @@ typedef struct _FILTER_VOLUME_BASIC_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field FilterVolumeNameLength
 
@@ -66,6 +79,8 @@ Read-only name of the volume of <b>FilterVolumeNameLength</b> length.  This Unic
 
 
 ## -remarks
+
+
 Filter manager enumeration routines, such as <a href="..\fltkernel\nf-fltkernel-fltenumeratevolumeinformation.md">FltEnumerateVolumeInformation</a>, can fill a buffer with structures of type FILTER_VOLUME_BASIC_INFORMATION where each structure represents a volume known to filter manager.  This list of structures can contain multiple volumes with the same name.  For more information, see <a href="https://msdn.microsoft.com/c05982dc-4124-4f9a-93b8-0e56ac296d1b">Understanding Volume Enumerations with Duplicate Volume Names</a>.
 
 The FILTER_VOLUME_BASIC_INFORMATION structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer contains two or more of these structures, the <b>NextEntryOffset</b> value in each structure falls on an 8-byte boundary.
@@ -73,24 +88,19 @@ The FILTER_VOLUME_BASIC_INFORMATION structure must be aligned on a LONGLONG (8-b
 A FILTER_VOLUME_BASIC_INFORMATION structure can be allocated from paged or nonpaged pool.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fltuserstructures\ns-fltuserstructures-_filter_volume_standard_information.md">FILTER_VOLUME_STANDARD_INFORMATION</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541522">FilterVolumeFindClose</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541525">FilterVolumeFindFirst</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541530">FilterVolumeFindNext</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541522">FilterVolumeFindClose</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltenumeratevolumeinformation.md">FltEnumerateVolumeInformation</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541530">FilterVolumeFindNext</a>
+
  
 
  

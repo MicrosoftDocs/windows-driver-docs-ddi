@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 16F04DFD-3AF6-48E0-9BCF-9FE0FC397F91
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_MAKERESIDENT, D3DDDI_MAKERESIDENT
+ms.keywords: D3DDDI_MAKERESIDENT, display.d3dddi_makeresident, D3DDDI_MAKERESIDENT structure [Display Devices], d3dukmdt/D3DDDI_MAKERESIDENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_MAKERESIDENT
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_MAKERESIDENT
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_MAKERESIDENT
 ---
 
 # D3DDDI_MAKERESIDENT structure
 
 
-
 ## -description
+
+
 <b>D3DDDI_MAKERESIDENT</b> is used with <b>MakeResident</b> (<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_makeresidentcb.md">pfnMakeResidentCb</a> or <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtmakeresident.md">D3DKMTMakeResident</a>) to instruct the OS to add a resource to the device residency list and increment the residency reference count on this allocation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3DDDI_MAKERESIDENT {
@@ -59,6 +69,9 @@ typedef struct D3DDDI_MAKERESIDENT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hPagingQueue
 
@@ -96,21 +109,14 @@ typedef struct D3DDDI_MAKERESIDENT {
 [out] When <b>MakeResident</b> returns <b>E_OUTOFMEMORY</b>, this member indicates the number of bytes over budget the application would be if the allocation(s) were made resident. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_makeresidentcb.md">pfnMakeResidentCb</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtmakeresident.md">D3DKMTMakeResident</a>
-</dt>
-<dt>
+
 <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_makeresident_flags.md">D3DDDI_MAKERESIDENT_FLAGS</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_makeresidentcb.md">pfnMakeResidentCb</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9f9121be-786d-4a1c-bb01-7bf3c1d3b6cf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsControl, IKsControl::KsMethod, KsMethod
+ms.keywords: KsMethod method [Streaming Media Devices], IKsControl::KsMethod, ksproxy/IKsControl::KsMethod, IKsControl, stream.ikscontrol_ksmethod, KsMethod, ksproxy_700d1bc3-f01e-4fff-9976-f64cdfd54f82.xml, KsMethod method [Streaming Media Devices], IKsControl interface, IKsControl interface [Streaming Media Devices], KsMethod method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsControl.KsMethod
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ksproxy.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsControl.KsMethod
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsControl::KsMethod method
 
 
-
 ## -description
+
+
 The <b>KsMethod</b> method sends a method to a KS object, along with any other defined support operations available on a method set. 
 
 
-
 ## -syntax
+
 
 ````
 HRESULT KsMethod(
@@ -57,6 +67,9 @@ HRESULT KsMethod(
 
 
 ## -parameters
+
+
+
 
 ### -param Method [in]
 
@@ -84,21 +97,25 @@ Pointer to a variable that receives the size, in bytes, of the data that <b>KsMe
 
 
 ## -returns
+
+
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
+
 ## -remarks
+
+
 This is a synchronous call. It will not complete until the method is completed from kernel-mode.
 
 To determine the buffer size that is required for a specific method request, you can call this method with MethodData set to <b>NULL</b> and DataLength equal to zero. The method returns HRESULT_FROM_WIN32(ERROR_MORE_DATA and BytesReturned contains the size of the required buffer.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
-</dt>
-</dl>
+
  
 
  

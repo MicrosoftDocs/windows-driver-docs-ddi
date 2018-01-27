@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c3d9362e-8a9d-47df-a407-389a9bd65e3b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwPrepareComplete
+ms.keywords: ktm_ref_2690208e-0252-4e3f-84c6-29750139da00.xml, kernel.zwpreparecomplete, wdm/ZwPrepareComplete, NtPrepareComplete, ZwPrepareComplete, wdm/NtPrepareComplete, ZwPrepareComplete routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later operating system
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwPrepareComplete,NtPrepareComplete
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ZwPrepareComplete
+-	NtPrepareComplete
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ZwPrepareComplete function
 
 
-
 ## -description
+
+
 The <b>ZwPrepareComplete</b> routine notifies KTM that the calling resource manager has finished preparing a transaction's data.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ZwPrepareComplete(
@@ -55,6 +66,9 @@ NTSTATUS ZwPrepareComplete(
 
 
 ## -parameters
+
+
+
 
 ### -param EnlistmentHandle [in]
 
@@ -67,26 +81,67 @@ A pointer to a <a href="https://msdn.microsoft.com/de01b0f1-86b1-4e7d-af22-84dbb
 
 
 ## -returns
+
+
 <b>ZwPrepareComplete</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_TYPE_MISMATCH</b></dt>
-</dl>The specified handle is not a handle to an enlistment object.
+</dl>
+</td>
+<td width="60%">
+The specified handle is not a handle to an enlistment object.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>The object handle is invalid.
+</dl>
+</td>
+<td width="60%">
+The object handle is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_TRANSACTION_NOT_REQUESTED</b></dt>
-</dl>The transaction or its enlistment is not in the correct state.
+</dl>
+</td>
+<td width="60%">
+The transaction or its enlistment is not in the correct state.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>The caller does not have appropriate access to the enlistment object.
+</dl>
+</td>
+<td width="60%">
+The caller does not have appropriate access to the enlistment object.
 
- 
+</td>
+</tr>
+</table> 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
+
 ## -remarks
+
+
 A resource manager must call <b>ZwPrepareComplete</b> after it has finished servicing a TRANSACTION_NOTIFY_PREPARE <a href="https://msdn.microsoft.com/62169b56-e70f-4d32-a051-a7fd947dbc64">notification</a>.
 
 After a resource manager has called <b>ZwPrepareComplete</b>, it cannot roll back the transaction.
@@ -98,24 +153,19 @@ For more information about <b>ZwPrepareComplete</b>, see <a href="https://msdn.m
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-tmpreparecomplete.md">TmPrepareComplete</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-tmpreparecomplete.md">TmPrepareComplete</a>
+
 <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwprepreparecomplete.md">ZwPrePrepareComplete</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
  
 
  

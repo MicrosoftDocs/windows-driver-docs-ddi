@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 16f13973-c1c1-4123-8fa4-20187ec2c204
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortRegistryRead
+ms.keywords: StorPortRegistryRead, StorPortRegistryRead routine [Storage Devices], storage.storportregistryread, storport/StorPortRegistryRead, storprt_6eafcbbc-b767-45b3-97d6-86e591a29a19.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortRegistryRead
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: StorPortIrql
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortRegistryRead
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortRegistryRead function
 
 
-
 ## -description
+
+
 The <b>StorPortRegistryRead</b> routine reads the registry data for the indicated device and value. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN StorPortRegistryRead(
@@ -60,25 +71,27 @@ BOOLEAN StorPortRegistryRead(
 
 ## -parameters
 
-### -param HwDeviceExtension 
+
+
+
+### -param HwDeviceExtension
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
 
 
-### -param ValueName 
+### -param ValueName
 
 Pointer to a UCHAR that specifies the registry value name whose content is to be read. 
 
 
-### -param Global 
+### -param Global
 
 Indicates, when nonzero, that the port driver reads the contents of the registry value specified by <i>ValueName</i> under the Parameters\Device subkey. The values under the Device key apply to all adapters in the system. When <i>Global</i> is zero, the port driver reads the contents of the registry value specified by <i>ValueName</i> under the Parameters\Device(d) subkey, where (d) is a decimal value that corresponds to the port number of a particular adapter. In this case, the data retrieved is adapter-specific. 
 
 
-### -param Type 
+### -param Type
 
 Indicates the data type of registry value. This parameter must have one of the values in the following table.
-
 <table>
 <tr>
 <th>Registry value data type</th>
@@ -226,39 +239,41 @@ Indicates that the registry value contains a 64-bit number. This is the same dat
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
-### -param Buffer 
+### -param Buffer
 
 Pointer to the buffer where the retrieved registry information is to be reported. 
 
 
-### -param BufferLength 
+### -param BufferLength
 
 Pointer to a ULONG that contains the size, in bytes, of the registry data returned. 
 
 
 ## -returns
+
+
 <b>StorPortRegistryRead</b> returns a Boolean value of <b>TRUE</b> if the data pointed to by <i>ValueName</i> is successfully converted into ASCII and copied into the buffer. This routine returns <b>FALSE</b> in the event of an error. 
 
 
+
 ## -remarks
+
+
 If <b>StorPortRegistryRead</b> returns <b>FALSE</b> with a nonzero value in the <i>BufferLength</i> parameter, the buffer that was passed was too small and the <i>BufferLength</i> parameter reflects the correct buffer size that should be used. If the routine returns <b>FALSE</b> with the <i>BufferLength</i> parameter set to zero, another error has occurred.
 
 The buffer used in this routine is allocated by calling <a href="..\storport\nf-storport-storportallocateregistrybuffer.md">StorPortAllocateRegistryBuffer</a> and freed by calling <a href="..\storport\nf-storport-storportfreeregistrybuffer.md">StorPortFreeRegistryBuffer</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\storport\nf-storport-storportallocateregistrybuffer.md">StorPortAllocateRegistryBuffer</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportfreeregistrybuffer.md">StorPortFreeRegistryBuffer</a>
-</dt>
-</dl>
+
+<a href="..\storport\nf-storport-storportallocateregistrybuffer.md">StorPortAllocateRegistryBuffer</a>
+
  
 
  

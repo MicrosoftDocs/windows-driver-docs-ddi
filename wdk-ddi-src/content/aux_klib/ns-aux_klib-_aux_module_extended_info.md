@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9733b17d-c990-4eda-87e2-906f2f78c5d5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _AUX_MODULE_EXTENDED_INFO, *PAUX_MODULE_EXTENDED_INFO, AUX_MODULE_EXTENDED_INFO
+ms.keywords: aux_klib_670e2af9-0080-49b9-85c4-06a6b1ae06c6.xml, AUX_MODULE_EXTENDED_INFO structure [Kernel-Mode Driver Architecture], PAUX_MODULE_EXTENDED_INFO structure pointer [Kernel-Mode Driver Architecture], kernel.aux_module_extended_info, *PAUX_MODULE_EXTENDED_INFO, aux_klib/PAUX_MODULE_EXTENDED_INFO, _AUX_MODULE_EXTENDED_INFO, AUX_MODULE_EXTENDED_INFO, aux_klib/AUX_MODULE_EXTENDED_INFO, PAUX_MODULE_EXTENDED_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AUX_MODULE_EXTENDED_INFO
-req.alt-loc: aux_klib.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	aux_klib.h
+apiname: 
+-	AUX_MODULE_EXTENDED_INFO
+product: Windows
+targetos: Windows
 req.typenames: *PAUX_MODULE_EXTENDED_INFO, AUX_MODULE_EXTENDED_INFO
 ---
 
 # _AUX_MODULE_EXTENDED_INFO structure
 
 
-
 ## -description
+
+
 The <b>AUX_MODULE_EXTENDED_INFO</b> structure contains extended information about a loaded image module.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _AUX_MODULE_EXTENDED_INFO {
@@ -56,6 +66,9 @@ typedef struct _AUX_MODULE_EXTENDED_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field BasicInfo
 
@@ -78,15 +91,16 @@ The full path name of the module's image file.
 
 
 ## -remarks
+
+
 The <b>AUX_MODULE_EXTENDED_INFO</b> structure is used as input to the <a href="..\aux_klib\nf-aux_klib-auxklibquerymoduleinformation.md">AuxKlibQueryModuleInformation</a> routine. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\aux_klib\nf-aux_klib-auxklibquerymoduleinformation.md">AuxKlibQueryModuleInformation</a>
-</dt>
-</dl>
+
  
 
  

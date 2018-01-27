@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: b30ccf86-ae6d-484a-a3f2-8b38df26e995
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI_X_CAPABILITY, PCI_X_CAPABILITY, *PPCI_X_CAPABILITY
+ms.keywords: PCI_X_CAPABILITY structure [Buses], PPCI_X_CAPABILITY, wdm/PPCI_X_CAPABILITY, PPCI_X_CAPABILITY structure pointer [Buses], PCI_X_CAPABILITY, PCI.pci_x_capability, *PPCI_X_CAPABILITY, pci_struct_171a6a86-48fe-4955-8f12-43df82659f7a.xml, wdm/PCI_X_CAPABILITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PCI_X_CAPABILITY
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	PCI_X_CAPABILITY
+product: Windows
+targetos: Windows
 req.typenames: PCI_X_CAPABILITY, *PPCI_X_CAPABILITY
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PCI_X_CAPABILITY structure
 
 
-
 ## -description
+
+
 The PCI_X_CAPABILITY structure reports the contents of the command and status registers of a device that is compliant with the <i>PCI-X Addendum to the PCI Local Bus Specification.</i>
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -84,135 +94,139 @@ typedef struct {
 
 ## -struct-fields
 
-### -field Header
 
-Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537454">PCI_CAPABILITIES_HEADER</a> that identifies the capability and provides a link to the next capability description. 
 
 
 ### -field Command
 
 
-### -field bits
+
+### -field Command.bits
 
 
-### -field DataParityErrorRecoveryEnable
+
+### -field Command.bits.DataParityErrorRecoveryEnable
 
 Indicates that the data parity error recovery bit is set in the device's command register, and the device will attempt to recover from data parity errors. For more information about the significance of the value in the parity error recovery bit, see the <i>PCI Local Bus Specification</i>. 
 
 
-### -field EnableRelaxedOrdering
+### -field Command.bits.EnableRelaxedOrdering
 
 Indicates the enable relaxed ordering bit is set in the device's command register. This leaves the device free to adopt a more relaxed transaction ordering policy. For more information about how this bit effects transaction ordering, see the <i>PCI Local Bus Specification</i>. 
 
 
-### -field MaxMemoryReadByteCount
+### -field Command.bits.MaxMemoryReadByteCount
 
 Reports the maximum byte count, recorded in the command register, that the device uses when initiating a burst memory read command. For more information about how this bit effects read commands, see the <i>PCI Local Bus Specification</i>. 
 
 
-### -field MaxOutstandingSplitTransactions
+### -field Command.bits.MaxOutstandingSplitTransactions
 
 Reports the maximum number of split transactions, recorded in the command register, that the device can initiate asynchronously. For more information about how this value effects split transactions, see the <i>PCI Local Bus Specification</i>. 
 
 
-### -field Reserved
+### -field Command.bits.Reserved
 
 Reserved. 
 
-</dd>
-</dl>
 
-### -field AsUSHORT
+### -field Command.AsUSHORT
 
 Reports the data in the device's command register in the form of a unsigned long integer.
 
-</dd>
-</dl>
 
 ### -field Status
 
 
-### -field bits
+
+### -field Status.bits
 
 
-### -field FunctionNumber
+
+### -field Status.bits.FunctionNumber
 
 Indicates the value in the function number field of an address of a type 0 configuration transaction. For more information about the meaning of this number, see the <i>PCI Local Bus Specification</i>. 
 
 
-### -field DeviceNumber
+### -field Status.bits.DeviceNumber
 
 Indicates the value in the device number field of the address of a type 0 configuration transaction. For more information about the meaning of this number, see the <i>PCI Local Bus Specification</i>. 
 
 
-### -field BusNumber
+### -field Status.bits.BusNumber
 
 Indicates the number of the bus segment on which the device is located. For more information about the meaning of this number, see the <i>PCI Local Bus Specification</i>. 
 
 
-### -field Device64Bit
+### -field Status.bits.Device64Bit
 
 Indicates when 1 that the bus is 64 bits wide. When 0 the bus is 32 bits wide. For more information about the meaning of the status register's device 64 bit, see the <i>PCI Local Bus Specification</i>. 
 
 
-### -field Capable133MHz
+### -field Status.bits.Capable133MHz
 
 Indicates when 1 that the device's maximum operating frequency is 133 MHz. Indicates when 0 that the device's maximum operating frequency is 66 MHz. For more information about the meaning of status register's capable 133 Mhz bit, see the <i>PCI Local Bus Specification</i>. 
 
 
-### -field SplitCompletionDiscarded
+### -field Status.bits.SplitCompletionDiscarded
 
 Indicates when 1 that the device discarded a split completion transaction because the requester rejected it. A value of 0 indicates that the device has not discarded any split completion transactions since the status register's split completion discarded bit was last cleared. For more information about the status register's split completion discarded bit, see the <i>PCI Local Bus Specification</i>. 
 
 
-### -field UnexpectedSplitCompletion
+### -field Status.bits.UnexpectedSplitCompletion
 
 Indicates when 1 that the device has received a split completion transaction with the device's requester ID. Indicates when 0 that the device has not received this kind of transaction. For more information about the meaning of the status register's unexpected split completion bit, see the <i>PCI Local Bus Specification</i>. 
 
 
-### -field DeviceComplexity
+### -field Status.bits.DeviceComplexity
 
 Indicates when 1 that the device is a bridge device. When 0 the device is not a bridge device. For more information about the meaning of the status register's device complexity bit, see the <i>PCI Local Bus Specification</i>. 
 
 
-### -field DesignedMaxMemoryReadByteCount
+### -field Status.bits.DesignedMaxMemoryReadByteCount
 
 Reports the maximum byte count, defined in the status register, that the device uses when it initiates a read sequence. For more information about the meaning of this value, see the <i>PCI Local Bus Specification</i>. 
 
 
-### -field DesignedMaxOutstandingSplitTransactions
+### -field Status.bits.DesignedMaxOutstandingSplitTransactions
 
 Reports the maximum number of split transactions, defined in the status register, that the device can permit at any one time. For more information about the meaning of this value, see the <i>PCI Local Bus Specification</i>. 
 
 
-### -field DesignedMaxCumulativeReadSize
+### -field Status.bits.DesignedMaxCumulativeReadSize
 
 Reports the maximum number of burst memory read transactions, defined in the status register, that the device allows at any one time. For more information about this value, see the <i>PCI Local Bus Specification</i>. 
 
 
-### -field ReceivedSplitCompletionErrorMessage
+### -field Status.bits.ReceivedSplitCompletionErrorMessage
 
 Indicates when 1 that the device has received a split completion error message. Indicates when 0 that the device has not received a split completion error message. 
 
-</dd>
-</dl>
 
-### -field AsULONG
+### -field Status.bits.CapablePCIX266
+
+ 
+
+
+### -field Status.bits.CapablePCIX533
+
+ 
+
+
+### -field Status.AsULONG
 
 Reports the data in the device's status register in the form of a unsigned long integer.
 
-</dd>
-</dl>
 
-## -remarks
+### -field Header
+
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537454">PCI_CAPABILITIES_HEADER</a> that identifies the capability and provides a link to the next capability description. 
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537454">PCI_CAPABILITIES_HEADER</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9D8E67D1-EB7C-4EED-8BDD-43D5E012B99C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_PHYSICAL_DEVICE_DATA, STORAGE_PHYSICAL_DEVICE_DATA, *PSTORAGE_PHYSICAL_DEVICE_DATA
+ms.keywords: ntddstor/PSTORAGE_PHYSICAL_DEVICE_DATA, STORAGE_PHYSICAL_DEVICE_DATA, PSTORAGE_PHYSICAL_DEVICE_DATA, ntddstor/STORAGE_PHYSICAL_DEVICE_DATA, PSTORAGE_PHYSICAL_DEVICE_DATA structure pointer [Storage Devices], STORAGE_PHYSICAL_DEVICE_DATA structure [Storage Devices], _STORAGE_PHYSICAL_DEVICE_DATA, storage.storage_physical_device_data, *PSTORAGE_PHYSICAL_DEVICE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_PHYSICAL_DEVICE_DATA
-req.alt-loc: Ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddstor.h
+apiname: 
+-	STORAGE_PHYSICAL_DEVICE_DATA
+product: Windows
+targetos: Windows
 req.typenames: STORAGE_PHYSICAL_DEVICE_DATA, *PSTORAGE_PHYSICAL_DEVICE_DATA
 ---
 
 # _STORAGE_PHYSICAL_DEVICE_DATA structure
 
 
-
 ## -description
+
+
 Specifies the physical device data of a storage device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STORAGE_PHYSICAL_DEVICE_DATA {
@@ -64,6 +74,9 @@ typedef struct _STORAGE_PHYSICAL_DEVICE_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DeviceId
 
@@ -95,19 +108,19 @@ Indicates the specification of the storage device, of type <a href="..\ntddstor\
 Indicates the form factor of a storage device, of type <a href="..\ntddstor\ne-ntddstor-_storage_device_form_factor.md">STORAGE_DEVICE_FORM_FACTOR</a>.
 
 
-### -field Vendor[8]
+### -field Vendor
 
-The vendor name of the storage device.
-
-
-### -field Model[40]
-
-The model name of the storage device.
+ 
 
 
-### -field FirmwareRevision[16]
+### -field Model
 
-The revision number of the storage device.
+ 
+
+
+### -field FirmwareRevision
+
+ 
 
 
 ### -field Capacity
@@ -115,14 +128,38 @@ The revision number of the storage device.
 The capacity of the storage device in units of kilobytes (1024 bytes).
 
 
-### -field PhysicalLocation[32]
+### -field PhysicalLocation
 
-This member is reserved for future use.
+ 
 
 
-### -field Reserved[2]
+### -field Reserved
+
+ 
+
+
+
+#### - Reserved[2]
 
 Specifies if the storage device is reserved.
 
 
-## -remarks
+#### - PhysicalLocation[32]
+
+This member is reserved for future use.
+
+
+#### - FirmwareRevision[16]
+
+The revision number of the storage device.
+
+
+#### - Vendor[8]
+
+The vendor name of the storage device.
+
+
+#### - Model[40]
+
+The model name of the storage device.
+

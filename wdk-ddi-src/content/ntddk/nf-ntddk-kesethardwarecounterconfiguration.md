@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9677dbd7-4b6f-49a9-ac38-fdcbaeb3a6f8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeSetHardwareCounterConfiguration
+ms.keywords: KeSetHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], k105_2cf79626-ed0d-4a15-bd9f-22b669ffde98.xml, KeSetHardwareCounterConfiguration, kernel.kesethardwarecounterconfiguration, ntddk/KeSetHardwareCounterConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 7.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeSetHardwareCounterConfiguration
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeSetHardwareCounterConfiguration
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # KeSetHardwareCounterConfiguration function
 
 
-
 ## -description
+
+
 The <b>KeSetHardwareCounterConfiguration</b> routine specifies a list of hardware counters to use for thread profiling.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KeSetHardwareCounterConfiguration(
@@ -54,6 +64,9 @@ NTSTATUS KeSetHardwareCounterConfiguration(
 
 
 ## -parameters
+
+
+
 
 ### -param CounterArray [in]
 
@@ -66,21 +79,54 @@ Specifies the number of elements in the array that is pointed to by the <i>Count
 
 
 ## -returns
+
+
 <b>KeSetHardwareCounterConfiguration</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The value of the <i>Count</i> parameter exceeds the maximum number of counters that is specified by the MAX_HW_COUNTERS constant, which is defined in the Ntddk.h header file.
+</dl>
+</td>
+<td width="60%">
+The value of the <i>Count</i> parameter exceeds the maximum number of counters that is specified by the MAX_HW_COUNTERS constant, which is defined in the Ntddk.h header file.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_WMI_ALREADY_ENABLED</b></dt>
-</dl>One or more of the counters that are specified in the <i>CounterArray</i> array are already enabled.
+</dl>
+</td>
+<td width="60%">
+One or more of the counters that are specified in the <i>CounterArray</i> array are already enabled.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>This routine is not implemented for the processor architecture that the caller is running on.
+</dl>
+</td>
+<td width="60%">
+This routine is not implemented for the processor architecture that the caller is running on.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 In Windows 7, this routine is implemented only for the x86-based, x64-based, and Itanium-based architectures. If a caller is running on a processor architecture that is not supported, the routine returns STATUS_NOT_IMPLEMENTED.
 
 This routine tells the operating system which hardware counters to use for thread profiling. Call this routine only when thread profiling is disabled. If the <i>CounterArray</i> array specifies any hardware counters that are currently being used, the routine fails and returns STATUS_WMI_ALREADY_ENABLED.
@@ -100,21 +146,17 @@ To query the operating system for the hardware counter configuration that is cur
 Virtualization software typically does not virtualize hardware performance counters. Thus, hardware performance counters are unlikely to be available in a virtual machine.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-halallocatehardwarecounters.md">HalAllocateHardwareCounters</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-halfreehardwarecounters.md">HalFreeHardwareCounters</a>
-</dt>
-<dt>
-<a href="..\ntddk\ns-ntddk-_hardware_counter.md">HARDWARE_COUNTER</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-kequeryhardwarecounterconfiguration.md">KeQueryHardwareCounterConfiguration</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\ns-ntddk-_hardware_counter.md">HARDWARE_COUNTER</a>
+
+<a href="..\ntddk\nf-ntddk-halfreehardwarecounters.md">HalFreeHardwareCounters</a>
+
  
 
  

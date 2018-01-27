@@ -7,8 +7,8 @@ old-location: netvista\ndis_miniport_restart_parameters.htm
 old-project: netvista
 ms.assetid: 4e005245-ed98-47fd-aaae-421940edf2dc
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_MINIPORT_RESTART_PARAMETERS, *PNDIS_MINIPORT_RESTART_PARAMETERS, NDIS_MINIPORT_RESTART_PARAMETERS
+ms.date: 1/18/2018
+ms.keywords: netvista.ndis_miniport_restart_parameters, NDIS_MINIPORT_RESTART_PARAMETERS structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_MINIPORT_RESTART_PARAMETERS, ndis/NDIS_MINIPORT_RESTART_PARAMETERS, miniport_structures_ref_618076bd-9d88-4104-89fd-c2ccddf32b02.xml, PNDIS_MINIPORT_RESTART_PARAMETERS, NDIS_MINIPORT_RESTART_PARAMETERS, PNDIS_MINIPORT_RESTART_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_MINIPORT_RESTART_PARAMETERS, _NDIS_MINIPORT_RESTART_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_MINIPORT_RESTART_PARAMETERS
-req.alt-loc: ndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-req.typenames: *PNDIS_MINIPORT_RESTART_PARAMETERS, NDIS_MINIPORT_RESTART_PARAMETERS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ndis.h
+apiname: 
+-	NDIS_MINIPORT_RESTART_PARAMETERS
+product: Windows
+targetos: Windows
+req.typenames: NDIS_MINIPORT_RESTART_PARAMETERS, *PNDIS_MINIPORT_RESTART_PARAMETERS
 ---
 
 # _NDIS_MINIPORT_RESTART_PARAMETERS structure
 
 
-
 ## -description
+
+
 The NDIS_MINIPORT_RESTART_PARAMETERS structure defines the restart parameters for a miniport
   adapter.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NDIS_MINIPORT_RESTART_PARAMETERS {
@@ -56,6 +66,9 @@ typedef struct _NDIS_MINIPORT_RESTART_PARAMETERS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -71,8 +84,8 @@ The
 ### -field RestartAttributes
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">
-     NDIS_RESTART_ATTRIBUTES</a> structure.
+     <mshelp:link keywords="netvista.ndis_restart_attributes" tabindex="0"><b>
+     NDIS_RESTART_ATTRIBUTES</b></mshelp:link> structure.
 
 
 ### -field Flags
@@ -81,26 +94,25 @@ Reserved.
 
 
 ## -remarks
+
+
 To define miniport adapter restart parameters, NDIS passes a pointer to an
     NDIS_MINIPORT_RESTART_PARAMETERS structure to the 
     <a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
-</dt>
-<dt>
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
-</dt>
-</dl>
- 
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_MINIPORT_RESTART_PARAMETERS structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_MINIPORT_RESTART_PARAMETERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

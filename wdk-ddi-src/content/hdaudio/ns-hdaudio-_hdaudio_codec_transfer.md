@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ee73c5d2-9c4d-4d6f-b792-7966964fedf7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _HDAUDIO_CODEC_TRANSFER, *PHDAUDIO_CODEC_TRANSFER, HDAUDIO_CODEC_TRANSFER
+ms.keywords: HDAUDIO_CODEC_TRANSFER structure [Audio Devices], audio.hdaudio_codec_transfer, hdaudio/PHDAUDIO_CODEC_TRANSFER, HDAUDIO_CODEC_TRANSFER, PHDAUDIO_CODEC_TRANSFER structure pointer [Audio Devices], _HDAUDIO_CODEC_TRANSFER, hdaudio/HDAUDIO_CODEC_TRANSFER, *PHDAUDIO_CODEC_TRANSFER, aud-prop2_7bb7a1d5-ed28-48d4-8ca4-ff2f85002d7c.xml, PHDAUDIO_CODEC_TRANSFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HDAUDIO_CODEC_TRANSFER
-req.alt-loc: hdaudio.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL.
-req.typenames: *PHDAUDIO_CODEC_TRANSFER, HDAUDIO_CODEC_TRANSFER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hdaudio.h
+apiname: 
+-	HDAUDIO_CODEC_TRANSFER
+product: Windows
+targetos: Windows
+req.typenames: HDAUDIO_CODEC_TRANSFER, *PHDAUDIO_CODEC_TRANSFER
 ---
 
 # _HDAUDIO_CODEC_TRANSFER structure
 
 
-
 ## -description
+
+
 The HDAUDIO_CODEC_TRANSFER structure specifies a codec command and the response to that command.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _HDAUDIO_CODEC_TRANSFER {
@@ -54,6 +64,9 @@ typedef struct _HDAUDIO_CODEC_TRANSFER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Output
 
@@ -66,25 +79,29 @@ Specifies the response to the codec command. This member is a structure of type 
 
 
 ## -remarks
-This structure is used by the <b>TransferCodecVerbs</b> routine:
 
+
+This structure is used by the <b>TransferCodecVerbs</b> routine:
+<ul>
+<li>
 At entry, the <b>Output</b> member contains a codec command from the caller.
 
+</li>
+<li>
 Upon return, the <b>Input</b> member contains the response to the codec command.
+
+</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_command.md">HDAUDIO_CODEC_COMMAND</a>
-</dt>
-<dt>
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_response.md">HDAUDIO_CODEC_RESPONSE</a>
-</dt>
-<dt>
+
 <a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
-</dt>
-</dl>
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_command.md">HDAUDIO_CODEC_COMMAND</a>
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_response.md">HDAUDIO_CODEC_RESPONSE</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d3507214-82bc-4d73-8562-2843d7876137
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortInterlockedIncrement
+ms.keywords: VideoPortInterlockedIncrement, video/VideoPortInterlockedIncrement, VideoPort_Functions_ae59ee02-e3b2-43f6-8b93-8fe6bcedf248.xml, VideoPortInterlockedIncrement function [Display Devices], display.videoportinterlockedincrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortInterlockedIncrement
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortInterlockedIncrement
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortInterlockedIncrement function
 
 
-
 ## -description
+
+
 The <b>VideoPortInterlockedIncrement</b> function increments a caller-supplied variable as an atomic operation.
 
 
-
 ## -syntax
+
 
 ````
 LONG FASTCALL VideoPortInterlockedIncrement(
@@ -55,30 +65,36 @@ LONG FASTCALL VideoPortInterlockedIncrement(
 
 ## -parameters
 
+
+
+
 ### -param Addend [in]
 
 Pointer to the variable to be incremented.
 
 
 ## -returns
+
+
 <b>VideoPortInterlockedIncrement</b> returns the incremented value.
 
 
+
 ## -remarks
+
+
 When possible and whenever appropriate, <b>VideoPortInterlockedIncrement</b> is implemented inline by the compiler. It can be safely used on pageable data.
 
 This function is atomic only with respect to other <b>VideoPortInterlocked</b><i>Xxx</i> calls. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\video\nf-video-videoportinterlockeddecrement.md">VideoPortInterlockedDecrement</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportinterlockedexchange.md">VideoPortInterlockedExchange</a>
-</dt>
-</dl>
+
+<a href="..\video\nf-video-videoportinterlockeddecrement.md">VideoPortInterlockedDecrement</a>
+
  
 
  

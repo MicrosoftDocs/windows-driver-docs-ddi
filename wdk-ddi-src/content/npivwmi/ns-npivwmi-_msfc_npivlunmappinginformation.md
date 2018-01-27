@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5E8A2338-AF1E-41BE-870B-E1F1877DDEDD
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSFC_NPIVLUNMappingInformation, *PMSFC_NPIVLUNMappingInformation, MSFC_NPIVLUNMappingInformation
+ms.keywords: _MSFC_NPIVLUNMappingInformation, PMSFC_NPIVLUNMappingInformation structure pointer [Storage Devices], npivwmi/MSFC_NPIVLUNMappingInformation, MSFC_NPIVLUNMappingInformation, npivwmi/PMSFC_NPIVLUNMappingInformation, PMSFC_NPIVLUNMappingInformation, MSFC_NPIVLUNMappingInformation structure [Storage Devices], storage.msfc_npivlunmappinginformation, *PMSFC_NPIVLUNMappingInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSFC_NPIVLUNMappingInformation
-req.alt-loc: npivwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	npivwmi.h
+apiname: 
+-	MSFC_NPIVLUNMappingInformation
+product: Windows
+targetos: Windows
 req.typenames: *PMSFC_NPIVLUNMappingInformation, MSFC_NPIVLUNMappingInformation
 ---
 
 # _MSFC_NPIVLUNMappingInformation structure
 
 
-
 ## -description
+
+
 The MSFC_NPIVLUNMappingInformation structure contains the Logical Unit Number (LUN) to virtual port mapping information.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSFC_NPIVLUNMappingInformation {
@@ -57,6 +67,9 @@ typedef struct _MSFC_NPIVLUNMappingInformation {
 
 
 ## -struct-fields
+
+
+
 
 ### -field WWPNVirtualPort
 
@@ -83,15 +96,10 @@ The target device ID number of the LUN mapped to the virtual port.
 The LUN mapped to the virtual port.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh127627">MSFC_NPIVLUNMappingInformation WMI Class</a>
-</dt>
-</dl>
+
  
 
  

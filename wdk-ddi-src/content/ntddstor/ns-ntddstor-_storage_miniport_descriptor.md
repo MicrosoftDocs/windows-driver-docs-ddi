@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 30497CA8-70B6-48F9-B5D5-45E606A3226E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_MINIPORT_DESCRIPTOR, *PSTORAGE_MINIPORT_DESCRIPTOR, STORAGE_MINIPORT_DESCRIPTOR
+ms.keywords: PSTORAGE_MINIPORT_DESCRIPTOR structure pointer [Storage Devices], STORAGE_MINIPORT_DESCRIPTOR, STORAGE_MINIPORT_DESCRIPTOR structure [Storage Devices], ntddstor/STORAGE_MINIPORT_DESCRIPTOR, PSTORAGE_MINIPORT_DESCRIPTOR, *PSTORAGE_MINIPORT_DESCRIPTOR, ntddstor/PSTORAGE_MINIPORT_DESCRIPTOR, storage.storage_miniport_descriptor, _STORAGE_MINIPORT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_MINIPORT_DESCRIPTOR
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSTORAGE_MINIPORT_DESCRIPTOR, STORAGE_MINIPORT_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	STORAGE_MINIPORT_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: STORAGE_MINIPORT_DESCRIPTOR, *PSTORAGE_MINIPORT_DESCRIPTOR
 ---
 
 # _STORAGE_MINIPORT_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 Reserved for system use.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STORAGE_MINIPORT_DESCRIPTOR {
@@ -61,6 +71,9 @@ typedef struct _STORAGE_MINIPORT_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -109,5 +122,3 @@ Indicates whether a target reset is supported.
 
 <b>Introduced in Windows 8.1:  </b>Reserved for future use.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f4d3d2cf-8877-4071-8e75-f971803beca4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFWorkItem, IWDFWorkItem::GetParentObject, GetParentObject
+ms.keywords: wdf.iwdfdevice2, IWDFDevice2 interface, IWDFDevice2 interface, described, IWDFDevice2, wudfddi/IWDFDevice2, UMDFDeviceObjectRef_0b02d642-234d-4f98-b6d1-5557aa74eb14.xml, umdf.iwdfdevice2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.9
-req.alt-api: IWDFDevice2
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFDevice2
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,43 +47,16 @@ req.product: Windows 10 or later.
 # IWDFDevice2 interface
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 Drivers obtain the <b>IWDFDevice2</b> interface by calling <b>IWDFDevice::QueryInterface</b>.
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFDevice2</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>. <b>IWDFDevice2</b> also has these types of members:
-
-The <b>IWDFDevice2</b> interface has these methods.
-
-The <a href="https://msdn.microsoft.com/ffe91b9a-3b74-4dd9-b23d-096f1992485e">AssignS0IdleSettings</a> method provides driver-supplied information that the framework uses when a device is idle and the system is in its working (S0) state.
-
-The <a href="https://msdn.microsoft.com/32d3b680-298b-443e-a2c4-db8fc057bf75">AssignSxWakeSettings</a> method provides driver-supplied information about a device's ability to trigger a wake signal while both the device and the system are in a low-power state.
-
-The <a href="https://msdn.microsoft.com/fb2def4b-c027-465d-b734-20b4b83a6308">CreateRemoteInterface</a> method creates a remote interface object that represents a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a>.
-
-The <a href="https://msdn.microsoft.com/0b11d913-f488-4237-85e3-4469eefc0b91">CreateRemoteTarget</a> method creates a remote target object that represents a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a>.
-
-The<a href="https://msdn.microsoft.com/bce932a6-2f73-4d0e-8616-45fd41abb776">CreateSymbolicLinkWithReferenceString</a> method creates a symbolic link name, and optionally, a reference string, for a device 
-
-The <a href="https://msdn.microsoft.com/3a1f6432-3f61-4502-ac98-fa984539f88e">GetDeviceStackIoTypePreference</a> method retrieves the buffer access methods that the framework is using for a device.
-
-The <a href="https://msdn.microsoft.com/0030d64b-3f88-4bb3-b7d2-fcdc57d4d887">GetSystemPowerAction</a> method returns the <a href="https://msdn.microsoft.com/e8ab99d4-c18d-4ba8-bfe8-8eebb881c384">system power action</a>, if any, that is currently occurring for the computer. 
-
-The <a href="https://msdn.microsoft.com/48e1fc20-03e7-42ef-b57c-9246a56df4ef">RegisterRemoteInterfaceNotification</a> method registers a driver to receive a notification when a specified <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a> becomes available.
-
-The <a href="https://msdn.microsoft.com/e821f738-3712-49c2-9026-ff6ddc0381a6">ResumeIdle</a> method informs the framework that the device is not in use and can be placed in a device low-power state if it remains idle.
-
-The <a href="https://msdn.microsoft.com/1a4907c9-8e3b-4fb6-a7d4-89985e470e48">StopIdle</a> method informs the framework that the device must be placed in its working (D0) power state.
-
- 
-
-
 ## -members
+
 The <b>IWDFDevice2</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -193,5 +175,3 @@ The <a href="https://msdn.microsoft.com/1a4907c9-8e3b-4fb6-a7d4-89985e470e48">St
 
  
 
-
-## -remarks

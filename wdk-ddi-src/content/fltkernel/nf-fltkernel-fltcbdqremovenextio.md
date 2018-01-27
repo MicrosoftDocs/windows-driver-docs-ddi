@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4f207ef2-e999-4410-aaa1-5d32c4f22864
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltCbdqRemoveNextIo
+ms.keywords: fltkernel/FltCbdqRemoveNextIo, FltCbdqRemoveNextIo, FltCbdqRemoveNextIo function [Installable File System Drivers], ifsk.fltcbdqremovenextio, FltApiRef_a_to_d_fec6e01e-c699-45cf-b9fb-c4dea9b2e462.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltCbdqRemoveNextIo
-req.alt-loc: fltkernel.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	fltkernel.h
+apiname: 
+-	FltCbdqRemoveNextIo
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltCbdqRemoveNextIo function
 
 
-
 ## -description
+
+
 <i>FltCbdqRemoveNextIo</i> removes the next matching item in a minifilter driver's callback data queue. 
 
 
-
 ## -syntax
+
 
 ````
 PFLT_CALLBACK_DATA FltCbdqRemoveNextIo(
@@ -54,6 +64,9 @@ PFLT_CALLBACK_DATA FltCbdqRemoveNextIo(
 
 
 ## -parameters
+
+
+
 
 ### -param Cbdq [in, out]
 
@@ -66,10 +79,15 @@ Pointer to caller-defined information that identifies the matching item. This pa
 
 
 ## -returns
+
+
 <i>FltCbdqRemoveNextIo</i> returns a pointer to the callback data (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>) structure for the item that was removed from the queue or <b>NULL</b> if no matching items were found. <i>FltCbdqRemoveNextIo</i> only returns items for I/O operations that have not yet been canceled. 
 
 
+
 ## -remarks
+
+
 <i>FltCbdqRemoveNextIo</i> removes the next matching item from a minifilter driver's callback data queue. 
 
 Minifilter drivers can use the <b>FltCbdq</b><i>Xxx</i> routines to implement a callback data queue for IRP-based I/O operations. By using these routines, minifilter drivers can make their queues cancel-safe; the system transparently handles I/O cancellation for the minifilter drivers. 
@@ -83,33 +101,25 @@ A callback data queue is initialized by <a href="..\fltkernel\nf-fltkernel-fltcb
 If the queue is protected by a <a href="https://msdn.microsoft.com/0585fc2a-0d0b-434d-92b3-da07a9385444">spin lock</a>, rather than a <a href="https://msdn.microsoft.com/e2142b6d-f460-4f80-be0f-e00b5d43731c">mutex object</a> or <a href="..\wdm\nf-wdm-exinitializeresourcelite.md">resource variable</a>, the caller of <i>FltCbdqRemoveNextIo</i> can be running at IRQL &lt;= DISPATCH_LEVEL. If a mutex or resource is used, the caller must be running at IRQL &lt;= APC_LEVEL. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data_queue.md">FLT_CALLBACK_DATA_QUEUE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltcbdqdisable.md">FltCbdqDisable</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltcbdqenable.md">FltCbdqEnable</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltcbdqinitialize.md">FltCbdqInitialize</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltcbdqinsertio.md">FltCbdqInsertIo</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltcbdqremoveio.md">FltCbdqRemoveIo</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltcbdqinsertio.md">FltCbdqInsertIo</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltcbdqinitialize.md">FltCbdqInitialize</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
+
  
 
  

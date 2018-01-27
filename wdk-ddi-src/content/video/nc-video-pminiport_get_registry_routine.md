@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 90020700-b9c8-42e6-bafa-908cbc3eb233
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VHF_CONFIG, VHF_CONFIG, *PVHF_CONFIG
+ms.keywords: display.hwvidquerynamedvaluecallback, HwVidQueryNamedValueCallback callback function [Display Devices], HwVidQueryNamedValueCallback, PMINIPORT_GET_REGISTRY_ROUTINE, PMINIPORT_GET_REGISTRY_ROUTINE, video/HwVidQueryNamedValueCallback, VideoMiniport_Functions_4e6a63e7-cf5f-4cb6-9e9a-10286e40d762.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HwVidQueryNamedValueCallback
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	video.h
+apiname: 
+-	HwVidQueryNamedValueCallback
+product: Windows
+targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PMINIPORT_GET_REGISTRY_ROUTINE callback
 
 
-
 ## -description
+
+
 <i>HwVidQueryNamedValueCallback</i> processes the specified data retrieved from the registry.
 
 
-
 ## -prototype
+
 
 ````
 PMINIPORT_GET_REGISTRY_ROUTINE HwVidQueryNamedValueCallback;
@@ -62,36 +72,44 @@ VP_STATUS HwVidQueryNamedValueCallback(
 
 ## -parameters
 
-### -param HwDeviceExtension 
+
+
+
+### -param HwDeviceExtension
 
 Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543119">Device Extensions</a>.
 
 
-### -param Context 
+### -param Context
 
 Pointer to a driver-determined context specified as input to the <a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a> function.
 
 
-### -param ValueName 
+### -param ValueName
 
 Pointer to a NULL-terminated Unicode string naming the entry.
 
 
-### -param ValueData 
+### -param ValueData
 
 Pointer to the buffered data associated with <i>ValueName</i>, supplied by <b>VideoPortGetRegistryParameters</b>.
 
 
-### -param ValueLength 
+### -param ValueLength
 
 Specifies the size in bytes of the buffer at <i>ValueData</i>.
 
 
 ## -returns
+
+
 <i>HwVidQueryNamedValueCallback</i> returns the status of the operation.
 
 
+
 ## -remarks
+
+
 <i>HwVidQueryNamedValueCallback</i> is an optional miniport driver function passed in a call to <a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>.
 
 <b>VideoPortGetRegistryParameters</b> calls <i>HwVidQueryNamedValueCallback</i> after collecting available configuration information about the given <i>ValueName</i> in the <b>adapter</b> key of the registry. 
@@ -109,24 +127,19 @@ The returned <i>ValueData</i> is on the stack, so it can be referenced locally. 
 <i>HwVidQueryNamedValueCallback</i> should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-</dt>
-<dt>
-<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
-</dt>
-<dt>
+
 <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-</dt>
-<dt>
+
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+
 <a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportsetregistryparameters.md">VideoPortSetRegistryParameters</a>
-</dt>
-</dl>
+
+<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
+
  
 
  

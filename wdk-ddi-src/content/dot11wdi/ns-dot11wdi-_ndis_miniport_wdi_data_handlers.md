@@ -7,8 +7,8 @@ old-location: netvista\ndis_miniport_wdi_data_handlers.htm
 old-project: netvista
 ms.assetid: DBDB5F08-9988-4D9B-A731-DA65BBA67813
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_MINIPORT_WDI_DATA_HANDLERS, NDIS_MINIPORT_WDI_DATA_HANDLERS, *PNDIS_MINIPORT_WDI_DATA_HANDLERS
+ms.date: 1/18/2018
+ms.keywords: NDIS_MINIPORT_WDI_DATA_HANDLERS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_WDI_DATA_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_MINIPORT_WDI_DATA_HANDLERS, dot11wdi/PNDIS_MINIPORT_WDI_DATA_HANDLERS, dot11wdi/NDIS_MINIPORT_WDI_DATA_HANDLERS, PNDIS_MINIPORT_WDI_DATA_HANDLERS, *PNDIS_MINIPORT_WDI_DATA_HANDLERS, _NDIS_MINIPORT_WDI_DATA_HANDLERS, netvista.ndis_miniport_wdi_data_handlers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_MINIPORT_WDI_DATA_HANDLERS
-req.alt-loc: dot11wdi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: NDIS_MINIPORT_WDI_DATA_HANDLERS, *PNDIS_MINIPORT_WDI_DATA_HANDLERS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dot11wdi.h
+apiname: 
+-	NDIS_MINIPORT_WDI_DATA_HANDLERS
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_MINIPORT_WDI_DATA_HANDLERS, NDIS_MINIPORT_WDI_DATA_HANDLERS
 ---
 
 # _NDIS_MINIPORT_WDI_DATA_HANDLERS structure
 
 
-
 ## -description
+
+
 The NDIS_MINIPORT_WDI_DATA_HANDLERS structure specifies the entry points for the IHV miniport datapath handlers.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NDIS_MINIPORT_WDI_DATA_HANDLERS {
@@ -78,6 +88,9 @@ typedef struct _NDIS_MINIPORT_WDI_DATA_HANDLERS {
 
 ## -struct-fields
 
+
+
+
 ### -field Header
 
 The 
@@ -92,14 +105,6 @@ To indicate the version of the NDIS_MINIPORT_WDI_DATA_HANDLERS structure, set th
 
 
 
-
-### -field NDIS_OBJECT_TYPE_MINIPORT_WDI_DATA_HANDLERS_REVISION_1
-
-Set the 
-        <b>Size</b> member to NDIS_SIZEOF_MINIPORT_WDI_DATA_HANDLERS_REVISION_1.
-
-</dd>
-</dl>
 
 ### -field TxAbortHandler
 
@@ -221,4 +226,14 @@ The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_pe
 The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_peer_delete_confirm.md">MiniportWdiTalTxRxPeerDeleteConfirm</a> handler function.
 
 
-## -remarks
+### -field TxSuspectFrameAbortHandler
+
+ 
+
+
+
+##### - Header.NDIS_OBJECT_TYPE_MINIPORT_WDI_DATA_HANDLERS_REVISION_1
+
+Set the 
+        <b>Size</b> member to NDIS_SIZEOF_MINIPORT_WDI_DATA_HANDLERS_REVISION_1.
+

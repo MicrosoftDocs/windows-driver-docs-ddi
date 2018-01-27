@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a38e1215-4689-4b75-9a32-4d6570694b77
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _KSM_PIN_PAIR, *PKSM_PIN_PAIR, KSM_PIN_PAIR
+ms.keywords: bdasup/KSM_PIN_PAIR, KSM_PIN_PAIR structure [Streaming Media Devices], stream.ksm_pin_pair, PKSM_PIN_PAIR, KSM_PIN_PAIR, *PKSM_PIN_PAIR, bdaref_4d2071d5-ba64-4026-95a9-0763dc2f13cf.xml, _KSM_PIN_PAIR, bdasup/PKSM_PIN_PAIR, PKSM_PIN_PAIR structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSM_PIN_PAIR
-req.alt-loc: bdasup.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bdasup.h
+apiname: 
+-	KSM_PIN_PAIR
+product: Windows
+targetos: Windows
 req.typenames: *PKSM_PIN_PAIR, KSM_PIN_PAIR
 ---
 
 # _KSM_PIN_PAIR structure
 
 
-
 ## -description
+
+
 The KSM_PIN_PAIR structure describes a method request to retrieve the pin pairing structure (BDA_PIN_PAIRING) between a pair of input and output pins. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _KSM_PIN_PAIR {
@@ -56,6 +66,9 @@ typedef struct _KSM_PIN_PAIR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Method
 
@@ -77,18 +90,12 @@ Identifier of an output pin of the filter.
 Reserved.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
-</dt>
-</dl>
+
+<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
+
  
 
  

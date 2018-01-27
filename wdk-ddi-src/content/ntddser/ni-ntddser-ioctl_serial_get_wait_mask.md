@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 2ee8591a-f48e-43ad-8b88-74a1401aad07
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SdBusSubmitRequestAsync
+ms.keywords: serports.ioctl_serial_get_wait_mask, IOCTL_SERIAL_GET_WAIT_MASK control code [Serial Ports], IOCTL_SERIAL_GET_WAIT_MASK, ntddser/IOCTL_SERIAL_GET_WAIT_MASK, serref_d06a9ed8-0871-455b-8d91-8f530adfcfe9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_SERIAL_GET_WAIT_MASK
-req.alt-loc: Ntddser.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddser.h
+apiname: 
+-	IOCTL_SERIAL_GET_WAIT_MASK
+product: Windows
+targetos: Windows
 req.typenames: SD_REQUEST_FUNCTION
 ---
 
 # IOCTL_SERIAL_GET_WAIT_MASK IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 The <b>IOCTL_SERIAL_GET_WAIT_MASK</b> request returns the event wait mask that is currently set for the serial controller.
 
 A client can wait for the wait events represented by flag bits <b>SERIAL_EV_RXCHAR</b> through <b>SERIAL_EV_EVENT2</b>. For more information about these event flags, see the Remarks section.
@@ -46,41 +61,55 @@ A client can wait for the wait events represented by flag bits <b>SERIAL_EV_RXCH
 To set an event wait mask, a client can use an <a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a> request. To wait for the occurrence of a wait event, a client uses an <a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a> request.
 
 
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 None.
 
 
 ### -input-buffer-length
+
 None.
 
 
 ### -output-buffer
+
 The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated ULONG buffer that the serial controller driver uses to output the wait mask. The wait mask is either zero or the bitwise-OR of one or more of the <b>SERIAL_EV_</b><i>XXX</i> event flags.
 
 
 ### -output-buffer-length
+
 The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the size, in bytes, of a ULONG.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 If the request is successful, the <b>Information</b> member is set to the size, in bytes, of a ULONG. Otherwise, the <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="serial_device_control_requests.htm#generic_status_values_for_serial_device_control_requests">Generic Status Values for Serial Device Control Requests</a>.
+The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
 
 
 ## -remarks
+
+
 
     The <b>SERIAL_EV_</b><i>XXX</i> constants define the flag bits in the wait mask for a serial port.
    
@@ -103,32 +132,6 @@ The <b>Status</b> member is set to one of the <a href="serial_device_control_req
 
 
 
-A character was received and placed in the input buffer.
-
-The event character was received and placed in the input buffer. The event character value is set by the <a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a> request.
-
-The last character was transmitted from the output buffer, which is now empty.
-
-The CTS (clear to send) signal changed state.
-
-The DSR (data set ready) signal changed state.
-
-The RLSD (receive line signal detect) signal changed state.
-
-A break was detected in the input stream.
-
-A line status error occurred. Possible line status errors are SERIAL_ERROR_FRAMING, SERIAL_ERROR_OVERRUN, and SERIAL_ERROR_PARITY. For more information about these errors, see the description of the <b>Errors</b> member in <a href="..\ntddser\ns-ntddser-_serial_status.md">SERIAL_STATUS</a>.
-
-A ring signal was detected.
-
-A printer error occurred.
-
-The receive buffer is 80 percent full.
-
-Provider-specific event number 1 occurred.
-
-Provider-specific event number 2 occurred.
-
 The <b>SERIAL_EV_</b><i>XXX</i> constants define the types of events that can be specified in a wait mask. After a client (application or peripheral driver) opens a connection to a serial port, the client can specify a wait mask that indicates the types of events that the client needs to monitor. These events are changes in the hardware state of the serial port. When an event in the wait mask occurs, the client is notified.
 
 The <a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a> and <b>IOCTL_SERIAL_GET_WAIT_MASK</b> control requests use event wait masks to specify a set of events on which a client can wait. A wait mask value is either zero or the bitwise-OR of one or more <b>SERIAL_EV_</b><i>XXX</i> constants. A wait mask value of zero indicates that the client is not waiting for any events.
@@ -136,31 +139,110 @@ The <a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_S
 The client sends an <a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a> control request to wait for an event in the currently set wait mask. The serial controller driver completes this request when an event in the wait mask occurs.
 
 The following table shows which <b>SERIAL_EV_</b><i>XXX</i> flag bits are supported by SerCx2, SerCx, and Serial.sys. A <b>Yes</b> entry in the table indicates that the serial framework extension or driver supports the corresponding flag bit. A <b>No</b> entry indicates that the flag bit is <u>not</u> supported.
+<table>
+<tr>
+<th>Flag bit</th>
+<th>SerCx2</th>
+<th>SerCx</th>
+<th>Serial.sys</th>
+</tr>
+<tr>
+<td><b>SERIAL_EV_RXCHAR</b></td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><b>SERIAL_EV_RXFLAG</b></td>
+<td>See note.</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><b>SERIAL_EV_TXEMPTY</b></td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><b>SERIAL_EV_CTS</b></td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><b>SERIAL_EV_DSR</b></td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><b>SERIAL_EV_RLSD</b></td>
+<td>See note.</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><b>SERIAL_EV_BREAK</b></td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><b>SERIAL_EV_ERR</b></td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><b>SERIAL_EV_RING</b></td>
+<td>See note.</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><b>SERIAL_EV_PERR</b></td>
+<td>See note.</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td><b>SERIAL_EV_RX80FULL</b></td>
+<td>See note.</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><b>SERIAL_EV_EVENT1</b></td>
+<td>See note.</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td><b>SERIAL_EV_EVENT2</b></td>
+<td>See note.</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</table> 
+<div class="alert"><b>Note</b>  SerCx2 may or may not support the flag bit in the indicated table entry, depending on the serial controller driver and the capabilities of the serial controller hardware.</div><div> </div>For more information about SerCx2, SerCx, and Serial.sys, see <a href="https://msdn.microsoft.com/1EA0221E-0F68-429B-9DA5-4AE2D3394A09">Serial Controller Drivers Overview</a>.
 
-For more information about SerCx2, SerCx, and Serial.sys, see <a href="https://msdn.microsoft.com/1EA0221E-0F68-429B-9DA5-4AE2D3394A09">Serial Controller Drivers Overview</a>.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_chars.md">IOCTL_SERIAL_GET_CHARS</a>
-</dt>
-<dt>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
-</dt>
-<dt>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
-</dt>
-<dt>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
-</dt>
-<dt>
-<a href="..\ntddser\ns-ntddser-_serial_chars.md">SERIAL_CHARS</a>
-</dt>
-<dt>
+
 <a href="..\ntddser\ns-ntddser-_serial_status.md">SERIAL_STATUS</a>
-</dt>
-</dl>
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_get_chars.md">IOCTL_SERIAL_GET_CHARS</a>
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
+
+<a href="..\ntddser\ns-ntddser-_serial_chars.md">SERIAL_CHARS</a>
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
+
  
 
  

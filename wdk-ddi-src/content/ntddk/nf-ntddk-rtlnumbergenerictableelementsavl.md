@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: CC67993A-99B1-41DC-9278-7A475EF87089
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlNumberGenericTableElementsAvl
+ms.keywords: ifsk.rtlnumbergenerictableelementsavl, RtlNumberGenericTableElementsAvl routine [Installable File System Drivers], RtlNumberGenericTableElementsAvl, ntddk/RtlNumberGenericTableElementsAvl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows XP.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlNumberGenericTableElementsAvl
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL (see Remarks section)
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlNumberGenericTableElementsAvl
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # RtlNumberGenericTableElementsAvl function
 
 
-
 ## -description
+
+
 The <b>RtlNumberGenericTableElementsAvl</b> routine returns the number of elements in a generic table. 
 
 
-
 ## -syntax
+
 
 ````
 ULONG RtlNumberGenericTableElementsAvl(
@@ -54,16 +64,24 @@ ULONG RtlNumberGenericTableElementsAvl(
 
 ## -parameters
 
+
+
+
 ### -param Table [in]
 
 Pointer to the generic table (<a href="..\ntddk\ns-ntddk-_rtl_avl_table.md">RTL_AVL_TABLE</a>). The table must have been initialized by calling <a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>.
 
 
 ## -returns
+
+
 <b>RtlNumberGenericTableElementsAvl</b> returns the number of elements that are currently stored in the table. 
 
 
+
 ## -remarks
+
+
 By default, the operating system uses splay trees to implement generic tables, but the <b>RtlNumberGenericTableElementsAvl</b> routine only works with Adelson-Velsky/Landis (AVL) trees. To configure the generic table routines to use AVL trees instead of splay trees in your driver, insert the following define statement in a common header file before including <i>Ntddk.h</i>:
 
 #define RTL_USE_AVL_TABLES 0
@@ -75,15 +93,13 @@ Callers of the<i> Rtl..GenericTableAvl</i> routines are responsible for exclusiv
 Callers of <b>RtlNumberGenericTableElementsAvl</b> must be running at IRQL &lt; DISPATCH_LEVEL if the caller-allocated memory for the generic table is pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-rtlisgenerictableemptyavl.md">RtlIsGenericTableEmptyAvl</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
+
  
 
  

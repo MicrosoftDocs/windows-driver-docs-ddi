@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 478e0c52-4324-4062-8e1e-381808b0f481
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+ms.keywords: display.dxgkddiquerychildstatus, DxgkDdiQueryChildStatus callback function [Display Devices], DxgkDdiQueryChildStatus, DXGKDDI_QUERY_CHILD_STATUS, DXGKDDI_QUERY_CHILD_STATUS, dispmprt/DxgkDdiQueryChildStatus, DmFunctions_3da69961-14d3-4bf8-9427-9c47d9bbfb89.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiQueryChildStatus
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DxgkDdiQueryChildStatus
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_QUERY_CHILD_STATUS callback
 
 
-
 ## -description
+
+
 The <i>DxgkDdiQueryChildStatus</i> function returns the status of an individual child device of a display adapter.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_QUERY_CHILD_STATUS DxgkDdiQueryChildStatus;
@@ -58,6 +68,9 @@ NTSTATUS* DxgkDdiQueryChildStatus(
 
 
 ## -parameters
+
+
+
 
 ### -param MiniportDeviceContext [in]
 
@@ -75,33 +88,39 @@ A BOOLEAN value that specifies whether the display miniport driver is permitted 
 
 
 ## -returns
+
+
 <i>DxgkDdiQueryChildStatus </i>returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
 
+
 ## -remarks
+
+
 During initialization, the display port driver calls <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a> to get a list of devices that are children of the display adapter represented by <i>MiniportDeviceContext</i>. Then for each child that has an HPD awareness value of <b>HpdAwarenessPolled</b> or <b>HpdAwarenessInterruptible</b>, the display port driver calls <i>DxgkDdiQueryChildStatus</i> to determine whether the child currently has hardware (for example a monitor) connected to it.
 
 <i>DxgkDdiQueryChildStatus</i> must perform the following actions:
-
+<ul>
+<li>
 If ChildStatus-&gt;Type is equal to <b>StatusConnection</b>, return a Boolean value in ChildStatus-&gt;HotPlug.Connected. Return <b>TRUE</b> if the child device identified by ChildStatus-&gt;ChildUid has external hardware connected to it; otherwise return <b>FALSE</b>.
 
+</li>
+<li>
 If ChildStatus-&gt;Type is equal to <b>StatusRotation</b>, return (in ChildStatus-&gt;Rotation.Angle) the angle of rotation for the display connected to the child device identified by ChildStatus-&gt;ChildUid.
 
-<i>DxgkDdiQueryChildStatus</i> should be made pageable.
+</li>
+</ul><i>DxgkDdiQueryChildStatus</i> should be made pageable.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\dispmprt\ns-dispmprt-_dxgk_child_status.md">DXGK_CHILD_STATUS</a>
-</dt>
-<dt>
-<a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_type.md">DXGK_CHILD_STATUS_TYPE</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
-</dt>
-</dl>
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_child_status.md">DXGK_CHILD_STATUS</a>
+
+<a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_type.md">DXGK_CHILD_STATUS_TYPE</a>
+
  
 
  

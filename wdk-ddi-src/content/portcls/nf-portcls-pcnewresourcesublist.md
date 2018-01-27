@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a7e1a7cf-60ea-4489-a1c2-eac5b218af8c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcNewResourceSublist
+ms.keywords: PcNewResourceSublist, portcls/PcNewResourceSublist, PcNewResourceSublist function [Audio Devices], audpc-routines_3354ba13-6737-4862-b8b4-2afa64dc8eab.xml, audio.pcnewresourcesublist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The PortCls system driver implements the PcNewResourc
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PcNewResourceSublist
-req.alt-loc: Portcls.lib,Portcls.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Portcls.lib
+-	Portcls.dll
+apiname: 
+-	PcNewResourceSublist
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # PcNewResourceSublist function
 
 
-
 ## -description
+
+
 The <b>PcNewResourceSublist</b> function creates and initializes an empty resource list that is derived from another resource list.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PcNewResourceSublist(
@@ -57,6 +68,9 @@ NTSTATUS PcNewResourceSublist(
 
 
 ## -parameters
+
+
+
 
 ### -param OutResourceList [out]
 
@@ -84,10 +98,15 @@ Specifies the maximum number of entries that will be added to the resource list.
 
 
 ## -returns
+
+
 <b>PcNewResourceSublist</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 This function creates an empty resource sublist.
 
 An adapter driver typically uses the <b>PcNewResourceSublist</b> function in combination with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536981">IResourceList::AddEntryFromParent</a> method to take the original list of resources that it received from the system and divide them up into sublists that it assigns to its various subdevices.
@@ -95,18 +114,15 @@ An adapter driver typically uses the <b>PcNewResourceSublist</b> function in com
 The <i>OutResourceList</i>, <i>OuterUnknown</i>, and <i>ParentList</i> parameters follow the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-</dt>
-<dt>
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536981">IResourceList::AddEntryFromParent</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
  
 
  

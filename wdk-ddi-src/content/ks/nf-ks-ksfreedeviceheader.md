@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b7e30dde-ace5-47f0-a1e8-b8337ada1550
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFreeDeviceHeader
+ms.keywords: KsFreeDeviceHeader function [Streaming Media Devices], ksfunc_25c133a5-3c21-476f-84f5-b208284d9234.xml, KsFreeDeviceHeader, ks/KsFreeDeviceHeader, stream.ksfreedeviceheader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsFreeDeviceHeader
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsFreeDeviceHeader
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsFreeDeviceHeader function
 
 
-
 ## -description
+
+
 The <b>KsFreeDeviceHeader</b> function cleans up and frees a previously allocated device header.
 
 
-
 ## -syntax
+
 
 ````
 VOID KsFreeDeviceHeader(
@@ -54,24 +65,25 @@ VOID KsFreeDeviceHeader(
 
 ## -parameters
 
+
+
+
 ### -param Header [in]
 
 Indicates the device header to free that had been previously allocated by <b>KsAllocateDeviceHeader</b>.
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
-</dt>
-</dl>
+
  
 
  

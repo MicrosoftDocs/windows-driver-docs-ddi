@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 58E5D200-56C3-48BA-A7C9-C9DC01592554
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY, D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY
+ms.keywords: display.d3dkmt_query_physical_adapter_pnp_key, d3dkmthk/D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY, D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY structure [Display Devices], D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY, _D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY
 ---
 
 # _D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY structure
 
 
-
 ## -description
+
+
 A structure that holds information to query the physical adapter PNP key.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY {
@@ -56,6 +66,9 @@ typedef struct _D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PhysicalAdapterIndex
 
@@ -76,5 +89,3 @@ A WCHAR value respresenting the pDest.
 
 A UINT value representing the pCchDest.
 
-
-## -remarks

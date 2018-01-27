@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9e603d0f-74e7-4715-b3dc-4a9623f98dde
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetFileSystemType
+ms.keywords: ifsk.fltgetfilesystemtype, FltGetFileSystemType function [Installable File System Drivers], FltApiRef_e_to_o_00fe70b3-cc15-4272-a4df-653c05abfeb1.xml, FltGetFileSystemType, fltkernel/FltGetFileSystemType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltGetFileSystemType
-req.alt-loc: FltMgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: FltMgr.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	FltMgr.sys
+apiname: 
+-	FltGetFileSystemType
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltGetFileSystemType function
 
 
-
 ## -description
+
+
 The <b>FltGetFileSystemType</b> function takes a volume or instance object and provides the file system type of the volume.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltGetFileSystemType(
@@ -54,6 +64,9 @@ NTSTATUS FltGetFileSystemType(
 
 
 ## -parameters
+
+
+
 
 ### -param FltObject [in]
 
@@ -66,50 +79,58 @@ A pointer to a user allocated FLT_FILESYSTEM_TYPE object that receives the file 
 
 
 ## -returns
+
+
 <b>FltGetFileSystemType</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The <i>FltObject</i> object was not a FLT_INSTANCE  or FLT_VOLUME  object. 
+</dl>
+</td>
+<td width="60%">
+The <i>FltObject</i> object was not a FLT_INSTANCE  or FLT_VOLUME  object. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 If an instance is passed as the <i>FltObject</i>, <b>FltGetFileSystemType</b> provides the file system type for the volume referred to by the instance object. 
 
 If STATUS_INVALID_PARAMETER is returned, the <i>FileSystemType</i> parameter is set to FLT_FSTYPE_UNKNOWN. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromfileobject.md">FltGetVolumeFromFileObject</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumefrominstance.md">FltGetVolumeFromInstance</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromname.md">FltGetVolumeFromName</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromfileobject.md">FltGetVolumeFromFileObject</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumeinformation.md">FltGetVolumeInformation</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumename.md">FltGetVolumeName</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromname.md">FltGetVolumeFromName</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltisvolumewritable.md">FltIsVolumeWritable</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumename.md">FltGetVolumeName</a>
+
  
 
  

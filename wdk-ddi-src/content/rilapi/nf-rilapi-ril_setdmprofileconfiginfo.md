@@ -7,8 +7,8 @@ old-location: netvista\ril_setdmprofileconfiginfo.htm
 old-project: netvista
 ms.assetid: 4d2ab950-a045-4b5a-be9b-0b80c442e63d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RIL_SetDMProfileConfigInfo
+ms.date: 1/18/2018
+ms.keywords: RIL_SetDMProfileConfigInfo, netvista.ril_setdmprofileconfiginfo, rilapi/RIL_SetDMProfileConfigInfo, RIL_SetDMProfileConfigInfo method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RIL_SetDMProfileConfigInfo
-req.alt-loc: rilapi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,25 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-req.typenames: *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapi.h
+apiname: 
+-	RIL_SetDMProfileConfigInfo
+product: Windows
+targetos: Windows
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 
 # RIL_SetDMProfileConfigInfo function
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
 
 
-
 ## -syntax
+
 
 ````
 HRESULT  RIL_SetDMProfileConfigInfo(
@@ -61,23 +71,32 @@ HRESULT  RIL_SetDMProfileConfigInfo(
 
 ## -parameters
 
-### -param hRil 
 
 
-### -param lpContext 
+
+### -param hRil
 
 
-### -param dwExecutor 
+
+### -param lpContext
 
 
-### -param dwConfigItem 
+
+### -param dwExecutor
 
 
-### -param rciValue 
+
+### -param dwConfigItem
+
+
+
+### -param rciValue
+
 
 
 ## -returns
+
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e1501ea9-a55b-4fbc-990b-2172c7369bb1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _FEATURE_DATA_DVD_PLUS_R, FEATURE_DATA_DVD_PLUS_R, *PFEATURE_DATA_DVD_PLUS_R
+ms.keywords: _FEATURE_DATA_DVD_PLUS_R, *PFEATURE_DATA_DVD_PLUS_R, PFEATURE_DATA_DVD_PLUS_R structure pointer [Storage Devices], structs-CD-ROM_fb4a1383-3c8f-48e8-8fc8-3796e00f80a6.xml, PFEATURE_DATA_DVD_PLUS_R, ntddmmc/FEATURE_DATA_DVD_PLUS_R, FEATURE_DATA_DVD_PLUS_R structure [Storage Devices], FEATURE_DATA_DVD_PLUS_R, storage.feature_data_dvd_plus_r, ntddmmc/PFEATURE_DATA_DVD_PLUS_R
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FEATURE_DATA_DVD_PLUS_R
-req.alt-loc: ntddmmc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: FEATURE_DATA_DVD_PLUS_R, *PFEATURE_DATA_DVD_PLUS_R
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddmmc.h
+apiname: 
+-	FEATURE_DATA_DVD_PLUS_R
+product: Windows
+targetos: Windows
+req.typenames: *PFEATURE_DATA_DVD_PLUS_R, FEATURE_DATA_DVD_PLUS_R
 ---
 
 # _FEATURE_DATA_DVD_PLUS_R structure
 
 
-
 ## -description
+
+
 The FEATURE_DATA_DVD_PLUS_R structure contains information about the DVD+R feature. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FEATURE_DATA_DVD_PLUS_R {
@@ -56,6 +66,9 @@ typedef struct _FEATURE_DATA_DVD_PLUS_R {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -78,15 +91,16 @@ Reserved.
 
 
 ## -remarks
+
+
 This structure holds data for the feature named "DVD+R" by the <i>MMC-3 </i>specification. Devices that support this feature can specify whether they are able to perform writes to DVD+R discs, even though this ability was not indicated in the device's DVD-ROM profile.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-</dt>
-</dl>
+
  
 
  

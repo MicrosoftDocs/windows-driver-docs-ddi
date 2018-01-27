@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 27fb223f-9e6b-42af-b3d8-1018dc5416c2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetDevice
+ms.keywords: KsGetDevice function [Streaming Media Devices], KsGetDevice, stream.ksgetdevice, ks/KsGetDevice, avfunc_8459c499-365e-4cd4-927c-b359792937b0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsGetDevice
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsGetDevice
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsGetDevice function
 
 
-
 ## -description
+
+
 The<b> KsGetDevice</b> function returns the AVStream device structure to which <i>Object </i>belongs.
 
 
-
 ## -syntax
+
 
 ````
 PKSDEVICE KsGetDevice(
@@ -54,45 +65,46 @@ PKSDEVICE KsGetDevice(
 
 ## -parameters
 
+
+
+
 ### -param Object [in]
 
 The object to query for the device to which it belongs.
 
 
 ## -returns
+
+
 <b>KsGetDevice</b> returns a pointer to a <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure that is the AVStream device to which <i>Object</i> belongs.
 
 
+
 ## -remarks
+
+
 <i>Object</i> should be one of: PKSPIN, PKSFILTER, or PKSFILTERFACTORY. Callers must perform appropriate typecasting to PVOID.
 
 Minidrivers typically do not call this function directly. There are a number of functions that perform inline calls to <b>KsGetDevice</b> and that perform typecasting automatically: <a href="..\ks\nf-ks-ksfilterfactorygetdevice.md">KsFilterFactoryGetDevice</a>, <a href="..\ks\nf-ks-ksfiltergetdevice.md">KsFilterGetDevice</a>, and <a href="..\ks\nf-ks-kspingetdevice.md">KsPinGetDevice</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksfilterfactorygetdevice.md">KsFilterFactoryGetDevice</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksfiltergetdevice.md">KsFilterGetDevice</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-kspingetdevice.md">KsPinGetDevice</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+<a href="..\ks\nf-ks-ksfiltergetdevice.md">KsFilterGetDevice</a>
+
+<a href="..\ks\nf-ks-ksfilterfactorygetdevice.md">KsFilterFactoryGetDevice</a>
+
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
  
 
  

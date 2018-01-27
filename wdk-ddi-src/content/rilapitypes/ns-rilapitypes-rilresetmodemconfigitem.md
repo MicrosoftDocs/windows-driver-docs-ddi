@@ -7,8 +7,8 @@ old-location: netvista\rilresetmodemconfigitem_2.htm
 old-project: netvista
 ms.assetid: 9ac8f93e-4eac-47ec-bc1d-090abb339626
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILRESETMODEMCONFIGITEM, *LPRILRESETMODEMCONFIGITEM, RILRESETMODEMCONFIGITEM
+ms.date: 1/18/2018
+ms.keywords: *LPRILRESETMODEMCONFIGITEM, RILRESETMODEMCONFIGITEM, netvista.rilresetmodemconfigitem_2, rilapitypes/RILRESETMODEMCONFIGITEM, RILRESETMODEMCONFIGITEM structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILRESETMODEMCONFIGITEM
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILRESETMODEMCONFIGITEM, RILRESETMODEMCONFIGITEM
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILRESETMODEMCONFIGITEM
+product: Windows
+targetos: Windows
+req.typenames: RILRESETMODEMCONFIGITEM, *LPRILRESETMODEMCONFIGITEM
 req.product: Windows 10 or later.
 ---
 
 # RILRESETMODEMCONFIGITEM structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILRESETMODEMCONFIGITEM {
@@ -56,10 +66,13 @@ typedef struct _RILRESETMODEMCONFIGITEM {
 
 ## -struct-fields
 
+
+
+
 ### -field dwModemConfigItem
+
 
 
 ### -field rrmcValue
 
 
-## -remarks

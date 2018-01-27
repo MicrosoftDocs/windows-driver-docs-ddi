@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: baa0292a-b327-4fc0-9235-b1b977f93bf9
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: _ACPI_ENUM_CHILD, ACPI_ENUM_CHILD, *PACPI_ENUM_CHILD
+ms.keywords: acpi-meth-eval-ref_7ffcb8d5-da55-4ed9-88db-8f954d01852b.xml, _ACPI_ENUM_CHILD, acpi.acpi_enum_child, acpiioct/ACPI_ENUM_CHILD, ACPI_ENUM_CHILD, ACPI_ENUM_CHILD structure [ACPI Devices], *PACPI_ENUM_CHILD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ACPI_ENUM_CHILD
-req.alt-loc: Acpiioct.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Acpiioct.h
+apiname: 
+-	ACPI_ENUM_CHILD
+product: Windows
+targetos: Windows
 req.typenames: ACPI_ENUM_CHILD
 ---
 
 # _ACPI_ENUM_CHILD structure
 
 
-
 ## -description
+
+
 The ACPI_ENUM_CHILD structure is a member of the <a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_output_buffer.md">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a> structure and contains the full path and name of an object in an ACPI namespace.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ACPI_ENUM_CHILD {
@@ -55,6 +65,9 @@ typedef struct _ACPI_ENUM_CHILD {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Flags
 
@@ -72,6 +85,8 @@ A NULL-terminated ASCII string that contains the path and name of an object in a
 
 
 ## -remarks
+
+
 A driver for a device uses an <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_enum_children.md">IOCTL_ACPI_ENUM_CHILDREN</a> request to enumerate the child objects of the device. The enumerated child objects can be devices or any object of a supplied name. This request returns an ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure, which includes the <b>Children</b> member that contains an array of ACPI_ENUM_CHILD structures. 
 
 The path and name that are contained in a <b>Name</b> member are in the standard format for a fully qualified path and name of an object in an ACPI namespace. For example, assume that a device named 'ABCD' is an immediate child of the root of an ACPI namespace, that device 'ABCD' has a child device named 'CHLD,' and that child device 'CHLD' has an immediate child object named '_FOO.' In this case, <b>Name</b> would contain '\ABCD.CHLD._FOO.'
@@ -79,15 +94,13 @@ The path and name that are contained in a <b>Name</b> member are in the standard
 For information about how to enumerate child objects of a device, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/enumerating-child-devices-and-control-methods">Enumerating Child Devices and Control Methods</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_output_buffer.md">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a>
-</dt>
-<dt>
+
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_enum_children.md">IOCTL_ACPI_ENUM_CHILDREN</a>
-</dt>
-</dl>
+
  
 
  

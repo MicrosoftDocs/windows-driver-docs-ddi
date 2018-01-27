@@ -7,8 +7,8 @@ old-location: netvista\wdi_tx_frame_status.htm
 old-project: netvista
 ms.assetid: 6ea8a7ac-96dc-4337-884f-d30fbee1f760
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WDI_TX_FRAME_STATUS, WDI_TX_FRAME_STATUS
+ms.date: 1/18/2018
+ms.keywords: WDI_TxFrameStatus_TransferFailed, dot11wdi/WDI_TxFrameStatus_Discard, dot11wdi/WDI_TX_FRAME_STATUS, dot11wdi/WDI_TxFrameStatus_SendPostponed, netvista.wdi_tx_frame_status, WDI_TxFrameStatus_NoAck, _WDI_TX_FRAME_STATUS, dot11wdi/WDI_TxFrameStatus_NoAck, dot11wdi/WDI_TxFrameStatus_TransferFailed, dot11wdi/WDI_TxFrameStatus_Ok, dot11wdi/WDI_TxFrameStatus_TransferCancelled, WDI_TxFrameStatus_SendPostponed, dot11wdi/WDI_TxFrameStatus_SendCancelled, WDI_TxFrameStatus_Discard, WDI_TX_FRAME_STATUS enumeration [Network Drivers Starting with Windows Vista], WDI_TxFrameStatus_TransferCancelled, netvista.wifi_tx_frame_status, WDI_TxFrameStatus_SendCancelled, WDI_TxFrameStatus_Ok, WDI_TX_FRAME_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WDI_TX_FRAME_STATUS
-req.alt-loc: dot11wdi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dot11wdi.h
+apiname: 
+-	WDI_TX_FRAME_STATUS
+product: Windows
+targetos: Windows
 req.typenames: WDI_TX_FRAME_STATUS
 ---
 
 # _WDI_TX_FRAME_STATUS enumeration
 
 
-
 ## -description
+
+
 The WDI_TX_FRAME_STATUS enumeration defines the TX frame status values.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDI_TX_FRAME_STATUS { 
@@ -59,6 +69,9 @@ typedef enum _WDI_TX_FRAME_STATUS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WDI_TxFrameStatus_Ok
 
@@ -95,18 +108,13 @@ The frame could not be transmitted at this time (for example, the peer is in PS)
 The transfer failed.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_capabilities.md">WDI_TXRX_CAPABILITIES</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WDI_TX_FRAME_STATUS enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WDI_TX_FRAME_STATUS enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 70B74088-C537-4104-A535-F41A24BB72A5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS,
+ms.keywords: _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure [Buses], buses._urb_get_isoch_pipe_transfer_path_delays, _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS, usb/_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS
-req.alt-loc: Usb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Usb.h
+apiname: 
+-	_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS
+product: Windows
+targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.
 ---
@@ -38,14 +47,15 @@ req.product: Windows 10 or later.
 # _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure
 
 
-
 ## -description
+
+
 The <b>_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS</b> structure is used by USB client drivers to retrieve delays associated with isochronous transfer programming in the host controller and transfer completion so that the client driver can ensure that the device gets the isochronous packets in time. 
 
 
 
-
 ## -syntax
+
 
 ````
 struct _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS {
@@ -59,9 +69,17 @@ struct _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS {
 
 ## -struct-fields
 
+
+
+
 ### -field Hdr
 
 Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS, and <b>Hdr.Length</b> must be set to <code>sizeofsizeof(_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS)</code>.
+
+
+### -field _URB_HEADER
+
+ 
 
 
 ### -field PipeHandle
@@ -79,5 +97,3 @@ Returns the maximum delay in milliseconds from the time the  client driver's iso
 
 Returns the maximum delay in milliseconds from the time an isochronous transfer is completed by the (local or remote) host controller to the time the corresponding client driver's request is completed by the USB driver stack. For MA-USB, it includes the maximum delay associated with the network medium.
 
-
-## -remarks

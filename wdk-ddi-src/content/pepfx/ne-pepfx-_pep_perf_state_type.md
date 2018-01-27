@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8DF40988-995E-4C37-8864-0C405DE885C9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_PERF_STATE_TYPE, PEP_PERF_STATE_TYPE, *PPEP_PERF_STATE_TYPE
+ms.keywords: PepPerfStateTypeMax, *PPEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeDiscrete, _PEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeRange, PepPerfStateTypeRange, PEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeMax, pepfx/PEP_PERF_STATE_TYPE, PEP_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PepPerfStateTypeDiscrete, kernel.pep_perf_state_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_PERF_STATE_TYPE
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_PERF_STATE_TYPE
+product: Windows
+targetos: Windows
 req.typenames: PEP_PERF_STATE_TYPE, *PPEP_PERF_STATE_TYPE
 ---
 
 # _PEP_PERF_STATE_TYPE enumeration
 
 
-
 ## -description
+
+
 The <b>PEP_PERF_STATE_TYPE</b> enumeration indicates the type of performance information that is specified for a performance state (P-state) of a component.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _PEP_PERF_STATE_TYPE { 
@@ -55,6 +65,9 @@ typedef enum _PEP_PERF_STATE_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field PepPerfStateTypeDiscrete
 
@@ -72,15 +85,16 @@ Reserved for use by operating system.
 
 
 ## -remarks
+
+
 The <b>Type</b> member of the <a href="..\pepfx\ns-pepfx-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a> structure is a <b>PEP_PERF_STATE_TYPE</b> enumeration value.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\pepfx\ns-pepfx-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a>
-</dt>
-</dl>
+
  
 
  

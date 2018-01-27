@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: afc92692-c665-44a7-b268-d29adc42f5bd
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_GetUsageValueArray
+ms.keywords: hid.hidp_getusagevaluearray, HidP_GetUsageValueArray routine [Human Input Devices], hidpi/HidP_GetUsageValueArray, HidP_GetUsageValueArray, hidfunc_4e641f34-d016-4b2f-b472-069334d3e461.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Windo
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HidP_GetUsageValueArray
-req.alt-loc: Hidparse.lib,Hidparse.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Hidparse.lib
+-	Hidparse.dll
+apiname: 
+-	HidP_GetUsageValueArray
+product: Windows
+targetos: Windows
 req.typenames: HIDP_REPORT_TYPE
 ---
 
 # HidP_GetUsageValueArray function
 
 
-
 ## -description
-The <b>HidP_GetUsageValueArray</b> routine extracts the data associated with a HID control <a href="hid.value_capability_arrays#usage_value_array#usage_value_array">usage value array</a> from a HID report.
 
+
+The <b>HidP_GetUsageValueArray</b> routine extracts the data associated with a HID control <a href="https://msdn.microsoft.com/d447dda6-a1e5-4e57-b06f-f79f8662c236">usage value array</a> from a HID report.
 
 
 ## -syntax
+
 
 ````
 NTSTATUS __stdcall HidP_GetUsageValueArray(
@@ -62,6 +73,9 @@ NTSTATUS __stdcall HidP_GetUsageValueArray(
 
 ## -parameters
 
+
+
+
 ### -param ReportType [in]
 
 Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator value that identifies the report type.
@@ -69,7 +83,7 @@ Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a
 
 ### -param UsagePage [in]
 
-Specifies the <a href="hid.hid_usages#usage_page#usage_page">usage page</a> of the usage value array.
+Specifies the <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage page</a> of the usage value array.
 
 
 ### -param LinkCollection [in]
@@ -108,36 +122,109 @@ Specifies the length, in bytes, of the report located at <i>Report</i>.
 
 
 ## -returns
+
+
 <b>HidP_GetUsageValueArray </b>returns one of the following status values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_SUCCESS</b></dt>
-</dl>The routine successfully returned the value's data.
+</dl>
+</td>
+<td width="60%">
+The routine successfully returned the value's data.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_INVALID_REPORT_LENGTH</b></dt>
-</dl>The report length is not valid.
+</dl>
+</td>
+<td width="60%">
+The report length is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_INVALID_REPORT_TYPE</b></dt>
-</dl>The specified report type is not valid.
+</dl>
+</td>
+<td width="60%">
+The specified report type is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_NOT_VALUE_ARRAY</b></dt>
-</dl>The requested usage is not a usage value array.
+</dl>
+</td>
+<td width="60%">
+The requested usage is not a usage value array.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The <i>UsageValue</i> buffer is too small to hold the requested usage. 
+</dl>
+</td>
+<td width="60%">
+The <i>UsageValue</i> buffer is too small to hold the requested usage. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INCOMPATIBLE_REPORT_ID</b></dt>
-</dl>The collection contains a usage value array on the specified usage page in a report of the specified type, but there are no such usages in the specified report.
+</dl>
+</td>
+<td width="60%">
+The collection contains a usage value array on the specified usage page in a report of the specified type, but there are no such usages in the specified report.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INVALID_PREPARSED_DATA</b></dt>
-</dl>The preparsed data is not valid.
+</dl>
+</td>
+<td width="60%">
+The preparsed data is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_USAGE_NOT_FOUND</b></dt>
-</dl>The collection does not contain a usage value array on the specified usage page in any report of the specified report type.
+</dl>
+</td>
+<td width="60%">
+The collection does not contain a usage value array on the specified usage page in any report of the specified report type.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The required size, in bytes, of <i>UsageValueByteLength</i> is determined by multiplying together the <b>BitSize</b> and <b>ReportCount</b> members of the usage value array's <a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a> structure, and rounding the result up to the nearest byte.
 
 <b>HidP_GetUsageValueArray</b> sets the <i>UsageValue</i> buffer in little-endian order, beginning with the least significant bit of the usage's data. The data is not byte-aligned, and is shifted such that the least significant bit of the data is located at the first bit of the <i>UsageValue</i> buffer.
@@ -147,36 +234,27 @@ The required size, in bytes, of <i>UsageValueByteLength</i> is determined by mul
 For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539708">HidP_GetButtons</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539712">HidP_GetButtonsEx</a>
-</dt>
-<dt>
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
-</dt>
-<dt>
+
 <a href="..\hidpi\nf-hidpi-hidp_getscaledusagevalue.md">HidP_GetScaledUsageValue</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539708">HidP_GetButtons</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539712">HidP_GetButtonsEx</a>
+
 <a href="..\hidpi\nf-hidpi-hidp_getusages.md">HidP_GetUsages</a>
-</dt>
-<dt>
-<a href="..\hidpi\nf-hidpi-hidp_getusagesex.md">HidP_GetUsagesEx</a>
-</dt>
-<dt>
-<a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
 <a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
-</dt>
-</dl>
+
+<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
+
+<a href="..\hidpi\nf-hidpi-hidp_getusagesex.md">HidP_GetUsagesEx</a>
+
+<a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 76cdddb0-b927-4547-ae1d-f5105905633b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.calcprivateshadersize, CalcPrivateShaderSize callback function [Display Devices], CalcPrivateShaderSize, PFND3D10DDI_CALCPRIVATESHADERSIZE, PFND3D10DDI_CALCPRIVATESHADERSIZE, d3d10umddi/CalcPrivateShaderSize, UserModeDisplayDriverDx10_Functions_32a6a3cc-1a0d-4a20-a985-0e0e50daa914.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CalcPrivateShaderSize
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	CalcPrivateShaderSize
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D10DDI_CALCPRIVATESHADERSIZE callback
 
 
-
 ## -description
+
+
 The <b>CalcPrivateShaderSize</b> function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a shader.
 
 
-
 ## -prototype
+
 
 ````
 PFND3D10DDI_CALCPRIVATESHADERSIZE CalcPrivateShaderSize;
@@ -59,39 +69,54 @@ SIZE_T APIENTRY CalcPrivateShaderSize(
 
 ## -parameters
 
-### -param hDevice 
+
+
+
+### -param D3D10DDI_HDEVICE
+
+
+
+### -param *pShaderCode
+
+
+
+### -param *
+
+
+
+
+
+
+#### - hDevice
 
  [in] A handle to the display device (graphics context).
 
 
-### -param pCode 
+#### - pSignatures
+
+ [in] A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_stage_io_signatures.md">D3D10DDIARG_STAGE_IO_SIGNATURES</a> structure that makes up the shader's signature.
+
+
+#### - pCode
 
 
       [in] An array of CONST UINT tokens that make up the shader code.
      
 
 
-### -param pSignatures 
-
- [in] A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_stage_io_signatures.md">D3D10DDIARG_STAGE_IO_SIGNATURES</a> structure that makes up the shader's signature.
-
-
 ## -returns
+
+
 <i>CalcPrivateShaderSize</i> returns the size of the memory region that the driver requires for creating a shader.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_stage_io_signatures.md">D3D10DDIARG_STAGE_IO_SIGNATURES</a>
-</dt>
-</dl>
+
  
 
  

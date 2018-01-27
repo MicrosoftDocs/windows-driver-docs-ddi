@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F4B06D2E-A024-4F0B-91A2-7A7775AD99DC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WdmlibIoCreateDeviceSecure
+ms.keywords: kernel.wdmlibiocreatedevicesecure, WdmlibIoCreateDeviceSecure function [Kernel-Mode Driver Architecture], WdmlibIoCreateDeviceSecure, IoCreateDeviceSecure, wdmsec/IoCreateDeviceSecure, wdmsec/WdmlibIoCreateDeviceSecure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: See Remarks section.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WdmlibIoCreateDeviceSecure,IoCreateDeviceSecure
-req.alt-loc: Wdmsec.lib,Wdmsec.dll
 req.ddi-compliance: MiniportOnlyWdmDevice, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,34 @@ req.type-library:
 req.lib: Wdmsec.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: WORK_QUEUE_ITEM, *PWORK_QUEUE_ITEM
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdmsec.lib
+-	Wdmsec.dll
+apiname: 
+-	WdmlibIoCreateDeviceSecure
+-	IoCreateDeviceSecure
+product: Windows
+targetos: Windows
+req.typenames: *PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM
 req.product: Windows 10 or later.
 ---
 
 # WdmlibIoCreateDeviceSecure function
 
 
-
 ## -description
+
+
 The <b>WdmlibIoCreateDeviceSecure</b> function (or <b>IoCreateDeviceSecure</b>) creates a named device object and applies the specified security settings.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS WdmlibIoCreateDeviceSecure(
@@ -63,6 +75,9 @@ NTSTATUS WdmlibIoCreateDeviceSecure(
 
 ## -parameters
 
+
+
+
 ### -param DriverObject [in]
 
 Pointer to the driver object for the caller. Each driver receives a pointer to its driver object in a parameter to its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. WDM function and filter drivers also receive a driver object pointer in their <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines. 
@@ -80,7 +95,7 @@ Optionally points to a buffer that contains a null-terminated Unicode string tha
 
 ### -param DeviceType [in]
 
-Specifies one of the system-defined FILE_DEVICE_<i>XXX</i> constants that indicate the type of device (such as FILE_DEVICE_DISK, FILE_DEVICE_KEYBOARD, and so on), or a vendor-defined value for a new type of device. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563821">Specifying Device Types</a>. (Because a bus driver might not have information about a device's type, a device type value for a <a href="wdkgloss.p#wdkgloss.pdo#wdkgloss.pdo"><i>PDO</i></a> can be specified in an <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/inf-addreg-directive">INF AddReg directive</a>.)
+Specifies one of the system-defined FILE_DEVICE_<i>XXX</i> constants that indicate the type of device (such as FILE_DEVICE_DISK, FILE_DEVICE_KEYBOARD, and so on), or a vendor-defined value for a new type of device. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563821">Specifying Device Types</a>. (Because a bus driver might not have information about a device's type, a device type value for a <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDO</a> can be specified in an <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/inf-addreg-directive">INF AddReg directive</a>.)
 
 
 ### -param DeviceCharacteristics [in]
@@ -103,23 +118,23 @@ The security setting is specified in a subset of Security Descriptor Definition 
 ### -param DeviceClassGuid [in, optional]
 
 Pointer to a GUID that identifies a section of the registry containing possible overrides for the <i>DefaultSDDLString</i>, <i>DeviceType</i>, <i>DeviceCharacteristics</i>, and <i>Exclusive</i> parameters. 
+<div class="alert"><b>Note</b>    You should always specify a custom class GUID. You should not specify an existing class GUID. If you specify an existing class GUID, other drivers that attempt to specify that existing class GUID might fail to install or might install with incorrect security settings.</div><div> </div>
 
-<div class="alert"><b>Note</b>    You should always specify a custom class GUID. You should not specify an existing class GUID. If you specify an existing class GUID, other drivers that attempt to specify that existing class GUID might fail to install or might install with incorrect security settings.</div>
-<div> </div>
-
-### -param DeviceObject 
+### -param DeviceObject
 
 Pointer to a variable that receives a pointer to the newly created <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure. The <b>DEVICE_OBJECT</b> structure is allocated from nonpaged pool.
 
 
 ## -returns
+
+
 <b>WdmlibIoCreateDeviceSecure</b> returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure. A partial list of the failure codes that could be returned by this function include:
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-<dt><b>STATUS_OBJECT_NAME_COLLISION</b></dt>
-</dl>
+
+
 
 ## -remarks
+
+
 <b>WdmlibIoCreateDeviceSecure</b> creates a named device object, applies the specified security settings, and returns a pointer to the object. The caller is responsible for deleting the object when it is no longer needed by calling <a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>.
 
 This routine is not part of the operating system. Drivers can use the routine by linking to Wdmsec.lib on Microsoft Windows 2000 and later versions of Windows. (The Wdmsec.lib library first shipped with the Microsoft Windows XP Service Pack 1 [SP1] and Windows Server 2003 editions of the Driver Development Kit [DDK] and also ships with the Windows Driver Kit [WDK].)
@@ -141,27 +156,21 @@ Device objects for disks, tapes, CD-ROMs, and RAM disks are given a Volume Param
 If a driver's call to <b>WdmlibIoCreateDeviceSecure</b> returns an error, the driver should release any resources that it allocated for that device.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iocreatesymboliclink.md">IoCreateSymbolicLink</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
+
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-iocreatesymboliclink.md">IoCreateSymbolicLink</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
+
  
 
  

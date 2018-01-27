@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: D004DAEF-F25F-442D-9A6D-91FB8A18E0DB
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_SUPL_VERSION, GNSS_SUPL_VERSION, *PGNSS_SUPL_VERSION
+ms.keywords: PGNSS_SUPL_VERSION structure pointer [Sensor Devices], GNSS_SUPL_VERSION structure [Sensor Devices], *PGNSS_SUPL_VERSION, sensors.gnss_supl_version, PGNSS_SUPL_VERSION, gnssdriver/PGNSS_SUPL_VERSION, GNSS_SUPL_VERSION, gnssdriver/GNSS_SUPL_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GNSS_SUPL_VERSION
-req.alt-loc: gnssdriver.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: GNSS_SUPL_VERSION, *PGNSS_SUPL_VERSION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	gnssdriver.h
+apiname: 
+-	GNSS_SUPL_VERSION
+product: Windows
+targetos: Windows
+req.typenames: *PGNSS_SUPL_VERSION, GNSS_SUPL_VERSION
 ---
 
 # GNSS_SUPL_VERSION structure
 
 
-
 ## -description
+
+
 This structure contains SUPL version information.
 
 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -57,6 +67,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field MajorVersion
 
 Major version number.
@@ -66,5 +79,3 @@ Major version number.
 
 Minor version number.
 
-
-## -remarks

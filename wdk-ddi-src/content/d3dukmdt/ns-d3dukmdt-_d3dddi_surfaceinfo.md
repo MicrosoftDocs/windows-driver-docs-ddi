@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 347edff7-b209-4b60-aabc-5ee7963c8164
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_SURFACEINFO, D3DDDI_SURFACEINFO
+ms.keywords: D3DDDI_SURFACEINFO, d3dukmdt/D3DDDI_SURFACEINFO, display.d3dddi_surfaceinfo, _D3DDDI_SURFACEINFO, D3DDDI_SURFACEINFO structure [Display Devices], D3D_other_Structs_03e742b5-062c-46d3-bedf-25aee3582dfc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_SURFACEINFO
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_SURFACEINFO
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_SURFACEINFO
 ---
 
 # _D3DDDI_SURFACEINFO structure
 
 
-
 ## -description
+
+
 The D3DDDI_SURFACEINFO structure describes a resource type, such as a surface.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_SURFACEINFO {
@@ -58,6 +68,9 @@ typedef struct _D3DDDI_SURFACEINFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Width
 
@@ -91,18 +104,12 @@ Note that this member is valid only if the <b>Pool</b> member of the <a href="..
 [in] The slice, in bytes, of the volume.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
-</dt>
-<dt>
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+
  
 
  

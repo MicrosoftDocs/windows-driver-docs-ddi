@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed239516-bbaf-4e16-a3b8-4f9f34cab4ef
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSynchronousDeviceControl
+ms.keywords: stream.iksaggregatecontrol, IKsAggregateControl interface [Streaming Media Devices], IKsAggregateControl interface [Streaming Media Devices], described, IKsAggregateControl, ksproxy/IKsAggregateControl, ksproxy_ccd980b0-abd1-4354-9f2c-3c0613b18d07.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsAggregateControl
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,60 +29,33 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsAggregateControl
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsAggregateControl interface
 
 
-
 ## -description
+
+
 The <b>IKsAggregateControl</b> interface provides methods that add and remove COM servers as aggregate providers on KS objects that support the interface. 
 
 The interface identifier (IID) for this interface is IID_IKsAggregateControl.
 
 
-
-## -syntax
-
-````
-HKLM\System\CurrentControlSet\Control\MediaInterfaces\{set guid}
-````
-
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsAggregateControl</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IKsAggregateControl</b> also has these types of members:
-
-The <b>IKsAggregateControl</b> interface has these methods.
-
-Adds a COM server as an aggregate provider to a KS filter or pin.
-
-Removes a previously added COM server aggregate provider from a KS filter or pin.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsAggregateControl</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IKsAggregateControl</b> also has these types of members:
-
-The <b>IKsAggregateControl</b> interface has these methods.
-
-Adds a COM server as an aggregate provider to a KS filter or pin.
-
-Removes a previously added COM server aggregate provider from a KS filter or pin.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsAggregateControl</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IKsAggregateControl</b> also has these types of members:
-
-The <b>IKsAggregateControl</b> interface has these methods.
-
-Adds a COM server as an aggregate provider to a KS filter or pin.
-
-Removes a previously added COM server aggregate provider from a KS filter or pin.
-
- 
-
-
 ## -members
+
 The <b>IKsAggregateControl</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -149,7 +120,9 @@ For more information about <b>IDistributorNotify</b>, <b>IUnknown</b>, and <b>Co
 
 
 ## -remarks
-All property, method, and event sets that a KS filter or pin supports can be represented on the DirectShow proxy representation of the filter or pin object by zero or more aggregated interfaces, dialogs, and so on. These client aggregated interfaces are set extensions that can then be used to communicate to the underlying KS object in order to represent the functionality of the set. A set extension is a registered COM server, which is loaded through <b>CoCreateInstance</b> by the KS filter or pin at handle creation time.
+
+
+<h3><a id="ddk_iksaggregatecontrol_ks"></a><a id="DDK_IKSAGGREGATECONTROL_KS"></a></h3>All property, method, and event sets that a KS filter or pin supports can be represented on the DirectShow proxy representation of the filter or pin object by zero or more aggregated interfaces, dialogs, and so on. These client aggregated interfaces are set extensions that can then be used to communicate to the underlying KS object in order to represent the functionality of the set. A set extension is a registered COM server, which is loaded through <b>CoCreateInstance</b> by the KS filter or pin at handle creation time.
 
 The primary purpose of set extensions is to allow aggregation of interfaces so as to support some set through one or more COM interfaces. However, an implementation may also include support of dialogs, asynchronous processing in threads, and so on. Registration of a set handler allows one to indicate either a specific interface that is to be aggregated or that an unnamed list of interfaces will be exposed. In the first case, only appropriate queries are sent to the object, and in the latter all queries that do not match an interface already supported are sent to this extension object.
 
@@ -160,8 +133,16 @@ Notification on pin-connection changes is required because the extensions are no
 A set extension is basically a COM server that optionally exposes the <b>IDistributorNotify</b> interface and zero or more other aggregated interfaces that can be used by a client of the filter to manipulate sets that the extension object represents. On an extension object creation request through <b>CoCreateInstance</b>, the server is always presented an outer <b>IUnknown</b> with which to create the COM object. This <b>IUnknown</b> is an interface on the filter or pin object that is loading set extensions. The <b>IUnknown</b> interface pointer may be used to query information or interfaces from the filter or pin, such as <b>IKsControl</b>. However, no reference should be left on the outer object, as it will result in a circular reference count. Using the interfaces without a reference count is acceptable, because the extension is aggregated by the outer object and, by definition, is destroyed when the outer object's reference count reaches zero.
 
 In order to load set extensions, the proxy looks up the GUID of each set collected from the filter or pin, determining if each is present in the registry. The GUID for each set that is to have an extension loaded is:
-
-If this subkey is present, the GUID of the set corresponds directly to the GUID used in the COM server parameter of the <b>CoCreateInstance</b> call. Each subkey may also have a named binary value iid that contains the binary representation of the GUID for the interface to be aggregated for this set extension. This is the interface GUID that will cause a <b>QueryInterface</b> on the filter or pin to be sent to the COM server for this extension. If this named value is not present under the subkey, all unknown <b>QueryInterface</b> calls will be routed through this extension object, thus allowing it to support many interfaces for a particular set exposed on the underlying object. The GUID of the set could be used as the interface identifier by either setting iid to be the GUID of the set, or by not setting an iid value. In the latter case, additional queries not supported may be sent to the extension object.
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HKLM\System\CurrentControlSet\Control\MediaInterfaces\{set guid}</pre>
+</td>
+</tr>
+</table></span></div>If this subkey is present, the GUID of the set corresponds directly to the GUID used in the COM server parameter of the <b>CoCreateInstance</b> call. Each subkey may also have a named binary value iid that contains the binary representation of the GUID for the interface to be aggregated for this set extension. This is the interface GUID that will cause a <b>QueryInterface</b> on the filter or pin to be sent to the COM server for this extension. If this named value is not present under the subkey, all unknown <b>QueryInterface</b> calls will be routed through this extension object, thus allowing it to support many interfaces for a particular set exposed on the underlying object. The GUID of the set could be used as the interface identifier by either setting iid to be the GUID of the set, or by not setting an iid value. In the latter case, additional queries not supported may be sent to the extension object.
 
 Although the <b>MediaInterfaces</b> registry key may be used to explicitly indicate which interface (if any) the provider aggregates, the entire entry need not be present. The implication being that any COM server can be loaded through <b>IKsAggregateControl</b> so that this COM server provides aggregated interfaces, whether the COM server is listed under the <b>MediaInterfaces</b> registry key.
 
@@ -174,21 +155,17 @@ Also, enter the named value {<i>set guid</i>}, which is the string format of the
 For more information about <b>IDistributorNotify</b>, <b>IUnknown</b>, and <b>CoCreateInstance</b>, see the Microsoft Windows SDK documentation.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/9808bdb9-17f9-4a80-90c7-e85ab35b74ae">KsAddAggregate</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/f625b1ed-ccab-4072-9eb9-c4ebbddb1199">KsRemoveAggregate</a>
-</dt>
-</dl>
+
+<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
+
  
 
  

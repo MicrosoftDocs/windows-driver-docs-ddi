@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 332ef453-6f9d-4cdd-a8c7-766158e540d8
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_UsageListDifference
+ms.keywords: HidP_UsageListDifference, hidfunc_91cbddd2-90f6-4784-9f1d-6d9bf8be35d3.xml, hid.hidp_usagelistdifference, HidP_UsageListDifference routine [Human Input Devices], hidpi/HidP_UsageListDifference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Windo
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HidP_UsageListDifference
-req.alt-loc: Hidparse.lib,Hidparse.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Hidparse.lib
+-	Hidparse.dll
+apiname: 
+-	HidP_UsageListDifference
+product: Windows
+targetos: Windows
 req.typenames: HIDP_REPORT_TYPE
 ---
 
 # HidP_UsageListDifference function
 
 
-
 ## -description
+
+
 The <b>HidP_UsageListDifference</b> routine returns the differences between two arrays of <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">HID usages</a>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS __stdcall HidP_UsageListDifference(
@@ -57,6 +68,9 @@ NTSTATUS __stdcall HidP_UsageListDifference(
 
 
 ## -parameters
+
+
+
 
 ### -param PreviousUsageList [in]
 
@@ -84,10 +98,15 @@ Specifies the length, in array elements, of the buffers provided at <i>CurrentUs
 
 
 ## -returns
+
+
 <b>HidP_UsageListDifference</b> returns HIDP_STATUS_SUCCESS.
 
 
+
 ## -remarks
+
+
 A user-mode application or kernel-mode driver can use this routine to compare two usage lists, for example, to determine the change in button state between two usage lists returned by two <a href="https://msdn.microsoft.com/library/windows/hardware/ff539708">HidP_GetButtons</a> calls.
 
 If the input usage lists have different lengths, an application or driver should set <i>UsageListLength</i> to the length of the larger list.
@@ -97,12 +116,11 @@ The routine interprets a zero usage in an input usage list as a delimiter that e
 For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539824">HidP_UsageAndPageListDifference</a>
-</dt>
-</dl>
+
  
 
  

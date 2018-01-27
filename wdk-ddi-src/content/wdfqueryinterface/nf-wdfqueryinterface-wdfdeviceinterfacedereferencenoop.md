@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 76319a0b-a7b3-48f6-804b-e01bc360c441
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceInterfaceDereferenceNoOp
+ms.keywords: wdfqueryinterface/WdfDeviceInterfaceDereferenceNoOp, wdf.wdfdeviceinterfacedereferencenoop, PFN_WDFDEVICEINTERFACEDEREFERENCENOOP, DFDeviceObjectDriverDefIntRef_2bfa96a8-a58a-4408-83db-11670d7de8c7.xml, kmdf.wdfdeviceinterfacedereferencenoop, WdfDeviceInterfaceDereferenceNoOp method, WdfDeviceInterfaceDereferenceNoOp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfDeviceInterfaceDereferenceNoOp
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfDeviceInterfaceDereferenceNoOp
+product: Windows
+targetos: Windows
 req.typenames: WDF_PDO_EVENT_CALLBACKS, *PWDF_PDO_EVENT_CALLBACKS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WdfDeviceInterfaceDereferenceNoOp function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfDeviceInterfaceDereferenceNoOp</b> method can be used for driver-defined interfaces that do not require reference counts.
 
 
-
 ## -syntax
+
 
 ````
 VOID WdfDeviceInterfaceDereferenceNoOp(
@@ -57,35 +68,38 @@ VOID WdfDeviceInterfaceDereferenceNoOp(
 
 ## -parameters
 
+
+
+
 ### -param Context [in]
 
 This parameter is not used.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 You can use the <b>WdfDeviceInterfaceDereferenceNoOp</b> method's address as the <b>InterfaceDereference</b> member of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure that is contained in the framework's <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure.
 
 For more information about interface reference counts and the <b>WdfDeviceInterfaceDereferenceNoOp</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-driver-defined-interfaces">Using Driver-Defined Interfaces</a>.
 
-For a code example that uses <b>WdfDeviceInterfaceDereferenceNoOp</b>, see <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-</dt>
-<dt>
-<a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a>
-</dt>
-<dt>
+
 <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacereferencenoop.md">WdfDeviceInterfaceReferenceNoOp</a>
-</dt>
-</dl>
+
+<a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a>
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
  
 
  

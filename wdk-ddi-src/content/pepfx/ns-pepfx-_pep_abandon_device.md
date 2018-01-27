@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 15F54054-F20B-43A6-8BCD-3A1C47433B12
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_ABANDON_DEVICE, *PPEP_ABANDON_DEVICE, PEP_ABANDON_DEVICE
+ms.keywords: _PEP_ABANDON_DEVICE, pepfx/PEP_ABANDON_DEVICE, *PPEP_ABANDON_DEVICE, PPEP_ABANDON_DEVICE structure pointer [Kernel-Mode Driver Architecture], PPEP_ABANDON_DEVICE, kernel.pep_abandon_device, PEP_ABANDON_DEVICE structure [Kernel-Mode Driver Architecture], pepfx/PPEP_ABANDON_DEVICE, PEP_ABANDON_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_ABANDON_DEVICE
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_ABANDON_DEVICE
+product: Windows
+targetos: Windows
 req.typenames: *PPEP_ABANDON_DEVICE, PEP_ABANDON_DEVICE
 ---
 
 # _PEP_ABANDON_DEVICE structure
 
 
-
 ## -description
+
+
 The <b>PEP_ABANDON_DEVICE</b> structure identifies a device that has been abandoned and will no longer be used by the operating system.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_ABANDON_DEVICE {
@@ -54,6 +64,9 @@ typedef struct _PEP_ABANDON_DEVICE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DeviceId
 
@@ -66,18 +79,18 @@ typedef struct _PEP_ABANDON_DEVICE {
 
 
 ## -remarks
+
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186656">PEP_DPM_ABANDON_DEVICE</a> notification. The <b>DeviceId</b> member of the structure contains an input value that is supplied by the Windows <a href="https://msdn.microsoft.com/9F2D8ACD-44D5-46E0-9FC7-1B38B99450FF">power management framework</a> (PoFx). The <b>DeviceAccepted</b> member contains an output value that the PEP writes to the structure in response to this notification.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186656">PEP_DPM_ABANDON_DEVICE</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
  
 
  

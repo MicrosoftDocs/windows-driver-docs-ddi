@@ -7,8 +7,8 @@ old-location: print\branchofficejobdataerror.htm
 old-project: print
 ms.assetid: 947C508E-2EB9-451D-AA8D-DCDDE27DEBE6
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: BranchOfficeJobDataError, *PBranchOfficeJobDataError, BranchOfficeJobDataError
+ms.date: 1/18/2018
+ms.keywords: winsplp/PBranchOfficeJobDataError, BranchOfficeJobDataError, *PBranchOfficeJobDataError, BranchOfficeJobDataError structure [Print Devices], winsplp/BranchOfficeJobDataError, print.branchofficejobdataerror, PBranchOfficeJobDataError structure pointer [Print Devices], PBranchOfficeJobDataError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BranchOfficeJobDataError
-req.alt-loc: Winsplp.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PBranchOfficeJobDataError, BranchOfficeJobDataError
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Winsplp.h
+apiname: 
+-	BranchOfficeJobDataError
+product: Windows
+targetos: Windows
+req.typenames: BranchOfficeJobDataError, *PBranchOfficeJobDataError
 req.product: Windows 10 or later.
 ---
 
 # BranchOfficeJobDataError structure
 
 
-
 ## -description
+
+
 This structure contains the necessary data for logging a branch office job failure event on a remote server. This is based on standard job-related data available to the spooler.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -65,6 +75,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field LastError
 
@@ -125,5 +138,3 @@ Specifies the failure code for a JOB_ERROR event.
 
 Specifies the text description of the error, if available.
 
-
-## -remarks

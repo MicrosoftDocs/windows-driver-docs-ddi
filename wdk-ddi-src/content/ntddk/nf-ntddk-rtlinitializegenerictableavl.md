@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: D89713A8-7CE7-4A87-AED7-62ACF7D1BA06
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlInitializeGenericTableAvl
+ms.keywords: RtlInitializeGenericTableAvl, RtlInitializeGenericTableAvl routine [Installable File System Drivers], ifsk.rtlinitializegenerictableavl, ntddk/RtlInitializeGenericTableAvl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of the Wi
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlInitializeGenericTableAvl
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlInitializeGenericTableAvl
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # RtlInitializeGenericTableAvl function
 
 
-
 ## -description
+
+
 The <b>RtlInitializeGenericTableAvl</b> routine initializes a generic table using Adelson-Velsky/Landis (AVL) trees.
 
 
-
 ## -syntax
+
 
 ````
 VOID RtlInitializeGenericTableAvl(
@@ -58,6 +68,9 @@ VOID RtlInitializeGenericTableAvl(
 
 ## -parameters
 
+
+
+
 ### -param Table [out]
 
 A pointer to a caller-allocated buffer, which must be at least <b>sizeof</b>(<a href="..\ntddk\ns-ntddk-_rtl_avl_table.md">RTL_AVL_TABLE</a>) bytes in size, to contain the initialized generic table structure. 
@@ -66,7 +79,6 @@ A pointer to a caller-allocated buffer, which must be at least <b>sizeof</b>(<a 
 ### -param CompareRoutine [in]
 
 An entry point of a comparison callback routine, declared as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -81,28 +93,10 @@ An entry point of a comparison callback routine, declared as follows:
     ); </pre>
 </td>
 </tr>
-</table></span></div>
-The <i>CompareRoutine</i> parameters are as follows:
+</table></span></div>The <i>CompareRoutine</i> parameters are as follows:
 
 
 
-
-### -param Table
-
-A pointer to the generic table.
-
-
-### -param FirstStruct
-
-A pointer to the first item to be compared.
-
-
-### -param SecondStruct
-
-A pointer to the second item to be compared.
-
-</dd>
-</dl>
 The <i>CompareRoutine</i> must strictly track the ordering of all elements in the generic table so that it can identify any particular element. The caller-defined structure for element data usually includes a member whose value is unique and can be used as a sorting key. All <i>Rtl...GenericTableAvl</i> routines that call the <i>CompareRoutine</i> take a buffer pointer as a parameter, which is passed in turn to the <i>CompareRoutine</i>. The buffer contains a caller-supplied key value to be matched by the <i>CompareRoutine</i> to the key of the element that is being searched for. 
 
 Given two such key values, the <i>CompareRoutine</i> returns <b>GenericLessThan</b>, <b>GenericGreaterThan</b>, or <b>GenericEqual</b>. 
@@ -111,7 +105,6 @@ Given two such key values, the <i>CompareRoutine</i> returns <b>GenericLessThan<
 ### -param AllocateRoutine [in]
 
 An entry point of an allocation callback routine, declared as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -125,30 +118,16 @@ An entry point of an allocation callback routine, declared as follows:
     );</pre>
 </td>
 </tr>
-</table></span></div>
-The <i>AllocateRoutine</i> parameters are as follows:
+</table></span></div>The <i>AllocateRoutine</i> parameters are as follows:
 
 
 
-
-### -param Table
-
-A pointer to the generic table.
-
-
-### -param ByteSize
-
-The number of bytes to allocate.
-
-</dd>
-</dl>
 For each new element, the <i>AllocateRoutine</i> is called to allocate memory for caller-supplied data plus some additional memory for use by the <i>Rtl...GenericTableAvl</i> routines. Note that because of this "additional memory," caller-supplied routines must not access the first <b>sizeof</b>(RTL_BALANCED_LINKS) bytes of any element in the generic table. 
 
 
 ### -param FreeRoutine [in]
 
 An entry point of a deallocation callback routine, declared as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -162,23 +141,10 @@ An entry point of a deallocation callback routine, declared as follows:
     );</pre>
 </td>
 </tr>
-</table></span></div>
-The <i>FreeRoutine</i> parameters are as follows:
+</table></span></div>The <i>FreeRoutine</i> parameters are as follows:
 
 
 
-
-### -param Table
-
-A pointer to the generic table.
-
-
-### -param Buffer
-
-A pointer to the element that is being deleted.
-
-</dd>
-</dl>
 <i>Rtl...GenericTableAvl</i> routines call the <i>FreeRoutine</i> to deallocate memory for elements to be deleted from the generic table. The <i>FreeRoutine</i> is the opposite of the <i>AllocateRoutine</i>. 
 
 
@@ -187,11 +153,51 @@ A pointer to the element that is being deleted.
 An optional pointer to a caller-supplied context for the generic table. This parameter can be <b>NULL</b>.
 
 
+##### - FreeRoutine.Buffer
+
+A pointer to the element that is being deleted.
+
+
+##### - CompareRoutine.SecondStruct
+
+A pointer to the second item to be compared.
+
+
+##### - AllocateRoutine.Table
+
+A pointer to the generic table.
+
+
+##### - AllocateRoutine.ByteSize
+
+The number of bytes to allocate.
+
+
+##### - CompareRoutine.Table
+
+A pointer to the generic table.
+
+
+##### - FreeRoutine.Table
+
+A pointer to the generic table.
+
+
+##### - CompareRoutine.FirstStruct
+
+A pointer to the first item to be compared.
+
+
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 File systems call <b>RtlInitializeGenericTableAvl</b> to initialize a generic table to store file system-specific data, such as name-lookup information for currently open files. The sort order, structure, and contents of the elements are caller-defined. 
 
 File systems must call <b>RtlInitializeGenericTableAvl</b> to initialize the generic table before they use any other <i>Rtl...GenericTableAvl</i> routines on the new generic table. The initialized generic table structure should be considered opaque.
@@ -203,37 +209,37 @@ The caller-supplied <i>CompareRoutine</i> is called before the <i>AllocateRoutin
 The <b>RtlInitializeGenericTableAvl</b> routine explicitlly allocates a generic table that uses AVL trees. Use of this routine and the other <i>Rtl...GenericTableAvl</i> routines is necessary when AVL tree based tables are desired and RTL_USE_AVL_TABLES is not define before including <i>Ntddk.h</i>.
 
  If you want to configure the generic table routines, <i>Rtl...GenericTable</i>, to use AVL trees instead of splay trees in your driver, insert the following define statement in a common header file before including <i>Ntddk.h</i>:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#define RTL_USE_AVL_TABLES 0</pre>
+</td>
+</tr>
+</table></span></div>Callers of <b>RtlInitializeGenericTableAvl</b> must be running at IRQL &lt;= DISPATCH_LEVEL. Note that if <i>Rtl...GenericTableAvl</i> routines are to be used at IRQL DISPATCH_LEVEL, the <i>CompareRoutine</i>, <i>AllocateRoutine</i>, and <i>FreeRoutine</i> must all be nonpageable code, and the <i>AllocateRoutine</i> should allocate memory from nonpaged pool.
 
-Callers of <b>RtlInitializeGenericTableAvl</b> must be running at IRQL &lt;= DISPATCH_LEVEL. Note that if <i>Rtl...GenericTableAvl</i> routines are to be used at IRQL DISPATCH_LEVEL, the <i>CompareRoutine</i>, <i>AllocateRoutine</i>, and <i>FreeRoutine</i> must all be nonpageable code, and the <i>AllocateRoutine</i> should allocate memory from nonpaged pool.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictableavl.md">RtlDeleteElementGenericTableAvl</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-rtlenumerategenerictableavl.md">RtlEnumerateGenericTableAvl</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-rtlgetelementgenerictable.md">RtlGetElementGenericTableAvl</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictableavl.md">RtlInsertElementGenericTableAvl</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictableavl.md">RtlLookupElementGenericTableAvl</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelementsavl.md">RtlNumberGenericTableElementsAvl</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\nf-ntddk-rtlenumerategenerictableavl.md">RtlEnumerateGenericTableAvl</a>
+
+<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictableavl.md">RtlInsertElementGenericTableAvl</a>
+
+<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictableavl.md">RtlLookupElementGenericTableAvl</a>
+
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
+
+<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictableavl.md">RtlDeleteElementGenericTableAvl</a>
+
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+
  
 
  

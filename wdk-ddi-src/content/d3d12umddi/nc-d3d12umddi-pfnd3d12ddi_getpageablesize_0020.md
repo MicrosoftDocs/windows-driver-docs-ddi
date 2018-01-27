@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DC215186-A216-4C34-AE9A-A487178B34C0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA
+ms.keywords: display.pfnd3d12ddi_getpageablesize, pfnGetPageableSize callback function [Display Devices], pfnGetPageableSize, PFND3D12DDI_GETPAGEABLESIZE_0020, PFND3D12DDI_GETPAGEABLESIZE_0020, d3d12umddi/pfnGetPageableSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnGetPageableSize
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	pfnGetPageableSize
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
 
 # PFND3D12DDI_GETPAGEABLESIZE_0020 callback
 
 
-
 ## -description
+
+
 The <i>pfnGetPageableSize</i> callback function gets the pageable size.
 
 
-
 ## -prototype
+
 
 ````
 PFND3D12DDI_GETPAGEABLESIZE_0020 pfnGetPageableSize;
@@ -58,14 +68,26 @@ UINT64 APIENTRY* pfnGetPageableSize(
 
 ## -parameters
 
-### -param hDevice 
-
-The handle of a device.
 
 
-### -param GetPageableSize [in]
+
+### -param hDrvDevice
+
+
+
+### -param *pArgs
+
+
+
+
+
+
+#### - GetPageableSize [in]
 
 Information used to get pageable size.
 
 
-## -remarks
+#### - hDevice
+
+The handle of a device.
+

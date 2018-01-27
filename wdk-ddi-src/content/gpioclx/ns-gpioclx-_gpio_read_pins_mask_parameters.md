@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 679C9A71-7F39-4344-93D0-6B1332D76CF7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _GPIO_READ_PINS_MASK_PARAMETERS, *PGPIO_READ_PINS_MASK_PARAMETERS, GPIO_READ_PINS_MASK_PARAMETERS
+ms.keywords: GPIO_READ_PINS_MASK_PARAMETERS, gpioclx/PGPIO_READ_PINS_MASK_PARAMETERS, PGPIO_READ_PINS_MASK_PARAMETERS structure pointer [Parallel Ports], GPIO_READ_PINS_MASK_PARAMETERS structure [Parallel Ports], gpioclx/GPIO_READ_PINS_MASK_PARAMETERS, _GPIO_READ_PINS_MASK_PARAMETERS, PGPIO_READ_PINS_MASK_PARAMETERS, GPIO.gpio_read_pins_mask_parameters, *PGPIO_READ_PINS_MASK_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GPIO_READ_PINS_MASK_PARAMETERS
-req.alt-loc: Gpioclx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PGPIO_READ_PINS_MASK_PARAMETERS, GPIO_READ_PINS_MASK_PARAMETERS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Gpioclx.h
+apiname: 
+-	GPIO_READ_PINS_MASK_PARAMETERS
+product: Windows
+targetos: Windows
+req.typenames: GPIO_READ_PINS_MASK_PARAMETERS, *PGPIO_READ_PINS_MASK_PARAMETERS
 ---
 
 # _GPIO_READ_PINS_MASK_PARAMETERS structure
 
 
-
 ## -description
+
+
 The <b>GPIO_READ_PINS_MASK_PARAMETERS</b> structure describes a read operation on a bank of general-purpose I/O (GPIO) pins.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GPIO_READ_PINS_MASK_PARAMETERS {
@@ -56,6 +66,9 @@ typedef struct _GPIO_READ_PINS_MASK_PARAMETERS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field BankId
 
@@ -78,21 +91,20 @@ Reserved for system use.
 
 
 ## -remarks
+
+
 The <i>ReadParameters</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439406">CLIENT_ReadGpioPinsUsingMask</a> event callback function is a pointer to a caller-allocated <b>GPIO_READ_PINS_MASK_PARAMETERS</b> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439406">CLIENT_ReadGpioPinsUsingMask</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+
  
 
  

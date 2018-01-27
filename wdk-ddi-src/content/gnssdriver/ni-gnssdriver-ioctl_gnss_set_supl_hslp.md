@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: A6056EB4-4CEA-4C80-A3CA-1B6B81F47889
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_SUPL_CERT_ACTION, GNSS_SUPL_CERT_ACTION
+ms.keywords: sensors.ioctl_gnss_set_supl_hslp, IOCTL_GNSS_SET_SUPL_HSLP control code [Sensor Devices], IOCTL_GNSS_SET_SUPL_HSLP, gnssdriver/IOCTL_GNSS_SET_SUPL_HSLP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_GNSS_SET_SUPL_HSLP
-req.alt-loc: gnssdriver.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,80 +29,113 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	gnssdriver.h
+apiname: 
+-	IOCTL_GNSS_SET_SUPL_HSLP
+product: Windows
+targetos: Windows
 req.typenames: GNSS_SUPL_CERT_ACTION
 ---
 
 # IOCTL_GNSS_SET_SUPL_HSLP IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
-The <b>IOCTL_GNSS_SET_SUPL_HSLP</b> control code is used by the GNSS adapter to set the SUPL H-SLP address.
 
+
+The <b>IOCTL_GNSS_SET_SUPL_HSLP</b> control code is used by the GNSS adapter to set the SUPL H-SLP address.
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 A pointer to a <a href="..\gnssdriver\ns-gnssdriver-gnss_supl_hslp_config.md">GNSS_SUPL_HSLP_CONFIG</a> structure.
 
 
 ### -input-buffer-length
+
 Set to sizeof(GNSS_SUPL_HSLP_CONFIG).
 
 
 ### -output-buffer
+
 Set to NULL.
 
 
 ### -output-buffer-length
+
 Set to 0.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 <b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
 
 
 ## -remarks
-The driver sets one of the following NTSTATUS values to indicate result.
 
+
+The driver sets one of the following NTSTATUS values to indicate result.
+<ul>
+<li>
 <b>STATUS_SUCCESS</b>, when the driver processes the SUPL H-SLP information successfully.
 
+</li>
+<li>
 <b>Failed</b>, when the driver does not process the SUPL H-SLP information successfully.
 
+</li>
+<li>
 <b>Ignored</b>, when the driver ignores the SUPL H-SLP information.
 
-The GNSS driver must pass the H-SLP information, contained in the input structure, to the SUPL component which should connect to the server address specified by the H-SLP.
+</li>
+</ul><h3><a id="GNSS_driver_notes"></a><a id="gnss_driver_notes"></a><a id="GNSS_DRIVER_NOTES"></a>GNSS driver notes</h3>The GNSS driver must pass the H-SLP information, contained in the input structure, to the SUPL component which should connect to the server address specified by the H-SLP.
 
 If the certificate with the same name is injected again, the GNSS driver should overwrite the previous certificate with the same name.
 
 The H-SLP address is always in the form of a FQDN.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
-</dt>
-<dt>
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-</dt>
-<dt>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
-</dt>
-</dl>
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
  
 
  

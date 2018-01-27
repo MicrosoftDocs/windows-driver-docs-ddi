@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0e5c4b23-cb62-4320-9e55-d0da67b62aa1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_OUT_MONITORARRIVAL,
+ms.keywords: IDARG_OUT_MONITORARRIVAL structure [Display Devices], iddcx/IDARG_OUT_MONITORARRIVAL, display.idarg_out_monitorarrival, IDARG_OUT_MONITORARRIVAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDARG_OUT_MONITORARRIVAL
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDARG_OUT_MONITORARRIVAL
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDARG_OUT_MONITORARRIVAL structure
 
 
-
 ## -description
+
+
 Gives information about the monitor that is exposed to the OS.
              
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDARG_OUT_MONITORARRIVAL {
@@ -56,34 +66,26 @@ typedef struct IDARG_OUT_MONITORARRIVAL {
 
 ## -struct-fields
 
+
+
+
 ### -field OsAdapterLuid
 
 
                      LUID of the adapter where this monitor is exposed to the OS
     . 
-
-<div class="alert"><b>Note</b>  There are no API/DDI calls the driver can make with this information. Its only use is to pass it to companion applications so they can identify the monitor they control.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  There are no API/DDI calls the driver can make with this information. Its only use is to pass it to companion applications so they can identify the monitor they control.</div><div> </div>
 
 ### -field OsTargetId
 
 
                      DMM VidPn target id of the target this monitor is exposed to the OS. 
-
-<div class="alert"><b>Note</b>  There are no API/DDI calls the driver can make with this information. Its only use is to pass it to companion applications so they can identify the monitor they control.</div>
-<div> </div>
-<div class="alert"><b>Note</b>  Although this value is related to the <a href="..\iddcx\ns-iddcx-iddcx_monitor_info.md">IDDCX_MONITOR_INFO</a> value <b>ConnectorIndex</b> passed by the driver, the OS will perform internal mapping between the two that will change in future release. As such, the driver should not take any dependencies on this mapping and should use <b>OsAdapterLuid</b> &amp; <b>OsTargetId</b> instead.</div>
-<div> </div>
-
-## -remarks
-
+<div class="alert"><b>Note</b>  There are no API/DDI calls the driver can make with this information. Its only use is to pass it to companion applications so they can identify the monitor they control.</div><div> </div><div class="alert"><b>Note</b>  Although this value is related to the <a href="..\iddcx\ns-iddcx-iddcx_monitor_info.md">IDDCX_MONITOR_INFO</a> value <b>ConnectorIndex</b> passed by the driver, the OS will perform internal mapping between the two that will change in future release. As such, the driver should not take any dependencies on this mapping and should use <b>OsAdapterLuid</b> &amp; <b>OsTargetId</b> instead.</div><div> </div>
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\iddcx\ns-iddcx-iddcx_monitor_info.md">IDDCX_MONITOR_INFO</a>
-</dt>
-</dl>
+
  
 
  

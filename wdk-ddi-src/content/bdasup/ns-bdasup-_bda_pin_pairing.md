@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0d05455d-32ea-4f88-8752-7f5fe40b8b29
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _BDA_PIN_PAIRING, *PBDA_PIN_PAIRING, BDA_PIN_PAIRING
+ms.keywords: bdaref_b007d58d-86c0-4653-867a-78ef5be2f260.xml, bdasup/BDA_PIN_PAIRING, *PBDA_PIN_PAIRING, BDA_PIN_PAIRING, PBDA_PIN_PAIRING structure pointer [Streaming Media Devices], stream.bda_pin_pairing, _BDA_PIN_PAIRING, PBDA_PIN_PAIRING, bdasup/PBDA_PIN_PAIRING, BDA_PIN_PAIRING structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BDA_PIN_PAIRING
-req.alt-loc: bdasup.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PBDA_PIN_PAIRING, BDA_PIN_PAIRING
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bdasup.h
+apiname: 
+-	BDA_PIN_PAIRING
+product: Windows
+targetos: Windows
+req.typenames: BDA_PIN_PAIRING, *PBDA_PIN_PAIRING
 ---
 
 # _BDA_PIN_PAIRING structure
 
 
-
 ## -description
+
+
 The BDA_PIN_PAIRING structure describes the topology between a pair of input and output pins. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BDA_PIN_PAIRING {
@@ -60,6 +70,9 @@ typedef struct _BDA_PIN_PAIRING {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ulInputPin
 
@@ -101,24 +114,16 @@ Number of joints in the <b>pTopologyJoints</b> array.
 Array of joint values. The value given to a joint corresponds to the index of an element in a array of template connections (KSTOPOLOGY_CONNECTION or BDA_TEMPLATE_CONNECTION array). A topology joint marks the point in the template topology where control of nodes switches from the input pin to the output pin. Those nodes that occur upstream of the topology joint are controlled through the input pin. Those nodes that occur downstream of the topology joint are controlled through the output pin.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
-</dt>
-<dt>
-<a href="..\bdatypes\ns-bdatypes-_bda_template_connection.md">BDA_TEMPLATE_CONNECTION</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
-</dt>
-<dt>
+
+<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
+
+<a href="..\bdatypes\ns-bdatypes-_bda_template_connection.md">BDA_TEMPLATE_CONNECTION</a>
+
 <a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
-</dt>
-</dl>
+
  
 
  

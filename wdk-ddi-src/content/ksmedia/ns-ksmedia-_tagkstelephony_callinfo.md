@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: B5B89AAC-169B-42B0-8FC8-AB436EFC3579
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _tagKSTELEPHONY_CALLINFO, *PKSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO
+ms.keywords: *PKSTELEPHONY_CALLINFO, _tagKSTELEPHONY_CALLINFO, audio.kstelephony_callinfo, KSTELEPHONY_CALLINFO structure [Audio Devices], PKSTELEPHONY_CALLINFO structure pointer [Audio Devices], ksmedia/PKSTELEPHONY_CALLINFO, PKSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO, ksmedia/KSTELEPHONY_CALLINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10,Windows 10 Mobile
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSTELEPHONY_CALLINFO
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSTELEPHONY_CALLINFO
+product: Windows
+targetos: Windows
+req.typenames: KSTELEPHONY_CALLINFO, *PKSTELEPHONY_CALLINFO
 ---
 
 # _tagKSTELEPHONY_CALLINFO structure
 
 
-
 ## -description
+
+
 The <b>KSTELEPHONY_CALLINFO</b> structure specifies the type and state of a phone call for the <a href="https://msdn.microsoft.com/library/windows/hardware/mt169873">KSPROPERTY_TELEPHONY_CALLINFO</a> property.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _tagKSTELEPHONY_CALLINFO {
@@ -55,6 +65,9 @@ typedef struct _tagKSTELEPHONY_CALLINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field CallType
 
 Specifies the type of phone call (circuit-switched, LTE packet-switched, or WLAN packet-switched).
@@ -64,5 +77,3 @@ Specifies the type of phone call (circuit-switched, LTE packet-switched, or WLAN
 
 Specifies the state of the phone call.
 
-
-## -remarks

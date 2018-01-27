@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7750a0f5-f38d-4530-81dc-589a1c2009ca
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterFactoryRegisterAggregatedClientUnknown
+ms.keywords: KsFilterFactoryRegisterAggregatedClientUnknown, avfunc_03ec0abd-d481-4b97-b8ab-6be504e95a55.xml, KsFilterFactoryRegisterAggregatedClientUnknown function [Streaming Media Devices], ks/KsFilterFactoryRegisterAggregatedClientUnknown, stream.ksfilterfactoryregisteraggregatedclientunknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsFilterFactoryRegisterAggregatedClientUnknown
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KsFilterFactoryRegisterAggregatedClientUnknown
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsFilterFactoryRegisterAggregatedClientUnknown function
 
 
-
 ## -description
+
+
 This inline function is a wrapper for <a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>.
 
 
-
 ## -syntax
+
 
 ````
 PUNKNOWN __inline KsFilterFactoryRegisterAggregatedClientUnknown(
@@ -54,6 +64,9 @@ PUNKNOWN __inline KsFilterFactoryRegisterAggregatedClientUnknown(
 
 
 ## -parameters
+
+
+
 
 ### -param FilterFactory [in]
 
@@ -66,19 +79,23 @@ A pointer to the client <b>IUnknown</b> interface.
 
 
 ## -returns
+
+
 <b>KsFilterFactoryRegisterAggregatedClientUnknown</b> returns a pointer to the <b>IUnknown</b> interface of the newly created aggregate object.
 
 
+
 ## -remarks
+
+
 Note that this inline function only performs a typecast and then calls <b>KsRegisterAggregatedClientUnknown</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
-</dt>
-</dl>
+
  
 
  

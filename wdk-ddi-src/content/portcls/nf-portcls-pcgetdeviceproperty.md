@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 75d66965-ab97-4f67-b62f-e7fedbf524a6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcGetDeviceProperty
+ms.keywords: audio.pcgetdeviceproperty, PcGetDeviceProperty, portcls/PcGetDeviceProperty, PcGetDeviceProperty function [Audio Devices], audpc-routines_c95326e5-dc8f-4a04-b31d-6c4e79cc6771.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The PortCls system driver implements the PcGetDeviceP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PcGetDeviceProperty
-req.alt-loc: Portcls.lib,Portcls.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Portcls.lib
+-	Portcls.dll
+apiname: 
+-	PcGetDeviceProperty
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # PcGetDeviceProperty function
 
 
-
 ## -description
+
+
 The <b>PcGetDeviceProperty</b> function returns the requested device property from the registry.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PcGetDeviceProperty(
@@ -57,6 +68,9 @@ NTSTATUS PcGetDeviceProperty(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceObject [in]
 
@@ -84,10 +98,15 @@ Pointer to a caller-allocated variable into which the method outputs a count spe
 
 
 ## -returns
+
+
 <b>PcGetDeviceProperty</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code. The routine returns STATUS_BUFFER_TOO_SMALL if the buffer size specified in <i>BufferLength</i> was not large enough to contain the requested property data.
 
 
+
 ## -remarks
+
+
 Set the <b>DeviceProperty</b> parameter to one of the following DEVICE_REGISTRY_PROPERTY enumeration values from header file wdm.h:
 
 <b>DevicePropertyAddress</b>
@@ -135,15 +154,13 @@ For a description of the preceding DeviceProperty<i>Xxx</i> values, see <a href=
 Two calls to <b>PcGetDeviceProperty</b> might be necessary to determine the required <i>BufferLength</i>. In the first call, <i>BufferLength</i> can either be zero or a best-guess estimate of the required buffer size. If the return status is STATUS_BUFFER_TOO_SMALL, this means that the caller should allocate a buffer of the size that was output through <i>ResultLength</i> and call <b>PcGetDeviceProperty</b> again. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
-</dt>
-</dl>
+
  
 
  

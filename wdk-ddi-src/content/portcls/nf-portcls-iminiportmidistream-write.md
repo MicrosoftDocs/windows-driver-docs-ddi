@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6ff4e4d7-3ba4-4e4b-98fa-62f269aee69f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportMidiStream, IMiniportMidiStream::Write, Write
+ms.keywords: Write, portcls/IMiniportMidiStream::Write, audmp-routines_523fd287-5380-4259-ba2c-4d9adef4fe4b.xml, IMiniportMidiStream::Write, IMiniportMidiStream, audio.iminiportmidistream_write, Write method [Audio Devices], IMiniportMidiStream interface [Audio Devices], Write method, Write method [Audio Devices], IMiniportMidiStream interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportMidiStream.Write
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IMiniportMidiStream.Write
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportMidiStream::Write method
 
 
-
 ## -description
+
+
 The <code>Write</code> method writes data to an outgoing MIDI stream.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS Write(
@@ -55,6 +65,9 @@ NTSTATUS Write(
 
 
 ## -parameters
+
+
+
 
 ### -param BufferAddress [in]
 
@@ -72,36 +85,66 @@ Output pointer to a caller-allocated variable into which the method writes a cou
 
 
 ## -returns
+
+
 <code>Write</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code. The following table shows some of the possible return status codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_IO_DEVICE_ERROR</b></dt>
-</dl>The call failed due to a device error.
+</dl>
+</td>
+<td width="60%">
+The call failed due to a device error.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>Invalid device request (for example, calling <code>Write</code> on a MIDI input stream).
+</dl>
+</td>
+<td width="60%">
+Invalid device request (for example, calling <code>Write</code> on a MIDI input stream).
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-If the method succeeds, it outputs one of the following values to the caller through the <i>BytesWritten</i> parameter:
 
+
+If the method succeeds, it outputs one of the following values to the caller through the <i>BytesWritten</i> parameter:
+<ul>
+<li>
 The same value as <i>BytesToWrite</i>. This value indicates that the method succeeded in writing all <i>BytesToWrite</i> bytes of data to the device.
 
+</li>
+<li>
 A multiple of four that is less than <i>BytesToWrite</i>. If the method is able to write some but not all of the caller's data to the device, it should write a number of bytes that is a multiple of four. This value indicates that the caller should make another call to the method to write the remaining data.
 
+</li>
+<li>
 Zero. This value indicates that the device is too busy to write any of the caller's data during the current call, but that the caller should try again later. The miniport driver is responsible for distinguishing a busy device from a device error. The method should avoid generating an endless succession of calls that always return success but write zero bytes.
+
+</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536705">IMiniportMidiStream::Read</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\fwps_fields_rpc_epmap.htm
 old-project: netvista
 ms.assetid: 78960e0c-6b27-4331-a0e0-3f7ba13a54cf
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: FWPS_FIELDS_RPC_EPMAP_, FWPS_FIELDS_RPC_EPMAP
+ms.date: 1/18/2018
+ms.keywords: fwpsk/FWPS_FIELD_RPC_EPMAP_REMOTE_USER_TOKEN, fwpsk/FWPS_FIELD_RPC_EPMAP_LOCAL_ADDR_V6, fwpsk/FWPS_FIELD_RPC_EPMAP_PROTOCOL, FWPS_FIELD_RPC_EPMAP_SEC_KEY_SIZE, fwpsk/FWPS_FIELD_RPC_EPMAP_REMOTE_ADDR_V4, wfp_ref_5_const_3_data_fields_64131f70-58be-4569-913f-fc651c8bab8f.xml, FWPS_FIELD_RPC_EPMAP_MAX, fwpsk/FWPS_FIELD_RPC_EPMAP_SEC_KEY_SIZE, fwpsk/FWPS_FIELD_RPC_EPMAP_PIPE, FWPS_FIELDS_RPC_EPMAP enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELD_RPC_EPMAP_IF_UUID, fwpsk/FWPS_FIELD_RPC_EPMAP_IF_VERSION, fwpsk/FWPS_FIELD_RPC_EPMAP_AUTH_TYPE, FWPS_FIELD_RPC_EPMAP_AUTH_LEVEL, fwpsk/FWPS_FIELD_RPC_EPMAP_SEC_ENCRYPT_ALGORITHM, FWPS_FIELD_RPC_EPMAP_LOCAL_ADDR_V4, FWPS_FIELD_RPC_EPMAP_AUTH_TYPE, FWPS_FIELD_RPC_EPMAP_PIPE, netvista.fwps_fields_rpc_epmap, fwpsk/FWPS_FIELD_RPC_EPMAP_IF_UUID, fwpsk/FWPS_FIELDS_RPC_EPMAP, FWPS_FIELD_RPC_EPMAP_LOCAL_ADDR_V6, FWPS_FIELD_RPC_EPMAP_SEC_ENCRYPT_ALGORITHM, fwpsk/FWPS_FIELD_RPC_EPMAP_LOCAL_PORT, FWPS_FIELD_RPC_EPMAP_REMOTE_ADDR_V4, FWPS_FIELD_RPC_EPMAP_LOCAL_PORT, fwpsk/FWPS_FIELD_RPC_EPMAP_REMOTE_ADDR_V6, fwpsk/FWPS_FIELD_RPC_EPMAP_LOCAL_ADDR_V4, FWPS_FIELDS_RPC_EPMAP, FWPS_FIELD_RPC_EPMAP_IF_VERSION, fwpsk/FWPS_FIELD_RPC_EPMAP_MAX, FWPS_FIELDS_RPC_EPMAP_, FWPS_FIELD_RPC_EPMAP_PROTOCOL, fwpsk/FWPS_FIELD_RPC_EPMAP_AUTH_LEVEL, FWPS_FIELD_RPC_EPMAP_REMOTE_ADDR_V6, FWPS_FIELD_RPC_EPMAP_REMOTE_USER_TOKEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FWPS_FIELDS_RPC_EPMAP
-req.alt-loc: fwpsk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	fwpsk.h
+apiname: 
+-	FWPS_FIELDS_RPC_EPMAP
+product: Windows
+targetos: Windows
 req.typenames: FWPS_FIELDS_RPC_EPMAP
 ---
 
 # FWPS_FIELDS_RPC_EPMAP_ enumeration
 
 
-
 ## -description
+
+
 The FWPS_FIELDS_RPC_EPMAP enumeration type specifies the data field identifiers for the
   FWPS_LAYER_RPC_EPMAP 
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum FWPS_FIELDS_RPC_EPMAP_ { 
@@ -70,6 +80,9 @@ typedef enum FWPS_FIELDS_RPC_EPMAP_ {
 
 ## -enum-fields
 
+
+
+
 ### -field FWPS_FIELD_RPC_EPMAP_REMOTE_USER_TOKEN
 
 The identification of the remote user.
@@ -87,17 +100,6 @@ The version of the RPC interface.
 
 ### -field FWPS_FIELD_RPC_EPMAP_PROTOCOL
 
-
-### -field The RPC protocol. The possible condition values are:
-     
-
-### -field RPC_PROTSEQ_TCP
-     
-
-### -field RPC_PROTSEQ_HTTP
-     
-
-### -field RPC_PROTSEQ_NMP
 
 
 ### -field FWPS_FIELD_RPC_EPMAP_AUTH_TYPE
@@ -158,4 +160,18 @@ The maximum value for this enumeration. This value might change in future versio
      header files and binaries.
 
 
-## -remarks
+##### - FWPS_FIELD_RPC_EPMAP_PROTOCOL.RPC_PROTSEQ_TCP
+
+
+
+##### - FWPS_FIELD_RPC_EPMAP_PROTOCOL.RPC_PROTSEQ_HTTP
+
+
+
+###### - FWPS_FIELD_RPC_EPMAP_PROTOCOL.The RPC protocol. The possible condition values are:
+
+
+
+##### - FWPS_FIELD_RPC_EPMAP_PROTOCOL.RPC_PROTSEQ_NMP
+
+

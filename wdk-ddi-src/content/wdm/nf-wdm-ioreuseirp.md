@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 18ad2c76-110f-45a9-986b-67e7c81f256f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoReuseIrp
+ms.keywords: IoReuseIrp routine [Kernel-Mode Driver Architecture], IoReuseIrp, wdm/IoReuseIrp, k104_548c8bd2-bc09-4ee6-b373-d244f1f11daa.xml, kernel.ioreuseirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoReuseIrp
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IoReuseIrp, IoReuseIrp2, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoReuseIrp
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoReuseIrp function
 
 
-
 ## -description
+
+
 The <b>IoReuseIrp</b> routine reinitializes an IRP so that it can be reused.
 
 
-
 ## -syntax
+
 
 ````
 VOID IoReuseIrp(
@@ -56,21 +66,35 @@ VOID IoReuseIrp(
 
 ## -parameters
 
+
+
+
 ### -param Irp [in, out]
 
 Pointer to the IRP to be reinitialized for reuse. 
 
 
-### -param Status [in]
+### -param Iostatus
+
+TBD
+
+
+
+#### - Status [in]
 
 Specifies the NTSTATUS value to be set in the IRP after it is reinitialized.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 Drivers for Windows 2000 and later versions of Windows use <b>IoReuseIrp</b> to reuse an IRP.
 
 A driver should use <b>IoReuseIrp</b> only on IRPs it previously allocated either as raw memory or with <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>. In particular, drivers should not use this routine for IRPs created with <a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>, <a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>, <a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>, or <a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>. 
@@ -78,21 +102,17 @@ A driver should use <b>IoReuseIrp</b> only on IRPs it previously allocated eithe
 See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561107">Reusing IRPs</a> for more details on how to reuse IRPs. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-ioinitializeirp.md">IoInitializeIrp</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-ioinitializeirp.md">IoInitializeIrp</a>
+
  
 
  

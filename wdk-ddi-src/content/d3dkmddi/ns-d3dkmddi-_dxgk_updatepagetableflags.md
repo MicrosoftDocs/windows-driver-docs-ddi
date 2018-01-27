@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E0E1CDE7-F1BF-44C8-A320-9BD90788679F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_UPDATEPAGETABLEFLAGS, DXGK_UPDATEPAGETABLEFLAGS
+ms.keywords: DXGK_UPDATEPAGETABLEFLAGS, DXGK_UPDATEPAGETABLEFLAGS structure [Display Devices], display.dxgk_updatepagetableflags, _DXGK_UPDATEPAGETABLEFLAGS, d3dkmddi/DXGK_UPDATEPAGETABLEFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_UPDATEPAGETABLEFLAGS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_UPDATEPAGETABLEFLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_UPDATEPAGETABLEFLAGS
 ---
 
 # _DXGK_UPDATEPAGETABLEFLAGS structure
 
 
-
 ## -description
+
+
 <b>DXGK_UPDATEPAGETABLEFLAGS</b> is used as part of a page table update operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_UPDATEPAGETABLEFLAGS {
@@ -57,6 +67,9 @@ typedef struct _DXGK_UPDATEPAGETABLEFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Repeat
 
@@ -82,5 +95,3 @@ Indicates that page table entries  point to page tables pointing to 64 KB pages.
 
 This member is reserved and should be set to zero.
 
-
-## -remarks

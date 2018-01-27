@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: FB243792-C0B0-4BCA-B4C4-B6E17FDB615C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter::VerifyUserKeyword, VerifyUserKeyword
+ms.keywords: audio.ikeyworddetectoroemadapter, IKeywordDetectorOemAdapter interface [Audio Devices], IKeywordDetectorOemAdapter interface [Audio Devices], described, IKeywordDetectorOemAdapter, keyworddetectoroemadapter/IKeywordDetectorOemAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKeywordDetectorOemAdapter
-req.alt-loc: keyworddetectoroemadapter.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,17 +26,29 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: keyworddetectoroemadapter.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	keyworddetectoroemadapter.h
+apiname: 
+-	IKeywordDetectorOemAdapter
+product: Windows
+targetos: Windows
 req.typenames: KEYWORDID
 ---
 
 # IKeywordDetectorOemAdapter interface
 
 
-
 ## -description
+
+
 <b>IKeywordDetectorOemAdapter</b> is a Component Object Model (COM) interface for interacting with the Voice Activation Driver Interface. The <b>IKeywordDetectorOemAdapter</b> interface is supported 
 in Windows 10 and later versions of Windows.
 
@@ -55,10 +65,3 @@ The interface design attempts to keep the object implementation stateless. In ot
 In fact, internal C++ classes likely do not need any member variables beyond those required to implement a COM object in general.
 
 
-
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKeywordDetectorOemAdapter</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface but does not have additional members.
-
-
-## -remarks

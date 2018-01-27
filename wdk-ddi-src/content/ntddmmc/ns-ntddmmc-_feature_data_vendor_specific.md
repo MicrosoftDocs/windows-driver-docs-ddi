@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 151e6456-4c1f-453b-9eb6-a139e0f93d6e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _FEATURE_DATA_VENDOR_SPECIFIC, *PFEATURE_DATA_VENDOR_SPECIFIC, FEATURE_DATA_VENDOR_SPECIFIC
+ms.keywords: PFEATURE_DATA_VENDOR_SPECIFIC, _FEATURE_DATA_VENDOR_SPECIFIC, ntddmmc/PFEATURE_DATA_VENDOR_SPECIFIC, PFEATURE_DATA_VENDOR_SPECIFIC structure pointer [Storage Devices], storage.feature_data_vendor_specific, structs-CD-ROM_976446aa-d4d1-468b-a617-901d612b1a7e.xml, FEATURE_DATA_VENDOR_SPECIFIC structure [Storage Devices], ntddmmc/FEATURE_DATA_VENDOR_SPECIFIC, FEATURE_DATA_VENDOR_SPECIFIC, *PFEATURE_DATA_VENDOR_SPECIFIC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FEATURE_DATA_VENDOR_SPECIFIC
-req.alt-loc: ntddmmc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PFEATURE_DATA_VENDOR_SPECIFIC, FEATURE_DATA_VENDOR_SPECIFIC
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddmmc.h
+apiname: 
+-	FEATURE_DATA_VENDOR_SPECIFIC
+product: Windows
+targetos: Windows
+req.typenames: FEATURE_DATA_VENDOR_SPECIFIC, *PFEATURE_DATA_VENDOR_SPECIFIC
 ---
 
 # _FEATURE_DATA_VENDOR_SPECIFIC structure
 
 
-
 ## -description
+
+
 The FEATURE_DATA_VENDOR_SPECIFIC structure holds information about a vendor-specific feature.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FEATURE_DATA_VENDOR_SPECIFIC {
@@ -54,6 +64,9 @@ typedef struct _FEATURE_DATA_VENDOR_SPECIFIC {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -66,18 +79,18 @@ Contains an array that describes a vendor-specific feature.
 
 
 ## -remarks
+
+
 You can use this structure to access the data of any feature structure as though it were a simple character array. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
-</dt>
-</dl>
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 39BF7EBF-DD13-41F0-9F54-78E5D82CAB4F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_UPDATEHWCONTEXTSTATE, DXGKARG_UPDATEHWCONTEXTSTATE
+ms.keywords: d3dkmddi/DXGKARG_UPDATEHWCONTEXTSTATE, DXGKARG_UPDATEHWCONTEXTSTATE, DXGKARG_UPDATEHWCONTEXTSTATE structure [Display Devices], display.dxgkarg_updatehwcontextstate, _DXGKARG_UPDATEHWCONTEXTSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_UPDATEHWCONTEXTSTATE
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_UPDATEHWCONTEXTSTATE
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_UPDATEHWCONTEXTSTATE
 ---
 
 # _DXGKARG_UPDATEHWCONTEXTSTATE structure
 
 
-
 ## -description
+
+
 Used to update the context state.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_UPDATEHWCONTEXTSTATE {
@@ -56,6 +66,9 @@ typedef struct _DXGKARG_UPDATEHWCONTEXTSTATE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hHwContext
 
@@ -77,5 +90,3 @@ Execution priority of this context relative to other running contexts on this no
 Context execution state flags.
 
 
-
-## -remarks

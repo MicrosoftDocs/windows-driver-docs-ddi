@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 945BD212-7B48-41FD-B11F-FB03DB073BD4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.videoprocessorsetstreammirror, pfnVideoProcessorSetStreamMirror callback function [Display Devices], pfnVideoProcessorSetStreamMirror, PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR, PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR, d3d10umddi/pfnVideoProcessorSetStreamMirror
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnVideoProcessorSetStreamMirror
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	pfnVideoProcessorSetStreamMirror
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR callback
 
 
-
 ## -description
+
+
 Indicates whether the stream should be flipped vertically or horizontally. Optional for Windows Display Driver Model (WDDM) 2.0, or later, drivers.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR pfnVideoProcessorSetStreamMirror;
@@ -61,6 +71,9 @@ VOID APIENTRY* pfnVideoProcessorSetStreamMirror(
 
 
 ## -parameters
+
+
+
 
 ### -param hDevice [in]
 
@@ -87,34 +100,34 @@ Indicates whether mirroring support is enabled or disabled.
 Indicates whether the input stream should be flipped horizontally.
 
 
-
-<div class="alert"><b>Note</b>  This should be ignored when <b>Enable</b> is <b>FALSE</b>.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  This should be ignored when <b>Enable</b> is <b>FALSE</b>.</div><div> </div>
 
 ### -param FlipVertical [in]
 
 Indicates whether the input stream should be flipped vertically.
 
 
-
 <div class="alert"><b>Note</b>  This should be ignored when <b>Enable</b> is <b>FALSE</b>.
-</div>
-<div> </div>
+</div><div> </div>
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 Operations are conceptually applied in the following order:
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
-</dt>
-</dl>
+
  
 
  

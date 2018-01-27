@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 59ca5035-f4d8-4a9c-a298-c8dca604f4db
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFreeObjectHeader
+ms.keywords: KsFreeObjectHeader, stream.ksfreeobjectheader, ks/KsFreeObjectHeader, ksfunc_11097907-6879-43bb-879b-b74eb13d6109.xml, KsFreeObjectHeader function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsFreeObjectHeader
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsFreeObjectHeader
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsFreeObjectHeader function
 
 
-
 ## -description
+
+
 The <b>KsFreeObjectHeader</b> function cleans up and frees a previously allocated object header.
 
 
-
 ## -syntax
+
 
 ````
 VOID KsFreeObjectHeader(
@@ -54,24 +65,25 @@ VOID KsFreeObjectHeader(
 
 ## -parameters
 
+
+
+
 ### -param Header [in]
 
 Points to the object header to free.
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ksallocateobjectheader.md">KsAllocateObjectHeader</a>
-</dt>
-</dl>
+
  
 
  

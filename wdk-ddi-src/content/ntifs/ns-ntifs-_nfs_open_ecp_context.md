@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f3600dca-d246-41b5-99b4-4054e677b03b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _NFS_OPEN_ECP_CONTEXT, *PNFS_OPEN_ECP_CONTEXT, NFS_OPEN_ECP_CONTEXT, PPNFS_OPEN_ECP_CONTEXT
+ms.keywords: PPNFS_OPEN_ECP_CONTEXT, ntifs/PNFS_OPEN_ECP_CONTEXT, PPNFS_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], ntifs/PPNFS_OPEN_ECP_CONTEXT, ntifs/NFS_OPEN_ECP_CONTEXT, _NFS_OPEN_ECP_CONTEXT, *PNFS_OPEN_ECP_CONTEXT, NFS_OPEN_ECP_CONTEXT structure [Installable File System Drivers], ECP_Structures_d19b2618-0b21-424c-b5bd-abc9b6bdc518.xml, NFS_OPEN_ECP_CONTEXT, ifsk.nfs_open_ecp_context, PNFS_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], PNFS_OPEN_ECP_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This structure is available starting with Windows 7.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NFS_OPEN_ECP_CONTEXT
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PNFS_OPEN_ECP_CONTEXT, NFS_OPEN_ECP_CONTEXT, PPNFS_OPEN_ECP_CONTEXT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	NFS_OPEN_ECP_CONTEXT
+product: Windows
+targetos: Windows
+req.typenames: PPNFS_OPEN_ECP_CONTEXT, NFS_OPEN_ECP_CONTEXT, *PNFS_OPEN_ECP_CONTEXT
 ---
 
 # _NFS_OPEN_ECP_CONTEXT structure
 
 
-
 ## -description
+
+
 The NFS_OPEN_ECP_CONTEXT structure is used by the Network File System (NFS) server to open files in response to client requests. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NFS_OPEN_ECP_CONTEXT {
@@ -54,6 +64,9 @@ typedef struct _NFS_OPEN_ECP_CONTEXT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ExportAlias
 
@@ -66,20 +79,20 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff57
 
 
 ## -remarks
-The file-system stack can determine whether NFS_OPEN_ECP_CONTEXT is attached to the create file request. The file-system stack can then use the information in NFS_OPEN_ECP_CONTEXT to determine the client that requested that the file be opened and why it was requested. For information about how to retrieve the NFS_OPEN_ECP_CONTEXT extra information that is attached to a create file request, see <a href="ifsk.using_ecps_to_process_irp_mj_create_operations_in_a_file_system_filter#retrieving_ecps#retrieving_ecps">Retrieving ECPs</a>. 
+
+
+The file-system stack can determine whether NFS_OPEN_ECP_CONTEXT is attached to the create file request. The file-system stack can then use the information in NFS_OPEN_ECP_CONTEXT to determine the client that requested that the file be opened and why it was requested. For information about how to retrieve the NFS_OPEN_ECP_CONTEXT extra information that is attached to a create file request, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/using-ecps-to-process-irp-mj-create-operations-in-a-file-system-filter">Retrieving ECPs</a>. 
 
 The NFS_OPEN_ECP_CONTEXT structure is read-only. You should use it to retrieve information about the open file ECP only. For more information about this issue, see <a href="https://msdn.microsoft.com/6acb4be4-a7aa-431d-b2d8-3ef6d41cb4ef">System-Defined ECPs</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
+
  
 
  

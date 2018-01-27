@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 5E6ECBCB-53AC-440B-92D9-21F5A06FCFAB
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: TELEPHONY_CALLCONTROLOP, TELEPHONY_CALLCONTROLOP
+ms.keywords: audio.telephony_callcontrolop, TELEPHONY_CALLCONTROLOP_DISABLE, ksmedia/TELEPHONY_CALLCONTROLOP_ENABLE, TELEPHONY_CALLCONTROLOP_ENABLE, TELEPHONY_CALLCONTROLOP enumeration [Audio Devices], TELEPHONY_CALLCONTROLOP, ksmedia/TELEPHONY_CALLCONTROLOP, ksmedia/TELEPHONY_CALLCONTROLOP_DISABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10 Mobile
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TELEPHONY_CALLCONTROLOP
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	TELEPHONY_CALLCONTROLOP
+product: Windows
+targetos: Windows
 req.typenames: TELEPHONY_CALLCONTROLOP
 ---
 
 # TELEPHONY_CALLCONTROLOP enumeration
 
 
-
 ## -description
+
+
 The <b>TELEPHONY_CALLCONTROLOP</b> enumeration defines constants that specify an operation to perform on a phone call.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -55,6 +65,9 @@ typedef enum  {
 
 ## -enum-fields
 
+
+
+
 ### -field TELEPHONY_CALLCONTROLOP_DISABLE
 
 Disables a phone call.
@@ -65,15 +78,10 @@ Disables a phone call.
 Enables a phone call.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-_tagkstelephony_callcontrol.md">KSTELEPHONY_CALLCONTROL</a>
-</dt>
-</dl>
+
  
 
  

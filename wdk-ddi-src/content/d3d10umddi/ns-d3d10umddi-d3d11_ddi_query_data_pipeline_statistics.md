@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d82b4e91-6734-4644-811d-fb64cfb9f5c4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS, D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS
+ms.keywords: display.d3d11_ddi_query_data_pipeline_statistics, d3d10umddi/D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS, D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_68a59a1f-0f02-4be2-b417-5c4064df23fb.xml, D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS is supported
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS
+product: Windows
+targetos: Windows
 req.typenames: D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS
 ---
 
 # D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS structure
 
 
-
 ## -description
+
+
 The D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS structure describes statistics for each stage of the graphics pipeline that is used in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createquery.md">CreateQuery(D3D10)</a> function to create a D3D10DDI_QUERY_PIPELINESTATS query type and in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querygetdata.md">QueryGetData</a> function to return information about the query. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS {
@@ -63,6 +73,9 @@ typedef struct D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field IAVertices
 
@@ -120,21 +133,20 @@ The number of commute shader (CS) invocations.
 
 
 ## -remarks
+
+
 The driver associates a D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS structure with the D3D11DDI_QUERY_PIPELINESTATS query type value from the <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a> enumeration.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createquery.md">CreateQuery(D3D10)</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querygetdata.md">QueryGetData</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createquery.md">CreateQuery(D3D10)</a>
+
  
 
  

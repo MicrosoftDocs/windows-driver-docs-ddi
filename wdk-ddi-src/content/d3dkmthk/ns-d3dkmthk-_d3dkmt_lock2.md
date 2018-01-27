@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: AFDA9D5F-2590-4034-B2CF-07990F4553C8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_LOCK2, D3DKMT_LOCK2
+ms.keywords: display.d3dkmt_lock2, d3dkmthk/D3DKMT_LOCK2, D3DKMT_LOCK2 structure [Display Devices], D3DKMT_LOCK2, _D3DKMT_LOCK2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_LOCK2
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_LOCK2
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_LOCK2
 ---
 
 # _D3DKMT_LOCK2 structure
 
 
-
 ## -description
+
+
 <b>D3DKMT_LOCK2</b> describes parameters for locking an allocation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_LOCK2 {
@@ -56,6 +66,9 @@ typedef struct _D3DKMT_LOCK2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -76,5 +89,3 @@ A set of flags to pass to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock2.md">L
 
 A CPU virtual address pointing a valid memory location pointing to the CPU backing store or the GPU frame buffer.
 
-
-## -remarks

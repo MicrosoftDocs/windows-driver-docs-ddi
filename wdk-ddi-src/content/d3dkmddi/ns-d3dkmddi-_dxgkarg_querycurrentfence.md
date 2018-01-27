@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 84a7c49b-d079-4d14-b371-5cfb75c1331c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_QUERYCURRENTFENCE, DXGKARG_QUERYCURRENTFENCE, *INOUT_PDXGKARG_QUERYCURRENTFENCE
+ms.keywords: DXGKARG_QUERYCURRENTFENCE structure [Display Devices], DXGKARG_QUERYCURRENTFENCE, display.dxgkarg_querycurrentfence, DmStructs_799a15e5-b780-43c4-a0c2-d97e3c91caec.xml, _DXGKARG_QUERYCURRENTFENCE, d3dkmddi/DXGKARG_QUERYCURRENTFENCE, *INOUT_PDXGKARG_QUERYCURRENTFENCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_QUERYCURRENTFENCE
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_QUERYCURRENTFENCE
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_QUERYCURRENTFENCE
 ---
 
 # _DXGKARG_QUERYCURRENTFENCE structure
 
 
-
 ## -description
+
+
 The DXGKARG_QUERYCURRENTFENCE structure describes the latest completed submission fence. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_QUERYCURRENTFENCE {
@@ -55,6 +65,9 @@ typedef struct _DXGKARG_QUERYCURRENTFENCE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field CurrentFence
 
@@ -71,15 +84,10 @@ typedef struct _DXGKARG_QUERYCURRENTFENCE {
 [in] The zero-based index of the engine, within the node that <b>NodeOrdinal</b> specifies, for the current fence.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_querycurrentfence.md">DxgkDdiQueryCurrentFence</a>
-</dt>
-</dl>
+
  
 
  

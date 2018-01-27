@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 513cdedc-2ecd-4b02-a85b-5abd9c0c7fcd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_FreeLibrary
+ms.keywords: fibreHBA_rtns_ae252017-7aa2-4d15-a387-26ec34cc964c.xml, storage.hba_freelibrary, HBA_FreeLibrary, hbaapi/HBA_FreeLibrary, HBA_FreeLibrary routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBA_FreeLibrary
-req.alt-loc: Hbaapi.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Hbaapi.dll
+apiname: 
+-	HBA_FreeLibrary
+product: Windows
+targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
 
 # HBA_FreeLibrary function
 
 
-
 ## -description
+
+
 The <b>HBA_FreeLibrary</b> routine releases system resources associated with fibre channel HBA library.
 
 
-
 ## -syntax
+
 
 ````
 HBA_STATUS HBA_API HBA_FreeLibrary(void);
@@ -53,23 +63,20 @@ HBA_STATUS HBA_API HBA_FreeLibrary(void);
 ## -parameters
 
 
+
+
+
 ## -returns
+
+
 The <b>HBA_FreeLibrary</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA.
 
-The <b>HBA_FreeLibrary</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA.
-
-The <b>HBA_FreeLibrary</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA.
-
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-</dt>
-</dl>
+
  
 
  

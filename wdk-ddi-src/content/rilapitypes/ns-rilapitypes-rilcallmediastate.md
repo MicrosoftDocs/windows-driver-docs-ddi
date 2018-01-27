@@ -7,8 +7,8 @@ old-location: netvista\rilcallmediastate_2.htm
 old-project: netvista
 ms.assetid: d3b89502-667c-45dd-af1c-05b7c8613d6c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCALLMEDIASTATE, *LPRILCALLMEDIASTATE, RILCALLMEDIASTATE
+ms.date: 1/18/2018
+ms.keywords: *LPRILCALLMEDIASTATE, netvista.rilcallmediastate_2, RILCALLMEDIASTATE, RILCALLMEDIASTATE structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLMEDIASTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCALLMEDIASTATE
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILCALLMEDIASTATE
+product: Windows
+targetos: Windows
 req.typenames: *LPRILCALLMEDIASTATE, RILCALLMEDIASTATE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILCALLMEDIASTATE structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILCALLMEDIASTATE {
@@ -72,58 +82,81 @@ typedef struct _RILCALLMEDIASTATE {
 
 ## -struct-fields
 
-### -field dwDirection
 
-
-### -field dwCallMediaType
-
-
-### -field RILCALLMEDIASTATEUNION
 
 
 ### -field mediaStateUnion
 
 
-### -field switch_is
+
+### -field mediaStateUnion.stAudioState
+
+ 
+
+
+### -field mediaStateUnion.stVideoState
+
+ 
+
+
+### -field mediaStateUnion.dwCustomStateSpecific
+
+ 
+
+
+### -field mediaStateUnion.pad
+
+ 
+
+
+### -field RILCALLMEDIASTATEUNION
+
+
+
+### -field dwDirection
+
 
 
 ### -field dwCallMediaType
 
 
-### -field stAudioState
+
+#### - dwCustomStateSpecific
 
 
-### -field case
+
+#### - RIL_CALLMEDIATYPE_VIDEO
 
 
-### -field RIL_CALLMEDIATYPE_AUDIO
+
+#### - RIL_CALLMEDIATYPE_UNKNOWN
 
 
-### -field stVideoState
+
+#### - case
 
 
-### -field case
+
+#### - RIL_CALLMEDIATYPE_AUDIO
 
 
-### -field RIL_CALLMEDIATYPE_VIDEO
+
+#### - switch_is
 
 
-### -field dwCustomStateSpecific
+
+#### - pad
 
 
-### -field case
+
+#### - stVideoState
 
 
-### -field RIL_CALLMEDIATYPE_CUSTOM
+
+#### - stAudioState
 
 
-### -field pad
+
+#### - RIL_CALLMEDIATYPE_CUSTOM
 
 
-### -field case
-
-
-### -field RIL_CALLMEDIATYPE_UNKNOWN
-
-
-## -remarks

@@ -7,8 +7,8 @@ old-location: netvista\ndiscopyfromnetbuffertonetbuffer.htm
 old-project: netvista
 ms.assetid: b760e176-3ef7-4495-89c7-ec6b8bb3ed30
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisCopyFromNetBufferToNetBuffer
+ms.date: 1/18/2018
+ms.keywords: NdisCopyFromNetBufferToNetBuffer, ndis_netbuf_functions_ref_28d10afe-d78a-49ef-8c9c-f90b87d4eeb1.xml, netvista.ndiscopyfromnetbuffertonetbuffer, NdisCopyFromNetBufferToNetBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisCopyFromNetBufferToNetBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisCopyFromNetBufferToNetBuffer
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_NetBuffer_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,35 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisCopyFromNetBufferToNetBuffer
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCopyFromNetBufferToNetBuffer function
 
 
-
 ## -description
+
+
 Call the 
   <b>NdisCopyFromNetBufferToNetBuffer</b> function to copy data from a source 
   <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure to a destination NET_BUFFER
   structure.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisCopyFromNetBufferToNetBuffer(
@@ -61,6 +72,9 @@ NDIS_STATUS NdisCopyFromNetBufferToNetBuffer(
 
 
 ## -parameters
+
+
+
 
 ### -param Destination [in]
 
@@ -99,18 +113,43 @@ A pointer to the caller-supplied variable in which this function returns the num
 
 
 ## -returns
+
+
 <b>NdisCopyFromNetBufferToNetBuffer</b> returns one of the following status values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_SUCCESS</b></dt>
-</dl>The copy operation completed successfully.
+</dl>
+</td>
+<td width="60%">
+The copy operation completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_RESOURCES</b></dt>
-</dl>The copy operation failed because of insufficient resources.
+</dl>
+</td>
+<td width="60%">
+The copy operation failed because of insufficient resources.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The caller of 
     <b>NdisCopyFromNetBufferToNetBuffer</b> allocates the destination 
     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure and possibly the source
@@ -147,15 +186,14 @@ NDIS uses the offsets in the
     <i>SourceOffset</i> value.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCopyFromNetBufferToNetBuffer function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCopyFromNetBufferToNetBuffer function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

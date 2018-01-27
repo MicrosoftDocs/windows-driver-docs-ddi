@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 06f26404-c955-4034-8dd3-ad641c7b8010
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_VideoStreamingHints, KS_VideoStreamingHints
+ms.keywords: ksmedia/KS_StreamingHint_KeyFrameRate, stream.ks_videostreaminghints, KS_VideoStreamingHints, KS_StreamingHint_FrameInterval, KS_StreamingHint_CompQuality, KS_StreamingHint_CompWindowSize, ksmedia/KS_StreamingHint_CompQuality, ksmedia/KS_VideoStreamingHints, KS_StreamingHint_KeyFrameRate, ksmedia/KS_StreamingHint_PFrameRate, KS_VideoStreamingHints enumeration [Streaming Media Devices], KS_StreamingHint_PFrameRate, ksmedia/KS_StreamingHint_CompWindowSize, vidcapstruct_d26d7d11-bfb8-4773-8ace-05793a7a7084.xml, ksmedia/KS_StreamingHint_FrameInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_VideoStreamingHints
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KS_VideoStreamingHints
+product: Windows
+targetos: Windows
 req.typenames: KS_VideoStreamingHints
 ---
 
 # KS_VideoStreamingHints enumeration
 
 
-
 ## -description
+
+
 The KS_VideoStreamingHints enumeration defines video compression hints.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -57,6 +67,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field KS_StreamingHint_FrameInterval
 
@@ -82,5 +95,3 @@ Specifies compression that is based on compression quality.
 
 Specifies compression that is based on compression window size.
 
-
-## -remarks

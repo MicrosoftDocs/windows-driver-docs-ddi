@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 22482590-B0F7-4F35-95D5-9B352810047D
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_UNMAPCPUHOSTAPERTURE, DXGKARG_UNMAPCPUHOSTAPERTURE
+ms.keywords: display.dxgkarg_unmapcpuhostaperture, _DXGKARG_UNMAPCPUHOSTAPERTURE, DXGKARG_UNMAPCPUHOSTAPERTURE, d3dkmddi/DXGKARG_UNMAPCPUHOSTAPERTURE, DXGKARG_UNMAPCPUHOSTAPERTURE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_UNMAPCPUHOSTAPERTURE
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_UNMAPCPUHOSTAPERTURE
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_UNMAPCPUHOSTAPERTURE
 ---
 
 # _DXGKARG_UNMAPCPUHOSTAPERTURE structure
 
 
-
 ## -description
+
+
 The <b>DXGKARG_UNMAPCPUHOSTAPERTURE</b> structure is used to unmap a previously mapped range of the CPU host aperture.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_UNMAPCPUHOSTAPERTURE {
@@ -56,6 +66,9 @@ typedef struct _DXGKARG_UNMAPCPUHOSTAPERTURE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NumberOfPages
 
@@ -75,19 +88,12 @@ The driver segment identifier (starting from 1) of the segment for which the CPU
 ### -field PhysicalAdapterIndex
 
 The zero-based physical adapter index in a linked display adapter link.
-
-<div class="alert"><b>Note</b>  The page size is equal to the segment page size.</div>
-<div> </div>
-
-## -remarks
-
+<div class="alert"><b>Note</b>  The page size is equal to the segment page size.</div><div> </div>
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_unmapcpuhostaperture.md">DxgkDdiUnmapCpuHostAperture</a>
-</dt>
-</dl>
+
  
 
  

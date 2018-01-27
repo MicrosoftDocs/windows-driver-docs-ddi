@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4DA34F96-A69A-46BE-B3D8-D542794052DE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsQueryTotalCycleTimeProcess
+ms.keywords: PsQueryTotalCycleTimeProcess routine [Kernel-Mode Driver Architecture], kernel.psquerytotalcycletimeprocess, PsQueryTotalCycleTimeProcess, wdm/PsQueryTotalCycleTimeProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 8 and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PsQueryTotalCycleTimeProcess
-req.alt-loc: ntoskrnl.lib,ntoskrnl.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ntoskrnl.lib
+-	ntoskrnl.dll
+apiname: 
+-	PsQueryTotalCycleTimeProcess
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # PsQueryTotalCycleTimeProcess function
 
 
-
 ## -description
+
+
 The <b>PsQueryTotalCycleTimeProcess</b> routine returns the accumulated cycle time for the specified process.
 
 
-
 ## -syntax
+
 
 ````
 ULONG64 PsQueryTotalCycleTimeProcess(
@@ -55,6 +66,9 @@ ULONG64 PsQueryTotalCycleTimeProcess(
 
 
 ## -parameters
+
+
+
 
 ### -param Process [in, out]
 
@@ -67,19 +81,23 @@ A pointer to a ULONG64 variable to which the routine writes the current cycle co
 
 
 ## -returns
+
+
 <b>PsQueryTotalCycleTimeProcess</b> returns the accumulated cycle time for the specified process.
 
 
+
 ## -remarks
+
+
 This routine uses the time stamp counter to get the number of processor clock cycles used by the specified process.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544273">EPROCESS</a>
-</dt>
-</dl>
+
  
 
  

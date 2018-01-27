@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bd8fc34a-60a3-4ae7-b13e-50d8b4342834
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTUpdateOverlay
+ms.keywords: display.d3dkmtupdateoverlay, D3DKMTUpdateOverlay function [Display Devices], d3dkmthk/D3DKMTUpdateOverlay, OpenGL_Functions_bddc75da-dc62-43cf-8ee7-ec9958198669.xml, D3DKMTUpdateOverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTUpdateOverlay
-req.alt-loc: Gdi32.dll,API-MS-Win-dx-d3dkmt-l1-1-0.dll,API-MS-Win-dx-d3dkmt-l1-1-1.dll,API-MS-Win-DX-D3DKMT-L1-1-2.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Gdi32.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-0.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-1.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+apiname: 
+-	D3DKMTUpdateOverlay
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTUpdateOverlay function
 
 
-
 ## -description
+
+
 The <b>D3DKMTUpdateOverlay</b> function modifies a kernel-mode overlay object.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS APIENTRY D3DKMTUpdateOverlay(
@@ -54,41 +67,84 @@ NTSTATUS APIENTRY D3DKMTUpdateOverlay(
 
 ## -parameters
 
-### -param pData [in]
+
+
+
+### -param D3DKMT_UPDATEOVERLAY
+
+TBD
+
+
+
+#### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_updateoverlay.md">D3DKMT_UPDATEOVERLAY</a> structure that describes how to modify the overlay.
 
 
 ## -returns
+
+
 <b>D3DKMTUpdateOverlay</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The kernel-mode overlay object was successfully modified.
+</dl>
+</td>
+<td width="60%">
+The kernel-mode overlay object was successfully modified.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_DEVICE_REMOVED</b></dt>
-</dl>The graphics adapter was stopped or the display device was reset.
+</dl>
+</td>
+<td width="60%">
+The graphics adapter was stopped or the display device was reset.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>Parameters were validated and determined to be incorrect.
+</dl>
+</td>
+<td width="60%">
+Parameters were validated and determined to be incorrect.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NO_MEMORY</b></dt>
 </dl>
+</td>
+<td width="60%">
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtupdateoverlay.md">D3DKMTUpdateOverlay</a> could not complete because of insufficient memory.
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other NTSTATUS values.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_updateoverlay.md">D3DKMT_UPDATEOVERLAY</a>
-</dt>
-</dl>
+
  
 
  

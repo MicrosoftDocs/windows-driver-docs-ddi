@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6316acfa-c19c-4705-becb-b89c3feed6a3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FLT_CONTEXT_REGISTRATION, FLT_CONTEXT_REGISTRATION, *PFLT_CONTEXT_REGISTRATION
+ms.keywords: *PFLT_CONTEXT_REGISTRATION, PFLT_CONTEXT_REGISTRATION structure pointer [Installable File System Drivers], fltkernel/FLT_CONTEXT_REGISTRATION, FltSystemStructures_534c1657-6f7c-42fa-b8df-2a64ed6edf3a.xml, FLT_CONTEXT_REGISTRATION, PFLT_CONTEXT_REGISTRATION, _FLT_CONTEXT_REGISTRATION, FLT_CONTEXT_REGISTRATION structure [Installable File System Drivers], ifsk.flt_context_registration, fltkernel/PFLT_CONTEXT_REGISTRATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FLT_CONTEXT_REGISTRATION
-req.alt-loc: fltkernel.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	fltkernel.h
+apiname: 
+-	FLT_CONTEXT_REGISTRATION
+product: Windows
+targetos: Windows
 req.typenames: FLT_CONTEXT_REGISTRATION, *PFLT_CONTEXT_REGISTRATION
 ---
 
 # _FLT_CONTEXT_REGISTRATION structure
 
 
-
 ## -description
+
+
 The FLT_CONTEXT_REGISTRATION structure is used to register context types. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FLT_CONTEXT_REGISTRATION {
@@ -61,45 +71,31 @@ typedef struct _FLT_CONTEXT_REGISTRATION {
 
 ## -struct-fields
 
+
+
+
 ### -field ContextType
 
 The type of context. This member is required and must be one of the following values: 
 
-<dl>
-<dd>
 FLT_FILE_CONTEXT (Windows Vista and later only.)
 
-</dd>
-<dd>
 FLT_INSTANCE_CONTEXT
 
-</dd>
-<dd>
 FLT_STREAM_CONTEXT
 
-</dd>
-<dd>
 FLT_STREAMHANDLE_CONTEXT
 
-</dd>
-<dd>
 FLT_SECTION_CONTEXT (Windows 8 and later only.)
 
-</dd>
-<dd>
 FLT_TRANSACTION_CONTEXT (Windows Vista and later only.) 
 
-</dd>
-<dd>
 FLT_VOLUME_CONTEXT
 
-</dd>
-</dl>
 
 ### -field Flags
 
 A bitmask of flags that specify how the filter manager allocates a new context from a lookaside list of fixed-size contexts. This member can be zero or the following value. 
-
 <table>
 <tr>
 <th>Flag</th>
@@ -115,8 +111,7 @@ If the minifilter uses fixed-size contexts and this flag is specified, the filte
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field ContextCleanupCallback
@@ -150,39 +145,45 @@ Reserved for system use. Minifilters must set this member to <b>NULL</b>.
 
 
 ## -remarks
+
+
 When a minifilter calls <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a> from its <b>DriverEntry</b> routine, it must register each context type that it uses. 
 
 To register these context types, the minifilter creates a variable-length array of FLT_CONTEXT_REGISTRATION structures and stores a pointer to the array in the <b>ContextRegistration</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a> structure that the minifilter passes as the <i>Registration</i> parameter of <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>. The last element of this array must be {FLT_CONTEXT_END}. 
 
 For each context type that the minifilter uses, the minifilter must supply at least one FLT_CONTEXT_REGISTRATION structure, according to the following rules: 
-
+<ul>
+<li>
 If the minifilter supplies an FLT_CONTEXT_REGISTRATION structure with a non-<b>NULL</b><b> ContextAllocateCallback</b> member, it cannot supply any additional FLT_CONTEXT_REGISTRATION structures for that context type. 
 
+</li>
+<li>
 If the minifilter supplies two or more identical FLT_CONTEXT_REGISTRATION structures, only the first one will be used. The others will be ignored. 
 
+</li>
+<li>
 Only one FLT_CONTEXT_REGISTRATION structure with a <b>Size</b> member of FLT_VARIABLE_SIZED_CONTEXTS can be supplied for each context type. 
 
+</li>
+<li>
 No more than three FLT_CONTEXT_REGISTRATION structures with a <b>Size</b> member other than FLT_VARIABLE_SIZED_CONTEXTS can be supplied for each context type. 
+
+</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nc-fltkernel-pflt_context_allocate_callback.md">PFLT_CONTEXT_ALLOCATE_CALLBACK</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nc-fltkernel-pflt_context_cleanup_callback.md">PFLT_CONTEXT_CLEANUP_CALLBACK</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_context_allocate_callback.md">PFLT_CONTEXT_ALLOCATE_CALLBACK</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
+
 <a href="..\fltkernel\nc-fltkernel-pflt_context_free_callback.md">PFLT_CONTEXT_FREE_CALLBACK</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+
  
 
  

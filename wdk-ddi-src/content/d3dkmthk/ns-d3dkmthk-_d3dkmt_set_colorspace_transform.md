@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 253c689d-ce30-4065-920a-030e3e9f3b8e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_SET_COLORSPACE_TRANSFORM, D3DKMT_SET_COLORSPACE_TRANSFORM
+ms.keywords: d3dkmthk/D3DKMT_SET_COLORSPACE_TRANSFORM, D3DKMT_SET_COLORSPACE_TRANSFORM, display.d3dkmt-set-colorspace-transform, D3DKMT_SET_COLORSPACE_TRANSFORM structure [Display Devices], _D3DKMT_SET_COLORSPACE_TRANSFORM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_SET_COLORSPACE_TRANSFORM
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_SET_COLORSPACE_TRANSFORM
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_SET_COLORSPACE_TRANSFORM
 ---
 
 # _D3DKMT_SET_COLORSPACE_TRANSFORM structure
 
 
-
 ## -description
-TBD
 
+
+TBD
 
 
 ## -struct-fields
 
-
-## -remarks

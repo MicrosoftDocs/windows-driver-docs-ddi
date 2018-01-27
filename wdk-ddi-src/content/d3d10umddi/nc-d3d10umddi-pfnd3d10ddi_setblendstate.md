@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8794413f-f4d5-4382-8886-2f0659d8a781
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.setblendstate, SetBlendState callback function [Display Devices], SetBlendState, PFND3D10DDI_SETBLENDSTATE, PFND3D10DDI_SETBLENDSTATE, d3d10umddi/SetBlendState, UserModeDisplayDriverDx10_Functions_11dcf032-7cd6-497e-985d-548960276981.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetBlendState
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	SetBlendState
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D10DDI_SETBLENDSTATE callback
 
 
-
 ## -description
+
+
 The <i>SetBlendState</i> function sets a blend state. 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D10DDI_SETBLENDSTATE SetBlendState;
@@ -60,45 +70,70 @@ VOID APIENTRY SetBlendState(
 
 ## -parameters
 
-### -param hDevice [in]
-
- A handle to the display device (graphics context).
 
 
-### -param hState [in]
+
+### -param D3D10DDI_HDEVICE
+
+
+
+### -param D3D10DDI_HBLENDSTATE
+
+
+
+### -param FLOAT[4]
+
+
+
+### -param UINT
+
+
+
+
+
+
+#### - hState [in]
 
  A handle to the blend state to set.
 
 
-### -param pBlendFactor [in]
-
- A four-element array of single-precision float vectors that the driver uses to set the blend state.
-
-
-### -param SampleMask [in]
+#### - SampleMask [in]
 
  A sample format mask.
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
+#### - pBlendFactor [in]
+
+ A four-element array of single-precision float vectors that the driver uses to set the blend state.
+
+
 ## -returns
+
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
 
 
+
 ## -remarks
+
+
 The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> function, the Microsoft Direct3D runtime will determine that the error is critical. Even if the device was removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interfered with the operation of <i>SetBlendState</i> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-</dt>
-</dl>
+
  
 
  

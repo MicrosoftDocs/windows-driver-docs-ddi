@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e66b721f-4cc0-4d35-9e24-6d7dd4029ea4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _CIP_HDR2_SYT, CIP_HDR2_SYT, *PCIP_HDR2_SYT
+ms.keywords: avcsref_1ea551ca-5d40-4bc3-bc54-b736fd6a2b23.xml, avcstrm/CIP_HDR2_SYT, *PCIP_HDR2_SYT, CIP_HDR2_SYT, stream.cip_hdr2_syt, _CIP_HDR2_SYT, CIP_HDR2_SYT structure [Streaming Media Devices], PCIP_HDR2_SYT structure pointer [Streaming Media Devices], PCIP_HDR2_SYT, avcstrm/PCIP_HDR2_SYT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CIP_HDR2_SYT
-req.alt-loc: avcstrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: CIP_HDR2_SYT, *PCIP_HDR2_SYT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	avcstrm.h
+apiname: 
+-	CIP_HDR2_SYT
+product: Windows
+targetos: Windows
+req.typenames: *PCIP_HDR2_SYT, CIP_HDR2_SYT
 ---
 
 # _CIP_HDR2_SYT structure
 
 
-
 ## -description
+
+
 The CIP_HDR2_SYT structure describes the second quadlet of a CIP header pair for a DV format stream.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CIP_HDR2_SYT {
@@ -58,6 +68,9 @@ typedef struct _CIP_HDR2_SYT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field SYT
 
@@ -89,15 +102,10 @@ CIP format ID. For example, 000000 = DV and 100000 = MPEG2TS. If this is 111111 
 Must be set to 1:0.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\avcstrm\ns-avcstrm-_cip_hdr1.md">CIP_HDR1</a>
-</dt>
-</dl>
+
  
 
  

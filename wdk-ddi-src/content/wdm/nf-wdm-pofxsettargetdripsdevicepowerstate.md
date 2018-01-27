@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 435c0731-101c-498b-9041-904001be3f2c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxSetTargetDripsDevicePowerState
+ms.keywords: PoFxSetTargetDripsDevicePowerState function [Kernel-Mode Driver Architecture], PoFxSetTargetDripsDevicePowerState, wdm/PoFxSetTargetDripsDevicePowerState, kernel.pofxsettargetdripsdevicepowerstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PoFxSetTargetDripsDevicePowerState
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	PoFxSetTargetDripsDevicePowerState
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # PoFxSetTargetDripsDevicePowerState function
 
 
-
 ## -description
+
+
     This routine is called to notify the power manager of the device's target
     device power state for DRIPS.  The driver can override the
     DRIPS constraint provided by the PEP.  
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS  PoFxSetTargetDripsDevicePowerState(
@@ -57,6 +67,9 @@ NTSTATUS  PoFxSetTargetDripsDevicePowerState(
 
 
 ## -parameters
+
+
+
 
 ### -param Handle [in]
 
@@ -71,7 +84,8 @@ Specifies the target DRIPS device power state. Possible values are defined in th
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS if the target state was accepted.
 
 
-## -remarks

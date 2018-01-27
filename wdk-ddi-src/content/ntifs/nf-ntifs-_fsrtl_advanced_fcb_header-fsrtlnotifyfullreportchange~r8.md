@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b0616127-6bbe-4f9b-87c6-3c7bebe60863
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlNotifyFullReportChange
+ms.keywords: FsRtlNotifyFullReportChange, FsRtlNotifyFullReportChange routine [Installable File System Drivers], ntifs/FsRtlNotifyFullReportChange, fsrtlref_1107429f-a697-40a9-8336-b9a145b476b9.xml, ifsk.fsrtlnotifyfullreportchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlNotifyFullReportChange
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlNotifyFullReportChange
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlNotifyFullReportChange function
 
 
-
 ## -description
+
+
 The <b>FsRtlNotifyFullReportChange</b> routine completes pending notify change IRPs. 
 
 
-
 ## -syntax
+
 
 ````
 VOID FsRtlNotifyFullReportChange(
@@ -61,6 +71,9 @@ VOID FsRtlNotifyFullReportChange(
 
 
 ## -parameters
+
+
+
 
 ### -param NotifySync [in]
 
@@ -100,7 +113,6 @@ A bitmask of flags to be compared with the completion filter in the notify struc
 ### -param Action [in]
 
 Specifies the action code to store in the user's buffer if present. The action code can be one of the values described following.
-
 <table>
 <tr>
 <th>Action Code</th>
@@ -216,8 +228,7 @@ An object ID for a file could not be tunneled because the file already has an ob
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param TargetContext [in, optional]
@@ -226,21 +237,25 @@ Context pointer to pass to the file system if performing a traverse check in the
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>FsRtlNotifyFullReportChange</b> is called by a file system when a file is modified so that pending notify change IRPs can be completed. 
 
 <b>FsRtlNotifyFullReportChange</b> looks for a notify structure in the notify list that matches the specified filter and pathname. If a match is found, <b>FsRtlNotifyFullReportChange</b> completes all pending IRPs for the notify structure. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
-</dt>
-</dl>
+
  
 
  

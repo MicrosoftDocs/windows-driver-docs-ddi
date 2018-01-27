@@ -7,8 +7,8 @@ old-location: debugger\debug_symbol_source_entry.htm
 old-project: debugger
 ms.assetid: 595d5a90-6ec8-4841-a38b-c0cbf26ed082
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _DEBUG_SYMBOL_SOURCE_ENTRY, *PDEBUG_SYMBOL_SOURCE_ENTRY, DEBUG_SYMBOL_SOURCE_ENTRY
+ms.date: 1/19/2018
+ms.keywords: dbgeng/PDEBUG_SYMBOL_SOURCE_ENTRY, *PDEBUG_SYMBOL_SOURCE_ENTRY, DEBUG_SYMBOL_SOURCE_ENTRY structure [Windows Debugging], DEBUG_SYMBOL_SOURCE_ENTRY, dbgeng/DEBUG_SYMBOL_SOURCE_ENTRY, PDEBUG_SYMBOL_SOURCE_ENTRY, debugger.debug_symbol_source_entry, _DEBUG_SYMBOL_SOURCE_ENTRY, PDEBUG_SYMBOL_SOURCE_ENTRY structure pointer [Windows Debugging], Structures_9f8ab4b6-98b2-4a10-a450-bb73e655dd32.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DEBUG_SYMBOL_SOURCE_ENTRY
-req.alt-loc: DbgEng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	DbgEng.h
+apiname: 
+-	DEBUG_SYMBOL_SOURCE_ENTRY
+product: Windows
+targetos: Windows
 req.typenames: *PDEBUG_SYMBOL_SOURCE_ENTRY, DEBUG_SYMBOL_SOURCE_ENTRY
 ---
 
 # _DEBUG_SYMBOL_SOURCE_ENTRY structure
 
 
-
 ## -description
+
+
 The DEBUG_SYMBOL_SOURCE_ENTRY structure describes a section of the source code and a corresponding region of the target's memory.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DEBUG_SYMBOL_SOURCE_ENTRY {
@@ -64,6 +74,9 @@ typedef struct _DEBUG_SYMBOL_SOURCE_ENTRY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ModuleBase
 
@@ -124,5 +137,3 @@ The column number of the end of the region of source code. The number of the fir
 
 Reserved for future use.
 
-
-## -remarks

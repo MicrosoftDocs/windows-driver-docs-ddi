@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 973549c3-c570-48ab-9a82-9398c920dbd9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoDeleteDevice
+ms.keywords: wdm/IoDeleteDevice, IoDeleteDevice, IoDeleteDevice routine [Kernel-Mode Driver Architecture], k104_246c1fe6-75cc-434e-a1d4-7e573eff96de.xml, kernel.iodeletedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoDeleteDevice
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: DeleteDevice, IrqlIoApcLte, PnpSurpriseRemove, RemoveLockCheck, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoDeleteDevice
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoDeleteDevice function
 
 
-
 ## -description
+
+
 The <b>IoDeleteDevice</b> routine removes a device object from the system, for example, when the underlying device is removed from the system. 
 
 
-
 ## -syntax
+
 
 ````
 VOID IoDeleteDevice(
@@ -55,16 +65,24 @@ VOID IoDeleteDevice(
 
 ## -parameters
 
+
+
+
 ### -param DeviceObject [in]
 
 Pointer to the device object to be deleted. 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 When handling a PnP <a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a> request, a PnP driver calls <b>IoDeleteDevice</b> to delete any associated device objects. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff546687">Handling an IRP_MN_REMOVE_DEVICE Request</a> for details.
 
 A legacy driver should call this routine when it is being unloaded or when its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine encounters a fatal initialization error, such as being unable to properly initialize a physical device. This routine also is called when a driver reconfigures its devices dynamically. For example, a disk driver called to repartition a disk would call <b>IoDeleteDevice</b> to tear down the device objects representing partitions to be replaced.
@@ -76,15 +94,13 @@ A driver can call <b>IoDeleteDevice</b> only once for a given device object.
 When a driver calls <b>IoDeleteDevice</b>, the I/O manager deletes the target device object if there are no outstanding references to it. However, if any outstanding references remain, the I/O manager marks the device object as "delete pending" and deletes the device object when the references are released.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iodisconnectinterrupt.md">IoDisconnectInterrupt</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
  
 
  

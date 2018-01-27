@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 76D306DF-D604-4B3C-BFED-A855113A55A9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _IRB_REQ_ALLOCATE_ADDRESS_RANGE, IRB_REQ_ALLOCATE_ADDRESS_RANGE
+ms.keywords: IRB_REQ_ALLOCATE_ADDRESS_RANGE, _IRB_REQ_ALLOCATE_ADDRESS_RANGE, 1394/IRB_REQ_ALLOCATE_ADDRESS_RANGE, IRB_REQ_ALLOCATE_ADDRESS_RANGE structure [Buses], IEEE.irb_req_allocate_address_range
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IRB_REQ_ALLOCATE_ADDRESS_RANGE
-req.alt-loc: 1394.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1394.h
+apiname: 
+-	IRB_REQ_ALLOCATE_ADDRESS_RANGE
+product: Windows
+targetos: Windows
 req.typenames: IRB_REQ_ALLOCATE_ADDRESS_RANGE
 ---
 
 # _IRB_REQ_ALLOCATE_ADDRESS_RANGE structure
 
 
-
 ## -description
+
+
 This structure contains the fields necessary for the 1394 stack to carry out a request to allocate an address range.
 
 If the allocation is specified with no notification options and no <b>RequiredOffset</b>, the returned address will always be a physical address on the OHCI bus. As a result, during allocation, if <b>Callback</b> and <b>Context</b> are specified, because no notification is used, the callback will be used to notify the caller that the allocation is complete. This way, the issuer of the alloc does not have to block, but instead, the issuer's callback routine is called asynchronously when this is complete.
@@ -46,8 +56,8 @@ If the allocation is specified with no notification options and no <b>RequiredOf
 The caller must create this IRB as usual, but instead use the physical mapping routine provided by the port driver in order to use this request. If it uses <b>IoCallDriver</b>, the caller cannot specify <b>Context</b> and <b>Callback</b> for a physical address, and it has to block.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -71,6 +81,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Mdl
 
@@ -97,7 +110,6 @@ Specifies the maximum size for each range of addresses that the bus driver alloc
 ### -field fulAccessType
 
 Specifies access type using one or more of the following flags.
-
 <table>
 <tr>
 <th>Access</th>
@@ -143,8 +155,7 @@ Allocated addresses can receive asynchronous I/O requests from any node on the b
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 Special considerations apply to drivers of virtual devices. Virtual devices do not have node IDs, and so when a driver sends a request to a virtual device, the bus driver has no means of identifying which device is the target. Thus in order for a virtual device to receive requests, its driver must allocate a range of addresses with the ACCESS_FLAGS_TYPE_BROADCAST flag set in <b>fulAccessType</b>. This permits the virtual device to receive all request packets, no matter what node ID is indicated in the request packet. 
 
@@ -152,7 +163,6 @@ Special considerations apply to drivers of virtual devices. Virtual devices do n
 ### -field fulNotificationOptions
 
 If the device driver requests that the bus driver handle each request, and notifies the device driver upon completion, this specifies which asynchronous I/O request types will trigger the bus driver to the notify the device driver upon completion. See the <b>Operation</b> section for more details. The driver may specify one or more of the NOTIFY_FLAGS_AFTER_XXX flags.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -198,14 +208,12 @@ Notify the device driver after carrying out an asynchronous lock operation.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Callback
 
 Points to a device driver callback routine. If the device driver specifies that the bus driver notify the device driver for each asynchronous I/O request, <b>u.AllocateAddressRange.Callback</b> points to the device driver's notification routine, which must have the following prototype:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -215,9 +223,7 @@ Points to a device driver callback routine. If the device driver specifies that 
 <pre>VOID DriverNotificationRoutine(IN PNOTIFICATION_INFO );</pre>
 </td>
 </tr>
-</table></span></div>
-If the device driver specifies that it receives no notification, and submits this request at raised IRQL through the port driver's physical mapping routine, then <b>u.AllocateAddressRange.Callback</b> points to the device driver's allocation completion routine, which must have the following prototype:
-
+</table></span></div>If the device driver specifies that it receives no notification, and submits this request at raised IRQL through the port driver's physical mapping routine, then <b>u.AllocateAddressRange.Callback</b> points to the device driver's allocation completion routine, which must have the following prototype:
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -227,8 +233,7 @@ If the device driver specifies that it receives no notification, and submits thi
 <pre>VOID AllocationCompletionRoutine( IN PVOID );</pre>
 </td>
 </tr>
-</table></span></div>
-Drivers that do not request notification, and submit this request in the normal way at PASSIVE_LEVEL, must set this member to <b>NULL</b>.
+</table></span></div>Drivers that do not request notification, and submit this request in the normal way at PASSIVE_LEVEL, must set this member to <b>NULL</b>.
 
 
 ### -field Context
@@ -278,5 +283,3 @@ Handle to the address range.
 
 Points to the device extension associated with the device object. Not setting this member can lead to unexpected behavior when the driver tries to access the allocated address space.
 
-
-## -remarks

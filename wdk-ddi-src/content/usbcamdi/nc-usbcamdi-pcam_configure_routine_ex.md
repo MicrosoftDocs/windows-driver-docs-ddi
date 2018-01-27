@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ec9fd207-4ed8-4bc9-b240-b5214e8c7f67
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _USB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
+ms.keywords: stream.camconfigureex, CamConfigureEx, CamConfigureEx routine [Streaming Media Devices], CamConfigureEx, PCAM_CONFIGURE_ROUTINE_EX, PCAM_CONFIGURE_ROUTINE_EX, usbcamdi/CamConfigureEx, usbcmdpr_79d31303-32b2-493e-87b6-d6e1a9ad292d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CamConfigureEx
-req.alt-loc: usbcamdi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	usbcamdi.h
+apiname: 
+-	CamConfigureEx
+product: Windows
+targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PCAM_CONFIGURE_ROUTINE_EX callback
 
 
-
 ## -description
+
+
 A camera minidriver's <b>CamConfigureEx</b> callback function configures the isochronous streaming interface.
 
 
-
 ## -prototype
+
 
 ````
 PCAM_CONFIGURE_ROUTINE_EX CamConfigureEx;
@@ -64,46 +74,54 @@ NTSTATUS CamConfigureEx(
 
 ## -parameters
 
-### -param BusDeviceObject 
+
+
+
+### -param BusDeviceObject
 
 Pointer to the camera minidriver's device object created by the USB hub.
 
 
-### -param DeviceContext 
+### -param DeviceContext
 
 Pointer to the camera minidriver's device context.
 
 
-### -param Interface 
+### -param Interface
 
 Pointer to the <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a> structure initialized with the proper values for a SELECT_INTERFACE URB request. This interface structure corresponds to a single isochronous interface on the device.
 
 
-### -param ConfigurationDescriptor 
+### -param ConfigurationDescriptor
 
 Pointer to the <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a> for this device.
 
 
-### -param PipeConfigListSize 
+### -param PipeConfigListSize
 
 Specifies the number of elements in the <i>PipeConfig</i> array.
 
 
-### -param PipeConfig 
+### -param PipeConfig
 
 Pointer to a <a href="..\usbcamdi\ns-usbcamdi-_pipe_config_descriptor.md">USBCAMD_Pipe_Config_Descriptor</a> array describing the association between pipes and streams.
 
 
-### -param DeviceDescriptor 
+### -param DeviceDescriptor
 
 Pointer to the <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a> for this device.
 
 
 ## -returns
+
+
 <b>CamConfigureEx</b> returns STATUS_SUCCESS or an appropriate error code.
 
 
+
 ## -remarks
+
+
 Camera minidrivers use <b>CamConfigureEx</b> to inform USBCAMD about the relationship between discovered pipes and streams.
 
 USBCAMD calls the <b>CamConfigureEx</b> callback function to configure the isochronous streaming interface. After this function returns, USBCAMD can be notified of which interface and which alternate setting within the USB video streaming interface to use for the idle state.
@@ -115,24 +133,19 @@ The original USBCAMD does not call <b>CamConfigureEx</b>.
 This function is required.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
-</dt>
-<dt>
-<a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
-</dt>
-<dt>
-<a href="..\usbcamdi\ns-usbcamdi-_pipe_config_descriptor.md">USBCAMD_Pipe_Config_Descriptor</a>
-</dt>
-<dt>
+
 <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
-</dt>
-</dl>
+
+<a href="..\usbcamdi\ns-usbcamdi-_pipe_config_descriptor.md">USBCAMD_Pipe_Config_Descriptor</a>
+
+<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
+
+<a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
+
+<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+
  
 
  

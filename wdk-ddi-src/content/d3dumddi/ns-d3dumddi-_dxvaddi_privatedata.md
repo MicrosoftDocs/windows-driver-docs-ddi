@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 51e520db-fbec-4c6b-a23c-4d401de9ae63
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVADDI_PRIVATEDATA, DXVADDI_PRIVATEDATA
+ms.keywords: display.dxvaddi_privatedata, d3dumddi/DXVADDI_PRIVATEDATA, DXVADDI_PRIVATEDATA, DXVADDI_PRIVATEDATA structure [Display Devices], DXVA2_Structs_8d49dc5e-8eff-4b7a-aa44-20b4f784a70f.xml, _DXVADDI_PRIVATEDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVADDI_PRIVATEDATA
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVADDI_PRIVATEDATA
+product: Windows
+targetos: Windows
 req.typenames: DXVADDI_PRIVATEDATA
 ---
 
 # _DXVADDI_PRIVATEDATA structure
 
 
-
 ## -description
+
+
 The DXVADDI_PRIVATEDATA structure describes data that is required for a particular decoder to operate. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVADDI_PRIVATEDATA {
@@ -55,6 +65,9 @@ typedef struct _DXVADDI_PRIVATEDATA {
 
 ## -struct-fields
 
+
+
+
 ### -field pData
 
 [in] A pointer to a buffer that contains decoder data.
@@ -65,21 +78,14 @@ typedef struct _DXVADDI_PRIVATEDATA {
 [in] The size, in bytes, of the buffer that is pointed to by <b>pData</b>.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdecodedevice.md">D3DDDIARG_CREATEDECODEDEVICE</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodeexecute.md">D3DDDIARG_DECODEEXECUTE</a>
-</dt>
-<dt>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdecodedevice.md">D3DDDIARG_CREATEDECODEDEVICE</a>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodeextensionexecute.md">D3DDDIARG_DECODEEXTENSIONEXECUTE</a>
-</dt>
-</dl>
+
  
 
  

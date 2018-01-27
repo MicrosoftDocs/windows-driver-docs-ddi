@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3fa32e5c-32d5-4e26-82b5-45dbf5389f2b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2COMMAND, D3DHAL_DP2COMMAND, *LPD3DHAL_DP2COMMAND
+ms.keywords: *LPD3DHAL_DP2COMMAND, display.d3dhal_dp2command, d3dhal/D3DHAL_DP2COMMAND, D3DHAL_DP2COMMAND, LPD3DHAL_DP2COMMAND structure pointer [Display Devices], D3DHAL_DP2COMMAND structure [Display Devices], d3dstrct_9497e802-c325-4d08-ba6c-f482d17da6c5.xml, _D3DHAL_DP2COMMAND, d3dhal/LPD3DHAL_DP2COMMAND, LPD3DHAL_DP2COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DP2COMMAND
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DP2COMMAND
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DP2COMMAND, *LPD3DHAL_DP2COMMAND
 ---
 
 # _D3DHAL_DP2COMMAND structure
 
 
-
 ## -description
+
+
 One or more D3DHAL_DP2COMMAND structures are parsed from the command buffer by the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback, which uses the information it receives to draw one or more primitives. Each structure specifies either a primitive to draw or a state change to process.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DP2COMMAND {
@@ -59,14 +69,7 @@ typedef struct _D3DHAL_DP2COMMAND {
 
 ## -struct-fields
 
-### -field bCommand
 
-Specifies a primitive to draw or a state change to process. This member can be one of the <a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a> enumerated values. 
-
-
-### -field bReserved
-
-Reserved for system use and should be ignored by the driver.
 
 
 ### -field wPrimitiveCount
@@ -79,20 +82,26 @@ Specifies the number of primitives to process. This member is valid when <b>bCom
 Specifies the number of state changes to process. This member is valid when <b>bCommand</b> is one of D3DDP2OP_RENDERSTATE or D3DDP2OP_TEXTURESTAGESTATE.
 
 
-## -remarks
+### -field bCommand
+
+Specifies a primitive to draw or a state change to process. This member can be one of the <a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a> enumerated values. 
+
+
+### -field bReserved
+
+Reserved for system use and should be ignored by the driver.
 
 
 ## -see-also
-<dl>
-<dt>D3DDP2OP_RENDERSTATE</dt>
-<dt>D3DDP2OP_TEXTURESTAGESTATE</dt>
-<dt>
+
+D3DDP2OP_RENDERSTATE
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-</dt>
-<dt>
+
 <a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a>
-</dt>
-</dl>
+
+D3DDP2OP_TEXTURESTAGESTATE
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 11536f1e-523c-4796-a973-e53291c756a8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE, *PVIDEO_PORT_DEBUG_REPORT_INTERFACE
+ms.keywords: VIDEO_PORT_DEBUG_REPORT_INTERFACE, PVIDEO_PORT_DEBUG_REPORT_INTERFACE structure pointer [Display Devices], _VIDEO_PORT_DEBUG_REPORT_INTERFACE, video/PVIDEO_PORT_DEBUG_REPORT_INTERFACE, *PVIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE structure [Display Devices], Video_Structs_4db5be2e-169d-4487-b979-e75cd1b2cb18.xml, video/VIDEO_PORT_DEBUG_REPORT_INTERFACE, display.video_port_debug_report_interface, PVIDEO_PORT_DEBUG_REPORT_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VIDEO_PORT_DEBUG_REPORT_INTERFACE
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	video.h
+apiname: 
+-	VIDEO_PORT_DEBUG_REPORT_INTERFACE
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_DEBUG_REPORT_INTERFACE, *PVIDEO_PORT_DEBUG_REPORT_INTERFACE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _VIDEO_PORT_DEBUG_REPORT_INTERFACE structure
 
 
-
 ## -description
+
+
 The VIDEO_PORT_DEBUG_REPORT_INTERFACE structure holds pointers to the Debug Report functions, which are implemented by the video port driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _VIDEO_PORT_DEBUG_REPORT_INTERFACE {
@@ -71,6 +81,9 @@ typedef struct _VIDEO_PORT_DEBUG_REPORT_INTERFACE {
 
 ## -struct-fields
 
+
+
+
 ### -field Size
 
 Specifies the size, in bytes, of this structure.
@@ -96,49 +109,50 @@ Pointer to an interface reference function that is implemented by the video port
 Pointer to an interface dereference function that is implemented by the video port driver.
 
 
-### -field DbgReportCreate
-
-Pointer to the video port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff549088">DbgReportCreate</a> function. 
-
-
-### -field DbgReportSecondaryData
+#### - DbgReportSecondaryData
 
 Pointer to the video port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff549099">DbgReportSecondaryData</a> function. 
 
 
-### -field DbgReportComplete
+#### - DbgReportComplete
 
 Pointer to the video port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff549080">DbgReportComplete</a> function. 
 
 
-## -remarks
-This structure is available in the following operating systems:
+#### - DbgReportCreate
 
+Pointer to the video port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff549088">DbgReportCreate</a> function. 
+
+
+## -remarks
+
+
+This structure is available in the following operating systems:
+<ul>
+<li>
 Windows Server 2003 SP1 and subsequent service packs
 
+</li>
+<li>
 Windows XP SP2 and subsequent service packs
 
-The video miniport driver supplies the <b>Size</b> and <b>Version</b> members of this structure, and then calls <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>, which initializes the remaining members of this structure.
+</li>
+</ul>The video miniport driver supplies the <b>Size</b> and <b>Version</b> members of this structure, and then calls <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>, which initializes the remaining members of this structure.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549088">DbgReportCreate</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549099">DbgReportSecondaryData</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549080">DbgReportComplete</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549088">DbgReportCreate</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549080">DbgReportComplete</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549099">DbgReportSecondaryData</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9b7d91e0-4913-404c-b7d7-eb63e9919919
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.videoprocessorsetstreamrotation, pfnVideoProcessorSetStreamRotation callback function [Display Devices], pfnVideoProcessorSetStreamRotation, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION, d3d10umddi/pfnVideoProcessorSetStreamRotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnVideoProcessorSetStreamRotation
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	pfnVideoProcessorSetStreamRotation
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION callback
 
 
-
 ## -description
+
+
 Enables or disables rotation on an input stream of the video processor.
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION pfnVideoProcessorSetStreamRotation;
@@ -61,54 +71,83 @@ VOID APIENTRY* pfnVideoProcessorSetStreamRotation(
 
 ## -parameters
 
-### -param hDevice [in]
+
+
+
+### -param D3D10DDI_HDEVICE
+
+
+
+### -param D3D11_1DDI_HVIDEOPROCESSOR
+
+
+
+### -param UINT
+
+
+
+### -param BOOL
+
+
+
+### -param D3D11_1DDI_VIDEO_PROCESSOR_ROTATION
+
+
+
+
+
+
+#### - Enable [in]
+
+If <b>TRUE</b>, rotation is enabled on the input stream. Otherwise, rotation is disabled on the input stream.
+
+
+#### - hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-### -param hVideoProcessor [in]
+#### - hVideoProcessor [in]
 
 A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
 
 
 
 
-### -param StreamIndex [in]
+#### - StreamIndex [in]
 
 The zero-based index of the input stream.
 
 
-### -param Enable [in]
-
-If <b>TRUE</b>, rotation is enabled on the input stream. Otherwise, rotation is disabled on the input stream.
-
-
-### -param Rotation [in]
+#### - Rotation [in]
 
 The clockwise degrees of rotation as specified by a <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_rotation.md">D3D11_1DDI_VIDEO_PROCESSOR_ROTATION</a> enumeration value.
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 The stream source rectangle will be specified in the pre-rotation coordinates (typically landscape) and the stream destination rectangle will be specified in the post-rotation coordinates (typically portrait).   
 
 The application must update the stream destination rectangle correctly when using a rotation value other than 0 or 180 degrees.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_rotation.md">D3D11_1DDI_VIDEO_PROCESSOR_ROTATION</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+
  
 
  

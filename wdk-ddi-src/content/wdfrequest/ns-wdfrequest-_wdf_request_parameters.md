@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 012e34c0-3cc6-49dc-94ad-d359d857720f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_REQUEST_PARAMETERS, WDF_REQUEST_PARAMETERS, *PWDF_REQUEST_PARAMETERS
+ms.keywords: DFRequestObjectRef_b3f1759e-7bdd-4222-8aea-502bd45e16bf.xml, WDF_REQUEST_PARAMETERS, kmdf.wdf_request_parameters, *PWDF_REQUEST_PARAMETERS, wdfrequest/PWDF_REQUEST_PARAMETERS, PWDF_REQUEST_PARAMETERS structure pointer, _WDF_REQUEST_PARAMETERS, WDF_REQUEST_PARAMETERS structure, wdf.wdf_request_parameters, PWDF_REQUEST_PARAMETERS, wdfrequest/WDF_REQUEST_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_REQUEST_PARAMETERS
-req.alt-loc: wdfrequest.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: WDF_REQUEST_PARAMETERS, *PWDF_REQUEST_PARAMETERS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfrequest.h
+apiname: 
+-	WDF_REQUEST_PARAMETERS
+product: Windows
+targetos: Windows
+req.typenames: *PWDF_REQUEST_PARAMETERS, WDF_REQUEST_PARAMETERS
 req.product: Windows 10 or later.
 ---
 
 # _WDF_REQUEST_PARAMETERS structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_REQUEST_PARAMETERS</b> structure receives parameters that are associated with an I/O request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WDF_REQUEST_PARAMETERS {
@@ -90,6 +100,135 @@ typedef struct _WDF_REQUEST_PARAMETERS {
 
 ## -struct-fields
 
+
+
+
+### -field Parameters
+
+Parameters that are unique for each IRP major function code. This member contains a subset of the Parameters member of the <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a> structure. 
+
+
+
+### -field Parameters.Create
+
+Parameters for <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>.
+
+
+### -field Parameters.Create.SecurityContext
+
+ 
+
+
+### -field Parameters.Create.Options
+
+ 
+
+
+### -field Parameters.Create.FileAttributes
+
+ 
+
+
+### -field Parameters.Create.ShareAccess
+
+ 
+
+
+### -field Parameters.Create.EaLength
+
+ 
+
+
+### -field Parameters.Read
+
+Parameters for <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>.
+
+
+### -field Parameters.Read.Length
+
+ 
+
+
+### -field Parameters.Read.Key
+
+ 
+
+
+### -field Parameters.Read.DeviceOffset
+
+ 
+
+
+### -field Parameters.Write
+
+Parameters for <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>.
+
+
+### -field Parameters.Write.Length
+
+ 
+
+
+### -field Parameters.Write.Key
+
+ 
+
+
+### -field Parameters.Write.DeviceOffset
+
+ 
+
+
+### -field Parameters.DeviceIoControl
+
+Parameters for <a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>.
+
+
+### -field Parameters.DeviceIoControl.OutputBufferLength
+
+ 
+
+
+### -field Parameters.DeviceIoControl.InputBufferLength
+
+ 
+
+
+### -field Parameters.DeviceIoControl.IoControlCode
+
+ 
+
+
+### -field Parameters.DeviceIoControl.Type3InputBuffer
+
+ 
+
+
+### -field Parameters.Others
+
+Use of this member is defined by the driver stack.
+
+
+### -field Parameters.Others.Arg1
+
+ 
+
+
+### -field Parameters.Others.Arg2
+
+ 
+
+
+### -field Parameters.Others.IoControlCode
+
+ 
+
+
+### -field Parameters.Others.Arg4
+
+ 
+
+
 ### -field Size
 
 The size, in bytes, of this structure.
@@ -105,55 +244,21 @@ The IRP minor function code, if any, that is associated with the I/O request. So
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>-typed value that identifies the I/O request's type. 
 
 
-### -field Parameters
-
-Parameters that are unique for each IRP major function code. This member contains a subset of the Parameters member of the <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a> structure. 
-
-
-
-### -field Create
-
-Parameters for <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>.
-
-
-### -field Read
-
-Parameters for <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>.
-
-
-### -field Write
-
-Parameters for <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>.
-
-
-### -field DeviceIoControl
-
-Parameters for <a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>.
-
-
-### -field Others
-
-Use of this member is defined by the driver stack.
-
-</dd>
-</dl>
-
 ## -remarks
+
+
 The <b>WDF_REQUEST_PARAMETERS</b> structure is used as input to <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>. Drivers must call <a href="..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md">WDF_REQUEST_PARAMETERS_INIT</a> to initialize this structure before they call <b>WdfRequestGetParameters</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-</dt>
-<dt>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
+
 <a href="..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md">WDF_REQUEST_PARAMETERS_INIT</a>
-</dt>
-</dl>
+
  
 
  

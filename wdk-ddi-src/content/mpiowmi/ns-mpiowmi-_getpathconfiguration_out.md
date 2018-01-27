@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 055db46e-59fc-4eb9-93d7-16d680495220
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _GetPathConfiguration_OUT, *PGetPathConfiguration_OUT, GetPathConfiguration_OUT
+ms.keywords: GetPathConfiguration_OUT, _GetPathConfiguration_OUT, *PGetPathConfiguration_OUT, storage.getpathconfiguration_out, mpiowmi/PGetPathConfiguration_OUT, structs-scsibus_4d2ebbae-67ff-42bc-8904-c33f914485cd.xml, PGetPathConfiguration_OUT, mpiowmi/GetPathConfiguration_OUT, GetPathConfiguration_OUT structure [Storage Devices], PGetPathConfiguration_OUT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GetPathConfiguration_OUT
-req.alt-loc: mpiowmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PGetPathConfiguration_OUT, GetPathConfiguration_OUT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mpiowmi.h
+apiname: 
+-	GetPathConfiguration_OUT
+product: Windows
+targetos: Windows
+req.typenames: GetPathConfiguration_OUT, *PGetPathConfiguration_OUT
 ---
 
 # _GetPathConfiguration_OUT structure
 
 
-
 ## -description
+
+
 The GetPathConfiguration_OUT structure is used to report the output parameters that are associated with the GetPathConfiguration method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GetPathConfiguration_OUT {
@@ -55,6 +65,9 @@ typedef struct _GetPathConfiguration_OUT {
 
 ## -struct-fields
 
+
+
+
 ### -field EntryCount
 
 A 32-bitfield that indicates the number of entries contained in the array of SCSI addresses.
@@ -64,5 +77,3 @@ A 32-bitfield that indicates the number of entries contained in the array of SCS
 
 An array that returns information about the SCSI addresses. The number of elements in the array is given by EntryCount and each element of the array represents an instance of an SCSI_ADDR structure.
 
-
-## -remarks

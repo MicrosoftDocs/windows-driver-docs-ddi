@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 804D53F2-0F92-4262-A4C8-D171A5E69BFC
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxGetActivity
+ms.keywords: serports.sercxgetactivity, SerCxGetActivity, 1/SerCxGetActivity, SerCxGetActivity method [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with  Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SerCxGetActivity
-req.alt-loc: 1.0\Sercx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	1.0\Sercx.h
+apiname: 
+-	SerCxGetActivity
+product: Windows
+targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SerCxGetActivity function
 
 
-
 ## -description
+
+
 The <b>SerCxGetActivity</b> method retrieves the status of pending work for the serial controller driver.
 
 
-
 ## -syntax
+
 
 ````
 VOID SerCxGetActivity(
@@ -55,6 +65,9 @@ VOID SerCxGetActivity(
 
 
 ## -parameters
+
+
+
 
 ### -param Device [in]
 
@@ -67,10 +80,15 @@ A pointer to a caller-allocated <a href="..\sercx\ns-sercx-_sercx_activity.md">S
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 The serial controller driver calls this method to receive a summary of processing work that it needs to perform on behalf of the serial framework extension (SerCx). Typically, <b>SerCxGetActivity</b> is called by the transmit/receive DPC routine in the controller driver.
 
 The <i>Activity</i> parameter points to a <b>SERCX_ACTIVITY</b> structure that describes pending work for the controller driver. The pending work that SerCx assigns to the controller driver is driven by I/O requests from clients, but an I/O request does not necessarily spawn a work item. For example, if SerCx has a sufficient amount of received data in its memory buffer to complete a pending read request, this request does not cause the <b>Receiving</b> member of the <b>SERCX_ACTIVITY</b> structure to be set to TRUE.
@@ -80,24 +98,19 @@ To cycle through pending work items, the transmit/receive DPC routine calls <b>S
 A lock protects the <b>SERCX_ACTIVITY</b> structure that is updated by the <b>SerCxGetActivity</b> call. During the call, this lock is acquired by event handlers in SerCx to update the summary of work that is currently pending for the controller driver.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\sercx\ns-sercx-_sercx_activity.md">SERCX_ACTIVITY</a>
-</dt>
-<dt>
-<a href="..\sercx\nf-sercx-sercx_activity_init.md">SERCX_ACTIVITY_INIT</a>
-</dt>
-<dt>
-<a href="..\sercx\nf-sercx-sercxcompletewait.md">SerCxCompleteWait</a>
-</dt>
-<dt>
+
 <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
-</dt>
-<dt>
+
+<a href="..\sercx\nf-sercx-sercxcompletewait.md">SerCxCompleteWait</a>
+
+<a href="..\sercx\nf-sercx-sercx_activity_init.md">SERCX_ACTIVITY_INIT</a>
+
+<a href="..\sercx\ns-sercx-_sercx_activity.md">SERCX_ACTIVITY</a>
+
 <a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
-</dt>
-</dl>
+
  
 
  

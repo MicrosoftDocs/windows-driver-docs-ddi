@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d4249b81-0ee7-49dd-9886-cdc5842f02d8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: MIRACAST_DATARATE_STATS, MIRACAST_DATARATE_STATS
+ms.keywords: MIRACAST_DATARATE_STATS structure [Display Devices], netdispumdddi/MIRACAST_DATARATE_STATS, display.miracast_datarate_stats, MIRACAST_DATARATE_STATS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MIRACAST_DATARATE_STATS
-req.alt-loc: Netdispumdddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Netdispumdddi.h
+apiname: 
+-	MIRACAST_DATARATE_STATS
+product: Windows
+targetos: Windows
 req.typenames: MIRACAST_DATARATE_STATS
 ---
 
 # MIRACAST_DATARATE_STATS structure
 
 
-
 ## -description
+
+
 Contains info used in the wireless display (Miracast) <a href="..\netdispumdddi\nc-netdispumdddi-pfn_datarate_notification.md">pfnDataRateNotify</a> function about the audio/video encoder bit rate and failed or retried Wi-Fi frames.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -58,6 +68,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field EncoderBitRate
 
@@ -88,5 +101,3 @@ The total number of Wi-Fi frames that succeeded after a single retry since the p
 
 The total number of Wi-Fi frames that succeeded after more than one retry since the previous time step.
 
-
-## -remarks

@@ -7,8 +7,8 @@ old-location: print\printnamedproperty.htm
 old-project: print
 ms.assetid: F7692594-DE13-4242-926C-F2706FF95E77
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: PrintNamedProperty, PrintNamedProperty
+ms.date: 1/18/2018
+ms.keywords: PrintNamedProperty, print.printnamedproperty, PrintNamedProperty structure [Print Devices], winspool/PrintNamedProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PrintNamedProperty
-req.alt-loc: Winspool.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Winspool.h
+apiname: 
+-	PrintNamedProperty
+product: Windows
+targetos: Windows
 req.typenames: PrintNamedProperty
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PrintNamedProperty structure
 
 
-
 ## -description
 
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct {
@@ -56,10 +66,13 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field propertyName
+
 
 
 ### -field propertyValue
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fdefde51-0e90-4324-9c14-e8259fc872b3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+ms.keywords: display.dxgkddinotifyacpievent, DxgkDdiNotifyAcpiEvent callback function [Display Devices], DxgkDdiNotifyAcpiEvent, DXGKDDI_NOTIFY_ACPI_EVENT, DXGKDDI_NOTIFY_ACPI_EVENT, dispmprt/DxgkDdiNotifyAcpiEvent, DmFunctions_de0d32a9-a592-4fe2-86e1-66a436be5874.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiNotifyAcpiEvent
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DxgkDdiNotifyAcpiEvent
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_NOTIFY_ACPI_EVENT callback
 
 
-
 ## -description
+
+
 Notifies the display miniport driver about certain ACPI events.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_NOTIFY_ACPI_EVENT DxgkDdiNotifyAcpiEvent;
@@ -61,6 +71,9 @@ NTSTATUS DxgkDdiNotifyAcpiEvent(
 
 ## -parameters
 
+
+
+
 ### -param MiniportDeviceContext [in]
 
 A handle to a context block that represents a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
@@ -74,7 +87,6 @@ A <a href="..\dispmprt\ne-dispmprt-_dxgk_event_type.md">DXGK_EVENT_TYPE</a> enum
 ### -param Event [in]
 
 The event number. The following table lists the possible event numbers for each of the event types.
-
 <table>
 <tr>
 <th>Event type</th>
@@ -123,14 +135,12 @@ Defined in <i>Dispmprt.h</i>.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Argument [in]
 
 A pointer to an argument that depends on the event. For most events, this will be <b>NULL</b>. The following table shows the event arguments, which are ULONG values, for specified event numbers that are available.
-
 <table>
 <tr>
 <th>Event number</th>
@@ -160,14 +170,12 @@ PO_CB_LID_SWITCH_STATE
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param AcpiFlags [out]
 
 A pointer to a value that indicates the type of request that the display miniport driver should make to the operating system. The following table shows the values that can be specified.
-
 <table>
 <tr>
 <th>Value</th>
@@ -193,28 +201,31 @@ The display miniport driver makes a request to the operating system to poll the 
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 This parameter is ignored if this function returns an error or if the display adapter loses power. 
 
 
 ## -returns
+
+
 <i>DxgkDdiNotifyAcpiEvent</i> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
 
+
 ## -remarks
+
+
 <i>DxgkDdiNotifyAcpiEvent</i> is an optional display miniport driver function.
 
 <i>DxgkDdiNotifyAcpiEvent</i> should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_eval_acpi_method.md">DxgkCbEvalAcpiMethod</a>
-</dt>
-</dl>
+
  
 
  

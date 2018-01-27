@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b2b74e79-5840-41a0-8af3-3d13e209aea7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetRoutineAddress
+ms.keywords: ifsk.fltgetroutineaddress, FltGetRoutineAddress routine [Installable File System Drivers], FltApiRef_e_to_o_81848969-38e3-4f2f-bdc3-45027ea28202.xml, FltGetRoutineAddress, fltkernel/FltGetRoutineAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltGetRoutineAddress
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltGetRoutineAddress
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltGetRoutineAddress function
 
 
-
 ## -description
+
+
 The <b>FltGetRoutineAddress</b> routine returns a pointer to a routine specified by the <i>FltMgrRoutineName</i> parameter. 
 
 
-
 ## -syntax
+
 
 ````
 PVOID FltGetRoutineAddress(
@@ -54,16 +64,24 @@ PVOID FltGetRoutineAddress(
 
 ## -parameters
 
+
+
+
 ### -param FltMgrRoutineName [in]
 
 Name of the filter manager routine to resolve. 
 
 
 ## -returns
+
+
 If the routine name can be resolved, <b>FltGetRoutineAddress</b> returns a pointer to the routine. Otherwise, it returns <b>NULL</b>. 
 
 
+
 ## -remarks
+
+
 <b>FltGetRoutineAddress</b> searches the filter manager's export table for the requested routine name. 
 
 To get the addresses of other routines that are exported by the kernel or hardware abstraction layer (HAL), use <a href="..\wdm\nf-wdm-mmgetsystemroutineaddress.md">MmGetSystemRoutineAddress</a>. 
@@ -71,12 +89,11 @@ To get the addresses of other routines that are exported by the kernel or hardwa
 Note that in Windows 2000 and Windows XP, before FltGetRoutineAddress is called at least one minifilter on the system must call FltRegisterFilter. The call to FltRegisterFilter is necessary to initialize global data structures.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-mmgetsystemroutineaddress.md">MmGetSystemRoutineAddress</a>
-</dt>
-</dl>
+
  
 
  

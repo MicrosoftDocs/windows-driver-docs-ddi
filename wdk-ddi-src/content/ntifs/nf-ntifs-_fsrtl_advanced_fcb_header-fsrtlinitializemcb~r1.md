@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 788714e3-c031-490f-a19f-709bd0392cba
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlInitializeMcb
+ms.keywords: FsRtlInitializeMcb function [Installable File System Drivers], ntifs/FsRtlInitializeMcb, fsrtlref_cce0e584-5fd6-4fc8-8a61-b6bef61207dd.xml, FsRtlInitializeMcb, ifsk.fsrtlinitializemcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlInitializeMcb
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FsRtlInitializeMcb
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlInitializeMcb function
 
 
-
 ## -description
+
+
 The <b>FsRtlInitializeMcb</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializelargemcb~r1.md">FsRtlInitializeLargeMcb</a> instead.
 
 
-
 ## -syntax
+
 
 ````
   FsRtlInitializeMcb(
@@ -54,9 +64,19 @@ The <b>FsRtlInitializeMcb</b> routine is obsolete, but is exported to support ex
 
 ## -parameters
 
-### -param  
-
-Reserved.
 
 
-## -remarks
+
+### -param Mcb
+
+TBD
+
+
+### -param PoolType
+
+TBD
+
+
+
+
+

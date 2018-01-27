@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fbdf6e86-35a1-48a8-966a-0e5472466da2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsLsnLess
+ms.keywords: ClfsLsnLess, wdm/ClfsLsnLess, ClfsLsnLess routine [Kernel-Mode Driver Architecture], kernel.clfslsnless, Clfs_5e0196f1-8244-4cf9-aa36-7359e52ff43b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ClfsLsnLess
-req.alt-loc: Clfs.sys,Ext-MS-Win-fs-clfs-l1-1-0.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Clfs.sys
+-	Ext-MS-Win-fs-clfs-l1-1-0.dll
+apiname: 
+-	ClfsLsnLess
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ClfsLsnLess function
 
 
-
 ## -description
+
+
 The <b>ClfsLsnLess</b> routine determines whether one LSN is less than another LSN. The two LSNs must be from the same stream. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN ClfsLsnLess(
@@ -55,6 +66,9 @@ BOOLEAN ClfsLsnLess(
 
 
 ## -parameters
+
+
+
 
 ### -param plsn1 [in]
 
@@ -67,10 +81,15 @@ A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that s
 
 
 ## -returns
+
+
 <b>ClfsLsnLess</b> returns <b>TRUE</b> if <i>plsn1</i> is strictly less than <i>plsn2</i>; otherwise, it returns <b>FALSE</b>.
 
 
+
 ## -remarks
+
+
 CLFS_LSN_NULL (the smallest LSN) and CLFS_LSN_INVALID (larger than any valid LSN) are valid arguments to <b>ClfsLsnLess</b>. 
 
 LSNs from different streams are not comparable. Do not use <a href="..\wdm\nf-wdm-clfslsnequal.md">ClfsLsnEqual</a>, <b>ClfsLsnLess</b> and the like to compare LSNs from different streams.
@@ -78,18 +97,15 @@ LSNs from different streams are not comparable. Do not use <a href="..\wdm\nf-wd
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-clfslsnequal.md">ClfsLsnEqual</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-clfslsngreater.md">ClfsLsnGreater</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-clfslsnequal.md">ClfsLsnEqual</a>
+
 <a href="..\wdm\nf-wdm-clfslsnnull.md">ClfsLsnNull</a>
-</dt>
-</dl>
+
  
 
  

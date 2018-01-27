@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 22a03f0b-71c3-4942-b5da-ca588e17d346
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARGCB_GETHANDLEDATA, DXGKARGCB_GETHANDLEDATA
+ms.keywords: DXGKARGCB_GETHANDLEDATA structure [Display Devices], d3dkmddi/DXGKARGCB_GETHANDLEDATA, display.dxgkargcb_gethandledata, _DXGKARGCB_GETHANDLEDATA, DmStructs_6ae35474-ffde-4e60-8324-b6266cc54fd8.xml, DXGKARGCB_GETHANDLEDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARGCB_GETHANDLEDATA
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARGCB_GETHANDLEDATA
+product: Windows
+targetos: Windows
 req.typenames: DXGKARGCB_GETHANDLEDATA
 ---
 
 # _DXGKARGCB_GETHANDLEDATA structure
 
 
-
 ## -description
+
+
 The DXGKARGCB_GETHANDLEDATA structure describes a handle to private data.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARGCB_GETHANDLEDATA {
@@ -56,6 +66,9 @@ typedef struct _DXGKARGCB_GETHANDLEDATA {
 
 ## -struct-fields
 
+
+
+
 ### -field hObject
 
 [in] A handle to the private data. This handle is the kernel-mode handle that the Microsoft DirectX graphics kernel subsystem (which is part of <i>Dxgkrnl.sys</i>) assigned for the private data.
@@ -64,7 +77,6 @@ typedef struct _DXGKARGCB_GETHANDLEDATA {
 ### -field Type
 
 [in] A DXGK_HANDLE_TYPE-typed value that indicates the type of handle to retrieve data about. This member can be one of the following values:
-
 <table>
 <tr>
 <th>Value</th>
@@ -90,8 +102,7 @@ The <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateA
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Flags
@@ -99,21 +110,14 @@ The <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateA
 [in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkcb_gethandledataflags.md">DXGKCB_GETHANDLEDATAFLAGS</a> structure that indicates if allocations belong to a resource.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkcb_gethandledataflags.md">DXGKCB_GETHANDLEDATAFLAGS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
-</dt>
-<dt>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkcb_gethandledataflags.md">DXGKCB_GETHANDLEDATAFLAGS</a>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
-</dt>
-</dl>
+
  
 
  

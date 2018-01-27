@@ -7,8 +7,8 @@ old-location: netvista\rilgpprejectcause_2.htm
 old-project: netvista
 ms.assetid: b182f937-3d0d-4558-967a-da2be3c73843
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILGPPREJECTCAUSE, *LPRILGPPREJECTCAUSE, RILGPPREJECTCAUSE
+ms.date: 1/18/2018
+ms.keywords: netvista.rilgpprejectcause_2, rilapitypes/RILGPPREJECTCAUSE, *LPRILGPPREJECTCAUSE, RILGPPREJECTCAUSE structure [Network Drivers Starting with Windows Vista], RILGPPREJECTCAUSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILGPPREJECTCAUSE
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILGPPREJECTCAUSE, RILGPPREJECTCAUSE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILGPPREJECTCAUSE
+product: Windows
+targetos: Windows
+req.typenames: RILGPPREJECTCAUSE, *LPRILGPPREJECTCAUSE
 req.product: Windows 10 or later.
 ---
 
 # RILGPPREJECTCAUSE structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILGPPREJECTCAUSE {
@@ -55,7 +65,9 @@ typedef struct _RILGPPREJECTCAUSE {
 
 ## -struct-fields
 
+
+
+
 ### -field dwCauseValue
 
 
-## -remarks

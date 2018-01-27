@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0bc02fa8-41ca-4430-9dff-e98e39b4eeef
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSSTREAMALLOCATOR_FUNCTIONTABLE, KSSTREAMALLOCATOR_FUNCTIONTABLE, *PKSSTREAMALLOCATOR_FUNCTIONTABLE
+ms.keywords: KSSTREAMALLOCATOR_FUNCTIONTABLE structure [Streaming Media Devices], ks/KSSTREAMALLOCATOR_FUNCTIONTABLE, PKSSTREAMALLOCATOR_FUNCTIONTABLE, PKSSTREAMALLOCATOR_FUNCTIONTABLE structure pointer [Streaming Media Devices], ks/PKSSTREAMALLOCATOR_FUNCTIONTABLE, KSSTREAMALLOCATOR_FUNCTIONTABLE, stream.ksstreamallocator_functiontable, ks-struct_08e285b4-cd29-4f31-9242-3e4bdc6ccf01.xml, *PKSSTREAMALLOCATOR_FUNCTIONTABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSSTREAMALLOCATOR_FUNCTIONTABLE
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KSSTREAMALLOCATOR_FUNCTIONTABLE, *PKSSTREAMALLOCATOR_FUNCTIONTABLE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSSTREAMALLOCATOR_FUNCTIONTABLE
+product: Windows
+targetos: Windows
+req.typenames: *PKSSTREAMALLOCATOR_FUNCTIONTABLE, KSSTREAMALLOCATOR_FUNCTIONTABLE
 ---
 
 # KSSTREAMALLOCATOR_FUNCTIONTABLE structure
 
 
-
 ## -description
+
+
 Clients can request the function table of a given allocator by sending a KSSTREAMALLOCATOR_FUNCTIONTABLE structure in a KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE property request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -54,6 +64,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field AllocateFrame
 
@@ -66,6 +79,8 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56717
 
 
 ## -remarks
+
+
 This property is only supported by allocators supporting the DISPATCH_LEVEL function interface. Allocators supporting this property must be able to allocate and free frames at IRQL &lt;= DISPATCH_LEVEL.
 
 Because the DISPATCH_LEVEL interface is closely associated with the IRP-based interface, acquiring the function table is likely to result in the creation of an internal notification event to allow pending I/O to be completed when frames are returned to the free list. When the handle to the allocator is closed, the function table pointers are invalid and the associated events are automatically disabled.
@@ -73,18 +88,15 @@ Because the DISPATCH_LEVEL interface is closely associated with the IRP-based in
 This property is only accessible from kernel-mode.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567151">KStrAllocateFrame</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567174">KStrFreeFrame</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567151">KStrAllocateFrame</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565633">KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE</a>
-</dt>
-</dl>
+
  
 
  

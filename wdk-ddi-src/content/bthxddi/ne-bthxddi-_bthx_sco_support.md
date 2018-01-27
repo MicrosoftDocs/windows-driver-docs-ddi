@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: A9B303C7-868D-47EB-8279-9F655F58630C
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTHX_SCO_SUPPORT, *PBTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT
+ms.keywords: bthxddi/ScoSupportHCIBypass, bthxddi/ScoSupportNone, ScoSupportHCI, *PBTHX_SCO_SUPPORT, bthxddi/ScoSupportHCI, BTHX_SCO_SUPPORT enumeration [Bluetooth Devices], ScoSupportNone, ScoSupportHCIBypass, bthxddi/BTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT, _BTHX_SCO_SUPPORT, bltooth.bthx_sco_support
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported starting with  Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BTHX_SCO_SUPPORT
-req.alt-loc: BthXDDI.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	BthXDDI.h
+apiname: 
+-	BTHX_SCO_SUPPORT
+product: Windows
+targetos: Windows
 req.typenames: *PBTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT
 ---
 
 # _BTHX_SCO_SUPPORT enumeration
 
 
-
 ## -description
+
+
 The BTHX_SCO_SUPPORT enumeration lists the different types of SCO supported by the transport driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _BTHX_SCO_SUPPORT { 
@@ -55,6 +65,9 @@ typedef enum _BTHX_SCO_SUPPORT {
 
 
 ## -enum-fields
+
+
+
 
 ### -field ScoSupportNone
 
@@ -72,9 +85,13 @@ SCO data does not pass through the HCI layer but through a sideband mechanism li
 
 
 ## -remarks
+
+
 Upon starting, the Bluetooth stack will query the transport driver for its capabilities by sending the <a href="..\bthxddi\ni-bthxddi-ioctl_bthx_query_capabilities.md">IOCTL_BTHX_QUERY_CAPABILITIES</a> IOCTL.
 
 The output buffer of this IOCTL is defined by the <a href="..\bthxddi\ns-bthxddi-_bthx_capabilities.md">BTHX_CAPABILITIES</a> structure which contains the 
 BTHX_SCO_SUPPORT structure.
 
-The transport driver must specify <b>ScoSupportHCIBypass</b>.</p>
+The transport driver must specify <b>ScoSupportHCIBypass</b>.
+
+

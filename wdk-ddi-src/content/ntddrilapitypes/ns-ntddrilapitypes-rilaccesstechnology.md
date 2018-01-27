@@ -7,8 +7,8 @@ old-location: netvista\rilaccesstechnology.htm
 old-project: netvista
 ms.assetid: 28363041-4adc-4348-a1a5-2b9c11750286
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY, *LPRILACCESSTECHNOLOGY
+ms.date: 1/18/2018
+ms.keywords: netvista.rilaccesstechnology, ntddrilapitypes/RILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY structure [Network Drivers Starting with Windows Vista], *LPRILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILACCESSTECHNOLOGY
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILACCESSTECHNOLOGY
+product: Windows
+targetos: Windows
 req.typenames: RILACCESSTECHNOLOGY, *LPRILACCESSTECHNOLOGY
 ---
 
 # RILACCESSTECHNOLOGY structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILACCESSTECHNOLOGY {
@@ -63,34 +73,70 @@ typedef struct _RILACCESSTECHNOLOGY {
 
 ## -struct-fields
 
-### -field cbSize
 
-
-### -field dwParams
-
-
-### -field dwSystemType
-
-
-### -field RILACCESSTECHNOLOGYKINDUNION
 
 
 ### -field kindUnion
 
 
-### -field dwEvdoKind
+
+### -field kindUnion.dwEvdoKind
+
+ 
 
 
-### -field dwGsmKind
+### -field kindUnion.dwGsmKind
+
+ 
 
 
-### -field dwUmtsKind
+### -field kindUnion.dwUmtsKind
+
+ 
 
 
-### -field dwTdscdmaKind
+### -field kindUnion.dwTdscdmaKind
+
+ 
 
 
-### -field dwLteKind
+### -field kindUnion.dwLteKind
+
+ 
 
 
-## -remarks
+### -field RILACCESSTECHNOLOGYKINDUNION
+
+
+
+### -field cbSize
+
+
+
+### -field dwParams
+
+
+
+### -field dwSystemType
+
+
+
+#### - dwGsmKind
+
+
+
+#### - dwTdscdmaKind
+
+
+
+#### - dwLteKind
+
+
+
+#### - dwEvdoKind
+
+
+
+#### - dwUmtsKind
+
+

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 46337a5f-dc8a-42bc-a618-0d1440270f91
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeBugCheck
+ms.keywords: kernel.kebugcheck, ntddk/KeBugCheck, k105_0d6fece0-a301-44af-92b4-0ff735195c2b.xml, KeBugCheck routine [Kernel-Mode Driver Architecture], KeBugCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeBugCheck
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeBugCheck
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # KeBugCheck function
 
 
-
 ## -description
+
+
 The <b>KeBugCheck</b> routine brings down the system in a controlled manner when the caller discovers an unrecoverable inconsistency that would corrupt the system if the caller continued to run. 
 
 
-
 ## -syntax
+
 
 ````
 VOID KeBugCheck(
@@ -54,16 +64,24 @@ VOID KeBugCheck(
 
 ## -parameters
 
+
+
+
 ### -param BugCheckCode [in]
 
 Specifies a value that indicates the reason for the bug check. 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A bug check is a system-detected error that causes an immediate, controlled shutdown of the system. Various kernel-mode components perform run-time consistency checking. When such a component discovers an unrecoverable inconsistency, it causes a bug check to be generated.
 
 Whenever possible, all kernel-mode components should log an error and continue to run, rather than calling <b>KeBugCheck</b>. For example, if a driver is unable to allocate required resources, it should log an error so that the system continues to run; it must not generate a bug check.
@@ -77,24 +95,19 @@ However, even during driver development, this routine is of only limited utility
 When a bug check is unavoidable, most system components call <a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>, which provides more information about the cause of such an inconsistency than <b>KeBugCheck</b>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
+
 <a href="..\wdm\nf-wdm-keregisterbugcheckcallback.md">KeRegisterBugCheckCallback</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
+
 <a href="..\wdm\nf-wdm-keregisterbugcheckreasoncallback.md">KeRegisterBugCheckReasonCallback</a>
-</dt>
-</dl>
+
  
 
  

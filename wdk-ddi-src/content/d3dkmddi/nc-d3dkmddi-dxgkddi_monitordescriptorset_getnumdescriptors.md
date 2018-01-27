@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7bfcef0b-1371-4e3b-b5dc-c4c548625c8f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgk_monitordescriptorset_interface_pfngetnumdescriptors, pfnGetNumDescriptors callback function [Display Devices], pfnGetNumDescriptors, DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS, DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS, d3dkmddi/pfnGetNumDescriptors, VidPnFunctions_c2c4ad34-be07-4bd8-8576-e91b4549ca95.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnGetNumDescriptors
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	pfnGetNumDescriptors
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS callback
 
 
-
 ## -description
+
+
 The <b>pfnGetNumDescriptors</b> function returns the number of descriptors in a monitor descriptor set.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS pfnGetNumDescriptors;
@@ -58,6 +68,9 @@ NTSTATUS APIENTRY pfnGetNumDescriptors(
 
 ## -parameters
 
+
+
+
 ### -param hMonitorDescriptorSet [in]
 
 [in] A handle to a monitor descriptor set object. The display miniport driver previously obtained this handle by calling the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_getmonitordescriptorset.md">pfnGetMonitorDescriptorSet</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568433">Monitor interface</a>.
@@ -69,18 +82,47 @@ NTSTATUS APIENTRY pfnGetNumDescriptors(
 
 
 ## -returns
+
+
 The <b>pfnGetNumDescriptors</b> function returns one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The function succeeded.
+</dl>
+</td>
+<td width="60%">
+The function succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>An invalid parameter was supplied.
+</dl>
+</td>
+<td width="60%">
+An invalid parameter was supplied.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_INVALID_MONITOR_DESCRIPTORSET</b></dt>
-</dl>The handle supplied in <i>hMonitorDescriptorSet</i> was invalid.
+</dl>
+</td>
+<td width="60%">
+The handle supplied in <i>hMonitorDescriptorSet</i> was invalid.
 
- 
+</td>
+</tr>
+</table> 
 
 
-## -remarks

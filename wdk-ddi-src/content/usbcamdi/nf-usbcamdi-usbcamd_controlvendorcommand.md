@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3bd11885-2c33-4d4d-b9e8-8eff79eb9c61
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: USBCAMD_ControlVendorCommand
+ms.keywords: usbcamdi/USBCAMD_ControlVendorCommand, USBCAMD_ControlVendorCommand, stream.usbcamd_controlvendorcommand, usbcmdpr_71f3fad0-03ef-4328-90cf-d556de6736f5.xml, USBCAMD_ControlVendorCommand function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBCAMD_ControlVendorCommand
-req.alt-loc: usbcamd2.lib,usbcamd2.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Usbcamd2.lib
 req.dll: 
 req.irql: >= PASSIVE_LEVEL (See Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	usbcamd2.lib
+-	usbcamd2.dll
+apiname: 
+-	USBCAMD_ControlVendorCommand
+product: Windows
+targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # USBCAMD_ControlVendorCommand function
 
 
-
 ## -description
+
+
 The <b>USBCAMD_ControlVendorCommand</b> function sends vendor-specific commands to the control pipe.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS USBCAMD_ControlVendorCommand(
@@ -62,6 +73,9 @@ NTSTATUS USBCAMD_ControlVendorCommand(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceContext [in]
 
@@ -109,27 +123,51 @@ Pointer to a block of memory, that is passed as an argument to the camera minidr
 
 
 ## -returns
+
+
 <b>USBCAMD_ControlVendorCommand </b>returns the NTSTATUS code from vendor command. Other possible error codes include:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_PENDING</b></dt>
-</dl>The vendor command is deferred.
+</dl>
+</td>
+<td width="60%">
+The vendor command is deferred.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>There are insufficient resources to allocate the vendor command.
+</dl>
+</td>
+<td width="60%">
+There are insufficient resources to allocate the vendor command.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This function may be called at IRQL &gt;= PASSIVE_LEVEL. If the function is called at IRQL &gt; PASSIVE_LEVEL, the command is deferred. After completion, the camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a> is called and passed the value in the <i>CommandContext</i> argument<i>.</i>
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>
-</dt>
-</dl>
+
  
 
  

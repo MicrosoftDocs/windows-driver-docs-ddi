@@ -7,8 +7,8 @@ old-location: netvista\rilmsgserviceinfomsgsupport.htm
 old-project: netvista
 ms.assetid: b09a5b1d-b8da-4a75-b2d5-ee07072d45aa
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILMSGSERVICEINFOMSGSUPPORT, RILMSGSERVICEINFOMSGSUPPORT
+ms.date: 1/18/2018
+ms.keywords: RIL_MSI_SMS_OUTGOING, RILMSGSERVICEINFOMSGSUPPORT, ntddrilapitypes/RILMSGSERVICEINFOMSGSUPPORT, ntddrilapitypes/RIL_MSI_SMS_OUTGOING, ntddrilapitypes/RIL_MSI_SMS_BROADCAST, netvista.rilmsgserviceinfomsgsupport, RILMSGSERVICEINFOMSGSUPPORT enumeration [Network Drivers Starting with Windows Vista], RIL_MSI_SMS_BROADCAST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILMSGSERVICEINFOMSGSUPPORT
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILMSGSERVICEINFOMSGSUPPORT
+product: Windows
+targetos: Windows
 req.typenames: RILMSGSERVICEINFOMSGSUPPORT
 ---
 
 # RILMSGSERVICEINFOMSGSUPPORT enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILMSGSERVICEINFOMSGSUPPORT { 
@@ -55,10 +65,17 @@ typedef enum _RILMSGSERVICEINFOMSGSUPPORT {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_MSI_SMS_INCOMING
+
+
+
 ### -field RIL_MSI_SMS_OUTGOING
+
 
 
 ### -field RIL_MSI_SMS_BROADCAST
 
 
-## -remarks

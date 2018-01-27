@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 05274F4B-0473-42BA-A382-B348A85DBFA5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020, D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020
+ms.keywords: D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020 structure [Display Devices], display.d3d12ddi_video_decode_support_data, D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020, d3d12umddi/D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020
 ---
 
 # D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020 structure
 
 
-
 ## -description
+
+
 Specifies data used to determine support of hardware for a configuration. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020 {
@@ -62,6 +72,9 @@ typedef struct D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NodeIndex
 
@@ -114,22 +127,22 @@ The tier supported by this configuration.  For more information, see <a href="..
 
 
 ## -remarks
+
+
 This structure is retrieved through the <a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md">pfnGetCaps</a> callback function  with the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddicaps_type.md">D3D12DDICAPS_TYPE</a> set to a value of <b>D3D12DDICAPS_TYPE_VIDEO_DECODE_SUPPORT</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
+<b>D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAGS</b>
+
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
-</dt>
-<dt><b>D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAGS</b></dt>
-<dt>
+
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_support_flags_0020.md">D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS</a>
-</dt>
-<dt>
+
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_tier_0020.md">D3D12DDI_VIDEO_DECODE_TIER</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: CFA879CC-6124-4E1C-B440-358455A5E6EF
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _ATOMIC_CREATE_ECP_CONTEXT, *PATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_CONTEXT
+ms.keywords: ATOMIC_CREATE_ECP_IN_FLAG_SPARSE_SPECIFIED, ntifs/PATOMIC_CREATE_ECP_CONTEXT, PATOMIC_CREATE_ECP_CONTEXT structure pointer [Installable File System Drivers], ATOMIC_CREATE_ECP_IN_FLAG_VDL_SPECIFIED, ATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_OUT_FLAG_REPARSE_POINT_SET, ATOMIC_CREATE_ECP_OUT_FLAG_VDL_SET, PATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_IN_FLAG_REPARSE_POINT_SPECIFIED, ATOMIC_CREATE_ECP_IN_FLAG_BEST_EFFORT, ifsk.atomic_create_ecp_context, ATOMIC_CREATE_ECP_OUT_FLAG_OPERATION_MASK, _ATOMIC_CREATE_ECP_CONTEXT, *PATOMIC_CREATE_ECP_CONTEXT, ntifs/ATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_IN_FLAG_EOF_SPECIFIED, ATOMIC_CREATE_ECP_OUT_FLAG_EOF_SET, ATOMIC_CREATE_ECP_OUT_FLAG_SPARSE_SET, ATOMIC_CREATE_ECP_CONTEXT structure [Installable File System Drivers], ATOMIC_CREATE_ECP_IN_FLAG_OPERATION_MASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1607
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ATOMIC_CREATE_ECP_CONTEXT
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	ATOMIC_CREATE_ECP_CONTEXT
+product: Windows
+targetos: Windows
 req.typenames: *PATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_CONTEXT
 ---
 
 # _ATOMIC_CREATE_ECP_CONTEXT structure
 
 
-
 ## -description
+
+
 This structure allows supplemental
 operations to be performed on a file atomically during create. Use the 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ATOMIC_CREATE_ECP_CONTEXT {
@@ -69,6 +79,9 @@ typedef struct _ATOMIC_CREATE_ECP_CONTEXT {
 
 ## -struct-fields
 
+
+
+
 ### -field Size
 
 The size of the context structure.
@@ -77,17 +90,16 @@ The size of the context structure.
 ### -field InFlags
 
 Flags that indicate the requested supplemental operation(s) to be performed with the create operation.
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field ATOMIC_CREATE_ECP_IN_FLAG_SPARSE_SPECIFIED
-### -field 0x0001
-
+<td width="40%"><a id="ATOMIC_CREATE_ECP_IN_FLAG_SPARSE_SPECIFIED"></a><a id="atomic_create_ecp_in_flag_sparse_specified"></a><dl>
+<dt><b>ATOMIC_CREATE_ECP_IN_FLAG_SPARSE_SPECIFIED</b></dt>
+<dt>0x0001</dt>
+</dl>
 </td>
 <td width="60%">
 Requests that the sparse flag be set on the file.
@@ -95,10 +107,10 @@ Requests that the sparse flag be set on the file.
 </td>
 </tr>
 <tr>
-
-### -field ATOMIC_CREATE_ECP_IN_FLAG_REPARSE_POINT_SPECIFIED
-### -field 0x0002
-
+<td width="40%"><a id="ATOMIC_CREATE_ECP_IN_FLAG_REPARSE_POINT_SPECIFIED"></a><a id="atomic_create_ecp_in_flag_reparse_point_specified"></a><dl>
+<dt><b>ATOMIC_CREATE_ECP_IN_FLAG_REPARSE_POINT_SPECIFIED</b></dt>
+<dt>0x0002</dt>
+</dl>
 </td>
 <td width="60%">
 Requests that a reparse point be set on the file.
@@ -106,10 +118,10 @@ Requests that a reparse point be set on the file.
 </td>
 </tr>
 <tr>
-
-### -field ATOMIC_CREATE_ECP_IN_FLAG_EOF_SPECIFIED
-### -field 0x0004
-
+<td width="40%"><a id="ATOMIC_CREATE_ECP_IN_FLAG_EOF_SPECIFIED"></a><a id="atomic_create_ecp_in_flag_eof_specified"></a><dl>
+<dt><b>ATOMIC_CREATE_ECP_IN_FLAG_EOF_SPECIFIED</b></dt>
+<dt>0x0004</dt>
+</dl>
 </td>
 <td width="60%">
 Requests that a file size be set on the file.  This also implies
@@ -118,10 +130,10 @@ that on-disk allocation will occur to support the requested file size.
 </td>
 </tr>
 <tr>
-
-### -field ATOMIC_CREATE_ECP_IN_FLAG_VDL_SPECIFIED
-### -field 0x0008
-
+<td width="40%"><a id="ATOMIC_CREATE_ECP_IN_FLAG_VDL_SPECIFIED"></a><a id="atomic_create_ecp_in_flag_vdl_specified"></a><dl>
+<dt><b>ATOMIC_CREATE_ECP_IN_FLAG_VDL_SPECIFIED</b></dt>
+<dt>0x0008</dt>
+</dl>
 </td>
 <td width="60%">
 Requests that a valid data length be set on the file.  This also
@@ -134,10 +146,10 @@ expose uninitialized data.</div>
 </td>
 </tr>
 <tr>
-
-### -field ATOMIC_CREATE_ECP_IN_FLAG_OPERATION_MASK
-### -field 0x00ff
-
+<td width="40%"><a id="ATOMIC_CREATE_ECP_IN_FLAG_OPERATION_MASK"></a><a id="atomic_create_ecp_in_flag_operation_mask"></a><dl>
+<dt><b>ATOMIC_CREATE_ECP_IN_FLAG_OPERATION_MASK</b></dt>
+<dt>0x00ff</dt>
+</dl>
 </td>
 <td width="60%">
 Use this flag as a mask to specify the other <b>InFlags</b> flag values.
@@ -145,10 +157,10 @@ Use this flag as a mask to specify the other <b>InFlags</b> flag values.
 </td>
 </tr>
 <tr>
-
-### -field ATOMIC_CREATE_ECP_IN_FLAG_BEST_EFFORT
-### -field 0x0100
-
+<td width="40%"><a id="ATOMIC_CREATE_ECP_IN_FLAG_BEST_EFFORT"></a><a id="atomic_create_ecp_in_flag_best_effort"></a><dl>
+<dt><b>ATOMIC_CREATE_ECP_IN_FLAG_BEST_EFFORT</b></dt>
+<dt>0x0100</dt>
+</dl>
 </td>
 <td width="60%">
 Indicates that the  file system should perform the create operation even if some of the requested supplemental operations could not be
@@ -158,24 +170,22 @@ perform all of the requested supplemental operations.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field OutFlags
 
 Flags that indicate the actual supplemental operation(s) performed with a successful create operation.
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field ATOMIC_CREATE_ECP_OUT_FLAG_SPARSE_SET
-### -field 0x0001
-
+<td width="40%"><a id="ATOMIC_CREATE_ECP_OUT_FLAG_SPARSE_SET"></a><a id="atomic_create_ecp_out_flag_sparse_set"></a><dl>
+<dt><b>ATOMIC_CREATE_ECP_OUT_FLAG_SPARSE_SET</b></dt>
+<dt>0x0001</dt>
+</dl>
 </td>
 <td width="60%">
 Indicates that the sparse flag was set on the file.
@@ -183,10 +193,10 @@ Indicates that the sparse flag was set on the file.
 </td>
 </tr>
 <tr>
-
-### -field ATOMIC_CREATE_ECP_OUT_FLAG_REPARSE_POINT_SET
-### -field 0x0002
-
+<td width="40%"><a id="ATOMIC_CREATE_ECP_OUT_FLAG_REPARSE_POINT_SET"></a><a id="atomic_create_ecp_out_flag_reparse_point_set"></a><dl>
+<dt><b>ATOMIC_CREATE_ECP_OUT_FLAG_REPARSE_POINT_SET</b></dt>
+<dt>0x0002</dt>
+</dl>
 </td>
 <td width="60%">
 Indicates that a reparse point was set on the file.
@@ -194,10 +204,10 @@ Indicates that a reparse point was set on the file.
 </td>
 </tr>
 <tr>
-
-### -field ATOMIC_CREATE_ECP_OUT_FLAG_EOF_SET
-### -field 0x0004
-
+<td width="40%"><a id="ATOMIC_CREATE_ECP_OUT_FLAG_EOF_SET"></a><a id="atomic_create_ecp_out_flag_eof_set"></a><dl>
+<dt><b>ATOMIC_CREATE_ECP_OUT_FLAG_EOF_SET</b></dt>
+<dt>0x0004</dt>
+</dl>
 </td>
 <td width="60%">
 Indicates that a file size was set on the file, and that on-disk allocation occurred to support the requested file size.
@@ -205,10 +215,10 @@ Indicates that a file size was set on the file, and that on-disk allocation occu
 </td>
 </tr>
 <tr>
-
-### -field ATOMIC_CREATE_ECP_OUT_FLAG_VDL_SET
-### -field 0x0008
-
+<td width="40%"><a id="ATOMIC_CREATE_ECP_OUT_FLAG_VDL_SET"></a><a id="atomic_create_ecp_out_flag_vdl_set"></a><dl>
+<dt><b>ATOMIC_CREATE_ECP_OUT_FLAG_VDL_SET</b></dt>
+<dt>0x0008</dt>
+</dl>
 </td>
 <td width="60%">
 Indicates that a valid data length was set on the file, and that the file size was set to at least the requested valid data
@@ -217,18 +227,17 @@ length.
 </td>
 </tr>
 <tr>
-
-### -field ATOMIC_CREATE_ECP_OUT_FLAG_OPERATION_MASK
-### -field 0x00ff
-
+<td width="40%"><a id="ATOMIC_CREATE_ECP_OUT_FLAG_OPERATION_MASK"></a><a id="atomic_create_ecp_out_flag_operation_mask"></a><dl>
+<dt><b>ATOMIC_CREATE_ECP_OUT_FLAG_OPERATION_MASK</b></dt>
+<dt>0x00ff</dt>
+</dl>
 </td>
 <td width="60%">
 Use this flag value as a mask to determine the supplemental operations that were performed with the create operation.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field ReparseBufferLength
@@ -272,4 +281,8 @@ Specifies the Update Sequence Number (USN). This value is filled at the end of <
 
 
 ## -remarks
-The GUID used for this structure is the <b>GUID_ECP_ATOMIC_CREATE</b> (<code>4720bd83-52ac-4104-a130-d1ec6a8cc8e5</code>).</p>
+
+
+The GUID used for this structure is the <b>GUID_ECP_ATOMIC_CREATE</b> (<code>4720bd83-52ac-4104-a130-d1ec6a8cc8e5</code>).
+
+

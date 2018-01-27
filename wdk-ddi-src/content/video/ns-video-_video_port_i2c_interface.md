@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fcc2679c-9a73-4bd0-ad2d-e7b48df9c7f7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VIDEO_PORT_I2C_INTERFACE, *PVIDEO_PORT_I2C_INTERFACE, VIDEO_PORT_I2C_INTERFACE
+ms.keywords: VIDEO_PORT_I2C_INTERFACE, PVIDEO_PORT_I2C_INTERFACE, *PVIDEO_PORT_I2C_INTERFACE, display.video_port_i2c_interface, video/VIDEO_PORT_I2C_INTERFACE, video/PVIDEO_PORT_I2C_INTERFACE, PVIDEO_PORT_I2C_INTERFACE structure pointer [Display Devices], VIDEO_PORT_I2C_INTERFACE structure [Display Devices], Video_Structs_2b152aec-acc0-4602-80de-cfdf9c0632a4.xml, _VIDEO_PORT_I2C_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VIDEO_PORT_I2C_INTERFACE
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-req.typenames: *PVIDEO_PORT_I2C_INTERFACE, VIDEO_PORT_I2C_INTERFACE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	video.h
+apiname: 
+-	VIDEO_PORT_I2C_INTERFACE
+product: Windows
+targetos: Windows
+req.typenames: VIDEO_PORT_I2C_INTERFACE, *PVIDEO_PORT_I2C_INTERFACE
 req.product: Windows 10 or later.
 ---
 
 # _VIDEO_PORT_I2C_INTERFACE structure
 
 
-
 ## -description
-The VIDEO_PORT_I2C_INTERFACE structure describes the <a href="wdkgloss.i#wdkgloss.inter_integrated_circuit__i2c_#wdkgloss.inter_integrated_circuit__i2c_"><i>I2C</i></a> service routines provided by the video port driver. 
 
+
+The VIDEO_PORT_I2C_INTERFACE structure describes the <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">I2C</a> service routines provided by the video port driver. 
 
 
 ## -syntax
+
 
 ````
 typedef struct _VIDEO_PORT_I2C_INTERFACE {
@@ -62,6 +72,9 @@ typedef struct _VIDEO_PORT_I2C_INTERFACE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -109,18 +122,18 @@ Pointer to the video port driver's <a href="..\video\nc-video-pi2c_read.md">I2CR
 
 
 ## -remarks
+
+
 PnP video miniport drivers that can use I²C should fill in the <b>Size</b> and <b>Version</b> members of this structure, and then call <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>, which initializes the remaining members of this structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

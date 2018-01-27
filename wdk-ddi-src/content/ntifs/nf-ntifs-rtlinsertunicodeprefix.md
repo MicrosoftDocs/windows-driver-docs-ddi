@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d8a2fa19-8f44-4088-b515-69c9f2119714
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlInsertUnicodePrefix
+ms.keywords: ifsk.rtlinsertunicodeprefix, RtlInsertUnicodePrefix, RtlInsertUnicodePrefix routine [Installable File System Drivers], ntifs/RtlInsertUnicodePrefix, rtlref_5c8e1a42-5c73-4029-9c1f-5426e43e123c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlInsertUnicodePrefix
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlInsertUnicodePrefix
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlInsertUnicodePrefix function
 
 
-
 ## -description
+
+
 The <b>RtlInsertUnicodePrefix</b> routine inserts a new element into a Unicode prefix table. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN RtlInsertUnicodePrefix(
@@ -55,6 +65,9 @@ BOOLEAN RtlInsertUnicodePrefix(
 
 
 ## -parameters
+
+
+
 
 ### -param PrefixTable [in]
 
@@ -72,10 +85,15 @@ Pointer to caller-allocated storage, which must be at least <b>sizeof</b>(UNICOD
 
 
 ## -returns
+
+
 <b>RtlInsertUnicodePrefix</b> returns <b>TRUE</b> if the new element was inserted in the prefix table, or it returns <b>FALSE</b> if a duplicate element already exists in the prefix table. 
 
 
+
 ## -remarks
+
+
 Each prefix entry in the table is a pathname relative to the root directory of a file system volume. To be well-formed, the prefix must begin with a single backslash (\). 
 
 After inserting the new element, <b>RtlInsertUnicodePrefix</b> rebalances the prefix table's splay tree.
@@ -87,24 +105,19 @@ Callers of the <b>Rtl..UnicodePrefix</b> routines are responsible for synchroniz
 For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtlfindunicodeprefix.md">RtlFindUnicodePrefix</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlnextunicodeprefix.md">RtlNextUnicodePrefix</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtlremoveunicodeprefix.md">RtlRemoveUnicodePrefix</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-rtlnextunicodeprefix.md">RtlNextUnicodePrefix</a>
+
  
 
  

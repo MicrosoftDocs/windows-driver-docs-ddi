@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 02873563-7448-4406-a8ab-599569abbf7e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_TUNER_INPUT_S, KSPROPERTY_TUNER_INPUT_S, *PKSPROPERTY_TUNER_INPUT_S
+ms.keywords: KSPROPERTY_TUNER_INPUT_S, PKSPROPERTY_TUNER_INPUT_S, vidcapstruct_db1848a6-76f7-4f65-923e-cfd678a90b64.xml, *PKSPROPERTY_TUNER_INPUT_S, stream.ksproperty_tuner_input_s, PKSPROPERTY_TUNER_INPUT_S structure pointer [Streaming Media Devices], KSPROPERTY_TUNER_INPUT_S structure [Streaming Media Devices], ksmedia/PKSPROPERTY_TUNER_INPUT_S, ksmedia/KSPROPERTY_TUNER_INPUT_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPROPERTY_TUNER_INPUT_S
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KSPROPERTY_TUNER_INPUT_S, *PKSPROPERTY_TUNER_INPUT_S
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSPROPERTY_TUNER_INPUT_S
+product: Windows
+targetos: Windows
+req.typenames: *PKSPROPERTY_TUNER_INPUT_S, KSPROPERTY_TUNER_INPUT_S
 ---
 
 # KSPROPERTY_TUNER_INPUT_S structure
 
 
-
 ## -description
+
+
 The KSPROPERTY_TUNER_INPUT_S structure describes the input connection index of a tuner device for devices that support multiple inputs.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field Property
 
 Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
@@ -65,21 +78,14 @@ Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPER
 Specifies the connection index to be used as the tuner input. This value should be in the range of 0 through (number of inputs-1).
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565851">KSPROPERTY_TUNER_INPUT</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
  
 
  

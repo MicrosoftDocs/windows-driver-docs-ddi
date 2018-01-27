@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D8BD24AA-64CF-42CB-8AD2-2B6C77D4B195
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUInt8Sub
+ms.keywords: RtlUInt8Sub function [Kernel-Mode Driver Architecture], RtlUInt8Sub, kernel.rtluint8sub, ntintsafe/RtlUInt8Sub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlUInt8Sub
-req.alt-loc: Ntintsafe.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntintsafe.h
+apiname: 
+-	RtlUInt8Sub
+product: Windows
+targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
 
 # RtlUInt8Sub function
 
 
-
 ## -description
+
+
 The <b>RtlUInt8Sub</b> routine subtracts one value of type <b>UINT8</b> from another.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlUInt8Sub(
@@ -55,6 +65,9 @@ NTSTATUS RtlUInt8Sub(
 
 
 ## -parameters
+
+
+
 
 ### -param u8Minuend [in]
 
@@ -72,13 +85,32 @@ A pointer to the result. If the operation results in a value that overflows or u
 
 
 ## -returns
+
+
 <b>RtlUInt8Sub</b> returns STATUS_SUCCESS if the routine is successful. Possible error return values include the following status code.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INTEGER_OVERFLOW</b></dt>
-</dl>An arithmetic overflow occurred.
+</dl>
+</td>
+<td width="60%">
+An arithmetic overflow occurred.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.</p>
+
+
+This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
+

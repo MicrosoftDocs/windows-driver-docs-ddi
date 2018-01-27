@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3313af42-0e0a-4ad0-b0bb-0afb795e24fd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FLT_REGISTRATION, *PFLT_REGISTRATION, FLT_REGISTRATION
+ms.keywords: ifsk.flt_registration, PFLT_REGISTRATION structure pointer [Installable File System Drivers], PFLT_REGISTRATION, FltSystemStructures_5257e153-faae-4eb8-845a-f6c137a29390.xml, FLTFL_REGISTRATION_DO_NOT_SUPPORT_SERVICE_STOP, FLT_REGISTRATION structure [Installable File System Drivers], FLTFL_REGISTRATION_SUPPORT_DAX_VOLUME, FLTFL_REGISTRATION_SUPPORT_NPFS_MSFS, _FLT_REGISTRATION, fltkernel/FLT_REGISTRATION, *PFLT_REGISTRATION, fltkernel/PFLT_REGISTRATION, FLT_REGISTRATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FLT_REGISTRATION
-req.alt-loc: fltkernel.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PFLT_REGISTRATION, FLT_REGISTRATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	fltkernel.h
+apiname: 
+-	FLT_REGISTRATION
+product: Windows
+targetos: Windows
+req.typenames: FLT_REGISTRATION, *PFLT_REGISTRATION
 ---
 
 # _FLT_REGISTRATION structure
 
 
-
 ## -description
+
+
 The FLT_REGISTRATION structure is passed as a parameter to <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FLT_REGISTRATION {
@@ -73,6 +83,9 @@ typedef struct _FLT_REGISTRATION {
 
 ## -struct-fields
 
+
+
+
 ### -field Size
 
 The size, in bytes, of the FLT_REGISTRATION structure. Minifilter drivers must set this member to <b>sizeof</b>(FLT_REGISTRATION). 
@@ -86,16 +99,15 @@ The revision level of the FLT_REGISTRATION structure. Minifilter drivers must se
 ### -field Flags
 
 A bitmask of minifilter registration flags. This member can be <b>NULL</b> or a combination of the following. 
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field FLTFL_REGISTRATION_DO_NOT_SUPPORT_SERVICE_STOP
-
+<td width="40%"><a id="FLTFL_REGISTRATION_DO_NOT_SUPPORT_SERVICE_STOP"></a><a id="fltfl_registration_do_not_support_service_stop"></a><dl>
+<dt><b>FLTFL_REGISTRATION_DO_NOT_SUPPORT_SERVICE_STOP</b></dt>
+</dl>
 </td>
 <td width="60%">
 If this flag is set, the minifilter is not unloaded in response to service stop requests, even if the <b>FilterUnloadCallback</b> member is not <b>NULL</b>. 
@@ -103,9 +115,9 @@ If this flag is set, the minifilter is not unloaded in response to service stop 
 </td>
 </tr>
 <tr>
-
-### -field FLTFL_REGISTRATION_SUPPORT_NPFS_MSFS
-
+<td width="40%"><a id="FLTFL_REGISTRATION_SUPPORT_NPFS_MSFS"></a><a id="fltfl_registration_support_npfs_msfs"></a><dl>
+<dt><b>FLTFL_REGISTRATION_SUPPORT_NPFS_MSFS</b></dt>
+</dl>
 </td>
 <td width="60%">
 If this flag is set,  the minifilter will support filtering of named pipe and mailslot requests.
@@ -113,17 +125,16 @@ If this flag is set,  the minifilter will support filtering of named pipe and ma
 </td>
 </tr>
 <tr>
-
-### -field FLTFL_REGISTRATION_SUPPORT_DAX_VOLUME
-
+<td width="40%"><a id="FLTFL_REGISTRATION_SUPPORT_DAX_VOLUME"></a><a id="fltfl_registration_support_dax_volume"></a><dl>
+<dt><b>FLTFL_REGISTRATION_SUPPORT_DAX_VOLUME</b></dt>
+</dl>
 </td>
 <td width="60%">
 If this flag is set, the minifilter will support attaching to a direct access (DAX) volume. This will indicate to Filter Manager that the minifilter will filter the DAX volume. This flag was introduced in Windows 10, version 1607.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field ContextRegistration
@@ -198,54 +209,42 @@ Pointer to a routine of type <a href="..\fltkernel\nc-fltkernel-pflt_section_con
 
 
 ## -remarks
+
+
 The FLT_REGISTRATION structure is used to provide information about a file system minifilter, such as a <i>FilterUnloadCallback</i> (<a href="..\fltkernel\nc-fltkernel-pflt_filter_unload_callback.md">PFLT_FILTER_UNLOAD_CALLBACK</a>) routine and preoperation (<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>) and postoperation (<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>) callback routines, to the filter manager. The minifilter passes a pointer to this structure as the <i>Registration</i> parameter to <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
-</dt>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_operation_registration.md">FLT_OPERATION_REGISTRATION</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nc-fltkernel-pflt_filter_unload_callback.md">PFLT_FILTER_UNLOAD_CALLBACK</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nc-fltkernel-pflt_generate_file_name.md">PFLT_GENERATE_FILE_NAME</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_query_teardown_callback.md">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nc-fltkernel-pflt_normalize_context_cleanup.md">PFLT_NORMALIZE_CONTEXT_CLEANUP</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nc-fltkernel-pflt_normalize_name_component.md">PFLT_NORMALIZE_NAME_COMPONENT</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_generate_file_name.md">PFLT_GENERATE_FILE_NAME</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_filter_unload_callback.md">PFLT_FILTER_UNLOAD_CALLBACK</a>
+
 <a href="..\fltkernel\nc-fltkernel-pflt_normalize_name_component_ex.md">PFLT_NORMALIZE_NAME_COMPONENT_EX</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_operation_registration.md">FLT_OPERATION_REGISTRATION</a>
+
 <a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_normalize_context_cleanup.md">PFLT_NORMALIZE_CONTEXT_CLEANUP</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
+
 <a href="..\fltkernel\nc-fltkernel-pflt_transaction_notification_callback.md">PFLT_TRANSACTION_NOTIFICATION_CALLBACK</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_query_teardown_callback.md">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
+
  
 
  

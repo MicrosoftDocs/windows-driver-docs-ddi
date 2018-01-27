@@ -7,8 +7,8 @@ old-location: netvista\rilopenuicclogicalchannelinfo_2.htm
 old-project: netvista
 ms.assetid: f731c790-4348-4c18-aef1-184c3d4bf258
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILOPENUICCLOGICALCHANNELINFO, *LPRILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO
+ms.date: 1/18/2018
+ms.keywords: *LPRILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO, netvista.rilopenuicclogicalchannelinfo_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILOPENUICCLOGICALCHANNELINFO
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILOPENUICCLOGICALCHANNELINFO
+product: Windows
+targetos: Windows
+req.typenames: RILOPENUICCLOGICALCHANNELINFO, *LPRILOPENUICCLOGICALCHANNELINFO
 req.product: Windows 10 or later.
 ---
 
 # RILOPENUICCLOGICALCHANNELINFO structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILOPENUICCLOGICALCHANNELINFO {
@@ -59,19 +69,25 @@ typedef struct _RILOPENUICCLOGICALCHANNELINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwChannelId
+
 
 
 ### -field dwSelectResponseLength
 
 
+
 ### -field bSelectResponse
 
 
-## -remarks

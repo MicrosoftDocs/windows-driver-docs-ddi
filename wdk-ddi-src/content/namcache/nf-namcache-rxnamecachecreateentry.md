@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1cfe2d2d-99fa-4dc2-b517-5026fd72d5d4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxNameCacheCreateEntry
+ms.keywords: RxNameCacheCreateEntry, namcache/RxNameCacheCreateEntry, ifsk.rxnamecachecreateentry, rxref_a1245999-8aba-4012-a143-609517c2686b.xml, RxNameCacheCreateEntry function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxNameCacheCreateEntry
-req.alt-loc: namcache.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	namcache.h
+apiname: 
+-	RxNameCacheCreateEntry
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
 
 # RxNameCacheCreateEntry function
 
 
-
 ## -description
+
+
 <b>RxNameCacheCreateEntry</b> allocates and initializes a NAME_CACHE structure with the given name string. 
 
 
-
 ## -syntax
+
 
 ````
 PNAME_CACHE RxNameCacheCreateEntry(
@@ -55,6 +65,9 @@ PNAME_CACHE RxNameCacheCreateEntry(
 
 
 ## -parameters
+
+
+
 
 ### -param NameCacheCtl [in]
 
@@ -72,42 +85,39 @@ A Boolean value that indicates if case insensitive comparions should be used whe
 
 
 ## -returns
+
+
 <b>RxNameCacheCreateEntry </b>returns a pointer to the newly allocated NAME_CACHE structure on success or a <b>NULL</b> pointer if the allocation fails.
 
 
+
 ## -remarks
+
+
 A network mini-redirector calls <b>RxNameCacheCreateEntry</b> to allocate and initialize a NAME_CACHE structure with the given name string. It is expected that the caller will then initialize any additional network mini-redirector elements of the name cache context, set the lifetime (in seconds) and the <b>Context</b> member of the NAME_CACHE structure and then put the entry on the name cache active list by calling <b>RxNameCacheActivateEntry</b>.
 
 <b>RxNameCacheCreateEntry</b> will first attempt to reuse a NAME_CACHE entry on the free list, if one is available, before allocating a new NAME_CACHE entry. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\namcache\nf-namcache-rxnamecacheactivateentry.md">RxNameCacheActivateEntry</a>
-</dt>
-<dt>
-<a href="..\namcache\nf-namcache-rxnamecachecheckentry.md">RxNameCacheCheckEntry</a>
-</dt>
-<dt>
+
 <a href="..\namcache\nf-namcache-rxnamecacheexpireentry.md">RxNameCacheExpireEntry</a>
-</dt>
-<dt>
-<a href="..\namcache\nf-namcache-rxnamecacheexpireentrywithshortname.md">RxNameCacheExpireEntryWithShortName</a>
-</dt>
-<dt>
+
 <a href="..\namcache\nf-namcache-rxnamecachefetchentry.md">RxNameCacheFetchEntry</a>
-</dt>
-<dt>
+
 <a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
-</dt>
-<dt>
+
+<a href="..\namcache\nf-namcache-rxnamecachecheckentry.md">RxNameCacheCheckEntry</a>
+
 <a href="..\namcache\nf-namcache-rxnamecachefreeentry.md">RxNameCacheFreeEntry</a>
-</dt>
-<dt>
+
 <a href="..\namcache\nf-namcache-rxnamecacheinitialize.md">RxNameCacheInitialize</a>
-</dt>
-</dl>
+
+<a href="..\namcache\nf-namcache-rxnamecacheexpireentrywithshortname.md">RxNameCacheExpireEntryWithShortName</a>
+
  
 
  

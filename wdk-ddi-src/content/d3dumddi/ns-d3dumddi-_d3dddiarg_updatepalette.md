@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6637c102-4e77-4030-9bb5-ab9fb4bac2c7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_UPDATEPALETTE, D3DDDIARG_UPDATEPALETTE
+ms.keywords: UMDisplayDriver_param_Structs_abbbfa0f-d2f6-4985-a189-56e4592c1c1e.xml, D3DDDIARG_UPDATEPALETTE structure [Display Devices], _D3DDDIARG_UPDATEPALETTE, display.d3dddiarg_updatepalette, d3dumddi/D3DDDIARG_UPDATEPALETTE, D3DDDIARG_UPDATEPALETTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_UPDATEPALETTE
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_UPDATEPALETTE
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_UPDATEPALETTE
 ---
 
 # _D3DDDIARG_UPDATEPALETTE structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_UPDATEPALETTE structure describes parameters that are used to update a texture palette. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_UPDATEPALETTE {
@@ -55,6 +65,9 @@ typedef struct _D3DDDIARG_UPDATEPALETTE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PaletteHandle
 
@@ -72,15 +85,16 @@ typedef struct _D3DDDIARG_UPDATEPALETTE {
 
 
 ## -remarks
+
+
 The Microsoft Direct3D runtime passes palette data for updating to the <i>pPaletteData</i> parameter in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updatepalette.md">UpdatePalette</a> function. This palette data is an array of PALETTEENTRY structures.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updatepalette.md">UpdatePalette</a>
-</dt>
-</dl>
+
  
 
  

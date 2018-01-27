@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a0a9792c-a2a1-4079-9e1c-c41c5b872fa0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortReadRegisterUshort
+ms.keywords: AtaPortReadRegisterUshort, irb/AtaPortReadRegisterUshort, storage.ataportreadregisterushort, atartns_4173b6fd-0784-4279-ae9e-d51469a000c6.xml, AtaPortReadRegisterUshort routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AtaPortReadRegisterUshort
-req.alt-loc: ataport.lib,ataport.dll,pciidex.lib,pciidex.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ataport.lib
+-	ataport.dll
+-	pciidex.lib
+-	pciidex.dll
+apiname: 
+-	AtaPortReadRegisterUshort
+product: Windows
+targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
 
 # AtaPortReadRegisterUshort function
 
 
-
 ## -description
+
+
 The <b>AtaPortReadRegisterUshort</b> routine reads a USHORT value from the HBA.
-
-
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 USHORT AtaPortReadRegisterUshort(
@@ -54,30 +67,29 @@ USHORT AtaPortReadRegisterUshort(
 
 ## -parameters
 
+
+
+
 ### -param Register [in]
 
 A pointer to the register to be read. The address value that is assigned to this parameter must be within the range of mapped I/O space addresses that are obtained by a call to <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>.
 
 
 ## -returns
+
+
 <b>AtaPortReadRegisterUshort</b> returns a USHORT value from the HBA's register. 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
-</dt>
-<dt>
+
 <a href="..\irb\nf-irb-ataportreadregisteruchar.md">AtaPortReadRegisterUchar</a>
-</dt>
-<dt>
+
 <a href="..\irb\nf-irb-ataportreadregisterulong.md">AtaPortReadRegisterUlong</a>
-</dt>
-</dl>
+
+<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: ce1f9f1b-2215-4b39-b5e6-a5076f02af64
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _SDP_NODE_DATA, *PSDP_NODE_DATA, SDP_NODE_DATA
+ms.keywords: sdpnode/SDP_NODE_DATA, *PSDP_NODE_DATA, SDP_NODE_DATA union [Bluetooth Devices], bltooth.sdp_node_data, PSDP_NODE_DATA union pointer [Bluetooth Devices], SDP_NODE_DATA, PSDP_NODE_DATA, _SDP_NODE_DATA, sdpnode/PSDP_NODE_DATA, bth_structs_c97da04d-31d0-4e0b-b909-9a1fae7d53dd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SDP_NODE_DATA
-req.alt-loc: sdpnode.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-req.typenames: *PSDP_NODE_DATA, SDP_NODE_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	sdpnode.h
+apiname: 
+-	SDP_NODE_DATA
+product: Windows
+targetos: Windows
+req.typenames: SDP_NODE_DATA, *PSDP_NODE_DATA
 req.product: Windows 10 or later.
 ---
 
 # _SDP_NODE_DATA structure
 
 
-
 ## -description
+
+
 The SDP_NODE_DATA union holds the data of an element in a tree-based representation of an SDP
   record.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _SDP_NODE_DATA {
@@ -77,6 +87,19 @@ typedef union _SDP_NODE_DATA {
 
 
 ## -struct-fields
+
+
+
+
+### -field stream
+
+ 
+
+
+### -field streamLength
+
+ 
+
 
 ### -field int128
 
@@ -181,28 +204,28 @@ An SDP_NODE_HEADER structure that references the elements of an alternate list s
 A list of pointers to user-mode specific interfaces.
 
 
-### -field ( unnamed struct )
-
-The union member for a 128-bit integer.
-
-
-### -field stream
+##### - ( unnamed struct ).stream
 
 
        The address of a portion of the original SDP stream that produced the current SDP node.
       
 
 
-### -field streamLength
+#### - ( unnamed struct )
+
+The union member for a 128-bit integer.
+
+
+##### - ( unnamed struct ).streamLength
 
 
        The length of the portion of the original SDP stream that produced the current SDP node.
       
 
-</dd>
-</dl>
 
 ## -remarks
+
+
 Each 
     <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a> structure in the tree representation of an
     SDP record contains a SDP_NODE_HEADER structure and an SDP_NODE_DATA union.
@@ -219,21 +242,17 @@ The header specifies the type of data. Driver developers can access links to pee
     extract the address of the containing node record.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
-</dt>
-<dt>
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
-</dt>
-<dt>
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
-</dt>
-</dl>
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
+
  
 
  

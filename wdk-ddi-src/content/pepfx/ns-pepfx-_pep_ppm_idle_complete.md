@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F44C7FCC-0693-4F43-BF23-7160B67EDD3D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_PPM_IDLE_COMPLETE, *PPEP_PPM_IDLE_COMPLETE, PEP_PPM_IDLE_COMPLETE
+ms.keywords: PEP_PPM_IDLE_COMPLETE structure [Kernel-Mode Driver Architecture], PEP_PPM_IDLE_COMPLETE, pepfx/PEP_PPM_IDLE_COMPLETE, pepfx/PPEP_PPM_IDLE_COMPLETE, _PEP_PPM_IDLE_COMPLETE, PPEP_PPM_IDLE_COMPLETE, *PPEP_PPM_IDLE_COMPLETE, PPEP_PPM_IDLE_COMPLETE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_ppm_idle_complete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_PPM_IDLE_COMPLETE
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PPEP_PPM_IDLE_COMPLETE, PEP_PPM_IDLE_COMPLETE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_PPM_IDLE_COMPLETE
+product: Windows
+targetos: Windows
+req.typenames: PEP_PPM_IDLE_COMPLETE, *PPEP_PPM_IDLE_COMPLETE
 ---
 
 # _PEP_PPM_IDLE_COMPLETE structure
 
 
-
 ## -description
+
+
 The <b>PEP_PPM_IDLE_COMPLETE</b> structure describe the idle states from which the processor and hardware platform are waking.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_PPM_IDLE_COMPLETE {
@@ -54,6 +64,9 @@ typedef struct _PEP_PPM_IDLE_COMPLETE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ProcessorState
 
@@ -66,21 +79,20 @@ typedef struct _PEP_PPM_IDLE_COMPLETE {
 
 
 ## -remarks
+
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186803">PEP_NOTIFY_PPM_IDLE_COMPLETE</a> notification. The <b>ProcessorState</b> and <b>PlatformState</b> members contain input values that are supplied by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) when this notification is sent to the PEP.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186803">PEP_NOTIFY_PPM_IDLE_COMPLETE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186824">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186803">PEP_NOTIFY_PPM_IDLE_COMPLETE</a>
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
-</dt>
-</dl>
+
  
 
  

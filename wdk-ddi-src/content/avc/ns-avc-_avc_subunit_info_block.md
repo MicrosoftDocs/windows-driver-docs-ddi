@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 66231303-20ec-42d4-b61d-c8e85e4e6a88
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _AVC_SUBUNIT_INFO_BLOCK, *PAVC_SUBUNIT_INFO_BLOCK, AVC_SUBUNIT_INFO_BLOCK
+ms.keywords: avcref_d8151f14-0fc4-4be5-b815-d94dc77165db.xml, AVC_SUBUNIT_INFO_BLOCK structure [Streaming Media Devices], _AVC_SUBUNIT_INFO_BLOCK, avc/PAVC_SUBUNIT_INFO_BLOCK, AVC_SUBUNIT_INFO_BLOCK, avc/AVC_SUBUNIT_INFO_BLOCK, stream.avc_subunit_info_block, PAVC_SUBUNIT_INFO_BLOCK structure pointer [Streaming Media Devices], *PAVC_SUBUNIT_INFO_BLOCK, PAVC_SUBUNIT_INFO_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AVC_SUBUNIT_INFO_BLOCK
-req.alt-loc: avc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PAVC_SUBUNIT_INFO_BLOCK, AVC_SUBUNIT_INFO_BLOCK
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	avc.h
+apiname: 
+-	AVC_SUBUNIT_INFO_BLOCK
+product: Windows
+targetos: Windows
+req.typenames: AVC_SUBUNIT_INFO_BLOCK, *PAVC_SUBUNIT_INFO_BLOCK
 ---
 
 # _AVC_SUBUNIT_INFO_BLOCK structure
 
 
-
 ## -description
+
+
 The AVC_SUBUNIT_INFO_BLOCK structure describes subunit information.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _AVC_SUBUNIT_INFO_BLOCK {
@@ -54,12 +64,17 @@ typedef struct _AVC_SUBUNIT_INFO_BLOCK {
 
 ## -struct-fields
 
+
+
+
 ### -field Info
 
 Ignored on input. On output, this contains up to eight contiguous pages of subunit information in the format of the AV/C SUBUNIT_INFO unit command. The subunit information pages are terminated with 0xff. See Section 9.11 of the AV/C Digital Interface Command Set General Specification, Rev 3.0. This specification can be found at the <a href="http://go.microsoft.com/fwlink/p/?linkid=8728">1394 Trade Association</a> website.
 
 
 ## -remarks
+
+
 This structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554164">AVC_FUNCTION_GET_SUBUNIT_INFO</a> function code.
 
 This structure is used only as a member inside the AVC_MULTIFUNC_IRB structure. It is not used by itself.
@@ -67,18 +82,15 @@ This structure is used only as a member inside the AVC_MULTIFUNC_IRB structure. 
 See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">How to Use Avc.sys</a> For information about building and sending an AV/C command.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
-</dt>
-<dt>
-<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554164">AVC_FUNCTION_GET_SUBUNIT_INFO</a>
-</dt>
-</dl>
+
+<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 60145cf3-62cb-4165-8536-f1546b9623dd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WRITE_PORT_USHORT
+ms.keywords: k103_28fd826b-359f-4111-91d0-426fb2d2a62b.xml, WRITE_PORT_USHORT, wdm/WRITE_PORT_USHORT, kernel.write_port_ushort, WRITE_PORT_USHORT routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WRITE_PORT_USHORT
-req.alt-loc: Hal.lib,Hal.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Hal.lib
+-	Hal.dll
+apiname: 
+-	WRITE_PORT_USHORT
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # WRITE_PORT_USHORT function
 
 
-
 ## -description
+
+
 The <b>WRITE_PORT_USHORT</b> routine writes a USHORT value to the specified port address.
 
 
-
 ## -syntax
+
 
 ````
  VOID WRITE_PORT_USHORT(
@@ -55,6 +66,9 @@ The <b>WRITE_PORT_USHORT</b> routine writes a USHORT value to the specified port
 
 
 ## -parameters
+
+
+
 
 ### -param Port [in]
 
@@ -67,8 +81,15 @@ Specifies a USHORT value to be written to the port.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
-Callers of <b>WRITE_PORT_USHORT</b> can be running at any IRQL, assuming the <i>Port</i> is resident, mapped device memory.</p>
+
+
+Callers of <b>WRITE_PORT_USHORT</b> can be running at any IRQL, assuming the <i>Port</i> is resident, mapped device memory.
+
+

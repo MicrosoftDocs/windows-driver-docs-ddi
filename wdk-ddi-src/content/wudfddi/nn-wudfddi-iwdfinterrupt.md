@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 729A2361-6FE1-4096-AC8B-3D042326EE5C
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFWorkItem, IWDFWorkItem::GetParentObject, GetParentObject
+ms.keywords: wdf.iwdfinterrupt, IWDFInterrupt interface, IWDFInterrupt interface, described, IWDFInterrupt, wudfddi/IWDFInterrupt, umdf.iwdfinterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.11
-req.alt-api: IWDFInterrupt
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFInterrupt
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,71 +47,16 @@ req.product: Windows 10 or later.
 # IWDFInterrupt interface
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 This interface exposes an interrupt object.
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFInterrupt</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>. <b>IWDFInterrupt</b> also has these types of members:
-
-The <b>IWDFInterrupt</b> interface has these methods.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451289">AcquireInterruptLock</a> method begins a code sequence that executes while holding an interrupt object's lock.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450971">Disable</a> method disables a specified device interrupt by calling the driver's <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_disable.md">OnInterruptDisable</a> callback function.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">Enable</a> method enables a specified device interrupt by calling the driver's <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_enable.md">OnInterruptEnable</a> callback function.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451305">GetDevice</a> method returns the framework device object interface for this interrupt object.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451309">GetInfo</a> method retrieves information about a specified interrupt.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451314">QueueWorkItemForIsr</a> method queues a work item to process interrupt-related work outside of the interrupt service routine.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451319">ReleaseInterruptLock</a> method ends a code sequence that executes while holding an interrupt object's lock.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451324">SetExtendedPolicy</a> method specifies the interrupt priority, processor affinity, affinity policy, and processor group for a specified interrupt.
-  
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451328">SetPolicy</a> method specifies the interrupt priority, processor affinity, and affinity policy for a specified interrupt.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451332">TryToAcquireInterruptLock</a> method acquires the interrupt lock if no other thread has already acquired it.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFInterrupt</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>. <b>IWDFInterrupt</b> also has these types of members:
-
-The <b>IWDFInterrupt</b> interface has these methods.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451289">AcquireInterruptLock</a> method begins a code sequence that executes while holding an interrupt object's lock.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450971">Disable</a> method disables a specified device interrupt by calling the driver's <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_disable.md">OnInterruptDisable</a> callback function.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">Enable</a> method enables a specified device interrupt by calling the driver's <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_enable.md">OnInterruptEnable</a> callback function.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451305">GetDevice</a> method returns the framework device object interface for this interrupt object.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451309">GetInfo</a> method retrieves information about a specified interrupt.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451314">QueueWorkItemForIsr</a> method queues a work item to process interrupt-related work outside of the interrupt service routine.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451319">ReleaseInterruptLock</a> method ends a code sequence that executes while holding an interrupt object's lock.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451324">SetExtendedPolicy</a> method specifies the interrupt priority, processor affinity, affinity policy, and processor group for a specified interrupt.
-  
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451328">SetPolicy</a> method specifies the interrupt priority, processor affinity, and affinity policy for a specified interrupt.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451332">TryToAcquireInterruptLock</a> method acquires the interrupt lock if no other thread has already acquired it.
-
- 
-
-
 ## -members
+
 The <b>IWDFInterrupt</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -224,15 +178,10 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451332">TryTo
  
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d7baddb5-ad12-4aea-9515-97511dc05fe7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SCSI_BUS_DATA, SCSI_BUS_DATA, *PSCSI_BUS_DATA
+ms.keywords: PSCSI_BUS_DATA structure pointer [Storage Devices], PSCSI_BUS_DATA, _SCSI_BUS_DATA, structs-scsibus_8a0f86c6-4011-4c11-90e8-bf3c28a147dc.xml, ntddscsi/SCSI_BUS_DATA, ntddscsi/PSCSI_BUS_DATA, *PSCSI_BUS_DATA, SCSI_BUS_DATA, SCSI_BUS_DATA structure [Storage Devices], storage.scsi_bus_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SCSI_BUS_DATA
-req.alt-loc: ntddscsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddscsi.h
+apiname: 
+-	SCSI_BUS_DATA
+product: Windows
+targetos: Windows
 req.typenames: SCSI_BUS_DATA, *PSCSI_BUS_DATA
 ---
 
 # _SCSI_BUS_DATA structure
 
 
-
 ## -description
+
+
 The SCSI_BUS_DATA structure is used in conjunction with the <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a> request and the <a href="..\ntddscsi\ns-ntddscsi-_scsi_adapter_bus_info.md">SCSI_ADAPTER_BUS_INFO</a> structure to retrieve the SCSI inquiry data for all devices on a given SCSI bus. 
-
-
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 typedef struct _SCSI_BUS_DATA {
@@ -55,6 +65,9 @@ typedef struct _SCSI_BUS_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NumberOfLogicalUnits
 
@@ -71,18 +84,12 @@ Contains the SCSI bus ID for the adapter.
 Contains an offset from the beginning of the SCSI_ADAPTER_BUS_INFO structure to the inquiry data.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a>
-</dt>
-<dt>
+
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_adapter_bus_info.md">SCSI_ADAPTER_BUS_INFO</a>
-</dt>
-</dl>
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: eb2b7470-cd23-4e0c-a887-42c47b881607
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_ARG_SETDISPLAYMODE, DXGI_DDI_ARG_SETDISPLAYMODE
+ms.keywords: display.dxgi_ddi_arg_setdisplaymode, dxgiddi/DXGI_DDI_ARG_SETDISPLAYMODE, DXGI_DDI_ARG_SETDISPLAYMODE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_b8b2ebc4-123c-42bd-abd5-3bf1bff47ee0.xml, DXGI_DDI_ARG_SETDISPLAYMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGI_DDI_ARG_SETDISPLAYMODE
-req.alt-loc: dxgiddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxgiddi.h
+apiname: 
+-	DXGI_DDI_ARG_SETDISPLAYMODE
+product: Windows
+targetos: Windows
 req.typenames: DXGI_DDI_ARG_SETDISPLAYMODE
 ---
 
 # DXGI_DDI_ARG_SETDISPLAYMODE structure
 
 
-
 ## -description
+
+
 The DXGI_DDI_ARG_SETDISPLAYMODE structure describes parameters for setting the display mode. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct DXGI_DDI_ARG_SETDISPLAYMODE {
@@ -55,6 +65,9 @@ typedef struct DXGI_DDI_ARG_SETDISPLAYMODE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -71,15 +84,10 @@ typedef struct DXGI_DDI_ARG_SETDISPLAYMODE {
 [in] The zero-based index into the resource, which the handle in the <b>hResource</b> member specifies. The <b>SubResourceIndex</b> index indicates the display surface.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569536">SetDisplayModeDXGI</a>
-</dt>
-</dl>
+
  
 
  

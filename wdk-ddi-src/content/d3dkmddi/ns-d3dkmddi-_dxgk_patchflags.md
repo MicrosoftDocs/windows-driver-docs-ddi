@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4052b760-70b0-4418-84f9-1e520a551a03
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PATCHFLAGS, DXGK_PATCHFLAGS
+ms.keywords: d3dkmddi/DXGK_PATCHFLAGS, DXGK_PATCHFLAGS structure [Display Devices], _DXGK_PATCHFLAGS, display.dxgk_patchflags, DmStructs_e798cfa4-1915-42c8-87ad-709df6a5555f.xml, DXGK_PATCHFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_PATCHFLAGS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_PATCHFLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PATCHFLAGS
 ---
 
 # _DXGK_PATCHFLAGS structure
 
 
-
 ## -description
+
+
 The DXGK_PATCHFLAGS structure identifies, in bit-field flags, information about the direct memory access (DMA) buffer that requires patching.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_PATCHFLAGS {
@@ -62,6 +72,9 @@ typedef struct _DXGK_PATCHFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Paging
 
@@ -101,24 +114,16 @@ Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Val
 [in] A member in the union that DXGK_PATCHFLAGS contains that can hold a 32-bit value that identifies information about the DMA buffer that requires patching.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_patch.md">DXGKARG_PATCH</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_patch.md">DXGKARG_PATCH</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+
  
 
  

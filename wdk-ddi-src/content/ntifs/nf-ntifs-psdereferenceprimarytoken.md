@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cff4bd05-b70d-4c07-a6c0-7ee4287aeab0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PsDereferencePrimaryToken
+ms.keywords: PsDereferencePrimaryToken routine [Installable File System Drivers], psref_d3e4caeb-19a5-49d5-909a-5cb78a54f2e5.xml, ifsk.psdereferenceprimarytoken, PsDereferencePrimaryToken, ntifs/PsDereferencePrimaryToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PsDereferencePrimaryToken
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	PsDereferencePrimaryToken
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # PsDereferencePrimaryToken function
 
 
-
 ## -description
+
+
 The <b>PsDereferencePrimaryToken</b> routine decrements the reference count of a primary token.
 
 
-
 ## -syntax
+
 
 ````
 VOID PsDereferencePrimaryToken(
@@ -54,27 +64,34 @@ VOID PsDereferencePrimaryToken(
 
 ## -parameters
 
+
+
+
 ### -param PrimaryToken [in]
 
 Pointer to the primary token whose reference count is to be decremented.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 If the token's reference count reaches zero, the token is deleted.
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
-</dt>
-</dl>
+
  
 
  

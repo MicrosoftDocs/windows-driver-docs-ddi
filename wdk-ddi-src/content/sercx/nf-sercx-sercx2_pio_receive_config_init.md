@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 08FBBC1D-EB2A-4178-9245-C3FF60424F95
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERCX2_PIO_RECEIVE_CONFIG_INIT
+ms.keywords: serports.sercx2_pio_receive_config_init, 2/SERCX2_PIO_RECEIVE_CONFIG_INIT, SERCX2_PIO_RECEIVE_CONFIG_INIT function [Serial Ports], SERCX2_PIO_RECEIVE_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.1.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SERCX2_PIO_RECEIVE_CONFIG_INIT
-req.alt-loc: 2.0\Sercx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	2.0\Sercx.h
+apiname: 
+-	SERCX2_PIO_RECEIVE_CONFIG_INIT
+product: Windows
+targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SERCX2_PIO_RECEIVE_CONFIG_INIT function
 
 
-
 ## -description
+
+
 The <b>SERCX2_PIO_RECEIVE_CONFIG_INIT</b> function initializes a <a href="..\sercx\ns-sercx-_sercx2_pio_receive_config.md">SERCX2_PIO_RECEIVE_CONFIG</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 VOID SERCX2_PIO_RECEIVE_CONFIG_INIT(
@@ -57,6 +67,9 @@ VOID SERCX2_PIO_RECEIVE_CONFIG_INIT(
 
 
 ## -parameters
+
+
+
 
 ### -param PioReceiveConfig [out]
 
@@ -79,24 +92,27 @@ The value to load into the <b>EvtSerCx2PioReceiveCancelReadyNotification</b> mem
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 Your serial controller driver must use this function to initialize a <a href="..\sercx\ns-sercx-_sercx2_pio_receive_config.md">SERCX2_PIO_RECEIVE_CONFIG</a> structure before passing a pointer to this structure as an input parameter to the <a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a> method.
 
 <b>SERCX2_PIO_RECEIVE_CONFIG_INIT</b> sets the <b>Size</b> member of the structure to <b>sizeof</b>(<b>SERCX2_PIO_RECEIVE_CONFIG</b>), and sets three additional members of the structure to the values supplied as input parameters to the function. The function sets the other members of the structure to zero. The driver can, if necessary, explicitly set these other members to nonzero values after the <b>SERCX2_PIO_RECEIVE_CONFIG_INIT</b> call.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\sercx\ns-sercx-_sercx2_pio_receive_config.md">SERCX2_PIO_RECEIVE_CONFIG</a>
-</dt>
-<dt>
+
 <a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
-</dt>
-</dl>
+
  
 
  

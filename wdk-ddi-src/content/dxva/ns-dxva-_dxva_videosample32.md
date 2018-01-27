@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 78609b64-38fa-4431-bc74-8a83fe687a45
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_VideoSample32, DXVA_VideoSample32
+ms.keywords: _DXVA_VideoSample32, dxvaref_3e581191-6878-4daa-87e6-62188fa4708e.xml, DXVA_VideoSample32, dxva/DXVA_VideoSample32, DXVA_VideoSample32 structure [Display Devices], display.dxva_videosample32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This structure applies only to Windows Server 2003 wi
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVA_VideoSample32
-req.alt-loc: dxva.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxva.h
+apiname: 
+-	DXVA_VideoSample32
+product: Windows
+targetos: Windows
 req.typenames: DXVA_VideoSample32
 ---
 
 # _DXVA_VideoSample32 structure
 
 
-
 ## -description
+
+
 The DXVA_VideoSample32 structure is used for forwarding  32-bit <a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a> calls on 64-bit drivers.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVA_VideoSample32 {
@@ -60,6 +70,9 @@ typedef struct _DXVA_VideoSample32 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field rtStart
 
@@ -102,33 +115,28 @@ Specifies an array of <a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsa
 
 
 ## -remarks
+
+
 The compiler adds 4 bytes of padding to align the structure to 8 bytes.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
-</dt>
-<dt>
-<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ne-dxva-_dxva_sampleflags.md">DXVA_SampleFlags</a>
-</dt>
-<dt>
-<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-</dt>
-</dl>
+
+<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
+
+<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
+
  
 
  

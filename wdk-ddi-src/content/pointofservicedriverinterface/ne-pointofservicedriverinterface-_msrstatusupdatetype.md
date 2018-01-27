@@ -7,8 +7,8 @@ old-location: pos\msrstatusupdatetype.htm
 old-project: pos
 ms.assetid: f7e055ac-df7c-4993-b7aa-f455c4548d5e
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _MsrStatusUpdateType, MsrStatusUpdateType
+ms.date: 1/18/2018
+ms.keywords: pointofservicedriverinterface/MsrStatusUpdateType_Unauthenticated, MsrStatusUpdateType enumeration, pointofservicedriverinterface/MsrStatusUpdateType_Off, pointofservicedriverinterface/MsrStatusUpdateType_OffOrOffline, MsrStatusUpdateType_Off, MsrStatusUpdateType, pos.msrstatusupdatetype, pointofservicedriverinterface/MsrStatusUpdateType_Extended, MsrStatusUpdateType_OffOrOffline, MsrStatusUpdateType_Authenticated, pointofservicedriverinterface/MsrStatusUpdateType, MsrStatusUpdateType_Online, pointofservicedriverinterface/MsrStatusUpdateType_Authenticated, MsrStatusUpdateType_Offline, _MsrStatusUpdateType, MsrStatusUpdateType_Extended, MsrStatusUpdateType_Unauthenticated, pointofservicedriverinterface/MsrStatusUpdateType_Offline, pointofservicedriverinterface/MsrStatusUpdateType_Online
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MsrStatusUpdateType
-req.alt-loc: pointofservicedriverinterface.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pointofservicedriverinterface.h
+apiname: 
+-	MsrStatusUpdateType
+product: Windows
+targetos: Windows
 req.typenames: MsrStatusUpdateType
 ---
 
 # _MsrStatusUpdateType enumeration
 
 
-
 ## -description
+
+
 This enumeration defines the constants that indicate the magnetic stripe reader (MSR) status.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _MsrStatusUpdateType { 
@@ -59,6 +69,9 @@ typedef enum _MsrStatusUpdateType {
 
 
 ## -enum-fields
+
+
+
 
 ### -field MsrStatusUpdateType_Online
 
@@ -94,5 +107,3 @@ The device is authenticated. This is valid if the device supports authentication
 
 Vendor-specific status information. Reported in IMagneticStripeReaderStatusUpdatedEventArgs.ExtendedStatus.
 
-
-## -remarks

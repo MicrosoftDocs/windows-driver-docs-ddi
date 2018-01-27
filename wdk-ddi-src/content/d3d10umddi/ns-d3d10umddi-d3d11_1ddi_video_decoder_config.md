@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f96a63b5-a560-4230-b6c9-3e3e98c1b8ab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEO_DECODER_CONFIG, D3D11_1DDI_VIDEO_DECODER_CONFIG
+ms.keywords: d3d10umddi/D3D11_1DDI_VIDEO_DECODER_CONFIG, pContentKey, ContentKeySize, display.d3d11_1ddi_video_decoder_config, D3D11_1DDI_VIDEO_DECODER_CONFIG, D3D11_1DDI_VIDEO_DECODER_CONFIG structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDI_VIDEO_DECODER_CONFIG
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDI_VIDEO_DECODER_CONFIG
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_DECODER_CONFIG
 ---
 
 # D3D11_1DDI_VIDEO_DECODER_CONFIG structure
 
 
-
 ## -description
+
+
 Describes the configuration of a Microsoft Direct3D 11 decoder device for Microsoft DirectX Video Acceleration (DXVA).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D11_1DDI_VIDEO_DECODER_CONFIG {
@@ -70,6 +80,9 @@ typedef struct D3D11_1DDI_VIDEO_DECODER_CONFIG {
 
 ## -struct-fields
 
+
+
+
 ### -field guidConfigBitstreamEncryption
 
 
@@ -77,16 +90,15 @@ typedef struct D3D11_1DDI_VIDEO_DECODER_CONFIG {
           
 
 If set to <b>D3DWDDM2_0DDI_DECODER_ENCRYPTION_HW_CENC</b>, this indicates that the following parameters will be passed in to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a> call:
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field pContentKey
-
+<td width="40%"><a id="pContentKey"></a><a id="pcontentkey"></a><a id="PCONTENTKEY"></a><dl>
+<dt><b>pContentKey</b></dt>
+</dl>
 </td>
 <td width="60%">
 A pointer to the <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_begin_frame_crypto_session.md">D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION</a> structure, indicating which CryptoSession and the key information used to decrypt the frame.
@@ -94,17 +106,16 @@ A pointer to the <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decode
 </td>
 </tr>
 <tr>
-
-### -field ContentKeySize
-
+<td width="40%"><a id="ContentKeySize"></a><a id="contentkeysize"></a><a id="CONTENTKEYSIZE"></a><dl>
+<dt><b>ContentKeySize</b></dt>
+</dl>
 </td>
 <td width="60%">
 Set to the size of the <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_begin_frame_crypto_session.md">D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION</a> structure.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field guidConfigMBcontrolEncryption
@@ -144,7 +155,6 @@ Indicates the word size used to represent residual difference spatial-domain blo
 
 If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 1, the host will send residual difference spatial-domain blocks for non-intra macroblocks using 8-bit signed samples and for intra macroblocks in predicted (non-intra) pictures in a format that depends on the value of <b>ConfigIntraResidUnsigned</b>:
           
-
 <ul>
 <li>
                 If <b>ConfigIntraResidUnsigned</b> is 0, spatial-domain blocks for intra macroblocks are sent as 8-bit signed integer values relative to a constant reference value of 2^(BPP–1).
@@ -153,10 +163,8 @@ If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 1, the host
                 If <b>ConfigIntraResidUnsigned</b> is 1, spatial-domain blocks for intra macroblocks are sent as 8-bit unsigned integer values relative to a constant reference value of 0.
               </li>
 </ul>
-
             If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 0, the host will send residual difference spatial-domain blocks of data for non-intra macroblocks using 16-bit signed samples and for intra macroblocks in predicted (non-intra) pictures in a format that depends on the value of <b>ConfigIntraResidUnsigned</b>:
           
-
 <ul>
 <li>
                 If <b>ConfigIntraResidUnsigned</b> is 0, spatial domain blocks for intra macroblocks are sent as 16-bit signed integer values relative to a constant reference value of 2^(BPP–1).
@@ -165,7 +173,6 @@ If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 1, the host
                 If <b>ConfigIntraResidUnsigned</b> is 1, spatial domain blocks for intra macroblocks are sent as 16-bit unsigned integer values relative to a constant reference value of 0.
               </li>
 </ul>
-
             If <b>ConfigResidDiffHost</b> is 0, <b>ConfigSpatialResid8</b> must be 0.
           
 
@@ -211,7 +218,6 @@ If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 1, the host
 
             If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigIntraResidUnsigned</b> is 0, spatial-domain residual difference data blocks for intra macroblocks must be sent as follows:
           
-
 <ul>
 <li>
                 In a non-intra picture, if <b>ConfigSpatialResid8</b> is 0, the spatial-domain residual difference data blocks for intra macroblocks are sent as 16-bit signed integer values relative to a constant reference value of 2^(BPP–1).
@@ -223,10 +229,8 @@ If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 1, the host
                 In an intra picture, if BPP is 8, the spatial-domain residual difference data blocks for intra macroblocks are sent as 8-bit signed integer values relative to a constant reference value of 2^(BPP–1), regardless of the value of <b>ConfigSpatialResid8</b>.
               </li>
 </ul>
-
             If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigIntraResidUnsigned</b> is 1, spatial-domain residual difference data blocks for intra macroblocks must be sent as follows:
           
-
 <ul>
 <li>
                 In a non-intra picture, if <b>ConfigSpatialResid8</b> is 0, the spatial-domain residual difference data blocks for intra macroblocks must be sent as 16-bit unsigned integer values relative to a constant reference value of 0.
@@ -238,7 +242,6 @@ If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 1, the host
                 In an intra picture, if BPP is 8, the spatial-domain residual difference data blocks for intra macroblocks are sent as 8-bit unsigned integer values relative to a constant reference value of 0, regardless of the value of <b>ConfigSpatialResid8</b>.
               </li>
 </ul>
-
             The value of the member must be 0 unless <b>ConfigResidDiffHost</b> is 1.
           
 
@@ -301,21 +304,14 @@ If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 1, the host
           
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\dxva\ns-dxva-_dxva_tcoef4group.md">DXVA_TCoef4Group</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
-</dt>
-<dt>
+
+<a href="..\dxva\ns-dxva-_dxva_tcoef4group.md">DXVA_TCoef4Group</a>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_begin_frame_crypto_session.md">D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION</a>
-</dt>
-</dl>
+
  
 
  

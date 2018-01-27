@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: B98F669D-D0DE-4FF2-903C-D51E0FEEE840
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _SM_SetRNIDMgmtInfo_OUT, SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
+ms.keywords: audio.phdaudio_unsolicited_response_callback, HDAudioUnsolicitedResponseCallback callback function [Audio Devices], HDAudioUnsolicitedResponseCallback, PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK, PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK, hdaudio/HDAudioUnsolicitedResponseCallback, HDAudioUnsolicitedResponseCallback callback function [Audio Devices], HDAudioUnsolicitedResponseCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HDAudioUnsolicitedResponseCallback
-req.alt-loc: Hdaudio.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Hdaudio.h
+apiname: 
+-	HDAudioUnsolicitedResponseCallback
+product: Windows
+targetos: Windows
 req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
 ---
 
 # PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK callback
 
 
-
 ## -description
+
+
 HDAudio codec unsolicited response callback function. <b>PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK</b> is used by the <a href="..\hdaudio\nc-hdaudio-pregister_event_callback.md">PREGISTER_EVENT_CALLBACK</a> callback function. 
 
 
-
 ## -prototype
+
 
 ````
 PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK HDAudioUnsolicitedResponseCallback;
@@ -60,19 +70,40 @@ typedef PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK HDAudioUnsolicitedResponseCallbac
 
 ## -parameters
 
-### -param HDAudioCodecResponse 
-
-This is a structure of type <a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_response.md">HDAUDIO_CODEC_RESPONSE</a> that specifies the codec's response to the command. This structure is passed by value.  
 
 
-### -param Context 
+
+### -param HDAUDIO_CODEC_RESPONSE
+
+
+
+### -param PVOID
+
+
+
+
+
+
+#### - Context
 
 This is the callbackContext value that was passed previously to <a href="..\hdaudio\nc-hdaudio-pregister_event_callback.md">PREGISTER_EVENT_CALLBACK</a>.
 
 
+#### - HDAudioCodecResponse
+
+This is a structure of type <a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_response.md">HDAUDIO_CODEC_RESPONSE</a> that specifies the codec's response to the command. This structure is passed by value.  
+
+
 ## -returns
+
+
 Void
 
 
+
 ## -remarks
-The HD Audio bus driver calls the callback routine at PASSIVE_LEVEL.</p>
+
+
+The HD Audio bus driver calls the callback routine at PASSIVE_LEVEL.
+
+

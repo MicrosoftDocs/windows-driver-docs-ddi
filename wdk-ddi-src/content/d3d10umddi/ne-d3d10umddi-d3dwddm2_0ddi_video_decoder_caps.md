@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1C3E07CB-917D-4B3E-979D-4DBD38957B98
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DWDDM2_0DDI_VIDEO_DECODER_CAPS, D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
+ms.keywords: D3DWDDM2_0DDI_VIDEO_DECODER_CAP_UNSUPPORTED, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE_REQUIRED, display.d3dwddm2_0ddi_video_decoder_caps, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAP_UNSUPPORTED, D3DWDDM2_0DDI_VIDEO_DECODER_CAPS enumeration [Display Devices], D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAPS, D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE_REQUIRED, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAP_NON_REAL_TIME, D3DWDDM2_0DDI_VIDEO_DECODER_CAP_NON_REAL_TIME, D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
+product: Windows
+targetos: Windows
 req.typenames: D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
 ---
 
 # D3DWDDM2_0DDI_VIDEO_DECODER_CAPS enumeration
 
 
-
 ## -description
+
+
 Describes the video decoder capabilities.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3DWDDM2_0DDI_VIDEO_DECODER_CAPS { 
@@ -56,6 +66,9 @@ typedef enum D3DWDDM2_0DDI_VIDEO_DECODER_CAPS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE
 
@@ -81,15 +94,10 @@ It is possible that decode can occur in real-time if downsampling is applied.
 	Indicates that the decode configuration is not supported. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_queryvideocapabilities.md">QueryVideoCapabilities</a>
-</dt>
-</dl>
+
  
 
  

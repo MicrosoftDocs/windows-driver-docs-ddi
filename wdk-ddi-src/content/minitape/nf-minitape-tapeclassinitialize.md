@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f1c70ca5-2caf-4758-99bb-221af0a79211
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: TapeClassInitialize
+ms.keywords: TapeClassInitialize routine [Storage Devices], minitape/TapeClassInitialize, tapeclas_92bf66d9-2a7b-4853-ad25-b6f854533a4e.xml, storage.tapeclassinitialize, TapeClassInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TapeClassInitialize
-req.alt-loc: Tape.lib,Tape.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Tape.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Tape.lib
+-	Tape.dll
+apiname: 
+-	TapeClassInitialize
+product: Windows
+targetos: Windows
 req.typenames: TAPE_STATUS, *PTAPE_STATUS
 ---
 
 # TapeClassInitialize function
 
 
-
 ## -description
+
+
 The <b>TapeClassInitialize</b> routine performs much of the driver and device initialization on behalf of a miniclass driver. <b>TapeClassInitialize</b> loads the tape class driver entry points for tape I/O requests into the miniclass driver data structure, locates and claims unclaimed tape devices that the miniclass driver supports, and allocates and initializes the operating system resources for the miniclass driver and its devices. <b>TapeClassInitialize</b> uses miniclass-driver-specific information supplied in <i>TapeInitData</i> and calls back to the tape miniclass driver for driver-specific operations.
 
 
-
 ## -syntax
+
 
 ````
 ULONG TapeClassInitialize(
@@ -55,6 +66,9 @@ ULONG TapeClassInitialize(
 
 
 ## -parameters
+
+
+
 
 ### -param Argument1 [in]
 
@@ -72,10 +86,15 @@ Pointer to a TAPE_INIT_DATA_EX structure containing driver-specific information 
 
 
 ## -returns
+
+
 <b>TapeClassInitialize</b> returns a value indicating the success or failure of the driver initialization. The tape miniclass driver passes this value, uninterpreted, as the return value from its <b>DriverEntry</b> routine.
 
 
+
 ## -remarks
+
+
 A tape miniclass driver calls <b>TapeClassInitialize</b> from its <b>DriverEntry</b> routine and passes driver-specific information in <i>TapeInitData</i>. <b>TapeClassInitialize</b> performs a large part of the driver initialization on behalf of the miniclass driver and insulates the miniclass driver from operating system-specific details.
 
 <b>TapeClassInitialize</b> calls the tape miniclass driver for driver-specific activities required during initialization. For example, <b>TapeClassInitialize</b> calls the tape miniclass driver's TapeMiniVerifyInquiry routine to determine whether the driver supports a given tape device. <b>TapeClassInitialize</b> also calls the tape miniclass driver's TapeMiniExtensionInit routine to initialize the minitape extension, if the miniclass driver requested one.
@@ -83,15 +102,13 @@ A tape miniclass driver calls <b>TapeClassInitialize</b> from its <b>DriverEntry
 A tape miniclass driver allocates a TAPE_INIT_DATA_EX structure on the stack, clears it with <b>TapeClassZeroMemory</b>, fills in all the appropriate members, and passes it to <b>TapeClassInitialize</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\minitape\ns-minitape-_tape_init_data_ex.md">TAPE_INIT_DATA_EX</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
-</dt>
-</dl>
+
  
 
  

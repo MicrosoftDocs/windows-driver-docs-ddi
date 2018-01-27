@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: F26F6820-B761-4DF3-B7D7-9C1B174DEEA2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWaveRTInputStream, IMiniportWaveRTInputStream::GetReadPacket, GetReadPacket
+ms.keywords: GetReadPacket, GetReadPacket method [Audio Devices], portcls/IMiniportWaveRTInputStream::GetReadPacket, IMiniportWaveRTInputStream, IMiniportWaveRTInputStream interface [Audio Devices], GetReadPacket method, GetReadPacket method [Audio Devices], IMiniportWaveRTInputStream interface, IMiniportWaveRTInputStream::GetReadPacket, audio.iminiportwavertinputstream_getreadpacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 10 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportWaveRTInputStream.GetReadPacket
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,25 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: Passive level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IMiniportWaveRTInputStream.GetReadPacket
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportWaveRTInputStream::GetReadPacket method
 
 
-
 ## -description
+
+
 
 
 Returns information about captured data. 
 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS GetReadPacket(
@@ -60,6 +70,9 @@ NTSTATUS GetReadPacket(
 
 ## -parameters
 
+
+
+
 ### -param PacketNumber [out]
 
 Returns the packet number relative to the start of capture.  
@@ -70,9 +83,8 @@ Returns the packet number relative to the start of capture.
 Reserved for future use. Must be set to 0.
 
 
-### -param PerformanceCount [out]
+### -param PerformanceCounterValue
 
-Returns the performance counter value corresponding to the sampling instant of the first sample in the packet. 
 
 
 
@@ -82,13 +94,24 @@ Returns the performance counter value corresponding to the sampling instant of t
 
 
 
+#### - PerformanceCount [out]
+
+Returns the performance counter value corresponding to the sampling instant of the first sample in the packet. 
+
+
+
 ## -returns
+
+
 <code>GetReadPacket</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the function returns an appropriate error status code.
 
  STATUS_DEVICE_NOT_READY - The driver returns this error if no new data is available.
 
 
+
 ## -remarks
+
+
 Before reading captured audio data from the WaveRT buffer, the OS calls this routine to get information about the available data. 
 
 
@@ -99,12 +122,11 @@ The packet size is the WaveRT buffer size divided by the NotificationCount passe
 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iminiportwavertinputstream.md">IMiniportWaveRTInputStream</a>
-</dt>
-</dl>
+
  
 
  

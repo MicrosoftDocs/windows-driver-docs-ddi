@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2db324c8-69b1-4497-b6a7-76047baeca19
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_IN_ADAPTER_INIT,
+ms.keywords: iddcx/IDARG_IN_ADAPTER_INIT, IDARG_IN_ADAPTER_INIT, display.idarg_in_adapter_init, IDARG_IN_ADAPTER_INIT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDARG_IN_ADAPTER_INIT
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDARG_IN_ADAPTER_INIT
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDARG_IN_ADAPTER_INIT structure
 
 
-
 ## -description
+
+
 
                  Initializes an adapter that will be hosted on a WDF device.
              
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDARG_IN_ADAPTER_INIT {
@@ -57,6 +67,9 @@ typedef struct IDARG_IN_ADAPTER_INIT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field WdfDevice
 
@@ -78,5 +91,3 @@ typedef struct IDARG_IN_ADAPTER_INIT {
                      [in][optional] Object attributes that are used to initialize the WDF adapter object.
                  
 
-
-## -remarks

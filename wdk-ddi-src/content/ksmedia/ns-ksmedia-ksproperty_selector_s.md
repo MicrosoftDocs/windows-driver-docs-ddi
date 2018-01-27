@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cc9928b7-fab2-44c1-8613-3a94b5e8dcab
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_SELECTOR_S, KSPROPERTY_SELECTOR_S, *PKSPROPERTY_SELECTOR_S
+ms.keywords: ksmedia/PKSPROPERTY_SELECTOR_S, ksmedia/KSPROPERTY_SELECTOR_S, stream.ksproperty_selector_s, *PKSPROPERTY_SELECTOR_S, PKSPROPERTY_SELECTOR_S, KSPROPERTY_SELECTOR_S, PKSPROPERTY_SELECTOR_S structure pointer [Streaming Media Devices], vidcapstruct_7e180fae-5237-4b71-8719-7d3c5ee66592.xml, KSPROPERTY_SELECTOR_S structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPROPERTY_SELECTOR_S
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSPROPERTY_SELECTOR_S
+product: Windows
+targetos: Windows
 req.typenames: KSPROPERTY_SELECTOR_S, *PKSPROPERTY_SELECTOR_S
 ---
 
 # KSPROPERTY_SELECTOR_S structure
 
 
-
 ## -description
+
+
 The KSPROPERTY_SELECTOR_S structure describes filter-based property settings in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567810">PROPSETID_VIDCAP_SELECTOR</a> property set.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -56,6 +66,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Property
 
@@ -77,15 +90,10 @@ Specifies the flags of a request. For Set requests, this value indicates the des
 Specifies the capabilities of a property. This member has meaning only for Get requests. The minidriver should return the capabilities of the Selector with respect to the property specified in <b>Property</b>.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-ksproperty_selector_node_s.md">KSPROPERTY_SELECTOR_NODE_S</a>
-</dt>
-</dl>
+
  
 
  

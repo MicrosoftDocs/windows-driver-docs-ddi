@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d9703786-c46e-4466-a229-9ed0348cb45e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsInstallBusEnumInterface
+ms.keywords: ksfunc_6c26cb96-610b-4030-9f9b-ef878fdfe086.xml, swenum/KsInstallBusEnumInterface, KsInstallBusEnumInterface function [Streaming Media Devices], stream.ksinstallbusenuminterface, KsInstallBusEnumInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsInstallBusEnumInterface
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsInstallBusEnumInterface
+product: Windows
+targetos: Windows
 req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # KsInstallBusEnumInterface function
 
 
-
 ## -description
+
+
 <i>This function is intended for internal use only.</i>
 
 The <b>KsInstallBusEnumInterface</b> function installs an interface to the demand-load bus enumerator object. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsInstallBusEnumInterface(
@@ -57,28 +68,34 @@ NTSTATUS KsInstallBusEnumInterface(
 
 ## -parameters
 
+
+
+
 ### -param Irp [in]
 
 Pointer to an IRP that contains a SWENUM_INSTALL_INTERFACE structure that specifies the demand-load bus enumerator object interface to install. For information about this structure, see the Remarks section below.
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS if successful. Otherwise, it returns an error code.
 
 
+
 ## -remarks
+
+
 The <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> is assumed to contain a SWENUM_INSTALL_INTERFACE structure. The <i>DeviceId</i>, <i>InterfaceId</i> and <i>ReferenceString</i> members of the structure specify the specific device and interface with which to access this new interface. When the interface is registered with Plug and Play for the interface GUID and the associated reference string is accessed the first time through IRP_MJ_CREATE, the device will be enumerated using the format of <i>bus-identifier-prefix\device-id-GUID-string</i>. For example, SW\{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\swenum\nf-swenum-ksremovebusenuminterface.md">KsRemoveBusEnumInterface</a>
-</dt>
-<dt>
+
 <a href="..\swenum\ns-swenum-_swenum_install_interface.md">SWENUM_INSTALL_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

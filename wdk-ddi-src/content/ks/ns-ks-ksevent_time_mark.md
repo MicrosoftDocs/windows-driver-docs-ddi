@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c1e756a8-4850-4ddc-9bbf-97146a798554
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSEVENT_TIME_MARK, KSEVENT_TIME_MARK, *PKSEVENT_TIME_MARK
+ms.keywords: stream.ksevent_time_mark, *PKSEVENT_TIME_MARK, ks/KSEVENT_TIME_MARK, KSEVENT_TIME_MARK structure [Streaming Media Devices], PKSEVENT_TIME_MARK, ks-struct_66e60015-261c-4e6d-a58f-dab8d50cf4d6.xml, PKSEVENT_TIME_MARK structure pointer [Streaming Media Devices], ks/PKSEVENT_TIME_MARK, KSEVENT_TIME_MARK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSEVENT_TIME_MARK
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSEVENT_TIME_MARK
+product: Windows
+targetos: Windows
 req.typenames: KSEVENT_TIME_MARK, *PKSEVENT_TIME_MARK
 ---
 
 # KSEVENT_TIME_MARK structure
 
 
-
 ## -description
+
+
 The KSEVENT_TIME_MARK structure is used in various events within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561764">KSEVENTSETID_Clock</a> event set. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -54,6 +64,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field EventData
 
@@ -66,18 +79,18 @@ Specifies the clock time when the event should be signaled.
 
 
 ## -remarks
+
+
 The flags indicate the type of units for the interval. The interval can be specified in KSEVENT_DATA_MARKF_FILETIME units for these events, which are 100-nanosecond units.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\ns-ks-ksevent_time_interval.md">KSEVENT_TIME_INTERVAL</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561764">KSEVENTSETID_Clock</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-ksevent_time_interval.md">KSEVENT_TIME_INTERVAL</a>
+
  
 
  

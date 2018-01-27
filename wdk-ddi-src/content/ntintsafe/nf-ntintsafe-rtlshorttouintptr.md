@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C9E81C1A-56F2-414F-8FE5-847E291A022A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlShortToUIntPtr
+ms.keywords: RtlShortToUIntPtr, RtlShortToUIntPtr function [Kernel-Mode Driver Architecture], kernel.rtlshorttouintptr, ntintsafe/RtlShortToUIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlShortToUIntPtr
-req.alt-loc: Ntintsafe.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntintsafe.h
+apiname: 
+-	RtlShortToUIntPtr
+product: Windows
+targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
 
 # RtlShortToUIntPtr function
 
 
-
 ## -description
+
+
 Converts a value of type <b>SHORT</b> to a value of type <b>UINT_PTR</b>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlShortToUIntPtr(
@@ -54,6 +64,9 @@ NTSTATUS RtlShortToUIntPtr(
 
 
 ## -parameters
+
+
+
 
 ### -param sOperand [in]
 
@@ -66,6 +79,17 @@ A pointer to the converted value. In the case where the conversion causes a trun
 
 
 ## -remarks
+
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
-This function uses the following alternate name:</p>
+This function uses the following alternate name:
+<ul>
+<li>RtlShortToSizeT
+</li>
+<li>RtlInt16ToUIntPtr
+</li>
+<li>RtlInt16ToSizeT
+</li>
+</ul>
+

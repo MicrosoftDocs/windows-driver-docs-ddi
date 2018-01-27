@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8a32fef1-e404-478d-8b99-064ed456e37c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, D3DKMDT_MONITOR_CONNECTIVITY_CHECKS
+ms.keywords: d3dkmdt/D3DKMDT_MCC_UNINITIALIZED, d3dkmdt/D3DKMDT_MCC_ENFORCE, d3dkmdt/D3DKMDT_MCC_IGNORE, d3dkmdt/D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, D3DKMDT_MCC_IGNORE, D3DKMDT_MCC_ENFORCE, display.d3dkmdt_monitor_connectivity_checks, D3DKMDT_MONITOR_CONNECTIVITY_CHECKS enumeration [Display Devices], _D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, D3DKMDT_MCC_UNINITIALIZED, D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, DmEnums_ac54453d-cc4d-4ea7-ad10-943389a837d7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMDT_MONITOR_CONNECTIVITY_CHECKS
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	D3DKMDT_MONITOR_CONNECTIVITY_CHECKS
+product: Windows
+targetos: Windows
 req.typenames: D3DKMDT_MONITOR_CONNECTIVITY_CHECKS
 ---
 
 # _D3DKMDT_MONITOR_CONNECTIVITY_CHECKS enumeration
 
 
-
 ## -description
+
+
 The D3DKMDT_MONITOR_CONNECTIVITY_CHECKS enumerated type indicates whether the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a> function should verify that certain video outputs have connected monitors.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3DKMDT_MONITOR_CONNECTIVITY_CHECKS { 
@@ -55,6 +65,9 @@ typedef enum _D3DKMDT_MONITOR_CONNECTIVITY_CHECKS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DKMDT_MCC_UNINITIALIZED
 
@@ -72,15 +85,16 @@ Indicates that <b>DxgkDdiCommitVidPn</b> must verify that monitors are connected
 
 
 ## -remarks
+
+
 The <b>MonitorConnectivityChecks</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_commitvidpn.md">DXGKARG_COMMITVIDPN</a> structure is a D3DKMDT_MONITOR_CONNECTIVITY_CHECKS value.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a>
-</dt>
-</dl>
+
  
 
  

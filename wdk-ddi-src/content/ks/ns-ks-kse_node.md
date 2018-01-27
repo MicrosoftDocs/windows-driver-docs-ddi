@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 89446165-cdc3-414d-bcce-f2c978d94547
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSE_NODE, *PKSE_NODE, KSE_NODE
+ms.keywords: KSE_NODE structure [Streaming Media Devices], *PKSE_NODE, ks/PKSE_NODE, ks-struct_701a51ab-90d7-47d6-8e40-bd30d0ddd7b9.xml, KSE_NODE, PKSE_NODE, stream.kse_node, PKSE_NODE structure pointer [Streaming Media Devices], ks/KSE_NODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSE_NODE
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSE_NODE
+product: Windows
+targetos: Windows
 req.typenames: *PKSE_NODE, KSE_NODE
 ---
 
 # KSE_NODE structure
 
 
-
 ## -description
+
+
 The KSE_NODE structure specifies an event request on a specific node.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Event
 
@@ -71,15 +84,10 @@ Specifies the node ID.
 Reserved for system use. Should be set to zero.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a>
-</dt>
-</dl>
+
  
 
  

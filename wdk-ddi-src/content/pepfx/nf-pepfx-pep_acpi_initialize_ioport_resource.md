@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E7F9F8EF-3FDC-41D9-BB89-9EB93ED1A504
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_ACPI_INITIALIZE_IOPORT_RESOURCE
+ms.keywords: kernel.pep_acpi_initialize_ioport_resource, PEP_ACPI_INITIALIZE_IOPORT_RESOURCE function [Kernel-Mode Driver Architecture], PEP_ACPI_INITIALIZE_IOPORT_RESOURCE, pepfx/PEP_ACPI_INITIALIZE_IOPORT_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_ACPI_INITIALIZE_IOPORT_RESOURCE
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_ACPI_INITIALIZE_IOPORT_RESOURCE
+product: Windows
+targetos: Windows
 req.typenames: *PPEP_WORK_TYPE, PEP_WORK_TYPE
 ---
 
 # PEP_ACPI_INITIALIZE_IOPORT_RESOURCE function
 
 
-
 ## -description
+
+
 The <b>PEP_ACPI_INITIALIZE_IOPORT_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="..\pepfx\ns-pepfx-_pep_acpi_io_memory_resource.md">PEP_ACPI_IO_MEMORY_RESOURCE</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE VOID PEP_ACPI_INITIALIZE_IOPORT_RESOURCE(
@@ -58,6 +68,9 @@ FORCEINLINE VOID PEP_ACPI_INITIALIZE_IOPORT_RESOURCE(
 
 
 ## -parameters
+
+
+
 
 ### -param Decode [in]
 
@@ -92,18 +105,16 @@ A pointer to the resource. The structure behind the pointer is of type <a href="
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\pepfx\ns-pepfx-_pep_acpi_io_memory_resource.md">PEP_ACPI_IO_MEMORY_RESOURCE</a>
-</dt>
-</dl>
+
  
 
  

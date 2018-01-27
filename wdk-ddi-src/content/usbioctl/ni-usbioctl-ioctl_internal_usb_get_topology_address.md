@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 15a196de-7d6a-408a-97e1-58d6756433db
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_HUB_TYPE, USB_HUB_TYPE
+ms.keywords: buses.ioctl_internal_usb_get_topology_address, IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS control code [Buses], IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS, usbioctl/IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows Vista and later operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS
-req.alt-loc: Usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Usbioctl.h
+apiname: 
+-	IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS
+product: Windows
+targetos: Windows
 req.typenames: USB_HUB_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,53 +47,68 @@ req.product: Windows 10 or later.
 # IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 The <b>IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS</b> 
    I/O request returns information about the host controller the USB device is attached to, and the device's location in the USB device tree.
 
 <b>IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS</b> is a kernel-mode I/O control request. This request targets the USB hub PDO. This request must be sent at an IRQL of DISPATCH_LEVEL or lower.
 
 
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 <b>Parameters.Others.Argument1</b> points to a <a href="..\usbioctl\ns-usbioctl-_usb_topology_address.md">USB_TOPOLOGY_ADDRESS</a> structure to receive the device topology information.
 
 
 ### -input-buffer-length
+
 The size of a <a href="..\usbioctl\ns-usbioctl-_usb_topology_address.md">USB_TOPOLOGY_ADDRESS</a> structure.
 
 
 ### -output-buffer
+
 <b>Parameters.Others.Argument1</b> points to a <a href="..\usbioctl\ns-usbioctl-_usb_topology_address.md">USB_TOPOLOGY_ADDRESS</a> structure containing the device topology information.
 
 
 ### -output-buffer-length
+
 The size of a <a href="..\usbioctl\ns-usbioctl-_usb_topology_address.md">USB_TOPOLOGY_ADDRESS</a> structure.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The hub or port driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS or the appropriate error status.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt><b>USB_TOPOLOGY_ADDRESS</b></dt>
-</dl>
+
+<b>USB_TOPOLOGY_ADDRESS</b>
+
  
 
  

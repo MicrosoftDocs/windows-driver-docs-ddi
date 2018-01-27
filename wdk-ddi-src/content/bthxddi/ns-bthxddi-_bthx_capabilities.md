@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: BEC06C82-E103-4255-ACDD-9FB28E8E2DE5
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTHX_CAPABILITIES, BTHX_CAPABILITIES, *PBTHX_CAPABILITIES
+ms.keywords: PBTHX_CAPABILITIES structure pointer [Bluetooth Devices], _BTHX_CAPABILITIES, bthxddi/BTHX_CAPABILITIES, *PBTHX_CAPABILITIES, BTHX_CAPABILITIES, bltooth.bthx_capabilities, BTHX_CAPABILITIES structure [Bluetooth Devices], PBTHX_CAPABILITIES, bthxddi/PBTHX_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported starting with  Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BTHX_CAPABILITIES
-req.alt-loc: BthXDDI.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: BTHX_CAPABILITIES, *PBTHX_CAPABILITIES
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	BthXDDI.h
+apiname: 
+-	BTHX_CAPABILITIES
+product: Windows
+targetos: Windows
+req.typenames: *PBTHX_CAPABILITIES, BTHX_CAPABILITIES
 ---
 
 # _BTHX_CAPABILITIES structure
 
 
-
 ## -description
+
+
 The BTHX_CAPABILITIES structure describes the capabilities of the Bluetooth Extensible Transport Driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BTHX_CAPABILITIES {
@@ -57,6 +67,9 @@ typedef struct _BTHX_CAPABILITIES {
 
 
 ## -struct-fields
+
+
+
 
 ### -field MaxAclTransferInSize
 
@@ -82,5 +95,3 @@ Whether the device supports idle/sleep power state. TRUE if the device can suppo
 
 Whether the device supports remote wake. TRUE if the device supports waking the system from sleep, else FALSE.
 
-
-## -remarks

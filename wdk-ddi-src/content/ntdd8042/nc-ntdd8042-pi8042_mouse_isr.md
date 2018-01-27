@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 7c8a0dc8-49ec-476f-b183-1baa419e831d
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes
+ms.keywords: hid.pi8042_mouse_isr, MouseIsr callback function [Human Input Devices], MouseIsr, PI8042_MOUSE_ISR, PI8042_MOUSE_ISR, ntdd8042/MouseIsr, i8042ref_f077c4e7-f77b-4f47-a0a7-a7007e4f2475.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MouseIsr
-req.alt-loc: ntdd8042.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-req.typenames: *PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ntdd8042.h
+apiname: 
+-	MouseIsr
+product: Windows
+targetos: Windows
+req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
 ---
 
 # PI8042_MOUSE_ISR callback
 
 
-
 ## -description
+
+
 A PI8042_MOUSE_ISR-typed callback routine customizes the operation of the I8042prt mouse ISR.
 
 
-
 ## -prototype
+
 
 ````
 PI8042_MOUSE_ISR MouseIsr;
@@ -63,6 +73,9 @@ BOOLEAN MouseIsr(
 
 
 ## -parameters
+
+
+
 
 ### -param IsrContext [in]
 
@@ -105,10 +118,15 @@ Pointer to MOUSE_RESET_SUBSTATE enumeration value, which identifies the mouse re
 
 
 ## -returns
+
+
 A PI8042_MOUSE_ISR callback returns <b>TRUE</b> if the I8042prt mouse ISR should continue; otherwise it returns <b>FALSE</b>.
 
 
+
 ## -remarks
+
+
 A PI8042_MOUSE_ISR callback is not needed if the default operation of the I8042prt mouse ISR is sufficient.
 
 An upper-level keyboard filter driver can provide a mouse ISR callback. After the I8042prt mouse ISR validates the interrupt, it calls the mouse ISR callback.
@@ -118,21 +136,17 @@ To reset a mouse, I8042prt goes through a sequence of operational substates, eac
 A PI8042_MOUSE_ISR callback runs in kernel mode at the IRQL of the I8042prt mouse ISR.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542403">MOUSE_INPUT_DATA</a>
-</dt>
-<dt>
+
 <a href="..\ntdd8042\ne-ntdd8042-_mouse_state.md">MOUSE_STATE</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542403">MOUSE_INPUT_DATA</a>
+
 <a href="..\ntdd8042\ns-ntdd8042-_output_packet.md">OUTPUT_PACKET</a>
-</dt>
-</dl>
+
  
 
  

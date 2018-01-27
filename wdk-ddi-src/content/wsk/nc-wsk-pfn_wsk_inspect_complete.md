@@ -7,8 +7,8 @@ old-location: netvista\wskinspectcomplete.htm
 old-project: netvista
 ms.assetid: 31846ec9-0a4b-4e1f-9c14-c1b139f39c55
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO
+ms.date: 1/18/2018
+ms.keywords: netvista.wskinspectcomplete, WskInspectComplete callback function [Network Drivers Starting with Windows Vista], WskInspectComplete, PFN_WSK_INSPECT_COMPLETE, PFN_WSK_INSPECT_COMPLETE, wsk/WskInspectComplete, wskref_af7aebea-0be9-457d-8404-6106b21312ec.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WskInspectComplete
-req.alt-loc: wsk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: *PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	wsk.h
+apiname: 
+-	WskInspectComplete
+product: Windows
+targetos: Windows
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
 # PFN_WSK_INSPECT_COMPLETE callback
 
 
-
 ## -description
+
+
 The 
   <b>WskInspectComplete</b> function completes the inspection of a previously pended incoming connection
   request that was received on a listening socket that has conditional accept mode enabled.
 
 
-
 ## -prototype
+
 
 ````
 PFN_WSK_INSPECT_COMPLETE WskInspectComplete;
@@ -62,6 +72,9 @@ NTSTATUS WSKAPI * WskInspectComplete(
 
 
 ## -parameters
+
+
+
 
 ### -param ListenSocket [in]
 
@@ -90,36 +103,77 @@ A value that specifies whether the WSK application accepts or rejects the incomi
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the resume operation
      asynchronously. For more information about using IRPs with WSK functions, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
-     Kernel Functions</a>.
+     <mshelp:link keywords="netvista.using_irps_with_winsock_kernel_functions" tabindex="0">Using IRPs with Winsock
+     Kernel Functions</mshelp:link>.
 
 
 ## -returns
+
+
 <b>WskInspectComplete</b> returns one of the following NTSTATUS codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The previously pended inspect operation was successfully resumed. The IRP will be completed with
+</dl>
+</td>
+<td width="60%">
+The previously pended inspect operation was successfully resumed. The IRP will be completed with
        success status.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_PENDING</b></dt>
-</dl>The WSK subsystem could not resume the inspect operation immediately. The WSK subsystem will
+</dl>
+</td>
+<td width="60%">
+The WSK subsystem could not resume the inspect operation immediately. The WSK subsystem will
        complete the IRP after it has resumed the inspect operation of the incoming connection request. The
        status of resuming the inspect operation will be returned in the 
        <b>IoStatus.Status</b> field of the IRP.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FILE_FORCED_CLOSED</b></dt>
-</dl>The socket is no longer functional. The IRP will be completed with failure status. The WSK
+</dl>
+</td>
+<td width="60%">
+The socket is no longer functional. The IRP will be completed with failure status. The WSK
        application must call the 
        <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a> function to close the
        socket as soon as possible.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>Other status codes</b></dt>
-</dl>An error occurred. The IRP will be completed with failure status.
+</dl>
+</td>
+<td width="60%">
+An error occurred. The IRP will be completed with failure status.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A WSK application calls the 
     <b>WskInspectComplete</b> function to complete the inspection of an incoming connection request for which
     the application's 
@@ -132,8 +186,8 @@ A WSK application can call the
     WSK application can enable conditional accept mode on a listening socket by enabling the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570829">SO_CONDITIONAL_ACCEPT</a> socket option.
     For more information about conditionally accepting incoming connections, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/listening-for-and-accepting-incoming-connections">Listening for and
-    Accepting Incoming Connections</a>.
+    <mshelp:link keywords="netvista.listening_for_and_accepting_incoming_connections" tabindex="0">Listening for and
+    Accepting Incoming Connections</mshelp:link>.
 
 The WSK subsystem passed a pointer to a 
     <a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a> structure to the WSK
@@ -175,36 +229,28 @@ If the WSK application calls the
     <i>Action</i> parameter.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
-</dt>
-<dt>
-<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
-</dt>
-<dt>
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
-</dt>
-<dt>
-<a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570829">SO_CONDITIONAL_ACCEPT</a>
-</dt>
-<dt>
-<a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a>
-</dt>
-<dt>
+
 <a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
-</dt>
-<dt>
+
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-</dt>
-</dl>
- 
+
+<a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570829">SO_CONDITIONAL_ACCEPT</a>
+
+<a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_INSPECT_COMPLETE callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_INSPECT_COMPLETE callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 51e80cd6-19c1-4e21-b676-662c77840a8b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IsReparseTagNameSurrogate
+ms.keywords: ntifs/IsReparseTagNameSurrogate, ioref_f44ef76c-2211-43a1-b151-a5804c7cd361.xml, IsReparseTagNameSurrogate function [Installable File System Drivers], ifsk.isreparsetagnamesurrogate, IsReparseTagNameSurrogate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IsReparseTagNameSurrogate
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ntifs.h
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	IsReparseTagNameSurrogate
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # IsReparseTagNameSurrogate macro
 
 
-
 ## -description
+
+
 The <b>IsReparseTagNameSurrogate</b> macro determines whether a tag's associated reparse point is a surrogate for another named entity, such as a volume mount point. 
 
 
-
 ## -syntax
+
 
 ````
 ULONG IsReparseTagNameSurrogate(
@@ -54,50 +64,45 @@ ULONG IsReparseTagNameSurrogate(
 
 ## -parameters
 
+
+
+
 ### -param _tag [in]
 
 Reparse point tag to be tested. 
 
 
 ## -remarks
+
+
 If the name surrogate bit is set in the reparse tag, the file or directory represents another named entity in the system, such as a volume mount point. 
 
 For more information about reparse points and volume mount points, see the Microsoft Windows SDK documentation. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545568">FSCTL_SET_REPARSE_POINT</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-isreparsetagmicrosoft.md">IsReparseTagMicrosoft</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_reparse_data_buffer.md">REPARSE_DATA_BUFFER</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_reparse_guid_data_buffer.md">REPARSE_GUID_DATA_BUFFER</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
+
 <a href="..\ntifs\nf-ntifs-zwfscontrolfile.md">ZwFsControlFile</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545568">FSCTL_SET_REPARSE_POINT</a>
+
+<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
+
+<a href="..\ntifs\ns-ntifs-_reparse_guid_data_buffer.md">REPARSE_GUID_DATA_BUFFER</a>
+
+<a href="..\ntifs\nf-ntifs-isreparsetagmicrosoft.md">IsReparseTagMicrosoft</a>
+
+<a href="..\ntifs\ns-ntifs-_reparse_data_buffer.md">REPARSE_DATA_BUFFER</a>
+
  
 
  

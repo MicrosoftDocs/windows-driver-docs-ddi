@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E97C3EA9-2244-458E-BE5E-6312023118A3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlInt8Add
+ms.keywords: kernel.rtlint8add, RtlInt8Add, RtlInt8Add function [Kernel-Mode Driver Architecture], ntintsafe/RtlInt8Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlInt8Add
-req.alt-loc: Ntintsafe.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntintsafe.h
+apiname: 
+-	RtlInt8Add
+product: Windows
+targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
 
 # RtlInt8Add function
 
 
-
 ## -description
+
+
 Adds two values of type <b>INT8</b>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlInt8Add(
@@ -55,6 +65,9 @@ NTSTATUS RtlInt8Add(
 
 
 ## -parameters
+
+
+
 
 ### -param i8Augend [in]
 
@@ -72,4 +85,8 @@ A pointer to the sum. If the operation results in a value that overflows or unde
 
 
 ## -remarks
-This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.</p>
+
+
+This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
+

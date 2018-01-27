@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3DAA2135-768E-4A37-B2FD-9915F16D8A66
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetActivityIdCallbackData
+ms.keywords: FltGetActivityIdCallbackData, ifsk.fltgetactivityidcallbackdata, fltkernel/FltGetActivityIdCallbackData, FltGetActivityIdCallbackData routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with  Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltGetActivityIdCallbackData
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltGetActivityIdCallbackData
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltGetActivityIdCallbackData function
 
 
-
 ## -description
+
+
 The <b>FltGetActivityIdCallbackData</b> routine retrieves the current activity ID associated with a request in a minifilter's callback data.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltGetActivityIdCallbackData(
@@ -54,6 +64,9 @@ NTSTATUS FltGetActivityIdCallbackData(
 
 
 ## -parameters
+
+
+
 
 ### -param CallbackData [in]
 
@@ -66,32 +79,57 @@ A pointer to the GUID structure receiving the activity ID.
 
 
 ## -returns
+
+
 <b>FltGetActivityIdCallbackData</b> returns one of the following <b>NTSTATUS</b> values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>The callback data does not contain a request for an IRP operation.
+</dl>
+</td>
+<td width="60%">
+The callback data does not contain a request for an IRP operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>No activity ID is associated with the request in <i>CallbackData</i>.
+</dl>
+</td>
+<td width="60%">
+No activity ID is associated with the request in <i>CallbackData</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>An activity ID was returned in the <b>GUID</b> value pointed to by <i>Guid</i>.
+</dl>
+</td>
+<td width="60%">
+An activity ID was returned in the <b>GUID</b> value pointed to by <i>Guid</i>.
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltsetactivityidcallbackdata.md">FltSetActivityIdCallbackData</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltpropagateactivityidtothread.md">FltPropagateActivityIdToThread</a>
-</dt>
-</dl>
+
  
 
  

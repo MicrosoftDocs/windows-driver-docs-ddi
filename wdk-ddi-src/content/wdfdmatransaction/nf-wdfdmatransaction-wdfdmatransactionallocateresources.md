@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 69D251D9-1B33-49FD-8D48-EFCBD6640632
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaTransactionAllocateResources
+ms.keywords: wdfdmatransaction/WdfDmaTransactionAllocateResources, PFN_WDFDMATRANSACTIONALLOCATERESOURCES, WdfDmaTransactionAllocateResources method, WdfDmaTransactionAllocateResources, wdf.wdfdmatransactionallocateresources, kmdf.wdfdmatransactionallocateresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.11
 req.umdf-ver: 
-req.alt-api: WdfDmaTransactionAllocateResources
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: DriverCreate
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfDmaTransactionAllocateResources
+product: Windows
+targetos: Windows
 req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,16 +48,17 @@ req.product: Windows 10 or later.
 # WdfDmaTransactionAllocateResources function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 
    The <b>WdfDmaTransactionAllocateResources</b> method reserves a single-packet or system-mode DMA enabler for exclusive (and repeated) use with the specified transaction object. The driver can initialize and initiate the transaction multiple times while holding reserved resources.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS WdfDmaTransactionAllocateResources(
@@ -61,6 +72,9 @@ NTSTATUS WdfDmaTransactionAllocateResources(
 
 
 ## -parameters
+
+
+
 
 ### -param DmaTransaction [in]
 
@@ -88,21 +102,54 @@ A pointer to a buffer containing the context to be provided to the driver's <a h
 
 
 ## -returns
+
+
 <b>WdfDmaTransactionAllocateResources</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method returns one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The <i>DmaDirection</i> parameter contains an invalid value.
+</dl>
+</td>
+<td width="60%">
+The <i>DmaDirection</i> parameter contains an invalid value.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>The number of map register requests exceeds the number assigned to the enabler, or the driver previously called <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetimmediateexecution.md">WdfDmaTransactionSetImmediateExecution</a> and the resources needed for the request are unavailable.
+</dl>
+</td>
+<td width="60%">
+The number of map register requests exceeds the number assigned to the enabler, or the driver previously called <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetimmediateexecution.md">WdfDmaTransactionSetImmediateExecution</a> and the resources needed for the request are unavailable.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>DMA version 3 or later is not enabled, or the driver called this method for a scatter-gather DMA enabler.
+</dl>
+</td>
+<td width="60%">
+DMA version 3 or later is not enabled, or the driver called this method for a scatter-gather DMA enabler.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>WdfDmaTransactionAllocateResources</b> sends a request for map registers to the system DMA engine.  When the request has been fulfilled, the framework calls the driver's <a href="..\wdfdmatransaction\nc-wdfdmatransaction-evt_wdf_reserve_dma.md">EvtReserveDma</a> event callback function. For more information about reserving resources, see <a href="https://msdn.microsoft.com/8C5FF779-8D54-47D9-8EC6-7D4921F8F697">Reserving DMA Resources</a>.
 
 Framework-based drivers typically call <b>WdfDmaTransactionAllocateResources</b> from within an <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-handlers">I/O request handler</a>.  A driver can also call <b>WdfDmaTransactionAllocateResources</b> from its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function, after creating a DMA enabler object.
@@ -112,8 +159,10 @@ Framework-based drivers typically call <b>WdfDmaTransactionAllocateResources</b>
 The driver must create the transaction specified by <i>DmaTransaction</i> prior to calling <b>WdfDmaTransactionAllocateResources</b>. After calling <b>WdfDmaTransactionAllocateResources</b>, the driver initializes and initiates the transaction. The driver can reinitialize and reinitiate the same transaction object multiple times, avoiding the delay that would otherwise occur between transactions as map registers were freed back to the HAL and then reallocated.
 
 A driver could call <b>WdfDmaTransactionAllocateResources</b> in the following situations:
-
-Before calling <b>WdfDmaTransactionAllocateResources</b>, the driver must determine the number of map registers needed for any transaction that it will initiate using this reservation. To do so, the driver can call either the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540562">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a> macro or <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiongettransferinfo.md">WdfDmaTransactionGetTransferInfo</a>.
+<ul>
+<li>The driver receives a set of DMA channels in its <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a> callback function.  In <i>EvtDevicePrepareHardware</i>, the driver initializes a DMA transaction and calls <b>WdfDmaTransactionAllocateResources</b> to reserve the enabler for exclusive use with this transaction. Alternatively, the driver can call <b>WdfDmaTransactionAllocateResources</b> from a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-handlers">request handler</a> and then initiate the transaction multiple times.</li>
+<li>The driver needs to perform a series of transactions on the enabler. The driver reserves the enabler, initializes and initiates multiple transactions using the same transaction object, and then releases the enabler.</li>
+</ul>Before calling <b>WdfDmaTransactionAllocateResources</b>, the driver must determine the number of map registers needed for any transaction that it will initiate using this reservation. To do so, the driver can call either the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540562">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a> macro or <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiongettransferinfo.md">WdfDmaTransactionGetTransferInfo</a>.
 
  When calling <b>WdfDmaTransactionAllocateResources</b>, the driver should not request more map registers than it requested when it created the enabler.
 
@@ -124,27 +173,21 @@ To call <b>WdfDmaTransactionAllocateResources</b> in a non-blocking manner, the 
 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
-</dt>
-<dt>
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionexecute.md">WdfDmaTransactionExecute</a>
-</dt>
-<dt>
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionfreeresources.md">WdfDmaTransactionFreeResources</a>
-</dt>
-<dt>
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
-</dt>
-<dt>
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
-</dt>
-<dt>
+
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetimmediateexecution.md">WdfDmaTransactionSetImmediateExecution</a>
-</dt>
-</dl>
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionexecute.md">WdfDmaTransactionExecute</a>
+
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionfreeresources.md">WdfDmaTransactionFreeResources</a>
+
  
 
  

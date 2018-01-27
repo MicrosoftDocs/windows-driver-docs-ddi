@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8a9c335a-1c5f-4379-83bb-21391ae46a3c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DISK_INT13_INFO, *PDISK_INT13_INFO, DISK_INT13_INFO
+ms.keywords: DISK_INT13_INFO, ntdddisk/DISK_INT13_INFO, ntdddisk/PDISK_INT13_INFO, PDISK_INT13_INFO, DISK_INT13_INFO structure [Storage Devices], PDISK_INT13_INFO structure pointer [Storage Devices], _DISK_INT13_INFO, *PDISK_INT13_INFO, storage.disk_int13_info, structs-disk_fc6ee399-d876-44e3-955a-3ab95c1b5134.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DISK_INT13_INFO
-req.alt-loc: ntdddisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntdddisk.h
+apiname: 
+-	DISK_INT13_INFO
+product: Windows
+targetos: Windows
 req.typenames: *PDISK_INT13_INFO, DISK_INT13_INFO
 ---
 
 # _DISK_INT13_INFO structure
 
 
-
 ## -description
+
+
 The DISK_INT13_INFO structure is used by the BIOS to report disk detection data for a partition with an INT13 format.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DISK_INT13_INFO {
@@ -57,6 +67,9 @@ typedef struct _DISK_INT13_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DriveSelect
 
@@ -83,18 +96,12 @@ Indicates the maximum number of disk heads.
 Indicates the number of drives. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntdddisk\ns-ntdddisk-_disk_detection_info.md">DISK_DETECTION_INFO</a>
-</dt>
-<dt>
+
 <a href="..\ntdddisk\ns-ntdddisk-_disk_ex_int13_info.md">DISK_EX_INT13_INFO</a>
-</dt>
-</dl>
+
+<a href="..\ntdddisk\ns-ntdddisk-_disk_detection_info.md">DISK_DETECTION_INFO</a>
+
  
 
  

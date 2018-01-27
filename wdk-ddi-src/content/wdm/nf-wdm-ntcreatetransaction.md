@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b4c2dd68-3c1a-46d3-ab9c-be2291ed80f4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtCreateTransaction
+ms.keywords: ZwCreateTransaction routine [Kernel-Mode Driver Architecture], NtCreateTransaction, kernel.zwcreatetransaction, ZwCreateTransaction, wdm/NtCreateTransaction, ktm_ref_8f89322d-b0ef-4711-9f1a-5e83b44e3740.xml, wdm/ZwCreateTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later operating system
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwCreateTransaction,NtCreateTransaction
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ZwCreateTransaction
+-	NtCreateTransaction
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # NtCreateTransaction function
 
 
-
 ## -description
+
+
 The <b>ZwCreateTransaction</b> routine creates a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ZwCreateTransaction(
@@ -64,6 +75,9 @@ NTSTATUS ZwCreateTransaction(
 
 ## -parameters
 
+
+
+
 ### -param TransactionHandle [out]
 
 A pointer to a caller-allocated variable that receives a handle to the new transaction object, if the call to <b>ZwCreateTransaction</b> succeeds.
@@ -72,7 +86,6 @@ A pointer to a caller-allocated variable that receives a handle to the new trans
 ### -param DesiredAccess [in]
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that specifies the caller's requested access to the transaction object. In addition to the access rights that are defined for all kinds of objects (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>), the caller can specify any of the following flags for transaction objects.
-
 <table>
 <tr>
 <th>Access mask</th>
@@ -138,11 +151,9 @@ Set information for the transaction (see <a href="..\wdm\nf-wdm-zwsetinformation
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 Alternatively, you can specify one or more of the following ACCESS_MASK bitmaps. These bitmaps combine the flags from the previous table with the STANDARD_RIGHTS_<i>XXX</i> flags that are described on the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> reference page. You can also combine these bitmaps with additional flags from the preceding table. The following table shows how the bitmaps correspond to specific access rights.
-
 <table>
 <tr>
 <th>Rights bitmap</th>
@@ -198,8 +209,7 @@ STANDARD_RIGHTS_WRITE, TRANSACTION_GENERIC_READ, TRANSACTION_SET_INFORMATION, TR
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 Typically, a resource manager specifies TRANSACTION_RESOURCE_MANAGER_RIGHTS.
 
@@ -224,7 +234,6 @@ A handle to a <a href="https://msdn.microsoft.com/af53cda4-e2ab-47df-9311-a4da2a
 ### -param CreateOptions [in, optional]
 
 Optional object creation flags. The following table contains the available flags, which are defined in Ktmtypes.h.
-
 <table>
 <tr>
 <th>Option flag</th>
@@ -240,8 +249,7 @@ Reserved for future use.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param IsolationLevel [in, optional]
@@ -265,35 +273,100 @@ A pointer to a caller-supplied <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md
 
 
 ## -returns
+
+
 <b>ZwCreateTransaction</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The <i>CreateOptions</i> parameter contains an invalid flag, the <i>DesiredAccess</i> parameter is zero, or the <i>Description</i> parameter's string is too long.
+</dl>
+</td>
+<td width="60%">
+The <i>CreateOptions</i> parameter contains an invalid flag, the <i>DesiredAccess</i> parameter is zero, or the <i>Description</i> parameter's string is too long.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>KTM could not allocate system resources (typically memory).
+</dl>
+</td>
+<td width="60%">
+KTM could not allocate system resources (typically memory).
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_ACL</b></dt>
-</dl>A security descriptor contains an invalid access control list (ACL).
+</dl>
+</td>
+<td width="60%">
+A security descriptor contains an invalid access control list (ACL).
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_SID</b></dt>
-</dl>A security descriptor contains an invalid security identifier (SID).
+</dl>
+</td>
+<td width="60%">
+A security descriptor contains an invalid security identifier (SID).
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_NAME_EXISTS</b></dt>
-</dl>The object name that the <i>ObjectAttributes</i> parameter specifies already exists.
+</dl>
+</td>
+<td width="60%">
+The object name that the <i>ObjectAttributes</i> parameter specifies already exists.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_NAME_INVALID</b></dt>
-</dl>The object name that the <i>ObjectAttributes</i> parameter specifies is invalid.
+</dl>
+</td>
+<td width="60%">
+The object name that the <i>ObjectAttributes</i> parameter specifies is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>The value of the <i>DesiredAccess</i> parameter is invalid.
+</dl>
+</td>
+<td width="60%">
+The value of the <i>DesiredAccess</i> parameter is invalid.
 
- 
+</td>
+</tr>
+</table> 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
+
 ## -remarks
+
+
 The caller can use the <i>Uow</i> parameter to specify a UOW identifier for the transaction object. If the caller does not specify a UOW identifier, KTM generates a GUID and assigns it to the transaction object. The caller can later obtain this GUID by calling <a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>.
 
 Typically, you should let KTM generate a GUID for the transaction object, unless your component communicates with another TPS component that has already generated a UOW identifier for the transaction.
@@ -305,51 +378,37 @@ For more information about how transaction clients should use <b>ZwCreateTransac
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwrollbacktransaction.md">ZwRollbackTransaction</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwsetinformationtransaction.md">ZwSetInformationTransaction</a>
-</dt>
-</dl>
+
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
+
+<a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>
+
+<a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+
  
 
  

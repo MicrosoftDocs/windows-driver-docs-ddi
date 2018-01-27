@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fb85aa34-5983-405b-85d3-7ebc4be49c51
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetDiskDeviceObject
+ms.keywords: FltGetDiskDeviceObject, ifsk.fltgetdiskdeviceobject, FltApiRef_e_to_o_830212f4-ac53-41e1-8f66-48673bdaf9e2.xml, fltkernel/FltGetDiskDeviceObject, FltGetDiskDeviceObject routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltGetDiskDeviceObject
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltGetDiskDeviceObject
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltGetDiskDeviceObject function
 
 
-
 ## -description
+
+
 The <b>FltGetDiskDeviceObject</b> routine returns a pointer to the disk device object associated with a given volume. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltGetDiskDeviceObject(
@@ -54,6 +64,9 @@ NTSTATUS FltGetDiskDeviceObject(
 
 
 ## -parameters
+
+
+
 
 ### -param Volume [in]
 
@@ -66,15 +79,32 @@ Pointer to a caller-allocated variable that receives the device object pointer. 
 
 
 ## -returns
+
+
 <b>FltGetDiskDeviceObject</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FLT_NO_DEVICE_OBJECT</b></dt>
-</dl>The requested device object does not exist for the given volume. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+The requested device object does not exist for the given volume. This is an error code. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>FltGetDiskDeviceObject</b> retrieves a pointer to the storage device object for the physical disk where the volume resides. The storage device need not be an actual disk. 
 
 <b>FltGetDiskDeviceObject</b> increments the reference count on the device object pointer returned in *<i>DiskDeviceObject</i>. When this pointer is no longer needed, the caller must decrement this reference count by calling <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>. Failure to do so prevents the system from freeing or deleting the device object because of the outstanding reference. Thus every successful call to <b>FltGetDiskDeviceObject</b> must be matched by a subsequent call to <b>ObDereferenceObject</b>. 
@@ -88,18 +118,15 @@ To get an opaque volume pointer for the volume represented by a volume device ob
 For more information about volume device objects, see <a href="https://msdn.microsoft.com/67839ffb-fe38-42c2-8f33-89d01d796d8a">File System Stacks</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetdeviceobject.md">FltGetDeviceObject</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromdeviceobject.md">FltGetVolumeFromDeviceObject</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetdeviceobject.md">FltGetDeviceObject</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromdeviceobject.md">FltGetVolumeFromDeviceObject</a>
+
  
 
  

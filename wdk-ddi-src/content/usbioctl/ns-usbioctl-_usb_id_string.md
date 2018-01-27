@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: e7af07ed-f1a7-4f66-8824-2e12492d037a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_ID_STRING, *PUSB_ID_STRING, USB_ID_STRING
+ms.keywords: USB_ID_STRING, usbioctl/USB_ID_STRING, USB_ID_STRING structure [Buses], _USB_ID_STRING, *PUSB_ID_STRING, buses.usb_id_string, PUSB_ID_STRING, PUSB_ID_STRING structure pointer [Buses], usbioctl/PUSB_ID_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later operating system
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_ID_STRING
-req.alt-loc: usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbioctl.h
+apiname: 
+-	USB_ID_STRING
+product: Windows
+targetos: Windows
 req.typenames: *PUSB_ID_STRING, USB_ID_STRING
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USB_ID_STRING structure
 
 
-
 ## -description
+
+
 The <b>USB_ID_STRING</b> structure is used to store a string or multi-string.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USB_ID_STRING {
@@ -57,9 +67,17 @@ typedef struct _USB_ID_STRING {
 
 ## -struct-fields
 
+
+
+
 ### -field LanguageId
 
 Indicates that language ID of the string.
+
+
+### -field Pad
+
+ 
 
 
 ### -field LengthInBytes
@@ -73,15 +91,16 @@ Pointer to a string or multi-string.
 
 
 ## -remarks
+
+
 The reserved members of this structure must be treated as opaque and are reserved for system use.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
  
 
  

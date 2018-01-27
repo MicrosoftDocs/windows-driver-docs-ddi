@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 32687aa7-4e14-40cb-baa3-4a97d834bf86
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlAnsiStringToUnicodeSize
+ms.keywords: kernel.rtlansistringtounicodesize, RtlAnsiStringToUnicodeSize routine [Kernel-Mode Driver Architecture], k109_90cc45c4-2e5b-4f11-823d-5dbc52017e15.xml, RtlAnsiStringToUnicodeSize, wdm/RtlAnsiStringToUnicodeSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlAnsiStringToUnicodeSize
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlAnsiStringToUnicodeSize
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RtlAnsiStringToUnicodeSize macro
 
 
-
 ## -description
+
+
 The <b>RtlAnsiStringToUnicodeSize</b> routine returns the number of bytes required to hold an ANSI string converted into a Unicode string. 
 
 
-
 ## -syntax
+
 
 ````
 ULONG RtlAnsiStringToUnicodeSize(
@@ -55,24 +65,34 @@ ULONG RtlAnsiStringToUnicodeSize(
 
 ## -parameters
 
-### -param AnsiString [in]
+
+
+
+### -param STRING
+
+TBD
+
+
+
+
+#### - AnsiString [in]
 
 Pointer to a buffer containing the ANSI string. 
 
 
 ## -remarks
-Callers of <b>RtlAnsiStringToUnicodeSize</b> must be running at IRQL = PASSIVE_LEVEL.
+
+
+<div class="alert"><b>Note</b>  Casting the return value of the <b>RtlAnsiStringToUnicodeSize</b> routine to USHORT might cause a loss of data. To avoid potential problems, callers of this routine should test the return value for arithmetic overflow. Note that <b>RtlAnsiStringToUnicodeSize</b> accounts for the trailing <b>NULL</b>.</div><div> </div>Callers of <b>RtlAnsiStringToUnicodeSize</b> must be running at IRQL = PASSIVE_LEVEL.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-rtlansistringtounicodestring.md">RtlAnsiStringToUnicodeString</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlxansistringtounicodesize.md">RtlxAnsiStringToUnicodeSize</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-rtlansistringtounicodestring.md">RtlAnsiStringToUnicodeString</a>
+
  
 
  

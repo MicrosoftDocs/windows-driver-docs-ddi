@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6335705d-a900-456a-a882-f7f11bb485af
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ScsiReportLuns_OUT, ScsiReportLuns_OUT, *PScsiReportLuns_OUT
+ms.keywords: _ScsiReportLuns_OUT, *PScsiReportLuns_OUT, iscsiop/ScsiReportLuns_OUT, storage.scsireportluns_out, ScsiReportLuns_OUT, ScsiReportLuns_OUT structure [Storage Devices], PScsiReportLuns_OUT structure pointer [Storage Devices], structs-iSCSI_8f759a2a-f588-48c7-a777-1a0a7eb6604b.xml, iscsiop/PScsiReportLuns_OUT, PScsiReportLuns_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ScsiReportLuns_OUT
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	ScsiReportLuns_OUT
+product: Windows
+targetos: Windows
 req.typenames: ScsiReportLuns_OUT, *PScsiReportLuns_OUT
 ---
 
 # _ScsiReportLuns_OUT structure
 
 
-
 ## -description
+
+
 The ScsiReportLuns_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a> method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ScsiReportLuns_OUT {
@@ -57,6 +67,9 @@ typedef struct _ScsiReportLuns_OUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Status
 
@@ -84,27 +97,24 @@ A buffer that holds the response data that the SCSI REPORT LUNS command received
 
 
 ## -remarks
+
+
 You must implement this method.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
-</dt>
-<dt>
-<a href="..\hbapiwmi\ns-hbapiwmi-_scsireportluns_in.md">ScsiReportLuns_IN</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+<a href="..\iscsiop\ns-iscsiop-_scsireportluns_in.md">ScsiReportLuns_IN</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
  
 
  

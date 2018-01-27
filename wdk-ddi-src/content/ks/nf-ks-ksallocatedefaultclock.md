@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5ba14903-1519-4edd-bc3c-a05cb040652d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAllocateDefaultClock
+ms.keywords: KsAllocateDefaultClock function [Streaming Media Devices], ksfunc_448f966b-08aa-4ac5-92db-36d923275754.xml, ks/KsAllocateDefaultClock, stream.ksallocatedefaultclock, KsAllocateDefaultClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsAllocateDefaultClock
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsAllocateDefaultClock
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsAllocateDefaultClock function
 
 
-
 ## -description
+
+
 The <b>KsAllocateDefaultClock</b> function allocates and initializes the default clock structure.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsAllocateDefaultClock(
@@ -54,30 +65,36 @@ NTSTATUS KsAllocateDefaultClock(
 
 ## -parameters
 
+
+
+
 ### -param DefaultClock [out]
 
 Specifies the caller-allocated shared default clock structure. The current time is set to zero and the state is set to KSSTATE_STOP. Upon successful completion of this routine, the structure indicated by this pointer will contain a reference to the default clock. The data returned should be treated as opaque and reserved for system use.
 
 
 ## -returns
+
+
 The <b>KsAllocateDefaultClock</b> function returns STATUS_SUCCESS if successful, or a memory error if unsuccessful.
 
 
+
 ## -remarks
+
+
 The internal DefaultClock.ReferenceCount element is initialized to one by the <b>KsAllocateDefaultClock</b> function. The element is incremented and decremented as each notification DPC is queued and completed. When the structure is to be freed, the element is used to determine if the owner of the clock should free the structure or if a pending DPC should free it asynchronously.
 
 When the clock is no longer needed, the driver must call <a href="..\ks\nf-ks-ksfreedefaultclock.md">KsFreeDefaultClock</a> to release any resources allocated for use with the clock.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ksfreedefaultclock.md">KsFreeDefaultClock</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
-</dt>
-</dl>
+
  
 
  

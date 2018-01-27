@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aac658d9-b90a-4724-9dc4-af3a561f64bd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VIDEO_MODE_INFORMATION, VIDEO_MODE_INFORMATION, *PVIDEO_MODE_INFORMATION
+ms.keywords: VIDEO_MODE_INFORMATION, *PVIDEO_MODE_INFORMATION, ntddvdeo/PVIDEO_MODE_INFORMATION, VIDEO_MODE_INFORMATION structure [Display Devices], PVIDEO_MODE_INFORMATION, Video_Structs_76f182b8-be55-42d0-948f-29e05e956895.xml, PVIDEO_MODE_INFORMATION structure pointer [Display Devices], _VIDEO_MODE_INFORMATION, display.video_mode_information, ntddvdeo/VIDEO_MODE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VIDEO_MODE_INFORMATION
-req.alt-loc: ntddvdeo.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddvdeo.h
+apiname: 
+-	VIDEO_MODE_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_MODE_INFORMATION, *PVIDEO_MODE_INFORMATION
 ---
 
 # _VIDEO_MODE_INFORMATION structure
 
 
-
 ## -description
+
+
 The VIDEO_MODE_INFORMATION structure contains all of the information about one mode of a video adapter.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _VIDEO_MODE_INFORMATION {
@@ -72,6 +82,9 @@ typedef struct _VIDEO_MODE_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Length
 
@@ -156,7 +169,6 @@ Is the blue color mask for a device with direct color modes. For example, to ind
 ### -field AttributeFlags
 
 Is a set of flags indicating certain behavior for the device. The flags and their meanings are shown in the following table.
-
 <table>
 <tr>
 <th>Flag Name</th>
@@ -179,10 +191,10 @@ VIDEO_MODE_COLOR
 </td>
 <td>
 
-
-### -field 0 = Mono-compatible
-### -field 1 = Color
-
+<dl>
+<dt>0 = Mono-compatible</dt>
+<dt>1 = Color</dt>
+</dl>
 
 
 </td>
@@ -202,10 +214,10 @@ VIDEO_MODE_GRAPHICS
 </td>
 <td>
 
-
-### -field 0 = Text mode
-### -field 1 = Graphics
-
+<dl>
+<dt>0 = Text mode</dt>
+<dt>1 = Graphics</dt>
+</dl>
 
 
 </td>
@@ -225,10 +237,10 @@ VIDEO_MODE_PALETTE_DRIVEN
 </td>
 <td>
 
-
-### -field 0 = Colors are direct
-### -field 1 = Colors are indexed to a palette
-
+<dl>
+<dt>0 = Colors are direct</dt>
+<dt>1 = Colors are indexed to a <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">palette</a></dt>
+</dl>
 
 
 </td>
@@ -248,10 +260,10 @@ VIDEO_MODE_MANAGED_PALETTE
 </td>
 <td>
 
-
-### -field 0 = Palette is fixed (must be queried from miniport driver)
-### -field 1 = Palette is settable
-
+<dl>
+<dt>0 = Palette is fixed (must be queried from miniport driver)</dt>
+<dt>1 = Palette is settable</dt>
+</dl>
 
 
 </td>
@@ -271,10 +283,10 @@ VIDEO_MODE_INTERLACED
 </td>
 <td>
 
-
-### -field 0 = Non-interlaced mode
-### -field 1 = Interlaced mode
-
+<dl>
+<dt>0 = Non-interlaced mode</dt>
+<dt>1 = Interlaced mode</dt>
+</dl>
 
 
 </td>
@@ -294,10 +306,10 @@ VIDEO_MODE_NO_OFF_SCREEN
 </td>
 <td>
 
-
-### -field 0 = Offscreen memory is available
-### -field 1 = Offscreen memory cannot be used to store information
-
+<dl>
+<dt>0 = Offscreen memory is available</dt>
+<dt>1 = Offscreen memory cannot be used to store information</dt>
+</dl>
 
 
 </td>
@@ -317,16 +329,15 @@ VIDEO_MODE_NO_64_BIT_ACCESS
 </td>
 <td>
 
-
-### -field 0 = 64-bit memory writes to frame buffer are handled properly
-### -field 1 = 64-bit memory writes to frame buffer are not handled
-
+<dl>
+<dt>0 = 64-bit memory writes to <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">frame buffer</a> are handled properly</dt>
+<dt>1 = 64-bit memory writes to frame buffer are not handled</dt>
+</dl>
 
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field VideoMemoryBitmapWidth
@@ -345,6 +356,8 @@ Is a set of flags indicating certain behavior for the device. These private flag
 
 
 ## -remarks
+
+
 The video miniport driver returns an array of VIDEO_MODE_INFORMATION structures in response to an <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_avail_modes.md">IOCTL_VIDEO_QUERY_AVAIL_MODES</a> request, with each structure containing information about one mode of the adapter. The miniport driver returns one VIDEO_MODE_INFORMATION structure that contains information about the adapter's current mode in response to an <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_current_mode.md">IOCTL_VIDEO_QUERY_CURRENT_MODE</a> request.
 
 
@@ -362,18 +375,15 @@ The video miniport driver returns an array of VIDEO_MODE_INFORMATION structures 
 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_avail_modes.md">IOCTL_VIDEO_QUERY_AVAIL_MODES</a>
-</dt>
-<dt>
+
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_current_mode.md">IOCTL_VIDEO_QUERY_CURRENT_MODE</a>
-</dt>
-</dl>
+
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_avail_modes.md">IOCTL_VIDEO_QUERY_AVAIL_MODES</a>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: print\colordatatype.htm
 old-project: print
 ms.assetid: ff7c9a81-3445-4a9e-aee3-2c63aafb0c82
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: COLORDATATYPE, COLORDATATYPE, *PCOLORDATATYPE
+ms.date: 1/18/2018
+ms.keywords: *PCOLORDATATYPE, COLOR_WORD, COLOR_FLOAT, COLOR_BYTE, COLOR_10b_R10G10B10A2, icm/COLOR_10b_R10G10B10A2_XR, COLOR_FLOAT16, icm/COLORDATATYPE, icm/COLOR_WORD, icm/COLOR_BYTE, COLORDATATYPE, icm/COLOR_FLOAT, COLOR_S2DOT13FIXED, print.colordatatype, icm/COLOR_S2DOT13FIXED, icm/COLOR_10b_R10G10B10A2, colorfnc_6619f1aa-d905-47ef-bd39-2fe34446e831.xml, COLOR_10b_R10G10B10A2_XR, COLORDATATYPE enumeration [Print Devices], icm/COLOR_FLOAT16
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Included in Windows Vista and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: COLORDATATYPE
-req.alt-loc: icm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	icm.h
+apiname: 
+-	COLORDATATYPE
+product: Windows
+targetos: Windows
 req.typenames: COLORDATATYPE
 ---
 
 # COLORDATATYPE enumeration
 
 
-
 ## -description
+
+
 The values of the COLORDATATYPE enumeration are used by WCS functions to indicate the data type of vector content.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -59,6 +69,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field COLOR_BYTE
 
@@ -96,4 +109,17 @@ FLOAT16 per channel.
 
 
 ## -remarks
-The PCOLORDATATYPE and LPCOLORDATATYPE data types are defined as pointers to this enumeration:</p>
+
+
+The PCOLORDATATYPE and LPCOLORDATATYPE data types are defined as pointers to this enumeration:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef COLORDATATYPE *PCOLORDATATYPE, *LPCOLORDATATYPE;</pre>
+</td>
+</tr>
+</table></span></div>
+

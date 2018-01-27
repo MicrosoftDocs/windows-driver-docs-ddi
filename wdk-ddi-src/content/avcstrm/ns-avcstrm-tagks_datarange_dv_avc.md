@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92759ba0-79f1-4dec-aea5-62c24253c6f0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_DATARANGE_DV_AVC, *PKS_DATARANGE_DV_AVC, KS_DATARANGE_DV_AVC
+ms.keywords: KS_DATARANGE_DV_AVC structure [Streaming Media Devices], avcsref_e5ebf0ed-91f2-415a-a6b1-346cfebf16b5.xml, tagKS_DATARANGE_DV_AVC, *PKS_DATARANGE_DV_AVC, stream.ks_datarange_dv_avc, avcstrm/KS_DATARANGE_DV_AVC, PKS_DATARANGE_DV_AVC, avcstrm/PKS_DATARANGE_DV_AVC, KS_DATARANGE_DV_AVC, PKS_DATARANGE_DV_AVC structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_DATARANGE_DV_AVC
-req.alt-loc: avcstrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	avcstrm.h
+apiname: 
+-	KS_DATARANGE_DV_AVC
+product: Windows
+targetos: Windows
 req.typenames: *PKS_DATARANGE_DV_AVC, KS_DATARANGE_DV_AVC
 ---
 
 # tagKS_DATARANGE_DV_AVC structure
 
 
-
 ## -description
+
+
 The KS_DATARANGE_DV_AVC structure stores a range of AV/C digital video formats.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagKS_DATARANGE_DV_AVC {
@@ -55,6 +65,9 @@ typedef struct tagKS_DATARANGE_DV_AVC {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DataRange
 
@@ -71,21 +84,14 @@ Specifies the digital video information, for example, sound tracks and video inf
 Specifies the AV/C preconnection info.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
-</dt>
-<dt>
+
 <a href="..\avcstrm\ns-avcstrm-_dvinfo.md">DVINFO</a>
-</dt>
-<dt>
+
 <a href="..\avc\ns-avc-_avcpreconnectinfo.md">AVCPRECONNECTINFO</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
  
 
  

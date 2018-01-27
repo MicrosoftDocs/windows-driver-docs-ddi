@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 31935433-6fa4-4d1a-9ad4-879353102e71
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_DEVICEEXECUTION_STATE, D3DKMT_DEVICEEXECUTION_STATE
+ms.keywords: D3DKMT_DEVICEEXECUTION_RESET, d3dkmthk/D3DKMT_DEVICEEXECUTION_STATE, display.d3dkmt_deviceexecution_state, d3dkmthk/D3DKMT_DEVICEEXECUTION_ERROR_OUTOFMEMORY, d3dkmthk/, d3dkmthk/D3DKMT_DEVICEEXECUTION_ERROR_DMAPAGEFAULT, D3DKMT_DEVICEEXECUTION_HUNG, OpenGL_Structs_35637d1a-f40f-49f5-b774-777e02f22b68.xml, D3DKMT_DEVICEEXECUTION_STOPPED, D3DKMT_DEVICEEXECUTION_STATE, d3dkmthk/D3DKMT_DEVICEEXECUTION_STOPPED, _D3DKMT_DEVICEEXECUTION_STATE, d3dkmthk/D3DKMT_DEVICEEXECUTION_RESET, d3dkmthk/D3DKMT_DEVICEEXECUTION_ERROR_DMAFAULT, D3DKMT_DEVICEEXECUTION_ACTIVE, D3DKMT_DEVICEEXECUTION_STATE enumeration [Display Devices], d3dkmthk/D3DKMT_DEVICEEXECUTION_ACTIVE, d3dkmthk/D3DKMT_DEVICEEXECUTION_HUNG, D3DKMT_DEVICEEXECUTION_ERROR_DMAPAGEFAULT, D3DKMT_DEVICEEXECUTION_ERROR_DMAFAULT, D3DKMT_DEVICEEXECUTION_ERROR_OUTOFMEMORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_DEVICEEXECUTION_STATE
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_DEVICEEXECUTION_STATE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DEVICEEXECUTION_STATE
 ---
 
 # _D3DKMT_DEVICEEXECUTION_STATE enumeration
 
 
-
 ## -description
+
+
 The <b>D3DKMT_DEVICEEXECUTION_STATE</b> enumeration type contains values that indicate the execution status for a device.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3DKMT_DEVICEEXECUTION_STATE { 
@@ -62,6 +72,9 @@ typedef enum _D3DKMT_DEVICEEXECUTION_STATE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DKMT_DEVICEEXECUTION_ACTIVE
 
@@ -100,18 +113,13 @@ The display miniport driver reported a fault while processing a DMA buffer for t
 The display miniport driver reported a page fault while processing a DMA buffer for the device. The device is unable to continue.
 
 
-### -field 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdevicestate.md">D3DKMT_GETDEVICESTATE</a>
-</dt>
-</dl>
+
  
 
  

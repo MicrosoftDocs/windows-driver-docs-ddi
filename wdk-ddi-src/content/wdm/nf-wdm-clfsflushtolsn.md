@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fb7d97d2-8c02-44c8-8cf5-e9c3b3b718bb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsFlushToLsn
+ms.keywords: ClfsFlushToLsn, kernel.clfsflushtolsn, wdm/ClfsFlushToLsn, Clfs_80676b51-aa14-42bf-92ae-d11cf0a694b5.xml, ClfsFlushToLsn routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ClfsFlushToLsn
-req.alt-loc: Clfs.sys,Ext-MS-Win-fs-clfs-l1-1-0.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Clfs.sys
+-	Ext-MS-Win-fs-clfs-l1-1-0.dll
+apiname: 
+-	ClfsFlushToLsn
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ClfsFlushToLsn function
 
 
-
 ## -description
+
+
 The <b>ClfsFlushToLsn</b> routine forces, to stable storage, all records that have an LSN less than or equal to a specified LSN.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ClfsFlushToLsn(
@@ -56,6 +67,9 @@ NTSTATUS ClfsFlushToLsn(
 
 
 ## -parameters
+
+
+
 
 ### -param pvMarshalContext [in]
 
@@ -70,24 +84,26 @@ A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure. All r
 ### -param plsnLastFlushed [out, optional]
 
 A pointer to a <b>CLFS_LSN</b> structure that receives the LSN of the oldest record that was not flushed. This is the LSN of the record immediately following the last record flushed. 
-
-<div class="alert"><b>Note</b>    On successful return, <i>plsnLastFlushed</i> is greater than the value supplied in <i>plsnFlush</i>. However, <i>plsnLastFlushed</i> does not necessarily point to a record in the stream. For example, if all records in the stream were flushed, <i>plsnLastFlushed</i> is the LSN that will be assigned to the next record written to the stream.</div>
-<div> </div>
+<div class="alert"><b>Note</b>    On successful return, <i>plsnLastFlushed</i> is greater than the value supplied in <i>plsnFlush</i>. However, <i>plsnLastFlushed</i> does not necessarily point to a record in the stream. For example, if all records in the stream were flushed, <i>plsnLastFlushed</i> is the LSN that will be assigned to the next record written to the stream.</div><div> </div>
 
 ## -returns
+
+
 <b>ClfsFlushToLsn</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
+
 ## -remarks
+
+
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-clfsflushbuffers.md">ClfsFlushBuffers</a>
-</dt>
-</dl>
+
  
 
  

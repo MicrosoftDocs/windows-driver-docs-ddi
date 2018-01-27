@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 23482cdc-6412-4309-805e-a439d8e81b59
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVADDI_SAMPLEFORMAT, DXVADDI_SAMPLEFORMAT
+ms.keywords: d3dumddi/DXVADDI_SampleProgressiveFrame, DXVADDI_SampleSubStream, _DXVADDI_SAMPLEFORMAT, d3dumddi/DXVADDI_SampleFormatMask, DXVADDI_SampleFieldSingleEven, d3dumddi/DXVADDI_SampleFieldInterleavedOddFirst, DXVADDI_SampleUnknown, d3dumddi/DXVADDI_SampleFieldInterleavedEvenFirst, DXVADDI_SampleFormatMask, DXVA2_Structs_70e0302d-16a1-4a48-8f51-943873c20997.xml, DXVADDI_SAMPLEFORMAT enumeration [Display Devices], d3dumddi/DXVADDI_SAMPLEFORMAT, d3dumddi/DXVADDI_SampleUnknown, d3dumddi/DXVADDI_SampleFieldSingleEven, DXVADDI_SampleFieldInterleavedOddFirst, DXVADDI_SampleProgressiveFrame, display.dxvaddi_sampleformat, d3dumddi/DXVADDI_SampleSubStream, d3dumddi/DXVADDI_SampleFieldSingleOdd, DXVADDI_SampleFieldSingleOdd, DXVADDI_SampleFieldInterleavedEvenFirst, DXVADDI_SAMPLEFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVADDI_SAMPLEFORMAT
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVADDI_SAMPLEFORMAT
+product: Windows
+targetos: Windows
 req.typenames: DXVADDI_SAMPLEFORMAT
 ---
 
 # _DXVADDI_SAMPLEFORMAT enumeration
 
 
-
 ## -description
+
+
 The DXVADDI_SAMPLEFORMAT enumeration type contains values that identify how a video frame is sampled.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXVADDI_SAMPLEFORMAT { 
@@ -60,6 +70,9 @@ typedef enum _DXVADDI_SAMPLEFORMAT {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXVADDI_SampleFormatMask
 
@@ -102,15 +115,16 @@ The sample contains a video substream.
 
 
 ## -remarks
+
+
 One of the values of DXVADDI_SAMPLEFORMAT can be specified in the <b>SampleFormat</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
-</dt>
-</dl>
+
  
 
  

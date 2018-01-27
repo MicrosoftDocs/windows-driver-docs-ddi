@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 337C9FFE-F97A-4F0F-9567-D1FF532FE165
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UDECX_USB_DEVICE_SPEED, *PUDECX_USB_DEVICE_SPEED, UDECX_USB_DEVICE_SPEED
+ms.keywords: UdecxUsbLowSpeed, UdecxUsbHighSpeed, buses.udecx_usb_device_speed, UDECX_USB_DEVICE_SPEED enumeration [Buses], udecxusbdevice/UdecxUsbFullSpeed, udecxusbdevice/UdecxUsbHighSpeed, udecxusbdevice/UDECX_USB_DEVICE_SPEED, UdecxUsbSuperSpeed, udecxusbdevice/UdecxUsbLowSpeed, _UDECX_USB_DEVICE_SPEED, udecxusbdevice/UdecxUsbSuperSpeed, UdecxUsbFullSpeed, UDECX_USB_DEVICE_SPEED, *PUDECX_USB_DEVICE_SPEED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UDECX_USB_DEVICE_SPEED
-req.alt-loc: UdecxUsbDevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-req.typenames: *PUDECX_USB_DEVICE_SPEED, UDECX_USB_DEVICE_SPEED
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	UdecxUsbDevice.h
+apiname: 
+-	UDECX_USB_DEVICE_SPEED
+product: Windows
+targetos: Windows
+req.typenames: UDECX_USB_DEVICE_SPEED, *PUDECX_USB_DEVICE_SPEED
 req.product: Windows 10 or later.
 ---
 
 # _UDECX_USB_DEVICE_SPEED enumeration
 
 
-
 ## -description
+
+
 Defines values for USB device speeds. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _UDECX_USB_DEVICE_SPEED { 
@@ -57,6 +67,9 @@ typedef enum _UDECX_USB_DEVICE_SPEED {
 
 
 ## -enum-fields
+
+
+
 
 ### -field UdecxUsbLowSpeed
 
@@ -78,15 +91,10 @@ Indicates a high-speed USB 2.0-compliant device.
 Indicates a SuperSpeed USB 3.0-compliant device. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitsetspeed.md">UdecxUsbDeviceInitSetSpeed</a>
-</dt>
-</dl>
+
  
 
  

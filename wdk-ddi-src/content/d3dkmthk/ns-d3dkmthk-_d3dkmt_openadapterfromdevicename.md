@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4e633c7c-fd88-4b8f-9d29-2c7a3daa3d32
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_OPENADAPTERFROMDEVICENAME, D3DKMT_OPENADAPTERFROMDEVICENAME
+ms.keywords: D3DKMT_OPENADAPTERFROMDEVICENAME structure [Display Devices], d3dkmthk/D3DKMT_OPENADAPTERFROMDEVICENAME, _D3DKMT_OPENADAPTERFROMDEVICENAME, display.d3dkmt_openadapterfromdevicename, OpenGL_Structs_f710fec6-a0f4-4b86-b4ba-5f8411deb490.xml, D3DKMT_OPENADAPTERFROMDEVICENAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_OPENADAPTERFROMDEVICENAME
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_OPENADAPTERFROMDEVICENAME
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_OPENADAPTERFROMDEVICENAME
 ---
 
 # _D3DKMT_OPENADAPTERFROMDEVICENAME structure
 
 
-
 ## -description
+
+
 The D3DKMT_OPENADAPTERFROMDEVICENAME structure describes the mapping of the given name of a device to a graphics adapter handle and monitor output.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_OPENADAPTERFROMDEVICENAME {
@@ -55,6 +65,9 @@ typedef struct _D3DKMT_OPENADAPTERFROMDEVICENAME {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pDeviceName
 
@@ -71,15 +84,10 @@ typedef struct _D3DKMT_OPENADAPTERFROMDEVICENAME {
 [out] The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) of the graphics adapter for the device that <b>pDeviceName</b> specifies. The LUID is returned from the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenadapterfromdevicename.md">D3DKMTOpenAdapterFromDeviceName</a> call.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenadapterfromdevicename.md">D3DKMTOpenAdapterFromDeviceName</a>
-</dt>
-</dl>
+
  
 
  

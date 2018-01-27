@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 60CEBF40-25D3-49F0-A4BF-40440E1A3EE6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportAudioEngineNode, IMiniportAudioEngineNode::GetDeviceChannelMute, GetDeviceChannelMute
+ms.keywords: IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelMute method, audio.iminiportaudioenginenode_getdevicechannelmute, GetDeviceChannelMute, GetDeviceChannelMute method [Audio Devices], IMiniportAudioEngineNode, GetDeviceChannelMute method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode::GetDeviceChannelMute, portcls/IMiniportAudioEngineNode::GetDeviceChannelMute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportAudioEngineNode.GetDeviceChannelMute
-req.alt-loc: Portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Portcls.h
+apiname: 
+-	IMiniportAudioEngineNode.GetDeviceChannelMute
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportAudioEngineNode::GetDeviceChannelMute method
 
 
-
 ## -description
+
+
 Gets the state of the Mute node for the audio device channel.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS GetDeviceChannelMute(
@@ -55,6 +65,9 @@ NTSTATUS GetDeviceChannelMute(
 
 
 ## -parameters
+
+
+
 
 ### -param ulNodeId [in]
 
@@ -72,20 +85,18 @@ The current state of the Mute node for the audio device channel.
 
 
 ## -returns
+
+
 <b>GetDeviceChannelMute</b> returns S_OK, if the call was successful. Otherwise, the method returns an appropriate error 
 
 code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
-</dt>
-</dl>
+
  
 
  

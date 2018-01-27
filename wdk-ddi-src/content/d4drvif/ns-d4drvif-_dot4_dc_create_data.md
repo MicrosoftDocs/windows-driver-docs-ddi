@@ -7,8 +7,8 @@ old-location: print\dot4_dc_create_data.htm
 old-project: print
 ms.assetid: 9C21732B-0AB1-4F3E-8F3D-F0B12007920A
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: _DOT4_DC_CREATE_DATA, DOT4_DC_CREATE_DATA, *PDOT4_DC_CREATE_DATA
+ms.date: 1/18/2018
+ms.keywords: DOT4_DC_CREATE_DATA, _DOT4_DC_CREATE_DATA, PDOT4_DC_CREATE_DATA structure pointer [Print Devices], DOT4_DC_CREATE_DATA structure [Print Devices], print.dot4_dc_create_data, d4drvif/DOT4_DC_CREATE_DATA, *PDOT4_DC_CREATE_DATA, d4drvif/PDOT4_DC_CREATE_DATA, PDOT4_DC_CREATE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DOT4_DC_CREATE_DATA
-req.alt-loc: D4drvif.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D4drvif.h
+apiname: 
+-	DOT4_DC_CREATE_DATA
+product: Windows
+targetos: Windows
 req.typenames: DOT4_DC_CREATE_DATA, *PDOT4_DC_CREATE_DATA
 ---
 
 # _DOT4_DC_CREATE_DATA structure
 
 
-
 ## -description
+
+
 Defines the <b>DOT4_DC_CREATE_DATA</b> construct.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DOT4_DC_CREATE_DATA {
@@ -59,6 +69,9 @@ typedef struct _DOT4_DC_CREATE_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field bPsid
 
@@ -94,5 +107,3 @@ Describes the <b>USHORT</b> member <b>usMaxPtoHPacketSize</b>.
 
 Specifies the host socket ID returned.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cd6d2ab6-ce17-47db-b5d0-4f9543e15487
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlRegisterFileSystemFilterCallbacks
+ms.keywords: fsrtlref_a831a0f3-f819-45e3-9121-ae50ef1b95bf.xml, FsRtlRegisterFileSystemFilterCallbacks routine [Installable File System Drivers], ifsk.fsrtlregisterfilesystemfiltercallbacks, FsRtlRegisterFileSystemFilterCallbacks, ntifs/FsRtlRegisterFileSystemFilterCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows XP and
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlRegisterFileSystemFilterCallbacks
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlRegisterFileSystemFilterCallbacks
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlRegisterFileSystemFilterCallbacks function
 
 
-
 ## -description
+
+
 File system filter drivers and file systems call the <b>FsRtlRegisterFileSystemFilterCallbacks</b> routine to register notification callback routines to be invoked when the underlying file system performs certain operations. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlRegisterFileSystemFilterCallbacks(
@@ -55,6 +65,9 @@ NTSTATUS FsRtlRegisterFileSystemFilterCallbacks(
 
 ## -parameters
 
+
+
+
 ### -param FilterDriverObject [in]
 
 A pointer to the driver object for the filter or file system driver. 
@@ -65,10 +78,7 @@ A pointer to the driver object for the filter or file system driver.
 A pointer to a structure that contains the entry points of caller-supplied notification callback routines. 
 
 This structure is defined as follows. 
-
-<div class="alert"><b>Note</b>  All of the callback entry points are optional and can be <b>NULL</b>. </div>
-<div> </div>
-<div class="code"><span codelanguage=""><table>
+<div class="alert"><b>Note</b>  All of the callback entry points are optional and can be <b>NULL</b>. </div><div> </div><div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
 </tr>
@@ -92,9 +102,7 @@ This structure is defined as follows.
 } FS_FILTER_CALLBACKS, *PFS_FILTER_CALLBACKS;</pre>
 </td>
 </tr>
-</table></span></div>
-The filter callback routine and its parameters are defined as follows: 
-
+</table></span></div>The filter callback routine and its parameters are defined as follows: 
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -108,8 +116,7 @@ NTSTATUS (*PFS_FILTER_CALLBACK) (
               );</pre>
 </td>
 </tr>
-</table></span></div>
-<table>
+</table></span></div><table>
 <tr>
 <th>Parameter</th>
 <th>Meaning</th>
@@ -134,11 +141,9 @@ Context information to be passed to the filter completion callback routine. Set 
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 The filter completion callback routine and its parameters are defined as follows: 
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -153,8 +158,7 @@ VOID (*PFS_FILTER_COMPLETION_CALLBACK) (
           );</pre>
 </td>
 </tr>
-</table></span></div>
-<table>
+</table></span></div><table>
 <tr>
 <th>Parameter</th>
 <th>Meaning</th>
@@ -189,11 +193,9 @@ Context information that was set in the filter callback routine. This is set to 
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 The callback data structure and its members are defined as follows: 
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -210,8 +212,7 @@ The callback data structure and its members are defined as follows:
 } FS_FILTER_CALLBACK_DATA, *PFS_FILTER_CALLBACK_DATA;</pre>
 </td>
 </tr>
-</table></span></div>
-<table>
+</table></span></div><table>
 <tr>
 <th>Member</th>
 <th>Meaning</th>
@@ -285,11 +286,9 @@ Union containing any operation-specific parameters.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 The filter parameter union is defined as follows: 
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -318,8 +317,7 @@ The filter parameter union is defined as follows:
 } FS_FILTER_PARAMETERS, *PFS_FILTER_PARAMETERS;</pre>
 </td>
 </tr>
-</table></span></div>
-<table>
+</table></span></div><table>
 <tr>
 <th>Parameter</th>
 <th>Meaning</th>
@@ -420,26 +418,58 @@ Reserved for future use.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 The <b>FsRtlRegisterFileSystemFilterCallbacks</b> routine can return one of the following status values: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The callback routines were successfully registered. 
+</dl>
+</td>
+<td width="60%">
+The callback routines were successfully registered. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl><b>FsRtlRegisterFileSystemFilterCallbacks</b> encountered a pool allocation failure when allocating memory to store the callback information. 
+</dl>
+</td>
+<td width="60%">
+<b>FsRtlRegisterFileSystemFilterCallbacks</b> encountered a pool allocation failure when allocating memory to store the callback information. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>One of the parameters is invalid. 
+</dl>
+</td>
+<td width="60%">
+One of the parameters is invalid. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 File system and file system filter drivers should call <b>FsRtlRegisterFileSystemFilterCallbacks</b> from the driver's <b>DriverEntry</b> routine.  
 
 File systems call <b>FsRtlRegisterFileSystemFilterCallbacks</b> to set the <b>PreAcquireForSectionSynchronization</b> callback member of the FS_FILTER_CALLBACKS structure instead of using the obsolete <b>AcquireFileForNtCreateSection</b>.
@@ -447,7 +477,13 @@ File systems call <b>FsRtlRegisterFileSystemFilterCallbacks</b> to set the <b>Pr
 <b>FsRtlRegisterFileSystemFilterCallbacks</b> registers the notification callback routines that were specified in the <i>Callbacks</i> parameter to be invoked when requests for certain file operations are sent to the underlying file system. 
 
 Callback routines are currently defined for the following operations: 
-
+<table>
+<tr>
+<th>Operation</th>
+<th>Notification Callback Routine and Callback Completion Routine</th>
+</tr>
+<tr>
+<td>
 The memory manager acquires a file exclusively before creating a memory-mapped section for a portion of the file. 
 
 
@@ -455,6 +491,8 @@ The memory manager acquires a file exclusively before creating a memory-mapped s
 <div> </div>
 
 
+</td>
+<td>
 
 <dl>
 <dt>PreAcquireForSectionSynchronization</dt>
@@ -462,8 +500,14 @@ The memory manager acquires a file exclusively before creating a memory-mapped s
 </dl>
 
 
+</td>
+</tr>
+<tr>
+<td>
 The memory manager releases a file after creating a memory-mapped section for a portion of the file. 
 
+</td>
+<td>
 
 <dl>
 <dt>PreReleaseForSectionSynchronization</dt>
@@ -471,6 +515,10 @@ The memory manager releases a file after creating a memory-mapped section for a 
 </dl>
 
 
+</td>
+</tr>
+<tr>
+<td>
 A kernel component (such as the cache manager) acquires a file exclusively before temporarily disabling section creation for a portion of the file. 
 
 
@@ -478,15 +526,43 @@ A kernel component (such as the cache manager) acquires a file exclusively befor
 <div> </div>
 
 
+</td>
+<td>
+
+<dl>
+<dt>PreAcquireForSectionSynchronization</dt>
+<dt>PostAcquireForSectionSynchronization</dt>
+</dl>
+
+
 
 <div class="alert"><b>Note</b>  PreAcquireForSectionSynchronization should always return a success status code (such as STATUS_SUCCESS) for this operation. Returning any other type of status code causes the system to ASSERT on a checked build. (On free builds, the status code is ignored.)</div>
 <div> </div>
 
 
+</td>
+</tr>
+<tr>
+<td>
 A kernel component (such as the cache manager) releases a file after temporarily disabling section creation for a portion of the file. 
 
+</td>
+<td>
+
+<dl>
+<dt>PreReleaseForSectionSynchronization</dt>
+<dt>PostReleaseForSectionSynchronization</dt>
+</dl>
+
+
+</td>
+</tr>
+<tr>
+<td>
 The cache manager acquires a file exclusively before flushing a portion of the file from the cache. 
 
+</td>
+<td>
 
 <dl>
 <dt>PreAcquireForCcFlush</dt>
@@ -494,8 +570,14 @@ The cache manager acquires a file exclusively before flushing a portion of the f
 </dl>
 
 
+</td>
+</tr>
+<tr>
+<td>
 The cache manager releases a file after flushing a portion of the file from the cache. 
 
+</td>
+<td>
 
 <dl>
 <dt>PreReleaseForCcFlush</dt>
@@ -503,8 +585,14 @@ The cache manager releases a file after flushing a portion of the file from the 
 </dl>
 
 
+</td>
+</tr>
+<tr>
+<td>
 The modified page writer acquires a file exclusively before writing a portion of the file to disk. 
 
+</td>
+<td>
 
 <dl>
 <dt>PreAcquireForModifiedPageWriter</dt>
@@ -512,8 +600,14 @@ The modified page writer acquires a file exclusively before writing a portion of
 </dl>
 
 
+</td>
+</tr>
+<tr>
+<td>
 The modified page writer releases a file after writing a portion of the file to disk. 
 
+</td>
+<td>
 
 <dl>
 <dt>PreReleaseForModifiedPageWriter</dt>
@@ -521,26 +615,51 @@ The modified page writer releases a file after writing a portion of the file to 
 </dl>
 
 
-The filter notification callback routine is invoked before the operation request is passed to lower-level filter drivers and the underlying file system. In the callback routine, the filter driver should perform any needed processing and immediately return STATUS_SUCCESS. If a filter driver's callback routine returns a status value other than STATUS_SUCCESS, this causes the operation request to fail. Repeated failure of certain requests, such as locking requests, can halt system progress. Thus, filter drivers should fail such a request only when absolutely necessary. When failing these requests, the filter driver should return an error status value that describes the error as completely and accurately as possible. 
+</td>
+</tr>
+</table> 
 
+The filter notification callback routine is invoked before the operation request is passed to lower-level filter drivers and the underlying file system. In the callback routine, the filter driver should perform any needed processing and immediately return STATUS_SUCCESS. If a filter driver's callback routine returns a status value other than STATUS_SUCCESS, this causes the operation request to fail. Repeated failure of certain requests, such as locking requests, can halt system progress. Thus, filter drivers should fail such a request only when absolutely necessary. When failing these requests, the filter driver should return an error status value that describes the error as completely and accurately as possible. 
+<div class="alert"><b>Note</b>    A filter driver's notification callback routine cannot fail a request to release a file system resource. If a filter driver returns a status value other than STATUS_SUCCESS from any of the following notification callback routines, the status value is ignored. </div><div> </div><ul>
+<li>
 PreReleaseForSectionSynchronization 
 
+</li>
+<li>
 PreReleaseForCcFlush 
 
+</li>
+<li>
 PreReleaseForModifiedPageWriter 
 
-The filter completion callback routine is invoked after the operation request is passed to lower-level filter drivers and the underlying file system. In the completion callback routine, the filter driver must perform any needed processing and immediately return. 
+</li>
+</ul>The filter completion callback routine is invoked after the operation request is passed to lower-level filter drivers and the underlying file system. In the completion callback routine, the filter driver must perform any needed processing and immediately return. 
 
 The callback routines defined by <b>FsRtlRegisterFileSystemFilterCallbacks</b> supersede the following fast I/O callback routines, which are obsolete and should not be used by file system filter drivers: 
-
+<ul>
+<li>
 AcquireForCcFlush
 
+</li>
+<li>
 AcquireFileForNtCreateSection
 
+</li>
+<li>
 AcquireForModWrite
 
+</li>
+<li>
 ReleaseForCcFlush
 
+</li>
+<li>
 ReleaseFileForNtCreateSection
 
-ReleaseForModWrite</p>
+</li>
+<li>
+ReleaseForModWrite
+
+</li>
+</ul>
+

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A75AE18F-802F-462B-BF96-5C03408F53CA
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WUDF_WORKITEM_CONFIG_INIT
+ms.keywords: WUDF_WORKITEM_CONFIG_INIT, wudfworkitem/WUDF_WORKITEM_CONFIG_INIT, wdf.wudf_workitem_config_init, WUDF_WORKITEM_CONFIG_INIT function, umdf.wudf_workitem_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.11
-req.alt-api: WUDF_WORKITEM_CONFIG_INIT
-req.alt-loc: wudfworkitem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wudfworkitem.h
+apiname: 
+-	WUDF_WORKITEM_CONFIG_INIT
+product: Windows
+targetos: Windows
 req.typenames: UNICODE_STRING
 req.product: Windows 10 or later.
 ---
@@ -38,16 +47,17 @@ req.product: Windows 10 or later.
 # WUDF_WORKITEM_CONFIG_INIT function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The 
   <b>WUDF_WORKITEM_CONFIG_INIT</b> macro initializes a driver's <a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 void WUDF_WORKITEM_CONFIG_INIT(
@@ -58,6 +68,9 @@ void WUDF_WORKITEM_CONFIG_INIT(
 
 
 ## -parameters
+
+
+
 
 ### -param pConfig [out]
 
@@ -70,24 +83,27 @@ The address of the driver's <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workit
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
+
 ## -remarks
+
+
 Drivers must call <b>WUDF_WORKITEM_CONFIG_INIT</b> before calling <a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>.
 
 The <b>WUDF_WORKITEM_CONFIG_INIT</b> function stores the pointer that the <i>OnWorkItemFunc</i> parameter specifies and sets the <b>AutomaticSerialization</b> member of the <a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a> structure that is pointed to by the <i>pConfig</i> parameter to <b>TRUE</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>
-</dt>
-</dl>
+
  
 
  

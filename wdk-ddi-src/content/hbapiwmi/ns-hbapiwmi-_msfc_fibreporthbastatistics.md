@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8b365e7a-6d52-417f-8c0b-78feac24602f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSFC_FibrePortHBAStatistics, *PMSFC_FibrePortHBAStatistics, MSFC_FibrePortHBAStatistics
+ms.keywords: MSFC_FibrePortHBAStatistics structure [Storage Devices], hbapiwmi/PMSFC_FibrePortHBAStatistics, PMSFC_FibrePortHBAStatistics, _MSFC_FibrePortHBAStatistics, storage.msfc_fibreporthbastatistics, PMSFC_FibrePortHBAStatistics structure pointer [Storage Devices], *PMSFC_FibrePortHBAStatistics, hbapiwmi/MSFC_FibrePortHBAStatistics, structs-Fibre_d68738f2-ea37-420f-8356-51aa06362829.xml, MSFC_FibrePortHBAStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSFC_FibrePortHBAStatistics
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PMSFC_FibrePortHBAStatistics, MSFC_FibrePortHBAStatistics
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	MSFC_FibrePortHBAStatistics
+product: Windows
+targetos: Windows
+req.typenames: MSFC_FibrePortHBAStatistics, *PMSFC_FibrePortHBAStatistics
 ---
 
 # _MSFC_FibrePortHBAStatistics structure
 
 
-
 ## -description
+
+
 The MSFC_FibrePortHBAStatistics structure is used by an HBA miniport driver that is a WMI provider to report statistics related to a fibre channel port.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSFC_FibrePortHBAStatistics {
@@ -55,6 +65,9 @@ typedef struct _MSFC_FibrePortHBAStatistics {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UniquePortId
 
@@ -71,15 +84,10 @@ Contains the status of the operation. For a list of allowed values and their des
 Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportstatistics.md">MSFC_HBAPortStatistics</a> with statistical information about the port. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562505">MSFC_FibrePortHBAStatistics WMI Class</a>
-</dt>
-</dl>
+
  
 
  

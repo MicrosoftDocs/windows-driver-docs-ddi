@@ -7,8 +7,8 @@ old-location: image\sti_device_status.htm
 old-project: image
 ms.assetid: 40104e1f-b936-430b-9e8c-28738579f4c7
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: _STI_DEVICE_STATUS, STI_DEVICE_STATUS, *PSTI_DEVICE_STATUS
+ms.date: 1/18/2018
+ms.keywords: image.sti_device_status, sti/STI_DEVICE_STATUS, stifnc_9581d5c4-a5c5-4115-8e9e-33f3da4806c6.xml, PSTI_DEVICE_STATUS, *PSTI_DEVICE_STATUS, STI_DEVICE_STATUS structure [Imaging Devices], PSTI_DEVICE_STATUS structure pointer [Imaging Devices], sti/PSTI_DEVICE_STATUS, STI_DEVICE_STATUS, _STI_DEVICE_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STI_DEVICE_STATUS
-req.alt-loc: sti.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	sti.h
+apiname: 
+-	STI_DEVICE_STATUS
+product: Windows
+targetos: Windows
 req.typenames: STI_DEVICE_STATUS, *PSTI_DEVICE_STATUS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _STI_DEVICE_STATUS structure
 
 
-
 ## -description
+
+
 The STI_DEVICE_STATUS structure is used as a parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543752">IStiDevice::GetStatus</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543823">IStiUSD::GetStatus</a> methods.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STI_DEVICE_STATUS {
@@ -60,6 +70,9 @@ typedef struct _STI_DEVICE_STATUS {
 
 ## -struct-fields
 
+
+
+
 ### -field dwSize
 
 Caller-supplied size, in bytes, of the STI_DEVICE_STATUS structure.
@@ -68,7 +81,6 @@ Caller-supplied size, in bytes, of the STI_DEVICE_STATUS structure.
 ### -field StatusMask
 
 One or more caller-supplied bit flags, indicating the type of status information being requested. The following flags are defined:
-
 <table>
 <tr>
 <th>Flag</th>
@@ -94,8 +106,7 @@ The driver should fill in the <b>dwOnlineState</b> member.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field dwOnlineState
@@ -107,129 +118,31 @@ Currently use of STI_ONLINESTATE_OPERATIONAL is required, while use of all other
 
 
 
-### -field STI_ONLINESTATE_BUSY
 
-The device is busy.
 
-</dd>
-</dl>
 
 
 
-### -field STI_ONLINESTATE_ERROR
 
-The device has reported an error.
 
-</dd>
-</dl>
 
 
 
-### -field STI_ONLINESTATE_INITIALIZING
 
-The device is being initialized.
 
-</dd>
-</dl>
 
 
 
-### -field STI_ONLINESTATE_IO_ACTIVE
 
-The device is active but not accepting commands.
 
-</dd>
-</dl>
 
 
 
-### -field STI_ONLINESTATE_OFFLINE
 
-The device is off-line.
 
-</dd>
-</dl>
 
 
 
-### -field STI_ONLINESTATE_OPERATIONAL
-
-The device is online and ready. If set, Control Panel indicates the device is ready. Otherwise, it indicates the device is off-line.
-
-</dd>
-</dl>
-
-
-
-### -field STI_ONLINESTATE_PAPER_JAM
-
-The device has reported a paper jam.
-
-</dd>
-</dl>
-
-
-
-### -field STI_ONLINESTATE_PAPER_PROBLEM
-
-The device has reported an unspecified paper problem.
-
-</dd>
-</dl>
-
-
-
-### -field STI_ONLINESTATE_PAUSED
-
-The device is paused.
-
-</dd>
-</dl>
-
-
-
-### -field STI_ONLINESTATE_PENDING
-
-I/O operations are pending.
-
-</dd>
-</dl>
-
-
-
-### -field STI_ONLINESTATE_POWER_SAVE
-
-The device is in power save mode.
-
-</dd>
-</dl>
-
-
-
-### -field STI_ONLINESTATE_TRANSFERRING
-
-The device is transferring data.
-
-</dd>
-</dl>
-
-
-
-### -field STI_ONLINESTATE_USER_INTERVENTION
-
-The device requires user intervention.
-
-</dd>
-</dl>
-
-
-
-### -field STI_ONLINESTATE_WARMING_UP
-
-The device is warming up.
-
-</dd>
-</dl>
 
 ### -field dwHardwareStatusCode
 
@@ -243,34 +156,96 @@ Contains bit flags indicating event status. The following flags are defined in <
 
 
 
-### -field STI_EVENTHANDLING_ENABLED
-
-<i>Not used</i>.
-
-</dd>
-</dl>
 
 
 
-### -field STI_EVENTHANDLING_PENDING
-
-A device event has occurred.
-
-</dd>
-</dl>
-
-
-
-### -field STI_EVENTHANDLING_POLLING
-
-<i>Not used</i>.
-
-</dd>
-</dl>
 
 ### -field dwPollingInterval
 
 Time value, in milliseconds, indicating how often the device should be polled, if polling is required.
 
 
-## -remarks
+##### - dwOnlineState.STI_ONLINESTATE_USER_INTERVENTION
+
+The device requires user intervention.
+
+
+##### - dwOnlineState.STI_ONLINESTATE_TRANSFERRING
+
+The device is transferring data.
+
+
+##### - dwOnlineState.STI_ONLINESTATE_WARMING_UP
+
+The device is warming up.
+
+
+##### - dwOnlineState.STI_ONLINESTATE_POWER_SAVE
+
+The device is in power save mode.
+
+
+##### - dwOnlineState.STI_ONLINESTATE_INITIALIZING
+
+The device is being initialized.
+
+
+##### - dwOnlineState.STI_ONLINESTATE_PAPER_PROBLEM
+
+The device has reported an unspecified paper problem.
+
+
+##### - dwOnlineState.STI_ONLINESTATE_IO_ACTIVE
+
+The device is active but not accepting commands.
+
+
+##### - dwOnlineState.STI_ONLINESTATE_PAUSED
+
+The device is paused.
+
+
+##### - dwEventHandlingState.STI_EVENTHANDLING_POLLING
+
+<i>Not used</i>.
+
+
+##### - dwOnlineState.STI_ONLINESTATE_PENDING
+
+I/O operations are pending.
+
+
+##### - dwEventHandlingState.STI_EVENTHANDLING_PENDING
+
+A device event has occurred.
+
+
+##### - dwOnlineState.STI_ONLINESTATE_ERROR
+
+The device has reported an error.
+
+
+##### - dwOnlineState.STI_ONLINESTATE_OFFLINE
+
+The device is off-line.
+
+
+##### - dwOnlineState.STI_ONLINESTATE_OPERATIONAL
+
+The device is online and ready. If set, Control Panel indicates the device is ready. Otherwise, it indicates the device is off-line.
+
+
+##### - dwEventHandlingState.STI_EVENTHANDLING_ENABLED
+
+<i>Not used</i>.
+
+
+##### - dwOnlineState.STI_ONLINESTATE_BUSY
+
+The device is busy.
+
+
+##### - dwOnlineState.STI_ONLINESTATE_PAPER_JAM
+
+The device has reported a paper jam.
+

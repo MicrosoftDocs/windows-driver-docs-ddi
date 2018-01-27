@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: C4021856-835D-4B4B-9795-4FEEEFAC06B8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _SET_UNIT_DIRECTORY, *PSET_UNIT_DIRECTORY, SET_UNIT_DIRECTORY
+ms.keywords: *PSET_UNIT_DIRECTORY, SET_UNIT_DIRECTORY structure [Buses], PSET_UNIT_DIRECTORY structure pointer [Buses], 61883/PSET_UNIT_DIRECTORY, SET_UNIT_DIRECTORY, IEEE.set_unit_directory, PSET_UNIT_DIRECTORY, _SET_UNIT_DIRECTORY, 61883/SET_UNIT_DIRECTORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SET_UNIT_DIRECTORY
-req.alt-loc: 61883.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	61883.h
+apiname: 
+-	SET_UNIT_DIRECTORY
+product: Windows
+targetos: Windows
 req.typenames: *PSET_UNIT_DIRECTORY, SET_UNIT_DIRECTORY
 ---
 
 # _SET_UNIT_DIRECTORY structure
 
 
-
 ## -description
+
+
 This structure is used to assign settings for a unit directory.  The  request exposes a unit directory within the configuration ROM of the local host. This request is used to create or remove a Configuration ROM entry in the configuration ROM of a local node. A driver is responsible for removing the Configuration ROM entries it has created before the system unloads the driver. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SET_UNIT_DIRECTORY {
@@ -56,6 +66,9 @@ typedef struct _SET_UNIT_DIRECTORY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Flags
 
@@ -86,15 +99,16 @@ If REMOVE_UNIT_DIRECTORY_ENTRY is set in Flags, <b>hCromEntry</b> is null.
 
 
 ## -remarks
+
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 82fded96-9321-47a8-8bdd-65c5a75951ac
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVAHDDDI_FRAME_FORMAT, DXVAHDDDI_FRAME_FORMAT
+ms.keywords: d3dumddi/DXVAHDDDI_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, display.dxvahdddi_frame_format, DXVAHDDDI_FRAME_FORMAT, d3dumddi/DXVAHDDDI_FRAME_FORMAT, DXVAHDDDI_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, DXVAHDDDI_FRAME_FORMAT enumeration [Display Devices], DXVAHDDDI_FRAME_FORMAT_PROGRESSIVE, d3dumddi/DXVAHDDDI_FRAME_FORMAT_PROGRESSIVE, d3dumddi/DXVAHDDDI_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, DXVA2_Structs_7335a1ee-9d91-4764-aba3-5769351f7aa5.xml, DXVAHDDDI_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, _DXVAHDDDI_FRAME_FORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: DXVAHDDDI_FRAME_FORMAT is supported beginning with th
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVAHDDDI_FRAME_FORMAT
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVAHDDDI_FRAME_FORMAT
+product: Windows
+targetos: Windows
 req.typenames: DXVAHDDDI_FRAME_FORMAT
 ---
 
 # _DXVAHDDDI_FRAME_FORMAT enumeration
 
 
-
 ## -description
+
+
 The DXVAHDDDI_FRAME_FORMAT enumeration contains values that identify the frame format. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXVAHDDDI_FRAME_FORMAT { 
@@ -55,6 +65,9 @@ typedef enum _DXVAHDDDI_FRAME_FORMAT {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXVAHDDDI_FRAME_FORMAT_PROGRESSIVE
 
@@ -72,15 +85,16 @@ A value that specifies that the frame format is interlaced with two fields. The 
 
 
 ## -remarks
-The <a href="wdkgloss.f#wdkgloss.fourcc#wdkgloss.fourcc"><i>FOURCC</i></a> format of the surface defines whether the interlaced fields are interleaved or not. For example, NV12 is an interlaced format with interleaved fields whereas NV24 is an interlaced format with non-interleaved fields.
+
+
+The <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FOURCC</a> format of the surface defines whether the interlaced fields are interleaved or not. For example, NV12 is an interlaced format with interleaved fields whereas NV24 is an interlaced format with non-interleaved fields.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_frame_format_data.md">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a>
-</dt>
-</dl>
+
  
 
  

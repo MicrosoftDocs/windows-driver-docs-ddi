@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 319d1d6e-a4a2-4c2c-9c30-948c5f03a2be
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUnicodeStringInit
+ms.keywords: RtlUnicodeStringInit function [Kernel-Mode Driver Architecture], ntstrsafe/RtlUnicodeStringInit, RtlUnicodeStringInit, kernel.rtlunicodestringinit, safestrings_7540072b-061a-46be-a2ea-72c4da1790dd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows XP with Service Pack 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlUnicodeStringInit
-req.alt-loc: Ntstrsafe.lib,Ntstrsafe.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ntstrsafe.lib
+-	Ntstrsafe.dll
+apiname: 
+-	RtlUnicodeStringInit
+product: Windows
+targetos: Windows
 req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
 ---
 
 # RtlUnicodeStringInit function
 
 
-
 ## -description
+
+
 The <b>RtlUnicodeStringInit</b> function initializes a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlUnicodeStringInit(
@@ -54,6 +65,9 @@ NTSTATUS RtlUnicodeStringInit(
 
 
 ## -parameters
+
+
+
 
 ### -param DestinationString [out]
 
@@ -66,44 +80,75 @@ Optional. A pointer to a null-terminated string constant. This string pointer wi
 
 
 ## -returns
+
+
 <b>RtlUnicodeStringInit</b> returns one of the following NTSTATUS values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>This <i>success</i> status means that source data was present, the string was copied without truncation, and the resultant destination buffer is null-terminated.
+</dl>
+</td>
+<td width="60%">
+This <i>success</i> status means that source data was present, the string was copied without truncation, and the resultant destination buffer is null-terminated.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>This <i>error</i> status means that the function received an invalid input parameter. For more information, see the following list.
+</dl>
+</td>
+<td width="60%">
+This <i>error</i> status means that the function received an invalid input parameter. For more information, see the following list.
 
- 
+</td>
+</tr>
+</table> 
 
 <b>RtlUnicodeStringInit</b> returns the STATUS_INVALID_PARAMETER value when one of the following occurs:
+<ul>
+<li>The length of the string that the <i>pszSrc</i> parameter points to is greater than NTSTRSAFE_UNICODE_STRING_MAX_CCH characters.</li>
+<li>The <i>DestinationString</i> pointer is <b>NULL</b>, but the <i>pszSrc</i> pointer is not <b>NULL</b>.</li>
+</ul>For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
 
-For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
 
 
 ## -remarks
-The <b>RtlUnicodeStringInit</b> function does the following:
 
+
+The <b>RtlUnicodeStringInit</b> function does the following:
+<ul>
+<li>
 Sets the <b>Length</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that is pointed to by the <i>pszSrc</i> parameter to the length, in bytes, of the string that the <i>pszSrc</i> parameter points to.
 
+</li>
+<li>
 Sets the <b>MaximumLength</b> member of the <b>UNICODE_STRING</b> structure to the length, in bytes, of the string that the <i>pszSrc</i> parameter points to plus 2 bytes. 
 
+</li>
+<li>
 Sets the <b>Buffer</b> member of the <b>UNICODE_STRING</b> structure to the address that the <i>pszSrc</i> parameter specifies.
 
-The <i>DestinationString</i> pointer should not be <b>NULL</b>. If you need to specify <b>NULL</b> <i>DestinationString</i> pointer values, use the <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinitex.md">RtlUnicodeStringInitEx</a> function.
+</li>
+</ul>The <i>DestinationString</i> pointer should not be <b>NULL</b>. If you need to specify <b>NULL</b> <i>DestinationString</i> pointer values, use the <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinitex.md">RtlUnicodeStringInitEx</a> function.
 
 For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinitex.md">RtlUnicodeStringInitEx</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 02b096be-0f9e-4ea3-a13f-1c6ad7c802c9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS
+ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS_COLUMN_INTERLEAVED, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS_FLIP_MODE, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS_ROW_INTERLEAVED, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS_CHECKERBOARD, display.d3d11_1ddi_video_processor_stereo_caps, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS enumeration [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS_FLIP_MODE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS_ROW_INTERLEAVED, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS_MONO_OFFSET, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS_CHECKERBOARD, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS_COLUMN_INTERLEAVED, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS_MONO_OFFSET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS
 ---
 
 # D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS enumeration
 
 
-
 ## -description
+
+
 Defines stereo 3-D capabilities for a Microsoft Direct3D 11 video processor.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS { 
@@ -57,6 +67,9 @@ typedef enum D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS_MONO_OFFSET
 
@@ -85,18 +98,12 @@ format.
 The video processor can flip one or both views. For more information, see <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_flip_mode.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a>.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_flip_mode.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_format.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_flip_mode.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e598c402-ef60-4f6c-924d-fc37114c3432
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KeTryToAcquireQueuedSpinLock
+ms.keywords: KeTryToAcquireQueuedSpinLock function [Installable File System Drivers], KeTryToAcquireQueuedSpinLock, ntifs/KeTryToAcquireQueuedSpinLock, keref_754b75bd-31a8-4447-8ebe-3d24855150bf.xml, ifsk.ketrytoacquirequeuedspinlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeTryToAcquireQueuedSpinLock
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	KeTryToAcquireQueuedSpinLock
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # KeTryToAcquireQueuedSpinLock function
 
 
-
 ## -description
+
+
 The <b>KeTryToAcquireQueuedSpinLock</b> routine is reserved for system use. 
 
 
-
 ## -syntax
+
 
 ````
   KeTryToAcquireQueuedSpinLock(
@@ -54,9 +64,19 @@ The <b>KeTryToAcquireQueuedSpinLock</b> routine is reserved for system use.
 
 ## -parameters
 
-### -param  
-
-Reserved.
 
 
-## -remarks
+
+### -param Number
+
+TBD
+
+
+### -param OldIrql
+
+TBD
+
+
+
+
+

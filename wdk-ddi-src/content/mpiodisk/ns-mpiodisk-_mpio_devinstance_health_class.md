@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6d0afab5-4aba-4ebc-a864-85c83cf464d0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MPIO_DEVINSTANCE_HEALTH_CLASS, *PMPIO_DEVINSTANCE_HEALTH_CLASS, MPIO_DEVINSTANCE_HEALTH_CLASS
+ms.keywords: PMPIO_DEVINSTANCE_HEALTH_CLASS, structs-scsibus_aae91588-5920-42bb-8c74-13604bed0bfc.xml, MPIO_DEVINSTANCE_HEALTH_CLASS, *PMPIO_DEVINSTANCE_HEALTH_CLASS, mpiodisk/PMPIO_DEVINSTANCE_HEALTH_CLASS, mpiodisk/MPIO_DEVINSTANCE_HEALTH_CLASS, MPIO_DEVINSTANCE_HEALTH_CLASS structure [Storage Devices], storage.mpio_devinstance_health_class, PMPIO_DEVINSTANCE_HEALTH_CLASS structure pointer [Storage Devices], _MPIO_DEVINSTANCE_HEALTH_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MPIO_DEVINSTANCE_HEALTH_CLASS
-req.alt-loc: mpiodisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PMPIO_DEVINSTANCE_HEALTH_CLASS, MPIO_DEVINSTANCE_HEALTH_CLASS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mpiodisk.h
+apiname: 
+-	MPIO_DEVINSTANCE_HEALTH_CLASS
+product: Windows
+targetos: Windows
+req.typenames: MPIO_DEVINSTANCE_HEALTH_CLASS, *PMPIO_DEVINSTANCE_HEALTH_CLASS
 ---
 
 # _MPIO_DEVINSTANCE_HEALTH_CLASS structure
 
 
-
 ## -description
+
+
 The MPIO_DEVINSTANCE_HEALTH_CLASS structure holds the health information for a instance of a device exposed through the specified path identifiers.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MPIO_DEVINSTANCE_HEALTH_CLASS {
@@ -67,6 +77,9 @@ typedef struct _MPIO_DEVINSTANCE_HEALTH_CLASS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PathId
 
@@ -142,5 +155,3 @@ An unsigned character field that specifies the total number of times the <i>Numb
 
 Should be zero.
 
-
-## -remarks

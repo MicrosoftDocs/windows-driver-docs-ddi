@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: efd2eea8-2b05-49a2-b136-a3e1e3e739c5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWaveRT, IMiniportWaveRT::NewStream, NewStream
+ms.keywords: portcls/IMiniportWaveRT::NewStream, NewStream method [Audio Devices], audmp-routines_f6e65bf7-d19d-42fc-a0f0-2d2c83e88250.xml, IMiniportWaveRT::NewStream, audio.iminiportwavert_newstream, IMiniportWaveRT, NewStream, NewStream method [Audio Devices], IMiniportWaveRT interface, IMiniportWaveRT interface [Audio Devices], NewStream method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later Windows operatin
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportWaveRT.NewStream
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: Passive level.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IMiniportWaveRT.NewStream
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportWaveRT::NewStream method
 
 
-
 ## -description
+
+
 The <code>NewStream</code> method creates a new instance of a WaveRT stream object.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS NewStream(
@@ -57,6 +67,9 @@ NTSTATUS NewStream(
 
 
 ## -parameters
+
+
+
 
 ### -param Stream [out]
 
@@ -84,41 +97,47 @@ Pointer to a <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure th
 
 
 ## -returns
+
+
 <code>NewStream</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error status code.
 
 
+
 ## -remarks
+
+
 The <code>NewStream</code> method sets the initial state of the stream to <a href="https://msdn.microsoft.com/c71fd395-28aa-4421-9443-b5b0a1f3ac7e">KSSTATE_STOP</a> and its initial position to 0. For more information, see related methods <a href="https://msdn.microsoft.com/library/windows/hardware/ff536756">IMiniportWaveRTStream::SetState</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff536749">IMiniportWaveRTStream::GetPosition</a>.
 
 The <i>DataFormat</i> parameter, which specifies the data format of the stream, points to one of the following audio-specific, extended versions of the KSDATAFORMAT structure:
-
+<ul>
+<li>
 
 <a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a>
 
 
+</li>
+<li>
 
 <a href="..\ksmedia\ns-ksmedia-ksdataformat_dsound.md">KSDATAFORMAT_DSOUND</a>
 
 
-The <i>Stream</i> and <i>PortStream</i> parameters follow the reference-counting conventions for COM objects.
+</li>
+</ul>The <i>Stream</i> and <i>PortStream</i> parameters follow the reference-counting conventions for COM objects.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
-</dt>
-<dt>
-<a href="..\portcls\nn-portcls-iminiportwavertstream.md">IPortWaveRTStream</a>
-</dt>
-<dt>IMiniportWaveRTStream</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536756">IMiniportWaveRTStream::SetState</a>
-</dt>
-<dt>
+
+IMiniportWaveRTStream
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536749">IMiniportWaveRTStream::GetPosition</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
+
+<a href="..\portcls\nn-portcls-iminiportwavertstream.md">IPortWaveRTStream</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536756">IMiniportWaveRTStream::SetState</a>
+
  
 
  

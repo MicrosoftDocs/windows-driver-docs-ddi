@@ -7,8 +7,8 @@ old-location: print\oemfontmanagement.htm
 old-project: print
 ms.assetid: fd4e712a-8bde-4c80-b288-3fa7b69a2681
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: OEMFontManagement
+ms.date: 1/18/2018
+ms.keywords: OEMFontManagement function [Print Devices], OEMFontManagement, printoem/OEMFontManagement, print_unidrv-pscript_rendering_41e19fb2-9946-4911-beb2-3681bd08c08b.xml, print.oemfontmanagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OEMFontManagement
-req.alt-loc: printoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	printoem.h
+apiname: 
+-	OEMFontManagement
+product: Windows
+targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # OEMFontManagement function
 
 
-
 ## -description
+
+
 The <code>OEMFontManagement</code> function is an optional entry point provided for PostScript devices. 
 
 
-
 ## -syntax
+
 
 ````
 ULONG APIENTRY OEMFontManagement(
@@ -61,25 +71,33 @@ ULONG APIENTRY OEMFontManagement(
 
 ## -parameters
 
-### -param pso 
 
 
-### -param pfo 
+
+### -param pso
 
 
-### -param iMode 
+
+### -param pfo
 
 
-### -param cjIn 
+
+### -param iMode
+
+
+
+### -param cjIn
+
 
 
 ### -param pvIn [in]
 
 
-### -param cjOut 
+
+### -param cjOut
+
 
 
 ### -param pvOut [out]
 
 
-## -remarks

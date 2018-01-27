@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bddb19cb-7705-470b-ad22-14fd72f3db11
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_DATARANGE_VIDEO2, *PKS_DATARANGE_VIDEO2, KS_DATARANGE_VIDEO2
+ms.keywords: PKS_DATARANGE_VIDEO2 structure pointer [Streaming Media Devices], ksmedia/PKS_DATARANGE_VIDEO2, vidcapstruct_f014ea98-b1a5-4d05-aea3-b13e7a3f5918.xml, KS_DATARANGE_VIDEO2, tagKS_DATARANGE_VIDEO2, KS_DATARANGE_VIDEO2 structure [Streaming Media Devices], *PKS_DATARANGE_VIDEO2, stream.ks_datarange_video2, PKS_DATARANGE_VIDEO2, ksmedia/KS_DATARANGE_VIDEO2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_DATARANGE_VIDEO2
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KS_DATARANGE_VIDEO2
+product: Windows
+targetos: Windows
 req.typenames: *PKS_DATARANGE_VIDEO2, KS_DATARANGE_VIDEO2
 ---
 
 # tagKS_DATARANGE_VIDEO2 structure
 
 
-
 ## -description
+
+
 The KS_DATARANGE_VIDEO2 structure describes a video stream including bob or weave settings.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagKS_DATARANGE_VIDEO2 {
@@ -59,6 +69,9 @@ typedef struct tagKS_DATARANGE_VIDEO2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DataRange
 
@@ -96,21 +109,20 @@ Specifies the details of the video stream.
 
 
 ## -remarks
+
+
 This structure should be used instead of a <a href="..\ksmedia\ns-ksmedia-tagks_datarange_video.md">KS_DATARANGE_VIDEO</a> structure when a minidriver must describe content with bob or weave settings.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
  
 
  

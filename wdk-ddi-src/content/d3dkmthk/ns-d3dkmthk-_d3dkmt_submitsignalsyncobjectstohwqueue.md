@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BD192367-4960-4FD9-867F-02263AC93A61
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
+ms.keywords: D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, _D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure [Display Devices], display.d3dkmt_submitsignalsyncobjectstohwqueue, d3dkmthk/D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
 ---
 
 # _D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure
 
 
-
 ## -description
+
+
 A structure holding information to submit a signal to the hardware queue.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE {
@@ -58,6 +68,9 @@ typedef struct _D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Flags
 
@@ -94,5 +107,3 @@ Handles to monitored fence synchronization objects to signal.
 Monitored fence values to signal.
 
 
-
-## -remarks

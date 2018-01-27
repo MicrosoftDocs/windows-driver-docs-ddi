@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: FE572606-8F47-4C40-BF74-24D5F667D2EC
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTHX_SCO_SUPPORT, *PBTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT
+ms.keywords: bltooth.ioctl_bthx_set_version, IOCTL_BTHX_SET_VERSION control code [Bluetooth Devices], IOCTL_BTHX_SET_VERSION, bthxddi/IOCTL_BTHX_SET_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with  Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_BTHX_SET_VERSION
-req.alt-loc: BthXDDI.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,26 +29,44 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	BthXDDI.h
+apiname: 
+-	IOCTL_BTHX_SET_VERSION
+product: Windows
+targetos: Windows
 req.typenames: *PBTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT
 ---
 
 # IOCTL_BTHX_SET_VERSION IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 IOCTL_BTHX_SET_VERSION is used to inform the transport driver of the version of the extensibility interface being used.
 
-
-
-IOCTL_BTHX_SET_VERSION is used to inform the transport driver of the version of the extensibility interface being used.
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 Profile drivers should use KMDF and its <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputmemory.md">WdfRequestRetrieveInputMemory</a> method to retrieve input parameters.  For example, to get the input buffer:
 
 <code>Status = WdfRequestRetrieveInputMemory(_Request, &amp;ReqInMemory);</code>
@@ -61,44 +77,67 @@ Refer to the WDK Bluetooth samples for more information.
 
 
 ### -input-buffer-length
+
 The length of the buffer is the size of the <b>BTHX_VERSION</b> structure.
 
 
 ### -output-buffer
+
 None.
 
 
 ### -output-buffer-length
+
 None.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The 
       <b>Information</b> member of the STATUS_BLOCK structure is set to zero because the Bluetooth driver
       stack returns no data with this IOCTL.
 
 The 
       <b>Status</b> member is set to one of the values in the following table.
-
+<table>
+<tr>
+<th>Status value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
 STATUS_SUCCESS
 
+</td>
+<td>
 The IOCTL completed successfully.
 
- 
+</td>
+</tr>
+</table> 
 
 Any unsuccessful NT status code prevents the driver from loading.
 
 
 ## -remarks
+
+
 IOCTL_BTHX_SET_VERSION is a synchronous operation.
 
-Only one version will be selected and set.</p>
+Only one version will be selected and set.
+
+

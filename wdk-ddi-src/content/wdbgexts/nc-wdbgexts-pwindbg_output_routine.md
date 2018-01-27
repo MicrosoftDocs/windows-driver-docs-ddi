@@ -7,8 +7,8 @@ old-location: debugger\dprintf.htm
 old-project: debugger
 ms.assetid: 33bcf4d4-1a79-4950-858e-10543faa9432
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _VPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
+ms.date: 1/19/2018
+ms.keywords: debugger.dprintf, dprintf, dprintf callback function [Windows Debugging], dprintf, PWINDBG_OUTPUT_ROUTINE, PWINDBG_OUTPUT_ROUTINE, wdbgexts/dprintf, WdbgExts_Ref_89454805-6140-4023-ba28-2d7130c73cf5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: dprintf
-req.alt-loc: wdbgexts.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	wdbgexts.h
+apiname: 
+-	dprintf
+product: Windows
+targetos: Windows
+req.typenames: *PVPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT
 req.product: Windows 10 or later.
 ---
 
 # PWINDBG_OUTPUT_ROUTINE callback
 
 
-
 ## -description
+
+
 The callback function implements the functionality to print a formatted string to the Debugger Command window. 
 
 The wdbgexts.h header declares a macro, <b>dprintf</b> that  prints the formatted string. It works like the C-language routine <b>printf</b>. 
 
 
-
 ## -prototype
+
 
 ````
 PWINDBG_OUTPUT_ROUTINE dprintf;
@@ -61,12 +71,25 @@ VOID dprintf(
 
 ## -parameters
 
-### -param format [in]
+
+
+
+### -param lpFormat
+
+
+
+### -param ...
+
+
+
+
+
+
+#### - format [in]
 
 Specifies the format string, as in <b>printf</b>.  In general, conversion characters work exactly as in C. For the floating-point conversion characters the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
 The <b>%p</b> conversion character is supported, but it represents a pointer in the target's virtual address space.  It may not have any modifiers and it uses the debugger's internal address formatting.  The following additional conversion characters are supported:
-
 <table>
 <tr>
 <th>Character</th>
@@ -236,18 +259,24 @@ String containing the name of the specified symbol (and displacement, if any), a
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
-### -param [arguments] [in]
+#### - [arguments] [in]
 
 Specifies arguments for the format string, as in <b>printf</b>. The number of arguments specified should match the number of conversion characters in <i>FormatString</i>. Each argument is an expression that will be evaluated by the default expression evaluator (MASM or C++). For details, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552280">Numerical Expression Syntax</a>. 
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
-When generating very large output strings, it is possible the limits of the debugger engine or operating system may be reached.  For example, some versions of the debugger engine have a 16K character limit for a single piece of output.  If you find that very large output is getting truncated, you may need to split your output into multiple requests.</p>
+
+
+When generating very large output strings, it is possible the limits of the debugger engine or operating system may be reached.  For example, some versions of the debugger engine have a 16K character limit for a single piece of output.  If you find that very large output is getting truncated, you may need to split your output into multiple requests.
+
+

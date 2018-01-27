@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 734B2E28-75F8-49AE-AAAB-EB0C037C6432
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
+ms.keywords: DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE structure [Display Devices], d3dkmddi/DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, display.dxgk_buildpagingbuffer_updatepagetable, _DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
+product: Windows
+targetos: Windows
 req.typenames: DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
 ---
 
 # _DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE structure
 
 
-
 ## -description
+
+
 <b>DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</b> is used as part of a page table update operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE {
@@ -66,6 +76,9 @@ typedef struct _DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PageTableLevel
 
@@ -139,5 +152,3 @@ The entries which need to be copied from the 64KB page tables. The index zero in
 
 The GPU virtual address that is mapped by the first updated page table entry.
 
-
-## -remarks

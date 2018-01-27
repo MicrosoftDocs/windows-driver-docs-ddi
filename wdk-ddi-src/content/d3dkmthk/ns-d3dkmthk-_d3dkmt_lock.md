@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0f985d0b-2b98-413d-a736-c507743ac786
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_LOCK, D3DKMT_LOCK
+ms.keywords: display.d3dkmt_lock, OpenGL_Structs_08e60652-b888-4a1e-a9c6-3dee8f0fb50d.xml, d3dkmthk/D3DKMT_LOCK, D3DKMT_LOCK, D3DKMT_LOCK structure [Display Devices], _D3DKMT_LOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_LOCK
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_LOCK
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_LOCK
 ---
 
 # _D3DKMT_LOCK structure
 
 
-
 ## -description
+
+
 The D3DKMT_LOCK structure describes parameters for locking an allocation. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_LOCK {
@@ -60,6 +70,9 @@ typedef struct _D3DKMT_LOCK {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -105,21 +118,14 @@ This member is reserved and should be set to zero.
 This member is available beginning with Windows 7.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lockflags.md">D3DDDICB_LOCKFLAGS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock.md">D3DKMTLock</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a>
-</dt>
-</dl>
+
  
 
  

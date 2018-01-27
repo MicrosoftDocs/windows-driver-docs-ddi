@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 79ff278c-a30e-49f6-9146-badf24970de2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfFdoLockStaticChildListForIteration
+ms.keywords: PFN_WDFFDOLOCKSTATICCHILDLISTFORITERATION, kmdf.wdffdolockstaticchildlistforiteration, DFDeviceObjectFdoPdoRef_d20e71b2-fc76-4eb5-9911-bb7014467b4e.xml, wdf.wdffdolockstaticchildlistforiteration, WdfFdoLockStaticChildListForIteration, wdffdo/WdfFdoLockStaticChildListForIteration, WdfFdoLockStaticChildListForIteration method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfFdoLockStaticChildListForIteration
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfFdoLockStaticChildListForIteration
+product: Windows
+targetos: Windows
 req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WdfFdoLockStaticChildListForIteration function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfFdoLockStaticChildListForIteration</b> method prepares the framework for retrieving items from the static child list that belongs to a specified parent device. 
 
 
-
 ## -syntax
+
 
 ````
 VOID WdfFdoLockStaticChildListForIteration(
@@ -57,18 +68,26 @@ VOID WdfFdoLockStaticChildListForIteration(
 
 ## -parameters
 
+
+
+
 ### -param Fdo [in]
 
 A handle to a framework device object that represents the parent device.
 
 
 ## -returns
+
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
+
 ## -remarks
+
+
 Bus drivers that use static bus enumeration can call <b>WdfFdoLockStaticChildListForIteration</b>. 
 
 After calling <b>WdfFdoLockStaticChildListForIteration</b>, the driver can repeatedly call <a href="..\wdffdo\nf-wdffdo-wdffdoretrievenextstaticchild.md">WdfFdoRetrieveNextStaticChild</a> to obtain information about each child device in the child list. 
@@ -81,15 +100,12 @@ The driver can nest calls to <b>WdfFdoLockStaticChildListForIteration</b> and <a
 
 For more information about static child lists, see <a href="https://msdn.microsoft.com/58377f17-a9dc-4096-af23-36f8d8dbb87e">Static Enumeration</a>.
 
-For a code example that uses <b>WdfFdoLockStaticChildListForIteration</b>, see <a href="..\wdffdo\nf-wdffdo-wdffdoretrievenextstaticchild.md">WdfFdoRetrieveNextStaticChild</a>.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdffdo\nf-wdffdo-wdffdounlockstaticchildlistfromiteration.md">WdfFdoUnlockStaticChildListFromIteration</a>
-</dt>
-</dl>
+
  
 
  

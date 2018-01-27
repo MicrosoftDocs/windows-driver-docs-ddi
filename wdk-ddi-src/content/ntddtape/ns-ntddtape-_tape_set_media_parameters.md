@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f038eb24-71d2-414c-ad7c-06cb1fa24070
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _TAPE_SET_MEDIA_PARAMETERS, TAPE_SET_MEDIA_PARAMETERS, *PTAPE_SET_MEDIA_PARAMETERS
+ms.keywords: structs-tape_83d386fe-a430-4c8f-af97-2f6c7ecc4b67.xml, PTAPE_SET_MEDIA_PARAMETERS structure pointer [Storage Devices], TAPE_SET_MEDIA_PARAMETERS structure [Storage Devices], ntddtape/PTAPE_SET_MEDIA_PARAMETERS, *PTAPE_SET_MEDIA_PARAMETERS, ntddtape/TAPE_SET_MEDIA_PARAMETERS, _TAPE_SET_MEDIA_PARAMETERS, PTAPE_SET_MEDIA_PARAMETERS, TAPE_SET_MEDIA_PARAMETERS, storage.tape_set_media_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TAPE_SET_MEDIA_PARAMETERS
-req.alt-loc: ntddtape.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: TAPE_SET_MEDIA_PARAMETERS, *PTAPE_SET_MEDIA_PARAMETERS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddtape.h
+apiname: 
+-	TAPE_SET_MEDIA_PARAMETERS
+product: Windows
+targetos: Windows
+req.typenames: *PTAPE_SET_MEDIA_PARAMETERS, TAPE_SET_MEDIA_PARAMETERS
 ---
 
 # _TAPE_SET_MEDIA_PARAMETERS structure
 
 
-
 ## -description
+
+
 The TAPE_SET_MEDIA_PARAMETERS structure is used in conjunction with the <a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_media_params.md">IOCTL_TAPE_SET_MEDIA_PARAMS</a> request to reset the block size of the media in a tape drive.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _TAPE_SET_MEDIA_PARAMETERS {
@@ -54,23 +64,20 @@ typedef struct _TAPE_SET_MEDIA_PARAMETERS {
 
 ## -struct-fields
 
+
+
+
 ### -field BlockSize
 
 Indicates the requested block size, in bytes, or zero for variable block size in a drive that supports it. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_media_params.md">IOCTL_TAPE_SET_MEDIA_PARAMS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567953">TapeMiniSetMediaParameters</a>
-</dt>
-</dl>
+
+<a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_media_params.md">IOCTL_TAPE_SET_MEDIA_PARAMS</a>
+
  
 
  

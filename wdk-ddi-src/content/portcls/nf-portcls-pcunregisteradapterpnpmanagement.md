@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 51BBE9F6-7661-45A1-8416-9AAA307FCA10
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcUnregisterAdapterPnpManagement
+ms.keywords: portcls/PcUnregisterAdapterPnpManagement, audio.pcunregisteradapterpnpmanagement, PcUnregisterAdapterPnpManagement, PcUnregisterAdapterPnpManagement function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 10, version 1511 and later ver
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PcUnregisterAdapterPnpManagement
-req.alt-loc: Portcls.lib,Portcls.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Portcls.lib
+-	Portcls.dll
+apiname: 
+-	PcUnregisterAdapterPnpManagement
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # PcUnregisterAdapterPnpManagement function
 
 
-
 ## -description
+
+
 The <b>PcUnregisterAdapterPnpManagement</b> function unregisters the audio adapter's PnP management interface from the PortCls class driver.  It is used to support PnP rebalance. 
 
 
-
 ## -syntax
+
 
 ````
 PORTCLASSAPI NTSTATUS NTAPI PcUnregisterAdapterPnpManagement(
@@ -54,16 +65,24 @@ PORTCLASSAPI NTSTATUS NTAPI PcUnregisterAdapterPnpManagement(
 
 ## -parameters
 
+
+
+
 ### -param DeviceObject [in]
 
 Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 
 
 ## -returns
+
+
 The <b>PcUnregisterAdapterPnpManagement</b>  function returns STATUS_SUCCESS if the function call was successful. Otherwise, it returns the appropriate error code.
 
 
+
 ## -remarks
+
+
 The <b>PcUnregisterAdapterPnpManagement</b>  function unregisters a driver's PnP management interface that was registered with PortCls by using the <b>PcUnregisterAdapterPnpManagement</b>  function. 
 
  This function must only be called if the PnP management interface for the adapter was previously registered with PortCls using <a href="..\portcls\nf-portcls-pcregisteradapterpnpmanagement.md">PcRegisterAdapterPnpManagement</a>.
@@ -74,15 +93,13 @@ Portcls uses <a href="..\portcls\nf-portcls-pcregisteradapterpnpmanagement.md">P
 For more information,  see <a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430A-BCAF-04E13FA15382">Implement PnP Rebalance for PortCls Audio Drivers</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-<dt>
+
 <a href="..\portcls\nf-portcls-pcregisteradapterpnpmanagement.md">PcRegisterAdapterPnpManagement</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
  
 
  

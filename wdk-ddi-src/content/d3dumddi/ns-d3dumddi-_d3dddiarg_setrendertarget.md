@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88b0de48-1b85-4733-809c-6d8da657e920
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_SETRENDERTARGET, D3DDDIARG_SETRENDERTARGET
+ms.keywords: D3DDDIARG_SETRENDERTARGET structure [Display Devices], _D3DDDIARG_SETRENDERTARGET, d3dumddi/D3DDDIARG_SETRENDERTARGET, UMDisplayDriver_param_Structs_42cfb4bf-f5af-4008-9c6d-062e910b3238.xml, D3DDDIARG_SETRENDERTARGET, display.d3dddiarg_setrendertarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_SETRENDERTARGET
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_SETRENDERTARGET
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_SETRENDERTARGET
 ---
 
 # _D3DDDIARG_SETRENDERTARGET structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_SETRENDERTARGET structure describes the render target surface. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_SETRENDERTARGET {
@@ -55,6 +65,9 @@ typedef struct _D3DDDIARG_SETRENDERTARGET {
 
 
 ## -struct-fields
+
+
+
 
 ### -field RenderTargetIndex
 
@@ -71,15 +84,10 @@ typedef struct _D3DDDIARG_SETRENDERTARGET {
 [in] An index into the resource for the render target.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setrendertarget.md">SetRenderTarget</a>
-</dt>
-</dl>
+
  
 
  

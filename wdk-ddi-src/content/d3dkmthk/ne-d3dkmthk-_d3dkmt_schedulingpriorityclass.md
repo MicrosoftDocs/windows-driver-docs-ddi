@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d42e37d0-0ba9-4b79-903d-fdbb478ab196
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_SCHEDULINGPRIORITYCLASS, D3DKMT_SCHEDULINGPRIORITYCLASS
+ms.keywords: d3dkmthk/D3DKMT_SCHEDULINGPRIORITYCLASS_NORMAL, d3dkmthk/D3DKMT_SCHEDULINGPRIORITYCLASS_IDLE, D3DKMT_SCHEDULINGPRIORITYCLASS_ABOVE_NORMAL, D3DKMT_SCHEDULINGPRIORITYCLASS_IDLE, d3dkmthk/D3DKMT_SCHEDULINGPRIORITYCLASS_REALTIME, _D3DKMT_SCHEDULINGPRIORITYCLASS, D3DKMT_SCHEDULINGPRIORITYCLASS, d3dkmthk/D3DKMT_SCHEDULINGPRIORITYCLASS_HIGH, d3dkmthk/D3DKMT_SCHEDULINGPRIORITYCLASS, D3DKMT_SCHEDULINGPRIORITYCLASS_NORMAL, D3DKMT_SCHEDULINGPRIORITYCLASS_BELOW_NORMAL, d3dkmthk/D3DKMT_SCHEDULINGPRIORITYCLASS_BELOW_NORMAL, d3dkmthk/D3DKMT_SCHEDULINGPRIORITYCLASS_ABOVE_NORMAL, D3DKMT_SCHEDULINGPRIORITYCLASS_HIGH, OpenGL_Structs_4e331f58-8ed5-4aff-ac73-5af374f0d556.xml, D3DKMT_SCHEDULINGPRIORITYCLASS_REALTIME, D3DKMT_SCHEDULINGPRIORITYCLASS enumeration [Display Devices], display.d3dkmt_schedulingpriorityclass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_SCHEDULINGPRIORITYCLASS
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_SCHEDULINGPRIORITYCLASS
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_SCHEDULINGPRIORITYCLASS
 ---
 
 # _D3DKMT_SCHEDULINGPRIORITYCLASS enumeration
 
 
-
 ## -description
+
+
 The D3DKMT_SCHEDULINGPRIORITYCLASS enumeration type contains values that describe the scheduling priority for a process.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3DKMT_SCHEDULINGPRIORITYCLASS { 
@@ -58,6 +68,9 @@ typedef enum _D3DKMT_SCHEDULINGPRIORITYCLASS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DKMT_SCHEDULINGPRIORITYCLASS_IDLE
 
@@ -89,18 +102,12 @@ The scheduling priority of the process is high.
 The scheduling priority of the process is in real time.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetprocessschedulingpriorityclass.md">D3DKMTGetProcessSchedulingPriorityClass</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetprocessschedulingpriorityclass.md">D3DKMTSetProcessSchedulingPriorityClass</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetprocessschedulingpriorityclass.md">D3DKMTGetProcessSchedulingPriorityClass</a>
+
  
 
  

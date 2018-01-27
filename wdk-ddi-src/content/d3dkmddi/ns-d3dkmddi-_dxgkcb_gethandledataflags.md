@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 01689a2f-115a-4db8-b53d-38717c10a0ff
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKCB_GETHANDLEDATAFLAGS, DXGKCB_GETHANDLEDATAFLAGS
+ms.keywords: DmStructs_a0288df8-0513-4823-9445-cd86ff45a186.xml, DXGKCB_GETHANDLEDATAFLAGS, DXGKCB_GETHANDLEDATAFLAGS structure [Display Devices], d3dkmddi/DXGKCB_GETHANDLEDATAFLAGS, display.dxgkcb_gethandledataflags, _DXGKCB_GETHANDLEDATAFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKCB_GETHANDLEDATAFLAGS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKCB_GETHANDLEDATAFLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGKCB_GETHANDLEDATAFLAGS
 ---
 
 # _DXGKCB_GETHANDLEDATAFLAGS structure
 
 
-
 ## -description
+
+
 The DXGKCB_GETHANDLEDATAFLAGS structure indicates if allocations belong to a resource.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKCB_GETHANDLEDATAFLAGS {
@@ -59,6 +69,9 @@ typedef struct _DXGKCB_GETHANDLEDATAFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DeviceSpecific
 
@@ -77,15 +90,10 @@ This member is reserved and should be set to zero. Setting this member to zero i
 A member in the union that DXGKCB_GETHANDLEDATAFLAGS contains that can hold a 32-bit value that indicates if allocations belong to a resource.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_gethandledata.md">DXGKARGCB_GETHANDLEDATA</a>
-</dt>
-</dl>
+
  
 
  

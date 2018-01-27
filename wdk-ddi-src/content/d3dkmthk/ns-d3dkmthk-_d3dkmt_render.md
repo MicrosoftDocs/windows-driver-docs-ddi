@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8e45c4cb-3635-403b-8a91-71af6605c3be
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_RENDER, D3DKMT_RENDER
+ms.keywords: d3dkmthk/D3DKMT_RENDER, OpenGL_Structs_9da3b8d2-479c-4d6d-ba5c-70aa171121e3.xml, display.d3dkmt_render, _D3DKMT_RENDER, D3DKMT_RENDER structure [Display Devices], D3DKMT_RENDER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_RENDER
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_RENDER
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_RENDER
 ---
 
 # _D3DKMT_RENDER structure
 
 
-
 ## -description
+
+
 The D3DKMT_RENDER structure describes the current command buffer to be rendered.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_RENDER {
@@ -74,6 +84,9 @@ typedef struct _D3DKMT_RENDER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -201,21 +214,14 @@ This member is reserved and should be set to zero.
 This member is available beginning with Windows 7.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_renderflags.md">D3DKMT_RENDERFLAGS</a>
-</dt>
-<dt>
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtrender.md">D3DKMTRender</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtrender.md">D3DKMTRender</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_renderflags.md">D3DKMT_RENDERFLAGS</a>
+
  
 
  

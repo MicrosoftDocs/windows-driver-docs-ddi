@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: C2AE51AE-EEB6-49BB-A6E4-BBCE6A25C905
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUrbRetrieveBuffer
+ms.keywords: udecxurb/UdecxUrbRetrieveBuffer, UdecxUrbRetrieveBuffer function [Buses], buses.udecxurbretrievebuffer, UdecxUrbRetrieveBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 
-req.alt-api: UdecxUrbRetrieveBuffer
-req.alt-loc: Udecxstub.lib,Udecxstub.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Udecxstub.lib
+-	Udecxstub.dll
+apiname: 
+-	UdecxUrbRetrieveBuffer
+product: Windows
+targetos: Windows
+req.typenames: *PUSB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH
 req.product: Windows 10 or later.
 ---
 
 # UdecxUrbRetrieveBuffer function
 
 
-
 ## -description
+
+
 Retrieves the transfer buffer of an URB from the specified framework request object sent to the endpoint queue.
 
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE NTSTATUS UdecxUrbRetrieveBuffer(
@@ -57,6 +68,9 @@ FORCEINLINE NTSTATUS UdecxUrbRetrieveBuffer(
 
 
 ## -parameters
+
+
+
 
 ### -param Request [in]
 
@@ -74,32 +88,48 @@ A ULONG variable that receives  the length of the buffer pointer to by <i>Transf
 
 
 ## -returns
+
+
 The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code. 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The URB does not contain a transfer buffer.
+</dl>
+</td>
+<td width="60%">
+The URB does not contain a transfer buffer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>The transfer buffer MDL was not valid. 
+</dl>
+</td>
+<td width="60%">
+The transfer buffer MDL was not valid. 
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\udecxurb\nf-udecxurb-udecxurbsetbytescompleted.md">UdecxUrbSetBytesCompleted</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
+<a href="..\udecxurb\nf-udecxurb-udecxurbsetbytescompleted.md">UdecxUrbSetBytesCompleted</a>
+
  
 
  

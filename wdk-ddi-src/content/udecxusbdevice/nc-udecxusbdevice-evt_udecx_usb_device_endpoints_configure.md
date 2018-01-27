@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5E425011-BFC7-434C-9D0A-DB4481EC315F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUrbSetBytesCompleted
+ms.keywords: buses.evt_udecx_usb_device_endpoints_configure, EvtUsbDeviceEndpointsConfigure callback function [Buses], EvtUsbDeviceEndpointsConfigure, EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE, EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE, udecxusbdevice/EvtUsbDeviceEndpointsConfigure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 
-req.alt-api: EvtUsbDeviceEndpointsConfigure
-req.alt-loc: UdecxUsbDevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	UdecxUsbDevice.h
+apiname: 
+-	EvtUsbDeviceEndpointsConfigure
+product: Windows
+targetos: Windows
+req.typenames: *PUSB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH
 req.product: Windows 10 or later.
 ---
 
 # EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE callback
 
 
-
 ## -description
+
+
 The USB device emulation class extension (UdeCx) invokes this callback function to change the configuration by selecting an alternate setting, disabling current endpoints, or adding dynamic endpoints.
 
 
-
 ## -prototype
+
 
 ````
 EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE EvtUsbDeviceEndpointsConfigure;
@@ -59,6 +69,9 @@ void EvtUsbDeviceEndpointsConfigure(
 
 
 ## -parameters
+
+
+
 
 ### -param UdecxUsbDevice [in]
 
@@ -76,10 +89,15 @@ A pointer to a <a href="..\udecxusbdevice\ns-udecxusbdevice-_udecx_endpoints_con
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 The client driver registered this callback function in a previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitsetstatechangecallbacks.md">UdecxUsbDeviceInitSetStateChangeCallbacks</a> by supplying a function pointer to its implementation.
 
 The class extension invokes this  callback function to request the client driver to configure one or more new endpoints into hardware, and/or informs the driver when one or more existing endpoints is no longer being used. 
@@ -96,18 +114,15 @@ This call is asynchronous. The client driver must signals completion with status
 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointsetwdfioqueue.md">UdecxUsbEndpointSetWdfIoQueue</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
+<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointsetwdfioqueue.md">UdecxUsbEndpointSetWdfIoQueue</a>
+
  
 
  

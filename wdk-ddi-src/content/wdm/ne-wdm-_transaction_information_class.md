@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f3211114-8924-4e57-85a3-12471585652b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _TRANSACTION_INFORMATION_CLASS, TRANSACTION_INFORMATION_CLASS
+ms.keywords: _TRANSACTION_INFORMATION_CLASS, ktm_ref_b02f7265-fb29-402a-b0d3-79427735f354.xml, TRANSACTION_INFORMATION_CLASS, wdm/TransactionPropertiesInformation, TransactionSuperiorEnlistmentInformation, wdm/TransactionEnlistmentInformation, TransactionPropertiesInformation, wdm/TransactionSuperiorEnlistmentInformation, wdm/TRANSACTION_INFORMATION_CLASS, TransactionBasicInformation, wdm/TransactionBasicInformation, kernel.transaction_information_class, TRANSACTION_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TransactionEnlistmentInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TRANSACTION_INFORMATION_CLASS
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	TRANSACTION_INFORMATION_CLASS
+product: Windows
+targetos: Windows
 req.typenames: TRANSACTION_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _TRANSACTION_INFORMATION_CLASS enumeration
 
 
-
 ## -description
+
+
 The <b>TRANSACTION_INFORMATION_CLASS</b> enumeration specifies the type of information that <a href="..\wdm\nf-wdm-zwsetinformationtransaction.md">ZwSetInformationTransaction</a> can set and <a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a> can retrieve for a <a href="https://msdn.microsoft.com/af53cda4-e2ab-47df-9311-a4da2a2ee08d">transaction manager object</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _TRANSACTION_INFORMATION_CLASS { 
@@ -57,6 +67,9 @@ typedef enum _TRANSACTION_INFORMATION_CLASS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field TransactionBasicInformation
 
@@ -78,18 +91,12 @@ Information about a transaction manager object is stored in a <a href="..\wdm\ns
 Information about a transaction manager object is stored in a <b>TRANSACTION_SUPERIOR_ENLISTMENT_INFORMATION</b> structure.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwsetinformationtransaction.md">ZwSetInformationTransaction</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+
  
 
  

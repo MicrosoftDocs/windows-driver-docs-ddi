@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 21FE4E54-5B7D-4068-AC83-A7AFFA739169
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3, *IN_OUT_PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3
+ms.keywords: DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3 structure [Display Devices], _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3, d3dkmddi/DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3, display.dxgkarg_checkmultiplaneoverlaysupport3, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3, *IN_OUT_PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3
 ---
 
 # _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3 structure
 
 
-
 ## -description
+
+
 Used in a call to the DxgkDdiCheckMultiPlaneOverlaySupport3 function to check details on hardware support for multi-plane overlays.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3 {
@@ -58,6 +68,9 @@ typedef struct _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PlaneCount
 
@@ -88,5 +101,3 @@ TRUE if the multi-plane overlay configuration can be supported, otherwise FALSE.
 
 Specifies additional information
 
-
-## -remarks

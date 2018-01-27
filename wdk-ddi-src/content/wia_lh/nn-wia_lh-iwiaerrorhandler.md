@@ -7,8 +7,8 @@ old-location: image\iwiaerrorhandler_interface.htm
 old-project: image
 ms.assetid: b441fbca-75fe-4b9d-a9d5-2ad5a4a55801
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: IWiaTransferCallback, IWiaTransferCallback::TransferCallback, TransferCallback
+ms.date: 1/18/2018
+ms.keywords: image.iwiaerrorhandler_interface, IWiaErrorHandler interface [Imaging Devices], IWiaErrorHandler interface [Imaging Devices], described, IWiaErrorHandler, wia_lh/IWiaErrorHandler, IWiaErrorHandler_0a501695-14b7-4aab-aee8-19ce74caea94.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IWiaErrorHandler
-req.alt-loc: wia_lh.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wia_lh.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	wia_lh.h
+apiname: 
+-	IWiaErrorHandler
+product: Windows
+targetos: Windows
 req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
 ---
@@ -38,25 +47,14 @@ req.product: Windows 10 or later.
 # IWiaErrorHandler interface
 
 
-
 ## -description
+
+
 The <b>IWiaErrorHandler</b> interface provides the <a href="https://msdn.microsoft.com/c3b5622d-9d51-4008-abb0-c8a60c4a6b16">GetStatusDescription</a> and <a href="https://msdn.microsoft.com/c244d5a1-d3c1-4f8f-9b55-3729e5f13887">ReportStatus</a> methods, which enable minidrivers to give users information about status or errors during a data transfer and possibly give an opportunity to recover from errors.
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaErrorHandler</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IWiaErrorHandler</b> also has these types of members:
-
-The <b>IWiaErrorHandler</b> interface has these methods.
-
- The system UI calls the <a href="https://msdn.microsoft.com/c3b5622d-9d51-4008-abb0-c8a60c4a6b16">GetStatusDescription</a> method to provide the user with extra information about an error, if the user requests this information. This method is implemented by a driver's UI extension.
-
-The <a href="https://msdn.microsoft.com/c244d5a1-d3c1-4f8f-9b55-3729e5f13887">ReportStatus</a> method displays information about an error or status during a transfer. In some cases this method allows the user to recover from an error.
-
- 
-
-
 ## -members
+
 The <b>IWiaErrorHandler</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -87,5 +85,3 @@ The <a href="https://msdn.microsoft.com/c244d5a1-d3c1-4f8f-9b55-3729e5f13887">Re
 
  
 
-
-## -remarks

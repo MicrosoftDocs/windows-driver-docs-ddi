@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 11f5201b-ddd3-43ad-9746-a1a9885c99b1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _TAPE_INIT_DATA, TAPE_INIT_DATA, *PTAPE_INIT_DATA
+ms.keywords: TAPE_INIT_DATA, minitape/TAPE_INIT_DATA, *PTAPE_INIT_DATA, structs-tape_53b2f7ff-8718-4ac7-9a02-9c2f066b6884.xml, storage.tape_init_data, TAPE_INIT_DATA structure [Storage Devices], _TAPE_INIT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TAPE_INIT_DATA
-req.alt-loc: Minitape.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,43 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: TAPE_INIT_DATA, *PTAPE_INIT_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Minitape.h
+apiname: 
+-	TAPE_INIT_DATA
+product: Windows
+targetos: Windows
+req.typenames: *PTAPE_INIT_DATA, TAPE_INIT_DATA
 ---
 
 # _TAPE_INIT_DATA structure
 
 
-
 ## -description
+
+
 TAPE_INIT_DATA is used only by legacy tape miniclass drivers. Use <a href="..\minitape\ns-minitape-_tape_init_data_ex.md">TAPE_INIT_DATA_EX</a> instead. 
 
 
+## -struct-fields
 
-## -syntax
 
-````
-typedef struct _TAPE_INIT_DATA { 
+## -remarks
+
+
+TAPE_INIT_DATA is defined as follows.
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _TAPE_INIT_DATA { 
   TAPE_VERIFY_INQUIRY_ROUTINE     VerifyInquiry;   
   BOOLEAN                         QueryModeCapabilitiesPage; 
   ULONG                           MinitapeExtensionSize; 
@@ -66,12 +85,8 @@ typedef struct _TAPE_INIT_DATA {
   TAPE_PROCESS_COMMAND_ROUTINE    SetPosition; 
   TAPE_PROCESS_COMMAND_ROUTINE    WriteMarks; 
   TAPE_PROCESS_COMMAND_ROUTINE    PreProcessReadWrite; 
-} TAPE_INIT_DATA, *PTAPE_INIT_DATA;
-````
+} TAPE_INIT_DATA, *PTAPE_INIT_DATA;</pre>
+</td>
+</tr>
+</table></span></div>
 
-
-## -struct-fields
-
-
-## -remarks
-TAPE_INIT_DATA is defined as follows.</p>

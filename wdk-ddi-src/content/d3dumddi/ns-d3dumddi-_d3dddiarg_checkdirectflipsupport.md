@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 70df85b6-286a-45a2-813d-adb54daee122
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_CHECKDIRECTFLIPSUPPORT, D3DDDIARG_CHECKDIRECTFLIPSUPPORT
+ms.keywords: d3dumddi/D3DDDIARG_CHECKDIRECTFLIPSUPPORT, D3DDDIARG_CHECKDIRECTFLIPSUPPORT, D3DDDIARG_CHECKDIRECTFLIPSUPPORT structure [Display Devices], display.d3dddiarg_checkdirectflipsupport, _D3DDDIARG_CHECKDIRECTFLIPSUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_CHECKDIRECTFLIPSUPPORT
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	D3DDDIARG_CHECKDIRECTFLIPSUPPORT
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_CHECKDIRECTFLIPSUPPORT
 ---
 
 # _D3DDDIARG_CHECKDIRECTFLIPSUPPORT structure
 
 
-
 ## -description
+
+
 Specifies resources used for Direct Flip operations, in which video memory is seamlessly flipped between an application's managed primary allocations and the Desktop Window Manager's (DWM) managed primary allocations. This structure is pointed to by the <i>pData</i> parameter of the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkdirectflipsupport.md">CheckDirectFlipSupport</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_CHECKDIRECTFLIPSUPPORT {
@@ -56,6 +66,9 @@ typedef struct _D3DDDIARG_CHECKDIRECTFLIPSUPPORT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hAppSwapchainResource
 
@@ -77,15 +90,10 @@ typedef struct _D3DDDIARG_CHECKDIRECTFLIPSUPPORT {
 [out] Set to <b>TRUE</b> if the driver can seamlessly flip video memory between  an application's managed primary allocations and the DWM's managed primary allocations. Otherwise, set to <b>FALSE</b>.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkdirectflipsupport.md">CheckDirectFlipSupport</a>
-</dt>
-</dl>
+
  
 
  

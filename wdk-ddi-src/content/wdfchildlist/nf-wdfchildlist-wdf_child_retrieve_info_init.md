@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e41a656c-c507-45ca-a232-6926ace3c9d9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_CHILD_RETRIEVE_INFO_INIT
+ms.keywords: kmdf.wdf_child_retrieve_info_init, WDF_CHILD_RETRIEVE_INFO_INIT function, wdf.wdf_child_retrieve_info_init, wdfchildlist/WDF_CHILD_RETRIEVE_INFO_INIT, WDF_CHILD_RETRIEVE_INFO_INIT, DFDeviceObjectChildListRef_f647d2ee-4714-49b9-9ba4-18488fd66628.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WDF_CHILD_RETRIEVE_INFO_INIT
-req.alt-loc: Wdfchildlist.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdfchildlist.h
+apiname: 
+-	WDF_CHILD_RETRIEVE_INFO_INIT
+product: Windows
+targetos: Windows
 req.typenames: WDF_RETRIEVE_CHILD_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # WDF_CHILD_RETRIEVE_INFO_INIT function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_CHILD_RETRIEVE_INFO_INIT</b> function initializes a <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_retrieve_info.md">WDF_CHILD_RETRIEVE_INFO</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 VOID WDF_CHILD_RETRIEVE_INFO_INIT(
@@ -57,6 +67,9 @@ VOID WDF_CHILD_RETRIEVE_INFO_INIT(
 
 
 ## -parameters
+
+
+
 
 ### -param Info [out]
 
@@ -69,23 +82,18 @@ A pointer to a driver-supplied <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_chi
 
 
 ## -returns
+
+
 None
 
-For a code example that uses <b>WDF_CHILD_RETRIEVE_INFO_INIT</b>, see <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>.
-
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_retrieve_info.md">WDF_CHILD_RETRIEVE_INFO</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: CFB7E2EA-22D9-4181-B773-BC5691B28CFD
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, *PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
+ms.keywords: SystemManagedIdleTimeoutWithHint, wdfdevice/SystemManagedIdleTimeoutWithHint, wdfdevice/PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, *PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, SystemManagedIdleTimeout, PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdfdevice/DriverManagedIdleTimeout, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration, kmdf.wdf_power_policy_idle_timeout_type, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdf.wdf_power_policy_idle_timeout_type, PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration pointer, DriverManagedIdleTimeout, wdfdevice/SystemManagedIdleTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.11
 req.umdf-ver: 2.0
-req.alt-api: WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
-req.alt-loc: wdfdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfdevice.h
+apiname: 
+-	WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
+product: Windows
+targetos: Windows
 req.typenames: WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, *PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,16 +47,17 @@ req.product: Windows 10 or later.
 # _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 
    The <b>WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE</b> enumeration identifies how the idle timeout for a device is determined.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE { 
@@ -59,6 +69,9 @@ typedef enum _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DriverManagedIdleTimeout
 
@@ -86,15 +99,16 @@ On operating systems earlier than Windows 8, the behavior is the same as <b>Dri
 
 
 ## -remarks
+
+
 The <b>WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE</b> enumeration is used in the <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_idle_settings.md">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_idle_settings.md">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a>
-</dt>
-</dl>
+
  
 
  

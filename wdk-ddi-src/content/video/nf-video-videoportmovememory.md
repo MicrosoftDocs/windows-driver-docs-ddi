@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 32b754ef-2a85-4ba7-9d4f-3c2de2501319
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortMoveMemory
+ms.keywords: video/VideoPortMoveMemory, VideoPortMoveMemory function [Display Devices], VideoPort_Functions_ab574585-85be-48ea-9713-25867812699a.xml, display.videoportmovememory, VideoPortMoveMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortMoveMemory
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortMoveMemory
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortMoveMemory function
 
 
-
 ## -description
+
+
 The <b>VideoPortMoveMemory</b> function copies data from the source location to the destination location in system memory.
 
 
-
 ## -syntax
+
 
 ````
 VOID VideoPortMoveMemory(
@@ -57,6 +67,9 @@ VOID VideoPortMoveMemory(
 
 ## -parameters
 
+
+
+
 ### -param Destination [in, out]
 
 Pointer to the destination location.
@@ -67,38 +80,39 @@ Pointer to the destination location.
 Pointer to the location of the data to copy.
 
 
-### -param Length 
+### -param Length
 
 Specifies the number of bytes to copy.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>VideoPortMoveMemory</b> moves memory either forward or backward, aligned or unaligned, in 4-byte blocks, followed by any remaining bytes.
 
-The given <i>Destination</i> and <i>Source</i> must be in a mapped logical range returned by <b>VideoPortGetDeviceBase</b> and/or a <a href="wdkgloss.s#wdkgloss.system_space#wdkgloss.system_space"><i>system space</i></a> RAM address, such as an address on the stack.
+The given <i>Destination</i> and <i>Source</i> must be in a mapped logical range returned by <b>VideoPortGetDeviceBase</b> and/or a <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">system space</a> RAM address, such as an address on the stack.
 
 Callers of <b>VideoPortMoveMemory</b> can be running at any IRQL if both memory blocks are resident. Otherwise, the caller must be running at IRQL &lt; DISPATCH_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\video\nf-video-videoportcomparememory.md">VideoPortCompareMemory</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
-</dt>
-</dl>
+
+<a href="..\video\nf-video-videoportcomparememory.md">VideoPortCompareMemory</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 42401474-ea2d-441f-ad70-bd95544933ac
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltSupportsFileContextsEx
+ms.keywords: FltSupportsFileContextsEx, fltkernel/FltSupportsFileContextsEx, FltApiRef_p_to_z_3e8b5485-5c61-4405-9c5d-7d7c966f0478.xml, ifsk.fltsupportsfilecontextsex, FltSupportsFileContextsEx routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Windows Vista and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltSupportsFileContextsEx
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltSupportsFileContextsEx
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltSupportsFileContextsEx function
 
 
-
 ## -description
+
+
 The <b>FltSupportsFileContextsEx</b> routine determines whether the file system or the filter manager support file contexts for a given file. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FltSupportsFileContextsEx(
@@ -54,6 +64,9 @@ BOOLEAN FltSupportsFileContextsEx(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -66,10 +79,15 @@ Opaque instance pointer for the caller. This parameter is optional and can be <b
 
 
 ## -returns
+
+
 <b>FltSupportsFileContextsEx</b> returns <b>TRUE</b> if the file system or filter manager supports file contexts for the file; <b>FALSE</b> otherwise. 
 
 
+
 ## -remarks
+
+
 Minifilter drivers call the <b>FltSupportsFileContextsEx</b> routine to determine whether the underlying file system or the filter manager supports file contexts for the file that is represented by a given file object. 
 
 For file systems (such as FAT) that support only a single data stream per file, file contexts are equivalent to stream contexts. Such file systems usually support stream contexts but do not support file contexts. Instead, the filter manager provides file context support, using the file system's existing support for stream contexts. For minifilter instances attached to these file systems, <a href="..\fltkernel\nf-fltkernel-fltsupportsfilecontexts.md">FltSupportsFileContexts</a> returns <b>FALSE</b>, while <b>FltSupportsFileContextsEx</b> returns <b>TRUE</b> (when a valid non-<b>NULL</b> value is passed for the <i>Instance</i> parameter). 
@@ -91,30 +109,23 @@ To set a file context, call <a href="..\fltkernel\nf-fltkernel-fltsetfilecontext
 To decrement the reference count on a context, call <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltdeletefilecontext.md">FltDeleteFileContext</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltgetfilecontext.md">FltGetFileContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltsetfilecontext.md">FltSetFileContext</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltsupportsfilecontexts.md">FltSupportsFileContexts</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltsetfilecontext.md">FltSetFileContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
  
 
  

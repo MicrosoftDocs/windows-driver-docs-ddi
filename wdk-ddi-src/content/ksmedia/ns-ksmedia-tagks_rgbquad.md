@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 49231293-286b-486d-b8f9-b44bdb845e7b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_RGBQUAD, KS_RGBQUAD, *PKS_RGBQUAD
+ms.keywords: ksmedia/KS_RGBQUAD, vidcapstruct_c081668e-9e81-4c30-89d1-b4c26dc9a300.xml, ksmedia/PKS_RGBQUAD, PKS_RGBQUAD structure pointer [Streaming Media Devices], KS_RGBQUAD structure [Streaming Media Devices], tagKS_RGBQUAD, stream.ks_rgbquad, PKS_RGBQUAD, *PKS_RGBQUAD, KS_RGBQUAD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_RGBQUAD
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KS_RGBQUAD
+product: Windows
+targetos: Windows
 req.typenames: KS_RGBQUAD, *PKS_RGBQUAD
 ---
 
 # tagKS_RGBQUAD structure
 
 
-
 ## -description
+
+
 The KS_RGBQUAD structure describes a color consisting of relative intensities of red, green, and blue, ranging from 0 to 255 (0x0 to 0xff).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagKS_RGBQUAD {
@@ -56,6 +66,9 @@ typedef struct tagKS_RGBQUAD {
 
 
 ## -struct-fields
+
+
+
 
 ### -field rgbBlue
 
@@ -76,5 +89,3 @@ Specifies the intensity of red in the color.
 
 Reserved. This member must be zero.
 
-
-## -remarks

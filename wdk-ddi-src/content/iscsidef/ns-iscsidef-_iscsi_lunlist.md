@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1c477f38-c24f-45df-ab02-62ee47c0957b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ISCSI_LUNList, ISCSI_LUNList, *PISCSI_LUNList
+ms.keywords: iscsidef/PISCSI_LUNList, PISCSI_LUNList structure pointer [Storage Devices], structs-iSCSI_f6a29259-8905-438e-ba9f-1055026d7bf6.xml, *PISCSI_LUNList, _ISCSI_LUNList, storage.iscsi_lunlist, ISCSI_LUNList, PISCSI_LUNList, ISCSI_LUNList structure [Storage Devices], iscsidef/ISCSI_LUNList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ISCSI_LUNList
-req.alt-loc: iscsidef.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: ISCSI_LUNList, *PISCSI_LUNList
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsidef.h
+apiname: 
+-	ISCSI_LUNList
+product: Windows
+targetos: Windows
+req.typenames: *PISCSI_LUNList, ISCSI_LUNList
 ---
 
 # _ISCSI_LUNList structure
 
 
-
 ## -description
+
+
 The ISCSI_LUNList structure defines a mapping between the LUN number that is used by the operating system and the LUN number that is configured in the iSCSI target.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ISCSI_LUNList {
@@ -55,6 +65,9 @@ typedef struct _ISCSI_LUNList {
 
 
 ## -struct-fields
+
+
+
 
 ### -field TargetLUN
 
@@ -71,15 +84,10 @@ The SCSI LUN (which is valid in the local operating system) that the remote LUN 
 Reserved for Microsoft use only. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561547">ISCSI_LUNList WMI Class</a>
-</dt>
-</dl>
+
  
 
  

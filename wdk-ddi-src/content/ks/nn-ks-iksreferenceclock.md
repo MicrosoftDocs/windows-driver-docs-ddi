@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92a84bf3-34bf-4ee7-97c0-f5e6427c0464
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _KsEdit
+ms.keywords: stream.iksreferenceclock, IKsReferenceClock interface [Streaming Media Devices], IKsReferenceClock interface [Streaming Media Devices], described, IKsReferenceClock, ks/IKsReferenceClock, avintfc_7146002a-d8ab-4789-b752-863f8b2d94d2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsReferenceClock
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,55 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ks.h
+apiname: 
+-	IKsReferenceClock
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IKsReferenceClock interface
 
 
-
 ## -description
+
+
 The <b>IKsReferenceClock</b> interface is a COM-style interface that is provided by AVStream on all pins. The pin passes the request onto the master clock.
 
 
-
-## -syntax
-
-````
-    PIKSREFERENCECLOCK RefClock;
-
-    if (NT_SUCCESS (
-      KsPinGetReferenceClockInterface (
-        Pin,
-        &RefClock)
-) {
-        ... RefClock -> GetCorrelatedTime (...);
-        RefClock -> Release ();
-    }
-````
-
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsReferenceClock</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IKsReferenceClock</b> also has these types of members:
-
-The <b>IKsReferenceClock</b> interface has these methods.
-
-Queries the associated reference clock for the current correlated physical time and system time.
-
-Concurrently queries the associated reference clock for current stream time and acquires the system time. Use if obtaining a time stamp for the <b>PresentationTime</b> member of <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>.
-
-Queries the associated reference clock for the current physical time.
-
-Queries the associated reference clock for its resolution.
-
-Queries the associated reference clock for its current state.
-
-Queries the associated reference clock for the current time.
-
- 
-
-
 ## -members
+
 The <b>IKsReferenceClock</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -156,27 +130,60 @@ Queries the associated reference clock for the current time.
 
 
 ## -remarks
+
+
 The minidriver can acquire an <b>IKsReferenceClock</b> interface by calling <a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>. Because this is a COM-style interface, <b>KsPinGetReferenceClockInterface</b> calls <b>QueryInterface</b>, which in turn invokes <b>AddRef</b> to increment the interface pointer. This means that when the minidriver is finished with the <b>IKsReferenceClock</b> interface, the minidriver must release it by calling <b>Release</b>.
 
 Clients that are written in C will see the <b>IKsReferenceClock</b> interface as a structure that contains a pointer to a table of functions instead of a C++ abstract base class. A client that is written in C++ might do the following:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    PIKSREFERENCECLOCK RefClock;
 
-However, a client that is written in C would do the following instead :
+    if (NT_SUCCESS (
+      KsPinGetReferenceClockInterface (
+        Pin,
+        &amp;RefClock)
+) {
+        ... RefClock -&gt; GetCorrelatedTime (...);
+        RefClock -&gt; Release ();
+    }</pre>
+</td>
+</tr>
+</table></span></div>However, a client that is written in C would do the following instead :
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    PIKSREFERENCECLOCK RefClock;
 
-For more information, see <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e-ae1a-61c50a2f2fb3">AVStream Overview</a>.
+    If (NT_SUCCESS (
+      KsPinGetReferenceClockInterface (
+        Pin,
+        &amp;RefClock)
+    ) {
+      ... RefClock -&gt; lpVtbl -&gt; GetCorrelatedTime (...);
+      RefClock -&gt; lpVtbl -&gt; Release ();
+    }</pre>
+</td>
+</tr>
+</table></span></div>For more information, see <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e-ae1a-61c50a2f2fb3">AVStream Overview</a>.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
+
+<a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
+
  
 
  

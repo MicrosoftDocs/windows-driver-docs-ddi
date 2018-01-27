@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f33dad71-f50a-4524-8f95-abc24e4d2ce2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDI_QUERY, D3D10DDI_QUERY
+ms.keywords: D3D10DDI_COUNTER_GPU_IDLE, D3D10DDI_COUNTER_POST_TRANSFORM_CACHE_HIT_RATE, d3d10umddi/D3D10DDI_COUNTER_PIXEL_PROCESSING, UMDisplayDriver_Dx10param_Structs_b0e98ff1-735f-4727-9327-904c89a2bf2b.xml, d3d10umddi/D3D10DDI_COUNTER_TEXTURE_CACHE_HIT_RATE, d3d10umddi/D3D10DDI_COUNTER_VERTEX_THROUGHPUT_UTILIZATION, d3d10umddi/D3D11DDI_QUERY_STREAMOUTPUTSTATS_STREAM2, D3D10DDI_QUERY_TIMESTAMP, D3D11DDI_QUERY_STREAMOVERFLOWPREDICATE_STREAM1, D3D10DDI_COUNTER_GEOMETRY_PROCESSING, d3d10umddi/D3D10DDI_COUNTER_HOST_ADAPTER_BANDWIDTH_UTILIZATION, d3d10umddi/D3D11DDI_QUERY_STREAMOVERFLOWPREDICATE_STREAM1, D3D11DDI_QUERY_STREAMOVERFLOWPREDICATE_STREAM3, D3D10DDI_COUNTER_GEOMETRYSHADER_COMPUTATION_LIMITED, d3d10umddi/D3D11DDI_QUERY_STREAMOUTPUTSTATS_STREAM1, d3d10umddi/D3D10DDI_COUNTER_POST_TRANSFORM_CACHE_HIT_RATE, D3D10DDI_QUERY_STREAMOVERFLOWPREDICATE, D3D10DDI_QUERY_STREAMOUTPUTSTATS, D3D10DDI_QUERY enumeration [Display Devices], d3d10umddi/D3D10DDI_QUERY_TIMESTAMPDISJOINT, D3D10DDI_COUNTER_VERTEXSHADER_COMPUTATION_LIMITED, D3D10DDI_COUNTER_VERTEX_THROUGHPUT_UTILIZATION, d3d10umddi/D3D10DDI_COUNTER_TRISETUP_THROUGHPUT_UTILIZATION, D3D10DDI_QUERY_EVENT, D3D10DDI_QUERY_OCCLUSIONPREDICATE, d3d10umddi/D3D10DDI_COUNTER_GPU_IDLE, D3D10DDI_COUNTER_PIXELSHADER_COMPUTATION_LIMITED, D3D10DDI_QUERY_PIPELINESTATS, d3d10umddi/D3D11DDI_QUERY_STREAMOUTPUTSTATS_STREAM0, d3d10umddi/D3D11DDI_QUERY_STREAMOUTPUTSTATS_STREAM3, d3d10umddi/D3D11DDI_QUERY_STREAMOVERFLOWPREDICATE_STREAM0, d3d10umddi/D3D10DDI_QUERY_PIPELINESTATS, D3D10DDI_COUNTER_TEXTURE_CACHE_HIT_RATE, D3D10DDI_COUNTER_OTHER_GPU_PROCESSING, d3d10umddi/D3D10DDI_QUERY_TIMESTAMP, D3D11DDI_QUERY_PIPELINESTATS, d3d10umddi/D3D10DDI_QUERY, d3d10umddi/D3D10DDI_COUNTER_GEOMETRY_PROCESSING, d3d10umddi/D3D10DDI_COUNTER_GEOMETRYSHADER_COMPUTATION_LIMITED, D3D11DDI_QUERY_STREAMOVERFLOWPREDICATE_STREAM2, D3D10DDI_COUNTER_PIXEL_PROCESSING, D3D10DDI_COUNTER_LOCAL_VIDMEM_BANDWIDTH_UTILIZATION, d3d10umddi/D3D10DDI_COUNTER_VERTEXSHADER_MEMORY_LIMITED, D3D10DDI_COUNTER_GEOMETRYSHADER_MEMORY_LIMITED, d3d10umddi/D3D10DDI_COUNTER_VERTEXSHADER_COMPUTATION_LIMITED, D3D11DDI_QUERY_STREAMOUTPUTSTATS_STREAM0, D3D10DDI_COUNTER_HOST_ADAPTER_BANDWIDTH_UTILIZATION, d3d10umddi/D3D10DDI_QUERY_STREAMOUTPUTSTATS, d3d10umddi/D3D10DDI_COUNTER_GEOMETRYSHADER_MEMORY_LIMITED, d3d10umddi/D3D10DDI_COUNTER_PIXELSHADER_COMPUTATION_LIMITED, D3D10DDI_COUNTER_DEVICE_DEPENDENT_0, D3D10DDI_COUNTER_VERTEX_PROCESSING, d3d10umddi/D3D10DDI_QUERY_OCCLUSION, D3D10DDI_QUERY_TIMESTAMPDISJOINT, D3D10DDI_QUERY_OCCLUSION, display.d3d10ddi_query, d3d10umddi/D3D10DDI_COUNTER_FILLRATE_THROUGHPUT_UTILIZATION, D3D10DDI_COUNTER_TRISETUP_THROUGHPUT_UTILIZATION, d3d10umddi/D3D10DDI_COUNTER_PIXELSHADER_MEMORY_LIMITED, d3d10umddi/D3D11DDI_QUERY_STREAMOVERFLOWPREDICATE_STREAM2, D3D10DDI_QUERY, d3d10umddi/D3D10DDI_COUNTER_VERTEX_PROCESSING, D3D11DDI_QUERY_STREAMOUTPUTSTATS_STREAM3, D3D11DDI_QUERY_STREAMOUTPUTSTATS_STREAM1, D3D10DDI_COUNTER_FILLRATE_THROUGHPUT_UTILIZATION, d3d10umddi/D3D10DDI_COUNTER_LOCAL_VIDMEM_BANDWIDTH_UTILIZATION, d3d10umddi/D3D10DDI_QUERY_EVENT, d3d10umddi/D3D11DDI_QUERY_STREAMOVERFLOWPREDICATE_STREAM3, d3d10umddi/D3D10DDI_COUNTER_OTHER_GPU_PROCESSING, D3D10DDI_COUNTER_PIXELSHADER_MEMORY_LIMITED, d3d10umddi/D3D10DDI_COUNTER_DEVICE_DEPENDENT_0, D3D11DDI_QUERY_STREAMOUTPUTSTATS_STREAM2, d3d10umddi/D3D10DDI_QUERY_OCCLUSIONPREDICATE, D3D10DDI_COUNTER_VERTEXSHADER_MEMORY_LIMITED, D3D11DDI_QUERY_STREAMOVERFLOWPREDICATE_STREAM0, d3d10umddi/D3D10DDI_QUERY_STREAMOVERFLOWPREDICATE, d3d10umddi/D3D11DDI_QUERY_PIPELINESTATS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10DDI_QUERY
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10DDI_QUERY
+product: Windows
+targetos: Windows
 req.typenames: D3D10DDI_QUERY
 ---
 
 # D3D10DDI_QUERY enumeration
 
 
-
 ## -description
+
+
 The D3D10DDI_QUERY enumeration type contains values that identify a query type.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D10DDI_QUERY { 
@@ -91,6 +101,9 @@ typedef enum D3D10DDI_QUERY {
 
 ## -enum-fields
 
+
+
+
 ### -field D3D10DDI_QUERY_EVENT
 
 This query type provides a synchronization primitive that many of the following query types mimic to deal with the asynchronous nature of the graphics processing unit (GPU). An issued D3D10DDI_QUERY_EVENT becomes signaled after the GPU is finished with all of the previously issued commands, generally from the backend of the graphics pipeline. The data that the driver associates with this query type is a BOOL. However, the BOOL value is redundant because whenever a D3D10DDI_QUERY_EVENT query is signaled, the value of the BOOL is always <b>TRUE</b>. The driver should always send back the BOOL data value of <b>TRUE</b> when signaling the D3D10DDI_QUERY_EVENT.
@@ -99,10 +112,7 @@ This query type provides a synchronization primitive that many of the following 
 ### -field D3D10DDI_QUERY_OCCLUSION
 
 The statistic data that the driver associates with this query type is a UINT64. This statistic data contains the number of multisamples that passed depth and stencil testing, also known as "visible" multisamples, for all primitives since the creation of the device context. If the render target is not multisampled, the counter is incremented by the number of whole pixels that are visible. The counter should wrap around when it overflows. 
-
-<div class="alert"><b>Note</b>    The Direct3D runtime can call the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querygetdata.md">QueryGetData</a> function at any time to request this statistic data. Therefore, it must be continually calculated accurately.  </div>
-<div> </div>
-Only the difference between two independent statistic requests will provide meaningful information. The driver should calculate the difference between the statistic data that it receives when a call to its <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querybegin.md">QueryBegin</a> function occurs and the statistic data that it receives when a call to its <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_queryend.md">QueryEnd</a> function occurs. 
+<div class="alert"><b>Note</b>    The Direct3D runtime can call the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querygetdata.md">QueryGetData</a> function at any time to request this statistic data. Therefore, it must be continually calculated accurately.  </div><div> </div>Only the difference between two independent statistic requests will provide meaningful information. The driver should calculate the difference between the statistic data that it receives when a call to its <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querybegin.md">QueryBegin</a> function occurs and the statistic data that it receives when a call to its <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_queryend.md">QueryEnd</a> function occurs. 
 
 For the purposes of calcuating visible multisamples, disabled depth tests or stencil tests should behave as if the multisamples "pass" the disabled test. This produces equivalent results to when the test units were enabled with the test function set to "always". In addition, these values should be tabulated as normal even if there are no render targets bound. Because the depth and stencil tests logically occur in the output-merger stage of the pipeline, pixels that are discarded during pixel-shader execution do not increment the occlusion counter. Discarded pixels logically do not even reach the output merger. There are pipeline configurations where the only effective results that are produced from the pipeline are the tabulation of the occlusion counter. 
 
@@ -130,7 +140,6 @@ The data that the driver associates with this query type is a <a href="..\d3d10u
 Only the difference between two independent statistic requests will provide meaningful information. The driver should calculate the difference between the statistic data that it receives when a call to its <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querybegin.md">QueryBegin</a> function occurs and the statistic data that it receives when a call to its <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_queryend.md">QueryEnd</a> function occurs. 
 
 The following are examples of the interaction between the values in the <b>IAVertices</b>, <b>IAPrimitives</b>, and <b>VSInvocations</b> members of D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS with respect to post vertex shader (VS) caching.
-
 <table>
 <tr>
 <td>
@@ -222,8 +231,7 @@ Draw triangle list of 4 primitives
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 Partial primitives will be allowed to fall within range of values, similar to the way vertex caching behaves. Therefore, when partial primitives are possible, statistics should fall between a pipeline that clips them as soon as possible (before even the input assembler (IA) counts them), or as late as possible (post clipper and pre-pixel shader (PS)). Stream output and a <b>NULL</b> GS are flexible as to whether they actually cause GS invocations to occur. 
 
@@ -242,10 +250,7 @@ The data that the driver associates with this query type is a BOOL. This predica
 ### -field D3D10DDI_QUERY_STREAMOUTPUTSTATS
 
 The data that the driver associates with this query type is a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_query_data_so_statistics.md">D3D10_DDI_QUERY_DATA_SO_STATISTICS</a> structure. This structure contains statistics for monitoring the amount of data that is streamed out at the stream-output stage of the pipeline. These statistics count only complete primitives (for example, points, lines, and triangles) that are streamed out. If the primitive type changes (for example, lines to triangles), the counting is not adjusted in any way. That is, the count is always total primitives, regardless of type. 
-
-<div class="alert"><b>Note</b>    The Direct3D runtime can call the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querygetdata.md">QueryGetData</a> function at any time to request these statistics. Therefore, it must be continually calculated accurately.  </div>
-<div> </div>
-Only the difference between two independent statistic requests will provide meaningful information. The driver should calculate the difference between the statistic data that it receives when a call to its <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querybegin.md">QueryBegin</a> function occurs and the statistic data that it receives when a call to its <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_queryend.md">QueryEnd</a> function occurs. 
+<div class="alert"><b>Note</b>    The Direct3D runtime can call the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querygetdata.md">QueryGetData</a> function at any time to request these statistics. Therefore, it must be continually calculated accurately.  </div><div> </div>Only the difference between two independent statistic requests will provide meaningful information. The driver should calculate the difference between the statistic data that it receives when a call to its <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querybegin.md">QueryBegin</a> function occurs and the statistic data that it receives when a call to its <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_queryend.md">QueryEnd</a> function occurs. 
 
 
 ### -field D3D10DDI_QUERY_STREAMOVERFLOWPREDICATE
@@ -422,6 +427,8 @@ The first available device-dependent query counter. Hardware vendors can use thi
 
 
 ## -remarks
+
+
 Values for D3D10DDI_COUNTER_VERTEX_PROCESSING, D3D10DDI_COUNTER_GEOMETRY_PROCESSING, D3D10DDI_COUNTER_PIXEL_PROCESSING, and D3D10DDI_COUNTER_OTHER_GPU_PROCESSING can add up to a driver defined value, which is the number of detectable parallel units. This number is published by the driver as part of the graphics adapter capabilities. The number of detectable parallel units can be 1, 2, 3, or 4 depending on hardware architecture details, the ability of performance counters to discern where time is actually being spent, or at the complete discretion of the hardware vendor. For architectures that report the number of detectable parallel units equal to 1 (== 1) in the <b>NumDetectableParallelUnits</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_counter_info.md">D3D10DDI_COUNTER_INFO</a> structure in response to a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkcounterinfo.md">CheckCounterInfo</a> function, the following equation applies:  
 
 (D3D10DDI_COUNTER_VERTEX_PROCESSING + D3D10DDI_COUNTER_GEOMETRY_PROCESSING + D3D10DDI_COUNTER_PIXEL_PROCESSING + D3D10DDI_COUNTER_OTHER_GPU_PROCESSING) / <b>NumDetectableParallelUnits</b> = 1.0 - D3D10DDI_COUNTER_GPU_IDLE
@@ -433,27 +440,21 @@ For architectures that report the number of detectable parallel units not equal 
 D3D10DDI_COUNTER_HOST_ADAPTER_BANDWIDTH_UTILIZATION, D3D10DDI_COUNTER_LOCAL_VIDMEM_BANDWIDTH_UTILIZATION, D3D10DDI_COUNTER_VERTEX_THROUGHPUT_UTILIZATION, D3D10DDI_COUNTER_TRISETUP_THROUGHPUT_UTILIZATION, and D3D10DDI_COUNTER_FILLRATE_THROUGHPUT_UTILIZATION all report a percentage of a bottleneck that can be used. Applications can then determine when a certain theoretical maximum is being stressed so that they can determine how to work around the bottleneck.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkcounterinfo.md">CheckCounterInfo</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_query_data_pipeline_statistics.md">D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_query_data_so_statistics.md">D3D10_DDI_QUERY_DATA_SO_STATISTICS</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_query_data_timestamp_disjoint.md">D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_counter_info.md">D3D10DDI_COUNTER_INFO</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createquery.md">D3D10DDIARG_CREATEQUERY</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_counter_info.md">D3D10DDI_COUNTER_INFO</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_query_data_so_statistics.md">D3D10_DDI_QUERY_DATA_SO_STATISTICS</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkcounterinfo.md">CheckCounterInfo</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_query_data_pipeline_statistics.md">D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_query_data_timestamp_disjoint.md">D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT</a>
+
  
 
  

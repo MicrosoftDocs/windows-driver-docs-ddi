@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 415255A8-4D43-4677-B4B3-0425D6D57933
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_SUBMITCOMMANDFLAGS, D3DDDICB_SUBMITCOMMANDFLAGS
+ms.keywords: d3dumddi/D3DDDICB_SUBMITCOMMANDFLAGS, _D3DDDICB_SUBMITCOMMANDFLAGS, display.d3dddicb_submitcommandflags, D3DDDICB_SUBMITCOMMANDFLAGS structure [Display Devices], D3DDDICB_SUBMITCOMMANDFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_SUBMITCOMMANDFLAGS
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_SUBMITCOMMANDFLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_SUBMITCOMMANDFLAGS
 ---
 
 # _D3DDDICB_SUBMITCOMMANDFLAGS structure
 
 
-
 ## -description
+
+
 <b>D3DDDICB_SUBMITCOMMANDFLAGS</b> is used to indicate how to process command buffers on contexts that support graphics processing unit (GPU) virtual addressing.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_SUBMITCOMMANDFLAGS {
@@ -59,6 +69,9 @@ typedef struct _D3DDDICB_SUBMITCOMMANDFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NullRendering
 
@@ -81,5 +94,3 @@ Setting this member to zero is equivalent to setting the remaining 31 bits (0xFF
 
 The consolidated value of the bit-field members in this structure.
 
-
-## -remarks

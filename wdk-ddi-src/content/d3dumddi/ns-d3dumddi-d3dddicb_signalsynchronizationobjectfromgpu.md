@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: FF098E63-842F-4D88-A184-BE886E0ED507
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
+ms.keywords: display.d3dddicb_signalsynchronizationobjectfromgpu, d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices], D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
 ---
 
 # D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU structure
 
 
-
 ## -description
+
+
 <b>D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectfromgpucb.md">pfnSignalSynchronizationObjectFromGpuCb</a> to signal a monitored fence.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU {
@@ -60,6 +70,20 @@ typedef struct D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU {
 
 ## -struct-fields
 
+
+
+
+### -field MonitoredFenceValueArray
+
+[in] An array of 64-bit monitored fence values to signal, each of which correspond to a synchronization object in <b>ObjectHandleArray</b>.
+
+
+### -field Reserved
+
+This member is reserved and should be set to zero.
+
+
+
 ### -field hContext
 
 [in] A kernel-mode handle to the context stream.
@@ -75,26 +99,10 @@ typedef struct D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU {
 [in] An array of kernel-mode handles to the synchronization events that the <b>hContext</b> member signals.
 
 
-### -field MonitoredFenceValueArray
-
-[in] An array of 64-bit monitored fence values to signal, each of which correspond to a synchronization object in <b>ObjectHandleArray</b>.
-
-
-### -field Reserved
-
-This member is reserved and should be set to zero.
-
-
-
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectfromgpucb.md">pfnSignalSynchronizationObjectFromGpuCb</a>
-</dt>
-</dl>
+
  
 
  

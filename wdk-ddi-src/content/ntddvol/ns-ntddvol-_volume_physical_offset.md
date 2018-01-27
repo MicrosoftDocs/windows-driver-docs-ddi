@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 068875e3-4229-4f15-9533-f740239ac873
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _VOLUME_PHYSICAL_OFFSET, VOLUME_PHYSICAL_OFFSET, *PVOLUME_PHYSICAL_OFFSET
+ms.keywords: structs-volumemgr_e42e629d-ed2f-49f3-a669-d2547d46eaa6.xml, _VOLUME_PHYSICAL_OFFSET, VOLUME_PHYSICAL_OFFSET, PVOLUME_PHYSICAL_OFFSET structure pointer [Storage Devices], *PVOLUME_PHYSICAL_OFFSET, VOLUME_PHYSICAL_OFFSET structure [Storage Devices], ntddvol/PVOLUME_PHYSICAL_OFFSET, ntddvol/VOLUME_PHYSICAL_OFFSET, PVOLUME_PHYSICAL_OFFSET, storage.volume_physical_offset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VOLUME_PHYSICAL_OFFSET
-req.alt-loc: ntddvol.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddvol.h
+apiname: 
+-	VOLUME_PHYSICAL_OFFSET
+product: Windows
+targetos: Windows
 req.typenames: VOLUME_PHYSICAL_OFFSET, *PVOLUME_PHYSICAL_OFFSET
 ---
 
 # _VOLUME_PHYSICAL_OFFSET structure
 
 
-
 ## -description
+
+
 The VOLUME_PHYSICAL_OFFSET structure contains a physical offset into a volume and its accompanying physical disk number and is used with <a href="..\ntddvol\ni-ntddvol-ioctl_volume_physical_to_logical.md">IOCTL_VOLUME_PHYSICAL_TO_LOGICAL</a> and <a href="..\ntddvol\ni-ntddvol-ioctl_volume_logical_to_physical.md">IOCTL_VOLUME_LOGICAL_TO_PHYSICAL</a> to request a logical offset equivalent of a physical offset or a physical offset equivalent of a logical offset, respectively.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _VOLUME_PHYSICAL_OFFSET {
@@ -55,6 +65,9 @@ typedef struct _VOLUME_PHYSICAL_OFFSET {
 
 ## -struct-fields
 
+
+
+
 ### -field DiskNumber
 
 Contains the number of the physical disk. 
@@ -65,18 +78,12 @@ Contains the number of the physical disk.
 Contains the physical offset in bytes of the data on the disk. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddvol\ni-ntddvol-ioctl_volume_logical_to_physical.md">IOCTL_VOLUME_LOGICAL_TO_PHYSICAL</a>
-</dt>
-<dt>
+
 <a href="..\ntddvol\ni-ntddvol-ioctl_volume_physical_to_logical.md">IOCTL_VOLUME_PHYSICAL_TO_LOGICAL</a>
-</dt>
-</dl>
+
+<a href="..\ntddvol\ni-ntddvol-ioctl_volume_logical_to_physical.md">IOCTL_VOLUME_LOGICAL_TO_PHYSICAL</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: df68dda0-6128-46c9-bf2b-562c10f9a6f1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: NpdBrokerUninitialize
+ms.keywords: stream.avstrminipinsetdevicestate, AVStrMiniPinSetDeviceState, AVStrMiniPinSetDeviceState routine [Streaming Media Devices], AVStrMiniPinSetDeviceState, PFNKSPINSETDEVICESTATE, PFNKSPINSETDEVICESTATE, ks/AVStrMiniPinSetDeviceState, avstclbk_5a0f9097-33fb-4047-a361-bf14ac834cc3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AVStrMiniPinSetDeviceState
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ks.h
+apiname: 
+-	AVStrMiniPinSetDeviceState
+product: Windows
+targetos: Windows
 req.typenames: KEYWORDSELECTOR
 ---
 
 # PFNKSPINSETDEVICESTATE callback
 
 
-
 ## -description
+
+
 An AVStream minidriver's <i>AVStrMiniPinSetDeviceState</i> routine is called when the state of a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure is changed due to the arrival of a connection state property 'set' IOCTL.  Typically, this will be provided by minidrivers that need to change the state of hardware.
 
 
-
 ## -prototype
+
 
 ````
 PFNKSPINSETDEVICESTATE AVStrMiniPinSetDeviceState;
@@ -58,6 +68,9 @@ NTSTATUS AVStrMiniPinSetDeviceState(
 
 
 ## -parameters
+
+
+
 
 ### -param Pin [in]
 
@@ -75,10 +88,15 @@ The previous <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>.
 
 
 ## -returns
+
+
 Return STATUS_SUCCESS or the error code that was returned from the attempt to set the state. Do not return STATUS_PENDING. The filter control mutex is held during this function. See <a href="https://msdn.microsoft.com/402795a0-e567-4e7e-a7d8-b2ce29ffb8fd">Filter Control Mutex in AVStream</a>.
 
 
+
 ## -remarks
+
+
 The minidriver specifies this routine's address in the <b>SetDeviceState</b> member of its <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a> structure.
 
 Minidrivers will not receive a stop upon initial connection of the pin.
@@ -90,12 +108,11 @@ Pins that do not use the standard transport mechanism (nonstandard interface, no
 This routine is optional.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
-</dt>
-</dl>
+
  
 
  

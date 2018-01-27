@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 138b6ae2-4c89-40cb-a7b0-d1208e68c460
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_GETEXTENDEDMODECOUNTDATA, DD_GETEXTENDEDMODECOUNTDATA
+ms.keywords: DD_GETEXTENDEDMODECOUNTDATA, d3dhal/DD_GETEXTENDEDMODECOUNTDATA, DD_GETEXTENDEDMODECOUNTDATA structure [Display Devices], _DD_GETEXTENDEDMODECOUNTDATA, display.dd_getextendedmodecountdata, d3dstrct_2139722c-6eff-4c77-b899-2085de6239fd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DD_GETEXTENDEDMODECOUNTDATA
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	DD_GETEXTENDEDMODECOUNTDATA
+product: Windows
+targetos: Windows
 req.typenames: DD_GETEXTENDEDMODECOUNTDATA
 ---
 
 # _DD_GETEXTENDEDMODECOUNTDATA structure
 
 
-
 ## -description
+
+
 
    DirectX 9.0 and later versions only.
    
@@ -46,8 +56,8 @@ req.typenames: DD_GETEXTENDEDMODECOUNTDATA
 DD_GETEXTENDEDMODECOUNTDATA is the data structure pointed to by the <b>lpvData</b> field of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a> for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETEXTENDEDMODECOUNT.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DD_GETEXTENDEDMODECOUNTDATA {
@@ -59,6 +69,9 @@ typedef struct _DD_GETEXTENDEDMODECOUNTDATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field gdi2
 
@@ -76,21 +89,20 @@ Specifies a reserved field. Driver should not read or write.
 
 
 ## -remarks
+
+
 To handle D3DGDI2_TYPE_GETEXTENDEDMODECOUNT, the driver must store the number of extended display modes that it supports in the <b>dwModeCount</b> member of DD_GETEXTENDEDMODECOUNTDATA. Display modes are described by D3DDISPLAYMODE structures. For more information about D3DDISPLAYMODE, see the DirectX SDK documentation.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-</dt>
-<dt>
-<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
-</dt>
-<dt>
+
 <a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodedata.md">DD_GETEXTENDEDMODEDATA</a>
-</dt>
-</dl>
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
+
  
 
  

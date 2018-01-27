@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: f38248fb-b2aa-417a-9d9b-36ff069bf78f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_NODE_CONNECTION_NAME, USB_NODE_CONNECTION_NAME, *PUSB_NODE_CONNECTION_NAME
+ms.keywords: _USB_NODE_CONNECTION_NAME, usbioctl/USB_NODE_CONNECTION_NAME, buses.usb_node_connection_name, PUSB_NODE_CONNECTION_NAME, PUSB_NODE_CONNECTION_NAME structure pointer [Buses], *PUSB_NODE_CONNECTION_NAME, USB_NODE_CONNECTION_NAME structure [Buses], usbstrct_51cb29d4-aac8-4138-bddd-908f9859bad3.xml, USB_NODE_CONNECTION_NAME, usbioctl/PUSB_NODE_CONNECTION_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_NODE_CONNECTION_NAME
-req.alt-loc: usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbioctl.h
+apiname: 
+-	USB_NODE_CONNECTION_NAME
+product: Windows
+targetos: Windows
 req.typenames: USB_NODE_CONNECTION_NAME, *PUSB_NODE_CONNECTION_NAME
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USB_NODE_CONNECTION_NAME structure
 
 
-
 ## -description
+
+
 The <b>USB_NODE_CONNECTION_NAME</b> structure is used with the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_name.md">IOCTL_USB_GET_NODE_CONNECTION_NAME</a> I/O control request to retrieve the symbolic link of the downstream hub that is attached to the port.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USB_NODE_CONNECTION_NAME {
@@ -56,6 +66,9 @@ typedef struct _USB_NODE_CONNECTION_NAME {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ConnectionIndex
 
@@ -72,18 +85,12 @@ The length, in bytes, of the attached hub's symbolic link.
 A Unicode symbolic link for the downstream hub that is attached to the port that is indicated by <b>ConnectionIndex</b>. If there is no attached device, the attached device does not have a symbolic link, or if the device is not a hub, <b>NodeName</b>[0] will contain a value of UNICODE_NULL.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_name.md">IOCTL_USB_GET_NODE_CONNECTION_NAME</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
  
 
  

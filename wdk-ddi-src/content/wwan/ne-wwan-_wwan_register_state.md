@@ -7,8 +7,8 @@ old-location: netvista\wwan_register_state.htm
 old-project: netvista
 ms.assetid: fba4e60e-c247-4466-9b0f-c8e7ffa594d2
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WWAN_REGISTER_STATE, WWAN_REGISTER_STATE, *PWWAN_REGISTER_STATE
+ms.date: 1/18/2018
+ms.keywords: netvista.wwan_register_state, WWAN_REGISTER_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanRegisterStateDenied, WwanRegisterStatePartner, wwan/WwanRegisterStateSearching, wwan/WwanRegisterStateRoaming, WwanRegisterStateUnknown, PWWAN_REGISTER_STATE, WwanRegisterStateSearching, WwanRegisterStateDenied, WwanRegisterStateHome, _WWAN_REGISTER_STATE, wwan/WwanRegisterStatePartner, WWAN_REGISTER_STATE, WwanRegisterStateRoaming, WwanRegisterStateDeregistered, wwan/WwanRegisterStateHome, wwan/WwanRegisterStateMax, *PWWAN_REGISTER_STATE, wwan/PWWAN_REGISTER_STATE, wwan/WwanRegisterStateUnknown, PWWAN_REGISTER_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WwanRegisterStateMax, WwanRef_927c04e0-b022-4d93-8052-696b5e9da51f.xml, wwan/WWAN_REGISTER_STATE, wwan/WwanRegisterStateDeregistered
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WWAN_REGISTER_STATE
-req.alt-loc: wwan.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: WWAN_REGISTER_STATE, *PWWAN_REGISTER_STATE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wwan.h
+apiname: 
+-	WWAN_REGISTER_STATE
+product: Windows
+targetos: Windows
+req.typenames: *PWWAN_REGISTER_STATE, WWAN_REGISTER_STATE
 req.product: Windows 10 or later.
 ---
 
 # _WWAN_REGISTER_STATE enumeration
 
 
-
 ## -description
+
+
 The WWAN_REGISTER_STATE enumeration lists the different provider network registration states that are
   supported by the MB device.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WWAN_REGISTER_STATE { 
@@ -62,6 +72,9 @@ typedef enum _WWAN_REGISTER_STATE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WwanRegisterStateUnknown
 
@@ -107,6 +120,8 @@ The total number of supported registration states.
 
 
 ## -remarks
+
+
 The current registration state is typically reflected in the device's user interface.
 
 The 
@@ -117,15 +132,14 @@ The
     <b>WwanRegisterStateRoaming</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wwan\ns-wwan-_wwan_registration_state.md">WWAN_REGISTRATION_STATE</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_REGISTER_STATE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_REGISTER_STATE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

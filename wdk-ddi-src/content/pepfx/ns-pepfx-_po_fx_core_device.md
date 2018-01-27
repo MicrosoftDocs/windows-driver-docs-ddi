@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 46C16795-412B-48E7-A7E8-E474CEC51849
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE
+ms.keywords: pepfx/PPO_FX_CORE_DEVICE, pepfx/PO_FX_CORE_DEVICE, PPO_FX_CORE_DEVICE structure pointer [Kernel-Mode Driver Architecture], *PPO_FX_CORE_DEVICE, _PO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE, PPO_FX_CORE_DEVICE, kernel.po_fx_core_device, PO_FX_CORE_DEVICE structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PO_FX_CORE_DEVICE
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PO_FX_CORE_DEVICE
+product: Windows
+targetos: Windows
 req.typenames: *PPO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE
 ---
 
 # _PO_FX_CORE_DEVICE structure
 
 
-
 ## -description
+
+
 The <b>PO_FX_CORE_DEVICE</b> structure contains information about the power-state attributes of the components in a core system resource, and provides a software interface for power-managing these components.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PO_FX_CORE_DEVICE {
@@ -60,6 +70,9 @@ typedef struct _PO_FX_CORE_DEVICE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -102,6 +115,8 @@ The first element in an array of <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">
 
 
 ## -remarks
+
+
 This structure is used by the <a href="..\pepfx\nf-pepfx-pofxregistercoredevice.md">PoFxRegisterCoreDevice</a> routine.
 
 A <i>core system resource</i> is a hardware device, such as a timer or an interrupt controller, that is managed by the Windows hardware abstraction layer (HAL).
@@ -109,27 +124,21 @@ A <i>core system resource</i> is a hardware device, such as a timer or an interr
 For more information about component transitions between the active condition and the idle condition, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450935">Component-Level Power Management</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186630">ComponentCriticalTransitionCallback</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a>
-</dt>
-<dt>
+
 <a href="..\pepfx\nf-pepfx-pofxregistercoredevice.md">PoFxRegisterCoreDevice</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186630">ComponentCriticalTransitionCallback</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
+
+<a href="..\wdm\ns-wdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a>
+
  
 
  

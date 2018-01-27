@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d4f9d02a-2541-445a-95f1-e08ebb0c8a39
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ObReleaseObjectSecurity
+ms.keywords: ObReleaseObjectSecurity, ObReleaseObjectSecurity routine [Kernel-Mode Driver Architecture], wdm/ObReleaseObjectSecurity, k107_b43166d5-3dac-420a-803e-053b272d3405.xml, kernel.obreleaseobjectsecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ObReleaseObjectSecurity
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlApcLte, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ObReleaseObjectSecurity
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ObReleaseObjectSecurity function
 
 
-
 ## -description
+
+
 The <b>ObReleaseObjectSecurity</b> routine is the reciprocal to <b>ObGetObjectSecurity</b>. 
 
 
-
 ## -syntax
+
 
 ````
 VOID ObReleaseObjectSecurity(
@@ -55,6 +65,9 @@ VOID ObReleaseObjectSecurity(
 
 
 ## -parameters
+
+
+
 
 ### -param SecurityDescriptor [in]
 
@@ -67,24 +80,27 @@ Specifies the value also obtained from <b>ObGetObjectSecurity</b>.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 After a successful call to <a href="..\wdm\nf-wdm-obgetobjectsecurity.md">ObGetObjectSecurity</a>, a driver must call <b>ObReleaseObjectSecurity</b> eventually. 
 
 <b>ObReleaseObjectSecurity</b> releases any resources that were allocated by <b>ObGetObjectSecurity</b>. It also decrements the reference count on the given security descriptor. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-obgetobjectsecurity.md">ObGetObjectSecurity</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
  
 
  

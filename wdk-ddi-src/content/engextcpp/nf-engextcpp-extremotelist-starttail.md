@@ -7,8 +7,8 @@ old-location: debugger\extremotelist_starttail.htm
 old-project: debugger
 ms.assetid: fe9aec87-a464-4ea9-b9ca-3dbb91bb4e3e
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ExtRemoteList, ExtRemoteList::StartTail, StartTail
+ms.date: 1/19/2018
+ms.keywords: StartTail method [Windows Debugging], ExtRemoteList class, ExtRemoteList, StartTail method [Windows Debugging], EngExtCpp_Ref_736ed502-a1e7-49cd-95f6-67201cb8dbb3.xml, ExtRemoteList::StartTail, ExtRemoteList class [Windows Debugging], StartTail method, debugger.extremotelist_starttail, StartTail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExtRemoteList.StartTail
-req.alt-loc: engextcpp.hpp
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-req.typenames: *PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	engextcpp.hpp
+apiname: 
+-	ExtRemoteList.StartTail
+product: Windows
+targetos: Windows
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteList::StartTail method
 
 
-
 ## -description
+
+
 The <b>StartTail</b> method initializes the list for iterating backward, starting at the head.
 
 
-
 ## -syntax
+
 
 ````
 void StartTail();
@@ -53,12 +63,12 @@ void StartTail();
 ## -parameters
 
 
+
+
+
 ## -returns
+
+
 This method does not return a value.
 
-This method does not return a value.
 
-This method does not return a value.
-
-
-## -remarks

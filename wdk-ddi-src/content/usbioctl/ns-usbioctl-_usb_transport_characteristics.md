@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 56394A88-7231-4693-8DD1-C5C7586E490C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_TRANSPORT_CHARACTERISTICS, *PUSB_TRANSPORT_CHARACTERISTICS, USB_TRANSPORT_CHARACTERISTICS
+ms.keywords: USB_TRANSPORT_CHARACTERISTICS, USB_TRANSPORT_CHARACTERISTICS structure [Buses], PUSB_TRANSPORT_CHARACTERISTICS, usbioctl/USB_TRANSPORT_CHARACTERISTICS, usbioctl/PUSB_TRANSPORT_CHARACTERISTICS, PUSB_TRANSPORT_CHARACTERISTICS structure pointer [Buses], buses.usb_transport_characteristics, *PUSB_TRANSPORT_CHARACTERISTICS, _USB_TRANSPORT_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_TRANSPORT_CHARACTERISTICS
-req.alt-loc: Usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-req.typenames: *PUSB_TRANSPORT_CHARACTERISTICS, USB_TRANSPORT_CHARACTERISTICS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Usbioctl.h
+apiname: 
+-	USB_TRANSPORT_CHARACTERISTICS
+product: Windows
+targetos: Windows
+req.typenames: USB_TRANSPORT_CHARACTERISTICS, *PUSB_TRANSPORT_CHARACTERISTICS
 req.product: Windows 10 or later.
 ---
 
 # _USB_TRANSPORT_CHARACTERISTICS structure
 
 
-
 ## -description
+
+
 Stores the transport characteristics at relevant points in time. This structure is used in the  <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_transport_characteristics.md">IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS</a> request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USB_TRANSPORT_CHARACTERISTICS {
@@ -58,13 +68,16 @@ typedef struct _USB_TRANSPORT_CHARACTERISTICS {
 
 ## -struct-fields
 
-### -field                     Version
+
+
+
+### -field Version
 
 The version is set to  USB_TRANSPORT_CHARACTERISTICS_VERSION_1. 
 
 
 
-### -field                     TransportCharacteristicsFlags
+### -field TransportCharacteristicsFlags
 
 A bitmask that indicates to the client driver the transport characteristics that are available and are returned in this structure. 
 
@@ -83,7 +96,7 @@ If USB_TRANSPORT_CHARACTERISTICS_BANDWIDTH_AVAILABLE
 is set, <b>MaxPotentialBandwidth</b> contains valid information. Otherwise, it must not be used by the client driver.  
 
 
-### -field                     CurrentRoundtripLatencyInMilliSeconds
+### -field CurrentRoundtripLatencyInMilliSeconds
 
 Contains the current round-trip delay in milliseconds from the time a non-isochronous transfer is received by the USB driver stack to the time that the transfer is completed.  
 
@@ -91,7 +104,7 @@ For MA-USB, the underlying network could be WiFi, WiGig, Ethernet etc. The delay
 
 
 
-### -field                     MaxPotentialBandwidth
+### -field MaxPotentialBandwidth
 
 Contains the total bandwidth of the host controller’s shared transport. 
 
@@ -99,15 +112,10 @@ For MA-USB, the underlying network transport could be WiFi, WiGig, Ethernet etc.
 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_transport_characteristics.md">IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS</a>
-</dt>
-</dl>
+
  
 
  

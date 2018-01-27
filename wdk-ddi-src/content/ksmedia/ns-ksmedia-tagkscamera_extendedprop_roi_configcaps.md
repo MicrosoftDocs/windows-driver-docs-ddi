@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: BAC5B134-22F5-4BC9-BBD6-6AF3C934510B
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, *PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS
+ms.keywords: *PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, stream.kscamera_extendedprop_roi_configcaps, tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, ksmedia/KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS structure pointer [Streaming Media Devices], ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS
-req.alt-loc: Ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ksmedia.h
+apiname: 
+-	KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS
+product: Windows
+targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, *PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS
 ---
 
 # tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS structure
 
 
-
 ## -description
+
+
 This structure contains the capabilities for an ROI control.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS {
@@ -56,10 +66,12 @@ typedef struct tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS {
 
 ## -struct-fields
 
+
+
+
 ### -field ControlId
 
 The ISP control ID. The following are valid values for this field. These values are defined in ksmedia.h.
-
 <ul>
 <li>
 KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE
@@ -84,5 +96,3 @@ The maximum ROIs supported for this ISO control.
 
 The capabilities for this ISP control.
 
-
-## -remarks

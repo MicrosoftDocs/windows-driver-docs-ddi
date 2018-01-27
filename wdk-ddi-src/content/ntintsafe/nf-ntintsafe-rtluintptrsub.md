@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D0E23A94-515B-4225-A8AC-390CDD3BEA60
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUIntPtrSub
+ms.keywords: ntintsafe/RtlUIntPtrSub, RtlUIntPtrSub, kernel.rtluintptrsub, RtlUIntPtrSub function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlUIntPtrSub
-req.alt-loc: Ntintsafe.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntintsafe.h
+apiname: 
+-	RtlUIntPtrSub
+product: Windows
+targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
 
 # RtlUIntPtrSub function
 
 
-
 ## -description
+
+
 Subtracts one value of type <b>UINT_PTR</b> from another.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlUIntPtrSub(
@@ -55,6 +65,9 @@ NTSTATUS RtlUIntPtrSub(
 
 
 ## -parameters
+
+
+
 
 ### -param uMinuend [in]
 
@@ -72,6 +85,27 @@ A pointer to the result. If the operation results in a value that overflows or u
 
 
 ## -remarks
+
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
 
-This function uses the following alternate name:</p>
+This function uses the following alternate name:
+<ul>
+<li>RtlUIntPtrSub
+</li>
+<li>RtlULongPtrSub
+</li>
+<li>RtlDWordPtrSub
+</li>
+<li>RtlSIZETSub
+</li>
+<li>RtlDWordLongSub
+</li>
+<li>RtlULong64Sub
+</li>
+<li>RtlDWord64Sub
+</li>
+<li>RtlUInt64Sub
+</li>
+</ul>
+

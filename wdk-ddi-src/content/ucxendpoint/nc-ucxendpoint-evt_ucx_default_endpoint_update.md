@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 0a67ef0a-07ec-43d3-9a25-b28192677b35
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS, UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS
+ms.keywords: buses.evt_ucx_default_endpoint_update, EvtUcxDefaultEndpointUpdate callback function [Buses], EvtUcxDefaultEndpointUpdate, EVT_UCX_DEFAULT_ENDPOINT_UPDATE, EVT_UCX_DEFAULT_ENDPOINT_UPDATE, ucxendpoint/EvtUcxDefaultEndpointUpdate, PEVT_UCX_DEFAULT_ENDPOINT_UPDATE callback function pointer [Buses], PEVT_UCX_DEFAULT_ENDPOINT_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: PEVT_UCX_DEFAULT_ENDPOINT_UPDATE
-req.alt-loc: ucxendpoint.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ucxendpoint.h
+apiname: 
+-	PEVT_UCX_DEFAULT_ENDPOINT_UPDATE
+product: Windows
+targetos: Windows
 req.typenames: UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # EVT_UCX_DEFAULT_ENDPOINT_UPDATE callback
 
 
-
 ## -description
+
+
 The client driver's implementation that UCX calls with information about the default endpoint.
 
 
-
 ## -prototype
+
 
 ````
 EVT_UCX_DEFAULT_ENDPOINT_UPDATE EvtUcxDefaultEndpointUpdate;
@@ -61,6 +71,9 @@ typedef EVT_UCX_DEFAULT_ENDPOINT_UPDATE PEVT_UCX_DEFAULT_ENDPOINT_UPDATE;
 
 ## -parameters
 
+
+
+
 ### -param UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
@@ -72,10 +85,15 @@ A <a href="..\ucxendpoint\ns-ucxendpoint-_default_endpoint_update.md">DEFAULT_EN
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 The UCX client driver registers its <i>EVT_UCX_DEFAULT_ENDPOINT_UPDATE</i> implementation with the USB host controller extension (UCX) by calling the <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
  method.
 
@@ -83,15 +101,13 @@ UCX typically calls this routine to update the default endpoint's maximum packet
     asynchronously.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxendpoint\nf-ucxendpoint-ucx_default_endpoint_event_callbacks_init.md">UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT</a>
-</dt>
-<dt>
+
 <a href="..\ucxendpoint\nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md">UcxDefaultEndpointInitSetEventCallbacks</a>
-</dt>
-</dl>
+
  
 
  

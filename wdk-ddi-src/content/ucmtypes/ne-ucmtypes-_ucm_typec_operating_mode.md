@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B64849A6-DDB1-4BD1-B4B6-1E38DE9237E5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCM_TYPEC_OPERATING_MODE, UCM_TYPEC_OPERATING_MODE
+ms.keywords: UcmTypeCOperatingModeInvalid, ucmtypes/UcmTypeCOperatingModeInvalid, UcmTypeCOperatingModeDfp, UcmTypeCOperatingModeDrp, ucmtypes/UcmTypeCOperatingModeUfp, UCM_TYPEC_OPERATING_MODE enumeration [Buses], UCM_TYPEC_OPERATING_MODE, UcmTypeCOperatingModeUfp, ucmtypes/UcmTypeCOperatingModeDrp, _UCM_TYPEC_OPERATING_MODE, buses.ucm_type_c_operating_mode, ucmtypes/UcmTypeCOperatingModeDfp, ucmtypes/UCM_TYPEC_OPERATING_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 2.15
-req.alt-api: UCM_TYPEC_OPERATING_MODE
-req.alt-loc: Ucmtypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ucmtypes.h
+apiname: 
+-	UCM_TYPEC_OPERATING_MODE
+product: Windows
+targetos: Windows
 req.typenames: UCM_TYPEC_OPERATING_MODE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _UCM_TYPEC_OPERATING_MODE enumeration
 
 
-
 ## -description
+
+
 Defines operating modes of a USB Type-C connector.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _UCM_TYPEC_OPERATING_MODE { 
@@ -57,6 +67,9 @@ typedef enum _UCM_TYPEC_OPERATING_MODE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field UcmTypeCOperatingModeInvalid
 
@@ -78,15 +91,10 @@ Indicates the operating mode is set to upstream-facing port.
 Indicates the operating mode is set to dual-role port. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucmmanager\nf-ucmmanager-ucm_connector_typec_config_init.md">UCM_CONNECTOR_TYPEC_CONFIG_INIT</a>
-</dt>
-</dl>
+
  
 
  

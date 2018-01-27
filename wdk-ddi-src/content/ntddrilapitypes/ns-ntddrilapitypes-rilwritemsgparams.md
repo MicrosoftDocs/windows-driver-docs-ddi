@@ -7,8 +7,8 @@ old-location: netvista\rilwritemsgparams.htm
 old-project: netvista
 ms.assetid: d66d63cd-ec34-4749-9ed9-38ee6d962ea5
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILWRITEMSGPARAMS, RILWRITEMSGPARAMS, *LPRILWRITEMSGPARAMS
+ms.date: 1/18/2018
+ms.keywords: RILWRITEMSGPARAMS structure [Network Drivers Starting with Windows Vista], RILWRITEMSGPARAMS, *LPRILWRITEMSGPARAMS, ntddrilapitypes/RILWRITEMSGPARAMS, netvista.rilwritemsgparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILWRITEMSGPARAMS
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILWRITEMSGPARAMS
+product: Windows
+targetos: Windows
 req.typenames: RILWRITEMSGPARAMS, *LPRILWRITEMSGPARAMS
 ---
 
 # RILWRITEMSGPARAMS structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILWRITEMSGPARAMS {
@@ -56,13 +66,17 @@ typedef struct _RILWRITEMSGPARAMS {
 
 ## -struct-fields
 
+
+
+
 ### -field hUiccApp
+
 
 
 ### -field rmMessage
 
 
+
 ### -field dwStatus
 
 
-## -remarks

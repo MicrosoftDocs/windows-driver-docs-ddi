@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 271d77ae-dc2c-4dc0-8dd9-b09b2d341c60
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortDMus, IPortDMus::RegisterServiceGroup, RegisterServiceGroup
+ms.keywords: RegisterServiceGroup method [Audio Devices], IPortDMus interface, audio.iportdmus_registerservicegroup, IPortDMus, RegisterServiceGroup method [Audio Devices], audmp-routines_9167129c-286d-4c54-9633-1f31aa08b904.xml, RegisterServiceGroup, dmusicks/IPortDMus::RegisterServiceGroup, IPortDMus interface [Audio Devices], RegisterServiceGroup method, IPortDMus::RegisterServiceGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPortDMus.RegisterServiceGroup
-req.alt-loc: dmusicks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dmusicks.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dmusicks.h
+apiname: 
+-	IPortDMus.RegisterServiceGroup
+product: Windows
+targetos: Windows
 req.typenames: DMUS_STREAM_TYPE
 ---
 
 # IPortDMus::RegisterServiceGroup method
 
 
-
 ## -description
+
+
 The <code>RegisterServiceGroup</code> method registers a service group with the DMus port driver.
 
 
-
 ## -syntax
+
 
 ````
 void RegisterServiceGroup(
@@ -54,16 +64,30 @@ void RegisterServiceGroup(
 
 ## -parameters
 
-### -param pServiceGroup  [in]
+
+
+
+### -param ServiceGroup
+
+
+
+
+
+#### - pServiceGroup [in]
 
 Pointer to an <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> object. This is the service group that is to be registered.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The miniport driver calls the <code>RegisterServiceGroup</code> method to register a service group (<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> object) with the port driver. The port driver can insert one or more of its service sinks (<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a> objects) into this service group. The miniport driver sends notification (by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>) to the service group each time an interrupt occurs. Upon receiving notification, the service group schedules a deferred procedure call (DPC). The DPC iterates through all of the service sinks in the service group and sends notification to each.
 
 The miniport driver typically calls <b>RegisterServiceSink</b> during the execution of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff536700">IMiniportDMus::Init</a> method. The purpose of this call is to register the service group with the port driver early enough to begin handling interrupts just as soon as they are enabled. Note that the service group that the <b>Init</b> method outputs is not available to the port driver until after the return from the <b>Init</b> method.
@@ -77,24 +101,19 @@ See the DMusUART sample audio driver in the Microsoft Windows Driver Kit (WDK) f
 The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
-</dt>
-<dt>
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-</dt>
-<dt>
-<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536700">IMiniportDMus::Init</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
+
+<a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
  
 
  

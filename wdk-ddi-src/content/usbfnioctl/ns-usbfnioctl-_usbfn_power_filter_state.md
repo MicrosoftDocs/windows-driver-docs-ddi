@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D5C7DC47-37F7-4727-AFB6-137F67786001
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBFN_POWER_FILTER_STATE, *PUSBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE
+ms.keywords: PUSBFN_POWER_FILTER_STATE, buses.usbfn_power_filter_state, _USBFN_POWER_FILTER_STATE, *PUSBFN_POWER_FILTER_STATE, usbfnioctl/USBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE structure [Buses], usbfnioctl/PUSBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE, PUSBFN_POWER_FILTER_STATE structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBFN_POWER_FILTER_STATE
-req.alt-loc: usbfnioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbfnioctl.h
+apiname: 
+-	USBFN_POWER_FILTER_STATE
+product: Windows
+targetos: Windows
 req.typenames: *PUSBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USBFN_POWER_FILTER_STATE structure
 
 
-
 ## -description
+
+
 Reserved. Do not use.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBFN_POWER_FILTER_STATE {
@@ -59,9 +69,7 @@ typedef struct _USBFN_POWER_FILTER_STATE {
 
 ## -struct-fields
 
-### -field DeviceState
 
-Describes the USB device states for the device/controller.  These states correspond to the USB device states as defined in section 9.1 of the USB 2.0 Specification.
 
 
 ### -field PState
@@ -74,18 +82,17 @@ USB device states for the device/controller.
 Do not use. 
 
 
-## -remarks
+### -field DeviceState
+
+Describes the USB device states for the device/controller.  These states correspond to the USB device states as defined in section 9.1 of the USB 2.0 Specification.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_state.md">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE</a>
-</dt>
-<dt>
+
 <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_exit_lpm.md">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM</a>
-</dt>
-</dl>
+
+<a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_state.md">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE</a>
+
  
 
  

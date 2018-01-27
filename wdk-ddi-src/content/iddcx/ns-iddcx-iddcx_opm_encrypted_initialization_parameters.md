@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d1df3fc1-2d23-4e90-b663-6322ba4e1eff
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS,
+ms.keywords: IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS structure [Display Devices], iddcx/IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS, display.iddcx_opm_encrypted_initialization_parameters, IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS structure
 
 
-
 ## -description
+
+
 Gives information about the OPM encrypted initialization parameters.
              
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS {
@@ -55,6 +65,9 @@ typedef struct IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -69,5 +82,3 @@ typedef struct IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS {
                      Initialization parameters.
                  
 
-
-## -remarks

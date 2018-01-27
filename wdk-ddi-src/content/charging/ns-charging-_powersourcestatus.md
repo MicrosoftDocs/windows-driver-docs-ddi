@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 9386DBEC-A47D-44A5-8AF8-D5B406143070
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _POWERSOURCESTATUS, POWERSOURCESTATUS, *PPOWERSOURCESTATUS
+ms.keywords: _POWERSOURCESTATUS, POWERSOURCESTATUS, POWERSOURCESTATUS structure [Battery Devices], charging/BATTERY_INFORMATION, *PPOWERSOURCESTATUS, battery.powersourcestatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BATTERY_INFORMATION
-req.alt-loc: Charging.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: POWERSOURCESTATUS, *PPOWERSOURCESTATUS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Charging.h
+apiname: 
+-	BATTERY_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: *PPOWERSOURCESTATUS, POWERSOURCESTATUS
 ---
 
 # _POWERSOURCESTATUS structure
 
 
-
 ## -description
-This struct is for internal use only.
 
+
+This struct is for internal use only.
 
 
 ## -struct-fields
 
-
-## -remarks

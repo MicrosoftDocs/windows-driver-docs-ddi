@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 44088ca7-4a10-4002-8ae8-edd228a903f2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlIsHpfsDbcsLegal
+ms.keywords: FsRtlIsHpfsDbcsLegal, FsRtlIsHpfsDbcsLegal routine [Installable File System Drivers], ntifs/FsRtlIsHpfsDbcsLegal, ifsk.fsrtlishpfsdbcslegal, fsrtlref_6cde5ef1-2a54-4b66-b2da-e134b5700668.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlIsHpfsDbcsLegal
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlIsHpfsDbcsLegal
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlIsHpfsDbcsLegal function
 
 
-
 ## -description
+
+
 The <b>FsRtlIsHpfsDbcsLegal</b> routine determines whether the specified ANSI or double-byte character set (DBCS) string is a legal HPFS file name.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlIsHpfsDbcsLegal(
@@ -56,6 +66,9 @@ BOOLEAN FsRtlIsHpfsDbcsLegal(
 
 
 ## -parameters
+
+
+
 
 ### -param DbcsName [in]
 
@@ -78,31 +91,43 @@ Set to <b>TRUE</b> if a single leading backslash is permissible in the file or p
 
 
 ## -returns
+
+
 The <b>FsRtlIsHpfsDbcsLegal</b> routine returns <b>TRUE</b> if the string is a legal HPFS file name, <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 The <b>FsRtlIsHpfsDbcsLegal</b> routine determines whether the specified file name conforms to the HPFS-specific rules for legal file names. This routine will check the file name or, if <i>PathNamePermissible</i> is specified as <b>TRUE</b>, whether the whole pathname is a legal HPFS name.
 
 HPFS file names must obey the following rules:
-
+<ol>
+<li>
 The following characters are illegal in HPFS file names: 0x0000 - 0x001F, " (quotation marks), / (slash), : (colon), &lt; (less-than sign), &gt; (greater-than sign), ? (question mark), | (vertical bar or pipe), * (asterisk)
 
+</li>
+<li>
 An HPFS file name cannot end in a period or a space. For example, the files "foo " and "foo." are illegal, while ".foo", " foo" and "foo.bar.foo" are legal.
 
+</li>
+<li>
 An HPFS file name can contain no more than 255 bytes.
 
+</li>
+<li>
 HPFS file names are case-preserving, but not case insensitive. Lowercase file names are not automatically converted to uppercase. However, case is ignored in file name comparisons.
 
-For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+</li>
+</ol>For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-</dt>
-</dl>
+
  
 
  

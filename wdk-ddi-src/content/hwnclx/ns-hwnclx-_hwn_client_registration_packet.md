@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: bf8ac72b-c3d6-4965-a1e9-2408d2fa2196
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _HWN_CLIENT_REGISTRATION_PACKET, *PHWN_CLIENT_REGISTRATION_PACKET, HWN_CLIENT_REGISTRATION_PACKET
+ms.keywords: hwnclx/HWN_CLIENT_REGISTRATION_PACKET, gpiobtn._hwn_client_registration_packet, HWN_CLIENT_REGISTRATION_PACKET, _HWN_CLIENT_REGISTRATION_PACKET, HWN_CLIENT_REGISTRATION_PACKET structure, *PHWN_CLIENT_REGISTRATION_PACKET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HWN_CLIENT_REGISTRATION_PACKET
-req.alt-loc: Hwnclx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Hwnclx.h
+apiname: 
+-	HWN_CLIENT_REGISTRATION_PACKET
+product: Windows
+targetos: Windows
 req.typenames: *PHWN_CLIENT_REGISTRATION_PACKET, HWN_CLIENT_REGISTRATION_PACKET
 ---
 
 # _HWN_CLIENT_REGISTRATION_PACKET structure
 
 
-
 ## -description
+
+
 Hardware Notification client driver registration packet that is passed to the class
 extension when a client driver is registered. Contains version information and
 client driver callback functions.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _HWN_CLIENT_REGISTRATION_PACKET {
@@ -65,6 +75,9 @@ typedef struct _HWN_CLIENT_REGISTRATION_PACKET {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -121,16 +134,12 @@ A pointer to the client driver's implementation of the  <a href="..\hwnclx\nc-hw
 A pointer to the client driver's implementation of the  <a href="..\hwnclx\nc-hwnclx-hwn_client_get_state.md">HWN_CLIENT_GET_STATE</a> callback function.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt><a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a></dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+
  
 
  

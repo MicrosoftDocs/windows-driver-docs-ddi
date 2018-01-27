@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9190DA2F-5530-4427-862F-00434DD9C950
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlIsGenericTableEmptyAvl
+ms.keywords: ifsk.rtlisgenerictableemptyavl, RtlIsGenericTableEmptyAvl, ntddk/RtlIsGenericTableEmptyAvl, RtlIsGenericTableEmptyAvl routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows XP.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlIsGenericTableEmptyAvl
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL (see Remarks section)
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlIsGenericTableEmptyAvl
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # RtlIsGenericTableEmptyAvl function
 
 
-
 ## -description
+
+
 The <b>RtlIsGenericTableEmptyAvl</b> routine determines if a generic table is empty. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN RtlIsGenericTableEmptyAvl(
@@ -54,16 +64,24 @@ BOOLEAN RtlIsGenericTableEmptyAvl(
 
 ## -parameters
 
+
+
+
 ### -param Table [in]
 
 Pointer to the generic table (<a href="..\ntddk\ns-ntddk-_rtl_generic_table.md">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <b>RtlIsGenericTableEmptyAvl</b>.
 
 
 ## -returns
+
+
 <b>RtlIsGenericTableEmptyAvl</b> returns <b>FALSE</b> if the table contains one or more elements, <b>TRUE</b> otherwise. 
 
 
+
 ## -remarks
+
+
 By default, the operating system uses splay trees to implement generic tables, but the <b>RtlIsGenericTableEmptyAvl</b> routine only works with Adelson-Velsky/Landis (AVL) trees. To configure the generic table routines to use AVL trees instead of splay trees in your driver, insert the following define statement in a common header file before including <i>Ntddk.h</i>:
 
 <code>#define RTL_USE_AVL_TABLES 0</code>
@@ -73,12 +91,11 @@ If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic t
 Callers of <b>RtlIsGenericTableEmptyAvl</b> must be running at ≤ APC_LEVEL if the caller-allocated memory at <i>Table</i> is pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
-</dt>
-</dl>
+
  
 
  

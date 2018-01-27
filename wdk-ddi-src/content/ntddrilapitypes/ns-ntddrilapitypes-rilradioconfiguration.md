@@ -7,8 +7,8 @@ old-location: netvista\rilradioconfiguration.htm
 old-project: netvista
 ms.assetid: 24ff04b3-aec2-4bce-aa85-e33f3dbffa22
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILRADIOCONFIGURATION, RILRADIOCONFIGURATION, *LPRILRADIOCONFIGURATION
+ms.date: 1/18/2018
+ms.keywords: *LPRILRADIOCONFIGURATION, RILRADIOCONFIGURATION, RILRADIOCONFIGURATION structure [Network Drivers Starting with Windows Vista], netvista.rilradioconfiguration, ntddrilapitypes/RILRADIOCONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILRADIOCONFIGURATION
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILRADIOCONFIGURATION, *LPRILRADIOCONFIGURATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILRADIOCONFIGURATION
+product: Windows
+targetos: Windows
+req.typenames: *LPRILRADIOCONFIGURATION, RILRADIOCONFIGURATION
 ---
 
 # RILRADIOCONFIGURATION structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILRADIOCONFIGURATION {
@@ -56,13 +66,17 @@ typedef struct _RILRADIOCONFIGURATION {
 
 ## -struct-fields
 
+
+
+
 ### -field dwConfigId
+
 
 
 ### -field dwRadioType
 
 
+
 ### -field dwSystemTypes
 
 
-## -remarks

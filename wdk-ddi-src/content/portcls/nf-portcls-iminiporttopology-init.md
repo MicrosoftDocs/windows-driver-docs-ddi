@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c8c53792-8c1a-466a-9f0f-8c12f9e7b50e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportTopology, IMiniportTopology::Init, Init
+ms.keywords: IMiniportTopology, portcls/IMiniportTopology::Init, Init, IMiniportTopology interface [Audio Devices], Init method, audio.iminiporttopology_init, Init method [Audio Devices], IMiniportTopology interface, IMiniportTopology::Init, Init method [Audio Devices], audmp-routines_c87a11c3-aed3-4516-b3bf-5d32423fa293.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportTopology.Init
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IMiniportTopology.Init
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportTopology::Init method
 
 
-
 ## -description
+
+
 The <code>Init</code> method initializes the topology miniport object.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS Init(
@@ -55,6 +65,9 @@ NTSTATUS Init(
 
 
 ## -parameters
+
+
+
 
 ### -param UnknownAdapter [in]
 
@@ -72,30 +85,31 @@ Pointer to the <a href="..\portcls\nn-portcls-iporttopology.md">IPortTopology</a
 
 
 ## -returns
+
+
 <code>Init</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 The <i>UnknownAdapter</i> and <i>ResourceList</i> parameters are the same pointer values that the adapter driver earlier passed as parameters to the <b>IPortTopology</b> object's <b>Init</b> method (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>).
 
 The <i>UnknownAdapter</i>, <i>ResourceList</i>, and <i>Port</i> parameters follow the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iminiporttopology.md">IMiniportTopology</a>
-</dt>
-<dt>
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-</dt>
-<dt>
+
 <a href="..\portcls\nn-portcls-iporttopology.md">IPortTopology</a>
-</dt>
-<dt>
+
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iminiporttopology.md">IMiniportTopology</a>
+
  
 
  

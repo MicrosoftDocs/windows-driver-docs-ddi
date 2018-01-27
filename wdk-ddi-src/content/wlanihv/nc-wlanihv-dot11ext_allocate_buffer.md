@@ -7,8 +7,8 @@ old-location: netvista\dot11extallocatebuffer.htm
 old-project: netvista
 ms.assetid: 22c61f1d-027c-4e3e-af34-c513d4e1d0cc
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W, DRIVER_INFO_8W, DRIVER_INFO_8
+ms.date: 1/18/2018
+ms.keywords: netvista.dot11extallocatebuffer, Dot11ExtAllocateBuffer callback function [Network Drivers Starting with Windows Vista], Dot11ExtAllocateBuffer, DOT11EXT_ALLOCATE_BUFFER, DOT11EXT_ALLOCATE_BUFFER, wlanihv/Dot11ExtAllocateBuffer, Native_802.11_IHV_Ext_5f683d7c-9185-4786-9f39-2e397b93fbf0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: Dot11ExtAllocateBuffer
-req.alt-loc: wlanihv.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,17 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W, DRIVER_INFO_8W
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	wlanihv.h
+apiname: 
+-	Dot11ExtAllocateBuffer
+product: Windows
+targetos: Windows
+req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
 # DOT11EXT_ALLOCATE_BUFFER callback
 
 
-
 ## -description
 
+
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the 
+  <b>Dot11ExtAllocateBuffer</b> function to allocate memory for variable-length
+  buffers.
+
+
 ## -prototype
+
 
 ````
 DWORD WINAPI * Dot11ExtAllocateBuffer(
@@ -53,67 +68,104 @@ DWORD WINAPI * Dot11ExtAllocateBuffer(
 
 ## -parameters
 
+
+
+
 ### -param dwByteCount [in]
 
 Size, in bytes, of the buffer to allocate.
 
 
-### -param ppvBuffer [out]
+### -param *ppvBuffer
+
+
+
+
+
+
+#### - ppvBuffer [out]
 
 A pointer to a caller-supplied variable that stores the address of the allocated buffer. The 
      <i>ppvBuffer</i> parameter has a valid non-null value if the return value is ERROR_SUCCESS.
 
 
 ## -returns
+
+
 The call returns an ERROR_xxxx code defined in 
      Winerror.h. The following ERROR_xxxx codes are commonly returned by the 
      <b>Dot11ExtAllocateBuffer</b> function.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>ERROR_SUCCESS</b></dt>
-</dl>The call succeeded without an error.
+</dl>
+</td>
+<td width="60%">
+The call succeeded without an error.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>ERROR_OUTOFMEMORY</b></dt>
-</dl>The operating system was unable to allocate the memory due to a lack of resources.
+</dl>
+</td>
+<td width="60%">
+The operating system was unable to allocate the memory due to a lack of resources.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The IHV Extensions DLL must follow these guidelines when calling the 
     <b>Dot11ExtAllocateBuffer</b> function.
-
+<ul>
+<li>
 The IHV Extensions DLL must call this function when returning any variable-length buffer from an IHV
       Handler function. In this situation, the operating system is responsible for freeing the buffer after
       the return of the IHV Handler function.
 
 For more information about the IHV Handler functions, see 
-      <a href="netvista.native_802_11_ihv_handler_functions">Native 802.11 IHV Handler
-      Functions</a>.
+      <mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
+      Functions</mshelp:link>.
 
+</li>
+<li>
 The IHV Extensions DLL might call this function to allocate memory referenced by the DLL itself.
      
 
 In this situation, the DLL must free the memory buffer by calling 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>.
 
+</li>
+</ul>
+
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
-</dt>
-<dt>
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_create_discovery_profiles.md">
-   Dot11ExtIhvCreateDiscoveryProfiles</a>
-</dt>
-<dt>
-<a href="netvista.native_802_11_ihv_handler_functions">Native 802.11 IHV Handler
-   Functions</a>
-</dt>
-</dl>
+
+<mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
+   Functions</mshelp:link>
+
+<mshelp:link keywords="netvista.dot11extihvcreatediscoveryprofiles" tabindex="0"><i>
+   Dot11ExtIhvCreateDiscoveryProfiles</i></mshelp:link>
+
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_ALLOCATE_BUFFER callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_ALLOCATE_BUFFER callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

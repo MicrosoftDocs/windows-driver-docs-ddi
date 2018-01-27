@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 70214b6e-92d2-418a-ad8a-8701df02fdc3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE, STORAGE_MEDIA_TYPE
+ms.keywords: ntddstor/VXATape_1, PC_5_WO, IBM_Magstar_3590, DMI, ntddstor/STK_9840, IBM_3480, ntddstor/DLT, SONY_DTF, ntddstor/SONY_DTF, MO_5_RW, AIT1_8mm, ntddstor/MO_5_LIMDOW, ntddstor/CD_RW, ntddstor/KODAK_14_WO, ADR_1, ntddstor/NCTP, _STORAGE_MEDIA_TYPE, DST_L, *PSTORAGE_MEDIA_TYPE, MP2_8mm, CLEANER_CARTRIDGE, ntddstor/SYQUEST_SYJET, ntddstor/MO_5_WO, PHILIPS_12_WO, LTO_Accelis, ntddstor/IBM_Magstar_3590, ntddstor/MO_5_RW, PINNACLE_APEX_5_RW, ntddstor/STK_9940, ntddstor/PINNACLE_APEX_5_RW, SONY_12_WO, DVD_ROM, ntddstor/DVD_RAM, ntddstor/CLEANER_CARTRIDGE, MO_NFR_525, ntddstor/DST_S, ntddstor/SYQUEST_EZFLYER, ntddstor/AME_8mm, ntddstor/DV_6mm, ntddstor/ABL_5_WO, ntddstor/ADR_1, ntddstor/AIT1_8mm, HITACHI_12_WO, DLT, ntddstor/HITACHI_12_WO, NIKON_12_RW, QIC, VXATape_1, DV_6mm, ntddstor/QIC, AME_8mm, ntddstor/IBM_3480, ntddstor/IOMEGA_JAZ, STK_9840, PC_5_RW, DST_S, ntddstor/DVD_ROM, ntddstor/MO_NFR_525, ntddstor/SYQUEST_EZ135, ntddstor/DST_M, CD_RW, MO_3_RW, ntddstor/MP2_8mm, CYGNET_12_WO, ntddstor/LTO_Ultrium, CD_ROM, structs-general_d1e0e1bc-5ce9-49d0-9ab5-94b5e495d124.xml, DVD_R, STORAGE_MEDIA_TYPE enumeration [Storage Devices], ntddstor/Travan, ntddstor/DDS_4mm, ntddstor/DST_L, ntddstor/AIT_8mm, AVATAR_F2, ntddstor/STK_DATA_D3, ntddstor/CD_ROM, KODAK_14_WO, ntddstor/IBM_Magstar_MP, SAIT, ntddstor/ADR_2, MO_5_WO, ntddstor/PHILIPS_12_WO, NCTP, STK_DATA_D3, ntddstor/VXATape, ntddstor/DVD_R, DVD_RAM, ntddstor/MiniQic, SYQUEST_SYJET, ntddstor/SONY_12_WO, AIT_8mm, ntddstor/SONY_D2, SONY_D2, ntddstor/DMI, MO_5_LIMDOW, SYQUEST_EZ135, IBM_Magstar_MP, ntddstor/PSTORAGE_MEDIA_TYPE, ntddstor/CYGNET_12_WO, ntddstor/SAIT, ntddstor/CD_R, CD_R, PSTORAGE_MEDIA_TYPE, ntddstor/NIKON_12_RW, PSTORAGE_MEDIA_TYPE enumeration pointer [Storage Devices], PD_5_RW, SYQUEST_EZFLYER, ntddstor/DVD_RW, ntddstor/PC_5_RW, VXATape, STORAGE_MEDIA_TYPE, ntddstor/PC_5_WO, VXATape_2, ntddstor/AVATAR_F2, DVD_RW, DST_M, ABL_5_WO, ntddstor/PD_5_RW, Travan, IOMEGA_JAZ, MP_8mm, IOMEGA_ZIP, DDS_4mm, storage.storage_media_type, ntddstor/VXATape_2, ntddstor/STORAGE_MEDIA_TYPE, ADR_2, ntddstor/MP_8mm, ntddstor/IBM_3490E, ntddstor/MO_3_RW, IBM_3490E, ntddstor/IOMEGA_ZIP, ntddstor/LTO_Accelis, LTO_Ultrium, MiniQic, STK_9940
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_MEDIA_TYPE
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSTORAGE_MEDIA_TYPE, STORAGE_MEDIA_TYPE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	STORAGE_MEDIA_TYPE
+product: Windows
+targetos: Windows
+req.typenames: STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE
 ---
 
 # _STORAGE_MEDIA_TYPE enumeration
 
 
-
 ## -description
+
+
 The STORAGE_MEDIA_TYPE enumeration is used in conjunction with the <a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_media_types_ex.md">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a> request to query the class driver for the types of media that a device supports.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _STORAGE_MEDIA_TYPE { 
@@ -115,6 +125,9 @@ typedef enum _STORAGE_MEDIA_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DDS_4mm
 
@@ -381,9 +394,8 @@ Indicates an 8mm Ecrix tape device.
 Indicates an 8mm Ecrix tape device. 
 
 
-### -field STK_9840
+### -field STK_EAGLE
 
-Indicates an STK 9840 device. 
 
 
 ### -field LTO_Ultrium
@@ -431,21 +443,19 @@ SAIT Tapes
 VXA (Ecrix 8mm) Tape
 
 
-## -remarks
+#### - STK_9840
+
+Indicates an STK 9840 device. 
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddstor\ns-ntddstor-_device_media_info.md">DEVICE_MEDIA_INFO</a>
-</dt>
-<dt>
+
 <a href="..\ntddstor\ns-ntddstor-_get_media_types.md">GET_MEDIA_TYPES</a>
-</dt>
-<dt>
+
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_media_types_ex.md">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a>
-</dt>
-</dl>
+
  
 
  

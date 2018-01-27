@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c40f4151-a392-463f-888f-d575e6992062
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVAHDDDI_DEVICE_DESC, DXVAHDDDI_DEVICE_DESC
+ms.keywords: DXVAHDDDI_DEVICE_DESC structure [Display Devices], DXVA2_Structs_ed3bcbea-9cf3-4a81-9134-e667e8121924.xml, _DXVAHDDDI_DEVICE_DESC, display.dxvahdddi_device_desc, DXVAHDDDI_DEVICE_DESC, d3dumddi/DXVAHDDDI_DEVICE_DESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: DXVAHDDDI_DEVICE_DESC is supported beginning with the
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVAHDDDI_DEVICE_DESC
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVAHDDDI_DEVICE_DESC
+product: Windows
+targetos: Windows
 req.typenames: DXVAHDDDI_DEVICE_DESC
 ---
 
 # _DXVAHDDDI_DEVICE_DESC structure
 
 
-
 ## -description
+
+
 The DXVAHDDDI_DEVICE_DESC structure describes a decode device.  
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVAHDDDI_DEVICE_DESC {
@@ -54,6 +64,9 @@ typedef struct _DXVAHDDDI_DEVICE_DESC {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pContentDesc
 
@@ -66,18 +79,18 @@ typedef struct _DXVAHDDDI_DEVICE_DESC {
 
 
 ## -remarks
+
+
 The driver considers the value in the <b>Usage</b> member and the information to which <b>pContentDesc</b> points to optimize its capabilities. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_content_desc.md">DXVAHDDDI_CONTENT_DESC</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_device_usage.md">DXVAHDDDI_DEVICE_USAGE</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DE95A3E9-3542-49EE-AA62-3430A6B2D7C7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_COORDINATED_DEPENDENCY_OPTION, PEP_COORDINATED_DEPENDENCY_OPTION, *PPEP_COORDINATED_DEPENDENCY_OPTION
+ms.keywords: *PPEP_COORDINATED_DEPENDENCY_OPTION, pepfx/PPEP_COORDINATED_DEPENDENCY_OPTION, PPEP_COORDINATED_DEPENDENCY_OPTION structure pointer [Kernel-Mode Driver Architecture], PPEP_COORDINATED_DEPENDENCY_OPTION, pepfx/PEP_COORDINATED_DEPENDENCY_OPTION, _PEP_COORDINATED_DEPENDENCY_OPTION, PEP_COORDINATED_DEPENDENCY_OPTION structure [Kernel-Mode Driver Architecture], PEP_COORDINATED_DEPENDENCY_OPTION, kernel.pep_coordinated_dependency_option
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_COORDINATED_DEPENDENCY_OPTION
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_COORDINATED_DEPENDENCY_OPTION
+product: Windows
+targetos: Windows
 req.typenames: PEP_COORDINATED_DEPENDENCY_OPTION, *PPEP_COORDINATED_DEPENDENCY_OPTION
 ---
 
 # _PEP_COORDINATED_DEPENDENCY_OPTION structure
 
 
-
 ## -description
+
+
 The <b>PEP_COORIDNATED_DEPENDENCY_OPTION</b> structure describes a coordinated idle stateâ€™s dependency to the OS.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_COORDINATED_DEPENDENCY_OPTION {
@@ -56,6 +66,9 @@ typedef struct _PEP_COORDINATED_DEPENDENCY_OPTION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ExpectedStateIndex
 
@@ -83,18 +96,12 @@ Indicates if this state is a valid state for a dependent processor to be in.
 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186775">PEP_NOTIFY_PPM_QUERY_COORDINATED_DEPENDENCY notification</a>
-</dt>
-<dt>
+
 <a href="..\pepfx\ns-pepfx-_pep_ppm_query_coordinated_dependency.md">PEP_PPM_QUERY_COORDINATED_DEPENDENCY</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186775">PEP_NOTIFY_PPM_QUERY_COORDINATED_DEPENDENCY notification</a>
+
  
 
  

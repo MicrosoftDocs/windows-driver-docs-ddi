@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 979b86e9-f3ff-4022-8c00-b6afc2b1f747
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddicommitvidpn, DxgkDdiCommitVidPn callback function [Display Devices], DxgkDdiCommitVidPn, DXGKDDI_COMMITVIDPN, DXGKDDI_COMMITVIDPN, d3dkmddi/DxgkDdiCommitVidPn, DmFunctions_467cba1e-3eeb-4735-9fb3-46c8c737b48d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiCommitVidPn
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DxgkDdiCommitVidPn
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_COMMITVIDPN callback
 
 
-
 ## -description
+
+
 The <i>DxgkDdiCommitVidPn</i> function makes a specified video present network (VidPN) active on a display adapter.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_COMMITVIDPN DxgkDdiCommitVidPn;
@@ -58,83 +68,52 @@ NTSTATUS APIENTRY DxgkDdiCommitVidPn(
 
 ## -parameters
 
+
+
+
 ### -param hAdapter [in]
 
 A handle to a context block associated with a display adapter. The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
 
 
-### -param pCommitVidPnArg [in]
+### -param pCommitVidPn
+
+
+
+
+
+
+#### - pCommitVidPnArg [in]
 
 A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_commitvidpn.md">DXGKARG_COMMITVIDPN</a> structure that contains function arguments.
 
 
 ## -returns
+
+
 <i>DxgkDdiCommitVidPn</i> returns one of the values in the following list. The VidPN referred to in the list is the VidPN represented by <i>pCommitVidPnArg</i>-&gt;<b>hFunctionalVidPn</b>.
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-<dd>
-The driver successfully handled the function call.
 
-</dd>
-<dt><b>STATUS_GRAPHICS_GAMMA_RAMP_NOT_SUPPORTED</b></dt>
-<dd>
-The display adapter does not support all of the path gamma ramps in the VidPN.
-
-</dd>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY</b></dt>
-<dd>
-The topology of the VidPN is invalid. In particular, <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a> must return this value if <i>pCommitVidPnArg</i>-&gt;<b>MonitorConnectivityChecks</b> is equal to <b>D3DKMDT_MCC_ENFORCE</b> and one of the video outputs in the new VidPN's topology does not have a monitor connected.
-
-</dd>
-<dt><b>STATUS_GRAPHICS_PATH_CONTENT_GEOMETRY_TRANSFORMATION_NOT_SUPPORTED</b></dt>
-<dd>
-One of the present paths in the topology does not support the specified content transformation.
-
-</dd>
-<dt><b>STATUS_GRAPHICS_VIDPN_MODALITY_NOT_SUPPORTED</b></dt>
-<dd>
-The display adapter does not currently support the set of modes that are pinned in the VidPN.
-
-</dd>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-<dd>
-The driver could not complete this request because of insufficient memory.
-
-</dd>
-</dl>The driver successfully handled the function call.
-
-The display adapter does not support all of the path gamma ramps in the VidPN.
-
-The topology of the VidPN is invalid. In particular, <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a> must return this value if <i>pCommitVidPnArg</i>-&gt;<b>MonitorConnectivityChecks</b> is equal to <b>D3DKMDT_MCC_ENFORCE</b> and one of the video outputs in the new VidPN's topology does not have a monitor connected.
-
-One of the present paths in the topology does not support the specified content transformation.
-
-The display adapter does not currently support the set of modes that are pinned in the VidPN.
-
-The driver could not complete this request because of insufficient memory.
 
 
 ## -remarks
+
+
 For more information about how the display miniport driver should handle calls to <i>DxgkDdiCommitVidPn</i>, see <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_commitvidpn.md">DXGKARG_COMMITVIDPN</a>.
 
 Beginning with Windows 8, if the display miniport driver sets the <b>SupportSmoothRotation</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a> structure, it must support updating the path rotation on the adapter using the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_updateactivevidpnpresentpath.md">DxgkDdiUpdateActiveVidPnPresentPath</a> function. The driver must always be able to set the path rotation during a call to the <i>DxgkDdiCommitVidPn</i> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_commitvidpn.md">DXGKARG_COMMITVIDPN</a>
-</dt>
-<dt>
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_updateactivevidpnpresentpath.md">DxgkDdiUpdateActiveVidPnPresentPath</a>
-</dt>
-</dl>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_commitvidpn.md">DXGKARG_COMMITVIDPN</a>
+
  
 
  

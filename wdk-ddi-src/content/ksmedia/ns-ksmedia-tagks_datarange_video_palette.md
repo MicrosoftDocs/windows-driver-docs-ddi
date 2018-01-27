@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 45488748-fc7e-47a6-8427-479c63d74a27
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_DATARANGE_VIDEO_PALETTE, *PKS_DATARANGE_VIDEO_PALETTE, KS_DATARANGE_VIDEO_PALETTE
+ms.keywords: vidcapstruct_8bba39d4-8ffb-41df-b314-f63fe26d66fa.xml, ksmedia/PKS_DATARANGE_VIDEO_PALETTE, KS_DATARANGE_VIDEO_PALETTE structure [Streaming Media Devices], PKS_DATARANGE_VIDEO_PALETTE, stream.ks_datarange_video_palette, PKS_DATARANGE_VIDEO_PALETTE structure pointer [Streaming Media Devices], KS_DATARANGE_VIDEO_PALETTE, *PKS_DATARANGE_VIDEO_PALETTE, tagKS_DATARANGE_VIDEO_PALETTE, ksmedia/KS_DATARANGE_VIDEO_PALETTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_DATARANGE_VIDEO_PALETTE
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KS_DATARANGE_VIDEO_PALETTE
+product: Windows
+targetos: Windows
 req.typenames: *PKS_DATARANGE_VIDEO_PALETTE, KS_DATARANGE_VIDEO_PALETTE
 ---
 
 # tagKS_DATARANGE_VIDEO_PALETTE structure
 
 
-
 ## -description
+
+
 The KS_DATARANGE_VIDEO_PALETTE structure describes a stream and its color capabilities.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagKS_DATARANGE_VIDEO_PALETTE {
@@ -59,6 +69,9 @@ typedef struct tagKS_DATARANGE_VIDEO_PALETTE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DataRange
 
@@ -95,21 +108,14 @@ Specifies the configuration of the stream, including scaling, cropping, and fram
 Specifies the details of the video stream.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-tagks_videoinfo.md">KS_VIDEOINFO</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
  
 
  

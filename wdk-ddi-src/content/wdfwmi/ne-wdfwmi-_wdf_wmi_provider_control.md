@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c545b0a6-bb36-47a7-b55c-ee7eed5ade3a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_WMI_PROVIDER_CONTROL, WDF_WMI_PROVIDER_CONTROL
+ms.keywords: WdfWmiEventControl, wdfwmi/WdfWmiEventControl, DFWMIRef_a78e583c-59b7-4af3-a07f-8b774916f664.xml, wdfwmi/WdfWmiInstanceControl, WDF_WMI_PROVIDER_CONTROL enumeration, kmdf.wdf_wmi_provider_control, WdfWmiInstanceControl, wdfwmi/WDF_WMI_PROVIDER_CONTROL, _WDF_WMI_PROVIDER_CONTROL, wdf.wdf_wmi_provider_control, WDF_WMI_PROVIDER_CONTROL, wdfwmi/WdfWmiControlInvalid, WdfWmiControlInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WDF_WMI_PROVIDER_CONTROL
-req.alt-loc: wdfwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfwmi.h
+apiname: 
+-	WDF_WMI_PROVIDER_CONTROL
+product: Windows
+targetos: Windows
 req.typenames: WDF_WMI_PROVIDER_CONTROL
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_WMI_PROVIDER_CONTROL enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_WMI_PROVIDER_CONTROL</b> enumeration defines the type of control functions that a WMI data provider can support.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_WMI_PROVIDER_CONTROL { 
@@ -58,6 +68,9 @@ typedef enum _WDF_WMI_PROVIDER_CONTROL {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WdfWmiControlInvalid
 
@@ -75,18 +88,18 @@ The driver must enable or disable collecting data for a provider instance.
 
 
 ## -remarks
+
+
 The <b>WDF_WMI_PROVIDER_CONTROL</b> enumeration is used as an input parameter to the <a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a> method and the driver's <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a> callback function.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
-</dt>
-<dt>
+
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a>
-</dt>
-</dl>
+
  
 
  

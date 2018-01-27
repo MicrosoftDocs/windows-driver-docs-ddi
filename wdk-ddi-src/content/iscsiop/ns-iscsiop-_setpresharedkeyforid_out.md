@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 839041be-bb8c-4e02-a260-e9adcec98ff3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SetPresharedKeyForId_OUT, SetPresharedKeyForId_OUT, *PSetPresharedKeyForId_OUT
+ms.keywords: SetPresharedKeyForId_OUT, structs-iSCSI_c0146684-fe9e-4bca-81d2-2a09b554d006.xml, iscsiop/PSetPresharedKeyForId_OUT, PSetPresharedKeyForId_OUT structure pointer [Storage Devices], SetPresharedKeyForId_OUT structure [Storage Devices], *PSetPresharedKeyForId_OUT, iscsiop/SetPresharedKeyForId_OUT, storage.setpresharedkeyforid_out, _SetPresharedKeyForId_OUT, PSetPresharedKeyForId_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetPresharedKeyForId_OUT
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	SetPresharedKeyForId_OUT
+product: Windows
+targetos: Windows
 req.typenames: SetPresharedKeyForId_OUT, *PSetPresharedKeyForId_OUT
 ---
 
 # _SetPresharedKeyForId_OUT structure
 
 
-
 ## -description
+
+
 The SetPresharedKeyForId_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a> method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SetPresharedKeyForId_OUT {
@@ -54,27 +64,29 @@ typedef struct _SetPresharedKeyForId_OUT {
 
 ## -struct-fields
 
+
+
+
 ### -field Status
 
 On output, the status of the <b>SetPresharedKeyForId</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>. 
 
 
 ## -remarks
+
+
 You must implement this method.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
 <a href="..\iscsiop\ns-iscsiop-_setpresharedkeyforid_in.md">SetPresharedKeyForId_IN</a>
-</dt>
-</dl>
+
  
 
  

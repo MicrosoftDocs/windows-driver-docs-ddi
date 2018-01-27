@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D530355F-5824-4F7C-84C4-57D3D03A7116
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: UFS_FLAGS_DESCRIPTOR, UFS_FLAGS_DESCRIPTOR
+ms.keywords: ufs/UFS_fPermanentWPEn, ufs/UFS_Reserved5, UFS_Reserved5, UFS_fDeviceLifeSpanModeEn, ufs/UFS_fPowerOnWPEn, UFS_Reserved1, UFS_fPurgeEnable, UFS_fBusyRTC, ufs/UFS_Reserved3, UFS_fPhyResourceRemoval, storage.ufs_flags_descriptor, UFS_fPermanentlyDisableFwUpdate, UFS_fPermanentWPEn, ufs/UFS_fBackgroundOpsEn, UFS_fBackgroundOpsEn, ufs/UFS_fPurgeEnable, ufs/UFS_fBusyRTC, UFS_fPowerOnWPEn, ufs/UFS_Reserved2, UFS_FLAGS_DESCRIPTOR enumeration [Storage Devices], ufs/UFS_fPhyResourceRemoval, ufs/UFS_Reserved1, UFS_Reserved3, ufs/UFS_fPermanentlyDisableFwUpdate, ufs/UFS_fDeviceInit, UFS_fDeviceInit, UFS_FLAGS_DESCRIPTOR, ufs/UFS_Reserved4, ufs/UFS_FLAGS_DESCRIPTOR, UFS_Reserved2, ufs/UFS_fDeviceLifeSpanModeEn, UFS_Reserved4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UFS_FLAGS_DESCRIPTOR
-req.alt-loc: Ufs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ufs.h
+apiname: 
+-	UFS_FLAGS_DESCRIPTOR
+product: Windows
+targetos: Windows
 req.typenames: UFS_FLAGS_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # UFS_FLAGS_DESCRIPTOR enumeration
 
 
-
 ## -description
+
+
 <b>UFS_FLAGS_DESCRIPTOR</b> describes the different types of flags used by Universal Flash Storage (UFS) descriptors.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _UFS_FLAGS_DESCRIPTOR { 
@@ -67,6 +77,9 @@ typedef enum _UFS_FLAGS_DESCRIPTOR {
 
 
 ## -enum-fields
+
+
+
 
 ### -field UFS_Reserved1
 
@@ -143,5 +156,3 @@ Reserved for the Unified Memory Extension standard.
 
 Reserved for the Unified Memory Extension standard.
 
-
-## -remarks

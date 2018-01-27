@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0BC6A03C-CF6D-4F56-985E-933E87200DFE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _KSAUDIO_PACKETSIZE_SIGNALPROCESSINGMODE_CONSTRAINT, KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT
+ms.keywords: _KSAUDIO_PACKETSIZE_SIGNALPROCESSINGMODE_CONSTRAINT, KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT, KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT structure [Audio Devices], audio.ksaudio_packetsize_processingmode_constraint, ksmedia/KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT
+product: Windows
+targetos: Windows
 req.typenames: KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT
 ---
 
 # _KSAUDIO_PACKETSIZE_SIGNALPROCESSINGMODE_CONSTRAINT structure
 
 
-
 ## -description
+
+
 The <b>KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT</b> structure describes the constraints specific to any signal processing mode.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT {
@@ -55,6 +65,9 @@ typedef struct _KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ProcessingMode
 
@@ -71,15 +84,10 @@ The processing frame size for the processing mode, expressed in number of sample
 The processing frame size for the processing mode, expressed in hundred-nanosecond (HNS) units. This field is ignored if <b>SamplesPerProcessingPacket</b> is nonzero.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-_ksaudio_packetsize_constraints.md">KSAUDIO_PACKETSIZE_CONSTRAINTS</a>
-</dt>
-</dl>
+
  
 
  

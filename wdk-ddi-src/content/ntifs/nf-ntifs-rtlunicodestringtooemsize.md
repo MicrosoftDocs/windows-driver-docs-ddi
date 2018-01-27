@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0e648c99-6d1a-4515-af17-a16e88351f45
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlUnicodeStringToOemSize
+ms.keywords: ifsk.rtlunicodestringtooemsize, RtlUnicodeStringToOemSize routine [Installable File System Drivers], rtlref_836e23f0-2e1a-474e-a66c-615f260e2f4f.xml, ntifs/RtlUnicodeStringToOemSize, RtlUnicodeStringToOemSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlUnicodeStringToOemSize
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlUnicodeStringToOemSize
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlUnicodeStringToOemSize macro
 
 
-
 ## -description
+
+
 The <b>RtlUnicodeStringToOemSize</b> routine determines the size, in bytes, that a given Unicode string will be after it is translated into an OEM string. 
 
 
-
 ## -syntax
+
 
 ````
 ULONG RtlUnicodeStringToOemSize(
@@ -54,32 +64,40 @@ ULONG RtlUnicodeStringToOemSize(
 
 ## -parameters
 
-### -param UnicodeString [in]
+
+
+
+### -param STRING
+
+TBD
+
+
+
+
+#### - UnicodeString [in]
 
 Pointer to a caller-allocated Unicode string. 
 
 
 ## -remarks
+
+
 <b>RtlUnicodeStringToOemSize</b> can be called to determine how much memory to allocate when translating a Unicode string to OEM characters with <b>RtlUnicodeStringToOemString</b> or <b>RtlUpcaseUnicodeStringToOemString</b>. The returned value includes space for a NULL terminator for the OEM string. 
 
 For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtloemstringtounicodesize.md">RtlOemStringToUnicodeSize</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtooemstring.md">RtlUnicodeStringToOemString</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtlupcaseunicodestringtooemstring.md">RtlUpcaseUnicodeStringToOemString</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-rtloemstringtounicodesize.md">RtlOemStringToUnicodeSize</a>
+
+<a href="..\ntifs\nf-ntifs-rtlunicodestringtooemstring.md">RtlUnicodeStringToOemString</a>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
  
 
  

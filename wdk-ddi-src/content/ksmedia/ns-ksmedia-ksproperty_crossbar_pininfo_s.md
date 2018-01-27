@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7ddef9cf-aa2f-4383-b37f-8c2f3e9c99d6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_CROSSBAR_PININFO_S, KSPROPERTY_CROSSBAR_PININFO_S, *PKSPROPERTY_CROSSBAR_PININFO_S
+ms.keywords: PKSPROPERTY_CROSSBAR_PININFO_S structure pointer [Streaming Media Devices], stream.ksproperty_crossbar_pininfo_s, KSPROPERTY_CROSSBAR_PININFO_S, *PKSPROPERTY_CROSSBAR_PININFO_S, KSPROPERTY_CROSSBAR_PININFO_S structure [Streaming Media Devices], vidcapstruct_a8532e73-5b8e-4ed1-a27e-e151642fff2a.xml, ksmedia/KSPROPERTY_CROSSBAR_PININFO_S, ksmedia/PKSPROPERTY_CROSSBAR_PININFO_S, PKSPROPERTY_CROSSBAR_PININFO_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPROPERTY_CROSSBAR_PININFO_S
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KSPROPERTY_CROSSBAR_PININFO_S, *PKSPROPERTY_CROSSBAR_PININFO_S
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSPROPERTY_CROSSBAR_PININFO_S
+product: Windows
+targetos: Windows
+req.typenames: *PKSPROPERTY_CROSSBAR_PININFO_S, KSPROPERTY_CROSSBAR_PININFO_S
 ---
 
 # KSPROPERTY_CROSSBAR_PININFO_S structure
 
 
-
 ## -description
+
+
 The KSPROPERTY_CROSSBAR_PININFO_S structure describes the crossbar pin information for a device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -58,6 +68,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Property
 
@@ -138,21 +151,20 @@ Specifies a <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a> structure tha
 
 
 ## -remarks
+
+
 All index values are zero-based, and input pins are counted separately from output pins.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567804">PROPSETID_VIDCAP_CROSSBAR</a>
-</dt>
-<dt>
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565121">KSPROPERTY_CROSSBAR_PININFO</a>
-</dt>
-</dl>
+
  
 
  

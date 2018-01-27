@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5609a2c4-71db-432a-8a39-e407130a6e4c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _REG_CREATE_KEY_INFORMATION, *PREG_OPEN_KEY_INFORMATION, REG_OPEN_KEY_INFORMATION, *PREG_CREATE_KEY_INFORMATION, REG_CREATE_KEY_INFORMATION
+ms.keywords: wdm/REG_CREATE_KEY_INFORMATION, kernel.reg_create_key_information, REG_CREATE_KEY_INFORMATION, PREG_CREATE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PREG_CREATE_KEY_INFORMATION, PREG_OPEN_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PREG_CREATE_KEY_INFORMATION, REG_OPEN_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PREG_OPEN_KEY_INFORMATION, PREG_CREATE_KEY_INFORMATION, PREG_OPEN_KEY_INFORMATION, kstruct_d_08c0de2c-94fb-4c4f-888c-e3485f213224.xml, REG_OPEN_KEY_INFORMATION, wdm/REG_OPEN_KEY_INFORMATION, _REG_CREATE_KEY_INFORMATION, *PREG_OPEN_KEY_INFORMATION, REG_CREATE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Server 2003, but som
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: REG_CREATE_KEY_INFORMATION
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PREG_OPEN_KEY_INFORMATION, REG_OPEN_KEY_INFORMATION, *PREG_CREATE_KEY_INFORMATION, REG_CREATE_KEY_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	REG_CREATE_KEY_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: REG_OPEN_KEY_INFORMATION, *PREG_OPEN_KEY_INFORMATION, *PREG_CREATE_KEY_INFORMATION, REG_CREATE_KEY_INFORMATION
 req.product: Windows 10 or later.
 ---
 
 # _REG_CREATE_KEY_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>REG_CREATE_KEY_INFORMATION</b> structure contains information that a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine can use when a registry key that is being created.
-
-
+<div class="alert"><b>Note</b>  Starting with Windows 7, the V1 version of this structure, <a href="..\wdm\ns-wdm-_reg_create_key_information_v1.md">REG_CREATE_KEY_INFORMATION_V1</a>, is used instead.</div><div> </div>
 
 ## -syntax
+
 
 ````
 typedef struct _REG_CREATE_KEY_INFORMATION {
@@ -68,6 +78,9 @@ typedef struct _REG_CREATE_KEY_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field CompleteName
 
@@ -147,6 +160,8 @@ In versions of Windows before Windows Vista, this member is always 0.
 
 
 ## -remarks
+
+
 The configuration manager passes this structure to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine every time a thread attempts to create a key—for example, when a user-mode thread calls <b>RegCreateKey</b> or <b>RegCreateKeyEx</b> or when a driver calls <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>.
 
 If the driver's <i>RegistryCallback</i> routine returns STATUS_CALLBACK_BYPASS for a <b>RegNtPreCreateKeyEx</b> notification, the driver must supply the <b>GrantedAccess</b>, <b>Disposition</b>, and <b>ResultObject</b> values.
@@ -154,27 +169,21 @@ If the driver's <i>RegistryCallback</i> routine returns STATUS_CALLBACK_BYPASS f
 For more information about registry filtering operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_reg_create_key_information_v1.md">REG_CREATE_KEY_INFORMATION_V1</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_reg_post_operation_information.md">REG_POST_OPERATION_INFORMATION</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_reg_create_key_information_v1.md">REG_CREATE_KEY_INFORMATION_V1</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
  
 
  

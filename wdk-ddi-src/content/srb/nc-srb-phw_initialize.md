@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dd678196-62f6-4c27-845f-a9b52c663e2a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+ms.keywords: storage.phw_initialize, (*PHW_INITIALIZE) callback function [Storage Devices], (*PHW_INITIALIZE), srb/(*PHW_INITIALIZE), ide_minikr_95bb126d-6d4c-4091-b2fa-6b891d587186.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: (*PHW_INITIALIZE)
-req.alt-loc: srb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	srb.h
+apiname: 
+-	(*PHW_INITIALIZE)
+product: Windows
+targetos: Windows
 req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PHW_INITIALIZE callback
 
 
-
 ## -description
+
+
 The PHW_INITIALIZE routine prototype declares a routine that initializes the miniport driver after a reboot or power failure occurs. 
 
 
-
 ## -prototype
+
 
 ````
 typedef BOOLEAN (*PHW_INITIALIZE)(
@@ -55,16 +65,24 @@ typedef BOOLEAN (*PHW_INITIALIZE)(
 
 ## -parameters
 
-### -param DeviceExtension  [in]
+
+
+
+### -param DeviceExtension [in]
 
 Pointer to the miniport driver's per-HBA storage area. 
 
 
 ## -returns
+
+
 If the operation succeeds, the initialization routine returns <b>TRUE</b>. Otherwise, the initialize routine returns <b>FALSE</b>. 
 
 
+
 ## -remarks
+
+
 The initialization routine for both SCSI and StorPort miniport drivers are declared using this prototype. 
 
 For more information about the SCSI miniport driver initialization routine see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557302">HwScsiInitialize</a>. 
@@ -72,15 +90,13 @@ For more information about the SCSI miniport driver initialization routine see <
 For more information about the miniport driver initialization routine that is used with the StorPort driver see <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557302">HwScsiInitialize</a>
-</dt>
-<dt>
+
 <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557302">HwScsiInitialize</a>
+
  
 
  

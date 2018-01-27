@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 348d17f3-a688-4f63-87aa-a8588f069c5c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT
+ms.keywords: d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_CHECKERBOARD, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_ROW_INTERLEAVED, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_SEPARATE, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_HORIZONTAL, display.d3d11_1ddi_video_processor_stereo_format, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_VERTICAL, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_HORIZONTAL, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT enumeration [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_COLUMN_INTERLEAVED, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_ROW_INTERLEAVED, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_COLUMN_INTERLEAVED, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_VERTICAL, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_SEPARATE, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_CHECKERBOARD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT
 ---
 
 # D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT enumeration
 
 
-
 ## -description
+
+
 Specifies the layout in memory of a stereo 3-D video frame.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT { 
@@ -60,6 +70,9 @@ typedef enum D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO
 
@@ -128,6 +141,8 @@ Support for this stereo format is optional.
 
 
 ## -remarks
+
+
 This enumeration designates the two stereo views as "frame 0" and "frame 1". The <i>LeftViewFrame0</i> parameter of the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamstereoformat.md">VideoProcessorSetStreamStereoFormat</a> method specifies which view is the left view, and which is the right view.
 
 For packed formats, if the source rectangle clips part of the surface, the driver interprets the rectangle in logical coordinates relative to the stereo view,  rather than absolute pixel coordinates. The result is that frame 0 and frame 1 are clipped proportionately.
@@ -135,18 +150,15 @@ For packed formats, if the source rectangle clips part of the surface, the drive
 To query whether the device supports stereo 3-D video, call <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a> and check for the <b>D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_STEREO</b> flag in the <b>FeatureCaps</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a> structure. If this capability flag is present, it means that the driver supports all of the stereo formats that are not  listed as optional. To find out which optional formats are supported, call <b>GetVideoProcessorCaps</b> and check the <b>StereoCaps</b> member of the structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamstereoformat.md">VideoProcessorSetStreamStereoFormat</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
+
  
 
  

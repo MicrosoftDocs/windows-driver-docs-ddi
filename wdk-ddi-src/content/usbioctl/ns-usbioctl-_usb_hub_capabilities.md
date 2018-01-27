@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: a87f747f-474d-401d-9757-0820680e5c8e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_HUB_CAPABILITIES, *PUSB_HUB_CAPABILITIES, USB_HUB_CAPABILITIES
+ms.keywords: buses.usb_hub_capabilities, PUSB_HUB_CAPABILITIES, usbioctl/PUSB_HUB_CAPABILITIES, usbioctl/USB_HUB_CAPABILITIES, *PUSB_HUB_CAPABILITIES, USB_HUB_CAPABILITIES, _USB_HUB_CAPABILITIES, PUSB_HUB_CAPABILITIES structure pointer [Buses], USB_HUB_CAPABILITIES structure [Buses], usbstrct_b82d8bad-3ed4-40d1-a6c1-7ac416ebf157.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_HUB_CAPABILITIES
-req.alt-loc: usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-req.typenames: *PUSB_HUB_CAPABILITIES, USB_HUB_CAPABILITIES
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbioctl.h
+apiname: 
+-	USB_HUB_CAPABILITIES
+product: Windows
+targetos: Windows
+req.typenames: USB_HUB_CAPABILITIES, *PUSB_HUB_CAPABILITIES
 req.product: Windows 10 or later.
 ---
 
 # _USB_HUB_CAPABILITIES structure
 
 
-
 ## -description
+
+
 The <b>USB_HUB_CAPABILITIES</b> structure has been deprecated. Use <a href="..\usbioctl\ns-usbioctl-_usb_hub_capabilities_ex.md">USB_HUB_CAPABILITIES_EX</a> instead.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USB_HUB_CAPABILITIES {
@@ -55,29 +65,24 @@ typedef struct _USB_HUB_CAPABILITIES {
 
 ## -struct-fields
 
+
+
+
 ### -field HubIs2xCapable
 
 If <b>TRUE</b>, the hub is capable of running at high speed.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_capabilities.md">IOCTL_USB_GET_HUB_CAPABILITIES</a>
-</dt>
-<dt>
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_cap_flags.md">USB_HUB_CAP_FLAGS</a>
-</dt>
-<dt>
+
 <a href="..\usbioctl\ns-usbioctl-_usb_hub_capabilities_ex.md">USB_HUB_CAPABILITIES_EX</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
+<a href="..\usbioctl\ns-usbioctl-_usb_hub_cap_flags.md">USB_HUB_CAP_FLAGS</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fed2c733-5011-4dba-a8ec-3a0742574949
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_FcpId, HBA_FCPID, *PHBA_FCPID
+ms.keywords: HBA_FcpId, storage.hba_fcpid, structs-Fibre_55770ec7-2c28-4db3-b2bb-20f50e232ba4.xml, hbaapi/HBA_FcpId, HBA_FCPID, HBA_FcpId structure [Storage Devices], *PHBA_FCPID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBA_FcpId
-req.alt-loc: hbaapi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbaapi.h
+apiname: 
+-	HBA_FcpId
+product: Windows
+targetos: Windows
 req.typenames: HBA_FCPID, *PHBA_FCPID
 ---
 
 # HBA_FcpId structure
 
 
-
 ## -description
-The HBA_FcpId structure is identical to the <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpid.md">HBAFCPID</a> structure.
 
+
+The HBA_FcpId structure is identical to the <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpid.md">HBAFCPID</a> structure.
 
 
 ## -struct-fields
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2C524702-A819-4B91-B236-E00B2820813C
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_MULTIPLANE_OVERLAY_PLANE3, DXGK_MULTIPLANE_OVERLAY_PLANE3
+ms.keywords: DXGK_MULTIPLANE_OVERLAY_PLANE3, DXGK_MULTIPLANE_OVERLAY_PLANE3 structure [Display Devices], display.dxgk_multiplane_overlay_plane3, _DXGK_MULTIPLANE_OVERLAY_PLANE3, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_MULTIPLANE_OVERLAY_PLANE3
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_MULTIPLANE_OVERLAY_PLANE3
+product: Windows
+targetos: Windows
 req.typenames: DXGK_MULTIPLANE_OVERLAY_PLANE3
 ---
 
 # _DXGK_MULTIPLANE_OVERLAY_PLANE3 structure
 
 
-
 ## -description
+
+
 Specifies an overlay plane to display in a call to the DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay3 function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_MULTIPLANE_OVERLAY_PLANE3 {
@@ -63,6 +73,9 @@ typedef struct _DXGK_MULTIPLANE_OVERLAY_PLANE3 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field LayerIndex
 
@@ -111,14 +124,9 @@ When a VSYNC flip is promoted to an immediate flip, the driver should set DXGK_P
 The number of contexts in the array that the Context member specifies.
 
 
-### -field pContext
+### -field ppContextData
 
-An array of handles to the contexts that contributed to a display operation.
-
-
-### -field pPrimaryData
-
-An array of DXGK_PRIMARYDATA structures that contain information on each allocation contributing to the display operation.
+ 
 
 
 ### -field DriverPrivateDataSize
@@ -136,4 +144,12 @@ Private driver data.
 A structure of type DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 that specifies overlay plane attributes.
 
 
-## -remarks
+#### - pPrimaryData
+
+An array of DXGK_PRIMARYDATA structures that contain information on each allocation contributing to the display operation.
+
+
+#### - pContext
+
+An array of handles to the contexts that contributed to a display operation.
+

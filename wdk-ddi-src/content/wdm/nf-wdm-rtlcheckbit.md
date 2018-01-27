@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2c9842de-a256-46ed-84b4-b8a595c01a62
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCheckBit
+ms.keywords: RtlCheckBit, kernel.rtlcheckbit, k109_1f4676c1-d031-4a2c-8d74-afa9d3a0ed10.xml, RtlCheckBit routine [Kernel-Mode Driver Architecture], wdm/RtlCheckBit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlCheckBit
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	RtlCheckBit
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RtlCheckBit function
 
 
-
 ## -description
+
+
 The <b>RtlCheckBit</b> routine determines whether a particular bit in a given bitmap variable is clear or set. 
 
 
-
 ## -syntax
+
 
 ````
 ULONG RtlCheckBit(
@@ -55,6 +65,9 @@ ULONG RtlCheckBit(
 
 
 ## -parameters
+
+
+
 
 ### -param BitMapHeader [in]
 
@@ -67,34 +80,33 @@ Specifies which bit to check. This is a zero-based value indicating the position
 
 
 ## -returns
+
+
 <b>RtlCheckBit</b> returns zero if the given bit is clear, or one if the given bit is set. 
 
 
+
 ## -remarks
+
+
 Callers of <b>RtlCheckBit</b> must be running at IRQL &lt;= APC_LEVEL if the memory that contains the bitmap variable is pageable or the memory at <i>BitMapHeader</i> is pageable. Otherwise, <b>RtlCheckBit</b> can be called at any IRQL.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtlnumberofclearbits.md">RtlNumberOfClearBits</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlnumberofsetbits.md">RtlNumberOfSetBits</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+
+<a href="..\wdm\nf-wdm-rtlnumberofclearbits.md">RtlNumberOfClearBits</a>
+
+<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+
+<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
+
+<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
+
  
 
  

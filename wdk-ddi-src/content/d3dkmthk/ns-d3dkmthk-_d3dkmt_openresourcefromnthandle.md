@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3f595816-29b5-4efc-a00c-77597dd9fa48
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_OPENRESOURCEFROMNTHANDLE, D3DKMT_OPENRESOURCEFROMNTHANDLE
+ms.keywords: D3DKMT_OPENRESOURCEFROMNTHANDLE structure [Display Devices], d3dkmthk/D3DKMT_OPENRESOURCEFROMNTHANDLE, _D3DKMT_OPENRESOURCEFROMNTHANDLE, D3DKMT_OPENRESOURCEFROMNTHANDLE, display.d3dkmt_openresourcefromnthandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_OPENRESOURCEFROMNTHANDLE
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_OPENRESOURCEFROMNTHANDLE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_OPENRESOURCEFROMNTHANDLE
 ---
 
 # _D3DKMT_OPENRESOURCEFROMNTHANDLE structure
 
 
-
 ## -description
+
+
 Describes information that is required to open a shared resource from an NT handle to the process. The shared resource can be a set of allocations, a keyed mutex, or a synchronization object.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_OPENRESOURCEFROMNTHANDLE {
@@ -67,6 +77,9 @@ typedef struct _D3DKMT_OPENRESOURCEFROMNTHANDLE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -149,21 +162,14 @@ If this member has a value of <b>NULL</b>, the value of the <b>KeyedMutexPrivate
 [out] A handle to the synchronization object in this process.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439280">D3DDDI_OPENALLOCATIONINFO2</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopennthandlefromname.md">D3DKMTOpenNtHandleFromName</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439280">D3DDDI_OPENALLOCATIONINFO2</a>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a>
-</dt>
-</dl>
+
  
 
  

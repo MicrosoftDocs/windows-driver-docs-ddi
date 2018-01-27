@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7C6ACFDD-809E-4E75-8E4D-8A4E0207593E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_WORK, PEP_WORK, *PPEP_WORK
+ms.keywords: PEP_WORK, *PPEP_WORK, PPEP_WORK, pepfx/PEP_WORK, PPEP_WORK structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_WORK, PEP_WORK structure [Kernel-Mode Driver Architecture], _PEP_WORK, kernel.pep_work
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_WORK
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: PEP_WORK, *PPEP_WORK
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_WORK
+product: Windows
+targetos: Windows
+req.typenames: *PPEP_WORK, PEP_WORK
 ---
 
 # _PEP_WORK structure
 
 
-
 ## -description
+
+
 The <b>PEP_WORK</b> structure indicates whether the PEP has a work request to submit to the Windows <a href="https://msdn.microsoft.com/9F2D8ACD-44D5-46E0-9FC7-1B38B99450FF">power management framework</a> (PoFx).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_WORK {
@@ -54,6 +64,9 @@ typedef struct _PEP_WORK {
 
 
 ## -struct-fields
+
+
+
 
 ### -field WorkInformation
 
@@ -66,18 +79,18 @@ typedef struct _PEP_WORK {
 
 
 ## -remarks
+
+
 This structure is used by the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a> notification. Both members of the structure contain values that the PEP writes to the structure in response to this notification.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a>
-</dt>
-<dt>
+
 <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

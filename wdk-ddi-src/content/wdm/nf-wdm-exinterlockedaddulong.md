@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c418538a-4041-4ea8-8a4c-1f4d35e434c7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExInterlockedAddUlong
+ms.keywords: ExInterlockedAddUlong, kernel.exinterlockedaddulong, k102_bec4a58e-ee68-4f9e-8fac-9ef0c193ef10.xml, ExInterlockedAddUlong routine [Kernel-Mode Driver Architecture], wdm/ExInterlockedAddUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExInterlockedAddUlong
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ExInterlockedAddUlong
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ExInterlockedAddUlong function
 
 
-
 ## -description
+
+
 The <b>ExInterlockedAddUlong</b> routine adds an unsigned long value to a given unsigned integer as an atomic operation.
 
 
-
 ## -syntax
+
 
 ````
 ULONG ExInterlockedAddUlong(
@@ -56,6 +66,9 @@ ULONG ExInterlockedAddUlong(
 
 
 ## -parameters
+
+
+
 
 ### -param Addend [in, out]
 
@@ -73,10 +86,15 @@ A pointer to a spin lock to be used to synchronize access to the <i>Addend</i>.
 
 
 ## -returns
+
+
 <b>ExInterlockedAddUlong </b>returns the original (unsummed) value of the <i>Addend</i>. 
 
 
+
 ## -remarks
+
+
 Consider using <b>InterlockedExchangeAdd</b> instead of this routine. <b>InterlockedExchangeAdd</b> can be more efficient because it does not use a spin lock and it is inlined by the compiler.
 
 Support routines that do interlocked operations are assumed to be incapable of causing a page fault. That is, neither their code nor any of the data they touch can cause a page fault without bringing down the system. They use spin locks to achieve atomicity on symmetric multiprocessor machines. The caller must provide resident storage for the <i>Lock</i>, which must be initialized with <b>KeInitializeSpinLock</b> before the initial call to an <b>ExInterlocked<i>Xxx</i></b>.
@@ -90,21 +108,17 @@ Note that calls to <b>Interlocked<i>Xxx</i></b> are guaranteed to be atomic with
 Callers of <b>ExInterlockedAddUlong</b> run at any IRQL. The storage for the <i>Addend</i> parameter must be resident at all IRQLs.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
+
+<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: FCDD6B04-339D-4BBA-9D19-AE74CCB27666
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCM_PD_POWER_DATA_OBJECT_TYPE, UCM_PD_POWER_DATA_OBJECT_TYPE
+ms.keywords: _UCM_PD_POWER_DATA_OBJECT_TYPE, UcmPdPdoTypeVariableSupplyNonBattery, ucmtypes/UcmPdPdoTypeBatterySupply, ucmtypes/UcmPdPdoTypeVariableSupplyNonBattery, UCM_PD_POWER_DATA_OBJECT_TYPE enumeration [Buses], buses.ucm_pd_power_data_object_type, ucmtypes/UCM_PD_POWER_DATA_OBJECT_TYPE, UcmPdPdoTypeFixedSupply, UCM_PD_POWER_DATA_OBJECT_TYPE, UcmPdPdoTypeBatterySupply, ucmtypes/UcmPdPdoTypeFixedSupply
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 2.15
-req.alt-api: UCM_PD_POWER_DATA_OBJECT_TYPE
-req.alt-loc: Ucmtypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ucmtypes.h
+apiname: 
+-	UCM_PD_POWER_DATA_OBJECT_TYPE
+product: Windows
+targetos: Windows
 req.typenames: UCM_PD_POWER_DATA_OBJECT_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _UCM_PD_POWER_DATA_OBJECT_TYPE enumeration
 
 
-
 ## -description
+
+
 Defines Power Data Object types.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _UCM_PD_POWER_DATA_OBJECT_TYPE { 
@@ -56,6 +66,9 @@ typedef enum _UCM_PD_POWER_DATA_OBJECT_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field UcmPdPdoTypeFixedSupply
 
@@ -72,15 +85,10 @@ Indicates the PD data object type is a battery supply.
 Indicates the PD data object type is a non-battery variable supply.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucmtypes\nf-ucmtypes-ucm_pd_power_data_object_get_type.md">UCM_PD_POWER_DATA_OBJECT_GET_TYPE</a>
-</dt>
-</dl>
+
  
 
  

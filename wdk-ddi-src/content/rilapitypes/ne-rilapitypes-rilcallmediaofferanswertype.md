@@ -7,8 +7,8 @@ old-location: netvista\rilcallmediaofferanswertype_2.htm
 old-project: netvista
 ms.assetid: 098392dc-f966-44f8-9202-9663b8cabc7e
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCALLMEDIAOFFERANSWERTYPE, RILCALLMEDIAOFFERANSWERTYPE
+ms.date: 1/18/2018
+ms.keywords: RIL_CALLMEDIAOFFERANSWERTYPE_MAX, RIL_CALLMEDIAOFFERANSWERTYPE_PEER_ANSWER, rilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_ANSWER, RILCALLMEDIAOFFERANSWERTYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_PEER_OFFER, RIL_CALLMEDIAOFFERANSWERTYPE_ANSWER, RIL_CALLMEDIAOFFERANSWERTYPE_OFFER, netvista.rilcallmediaofferanswertype_2, rilapitypes/RILCALLMEDIAOFFERANSWERTYPE, rilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_PEER_ANSWER, rilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_MAX, RILCALLMEDIAOFFERANSWERTYPE, rilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_CURRENT, RIL_CALLMEDIAOFFERANSWERTYPE_PEER_OFFER, RIL_CALLMEDIAOFFERANSWERTYPE_CURRENT, rilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_OFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCALLMEDIAOFFERANSWERTYPE
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILCALLMEDIAOFFERANSWERTYPE
+product: Windows
+targetos: Windows
 req.typenames: RILCALLMEDIAOFFERANSWERTYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILCALLMEDIAOFFERANSWERTYPE enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILCALLMEDIAOFFERANSWERTYPE { 
@@ -60,22 +70,33 @@ typedef enum _RILCALLMEDIAOFFERANSWERTYPE {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_CALLMEDIAOFFERANSWERTYPE_UNKNOWN
+
+
+
 ### -field RIL_CALLMEDIAOFFERANSWERTYPE_CURRENT
+
 
 
 ### -field RIL_CALLMEDIAOFFERANSWERTYPE_OFFER
 
 
+
 ### -field RIL_CALLMEDIAOFFERANSWERTYPE_ANSWER
+
 
 
 ### -field RIL_CALLMEDIAOFFERANSWERTYPE_PEER_OFFER
 
 
+
 ### -field RIL_CALLMEDIAOFFERANSWERTYPE_PEER_ANSWER
+
 
 
 ### -field RIL_CALLMEDIAOFFERANSWERTYPE_MAX
 
 
-## -remarks

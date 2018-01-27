@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 16f314f7-a54b-4c79-9cd6-1472ed454bbe
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.videoprocessorgetoutputextension, pfnVideoProcessorGetOutputExtension callback function [Display Devices], pfnVideoProcessorGetOutputExtension, PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION, PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION, d3d10umddi/pfnVideoProcessorGetOutputExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnVideoProcessorGetOutputExtension
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	pfnVideoProcessorGetOutputExtension
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION callback
 
 
-
 ## -description
+
+
 Returns private state data from a video processor to an application.
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION pfnVideoProcessorGetOutputExtension;
@@ -61,33 +71,55 @@ HRESULT APIENTRY* pfnVideoProcessorGetOutputExtension(
 
 ## -parameters
 
-### -param hDevice [in]
+
+
+
+### -param D3D10DDI_HDEVICE
+
+
+
+### -param D3D11_1DDI_HVIDEOPROCESSOR
+
+
+
+### -param *
+
+
+
+
+
+
+### -param UINT
+
+
+
+#### - DataSize [in]
+
+The size, in bytes, of the private state data in the buffer referenced by the <i>pData</i> parameter.
+
+
+#### - hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-### -param hVideoProcessor [in]
-
-A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
-
-
-
-
-### -param pGuid [in]
+#### - pGuid [in]
 
 A pointer to a GUID that identifies the private state data. The meaning of this GUID is defined by the graphics driver.
 
 
 
 
-### -param DataSize [in]
+#### - hVideoProcessor [in]
 
-The size, in bytes, of the private state data in the buffer referenced by the <i>pData</i> parameter.
+A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
 
 
-### -param pData [in, out]
+
+
+#### - pData [in, out]
 
 A pointer to a buffer that receives the private state data. 
 
@@ -95,36 +127,76 @@ A pointer to a buffer that receives the private state data.
 
 
 ## -returns
+
+
 <b>VideoProcessorGetOutputExtension</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The private state data was returned successfully.
+</dl>
+</td>
+<td width="60%">
+The private state data was returned successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>D3DDDIERR_DEVICEREMOVED</b></dt>
-</dl>The graphics adapter was removed.
+</dl>
+</td>
+<td width="60%">
+The graphics adapter was removed.
 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_FAIL</b></dt>
 </dl>
+</td>
+<td width="60%">
+
         The display miniport driver cannot return the requested private state data from the video processor.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_OUTOFMEMORY</b></dt>
 </dl>
+</td>
+<td width="60%">
+
         Memory was not available to complete the operation.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The Microsoft Direct3D runtime does not validate any parameter data before it calls the  <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputextension.md">VideoProcessorSetOutputExtension</a> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B821AF54-AF2C-4E19-BC70-2E0A8F172D93
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxPowerControl
+ms.keywords: PoFxPowerControl routine [Kernel-Mode Driver Architecture], PoFxPowerControl, kernel.pofxpowercontrol, wdm/PoFxPowerControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PoFxPowerControl
-req.alt-loc: Ntoskrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Ntoskrnl.exe
+apiname: 
+-	PoFxPowerControl
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PoFxPowerControl function
 
 
-
 ## -description
+
+
 The <b>PoFxPowerControl</b> routine sends a power control request to the power management framework (PoFx).
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PoFxPowerControl(
@@ -60,6 +70,9 @@ NTSTATUS PoFxPowerControl(
 
 
 ## -parameters
+
+
+
 
 ### -param Handle [in]
 
@@ -97,18 +110,43 @@ A pointer to a location into which the routine writes the number of bytes of dat
 
 
 ## -returns
+
+
 <b>PoFxPowerControl</b> returns <b>STATUS_SUCCESS</b> if the requested operation succeeds. Possible error return values include the following status code.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>The requested power control operation is not implemented.
+</dl>
+</td>
+<td width="60%">
+The requested power control operation is not implemented.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>The power engine plug-in (PEP) does not acknowledge support for this device.
+</dl>
+</td>
+<td width="60%">
+The power engine plug-in (PEP) does not acknowledge support for this device.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A device driver calls this routine to send a power control request directly to PoFx. A power control request is similar to an I/O control request (IOCTL). Unlike an IOCTL, however, a power control request is sent directly to PoFx and is not observed by other device drivers in the device stack. During a <b>PoFxPowerControl</b> call, PoFx synchronously performs the requested operation.
 
 Similarly, PoFx can send a power control request directly to the device driver. The driver handles this request in its <a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a> routine.
@@ -116,15 +154,13 @@ Similarly, PoFx can send a power control request directly to the device driver. 
 PoFx delegates the handling of all power control requests to the power engine plug-in (PEP). The PEP is an optional software component that performs power management tasks that are specific to a particular product line of processor or System on a Chip (SoC) modules. If the hardware vendor for the processor or SoC supplies a PEP for a hardware platform, this PEP might handle custom power control requests from a device driver, or might send custom power control requests to the driver's <i>PowerControlCallback</i> routine. The vendor can specify a set of <i>PowerControlCode</i> GUIDs and define the operations that are designated by these GUIDs. As an option, a device driver can contain platform-specific code to handle or to send requests for these operations.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a>
-</dt>
-</dl>
+
  
 
  

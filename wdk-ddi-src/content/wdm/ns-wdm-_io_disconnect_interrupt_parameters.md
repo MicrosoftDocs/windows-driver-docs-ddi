@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 646b5442-aff1-4216-bb1b-6988218933be
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _IO_DISCONNECT_INTERRUPT_PARAMETERS, IO_DISCONNECT_INTERRUPT_PARAMETERS, *PIO_DISCONNECT_INTERRUPT_PARAMETERS
+ms.keywords: kstruct_b_f8b627a3-a9ce-4a6c-8e3a-c0354ecdff7f.xml, wdm/PIO_DISCONNECT_INTERRUPT_PARAMETERS, PIO_DISCONNECT_INTERRUPT_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], *PIO_DISCONNECT_INTERRUPT_PARAMETERS, PIO_DISCONNECT_INTERRUPT_PARAMETERS, kernel.io_disconnect_interrupt_parameters, _IO_DISCONNECT_INTERRUPT_PARAMETERS, IO_DISCONNECT_INTERRUPT_PARAMETERS, wdm/IO_DISCONNECT_INTERRUPT_PARAMETERS, IO_DISCONNECT_INTERRUPT_PARAMETERS structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IO_DISCONNECT_INTERRUPT_PARAMETERS
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	IO_DISCONNECT_INTERRUPT_PARAMETERS
+product: Windows
+targetos: Windows
 req.typenames: IO_DISCONNECT_INTERRUPT_PARAMETERS, *PIO_DISCONNECT_INTERRUPT_PARAMETERS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _IO_DISCONNECT_INTERRUPT_PARAMETERS structure
 
 
-
 ## -description
+
+
 The <b>IO_DISCONNECT_INTERRUPT_PARAMETERS</b> structure describes the parameters when unregistering an interrupt-handling routine with <a href="..\wdm\nf-wdm-iodisconnectinterruptex.md">IoDisconnectInterruptEx</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _IO_DISCONNECT_INTERRUPT_PARAMETERS {
@@ -60,53 +70,12 @@ typedef struct _IO_DISCONNECT_INTERRUPT_PARAMETERS {
 
 ## -struct-fields
 
-### -field Version
 
-Specifies the particular operation to be performed by <b>IoDisconnectInterruptEx</b>. The value for <b>Version</b> depends on the value specified for <i>Parameters-</i>&gt;<b>Version</b> when <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a> registered the interrupt handing routine, as shown in the following table.
-
-<table>
-<tr>
-<th>IO_CONNECT_INTERRUPT_PARAMETERS Version value</th>
-<th>IO_DISCONNECT_INTERRUPT_PARAMETERS Version value</th>
-</tr>
-<tr>
-<td>
-CONNECT_LINE_BASED
-
-</td>
-<td>
-CONNECT_LINE_BASED
-
-</td>
-</tr>
-<tr>
-<td>
-CONNECT_MESSAGE_BASED
-
-</td>
-<td>
-The value of <b>Version</b> output by <b>IoConnectInterruptEx</b>.
-
-</td>
-</tr>
-<tr>
-<td>
-CONNECT_FULLY_SPECIFIED
-
-</td>
-<td>
-CONNECT_FULLY_SPECIFIED
-
-</td>
-</tr>
-</table>
- 
 
 
 ### -field ConnectionContext
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a> or <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a> structure that was provided by <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a> when the interrupt was connected. The value for <b>ConnectionContext</b> depends on the value specified for <i>Parameters</i>-&gt;<b>Version</b> when <b>IoConnectInterruptEx</b> registered the interrupt handling routine, as shown in the following table.
-
 <table>
 <tr>
 <th>IoConnectInterruptEx Version value</th>
@@ -142,44 +111,75 @@ The value stored in <b>FullySpecified.InterruptObject</b>.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 To minimize casting, <b>ConnectionContext</b> is defined as a union. Use <b>ConnectionContext.Generic</b> to specify the value as a PVOID. Use <b>ConnectionContext.InterruptObject</b> and <b>ConnectionContext.InterruptMessageTable</b> to specify the value as a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a> or <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a> structure.
 
 
-### -field Generic
+### -field ConnectionContext.Generic
 
 A pointer to a data structure of unspecified type.
 
 
-### -field InterruptObject
+### -field ConnectionContext.InterruptObject
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a> structure.
 
 
-### -field InterruptMessageTable
+### -field ConnectionContext.InterruptMessageTable
 
 A pointer to an <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a> structure.
 
-</dd>
-</dl>
 
-## -remarks
+### -field Version
+
+Specifies the particular operation to be performed by <b>IoDisconnectInterruptEx</b>. The value for <b>Version</b> depends on the value specified for <i>Parameters-</i>&gt;<b>Version</b> when <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a> registered the interrupt handing routine, as shown in the following table.
+<table>
+<tr>
+<th>IO_CONNECT_INTERRUPT_PARAMETERS Version value</th>
+<th>IO_DISCONNECT_INTERRUPT_PARAMETERS Version value</th>
+</tr>
+<tr>
+<td>
+CONNECT_LINE_BASED
+
+</td>
+<td>
+CONNECT_LINE_BASED
+
+</td>
+</tr>
+<tr>
+<td>
+CONNECT_MESSAGE_BASED
+
+</td>
+<td>
+The value of <b>Version</b> output by <b>IoConnectInterruptEx</b>.
+
+</td>
+</tr>
+<tr>
+<td>
+CONNECT_FULLY_SPECIFIED
+
+</td>
+<td>
+CONNECT_FULLY_SPECIFIED
+
+</td>
+</tr>
+</table> 
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-iodisconnectinterruptex.md">IoDisconnectInterruptEx</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-iodisconnectinterruptex.md">IoDisconnectInterruptEx</a>
+
+<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
+
  
 
  

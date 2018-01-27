@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c77b722f-e023-4e3e-9dff-616d0ab0a6a2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.getvideoprocessorrateconversioncaps, pfnGetVideoProcessorRateConversionCaps callback function [Display Devices], pfnGetVideoProcessorRateConversionCaps, PFND3D11_1DDI_GETVIDEOPROCESSORRATECONVERSIONCAPS, PFND3D11_1DDI_GETVIDEOPROCESSORRATECONVERSIONCAPS, d3d10umddi/pfnGetVideoProcessorRateConversionCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnGetVideoProcessorRateConversionCaps
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	pfnGetVideoProcessorRateConversionCaps
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_GETVIDEOPROCESSORRATECONVERSIONCAPS callback
 
 
-
 ## -description
+
+
 Queries a specified group of video processing capabilities that are associated with frame-rate conversion, including deinterlacing and inverse telecine.
 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11_1DDI_GETVIDEOPROCESSORRATECONVERSIONCAPS pfnGetVideoProcessorRateConversionCaps;
@@ -61,50 +71,74 @@ VOID APIENTRY* pfnGetVideoProcessorRateConversionCaps(
 
 ## -parameters
 
-### -param hDevice [in]
-
-A handle to the display device (graphics context).
 
 
 
+### -param D3D10DDI_HDEVICE
 
-### -param hProcessorEnum [in]
+
+
+### -param D3D11_1DDI_HVIDEOPROCESSORENUM
+
+
+
+### -param UINT
+
+
+
+### -param *
+
+
+
+
+
+
+#### - RateConversionIndex [in]
+
+The zero-based index of the frame-rate conversion capability group. For more information, see the Remarks section.
+
+
+#### - hProcessorEnum [in]
 
 A handle to a video processor enumeration object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a> function.
 
 
 
 
-### -param RateConversionIndex [in]
+#### - hDevice [in]
 
-The zero-based index of the frame-rate conversion capability group. For more information, see the Remarks section.
+A handle to the display device (graphics context).
 
 
-### -param pCaps [out]
+
+
+#### - pCaps [out]
 
 A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_rate_conversion_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS</a> structure that contains the attributes of  the specified rate conversion capability group.
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 The display miniport driver returns the maximum number of frame-rate conversion capabilities that it supports through the <b>RateConversionCapsCount</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a> structure. The driver returns a pointer to this structure through its <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
+
  
 
  

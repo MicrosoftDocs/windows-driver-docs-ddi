@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: BBE92635-5230-454E-A6CA-80198B5B2C57
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _REGISTER_COMPOSITE_DEVICE, *PREGISTER_COMPOSITE_DEVICE, REGISTER_COMPOSITE_DEVICE
+ms.keywords: REGISTER_COMPOSITE_DEVICE structure [Buses], *PREGISTER_COMPOSITE_DEVICE, usbdlib/REGISTER_COMPOSITE_DEVICE, buses.register_composite_driver, REGISTER_COMPOSITE_DEVICE, PREGISTER_COMPOSITE_DEVICE structure pointer [Buses], PREGISTER_COMPOSITE_DEVICE, _REGISTER_COMPOSITE_DEVICE, usbdlib/PREGISTER_COMPOSITE_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: REGISTER_COMPOSITE_DEVICE
-req.alt-loc: usbdlib.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PREGISTER_COMPOSITE_DEVICE, REGISTER_COMPOSITE_DEVICE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbdlib.h
+apiname: 
+-	REGISTER_COMPOSITE_DEVICE
+product: Windows
+targetos: Windows
+req.typenames: REGISTER_COMPOSITE_DEVICE, *PREGISTER_COMPOSITE_DEVICE
 req.product: Windows 10 or later.
 ---
 
 # _REGISTER_COMPOSITE_DEVICE structure
 
 
-
 ## -description
+
+
 The <b>REGISTER_COMPOSITE_DEVICE</b> structure is used with the <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_register_composite_device.md">IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</a> I/O control request to register a  parent driver of a Universal Serial Bus (USB) multi-function device (composite driver)  with the USB driver stack. 
 
 To initialize the <b>REGISTER_COMPOSITE_DEVICE</b> structure, the composite driver must call the <a href="..\usbdlib\nf-usbdlib-usbd_buildregistercompositedevice.md">USBD_BuildRegisterCompositeDevice</a> routine.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _REGISTER_COMPOSITE_DEVICE {
@@ -60,6 +70,9 @@ typedef struct _REGISTER_COMPOSITE_DEVICE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -88,24 +101,16 @@ member of <b>COMPOSITE_DEVICE_CAPABILITIES</b> to 1. Finally, call <a href="..\u
 The number of functions supported by the composite device. The <b>FunctionCount</b> value must not exceed 255.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_register_composite_device.md">IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</a>
-</dt>
-<dt>
-<a href="..\usbdlib\nf-usbdlib-usbd_buildregistercompositedevice.md">USBD_BuildRegisterCompositeDevice</a>
-</dt>
-<dt>
-<a href="..\usbdlib\ns-usbdlib-_composite_device_capabilities.md">COMPOSITE_DEVICE_CAPABILITIES</a>
-</dt>
-<dt>
+
 <a href="..\usbdlib\nf-usbdlib-composite_device_capabilities_init.md">COMPOSITE_DEVICE_CAPABILITIES_INIT</a>
-</dt>
-</dl>
+
+<a href="..\usbdlib\ns-usbdlib-_composite_device_capabilities.md">COMPOSITE_DEVICE_CAPABILITIES</a>
+
+<a href="..\usbdlib\nf-usbdlib-usbd_buildregistercompositedevice.md">USBD_BuildRegisterCompositeDevice</a>
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_register_composite_device.md">IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</a>
+
  
 
  

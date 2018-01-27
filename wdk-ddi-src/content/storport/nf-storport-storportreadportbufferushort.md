@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7b45811c-4e5f-4344-b0b3-15d36b912b5b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortReadPortBufferUshort
+ms.keywords: StorPortReadPortBufferUshort routine [Storage Devices], storage.storportreadportbufferushort, storprt_8bb9a625-864a-4566-a570-87425b6bc9af.xml, storport/StorPortReadPortBufferUshort, StorPortReadPortBufferUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortReadPortBufferUshort
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortReadPortBufferUshort
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortReadPortBufferUshort function
 
 
-
 ## -description
+
+
 The <b>StorPortReadPortBufferUshort</b> routine reads a value from a specified port address. 
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API VOID StorPortReadPortBufferUshort(
@@ -57,6 +68,9 @@ STORPORT_API VOID StorPortReadPortBufferUshort(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -79,22 +93,25 @@ Number of data items to be read. Each data item has a size of <b>sizeof</b>(USHO
 
 
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 For more information, see <a href="..\srb\nf-srb-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadportushort.md">StorPortReadPortUshort</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\srb\nf-srb-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportreadportushort.md">StorPortReadPortUshort</a>
-</dt>
-</dl>
+
+<a href="..\srb\nf-srb-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>
+
  
 
  

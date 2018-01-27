@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 17a1e4d8-5438-42b6-b4a5-335e7bd57b1b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest2, IWDFIoRequest2::IsFromUserModeDriver, IsFromUserModeDriver
+ms.keywords: IsFromUserModeDriver method, IWDFIoRequest2::IsFromUserModeDriver, IWDFIoRequest2 interface, IsFromUserModeDriver method, wudfddi/IWDFIoRequest2::IsFromUserModeDriver, UMDFRequestObjectRef_81f13df9-e0f7-4d16-9f85-e049a491e08d.xml, IsFromUserModeDriver, umdf.iwdfiorequest2_isfromusermodedriver, IWDFIoRequest2, wdf.iwdfiorequest2_isfromusermodedriver, IsFromUserModeDriver method, IWDFIoRequest2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.9
-req.alt-api: IWDFIoRequest2.IsFromUserModeDriver
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFIoRequest2.IsFromUserModeDriver
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IWDFIoRequest2::IsFromUserModeDriver method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>IsFromUserModeDriver</b> method indicates whether an I/O request came from a user-mode driver or an application.
 
 
-
 ## -syntax
+
 
 ````
 BOOL IsFromUserModeDriver();
@@ -56,34 +66,33 @@ BOOL IsFromUserModeDriver();
 ## -parameters
 
 
+
+
+
 ## -returns
-A Boolean value that, if <b>TRUE</b>, indicates that the current I/O request is from a user-mode driver. If this value is <b>FALSE</b>, the current I/O request came from an application.
+
 
 A Boolean value that, if <b>TRUE</b>, indicates that the current I/O request is from a user-mode driver. If this value is <b>FALSE</b>, the current I/O request came from an application.
 
-A Boolean value that, if <b>TRUE</b>, indicates that the current I/O request is from a user-mode driver. If this value is <b>FALSE</b>, the current I/O request came from an application.
 
 
 ## -remarks
+
+
 If your driver supports <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-kernel-mode-clients-in-umdf-1-x-drivers">kernel-mode clients</a>, it should call <b>IsFromUserModeDriver</b> only if <a href="https://msdn.microsoft.com/library/windows/hardware/ff559002">IWDFIoRequest2::GetRequestorMode</a> returns <b>WdfUserMode</b>.
 
 The UMDF 2 equivalent of this method is <a href="..\wdfrequest\nf-wdfrequest-wdfrequestisfromusermodedriver.md">WdfRequestIsFromUserModeDriver</a>.
 
-For a code example that uses <b>IsFromUserModeDriver</b>, see the example at <a href="https://msdn.microsoft.com/library/windows/hardware/ff559002">IWDFIoRequest2::GetRequestorMode</a>.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559002">IWDFIoRequest2::GetRequestorMode</a>
-</dt>
-<dt>
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestisfromusermodedriver.md">WdfRequestIsFromUserModeDriver</a>
-</dt>
-</dl>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+
  
 
  

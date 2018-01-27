@@ -7,8 +7,8 @@ old-location: netvista\wskcaptureprovidernpi.htm
 old-project: netvista
 ms.assetid: b5c6667e-33b4-4482-8817-c01d9d314c3a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WskCaptureProviderNPI
+ms.date: 1/18/2018
+ms.keywords: wskref_571be642-7c1c-471d-bf35-73bd6b271cbe.xml, netvista.wskcaptureprovidernpi, wsk/WskCaptureProviderNPI, WskCaptureProviderNPI function [Network Drivers Starting with Windows Vista], WskCaptureProviderNPI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WskCaptureProviderNPI
-req.alt-loc: Netio.lib,Netio.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,23 +29,36 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Netio.lib
+-	Netio.dll
+apiname: 
+-	WskCaptureProviderNPI
+product: Windows
+targetos: Windows
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
 # WskCaptureProviderNPI function
 
 
-
 ## -description
+
+
 The 
   <b>WskCaptureProviderNPI</b> function captures a provider 
-  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
-  (NPI)</a> when it becomes available from the WSK subsystem.
-
+  <mshelp:link keywords="netvista.network_programming_interface" tabindex="0">Network Programming Interface
+  (NPI)</mshelp:link> when it becomes available from the WSK subsystem.
 
 
 ## -syntax
+
 
 ````
 NTSTATUS WskCaptureProviderNPI(
@@ -59,6 +70,9 @@ NTSTATUS WskCaptureProviderNPI(
 
 
 ## -parameters
+
+
+
 
 ### -param WskRegistration [in]
 
@@ -77,21 +91,9 @@ The time, in milliseconds, that the
 
 
 
-
-### -param WSK_NO_WAIT
-
-Return from this function immediately if the provider NPI is not available.
-
-
-### -param WSK_INFINITE_WAIT
-
-Wait until the provider NPI is available from the WSK subsystem.
-
-</dd>
-</dl>
 For more information about how this parameter is used, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock
-     Kernel Application</a>.
+     <mshelp:link keywords="netvista.registering_a_winsock_kernel_application" tabindex="0">Registering a Winsock
+     Kernel Application</mshelp:link>.
 
 
 ### -param WskProviderNpi [out]
@@ -101,25 +103,76 @@ A pointer to the NPI returned by the WSK provider. This
      pointer to the WSK provider dispatch table of WSK functions that the WSK application can call.
 
 
+##### - WaitTimeout.WSK_INFINITE_WAIT
+
+Wait until the provider NPI is available from the WSK subsystem.
+
+
+##### - WaitTimeout.WSK_NO_WAIT
+
+Return from this function immediately if the provider NPI is not available.
+
+
 ## -returns
+
+
 <b>WskCaptureProviderNPI</b> returns one of the following NTSTATUS codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The provider NPI capture completed successfully.
+</dl>
+</td>
+<td width="60%">
+The provider NPI capture completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_DEVICE_NOT_READY</b></dt>
-</dl>The provider NPI was not yet available.
+</dl>
+</td>
+<td width="60%">
+The provider NPI was not yet available.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOINTERFACE</b></dt>
-</dl>The version requested by the WSK client is not supported by the WSK subsystem.
+</dl>
+</td>
+<td width="60%">
+The version requested by the WSK client is not supported by the WSK subsystem.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>Other status codes</b></dt>
-</dl>The provider NPI capture failed.
+</dl>
+</td>
+<td width="60%">
+The provider NPI capture failed.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 For each call to 
     <b>WskCaptureProviderNPI</b> that returns a success code, there must be exactly one corresponding 
     <a href="..\wsk\nf-wsk-wskreleaseprovidernpi.md">WskReleaseProviderNPI</a> call that uses
@@ -137,8 +190,8 @@ For each call to
     become available will also return immediately with status code STATUS_DEVICE_NOT_READY.
 
 For more information about attaching a WSK application to the WSK subsystem, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
-    Application</a>.
+    <mshelp:link keywords="netvista.registering_a_winsock_kernel_application" tabindex="0">Registering a Winsock Kernel
+    Application</mshelp:link>.
 
 Callers of the 
     <b>WskCaptureProviderNPI</b> function must be running at IRQL = PASSIVE_LEVEL if 
@@ -146,21 +199,18 @@ Callers of the
     DISPATCH_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wsk\nf-wsk-wskderegister.md">WskDeregister</a>
-</dt>
-<dt>
+
 <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
-</dt>
-<dt>
+
 <a href="..\wsk\nf-wsk-wskreleaseprovidernpi.md">WskReleaseProviderNPI</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WskCaptureProviderNPI function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WskCaptureProviderNPI function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

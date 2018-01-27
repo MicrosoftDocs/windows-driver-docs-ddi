@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0dd01bf7-04a8-4d20-982a-1ec81076583f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _USB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
+ms.keywords: stream.camallocatebandwidth, CamAllocateBandwidth, CamAllocateBandwidth callback function [Streaming Media Devices], CamAllocateBandwidth, PCAM_ALLOCATE_BW_ROUTINE, PCAM_ALLOCATE_BW_ROUTINE, usbcamdi/CamAllocateBandwidth, usbcmdpr_4e7b22dc-0f6d-4a9b-82df-61c14cae981b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CamAllocateBandwidth
-req.alt-loc: usbcamdi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	usbcamdi.h
+apiname: 
+-	CamAllocateBandwidth
+product: Windows
+targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
@@ -38,16 +47,17 @@ req.product: Windows 10 or later.
 # PCAM_ALLOCATE_BW_ROUTINE callback
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[CamAllocateBandwidth is not supported and may be altered or unavailable in the future. Instead, use <a href="..\usbcamdi\nc-usbcamdi-pcam_allocate_bw_routine_ex.md">CamAllocateBandwidthEx</a>.
 ]
 
 A camera minidriver's <b>CamAllocateBandwidth</b> callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream.
 
 
-
 ## -prototype
+
 
 ````
 NTSTATUS CamAllocateBandwidth(
@@ -61,31 +71,39 @@ NTSTATUS CamAllocateBandwidth(
 
 ## -parameters
 
-### -param BusDeviceObject 
+
+
+
+### -param BusDeviceObject
 
 Pointer to the camera minidriver's device object created by the USB hub.
 
 
-### -param DeviceContext 
+### -param DeviceContext
 
 Pointer to the camera minidriver's device context.
 
 
-### -param RawFrameLength 
+### -param RawFrameLength
 
 Specifies the size, of the raw frame data from the packet stream, in bytes.
 
 
-### -param Format 
+### -param Format
 
 Pointer to a <a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader.md">KS_DATAFORMAT_VIDEOINFOHEADER</a> structure that is associated with this stream.
 
 
 ## -returns
+
+
 <b>CamAllocateBandwidth</b> returns STATUS_SUCCESS or an appropriate error code.
 
 
+
 ## -remarks
+
+
 Camera minidrivers that must maintain backward compatibility with the original USBCAMD must use the <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data.md">USBCAMD_DEVICE_DATA</a> structure and its associated callback functions (that is, callback functions that do not contain the "Ex" suffix).
 
 USBCAMD calls the camera minidriver's <b>CamAllocateBandwidth</b> callback function immediately before the isochronous video capture stream is started. It is called in connection with a <b>Run</b> command.
@@ -95,18 +113,15 @@ Typically, this function calls the <b>USBCAMD_SelectAlternateInterface</b> servi
 This function is required.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\usbcamdi\nc-usbcamdi-pcam_allocate_bw_routine_ex.md">CamAllocateBandwidthEx</a>
-</dt>
-<dt>
-<a href="..\usbcamdi\nf-usbcamdi-usbcamd_selectalternateinterface.md">USBCAMD_SelectAlternateInterface</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader.md">KS_DATAFORMAT_VIDEOINFOHEADER</a>
-</dt>
-</dl>
+
+<a href="..\usbcamdi\nf-usbcamdi-usbcamd_selectalternateinterface.md">USBCAMD_SelectAlternateInterface</a>
+
+<a href="..\usbcamdi\nc-usbcamdi-pcam_allocate_bw_routine_ex.md">CamAllocateBandwidthEx</a>
+
  
 
  

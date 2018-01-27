@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b131dbb9-1e11-4d04-97cb-e15ec2b025c7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddiupdateoverlay, DxgkDdiUpdateOverlay callback function [Display Devices], DxgkDdiUpdateOverlay, DXGKDDI_UPDATEOVERLAY, DXGKDDI_UPDATEOVERLAY, d3dkmddi/DxgkDdiUpdateOverlay, DmFunctions_cc73fb5c-c4b9-476a-9227-fe2d15e288ea.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiUpdateOverlay
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DxgkDdiUpdateOverlay
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_UPDATEOVERLAY callback
 
 
-
 ## -description
+
+
 The <i>DxgkDdiUpdateOverlay</i> function modifies the overlay hardware.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_UPDATEOVERLAY DxgkDdiUpdateOverlay;
@@ -58,6 +68,9 @@ NTSTATUS APIENTRY DxgkDdiUpdateOverlay(
 
 ## -parameters
 
+
+
+
 ### -param hOverlay [in]
 
 [in] A handle to the overlay to modify. The display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hOverlay</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a> structure that <i>pCreateOverlay</i> points to. 
@@ -69,42 +82,88 @@ NTSTATUS APIENTRY DxgkDdiUpdateOverlay(
 
 
 ## -returns
+
+
 <i>DxgkDdiUpdateOverlay</i> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl><i>DxgkDdiUpdateOverlay</i> successfully modified the overlay.
+</dl>
+</td>
+<td width="60%">
+<i>DxgkDdiUpdateOverlay</i> successfully modified the overlay.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>Parameters that were passed to <i>DxgkDdiUpdateOverlay</i> contained errors that prevented it from completing.
+</dl>
+</td>
+<td width="60%">
+Parameters that were passed to <i>DxgkDdiUpdateOverlay</i> contained errors that prevented it from completing.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NO_MEMORY</b></dt>
-</dl><i>DxgkDdiUpdateOverlay</i> could not allocate memory that was required for it to complete.
+</dl>
+</td>
+<td width="60%">
+<i>DxgkDdiUpdateOverlay</i> could not allocate memory that was required for it to complete.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl><i>DxgkDdiUpdateOverlay</i> could not complete because insufficient bandwidth was available or the requested overlay hardware could not complete the task.
+</dl>
+</td>
+<td width="60%">
+<i>DxgkDdiUpdateOverlay</i> could not complete because insufficient bandwidth was available or the requested overlay hardware could not complete the task.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_DRIVER_MISMATCH</b></dt>
-</dl>The display miniport driver is not compatible with the user-mode display driver that initiated the call to <i>DxgkDdiUpdateOverlay</i>. 
+</dl>
+</td>
+<td width="60%">
+The display miniport driver is not compatible with the user-mode display driver that initiated the call to <i>DxgkDdiUpdateOverlay</i>. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <i>DxgkDdiUpdateOverlay</i> should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_updateoverlay.md">DXGKARG_UPDATEOVERLAY</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_updateoverlay.md">DXGKARG_UPDATEOVERLAY</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a>
+
  
 
  

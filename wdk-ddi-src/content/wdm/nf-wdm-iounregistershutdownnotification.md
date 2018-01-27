@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b48a38ff-60b9-4c01-ac71-4ae07010db1f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoUnregisterShutdownNotification
+ms.keywords: wdm/IoUnregisterShutdownNotification, IoUnregisterShutdownNotification, k104_f242a3dc-8338-4d64-bad7-0cca78c30a45.xml, IoUnregisterShutdownNotification routine [Kernel-Mode Driver Architecture], kernel.iounregistershutdownnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoUnregisterShutdownNotification
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlIoPassive5, PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoUnregisterShutdownNotification
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoUnregisterShutdownNotification function
 
 
-
 ## -description
+
+
 The <b>IoUnregisterShutdownNotification</b> routine removes a registered driver from the shutdown notification queue.
 
 
-
 ## -syntax
+
 
 ````
 VOID IoUnregisterShutdownNotification(
@@ -55,30 +65,36 @@ VOID IoUnregisterShutdownNotification(
 
 ## -parameters
 
+
+
+
 ### -param DeviceObject [in]
 
 Pointer to the driver's device object.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>IoUnregisterShutdownNotification</b> can be called by a driver only if that driver previously called <a href="..\wdm\nf-wdm-ioregistershutdownnotification.md">IoRegisterShutdownNotification</a> or <a href="..\wdm\nf-wdm-ioregisterlastchanceshutdownnotification.md">IoRegisterLastChanceShutdownNotification</a> with the given <i>DeviceObject</i>. This routine is usually called from a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine.
 
 Calling <b>IoUnregisterShutdownNotification</b> cancels all shutdown notifications that have been registered for the given <i>DeviceObject</i>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-ioregistershutdownnotification.md">IoRegisterShutdownNotification</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-ioregisterlastchanceshutdownnotification.md">IoRegisterLastChanceShutdownNotification</a>
-</dt>
-</dl>
+
  
 
  

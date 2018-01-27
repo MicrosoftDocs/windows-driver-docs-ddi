@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B6F4207F-B55A-4B36-883D-291E351742CA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKVGPU_ESCAPE_READ_PCI_CONFIG, DXGKVGPU_ESCAPE_READ_PCI_CONFIG
+ms.keywords: _DXGKVGPU_ESCAPE_READ_PCI_CONFIG, DXGKVGPU_ESCAPE_READ_PCI_CONFIG structure [Display Devices], display.dxgkvgpu_escape_read_pci_config, d3dukmdt/DXGKVGPU_ESCAPE_READ_PCI_CONFIG, DXGKVGPU_ESCAPE_READ_PCI_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKVGPU_ESCAPE_READ_PCI_CONFIG
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	DXGKVGPU_ESCAPE_READ_PCI_CONFIG
+product: Windows
+targetos: Windows
 req.typenames: DXGKVGPU_ESCAPE_READ_PCI_CONFIG
 ---
 
 # _DXGKVGPU_ESCAPE_READ_PCI_CONFIG structure
 
 
-
 ## -description
+
+
 A structure used to read the PCI config for an escape.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKVGPU_ESCAPE_READ_PCI_CONFIG {
@@ -55,6 +65,9 @@ typedef struct _DXGKVGPU_ESCAPE_READ_PCI_CONFIG {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -70,5 +83,3 @@ Offset in bytes in the PCI config space.
 
 Size in bytes to read.
 
-
-## -remarks

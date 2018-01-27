@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 0F6EBBDA-FA0B-4044-905B-535D4FFEC5D2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUsbEndpointInitSetCallbacks
+ms.keywords: UdecxUsbEndpointInitSetCallbacks, buses.udecxusbendpointinitsetcallbacks, UdecxUsbEndpointInitSetCallbacks function [Buses], udecxusbendpoint/UdecxUsbEndpointInitSetCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 
-req.alt-api: UdecxUsbEndpointInitSetCallbacks
-req.alt-loc: Udecxstub.lib,Udecxstub.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Udecxstub.lib
+-	Udecxstub.dll
+apiname: 
+-	UdecxUsbEndpointInitSetCallbacks
+product: Windows
+targetos: Windows
 req.typenames: *PUDECX_USB_ENDPOINT_INIT_AND_METADATA, UDECX_USB_ENDPOINT_INIT_AND_METADATA
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # UdecxUsbEndpointInitSetCallbacks function
 
 
-
 ## -description
+
+
 Sets pointers to UDE client driver-implemented  callback functions in the initialization parameters of the simple endpoint to create.
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE void UdecxUsbEndpointInitSetCallbacks(
@@ -56,9 +67,12 @@ FORCEINLINE void UdecxUsbEndpointInitSetCallbacks(
 
 ## -parameters
 
-### -param Init [in, out]
 
-A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate.md">UdecxUsbSimpleEndpointInitAllocate</a>.
+
+
+### -param UdecxUsbEndpointInit
+
+TBD
 
 
 ### -param EndpointCallbacks [in]
@@ -66,25 +80,26 @@ A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver re
 A pointer to <a href="..\udecxusbendpoint\ns-udecxusbendpoint-_udecx_usb_endpoint_callbacks.md">UDECX_USB_ENDPOINT_CALLBACKS</a> that contains function pointers to event callback functions implemented by the UDE client driver. 
 
 
+#### - Init [in, out]
+
+A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate.md">UdecxUsbSimpleEndpointInitAllocate</a>.
+
+
 ## -returns
+
+
 This function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-</dt>
-</dl>
+
+<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
  
 
  

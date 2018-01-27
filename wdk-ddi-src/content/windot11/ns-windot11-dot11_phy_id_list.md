@@ -7,8 +7,8 @@ old-location: netvista\dot11_phy_id_list.htm
 old-project: netvista
 ms.assetid: f5b2da7f-69b2-4c3d-85dc-2f616c282c5d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DOT11_PHY_ID_LIST, *PDOT11_PHY_ID_LIST, DOT11_PHY_ID_LIST
+ms.date: 1/18/2018
+ms.keywords: PDOT11_PHY_ID_LIST structure pointer [Network Drivers Starting with Windows Vista], PDOT11_PHY_ID_LIST, windot11/DOT11_PHY_ID_LIST, netvista.dot11_phy_id_list, DOT11_PHY_ID_LIST, DOT11_PHY_ID_LIST structure [Network Drivers Starting with Windows Vista], *PDOT11_PHY_ID_LIST, Native_802.11_data_types_e6b82eab-cd00-460f-8956-9b1c8cf86be1.xml, windot11/PDOT11_PHY_ID_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DOT11_PHY_ID_LIST
-req.alt-loc: windot11.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,17 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PDOT11_PHY_ID_LIST, DOT11_PHY_ID_LIST
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	windot11.h
+apiname: 
+-	DOT11_PHY_ID_LIST
+product: Windows
+targetos: Windows
+req.typenames: DOT11_PHY_ID_LIST, *PDOT11_PHY_ID_LIST
 req.product: Windows 10 or later.
 ---
 
 # DOT11_PHY_ID_LIST structure
 
 
-
 ## -description
 
+
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_PHY_ID_LIST structure specifies a list of zero or more PHY types.
+
+
 ## -syntax
+
 
 ````
 typedef struct DOT11_PHY_ID_LIST {
@@ -55,6 +68,9 @@ typedef struct DOT11_PHY_ID_LIST {
 
 ## -struct-fields
 
+
+
+
 ### -field Header
 
 The type, revision, and size of the DOT11_PHY_ID_LIST structure. This member is formatted as an 
@@ -66,24 +82,6 @@ The miniport driver must set the members of
 
 
 
-
-### -field Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
-### -field Revision
-
-This member must be set to DOT11_PHY_ID_LIST_REVISION_1.
-
-
-### -field Size
-
-This member must be set to 
-       sizeof(DOT11_PHY_ID_LIST).
-
-</dd>
-</dl>
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
@@ -105,24 +103,46 @@ The maximum number of entries that the
 The list of PHY identifiers (IDs).
 
 
+##### - Header.Revision
+
+This member must be set to DOT11_PHY_ID_LIST_REVISION_1.
+
+
+##### - Header.Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+##### - Header.Size
+
+This member must be set to 
+       sizeof(DOT11_PHY_ID_LIST).
+
+
 ## -remarks
+
+
 A PHY ID in the 
     <b>dot11PhyId</b> array must be one of the following:
-
+<ul>
+<li>
 An index into the table of supported PHYs that are defined by the Native 802.11 Operational 
       <b>msDot11SupportedPhyTypes</b> management information base (MIB) object. For more information about PHY
       IDs and the 
       <b>msDot11SupportedPhyTypes</b> MIB object, see 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
-      OID_DOT11_SUPPORTED_PHY_TYPES</a>.
+      <mshelp:link keywords="netvista.oid_dot11_supported_phy_types" tabindex="0">
+      OID_DOT11_SUPPORTED_PHY_TYPES</mshelp:link>.
 
+</li>
+<li>
 A PHY ID with the value of DOT11_PHY_ID_ANY. This PHY ID is called a 
       <i>wildcard PHY ID</i> and is used to specify any supported PHY on the 802.11 station. If the wildcard
       PHY ID is used, it must be the only entry in the 
       <b>dot11PhyId</b> array.
 
-A miniport driver returns the DOT11_PHY_ID_LIST structure when queried by either 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff569102">OID_DOT11_ACTIVE_PHY_LIST</a> or 
+</li>
+</ul>A miniport driver returns the DOT11_PHY_ID_LIST structure when queried by either 
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a> or 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569144">OID_DOT11_DESIRED_PHY_LIST</a>.
 
 When these OIDs are queried, the miniport driver must verify that the 
@@ -133,36 +153,53 @@ When these OIDs are queried, the miniport driver must verify that the
     <b>dot11PhyId</b> array. The value of the 
     <b>InformationBufferLength</b> member of the 
     <i>OidRequest</i> parameter determines what the miniport driver must do, as the following list shows:
-
+<ul>
+<li>
 If the value of the 
       <b>InformationBufferLength</b> member is less than the length, in bytes, of the entire DOT11_PHY_ID_LIST
       structure, the miniport driver must do the following:
 
+<ul>
+<li>
 Set the 
         <b>uNumOfEntries</b> member to zero.
 
+</li>
+<li>
 Set the 
         <b>uTotalNumOfEntries</b> member to the number of entries in the 
         <b>dot11PhyId</b> array.
 
+</li>
+<li>
 For the 
         <i>OidRequest</i> parameter, set the 
         <b>BytesWritten</b> member to zero and the 
         <b>BytesNeeded</b> member to the length, in bytes, of the entire DOT11_PHY_ID_LIST structure.
 
+</li>
+<li>
 Fail the query request by returning NDIS_STATUS_BUFFER_OVERFLOW from its 
         <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function.
 
+</li>
+</ul>
+</li>
+<li>
 If the value of the 
       <b>InformationBufferLength</b> member is greater than or equal to the length, in bytes, of the entire
       DOT11_PHY_ID_LIST structure, the miniport driver must do the following to complete a successful query
       request:
 
+<ul>
+<li>
 For the DOT11_PHY_ID_LIST structure, set the 
         <b>uNumOfEntries</b> and 
         <b>uTotalNumOfEntries</b> members to the total number of entries in the 
         <b>dot11PhyId</b> array.
 
+</li>
+<li>
 For the 
         <i>OidRequest</i> parameter, set the 
         <b>BytesNeeded</b> member to zero and the 
@@ -170,25 +207,28 @@ For the
         miniport driver must also copy the entire DOT11_PHY_ID_LIST structure to the 
         <b>InformationBuffer</b> member.
 
+</li>
+<li>
 Return NDIS_STATUS_SUCCESS from its 
         <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function.
 
+</li>
+</ul>
+</li>
+</ul>
+
 
 ## -see-also
-<dl>
-<dt>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569102">OID_DOT11_ACTIVE_PHY_LIST</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569144">OID_DOT11_DESIRED_PHY_LIST</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PHY_ID_LIST structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PHY_ID_LIST structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

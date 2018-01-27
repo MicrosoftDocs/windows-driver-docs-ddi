@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7E3B531F-935C-41D6-94F7-DB18F82B9109
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _MEMORY_INFORMATION_CLASS, MEMORY_INFORMATION_CLASS
+ms.keywords: ntifs/MemoryBasicInformation, ntifs/MEMORY_INFORMATION_CLASS, _MEMORY_INFORMATION_CLASS, kernel.memory_information_class, MemoryBasicInformation, MEMORY_INFORMATION_CLASS, MEMORY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MEMORY_INFORMATION_CLASS
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	MEMORY_INFORMATION_CLASS
+product: Windows
+targetos: Windows
 req.typenames: MEMORY_INFORMATION_CLASS
 ---
 
 # _MEMORY_INFORMATION_CLASS enumeration
 
 
-
 ## -description
+
+
 Defines classes of memory information that can be retrieved by using the  <a href="..\ntifs\nf-ntifs-zwqueryvirtualmemory.md">ZwQueryVirtualMemory</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _MEMORY_INFORMATION_CLASS { 
@@ -54,21 +64,25 @@ typedef enum _MEMORY_INFORMATION_CLASS {
 
 ## -enum-fields
 
+
+
+
 ### -field MemoryBasicInformation
 
 Memory information described in the <a href="..\ntifs\ns-ntifs-_memory_basic_information.md">MEMORY_BASIC_INFORMATION</a> structure will be retrieved.
 
 
 ## -remarks
+
+
 Currently, only the <b>MemoryBasicInformation</b> value is supported for use with the <a href="..\ntifs\nf-ntifs-zwqueryvirtualmemory.md">ZwQueryVirtualMemory</a> routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-zwqueryvirtualmemory.md">ZwQueryVirtualMemory</a>
-</dt>
-</dl>
+
  
 
  

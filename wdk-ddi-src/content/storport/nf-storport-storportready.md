@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 37c19ee9-4741-448c-bcbe-12437f4f3b4d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortReady
+ms.keywords: storport/StorPortReady, StorPortReady, storage.storportready, StorPortReady routine [Storage Devices], storprt_6938d8e3-03f8-4f40-a867-07b64d91a6a2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortReady
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortReady
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortReady function
 
 
-
 ## -description
+
+
 The <b>StorPortReady</b> routine notifies the port driver that the adapter is no longer busy.
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API BOOLEAN StorPortReady(
@@ -55,25 +66,32 @@ STORPORT_API BOOLEAN StorPortReady(
 
 ## -parameters
 
+
+
+
 ### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
 ## -returns
+
+
 <b>StorPortReady</b> returns <b>TRUE</b> if the miniport driver succeeded in notifying the port driver and <b>FALSE</b> if not. 
 
 
+
 ## -remarks
+
+
 The functionality provided by this routine is exclusive to the Storport driver library. It has no parallel in the library of ScsiPort support routines.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\nf-storport-storportbusy.md">StorPortBusy</a>
-</dt>
-</dl>
+
  
 
  

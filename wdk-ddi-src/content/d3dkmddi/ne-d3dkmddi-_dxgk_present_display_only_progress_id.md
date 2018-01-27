@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 38023aaf-754a-4b16-96fc-6fd3d48233c3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID, DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID
+ms.keywords: d3dkmddi/DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID, d3dkmddi/DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_FAILED, DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID enumeration [Display Devices], DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID, d3dkmddi/DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_COMPLETE, DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_COMPLETE, DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_FAILED, _DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID, display.dxgk_present_display_only_progress_id
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID
-req.alt-loc: D3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmddi.h
+apiname: 
+-	DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID
 ---
 
 # _DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID enumeration
 
 
-
 ## -description
+
+
 Indicates the status of the current present operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID { 
@@ -55,6 +65,9 @@ typedef enum _DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID {
 
 ## -enum-fields
 
+
+
+
 ### -field DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_COMPLETE
 
 The present operation has completed.
@@ -65,15 +78,10 @@ The present operation has completed.
 An error occurred during the present operation.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_present_displayonly_progress.md">DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS</a>
-</dt>
-</dl>
+
  
 
  

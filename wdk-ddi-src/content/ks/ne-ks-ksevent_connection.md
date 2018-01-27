@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: E85946B3-90B6-41CA-9F69-47B33AE8D851
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSEVENT_CONNECTION, KSEVENT_CONNECTION
+ms.keywords: ks/KSEVENT_CONNECTION_TIMEDISCONTINUITY, ks/KSEVENT_CONNECTION_PRIORITY, stream.ksevent_connection, ks/KSEVENT_CONNECTION, KSEVENT_CONNECTION, KSEVENT_CONNECTION_ENDOFSTREAM, ks/KSEVENT_CONNECTION_ENDOFSTREAM, KSEVENT_CONNECTION_TIMEDISCONTINUITY, KSEVENT_CONNECTION_POSITIONUPDATE, KSEVENT_CONNECTION_DATADISCONTINUITY, KSEVENT_CONNECTION enumeration [Streaming Media Devices], ks/KSEVENT_CONNECTION_DATADISCONTINUITY, KSEVENT_CONNECTION_PRIORITY, ks/KSEVENT_CONNECTION_POSITIONUPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSEVENT_CONNECTION
-req.alt-loc: Ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ks.h
+apiname: 
+-	KSEVENT_CONNECTION
+product: Windows
+targetos: Windows
 req.typenames: KSEVENT_CONNECTION
 ---
 
 # KSEVENT_CONNECTION enumeration
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: KSEVENT_CONNECTION
 
 
 
+
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -58,19 +68,25 @@ typedef enum  {
 
 ## -enum-fields
 
+
+
+
 ### -field KSEVENT_CONNECTION_POSITIONUPDATE
+
 
 
 ### -field KSEVENT_CONNECTION_DATADISCONTINUITY
 
 
+
 ### -field KSEVENT_CONNECTION_TIMEDISCONTINUITY
+
 
 
 ### -field KSEVENT_CONNECTION_PRIORITY
 
 
+
 ### -field KSEVENT_CONNECTION_ENDOFSTREAM
 
 
-## -remarks

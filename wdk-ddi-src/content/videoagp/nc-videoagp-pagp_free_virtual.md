@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a6f689ab-8cf1-4207-af2b-30957500c190
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
+ms.keywords: display.agpfreevirtual, AgpFreeVirtual callback function [Display Devices], AgpFreeVirtual, PAGP_FREE_VIRTUAL, PAGP_FREE_VIRTUAL, videoagp/AgpFreeVirtual, VideoPort_Functions_49eabd30-2590-466f-b9d4-f2577a7e78e4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AgpFreeVirtual
-req.alt-loc: videoagp.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	videoagp.h
+apiname: 
+-	AgpFreeVirtual
+product: Windows
+targetos: Windows
+req.typenames: *PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.
 ---
 
 # PAGP_FREE_VIRTUAL callback
 
 
-
 ## -description
+
+
 The <b>AgpFreeVirtual</b> function frees virtual memory committed by a previous call to <a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a>.
 
 
-
 ## -prototype
+
 
 ````
 PAGP_FREE_VIRTUAL AgpFreeVirtual;
@@ -60,6 +70,9 @@ VOID APIENTRY AgpFreeVirtual(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -82,21 +95,25 @@ Specifies the page offset into the reserved virtual address range identified by 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 When a miniport driver calls <b>AgpFreeVirtual</b>, <i>Pages</i> pages of virtual addresses are unmapped. The unmapped range begins <b>Offset</b> pages into the range associated with <b>VirtualReserveContext</b>. The miniport driver must specify that the exact offset and number of pages be freed as were committed in a prior call to <a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a>. 
 
 A call to <b>AgpFreeVirtual</b> must be paired with a previous call to <a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a>, and that call to <b>AgpCommitVirtual</b> must be preceded by a successful call to <a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a>. If <b>AgpReserveVirtual</b> fails (returns <b>NULL</b>), you must not call <b>AgpCommitVirtual</b> or <b>AgpFreeVirtual</b>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e061c8c3-b0f9-4341-b064-91df43303f70
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltFreeDeferredIoWorkItem
+ms.keywords: FltFreeDeferredIoWorkItem routine [Installable File System Drivers], FltFreeDeferredIoWorkItem, ifsk.fltfreedeferredioworkitem, FltApiRef_e_to_o_677ca3fc-8c9e-4e3e-8ed4-00a25779913d.xml, fltkernel/FltFreeDeferredIoWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltFreeDeferredIoWorkItem
-req.alt-loc: FltMgr.lib,FltMgr.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	FltMgr.lib
+-	FltMgr.dll
+apiname: 
+-	FltFreeDeferredIoWorkItem
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltFreeDeferredIoWorkItem function
 
 
-
 ## -description
+
+
 The <b>FltFreeDeferredIoWorkItem</b> routine frees a work item allocated by the <a href="..\fltkernel\nf-fltkernel-fltallocatedeferredioworkitem.md">FltAllocateDeferredIoWorkItem</a> routine. 
 
 
-
 ## -syntax
+
 
 ````
 VOID FltFreeDeferredIoWorkItem(
@@ -54,30 +65,36 @@ VOID FltFreeDeferredIoWorkItem(
 
 ## -parameters
 
+
+
+
 ### -param FltWorkItem [in]
 
 Opaque pointer to the work item to be freed. 
 
 
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 <b>FltFreeDeferredIoWorkItem</b> frees an opaque FLT_DEFERRED_IO_WORKITEM structure that was allocated by a previous call to <a href="..\fltkernel\nf-fltkernel-fltallocatedeferredioworkitem.md">FltAllocateDeferredIoWorkItem</a>. The freed memory is returned to nonpaged pool. 
 
 The FLT_DEFERRED_IO_WORKITEM structure is opaque: that is, its members are reserved for system use. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltallocatedeferredioworkitem.md">FltAllocateDeferredIoWorkItem</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltqueuedeferredioworkitem.md">FltQueueDeferredIoWorkItem</a>
-</dt>
-</dl>
+
  
 
  

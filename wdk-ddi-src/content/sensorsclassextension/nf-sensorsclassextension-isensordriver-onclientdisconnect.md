@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 9484610b-4cbd-4c4e-9e60-ef052702325c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ISensorDriver, ISensorDriver::OnClientDisconnect, OnClientDisconnect
+ms.keywords: sensors.isensordriver_onclientdisconnect, OnClientDisconnect method [Sensor Devices], ISensorDriver interface, ISensorDriver interface [Sensor Devices], OnClientDisconnect method, OnClientDisconnect, sensorsclassextension/ISensorDriver::OnClientDisconnect, ISensorDriver, Sensor_IFaces_f5f91a04-84b3-4302-9c26-845281651ed9.xml, OnClientDisconnect method [Sensor Devices], ISensorDriver::OnClientDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 7,Available in Windows 7.
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ISensorDriver.OnClientDisconnect
-req.alt-loc: SensorsClassExtension.lib,SensorsClassExtension.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	SensorsClassExtension.lib
+-	SensorsClassExtension.dll
+apiname: 
+-	ISensorDriver.OnClientDisconnect
+product: Windows
+targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ISensorDriver::OnClientDisconnect method
 
 
-
 ## -description
+
+
 The <b>ISensorDriver::OnClientDisconnect</b> method notifies the sensor driver that a client application has disconnected.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT OnClientDisconnect(
@@ -55,6 +66,9 @@ HRESULT OnClientDisconnect(
 
 
 ## -parameters
+
+
+
 
 ### -param pClientFile [in]
 
@@ -67,35 +81,39 @@ Pointer to an <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface
 
 
 ## -returns
+
+
 If the operation succeeds, this method returns S_OK. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
-## -remarks
-The sensor class extension calls this method in the following instances:
 
+## -remarks
+
+
+The sensor class extension calls this method in the following instances:
+<ul>
+<li>
 An application closes normally.
 
+</li>
+<li>
 The user revokes permission for an application to access the device that contains the specified sensor.
 
+</li>
+<li>
 The cleanup work from a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545512">ISensorClassExtension::CleanupFile</a> has completed.
 
-You can use this call as a signal to update lists and reference counts of connected applications. 
+</li>
+</ul>You can use this call as a signal to update lists and reference counts of connected applications. 
 
 For more information about how to use this method, see <a href="https://msdn.microsoft.com/1895EC5C-08C1-4976-83F2-CD5A2B55338D">Filtering data</a>.
 
-The following example code demonstrates an implementation of <b>ISensorDriver::OnClientDisconnect</b>. This function uses an ATL simple map, named Clients, to keep track of connected clients. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff545573">ISensorDriver::OnClientConnect</a> for an example of how connected clients are added to the map.
-
-The ClientData structure is defined as follows.
-
-The function definition follows.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545573">ISensorDriver::OnClientConnect</a>
-</dt>
-</dl>
+
  
 
  

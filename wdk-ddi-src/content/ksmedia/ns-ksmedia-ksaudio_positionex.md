@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 63cd938c-1ccd-4f67-a4eb-2898002ae762
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSAUDIO_POSITIONEX, *PKSAUDIO_POSITIONEX, KSAUDIO_POSITIONEX
+ms.keywords: PKSAUDIO_POSITIONEX, KSAUDIO_POSITIONEX structure [Audio Devices], audio.ksaudio_positionex, aud-prop_9a418d76-9a4f-4626-b6db-64ed4fcedb18.xml, KSAUDIO_POSITIONEX, ksmedia/KSAUDIO_POSITIONEX, ksmedia/PKSAUDIO_POSITIONEX, *PKSAUDIO_POSITIONEX, PKSAUDIO_POSITIONEX structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSAUDIO_POSITIONEX
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSAUDIO_POSITIONEX, KSAUDIO_POSITIONEX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSAUDIO_POSITIONEX
+product: Windows
+targetos: Windows
+req.typenames: KSAUDIO_POSITIONEX, *PKSAUDIO_POSITIONEX
 ---
 
 # KSAUDIO_POSITIONEX structure
 
 
-
 ## -description
+
+
 The KSAUDIO_POSITIONEX structure specifies the stream position and the associated timestamp information for a kernel streaming (KS)-based audio driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -56,6 +66,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field TimerFrequency
 
@@ -78,15 +91,16 @@ Specifies the timestamp that is taken immediately after the acquisition of the p
 
 
 ## -remarks
+
+
 A KS-based audio driver can use the KSAUDIO_POSITIONEX structure along with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537298">KSPROPERTY_AUDIO_POSITIONEX</a> property to return a stream position and a timestamp.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537298">KSPROPERTY_AUDIO_POSITIONEX</a>
-</dt>
-</dl>
+
  
 
  

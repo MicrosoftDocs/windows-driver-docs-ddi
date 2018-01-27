@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f633a967-46b5-4532-b372-b9739f2146a2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortReadRegisterBufferUchar
+ms.keywords: storprt_361bfb77-1197-40cb-81ec-fc198e6454e9.xml, storport/StorPortReadRegisterBufferUchar, StorPortReadRegisterBufferUchar, storage.storportreadregisterbufferuchar, StorPortReadRegisterBufferUchar routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortReadRegisterBufferUchar
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortReadRegisterBufferUchar
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortReadRegisterBufferUchar function
 
 
-
 ## -description
+
+
 The <b>StorPortReadRegisterBufferUchar</b> routine reads a value from a specified register address. 
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API VOID StorPortReadRegisterBufferUchar(
@@ -57,6 +68,9 @@ STORPORT_API VOID StorPortReadRegisterBufferUchar(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -79,22 +93,25 @@ Number of data items to be read. Each data item has a size of <b>sizeof</b>(UCHA
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 For more information, see <a href="..\srb\nf-srb-scsiportreadregisterbufferuchar.md">ScsiPortReadRegisterBufferUchar</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisteruchar.md">StorPortReadRegisterUchar</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\srb\nf-srb-scsiportreadregisterbufferuchar.md">ScsiPortReadRegisterBufferUchar</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportreadregisteruchar.md">StorPortReadRegisterUchar</a>
-</dt>
-</dl>
+
+<a href="..\srb\nf-srb-scsiportreadregisterbufferuchar.md">ScsiPortReadRegisterBufferUchar</a>
+
  
 
  

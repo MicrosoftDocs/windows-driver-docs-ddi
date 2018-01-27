@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0fbc9f6d-698b-4fa5-86c4-3f6ef0cc50fb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeGetCurrentThread
+ms.keywords: wdm/KeGetCurrentThread, kernel.kegetcurrentthread, k105_fa2d3ae9-9ac8-4c50-bf51-5d6751a2b81e.xml, KeGetCurrentThread, KeGetCurrentThread routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeGetCurrentThread
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeGetCurrentThread
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeGetCurrentThread function
 
 
-
 ## -description
+
+
 The <b>KeGetCurrentThread</b> routine identifies the current thread. 
 
 
-
 ## -syntax
+
 
 ````
 PKTHREAD KeGetCurrentThread(void);
@@ -54,35 +64,35 @@ PKTHREAD KeGetCurrentThread(void);
 ## -parameters
 
 
+
+
+
 ## -returns
-<b>KeGetCurrentThread</b> returns a pointer to an opaque thread object. 
+
 
 <b>KeGetCurrentThread</b> returns a pointer to an opaque thread object. 
 
-<b>KeGetCurrentThread</b> returns a pointer to an opaque thread object. 
 
 
 ## -remarks
-This routine is identical to <a href="..\ntifs\nf-ntifs-psgetcurrentthread.md">PsGetCurrentThread</a>.
+
+
+This routine is identical to <a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>.
 
 A caller of <b>KeGetCurrentThread</b> can use the returned pointer as an input parameter to <a href="..\wdm\nf-wdm-kequeryprioritythread.md">KeQueryPriorityThread</a>, <a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>, or <a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>. However, the memory containing the thread object is opaque; that is, it is reserved for exclusive use by the operating system.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-kequeryprioritythread.md">KeQueryPriorityThread</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+
 <a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-psgetcurrentthread.md">PsGetCurrentThread</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
+
+<a href="..\wdm\nf-wdm-kequeryprioritythread.md">KeQueryPriorityThread</a>
+
  
 
  

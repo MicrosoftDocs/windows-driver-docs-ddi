@@ -7,8 +7,8 @@ old-location: pos\linedisplaycursorcoordinates.htm
 old-project: pos
 ms.assetid: 70770FEA-9E5F-4D0F-8AD2-25DAA0E4E1D9
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _LineDisplayCursorCoordinates, LineDisplayCursorCoordinates
+ms.date: 1/18/2018
+ms.keywords: pointofservicecommontypes/LineDisplayCursorCoordinates, PLineDisplayCursorCoordinates, LineDisplayCursorCoordinates structure, pointofservicecommontypes/PLineDisplayCursorCoordinates, pos.linedisplaycursorcoordinates, PLineDisplayCursorCoordinates structure pointer, _LineDisplayCursorCoordinates, LineDisplayCursorCoordinates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: LineDisplayCursorCoordinates
-req.alt-loc: pointofservicecommontypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pointofservicecommontypes.h
+apiname: 
+-	LineDisplayCursorCoordinates
+product: Windows
+targetos: Windows
 req.typenames: LineDisplayCursorCoordinates
 ---
 
 # _LineDisplayCursorCoordinates structure
 
 
-
 ## -description
+
+
 This enumeration is not implemented.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _LineDisplayCursorCoordinates {
@@ -54,7 +64,20 @@ typedef struct _LineDisplayCursorCoordinates {
 
 ## -struct-fields
 
-### -field ...
 
 
-## -remarks
+
+### -field Row
+
+ 
+
+
+### -field Column
+
+ 
+
+
+
+####### - ...
+
+

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: afd1aad4-d4cd-420f-bd3f-f171dc818a3e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_SYNCHRONIZATIONOBJECT_TYPE, D3DDDI_SYNCHRONIZATIONOBJECT_TYPE
+ms.keywords: D3DDDI_FENCE, D3DDDI_CPU_NOTIFICATION, d3dukmdt/D3DDDI_SYNCHRONIZATION_MUTEX, DmEnums_b63edb60-f53f-4779-ad85-b9ad8a889508.xml, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECT_TYPE, d3dukmdt/D3DDDI_SEMAPHORE, d3dukmdt/, d3dukmdt/D3DDDI_FENCE, D3DDDI_MONITORED_FENCE, D3DDDI_SYNCHRONIZATION_MUTEX, d3dukmdt/D3DDDI_CPU_NOTIFICATION, d3dukmdt/D3DDDI_MONITORED_FENCE, _D3DDDI_SYNCHRONIZATIONOBJECT_TYPE, D3DDDI_SEMAPHORE, display.d3dddi_synchronizationobject_type, D3DDDI_SYNCHRONIZATIONOBJECT_TYPE enumeration [Display Devices], D3DDDI_SYNCHRONIZATIONOBJECT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_SYNCHRONIZATIONOBJECT_TYPE
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_SYNCHRONIZATIONOBJECT_TYPE
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_SYNCHRONIZATIONOBJECT_TYPE
 ---
 
 # _D3DDDI_SYNCHRONIZATIONOBJECT_TYPE enumeration
 
 
-
 ## -description
+
+
 The <b>D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</b> enumeration indicates the type of synchronization object.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3DDDI_SYNCHRONIZATIONOBJECT_TYPE { 
@@ -65,6 +75,9 @@ typedef enum _D3DDDI_SYNCHRONIZATIONOBJECT_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DDDI_SYNCHRONIZATION_MUTEX
 
@@ -100,15 +113,15 @@ The synchronization object is a monitored fence.
 
 Supported starting with Windows 10.
 
-
-### -field D3DDDI_MONITORED_FENCE
-
 The synchronization object is a periodic monitored fence.
 
 Supported starting with Windows 10.
 
 
-### -field 
+### -field D3DDDI_PERIODIC_MONITORED_FENCE
 
 
-## -remarks
+
+
+
+

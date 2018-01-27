@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2370e730-6c35-45e6-a370-62adc10df53b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STOR_LOG_EVENT_DETAILS, STOR_LOG_EVENT_DETAILS, *PSTOR_LOG_EVENT_DETAILS
+ms.keywords: PSTOR_LOG_EVENT_DETAILS structure pointer [Storage Devices], PSTOR_LOG_EVENT_DETAILS, structs-storport_ba65fe62-1b9a-4234-b9a4-b145bf549699.xml, STOR_LOG_EVENT_DETAILS structure [Storage Devices], _STOR_LOG_EVENT_DETAILS, storport/STOR_LOG_EVENT_DETAILS, *PSTOR_LOG_EVENT_DETAILS, storport/PSTOR_LOG_EVENT_DETAILS, storage.stor_log_event_details, STOR_LOG_EVENT_DETAILS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STOR_LOG_EVENT_DETAILS
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: STOR_LOG_EVENT_DETAILS, *PSTOR_LOG_EVENT_DETAILS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	STOR_LOG_EVENT_DETAILS
+product: Windows
+targetos: Windows
+req.typenames: *PSTOR_LOG_EVENT_DETAILS, STOR_LOG_EVENT_DETAILS
 req.product: Windows 10 or later.
 ---
 
 # _STOR_LOG_EVENT_DETAILS structure
 
 
-
 ## -description
+
+
 The <b>STOR_LOG_EVENT_DETAILS</b> structure provides details pertaining to Storport-specific error log events and system  log events.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STOR_LOG_EVENT_DETAILS {
@@ -67,6 +77,9 @@ typedef struct _STOR_LOG_EVENT_DETAILS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field InterfaceRevision
 
@@ -139,18 +152,18 @@ The list of null-terminated Unicode strings to be appended to the log entry for 
 
 
 ## -remarks
+
+
 Although <a href="..\storport\nf-storport-storportlogerror.md">StorPortLogError</a> uses <b>PathId</b>, <b>TargetId</b>, and <b>LunId</b> values that are 8bits wide, for <a href="..\storport\nf-storport-storportlogsystemevent.md">StorPortLogSystemEvent</a> they are 32bits wide. The combined size of the miniport driver's dump data and string areas cannot exceed 150 bytes. This restriction is due to the &lt; 255 byte limit that the kernel enforces on the event log entries.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\storport\ne-storport-_stor_event_association_enum.md">STOR_EVENT_ASSOCIATION_ENUM</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportlogsystemevent.md">StorPortLogSystemEvent</a>
-</dt>
-</dl>
+
+<a href="..\storport\ne-storport-_stor_event_association_enum.md">STOR_EVENT_ASSOCIATION_ENUM</a>
+
  
 
  

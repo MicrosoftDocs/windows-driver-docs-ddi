@@ -7,8 +7,8 @@ old-location: image\iwiaminidrv_drvreaditemproperties.htm
 old-project: image
 ms.assetid: 015c2e02-62aa-4037-9974-c8e4b8784fe5
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: IWiaMiniDrv, IWiaMiniDrv::drvReadItemProperties, drvReadItemProperties
+ms.date: 1/18/2018
+ms.keywords: wiamindr_lh/IWiaMiniDrv::drvReadItemProperties, drvReadItemProperties, drvReadItemProperties method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv::drvReadItemProperties, drvReadItemProperties method [Imaging Devices], MiniDrv_515d9cc7-c76a-4a15-9cc1-59be834382fe.xml, image.iwiaminidrv_drvreaditemproperties, IWiaMiniDrv interface [Imaging Devices], drvReadItemProperties method, IWiaMiniDrv
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Me and in Windows XP and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IWiaMiniDrv.drvReadItemProperties
-req.alt-loc: wiamindr_lh.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-req.typenames: *PSCANWINDOW, SCANWINDOW
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	wiamindr_lh.h
+apiname: 
+-	IWiaMiniDrv.drvReadItemProperties
+product: Windows
+targetos: Windows
+req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
 ---
 
 # IWiaMiniDrv::drvReadItemProperties method
 
 
-
 ## -description
+
+
 The <b>IWiaMiniDrv::drvReadItemProperties</b> method reads the driver item properties that need to be updated.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT drvReadItemProperties(
@@ -59,74 +69,99 @@ HRESULT drvReadItemProperties(
 
 ## -parameters
 
-### -param pWiasContext [in]
-
-Pointer to a WIA item context.
 
 
-### -param lFlags [in]
 
-Is reserved. Set to zero.
-
-
-### -param nPropSpec [in]
-
-Indicates the number of items in the <i>pPropSpec</i> array.
+### -param __MIDL__IWiaMiniDrv0025
 
 
-### -param pPropSpec [in]
-
-Points to the first element of an array of PROPSPEC structures (defined in the Microsoft Windows SDK documentation). 
 
 
-### -param plDevErrVal [out]
+### -param __MIDL__IWiaMiniDrv0026
+
+
+
+
+### -param __MIDL__IWiaMiniDrv0027
+
+
+
+
+### -param __MIDL__IWiaMiniDrv0028
+
+
+
+
+### -param __MIDL__IWiaMiniDrv0029
+
+
+
+
+
+#### - plDevErrVal [out]
 
 Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 
+#### - pPropSpec [in]
+
+Points to the first element of an array of PROPSPEC structures (defined in the Microsoft Windows SDK documentation). 
+
+
+#### - nPropSpec [in]
+
+Indicates the number of items in the <i>pPropSpec</i> array.
+
+
+#### - lFlags [in]
+
+Is reserved. Set to zero.
+
+
+#### - pWiasContext [in]
+
+Pointer to a WIA item context.
+
+
 ## -returns
+
+
 On success, the method should return S_OK and clear the device error value pointed to by <i>plDevErrVal</i>. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by <i>plDevErrVal</i>. 
 
 The value pointed to by <i>plDevErrVal</i> can be converted to a string by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>.
 
 
+
 ## -remarks
+
+
 In this method, the minidriver should read the requested properties from the device. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
-</dt>
-<dt>
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropstr.md">wiasWritePropStr</a>
-</dt>
-<dt>
+
 <a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
-</dt>
-<dt>
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropbin.md">wiasWritePropBin</a>
-</dt>
-<dt>
+
 <a href="..\wiamdef\nf-wiamdef-wiaswritepropfloat.md">wiasWritePropFloat</a>
-</dt>
-<dt>
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropguid.md">wiasWritePropGuid</a>
-</dt>
-<dt>
-<a href="..\wiamdef\nf-wiamdef-wiaswritemultiple.md">wiasWriteMultiple</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545020">IWiaMiniDrv::drvWriteItemProperties</a>
-</dt>
-</dl>
- 
+
+<a href="..\wiamdef\nf-wiamdef-wiaswritepropbin.md">wiasWritePropBin</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiaswritepropstr.md">wiasWritePropStr</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiaswritepropguid.md">wiasWritePropGuid</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiaswritemultiple.md">wiasWriteMultiple</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaMiniDrv::drvReadItemProperties method%20 RELEASE:%20(1/17/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaMiniDrv::drvReadItemProperties method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f92aebbf-f163-45fa-ad8e-c13a36f08458
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_SETVIDEOPROCESSRENDERTARGET, D3DDDIARG_SETVIDEOPROCESSRENDERTARGET
+ms.keywords: d3dumddi/D3DDDIARG_SETVIDEOPROCESSRENDERTARGET, UMDisplayDriver_param_Structs_8a00fe2d-be28-4577-831f-45fbdcfbbb1d.xml, D3DDDIARG_SETVIDEOPROCESSRENDERTARGET, _D3DDDIARG_SETVIDEOPROCESSRENDERTARGET, display.d3dddiarg_setvideoprocessrendertarget, D3DDDIARG_SETVIDEOPROCESSRENDERTARGET structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_SETVIDEOPROCESSRENDERTARGET
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_SETVIDEOPROCESSRENDERTARGET
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_SETVIDEOPROCESSRENDERTARGET
 ---
 
 # _D3DDDIARG_SETVIDEOPROCESSRENDERTARGET structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_SETVIDEOPROCESSRENDERTARGET structure describes the render target surface for video processing. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_SETVIDEOPROCESSRENDERTARGET {
@@ -55,6 +65,9 @@ typedef struct _D3DDDIARG_SETVIDEOPROCESSRENDERTARGET {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hVideoProcess
 
@@ -71,18 +84,12 @@ typedef struct _D3DDDIARG_SETVIDEOPROCESSRENDERTARGET {
 [in] An index into the resource for the render target surface.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setvideoprocessrendertarget.md">SetVideoProcessRenderTarget</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
+
  
 
  

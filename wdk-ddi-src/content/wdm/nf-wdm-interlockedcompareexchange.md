@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 925a5481-d626-4824-8cbe-4fc2a0a6ad92
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: InterlockedCompareExchange
+ms.keywords: kernel.interlockedcompareexchange, wdm/InterlockedCompareExchange, InterlockedCompareExchange, k102_d40d8288-4c0d-43ed-af9f-3f9afabe1455.xml, InterlockedCompareExchange routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: InterlockedCompareExchange
-req.alt-loc: OneCoreUAP.lib,OneCoreUAP.dll,API-MS-Win-Core-Interlocked-l1-1-0.dll,API-MS-Win-Core-Interlocked-l1-2-0.dll,KernelBase.dll,MinKernelBase.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,22 @@ req.type-library:
 req.lib: OneCoreUAP.lib on Windows 10
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	OneCoreUAP.lib
+-	OneCoreUAP.dll
+-	API-MS-Win-Core-Interlocked-l1-1-0.dll
+-	API-MS-Win-Core-Interlocked-l1-2-0.dll
+-	KernelBase.dll
+-	MinKernelBase.dll
+apiname: 
+-	InterlockedCompareExchange
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +52,14 @@ req.product: Windows 10 or later.
 # InterlockedCompareExchange function
 
 
-
 ## -description
+
+
 The <b>InterlockedCompareExchange</b> routine performs an atomic operation that compares the input value pointed to by <i>Destination</i> with the value of <i>Comparand</i>. 
 
 
-
 ## -syntax
+
 
 ````
 LONG InterlockedCompareExchange(
@@ -57,26 +72,45 @@ LONG InterlockedCompareExchange(
 
 ## -parameters
 
-### -param Destination  [in, out]
+
+
+
+### -param Destination [in, out]
 
 A pointer to the input value that is compared with the value of <i>Comparand</i>.
 
 
-### -param Exchange  [in]
+### -param ExChange
+
+TBD
+
+
+### -param Comperand
+
+TBD
+
+
+
+#### - Exchange [in]
 
 Specifies the output value pointed to by <i>Destination</i> if the input value pointed to by <i>Destination</i> equals the value of <i>Comparand</i>. 
 
 
-### -param Comparand [in]
+#### - Comparand [in]
 
 Specifies the value that is compared with the input value pointed to by <i>Destination</i>.
 
 
 ## -returns
+
+
 <b>InterlockedCompareExchange</b> returns the original value of *<i>Destination</i>. 
 
 
+
 ## -remarks
+
+
 If <i>Comparand</i> is equal to *<i>Destination</i>, then *<i>Destination</i> is set to equal <i>Exchange</i>. Otherwise, *<i>Destination</i> is unchanged.
 
 <b>InterlockedCompareExchange</b> provides a fast, atomic way to synchronize the testing and updating of a variable that is shared by multiple threads. If the input value pointed to by <i>Destination</i> equals the value of <i>Comparand</i>, the output value of <i>Destination</i> is set to the value of <i>Exchange</i>. 
@@ -86,27 +120,21 @@ If <i>Comparand</i> is equal to *<i>Destination</i>, then *<i>Destination</i> is
 Interlocked operations cannot be used on non-cached memory. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-exinterlockedcompareexchange64.md">ExInterlockedCompareExchange64</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-interlockedcompareexchangepointer.md">InterlockedCompareExchangePointer</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-interlockedexchangepointer.md">InterlockedExchangePointer</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-exinterlockedcompareexchange64.md">ExInterlockedCompareExchange64</a>
+
 <a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
+
+<a href="..\wdm\nf-wdm-interlockedexchangepointer.md">InterlockedExchangePointer</a>
+
+<a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
+
  
 
  

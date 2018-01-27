@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 95a8f683-642c-4f33-9536-08f497567f87
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _KEY_SET_INFORMATION_CLASS, KEY_SET_INFORMATION_CLASS
+ms.keywords: KEY_SET_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/KeyWow64FlagsInformation, KeyControlFlagsInformation, wdm/MaxKeySetInfoClass, MaxKeySetInfoClass, KeyWriteTimeInformation, KeySetVirtualizationInformation, wdm/KeyControlFlagsInformation, wdm/KEY_SET_INFORMATION_CLASS, wdm/KeySetVirtualizationInformation, KeySetHandleTagsInformation, KeyWow64FlagsInformation, sysenum_b2121228-e221-424c-8e84-cd213d91716b.xml, _KEY_SET_INFORMATION_CLASS, wdm/KeySetDebugInformation, kernel.key_set_information_class, KEY_SET_INFORMATION_CLASS, KeySetDebugInformation, wdm/KeyWriteTimeInformation, wdm/KeySetHandleTagsInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows XP.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KEY_SET_INFORMATION_CLASS
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	KEY_SET_INFORMATION_CLASS
+product: Windows
+targetos: Windows
 req.typenames: KEY_SET_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _KEY_SET_INFORMATION_CLASS enumeration
 
 
-
 ## -description
+
+
 The <b>KEY_SET_INFORMATION_CLASS</b> enumeration type represents the type of information to set for a registry key.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _KEY_SET_INFORMATION_CLASS { 
@@ -60,6 +70,9 @@ typedef enum _KEY_SET_INFORMATION_CLASS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field KeyWriteTimeInformation
 
@@ -91,24 +104,28 @@ Reserved for system use.
 Reserved for system use.
 
 
+### -field KeySetLayerInformation
+
+
+
 ### -field MaxKeySetInfoClass
 
 This member constant is always the maximum value in the enumeration.
 
 
 ## -remarks
+
+
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine can receive a pointer to a <b>KEY_SET_INFORMATION_CLASS</b> structure as an input parameter.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_key_write_time_information.md">KEY_WRITE_TIME_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_key_write_time_information.md">KEY_WRITE_TIME_INFORMATION</a>
+
  
 
  

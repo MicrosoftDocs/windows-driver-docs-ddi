@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b3e0fca7-d5ab-4d52-9702-dae83c540a71
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IAdapterPowerManagement, IAdapterPowerManagement::PowerChangeState, PowerChangeState
+ms.keywords: IAdapterPowerManagement, PowerChangeState method [Audio Devices], IAdapterPowerManagement interface, IAdapterPowerManagement interface [Audio Devices], PowerChangeState method, audmp-routines_7898e689-94c5-4577-80d8-a88676cd44dc.xml, IAdapterPowerManagement::PowerChangeState, PowerChangeState method [Audio Devices], audio.iadapterpowermanagement_powerchangestate, PowerChangeState, portcls/IAdapterPowerManagement::PowerChangeState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IAdapterPowerManagement.PowerChangeState
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IAdapterPowerManagement.PowerChangeState
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IAdapterPowerManagement::PowerChangeState method
 
 
-
 ## -description
+
+
 The <code>PowerChangeState</code> method requests that the device change to a new power state.
 
 
-
 ## -syntax
+
 
 ````
 void PowerChangeState(
@@ -54,10 +64,12 @@ void PowerChangeState(
 
 ## -parameters
 
+
+
+
 ### -param NewState [in]
 
 Specifies the new power state being requested for the device. This parameter is a union of type POWER_STATE. The new power state (<i>NewState</i>.<b>DeviceState</b>) can be one of the DEVICE_POWER_STATE enumeration values shown in the following table.
-
 <table>
 <tr>
 <th>Power State</th>
@@ -103,15 +115,19 @@ A full hibernation state and is the longest latency sleep state. The driver cann
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 PortCls calls the <code>PowerChangeState</code> method in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a> power IRP. This call must not fail. PortCls and the system use the <code>PowerChangeState</code> call to place the device in the desired power state. When the system attempts to suspend or resume an active audio stream, the driver must be capable of saving or restoring its device context appropriately.
 
 To assist the driver, PortCls will pause any active audio streams prior to calling this method to place the device in a sleep state. After calling this method, PortCls will unpause active audio streams, to wake the device up. Miniports can opt for additional notification by utilizing the <a href="..\portcls\nn-portcls-ipowernotify.md">IPowerNotify</a> interface.
@@ -125,18 +141,15 @@ While powered down, a miniport driver is never asked to create a miniport driver
 The code for this method must reside in paged memory.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
-</dt>
-<dt>
+
 <a href="..\portcls\nn-portcls-ipowernotify.md">IPowerNotify</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a>
+
  
 
  

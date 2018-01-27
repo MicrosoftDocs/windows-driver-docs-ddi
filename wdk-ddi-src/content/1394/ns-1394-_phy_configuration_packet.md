@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 5a5acd4a-ad99-4b8c-b8ea-490a7b467e14
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _PHY_CONFIGURATION_PACKET, *PPHY_CONFIGURATION_PACKET, PHY_CONFIGURATION_PACKET
+ms.keywords: PHY_CONFIGURATION_PACKET, _PHY_CONFIGURATION_PACKET, IEEE.phy_configuration_packet, *PPHY_CONFIGURATION_PACKET, PHY_CONFIGURATION_PACKET structure [Buses], 1394/PHY_CONFIGURATION_PACKET, 1394/PPHY_CONFIGURATION_PACKET, PPHY_CONFIGURATION_PACKET, 1394stct_1d0c74cf-13c7-455d-b51e-5e2f4f2a5c5a.xml, PPHY_CONFIGURATION_PACKET structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PHY_CONFIGURATION_PACKET
-req.alt-loc: 1394.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PPHY_CONFIGURATION_PACKET, PHY_CONFIGURATION_PACKET
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1394.h
+apiname: 
+-	PHY_CONFIGURATION_PACKET
+product: Windows
+targetos: Windows
+req.typenames: PHY_CONFIGURATION_PACKET, *PPHY_CONFIGURATION_PACKET
 ---
 
 # _PHY_CONFIGURATION_PACKET structure
 
 
-
 ## -description
+
+
 The PHY_CONFIGURATION_PACKET structure contains a raw PHY configuration packet.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PHY_CONFIGURATION_PACKET {
@@ -60,6 +70,9 @@ typedef struct _PHY_CONFIGURATION_PACKET {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PCP_Phys_ID
 
@@ -102,15 +115,16 @@ Specifies the logical inverse of the first quadlet of the packet.
 
 
 ## -remarks
+
+
 For an explanation of the function of the PHY configuration packet, see the IEEE 1394 specification.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537661">REQUEST_SEND_PHY_CONFIG_PACKET</a>
-</dt>
-</dl>
+
  
 
  

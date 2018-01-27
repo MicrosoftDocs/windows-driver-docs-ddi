@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dc0f8dba-afdd-47f4-ba7f-72c510e80052
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.destroyvideoprocessdevice, DestroyVideoProcessDevice callback function [Display Devices], DestroyVideoProcessDevice, PFND3DDDI_DESTROYVIDEOPROCESSDEVICE, PFND3DDDI_DESTROYVIDEOPROCESSDEVICE, d3dumddi/DestroyVideoProcessDevice, UserModeDisplayDriver_Functions_a10d05fa-387f-469f-b516-17378f2bd655.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DestroyVideoProcessDevice
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DestroyVideoProcessDevice
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_DESTROYVIDEOPROCESSDEVICE callback
 
 
-
 ## -description
+
+
 The <b>DestroyVideoProcessDevice</b> function releases resources for a Microsoft DirectX Video Acceleration (VA) video processing device.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_DESTROYVIDEOPROCESSDEVICE DestroyVideoProcessDevice;
@@ -58,6 +68,9 @@ __checkReturn HRESULT APIENTRY DestroyVideoProcessDevice(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
  A handle to the display device (graphics context).
@@ -69,22 +82,25 @@ __checkReturn HRESULT APIENTRY DestroyVideoProcessDevice(
 
 
 ## -returns
+
+
 <b>DestroyVideoProcessDevice</b>  should return S_OK or an appropriate error result if it cannot successfully release resources for the DirectX VA decode device.
 
 
+
 ## -remarks
+
+
 The <b>DestroyVideoProcessDevice</b> function notifies the driver to destroy the handle to the DirectX VA video processing device that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a> function previously created. The driver can then release resources that are associated with the DirectX VA video processing device handle.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-</dt>
-</dl>
+
  
 
  

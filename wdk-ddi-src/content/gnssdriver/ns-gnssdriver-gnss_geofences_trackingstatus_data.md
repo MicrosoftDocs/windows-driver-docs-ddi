@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 65E59305-B1D9-4255-926A-A72F3B4887AF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_GEOFENCES_TRACKINGSTATUS_DATA, GNSS_GEOFENCES_TRACKINGSTATUS_DATA, *PGNSS_GEOFENCES_TRACKINGSTATUS_DATA
+ms.keywords: gnssdriver/GNSS_GEOFENCES_TRACKINGSTATUS_DATA, sensors.gnss_geofences_trackingstatus_data, GNSS_GEOFENCES_TRACKINGSTATUS_DATA, gnssdriver/PGNSS_GEOFENCES_TRACKINGSTATUS_DATA, GNSS_GEOFENCES_TRACKINGSTATUS_DATA structure [Sensor Devices], PGNSS_GEOFENCES_TRACKINGSTATUS_DATA structure pointer [Sensor Devices], PGNSS_GEOFENCES_TRACKINGSTATUS_DATA, *PGNSS_GEOFENCES_TRACKINGSTATUS_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GNSS_GEOFENCES_TRACKINGSTATUS_DATA
-req.alt-loc: gnssdriver.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	gnssdriver.h
+apiname: 
+-	GNSS_GEOFENCES_TRACKINGSTATUS_DATA
+product: Windows
+targetos: Windows
 req.typenames: GNSS_GEOFENCES_TRACKINGSTATUS_DATA, *PGNSS_GEOFENCES_TRACKINGSTATUS_DATA
 ---
 
 # GNSS_GEOFENCES_TRACKINGSTATUS_DATA structure
 
 
-
 ## -description
+
+
 This structure is used by the GNSS engine to notify of any changes in the tracking status while tracking a set of previously created geofences.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GNSS_GEOFENCES_TRACKINGSTATUS_DATA {
@@ -57,6 +67,9 @@ typedef struct _GNSS_GEOFENCES_TRACKINGSTATUS_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -80,10 +93,20 @@ A success code indicates that the GNSS engine was previously unable to track geo
 The UTC time of this status.
 
 
-### -field Unused[512]
+### -field Unused
+
+ 
+
+
+
+#### - Unused[512]
 
 Padding buffer.
 
 
 ## -remarks
-The GNSS engine must not raise  events when it is not tracking any mobile-originated geofences (but tracking network-initiated Geofences), or when the geofence tracking has been reset by the GNSS_ResetGeofenceTracking command.</p>
+
+
+The GNSS engine must not raise  events when it is not tracking any mobile-originated geofences (but tracking network-initiated Geofences), or when the geofence tracking has been reset by the GNSS_ResetGeofenceTracking command.
+
+

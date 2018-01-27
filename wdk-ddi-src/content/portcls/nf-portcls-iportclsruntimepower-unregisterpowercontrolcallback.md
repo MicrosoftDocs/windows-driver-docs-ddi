@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: F7E83587-0499-4D56-8D34-5513454FFEE2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortClsRuntimePower, IPortClsRuntimePower::UnregisterPowerControlCallback, UnregisterPowerControlCallback
+ms.keywords: UnregisterPowerControlCallback method [Audio Devices], UnregisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface, IPortClsRuntimePower interface [Audio Devices], UnregisterPowerControlCallback method, portcls/IPortClsRuntimePower::UnregisterPowerControlCallback, UnregisterPowerControlCallback, audio.iportclsruntimepower_unregisterpowercontrolcallback, IPortClsRuntimePower::UnregisterPowerControlCallback, IPortClsRuntimePower
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPortClsRuntimePower.UnregisterPowerControlCallback
-req.alt-loc: Portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Portcls.h
+apiname: 
+-	IPortClsRuntimePower.UnregisterPowerControlCallback
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPortClsRuntimePower::UnregisterPowerControlCallback method
 
 
-
 ## -description
+
+
 The port class driver (PortCls) uses the <code>UnregisterPowerControlCallback</code>  method to unregister a power control callback.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS UnregisterPowerControlCallback(
@@ -54,24 +64,31 @@ NTSTATUS UnregisterPowerControlCallback(
 
 ## -parameters
 
-### -param DeviceObject [in]
+
+
+
+### -param _DeviceObject
+
+
+
+
+
+#### - DeviceObject [in]
 
 The device object.
 
 
 ## -returns
+
+
 The <code>UnregisterPowerControlCallback</code> method returns STATUS_SUCCESS, if the call is successful. Otherwise, it returns the appropriate error code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iportclsruntimepower.md">IPortClsRuntimePower</a>
-</dt>
-</dl>
+
  
 
  

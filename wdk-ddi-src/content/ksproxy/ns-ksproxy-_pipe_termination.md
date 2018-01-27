@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6c425b5d-8d9f-4438-b9e4-256dcc8878c5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _PIPE_TERMINATION, PIPE_TERMINATION
+ms.keywords: _PIPE_TERMINATION, PPIPE_TERMINATION structure pointer [Streaming Media Devices], PPIPE_TERMINATION, ksproxy/PIPE_TERMINATION, PIPE_TERMINATION, PIPE_TERMINATION structure [Streaming Media Devices], ksproxy/PPIPE_TERMINATION, stream.pipe_termination, ksproxy_ee6f14a8-dda3-4b28-b6a9-e99bafd7e921.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PIPE_TERMINATION
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	PIPE_TERMINATION
+product: Windows
+targetos: Windows
 req.typenames: PIPE_TERMINATION
 ---
 
 # _PIPE_TERMINATION structure
 
 
-
 ## -description
+
+
 The PIPE_TERMINATION structure is for proxy use and not recommended for application use. PIPE_TERMINATION contains information that describes the pin terminator of a pipe. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PIPE_TERMINATION {
@@ -59,22 +69,29 @@ typedef struct _PIPE_TERMINATION {
 
 ## -struct-fields
 
+
+
+
 ### -field Flags
+
 
 
 ### -field OutsideFactors
 
 
+
 ### -field Weigth
+
 
 
 ### -field PhysicalRange
 
 
+
 ### -field OptimalRange
+
 
 
 ### -field Compression
 
 
-## -remarks

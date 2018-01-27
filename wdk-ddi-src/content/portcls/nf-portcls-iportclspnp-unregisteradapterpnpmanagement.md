@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7FAA5C88-2846-4C98-A44A-B53A1A7A953C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortClsPnp, IPortClsPnp::UnregisterAdapterPnpManagement, UnregisterAdapterPnpManagement
+ms.keywords: IPortClsPnp interface [Audio Devices], UnregisterAdapterPnpManagement method, UnregisterAdapterPnpManagement method [Audio Devices], IPortClsPnp interface, IPortClsPnp, UnregisterAdapterPnpManagement method [Audio Devices], IPortClsPnp::UnregisterAdapterPnpManagement, UnregisterAdapterPnpManagement, portcls/IPortClsPnp::UnregisterAdapterPnpManagement, audio.iportclspnp_unregisteradapterpnpmanagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 10, version 1511 and later vers
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPortClsPnp.UnregisterAdapterPnpManagement
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IPortClsPnp.UnregisterAdapterPnpManagement
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPortClsPnp::UnregisterAdapterPnpManagement method
 
 
-
 ## -description
+
+
 The <code>UnRegisterAdapterPowerManagement</code> method unregisters the PnP management interface of the adapter from PortCls.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS UnregisterAdapterPnpManagement(
@@ -54,28 +64,34 @@ NTSTATUS UnregisterAdapterPnpManagement(
 
 ## -parameters
 
+
+
+
 ### -param DeviceObject [in]
 
 Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter that the PnP management was registered with earlier using <a href="https://msdn.microsoft.com/library/windows/hardware/mt604860">IPortClsPnp::RegisterAdapterPnpManagement</a>.
 
 
 ## -returns
+
+
 The <code>UnregisterAdapterPowerManagement</code> method returns STATUS_SUCCESS if the call is successful. Otherwise, it returns the appropriate error code.
 
 
+
 ## -remarks
+
+
 For more information,  see <a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430A-BCAF-04E13FA15382">Implement PnP Rebalance for PortCls Audio Drivers</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iportclspnp.md">IPortClsPnp</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt604860">IPortClsPnp::RegisterAdapterPnpManagement</a>
-</dt>
-</dl>
+
  
 
  

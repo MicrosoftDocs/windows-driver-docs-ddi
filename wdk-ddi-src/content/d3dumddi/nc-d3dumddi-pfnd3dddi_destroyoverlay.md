@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 63004d19-e2cd-462c-8fa5-ea4dd6e29735
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.destroyoverlay, DestroyOverlay callback function [Display Devices], DestroyOverlay, PFND3DDDI_DESTROYOVERLAY, PFND3DDDI_DESTROYOVERLAY, d3dumddi/DestroyOverlay, UserModeDisplayDriver_Functions_e3dd8286-aff0-40c0-8cf2-84ecc706df90.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DestroyOverlay
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DestroyOverlay
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_DESTROYOVERLAY callback
 
 
-
 ## -description
+
+
 The <b>DestroyOverlay</b> function disables the overlay hardware and frees the overlay handle.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_DESTROYOVERLAY DestroyOverlay;
@@ -58,33 +68,46 @@ __checkReturn HRESULT APIENTRY DestroyOverlay(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param pData [in]
+### -param *
+
+
+
+
+
+
+#### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_destroyoverlay.md">D3DDDIARG_DESTROYOVERLAY</a> structure that contains the overlay handle.
 
 
 ## -returns
+
+
 <b>DestroyOverlay</b> returns S_OK or an appropriate error result if the overlay hardware is not disabled.
 
 
+
 ## -remarks
+
+
 Overlays are independent from the resources that are displayed by using the overlays.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_destroyoverlay.md">D3DDDIARG_DESTROYOVERLAY</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-</dt>
-</dl>
+
  
 
  

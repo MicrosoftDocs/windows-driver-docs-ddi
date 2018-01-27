@@ -7,8 +7,8 @@ old-location: netvista\rilgsmkind.htm
 old-project: netvista
 ms.assetid: ad88382b-bfb0-46c4-9db7-9adb1ee074a4
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILGSMKIND, RILGSMKIND
+ms.date: 1/18/2018
+ms.keywords: RILGSMKIND, RILGSMKIND enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILGSMKIND, RIL_GSMKIND_GPRS, ntddrilapitypes/RIL_GSMKIND_GPRS, RIL_GSMKIND_EDGE, ntddrilapitypes/RIL_GSMKIND_MAX, netvista.rilgsmkind, ntddrilapitypes/RIL_GSMKIND_EDGE, RIL_GSMKIND_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILGSMKIND
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILGSMKIND
+product: Windows
+targetos: Windows
 req.typenames: RILGSMKIND
 ---
 
 # RILGSMKIND enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILGSMKIND { 
@@ -56,13 +66,21 @@ typedef enum _RILGSMKIND {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_GSMKIND_GSM
+
+
+
 ### -field RIL_GSMKIND_GPRS
+
 
 
 ### -field RIL_GSMKIND_EDGE
 
 
+
 ### -field RIL_GSMKIND_MAX
 
 
-## -remarks

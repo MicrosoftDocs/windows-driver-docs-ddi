@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: c3431e89-4a47-44e6-98d8-eae444ea1915
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _PCI_EXPRESS_LINK_STATUS_REGISTER, *PPCI_EXPRESS_LINK_STATUS_REGISTER, PCI_EXPRESS_LINK_STATUS_REGISTER
+ms.keywords: PCI.pci_express_link_status_register, PPCI_EXPRESS_LINK_STATUS_REGISTER union pointer [Buses], PCI_EXPRESS_LINK_STATUS_REGISTER, ntddk/PCI_EXPRESS_LINK_STATUS_REGISTER, PPCI_EXPRESS_LINK_STATUS_REGISTER, *PPCI_EXPRESS_LINK_STATUS_REGISTER, ntddk/PPCI_EXPRESS_LINK_STATUS_REGISTER, _PCI_EXPRESS_LINK_STATUS_REGISTER, PCI_EXPRESS_LINK_STATUS_REGISTER union [Buses], pci_struct_41d11df3-521f-4709-a30e-be70ad36db8f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PCI_EXPRESS_LINK_STATUS_REGISTER
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PPCI_EXPRESS_LINK_STATUS_REGISTER, PCI_EXPRESS_LINK_STATUS_REGISTER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	PCI_EXPRESS_LINK_STATUS_REGISTER
+product: Windows
+targetos: Windows
+req.typenames: PCI_EXPRESS_LINK_STATUS_REGISTER, *PPCI_EXPRESS_LINK_STATUS_REGISTER
 ---
 
 # _PCI_EXPRESS_LINK_STATUS_REGISTER structure
 
 
-
 ## -description
+
+
 The PCI_EXPRESS_LINK_STATUS_REGISTER structure describes a PCI Express (PCIe) link status register of a PCIe capability structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _PCI_EXPRESS_LINK_STATUS_REGISTER {
@@ -63,35 +73,57 @@ typedef union _PCI_EXPRESS_LINK_STATUS_REGISTER {
 
 ## -struct-fields
 
-### -field LinkSpeed
-
-The negotiated link speed of the PCIe link.  Possible values are:
-
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td><b>1</b></td>
-<td>2.5 gigabits per second.</td>
-</tr>
-<tr>
-<td><b>2</b></td>
-<td>5.0 gigabits per second.</td>
-</tr>
-<tr>
-<td>All other values</td>
-<td>Reserved.</td>
-</tr>
-</table>
- 
 
 
-### -field LinkWidth
+
+### -field DUMMYSTRUCTNAME
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.LinkSpeed
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.LinkWidth
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Undefined
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.LinkTraining
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.SlotClockConfig
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.DataLinkLayerActive
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Rsvd
+
+ 
+
+
+### -field AsUSHORT
+
+A USHORT representation of the contents of the PCI_EXPRESS_LINK_STATUS_REGISTER structure.
+
+
+#### - LinkWidth
 
 The negotiated link width (number of lanes) of the PCIe link. Possible values are:
-
 <table>
 <tr>
 <th>Value</th>
@@ -129,52 +161,70 @@ The negotiated link width (number of lanes) of the PCIe link. Possible values ar
 <td>All other values</td>
 <td>Reserved.</td>
 </tr>
-</table>
- 
+</table> 
 
 
-### -field Undefined
-
-Reserved. Device drivers and other system software should ignore any value read from this bit.
-
-
-### -field LinkTraining
+#### - LinkTraining
 
 A single bit that indicates that the link is in the configuration or recovery state, or that a 1 was written to the retrain link bit of the PCIe link control register and the training has not yet begun. This member is not applicable to endpoint devices and upstream ports of switches.
 
 
-### -field SlotClockConfig
+#### - LinkSpeed
 
-A single bit that indicates that the component uses the same physical reference clock that the hardware platform provides on the PCIe slot connector. If this bit is clear, the component uses an independent clock irrespective of the presence of a reference clock on the PCIe slot connector.
+The negotiated link speed of the PCIe link.  Possible values are:
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><b>1</b></td>
+<td>2.5 gigabits per second.</td>
+</tr>
+<tr>
+<td><b>2</b></td>
+<td>5.0 gigabits per second.</td>
+</tr>
+<tr>
+<td>All other values</td>
+<td>Reserved.</td>
+</tr>
+</table> 
 
 
-### -field DataLinkLayerActive
-
-A single bit that indicates that the data link control and management state machine is in the data link active state.
-
-
-### -field Rsvd
+#### - Rsvd
 
 Reserved.
 
 
-### -field AsUSHORT
+#### - Undefined
 
-A USHORT representation of the contents of the PCI_EXPRESS_LINK_STATUS_REGISTER structure.
+Reserved. Device drivers and other system software should ignore any value read from this bit.
+
+
+#### - DataLinkLayerActive
+
+A single bit that indicates that the data link control and management state machine is in the data link active state.
+
+
+#### - SlotClockConfig
+
+A single bit that indicates that the component uses the same physical reference clock that the hardware platform provides on the PCIe slot connector. If this bit is clear, the component uses an independent clock irrespective of the presence of a reference clock on the PCIe slot connector.
 
 
 ## -remarks
+
+
 The PCI_EXPRESS_LINK_STATUS_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_LINK_STATUS_REGISTER structure is contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f942e448-94b8-400b-927b-fb5f2b1f544e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_INTERRUPT_TYPE, DXGK_INTERRUPT_TYPE
+ms.keywords: DXGK_INTERRUPT_CRTC_VSYNC, DXGK_INTERRUPT_TYPE, DmEnums_5ed0a892-5813-43ff-aae9-25b03aa3ea5f.xml, DXGK_INTERRUPT_PERIODIC_MONITORED_FENCE_SIGNALED, DXGK_INTERRUPT_DISPLAYONLY_VSYNC, d3dkmddi/DXGK_INTERRUPT_DMA_FAULTED, DXGK_INTERRUPT_DISPLAYONLY_PRESENT_PROGRESS, d3dkmddi/DXGK_INTERRUPT_DISPLAYONLY_VSYNC, d3dkmddi/DXGK_INTERRUPT_DMA_PREEMPTED, d3dkmddi/DXGK_INTERRUPT_PERIODIC_MONITORED_FENCE_SIGNALED, d3dkmddi/DXGK_INTERRUPT_MICACAST_ENCODE_CHUNK_COMPLETE, d3dkmddi/DXGK_INTERRUPT_CRTC_VSYNC_WITH_MULTIPLANE_OVERLAY, DXGK_INTERRUPT_DMA_FAULTED, d3dkmddi/DXGK_INTERRUPT_TYPE, display.dxgk_interrupt_type, _DXGK_INTERRUPT_TYPE, DXGK_INTERRUPT_DMA_COMPLETED, d3dkmddi/DXGK_INTERRUPT_DISPLAYONLY_PRESENT_PROGRESS, d3dkmddi/DXGK_INTERRUPT_CRTC_VSYNC, DXGK_INTERRUPT_MICACAST_ENCODE_CHUNK_COMPLETE, DXGK_INTERRUPT_DMA_PREEMPTED, d3dkmddi/DXGK_INTERRUPT_DMA_COMPLETED, DXGK_INTERRUPT_TYPE enumeration [Display Devices], DXGK_INTERRUPT_CRTC_VSYNC_WITH_MULTIPLANE_OVERLAY, DXGK_INTERRUPT_DMA_PAGE_FAULTED, d3dkmddi/DXGK_INTERRUPT_DMA_PAGE_FAULTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_INTERRUPT_TYPE
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_INTERRUPT_TYPE
+product: Windows
+targetos: Windows
 req.typenames: DXGK_INTERRUPT_TYPE
 ---
 
 # _DXGK_INTERRUPT_TYPE enumeration
 
 
-
 ## -description
+
+
 The DXGK_INTERRUPT_TYPE enumeration indicates the type of interrupt that the display miniport driver notifies the graphics processing unit (GPU) scheduler about.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXGK_INTERRUPT_TYPE { 
@@ -69,6 +79,9 @@ typedef enum _DXGK_INTERRUPT_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXGK_INTERRUPT_DMA_COMPLETED
 
@@ -115,13 +128,8 @@ A Vsync has completed in a display miniport driver that supports multiplane over
 Supported starting with Windows 8.1.
 
 
-### -field DXGK_INTERRUPT_MICACAST_ENCODE_CHUNK_COMPLETE
+### -field DXGK_INTERRUPT_MICACAST_CHUNK_PROCESSING_COMPLETE
 
-The GPU has completed encoding a Miracast encode chunk.
-
-The display miniport driver can optionally provide private data that the user-mode driver can obtain using the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_get_next_chunk_data.md">GetNextChunkData</a>  function.
-
-Supported starting with Windows 8.1.
 
 
 ### -field DXGK_INTERRUPT_DMA_PAGE_FAULTED
@@ -134,6 +142,22 @@ When this interrupt type is set, interrupt data should be provided in the <b>Dma
 Supported starting with Windows 10.
 
 
+### -field DXGK_INTERRUPT_CRTC_VSYNC_WITH_MULTIPLANE_OVERLAY2
+
+
+
+### -field DXGK_INTERRUPT_MONITORED_FENCE_SIGNALED
+
+
+
+### -field DXGK_INTERRUPT_HWQUEUE_PAGE_FAULTED
+
+
+
+### -field DXGK_INTERRUPT_HWCONTEXTLIST_SWITCH_COMPLETED
+
+
+
 ### -field DXGK_INTERRUPT_PERIODIC_MONITORED_FENCE_SIGNALED
 
 This interrupt type should be raised when the periodic monitored fence is signaled. 
@@ -141,27 +165,27 @@ This interrupt type should be raised when the periodic monitored fence is signal
 Supported starting with Windows 10.
 
 
-## -remarks
+#### - DXGK_INTERRUPT_MICACAST_ENCODE_CHUNK_COMPLETE
+
+The GPU has completed encoding a Miracast encode chunk.
+
+The display miniport driver can optionally provide private data that the user-mode driver can obtain using the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_get_next_chunk_data.md">GetNextChunkData</a>  function.
+
+Supported starting with Windows 8.1.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_controlinterrupt.md">DxgkDdiControlInterrupt</a>
-</dt>
-<dt>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a>
-</dt>
-<dt>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
+
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_get_next_chunk_data.md">GetNextChunkData</a>
-</dt>
-</dl>
+
  
 
  

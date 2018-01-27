@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f8226351-4a40-4c71-9ab4-4609ae7e0470
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoQueryVolumeInformation
+ms.keywords: ifsk.ioqueryvolumeinformation, ioref_c048e59e-2f1e-4327-9f7f-b18e9a8e5724.xml, IoQueryVolumeInformation function [Installable File System Drivers], ntifs/IoQueryVolumeInformation, IoQueryVolumeInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoQueryVolumeInformation
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	IoQueryVolumeInformation
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # IoQueryVolumeInformation function
 
 
-
 ## -description
+
+
 The <b>IoQueryVolumeInformation</b> routine is reserved for system use. See <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>.
 
 
-
 ## -syntax
+
 
 ````
   IoQueryVolumeInformation(
@@ -54,9 +64,34 @@ The <b>IoQueryVolumeInformation</b> routine is reserved for system use. See <a h
 
 ## -parameters
 
-### -param  
-
-Reserved.
 
 
-## -remarks
+
+### -param FileObject
+
+TBD
+
+
+### -param FsInformationClass
+
+TBD
+
+
+### -param Length
+
+TBD
+
+
+### -param FsInformation
+
+TBD
+
+
+### -param ReturnedLength
+
+TBD
+
+
+
+
+

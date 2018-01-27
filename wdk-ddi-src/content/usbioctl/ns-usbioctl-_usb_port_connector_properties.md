@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 93818067-A7EC-4796-B80F-75ADD6315ADF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_PORT_CONNECTOR_PROPERTIES, *PUSB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES
+ms.keywords: _USB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES, usbioctl/PUSB_PORT_CONNECTOR_PROPERTIES, buses.usb_port_connector_properties, PUSB_PORT_CONNECTOR_PROPERTIES, usbioctl/USB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES structure [Buses], *PUSB_PORT_CONNECTOR_PROPERTIES, PUSB_PORT_CONNECTOR_PROPERTIES structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_PORT_CONNECTOR_PROPERTIES
-req.alt-loc: Usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Usbioctl.h
+apiname: 
+-	USB_PORT_CONNECTOR_PROPERTIES
+product: Windows
+targetos: Windows
 req.typenames: *PUSB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USB_PORT_CONNECTOR_PROPERTIES structure
 
 
-
 ## -description
+
+
 The <b>USB_PORT_CONNECTOR_PROPERTIES</b> structure is used with the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a> I/O control request to retrieve information about a port on a particular SuperSpeed hub.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USB_PORT_CONNECTOR_PROPERTIES {
@@ -59,6 +69,9 @@ typedef struct _USB_PORT_CONNECTOR_PROPERTIES {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ConnectionIndex
 
@@ -88,9 +101,7 @@ For SuperSpeed hubs and xHCI controllers, <b>CompanionIndex</b> is always 0. For
 ### -field CompanionPortNumber
 
 The port number of the companion port that is given by <b>CompanionIndex</b>. If the port being queried shares a USB connector with a port on another hub,  <b>CompanionPortNumber</b> indicates the port number of the port on the other hub. 
-
-<div class="alert"><b>Note</b>  For root hub of an xHCI controller, the shared port might be on the same hub.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  For root hub of an xHCI controller, the shared port might be on the same hub.</div><div> </div>
 
 ### -field CompanionHubSymbolicLinkName
 
@@ -98,6 +109,8 @@ The Unicode string that contains the symbolic link  of the companion hub that sh
 
 
 ## -remarks
+
+
 A SuperSpeed 3.0 hub contains two independent hub implementations.  One is for USB 2.0 devices, and the hub implementation is similar to existing 2.0 hubs.  The other hub is only for SuperSpeed devices.  Because the USB 2.0 and 3.0 bus signaling are electrically independent, both of those hubs operate simultaneously.  Therefore, when a SuperSpeed hub is connected to the host, Windows enumerates the two hubs independently;  one hub is associated with a USB 2.0 port, and the other hub with a USB 3.0 port.  Each hub has its downstream and upstream ports. USB physical  connectors are shared between ports that are associated with  those two hub implementations. 
 
  Similarly,  an xHCI controller must be able to handle SuperSpeed, high-speed, full-speed, and low-speed devices. The USB 3.0 specification requires an xHCI controller to  contain two independent execution units each for USB 3.0 and USB 2.0 bus speeds. The USB 3.0 execution unit handles SuperSpeed traffic on the bus. The USB 2.0 execution unit must handle low, full, and high speed traffic. That requirement can be met in many ways. For instance, in one implementation, the USB 2.0 execution unit can have either a downstream USB 1.1 execution unit or a downstream USB 2.0 hub. The other execution unit handles SuperSpeed traffic on the bus. For instance, in one implementation, the xHCI controller can have a downstream USB 2.0 hub (instead of a USB 2.0 host controller) with a transaction translator to handle full-speed and low-speed traffic. That downstream hub shares connectors with the ports of the SuperSpeed root hub.
@@ -109,24 +122,19 @@ If more than one companion port is associated with the port that is being querie
 To get information about the operating speed of a device attached to a particular port, the application can send the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex_v2.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</a> I/O control request.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
-</dt>
-<dt>
-<a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>
-</dt>
-<dt>
-<a href="..\usbioctl\ns-usbioctl-_usb_port_properties.md">USB_PORT_PROPERTIES</a>
-</dt>
-<dt>
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
-</dt>
-<dt>
+
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex_v2.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</a>
-</dt>
-</dl>
+
+<a href="..\usbioctl\ns-usbioctl-_usb_port_properties.md">USB_PORT_PROPERTIES</a>
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
+
+<a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>
+
+<a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
+
  
 
  

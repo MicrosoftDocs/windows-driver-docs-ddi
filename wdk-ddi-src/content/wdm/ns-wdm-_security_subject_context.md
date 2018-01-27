@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c9879df5-38e9-4a9f-8196-8485e85b2933
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _SECURITY_SUBJECT_CONTEXT, SECURITY_SUBJECT_CONTEXT, *PSECURITY_SUBJECT_CONTEXT
+ms.keywords: wdm/SECURITY_SUBJECT_CONTEXT, SECURITY_SUBJECT_CONTEXT, securitystructures_e91a762f-82dc-4319-a479-8de15bce2bfd.xml, PSECURITY_SUBJECT_CONTEXT structure pointer [Installable File System Drivers], _SECURITY_SUBJECT_CONTEXT, *PSECURITY_SUBJECT_CONTEXT, wdm/PSECURITY_SUBJECT_CONTEXT, PSECURITY_SUBJECT_CONTEXT, SECURITY_SUBJECT_CONTEXT structure [Installable File System Drivers], ifsk.security_subject_context
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SECURITY_SUBJECT_CONTEXT
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,15 +29,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: SECURITY_SUBJECT_CONTEXT, *PSECURITY_SUBJECT_CONTEXT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	SECURITY_SUBJECT_CONTEXT
+product: Windows
+targetos: Windows
+req.typenames: *PSECURITY_SUBJECT_CONTEXT, SECURITY_SUBJECT_CONTEXT
 req.product: Windows 10 or later.
 ---
 
 # _SECURITY_SUBJECT_CONTEXT structure
 
 
-
 ## -description
+
+
 The SECURITY_SUBJECT_CONTEXT structure is used to capture subject security context for access validation and auditing.
 
 Drivers are not to modify the SECURITY_SUBJECT_CONTEXT structure directly. To create and manipulate this structure, use the support routines listed in the <b>See Also</b> section. 
@@ -47,8 +57,8 @@ Drivers are not to modify the SECURITY_SUBJECT_CONTEXT structure directly. To cr
 SECURITY_SUBJECT_CONTEXT
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SECURITY_SUBJECT_CONTEXT {
@@ -62,69 +72,57 @@ typedef struct _SECURITY_SUBJECT_CONTEXT {
 
 ## -struct-fields
 
+
+
+
 ### -field ClientToken
+
 
 
 ### -field ImpersonationLevel
 
 
+
 ### -field PrimaryToken
+
 
 
 ### -field ProcessAuditId
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
-</dt>
-<dt>
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-seassignsecurityex.md">SeAssignSecurityEx</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-seauditingfileorglobalevents.md">SeAuditingFileOrGlobalEvents</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-secreateclientsecurityfromsubjectcontext.md">SeCreateClientSecurityFromSubjectContext</a>
-</dt>
-<dt>
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-selocksubjectcontext.md">SeLockSubjectContext</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-seauditingfileorglobalevents.md">SeAuditingFileOrGlobalEvents</a>
+
 <a href="..\ntifs\nf-ntifs-sequerysubjectcontexttoken.md">SeQuerySubjectContextToken</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-seassignsecurityex.md">SeAssignSecurityEx</a>
+
 <a href="..\ntifs\nf-ntifs-sereleasesubjectcontext.md">SeReleaseSubjectContext</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-secreateclientsecurityfromsubjectcontext.md">SeCreateClientSecurityFromSubjectContext</a>
+
+<a href="..\ntifs\nf-ntifs-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
+
 <a href="..\ntifs\nf-ntifs-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
+
+<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
+
+<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
+
+<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+
+<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
+
+<a href="..\ntifs\nf-ntifs-selocksubjectcontext.md">SeLockSubjectContext</a>
+
+<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
+
  
 
  

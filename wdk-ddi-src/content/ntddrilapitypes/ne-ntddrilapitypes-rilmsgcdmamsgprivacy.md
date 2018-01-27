@@ -7,8 +7,8 @@ old-location: netvista\rilmsgcdmamsgprivacy.htm
 old-project: netvista
 ms.assetid: 491b985f-c228-4f4b-88c1-fd678266dd9d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILMSGCDMAMSGPRIVACY, RILMSGCDMAMSGPRIVACY
+ms.date: 1/18/2018
+ms.keywords: netvista.rilmsgcdmamsgprivacy, RIL_MSGPRIVACYCLASS_CONFIDENTIAL, ntddrilapitypes/RIL_MSGPRIVACYCLASS_CONFIDENTIAL, ntddrilapitypes/RIL_MSGPRIVACYCLASS_MAX, ntddrilapitypes/RILMSGCDMAMSGPRIVACY, RIL_MSGPRIVACYCLASS_SECRET, RIL_MSGPRIVACYCLASS_MAX, RILMSGCDMAMSGPRIVACY enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MSGPRIVACYCLASS_SECRET, RILMSGCDMAMSGPRIVACY, RIL_MSGPRIVACYCLASS_RESTRICTED, ntddrilapitypes/RIL_MSGPRIVACYCLASS_RESTRICTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILMSGCDMAMSGPRIVACY
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILMSGCDMAMSGPRIVACY
+product: Windows
+targetos: Windows
 req.typenames: RILMSGCDMAMSGPRIVACY
 ---
 
 # RILMSGCDMAMSGPRIVACY enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILMSGCDMAMSGPRIVACY { 
@@ -57,16 +67,25 @@ typedef enum _RILMSGCDMAMSGPRIVACY {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_MSGPRIVACYCLASS_NOTRESTRICTED
+
+
+
 ### -field RIL_MSGPRIVACYCLASS_RESTRICTED
+
 
 
 ### -field RIL_MSGPRIVACYCLASS_CONFIDENTIAL
 
 
+
 ### -field RIL_MSGPRIVACYCLASS_SECRET
+
 
 
 ### -field RIL_MSGPRIVACYCLASS_MAX
 
 
-## -remarks

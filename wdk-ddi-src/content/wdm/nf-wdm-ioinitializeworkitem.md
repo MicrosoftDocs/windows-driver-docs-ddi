@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b7f4370e-75db-4238-8e23-9e48028a03f5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoInitializeWorkItem
+ms.keywords: IoInitializeWorkItem, wdm/IoInitializeWorkItem, IoInitializeWorkItem routine [Kernel-Mode Driver Architecture], k104_06024bfe-5558-4039-a9b1-327895ba9b74.xml, kernel.ioinitializeworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoInitializeWorkItem
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoInitializeWorkItem
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoInitializeWorkItem function
 
 
-
 ## -description
+
+
 The <b>IoInitializeWorkItem</b> routine initializes a work item that the caller has already allocated.
 
 
-
 ## -syntax
+
 
 ````
 VOID IoInitializeWorkItem(
@@ -55,6 +65,9 @@ VOID IoInitializeWorkItem(
 
 
 ## -parameters
+
+
+
 
 ### -param IoObject [in]
 
@@ -67,10 +80,15 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The driver allocates its own storage for an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a> structure, and then calls <b>IoInitializeWorkItem</b> to initialize it. Memory must be allocated from nonpaged pool. To determine the number of bytes that is necessary to hold an <b>IO_WORKITEM</b> structure, call <a href="..\wdm\nf-wdm-iosizeofworkitem.md">IoSizeofWorkItem</a>.
 
 An <b>IO_WORKITEM</b> structure that is initialized by <b>IoInitializeWorkItem</b><u>must</u> be uninitialized by <a href="..\wdm\nf-wdm-iouninitializeworkitem.md">IoUninitializeWorkItem</a> before it is freed.
@@ -82,27 +100,21 @@ For example, a driver might allocate a block of storage for a pool of work items
 For more information about work items, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564587">System Worker Threads</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-ioqueueworkitemex.md">IoQueueWorkItemEx</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iosizeofworkitem.md">IoSizeofWorkItem</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iouninitializeworkitem.md">IoUninitializeWorkItem</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
+
+<a href="..\wdm\nf-wdm-ioqueueworkitemex.md">IoQueueWorkItemEx</a>
+
+<a href="..\wdm\nf-wdm-iosizeofworkitem.md">IoSizeofWorkItem</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a>
+
+<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
+
  
 
  

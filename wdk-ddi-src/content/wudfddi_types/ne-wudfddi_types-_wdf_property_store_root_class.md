@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f26732a7-54b5-4573-ac4f-7b2b6c8db8b0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_PROPERTY_STORE_ROOT_CLASS, WDF_PROPERTY_STORE_ROOT_CLASS
+ms.keywords: WDF_PROPERTY_STORE_ROOT_CLASS, umdfstructs_4dbaed0a-3a72-4a4c-877e-83176cce54d6.xml, wudfddi_types/WdfPropertyStoreRootClassHardwareKey, wudfddi_types/WdfPropertyStoreRootClassSoftwareKey, _WDF_PROPERTY_STORE_ROOT_CLASS, wudfddi_types/WDF_PROPERTY_STORE_ROOT_CLASS, WdfPropertyStoreRootClassDeviceInterfaceKey, WdfPropertyStoreRootClassLegacyHardwareKey, WDF_PROPERTY_STORE_ROOT_CLASS enumeration, WdfPropertyStoreRootClassSoftwareKey, wudfddi_types/WdfPropertyStoreRootClassDeviceInterfaceKey, wdf.wdf_property_store_root_class, WdfPropertyStoreRootClassHardwareKey, umdf.wdf_property_store_root_class, wudfddi_types/WdfPropertyStoreRootClassLegacyHardwareKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.9
-req.alt-api: WDF_PROPERTY_STORE_ROOT_CLASS
-req.alt-loc: Wudfddi_types.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wudfddi_types.h
+apiname: 
+-	WDF_PROPERTY_STORE_ROOT_CLASS
+product: Windows
+targetos: Windows
 req.typenames: WDF_PROPERTY_STORE_ROOT_CLASS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_PROPERTY_STORE_ROOT_CLASS enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>WDF_PROPERTY_STORE_ROOT_CLASS</b> enumeration identifies the registry keys that UMDF property stores represent.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_PROPERTY_STORE_ROOT_CLASS { 
@@ -59,6 +69,9 @@ typedef enum _WDF_PROPERTY_STORE_ROOT_CLASS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WdfPropertyStoreRootClassHardwareKey
 
@@ -81,15 +94,16 @@ The property store represents the <a href="https://docs.microsoft.com/en-us/wind
 
 
 ## -remarks
+
+
 The <b>WDF_PROPERTY_STORE_ROOT_CLASS</b> enumeration is used in the <a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
-</dt>
-</dl>
+
  
 
  

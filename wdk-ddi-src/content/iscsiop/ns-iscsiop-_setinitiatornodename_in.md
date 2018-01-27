@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 58af1872-23bf-44f2-9ef4-271f0ddef5d5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SetInitiatorNodeName_IN, *PSetInitiatorNodeName_IN, SetInitiatorNodeName_IN
+ms.keywords: storage.setinitiatornodename_in, PSetInitiatorNodeName_IN structure pointer [Storage Devices], iscsiop/PSetInitiatorNodeName_IN, _SetInitiatorNodeName_IN, SetInitiatorNodeName_IN structure [Storage Devices], SetInitiatorNodeName_IN, *PSetInitiatorNodeName_IN, structs-iSCSI_fac4e524-8266-4135-9211-564d1ea2a952.xml, PSetInitiatorNodeName_IN, iscsiop/SetInitiatorNodeName_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetInitiatorNodeName_IN
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSetInitiatorNodeName_IN, SetInitiatorNodeName_IN
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	SetInitiatorNodeName_IN
+product: Windows
+targetos: Windows
+req.typenames: SetInitiatorNodeName_IN, *PSetInitiatorNodeName_IN
 ---
 
 # _SetInitiatorNodeName_IN structure
 
 
-
 ## -description
+
+
 The SetInitiatorNodeName_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565706">SetInitiatorNodeName</a> method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SetInitiatorNodeName_IN {
@@ -54,24 +64,27 @@ typedef struct _SetInitiatorNodeName_IN {
 
 ## -struct-fields
 
+
+
+
 ### -field CreatedInitiatorName
 
 The new initiator name.
 
 
 ## -remarks
+
+
 It is optional that you implement this class.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565706">SetInitiatorNodeName</a>
-</dt>
-<dt>
+
 <a href="..\iscsiop\ns-iscsiop-_setinitiatornodename_out.md">SetInitiatorNodeName_OUT</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: eed64347-fa5a-4b80-a28d-9190ae30b169
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_DEVICEPRESENT_STATE, D3DKMT_DEVICEPRESENT_STATE
+ms.keywords: D3DKMT_DEVICEPRESENT_STATE, display.d3dkmt_devicepresent_state, d3dkmthk/D3DKMT_DEVICEPRESENT_STATE, D3DKMT_DEVICEPRESENT_STATE structure [Display Devices], OpenGL_Structs_d1f2fcff-dfb8-411f-a4f8-4016924b4ebd.xml, _D3DKMT_DEVICEPRESENT_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_DEVICEPRESENT_STATE
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_DEVICEPRESENT_STATE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DEVICEPRESENT_STATE
 ---
 
 # _D3DKMT_DEVICEPRESENT_STATE structure
 
 
-
 ## -description
+
+
 The D3DKMT_DEVICEPRESENT_STATE structure describes parameters for retrieving the present status for a device. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_DEVICEPRESENT_STATE {
@@ -55,6 +65,9 @@ typedef struct _D3DKMT_DEVICEPRESENT_STATE {
 
 ## -struct-fields
 
+
+
+
 ### -field VidPnSourceId
 
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology to receive present status for. 
@@ -65,18 +78,12 @@ typedef struct _D3DKMT_DEVICEPRESENT_STATE {
 [out] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_stats.md">D3DKMT_PRESENT_STATS</a> structure that describes status of present operations that is retrieved for the device.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdevicestate.md">D3DKMT_GETDEVICESTATE</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_stats.md">D3DKMT_PRESENT_STATS</a>
-</dt>
-</dl>
+
  
 
  

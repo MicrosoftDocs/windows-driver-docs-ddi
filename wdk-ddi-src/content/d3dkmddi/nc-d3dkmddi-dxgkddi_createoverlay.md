@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1ccdd16d-fd76-4039-b538-86c77b4e8cbb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddicreateoverlay, DxgkDdiCreateOverlay callback function [Display Devices], DxgkDdiCreateOverlay, DXGKDDI_CREATEOVERLAY, DXGKDDI_CREATEOVERLAY, d3dkmddi/DxgkDdiCreateOverlay, DmFunctions_61539b38-d12a-4642-926c-70c1cf1df34b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiCreateOverlay
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DxgkDdiCreateOverlay
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_CREATEOVERLAY callback
 
 
-
 ## -description
+
+
 The <i>DxgkDdiCreateOverlay</i> function enables the overlay hardware if the hardware is capable.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_CREATEOVERLAY DxgkDdiCreateOverlay;
@@ -58,6 +68,9 @@ NTSTATUS APIENTRY DxgkDdiCreateOverlay(
 
 ## -parameters
 
+
+
+
 ### -param hAdapter [in]
 
 [in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
@@ -69,39 +82,86 @@ NTSTATUS APIENTRY DxgkDdiCreateOverlay(
 
 
 ## -returns
+
+
 <i>DxgkDdiCreateOverlay</i> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl><i>DxgkDdiCreateOverlay</i> successfully created the overlay.
+</dl>
+</td>
+<td width="60%">
+<i>DxgkDdiCreateOverlay</i> successfully created the overlay.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>Parameters that were passed to <i>DxgkDdiCreateOverlay</i> contained errors that prevented it from completing.
+</dl>
+</td>
+<td width="60%">
+Parameters that were passed to <i>DxgkDdiCreateOverlay</i> contained errors that prevented it from completing.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NO_MEMORY</b></dt>
-</dl><i>DxgkDdiCreateOverlay</i> could not allocate memory that was required for it to complete.
+</dl>
+</td>
+<td width="60%">
+<i>DxgkDdiCreateOverlay</i> could not allocate memory that was required for it to complete.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl><i>DxgkDdiCreateOverlay</i> could not complete because insufficient bandwidth was available or the requested overlay hardware could not complete the task.
+</dl>
+</td>
+<td width="60%">
+<i>DxgkDdiCreateOverlay</i> could not complete because insufficient bandwidth was available or the requested overlay hardware could not complete the task.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_DRIVER_MISMATCH</b></dt>
-</dl>The display miniport driver is not compatible with the user-mode display driver that initiated the call to <i>DxgkDdiCreateOverlay</i>. 
+</dl>
+</td>
+<td width="60%">
+The display miniport driver is not compatible with the user-mode display driver that initiated the call to <i>DxgkDdiCreateOverlay</i>. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <i>DxgkDdiCreateOverlay</i> should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a>
+
  
 
  

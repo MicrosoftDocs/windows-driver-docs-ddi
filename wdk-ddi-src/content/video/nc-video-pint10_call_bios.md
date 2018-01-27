@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 994a73bc-81a1-4d73-959c-cc89b242c073
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VHF_CONFIG, VHF_CONFIG, *PVHF_CONFIG
+ms.keywords: display.int10callbios, Int10CallBios callback function [Display Devices], Int10CallBios, PINT10_CALL_BIOS, PINT10_CALL_BIOS, video/Int10CallBios, VideoPort_Functions_7a9921fa-ea1e-49fa-8881-ea0792d91123.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: Int10CallBios
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	video.h
+apiname: 
+-	Int10CallBios
+product: Windows
+targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PINT10_CALL_BIOS callback
 
 
-
 ## -description
+
+
 The <i>Int10CallBios</i> function allows a miniport driver to call the kernel to perform an INT 10h operation, causing the BIOS ROM code on the device to execute natively.
 
 
-
 ## -prototype
+
 
 ````
 PINT10_CALL_BIOS Int10CallBios;
@@ -59,30 +69,37 @@ VP_STATUS Int10CallBios(
 
 ## -parameters
 
-### -param Context 
+
+
+
+### -param Context
 
 Pointer to a video port driver-defined context for the interface. This should be the same as the value in the <b>Context</b> member of the <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a> structure after <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a> returns.
 
 
-### -param BiosArguments 
+### -param BiosArguments
 
 Pointer to a video miniport driver-initialized <a href="..\video\ns-video-_int10_bios_arguments.md">INT10_BIOS_ARGUMENTS</a> structure containing the values of the x86 registers. Any registers that are not needed in the INT10 BIOS call should be set to 0. When the function returns, some members of the INT10_BIOS_ARGUMENTS structures can have different values than before the call.
 
 
 ## -returns
+
+
 The <b>Int10CallBios</b> function returns NO_ERROR upon success. Otherwise it returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 The video port implements this function, which can be accessed through a pointer in the <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a> structure. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

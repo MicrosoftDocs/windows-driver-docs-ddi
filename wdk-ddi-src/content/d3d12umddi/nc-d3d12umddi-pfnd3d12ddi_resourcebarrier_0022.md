@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: AD42B7FC-9928-4386-B3EB-C9F0302415DA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA
+ms.keywords: display.pfnd3d12ddi_resourcebarrier_0022, pfnResourceBarrier callback function [Display Devices], pfnResourceBarrier, PFND3D12DDI_RESOURCEBARRIER_0022, PFND3D12DDI_RESOURCEBARRIER_0022, d3d12umddi/pfnResourceBarrier
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnResourceBarrier
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	pfnResourceBarrier
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
 
 # PFND3D12DDI_RESOURCEBARRIER_0022 callback
 
 
-
 ## -description
+
+
 The <i>pfnResourceBarrier</i> callback function supports resource barriers. 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D12DDI_RESOURCEBARRIER_0022 pfnResourceBarrier;
@@ -59,35 +69,53 @@ VOID APIENTRY* pfnResourceBarrier(
 
 ## -parameters
 
-### -param hDrvCommandList 
-
-The handle of a command list.
 
 
-### -param Count 
+
+### -param D3D12DDI_HCOMMANDLIST
+
+
+
+### -param Count
 
 Specifies a count.
 
 
-### -param ResourceBarrier [in]
+### -param *
+
+
+
+
+
+
+#### - hDrvCommandList
+
+The handle of a command list.
+
+
+#### - ResourceBarrier [in]
 
 A pointer to a resource barrier as a <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_resource_barrier_0022.md">D3D12DDIARG_RESOURCE_BARRIER_0022</a> structure. 
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 Access this callback function by using a command list functions structure, such as the <b>D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_0020</b> structure. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_resource_barrier_0022.md">D3D12DDIARG_RESOURCE_BARRIER_0022</a>
-</dt>
-</dl>
+
  
 
  

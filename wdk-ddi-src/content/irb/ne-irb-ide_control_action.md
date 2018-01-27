@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a63d1a2f-d560-492f-9b73-198e42cb4300
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: IDE_CONTROL_ACTION, IDE_CONTROL_ACTION
+ms.keywords: IDE_CONTROL_ACTION enumeration [Storage Devices], irb/IdePowerDown, irb/IdePowerUp, IdePowerUp, IdePowerDown, IdeStop, irb/IDE_CONTROL_ACTION, IDE_CONTROL_ACTION, irb/IdeStart, irb/IdeStop, IdeVendorDefined, storage.ide_control_action, IdeStart, structs-ATA_f5df2197-3199-4b3f-ba0a-7a92cd75e3ac.xml, irb/IdeVendorDefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDE_CONTROL_ACTION
-req.alt-loc: irb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	irb.h
+apiname: 
+-	IDE_CONTROL_ACTION
+product: Windows
+targetos: Windows
 req.typenames: IDE_CONTROL_ACTION
 ---
 
 # IDE_CONTROL_ACTION enumeration
 
 
-
 ## -description
+
+
 The IDE_CONTROL_ACTION enumeration type indicates the control action to be performed by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a> routine.
-
-
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -57,6 +67,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field IdeStart
 
@@ -85,15 +98,10 @@ Indicates that the miniport driver should power up the channel.
 Indicates that the miniport driver should perform a vendor-defined control action.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
-</dt>
-</dl>
+
  
 
  

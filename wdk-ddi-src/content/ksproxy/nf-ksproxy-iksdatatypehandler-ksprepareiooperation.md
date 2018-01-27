@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 16411d58-5fff-430f-b96d-78eed1dbb01c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsDataTypeHandler, IKsDataTypeHandler::KsPrepareIoOperation, KsPrepareIoOperation
+ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices], KsPrepareIoOperation method, ksproxy_24b2f3a8-8870-434e-9f15-71fa363d3215.xml, KsPrepareIoOperation method [Streaming Media Devices], IKsDataTypeHandler interface, KsPrepareIoOperation, KsPrepareIoOperation method [Streaming Media Devices], ksproxy/IKsDataTypeHandler::KsPrepareIoOperation, stream.iksdatatypehandler_ksprepareiooperation, IKsDataTypeHandler::KsPrepareIoOperation, IKsDataTypeHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsDataTypeHandler.KsPrepareIoOperation
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ksproxy.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsDataTypeHandler.KsPrepareIoOperation
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsDataTypeHandler::KsPrepareIoOperation method
 
 
-
 ## -description
+
+
 The <b>KsPrepareIoOperation</b> method initializes the extended header and prepares the media sample for an I/O operation.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT KsPrepareIoOperation(
@@ -55,6 +65,9 @@ HRESULT KsPrepareIoOperation(
 
 
 ## -parameters
+
+
+
 
 ### -param Sample [in, out]
 
@@ -69,7 +82,6 @@ Pointer to a buffer that contains the extended header information.
 ### -param IoOperation [in]
 
 Value that specifies the type of I/O operation. This value can be one of the following values from the KSIOOPERATION enumerated type:
-
 <table>
 <tr>
 <th>Value</th>
@@ -95,26 +107,29 @@ Read data from stream.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 Returns NOERROR if successful; otherwise, returns an error code. If the stream's major type is KSDATAFORMAT_TYPE_AUDIO, a <b>KsPrepareIoOperation</b> call is inapplicable, so <b>KsPrepareIoOperation</b> automatically returns NOERROR.
 
 
+
 ## -remarks
+
+
 The client only calls <b>KsPrepareIoOperation</b> if the data type handler indicated to the client the existence of extended header information in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559836">IKsDataTypeHandler::KsQueryExtendedSize</a> method.
 
 For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK documentation.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559836">IKsDataTypeHandler::KsQueryExtendedSize</a>
-</dt>
-</dl>
+
  
 
  

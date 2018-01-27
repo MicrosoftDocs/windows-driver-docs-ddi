@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d6bef242-bafc-4d9e-a729-d62ccdbd2667
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddicontrolinterrupt, DxgkDdiControlInterrupt callback function [Display Devices], DxgkDdiControlInterrupt, DXGKDDI_CONTROLINTERRUPT, DXGKDDI_CONTROLINTERRUPT, d3dkmddi/DxgkDdiControlInterrupt, DmFunctions_a124d234-9609-4f21-a1f5-c1f4cfa65d9c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiControlInterrupt
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DxgkDdiControlInterrupt
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_CONTROLINTERRUPT callback
 
 
-
 ## -description
+
+
 The <i>DxgkDdiControlInterrupt</i> function enables or disables the given interrupt type on the graphics hardware.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_CONTROLINTERRUPT DxgkDdiControlInterrupt;
@@ -59,6 +69,9 @@ NTSTATUS APIENTRY* DxgkDdiControlInterrupt(
 
 ## -parameters
 
+
+
+
 ### -param hAdapter [in]
 
 [in] A handle to the adapter object for the graphics processing unit (GPU). The driver returned this handle in the <i>MiniportDeviceContext</i> parameter from a call to its <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
@@ -69,24 +82,56 @@ NTSTATUS APIENTRY* DxgkDdiControlInterrupt(
 [in] A <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>-type value that supplies the interrupt type.
 
 
-### -param Enable [in]
+### -param EnableInterrupt
+
+
+
+
+
+
+#### - Enable [in]
 
 [in] A Boolean value that indicates whether <i>DxgkDdiControlInterrupt</i> enables or disables the specified interrupt type. <b>TRUE</b> indicates that it enables and <b>FALSE</b> indicates that it disables.
 
 
 ## -returns
+
+
 <i>DxgkDdiControlInterrupt</i> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The interrupt type was successfully enabled or disabled on the graphics hardware.
+</dl>
+</td>
+<td width="60%">
+The interrupt type was successfully enabled or disabled on the graphics hardware.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_IMPLEMENTED</b></dt>
-</dl><i>DxgkDdiControlInterrupt</i> does not support enabling or disabling the specified interrupt type.
+</dl>
+</td>
+<td width="60%">
+<i>DxgkDdiControlInterrupt</i> does not support enabling or disabling the specified interrupt type.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The display miniport driver's <i>DxgkDdiControlInterrupt</i> function can enable or disable the specified interrupt type. However, <i>DxgkDdiControlInterrupt</i> is not required to disable the interrupt type if the driver requires the interrupt type for an internal purpose. A call to <i>DxgkDdiControlInterrupt</i> to enable the specified interrupt type indicates that the operating system requires that the driver call the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a> function to report when the interrupt type is triggered on the graphics hardware.
 
 Currently, the Microsoft DirectX graphics kernel subsystem specifies only the DXGK_INTERRUPT_CRTC_VSYNC interrupt type in the <i>InterruptType</i> parameter. A call to <i>DxgkDdiControlInterrupt</i> to enable the DXGK_INTERRUPT_CRTC_VSYNC interrupt type indicates for the driver to control vertical retrace interrupt. During every vertical retrace period and immediately after the primary surface address specified in the DAC register is latched and scanned out, the interrupt should be triggered and reported. 
@@ -96,18 +141,15 @@ The driver must return STATUS_NOT_IMPLEMENTED if an interrupt type other than DX
 <i>DxgkDdiControlInterrupt</i> should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
-</dt>
-<dt>
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
-</dt>
-</dl>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
+
  
 
  

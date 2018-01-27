@@ -7,8 +7,8 @@ old-location: print\printermessageboxa.htm
 old-project: print
 ms.assetid: 6C238FF8-1EBC-4E3B-9184-D82F5A39DA2F
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: PrinterMessageBoxA
+ms.date: 1/18/2018
+ms.keywords: PrinterMessageBoxA function [Print Devices], PrinterMessageBoxA, winspool/PrinterMessageBoxA, print.printermessageboxa
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PrinterMessageBoxA
-req.alt-loc: Winspool.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Winspool.h
+apiname: 
+-	PrinterMessageBoxA
+product: Windows
+targetos: Windows
 req.typenames: BIDI_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PrinterMessageBoxA function
 
 
-
 ## -description
 
 
 
 
+
 ## -syntax
+
 
 ````
 DWORD WINAPI PrinterMessageBoxA(
@@ -60,22 +70,29 @@ DWORD WINAPI PrinterMessageBoxA(
 
 ## -parameters
 
+
+
+
 ### -param hPrinter [in]
 
 
-### -param Error 
+
+### -param Error
+
 
 
 ### -param hWnd [in]
 
 
+
 ### -param pText [in]
+
 
 
 ### -param pCaption [in]
 
 
-### -param dwType 
+
+### -param dwType
 
 
-## -remarks

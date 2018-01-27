@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4f357612-c07d-42fe-a49f-59acec80a8bc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortSetDmaContext
+ms.keywords: video/VideoPortSetDmaContext, VideoPort_Functions_8e20017f-9d32-45c9-8f68-10cc61b6591d.xml, VideoPortSetDmaContext, display.videoportsetdmacontext, VideoPortSetDmaContext function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortSetDmaContext
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortSetDmaContext
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortSetDmaContext function
 
 
-
 ## -description
+
+
 The <b>VideoPortSetDmaContext</b> function is <b>obsolete</b> in Windows 2000 and later. 
 
 
-
 ## -syntax
+
 
 ````
 VOID VideoPortSetDmaContext(
@@ -56,6 +66,9 @@ VOID VideoPortSetDmaContext(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -73,8 +86,15 @@ Pointer to the DMA context to set.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
-See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.</p>
+
+
+See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
+
+

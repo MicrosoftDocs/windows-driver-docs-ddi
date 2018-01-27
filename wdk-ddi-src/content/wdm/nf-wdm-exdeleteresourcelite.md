@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 83efb1eb-4c45-4bfc-84dd-88032e40076a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExDeleteResourceLite
+ms.keywords: k102_92907ac3-1391-4ede-8ffa-71a211c7634e.xml, kernel.exdeleteresourcelite, ExDeleteResourceLite, wdm/ExDeleteResourceLite, ExDeleteResourceLite routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExDeleteResourceLite
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlExApcLte3, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ExDeleteResourceLite
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ExDeleteResourceLite function
 
 
-
 ## -description
+
+
 The <b>ExDeleteResourceLite</b> routine deletes a given resource from the system's resource list.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ExDeleteResourceLite(
@@ -55,31 +65,36 @@ NTSTATUS ExDeleteResourceLite(
 
 ## -parameters
 
+
+
+
 ### -param Resource [in, out]
 
 A pointer to the caller-supplied storage for the initialized resource variable to be deleted.
 
 
 ## -returns
+
+
 <b>ExDeleteResourceLite</b> returns STATUS_SUCCESS if the resource was deleted.
 
 
+
 ## -remarks
+
+
 After calling <b>ExDeleteResourceLite</b>, the caller can free the memory it allocated for its resource.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-exinitializeresourcelite.md">ExInitializeResourceLite</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-exreinitializeresourcelite.md">ExReinitializeResourceLite</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
  
 
  

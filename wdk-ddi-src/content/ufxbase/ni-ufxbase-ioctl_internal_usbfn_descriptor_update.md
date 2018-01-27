@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9BA9BC9E-C04C-48F8-B76A-2D6F779BBE05
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBFN_ACTION, *PUSBFN_ACTION, USBFN_ACTION
+ms.keywords: buses.ioctl_internal_usbfn_descriptor_update, IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE control code [Buses], IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE, ufxbase/IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE
-req.alt-loc: ufxbase.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ufxbase.h
+apiname: 
+-	IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE
+product: Windows
+targetos: Windows
 req.typenames: *PUSBFN_ACTION, USBFN_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,40 +47,58 @@ req.product: Windows 10 or later.
 # IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
-The USB function class extension sends this request to the client driver to update to the endpoint descriptor for the specified endpoint.
 
+
+The USB function class extension sends this request to the client driver to update to the endpoint descriptor for the specified endpoint.
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 The input buffer points to a <b>USBFNPIPEID</b> that specifies the pipe ID for the endpoint.
 
 
 ### -input-buffer-length
+
 The size of a <b>USBFNPIPEID</b> value.
 
 
 ### -output-buffer
+
 The output buffer points to a <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a> structure that describes the endpoint descriptor. To retrieve the structure, the client driver must call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md">WdfRequestRetrieveOutputBuffer</a>.
 
 
 ### -output-buffer-length
+
 The size of a <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a> structure.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 
 		  The client driver shall complete the request with <b>STATUS_SUCCESS</b> if the request is successful. 
 		  Otherwise, the client driver shall complete the driver with to the appropriate error condition, 
@@ -79,4 +106,8 @@ I/O Status block
 
 
 ## -remarks
-UFX sends this IOCTL to the command queue created for the endpoint by <a href="..\ufxclient\nf-ufxclient-ufxendpointcreate.md">UfxEndpointCreate</a>.  The client driver is expected to update the configuration of the endpoint on the controller with the parameters contained in the endpoint descriptor.</p>
+
+
+UFX sends this IOCTL to the command queue created for the endpoint by <a href="..\ufxclient\nf-ufxclient-ufxendpointcreate.md">UfxEndpointCreate</a>.  The client driver is expected to update the configuration of the endpoint on the controller with the parameters contained in the endpoint descriptor.
+
+

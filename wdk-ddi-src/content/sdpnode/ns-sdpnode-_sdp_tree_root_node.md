@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: bde75364-387b-4f57-8942-1cf32652c02d
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _SDP_TREE_ROOT_NODE, *PSDP_TREE_ROOT_NODE, SDP_TREE_ROOT_NODE
+ms.keywords: PSDP_TREE_ROOT_NODE, SDP_TREE_ROOT_NODE structure [Bluetooth Devices], PSDP_TREE_ROOT_NODE structure pointer [Bluetooth Devices], SDP_TREE_ROOT_NODE, _SDP_TREE_ROOT_NODE, bth_structs_b2bdb873-03b0-4c3a-910c-06277f6be663.xml, sdpnode/PSDP_TREE_ROOT_NODE, *PSDP_TREE_ROOT_NODE, bltooth.sdp_tree_root_node, sdpnode/SDP_TREE_ROOT_NODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SDP_TREE_ROOT_NODE
-req.alt-loc: sdpnode.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-req.typenames: *PSDP_TREE_ROOT_NODE, SDP_TREE_ROOT_NODE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	sdpnode.h
+apiname: 
+-	SDP_TREE_ROOT_NODE
+product: Windows
+targetos: Windows
+req.typenames: SDP_TREE_ROOT_NODE, *PSDP_TREE_ROOT_NODE
 req.product: Windows 10 or later.
 ---
 
 # _SDP_TREE_ROOT_NODE structure
 
 
-
 ## -description
+
+
 The SDP_TREE_ROOT_NODE structure is the root element of a tree-based representation of an SDP
   record.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SDP_TREE_ROOT_NODE {
@@ -56,6 +66,9 @@ typedef struct _SDP_TREE_ROOT_NODE {
 
 ## -struct-fields
 
+
+
+
 ### -field RootNode
 
 An 
@@ -64,6 +77,8 @@ An
 
 
 ## -remarks
+
+
 Several SDP functions access or output this structure when they build a tree-based SDP record or
     convert a raw SDP record stream into a tree-based record.
 
@@ -94,27 +109,21 @@ The
     searches a populated SDP_TREE_ROOT_NODE structure for an SDP attribute value.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
-</dt>
-<dt>
-<a href="..\sdplib\nf-sdplib-sdpaddattributetotree.md">SdpAddAttributeToTree</a>
-</dt>
-<dt>
-<a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
-</dt>
-<dt>
-<a href="..\bthsdpddi\nc-bthsdpddi-pconverttreetostream.md">SdpConvertTreeToStream</a>
-</dt>
-<dt>
+
 <a href="..\sdplib\nf-sdplib-sdpcreatenodetree.md">SdpCreateNodeTree</a>
-</dt>
-<dt>
+
+<a href="..\bthsdpddi\nc-bthsdpddi-pconverttreetostream.md">SdpConvertTreeToStream</a>
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
+
 <a href="..\sdplib\nf-sdplib-sdpfindattributeintree.md">SdpFindAttributeInTree</a>
-</dt>
-</dl>
+
+<a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
+
+<a href="..\sdplib\nf-sdplib-sdpaddattributetotree.md">SdpAddAttributeToTree</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: d1ef833e-8350-499c-9a3d-408d900c9245
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTH_SDP_SERVICE_SEARCH_REQUEST, BTH_SDP_SERVICE_SEARCH_REQUEST, *PBTH_SDP_SERVICE_SEARCH_REQUEST
+ms.keywords: BTH_SDP_SERVICE_SEARCH_REQUEST, PBTH_SDP_SERVICE_SEARCH_REQUEST, bth_structs_c625eff6-6ec7-49a4-a141-778ebda2d563.xml, *PBTH_SDP_SERVICE_SEARCH_REQUEST, bthioctl/PBTH_SDP_SERVICE_SEARCH_REQUEST, _BTH_SDP_SERVICE_SEARCH_REQUEST, BTH_SDP_SERVICE_SEARCH_REQUEST structure [Bluetooth Devices], PBTH_SDP_SERVICE_SEARCH_REQUEST structure pointer [Bluetooth Devices], bltooth.bth_sdp_service_search_request, bthioctl/BTH_SDP_SERVICE_SEARCH_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BTH_SDP_SERVICE_SEARCH_REQUEST
-req.alt-loc: bthioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthioctl.h
+apiname: 
+-	BTH_SDP_SERVICE_SEARCH_REQUEST
+product: Windows
+targetos: Windows
 req.typenames: BTH_SDP_SERVICE_SEARCH_REQUEST, *PBTH_SDP_SERVICE_SEARCH_REQUEST
 ---
 
 # _BTH_SDP_SERVICE_SEARCH_REQUEST structure
 
 
-
 ## -description
+
+
 The BTH_SDP_SERVICE_SEARCH_REQUEST structure contains information pertinent to an SDP service
   search.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BTH_SDP_SERVICE_SEARCH_REQUEST {
@@ -56,10 +66,12 @@ typedef struct _BTH_SDP_SERVICE_SEARCH_REQUEST {
 
 ## -struct-fields
 
-### -field hConnection
 
-A handle to the remote SDP server that is returned by the 
-     <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a> IOCTL.
+
+
+### -field HANDLE_SDP_FIELD_NAME
+
+ 
 
 
 ### -field uuids
@@ -69,21 +81,27 @@ An array of UUIDs that represent the services for which to query. Each entry can
      all 12 entries are used if a UUID entry contains all zeros.
 
 
+#### - hConnection
+
+A handle to the remote SDP server that is returned by the 
+     <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a> IOCTL.
+
+
 ## -remarks
+
+
 This structure is passed as the input buffer to the 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_search.md">
-    IOCTL_BTH_SDP_SERVICE_SEARCH</a> IOCTL.
+    <mshelp:link keywords="bltooth.ioctl_bth_sdp_service_search" tabindex="0"><b>
+    IOCTL_BTH_SDP_SERVICE_SEARCH</b></mshelp:link> IOCTL.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
-</dt>
-<dt>
+
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_search.md">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
-</dt>
-</dl>
+
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
+
  
 
  

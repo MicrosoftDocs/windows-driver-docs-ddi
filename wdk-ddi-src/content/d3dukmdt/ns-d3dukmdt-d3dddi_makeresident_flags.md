@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1EC4F8EE-1284-4752-8941-F1C31415BF29
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_MAKERESIDENT_FLAGS, D3DDDI_MAKERESIDENT_FLAGS
+ms.keywords: display.d3dddi_makeresident_flags, D3DDDI_MAKERESIDENT_FLAGS, d3dukmdt/D3DDDI_MAKERESIDENT_FLAGS, D3DDDI_MAKERESIDENT_FLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_MAKERESIDENT_FLAGS
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_MAKERESIDENT_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_MAKERESIDENT_FLAGS
 ---
 
 # D3DDDI_MAKERESIDENT_FLAGS structure
 
 
-
 ## -description
+
+
 <b>D3DDDI_MAKERESIDENT_FLAGS</b> is used with <b>MakeResident</b> (<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_makeresidentcb.md">pfnMakeResidentCb</a> or <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtmakeresident.md">D3DKMTMakeResident</a>) to instruct the OS to add a resource to the device residency list and increment the residency reference count on this allocation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3DDDI_MAKERESIDENT_FLAGS {
@@ -60,6 +70,9 @@ typedef struct D3DDDI_MAKERESIDENT_FLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field CantTrimFurther
 
@@ -81,18 +94,12 @@ This member is reserved and should be set to zero.
 The consolidated value of the structure.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_makeresidentcb.md">pfnMakeResidentCb</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtmakeresident.md">D3DKMTMakeResident</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_makeresidentcb.md">pfnMakeResidentCb</a>
+
  
 
  

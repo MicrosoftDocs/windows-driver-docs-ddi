@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 91d5b91b-6151-4da7-b0a8-74a2e99474b5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _KBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES, *PKBUGCHECK_ADD_PAGES
+ms.keywords: PKBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES structure [Kernel-Mode Driver Architecture], PKBUGCHECK_ADD_PAGES structure pointer [Kernel-Mode Driver Architecture], _KBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES, wdm/PKBUGCHECK_ADD_PAGES, kstruct_c_4d14d1f9-fada-4eaa-afc7-88228745fcc1.xml, wdm/KBUGCHECK_ADD_PAGES, *PKBUGCHECK_ADD_PAGES, kernel.kbugcheck_add_pages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008 and later versions 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KBUGCHECK_ADD_PAGES
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	KBUGCHECK_ADD_PAGES
+product: Windows
+targetos: Windows
 req.typenames: KBUGCHECK_ADD_PAGES, *PKBUGCHECK_ADD_PAGES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _KBUGCHECK_ADD_PAGES structure
 
 
-
 ## -description
+
+
 The <b>KBUGCHECK_ADD_PAGES</b> structure describes one or more pages of driver-supplied data to be written by a <a href="..\wdm\nc-wdm-kbugcheck_reason_callback_routine.md">BugCheckAddPagesCallback</a> callback routine to the crash dump file. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _KBUGCHECK_ADD_PAGES {
@@ -59,6 +69,9 @@ typedef struct _KBUGCHECK_ADD_PAGES {
 
 ## -struct-fields
 
+
+
+
 ### -field Context
 
 Contains private context data for the exclusive use of the callback routine. The callback routine can set this member to any value. Typically, if the callback routine needs to be called more than one time, the routine sets this member to point to a driver-supplied buffer during the initial call. During subsequent calls, the callback routine can read the previous contents of this buffer and update its contents. Before the initial call to the callback routine, <b>Context</b> is <b>NULL</b>.
@@ -72,23 +85,6 @@ Contains private context data for the exclusive use of the callback routine. The
 
 
 
-
-### -field KB_ADD_PAGES_FLAG_VIRTUAL_ADDRESS
-
-Indicates that the <b>Address</b> member contains a virtual address.
-
-
-### -field KB_ADD_PAGES_FLAG_PHYSICAL_ADDRESS
-
-Indicates that the <b>Address</b> member contains a physical address.
-
-
-### -field KB_ADD_PAGES_FLAG_ADDITIONAL_RANGES_EXIST
-
-Indicates that the callback routine requests that it be called again so that it can add more pages.
-
-</dd>
-</dl>
 The callback routine must set either the KB_ADD_PAGES_FLAG_VIRTUAL_ADDRESS flag or the KB_ADD_PAGES_FLAG_PHYSICAL_ADDRESS flag, but not both. On entry to the callback routine, <b>Flags</b> is initialized to zero.
 
 
@@ -107,18 +103,34 @@ Specifies the physical or virtual address of the page or pages that the callback
 Specifies the number of contiguous pages to add to the crash dump file, starting from the virtual or physical address that is specified by the <b>Address</b> member. If <b>Count</b> &gt; 1 and <b>Address</b> is a virtual address, the pages are contiguous in virtual memory space. If <b>Count</b> &gt; 1 and <b>Address</b> is a physical address, the pages are contiguous in physical memory space. The callback routine can set this member to zero to indicate that it does not need to add any pages to the crash dump file.
 
 
+##### - Flags.KB_ADD_PAGES_FLAG_PHYSICAL_ADDRESS
+
+Indicates that the <b>Address</b> member contains a physical address.
+
+
+##### - Flags.KB_ADD_PAGES_FLAG_VIRTUAL_ADDRESS
+
+Indicates that the <b>Address</b> member contains a virtual address.
+
+
+##### - Flags.KB_ADD_PAGES_FLAG_ADDITIONAL_RANGES_EXIST
+
+Indicates that the callback routine requests that it be called again so that it can add more pages.
+
+
 ## -remarks
+
+
 In a call to the <i>BugCheckAddPagesCallback</i> callback routine, the operating system sets the <i>Reason</i> parameter to <b>KbCallbackAddPages</b>, and sets the <i>ReasonSpecificData</i> parameter to point to a <b>KBUGCHECK_ADD_PAGES</b> structure.
 
 For more information about how this structure is used, see <a href="..\wdm\nc-wdm-kbugcheck_reason_callback_routine.md">BugCheckAddPagesCallback</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nc-wdm-kbugcheck_reason_callback_routine.md">BugCheckAddPagesCallback</a>
-</dt>
-</dl>
+
  
 
  

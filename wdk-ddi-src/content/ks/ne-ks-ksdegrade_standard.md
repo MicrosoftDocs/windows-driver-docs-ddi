@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5790ce0e-13f8-4700-8b25-a5375dd83758
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSDEGRADE_STANDARD, KSDEGRADE_STANDARD
+ms.keywords: stream.ksdegrade_standard, ks/KSDEGRADE_STANDARD_SAMPLE, ks/KSDEGRADE_STANDARD_QUALITY, KSDEGRADE_STANDARD_SKIP, KSDEGRADE_STANDARD enumeration [Streaming Media Devices], KSDEGRADE_STANDARD_QUALITY, ks/KSDEGRADE_STANDARD_SKIP, KSDEGRADE_STANDARD_SAMPLE, KSDEGRADE_STANDARD_COMPUTATION, ks/KSDEGRADE_STANDARD, ks/KSDEGRADE_STANDARD_COMPUTATION, KSDEGRADE_STANDARD, ks-struct_933ec08b-6ad6-47dc-8092-357d6bbe1c72.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSDEGRADE_STANDARD
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSDEGRADE_STANDARD
+product: Windows
+targetos: Windows
 req.typenames: KSDEGRADE_STANDARD
 ---
 
 # KSDEGRADE_STANDARD enumeration
 
 
-
 ## -description
+
+
 The KSDEGRADE_STANDARD enumeration lists different types of degradation.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -56,6 +66,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field KSDEGRADE_STANDARD_SAMPLE
 
@@ -78,15 +91,16 @@ Requests to skip ahead a specified delta in the data stream.
 
 
 ## -remarks
+
+
 For more information, see <a href="https://msdn.microsoft.com/359e6e12-903f-4037-8f35-b090ce41f770">Quality Management</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\ns-ks-ksidentifier.md">KSDEGRADE</a>
-</dt>
-</dl>
+
  
 
  

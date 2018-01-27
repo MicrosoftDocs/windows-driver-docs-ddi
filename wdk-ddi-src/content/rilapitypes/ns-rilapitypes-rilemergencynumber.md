@@ -7,8 +7,8 @@ old-location: netvista\rilemergencynumber_2.htm
 old-project: netvista
 ms.assetid: 70759d23-b5ab-4c51-b73f-32021b9ae6fb
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILEMERGENCYNUMBER, *LPRILEMERGENCYNUMBER, RILEMERGENCYNUMBER
+ms.date: 1/18/2018
+ms.keywords: RILEMERGENCYNUMBER, rilapitypes/RILEMERGENCYNUMBER, RILEMERGENCYNUMBER structure [Network Drivers Starting with Windows Vista], netvista.rilemergencynumber_2, *LPRILEMERGENCYNUMBER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILEMERGENCYNUMBER
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILEMERGENCYNUMBER
+product: Windows
+targetos: Windows
 req.typenames: *LPRILEMERGENCYNUMBER, RILEMERGENCYNUMBER
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILEMERGENCYNUMBER structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILEMERGENCYNUMBER {
@@ -60,22 +70,29 @@ typedef struct _RILEMERGENCYNUMBER {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwExecutor
+
 
 
 ### -field hUiccApp
 
 
+
 ### -field dwCategory
+
 
 
 ### -field wszEmergencyNumber
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BC9E7A2D-690D-4EC2-8D16-22C5FEBA574A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddisetrootpagetable, DxgkDdiSetRootPageTable callback function [Display Devices], DxgkDdiSetRootPageTable, DXGKDDI_SETROOTPAGETABLE, DXGKDDI_SETROOTPAGETABLE, dispmprt/DxgkDdiSetRootPageTable, d3dkmddi/DxgkDdiSetRootPageTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiSetRootPageTable
-req.alt-loc: dispmprt.h,d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+-	d3dkmddi.h
+apiname: 
+-	DxgkDdiSetRootPageTable
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_SETROOTPAGETABLE callback
 
 
-
 ## -description
+
+
 <b>DxgkDdiSetRootPageTable</b> sets the root page table for the given context. This function is used to notify a context when its associated root page table is resized or moved in memory.
 
 
@@ -47,8 +58,8 @@ This is level 1 synchronization function. The targeted context is guaranteed to 
   
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_SETROOTPAGETABLE DxgkDdiSetRootPageTable;
@@ -63,6 +74,9 @@ VOID APIENTRY DxgkDdiSetRootPageTable(
 
 ## -parameters
 
+
+
+
 ### -param hAdapter [in]
 
 A handle to the display adapter.
@@ -74,18 +88,16 @@ The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setrootpagetable.md">DXGKARG_SETRO
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setrootpagetable.md">DXGKARG_SETROOTPAGETABLE</a>
-</dt>
-</dl>
+
  
 
  

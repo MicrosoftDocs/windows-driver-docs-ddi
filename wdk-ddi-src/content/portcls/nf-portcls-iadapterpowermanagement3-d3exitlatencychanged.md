@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: B62920AB-39B2-4A04-AFB9-9C935A273F9A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IAdapterPowerManagement3, IAdapterPowerManagement3::D3ExitLatencyChanged, D3ExitLatencyChanged
+ms.keywords: D3ExitLatencyChanged method [Audio Devices], D3ExitLatencyChanged, IAdapterPowerManagement3 interface [Audio Devices], D3ExitLatencyChanged method, IAdapterPowerManagement3::D3ExitLatencyChanged, D3ExitLatencyChanged method [Audio Devices], IAdapterPowerManagement3 interface, portcls/IAdapterPowerManagement3::D3ExitLatencyChanged, audio.iadapterpowermanagement3_d3exitlatencychanged, IAdapterPowerManagement3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IAdapterPowerManagement3.D3ExitLatencyChanged
-req.alt-loc: Portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Portcls.h
+apiname: 
+-	IAdapterPowerManagement3.D3ExitLatencyChanged
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IAdapterPowerManagement3::D3ExitLatencyChanged method
 
 
-
 ## -description
+
+
 PortCls calls the D3ExitLatencyChanged method while the device is in sleep (D3) power state, to provide a new exit latency value.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS D3ExitLatencyChanged(
@@ -54,16 +64,24 @@ NTSTATUS D3ExitLatencyChanged(
 
 ## -parameters
 
+
+
+
 ### -param NewD3ExitLatency [in]
 
 The  <a href="..\portcls\ne-portcls-_pc_exit_latency.md">PC_EXIT_LATENCY</a> enumerated value that Portcls has determined for the device.
 
 
 ## -returns
+
+
 This method returns an NTSTATUS value.
 
 
+
 ## -remarks
+
+
  The D3ExitLatencyChanged method is only called when the device is the D3 power state. When Portcls wakes the device into D0, it does so via <a href="https://msdn.microsoft.com/library/windows/hardware/jj200332">PowerChangeState3</a>, and the device must be able to exit its sleep state within the latency period indicated by <i>NewD3ExitLatency</i>. Waking the audio adapter in this manner allows the driver to use the most appropriate method to adjust the power state of the audio adapter within the time-frame indicated  by the <i>NewD3ExitLatency</i> value.
 
 The following table shows the possible values for <i>NewD3ExitLatency</i>.
@@ -90,18 +108,15 @@ The following table shows the possible values for <i>NewD3ExitLatency</i>.
 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iadapterpowermanagement3.md">IAdapterPowerManagement3</a>
-</dt>
-<dt>
+
 <a href="..\portcls\ne-portcls-_pc_exit_latency.md">PC_EXIT_LATENCY</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj200332">PowerChangeState3</a>
-</dt>
-</dl>
+
  
 
  

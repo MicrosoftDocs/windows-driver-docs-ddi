@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c405771c-726f-4003-b3c6-f063dd74187e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PsChargePoolQuota
+ms.keywords: psref_690f1550-4753-4f39-bcf2-bdcf7b80112d.xml, ntifs/PsChargePoolQuota, PsChargePoolQuota routine [Installable File System Drivers], ifsk.pschargepoolquota, PsChargePoolQuota
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PsChargePoolQuota
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	PsChargePoolQuota
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # PsChargePoolQuota function
 
 
-
 ## -description
+
+
 The <b>PsChargePoolQuota</b> routine charges pool quota of the specified pool type to the specified process. 
 
 
-
 ## -syntax
+
 
 ````
 VOID PsChargePoolQuota(
@@ -56,6 +66,9 @@ VOID PsChargePoolQuota(
 
 ## -parameters
 
+
+
+
 ### -param Process [in]
 
 Pointer to the process whose quota is to be charged.
@@ -64,14 +77,12 @@ Pointer to the process whose quota is to be charged.
 ### -param PoolType [in]
 
 Type of pool quota to charge, which can be one of the following: 
-
 <ul>
 <li><b>NonPagedPool</b></li>
 <li><b>PagedPool</b></li>
 <li><b>NonPagedPoolCacheAligned</b></li>
 <li><b>PagedPoolCacheAligned</b></li>
 </ul>
-
 
 <b>Note</b>: The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used. 
 
@@ -82,10 +93,15 @@ Number of bytes to charge against the pool quota for this process.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 If insufficient quota exists for the process, quota is not charged, and <b>PsChargePoolQuota</b> raises an exception with the status value STATUS_QUOTA_EXCEEDED. Callers are responsible for handling this exception. Thus calls to <b>PsChargePoolQuota</b> must be wrapped within a driver-supplied exception handler.
 
 Every successful call to <b>PsChargePoolQuota</b> must be matched by a subsequent call to <b>PsReturnPoolQuota</b>.
@@ -93,12 +109,11 @@ Every successful call to <b>PsChargePoolQuota</b> must be matched by a subsequen
 For more information about memory management, see <a href="https://msdn.microsoft.com/e030a37c-26ab-4177-9980-4336928975e1">Memory Management</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-psreturnpoolquota.md">PsReturnPoolQuota</a>
-</dt>
-</dl>
+
  
 
  

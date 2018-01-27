@@ -7,8 +7,8 @@ old-location: netvista\rilcallmodificationinfomodificationtype.htm
 old-project: netvista
 ms.assetid: 37b18047-7818-4e57-b25a-3c958106e215
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCALLMODIFICATIONINFOMODIFICATIONTYPE, RILCALLMODIFICATIONINFOMODIFICATIONTYPE
+ms.date: 1/18/2018
+ms.keywords: ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_MAX, ntddrilapitypes/RILCALLMODIFICATIONINFOMODIFICATIONTYPE, RIL_CALLMODIFICATIONTYPE_MODIFIED, netvista.rilcallmodificationinfomodificationtype, RIL_CALLMODIFICATIONTYPE_BLOCKED, RILCALLMODIFICATIONINFOMODIFICATIONTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMODIFICATIONTYPE_MAX, ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_BLOCKED, ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_MODIFIED, RILCALLMODIFICATIONINFOMODIFICATIONTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCALLMODIFICATIONINFOMODIFICATIONTYPE
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILCALLMODIFICATIONINFOMODIFICATIONTYPE
+product: Windows
+targetos: Windows
 req.typenames: RILCALLMODIFICATIONINFOMODIFICATIONTYPE
 ---
 
 # RILCALLMODIFICATIONINFOMODIFICATIONTYPE enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILCALLMODIFICATIONINFOMODIFICATIONTYPE { 
@@ -56,13 +66,21 @@ typedef enum _RILCALLMODIFICATIONINFOMODIFICATIONTYPE {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_CALLMODIFICATIONTYPE_UNKNOWN
+
+
+
 ### -field RIL_CALLMODIFICATIONTYPE_BLOCKED
+
 
 
 ### -field RIL_CALLMODIFICATIONTYPE_MODIFIED
 
 
+
 ### -field RIL_CALLMODIFICATIONTYPE_MAX
 
 
-## -remarks

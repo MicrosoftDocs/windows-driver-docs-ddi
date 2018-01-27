@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d8352a73-6b3e-4890-a4ae-000d453d1143
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _FEATURE_DATA_WRITE_ONCE, *PFEATURE_DATA_WRITE_ONCE, FEATURE_DATA_WRITE_ONCE
+ms.keywords: FEATURE_DATA_WRITE_ONCE, PFEATURE_DATA_WRITE_ONCE structure pointer [Storage Devices], PFEATURE_DATA_WRITE_ONCE, FEATURE_DATA_WRITE_ONCE structure [Storage Devices], *PFEATURE_DATA_WRITE_ONCE, storage.feature_data_write_once, structs-CD-ROM_d10e83bf-73ef-43e2-901f-20ca3edea1ac.xml, ntddmmc/FEATURE_DATA_WRITE_ONCE, _FEATURE_DATA_WRITE_ONCE, ntddmmc/PFEATURE_DATA_WRITE_ONCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FEATURE_DATA_WRITE_ONCE
-req.alt-loc: ntddmmc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PFEATURE_DATA_WRITE_ONCE, FEATURE_DATA_WRITE_ONCE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddmmc.h
+apiname: 
+-	FEATURE_DATA_WRITE_ONCE
+product: Windows
+targetos: Windows
+req.typenames: FEATURE_DATA_WRITE_ONCE, *PFEATURE_DATA_WRITE_ONCE
 ---
 
 # _FEATURE_DATA_WRITE_ONCE structure
 
 
-
 ## -description
+
+
 The FEATURE_DATA_WRITE_ONCE structure holds information for the Write Once feature.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FEATURE_DATA_WRITE_ONCE {
@@ -58,6 +68,9 @@ typedef struct _FEATURE_DATA_WRITE_ONCE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -90,18 +103,18 @@ Reserved.
 
 
 ## -remarks
+
+
 This structure holds data for the feature named "Write Once" by the <i>MMC-3 </i>specification. Devices that support this feature can write to any previously unused logical block. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
-</dt>
-</dl>
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
  
 
  

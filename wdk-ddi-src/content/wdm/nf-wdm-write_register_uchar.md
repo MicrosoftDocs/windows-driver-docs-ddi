@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2d97d31f-d8c6-45d6-9aee-69397a523bbd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WRITE_REGISTER_UCHAR
+ms.keywords: WRITE_REGISTER_UCHAR, k103_052039f1-0f3c-4b4b-9061-ea92046f7167.xml, wdm/WRITE_REGISTER_UCHAR, kernel.write_register_uchar, WRITE_REGISTER_UCHAR routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WRITE_REGISTER_UCHAR
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	WRITE_REGISTER_UCHAR
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # WRITE_REGISTER_UCHAR function
 
 
-
 ## -description
+
+
 The <b>WRITE_REGISTER_UCHAR</b> routine writes a byte to the specified address.
 
 
-
 ## -syntax
+
 
 ````
 VOID WRITE_REGISTER_UCHAR(
@@ -55,6 +65,9 @@ VOID WRITE_REGISTER_UCHAR(
 
 
 ## -parameters
+
+
+
 
 ### -param Register [in]
 
@@ -67,8 +80,15 @@ Specifies a byte to be written to the register.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
-Callers of <b>WRITE_REGISTER_UCHAR</b> can be running at any IRQL, assuming the <i>Register</i> is resident, mapped device memory.</p>
+
+
+Callers of <b>WRITE_REGISTER_UCHAR</b> can be running at any IRQL, assuming the <i>Register</i> is resident, mapped device memory.
+
+

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0C8A0F83-9D12-46F1-A8B1-3BCF219A3BF7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_GETPOSTCOMPOSITIONCAPS, DXGKARG_GETPOSTCOMPOSITIONCAPS, *IN_OUT_PDXGKARG_GETPOSTCOMPOSITIONCAPS
+ms.keywords: d3dkmddi/DXGKARG_GETPOSTCOMPOSITIONCAPS, display.dxgkarg_getpostcompositioncaps, _DXGKARG_GETPOSTCOMPOSITIONCAPS, DXGKARG_GETPOSTCOMPOSITIONCAPS, *IN_OUT_PDXGKARG_GETPOSTCOMPOSITIONCAPS, DXGKARG_GETPOSTCOMPOSITIONCAPS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_GETPOSTCOMPOSITIONCAPS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_GETPOSTCOMPOSITIONCAPS
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_GETPOSTCOMPOSITIONCAPS
 ---
 
 # _DXGKARG_GETPOSTCOMPOSITIONCAPS structure
 
 
-
 ## -description
+
+
 Arguments for the DxgkDdiGetPostCompositionCaps function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_GETPOSTCOMPOSITIONCAPS {
@@ -55,6 +65,9 @@ typedef struct _DXGKARG_GETPOSTCOMPOSITIONCAPS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field VidPnSourceId
 
@@ -70,5 +83,3 @@ typedef struct _DXGKARG_GETPOSTCOMPOSITIONCAPS {
 
 [out] Indicates the maximum shrink factor that can be applied.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1efe98c4-021b-4312-bbcc-52267e528b5f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_SIGNALFLAGS, D3DDDICB_SIGNALFLAGS
+ms.keywords: D3DDDICB_SIGNALFLAGS, _D3DDDICB_SIGNALFLAGS, D3DDDICB_SIGNALFLAGS structure [Display Devices], d3dukmdt/D3DDDICB_SIGNALFLAGS, display.d3dddicb_signalflags, D3D_other_Structs_3165168a-bcae-409c-8ca2-741675016ba8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_SIGNALFLAGS
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDICB_SIGNALFLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_SIGNALFLAGS
 ---
 
 # _D3DDDICB_SIGNALFLAGS structure
 
 
-
 ## -description
+
+
 The D3DDDICB_SIGNALFLAGS structure describes signaling behavior in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectcb.md">pfnSignalSynchronizationObjectCb</a> or <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb.md">pfnSignalSynchronizationObject2Cb</a> functions.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_SIGNALFLAGS {
@@ -65,6 +75,9 @@ typedef struct _D3DDDICB_SIGNALFLAGS {
 
 ## -struct-fields
 
+
+
+
 ### -field SignalAtSubmission
 
 A UINT value that specifies whether a context should signal synchronization objects when the previously queued packet is submitted rather than completed (which is the default behavior).
@@ -77,14 +90,22 @@ Setting this member is equivalent to setting the first bit of the 32-bit  <b>Val
 A UINT value that modifies the behavior of the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb.md">pfnSignalSynchronizationObject2Cb</a> function. When this member is set,  the event specified by the <b>CpuEventHandle</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_signalsynchronizationobject2.md">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2</a> structure is signaled when all contexts specified in  <b>D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2</b>  process the signal command.
 
 If this member is set,  members of  the <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_signalsynchronizationobject2.md">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2</a>  structure that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb.md">pfnSignalSynchronizationObject2Cb</a> function's <i>pData</i> parameter points to are restricted as follows:
-
 <ul>
 <li><b>ObjectCount</b> must be zero.</li>
 <li><b>CpuEventHandle</b> must be a valid event handle.</li>
-</ul>
-Setting this member is equivalent to setting the second bit of the 32-bit  <b>Value</b> member (0x00000002).
+</ul>Setting this member is equivalent to setting the second bit of the 32-bit  <b>Value</b> member (0x00000002).
 
 Supported starting with Windows 8.
+
+
+### -field AllowFenceRewind
+
+ 
+
+
+### -field DXGK_SIGNAL_FLAG_INTERNAL0
+
+ 
 
 
 ### -field Reserved
@@ -95,9 +116,6 @@ Setting this member to zero is equivalent to setting the remaining 30 bits (0xFF
 
 Supported starting with Windows 8.
 
-
-### -field Reserved
-
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
@@ -106,24 +124,16 @@ This member is reserved and should be set to zero. Setting this member to zero i
 A member in the union that is contained in D3DDDICB_SIGNALFLAGS that can hold one 32-bit value that identifies signaling behavior.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_signalsynchronizationobject.md">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_signalsynchronizationobject2.md">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2</a>
-</dt>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectcb.md">pfnSignalSynchronizationObjectCb</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb.md">pfnSignalSynchronizationObject2Cb</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_signalsynchronizationobject.md">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectcb.md">pfnSignalSynchronizationObjectCb</a>
+
  
 
  

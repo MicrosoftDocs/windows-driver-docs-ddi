@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1F802912-F99B-4C04-9ABD-8FCC50FD3859
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_LOCK2FLAGS, D3DDDICB_LOCK2FLAGS
+ms.keywords: _D3DDDICB_LOCK2FLAGS, D3DDDICB_LOCK2FLAGS, display.d3dddicb_lock2flags, D3DDDICB_LOCK2FLAGS structure [Display Devices], d3dukmdt/D3DDDICB_LOCK2FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_LOCK2FLAGS
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDICB_LOCK2FLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_LOCK2FLAGS
 ---
 
 # _D3DDDICB_LOCK2FLAGS structure
 
 
-
 ## -description
+
+
 <b>D3DDDICB_LOCK2FLAGS</b> is used by the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock2.md">Lock2</a> kernel function to determine how an allocation is locked.
    
   Unlike <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock.md">Lock</a>, which supported numerous flags, <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock2.md">Lock2</a> has none. The <b>Lock2</b> arguments allow flags to be specified using this structure, but currently it only has a reserved field to allow for capabilities to added in the future.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_LOCK2FLAGS {
@@ -61,6 +71,9 @@ typedef struct _D3DDDICB_LOCK2FLAGS {
 
 ## -struct-fields
 
+
+
+
 ### -field Reserved
 
 This member is reserved and must be zero.
@@ -71,18 +84,12 @@ This member is reserved and must be zero.
 This member must be zero.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock2.md">Lock2</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock.md">Lock</a>
-</dt>
-</dl>
+
  
 
  

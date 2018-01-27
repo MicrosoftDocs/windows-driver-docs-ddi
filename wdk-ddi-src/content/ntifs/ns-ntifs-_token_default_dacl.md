@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: db4c23e1-4a49-4864-9eab-36abb2581e58
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _TOKEN_DEFAULT_DACL, *PTOKEN_DEFAULT_DACL, TOKEN_DEFAULT_DACL
+ms.keywords: ntifs/TOKEN_DEFAULT_DACL, PTOKEN_DEFAULT_DACL structure pointer [Installable File System Drivers], TOKEN_DEFAULT_DACL structure [Installable File System Drivers], ifsk.token_default_dacl, securitystructures_a79d9155-eff5-457f-8036-c3d718b36c4e.xml, *PTOKEN_DEFAULT_DACL, ntifs/PTOKEN_DEFAULT_DACL, _TOKEN_DEFAULT_DACL, PTOKEN_DEFAULT_DACL, TOKEN_DEFAULT_DACL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TOKEN_DEFAULT_DACL
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	TOKEN_DEFAULT_DACL
+product: Windows
+targetos: Windows
 req.typenames: *PTOKEN_DEFAULT_DACL, TOKEN_DEFAULT_DACL
 ---
 
 # _TOKEN_DEFAULT_DACL structure
 
 
-
 ## -description
+
+
 The TOKEN_DEFAULT_DACL structure specifies a discretionary access-control list (DACL). 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _TOKEN_DEFAULT_DACL {
@@ -54,30 +64,31 @@ typedef struct _TOKEN_DEFAULT_DACL {
 
 ## -struct-fields
 
+
+
+
 ### -field DefaultDacl
 
 Pointer to an access control list (ACL) structure assigned by default to any objects created by the user represented by the access token. 
 
 
 ## -remarks
+
+
 The <b>SeQueryInformationToken</b> support routine retrieves the default DACL for an access token, in the form of a TOKEN_DEFAULT_DACL structure. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+
  
 
  

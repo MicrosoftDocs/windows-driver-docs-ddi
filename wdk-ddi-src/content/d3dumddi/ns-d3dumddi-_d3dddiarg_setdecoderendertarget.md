@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8903b579-8a63-42a5-9115-251f4e77ebb4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_SETDECODERENDERTARGET, D3DDDIARG_SETDECODERENDERTARGET
+ms.keywords: D3DDDIARG_SETDECODERENDERTARGET structure [Display Devices], d3dumddi/D3DDDIARG_SETDECODERENDERTARGET, _D3DDDIARG_SETDECODERENDERTARGET, D3DDDIARG_SETDECODERENDERTARGET, display.d3dddiarg_setdecoderendertarget, UMDisplayDriver_param_Structs_1638f20c-2243-4b24-8373-d5e310aa10a0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_SETDECODERENDERTARGET
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_SETDECODERENDERTARGET
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_SETDECODERENDERTARGET
 ---
 
 # _D3DDDIARG_SETDECODERENDERTARGET structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_SETDECODERENDERTARGET structure describes the decode render target surface. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_SETDECODERENDERTARGET {
@@ -55,6 +65,9 @@ typedef struct _D3DDDIARG_SETDECODERENDERTARGET {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDecode
 
@@ -71,18 +84,12 @@ typedef struct _D3DDDIARG_SETDECODERENDERTARGET {
 [in] An index into the resource for the decode render target surface.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdecoderendertarget.md">SetDecodeRenderTarget</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a>
+
  
 
  

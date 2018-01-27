@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1169A369-0E6D-4308-ABF6-0724FED73AF9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBFN_USB_STRING, *PUSBFN_USB_STRING, USBFN_USB_STRING
+ms.keywords: PUSBFN_USB_STRING, USBFN_USB_STRING, *PUSBFN_USB_STRING, USBFN_USB_STRING structure [Buses], _USBFN_USB_STRING, usbfnbase/USBFN_USB_STRING, buses.usbfn_usb_string, usbfnbase/PUSBFN_USB_STRING, PUSBFN_USB_STRING structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBFN_USB_STRING
-req.alt-loc: usbfnbase.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbfnbase.h
+apiname: 
+-	USBFN_USB_STRING
+product: Windows
+targetos: Windows
 req.typenames: *PUSBFN_USB_STRING, USBFN_USB_STRING
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USBFN_USB_STRING structure
 
 
-
 ## -description
+
+
 Describes a USB string descriptor and the associated string index. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBFN_USB_STRING {
@@ -56,25 +66,23 @@ typedef struct _USBFN_USB_STRING {
 
 ## -struct-fields
 
+
+
+
 ### -field StringIndex
 
 The string index.
 
 
-### -field  UsbString
+### -field UsbString
 
 Pointer to the string.  
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_register_usb_string.md">IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING</a>
-</dt>
-</dl>
+
  
 
  

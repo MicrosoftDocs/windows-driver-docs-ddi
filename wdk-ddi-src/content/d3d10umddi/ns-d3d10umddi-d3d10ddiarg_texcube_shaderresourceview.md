@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ef45c368-37b9-4208-81d3-1ecab81268b0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW, D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW
+ms.keywords: display.d3d10ddiarg_texcube_shaderresourceview, D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW, D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure [Display Devices], d3d10umddi/D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW, UMDisplayDriver_Dx10param_Structs_69378946-808a-4eb0-bca1-25bd4780405d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW
+product: Windows
+targetos: Windows
 req.typenames: D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW
 ---
 
 # D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure
 
 
-
 ## -description
+
+
 The D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure describes a cube texture that is used to create a shader resource view in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createshaderresourceview.md">CreateShaderResourceView</a> function. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW {
@@ -54,6 +64,9 @@ typedef struct D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW {
 
 
 ## -struct-fields
+
+
+
 
 ### -field MostDetailedMip
 
@@ -66,21 +79,20 @@ typedef struct D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW {
 
 
 ## -remarks
+
+
 If the <b>MipLevels</b> member is set to -1, the MIP-maps in the texture start from the MIP-map that is set in the <b>MostDetailedMip</b> member. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createshaderresourceview.md">CreateShaderResourceView</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createshaderresourceview.md">D3D10DDIARG_CREATESHADERRESOURCEVIEW</a>
-</dt>
-</dl>
+
  
 
  

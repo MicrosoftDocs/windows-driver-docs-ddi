@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4c217cf8-ca93-4e5d-8cbc-c56794f96d50
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_AMVPDATAINFO, KS_AMVPDATAINFO, *PKS_AMVPDATAINFO
+ms.keywords: PKS_AMVPDATAINFO, KS_AMVPDATAINFO, *PKS_AMVPDATAINFO, stream.ks_amvpdatainfo, tagKS_AMVPDATAINFO, KS_AMVPDATAINFO structure [Streaming Media Devices], PKS_AMVPDATAINFO structure pointer [Streaming Media Devices], dvdref_e3126cb7-47dc-469b-b2ef-caefc04966cc.xml, ksmedia/KS_AMVPDATAINFO, ksmedia/PKS_AMVPDATAINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_AMVPDATAINFO
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KS_AMVPDATAINFO, *PKS_AMVPDATAINFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KS_AMVPDATAINFO
+product: Windows
+targetos: Windows
+req.typenames: *PKS_AMVPDATAINFO, KS_AMVPDATAINFO
 ---
 
 # tagKS_AMVPDATAINFO structure
 
 
-
 ## -description
+
+
 The KS_AMVPDATAINFO structure is used to describe the properties of a video port.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagKS_AMVPDATAINFO {
@@ -65,6 +75,9 @@ typedef struct tagKS_AMVPDATAINFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwSize
 
@@ -132,15 +145,16 @@ Reserved for future use. Do not use.
 
 
 ## -remarks
+
+
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566513">KSPROPERTY_VPCONFIG_VPDATAINFO</a> property.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566513">KSPROPERTY_VPCONFIG_VPDATAINFO</a>
-</dt>
-</dl>
+
  
 
  

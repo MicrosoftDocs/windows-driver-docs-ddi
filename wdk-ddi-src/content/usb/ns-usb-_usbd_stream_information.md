@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: AFB502BF-4BC2-439E-BF1F-5D1DE3172362
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBD_STREAM_INFORMATION, *PUSBD_STREAM_INFORMATION, USBD_STREAM_INFORMATION
+ms.keywords: *PUSBD_STREAM_INFORMATION, PUSBD_STREAM_INFORMATION, usb/USBD_STREAM_INFORMATION, PUSBD_STREAM_INFORMATION structure pointer [Buses], usb/PUSBD_STREAM_INFORMATION, USBD_STREAM_INFORMATION structure [Buses], USBD_STREAM_INFORMATION, buses.usbd_stream_information, _USBD_STREAM_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBD_STREAM_INFORMATION
-req.alt-loc: Usb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PUSBD_STREAM_INFORMATION, USBD_STREAM_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Usb.h
+apiname: 
+-	USBD_STREAM_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: USBD_STREAM_INFORMATION, *PUSBD_STREAM_INFORMATION
 req.product: Windows 10 or later.
 ---
 
 # _USBD_STREAM_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>USBD_STREAM_INFORMATION</b> structure stores information about a stream associated with a bulk endpoint.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBD_STREAM_INFORMATION {
@@ -57,6 +67,9 @@ typedef struct _USBD_STREAM_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PipeHandle
 
@@ -79,27 +92,24 @@ Reserved. Do not use.
 
 
 ## -remarks
+
+
 A client driver allocates an array of  <b>USBD_STREAM_INFORMATION</b> structures and sends it in an open-streams request (URB_FUNCTION_OPEN_STATIC_STREAMS).  Upon completion, the USB driver stack retrieves stream information and populates each <b>USBD_STREAM_INFORMATION</b> structure with stream information.  The stream identifiers returned by the request are sequential and start at 1.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\usb\ns-usb-_urb.md">URB</a>
-</dt>
-<dt>
+
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-</dt>
-<dt>
-<a href="..\usb\ns-usb-_urb_open_static_streams.md">_URB_OPEN_STATIC_STREAMS</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>
+
+<a href="..\usb\ns-usb-_urb_open_static_streams.md">_URB_OPEN_STATIC_STREAMS</a>
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
+
  
 
  

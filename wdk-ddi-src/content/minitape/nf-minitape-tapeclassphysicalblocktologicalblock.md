@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fc95f5c8-2892-479d-ac25-32c07e9c7aab
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: TapeClassPhysicalBlockToLogicalBlock
+ms.keywords: tapeclas_94d20234-ee4d-4096-b856-f5196b606e2d.xml, storage.tapeclassphysicalblocktologicalblock, minitape/TapeClassPhysicalBlockToLogicalBlock, TapeClassPhysicalBlockToLogicalBlock routine [Storage Devices], TapeClassPhysicalBlockToLogicalBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TapeClassPhysicalBlockToLogicalBlock
-req.alt-loc: Tape.lib,Tape.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Tape.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Tape.lib
+-	Tape.dll
+apiname: 
+-	TapeClassPhysicalBlockToLogicalBlock
+product: Windows
+targetos: Windows
 req.typenames: TAPE_STATUS, *PTAPE_STATUS
 ---
 
 # TapeClassPhysicalBlockToLogicalBlock function
 
 
-
 ## -description
+
+
 The <b>TapeClassPhysicalBlockToLogicalBlock</b> routine translates a physical block address to a pseudological block address. This routine is for SCSI-1 devices.
 
 
-
 ## -syntax
+
 
 ````
 ULONG TapeClassPhysicalBlockToLogicalBlock(
@@ -56,6 +67,9 @@ ULONG TapeClassPhysicalBlockToLogicalBlock(
 
 
 ## -parameters
+
+
+
 
 ### -param DensityCode [in]
 
@@ -78,21 +92,25 @@ Specifies the logical block size, in bytes.
 
 
 ## -returns
+
+
 <b>TapeClassPhysicalBlockToLogicalBlock</b> returns the logical block address.
 
 
+
 ## -remarks
+
+
 A tape miniclass driver calls <b>TapeClassPhysicalBlockToLogicalBlock</b> to translate a physical block address from a tape device to a logical block address for an application. <b>TapeClassPhysicalBlockToLogicalBlock</b> is not necessary for SCSI-2 or later drivers because devices that comply with SCSI-2 or later standards support logical block addressing.
 
 If a tape miniclass driver calls this routine with an unsupported tape density code, <b>TapeClassPhysicalBlockToLogicalBlock </b>returns the physical block address in the return value, without performing any translation.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\minitape\nf-minitape-tapeclasslogicalblocktophysicalblock.md">TapeClassLogicalBlockToPhysicalBlock</a>
-</dt>
-</dl>
+
  
 
  

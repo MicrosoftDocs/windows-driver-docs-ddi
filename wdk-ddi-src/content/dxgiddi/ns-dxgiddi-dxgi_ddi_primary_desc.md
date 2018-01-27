@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: eb6db822-c6d3-43d0-91af-49d19189ed83
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_PRIMARY_DESC, DXGI_DDI_PRIMARY_DESC
+ms.keywords: UMDisplayDriver_Dx10param_Structs_a733016c-aa05-4d79-b13b-96d1bc33dac2.xml, dxgiddi/DXGI_DDI_PRIMARY_DESC, display.dxgi_ddi_primary_desc, DXGI_DDI_PRIMARY_DESC, DXGI_DDI_PRIMARY_DESC structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGI_DDI_PRIMARY_DESC
-req.alt-loc: dxgiddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxgiddi.h
+apiname: 
+-	DXGI_DDI_PRIMARY_DESC
+product: Windows
+targetos: Windows
 req.typenames: DXGI_DDI_PRIMARY_DESC
 ---
 
 # DXGI_DDI_PRIMARY_DESC structure
 
 
-
 ## -description
+
+
 Describes a resource that is used as a primary (that is, a resource that is scanned out to the display). 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct DXGI_DDI_PRIMARY_DESC {
@@ -57,10 +67,12 @@ typedef struct DXGI_DDI_PRIMARY_DESC {
 
 ## -struct-fields
 
+
+
+
 ### -field Flags
 
 [in] A valid bitwise OR of any of the following values that indicates how the resource is displayed. 
-
 <table>
 <tr>
 <th>Value</th>
@@ -100,8 +112,7 @@ The primary represents a stereo back buffer.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field VidPnSourceId
@@ -121,18 +132,12 @@ The primary represents a stereo back buffer.
 The DXGI_DDI_PRIMARY_DRIVER_FLAG_NO_SCANOUT (0x1) value is currently the only supported value. This bit indicates that the driver cannot support the runtime setting any subresource of the specified resource as a primary. The user-mode display driver should set this bit if it implements presentation from this surface through a copy operation. Therefore, the runtime will not use flip-style presentation if this bit is set. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
-</dt>
-<dt>
+
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_mode_desc.md">DXGI_DDI_MODE_DESC</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b9bc6607-3222-45d0-a0d8-18c815a41771
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_LOCKFLAGS, D3DDDI_LOCKFLAGS
+ms.keywords: _D3DDDI_LOCKFLAGS, d3dumddi/D3DDDI_LOCKFLAGS, D3D_other_Structs_1bff30dd-936f-4753-bcbe-e656c454e675.xml, D3DDDI_LOCKFLAGS structure [Display Devices], D3DDDI_LOCKFLAGS, display.d3dddi_lockflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_LOCKFLAGS
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDI_LOCKFLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_LOCKFLAGS
 ---
 
 # _D3DDDI_LOCKFLAGS structure
 
 
-
 ## -description
+
+
 The D3DDDI_LOCKFLAGS structure identifies how to lock a resource.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_LOCKFLAGS {
@@ -68,6 +78,9 @@ typedef struct _D3DDDI_LOCKFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ReadOnly
 
@@ -145,15 +158,10 @@ This member is reserved and should be set to zero. Setting this member to zero i
 A member in the union that is contained in D3DDDI_LOCKFLAGS that can hold one 32-bit value that identifies how to lock a resource.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lock.md">D3DDDIARG_LOCK</a>
-</dt>
-</dl>
+
  
 
  

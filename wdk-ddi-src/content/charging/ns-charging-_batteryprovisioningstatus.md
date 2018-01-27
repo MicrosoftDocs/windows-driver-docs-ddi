@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 4CDDBBC4-2462-41B3-B425-D635B4F1F0C4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _BATTERYPROVISIONINGSTATUS, *PBATTERYPROVISIONINGSTATUS, BATTERYPROVISIONINGSTATUS
+ms.keywords: *PBATTERYPROVISIONINGSTATUS, _BATTERYPROVISIONINGSTATUS, battery.batteryprovisioningstatus, BATTERYPROVISIONINGSTATUS structure [Battery Devices], BATTERYPROVISIONINGSTATUS, charging/BATTERY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BATTERY_INFORMATION
-req.alt-loc: Charging.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: *PBATTERYPROVISIONINGSTATUS, BATTERYPROVISIONINGSTATUS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Charging.h
+apiname: 
+-	BATTERY_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: BATTERYPROVISIONINGSTATUS, *PBATTERYPROVISIONINGSTATUS
 ---
 
 # _BATTERYPROVISIONINGSTATUS structure
 
 
-
 ## -description
-This structure is for internal use only.
 
+
+This structure is for internal use only.
 
 
 ## -struct-fields
 
-
-## -remarks

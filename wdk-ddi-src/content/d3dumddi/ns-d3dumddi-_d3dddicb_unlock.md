@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1e0e6313-1dfa-4b68-8f58-bfa79f3124d6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_UNLOCK, D3DDDICB_UNLOCK
+ms.keywords: D3DDDICB_UNLOCK, d3dumddi/D3DDDICB_UNLOCK, display.d3dddicb_unlock, D3DDDICB_UNLOCK structure [Display Devices], _D3DDDICB_UNLOCK, D3D_param_Structs_91515cd5-00b4-4ad6-a8a5-ff216ddec171.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_UNLOCK
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_UNLOCK
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_UNLOCK
 ---
 
 # _D3DDDICB_UNLOCK structure
 
 
-
 ## -description
+
+
 The D3DDDICB_UNLOCK structure describes allocations to unlock. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_UNLOCK {
@@ -55,6 +65,9 @@ typedef struct _D3DDDICB_UNLOCK {
 
 ## -struct-fields
 
+
+
+
 ### -field NumAllocations
 
 [in] The number of allocations in the array that is specified by <b>phAllocations</b>. 
@@ -65,18 +78,12 @@ typedef struct _D3DDDICB_UNLOCK {
 [in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations. The Microsoft Direct3D runtime's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a> function returns these handles. Therefore, the user-mode display driver uses these handles to unlock the allocations.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: af1c1f4b-7710-4cf7-9596-32d11db98abb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoRegisterBootDriverReinitialization
+ms.keywords: kernel.ioregisterbootdriverreinitialization, ntddk/IoRegisterBootDriverReinitialization, k104_492655f7-02ee-48ad-83b8-80ac50716b89.xml, IoRegisterBootDriverReinitialization, IoRegisterBootDriverReinitialization routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoRegisterBootDriverReinitialization
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoRegisterBootDriverReinitialization
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # IoRegisterBootDriverReinitialization function
 
 
-
 ## -description
+
+
 The <b>IoRegisterBootDriverReinitialization</b> routine is called by a boot driver to register the driver's reinitialization routine with the I/O manager to be called after all devices have been enumerated and started.
 
 
-
 ## -syntax
+
 
 ````
 VOID IoRegisterBootDriverReinitialization(
@@ -55,6 +65,9 @@ VOID IoRegisterBootDriverReinitialization(
 
 
 ## -parameters
+
+
+
 
 ### -param DriverObject [in]
 
@@ -72,10 +85,15 @@ Optional context pointer to be passed to the driver's reinitialization routine.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A boot driver normally calls <b>IoRegisterBootDriverReinitialization</b> from its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine, which is run during boot driver initialization. <b>IoRegisterBootDriverReinitialization</b> registers the driver's reinitialization callback routine to be called by the I/O manager after all devices have been enumerated and started. The <i>DriverReinitializationRoutine</i> is run in a system thread at IRQL = PASSIVE_LEVEL. 
 
 A driver should call <b>IoRegisterBootDriverReinitialization</b> only if its <i>DriverEntry</i> routine will return STATUS_SUCCESS. 
@@ -85,18 +103,15 @@ If the <i>DriverReinitializationRoutine</i> uses the registry, the <i>DriverEntr
 The <i>DriverEntry</i> routine can call <b>IoRegisterBootDriverReinitialization</b> only once. If the reinitialization routine needs to be run more than once, the <i>DriverReinitializationRoutine</i> can call <b>IoRegisterBootDriverReinitialization</b> as many additional times as needed, using the <i>Count</i> parameter to keep track of the number of times the <i>DriverReinitializationRoutine</i> has been called. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-ioregisterdriverreinitialization.md">IoRegisterDriverReinitialization</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
 <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a>
-</dt>
-</dl>
+
  
 
  

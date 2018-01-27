@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53204334-bf91-46ad-93cc-84a4ec17ae54
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_LIGHT, D3DDDI_LIGHT
+ms.keywords: _D3DDDI_LIGHT, D3DDDI_LIGHT, D3DDDI_LIGHT structure [Display Devices], D3D_other_Structs_4f43b697-886b-47bf-97b9-603306e899f8.xml, display.d3dddi_light, d3dumddi/D3DDDI_LIGHT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_LIGHT
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDI_LIGHT
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_LIGHT
 ---
 
 # _D3DDDI_LIGHT structure
 
 
-
 ## -description
+
+
 The D3DDDI_LIGHT structure describes a set of lighting properties. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_LIGHT {
@@ -65,6 +75,9 @@ typedef struct _D3DDDI_LIGHT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Type
 
@@ -131,15 +144,10 @@ typedef struct _D3DDDI_LIGHT {
 [in] The angle, in radians, that defines the outer edge of the spotlight's outer cone. Points outside this cone are not lit by the spotlight. This value must be between 0 and Pi.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setlight.md">SetLight</a>
-</dt>
-</dl>
+
  
 
  

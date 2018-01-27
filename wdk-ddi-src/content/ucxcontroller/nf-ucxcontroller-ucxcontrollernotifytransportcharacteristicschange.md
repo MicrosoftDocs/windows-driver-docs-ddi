@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: DB49DF98-8A5B-4528-B312-63CE3DFABEF2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxControllerNotifyTransportCharacteristicsChange
+ms.keywords: UcxControllerNotifyTransportCharacteristicsChange function [Buses], buses.ucxcontrollernotifytransportcharacteristicschange, UcxControllerNotifyTransportCharacteristicsChange, ucxcontroller/UcxControllerNotifyTransportCharacteristicsChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: UcxControllerNotifyTransportCharacteristicsChange
-req.alt-loc: Ucxstubs.lib,Ucxstubs.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Ucxstubs.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ucxstubs.lib
+-	Ucxstubs.dll
+apiname: 
+-	UcxControllerNotifyTransportCharacteristicsChange
+product: Windows
+targetos: Windows
 req.typenames: UCX_CONTROLLER_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,14 +48,15 @@ req.product: Windows 10 or later.
 # UcxControllerNotifyTransportCharacteristicsChange function
 
 
-
 ## -description
+
+
 Notifies UCX about a new port change event from host controller.
 
 
 
-
 ## -syntax
+
 
 ````
 void UcxControllerNotifyTransportCharacteristicsChange(
@@ -57,9 +68,12 @@ void UcxControllerNotifyTransportCharacteristicsChange(
 
 ## -parameters
 
-### -param UcxController [in]
 
- A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
+
+
+### -param Controller
+
+TBD
 
 
 ### -param UcxControllerTransportCharacteristics [out]
@@ -67,19 +81,22 @@ void UcxControllerNotifyTransportCharacteristicsChange(
 A pointer to a <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_transport_characteristics.md">UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS</a> structure that contains the updated transport characteristics.
 
 
+#### - UcxController [in]
+
+ A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
+
+
 ## -returns
+
+
 This function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_get_transport_characteristics.md">EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS</a>
-</dt>
-</dl>
+
  
 
  

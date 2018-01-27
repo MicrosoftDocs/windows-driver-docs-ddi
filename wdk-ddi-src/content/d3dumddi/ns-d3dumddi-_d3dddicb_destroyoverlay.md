@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a7b57177-17d2-42d7-ac4a-3cbd74803d50
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_DESTROYOVERLAY, D3DDDICB_DESTROYOVERLAY
+ms.keywords: display.d3dddicb_destroyoverlay, D3DDDICB_DESTROYOVERLAY, D3DDDICB_DESTROYOVERLAY structure [Display Devices], d3dumddi/D3DDDICB_DESTROYOVERLAY, _D3DDDICB_DESTROYOVERLAY, D3D_param_Structs_7d32095a-c3ac-427a-8719-1125a85b9495.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_DESTROYOVERLAY
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_DESTROYOVERLAY
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_DESTROYOVERLAY
 ---
 
 # _D3DDDICB_DESTROYOVERLAY structure
 
 
-
 ## -description
+
+
 The D3DDDICB_DESTROYOVERLAY structure contains the handle to the overlay to destroy.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_DESTROYOVERLAY {
@@ -54,23 +64,20 @@ typedef struct _D3DDDICB_DESTROYOVERLAY {
 
 ## -struct-fields
 
+
+
+
 ### -field hKernelOverlay
 
 [in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that is returned by the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a> function and that identifies the kernel-mode overlay object to destroy. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyoverlaycb.md">pfnDestroyOverlayCb</a>
-</dt>
-</dl>
+
  
 
  

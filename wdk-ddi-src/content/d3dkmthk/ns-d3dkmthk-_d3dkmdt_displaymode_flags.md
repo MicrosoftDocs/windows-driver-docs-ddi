@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0b45cd69-5c9e-4772-a68f-d604806e7789
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMDT_DISPLAYMODE_FLAGS, D3DKMDT_DISPLAYMODE_FLAGS
+ms.keywords: d3dkmthk/D3DKMDT_DISPLAYMODE_FLAGS, _D3DKMDT_DISPLAYMODE_FLAGS, OpenGL_Structs_64aa66c8-8323-4cee-b437-16b8f3c361c8.xml, display.d3dkmdt_displaymode_flags, D3DKMDT_DISPLAYMODE_FLAGS, D3DKMDT_DISPLAYMODE_FLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMDT_DISPLAYMODE_FLAGS
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMDT_DISPLAYMODE_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DKMDT_DISPLAYMODE_FLAGS
 ---
 
 # _D3DKMDT_DISPLAYMODE_FLAGS structure
 
 
-
 ## -description
+
+
 The D3DKMDT_DISPLAYMODE_FLAGS structure identifies attributes of a display mode.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMDT_DISPLAYMODE_FLAGS {
@@ -67,33 +77,14 @@ typedef struct _D3DKMDT_DISPLAYMODE_FLAGS {
 
 ## -struct-fields
 
+
+
+
 ### -field ValidatedAgainstMonitorCaps
 
 A Boolean value that specifies whether the display mode is supported by the monitor that the display mode will be displayed on.
 
 Setting this member is equivalent to setting the first bit of a 32-bit value (0x00000001).
-
-
-### -field RoundedFakeMode
-
-A Boolean value that specifies whether the display mode is rounded.
-
-Setting this member is equivalent to setting the second bit of a 32-bit value (0x00000002).
-
-
-### -field ModePruningReason
-
-[in] A value of type <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmdt_mode_pruning_reason.md">D3DKMDT_MODE_PRUNING_REASON</a> that identifies the reason why the monitor either supports the display mode or does not support the display mode. The four bits are defined by one of the values in the <b>D3DKMDT_MODE_PRUNING_REASON</b> enumeration type and depend on the setting of the <b>ValidatedAgainstMonitorCaps</b> member. For more information about how the <b>ModePruningReason</b> value is set, see <b>D3DKMDT_MODE_PRUNING_REASON</b>.
-
-Setting this member is equivalent to setting bits 4 through 7 of a 32-bit value (0x0000003C).
-
-
-### -field Reserved
-
-This member is reserved and should be set to zero. Setting this member is equivalent to setting the remaining 28 bits (0xFFFFFFF0) of a 32-bit value to zeros.
-
-
-### -field ValidatedAgainstMonitorCaps
 
 A UINT value that specifies whether the display mode is supported by the monitor that the display mode will be displayed on.
 
@@ -104,6 +95,10 @@ Supported starting with Windows 8.
 
 ### -field RoundedFakeMode
 
+A Boolean value that specifies whether the display mode is rounded.
+
+Setting this member is equivalent to setting the second bit of a 32-bit value (0x00000002).
+
 A UINT value that specifies whether the display mode is rounded.
 
 Setting this member is equivalent to setting the second bit of a 32-bit value (0x00000002).
@@ -112,6 +107,10 @@ Supported starting with Windows 8.
 
 
 ### -field ModePruningReason
+
+[in] A value of type <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmdt_mode_pruning_reason.md">D3DKMDT_MODE_PRUNING_REASON</a> that identifies the reason why the monitor either supports the display mode or does not support the display mode. The four bits are defined by one of the values in the <b>D3DKMDT_MODE_PRUNING_REASON</b> enumeration type and depend on the setting of the <b>ValidatedAgainstMonitorCaps</b> member. For more information about how the <b>ModePruningReason</b> value is set, see <b>D3DKMDT_MODE_PRUNING_REASON</b>.
+
+Setting this member is equivalent to setting bits 4 through 7 of a 32-bit value (0x0000003C).
 
 [in] A value of type <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmdt_mode_pruning_reason.md">D3DKMDT_MODE_PRUNING_REASON</a> that identifies the reason why the monitor either supports the display mode or does not support the display mode. The four bits are defined by one of the values in the <b>D3DKMDT_MODE_PRUNING_REASON</b> enumeration type and depend on the setting of the <b>ValidatedAgainstMonitorCaps</b> member. For more information about how the <b>ModePruningReason</b> value is set, see <b>D3DKMDT_MODE_PRUNING_REASON</b>.
 
@@ -142,7 +141,19 @@ Setting this member is equivalent to setting the ninth bit of a 32-bit value (0x
 Supported starting with Windows 8.
 
 
+### -field PreferredTiming
+
+ 
+
+
+### -field PhysicalModeSupported
+
+ 
+
+
 ### -field Reserved
+
+This member is reserved and should be set to zero. Setting this member is equivalent to setting the remaining 28 bits (0xFFFFFFF0) of a 32-bit value to zeros.
 
 This member is reserved and should be set to zero.
 
@@ -151,18 +162,12 @@ Setting this member is equivalent to setting the remaining 26 bits (0xFFFFFFC0) 
 Supported starting with Windows 8.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmdt_mode_pruning_reason.md">D3DKMDT_MODE_PRUNING_REASON</a>
-</dt>
-</dl>
+
  
 
  

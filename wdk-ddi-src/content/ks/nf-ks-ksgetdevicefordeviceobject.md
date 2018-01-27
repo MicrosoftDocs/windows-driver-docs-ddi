@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2fe72d9d-1423-4db9-be38-f2bca7dbc56d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetDeviceForDeviceObject
+ms.keywords: ks/KsGetDeviceForDeviceObject, KsGetDeviceForDeviceObject, KsGetDeviceForDeviceObject function [Streaming Media Devices], avfunc_2bc27061-02ce-488f-94b4-087e9f264614.xml, stream.ksgetdevicefordeviceobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsGetDeviceForDeviceObject
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsGetDeviceForDeviceObject
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsGetDeviceForDeviceObject function
 
 
-
 ## -description
+
+
 The<b> KsGetDeviceForDeviceObject</b> function returns the AVStream device structure for a given functional device object.
 
 
-
 ## -syntax
+
 
 ````
 PKSDEVICE KsGetDeviceForDeviceObject(
@@ -54,33 +65,31 @@ PKSDEVICE KsGetDeviceForDeviceObject(
 
 ## -parameters
 
+
+
+
 ### -param FunctionalDeviceObject [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> for which to return the corresponding <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure.
 
 
 ## -returns
+
+
 <b>KsGetDeviceForDeviceObject</b> returns a pointer to the <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure corresponding to <i>FunctionalDeviceObject</i>. It returns <b>NULL</b> if <i>FunctionalDeviceObject</i> is a child PDO.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksgetfilterfromfileobject.md">KsGetFilterFromFileObject</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
  
 
  

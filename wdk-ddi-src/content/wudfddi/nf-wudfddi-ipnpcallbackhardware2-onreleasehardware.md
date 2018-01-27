@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 652B92C2-EF04-482A-BB57-9F64F947EE4F
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IPnpCallbackHardware2, IPnpCallbackHardware2::OnReleaseHardware, OnReleaseHardware
+ms.keywords: wdf.ipnpcallbackhardware2_onreleasehardware, OnReleaseHardware method, wudfddi/IPnpCallbackHardware2::OnReleaseHardware, IPnpCallbackHardware2 interface, OnReleaseHardware method, IPnpCallbackHardware2::OnReleaseHardware, OnReleaseHardware method, IPnpCallbackHardware2 interface, OnReleaseHardware, umdf.ipnpcallbackhardware2_onreleasehardware, IPnpCallbackHardware2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.11
-req.alt-api: IPnpCallbackHardware2.OnReleaseHardware
-req.alt-loc: Wudfddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Wudfddi.h
+apiname: 
+-	IPnpCallbackHardware2.OnReleaseHardware
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IPnpCallbackHardware2::OnReleaseHardware method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>OnReleaseHardware</b> method performs operations that are needed when a device is no longer accessible.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT OnReleaseHardware(
@@ -57,6 +67,9 @@ HRESULT OnReleaseHardware(
 
 
 ## -parameters
+
+
+
 
 ### -param pWdfDevice [in]
 
@@ -69,10 +82,15 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfcmresourcelist.md">IWDFCmRes
 
 
 ## -returns
+
+
 <b>OnReleaseHardware</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h. Do not return HRESULT_FROM_NT(STATUS_NOT_SUPPORTED).
 
 
+
 ## -remarks
+
+
 A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware2.md">IPnpCallbackHardware2</a> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object.
 
  
@@ -83,18 +101,14 @@ For information about deleting an interrupt object, see <a href="https://msdn.mi
 For information about parsing hardware resources, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/finding-and-mapping-hardware-resources-in-umdf-1-x-drivers">Finding and Mapping Hardware Resources in a UMDF Driver</a>.
 
 
-See example code in <a href="https://msdn.microsoft.com/243C7299-7C74-408A-8FB9-32FB3315251F">IWDFDevice3::MapIoSpace</a>.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware2.md">IPnpCallbackHardware2</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439734">OnPrepareHardware</a>
-</dt>
-</dl>
+
  
 
  

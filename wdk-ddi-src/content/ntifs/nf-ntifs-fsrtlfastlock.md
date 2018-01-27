@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c3e209b5-9925-4911-8c42-0f15c1c710be
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlFastLock
+ms.keywords: FsRtlFastLock, ifsk.fsrtlfastlock, FsRtlFastLock function [Installable File System Drivers], fsrtlref_c60db87b-ac5a-4c60-83f2-7381e0156806.xml, ntifs/FsRtlFastLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlFastLock
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ntifs.h
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FsRtlFastLock
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlFastLock macro
 
 
-
 ## -description
+
+
 The <b>FsRtlFastLock</b> macro is used by file systems and filter drivers to request a byte-range lock for a file stream. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlFastLock(
@@ -64,76 +74,136 @@ BOOLEAN FsRtlFastLock(
 
 ## -parameters
 
-### -param FileLock [in]
-
-Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a> or <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>.
 
 
-### -param FileObject [in]
 
-Pointer to the file object for the open file. The file object must have been created with GENERIC_READ or GENERIC_WRITE access to the file (or both). 
+### -param A1
 
-
-### -param FileOffset [in]
-
-Pointer to a variable that specifies the starting byte offset within the file of the range to be locked.
+TBD
 
 
-### -param Length [in]
+### -param A2
+
+TBD
+
+
+### -param A3
+
+TBD
+
+
+### -param A4
+
+TBD
+
+
+### -param A5
+
+TBD
+
+
+### -param A6
+
+TBD
+
+
+### -param A7
+
+TBD
+
+
+### -param A8
+
+TBD
+
+
+### -param A9
+
+TBD
+
+
+### -param A10
+
+TBD
+
+
+### -param A11
+
+TBD
+
+
+
+
+#### - Length [in]
 
 Pointer to a variable that specifies the length in bytes of the range to be locked.
 
 
-### -param ProcessId [in]
+#### - FileLock [in]
 
-Pointer to the process ID for the process requesting the byte-range lock.
-
-
-### -param Key [in]
-
-The key to be assigned to the byte-range lock.
+Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a> or <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>.
 
 
-### -param FailImmediately [in]
-
-Boolean value specifying whether the lock request should fail if the lock cannot be granted immediately. If the caller can be put into a wait state until the request is granted, set <i>FailImmediately</i> to <b>FALSE</b>. If it cannot, set <i>FailImmediately</i> to <b>TRUE</b>. 
-
-
-### -param ExclusiveLock [in]
+#### - ExclusiveLock [in]
 
 Set to <b>TRUE</b> if an exclusive lock is requested, <b>FALSE</b> if a shared lock is requested.
 
 
-### -param Iosb [out]
+#### - Iosb [out]
 
 Pointer to a caller-allocated IO_STATUS_BLOCK structure that receives status information about the lock request. 
 
 
-### -param Context [in]
+#### - Context [in]
 
 Optional pointer to a context to use when releasing the byte-range lock. 
 
 
-### -param AlreadySynchronized [in]
+#### - ProcessId [in]
+
+Pointer to the process ID for the process requesting the byte-range lock.
+
+
+#### - FileOffset [in]
+
+Pointer to a variable that specifies the starting byte offset within the file of the range to be locked.
+
+
+#### - FileObject [in]
+
+Pointer to the file object for the open file. The file object must have been created with GENERIC_READ or GENERIC_WRITE access to the file (or both). 
+
+
+#### - FailImmediately [in]
+
+Boolean value specifying whether the lock request should fail if the lock cannot be granted immediately. If the caller can be put into a wait state until the request is granted, set <i>FailImmediately</i> to <b>FALSE</b>. If it cannot, set <i>FailImmediately</i> to <b>TRUE</b>. 
+
+
+#### - AlreadySynchronized [in]
 
 This parameter is obsolete, but is retained for compatibility with legacy drivers.
 
 
+#### - Key [in]
+
+The key to be assigned to the byte-range lock.
+
+
 ## -remarks
+
+
 The <b>FsRtlFastLock</b> macro causes the caller to acquire a byte-range lock on a region of the specified file.
 
 A return value of <b>TRUE</b> indicates that the IO_STATUS_BLOCK structure pointed to by <i>Iosb</i> received status information about the lock operation. To examine the contents of this structure, use the NT_STATUS macro.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
-</dt>
-</dl>
+
  
 
  

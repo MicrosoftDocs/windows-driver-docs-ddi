@@ -7,8 +7,8 @@ old-location: print\ixpspartiterator.htm
 old-project: print
 ms.assetid: 6fd51647-e7e4-4c9a-ae87-00eb3e1d3fbb
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IXpsPartIterator, IXpsPartIterator::Reset, Reset
+ms.date: 1/18/2018
+ms.keywords: print.ixpspartiterator, IXpsPartIterator interface [Print Devices], IXpsPartIterator interface [Print Devices], described, IXpsPartIterator, filterpipeline/IXpsPartIterator, filterpipeline_75476300-7fcc-46a5-8a48-abde1dcd5e36.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IXpsPartIterator
-req.alt-loc: filterpipeline.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,38 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	filterpipeline.h
+apiname: 
+-	IXpsPartIterator
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # IXpsPartIterator interface
 
 
-
 ## -description
+
+
 The <code>IXpsPartIterator</code> interface is an iterator for XPS parts.
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsPartIterator</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IXpsPartIterator</b> also has these types of members:
-
-The <b>IXpsPartIterator</b> interface has these methods.
-
-The <code>Current</code> method provides the current URI and part.
-
-The <code>IsDone</code> method determines whether the iterator has finished  the iteration.
-
-The <code>Next</code> method advances the iterator to the next part.
-
-The <code>Reset</code> method sets the iterator to the first element.
-
- 
-
-
 ## -members
+
 The <b>IXpsPartIterator</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -112,5 +106,3 @@ The <code>Reset</code> method sets the iterator to the first element.
 
  
 
-
-## -remarks

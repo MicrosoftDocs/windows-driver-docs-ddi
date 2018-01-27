@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7478E83E-0657-4547-993A-84AECBB2562D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCAMERA_PERFRAMESETTING_CAP_HEADER, KSCAMERA_PERFRAMESETTING_CAP_HEADER, *PKSCAMERA_PERFRAMESETTING_CAP_HEADER
+ms.keywords: KSCAMERA_PERFRAMESETTING_CAP_HEADER structure [Streaming Media Devices], ksmedia/KSCAMERA_PERFRAMESETTING_CAP_HEADER, stream.kscamera_perframesetting_cap_header, KSCAMERA_PERFRAMESETTING_CAP_HEADER, PKSCAMERA_PERFRAMESETTING_CAP_HEADER structure pointer [Streaming Media Devices], PKSCAMERA_PERFRAMESETTING_CAP_HEADER, ksmedia/PKSCAMERA_PERFRAMESETTING_CAP_HEADER, *PKSCAMERA_PERFRAMESETTING_CAP_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSCAMERA_PERFRAMESETTING_CAP_HEADER
-req.alt-loc: Ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KSCAMERA_PERFRAMESETTING_CAP_HEADER, *PKSCAMERA_PERFRAMESETTING_CAP_HEADER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ksmedia.h
+apiname: 
+-	KSCAMERA_PERFRAMESETTING_CAP_HEADER
+product: Windows
+targetos: Windows
+req.typenames: *PKSCAMERA_PERFRAMESETTING_CAP_HEADER, KSCAMERA_PERFRAMESETTING_CAP_HEADER
 ---
 
 # KSCAMERA_PERFRAMESETTING_CAP_HEADER structure
 
 
-
 ## -description
+
+
 This structure contains the header information for the per frame settings capabilities.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -70,5 +83,3 @@ The number of capability items.
 
 Not used.
 
-
-## -remarks

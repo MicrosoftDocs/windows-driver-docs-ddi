@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 710683e7-f628-4baa-b485-75b481812b97
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_ZRANGE, D3DDDIARG_ZRANGE
+ms.keywords: UMDisplayDriver_param_Structs_e1184f4e-5bff-4bdc-bf7a-473039a66ff7.xml, display.d3dddiarg_zrange, D3DDDIARG_ZRANGE, _D3DDDIARG_ZRANGE, D3DDDIARG_ZRANGE structure [Display Devices], d3dumddi/D3DDDIARG_ZRANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_ZRANGE
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_ZRANGE
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_ZRANGE
 ---
 
 # _D3DDDIARG_ZRANGE structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_ZRANGE structure specifies z-range minimum and maximum values.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_ZRANGE {
@@ -55,6 +65,9 @@ typedef struct _D3DDDIARG_ZRANGE {
 
 ## -struct-fields
 
+
+
+
 ### -field MinZ
 
 [in] A FLOAT value that indicates the minimum z value for the range. 
@@ -65,15 +78,10 @@ typedef struct _D3DDDIARG_ZRANGE {
 [in] A FLOAT value that indicates the maximum z value for the range. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setzrange.md">SetZRange</a>
-</dt>
-</dl>
+
  
 
  

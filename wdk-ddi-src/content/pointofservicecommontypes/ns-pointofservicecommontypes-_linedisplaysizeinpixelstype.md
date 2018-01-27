@@ -7,8 +7,8 @@ old-location: pos\linedisplaysizeinpixelstype.htm
 old-project: pos
 ms.assetid: BB6B3AC2-C184-4383-B5D8-1D854BD433FA
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _LineDisplaySizeInPixelsType, LineDisplaySizeInPixelsType
+ms.date: 1/18/2018
+ms.keywords: LineDisplaySizeInPixelsType, LineDisplaySizeInPixelsType structure, pointofservicecommontypes/PLineDisplaySizeInPixelsType, pointofservicecommontypes/LineDisplaySizeInPixelsType, _LineDisplaySizeInPixelsType, PLineDisplaySizeInPixelsType structure pointer, pos.linedisplaysizeinpixelstype, PLineDisplaySizeInPixelsType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: LineDisplaySizeInPixelsType
-req.alt-loc: pointofservicecommontypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pointofservicecommontypes.h
+apiname: 
+-	LineDisplaySizeInPixelsType
+product: Windows
+targetos: Windows
 req.typenames: LineDisplaySizeInPixelsType
 ---
 
 # _LineDisplaySizeInPixelsType structure
 
 
-
 ## -description
+
+
 This structure is not implemented.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _LineDisplaySizeInPixelsType {
@@ -54,7 +64,20 @@ typedef struct _LineDisplaySizeInPixelsType {
 
 ## -struct-fields
 
-### -field ...
 
 
-## -remarks
+
+### -field Width
+
+ 
+
+
+### -field Height
+
+ 
+
+
+
+####### - ...
+
+

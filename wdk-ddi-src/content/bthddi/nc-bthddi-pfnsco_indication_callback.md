@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: abc9fc88-6852-4bfb-8271-7a73a508c397
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: IBidiSpl2, IBidiSpl2::UnbindDevice, UnbindDevice
+ms.keywords: bltooth.sco_callback_function, SCOIndicationCallback callback function [Bluetooth Devices], SCOIndicationCallback, PFNSCO_INDICATION_CALLBACK, PFNSCO_INDICATION_CALLBACK, bthddi/SCOIndicationCallback, bth_funcs_05d035df-348d-42c0-8041-5d3822b0346e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SCOIndicationCallback
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	bthddi.h
+apiname: 
+-	SCOIndicationCallback
+product: Windows
+targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # PFNSCO_INDICATION_CALLBACK callback
 
 
-
 ## -description
+
+
 Profile drivers implement a SCO callback function to provide the Bluetooth driver stack with a
   mechanism to notify the profile driver about incoming SCO connection requests from remote devices, and any
   changes to the status of a currently open SCO connection.
 
 
-
 ## -prototype
+
 
 ````
 PFNSCO_INDICATION_CALLBACK SCOIndicationCallback;
@@ -60,6 +70,9 @@ void SCOIndicationCallback(
 
 
 ## -parameters
+
+
+
 
 ### -param Context [in]
 
@@ -83,40 +96,70 @@ A
 ### -param Parameters [in]
 
 A 
-     <a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">
-     SCO_INDICATION_PARAMETERS</a> structure that contains parameter information based on the value passed
+     <mshelp:link keywords="bltooth.sco_indication_parameters" tabindex="0"><b>
+     SCO_INDICATION_PARAMETERS</b></mshelp:link> structure that contains parameter information based on the value passed
      to the 
      <i>Indication</i> parameter.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The 
     <b>BtAddress</b> member found in the SCO_INDICATION_PARAMETERS structure passed in the 
     <i>Parameters</i> parameter indicates the Bluetooth address of the remote device.
 
+The 
+    <i>PFNSCO_INDICATION_CALLBACK</i> function can be registered in two ways.
+
+In the first case, the profile driver acts as a server and must register this callback function
+    through the 
+    <b>IndicationCallback</b> member of the 
+    <a href="..\bthddi\ns-bthddi-_brb_sco_register_server.md">_BRB_SCO_REGISTER_SERVER</a> structure.
+    The Bluetooth driver stack can then call this function to notify the profile driver when a remote device
+    attempts to contact it.
+
+In the second case, the profile driver acts as a client and attempts to connect to a remote device
+    using the <b>BRB_SCO_OPEN_CHANNEL</b> BRB. The 
+    <i>PFNSCO_INDICATION_CALLBACK</i> callback function is registered through the 
+    <b>Callback</b> member of the 
+    <a href="..\bthddi\ns-bthddi-_brb_sco_open_channel.md">_BRB_SCO_OPEN_CHANNEL</a> structure passed
+    with the specified BRB when one of them is submitted through 
+    <mshelp:link keywords="bltooth.ioctl_internal_bth_submit_brb" tabindex="0"><b>
+    IOCTL_INTERNAL_BTH_SUBMIT_BRB</b></mshelp:link>.
+
+After it is registered, the callback function is only associated with the channel that the BRB opened,
+    and the function notifies the profile driver of actions that occur over the open channel to the remote
+    device. Profile drivers can register a single function to handle channel notifications as a client and
+    _BRB_SCO_REGISTER_SERVER notifications as a server.
+
+The SCO_INDICATION_PARAMETERS structure held in the 
+    <i>Parameters</i> parameter is interpreted according to the SCO_INDICATION_CODE value that is passed to
+    the callback function through the 
+    <i>Indication</i> parameter. For most notifications, there is a SCO_INDICATION_PARAMETERS union member
+    that corresponds to the event and contains event-specific parameters.
+
+
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthddi\ns-bthddi-_brb_sco_register_server.md">_BRB_SCO_REGISTER_SERVER</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
-</dt>
-<dt>
+
 <a href="..\bthddi\ne-bthddi-_sco_indication_code.md">SCO_INDICATION_CODE</a>
-</dt>
-<dt>
+
 <a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">SCO_INDICATION_PARAMETERS</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
+
 <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
-</dt>
-</dl>
+
  
 
  

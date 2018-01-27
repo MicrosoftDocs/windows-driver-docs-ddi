@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 74845e4d-0fa1-4625-96a7-2fddec8b901d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortDeleteSpinLock
+ms.keywords: VideoPortDeleteSpinLock function [Display Devices], VideoPort_Functions_d98d74d6-bf9c-441b-95e3-a3455927dd45.xml, video/VideoPortDeleteSpinLock, VideoPortDeleteSpinLock, display.videoportdeletespinlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of the Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortDeleteSpinLock
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortDeleteSpinLock
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortDeleteSpinLock function
 
 
-
 ## -description
+
+
 The <b>VideoPortDeleteSpinLock</b> function deletes a given spin lock.
 
 
-
 ## -syntax
+
 
 ````
 VP_STATUS VideoPortDeleteSpinLock(
@@ -55,6 +65,9 @@ VP_STATUS VideoPortDeleteSpinLock(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -67,24 +80,27 @@ Pointer to the spin lock to delete.
 
 
 ## -returns
+
+
 If the spin lock is successfully deleted, <b>VideoPortDeleteSpinLock</b> returns NO_ERROR.
 
 
+
 ## -remarks
+
+
 A miniport driver uses this function to delete a spin lock that was previously created in a call to <a href="..\video\nf-video-videoportcreatespinlock.md">VideoPortCreateSpinLock</a>.
 
 This routine cannot be called from an ISR or from a <a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a> callback requested where the <i>Priority</i> parameter is set to either <b>VpMediumPriority</b> or <b>VpHighPriority</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\video\nf-video-videoportcreatespinlock.md">VideoPortCreateSpinLock</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
-</dt>
-</dl>
+
+<a href="..\video\nf-video-videoportcreatespinlock.md">VideoPortCreateSpinLock</a>
+
  
 
  

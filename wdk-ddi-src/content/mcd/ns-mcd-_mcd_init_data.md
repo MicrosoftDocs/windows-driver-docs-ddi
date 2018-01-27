@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4fc4c36f-a2ad-4b9f-a30b-e7ed600c38e9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MCD_INIT_DATA, MCD_INIT_DATA, *PMCD_INIT_DATA
+ms.keywords: MCD_INIT_DATA structure [Storage Devices], storage.mcd_init_data, mcd/MCD_INIT_DATA, structs-changer_f8810f4b-8465-4751-a885-cc68a88e45fb.xml, MCD_INIT_DATA, PMCD_INIT_DATA, _MCD_INIT_DATA, *PMCD_INIT_DATA, PMCD_INIT_DATA structure pointer [Storage Devices], mcd/PMCD_INIT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MCD_INIT_DATA
-req.alt-loc: mcd.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mcd.h
+apiname: 
+-	MCD_INIT_DATA
+product: Windows
+targetos: Windows
+req.typenames: *PMCD_INIT_DATA, MCD_INIT_DATA
 ---
 
 # _MCD_INIT_DATA structure
 
 
-
 ## -description
+
+
 The changer miniclass driver fills the MCD_INIT_DATA structure with pointers to its internal command processing routines and passes them to the changer class driver. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MCD_INIT_DATA {
@@ -69,6 +79,9 @@ typedef struct _MCD_INIT_DATA {
 
 ## -struct-fields
 
+
+
+
 ### -field InitDataSize
 
 Size of this structure in bytes. 
@@ -77,7 +90,6 @@ Size of this structure in bytes.
 ### -field ChangerAdditionalExtensionSize
 
 Pointer to changer miniclass driver routine that returns the number of bytes the changer miniclass driver requires to store device-specific information in the device extension. This routine has the following prototype:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -96,7 +108,6 @@ ULONG
 ### -field ChangerInitialize
 
 Pointer to changer miniclass driver routine that does miniclass driver-specific initialization and readies the changer to receive other requests. This routine has the following prototype:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -115,7 +126,6 @@ NTSTATUS
 ### -field ChangerError
 
 Pointer to changer miniclass driver routine that does device-specific error processing. This routine has the following prototype:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -137,7 +147,6 @@ VOID
 ### -field ChangerPerformDiagnostics
 
 Pointer to changer miniclass driver routine that performs diagnostic tests on the device. This routine has the following prototype:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -157,7 +166,6 @@ NTSTATUS
 ### -field ChangerGetParameters
 
 Pointer to changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_parameters.md">IOCTL_CHANGER_GET_PARAMETERS</a>. This routine has the following prototype:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -177,7 +185,6 @@ NTSTATUS
 ### -field ChangerGetStatus
 
 Pointer to changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_status.md">IOCTL_CHANGER_GET_STATUS</a>. This routine has the following prototype:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -197,7 +204,6 @@ NTSTATUS
 ### -field ChangerGetProductData
 
 Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_product_data.md">IOCTL_CHANGER_GET_PRODUCT_DATA</a>. This routine has the following prototype:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -217,7 +223,6 @@ NTSTATUS
 ### -field ChangerSetAccess
 
 Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_access.md">IOCTL_CHANGER_SET_ACCESS</a>. This routine has the following prototype:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -237,7 +242,6 @@ NTSTATUS
 ### -field ChangerGetElementStatus
 
 Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>. This routine has the following prototype:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -257,7 +261,6 @@ NTSTATUS
 ### -field ChangerInitializeElementStatus
 
 Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_initialize_element_status.md">IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS</a>. This routine has the following prototype:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -277,7 +280,6 @@ NTSTATUS
 ### -field ChangerSetPosition
 
 Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_position.md">IOCTL_CHANGER_SET_POSITION</a>. This routine has the following prototype:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -297,7 +299,6 @@ NTSTATUS
 ### -field ChangerExchangeMedium
 
 Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_exchange_medium.md">IOCTL_CHANGER_EXCHANGE_MEDIUM</a>. This routine has the following prototype:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -317,7 +318,6 @@ NTSTATUS
 ### -field ChangerMoveMedium
 
 Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_move_medium.md">IOCTL_CHANGER_MOVE_MEDIUM</a>. This routine has the following prototype:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -337,7 +337,6 @@ NTSTATUS
 ### -field ChangerReinitializeUnit
 
 Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_reinitialize_transport.md">IOCTL_CHANGER_REINITIALIZE_TRANSPORT</a>. This routine has the following prototype:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -357,7 +356,6 @@ NTSTATUS
 ### -field ChangerQueryVolumeTags
 
 Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code of <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_query_volume_tags.md">IOCTL_CHANGER_QUERY_VOLUME_TAGS</a>. This routine has the following prototype:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -375,84 +373,62 @@ NTSTATUS
 </table></span></div>
 
 ## -remarks
+
+
 This structure is used by the changer driver in Windows XP and later operating systems only. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\mcd\nf-mcd-changeradditionalextensionsize.md">ChangerAdditionalExtensionSize</a>
-</dt>
-<dt>
-<a href="..\mcd\nf-mcd-changerinitialize.md">ChangerInitialize</a>
-</dt>
-<dt>
-<a href="..\mcd\nf-mcd-changererror.md">ChangerError</a>
-</dt>
-<dt>
-<a href="..\mcd\nf-mcd-changerperformdiagnostics.md">ChangerPerformDiagnostics</a>
-</dt>
-<dt>
-<a href="..\mcd\nf-mcd-changergetparameters.md">ChangerGetParameters</a>
-</dt>
-<dt>
-<a href="..\mcd\nf-mcd-changergetstatus.md">ChangerGetStatus</a>
-</dt>
-<dt>
-<a href="..\mcd\nf-mcd-changergetproductdata.md">ChangerGetProductData</a>
-</dt>
-<dt>
-<a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
-</dt>
-<dt>
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
-</dt>
-<dt>
+
 <a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
-</dt>
-<dt>
-<a href="..\mcd\nf-mcd-changersetposition.md">ChangerSetPosition</a>
-</dt>
-<dt>
-<a href="..\mcd\nf-mcd-changerexchangemedium.md">ChangerExchangeMedium</a>
-</dt>
-<dt>
+
+<a href="..\mcd\nf-mcd-changerinitialize.md">ChangerInitialize</a>
+
+<a href="..\mcd\nf-mcd-changergetproductdata.md">ChangerGetProductData</a>
+
+<a href="..\mcd\nf-mcd-changergetparameters.md">ChangerGetParameters</a>
+
+<a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
+
 <a href="..\mcd\nf-mcd-changermovemedium.md">ChangerMoveMedium</a>
-</dt>
-<dt>
-<a href="..\mcd\nf-mcd-changerreinitializeunit.md">ChangerReinitializeUnit</a>
-</dt>
-<dt>
-<a href="..\mcd\nf-mcd-changerqueryvolumetags.md">ChangerQueryVolumeTags</a>
-</dt>
-<dt>
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_parameters.md">IOCTL_CHANGER_GET_PARAMETERS</a>
-</dt>
-<dt>
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_status.md">IOCTL_CHANGER_GET_STATUS</a>
-</dt>
-<dt>
+
+<a href="..\mcd\nf-mcd-changergetstatus.md">ChangerGetStatus</a>
+
+<a href="..\mcd\nf-mcd-changererror.md">ChangerError</a>
+
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_product_data.md">IOCTL_CHANGER_GET_PRODUCT_DATA</a>
-</dt>
-<dt>
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_access.md">IOCTL_CHANGER_SET_ACCESS</a>
-</dt>
-<dt>
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
-</dt>
-<dt>
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_initialize_element_status.md">IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS</a>
-</dt>
-<dt>
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_position.md">IOCTL_CHANGER_SET_POSITION</a>
-</dt>
-<dt>
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_exchange_medium.md">IOCTL_CHANGER_EXCHANGE_MEDIUM</a>
-</dt>
-<dt>
+
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_move_medium.md">IOCTL_CHANGER_MOVE_MEDIUM</a>
-</dt>
-</dl>
+
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_parameters.md">IOCTL_CHANGER_GET_PARAMETERS</a>
+
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_initialize_element_status.md">IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS</a>
+
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_position.md">IOCTL_CHANGER_SET_POSITION</a>
+
+<a href="..\mcd\nf-mcd-changerexchangemedium.md">ChangerExchangeMedium</a>
+
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_exchange_medium.md">IOCTL_CHANGER_EXCHANGE_MEDIUM</a>
+
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_status.md">IOCTL_CHANGER_GET_STATUS</a>
+
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_access.md">IOCTL_CHANGER_SET_ACCESS</a>
+
+<a href="..\mcd\nf-mcd-changerreinitializeunit.md">ChangerReinitializeUnit</a>
+
+<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+
+<a href="..\mcd\nf-mcd-changerperformdiagnostics.md">ChangerPerformDiagnostics</a>
+
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
+
+<a href="..\mcd\nf-mcd-changersetposition.md">ChangerSetPosition</a>
+
+<a href="..\mcd\nf-mcd-changerqueryvolumetags.md">ChangerQueryVolumeTags</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4056202F-2292-40A5-BE1D-8C1A6FA79B50
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _STORAGE_ZONE_GROUP, *PSTORAGE_ZONE_GROUP, STORAGE_ZONE_GROUP
+ms.keywords: kernel.ioctl_ioctl_sysenv_query_variable_info, IOCTL_SYSENV_QUERY_VARIABLE_INFO control code [Kernel-Mode Driver Architecture], IOCTL_SYSENV_QUERY_VARIABLE_INFO, ntddsysenv/IOCTL_SYSENV_QUERY_VARIABLE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_SYSENV_QUERY_VARIABLE_INFO
-req.alt-loc: Ntddsysenv.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,76 +29,93 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSTORAGE_ZONE_GROUP, STORAGE_ZONE_GROUP
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddsysenv.h
+apiname: 
+-	IOCTL_SYSENV_QUERY_VARIABLE_INFO
+product: Windows
+targetos: Windows
+req.typenames: STORAGE_ZONE_GROUP, *PSTORAGE_ZONE_GROUP
 ---
 
 # IOCTL_SYSENV_QUERY_VARIABLE_INFO IOCTL
 
 
+##  Major Code: 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
 
 ## -description
 
-Returns information about system environment variables using
-    SysEnv device.
-
-
 
 
 Returns information about system environment variables using
     SysEnv device.
+
 
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 A pointer to a ULONG variable that contains the attributes of the system environment variable.
 
 
 ### -input-buffer-length
+
 Size of ULONG.
 
 
 ### -output-buffer
+
 A pointer to a <a href="..\ntddsysenv\ns-ntddsysenv-_sysenv_variable_info.md">SYSENV_VARIABLE_INFO</a> structure that contains variable information.
 
 
 ### -output-buffer-length
+
 The size of the <a href="..\ntddsysenv\ns-ntddsysenv-_sysenv_variable_info.md">SYSENV_VARIABLE_INFO</a> structure.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 <b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
-</dt>
-<dt>
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-</dt>
-<dt>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
-</dt>
-</dl>
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
  
 
  

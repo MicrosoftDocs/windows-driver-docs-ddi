@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7699214a-0cd2-401a-9f66-199d181abce4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTDestroyDevice
+ms.keywords: d3dkmthk/D3DKMTDestroyDevice, display.d3dkmtdestroydevice, D3DKMTDestroyDevice, OpenGL_Functions_66b283a1-deee-4a49-a02d-217567d35873.xml, D3DKMTDestroyDevice function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTDestroyDevice
-req.alt-loc: Gdi32.dll,API-MS-Win-dx-d3dkmt-l1-1-0.dll,API-MS-Win-dx-d3dkmt-l1-1-1.dll,API-MS-Win-DX-D3DKMT-L1-1-2.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Gdi32.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-0.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-1.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+apiname: 
+-	D3DKMTDestroyDevice
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTDestroyDevice function
 
 
-
 ## -description
+
+
 The <b>D3DKMTDestroyDevice</b> function releases a kernel-mode device context.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS D3DKMTDestroyDevice(
@@ -54,38 +67,63 @@ NTSTATUS D3DKMTDestroyDevice(
 
 ## -parameters
 
-### -param pData [in]
+
+
+
+### -param D3DKMT_DESTROYDEVICE
+
+TBD
+
+
+
+#### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroydevice.md">D3DKMT_DESTROYDEVICE</a> structure that contains the handle to the kernel-mode device context.
 
 
 ## -returns
+
+
 <b>D3DKMTDestroyDevice</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The device context was successfully released.
+</dl>
+</td>
+<td width="60%">
+The device context was successfully released.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>Parameters were validated and determined to be incorrect.
+</dl>
+</td>
+<td width="60%">
+Parameters were validated and determined to be incorrect.
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other <b>NTSTATUS</b> values.
 
 
 
-The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTDestroyDevice</b> to release a kernel-mode device context.
-
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroydevice.md">D3DKMT_DESTROYDEVICE</a>
-</dt>
-</dl>
+
  
 
  

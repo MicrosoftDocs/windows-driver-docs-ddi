@@ -7,8 +7,8 @@ old-location: debugger\writebusdata.htm
 old-project: debugger
 ms.assetid: bd4e762d-b3d5-4a4c-bdeb-998cd72783b4
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4::WriteBusData, WriteBusData
+ms.date: 1/19/2018
+ms.keywords: WriteBusData method [Windows Debugging], IDebugDataSpaces interface, WriteBusData, WriteBusData method [Windows Debugging], IDebugDataSpaces4, IDebugDataSpaces3 interface [Windows Debugging], WriteBusData method, dbgeng/IDebugDataSpaces3::WriteBusData, WriteBusData method [Windows Debugging], IDebugDataSpaces4 interface, WriteBusData method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces3::WriteBusData, IDebugDataSpaces interface [Windows Debugging], WriteBusData method, IDebugDataSpaces4 interface [Windows Debugging], WriteBusData method, dbgeng/IDebugDataSpaces4::WriteBusData, debugger.writebusdata, dbgeng/IDebugDataSpaces::WriteBusData, WriteBusData method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4::WriteBusData, IDebugDataSpaces2 interface [Windows Debugging], WriteBusData method, IDebugDataSpaces_a1fb8543-dee8-475d-b42c-17077d72b06e.xml, dbgeng/IDebugDataSpaces2::WriteBusData, IDebugDataSpaces2::WriteBusData, IDebugDataSpaces::WriteBusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugDataSpaces.WriteBusData,IDebugDataSpaces2.WriteBusData,IDebugDataSpaces3.WriteBusData,IDebugDataSpaces4.WriteBusData
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugDataSpaces.WriteBusData
+-	IDebugDataSpaces2.WriteBusData
+-	IDebugDataSpaces3.WriteBusData
+-	IDebugDataSpaces4.WriteBusData
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::WriteBusData method
 
 
-
 ## -description
+
+
 The <b>WriteBusData</b> method writes data to a system bus.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT WriteBusData(
@@ -59,6 +72,9 @@ HRESULT WriteBusData(
 
 
 ## -parameters
+
+
+
 
 ### -param BusDataType [in]
 
@@ -96,15 +112,34 @@ Receives the number of bytes written to the bus.  If <i>BytesWritten</i> is <b>N
 
 
 ## -returns
+
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method was successful.
+</dl>
+</td>
+<td width="60%">
+The method was successful.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This method is only available in kernel-mode debugging.
 
-The nature of the data read from the bus is system, bus, and slot dependent.</p>
+The nature of the data read from the bus is system, bus, and slot dependent.
+
+

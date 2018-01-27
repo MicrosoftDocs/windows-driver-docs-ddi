@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 571aaa9b-8620-46ff-af29-19b00804e0ad
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT, VOLUME_READ_PLEX_INPUT
+ms.keywords: ifsk.pdriver_fs_notification, DriverNotificationRoutine routine [Installable File System Drivers], DriverNotificationRoutine, DRIVER_FS_NOTIFICATION, DRIVER_FS_NOTIFICATION, ntifs/DriverNotificationRoutine, FilterCallbacks_5b421108-0db7-47ba-afba-3a8b79a61d66.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows 2000 and later version
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PDRIVER_FS_NOTIFICATION
-req.alt-loc: Ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PVOLUME_READ_PLEX_INPUT, VOLUME_READ_PLEX_INPUT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Ntifs.h
+apiname: 
+-	PDRIVER_FS_NOTIFICATION
+product: Windows
+targetos: Windows
+req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 ---
 
 # DRIVER_FS_NOTIFICATION callback
 
 
-
 ## -description
+
+
 A PDRIVER_FS_NOTIFICATION-typed routine is called by the operating system when a file system registers or unregisters itself by using <a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a> or <a href="..\ntifs\nf-ntifs-iounregisterfilesystem.md">IoUnregisterFileSystem</a>.
 
 
-
 ## -prototype
+
 
 ````
 DRIVER_FS_NOTIFICATION DriverNotificationRoutine;
@@ -58,9 +68,11 @@ VOID  DriverNotificationRoutine(
 
 ## -parameters
 
-### -param DeviceObject [in]
 
-A pointer to a file system device object for which the notification was called.
+
+
+### -param *DeviceObject
+
 
 
 ### -param FsActive [in]
@@ -68,35 +80,35 @@ A pointer to a file system device object for which the notification was called.
 A Boolean value that indicates whether the file system has registered (TRUE) or unregistered (FALSE) itself as an active file system.
 
 
+#### - DeviceObject [in]
+
+A pointer to a file system device object for which the notification was called.
+
+
 ## -returns
+
+
 This routine does not return a value.
 
 
+
 ## -remarks
+
+
 You must declare the callback function by using the <i>DRIVER_FS_NOTIFICATION</i> type. For more information, see the following Example section.
 
-To define a <b>DriverFSNotificationRoutine</b> callback routine that is named <b>MyDriverNotification</b>, you must first provide a function declaration that the Static Driver Verify (SDV) and other verification tools require, as follows:
-
-And then implement your callback routine as follows:
-
-Note that the callback type is declared in <i>Ntifs.h</i> as follows:
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangeex.md">IoRegisterFsRegistrationChangeEx</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangemountaware.md">IoRegisterFsRegistrationChangeMountAware</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-iounregisterfsregistrationchange.md">IoUnregisterFsRegistrationChange</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
+
+<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangeex.md">IoRegisterFsRegistrationChangeEx</a>
+
+<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangemountaware.md">IoRegisterFsRegistrationChangeMountAware</a>
+
  
 
  

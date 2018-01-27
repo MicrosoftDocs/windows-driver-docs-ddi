@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 25bd13de-cbac-408f-b985-e131499f05f0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlRegisterUncProvider
+ms.keywords: FsRtlRegisterUncProvider routine [Installable File System Drivers], ifsk.fsrtlregisteruncprovider, FsRtlRegisterUncProvider, ntifs/FsRtlRegisterUncProvider, fsrtlref_275d75b9-0033-4cfc-bb22-5ebfcab8d6ba.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlRegisterUncProvider
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlRegisterUncProvider
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlRegisterUncProvider function
 
 
-
 ## -description
+
+
 The <b>FsRtlRegisterUncProvider</b> routine registers a network redirector as a universal naming convention (UNC) provider with the system multiple UNC provider (MUP).
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlRegisterUncProvider(
@@ -56,14 +66,17 @@ NTSTATUS FsRtlRegisterUncProvider(
 
 ## -parameters
 
+
+
+
 ### -param MupHandle [out]
 
 A pointer to a location in which to return a MUP handle to be used when calling <b>FsRtlRegisterUncProvider</b> to deregister the network redirector. The returned handle is valid only if <b>FsRtlRegisterUncProvider</b> returns STATUS_SUCCESS.
 
 
-### -param RedirDevName [in]
+### -param RedirectorDeviceName
 
-A pointer to a Unicode string that contains the device name of the network redirector. 
+TBD
 
 
 ### -param MailslotsSupported [in]
@@ -71,34 +84,104 @@ A pointer to a Unicode string that contains the device name of the network redir
 Set to <b>TRUE</b> if the network redirector supports mailslots. This option is normally reserved for use by the Microsoft SMB redirector.
 
 
+#### - RedirDevName [in]
+
+A pointer to a Unicode string that contains the device name of the network redirector. 
+
+
 ## -returns
+
+
 <b>FsRtlRegisterUncProvider</b> returns STATUS_SUCCESS on success or an appropriate NTSTATUS value such as one of the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>The execution mode of the original requester for  the IRP operation sent to MUP was not from kernel mode. 
+</dl>
+</td>
+<td width="60%">
+The execution mode of the original requester for  the IRP operation sent to MUP was not from kernel mode. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_VIOLATION</b></dt>
-</dl>An access violation occurred when attempting access to the MUP device. 
+</dl>
+</td>
+<td width="60%">
+An access violation occurred when attempting access to the MUP device. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_DATATYPE_MISALIGNMENT</b></dt>
-</dl>There was a misalignment of data.
+</dl>
+</td>
+<td width="60%">
+There was a misalignment of data.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>There were insufficient resources available to allocate memory for buffers.
+</dl>
+</td>
+<td width="60%">
+There were insufficient resources available to allocate memory for buffers.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>An invalid parameter was passed to MUP in the IRP.
+</dl>
+</td>
+<td width="60%">
+An invalid parameter was passed to MUP in the IRP.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_USER_BUFFER</b></dt>
-</dl>An invalid parameter was passed in the <i>RedirDevName</i> parameter or an abnormal termination occurred. 
+</dl>
+</td>
+<td width="60%">
+An invalid parameter was passed in the <i>RedirDevName</i> parameter or an abnormal termination occurred. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-A network redirector must register with the MUP to handle UNC names. MUP is a kernel-mode component responsible for channeling all remote file system accesses using a Universal Naming Convention (UNC) name to a network redirector (the UNC provider) that is capable of handling the remote file system requests. MUP is involved when a UNC path is used by an application as illustrated by the following example that could be executed from a command line: 
 
-MUP is not involved during an operation that creates a mapped drive letter (the "NET USE" command, for example). This operation is handled by the multiple provider router (MPR) and a user-mode WNet provider DLL for the network redirector. However, a user-mode WNet provider DLL might communicate directly with a kernel-mode network redirector driver during this operation.
+
+A network redirector must register with the MUP to handle UNC names. MUP is a kernel-mode component responsible for channeling all remote file system accesses using a Universal Naming Convention (UNC) name to a network redirector (the UNC provider) that is capable of handling the remote file system requests. MUP is involved when a UNC path is used by an application as illustrated by the following example that could be executed from a command line: 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>notepad \\server\public\readme.txt</pre>
+</td>
+</tr>
+</table></span></div>MUP is not involved during an operation that creates a mapped drive letter (the "NET USE" command, for example). This operation is handled by the multiple provider router (MPR) and a user-mode WNet provider DLL for the network redirector. However, a user-mode WNet provider DLL might communicate directly with a kernel-mode network redirector driver during this operation.
 
 On Windows Server 2003, Windows XP, and Windows 2000, remote file operations performed on a mapped drive that does not represent a Distributed File System (DFS) drive don't go through MUP. These operations go directly to the network provider that handled the drive letter mapping.
 
@@ -109,8 +192,16 @@ Network redirectors that conform to the Windows Vista redirector model should us
 <b>FsRtlRegisterUncProvider</b> sends a private file system control (FSCTL) to MUP to perform the registration. 
 
 The ProviderOrder registry value determines the order in which MUP issues prefix resolution requests to individual network redirectors. This registry value is located under the following registry key: 
-
-Changes to the ProviderOrder registry value require a reboot to take effect in MUP on Windows Server 2003, Windows XP, and Windows 2000. 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HKLM\CurrentControlSet\Control\NetworkProvider\Order</pre>
+</td>
+</tr>
+</table></span></div>Changes to the ProviderOrder registry value require a reboot to take effect in MUP on Windows Server 2003, Windows XP, and Windows 2000. 
 
 Only one network provider on a system can support mailslots. So the <i>MailslotsSupported</i> parameter is normally only set to <b>TRUE</b> for the Microsoft SMB redirector.
 
@@ -131,21 +222,17 @@ For more information, see the following sections in the Design Guide:
 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-fsrtlderegisteruncprovider.md">FsRtlDeregisterUncProvider</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex~r3.md">FsRtlRegisterUncProviderEx</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ni-ntifs-ioctl_redir_query_path_ex.md">IOCTL_REDIR_QUERY_PATH_EX</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex~r3.md">FsRtlRegisterUncProviderEx</a>
+
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+<a href="..\ntifs\nf-ntifs-fsrtlderegisteruncprovider.md">FsRtlDeregisterUncProvider</a>
+
  
 
  

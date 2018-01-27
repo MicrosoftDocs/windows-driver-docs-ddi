@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c96ed5ad-34d8-4530-8d00-483e5aee7261
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+ms.keywords: kernel.getdmaalignment, GetDmaAlignment, GetDmaAlignment callback function [Kernel-Mode Driver Architecture], GetDmaAlignment, PGET_DMA_ALIGNMENT, PGET_DMA_ALIGNMENT, wdm/GetDmaAlignment, kdma_3b830c2d-6c3d-477c-b781-c9d1a7dbe5bf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with  Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GetDmaAlignment
-req.alt-loc: Wdm.h
 req.ddi-compliance: IrqlDispatch
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wdm.h
+apiname: 
+-	GetDmaAlignment
+product: Windows
+targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PGET_DMA_ALIGNMENT callback
 
 
-
 ## -description
+
+
 The <b>GetDmaAlignment</b> routine returns the alignment requirements of the DMA system.
 
 
-
 ## -prototype
+
 
 ````
 PGET_DMA_ALIGNMENT GetDmaAlignment;
@@ -58,16 +68,24 @@ ULONG GetDmaAlignment(
 
 ## -parameters
 
+
+
+
 ### -param DmaAdapter [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller. 
 
 
 ## -returns
+
+
 <b>GetDmaAlignment</b> returns the alignment requirements, in bytes, of the DMA system.  The starting address and length of DMA buffers must be a multiple of this value.
 
 
+
 ## -remarks
+
+
 <b>GetDmaAlignment</b>
            is not a system routine that can be called directly by name. This routine is callable only by pointer from the address returned in a 
           <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
@@ -76,21 +94,17 @@ A pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structu
 A driver can call this routine to determine alignment requirements for DMA buffers it allocates. The returned value should be used to set the <b>AlignmentRequirement</b> field in the device object. A driver may need to increase this value because of additional hardware device restrictions.  For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547807">Initializing a Device Object</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
  
 
  

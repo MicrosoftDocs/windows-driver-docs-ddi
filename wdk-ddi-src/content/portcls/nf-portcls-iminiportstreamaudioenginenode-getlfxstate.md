@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2810D8B3-DDB7-4B55-839B-B2D079BDC0FC
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode::GetLfxState, GetLfxState
+ms.keywords: GetLfxState method [Audio Devices], IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices], GetLfxState method, IMiniportStreamAudioEngineNode::GetLfxState, GetLfxState, portcls/IMiniportStreamAudioEngineNode::GetLfxState, IMiniportStreamAudioEngineNode, audio.iminiportstreamaudioenginenode_getlfxstate, GetLfxState method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportStreamAudioEngineNode.GetLfxState
-req.alt-loc: Portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Portcls.h
+apiname: 
+-	IMiniportStreamAudioEngineNode.GetLfxState
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportStreamAudioEngineNode::GetLfxState method
 
 
-
 ## -description
+
+
 Gets the state of the local effects (LFX) node that is in the path of the audio stream.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS GetLfxState(
@@ -54,26 +64,27 @@ NTSTATUS GetLfxState(
 
 ## -parameters
 
+
+
+
 ### -param pbEnable [out]
 
 The current state of the LFX node.
 
 
 ## -returns
+
+
 <b>GetLfxState</b> returns S_OK, if the call was successful. Otherwise, the method returns an appropriate error 
 
 code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
-</dt>
-</dl>
+
  
 
  

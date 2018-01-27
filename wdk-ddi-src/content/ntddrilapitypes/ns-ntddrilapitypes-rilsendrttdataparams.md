@@ -7,8 +7,8 @@ old-location: netvista\rilsendrttdataparams.htm
 old-project: netvista
 ms.assetid: 733b8ccc-5335-4c7e-bfc0-4618b0b3a4d8
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSENDRTTDATAPARAMS, *LPRILSENDRTTDATAPARAMS, RILSENDRTTDATAPARAMS
+ms.date: 1/18/2018
+ms.keywords: RILSENDRTTDATAPARAMS structure [Network Drivers Starting with Windows Vista], RILSENDRTTDATAPARAMS, netvista.rilsendrttdataparams, ntddrilapitypes/RILSENDRTTDATAPARAMS, *LPRILSENDRTTDATAPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSENDRTTDATAPARAMS
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILSENDRTTDATAPARAMS, RILSENDRTTDATAPARAMS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILSENDRTTDATAPARAMS
+product: Windows
+targetos: Windows
+req.typenames: RILSENDRTTDATAPARAMS, *LPRILSENDRTTDATAPARAMS
 ---
 
 # RILSENDRTTDATAPARAMS structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILSENDRTTDATAPARAMS {
@@ -57,16 +67,21 @@ typedef struct _RILSENDRTTDATAPARAMS {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwID
 
 
+
 ### -field dwExecutor
+
 
 
 ### -field wszRTTText
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 83113D6C-44A1-4022-8101-061DEA9868E1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_COLORTRANSFORMCAPS, DXGK_COLORTRANSFORMCAPS
+ms.keywords: DXGK_COLORTRANSFORMCAPS, PDXGK_COLORTRANSFORMCAPS structure pointer [Display Devices], _DXGK_COLORTRANSFORMCAPS, PDXGK_COLORTRANSFORMCAPS, display.dxgk_colortransformcaps_, DXGK_COLORTRANSFORMCAPS structure [Display Devices], d3dkmddi/DXGK_COLORTRANSFORMCAPS, d3dkmddi/PDXGK_COLORTRANSFORMCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_COLORTRANSFORMCAPS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_COLORTRANSFORMCAPS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_COLORTRANSFORMCAPS
 ---
 
 # _DXGK_COLORTRANSFORMCAPS structure
 
 
-
 ## -description
+
+
 This structure replaces the DXGK_GAMMARAMPCAPS structure in the DXGK_DRIVERCAPS structure to describe both the gamma and color transform capabilities of the display pipelines.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_COLORTRANSFORMCAPS  {
@@ -63,6 +73,9 @@ typedef struct _DXGK_COLORTRANSFORMCAPS  {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Gamma_Rgb256x3x16
 
@@ -100,5 +113,3 @@ This value is reserved for system use.
 
 The combined UINT value.
 
-
-## -remarks

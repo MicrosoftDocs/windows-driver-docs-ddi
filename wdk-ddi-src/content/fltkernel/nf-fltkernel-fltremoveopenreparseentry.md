@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: FD8C3A32-E578-47E9-9B2A-E1809D62F7B8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltRemoveOpenReparseEntry
+ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], fltkernel/FltAddOpenReparseEntry, ifsk.fltremoveopenreparseentry, FltRemoveOpenReparseEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1607
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltAddOpenReparseEntry
-req.alt-loc: fltKernel.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,17 +26,29 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: _IRQL_requires_max_(APC_LEVEL)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	fltKernel.h
+apiname: 
+-	FltAddOpenReparseEntry
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltRemoveOpenReparseEntry function
 
 
-
 ## -description
+
+
 This routine removes an <a href="..\ntifs\ns-ntifs-_open_reparse_list_entry.md">OPEN_REPARSE_LIST_ENTRY</a> structure (added by <a href="..\fltkernel\nf-fltkernel-fltaddopenreparseentry.md">FltAddOpenReparseEntry</a>) from a create operation.
 
 
@@ -47,8 +57,8 @@ This routine removes an <a href="..\ntifs\ns-ntifs-_open_reparse_list_entry.md">
 
 
 
-
 ## -syntax
+
 
 ````
 void FltAddOpenReparseEntry(
@@ -60,6 +70,9 @@ void FltAddOpenReparseEntry(
 
 
 ## -parameters
+
+
+
 
 ### -param Filter [in]
 
@@ -78,7 +91,8 @@ The open reparse information to remove, of type <a href="..\ntifs\ns-ntifs-_open
 
 
 ## -returns
+
+
 This routine does not return a value.
 
 
-## -remarks

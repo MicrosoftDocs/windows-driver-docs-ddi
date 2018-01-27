@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 66c35c60-9f6c-44d7-b6d5-9d50a3e33c2e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_SETMATERIAL, D3DDDIARG_SETMATERIAL
+ms.keywords: UMDisplayDriver_param_Structs_5a3ecda9-5303-46f4-b7a2-42243e3a66d1.xml, d3dumddi/D3DDDIARG_SETMATERIAL, _D3DDDIARG_SETMATERIAL, D3DDDIARG_SETMATERIAL structure [Display Devices], D3DDDIARG_SETMATERIAL, display.d3dddiarg_setmaterial
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_SETMATERIAL
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_SETMATERIAL
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_SETMATERIAL
 ---
 
 # _D3DDDIARG_SETMATERIAL structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_SETMATERIAL structure describes the material properties that are used for rendering. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_SETMATERIAL {
@@ -57,6 +67,9 @@ typedef struct _D3DDDIARG_SETMATERIAL {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Diffuse
 
@@ -83,15 +96,10 @@ typedef struct _D3DDDIARG_SETMATERIAL {
 [in] A FLOAT value that indicates the sharpness of specular highlights. To turn off specular highlights for a material, set <b>Power</b> to 0 (setting <b>Specular</b> to 0 is not enough).
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmaterial.md">SetMaterial</a>
-</dt>
-</dl>
+
  
 
  

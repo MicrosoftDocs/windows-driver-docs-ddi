@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5baa7fd0-e806-4da8-9c87-c86ebc003e60
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS, TAPE_WRITE_MARKS
+ms.keywords: PTAPE_WRITE_MARKS, _TAPE_WRITE_MARKS, TAPE_WRITE_MARKS, ntddtape/PTAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS, structs-tape_18332ea5-6bfb-4acf-8c84-0a77ded0cc72.xml, TAPE_WRITE_MARKS structure [Storage Devices], storage.tape_write_marks, PTAPE_WRITE_MARKS structure pointer [Storage Devices], ntddtape/TAPE_WRITE_MARKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TAPE_WRITE_MARKS
-req.alt-loc: ntddtape.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PTAPE_WRITE_MARKS, TAPE_WRITE_MARKS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddtape.h
+apiname: 
+-	TAPE_WRITE_MARKS
+product: Windows
+targetos: Windows
+req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ---
 
 # _TAPE_WRITE_MARKS structure
 
 
-
 ## -description
+
+
 The TAPE_WRITE_MARKS structure is used in conjunction with an <a href="..\ntddtape\ni-ntddtape-ioctl_tape_write_marks.md">IOCTL_TAPE_WRITE_MARKS</a> request to write a setmark, a filemark, a short filemark, or a long filemark to tape. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _TAPE_WRITE_MARKS {
@@ -56,10 +66,12 @@ typedef struct _TAPE_WRITE_MARKS {
 
 ## -struct-fields
 
+
+
+
 ### -field Type
 
 Indicates the type of mark to write. This member can have one of the following values: 
-
 <table>
 <tr>
 <th>Type</th>
@@ -105,8 +117,7 @@ Writes the number of long filemarks specified by <b>Count</b>.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Count
@@ -119,18 +130,12 @@ Indicates the number of marks to write.
 When set to <b>TRUE</b>, indicates that the target device should return status immediately. When set to <b>FALSE</b>, indicates that the device should return status after the operation is complete.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddtape\ni-ntddtape-ioctl_tape_write_marks.md">IOCTL_TAPE_WRITE_MARKS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567958">TapeMiniWriteMarks</a>
-</dt>
-</dl>
+
  
 
  

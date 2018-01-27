@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 259d01a5-d975-48f9-b0cf-4596d12046bc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortWriteRegisterUchar
+ms.keywords: VideoPortWriteRegisterUchar function [Display Devices], display.videoportwriteregisteruchar, VideoPort_Functions_b06fef25-2c8e-457f-9f6a-0f58573ac860.xml, VideoPortWriteRegisterUchar, video/VideoPortWriteRegisterUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortWriteRegisterUchar
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortWriteRegisterUchar
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortWriteRegisterUchar function
 
 
-
 ## -description
+
+
 The <b>VideoPortWriteRegisterUchar</b> function writes a byte to a mapped register.
 
 
-
 ## -syntax
+
 
 ````
 VOID VideoPortWriteRegisterUchar(
@@ -56,32 +66,39 @@ VOID VideoPortWriteRegisterUchar(
 
 ## -parameters
 
-### -param Register 
+
+
+
+### -param Register
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
 
-### -param Value 
+### -param Value
 
 Specifies a byte to be transferred to the adapter.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortWriteRegisterUchar</b>.
 
 Callers of <b>VideoPortWriteRegisterUchar</b> can be running at any IRQL, provided that the memory pointed to by the <i>Register</i> parameter is resident, mapped device memory.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-</dt>
-</dl>
+
  
 
  

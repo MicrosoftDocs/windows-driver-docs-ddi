@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: E140D097-EE2F-4179-A43D-570397459762
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _TOPOLOGY_MAP, TOPOLOGY_MAP, *PTOPOLOGY_MAP
+ms.keywords: IEEE.pcmp_monitor_routine, CmpMonitorRoutine callback function [Buses], CmpMonitorRoutine, PCMP_MONITOR_ROUTINE, PCMP_MONITOR_ROUTINE, 61883/CmpMonitorRoutine, CmpMonitorRoutine callback function [Buses], CmpMonitorRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CmpMonitorRoutine
-req.alt-loc: 61883.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	61883.h
+apiname: 
+-	CmpMonitorRoutine
+product: Windows
+targetos: Windows
+req.typenames: *PTOPOLOGY_MAP, TOPOLOGY_MAP
 ---
 
 # PCMP_MONITOR_ROUTINE callback
 
 
-
 ## -description
+
+
 This routine is called for plug monitoring.
 
 
-
 ## -prototype
+
 
 ````
 PCMP_MONITOR_ROUTINE CmpMonitorRoutine;
@@ -59,24 +69,25 @@ typedef PCMP_MONITOR_ROUTINE CmpMonitorRoutine;
 
 ## -parameters
 
+
+
+
 ### -param MonitorInfo [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537050">CMP_MONITOR_INFO</a> structure containing the contents of the plug that was modified. 
 
 
 ## -returns
+
+
 This callback does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5AF55FED-6FD6-41BE-A743-1E9D0EA51C9C
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.pfnupdatesubresourceup, pfnUpdateSubresourceUP callback function [Display Devices], pfnUpdateSubresourceUP, PFND3DDDI_UPDATESUBRESOURCEUP, PFND3DDDI_UPDATESUBRESOURCEUP, d3dumddi/pfnUpdateSubresourceUP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnUpdateSubresourceUP
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	pfnUpdateSubresourceUP
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_UPDATESUBRESOURCEUP callback
 
 
-
 ## -description
+
+
 Called by the Microsoft Direct3D runtime to update a destination subresource region from a source system-memory region. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_UPDATESUBRESOURCEUP pfnUpdateSubresourceUP;
@@ -58,6 +68,9 @@ _Check_return_ HRESULT APIENTRY* pfnUpdateSubresourceUP(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
 A handle to the display device (graphics context).
@@ -65,24 +78,29 @@ A handle to the display device (graphics context).
 
 
 
-### -param pCounterInfo [in]
+### -param *
+
+
+
+
+
+
+#### - pCounterInfo [in]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_updatesubresourceup.md">D3DDDIARG_UPDATESUBRESOURCEUP</a> structure that describes how to update a destination subresource region from a source system-memory region.
 
 
 ## -returns
+
+
 If this routine succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_updatesubresourceup.md">D3DDDIARG_UPDATESUBRESOURCEUP</a>
-</dt>
-</dl>
+
  
 
  

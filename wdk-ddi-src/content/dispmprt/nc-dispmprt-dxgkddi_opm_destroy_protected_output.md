@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a03381ba-342e-409f-99ab-9790e1d74371
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+ms.keywords: display.dxgkddiopmdestroyprotectedoutput, DxgkDdiOPMDestroyProtectedOutput callback function [Display Devices], DxgkDdiOPMDestroyProtectedOutput, DXGKDDI_OPM_DESTROY_PROTECTED_OUTPUT, DXGKDDI_OPM_DESTROY_PROTECTED_OUTPUT, dispmprt/DxgkDdiOPMDestroyProtectedOutput, Dm_Opm_functions_e744a9ff-d14b-4cef-aed6-4dba714dc695.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiOPMDestroyProtectedOutput
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DxgkDdiOPMDestroyProtectedOutput
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_OPM_DESTROY_PROTECTED_OUTPUT callback
 
 
-
 ## -description
+
+
 The <i>DxgkDdiOPMDestroyProtectedOutput</i> function destroys the given protected output object.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_OPM_DESTROY_PROTECTED_OUTPUT DxgkDdiOPMDestroyProtectedOutput;
@@ -58,6 +68,9 @@ NTSTATUS DxgkDdiOPMDestroyProtectedOutput(
 
 ## -parameters
 
+
+
+
 ### -param MiniportDeviceContext [in]
 
 A handle to a context block associated with a display adapter. Previously, the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function provided this handle to the DirectX graphics kernel subsystem.
@@ -69,24 +82,27 @@ The handle to a protected output object. The <a href="..\dispmprt\nc-dispmprt-dx
 
 
 ## -returns
+
+
 <i>DxgkDdiOPMDestroyProtectedOutput</i> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes that are defined in <i>Ntstatus.h</i>. 
+<div class="alert"><b>Note</b>  <i>DxgkDdiOPMDestroyProtectedOutput</i> cannot fail if the ProtectedOutputHandle parameter contains a valid protected output handle. </div><div> </div>
 
 
 ## -remarks
+
+
 The DirectX graphics kernel subsystem calls <i>DxgkDdiOPMDestroyProtectedOutput</i> when it finishes using the protected output object.
 
 <i>DxgkDdiOPMDestroyProtectedOutput</i> should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a>
-</dt>
-</dl>
+
  
 
  

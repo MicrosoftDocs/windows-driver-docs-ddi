@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 58ed8f04-616f-4eea-b6e1-07f322c37dbb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_CURSOR_SHAPE_INFO,
+ms.keywords: IDDCX_CURSOR_SHAPE_INFO, IDDCX_CURSOR_SHAPE_INFO structure [Display Devices], iddcx/IDDCX_CURSOR_SHAPE_INFO, display.iddcx_cursor_shape_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDDCX_CURSOR_SHAPE_INFO
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDDCX_CURSOR_SHAPE_INFO
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDDCX_CURSOR_SHAPE_INFO structure
 
 
-
 ## -description
+
+
 Gives information about the shape of the cursor.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDDCX_CURSOR_SHAPE_INFO {
@@ -60,6 +70,9 @@ typedef struct IDDCX_CURSOR_SHAPE_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -116,5 +129,3 @@ typedef struct IDDCX_CURSOR_SHAPE_INFO {
                      Y position of the cursor hotspot relative to the top-left of the cursor.
                  
 
-
-## -remarks

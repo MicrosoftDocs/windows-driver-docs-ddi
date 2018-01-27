@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 646378f8-9037-4c40-bcbc-5ffe380e6279
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _GetPersistentBinding2_IN, GetPersistentBinding2_IN, *PGetPersistentBinding2_IN
+ms.keywords: structs-Fibre_3be7645f-006d-4a32-9739-d97e632edf58.xml, PGetPersistentBinding2_IN structure pointer [Storage Devices], PGetPersistentBinding2_IN, hbapiwmi/GetPersistentBinding2_IN, _GetPersistentBinding2_IN, storage.getpersistentbinding2_in, *PGetPersistentBinding2_IN, GetPersistentBinding2_IN structure [Storage Devices], GetPersistentBinding2_IN, hbapiwmi/PGetPersistentBinding2_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GetPersistentBinding2_IN
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	GetPersistentBinding2_IN
+product: Windows
+targetos: Windows
 req.typenames: GetPersistentBinding2_IN, *PGetPersistentBinding2_IN
 ---
 
 # _GetPersistentBinding2_IN structure
 
 
-
 ## -description
+
+
 The GetPersistentBinding2_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554959">GetPersistentBinding2</a> WMI method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GetPersistentBinding2_IN {
@@ -54,6 +64,9 @@ typedef struct _GetPersistentBinding2_IN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PortWWN
 
@@ -66,15 +79,16 @@ Indicates the number of binding entries that the WMI provider can report.
 
 
 ## -remarks
+
+
 The WMI tool suite generates a declaration of the GetPersistentBinding2_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554959">GetPersistentBinding2</a>
-</dt>
-</dl>
+
  
 
  

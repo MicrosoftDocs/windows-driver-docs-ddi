@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3CE49C9F-EFFC-4F43-A939-623B28FD5EFB
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIBOX, D3DDDIBOX
+ms.keywords: display.d3dddibox, d3dumddi/D3DDDIBOX, _D3DDDIBOX, D3DDDIBOX, D3DDDIBOX structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIBOX
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	D3DDDIBOX
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIBOX
 ---
 
 # _D3DDDIBOX structure
 
 
-
 ## -description
+
+
 Describes the bounds of a volume texture.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIBOX {
@@ -58,6 +68,9 @@ typedef struct _D3DDDIBOX {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Left
 
@@ -91,8 +104,12 @@ typedef struct _D3DDDIBOX {
 
 
 ## -remarks
+
+
 The height of the volume equals the value in the <b>Bottom</b> member minus the value in the <b>Top</b> member (that is, height = bottom – top). 
 
 The width of the volume equals the value in the <b>Right</b> member minus the value in the <b>Left</b> member (that is, width = right – left). 
 
-The depth of the volume equals the value in the <b>Back</b> member minus the value in the <b>Front</b> member (that is, depth = back – front). </p>
+The depth of the volume equals the value in the <b>Back</b> member minus the value in the <b>Front</b> member (that is, depth = back – front). 
+
+

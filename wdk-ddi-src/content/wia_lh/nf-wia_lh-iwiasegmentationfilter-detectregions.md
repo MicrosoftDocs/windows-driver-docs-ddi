@@ -7,8 +7,8 @@ old-location: image\iwiasegmentationfilter_detectregions.htm
 old-project: image
 ms.assetid: 53ad769e-38b5-463d-9fa0-053c2215cc81
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: IWiaSegmentationFilter, IWiaSegmentationFilter::DetectRegions, DetectRegions
+ms.date: 1/18/2018
+ms.keywords: IWiaSegmentationFilter::DetectRegions, DetectRegions method [Imaging Devices], IWiaSegmentationFilter, wia_lh/IWiaSegmentationFilter::DetectRegions, DetectRegions, image.iwiasegmentationfilter_detectregions, iwiasegmentationfilter_d819daf8-a36c-448c-a566-bb3c864cea40.xml, IWiaSegmentationFilter interface [Imaging Devices], DetectRegions method, DetectRegions method [Imaging Devices], IWiaSegmentationFilter interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IWiaSegmentationFilter.DetectRegions
-req.alt-loc: wia_lh.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wia_lh.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	wia_lh.h
+apiname: 
+-	IWiaSegmentationFilter.DetectRegions
+product: Windows
+targetos: Windows
 req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IWiaSegmentationFilter::DetectRegions method
 
 
-
 ## -description
+
+
 The <b>IWiaSegmentationFilter::DetectRegions</b> method determines the subregions of an image laid out on the flatbed platen so that each subregion can be acquired into a separate image item.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT DetectRegions(
@@ -57,12 +67,15 @@ HRESULT DetectRegions(
 
 ## -parameters
 
+
+
+
 ### -param lFlags [in]
 
 Currently unused. Should be set to zero. 
 
 
-### -param pInputStream  [in, optional]
+### -param pInputStream [in, optional]
 
 Specifies a pointer to the <b>IStream</b> preview image.
 
@@ -73,10 +86,15 @@ Specifies a pointer to the <b>IWiaItem2</b> item for which <i>pInputStream</i> w
 
 
 ## -returns
+
+
 Returns S_OK if successful, or a standard COM error value otherwise. 
 
 
+
 ## -remarks
+
+
 This method determines the subregions of the image represented by <i>pInputStream</i>. For each subregion that it detects, it creates a child item for the <b>IWiaItem2</b> item pointed to by the <i>pWiaItem2</i> parameter. For each child item, the segmentation filter must set values for the bounding rectangle of the area to scan, using the following WIA scanner item properties: 
 
 
@@ -103,4 +121,6 @@ If an application changes any properties into <i>pWiaItem2</i>, between acquirin
 
 The application must reset the <b>IStream </b>preview if its call passes the same stream into the segmentation filter more than once. The application must also reset the stream after the initial download and before calling <b>IWiaSegmentationFilter::DetectRegions</b>.
 
-The <b>IStream,IWiaItem2</b> and <b>IWiaPropertyStorage </b>interfaces are described in the Microsoft Windows SDK documentation.</p>
+The <b>IStream,IWiaItem2</b> and <b>IWiaPropertyStorage </b>interfaces are described in the Microsoft Windows SDK documentation.
+
+

@@ -7,8 +7,8 @@ old-location: netvista\netdmaregisterprovider.htm
 old-project: netvista
 ms.assetid: 35d70d0b-c1b9-433f-941d-6cb61ddf0b62
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NetDmaRegisterProvider
+ms.date: 1/18/2018
+ms.keywords: netdma/NetDmaRegisterProvider, NetDmaRegisterProvider, NetDmaRegisterProvider function [Network Drivers Starting with Windows Vista], netdma_ref_5267288c-9502-40f7-9af1-557babf3f840.xml, netvista.netdmaregisterprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NetDMA 1.0 drivers in Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NetDmaRegisterProvider
-req.alt-loc: netdma.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,19 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	netdma.h
+apiname: 
+-	NetDmaRegisterProvider
+product: Windows
+targetos: Windows
 req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
 ---
 
 # NetDmaRegisterProvider function
 
 
-
 ## -description
 
+
+<div class="alert"><b>Note</b>  The NetDMA interface is not supported 
+
+in Windows 8 and later.</div><div> </div>The 
+  <b>NetDmaRegisterProvider</b> function registers a DMA provider.
+
+
 ## -syntax
+
 
 ````
 NTSTATUS NetDmaRegisterProvider(
@@ -52,6 +68,9 @@ NTSTATUS NetDmaRegisterProvider(
 
 
 ## -parameters
+
+
+
 
 ### -param ProviderContext [in]
 
@@ -71,27 +90,60 @@ A pointer to a value that is a handle that
 ### -param ProviderCharacteristics [in]
 
 A pointer to a 
-     <a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
-     NET_DMA_PROVIDER_CHARACTERISTICS</a> structure that defines the characteristics of the DMA
+     <mshelp:link keywords="netvista.net_dma_provider_characteristics" tabindex="0"><b>
+     NET_DMA_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure that defines the characteristics of the DMA
      provider.
 
 
 ## -returns
+
+
 <b>NetDmaRegisterProvider</b> can return one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The operation completed successfully.
+</dl>
+</td>
+<td width="60%">
+The operation completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_RESOURCES</b></dt>
-</dl>The operation failed because of insufficient resources.
+</dl>
+</td>
+<td width="60%">
+The operation failed because of insufficient resources.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>The operation failed for unspecified reasons.
+</dl>
+</td>
+<td width="60%">
+The operation failed for unspecified reasons.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 DMA provider drivers call the 
     <b>NetDmaRegisterProvider</b> function to register a DMA provider. DMA provider drivers call 
     <b>NetDmaRegisterProvider</b> in their 
@@ -104,8 +156,8 @@ In the
     <b>NetDmaRegisterProvider</b> to register the associated DMA provider.
 
 The DMA provider driver supplies a 
-    <a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
-    NET_DMA_PROVIDER_CHARACTERISTICS</a> structure at the 
+    <mshelp:link keywords="netvista.net_dma_provider_characteristics" tabindex="0"><b>
+    NET_DMA_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure at the 
     <i>ProviderCharacteristics</i> parameter of 
     <b>NetDmaRegisterProvider</b>. The NET_DMA_PROVIDER_CHARACTERISTICS structure specifies the
     characteristics for a NetDMA provider, including the entry points for the 
@@ -125,14 +177,14 @@ When
 
 If a computer supports MSI-X, the NetDMA interface, while in the context of the 
     <b>NetDmaRegisterProvider</b> function, calls the DMA provider driver's 
-    <a href="..\netdma\nc-netdma-dma_channels_cpu_affinity_handler.md">
-    ProviderSetDmaChannelCpuAffinity</a> function to specify the CPU affinity of the interrupt for each DMA
+    <mshelp:link keywords="netvista.providersetdmachannelcpuaffinity" tabindex="0"><b>
+    ProviderSetDmaChannelCpuAffinity</b></mshelp:link> function to specify the CPU affinity of the interrupt for each DMA
     channel.
 
 If a computer supports MSI-X, the DMA provider driver can specify interrupt affinities while handling
     the 
-    <a href="https://msdn.microsoft.com/f43dc60e-de88-4af0-ad83-3ce3a414d880">
-    IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a> IRP. After the 
+    <mshelp:link keywords="kernel.irp_mn_filter_resource_requirements" tabindex="0"><b>
+    IRP_MN_FILTER_RESOURCE_REQUIREMENTS</b></mshelp:link> IRP. After the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine successfully returns, the Plug
     and Play (PnP) manager sends the IRP_MN_FILTER_RESOURCE_REQUIREMENTS IRP for the DMA provider. The DMA
     provider driver must attempt to allocate MSI-X interrupt resources according to affinity parameters that
@@ -140,37 +192,31 @@ If a computer supports MSI-X, the DMA provider driver can specify interrupt affi
     <i>ProviderSetDmaChannelCpuAffinity</i>.
 
 To deregister a DMA provider, a DMA provider driver calls the 
-    <a href="..\netdma\nf-netdma-netdmaderegisterprovider.md">
-    NetDmaDeregisterProvider</a> function.
+    <mshelp:link keywords="netvista.netdmaderegisterprovider" tabindex="0"><b>
+    NetDmaDeregisterProvider</b></mshelp:link> function.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.providersetdmachannelcpuaffinity" tabindex="0"><b>
+   ProviderSetDmaChannelCpuAffinity</b></mshelp:link>
+
+<mshelp:link keywords="kernel.irp_mn_filter_resource_requirements" tabindex="0"><b>
+   IRP_MN_FILTER_RESOURCE_REQUIREMENTS</b></mshelp:link>
+
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/f43dc60e-de88-4af0-ad83-3ce3a414d880">
-   IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
-</dt>
-<dt>
-<a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
-   NET_DMA_PROVIDER_CHARACTERISTICS</a>
-</dt>
-<dt>
+
 <a href="..\netdma\nf-netdma-netdmaderegisterprovider.md">NetDmaDeregisterProvider</a>
-</dt>
-<dt>
-<a href="..\netdma\nc-netdma-dma_channels_cpu_affinity_handler.md">
-   ProviderSetDmaChannelCpuAffinity</a>
-</dt>
-</dl>
- 
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+
+<mshelp:link keywords="netvista.net_dma_provider_characteristics" tabindex="0"><b>
+   NET_DMA_PROVIDER_CHARACTERISTICS</b></mshelp:link>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NetDmaRegisterProvider function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NetDmaRegisterProvider function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

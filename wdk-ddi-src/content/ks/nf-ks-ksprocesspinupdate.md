@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9f6c28ad-d3dd-4be4-a637-10958a9cbd20
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsProcessPinUpdate
+ms.keywords: stream.ksprocesspinupdate, KsProcessPinUpdate, KsProcessPinUpdate function [Streaming Media Devices], ks/KsProcessPinUpdate, avfunc_8f096e7d-7eb1-40c7-bcc9-762e671bb3d4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsProcessPinUpdate
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsProcessPinUpdate
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsProcessPinUpdate function
 
 
-
 ## -description
+
+
 The <b>KsProcessPinUpdate</b> function is called from within a filter-centric filter's <a href="..\ks\nc-ks-pfnksfilterprocess.md">AVStrMiniFilterProcess</a> dispatch to update a process pin.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN KsProcessPinUpdate(
@@ -54,28 +65,34 @@ BOOLEAN KsProcessPinUpdate(
 
 ## -parameters
 
+
+
+
 ### -param ProcessPin [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksprocesspin.md">KSPROCESSPIN</a> structure that represents the process pin to update.
 
 
 ## -returns
+
+
 <b>KsProcessPinUpdate</b> returns <b>TRUE</b> if <i>ProcessPin</i>'s conditions for processing are met; otherwise, it returns <b>FALSE</b>. (These conditions are set in the pin descriptor within the <b>Pin</b> member of <i>ProcessPin</i>.) If the minidriver's dispatch calls this routine while the filter is in the STOP state, <b>KsProcessPinUpdate</b> returns <b>FALSE</b> since no pipe exists.
 
 
+
 ## -remarks
+
+
 For more information, see <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687-ae5e-1550db9500f0">Filter-Centric Processing</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\ns-ks-_ksprocesspin.md">KSPROCESSPIN</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCESSPIN_INDEXENTRY</a>
-</dt>
-</dl>
+
  
 
  

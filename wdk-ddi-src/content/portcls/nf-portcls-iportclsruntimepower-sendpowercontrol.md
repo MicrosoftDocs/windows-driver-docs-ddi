@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 04B8EE71-59F9-4DE4-AD36-846632D3EBB4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortClsRuntimePower, IPortClsRuntimePower::SendPowerControl, SendPowerControl
+ms.keywords: IPortClsRuntimePower::SendPowerControl, IPortClsRuntimePower interface [Audio Devices], SendPowerControl method, SendPowerControl method [Audio Devices], IPortClsRuntimePower interface, audio.iportclsruntimepower_sendpowercontrol, SendPowerControl, portcls/IPortClsRuntimePower::SendPowerControl, SendPowerControl method [Audio Devices], IPortClsRuntimePower
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPortClsRuntimePower.SendPowerControl
-req.alt-loc: Portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Portcls.h
+apiname: 
+-	IPortClsRuntimePower.SendPowerControl
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPortClsRuntimePower::SendPowerControl method
 
 
-
 ## -description
+
+
 The port class driver (PortCls) uses the <code>SendPowerControl</code>  method to send power control codes to the audio adapter.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SendPowerControl(
@@ -60,54 +70,91 @@ NTSTATUS SendPowerControl(
 
 ## -parameters
 
-### -param DeviceObject [in]
-
-The device object.
 
 
-### -param PowerControlCode [in]
 
-The power control code to be sent to the audio adapter.
+### -param _DeviceObject
 
 
-### -param InBuffer [in, optional]
+
+
+### -param _PowerControlCode
+
+
+
+
+### -param _InBuffer
+
+
+
+
+### -param _InBufferSize
+
+
+
+
+### -param _OutBuffer
+
+
+
+
+### -param _OutBufferSize
+
+
+
+
+### -param _BytesReturned
+
+
+
+
+
+#### - InBuffer [in, optional]
 
 The input buffer.
 
 
-### -param InBufferSize [in]
+#### - InBufferSize [in]
 
 The size of the input buffer.
 
 
-### -param OutBuffer [out, optional]
-
-The output buffer.
-
-
-### -param OutBufferSize [in]
+#### - OutBufferSize [in]
 
 The size of the output buffer.
 
 
-### -param BytesReturned [out, optional]
+#### - BytesReturned [out, optional]
 
 The number of bytes returned.
 
 
+#### - OutBuffer [out, optional]
+
+The output buffer.
+
+
+#### - PowerControlCode [in]
+
+The power control code to be sent to the audio adapter.
+
+
+#### - DeviceObject [in]
+
+The device object.
+
+
 ## -returns
+
+
 The <code>SendPowerControl</code> method returns STATUS_SUCCESS, if the call is successful. Otherwise, it returns the appropriate error code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iportclsruntimepower.md">IPortClsRuntimePower</a>
-</dt>
-</dl>
+
  
 
  

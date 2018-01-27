@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 306babe7-393f-4b4a-9d8a-4c973cb3eaa2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SCSI_PASS_THROUGH_DIRECT, *PSCSI_PASS_THROUGH_DIRECT, SCSI_PASS_THROUGH_DIRECT
+ms.keywords: SCSI_PASS_THROUGH_DIRECT, SCSI_PASS_THROUGH_DIRECT structure [Storage Devices], ntddscsi/SCSI_PASS_THROUGH_DIRECT, PSCSI_PASS_THROUGH_DIRECT structure pointer [Storage Devices], ntddscsi/PSCSI_PASS_THROUGH_DIRECT, storage.scsi_pass_through_direct, structs-scsibus_64c46eef-e5bc-4e81-a479-2bdbd93605e7.xml, _SCSI_PASS_THROUGH_DIRECT, *PSCSI_PASS_THROUGH_DIRECT, PSCSI_PASS_THROUGH_DIRECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SCSI_PASS_THROUGH_DIRECT
-req.alt-loc: ntddscsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSCSI_PASS_THROUGH_DIRECT, SCSI_PASS_THROUGH_DIRECT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddscsi.h
+apiname: 
+-	SCSI_PASS_THROUGH_DIRECT
+product: Windows
+targetos: Windows
+req.typenames: SCSI_PASS_THROUGH_DIRECT, *PSCSI_PASS_THROUGH_DIRECT
 ---
 
 # _SCSI_PASS_THROUGH_DIRECT structure
 
 
-
 ## -description
+
+
 The <b>SCSI_PASS_THROUGH_DIRECT</b> structure is used in conjunction with an <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct.md">IOCTL_SCSI_PASS_THROUGH_DIRECT</a> request to instruct the port driver to send an embedded SCSI command to the target device. 
-
-
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 typedef struct _SCSI_PASS_THROUGH_DIRECT {
@@ -65,6 +75,9 @@ typedef struct _SCSI_PASS_THROUGH_DIRECT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Length
 
@@ -104,51 +117,6 @@ Indicates the size in bytes of the request-sense buffer.
 ### -field DataIn
 
 
-### -field Indicates whether the SCSI command will read or write data. This field must have one of three values:
-### -field 
-
-<tr>
-<th>Data Transfer Type</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-SCSI_IOCTL_DATA_IN
-
-</td>
-<td>
-Read data from the device.
-
-</td>
-</tr>
-<tr>
-<td>
-SCSI_IOCTL_DATA_OUT
-
-</td>
-<td>
-Write data to the device.
-
-</td>
-</tr>
-<tr>
-<td>
-SCSI_IOCTL_DATA_UNSPECIFIED
-
-</td>
-<td>
-No data transferred.  
-
-</td>
-</tr>
-</table>
- 
-
-
-
-
-
-</dl>
 
 ### -field DataTransferLength
 
@@ -175,27 +143,57 @@ Contains an offset from the beginning of this structure to the request-sense buf
 Specifies the SCSI command descriptor block to be sent to the target device. 
 
 
+######## - DataIn.Data Transfer Type
+Meaning
+
+
+
+SCSI_IOCTL_DATA_IN
+
+
+Read data from the device.
+
+
+
+
+SCSI_IOCTL_DATA_OUT
+
+
+Write data to the device.
+
+
+
+
+SCSI_IOCTL_DATA_UNSPECIFIED
+
+
+No data transferred.
+
+
+
+###### - DataIn.Indicates whether the SCSI command will read or write data. This field must have one of three values:
+
+
+
 ## -remarks
+
+
 The SCSI_PASS_THROUGH_DIRECT structure is used with <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct.md">IOCTL_SCSI_PASS_THROUGH_DIRECT</a>. With this request, the system locks down the buffer in user memory and the device accesses this memory directly. For a double-buffered equivalent of this device control request see <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a> and <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a>.
 
 The members of SCSI_PASS_THROUGH_DIRECT correspond roughly to the members of a <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> structure. The values of the <b>DataIn</b> member correspond to the SCSI_IOCTL_DATA_IN, SCSI_IOCTL_DATA_OUT, and SCSI_IOCTL_DATA_UNSPECIFIED flags assigned to <b>SrbFlags</b> member of SCSI_REQUEST_BLOCK. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a>
-</dt>
-<dt>
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct.md">IOCTL_SCSI_PASS_THROUGH_DIRECT</a>
-</dt>
-<dt>
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a>
-</dt>
-<dt>
+
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-</dt>
-</dl>
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct.md">IOCTL_SCSI_PASS_THROUGH_DIRECT</a>
+
+<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a>
+
  
 
  

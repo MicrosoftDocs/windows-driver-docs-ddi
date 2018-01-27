@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9dda353d-7c39-4c3c-b9e2-38946d6cc086
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDriver, IWDFDriver::CreateWdfObject, CreateWdfObject
+ms.keywords: CreateWdfObject, UMDFDriverObjectRef_8ab61a3d-78e3-4d92-8a9c-0eff2837f65f.xml, IWDFDriver::CreateWdfObject, CreateWdfObject method, IWDFDriver, wdf.iwdfdriver_createwdfobject, IWDFDriver interface, CreateWdfObject method, wudfddi/IWDFDriver::CreateWdfObject, CreateWdfObject method, IWDFDriver interface, umdf.iwdfdriver_createwdfobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.5
-req.alt-api: IWDFDriver.CreateWdfObject
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFDriver.CreateWdfObject
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IWDFDriver::CreateWdfObject method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CreateWdfObject</b> method creates a custom (or user) WDF object from a parent WDF object.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT CreateWdfObject(
@@ -58,6 +68,9 @@ HRESULT CreateWdfObject(
 
 
 ## -parameters
+
+
+
 
 ### -param pCallbackInterface [in, optional]
 
@@ -75,10 +88,15 @@ A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudf
 
 
 ## -returns
+
+
 <b>CreateWdfObject</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
+
 ## -remarks
+
+
 The driver can call <b>CreateWdfObject</b> to create a general <a href="https://msdn.microsoft.com/9d400192-faf0-4d8f-849b-6b955105e21a">framework base object</a> for its own use. The driver can associate context memory, assign a parent object, and register an <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a> interface. The framework subsequently calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a> method to clean up the child object. 
 
 If no parent object is specified at the <i>pParentObject</i> parameter, the driver becomes the default parent. Therefore, when the driver object is deleted, the framework cleans up the child object. 
@@ -88,24 +106,19 @@ If a parent object is assigned, the child object is deleted when the parent obje
 If the driver must clean up the child object before the parent object is deleted, the driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a> method. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
-</dt>
-<dt>
-<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a>
-</dt>
-<dt>
+
 <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
-</dt>
-</dl>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
+
+<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a>
+
  
 
  

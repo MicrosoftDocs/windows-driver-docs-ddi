@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 12b92834-dcab-4723-91e5-9b7ab0bdd719
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_VIDEODECODER_STATUS_S, KSPROPERTY_VIDEODECODER_STATUS_S, *PKSPROPERTY_VIDEODECODER_STATUS_S
+ms.keywords: ksmedia/PKSPROPERTY_VIDEODECODER_STATUS_S, *PKSPROPERTY_VIDEODECODER_STATUS_S, KSPROPERTY_VIDEODECODER_STATUS_S structure [Streaming Media Devices], PKSPROPERTY_VIDEODECODER_STATUS_S structure pointer [Streaming Media Devices], KSPROPERTY_VIDEODECODER_STATUS_S, stream.ksproperty_videodecoder_status_s, vidcapstruct_c030337a-0c67-4848-84cb-109367a78e07.xml, ksmedia/KSPROPERTY_VIDEODECODER_STATUS_S, PKSPROPERTY_VIDEODECODER_STATUS_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPROPERTY_VIDEODECODER_STATUS_S
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSPROPERTY_VIDEODECODER_STATUS_S
+product: Windows
+targetos: Windows
 req.typenames: KSPROPERTY_VIDEODECODER_STATUS_S, *PKSPROPERTY_VIDEODECODER_STATUS_S
 ---
 
 # KSPROPERTY_VIDEODECODER_STATUS_S structure
 
 
-
 ## -description
+
+
 The KSPROPERTY_VIDEODECODER_STATUS_S structure describes the present status of a video decoding device, such as number of lines in the incoming analog signal and whether the signal is locked in.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Property
 
@@ -72,18 +85,18 @@ Indicates whether the signal is locked. Zero indicates that the signal is not lo
 
 
 ## -remarks
+
+
 The KSPROPERTY_VIDEODECODER_STATUS_S structure retrieves information about the video decoding process, including the number of lines in the incoming analog video signal.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566060">KSPROPERTY_VIDEODECODER_STATUS</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
  
 
  

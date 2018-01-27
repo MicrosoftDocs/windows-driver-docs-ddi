@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4820dca5-7bbe-425d-9063-54450146f273
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _WRITE_ROTATION, WRITE_ROTATION, *PWRITE_ROTATION
+ms.keywords: storage.ioctl_cdrom_read_toc, IOCTL_CDROM_READ_TOC control code [Storage Devices], IOCTL_CDROM_READ_TOC, ntddcdrm/IOCTL_CDROM_READ_TOC, k307_8e0f2b70-edd0-424e-abb4-a81ea9f382fe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Obsolete, beginning with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_CDROM_READ_TOC
-req.alt-loc: ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,67 +29,95 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdrm.h
+apiname: 
+-	IOCTL_CDROM_READ_TOC
+product: Windows
+targetos: Windows
 req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
 
 # IOCTL_CDROM_READ_TOC IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 Returns the table of contents of the media.  Obsolete, beginning with Windows Vista.
 
-
-
-Returns the table of contents of the media.  Obsolete, beginning with Windows Vista.
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 Input buffer.
 
 
 ### -input-buffer-length
+
 <i>
        Parameters.DeviceIoControl.OutputBufferLength</i> in the I/O stack location indicates the size, in bytes, of the buffer, which must be greater than or equal to  <b>sizeof</b>(CDROM_TOC).
 
 
 ### -output-buffer
+
 The driver returns the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a> data in the buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>.
 
 
 ### -output-buffer-length
+
 Length of a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a>.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Information</b> field is set to the number of bytes returned. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_BUFFER_TOO_SMALL, STATUS_NO_MEDIA_IN_DEVICE, STATUS_DEVICE_NOT_READY, STATUS_IO_TIMEOUT, STATUS_IO_DEVICE_ERROR, STATUS_DEVICE_BUSY, or STATUS_VERIFY_REQUIRED.
 
 
 ## -remarks
+
+
 Beginning with Windows Vista, CDROM class drivers do not use this IOCTL. Prior to Windows Vista, this IOCTL was used for audio playback on older CD-ROM drives that supported direct audio output in hardware.
 
 Client applications should use the <i>Media Control Interface (MCI) API</i> rather than issuing this IOCTL.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 1d45465c-21ee-423c-967a-4462b61c2f0e
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1
+ms.keywords: bltooth.ioctl_bth_sdp_disconnect, IOCTL_BTH_SDP_DISCONNECT control code [Bluetooth Devices], IOCTL_BTH_SDP_DISCONNECT, bthioctl/IOCTL_BTH_SDP_DISCONNECT, bth_ioctls_6cff5fc3-aff6-4e9b-8192-c6cd7c8f5fea.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_BTH_SDP_DISCONNECT
-req.alt-loc: Bthioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,26 +29,44 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bthioctl.h
+apiname: 
+-	IOCTL_BTH_SDP_DISCONNECT
+product: Windows
+targetos: Windows
 req.typenames: *PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1
 ---
 
 # IOCTL_BTH_SDP_DISCONNECT IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 The IOCTL_BTH_SDP_DISCONNECT request closes a connection to a remote SDP server.
 
-
-
-The IOCTL_BTH_SDP_DISCONNECT request closes a connection to a remote SDP server.
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 The 
       <b>AssociatedIrp.SystemBuffer</b> member contains an 
       <a href="..\bthioctl\ns-bthioctl-_bth_sdp_disconnect.md">BTH_SDP_DISCONNECT</a> structure that
@@ -58,65 +74,96 @@ The
 
 
 ### -input-buffer-length
+
 Length of an 
       <a href="..\bthioctl\ns-bthioctl-_bth_sdp_disconnect.md">BTH_SDP_DISCONNECT</a> structure.
 
 
 ### -output-buffer
+
 None.
 
 
 ### -output-buffer-length
+
 None.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The 
       <b>Information</b> member of the STATUS_BLOCK structure is set to zero.
 
 The 
       <b>Status</b> member is set to one of the values in the following table.
-
+<table>
+<tr>
+<th>Status value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
 STATUS_SUCCESS
 
+</td>
+<td>
 The IOCTL completed successfully.
 
+</td>
+</tr>
+<tr>
+<td>
 STATUS_DEVICE_NOT_CONNECTED
 
+</td>
+<td>
 The specified SDP server has already been disconnected.
 
+</td>
+</tr>
+<tr>
+<td>
 STATUS_INVALID_PARAMETER
 
+</td>
+<td>
 The connection handle passed in the input buffer is invalid.
 
- 
+</td>
+</tr>
+</table> 
 
 
 ## -remarks
+
+
 Callers of 
     <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a> must issue an
     IOCTL_BTH_SDP_DISCONNECT IOCTL when the SDP connection is no longer needed. After
     IOCTL_BTH_SDP_DISCONNECT is called, the specified SDP handle is no longer valid.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthioctl\ns-bthioctl-_bth_sdp_disconnect.md">BTH_SDP_DISCONNECT</a>
-</dt>
-<dt>
+
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
-</dt>
-</dl>
+
  
 
  

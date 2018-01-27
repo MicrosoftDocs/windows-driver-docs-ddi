@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4b7aac38-ab29-4cac-a7f0-896423b17400
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetMediaType
+ms.keywords: KsGetMediaType, ksproxy/KsGetMediaType, stream.ksgetmediatype, ksproxy_6472bffc-0280-4954-80f5-7e2ae2b2f49b.xml, KsGetMediaType function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsGetMediaType
-req.alt-loc: Ksproxy.lib,Ksproxy.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ksproxy.lib
+-	Ksproxy.dll
+apiname: 
+-	KsGetMediaType
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # KsGetMediaType function
 
 
-
 ## -description
+
+
 The <b>KsGetMediaType</b> function retrieves information about a media type on a pin factory identifier. 
 
 
-
 ## -syntax
+
 
 ````
 HRESULT KsGetMediaType(
@@ -56,6 +67,9 @@ HRESULT KsGetMediaType(
 
 
 ## -parameters
+
+
+
 
 ### -param Position [in]
 
@@ -78,21 +92,25 @@ Identifier of the pin factory against which the information for a media type is 
 
 
 ## -returns
+
+
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
+
 ## -remarks
+
+
 The <b>KsGetMediaType</b> function queries the list of data ranges and performs a data intersection on the specified data range, thus producing a data format. It then converts that data format to a media type.
 
 For more information about AM_MEDIA_TYPE, see the Microsoft Windows SDK documentation.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksproxy\nn-ksproxy-ikspinfactory.md">IKsPinFactory</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 5ED8DC18-75B8-40EB-B7D2-6F8597BCEBF9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED
+ms.keywords: spb/SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED, SPB.spb_transfer_list_entry_init_non_paged, SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED, SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED
-req.alt-loc: Spb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any IRQL
-req.typenames: SPB_TRANSFER_DIRECTION, *PSPB_TRANSFER_DIRECTION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Spb.h
+apiname: 
+-	SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED
+product: Windows
+targetos: Windows
+req.typenames: *PSPB_TRANSFER_DIRECTION, SPB_TRANSFER_DIRECTION
 req.product: Windows 10 or later.
 ---
 
 # SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function
 
 
-
 ## -description
+
+
 The <b>SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED</b> function returns an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a> structure that is initialized to describe a simple data buffer in nonpaged memory.
 
 
-
 ## -syntax
+
 
 ````
 SPB_TRANSFER_LIST_ENTRY SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED(
@@ -57,6 +67,9 @@ SPB_TRANSFER_LIST_ENTRY SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED(
 
 
 ## -parameters
+
+
+
 
 ### -param Direction [in]
 
@@ -79,27 +92,29 @@ The size, in bytes, of the buffer pointed to by <i>Buffer</i>. The function writ
 
 
 ## -returns
+
+
 <b>SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED</b> returns an initialized <b>SPB_TRANSFER_LIST_ENTRY</b> structure.
 
 
+
 ## -remarks
+
+
 This initialization function returns an unnamed local variable of type <b>SPB_TRANSFER_LIST_ENTRY</b>. The storage for this variable is allocated in the caller's stack frame and is valid while the stack frame remains in scope.
 
 <b>SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED</b> sets the <b>Buffer.Format</b> member of the  <b>SPB_TRANSFER_LIST_ENTRY</b> structure to <b>SpbTransferBufferFormatSimpleNonPaged</b>. For more information about buffer formats, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh406216">SPB_TRANSFER_BUFFER_FORMAT</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406217">SPB_TRANSFER_BUFFER_LIST_ENTRY</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406216">SPB_TRANSFER_BUFFER_FORMAT</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406216">SPB_TRANSFER_BUFFER_FORMAT</a>
+
  
 
  

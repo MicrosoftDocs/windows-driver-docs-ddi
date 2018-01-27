@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 7EF129C7-25C3-49D2-8FC5-FFA1C4E77935
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _SERCX_STATUS, SERCX_STATUS, *PSERCX_STATUS
+ms.keywords: 1/SerCxStatusTimeout, serports.sercx_status, *PSERCX_STATUS, SerCxStatusTimeout, SerCxStatusCancelled, 1/SERCX_STATUS, SERCX_STATUS enumeration [Serial Ports], 1/SerCxStatusSuccess, SERCX_STATUS, SerCxStatusSuccess, 1/SerCxStatusCancelled, _SERCX_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SERCX_STATUS
-req.alt-loc: 1.0\Sercx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1.0\Sercx.h
+apiname: 
+-	SERCX_STATUS
+product: Windows
+targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _SERCX_STATUS enumeration
 
 
-
 ## -description
+
+
 The <b>SERCX_STATUS</b> enumeration indicates the status of a serial receive or transmit operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _SERCX_STATUS { 
@@ -56,6 +66,9 @@ typedef enum _SERCX_STATUS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field SerCxStatusSuccess
 
@@ -73,21 +86,20 @@ The operation timed out. This enumeration value applies only to read interval ti
 
 
 ## -remarks
+
+
 The <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a> and <a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a> methods have parameters that are <b>SERCX_STATUS</b> enumeration values.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
-</dt>
-<dt>
-<a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
-</dt>
-<dt>
+
 <a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
-</dt>
-</dl>
+
+<a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
+
  
 
  

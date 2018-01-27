@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d80bcf24-4d53-4ec9-897d-d3243c7fda25
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_OUTPUTDUPLPRESENTFLAGS, D3DKMT_OUTPUTDUPLPRESENTFLAGS
+ms.keywords: D3DKMT_OUTPUTDUPLPRESENTFLAGS structure [Display Devices], _D3DKMT_OUTPUTDUPLPRESENTFLAGS, D3DKMT_OUTPUTDUPLPRESENTFLAGS, d3dkmthk/D3DKMT_OUTPUTDUPLPRESENTFLAGS, display.d3dkmt_outputduplpresentflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_OUTPUTDUPLPRESENTFLAGS
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_OUTPUTDUPLPRESENTFLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_OUTPUTDUPLPRESENTFLAGS
 ---
 
 # _D3DKMT_OUTPUTDUPLPRESENTFLAGS structure
 
 
-
 ## -description
+
+
 Describes options for a <a href="https://msdn.microsoft.com/523FBFAD-5D78-4EE3-A3B7-8FD5BA39DC46">Desktop Duplication API</a> swapchain present operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_OUTPUTDUPLPRESENTFLAGS {
@@ -61,6 +71,9 @@ typedef struct _D3DKMT_OUTPUTDUPLPRESENTFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ProtectedContentBlankedOut
 
@@ -87,6 +100,11 @@ Specifies if the present operation is to the full screen.
 <b>TRUE</b> if the present operation is to the full screen; otherwise, <b>FALSE</b>.
 
 
+### -field PresentIndirect
+
+ 
+
+
 ### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of the 32-bit <b>Value</b> member to zeros.
@@ -98,5 +116,3 @@ This member is reserved and should be set to zero. Setting this member to zero i
 
 A 32-bit value that identifies the DDA present options.
 
-
-## -remarks

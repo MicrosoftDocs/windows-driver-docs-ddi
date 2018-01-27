@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0699dcc3-ab43-436e-b7d3-09898e4d823c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _FEATURE_DATA_TIMEOUT, *PFEATURE_DATA_TIMEOUT, FEATURE_DATA_TIMEOUT
+ms.keywords: *PFEATURE_DATA_TIMEOUT, FEATURE_DATA_TIMEOUT, FEATURE_DATA_TIMEOUT structure [Storage Devices], PFEATURE_DATA_TIMEOUT structure pointer [Storage Devices], _FEATURE_DATA_TIMEOUT, PFEATURE_DATA_TIMEOUT, ntddmmc/FEATURE_DATA_TIMEOUT, storage.feature_data_timeout, ntddmmc/PFEATURE_DATA_TIMEOUT, structs-CD-ROM_2de49c50-b26e-42c0-b637-40f752b59891.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FEATURE_DATA_TIMEOUT
-req.alt-loc: ntddmmc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddmmc.h
+apiname: 
+-	FEATURE_DATA_TIMEOUT
+product: Windows
+targetos: Windows
 req.typenames: *PFEATURE_DATA_TIMEOUT, FEATURE_DATA_TIMEOUT
 ---
 
 # _FEATURE_DATA_TIMEOUT structure
 
 
-
 ## -description
+
+
 The FEATURE_DATA_TIMEOUT structure holds information about the Time-Out feature.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FEATURE_DATA_TIMEOUT {
@@ -58,6 +68,9 @@ typedef struct _FEATURE_DATA_TIMEOUT {
 
 ## -struct-fields
 
+
+
+
 ### -field Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor.
@@ -66,30 +79,34 @@ Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 ### -field Group3
 
 
+
 ### -field Reserved1
+
 
 
 ### -field Reserved2
 
 
+
 ### -field UnitLength
 
 
+
 ## -remarks
+
+
 This structure holds data for the feature named "Time-Out" by the <i>SCSI Multimedia - 4 (MMC-4) </i>specification. Devices that have this feature must respond to commands within a set time period. When these devices cannot complete commands in the allotted time, they complete the commands with an error.
 
 When queried, devices supporting this feature must return the information indicated in <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>. No other feature-specific information is required. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
-</dt>
-</dl>
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
  
 
  

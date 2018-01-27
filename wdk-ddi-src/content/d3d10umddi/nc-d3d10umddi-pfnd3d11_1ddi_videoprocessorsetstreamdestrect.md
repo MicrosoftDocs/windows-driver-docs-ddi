@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 84AD6C4F-A674-4CCC-B2E9-378E3E55EEF3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.videoprocessorsetstreamdestrect, pfnVideoProcessorSetStreamDestRect callback function [Display Devices], pfnVideoProcessorSetStreamDestRect, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMDESTRECT, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMDESTRECT, d3d10umddi/pfnVideoProcessorSetStreamDestRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnVideoProcessorSetStreamDestRect
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	pfnVideoProcessorSetStreamDestRect
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMDESTRECT callback
 
 
-
 ## -description
+
+
 Sets the destination rectangle for an input stream on the video processor.
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMDESTRECT pfnVideoProcessorSetStreamDestRect;
@@ -61,54 +71,81 @@ VOID APIENTRY* pfnVideoProcessorSetStreamDestRect(
 
 ## -parameters
 
-### -param hDevice [in]
-
-A handle to the display device (graphics context). 
 
 
-### -param hVideoProcessor [in]
 
-A handle to the video processor object that was created through a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a> function. 
-
-
-### -param StreamIndex [in]
-
-The zero-based index of the input stream.
+### -param D3D10DDI_HDEVICE
 
 
-### -param Enable [in]
+
+### -param D3D11_1DDI_HVIDEOPROCESSOR
+
+
+
+### -param UINT
+
+
+
+### -param BOOL
+
+
+
+### -param *
+
+
+
+
+
+
+#### - Enable [in]
 
 If <b>TRUE</b>, the destination rectangle specified by the <i>pDestRect</i> parameter should be used by the video processor.
 
 
 
 
-### -param pDestRect [in]
+#### - hDevice [in]
+
+A handle to the display device (graphics context). 
+
+
+#### - hVideoProcessor [in]
+
+A handle to the video processor object that was created through a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a> function. 
+
+
+#### - StreamIndex [in]
+
+The zero-based index of the input stream.
+
+
+#### - pDestRect [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the destination rectangle.
-
-<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is <b>FALSE</b>, this parameter is ignored.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is <b>FALSE</b>, this parameter is ignored.</div><div> </div>
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 The destination rectangle is the portion of the output surface that receives the bit-block transfer (bitblt) for the specified input stream. The destination rectangle is given in pixel coordinates, relative to the output surface.
 
 The default destination rectangle is an empty rectangle (0, 0, 0, 0). If the <i>VideoProcessorSetStreamDestRect</i> function is never called, or if the <i>Enable</i> parameter is <b>FALSE</b>, no data is written from the specified input stream.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-</dt>
-</dl>
+
  
 
  

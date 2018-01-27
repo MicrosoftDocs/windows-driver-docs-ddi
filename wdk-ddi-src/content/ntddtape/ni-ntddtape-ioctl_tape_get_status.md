@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d5e491b8-d40c-4f2c-9117-5c3cb71913f7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _TAPE_DRIVE_PROBLEM_TYPE, TAPE_DRIVE_PROBLEM_TYPE
+ms.keywords: storage.ioctl_tape_get_status, IOCTL_TAPE_GET_STATUS control code [Storage Devices], IOCTL_TAPE_GET_STATUS, ntddtape/IOCTL_TAPE_GET_STATUS, k307_8ab90364-adac-4937-9036-aa28ddeffb19.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_TAPE_GET_STATUS
-req.alt-loc: Ntddtape.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,121 +29,199 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddtape.h
+apiname: 
+-	IOCTL_TAPE_GET_STATUS
+product: Windows
+targetos: Windows
 req.typenames: TAPE_DRIVE_PROBLEM_TYPE
 ---
 
 # IOCTL_TAPE_GET_STATUS IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 Returns the current status of the drive in the <b>Status</b> field of the I/O status block. 
 
-
-
-Returns the current status of the drive in the <b>Status</b> field of the I/O status block. 
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 None.
 
 
 ### -input-buffer-length
+
 None.
 
 
 ### -output-buffer
+
 None.
 
 
 ### -output-buffer-length
+
 None.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
-### -status-block
-I/O Status block
-The <b>Information</b> field is set to zero. The <b>Status</b> field is set to one of the following NT status values: 
 
+
+### -status-block
+
+The <b>Information</b> field is set to zero. The <b>Status</b> field is set to one of the following NT status values: 
+<ul>
+<li>
 STATUS_SUCCESS
 
+</li>
+<li>
 STATUS_INSUFFICIENT_RESOURCES
 
+</li>
+<li>
 STATUS_NOT_IMPLEMENTED
 
+</li>
+<li>
 STATUS_INVALID_DEVICE_REQUEST
 
+</li>
+<li>
 STATUS_INVALID_PARAMETER
 
+</li>
+<li>
 STATUS_VERIFY_REQUIRED
 
+</li>
+<li>
 STATUS_BUS_RESET
 
+</li>
+<li>
 STATUS_SETMARK_DETECTED
 
+</li>
+<li>
 STATUS_FILEMARK_DETECTED
 
+</li>
+<li>
 STATUS_BEGINNING_OF_MEDIA
 
+</li>
+<li>
 STATUS_END_OF_MEDIA
 
+</li>
+<li>
 STATUS_BUFFER_OVERFLOW
 
+</li>
+<li>
 STATUS_NO_DATA_DETECTED
 
+</li>
+<li>
 STATUS_EOM_OVERFLOW
 
+</li>
+<li>
 STATUS_NO_MEDIA
 
+</li>
+<li>
 STATUS_IO_DEVICE_ERROR
 
+</li>
+<li>
 STATUS_UNRECOGNIZED_MEDIA
 
+</li>
+<li>
 STATUS_DEVICE_NOT_READY
 
+</li>
+<li>
 STATUS_MEDIA_WRITE_PROTECTED
 
+</li>
+<li>
 STATUS_DEVICE_DATA_ERROR
 
+</li>
+<li>
 STATUS_NO_SUCH_DEVICE
 
+</li>
+<li>
 STATUS_INVALID_BLOCK_LENGTH
 
+</li>
+<li>
 STATUS_IO_TIMEOUT
 
+</li>
+<li>
 STATUS_DEVICE_NOT_CONNECTED
 
+</li>
+<li>
 STATUS_DATA_OVERRUN
 
+</li>
+<li>
 STATUS_DEVICE_BUSY
 
+</li>
+<li>
 STATUS_DEVICE_REQUIRES_CLEANING
 
+</li>
+<li>
 STATUS_CLEANER_CARTRIDGE_INSTALLED
 
-Each of these NT status values correspond to a value in the <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a> enumerator. For more information about the significance of these values and a mapping between the NT status values and the TAPE_STATUS values, see <a href="https://msdn.microsoft.com/de6edfc6-9b4b-4866-8fdb-1047b43163de">Processing Tape Device Control Requests</a>.
-
-
-## -remarks
+</li>
+</ul>Each of these NT status values correspond to a value in the <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a> enumerator. For more information about the significance of these values and a mapping between the NT status values and the TAPE_STATUS values, see <a href="https://msdn.microsoft.com/de6edfc6-9b4b-4866-8fdb-1047b43163de">Processing Tape Device Control Requests</a>.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
-</dt>
-</dl>
+
  
 
  

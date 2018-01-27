@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c233d4e1-285c-4f74-bb37-808cf855b19c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortUnlockPages
+ms.keywords: VideoPort_Functions_f7a233cf-3db5-49db-94e9-d2c6ec96f05d.xml, VideoPortUnlockPages function [Display Devices], display.videoportunlockpages, VideoPortUnlockPages, video/VideoPortUnlockPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortUnlockPages
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortUnlockPages
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # VideoPortUnlockPages function
 
 
-
 ## -description
+
+
 The <b>VideoPortUnlockPages</b> function is <b>obsolete</b> in Windows 2000 and later. Use <a href="..\video\nf-video-videoportunlockbuffer.md">VideoPortUnlockBuffer</a> in place of this function.
 
 <b>VideoPortUnlockPages</b> releases memory used for packet-based DMA.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN VideoPortUnlockPages(
@@ -58,32 +68,39 @@ BOOLEAN VideoPortUnlockPages(
 
 ## -parameters
 
-### -param hwDeviceExtension 
+
+
+
+### -param hwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
 
-### -param pDma 
+### -param pDma
 
 Specifies a non-<b>NULL</b> DMA handle. 
 
 
 ## -returns
+
+
 <b>VideoPortUnlockPages</b> always returns <b>TRUE</b>.
 
 
+
 ## -remarks
+
+
 See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
 
 This function can be called only within the context of a DMA IOCTL. It cannot be called from an ISR or DPC.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nf-video-videoportunlockbuffer.md">VideoPortUnlockBuffer</a>
-</dt>
-</dl>
+
  
 
  

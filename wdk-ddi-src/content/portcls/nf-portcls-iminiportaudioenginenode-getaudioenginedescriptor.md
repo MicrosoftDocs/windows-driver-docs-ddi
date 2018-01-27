@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: B8D09AB4-1F36-44E1-8D4F-33E7E4DBBFE3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportAudioEngineNode, IMiniportAudioEngineNode::GetAudioEngineDescriptor, GetAudioEngineDescriptor
+ms.keywords: GetAudioEngineDescriptor method [Audio Devices], GetAudioEngineDescriptor method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode::GetAudioEngineDescriptor, IMiniportAudioEngineNode, GetAudioEngineDescriptor, portcls/IMiniportAudioEngineNode::GetAudioEngineDescriptor, audio.iminiportaudioenginenode_getaudioenginedescriptor, IMiniportAudioEngineNode interface [Audio Devices], GetAudioEngineDescriptor method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportAudioEngineNode.GetAudioEngineDescriptor
-req.alt-loc: Portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Portcls.h
+apiname: 
+-	IMiniportAudioEngineNode.GetAudioEngineDescriptor
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportAudioEngineNode::GetAudioEngineDescriptor method
 
 
-
 ## -description
+
+
 Gets the descriptor for the audio engine node.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS GetAudioEngineDescriptor(
@@ -54,6 +64,9 @@ NTSTATUS GetAudioEngineDescriptor(
 
 
 ## -parameters
+
+
+
 
 ### -param ulNodeId [in]
 
@@ -66,21 +79,18 @@ Audio engine descriptor object. This parameter is of type <a href="..\ksmedia\ns
 
 
 ## -returns
+
+
 <b>GetAudioEngineDescriptor</b> returns S_OK if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-_tagksaudioengine_descriptor.md">KSAUDIOENGINE_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

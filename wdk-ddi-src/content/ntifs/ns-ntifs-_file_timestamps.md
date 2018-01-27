@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0F016D21-34CD-43DD-BE39-C6DF6D63A3AC
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FILE_TIMESTAMPS, FILE_TIMESTAMPS, *PFILE_TIMESTAMPS
+ms.keywords: _FILE_TIMESTAMPS, ntifs/File_TIMESTAMPS, ifsk.file_timestamps, ntifs/PFILE_TIMESTAMPS, FILE_TIMESTAMPS structure [Installable File System Drivers], FILE_TIMESTAMPS, PFILE_TIMESTAMPS, *PFILE_TIMESTAMPS, PFILE_TIMESTAMPS structure pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILE_TIMESTAMPS
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FILE_TIMESTAMPS
+product: Windows
+targetos: Windows
 req.typenames: FILE_TIMESTAMPS, *PFILE_TIMESTAMPS
 ---
 
 # _FILE_TIMESTAMPS structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>FILE_TIMESTAMPS</b> structure specifies the last recorded instance of specific actions on a file.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _File_TIMESTAMPS {
@@ -58,6 +68,9 @@ typedef struct _File_TIMESTAMPS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field CreationTime
 
@@ -79,15 +92,10 @@ Specifies the last time a file was written to.
 Specifies the last time a file was changed or modified.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_atomic_create_ecp_context.md">ATOMIC_CREATE_ECP_CONTEXT</a>
-</dt>
-</dl>
+
  
 
  

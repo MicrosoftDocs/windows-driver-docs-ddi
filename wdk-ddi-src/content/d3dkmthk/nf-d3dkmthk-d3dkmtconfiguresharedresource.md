@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3664ef23-f7bc-4a94-8085-aa5a3d0ba550
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTConfigureSharedResource
+ms.keywords: display.d3dkmtconfiguresharedresource, PFND3DKMT_CONFIGURESHAREDRESOURCE, d3dkmthk/D3DKMTConfigureSharedResource, D3DKMTConfigureSharedResource, D3DKMTConfigureSharedResource function [Display Devices], OpenGL_Functions_f95f6a64-49a7-4a93-a544-6d4315f12212.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3DKMTConfigureSharedResource is supported beginning 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTConfigureSharedResource
-req.alt-loc: Gdi32.dll,API-MS-Win-dx-d3dkmt-l1-1-0.dll,API-MS-Win-dx-d3dkmt-l1-1-1.dll,API-MS-Win-DX-D3DKMT-L1-1-2.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Gdi32.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-0.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-1.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+apiname: 
+-	D3DKMTConfigureSharedResource
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTConfigureSharedResource function
 
 
-
 ## -description
+
+
 The <b>D3DKMTConfigureSharedResource</b> function configures a shared resource. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS D3DKMTConfigureSharedResource(
@@ -54,41 +67,84 @@ NTSTATUS D3DKMTConfigureSharedResource(
 
 ## -parameters
 
-### -param pData [in]
+
+
+
+### -param D3DKMT_CONFIGURESHAREDRESOURCE
+
+TBD
+
+
+
+#### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_configuresharedresource.md">D3DKMT_CONFIGURESHAREDRESOURCE</a> structure that specifies parameters to configure the shared resource. 
 
 
 ## -returns
+
+
 <b>D3DKMTConfigureSharedResource</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The shared resource was successfully configured. 
+</dl>
+</td>
+<td width="60%">
+The shared resource was successfully configured. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_DEVICE_REMOVED</b></dt>
-</dl>The graphics adapter was stopped or the display device was reset.
+</dl>
+</td>
+<td width="60%">
+The graphics adapter was stopped or the display device was reset.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>Parameters were validated and determined to be incorrect.
+</dl>
+</td>
+<td width="60%">
+Parameters were validated and determined to be incorrect.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NO_MEMORY</b></dt>
 </dl>
+</td>
+<td width="60%">
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtconfiguresharedresource.md">D3DKMTConfigureSharedResource</a> could not complete because of insufficient memory.
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other <b>NTSTATUS</b> values.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_configuresharedresource.md">D3DKMT_CONFIGURESHAREDRESOURCE</a>
-</dt>
-</dl>
+
  
 
  

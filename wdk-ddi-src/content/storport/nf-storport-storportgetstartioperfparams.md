@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c3314ac6-2b46-417f-a87b-64e27df9686d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetStartIoPerfParams
+ms.keywords: StorPortGetStartIoPerfParams, storage.storportgetstartioperfparams, storport/StorPortGetStartIoPerfParams, StorPortGetStartIoPerfParams routine [Storage Devices], storprt_ad7184c9-2f69-4571-ba56-28b5a3b353d7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortGetStartIoPerfParams
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	StorPortGetStartIoPerfParams
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # StorPortGetStartIoPerfParams function
 
 
-
 ## -description
+
+
 The <b>StorPortGetStartIoPerfParams</b> routine places the performance parameters for a given I/O request in a <a href="..\storport\ns-storport-_startio_performance_parameters.md">STARTIO_PERFORMANCE_PARAMETERS</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 ULONG StorPortGetStartIoPerfParams(
@@ -56,6 +66,9 @@ ULONG StorPortGetStartIoPerfParams(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -73,16 +86,44 @@ A pointer to a STARTIO_PERFORMANCE_PARAMETERS structure that the miniport driver
 
 
 ## -returns
+
+
 StorPortGetStartIoPerfParams returns one of the following status values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>This function is not implemented on the active operating system.
+</dl>
+</td>
+<td width="60%">
+This function is not implemented on the active operating system.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>Indicates that the performance parameters have been stored in <i>StartIoPerfParams</i>.
+</dl>
+</td>
+<td width="60%">
+Indicates that the performance parameters have been stored in <i>StartIoPerfParams</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>Either the <i>Srb</i> parameter or the <i>StartIoPerfParams</i> parameter is <b>NULL</b>.
+</dl>
+</td>
+<td width="60%">
+Either the <i>Srb</i> parameter or the <i>StartIoPerfParams</i> parameter is <b>NULL</b>.
 
 -or-
 
@@ -96,25 +137,27 @@ The <i>Srb</i> parameter is not pointing to an SRB sent by Storport
 
 The structure pointed to by <i>StartIoPerfParams</i> is not valid because the value of its <b>Size</b> member indicates that structure is too small to contain the returned data.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
+
+
+Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-</dt>
-<dt>
+
 <a href="..\storport\ns-storport-_startio_performance_parameters.md">STARTIO_PERFORMANCE_PARAMETERS</a>
-</dt>
-<dt>
-<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 97873113-7B0B-4121-B074-5B73D59489F4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlIntPtrAdd
+ms.keywords: RtlIntPtrAdd function [Kernel-Mode Driver Architecture], ntintsafe/RtlIntPtrAdd, RtlIntPtrAdd, kernel.rtlintptradd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlIntPtrAdd
-req.alt-loc: Ntintsafe.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntintsafe.h
+apiname: 
+-	RtlIntPtrAdd
+product: Windows
+targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
 
 # RtlIntPtrAdd function
 
 
-
 ## -description
+
+
 Adds two values of type <b>INT_PTR</b>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlIntPtrAdd(
@@ -55,6 +65,9 @@ NTSTATUS RtlIntPtrAdd(
 
 
 ## -parameters
+
+
+
 
 ### -param iAugend [in]
 
@@ -72,4 +85,8 @@ A pointer to the sum. If the operation results in a value that overflows or unde
 
 
 ## -remarks
-This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.</p>
+
+
+This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
+

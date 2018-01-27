@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A8BAD8D4-1009-43D0-B82F-8252062A029C
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS, DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
+ms.keywords: dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS, display.dxgi_ddi_multiplane_overlay_group_caps, DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure [Display Devices], DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
-req.alt-loc: Dxgiddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Dxgiddi.h
+apiname: 
+-	DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
+product: Windows
+targetos: Windows
 req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
 ---
 
 # DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure
 
 
-
 ## -description
+
+
 Used by the user-mode display driver to specify groups of overlay plane capabilities.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS {
@@ -57,6 +67,9 @@ typedef struct _DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NumPlanes
 
@@ -90,5 +103,3 @@ The overlay capabilities, given as a bitwise <b>OR</b> of values from the <a hre
 
 Reserved for system use. Set this value to zero.
 
-
-## -remarks

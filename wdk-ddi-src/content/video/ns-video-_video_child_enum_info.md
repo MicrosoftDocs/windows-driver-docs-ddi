@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ce3b17e9-bcbd-46a4-b379-472abfdb4c2a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VIDEO_CHILD_ENUM_INFO, *PVIDEO_CHILD_ENUM_INFO, VIDEO_CHILD_ENUM_INFO
+ms.keywords: VIDEO_CHILD_ENUM_INFO, *PVIDEO_CHILD_ENUM_INFO, _VIDEO_CHILD_ENUM_INFO, PVIDEO_CHILD_ENUM_INFO, video/VIDEO_CHILD_ENUM_INFO, PVIDEO_CHILD_ENUM_INFO structure pointer [Display Devices], display.video_child_enum_info, Video_Structs_13176852-07dc-4b7e-9e3a-c9ed9c2a3879.xml, video/PVIDEO_CHILD_ENUM_INFO, VIDEO_CHILD_ENUM_INFO structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VIDEO_CHILD_ENUM_INFO
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	video.h
+apiname: 
+-	VIDEO_CHILD_ENUM_INFO
+product: Windows
+targetos: Windows
 req.typenames: *PVIDEO_CHILD_ENUM_INFO, VIDEO_CHILD_ENUM_INFO
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _VIDEO_CHILD_ENUM_INFO structure
 
 
-
 ## -description
+
+
 Describes the child device to be enumerated by the miniport driver. All members are set by the video port driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _VIDEO_CHILD_ENUM_INFO {
@@ -58,6 +68,9 @@ typedef struct _VIDEO_CHILD_ENUM_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -87,20 +100,20 @@ A pointer to a device extension specific to this child device. This member is va
 
 
 ## -remarks
+
+
 One parameter of the <i>HwVidGetVideoChildDescriptor</i> function is an instance of a VIDEO_CHILD_ENUM_INFO structure. 
 
 The ACPI_METHOD_DISPLAY_DOD alias, defined in Dispmprt.h, represents the method used to enumerate the devices attached to the display adapter. This method is required if the integrated device controller supports switching of output devices.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
-</dt>
-<dt>
+
 <a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
-</dt>
-</dl>
+
  
 
  

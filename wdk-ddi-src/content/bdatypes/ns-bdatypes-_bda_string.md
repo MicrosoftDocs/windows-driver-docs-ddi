@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 69E2090F-02A6-43FB-85CB-E482B9142645
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _BDA_STRING, BDA_STRING, *PBDA_STRING
+ms.keywords: PBDA_STRING structure pointer [Streaming Media Devices], PBDA_STRING, BDA_STRING, BDA_STRING structure [Streaming Media Devices], bdatypes/BDA_STRING, stream.bda_string, _BDA_STRING, *PBDA_STRING, bdatypes/PBDA_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BDA_STRING
-req.alt-loc: Bdatypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: BDA_STRING, *PBDA_STRING
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bdatypes.h
+apiname: 
+-	BDA_STRING
+product: Windows
+targetos: Windows
+req.typenames: *PBDA_STRING, BDA_STRING
 ---
 
 # _BDA_STRING structure
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: BDA_STRING, *PBDA_STRING
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct _BDA_STRING {
@@ -56,13 +66,17 @@ typedef struct _BDA_STRING {
 
 ## -struct-fields
 
+
+
+
 ### -field lResult
+
 
 
 ### -field ulStringSize
 
 
+
 ### -field argbString
 
 
-## -remarks

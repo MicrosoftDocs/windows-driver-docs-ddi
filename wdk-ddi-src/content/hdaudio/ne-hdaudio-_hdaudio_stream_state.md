@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A1029A2D-980F-44F5-B7D6-1C37F97D0368
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _HDAUDIO_STREAM_STATE, HDAUDIO_STREAM_STATE, *PHDAUDIO_STREAM_STATE
+ms.keywords: hdaudio/RunState, StopState, hdaudio/PauseState, PHDAUDIO_STREAM_STATE, hdaudio/ResetState, ResetState, HDAUDIO_STREAM_STATE, HDAUDIO_STREAM_STATE enumeration [Audio Devices], hdaudio/StopState, PauseState, RunState, hdaudio/HDAUDIO_STREAM_STATE, PHDAUDIO_STREAM_STATE enumeration pointer [Audio Devices], hdaudio/PHDAUDIO_STREAM_STATE, audio.hdaudio_stream_state, _HDAUDIO_STREAM_STATE, *PHDAUDIO_STREAM_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HDAUDIO_STREAM_STATE
-req.alt-loc: Hdaudio.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL.
-req.typenames: HDAUDIO_STREAM_STATE, *PHDAUDIO_STREAM_STATE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Hdaudio.h
+apiname: 
+-	HDAUDIO_STREAM_STATE
+product: Windows
+targetos: Windows
+req.typenames: *PHDAUDIO_STREAM_STATE, HDAUDIO_STREAM_STATE
 ---
 
 # _HDAUDIO_STREAM_STATE enumeration
 
 
-
 ## -description
+
+
 The <b>HDAUDIO_STREAM_STATE</b> enumeration defines constants that specify the different stream states supported by HDAudio.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _HDAUDIO_STREAM_STATE { 
@@ -56,6 +66,9 @@ typedef enum _HDAUDIO_STREAM_STATE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field ResetState
 
@@ -78,4 +91,8 @@ The run state.
 
 
 ## -remarks
-This enumeration is used by the <a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">PSET_DMA_ENGINE_STATE</a>.</p>
+
+
+This enumeration is used by the <a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">PSET_DMA_ENGINE_STATE</a>.
+
+

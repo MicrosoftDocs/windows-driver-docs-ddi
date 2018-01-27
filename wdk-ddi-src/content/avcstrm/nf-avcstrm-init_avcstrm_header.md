@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 744d6e49-9321-4cba-a4e7-48a4abb02319
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: INIT_AVCSTRM_HEADER
+ms.keywords: avcstrm/INIT_AVCSTRM_HEADER, INIT_AVCSTRM_HEADER, stream.init_avcstrm_header, avcsref_97f7d983-5637-4ac4-ad1c-53328adca831.xml, INIT_AVCSTRM_HEADER macro [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: INIT_AVCSTRM_HEADER
-req.alt-loc: avcstrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: avcstrm.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	avcstrm.h
+apiname: 
+-	INIT_AVCSTRM_HEADER
+product: Windows
+targetos: Windows
 req.typenames: AVCSTRM_FUNCTION
 ---
 
 # INIT_AVCSTRM_HEADER macro
 
 
-
 ## -description
+
+
 The <b>INIT_AVCSTRM_HEADER</b> macro initializes the <b>SizeOfThisBlock</b>, <b>Version</b> and <b>Function</b> members of the <a href="..\avcstrm\ns-avcstrm-_avc_stream_request_block.md">AVC_STREAM_REQUEST_BLOCK</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 VOID INIT_AVCSTRM_HEADER(
@@ -54,6 +64,9 @@ VOID INIT_AVCSTRM_HEADER(
 
 
 ## -parameters
+
+
+
 
 ### -param AVCStrm [in]
 
@@ -66,45 +79,39 @@ Indicates the type of the request (function code) from the <a href="..\avcstrm\n
 
 
 ## -remarks
+
+
 The macro is defined as follows:
+<pre class="syntax" xml:space="preserve"><code>#define INIT_AVCSTRM_HEADER( AVCStrm, Request )             \
+        (AVCStrm)-&gt;SizeOfThisBlock = sizeof(AVC_STREAM_REQUEST_BLOCK); \
+        (AVCStrm)-&gt;Function = Request;                    \
+        (AVCStrm)-&gt;Version  = CURRENT_AVCSTRM_DDI_VERSION;</code></pre>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\avcstrm\ns-avcstrm-_avc_stream_request_block.md">AVC_STREAM_REQUEST_BLOCK</a>
-</dt>
-<dt>
-<a href="..\avcstrm\ni-avcstrm-ioctl_avcstrm_class.md">IOCTL_AVCSTRM_CLASS</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554107">AVCSTRM_ABORT_STREAMING</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554110">AVCSTRM_CLOSE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554134">AVCSTRM_SET_STATE</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554107">AVCSTRM_ABORT_STREAMING</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554110">AVCSTRM_CLOSE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
+
+<a href="..\avcstrm\ni-avcstrm-ioctl_avcstrm_class.md">IOCTL_AVCSTRM_CLASS</a>
+
+<a href="..\avcstrm\ns-avcstrm-_avc_stream_request_block.md">AVC_STREAM_REQUEST_BLOCK</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
-</dt>
-</dl>
+
  
 
  

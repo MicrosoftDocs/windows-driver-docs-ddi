@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 694020c6-dd0a-46c7-9122-cd86ce28d03a
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTH_VENDOR_PATTERN, *PBTH_VENDOR_PATTERN, BTH_VENDOR_PATTERN
+ms.keywords: PBTH_VENDOR_PATTERN, _BTH_VENDOR_PATTERN, BTH_VENDOR_PATTERN, bthioctl/PBTH_VENDOR_PATTERN, BTH_VENDOR_PATTERN structure [Bluetooth Devices], bltooth.bth_vendor_pattern, PBTH_VENDOR_PATTERN structure pointer [Bluetooth Devices], bth_ref_e5c1f867-d585-4c90-bfe1-7b3c4a6e1582.xml, *PBTH_VENDOR_PATTERN, bthioctl/BTH_VENDOR_PATTERN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Available in Windows Vista, and later versi
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BTH_VENDOR_PATTERN
-req.alt-loc: bthioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthioctl.h
+apiname: 
+-	BTH_VENDOR_PATTERN
+product: Windows
+targetos: Windows
 req.typenames: *PBTH_VENDOR_PATTERN, BTH_VENDOR_PATTERN
 ---
 
 # _BTH_VENDOR_PATTERN structure
 
 
-
 ## -description
+
+
 The BTH_VENDOR_PATTERN structure specifies a vendor pattern.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BTH_VENDOR_PATTERN {
@@ -55,6 +65,9 @@ typedef struct _BTH_VENDOR_PATTERN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Offset
 
@@ -73,9 +86,11 @@ A buffer that contains pattern data.
 
 
 ## -remarks
+
+
 The BTH_VENDOR_PATTERN structure specifies vendor patterns for the 
-    <a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">
-    BTH_VENDOR_SPECIFIC_COMMAND</a> structure.
+    <mshelp:link keywords="bltooth.bth_vendor_specific_command" tabindex="0"><b>
+    BTH_VENDOR_SPECIFIC_COMMAND</b></mshelp:link> structure.
 
 A list of patterns can immediately follow the vendor-specific command data that is specified in the 
     <b>Data</b> member of the BTH_VENDOR_SPECIFIC_COMMAND structure.
@@ -84,12 +99,11 @@ Patterns are required if a vendor-specific command does not follow the standard 
     vendor-specific event is generated in response to the vendor-specific command.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">BTH_VENDOR_SPECIFIC_COMMAND</a>
-</dt>
-</dl>
+
  
 
  

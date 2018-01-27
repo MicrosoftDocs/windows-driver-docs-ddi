@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ea8ba463-e8dd-4952-bcad-6fe565fe3292
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DLIGHTINGCAPS, *LPD3DLIGHTINGCAPS, D3DLIGHTINGCAPS
+ms.keywords: display.d3dlightingcaps, d3dstrct_98470d9f-b4ed-49ee-9c0f-34c991916de3.xml, d3dcaps/D3DLIGHTINGCAPS, *LPD3DLIGHTINGCAPS, D3DLIGHTINGCAPS, D3DLIGHTINGCAPS structure [Display Devices], LPD3DLIGHTINGCAPS, _D3DLIGHTINGCAPS, d3dcaps/LPD3DLIGHTINGCAPS, LPD3DLIGHTINGCAPS structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DLIGHTINGCAPS
-req.alt-loc: d3dcaps.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dcaps.h
+apiname: 
+-	D3DLIGHTINGCAPS
+product: Windows
+targetos: Windows
 req.typenames: *LPD3DLIGHTINGCAPS, D3DLIGHTINGCAPS
 ---
 
 # _D3DLIGHTINGCAPS structure
 
 
-
 ## -description
+
+
 
    Obsolete in DirectX 8.0 and later versions; see Remarks.
    
@@ -46,8 +56,8 @@ req.typenames: *LPD3DLIGHTINGCAPS, D3DLIGHTINGCAPS
 The D3DLIGHTINGCAPS structure describes the lighting capabilities of a device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DLIGHTINGCAPS {
@@ -61,6 +71,9 @@ typedef struct _D3DLIGHTINGCAPS {
 
 ## -struct-fields
 
+
+
+
 ### -field dwSize
 
 Specifies the size, in bytes, of the D3DLIGHTINGCAPS structure. 
@@ -72,7 +85,6 @@ Specifies the size, in bytes, of the D3DLIGHTINGCAPS structure.
   
   
   
-
 <table>
 <tr>
 <th>Value</th>
@@ -100,14 +112,12 @@ Specifies the size, in bytes, of the D3DLIGHTINGCAPS structure.
 <td>Spotlights are supported. 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field dwLightingModel
 
  Specifies flags indicating whether the lighting model is RGB or monochrome. The following flags are defined: 
-
 <table>
 <tr>
 <th>Value</th>
@@ -123,8 +133,7 @@ Specifies the size, in bytes, of the D3DLIGHTINGCAPS structure.
 <td>The lighting model is RGB. 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field dwNumLights
@@ -133,17 +142,18 @@ Specifies the number of lights that can be handled.
 
 
 ## -remarks
+
+
 This structure has been replaced by D3DCAPS8 (see the DirectX 8.0 SDK documentation) for DirectX 8.0 and later runtimes, but is required for DirectX 7.0 and earlier runtime compatibility. See <a href="https://msdn.microsoft.com/a03a7cbc-95be-4251-8e3a-bef4a093f03d">Reporting DirectX 8.0 Style Direct3D Capabilities</a> for details.
 
 This structure is a member of the <a href="..\d3dhal\ns-d3dhal-_d3ddevicedesc_v1.md">D3DDEVICEDESC_V1</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dhal\ns-d3dhal-_d3ddevicedesc_v1.md">D3DDEVICEDESC_V1</a>
-</dt>
-</dl>
+
  
 
  

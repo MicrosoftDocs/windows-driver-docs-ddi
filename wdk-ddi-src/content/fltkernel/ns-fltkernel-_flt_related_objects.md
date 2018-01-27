@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dd1730f5-58ff-4d0d-9a00-17cd1fe36c5f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FLT_RELATED_OBJECTS, FLT_RELATED_OBJECTS, *PFLT_RELATED_OBJECTS
+ms.keywords: fltkernel/FLT_RELATED_OBJECTS, *PFLT_RELATED_OBJECTS, ifsk.flt_related_objects, FltSystemStructures_24fcdf06-9d2e-41bf-89f8-08cb37782089.xml, fltkernel/PFLT_RELATED_OBJECTS, PFLT_RELATED_OBJECTS structure pointer [Installable File System Drivers], _FLT_RELATED_OBJECTS, FLT_RELATED_OBJECTS structure [Installable File System Drivers], FLT_RELATED_OBJECTS, PFLT_RELATED_OBJECTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FLT_RELATED_OBJECTS
-req.alt-loc: fltkernel.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: FLT_RELATED_OBJECTS, *PFLT_RELATED_OBJECTS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	fltkernel.h
+apiname: 
+-	FLT_RELATED_OBJECTS
+product: Windows
+targetos: Windows
+req.typenames: *PFLT_RELATED_OBJECTS, FLT_RELATED_OBJECTS
 ---
 
 # _FLT_RELATED_OBJECTS structure
 
 
-
 ## -description
+
+
 The FLT_RELATED_OBJECTS structure contains opaque pointers for the objects associated with an operation. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FLT_RELATED_OBJECTS {
@@ -59,6 +69,9 @@ typedef struct _FLT_RELATED_OBJECTS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -96,6 +109,8 @@ On Windows Vista and later, this member is an opaque transaction pointer to the 
 
 
 ## -remarks
+
+
 The FLT_RELATED_OBJECTS structure is allocated by the filter manager and contains opaque pointers for the objects associated with an I/O operation or an instance setup or teardown operation. 
 
 The contents of the FLT_RELATED_OBJECTS structure are set by the filter manager. Minifilter drivers cannot directly modify the contents of this structure. However, if a minifilter driver modifies the target instance or target file object for an I/O operation in the <a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a> structure for the operation, the filter manager modifies the value of the corresponding <b>Instance</b> or <b>FileObject</b> member of the FLT_RELATED_OBJECTS structure that is passed to lower minifilter drivers. For more information, see <a href="https://msdn.microsoft.com/8e25842f-6f10-412f-8cb2-156bea7d7983">Modifying the Parameters for an I/O Operation</a>. 
@@ -130,36 +145,27 @@ To retrieve pointers to a minifilter driver's contexts for the objects in an FLT
 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
-</dt>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_related_contexts.md">FLT_RELATED_CONTEXTS</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetcontexts.md">FltGetContexts</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltdocompletionprocessingwhensafe.md">FltDoCompletionProcessingWhenSafe</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_query_teardown_callback.md">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_related_contexts.md">FLT_RELATED_CONTEXTS</a>
+
 <a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetcontexts.md">FltGetContexts</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_query_teardown_callback.md">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
+
  
 
  

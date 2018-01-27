@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6033b33f-74cd-4034-baff-a931b7add370
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _SECURITY_IMPERSONATION_LEVEL, SECURITY_IMPERSONATION_LEVEL, *PSECURITY_IMPERSONATION_LEVEL
+ms.keywords: wdm/SecurityAnonymous, wdm/SecurityImpersonation, SecurityDelegation, PSECURITY_IMPERSONATION_LEVEL, wdm/PSECURITY_IMPERSONATION_LEVEL, securitystructures_d049c4aa-1df4-46b1-b789-01f04e939de2.xml, wdm/SECURITY_IMPERSONATION_LEVEL, SecurityImpersonation, SECURITY_IMPERSONATION_LEVEL enumeration [Installable File System Drivers], SECURITY_IMPERSONATION_LEVEL, SecurityAnonymous, SecurityIdentification, wdm/SecurityDelegation, PSECURITY_IMPERSONATION_LEVEL enumeration pointer [Installable File System Drivers], _SECURITY_IMPERSONATION_LEVEL, ifsk.security_impersonation_level, wdm/SecurityIdentification, *PSECURITY_IMPERSONATION_LEVEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SECURITY_IMPERSONATION_LEVEL
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: SECURITY_IMPERSONATION_LEVEL, *PSECURITY_IMPERSONATION_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	SECURITY_IMPERSONATION_LEVEL
+product: Windows
+targetos: Windows
+req.typenames: *PSECURITY_IMPERSONATION_LEVEL, SECURITY_IMPERSONATION_LEVEL
 req.product: Windows 10 or later.
 ---
 
 # _SECURITY_IMPERSONATION_LEVEL enumeration
 
 
-
 ## -description
+
+
 The <b>SECURITY_IMPERSONATION_LEVEL</b> enumeration type contains values that specify security impersonation levels. Security impersonation levels govern the degree to which a server process can act on behalf of a client process. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _SECURITY_IMPERSONATION_LEVEL { 
@@ -57,6 +67,9 @@ typedef enum _SECURITY_IMPERSONATION_LEVEL {
 
 
 ## -enum-fields
+
+
+
 
 ### -field SecurityAnonymous
 
@@ -81,42 +94,37 @@ The server process can impersonate the client's security context on remote syste
 
 
 ## -remarks
+
+
 Impersonation is the ability of a process to take on the security attributes of another process.
+<div class="alert"><b>Note</b>  Be aware of the following derived types:<pre class="syntax" xml:space="preserve"><code>#define DEFAULT_IMPERSONATION_LEVEL SecurityImpersonation
+#define SECURITY_MAX_IMPERSONATION_LEVEL SecurityDelegation
+#define SECURITY_MIN_IMPERSONATION_LEVEL SecurityAnonymous // Windows XP and later only</code></pre>
+</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_luid_and_attributes.md">LUID_AND_ATTRIBUTES</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
-</dt>
-<dt>
+
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+<a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a>
+
+<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
+
+<a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
+
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+
 <a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_luid_and_attributes.md">LUID_AND_ATTRIBUTES</a>
+
+<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
+
+<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
+
  
 
  

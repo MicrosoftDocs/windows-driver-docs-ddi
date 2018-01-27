@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F4FDF254-1C36-43DC-B1FD-376AD7658E61
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_CREATEPROCESS, DXGKARG_CREATEPROCESS, *INOUT_PDXGKARG_CREATEPROCESS
+ms.keywords: *INOUT_PDXGKARG_CREATEPROCESS, d3dkmddi/DXGKARG_CREATEPROCESS, _DXGKARG_CREATEPROCESS, DXGKARG_CREATEPROCESS structure [Display Devices], DXGKARG_CREATEPROCESS, display.dxgkarg_createprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_CREATEPROCESS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_CREATEPROCESS
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_CREATEPROCESS
 ---
 
 # _DXGKARG_CREATEPROCESS structure
 
 
-
 ## -description
+
+
 <b>DXGKARG_CREATEPROCESS</b> is used with <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a> to create a kernel mode driver object for a Microsoft DirectX graphics kernel process object.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_CREATEPROCESS {
@@ -57,6 +67,9 @@ typedef struct _DXGKARG_CREATEPROCESS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDxgkProcess
 
@@ -83,18 +96,12 @@ typedef struct _DXGKARG_CREATEPROCESS {
 [in] A pointer to an array of process address identifiers. There will be one for each physical GPUs.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createprocessflags.md">DXGK_CREATEPROCESSFLAGS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createprocessflags.md">DXGK_CREATEPROCESSFLAGS</a>
+
  
 
  

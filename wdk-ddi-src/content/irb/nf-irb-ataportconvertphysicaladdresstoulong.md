@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cd63cb65-701e-46e2-ba32-971f91f9eb29
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortConvertPhysicalAddressToUlong
+ms.keywords: irb/AtaPortConvertPhysicalAddressToUlong, atartns_b9df7c2c-3309-4d5a-88d9-bc1eee37fae0.xml, AtaPortConvertPhysicalAddressToUlong routine [Storage Devices], storage.ataportconvertphysicaladdresstoulong, AtaPortConvertPhysicalAddressToUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AtaPortConvertPhysicalAddressToUlong
-req.alt-loc: ataport.lib,ataport.dll,pciidex.lib,pciidex.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ataport.lib
+-	ataport.dll
+-	pciidex.lib
+-	pciidex.dll
+apiname: 
+-	AtaPortConvertPhysicalAddressToUlong
+product: Windows
+targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
 
 # AtaPortConvertPhysicalAddressToUlong function
 
 
-
 ## -description
+
+
 The <b>AtaPortConvertPhysicalAddressToUlong</b> routine truncates an address of type IDE_PHYSICAL_ADDRESS to a ULONG.
-
-
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 ULONG AtaPortConvertPhysicalAddressToUlong(
@@ -54,25 +67,32 @@ ULONG AtaPortConvertPhysicalAddressToUlong(
 
 ## -parameters
 
+
+
+
 ### -param Address [in]
 
 Specifies a value of type IDE_PHYSICAL_ADDRESS.
 
 
 ## -returns
+
+
 <b>AtaPortConvertPhysicalAddressToUlong</b> returns the lower order part of the given IDE_PHYSICAL_ADDRESS value. 
 
 
+
 ## -remarks
+
+
 A miniport driver must not use this routine to truncate a 64-bit physical address. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\irb\nf-irb-ataportconvertulongtophysicaladdress.md">AtaPortConvertUlongToPhysicalAddress</a>
-</dt>
-</dl>
+
  
 
  

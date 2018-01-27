@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ef90f9da-3169-4b49-9ba2-2cab058e5d00
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsMergeAutomationTables
+ms.keywords: KsMergeAutomationTables, ks/KsMergeAutomationTables, KsMergeAutomationTables function [Streaming Media Devices], stream.ksmergeautomationtables, avfunc_7e2146e2-0458-48ee-815a-8ea478187e07.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsMergeAutomationTables
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsMergeAutomationTables
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsMergeAutomationTables function
 
 
-
 ## -description
+
+
 The<b> KsMergeAutomationTables</b> function merges two automation tables.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsMergeAutomationTables(
@@ -56,6 +67,9 @@ NTSTATUS KsMergeAutomationTables(
 
 
 ## -parameters
+
+
+
 
 ### -param AutomationTableAB [out]
 
@@ -78,10 +92,15 @@ The newly created automation table is placed in this KSOBJECT_BAG (equivalent to
 
 
 ## -returns
+
+
 <b>KsMergeAutomationTables</b> returns STATUS_SUCCESS if the merge successfully completes. If unsuccessful, it returns an error code. The most frequent error code is STATUS_INSUFFICIENT_RESOURCES, which indicates that there are insufficient system resources to complete the merge.
 
 
+
 ## -remarks
+
+
 If both <i>AutomationTableA</i> and <i>AutomationTableB</i> are <b>NULL</b>, this routine performs no action and returns STATUS_SUCCESS.
 
 The entries in<i> AutomationTableA</i> have priority in the merge<i>.</i> If there is an entry that appears in both <i>AutomationTableA </i>and <i>AutomationTableB</i>, the entry in <i>AutomationTableA</i> is the one that is placed into the merged table. The newly created automation table is placed in the requested object bag if one is provided.
@@ -93,18 +112,15 @@ If the <i>Bag</i> parameter is not <b>NULL</b>, the minidriver should take the m
 Also see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d9">Object Bags</a>  and <a href="https://msdn.microsoft.com/1c0dace6-b618-4705-bf5d-65457d14c072">Defining Automation Tables</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
+
  
 
  

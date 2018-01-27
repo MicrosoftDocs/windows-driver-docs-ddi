@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1FABEEBC-358C-40EB-8F5C-F834EE57A1A8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDIARG_OPENADAPTER, D3D12DDIARG_OPENADAPTER
+ms.keywords: display.d3d12ddiarg_openadapter, d3d12umddi/D3D12DDIARG_OPENADAPTER, D3D12DDIARG_OPENADAPTER, D3D12DDIARG_OPENADAPTER structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDIARG_OPENADAPTER
-req.alt-loc: d3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d12umddi.h
+apiname: 
+-	D3D12DDIARG_OPENADAPTER
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDIARG_OPENADAPTER
 ---
 
 # D3D12DDIARG_OPENADAPTER structure
 
 
-
 ## -description
+
+
 The D3D12DDIARG_OPENADAPTER structure describes the graphics adapter object.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3D12DDIARG_OPENADAPTER {
@@ -56,6 +66,9 @@ typedef struct _D3D12DDIARG_OPENADAPTER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hRTAdapter
 
@@ -76,5 +89,3 @@ typedef struct _D3D12DDIARG_OPENADAPTER {
 
 [out] A pointer to a D3D12DDI_ADAPTERFUNCS structure that contains a table of user-mode display driver adapter-specific functions. The Direct3D runtime uses these functions to communicate with the user-mode display driver about operations that are specific to the graphics adapter.
 
-
-## -remarks

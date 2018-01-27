@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 00c90dbf-bb44-4cba-97b3-170765a2eba7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetFilterFromIrp
+ms.keywords: avfunc_223d8c62-c585-4749-a087-19cfa48824f3.xml, ks/KsGetFilterFromIrp, stream.ksgetfilterfromirp, KsGetFilterFromIrp, KsGetFilterFromIrp function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsGetFilterFromIrp
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsGetFilterFromIrp
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsGetFilterFromIrp function
 
 
-
 ## -description
+
+
 The<b> KsGetFilterFromIrp </b>function returns the AVStream filter object associated with a given IRP.
 
 
-
 ## -syntax
+
 
 ````
 PKSFILTER KsGetFilterFromIrp(
@@ -54,28 +65,34 @@ PKSFILTER KsGetFilterFromIrp(
 
 ## -parameters
 
+
+
+
 ### -param Irp [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure for which to return the associated filter.
 
 
 ## -returns
+
+
 <b>KsGetFilterFromIrp</b> returns either a pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure associated with <i>Irp</i> or <b>NULL</b>. <b>NULL</b> indicates that <i>Irp</i> is not associated with an AVStream object.
 
 
+
 ## -remarks
+
+
 <b>KsGetFilterFromIrp</b> is valid for filters, pins, and nodes.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksgetpinfromirp.md">KsGetPinFromIrp</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksgetpinfromirp.md">KsGetPinFromIrp</a>
+
  
 
  

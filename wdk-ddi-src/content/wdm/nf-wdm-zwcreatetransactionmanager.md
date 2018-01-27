@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9c9f0a8b-7add-4ab1-835d-39f508ce32a9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwCreateTransactionManager
+ms.keywords: ZwCreateTransactionManager, NtCreateTransactionManager, kernel.zwcreatetransactionmanager, ZwCreateTransactionManager routine [Kernel-Mode Driver Architecture], wdm/NtCreateTransactionManager, ktm_ref_56fad0b5-053d-4d65-bdb3-8c2d09fee541.xml, wdm/ZwCreateTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later operating system
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwCreateTransactionManager,NtCreateTransactionManager
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ZwCreateTransactionManager
+-	NtCreateTransactionManager
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ZwCreateTransactionManager function
 
 
-
 ## -description
+
+
 The <b>ZwCreateTransactionManager</b> routine creates a new transaction manager object.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ZwCreateTransactionManager(
@@ -60,6 +71,9 @@ NTSTATUS ZwCreateTransactionManager(
 
 ## -parameters
 
+
+
+
 ### -param TmHandle [out]
 
 A pointer to a caller-allocated variable that receives a handle to the new <a href="https://msdn.microsoft.com/af53cda4-e2ab-47df-9311-a4da2a2ee08d">transaction manager object</a>.
@@ -68,7 +82,6 @@ A pointer to a caller-allocated variable that receives a handle to the new <a hr
 ### -param DesiredAccess [in]
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that specifies the caller's requested access to the transaction manager object. In addition to the access rights that are defined for all kinds of objects (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>), the caller can specify any of the following access right flags for transaction manager objects. 
-
 <table>
 <tr>
 <th>ACCESS_MASK flag</th>
@@ -124,11 +137,9 @@ Not used.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 Alternatively, you can specify one or more of the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> bitmaps. These bitmaps combine the flags from the previous table with the STANDARD_RIGHTS_<i>XXX</i> flags that are described on the <b>ACCESS_MASK</b> reference page. You can also combine these bitmaps with additional flags from the preceding table. The following table shows how the bitmaps correspond to specific access rights.
-
 <table>
 <tr>
 <th>Rights bitmap</th>
@@ -174,8 +185,7 @@ STANDARD_RIGHTS_REQUIRED, TRANSACTIONMANAGER_GENERIC_READ, TRANSACTIONMANAGER_GE
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param ObjectAttributes [in, optional]
@@ -191,7 +201,6 @@ A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING
 ### -param CreateOptions [in, optional]
 
 Optional object creation flags. The following table contains the available flags, which are defined in Ktmtypes.h.
-
 <table>
 <tr>
 <th>Option flag</th>
@@ -267,8 +276,7 @@ For internal use only.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param CommitStrength [in, optional]
@@ -277,41 +285,122 @@ Reserved for future use. This parameter must be zero.
 
 
 ## -returns
+
+
 <b>ZwCreateTransactionManager</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The value of an input parameter is invalid.
+</dl>
+</td>
+<td width="60%">
+The value of an input parameter is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>KTM could not allocate system resources (typically memory).
+</dl>
+</td>
+<td width="60%">
+KTM could not allocate system resources (typically memory).
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_LOG_CORRUPTION_DETECTED</b></dt>
-</dl>KTM encountered an error while creating or opening the log file.
+</dl>
+</td>
+<td width="60%">
+KTM encountered an error while creating or opening the log file.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_ACL</b></dt>
-</dl>A security descriptor contains an invalid access control list (ACL).
+</dl>
+</td>
+<td width="60%">
+A security descriptor contains an invalid access control list (ACL).
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_SID</b></dt>
-</dl>A security descriptor contains an invalid security identifier (SID).
+</dl>
+</td>
+<td width="60%">
+A security descriptor contains an invalid security identifier (SID).
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_NAME_EXISTS</b></dt>
-</dl>The object name that the <i>ObjectAttributes </i>parameter specifies already exists.
+</dl>
+</td>
+<td width="60%">
+The object name that the <i>ObjectAttributes </i>parameter specifies already exists.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_NAME_COLLISION</b></dt>
-</dl>The operating system detected a duplicate object name. The error might indicate that the log stream is already being used.
+</dl>
+</td>
+<td width="60%">
+The operating system detected a duplicate object name. The error might indicate that the log stream is already being used.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_NAME_INVALID</b></dt>
-</dl>The object name that the <i>ObjectAttributes </i>parameter specifies is invalid.
+</dl>
+</td>
+<td width="60%">
+The object name that the <i>ObjectAttributes </i>parameter specifies is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>The value of the <i>DesiredAccess</i> parameter is invalid.
+</dl>
+</td>
+<td width="60%">
+The value of the <i>DesiredAccess</i> parameter is invalid.
 
- 
+</td>
+</tr>
+</table> 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
+
 ## -remarks
+
+
 If the log file stream that the <i>LogFileName </i>parameter specifies does not exist, KTM calls CLFS to create the stream. If the stream already exists, KTM calls CLFS to open the stream.
 
 Your TPS component must call <a href="..\wdm\nf-wdm-zwrecovertransactionmanager.md">ZwRecoverTransactionManager</a> after it has called <b>ZwCreateTransactionManager</b>
@@ -327,36 +416,27 @@ For more information about how use <b>ZwCreateTransactionManager</b>, see <a hre
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwrecovertransactionmanager.md">ZwRecoverTransactionManager</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
 <a href="..\wdm\nf-wdm-zwrollforwardtransactionmanager.md">ZwRollforwardTransactionManager</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-zwrecovertransactionmanager.md">ZwRecoverTransactionManager</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\rilsetuicclockenabledparams.htm
 old-project: netvista
 ms.assetid: 03df5865-a383-447b-8e80-671ba7a3a60e
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSETUICCLOCKENABLEDPARAMS, RILSETUICCLOCKENABLEDPARAMS, *LPRILSETUICCLOCKENABLEDPARAMS
+ms.date: 1/18/2018
+ms.keywords: *LPRILSETUICCLOCKENABLEDPARAMS, ntddrilapitypes/RILSETUICCLOCKENABLEDPARAMS, RILSETUICCLOCKENABLEDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetuicclockenabledparams, RILSETUICCLOCKENABLEDPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSETUICCLOCKENABLEDPARAMS
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILSETUICCLOCKENABLEDPARAMS
+product: Windows
+targetos: Windows
 req.typenames: RILSETUICCLOCKENABLEDPARAMS, *LPRILSETUICCLOCKENABLEDPARAMS
 ---
 
 # RILSETUICCLOCKENABLEDPARAMS structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILSETUICCLOCKENABLEDPARAMS {
@@ -55,10 +65,13 @@ typedef struct _RILSETUICCLOCKENABLEDPARAMS {
 
 ## -struct-fields
 
+
+
+
 ### -field lockCredential
+
 
 
 ### -field fEnable
 
 
-## -remarks

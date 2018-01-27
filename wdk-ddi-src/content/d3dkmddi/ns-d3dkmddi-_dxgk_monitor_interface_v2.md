@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5c08b988-2cc0-46e1-a8b5-66de840650e4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_MONITOR_INTERFACE_V2, DXGK_MONITOR_INTERFACE_V2
+ms.keywords: DXGK_MONITOR_INTERFACE_V2 structure [Display Devices], display.dxgk_monitor_interface_v2, _DXGK_MONITOR_INTERFACE_V2, DmStructs_8af61532-16df-472d-abb7-c8f9a677e968.xml, d3dkmddi/DXGK_MONITOR_INTERFACE_V2, DXGK_MONITOR_INTERFACE_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_MONITOR_INTERFACE_V2
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_MONITOR_INTERFACE_V2
+product: Windows
+targetos: Windows
 req.typenames: DXGK_MONITOR_INTERFACE_V2
 ---
 
 # _DXGK_MONITOR_INTERFACE_V2 structure
 
 
-
 ## -description
+
+
 The DXGK_MONITOR_INTERFACE_V2 structure, available beginning with Windows 7, contains pointers to functions that belong to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568433">Monitor Interface</a>, which is implemented by the video present network (VidPN) manager.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_MONITOR_INTERFACE_V2 {
@@ -59,6 +69,9 @@ typedef struct _DXGK_MONITOR_INTERFACE_V2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -100,12 +113,13 @@ A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_getadditionalm
 ## -remarks
 
 
+<div class="alert"><b>Note</b>    A display miniport driver must verify the interface version specified in the <b>Version</b> member before using this structure. This structure is available beginning with Windows 7.</div><div> </div>
+
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface.md">DXGK_MONITOR_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

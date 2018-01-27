@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 44f68a5a-c7ad-4555-b6b2-6461ac17960a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _KEY_WRITE_TIME_INFORMATION, KEY_WRITE_TIME_INFORMATION, *PKEY_WRITE_TIME_INFORMATION
+ms.keywords: PKEY_WRITE_TIME_INFORMATION, PKEY_WRITE_TIME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PKEY_WRITE_TIME_INFORMATION, wdm/KEY_WRITE_TIME_INFORMATION, kernel.key_write_time_information, _KEY_WRITE_TIME_INFORMATION, KEY_WRITE_TIME_INFORMATION structure [Kernel-Mode Driver Architecture], *PKEY_WRITE_TIME_INFORMATION, kstruct_c_373f0047-919b-44c4-8831-181027ba5f2e.xml, KEY_WRITE_TIME_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available on Microsoft Windows XP and later versions 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KEY_WRITE_TIME_INFORMATION
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	KEY_WRITE_TIME_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: KEY_WRITE_TIME_INFORMATION, *PKEY_WRITE_TIME_INFORMATION
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _KEY_WRITE_TIME_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>KEY_WRITE_TIME_INFORMATION</b> structure is used by the system to set the last write time for a registry key.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _KEY_WRITE_TIME_INFORMATION {
@@ -55,20 +65,18 @@ typedef struct _KEY_WRITE_TIME_INFORMATION {
 
 ## -struct-fields
 
+
+
+
 ### -field LastWriteTime
 
 Specifies the last time that the key was changed. This time value is expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ne-wdm-_key_set_information_class.md">KEY_SET_INFORMATION_CLASS</a>
-</dt>
-</dl>
+
  
 
  

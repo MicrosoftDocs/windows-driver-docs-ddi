@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eddb6cea-74fc-4faf-85fa-3a35d6890802
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetIoPriorityHint
+ms.keywords: wdm/IoGetIoPriorityHint, kernel.iogetiopriorityhint, k104_7d622ea7-68a8-4029-96d4-5c40d4f348de.xml, IoGetIoPriorityHint routine [Kernel-Mode Driver Architecture], IoGetIoPriorityHint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoGetIoPriorityHint
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoGetIoPriorityHint
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoGetIoPriorityHint function
 
 
-
 ## -description
+
+
 The <b>IoGetIoPriorityHint</b> routine gets the <a href="https://msdn.microsoft.com/c34afff2-32f2-451b-ab16-ff048d5c3204">priority hint value</a> from an IRP.
 
 
-
 ## -syntax
+
 
 ````
 IO_PRIORITY_HINT IoGetIoPriorityHint(
@@ -55,28 +65,34 @@ IO_PRIORITY_HINT IoGetIoPriorityHint(
 
 ## -parameters
 
+
+
+
 ### -param Irp [in]
 
 Specifies the IRP to obtain the priority hint from.
 
 
 ## -returns
+
+
 <b>IoGetIoPriorityHint</b> returns the <a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a> value that indicates the current priority hint.
 
 
+
 ## -remarks
+
+
 For more information about priority hints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565403">Using IRP Priority Hints</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iosetiopriorityhint.md">IoSetIoPriorityHint</a>
-</dt>
-</dl>
+
  
 
  

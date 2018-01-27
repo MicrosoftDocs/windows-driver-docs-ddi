@@ -7,8 +7,8 @@ old-location: debugger\getnumberprocessors.htm
 old-project: debugger
 ms.assetid: b3f4af4e-dbba-4f14-8935-f894865cbe7d
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugControl3, IDebugControl3::GetNumberProcessors, GetNumberProcessors
+ms.date: 1/19/2018
+ms.keywords: dbgeng/IDebugControl3::GetNumberProcessors, GetNumberProcessors, IDebugControl_0ddf74be-971f-4bd8-bdfd-4ceedfbbdc0f.xml, IDebugControl2::GetNumberProcessors, IDebugControl3 interface [Windows Debugging], GetNumberProcessors method, IDebugControl::GetNumberProcessors, debugger.getnumberprocessors, dbgeng/IDebugControl2::GetNumberProcessors, GetNumberProcessors method [Windows Debugging], IDebugControl2 interface, GetNumberProcessors method [Windows Debugging], dbgeng/IDebugControl::GetNumberProcessors, GetNumberProcessors method [Windows Debugging], IDebugControl interface, IDebugControl interface [Windows Debugging], GetNumberProcessors method, IDebugControl3::GetNumberProcessors, IDebugControl3, IDebugControl2 interface [Windows Debugging], GetNumberProcessors method, GetNumberProcessors method [Windows Debugging], IDebugControl3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugControl.GetNumberProcessors,IDebugControl2.GetNumberProcessors,IDebugControl3.GetNumberProcessors
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,36 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugControl.GetNumberProcessors
+-	IDebugControl2.GetNumberProcessors
+-	IDebugControl3.GetNumberProcessors
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugControl3::GetNumberProcessors method
 
 
-
 ## -description
+
+
 The <b>GetNumberProcessors</b> method returns the number of processors on the computer running the current target.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT GetNumberProcessors(
@@ -54,19 +66,41 @@ HRESULT GetNumberProcessors(
 
 ## -parameters
 
+
+
+
 ### -param Number [out]
 
 Receives the number of processors.
 
 
 ## -returns
+
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method was successful.
+</dl>
+</td>
+<td width="60%">
+The method was successful.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558860">Target Information</a>.</p>
+
+
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558860">Target Information</a>.
+
+

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ebf31c28-857b-4885-a910-16da5a011ce1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_OVERLAYINFOFLAGS, D3DDDI_OVERLAYINFOFLAGS
+ms.keywords: _D3DDDI_OVERLAYINFOFLAGS, d3dumddi/D3DDDI_OVERLAYINFOFLAGS, display.d3dddi_overlayinfoflags, D3DDDI_OVERLAYINFOFLAGS, D3D_other_Structs_3c20db45-e3b5-4e0e-96a6-d2171dbf309a.xml, D3DDDI_OVERLAYINFOFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_OVERLAYINFOFLAGS
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDI_OVERLAYINFOFLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_OVERLAYINFOFLAGS
 ---
 
 # _D3DDDI_OVERLAYINFOFLAGS structure
 
 
-
 ## -description
+
+
 The D3DDDI_OVERLAYINFOFLAGS structure identifies the type of overlay operation to perform.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_OVERLAYINFOFLAGS {
@@ -70,6 +80,9 @@ typedef struct _D3DDDI_OVERLAYINFOFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DstColorKey
 
@@ -169,15 +182,10 @@ This member is reserved and should be set to zero. Setting this member to zero i
 A member in the union that is contained in D3DDDI_OVERLAYINFOFLAGS that can hold one 32-bit value that identifies the type of overlay operation to perform.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a>
-</dt>
-</dl>
+
  
 
  

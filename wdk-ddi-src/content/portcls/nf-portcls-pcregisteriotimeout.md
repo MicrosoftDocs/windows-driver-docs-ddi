@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9cd7c366-1745-45b0-b9e9-87a259110621
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcRegisterIoTimeout
+ms.keywords: audpc-routines_1a63a1fa-c80a-4fe4-87d6-95543e6e2f1d.xml, PcRegisterIoTimeout function [Audio Devices], portcls/PcRegisterIoTimeout, PcRegisterIoTimeout, audio.pcregisteriotimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The PortCls system driver implements the PcRegisterIo
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PcRegisterIoTimeout
-req.alt-loc: Portcls.lib,Portcls.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Portcls.lib
+-	Portcls.dll
+apiname: 
+-	PcRegisterIoTimeout
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # PcRegisterIoTimeout function
 
 
-
 ## -description
+
+
 The <b>PcRegisterIoTimeout</b> function registers a driver-supplied I/O-timer callback routine for a specified device object.
 
 Once registered, the port-class driver calls the timer callback approximately once per second for as long as the device remains active.
-
-
+<div class="alert"><b>Note</b>  This function is deprecated for Windows 8 and later versions of Windows.  For Windows on Arm systems, this function is commented out in the PortCls class driver and is inaccessible.</div><div> </div>
 
 ## -syntax
+
 
 ````
 NTSTATUS PcRegisterIoTimeout(
@@ -57,6 +68,9 @@ NTSTATUS PcRegisterIoTimeout(
 
 
 ## -parameters
+
+
+
 
 ### -param pDeviceObject [in]
 
@@ -74,18 +88,43 @@ Pointer to the driver-specific context. When calling the I/O-timer callback rout
 
 
 ## -returns
+
+
 <b>PcRegisterIoTimeout</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code. The following table shows some of the possible error codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>Possibly indicates that a memory allocation failed inside the port-class driver.
+</dl>
+</td>
+<td width="60%">
+Possibly indicates that a memory allocation failed inside the port-class driver.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>Possibly indicates that a timer callback with the same combination of device object, I/O-timer callback routine, and context is already registered.
+</dl>
+</td>
+<td width="60%">
+Possibly indicates that a timer callback with the same combination of device object, I/O-timer callback routine, and context is already registered.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 An adapter driver calls the <b>PcRegisterIoTimeout</b> function to enable a low-resolution watchdog timer. Drivers use this function primarily to monitor devices that have no means to generate an event themselves if they fail to complete a previously initiated I/O operation within some maximum time interval.
 
 After the driver calls <b>PcRegisterIoTimeout</b>, the port-class driver calls the driver's I/O-timer callback routine approximately once per second for as long as the device remains active. (The device is activated by an IRP_MN_START_DEVICE request and deactivated by an IRP_MN_STOP_DEVICE request.)
@@ -97,19 +136,29 @@ Only one timer callback with a particular combination of device object, I/O-time
 The meaning of the <i>pContext</i> parameter is determined by the adapter driver, but the driver typically sets this parameter to point to an object such as the miniport, miniport-stream, or adapter object.
 
 The <i>pTimerRoutine </i>parameter is of type PIO_TIMER_ROUTINE, which is defined in ntddk.h to be
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>  VOID
+    (*PIO_TIMER_ROUTINE)(
+      IN PDEVICE_OBJECT  DeviceObject,
+      IN PVOID  Context
+      );</pre>
+</td>
+</tr>
+</table></span></div>The <i>DeviceObject</i> and <i>Context</i> parameters are the same values that the adapter driver previously passed as call parameters to <b>PcRegisterIoTimeout</b>. The port-class driver calls the timer routine at IRQL DISPATCH_LEVEL. The timer routine must not contain pageable code.
 
-The <i>DeviceObject</i> and <i>Context</i> parameters are the same values that the adapter driver previously passed as call parameters to <b>PcRegisterIoTimeout</b>. The port-class driver calls the timer routine at IRQL DISPATCH_LEVEL. The timer routine must not contain pageable code.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nf-portcls-pcunregisteriotimeout.md">PcUnregisterIoTimeout</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nf-portcls-pcunregisteriotimeout.md">PcUnregisterIoTimeout</a>
+
  
 
  

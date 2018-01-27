@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fec15098-3130-42d6-b889-579ecab6f162
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_OFFER_PRIORITY, D3DKMT_OFFER_PRIORITY
+ms.keywords: d3dkmthk/D3DKMT_OFFER_PRIORITY_LOW, D3DKMT_OFFER_PRIORITY_HIGH, d3dkmthk/D3DKMT_OFFER_PRIORITY_HIGH, d3dkmthk/D3DKMT_OFFER_PRIORITY_AUTO, _D3DKMT_OFFER_PRIORITY, d3dkmthk/D3DKMT_OFFER_PRIORITY_NORMAL, D3DKMT_OFFER_PRIORITY_NORMAL, D3DKMT_OFFER_PRIORITY enumeration [Display Devices], D3DKMT_OFFER_PRIORITY_LOW, display.d3dkmt_offer_priority, D3DKMT_OFFER_PRIORITY, D3DKMT_OFFER_PRIORITY_AUTO, d3dkmthk/D3DKMT_OFFER_PRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_OFFER_PRIORITY
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_OFFER_PRIORITY
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_OFFER_PRIORITY
 ---
 
 # _D3DKMT_OFFER_PRIORITY enumeration
 
 
-
 ## -description
+
+
 Indicates the importance of video memory resources  that the user-mode display driver offers for reuse.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3DKMT_OFFER_PRIORITY { 
@@ -56,6 +66,9 @@ typedef enum _D3DKMT_OFFER_PRIORITY {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DKMT_OFFER_PRIORITY_LOW
 
@@ -77,15 +90,10 @@ The allocation has useful content and cannot easily be regenerated. The video me
 The video memory manager should make a policy decision on the allocation's value based on its  priority for eviction.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_offerallocations.md">D3DKMT_OFFERALLOCATIONS</a>
-</dt>
-</dl>
+
  
 
  

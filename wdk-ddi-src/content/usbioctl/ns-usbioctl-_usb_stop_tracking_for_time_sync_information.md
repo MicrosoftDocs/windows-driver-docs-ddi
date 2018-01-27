@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: FFD7979B-48E9-433C-86A9-255F4F422BBA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, *PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
+ms.keywords: PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, buses.usb_stop_tracking_for_time_sync_information, *PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, usbioctl/USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION structure [Buses], usbioctl/PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION structure pointer [Buses], _USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
-req.alt-loc: usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbioctl.h
+apiname: 
+-	USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, *PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION structure
 
 
-
 ## -description
+
+
 The input buffer for the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_stop_tracking_for_time_sync.md">IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC</a> request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION {
@@ -55,20 +65,18 @@ typedef struct _USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION {
 
 ## -struct-fields
 
+
+
+
 ### -field TimeTrackingHandle
 
 The time racking handle received in the previous <a href="..\usbioctl\ni-usbioctl-ioctl_usb_stop_tracking_for_time_sync.md">IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC</a> request.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_stop_tracking_for_time_sync.md">IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC</a>
-</dt>
-</dl>
+
  
 
  

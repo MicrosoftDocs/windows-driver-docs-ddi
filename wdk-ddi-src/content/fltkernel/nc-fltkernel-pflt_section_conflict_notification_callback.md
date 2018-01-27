@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 22840772-7DFC-4339-9C06-4900E47048B4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IXpsPartIterator, IXpsPartIterator::Reset, Reset
+ms.keywords: ifsk.pflt_section_conflict_notification_callback, SectionNotificationCallback routine [Installable File System Drivers], SectionNotificationCallback, PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK, PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK, fltkernel/SectionNotificationCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The PFLT_CONTEXT_ALLOCATE_CALLBACK callback routine i
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SectionNotificationCallback
-req.alt-loc: fltkernel.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	fltkernel.h
+apiname: 
+-	SectionNotificationCallback
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK callback
 
 
-
 ## -description
+
+
 A minifilter driver can optionally register a routine of type PFLT_CONTEXT_ALLOCATE_CALLBACK as the minifilter driver's <i>SectionNotificationCallback</i> routine. Certain file operations are incompatible with file sections. If a minifilter provides a <i>SectionNotificationCallback</i> routine, the callback is called when section conflicts occur.
 
 
-
 ## -prototype
+
 
 ````
 PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK SectionNotificationCallback;
@@ -58,6 +68,9 @@ NTSTATUS SectionNotificationCallback(
 
 
 ## -parameters
+
+
+
 
 ### -param Instance [in]
 
@@ -75,30 +88,31 @@ A pointer to a caller-allocated structure that contains the callback data.
 
 
 ## -returns
+
+
 This callback routine returns STATUS_SUCCESS.
 
 
+
 ## -remarks
+
+
 A minifilter registers for section conflict notifications by setting a <i>PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK</i> routine to the <b>SectionNotificationCallback</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a> structure when registering a minifilter driver.
 
 Certain situations can occur where holding a section open is incompatible with current file I/O. In particular, file I/O that triggers a cache purge can cause cache incoherency if the cache purge is prevented because of an open section.  A minifilter can provide this optional callback routine for notifications of these events. When a notification is received, the section can be closed to allow the conflicting I/O operation to continue.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a>
+
  
 
  

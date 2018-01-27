@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 433babb7-9a53-4079-9a65-43a5ed0c201a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddirestartfromtimeout, DxgkDdiRestartFromTimeout callback function [Display Devices], DxgkDdiRestartFromTimeout, DXGKDDI_RESTARTFROMTIMEOUT, DXGKDDI_RESTARTFROMTIMEOUT, d3dkmddi/DxgkDdiRestartFromTimeout, DmFunctions_ba675ea3-7f25-446f-bf13-af2228aa1e65.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiRestartFromTimeout
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DxgkDdiRestartFromTimeout
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_RESTARTFROMTIMEOUT callback
 
 
-
 ## -description
+
+
 The <i>DxgkDdiRestartFromTimeout</i> function indicates that the driver can access the graphics processing unit (GPU) again after the recovery from a hardware timeout has completed.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_RESTARTFROMTIMEOUT DxgkDdiRestartFromTimeout;
@@ -57,30 +67,36 @@ NTSTATUS APIENTRY DxgkDdiRestartFromTimeout(
 
 ## -parameters
 
+
+
+
 ### -param hAdapter [in]
 
 [in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
 
 
 ## -returns
+
+
 <i>DxgkDdiRestartFromTimeout</i> returns STATUS_SUCCESS to indicate that the driver handled the call successfully; otherwise, the operating system bug checks and causes a restart. 
 
 
+
 ## -remarks
+
+
 The operating system calls the <i>DxgkDdiRestartFromTimeout</i> function after the recovery of a hardware tim-eout completes from the operating system's perspective (for example, all of the system-managed resources, mappings, and so on are released). The <i>DxgkDdiRestartFromTimeout</i> function indicates that the driver can begin to access the GPU and release any driver-managed resources. However, most drivers might not be required to perform any actions during a call to <i>DxgkDdiRestartFromTimeout</i>. Regardless of whether <i>DxgkDdiRestartFromTimeout</i> performs any actions, it must still be implemented and can simply return STATUS_SUCCESS immediately.
 
 <i>DxgkDdiRestartFromTimeout</i> should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetfromtimeout.md">DxgkDdiResetFromTimeout</a>
-</dt>
-</dl>
+
  
 
  

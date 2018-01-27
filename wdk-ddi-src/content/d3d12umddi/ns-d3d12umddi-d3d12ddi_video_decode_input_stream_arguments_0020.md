@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B956626C-B5D7-4217-A90A-EC7E436DF6C0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020, D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020
+ms.keywords: display.d3d12ddi_video_decode_input_stream_arguments, D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS, D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020
 ---
 
 # D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020 structure
 
 
-
 ## -description
+
+
 Specifies input stream arguments.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020 {
@@ -58,14 +68,17 @@ typedef struct D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020 {
 
 ## -struct-fields
 
+
+
+
 ### -field FrameArguments
 
 The arguments to decode each frame.
 
 
-### -field FrameParametersCount
+### -field FrameArgumentsCount
 
-The count of frame arguments.
+ 
 
 
 ### -field ReferenceFrames
@@ -83,18 +96,17 @@ The compressed bitstream.  All source video slices should be placed contiguously
 Decryption parameters.  When decryption is not used, this structure is zero initialized.
 
 
-## -remarks
+#### - FrameParametersCount
+
+The count of frame arguments.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_compressed_bitstream_0020.md">D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM</a>
-</dt>
-<dt>
+
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_reference_frames_0020.md">D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES</a>
-</dt>
-</dl>
+
  
 
  

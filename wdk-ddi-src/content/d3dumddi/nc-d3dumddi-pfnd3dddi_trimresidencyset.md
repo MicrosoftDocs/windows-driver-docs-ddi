@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 192F419C-F38F-4B42-8111-86D58D6781DA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.pfntrimresidencyset, pfnTrimResidencySet callback function [Display Devices], pfnTrimResidencySet, PFND3DDDI_TRIMRESIDENCYSET, PFND3DDDI_TRIMRESIDENCYSET, d3dukmdt/pfnTrimResidencySet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnTrimResidencySet
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	pfnTrimResidencySet
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_TRIMRESIDENCYSET callback
 
 
-
 ## -description
+
+
 <b>pfnTrimResidencySet</b> is used to trim the residency list for a given device. User mode drivers are required to implement this callback in order to participate in the new memory residency model.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_TRIMRESIDENCYSET pfnTrimResidencySet;
@@ -58,12 +68,22 @@ HRESULT APIENTRY CALLBACK* pfnTrimResidencySet(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
 A handle to the display device.
 
 
-### -param pData [in]
+### -param *
+
+
+
+
+
+
+#### - pData [in]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_trimresidencyset.md">D3DDDIARG_TRIMRESIDENCYSET</a> structure that provides the details of the requested operation.
 
@@ -71,18 +91,16 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_trimresidencyset.md">D
 
 
 ## -returns
+
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_trimresidencyset.md">D3DDDIARG_TRIMRESIDENCYSET</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 605E2353-8C82-4005-BB72-4CB44146A253
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbControllerSetIoOtherCallback
+ms.keywords: SpbControllerSetIoOtherCallback method [Buses], spbcx/SpbControllerSetIoOtherCallback, SPB.spbcontrollersetioothercallback, SpbControllerSetIoOtherCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SpbControllerSetIoOtherCallback
-req.alt-loc: spbcxstubs.lib,spbcxstubs.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	spbcxstubs.lib
+-	spbcxstubs.dll
+apiname: 
+-	SpbControllerSetIoOtherCallback
+product: Windows
+targetos: Windows
 req.typenames: *PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # SpbControllerSetIoOtherCallback function
 
 
-
 ## -description
+
+
 The <b>SpbControllerSetIoOtherCallback</b> method registers an SPB controller driver's <a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a> callback function.
 
 
-
 ## -syntax
+
 
 ````
 VOID SpbControllerSetIoOtherCallback(
@@ -56,6 +67,9 @@ VOID SpbControllerSetIoOtherCallback(
 
 
 ## -parameters
+
+
+
 
 ### -param FxDevice [in]
 
@@ -73,10 +87,15 @@ A pointer to an <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 This method provides a way for your SPB controller driver to declare its support for custom I/O control codes (IOCTLs) that are bus-specific or driver-specific. If the SPB controller driver does not call this method, SpbCx rejects all such I/O control requests, and the SPB controller driver never sees them.
 
 SpbCx manages the I/O queue for the SPB controller. By default, if SpbCx receives an I/O control request that has an IOCTL that it does not support, SpbCx completes the request with error status code STATUS_INVALID_DEVICE_REQUEST.
@@ -90,18 +109,15 @@ The optional <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md"
 The SPB controller driver must call this method before it <i>commits</i> the device object—that is, before it returns from the <i>EvtDriverDeviceAdd</i> callback or adds the PDO to the controller's child list. The child list represents the devices that are attached to the bus. For more information, see <a href="https://msdn.microsoft.com/5731db82-2bc8-4a8d-98f1-3977845f572c">Enumerating the Devices on a Bus</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450908">SpbControllerSetRequestAttributes</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
+
  
 
  

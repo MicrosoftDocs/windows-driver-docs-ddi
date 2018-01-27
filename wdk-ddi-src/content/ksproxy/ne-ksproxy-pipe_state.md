@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: A3053A39-5DB6-4DB8-89ED-63ABDB1CD16F
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PIPE_STATE, PIPE_STATE
+ms.keywords: PIPE_STATE, PipeState_CompressionUnknown, ksproxy/PipeState_Finalized, ksproxy/PipeState_RangeFixed, PipeState_DontCare, stream.pipe_state, PipeState_RangeFixed, PIPE_STATE enumeration [Streaming Media Devices], PipeState_RangeNotFixed, ksproxy/PIPE_STATE, PipeState_Finalized, ksproxy/PipeState_DontCare, ksproxy/PipeState_RangeNotFixed, ksproxy/PipeState_CompressionUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PIPE_STATE
-req.alt-loc: Ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ksproxy.h
+apiname: 
+-	PIPE_STATE
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # PIPE_STATE enumeration
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: PIPE_STATE
 
 
 
+
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -58,19 +68,25 @@ typedef enum  {
 
 ## -enum-fields
 
+
+
+
 ### -field PipeState_DontCare
+
 
 
 ### -field PipeState_RangeNotFixed
 
 
+
 ### -field PipeState_RangeFixed
+
 
 
 ### -field PipeState_CompressionUnknown
 
 
+
 ### -field PipeState_Finalized
 
 
-## -remarks

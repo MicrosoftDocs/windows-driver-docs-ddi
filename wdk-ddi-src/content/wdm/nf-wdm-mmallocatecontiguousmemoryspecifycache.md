@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e35544ed-d113-476e-85a8-6b3f613c1dc2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmAllocateContiguousMemorySpecifyCache
+ms.keywords: MmAllocateContiguousMemorySpecifyCache routine [Kernel-Mode Driver Architecture], wdm/MmAllocateContiguousMemorySpecifyCache, kernel.mmallocatecontiguousmemoryspecifycache, k106_764af538-9f9b-432b-af6a-4a6b7addd95d.xml, MmAllocateContiguousMemorySpecifyCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MmAllocateContiguousMemorySpecifyCache
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	MmAllocateContiguousMemorySpecifyCache
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # MmAllocateContiguousMemorySpecifyCache function
 
 
-
 ## -description
+
+
 The <b>MmAllocateContiguousMemorySpecifyCache</b> routine allocates a range of contiguous, nonpaged physical memory and maps it to the system address space.
 
 
-
 ## -syntax
+
 
 ````
 PVOID MmAllocateContiguousMemorySpecifyCache(
@@ -58,6 +68,9 @@ PVOID MmAllocateContiguousMemorySpecifyCache(
 
 
 ## -parameters
+
+
+
 
 ### -param NumberOfBytes [in]
 
@@ -85,10 +98,15 @@ Specifies a <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE<
 
 
 ## -returns
+
+
 <b>MmAllocateContiguousMemorySpecifyCache</b> returns the base virtual address for the allocated memory. If the system is unable to allocate the requested buffer, the routine returns <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 <b>MmAllocateContiguousMemorySpecifyCache</b> allocates a block of nonpaged memory that is contiguous in physical address space. The routine maps this block to a contiguous block of virtual memory in the system address space and returns the virtual address of the base of this block. The routine aligns the starting address of a contiguous memory allocation to a memory page boundary.
 
 Drivers must not access memory beyond the requested allocation size. For example, developers should not assume that their drivers can safely use memory between the end of their requested allocation and the next page boundary.
@@ -98,17 +116,15 @@ Because contiguous physical memory is usually in short supply, it should be used
 Memory allocated by <b>MmAllocateContiguousMemorySpecifyCache</b> must be freed when the memory is no longer needed. Call the <a href="..\wdm\nf-wdm-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a> routine to free memory that is allocated by <b>MmAllocateContiguousMemorySpecifyCache</b>.
 
 If you specify a nonzero value for the <i>BoundaryAddressMultiple</i> parameter, the physical address range of the allocated memory block will not cross an address boundary that is an integer multiple of this value. A driver should set this parameter to zero unless a nonzero value is required to work around a hardware limitation. For example, if a device cannot transfer data across 16-megabyte physical boundaries, the driver should specify a value of 0x1000000 for this parameter to ensure that the addresses that the device sees do not wrap around at a 16-megabyte boundary.
+<div class="alert"><b>Note</b>  If you use the <b>MmAllocateContiguousMemorySpecifyCache</b> routine on computers with large amounts of memory, the operating system's performance might severely degrade when the system tries to create a contiguous chunk of memory. This degradation is greatly reduced starting with Windows Vista SP1 and Windows Server 2008, but contiguous memory can still be expensive to allocate. For this reason, drivers should avoid repeated calls to <b>MmAllocateContiguousMemorySpecifyCache</b>. Instead, drivers should allocate all required contiguous buffers in their <b>DriverEntry</b> routines and reuse these buffers.</div><div> </div><div class="alert"><b>Note</b>  Memory that <b>MmAllocateContiguousMemorySpecifyCache</b> allocates is uninitialized. A kernel-mode driver must first zero this memory if it is going to make it visible to user-mode software (to avoid leaking potentially privileged contents).</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a>
-</dt>
-</dl>
+
  
 
  

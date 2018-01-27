@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ed085787-6731-42b5-9e19-adedbad11a9c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlNormalizeNtstatus
+ms.keywords: FsRtlNormalizeNtstatus, ntifs/FsRtlNormalizeNtstatus, ifsk.fsrtlnormalizentstatus, FsRtlNormalizeNtstatus routine [Installable File System Drivers], fsrtlref_f31a9a77-7deb-4919-bfae-874958b15c7f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlNormalizeNtstatus
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlNormalizeNtstatus
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlNormalizeNtstatus function
 
 
-
 ## -description
+
+
 The <b>FsRtlNormalizeNtstatus</b> routine translates an arbitrary exception into a status value that is handled by the exception filter.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlNormalizeNtstatus(
@@ -54,6 +64,9 @@ NTSTATUS FsRtlNormalizeNtstatus(
 
 
 ## -parameters
+
+
+
 
 ### -param Exception [in]
 
@@ -66,18 +79,16 @@ Generic status value to return if <i>Exception</i> is not within the set of exce
 
 
 ## -returns
+
+
 <b>FsRtlNormalizeNtstatus</b> returns <i>Exception</i> if the status value is handled by the exception filter, <i>GenericException</i> otherwise.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisntstatusexpected.md">FsRtlIsNtstatusExpected</a>
-</dt>
-</dl>
+
  
 
  

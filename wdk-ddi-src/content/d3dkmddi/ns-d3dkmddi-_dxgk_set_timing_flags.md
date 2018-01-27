@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BB10EBD3-2CB6-4854-994D-B10929CB27FC
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_SET_TIMING_FLAGS, DXGK_SET_TIMING_FLAGS
+ms.keywords: DXGK_SET_TIMING_FLAGS, PDXGK_SET_TIMING_FLAGS structure pointer [Display Devices], _DXGK_SET_TIMING_FLAGS, DXGK_SET_TIMING_FLAGS structure [Display Devices], d3dkmddi/DXGK_SET_TIMING_FLAGS, display.dxgk_set_timing_flags, PDXGK_SET_TIMING_FLAGS, d3dkmddi/PDXGK_SET_TIMING_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_SET_TIMING_FLAGS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_SET_TIMING_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_SET_TIMING_FLAGS
 ---
 
 # _DXGK_SET_TIMING_FLAGS structure
 
 
-
 ## -description
+
+
 Structure to hold flags used to modify SetTiming behavior.  Currently no flags are defined.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_SET_TIMING_FLAGS {
@@ -59,6 +69,9 @@ typedef struct _DXGK_SET_TIMING_FLAGS {
 
 ## -struct-fields
 
+
+
+
 ### -field Reserved
 
 This value is reserved for system use.
@@ -68,5 +81,3 @@ This value is reserved for system use.
 
 UINT used to operate on the combined bit-fields.
 
-
-## -remarks

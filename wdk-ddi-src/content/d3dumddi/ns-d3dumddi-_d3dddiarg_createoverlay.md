@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 74252431-5250-408a-91cc-cc529396f720
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_CREATEOVERLAY, D3DDDIARG_CREATEOVERLAY
+ms.keywords: D3DDDIARG_CREATEOVERLAY, display.d3dddiarg_createoverlay, d3dumddi/D3DDDIARG_CREATEOVERLAY, D3DDDIARG_CREATEOVERLAY structure [Display Devices], _D3DDDIARG_CREATEOVERLAY, UMDisplayDriver_param_Structs_3261a00d-4b26-4c64-a5e0-abd453aee84c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_CREATEOVERLAY
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_CREATEOVERLAY
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_CREATEOVERLAY
 ---
 
 # _D3DDDIARG_CREATEOVERLAY structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_CREATEOVERLAY structure describes an overlay to create. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_CREATEOVERLAY {
@@ -55,6 +65,9 @@ typedef struct _D3DDDIARG_CREATEOVERLAY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field VidPnSourceId
 
@@ -71,18 +84,12 @@ typedef struct _D3DDDIARG_CREATEOVERLAY {
 [out] A handle to the overlay. The user-mode display driver must set this handle to a value that the Microsoft Direct3D runtime can use to identify the overlay hardware in subsequent calls.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlay.md">CreateOverlay</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlay.md">CreateOverlay</a>
+
  
 
  

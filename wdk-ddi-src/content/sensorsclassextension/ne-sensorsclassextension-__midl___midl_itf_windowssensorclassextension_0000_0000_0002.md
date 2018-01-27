@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 63df4f99-ddc2-4a0b-b19b-63390771d529
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002, SensorConnectionType
+ms.keywords: Sensor_Enums_bca4556b-94f3-4213-9daa-3571f403d556.xml, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_ATTACHED, sensorsclassextension/SensorConnectionType, SensorConnectionType, __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_EXTERNAL, SENSOR_CONNECTION_TYPE_PC_ATTACHED, SENSOR_CONNECTION_TYPE_PC_EXTERNAL, SENSOR_CONNECTION_TYPE_PC_INTEGRATED, SensorConnectionType enumeration [Sensor Devices], sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_INTEGRATED, sensors.sensorconnectiontype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 7,Available in Windows 7.
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SensorConnectionType
-req.alt-loc: SensorsClassExtension.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	SensorsClassExtension.h
+apiname: 
+-	SensorConnectionType
+product: Windows
+targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002 enumeration
 
 
-
 ## -description
+
+
 The <b>SensorConnectionType</b> enumeration type defines values for the <a href="https://msdn.microsoft.com/1BF1568D-A889-4158-9C6D-160D9B06F0DE">SENSOR_CONNECTION_TYPE</a> property.
 
 
-
 ## -syntax
+
 
 ````
 enum SensorConnectionType {
@@ -57,6 +67,9 @@ enum SensorConnectionType {
 
 
 ## -enum-fields
+
+
+
 
 ### -field SENSOR_CONNECTION_TYPE_PC_INTEGRATED
 
@@ -73,18 +86,12 @@ Indicates that the sensor is attached to the computer, such as through a periphe
 Indicates that the sensor is connected by external means, such as through a network connection.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545610">ISensorDriver::OnGetProperties</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn957027">Enumeration properties</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545610">ISensorDriver::OnGetProperties</a>
+
  
 
  

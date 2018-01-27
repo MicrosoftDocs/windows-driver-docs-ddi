@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 9dafa65f-26f6-42a6-a125-013c61a66ccc
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, *PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, WHEA_PSHED_PLUGIN_REGISTRATION_PACKET
+ms.keywords: WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure [WHEA Drivers and Applications], _WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure pointer [WHEA Drivers and Applications], ntddk/WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, *PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, ntddk/PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, whearef_9e79e188-a1ce-4d98-a15d-a45c27f9e836.xml, WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, whea.whea_pshed_plugin_registration_packet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_PSHED_PLUGIN_REGISTRATION_PACKET
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, WHEA_PSHED_PLUGIN_REGISTRATION_PACKET
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_PSHED_PLUGIN_REGISTRATION_PACKET
+product: Windows
+targetos: Windows
+req.typenames: WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, *PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET
 ---
 
 # _WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure
 
 
-
 ## -description
+
+
 The WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure describes the data required for registering a PSHED plug-in with the PSHED.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WHEA_PSHED_PLUGIN_REGISTRATION_PACKET {
@@ -58,6 +68,9 @@ typedef struct _WHEA_PSHED_PLUGIN_REGISTRATION_PACKET {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Length
 
@@ -81,38 +94,6 @@ A bit-wise OR'ed combination of flags that specifies the functional areas in whi
 
 
 
-### -field PshedFADiscovery
-
-The PSHED plug-in participates in error source discovery.
-
-
-### -field PshedFAErrorSourceControl
-
-The PSHED plug-in participates in error source control.
-
-
-### -field PshedFAErrorRecordPersistence
-
-The PSHED plug-in participates in error record persistence.
-
-
-### -field PshedFAErrorInfoRetrieval
-
-The PSHED plug-in participates in error information retrieval.
-
-
-### -field PshedFAErrorRecovery
-
-The PSHED plug-in participates in error recovery.
-
-
-### -field PshedFAErrorInjection
-
-The PSHED plug-in participates in error injection.
-
-</dd>
-</dl>
-
 ### -field Reserved
 
 Reserved for system use. PSHED plug-ins should set this member to zero.
@@ -123,19 +104,49 @@ Reserved for system use. PSHED plug-ins should set this member to zero.
 A <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_callbacks.md">WHEA_PSHED_PLUGIN_CALLBACKS</a> structure that describes the callback functions for the PSHED plug-in.
 
 
+##### - FunctionalAreaMask.PshedFAErrorInjection
+
+The PSHED plug-in participates in error injection.
+
+
+##### - FunctionalAreaMask.PshedFAErrorRecovery
+
+The PSHED plug-in participates in error recovery.
+
+
+##### - FunctionalAreaMask.PshedFAErrorRecordPersistence
+
+The PSHED plug-in participates in error record persistence.
+
+
+##### - FunctionalAreaMask.PshedFAErrorSourceControl
+
+The PSHED plug-in participates in error source control.
+
+
+##### - FunctionalAreaMask.PshedFADiscovery
+
+The PSHED plug-in participates in error source discovery.
+
+
+##### - FunctionalAreaMask.PshedFAErrorInfoRetrieval
+
+The PSHED plug-in participates in error information retrieval.
+
+
 ## -remarks
+
+
 A PSHED plug-in passes an initialized WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure to the <a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a> function when it registers itself with the PSHED.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_callbacks.md">WHEA_PSHED_PLUGIN_CALLBACKS</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
+
  
 
  

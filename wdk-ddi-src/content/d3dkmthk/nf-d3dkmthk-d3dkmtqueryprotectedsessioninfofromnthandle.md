@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 04eff7e1-1ac3-4622-a837-1ea6aad97329
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTQueryProtectedSessionInfoFromNtHandle
+ms.keywords: D3DKMTQueryProtectedSessionInfoFromNtHandle method [Display Devices], display.d3dkmtqueryprotectedsessioninfofromnthandle, D3DKMTQueryProtectedSessionInfoFromNtHandle, d3dkmthk/D3DKMTQueryProtectedSessionInfoFromNtHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTQueryProtectedSessionInfoFromNtHandle
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,24 +26,36 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMTQueryProtectedSessionInfoFromNtHandle
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTQueryProtectedSessionInfoFromNtHandle function
 
 
-
 ## -description
+
+
 Used to get information on the protected session.
 			
             
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS  D3DKMTQueryProtectedSessionInfoFromNtHandle(
@@ -56,14 +66,19 @@ NTSTATUS  D3DKMTQueryProtectedSessionInfoFromNtHandle(
 
 ## -parameters
 
-### -param D3dkmt_queryprotectedsessioninfofromnthandle 
+
+
+
+
+#### - D3dkmt_queryprotectedsessioninfofromnthandle
 
 Holds session information from the NT handle.
 
 
 ## -returns
 
+
+
 Returns STATUS_SUCCESS when completed successfully.
 
 
-## -remarks

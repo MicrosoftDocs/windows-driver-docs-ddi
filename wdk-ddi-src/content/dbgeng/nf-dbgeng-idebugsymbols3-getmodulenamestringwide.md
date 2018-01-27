@@ -7,8 +7,8 @@ old-location: debugger\getmodulenamestringwide.htm
 old-project: debugger
 ms.assetid: e1b756b9-394a-4ec4-845e-867460998086
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugSymbols3, IDebugSymbols3::GetModuleNameStringWide, GetModuleNameStringWide
+ms.date: 1/19/2018
+ms.keywords: GetModuleNameStringWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetModuleNameStringWide, GetModuleNameStringWide method [Windows Debugging], IDebugSymbols3, GetModuleNameStringWide, IDebugSymbols3 interface [Windows Debugging], GetModuleNameStringWide method, dbgeng/IDebugSymbols3::GetModuleNameStringWide, debugger.getmodulenamestringwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugSymbols3.GetModuleNameStringWide
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugSymbols3.GetModuleNameStringWide
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetModuleNameStringWide method
 
 
-
 ## -description
+
+
 The <b>GetModuleNameStringWide</b>  method returns the name of the specified module.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT GetModuleNameStringWide(
@@ -59,10 +69,12 @@ HRESULT GetModuleNameStringWide(
 
 ## -parameters
 
+
+
+
 ### -param Which [in]
 
 Specifies which of the module's names to return, possible values are:
-
 <table>
 <tr>
 <th>Value</th>
@@ -118,8 +130,7 @@ The mapped image name.  In most cases, this is <b>NULL</b>. If the debugger is m
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Index [in]
@@ -148,33 +159,56 @@ Receives the size in characters of the module's name.  If <i>NameSize</i> is <b>
 
 
 ## -returns
+
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method was successful.
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_FALSE</b></dt>
-</dl>The method was successful. However, the size of the buffer was smaller than the size of the module's name so it was truncated to fit in the buffer.
+</dl>
+</td>
+<td width="60%">
+The method was successful. However, the size of the buffer was smaller than the size of the module's name so it was truncated to fit in the buffer.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 For more information about modules, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552231">Modules</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547146">GetModuleNames</a>
-</dt>
-</dl>
- 
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols3::GetModuleNameStringWide method%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols3::GetModuleNameStringWide method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

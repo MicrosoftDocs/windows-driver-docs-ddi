@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: B832554C-FB37-416F-9586-EFAB5A3633E5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, *PSERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS
+ms.keywords: 2/SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED, 2/SERCX2_CUSTOM_RECEIVE_NO_PROGRESS, serports.sercx2_custom_receive_transaction_progress, *PSERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS enumeration [Serial Ports], SERCX2_CUSTOM_RECEIVE_NO_PROGRESS, _SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED, SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, 2/SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS
-req.alt-loc: 2.0\Sercx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL
-req.typenames: SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, *PSERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	2.0\Sercx.h
+apiname: 
+-	SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS
+product: Windows
+targetos: Windows
+req.typenames: *PSERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS
 req.product: Windows 10 or later.
 ---
 
 # _SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS enumeration
 
 
-
 ## -description
+
+
 The <b>SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</b> enumeration defines constants that indicate whether process is being made toward completing a custom-receive transaction.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS { 
@@ -56,26 +66,39 @@ typedef enum _SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS {
 
 ## -enum-fields
 
-### -field SERCX2_CUSTOM_RECEIVE_NO_PROGRESS
+
+
+
+### -field SerCx2CustomReceiveTransactionNoProgress
+
+
+
+### -field SerCx2CustomReceiveTransactionBytesTransferred
+
+
+
+
+#### - SERCX2_CUSTOM_RECEIVE_NO_PROGRESS
 
 No progress is being made. This value indicates that no data bytes have been transferred in the current custom-receive transaction since either the previous progress report or the start of the transaction, whichever is more recent.
 
 
-### -field SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED
+#### - SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED
 
 Progress is being made. This value indicates that one or more bytes of data have been transferred in the current custom-receive transaction since either the previous progress report or the start of the transaction, whichever is more recent.
 
 
 ## -remarks
+
+
 The constants in this enumeration are used by the <a href="..\sercx\nf-sercx-sercx2customreceivetransactionreportprogress.md">SerCx2CustomReceiveTransactionReportProgress</a> method.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\sercx\nf-sercx-sercx2customreceivetransactionreportprogress.md">SerCx2CustomReceiveTransactionReportProgress</a>
-</dt>
-</dl>
+
  
 
  

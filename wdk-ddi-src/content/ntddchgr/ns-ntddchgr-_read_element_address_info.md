@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5fc5b38e-8eef-4ba0-9f29-025df55e4525
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _READ_ELEMENT_ADDRESS_INFO, READ_ELEMENT_ADDRESS_INFO, *PREAD_ELEMENT_ADDRESS_INFO
+ms.keywords: _READ_ELEMENT_ADDRESS_INFO, READ_ELEMENT_ADDRESS_INFO, PREAD_ELEMENT_ADDRESS_INFO, ntddchgr/READ_ELEMENT_ADDRESS_INFO, ntddchgr/PREAD_ELEMENT_ADDRESS_INFO, READ_ELEMENT_ADDRESS_INFO structure [Storage Devices], PREAD_ELEMENT_ADDRESS_INFO structure pointer [Storage Devices], structs-changer_5137d1a1-82bb-4333-b555-45bc1c8cc0bf.xml, storage.read_element_address_info, *PREAD_ELEMENT_ADDRESS_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: READ_ELEMENT_ADDRESS_INFO
-req.alt-loc: ntddchgr.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: READ_ELEMENT_ADDRESS_INFO, *PREAD_ELEMENT_ADDRESS_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddchgr.h
+apiname: 
+-	READ_ELEMENT_ADDRESS_INFO
+product: Windows
+targetos: Windows
+req.typenames: *PREAD_ELEMENT_ADDRESS_INFO, READ_ELEMENT_ADDRESS_INFO
 ---
 
 # _READ_ELEMENT_ADDRESS_INFO structure
 
 
-
 ## -description
+
+
 This structure is to retrieve changer elements based on a search criterion specified in a call to the <a href="..\mcd\nf-mcd-changerqueryvolumetags.md">ChangerQueryVolumeTags</a> routine. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _READ_ELEMENT_ADDRESS_INFO {
@@ -55,6 +65,9 @@ typedef struct _READ_ELEMENT_ADDRESS_INFO {
 
 ## -struct-fields
 
+
+
+
 ### -field NumberOfElements
 
 Indicates the number of elements that matched the criteria specified by <b>ActionCode</b> and <b>VolumeTemplateID</b> in the <a href="..\ntddchgr\ns-ntddchgr-_changer_send_volume_tag_information.md">CHANGER_SEND_VOLUME_TAG_INFORMATION</a> structure passed to the driver. If no element matches the criteria, this member is zero.
@@ -65,24 +78,16 @@ Indicates the number of elements that matched the criteria specified by <b>Actio
 Contains an array holding the first <a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a> structure that matched the criteria in the CHANGER_SEND_VOLUME_TAG_INFORMATION structure passed to the driver. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddchgr\ns-ntddchgr-_changer_send_volume_tag_information.md">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
-</dt>
-<dt>
+
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
-</dt>
-<dt>
+
 <a href="..\mcd\nf-mcd-changerqueryvolumetags.md">ChangerQueryVolumeTags</a>
-</dt>
-</dl>
+
  
 
  

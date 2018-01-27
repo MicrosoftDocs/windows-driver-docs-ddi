@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: a911fab9-516f-4ac5-ae33-1b6e218f9349
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: _ACPI_EVAL_INPUT_BUFFER_V1, *PACPI_EVAL_INPUT_BUFFER, ACPI_EVAL_INPUT_BUFFER_V1, *PACPI_EVAL_INPUT_BUFFER_V1, ACPI_EVAL_INPUT_BUFFER
+ms.keywords: acpiioct/PACPI_EVAL_INPUT_BUFFER_V1, acpi.acpi_eval_input_buffer, _ACPI_EVAL_INPUT_BUFFER_V1, acpiioct/ACPI_EVAL_INPUT_BUFFER_V1, acpi-meth-eval-ref_fda162bd-f908-46bf-a5a9-66daeb6b6aaf.xml, PACPI_EVAL_INPUT_BUFFER_V1 structure pointer [ACPI Devices], ACPI_EVAL_INPUT_BUFFER, *PACPI_EVAL_INPUT_BUFFER, PACPI_EVAL_INPUT_BUFFER_V1, ACPI_EVAL_INPUT_BUFFER_V1 structure [ACPI Devices], ACPI_EVAL_INPUT_BUFFER_V1, *PACPI_EVAL_INPUT_BUFFER_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ACPI_EVAL_INPUT_BUFFER_V1
-req.alt-loc: Acpiioct.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PACPI_EVAL_INPUT_BUFFER, ACPI_EVAL_INPUT_BUFFER_V1, *PACPI_EVAL_INPUT_BUFFER_V1, ACPI_EVAL_INPUT_BUFFER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Acpiioct.h
+apiname: 
+-	ACPI_EVAL_INPUT_BUFFER_V1
+product: Windows
+targetos: Windows
+req.typenames: ACPI_EVAL_INPUT_BUFFER, *PACPI_EVAL_INPUT_BUFFER, ACPI_EVAL_INPUT_BUFFER_V1, *PACPI_EVAL_INPUT_BUFFER_V1
 ---
 
 # _ACPI_EVAL_INPUT_BUFFER_V1 structure
 
 
-
 ## -description
+
+
 The ACPI_EVAL_INPUT_BUFFER structure is used as input to an <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method.md">IOCTL_ACPI_EVAL_METHOD</a> request and to an <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method.md">IOCTL_ACPI_ASYNC_EVAL_METHOD</a> request. The structure supplies the name of a control method that does not take an input argument.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ACPI_EVAL_INPUT_BUFFER_V1 {
@@ -58,45 +68,51 @@ typedef struct _ACPI_EVAL_INPUT_BUFFER_V1 {
 
 ## -struct-fields
 
-### -field Signature
 
-The signature of an input buffer that does not include an argument, which must be set to ACPI_EVAL_INPUT_BUFFER_SIGNATURE.
 
 
 ### -field DUMMYUNIONNAME
 
 
-### -field MethodName
+
+### -field DUMMYUNIONNAME.MethodName
 
 A four-element ASCII character array that contains the name of a control method, for example, 'ABCD.' 
 
 
-### -field MethodNameAsUlong
+### -field DUMMYUNIONNAME.MethodNameAsUlong
 
 A value of type ULONG that contains the name of the method in the format (ULONG) ('DCBA'), where the method name is the four-element ASCII character array 'ABCD.' 
 
-</dd>
-</dl>
+
+### -field Signature
+
+The signature of an input buffer that does not include an argument, which must be set to ACPI_EVAL_INPUT_BUFFER_SIGNATURE.
+
 
 ## -remarks
-If a device supports a control method named 'ABCD' that does not take an input argument, a driver for the device can evaluate the method by sending an IOCTL_ACPI_EVAL_METHOD request or an IOCTL_ACPI_ASYNC_EVAL_METHOD request to the device and setting the members of the input ACPI_EVAL_INPUT_BUFFER structure as follows:
 
+
+If a device supports a control method named 'ABCD' that does not take an input argument, a driver for the device can evaluate the method by sending an IOCTL_ACPI_EVAL_METHOD request or an IOCTL_ACPI_ASYNC_EVAL_METHOD request to the device and setting the members of the input ACPI_EVAL_INPUT_BUFFER structure as follows:
+<ul>
+<li>
 Set <b>Signature</b> to ACPI_EVAL_INPUT_BUFFER_SIGNATURE.
 
+</li>
+<li>
 Set <b>MethodName</b> to 'ABCD' or <b>MethodNameAsUlong</b> to (ULONG)('DCBA').
 
-For more information about how to use this structure, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/evaluating-acpi-control-methods">Evaluating ACPI Control Methods</a>.
+</li>
+</ul>For more information about how to use this structure, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/evaluating-acpi-control-methods">Evaluating ACPI Control Methods</a>.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method.md">IOCTL_ACPI_EVAL_METHOD</a>
-</dt>
-<dt>
+
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method.md">IOCTL_ACPI_ASYNC_EVAL_METHOD</a>
-</dt>
-</dl>
+
  
 
  

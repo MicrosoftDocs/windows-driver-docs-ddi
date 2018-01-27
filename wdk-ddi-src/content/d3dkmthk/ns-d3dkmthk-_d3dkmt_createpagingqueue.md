@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F7C2847F-D095-4A79-ADBB-DA0745E3192A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_CREATEPAGINGQUEUE, D3DKMT_CREATEPAGINGQUEUE
+ms.keywords: D3DKMT_CREATEPAGINGQUEUE structure [Display Devices], d3dkmthk/D3DKMT_CREATEPAGINGQUEUE, display.d3dkmt_createpagingqueue, _D3DKMT_CREATEPAGINGQUEUE, D3DKMT_CREATEPAGINGQUEUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_CREATEPAGINGQUEUE
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_CREATEPAGINGQUEUE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_CREATEPAGINGQUEUE
 ---
 
 # _D3DKMT_CREATEPAGINGQUEUE structure
 
 
-
 ## -description
+
+
 <b>D3DKMT_CREATEPAGINGQUEUE</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatepagingqueue.md">D3DKMTCreatePagingQueue</a> to create a device paging queue that can be used to synchronize with video memory management operations for the device, such as making the device resource resident.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_CREATEPAGINGQUEUE {
@@ -58,6 +68,9 @@ typedef struct _D3DKMT_CREATEPAGINGQUEUE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -90,18 +103,18 @@ typedef struct _D3DKMT_CREATEPAGINGQUEUE {
 
 
 ## -remarks
+
+
 A device can have multiple paging queues created for it. Paging queues can be destroyed either explicitly by calling <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroypagingqueue.md">D3DKMTDestroyPagingQueue</a>, or by implicitly destroying the device they belong to. After the latter, paging queue handles will become invalid.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatepagingqueue.md">D3DKMTCreatePagingQueue</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroypagingqueue.md">D3DKMTDestroyPagingQueue</a>
-</dt>
-</dl>
+
  
 
  

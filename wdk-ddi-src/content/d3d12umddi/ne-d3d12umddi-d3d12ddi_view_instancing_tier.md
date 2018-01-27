@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4d52ddb2-818f-4b46-b19f-d6eea36a07da
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIEW_INSTANCING_TIER, D3D12DDI_VIEW_INSTANCING_TIER
+ms.keywords: d3d12umddi/D3D12DDI_VIEW_INSTANCING_TIER_NOT_SUPPORTED, D3D12DDI_VIEW_INSTANCING_TIER_2, display.d3d12ddi-view-instancing-tier, d3d12umddi/D3D12DDI_VIEW_INSTANCING_TIER_2, d3d12umddi/D3D12DDI_VIEW_INSTANCING_TIER, D3D12DDI_VIEW_INSTANCING_TIER_3, D3D12DDI_VIEW_INSTANCING_TIER_1, d3d12umddi/D3D12DDI_VIEW_INSTANCING_TIER_3, D3D12DDI_VIEW_INSTANCING_TIER_NOT_SUPPORTED, D3D12DDI_VIEW_INSTANCING_TIER, d3d12umddi/D3D12DDI_VIEW_INSTANCING_TIER_1, D3D12DDI_VIEW_INSTANCING_TIER enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_VIEW_INSTANCING_TIER
-req.alt-loc: d3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d12umddi.h
+apiname: 
+-	D3D12DDI_VIEW_INSTANCING_TIER
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_VIEW_INSTANCING_TIER
 ---
 
 # D3D12DDI_VIEW_INSTANCING_TIER enumeration
 
 
-
 ## -description
+
+
 Defines the view instancing tier.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3D12DDI_VIEW_INSTANCING_TIER { 
@@ -56,6 +66,9 @@ typedef enum _D3D12DDI_VIEW_INSTANCING_TIER {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D12DDI_VIEW_INSTANCING_TIER_NOT_SUPPORTED
 
@@ -76,5 +89,3 @@ The view instancing tier is 2.
 
 The view instancing teir is 3.
 
-
-## -remarks

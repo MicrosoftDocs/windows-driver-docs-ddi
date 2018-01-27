@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3ca026b8-abed-409c-8be4-01553cfadca3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetDevicePropertyData
+ms.keywords: IoGetDevicePropertyData routine [Kernel-Mode Driver Architecture], kernel.iogetdevicepropertydata, IoGetDevicePropertyData, k104_85cb50ca-43cc-401a-8ed1-32ff0c381ed8.xml, wdm/IoGetDevicePropertyData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoGetDevicePropertyData
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoGetDevicePropertyData
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoGetDevicePropertyData function
 
 
-
 ## -description
+
+
 The <b>IoGetDevicePropertyData</b> routine retrieves the current setting for a device property.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS IoGetDevicePropertyData(
@@ -62,6 +72,9 @@ NTSTATUS IoGetDevicePropertyData(
 
 ## -parameters
 
+
+
+
 ### -param Pdo [in]
 
 A pointer to the physical device object (PDO) for the device that is being queried.
@@ -77,7 +90,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn31
 A locale identifier. Set this parameter either to a language-specific LCID value or to <b>LOCALE_NEUTRAL</b>. The <b>LOCALE_NEUTRAL</b> LCID specifies that the property is language-neutral (that is, not specific to any language). Do not set this parameter to <b>LOCALE_SYSTEM_DEFAULT</b> or <b>LOCALE_USER_DEFAULT</b>. For more information about language-specific LCID values, see <a href="http://msdn.microsoft.com/en-us/library/cc233968(PROT.10).aspx">LCID Structure</a>.
 
 
-### -param Flags 
+### -param Flags
 
 Reserved for system use. Drivers should set this value to 0.
 
@@ -103,21 +116,54 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 
 ## -returns
+
+
 <b>IoGetDevicePropertyData</b> returns an NTSTATUS value. This routine might return one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The operation succeeded. The <i>Data</i> buffer contains the retrieved data. *<i>Type</i> contains the type of the retrieved data.
+</dl>
+</td>
+<td width="60%">
+The operation succeeded. The <i>Data</i> buffer contains the retrieved data. *<i>Type</i> contains the type of the retrieved data.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The <i>Data</i> buffer is too small. *<i>RequiredSize</i> contains the required buffer length.
+</dl>
+</td>
+<td width="60%">
+The <i>Data</i> buffer is too small. *<i>RequiredSize</i> contains the required buffer length.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_NAME_NOT_FOUND</b></dt>
-</dl>The specified device property was not found.
+</dl>
+</td>
+<td width="60%">
+The specified device property was not found.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 Kernel-mode drivers use the <b>IoGetDevicePropertyData</b> routine to retrieve device properties that are defined as part of the unified device property model. For more information about device properties, see <a href="https://msdn.microsoft.com/f41040c5-0eac-450d-b532-9165c543cc1a">Device Properties</a>.
 
 Drivers can use the <a href="..\wdm\nf-wdm-iosetdevicepropertydata.md">IoSetDevicePropertyData</a> routine to modify a device property.
@@ -125,18 +171,15 @@ Drivers can use the <a href="..\wdm\nf-wdm-iosetdevicepropertydata.md">IoSetDevi
 Callers of <b>IoGetDevicePropertyData</b> must be running at IRQL &lt;= APC_LEVEL in the context of a system thread.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
+
 <a href="..\wdm\nf-wdm-iosetdevicepropertydata.md">IoSetDevicePropertyData</a>
-</dt>
-</dl>
+
  
 
  

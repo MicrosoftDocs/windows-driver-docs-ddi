@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a80312ef-394a-4a59-8a04-35d7c60689b6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsControl, IKsControl::KsProperty, KsProperty
+ms.keywords: KsProperty method [Streaming Media Devices], IKsControl interface, stream.ikscontrol_ksproperty2, avintfc_100fad0d-8ca1-4cf1-88b0-e6ec1a3c55fe.xml, IKsControl, IKsControl::KsProperty, KsProperty, KsProperty method [Streaming Media Devices], ks/IKsControl::KsProperty, IKsControl interface [Streaming Media Devices], KsProperty method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsControl.KsProperty
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ks.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ks.h
+apiname: 
+-	IKsControl.KsProperty
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IKsControl::KsProperty method
 
 
-
 ## -description
+
+
 The <b>IKsControl::KsProperty</b> method sets a property or retrieves property information, together with any other defined support operations available on a property set. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsProperty(
@@ -57,6 +67,9 @@ NTSTATUS KsProperty(
 
 
 ## -parameters
+
+
+
 
 ### -param Property [in]
 
@@ -84,25 +97,27 @@ Pointer to a variable that receives the size, in bytes, of the data that <b>KsPr
 
 
 ## -returns
+
+
 The <b>IKsControl::KsProperty</b> method returns the same value that would be returned if the property had been sent by IOCTL.
 
 
+
 ## -remarks
+
+
 To determine the buffer size that is required for a specific property request, you can call this method with <i>PropertyData</i> set to <b>NULL</b> and <i>DataLength</i> equal to zero. The method returns HRESULT_FROM_WIN32(ERROR_MORE_DATA), and <i>BytesReturned</i> contains the size of the required buffer.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
  
 
  

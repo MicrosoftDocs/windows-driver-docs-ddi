@@ -7,8 +7,8 @@ old-location: print\ipartfont_getfontproperties.htm
 old-project: print
 ms.assetid: 6a19c32c-62f2-4b88-908c-c6b92419e410
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IPartFont, IPartFont::GetFontProperties, GetFontProperties
+ms.date: 1/18/2018
+ms.keywords: filterpipeline/IPartFont::GetFontProperties, IPartFont interface [Print Devices], GetFontProperties method, IPartFont::GetFontProperties, print.ipartfont_getfontproperties, IPartFont, GetFontProperties method [Print Devices], IPartFont interface, GetFontProperties method [Print Devices], filterpipeline_a84d2506-3e75-4dc9-ad3e-ef481bd2fd20.xml, GetFontProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPartFont.GetFontProperties
-req.alt-loc: filterpipeline.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: Filterpipeline.idl
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	filterpipeline.h
+apiname: 
+-	IPartFont.GetFontProperties
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # IPartFont::GetFontProperties method
 
 
-
 ## -description
+
+
 The <b>GetFontProperties</b> method gets the font properties.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT GetFontProperties(
@@ -54,6 +64,9 @@ HRESULT GetFontProperties(
 
 
 ## -parameters
+
+
+
 
 ### -param pContentType [out]
 
@@ -66,7 +79,8 @@ A pointer to the options of the font.
 
 
 ## -returns
+
+
 <b>GetFontProperties</b> returns an <b>HRESULT</b> value.
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 98c6ada1-89a4-4cbd-bb6c-98c190fa15d8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_GETQUERYDATA, D3DDDIARG_GETQUERYDATA
+ms.keywords: UMDisplayDriver_param_Structs_7f9fefc5-6bce-4a76-9841-d91a40710d4a.xml, _D3DDDIARG_GETQUERYDATA, display.d3dddiarg_getquerydata, d3dumddi/D3DDDIARG_GETQUERYDATA, D3DDDIARG_GETQUERYDATA, D3DDDIARG_GETQUERYDATA structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_GETQUERYDATA
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_GETQUERYDATA
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_GETQUERYDATA
 ---
 
 # _D3DDDIARG_GETQUERYDATA structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_GETQUERYDATA structure contains query information that was retrieved from the user-mode display driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_GETQUERYDATA {
@@ -55,6 +65,9 @@ typedef struct _D3DDDIARG_GETQUERYDATA {
 
 ## -struct-fields
 
+
+
+
 ### -field hQuery
 
 [in] The handle to the query that was created by the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a> function.
@@ -65,18 +78,12 @@ typedef struct _D3DDDIARG_GETQUERYDATA {
 [out] A pointer to a buffer that the driver fills with data that is related to a query, if the query type is one that requires data. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getquerydata.md">GetQueryData</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 3b182835-ca62-482c-b82a-28c59f23fb55
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1
+ms.keywords: bltooth.ioctl_bth_hci_vendor_command, IOCTL_BTH_HCI_VENDOR_COMMAND control code [Bluetooth Devices], IOCTL_BTH_HCI_VENDOR_COMMAND, bthioctl/IOCTL_BTH_HCI_VENDOR_COMMAND, bth_ref_f907562d-11ca-4ec2-ace5-97042364bb01.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Available on Microsoft Windows Vista SP2 an
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_BTH_HCI_VENDOR_COMMAND
-req.alt-loc: Bthioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,34 +29,43 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bthioctl.h
+apiname: 
+-	IOCTL_BTH_HCI_VENDOR_COMMAND
+product: Windows
+targetos: Windows
 req.typenames: *PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1
 ---
 
 # IOCTL_BTH_HCI_VENDOR_COMMAND IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 
      The IOCTL_BTH_HCI_VENDOR_COMMAND request allows Bluetooth applications to send vendor-specific
      commands to radios.
 
 
-
-## -syntax
-
-````
-typedef struct _BTH_VENDOR_EVENT_INFO {
-  BTH_ADDR BthAddress;
-  ULONG    EventSize;
-  UCHAR    EventInfo[1];
-} BTH_VENDOR_EVENT_INFO, *PBTH_VENDOR_EVENT_INFO;
-````
-
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a 
       <a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">BTH_VENDOR_SPECIFIC_COMMAND</a> structure. The structure contains a manufacturer identifier, a link
@@ -67,67 +74,124 @@ The
 
 
 ### -input-buffer-length
+
 The length of a 
       <a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">BTH_VENDOR_SPECIFIC_COMMAND</a> structure. 
 
 
 ### -output-buffer
-The <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that contains the event data returned from the radio. The data is available in the <b>EventInfo</b> member of the <a href="..\bthioctl\ns-bthioctl-_bth_vendor_event_info.md">BTH_VENDOR_EVENT_INFO</a> structure.
 
-The <b>EventSize</b> member provides the size of the vendor-specific event data returned from the radio.
+The <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that contains the event data returned from the radio. The data is available in the <b>EventInfo</b> member of the <a href="..\bthioctl\ns-bthioctl-_bth_vendor_event_info.md">BTH_VENDOR_EVENT_INFO</a> structure.
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _BTH_VENDOR_EVENT_INFO {
+  BTH_ADDR BthAddress;
+  ULONG    EventSize;
+  UCHAR    EventInfo[1];
+} BTH_VENDOR_EVENT_INFO, *PBTH_VENDOR_EVENT_INFO;</pre>
+</td>
+</tr>
+</table></span></div>The <b>EventSize</b> member provides the size of the vendor-specific event data returned from the radio.
 
 
 ### -output-buffer-length
+
 The length of a <a href="..\bthioctl\ns-bthioctl-_bth_vendor_event_info.md">BTH_VENDOR_EVENT_INFO</a> structure.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 If the request is successful, the 
       <b>Information</b> member of the STATUS_BLOCK structure is set to the size, in bytes, of the buffer that
       holds the command response.
 
 The 
       <b>Status</b> member is set to one of the values in the following table.
-
+<table>
+<tr>
+<th>Status value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
 STATUS_SUCCESS
 
+</td>
+<td>
 The IOCTL completed successfully.
 
+</td>
+</tr>
+<tr>
+<td>
 STATUS_BUFFER_TOO_SMALL
 
+</td>
+<td>
 The input buffer that was passed was too small.
 
+</td>
+</tr>
+<tr>
+<td>
 STATUS_INVALID_PARAMETER
 
+</td>
+<td>
 The input buffer that was passed was invalid.
 
+</td>
+</tr>
+<tr>
+<td>
 STATUS_PRIVILEGE_NOT_HELD
 
+</td>
+<td>
 The caller does not have the required privileges.
 
+</td>
+</tr>
+<tr>
+<td>
 STATUS_INSUFFICIENT_RESOURCES
 
+</td>
+<td>
 There was insufficient memory available to process the request.
 
- 
+</td>
+</tr>
+</table> 
 
 
 ## -remarks
+
+
 The IOCTL_BTH_HCI_VENDOR_COMMAND request provides a mechanism that allows vendors to create commands
     that are specific to their Bluetooth radios.
 
 The manufacturer ID and link management protocol (LMP) version values that are in the 
-    <a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">
-    BTH_VENDOR_SPECIFIC_COMMAND</a> structure help to prevent the sending of vendor-specific commands to
+    <mshelp:link keywords="bltooth.bth_vendor_specific_command" tabindex="0"><b>
+    BTH_VENDOR_SPECIFIC_COMMAND</b></mshelp:link> structure help to prevent the sending of vendor-specific commands to
     the wrong radio. The LMP version enables the vendors to send vendor-specific commands to radios that have
     a matching LMP version. If the LMP version is zero, all radios from that vendor will receive the
     vendor-specific command.
@@ -144,23 +208,45 @@ The BTH_VENDOR_PATTERN structure specifies such patterns that follow the vendor-
     that is specified in the 
     <b>Data</b> member of BTH_VENDOR_SPECIFIC_COMMAND structure. The maximum total size of all the patterns
     that follow the command should not be greater than 255.
+<div class="alert"><b>Warning</b>  The process that submits IOCTL_BTH_HCI_VENDOR_COMMAND must have the
+    SE_LOAD_DRIVER_NAME privilege. A process that is running in the system or an administrator context can
+    elevate its privilege by using the SDK 
+    <b>LookupPrivilegeValue</b> and 
+    <b>AdjustTokenPrivileges</b> functions. The following code example demonstrates how to obtain this
+    privilege. Note that the example does not demonstrate error handling.</div><div> </div><div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HANDLE procToken;
+LUID luid;
+TOKEN_PRIVILEGES tp;
 
-The event that is generated because of this command is copied into the output buffer (including the
+OpenProcessToken(GetCurrentProcess(), TOKEN_ADJUST_PRIVILEGES | TOKEN_QUERY, &amp;procToken);
+
+LookupPrivilegeValue(NULL, SE_LOAD_DRIVER_NAME, &amp;luid);
+
+Tp.PrivilegeCount = 1;
+Tp.privileges[0].Luid = luid;
+Tp.Privileges[0].Attributes = SE_PRIVILEGE_ENABLED;
+
+AdjustTokenPrivileges(procToken, FALSE, &amp;tp, sizeof(TOKEN_PRIVILEGES), (PTOKEN_PRIVILEGES) NULL, (PDWORD)NULL);</pre>
+</td>
+</tr>
+</table></span></div>The event that is generated because of this command is copied into the output buffer (including the
     event header).
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\bthioctl\ns-bthioctl-_bth_command_header.md">BTH_COMMAND_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\bthioctl\ns-bthioctl-_bth_vendor_pattern.md">BTH_VENDOR_PATTERN</a>
-</dt>
-<dt>
+
 <a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">BTH_VENDOR_SPECIFIC_COMMAND</a>
-</dt>
-</dl>
+
+<a href="..\bthioctl\ns-bthioctl-_bth_command_header.md">BTH_COMMAND_HEADER</a>
+
  
 
  

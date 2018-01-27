@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba85b333-9a43-421a-8687-9630e792cadf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_DESTROYALLOCATION, D3DKMT_DESTROYALLOCATION
+ms.keywords: D3DKMT_DESTROYALLOCATION structure [Display Devices], _D3DKMT_DESTROYALLOCATION, OpenGL_Structs_46425135-17f7-4b12-8e01-1247e3e1ab63.xml, d3dkmthk/D3DKMT_DESTROYALLOCATION, D3DKMT_DESTROYALLOCATION, display.d3dkmt_destroyallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_DESTROYALLOCATION
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_DESTROYALLOCATION
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DESTROYALLOCATION
 ---
 
 # _D3DKMT_DESTROYALLOCATION structure
 
 
-
 ## -description
+
+
 The D3DKMT_DESTROYALLOCATION structure describes parameters for releasing allocations.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_DESTROYALLOCATION {
@@ -56,6 +66,9 @@ typedef struct _D3DKMT_DESTROYALLOCATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -77,15 +90,10 @@ typedef struct _D3DKMT_DESTROYALLOCATION {
 [in] The number of allocations in the array that <b>phAllocationList</b> specifies. If the OpenGL ICD sets the handle in the <b>hResource</b> member to a non-<b>NULL</b> value, the <b>AllocationCount</b> member is ignored by the OpenGL runtime.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroyallocation.md">D3DKMTDestroyAllocation</a>
-</dt>
-</dl>
+
  
 
  

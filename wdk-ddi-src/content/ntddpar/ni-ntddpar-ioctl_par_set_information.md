@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: a54902d0-aa07-4cd0-8ef1-a3c17dff2ac9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _OFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
+ms.keywords: parports.ioctl_par_set_information, IOCTL_PAR_SET_INFORMATION control code [Parallel Ports], IOCTL_PAR_SET_INFORMATION, ntddpar/IOCTL_PAR_SET_INFORMATION, cisspd_950d6397-7eff-4966-a734-0497f1a84257.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_PAR_SET_INFORMATION
-req.alt-loc: ntddpar.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,80 +29,116 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddpar.h
+apiname: 
+-	IOCTL_PAR_SET_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: *POFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION
 ---
 
 # IOCTL_PAR_SET_INFORMATION IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 The IOCTL_PAR_SET_INFORMATION request resets and initializes a parallel device.
 
-
-
-The IOCTL_PAR_SET_INFORMATION request resets and initializes a parallel device.
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 The <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="..\ntddpar\ns-ntddpar-_par_set_information.md">PAR_SET_INFORMATION</a> structure that the client allocates to input set information. The client sets the <b>Init</b> member to PARALLEL_INIT.
 
 
 ### -input-buffer-length
+
 The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to the size, in bytes, of a PAR_SET_INFORMATION structure. 
 
 
 ### -output-buffer
+
 None.
 
 
 ### -output-buffer-length
+
 None.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Information</b> member is set to zero. 
 
 The <b>Status</b> member is set to one of the generic status values returned by device control requests for parallel devices or to one of the following values:
 
 
 
+
+#### -STATUS_BUFFER_TOO_SMALL
+
 <b>Parameters.DeviceIoControl.InputBufferLength</b> is less than the size, in bytes, of a PAR_SET_INFORMATION structure. 
+
+
+#### -STATUS_DEVICE_NOT_CONNECTED
 
 The device is not connected.
 
+
+#### -STATUS_DEVICE_OFF_LINE
+
 The device is offline.
 
+
+#### -STATUS_DEVICE_PAPER_EMPTY
+
 The device is out of paper.
+
+
+#### -STATUS_DEVICE_POWERED_OFF
 
 The device is not turned on.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_information.md">IOCTL_PAR_QUERY_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\ntddpar\ns-ntddpar-_par_set_information.md">PAR_SET_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

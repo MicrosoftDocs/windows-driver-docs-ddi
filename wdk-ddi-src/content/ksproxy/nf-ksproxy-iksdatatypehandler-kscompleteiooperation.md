@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 46a58007-16bf-422b-8408-30a7b65dbee6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsDataTypeHandler, IKsDataTypeHandler::KsCompleteIoOperation, KsCompleteIoOperation
+ms.keywords: KsCompleteIoOperation method [Streaming Media Devices], IKsDataTypeHandler::KsCompleteIoOperation, ksproxy/IKsDataTypeHandler::KsCompleteIoOperation, ksproxy_04136093-03d0-4490-bf5c-5e83bddc23c7.xml, KsCompleteIoOperation, KsCompleteIoOperation method [Streaming Media Devices], IKsDataTypeHandler interface, IKsDataTypeHandler interface [Streaming Media Devices], KsCompleteIoOperation method, stream.iksdatatypehandler_kscompleteiooperation, IKsDataTypeHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsDataTypeHandler.KsCompleteIoOperation
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ksproxy.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsDataTypeHandler.KsCompleteIoOperation
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsDataTypeHandler::KsCompleteIoOperation method
 
 
-
 ## -description
+
+
 The <b>KsCompleteIoOperation</b> method cleans up the extended header and completes the input and output (I/O) operation. 
 
 
-
 ## -syntax
+
 
 ````
 HRESULT KsCompleteIoOperation(
@@ -56,6 +66,9 @@ HRESULT KsCompleteIoOperation(
 
 
 ## -parameters
+
+
+
 
 ### -param Sample [in, out]
 
@@ -70,7 +83,6 @@ Pointer to a buffer that contains the extended header information.
 ### -param IoOperation [in]
 
 Value that specifies the type of I/O operation. This value can be one of the following values from the KSIOOPERATION enumerated type:
-
 <table>
 <tr>
 <th>Value</th>
@@ -96,8 +108,7 @@ Read data from stream.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Cancelled [in]
@@ -106,21 +117,25 @@ Boolean value that is <b>TRUE</b> if the I/O operation was canceled and <b>FALSE
 
 
 ## -returns
+
+
 Returns NOERROR if successful; otherwise, returns an error code. If the stream's major type is KSDATAFORMAT_TYPE_AUDIO, a <b>KsCompleteIoOperation</b> call is inapplicable, so <b>KsCompleteIoOperation</b> automatically returns NOERROR.
 
 
+
 ## -remarks
+
+
 The client only calls <b>KsCompleteIoOperation</b> if the data type handler indicated to the client the existence of extended header information in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559836">IKsDataTypeHandler::KsQueryExtendedSize</a> method.
 
 For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK documentation.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559836">IKsDataTypeHandler::KsQueryExtendedSize</a>
-</dt>
-</dl>
+
  
 
  

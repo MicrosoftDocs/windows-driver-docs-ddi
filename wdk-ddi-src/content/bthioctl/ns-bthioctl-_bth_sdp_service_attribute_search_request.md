@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 28255569-57ce-44b7-9d53-9e8797b914c5
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, *PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
+ms.keywords: bltooth.bth_sdp_service_attribute_search_request, bthioctl/PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, *PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure [Bluetooth Devices], BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, bth_structs_0e06cbd7-0737-4786-bdc3-c9c1e980e3a3.xml, PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure pointer [Bluetooth Devices], PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, _BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, bthioctl/BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
-req.alt-loc: bthioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-req.typenames: BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, *PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthioctl.h
+apiname: 
+-	BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
+product: Windows
+targetos: Windows
+req.typenames: *PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
 ---
 
 # _BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure
 
 
-
 ## -description
+
+
 The BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure contains information pertinent to a combined
   SDP service and attribute search. This structure is passed as the input buffer to the 
-  <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
-  IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a> IOCTL.
-
+  <mshelp:link keywords="bltooth.ioctl_bth_sdp_service_attribute_search" tabindex="0"><b>
+  IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</b></mshelp:link> IOCTL.
 
 
 ## -syntax
+
 
 ````
 typedef struct _BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST {
@@ -60,18 +70,17 @@ typedef struct _BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST {
 
 ## -struct-fields
 
-### -field hConnection
 
-A handle to the remote SDP server that is returned by the 
-     <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a> IOCTL.
+
+
+### -field HANDLE_SDP_FIELD_NAME
+
+ 
 
 
 ### -field searchFlags
 
-<dl>
 
-
-</dl>
 
 ### -field uuids
 
@@ -87,7 +96,19 @@ A variable-length array of
      contains the range of SDP attributes for which to search.
 
 
+##### - searchFlags.
+
+
+
+#### - hConnection
+
+A handle to the remote SDP server that is returned by the 
+     <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a> IOCTL.
+
+
 ## -remarks
+
+
 The Bluetooth driver stack determines the number of array items in the 
     <b>range</b> member by examining the length of IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH input buffer.
     Because of this, the
@@ -95,17 +116,16 @@ The Bluetooth driver stack determines the number of array items in the
     calculated exactly.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
-   IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="bltooth.ioctl_bth_sdp_service_attribute_search" tabindex="0"><b>
+   IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</b></mshelp:link>
+
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
-</dt>
-<dt><a href="http://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a></dt>
-</dl>
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a>
+
  
 
  

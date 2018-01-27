@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 966922b6-fa83-491e-bf03-848f798ebc69
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _EMULATOR_ACCESS_ENTRY, *PEMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY
+ms.keywords: EMULATOR_ACCESS_ENTRY structure [Display Devices], Video_Structs_8a00f589-ff5c-489b-b49b-abdcf9f42cf2.xml, PEMULATOR_ACCESS_ENTRY structure pointer [Display Devices], miniport/PEMULATOR_ACCESS_ENTRY, display.emulator_access_entry, _EMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY, miniport/EMULATOR_ACCESS_ENTRY, *PEMULATOR_ACCESS_ENTRY, PEMULATOR_ACCESS_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: EMULATOR_ACCESS_ENTRY
-req.alt-loc: miniport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	miniport.h
+apiname: 
+-	EMULATOR_ACCESS_ENTRY
+product: Windows
+targetos: Windows
 req.typenames: *PEMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY
 ---
 
 # _EMULATOR_ACCESS_ENTRY structure
 
 
-
 ## -description
+
+
 The EMULATOR_ACCESS_ENTRY structure specifies an element in the <b>EmulatorAccessEntries</b> array set up in the VIDEO_PORT_CONFIG_INFO structure by drivers of VGA-compatible (SVGA) adapters on x86-based NT-based operating system platforms.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _EMULATOR_ACCESS_ENTRY {
@@ -58,6 +68,9 @@ typedef struct _EMULATOR_ACCESS_ENTRY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field BasePort
 
@@ -79,10 +92,10 @@ Specifies the size of the data transferred through the given I/O port as one of 
 Specifies how the given I/O port can be accessed as one or a combination (ORed) of the following values:
 
 
-
-### -field EMULATOR_READ_ACCESS
-### -field EMULATOR_WRITE_ACCESS
-
+<dl>
+<dt>EMULATOR_READ_ACCESS</dt>
+<dt>EMULATOR_WRITE_ACCESS</dt>
+</dl>
 
 
 The I/O port range must be accessible in at least one of the preceding modes.
@@ -99,29 +112,26 @@ Pointer to the miniport driver's <i>SvgaHwIoPortXxx</i> that handles accesses to
 
 
 ## -remarks
+
+
 VGA-compatible miniport drivers of SVGA video hardware in x86-based machines must define emulator access ranges, which a VGA-compatible miniport driver can set up with <b>VideoPortSetTrappedEmulatorPorts</b> to be accessed directly from full-screen MS-DOS applications for faster I/O. Such a driver must supply a set of <i>SvgaHwIoPortXxx</i> functions to validate any sequence of application-issued <b>IN</b>s, <b>INSB/INSW/INSD</b>s, <b>OUT</b>s, and/or <b>OUTSB/OUTSW/OUTSD</b>s to each such I/O port range.
 
 Data in each EMULATOR_ACCESS_ENTRY-type element is used to determine which I/O ports (memory locations at which adapter registers are accessible) in the miniport driver's access ranges have been taken over (hooked out) by the V86 emulator on x86-based platforms. Values written to these locations by full-screen MS-DOS applications are trapped and forwarded to the miniport driver's corresponding <i>SvgaHwIoPortXxx</i> function for validation before they are written to or read from the video adapter. However, the miniport driver can enable the application to directly access particular I/O port ranges by calling <b>VideoPortSetTrappedEmulatorPorts</b> to improve performance.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
-</dt>
-<dt>
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
-</dt>
-<dt>
-<a href="..\video\nf-video-videoportsettrappedemulatorports.md">VideoPortSetTrappedEmulatorPorts</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
-</dt>
-</dl>
+
+<a href="..\video\nf-video-videoportsettrappedemulatorports.md">VideoPortSetTrappedEmulatorPorts</a>
+
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
+
  
 
  

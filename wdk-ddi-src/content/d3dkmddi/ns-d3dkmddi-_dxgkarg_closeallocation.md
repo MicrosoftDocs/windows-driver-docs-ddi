@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ccd65750-b4d0-4955-9fd4-9546709c2390
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_CLOSEALLOCATION, DXGKARG_CLOSEALLOCATION
+ms.keywords: _DXGKARG_CLOSEALLOCATION, DXGKARG_CLOSEALLOCATION structure [Display Devices], DXGKARG_CLOSEALLOCATION, display.dxgkarg_closeallocation, DmStructs_0d76b996-7ce8-4471-894f-585cc9f3f225.xml, d3dkmddi/DXGKARG_CLOSEALLOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_CLOSEALLOCATION
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_CLOSEALLOCATION
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_CLOSEALLOCATION
 ---
 
 # _DXGKARG_CLOSEALLOCATION structure
 
 
-
 ## -description
+
+
 The DXGKARG_CLOSEALLOCATION structure describes allocations that the display miniport driver should close.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_CLOSEALLOCATION {
@@ -55,6 +65,9 @@ typedef struct _DXGKARG_CLOSEALLOCATION {
 
 ## -struct-fields
 
+
+
+
 ### -field NumAllocations
 
 [in] The number of elements in the array that <b>pOpenHandleList</b> specifies.
@@ -65,15 +78,10 @@ typedef struct _DXGKARG_CLOSEALLOCATION {
 [in] An array of handles to device-specific allocations to close.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_closeallocation.md">DxgkDdiCloseAllocation</a>
-</dt>
-</dl>
+
  
 
  

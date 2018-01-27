@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4349d772-89c6-4201-9d9d-2e0590d61424
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CHANGER_SET_ACCESS, CHANGER_SET_ACCESS, *PCHANGER_SET_ACCESS
+ms.keywords: ntddchgr/PCHANGER_SET_ACCESS, ntddchgr/CHANGER_SET_ACCESS, CHANGER_SET_ACCESS, PCHANGER_SET_ACCESS, structs-changer_01f5a159-3d46-4400-8eae-87367e81ed72.xml, *PCHANGER_SET_ACCESS, PCHANGER_SET_ACCESS structure pointer [Storage Devices], _CHANGER_SET_ACCESS, storage.changer_set_access, CHANGER_SET_ACCESS structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CHANGER_SET_ACCESS
-req.alt-loc: ntddchgr.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: CHANGER_SET_ACCESS, *PCHANGER_SET_ACCESS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddchgr.h
+apiname: 
+-	CHANGER_SET_ACCESS
+product: Windows
+targetos: Windows
+req.typenames: *PCHANGER_SET_ACCESS, CHANGER_SET_ACCESS
 ---
 
 # _CHANGER_SET_ACCESS structure
 
 
-
 ## -description
+
+
 The CHANGER_SET_ACCESS structure is used in conjunction with the<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_access.md">IOCTL_CHANGER_SET_ACCESS</a> request to set the state of the device's import/export port (IEport), door, or keypad. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CHANGER_SET_ACCESS {
@@ -54,6 +64,9 @@ typedef struct _CHANGER_SET_ACCESS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Element
 
@@ -69,46 +82,36 @@ Specifies the operation to perform on the element. The <b>Features0</b> member o
 
 
 
-### -field LOCK_ELEMENT
-
-Lock the door, IEport, or keypad. Valid only if CHANGER_LOCK_UNLOCK is set.
-
-
-### -field UNLOCK_ELEMENT
-
-Unlock the door, IEport, or keypad. Valid only if CHANGER_LOCK_UNLOCK is set.
-
-
-### -field EXTEND_IEPORT
+##### - Control.EXTEND_IEPORT
 
 Extend the IEport. Valid only if CHANGER_OPEN_IEPORT is set.
 
 
-### -field RETRACT_IEPORT
+##### - Control.LOCK_ELEMENT
+
+Lock the door, IEport, or keypad. Valid only if CHANGER_LOCK_UNLOCK is set.
+
+
+##### - Control.RETRACT_IEPORT
 
 Retract the IEport. Valid only if CHANGER_CLOSE_IEPORT is set.
 
-</dd>
-</dl>
 
-## -remarks
+##### - Control.UNLOCK_ELEMENT
+
+Unlock the door, IEport, or keypad. Valid only if CHANGER_LOCK_UNLOCK is set.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_access.md">IOCTL_CHANGER_SET_ACCESS</a>
-</dt>
-<dt>
+
 <a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
-</dt>
-<dt>
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
-</dt>
-<dt>
+
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_access.md">IOCTL_CHANGER_SET_ACCESS</a>
+
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
-</dt>
-</dl>
+
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+
  
 
  

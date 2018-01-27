@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7c6a7ca8-83aa-41fe-92f5-6598464d9803
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _AddTarget_IN, *PAddTarget_IN, AddTarget_IN
+ms.keywords: _AddTarget_IN, PAddTarget_IN structure pointer [Storage Devices], hbapiwmi/AddTarget_IN, structs-Fibre_7109b51c-872e-4e2e-affb-388fe21750d7.xml, AddTarget_IN, hbapiwmi/PAddTarget_IN, storage.addtarget_in, *PAddTarget_IN, AddTarget_IN structure [Storage Devices], PAddTarget_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AddTarget_IN
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PAddTarget_IN, AddTarget_IN
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	AddTarget_IN
+product: Windows
+targetos: Windows
+req.typenames: AddTarget_IN, *PAddTarget_IN
 ---
 
 # _AddTarget_IN structure
 
 
-
 ## -description
+
+
 The AddPort_IN structure is used by a WMI client to deliver the input parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550136">AddTarget</a> WMI method to the HBA miniport driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _AddTarget_IN {
@@ -55,6 +65,9 @@ typedef struct _AddTarget_IN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HbaPortWWN
 
@@ -71,15 +84,10 @@ Contains a worldwide name that specifies the discovered target whose events the 
 Indicates the scope of the target events to report. If this member is zero, the WMI client will receive events associated with the port that is indicated by <i>DiscoveredPortWWN</i>. If this member is nonzero, the WMI client will all events associated with all currently discovered targets as well as targets that are discovered in the future. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550136">AddTarget</a>
-</dt>
-</dl>
+
  
 
  

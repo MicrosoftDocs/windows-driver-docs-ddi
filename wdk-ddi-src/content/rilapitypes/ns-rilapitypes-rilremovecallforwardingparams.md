@@ -7,8 +7,8 @@ old-location: netvista\rilremovecallforwardingparams_2.htm
 old-project: netvista
 ms.assetid: 5bdd8542-e1ef-42ac-99d7-c004039d2f33
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILREMOVECALLFORWARDINGPARAMS, RILREMOVECALLFORWARDINGPARAMS, *LPRILREMOVECALLFORWARDINGPARAMS
+ms.date: 1/18/2018
+ms.keywords: RILREMOVECALLFORWARDINGPARAMS, netvista.rilremovecallforwardingparams_2, *LPRILREMOVECALLFORWARDINGPARAMS, rilapitypes/RILREMOVECALLFORWARDINGPARAMS, RILREMOVECALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILREMOVECALLFORWARDINGPARAMS
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILREMOVECALLFORWARDINGPARAMS, *LPRILREMOVECALLFORWARDINGPARAMS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILREMOVECALLFORWARDINGPARAMS
+product: Windows
+targetos: Windows
+req.typenames: *LPRILREMOVECALLFORWARDINGPARAMS, RILREMOVECALLFORWARDINGPARAMS
 req.product: Windows 10 or later.
 ---
 
 # RILREMOVECALLFORWARDINGPARAMS structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILREMOVECALLFORWARDINGPARAMS {
@@ -57,13 +67,17 @@ typedef struct _RILREMOVECALLFORWARDINGPARAMS {
 
 ## -struct-fields
 
+
+
+
 ### -field dwExecutor
+
 
 
 ### -field dwReason
 
 
+
 ### -field dwInfoClasses
 
 
-## -remarks

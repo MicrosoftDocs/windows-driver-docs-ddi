@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 57214e6a-cd29-4576-894a-9523ca3c7e7d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlFastUnlockAllByKey
+ms.keywords: fsrtlref_193afe01-52f3-4dbc-8a33-bd058beb10ce.xml, FsRtlFastUnlockAllByKey routine [Installable File System Drivers], ifsk.fsrtlfastunlockallbykey, ntifs/FsRtlFastUnlockAllByKey, FsRtlFastUnlockAllByKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlFastUnlockAllByKey
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlFastUnlockAllByKey
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlFastUnlockAllByKey function
 
 
-
 ## -description
+
+
 The <b>FsRtlFastUnlockAllByKey</b> routine releases all byte-range locks that were acquired by the specified process, with the specified key value, for a file. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlFastUnlockAllByKey(
@@ -57,6 +67,9 @@ NTSTATUS FsRtlFastUnlockAllByKey(
 
 
 ## -parameters
+
+
+
 
 ### -param FileLock [in]
 
@@ -84,22 +97,25 @@ Optional context pointer to be used when completing IRPs.
 
 
 ## -returns
+
+
 <b>FsRtlFastUnlockAllByKey</b> returns STATUS_SUCCESS or an error status code such as STATUS_RANGE_NOT_LOCKED. 
 
 
+
 ## -remarks
+
+
 After releasing the byte-range locks, <b>FsRtlFastUnlockAllByKey</b> completes any currently queued lock IRPs that can now be completed.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
-</dt>
-</dl>
+
  
 
  

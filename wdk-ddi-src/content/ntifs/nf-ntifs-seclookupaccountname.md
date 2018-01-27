@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5b1c3cc4-6185-4299-86ed-662a2b445042
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SecLookupAccountName
+ms.keywords: ksecddref_1f4959e5-ea3b-440d-af1b-df05782eefce.xml, ifsk.seclookupaccountname, ntifs/SecLookupAccountName, SecLookupAccountName function [Installable File System Drivers], SecLookupAccountName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The SecLookupAccountName function is only available o
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SecLookupAccountName
-req.alt-loc: Ksecdd.lib,Ksecdd.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ksecdd.lib
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ksecdd.lib
+-	Ksecdd.dll
+apiname: 
+-	SecLookupAccountName
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # SecLookupAccountName function
 
 
-
 ## -description
+
+
 <b>SecLookupAccountName</b> accepts an account as input and retrieves a security identifier (SID) for the account and the name of the domain on which the account was found.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SecLookupAccountName(
@@ -58,6 +69,9 @@ NTSTATUS SecLookupAccountName(
 
 
 ## -parameters
+
+
+
 
 ### -param Name [in]
 
@@ -79,41 +93,104 @@ A pointer to a buffer that receives the SID structure that corresponds to the ac
 A pointer to a SID_NAME_USE enumerated type that indicates the type of the account when the function returns. 
 
 
-### -param DomainSize [out]
+### -param OPTIONAL
 
-A pointer to an optional variable that specifies the size of the <i>ReferencedDomain</i> parameter. On input, this value specifies the size of the <i>ReferencedDomain</i> buffer. If the function fails because the buffer is too small, this variable receives the required buffer size. If the <i>ReferencedDomain</i> parameter is <b>NULL</b>, this parameter must be zero.
+TBD
 
 
-### -param ReferencedDomain [in, out]
+
+#### - ReferencedDomain [in, out]
 
 A pointer to a buffer that receives the name of the domain as a Unicode string where the account name is found. For computers that are not joined to a domain, this buffer receives the computer name. If this parameter is <b>NULL</b>, the function returns the required buffer size in the <i>DomainSize</i> variable. 
 
 
+#### - DomainSize [out]
+
+A pointer to an optional variable that specifies the size of the <i>ReferencedDomain</i> parameter. On input, this value specifies the size of the <i>ReferencedDomain</i> buffer. If the function fails because the buffer is too small, this variable receives the required buffer size. If the <i>ReferencedDomain</i> parameter is <b>NULL</b>, this parameter must be zero.
+
+
 ## -returns
+
+
 <b>SecLookupAccountName</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>SEC_E_INTERNAL_ERROR</b></dt>
-</dl>An internal error occurred while trying to connect to the Local System Authority (LSA) or the local procedure call (LPC) to the security provider failed. 
+</dl>
+</td>
+<td width="60%">
+An internal error occurred while trying to connect to the Local System Authority (LSA) or the local procedure call (LPC) to the security provider failed. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>The process ID associated with the currently executing thread does not match the current process ID. 
+</dl>
+</td>
+<td width="60%">
+The process ID associated with the currently executing thread does not match the current process ID. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The buffer size for the <i>Sid</i> or the <i>ReferencedDomain</i> parameter was too small.
+</dl>
+</td>
+<td width="60%">
+The buffer size for the <i>Sid</i> or the <i>ReferencedDomain</i> parameter was too small.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The length of the <i>Name</i> parameter exceeded the length allowed in a message to the Local System Authority. 
+</dl>
+</td>
+<td width="60%">
+The length of the <i>Name</i> parameter exceeded the length allowed in a message to the Local System Authority. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NONE_MAPPED</b></dt>
-</dl>The <i>Name</i> parameter could not be found. 
+</dl>
+</td>
+<td width="60%">
+The <i>Name</i> parameter could not be found. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_PROCESS_IS_TERMINATING</b></dt>
-</dl>This process has terminated so it is not possible to establish the local procedure call (LPC) connection.
+</dl>
+</td>
+<td width="60%">
+This process has terminated so it is not possible to establish the local procedure call (LPC) connection.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>SecLookupAccountName</b> attempts to find a SID for the specified name. The function checks built-in and administratively defined local accounts. Next, the function checks the primary domain. If the name is not found there, trusted domains are checked.
 
 Use fully qualified account names (for example, domain_name\user_name) instead of isolated names (for example, user_name). Fully qualified names are unambiguous and provide better performance when the lookup is performed. This function also supports fully qualified DNS names (for example, example.example.com\user_name) and user principal names (UPN) (for example, someone@example.com).
@@ -125,21 +202,17 @@ In addition to looking up local accounts, local domain accounts, and explicitly 
 <b>SecLookupAccountName</b> is exported by the ksecdd driver, which implements this function by using user-mode helper services. Accordingly, the use of this function within file systems must obey the usual rules for communication with user-mode services. <b>SecLookupAccountName</b> cannot be used during paging file I/O. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-seclookupaccountsid.md">SecLookupAccountSid</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-seclookupwellknownsid.md">SecLookupWellKnownSid</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-seclookupwellknownsid.md">SecLookupWellKnownSid</a>
+
 <a href="..\ntifs\ne-ntifs-_sid_name_use.md">SID_NAME_USE</a>
-</dt>
-</dl>
+
  
 
  

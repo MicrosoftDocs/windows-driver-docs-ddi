@@ -7,8 +7,8 @@ old-location: netvista\wdi_wps_configuration_method.htm
 old-project: netvista
 ms.assetid: 116B19BD-959F-4711-B3FB-9880539B7849
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WDI_WPS_CONFIGURATION_METHOD, WDI_WPS_CONFIGURATION_METHOD
+ms.date: 1/18/2018
+ms.keywords: WDI_WPS_CONFIGURATION_METHOD enumeration [Network Drivers Starting with Windows Vista], WDI_WPS_CONFIGURATION_METHOD_NFC_INTERFACE, WDI_WPS_CONFIGURATION_METHOD_DISPLAY, WDI_WPS_CONFIGURATION_METHOD_NULL, WDI_WPS_CONFIGURATION_METHOD_KEYPAD, wditypes/WDI_WPS_CONFIGURATION_METHOD_KEYPAD, WDI_WPS_CONFIGURATION_METHOD_PUSHBUTTON, wditypes/WDI_WPS_CONFIGURATION_METHOD_NFC_INTERFACE, WDI_WPS_CONFIGURATION_METHOD_NFC_TAG, wditypes/WDI_WPS_CONFIGURATION_METHOD_NFC_TAG, wditypes/WDI_WPS_CONFIGURATION_METHOD_WFDS_DEFAULT, wditypes/WDI_WPS_CONFIGURATION_METHOD_DISPLAY, wditypes/WDI_WPS_CONFIGURATION_METHOD, wditypes/WDI_WPS_CONFIGURATION_METHOD_PUSHBUTTON, netvista.wdi_wps_configuration_method, wditypes/WDI_WPS_CONFIGURATION_METHOD_NULL, WDI_WPS_CONFIGURATION_METHOD, WDI_WPS_CONFIGURATION_METHOD_WFDS_DEFAULT, _WDI_WPS_CONFIGURATION_METHOD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WDI_WPS_CONFIGURATION_METHOD
-req.alt-loc: wditypes.hpp
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wditypes.hpp
+apiname: 
+-	WDI_WPS_CONFIGURATION_METHOD
+product: Windows
+targetos: Windows
 req.typenames: WDI_WPS_CONFIGURATION_METHOD
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _WDI_WPS_CONFIGURATION_METHOD enumeration
 
 
-
 ## -description
+
+
 The WDI_WPS_CONFIGURATION_METHOD enumeration defines WPS configuration methods.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDI_WPS_CONFIGURATION_METHOD { 
@@ -60,6 +70,9 @@ typedef enum _WDI_WPS_CONFIGURATION_METHOD {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WDI_WPS_CONFIGURATION_METHOD_NULL
 
@@ -96,4 +109,7 @@ Pin keypad.
 WFDS.
 
 
-## -remarks
+### -field WDI_WPS_CONFIGURATION_METHOD_DUMMY_MAX_VALUE
+
+
+

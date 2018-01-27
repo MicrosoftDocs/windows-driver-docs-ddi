@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: EFC9E2D0-1995-4FE9-840C-7B33081AEF2F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA
+ms.keywords: display.pfnd3d12ddi_shadercachegetvalue_cb_0021, pfnShaderCacheGetValueCb callback function [Display Devices], pfnShaderCacheGetValueCb, PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021, PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021, d3d12umddi/pfnShaderCacheGetValueCb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnShaderCacheGetValueCb
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	pfnShaderCacheGetValueCb
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
 
 # PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021 callback
 
 
-
 ## -description
+
+
 The <i>pfnShaderCacheGetValueCb</i> callback function gets a shader cache value. 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021 pfnShaderCacheGetValueCb;
@@ -63,55 +73,81 @@ HRESULT APIENTRY CALLBACK * pfnShaderCacheGetValueCb(
 
 ## -parameters
 
-### -param hRTDevice 
+
+
+
+### -param hRTDevice
 
 The handle of the device for the driver to use when it calls back into the runtime.
 
 
-### -param hRTPSO 
+### -param hRTPSO
 
 The handle of a PSO.
 
 
-### -param pPrecomputedHash [in]
-
-A hash value.
+### -param *pPrecomputedHash
 
 
-### -param pKey [in]
 
-A pointer to a key.
+### -param *pKey
 
 
-### -param KeyLen 
+
+### -param KeyLen
 
 The length of the key.
 
 
-### -param pValue [out, optional]
+### -param *pValue
+
+
+
+### -param *pValueLen
+
+
+
+
+
+
+#### - pValue [out, optional]
 
 A pointer to an output value. 
 
 
-### -param pValueLen [in, out]
+#### - pKey [in]
+
+A pointer to a key.
+
+
+#### - pValueLen [in, out]
 
 The length of the output value.
 
 
+#### - pPrecomputedHash [in]
+
+A hash value.
+
+
 ## -returns
+
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
+
 ## -remarks
+
+
 Access this callback by using the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_shadercache_callbacks_0021.md">D3D12DDI_SHADERCACHE_CALLBACKS_0021</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_shadercache_callbacks_0021.md">D3D12DDI_SHADERCACHE_CALLBACKS_0021</a>
-</dt>
-</dl>
+
  
 
  

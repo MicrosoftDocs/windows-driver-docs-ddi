@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 672baa43-7fa1-4c10-9d60-c7c8a4729f26
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_COLORFILLFLAGS, D3DDDI_COLORFILLFLAGS
+ms.keywords: _D3DDDI_COLORFILLFLAGS, D3D_other_Structs_555ecebb-bdd8-4c7f-97cd-801216506b9e.xml, D3DDDI_COLORFILLFLAGS structure [Display Devices], display.d3dddi_colorfillflags, d3dumddi/D3DDDI_COLORFILLFLAGS, D3DDDI_COLORFILLFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_COLORFILLFLAGS
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDI_COLORFILLFLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_COLORFILLFLAGS
 ---
 
 # _D3DDDI_COLORFILLFLAGS structure
 
 
-
 ## -description
+
+
 The D3DDDI_COLORFILLFLAGS structure describes how to color-fill a rectangle on a surface.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_COLORFILLFLAGS {
@@ -59,6 +69,9 @@ typedef struct _D3DDDI_COLORFILLFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PresentToDwm
 
@@ -77,18 +90,12 @@ This member is reserved and should be set to zero. Setting this member to zero i
 A member in the union that is contained in D3DDDI_COLORFILLFLAGS that can hold one 32-bit value that identifies how to color-fill a rectangle on a surface.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_colorfill.md">ColorFill</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_colorfill.md">D3DDDIARG_COLORFILL</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_colorfill.md">ColorFill</a>
+
  
 
  

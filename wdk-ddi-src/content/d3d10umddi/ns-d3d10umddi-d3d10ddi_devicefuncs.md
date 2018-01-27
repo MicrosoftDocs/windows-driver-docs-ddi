@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 005f4fc0-2b22-47bf-a129-59b2dc4ff052
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDI_DEVICEFUNCS, D3D10DDI_DEVICEFUNCS
+ms.keywords: d3d10umddi/D3D10DDI_DEVICEFUNCS, UMDisplayDriver_Dx10param_Structs_4d7e9e93-233d-4726-af26-bcaf0cbf149a.xml, D3D10DDI_DEVICEFUNCS, display.d3d10ddi_devicefuncs, D3D10DDI_DEVICEFUNCS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10DDI_DEVICEFUNCS
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10DDI_DEVICEFUNCS
+product: Windows
+targetos: Windows
 req.typenames: D3D10DDI_DEVICEFUNCS
 ---
 
 # D3D10DDI_DEVICEFUNCS structure
 
 
-
 ## -description
+
+
 The D3D10DDI_DEVICEFUNCS structure contains functions that the user-mode display driver can implement to render graphics primitives and process state changes.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D10DDI_DEVICEFUNCS {
@@ -153,6 +163,9 @@ typedef struct D3D10DDI_DEVICEFUNCS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pfnDefaultConstantBufferUpdateSubresourceUP
 
@@ -659,7 +672,20 @@ A pointer to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destr
 A pointer to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_settextfiltersize.md">SetTextFilterSize</a> function.
 
 
+### -field pfnResetPrimitiveID
+
+ 
+
+
+### -field pfnSetVertexPipelineOutput
+
+ 
+
+
+
 ## -remarks
+
+
 The order of user-mode display driver functions (that is, the order of the members of the D3D10DDI_DEVICEFUNCS structure) is in decreasing order of priority (in regard to performance).
 
 The user-mode display driver can use different names for these functions because the address of the function table (this structure) is shared between the Direct3D 10 runtime and the driver through the call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function.
@@ -667,15 +693,13 @@ The user-mode display driver can use different names for these functions because
 The <b>pfnResetPrimitiveID</b> and  <b>pfnSetVertexPipelineOutput</b> members (not shown here) and their data types are reserved for system use and should not be used in your driver.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
-</dt>
-</dl>
+
  
 
  

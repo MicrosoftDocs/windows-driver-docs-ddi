@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 86E72C5E-9DB1-4EDD-A6B0-272D4622A500
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlLongPtrToUChar
+ms.keywords: RtlLongPtrToUChar, RtlLongPtrToUChar function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongPtrToUChar, kernel.rtllongptrtouchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlLongPtrToUChar
-req.alt-loc: Ntintsafe.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntintsafe.h
+apiname: 
+-	RtlLongPtrToUChar
+product: Windows
+targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
 
 # RtlLongPtrToUChar function
 
 
-
 ## -description
+
+
 Converts a value of type <b>LONG_PTR</b> to a value of type <b>UCHAR</b>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlLongPtrToUChar(
@@ -54,6 +64,9 @@ NTSTATUS RtlLongPtrToUChar(
 
 
 ## -parameters
+
+
+
 
 ### -param lOperand [in]
 
@@ -66,6 +79,14 @@ A pointer to the converted value. In the case where the conversion causes a trun
 
 
 ## -remarks
+
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
-This function uses the following alternate name:</p>
+This function uses the following alternate name:
+<ul>
+<li>
+RtlSSIZETToUChar
+</li>
+</ul>
+

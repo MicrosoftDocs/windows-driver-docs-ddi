@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 550C09F4-8684-4B6F-BB62-8514721A9B32
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY, DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY
+ms.keywords: display.dxgi_ddi_multiplane_overlay_stretch_quality, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY_HIGH, DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY, DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY_HIGH, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY_BILINEAR, DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY enumeration [Display Devices], dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY, DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY_BILINEAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY
-req.alt-loc: Dxgiddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Dxgiddi.h
+apiname: 
+-	DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY
+product: Windows
+targetos: Windows
 req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY
 ---
 
 # DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY enumeration
 
 
-
 ## -description
+
+
 Identifies filtering processes that the hardware should perform when it stretches or shrinks multiplane overlay data.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY { 
@@ -55,6 +65,9 @@ typedef enum DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY {
 
 ## -enum-fields
 
+
+
+
 ### -field DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY_BILINEAR
 
 When the hardware stretches or shrinks the data, it should perform bilinear filtering. If the hardware lacks enough resources to perform bilinear shrinking, the user-mode display driver can use point sampling.
@@ -64,5 +77,3 @@ When the hardware stretches or shrinks the data, it should perform bilinear filt
 
 When the hardware stretches or shrinks the data, it should perform the highest quality filtering that it supports.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: adf1d2f3-4395-43d9-8157-e9f246e2bba8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FILE_LINKS_INFORMATION, FILE_LINKS_INFORMATION, *PFILE_LINKS_INFORMATION
+ms.keywords: ntifs/FILE_LINKS_INFORMATION, FILE_LINKS_INFORMATION structure [Installable File System Drivers], PFILE_LINKS_INFORMATION structure pointer [Installable File System Drivers], ifsk.file_links_information, FILE_LINKS_INFORMATION, PFILE_LINKS_INFORMATION, _FILE_LINKS_INFORMATION, ntifs/PFILE_LINKS_INFORMATION, *PFILE_LINKS_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILE_LINKS_INFORMATION
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: FILE_LINKS_INFORMATION, *PFILE_LINKS_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FILE_LINKS_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: *PFILE_LINKS_INFORMATION, FILE_LINKS_INFORMATION
 ---
 
 # _FILE_LINKS_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>FILE_LINKS_INFORMATION</b> structure is used to query NTFS hard links to an existing file.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILE_LINKS_INFORMATION {
@@ -55,6 +65,9 @@ typedef struct _FILE_LINKS_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field BytesNeeded
 
@@ -72,6 +85,10 @@ A buffer that contains the returned <a href="..\ntifs\ns-ntifs-_file_link_entry_
 
 
 ## -remarks
+
+
 If the member <b>EntriesReturned</b> has a value of 0, there is not enough available memory to return an entry. The error STATUS_BUFFER_OVERFLOW (0x80000005) indicates that not all available entries were returned.
 
-The member <b>Entry</b> is the first <a href="..\ntifs\ns-ntifs-_file_link_entry_information.md">FILE_LINK_ENTRY_INFORMATION</a> structure in a list of entries. Each entry is located <b>sizeof</b>(FILE_LINK_ENTRY_INFORMATION) + ((FileNameLength - 1 ) * <b>sizeof</b>(WCHAR)) from the previous entry when the FileNameLength member of <b>FILE_LINK_ENTRY_INFORMATION</b> &gt; 1. Otherwise, each entry is located <b>sizeof</b>(FILE_LINK_ENTRY_INFORMATION) from the previous entry.</p>
+The member <b>Entry</b> is the first <a href="..\ntifs\ns-ntifs-_file_link_entry_information.md">FILE_LINK_ENTRY_INFORMATION</a> structure in a list of entries. Each entry is located <b>sizeof</b>(FILE_LINK_ENTRY_INFORMATION) + ((FileNameLength - 1 ) * <b>sizeof</b>(WCHAR)) from the previous entry when the FileNameLength member of <b>FILE_LINK_ENTRY_INFORMATION</b> &gt; 1. Otherwise, each entry is located <b>sizeof</b>(FILE_LINK_ENTRY_INFORMATION) from the previous entry.
+
+

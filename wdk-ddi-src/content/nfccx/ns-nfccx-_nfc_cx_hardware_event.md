@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: FC7566C0-95FD-450C-897E-C57870386512
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: _NFC_CX_HARDWARE_EVENT, NFC_CX_HARDWARE_EVENT, *PNFC_CX_HARDWARE_EVENT
+ms.keywords: nfpdrivers.nfc_cx_hardware_event, *PNFC_CX_HARDWARE_EVENT, PNFC_CX_HARDWARE_EVENT structure pointer [Near-Field Proximity Drivers], nfccx/PNFC_CX_HARDWARE_EVENT, NFC_CX_HARDWARE_EVENT, PNFC_CX_HARDWARE_EVENT, NFC_CX_HARDWARE_EVENT structure [Near-Field Proximity Drivers], _NFC_CX_HARDWARE_EVENT, nfccx/NFC_CX_HARDWARE_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NFC_CX_HARDWARE_EVENT
-req.alt-loc: nfccx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: NFC_CX_HARDWARE_EVENT, *PNFC_CX_HARDWARE_EVENT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	nfccx.h
+apiname: 
+-	NFC_CX_HARDWARE_EVENT
+product: Windows
+targetos: Windows
+req.typenames: *PNFC_CX_HARDWARE_EVENT, NFC_CX_HARDWARE_EVENT
 ---
 
 # _NFC_CX_HARDWARE_EVENT structure
 
 
-
 ## -description
+
+
 The NFC_CX_HARDWARE_EVENT structure is an input parameter to <a href="..\nfccx\nf-nfccx-nfccxhardwareevent.md">NfcCxHardwareEvent.</a>
 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NFC_CX_HARDWARE_EVENT {
@@ -56,6 +66,9 @@ typedef struct _NFC_CX_HARDWARE_EVENT {
 
 ## -struct-fields
 
+
+
+
 ### -field HardwareStatus
 
 An <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS </a> value.
@@ -66,14 +79,12 @@ An <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTS
 An <a href="..\nfccx\ne-nfccx-_nfc_cx_host_action.md">NFC_CX_HOST_ACTION</a>-typed enumerator.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt><a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a></dt>
-<dt><a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a></dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
  
 
  

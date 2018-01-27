@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0e172d33-e4af-4345-a979-6b4549565ec7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_OUT_GETDEFAULTDESCRIPTIONMODES,
+ms.keywords: iddcx/IDARG_OUT_GETDEFAULTDESCRIPTIONMODES, IDARG_OUT_GETDEFAULTDESCRIPTIONMODES structure [Display Devices], display.idarg_out_getdefaultdescriptionmodes, IDARG_OUT_GETDEFAULTDESCRIPTIONMODES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDARG_OUT_GETDEFAULTDESCRIPTIONMODES
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDARG_OUT_GETDEFAULTDESCRIPTIONMODES
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDARG_OUT_GETDEFAULTDESCRIPTIONMODES structure
 
 
-
 ## -description
+
+
 Gives information about the default description modes for the monitor, as well as the preferred mode of the monitor.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDARG_OUT_GETDEFAULTDESCRIPTIONMODES {
@@ -54,6 +64,9 @@ typedef struct IDARG_OUT_GETDEFAULTDESCRIPTIONMODES {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DefaultMonitorModeBufferOutputCount
 
@@ -70,15 +83,10 @@ typedef struct IDARG_OUT_GETDEFAULTDESCRIPTIONMODES {
                      [out] Index into the <b>pMonitorModes</b> array of the preferred monitor mode. A value of <b>NO_PREFERRED_MODE</b> indicates that there is no preferred monitor mode.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\iddcx\ns-iddcx-idarg_in_parsemonitordescription.md">IDARG_IN_PARSEMONITORDESCRIPTION</a>
-</dt>
-</dl>
+
  
 
  

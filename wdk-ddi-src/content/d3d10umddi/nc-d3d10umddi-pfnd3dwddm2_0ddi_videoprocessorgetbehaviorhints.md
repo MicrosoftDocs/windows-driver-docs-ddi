@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E6CBAFEE-9587-45D5-A6CD-4CA739AF279E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.videoprocessorgetbehaviorhints, pfnVideoProcessorGetBehaviorHints callback function [Display Devices], pfnVideoProcessorGetBehaviorHints, PFND3DWDDM2_0DDI_VIDEOPROCESSORGETBEHAVIORHINTS, PFND3DWDDM2_0DDI_VIDEOPROCESSORGETBEHAVIORHINTS, d3d10umddi/pfnVideoProcessorGetBehaviorHints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnVideoProcessorGetBehaviorHints
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	pfnVideoProcessorGetBehaviorHints
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3DWDDM2_0DDI_VIDEOPROCESSORGETBEHAVIORHINTS callback
 
 
-
 ## -description
+
+
 Returns driver hints as to which video processor operations are best performed using multi-plane overlay hardware rather than <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a>. Optional for Windows Display Driver Model (WDDM) 2.0, or later, drivers.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DWDDM2_0DDI_VIDEOPROCESSORGETBEHAVIORHINTS pfnVideoProcessorGetBehaviorHints;
@@ -63,6 +73,9 @@ HRESULT APIENTRY* pfnVideoProcessorGetBehaviorHints(
 
 
 ## -parameters
+
+
+
 
 ### -param hDevice [in]
 
@@ -94,33 +107,47 @@ Indicates the output format of the video processor.
 The number of input streams to process. 
 
 
-### -param pStreams [in]
+### -param *pStreams
+
+
+
+### -param *pBehaviorHints
+
+
+
+
+
+
+#### - pStreams [in]
 
 An array of structures indicating the format and status of each stream.
 
 
-### -param pBehaviorHints [out]
+#### - pBehaviorHints [out]
 
 Receives a combination of <b>D3DWDDM2_0DDI_VIDEO_PROCESSOR_MULTIPLANE_BEHAVIOR_HINTS</b> values indicting which of the operations would best be performed using multi-plane overlay hardware rather than with <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a>. 
 
 
 ## -returns
+
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
+
 ## -remarks
+
+
 This function uses the current state, set via the <b>VideoProcessorSetOutput</b> and <b>VideoProcessorSetStream</b> set of  device driver interfaces (DDIs), and returns which operations could be performed more efficiently using multiple overlay hardware. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a>
-</dt>
-</dl>
+
  
 
  

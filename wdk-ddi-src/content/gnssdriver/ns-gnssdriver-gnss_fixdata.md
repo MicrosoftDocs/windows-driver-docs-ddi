@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 2939F01A-2F1C-4434-BAE1-59F1F320BD44
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_FIXDATA, *PGNSS_FIXDATA, GNSS_FIXDATA
+ms.keywords: gnssdriver/GNSS_FIXDATA, *PGNSS_FIXDATA, gnssdriver/PGNSS_FIXDATA, sensors.gnss_fixdata, PGNSS_FIXDATA, GNSS_FIXDATA, PGNSS_FIXDATA structure pointer [Sensor Devices], GNSS_FIXDATA structure [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GNSS_FIXDATA
-req.alt-loc: gnssdriver.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	gnssdriver.h
+apiname: 
+-	GNSS_FIXDATA
+product: Windows
+targetos: Windows
 req.typenames: *PGNSS_FIXDATA, GNSS_FIXDATA
 ---
 
 # GNSS_FIXDATA structure
 
 
-
 ## -description
+
+
 This structure defines the specific data elements associated with a GNSS fix returned from the driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -62,6 +72,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -122,5 +135,3 @@ This element contains the accuracy-related data when FixLevelofDetails field has
 
 This element contains the satellite-related data when FixLevelofDetails field has GNSS_FIXDETAIL_SATELLITE bit set.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e06a377a-e68a-4773-9f7f-b1c47010029c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_CHILD_LIST_ITERATOR_INIT
+ms.keywords: WDF_CHILD_LIST_ITERATOR_INIT, wdf.wdf_child_list_iterator_init, wdfchildlist/WDF_CHILD_LIST_ITERATOR_INIT, DFDeviceObjectChildListRef_5040aac1-503f-4559-ad77-0304bfb67e3d.xml, kmdf.wdf_child_list_iterator_init, WDF_CHILD_LIST_ITERATOR_INIT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WDF_CHILD_LIST_ITERATOR_INIT
-req.alt-loc: Wdfchildlist.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdfchildlist.h
+apiname: 
+-	WDF_CHILD_LIST_ITERATOR_INIT
+product: Windows
+targetos: Windows
 req.typenames: WDF_RETRIEVE_CHILD_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # WDF_CHILD_LIST_ITERATOR_INIT function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_CHILD_LIST_ITERATOR_INIT</b> function initializes a <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 VOID WDF_CHILD_LIST_ITERATOR_INIT(
@@ -57,6 +67,9 @@ VOID WDF_CHILD_LIST_ITERATOR_INIT(
 
 
 ## -parameters
+
+
+
 
 ### -param Iterator [out]
 
@@ -69,23 +82,18 @@ A <a href="..\wdfchildlist\ne-wdfchildlist-_wdf_retrieve_child_flags.md">WDF_RET
 
 
 ## -returns
+
+
 None
 
-For a code example that uses <b>WDF_CHILD_LIST_ITERATOR_INIT</b>, see <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>.
-
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a>
-</dt>
-<dt>
+
 <a href="..\wdfchildlist\ne-wdfchildlist-_wdf_retrieve_child_flags.md">WDF_RETRIEVE_CHILD_FLAGS</a>
-</dt>
-</dl>
+
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a>
+
  
 
  

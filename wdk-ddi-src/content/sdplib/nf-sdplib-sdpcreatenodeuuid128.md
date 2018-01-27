@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 28785776-2b94-4ef7-8acf-716e09a1a264
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: SdpCreateNodeUUID128
+ms.keywords: bltooth.sdpcreatenodeuuid128, SdpCreateNodeUUID128, SdpCreateNodeUUID128 function [Bluetooth Devices], bth_funcs_c1349854-91d8-4e94-8e87-ef566288257f.xml, sdplib/SdpCreateNodeUUID128
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SdpCreateNodeUUID128
-req.alt-loc: sdplib.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,25 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-req.typenames: *PSDCMD_DESCRIPTOR, SDCMD_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	sdplib.h
+apiname: 
+-	SdpCreateNodeUUID128
+product: Windows
+targetos: Windows
+req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
 # SdpCreateNodeUUID128 function
 
 
-
 ## -description
+
+
 The Bluetooth 
   <b>SdpCreateNodeUUID128</b> function is used to allocate and initialize an 
   <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a> structure to a 128-bit UUID type.
 
 
-
 ## -syntax
+
 
 ````
 PSDP_NODE SdpCreateNodeUUID128(
@@ -58,9 +68,12 @@ PSDP_NODE SdpCreateNodeUUID128(
 
 ## -parameters
 
-### -param pUuidVal [in]
 
-A pointer to the 128-bit UUID value that is used to initialize the SDP_NODE structure.
+
+
+### -param uuid
+
+TBD
 
 
 ### -param tag [in]
@@ -68,12 +81,22 @@ A pointer to the 128-bit UUID value that is used to initialize the SDP_NODE stru
 A profile driver defined tag to associate with the node.
 
 
+#### - pUuidVal [in]
+
+A pointer to the 128-bit UUID value that is used to initialize the SDP_NODE structure.
+
+
 ## -returns
+
+
 If successful, this function returns a pointer to the newly allocated SDP_NODE structure. If not
      successful, this function returns <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 After the 
     <b>SdpCreateNodeUUID128</b> function allocates an 
     <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a> structure, it initializes the structure in
@@ -95,25 +118,21 @@ The data associated with the
     time.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">
-    BTHDDI_SDP_NODE_INTERFACE</a> structure.
+    <mshelp:link keywords="bltooth.bthddi_sdp_node_interface" tabindex="0"><b>
+    BTHDDI_SDP_NODE_INTERFACE</b></mshelp:link> structure.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
-</dt>
-<dt>
+
 <a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
-</dt>
-<dt>
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
+
 <a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
-</dt>
-<dt>
+
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 66088355-A110-4295-81D9-542491E2D6E4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_HISTORY_BUFFER, DXGK_HISTORY_BUFFER
+ms.keywords: DXGK_HISTORY_BUFFER, display.dxgk_history_buffer, DXGK_HISTORY_BUFFER structure [Display Devices], _DXGK_HISTORY_BUFFER, d3dkmddi/DXGK_HISTORY_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1,WDDM 1.3 and later
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_HISTORY_BUFFER
-req.alt-loc: D3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmddi.h
+apiname: 
+-	DXGK_HISTORY_BUFFER
+product: Windows
+targetos: Windows
 req.typenames: DXGK_HISTORY_BUFFER
 ---
 
 # _DXGK_HISTORY_BUFFER structure
 
 
-
 ## -description
+
+
 Specifies a history buffer that stores time stamps that record GPU activity throughout the execution lifetime of a direct memory access (DMA) buffer.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_HISTORY_BUFFER {
@@ -54,6 +64,9 @@ typedef struct _DXGK_HISTORY_BUFFER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -66,6 +79,8 @@ An array that marks the beginning of the optional driver data and timestamp entr
 
 
 ## -remarks
+
+
 You can calculate the address of the first time stamp in the history buffer by adding the value of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer_header.md">DXGK_HISTORY_BUFFER_HEADER</a>.<b>PrivateDataSize</b> to the address of <b>DriverPrivateData</b>.
 
 The beginnings of the time stamps should be aligned to a 64-bit boundary.
@@ -75,15 +90,13 @@ The first and last time stamps in the <b>DriverPrivateData</b> array must be res
 The driver specifies the precision of time stamps with the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer_header.md">DXGK_HISTORY_BUFFER_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer_header.md">DXGK_HISTORY_BUFFER_HEADER</a>
+
  
 
  

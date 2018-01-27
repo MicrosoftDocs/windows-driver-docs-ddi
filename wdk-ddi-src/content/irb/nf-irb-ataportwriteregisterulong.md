@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 62abbee8-cd62-4106-9a7e-c93bfc916769
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortWriteRegisterUlong
+ms.keywords: AtaPortWriteRegisterUlong routine [Storage Devices], storage.ataportwriteregisterulong, irb/AtaPortWriteRegisterUlong, AtaPortWriteRegisterUlong, atartns_9cbbfe00-9ab2-4c7b-8f33-c9ebb166214a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AtaPortWriteRegisterUlong
-req.alt-loc: ataport.lib,ataport.dll,pciidex.lib,pciidex.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ataport.lib
+-	ataport.dll
+-	pciidex.lib
+-	pciidex.dll
+apiname: 
+-	AtaPortWriteRegisterUlong
+product: Windows
+targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
 
 # AtaPortWriteRegisterUlong function
 
 
-
 ## -description
+
+
 The <b>AtaPortWriteRegisterUlong</b> routine transfers a ULONG value to the HBA.
-
-
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 VOID AtaPortWriteRegisterUlong(
@@ -54,6 +67,9 @@ VOID AtaPortWriteRegisterUlong(
 
 
 ## -parameters
+
+
+
 
 ### -param Register [in]
 
@@ -66,24 +82,20 @@ Specifies the value to write to the register for the HBA.
 
 
 ## -returns
+
+
 None 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
-</dt>
-<dt>
-<a href="..\irb\nf-irb-ataportwriteregisteruchar.md">AtaPortWriteRegisterUchar</a>
-</dt>
-<dt>
+
 <a href="..\irb\nf-irb-ataportwriteregisterushort.md">AtaPortWriteRegisterUshort</a>
-</dt>
-</dl>
+
+<a href="..\irb\nf-irb-ataportwriteregisteruchar.md">AtaPortWriteRegisterUchar</a>
+
+<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
+
  
 
  

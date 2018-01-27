@@ -7,8 +7,8 @@ old-location: netvista\wwan_provider.htm
 old-project: netvista
 ms.assetid: 2bca3123-3ac4-44fe-8d47-051314ef3cb7
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WWAN_PROVIDER, WWAN_PROVIDER, *PWWAN_PROVIDER
+ms.date: 1/18/2018
+ms.keywords: WwanRef_a76aa69a-8c66-40a4-bda0-5ce66cc57790.xml, WWAN_PROVIDER structure [Network Drivers Starting with Windows Vista], wwan/WWAN_PROVIDER, _WWAN_PROVIDER, wwan/PWWAN_PROVIDER, *PWWAN_PROVIDER, netvista.wwan_provider, WWAN_PROVIDER, PWWAN_PROVIDER, PWWAN_PROVIDER structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WWAN_PROVIDER
-req.alt-loc: wwan.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: WWAN_PROVIDER, *PWWAN_PROVIDER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wwan.h
+apiname: 
+-	WWAN_PROVIDER
+product: Windows
+targetos: Windows
+req.typenames: *PWWAN_PROVIDER, WWAN_PROVIDER
 req.product: Windows 10 or later.
 ---
 
 # _WWAN_PROVIDER structure
 
 
-
 ## -description
+
+
 The WWAN_PROVIDER structure represents details about a network provider.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WWAN_PROVIDER {
@@ -57,6 +67,9 @@ typedef struct _WWAN_PROVIDER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ProviderId
 
@@ -81,7 +94,6 @@ A value that represents the various states that the network provider's entry can
      The following table shows the possible values that miniport drivers should specify (one or more values
      can be specified).
      
-
 <table>
 <tr>
 <th>Value</th>
@@ -147,12 +159,10 @@ The network provider state is unknown.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 Some values in the previous table apply only to specific object identifiers (OIDs). The following
      table shows the associations between those values and related OIDs.
-
 <table>
 <tr>
 <th>Value</th>
@@ -204,8 +214,7 @@ WWAN_PROVIDER_STATE_FORBIDDEN
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field ProviderName
@@ -235,27 +244,19 @@ A bitmap that represents the data-class(es) that the device supports. For a deta
 This member can be ignored when queried for OID_WWAN_HOME_PROVIDER.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_home_provider.md">NDIS_WWAN_HOME_PROVIDER</a>
-</dt>
-<dt>
+
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_preferred_providers.md">NDIS_WWAN_PREFERRED_PROVIDERS</a>
-</dt>
-<dt>
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_visible_providers.md">NDIS_WWAN_VISIBLE_PROVIDERS</a>
-</dt>
-<dt>
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_home_provider.md">NDIS_WWAN_HOME_PROVIDER</a>
+
 <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_visible_providers.md">NDIS_WWAN_VISIBLE_PROVIDERS</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_PROVIDER structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_PROVIDER structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

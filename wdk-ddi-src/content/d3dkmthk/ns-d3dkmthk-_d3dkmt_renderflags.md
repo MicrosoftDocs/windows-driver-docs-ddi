@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6a25528c-063b-4cd5-963d-82245009bb48
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_RENDERFLAGS, D3DKMT_RENDERFLAGS
+ms.keywords: D3DKMT_RENDERFLAGS structure [Display Devices], _D3DKMT_RENDERFLAGS, D3DKMT_RENDERFLAGS, OpenGL_Structs_8a885a03-0eba-4119-973a-a1c1dafe3c10.xml, d3dkmthk/D3DKMT_RENDERFLAGS, display.d3dkmt_renderflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_RENDERFLAGS
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_RENDERFLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_RENDERFLAGS
 ---
 
 # _D3DKMT_RENDERFLAGS structure
 
 
-
 ## -description
+
+
 The D3DKMT_RENDERFLAGS structure identifies the type of command buffer to be rendered in a call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtrender.md">D3DKMTRender</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_RENDERFLAGS {
@@ -59,6 +69,9 @@ typedef struct _D3DKMT_RENDERFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ResizeCommandBuffer
 
@@ -104,20 +117,20 @@ A UINT value that specifies whether the OpenGL ICD supplies a pointer to the com
 Setting this member is equivalent to setting the sixth bit of a 32-bit value (0x00000020).
 
 
+### -field RenderKmReadback
+
+ 
+
+
 ### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member is equivalent to setting the remaining 26 bits (0xFFFFFFC0) of a 32-bit value to zeros.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_render.md">D3DKMT_RENDER</a>
-</dt>
-</dl>
+
  
 
  

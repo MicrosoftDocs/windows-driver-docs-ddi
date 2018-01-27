@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D689A7F3-87ED-4247-A28D-333C05C958F8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020, D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020
+ms.keywords: display.d3d12ddi_video_decode_configuration, D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020, d3d12umddi/D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020, D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020
-req.alt-loc: d3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d12umddi.h
+apiname: 
+-	D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020
 ---
 
 # D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020 structure
 
 
-
 ## -description
+
+
 Includes information about the video decode configuration.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020 {
@@ -55,6 +65,9 @@ typedef struct D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DecodeProfile
 
@@ -70,5 +83,3 @@ The GUID identifying the encryption, e.g., D3D12DDI_DECODER_ENCRYPTION_HW_CENC.
 
 The interlace type used by the coded frames.  See D3D12DDI_VIDEO_CODED_INTERLACE_TYPE. 
 
-
-## -remarks

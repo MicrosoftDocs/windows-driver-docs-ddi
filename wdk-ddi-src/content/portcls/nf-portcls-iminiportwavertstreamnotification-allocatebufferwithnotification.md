@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: df1da549-1677-42ef-9644-3d9c5df66894
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWaveRTStreamNotification, IMiniportWaveRTStreamNotification::AllocateBufferWithNotification, AllocateBufferWithNotification
+ms.keywords: audio.iminiportwavertstreamnotification_allocatebufferwithnotification, IMiniportWaveRTStreamNotification::AllocateBufferWithNotification, audmp-routines_84faf4d3-ee36-4996-8de2-0f89b41c18fe.xml, AllocateBufferWithNotification, AllocateBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification interface, IMiniportWaveRTStreamNotification, IMiniportWaveRTStreamNotification interface [Audio Devices], AllocateBufferWithNotification method, AllocateBufferWithNotification method [Audio Devices], portcls/IMiniportWaveRTStreamNotification::AllocateBufferWithNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later Windows operatin
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportWaveRTStreamNotification.AllocateBufferWithNotification
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: Passive level.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IMiniportWaveRTStreamNotification.AllocateBufferWithNotification
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportWaveRTStreamNotification::AllocateBufferWithNotification method
 
 
-
 ## -description
+
+
 The <code>AllocateAudioBufferWithNotification</code> method allocates a cyclic buffer for audio data when you want to implement DMA-driven event notification.  If you do not want event notification, you must use <b>IMiniportWaveRTStream::AllocateAudioBuffer</b>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS AllocateBufferWithNotification(
@@ -58,6 +68,9 @@ NTSTATUS AllocateBufferWithNotification(
 
 
 ## -parameters
+
+
+
 
 ### -param NotificationCount [in]
 
@@ -90,38 +103,70 @@ Specifies the type of caching that the client requests for the audio buffer. Thi
 
 
 ## -returns
+
+
 <code>AllocateBufferWithNotification</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error status code. The following table shows some of the possible error status codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>The driver does not support the specified combination of buffer attributes.
+</dl>
+</td>
+<td width="60%">
+The driver does not support the specified combination of buffer attributes.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>There is insufficient memory available to allocate the buffer.
+</dl>
+</td>
+<td width="60%">
+There is insufficient memory available to allocate the buffer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_DEVICE_NOT_READY</b></dt>
-</dl>The device is not ready.
+</dl>
+</td>
+<td width="60%">
+The device is not ready.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-After receiving a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537374">KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION</a> request from the client, the port driver calls the <code>AllocateBufferWithNotification</code> method to allocate a cyclic buffer that the port driver can later map to the virtual address space of the client.  <code>AllocateBufferWithNotification</code> operates in a manner similar to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536744">IMiniportWaveRTStream::AllocateAudioBuffer</a>. Additionally, <code>AllocateBufferWithNotification</code> identifies to the WaveRT port driver that DMA-driven event notification is wanted, and it specifies how many notifications per cycle of the cyclic buffer are needed.
+
+
+<div class="alert"><b>Note</b>  Miniports for Intel High Definition Audio Codecs must specify a CacheType of MmWriteCombined to ensure cache coherency. This is because the Intel High Definition Audio Controller may be configured for non-snoop operation.</div><div> </div>After receiving a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537374">KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION</a> request from the client, the port driver calls the <code>AllocateBufferWithNotification</code> method to allocate a cyclic buffer that the port driver can later map to the virtual address space of the client.  <code>AllocateBufferWithNotification</code> operates in a manner similar to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536744">IMiniportWaveRTStream::AllocateAudioBuffer</a>. Additionally, <code>AllocateBufferWithNotification</code> identifies to the WaveRT port driver that DMA-driven event notification is wanted, and it specifies how many notifications per cycle of the cyclic buffer are needed.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537374">KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536744">IMiniportWaveRTStream::AllocateAudioBuffer</a>
-</dt>
-<dt><a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff554430(v=vs.85).aspx">MEMORY_CACHING_TYPE</a></dt>
-<dt><a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff554414(v=vs.85).aspx">MDL</a></dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537374">KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION</a>
+
+<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff554430(v=vs.85).aspx">MEMORY_CACHING_TYPE</a>
+
+<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff554414(v=vs.85).aspx">MDL</a>
+
  
 
  

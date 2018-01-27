@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 874FB2E1-7A2F-4C91-BA72-D67DA2EE84E1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _BOUND_CALLBACK_STATUS, BOUND_CALLBACK_STATUS, *PBOUND_CALLBACK_STATUS
+ms.keywords: wdm/BoundExceptionHandled, wdm/BoundExceptionMaximum, *PBOUND_CALLBACK_STATUS, BoundExceptionContinueSearch, BoundExceptionHandled, wdm/BOUND_CALLBACK_STATUS, BoundExceptionError, BOUND_CALLBACK_STATUS, BoundExceptionMaximum, wdm/BoundExceptionError, BOUND_CALLBACK_STATUS enumeration [Kernel-Mode Driver Architecture], kernel.bound_callback_status, wdm/BoundExceptionContinueSearch, _BOUND_CALLBACK_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BOUND_CALLBACK_STATUS
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: BOUND_CALLBACK_STATUS, *PBOUND_CALLBACK_STATUS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	BOUND_CALLBACK_STATUS
+product: Windows
+targetos: Windows
+req.typenames: *PBOUND_CALLBACK_STATUS, BOUND_CALLBACK_STATUS
 req.product: Windows 10 or later.
 ---
 
 # _BOUND_CALLBACK_STATUS enumeration
 
 
-
 ## -description
+
+
 The <b>BOUND_CALLBACK_STATUS</b> enumeration indicates how a user-mode bounds exception was processed by the <a href="..\wdm\nc-wdm-bound_callback.md">BoundCallback</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _BOUND_CALLBACK_STATUS { 
@@ -57,6 +67,9 @@ typedef enum _BOUND_CALLBACK_STATUS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field BoundExceptionContinueSearch
 
@@ -79,15 +92,16 @@ This value is not currently used.
 
 
 ## -remarks
+
+
 The return value of the <a href="..\wdm\nc-wdm-bound_callback.md">BoundCallback</a> routine is a <b>BOUND_CALLBACK_STATUS</b> value.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nc-wdm-bound_callback.md">BoundCallback</a>
-</dt>
-</dl>
+
  
 
  

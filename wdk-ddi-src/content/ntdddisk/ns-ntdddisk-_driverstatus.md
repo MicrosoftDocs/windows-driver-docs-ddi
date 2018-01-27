@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: de97322f-a756-49a8-a6e6-dab42f278388
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DRIVERSTATUS, *PDRIVERSTATUS, *LPDRIVERSTATUS, DRIVERSTATUS
+ms.keywords: DRIVERSTATUS structure [Storage Devices], LPDRIVERSTATUS, _DRIVERSTATUS, *PDRIVERSTATUS, PDRIVERSTATUS structure pointer [Storage Devices], LPDRIVERSTATUS structure pointer [Storage Devices], *LPDRIVERSTATUS, ntdddisk/LPDRIVERSTATUS, ntdddisk/DRIVERSTATUS, DRIVERSTATUS, PDRIVERSTATUS, storage.driverstatus, ntdddisk/PDRIVERSTATUS, structs-IDE_e49310ff-1d3c-44d5-a997-08b8f500ed13.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DRIVERSTATUS
-req.alt-loc: ntdddisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PDRIVERSTATUS, *LPDRIVERSTATUS, DRIVERSTATUS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntdddisk.h
+apiname: 
+-	DRIVERSTATUS
+product: Windows
+targetos: Windows
+req.typenames: *LPDRIVERSTATUS, DRIVERSTATUS, *PDRIVERSTATUS
 ---
 
 # _DRIVERSTATUS structure
 
 
-
 ## -description
+
+
 The DRIVERSTATUS structure is used in conjunction with the <a href="..\ntdddisk\ns-ntdddisk-_sendcmdoutparams.md">SENDCMDOUTPARAMS</a> structure and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a> request to retrieve data returned by a Self-Monitoring Analysis and Reporting Technology (SMART) command.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DRIVERSTATUS {
@@ -56,6 +66,9 @@ typedef struct _DRIVERSTATUS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field bDriverError
 
@@ -77,18 +90,12 @@ Reserved.
 Reserved. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntdddisk\ns-ntdddisk-_sendcmdoutparams.md">SENDCMDOUTPARAMS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a>
-</dt>
-</dl>
+
+<a href="..\ntdddisk\ns-ntdddisk-_sendcmdoutparams.md">SENDCMDOUTPARAMS</a>
+
  
 
  

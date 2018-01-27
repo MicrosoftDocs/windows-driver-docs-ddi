@@ -7,8 +7,8 @@ old-location: netvista\fwpsstreaminjectasync0.htm
 old-project: netvista
 ms.assetid: d72c3067-21df-40ee-a898-100fcdc5eaca
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: FwpsStreamInjectAsync0
+ms.date: 1/18/2018
+ms.keywords: FwpsStreamInjectAsync0, wfp_ref_2_funct_3_fwps_R-Z_422b8f08-5d55-4825-8c17-62c4c4e2c1c1.xml, fwpsk/FwpsStreamInjectAsync0, netvista.fwpsstreaminjectasync0, FwpsStreamInjectAsync0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FwpsStreamInjectAsync0
-req.alt-loc: fwpkclnt.lib,fwpkclnt.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	fwpkclnt.lib
+-	fwpkclnt.dll
+apiname: 
+-	FwpsStreamInjectAsync0
+product: Windows
+targetos: Windows
 req.typenames: FWPS_VSWITCH_EVENT_TYPE
 ---
 
 # FwpsStreamInjectAsync0 function
 
 
-
 ## -description
+
+
 The 
   <b>FwpsStreamInjectAsync0</b> function injects TCP data segments into a TCP data stream.
-
-
+<div class="alert"><b>Note</b>  <b>FwpsStreamInjectAsync0</b> is a specific version of <b>FwpsStreamInjectAsync</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -syntax
+
 
 ````
 NTSTATUS NTAPI FwpsStreamInjectAsync0(
@@ -65,11 +76,14 @@ NTSTATUS NTAPI FwpsStreamInjectAsync0(
 
 ## -parameters
 
+
+
+
 ### -param injectionHandle [in]
 
 An injection handle that was previously created by a call to the 
-     <a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">
-     FwpsInjectionHandleCreate0</a> function.
+     <mshelp:link keywords="netvista.fwpsinjectionhandlecreate0" tabindex="0"><b>
+     FwpsInjectionHandleCreate0</b></mshelp:link> function.
 
 
 ### -param injectionContext [in, optional]
@@ -120,69 +134,11 @@ When injecting data into an inbound data stream, a callout driver specifies one 
 
 
 
-
-### -param FWPS_STREAM_FLAG_RECEIVE
-
-Specifies that the data is to be injected into the inbound data stream. This flag is required
-       when injecting data into an inbound data stream.
-
-
-### -param FWPS_STREAM_FLAG_RECEIVE_DISCONNECT
-
-Specifies that the FIN flag is to be set in the TCP header for the data being injected into the
-       inbound data stream.
-
-<div class="alert"><b>Note</b>  If this flag is set, the <b>FWPS_STREAM_FLAG_RECEIVE</b> flag must also be set, or else <b>STATUS_FWP_INVALID_PARAMETER</b> will be returned.</div>
-<div> </div>
-
-### -param FWPS_STREAM_FLAG_RECEIVE_EXPEDITED
-
-Specifies that the data being injected into the inbound data stream is high-priority,
-       out-of-band data.
-
-
-### -param FWPS_STREAM_FLAG_RECEIVE_PUSH
-
-Specifies that the inbound data has arrived with the PUSH flag set in the TCP header, which
-       indicates that the sender requests immediate data transfer. Unwanted delays in data transfer can occur
-       if this flag is not set. This flag is available starting with Windows Vista with SP1.
-
-</dd>
-</dl>
 When injecting data into an outbound data stream, a callout driver specifies one or more of the
      following flags:
 
 
 
-
-### -param FWPS_STREAM_FLAG_SEND
-
-Specifies that the data is to be injected into the outbound data stream. This flag is required
-       when injecting data into an outbound data stream.
-
-
-### -param FWPS_STREAM_FLAG_SEND_EXPEDITED
-
-Specifies that the data being injected into the outbound data stream is high-priority,
-       out-of-band data.
-
-
-### -param FWPS_STREAM_FLAG_SEND_NODELAY
-
-Specifies that the callout driver requests that there is no buffering of the data being injected
-       into the outbound data stream.
-
-
-### -param FWPS_STREAM_FLAG_SEND_DISCONNECT
-
-Specifies that the stream is to be disconnected after the data being injected into the outbound
-       data stream has been sent. The network stack will set the FIN flag in the TCP header of the last
-       packet that is sent out.
-
-<div class="alert"><b>Note</b>  If this flag is set, the <b>FWPS_STREAM_FLAG_SEND</b> flag must also be set, or else <b>STATUS_FWP_INVALID_PARAMETER</b> will be returned.</div>
-<div> </div>
-</dd>
-</dl>
 
 ### -param netBufferList [in, out]
 
@@ -190,8 +146,8 @@ A pointer to a
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that describes
      the data that is being injected into the data stream. A callout driver allocates a <b>NET_BUFFER_LIST</b>
      structure to use for injecting data into a data stream by calling the 
-     <a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
-     FwpsAllocateCloneNetBufferList0</a>, 
+     <mshelp:link keywords="netvista.fwpsallocateclonenetbufferlist0" tabindex="0"><b>
+     FwpsAllocateCloneNetBufferList0</b></mshelp:link>, 
      <a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">FwpsAllocateNetBufferAndNetBufferList0</a>, or 
      <a href="..\fwpsk\nf-fwpsk-fwpsclonestreamdata0.md">FwpsCloneStreamData0</a> functions. The
      <b>NET_BUFFER_LIST</b> structure can describe a chain of network buffer lists. If the 
@@ -229,29 +185,120 @@ A pointer to a callout driver–provided context that is passed to the callout f
      <i>completionFn</i> parameter. This parameter is optional and can be <b>NULL</b>.
 
 
+##### - streamFlags.FWPS_STREAM_FLAG_RECEIVE_EXPEDITED
+
+Specifies that the data being injected into the inbound data stream is high-priority,
+       out-of-band data.
+
+
+##### - streamFlags.FWPS_STREAM_FLAG_RECEIVE_PUSH
+
+Specifies that the inbound data has arrived with the PUSH flag set in the TCP header, which
+       indicates that the sender requests immediate data transfer. Unwanted delays in data transfer can occur
+       if this flag is not set. This flag is available starting with Windows Vista with SP1.
+
+
+##### - streamFlags.FWPS_STREAM_FLAG_SEND
+
+Specifies that the data is to be injected into the outbound data stream. This flag is required
+       when injecting data into an outbound data stream.
+
+
+##### - streamFlags.FWPS_STREAM_FLAG_SEND_DISCONNECT
+
+Specifies that the stream is to be disconnected after the data being injected into the outbound
+       data stream has been sent. The network stack will set the FIN flag in the TCP header of the last
+       packet that is sent out.
+<div class="alert"><b>Note</b>  If this flag is set, the <b>FWPS_STREAM_FLAG_SEND</b> flag must also be set, or else <b>STATUS_FWP_INVALID_PARAMETER</b> will be returned.</div><div> </div>
+
+##### - streamFlags.FWPS_STREAM_FLAG_RECEIVE_DISCONNECT
+
+Specifies that the FIN flag is to be set in the TCP header for the data being injected into the
+       inbound data stream.
+<div class="alert"><b>Note</b>  If this flag is set, the <b>FWPS_STREAM_FLAG_RECEIVE</b> flag must also be set, or else <b>STATUS_FWP_INVALID_PARAMETER</b> will be returned.</div><div> </div>
+
+##### - streamFlags.FWPS_STREAM_FLAG_RECEIVE
+
+Specifies that the data is to be injected into the inbound data stream. This flag is required
+       when injecting data into an inbound data stream.
+
+
+##### - streamFlags.FWPS_STREAM_FLAG_SEND_EXPEDITED
+
+Specifies that the data being injected into the outbound data stream is high-priority,
+       out-of-band data.
+
+
+##### - streamFlags.FWPS_STREAM_FLAG_SEND_NODELAY
+
+Specifies that the callout driver requests that there is no buffering of the data being injected
+       into the outbound data stream.
+
+
 ## -returns
+
+
 The 
      <b>FwpsStreamInjectAsync0</b> function an NTSTATUS code such as one of the following.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The injection into the data stream was initiated successfully. The filter engine will call the
+</dl>
+</td>
+<td width="60%">
+The injection into the data stream was initiated successfully. The filter engine will call the
        completion function that was specified when the 
        <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure was allocated
        after the filter engine has completed injecting the data into the data stream.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FWP_TCPIP_NOT_READY</b></dt>
-</dl>The TCP/IP network stack is not ready to accept injection of stream data.
+</dl>
+</td>
+<td width="60%">
+The TCP/IP network stack is not ready to accept injection of stream data.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FWP_INJECT_HANDLE_CLOSING</b></dt>
-</dl>The injection handle is being closed.
+</dl>
+</td>
+<td width="60%">
+The injection handle is being closed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>Other status codes</b></dt>
-</dl>An error occurred.
+</dl>
+</td>
+<td width="60%">
+An error occurred.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A callout driver calls the 
     <b>FwpsStreamInjectAsync0</b> function from within a callout's 
     <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function to inject new
@@ -264,8 +311,8 @@ A callout driver can also call the
     stream is deferred when a callout's 
     <i>classifyFn</i> callout function sets the 
     <b>streamAction</b> member of the 
-    <a href="..\fwpsk\ns-fwpsk-fwps_stream_callout_io_packet0_.md">
-    FWPS_STREAM_CALLOUT_IO_PACKET0</a> structure to FWPS_STREAM_ACTION_DEFER.
+    <mshelp:link keywords="netvista.fwps_stream_callout_io_packet0" tabindex="0"><b>
+    FWPS_STREAM_CALLOUT_IO_PACKET0</b></mshelp:link> structure to FWPS_STREAM_ACTION_DEFER.
 
 In addition, a callout driver can call the 
     <b>FwpsStreamInjectAsync0</b> function from outside of a callout's 
@@ -295,51 +342,39 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
     <a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
+<mshelp:link keywords="netvista.fwpsallocatenetbufferandnetbufferlist0" tabindex="0"><b>
+   FwpsAllocateNetBufferAndNetBufferList0</b></mshelp:link>
+
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-</dt>
-<dt>
-<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
-</dt>
-<dt>
-<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
-   FwpsAllocateCloneNetBufferList0</a>
-</dt>
-<dt>
-<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
-   FwpsAllocateNetBufferAndNetBufferList0</a>
-</dt>
-<dt>
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
-</dt>
-<dt>
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
-</dt>
-<dt>
-<a href="..\fwpsk\nf-fwpsk-fwpsclonestreamdata0.md">FwpsCloneStreamData0</a>
-</dt>
-<dt>
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
-</dt>
-<dt>
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552401">FWPS_INCOMING_VALUES0</a>
-</dt>
-<dt>
-<a href="..\fwpsk\ns-fwpsk-fwps_stream_callout_io_packet0_.md">
-   FWPS_STREAM_CALLOUT_IO_PACKET0</a>
-</dt>
-<dt>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsclonestreamdata0.md">FwpsCloneStreamData0</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-</dt>
-</dl>
- 
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
+
+<mshelp:link keywords="netvista.fwpsallocateclonenetbufferlist0" tabindex="0"><b>
+   FwpsAllocateCloneNetBufferList0</b></mshelp:link>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
+
+<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
+
+<mshelp:link keywords="netvista.fwps_stream_callout_io_packet0" tabindex="0"><b>
+   FWPS_STREAM_CALLOUT_IO_PACKET0</b></mshelp:link>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsStreamInjectAsync0 function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsStreamInjectAsync0 function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dbb6e5ed-8d24-4b50-826b-f05f44de676a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_DDI_BLEND_DESC, D3D10_DDI_BLEND_DESC
+ms.keywords: UMDisplayDriver_Dx10param_Structs_8dd04d52-105b-4cc3-be87-5900625dcd6d.xml, D3D10_DDI_BLEND_DESC, D3D10_DDI_BLEND_DESC structure [Display Devices], d3d10umddi/D3D10_DDI_BLEND_DESC, display.d3d10_ddi_blend_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10_DDI_BLEND_DESC
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10_DDI_BLEND_DESC
+product: Windows
+targetos: Windows
 req.typenames: D3D10_DDI_BLEND_DESC
 ---
 
 # D3D10_DDI_BLEND_DESC structure
 
 
-
 ## -description
+
+
 The D3D10_DDI_BLEND_DESC structure describes a blend state.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D10_DDI_BLEND_DESC {
@@ -61,6 +71,9 @@ typedef struct D3D10_DDI_BLEND_DESC {
 
 
 ## -struct-fields
+
+
+
 
 ### -field AlphaToCoverageEnable
 
@@ -107,7 +120,6 @@ typedef struct D3D10_DDI_BLEND_DESC {
 ### -field RenderTargetWriteMask
 
 [in] An array of 8-bit bitwise values that indicate the write properties for each associated render target. Each bit of each element must be set to one of the following values from the D3D10_DDI_COLOR_WRITE_ENABLE enumeration.
-
 <table>
 <tr>
 <th>Value</th>
@@ -163,28 +175,19 @@ Writes red, green, blue, and a transparency level
 
 </td>
 </tr>
-</table>
- 
-
-
-## -remarks
+</table> 
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateblendstatesize.md">CalcPrivateBlendStateSize</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createblendstate.md">CreateBlendState</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend_op.md">D3D10_DDI_BLEND_OP</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>
+
  
 
  

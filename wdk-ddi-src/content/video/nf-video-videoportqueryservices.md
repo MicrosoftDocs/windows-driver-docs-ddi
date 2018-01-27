@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88d54fbc-e865-4a59-bb1c-75adfb49c355
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortQueryServices
+ms.keywords: display.videoportqueryservices, VideoPort_Functions_4f9cc677-4c65-4577-a289-92b8fb01c787.xml, video/VideoPortQueryServices, VideoPortQueryServices function [Display Devices], VideoPortQueryServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of the Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortQueryServices
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortQueryServices
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortQueryServices function
 
 
-
 ## -description
+
+
 The <b>VideoPortQueryServices</b> function exposes a specified interface that is implemented by the video port driver.
 
 
-
 ## -syntax
+
 
 ````
 VP_STATUS VideoPortQueryServices(
@@ -56,6 +66,9 @@ VP_STATUS VideoPortQueryServices(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -73,10 +86,15 @@ Pointer to an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure, whi
 
 
 ## -returns
+
+
 If <b>VideoPortQueryServices</b> succeeds, it returns NO_ERROR; otherwise, it returns an error code.
 
 
+
 ## -remarks
+
+
 If the <i>ServicesType</i> parameter is set to <b>VideoPortServicesI2C</b>, the <i>Interface</i> parameter must be a pointer to a <a href="..\video\ns-video-_video_port_i2c_interface.md">VIDEO_PORT_I2C_INTERFACE</a> structure, cast as a pointer to an INTERFACE structure.
 
 Similarly, if the <i>ServicesType</i> parameter is set to <b>VideoPortServicesAGP</b>, the <i>Interface</i> parameter must be a pointer to either a <a href="..\video\ns-video-_video_port_agp_interface.md">VIDEO_PORT_AGP_INTERFACE</a> structure, or a <a href="..\video\ns-video-_video_port_agp_interface_2.md">VIDEO_PORT_AGP_INTERFACE_2</a> structure, each cast as a pointer to an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure. 
@@ -90,33 +108,25 @@ If the <i>ServicesType</i> parameter is set to <b>VideoPortServicesDebugReport</
 If the <i>ServicesType</i> parameter is set to <b>VideoPortServicesWCMemoryProtection</b>, the <i>Interface</i> parameter must be a pointer to a <a href="..\video\ns-video-_video_port_wcmemoryprotection_interface.md">VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE</a> structure, cast as a pointer to an INTERFACE structure. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-</dt>
-<dt>
-<a href="..\video\ns-video-_video_port_agp_interface.md">VIDEO_PORT_AGP_INTERFACE</a>
-</dt>
-<dt>
+
 <a href="..\video\ns-video-_video_port_agp_interface_2.md">VIDEO_PORT_AGP_INTERFACE_2</a>
-</dt>
-<dt>
-<a href="..\video\ns-video-_video_port_i2c_interface.md">VIDEO_PORT_I2C_INTERFACE</a>
-</dt>
-<dt>
-<a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a>
-</dt>
-<dt>
-<a href="..\video\ns-video-_video_port_debug_report_interface.md">VIDEO_PORT_DEBUG_REPORT_INTERFACE</a>
-</dt>
-<dt>
+
 <a href="..\video\ns-video-_video_port_wcmemoryprotection_interface.md">VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE</a>
-</dt>
-<dt>
+
+<a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a>
+
+<a href="..\video\ns-video-_video_port_agp_interface.md">VIDEO_PORT_AGP_INTERFACE</a>
+
+<a href="..\video\ns-video-_video_port_i2c_interface.md">VIDEO_PORT_I2C_INTERFACE</a>
+
 <a href="..\videoagp\nc-videoagp-pagp_set_rate.md">AgpSetRate</a>
-</dt>
-</dl>
+
+<a href="..\video\ns-video-_video_port_debug_report_interface.md">VIDEO_PORT_DEBUG_REPORT_INTERFACE</a>
+
  
 
  

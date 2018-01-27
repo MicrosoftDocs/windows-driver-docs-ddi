@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2faf5e30-bfbb-4b23-9cb9-bf9dd81a56c2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeGetRecommendedSharedDataAlignment
+ms.keywords: KeGetRecommendedSharedDataAlignment routine [Kernel-Mode Driver Architecture], wdm/KeGetRecommendedSharedDataAlignment, k105_537a55c5-9c7e-49cb-8a27-de61e92b78e2.xml, kernel.kegetrecommendedshareddataalignment, KeGetRecommendedSharedDataAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeGetRecommendedSharedDataAlignment
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeGetRecommendedSharedDataAlignment
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeGetRecommendedSharedDataAlignment function
 
 
-
 ## -description
+
+
 The <b>KeGetRecommendedSharedDataAlignment</b> routine returns the preferred alignment for memory structures that can be accessed by more than one processor.
 
 
-
 ## -syntax
+
 
 ````
 ULONG KeGetRecommendedSharedDataAlignment(void);
@@ -54,13 +64,19 @@ ULONG KeGetRecommendedSharedDataAlignment(void);
 ## -parameters
 
 
+
+
+
 ## -returns
-<b>KeGetRecommendedSharedDataAlignment</b> returns the preferred alignment, in bytes, for memory structures that can be shared by more than one processor.
+
 
 <b>KeGetRecommendedSharedDataAlignment</b> returns the preferred alignment, in bytes, for memory structures that can be shared by more than one processor.
 
-<b>KeGetRecommendedSharedDataAlignment</b> returns the preferred alignment, in bytes, for memory structures that can be shared by more than one processor.
 
 
 ## -remarks
-Use <b>KeGetRecommendedSharedDataAlignment</b> to determine the best alignment for data structures that will be shared between processors. The value returned minimizes cache effects that negatively impact performance on multiprocessor systems.</p>
+
+
+Use <b>KeGetRecommendedSharedDataAlignment</b> to determine the best alignment for data structures that will be shared between processors. The value returned minimizes cache effects that negatively impact performance on multiprocessor systems.
+
+

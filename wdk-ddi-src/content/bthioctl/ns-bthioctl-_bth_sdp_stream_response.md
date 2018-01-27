@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 5b7db410-8d9c-4c3e-aaae-44f7d5b779a0
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTH_SDP_STREAM_RESPONSE, BTH_SDP_STREAM_RESPONSE, *PBTH_SDP_STREAM_RESPONSE
+ms.keywords: bltooth.bth_sdp_stream_response, BTH_SDP_STREAM_RESPONSE, bth_structs_c48540ef-f38b-4821-84cd-2b781c0b5352.xml, bthioctl/BTH_SDP_STREAM_RESPONSE, *PBTH_SDP_STREAM_RESPONSE, BTH_SDP_STREAM_RESPONSE structure [Bluetooth Devices], PBTH_SDP_STREAM_RESPONSE, _BTH_SDP_STREAM_RESPONSE, PBTH_SDP_STREAM_RESPONSE structure pointer [Bluetooth Devices], bthioctl/PBTH_SDP_STREAM_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BTH_SDP_STREAM_RESPONSE
-req.alt-loc: bthioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-req.typenames: BTH_SDP_STREAM_RESPONSE, *PBTH_SDP_STREAM_RESPONSE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthioctl.h
+apiname: 
+-	BTH_SDP_STREAM_RESPONSE
+product: Windows
+targetos: Windows
+req.typenames: *PBTH_SDP_STREAM_RESPONSE, BTH_SDP_STREAM_RESPONSE
 ---
 
 # _BTH_SDP_STREAM_RESPONSE structure
 
 
-
 ## -description
+
+
 The BTH_SDP_STREAM_RESPONSE structure contains information about an SDP record.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BTH_SDP_STREAM_RESPONSE {
@@ -55,6 +65,9 @@ typedef struct _BTH_SDP_STREAM_RESPONSE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field requiredSize
 
@@ -73,11 +86,13 @@ The first byte of the SDP record stream.
 
 
 ## -remarks
+
+
 This structure is returned with a raw stream to the output buffer of the 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_attribute_search.md">
-    IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a> and 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
-    IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a> IOCTLs.
+    <mshelp:link keywords="bltooth.ioctl_bth_sdp_attribute_search" tabindex="0"><b>
+    IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</b></mshelp:link> and 
+    <mshelp:link keywords="bltooth.ioctl_bth_sdp_service_attribute_search" tabindex="0"><b>
+    IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</b></mshelp:link> IOCTLs.
 
 The 
     <b>requiredSize</b> and 
@@ -85,16 +100,14 @@ The
     contain these fields.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
+<mshelp:link keywords="bltooth.ioctl_bth_sdp_service_attribute_search" tabindex="0"><b>
+   IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</b></mshelp:link>
+
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_attribute_search.md">IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a>
-</dt>
-<dt>
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
-   IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a>
-</dt>
-</dl>
+
  
 
  

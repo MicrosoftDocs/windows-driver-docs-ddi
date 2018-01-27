@@ -7,8 +7,8 @@ old-location: debugger\readprocessorsystemdata.htm
 old-project: debugger
 ms.assetid: 8cb63fe6-61da-4c37-975d-d82430195863
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4::ReadProcessorSystemData, ReadProcessorSystemData
+ms.date: 1/19/2018
+ms.keywords: ReadProcessorSystemData method [Windows Debugging], IDebugDataSpaces2::ReadProcessorSystemData, IDebugDataSpaces4, IDebugDataSpaces interface [Windows Debugging], ReadProcessorSystemData method, IDebugDataSpaces4::ReadProcessorSystemData, dbgeng/IDebugDataSpaces2::ReadProcessorSystemData, IDebugDataSpaces::ReadProcessorSystemData, dbgeng/IDebugDataSpaces4::ReadProcessorSystemData, ReadProcessorSystemData method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces3::ReadProcessorSystemData, IDebugDataSpaces_a2ffd54a-03f2-4b74-928c-b043bfdac073.xml, IDebugDataSpaces3 interface [Windows Debugging], ReadProcessorSystemData method, IDebugDataSpaces4 interface [Windows Debugging], ReadProcessorSystemData method, ReadProcessorSystemData method [Windows Debugging], IDebugDataSpaces interface, ReadProcessorSystemData, ReadProcessorSystemData method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces3::ReadProcessorSystemData, debugger.readprocessorsystemdata, dbgeng/IDebugDataSpaces::ReadProcessorSystemData, ReadProcessorSystemData method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces2 interface [Windows Debugging], ReadProcessorSystemData method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugDataSpaces.ReadProcessorSystemData,IDebugDataSpaces2.ReadProcessorSystemData,IDebugDataSpaces3.ReadProcessorSystemData,IDebugDataSpaces4.ReadProcessorSystemData
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugDataSpaces.ReadProcessorSystemData
+-	IDebugDataSpaces2.ReadProcessorSystemData
+-	IDebugDataSpaces3.ReadProcessorSystemData
+-	IDebugDataSpaces4.ReadProcessorSystemData
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::ReadProcessorSystemData method
 
 
-
 ## -description
+
+
 The <b>ReadProcessorSystemData</b> method returns data about the specified processor.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT ReadProcessorSystemData(
@@ -58,6 +71,9 @@ HRESULT ReadProcessorSystemData(
 
 ## -parameters
 
+
+
+
 ### -param Processor [in]
 
 Specifies the processor whose data is to be read.
@@ -66,7 +82,6 @@ Specifies the processor whose data is to be read.
 ### -param Index [in]
 
 Specifies the data type to read.  The following table contains the valid values.  After successful completion, the data returned in the buffer <i>Buffer</i> has the type specified by the middle column.
-
 <table>
 <tr>
 <th>Value</th>
@@ -144,8 +159,7 @@ In this case, the argument <i>Buffer</i> can be considered to have type PULONG.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Buffer [out]
@@ -164,16 +178,35 @@ Receives the size of the data in bytes.  If <i>DataSize</i> is <b>NULL</b>, this
 
 
 ## -returns
+
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method was successful.
+</dl>
+</td>
+<td width="60%">
+The method was successful.
 
- 
+</td>
+</tr>
+</table> 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
+
 ## -remarks
+
+
 This method is only available in kernel-mode debugging.
 
-For information about the PCR, PRCB, and KTHREAD structures, as well as information about paging tables, see <i>Microsoft Windows Internals</i> by David Solomon and Mark Russinovich.</p>
+For information about the PCR, PRCB, and KTHREAD structures, as well as information about paging tables, see <i>Microsoft Windows Internals</i> by David Solomon and Mark Russinovich.
+
+

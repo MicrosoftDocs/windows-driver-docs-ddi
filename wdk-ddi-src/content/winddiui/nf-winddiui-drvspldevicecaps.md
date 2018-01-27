@@ -7,8 +7,8 @@ old-location: print\drvspldevicecaps.htm
 old-project: print
 ms.assetid: 3d129a30-a892-4f4d-b8e3-f277d97980f4
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: DrvSplDeviceCaps
+ms.date: 1/18/2018
+ms.keywords: DrvSplDeviceCaps function [Print Devices], print.drvspldevicecaps, DrvSplDeviceCaps, winddiui/DrvSplDeviceCaps, print_interface-graphics_8c345fd4-e513-44ff-94b0-2f035db6a022.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DrvSplDeviceCaps
-req.alt-loc: winddiui.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	winddiui.h
+apiname: 
+-	DrvSplDeviceCaps
+product: Windows
+targetos: Windows
+req.typenames: *PWINBIO_VERSION, WINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 
 # DrvSplDeviceCaps function
 
 
-
 ## -description
+
+
 A printer interface DLL's <b>DrvSplDeviceCaps</b> function queries a printer for its capabilities.
 
 
-
 ## -syntax
+
 
 ````
 DWORD DrvSplDeviceCaps(
@@ -60,20 +70,58 @@ DWORD DrvSplDeviceCaps(
 
 ## -parameters
 
-### -param hPrinter 
+
+
+
+### -param hPrinter
 
 Caller-supplied handle to the printer.
 
 
-### -param pwDeviceName [in]
+### -param pszDeviceName
+
+TBD
+
+
+### -param Capability
+
+TBD
+
+
+### -param pOutput
+
+TBD
+
+
+### -param cchBufSize
+
+TBD
+
+
+### -param pDevmode
+
+TBD
+
+
+
+#### - pwDeviceName [in]
 
 Caller-supplied pointer to a Unicode string that contains the printer name.
 
 
-### -param DeviceCap 
+#### - cchBuf
+
+Caller-supplied size (in characters) of the buffer pointed to by the <i>pvOutput</i> parameter.
+
+
+#### - pDM [in, optional]
+
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure that describes the current print job characteristics. If <b>NULL</b>, the function should use the driver's internal default DEVMODEW structure. 
+
+
+#### - DeviceCap
 
 Caller-supplied bit flag that indicates the capability to query for. (The flags are defined in header file wingdi.h.) This function is not required to support all of the DC_<i>XXX</i> flags, but it must support those listed in the following table.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -107,30 +155,24 @@ If <i>pvOutput</i> is <b>NULL</b>, the function should just return the number of
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
-### -param pvOutput [out, optional]
+#### - pvOutput [out, optional]
 
 Caller-supplied pointer to a buffer that receives function-supplied information. The buffer's use depends on the value of  the <i>DeviceCap</i> parameter. The caller is responsible for allocating and freeing this buffer. 
 
 
-### -param cchBuf 
-
-Caller-supplied size (in characters) of the buffer pointed to by the <i>pvOutput</i> parameter.
-
-
-### -param pDM [in, optional]
-
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure that describes the current print job characteristics. If <b>NULL</b>, the function should use the driver's internal default DEVMODEW structure. 
-
-
 ## -returns
+
+
 The return value depends on the <i>DeviceCap</i> parameter. If <i>DeviceCap</i> indicates a capability that the driver does not support, or if an error is encountered, the function should return GDI_ERROR.
 
 
+
 ## -remarks
+
+
 The <b>DrvSplDeviceCaps</b> function is available in Microsoft Windows Server 2003 and later.
 
 For descriptions of the DC_<i>XXX</i> flags, see <a href="..\winddiui\nf-winddiui-drvdevicecapabilities.md">DrvDeviceCapabilities</a>.
@@ -138,15 +180,14 @@ For descriptions of the DC_<i>XXX</i> flags, see <a href="..\winddiui\nf-winddiu
 This function must be defined in the .def file as DrvSplDeviceCaps @ 254, because the spooler uses the ordinal number 254 to obtain the driver function pointer.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\winddiui\nf-winddiui-drvdevicecapabilities.md">DrvDeviceCapabilities</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20DrvSplDeviceCaps function%20 RELEASE:%20(1/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20DrvSplDeviceCaps function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

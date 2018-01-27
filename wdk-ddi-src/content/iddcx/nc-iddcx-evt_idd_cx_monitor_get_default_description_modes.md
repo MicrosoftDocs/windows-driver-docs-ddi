@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2ad45cfe-f65c-41bc-8c64-5334dbf7c755
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: WcsTranslateColors
+ms.keywords: display.evt_idd_cx_monitor_get_default_description_modes, EvtIddCxMonitorGetDefaultDescriptionModes callback function [Display Devices], EvtIddCxMonitorGetDefaultDescriptionModes, EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES, EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES, iddcx/EvtIddCxMonitorGetDefaultDescriptionModes, PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES callback function pointer [Display Devices], PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: _requires_same_
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	iddcx.h
+apiname: 
+-	PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES
+product: Windows
+targetos: Windows
 req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 ---
 
 # EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES callback
 
 
-
 ## -description
+
+
 <b>EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES</b> is called by the OS to request the default monitor mode list from the driver for the specified monitor when a monitor without a description is connected.
 
 
-
 ## -prototype
+
 
 ````
 EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES EvtIddCxMonitorGetDefaultDescriptionModes;
@@ -60,6 +70,9 @@ typedef EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES PFN_IDD_CX_MONITOR_GET_
 
 
 ## -parameters
+
+
+
 
 ### -param MonitorObject [in]
 
@@ -84,9 +97,16 @@ typedef EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES PFN_IDD_CX_MONITOR_GET_
 
 ## -returns
 
+
+
 (NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code. 
                     
 
 
+
 ## -remarks
-The driver must create at least one monitor mode for the monitor description.</p>
+
+
+The driver must create at least one monitor mode for the monitor description.
+
+

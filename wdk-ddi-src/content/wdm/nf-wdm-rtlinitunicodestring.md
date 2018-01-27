@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c6ef7438-36a6-4da6-b745-2985d9b30614
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlInitUnicodeString
+ms.keywords: kernel.rtlinitunicodestring, RtlInitUnicodeString routine [Kernel-Mode Driver Architecture], wdm/RtlInitUnicodeString, RtlInitUnicodeString, k109_10e59fa9-6f57-45db-bc11-520660f43b13.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlInitUnicodeString
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: For more information, see  the Remarks section of the WdmlibRtlInitUnicodeStringEx  function.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlInitUnicodeString
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RtlInitUnicodeString function
 
 
-
 ## -description
+
+
 For more information, see  the <a href="..\wdmsec\nf-wdmsec-wdmlibrtlinitunicodestringex.md">WdmlibRtlInitUnicodeStringEx</a> function.
 
 
-
 ## -syntax
+
 
 ````
 VOID RtlInitUnicodeString(
@@ -55,6 +65,9 @@ VOID RtlInitUnicodeString(
 
 
 ## -parameters
+
+
+
 
 ### -param DestinationString [out]
 
@@ -67,10 +80,15 @@ For more information, see  the <a href="..\wdmsec\nf-wdmsec-wdmlibrtlinitunicode
 
 
 ## -returns
+
+
 For more information, see  the <a href="..\wdmsec\nf-wdmsec-wdmlibrtlinitunicodestringex.md">WdmlibRtlInitUnicodeStringEx</a> function.
 
 
+
 ## -remarks
+
+
 The <b>RTL_CONSTANT_STRING</b> macro creates a string or Unicode string structure to hold a counted string.
 
 
@@ -85,8 +103,6 @@ UNICODE_STRING RTL_CONSTANT_STRING(
 
 
 
-Pointer to a null-terminated string to initialize the counted string with.
-
 <b>RTL_CONSTANT_STRING</b> returns either a string structure or Unicode string structure.
 
 The <b>RTL_CONSTANT_STRING</b> macro replaces the <a href="..\wdm\nf-wdm-rtlinitansistring.md">RtlInitAnsiString</a>, <a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>, and <b>RtlInitUnicodeString</b> routines when passing a constant string.
@@ -94,21 +110,17 @@ The <b>RTL_CONSTANT_STRING</b> macro replaces the <a href="..\wdm\nf-wdm-rtlinit
 You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinit.md">RtlUnicodeStringInit</a>
-</dt>
-<dt>
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinitex.md">RtlUnicodeStringInitEx</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-<dt>
+
 <a href="..\wdmsec\nf-wdmsec-wdmlibrtlinitunicodestringex.md">WdmlibRtlInitUnicodeStringEx</a>
-</dt>
-</dl>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinit.md">RtlUnicodeStringInit</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinitex.md">RtlUnicodeStringInitEx</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3ef7ffca-9192-4578-8397-c7fbb2ea2239
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_MONITOR_DESCRIPTION,
+ms.keywords: iddcx/IDDCX_MONITOR_DESCRIPTION, display.iddcx_monitor_description, IDDCX_MONITOR_DESCRIPTION, IDDCX_MONITOR_DESCRIPTION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDDCX_MONITOR_DESCRIPTION
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDDCX_MONITOR_DESCRIPTION
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDDCX_MONITOR_DESCRIPTION structure
 
 
-
 ## -description
+
+
 Gives information about the current monitor description.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDDCX_MONITOR_DESCRIPTION {
@@ -56,6 +66,9 @@ typedef struct IDDCX_MONITOR_DESCRIPTION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -84,5 +97,3 @@ typedef struct IDDCX_MONITOR_DESCRIPTION {
                      Pointer to the monitor description data.
                  
 
-
-## -remarks

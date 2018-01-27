@@ -7,8 +7,8 @@ old-location: pos\pospropertyid.htm
 old-project: pos
 ms.assetid: 82864db1-ee0a-4d41-a516-4e04befd2e89
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _PosPropertyId, PosPropertyId
+ms.date: 1/18/2018
+ms.keywords: pointofservicedriverinterface/IsEnabled, pointofservicedriverinterface/MagneticStripeReaderDataEncryptionAlgorithm, pointofservicedriverinterface/BarcodeScannerActiveSymbologies, BarcodeScannerActiveProfile, pointofservicedriverinterface/MagneticStripeReaderDeviceAuthenticationProtocol, BarcodeScannerSupportedProfiles, pos.pospropertyid, pointofservicedriverinterface/MagneticStripeReaderIsDeviceAuthenticated, pointofservicedriverinterface/MagneticStripeReaderCapabilities, pointofservicedriverinterface/BarcodeScannerSupportedSymbologies, pointofservicedriverinterface/MagneticStripeReaderSupportedCardTypes, BarcodeScannerSupportedSymbologies, MagneticStripeReaderDeviceAuthenticationProtocol, pointofservicedriverinterface/BarcodeScannerActiveProfile, pointofservicedriverinterface/IsDisabledOnDataReceived, BarcodeScannerActiveSymbologies, BarcodeScannerCapabilities, MagneticStripeReaderIsTransmitSentinelsEnabled, pointofservicedriverinterface/BarcodeScannerCapabilities, MagneticStripeReaderIsDecodeDataEnabled, MagneticStripeReaderTracksToRead, MagneticStripeReaderIsDeviceAuthenticated, _PosPropertyId, pointofservicedriverinterface/BarcodeScannerIsDecodeDataEnabled, IsDisabledOnDataReceived, pointofservicedriverinterface/MagneticStripeReaderTracksToRead, pointofservicedriverinterface/MagneticStripeReaderIsTransmitSentinelsEnabled, MagneticStripeReaderErrorReportingType, IsEnabled, MagneticStripeReaderDataEncryptionAlgorithm, PosPropertyId enumeration, BarcodeScannerIsDecodeDataEnabled, MagneticStripeReaderCapabilities, MagneticStripeReaderSupportedCardTypes, pointofservicedriverinterface/MagneticStripeReaderErrorReportingType, pointofservicedriverinterface/PosPropertyId, pointofservicedriverinterface/BarcodeScannerSupportedProfiles, pointofservicedriverinterface/MagneticStripeReaderIsDecodeDataEnabled, PosPropertyId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PosPropertyId
-req.alt-loc: pointofservicedriverinterface.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pointofservicedriverinterface.h
+apiname: 
+-	PosPropertyId
+product: Windows
+targetos: Windows
 req.typenames: PosPropertyId
 ---
 
 # _PosPropertyId enumeration
 
 
-
 ## -description
+
+
 This enumeration defines the property identifiers for the properties that device drivers need to handle to be considered a barcode scanner or a magnetic strip reader (MSR).
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _PosPropertyId { 
@@ -70,6 +80,9 @@ typedef enum _PosPropertyId {
 
 ## -enum-fields
 
+
+
+
 ### -field IsEnabled
 
 Indicates whether the device is enabled. An enabled device is expected to be powered on and fully functional. In a disabled state, the device is not expected to generate input and can be powered down. (Read/Write).
@@ -78,6 +91,10 @@ Indicates whether the device is enabled. An enabled device is expected to be pow
 ### -field IsDisabledOnDataReceived
 
 Indicates whether to disable the device after each scan event. This allows the hardware to enter an idle power-saving mode as frequently as possible. (Read/Write).
+
+
+### -field PowerState
+
 
 
 ### -field BarcodeScannerIsDecodeDataEnabled
@@ -155,21 +172,376 @@ Indicates whether the device is authenticated. (Read-only).
 Specifies the <a href="..\pointofservicedriverinterface\ne-pointofservicedriverinterface-_msrdataencryption.md">MsrDataEncryption</a> that will be used to encrypt the track data. (Read/write).
 
 
-## -remarks
+### -field BarcodeScannerVideoDeviceId
+
+
+
+### -field PrinterCapabilities
+
+
+
+### -field PrinterCartridgeNotifyEnabled
+
+
+
+### -field PrinterSupportedCharacterSets
+
+
+
+### -field PrinterFlagWhenIdle
+
+
+
+### -field PrinterFontTypefaceList
+
+
+
+### -field PrinterMapCharacterSet
+
+
+
+### -field PrinterRotateSpecial
+
+
+
+### -field PrinterSupportedJournalLineChars
+
+
+
+### -field PrinterSupportedReceiptLineChars
+
+
+
+### -field PrinterSupportedReceiptBarcodeRotations
+
+
+
+### -field PrinterSupportedReceiptBitmapRotations
+
+
+
+### -field PrinterSupportedSlipLineChars
+
+
+
+### -field PrinterSupportedSlipBarcodeRotations
+
+
+
+### -field PrinterSupportedSlipBitmapRotations
+
+
+
+### -field PrinterCharacterSet
+
+
+
+### -field PrinterCoverOpen
+
+
+
+### -field PrinterMapMode
+
+
+
+### -field PrinterPageModeArea
+
+
+
+### -field PrinterPageModeDescriptor
+
+
+
+### -field PrinterPageModeHorizontalPosition
+
+
+
+### -field PrinterPageModePrintArea
+
+
+
+### -field PrinterPageModePrintDirection
+
+
+
+### -field PrinterPageModeStation
+
+
+
+### -field PrinterPageModeVerticalPosition
+
+
+
+### -field PrinterJournalLineChars
+
+
+
+### -field PrinterJournalLineHeight
+
+
+
+### -field PrinterJournalLineSpacing
+
+
+
+### -field PrinterJournalLineWidth
+
+
+
+### -field PrinterJournalLetterQuality
+
+
+
+### -field PrinterJournalPaperEmpty
+
+
+
+### -field PrinterJournalPaperNearEnd
+
+
+
+### -field PrinterJournalCartridgeState
+
+
+
+### -field PrinterJournalCurrentCartridge
+
+
+
+### -field PrinterReceiptLineChars
+
+
+
+### -field PrinterReceiptLineHeight
+
+
+
+### -field PrinterReceiptLineSpacing
+
+
+
+### -field PrinterReceiptLineWidth
+
+
+
+### -field PrinterReceiptLetterQuality
+
+
+
+### -field PrinterReceiptPaperEmpty
+
+
+
+### -field PrinterReceiptPaperNearEmpty
+
+
+
+### -field PrinterReceiptSidewaysMaxLines
+
+
+
+### -field PrinterReceiptSidewaysMaxChars
+
+
+
+### -field PrinterReceiptLinesToPaperCut
+
+
+
+### -field PrinterReceiptCartridgeState
+
+
+
+### -field PrinterReceiptCurrentCartridge
+
+
+
+### -field PrinterSlipLineChars
+
+
+
+### -field PrinterSlipLineHeight
+
+
+
+### -field PrinterSlipLineSpacing
+
+
+
+### -field PrinterSlipLineWidth
+
+
+
+### -field PrinterSlipLetterQuality
+
+
+
+### -field PrinterSlipPaperEmpty
+
+
+
+### -field PrinterSlipPaperNearEmpty
+
+
+
+### -field PrinterSlipSidewaysMaxLines
+
+
+
+### -field PrinterSlipSideWaysMaxChars
+
+
+
+### -field PrinterSlipMaxLines
+
+
+
+### -field PrinterSlipLinesNearEndToEnd
+
+
+
+### -field PrinterSlipPrintside
+
+
+
+### -field PrinterSlipCartridgeState
+
+
+
+### -field PrinterSlipCurrentCartridge
+
+
+
+### -field PrinterStatusProp
+
+
+
+### -field CashDrawerIsDrawerOpened
+
+
+
+### -field CashDrawerCapabilities
+
+
+
+### -field CashDrawerStatusProp
+
+
+
+### -field LineDisplayCapabilities
+
+
+
+### -field LineDisplayCurrentWindow
+
+
+
+### -field LineDisplayWindowSizeInCharacters
+
+
+
+### -field LineDisplayWindowInterCharacterWaitInterval
+
+
+
+### -field LineDisplayPhysicalDeviceName
+
+
+
+### -field LineDisplayPhysicalDeviceDescription
+
+
+
+### -field LineDisplayDeviceControlDescription
+
+
+
+### -field LineDisplayDeviceControlVersion
+
+
+
+### -field LineDisplayDeviceServiceVersion
+
+
+
+### -field LineDisplayCursorTypeProperty
+
+
+
+### -field LineDisplayCursorAutoUpdateEnabled
+
+
+
+### -field LineDisplayCursorPosition
+
+
+
+### -field LineDisplayScreenModeList
+
+
+
+### -field LineDisplayScreenMode
+
+
+
+### -field LineDisplayMaxBitmapSizeInPixels
+
+
+
+### -field LineDisplayCharacterSetList
+
+
+
+### -field LineDisplayDeviceBrightness
+
+
+
+### -field LineDisplayBlinkRate
+
+
+
+### -field LineDisplayCharacterSet
+
+
+
+### -field LineDisplayMapCharacterSet
+
+
+
+### -field LineDisplayGlyphSizeInPixels
+
+
+
+### -field LineDisplayCustomGlyphList
+
+
+
+### -field LineDisplayMarqueeFormat
+
+
+
+### -field LineDisplayMarqueeRepeatWait
+
+
+
+### -field LineDisplayMarqueeUnitWait
+
+
+
+### -field LineDisplayMarqueeType
+
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_set_property.md">IOCTL_POINT_OF_SERVICE_SET_PROPERTY</a>
-</dt>
-<dt>
+
 <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_get_property.md">IOCTL_POINT_OF_SERVICE_GET_PROPERTY</a>
-</dt>
-</dl>
- 
+
+<a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_set_property.md">IOCTL_POINT_OF_SERVICE_SET_PROPERTY</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [pos\pos]:%20PosPropertyId enumeration%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [pos\pos]:%20PosPropertyId enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2cc24024-75ec-45ba-867c-efc8e7da7587
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_RegisterHcFilter
+ms.keywords: usbdlib/USBD_RegisterHcFilter, USBD_RegisterHcFilter routine [Buses], USBD_RegisterHcFilter, usbfunc_de494163-188c-4356-bd91-c6fa38693d55.xml, buses.usbd_registerhcfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Deprecated.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBD_RegisterHcFilter
-req.alt-loc: Usbd.lib,Usbd.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Usbd.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Usbd.lib
+-	Usbd.dll
+apiname: 
+-	USBD_RegisterHcFilter
+product: Windows
+targetos: Windows
 req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # USBD_RegisterHcFilter function
 
 
-
 ## -description
+
+
 The <b>USBD_RegisterHcFilter</b> routine has been deprecated in Windows XP and later operating systems. Do not use. 
 
 On  Windows XP and later operating systems, a filter driver that is installed between the root hub FDO and PDO sees all USB traffic for a USB device after it has been enumerated.  There is no supported mechanism for filtering descriptor requests that occur during the enumeration of a USB device, because those requests originate and remain in the port driver (usbport.sys) and not the hub driver.
 
 
-
 ## -syntax
+
 
 ````
 VOID USBD_RegisterHcFilter(
@@ -57,6 +68,9 @@ VOID USBD_RegisterHcFilter(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceObject [in]
 
@@ -69,20 +83,25 @@ Pointer to the filter device object created by the filter driver for its operati
 
 
 ## -returns
+
+
 None. 
 
 
+
 ## -remarks
+
+
 USB bus filter drivers must call this routine after attaching their device object to the device object stack for the host controller driver.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
+
 <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
-</dt>
-<dt><a href="usb_reference.htm#client">USB device driver programming reference</a></dt>
-</dl>
+
  
 
  

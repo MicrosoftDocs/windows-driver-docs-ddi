@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 26F872A2-7727-4346-BA80-779D082EAE9D
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_POWER_FRAMEWORK_SETTINGS_INIT
+ms.keywords: WDF_POWER_FRAMEWORK_SETTINGS_INIT function, wdfdevice/WDF_POWER_FRAMEWORK_SETTINGS_INIT, kmdf.wdf_power_framework_settings_init, WDF_POWER_FRAMEWORK_SETTINGS_INIT, wdf.wdf_power_framework_settings_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.11
 req.umdf-ver: 
-req.alt-api: WDF_POWER_FRAMEWORK_SETTINGS_INIT
-req.alt-loc: wdfdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfdevice.h
+apiname: 
+-	WDF_POWER_FRAMEWORK_SETTINGS_INIT
+product: Windows
+targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,8 +47,9 @@ req.product: Windows 10 or later.
 # WDF_POWER_FRAMEWORK_SETTINGS_INIT function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 
@@ -47,8 +57,8 @@ req.product: Windows 10 or later.
   <b>WDF_POWER_FRAMEWORK_SETTINGS_INIT</b> function initializes a <a href="..\wdfdevice\ns-wdfdevice-_wdf_power_framework_settings.md">WDF_POWER_FRAMEWORK_SETTINGS</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 void WDF_POWER_FRAMEWORK_SETTINGS_INIT(
@@ -59,30 +69,34 @@ void WDF_POWER_FRAMEWORK_SETTINGS_INIT(
 
 ## -parameters
 
+
+
+
 ### -param PowerFrameworkSettings [out]
 
 A pointer to a driver-allocated <a href="..\wdfdevice\ns-wdfdevice-_wdf_power_framework_settings.md">WDF_POWER_FRAMEWORK_SETTINGS</a> structure.
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
+
 ## -remarks
+
+
 The <b>WDF_POWER_FRAMEWORK_SETTINGS_INIT</b> function zeros the specified <a href="..\wdfdevice\ns-wdfdevice-_wdf_power_framework_settings.md">WDF_POWER_FRAMEWORK_SETTINGS</a> structure and sets the structure's <b>Size</b> member.
 
-For a code example that uses <b>WDF_POWER_FRAMEWORK_SETTINGS_INIT</b>, see <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_power_framework_settings.md">WDF_POWER_FRAMEWORK_SETTINGS</a>
-</dt>
-<dt>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>
-</dt>
-</dl>
+
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_power_framework_settings.md">WDF_POWER_FRAMEWORK_SETTINGS</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d7402839-2afe-43d3-9747-7b2e98d1c238
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS
+ms.keywords: d3dkmthk/D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS structure [Display Devices], _D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, display.d3dkmt_brightness_possible_levels
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS
 ---
 
 # _D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS structure
 
 
-
 ## -description
+
+
 Contains information about all possible brightness levels that an integrated display panel supports.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS {
@@ -55,6 +65,9 @@ typedef struct _D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS {
 
 ## -struct-fields
 
+
+
+
 ### -field LevelCount
 
 The number of brightness levels that the integrated display panel supports.
@@ -64,5 +77,3 @@ The number of brightness levels that the integrated display panel supports.
 
 The specific brightness levels that the integrated display panel supports.
 
-
-## -remarks

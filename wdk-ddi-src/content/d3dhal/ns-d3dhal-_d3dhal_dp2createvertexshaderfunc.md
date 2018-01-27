@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2b7456e5-a6fa-42bf-aace-21d555c3e821
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2CREATEVERTEXSHADERFUNC, D3DHAL_DP2CREATEVERTEXSHADERFUNC, *LPD3DHAL_DP2CREATEVERTEXSHADERFUNC
+ms.keywords: d3dhal/D3DHAL_DP2CREATEVERTEXSHADERFUNC, LPD3DHAL_DP2CREATEVERTEXSHADERFUNC, d3dstrct_cb83183c-18cc-4e11-814f-2b50836cbe39.xml, D3DHAL_DP2CREATEVERTEXSHADERFUNC structure [Display Devices], display.d3dhal_dp2createvertexshaderfunc, D3DHAL_DP2CREATEVERTEXSHADERFUNC, _D3DHAL_DP2CREATEVERTEXSHADERFUNC, d3dhal/LPD3DHAL_DP2CREATEVERTEXSHADERFUNC, *LPD3DHAL_DP2CREATEVERTEXSHADERFUNC, LPD3DHAL_DP2CREATEVERTEXSHADERFUNC structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DP2CREATEVERTEXSHADERFUNC
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DP2CREATEVERTEXSHADERFUNC
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DP2CREATEVERTEXSHADERFUNC
 ---
 
 # _D3DHAL_DP2CREATEVERTEXSHADERFUNC structure
 
 
-
 ## -description
+
+
 
    DirectX 9.0 and later versions only.
    
@@ -46,8 +56,8 @@ req.typenames: D3DHAL_DP2CREATEVERTEXSHADERFUNC
 The D3DHAL_DP2CREATEVERTEXSHADERFUNC structure is used to create a vertex shader code object when a D3DDP2OP_CREATEVERTEXSHADERFUNC opcode is received by <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DP2CREATEVERTEXSHADERFUNC {
@@ -58,6 +68,9 @@ typedef struct _D3DHAL_DP2CREATEVERTEXSHADERFUNC {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwHandle
 
@@ -70,6 +83,8 @@ Specifies the shader code size in bytes.
 
 
 ## -remarks
+
+
 When the runtime calls the driver's <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> function with this token, the driver should validate the given shader code and report success or failure accordingly. 
 
 Vertex shader code follows D3DHAL_DP2CREATEVERTEXSHADERFUNC in the command stream. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552855">Direct3D Driver Shader Codes</a> for information about the format of individual shader code and the tokens that comprise each shader code. 
@@ -77,19 +92,17 @@ Vertex shader code follows D3DHAL_DP2CREATEVERTEXSHADERFUNC in the command strea
 The DirectX 9.0 runtime sets <b>dwHandle</b> to zero to indicate a fixed function pipeline.
 
 
+
 ## -see-also
-<dl>
-<dt>D3DDP2OP_CREATEVERTEXSHADERFUNC</dt>
-<dt>
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createvertexshaderdecl.md">D3DHAL_DP2CREATEVERTEXSHADERDECL</a>
-</dt>
-<dt>
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-</dt>
-<dt>
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2vertexshader.md">D3DHAL_DP2VERTEXSHADER</a>
-</dt>
-</dl>
+
+D3DDP2OP_CREATEVERTEXSHADERFUNC
+
  
 
  

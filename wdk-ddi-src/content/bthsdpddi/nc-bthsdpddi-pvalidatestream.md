@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: cd119590-b910-487f-b611-5ef59204a798
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND
+ms.keywords: bltooth.sdpvalidatestream, SdpValidateStream callback function [Bluetooth Devices], SdpValidateStream, PVALIDATESTREAM, PVALIDATESTREAM, bthsdpddi/SdpValidateStream, bth_funcs_1ba1d0ff-b873-4a38-8c5d-71e8afa35861.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SdpValidateStream
-req.alt-loc: BthSdpddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	BthSdpddi.h
+apiname: 
+-	SdpValidateStream
+product: Windows
+targetos: Windows
 req.typenames: *PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND
 ---
 
 # PVALIDATESTREAM callback
 
 
-
 ## -description
+
+
 The Bluetooth 
   <b>SdpValidateStream</b> function is used to parse a raw SDP record and determine if it contains
   errors.
 
 
-
 ## -prototype
+
 
 ````
 NTSTATUS SdpValidateStream(
@@ -58,23 +68,28 @@ NTSTATUS SdpValidateStream(
 
 ## -parameters
 
-### -param Stream 
+
+
+
+### -param Stream
 
 A pointer to the raw SDP stream to be validated.
 
 
-### -param Size 
+### -param Size
 
 An unsigned long integer that indicates the size of the SDP stream to be validated.
 
 
-### -param ErrorByte 
+### -param ErrorByte
 
 A pointer to a variable that receives the address of the first byte in the SDP record that
      contains an error. The address is absolute.
 
 
 ## -returns
+
+
 Possible return values include:
 
 
@@ -84,13 +99,12 @@ Possible return values include:
 <dt>STATUS_INVALID_PARAMETER</dt>
 </dl>
 
-<dl>
-<dt>STATUS_SUCCESS
-      </dt>
-<dt>STATUS_INVALID_PARAMETER</dt>
-</dl>
+
+
 
 ## -remarks
+
+
 The 
     <b>SdpValidateStream</b> function does nothing on success. On failure, it pinpoints the location of the
     first error in the specified SDP record.
@@ -99,16 +113,15 @@ Bluetooth profile drivers should use this function to validate all SDP streams f
     Other SDP functions might not perform complete data validation.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">
-    BTHDDI_SDP_PARSE_INTERFACE</a> structure.
+    <mshelp:link keywords="bltooth.bthddi_sdp_parse_interface" tabindex="0"><b>
+    BTHDDI_SDP_PARSE_INTERFACE</b></mshelp:link> structure.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

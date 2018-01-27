@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9fecf57b-e77a-458e-80ce-118eed2d48b4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _KBUGCHECK_DATA, KBUGCHECK_DATA, *PKBUGCHECK_DATA
+ms.keywords: *PKBUGCHECK_DATA, aux_klib/KBUGCHECK_DATA, aux_klib/PKBUGCHECK_DATA, PKBUGCHECK_DATA, KBUGCHECK_DATA, PKBUGCHECK_DATA structure pointer [Kernel-Mode Driver Architecture], KBUGCHECK_DATA structure [Kernel-Mode Driver Architecture], aux_klib_ced3c2df-3d09-45d8-8ae8-049d2bc46160.xml, kernel.kbugcheck_data, _KBUGCHECK_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KBUGCHECK_DATA
-req.alt-loc: aux_klib.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	aux_klib.h
+apiname: 
+-	KBUGCHECK_DATA
+product: Windows
+targetos: Windows
 req.typenames: KBUGCHECK_DATA, *PKBUGCHECK_DATA
 ---
 
 # _KBUGCHECK_DATA structure
 
 
-
 ## -description
+
+
 The <b>KBUGCHECK_DATA</b> structure contains bug check parameters.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _KBUGCHECK_DATA {
@@ -58,6 +68,9 @@ typedef struct _KBUGCHECK_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field BugCheckDataSize
 
@@ -90,15 +103,16 @@ Bug check parameter 4. For more information about this parameter, see specific <
 
 
 ## -remarks
+
+
 The <b>KBUGCHECK_DATA</b> structure is used as a parameter to <a href="..\aux_klib\nf-aux_klib-auxklibgetbugcheckdata.md">AuxKlibGetBugCheckData</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\aux_klib\nf-aux_klib-auxklibgetbugcheckdata.md">AuxKlibGetBugCheckData</a>
-</dt>
-</dl>
+
  
 
  

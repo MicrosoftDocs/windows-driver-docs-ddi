@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f425487d-c4cd-4fd0-93d3-d5ce15277c6d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlPrepareMdlWriteDev
+ms.keywords: ntifs/FsRtlPrepareMdlWriteDev, FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], FsRtlPrepareMdlWriteDev, ifsk.fsrtlpreparemdlwritedev, fsrtlref_0d4bcdd2-9d31-41f1-aba3-ee9341d82b92.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlPrepareMdlWriteDev
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlPrepareMdlWriteDev
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlPrepareMdlWriteDev function
 
 
-
 ## -description
+
+
 The <b>FsRtlPrepareMdlWriteDev</b> routine returns a linked list of memory descriptor lists (MDLs) that point to the specified range of cached file data to write data directly to the cache.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlPrepareMdlWriteDev(
@@ -59,6 +69,9 @@ BOOLEAN FsRtlPrepareMdlWriteDev(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -96,27 +109,29 @@ The device object for the device that holds the file data.
 
 
 ## -returns
+
+
 The <b>FsRtlPrepareMdlWriteDev</b> routine returns <b>TRUE</b> if the operation succeeds and <b>FALSE</b> if the operation fails.
 
 
+
 ## -remarks
+
+
 <b>FsRtlPrepareMdlWriteDev</b> is similar to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopywrite~r7.md">FsRtlCopyWrite</a>, except that <b>FsRtlPrepareMdlWriteDev </b>does not copy data to the cache. Instead, the physical pages that the caller will overwrite are locked in memory, and <b>FsRtlPrepareMdlWriteDev</b> returns one or more memory descriptor lists (MDLs) that point to the specified byte range. The locked pages remain locked until the caller calls <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlwritecompletedev~r3.md">FsRtlMdlWriteCompleteDev</a>. Thus each call to <b>FsRtlPrepareMdlWriteDev</b> must be followed by a call to <b>FsRtlMdlWriteCompleteDev</b>.
 
 The pages that the MDLs point to are locked in memory, but are not mapped in system space. The caller can perform this mapping by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopywrite~r7.md">FsRtlCopyWrite</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlwritecompletedev~r3.md">FsRtlMdlWriteCompleteDev</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopywrite~r7.md">FsRtlCopyWrite</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
-</dt>
-</dl>
+
  
 
  

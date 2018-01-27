@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 25B053C1-E3A3-4002-9355-F3EEA8FECB44
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsSetCreateProcessNotifyRoutineEx2
+ms.keywords: PsSetCreateProcessNotifyRoutineEx2, ntddk/PsSetCreateProcessNotifyRoutineEx2, kernel.pssetcreateprocessnotifyroutineex2, PsSetCreateProcessNotifyRoutineEx2 routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PsSetCreateProcessNotifyRoutineEx2
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	PsSetCreateProcessNotifyRoutineEx2
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # PsSetCreateProcessNotifyRoutineEx2 function
 
 
-
 ## -description
+
+
 The <b>PsSetCreateProcessNotifyRoutineEx2</b> routine registers or removes a callback routine that notifies the caller when a process is created or deleted.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PsSetCreateProcessNotifyRoutineEx2(
@@ -56,7 +66,10 @@ NTSTATUS PsSetCreateProcessNotifyRoutineEx2(
 
 ## -parameters
 
-### -param  NotifyType [in]
+
+
+
+### -param NotifyType [in]
 
 A <a href="..\ntddk\ne-ntddk-_pscreateprocessnotifytype.md">PSCREATEPROCESSNOTIFYTYPE</a>-type value that indicates the type of process notification.
 
@@ -72,23 +85,56 @@ A Boolean value that specifies whether <b>PsSetCreateProcessNotifyRoutineEx2</b>
 
 
 ## -returns
+
+
 <b>PsSetCreateProcessNotifyRoutineEx2</b> returns one of the following NTSTATUS values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The specified  routine is now registered with the operating system. The operating system calls this routine whenever a new process is created.
+</dl>
+</td>
+<td width="60%">
+The specified  routine is now registered with the operating system. The operating system calls this routine whenever a new process is created.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The specified routine was already registered, or the operating system has reached its limit for registering process-creation callback routines.
+</dl>
+</td>
+<td width="60%">
+The specified routine was already registered, or the operating system has reached its limit for registering process-creation callback routines.
 
 <i> NotifyType</i> is not <b>PsCreateProcessNotifySubsystems</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>The image that contains the callback routine pointer did not have IMAGE_DLLCHARACTERISTICS_FORCE_INTEGRITY set in its image header.
+</dl>
+</td>
+<td width="60%">
+The image that contains the callback routine pointer did not have IMAGE_DLLCHARACTERISTICS_FORCE_INTEGRITY set in its image header.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 Drivers can call <b>PsSetCreateProcessNotifyRoutineEx2</b> to register their process-creation notify routines.
 
 After a driver-supplied routine is registered, it is called with the unique ID (indicated by <i>ProcessId</i>) 
@@ -110,18 +156,15 @@ When the process is created, the callback function is invoked just after the fir
 A driver must remove any callback function that it registers before it unloads. You can remove the callback by calling <b>PsSetCreateProcessNotifyRoutineEx2</b> with <i>Remove</i> = <b>TRUE</b>.  
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex.md">PsSetCreateProcessNotifyRoutineEx</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nc-ntddk-pcreate_process_notify_routine_ex.md">PCREATE_PROCESS_NOTIFY_ROUTINE_EX</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
+
  
 
  

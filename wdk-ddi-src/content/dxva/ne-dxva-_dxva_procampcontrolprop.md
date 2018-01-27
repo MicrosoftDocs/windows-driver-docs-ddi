@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ce1bae9b-1cc3-45ea-bf46-8aa7ed0362f6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_ProcAmpControlProp, DXVA_ProcAmpControlProp
+ms.keywords: DXVA_ProcAmp_Contrast, dxva/DXVA_ProcAmp_None, dxva/DXVA_ProcAmpControlProp, dxva/DXVA_ProcAmp_Contrast, dxvaref_0bce43bc-3bb3-4c7a-8d83-16db2a513905.xml, dxva/DXVA_ProcAmp_Brightness, DXVA_ProcAmp_Brightness, DXVA_ProcAmpControlProp, DXVA_ProcAmp_None, DXVA_ProcAmp_Hue, DXVA_ProcAmp_Saturation, _DXVA_ProcAmpControlProp, dxva/DXVA_ProcAmp_Hue, DXVA_ProcAmpControlProp enumeration [Display Devices], dxva/DXVA_ProcAmp_Saturation, display.dxva_procampcontrolprop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: DirectX 9.0 and later versions only.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVA_ProcAmpControlProp
-req.alt-loc: dxva.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxva.h
+apiname: 
+-	DXVA_ProcAmpControlProp
+product: Windows
+targetos: Windows
 req.typenames: DXVA_ProcAmpControlProp
 ---
 
 # _DXVA_ProcAmpControlProp enumeration
 
 
-
 ## -description
+
+
 The DXVA_ProcAmpControlProp enumeration is used to determine the required ProcAmp control adjustments.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXVA_ProcAmpControlProp { 
@@ -57,6 +67,9 @@ typedef enum _DXVA_ProcAmpControlProp {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXVA_ProcAmp_None
 
@@ -83,18 +96,12 @@ Specifies that the ProcAmp hue property is used.
 Specifies that the ProcAmp saturation property is used.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_procampcontrolcaps.md">DXVA_ProcAmpControlCaps</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_procampcontrolqueryrange.md">DXVA_ProcAmpControlQueryRange</a>
-</dt>
-</dl>
+
  
 
  

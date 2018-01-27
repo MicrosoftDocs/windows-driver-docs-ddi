@@ -7,8 +7,8 @@ old-location: netvista\rilmessageparammask_2.htm
 old-project: netvista
 ms.assetid: 1c20e35b-3589-46a5-8155-c35206d5e6c0
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILMESSAGEPARAMMASK, RILMESSAGEPARAMMASK
+ms.date: 1/18/2018
+ms.keywords: RIL_PARAM_M_ALL_IN_STATUS, RIL_PARAM_M_ALERTONMSGDELIVERY, RIL_PARAM_M_TGTDISCHARGETIME, RIL_PARAM_M_NUMMSGS, rilapitypes/RIL_PARAM_M_ID, RIL_PARAM_M_DISPLAYMODE, RIL_PARAM_M_ALL_IN_IS637DELIVER, rilapitypes/RIL_PARAM_M_ALL_IN_IS637DELIVER, RIL_PARAM_M_CAUSECODE, rilapitypes/RIL_PARAM_M_ALL_OUT_SUBMIT, RIL_PARAM_M_ALL_IN_DELIVER, rilapitypes/RIL_PARAM_M_TGTDISCHARGETIME, netvista.rilmessageparammask_2, RIL_PARAM_M_TOTALPAGES, RIL_PARAM_M_ID, rilapitypes/RIL_PARAM_M_VP, RIL_PARAM_M_ALL_BC_GENERAL, rilapitypes/RIL_PARAM_M_NUMMSGS, RIL_PARAM_M_HDRLENGTH, RIL_PARAM_M_EUSERALERT, RIL_PARAM_M_DESTADDRESS, RIL_PARAM_M_LANG, rilapitypes/RIL_PARAM_M_CAUSECODE, RIL_PARAM_M_VALIDITYPERIODREL, rilapitypes/RIL_PARAM_M_DISPLAYMODE, RIL_PARAM_M_GEOSCOPE, RIL_PARAM_M_ALL_OUT_SUBMIT, rilapitypes/RIL_PARAM_M_ENCODING, RIL_PARAM_M_SERVICEID, rilapitypes/RIL_PARAM_M_VALIDITYPERIODABS, rilapitypes/RIL_PARAM_M_SERIALNUMBER, rilapitypes/RIL_PARAM_M_MSGID, RIL_PARAM_M_MSGLENGTH, rilapitypes/RIL_PARAM_M_PRIVACY, rilapitypes/RIL_PARAM_M_PAGENUMBER, rilapitypes/RIL_PARAM_M_ALL_OUT_IS637STATUS, rilapitypes/RIL_PARAM_M_POPUP, RIL_PARAM_M_PAGENUMBER, rilapitypes/RIL_PARAM_M_TYPE, rilapitypes/RIL_PARAM_M_EUSERALERT, rilapitypes/RIL_PARAM_M_SERVICEID, rilapitypes/RIL_PARAM_M_TGTSCRECEIVETIME, RIL_PARAM_M_MSGSTATUSTYPE, rilapitypes/RIL_PARAM_M_ALL_IN_STATUS, RIL_PARAM_M_DIGIT, rilapitypes/RIL_PARAM_M_ALL_IN_IS637STATUS, rilapitypes/RIL_PARAM_M_DESTADDRESS, rilapitypes/RIL_PARAM_M_MSGLENGTH, RIL_PARAM_M_WARNINGTYPE, rilapitypes/RIL_PARAM_M_USERACK, rilapitypes/RIL_PARAM_M_ALL_IN_DELIVER, rilapitypes/RIL_PARAM_M_MSGSTATUSTYPE, rilapitypes/RIL_PARAM_M_WARNINGTYPE, rilapitypes/RIL_PARAM_M_GEOSCOPE, rilapitypes/RIL_PARAM_M_HDRLENGTHCDMA, RIL_PARAM_M_PROTOCOLID, RIL_PARAM_M_UPDATENUMBER, rilapitypes/RIL_PARAM_M_MSGCODE, RIL_PARAM_M_HDR, RIL_PARAM_M_DEFERREDDELTIMEREL, RIL_PARAM_M_ENCODING, rilapitypes/RIL_PARAM_M_DATACODING, rilapitypes/RIL_PARAM_M_LANG, rilapitypes/RIL_PARAM_M_DEFERREDDELTIMEREL, rilapitypes/RIL_PARAM_M_VALIDITYPERIODREL, rilapitypes/RIL_PARAM_M_UPDATENUMBER, rilapitypes/RIL_PARAM_M_ORIGSUBADDRESS, RIL_PARAM_M_HDRLENGTHCDMA, rilapitypes/RIL_PARAM_M_CALLBACKNUM, rilapitypes/RIL_PARAM_M_ALL_BC_GENERAL, rilapitypes/RIL_PARAM_M_TGTDLVSTATUS, RIL_PARAM_M_TYPE, RIL_PARAM_M_TGTDLVSTATUS, RIL_PARAM_M_ORIGSUBADDRESS, RIL_PARAM_M_REPLYSEQNUMBER, rilapitypes/RIL_PARAM_M_DELIVERYACK, RIL_PARAM_M_POPUP, rilapitypes/RIL_PARAM_M_DEFERREDDELTIMEABS, RIL_PARAM_M_USERACK, RIL_PARAM_M_DEFERREDDELTIMEABS, RIL_PARAM_M_ALL_IN_IS637STATUS, RIL_PARAM_M_PRIORITY, rilapitypes/RILMESSAGEPARAMMASK, rilapitypes/RIL_PARAM_M_SCRECEIVETIME, rilapitypes/RIL_PARAM_M_HDRLENGTH, RIL_PARAM_M_USERRESPONSECODE, RIL_PARAM_M_DATACODING, rilapitypes/RIL_PARAM_M_ORIGADDRESS, rilapitypes/RIL_PARAM_M_FLAGS, RIL_PARAM_M_FLAGS, RIL_PARAM_M_ALL_OUT_IS637STATUS, RIL_PARAM_M_MSGID, rilapitypes/RIL_PARAM_M_VPFORMAT, RIL_PARAM_M_TGTSCRECEIVETIME, RIL_PARAM_M_SCRECEIVETIME, rilapitypes/RIL_PARAM_M_REPLYSEQNUMBER, RIL_PARAM_M_PRIVACY, rilapitypes/RIL_PARAM_M_ALERTONMSGDELIVERY, RILMESSAGEPARAMMASK, RIL_PARAM_M_VPFORMAT, RIL_PARAM_M_DESTSUBADDRESS, rilapitypes/RIL_PARAM_M_DESTSUBADDRESS, RIL_PARAM_M_SERIALNUMBER, RIL_PARAM_M_MSGCODE, rilapitypes/RIL_PARAM_M_HDR, rilapitypes/RIL_PARAM_M_DIGIT, RILMESSAGEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_M_TGTRECIPADDRESS, RIL_PARAM_M_DELIVERYACK, rilapitypes/RIL_PARAM_M_MSG, RIL_PARAM_M_ALL_OUT_IS637SUBMIT, rilapitypes/RIL_PARAM_M_PRIORITY, RIL_PARAM_M_MSG, rilapitypes/RIL_PARAM_M_TGTRECIPADDRESS, RIL_PARAM_M_VALIDITYPERIODABS, RIL_PARAM_M_BEARERREPLYACK, rilapitypes/RIL_PARAM_M_TELESERVICE, rilapitypes/RIL_PARAM_M_ALL_OUT_IS637SUBMIT, rilapitypes/RIL_PARAM_M_TOTALPAGES, rilapitypes/RIL_PARAM_M_PROTOCOLID, RIL_PARAM_M_VP, RIL_PARAM_M_ORIGADDRESS, rilapitypes/RIL_PARAM_M_USERRESPONSECODE, RIL_PARAM_M_TELESERVICE, RIL_PARAM_M_CALLBACKNUM, rilapitypes/RIL_PARAM_M_BEARERREPLYACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILMESSAGEPARAMMASK
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILMESSAGEPARAMMASK
+product: Windows
+targetos: Windows
 req.typenames: RILMESSAGEPARAMMASK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILMESSAGEPARAMMASK enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILMESSAGEPARAMMASK { 
@@ -115,187 +125,253 @@ typedef enum _RILMESSAGEPARAMMASK {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_PARAM_M_SVCCTRADDRESS
+
+
+
 ### -field RIL_PARAM_M_TYPE
+
 
 
 ### -field RIL_PARAM_M_FLAGS
 
 
+
 ### -field RIL_PARAM_M_ORIGADDRESS
+
 
 
 ### -field RIL_PARAM_M_TGTRECIPADDRESS
 
 
+
 ### -field RIL_PARAM_M_DESTADDRESS
+
 
 
 ### -field RIL_PARAM_M_SCRECEIVETIME
 
 
+
 ### -field RIL_PARAM_M_TGTSCRECEIVETIME
+
 
 
 ### -field RIL_PARAM_M_TGTDISCHARGETIME
 
 
+
 ### -field RIL_PARAM_M_PROTOCOLID
+
 
 
 ### -field RIL_PARAM_M_DATACODING
 
 
+
 ### -field RIL_PARAM_M_TGTDLVSTATUS
+
 
 
 ### -field RIL_PARAM_M_VPFORMAT
 
 
+
 ### -field RIL_PARAM_M_VP
+
 
 
 ### -field RIL_PARAM_M_GEOSCOPE
 
 
+
 ### -field RIL_PARAM_M_MSGCODE
+
 
 
 ### -field RIL_PARAM_M_UPDATENUMBER
 
 
+
 ### -field RIL_PARAM_M_ID
+
 
 
 ### -field RIL_PARAM_M_TOTALPAGES
 
 
+
 ### -field RIL_PARAM_M_PAGENUMBER
+
 
 
 ### -field RIL_PARAM_M_HDRLENGTH
 
 
+
 ### -field RIL_PARAM_M_SERIALNUMBER
+
 
 
 ### -field RIL_PARAM_M_MSGLENGTH
 
 
+
 ### -field RIL_PARAM_M_HDR
+
 
 
 ### -field RIL_PARAM_M_MSG
 
 
+
 ### -field RIL_PARAM_M_WARNINGTYPE
+
 
 
 ### -field RIL_PARAM_M_EUSERALERT
 
 
+
 ### -field RIL_PARAM_M_POPUP
+
 
 
 ### -field RIL_PARAM_M_MSGID
 
 
+
 ### -field RIL_PARAM_M_ORIGSUBADDRESS
+
 
 
 ### -field RIL_PARAM_M_DESTSUBADDRESS
 
 
+
 ### -field RIL_PARAM_M_DIGIT
+
 
 
 ### -field RIL_PARAM_M_PRIVACY
 
 
+
 ### -field RIL_PARAM_M_PRIORITY
+
 
 
 ### -field RIL_PARAM_M_TELESERVICE
 
 
+
 ### -field RIL_PARAM_M_LANG
+
 
 
 ### -field RIL_PARAM_M_VALIDITYPERIODABS
 
 
+
 ### -field RIL_PARAM_M_VALIDITYPERIODREL
+
 
 
 ### -field RIL_PARAM_M_DEFERREDDELTIMEABS
 
 
+
 ### -field RIL_PARAM_M_DEFERREDDELTIMEREL
+
 
 
 ### -field RIL_PARAM_M_ENCODING
 
 
+
 ### -field RIL_PARAM_M_USERRESPONSECODE
+
 
 
 ### -field RIL_PARAM_M_DISPLAYMODE
 
 
+
 ### -field RIL_PARAM_M_CALLBACKNUM
+
 
 
 ### -field RIL_PARAM_M_NUMMSGS
 
 
+
 ### -field RIL_PARAM_M_CAUSECODE
+
 
 
 ### -field RIL_PARAM_M_REPLYSEQNUMBER
 
 
+
 ### -field RIL_PARAM_M_SERVICEID
+
 
 
 ### -field RIL_PARAM_M_USERACK
 
 
+
 ### -field RIL_PARAM_M_DELIVERYACK
+
 
 
 ### -field RIL_PARAM_M_ALERTONMSGDELIVERY
 
 
+
 ### -field RIL_PARAM_M_HDRLENGTHCDMA
+
 
 
 ### -field RIL_PARAM_M_MSGSTATUSTYPE
 
 
+
 ### -field RIL_PARAM_M_BEARERREPLYACK
+
 
 
 ### -field RIL_PARAM_M_ALL_IN_DELIVER
 
 
+
 ### -field RIL_PARAM_M_ALL_IN_STATUS
+
 
 
 ### -field RIL_PARAM_M_ALL_OUT_SUBMIT
 
 
+
 ### -field RIL_PARAM_M_ALL_BC_GENERAL
+
 
 
 ### -field RIL_PARAM_M_ALL_IN_IS637DELIVER
 
 
+
 ### -field RIL_PARAM_M_ALL_OUT_IS637SUBMIT
+
 
 
 ### -field RIL_PARAM_M_ALL_IN_IS637STATUS
 
 
+
 ### -field RIL_PARAM_M_ALL_OUT_IS637STATUS
 
 
-## -remarks

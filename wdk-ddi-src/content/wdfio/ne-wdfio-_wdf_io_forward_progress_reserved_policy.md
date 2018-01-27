@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6d530cf2-de06-4aa3-9f4d-08619906c9ed
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY
+ms.keywords: WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY enumeration, WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, wdfio/WdfIoForwardProgressReservedPolicyPagingIO, WdfIoForwardProgressReservedPolicyPagingIO, DFQueueObjectRef_e035ecd7-f728-4d88-80a8-763ab3eb90ab.xml, WdfIoForwardProgressInvalidPolicy, WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest, kmdf.wdf_io_forward_progress_reserved_policy, wdfio/WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, wdf.wdf_io_forward_progress_reserved_policy, wdfio/WdfIoForwardProgressInvalidPolicy, wdfio/WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest, wdfio/WdfIoForwardProgressReservedPolicyUseExamine, WdfIoForwardProgressReservedPolicyUseExamine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.9
 req.umdf-ver: 
-req.alt-api: WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY
-req.alt-loc: wdfio.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfio.h
+apiname: 
+-	WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY
+product: Windows
+targetos: Windows
 req.typenames: WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY</b> enumeration identifies actions that the framework can take when it receives an I/O request for your driver, if a low-memory situation exists.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY { 
@@ -60,7 +70,11 @@ typedef enum _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY {
 
 ## -enum-fields
 
+
+
+
 ### -field WdfIoForwardProgressInvalidPolicy
+
 
 
 ### -field WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest
@@ -79,4 +93,8 @@ In a low-memory situation, if the <b>Flags</b> member of the I/O request's <a hr
 
 
 ## -remarks
-The <b>WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY</b> enumeration is used as a member type in the <a href="..\wdfio\ns-wdfio-_wdf_io_queue_forward_progress_policy.md">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</a> structure.</p>
+
+
+The <b>WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY</b> enumeration is used as a member type in the <a href="..\wdfio\ns-wdfio-_wdf_io_queue_forward_progress_policy.md">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</a> structure.
+
+

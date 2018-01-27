@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 179D61E3-C2EE-4821-93F8-DB763892DD3D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _SOC_SUBSYSTEM_TYPE, *PSOC_SUBSYSTEM_TYPE, SOC_SUBSYSTEM_TYPE
+ms.keywords: SOC_SUBSYSTEM_TYPE, whea.soc_sybsystem_type, ntddk/SOC_SUBSYS_WIRELSS_CONNECTIVITY, *PSOC_SUBSYSTEM_TYPE, ntddk/SOC_SUBSYS_SENSORS, ntddk/SOC_SUBSYS_VENDOR_DEFINED, SOC_SUBSYS_SENSORS, SOC_SUBSYSTEM_TYPE enumeration [WHEA Drivers and Applications], SOC_SUBSYS_VENDOR_DEFINED, _SOC_SUBSYSTEM_TYPE, SOC_SUBSYSTEM_WIRELESS_MODEM, ntddk/SOC_SUBSYSTEM_WIRELESS_MODEM, SOC_SUBSYS_WIRELSS_CONNECTIVITY, ntddk/SOC_SUBSYS_AUDIO_DSP, SOC_SUBSYS_AUDIO_DSP, ntddk/SOC_SUBSYSTEM_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SOC_SUBSYSTEM_TYPE
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,40 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	SOC_SUBSYSTEM_TYPE
+product: Windows
+targetos: Windows
 req.typenames: *PSOC_SUBSYSTEM_TYPE, SOC_SUBSYSTEM_TYPE
 ---
 
 # _SOC_SUBSYSTEM_TYPE enumeration
 
 
-
 ## -description
+
+
 The <b>SOC_SYBSYSTEM_TYPE</b> enumeration defines different types of System on a Chip (SoC) subsystems.
 
 The <b>SybsysType</b> member of the <a href="..\ntddk\ns-ntddk-_soc_subsystem_failure_details.md">SOC_SUBSYSTEM_FAILURE_DETAILS</a> structure is a value from this enumeration. The <b>SOC_SUBSYSTEM_FAILURE_DETAILS</b> structure is used by these bug codes:
-
-
+<ul>
+<li>
+<a href="https://msdn.microsoft.com/CC42D634-90CE-43F1-8552-E5DE711D2117">Bug Check 0x14B SOC_SUBSYSTEM_FAILURE</a>
+</li>
+<li>
+<a href="https://msdn.microsoft.com/F7903E88-1706-46E6-A5D0-6972702058A8">Bug Check 0x15D SOC_SUBSYSTEM_FAILURE_LIVEDUMP</a>
+</li>
+</ul>
 
 ## -syntax
+
 
 ````
 typedef enum _SOC_SUBSYSTEM_TYPE { 
@@ -60,9 +77,11 @@ typedef enum _SOC_SUBSYSTEM_TYPE {
 
 ## -enum-fields
 
-### -field SOC_SUBSYSTEM_WIRELESS_MODEM
 
-Wireless modem
+
+
+### -field SOC_SUBSYS_WIRELESS_MODEM
+
 
 
 ### -field SOC_SUBSYS_AUDIO_DSP
@@ -85,4 +104,7 @@ Sensors
 Subsystem types in the range 0x10000 through 0x80000000 are reserved for independent hardware vendors.
 
 
-## -remarks
+#### - SOC_SUBSYSTEM_WIRELESS_MODEM
+
+Wireless modem
+

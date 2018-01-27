@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 48df787b-f9f6-45d1-872c-ceeda3087af6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _BATTERY_STATUS, *PBATTERY_STATUS, BATTERY_STATUS
+ms.keywords: PBATTERY_STATUS structure pointer [Battery Devices], PBATTERY_STATUS, battery.battery_status, *PBATTERY_STATUS, BATTERY_STATUS, _BATTERY_STATUS, BATTERY_STATUS structure [Battery Devices], bat-struct_11dfaf25-0f90-4c5b-8017-15fb2124423b.xml, poclass/BATTERY_STATUS, poclass/PBATTERY_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BATTERY_STATUS
-req.alt-loc: poclass.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-req.typenames: *PBATTERY_STATUS, BATTERY_STATUS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	poclass.h
+apiname: 
+-	BATTERY_STATUS
+product: Windows
+targetos: Windows
+req.typenames: BATTERY_STATUS, *PBATTERY_STATUS
 ---
 
 # _BATTERY_STATUS structure
 
 
-
 ## -description
+
+
 The BATTERY_STATUS structure is used by battery miniclass drivers to return status information in response to a call to <a href="https://msdn.microsoft.com/04811f63-8a57-4b39-84c5-c9b7f803c057">BatteryMiniQueryStatus</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BATTERY_STATUS {
@@ -56,6 +66,9 @@ typedef struct _BATTERY_STATUS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PowerState
 
@@ -77,15 +90,10 @@ Specifies the voltage, in millivolts, across the terminals of the given battery,
 Specifies the current rate of battery usage in milliwatts or, if the driver reports relative capacity, in units per hour. A positive value means that the battery is charging; a negative value means the battery is discharging. If the driver cannot determine the rate, it should return BATTERY_UNKNOWN_RATE.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/04811f63-8a57-4b39-84c5-c9b7f803c057">BatteryMiniQueryStatus</a>
-</dt>
-</dl>
+
  
 
  

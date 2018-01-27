@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 54fcbb64-09ce-4f18-963b-fee2627d4231
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _RemoveTarget_IN, RemoveTarget_IN, *PRemoveTarget_IN
+ms.keywords: hbapiwmi/PRemoveTarget_IN, structs-Fibre_e284d48f-3a57-449f-8227-2e8637118dcd.xml, *PRemoveTarget_IN, RemoveTarget_IN, PRemoveTarget_IN structure pointer [Storage Devices], RemoveTarget_IN structure [Storage Devices], storage.removetarget_in, PRemoveTarget_IN, hbapiwmi/RemoveTarget_IN, _RemoveTarget_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RemoveTarget_IN
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	RemoveTarget_IN
+product: Windows
+targetos: Windows
 req.typenames: RemoveTarget_IN, *PRemoveTarget_IN
 ---
 
 # _RemoveTarget_IN structure
 
 
-
 ## -description
+
+
 The RemoveTarget_IN structure is used by a WMI client to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564030">RemoveTarget</a> WMI method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RemoveTarget_IN {
@@ -55,6 +65,9 @@ typedef struct _RemoveTarget_IN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HbaPortWWN
 
@@ -72,15 +85,16 @@ Indicates the scope of the target events to cease reporting. If this member is z
 
 
 ## -remarks
+
+
 The WMI tool suite generates a declaration of the RemoveTarget_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562490">MSFC_EventControl WMI Class</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564030">RemoveTarget</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 954cc3f6-731f-4c55-bf61-63b5d48248c0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMDT_GRAPHICS_RENDERING_FORMAT, D3DKMDT_GRAPHICS_RENDERING_FORMAT
+ms.keywords: _D3DKMDT_GRAPHICS_RENDERING_FORMAT, d3dkmdt/D3DKMDT_GRAPHICS_RENDERING_FORMAT, D3DKMDT_GRAPHICS_RENDERING_FORMAT, D3DKMDT_GRAPHICS_RENDERING_FORMAT structure [Display Devices], DmStructs_c51e5886-bbd0-48a2-8be7-98d10b13fc2d.xml, display.d3dkmdt_graphics_rendering_format
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMDT_GRAPHICS_RENDERING_FORMAT
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	D3DKMDT_GRAPHICS_RENDERING_FORMAT
+product: Windows
+targetos: Windows
 req.typenames: D3DKMDT_GRAPHICS_RENDERING_FORMAT
 ---
 
 # _D3DKMDT_GRAPHICS_RENDERING_FORMAT structure
 
 
-
 ## -description
+
+
 The D3DKMDT_GRAPHICS_RENDERING_FORMAT structure contains information about a primary rendering surface.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMDT_GRAPHICS_RENDERING_FORMAT {
@@ -58,6 +68,9 @@ typedef struct _D3DKMDT_GRAPHICS_RENDERING_FORMAT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PrimSurfSize
 
@@ -89,15 +102,10 @@ A value from the D3DKMDT_COLOR_BASIS enumeration that indicates the color basis 
 A value from the D3DKMDT_PIXEL_VALUE_ACCESS_MODE enumeration that indicates the type of data (for example, direct color values or palette indexes) that are stored in the surface.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-</dt>
-</dl>
+
  
 
  

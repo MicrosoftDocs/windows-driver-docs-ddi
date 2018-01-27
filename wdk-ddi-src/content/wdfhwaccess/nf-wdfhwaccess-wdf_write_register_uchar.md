@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5738654A-83B1-44B4-BA45-52E2B60C852D
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_WRITE_REGISTER_UCHAR
+ms.keywords: WDF_WRITE_REGISTER_UCHAR function, WDF_WRITE_REGISTER_UCHAR, wdfhwaccess/WDF_WRITE_REGISTER_UCHAR, wdf.wdf_write_register_uchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 2.0
-req.alt-api: WDF_WRITE_REGISTER_UCHAR
-req.alt-loc: Wdfhwaccess.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,25 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdfhwaccess.h
+apiname: 
+-	WDF_WRITE_REGISTER_UCHAR
+product: Windows
+targetos: Windows
+req.typenames: *PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 
 # WDF_WRITE_REGISTER_UCHAR function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>WDF_WRITE_REGISTER_UCHAR</b> routine writes a byte to the specified address.
 
 
-
 ## -syntax
+
 
 ````
 void WDF_WRITE_REGISTER_UCHAR(
@@ -58,6 +68,9 @@ void WDF_WRITE_REGISTER_UCHAR(
 
 
 ## -parameters
+
+
+
 
 ### -param Device [in]
 
@@ -75,7 +88,8 @@ Specifies a byte to write to the register.
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
-## -remarks

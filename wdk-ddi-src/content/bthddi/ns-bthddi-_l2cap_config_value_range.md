@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 12d9b0c1-6dce-4dc6-a8df-706408e1fbe1
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _L2CAP_CONFIG_VALUE_RANGE, *PL2CAP_CONFIG_VALUE_RANGE, L2CAP_CONFIG_VALUE_RANGE
+ms.keywords: PL2CAP_CONFIG_VALUE_RANGE, _L2CAP_CONFIG_VALUE_RANGE, PL2CAP_CONFIG_VALUE_RANGE structure pointer [Bluetooth Devices], bth_structs_3af526a5-d36e-432f-9d2e-fa31bee0effe.xml, bthddi/L2CAP_CONFIG_VALUE_RANGE, bltooth.l2cap_config_value_range, L2CAP_CONFIG_VALUE_RANGE, L2CAP_CONFIG_VALUE_RANGE structure [Bluetooth Devices], bthddi/PL2CAP_CONFIG_VALUE_RANGE, *PL2CAP_CONFIG_VALUE_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: L2CAP_CONFIG_VALUE_RANGE
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthddi.h
+apiname: 
+-	L2CAP_CONFIG_VALUE_RANGE
+product: Windows
+targetos: Windows
 req.typenames: *PL2CAP_CONFIG_VALUE_RANGE, L2CAP_CONFIG_VALUE_RANGE
 ---
 
 # _L2CAP_CONFIG_VALUE_RANGE structure
 
 
-
 ## -description
+
+
 The L2CAP_CONFIG_VALUE_RANGE structure is used to specify values for the 
   <b>Mtu</b> and 
   <b>FlushTO</b> members of the 
   <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _L2CAP_CONFIG_VALUE_RANGE {
@@ -58,6 +68,9 @@ typedef struct _L2CAP_CONFIG_VALUE_RANGE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Min
 
@@ -75,6 +88,8 @@ The maximum value that the local system will accept.
 
 
 ## -remarks
+
+
 For 
     <b>FlushTO</b> member settings, the L2CAP_CONFIG_VALUE_RANGE structure contains the profile driver's ideal
     flush timeout value in the 
@@ -114,12 +129,11 @@ For
     <b>Max</b> settings for both inbound and outbound connections.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
-</dt>
-</dl>
+
  
 
  

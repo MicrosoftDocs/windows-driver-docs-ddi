@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4116be18-e98e-4778-b0aa-753c1ca79d32
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_OUT_GETDIRTYRECTS,
+ms.keywords: IDARG_OUT_GETDIRTYRECTS, display.idarg_out_getdirtyrects, iddcx/IDARG_OUT_GETDIRTYRECTS, IDARG_OUT_GETDIRTYRECTS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDARG_OUT_GETDIRTYRECTS
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDARG_OUT_GETDIRTYRECTS
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDARG_OUT_GETDIRTYRECTS structure
 
 
-
 ## -description
+
+
 
                  Gives information about the recs 
              that have changed on the surface since the last load.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDARG_OUT_GETDIRTYRECTS {
@@ -56,10 +66,11 @@ typedef struct IDARG_OUT_GETDIRTYRECTS {
 
 ## -struct-fields
 
+
+
+
 ### -field DirtyRectOutCount
 
 
                      [out] Number of dirty rects the OS copied into the <b>pDirtyRects</b> array.
 
-
-## -remarks

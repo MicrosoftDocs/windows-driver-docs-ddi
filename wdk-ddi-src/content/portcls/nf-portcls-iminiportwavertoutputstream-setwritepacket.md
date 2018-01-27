@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 28C73FBA-9122-4CFD-959E-495062CEEF41
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWaveRTOutputStream, IMiniportWaveRTOutputStream::SetWritePacket, SetWritePacket
+ms.keywords: audio.iminiportwavertoutputstream_setwritepacket, IMiniportWaveRTOutputStream, SetWritePacket method [Audio Devices], IMiniportWaveRTOutputStream interface, SetWritePacket, portcls/IMiniportWaveRTOutputStream::SetWritePacket, IMiniportWaveRTOutputStream::SetWritePacket, SetWritePacket method [Audio Devices], IMiniportWaveRTOutputStream interface [Audio Devices], SetWritePacket method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 10 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportWaveRTOutputStream.SetWritePacket
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: Passive level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IMiniportWaveRTOutputStream.SetWritePacket
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportWaveRTOutputStream::SetWritePacket method
 
 
-
 ## -description
+
+
 SetWritePacket informs the driver that the OS has written valid data to the WaveRT buffer. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SetWritePacket(
@@ -55,6 +65,9 @@ NTSTATUS SetWritePacket(
 
 
 ## -parameters
+
+
+
 
 ### -param PacketNumber [in]
 
@@ -74,6 +87,8 @@ The length of the EOS packet if KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM is specifie
 
 
 ## -returns
+
+
 <code>SetWritePacket</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the function returns an appropriate error status code.
 
 STATUS_DATA_LATE_ERROR – The driver returns this error if the OS passes a packet number that has already transferred or is currently transferring. In this case, a glitch condition has occurred. The driver may optionally use some of the data from the packet or continue playing out the data previously written to this packet number. 
@@ -92,7 +107,10 @@ STATUS_INVALID_DEVICE_STATE – The driver returns this error if the OS calls th
 STATUS_INVALID_PARAMETER – The driver returns this error if it finds any other parameter invalid, aside from the specific cases for other error status. This includes any Flag values not specifically defined above.
 
 
+
 ## -remarks
+
+
 After the OS calls this routine, the driver may optionally use the provided information to optimize the hardware transfer. For example, the driver might optimize DMA transfers, or program hardware to stop transfer at the end of the specified packet in case the OS does not call this routine again to inform the driver of another packet. This can mitigate audible effects of underflow, for example introducing an audible gap rather than repeating a circular buffer. The driver however is still obligated to increase its internal packet counter and signal notification events at a nominal real time rate. 
 
 
@@ -107,12 +125,11 @@ Depending on hardware capabilities, if the KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM 
 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iminiportwavertoutputstream.md">IMiniportWaveRTOutputStream</a>
-</dt>
-</dl>
+
  
 
  

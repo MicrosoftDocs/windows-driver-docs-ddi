@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a98cbb3c-d2cb-4a60-8c5f-c637790db916
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltCheckLockForWriteAccess
+ms.keywords: FltCheckLockForWriteAccess routine [Installable File System Drivers], ifsk.fltchecklockforwriteaccess, FltApiRef_a_to_d_c9957537-90d0-4830-bba1-1043f450c367.xml, fltkernel/FltCheckLockForWriteAccess, FltCheckLockForWriteAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltCheckLockForWriteAccess
-req.alt-loc: FltMgr.lib,FltMgr.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	FltMgr.lib
+-	FltMgr.dll
+apiname: 
+-	FltCheckLockForWriteAccess
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltCheckLockForWriteAccess function
 
 
-
 ## -description
+
+
 The <b>FltCheckLockForWriteAccess</b> routine determines whether the caller has write access to a locked byte range of a file.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FltCheckLockForWriteAccess(
@@ -54,6 +65,9 @@ BOOLEAN FltCheckLockForWriteAccess(
 
 
 ## -parameters
+
+
+
 
 ### -param FileLock [in]
 
@@ -66,10 +80,15 @@ Pointer to the callback data (<a href="..\fltkernel\ns-fltkernel-_flt_callback_d
 
 
 ## -returns
+
+
 <b>FltCheckLockForWriteAccess</b> returns <b>TRUE</b> if the process has write access, <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 This routine is available on Microsoft Windows XP SP2, Microsoft Windows Server 2003 SP1, and later. 
 
 <b>FltCheckLockForWriteAccess</b> checks whether the caller has write access to the entire byte range indicated in the callback data structure. 
@@ -81,36 +100,27 @@ To allocate and initialize a new file lock structure, call <a href="..\fltkernel
 To free an initialized FILE_LOCK structure, call <a href="..\fltkernel\nf-fltkernel-fltfreefilelock.md">FltFreeFileLock</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltallocatefilelock.md">FltAllocateFileLock</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltchecklockforreadaccess.md">FltCheckLockForReadAccess</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltfreefilelock.md">FltFreeFileLock</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltinitializefilelock.md">FltInitializeFileLock</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">FltProcessFileLock</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltuninitializefilelock.md">FltUninitializeFileLock</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlchecklockforwriteaccess~r1.md">FsRtlCheckLockForWriteAccess</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltchecklockforreadaccess.md">FltCheckLockForReadAccess</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltuninitializefilelock.md">FltUninitializeFileLock</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatefilelock.md">FltAllocateFileLock</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">FltProcessFileLock</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltfreefilelock.md">FltFreeFileLock</a>
+
  
 
  

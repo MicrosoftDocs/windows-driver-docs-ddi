@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 61e268aa-782a-42d5-8965-b935156033cb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_FDO_EVENT_CALLBACKS, *PWDF_FDO_EVENT_CALLBACKS, WDF_FDO_EVENT_CALLBACKS
+ms.keywords: wdffdo/WDF_FDO_EVENT_CALLBACKS, wdffdo/PWDF_FDO_EVENT_CALLBACKS, DFDeviceObjectFdoPdoRef_ed4f99d4-cc25-4275-b523-36cd439cac86.xml, _WDF_FDO_EVENT_CALLBACKS, WDF_FDO_EVENT_CALLBACKS, WDF_FDO_EVENT_CALLBACKS structure, PWDF_FDO_EVENT_CALLBACKS structure pointer, kmdf.wdf_fdo_event_callbacks, *PWDF_FDO_EVENT_CALLBACKS, wdf.wdf_fdo_event_callbacks, PWDF_FDO_EVENT_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WDF_FDO_EVENT_CALLBACKS
-req.alt-loc: wdffdo.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdffdo.h
+apiname: 
+-	WDF_FDO_EVENT_CALLBACKS
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_FDO_EVENT_CALLBACKS, WDF_FDO_EVENT_CALLBACKS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_FDO_EVENT_CALLBACKS structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_FDO_EVENT_CALLBACKS</b> structure contains pointers to a function driver's PnP event callback functions.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WDF_FDO_EVENT_CALLBACKS {
@@ -59,6 +69,9 @@ typedef struct _WDF_FDO_EVENT_CALLBACKS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -81,6 +94,8 @@ A pointer to the driver's <a href="..\wdffdo\nc-wdffdo-evt_wdf_device_remove_add
 
 
 ## -remarks
+
+
 The <b>WDF_FDO_EVENT_CALLBACKS</b> structure is used as input to the <a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a> method.
 
 Drivers must call <a href="..\wdffdo\nf-wdffdo-wdf_fdo_event_callbacks_init.md">WDF_FDO_EVENT_CALLBACKS_INIT</a> to initialize the structure.
@@ -88,21 +103,17 @@ Drivers must call <a href="..\wdffdo\nf-wdffdo-wdf_fdo_event_callbacks_init.md">
 A driver that specifies an <a href="https://msdn.microsoft.com/7d9b38b5-989d-45a3-8771-57a8d1f98725">EvtDeviceFilterAddResourceRequirements</a> event callback function must also specify an <a href="..\wdffdo\nc-wdffdo-evt_wdf_device_remove_added_resources.md">EvtDeviceRemoveAddedResources</a> event callback function.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdffdo\nf-wdffdo-wdf_fdo_event_callbacks_init.md">WDF_FDO_EVENT_CALLBACKS_INIT</a>
-</dt>
-<dt>
+
 <a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a>
-</dt>
-<dt>
-<a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.md">WDF_PDO_EVENT_CALLBACKS</a>
-</dt>
-<dt>
+
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>
-</dt>
-</dl>
+
+<a href="..\wdffdo\nf-wdffdo-wdf_fdo_event_callbacks_init.md">WDF_FDO_EVENT_CALLBACKS_INIT</a>
+
+<a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.md">WDF_PDO_EVENT_CALLBACKS</a>
+
  
 
  

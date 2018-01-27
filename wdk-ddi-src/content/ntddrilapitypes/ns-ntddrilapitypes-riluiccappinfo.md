@@ -7,8 +7,8 @@ old-location: netvista\riluiccappinfo.htm
 old-project: netvista
 ms.assetid: b3a688fe-928c-458e-ac47-59a9ae61bc5e
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILUICCAPPINFO, RILUICCAPPINFO, *LPRILUICCAPPINFO
+ms.date: 1/18/2018
+ms.keywords: RILUICCAPPINFO, RILUICCAPPINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccappinfo, ntddrilapitypes/RILUICCAPPINFO, *LPRILUICCAPPINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILUICCAPPINFO
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILUICCAPPINFO, *LPRILUICCAPPINFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILUICCAPPINFO
+product: Windows
+targetos: Windows
+req.typenames: *LPRILUICCAPPINFO, RILUICCAPPINFO
 ---
 
 # RILUICCAPPINFO structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILUICCAPPINFO {
@@ -63,34 +73,45 @@ typedef struct _RILUICCAPPINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field hUiccApp
+
 
 
 ### -field dwUiccAppType
 
 
+
 ### -field dwAppIdLength
+
 
 
 ### -field bAppId
 
 
+
 ### -field dwAppNameLength
+
 
 
 ### -field cszAppName
 
 
+
 ### -field dwNumPins
+
 
 
 ### -field bPinRef
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8bed3cec-1779-4b3c-9ba2-aa4a335fecd1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSWAVE_INPUT_CAPABILITIES, KSWAVE_INPUT_CAPABILITIES, *PKSWAVE_INPUT_CAPABILITIES
+ms.keywords: dvdref_cc35df03-82e2-4b12-a08f-26aa0fde1279.xml, stream.kswave_input_capabilities, KSWAVE_INPUT_CAPABILITIES, ksmedia/PKSWAVE_INPUT_CAPABILITIES, PKSWAVE_INPUT_CAPABILITIES structure pointer [Streaming Media Devices], *PKSWAVE_INPUT_CAPABILITIES, KSWAVE_INPUT_CAPABILITIES structure [Streaming Media Devices], PKSWAVE_INPUT_CAPABILITIES, ksmedia/KSWAVE_INPUT_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSWAVE_INPUT_CAPABILITIES
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KSWAVE_INPUT_CAPABILITIES, *PKSWAVE_INPUT_CAPABILITIES
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSWAVE_INPUT_CAPABILITIES
+product: Windows
+targetos: Windows
+req.typenames: *PKSWAVE_INPUT_CAPABILITIES, KSWAVE_INPUT_CAPABILITIES
 ---
 
 # KSWAVE_INPUT_CAPABILITIES structure
 
 
-
 ## -description
+
+
 The KSWAVE_INPUT_CAPABILITIES structure is used to describe the input capabilities of a device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -59,6 +69,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field MaximumChannelsPerConnection
 
@@ -96,15 +109,16 @@ Indicates the number of active connections.
 
 
 ## -remarks
+
+
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566521">KSPROPERTY_WAVE_INPUT_CAPABILITIES</a> property.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566521">KSPROPERTY_WAVE_INPUT_CAPABILITIES</a>
-</dt>
-</dl>
+
  
 
  

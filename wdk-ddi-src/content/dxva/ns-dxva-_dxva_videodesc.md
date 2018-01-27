@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5623ed85-e78a-48f2-ab21-e6364da86b2a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_VideoDesc, DXVA_VideoDesc, *LPDXVA_VideoDesc
+ms.keywords: display.dxva_videodesc, dxva/DXVA_VideoDesc, dxva/LPDXVA_VideoDesc, LPDXVA_VideoDesc structure pointer [Display Devices], *LPDXVA_VideoDesc, DXVA_VideoDesc structure [Display Devices], LPDXVA_VideoDesc, DXVA_VideoDesc, dxvaref_1b9d87d3-06b4-4a61-9cb1-9752c55ef865.xml, _DXVA_VideoDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVA_VideoDesc
-req.alt-loc: dxva.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxva.h
+apiname: 
+-	DXVA_VideoDesc
+product: Windows
+targetos: Windows
 req.typenames: DXVA_VideoDesc, *LPDXVA_VideoDesc
 ---
 
 # _DXVA_VideoDesc structure
 
 
-
 ## -description
+
+
 The DXVA_VideoDesc structure is sent by the renderer to the driver to specify a description of the video stream on which the deinterlacing or frame-rate conversion operation is to be performed.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVA_VideoDesc {
@@ -59,6 +69,9 @@ typedef struct _DXVA_VideoDesc {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -96,18 +109,18 @@ Specifies the desired frame rate of output video as defined by <a href="..\dxva\
 
 
 ## -remarks
+
+
 For examples showing structure member values for deinterlacing or converting different types of content, see <a href="https://msdn.microsoft.com/be721bde-3c72-4942-9f33-5ea1bf2d187c">DeinterlaceQueryAvailableModes</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_frequency.md">DXVA_Frequency</a>
-</dt>
-</dl>
+
+<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1c911435-5a55-4b92-9c65-3116d98f8ecf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_DDI_RESOURCE_BIND_FLAG, D3D10_DDI_RESOURCE_BIND_FLAG
+ms.keywords: d3d10umddi/D3D10_DDI_BIND_INDEX_BUFFER, d3d10umddi/D3D10_DDI_BIND_VERTEX_BUFFER, d3d10umddi/D3D11_DDI_BIND_VIDEO_ENCODER, d3d10umddi/D3D11_DDI_BIND_PIPELINE_MASK, D3D10_DDI_RESOURCE_BIND_FLAG enumeration [Display Devices], d3d10umddi/D3D10_DDI_BIND_STREAM_OUTPUT, D3D11_DDI_BIND_MASK, d3d10umddi/D3D10_DDI_BIND_PRESENT, D3D10_DDI_BIND_RENDER_TARGET, d3d10umddi/D3D11_DDI_BIND_CAPTURE, D3D11_DDI_BIND_CAPTURE, D3D10_DDI_RESOURCE_BIND_FLAG, D3D11_DDI_BIND_DECODER, d3d10umddi/D3D10_DDI_RESOURCE_BIND_FLAG, D3D10_DDI_BIND_MASK, d3d10umddi/D3D10_DDI_BIND_RENDER_TARGET, UMDisplayDriver_Dx10param_Structs_bb674d0e-4e3d-42ce-9216-2937f466b1f5.xml, D3D10_DDI_BIND_PIPELINE_MASK, D3D11_DDI_BIND_VIDEO_ENCODER, d3d10umddi/D3D10_DDI_BIND_SHADER_RESOURCE, display.d3d10_ddi_resource_bind_flag, d3d10umddi/D3D10_DDI_BIND_DEPTH_STENCIL, D3D11_DDI_BIND_UNORDERED_ACCESS, D3D10_DDI_BIND_PRESENT, d3d10umddi/D3D10_DDI_BIND_PIPELINE_MASK, D3D10_DDI_BIND_STREAM_OUTPUT, D3D11_DDI_BIND_PIPELINE_MASK, d3d10umddi/D3D11_DDI_BIND_UNORDERED_ACCESS, d3d10umddi/D3D10_DDI_BIND_CONSTANT_BUFFER, d3d10umddi/D3D10_DDI_BIND_MASK, D3D10_DDI_BIND_SHADER_RESOURCE, d3d10umddi/D3D11_DDI_BIND_MASK, d3d10umddi/D3D11_DDI_BIND_DECODER, D3D10_DDI_BIND_DEPTH_STENCIL, D3D10_DDI_BIND_INDEX_BUFFER, D3D10_DDI_BIND_VERTEX_BUFFER, D3D10_DDI_BIND_CONSTANT_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10_DDI_RESOURCE_BIND_FLAG
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10_DDI_RESOURCE_BIND_FLAG
+product: Windows
+targetos: Windows
 req.typenames: D3D10_DDI_RESOURCE_BIND_FLAG
 ---
 
 # D3D10_DDI_RESOURCE_BIND_FLAG enumeration
 
 
-
 ## -description
+
+
 Identifies how a resource is bound.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D10_DDI_RESOURCE_BIND_FLAG { 
@@ -76,6 +86,9 @@ typedef enum D3D10_DDI_RESOURCE_BIND_FLAG {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D10_DDI_BIND_VERTEX_BUFFER
 
@@ -137,6 +150,10 @@ The resource can be bound as an unordered-access buffer.
 
 Supported starting with Windows 8.
 
+The resource can be bound as an unordered-access buffer.
+
+Supported starting with Windows 7.
+
 
 ### -field D3D11_DDI_BIND_DECODER
 
@@ -187,23 +204,6 @@ A mask value that indicates the valid bitfields in a bitwise <b>OR</b> combinati
 
 Supported starting with Windows 8.
 
-
-### -field D3D11_DDI_BIND_MASK
-
-A mask value that indicates the valid bitfields in a bitwise <b>OR</b> combination of the Direct3D version 11 and version 10 values from this enumeration.
-
-Supported starting with Windows 8.
-
-
-### -field D3D11_DDI_BIND_UNORDERED_ACCESS
-
-The resource can be bound as an unordered-access buffer.
-
-Supported starting with Windows 7.
-
-
-### -field D3D11_DDI_BIND_PIPELINE_MASK
-
 A mask value that indicates the valid bitfields in a bitwise <b>OR</b> combination of the first nine values from this enumeration.
 
 Supported starting with Windows 7.
@@ -213,36 +213,29 @@ Supported starting with Windows 7.
 
 A mask value that indicates the valid bitfields in a bitwise <b>OR</b> combination of the Direct3D version 11 and version 10 values from this enumeration.
 
+Supported starting with Windows 8.
+
+A mask value that indicates the valid bitfields in a bitwise <b>OR</b> combination of the Direct3D version 11 and version 10 values from this enumeration.
+
 Supported starting with Windows 7.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setshaderresources.md">GsSetShaderResources</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_ia_setindexbuffer.md">IaSetIndexBuffer</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_ia_setvertexbuffers.md">IaSetVertexBuffers</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setshaderresources.md">PsSetShaderResources</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setshaderresources.md">VsSetShaderResources</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setshaderresources.md">GsSetShaderResources</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setshaderresources.md">PsSetShaderResources</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_ia_setvertexbuffers.md">IaSetVertexBuffers</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 40fa5169-e295-429c-a63d-3e4ab9c14672
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_GAMMARAMP_TYPE,
+ms.keywords: iddcx/IDDCX_GAMMARAMP_TYPE_UNINITIALIZED, iddcx/IDDCX_GAMMARAMP_TYPE, IDDCX_GAMMARAMP_TYPE, display.iddcx_gammaramp_type, IDDCX_GAMMARAMP_TYPE enumeration [Display Devices], IDDCX_GAMMARAMP_TYPE_DEFAULT, IDDCX_GAMMARAMP_TYPE_RGB256x3x16, iddcx/IDDCX_GAMMARAMP_TYPE_RGB256x3x16, IDDCX_GAMMARAMP_TYPE_UNINITIALIZED, iddcx/IDDCX_GAMMARAMP_TYPE_DEFAULT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDDCX_GAMMARAMP_TYPE
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: _requires_same_
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDDCX_GAMMARAMP_TYPE
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDDCX_GAMMARAMP_TYPE enumeration
 
 
-
 ## -description
+
+
 
                      An enumeration indicating the type of gamma ramp being set
                 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _IDDCX_GAMMARAMP_TYPE { 
@@ -57,6 +67,9 @@ typedef enum _IDDCX_GAMMARAMP_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field IDDCX_GAMMARAMP_TYPE_UNINITIALIZED
 
@@ -79,4 +92,7 @@ typedef enum _IDDCX_GAMMARAMP_TYPE {
                     
 
 
-## -remarks
+### -field UINT
+
+
+

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: fa187750-1aed-4e74-8e98-a3b8c731f1d1
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND
+ms.keywords: bltooth.sdpretrieveuint128, SdpRetrieveUint128 callback function [Bluetooth Devices], SdpRetrieveUint128, PRETRIEVEUINT64, PRETRIEVEUINT64, sdplib/SdpRetrieveUint128, bth_funcs_5377ee2b-643e-4486-9eb2-6d37bda46c85.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SdpRetrieveUint128
-req.alt-loc: sdplib.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	sdplib.h
+apiname: 
+-	SdpRetrieveUint128
+product: Windows
+targetos: Windows
 req.typenames: *PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND
 ---
 
 # PRETRIEVEUINT64 callback
 
 
-
 ## -description
+
+
 The Bluetooth 
   <b>SdpRetrieveUint128</b> function is used to copy an unaligned 128-bit integer from an SDP stream.
 
 
-
 ## -prototype
+
 
 ````
 PRETRIEVEUINT64 SdpRetrieveUint128;
@@ -59,21 +69,36 @@ void SdpRetrieveUint128(
 
 ## -parameters
 
-### -param Stream 
+
+
+
+### -param Stream
 
 A pointer to an unaligned 128-bit integer.
 
 
-### -param pUint128 
+### -param pUint16
+
+
+
+
+
+
+#### - pUint128
 
 A pointer to an aligned variable to receive the 128-bit integer.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The 
     <b>SdpRetrieveUint128</b> function does not search for the unaligned integer to copy. The 
     <i>Stream</i> parameter must specify the exact address of the unsigned integer to be extracted.
@@ -91,16 +116,15 @@ The
 This function has no effect on byte order.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">
-    BTHDDI_SDP_PARSE_INTERFACE</a> structure.
+    <mshelp:link keywords="bltooth.bthddi_sdp_parse_interface" tabindex="0"><b>
+    BTHDDI_SDP_PARSE_INTERFACE</b></mshelp:link> structure.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

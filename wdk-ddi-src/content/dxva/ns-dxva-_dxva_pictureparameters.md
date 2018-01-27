@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e54c1d6a-b0bb-4754-9399-5f3b1b9b2534
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_PictureParameters, *LPDXVA_PictureParameters, DXVA_PictureParameters
+ms.keywords: dxva/DXVA_PictureParameters, dxva/LPDXVA_PictureParameters, LPDXVA_PictureParameters, DXVA_PictureParameters structure [Display Devices], LPDXVA_PictureParameters structure pointer [Display Devices], *LPDXVA_PictureParameters, display.dxva_pictureparameters, DXVA_PictureParameters, _DXVA_PictureParameters, dxvaref_10ab1c20-a070-42ad-95da-0d8a20d19228.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVA_PictureParameters
-req.alt-loc: dxva.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxva.h
+apiname: 
+-	DXVA_PictureParameters
+product: Windows
+targetos: Windows
 req.typenames: *LPDXVA_PictureParameters, DXVA_PictureParameters
 ---
 
 # _DXVA_PictureParameters structure
 
 
-
 ## -description
+
+
 The DXVA_PictureParameters structure is sent by the host decoder to the accelerator to provide the picture-level parameters of a compressed picture for decoding on the accelerator.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVA_PictureParameters {
@@ -88,6 +98,9 @@ typedef struct _DXVA_PictureParameters {
 
 
 ## -struct-fields
+
+
+
 
 ### -field wDecodedPictureIndex
 
@@ -174,7 +187,6 @@ Indicates the rounding method for combining prediction planes in bidirectional m
 This member indicates the precision of luminance motion vectors and how chrominance motion vectors are derived from luminance motion vectors.
 
 The following table lists values for this member with the specified luminance motion vector precision and a description of how the chrominance motion vectors are derived.
-
 <table>
 <tr>
 <th>Value</th>
@@ -220,16 +232,13 @@ Reserved.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field bChromaFormat
 
 Affects the number of prediction error blocks expected by the accelerator. This variable is defined in MPEG-2 (H.262). For <a href="https://msdn.microsoft.com/be4db8ea-98fa-4693-a2ff-888499e97f38">MPEG-1</a>, MPEG-2 Main Profile, H.261 and H.263 bitstreams, this value must always be set to 1, indicating 4:2:0 format. If a value of 2, this indicates 4:2:2, and if a value of 3, indicates 4:4:4 sampling. This member must be equal to 1 if the <b>bConfig4GroupedCoefs</b> member of <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a> is 1 (because <b>bConfig4GroupedCoefs</b> operation does not include the EOB indication needed within coefficient data in 4:2:2 and 4:4:4 formats).
-
-<div class="alert"><b>Note</b>    Horizontal chroma siting differs slightly among H.261, H.263, and MPEG-1 versus MPEG-2 and MPEG-4. This difference is assumed to be small enough to ignore.</div>
-<div> </div>
+<div class="alert"><b>Note</b>    Horizontal chroma siting differs slightly among H.261, H.263, and MPEG-1 versus MPEG-2 and MPEG-4. This difference is assumed to be small enough to ignore.</div><div> </div>
 
 ### -field bPicScanFixed
 
@@ -241,7 +250,6 @@ When using accelerator-based IDCT processing of residual difference blocks, a va
 Indicates the fixed inverse scan method for the picture when <b>bPicScanFixed</b> is 1. When <b>bPicScanFixed</b> is zero, this member has no meaning and must have a value of zero.
 
 If the <b>bConfigHostInverseScan</b> member of DXVA_ConfigPictureDecode is zero, the scan method defined by this member can be one of the following.
-
 <table>
 <tr>
 <th>bPicScanMethod</th>
@@ -277,15 +285,9 @@ Alternate-horizontal scan (H.263)
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
-<dl>
-<dd>
 If the <b>bConfigHostInverseScan</b> member of <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a> is 1, the scan method defined by <b>bPicScanMethod</b> must be set as follows.
-
-</dd>
-</dl>
 <table>
 <tr>
 <th>bPicScanMethod</th>
@@ -301,8 +303,7 @@ Arbitrary scan with absolute coefficient address.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field bPicReadbackRequests
@@ -323,7 +324,7 @@ This member must be zero if the <b>bConfigResidDiffHost</b> member of <a href=".
 
 If this member is equal to 1, spatial-domain intra macroblocks are sent as 8-bit values (that are either signed or unsigned, as determined by the <b>bConfigIntraResidUnsigned</b> member of DXVA_ConfigPictureDecode), and spatial-domain nonintra macroblock differences are sent as signed 8-bit difference values relative to some motion-compensated prediction.
 
-The <b>bPicSpatialResid8</b> member differs from the <b>bConfigSpatialResid8</b> member of DXVA_ConfigPictureDecode in that it is an indication for a particular picture, not a global indication for the entire video sequence. In some cases such as in an <a href="wdkgloss.i#wdkgloss.intra_picture#wdkgloss.intra_picture"><i>intra picture</i></a> with <i>BPP</i> equal to 8, <b>bPicSpatialResid8</b> will be 1 even though <b>bConfigSpatialResid8</b> may be zero.
+The <b>bPicSpatialResid8</b> member differs from the <b>bConfigSpatialResid8</b> member of DXVA_ConfigPictureDecode in that it is an indication for a particular picture, not a global indication for the entire video sequence. In some cases such as in an <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">intra picture</a> with <i>BPP</i> equal to 8, <b>bPicSpatialResid8</b> will be 1 even though <b>bConfigSpatialResid8</b> may be zero.
 
 
 ### -field bPicOverflowBlocks
@@ -374,7 +375,6 @@ This is reserved for packing and alignment. Must be zero.
 ### -field wBitstreamFcodes
 
 Indicates the motion vector <i>f_code</i> values as defined in MPEG-2 for raw bitstream processing. Each <i>f_code</i> value takes 4 bits. These values are packed into a 16-bit word as follows.
-
 <table>
 <tr>
 <th>Bits</th>
@@ -420,20 +420,16 @@ f_code[1][1]: The backward vertical f_code
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 When the <b>bConfigBitstreamRaw</b> member of the <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a> structure is 1, <b>wBitstreamFcodes</b> contains four motion vector <i>f_code</i> values. If <b>bConfigBitstreamRaw</b> is 1 and any of the four <i>f_code</i> values is unnecessary or irrelevant due to the structure of the bitstream data or due to the <i>f_code</i> value not being needed in the relevant video coding bitstream syntax (such as in H.261 or H.263), then each irrelevant f_code value is 0xF.
 
 If the <b>bConfigBitstreamRaw</b> member of the <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a> structure is zero, then <b>wBitstreamFcodes</b> is set to 0xFFFF (all f_code values are set to 0xF).
-
-<div class="alert"><b>Note</b>    MPEG-1 bitstreams provide this information in a different form. Therefore for MPEG-1 bitstreams, f_code[0][0] and f_code[0][1] are equal to MPEG-1's forward_f_code, and f_code[1][0] and f_code[1][1] are equal to MPEG-1's backward_f_code.</div>
-<div> </div>
+<div class="alert"><b>Note</b>    MPEG-1 bitstreams provide this information in a different form. Therefore for MPEG-1 bitstreams, f_code[0][0] and f_code[0][1] are equal to MPEG-1's forward_f_code, and f_code[1][0] and f_code[1][1] are equal to MPEG-1's backward_f_code.</div><div> </div>
 
 ### -field wBitstreamPCEelements
 
 When the <b>bConfigBitstreamRaw</b> member of <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a> is 1, this member contains a set of flags necessary for the bitstream decoding process of MPEG-2 video. It is not used and must be zero when <b>bConfigBitstreamRaw</b> is zero and for non-MPEG-2 video. The bits in this member are defined by their correspondence with bitstream elements of the MPEG-2 picture coding extension as follows.
-
 <table>
 <tr>
 <th>Bits</th>
@@ -559,8 +555,7 @@ Reserved Bits. These are the least significant bits.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field bBitstreamConcealmentNeed
@@ -568,7 +563,6 @@ Reserved Bits. These are the least significant bits.
 Indicates the likelihood of errors in the bitstream data when the <b>bConfigBitstreamRaw</b> member of the <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a> structure is 1. Must be zero if <b>bConfigBitstreamRaw</b> is zero.
 
 Video accelerators must be designed not to fail or lock up, regardless of the content of the data given to them. Therefore, it may be helpful for a video accelerator to have information about the host's assessment of the likelihood of syntactical errors. This is in order to determine whether there is a need to invoke a more complex error concealment algorithm that might slow down the bitstream decoding process. Allowed values for this member are as follows (all other values are reserved).
-
 <table>
 <tr>
 <th>Value</th>
@@ -614,14 +608,12 @@ The bitstream is likely to contain relatively significant, serious, and frequent
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field bBitstreamConcealmentMethod
 
 Specifies a preferred default method for error concealment processing when the <b>bConfigBitstreamRaw</b> member of the <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a> structure is 1. Must be zero if <b>bConfigBitstreamRaw</b> is zero. Allowed values for this member are as follows (all other values are reserved).
-
 <table>
 <tr>
 <th>Value</th>
@@ -653,7 +645,7 @@ Spatial intra-picture concealment within the picture.
 
 </td>
 <td>
-Forward-motion reference picture for inter-picture concealment (to be used more typically in a <a href="wdkgloss.p#wdkgloss.predictive_coded_picture__p_picture_#wdkgloss.predictive_coded_picture__p_picture_"><i>P picture</i></a> or in a <a href="wdkgloss.b#wdkgloss.b_picture#wdkgloss.b_picture"><i>B picture</i></a> that is closer to its forward-motion reference picture than to its backward-motion reference picture).
+Forward-motion reference picture for inter-picture concealment (to be used more typically in a <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">P picture</a> or in a <a href="https://msdn.microsoft.com/bf5fa319-14ec-40df-be7a-89c07ce519ad">B picture</a> that is closer to its forward-motion reference picture than to its backward-motion reference picture).
 
 </td>
 </tr>
@@ -667,32 +659,28 @@ Backward-motion reference picture for inter-picture concealment (to be used more
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -remarks
+
+
 Certain members of this structure are constrained to specific values by the configuration established using the <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a> structure. After the picture-level parameters are conveyed using DXVA_PictureParameters, the picture decoding process is primarily governed by <a href="https://msdn.microsoft.com/be70ec8f-1821-4075-b5e3-b7574fbe4e27">macroblock control commands</a> formed using the <a href="..\dxva\ns-dxva-_dxva_mbctrl_i_hostresiddiff_1.md">DXVA_MBctrl_I_HostResidDiff_1</a>, <a href="..\dxva\ns-dxva-_dxva_mbctrl_i_offhostidct_1.md">DXVA_MBctrl_I_OffHostIDCT_1</a>, <a href="..\dxva\ns-dxva-_dxva_mbctrl_p_hostresiddiff_1.md">DXVA_MBctrl_P_HostResidDiff_1</a>, or <a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a> structures.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_hostresiddiff_1.md">DXVA_MBctrl_I_HostResidDiff_1</a>
-</dt>
-<dt>
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_offhostidct_1.md">DXVA_MBctrl_I_OffHostIDCT_1</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_mbctrl_p_hostresiddiff_1.md">DXVA_MBctrl_P_HostResidDiff_1</a>
-</dt>
-<dt>
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
-</dt>
-<dt>
+
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_hostresiddiff_1.md">DXVA_MBctrl_I_HostResidDiff_1</a>
+
 <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
-</dt>
-</dl>
+
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_offhostidct_1.md">DXVA_MBctrl_I_OffHostIDCT_1</a>
+
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
+
  
 
  

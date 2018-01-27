@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1DE3F065-6F8E-402F-87EF-F9582E31BFFE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _KSAUDIOMODULE_PROPERTY, *PKSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY
+ms.keywords: KSAUDIOMODULE_PROPERTY structure [Audio Devices], PKSAUDIOMODULE_PROPERTY structure pointer [Audio Devices], audio.ksaudiomodule_property, ksmedia/PKSAUDIOMODULE_PROPERTY, _KSAUDIOMODULE_PROPERTY, *PKSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY, ksmedia/KSAUDIOMODULE_PROPERTY, PKSAUDIOMODULE_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSAUDIOMODULE_PROPERTY
-req.alt-loc: Ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ksmedia.h
+apiname: 
+-	KSAUDIOMODULE_PROPERTY
+product: Windows
+targetos: Windows
 req.typenames: *PKSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY
 ---
 
 # _KSAUDIOMODULE_PROPERTY structure
 
 
-
 ## -description
+
+
 The <b>KSAUDIOMODULE_DESCRIPTOR</b> structure describes the static, external  properties of the audio modules.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _KSAUDIOMODULE_PROPERTY {
@@ -56,19 +66,13 @@ typedef struct _KSAUDIOMODULE_PROPERTY {
 
 ## -struct-fields
 
+
+
+
 ### -field Property
 
 The KSPROPERTY of the audio module is defined as follows.
 
-<dl>
-<dd>property.Set = KSPROPSETID_AudioModule;
-</dd>
-<dd>property.Id = KSPROPERTY_AUDIOMODULE_COMMAND;
-
-
-</dd>
-<dd>property.Flags = KSPROPERTY_TYPE_GET;</dd>
-</dl>
 
 ### -field ClassId
 
@@ -81,15 +85,16 @@ The InstanceId of the audio module.  The InstanceId is a unique identifier that 
 
 
 ## -remarks
+
+
 For more information about audio modules, see  <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/EAD613AA-005B-4751-B60E-212853CA40B4">KSPROPERTY_AUDIOMODULE_DESCRIPTORS</a>
-</dt>
-</dl>
+
  
 
  

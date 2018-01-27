@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: aae9218e-e52b-4a72-9d96-d648ff6d2f5d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _PCI_EXPRESS_CAPABILITIES_REGISTER, PCI_EXPRESS_CAPABILITIES_REGISTER, *PPCI_EXPRESS_CAPABILITIES_REGISTER
+ms.keywords: *PPCI_EXPRESS_CAPABILITIES_REGISTER, PPCI_EXPRESS_CAPABILITIES_REGISTER, PCI.pci_express_capabilities_register, ntddk/PCI_EXPRESS_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_CAPABILITIES_REGISTER, PCI_EXPRESS_CAPABILITIES_REGISTER union [Buses], _PCI_EXPRESS_CAPABILITIES_REGISTER, PCI_EXPRESS_CAPABILITIES_REGISTER, PPCI_EXPRESS_CAPABILITIES_REGISTER union pointer [Buses], pci_struct_86cc3b70-4de8-4479-b431-5f7f10d4a2f4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PCI_EXPRESS_CAPABILITIES_REGISTER
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	PCI_EXPRESS_CAPABILITIES_REGISTER
+product: Windows
+targetos: Windows
 req.typenames: PCI_EXPRESS_CAPABILITIES_REGISTER, *PPCI_EXPRESS_CAPABILITIES_REGISTER
 ---
 
 # _PCI_EXPRESS_CAPABILITIES_REGISTER structure
 
 
-
 ## -description
+
+
 The PCI_EXPRESS_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) capabilities register of a PCIe capability structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _PCI_EXPRESS_CAPABILITIES_REGISTER {
@@ -61,78 +71,37 @@ typedef union _PCI_EXPRESS_CAPABILITIES_REGISTER {
 
 ## -struct-fields
 
-### -field CapabilityVersion
-
-The version number of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a> structure that contains the PCI_EXPRESS_CAPABILITIES_REGISTER structure.
-
-
-### -field DeviceType
-
-The type of PCIe logical device. Possible values are:
 
 
 
+### -field DUMMYSTRUCTNAME
 
-### -field PciExpressEndpoint
-
-A PCIe endpoint device.
-
-
-### -field PciExpressLegacyEndpoint
-
-A legacy PCIe endpoint device.
+ 
 
 
-### -field PciExpressRootPort
+### -field DUMMYSTRUCTNAME.CapabilityVersion
 
-A root port of a PCIe root complex.
-
-
-### -field PciExpressUpstreamSwitchPort
-
-An upstream port of a PCIe switch.
+ 
 
 
-### -field PciExpressDownstreamSwitchPort
+### -field DUMMYSTRUCTNAME.DeviceType
 
-A downstream port of a PCIe switch.
-
-
-### -field PciExpressToPciXBridge
-
-A PCIe-to-PCI or PCI-X bridge.
+ 
 
 
-### -field PciXToExpressBridge
+### -field DUMMYSTRUCTNAME.SlotImplemented
 
-A PCI- or PCI-X-to PCIe bridge.
-
-
-### -field PciExpressRootComplexIntegratedEndpoint
-
-A PCIe endpoint device that is integrated into the root complex.
+ 
 
 
-### -field PciExpressRootComplexEventCollector
+### -field DUMMYSTRUCTNAME.InterruptMessageNumber
 
-A PCIe root complex event collector.
-
-</dd>
-</dl>
-
-### -field SlotImplemented
-
-A single bit that indicates that the PCIe link associated with this port is connected to a physical PCIe slot. This member is valid only if the <b>DeviceType</b> member is set to <b>PciExpressRootPort</b> or <b>PciExpressDownstreamSwitchPort</b>.
+ 
 
 
-### -field InterruptMessageNumber
+### -field DUMMYSTRUCTNAME.Rsvd
 
-The MSI or MSI-X vector that is used for interrupt messages that are generated in association with the status bits in either the slot status register or the root status register of the PCIe capability structure.
-
-
-### -field Rsvd
-
-Reserved.
+ 
 
 
 ### -field AsUSHORT
@@ -140,18 +109,91 @@ Reserved.
 A USHORT representation of the contents of the PCI_EXPRESS_CAPABILITIES_REGISTER structure.
 
 
+#### - DeviceType
+
+The type of PCIe logical device. Possible values are:
+
+
+
+
+##### - DeviceType.PciExpressRootComplexIntegratedEndpoint
+
+A PCIe endpoint device that is integrated into the root complex.
+
+
+##### - DeviceType.PciExpressToPciXBridge
+
+A PCIe-to-PCI or PCI-X bridge.
+
+
+##### - DeviceType.PciExpressRootComplexEventCollector
+
+A PCIe root complex event collector.
+
+
+##### - DeviceType.PciExpressDownstreamSwitchPort
+
+A downstream port of a PCIe switch.
+
+
+#### - InterruptMessageNumber
+
+The MSI or MSI-X vector that is used for interrupt messages that are generated in association with the status bits in either the slot status register or the root status register of the PCIe capability structure.
+
+
+##### - DeviceType.PciExpressLegacyEndpoint
+
+A legacy PCIe endpoint device.
+
+
+#### - Rsvd
+
+Reserved.
+
+
+##### - DeviceType.PciExpressUpstreamSwitchPort
+
+An upstream port of a PCIe switch.
+
+
+#### - CapabilityVersion
+
+The version number of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a> structure that contains the PCI_EXPRESS_CAPABILITIES_REGISTER structure.
+
+
+##### - DeviceType.PciXToExpressBridge
+
+A PCI- or PCI-X-to PCIe bridge.
+
+
+#### - SlotImplemented
+
+A single bit that indicates that the PCIe link associated with this port is connected to a physical PCIe slot. This member is valid only if the <b>DeviceType</b> member is set to <b>PciExpressRootPort</b> or <b>PciExpressDownstreamSwitchPort</b>.
+
+
+##### - DeviceType.PciExpressRootPort
+
+A root port of a PCIe root complex.
+
+
+##### - DeviceType.PciExpressEndpoint
+
+A PCIe endpoint device.
+
+
 ## -remarks
+
+
 The PCI_EXPRESS_CAPABILITIES_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_CAPABILITIES_REGISTER structure is contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a>
-</dt>
-</dl>
+
  
 
  

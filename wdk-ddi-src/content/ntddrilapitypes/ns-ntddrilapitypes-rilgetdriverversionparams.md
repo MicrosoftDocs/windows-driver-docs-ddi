@@ -7,8 +7,8 @@ old-location: netvista\rilgetdriverversionparams.htm
 old-project: netvista
 ms.assetid: 42167f2f-0bd5-452c-9b41-d18efac28a33
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILGETDRIVERVERSIONPARAMS, RILGETDRIVERVERSIONPARAMS, *LPRILGETDRIVERVERSIONPARAMS
+ms.date: 1/18/2018
+ms.keywords: netvista.rilgetdriverversionparams, RILGETDRIVERVERSIONPARAMS, ntddrilapitypes/RILGETDRIVERVERSIONPARAMS, RILGETDRIVERVERSIONPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILGETDRIVERVERSIONPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILGETDRIVERVERSIONPARAMS
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILGETDRIVERVERSIONPARAMS, *LPRILGETDRIVERVERSIONPARAMS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILGETDRIVERVERSIONPARAMS
+product: Windows
+targetos: Windows
+req.typenames: *LPRILGETDRIVERVERSIONPARAMS, RILGETDRIVERVERSIONPARAMS
 ---
 
 # RILGETDRIVERVERSIONPARAMS structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILGETDRIVERVERSIONPARAMS {
@@ -55,10 +65,13 @@ typedef struct _RILGETDRIVERVERSIONPARAMS {
 
 ## -struct-fields
 
+
+
+
 ### -field dwMinVersion
+
 
 
 ### -field dwMaxVersion
 
 
-## -remarks

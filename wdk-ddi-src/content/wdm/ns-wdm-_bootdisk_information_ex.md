@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c358220c-1e29-4889-b214-f2892c9ac47d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _BOOTDISK_INFORMATION_EX, BOOTDISK_INFORMATION_EX, *PBOOTDISK_INFORMATION_EX
+ms.keywords: kernel.bootdisk_information_ex, wdm/PBOOTDISK_INFORMATION_EX, BOOTDISK_INFORMATION_EX structure [Kernel-Mode Driver Architecture], wdm/BOOTDISK_INFORMATION_EX, _BOOTDISK_INFORMATION_EX, kstruct_a_abc410ed-6eca-4417-b428-565971e85287.xml, BOOTDISK_INFORMATION_EX, PBOOTDISK_INFORMATION_EX, *PBOOTDISK_INFORMATION_EX, PBOOTDISK_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BOOTDISK_INFORMATION_EX
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	BOOTDISK_INFORMATION_EX
+product: Windows
+targetos: Windows
 req.typenames: BOOTDISK_INFORMATION_EX, *PBOOTDISK_INFORMATION_EX
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _BOOTDISK_INFORMATION_EX structure
 
 
-
 ## -description
+
+
 The <b>BOOTDISK_INFORMATION_EX</b> structure contains extended information describing the boot and system disks.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BOOTDISK_INFORMATION_EX {
@@ -61,6 +71,9 @@ typedef struct _BOOTDISK_INFORMATION_EX {
 
 
 ## -struct-fields
+
+
+
 
 ### -field BootPartitionOffset
 
@@ -103,18 +116,18 @@ If the <b>SystemDeviceIsGpt</b> member is <b>TRUE</b>, this specifies the GUID f
 
 
 ## -remarks
+
+
 On Windows XP and later, <a href="..\wdm\nf-wdm-iogetbootdiskinformation.md">IoGetBootDiskInformation</a> returns this structure to describe the boot and system disks.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-iogetbootdiskinformation.md">IoGetBootDiskInformation</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_bootdisk_information.md">BOOTDISK_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

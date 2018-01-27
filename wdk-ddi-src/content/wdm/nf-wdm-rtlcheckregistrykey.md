@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b752a764-1f7d-4768-9fa2-c8976560f840
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCheckRegistryKey
+ms.keywords: RtlCheckRegistryKey routine [Kernel-Mode Driver Architecture], wdm/RtlCheckRegistryKey, RtlCheckRegistryKey, kernel.rtlcheckregistrykey, k109_d4610b64-e689-4734-aca9-4536889ae2b9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlCheckRegistryKey
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlCheckRegistryKey
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RtlCheckRegistryKey function
 
 
-
 ## -description
+
+
 The <b>RtlCheckRegistryKey</b> routine checks for the existence of a given named key in the registry.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlCheckRegistryKey(
@@ -56,10 +66,12 @@ NTSTATUS RtlCheckRegistryKey(
 
 ## -parameters
 
+
+
+
 ### -param RelativeTo [in]
 
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined key path as one of the following.
-
 <table>
 <tr>
 <th>Value</th>
@@ -135,8 +147,7 @@ This value should not be passed into this routine. Despite the redundancy of a c
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Path [in]
@@ -145,18 +156,16 @@ Specifies the registry path according to the <i>RelativeTo</i> value. If RTL_REG
 
 
 ## -returns
+
+
 If the given named key exists in the registry along the given relative path, <b>RtlCheckRegistryKey</b> returns STATUS_SUCCESS.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
-</dt>
-</dl>
+
  
 
  

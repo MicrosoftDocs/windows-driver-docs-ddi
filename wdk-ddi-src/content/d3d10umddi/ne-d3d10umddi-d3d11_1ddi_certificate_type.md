@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e95573c9-0ea7-4ad2-9e7e-d75761e98be6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_CERTIFICATE_TYPE, D3D11_1DDI_CERTIFICATE_TYPE
+ms.keywords: display.d3d11_1ddi_certificate_type, D3D11_1DDI_CERTIFICATE_TYPE_AUTHENTICATED_CHANNEL, d3d10umddi/D3D11_1DDI_CERTIFICATE_TYPE, d3d10umddi/D3D11_1DDI_CERTIFICATE_TYPE_CRYPTO_SESSION, D3D11_1DDI_CERTIFICATE_TYPE, D3D11_1DDI_CERTIFICATE_TYPE enumeration [Display Devices], D3D11_1DDI_CERTIFICATE_TYPE_CRYPTO_SESSION, d3d10umddi/D3D11_1DDI_CERTIFICATE_TYPE_AUTHENTICATED_CHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDI_CERTIFICATE_TYPE
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDI_CERTIFICATE_TYPE
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_CERTIFICATE_TYPE
 ---
 
 # D3D11_1DDI_CERTIFICATE_TYPE enumeration
 
 
-
 ## -description
+
+
 Specifies the type of authenticated certificate that is used to establish trust and perform a key exchange. This type is used by callers of the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcertificate.md">GetCertificate</a> and <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcertificatesize.md">GetCertificateSize</a> functions.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D11_1DDI_CERTIFICATE_TYPE { 
@@ -55,6 +65,9 @@ typedef enum D3D11_1DDI_CERTIFICATE_TYPE {
 
 ## -enum-fields
 
+
+
+
 ### -field D3D11_1DDI_CERTIFICATE_TYPE_AUTHENTICATED_CHANNEL
 
 The certificate is used for an authenticated channel.
@@ -65,18 +78,12 @@ The certificate is used for an authenticated channel.
 The certificate is used for a  cryptographic session.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcertificate.md">GetCertificate</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcertificatesize.md">GetCertificateSize</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcertificate.md">GetCertificate</a>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: debugger\searchmemory.htm
 old-project: debugger
 ms.assetid: 7e07c47e-803b-44fa-9d0f-aa86475246d2
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: SearchMemory
+ms.date: 1/19/2018
+ms.keywords: WdbgExts_Ref_4eb909e5-edfd-487c-851c-812b15274c66.xml, debugger.searchmemory, SearchMemory function [Windows Debugging], SearchMemory, wdbgexts/SearchMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SearchMemory
-req.alt-loc: wdbgexts.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdbgexts.h
+apiname: 
+-	SearchMemory
+product: Windows
+targetos: Windows
 req.typenames: EXT_TDOP
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SearchMemory function
 
 
-
 ## -description
+
+
 The <b>SearchMemory</b> function searches the target's virtual memory for a specified pattern of bytes.
 
 
-
 ## -syntax
+
 
 ````
 __inline VOID SearchMemory(
@@ -59,33 +69,37 @@ __inline VOID SearchMemory(
 
 ## -parameters
 
-### -param SearchAddress 
+
+
+
+### -param SearchAddress
 
 Specifies the address in the target's virtual memory from which to start the search.
 
 
-### -param SearchLength 
+### -param SearchLength
 
 Specifies the size, in bytes, of the memory to search.  For a successful match, the pattern must be found before <i>SearchLength</i> bytes have been examined.
 
 
-### -param PatternLength 
+### -param PatternLength
 
 Specifies the size, in bytes, of the pattern to search for.
 
 
-### -param Pattern 
+### -param Pattern
 
 Specifies the pattern to search for.
 
 
-### -param FoundAddress 
+### -param FoundAddress
 
 Receives the location of the pattern, found in the target's virtual memory.  If the pattern was not found, the value in <i>FoundAddress</i> is unchanged by this function.
 
 
 ## -returns
+
+
 None
 
 
-## -remarks

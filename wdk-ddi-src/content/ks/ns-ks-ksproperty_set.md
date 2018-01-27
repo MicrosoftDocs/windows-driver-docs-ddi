@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 18eda28d-f1dc-4b49-8c1a-07e11ea4b288
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_SET, *PKSPROPERTY_SET, KSPROPERTY_SET
+ms.keywords: ks/PKSPROPERTY_SET, *PKSPROPERTY_SET, PKSPROPERTY_SET, ks-struct_2c865d90-5142-4cda-bbd2-af67ac716c87.xml, KSPROPERTY_SET, KSPROPERTY_SET structure [Streaming Media Devices], stream.ksproperty_set, ks/KSPROPERTY_SET, PKSPROPERTY_SET structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPROPERTY_SET
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSPROPERTY_SET, KSPROPERTY_SET
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSPROPERTY_SET
+product: Windows
+targetos: Windows
+req.typenames: KSPROPERTY_SET, *PKSPROPERTY_SET
 ---
 
 # KSPROPERTY_SET structure
 
 
-
 ## -description
+
+
 A kernel streaming driver or pin may use the KSPROPERTY_SET structure to describe how it supports a property set.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -57,6 +67,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Set
 
@@ -84,15 +97,16 @@ A pointer to a <a href="..\ks\ns-ks-ksfastproperty_item.md">KSFASTPROPERTY_ITEM<
 
 
 ## -remarks
+
+
 For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88-aaf9-ff1ddbfd30f7">KS Properties</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
-</dt>
-</dl>
+
  
 
  

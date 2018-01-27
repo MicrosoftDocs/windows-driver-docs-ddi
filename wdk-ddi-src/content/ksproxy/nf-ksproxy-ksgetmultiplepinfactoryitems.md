@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 43210484-dcae-49b7-bda3-50d6c06ee2c0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetMultiplePinFactoryItems
+ms.keywords: KsGetMultiplePinFactoryItems, ksproxy/KsGetMultiplePinFactoryItems, stream.ksgetmultiplepinfactoryitems, KsGetMultiplePinFactoryItems function [Streaming Media Devices], ksproxy_cd252212-9317-4e1a-9f57-ee18afc23766.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsGetMultiplePinFactoryItems
-req.alt-loc: Ksproxy.lib,Ksproxy.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ksproxy.lib
+-	Ksproxy.dll
+apiname: 
+-	KsGetMultiplePinFactoryItems
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # KsGetMultiplePinFactoryItems function
 
 
-
 ## -description
+
+
 The <b>KsGetMultiplePinFactoryItems</b> function retrieves pin property items in a variable length data buffer. 
 
 
-
 ## -syntax
+
 
 ````
 HRESULT KsGetMultiplePinFactoryItems(
@@ -56,6 +67,9 @@ HRESULT KsGetMultiplePinFactoryItems(
 
 
 ## -parameters
+
+
+
 
 ### -param FilterHandle [in]
 
@@ -78,30 +92,31 @@ Pointer to a buffer to receive the property items. If successfully retrieved, th
 
 
 ## -returns
+
+
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
+
 ## -remarks
+
+
 The <b>KsGetMultiplePinFactoryItems</b> function queries for the data size, in bytes, of the requested property, allocates a buffer, and retrieves the data.
 
 For more information about <b>CoTaskMemFree</b>, see the Microsoft Windows SDK documentation.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksproxy\nn-ksproxy-ikspinfactory.md">IKsPinFactory</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-</dt>
-<dt>
+
+<a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
-</dt>
-</dl>
+
  
 
  

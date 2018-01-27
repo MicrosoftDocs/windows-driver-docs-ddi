@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e0480a5-39d3-4977-9c0f-508bcf6c29a8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortCheckForDeviceExistence
+ms.keywords: VideoPortCheckForDeviceExistence, display.videoportcheckfordeviceexistence, VideoPortCheckForDeviceExistence function [Display Devices], video/VideoPortCheckForDeviceExistence, VideoPort_Functions_3cb7198b-a2fe-423c-b0f3-11a154d087af.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of the Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortCheckForDeviceExistence
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortCheckForDeviceExistence
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortCheckForDeviceExistence function
 
 
-
 ## -description
+
+
 The <b>VideoPortCheckForDeviceExistence</b> function determines whether the specified PCI device exists in the system.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN VideoPortCheckForDeviceExistence(
@@ -60,6 +70,9 @@ BOOLEAN VideoPortCheckForDeviceExistence(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -94,7 +107,6 @@ Specifies the subsystem ID.
 ### -param Flags [in]
 
 Is a set of flags that determine whether the <i>RevisionID</i> and <i>SubSystemID</i> parameters should be used in checking for the new device. This parameter can be the logical OR of the following values:
-
 <table>
 <tr>
 <th>Value</th>
@@ -120,13 +132,19 @@ Use the value in the <i>SubSystemID</i> parameter in checking for the new device
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 <b>VideoPortCheckForDeviceExistence</b> returns <b>TRUE</b> if the device exists in the system, and <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
-For more information about PCI identifiers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a>. </p>
+
+
+For more information about PCI identifiers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a>. 
+
+

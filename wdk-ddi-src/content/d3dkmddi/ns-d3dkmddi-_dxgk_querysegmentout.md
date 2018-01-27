@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: df640b7a-865a-4a8b-94be-ebc60e44cf72
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_QUERYSEGMENTOUT, DXGK_QUERYSEGMENTOUT
+ms.keywords: _DXGK_QUERYSEGMENTOUT, DmStructs_69650838-cd41-4786-aa3c-b2617b7d97b4.xml, DXGK_QUERYSEGMENTOUT, display.dxgk_querysegmentout, DXGK_QUERYSEGMENTOUT structure [Display Devices], d3dkmddi/DXGK_QUERYSEGMENTOUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_QUERYSEGMENTOUT
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_QUERYSEGMENTOUT
+product: Windows
+targetos: Windows
 req.typenames: DXGK_QUERYSEGMENTOUT
 ---
 
 # _DXGK_QUERYSEGMENTOUT structure
 
 
-
 ## -description
+
+
 The DXGK_QUERYSEGMENTOUT structure describes memory-segment information that the display miniport driver should return from a call to its <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> function. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_QUERYSEGMENTOUT {
@@ -57,6 +67,9 @@ typedef struct _DXGK_QUERYSEGMENTOUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NbSegment
 
@@ -86,24 +99,22 @@ The private data structure that is associated with a paging buffer is initialize
 
 
 ## -remarks
+
+
 The video memory manager allocates a paging buffer either from an aperture segment (if the <b>PagingBufferSegmentId</b> member identifies the segment) or as a contiguous write-combined memory block (if <b>PagingBufferSegmentId</b> is set to 0). If <b>PagingBufferSegmentId</b> is set to 0, the graphics processing unit (GPU) must access direct memory access (DMA) buffers by using PCI cycles on systems where AGP transfers that occur outside the AGP aperture are not permitted.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentin.md">DXGK_QUERYSEGMENTIN</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor.md">DXGK_SEGMENTDESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
-</dt>
-</dl>
+
  
 
  

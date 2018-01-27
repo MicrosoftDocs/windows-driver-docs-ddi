@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e5877d9-a584-40fb-8e96-2ffae00df857
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_GETD3DQUERYCOUNTDATA, DD_GETD3DQUERYCOUNTDATA
+ms.keywords: _DD_GETD3DQUERYCOUNTDATA, DD_GETD3DQUERYCOUNTDATA, d3dstrct_d97e6eb4-0ecd-4459-9256-eee9bb36bb78.xml, DD_GETD3DQUERYCOUNTDATA structure [Display Devices], d3dhal/DD_GETD3DQUERYCOUNTDATA, display.dd_getd3dquerycountdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DD_GETD3DQUERYCOUNTDATA
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	DD_GETD3DQUERYCOUNTDATA
+product: Windows
+targetos: Windows
 req.typenames: DD_GETD3DQUERYCOUNTDATA
 ---
 
 # _DD_GETD3DQUERYCOUNTDATA structure
 
 
-
 ## -description
+
+
 
    DirectX 9.0 and later versions only.
    
@@ -46,8 +56,8 @@ req.typenames: DD_GETD3DQUERYCOUNTDATA
 DD_GETD3DQUERYCOUNTDATA is the data structure pointed to by the <b>lpvData</b> field of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a> for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETD3DQUERYCOUNT.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DD_GETD3DQUERYCOUNTDATA {
@@ -58,6 +68,9 @@ typedef struct _DD_GETD3DQUERYCOUNTDATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field gdi2
 
@@ -70,22 +83,22 @@ Receives the number of supported query types.
 
 
 ## -remarks
+
+
 To handle D3DGDI2_TYPE_GETD3DQUERYCOUNT, the driver must store the number of query types that it supports in the <b>dwNumQueries</b> member of DD_GETD3DQUERYCOUNTDATA. Query types are represented by values in the D3DQUERYTYPE enumeration.
 
 
+
 ## -see-also
-<dl>
-<dt>D3DDP2OP_CREATEQUERY</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-</dt>
-<dt>
-<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
-</dt>
-<dt>
+
+D3DDP2OP_CREATEQUERY
+
 <a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerydata.md">DD_GETD3DQUERYDATA</a>
-</dt>
-</dl>
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
+
  
 
  

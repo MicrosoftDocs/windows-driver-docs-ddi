@@ -7,8 +7,8 @@ old-location: netvista\rilrequestgeolocationdata_2.htm
 old-project: netvista
 ms.assetid: 2d447c49-08ac-43c2-9f70-557494e82cfc
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILREQUESTGEOLOCATIONDATA, *LPRILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA
+ms.date: 1/18/2018
+ms.keywords: *LPRILREQUESTGEOLOCATIONDATA, rilapitypes/RILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA structure [Network Drivers Starting with Windows Vista], netvista.rilrequestgeolocationdata_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILREQUESTGEOLOCATIONDATA
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILREQUESTGEOLOCATIONDATA
+product: Windows
+targetos: Windows
+req.typenames: RILREQUESTGEOLOCATIONDATA, *LPRILREQUESTGEOLOCATIONDATA
 req.product: Windows 10 or later.
 ---
 
 # RILREQUESTGEOLOCATIONDATA structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILREQUESTGEOLOCATIONDATA {
@@ -60,22 +70,29 @@ typedef struct _RILREQUESTGEOLOCATIONDATA {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwExecutor
+
 
 
 ### -field dwLocationInformationMask
 
 
+
 ### -field dwLocationRequestAccuracy
+
 
 
 ### -field rrRequestInformation
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8A8F938D-8F6B-47E0-963F-8E8B14033802
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FSINFOCLASS, FS_INFORMATION_CLASS, *PFS_INFORMATION_CLASS
+ms.keywords: wdm/FileFsVolumeInformation, FS_INFORMATION_CLASS, FileFsDriverPathInformation, FileFsDeviceInformation, wdm/FileFsFullSizeInformation, wdm/FileFsDeviceInformation, wdm/FileFsSectorSizeInformation, wdm/FileFsControlInformation, ifsk.fs_information_class, FileFsSizeInformation, wdm/FileFsDriverPathInformation, wdm/FS_INFORMATION_CLASS, wdm/FileFsAttributeInformation, FileFsVolumeFlagsInformation, FileFsSectorSizeInformation, *PFS_INFORMATION_CLASS, wdm/FileFsObjectIdInformation, wdm/FileFsSizeInformation, FS_INFORMATION_CLASS enumeration [Installable File System Drivers], FileFsAttributeInformation, _FSINFOCLASS, FileFsFullSizeInformation, FileFsControlInformation, wdm/FileFsLabelInformation, FileFsLabelInformation, wdm/FileFsVolumeFlagsInformation, FileFsVolumeInformation, FileFsObjectIdInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FS_INFORMATION_CLASS
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	FS_INFORMATION_CLASS
+product: Windows
+targetos: Windows
 req.typenames: FS_INFORMATION_CLASS, *PFS_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _FSINFOCLASS enumeration
 
 
-
 ## -description
+
+
 
    The FS_INFORMATION_CLASS enumeration contains the information class constants that specify what type of information structure is present for a set or a query operation.
   
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -66,6 +76,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field FileFsVolumeInformation
 
@@ -122,4 +135,15 @@ Use a <b>FILE_FS_VOLUME_FLAGS_INFORMATION</b> structure to set the flags for a v
 Return a <a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS_SECTOR_SIZE_INFORMATION</a> structure that contains information about the physical and logical sector sizes of a volume.
 
 
-## -remarks
+### -field FileFsDataCopyInformation
+
+
+
+### -field FileFsMetadataSizeInformation
+
+
+
+### -field FileFsMaximumInformation
+
+
+

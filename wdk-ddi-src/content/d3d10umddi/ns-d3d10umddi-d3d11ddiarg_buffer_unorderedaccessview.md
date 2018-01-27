@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a5ff1158-539f-4b25-8b65-72d077108c46
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW, D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW
+ms.keywords: display.d3d11ddiarg_buffer_unorderedaccessview, UMDisplayDriver_Dx11param_Structs_c097052f-b667-43a9-8133-172770d9ab70.xml, D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW, D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW structure [Display Devices], d3d10umddi/D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW is supported b
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW
+product: Windows
+targetos: Windows
 req.typenames: D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW
 ---
 
 # D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW structure
 
 
-
 ## -description
+
+
 The D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW structure describes a buffer that is used to create an unordered access view (UAV) in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createunorderedaccessview.md">CreateUnorderedAccessView</a> function. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW {
@@ -55,6 +65,9 @@ typedef struct D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW {
 
 
 ## -struct-fields
+
+
+
 
 ### -field FirstElement
 
@@ -69,7 +82,6 @@ typedef struct D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW {
 ### -field Flags
 
 [in] A valid bitwise OR of flag values that describe the buffer. The Direct3D runtime supports the following values.
-
 <table>
 <tr>
 <th>Value</th>
@@ -78,10 +90,10 @@ typedef struct D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW {
 <tr>
 <td>
 
-
-### -field D3D11_DDI_BUFFER_UAV_FLAG_RAW 
-### -field (0x00000001)
-
+<dl>
+<dt>D3D11_DDI_BUFFER_UAV_FLAG_RAW </dt>
+<dt>(0x00000001)</dt>
+</dl>
 
 
 </td>
@@ -93,10 +105,10 @@ The buffer is in raw format.
 <tr>
 <td>
 
-
-### -field D3D11_DDI_BUFFER_UAV_FLAG_APPEND 
-### -field (0x00000002)
-
+<dl>
+<dt>D3D11_DDI_BUFFER_UAV_FLAG_APPEND </dt>
+<dt>(0x00000002)</dt>
+</dl>
 
 
 </td>
@@ -108,10 +120,10 @@ Associate a counter with the UAV that has append semantics. The count reflects h
 <tr>
 <td>
 
-
-### -field D3D11_DDI_BUFFER_UAV_FLAG_COUNTER 
-### -field (0x00000004)
-
+<dl>
+<dt>D3D11_DDI_BUFFER_UAV_FLAG_COUNTER </dt>
+<dt>(0x00000004)</dt>
+</dl>
 
 
 </td>
@@ -120,25 +132,17 @@ Associate a counter with the UAV whose semantics prevent the reordering of the c
 
 </td>
 </tr>
-</table>
- 
-
-
-## -remarks
+</table> 
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivateunorderedaccessviewsize.md">CalcPrivateUnorderedAccessViewSize</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createunorderedaccessview.md">CreateUnorderedAccessView</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createunorderedaccessview.md">D3D11DDIARG_CREATEUNORDEREDACCESSVIEW</a>
-</dt>
-</dl>
+
  
 
  

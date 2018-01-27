@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 11549B4E-7929-4957-9775-BF8AAF501D45
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_TARGETMODE_DETAIL_TIMING, DXGK_TARGETMODE_DETAIL_TIMING
+ms.keywords: display.pdxgk_power_notification, *PDXGK_POWER_NOTIFICATION callback function [Display Devices], *PDXGK_POWER_NOTIFICATION, d3dkmthk/*PDXGK_POWER_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: *PDXGK_POWER_NOTIFICATION
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	*PDXGK_POWER_NOTIFICATION
+product: Windows
+targetos: Windows
 req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 ---
 
 # PDXGK_POWER_NOTIFICATION callback
 
 
-
 ## -description
+
+
 A callback providing notification that the graphics device will be undergoing a device power state transition.
 
 
-
 ## -prototype
+
 
 ````
 VOID *PDXGK_POWER_NOTIFICATION(
@@ -56,23 +66,34 @@ VOID *PDXGK_POWER_NOTIFICATION(
 
 ## -parameters
 
-### -param GraphicsDeviceHandle 
+
+
+
+### -param GraphicsDeviceHandle
 
 A handle to the graphics device.
 
 
-### -param NewGrfxPowerState 
+### -param NewGrfxPowerState
 
 Indicates the new graphics power state.
 
 
-### -param PreNotification 
+### -param PreNotification
 
 Indicates that a notification should be provided.
 
 
+### -param PrivateHandle
+
+
+
+
+
+
 ## -returns
+
+
 This callback function does not return a value.
 
 
-## -remarks

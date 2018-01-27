@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a630d986-10a7-4b3f-a5b4-05de7879b146
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlNotifyVolumeEvent
+ms.keywords: ifsk.fsrtlnotifyvolumeevent, FsRtlNotifyVolumeEvent, fsrtlref_a242139a-dc66-4522-85a2-4f910d999d4d.xml, ntifs/FsRtlNotifyVolumeEvent, FsRtlNotifyVolumeEvent routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows XP and
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlNotifyVolumeEvent
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlNotifyVolumeEvent
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlNotifyVolumeEvent function
 
 
-
 ## -description
+
+
 The <b>FsRtlNotifyVolumeEvent</b> routine notifies any registered applications that a volume event is occurring. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlNotifyVolumeEvent(
@@ -55,6 +65,9 @@ NTSTATUS FsRtlNotifyVolumeEvent(
 
 ## -parameters
 
+
+
+
 ### -param FileObject [in]
 
 A pointer to a file object for the given volume. 
@@ -63,7 +76,6 @@ A pointer to a file object for the given volume.
 ### -param EventCode [in]
 
 Specifies an event code for the event that is occurring. This code can be one of the following values.
-
 <table>
 <tr>
 <th>Event Code</th>
@@ -266,15 +278,19 @@ The volume is a write-once, read-many (WORM) volume and it is nearly full. This 
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 <b>FsRtlNotifyVolumeEvent</b> returns the status of the notification. 
 
 
+
 ## -remarks
+
+
 File systems call <b>FsRtlNotifyVolumeEvent</b> to notify any registered user-mode applications that a volume event is occurring. 
 
 PnP event GUID values are defined in Ioevent.h. 
@@ -282,15 +298,13 @@ PnP event GUID values are defined in Ioevent.h.
 To register for volume event notification, applications must call the Microsoft Win32 <b>RegisterDeviceNotification</b> function. For more information, see the Device Management section in the Microsoft Windows SDK documentation. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iounregisterplugplaynotification.md">IoUnregisterPlugPlayNotification</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
+
  
 
  

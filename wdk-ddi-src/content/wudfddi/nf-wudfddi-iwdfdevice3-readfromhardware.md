@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 19B472D0-D607-4874-ADB9-232C379B0DFD
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice3, IWDFDevice3::ReadFromHardware, ReadFromHardware
+ms.keywords: IWDFDevice3 interface, ReadFromHardware method, ReadFromHardware, ReadFromHardware method, IWDFDevice3 interface, IWDFDevice3, ReadFromHardware method, wdf.iwdfdevice3_readfromhardware, IWDFDevice3::ReadFromHardware, umdf.iwdfdevice3_readfromhardware, wudfddi/IWDFDevice3::ReadFromHardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.11
-req.alt-api: IWDFDevice3.ReadFromHardware
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFDevice3.ReadFromHardware
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IWDFDevice3::ReadFromHardware method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>ReadFromHardware</b> method is used internally by the framework. Do not use.
 
 
-
 ## -syntax
+
 
 ````
 SIZE_T ReadFromHardware(
@@ -61,30 +71,33 @@ SIZE_T ReadFromHardware(
 
 ## -parameters
 
+
+
+
 ### -param Type [in]
+
 
 
 ### -param Size [in]
 
 
+
 ### -param Address [in]
+
 
 
 ### -param Buffer [out]
 
 
+
 ### -param Count [in, optional]
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
-</dt>
-</dl>
+
  
 
  

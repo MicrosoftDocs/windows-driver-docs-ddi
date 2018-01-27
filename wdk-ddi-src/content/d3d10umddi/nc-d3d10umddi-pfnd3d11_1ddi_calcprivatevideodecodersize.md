@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a878cba1-589e-4932-9d2b-1abab417660f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.calcprivatevideodecodersize, CalcPrivateVideoDecoderSize callback function [Display Devices], CalcPrivateVideoDecoderSize, FND3D11_1DDI_CALCPRIVATEVIDEODECODERSIZE, FND3D11_1DDI_CALCPRIVATEVIDEODECODERSIZE, d3d10umddi/CalcPrivateVideoDecoderSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CalcPrivateVideoDecoderSize
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	CalcPrivateVideoDecoderSize
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_CALCPRIVATEVIDEODECODERSIZE callback
 
 
-
 ## -description
+
+
 Returns the number of bytes that the driver requires to store private data for the video decoder state.
 
 
-
 ## -prototype
+
 
 ````
 FND3D11_1DDI_CALCPRIVATEVIDEODECODERSIZE CalcPrivateVideoDecoderSize;
@@ -58,34 +68,52 @@ SIZE_T APIENTRY* CalcPrivateVideoDecoderSize(
 
 ## -parameters
 
-### -param hDevice [in]
+
+
+
+### -param D3D10DDI_HDEVICE
+
+
+
+### -param *
+
+
+
+
+
+
+#### - pDecoder [in]
+
+A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoder.md">D3D11_1DDIARG_CREATEVIDEODECODER</a> structure that describes the video decoder.
+
+
+#### - hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-### -param pDecoder [in]
-
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoder.md">D3D11_1DDIARG_CREATEVIDEODECODER</a> structure that describes the video decoder.
-
-
 ## -returns
+
+
 The required number of bytes for the video decoder state.
 
 
+
 ## -remarks
+
+
 The runtime will validate the members of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoder.md">D3D11_1DDIARG_CREATEVIDEODECODER</a> structure before it calls this function.
 
 This function is not expected to fail.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoder.md">D3D11_1DDIARG_CREATEVIDEODECODER</a>
-</dt>
-</dl>
+
  
 
  

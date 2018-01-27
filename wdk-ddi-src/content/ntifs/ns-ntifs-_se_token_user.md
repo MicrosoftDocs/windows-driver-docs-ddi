@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3B870461-0C5D-46DF-A850-EB796AE5A4CB
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _SE_TOKEN_USER, SE_TOKEN_USER, PSE_TOKEN_USER
+ms.keywords: ntifs/SE_TOKEN_USER, SE_TOKEN_USER, PSE_TOKEN_USER, ifsk.se_token_user, PSE_TOKEN_USER structure pointer [Installable File System Drivers], ntifs/PSE_TOKEN_USER, _SE_TOKEN_USER, SE_TOKEN_USER structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SE_TOKEN_USER
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	SE_TOKEN_USER
+product: Windows
+targetos: Windows
 req.typenames: SE_TOKEN_USER, PSE_TOKEN_USER
 ---
 
 # _SE_TOKEN_USER structure
 
 
-
 ## -description
+
+
 The <b>SE_TOKEN_USER</b> structure holds the maximum-sized valid user SID that can be returned by <a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>, <a href="https://msdn.microsoft.com/e94de19c-de12-40fb-a72c-060f7ad12f75">GetTokenInformation</a>, or <a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a> with the TokenUser information class. This structure is suitable for stack allocation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SE_TOKEN_USER {
@@ -61,41 +71,68 @@ typedef struct _SE_TOKEN_USER {
 
 ## -struct-fields
 
-### -field TokenUser
-
-Specifies a <b>TOKEN_USER</b> structure representing the user associated with an access token.
 
 
-### -field User
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.TokenUser
+
+ 
+
+
+### -field DUMMYUNIONNAME.User
+
+ 
+
+
+### -field DUMMYUNIONNAME2
+
+ 
+
+
+### -field DUMMYUNIONNAME2.Sid
+
+ 
+
+
+### -field DUMMYUNIONNAME2.Buffer
+
+ 
+
+
+
+#### - User
 
 Specifies an <b>SID_AND_ATTRIBUTES</b> structure representing the user associated with the access token.
 
 
-### -field Sid
+#### - TokenUser
 
-Specifies a <b>Security Identifier (SID)</b> structure used to uniquely identify users or groups
+Specifies a <b>TOKEN_USER</b> structure representing the user associated with an access token.
 
 
-### -field Buffer
+#### - Buffer
 
 Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the largest possible SID size.
 
 
-## -remarks
+#### - Sid
+
+Specifies a <b>Security Identifier (SID)</b> structure used to uniquely identify users or groups
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556742">SID_AND_ATTRIBUTES</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556742">SID_AND_ATTRIBUTES</a>
+
  
 
  

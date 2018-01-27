@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5099ff37-eed9-44fd-8254-3828b8c5d8bd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_FRAME_STATISTICS,
+ms.keywords: IDDCX_FRAME_STATISTICS structure [Display Devices], iddcx/IDDCX_FRAME_STATISTICS, display.iddcx_frame_statistics, IDDCX_FRAME_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDDCX_FRAME_STATISTICS
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDDCX_FRAME_STATISTICS
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDDCX_FRAME_STATISTICS structure
 
 
-
 ## -description
+
+
 Gives information about the current frame being processed.
              
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDDCX_FRAME_STATISTICS {
@@ -68,6 +78,9 @@ typedef struct IDDCX_FRAME_STATISTICS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -133,17 +146,13 @@ Zero based number to indicate the number of times the same frame has been encode
 
 
                      Marks the time when the driver started transmission for this slice to the device
-
-<div class="alert"><b>Note</b>  NOTE : This marks the time the driver started calling the transmit API's, not when the data actually starts being transmitted</div>
-<div> </div>
+<div class="alert"><b>Note</b>  NOTE : This marks the time the driver started calling the transmit API's, not when the data actually starts being transmitted</div><div> </div>
 
 ### -field SendStopQpcTime
 
 
                      Marks the time when the driver started transmission for this slice to the device
-
-<div class="alert"><b>Note</b>  This marks the time the driver started calling the transmit API's, not when the data actually starts being transmitted</div>
-<div> </div>
+<div class="alert"><b>Note</b>  This marks the time the driver started calling the transmit API's, not when the data actually starts being transmitted</div><div> </div>
 
 ### -field SendCompleteQpcTime
 
@@ -172,5 +181,3 @@ Zero based number to indicate the number of times the same frame has been encode
                      Total size of the data send to device for this frame, this includes all the slices
                  
 
-
-## -remarks

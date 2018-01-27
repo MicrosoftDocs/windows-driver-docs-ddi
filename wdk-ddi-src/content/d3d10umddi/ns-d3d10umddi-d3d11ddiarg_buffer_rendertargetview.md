@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1c89b4bd-7473-4da6-afbe-4103f3f3d7be
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11DDIARG_BUFFER_RENDERTARGETVIEW, D3D11DDIARG_BUFFER_RENDERTARGETVIEW
+ms.keywords: D3D11DDIARG_BUFFER_RENDERTARGETVIEW structure [Display Devices], D3D11DDIARG_BUFFER_RENDERTARGETVIEW, display.d3d11ddiarg_buffer_rendertargetview, d3d10umddi/D3D11DDIARG_BUFFER_RENDERTARGETVIEW, UMDisplayDriver_Dx11param_Structs_1e10bcbc-ad5c-47b4-a36d-d1d471e38a7e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3D11DDIARG_BUFFER_RENDERTARGETVIEW is supported begi
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11DDIARG_BUFFER_RENDERTARGETVIEW
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D11DDIARG_BUFFER_RENDERTARGETVIEW
+product: Windows
+targetos: Windows
 req.typenames: D3D11DDIARG_BUFFER_RENDERTARGETVIEW
 ---
 
 # D3D11DDIARG_BUFFER_RENDERTARGETVIEW structure
 
 
-
 ## -description
+
+
 The D3D11DDIARG_BUFFER_RENDERTARGETVIEW structure describes a buffer that is used to create a render target view in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a> function. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D11DDIARG_BUFFER_RENDERTARGETVIEW {
@@ -60,6 +70,9 @@ typedef struct D3D11DDIARG_BUFFER_RENDERTARGETVIEW {
 
 
 ## -struct-fields
+
+
+
 
 ### -field FirstElement
 
@@ -81,21 +94,14 @@ typedef struct D3D11DDIARG_BUFFER_RENDERTARGETVIEW {
 [in] The width, in elements, in the buffer. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterendertargetviewsize.md">CalcPrivateRenderTargetViewSize</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a>
-</dt>
-<dt>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterendertargetviewsize.md">CalcPrivateRenderTargetViewSize</a>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createrendertargetview.md">D3D10DDIARG_CREATERENDERTARGETVIEW</a>
-</dt>
-</dl>
+
  
 
  

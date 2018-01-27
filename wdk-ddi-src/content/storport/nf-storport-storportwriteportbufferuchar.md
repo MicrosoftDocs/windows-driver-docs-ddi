@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 44b57aa2-37ef-4491-8a88-9e7f880f5c1b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortWritePortBufferUchar
+ms.keywords: storprt_5bdd38fc-5cb0-483e-a0aa-19179c7ad833.xml, StorPortWritePortBufferUchar, StorPortWritePortBufferUchar routine [Storage Devices], storport/StorPortWritePortBufferUchar, storage.storportwriteportbufferuchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortWritePortBufferUchar
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortWritePortBufferUchar
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortWritePortBufferUchar function
 
 
-
 ## -description
+
+
 The <b>StorPortWritePortBufferUchar</b> routine writes a value to a specified register address. 
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API VOID StorPortWritePortBufferUchar(
@@ -57,6 +68,9 @@ STORPORT_API VOID StorPortWritePortBufferUchar(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -79,22 +93,25 @@ Contains the number of data items of size <b>sizeof</b>(UCHAR) to be written.
 
 
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 For more information, see <a href="..\srb\nf-srb-scsiportwriteportbufferuchar.md">ScsiPortWritePortBufferUchar</a>. For a nonbuffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportuchar.md">StorPortWritePortUchar</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportwriteportbufferuchar.md">ScsiPortWritePortBufferUchar</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportwriteportuchar.md">StorPortWritePortUchar</a>
-</dt>
-</dl>
+
  
 
  

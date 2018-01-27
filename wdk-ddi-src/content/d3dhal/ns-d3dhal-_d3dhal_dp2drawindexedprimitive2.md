@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0376a2ce-2f1f-4515-b80a-2ecf0941d7d3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, *LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2
+ms.keywords: LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2 structure pointer [Display Devices], LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, *LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, d3dhal/LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, display.d3dhal_dp2drawindexedprimitive2, d3dstrct_43a90135-93f4-4304-9967-b4d7b6616198.xml, D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, d3dhal/D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, _D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, D3DHAL_DP2DRAWINDEXEDPRIMITIVE2 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DP2DRAWINDEXEDPRIMITIVE2
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DP2DRAWINDEXEDPRIMITIVE2
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DP2DRAWINDEXEDPRIMITIVE2
 ---
 
 # _D3DHAL_DP2DRAWINDEXEDPRIMITIVE2 structure
 
 
-
 ## -description
+
+
 
    DirectX 8.0 and later versions only.
    
@@ -46,8 +56,8 @@ req.typenames: D3DHAL_DP2DRAWINDEXEDPRIMITIVE2
 D3DHAL_DRAWINDEXEDPRIMITIVE2 is parsed from the command buffer by the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback when the <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_DRAWINDEXEDPRIMITIVE2, and is used to render a primitive using vertex indices.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DP2DRAWINDEXEDPRIMITIVE2 {
@@ -62,6 +72,9 @@ typedef struct _D3DHAL_DP2DRAWINDEXEDPRIMITIVE2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field primType
 
@@ -94,21 +107,22 @@ Specifies the number of triangles, lines or points to draw for the given primiti
 
 
 ## -remarks
+
+
 The vertex data has been transformed by the runtime.
 
 As with vertices, the actual indices to use are not passed with the token data, but rather should be read from the currently selected index buffer. See <a href="https://msdn.microsoft.com/5bf7dc12-d988-4194-a81f-52c9c5356610">Index Buffers</a> for more details.
 
 
+
 ## -see-also
-<dl>
-<dt>D3DDP2OP_DRAWINDEXEDPRIMITIVE2</dt>
-<dt>
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-</dt>
-<dt>
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawindexedprimitive2.md">D3DHAL_DP2DRAWINDEXEDPRIMITIVE2</a>
-</dt>
-</dl>
+
+D3DDP2OP_DRAWINDEXEDPRIMITIVE2
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3CC4DF0A-26F1-4825-AD89-D56B0D5F4AC6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_PROTOCOL_TYPE, *PSTORAGE_PROTOCOL_TYPE, STORAGE_PROTOCOL_TYPE
+ms.keywords: ProtocolTypeScsi, ntddstor/STORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeMaxReserved, ProtocolTypeUnknown, STORAGE_PROTOCOL_TYPE, ProtocolTypeMaxReserved, ProtocolTypeAta, ProtocolTypeUfs, ProtocolTypeProprietary, ProtocolTypeNvme, ntddstor/ProtocolTypeScsi, ntddstor/ProtocolTypeUnknown, ntddstor/ProtocolTypeProprietary, storage.storage_protocol_type, ntddstor/ProtocolTypeUfs, ProtocolTypeSd, STORAGE_PROTOCOL_TYPE enumeration [Storage Devices], *PSTORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeAta, _STORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeNvme, ntddstor/ProtocolTypeSd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_PROTOCOL_TYPE
-req.alt-loc: Ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSTORAGE_PROTOCOL_TYPE, STORAGE_PROTOCOL_TYPE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddstor.h
+apiname: 
+-	STORAGE_PROTOCOL_TYPE
+product: Windows
+targetos: Windows
+req.typenames: STORAGE_PROTOCOL_TYPE, *PSTORAGE_PROTOCOL_TYPE
 ---
 
 # _STORAGE_PROTOCOL_TYPE enumeration
 
 
-
 ## -description
+
+
 This enumeration is used to define the different storage command protocols that are used between software and hardware.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _STORAGE_PROTOCOL_TYPE { 
@@ -60,6 +70,9 @@ typedef enum _STORAGE_PROTOCOL_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field ProtocolTypeUnknown
 
@@ -102,4 +115,8 @@ Reserved.
 
 
 ## -remarks
-Protocol types that are 128 (0x80) and above in value are reserved for Microsoft use.</p>
+
+
+Protocol types that are 128 (0x80) and above in value are reserved for Microsoft use.
+
+

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6907eb45-8d29-4cdc-80eb-2d8cafbbd9bd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVADDI_QUERYEXTENSIONCAPSINPUT, DXVADDI_QUERYEXTENSIONCAPSINPUT
+ms.keywords: display.dxvaddi_queryextensioncapsinput, DXVADDI_QUERYEXTENSIONCAPSINPUT, d3dumddi/DXVADDI_QUERYEXTENSIONCAPSINPUT, DXVA2_Structs_82433e94-79b3-4398-a38e-7f7a99cc09be.xml, _DXVADDI_QUERYEXTENSIONCAPSINPUT, DXVADDI_QUERYEXTENSIONCAPSINPUT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVADDI_QUERYEXTENSIONCAPSINPUT
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVADDI_QUERYEXTENSIONCAPSINPUT
+product: Windows
+targetos: Windows
 req.typenames: DXVADDI_QUERYEXTENSIONCAPSINPUT
 ---
 
 # _DXVADDI_QUERYEXTENSIONCAPSINPUT structure
 
 
-
 ## -description
+
+
 The DXVADDI_QUERYEXTENSIONCAPSINPUT structure describes a capability of an extension GUID that information is requested for.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVADDI_QUERYEXTENSIONCAPSINPUT {
@@ -56,6 +66,9 @@ typedef struct _DXVADDI_QUERYEXTENSIONCAPSINPUT {
 
 ## -struct-fields
 
+
+
+
 ### -field pGuid
 
 [in] A pointer to a GUID that represents the extension device type. 
@@ -64,7 +77,6 @@ typedef struct _DXVADDI_QUERYEXTENSIONCAPSINPUT {
 ### -field CapType
 
 [in] A capability type that information is requested for. A capability type can apply to one of the following categories of video acceleration:
-
 <ul>
 <li>
 DXVADDI_EXTENSION_CATEGORY_DECODER (0x0001)
@@ -82,8 +94,7 @@ DXVADDI_EXTENSION_CATEGORY_PROCESSOR (0x0004)
 DXVADDI_EXTENSION_CATEGORY_ALL (0x0007)
 
 </li>
-</ul>
-Extension capability types can be defined from DXVADDI_EXTENSION_CAPTYPE_MIN (300) to DXVADDI_EXTENSION_CAPTYPE_MAX (400).
+</ul>Extension capability types can be defined from DXVADDI_EXTENSION_CAPTYPE_MIN (300) to DXVADDI_EXTENSION_CAPTYPE_MAX (400).
 
 
 ### -field pPrivate
@@ -91,24 +102,16 @@ Extension capability types can be defined from DXVADDI_EXTENSION_CAPTYPE_MIN (30
 [in] A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatedata.md">DXVADDI_PRIVATEDATA</a> structure that contains data that the driver requires to retrieve information about the extension capability.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
-</dt>
-<dt>
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatedata.md">DXVADDI_PRIVATEDATA</a>
-</dt>
-<dt>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: AC0811C9-8746-40F4-801E-6A1567ABDE0B
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltReleaseContextsEx
+ms.keywords: FltReleaseContextsEx routine [Installable File System Drivers], FltReleaseContextsEx, ifsk.fltreleasecontextsex, fltkernel/FltReleaseContextsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltReleaseContextsEx
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltReleaseContextsEx
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltReleaseContextsEx function
 
 
-
 ## -description
+
+
 <b>FltReleaseContextsEx</b> releases each context in a given <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 VOID FltReleaseContextsEx(
@@ -54,6 +64,9 @@ VOID FltReleaseContextsEx(
 
 
 ## -parameters
+
+
+
 
 ### -param ContextsSize [in]
 
@@ -66,10 +79,15 @@ Pointer to the <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">F
 
 
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 <b>FltReleaseContextsEx</b> decrements the reference count on all contexts in the <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a> structure and sets all members of the structure to NULL_CONTEXT. 
 
 To get the <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a> structure for a given minifilter driver for a given I/O request, call <a href="..\fltkernel\nf-fltkernel-fltgetcontextsex.md">FltGetContextsEx</a>. 
@@ -81,24 +99,19 @@ Callers of <b>FltReleaseContextsEx</b> must be running at IRQL &lt;= DISPATCH_LE
 When each context's reference count reaches zero, the context is freed immediately if the caller is running at IRQL &lt;= APC_LEVEL. If the caller is running at IRQL DISPATCH_LEVEL, a work item is scheduled to free the context. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
-</dt>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltgetcontextsex.md">FltGetContextsEx</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: B13D311F-FFC4-4A40-AF0C-6E7115174FD1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_DEVICE_POWER_CAP, *PSTORAGE_DEVICE_POWER_CAP, STORAGE_DEVICE_POWER_CAP
+ms.keywords: *PSTORAGE_DEVICE_POWER_CAP, ntddstor/PSTORAGE_DEVICE_POWER_CAP, STORAGE_DEVICE_POWER_CAP, storage.storage_device_power_cap, PSTORAGE_DEVICE_POWER_CAP, PSTORAGE_DEVICE_POWER_CAP structure pointer [Storage Devices], ntddstor/STORAGE_DEVICE_POWER_CAP, _STORAGE_DEVICE_POWER_CAP, STORAGE_DEVICE_POWER_CAP structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_DEVICE_POWER_CAP
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSTORAGE_DEVICE_POWER_CAP, STORAGE_DEVICE_POWER_CAP
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	STORAGE_DEVICE_POWER_CAP
+product: Windows
+targetos: Windows
+req.typenames: STORAGE_DEVICE_POWER_CAP, *PSTORAGE_DEVICE_POWER_CAP
 ---
 
 # _STORAGE_DEVICE_POWER_CAP structure
 
 
-
 ## -description
+
+
 This structure is used as an input and output buffer for the <a href="..\ntddstor\ni-ntddstor-ioctl_storage_device_power_cap.md">IOCTL_STORAGE_DEVICE_POWER_CAP</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STORAGE_DEVICE_POWER_CAP {
@@ -56,6 +66,9 @@ typedef struct _STORAGE_DEVICE_POWER_CAP {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -76,5 +89,3 @@ The units of the MaxPower value.
 
 Contains the value of the actual maximum power consumption level of the device. This may be equal to, less than, or greater than the desired threshold, depending on what the device supports.
 
-
-## -remarks

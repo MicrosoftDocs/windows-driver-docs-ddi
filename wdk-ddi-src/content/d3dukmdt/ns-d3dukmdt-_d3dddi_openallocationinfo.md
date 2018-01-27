@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cd50602a-c4aa-410b-9ed6-56d7237571cd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_OPENALLOCATIONINFO, D3DDDI_OPENALLOCATIONINFO
+ms.keywords: D3DDDI_OPENALLOCATIONINFO, display.d3dddi_openallocationinfo, D3DDDI_OPENALLOCATIONINFO structure [Display Devices], _D3DDDI_OPENALLOCATIONINFO, D3D_other_Structs_cfb185b4-cc7d-4c1a-9e76-6032816feab0.xml, d3dukmdt/D3DDDI_OPENALLOCATIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_OPENALLOCATIONINFO
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_OPENALLOCATIONINFO
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_OPENALLOCATIONINFO
 ---
 
 # _D3DDDI_OPENALLOCATIONINFO structure
 
 
-
 ## -description
+
+
 The D3DDDI_OPENALLOCATIONINFO structure describes an allocation to be opened.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_OPENALLOCATIONINFO {
@@ -55,6 +65,9 @@ typedef struct _D3DDDI_OPENALLOCATIONINFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hAllocation
 
@@ -70,5 +83,3 @@ typedef struct _D3DDDI_OPENALLOCATIONINFO {
 
 [in] The size, in bytes, of the block of private data that is pointed to by <b>pPrivateDriverData</b>.
 
-
-## -remarks

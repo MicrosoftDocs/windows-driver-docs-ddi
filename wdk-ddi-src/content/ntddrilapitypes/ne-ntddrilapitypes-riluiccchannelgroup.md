@@ -7,8 +7,8 @@ old-location: netvista\riluiccchannelgroup.htm
 old-project: netvista
 ms.assetid: 72a75d88-1694-4acf-8775-8586e37e412d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILUICCCHANNELGROUP, RILUICCCHANNELGROUP
+ms.date: 1/18/2018
+ms.keywords: netvista.riluiccchannelgroup, RILUICCCHANNELGROUP, RILUICCCHANNELGROUP enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILUICCCHANNELGROUP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILUICCCHANNELGROUP
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILUICCCHANNELGROUP
+product: Windows
+targetos: Windows
 req.typenames: RILUICCCHANNELGROUP
 ---
 
 # RILUICCCHANNELGROUP enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILUICCCHANNELGROUP { 
@@ -53,5 +63,3 @@ typedef enum _RILUICCCHANNELGROUP {
 
 ## -enum-fields
 
-
-## -remarks

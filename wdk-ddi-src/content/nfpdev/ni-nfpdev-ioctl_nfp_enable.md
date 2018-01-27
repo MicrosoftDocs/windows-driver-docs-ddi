@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 25D4C7BB-782D-4BDB-9E07-F152E3705705
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: _SECURE_ELEMENT_TECH_ROUTING_INFO, SECURE_ELEMENT_TECH_ROUTING_INFO, *PSECURE_ELEMENT_TECH_ROUTING_INFO
+ms.keywords: nfpdrivers.ioctl_nfp_enable, IOCTL_NFP_ENABLE, _IOCTL_NFP_ENABLE, IOCTL_NFP_ENABLE control code [Near-Field Proximity Drivers], IOCTL_NFP_ENABLE, nfpdev/IOCTL_NFP_ENABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_NFP_ENABLE
-req.alt-loc: nfpdev.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,51 +29,89 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: SECURE_ELEMENT_TECH_ROUTING_INFO, *PSECURE_ELEMENT_TECH_ROUTING_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	nfpdev.h
+apiname: 
+-	IOCTL_NFP_ENABLE
+product: Windows
+targetos: Windows
+req.typenames: *PSECURE_ELEMENT_TECH_ROUTING_INFO, SECURE_ELEMENT_TECH_ROUTING_INFO
 ---
 
 # IOCTL_NFP_ENABLE IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
-The client sends the <b>IOCTL_NFP_ENABLE</b> request to re-enable previously disabled subscriptions, publications, and presence events.
 
+
+The client sends the <b>IOCTL_NFP_ENABLE</b> request to re-enable previously disabled subscriptions, publications, and presence events.
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 None
 
 
 ### -input-buffer-length
 
+
 <text></text>
 
+
+
 ### -output-buffer
+
 None
 
 
 ### -output-buffer-length
 
+
 <text></text>
+
+
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
+
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 For more information, see [XREF-LINK:NTSTATUS Values].
 
+
+
 ## -remarks
+
+
 The following are required actions when using this IOCTL:<ul>
 <li>
 	When this IOCTL is received the driver MUST mark the file handle as “Enabled”.
@@ -92,21 +128,16 @@ If a device is currently proximate when this IOCTL is successfully completed, th
 </ul>
 
 
-	When this IOCTL is received the driver MUST mark the file handle as “Enabled”.
-
-	If the file handle is already marked “Enabled” the driver MUST complete the IOCTL with STATUS_INVALID_DEVICE_STATE.
-
-If a device is currently proximate when this IOCTL is successfully completed, then the message data (along with its type) MUST be transmitted (only once) to the proximate device.
 
 
 ## -see-also
-<dl>
-<dt>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) overall design guide</a>
+
 <a href="..\nfpdev\ni-nfpdev-ioctl_nfp_disable.md">IOCTL_NFP_DISABLE</a>
-</dt>
-<dt><a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) overall design guide</a></dt>
-<dt><a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a></dt>
-</dl>
+
  
 
  

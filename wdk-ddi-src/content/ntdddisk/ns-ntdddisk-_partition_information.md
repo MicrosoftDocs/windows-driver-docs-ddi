@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 06c3ed56-3640-431d-a4f0-bf3228a02cc2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _PARTITION_INFORMATION, *PPARTITION_INFORMATION, PARTITION_INFORMATION
+ms.keywords: storage.partition_information, structs-disk_19ff49c5-6929-46fb-a9c2-4850969a99a8.xml, PARTITION_INFORMATION structure [Storage Devices], PPARTITION_INFORMATION structure pointer [Storage Devices], ntdddisk/PPARTITION_INFORMATION, _PARTITION_INFORMATION, PPARTITION_INFORMATION, ntdddisk/PARTITION_INFORMATION, *PPARTITION_INFORMATION, PARTITION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PARTITION_INFORMATION
-req.alt-loc: ntdddisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PPARTITION_INFORMATION, PARTITION_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntdddisk.h
+apiname: 
+-	PARTITION_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: PARTITION_INFORMATION, *PPARTITION_INFORMATION
 ---
 
 # _PARTITION_INFORMATION structure
 
 
-
 ## -description
+
+
 The PARTITION_INFORMATION structure contains partition information for a partition with a traditional AT-style Master Boot Record (MBR). 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PARTITION_INFORMATION {
@@ -60,6 +70,9 @@ typedef struct _PARTITION_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field StartingOffset
 
@@ -84,171 +97,6 @@ Specifies the number of the partition.
 ### -field PartitionType
 
 
-### -field Indicates the system-defined MBR partition type. Possible values are as follows:
-### -field 
-
-<tr>
-<th>Partition Type</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-PARTITION_ENTRY_UNUSED
-
-</td>
-<td>
-Unused entry.
-
-</td>
-</tr>
-<tr>
-<td>
-PARTITION_FAT_12 
-
-</td>
-<td>
-Specifies a partition with 12-bit FAT entries.
-
-</td>
-</tr>
-<tr>
-<td>
-PARTITION_XENIX_1 
-
-</td>
-<td>
-Specifies a XENIX Type 1 partition.
-
-</td>
-</tr>
-<tr>
-<td>
-PARTITION_XENIX_2
-
-</td>
-<td>
-Specifies a XENIX Type 2 partition.
-
-</td>
-</tr>
-<tr>
-<td>
-PARTITION_FAT_16
-
-</td>
-<td>
-Specifies a partition with 16-bit FAT entries.
-
-</td>
-</tr>
-<tr>
-<td>
-PARTITION_EXTENDED
-
-</td>
-<td>
-Specifies an MS-DOS V4 extended partition.
-
-</td>
-</tr>
-<tr>
-<td>
-PARTITION_HUGE
-
-</td>
-<td>
-Specifies an MS-DOS V4 huge partition.
-
-</td>
-</tr>
-<tr>
-<td>
-PARTITION_IFS
-
-</td>
-<td>
-Specifies an IFS partition.
-
-</td>
-</tr>
-<tr>
-<td>
-PARTITION_FAT32
-
-</td>
-<td>
-Specifies a FAT32 partition.
-
-</td>
-</tr>
-<tr>
-<td>
-PARTITION_FAT32_XINT13
-
-</td>
-<td>
-<b>Windows 95/98: </b>Specifies a partition that uses extended INT 13 services.
-
-</td>
-</tr>
-<tr>
-<td>
-PARTITION_XINT13_EXTENDED
-
-</td>
-<td>
-<b>Windows 95/98: </b>Same as PARTITION_EXTENDED, but uses extended INT 13 services.
-
-</td>
-</tr>
-<tr>
-<td>
-PARTITION_PREP
-
-</td>
-<td>
-Specifies a PowerPC Reference Platform partition.
-
-</td>
-</tr>
-<tr>
-<td>
-PARTITION_LDM
-
-</td>
-<td>
-Specifies a logical disk manager partition.
-
-</td>
-</tr>
-<tr>
-<td>
-PARTITION_UNIX
-
-</td>
-<td>
-Specifies a UNIX partition.
-
-</td>
-</tr>
-<tr>
-<td>
-PARTITION_NTFT
-
-</td>
-<td>
-Specifies an NTFT partition. This value is used in combination (that is, bitwise logically ORed) with the other values in this table.
-
-</td>
-</tr>
-</table>
- 
-
-
-
-
-
-</dl>
 
 ### -field BootIndicator
 
@@ -265,36 +113,159 @@ Indicates, when <b>TRUE</b>, that the system recognized the type of the partitio
 Indicates, when <b>TRUE</b>, that the partition information has changed. When <b>FALSE</b>, the partition information has not changed. This member has a value of <b>TRUE</b> when the partition has changed as a result of an <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_drive_layout.md">IOCTL_DISK_SET_DRIVE_LAYOUT</a> IOCTL. This informs the system that the partition information needs to be rewritten.
 
 
+###### - PartitionType.Indicates the system-defined MBR partition type. Possible values are as follows:
+
+
+
+##################### - PartitionType.Partition Type
+Meaning
+
+
+
+PARTITION_ENTRY_UNUSED
+
+
+Unused entry.
+
+
+
+
+PARTITION_FAT_12 
+
+
+Specifies a partition with 12-bit FAT entries.
+
+
+
+
+PARTITION_XENIX_1 
+
+
+Specifies a XENIX Type 1 partition.
+
+
+
+
+PARTITION_XENIX_2
+
+
+Specifies a XENIX Type 2 partition.
+
+
+
+
+PARTITION_FAT_16
+
+
+Specifies a partition with 16-bit FAT entries.
+
+
+
+
+PARTITION_EXTENDED
+
+
+Specifies an MS-DOS V4 extended partition.
+
+
+
+
+PARTITION_HUGE
+
+
+Specifies an MS-DOS V4 huge partition.
+
+
+
+
+PARTITION_IFS
+
+
+Specifies an IFS partition.
+
+
+
+
+PARTITION_FAT32
+
+
+Specifies a FAT32 partition.
+
+
+
+
+PARTITION_FAT32_XINT13
+
+
+Windows 95/98: Specifies a partition that uses extended INT 13 services.
+
+
+
+
+PARTITION_XINT13_EXTENDED
+
+
+Windows 95/98: Same as PARTITION_EXTENDED, but uses extended INT 13 services.
+
+
+
+
+PARTITION_PREP
+
+
+Specifies a PowerPC Reference Platform partition.
+
+
+
+
+PARTITION_LDM
+
+
+Specifies a logical disk manager partition.
+
+
+
+
+PARTITION_UNIX
+
+
+Specifies a UNIX partition.
+
+
+
+
+PARTITION_NTFT
+
+
+Specifies an NTFT partition. This value is used in combination (that is, bitwise logically ORed) with the other values in this table.
+
+
+
 ## -remarks
+
+
 The partition entry data in PARTITION_INFORMATION forms part of the drive layout information reported by the legacy routine <a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a> in the <a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information.md">DRIVE_LAYOUT_INFORMATION</a> structure. DRIVE_LAYOUT_INFORMATION contains an array of PARTITION_INFORMATION structures pointed to by its <b>PartitionEntry</b> member. Each partition entry contains information for a partition on the drive. PARTITION_INFORMATION is also used with the legacy routine <a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a> to change the properties of the partition, such as its type, recorded on the disk. 
 
 In Windows 2000 and later operating systems, disk drivers should use structures <a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_ex.md">DRIVE_LAYOUT_INFORMATION_EX</a> and <a href="..\ntdddisk\ns-ntdddisk-_partition_information_ex.md">PARTITION_INFORMATION_EX</a> along with routines <a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a> and <a href="..\ntddk\nf-ntddk-iosetpartitioninformationex.md">IoSetPartitionInformationEx</a> to read and alter partition information on the disk. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-iosetpartitioninformationex.md">IoSetPartitionInformationEx</a>
-</dt>
-<dt>
-<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information.md">DRIVE_LAYOUT_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_ex.md">DRIVE_LAYOUT_INFORMATION_EX</a>
-</dt>
-<dt>
+
+<a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
+
+<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
+
+<a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a>
+
 <a href="..\ntdddisk\ns-ntdddisk-_partition_information_ex.md">PARTITION_INFORMATION_EX</a>
-</dt>
-</dl>
+
+<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information.md">DRIVE_LAYOUT_INFORMATION</a>
+
+<a href="..\ntddk\nf-ntddk-iosetpartitioninformationex.md">IoSetPartitionInformationEx</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 311A5977-C3F5-4287-B030-00F4BB9C8629
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _SYSENV_VARIABLE, SYSENV_VARIABLE, *PSYSENV_VARIABLE
+ms.keywords: *PSYSENV_VARIABLE, kernel.sysenv_variable, ntddsysenv/PSYSENV_VARIABLE, SYSENV_VARIABLE, PSYSENV_VARIABLE, PSYSENV_VARIABLE structure pointer [Kernel-Mode Driver Architecture], SYSENV_VARIABLE structure [Kernel-Mode Driver Architecture], ntddsysenv/SYSENV_VARIABLE, _SYSENV_VARIABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SYSENV_VARIABLE
-req.alt-loc: Ntddsysenv.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: SYSENV_VARIABLE, *PSYSENV_VARIABLE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddsysenv.h
+apiname: 
+-	SYSENV_VARIABLE
+product: Windows
+targetos: Windows
+req.typenames: *PSYSENV_VARIABLE, SYSENV_VARIABLE
 ---
 
 # _SYSENV_VARIABLE structure
 
 
-
 ## -description
+
+
 Stores the name a system environment variable using
     SysEnv device. This structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt791526">IOCTL_SYSENV_GET_VARIABLE</a> request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SYSENV_VARIABLE {
@@ -56,6 +66,9 @@ typedef struct _SYSENV_VARIABLE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field VendorGuid
 
@@ -72,15 +85,10 @@ The length of the string pointed to by  <b>VariableName</b>, which contains the 
 A string that  contains the name of the variable.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt791526">IOCTL_SYSENV_GET_VARIABLE</a>
-</dt>
-</dl>
+
  
 
  

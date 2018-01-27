@@ -7,8 +7,8 @@ old-location: netvista\wsk_extension_control_in.htm
 old-project: netvista
 ms.assetid: d04f4c24-15a5-490a-aada-af1050f727d4
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WSK_EXTENSION_CONTROL_IN, WSK_EXTENSION_CONTROL_IN, *PWSK_EXTENSION_CONTROL_IN
+ms.date: 1/18/2018
+ms.keywords: PWSK_EXTENSION_CONTROL_IN structure pointer [Network Drivers Starting with Windows Vista], PWSK_EXTENSION_CONTROL_IN, wsk/PWSK_EXTENSION_CONTROL_IN, wskref_d922851d-20e4-4ffd-bb3e-e1752b223a1c.xml, wsk/WSK_EXTENSION_CONTROL_IN, WSK_EXTENSION_CONTROL_IN structure [Network Drivers Starting with Windows Vista], WSK_EXTENSION_CONTROL_IN, _WSK_EXTENSION_CONTROL_IN, *PWSK_EXTENSION_CONTROL_IN, netvista.wsk_extension_control_in
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WSK_EXTENSION_CONTROL_IN
-req.alt-loc: wsk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: WSK_EXTENSION_CONTROL_IN, *PWSK_EXTENSION_CONTROL_IN
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wsk.h
+apiname: 
+-	WSK_EXTENSION_CONTROL_IN
+product: Windows
+targetos: Windows
+req.typenames: *PWSK_EXTENSION_CONTROL_IN, WSK_EXTENSION_CONTROL_IN
 req.product: Windows 10 or later.
 ---
 
 # _WSK_EXTENSION_CONTROL_IN structure
 
 
-
 ## -description
+
+
 The WSK_EXTENSION_CONTROL_IN structure specifies a WSK application's implementation of an extension
   interface for a socket.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WSK_EXTENSION_CONTROL_IN {
@@ -58,11 +68,14 @@ typedef struct _WSK_EXTENSION_CONTROL_IN {
 
 ## -struct-fields
 
+
+
+
 ### -field NpiId
 
 A pointer to the 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
-     (NPI)</a> identifier that identifies the extension interface.
+     <mshelp:link keywords="netvista.network_programming_interface" tabindex="0">Network Programming Interface
+     (NPI)</mshelp:link> identifier that identifies the extension interface.
 
 
 ### -field ClientContext
@@ -83,27 +96,26 @@ A pointer to a structure that contains the WSK application's dispatch table of e
 
 
 ## -remarks
+
+
 A WSK application passes a pointer to a WSK_EXTENSION_CONTROL_IN structure to the WSK subsystem when
     registering an extension interface. For more information about registering an extension interface, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-an-extension-interface">Registering an Extension
-    Interface</a>.
+    <mshelp:link keywords="netvista.registering_an_extension_interface" tabindex="0">Registering an Extension
+    Interface</mshelp:link>.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570819">SIO_WSK_REGISTER_EXTENSION</a>
-</dt>
-<dt>
+
 <a href="..\wsk\ns-wsk-_wsk_extension_control_out.md">WSK_EXTENSION_CONTROL_OUT</a>
-</dt>
-</dl>
- 
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570819">SIO_WSK_REGISTER_EXTENSION</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_EXTENSION_CONTROL_IN structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_EXTENSION_CONTROL_IN structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

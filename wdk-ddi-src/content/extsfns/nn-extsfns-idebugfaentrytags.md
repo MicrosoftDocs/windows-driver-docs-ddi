@@ -7,8 +7,8 @@ old-location: debugger\idebugfaentrytags.htm
 old-project: debugger
 ms.assetid: B52DFB0E-0035-40C2-B2F5-5E16B16931C2
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2::SetUlong64, SetUlong64
+ms.date: 1/19/2018
+ms.keywords: debugger.idebugfaentrytags, IDebugFAEntryTags interface [Windows Debugging], IDebugFAEntryTags interface [Windows Debugging], described, IDebugFAEntryTags, extsfns/IDebugFAEntryTags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugFAEntryTags
-req.alt-loc: extsfns.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,17 +26,29 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: extsfns.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	extsfns.h
+apiname: 
+-	IDebugFAEntryTags
+product: Windows
+targetos: Windows
 req.typenames: FA_EXTENSION_PLUGIN_PHASE
 ---
 
 # IDebugFAEntryTags interface
 
 
-
 ## -description
+
+
  When the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562112">!analyze</a> debugger command runs, the analysis engine
    can load and run extension analysis plug-ins. The analysis engine creates a 
 	<b>DebugFailureAnalysisTags</b> object to organize information 
@@ -47,7 +57,7 @@ req.typenames: FA_EXTENSION_PLUGIN_PHASE
 An extension analysis plug-in accesses a
 	 <b>DebugFailureAnalysisTags</b> object through an 
 	 <b>IDebugFAEntryTags</b> interface. 
-	 For more information, see <a href="debugger.writing_an_analysis_extension_to_extend__analyze#failure_analysis_entries_tags_and_data_types#failure_analysis_entries_tags_and_data_types">Failure Analysis Entries, Tags, and Data Types</a>
+	 For more information, see <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Failure Analysis Entries, Tags, and Data Types</a>
 
 The <b>IDebugFAEntryTags</b>
  interface is not a COM interface;removremoproc that is, it does not inherit from <b>IUnknown</b>
@@ -139,34 +149,4 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/jj991816">SetTy
  
 
 
-
-
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugFAEntryTags</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface but does not have additional members.
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugFAEntryTags</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface but does not have additional members.
-
-
-## -remarks
-
-
-## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
-</dt>
-<dt>
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-</dt>
-<dt>
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze
-  </a>
-</dt>
-</dl>
- 
-
- 
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugFAEntryTags interface%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

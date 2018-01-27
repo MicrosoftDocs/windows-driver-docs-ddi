@@ -7,8 +7,8 @@ old-location: netvista\ndisgetroutineaddress.htm
 old-project: netvista
 ms.assetid: 98257b56-e586-41e7-80c3-f9f96d471125
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisGetRoutineAddress
+ms.date: 1/18/2018
+ms.keywords: NdisGetRoutineAddress, ndis/NdisGetRoutineAddress, netvista.ndisgetroutineaddress, ndis_sysinfo_ref_d2259157-f4fd-4fd8-b86e-f685ab4213d5.xml, NdisGetRoutineAddress function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    N
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisGetRoutineAddress
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_Miscellaneous_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisGetRoutineAddress
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGetRoutineAddress function
 
 
-
 ## -description
+
+
 The 
   <b>NdisGetRoutineAddress</b> function returns the address of a routine given the routine's name.
 
 
-
 ## -syntax
+
 
 ````
 PVOID NdisGetRoutineAddress(
@@ -55,6 +66,9 @@ PVOID NdisGetRoutineAddress(
 
 ## -parameters
 
+
+
+
 ### -param NdisRoutineName [in]
 
 A pointer to a 
@@ -63,11 +77,16 @@ A pointer to a
 
 
 ## -returns
+
+
 Returns the address of the routine whose name is specified at 
      <i>NdisRoutineName</i> if the routine is available; otherwise, <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 An NDIS driver can use 
     <b>NdisGetRoutineAddress</b> to obtain the address of an exported NDIS routine. The driver can then use
     this address to call the NDIS routine.
@@ -92,18 +111,16 @@ Typically, an NDIS driver calls
     <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisGetRoutineAddress function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisGetRoutineAddress function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

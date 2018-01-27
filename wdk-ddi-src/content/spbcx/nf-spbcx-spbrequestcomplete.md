@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 356BC81E-8FE9-4BC7-83E5-20A64D149A0D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbRequestComplete
+ms.keywords: spbcx/SpbRequestComplete, SPB.spbrequestcomplete, SpbRequestComplete, SpbRequestComplete method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SpbRequestComplete
-req.alt-loc: spbcxstubs.lib,spbcxstubs.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	spbcxstubs.lib
+-	spbcxstubs.dll
+apiname: 
+-	SpbRequestComplete
+product: Windows
+targetos: Windows
 req.typenames: *PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # SpbRequestComplete function
 
 
-
 ## -description
+
+
 The <b>SpbRequestComplete</b> method completes an I/O request and supplies a completion status.
 
 
-
 ## -syntax
+
 
 ````
 VOID SpbRequestComplete(
@@ -55,6 +66,9 @@ VOID SpbRequestComplete(
 
 
 ## -parameters
+
+
+
 
 ### -param Request [in]
 
@@ -68,58 +82,54 @@ An NTSTATUS value that represents the completion status of the request. Valid st
 
 
 
-### -param STATUS_SUCCESS
-
-The I/O request completed successfully.
-
-
-### -param STATUS_CANCELLED
+##### - CompletionStatus.STATUS_CANCELLED
 
 The I/O request is canceled.
 
 
-### -param STATUS_UNSUCCESSFUL
+##### - CompletionStatus.STATUS_SUCCESS
+
+The I/O request completed successfully.
+
+
+##### - CompletionStatus.STATUS_UNSUCCESSFUL
 
 The driver encountered an error while processing the I/O request.
 
-</dd>
-</dl>
 
 ## -returns
+
+
 None.
 
 
-## -remarks
-Your controller driver calls this method to complete an I/O request that it previously received during one of the following callbacks:
 
-Call <b>SpbRequestComplete</b> instead of the <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a> method to complete I/O requests received by the callback functions in the preceding list.
+## -remarks
+
+
+Your controller driver calls this method to complete an I/O request that it previously received during one of the following callbacks:
+<a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a><a href="https://msdn.microsoft.com/2BC0E6E7-7EE1-487A-9276-AE8EBB3FFD43">EvtSpbControllerIoRead</a><a href="https://msdn.microsoft.com/C56F1528-5FDA-4BC9-AB32-7882FB0F7713">EvtSpbControllerIoSequence</a><a href="https://msdn.microsoft.com/D97C3A17-309E-4364-8DFB-9073901D332E">EvtSpbControllerIoWrite</a>Call <b>SpbRequestComplete</b> instead of the <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a> method to complete I/O requests received by the callback functions in the preceding list.
 
 A bug check occurs if the caller supplies an invalid SPBREQUEST handle.
 
 A call to <b>SpbRequestComplete</b> represents the final stage in the processing of an I/O request. When this method returns, the <i>Request</i> handle value is no longer valid.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/2BC0E6E7-7EE1-487A-9276-AE8EBB3FFD43">EvtSpbControllerIoRead</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/C56F1528-5FDA-4BC9-AB32-7882FB0F7713">EvtSpbControllerIoSequence</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/D97C3A17-309E-4364-8DFB-9073901D332E">EvtSpbControllerIoWrite</a>
-</dt>
-<dt>
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
-</dt>
-<dt>
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
-</dt>
-</dl>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
+
+<a href="https://msdn.microsoft.com/D97C3A17-309E-4364-8DFB-9073901D332E">EvtSpbControllerIoWrite</a>
+
+<a href="https://msdn.microsoft.com/C56F1528-5FDA-4BC9-AB32-7882FB0F7713">EvtSpbControllerIoSequence</a>
+
+<a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
+
+<a href="https://msdn.microsoft.com/2BC0E6E7-7EE1-487A-9276-AE8EBB3FFD43">EvtSpbControllerIoRead</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DA23251C-E901-48A0-9B58-458622DE8CF0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION
+ms.keywords: display.dxgk_buildpagingbuffer_updatecontextallocation, DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION structure [Display Devices], DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, d3dkmddi/DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, _DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION
+product: Windows
+targetos: Windows
 req.typenames: DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION
 ---
 
 # _DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION structure
 
 
-
 ## -description
+
+
 <b>DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION</b> describes an operation used to update the content of a context or device allocation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION {
@@ -56,6 +66,9 @@ typedef struct _DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ContextAllocation
 
@@ -77,18 +90,12 @@ A pointer to the driver-private data that was passed in the call to <a href="..\
 The size of the driver-private data.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_updatecontextallocation.md">DxgkCbUpdateContextAllocation</a>
-</dt>
-</dl>
+
  
 
  

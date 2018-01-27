@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6efee74e-9e82-4631-8360-19061b0c015d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_DISCARD, D3DDDIARG_DISCARD
+ms.keywords: d3dumddi/D3DDDIARG_DISCARD, display.d3dddiarg_discard, D3DDDIARG_DISCARD, D3DDDIARG_DISCARD structure [Display Devices], _D3DDDIARG_DISCARD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_DISCARD
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	D3DDDIARG_DISCARD
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_DISCARD
 ---
 
 # _D3DDDIARG_DISCARD structure
 
 
-
 ## -description
+
+
 Defines video display memory that can be discarded because the contents are no longer needed.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_DISCARD {
@@ -57,6 +67,9 @@ typedef struct _D3DDDIARG_DISCARD {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hResource
 
@@ -83,18 +96,12 @@ An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff56923
 The number of rectangles in the array that the  <b>pRects</b> member specifies.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_discard.md">Discard</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B063561B-FA79-44B4-A058-71DB9CBF4804
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_TRIMRESIDENCYSET_FLAGS, D3DDDI_TRIMRESIDENCYSET_FLAGS
+ms.keywords: D3DDDI_TRIMRESIDENCYSET_FLAGS, d3dukmdt/D3DDDI_TRIMRESIDENCYSET_FLAGS, display.d3dddi_trimresidencyset_flags, D3DDDI_TRIMRESIDENCYSET_FLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_TRIMRESIDENCYSET_FLAGS
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_TRIMRESIDENCYSET_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_TRIMRESIDENCYSET_FLAGS
 ---
 
 # D3DDDI_TRIMRESIDENCYSET_FLAGS structure
 
 
-
 ## -description
+
+
 <b>D3DDDI_TRIMRESIDENCYSET_FLAGS</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_trimresidencyset.md">pfnTrimResidencySet</a> to trim the residency list for a given device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3DDDI_TRIMRESIDENCYSET_FLAGS {
@@ -62,11 +72,13 @@ typedef struct D3DDDI_TRIMRESIDENCYSET_FLAGS {
 
 ## -struct-fields
 
+
+
+
 ### -field PeriodicTrim
 
 When <b>PeriodicTrim</b> flag is set, the driver is required to performed the following operations:
                                                 
-
 <ul>
 <li>Trim all allocations that were not referenced since the previous periodic trim request
                                                 by comparing the allocation last referenced fence with the last periodic trim context fence.</li>
@@ -95,15 +107,10 @@ This member is reserved and should be set to zero.
 The consolidated value of the bit-fields in the structure.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_trimresidencyset.md">pfnTrimResidencySet</a>
-</dt>
-</dl>
+
  
 
  

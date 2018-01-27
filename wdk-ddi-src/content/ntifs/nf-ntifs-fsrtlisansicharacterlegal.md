@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e270e4a9-90dc-4e9b-abdf-079c331ad71c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlIsAnsiCharacterLegal
+ms.keywords: ntifs/FsRtlIsAnsiCharacterLegal, ifsk.fsrtlisansicharacterlegal, fsrtlref_dad0349c-b705-4a0a-a1ea-359517e65eae.xml, FsRtlIsAnsiCharacterLegal function [Installable File System Drivers], FsRtlIsAnsiCharacterLegal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlIsAnsiCharacterLegal
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ntifs.h
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FsRtlIsAnsiCharacterLegal
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlIsAnsiCharacterLegal macro
 
 
-
 ## -description
+
+
 The <b>FsRtlIsAnsiCharacterLegal</b> macro determines whether a character is a legal ANSI character.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlIsAnsiCharacterLegal(
@@ -55,15 +65,24 @@ BOOLEAN FsRtlIsAnsiCharacterLegal(
 
 ## -parameters
 
-### -param Character 
-
-The character to be tested.
 
 
-### -param Flags 
+
+### -param C
+
+TBD
+
+
+### -param FLAGS
+
+TBD
+
+
+
+
+#### - Flags
 
 Combination of one or more of the following flag values:
-
 <table>
 <tr>
 <th>Flag</th>
@@ -129,28 +148,31 @@ FSRTL_NTFS_LEGAL | FSRTL_OLE_LEGAL
 
 </td>
 </tr>
-</table>
- 
+</table> 
+
+
+#### - Character
+
+The character to be tested.
 
 
 ## -remarks
+
+
 To be a legal ANSI character, a character must be present in the ANSI legal character array and must satisfy the input flag settings. 
 
 For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalfat.md">FsRtlIsAnsiCharacterLegalFat</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalhpfs.md">FsRtlIsAnsiCharacterLegalHpfs</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalntfs.md">FsRtlIsAnsiCharacterLegalNtfs</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalfat.md">FsRtlIsAnsiCharacterLegalFat</a>
+
  
 
  

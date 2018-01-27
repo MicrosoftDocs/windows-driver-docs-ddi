@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 5009e4d8-5299-4eeb-a70d-5be87694b1d0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ISynthSinkDMus, ISynthSinkDMus::SyncToMaster, SyncToMaster
+ms.keywords: dmusicks/ISynthSinkDMus::SyncToMaster, ISynthSinkDMus::SyncToMaster, SyncToMaster method [Audio Devices], ISynthSinkDMus interface, audmp-routines_35d431eb-a92c-4e73-b75c-8a3a1f0451ce.xml, SyncToMaster, audio.isynthsinkdmus_synctomaster, ISynthSinkDMus interface [Audio Devices], SyncToMaster method, SyncToMaster method [Audio Devices], ISynthSinkDMus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ISynthSinkDMus.SyncToMaster
-req.alt-loc: dmusicks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dmusicks.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dmusicks.h
+apiname: 
+-	ISynthSinkDMus.SyncToMaster
+product: Windows
+targetos: Windows
 req.typenames: DMUS_STREAM_TYPE
 ---
 
 # ISynthSinkDMus::SyncToMaster method
 
 
-
 ## -description
+
+
 The <code>SyncToMaster</code> method allows synchronization to the master clock in order to avoid drift.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SyncToMaster(
@@ -55,9 +65,12 @@ NTSTATUS SyncToMaster(
 
 ## -parameters
 
-### -param rtTime [in]
 
-Specifies the reference time from the master clock. Reference time is measured in 100-nanosecond units.
+
+
+### -param rfTime
+
+
 
 
 ### -param fStart [in]
@@ -65,25 +78,33 @@ Specifies the reference time from the master clock. Reference time is measured i
 Specifies whether the sample clock is to be reset to zero with this reference time. If <b>TRUE</b>, the sample clock must be reset to zero at time <i>rtTime</i>. If <b>FALSE</b>, the sample clock is not reset.
 
 
+#### - rtTime [in]
+
+Specifies the reference time from the master clock. Reference time is measured in 100-nanosecond units.
+
+
 ## -returns
+
+
 <code>SyncToMaster</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 Because the master time and sample time might be driven by different crystals, they can drift apart. The port driver periodically calls this method to give the miniport driver an opportunity to synchronize its sample clock to the master clock.
 
 Parameter <i>fStart</i> is <b>TRUE</b> during the first call to <code>SyncToMaster</code> after the stream enters the KSSTATE_RUN state (see <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>). Otherwise, <i>fStart</i> is <b>FALSE</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
-</dt>
-<dt>
+
 <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
-</dt>
-</dl>
+
  
 
  

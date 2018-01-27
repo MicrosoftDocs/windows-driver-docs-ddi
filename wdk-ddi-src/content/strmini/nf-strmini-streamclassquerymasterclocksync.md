@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: db58103d-8862-4be1-bca2-9d59d392591c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: StreamClassQueryMasterClockSync
+ms.keywords: StreamClassQueryMasterClockSync routine [Streaming Media Devices], stream.streamclassquerymasterclocksync, StreamClassQueryMasterClockSync, strmini/StreamClassQueryMasterClockSync, strclass-routines_32944030-bbcb-4f21-98cd-09c77ad3cd53.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StreamClassQueryMasterClockSync
-req.alt-loc: Stream.lib,Stream.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Stream.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL (See Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Stream.lib
+-	Stream.dll
+apiname: 
+-	StreamClassQueryMasterClockSync
+product: Windows
+targetos: Windows
 req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StreamClassQueryMasterClockSync function
 
 
-
 ## -description
+
+
 The minidriver may call the <b>StreamClassQueryMasterClockSync</b> routine to synchronously query a stream's master clock. 
 
 
-
 ## -syntax
+
 
 ````
 VOID StreamClassQueryMasterClockSync(
@@ -55,6 +66,9 @@ VOID StreamClassQueryMasterClockSync(
 
 
 ## -parameters
+
+
+
 
 ### -param MasterClockHandle [in]
 
@@ -67,10 +81,15 @@ Specifies the <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEX
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The routine must be called at or below DISPATCH_LEVEL. If the caller is running at a raised IRQL, it should use the asynchronous version, <a href="..\strmini\nf-strmini-streamclassquerymasterclock.md">StreamClassQueryMasterClock</a>, instead.
 
 The class driver calls the master clock's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568452">StrMiniClock</a> routine to query the clock.
@@ -78,21 +97,17 @@ The class driver calls the master clock's <a href="https://msdn.microsoft.com/li
 On rare occasions, the graph manager switches the master clock. The class driver exposes a race condition in handling the new master clock. If the minidriver calls a stream class master clock routine immediately after it receives a new clock from the class driver, the class driver may produce unexpected results.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
-</dt>
-<dt>
+
 <a href="..\strmini\nf-strmini-streamclassquerymasterclock.md">StreamClassQueryMasterClock</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568467">StrMiniReceiveStreamControlPacket</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568452">StrMiniClock</a>
-</dt>
-</dl>
+
+<a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568467">StrMiniReceiveStreamControlPacket</a>
+
  
 
  

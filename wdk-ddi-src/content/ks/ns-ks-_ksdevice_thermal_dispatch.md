@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6E4ADD86-EFC4-4369-83A1-1D2824235310
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _KSDEVICE_THERMAL_DISPATCH, KSDEVICE_THERMAL_DISPATCH, *PKSDEVICE_THERMAL_DISPATCH
+ms.keywords: DeviceThermalState, *PKSDEVICE_THERMAL_DISPATCH, Percentage, KsDevice, ks/KSDEVICE_THERMAL_DISPATCH, stream.ksdevice_thermal_dispatch, KSDEVICE_THERMAL_DISPATCH structure [Streaming Media Devices], KSDEVICE_THERMAL_DISPATCH, ks/PKSDEVICE_THERMAL_DISPATCH, PKSDEVICE_THERMAL_DISPATCH structure pointer [Streaming Media Devices], PKSDEVICE_THERMAL_DISPATCH, _KSDEVICE_THERMAL_DISPATCH, Engaged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSDEVICE_THERMAL_DISPATCH
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KSDEVICE_THERMAL_DISPATCH, *PKSDEVICE_THERMAL_DISPATCH
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSDEVICE_THERMAL_DISPATCH
+product: Windows
+targetos: Windows
+req.typenames: *PKSDEVICE_THERMAL_DISPATCH, KSDEVICE_THERMAL_DISPATCH
 ---
 
 # _KSDEVICE_THERMAL_DISPATCH structure
 
 
-
 ## -description
+
+
 The <b>KSDEVICE_THERMAL_DISPATCH</b> structure is used by the miniport driver in the API call to register thermal notification callbacks. This structure contains the callback function pointers for active and passive cooling interfaces. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _KSDEVICE_THERMAL_DISPATCH {
@@ -55,10 +65,12 @@ typedef struct _KSDEVICE_THERMAL_DISPATCH {
 
 ## -struct-fields
 
+
+
+
 ### -field ActiveCooling
 
 The active thermal callback notification. The routine is defined as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -77,30 +89,9 @@ void
 </tr>
 </table></span></div>
 
-### -field KsDevice
-
-<dd>
-[in] A <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> object representing the device managed by KS.
-
-
-### -field Engaged
-
-<dd>
-[in] Indicates whether to engage or disengage active cooling. If <b>TRUE</b>, the driver must engage active cooling (for example, by turning the fan on). If <b>FALSE</b>, the driver must disengage active cooling (for example, by turning the fan off).
-
-
-### -field DeviceThermalState
-
-<dd>
-[out] Return value: Avstream-determined thermal state. If the state changes the pipeline is notified of the change. The pipeline notifies any app registered for thermal notifications. For more information, see the <a href="..\poclass\nc-poclass-device_active_cooling.md">ActiveCooling</a> routine.
-
-</dd>
-</dl>
-
 ### -field PassiveCooling
 
 The passive thermal callback notification.. The routine is defined as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -119,24 +110,32 @@ void
 </tr>
 </table></span></div>
 
-### -field KsDevice
+##### - ActiveCooling.KsDevice
 
-<dd>
 [in] A <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> object representing the device managed by KS.
 
 
-### -field Percentage
+##### - PassiveCooling.DeviceThermalState
 
-<dd>
-[in] The percentage of full performance at which the device is permitted to operate. A parameter value of 100 indicates that the device is under no cooling restrictions and can operate at full performance level. A parameter value of zero indicates that the device must operate at its lowest thermal level. A parameter value between 0 and 100 indicates the degree to which the device's performance must be throttled to reduce heat generation. This parameter value is a threshold that the device must not exceed.
-
-
-### -field DeviceThermalState
-
-<dd>
 [out] Return value: Avstream-determined thermal state. If the state changes the pipeline is notified of the change. The pipeline notifies any app registered for thermal notifications. For more information, see the  <a href="..\poclass\nc-poclass-device_passive_cooling.md">PassiveCooling</a> routine.
 
-</dd>
-</dl>
 
-## -remarks
+##### - ActiveCooling.DeviceThermalState
+
+[out] Return value: Avstream-determined thermal state. If the state changes the pipeline is notified of the change. The pipeline notifies any app registered for thermal notifications. For more information, see the <a href="..\poclass\nc-poclass-device_active_cooling.md">ActiveCooling</a> routine.
+
+
+##### - ActiveCooling.Engaged
+
+[in] Indicates whether to engage or disengage active cooling. If <b>TRUE</b>, the driver must engage active cooling (for example, by turning the fan on). If <b>FALSE</b>, the driver must disengage active cooling (for example, by turning the fan off).
+
+
+##### - PassiveCooling.KsDevice
+
+[in] A <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> object representing the device managed by KS.
+
+
+##### - PassiveCooling.Percentage
+
+[in] The percentage of full performance at which the device is permitted to operate. A parameter value of 100 indicates that the device is under no cooling restrictions and can operate at full performance level. A parameter value of zero indicates that the device must operate at its lowest thermal level. A parameter value between 0 and 100 indicates the degree to which the device's performance must be throttled to reduce heat generation. This parameter value is a threshold that the device must not exceed.
+

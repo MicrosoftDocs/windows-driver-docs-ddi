@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3f8cc918-9819-4c32-93f3-dbc2c1023016
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_DRAWINDEXEDPRIMITIVE, D3DDDIARG_DRAWINDEXEDPRIMITIVE
+ms.keywords: d3dumddi/D3DDDIARG_DRAWINDEXEDPRIMITIVE, display.d3dddiarg_drawindexedprimitive, _D3DDDIARG_DRAWINDEXEDPRIMITIVE, D3DDDIARG_DRAWINDEXEDPRIMITIVE, D3DDDIARG_DRAWINDEXEDPRIMITIVE structure [Display Devices], UMDisplayDriver_param_Structs_241177c0-f301-4b49-93cb-5c75ca8cb30a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_DRAWINDEXEDPRIMITIVE
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_DRAWINDEXEDPRIMITIVE
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_DRAWINDEXEDPRIMITIVE
 ---
 
 # _D3DDDIARG_DRAWINDEXEDPRIMITIVE structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_DRAWINDEXEDPRIMITIVE structure describes an indexed primitive to draw.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_DRAWINDEXEDPRIMITIVE {
@@ -58,6 +68,9 @@ typedef struct _D3DDDIARG_DRAWINDEXEDPRIMITIVE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PrimitiveType
 
@@ -90,15 +103,16 @@ typedef struct _D3DDDIARG_DRAWINDEXEDPRIMITIVE {
 
 
 ## -remarks
+
+
 The Microsoft Direct3D runtime does not transform the index data before passing a pointer to the description of the index data in the <i>pData</i> parameter in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive.md">DrawIndexedPrimitive</a> function. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive.md">DrawIndexedPrimitive</a>
-</dt>
-</dl>
+
  
 
  

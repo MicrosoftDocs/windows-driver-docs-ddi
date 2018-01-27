@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e23b7e4e-e670-4421-aa2f-4389a74a7d6d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_OPENALLOCATIONINFO, DXGK_OPENALLOCATIONINFO
+ms.keywords: DXGK_OPENALLOCATIONINFO structure [Display Devices], d3dkmddi/DXGK_OPENALLOCATIONINFO, _DXGK_OPENALLOCATIONINFO, DmStructs_e03247bd-d6b8-42df-ac22-79d906d7c852.xml, DXGK_OPENALLOCATIONINFO, display.dxgk_openallocationinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_OPENALLOCATIONINFO
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_OPENALLOCATIONINFO
+product: Windows
+targetos: Windows
 req.typenames: DXGK_OPENALLOCATIONINFO
 ---
 
 # _DXGK_OPENALLOCATIONINFO structure
 
 
-
 ## -description
+
+
 The DXGK_OPENALLOCATIONINFO structure contains handles to nondevice-specific and device-specific allocations that the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a> function associates. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_OPENALLOCATIONINFO {
@@ -56,6 +66,9 @@ typedef struct _DXGK_OPENALLOCATIONINFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hAllocation
 
@@ -77,24 +90,16 @@ typedef struct _DXGK_OPENALLOCATIONINFO {
 [out] A handle to the device-specific allocation that corresponds to the non device-specific allocation that <b>hAllocation</b> specifies. The display miniport driver must set <b>hDeviceSpecificAllocation</b> to a handle value that it can use to refer to its private tracking structure for the allocation.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_openallocation.md">DXGKARG_OPENALLOCATION</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
-</dt>
-<dt>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_openallocation.md">DXGKARG_OPENALLOCATION</a>
+
  
 
  

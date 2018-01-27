@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 62d31b13-bc4a-4b2f-82be-551a61cae218
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DETECTION_TYPE, DETECTION_TYPE
+ms.keywords: storage.ioctl_disk_get_length_info, IOCTL_DISK_GET_LENGTH_INFO control code [Storage Devices], IOCTL_DISK_GET_LENGTH_INFO, ntdddisk/IOCTL_DISK_GET_LENGTH_INFO, k307_50fea771-4937-481d-9a1b-f4d69bb939bb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows XP and later operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_DISK_GET_LENGTH_INFO
-req.alt-loc: Ntdddisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,63 +29,85 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntdddisk.h
+apiname: 
+-	IOCTL_DISK_GET_LENGTH_INFO
+product: Windows
+targetos: Windows
 req.typenames: DETECTION_TYPE
 ---
 
 # IOCTL_DISK_GET_LENGTH_INFO IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 Returns the length, in bytes, of the disk, partition, or volume associated with the device object that is the target of the request. 
 
-
-
-Returns the length, in bytes, of the disk, partition, or volume associated with the device object that is the target of the request. 
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 None.
 
 
 ### -input-buffer-length
+
 None.
 
 
 ### -output-buffer
+
 The driver returns the <a href="..\ntdddisk\ns-ntdddisk-_get_length_information.md">GET_LENGTH_INFORMATION</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
+
 <b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the buffer, which must be &gt;= <b>sizeof</b>(GET_LENGTH_INFORMATION). 
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Information</b> field is set to the size, in bytes, of the returned data. The <b>Status</b> field can be set to STATUS_SUCCESS, or to STATUS_BUFFER_TOO_SMALL if the buffer supplied by the caller is inadequate. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntdddisk\ns-ntdddisk-_get_length_information.md">GET_LENGTH_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

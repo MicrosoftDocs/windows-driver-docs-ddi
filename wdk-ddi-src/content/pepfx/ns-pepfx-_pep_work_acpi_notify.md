@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DFFDDF13-B8C7-4AB0-B2C9-9F34D19B21AE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_WORK_ACPI_NOTIFY, PEP_WORK_ACPI_NOTIFY, *PPEP_WORK_ACPI_NOTIFY
+ms.keywords: PPEP_WORK_ACPI_NOTIFY, pepfx/PPEP_WORK_ACPI_NOTIFY, PEP_WORK_ACPI_NOTIFY structure [Kernel-Mode Driver Architecture], PPEP_WORK_ACPI_NOTIFY structure pointer [Kernel-Mode Driver Architecture], *PPEP_WORK_ACPI_NOTIFY, kernel.pep_work_acpi_notify, _PEP_WORK_ACPI_NOTIFY, PEP_WORK_ACPI_NOTIFY, pepfx/PEP_WORK_ACPI_NOTIFY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_WORK_ACPI_NOTIFY
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: PEP_WORK_ACPI_NOTIFY, *PPEP_WORK_ACPI_NOTIFY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_WORK_ACPI_NOTIFY
+product: Windows
+targetos: Windows
+req.typenames: *PPEP_WORK_ACPI_NOTIFY, PEP_WORK_ACPI_NOTIFY
 ---
 
 # _PEP_WORK_ACPI_NOTIFY structure
 
 
-
 ## -description
+
+
 The <b>PEP_WORK_ACPI_NOTIFY</b> structure contains the ACPI Notify code for a device that has generated a hardware event.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_WORK_ACPI_NOTIFY {
@@ -54,6 +64,9 @@ typedef struct _PEP_WORK_ACPI_NOTIFY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DeviceHandle
 
@@ -66,18 +79,18 @@ The Notify code. For a list of Notify codes and their meanings, see section 5.6.
 
 
 ## -remarks
+
+
 The <b>AcpiNotify</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_ACPI_NOTIFY</b> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
-</dt>
-<dt>
+
 <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
+
  
 
  

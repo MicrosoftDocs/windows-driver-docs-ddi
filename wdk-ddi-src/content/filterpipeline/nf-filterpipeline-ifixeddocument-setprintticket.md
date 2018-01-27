@@ -7,8 +7,8 @@ old-location: print\ifixeddocument_setprintticket.htm
 old-project: print
 ms.assetid: 701c53d5-bb1e-4003-9505-19b9c46689c6
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IFixedDocument, IFixedDocument::SetPrintTicket, SetPrintTicket
+ms.date: 1/18/2018
+ms.keywords: SetPrintTicket method [Print Devices], IFixedDocument interface, IFixedDocument, filterpipeline_96d89fc9-899f-4ede-8da5-898471f6b769.xml, SetPrintTicket method [Print Devices], SetPrintTicket, filterpipeline/IFixedDocument::SetPrintTicket, IFixedDocument::SetPrintTicket, IFixedDocument interface [Print Devices], SetPrintTicket method, print.ifixeddocument_setprintticket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IFixedDocument.SetPrintTicket
-req.alt-loc: filterpipeline.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: Filterpipeline.idl
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	filterpipeline.h
+apiname: 
+-	IFixedDocument.SetPrintTicket
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # IFixedDocument::SetPrintTicket method
 
 
-
 ## -description
+
+
 The <b>SetPrintTicket</b> method inserts a print ticket into the fixed document.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT SetPrintTicket(
@@ -54,13 +64,17 @@ HRESULT SetPrintTicket(
 
 ## -parameters
 
+
+
+
 ### -param pPrintTicket [in]
 
 A pointer to the print ticket to be inserted.
 
 
 ## -returns
+
+
 <b>SetPrintTicket</b> returns an <b>HRESULT</b> value.
 
 
-## -remarks

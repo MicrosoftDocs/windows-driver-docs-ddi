@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8abd72f1-0537-4624-b3d4-2de51c4d4daa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExFreeToNPagedLookasideList
+ms.keywords: kernel.exfreetonpagedlookasidelist, ExFreeToNPagedLookasideList routine [Kernel-Mode Driver Architecture], ExFreeToNPagedLookasideList, wdm/ExFreeToNPagedLookasideList, k102_30577c54-40a4-41a3-abc2-f3cdcd45ef1b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExFreeToNPagedLookasideList
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: SpIrql
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ExFreeToNPagedLookasideList
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ExFreeToNPagedLookasideList function
 
 
-
 ## -description
+
+
 The <b>ExFreeToNPagedLookasideList</b> routine returns a nonpaged entry to the given lookaside list or to nonpaged pool.
 
 
-
 ## -syntax
+
 
 ````
  VOID ExFreeToNPagedLookasideList(
@@ -55,6 +65,9 @@ The <b>ExFreeToNPagedLookasideList</b> routine returns a nonpaged entry to the g
 
 
 ## -parameters
+
+
+
 
 ### -param Lookaside [in, out]
 
@@ -67,10 +80,15 @@ A pointer to the entry to be freed. The caller obtained this pointer from a prec
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>ExFreeToNPagedLookasideList</b> is the reciprocal of <b>ExAllocateFromNPagedLookasideList</b>. It releases a caller-allocated entry back to the caller's lookaside list or to nonpaged pool when that entry is no longer in use.
 
 The same entry can be reallocated or another entry allocated later with a subsequent call to <b>ExAllocateFromNPagedLookasideList</b>. The user of the lookaside list can allocate and free such entries dynamically on an as-needed basis until it calls <b>ExDeleteNPagedLookasideList</b>, which releases any outstanding entries in the list before it clears the system state for the given lookaside list and returns control.
@@ -80,21 +98,17 @@ If the specified lookaside list has not yet reached the system-determined maximu
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565416">Using Lookaside Lists</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-exdeletenpagedlookasidelist.md">ExDeleteNPagedLookasideList</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
+
 <a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
-</dt>
-</dl>
+
  
 
  

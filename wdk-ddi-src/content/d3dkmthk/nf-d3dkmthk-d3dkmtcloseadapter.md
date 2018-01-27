@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d8f1a47b-4ba0-41e0-a6e3-0589e1efcf06
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTCloseAdapter
+ms.keywords: display.d3dkmtcloseadapter, PFND3DKMT_CLOSEADAPTER, d3dkmthk/D3DKMTCloseAdapter, OpenGL_Functions_531edcbd-0ec0-4ae7-8a1a-31ed47084bba.xml, D3DKMTCloseAdapter, D3DKMTCloseAdapter function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTCloseAdapter
-req.alt-loc: Gdi32.dll,API-MS-Win-dx-d3dkmt-l1-1-0.dll,API-MS-Win-dx-d3dkmt-l1-1-1.dll,API-MS-Win-DX-D3DKMT-L1-1-2.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Gdi32.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-0.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-1.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+apiname: 
+-	D3DKMTCloseAdapter
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTCloseAdapter function
 
 
-
 ## -description
+
+
 The <b>D3DKMTCloseAdapter</b> function closes a graphics adapter that was previously opened by using the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenadapterfromhdc.md">D3DKMTOpenAdapterFromHdc</a> function.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS APIENTRY D3DKMTCloseAdapter(
@@ -54,36 +67,61 @@ NTSTATUS APIENTRY D3DKMTCloseAdapter(
 
 ## -parameters
 
-### -param pData [in]
+
+
+
+### -param D3DKMT_CLOSEADAPTER
+
+TBD
+
+
+
+#### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_closeadapter.md">D3DKMT_CLOSEADAPTER</a> structure that specifies the adapter to close.
 
 
 ## -returns
+
+
 <b>D3DKMTCloseAdapter</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The adapter was closed successfully.
+</dl>
+</td>
+<td width="60%">
+The adapter was closed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>Parameters were validated and determined to be incorrect or the Windows Vista display driver model was not used.
+</dl>
+</td>
+<td width="60%">
+Parameters were validated and determined to be incorrect or the Windows Vista display driver model was not used.
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other NTSTATUS values.
 
-The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTCloseAdapter</b> to close a graphics adapter.
-
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_closeadapter.md">D3DKMT_CLOSEADAPTER</a>
-</dt>
-</dl>
+
  
 
  

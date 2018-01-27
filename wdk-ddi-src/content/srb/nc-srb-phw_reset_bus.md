@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8c41ca6d-4b55-4858-b8bb-d7b2e682a8f7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+ms.keywords: storage.phw_reset_bus, (*PHW_RESET_BUS) callback function [Storage Devices], (*PHW_RESET_BUS), srb/(*PHW_RESET_BUS), ide_minikr_6cda3e23-0fa6-48dd-a0c0-3d47287eb829.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: (*PHW_RESET_BUS)
-req.alt-loc: srb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	srb.h
+apiname: 
+-	(*PHW_RESET_BUS)
+product: Windows
+targetos: Windows
 req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PHW_RESET_BUS callback
 
 
-
 ## -description
+
+
 The PHW_RESET_BUS prototype declares a routine that resets the indicated SCSI bus.
 
 
-
 ## -prototype
+
 
 ````
 typedef BOOLEAN (*PHW_RESET_BUS)(
@@ -56,7 +66,10 @@ typedef BOOLEAN (*PHW_RESET_BUS)(
 
 ## -parameters
 
-### -param DeviceExtension  [in]
+
+
+
+### -param DeviceExtension [in]
 
 Pointer to the miniport driver's per-HBA storage area. 
 
@@ -67,10 +80,15 @@ Contains a number that identifies the SCSI bus to be reset.
 
 
 ## -returns
+
+
 The routine that this prototype declares returns <b>TRUE</b> if the bus is successfully reset. The routine returns <b>FALSE</b> if the bus is not successfully reset. 
 
 
+
 ## -remarks
+
+
 The initialization routine for both SCSI and StorPort miniport drivers are declared using this prototype. 
 
 For more information about the SCSI miniport driver's bus reset routine see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557318">HwScsiResetBus</a>. 
@@ -78,15 +96,13 @@ For more information about the SCSI miniport driver's bus reset routine see <a h
 For more information about the bus reset routine that is used with the StorPort driver's miniport driver routine, see <a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557318">HwScsiResetBus</a>
-</dt>
-<dt>
+
 <a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557318">HwScsiResetBus</a>
+
  
 
  

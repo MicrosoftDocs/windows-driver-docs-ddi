@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f1b3e432-6972-49ff-9fce-b642c1be17ea
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_GETDRIVERINFO2DATA, DD_GETDRIVERINFO2DATA
+ms.keywords: DD_GETDRIVERINFO2DATA structure [Display Devices], _DD_GETDRIVERINFO2DATA, DD_GETDRIVERINFO2DATA, d3dhal/DD_GETDRIVERINFO2DATA, display.dd_getdriverinfo2data, d3dstrct_64ab01fc-414f-4367-8bb7-201c7e120275.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DD_GETDRIVERINFO2DATA
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	DD_GETDRIVERINFO2DATA
+product: Windows
+targetos: Windows
 req.typenames: DD_GETDRIVERINFO2DATA
 ---
 
 # _DD_GETDRIVERINFO2DATA structure
 
 
-
 ## -description
+
+
 
    DirectX 8.0 and later versions only.
    
@@ -46,8 +56,8 @@ req.typenames: DD_GETDRIVERINFO2DATA
 DD_GETDRIVERINFO2DATA is passed in the <b>lpvData</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a> structure when GUID_GetDriverInfo2 is specified in the <b>guidInfo</b> member of DD_GETDRIVERINFODATA in a <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a> call.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DD_GETDRIVERINFO2DATA {
@@ -60,6 +70,9 @@ typedef struct _DD_GETDRIVERINFO2DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwReserved
 
@@ -81,7 +94,6 @@ Specifies the magic number. Has the value
 Specifies the type of information requested, which can contain one of the following D3DGDI2_TYPE_<i>Xxx</i> 
 	values. Driver should only read (not write) this member.
 	
-
 <table>
 <tr>
 <th>Value</th>
@@ -320,8 +332,7 @@ Is used to query the driver for the number of
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field dwExpectedSize
@@ -330,61 +341,115 @@ Specifies the expected size, in bytes, of the information requested. Driver shou
 
 
 ## -remarks
+
+
 The <b>dwExpectedSize</b> member of the DD_GETDRIVERINFODATA structure is not used when a <a href="https://msdn.microsoft.com/5e2dd363-9e72-4674-940e-8b4f06f6eb14">GetDriverInfo2</a> request is being made. Its value is undefined in this case and should be ignored. Instead, the actual expected size of the data is found in the <b>dwExpectedSize</b> member of DD_GETDRIVERINFO2DATA.
 
 The following code fragment demonstrates how to handle <a href="https://msdn.microsoft.com/5e2dd363-9e72-4674-940e-8b4f06f6eb14">GetDriverInfo2</a>:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>D3DCAPS8 myD3DCaps8 = { ... };
 
-For more information about D3DCAPS8 and D3DCAPS9, see the DirectX SDK documentation.
+DWORD CALLBACK
+DdGetDriverInfo(LPDDHAL_GETDRIVERINFODATA lpData)
+{
+  if (MATCH_GUID((lpData-&gt;guidInfo), GUID_GetDriverInfo2))
+  {
+    ASSERT(NULL != lpData);
+    ASSERT(NULL != lpData-&gt;lpvData);
+
+    // Is this a call to GetDriverInfo2 or DDStereoMode?
+ if (((DD_GETDRIVERINFO2DATA*)(lpData-&gt;lpvData))-&gt;dwMagic
+      == D3DGDI2_MAGIC)
+ {
+      // Yes, it's a call to GetDriverInfo2, fetch the
+ // DD_GETDRIVERINFO2DATA data structure.
+      DD_GETDRIVERINFO2DATA* pgdi2 = lpData-&gt;lpvData;
+ ASSERT(NULL != pgdi2);
+      // What type of request is this?
+      switch (pgdi2-&gt;dwType)
+      {
+        case D3DGDI2_TYPE_GETD3DCAPS8:
+        {
+          // The runtime is requesting the DX8 D3D caps
+          // so copy them over now. It should be noted
+          // that the dwExpectedSize field of
+          // DD_GETDRIVERINFODATA is not used for
+          // GetDriverInfo2 calls and should be ignored.
+          size_t copySize = min(
+            sizeof(myD3DCaps8), pgdi2-&gt;dwExpectedSize);
+          memcpy(lpData-&gt;lpvData, &amp;myD3DCaps8, copySize);
+          lpData-&gt;dwActualSize = copySize;
+          lpData-&gt;ddRVal       = DD_OK;
+          return DDHAL_DRIVER_HANDLED;
+        }
+        default:
+          // For any other GetDriverInfo2 types not handled
+          // or understood by the driver set a ddRVal of
+          // DDERR_CURRENTLYNOTAVAIL and return
+          // DDHAL_DRIVER_HANDLED.
+          return DDHAL_DRIVER_HANDLED;
+      }
+    }
+    else
+    {
+      // It must be a call to request for stereo mode support.
+ // Fetch the stereo mode data
+      DD_STEREOMODE* pStereoMode = lpData-&gt;lpvData;
+ ASSERT(NULL != pStereoMode);
+
+      // Process the stereo mode request...
+      lpData-&gt;dwActualSize = sizeof(DD_STEREOMODE);
+      lpData-&gt;ddRVal       = DD_OK;
+      return DDHAL_DRIVER_HANDLED;
+    }
+  }
+
+  // Handle any other device GUIDs...
+
+} // DdGetDriverInfo</pre>
+</td>
+</tr>
+</table></span></div>For more information about D3DCAPS8 and D3DCAPS9, see the DirectX SDK documentation.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dhal\ns-d3dhal-_dd_deferred_agp_aware_data.md">DD_DEFERRED_AGP_AWARE_DATA</a>
-</dt>
-<dt>
-<a href="..\d3dhal\ns-d3dhal-_dd_dxversion.md">DD_DXVERSION</a>
-</dt>
-<dt>
-<a href="..\d3dhal\ns-d3dhal-_dd_free_deferred_agp_data.md">DD_FREE_DEFERRED_AGP_DATA</a>
-</dt>
-<dt>
-<a href="..\d3dhal\ns-d3dhal-_dd_getadaptergroupdata.md">DD_GETADAPTERGROUPDATA</a>
-</dt>
-<dt>
-<a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerycountdata.md">DD_GETD3DQUERYCOUNTDATA</a>
-</dt>
-<dt>
-<a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerydata.md">DD_GETD3DQUERYDATA</a>
-</dt>
-<dt>
-<a href="..\d3dhal\ns-d3dhal-_dd_getddiversiondata.md">DD_GETDDIVERSIONDATA</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-</dt>
-<dt>
-<a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodecountdata.md">DD_GETEXTENDEDMODECOUNTDATA</a>
-</dt>
-<dt>
+
 <a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodedata.md">DD_GETEXTENDEDMODEDATA</a>
-</dt>
-<dt>
-<a href="..\d3dhal\ns-d3dhal-_dd_getformatcountdata.md">DD_GETFORMATCOUNTDATA</a>
-</dt>
-<dt>
-<a href="..\d3dhal\ns-d3dhal-_dd_getformatdata.md">DD_GETFORMATDATA</a>
-</dt>
-<dt>
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getadaptergroupdata.md">DD_GETADAPTERGROUPDATA</a>
+
 <a href="..\d3dhal\ns-d3dhal-_dd_multisamplequalitylevelsdata.md">DD_MULTISAMPLEQUALITYLEVELSDATA</a>
-</dt>
-<dt>
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerydata.md">DD_GETD3DQUERYDATA</a>
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getddiversiondata.md">DD_GETDDIVERSIONDATA</a>
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getformatdata.md">DD_GETFORMATDATA</a>
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodecountdata.md">DD_GETEXTENDEDMODECOUNTDATA</a>
+
+<a href="..\d3dhal\ns-d3dhal-_dd_deferred_agp_aware_data.md">DD_DEFERRED_AGP_AWARE_DATA</a>
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getformatcountdata.md">DD_GETFORMATCOUNTDATA</a>
+
+<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
+
+<a href="..\d3dhal\ns-d3dhal-_dd_dxversion.md">DD_DXVERSION</a>
+
+<a href="..\d3dhal\ns-d3dhal-_dd_free_deferred_agp_data.md">DD_FREE_DEFERRED_AGP_DATA</a>
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerycountdata.md">DD_GETD3DQUERYCOUNTDATA</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551716">DD_STEREOMODE</a>
-</dt>
-</dl>
+
  
 
  

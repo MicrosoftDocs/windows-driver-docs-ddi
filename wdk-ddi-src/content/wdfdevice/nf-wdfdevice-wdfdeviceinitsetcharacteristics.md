@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2937d9f1-f838-4ec4-972d-21ff43097590
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceInitSetCharacteristics
+ms.keywords: WdfDeviceInitSetCharacteristics method, WdfDeviceInitSetCharacteristics, wdf.wdfdeviceinitsetcharacteristics, DFDeviceObjectGeneralRef_7dd76de2-8621-45ed-a309-c958ac1c365d.xml, wdfdevice/WdfDeviceInitSetCharacteristics, kmdf.wdfdeviceinitsetcharacteristics, PFN_WDFDEVICEINITSETCHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfDeviceInitSetCharacteristics
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: ChildDeviceInitAPI, ControlDeviceInitAPI, DeviceInitAPI, DriverCreate, KmdfIrql, KmdfIrql2, PdoDeviceInitAPI
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfDeviceInitSetCharacteristics
+product: Windows
+targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WdfDeviceInitSetCharacteristics function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfDeviceInitSetCharacteristics</b> method sets device characteristics for a specified device.
 
 
-
 ## -syntax
+
 
 ````
 VOID WdfDeviceInitSetCharacteristics(
@@ -58,6 +69,9 @@ VOID WdfDeviceInitSetCharacteristics(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceInit [in]
 
@@ -75,10 +89,15 @@ A Boolean value. If this value is <b>TRUE</b>, the <i>DeviceCharacteristics</i> 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 To set device characteristics, call the <b>WdfDeviceInitSetCharacteristics</b> method in your <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function before calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. If your driver cannot determine a device's characteristics until after the <i>EvtDriverDeviceAdd</i> callback function returns, call <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetcharacteristics.md">WdfDeviceSetCharacteristics</a>.
 
 For more information about calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
@@ -87,15 +106,12 @@ The framework always sets the FILE_DEVICE_SECURE_OPEN characteristic, so your dr
 
 Each call to <b>WdfDeviceInitSetCharacteristics</b> overwrites the settings of any previous call.
 
-The following code example indicates that a device is a floppy disk.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetcharacteristics.md">WdfDeviceSetCharacteristics</a>
-</dt>
-</dl>
+
  
 
  

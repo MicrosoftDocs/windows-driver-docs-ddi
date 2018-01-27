@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 37f9f40d-6d32-4eeb-8161-282a84ee89dc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_ISSUPPORTEDVIDPN, DXGKARG_ISSUPPORTEDVIDPN, *INOUT_PDXGKARG_ISSUPPORTEDVIDPN
+ms.keywords: display.dxgkarg_issupportedvidpn, DXGKARG_ISSUPPORTEDVIDPN structure [Display Devices], DXGKARG_ISSUPPORTEDVIDPN, d3dkmddi/DXGKARG_ISSUPPORTEDVIDPN, _DXGKARG_ISSUPPORTEDVIDPN, DmStructs_03198868-50e6-47a1-9119-0fa3bff21ec0.xml, *INOUT_PDXGKARG_ISSUPPORTEDVIDPN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_ISSUPPORTEDVIDPN
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_ISSUPPORTEDVIDPN
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_ISSUPPORTEDVIDPN
 ---
 
 # _DXGKARG_ISSUPPORTEDVIDPN structure
 
 
-
 ## -description
+
+
 The DXGKARG_ISSUPPORTEDVIDPN structure contains arguments for the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_issupportedvidpn.md">DxgkDdiIsSupportedVidPn</a> function. The <i>DxgkDdiIsSupportedVidPn</i> function determines whether a specified video present network (VidPN) is supported on a display adapter.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_ISSUPPORTEDVIDPN {
@@ -55,6 +65,9 @@ typedef struct _DXGKARG_ISSUPPORTEDVIDPN {
 
 ## -struct-fields
 
+
+
+
 ### -field hDesiredVidPn
 
 A handle to the VidPN object in question.
@@ -65,15 +78,10 @@ A handle to the VidPN object in question.
 A Boolean variable that receives <b>TRUE</b> if the VidPN is supported and <b>FALSE</b> if the VidPN is not supported.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_issupportedvidpn.md">DxgkDdiIsSupportedVidPn</a>
-</dt>
-</dl>
+
  
 
  

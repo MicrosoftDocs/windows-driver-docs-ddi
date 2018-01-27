@@ -7,8 +7,8 @@ old-location: debugger\idebugeventcallbackswide_changedebuggeestate.htm
 old-project: debugger
 ms.assetid: ffb5925a-6bbd-41f5-b8b8-e8c7189d57ac
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugEventCallbacksWide, IDebugEventCallbacksWide::ChangeDebuggeeState, ChangeDebuggeeState
+ms.date: 1/19/2018
+ms.keywords: dbgeng/IDebugEventCallbacksWide::ChangeDebuggeeState, debugger.idebugeventcallbackswide_changedebuggeestate, ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide, IDebugEventCallbacksWide::ChangeDebuggeeState, ChangeDebuggeeState, IDebugEventCallbacksWide interface [Windows Debugging], ChangeDebuggeeState method, ChangeDebuggeeState method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugEventCallbacksWide.ChangeDebuggeeState
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugEventCallbacksWide.ChangeDebuggeeState
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacksWide::ChangeDebuggeeState method
 
 
-
 ## -description
+
+
 The <b>ChangeDebuggeeState</b> callback method is called by the engine when it makes or detects changes to the target.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT ChangeDebuggeeState(
@@ -55,10 +65,12 @@ HRESULT ChangeDebuggeeState(
 
 ## -parameters
 
+
+
+
 ### -param Flags [in]
 
 Specifies the type of changes made to the target.  <i>Flags</i> may take one of the following values:
-
 <table>
 <tr>
 <th>Value</th>
@@ -94,27 +106,26 @@ The target's data space has changed.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Argument [in]
 
 Provides additional information about the change in the target. The interpretation of the value of <i>Argument</i> depends on the value of <i>Flags</i>:
 
-
-### -param DEBUG_CDS_ALL
-
+<dl>
+<dt><a id="DEBUG_CDS_ALL"></a><a id="debug_cds_all"></a>DEBUG_CDS_ALL</dt>
+<dd>
 The value of <i>Argument</i> is zero.
 
-
-### -param DEBUG_CDS_REGISTERS
-
+</dd>
+<dt><a id="DEBUG_CDS_REGISTERS"></a><a id="debug_cds_registers"></a>DEBUG_CDS_REGISTERS</dt>
+<dd>
 If a single register has changed, the value of <i>Argument</i> is the index of that register.  Otherwise, the value of <i>Argument</i> is DEBUG_ANY_ID.
 
-
-### -param DEBUG_CDS_DATA
-
+</dd>
+<dt><a id="DEBUG_CDS_DATA"></a><a id="debug_cds_data"></a>DEBUG_CDS_DATA</dt>
+<dd>
 The value of <i>Argument</i> specifies which data space was changed.  The following table contains the possible values of <i>Argument</i>.
 
 <table>
@@ -191,10 +202,17 @@ The target's bus memory has changed.
 
 
 ## -returns
+
+
 The return value is ignored by the engine unless it indicates a remote procedure call error; in this case the client, with which this <b>IDebugEventCallbacksWide</b> object is registered, is disabled.
 
 
+
 ## -remarks
+
+
 The engine calls <b>ChangeDebuggeeState</b> only if the DEBUG_EVENT_CHANGE_DEBUGGEE_STATE flag is set in the mask returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550625">IDebugEventCallbacksWide::GetInterestMask</a>.
 
-For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.  For information about managing the target's memory, including registers and data spaces, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552179">Memory Access</a>.  For information about the target's virtual and physical memory, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561217">Virtual and Physical Memory</a>.  For information about the target's control memory, I/O ports, MSR, and bus memory, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553172">Other Data Spaces</a>.</p>
+For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.  For information about managing the target's memory, including registers and data spaces, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552179">Memory Access</a>.  For information about the target's virtual and physical memory, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561217">Virtual and Physical Memory</a>.  For information about the target's control memory, I/O ports, MSR, and bus memory, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553172">Other Data Spaces</a>.
+
+

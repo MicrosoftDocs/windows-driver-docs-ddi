@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eae8a64f-c80a-4e70-b332-6cc098273d7c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetFileObjectGenericMapping
+ms.keywords: IoGetFileObjectGenericMapping, IoGetFileObjectGenericMapping routine [Kernel-Mode Driver Architecture], kernel.iogetfileobjectgenericmapping, ntddk/IoGetFileObjectGenericMapping, k104_90acd8aa-7b11-4ee8-b6c7-84e7c849b131.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoGetFileObjectGenericMapping
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlIoPassive5, PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoGetFileObjectGenericMapping
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # IoGetFileObjectGenericMapping function
 
 
-
 ## -description
+
+
 The <b>IoGetFileObjectGenericMapping</b> routine returns information about the mapping between each generic access right and the set of specific access rights for file objects.
 
 
-
 ## -syntax
+
 
 ````
 PGENERIC_MAPPING  IoGetFileObjectGenericMapping(void);
@@ -53,32 +63,26 @@ PGENERIC_MAPPING  IoGetFileObjectGenericMapping(void);
 ## -parameters
 
 
+
+
+
 ## -returns
+
+
 <b>IoGetFileObjectGenericMapping</b> returns a pointer to the <a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a> structure that describes the mapping between each generic access right and the implied set of specific access rights.
 
-<b>IoGetFileObjectGenericMapping</b> returns a pointer to the <a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a> structure that describes the mapping between each generic access right and the implied set of specific access rights.
-
-<b>IoGetFileObjectGenericMapping</b> returns a pointer to the <a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a> structure that describes the mapping between each generic access right and the implied set of specific access rights.
-
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
+
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-</dt>
-</dl>
+
  
 
  

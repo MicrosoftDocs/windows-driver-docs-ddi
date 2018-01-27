@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a4b59403-9a2f-4857-947b-dff8e3ea079c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcCompletePendingPropertyRequest
+ms.keywords: audpc-routines_934503ea-325f-4e57-ba45-e8834a64cefa.xml, PcCompletePendingPropertyRequest function [Audio Devices], audio.pccompletependingpropertyrequest, PcCompletePendingPropertyRequest, portcls/PcCompletePendingPropertyRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The PortCls system driver implements the PcCompletePe
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PcCompletePendingPropertyRequest
-req.alt-loc: Portcls.lib,Portcls.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Portcls.lib
+-	Portcls.dll
+apiname: 
+-	PcCompletePendingPropertyRequest
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # PcCompletePendingPropertyRequest function
 
 
-
 ## -description
+
+
 The <b>PcCompletePendingPropertyRequest</b> function is called to complete a pending property request.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PcCompletePendingPropertyRequest(
@@ -54,6 +65,9 @@ NTSTATUS PcCompletePendingPropertyRequest(
 
 
 ## -parameters
+
+
+
 
 ### -param PropertyRequest [in]
 
@@ -66,24 +80,27 @@ Specifies the completion status of the request. See the list of NTSTATUS values 
 
 
 ## -returns
+
+
 <b>PcCompletePendingPropertyRequest</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 If a miniport driver returns STATUS_PENDING from a property handler, it is obliged to keep a pointer to the property-request structure and to complete the request at some later time by calling this function.
 
 The driver should call <b>PcCompletePendingPropertyRequest</b> only when the request is no longer pending. Never call this function with an <i>NtStatus</i> value of STATUS_PENDING. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\ns-portcls-_pcproperty_request.md">PCPROPERTY_REQUEST</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
-</dt>
-</dl>
+
+<a href="..\portcls\ns-portcls-_pcproperty_request.md">PCPROPERTY_REQUEST</a>
+
  
 
  

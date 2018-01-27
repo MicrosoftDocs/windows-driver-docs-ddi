@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5E45A5A0-59EE-4A72-9CCA-DD1C9A406EB5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBDEVICE_PURGEIO, *PUSBDEVICE_PURGEIO, USBDEVICE_PURGEIO
+ms.keywords: ucxusbdevice/_USBDEVICE_PURGEIO, *PUSBDEVICE_PURGEIO, buses._usbdevice_purgeio, ucxusbdevice/P_USBDEVICE_PURGEIO, USBDEVICE_PURGEIO structure [Buses], _USBDEVICE_PURGEIO, P_USBDEVICE_PURGEIO, USBDEVICE_PURGEIO, P_USBDEVICE_PURGEIO structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBDEVICE_PURGEIO
-req.alt-loc: ucxusbdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PUSBDEVICE_PURGEIO, USBDEVICE_PURGEIO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ucxusbdevice.h
+apiname: 
+-	USBDEVICE_PURGEIO
+product: Windows
+targetos: Windows
+req.typenames: USBDEVICE_PURGEIO, *PUSBDEVICE_PURGEIO
 req.product: Windows 10 or later.
 ---
 
 # _USBDEVICE_PURGEIO structure
 
 
-
 ## -description
+
+
 The <b>USBDEVICE_PURGEIO</b> structure contains the handle for the Universal Serial Bus (USB) hub or device to purge I/O for.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBDEVICE_PURGEIO {
@@ -59,26 +69,28 @@ typedef struct _USBDEVICE_PURGEIO {
 
 ## -struct-fields
 
+
+
+
 ### -field Header
 
 A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
 
 
-## -remarks
+### -field OnSuspend
+
+ 
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_tree_purgeio.md">USBDEVICE_TREE_PURGEIO</a>
-</dt>
-<dt>
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_abortio.md">USBDEVICE_ABORTIO</a>
-</dt>
-<dt>
+
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_startio.md">USBDEVICE_STARTIO</a>
-</dt>
-</dl>
+
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_tree_purgeio.md">USBDEVICE_TREE_PURGEIO</a>
+
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_abortio.md">USBDEVICE_ABORTIO</a>
+
  
 
  

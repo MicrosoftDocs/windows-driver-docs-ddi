@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 436cd161-6984-4101-931a-221a829f40d0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxReference
+ms.keywords: rxprocs/RxReference, ifsk.rxreference, RxReference function [Installable File System Drivers], rxref_3c87a6aa-d0c8-4308-8152-fce322dcb035.xml, RxReference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxReference
-req.alt-loc: rxprocs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rxprocs.h
+apiname: 
+-	RxReference
+product: Windows
+targetos: Windows
+req.typenames: *PRX_CONTEXT, RX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
 # RxReference function
 
 
-
 ## -description
+
+
 <b>RxReference</b> increments the <b>NodeReferenceCount</b> member of a structure by one for several of the reference counted data structures used by RDBSS. 
 
 
-
 ## -syntax
+
 
 ````
 VOID RxReference(
@@ -55,16 +65,24 @@ VOID RxReference(
 
 ## -parameters
 
+
+
+
 ### -param Instance [in, out]
 
 A pointer to the reference-counted data structure to be referenced (incremented). 
 
 
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 The <b>RxReference</b> routine can be used to reference (increment by one) the <b>NodeReferenceCount</b> member on the following data structures used by RDBSS:
 
 SRV_CALL
@@ -80,12 +98,11 @@ FOBX
 If <b>RxReference</b> is called with any other type of RDBSS data structure, the routine causes the system to ASSERT on checked builds. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0ec10c43-df57-4661-9106-8edc6b76f5d7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxSpinDownMRxDispatcher
+ms.keywords: rxref_aa43a136-8df7-45f1-bf52-48792c094f31.xml, rxworkq/RxSpinDownMRxDispatcher, RxSpinDownMRxDispatcher, ifsk.rxspindownmrxdispatcher, RxSpinDownMRxDispatcher function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The RxSpinDownMRxDispatcher routine is only available
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxSpinDownMRxDispatcher
-req.alt-loc: rxworkq.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rxworkq.h
+apiname: 
+-	RxSpinDownMRxDispatcher
+product: Windows
+targetos: Windows
+req.typenames: *PRX_CONTEXT, RX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
 # RxSpinDownMRxDispatcher function
 
 
-
 ## -description
+
+
 <b>RxSpinDownMRxDispatcher</b> tears down the dispatcher context for a network mini-redirector. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RxSpinDownMRxDispatcher(
@@ -55,30 +65,36 @@ NTSTATUS RxSpinDownMRxDispatcher(
 
 ## -parameters
 
+
+
+
 ### -param pMRxDeviceObject [in, out]
 
 A pointer to the device object of the corresponding network mini-redirector driver.
 
 
 ## -returns
+
+
 <b>RxSpinDownMRxDispatcher</b> returns STATUS_SUCCESS on success. On checked builds, this routine causes the system to ASSERT on failure. 
 
 
+
 ## -remarks
+
+
 The <b>RxSpinDownMRxDispatcher</b> routine will set a tear down request into the driver device object of the network mini-redirector driver (the <b>DispatcherContext.pTearDownEvent</b> member of the device object is set to <b>&amp;TearDownEvent</b>) and wait for the driver to tear down any outstanding worker threads. 
 
 The <b>RxSpinDownMRxDispatcher</b> routine is also called internally by the <b>RxStopMiniRdr</b> and <b>RxpUnregisterMinirdr</b> routines.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\rxworkq\nf-rxworkq-rxdispatchtoworkerthread.md">RxDispatchToWorkerThread</a>
-</dt>
-<dt>
+
 <a href="..\rxworkq\nf-rxworkq-rxposttoworkerthread.md">RxPostToWorkerThread</a>
-</dt>
-</dl>
+
+<a href="..\rxworkq\nf-rxworkq-rxdispatchtoworkerthread.md">RxDispatchToWorkerThread</a>
+
  
 
  

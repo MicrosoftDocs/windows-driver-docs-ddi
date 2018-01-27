@@ -7,8 +7,8 @@ old-location: netvista\ndis_hd_split_current_config.htm
 old-project: netvista
 ms.assetid: 866fe9e6-0cb1-45cd-84b4-4e2df9c9c45a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_HD_SPLIT_CURRENT_CONFIG, NDIS_HD_SPLIT_CURRENT_CONFIG, *PNDIS_HD_SPLIT_CURRENT_CONFIG
+ms.date: 1/18/2018
+ms.keywords: netvista.ndis_hd_split_current_config, ntddndis/PNDIS_HD_SPLIT_CURRENT_CONFIG, NDIS_HD_SPLIT_CURRENT_CONFIG, header_data_split_ref_7275dcfc-6fe4-4648-9b4c-0b5a37aa850b.xml, _NDIS_HD_SPLIT_CURRENT_CONFIG, PNDIS_HD_SPLIT_CURRENT_CONFIG, *PNDIS_HD_SPLIT_CURRENT_CONFIG, ntddndis/NDIS_HD_SPLIT_CURRENT_CONFIG, NDIS_HD_SPLIT_CURRENT_CONFIG structure [Network Drivers Starting with Windows Vista], PNDIS_HD_SPLIT_CURRENT_CONFIG structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.1 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_HD_SPLIT_CURRENT_CONFIG
-req.alt-loc: ntddndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: NDIS_HD_SPLIT_CURRENT_CONFIG, *PNDIS_HD_SPLIT_CURRENT_CONFIG
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddndis.h
+apiname: 
+-	NDIS_HD_SPLIT_CURRENT_CONFIG
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_HD_SPLIT_CURRENT_CONFIG, NDIS_HD_SPLIT_CURRENT_CONFIG
 ---
 
 # _NDIS_HD_SPLIT_CURRENT_CONFIG structure
 
 
-
 ## -description
+
+
 The NDIS_HD_SPLIT_CURRENT_CONFIG structure provides the current header-data split configuration of a
   miniport adapter.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NDIS_HD_SPLIT_CURRENT_CONFIG {
@@ -60,6 +70,9 @@ typedef struct _NDIS_HD_SPLIT_CURRENT_CONFIG {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -83,49 +96,6 @@ The header-data split hardware capabilities that the miniport adapter supports. 
 
 
 
-### -field NDIS_HD_SPLIT_CAPS_SUPPORTS_HEADER_DATA_SPLIT
-
-The miniport adapter can split the header and data into separate memory descriptor lists (MDLs)
-       that meet the requirements for header-data split support.
-
-
-### -field NDIS_HD_SPLIT_CAPS_SUPPORTS_IPV4_OPTIONS
-
-The miniport adapter can split IPv4 Ethernet frames that include IPv4 options. The miniport
-       adapter can support splitting some IPv4 options while not splitting others. 
-       
-
-<div class="alert"><b>Note</b>  The NIC must not split IPv4 frames that contain unsupported IPv4 options. If an
-       IPv4 frame is split, the header portion of the split frame must contain the entire IPv4 header and all
-       of the IPv4 options that are present.</div>
-<div> </div>
-
-### -field NDIS_HD_SPLIT_CAPS_SUPPORTS_IPV6_EXTENSION_HEADERS
-
-The miniport adapter can split IPv6 Ethernet frames that include IPv6 extension headers. The
-       miniport adapter can support some IPv6 extension headers while not supporting others. 
-       
-
-<div class="alert"><b>Note</b>  The NIC must not split IPv6 frames that contain unsupported IPv6 extension
-       headers. If an IPv6 frame is split, the header portion of the split frame must contain the entire IPv6
-       header and all of the IPv6 extension headers that are present.</div>
-<div> </div>
-
-### -field NDIS_HD_SPLIT_CAPS_SUPPORTS_TCP_OPTIONS
-
-The miniport adapter can split TCP frames with other TCP options in addition to the timestamp
-       option. The miniport adapter can support some TCP options and not support others.
-       
-
-<div class="alert"><b>Note</b>  If the only TCP option in a frame is the timestamp option, the data-split
-       provider must be able to split the frame.</div>
-<div> </div>
-<div class="alert"><b>Note</b>  If a TCP header contains an unsupported TCP option, the NIC must split the frame
-       at the beginning of the TCP header or must not split the frame.</div>
-<div> </div>
-</dd>
-</dl>
-
 ### -field CurrentCapabilities
 
 The current header-data split capabilities that the miniport adapter supports. The miniport driver
@@ -143,14 +113,6 @@ A set of flags that reports the status of header-data split for a miniport adapt
 
 
 
-### -field NDIS_HD_SPLIT_ENABLE_HEADER_DATA_SPLIT
-
-The miniport driver has enabled header-data split in the hardware. Otherwise, header-data split
-       is disabled.
-
-</dd>
-</dl>
-
 ### -field HDSplitCombineFlags
 
 A set of flags that specify the current header-data split settings of a miniport adapter. The
@@ -160,14 +122,6 @@ A set of flags that specify the current header-data split settings of a miniport
 
 
 
-
-### -field NDIS_HD_SPLIT_COMBINE_ALL_HEADERS
-
-The miniport adapter is combining split frames. If header-data split is enabled in the hardware,
-       the miniport driver should combine the header and data before indicating the frame to NDIS.
-
-</dd>
-</dl>
 
 ### -field BackfillSize
 
@@ -180,37 +134,79 @@ The backfill size, in bytes, that the miniport driver is using for the data port
 The maximum size, in bytes, that the miniport driver is using for the header portion of a split
      frame. 
      
-
 <div class="alert"><b>Note</b>  If the length of a header exceeds 
      <b>MaxHeaderSize</b> because of the presence of IPv4 options, IPsec headers, or IPv6 extension headers,
      the frame must not be split. If a header that includes a TCP or UDP header exceeds 
      <b>MaxHeaderSize</b> because of the presence of TCP header, TCP options, or UDP header, the NIC must
      split the frame at the beginning of the upper layer protocol header or must not split the
-     frame.</div>
-<div> </div>
+     frame.</div><div> </div>
+
+##### - HDSplitFlags.NDIS_HD_SPLIT_ENABLE_HEADER_DATA_SPLIT
+
+The miniport driver has enabled header-data split in the hardware. Otherwise, header-data split
+       is disabled.
+
+
+##### - HardwareCapabilities.NDIS_HD_SPLIT_CAPS_SUPPORTS_IPV6_EXTENSION_HEADERS
+
+The miniport adapter can split IPv6 Ethernet frames that include IPv6 extension headers. The
+       miniport adapter can support some IPv6 extension headers while not supporting others. 
+       
+<div class="alert"><b>Note</b>  The NIC must not split IPv6 frames that contain unsupported IPv6 extension
+       headers. If an IPv6 frame is split, the header portion of the split frame must contain the entire IPv6
+       header and all of the IPv6 extension headers that are present.</div><div> </div>
+
+##### - HardwareCapabilities.NDIS_HD_SPLIT_CAPS_SUPPORTS_HEADER_DATA_SPLIT
+
+The miniport adapter can split the header and data into separate memory descriptor lists (MDLs)
+       that meet the requirements for header-data split support.
+
+
+##### - HardwareCapabilities.NDIS_HD_SPLIT_CAPS_SUPPORTS_IPV4_OPTIONS
+
+The miniport adapter can split IPv4 Ethernet frames that include IPv4 options. The miniport
+       adapter can support splitting some IPv4 options while not splitting others. 
+       
+<div class="alert"><b>Note</b>  The NIC must not split IPv4 frames that contain unsupported IPv4 options. If an
+       IPv4 frame is split, the header portion of the split frame must contain the entire IPv4 header and all
+       of the IPv4 options that are present.</div><div> </div>
+
+##### - HDSplitCombineFlags.NDIS_HD_SPLIT_COMBINE_ALL_HEADERS
+
+The miniport adapter is combining split frames. If header-data split is enabled in the hardware,
+       the miniport driver should combine the header and data before indicating the frame to NDIS.
+
+
+##### - HardwareCapabilities.NDIS_HD_SPLIT_CAPS_SUPPORTS_TCP_OPTIONS
+
+The miniport adapter can split TCP frames with other TCP options in addition to the timestamp
+       option. The miniport adapter can support some TCP options and not support others.
+       
+<div class="alert"><b>Note</b>  If the only TCP option in a frame is the timestamp option, the data-split
+       provider must be able to split the frame.</div><div> </div><div class="alert"><b>Note</b>  If a TCP header contains an unsupported TCP option, the NIC must split the frame
+       at the beginning of the TCP header or must not split the frame.</div><div> </div>
 
 ## -remarks
+
+
 The NDIS_HD_SPLIT_CURRENT_CONFIG structure is used in the 
-    <a href="netvista.oid_gen_hd_split_current_config">
-    OID_GEN_HD_SPLIT_CURRENT_CONFIG</a> OID query request to obtain the current header-data split
+    <mshelp:link keywords="netvista.oid_gen_hd_split_current_config" tabindex="0">
+    OID_GEN_HD_SPLIT_CURRENT_CONFIG</mshelp:link> OID query request to obtain the current header-data split
     configuration of a miniport adapter.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569586">OID_GEN_HD_SPLIT_CURRENT_CONFIG</a>
-</dt>
-<dt>
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-</dt>
-</dl>
- 
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-hd-split-current-config">OID_GEN_HD_SPLIT_CURRENT_CONFIG</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_HD_SPLIT_CURRENT_CONFIG structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_HD_SPLIT_CURRENT_CONFIG structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

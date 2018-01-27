@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1af28545-f43f-47a2-b6a2-64fd7a408687
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ClearMpioDiskHealthCounters_IN, *PClearMpioDiskHealthCounters_IN, ClearMpioDiskHealthCounters_IN
+ms.keywords: mpiowmi/PClearMpioDiskHealthCounters_IN, _ClearMpioDiskHealthCounters_IN, PClearMpioDiskHealthCounters_IN, ClearMpioDiskHealthCounters_IN structure [Storage Devices], *PClearMpioDiskHealthCounters_IN, PClearMpioDiskHealthCounters_IN structure pointer [Storage Devices], storage.clearmpiodiskhealthcounters_in, structs-scsibus_52663a43-dc66-4b77-b30d-d60ffbea7232.xml, ClearMpioDiskHealthCounters_IN, mpiowmi/ClearMpioDiskHealthCounters_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ClearMpioDiskHealthCounters_IN
-req.alt-loc: mpiowmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PClearMpioDiskHealthCounters_IN, ClearMpioDiskHealthCounters_IN
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mpiowmi.h
+apiname: 
+-	ClearMpioDiskHealthCounters_IN
+product: Windows
+targetos: Windows
+req.typenames: ClearMpioDiskHealthCounters_IN, *PClearMpioDiskHealthCounters_IN
 ---
 
 # _ClearMpioDiskHealthCounters_IN structure
 
 
-
 ## -description
+
+
 The ClearMpioDiskHealthCounters_IN structure is used to provide an input parameter to the ClearMpioDiskHealthCounters method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ClearMpioDiskHealthCounters_IN {
@@ -54,9 +64,10 @@ typedef struct _ClearMpioDiskHealthCounters_IN {
 
 ## -struct-fields
 
+
+
+
 ### -field DiskOrdinal
 
 A 32-bitfield that represents the MPIO disk ordinal value.
 
-
-## -remarks

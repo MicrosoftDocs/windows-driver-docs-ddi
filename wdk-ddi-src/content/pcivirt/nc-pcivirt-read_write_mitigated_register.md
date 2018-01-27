@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 7cd45484-0fee-4b8e-aa35-4142883c146e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _PARCLASS_INFORMATION, PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
+ms.keywords: PCI.read_write_mitigated_registers, ReadWriteMitigatedRegister callback function [Buses], ReadWriteMitigatedRegister, READ_WRITE_MITIGATED_REGISTER, READ_WRITE_MITIGATED_REGISTER, pcivirt/ReadWriteMitigatedRegister, *PREAD_WRITE_MITIGATED_REGISTER callback function pointer [Buses], *PREAD_WRITE_MITIGATED_REGISTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: *PREAD_WRITE_MITIGATED_REGISTER
-req.alt-loc: Pcivirt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Pcivirt.h
+apiname: 
+-	*PREAD_WRITE_MITIGATED_REGISTER
+product: Windows
+targetos: Windows
 req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---
 
 # READ_WRITE_MITIGATED_REGISTER callback
 
 
-
 ## -description
+
+
 Reads or writes to mitigated address spaces. 
 
 
-
 ## -prototype
+
 
 ````
 READ_WRITE_MITIGATED_REGISTER ReadWriteMitigatedRegister;
@@ -64,6 +74,9 @@ typedef READ_WRITE_MITIGATED_REGISTER *PREAD_WRITE_MITIGATED_REGISTER;
 
 
 ## -parameters
+
+
+
 
 ### -param Context [in]
 
@@ -108,10 +121,17 @@ A pointer to a buffer that contains the data to read or write.
 
 ## -returns
 
+
+
 Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
 
 
+
 ## -remarks
+
+
 This callback function is implemented by the physical function (PF) driver. It is invoked  when the system wants to read or write from a mitigable register. 
 
-The PF driver registers its implementation by setting the <b>ReadWriteMitigatedRegister</b> member of the <a href="https://msdn.microsoft.com/1fac7c03-2a48-4b29-951d-c777fbec7dd3">MITIGABLE_DEVICE_INTERFACE</a>, configuring a <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure, and calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.</p>
+The PF driver registers its implementation by setting the <b>ReadWriteMitigatedRegister</b> member of the <a href="https://msdn.microsoft.com/1fac7c03-2a48-4b29-951d-c777fbec7dd3">MITIGABLE_DEVICE_INTERFACE</a>, configuring a <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure, and calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.
+
+

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 140a92a8-4b82-47d0-855c-6bc1f9a3d167
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_ARG_QUERYRESOURCERESIDENCY, DXGI_DDI_ARG_QUERYRESOURCERESIDENCY
+ms.keywords: display.dxgi_ddi_arg_queryresourceresidency, dxgiddi/DXGI_DDI_ARG_QUERYRESOURCERESIDENCY, DXGI_DDI_ARG_QUERYRESOURCERESIDENCY, DXGI_DDI_ARG_QUERYRESOURCERESIDENCY structure [Display Devices], UMDisplayDriver_Dx10param_Structs_c6e97d75-9ef8-4ae5-9b1f-c4a25234b906.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGI_DDI_ARG_QUERYRESOURCERESIDENCY
-req.alt-loc: dxgiddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxgiddi.h
+apiname: 
+-	DXGI_DDI_ARG_QUERYRESOURCERESIDENCY
+product: Windows
+targetos: Windows
 req.typenames: DXGI_DDI_ARG_QUERYRESOURCERESIDENCY
 ---
 
 # DXGI_DDI_ARG_QUERYRESOURCERESIDENCY structure
 
 
-
 ## -description
+
+
 The DXGI_DDI_ARG_QUERYRESOURCERESIDENCY structure describes the residency status of a list of resources. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct DXGI_DDI_ARG_QUERYRESOURCERESIDENCY {
@@ -56,6 +66,9 @@ typedef struct DXGI_DDI_ARG_QUERYRESOURCERESIDENCY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -70,7 +83,6 @@ typedef struct DXGI_DDI_ARG_QUERYRESOURCERESIDENCY {
 ### -field pStatus
 
 [out] A pointer to an array of DXGI_DDI_RESIDENCY values. The number of elements in the array is specified by the <b>Resources</b> member, and each element receives one of the following values to indicate the residency status of the corresponding resource in the array that <b>pResources</b> specifies. 
-
 <table>
 <tr>
 <th>Value</th>
@@ -106,8 +118,7 @@ The resources are nonresident, which is the lowest residency status.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Resources
@@ -115,15 +126,10 @@ The resources are nonresident, which is the lowest residency status.
 [in] The number of elements in the <i>pResources</i> and <i>pStatus</i> arrays. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569224">QueryResourceResidencyDXGI</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: e724ae02-642d-464c-b1d2-e43a657b4e9c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_HUB_TYPE, USB_HUB_TYPE
+ms.keywords: buses.ioctl_internal_usb_req_global_suspend, IOCTL_INTERNAL_USB_REQ_GLOBAL_SUSPEND control code [Buses], IOCTL_INTERNAL_USB_REQ_GLOBAL_SUSPEND, usbioctl/IOCTL_INTERNAL_USB_REQ_GLOBAL_SUSPEND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_INTERNAL_USB_REQ_GLOBAL_SUSPEND
-req.alt-loc: Usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Usbioctl.h
+apiname: 
+-	IOCTL_INTERNAL_USB_REQ_GLOBAL_SUSPEND
+product: Windows
+targetos: Windows
 req.typenames: USB_HUB_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,42 +47,69 @@ req.product: Windows 10 or later.
 # IOCTL_INTERNAL_USB_REQ_GLOBAL_SUSPEND IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
- The <b>IOCTL_INTERNAL_USB_REQ_GLOBAL_SUSPEND</b> IOCTL is used by the USB hub driver. Do not use.
 
+
+ The <b>IOCTL_INTERNAL_USB_REQ_GLOBAL_SUSPEND</b> IOCTL is used by the USB hub driver. Do not use.
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
 
+
 <text></text>
+
+
 
 ### -input-buffer-length
 
+
 <text></text>
+
+
 
 ### -output-buffer
 
+
 <text></text>
+
+
 
 ### -output-buffer-length
 
+
 <text></text>
+
+
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
+
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 For more information, see [XREF-LINK:NTSTATUS Values].
 
-## -remarks
+

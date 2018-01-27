@@ -7,8 +7,8 @@ old-location: netvista\rilsetcallbarringstatusparams_2.htm
 old-project: netvista
 ms.assetid: 6116e564-93e6-45ba-8759-aab7d82783b2
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSETCALLBARRINGSTATUSPARAMS, *LPRILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS
+ms.date: 1/18/2018
+ms.keywords: netvista.rilsetcallbarringstatusparams_2, rilapitypes/RILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSETCALLBARRINGSTATUSPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSETCALLBARRINGSTATUSPARAMS
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILSETCALLBARRINGSTATUSPARAMS
+product: Windows
+targetos: Windows
+req.typenames: RILSETCALLBARRINGSTATUSPARAMS, *LPRILSETCALLBARRINGSTATUSPARAMS
 req.product: Windows 10 or later.
 ---
 
 # RILSETCALLBARRINGSTATUSPARAMS structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILSETCALLBARRINGSTATUSPARAMS {
@@ -61,25 +71,33 @@ typedef struct _RILSETCALLBARRINGSTATUSPARAMS {
 
 ## -struct-fields
 
+
+
+
 ### -field dwExecutor
+
 
 
 ### -field dwType
 
 
+
 ### -field fAllClasses
+
 
 
 ### -field dwInfoClasses
 
 
+
 ### -field fPassword
+
 
 
 ### -field szPassword
 
 
+
 ### -field dwStatus
 
 
-## -remarks

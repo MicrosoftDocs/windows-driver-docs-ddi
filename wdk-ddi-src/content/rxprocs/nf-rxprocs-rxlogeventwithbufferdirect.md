@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 09a7d452-efa1-4846-8077-1f6ce60515e7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxLogEventWithBufferDirect
+ms.keywords: RxLogEventWithBufferDirect, ifsk.rxlogeventwithbufferdirect, rxref_95cd6139-10e2-4cf1-bfd9-51b3d6dd1119.xml, rxprocs/RxLogEventWithBufferDirect, RxLogEventWithBufferDirect function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxLogEventWithBufferDirect
-req.alt-loc: rxprocs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rxprocs.h
+apiname: 
+-	RxLogEventWithBufferDirect
+product: Windows
+targetos: Windows
+req.typenames: *PRX_CONTEXT, RX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
 # RxLogEventWithBufferDirect function
 
 
-
 ## -description
+
+
 <b>RxLogEventWithBufferDirect</b> allocates an I/O error log structure, fills it in with information, and writes the entry to the I/O error log.
 
 
-
 ## -syntax
+
 
 ````
 VOID RxLogEventWithBufferDirect(
@@ -61,9 +71,12 @@ VOID RxLogEventWithBufferDirect(
 
 ## -parameters
 
-### -param DeviceObject [in]
 
-A pointer to the RDBSS device object.
+
+
+### -param DeviceOrDriverObject
+
+TBD
 
 
 ### -param OriginatorId [in]
@@ -96,11 +109,21 @@ The length of the data buffer to be added to the I/O error log structure.
 The line number in the source code file where this failure occurred.
 
 
+#### - DeviceObject [in]
+
+A pointer to the RDBSS device object.
+
+
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>RxLogEventDirect</b> internally calls the <b>RxLogEventWithAnnotation</b> routine to create and write the log entry passing the <i>Status</i> and <i>LineNumber</i> parameters as the <i>Annotations</i> parameter to <b>RxLogEventWithAnnotation</b>. 
 
 The I/O error log entry size is limited to a length of 255 characters. So if the combined length of the <i>EventId</i>, <i>DataBuffer</i>, and <i>Annotations</i> parameters plus the size of the fixed part of the I/O error log entry exceeds 255, then no I/O error log entry will be created.
@@ -108,18 +131,15 @@ The I/O error log entry size is limited to a length of 255 characters. So if the
 The <b>RxLogEventWithAnnotation</b> routine needs to allocate memory in order to create the I/O error log entry . Consequently, <b>RxLogEventWithBufferDirect</b> can silently fail if the memory allocation fails. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\rxprocs\nf-rxprocs-rxlogeventdirect.md">RxLogEventDirect</a>
-</dt>
-<dt>
+
 <a href="..\rxprocs\nf-rxprocs-rxlogeventwithannotation.md">RxLogEventWithAnnotation</a>
-</dt>
-<dt>
+
+<a href="..\rxprocs\nf-rxprocs-rxlogeventdirect.md">RxLogEventDirect</a>
+
 <a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
-</dt>
-</dl>
+
  
 
  

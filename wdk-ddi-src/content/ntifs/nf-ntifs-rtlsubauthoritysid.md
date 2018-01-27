@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bd3f84ad-d617-4744-b423-1d82da3b05c0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlSubAuthoritySid
+ms.keywords: ntifs/RtlSubAuthoritySid, rtlref_d901f9ac-d7c4-49e1-871e-75aee9fa8c2b.xml, RtlSubAuthoritySid, RtlSubAuthoritySid routine [Installable File System Drivers], ifsk.rtlsubauthoritysid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlSubAuthoritySid
-req.alt-loc: NtosKrnl.exe,Ntdll.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+-	Ntdll.dll
+apiname: 
+-	RtlSubAuthoritySid
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlSubAuthoritySid function
 
 
-
 ## -description
+
+
 The <b>RtlSubAuthoritySid</b> routine returns a pointer to a specified subauthority of a security identifier (SID). 
 
 
-
 ## -syntax
+
 
 ````
 PULONG RtlSubAuthoritySid(
@@ -55,33 +66,45 @@ PULONG RtlSubAuthoritySid(
 
 ## -parameters
 
+
+
+
 ### -param Sid [in]
 
 Pointer to the SID structure. The SID must have been initialized by calling <b>RtlInitializeSid</b>.
 
 
-### -param SubAuthorityCount [in]
+### -param SubAuthority
+
+TBD
+
+
+
+#### - SubAuthorityCount [in]
 
 Zero-based index indicating which subauthority is being specified. This value is not validated against the number of subauthorities in the SID. 
 
 
 ## -returns
+
+
 If the call to <b>RtlSubAuthoritySid</b> succeeds, the return value is a pointer to the specified SID subauthority. The subauthority value is a relative identifier. (The relative identifier, or RID, is the portion of a SID that identifies a user or group in relation to the authority that issued the SID.) 
 
 
+
 ## -remarks
+
+
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
+
  
 
  

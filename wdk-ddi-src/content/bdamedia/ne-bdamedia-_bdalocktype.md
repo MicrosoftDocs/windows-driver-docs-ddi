@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6119727a-05af-4a70-a321-5f0f2e439b93
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _BdaLockType, BDA_LockType
+ms.keywords: Bda_LockType_DecoderDemod, Bda_LockType_None, Bda_LockType_PLL, bdaref_46e4b273-15bc-47bc-a14b-2a6be1cc3c0f.xml, Bda_LockType_Complete, bdamedia/BDA_LockType, BDA_LockType, stream.bda_locktype, bdamedia/Bda_LockType_None, bdamedia/Bda_LockType_Complete, BDA_LockType enumeration [Streaming Media Devices], _BdaLockType, bdamedia/Bda_LockType_DecoderDemod, bdamedia/Bda_LockType_PLL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BDA_LockType
-req.alt-loc: bdamedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bdamedia.h
+apiname: 
+-	BDA_LockType
+product: Windows
+targetos: Windows
 req.typenames: BDA_LockType
 ---
 
 # _BdaLockType enumeration
 
 
-
 ## -description
+
+
 The BDA_LockType enumerated type contains values that specify lock types for a signal. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _BdaLockType { 
@@ -56,6 +66,9 @@ typedef enum _BdaLockType {
 
 
 ## -enum-fields
+
+
+
 
 ### -field Bda_LockType_None
 
@@ -77,18 +90,12 @@ The driver supports a decoder-demodulator lock.
 To be supplied.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564369">KSPROPERTY_BDA_SIGNAL_LOCK_CAPS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564370">KSPROPERTY_BDA_SIGNAL_LOCK_TYPE</a>
-</dt>
-</dl>
+
  
 
  

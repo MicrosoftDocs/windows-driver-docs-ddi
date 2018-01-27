@@ -7,8 +7,8 @@ old-location: debugger\debug_module_and_id.htm
 old-project: debugger
 ms.assetid: d65ad0fa-1dd8-42b4-866b-cb2522080cde
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _DEBUG_MODULE_AND_ID, DEBUG_MODULE_AND_ID, *PDEBUG_MODULE_AND_ID
+ms.date: 1/19/2018
+ms.keywords: dbgeng/PDEBUG_MODULE_AND_ID, debugger.debug_module_and_id, PDEBUG_MODULE_AND_ID structure pointer [Windows Debugging], DEBUG_MODULE_AND_ID structure [Windows Debugging], DEBUG_MODULE_AND_ID, Structures_d53c2a34-f855-45a0-918b-0a8dfb936828.xml, _DEBUG_MODULE_AND_ID, *PDEBUG_MODULE_AND_ID, PDEBUG_MODULE_AND_ID, dbgeng/DEBUG_MODULE_AND_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DEBUG_MODULE_AND_ID
-req.alt-loc: DbgEng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DEBUG_MODULE_AND_ID, *PDEBUG_MODULE_AND_ID
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	DbgEng.h
+apiname: 
+-	DEBUG_MODULE_AND_ID
+product: Windows
+targetos: Windows
+req.typenames: *PDEBUG_MODULE_AND_ID, DEBUG_MODULE_AND_ID
 ---
 
 # _DEBUG_MODULE_AND_ID structure
 
 
-
 ## -description
+
+
 The DEBUG_MODULE_AND_ID structure describes a symbol within a module.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DEBUG_MODULE_AND_ID {
@@ -55,6 +65,9 @@ typedef struct _DEBUG_MODULE_AND_ID {
 
 ## -struct-fields
 
+
+
+
 ### -field ModuleBase
 
 The location in the target's virtual address space of the module's base address.
@@ -64,5 +77,3 @@ The location in the target's virtual address space of the module's base address.
 
 The symbol ID of the symbol within the module.
 
-
-## -remarks

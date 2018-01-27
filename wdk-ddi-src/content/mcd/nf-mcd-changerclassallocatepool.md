@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d211bab9-4932-41c5-9b6f-528a75bb2ae4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerClassAllocatePool
+ms.keywords: storage.changerclassallocatepool, chgrclas_e1b15ece-f3e4-446f-adc4-39301fc0346f.xml, ChangerClassAllocatePool function [Storage Devices], mcd/ChangerClassAllocatePool, ChangerClassAllocatePool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ChangerClassAllocatePool
-req.alt-loc: Mcd.lib,Mcd.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Mcd.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Mcd.lib
+-	Mcd.dll
+apiname: 
+-	ChangerClassAllocatePool
+product: Windows
+targetos: Windows
 req.typenames: LAMP_INTENSITY_WHITE
 ---
 
 # ChangerClassAllocatePool function
 
 
-
 ## -description
+
+
 The <b>ChangerClassAllocatePool</b> function allocates pool memory. 
 
 
-
 ## -syntax
+
 
 ````
 PVOID ChangerClassAllocatePool(
@@ -54,6 +65,9 @@ PVOID ChangerClassAllocatePool(
 
 
 ## -parameters
+
+
+
 
 ### -param PoolType [in]
 
@@ -66,18 +80,16 @@ Indicates number of bytes to allocate.
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
-</dt>
-</dl>
+
  
 
  

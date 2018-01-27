@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 77B30ADC-27F2-4883-97FC-F6C29B539EE0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _BDA_TUNER_TUNERSTATE, *PBDA_TUNER_TUNERSTATE, BDA_TUNER_TUNERSTATE
+ms.keywords: BDA_TUNER_TUNERSTATE structure [Streaming Media Devices], bdatypes/BDA_TUNER_TUNERSTATE, BDA_TUNER_TUNERSTATE, PBDA_TUNER_TUNERSTATE structure pointer [Streaming Media Devices], *PBDA_TUNER_TUNERSTATE, PBDA_TUNER_TUNERSTATE, stream.bda_tuner_tunerstate, _BDA_TUNER_TUNERSTATE, bdatypes/PBDA_TUNER_TUNERSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BDA_TUNER_TUNERSTATE
-req.alt-loc: Bdatypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PBDA_TUNER_TUNERSTATE, BDA_TUNER_TUNERSTATE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bdatypes.h
+apiname: 
+-	BDA_TUNER_TUNERSTATE
+product: Windows
+targetos: Windows
+req.typenames: BDA_TUNER_TUNERSTATE, *PBDA_TUNER_TUNERSTATE
 ---
 
 # _BDA_TUNER_TUNERSTATE structure
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: *PBDA_TUNER_TUNERSTATE, BDA_TUNER_TUNERSTATE
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct _BDA_TUNER_TUNERSTATE {
@@ -56,13 +66,17 @@ typedef struct _BDA_TUNER_TUNERSTATE {
 
 ## -struct-fields
 
+
+
+
 ### -field lResult
+
 
 
 ### -field ulTuneLength
 
 
+
 ### -field argbTuneData
 
 
-## -remarks

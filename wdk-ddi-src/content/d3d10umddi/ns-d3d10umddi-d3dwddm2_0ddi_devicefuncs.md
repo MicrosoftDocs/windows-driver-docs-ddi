@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9A41512A-91C4-4053-9C60-5B485E93D14B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DWDDM2_0DDI_DEVICEFUNCS, D3DWDDM2_0DDI_DEVICEFUNCS
+ms.keywords: display.d3dwddm2_0ddi_devicefuncs, d3d10umddi/D3DWDDM2_0DDI_DEVICEFUNCS, D3DWDDM2_0DDI_DEVICEFUNCS, D3DWDDM2_0DDI_DEVICEFUNCS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DWDDM2_0DDI_DEVICEFUNCS
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3DWDDM2_0DDI_DEVICEFUNCS
+product: Windows
+targetos: Windows
 req.typenames: D3DWDDM2_0DDI_DEVICEFUNCS
 ---
 
 # D3DWDDM2_0DDI_DEVICEFUNCS structure
 
 
-
 ## -description
+
+
 This structure contains the user mode device function table for Windows Display Driver Model (WDDM) 2.0.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3DWDDM2_0DDI_DEVICEFUNCS {
@@ -205,6 +215,9 @@ typedef struct D3DWDDM2_0DDI_DEVICEFUNCS {
 
 ## -struct-fields
 
+
+
+
 ### -field pfnDefaultConstantBufferUpdateSubresourceUP
 
 A pointer to the <a href="https://msdn.microsoft.com/80086f1a-75f8-464f-973e-9c1e67725933">DefaultConstantBufferUpdateSubresourceUP</a> function.
@@ -245,6 +258,31 @@ A pointer to the <a href="https://msdn.microsoft.com/d1097bb6-35ac-4069-ae05-b74
 A pointer to the <a href="https://msdn.microsoft.com/7a6f1d56-12be-4185-97bf-06f265ee6fe3">Draw</a> function.
 
 
+### -field pfnDynamicIABufferMapNoOverwrite
+
+ 
+
+
+### -field pfnDynamicIABufferUnmap
+
+ 
+
+
+### -field pfnDynamicConstantBufferMapDiscard
+
+ 
+
+
+### -field pfnDynamicIABufferMapDiscard
+
+ 
+
+
+### -field pfnDynamicConstantBufferUnmap
+
+ 
+
+
 ### -field pfnPsSetConstantBuffers
 
 A pointer to the <a href="https://msdn.microsoft.com/d77070d8-daf8-44d3-9032-a7a7d3c2c242">PsSetConstantBuffers</a> function.
@@ -275,6 +313,16 @@ A pointer to the <a href="https://msdn.microsoft.com/3dc64562-9dc0-4d43-835d-6fd
 A pointer to the <a href="https://msdn.microsoft.com/c539cf8b-e056-476a-9b23-7e360917a7d9">DrawInstanced</a> function.
 
 
+### -field pfnDynamicResourceMapDiscard
+
+ 
+
+
+### -field pfnDynamicResourceUnmap
+
+ 
+
+
 ### -field pfnGsSetConstantBuffers
 
 A pointer to the <a href="https://msdn.microsoft.com/1d13fe21-55bc-46c0-b07e-3c96f671496c">GsSetConstantBuffers</a> function.
@@ -288,6 +336,16 @@ A pointer to the <a href="https://msdn.microsoft.com/9f40371d-4a74-4020-af8a-e37
 ### -field pfnIaSetTopology
 
 A pointer to the <a href="https://msdn.microsoft.com/c2ee9c8b-7e33-4fc9-9bd3-2b2984e94390">IaSetTopology</a> function.
+
+
+### -field pfnStagingResourceMap
+
+ 
+
+
+### -field pfnStagingResourceUnmap
+
+ 
 
 
 ### -field pfnVsSetShaderResources
@@ -665,6 +723,26 @@ A pointer to the <a href="https://msdn.microsoft.com/a3c158c2-6c0d-4da0-80f4-569
 A pointer to the <a href="https://msdn.microsoft.com/663fd3c3-7a8f-446d-b45a-392716116407">SetTextFilterSize</a> function.
 
 
+### -field pfnResourceConvert
+
+ 
+
+
+### -field pfnResourceConvertRegion
+
+ 
+
+
+### -field pfnResetPrimitiveID
+
+ 
+
+
+### -field pfnSetVertexPipelineOutput
+
+ 
+
+
 ### -field pfnDrawIndexedInstancedIndirect
 
 A pointer to the <a href="https://msdn.microsoft.com/3debfb11-4de9-456b-a094-feb2f68e96a5">DrawIndexedInstancedIndirect</a> function.
@@ -895,6 +973,11 @@ A pointer to the <a href="https://msdn.microsoft.com/c387545e-2891-401d-b7ca-ee7
 A pointer to the <a href="https://msdn.microsoft.com/c9e08048-683a-4f43-b3b8-1914c2933a5c">RecycleCreateDeferredContext</a> function.
 
 
+### -field pfnRecycleDestroyCommandList
+
+ 
+
+
 ### -field pfnDiscard
 
 A pointer to the <a href="https://msdn.microsoft.com/F3EC7AAE-9DB8-43A1-B756-5F5C91F8372E">Discard</a> function.
@@ -903,6 +986,11 @@ A pointer to the <a href="https://msdn.microsoft.com/F3EC7AAE-9DB8-43A1-B756-5F5
 ### -field pfnAssignDebugBinary
 
 A pointer to the <a href="https://msdn.microsoft.com/eb1e3c27-71c1-4920-9aa4-3253306fa3f4">AssignDebugBinary</a> function.
+
+
+### -field pfnDynamicConstantBufferMapNoOverwrite
+
+ 
 
 
 ### -field pfnCheckDirectFlipSupport
@@ -965,4 +1053,53 @@ A pointer to the <a href="https://msdn.microsoft.com/18B13509-7692-4336-937C-264
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn906369">SetHardwareProtection</a> function.
 
 
-## -remarks
+### -field pfnCalcPrivateShaderResourceViewSizeWDDM2_0
+
+ 
+
+
+### -field pfnCreateShaderResourceViewWDDM2_0
+
+ 
+
+
+### -field pfnCalcPrivateRenderTargetViewSizeWDDM2_0
+
+ 
+
+
+### -field pfnCreateRenderTargetViewWDDM2_0
+
+ 
+
+
+### -field pfnCalcPrivateQuerySizeWDDM2_0
+
+ 
+
+
+### -field pfnCreateQueryWDDM2_0
+
+ 
+
+
+### -field pfnCalcPrivateUnorderedAccessViewSizeWDDM2_0
+
+ 
+
+
+### -field pfnCreateUnorderedAccessViewWDDM2_0
+
+ 
+
+
+### -field pfnFlushWDDM2_0
+
+ 
+
+
+### -field pfnGetResourceLayout
+
+ 
+
+

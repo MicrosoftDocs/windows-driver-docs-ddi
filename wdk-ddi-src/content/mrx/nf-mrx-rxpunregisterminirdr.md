@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 84155e3f-8090-4b0d-a101-25ecd126bc37
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxpUnregisterMinirdr
+ms.keywords: RxpUnregisterMinirdr function [Installable File System Drivers], RxpUnregisterMinirdr, rxref_3d8dd57c-4753-47c7-afda-efbd54882c74.xml, mrx/RxpUnregisterMinirdr, ifsk.rxpunregisterminirdr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxpUnregisterMinirdr
-req.alt-loc: mrx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mrx.h
+apiname: 
+-	RxpUnregisterMinirdr
+product: Windows
+targetos: Windows
 req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 ---
 
 # RxpUnregisterMinirdr function
 
 
-
 ## -description
+
+
 <b>RxpUnregisterMinirdr</b> is called by a network mini-redirector driver to de-register the driver with RDBSS and remove the registration information from the internal RDBSS registration table.
 
 
-
 ## -syntax
+
 
 ````
 VOID RxpUnregisterMinirdr(
@@ -54,16 +64,24 @@ VOID RxpUnregisterMinirdr(
 
 ## -parameters
 
+
+
+
 ### -param RxDeviceObject [in]
 
 A pointer to the RDBSS device object for this network redirector.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The <b>RxpUnregisterMinirdr</b> routine unregisters the driver with RDBSS and removes the registration information from the internal RDBSS registration table. If name tables were initialized, then these tables will be finalized for release. Any outstanding asynchronous requests to the network mini-redirector are spun down, and any worker threads associated with the redirector are spun down. <b>RxpUnregisterMinirdr</b> also tries to remove the device object from the system by calling <a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>.
 
 The <b>RxpUnregisterMinirdr </b>routine is usually called as a result of an FSCTL or IOCTL request from a user-mode application or service to unload the network mini-redirector, although this call could also be made from the network mini-redirector or as part of shutdown processing by the operating system or as a result of a failure in the <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. 
@@ -71,27 +89,21 @@ The <b>RxpUnregisterMinirdr </b>routine is usually called as a result of an FSCT
 Note that the inline routine, <a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr.md">RxUnregisterMinirdr</a>, is the preferred way to unregister a driver with RDBSS. The <b>RxUnregisterMinirdr</b> inline routine calls <b>RxpUnregisterMinirdr</b>, but then also decrements the object reference to the RDBSS device object so that this object can be released by the system. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
-</dt>
-<dt>
-<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
-</dt>
-<dt>
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
-</dt>
-<dt>
-<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
-</dt>
-<dt>
+
 <a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr.md">RxUnregisterMinirdr</a>
-</dt>
-</dl>
+
+<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
+
+<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
+
+<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
+
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
+<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
+
  
 
  

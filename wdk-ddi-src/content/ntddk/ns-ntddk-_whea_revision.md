@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 4258f223-353a-4b6e-a93c-5742e5c1668b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_REVISION, *PWHEA_REVISION, WHEA_REVISION
+ms.keywords: *PWHEA_REVISION, PWHEA_REVISION, ntddk/WHEA_REVISION, WHEA_REVISION union [WHEA Drivers and Applications], PWHEA_REVISION union pointer [WHEA Drivers and Applications], whearef_0572aecb-765a-4118-8df0-7b34922e79d9.xml, _WHEA_REVISION, WHEA_REVISION, ntddk/PWHEA_REVISION, whea.whea_revision
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_REVISION
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PWHEA_REVISION, WHEA_REVISION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_REVISION
+product: Windows
+targetos: Windows
+req.typenames: WHEA_REVISION, *PWHEA_REVISION
 ---
 
 # _WHEA_REVISION structure
 
 
-
 ## -description
+
+
 The WHEA_REVISION union describes the revision of the error record data structures.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _WHEA_REVISION {
@@ -58,14 +68,22 @@ typedef union _WHEA_REVISION {
 
 ## -struct-fields
 
-### -field MinorRevision
-
-The minor revision number.
 
 
-### -field MajorRevision
 
-The major revision number.
+### -field DUMMYSTRUCTNAME
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.MinorRevision
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.MajorRevision
+
+ 
 
 
 ### -field AsUSHORT
@@ -73,19 +91,29 @@ The major revision number.
 A USHORT representation of the contents of the WHEA_REVISION union.
 
 
+#### - MajorRevision
+
+The major revision number.
+
+
+#### - MinorRevision
+
+The minor revision number.
+
+
 ## -remarks
+
+
 A WHEA_REVISION union is contained within the <a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a> and the <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structures.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

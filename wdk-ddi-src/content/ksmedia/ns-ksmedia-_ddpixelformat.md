@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bbc26c03-c154-4b1e-883e-2942b59ded02
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DDPIXELFORMAT, *LPDDPIXELFORMAT, DDPIXELFORMAT
+ms.keywords: ksmedia/LPDDPIXELFORMAT, LPDDPIXELFORMAT structure pointer [Display Devices], ksmedia/DDPIXELFORMAT, DDPIXELFORMAT, ddstrcts_861a4798-418e-492a-b4cb-c4f1ce794a71.xml, *LPDDPIXELFORMAT, _DDPIXELFORMAT, display.ddpixelformat, DDPIXELFORMAT structure [Display Devices], LPDDPIXELFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DDPIXELFORMAT
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	DDPIXELFORMAT
+product: Windows
+targetos: Windows
 req.typenames: *LPDDPIXELFORMAT, DDPIXELFORMAT
 ---
 
 # _DDPIXELFORMAT structure
 
 
-
 ## -description
+
+
 The DDPIXELFORMAT structure describes the pixel format of a DirectDrawSurface object. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DDPIXELFORMAT {
@@ -94,6 +104,79 @@ typedef struct _DDPIXELFORMAT {
 
 ## -struct-fields
 
+
+
+
+### -field dwRGBBitCount
+
+Specifies the number of RGB bits per pixel (4, 8, 16, 24, or 32). 
+
+
+### -field dwYUVBitCount
+
+Specifies the number of YUV bits per pixel. 
+
+
+### -field dwZBufferBitDepth
+
+Specifies the Z-buffer bit depth (8, 16, 24, or 32 bits). 
+
+
+### -field dwAlphaBitDepth
+
+Specifies the Alpha channel bit depth. 
+
+
+### -field dwRBitMask
+
+Specifies the mask for red bits. 
+
+
+### -field dwYBitMask
+
+Specifies the mask for Y bits. 
+
+
+### -field dwGBitMask
+
+Specifies the mask for green bits. 
+
+
+### -field dwUBitMask
+
+Specifies the mask for U bits. 
+
+
+### -field dwBBitMask
+
+Specifies the mask for blue bits. 
+
+
+### -field dwVBitMask
+
+Specifies the mask for V bits. 
+
+
+### -field dwRGBAlphaBitMask
+
+ 
+
+
+### -field dwYUVAlphaBitMask
+
+ 
+
+
+### -field dwRGBZBitMask
+
+ 
+
+
+### -field dwYUVZBitMask
+
+ 
+
+
 ### -field dwSize
 
 Specifies the size in bytes of the DDPIXELFORMAT structure. The driver must initialize this member before the structure is used.
@@ -104,7 +187,6 @@ Specifies the size in bytes of the DDPIXELFORMAT structure. The driver must init
 ### -field dwFlags
 
 Indicates a set of flags that specify optional control flags. This member is a bitwise OR of any of the following values:
-
 <table>
 <tr>
 <th>Flag</th>
@@ -186,7 +268,7 @@ DDPF_FOURCC
 
 </td>
 <td>
-The <a href="wdkgloss.f#wdkgloss.fourcc#wdkgloss.fourcc"><i>FOURCC</i></a> code is valid.
+The <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FOURCC</a> code is valid.
 
 </td>
 </tr>
@@ -330,79 +412,87 @@ The surface is in RGBZ format.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field dwFourCC
 
-Specifies a surface format code including any of the codes in the D3DFORMAT enumerated type. Some <a href="wdkgloss.f#wdkgloss.fourcc#wdkgloss.fourcc"><i>FOURCC</i></a> codes are part of D3DFORMAT. For more information about D3DFORMAT, see the SDK documentation. Hardware vendors can also define and supply format codes that are specific to their hardware. 
+Specifies a surface format code including any of the codes in the D3DFORMAT enumerated type. Some <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FOURCC</a> codes are part of D3DFORMAT. For more information about D3DFORMAT, see the SDK documentation. Hardware vendors can also define and supply format codes that are specific to their hardware. 
 
 
-### -field dwRGBBitCount
+#### - dwRGBAlphaBitMask, dwYUVAlphaBitMask
 
-Specifies the number of RGB bits per pixel (4, 8, 16, 24, or 32). 
-
-
-### -field dwYUVBitCount
-
-Specifies the number of YUV bits per pixel. 
+Specify the masks for alpha channel. 
 
 
-### -field dwZBufferBitDepth
-
-Specifies the Z-buffer bit depth (8, 16, 24, or 32 bits). 
-
-
-### -field dwAlphaBitDepth
-
-Specifies the Alpha channel bit depth. 
-
-
-### -field dwLuminanceBitCount
-
-Specifies the number of bits per pixel.
-
-
-### -field dwBumpBitCount
-
-Specifies the total number of bits per "bumpel" (bump-map texel).
-
-
-### -field dwPrivateFormatBitCount
-
-Specifies the bits per pixel of a pixel format private to the driver (that is, not one of the standard ones defined by Microsoft Direct3D).
-
-
-### -field dwRBitMask
-
-Specifies the mask for red bits. 
-
-
-### -field dwYBitMask
-
-Specifies the mask for Y bits. 
-
-
-### -field dwStencilBitDepth
+#### - dwStencilBitDepth
 
 Specifies the bit depth of the stencil buffer. This member specifies how many bits are reserved within each pixel of the z-buffer for stencil information.
 
 
-### -field dwLuminanceBitMask
-
-Specifies the mask for luminance bits.
-
-
-### -field dwBumpDuBitMask
+#### - dwBumpDuBitMask
 
 Specifies the mask for bump map U delta bits.
 
 
-### -field dwOperations
+#### - dwLuminanceBitCount
+
+Specifies the number of bits per pixel.
+
+
+#### - dwBumpBitCount
+
+Specifies the total number of bits per "bumpel" (bump-map texel).
+
+
+#### - dwRGBZBitMask, dwYUVZBitMask
+
+Specifies the masks for the z channel. 
+
+
+#### - dwBumpLuminanceBitMask
+
+Specifies the mask for luminance in a bump map.
+
+
+#### - dwPrivateFormatBitCount
+
+Specifies the bits per pixel of a pixel format private to the driver (that is, not one of the standard ones defined by Microsoft Direct3D).
+
+
+##### - MultiSampleCaps.wBltMSTypes
+
+<b>DirectX 8.0 and later versions only.</b> Specifies a 16-bitmask for windowed multisampling.
+
+
+#### - dwBumpDvBitMask
+
+Specifies the mask for bump map V delta bits.
+
+
+#### - dwLuminanceBitMask
+
+Specifies the mask for luminance bits.
+
+
+##### - MultiSampleCaps.wFlipMSTypes
+
+<b>DirectX 8.0 and later versions only.</b> Specifies a 16-bitmask for fullscreen multisampling.
+
+
+#### - dwStencilBitMask
+
+Specifies the mask for stencil bits within each z-buffer pixel.
+
+
+#### - dwZBitMask
+
+Specifies the mask for Z bits.
+
+
+#### - dwOperations
 
 <b>DirectX 8.0 and later versions only.</b> Specifies the intended operations that can be performed on surfaces with this pixel format, for example, whether such surfaces can be used as textures, bump environment maps, cube maps, volume textures, or render targets. The operations that can be reported are as follows:
-
 <table>
 <tr>
 <th>Operation</th>
@@ -515,11 +605,11 @@ D3DFORMAT_OP_PIXELSIZE
 </td>
 <td>
 
-
-### -field DirectX 9.0 and later versions only.
-### -field When this flag is specified in a pixel format, it indicates that the driver filled in the bits per pixel for the format in the dwPrivateFormatBitCount member. 
-### -field If the driver requires that managed surfaces and textures use a private format (a format that is understood by the driver but not natively by the Direct3D runtime), then the driver must specify this flag, along with the pixel size in dwPrivateFormatBitCount.
-
+<dl>
+<dt><b>DirectX 9.0 and later versions only.</b></dt>
+<dt>When this flag is specified in a pixel format, it indicates that the driver filled in the bits per pixel for the format in the <b>dwPrivateFormatBitCount</b> member. </dt>
+<dt>If the driver requires that managed surfaces and textures use a private format (a format that is understood by the driver but not natively by the Direct3D runtime), then the driver must specify this flag, along with the pixel size in <b>dwPrivateFormatBitCount</b>.</dt>
+</dl>
 
 
 </td>
@@ -531,10 +621,10 @@ D3DFORMAT_OP_CONVERT_TO_ARGB
 </td>
 <td>
 
-
-### -field DirectX 9.0 and later versions only.
-### -field When this flag is specified in a pixel format, it indicates that source surfaces of this format can be converted to any target surface with an RGB pixel format that has the D3DFORMAT_MEMBEROFGROUP_ARGB flag specified in dwOperations.
-
+<dl>
+<dt><b>DirectX 9.0 and later versions only.</b></dt>
+<dt>When this flag is specified in a pixel format, it indicates that source surfaces of this format can be converted to any target surface with an RGB pixel format that has the D3DFORMAT_MEMBEROFGROUP_ARGB flag specified in <b>dwOperations</b>.</dt>
+</dl>
 
 
 </td>
@@ -546,10 +636,10 @@ D3DFORMAT_OP_OFFSCREENPLAIN
 </td>
 <td>
 
-
-### -field DirectX 9.0 and later versions only.
-### -field When this flag is specified in a pixel format, it indicates that the driver can stretch to and from and color fill surfaces of this format.
-
+<dl>
+<dt><b>DirectX 9.0 and later versions only.</b></dt>
+<dt>When this flag is specified in a pixel format, it indicates that the driver can stretch to and from and color fill surfaces of this format.</dt>
+</dl>
 
 
 </td>
@@ -561,10 +651,10 @@ D3DFORMAT_OP_SRGBREAD
 </td>
 <td>
 
-
-### -field DirectX 9.0 and later versions only.
-### -field When this flag is specified in a pixel format, it indicates that surfaces of this format can be read from as SRGB textures (that is, the sampler linearizes the looked up data).
-
+<dl>
+<dt><b>DirectX 9.0 and later versions only.</b></dt>
+<dt>When this flag is specified in a pixel format, it indicates that surfaces of this format can be read from as SRGB textures (that is, the sampler linearizes the looked up data).</dt>
+</dl>
 
 
 </td>
@@ -576,11 +666,11 @@ D3DFORMAT_OP_BUMPMAP
 </td>
 <td>
 
-
-### -field DirectX 9.0 and later versions only.
-### -field When this flag is specified in a pixel format, it indicates that surfaces of this format can be used as bump environment map textures.
-### -field Note that this flag is independent of D3DFORMAT_OP_TEXTURE. Therefore, you can specify a pixel format that can only be used for bump environment map textures and not for conventional MIP mapped textures.
-
+<dl>
+<dt><b>DirectX 9.0 and later versions only.</b></dt>
+<dt>When this flag is specified in a pixel format, it indicates that surfaces of this format can be used as bump environment map textures.</dt>
+<dt>Note that this flag is independent of D3DFORMAT_OP_TEXTURE. Therefore, you can specify a pixel format that can only be used for bump environment map textures and not for conventional MIP mapped textures.</dt>
+</dl>
 
 
 </td>
@@ -592,10 +682,10 @@ D3DFORMAT_OP_DMAP
 </td>
 <td>
 
-
-### -field DirectX 9.0 and later versions only.
-### -field When this flag is specified in a pixel format, it indicates that surfaces of this format can be sampled by the displacement map sampler.
-
+<dl>
+<dt><b>DirectX 9.0 and later versions only.</b></dt>
+<dt>When this flag is specified in a pixel format, it indicates that surfaces of this format can be sampled by the displacement map sampler.</dt>
+</dl>
 
 
 </td>
@@ -607,10 +697,10 @@ D3DFORMAT_OP_NOFILTER
 </td>
 <td>
 
-
-### -field DirectX 9.0 and later versions only.
-### -field When this flag is specified in a pixel format, it indicates that surfaces of this format cannot be used with texture filtering.
-
+<dl>
+<dt><b>DirectX 9.0 and later versions only.</b></dt>
+<dt>When this flag is specified in a pixel format, it indicates that surfaces of this format cannot be used with texture filtering.</dt>
+</dl>
 
 
 </td>
@@ -622,11 +712,11 @@ D3DFORMAT_MEMBEROFGROUP_ARGB
 </td>
 <td>
 
-
-### -field DirectX 9.0 and later versions only.
-### -field When this flag is specified in a pixel format, it indicates that target surfaces of this format can be converted from any source surface with a pixel format that has the D3DFORMAT_OP_CONVERT_TO_ARGB flag specified in DirectX 9.0 and later versions only..
-### -field The driver can only specify this flag for ARGB surfaces with at least 5 bits color information per channel. That is, the D3DFMT_A1R5G5B5 format is valid. However, the D3DFMT_A4R4G4B4 format is invalid. If the driver specifies this flag with an invalid format, the runtime prevents the Direct3D HAL from loading. Note that although this flag indicates ARGB formats, the runtime also allows the driver to specify surfaces with XRGB formats (for example, D3DFMT_X1R5G5B5).
-
+<dl>
+<dt><b>DirectX 9.0 and later versions only.</b></dt>
+<dt>When this flag is specified in a pixel format, it indicates that target surfaces of this format can be converted from any source surface with a pixel format that has the D3DFORMAT_OP_CONVERT_TO_ARGB flag specified in <b>DirectX 9.0 and later versions only.</b>.</dt>
+<dt>The driver can only specify this flag for ARGB surfaces with at least 5 bits color information per channel. That is, the D3DFMT_A1R5G5B5 format is valid. However, the D3DFMT_A4R4G4B4 format is invalid. If the driver specifies this flag with an invalid format, the runtime prevents the Direct3D HAL from loading. Note that although this flag indicates ARGB formats, the runtime also allows the driver to specify surfaces with XRGB formats (for example, D3DFMT_X1R5G5B5).</dt>
+</dl>
 
 
 </td>
@@ -638,10 +728,10 @@ D3DFORMAT_OP_SRGBWRITE
 </td>
 <td>
 
-
-### -field DirectX 9.0 and later versions only.
-### -field When this flag is specified in a pixel format, it indicates that surfaces of this format can be written to as SRGB targets (that is, the pixel pipe delinearizes data on output to this format).
-
+<dl>
+<dt><b>DirectX 9.0 and later versions only.</b></dt>
+<dt>When this flag is specified in a pixel format, it indicates that surfaces of this format can be written to as SRGB targets (that is, the pixel pipe delinearizes data on output to this format).</dt>
+</dl>
 
 
 </td>
@@ -653,10 +743,10 @@ D3DFORMAT_OP_NOALPHABLEND
 </td>
 <td>
 
-
-### -field DirectX 9.0 and later versions only.
-### -field When this flag is specified in a pixel format, it indicates that surfaces of this format cannot be used with alpha blending.
-
+<dl>
+<dt><b>DirectX 9.0 and later versions only.</b></dt>
+<dt>When this flag is specified in a pixel format, it indicates that surfaces of this format cannot be used with alpha blending.</dt>
+</dl>
 
 
 </td>
@@ -668,10 +758,10 @@ D3DFORMAT_OP_AUTOGENMIPMAP
 </td>
 <td>
 
-
-### -field DirectX 9.0 and later versions only.
-### -field When this flag is specified in a pixel format, it indicates that the sublevels of MIP-map textures with this format can be automatically generated. To receive D3DDP2OP_GENERATEMIPSUBLEVELS operation requests, this flag must be exposed. 
-
+<dl>
+<dt><b>DirectX 9.0 and later versions only.</b></dt>
+<dt>When this flag is specified in a pixel format, it indicates that the sublevels of MIP-map textures with this format can be automatically generated. To receive D3DDP2OP_GENERATEMIPSUBLEVELS operation requests, this flag must be exposed. </dt>
+</dl>
 
 
 </td>
@@ -683,107 +773,73 @@ D3DFORMAT_OP_VERTEXTEXTURE
 </td>
 <td>
 
-
-### -field DirectX 9.0 and later versions only.
-### -field When this flag is specified in a pixel format, it indicates that surfaces of this format can be used by a vertex texture sampler. That is, only surfaces of this format can be used as vertex textures. 
-
+<dl>
+<dt><b>DirectX 9.0 and later versions only.</b></dt>
+<dt>When this flag is specified in a pixel format, it indicates that surfaces of this format can be used by a vertex texture sampler. That is, only surfaces of this format can be used as vertex textures. </dt>
+</dl>
 
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
-### -field dwGBitMask
-
-Specifies the mask for green bits. 
-
-
-### -field dwUBitMask
-
-Specifies the mask for U bits. 
-
-
-### -field dwZBitMask
-
-Specifies the mask for Z bits.
-
-
-### -field dwBumpDvBitMask
-
-Specifies the mask for bump map V delta bits.
-
-
-### -field MultiSampleCaps
-
-<b>DirectX 8.0 and later versions only.</b> Structure that contains the following two members. It specifies 16-bitmasks for the number of samples per pixel for both flip (fullscreen) and blt (windowed) multisampling. It is used when specifying surfaces that can be used when performing multisample rendering (see the Remarks section). Each bit in these 16-bitmasks indicates support of multisampling with a specific number of samples. For example, bit 0 indicates the support of multisampling with only a single sample, bit 1 indicates the support of multisampling with two samples, bit 2 indicates the support of multisampling with three samples, and so on. The driver can indicate more than one supported level by combining the bits using a bitwise OR (see Remarks).
-
-
-### -field wFlipMSTypes
-
-<b>DirectX 8.0 and later versions only.</b> Specifies a 16-bitmask for fullscreen multisampling.
-
-
-### -field wBltMSTypes
-
-<b>DirectX 8.0 and later versions only.</b> Specifies a 16-bitmask for windowed multisampling.
-
-</dd>
-</dl>
-
-### -field dwBBitMask
-
-Specifies the mask for blue bits. 
-
-
-### -field dwVBitMask
-
-Specifies the mask for V bits. 
-
-
-### -field dwStencilBitMask
-
-Specifies the mask for stencil bits within each z-buffer pixel.
-
-
-### -field dwBumpLuminanceBitMask
-
-Specifies the mask for luminance in a bump map.
-
-
-### -field dwRGBAlphaBitMask, dwYUVAlphaBitMask
-
-Specify the masks for alpha channel. 
-
-
-### -field dwLuminanceAlphaBitMask
+#### - dwLuminanceAlphaBitMask
 
 Specifies the mask for luminance in the alpha channel.
 
 
-### -field dwRGBZBitMask, dwYUVZBitMask
+#### - MultiSampleCaps
 
-Specifies the masks for the z channel. 
+<b>DirectX 8.0 and later versions only.</b> Structure that contains the following two members. It specifies 16-bitmasks for the number of samples per pixel for both flip (fullscreen) and blt (windowed) multisampling. It is used when specifying surfaces that can be used when performing multisample rendering (see the Remarks section). Each bit in these 16-bitmasks indicates support of multisampling with a specific number of samples. For example, bit 0 indicates the support of multisampling with only a single sample, bit 1 indicates the support of multisampling with two samples, bit 2 indicates the support of multisampling with three samples, and so on. The driver can indicate more than one supported level by combining the bits using a bitwise OR (see Remarks).
 
 
 ## -remarks
-The DirectX 8.0 and later runtime imposes the following rules on the operation (op) list:
 
+
+The DirectX 8.0 and later runtime imposes the following rules on the operation (op) list:
+<ul>
+<li>
 Only one Endian-ness (big or little) for any DS format is allowed, for example D15S1 or S1D15, not both independent of other bits.
 
+</li>
+<li>
 A list should only include D3DFORMAT_OP_DISPLAYMODE for exactly one 16bpp format (for example it should not enumerate 5:5:5 and 5:6:5).
 
+</li>
+<li>
 A list should not contain any alpha formats with D3DFORMAT_OP_DISPLAYMODE or D3DFORMAT_OP_3DACCELLERATION set.
 
+</li>
+<li>
 The D3DFORMAT_OP_3DACCELLERATION flag can only be set when the D3DFORMAT_OP_DISPLAYMODE flag is also set.
 
-If the driver supports a lockable D16, it should report D3DFMT_D16_LOCKABLE in the op list; otherwise, it should report D3DFMT_D16.
+</li>
+</ul>If the driver supports a lockable D16, it should report D3DFMT_D16_LOCKABLE in the op list; otherwise, it should report D3DFMT_D16.
 
 Drivers supporting multisampling must fill in the <b>MultiSampleCaps</b> in the Depth/Stencil formats for which multisampling can be supported. This allows the runtime to detect if a driver supports multisampling for combinations of render target and Z buffer formats. For additional information about the restrictions related to stretch blt multisampling, see the description of D3DPRASTERCAPS_STRETCHBLTMULTISAMPLE cap in the rastercaps contained in the D3DCAPS8 structure in the SDK documentation.
 
 The enumerated type D3DMULTISAMPLE_TYPE defined in <i>d3d8types.h</i> is used when setting the bits in <b>wFlipMSTypes</b> and <b>wBltMSTypes</b>. To specify support for a specific number of samples per pixel, simply logically shift 1 by the appropriate value from the D3DMULTISAMPLE_TYPE enumerated type less 1 and OR this into the appropriate field (<b>wFlipMSTypes</b> and <b>wBltMSTypes</b>).
 
 For example, if the driver supports both two and four samples per pixel when flipping (fullscreen mode) and four samples per pixel when blitting (windowed mode) on X8R8G8B8 surface the following entry would be reported in the surface format list.
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DDPIXELFORMAT ddpf;
+ZeroMemory(&amp;ddpf, sizeof(ddpf));
+ddpf.dwSize       = sizeof(DDPIXELFORMAT);
+ddpf.dwFlags      = DDPF_D3DFORMAT;
+ddpf.dwFourCC     = D3DFMT_X8R8G8B8;
+ddpf.dwOperations = D3DFORMAT_OP_DISPLAYMODE |
+                    D3DFORMAT_OP_3DACCELERATION;
+ddpf.MultiSampleCaps.wFlipMSTypes = (1 &lt;&lt; (D3DMULTISAMPLE_4_SAMPLES âˆ’ 1))
+                                  | (1 &lt;&lt; (D3DMULTISAMPLE_2_SAMPLES âˆ’ 1));
+ddpf.MultiSampleCaps.wBltMSTypes = (1 &lt;&lt; (D3DMULTISAMPLE_4_SAMPLES âˆ’ 1));</pre>
+</td>
+</tr>
+</table></span></div>It is not necessary to specify 1 &lt;&lt; (D3DMULTISAMPLE_NONE - 1) when reporting formats. It is assumed that any format reported can also be used without multisampling. If the hardware supports multisample rendering with a z-buffer the z-buffer formats reported should also include the supported samples-per-pixels.
 
-It is not necessary to specify 1 &lt;&lt; (D3DMULTISAMPLE_NONE - 1) when reporting formats. It is assumed that any format reported can also be used without multisampling. If the hardware supports multisample rendering with a z-buffer the z-buffer formats reported should also include the supported samples-per-pixels.</p>
+

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1fa29ab6-1faa-4be6-ae87-4cac9057471d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddirecommendmonitormodes, DxgkDdiRecommendMonitorModes callback function [Display Devices], DxgkDdiRecommendMonitorModes, DXGKDDI_RECOMMENDMONITORMODES, DXGKDDI_RECOMMENDMONITORMODES, d3dkmddi/DxgkDdiRecommendMonitorModes, DmFunctions_0e8f1382-ec41-4953-8e1e-f2a5121acc0c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiRecommendMonitorModes
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DxgkDdiRecommendMonitorModes
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_RECOMMENDMONITORMODES callback
 
 
-
 ## -description
+
+
 The <i>DxgkDdiRecommendMonitorModes</i> function inspects the monitor source mode set that is associated with a particular video present target and possibly adds modes to the set.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_RECOMMENDMONITORMODES DxgkDdiRecommendMonitorModes;
@@ -58,40 +68,74 @@ NTSTATUS APIENTRY DxgkDdiRecommendMonitorModes(
 
 ## -parameters
 
+
+
+
 ### -param hAdapter [in]
 
 A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
 
 
-### -param pRecommendMonitorModesArg [in]
+### -param pRecommendMonitorModes
+
+
+
+
+
+
+#### - pRecommendMonitorModesArg [in]
 
 A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_recommendmonitormodes.md">DXGKARG_RECOMMENDMONITORMODES</a> structure that contains function arguments.
 
 
 ## -returns
+
+
 <i>DxgkDdiRecommendMonitorModes</i> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The function succeeded.
+</dl>
+</td>
+<td width="60%">
+The function succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>The function failed because it was unable to allocate enough memory.
+</dl>
+</td>
+<td width="60%">
+The function failed because it was unable to allocate enough memory.
 
- 
+</td>
+</tr>
+</table> 
 
 The miniport driver should pass through any error code that it gets from the operating system for which it does not have a fallback code path.
 
 
+
 ## -remarks
+
+
 <i>DxgkDdiRecommendMonitorModes</i> should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568435">Monitor Source Mode Set Interface</a>
-</dt>
-</dl>
+
  
 
  

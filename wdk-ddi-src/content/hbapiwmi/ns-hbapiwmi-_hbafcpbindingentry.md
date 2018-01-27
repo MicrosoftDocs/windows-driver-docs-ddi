@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fa0f20e1-7d63-48e8-8270-8dab566f5947
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _HBAFCPBindingEntry, *PHBAFCPBindingEntry, HBAFCPBindingEntry
+ms.keywords: PHBAFCPBindingEntry structure pointer [Storage Devices], _HBAFCPBindingEntry, storage.hbafcpbindingentry, hbapiwmi/PHBAFCPBindingEntry, hbapiwmi/HBAFCPBindingEntry, PHBAFCPBindingEntry, HBAFCPBindingEntry structure [Storage Devices], structs-Fibre_1b8c019a-3cec-4aa3-b43c-8f52168c7a03.xml, *PHBAFCPBindingEntry, HBAFCPBindingEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBAFCPBindingEntry
-req.alt-loc: Hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Hbapiwmi.h
+apiname: 
+-	HBAFCPBindingEntry
+product: Windows
+targetos: Windows
 req.typenames: *PHBAFCPBindingEntry, HBAFCPBindingEntry
 ---
 
 # _HBAFCPBindingEntry structure
 
 
-
 ## -description
+
+
 The HBAFCPBindingEntry structure defines a binding between the information that uniquely identifies a logical unit for the operating system and the fibre channel protocol (FCP) identifier for the logical unit. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _HBAFCPBindingEntry {
@@ -56,10 +66,12 @@ typedef struct _HBAFCPBindingEntry {
 
 ## -struct-fields
 
+
+
+
 ### -field Type
 
 Contains a binding type that indicates how the target is specified in the binding. This member can have any of the following values:  
-
 <table>
 <tr>
 <th>Type Value</th>
@@ -115,8 +127,7 @@ Indicates that the system should automatically generate target mappings from log
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 You must include file <i>hbaapi.h </i>to use the symbolic constants in this table (See the <b>Headers</b> section).
 
@@ -136,17 +147,18 @@ Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbascsiid.md">HBA
 
 
 ## -remarks
+
+
 The WMI tool suite generates a declaration of this structure automatically when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556037">HBAFCPBindingEntry WMI Class</a> in <i>hbaapi.mof</i>. 
 
 For an explanation of the fibre channel protocol (FCP), see the T11 committee's <i>Fibre Channel Protocol for SCSI</i> specification. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556037">HBAFCPBindingEntry WMI Class</a>
-</dt>
-</dl>
+
  
 
  

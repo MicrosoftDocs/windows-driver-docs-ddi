@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 745b014d-7ab4-4e07-a24c-7a74949a9d7b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExAcquireSharedWaitForExclusive
+ms.keywords: ExAcquireSharedWaitForExclusive, k102_505fe2a0-5751-4481-a545-2091828463ce.xml, kernel.exacquiresharedwaitforexclusive, wdm/ExAcquireSharedWaitForExclusive, ExAcquireSharedWaitForExclusive routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExAcquireSharedWaitForExclusive
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlExApcLte3, WithinCriticalRegion, HwStorPortProhibitedDDIs, SpNoWait, WithinCriticalRegion(storport)
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ExAcquireSharedWaitForExclusive
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ExAcquireSharedWaitForExclusive function
 
 
-
 ## -description
+
+
 The <b>ExAcquireSharedWaitForExclusive</b> routine acquires the given resource for shared access if shared access can be granted and there are no exclusive waiters. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN ExAcquireSharedWaitForExclusive(
@@ -55,6 +65,9 @@ BOOLEAN ExAcquireSharedWaitForExclusive(
 
 
 ## -parameters
+
+
+
 
 ### -param Resource [in, out]
 
@@ -67,10 +80,15 @@ Specifies the routine's behavior whenever the resource cannot be acquired immedi
 
 
 ## -returns
+
+
 <b>ExAcquireSharedWaitForExclusive</b> returns <b>TRUE</b> if the requested access is granted or an exclusive owner releases the resource. This routine returns <b>FALSE</b> if the input <i>Wait</i> is <b>FALSE</b> and shared access cannot be granted immediately. 
 
 
+
 ## -remarks
+
+
 Most drivers should use <a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a> instead of <b>ExAcquireSharedWaitForExclusive</b>.
 
 The caller can release the resource by calling either <a href="https://msdn.microsoft.com/library/windows/hardware/ff545597">ExReleaseResourceLite</a> or <a href="..\wdm\nf-wdm-exreleaseresourceforthreadlite.md">ExReleaseResourceForThreadLite</a>.
@@ -78,48 +96,49 @@ The caller can release the resource by calling either <a href="https://msdn.micr
 If shared access cannot be granted immediately, the caller can wait for other threads to acquire and release exclusive ownership of the resource.
 
 Whether or when the caller is given shared access to the given resource depends on the following:
-
+<ul>
+<li>
 If the resource is currently unowned, shared access is granted immediately to the current thread.
 
+</li>
+<li>
 If the caller already has exclusive access to the resource, the current thread is granted the same type of access recursively. 
 
+</li>
+<li>
 If the resource is currently owned as shared and there are no pending attempts to acquire exclusive access, shared access is granted to the caller immediately. 
 
+</li>
+<li>
 If the resource is currently owned as shared but there is a pending attempt to acquire exclusive access, the caller either is put into a wait state (<i>Wait</i> set to <b>TRUE</b>) or <b>ExAcquireSharedWaitForExclusive</b> returns <b>FALSE</b>.
 
 When the current thread waits to acquire the resource until after a pending exclusive ownership has been released, <b>ExAcquireSharedWaitForExclusive</b> returns <b>TRUE</b> when the current thread is granted shared access to the resource and resumes execution. 
 
-The behavior of <b>ExAcquireSharedWaitForExclusive</b> is identical to that of <a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a> unless the calling thread already owns the resource as shared and there are exclusive waiters. In that case, <b>ExAcquireSharedWaitForExclusive</b> allows the exclusive waiters to acquire exclusive ownership of the resource.
+</li>
+</ul>The behavior of <b>ExAcquireSharedWaitForExclusive</b> is identical to that of <a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a> unless the calling thread already owns the resource as shared and there are exclusive waiters. In that case, <b>ExAcquireSharedWaitForExclusive</b> allows the exclusive waiters to acquire exclusive ownership of the resource.
 
 If the caller specifies <b>TRUE</b> for the <i>Wait</i> parameter, the caller blocks until another thread frees the resource on behalf of the caller, using <a href="https://msdn.microsoft.com/library/windows/hardware/ff545577">ExReleaseResourceForThread</a>. Driver writers must be careful to ensure that another thread actually releases the resource; otherwise the caller is deadlocked. <b>ExAcquireResourceSharedLite</b> does not have this property, so drivers should use that routine unless they require the particular behavior of <b>ExAcquireSharedWaitForExclusive</b>.
 
-Normal kernel APC delivery must be disabled before calling this routine. Disable normal kernel APC delivery by calling <a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a>. Delivery must remain disabled until the resource is released, at which point it can be reenabled by calling <a href="..\ntddk\nf-ntddk-keleavecriticalregion.md">KeLeaveCriticalRegion</a>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543219">Disabling APCs</a>.
+Normal kernel APC delivery must be disabled before calling this routine. Disable normal kernel APC delivery by calling <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>. Delivery must remain disabled until the resource is released, at which point it can be reenabled by calling <a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543219">Disabling APCs</a>.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-exacquiresharedstarveexclusive.md">ExAcquireSharedStarveExclusive</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-exconvertexclusivetosharedlite.md">ExConvertExclusiveToSharedLite</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-exgetexclusivewaitercount.md">ExGetExclusiveWaiterCount</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-exisresourceacquiredexclusivelite.md">ExIsResourceAcquiredExclusiveLite</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-exisresourceacquiredsharedlite.md">ExIsResourceAcquiredSharedLite</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545577">ExReleaseResourceForThread</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-exisresourceacquiredsharedlite.md">ExIsResourceAcquiredSharedLite</a>
+
+<a href="..\wdm\nf-wdm-exconvertexclusivetosharedlite.md">ExConvertExclusiveToSharedLite</a>
+
+<a href="..\wdm\nf-wdm-exgetexclusivewaitercount.md">ExGetExclusiveWaiterCount</a>
+
  
 
  

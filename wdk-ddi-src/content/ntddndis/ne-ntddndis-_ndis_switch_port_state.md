@@ -7,8 +7,8 @@ old-location: netvista\ndis_switch_port_state.htm
 old-project: netvista
 ms.assetid: BEF37F32-036D-4381-93B3-C159ABCFC3F9
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_SWITCH_PORT_STATE, NDIS_SWITCH_PORT_STATE
+ms.date: 1/18/2018
+ms.keywords: NdisSwitchPortStateCreated, _NDIS_SWITCH_PORT_STATE, ntddndis/NdisSwitchPortStateUnknown, NdisSwitchPortStateTeardown, ntddndis/NdisSwitchPortStateCreated, ntddndis/NDIS_SWITCH_PORT_STATE, NdisSwitchPortStateUnknown, NdisSwitchPortStateDeleted, ntddndis/NdisSwitchPortStateDeleted, netvista.ndis_switch_port_state, NDIS_SWITCH_PORT_STATE, NDIS_SWITCH_PORT_STATE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchPortStateTeardown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.30 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_SWITCH_PORT_STATE
-req.alt-loc: Ntddndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddndis.h
+apiname: 
+-	NDIS_SWITCH_PORT_STATE
+product: Windows
+targetos: Windows
 req.typenames: NDIS_SWITCH_PORT_STATE
 ---
 
 # _NDIS_SWITCH_PORT_STATE enumeration
 
 
-
 ## -description
+
+
 The <b>NDIS_SWITCH_PORT_STATE</b> enumeration specifies the current state of the Hyper-V extensible switch port. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _NDIS_SWITCH_PORT_STATE { 
@@ -56,6 +66,9 @@ typedef enum _NDIS_SWITCH_PORT_STATE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field NdisSwitchPortStateUnknown
 
@@ -78,6 +91,8 @@ This value specifies that the port has been deleted.
 
 
 ## -remarks
+
+
 The <b>PortState</b>  member of the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_parameters.md">NDIS_SWITCH_PORT_PARAMETER</a> structure is an <b>NDIS_SWITCH_PORT_STATE</b> enumeration data type. 
 
 
@@ -85,16 +100,16 @@ For more information about extensible switch port states, see <a href="https://m
 
 
 
+
 ## -see-also
-<dl>
-<dt><b></b></dt>
-<dt>
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_parameters.md">NDIS_SWITCH_PORT_PARAMETER</a>
-</dt>
-</dl>
- 
+
+<b></b>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_PORT_STATE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_PORT_STATE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

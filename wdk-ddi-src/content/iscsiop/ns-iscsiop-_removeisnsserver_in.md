@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 10e72834-4866-42f2-842e-0a30278acab8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _RemoveiSNSServer_IN, *PRemoveiSNSServer_IN, RemoveiSNSServer_IN
+ms.keywords: RemoveiSNSServer_IN, iscsiop/RemoveiSNSServer_IN, RemoveiSNSServer_IN structure [Storage Devices], *PRemoveiSNSServer_IN, iscsiop/PRemoveiSNSServer_IN, storage.removeisnsserver_in, structs-iSCSI_b79fe0e4-386c-4b5c-9b43-ef8fdb7f4b6a.xml, PRemoveiSNSServer_IN, _RemoveiSNSServer_IN, PRemoveiSNSServer_IN structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RemoveiSNSServer_IN
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	RemoveiSNSServer_IN
+product: Windows
+targetos: Windows
 req.typenames: *PRemoveiSNSServer_IN, RemoveiSNSServer_IN
 ---
 
 # _RemoveiSNSServer_IN structure
 
 
-
 ## -description
+
+
 The RemoveiSNSServer_IN structure holds the input data for the user-mode <b>RemoveISNSServer</b> method, which is used to remove an iSNS server entry.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RemoveiSNSServer_IN {
@@ -54,21 +64,25 @@ typedef struct _RemoveiSNSServer_IN {
 
 ## -struct-fields
 
+
+
+
 ### -field iSNSServerName
 
 The name of the iSNS server to remove from the initiator's list.
 
 
 ## -remarks
+
+
 It is optional that you implement this method.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\iscsiop\ns-iscsiop-_removeisnsserver_out.md">RemoveiSNSServer_OUT</a>
-</dt>
-</dl>
+
  
 
  

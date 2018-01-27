@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fe00b980-4bb5-4ad7-84c0-99d47d2f7c51
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlOemToUnicodeN
+ms.keywords: ifsk.rtloemtounicoden, rtlref_7159eedf-5a97-4dc5-a9e8-c4a7f2ac2ee2.xml, ntifs/RtlOemToUnicodeN, RtlOemToUnicodeN routine [Installable File System Drivers], RtlOemToUnicodeN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlOemToUnicodeN
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlOemToUnicodeN
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlOemToUnicodeN function
 
 
-
 ## -description
+
+
 The <b>RtlOemToUnicodeN</b> routine translates the specified source string into a Unicode string, using the current system OEM code page. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlOemToUnicodeN(
@@ -57,6 +67,9 @@ NTSTATUS RtlOemToUnicodeN(
 
 
 ## -parameters
+
+
+
 
 ### -param UnicodeString [out]
 
@@ -84,10 +97,15 @@ Length, in bytes, of the string at <i>OemString</i>.
 
 
 ## -returns
+
+
 <b>RtlOemToUnicodeN</b> returns STATUS_SUCCESS if the full string at <i>OemString</i> was successfully translated and returned at <i>UnicodeString</i>. Otherwise, it can return STATUS_BUFFER_OVERFLOW if the destination string must be truncated to fit the given <i>MaxBytesInUnicodeString</i>. STATUS_BUFFER_OVERFLOW is a warning NTSTATUS value. 
 
 
+
 ## -remarks
+
+
 <b>RtlOemToUnicodeN</b> supports only precomposed Unicode characters that are mapped to the current system OEM code page installed at system boot time. 
 
 If the current system code page defines a single-byte character set, all single-byte characters in the range 0x00 to 0x7f are simply zero-extended in the corresponding Unicode string to speed the conversion operation. The character value 0x5c in such a code page is translated into the backslash character, even if the current code page defines this character as the Yen sign. 
@@ -99,18 +117,15 @@ This routine does not modify the source string unless the <i>UnicodeString</i> a
 For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtloemstringtocountedunicodestring.md">RtlOemStringToCountedUnicodeString</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtloemstringtounicodestring.md">RtlOemStringToUnicodeString</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtlunicodetooemn.md">RtlUnicodeToOemN</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-rtloemstringtocountedunicodestring.md">RtlOemStringToCountedUnicodeString</a>
+
  
 
  

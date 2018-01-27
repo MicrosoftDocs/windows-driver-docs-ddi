@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F99F6346-3FEE-4889-A058-C7540A4CBFC8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _SILO_MONITOR_REGISTRATION, *PSILO_MONITOR_REGISTRATION, SILO_MONITOR_REGISTRATION
+ms.keywords: SILO_MONITOR_REGISTRATION structure [Kernel-Mode Driver Architecture], *PSILO_MONITOR_REGISTRATION, PSILO_MONITOR_REGISTRATION, ntddk/SILO_MONITOR_REGISTRATION, PSILO_MONITOR_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], SILO_MONITOR_REGISTRATION, kernel.silo_monitor_registration, _SILO_MONITOR_REGISTRATION, ntddk/PSILO_MONITOR_REGISTRATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1607
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SILO_MONITOR_REGISTRATION
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	SILO_MONITOR_REGISTRATION
+product: Windows
+targetos: Windows
 req.typenames: *PSILO_MONITOR_REGISTRATION, SILO_MONITOR_REGISTRATION
 ---
 
 # _SILO_MONITOR_REGISTRATION structure
 
 
-
 ## -description
+
+
 This structure specifies a server silo monitor that can receive notifications about server silo events.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SILO_MONITOR_REGISTRATION {
@@ -62,6 +72,19 @@ typedef struct _SILO_MONITOR_REGISTRATION {
 
 
 ## -struct-fields
+
+
+
+
+### -field DriverObjectName
+
+ 
+
+
+### -field ComponentName
+
+ 
+
 
 ### -field Version
 
@@ -83,23 +106,6 @@ If <b>true</b>, create and terminate notifications will be delivered for any sil
 Reserved for system use.
 
 
-### -field DUMMYUNIONNAME
-
-Unnamed union.
-
-
-### -field DriverObjectName
-
-A pointer to the unicode name for the driver object registering for notifications.
-
-
-### -field ComponentName
-
-A pointer to the unicode name for the component registering for notifications.
-
-</dd>
-</dl>
-
 ### -field CreateCallback
 
 A pointer to a callback that is invoked whenever a new server silo is created on the system.  This value may be <b>NULL</b>.  This gives drivers to opportunity to handle the event and set up per-silo data structures.
@@ -110,4 +116,17 @@ A pointer to a callback that is invoked whenever a new server silo is created on
 A pointer to a callback that is invoked whenever a server silo is terminated (about to be destroyed) on the system.  This value may be <b>NULL</b>.  This gives drivers the opportunity to complete work within the silo and begin tearing down their per-silo data structures.
 
 
-## -remarks
+#### - DUMMYUNIONNAME
+
+Unnamed union.
+
+
+##### - DUMMYUNIONNAME.ComponentName
+
+A pointer to the unicode name for the component registering for notifications.
+
+
+##### - DUMMYUNIONNAME.DriverObjectName
+
+A pointer to the unicode name for the driver object registering for notifications.
+

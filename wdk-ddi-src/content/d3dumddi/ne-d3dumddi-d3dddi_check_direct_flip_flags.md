@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 72b49af8-4d98-4fc0-ab40-72f1e19eef96
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_CHECK_DIRECT_FLIP_FLAGS, D3DDDI_CHECK_DIRECT_FLIP_FLAGS
+ms.keywords: display.d3dddi_check_direct_flip_flags, D3DDDI_CHECKDIRECTFLIP_IMMEDIATE, d3dumddi/D3DDDI_CHECK_DIRECT_FLIP_FLAGS, D3DDDI_CHECK_DIRECT_FLIP_FLAGS, D3DDDI_CHECK_DIRECT_FLIP_FLAGS enumeration [Display Devices], d3dumddi/D3DDDI_CHECKDIRECTFLIP_IMMEDIATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_CHECK_DIRECT_FLIP_FLAGS
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	D3DDDI_CHECK_DIRECT_FLIP_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_CHECK_DIRECT_FLIP_FLAGS
 ---
 
 # D3DDDI_CHECK_DIRECT_FLIP_FLAGS enumeration
 
 
-
 ## -description
+
+
 Used by the <i>CheckDirectFlipFlags</i> parameter of the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkdirectflipsupport.md">CheckDirectFlipSupport</a> function to specify seamless flipping of video memory.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3DDDI_CHECK_DIRECT_FLIP_FLAGS { 
@@ -54,23 +64,20 @@ typedef enum D3DDDI_CHECK_DIRECT_FLIP_FLAGS {
 
 ## -enum-fields
 
+
+
+
 ### -field D3DDDI_CHECKDIRECTFLIP_IMMEDIATE
 
 Seamless flipping should occur immediately and does not have to be synchronized with a VSync interrupt.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkdirectflipsupport.md">CheckDirectFlipSupport</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ne-d3dumddi-d3dddi_check_direct_flip_flags.md">D3DDDI_CHECK_DIRECT_FLIP_FLAGS</a>
-</dt>
-</dl>
+
  
 
  

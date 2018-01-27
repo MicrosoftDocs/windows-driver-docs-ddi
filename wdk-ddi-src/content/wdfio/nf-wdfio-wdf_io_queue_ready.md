@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 622e09eb-37ae-403e-9d18-acf2e7761b43
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_QUEUE_READY
+ms.keywords: wdf.wdf_io_queue_ready, WDF_IO_QUEUE_READY function, WDF_IO_QUEUE_READY, wdfio/WDF_IO_QUEUE_READY, kmdf.wdf_io_queue_ready, DFQueueObjectRef_d5c37eea-044b-41b6-9c0a-f910fef04d00.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WDF_IO_QUEUE_READY
-req.alt-loc: None,None.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: Any IRQL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	None
+-	None.dll
+apiname: 
+-	WDF_IO_QUEUE_READY
+product: Windows
+targetos: Windows
 req.typenames: WDF_IO_QUEUE_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WDF_IO_QUEUE_READY function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_IO_QUEUE_READY</b> function returns <b>TRUE</b> if an I/O queue's state indicates that the queue is drained.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN WDF_IO_QUEUE_READY(
@@ -57,40 +68,42 @@ BOOLEAN WDF_IO_QUEUE_READY(
 
 ## -parameters
 
+
+
+
 ### -param State [in]
 
 A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>-typed value that <a href="..\wdfio\nf-wdfio-wdfioqueuegetstate.md">WdfIoQueueGetState</a> returns.
 
 
 ## -returns
+
+
 <b>WDF_IO_QUEUE_READY</b> returns <b>TRUE</b> if the specified queue state indicates that the queue is ready. Otherwise, the function returns <b>FALSE</b>.
 
 
+
 ## -remarks
+
+
 An I/O queue is ready if the queue can accept and dispatch I/O requests.
 
 Your driver can call <b>WDF_IO_QUEUE_READY</b> after it has called <a href="..\wdfio\nf-wdfio-wdfioqueuegetstate.md">WdfIoQueueGetState</a>.
 
 For more information about I/O queue states, see <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>.
 
-The following code example is a routine that returns <b>TRUE</b> if a specified I/O queue is ready.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_drained.md">WDF_IO_QUEUE_DRAINED</a>
-</dt>
-<dt>
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_idle.md">WDF_IO_QUEUE_IDLE</a>
-</dt>
-<dt>
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_purged.md">WDF_IO_QUEUE_PURGED</a>
-</dt>
-<dt>
+
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_stopped.md">WDF_IO_QUEUE_STOPPED</a>
-</dt>
-</dl>
+
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_idle.md">WDF_IO_QUEUE_IDLE</a>
+
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_purged.md">WDF_IO_QUEUE_PURGED</a>
+
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_drained.md">WDF_IO_QUEUE_DRAINED</a>
+
  
 
  

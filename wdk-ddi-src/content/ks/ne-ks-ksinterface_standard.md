@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: B000E3BD-28FA-454E-A598-3670B5FCD3DD
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSINTERFACE_STANDARD, KSINTERFACE_STANDARD
+ms.keywords: KSINTERFACE_STANDARD_CONTROL, stream.ksinterface_standard, ks/KSINTERFACE_STANDARD, KSINTERFACE_STANDARD_STREAMING, ks/KSINTERFACE_STANDARD_STREAMING, ks/KSINTERFACE_STANDARD_CONTROL, KSINTERFACE_STANDARD, ks/KSINTERFACE_STANDARD_LOOPED_STREAMING, KSINTERFACE_STANDARD_LOOPED_STREAMING, KSINTERFACE_STANDARD enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSINTERFACE_STANDARD
-req.alt-loc: Ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ks.h
+apiname: 
+-	KSINTERFACE_STANDARD
+product: Windows
+targetos: Windows
 req.typenames: KSINTERFACE_STANDARD
 ---
 
 # KSINTERFACE_STANDARD enumeration
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: KSINTERFACE_STANDARD
 
 
 
+
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -56,15 +66,18 @@ typedef enum  {
 
 ## -enum-fields
 
+
+
+
 ### -field KSINTERFACE_STANDARD_STREAMING
 
 
+
 ### -field KSINTERFACE_STANDARD_LOOPED_STREAMING
+
 
 
 ### -field KSINTERFACE_STANDARD_CONTROL
 
 Reserved for system use.
 
-
-## -remarks

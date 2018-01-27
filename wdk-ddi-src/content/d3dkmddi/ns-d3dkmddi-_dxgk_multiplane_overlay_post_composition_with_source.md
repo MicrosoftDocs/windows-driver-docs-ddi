@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F997E3DB-630D-41C8-B659-36376E05A6B7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
+ms.keywords: _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE structure [Display Devices], display.dxgk_multiplane_overlay_post_composition_with_source, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
+product: Windows
+targetos: Windows
 req.typenames: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
 ---
 
 # _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE structure
 
 
-
 ## -description
+
+
 Used in a call to the <b>DxgkDdiCheckMultiPlaneOverlaySupport3 </b>function to check details on hardware support for post composition transform support.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE {
@@ -55,6 +65,9 @@ typedef struct _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE {
 
 ## -struct-fields
 
+
+
+
 ### -field VidPnSourceId
 
 The zero-based video present network (VidPN) source identification number of the input for which the support levels are queried.
@@ -64,5 +77,3 @@ The zero-based video present network (VidPN) source identification number of the
 
 A DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION structure that specifies additional transforms that should be applied after the planes are composed.
 
-
-## -remarks

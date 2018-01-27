@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 295a34e4-734e-41ba-bf2e-378333c14e2c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltFreePoolAlignedWithTag
+ms.keywords: ifsk.fltfreepoolalignedwithtag, FltFreePoolAlignedWithTag routine [Installable File System Drivers], FltApiRef_e_to_o_dc83e564-1331-48f0-ad7e-8cdeaa677952.xml, fltkernel/FltFreePoolAlignedWithTag, FltFreePoolAlignedWithTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltFreePoolAlignedWithTag
-req.alt-loc: FltMgr.lib,FltMgr.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	FltMgr.lib
+-	FltMgr.dll
+apiname: 
+-	FltFreePoolAlignedWithTag
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltFreePoolAlignedWithTag function
 
 
-
 ## -description
+
+
 The <b>FltFreePoolAlignedWithTag</b> routine frees a cache-aligned buffer that was allocated by a previous call to <a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>. 
 
 
-
 ## -syntax
+
 
 ````
 VOID FltFreePoolAlignedWithTag(
@@ -55,6 +66,9 @@ VOID FltFreePoolAlignedWithTag(
 
 
 ## -parameters
+
+
+
 
 ### -param Instance [in]
 
@@ -72,21 +86,25 @@ Tag used to mark the pool block. Must be the same tag as the one used in the cal
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The memory that the <i>Buffer</i> parameter points to must not be accessed after it is freed by <b>FltFreePoolAlignedWithTag</b>. 
 
 The caller of <b>FltFreePoolAlignedWithTag</b> can be running at IRQL DISPATCH_LEVEL if a <b>NonPaged</b><i>XxxPoolType</i> value was specified when the memory was allocated. Otherwise, the caller must be running at IRQL &lt;= APC_LEVEL. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>
-</dt>
-</dl>
+
  
 
  

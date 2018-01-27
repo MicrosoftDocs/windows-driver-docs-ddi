@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3d5a7ea1-08c2-4594-93bc-97b985cd16dc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.iasetvertexbuffers, IaSetVertexBuffers callback function [Display Devices], IaSetVertexBuffers, PFND3D10DDI_IA_SETVERTEXBUFFERS, PFND3D10DDI_IA_SETVERTEXBUFFERS, d3d10umddi/IaSetVertexBuffers, UserModeDisplayDriverDx10_Functions_12104a04-1497-42c6-a5e1-6573b33a43d3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IaSetVertexBuffers
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	IaSetVertexBuffers
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D10DDI_IA_SETVERTEXBUFFERS callback
 
 
-
 ## -description
+
+
 The <i>IaSetVertexBuffers</i> function sets vertex buffers for an input assembler.
 
 
-
 ## -prototype
+
 
 ````
 PFND3D10DDI_IA_SETVERTEXBUFFERS IaSetVertexBuffers;
@@ -62,14 +72,15 @@ VOID APIENTRY IaSetVertexBuffers(
 
 ## -parameters
 
-### -param hDevice [in]
-
- A handle to the display device (graphics context).
 
 
-### -param StartBuffer [in]
 
- The starting vertex buffer to set. 
+### -param D3D10DDI_HDEVICE
+
+
+
+### -param StartSlot
+
 
 
 ### -param NumBuffers [in]
@@ -77,40 +88,60 @@ VOID APIENTRY IaSetVertexBuffers(
  The total number of buffers to set. 
 
 
-### -param phBuffers [in]
+### -param *
+
+
+
+
+
+
+#### - StartBuffer [in]
+
+ The starting vertex buffer to set. 
+
+
+#### - phBuffers [in]
 
  An array of handles to the vertex buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
 
 
-### -param pStrides [in]
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
+#### - pStrides [in]
 
  An array of values that indicate the sizes, in bytes, from one vertex to the next vertex for each buffer 
 
 
-### -param pOffsets [in]
+#### - pOffsets [in]
 
  An array of values that indicate the offsets, in bytes, into each vertex buffer. 
 
 
 ## -returns
+
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
 
 
+
 ## -remarks
+
+
 The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> function, the Direct3D runtime will determine that the error is critical. Even if the device was removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interfered with the operation of <i>IaSetVertexBuffers</i> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-</dt>
-</dl>
+
  
 
  

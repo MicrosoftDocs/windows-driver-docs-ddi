@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 87f3b66a-0fcb-4325-ae23-7f89d6b389e6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_PRESENT_FLAGS, DXGI_DDI_PRESENT_FLAGS
+ms.keywords: display.dxgi_ddi_present_flags, DXGI_DDI_PRESENT_FLAGS, DXGI_DDI_PRESENT_FLAGS structure [Display Devices], dxgiddi/DXGI_DDI_PRESENT_FLAGS, UMDisplayDriver_Dx10param_Structs_75234d4d-acce-4f1f-804c-f7128d885c2f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGI_DDI_PRESENT_FLAGS
-req.alt-loc: dxgiddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxgiddi.h
+apiname: 
+-	DXGI_DDI_PRESENT_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGI_DDI_PRESENT_FLAGS
 ---
 
 # DXGI_DDI_PRESENT_FLAGS structure
 
 
-
 ## -description
+
+
 Identifies how to perform a present operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct DXGI_DDI_PRESENT_FLAGS {
@@ -62,6 +72,9 @@ typedef struct DXGI_DDI_PRESENT_FLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Blt
 
@@ -97,6 +110,16 @@ Specifies that  a present operation should use the left buffer as a mono (non-st
 Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x00000008).
 
 
+### -field AllowTearing
+
+ 
+
+
+### -field AllowFlexibleRefresh
+
+ 
+
+
 ### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 28 bits (0xFFFFFFF0) of the 32-bit <b>Value</b> member to zeros.
@@ -107,18 +130,12 @@ This member is reserved and should be set to zero. Setting this member to zero i
 A member in the union that is contained in DXGI_DDI_PRESENT_FLAGS that can hold one 32-bit value that identifies how to perform a present operation.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_present.md">DXGI_DDI_ARG_PRESENT</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a>
-</dt>
-</dl>
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_present.md">DXGI_DDI_ARG_PRESENT</a>
+
  
 
  

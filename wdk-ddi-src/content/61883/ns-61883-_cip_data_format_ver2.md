@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: C78543F5-82CC-43CF-8769-1E721C17FF9C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _CIP_DATA_FORMAT_VER2, *PCIP_DATA_FORMAT_VER2, CIP_DATA_FORMAT_VER2, *PCIP_DATA_FORMAT, CIP_DATA_FORMAT
+ms.keywords: PCIP_DATA_FORMAT_VER2, IEEE.cip_data_format_ver2, CIP_DATA_FORMAT_VER2, 61883/CIP_DATA_FORMAT_VER2, 61883/PCIP_DATA_FORMAT_VER2, *PCIP_DATA_FORMAT, _CIP_DATA_FORMAT_VER2, *PCIP_DATA_FORMAT_VER2, CIP_DATA_FORMAT_VER2 structure [Buses], PCIP_DATA_FORMAT_VER2 structure pointer [Buses], CIP_DATA_FORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CIP_DATA_FORMAT_VER2
-req.alt-loc: 61883.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	61883.h
+apiname: 
+-	CIP_DATA_FORMAT_VER2
+product: Windows
+targetos: Windows
 req.typenames: *PCIP_DATA_FORMAT_VER2, CIP_DATA_FORMAT_VER2
 ---
 
 # _CIP_DATA_FORMAT_VER2 structure
 
 
-
 ## -description
+
+
 This structure is a CIP data format which is used by <a href="..\61883\ns-61883-_cmp_connect_ver2.md">CMP_CONNECT_VER2</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CIP_DATA_FORMAT_VER2 {
@@ -55,25 +65,69 @@ typedef struct _CIP_DATA_FORMAT_VER2 {
 
 ## -struct-fields
 
-### -field hConnect
-
-A handle to a connection.
 
 
-### -field Frame
+
+### -field FMT
+
+ 
+
+
+### -field FDF_hi
+
+ 
+
+
+### -field FDF_mid
+
+ 
+
+
+### -field FDF_lo
+
+ 
+
+
+### -field bHeader
+
+ 
+
+
+### -field Padding
+
+ 
+
+
+### -field BlockSize
+
+ 
+
+
+### -field Fraction
+
+ 
+
+
+### -field BlockPeriod
+
+ 
+
+
+
+#### - Frame
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537045">CIP_FRAME</a> structure that contains information about a frame and a data buffer to be sent or filled.
 
 
-## -remarks
+#### - hConnect
+
+A handle to a connection.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 83260550-B364-4790-BDB5-5C6E5AD76A72
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbIoctl, *PSpbIoctl, SpbIoctl
+ms.keywords: spb/IOCTL_SPB_EXECUTE_SEQUENCE, spb/IOCTL_SPB_LOCK_CONNECTION, IOCTL_SPB_UNLOCK_CONTROLLER, SPB.spbioctl, IOCTL_SPB_LOCK_CONTROLLER, *PSpbIoctl enumeration [Buses], *PSpbIoctl, spb/IOCTL_SPB_UNLOCK_CONTROLLER, SpbIoctl, spb/IOCTL_SPB_UNLOCK_CONNECTION, spb/IOCTL_SPB_FULL_DUPLEX, SpbIoctl enumeration [Buses], spb/IOCTL_SPB_LOCK_CONTROLLER, IOCTL_SPB_EXECUTE_SEQUENCE, IOCTL_SPB_UNLOCK_CONNECTION, IOCTL_SPB_FULL_DUPLEX, spb/SpbIoctl, IOCTL_SPB_LOCK_CONNECTION, spb/*PSpbIoctl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SpbIoctl
-req.alt-loc: Spb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Spb.h
+apiname: 
+-	SpbIoctl
+product: Windows
+targetos: Windows
 req.typenames: *PSpbIoctl, SpbIoctl
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # SpbIoctl enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Defines values to indicate the type I/O control request.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _SpbIoctl { 
@@ -61,6 +71,9 @@ typedef enum _SpbIoctl {
 
 
 ## -enum-fields
+
+
+
 
 ### -field IOCTL_SPB_LOCK_CONTROLLER
 
@@ -91,5 +104,3 @@ The <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spb-i
 
 The <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spb-ioctls">IOCTL_SPB_FULL_DUPLEX</a> control code is used by a client (peripheral driver) to request a full-duplex I/O operation. Full-duplex I/O operations are supported by controllers for buses such as SPI that can simultaneously read and write data.
 
-
-## -remarks

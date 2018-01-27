@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3fca9bf5-5430-4877-846e-e796e54991a2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsPin, IKsPin::KsGetCurrentCommunication, KsGetCurrentCommunication
+ms.keywords: stream.ikspin_ksgetcurrentcommunication, IKsPin::KsGetCurrentCommunication, KsGetCurrentCommunication method [Streaming Media Devices], IKsPin interface, KsGetCurrentCommunication method [Streaming Media Devices], ksproxy_2619bbb1-bc7d-4a69-99fb-2e35a36c4f02.xml, IKsPin, KsGetCurrentCommunication, ksproxy/IKsPin::KsGetCurrentCommunication, IKsPin interface [Streaming Media Devices], KsGetCurrentCommunication method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsPin.KsGetCurrentCommunication
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ksproxy.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsPin.KsGetCurrentCommunication
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsPin::KsGetCurrentCommunication method
 
 
-
 ## -description
+
+
 The <b>KsGetCurrentCommunication</b> method retrieves the current communication direction, interface, and medium of a pin. 
 
 
-
 ## -syntax
+
 
 ````
 HRESULT KsGetCurrentCommunication(
@@ -56,10 +66,12 @@ HRESULT KsGetCurrentCommunication(
 
 ## -parameters
 
+
+
+
 ### -param Communication [out, optional]
 
 Pointer to a variable that receives one of the following values from the KSPIN_COMMUNICATION enumerated type describing the current communication direction for a pin: 
-
 <table>
 <tr>
 <th>Value</th>
@@ -115,8 +127,7 @@ The pin cannot connect to other pins, but instances may be created on it to rece
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Interface [out, optional]
@@ -130,27 +141,29 @@ Pointer to a variable that receives a <a href="..\ks\ns-ks-ksidentifier.md">KSPI
 
 
 ## -returns
+
+
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
+
 ## -remarks
+
+
 Source pins send IRPs to sink pins. Do not confuse the communication direction with data flow direction. (See <a href="https://msdn.microsoft.com/library/windows/hardware/ff565197">KSPROPERTY_PIN_DATAFLOW</a>.) A source pin may read or write data, and a sink pin may have data read to it or written from it.
 
 The current communication direction, interface, and medium of a pin are a subset of those available to the pin, and are selected when the pin handle is created.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565197">KSPROPERTY_PIN_DATAFLOW</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7a91311e-c8b9-4f28-b72e-9f93d459aac2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_GAMMA_CONTROL_CAPABILITIES, DXGI_GAMMA_CONTROL_CAPABILITIES
+ms.keywords: UMDisplayDriver_Dx10param_Structs_002eb4f0-081a-43df-a307-e979017daf6f.xml, dxgitype/DXGI_GAMMA_CONTROL_CAPABILIITES, DXGI_GAMMA_CONTROL_CAPABILITIES structure [Display Devices], DXGI_GAMMA_CONTROL_CAPABILITIES, DXGI_GAMMA_CONTROL_CAPABILIITES structure [Display Devices], display.dxgi_gamma_control_capabiliites, DXGI_GAMMA_CONTROL_CAPABILIITES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGI_GAMMA_CONTROL_CAPABILITIES
-req.alt-loc: Dxgitype.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Dxgitype.h
+apiname: 
+-	DXGI_GAMMA_CONTROL_CAPABILITIES
+product: Windows
+targetos: Windows
 req.typenames: DXGI_GAMMA_CONTROL_CAPABILITIES
 ---
 
 # DXGI_GAMMA_CONTROL_CAPABILITIES structure
 
 
-
 ## -description
+
+
 The DXGI_GAMMA_CONTROL_CAPABILIITES structure describes gamma capabilities. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct DXGI_GAMMA_CONTROL_CAPABILIITES {
@@ -57,6 +67,9 @@ typedef struct DXGI_GAMMA_CONTROL_CAPABILIITES {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ScaleAndOffsetSupported
 
@@ -83,18 +96,12 @@ typedef struct DXGI_GAMMA_CONTROL_CAPABILIITES {
 [out] An array of single-precision float vectors that describe the gamma control point positions. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_get_gamma_control_caps.md">DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566790">GetGammaCapsDXGI</a>
-</dt>
-</dl>
+
  
 
  

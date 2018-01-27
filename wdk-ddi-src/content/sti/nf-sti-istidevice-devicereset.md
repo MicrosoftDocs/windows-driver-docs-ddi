@@ -7,8 +7,8 @@ old-location: image\istidevice_devicereset.htm
 old-project: image
 ms.assetid: 8a52c452-9a80-45d5-9bc8-85e17654eb6a
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: IStiDevice, IStiDevice::DeviceReset, DeviceReset
+ms.date: 1/18/2018
+ms.keywords: IStiDevice::DeviceReset, DeviceReset method [Imaging Devices], stifnc_ef289b1a-3123-4e1e-b643-688a10e69e36.xml, IStiDevice, DeviceReset method [Imaging Devices], IStiDevice interface, IStiDevice interface [Imaging Devices], DeviceReset method, image.istidevice_devicereset, DeviceReset, sti/IStiDevice::DeviceReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IStiDevice.DeviceReset
-req.alt-loc: Sti.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: sti.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Sti.h
+apiname: 
+-	IStiDevice.DeviceReset
+product: Windows
+targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IStiDevice::DeviceReset method
 
 
-
 ## -description
+
+
 The <b>IStiDevice::DeviceReset</b> method resets a still image device to a known state.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT DeviceReset();
@@ -54,17 +64,23 @@ HRESULT DeviceReset();
 ## -parameters
 
 
+
+
+
 ## -returns
-If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
+
 
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
-If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 ## -remarks
+
+
 The <b>IStiDevice::DeviceReset</b> method resets the device by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543812">IStiUSD::DeviceReset</a>, which is exported by vendor-supplied minidrivers.
 
 Before calling <b>IStiDevice::DeviceReset</b>, clients of the <b>IStiDevice</b> COM interface must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543778">IStillImage::CreateDevice</a> to obtain an <b>IStiDevice</b> interface pointer, which provides access to a specified device.
 
-A call to <b>IStiDevice::DeviceReset</b> must be preceded by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543756">IStiDevice::LockDevice</a> and followed by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543770">IStiDevice::UnLockDevice</a>.</p>
+A call to <b>IStiDevice::DeviceReset</b> must be preceded by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543756">IStiDevice::LockDevice</a> and followed by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543770">IStiDevice::UnLockDevice</a>.
+
+

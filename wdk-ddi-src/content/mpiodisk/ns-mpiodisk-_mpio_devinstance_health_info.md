@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7f254389-58cf-43da-8611-a1598cc2eb66
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MPIO_DEVINSTANCE_HEALTH_INFO, *PMPIO_DEVINSTANCE_HEALTH_INFO, MPIO_DEVINSTANCE_HEALTH_INFO
+ms.keywords: storage.mpio_devinstance_health_info, structs-scsibus_4e13f03b-88d3-4ab7-a2a8-5b4064b4edd2.xml, *PMPIO_DEVINSTANCE_HEALTH_INFO, PMPIO_DEVINSTANCE_HEALTH_INFO structure pointer [Storage Devices], mpiodisk/MPIO_DEVINSTANCE_HEALTH_INFO, mpiodisk/PMPIO_DEVINSTANCE_HEALTH_INFO, MPIO_DEVINSTANCE_HEALTH_INFO, _MPIO_DEVINSTANCE_HEALTH_INFO, MPIO_DEVINSTANCE_HEALTH_INFO structure [Storage Devices], PMPIO_DEVINSTANCE_HEALTH_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MPIO_DEVINSTANCE_HEALTH_INFO
-req.alt-loc: mpiodisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PMPIO_DEVINSTANCE_HEALTH_INFO, MPIO_DEVINSTANCE_HEALTH_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mpiodisk.h
+apiname: 
+-	MPIO_DEVINSTANCE_HEALTH_INFO
+product: Windows
+targetos: Windows
+req.typenames: MPIO_DEVINSTANCE_HEALTH_INFO, *PMPIO_DEVINSTANCE_HEALTH_INFO
 ---
 
 # _MPIO_DEVINSTANCE_HEALTH_INFO structure
 
 
-
 ## -description
+
+
 The MPIO_DEVINSTANCE_HEALTH_INFO structure is used to query the available health information for every instance of a multi-path disk on each of the paths through which it is exposed.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MPIO_DEVINSTANCE_HEALTH_INFO {
@@ -55,6 +65,9 @@ typedef struct _MPIO_DEVINSTANCE_HEALTH_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NumberDevInstancePackets
 
@@ -70,5 +83,3 @@ Should be zero.
 
 A field that returns an array with health information about all the available instances of multi-path disks. The number of elements of the array is given by <i>NbrDevInfoPkts</i> and each element of the array is an instance of the MPIO_DEVINSTANCE_HEALTH_CLASS structure.
 
-
-## -remarks

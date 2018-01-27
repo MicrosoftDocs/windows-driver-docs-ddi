@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c23fc5f4-2546-4330-bcdd-8fef59c8219a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSEVENT_ITEM_IRP_STORAGE
+ms.keywords: ks/KSEVENT_ITEM_IRP_STORAGE, KSEVENT_ITEM_IRP_STORAGE, KSEVENT_ITEM_IRP_STORAGE macro [Streaming Media Devices], stream.ksevent_item_irp_storage, ksfunc_dc3f2f9e-fe47-46ac-9f51-9d07b42e5daf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSEVENT_ITEM_IRP_STORAGE
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ks.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSEVENT_ITEM_IRP_STORAGE
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KSEVENT_ITEM_IRP_STORAGE macro
 
 
-
 ## -description
+
+
 This macro retrieves a pointer to the <a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a> structure stored in <i>Irp</i>.
 
 
-
 ## -syntax
+
 
 ````
  KSEVENT_ITEM_IRP_STORAGE(
@@ -54,7 +64,9 @@ This macro retrieves a pointer to the <a href="..\ks\ns-ks-ksevent_item.md">KSEV
 
 ## -parameters
 
-### -param Irp 
 
 
-## -remarks
+
+### -param Irp
+
+

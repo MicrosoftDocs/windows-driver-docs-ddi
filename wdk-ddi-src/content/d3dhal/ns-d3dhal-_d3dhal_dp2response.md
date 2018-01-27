@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3a8ae2a9-21cd-4b0d-b293-60865a4fdfe6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2RESPONSE, D3DHAL_DP2RESPONSE, *LPD3DHAL_DP2RESPONSE
+ms.keywords: d3dhal/D3DHAL_DP2RESPONSE, *LPD3DHAL_DP2RESPONSE, _D3DHAL_DP2RESPONSE, display.d3dhal_dp2response, d3dstrct_cd629a64-c8e9-45d2-a0bc-048ff623cc97.xml, d3dhal/LPD3DHAL_DP2RESPONSE, D3DHAL_DP2RESPONSE structure [Display Devices], LPD3DHAL_DP2RESPONSE structure pointer [Display Devices], D3DHAL_DP2RESPONSE, LPD3DHAL_DP2RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DP2RESPONSE
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DP2RESPONSE
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DP2RESPONSE, *LPD3DHAL_DP2RESPONSE
 ---
 
 # _D3DHAL_DP2RESPONSE structure
 
 
-
 ## -description
+
+
 
    DirectX 9.0 and later versions only.
    
@@ -46,8 +56,8 @@ req.typenames: D3DHAL_DP2RESPONSE, *LPD3DHAL_DP2RESPONSE
 One or more D3DHAL_DP2RESPONSE structures are parsed from the response buffer that the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback returns to the runtime. Each structure specifies the availability of responses to previously issued queries.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DP2RESPONSE {
@@ -60,6 +70,9 @@ typedef struct _D3DHAL_DP2RESPONSE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field bCommand
 
@@ -81,23 +94,18 @@ Specifies the number of responses (that is, the number of <a href="..\d3dhal\ns-
 Specifies the total size, in bytes, of the responses associated with this D3DHAL_DP2RESPONSE structure. The driver also includes the size of this D3DHAL_DP2RESPONSE structure in the total size to let the runtime skip over this D3DHAL_DP2RESPONSE structure when parsing the response buffer. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>D3DDP2OP_RESPONSECONTINUE</dt>
-<dt>D3DDP2OP_RESPONSEQUERY</dt>
-<dt>
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-</dt>
-<dt>
-<a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a>
-</dt>
-<dt>
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a>
-</dt>
-</dl>
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+D3DDP2OP_RESPONSECONTINUE
+
+<a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a>
+
+D3DDP2OP_RESPONSEQUERY
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7fd03702-154b-47d4-96cb-6ad9683124ca
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_RefreshInformation
+ms.keywords: storage.hba_refreshinformation, HBA_RefreshInformation routine [Storage Devices], HBA_RefreshInformation, hbaapi/HBA_RefreshInformation, fibreHBA_rtns_3c486993-5307-42c2-924c-743f635447e8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBA_RefreshInformation
-req.alt-loc: Hbaapi.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Hbaapi.dll
+apiname: 
+-	HBA_RefreshInformation
+product: Windows
+targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
 
 # HBA_RefreshInformation function
 
 
-
 ## -description
+
+
 The <b>HBA_RefreshInformation</b> routine refreshes the library's internally cached data for the indicated HBA.
 
 
-
 ## -syntax
+
 
 ````
 void HBA_API HBA_RefreshInformation(
@@ -54,27 +64,33 @@ void HBA_API HBA_RefreshInformation(
 
 ## -parameters
 
-### -param HbaHandle [in]
+
+
+
+### -param Handle
+
+TBD
+
+
+
+#### - HbaHandle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA whose cached data the library will refresh.
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-</dt>
-<dt>
+
 <a href="..\hbaapi\nf-hbaapi-hba_refreshadapterconfiguration.md">HBA_RefreshAdapterConfiguration</a>
-</dt>
-</dl>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
  
 
  

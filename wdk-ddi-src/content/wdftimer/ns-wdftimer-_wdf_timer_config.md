@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5ef6491d-90bb-472c-821a-b296bef17463
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_TIMER_CONFIG, WDF_TIMER_CONFIG, *PWDF_TIMER_CONFIG
+ms.keywords: *PWDF_TIMER_CONFIG, wdftimer/PWDF_TIMER_CONFIG, PWDF_TIMER_CONFIG, PWDF_TIMER_CONFIG structure pointer, wdftimer/WDF_TIMER_CONFIG, wdf.wdf_timer_config, _WDF_TIMER_CONFIG, DFTimerObjectRef_cacde276-7a83-4a7f-87e1-de043aee4725.xml, kmdf.wdf_timer_config, WDF_TIMER_CONFIG structure, WDF_TIMER_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_TIMER_CONFIG
-req.alt-loc: wdftimer.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-req.typenames: WDF_TIMER_CONFIG, *PWDF_TIMER_CONFIG
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdftimer.h
+apiname: 
+-	WDF_TIMER_CONFIG
+product: Windows
+targetos: Windows
+req.typenames: *PWDF_TIMER_CONFIG, WDF_TIMER_CONFIG
 req.product: Windows 10 or later.
 ---
 
 # _WDF_TIMER_CONFIG structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_TIMER_CONFIG</b> structure contains configuration information for a framework timer object.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WDF_TIMER_CONFIG {
@@ -61,6 +71,9 @@ typedef struct _WDF_TIMER_CONFIG {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -101,17 +114,16 @@ For more information about this member, see the following Remarks section.
 
 This member is available starting with Windows 8.1 and KMDF version 1.13.
 
-A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value. If this value is <b>WdfTrue</b>, the framework uses a high resolution timer that has an accuracy of one millisecond.  If the value is <b>WdfFalse</b> or <b>WdfDefault</b>, the framework uses a standard timer that has an accuracy matching the system clock tick interval, which is by default 15.6 milliseconds.
-
-<div class="alert"><b>Warning</b>  If you set <b>UseHighResolutionTimer</b> to <b>WdfTrue</b>, you must call <a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a> with the <i>DueTime</i> parameter set to a negative value.  Otherwise, the call causes the system to crash.</div>
-<div> </div>
-If  <b>UseHighResolutionTimer</b> is <b>WdfTrue</b>, you must set <b>TolerableDelay</b> to zero. Otherwise, <a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a> returns a failure code.
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value. If this value is <b>WdfTrue</b>, the framework uses a high resolution timer that has an accuracy of one millisecond.  If the value is <b>WdfFalse</b> or <b>WdfDefault</b>, the framework uses a standard timer that has an accuracy matching the system clock tick interval, which is by default 15.6 milliseconds.
+<div class="alert"><b>Warning</b>  If you set <b>UseHighResolutionTimer</b> to <b>WdfTrue</b>, you must call <a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a> with the <i>DueTime</i> parameter set to a negative value.  Otherwise, the call causes the system to crash.</div><div> </div>If  <b>UseHighResolutionTimer</b> is <b>WdfTrue</b>, you must set <b>TolerableDelay</b> to zero. Otherwise, <a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a> returns a failure code.
 
 
              For more information about this member, see the following Remarks section.
 
 
 ## -remarks
+
+
 The <b>WDF_TIMER_CONFIG</b> structure is used as input to the <a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a> method. To initialize a <b>WDF_TIMER_CONFIG</b> structure, your driver must call either <a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init.md">WDF_TIMER_CONFIG_INIT</a> or <a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init_periodic.md">WDF_TIMER_CONFIG_INIT_PERIODIC</a>.
 
 Setting the <b>AutomaticSerialization</b> member of <b>WDF_TIMER_CONFIG</b> to <b>TRUE</b> has no effect if the parent object's <a href="..\wdfobject\ne-wdfobject-_wdf_synchronization_scope.md">synchronization scope</a> is set to <b>WdfSynchronizationScopeNone</b>.
@@ -129,24 +141,19 @@ For more information about <b>AutomaticSerialization</b> and synchronizing drive
 For more information about framework timer objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-timers">Using Timers</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a>
-</dt>
-<dt>
+
 <a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init.md">WDF_TIMER_CONFIG_INIT</a>
-</dt>
-<dt>
-<a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init_periodic.md">WDF_TIMER_CONFIG_INIT_PERIODIC</a>
-</dt>
-<dt>
+
 <a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a>
+
+<a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init_periodic.md">WDF_TIMER_CONFIG_INIT_PERIODIC</a>
+
 <a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a>
-</dt>
-</dl>
+
  
 
  

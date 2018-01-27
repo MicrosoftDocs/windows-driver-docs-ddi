@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 42cffab4-d8a7-4dff-9f53-19aa2769a85c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CDROM_SET_SPEED, *PCDROM_SET_SPEED, CDROM_SET_SPEED
+ms.keywords: ntddcdrm/CDROM_SET_SPEED, PCDROM_SET_SPEED structure pointer [Storage Devices], storage.cdrom_set_speed, CDROM_SET_SPEED structure [Storage Devices], PCDROM_SET_SPEED, _CDROM_SET_SPEED, ntddcdrm/PCDROM_SET_SPEED, structs-CD-ROM_e6e6b227-c3d9-4976-b1a5-a2100c49d266.xml, *PCDROM_SET_SPEED, CDROM_SET_SPEED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CDROM_SET_SPEED
-req.alt-loc: ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PCDROM_SET_SPEED, CDROM_SET_SPEED
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdrm.h
+apiname: 
+-	CDROM_SET_SPEED
+product: Windows
+targetos: Windows
+req.typenames: CDROM_SET_SPEED, *PCDROM_SET_SPEED
 ---
 
 # _CDROM_SET_SPEED structure
 
 
-
 ## -description
+
+
 The CDROM_SET_SPEED structure is used with the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a> request to set the spindle speed of a CD-ROM drive during data transfers in which no data loss is permitted.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CDROM_SET_SPEED {
@@ -56,6 +66,9 @@ typedef struct _CDROM_SET_SPEED {
 
 
 ## -struct-fields
+
+
+
 
 ### -field RequestType
 
@@ -77,24 +90,16 @@ The write speed, in kilobytes per second.
 A <a href="..\ntddcdrm\ne-ntddcdrm-_write_rotation.md">WRITE_ROTATION</a>-typed value that indicates whether the drive uses constant angular velocity (CAV) or constant linear velocity (CLV) rotation when it writes to a CD.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_set_streaming.md">CDROM_SET_STREAMING</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_speed_request.md">CDROM_SPEED_REQUEST</a>
-</dt>
-<dt>
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ne-ntddcdrm-_write_rotation.md">WRITE_ROTATION</a>
-</dt>
-</dl>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_set_streaming.md">CDROM_SET_STREAMING</a>
+
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a>
+
  
 
  

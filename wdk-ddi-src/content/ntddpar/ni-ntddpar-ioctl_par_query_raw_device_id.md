@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 3d7b99ea-eb53-4466-bd98-15c147c00d35
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _OFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
+ms.keywords: parports.ioctl_par_query_raw_device_id, IOCTL_PAR_QUERY_RAW_DEVICE_ID control code [Parallel Ports], IOCTL_PAR_QUERY_RAW_DEVICE_ID, ntddpar/IOCTL_PAR_QUERY_RAW_DEVICE_ID, cisspd_422dd85c-1d22-4968-9b4c-fd1ef03432e5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_PAR_QUERY_RAW_DEVICE_ID
-req.alt-loc: ntddpar.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,74 +29,101 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddpar.h
+apiname: 
+-	IOCTL_PAR_QUERY_RAW_DEVICE_ID
+product: Windows
+targetos: Windows
+req.typenames: *POFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION
 ---
 
 # IOCTL_PAR_QUERY_RAW_DEVICE_ID IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 The IOCTL_PAR_QUERY_RAW_DEVICE_ID request returns a raw device ID, which includes the following: a two-byte prefix that specifies the size, in bytes, of the device's IEEE 1284 device ID; the IEEE 1284 device ID; and a <b>NULL</b> terminator.
 
-
-
-The IOCTL_PAR_QUERY_RAW_DEVICE_ID request returns a raw device ID, which includes the following: a two-byte prefix that specifies the size, in bytes, of the device's IEEE 1284 device ID; the IEEE 1284 device ID; and a <b>NULL</b> terminator.
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 None.
 
 
 ### -input-buffer-length
+
 None.
 
 
 ### -output-buffer
+
 The <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that the client allocates to output a raw device ID. The buffer contains the following contiguous sequence of information: a two-byte prefix that specifies the size, in bytes, of the device's IEEE 1284 device ID; the device ID; and a <b>NULL</b> terminator.
 
 
 ### -output-buffer-length
+
 The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member specifies the size, in bytes, of the output buffer that can hold the following: a two-byte prefix that specifies the size, in bytes, of the device's IEEE 1284 device ID; the device ID; and a <b>NULL</b> terminator. An IEEE 1284 device ID can be up to 64 KB in size.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 If the request is successful, the <b>Information</b> member is set to the size, in bytes, of the information returned in the output buffer. Otherwise, the <b>Information</b> member is set to zero. 
 
 The <b>Status</b> member is set to one of the generic status values returned by device control requests for parallel devices or to one of the following values:
 
 
 
+
+#### -STATUS_BUFFER_TOO_SMALL
+
 The output buffer that <b>AssociatedIrp.SystemBuffer</b> points to is less than the size, in bytes, of a two-byte prefix, the IEEE 1284 device ID, and a <b>NULL</b> terminator.
+
+
+#### -STATUS_IO_DEVICE_ERROR
 
 A device I/O error occurred.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddpar\ni-ntddpar-ioctl_par_query_device_id.md">IOCTL_PAR_QUERY_DEVICE_ID</a>
-</dt>
-<dt>
+
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_device_id_size.md">IOCTL_PAR_QUERY_DEVICE_ID_SIZE</a>
-</dt>
-</dl>
+
+<a href="..\ntddpar\ni-ntddpar-ioctl_par_query_device_id.md">IOCTL_PAR_QUERY_DEVICE_ID</a>
+
  
 
  

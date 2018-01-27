@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5004fb3c-f2e3-4663-9b95-7fb7bb38364d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlFastUnlockAll
+ms.keywords: FsRtlFastUnlockAll routine [Installable File System Drivers], FsRtlFastUnlockAll, fsrtlref_713fc415-f52e-4e0f-8806-02f44fb9b3f4.xml, ntifs/FsRtlFastUnlockAll, ifsk.fsrtlfastunlockall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlFastUnlockAll
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlFastUnlockAll
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlFastUnlockAll function
 
 
-
 ## -description
+
+
 The <b>FsRtlFastUnlockAll</b> routine releases all byte-range locks that were acquired by the specified process for a file. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlFastUnlockAll(
@@ -56,6 +66,9 @@ NTSTATUS FsRtlFastUnlockAll(
 
 
 ## -parameters
+
+
+
 
 ### -param FileLock [in]
 
@@ -78,22 +91,25 @@ Optional context pointer to be used when completing IRPs.
 
 
 ## -returns
+
+
 <b>FsRtlFastUnlockAll</b> returns STATUS_SUCCESS or an error status code such as STATUS_RANGE_NOT_LOCKED. 
 
 
+
 ## -remarks
+
+
 After releasing the byte-range locks, <b>FsRtlFastUnlockAll</b> completes any currently queued lock IRPs that can now be completed.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
-</dt>
-</dl>
+
  
 
  

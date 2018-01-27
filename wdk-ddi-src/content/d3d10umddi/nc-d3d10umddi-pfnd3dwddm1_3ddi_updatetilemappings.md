@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1C8FC920-145F-4AE9-B049-F6BDAE29D1F1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.updatetilemappings, UpdateTileMappings callback function [Display Devices], UpdateTileMappings, PFND3DWDDM1_3DDI_UPDATETILEMAPPINGS, PFND3DWDDM1_3DDI_UPDATETILEMAPPINGS, d3d10umddi/UpdateTileMappings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1,WDDM 1.3
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UpdateTileMappings
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	UpdateTileMappings
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3DWDDM1_3DDI_UPDATETILEMAPPINGS callback
 
 
-
 ## -description
+
+
 Updates mappings of tile locations in tiled resources to memory locations in a tile pool.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DWDDM1_3DDI_UPDATETILEMAPPINGS UpdateTileMappings;
@@ -67,85 +77,103 @@ VOID APIENTRY* UpdateTileMappings(
 
 ## -parameters
 
-### -param hDevice 
+
+
+
+### -param hDevice
 
 A handle to the display device (graphics context).
 
 
-### -param hTiledResource 
+### -param hTiledResource
 
 A handle to the tiled resource.
 
 
-### -param NumTiledResourceRegions 
+### -param NumTiledResourceRegions
 
 The number of tiled resource regions.
 
 
-### -param pTiledResourceRegionStartCoords [in]
-
-An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm1_3ddi_tiled_resource_coordinate.md">D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE</a> structures that describe the starting coordinates of the tiled resource regions. The <i>NumTiledResourceRegions</i> parameter specifies the number of <b>D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE</b> structures in the array.
+### -param *pTiledResourceRegionStartCoords
 
 
-### -param pTiledResourceRegionSizes [in, optional]
 
-An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm1_3ddi_tile_region_size.md">D3DWDDM1_3DDI_TILE_REGION_SIZE</a> structures that describe the sizes of the tiled resource regions. The <i>NumTiledResourceRegions</i> parameter specifies the number of <b>D3DWDDM1_3DDI_TILE_REGION_SIZE</b> structures in the array.
+### -param *pTiledResourceRegionSizes
 
 
-### -param hTilePool 
+
+### -param hTilePool
 
 A handle to the tile pool.
 
 
-### -param NumRanges 
+### -param NumRanges
 
 The number of tile-pool ranges.
 
 
-### -param pRangeFlags [in, optional]
-
-An array of values that describe each tile-pool range. The <i>NumRanges</i> parameter specifies the number of values in the array. Each value can be a combination of values of type <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_tile_range_flag.md">D3DWDDM1_3DDI_TILE_RANGE_FLAG</a> combined by using a bitwise <b>OR</b> operation.
+### -param *pRangeFlags
 
 
-### -param pTilePoolStartOffsets [in, optional]
 
-An array of offsets into the tile pool. These are zero-based tile offsets, counting in tiles (not bytes).
-
-
-### -param pRangeTileCounts [in, optional]
-
-An array of values that specify the number of tiles in each tile-pool range. The <i>NumRanges</i> parameter specifies the number of values in the array.
+### -param *pTilePoolStartOffsets
 
 
-### -param Flags 
+
+### -param *pRangeTileCounts
+
+
+
+### -param Flags
 
 A combination of <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_tile_mapping_flag.md">D3DWDDM1_3DDI_TILE_MAPPING_FLAG</a> values that are combined by using a bitwise <b>OR</b> operation.
 
 
+#### - pRangeFlags [in, optional]
+
+An array of values that describe each tile-pool range. The <i>NumRanges</i> parameter specifies the number of values in the array. Each value can be a combination of values of type <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_tile_range_flag.md">D3DWDDM1_3DDI_TILE_RANGE_FLAG</a> combined by using a bitwise <b>OR</b> operation.
+
+
+#### - pRangeTileCounts [in, optional]
+
+An array of values that specify the number of tiles in each tile-pool range. The <i>NumRanges</i> parameter specifies the number of values in the array.
+
+
+#### - pTiledResourceRegionStartCoords [in]
+
+An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm1_3ddi_tiled_resource_coordinate.md">D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE</a> structures that describe the starting coordinates of the tiled resource regions. The <i>NumTiledResourceRegions</i> parameter specifies the number of <b>D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE</b> structures in the array.
+
+
+#### - pTilePoolStartOffsets [in, optional]
+
+An array of offsets into the tile pool. These are zero-based tile offsets, counting in tiles (not bytes).
+
+
+#### - pTiledResourceRegionSizes [in, optional]
+
+An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm1_3ddi_tile_region_size.md">D3DWDDM1_3DDI_TILE_REGION_SIZE</a> structures that describe the sizes of the tiled resource regions. The <i>NumTiledResourceRegions</i> parameter specifies the number of <b>D3DWDDM1_3DDI_TILE_REGION_SIZE</b> structures in the array.
+
+
 ## -returns
+
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. The driver can set <b>E_INVALIDARG</b> if a required input parameter does not exist or is <b>NULL</b>.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_tile_mapping_flag.md">D3DWDDM1_3DDI_TILE_MAPPING_FLAG</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_tile_range_flag.md">D3DWDDM1_3DDI_TILE_RANGE_FLAG</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm1_3ddi_tile_region_size.md">D3DWDDM1_3DDI_TILE_REGION_SIZE</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm1_3ddi_tiled_resource_coordinate.md">D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_tile_range_flag.md">D3DWDDM1_3DDI_TILE_RANGE_FLAG</a>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_tile_mapping_flag.md">D3DWDDM1_3DDI_TILE_MAPPING_FLAG</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm1_3ddi_tile_region_size.md">D3DWDDM1_3DDI_TILE_REGION_SIZE</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 43e34157-2cf1-4e2c-bcd8-c4425e89fb0f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGI_DDI_ARG_RECLAIMRESOURCES, DXGI_DDI_ARG_RECLAIMRESOURCES
+ms.keywords: DXGI_DDI_ARG_RECLAIMRESOURCES, dxgiddi/DXGI_DDI_ARG_RECLAIMRESOURCES, _DXGI_DDI_ARG_RECLAIMRESOURCES, DXGI_DDI_ARG_RECLAIMRESOURCES structure [Display Devices], display.dxgi_ddi_arg_reclaimresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8,WDDM 1.2 and later
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGI_DDI_ARG_RECLAIMRESOURCES
-req.alt-loc: Dxgiddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Dxgiddi.h
+apiname: 
+-	DXGI_DDI_ARG_RECLAIMRESOURCES
+product: Windows
+targetos: Windows
 req.typenames: DXGI_DDI_ARG_RECLAIMRESOURCES
 ---
 
 # _DXGI_DDI_ARG_RECLAIMRESOURCES structure
 
 
-
 ## -description
+
+
 Describes video memory resources that are to be reclaimed and that the user-mode display driver  previously offered  for reuse. Used with the <a href="https://msdn.microsoft.com/AF3DCD16-9F8C-442A-A9A5-9EA2BD1C3B84">pfnReclaimResources</a> function by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGI_DDI_ARG_RECLAIMRESOURCES {
@@ -56,6 +66,9 @@ typedef struct _DXGI_DDI_ARG_RECLAIMRESOURCES {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -85,15 +98,10 @@ If <b>pDiscarded</b> is <b>NULL</b>, the driver can ignore it.
 [in] The number of elements in the arrays pointed to by <b>pResources</b> and <b>pDiscarded</b>.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/AF3DCD16-9F8C-442A-A9A5-9EA2BD1C3B84">pfnReclaimResources</a>
-</dt>
-</dl>
+
  
 
  

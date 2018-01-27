@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c49f79cc-6ceb-4379-94ac-983b897d198b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032
+ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032 structure [Display Devices], display.d3d12ddi-command-list-funcs-video-process-0032, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032, d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032
-req.alt-loc: d3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d12umddi.h
+apiname: 
+-	D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032
 ---
 
 # D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032 structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The command list functions for video processing.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032 {
@@ -66,6 +76,9 @@ typedef struct _D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pfnCloseCommandList
 
@@ -126,5 +139,3 @@ Set protected resource session.
 
 Write buffer immediate.
 
-
-## -remarks

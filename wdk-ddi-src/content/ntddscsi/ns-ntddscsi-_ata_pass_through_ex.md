@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 76d8f5be-0011-4a7c-ac21-7115ad7e1155
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ATA_PASS_THROUGH_EX, *PATA_PASS_THROUGH_EX, ATA_PASS_THROUGH_EX
+ms.keywords: ATA_PASS_THROUGH_EX structure [Storage Devices], ntddscsi/ATA_PASS_THROUGH_EX, *PATA_PASS_THROUGH_EX, storage.ata_pass_through_ex, PATA_PASS_THROUGH_EX, structs-IDE_72cc1a49-a438-40cb-b4b5-8ec7c87669f8.xml, PATA_PASS_THROUGH_EX structure pointer [Storage Devices], ntddscsi/PATA_PASS_THROUGH_EX, _ATA_PASS_THROUGH_EX, ATA_PASS_THROUGH_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ATA_PASS_THROUGH_EX
-req.alt-loc: ntddscsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddscsi.h
+apiname: 
+-	ATA_PASS_THROUGH_EX
+product: Windows
+targetos: Windows
 req.typenames: *PATA_PASS_THROUGH_EX, ATA_PASS_THROUGH_EX
 ---
 
 # _ATA_PASS_THROUGH_EX structure
 
 
-
 ## -description
+
+
 The ATA_PASS_THROUGH_EX structure is used in conjunction with an <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through.md">IOCTL_ATA_PASS_THROUGH</a> request to instruct the port driver to send an embedded ATA command to the target device. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ATA_PASS_THROUGH_EX {
@@ -65,6 +75,9 @@ typedef struct _ATA_PASS_THROUGH_EX {
 
 ## -struct-fields
 
+
+
+
 ### -field Length
 
 Specifies the length in bytes of the ATA_PASS_THROUGH_EX structure.
@@ -73,7 +86,6 @@ Specifies the length in bytes of the ATA_PASS_THROUGH_EX structure.
 ### -field AtaFlags
 
 Indicates the direction of data transfer and specifies the kind of operation to be performed. The value of this member must be some combination of the following flags:
-
 <table>
 <tr>
 <th>ATA flags</th>
@@ -139,8 +151,7 @@ Read single sector only.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field PathId
@@ -191,7 +202,6 @@ Specifies the contents of the task file input registers prior to the current pas
 ### -field CurrentTaskFile
 
 Specifies the content of the task file register on both input and output. On input, the array values in <b>CurrentTaskFile</b> map to the task file input registers in the following manner.
-
 <table>
 <tr>
 <th>Byte</th>
@@ -277,11 +287,9 @@ Reserved
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 When <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through.md">IOCTL_ATA_PASS_THROUGH</a> completes, the port driver updates <b>CurrentTaskFile</b> with the values that are present in the device's output registers at the completion of the embedded command. The array values in <b>CurrentTaskFile</b> correspond to the following task file output registers.
-
 <table>
 <tr>
 <th>Byte</th>
@@ -367,27 +375,25 @@ Reserved
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -remarks
 
+
+
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through.md">IOCTL_ATA_PASS_THROUGH</a> is a buffered device control request. To bypass buffering in system memory, callers should use <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a> and <a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_direct.md">ATA_PASS_THROUGH_DIRECT</a>. When handling an IOCTL_ATA_PASS_THROUGH_DIRECT request, the system locks down the buffer in user memory and the device accesses this memory directly. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_direct.md">ATA_PASS_THROUGH_DIRECT</a>
-</dt>
-<dt>
+
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through.md">IOCTL_ATA_PASS_THROUGH</a>
-</dt>
-<dt>
+
+<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_direct.md">ATA_PASS_THROUGH_DIRECT</a>
+
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a>
-</dt>
-</dl>
+
  
 
  

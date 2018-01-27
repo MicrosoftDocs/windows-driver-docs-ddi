@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddicreateprocess, DxgkDdiCreateProcess callback function [Display Devices], DxgkDdiCreateProcess, DXGKDDI_CREATEPROCESS, DXGKDDI_CREATEPROCESS, dispmprt/DxgkDdiCreateProcess, d3dkmddi/DxgkDdiCreateProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiCreateProcess
-req.alt-loc: dispmprt.h,d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+-	d3dkmddi.h
+apiname: 
+-	DxgkDdiCreateProcess
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_CREATEPROCESS callback
 
 
-
 ## -description
+
+
 <b>DxgkDdiCreateProcess</b> creates a graphics kernel process object.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_CREATEPROCESS DxgkDdiCreateProcess;
@@ -58,6 +69,9 @@ NTSTATUS APIENTRY DxgkDdiCreateProcess(
 
 ## -parameters
 
+
+
+
 ### -param hAdapter [in]
 
 A handle to the display adapter.
@@ -70,19 +84,23 @@ The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createprocess.md">DXGKARG_CREATEPR
 
 ## -returns
 
+
+
       Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in <b>Ntstatus.h</b>.
 
 
+
 ## -remarks
+
+
 During process creation the kernel mode driver is allowed to call the <b>DxgkCbReserveVirtualAddressRange</b> callback. At this point the graphics processing unit (GPU) virtual address space for the process is free and the driver has the opportunity to reserve virtual address space for its needs.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createprocess.md">DXGKARG_CREATEPROCESS</a>
-</dt>
-</dl>
+
  
 
  

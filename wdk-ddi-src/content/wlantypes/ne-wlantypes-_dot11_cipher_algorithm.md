@@ -7,8 +7,8 @@ old-location: netvista\dot11_cipher_algorithm.htm
 old-project: netvista
 ms.assetid: 5fc1af01-7dd5-43dd-aefe-99dec0b5aa6a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _DOT11_CIPHER_ALGORITHM, *PDOT11_CIPHER_ALGORITHM, DOT11_CIPHER_ALGORITHM
+ms.date: 1/18/2018
+ms.keywords: wlantypes/DOT11_CIPHER_ALGO_TKIP, DOT11_CIPHER_ALGO_IHV_END, PDOT11_CIPHER_ALGORITHM enumeration pointer [Network Drivers Starting with Windows Vista], wlantypes/DOT11_CIPHER_ALGO_NONE, DOT11_CIPHER_ALGORITHM, wlantypes/DOT11_CIPHER_ALGO_CCMP, wlantypes/DOT11_CIPHER_ALGORITHM, wlantypes/DOT11_CIPHER_ALGO_WEP104, DOT11_CIPHER_ALGO_TKIP, wlantypes/DOT11_CIPHER_ALGO_IHV_START, _DOT11_CIPHER_ALGORITHM, wlantypes/DOT11_CIPHER_ALGO_WPA_USE_GROUP, wlantypes/DOT11_CIPHER_ALGO_WEP, DOT11_CIPHER_ALGORITHM enumeration [Network Drivers Starting with Windows Vista], Native_802.11_data_types_f6b802d4-cd15-49ca-9518-5dceb9c2b651.xml, DOT11_CIPHER_ALGO_CCMP, DOT11_CIPHER_ALGO_BIP, PDOT11_CIPHER_ALGORITHM, wlantypes/DOT11_CIPHER_ALGO_WEP40, DOT11_CIPHER_ALGO_WEP104, wlantypes/DOT11_CIPHER_ALGO_RSN_USE_GROUP, DOT11_CIPHER_ALGO_RSN_USE_GROUP, DOT11_CIPHER_ALGO_WEP, DOT11_CIPHER_ALGO_NONE, wlantypes/DOT11_CIPHER_ALGO_IHV_END, wlantypes/DOT11_CIPHER_ALGO_BIP, wlantypes/PDOT11_CIPHER_ALGORITHM, DOT11_CIPHER_ALGO_WPA_USE_GROUP, netvista.dot11_cipher_algorithm, DOT11_CIPHER_ALGO_IHV_START, DOT11_CIPHER_ALGO_WEP40, *PDOT11_CIPHER_ALGORITHM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 8 and later versions of the Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DOT11_CIPHER_ALGORITHM
-req.alt-loc: wlantypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wlantypes.h
+apiname: 
+-	DOT11_CIPHER_ALGORITHM
+product: Windows
+targetos: Windows
 req.typenames: *PDOT11_CIPHER_ALGORITHM, DOT11_CIPHER_ALGORITHM
 req.product: Windows 10 or later.
 ---
@@ -38,10 +47,15 @@ req.product: Windows 10 or later.
 # _DOT11_CIPHER_ALGORITHM enumeration
 
 
-
 ## -description
 
+
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_CIPHER_ALGORITHM enumeration defines a cipher algorithm for data encryption and
+  decryption.
+
+
 ## -syntax
+
 
 ````
 typedef enum _DOT11_CIPHER_ALGORITHM { 
@@ -61,6 +75,9 @@ typedef enum _DOT11_CIPHER_ALGORITHM {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DOT11_CIPHER_ALGO_NONE
 
@@ -98,6 +115,10 @@ Specifies a WEP cipher algorithm with a 104-bit cipher key.
 Specifies a BIP cipher algorithm.
 
 
+### -field DOT11_CIPHER_ALGO_GCMP
+
+
+
 ### -field DOT11_CIPHER_ALGO_WPA_USE_GROUP
 
 Specifies a Wifi Protected Access (WPA) Use Group Key cipher suite.
@@ -122,14 +143,12 @@ Specifies a WEP cipher algorithm with a cipher key of any length.
 A miniport driver that operates in Extensible Station (ExtSTA) mode specifies the maximum WEP cipher
      key length through a query of 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff569366">OID_DOT11_EXTSTA_CAPABILITY</a>.
-
 <div class="alert"><b>Note</b>  The operating system will only enable this cipher algorithm if authentication
      algorithms of 
      <b>DOT11_AUTH_ALGO_80211_OPEN</b> or 
      <b>DOT11_AUTH_ALGO_80211_SHARED_KEY</b> have been enabled. For more information about these
      authentication algorithms, see 
-     <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>.</div>
-<div> </div>
+     <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>.</div><div> </div>
 
 ### -field DOT11_CIPHER_ALGO_IHV_START
 
@@ -153,7 +172,14 @@ The
      mode.
 
 
+### -field v1_enum
+
+
+
+
 ## -remarks
+
+
 An IHV can assign a value for its proprietary cipher algorithms from 
     <b>DOT11_CIPHER_ALGO_IHV_START</b> through 
     <b>DOT11_CIPHER_ALGO_IHV_END</b>. The IHV must assign a unique number in this range to each of its
@@ -185,8 +211,8 @@ If the miniport driver supports IHV-defined cipher algorithms, the miniport driv
 
 Starting with Windows 7, an 802.11 miniport driver can report any combination of supported
     authentication and cipher algorithm pairs in the 
-    <a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">
-    DOT11_AUTH_CIPHER_PAIR_LIST</a> structure. However, if the operating system starts Soft AP, it enables
+    <mshelp:link keywords="netvista.dot11_auth_cipher_pair_list" tabindex="0"><b>
+    DOT11_AUTH_CIPHER_PAIR_LIST</b></mshelp:link> structure. However, if the operating system starts Soft AP, it enables
     only the 
     <b>DOT11_AUTH_ALGO_RSNA_PSK</b> authentication algorithm and the 
     <b>DOT11_CIPHER_ALGO_CCMP</b> cipher algorithm. To support Soft AP, the miniport driver must support this
@@ -200,32 +226,26 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569436">OID_DOT11_WPS_ENABLED</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\windot11\ns-windot11-dot11_association_completion_parameters.md">
-   DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.dot11_association_completion_parameters" tabindex="0"><b>
+   DOT11_ASSOCIATION_COMPLETION_PARAMETERS</b></mshelp:link>
+
+<mshelp:link keywords="netvista.oid_dot11_cipher_key_mapping_key" tabindex="0">
+   OID_DOT11_CIPHER_KEY_MAPPING_KEY</mshelp:link>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
+
 <a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">DOT11_AUTH_CIPHER_PAIR_LIST</a>
-</dt>
-<dt>
-<a href="..\windot11\ns-windot11-dot11_cipher_algorithm_list.md">DOT11_CIPHER_ALGORITHM_LIST</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569119">OID_DOT11_CIPHER_DEFAULT_KEY</a>
-</dt>
-<dt>
-<a href="netvista.oid_dot11_cipher_key_mapping_key">
-   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569135">OID_DOT11_CURRENT_PHY_ID</a>
-</dt>
-</dl>
- 
+
+<a href="..\windot11\ns-windot11-dot11_cipher_algorithm_list.md">DOT11_CIPHER_ALGORITHM_LIST</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_CIPHER_ALGORITHM enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_CIPHER_ALGORITHM enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

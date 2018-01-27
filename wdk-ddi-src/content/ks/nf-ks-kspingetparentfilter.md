@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: adbd1e83-37f0-4e0c-92e3-92c6c79eb24f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinGetParentFilter
+ms.keywords: stream.kspingetparentfilter, ks/KsPinGetParentFilter, avfunc_0a7c672c-072d-49f8-b1de-93ee1e5c8e1c.xml, KsPinGetParentFilter, KsPinGetParentFilter function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsPinGetParentFilter
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsPinGetParentFilter
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsPinGetParentFilter function
 
 
-
 ## -description
+
+
 The<b> KsPinGetParentFilter</b> function returns the parent filter of <i>Pin</i>.
 
 
-
 ## -syntax
+
 
 ````
 PKSFILTER KsPinGetParentFilter(
@@ -54,31 +65,36 @@ PKSFILTER KsPinGetParentFilter(
 
 ## -parameters
 
+
+
+
 ### -param Pin [in]
 
 A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> for which to return the parent filter.
 
 
 ## -returns
+
+
 <b>KsPinGetParentFilter</b> returns a pointer to a <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure representing the parent filter of <i>Pin</i>.
 
 
+
 ## -remarks
+
+
 <b>KsPinGetParentFilter</b> returns the filter to which <i>Pin</i> belongs. The call is an inline function call to <a href="..\ks\nf-ks-ksgetparent.md">KsGetParent</a>. Note that the object hierarchy is only stable while the appropriate mutex is held, in this case the filter control mutex. See <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e-ae1a-61c50a2f2fb3">AVStream Overview</a> For more information about the object hierarchy in AVStream and <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a> For more information about mutexes in the AVStream environment.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksgetparent.md">KsGetParent</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
  
 
  

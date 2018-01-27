@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8602efbf-8e90-43d3-992f-4d2ecbcc7043
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortReadPortBufferUchar
+ms.keywords: storage.storportreadportbufferuchar, storprt_e7304977-c32a-44c2-88ea-a08767ea5399.xml, StorPortReadPortBufferUchar, StorPortReadPortBufferUchar routine [Storage Devices], storport/StorPortReadPortBufferUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortReadPortBufferUchar
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortReadPortBufferUchar
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortReadPortBufferUchar function
 
 
-
 ## -description
+
+
 The <b>StorPortReadPortBufferUchar</b> routine reads a value from a specified port address 
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API VOID StorPortReadPortBufferUchar(
@@ -57,6 +68,9 @@ STORPORT_API VOID StorPortReadPortBufferUchar(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -79,22 +93,25 @@ Number of unsigned characters to be read.
 
 
 ## -returns
+
+
 None  
 
 
+
 ## -remarks
+
+
 For more information, see the <a href="..\srb\nf-srb-scsiportreadportbufferuchar.md">ScsiPortReadPortBufferUchar</a> routine. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadportuchar.md">StorPortReadPortUchar</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\srb\nf-srb-scsiportreadportbufferuchar.md">ScsiPortReadPortBufferUchar</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportreadportuchar.md">StorPortReadPortUchar</a>
-</dt>
-</dl>
+
+<a href="..\srb\nf-srb-scsiportreadportbufferuchar.md">ScsiPortReadPortBufferUchar</a>
+
  
 
  

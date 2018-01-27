@@ -7,8 +7,8 @@ old-location: netvista\getdeviceinforesponse_2.htm
 old-project: netvista
 ms.assetid: 318927ab-6134-4a01-bf9c-a85619d2bbdf
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: GETDEVICEINFORESPONSE, *LPGETDEVICEINFORESPONSE, GETDEVICEINFORESPONSE
+ms.date: 1/18/2018
+ms.keywords: netvista.getdeviceinforesponse_2, GETDEVICEINFORESPONSE structure [Network Drivers Starting with Windows Vista], *LPGETDEVICEINFORESPONSE, rilapitypes/GETDEVICEINFORESPONSE, GETDEVICEINFORESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GETDEVICEINFORESPONSE
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPGETDEVICEINFORESPONSE, GETDEVICEINFORESPONSE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	GETDEVICEINFORESPONSE
+product: Windows
+targetos: Windows
+req.typenames: GETDEVICEINFORESPONSE, *LPGETDEVICEINFORESPONSE
 req.product: Windows 10 or later.
 ---
 
 # GETDEVICEINFORESPONSE structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GETDEVICEINFORESPONSE {
@@ -55,7 +65,9 @@ typedef struct _GETDEVICEINFORESPONSE {
 
 ## -struct-fields
 
+
+
+
 ### -field Result
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2F5CC46B-3BFC-4C69-A9C8-C4BC4864E84B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT
+ms.keywords: buses.ucm_pd_request_data_object, PUCM_PD_REQUEST_DATA_OBJECT, PUCM_PD_REQUEST_DATA_OBJECT union pointer [Buses], ucmtypes/PUCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT, _UCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT, ucmtypes/UCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT union [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 2.15
-req.alt-api: UCM_PD_REQUEST_DATA_OBJECT
-req.alt-loc: ucmtypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ucmtypes.h
+apiname: 
+-	UCM_PD_REQUEST_DATA_OBJECT
+product: Windows
+targetos: Windows
 req.typenames: UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _UCM_PD_REQUEST_DATA_OBJECT structure
 
 
-
 ## -description
-Describes a Request Data Object (RDO). For information about these members, see the <a href="http://www.usb.org/developers/docs/usb20_docs/#usb20spec">Power Delivery specification</a>.
 
+
+Describes a Request Data Object (RDO). For information about these members, see the <a href="http://www.usb.org/developers/docs/usb20_docs/">Power Delivery specification</a>.
 
 
 ## -syntax
+
 
 ````
 typedef union _UCM_PD_REQUEST_DATA_OBJECT {
@@ -82,131 +92,129 @@ typedef union _UCM_PD_REQUEST_DATA_OBJECT {
 
 ## -struct-fields
 
-### -field Ul
 
-Size of the structure.
 
 
 ### -field Common
 
 
-### -field Reserved1
+
+### -field Common.Reserved1
 
 Reserved.
 
 
-### -field ObjectPosition
+### -field Common.ObjectPosition
 
 Object position.
 
 
-### -field Reserved2
+### -field Common.Reserved2
 
 Reserved.
 
-</dd>
-</dl>
 
 ### -field FixedAndVariableRdo
 
 
-### -field MaximumOperatingCurrentIn10mA
+
+### -field FixedAndVariableRdo.MaximumOperatingCurrentIn10mA
 
 Maximum current in 10 mA units.
 
 
-### -field OperatingCurrentIn10mA
+### -field FixedAndVariableRdo.OperatingCurrentIn10mA
 
 Operating current in 10mA units.
 
 
-### -field Reserved1
+### -field FixedAndVariableRdo.Reserved1
 
 Reserved.
 
 
-### -field NoUsbSuspend
+### -field FixedAndVariableRdo.NoUsbSuspend
 
 Indicates support for USB suspend.
 
 
 
 
-### -field UsbCommunicationCapable
+### -field FixedAndVariableRdo.UsbCommunicationCapable
 
 USB communication capable. 
 
 
-### -field CapabilityMismatch
+### -field FixedAndVariableRdo.CapabilityMismatch
 
 Capability Mismatch 
 
 
-### -field GiveBackFlag
+### -field FixedAndVariableRdo.GiveBackFlag
 
 GiveBack Flag.
 
 
-### -field ObjectPosition
+### -field FixedAndVariableRdo.ObjectPosition
 
 Object Position.
 
 
-### -field Reserved2
+### -field FixedAndVariableRdo.Reserved2
 
 Reserved for future use.
 
-</dd>
-</dl>
 
 ### -field BatteryRdo
 
 
-### -field MaximumOperatingPowerIn250mW
+
+### -field BatteryRdo.MaximumOperatingPowerIn250mW
 
 Maximum Operating Power in 250mW units. 
 
 
-### -field OperatingPowerIn250mW
+### -field BatteryRdo.OperatingPowerIn250mW
 
 Operating Power in 250mW units.
 
 
-### -field Reserved1
+### -field BatteryRdo.Reserved1
 
 Reserved for future use.
 
 
-### -field NoUsbSuspend
+### -field BatteryRdo.NoUsbSuspend
 
  USB Suspend. 
 
 
-### -field UsbCommunicationCapable
+### -field BatteryRdo.UsbCommunicationCapable
 
 USB Communications Capable.
 
 
-### -field CapabilityMismatch
+### -field BatteryRdo.CapabilityMismatch
 
 Capability Mismatch. 
 
 
-### -field GiveBackFlag
+### -field BatteryRdo.GiveBackFlag
 
 GiveBack Flag. 
 
 
-### -field ObjectPosition
+### -field BatteryRdo.ObjectPosition
 
 Object Position.
 
 
-### -field Reserved2
+### -field BatteryRdo.Reserved2
 
 Reserved.
 
-</dd>
-</dl>
 
-## -remarks
+### -field Ul
+
+Size of the structure.
+

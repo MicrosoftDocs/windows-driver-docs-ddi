@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 89EC9F5C-24AE-4340-99CF-05323F99B465
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltSetQuotaInformationFile
+ms.keywords: FltSetQuotaInformationFile function [Installable File System Drivers], FltSetQuotaInformationFile, fltkernel/FltSetQuotaInformationFile, ifsk.fltsetquotainformationfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with  Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltSetQuotaInformationFile
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltSetQuotaInformationFile
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltSetQuotaInformationFile function
 
 
-
 ## -description
+
+
 The <b>FltSetQuotaInformationFile</b> routine modifies quota entries for a file object. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltSetQuotaInformationFile(
@@ -56,6 +66,9 @@ NTSTATUS FltSetQuotaInformationFile(
 
 
 ## -parameters
+
+
+
 
 ### -param Instance [in]
 
@@ -78,29 +91,37 @@ The length, in bytes, of the buffer that the <i>Buffer</i> parameter points to.
 
 
 ## -returns
+
+
 <b>FltSetQuotaInformationFile</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following. 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FLT_DELETING_OBJECT</b></dt>
-</dl>The instance or volume is being torn down. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+The instance or volume is being torn down. This is an error code. 
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\ns-ntifs-_file_get_quota_information.md">FILE_GET_QUOTA_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltqueryquotainformationfile.md">FltQueryQuotaInformationFile</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-zwsetquotainformationfile.md">ZwSetQuotaInformationFile</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\ns-ntifs-_file_get_quota_information.md">FILE_GET_QUOTA_INFORMATION</a>
+
  
 
  

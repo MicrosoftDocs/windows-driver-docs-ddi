@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fc0a6c04-a348-470d-b8eb-9564f2ff7ef9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_TRANSMISSION_TYPE,
+ms.keywords: iddcx/IDDCX_TRANSMISSION_TYPE, iddcx/IDDCX_TRANSMISSION_TYPE_WIRELESS_USB_OTHER, IDDCX_TRANSMISSION_TYPE_WIRED_USB, iddcx/IDDCX_TRANSMISSION_TYPE_WIRELESS_WIFI_OTHER, iddcx/IDDCX_TRANSMISSION_TYPE_UNINITIALIZED, IDDCX_TRANSMISSION_TYPE enumeration [Display Devices], iddcx/IDDCX_TRANSMISSION_TYPE_WIRED_MIRACAST, IDDCX_TRANSMISSION_TYPE_UNINITIALIZED, IDDCX_TRANSMISSION_TYPE_WIRELESS_USB_OTHER, iddcx/IDDCX_TRANSMISSION_TYPE_WIRELESS_MAUSB, IDDCX_TRANSMISSION_TYPE_WIRED_OTHER, display.iddcx_transmission_type, IDDCX_TRANSMISSION_TYPE_WIRELESS_MIRACAST, iddcx/IDDCX_TRANSMISSION_TYPE_WIRELESS_MIRACAST, iddcx/IDDCX_TRANSMISSION_TYPE_OTHER, IDDCX_TRANSMISSION_TYPE_WIRELESS_MAUSB, IDDCX_TRANSMISSION_TYPE_OTHER, IDDCX_TRANSMISSION_TYPE_WIRELESS_OTHER, IDDCX_TRANSMISSION_TYPE_WIRELESS_WIFI_OTHER, IDDCX_TRANSMISSION_TYPE_WIRED_MIRACAST, iddcx/IDDCX_TRANSMISSION_TYPE_WIRED_OTHER, iddcx/IDDCX_TRANSMISSION_TYPE_WIRELESS_OTHER, IDDCX_TRANSMISSION_TYPE, iddcx/IDDCX_TRANSMISSION_TYPE_WIRED_USB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDDCX_TRANSMISSION_TYPE
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: _requires_same_
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDDCX_TRANSMISSION_TYPE
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDDCX_TRANSMISSION_TYPE enumeration
 
 
-
 ## -description
+
+
 
 Enum used to indicate the link type for transmission of the video data
                 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _IDDCX_TRANSMISSION_TYPE { 
@@ -64,6 +74,9 @@ typedef enum _IDDCX_TRANSMISSION_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field IDDCX_TRANSMISSION_TYPE_UNINITIALIZED
 
@@ -135,4 +148,7 @@ typedef enum _IDDCX_TRANSMISSION_TYPE {
                     
 
 
-## -remarks
+### -field UINT
+
+
+

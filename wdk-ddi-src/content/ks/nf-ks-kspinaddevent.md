@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1bb34062-f092-41a4-8d59-6937be7b5639
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinAddEvent
+ms.keywords: KsPinAddEvent function [Streaming Media Devices], ks/KsPinAddEvent, stream.kspinaddevent, avfunc_2291126f-31dd-4e37-a082-97f24e8b5bd9.xml, KsPinAddEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsPinAddEvent
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KsPinAddEvent
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsPinAddEvent function
 
 
-
 ## -description
+
+
 The<b> KsPinAddEvent </b>function adds a specified event to <i>Pin</i>'s event list.
 
 
-
 ## -syntax
+
 
 ````
 void _inline KsPinAddEvent(
@@ -54,6 +64,9 @@ void _inline KsPinAddEvent(
 
 
 ## -parameters
+
+
+
 
 ### -param Pin [in]
 
@@ -66,35 +79,33 @@ A pointer to a <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a> structu
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 This function is an inline function call to <a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
-</dt>
-<dt><b>KsGenerateEvents</b></dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
-</dt>
-<dt>
+
+<a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
+
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+
+<b>KsGenerateEvents</b>
+
 <a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
-</dt>
-</dl>
+
  
 
  

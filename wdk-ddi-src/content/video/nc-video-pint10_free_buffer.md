@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: feb7dd98-8c44-405e-8e98-ffd6246cf0ee
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VHF_CONFIG, VHF_CONFIG, *PVHF_CONFIG
+ms.keywords: display.int10freebuffer, Int10FreeBuffer callback function [Display Devices], Int10FreeBuffer, PINT10_FREE_BUFFER, PINT10_FREE_BUFFER, video/Int10FreeBuffer, VideoPort_Functions_607fc1f2-1d9a-48eb-97c2-a2cd510e3d78.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: Int10FreeBuffer
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	video.h
+apiname: 
+-	Int10FreeBuffer
+product: Windows
+targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PINT10_FREE_BUFFER callback
 
 
-
 ## -description
+
+
 The <i>Int10FreeBuffer</i> function frees a buffer previously allocated by <i>Int10AllocateBuffer</i>.
 
 
-
 ## -prototype
+
 
 ````
 PINT10_FREE_BUFFER Int10FreeBuffer;
@@ -59,6 +69,9 @@ VP_STATUS Int10FreeBuffer(
 
 
 ## -parameters
+
+
+
 
 ### -param Context [in]
 
@@ -76,19 +89,23 @@ Specifies the offset within the segment indicated by the <i>Seg</i> parameter.
 
 
 ## -returns
+
+
 The <i>Int10FreeBuffer</i> function returns NO_ERROR upon success. Otherwise, the function returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 The video port implements this function, which can be accessed through a pointer in the <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

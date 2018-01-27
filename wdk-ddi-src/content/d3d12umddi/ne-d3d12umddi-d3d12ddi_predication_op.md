@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 70676251-BCD7-4996-B5B7-96A8D9B107DB
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_PREDICATION_OP, D3D12DDI_PREDICATION_OP
+ms.keywords: d3d12umddi/D3D12DDI_PREDICATION_OP_NOT_EQUAL_ZERO, D3D12DDI_PREDICATION_OP, D3D12DDI_PREDICATION_OP_EQUAL_ZERO, D3D12DDI_PREDICATION_OP_NOT_EQUAL_ZERO, display.d3d12ddi_predication_op, D3D12DDI_PREDICATION_OP enumeration [Display Devices], d3d12umddi/D3D12DDI_PREDICATION_OP_EQUAL_ZERO, d3d12umddi/D3D12DDI_PREDICATION_OP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_PREDICATION_OP
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_PREDICATION_OP
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_PREDICATION_OP
 ---
 
 # D3D12DDI_PREDICATION_OP enumeration
 
 
-
 ## -description
+
+
 Contains values for predication operation options. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D12DDI_PREDICATION_OP { 
@@ -55,6 +65,9 @@ typedef enum D3D12DDI_PREDICATION_OP {
 
 ## -enum-fields
 
+
+
+
 ### -field D3D12DDI_PREDICATION_OP_EQUAL_ZERO
 
 All the bits in a 64 bit buffer are zero (0).
@@ -64,5 +77,3 @@ All the bits in a 64 bit buffer are zero (0).
 
 Not all of the bits in a 64 bit buffer are zero (0).
 
-
-## -remarks

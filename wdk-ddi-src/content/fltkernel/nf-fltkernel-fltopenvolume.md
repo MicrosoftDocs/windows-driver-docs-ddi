@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 99cfa1eb-3d0f-4e27-9884-f5789ee328c3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltOpenVolume
+ms.keywords: ifsk.fltopenvolume, fltkernel/FltOpenVolume, FltOpenVolume routine [Installable File System Drivers], FltOpenVolume, FltApiRef_e_to_o_fa9d628c-94e6-46f5-9f8f-9923c554a15f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows 2000 Update Rollup 1 f
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltOpenVolume
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltOpenVolume
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltOpenVolume function
 
 
-
 ## -description
+
+
 The <b>FltOpenVolume</b> routine returns a handle and a file object pointer for the file system volume that a given minifilter driver instance is attached to. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltOpenVolume(
@@ -55,6 +65,9 @@ NTSTATUS FltOpenVolume(
 
 
 ## -parameters
+
+
+
 
 ### -param Instance [in]
 
@@ -72,18 +85,43 @@ Pointer to a caller-allocated variable that receives a file object pointer for t
 
 
 ## -returns
+
+
 <b>FltOpenVolume</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FLT_DELETING_OBJECT</b></dt>
-</dl>The instance or volume is being torn down. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+The instance or volume is being torn down. This is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The instance is attached to a network volume. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+The instance is attached to a network volume. This is an error code. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 When the handle returned in the <i>VolumeHandle</i> parameter is no longer needed, the caller must release it by calling <a href="..\fltkernel\nf-fltkernel-fltclose.md">FltClose</a>. Thus every successful call to <b>FltOpenVolume</b> must be matched by a subsequent call to <b>FltClose</b>. 
 
 If a file object pointer is returned in the <i>VolumeFileObject</i> parameter, the caller must release it when it is no longer needed by calling <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>. 
@@ -95,27 +133,21 @@ To get a pointer to the device object for a given volume, call <a href="..\fltke
 To get detailed information about the volume that a given instance is attached to, call <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltclose.md">FltClose</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetdeviceobject.md">FltGetDeviceObject</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetfilterfrominstance.md">FltGetFilterFromInstance</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltclose.md">FltClose</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetdeviceobject.md">FltGetDeviceObject</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetfilterfrominstance.md">FltGetFilterFromInstance</a>
+
  
 
  

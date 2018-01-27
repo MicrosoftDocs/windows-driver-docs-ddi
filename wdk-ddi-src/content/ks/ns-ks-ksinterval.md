@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9e363bd1-3bfd-48cc-adc1-a14d23868a57
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSINTERVAL, *PKSINTERVAL, KSINTERVAL
+ms.keywords: stream.ksinterval, ks-struct_56fded71-9af4-46a7-b872-1660582179ad.xml, ks/PKSINTERVAL, PKSINTERVAL, PKSINTERVAL structure pointer [Streaming Media Devices], *PKSINTERVAL, KSINTERVAL structure [Streaming Media Devices], ks/KSINTERVAL, KSINTERVAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSINTERVAL
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSINTERVAL, KSINTERVAL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSINTERVAL
+product: Windows
+targetos: Windows
+req.typenames: KSINTERVAL, *PKSINTERVAL
 ---
 
 # KSINTERVAL structure
 
 
-
 ## -description
+
+
 The KSINTERVAL structure specifies a base time and time interval for recurring events.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field TimeBase
 
 Specifies a 64-bit time base.
@@ -65,18 +78,12 @@ Specifies a 64-bit time base.
 Specifies a recurrence interval, also 64-bit.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561805">KSEVENT_CLOCK_INTERVAL_MARK</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561811">KSEVENT_CLOCK_POSITION_MARK</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561805">KSEVENT_CLOCK_INTERVAL_MARK</a>
+
  
 
  

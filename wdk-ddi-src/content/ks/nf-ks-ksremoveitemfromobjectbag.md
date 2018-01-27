@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8644b5eb-e038-4cdb-b461-d643ff929736
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsRemoveItemFromObjectBag
+ms.keywords: avfunc_dbc6f0e3-7e24-4147-99d2-28e64a6a1ff9.xml, KsRemoveItemFromObjectBag function [Streaming Media Devices], stream.ksremoveitemfromobjectbag, ks/KsRemoveItemFromObjectBag, KsRemoveItemFromObjectBag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsRemoveItemFromObjectBag
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsRemoveItemFromObjectBag
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsRemoveItemFromObjectBag function
 
 
-
 ## -description
+
+
 The<b> KsRemoveItemFromObjectBag </b>function removes an item from an object bag.
 
 
-
 ## -syntax
+
 
 ````
 ULONG KsRemoveItemFromObjectBag(
@@ -55,6 +66,9 @@ ULONG KsRemoveItemFromObjectBag(
 
 
 ## -parameters
+
+
+
 
 ### -param ObjectBag [in]
 
@@ -72,6 +86,8 @@ This parameter specifies whether <i>Item</i> should be freed once it has been re
 
 
 ## -returns
+
+
 Returns the number of references on <i>Item</i>. A return value of zero indicates that <i>Item</i> was not in <i>ObjectBag</i> at call-time.
 
 A return value of one indicates that <i>Item</i> was successfully removed from <i>ObjectBag</i> and that it was not in any other object bag. If a free was requested in this case, AVStream frees <i>Item</i> using either <b>ExFreePool</b> or the Free method specified at <b>KsAddItemToObjectBag</b> call-time.
@@ -83,7 +99,10 @@ A return value above one indicates that the item is present in another object ba
 
 
 
+
 ## -remarks
+
+
 <b>KsRemoveItemFromObjectBag</b> frees <i>Item</i> only if the number of references on this item is zero and a free was requested. 
 
 For more information about object bags, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d9">Object Bags</a>.
@@ -91,27 +110,21 @@ For more information about object bags, see <a href="https://msdn.microsoft.com/
 Note that the mutex associated with the bag must be held. For more  information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksallocateobjectbag.md">KsAllocateObjectBag</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
-</dt>
-<dt>
+
+<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
+
+<a href="..\ks\nf-ks-ksallocateobjectbag.md">KsAllocateObjectBag</a>
+
 <a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksmergeautomationtables.md">KsMergeAutomationTables</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f6d40f3e-4bc9-4b30-97ac-600a33280305
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortInitializeQueueTag
+ms.keywords: AtaPortInitializeQueueTag routine [Storage Devices], storage.ataportinitializequeuetag, AtaPortInitializeQueueTag, irb/AtaPortInitializeQueueTag, atartns_2dd092e5-f635-4da7-8444-ffef8e5c75db.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AtaPortInitializeQueueTag
-req.alt-loc: ataport.lib,ataport.dll,pciidex.lib,pciidex.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ataport.lib
+-	ataport.dll
+-	pciidex.lib
+-	pciidex.dll
+apiname: 
+-	AtaPortInitializeQueueTag
+product: Windows
+targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
 
 # AtaPortInitializeQueueTag function
 
 
-
 ## -description
+
+
 The <b>AtaPortInitializeQueueTag</b> routine initializes the queue tag list for the specified device.
-
-
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 BOOLEAN AtaPortInitializeQueueTag(
@@ -57,9 +70,12 @@ BOOLEAN AtaPortInitializeQueueTag(
 
 ## -parameters
 
-### -param ChannelExtension [in]
 
-A pointer to the channel extension.
+
+
+### -param DeviceExtension
+
+TBD
 
 
 ### -param TargetId [in]
@@ -77,25 +93,33 @@ Specifies the logical unit number (LUN) of the device.
 Specifies the maximum allowed value for the queue tag.
 
 
+#### - ChannelExtension [in]
+
+A pointer to the channel extension.
+
+
 ## -returns
+
+
 <b>AtaPortInitializeQueueTag</b> returns <b>TRUE</b> if the operation succeeds. Otherwise, it returns <b>FALSE</b>. 
 
 
+
 ## -remarks
+
+
 The miniport driver should call <b>AtaPortInitializeQueueTag</b> before it uses <a href="..\irb\nf-irb-ataportallocatequeuetag.md">AtaPortAllocateQueueTag</a> and <a href="..\irb\nf-irb-ataportreleasequeuetag.md">AtaPortReleaseQueueTag</a> to allocate and release queue tags respectively. 
 
 The values in the <i>TargetId</i> and <i>Lun</i> parameters specify the device to which the queue tag belongs. To generate channel specific queue tags, the miniport driver should set the <i>TargetId</i> and <i>Lun</i> parameters to IDE_UNTAGGED. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\irb\nf-irb-ataportallocatequeuetag.md">AtaPortAllocateQueueTag</a>
-</dt>
-<dt>
+
 <a href="..\irb\nf-irb-ataportreleasequeuetag.md">AtaPortReleaseQueueTag</a>
-</dt>
-</dl>
+
  
 
  

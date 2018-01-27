@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 72229643-1177-4884-94A9-89920A5488A6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: URS_CONFIG_INIT
+ms.keywords: buses.urs_config_init, ursdevice/URS_CONFIG_INIT, URS_CONFIG_INIT, URS_CONFIG_INIT function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: URS_CONFIG_INIT
-req.alt-loc: Ursdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ursdevice.h
+apiname: 
+-	URS_CONFIG_INIT
+product: Windows
+targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # URS_CONFIG_INIT function
 
 
-
 ## -description
+
+
 Initializes a <a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a> structure. 
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE void URS_CONFIG_INIT(
@@ -56,6 +66,9 @@ FORCEINLINE void URS_CONFIG_INIT(
 
 
 ## -parameters
+
+
+
 
 ### -param Config [out]
 
@@ -73,21 +86,18 @@ FORCEINLINE void URS_CONFIG_INIT(
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a>
-</dt>
-<dt>
+
 <a href="..\ursdevice\nf-ursdevice-ursdeviceinitialize.md">UrsDeviceInitialize</a>
-</dt>
-</dl>
+
  
 
  

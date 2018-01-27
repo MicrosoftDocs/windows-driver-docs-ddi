@@ -7,8 +7,8 @@ old-location: image\istidevice_initialize.htm
 old-project: image
 ms.assetid: 3cd6ece6-2c8e-4072-8ac5-d1e90c9392db
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: IStiDevice, IStiDevice::Initialize, Initialize
+ms.date: 1/18/2018
+ms.keywords: stifnc_abeacac4-60ef-41f0-b70e-bf7da7fa110b.xml, Initialize method [Imaging Devices], image.istidevice_initialize, sti/IStiDevice::Initialize, IStiDevice, IStiDevice::Initialize, Initialize method [Imaging Devices], IStiDevice interface, IStiDevice interface [Imaging Devices], Initialize method, Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IStiDevice.Initialize
-req.alt-loc: sti.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: sti.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	sti.h
+apiname: 
+-	IStiDevice.Initialize
+product: Windows
+targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IStiDevice::Initialize method
 
 
-
 ## -description
+
+
 The <b>IStiDevice::Initialize</b> method initializes an instance of the COM object that defines the <b>IStiDevice</b> interface. <i>This method is for internal use only</i>.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT Initialize(
@@ -58,6 +68,9 @@ HRESULT Initialize(
 
 ## -parameters
 
+
+
+
 ### -param hinst [in]
 
 Caller-supplied instance handle of the calling process. This handle is obtained by calling <b>GetModuleName</b>(NULL).
@@ -68,15 +81,14 @@ Caller-supplied instance handle of the calling process. This handle is obtained 
 Caller-supplied pointer to a string representing an internal device name, obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543790">IStillImage::GetSTILaunchInformation</a>.
 
 
-### -param dwVersion 
+### -param dwVersion
 
 Caller-supplied STI version number. This value must be STI_VERSION, defined in <i>Sti.h</i>.
 
 
-### -param dwMode 
+### -param dwMode
 
 Caller-supplied constant value indicating the <a href="https://msdn.microsoft.com/79af0d8f-dd04-4ff4-a047-f415562a16a5">Transfer Modes</a> in which the device is to be used. The following values are valid.
-
 <table>
 <tr>
 <th>Mode</th>
@@ -112,15 +124,21 @@ The device is being opened only for obtaining status information.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
+
 ## -remarks
+
+
 The <b>IStiDevice::Initialize</b> method initializes the COM object instance that was created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543778">IStillImage::CreateDevice</a>.
 
-Because <b>IStiDevice::Initialize</b> is called by <b>IStillImage::CreateDevice</b>, clients of the <b>IStiDevice</b> interface do not typically call this method directly.</p>
+Because <b>IStiDevice::Initialize</b> is called by <b>IStillImage::CreateDevice</b>, clients of the <b>IStiDevice</b> interface do not typically call this method directly.
+
+

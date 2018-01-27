@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a17b4a88-45e8-45e7-b879-2f41b97be368
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: DEVICE_REGISTRY_PROPERTY, DEVICE_REGISTRY_PROPERTY
+ms.keywords: wdm/DevicePropertyRemovalPolicy, wdm/DevicePropertyUINumber, wdm/DevicePropertyHardwareID, DevicePropertyBusTypeGuid, DevicePropertyAllocatedResources, wdm/DevicePropertyBootConfiguration, DEVICE_REGISTRY_PROPERTY enumeration [Kernel-Mode Driver Architecture], DevicePropertyFriendlyName, wdm/DevicePropertyLegacyBusType, DevicePropertyClassName, wdm/DevicePropertyClassGuid, DevicePropertyAddress, DevicePropertyDriverKeyName, wdm/DevicePropertyBusTypeGuid, wdm/DevicePropertyClassName, DevicePropertyBusNumber, DevicePropertyDeviceDescription, DevicePropertyRemovalPolicy, DevicePropertyLegacyBusType, wdm/DevicePropertyPhysicalDeviceObjectName, sysenum_485e3369-186a-4a71-b13e-be6ff9ab8dce.xml, DevicePropertyClassGuid, DevicePropertyCompatibleIDs, wdm/DevicePropertyManufacturer, DevicePropertyManufacturer, DevicePropertyInstallState, wdm/DevicePropertyResourceRequirements, DevicePropertyHardwareID, wdm/, DevicePropertyBootConfigurationTranslated, wdm/DevicePropertyAllocatedResources, DevicePropertyPhysicalDeviceObjectName, wdm/DevicePropertyCompatibleIDs, wdm/DevicePropertyEnumeratorName, DevicePropertyResourceRequirements, DevicePropertyEnumeratorName, DevicePropertyContainerID, DEVICE_REGISTRY_PROPERTY, DevicePropertyBootConfiguration, wdm/DevicePropertyDriverKeyName, wdm/DevicePropertyLocationInformation, DevicePropertyLocationInformation, wdm/DevicePropertyAddress, DevicePropertyUINumber, kernel.device_registry_property, enumeration [Kernel-Mode Driver Architecture], wdm/DevicePropertyDeviceDescription, wdm/DevicePropertyBootConfigurationTranslated, wdm/DevicePropertyBusNumber, wdm/DevicePropertyContainerID, wdm/DevicePropertyInstallState, wdm/DevicePropertyFriendlyName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DEVICE_REGISTRY_PROPERTY
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	DEVICE_REGISTRY_PROPERTY
+product: Windows
+targetos: Windows
 req.typenames: DEVICE_REGISTRY_PROPERTY
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # DEVICE_REGISTRY_PROPERTY enumeration
 
 
-
 ## -description
+
+
 The <b>DEVICE_REGISTRY_PROPERTY</b> enumeration identifies device properties that are stored in the registry.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -77,84 +87,105 @@ typedef enum  {
 
 ## -enum-fields
 
+
+
+
 ### -field DevicePropertyDeviceDescription
+
 
 
 ### -field DevicePropertyHardwareID
 
 
+
 ### -field DevicePropertyCompatibleIDs
+
 
 
 ### -field DevicePropertyBootConfiguration
 
 
+
 ### -field DevicePropertyBootConfigurationTranslated
+
 
 
 ### -field DevicePropertyClassName
 
 
+
 ### -field DevicePropertyClassGuid
+
 
 
 ### -field DevicePropertyDriverKeyName
 
 
+
 ### -field DevicePropertyManufacturer
+
 
 
 ### -field DevicePropertyFriendlyName
 
 
+
 ### -field DevicePropertyLocationInformation
+
 
 
 ### -field DevicePropertyPhysicalDeviceObjectName
 
 
+
 ### -field DevicePropertyBusTypeGuid
+
 
 
 ### -field DevicePropertyLegacyBusType
 
 
+
 ### -field DevicePropertyBusNumber
+
 
 
 ### -field DevicePropertyEnumeratorName
 
 
+
 ### -field DevicePropertyAddress
+
 
 
 ### -field DevicePropertyUINumber
 
 
+
 ### -field DevicePropertyInstallState
+
 
 
 ### -field DevicePropertyRemovalPolicy
 
 
+
 ### -field DevicePropertyResourceRequirements
+
 
 
 ### -field DevicePropertyAllocatedResources
 
 
+
 ### -field DevicePropertyContainerID
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
-</dt>
-</dl>
+
  
 
  

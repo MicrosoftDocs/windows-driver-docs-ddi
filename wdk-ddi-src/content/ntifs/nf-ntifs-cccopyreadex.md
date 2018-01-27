@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4108EB7A-F8FB-4FA5-8426-BB434E89AF06
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcCopyReadEx
+ms.keywords: CcCopyReadEx routine [Installable File System Drivers], ntifs/CcCopyReadEx, CcCopyReadEx, ifsk.cccopyreadex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcCopyReadEx
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcCopyReadEx
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcCopyReadEx function
 
 
-
 ## -description
+
+
 The <b>CcCopyReadEx</b> routine copies data from a cached file to a user buffer. The I/O byte count for the operation is charged to the issuing thread.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN CcCopyReadEx(
@@ -59,6 +69,9 @@ BOOLEAN CcCopyReadEx(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -96,10 +109,15 @@ The thread issuing the read request. For a file system with disk I/O accounting 
 
 
 ## -returns
+
+
 The <b>CcCopyReadEx</b> routine returns <b>TRUE</b> if the data was copied successfully, <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 If <i>Wait</i> is <b>TRUE</b>, <b>CcCopyReadEx</b> is guaranteed to complete the copy request and return <b>TRUE</b>. If the required pages of the cached file are already resident in memory, the data will be copied immediately and no blocking will occur. If any needed pages are not resident, the caller will be put in a wait state until all required pages have been made resident and the data can be copied.
 
 If <i>Wait</i> is <b>FALSE</b>, <b>CcCopyReadEx</b> will refuse to block, and will return <b>FALSE</b>, if the required pages of the cached file are not already resident in memory. 
@@ -111,27 +129,21 @@ If any failure occurs, <b>CcCopyReadEx</b> raises a status exception for that pa
 To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccschedulereadahead.md">CcScheduleReadAhead</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
+
+<a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
+
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+<a href="..\ntifs\nf-ntifs-ccschedulereadahead.md">CcScheduleReadAhead</a>
+
  
 
  

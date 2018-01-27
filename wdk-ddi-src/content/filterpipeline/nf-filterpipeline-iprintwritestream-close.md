@@ -7,8 +7,8 @@ old-location: print\iprintwritestream_close.htm
 old-project: print
 ms.assetid: d3f828bf-854f-4d2d-a869-ee5c002a1728
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IPrintWriteStream, IPrintWriteStream::Close, Close
+ms.date: 1/18/2018
+ms.keywords: IPrintWriteStream, filterpipeline/IPrintWriteStream::Close, Close method [Print Devices], IPrintWriteStream interface [Print Devices], Close method, Close method [Print Devices], IPrintWriteStream interface, print.iprintwritestream_close, filterpipeline_68b1e38f-f42a-4fa1-92f1-2181ac15033e.xml, Close, IPrintWriteStream::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPrintWriteStream.Close
-req.alt-loc: Filterpipeline.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: Filterpipeline.idl
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Filterpipeline.h
+apiname: 
+-	IPrintWriteStream.Close
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # IPrintWriteStream::Close method
 
 
-
 ## -description
+
+
 The <code>Close</code> method closes a stream and ends the writing to that stream. This method is mandatory. You must call this method when the filter is done writing.
 
 
-
 ## -syntax
+
 
 ````
 void STDMETHODCALLTYPE Close(
@@ -54,11 +64,17 @@ void STDMETHODCALLTYPE Close(
 
 ## -parameters
 
-### -param None 
+
+
+
+
+#### - None
+
 
 
 ## -returns
+
+
 None
 
 
-## -remarks

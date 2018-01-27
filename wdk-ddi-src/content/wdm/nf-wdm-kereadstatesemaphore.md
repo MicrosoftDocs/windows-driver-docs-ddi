@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e88c89fb-c308-4c6d-a67d-c8f98d539a43
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeReadStateSemaphore
+ms.keywords: kernel.kereadstatesemaphore, KeReadStateSemaphore routine [Kernel-Mode Driver Architecture], wdm/KeReadStateSemaphore, KeReadStateSemaphore, k105_cc608a62-f747-4d8c-a4f8-b6df51a4d5dd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeReadStateSemaphore
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeReadStateSemaphore
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeReadStateSemaphore function
 
 
-
 ## -description
+
+
 The <b>KeReadStateSemaphore</b> routine returns the current state, signaled or not-signaled, of the specified semaphore object.
 
 
-
 ## -syntax
+
 
 ````
 LONG KeReadStateSemaphore(
@@ -55,33 +65,38 @@ LONG KeReadStateSemaphore(
 
 ## -parameters
 
+
+
+
 ### -param Semaphore [in]
 
 Pointer to an initialized semaphore object for which the caller provides the storage.
 
 
 ## -returns
+
+
 If the return value is zero, the semaphore object is set to a not-signaled state.
 
 
+
 ## -remarks
+
+
 This routine provides an efficient way to poll the signal state of a semaphore. <b>KeReadStateSemaphore</b> reads the state of the semaphore without synchronizing its access to the semaphore. Do not assume that accesses of a semaphore state by <b>KeReadStateSemaphore</b> are mutually exclusive of accesses by routines, such as <a href="..\wdm\nf-wdm-kereleasesemaphore.md">KeReleaseSemaphore</a> and <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>, that do synchronize their access to the semaphore state.
 
 For more information about semaphore objects, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563719">Semaphore Objects</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-kereleasesemaphore.md">KeReleaseSemaphore</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
+
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-</dt>
-</dl>
+
  
 
  

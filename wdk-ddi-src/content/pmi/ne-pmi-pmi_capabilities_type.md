@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 6857f85b-c79a-4e80-a63f-1414aff61d1f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PMI_CAPABILITIES_TYPE, PMI_CAPABILITIES_TYPE
+ms.keywords: pmi/PMI_CAPABILITIES_TYPE, PowerMeterRef_4b81a5dd-357b-4a02-acc6-3a0538cbeffb.xml, pmi/PmiCapabilitiesMax, powermeter.pmi_capabilities_type, PmiReportedCapabilities, PmiMeteredHardware, pmi/PmiReportedCapabilities, PmiCapabilitiesMax, PMI_CAPABILITIES_TYPE enumeration [Power Metering and Budgeting Devices], pmi/PmiMeteredHardware, PMI_CAPABILITIES_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7, Windows Server 2008 R2, and l
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PMI_CAPABILITIES_TYPE
-req.alt-loc: pmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pmi.h
+apiname: 
+-	PMI_CAPABILITIES_TYPE
+product: Windows
+targetos: Windows
 req.typenames: PMI_CAPABILITIES_TYPE
 ---
 
 # PMI_CAPABILITIES_TYPE enumeration
 
 
-
 ## -description
+
+
 The PMI_CAPABILITIES_TYPE enumeration defines the type of capabilities data that is referenced by the <b>Capability</b> member of the <a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a> structure. This enumeration is also used to specify the type of <b>PMI_CAPABILITIES</b> structure to return through an <a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a> I/O control (IOCTL) request.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -55,6 +65,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field PmiReportedCapabilities
 
@@ -72,24 +85,22 @@ The maximum number of PMI capability structures.
 
 
 ## -remarks
+
+
 The <b>CapabilityType</b> member of the <a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a> structure contains information about the type of PMI capability data that is referenced by the <b>Capabilities</b> member of that structure. This structure is returned through a successful completion of an <a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a> IOCTL request.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
-</dt>
-<dt>
-<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
-</dt>
-<dt>
-<a href="..\pmi\ns-pmi-_pmi_metered_hardware_information.md">PMI_METERED_HARDWARE_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
-</dt>
-</dl>
+
+<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
+
+<a href="..\pmi\ns-pmi-_pmi_metered_hardware_information.md">PMI_METERED_HARDWARE_INFORMATION</a>
+
+<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
+
  
 
  

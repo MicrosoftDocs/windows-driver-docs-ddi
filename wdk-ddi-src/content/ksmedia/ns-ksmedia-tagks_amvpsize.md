@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 31430419-8f83-4f46-b398-841895f415d5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_AMVPSIZE, *PKS_AMVPSIZE, KS_AMVPSIZE
+ms.keywords: dvdref_fa534150-3678-4def-945b-59d23ea84e83.xml, KS_AMVPSIZE structure [Streaming Media Devices], ksmedia/PKS_AMVPSIZE, PKS_AMVPSIZE structure pointer [Streaming Media Devices], tagKS_AMVPSIZE, ksmedia/KS_AMVPSIZE, *PKS_AMVPSIZE, stream.ks_amvpsize, PKS_AMVPSIZE, KS_AMVPSIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_AMVPSIZE
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKS_AMVPSIZE, KS_AMVPSIZE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KS_AMVPSIZE
+product: Windows
+targetos: Windows
+req.typenames: KS_AMVPSIZE, *PKS_AMVPSIZE
 ---
 
 # tagKS_AMVPSIZE structure
 
 
-
 ## -description
+
+
 The KS_AMVPSIZE structure is used to describe the dimension of a video port (width by height).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagKS_AMVPSIZE {
@@ -54,6 +64,9 @@ typedef struct tagKS_AMVPSIZE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwWidth
 
@@ -66,15 +79,16 @@ Specifies the height of the video port, in pixels.
 
 
 ## -remarks
+
+
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566502">KSPROPERTY_VPCONFIG_SCALEFACTOR</a> property.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566502">KSPROPERTY_VPCONFIG_SCALEFACTOR</a>
-</dt>
-</dl>
+
  
 
  

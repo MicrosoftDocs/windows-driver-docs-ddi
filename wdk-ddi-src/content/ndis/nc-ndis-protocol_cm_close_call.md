@@ -7,8 +7,8 @@ old-location: netvista\protocolcmclosecall.htm
 old-project: netvista
 ms.assetid: b5307e1b-3905-4e43-a0b0-0068ba18ef0d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RxNameCacheInitialize
+ms.date: 1/18/2018
+ms.keywords: netvista.protocolcmclosecall, ProtocolCmCloseCall callback function [Network Drivers Starting with Windows Vista], ProtocolCmCloseCall, PROTOCOL_CM_CLOSE_CALL, PROTOCOL_CM_CLOSE_CALL, ndis/ProtocolCmCloseCall, condis_call_manager_ref_238e7e85-94af-4e1e-8eb2-04fc89515b4d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    P
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ProtocolCmCloseCall
-req.alt-loc: Ndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Ndis.h
+apiname: 
+-	ProtocolCmCloseCall
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
 
 # PROTOCOL_CM_CLOSE_CALL callback
 
 
-
 ## -description
+
+
 The 
   <i>ProtocolCmCloseCall</i> function is a required function that terminates an existing call and releases any
   resources that the call manager allocated for the call.
-
-
+<div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CM_CLOSE_CALL</b> type.
+   For more information, see the following Examples section.</div><div> </div>
 
 ## -prototype
+
 
 ````
 PROTOCOL_CM_CLOSE_CALL ProtocolCmCloseCall;
@@ -61,6 +72,9 @@ NDIS_STATUS ProtocolCmCloseCall(
 
 
 ## -parameters
+
+
+
 
 ### -param CallMgrVcContext [in]
 
@@ -91,31 +105,72 @@ Specifies the length, in bytes, of the buffer at
 
 
 ## -returns
+
+
 <i>ProtocolCmCloseCall</i> returns the status of its operation(s) as one of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_SUCCESS</b></dt>
-</dl>Indicates that the call manager successfully terminated the call.
+</dl>
+</td>
+<td width="60%">
+Indicates that the call manager successfully terminated the call.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_PENDING</b></dt>
-</dl>Indicates that the call manager will complete the request to terminate the call asynchronously.
+</dl>
+</td>
+<td width="60%">
+Indicates that the call manager will complete the request to terminate the call asynchronously.
        When the call manager has completed all operations required to terminate the connection, it must then
        call 
        <a href="..\ndis\nf-ndis-ndiscmclosecallcomplete.md">NdisCmCloseCallComplete</a> to
        signal NDIS that the call has been closed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_INVALID_DATA</b></dt>
-</dl>Indicates that 
+</dl>
+</td>
+<td width="60%">
+Indicates that 
        <i>CloseData</i> was specified, but the underlying network medium does not support sending data
        concurrent with terminating a call.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_<i>XXX</i></b></dt>
-</dl>Indicates that the call manager could not terminate the call. The actual error returned can be a
+</dl>
+</td>
+<td width="60%">
+Indicates that the call manager could not terminate the call. The actual error returned can be a
        status propagated from another NDIS library routine.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <i>ProtocolCmCloseCall</i> communicated with network control devices or other media-specific actors, as
     necessitated by its media, to terminate a connection between the local node and a remote node. If the
     call manager is required to communicate with network control devices (such as a networking switch) it
@@ -149,36 +204,55 @@ After the call has been terminated with the network, any close data has been sen
     <i>CallMgrPartyContext</i> have been freed, the call manager must call 
     <a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>. This notifies NDIS
     and the underlying miniport driver, if any, to expect no further transfers on the given VC.
-
-To define a <i>ProtocolCmCloseCall</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>ProtocolCmCloseCall</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolCmCloseCall</i> function that is named "MyCmCloseCall", use the <b>PROTOCOL_CM_CLOSE_CALL</b> type as shown in this code example:
-
-Then, implement your function as follows:
-
-The <b>PROTOCOL_CM_CLOSE_CALL</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_CLOSE_CALL</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PROTOCOL_CM_CLOSE_CALL MyCmCloseCall;</pre>
+</td>
+</tr>
+</table></span></div>Then, implement your function as follows:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>_Use_decl_annotations_
+NDIS_STATUS
+ MyCmCloseCall(
+    NDIS_HANDLE  CallMgrVcContext,
+    NDIS_HANDLE  CallMgrPartyContext,
+    PVOID  CloseData,
+    UINT  Size
+    )
+  {...}</pre>
+</td>
+</tr>
+</table></span></div>The <b>PROTOCOL_CM_CLOSE_CALL</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_CLOSE_CALL</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
-</dt>
-<dt>
+
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
 <a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_CM_CLOSE_CALL callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_CM_CLOSE_CALL callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

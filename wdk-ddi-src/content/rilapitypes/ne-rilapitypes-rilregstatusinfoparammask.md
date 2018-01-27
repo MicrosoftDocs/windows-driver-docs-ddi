@@ -7,8 +7,8 @@ old-location: netvista\rilregstatusinfoparammask_2.htm
 old-project: netvista
 ms.assetid: 22751b8b-f19c-4480-b8f4-6ee2322419ca
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILREGSTATUSINFOPARAMMASK, RILREGSTATUSINFOPARAMMASK
+ms.date: 1/18/2018
+ms.keywords: RIL_PARAM_REGSI_NETWORKCODE, rilapitypes/RIL_PARAM_REGSI_ACCESSTECHNOLOGY, RIL_PARAM_REGSI_REGREJECTREASON, RIL_PARAM_REGSI_SYSTEMCAPS, RIL_PARAM_REGSI_VOICEDOMAIN, RIL_PARAM_REGSI_REGSTATUS, RILREGSTATUSINFOPARAMMASK, rilapitypes/RIL_PARAM_REGSI_NETWORKCODE, rilapitypes/RIL_PARAM_REGSI_ALL, rilapitypes/RIL_PARAM_REGSI_HUICCAPP, rilapitypes/RIL_PARAM_REGSI_REGREJECTREASON, rilapitypes/RIL_PARAM_REGSI_CURRENTOPERATOR, RIL_PARAM_REGSI_HUICCAPP, netvista.rilregstatusinfoparammask_2, RIL_PARAM_REGSI_CURRENTOPERATOR, RIL_PARAM_REGSI_ACCESSTECHNOLOGY, RIL_PARAM_REGSI_ALL, rilapitypes/RILREGSTATUSINFOPARAMMASK, rilapitypes/RIL_PARAM_REGSI_REGSTATUS, rilapitypes/RIL_PARAM_REGSI_SYSTEMCAPS, rilapitypes/RIL_PARAM_REGSI_VOICEDOMAIN, RILREGSTATUSINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILREGSTATUSINFOPARAMMASK
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILREGSTATUSINFOPARAMMASK
+product: Windows
+targetos: Windows
 req.typenames: RILREGSTATUSINFOPARAMMASK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILREGSTATUSINFOPARAMMASK enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILREGSTATUSINFOPARAMMASK { 
@@ -63,31 +73,45 @@ typedef enum _RILREGSTATUSINFOPARAMMASK {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_PARAM_REGSI_EXECUTOR
+
+
+
 ### -field RIL_PARAM_REGSI_HUICCAPP
+
 
 
 ### -field RIL_PARAM_REGSI_REGSTATUS
 
 
+
 ### -field RIL_PARAM_REGSI_ACCESSTECHNOLOGY
+
 
 
 ### -field RIL_PARAM_REGSI_SYSTEMCAPS
 
 
+
 ### -field RIL_PARAM_REGSI_REGREJECTREASON
+
 
 
 ### -field RIL_PARAM_REGSI_CURRENTOPERATOR
 
 
+
 ### -field RIL_PARAM_REGSI_VOICEDOMAIN
+
 
 
 ### -field RIL_PARAM_REGSI_NETWORKCODE
 
 
+
 ### -field RIL_PARAM_REGSI_ALL
 
 
-## -remarks

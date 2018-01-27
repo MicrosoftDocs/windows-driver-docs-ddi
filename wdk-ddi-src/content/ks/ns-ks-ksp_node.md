@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2d5f1b31-d8fe-40a3-ac23-cc442f3adbe5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSP_NODE, *PKSP_NODE, KSP_NODE
+ms.keywords: ks/PKSP_NODE, ks/KSP_NODE, stream.ksp_node, PKSP_NODE structure pointer [Streaming Media Devices], KSP_NODE, ks-struct_e93685c5-c84a-469a-ad2c-2407cb2e383b.xml, *PKSP_NODE, KSP_NODE structure [Streaming Media Devices], PKSP_NODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSP_NODE
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSP_NODE, KSP_NODE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSP_NODE
+product: Windows
+targetos: Windows
+req.typenames: KSP_NODE, *PKSP_NODE
 ---
 
 # KSP_NODE structure
 
 
-
 ## -description
+
+
 Kernel streaming clients use the KSP_NODE structure to specify the property and node type within a KSPROPERTY_TOPOLOGY_NAME property request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Property
 
@@ -71,18 +84,12 @@ Specifies the node ID.
 Reserved for system use. Should be set to zero.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ksmedia\ns-ksmedia-ksnodeproperty.md">KSNODEPROPERTY</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-</dt>
-</dl>
+
+<a href="..\ksmedia\ns-ksmedia-ksnodeproperty.md">KSNODEPROPERTY</a>
+
  
 
  

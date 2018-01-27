@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: fdd69121-2b3c-4394-b67e-c29f43daf113
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_HUB_NODE, USB_HUB_NODE
+ms.keywords: usbioctl/USB_HUB_NODE, UsbHub, _USB_HUB_NODE, usbioctl/UsbMIParent, usbstrct_9dadc1ba-6775-48d3-8ebf-fa42ad6992bf.xml, UsbMIParent, USB_HUB_NODE, USB_HUB_NODE enumeration [Buses], buses.usb_hub_node, usbioctl/UsbHub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_HUB_NODE
-req.alt-loc: usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbioctl.h
+apiname: 
+-	USB_HUB_NODE
+product: Windows
+targetos: Windows
 req.typenames: USB_HUB_NODE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USB_HUB_NODE enumeration
 
 
-
 ## -description
+
+
 The <b>USB_HUB_NODE</b> enumerator indicates whether a device is a hub or a composite device.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _USB_HUB_NODE { 
@@ -55,6 +65,9 @@ typedef enum _USB_HUB_NODE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field UsbHub
 
@@ -67,18 +80,18 @@ Indicates that the device is a composite device with multiple interfaces.
 
 
 ## -remarks
+
+
 Composite devices are devices that have multiple interfaces. Windows loads the USB generic parent driver for composite devices, instead of the hub driver, but the generic parent driver performs many of the functions of the hub driver. It creates a child PDO for each interface, as though the interface were a separate device.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbioctl\ns-usbioctl-_usb_node_information.md">USB_NODE_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
-</dt>
-</dl>
+
  
 
  

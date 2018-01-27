@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5DC3C7C8-E7D1-4874-AF8D-8E6FD48DF046
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceInitSetReleaseHardwareOrderOnFailure
+ms.keywords: wdfdevice/WdfDeviceInitSetReleaseHardwareOrderOnFailure, kmdf.wdfdeviceinitsetreleasehardwareorderonfailure, PFN_WDFDEVICEINITSETRELEASEHARDWAREORDERONFAILURE, WdfDeviceInitSetReleaseHardwareOrderOnFailure method, wdf.wdfdeviceinitsetreleasehardwareorderonfailure, WdfDeviceInitSetReleaseHardwareOrderOnFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.11
 req.umdf-ver: 2.0
-req.alt-api: WdfDeviceInitSetReleaseHardwareOrderOnFailure
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll,WUDFx02000.dll,WUDFx02000.dll.dll
 req.ddi-compliance: DriverCreate
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,20 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+-	WUDFx02000.dll
+-	WUDFx02000.dll.dll
+apiname: 
+-	WdfDeviceInitSetReleaseHardwareOrderOnFailure
+product: Windows
+targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,16 +50,17 @@ req.product: Windows 10 or later.
 # WdfDeviceInitSetReleaseHardwareOrderOnFailure function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 
    The <b>WdfDeviceInitSetReleaseHardwareOrderOnFailure</b> method specifies whether the framework calls the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a> callback function immediately after device failure, or waits until all child devices have been removed.
 
 
-
 ## -syntax
+
 
 ````
 void WdfDeviceInitSetReleaseHardwareOrderOnFailure(
@@ -58,6 +71,9 @@ void WdfDeviceInitSetReleaseHardwareOrderOnFailure(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceInit [in]
 
@@ -70,10 +86,15 @@ A <a href="..\wdfdevice\ne-wdfdevice-_wdf_release_hardware_order_on_failure.md">
 
 
 ## -returns
+
+
 This method does not return a value.
 
 
+
 ## -remarks
+
+
 Typically, the framework calls a driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a> callback function after it has called the <i>EvtDeviceReleaseHardware</i> function for all child devices that the driver enumerates.
 
 In the event of a device power-up or power-down failure, however, the framework might call the  driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a> before it has called the <i>EvtDeviceReleaseHardware</i> functions for all child devices.
@@ -84,21 +105,16 @@ To override this default behavior, a driver can call <b>WdfDeviceInitSetReleaseH
 
 If a driver calls <b>WdfDeviceInitSetReleaseHardwareOrderOnFailure</b>, it must do so before it calls <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
-The following code example shows how a bus driver can request that the framework wait to call its <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a> callback function until all of its child devices have been removed.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
-</dt>
-<dt>
+
 <a href="..\wdfdevice\ne-wdfdevice-_wdf_release_hardware_order_on_failure.md">WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE</a>
-</dt>
-</dl>
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
+
  
 
  

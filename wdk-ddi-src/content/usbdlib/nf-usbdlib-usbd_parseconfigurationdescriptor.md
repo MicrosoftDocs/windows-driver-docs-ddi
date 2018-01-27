@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: a82816d8-2516-4bba-a5aa-0154cd079d5b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_ParseConfigurationDescriptor
+ms.keywords: buses.usbd_parseconfigurationdescriptor, USBD_ParseConfigurationDescriptor routine [Buses], USBD_ParseConfigurationDescriptor, usbfunc_e0bfa26f-42a8-47a2-bf0e-5f8c97c5e9eb.xml, usbdlib/USBD_ParseConfigurationDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Deprecated. Use USBD_ParseConfigurationDescriptorEx i
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBD_ParseConfigurationDescriptor
-req.alt-loc: Usbd.lib,Usbd.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Usbd.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Usbd.lib
+-	Usbd.dll
+apiname: 
+-	USBD_ParseConfigurationDescriptor
+product: Windows
+targetos: Windows
 req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # USBD_ParseConfigurationDescriptor function
 
 
-
 ## -description
+
+
 The  <b>USBD_ParseConfigurationDescriptor</b> routine has been deprecated. Use <a href="..\usbdlib\nf-usbdlib-usbd_parseconfigurationdescriptorex.md">USBD_ParseConfigurationDescriptorEx</a> instead.
 
 
-
 ## -syntax
+
 
 ````
 PUSB_INTERFACE_DESCRIPTOR USBD_ParseConfigurationDescriptor(
@@ -56,6 +67,9 @@ PUSB_INTERFACE_DESCRIPTOR USBD_ParseConfigurationDescriptor(
 
 
 ## -parameters
+
+
+
 
 ### -param ConfigurationDescriptor [in]
 
@@ -73,19 +87,18 @@ Specifies the device-defined alternate-setting index of the interface to be retr
 
 
 ## -returns
+
+
 <b>USBD_ParseConfigurationDescriptor</b> returns a pointer to the first interface descriptor that matches the given search criteria. If no interface matches the search criteria, it returns <b>NULL</b>.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
+
 <a href="..\usbdlib\nf-usbdlib-usbd_parseconfigurationdescriptorex.md">USBD_ParseConfigurationDescriptorEx</a>
-</dt>
-<dt><a href="usb_reference.htm#client">USB device driver programming reference</a></dt>
-</dl>
+
  
 
  

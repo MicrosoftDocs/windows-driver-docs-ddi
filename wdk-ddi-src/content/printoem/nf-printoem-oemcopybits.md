@@ -7,8 +7,8 @@ old-location: print\oemcopybits.htm
 old-project: print
 ms.assetid: bd7a8fc6-0d68-4d80-b622-90cd981f9d13
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: OEMCopyBits
+ms.date: 1/18/2018
+ms.keywords: print.oemcopybits, printoem/OEMCopyBits, print_unidrv-pscript_rendering_fbf15e40-01e8-4207-b130-b152a225025e.xml, OEMCopyBits function [Print Devices], OEMCopyBits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OEMCopyBits
-req.alt-loc: printoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	printoem.h
+apiname: 
+-	OEMCopyBits
+product: Windows
+targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # OEMCopyBits function
 
 
-
 ## -description
+
+
 The <code>OEMCopyBits</code> function performs translations between device-managed raster surfaces and GDI standard-format bitmaps. 
 
 
-
 ## -syntax
+
 
 ````
 BOOL  APIENTRY OEMCopyBits(
@@ -60,22 +70,29 @@ BOOL  APIENTRY OEMCopyBits(
 
 ## -parameters
 
-### -param psoDest 
 
 
-### -param psoSrc 
+
+### -param psoDest
 
 
-### -param pco 
+
+### -param psoSrc
 
 
-### -param pxlo 
+
+### -param pco
 
 
-### -param prclDest 
+
+### -param pxlo
 
 
-### -param pptlSrc 
+
+### -param prclDest
 
 
-## -remarks
+
+### -param pptlSrc
+
+

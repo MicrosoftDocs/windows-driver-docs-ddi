@@ -7,8 +7,8 @@ old-location: netvista\riluiccserviceservice_2.htm
 old-project: netvista
 ms.assetid: bc3df2dd-caa7-4614-a243-3df13e3c0e84
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILUICCSERVICESERVICE, RILUICCSERVICESERVICE
+ms.date: 1/18/2018
+ms.keywords: netvista.riluiccserviceservice_2, rilapitypes/RIL_UICCOPERATION_SERVICE_MAX, RILUICCSERVICESERVICE, RILUICCSERVICESERVICE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_UICCOPERATION_SERVICE_BDN, rilapitypes/RILUICCSERVICESERVICE, RIL_UICCOPERATION_SERVICE_MAX, RIL_UICCOPERATION_SERVICE_BDN, rilapitypes/RIL_UICCOPERATION_SERVICE_ACL, RIL_UICCOPERATION_SERVICE_ACL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILUICCSERVICESERVICE
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILUICCSERVICESERVICE
+product: Windows
+targetos: Windows
 req.typenames: RILUICCSERVICESERVICE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILUICCSERVICESERVICE enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILUICCSERVICESERVICE { 
@@ -57,13 +67,21 @@ typedef enum _RILUICCSERVICESERVICE {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_UICCOPERATION_SERVICE_FDN
+
+
+
 ### -field RIL_UICCOPERATION_SERVICE_BDN
+
 
 
 ### -field RIL_UICCOPERATION_SERVICE_ACL
 
 
+
 ### -field RIL_UICCOPERATION_SERVICE_MAX
 
 
-## -remarks

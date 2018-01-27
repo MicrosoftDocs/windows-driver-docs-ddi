@@ -7,8 +7,8 @@ old-location: debugger\getconstantname.htm
 old-project: debugger
 ms.assetid: bb308ee7-e8bc-49c0-b1f9-199af7dca289
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugSymbols3, IDebugSymbols3::GetConstantName, GetConstantName
+ms.date: 1/19/2018
+ms.keywords: debugger.getconstantname, IDebugSymbols2 interface [Windows Debugging], GetConstantName method, IDebugSymbols3::GetConstantName, IDebugSymbols_438111b4-a0f4-40cc-aadc-8b1d2c67b219.xml, GetConstantName, GetConstantName method [Windows Debugging], dbgeng/IDebugSymbols2::GetConstantName, IDebugSymbols2::GetConstantName, IDebugSymbols3 interface [Windows Debugging], GetConstantName method, GetConstantName method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3, dbgeng/IDebugSymbols3::GetConstantName, GetConstantName method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugSymbols2.GetConstantName,IDebugSymbols3.GetConstantName
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugSymbols2.GetConstantName
+-	IDebugSymbols3.GetConstantName
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetConstantName method
 
 
-
 ## -description
+
+
 The <b>GetConstantName</b>  method returns the name of the specified constant.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT GetConstantName(
@@ -58,6 +69,9 @@ HRESULT GetConstantName(
 
 
 ## -parameters
+
+
+
 
 ### -param Module [in]
 
@@ -90,17 +104,44 @@ Receives the size in characters of the constant's name.
 
 
 ## -returns
+
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method was successful.
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_FALSE</b></dt>
-</dl>The method was successful. However, the buffer was not large enough for the constant's name and it was truncated.
+</dl>
+</td>
+<td width="60%">
+The method was successful. However, the buffer was not large enough for the constant's name and it was truncated.
 
- 
+</td>
+</tr>
+</table> 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
+
 ## -remarks
-For more information about symbols, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">Symbols</a>.</p>
+
+
+For more information about symbols, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">Symbols</a>.
+
+

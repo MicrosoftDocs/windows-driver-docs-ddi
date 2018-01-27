@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: caf5d3fc-f9bb-412c-af5f-e0c5e4d45efc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KeReadStateMutant
+ms.keywords: KeReadStateMutant, keref_71f98f36-f8ae-4ea9-9a54-8fb34694b18c.xml, ntifs/KeReadStateMutant, ifsk.kereadstatemutant, KeReadStateMutant function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeReadStateMutant
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	KeReadStateMutant
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # KeReadStateMutant function
 
 
-
 ## -description
+
+
 The <b>KeReadStateMutant</b> routine is reserved for system use. See <a href="..\wdm\nf-wdm-kereadstatemutex.md">KeReadStateMutex</a>. 
 
 
-
 ## -syntax
+
 
 ````
   KeReadStateMutant(
@@ -54,9 +64,14 @@ The <b>KeReadStateMutant</b> routine is reserved for system use. See <a href="..
 
 ## -parameters
 
-### -param  
-
-Reserved.
 
 
-## -remarks
+
+### -param Mutant
+
+TBD
+
+
+
+
+

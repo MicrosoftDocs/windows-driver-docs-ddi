@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 267335d2-37bd-4615-ad8e-5a8805eb93f7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_DECODEENDFRAME, D3DDDIARG_DECODEENDFRAME
+ms.keywords: _D3DDDIARG_DECODEENDFRAME, UMDisplayDriver_param_Structs_7c4f1596-3837-4094-9e8d-b5ea05207489.xml, display.d3dddiarg_decodeendframe, d3dumddi/D3DDDIARG_DECODEENDFRAME, D3DDDIARG_DECODEENDFRAME, D3DDDIARG_DECODEENDFRAME structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_DECODEENDFRAME
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_DECODEENDFRAME
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_DECODEENDFRAME
 ---
 
 # _D3DDDIARG_DECODEENDFRAME structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_DECODEENDFRAME structure specifies the Microsoft DirectX Video Accelerator (VA) decoder that should stop decoding a frame. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_DECODEENDFRAME {
@@ -55,6 +65,9 @@ typedef struct _D3DDDIARG_DECODEENDFRAME {
 
 ## -struct-fields
 
+
+
+
 ### -field hDecode
 
 A handle to the DirectX VA decode device. The user-mode display driver returns this handle in a call to its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a> function.
@@ -65,18 +78,12 @@ A handle to the DirectX VA decode device. The user-mode display driver returns t
 This member is reserved and should be set to <b>NULL</b>. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodeendframe.md">DecodeEndFrame</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a>
+
  
 
  

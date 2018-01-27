@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: acd1a957-9a1f-48a5-849b-e0cb9f8e05b6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDIARG_OPENRESOURCE, D3D10DDIARG_OPENRESOURCE
+ms.keywords: UMDisplayDriver_Dx10param_Structs_bb0f1769-190c-4500-8efa-9ed3eab771f7.xml, D3D10DDIARG_OPENRESOURCE, d3d10umddi/D3D10DDIARG_OPENRESOURCE, D3D10DDIARG_OPENRESOURCE structure [Display Devices], display.d3d10ddiarg_openresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10DDIARG_OPENRESOURCE
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10DDIARG_OPENRESOURCE
+product: Windows
+targetos: Windows
 req.typenames: D3D10DDIARG_OPENRESOURCE
 ---
 
 # D3D10DDIARG_OPENRESOURCE structure
 
 
-
 ## -description
+
+
 The D3D10DDIARG_OPENRESOURCE structure contains information for opening a shared resource.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D10DDIARG_OPENRESOURCE {
@@ -65,14 +75,7 @@ typedef struct D3D10DDIARG_OPENRESOURCE {
 
 ## -struct-fields
 
-### -field NumAllocations
 
-[in] The number of elements in the array that the <b>pOpenAllocationInfo</b> member specifies. <b>NumAllocations</b> represents the number of allocations to open.
-
-
-### -field pOpenAllocationInfo
-
-[in] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a> structures that describe the allocations in the resource to open.
 
 
 ### -field pOpenAllocationInfo2
@@ -82,7 +85,14 @@ This member is reserved and should be set to zero.
 This member is available beginning with Windows 7.
 
 
+### -field NumAllocations
+
+[in] The number of elements in the array that the <b>pOpenAllocationInfo</b> member specifies. <b>NumAllocations</b> represents the number of allocations to open.
+
+
 ### -field pOpenAllocationInfo
+
+[in] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a> structures that describe the allocations in the resource to open.
 
 [in] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a> structures that describe the allocations in the resource to open.
 
@@ -106,18 +116,12 @@ The user-mode display driver can insert the kernel-mode resource handle in the c
 [in] The size, in bytes, of the private data that <b>pPrivateDriverData</b> points to.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
-</dt>
-<dt>
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a>
-</dt>
-</dl>
+
  
 
  

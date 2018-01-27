@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: cad3eeb5-2106-4648-97e5-cf3bb8601599
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWavePci, IMiniportWavePci::NewStream, NewStream
+ms.keywords: portcls/IMiniportWavePci::NewStream, NewStream method [Audio Devices], IMiniportWavePci, audio.iminiportwavepci_newstream, NewStream method [Audio Devices], IMiniportWavePci interface, audmp-routines_cf0b0f93-033d-47f1-8e07-c0407e0a89f3.xml, IMiniportWavePci::NewStream, IMiniportWavePci interface [Audio Devices], NewStream method, NewStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportWavePci.NewStream
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IMiniportWavePci.NewStream
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportWavePci::NewStream method
 
 
-
 ## -description
+
+
 The <code>NewStream</code> method creates a new instance of a logical stream associated with a specified physical channel.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS NewStream(
@@ -61,6 +71,9 @@ NTSTATUS NewStream(
 
 
 ## -parameters
+
+
+
 
 ### -param Stream [out]
 
@@ -108,10 +121,15 @@ Output pointer for the service group. This parameter points to a caller-allocate
 
 
 ## -returns
+
+
 <code>NewStream</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 The <code>NewStream</code> method sets the initial state of the stream to KSSTATE_STOP and its initial position to zero. (See <a href="https://msdn.microsoft.com/library/windows/hardware/ff536733">IMiniportWavePciStream::SetState</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff536727">IMiniportWavePciStream::GetPosition</a>.)
 
 The <i>DataFormat</i> parameter, which specifies the data format of the stream, points to one of the following audio-specific, extended versions of the <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure:
@@ -135,36 +153,27 @@ The ac97 sample audio driver in the Microsoft Windows Driver Kit (WDK) reflects 
 Note that the <code>NewStream</code> methods for the other port types (WaveCyclic, in particular) follow the usual reference-counting conventions for all their OUT parameters. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iminiportwavepci.md">IMiniportWavePci</a>
-</dt>
-<dt>
-<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
-</dt>
-<dt>
-<a href="..\portcls\nn-portcls-iportwavepcistream.md">IPortWavePciStream</a>
-</dt>
-<dt>
-<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
-</dt>
-<dt>
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-</dt>
-<dt>
-<a href="..\ksmedia\ns-ksmedia-ksdataformat_dsound.md">KSDATAFORMAT_DSOUND</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a>
-</dt>
-<dt>
+
+<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
+
+<a href="..\ksmedia\ns-ksmedia-ksdataformat_dsound.md">KSDATAFORMAT_DSOUND</a>
+
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iportwavepcistream.md">IPortWavePciStream</a>
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+<a href="..\portcls\nn-portcls-iminiportwavepci.md">IMiniportWavePci</a>
+
  
 
  

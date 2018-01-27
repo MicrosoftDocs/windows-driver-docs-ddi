@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 999ee9cc-13c7-4e6b-a294-7e7d28272384
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoRemoveShareAccess
+ms.keywords: IoRemoveShareAccess routine [Kernel-Mode Driver Architecture], kernel.ioremoveshareaccess, k104_0034e41b-0320-40e0-8dea-847db6b6dc58.xml, wdm/IoRemoveShareAccess, IoRemoveShareAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoRemoveShareAccess
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlIoPassive5, PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoRemoveShareAccess
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoRemoveShareAccess function
 
 
-
 ## -description
+
+
 The <b>IoRemoveShareAccess</b> routine removes the access and share-access information for a given open instance of a file object.
 
 
-
 ## -syntax
+
 
 ````
 VOID IoRemoveShareAccess(
@@ -55,6 +65,9 @@ VOID IoRemoveShareAccess(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -67,10 +80,15 @@ Pointer to the share-access structure that describes how the open file object is
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 This routine is a reciprocal to <a href="..\wdm\nf-wdm-ioupdateshareaccess.md">IoUpdateShareAccess</a>.
 
 <b>IoRemoveShareAccess</b> is not an atomic operation. Therefore, drivers calling this routine must protect the shared file object passed to <b>IoRemoveShareAccess</b> by means of some kind of lock, such as a mutex or a resource lock, in order to prevent corruption of the shared access counts.
@@ -78,18 +96,15 @@ This routine is a reciprocal to <a href="..\wdm\nf-wdm-ioupdateshareaccess.md">I
 Callers of <b>IoRemoveShareAccess</b> must be running at IRQL = PASSIVE_LEVEL and in the context of the thread that requested that the <i>FileObject</i> be closed.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-ioupdateshareaccess.md">IoUpdateShareAccess</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
+
  
 
  

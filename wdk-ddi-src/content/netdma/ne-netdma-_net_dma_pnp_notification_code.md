@@ -7,8 +7,8 @@ old-location: netvista\net_dma_pnp_notification_code.htm
 old-project: netvista
 ms.assetid: 1c9c09ae-5b7a-4482-8f6b-1ad5ede5b3f5
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NET_DMA_PNP_NOTIFICATION_CODE, NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
+ms.date: 1/18/2018
+ms.keywords: netvista.net_dma_pnp_notification_code, NET_DMA_PNP_NOTIFICATION_CODE, netdma_ref_ce8373ae-1547-410d-b33e-d95eb42d649e.xml, netdma/NetDmaNotificationProviderArrival, NetDmaNotificationProviderArrival, netdma/NetDmaNotificationProviderPowerUp, NetDmaNotificationProviderPowerUp, NetDmaNotificationChannelArrival, *PNET_DMA_PNP_NOTIFICATION_CODE, _NET_DMA_PNP_NOTIFICATION_CODE, NetDmaNotificationMax, netdma/NetDmaNotificationMax, NET_DMA_PNP_NOTIFICATION_CODE enumeration [Network Drivers Starting with Windows Vista], netdma/PNET_DMA_PNP_NOTIFICATION_CODE, netdma/NetDmaNotificationProviderRegistered, NetDmaNotificationProviderPowerDown, netdma/NET_DMA_PNP_NOTIFICATION_CODE, PNET_DMA_PNP_NOTIFICATION_CODE, netdma/NetDmaNotificationProviderPowerDown, netdma/NetDmaNotificationProviderRemoval, NetDmaNotificationProviderRemoval, netdma/NetDmaNotificationChannelArrival, NetDmaNotificationProviderRegistered, PNET_DMA_PNP_NOTIFICATION_CODE enumeration pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NetDMA 2.0 and NetDMA 1.1 drivers in Wi
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NET_DMA_PNP_NOTIFICATION_CODE
-req.alt-loc: netdma.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,16 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	netdma.h
+apiname: 
+-	NET_DMA_PNP_NOTIFICATION_CODE
+product: Windows
+targetos: Windows
 req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
 ---
 
 # _NET_DMA_PNP_NOTIFICATION_CODE enumeration
 
 
-
 ## -description
 
+
+<div class="alert"><b>Note</b>  The NetDMA interface is not supported in Windows 8 and later.</div><div> </div>The NET_DMA_PNP_NOTIFICATION_CODE enumeration identifies the type of a NetDMA Plug and Play (PnP)
+  event.
+
+
 ## -syntax
+
 
 ````
 typedef enum _NET_DMA_PNP_NOTIFICATION_CODE { 
@@ -56,6 +70,9 @@ typedef enum _NET_DMA_PNP_NOTIFICATION_CODE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field NetDmaNotificationProviderRegistered
 
@@ -99,20 +116,21 @@ The total number of supported NetDMA PnP events.
 
 
 ## -remarks
+
+
 The NET_DMA_PNP_NOTIFICATION_CODE enumeration is used in the 
-    <a href="..\netdma\ns-netdma-_net_dma_pnp_notification.md">
-    NET_DMA_PNP_NOTIFICATION</a> structure.
+    <mshelp:link keywords="netvista.net_dma_pnp_notification" tabindex="0"><b>
+    NET_DMA_PNP_NOTIFICATION</b></mshelp:link> structure.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\netdma\ns-netdma-_net_dma_pnp_notification.md">NET_DMA_PNP_NOTIFICATION</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_DMA_PNP_NOTIFICATION_CODE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_DMA_PNP_NOTIFICATION_CODE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

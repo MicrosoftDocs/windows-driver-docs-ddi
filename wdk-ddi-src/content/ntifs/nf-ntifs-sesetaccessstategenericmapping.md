@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b9a5ca5c-2d1c-4974-bef8-6003a4d6e864
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SeSetAccessStateGenericMapping
+ms.keywords: seref_41bfccdf-c133-4587-9d9e-a328eedbd28b.xml, ifsk.sesetaccessstategenericmapping, ntifs/SeSetAccessStateGenericMapping, SeSetAccessStateGenericMapping routine [Installable File System Drivers], SeSetAccessStateGenericMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SeSetAccessStateGenericMapping
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	SeSetAccessStateGenericMapping
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # SeSetAccessStateGenericMapping function
 
 
-
 ## -description
+
+
 The <b>SeSetAccessStateGenericMapping</b> routine sets the generic mapping field of an ACCESS_STATE structure.
 
 
-
 ## -syntax
+
 
 ````
 VOID SeSetAccessStateGenericMapping(
@@ -54,6 +64,9 @@ VOID SeSetAccessStateGenericMapping(
 
 
 ## -parameters
+
+
+
 
 ### -param AccessState [in, out]
 
@@ -66,10 +79,15 @@ Pointer to a GENERIC<b>_</b>MAPPING structure to be copied into the ACCESS_STATE
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>SeSetAccessStateGenericMapping</b> sets the <b>GenericMapping</b> field in the <b>AuxData</b> member of an ACCESS_STATE structure. If this field is not set when the ACCESS_STATE structure is created, <b>SeSetAccessStateGenericMapping</b> must be called to set this field before the structure is used to perform access validation.
 
 The generic mapping structure defines the mapping of generic access rights to specific and standard access rights for an object. When a client requests generic access rights to an object, the desired access mask is mapped to one of the access masks defined in this structure.
@@ -77,18 +95,15 @@ The generic mapping structure defines the mapping of generic access rights to sp
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-seappendprivileges.md">SeAppendPrivileges</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
+
+<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
+
  
 
  

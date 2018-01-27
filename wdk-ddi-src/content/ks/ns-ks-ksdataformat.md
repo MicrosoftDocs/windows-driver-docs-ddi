@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e39a59f4-6ec2-402d-8f8e-12324d6cbfa8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSDATAFORMAT, *PKSDATARANGE, KSDATARANGE, *PKSDATAFORMAT, KSDATAFORMAT
+ms.keywords: PKSDATARANGE, KSDATARANGE, *PKSDATARANGE, ks/KSDATARANGE, ks/KSDATAFORMAT, KSDATAFORMAT, ks/PKSDATAFORMAT, ks/PKSDATARANGE, PKSDATAFORMAT structure pointer [Streaming Media Devices], KSDATARANGE structure [Streaming Media Devices], ks-struct_787a73ee-98dd-4e97-b7ea-2ed38ff564c7.xml, PKSDATAFORMAT, *PKSDATAFORMAT, KSDATAFORMAT structure [Streaming Media Devices], PKSDATARANGE structure pointer [Streaming Media Devices], stream.ksdataformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSDATAFORMAT
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSDATARANGE, KSDATARANGE, *PKSDATAFORMAT, KSDATAFORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSDATAFORMAT
+product: Windows
+targetos: Windows
+req.typenames: *PKSDATARANGE, KSDATAFORMAT, KSDATARANGE, *PKSDATAFORMAT
 ---
 
 # KSDATAFORMAT structure
 
 
-
 ## -description
+
+
 The KSDATAFORMAT structure is a variable-length structure that describes a data format.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -59,6 +69,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field FormatSize
 
@@ -100,35 +113,34 @@ The following specifiers (defined in <i>ks.h</i>) are of general use:
 
 
 
-### -field KSDATAFORMAT_SPECIFIER_NONE
+##### - Specifier.KSDATAFORMAT_SPECIFIER_FILEHANDLE
 
-Stands for no specifier. Used for formats that do not support specifiers.
+Indicates that a file handle immediately follows KSDATAFORMAT in memory.  
 
 
-### -field KSDATAFORMAT_SPECIFIER_FILENAME
+##### - Specifier.KSDATAFORMAT_SPECIFIER_FILENAME
 
 Indicates that a null-terminated Unicode string immediately follows the KSDATAFORMAT structure in memory.  
 
 
-### -field KSDATAFORMAT_SPECIFIER_FILEHANDLE
+##### - Specifier.KSDATAFORMAT_SPECIFIER_NONE
 
-Indicates that a file handle immediately follows KSDATAFORMAT in memory.  
+Stands for no specifier. Used for formats that do not support specifiers.
 
-</dd>
-</dl>
 
 ## -remarks
+
+
 At the minimum, a data format is specified by the <b>MajorFormat</b>, the <b>SubFormat</b>, and the <b>Specifier</b> members. A family of similar data formats can share the same values for <b>MajorFormat</b>, <b>SubFormat</b>, and <b>Specifier</b>. In that case, the specific data format is distinguished by additional data that follows the <b>Specifier</b> member in memory.
 
 For a list of <b>MajorFormat</b>, <b>SubFormat</b>, and <b>Specifier</b> combinations, see <a href="https://msdn.microsoft.com/dc2af282-4976-42d8-b07b-13b2a6dfb7d5">Stream Categories</a> and its subtopics.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/dc2af282-4976-42d8-b07b-13b2a6dfb7d5">Stream Categories</a>
-</dt>
-</dl>
+
  
 
  

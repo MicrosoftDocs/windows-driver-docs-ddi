@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 592c7f8d-0a39-45af-a9b8-14ddd55e2835
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcIsThereDirtyData
+ms.keywords: ntifs/CcIsThereDirtyData, ifsk.ccistheredirtydata, CcIsThereDirtyData, CcIsThereDirtyData routine [Installable File System Drivers], ccref_86c4a327-a13e-49b3-89d1-abf976973000.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcIsThereDirtyData
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcIsThereDirtyData
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcIsThereDirtyData function
 
 
-
 ## -description
+
+
 The <b>CcIsThereDirtyData</b> routine determines whether a mounted volume contains any files that have dirty data in the system cache.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN CcIsThereDirtyData(
@@ -54,28 +64,34 @@ BOOLEAN CcIsThereDirtyData(
 
 ## -parameters
 
+
+
+
 ### -param Vpb [in]
 
 Pointer to a volume parameter block (VPB) for the volume.
 
 
 ## -returns
+
+
 <b>CcIsThereDirtyData</b> returns <b>TRUE</b> if the volume contains one or more cached files whose data has been modified in the cache but not yet flushed to disk, <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 <b>CcIsThereDirtyData</b> ignores temporary files.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+
  
 
  

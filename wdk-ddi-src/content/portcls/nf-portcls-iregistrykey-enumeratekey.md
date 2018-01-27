@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2438c994-a283-49fe-a39b-99de678df2e2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IRegistryKey, IRegistryKey::EnumerateKey, EnumerateKey
+ms.keywords: IRegistryKey::EnumerateKey, audio.iregistrykey_enumeratekey, EnumerateKey method [Audio Devices], IRegistryKey interface, EnumerateKey, audmp-routines_ef31b848-c963-4327-ba86-bca98383ad90.xml, IRegistryKey, portcls/IRegistryKey::EnumerateKey, IRegistryKey interface [Audio Devices], EnumerateKey method, EnumerateKey method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IRegistryKey.EnumerateKey
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IRegistryKey.EnumerateKey
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IRegistryKey::EnumerateKey method
 
 
-
 ## -description
+
+
 The <code>EnumerateKey</code> method returns information about the subkeys of the open key.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS EnumerateKey(
@@ -58,6 +68,9 @@ NTSTATUS EnumerateKey(
 
 ## -parameters
 
+
+
+
 ### -param Index [in]
 
 Specifies the subkey index. This parameter identifies the subkey for which key information is requested. If the key contains <i>n</i> subkeys, valid indices range from 0 to <i>n</i>-1. If the index exceeds this range, the method returns STATUS_NO_MORE_ENTRIES.
@@ -66,7 +79,6 @@ Specifies the subkey index. This parameter identifies the subkey for which key i
 ### -param KeyInformationClass [in]
 
 Specifies the type of information to be returned in the buffer. Set this parameter to one of the following KEY_INFORMATION_CLASS enumeration values:
-
 <ul>
 <li>
 <b>KeyBasicInformation</b>
@@ -98,38 +110,52 @@ Output pointer for the length of the resulting data. This parameter points to a 
 
 
 ## -returns
+
+
 <code>EnumerateKey</code> returns STATUS_SUCCESS if the call was successful in retrieving the requested information in the <i>KeyInformation</i> buffer. If the specified buffer size is too small to receive all of the available information, the method returns STATUS_BUFFER_OVERFLOW. Otherwise, the method returns an appropriate error code. The following table shows some of the possible return status codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>Indicates that the specified buffer is too small to receive any information.
+</dl>
+</td>
+<td width="60%">
+Indicates that the specified buffer is too small to receive any information.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NO_MORE_ENTRIES</b></dt>
-</dl>Indicates that no more subkeys are available (subkey index is larger than or equal to the number of subkeys).
+</dl>
+</td>
+<td width="60%">
+Indicates that no more subkeys are available (subkey index is larger than or equal to the number of subkeys).
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
+
+<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
+
 <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
-</dt>
-</dl>
+
  
 
  

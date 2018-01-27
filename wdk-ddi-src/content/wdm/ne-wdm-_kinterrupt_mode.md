@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2f00fe3f-d73d-4f0f-a1dd-ae72fa57e55d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _KINTERRUPT_MODE, KINTERRUPT_MODE
+ms.keywords: LevelSensitive, wdm/Latched, wdm/KINTERRUPT_MODE, wdm/LevelSensitive, sysenum_35275927-b863-496a-8193-579f9d1d3a22.xml, KINTERRUPT_MODE, KINTERRUPT_MODE enumeration [Kernel-Mode Driver Architecture], _KINTERRUPT_MODE, kernel.kinterrupt_mode, Latched
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KINTERRUPT_MODE
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	KINTERRUPT_MODE
+product: Windows
+targetos: Windows
 req.typenames: KINTERRUPT_MODE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _KINTERRUPT_MODE enumeration
 
 
-
 ## -description
+
+
 The <b>KINTERRUPT_MODE</b> enumeration type indicates whether an interrupt is level-triggered or edge-triggered.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _KINTERRUPT_MODE { 
@@ -55,6 +65,9 @@ typedef enum _KINTERRUPT_MODE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field LevelSensitive
 
@@ -67,21 +80,20 @@ The interrupt is edge-triggered. This is the mode for PCI message-signaled inter
 
 
 ## -remarks
+
+
 The interrupt mode is an electrical characteristic of the interrupt. A device signals a level-triggered interrupt by changing the voltage on the interrupt pin, and holding it there until the processor signals that the interrupt is received. In contrast, to signal an edge-triggered interrupt, the device changes the voltage state for a fixed period of time, before reverting to the original voltage state.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
+
  
 
  

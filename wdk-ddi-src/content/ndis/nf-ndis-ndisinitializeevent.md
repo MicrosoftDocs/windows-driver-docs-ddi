@@ -7,8 +7,8 @@ old-location: netvista\ndisinitializeevent.htm
 old-project: netvista
 ms.assetid: 7f7eac7e-f512-4446-a83b-92d313c14420
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisInitializeEvent
+ms.date: 1/18/2018
+ms.keywords: NdisInitializeEvent function [Network Drivers Starting with Windows Vista], NdisInitializeEvent, ndis/NdisInitializeEvent, ndis_event_ref_35523d4a-3084-43ea-9dc0-6e9017b9ed22.xml, netvista.ndisinitializeevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    N
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisInitializeEvent
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisInitializeEvent
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisInitializeEvent function
 
 
-
 ## -description
+
+
 The 
   <b>NdisInitializeEvent</b> function sets up an event object during driver initialization to be used
   subsequently as a synchronization mechanism.
 
 
-
 ## -syntax
+
 
 ````
 VOID NdisInitializeEvent(
@@ -56,22 +67,30 @@ VOID NdisInitializeEvent(
 
 ## -parameters
 
+
+
+
 ### -param Event [out]
 
 A pointer to caller-supplied storage for the event object, which is opaque to drivers.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The 
     <b>NdisInitializeEvent</b> function creates an event object that has an event type of 
     <b>NotificationEvent</b> and an initial state of 
     <i>not-signaled</i>. For more information about notification events, see 
-    <a href="https://msdn.microsoft.com/4b7807f0-bbea-4402-b028-9ac73724717f">Defining and Using an Event
-    Object</a>.
+    <mshelp:link keywords="kernel.defining_and_using_an_event_object" tabindex="0">Defining and Using an Event
+    Object</mshelp:link>.
 
 The 
     <i>Event</i> pointer passed to 
@@ -84,24 +103,20 @@ While driver functions that must run at IRQL &lt;= DISPATCH_LEVEL can call the
     <b>NdisWaitEvent</b> from any IRQL &gt; PASSIVE_LEVEL is a fatal error.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisresetevent.md">NdisResetEvent</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nf-ndis-ndisresetevent.md">NdisResetEvent</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisInitializeEvent function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisInitializeEvent function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

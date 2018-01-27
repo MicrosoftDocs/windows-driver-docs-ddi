@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7fc9295b-90b4-4fa7-abcb-3e3e6a165203
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_RECLAIMALLOCATIONS, D3DKMT_RECLAIMALLOCATIONS
+ms.keywords: d3dkmthk/D3DKMT_RECLAIMALLOCATIONS, display.d3dkmt_reclaimallocations, _D3DKMT_RECLAIMALLOCATIONS, D3DKMT_RECLAIMALLOCATIONS, D3DKMT_RECLAIMALLOCATIONS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_RECLAIMALLOCATIONS
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_RECLAIMALLOCATIONS
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_RECLAIMALLOCATIONS
 ---
 
 # _D3DKMT_RECLAIMALLOCATIONS structure
 
 
-
 ## -description
+
+
 Describes video memory resources that are to be reclaimed and that the driver  previously offered  for reuse. Used with the  <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreclaimallocations.md">D3DKMTReclaimAllocations</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_RECLAIMALLOCATIONS {
@@ -57,6 +67,9 @@ typedef struct _D3DKMT_RECLAIMALLOCATIONS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -91,15 +104,10 @@ The value of <b>pDiscarded</b> can be <b>NULL</b>. If the driver sets it to <b>N
 [in] The number of items in the <b>pResources</b>, <b>HandleList</b>, or  <b>pDiscarded</b> members, whichever is not <b>NULL</b>.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreclaimallocations.md">D3DKMTReclaimAllocations</a>
-</dt>
-</dl>
+
  
 
  

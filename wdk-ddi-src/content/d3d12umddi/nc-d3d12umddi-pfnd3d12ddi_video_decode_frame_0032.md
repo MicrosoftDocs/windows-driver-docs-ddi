@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0E7DC432-64F9-4EDE-B0FC-5F65EB9E68AD
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA
+ms.keywords: display.pfnd3d12ddi_video_decode_frame_0032, PFND3D12DDI_VIDEO_DECODE_FRAME_0030 callback function [Display Devices], PFND3D12DDI_VIDEO_DECODE_FRAME_0030, d3d12umddi/PFND3D12DDI_VIDEO_DECODE_FRAME_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PFND3D12DDI_VIDEO_DECODE_FRAME_0030
-req.alt-loc: d3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d12umddi.h
+apiname: 
+-	PFND3D12DDI_VIDEO_DECODE_FRAME_0030
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
 
 # PFND3D12DDI_VIDEO_DECODE_FRAME_0032 callback
 
 
-
 ## -description
+
+
 Used to decode a video frame.
 
 
-
 ## -prototype
+
 
 ````
 VOID APIENTRY* PFND3D12DDI_VIDEO_DECODE_FRAME_0030(
@@ -58,33 +68,48 @@ VOID APIENTRY* PFND3D12DDI_VIDEO_DECODE_FRAME_0030(
 
 ## -parameters
 
-### -param hDrvCommandList 
+
+
+
+### -param hDrvCommandList
 
 The command list.
 
 
-### -param hDrvDecoder 
+### -param hDrvDecoder
 
 The video decoder.
 
 
-### -param SubmissionID 
-
-The submission ID.
+### -param *pOutputStreamParameters
 
 
-### -param pOutputStreamParameters 
+
+### -param *pInputStreamParameters
+
+
+
+
+
+
+#### - pOutputStreamParameters
 
 The output arguments for the video decode.
 
 
-### -param pInputStreamParameters 
+#### - pInputStreamParameters
 
 The input arguments for the video decode.
 
 
+#### - SubmissionID
+
+The submission ID.
+
+
 ## -returns
+
+
 This callback function does not return a value.
 
 
-## -remarks

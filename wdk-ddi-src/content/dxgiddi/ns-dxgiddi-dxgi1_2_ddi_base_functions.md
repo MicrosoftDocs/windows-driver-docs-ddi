@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7A1CD16A-4B7A-40FE-8650-AAD8CAC10FB0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI1_2_DDI_BASE_FUNCTIONS, DXGI1_2_DDI_BASE_FUNCTIONS
+ms.keywords: dxgiddi/DXGI1_2_DDI_BASE_FUNCTIONS, DXGI1_2_DDI_BASE_FUNCTIONS, DXGI1_2_DDI_BASE_FUNCTIONS structure [Display Devices], display.dxgi1_2_ddi_base_functions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8,WDDM 1.2 and later
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGI1_2_DDI_BASE_FUNCTIONS
-req.alt-loc: Dxgiddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Dxgiddi.h
+apiname: 
+-	DXGI1_2_DDI_BASE_FUNCTIONS
+product: Windows
+targetos: Windows
 req.typenames: DXGI1_2_DDI_BASE_FUNCTIONS
 ---
 
 # DXGI1_2_DDI_BASE_FUNCTIONS structure
 
 
-
 ## -description
+
+
 Contains pointers to functions that a Windows Display Driver Model (WDDM) 1.2 and later user-mode display driver can implement to perform low-level tasks like presenting rendered frames to an output, controlling gamma, getting notifications regarding shared and Windows Graphics Device Interface (GDI) interoperable surfaces, and managing a full-screen transition.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGI1_2_DDI_BASE_FUNCTIONS {
@@ -67,6 +77,9 @@ typedef struct _DXGI1_2_DDI_BASE_FUNCTIONS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pfnPresent
 
@@ -123,47 +136,59 @@ A pointer to the driver's <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_offerresou
 A pointer to the driver's <a href="https://msdn.microsoft.com/AF3DCD16-9F8C-442A-A9A5-9EA2BD1C3B84">pfnReclaimResources</a> function.
 
 
-### -field pfnGetMultiPlaneOverlayCaps
+### -field pfnGetMultiplaneOverlayCaps
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/dn265493">pfnGetMultiPlaneOverlayCaps</a> function. Supported starting with Windows 8.1.
-
-
-### -field pfnGetMultiPlaneOverlayFilterRange
-
-This member is reserved and should be set to zero. Supported starting with Windows 8.1.
+ 
 
 
-### -field pfnCheckMultiPlaneOverlaySupport
+### -field pfnGetMultiplaneOverlayFilterRange
+
+ 
+
+
+### -field pfnCheckMultiplaneOverlaySupport
+
+ 
+
+
+### -field pfnPresentMultiplaneOverlay
+
+ 
+
+
+
+#### - pfnCheckMultiPlaneOverlaySupport
 
 A pointer to the driver's <a href="https://msdn.microsoft.com/9062BB6D-7B52-42B0-83D9-A101299C0B12">pfnCheckMultiPlaneOverlaySupport (DXGI)</a> function. Supported starting with Windows 8.1.
 
 
-### -field pfnPresentMultiPlaneOverlay
+#### - pfnGetMultiPlaneOverlayFilterRange
+
+This member is reserved and should be set to zero. Supported starting with Windows 8.1.
+
+
+#### - pfnGetMultiPlaneOverlayCaps
+
+A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/dn265493">pfnGetMultiPlaneOverlayCaps</a> function. Supported starting with Windows 8.1.
+
+
+#### - pfnPresentMultiPlaneOverlay
 
 A pointer to the driver's <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb.md">pfnPresentMultiplaneOverlay (DXGI)</a> function. Supported starting with Windows 8.1.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
-</dt>
-<dt>
+
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_args.md">DXGI_DDI_BASE_ARGS</a>
-</dt>
-<dt>
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_functions.md">DXGI_DDI_BASE_FUNCTIONS</a>
-</dt>
-<dt>
+
 <a href="..\dxgiddi\ns-dxgiddi-dxgi1_3_ddi_base_functions.md">DXGI1_3_DDI_BASE_FUNCTIONS</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_functions.md">DXGI_DDI_BASE_FUNCTIONS</a>
+
  
 
  

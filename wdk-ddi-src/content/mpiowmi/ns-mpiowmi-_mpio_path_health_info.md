@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: efb49852-3c0a-4dab-9d50-c103ba4a136b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MPIO_PATH_HEALTH_INFO, MPIO_PATH_HEALTH_INFO, *PMPIO_PATH_HEALTH_INFO
+ms.keywords: _MPIO_PATH_HEALTH_INFO, *PMPIO_PATH_HEALTH_INFO, MPIO_PATH_HEALTH_INFO structure [Storage Devices], MPIO_PATH_HEALTH_INFO, mpiowmi/MPIO_PATH_HEALTH_INFO, PMPIO_PATH_HEALTH_INFO structure pointer [Storage Devices], storage.mpio_path_health_info, structs-scsibus_482617c5-3ed9-4a17-ab14-15fc65057062.xml, PMPIO_PATH_HEALTH_INFO, mpiowmi/PMPIO_PATH_HEALTH_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MPIO_PATH_HEALTH_INFO
-req.alt-loc: mpiowmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: MPIO_PATH_HEALTH_INFO, *PMPIO_PATH_HEALTH_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mpiowmi.h
+apiname: 
+-	MPIO_PATH_HEALTH_INFO
+product: Windows
+targetos: Windows
+req.typenames: *PMPIO_PATH_HEALTH_INFO, MPIO_PATH_HEALTH_INFO
 ---
 
 # _MPIO_PATH_HEALTH_INFO structure
 
 
-
 ## -description
+
+
 The MPIO_PATH_HEALTH_INFO structure is used to query the available health information for every path that is exposed to the system.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MPIO_PATH_HEALTH_INFO {
@@ -55,6 +65,9 @@ typedef struct _MPIO_PATH_HEALTH_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NumberPathPackets
 
@@ -70,5 +83,3 @@ Should be zero.
 
 A field that contains an array with health information about all the available paths under MPIO control. The number of elements of the array is given by NumberPathPackets and each element of the array is an instance of the MPIO_PATH_HEALTH_CLASS structure.
 
-
-## -remarks

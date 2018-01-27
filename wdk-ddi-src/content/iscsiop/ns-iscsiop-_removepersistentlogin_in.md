@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 94dc7a87-83a0-419d-914c-008d797fec87
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _RemovePersistentLogin_IN, *PRemovePersistentLogin_IN, RemovePersistentLogin_IN
+ms.keywords: iscsiop/RemovePersistentLogin_IN, RemovePersistentLogin_IN, PRemovePersistentLogin_IN structure pointer [Storage Devices], iscsiop/PRemovePersistentLogin_IN, PRemovePersistentLogin_IN, _RemovePersistentLogin_IN, *PRemovePersistentLogin_IN, RemovePersistentLogin_IN structure [Storage Devices], structs-iSCSI_4972aa6c-a6a5-4409-a714-49693f679fa2.xml, storage.removepersistentlogin_in
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RemovePersistentLogin_IN
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	RemovePersistentLogin_IN
+product: Windows
+targetos: Windows
 req.typenames: *PRemovePersistentLogin_IN, RemovePersistentLogin_IN
 ---
 
 # _RemovePersistentLogin_IN structure
 
 
-
 ## -description
+
+
 The RemovePersistentLogin_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563995">RemovePersistentLogin</a> method, which is used to remove persistent login information.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RemovePersistentLogin_IN {
@@ -55,6 +65,9 @@ typedef struct _RemovePersistentLogin_IN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PortNumber
 
@@ -72,24 +85,22 @@ A <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a
 
 
 ## -remarks
+
+
 You must implement this method.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
-</dt>
-<dt>
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563995">RemovePersistentLogin</a>
-</dt>
-<dt>
+
+<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
+
 <a href="..\iscsiop\ns-iscsiop-_removepersistentlogin_out.md">RemovePersistentLogin_OUT</a>
-</dt>
-</dl>
+
+<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
+
  
 
  

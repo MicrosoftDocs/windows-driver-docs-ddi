@@ -7,8 +7,8 @@ old-location: netvista\rilsystemselectionprefs_v2_2.htm
 old-project: netvista
 ms.assetid: d5866096-9df6-4453-96ab-8abd16707afc
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSYSTEMSELECTIONPREFS_V2, *LPRILSYSTEMSELECTIONPREFS_V2, RILSYSTEMSELECTIONPREFS_V2, RILSYSTEMSELECTIONPREFS, *LPRILSYSTEMSELECTIONPREFS
+ms.date: 1/18/2018
+ms.keywords: netvista.rilsystemselectionprefs_v2_2, rilapitypes/RILSYSTEMSELECTIONPREFS_V2, *LPRILSYSTEMSELECTIONPREFS, RILSYSTEMSELECTIONPREFS_V2, *LPRILSYSTEMSELECTIONPREFS_V2, RILSYSTEMSELECTIONPREFS_V2 structure [Network Drivers Starting with Windows Vista], RILSYSTEMSELECTIONPREFS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSYSTEMSELECTIONPREFS_V2
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILSYSTEMSELECTIONPREFS_V2, RILSYSTEMSELECTIONPREFS_V2, RILSYSTEMSELECTIONPREFS, *LPRILSYSTEMSELECTIONPREFS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILSYSTEMSELECTIONPREFS_V2
+product: Windows
+targetos: Windows
+req.typenames: *LPRILSYSTEMSELECTIONPREFS, RILSYSTEMSELECTIONPREFS_V2, *LPRILSYSTEMSELECTIONPREFS_V2, RILSYSTEMSELECTIONPREFS
 req.product: Windows 10 or later.
 ---
 
 # RILSYSTEMSELECTIONPREFS_V2 structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILSYSTEMSELECTIONPREFS_V2 {
@@ -63,31 +73,41 @@ typedef struct _RILSYSTEMSELECTIONPREFS_V2 {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwExecutor
+
 
 
 ### -field dwSystemTypes
 
 
+
 ### -field dwMode
+
 
 
 ### -field plmnInfo
 
 
+
 ### -field dwRoamingMode
+
 
 
 ### -field dwAcquisitionOrderSize
 
 
+
 ### -field AcquisitionOrder
 
 
-## -remarks

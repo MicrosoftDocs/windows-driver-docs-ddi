@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d3339754-1a54-48f0-90c8-6c7db59fb7cc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+ms.keywords: kernel.allocateadapterchannel, AllocateAdapterChannel, AllocateAdapterChannel callback function [Kernel-Mode Driver Architecture], AllocateAdapterChannel, PALLOCATE_ADAPTER_CHANNEL, PALLOCATE_ADAPTER_CHANNEL, wdm/AllocateAdapterChannel, kdma_b2d02da0-ab8f-4fc3-a7a5-a981920c071d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AllocateAdapterChannel
-req.alt-loc: wdm.h
 req.ddi-compliance: IrqlDispatch, IrqlDispatch(storport)
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	wdm.h
+apiname: 
+-	AllocateAdapterChannel
+product: Windows
+targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PALLOCATE_ADAPTER_CHANNEL callback
 
 
-
 ## -description
+
+
 The <b>AllocateAdapterChannel</b> routine prepares the system for a DMA operation on behalf of the target device object, and then calls the driver-supplied <a href="..\wdm\nc-wdm-driver_control.md">AdapterControl</a> routine to carry out the DMA operation. 
 
 
-
 ## -prototype
+
 
 ````
 PALLOCATE_ADAPTER_CHANNEL AllocateAdapterChannel;
@@ -61,6 +71,9 @@ NTSTATUS AllocateAdapterChannel(
 
 
 ## -parameters
+
+
+
 
 ### -param DmaAdapter [in]
 
@@ -88,18 +101,43 @@ Pointer to the driver-determined context to be passed to the <a href="..\wdm\nc-
 
 
 ## -returns
+
+
 This routine can return one of the following NTSTATUS values. 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The adapter channel has been allocated. The system will call the <i>AdapterControl</i> routine once the DMA operation can begin.
+</dl>
+</td>
+<td width="60%">
+The adapter channel has been allocated. The system will call the <i>AdapterControl</i> routine once the DMA operation can begin.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>The <i>NumberOfMapRegisters</i> is larger than the value returned by <b>IoGetDmaAdapter</b>. The <i>AdapterControl</i> routine will not be called.
+</dl>
+</td>
+<td width="60%">
+The <i>NumberOfMapRegisters</i> is larger than the value returned by <b>IoGetDmaAdapter</b>. The <i>AdapterControl</i> routine will not be called.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>AllocateAdapterChannel</b>
            is not a system routine that can be called directly by name. This routine is callable only by pointer from the address returned in a 
           <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
@@ -118,36 +156,27 @@ Only one DMA request can be queued for a device object at any one time. Therefor
 The system passes the value of the <b>CurrentIrp</b> member of <i>DeviceObject</i> as the <i>Irp</i> parameter of <i>AdapterControl</i>. If <b>AllocateAdapterChannel</b> is called from a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine, this is guaranteed to point to the IRP that <i>StartIo</i> was called to process. Otherwise, to use the <i>Irp</i> parameter of <i>AdapterControl</i>, the driver must set <b>CurrentIrp</b> to point to the current IRP before calling <b>AllocateAdapterChannel</b>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-pfree_adapter_channel.md">FreeAdapterChannel</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nc-wdm-pfree_map_registers.md">FreeMapRegisters</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+
+<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
+
 <a href="..\wdm\nc-wdm-pread_dma_counter.md">ReadDmaCounter</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+
+<a href="..\wdm\nc-wdm-pfree_adapter_channel.md">FreeAdapterChannel</a>
+
  
 
  

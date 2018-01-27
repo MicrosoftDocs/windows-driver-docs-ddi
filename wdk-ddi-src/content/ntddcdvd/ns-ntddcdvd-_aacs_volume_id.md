@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3ad7a253-cc55-4613-8086-b8d08d9bd54f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _AACS_VOLUME_ID, *PAACS_VOLUME_ID, AACS_VOLUME_ID
+ms.keywords: AACS_VOLUME_ID, structs-DVD_f65fe36a-a9a4-4540-a349-2ac9827b5a91.xml, _AACS_VOLUME_ID, PAACS_VOLUME_ID, AACS_VOLUME_ID structure [Storage Devices], PAACS_VOLUME_ID structure pointer [Storage Devices], ntddcdvd/AACS_VOLUME_ID, *PAACS_VOLUME_ID, storage.aacs_volume_id, ntddcdvd/PAACS_VOLUME_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AACS_VOLUME_ID
-req.alt-loc: ntddcdvd.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PAACS_VOLUME_ID, AACS_VOLUME_ID
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdvd.h
+apiname: 
+-	AACS_VOLUME_ID
+product: Windows
+targetos: Windows
+req.typenames: AACS_VOLUME_ID, *PAACS_VOLUME_ID
 ---
 
 # _AACS_VOLUME_ID structure
 
 
-
 ## -description
+
+
 The AACS_VOLUME_ID structure contains an Advanced Access Content System (AACS) volume ID and the corresponding message authentication code (MAC).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _AACS_VOLUME_ID {
@@ -54,6 +64,9 @@ typedef struct _AACS_VOLUME_ID {
 
 
 ## -struct-fields
+
+
+
 
 ### -field VolumeID
 
@@ -66,15 +79,16 @@ The message authentication code (MAC) that the client uses to verify that the vo
 
 
 ## -remarks
+
+
 Clients retrieve an AACS volume ID with an <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_volume_id.md">IOCTL_AACS_READ_VOLUME_ID</a> request.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_volume_id.md">IOCTL_AACS_READ_VOLUME_ID</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\ndisfindicatereceivenetbufferlists.htm
 old-project: netvista
 ms.assetid: ff2457bb-158a-411c-8c6b-7a7e402497ef
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisFIndicateReceiveNetBufferLists
+ms.date: 1/18/2018
+ms.keywords: netvista.ndisfindicatereceivenetbufferlists, filter_ndis_functions_ref_b3c09e67-4d25-4e8f-89e2-d227cf0f10b8.xml, ndis/NdisFIndicateReceiveNetBufferLists, NdisFIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], NdisFIndicateReceiveNetBufferLists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisFIndicateReceiveNetBufferLists
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_Filter_Driver_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisFIndicateReceiveNetBufferLists
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFIndicateReceiveNetBufferLists function
 
 
-
 ## -description
+
+
 A filter driver calls 
   <b>NdisFIndicateReceiveNetBufferLists</b> to indicate that it has received network data. For more information, see <a href="https://msdn.microsoft.com/4f6d44e9-c351-452d-aadf-505e6bb30fc2">Receiving Data in a Filter Driver</a>.
 
 
-
 ## -syntax
+
 
 ````
 VOID NdisFIndicateReceiveNetBufferLists(
@@ -58,6 +69,9 @@ VOID NdisFIndicateReceiveNetBufferLists(
 
 
 ## -parameters
+
+
+
 
 ### -param NdisFilterHandle [in]
 
@@ -97,50 +111,25 @@ Flags that define attributes for the receive indication. The flags can be combin
 
 
 
-### -param NDIS_RECEIVE_FLAGS_DISPATCH_LEVEL
-
-Specifies that the current IRQL is <b>DISPATCH_LEVEL</b>. For more information about this flag, see 
-       <a href="https://msdn.microsoft.com/ac559f4f-0138-4b9a-8f1b-44a2973fd6a1">Dispatch IRQL Tracking</a>.
-
-
-### -param NDIS_RECEIVE_FLAGS_RESOURCES
-
-Specifies that the filter driver reclaims ownership of the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures and any
-       attached <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures immediately after the call to 
-       <b>NdisFIndicateReceiveNetBufferLists</b> returns.
-
-
-### -param NDIS_RECEIVE_FLAGS_SINGLE_ETHER_TYPE
-
-Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
-       <i>NetBufferLists</i> have the same protocol type (EtherType).
-
-
-### -param NDIS_RECEIVE_FLAGS_SINGLE_VLAN
+##### - ReceiveFlags.NDIS_RECEIVE_FLAGS_SINGLE_VLAN
 
 Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
        <i>NetBufferLists</i> belong to the same VLAN.
 
 
-### -param NDIS_RECEIVE_FLAGS_PERFECT_FILTERED
+##### - ReceiveFlags.NDIS_RECEIVE_FLAGS_SWITCH_SINGLE_SOURCE
 
-Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
-       <i>NetBufferLists</i> include only data that matches the packet filter and multicast address list that are
-       assigned to the miniport adapter.
+If this flag is set, all packets in a linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures originated from the same Hyper-V extensible switch source port.
 
+For more information, see <a href="https://msdn.microsoft.com/FBA506EC-4E9F-4964-9C9C-FF4910DDA908">Hyper-V Extensible Switch Send and Receive Flags</a>.
+<div class="alert"><b>Note</b>  If each packet in the linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures uses the same source port, the extension should set the <b>NDIS_RETURN_FLAGS_SWITCH_SINGLE_SOURCE</b> flag in the <i>ReturnFlags</i> parameter of <a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>  when the receive request completes. The extension must set this flag in the <i>ReturnFlags</i> parameter if it calls <a href="..\ndis\nf-ndis-ndisfreturnnetbufferlists.md">NdisFReturnNetBufferLists</a> to return packets that it did not originate or clone.</div><div> </div>
 
-### -param NDIS_RECEIVE_FLAGS_SINGLE_QUEUE
+##### - ReceiveFlags.NDIS_RECEIVE_FLAGS_MORE_NBLS
 
-Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
-       <i>NetBufferLists</i> belong to the same VM queue. A miniport driver must set this flag for all receive
-       indications on a queue if the <b>NDIS_RECEIVE_QUEUE_PARAMETERS_PER_QUEUE_RECEIVE_INDICATION</b> flag was set
-       in the 
-       <b>Flags</b> member of the 
-       <a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_parameters.md">
-       NDIS_RECEIVE_QUEUE_PARAMETERS</a> structure when that queue was allocated.
+Reserved.
 
 
-### -param NDIS_RECEIVE_FLAGS_SHARED_MEMORY_INFO_VALID
+##### - ReceiveFlags.NDIS_RECEIVE_FLAGS_SHARED_MEMORY_INFO_VALID
 
 Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
        <i>NetBufferLists</i> contain shared memory information that is valid. When this flag is set on a
@@ -151,34 +140,60 @@ Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_
        deleted.
 
 
-### -param NDIS_RECEIVE_FLAGS_MORE_NBLS
+##### - ReceiveFlags.NDIS_RECEIVE_FLAGS_PERFECT_FILTERED
 
-Reserved.
+Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
+       <i>NetBufferLists</i> include only data that matches the packet filter and multicast address list that are
+       assigned to the miniport adapter.
 
 
-### -param NDIS_RECEIVE_FLAGS_SWITCH_SINGLE_SOURCE
+##### - ReceiveFlags.NDIS_RECEIVE_FLAGS_RESOURCES
 
-If this flag is set, all packets in a linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures originated from the same Hyper-V extensible switch source port.
+Specifies that the filter driver reclaims ownership of the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures and any
+       attached <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures immediately after the call to 
+       <b>NdisFIndicateReceiveNetBufferLists</b> returns.
 
-For more information, see <a href="https://msdn.microsoft.com/FBA506EC-4E9F-4964-9C9C-FF4910DDA908">Hyper-V Extensible Switch Send and Receive Flags</a>.
 
-<div class="alert"><b>Note</b>  If each packet in the linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures uses the same source port, the extension should set the <b>NDIS_RETURN_FLAGS_SWITCH_SINGLE_SOURCE</b> flag in the <i>ReturnFlags</i> parameter of <a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>  when the receive request completes. The extension must set this flag in the <i>ReturnFlags</i> parameter if it calls <a href="..\ndis\nf-ndis-ndisfreturnnetbufferlists.md">NdisFReturnNetBufferLists</a> to return packets that it did not originate or clone.</div>
-<div> </div>
+##### - ReceiveFlags.NDIS_RECEIVE_FLAGS_SINGLE_ETHER_TYPE
 
-### -param NDIS_RECEIVE_FLAGS_SWITCH_DESTINATION_GROUP
+Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
+       <i>NetBufferLists</i> have the same protocol type (EtherType).
+
+
+##### - ReceiveFlags.NDIS_RECEIVE_FLAGS_SWITCH_DESTINATION_GROUP
 
 If this flag is set, all packets in a linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures are to be forwarded to the same extensible switch destination port.
 
 For more information, see <a href="https://msdn.microsoft.com/FBA506EC-4E9F-4964-9C9C-FF4910DDA908">Hyper-V Extensible Switch Send and Receive Flags</a>.
 
-</dd>
-</dl>
+
+##### - ReceiveFlags.NDIS_RECEIVE_FLAGS_DISPATCH_LEVEL
+
+Specifies that the current IRQL is <b>DISPATCH_LEVEL</b>. For more information about this flag, see 
+       <a href="https://msdn.microsoft.com/ac559f4f-0138-4b9a-8f1b-44a2973fd6a1">Dispatch IRQL Tracking</a>.
+
+
+##### - ReceiveFlags.NDIS_RECEIVE_FLAGS_SINGLE_QUEUE
+
+Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
+       <i>NetBufferLists</i> belong to the same VM queue. A miniport driver must set this flag for all receive
+       indications on a queue if the <b>NDIS_RECEIVE_QUEUE_PARAMETERS_PER_QUEUE_RECEIVE_INDICATION</b> flag was set
+       in the 
+       <b>Flags</b> member of the 
+       <mshelp:link keywords="netvista.ndis_receive_queue_parameters" tabindex="0"><b>
+       NDIS_RECEIVE_QUEUE_PARAMETERS</b></mshelp:link> structure when that queue was allocated.
+
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 When a filter driver calls the 
     <b>NdisFIndicateReceiveNetBufferLists</b> function, it specifies a list of 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the 
@@ -189,8 +204,8 @@ Filter drivers can call
 
 Filter drivers can also filter receive indications that are originated by underlying drivers. NDIS
     calls the 
-    <a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">
-    FilterReceiveNetBufferLists</a> function to filter such receive indications.
+    <mshelp:link keywords="netvista.filterreceivenetbufferlists" tabindex="0"><i>
+    FilterReceiveNetBufferLists</i></mshelp:link> function to filter such receive indications.
 
 A filter driver must set the 
     <b>SourceHandle</b> member of each <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that it originates to the same value as the 
@@ -204,8 +219,8 @@ If a filter driver calls the
     <b>NdisFIndicateReceiveNetBufferLists</b> function and clears the <b>NDIS_RECEIVE_FLAG_RESOURCES</b> flag in the 
     <i>ReceiveFlags</i> parameter, NDIS returns the indicated <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures to the filter
     driver's 
-    <a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">
-    FilterReturnNetBufferLists</a> function. In this case, the filter driver must not reclaim the
+    <mshelp:link keywords="netvista.filterreturnnetbufferlists" tabindex="0"><i>
+    FilterReturnNetBufferLists</i></mshelp:link> function. In this case, the filter driver must not reclaim the
     <b>NET_BUFFER_LIST</b> structures until NDIS returns the <b>NET_BUFFER_LIST</b> structures to 
     <i>FilterReturnNetBufferLists</i>.
 
@@ -226,36 +241,28 @@ Setting the <b>NDIS_RECEIVE_FLAG_RESOURCES</b> flag in the
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures to the filter driver.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
-</dt>
-<dt>
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_parameters.md">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
-</dt>
-<dt>
+
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-</dt>
-<dt>
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-</dt>
-<dt>
+
+<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
+
 <a href="https://msdn.microsoft.com/4f6d44e9-c351-452d-aadf-505e6bb30fc2">Receiving Data in a Filter Driver</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_parameters.md">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFIndicateReceiveNetBufferLists function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFIndicateReceiveNetBufferLists function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

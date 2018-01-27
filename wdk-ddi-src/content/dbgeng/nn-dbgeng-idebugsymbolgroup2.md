@@ -7,8 +7,8 @@ old-location: debugger\idebugsymbolgroup2.htm
 old-project: debugger
 ms.assetid: d702fe69-966c-4b9a-aa0e-b8376288cb79
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugSystemObjects4, IDebugSystemObjects4::SetImplicitThreadDataOffset, SetImplicitThreadDataOffset
+ms.date: 1/19/2018
+ms.keywords: debugger.idebugsymbolgroup2, IDebugSymbolGroup2 interface [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging], described, IDebugSymbolGroup2, dbgeng/IDebugSymbolGroup2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugSymbolGroup2
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,61 +26,33 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugSymbolGroup2
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugSymbolGroup2 interface
 
 
-
 ## -description
 
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbolGroup2</b> interface inherits from <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>. <b>IDebugSymbolGroup2</b> also has these types of members:
 
-The <b>IDebugSymbolGroup2</b> interface has these methods.
-
-Adds a symbol to a symbol group.
-
-
-Returns information about a symbol in a symbol group.
-
-Returns the name of a symbol in a symbol group.
-
-
-Retrieves the location in the process's virtual address space of a symbol in a symbol group, if the symbol has an absolute address.
-
-Returns the register that contains the value or a pointer to the value of a symbol in a symbol group.
-
-
-Returns the size of a symbol's value.
-
-Returns the name of the specified symbol's type.
-(ANSI version)
-
-Returns the name of the specified symbol's type.
-(Unicode version)
-
-Returns a string that represents the value of a symbol.
-(ANSI version)
-
-Returns a string that represents the value of a symbol.
-(Unicode version)
-
-Changes the type of a symbol in a symbol group. The symbol's entry is updated to represent the new type.
-
-Removes the specified symbol from a symbol group.
-
-
-Sets the value of the specified symbol.
-
- 
 
 
 ## -members
+
 The <b>IDebugSymbolGroup2</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -251,18 +221,13 @@ Sets the value of the specified symbol.
  
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbolGroup2 interface%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbolGroup2 interface%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

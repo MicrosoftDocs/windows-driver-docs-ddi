@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 50063bd0-c9d4-4013-8f83-8f9d92aa87c0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_GETCAPS, D3DDDIARG_GETCAPS
+ms.keywords: _D3DDDIARG_GETCAPS, UMDisplayDriver_param_Structs_05260c15-4f63-4a85-b9c8-db53ed8135cd.xml, display.d3dddiarg_getcaps, D3DDDIARG_GETCAPS structure [Display Devices], d3dumddi/D3DDDIARG_GETCAPS, D3DDDIARG_GETCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_GETCAPS
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_GETCAPS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_GETCAPS
 ---
 
 # _D3DDDIARG_GETCAPS structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_GETCAPS structure contains display device capabilities of a particular type.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_GETCAPS {
@@ -56,6 +66,9 @@ typedef struct _D3DDDIARG_GETCAPS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Type
 
@@ -78,18 +91,18 @@ typedef struct _D3DDDIARG_GETCAPS {
 
 
 ## -remarks
+
+
 For information on how to specify <b>D3DDDIARG_GETCAPS</b> member values along with <a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a> constant values, see Remarks of <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+
  
 
  

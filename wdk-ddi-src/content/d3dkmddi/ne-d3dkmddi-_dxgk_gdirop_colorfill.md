@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1ef99bb0-855a-46d1-9702-5fc3eba5e68e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_GDIROP_COLORFILL, DXGK_GDIROP_COLORFILL
+ms.keywords: d3dkmddi/DXGK_GDIROPCF_PATOR, DmEnums_eaf6bb81-110e-428b-9dc8-22d152bce5b9.xml, _DXGK_GDIROP_COLORFILL, DXGK_GDIROPCF_PATINVERT, d3dkmddi/DXGK_GDIROPCF_DSTINVERT, d3dkmddi/DXGK_GDIROPCF_ROP3, DXGK_GDIROPCF_INVALID, DXGK_GDIROPCF_DSTINVERT, d3dkmddi/DXGK_GDIROPCF_INVALID, DXGK_GDIROPCF_PATOR, DXGK_GDIROPCF_PATCOPY, d3dkmddi/DXGK_GDIROPCF_PATAND, DXGK_GDIROPCF_PDXN, DXGK_GDIROP_COLORFILL, d3dkmddi/DXGK_GDIROP_COLORFILL, d3dkmddi/DXGK_GDIROPCF_PATINVERT, DXGK_GDIROPCF_PATAND, display.dxgk_gdirop_colorfill, d3dkmddi/DXGK_GDIROPCF_PDXN, DXGK_GDIROP_COLORFILL enumeration [Display Devices], DXGK_GDIROPCF_ROP3, d3dkmddi/DXGK_GDIROPCF_PATCOPY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_GDIROP_COLORFILL
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_GDIROP_COLORFILL
+product: Windows
+targetos: Windows
 req.typenames: DXGK_GDIROP_COLORFILL
 ---
 
 # _DXGK_GDIROP_COLORFILL enumeration
 
 
-
 ## -description
+
+
 The DXGK_GDIROP_COLORFILL enumeration indicates the type of GDI raster operation (ROP) to implement in a GDI hardware-accelerated color fill operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXGK_GDIROP_COLORFILL { 
@@ -60,6 +70,9 @@ typedef enum _DXGK_GDIROP_COLORFILL {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXGK_GDIROPCF_INVALID
 
@@ -100,5 +113,3 @@ Indicates that the colors of the specified pattern are combined with the colors 
 
 Indicates that a ternary GDI raster operation (ROP3) will be applied.
 
-
-## -remarks

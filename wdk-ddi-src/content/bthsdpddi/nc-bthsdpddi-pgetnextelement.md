@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 60216196-f8c7-4555-a461-4862ce6bc376
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND
+ms.keywords: bltooth.sdpgetnextelement, SdpGetNextElement callback function [Bluetooth Devices], SdpGetNextElement, PGETNEXTELEMENT, PGETNEXTELEMENT, sdplib/SdpGetNextElement, bth_funcs_344a59cb-6151-4634-bc5f-cb23c58eb329.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SdpGetNextElement
-req.alt-loc: sdplib.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	sdplib.h
+apiname: 
+-	SdpGetNextElement
+product: Windows
+targetos: Windows
 req.typenames: *PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND
 ---
 
 # PGETNEXTELEMENT callback
 
 
-
 ## -description
+
+
 The Bluetooth 
   <b>SdpGetNextElement</b> function is used to iterate through the entries found in an SDP record
   stream.
 
 
-
 ## -prototype
+
 
 ````
 PGETNEXTELEMENT SdpGetNextElement;
@@ -63,39 +73,51 @@ VOID SdpGetNextElement(
 
 ## -parameters
 
-### -param Stream 
+
+
+
+### -param Stream
 
 Pointer to the SDP record stream to iterate through.
 
 
-### -param StreamSize 
+### -param StreamSize
 
 An unsigned long integer that indicates the size of the SDP stream.
 
 
-### -param CurrentElement 
+### -param CurrentElement
 
 A pointer to the currently selected entry in the SDP stream. This parameter can take a <b>NULL</b>
      value.
 
 
-### -param NextElement 
-
-A pointer to an unsigned character variable that receives the address of the next entry in the SDP
-     container stream.
+### -param *NextElement
 
 
-### -param NextElementSize 
+
+### -param NextElementSize
 
 A pointer to an unsigned long integer variable that receives the size of the next entry in the SDP
      container stream.
 
 
+#### - NextElement
+
+A pointer to an unsigned character variable that receives the address of the next entry in the SDP
+     container stream.
+
+
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The 
     <b>SdpGetNextElement</b> function operates directly on unparsed streams and does not require the caller to
     convert from a stream representation of the SDP record to a tree-based representation.
@@ -110,16 +132,15 @@ Calling this function with the
     <i>CurrentElement</i> parameter set to <b>NULL</b> returns the first entry in the container stream.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">
-    BTHDDI_SDP_PARSE_INTERFACE</a> structure.
+    <mshelp:link keywords="bltooth.bthddi_sdp_parse_interface" tabindex="0"><b>
+    BTHDDI_SDP_PARSE_INTERFACE</b></mshelp:link> structure.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

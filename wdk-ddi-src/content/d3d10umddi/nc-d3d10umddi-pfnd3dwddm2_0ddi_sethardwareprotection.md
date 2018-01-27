@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9D41C504-1F84-4F1A-B767-D3B423A8AA46
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.sethardwareprotection, pfnSetHardwareProtection callback function [Display Devices], pfnSetHardwareProtection, PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION, PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION, d3d10umddi/pfnSetHardwareProtection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnSetHardwareProtection
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	pfnSetHardwareProtection
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION callback
 
 
-
 ## -description
+
+
 <b>SetHardwareProtection</b> allows the Desktop Window Manager (DWM) full-screen swap chain buffers to transfer between protected and non-protected states without having to be recreated.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION pfnSetHardwareProtection;
@@ -59,26 +69,34 @@ VOID APIENTRY* pfnSetHardwareProtection(
 
 ## -parameters
 
-### -param hDevice 
+
+
+
+### -param hDevice
 
 A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
-### -param hResource 
+### -param hResource
 
 A handle to the resource object that was created through a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>DDI. 
 
 
-### -param Protected 
+### -param Protected
 
 Indicates that the buffer should be protected.
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 Destroying and re-creating the DWM swap chain buffers is a heavyweight operation that can be avoided on some hardware.  This DDI will only be called if the driver reports the <b>D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECTED_MEMORY_TRANSITION</b> capability.  If this is not set, the underlying DWM swap chain allocations will be destroyed and recreated.
 
 
@@ -86,17 +104,16 @@ Destroying and re-creating the DWM swap chain buffers is a heavyweight operation
 <b>SetHardwareProtection</b> is called on the non-visible swap chain buffers allowing it to transition between protected and unprotected modes without causing a visual artifact.  When the DWM flips to the newly changed buffer, the DWM will call <b>SetHardwareProtection</b> on the next buffer in the swap chain buffer, and so on until the new protection state has been set on each of the swap chain buffers.
 
 
+<div class="alert"><b>Note</b>  The DWM is guaranteed to re-render the entire swap chain buffer after the hardware protection state has changed.
+</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+
  
 
  

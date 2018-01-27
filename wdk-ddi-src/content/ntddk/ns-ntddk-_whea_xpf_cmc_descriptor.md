@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: d5eb2e20-9a11-4dae-9aa7-6e3799f0027f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_XPF_CMC_DESCRIPTOR, WHEA_XPF_CMC_DESCRIPTOR, *PWHEA_XPF_CMC_DESCRIPTOR
+ms.keywords: *PWHEA_XPF_CMC_DESCRIPTOR, whearef_a14dc817-f689-492c-8993-1a5c9869a6c6.xml, whea.whea_xpf_cmc_descriptor, _WHEA_XPF_CMC_DESCRIPTOR, PWHEA_XPF_CMC_DESCRIPTOR structure pointer [WHEA Drivers and Applications], PWHEA_XPF_CMC_DESCRIPTOR, WHEA_XPF_CMC_DESCRIPTOR, WHEA_XPF_CMC_DESCRIPTOR structure [WHEA Drivers and Applications], ntddk/PWHEA_XPF_CMC_DESCRIPTOR, ntddk/WHEA_XPF_CMC_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_XPF_CMC_DESCRIPTOR
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_XPF_CMC_DESCRIPTOR
+product: Windows
+targetos: Windows
 req.typenames: WHEA_XPF_CMC_DESCRIPTOR, *PWHEA_XPF_CMC_DESCRIPTOR
 ---
 
 # _WHEA_XPF_CMC_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The WHEA_XPF_CMC_DESCRIPTOR structure describes a corrected machine check (CMC) error source for an x86 or x64 processor.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WHEA_XPF_CMC_DESCRIPTOR {
@@ -58,6 +68,9 @@ typedef struct _WHEA_XPF_CMC_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Type
 
@@ -90,21 +103,20 @@ An array of <a href="..\ntddk\ns-ntddk-_whea_xpf_mc_bank_descriptor.md">WHEA_XPF
 
 
 ## -remarks
+
+
 A WHEA_XPF_CMC_DESCRIPTOR structure is contained within the <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_notification_descriptor.md">WHEA_NOTIFICATION_DESCRIPTOR</a>
-</dt>
-<dt>
+
+<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+
 <a href="..\ntddk\ns-ntddk-_whea_xpf_mc_bank_descriptor.md">WHEA_XPF_MC_BANK_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

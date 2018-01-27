@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2af1f496-48cf-4f99-a22b-cf7d1837617e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltCheckOplockEx
+ms.keywords: FltCheckOplockEx routine [Installable File System Drivers], ifsk.fltcheckoplockex, fltkernel/FltCheckOplockEx, FltCheckOplockEx, FltApiRef_a_to_d_3fd997bf-bfdb-4fdd-b6a2-3ade62e0368e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The FltCheckOplockEx routine is available starting wi
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltCheckOplockEx
-req.alt-loc: FltMgr.lib,FltMgr.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	FltMgr.lib
+-	FltMgr.dll
+apiname: 
+-	FltCheckOplockEx
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltCheckOplockEx function
 
 
-
 ## -description
+
+
 A minifilter driver calls the <b>FltCheckOplockEx</b> routine to synchronize the callback data structure for an IRP-based file I/O operation that has the current opportunistic lock (oplock) state of the file. 
 
 
-
 ## -syntax
+
 
 ````
 FLT_PREOP_CALLBACK_STATUS FltCheckOplockEx(
@@ -58,6 +69,9 @@ FLT_PREOP_CALLBACK_STATUS FltCheckOplockEx(
 
 
 ## -parameters
+
+
+
 
 ### -param Oplock [in]
 
@@ -76,28 +90,6 @@ A bitmask for the associated file I/O operation. A minifilter driver sets bits t
 
 
 
-### -param OPLOCK_FLAG_COMPLETE_IF_OPLOCKED (0x00000001)
-
-Allows an opportunistic lock break to proceed without blocking or pending the operation that caused the oplock break. 
-
-
-### -param OPLOCK_FLAG_OPLOCK_KEY_CHECK_ONLY (0x00000002)
-
-Specifies that <b>FltCheckOplockEx</b> should only check for an opportunistic lock key on the FILE_OBJECT that is associated with the I/O operation. This I/O operations is represented by the callback data that the <i>CallbackData</i> parameter points to. <b>FltCheckOplockEx </b>must then add the key if one is provided in the I/O operation. No other oplock processing occurs; that is, no opportunistic lock break will occur. 
-
-
-### -param OPLOCK_FLAG_BACK_OUT_ATOMIC_OPLOCK (0x00000004)
-
-Specifies that <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex~r5.md">FsRtlCheckOplockEx</a> should revert any state that was previously set up through a call to the <a href="..\fltkernel\nf-fltkernel-fltoplockfsctrl.md">FltOplockFsctrl</a> routine. <b>FltOplockFsctrl</b> is called when an IRP_MJ_CREATE request is processed. This IRP_MJ_CREATE request specifies the FILE_OPEN_REQUIRING_OPLOCK flag in the create options parameter. The OPLOCK_FLAG_BACK_OUT_ATOMIC_OPLOCK flag is typically used in final processing of such a create request when it previously failed. 
-
-
-### -param OPLOCK_FLAG_IGNORE_OPLOCK_KEYS (0x00000008)
-
-Allows all opportunistic lock breaks to proceed regardless of the opportunistic lock key. 
-
-</dd>
-</dl>
-
 ### -param Context [in, optional]
 
 A pointer to caller-defined context information to be passed to the callback routines that <i>WaitCompletionRoutine</i> and <i>PrePostCallbackDataRoutine </i>point to. The Filter Manager treats this information as opaque. 
@@ -108,7 +100,6 @@ A pointer to caller-defined context information to be passed to the callback rou
 A pointer to a caller-supplied callback routine. If an oplock break is in progress, the Filter Manager calls this routine when the oplock break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the oplock break is completed. 
 
 This routine is declared as follows: 
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -122,30 +113,16 @@ This routine is declared as follows:
       );</pre>
 </td>
 </tr>
-</table></span></div>
-This routine has the following parameters: 
+</table></span></div>This routine has the following parameters: 
 
 
 
-
-### -param CallbackData
-
-A pointer to the callback data structure for the I/O operation. 
-
-
-### -param Context
-
-A context information pointer that was passed in the <i>Context</i> parameter to <b>FltCheckOplockEx</b>. 
-
-</dd>
-</dl>
 
 ### -param PrePostCallbackDataRoutine [in, optional]
 
 A pointer to a caller-supplied callback routine to be called if the I/O operation is posted to a work queue. This parameter is optional and can be <b>NULL</b>. 
 
 This routine is declared as follows: 
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -162,42 +139,106 @@ This routine is declared as follows:
 </table></span></div>
 
 
-
-### -param CallbackData
+##### - WaitCompletionRoutine.CallbackData
 
 A pointer to the callback data structure for the I/O operation. 
 
 
-### -param Context
+##### - Flags.OPLOCK_FLAG_IGNORE_OPLOCK_KEYS (0x00000008)
+
+Allows all opportunistic lock breaks to proceed regardless of the opportunistic lock key. 
+
+
+##### - Flags.OPLOCK_FLAG_OPLOCK_KEY_CHECK_ONLY (0x00000002)
+
+Specifies that <b>FltCheckOplockEx</b> should only check for an opportunistic lock key on the FILE_OBJECT that is associated with the I/O operation. This I/O operations is represented by the callback data that the <i>CallbackData</i> parameter points to. <b>FltCheckOplockEx </b>must then add the key if one is provided in the I/O operation. No other oplock processing occurs; that is, no opportunistic lock break will occur. 
+
+
+##### - PrePostCallbackDataRoutine.CallbackData
+
+A pointer to the callback data structure for the I/O operation. 
+
+
+##### - Flags.OPLOCK_FLAG_COMPLETE_IF_OPLOCKED (0x00000001)
+
+Allows an opportunistic lock break to proceed without blocking or pending the operation that caused the oplock break. 
+
+
+##### - Flags.OPLOCK_FLAG_BACK_OUT_ATOMIC_OPLOCK (0x00000004)
+
+Specifies that <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex~r5.md">FsRtlCheckOplockEx</a> should revert any state that was previously set up through a call to the <a href="..\fltkernel\nf-fltkernel-fltoplockfsctrl.md">FltOplockFsctrl</a> routine. <b>FltOplockFsctrl</b> is called when an IRP_MJ_CREATE request is processed. This IRP_MJ_CREATE request specifies the FILE_OPEN_REQUIRING_OPLOCK flag in the create options parameter. The OPLOCK_FLAG_BACK_OUT_ATOMIC_OPLOCK flag is typically used in final processing of such a create request when it previously failed. 
+
+
+##### - WaitCompletionRoutine.Context
 
 A context information pointer that was passed in the <i>Context</i> parameter to <b>FltCheckOplockEx</b>. 
 
-</dd>
-</dl>
+
+##### - PrePostCallbackDataRoutine.Context
+
+A context information pointer that was passed in the <i>Context</i> parameter to <b>FltCheckOplockEx</b>. 
+
 
 ## -returns
+
+
 <b>FltCheckOplockEx</b> returns one of the following FLT_PREOP_CALLBACK_STATUS codes: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>FLT_PREOP_COMPLETE</b></dt>
-</dl><b>FltCheckOplockEx</b> encountered a pool allocation failure, or a call to the <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex~r5.md">FsRtlCheckOplockEx</a> function returned an error. <b>FltCheckOplockEx</b> sets the error code in the <b>Status</b> member of the <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure of the <b>IoStatus</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> callback data structure. The <i>CallbackData</i> parameter points to this FLT_CALLBACK_DATA structure. 
+</dl>
+</td>
+<td width="60%">
+<b>FltCheckOplockEx</b> encountered a pool allocation failure, or a call to the <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex~r5.md">FsRtlCheckOplockEx</a> function returned an error. <b>FltCheckOplockEx</b> sets the error code in the <b>Status</b> member of the <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure of the <b>IoStatus</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> callback data structure. The <i>CallbackData</i> parameter points to this FLT_CALLBACK_DATA structure. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>FLT_PREOP_PENDING</b></dt>
-</dl>An oplock break was initiated, which caused the Filter Manager to post the I/O operation to a work queue. The I/O operation is represented by the callback data that the <i>CallbackData</i> parameter points to. 
+</dl>
+</td>
+<td width="60%">
+An oplock break was initiated, which caused the Filter Manager to post the I/O operation to a work queue. The I/O operation is represented by the callback data that the <i>CallbackData</i> parameter points to. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>FLT_PREOP_SUCCESS_WITH_CALLBACK</b></dt>
-</dl>The callback data that the <i>CallbackData</i> parameter points to was not pended, and the I/O operation was performed immediately. Be aware that if the caller specified OPLOCK_FLAG_COMPLETE_IF_OPLOCKED in the <i>Flags</i> parameter, an oplock break might actually be in progress even though the I/O operation was not pended. To determine whether this is the situation, the caller should check for STATUS_OPLOCK_BREAK_IN_PROGRESS in the <b>Status</b> member of the <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure of the <b>IoStatus</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> callback data structure. 
+</dl>
+</td>
+<td width="60%">
+The callback data that the <i>CallbackData</i> parameter points to was not pended, and the I/O operation was performed immediately. Be aware that if the caller specified OPLOCK_FLAG_COMPLETE_IF_OPLOCKED in the <i>Flags</i> parameter, an oplock break might actually be in progress even though the I/O operation was not pended. To determine whether this is the situation, the caller should check for STATUS_OPLOCK_BREAK_IN_PROGRESS in the <b>Status</b> member of the <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure of the <b>IoStatus</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> callback data structure. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-A minifilter driver calls <b>FltCheckOplockEx</b> to synchronize an IRP-based I/O operation with the current oplock state of a file according to the following conditions: 
 
+
+A minifilter driver calls <b>FltCheckOplockEx</b> to synchronize an IRP-based I/O operation with the current oplock state of a file according to the following conditions: 
+<ul>
+<li>
 If the I/O operation will cause the oplock to break, the oplock break is initiated. 
 
+</li>
+<li>
 If the I/O operation cannot continue until the oplock break is complete, <b>FltCheckOplockEx</b> returns FLT_PREOP_PENDING and calls the callback routine that the <i>PrePostCallbackDataRoutine</i> parameter points to. 
 
-If a minifilter driver uses oplocks, it must call <b>FltCheckOplockEx</b> from any preoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>) routine for I/O operations that can cause oplock breaks. This rule applies to the following types of I/O operations, because these operations can cause oplock breaks: 
+</li>
+</ul>If a minifilter driver uses oplocks, it must call <b>FltCheckOplockEx</b> from any preoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>) routine for I/O operations that can cause oplock breaks. This rule applies to the following types of I/O operations, because these operations can cause oplock breaks: 
 
 IRP_MJ_CLEANUP
 
@@ -222,30 +263,23 @@ Minifilters must not call <b>FltCheckOplockEx</b> again within the callback spec
 For more information about opportunistic locks, see the Microsoft Windows SDK documentation. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltoplockfsctrl.md">FltOplockFsctrl</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex~r5.md">FsRtlCheckOplockEx</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex~r5.md">FsRtlCheckOplockEx</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
+
  
 
  

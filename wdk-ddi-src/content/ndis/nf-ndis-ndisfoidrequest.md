@@ -7,8 +7,8 @@ old-location: netvista\ndisfoidrequest.htm
 old-project: netvista
 ms.assetid: 8434bf2c-9c9a-49a1-bf88-b67b1eec721c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisFOidRequest
+ms.date: 1/18/2018
+ms.keywords: NdisFOidRequest function [Network Drivers Starting with Windows Vista], NdisFOidRequest, netvista.ndisfoidrequest, ndis_request_ref_b5034fc8-9122-4c87-b690-a6989c1592c1.xml, ndis/NdisFOidRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisFOidRequest
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_OID_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisFOidRequest
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFOidRequest function
 
 
-
 ## -description
+
+
 Filter drivers call the 
   <b>NdisFOidRequest</b> function to forward an OID request to underlying drivers or to originate such a
   request.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisFOidRequest(
@@ -56,6 +67,9 @@ NDIS_STATUS NdisFOidRequest(
 
 
 ## -parameters
+
+
+
 
 ### -param NdisFilterHandle [in]
 
@@ -74,11 +88,16 @@ A pointer to an
 
 
 ## -returns
+
+
 See the 
      <a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a> function.
 
 
+
 ## -remarks
+
+
 Filter drivers can originate OID requests to underlying drivers by calling 
     <b>NdisFOidRequest</b>.
 
@@ -110,27 +129,22 @@ A driver can call
     <i>Paused</i> state.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nc-ndis-filter_oid_request_complete.md">FilterOidRequestComplete</a>
-</dt>
-<dt>
+
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFOidRequest function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFOidRequest function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

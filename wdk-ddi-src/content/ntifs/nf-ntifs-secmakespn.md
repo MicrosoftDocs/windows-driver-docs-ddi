@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e294832a-f0f2-49ab-b215-7c0e67e5ec13
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SecMakeSPN
+ms.keywords: SecMakeSPN, SecMakeSPN function [Installable File System Drivers], ksecddref_0225b4c1-8cfd-49cc-a69a-85da507c401e.xml, ifsk.secmakespn, ntifs/SecMakeSPN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SecMakeSPN
-req.alt-loc: Ksecdd.lib,Ksecdd.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ksecdd.lib
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ksecdd.lib
+-	Ksecdd.dll
+apiname: 
+-	SecMakeSPN
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # SecMakeSPN function
 
 
-
 ## -description
+
+
 <b>SecMakeSPN</b> creates a service provider name string that can be used when communicating with specific security service providers. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SecMakeSPN(
@@ -61,6 +72,9 @@ NTSTATUS SecMakeSPN(
 
 ## -parameters
 
+
+
+
 ### -param ServiceClass [in]
 
 A pointer to a Unicode string specifying the service class for the security service provider. 
@@ -71,19 +85,9 @@ A pointer to a Unicode string specifying the service class for the security serv
 A pointer to a Unicode string specifying the service name for the security service provider. 
 
 
-### -param InstanceName [in]
+### -param OPTIONAL
 
-A pointer to an optional Unicode string specifying the instance name for connecting with the security service provider. 
-
-
-### -param InstancePort [in]
-
-An optional variable specifying the instance port for connecting with the security service provider. 
-
-
-### -param Referrer [in]
-
-A pointer to an optional Unicode string specifying the referrer name for connecting with the security service provider. 
+TBD
 
 
 ### -param Spn [in, out]
@@ -91,47 +95,87 @@ A pointer to an optional Unicode string specifying the referrer name for connect
 A pointer to a Unicode string for storing the security service provider name string created by this function.
 
 
-### -param Length [out]
-
-A pointer to an optional variable for storing the length of the security service provider name string created by this function.
-
-
 ### -param Allocate [in]
 
 A Boolean variable indicating if the memory for storing the <i>Spn</i> Unicode string should be allocated by this function. If this parameter is true, memory for <i>Spn</i> will be allocated from paged pool.
 
 
+#### - Length [out]
+
+A pointer to an optional variable for storing the length of the security service provider name string created by this function.
+
+
+#### - Referrer [in]
+
+A pointer to an optional Unicode string specifying the referrer name for connecting with the security service provider. 
+
+
+#### - InstancePort [in]
+
+An optional variable specifying the instance port for connecting with the security service provider. 
+
+
+#### - InstanceName [in]
+
+A pointer to an optional Unicode string specifying the instance name for connecting with the security service provider. 
+
+
 ## -returns
+
+
 <b>SecMakeSPN</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_OVERFLOW</b></dt>
-</dl>The <i>Allocate</i> parameter was set to false and one of the following conditions occurred:
+</dl>
+</td>
+<td width="60%">
+The <i>Allocate</i> parameter was set to false and one of the following conditions occurred:
 
 The <i>Spn </i>parameter was a null pointer.
 
 The maximum length for the <i>Spn</i> Unicode string parameter was too small.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>A total length of the <i>Spn</i> parameter exceeds 65535 bytes.
+</dl>
+</td>
+<td width="60%">
+A total length of the <i>Spn</i> parameter exceeds 65535 bytes.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>The <i>Allocate</i> parameter was set to true, but the memory allocation request failed.
+</dl>
+</td>
+<td width="60%">
+The <i>Allocate</i> parameter was set to true, but the memory allocation request failed.
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-secmakespnex.md">SecMakeSPNEx</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-secmakespnex2.md">SecMakeSPNEx2</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-secmakespnex.md">SecMakeSPNEx</a>
+
  
 
  

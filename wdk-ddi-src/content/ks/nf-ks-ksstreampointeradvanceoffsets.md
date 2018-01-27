@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0377371b-b755-4473-a449-9a85e1ca456c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsStreamPointerAdvanceOffsets
+ms.keywords: ks/KsStreamPointerAdvanceOffsets, stream.ksstreampointeradvanceoffsets, KsStreamPointerAdvanceOffsets, avfunc_31a73e93-c2b5-4867-9bb1-40090d0ea07e.xml, KsStreamPointerAdvanceOffsets function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsStreamPointerAdvanceOffsets
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsStreamPointerAdvanceOffsets
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsStreamPointerAdvanceOffsets function
 
 
-
 ## -description
+
+
 The<b> KsStreamPointerAdvanceOffsets</b> function advances the offsets of <i>StreamPointer</i>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsStreamPointerAdvanceOffsets(
@@ -56,6 +67,9 @@ NTSTATUS KsStreamPointerAdvanceOffsets(
 
 
 ## -parameters
+
+
+
 
 ### -param StreamPointer [in]
 
@@ -82,10 +96,15 @@ This parameter indicates whether the stream pointer should be advanced to the ne
 
 
 ## -returns
+
+
 <b>KsStreamPointerAdvanceOffsets</b> returns STATUS_SUCCESS on success. Returns STATUS_DEVICE_NOT_READY if either <i>StreamPointer</i> was not locked at call-time or that the stream pointer could not be locked after advancement.
 
 
+
 ## -remarks
+
+
 AVStream updates the in and out data pointers and other related fields by the requested values. If advancing the offsets results in zero bytes remaining in the current frame, AVStream advances the stream pointer to the next data frame and relocks it.
 
 It is the responsibility of the minidriver to verify that <i>StreamPointer</i> is locked before calling <b>KsStreamPointerAdvanceOffsets</b>. Also, a single advancement cannot advance a stream pointer further than the beginning of the next frame in the queue. Thus, minidrivers should not attempt to advance offsets by a value greater than <i>StreamPointer -&gt; Offset*.Remaining</i>. 
@@ -93,21 +112,17 @@ It is the responsibility of the minidriver to verify that <i>StreamPointer</i> i
 Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736f">Stream Pointers</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksstreampointeradvance.md">KsStreamPointerAdvance</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
+
+<a href="..\ks\nf-ks-ksstreampointeradvance.md">KsStreamPointerAdvance</a>
+
  
 
  

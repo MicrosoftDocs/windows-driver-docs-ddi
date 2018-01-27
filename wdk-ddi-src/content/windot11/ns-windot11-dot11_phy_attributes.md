@@ -7,8 +7,8 @@ old-location: netvista\dot11_phy_attributes.htm
 old-project: netvista
 ms.assetid: 9e81144e-e562-4f61-83de-7b7659106de8
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DOT11_PHY_ATTRIBUTES, *PDOT11_PHY_ATTRIBUTES, DOT11_PHY_ATTRIBUTES
+ms.date: 1/18/2018
+ms.keywords: netvista.dot11_phy_attributes, PDOT11_PHY_ATTRIBUTES, *PDOT11_PHY_ATTRIBUTES, DOT11_PHY_ATTRIBUTES, windot11/PDOT11_PHY_ATTRIBUTES, windot11/DOT11_PHY_ATTRIBUTES, DOT11_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PDOT11_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_76ba44f0-4597-4397-b686-1f70e5e27eec.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DOT11_PHY_ATTRIBUTES
-req.alt-loc: windot11.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,17 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PDOT11_PHY_ATTRIBUTES, DOT11_PHY_ATTRIBUTES
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	windot11.h
+apiname: 
+-	DOT11_PHY_ATTRIBUTES
+product: Windows
+targetos: Windows
+req.typenames: DOT11_PHY_ATTRIBUTES, *PDOT11_PHY_ATTRIBUTES
 req.product: Windows 10 or later.
 ---
 
 # DOT11_PHY_ATTRIBUTES structure
 
 
-
 ## -description
 
+
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_PHY_ATTRIBUTES structure defines the physical and operating attributes of a PHY on the
+  802.11 station.
+
+
 ## -syntax
+
 
 ````
 typedef struct DOT11_PHY_ATTRIBUTES {
@@ -69,6 +83,69 @@ typedef struct DOT11_PHY_ATTRIBUTES {
 
 ## -struct-fields
 
+
+
+
+### -field PhySpecificAttributes
+
+ 
+
+
+### -field PhySpecificAttributes.HRDSSSAttributes
+
+ 
+
+
+### -field PhySpecificAttributes.HRDSSSAttributes.case
+
+ 
+
+
+### -field PhySpecificAttributes.HRDSSSAttributes.case.dot11_phy_type_hrdsss
+
+ 
+
+
+### -field PhySpecificAttributes.OFDMAttributes
+
+ 
+
+
+### -field PhySpecificAttributes.OFDMAttributes.case
+
+ 
+
+
+### -field PhySpecificAttributes.OFDMAttributes.case.dot11_phy_type_ofdm
+
+ 
+
+
+### -field PhySpecificAttributes.ERPAttributes
+
+ 
+
+
+### -field PhySpecificAttributes.ERPAttributes.case
+
+ 
+
+
+### -field PhySpecificAttributes.ERPAttributes.case.dot11_phy_type_erp
+
+ 
+
+
+### -field PhySpecificAttributes.switch_is
+
+ 
+
+
+### -field PhySpecificAttributes.switch_is.PhyType
+
+ 
+
+
 ### -field Header
 
 The type, revision, and size of the DOT11_PHY_ATTRIBUTES structure. This member is formatted as an 
@@ -79,24 +156,6 @@ The miniport driver must set the members of
 
 
 
-
-### -field Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
-### -field Revision
-
-This member must be set to DOT11_PHY_ATTRIBUTES_REVISION_1.
-
-
-### -field Size
-
-This member must be set to 
-        sizeof(DOT11_PHY_ATTRIBUTES).
-
-</dd>
-</dl>
 For more information about these members, see 
       <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
@@ -113,13 +172,11 @@ A Boolean value that specifies the hardware power state of the PHY. If <b>TRUE</
       state is enabled. If <b>FALSE</b>, the hardware power state is disabled.
 
 For more information about the PHY's hardware power state, see 
-      <a href="netvista.oid_dot11_hardware_phy_state">
-      OID_DOT11_HARDWARE_PHY_STATE</a>.
-
+      <mshelp:link keywords="netvista.oid_dot11_hardware_phy_state" tabindex="0">
+      OID_DOT11_HARDWARE_PHY_STATE</mshelp:link>.
 <div class="alert"><b>Note</b>  Whenever the PHY's hardware power state changes, the miniport driver must make an 
-      <a href="netvista.ndis_status_dot11_phy_state_changed">
-      NDIS_STATUS_DOT11_PHY_STATE_CHANGED</a> media-specific status indication.</div>
-<div> </div>
+      <mshelp:link keywords="netvista.ndis_status_dot11_phy_state_changed" tabindex="0">
+      NDIS_STATUS_DOT11_PHY_STATE_CHANGED</mshelp:link> media-specific status indication.</div><div> </div>
 
 ### -field bSoftwarePhyState
 
@@ -128,11 +185,9 @@ A Boolean value that specifies the software power state of the PHY. If <b>TRUE</
 
 For more information about the PHY's software power state, see 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff569392">OID_DOT11_NIC_POWER_STATE</a>.
-
 <div class="alert"><b>Note</b>  Whenever the PHY's software power state changes, the miniport driver must make an 
-      <a href="netvista.ndis_status_dot11_phy_state_changed">
-      NDIS_STATUS_DOT11_PHY_STATE_CHANGED</a> media-specific status indication.</div>
-<div> </div>
+      <mshelp:link keywords="netvista.ndis_status_dot11_phy_state_changed" tabindex="0">
+      NDIS_STATUS_DOT11_PHY_STATE_CHANGED</mshelp:link> media-specific status indication.</div><div> </div>
 
 ### -field bCFPollable
 
@@ -148,10 +203,8 @@ This member is not applicable to the Extensible Access Point (ExtAP) operation m
 The maximum length, in bytes, of a media access control (MAC) protocol data unit (MPDU) frame that
       the PHY can transmit or receive. For more information, see 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff569387">OID_DOT11_MPDU_MAX_LENGTH</a>.
-
 <div class="alert"><b>Note</b>  Whenever the PHY's software power state changes, the miniport driver must make an
-      NDIS_STATUS_DOT11_MPDU_MAX_LENGTH_CHANGED media-specific status indication.</div>
-<div> </div>
+      NDIS_STATUS_DOT11_MPDU_MAX_LENGTH_CHANGED media-specific status indication.</div><div> </div>
 
 ### -field TempType
 
@@ -166,57 +219,72 @@ The PHY's type of antenna diversity, defined through a
       value.
 
 
-### -field HRDSSSAttributes
-
-The PHY-specific attributes of a high-rate direct-sequence spread spectrum (HRDSS) PHY type. The
-       miniport driver must use this member only if the 
-       <b>PhyType</b> member is set to dot11_phy_type_hrdsss.
-
-
-### -field OFDMAttributes
+#### - OFDMAttributes
 
 The PHY-specific attributes of an orthogonal frequency division multiplexing (OFDM) PHY type. The
        miniport driver must use this member only if the 
        <b>PhyType</b> member is set to dot11_phy_type_ofdm.
 
 
-### -field ERPAttributes
-
-The PHY-specific attributes of an extended-rate PHY (ERP) type. The miniport driver must use this
-       member only if the 
-       <b>PhyType</b> member is set to dot11_phy_type_erp.
-
-
-### -field uNumberSupportedPowerLevels
+#### - uNumberSupportedPowerLevels
 
 The number of power levels within the 
       <b>TxPowerLevels</b> array. 
       <b>uNumOfSupportedPowerLevels</b> must have a value from 1 through 8.
 
 
-### -field TxPowerLevels
+#### - DataRateMappingEntries
 
-An array of the supported transmit power levels in units of milliwatts (mWs). Each power level must
-      be a value from 0 through 1000.
+An array of the data rates supported by the PHY. Each entry is formatted as a 
+      <mshelp:link keywords="netvista.dot11_data_rate_mapping_entry" tabindex="0"><b>
+      DOT11_DATA_RATE_MAPPING_ENTRY</b></mshelp:link> structure.
 
 
-### -field uNumDataRateMappingEntries
+##### - Header.Revision
+
+This member must be set to DOT11_PHY_ATTRIBUTES_REVISION_1.
+
+
+#### - uNumDataRateMappingEntries
 
 The number of data rates within the 
       <b>DataRateMappingEntries</b> array.
 
 
-### -field DataRateMappingEntries
+##### - Header.Type
 
-An array of the data rates supported by the PHY. Each entry is formatted as a 
-      <a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">
-      DOT11_DATA_RATE_MAPPING_ENTRY</a> structure.
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
-### -field SupportedDataRatesValue
+##### - Header.Size
+
+This member must be set to 
+        sizeof(DOT11_PHY_ATTRIBUTES).
+
+
+#### - TxPowerLevels
+
+An array of the supported transmit power levels in units of milliwatts (mWs). Each power level must
+      be a value from 0 through 1000.
+
+
+#### - HRDSSSAttributes
+
+The PHY-specific attributes of a high-rate direct-sequence spread spectrum (HRDSS) PHY type. The
+       miniport driver must use this member only if the 
+       <b>PhyType</b> member is set to dot11_phy_type_hrdsss.
+
+
+#### - ERPAttributes
+
+The PHY-specific attributes of an extended-rate PHY (ERP) type. The miniport driver must use this
+       member only if the 
+       <b>PhyType</b> member is set to dot11_phy_type_erp.
+
+
+#### - SupportedDataRatesValue
 
 An array of the following data rates supported by the PHY:
-
 <ul>
 <li>
 The transmit data rates supported by the Physical Layer Convergence Procedure (PLCP) and Physical
@@ -227,14 +295,15 @@ The transmit data rates supported by the Physical Layer Convergence Procedure (P
 The receive data rates supported by the PLCP and PMD of the PHY.
 
 </li>
-</ul>
-Each entry in the array is formatted as a DOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure.
+</ul>Each entry in the array is formatted as a DOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure.
 
 
 ## -remarks
+
+
 The 
-    <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
-    NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a> structure contains a member (<b>pExtPhyAttributes</b>) that specifies the address of an array of DOT11_PHY_ATTRIBUTES structures. When
+    <mshelp:link keywords="netvista.ndis_miniport_adapter_native_802_11_attributes" tabindex="0"><b>
+    NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</b></mshelp:link> structure contains a member (<b>pExtPhyAttributes</b>) that specifies the address of an array of DOT11_PHY_ATTRIBUTES structures. When
     the miniport driver calls 
     <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>,
     the driver sets the 
@@ -243,53 +312,40 @@ The
     structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-</dt>
-<dt>
-<a href="..\windot11\ne-windot11-_dot11_diversity_support.md">DOT11_DIVERSITY_SUPPORT</a>
-</dt>
-<dt>
-<a href="..\windot11\ns-windot11-dot11_erp_phy_attributes.md">DOT11_ERP_PHY_ATTRIBUTES</a>
-</dt>
-<dt>
-<a href="..\windot11\ns-windot11-dot11_hrdsss_phy_attributes.md">DOT11_HRDSSS_PHY_ATTRIBUTES</a>
-</dt>
-<dt>
+
 <a href="..\windot11\ns-windot11-dot11_ofdm_phy_attributes.md">DOT11_OFDM_PHY_ATTRIBUTES</a>
-</dt>
-<dt>
-<a href="..\windot11\ne-windot11-_dot11_temp_type.md">DOT11_TEMP_TYPE</a>
-</dt>
-<dt>
-<a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">DOT11_DATA_RATE_MAPPING_ENTRY</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569370">OID_DOT11_HARDWARE_PHY_STATE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569392">OID_DOT11_NIC_POWER_STATE</a>
-</dt>
-<dt>
+
 <a href="..\windot11\ne-windot11-_dot11_phy_type.md">DOT11_PHY_TYPE</a>
-</dt>
-<dt>
-<a href="..\windot11\ns-windot11-_dot11_supported_data_rates_value_v2.md">
-   DOT11_SUPPORTED_DATA_RATES_VALUE_V2</a>
-</dt>
-<dt>
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
-   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569392">OID_DOT11_NIC_POWER_STATE</a>
+
+<a href="..\windot11\ne-windot11-_dot11_temp_type.md">DOT11_TEMP_TYPE</a>
+
+<a href="..\windot11\ne-windot11-_dot11_diversity_support.md">DOT11_DIVERSITY_SUPPORT</a>
+
+<a href="..\windot11\ns-windot11-dot11_erp_phy_attributes.md">DOT11_ERP_PHY_ATTRIBUTES</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-hardware-phy-state">OID_DOT11_HARDWARE_PHY_STATE</a>
+
+<a href="..\windot11\ns-windot11-dot11_hrdsss_phy_attributes.md">DOT11_HRDSSS_PHY_ATTRIBUTES</a>
+
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-</dt>
-</dl>
- 
+
+<a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">DOT11_DATA_RATE_MAPPING_ENTRY</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<mshelp:link keywords="netvista.ndis_miniport_adapter_native_802_11_attributes" tabindex="0"><b>
+   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</b></mshelp:link>
+
+<mshelp:link keywords="netvista.dot11_supported_data_rates_value_v2" tabindex="0"><b>
+   DOT11_SUPPORTED_DATA_RATES_VALUE_V2</b></mshelp:link>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PHY_ATTRIBUTES structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PHY_ATTRIBUTES structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

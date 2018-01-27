@@ -7,8 +7,8 @@ old-location: netvista\dot11_phy_frame_statistics.htm
 old-project: netvista
 ms.assetid: 2adf102b-52aa-40e4-b3de-9189803339bf
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DOT11_PHY_FRAME_STATISTICS, *PDOT11_PHY_FRAME_STATISTICS, DOT11_PHY_FRAME_STATISTICS
+ms.date: 1/18/2018
+ms.keywords: windot11/PDOT11_PHY_FRAME_STATISTICS, DOT11_PHY_FRAME_STATISTICS, PDOT11_PHY_FRAME_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_PHY_FRAME_STATISTICS, netvista.dot11_phy_frame_statistics, Native_802.11_data_types_e7446fc8-9a7c-41c5-bf90-7988dfddc950.xml, PDOT11_PHY_FRAME_STATISTICS, DOT11_PHY_FRAME_STATISTICS structure [Network Drivers Starting with Windows Vista], *PDOT11_PHY_FRAME_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DOT11_PHY_FRAME_STATISTICS
-req.alt-loc: windot11.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	windot11.h
+apiname: 
+-	DOT11_PHY_FRAME_STATISTICS
+product: Windows
+targetos: Windows
 req.typenames: *PDOT11_PHY_FRAME_STATISTICS, DOT11_PHY_FRAME_STATISTICS
 req.product: Windows 10 or later.
 ---
@@ -38,10 +47,15 @@ req.product: Windows 10 or later.
 # DOT11_PHY_FRAME_STATISTICS structure
 
 
-
 ## -description
 
+
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_PHY_FRAME_STATISTICS structure records statistical counters for the IEEE physical (PHY)
+  layer of the 802.11 station.
+
+
 ## -syntax
+
 
 ````
 typedef struct DOT11_PHY_FRAME_STATISTICS {
@@ -68,6 +82,9 @@ typedef struct DOT11_PHY_FRAME_STATISTICS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ullTransmittedFrameCount
 
@@ -112,8 +129,8 @@ For MSDU packets, the miniport driver must increment this counter for each packe
 The number of MSDU packets and MMPDU frames that the 802.11 station failed to transmit because of
      a timeout as defined by the IEEE 802.11 
      <b>dot11MaxTransmitMSDULifetime</b> MIB object. For more information about this MIB object, see 
-     <a href="netvista.oid_dot11_max_transmit_msdu_lifetime">
-     OID_DOT11_MAX_TRANSMIT_MSDU_LIFETIME</a>.
+     <mshelp:link keywords="netvista.oid_dot11_max_transmit_msdu_lifetime" tabindex="0">
+     OID_DOT11_MAX_TRANSMIT_MSDU_LIFETIME</mshelp:link>.
 
 
 ### -field ullTransmittedFragmentCount
@@ -180,7 +197,6 @@ The number of MSDU packets or MMPDU frames received by the 802.11 station when a
 If a promiscuous packet filter is enabled, the miniport driver must only increment this counter for
      received MSDU packets or MMPDU frames that would have been rejected if the filter was not enabled. The
      driver must not increment this counter for:
-
 <ul>
 <li>
 Unicast MSDU packets or MMPDU frames with a destination MAC address that matches the 802.11
@@ -201,8 +217,8 @@ Multicast or broadcast MSDU packets or MMPDU frames with a destination MAC addre
 The number if MSDU packets and MMPDU frames that the 802.11 station discarded because of a timeout
      as defined by the IEEE 802.11 
      <b>dot11MaxReceiveLifetime</b> MIB object. For more information about this MIB object, see 
-     <a href="netvista.oid_dot11_max_receive_lifetime">
-     OID_DOT11_MAX_RECEIVE_LIFETIME</a>.
+     <mshelp:link keywords="netvista.oid_dot11_max_receive_lifetime" tabindex="0">
+     OID_DOT11_MAX_RECEIVE_LIFETIME</mshelp:link>.
 
 
 ### -field ullFrameDuplicateCount
@@ -226,7 +242,6 @@ The number of MPDU frames received by the 802.11 station for MSDU packets or MMP
 If a promiscuous packet filter is enabled, the miniport driver must only increment this counter for
      received MPDU frames that would have been rejected if the filter was not enabled. The driver must not
      increment this counter for:
-
 <ul>
 <li>
 Unicast MPDU frames with a destination MAC address that matches the 802.11 station's MAC
@@ -248,35 +263,40 @@ The number of MPDU frames that the 802.11 station received with FCS errors.
 
 
 ## -remarks
-The members of this structure are used to record PHY-level statistics for:
 
+
+The members of this structure are used to record PHY-level statistics for:
+<ul>
+<li>
 802.11 MSDU packets.
 
+</li>
+<li>
 802.11 MMPDU frames.
 
+</li>
+<li>
 802.11 MPDU frames. MPDU frame counters must include all MPDU fragments sent for an MSDU packet or
       MMPDU frame
 
+</li>
+</ul>
+
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\windot11\ns-windot11-dot11_statistics.md">DOT11_STATISTICS</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569420">OID_DOT11_STATISTICS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/e6bd2abf-faa2-463f-91df-a15924afae96">Native 802.11 Statistics</a>
-</dt>
-<dt>
-<a href="netvista.extensible_station_phy_statistics">Extensible Station PHY
-   Statistics</a>
-</dt>
-</dl>
- 
+
+<mshelp:link keywords="netvista.extensible_station_phy_statistics" tabindex="0">Extensible Station PHY
+   Statistics</mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569420">OID_DOT11_STATISTICS</a>
+
+<a href="..\windot11\ns-windot11-dot11_statistics.md">DOT11_STATISTICS</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PHY_FRAME_STATISTICS structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PHY_FRAME_STATISTICS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

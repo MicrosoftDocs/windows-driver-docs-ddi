@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1edf800d-f097-4d3f-ae89-1b11e4f82f2d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortReadRegisterUchar
+ms.keywords: storprt_9f2898e2-6b5e-45ae-9162-57c58a3471f7.xml, StorPortReadRegisterUchar, storport/StorPortReadRegisterUchar, storage.storportreadregisteruchar, StorPortReadRegisterUchar routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortReadRegisterUchar
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortReadRegisterUchar
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortReadRegisterUchar function
 
 
-
 ## -description
+
+
 The <b>StorPortReadRegisterUchar</b> routine reads a value from a specified register address. 
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API UCHAR StorPortReadRegisterUchar(
@@ -55,6 +66,9 @@ STORPORT_API UCHAR StorPortReadRegisterUchar(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -67,22 +81,25 @@ Pointer to the register where the data is to be read.
 
 
 ## -returns
+
+
 <b>StorPortReadRegisterUchar</b> returns an unsigned character of data read from the indicated register address. 
 
 
+
 ## -remarks
+
+
 For more information, see <a href="..\srb\nf-srb-scsiportreadregisteruchar.md">ScsiPortReadRegisterUchar</a>. For a buffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterbufferuchar.md">StorPortReadRegisterBufferUchar</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportreadregisteruchar.md">ScsiPortReadRegisterUchar</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportreadregisterbufferuchar.md">StorPortReadRegisterBufferUchar</a>
-</dt>
-</dl>
+
  
 
  

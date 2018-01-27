@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 147d2c1c-c12d-4c39-bec5-579ece083ee7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CDROM_SPEED_REQUEST, CDROM_SPEED_REQUEST, *PCDROM_SPEED_REQUEST
+ms.keywords: storage.cdrom_speed_request, CdromSetStreaming, ntddcdrm/PCDROM_SPEED_REQUEST, CDROM_SPEED_REQUEST enumeration [Storage Devices], PCDROM_SPEED_REQUEST, _CDROM_SPEED_REQUEST, ntddcdrm/CDROM_SPEED_REQUEST, PCDROM_SPEED_REQUEST enumeration pointer [Storage Devices], ntddcdrm/CdromSetSpeed, CDROM_SPEED_REQUEST, structs-CD-ROM_6feeaa4e-8500-4ca8-9d0f-3e29a858eb94.xml, *PCDROM_SPEED_REQUEST, ntddcdrm/CdromSetStreaming, CdromSetSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CDROM_SPEED_REQUEST
-req.alt-loc: ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: CDROM_SPEED_REQUEST, *PCDROM_SPEED_REQUEST
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdrm.h
+apiname: 
+-	CDROM_SPEED_REQUEST
+product: Windows
+targetos: Windows
+req.typenames: *PCDROM_SPEED_REQUEST, CDROM_SPEED_REQUEST
 ---
 
 # _CDROM_SPEED_REQUEST enumeration
 
 
-
 ## -description
+
+
 The CDROM_SPEED_REQUEST enumeration indicates which command that the CD-ROM class driver will use to set the spindle speed of a CD-ROM drive.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _CDROM_SPEED_REQUEST { 
@@ -55,6 +65,9 @@ typedef enum _CDROM_SPEED_REQUEST {
 
 ## -enum-fields
 
+
+
+
 ### -field CdromSetSpeed
 
 The CD-ROM class driver will use the SET CD SPEED command to set the spindle speed.
@@ -65,21 +78,14 @@ The CD-ROM class driver will use the SET CD SPEED command to set the spindle spe
 The CD-ROM class driver will use the SET STREAMING command to set the spindle speed.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_set_speed.md">CDROM_SET_SPEED</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_set_streaming.md">CDROM_SET_STREAMING</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2cfe935f-eba4-48aa-869d-6381ca038e70
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SetTunnelModeOuterAddress_OUT, SetTunnelModeOuterAddress_OUT, *PSetTunnelModeOuterAddress_OUT
+ms.keywords: storage.settunnelmodeouteraddress_out, *PSetTunnelModeOuterAddress_OUT, iscsiop/SetTunnelModeOuterAddress_OUT, SetTunnelModeOuterAddress_OUT, PSetTunnelModeOuterAddress_OUT, _SetTunnelModeOuterAddress_OUT, iscsiop/PSetTunnelModeOuterAddress_OUT, PSetTunnelModeOuterAddress_OUT structure pointer [Storage Devices], SetTunnelModeOuterAddress_OUT structure [Storage Devices], structs-iSCSI_918f9bb3-ee9f-41d3-8e9e-c18a673a4302.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetTunnelModeOuterAddress_OUT
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: SetTunnelModeOuterAddress_OUT, *PSetTunnelModeOuterAddress_OUT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	SetTunnelModeOuterAddress_OUT
+product: Windows
+targetos: Windows
+req.typenames: *PSetTunnelModeOuterAddress_OUT, SetTunnelModeOuterAddress_OUT
 ---
 
 # _SetTunnelModeOuterAddress_OUT structure
 
 
-
 ## -description
+
+
 The SetTunnelModeOuterAddress_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566186">SetTunnelModeOuterAddress</a> method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SetTunnelModeOuterAddress_OUT {
@@ -54,27 +64,29 @@ typedef struct _SetTunnelModeOuterAddress_OUT {
 
 ## -struct-fields
 
+
+
+
 ### -field Status
 
 On output, the status of the <b>SetTunnelModeOuterAddress</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>. 
 
 
 ## -remarks
+
+
 You must implement this method.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566186">SetTunnelModeOuterAddress</a>
-</dt>
-<dt>
+
 <a href="..\iscsiop\ns-iscsiop-_settunnelmodeouteraddress_in.md">SetTunnelModeOuterAddress_IN</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566186">SetTunnelModeOuterAddress</a>
+
  
 
  

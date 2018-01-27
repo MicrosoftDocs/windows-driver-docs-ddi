@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: ac9efa58-fd38-43f2-85e6-577d58735847
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _CIP_FRAME, *PCIP_FRAME, CIP_FRAME
+ms.keywords: IEEE.cip_frame, 61883/PCIP_FRAME, PCIP_FRAME, 61883_structures_1fd796fa-88d2-4dc4-a440-89bf50b81ae8.xml, CIP_FRAME structure [Buses], CIP_FRAME, *PCIP_FRAME, PCIP_FRAME structure pointer [Buses], 61883/CIP_FRAME, _CIP_FRAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CIP_FRAME
-req.alt-loc: 61883.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PCIP_FRAME, CIP_FRAME
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	61883.h
+apiname: 
+-	CIP_FRAME
+product: Windows
+targetos: Windows
+req.typenames: CIP_FRAME, *PCIP_FRAME
 ---
 
 # _CIP_FRAME structure
 
 
-
 ## -description
+
+
 The CIP_FRAME structure describes a frame to be attached to an input or output plug.  
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CIP_FRAME {
@@ -66,7 +76,11 @@ typedef struct _CIP_FRAME {
 
 ## -struct-fields
 
+
+
+
 ### -field Reserved
+
 
 
 ### -field pNext
@@ -82,66 +96,22 @@ For packets to be received, <b>Flags</b> can be one of the following:
 
 
 
-
-### -field CIP_VALIDATE_FIRST_SOURCE
-
-Instructs the IEC-61883 protocol driver to call the client-driver-supplied function at <b>pfnValidate</b> to validate only the first source packet.
-
-
-### -field CIP_VALIDATE_ALL_SOURCE
-
-Instructs the IEC-61883 protocol driver to call the client-driver-supplied function at <b>pfnValidate</b> to validate all source packets.
-
-</dd>
-</dl>
 For packets to be received, CIP_VALIDATE_XXX can be combined with either or both of the following:
 
 
 
-
-### -field CIP_STRIP_SOURCE_HEADER
-
-Instructs the protocol driver to strip the source header packet within a source packet.
-
-
-### -field CIP_USE_SOURCE_HEADER_TIMESTAMP
-
-Instructs the protocol driver to timestamp the frame with the timestamp found within the source header packet.
-
-</dd>
-</dl>
 For packets to be transmitted, <b>Flags</b> can be one of the following:
 
 
 
-
-### -field CIP_DV_STYLE_SYT
-
-The value at <b>TimeStamp</b> is formatted for data transmission to digital video devices (SD-DVCR, HD-DVCR, or SDL-DVCR).
-
-
-### -field CIP_AUDIO_STYLE_SYT
-
-The value at <b>TimeStamp</b> is formatted for audio and music data transmission to audio devices.
-
-</dd>
-</dl>
 For packets to be transmitted or received, <b>Flags</b> can also be set with the following:
 
 
 
 
-### -field CIP_RESET_FRAME_ON_DISCONTINUITY
-
-Instructs the protocol driver to resume a stopped stream at the beginning of the frame instead of the next source packet. 
-
-</dd>
-</dl>
-
 ### -field pfnValidate
 
 Points to a caller-supplied function to validate a source packet. This function uses the following prototype: The parameter <b>ValidateInfo</b> must point to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537048">CIP_VALIDATE_INFO</a> structure that contains information about the frame. 
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -166,7 +136,6 @@ Points to an optional caller-defined context for the function at <b>pfnValidate<
 Points to a caller-supplied function to be called by the protocol driver when the requested frame is completed. The protocol driver calls this function at IRQL = DISPATCH_LEVEL.
 
 This function uses the following prototype:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -181,11 +150,6 @@ This function uses the following prototype:
 </tr>
 </table></span></div>
 
-
-
-### -field The NotifyInfo parameter points to a CIP_NOTIFY_INFO structure that contains information about the frame. 
-
-</dl>
 
 ### -field NotifyContext
 
@@ -220,18 +184,52 @@ Points to the beginning of a caller-allocated data buffer to be transmitted or r
 ### -field CompletedBytes
 
 
-## -remarks
+
+##### - Flags.CIP_USE_SOURCE_HEADER_TIMESTAMP
+
+Instructs the protocol driver to timestamp the frame with the timestamp found within the source header packet.
+
+
+##### - Flags.CIP_RESET_FRAME_ON_DISCONTINUITY
+
+Instructs the protocol driver to resume a stopped stream at the beginning of the frame instead of the next source packet. 
+
+
+##### - Flags.CIP_DV_STYLE_SYT
+
+The value at <b>TimeStamp</b> is formatted for data transmission to digital video devices (SD-DVCR, HD-DVCR, or SDL-DVCR).
+
+
+##### - Flags.CIP_VALIDATE_FIRST_SOURCE
+
+Instructs the IEC-61883 protocol driver to call the client-driver-supplied function at <b>pfnValidate</b> to validate only the first source packet.
+
+
+##### - Flags.CIP_STRIP_SOURCE_HEADER
+
+Instructs the protocol driver to strip the source header packet within a source packet.
+
+
+##### - Flags.CIP_VALIDATE_ALL_SOURCE
+
+Instructs the IEC-61883 protocol driver to call the client-driver-supplied function at <b>pfnValidate</b> to validate all source packets.
+
+
+##### - Flags.CIP_AUDIO_STYLE_SYT
+
+The value at <b>TimeStamp</b> is formatted for audio and music data transmission to audio devices.
+
+
+###### - pfnNotify.The NotifyInfo parameter points to a CIP_NOTIFY_INFO structure that contains information about the frame.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536950">Av61883_AttachFrame</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536956">Av61883_CancelFrame</a>
-</dt>
-</dl>
+
  
 
  

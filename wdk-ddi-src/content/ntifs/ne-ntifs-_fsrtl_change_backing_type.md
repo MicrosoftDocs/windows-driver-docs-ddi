@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 952812f4-5d29-4d1d-ab81-dd3a76a5f04c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FSRTL_CHANGE_BACKING_TYPE, *PFSRTL_CHANGE_BACKING_TYPE, FSRTL_CHANGE_BACKING_TYPE
+ms.keywords: FSRTL_CHANGE_BACKING_TYPE enumeration [Installable File System Drivers], ChangeImageControlArea, contextstructures_f0bf2082-c88d-4f01-8e40-f7259e040ea6.xml, ChangeSharedCacheMap, PFSRTL_CHANGE_BACKING_TYPE, ntifs/FSRTL_CHANGE_BACKING_TYPE, ChangeDataControlArea, *PFSRTL_CHANGE_BACKING_TYPE, ntifs/PFSRTL_CHANGE_BACKING_TYPE, PFSRTL_CHANGE_BACKING_TYPE enumeration pointer [Installable File System Drivers], ntifs/ChangeImageControlArea, FSRTL_CHANGE_BACKING_TYPE, ntifs/ChangeDataControlArea, _FSRTL_CHANGE_BACKING_TYPE, ntifs/ChangeSharedCacheMap, ifsk.fsrtl_change_backing_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FSRTL_CHANGE_BACKING_TYPE
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FSRTL_CHANGE_BACKING_TYPE
+product: Windows
+targetos: Windows
 req.typenames: *PFSRTL_CHANGE_BACKING_TYPE, FSRTL_CHANGE_BACKING_TYPE
 ---
 
 # _FSRTL_CHANGE_BACKING_TYPE enumeration
 
 
-
 ## -description
+
+
 The FSRTL_CHANGE_BACKING_TYPE enumeration specifies the type of cache or control area that a file object designates.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _FSRTL_CHANGE_BACKING_TYPE { 
@@ -55,6 +65,9 @@ typedef enum _FSRTL_CHANGE_BACKING_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field ChangeDataControlArea
 
@@ -71,15 +84,10 @@ An image control area that belongs to the memory manager.
 The shared cache map of the cache manager.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-fsrtlchangebackingfileobject.md">FsRtlChangeBackingFileObject</a>
-</dt>
-</dl>
+
  
 
  

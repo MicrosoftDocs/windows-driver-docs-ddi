@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 759BA42A-2F38-42D3-A245-8DEA2919DC39
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_RESOURCE_RANGED_BARRIER_0022, D3D12DDI_RESOURCE_RANGED_BARRIER_0022
+ms.keywords: d3d12umddi/D3D12DDI_RESOURCE_RANGED_BARRIER_0022, D3D12DDI_RESOURCE_RANGED_BARRIER_0022 structure [Display Devices], display.d3d12ddi_resource_ranged_barrier_0022, D3D12DDI_RESOURCE_RANGED_BARRIER_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_RESOURCE_RANGED_BARRIER_0022
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_RESOURCE_RANGED_BARRIER_0022
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_RESOURCE_RANGED_BARRIER_0022
 ---
 
 # D3D12DDI_RESOURCE_RANGED_BARRIER_0022 structure
 
 
-
 ## -description
+
+
 Describes a resource ranged barrier.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDI_RESOURCE_RANGED_BARRIER_0022 {
@@ -55,6 +65,9 @@ typedef struct D3D12DDI_RESOURCE_RANGED_BARRIER_0022 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hResource
 
@@ -71,15 +84,10 @@ A subresource. If the <i>Subresource</i> value  is -1 or _ALL_SUBRESOURCES, then
 A range as a <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_range.md">D3D12DDI_RANGE</a> structure. If the resource is a texture with an adapter-dependent layout, the range must be (0, UINT64_MAX), because only the driver knows where a particular subresource resides. When the resource is a buffer or texture with well-specified layout, the range fits within the subresource extent. Empty ranges are never passed.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_range.md">D3D12DDI_RANGE</a>
-</dt>
-</dl>
+
  
 
  

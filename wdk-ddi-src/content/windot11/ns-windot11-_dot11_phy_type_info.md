@@ -7,8 +7,8 @@ old-location: netvista\dot11_phy_type_info.htm
 old-project: netvista
 ms.assetid: 9b0cbcc4-e38a-4266-afc5-8b2755d79f4c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _DOT11_PHY_TYPE_INFO, *PDOT11_PHY_TYPE_INFO, DOT11_PHY_TYPE_INFO
+ms.date: 1/18/2018
+ms.keywords: DOT11_PHY_TYPE_INFO structure [Network Drivers Starting with Windows Vista], _DOT11_PHY_TYPE_INFO, *PDOT11_PHY_TYPE_INFO, windot11/DOT11_PHY_TYPE_INFO, windot11/PDOT11_PHY_TYPE_INFO, PDOT11_PHY_TYPE_INFO structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_20e3d688-253f-416e-b9b0-8adec6bf7415.xml, DOT11_PHY_TYPE_INFO, PDOT11_PHY_TYPE_INFO, netvista.dot11_phy_type_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DOT11_PHY_TYPE_INFO
-req.alt-loc: windot11.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,17 +29,35 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PDOT11_PHY_TYPE_INFO, DOT11_PHY_TYPE_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	windot11.h
+apiname: 
+-	DOT11_PHY_TYPE_INFO
+product: Windows
+targetos: Windows
+req.typenames: DOT11_PHY_TYPE_INFO, *PDOT11_PHY_TYPE_INFO
 req.product: Windows 10 or later.
 ---
 
 # _DOT11_PHY_TYPE_INFO structure
 
 
-
 ## -description
 
+
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_PHY_TYPE_INFO structure defines parameters that the 802.11 station uses to configure a PHY
+  when performing an explicit scan operation. The station performs the explicit scan operation following a
+  set request of 
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>.
+
+
 ## -syntax
+
 
 ````
 typedef struct _DOT11_PHY_TYPE_INFO {
@@ -62,6 +78,9 @@ typedef struct _DOT11_PHY_TYPE_INFO {
 
 ## -struct-fields
 
+
+
+
 ### -field dot11PhyType
 
 The type of PHY that the 802.11 station will use for the scan. The PHY type is defined by the 
@@ -71,17 +90,6 @@ The type of PHY that the 802.11 station will use for the scan. The PHY type is d
 <div> </div>
 
 
-
-### -field uPhyId
-
-The identifier (ID) of the PHY that the 802.11 station will use for the scan. The PHY ID is the
-       index within the list of supported PHYs returned by the driver through a query of 
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
-       OID_DOT11_SUPPORTED_PHY_TYPES</a>.
-
-<div class="alert"><b>Note</b>  The miniport driver must ignore this member if it is operating in ExtSTA
-       mode.</div>
-<div> </div>
 
 ### -field bUseParameters
 
@@ -135,21 +143,6 @@ This member specifies the method used to interpret the entries in the
 
 
 
-### -field ch_description_type_logical
-       
-<dd>
-The channel entry is defined by a logical channel number to conform with the IEEE 802.11
-       standard.
-
-
-### -field ch_description_type_center_frequency
-       
-<dd>
-The channel entry is defined, in units of megahertz (MHz), by a channel center frequency.
-
-</dd>
-</dl>
-
 ### -field uChannelListSize
 
 The length, in bytes, of the 
@@ -162,7 +155,29 @@ An array containing channel descriptions for the PHY type specified in the
      <b>dot11PhyType</b> member.
 
 
+#### - uPhyId
+
+The identifier (ID) of the PHY that the 802.11 station will use for the scan. The PHY ID is the
+       index within the list of supported PHYs returned by the driver through a query of 
+       <mshelp:link keywords="netvista.oid_dot11_supported_phy_types" tabindex="0">
+       OID_DOT11_SUPPORTED_PHY_TYPES</mshelp:link>.
+<div class="alert"><b>Note</b>  The miniport driver must ignore this member if it is operating in ExtSTA
+       mode.</div><div> </div>
+
+##### - ChDescriptionType.ch_description_type_center_frequency
+
+The channel entry is defined, in units of megahertz (MHz), by a channel center frequency.
+
+
+##### - ChDescriptionType.ch_description_type_logical
+
+The channel entry is defined by a logical channel number to conform with the IEEE 802.11
+       standard.
+
+
 ## -remarks
+
+
 The 
     <a href="..\windot11\ns-windot11-_dot11_scan_request_v2.md">DOT11_SCAN_REQUEST_V2</a> structure, which
     accompanies a set request of 
@@ -170,26 +185,24 @@ The
     array of zero or more DOT11_PHY_TYPE_INFO entries.
 
 For more information about the scan operations performed by a Native 802.11 miniport driver, see 
-    <a href="netvista.native_802_11_scan_operations">Native 802.11 Scan
-    Operations</a>.
+    <mshelp:link keywords="netvista.native_802_11_scan_operations" tabindex="0">Native 802.11 Scan
+    Operations</mshelp:link>.
 
 For more information about the ExtSTA operation mode, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
-    Mode</a>.
+    <mshelp:link keywords="netvista.extensible_station_operation_mode" tabindex="0">Extensible Station Operation
+    Mode</mshelp:link>.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\windot11\ns-windot11-_dot11_scan_request_v2.md">DOT11_SCAN_REQUEST_V2</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
-</dt>
-</dl>
- 
+
+<a href="..\windot11\ns-windot11-_dot11_scan_request_v2.md">DOT11_SCAN_REQUEST_V2</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PHY_TYPE_INFO structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PHY_TYPE_INFO structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

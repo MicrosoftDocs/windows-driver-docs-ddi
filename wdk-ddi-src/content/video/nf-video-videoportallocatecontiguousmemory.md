@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba23f4d4-7e3d-4bfc-acf7-68dab01d2f61
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortAllocateContiguousMemory
+ms.keywords: VideoPortAllocateContiguousMemory, VideoPort_Functions_5aed176c-b0d1-4b0d-8d0d-7689bc31d661.xml, video/VideoPortAllocateContiguousMemory, VideoPortAllocateContiguousMemory function [Display Devices], display.videoportallocatecontiguousmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortAllocateContiguousMemory
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortAllocateContiguousMemory
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # VideoPortAllocateContiguousMemory function
 
 
-
 ## -description
+
+
 The <b>VideoPortAllocateContiguousMemory</b> function is <b>obsolete</b> in Windows 2000 and later. Video miniport drivers should use <a href="..\video\nf-video-videoportallocatecommonbuffer.md">VideoPortAllocateCommonBuffer</a> in its place.
 
 <b>VideoPortAllocateContiguousMemory</b> allocates a range of physically contiguous, cache-aligned memory from the nonpaged pool.
 
 
-
 ## -syntax
+
 
 ````
 PVOID VideoPortAllocateContiguousMemory(
@@ -58,6 +68,9 @@ PVOID VideoPortAllocateContiguousMemory(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -75,21 +88,25 @@ Specifies the highest valid physical address the miniport driver can use. For ex
 
 
 ## -returns
+
+
 <b>VideoPortAllocateContiguousMemory</b> returns the base virtual address for the allocated memory, if the call is successful. If the request cannot be satisfied, <b>NULL</b> is returned.
 
 
+
 ## -remarks
+
+
 <b>VideoPortAllocateContiguousMemory</b> can be called to allocate a contiguous block of physical memory for a long-term internal buffer.
 
 A miniport driver that must use contiguous memory should allocate only what it needs during driver initialization because nonpaged pool is likely to become fragmented as the system runs. If the miniport driver is unloaded, it must deallocate the memory. Contiguous allocations are aligned on an integral multiple of the processor's data-cache-line size to prevent cache and coherency problems.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nf-video-videoportallocatebuffer.md">VideoPortAllocateBuffer</a>
-</dt>
-</dl>
+
  
 
  

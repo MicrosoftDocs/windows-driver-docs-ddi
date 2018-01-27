@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3E8C7E47-EFCD-4261-9258-61C6A262287A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_ACPI_SPB_UART_RESOURCE, PEP_ACPI_SPB_UART_RESOURCE, *PPEP_ACPI_SPB_UART_RESOURCE
+ms.keywords: 5, PPEP_ACPI_SPB_UART_RESOURCE structure pointer [Kernel-Mode Driver Architecture], PEP_ACPI_SPB_UART_RESOURCE, PPEP_ACPI_SPB_UART_RESOURCE, _PEP_ACPI_SPB_UART_RESOURCE, *PPEP_ACPI_SPB_UART_RESOURCE, 3, pepfx/PEP_ACPI_SPB_UART_RESOURCE, 0, 1, 7, 2, 6, kernel.pep_acpi_spb_uart_resource, 4, pepfx/PPEP_ACPI_SPB_UART_RESOURCE, PEP_ACPI_SPB_UART_RESOURCE structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_ACPI_SPB_UART_RESOURCE
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_ACPI_SPB_UART_RESOURCE
+product: Windows
+targetos: Windows
 req.typenames: PEP_ACPI_SPB_UART_RESOURCE, *PPEP_ACPI_SPB_UART_RESOURCE
 ---
 
 # _PEP_ACPI_SPB_UART_RESOURCE structure
 
 
-
 ## -description
+
+
 The <b>PEP_ACPI_SPB_UART_RESOURCE</b> structure describes an ACPI UART serial bus resource.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_ACPI_SPB_UART_RESOURCE {
@@ -58,6 +68,9 @@ typedef struct _PEP_ACPI_SPB_UART_RESOURCE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field SpbCommon
 
@@ -82,7 +95,6 @@ The maximum transmit buffer size, in bytes, that is supported by this connection
 ### -field Parity
 
 Indicates the parity of the connection.
-
 <table>
 <tr>
 <th>Value</th>
@@ -90,9 +102,9 @@ Indicates the parity of the connection.
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0x00
-
+<dl>
+<dt>0x00</dt>
+</dl>
 </td>
 <td width="60%">
 None
@@ -101,9 +113,9 @@ None
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0x01
-
+<dl>
+<dt>0x01</dt>
+</dl>
 </td>
 <td width="60%">
 Even
@@ -112,9 +124,9 @@ Even
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0x02
-
+<dl>
+<dt>0x02</dt>
+</dl>
 </td>
 <td width="60%">
 Odd
@@ -123,9 +135,9 @@ Odd
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0x03
-
+<dl>
+<dt>0x03</dt>
+</dl>
 </td>
 <td width="60%">
 Mark
@@ -134,32 +146,30 @@ Mark
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0x04
-
+<dl>
+<dt>0x04</dt>
+</dl>
 </td>
 <td width="60%">
 Space
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field LinesInUse
 
 Flag indicating the serial lines that are enabled. A value of 1 in the bit positions indicates that the line is enabled.
-
 <table>
 <tr>
 <th>Bit</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field 0
-
+<td width="40%"><a id="0"></a><dl>
+<dt><b>0</b></dt>
+</dl>
 </td>
 <td width="60%">
 This bit is reserved and must be set to zero.
@@ -167,9 +177,9 @@ This bit is reserved and must be set to zero.
 </td>
 </tr>
 <tr>
-
-### -field 1
-
+<td width="40%"><a id="1"></a><dl>
+<dt><b>1</b></dt>
+</dl>
 </td>
 <td width="60%">
 This bit is reserved and must be set to zero.
@@ -177,9 +187,9 @@ This bit is reserved and must be set to zero.
 </td>
 </tr>
 <tr>
-
-### -field 2
-
+<td width="40%"><a id="2"></a><dl>
+<dt><b>2</b></dt>
+</dl>
 </td>
 <td width="60%">
 Data Carrier Detect (DTD)
@@ -187,9 +197,9 @@ Data Carrier Detect (DTD)
 </td>
 </tr>
 <tr>
-
-### -field 3
-
+<td width="40%"><a id="3"></a><dl>
+<dt><b>3</b></dt>
+</dl>
 </td>
 <td width="60%">
 Ring Indicator (RI)
@@ -197,9 +207,9 @@ Ring Indicator (RI)
 </td>
 </tr>
 <tr>
-
-### -field 4
-
+<td width="40%"><a id="4"></a><dl>
+<dt><b>4</b></dt>
+</dl>
 </td>
 <td width="60%">
 Data Set Ready (DSR)
@@ -207,9 +217,9 @@ Data Set Ready (DSR)
 </td>
 </tr>
 <tr>
-
-### -field 5
-
+<td width="40%"><a id="5"></a><dl>
+<dt><b>5</b></dt>
+</dl>
 </td>
 <td width="60%">
 Data Terminal Ready (DTR)
@@ -217,9 +227,9 @@ Data Terminal Ready (DTR)
 </td>
 </tr>
 <tr>
-
-### -field 6
-
+<td width="40%"><a id="6"></a><dl>
+<dt><b>6</b></dt>
+</dl>
 </td>
 <td width="60%">
 Clear to Send (CTS)
@@ -227,28 +237,22 @@ Clear to Send (CTS)
 </td>
 </tr>
 <tr>
-
-### -field 7
-
+<td width="40%"><a id="7"></a><dl>
+<dt><b>7</b></dt>
+</dl>
 </td>
 <td width="60%">
 Request to Send (RTS)
 
 </td>
 </tr>
-</table>
- 
-
-
-## -remarks
+</table> 
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_resource.md">PEP_ACPI_SPB_RESOURCE</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8B6597A7-D652-4143-9320-7FB8E98FE8EC
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_GLITCH_DURATION, DXGK_GLITCH_DURATION
+ms.keywords: DXGK_GLITCH_DURATION_NONE, DXGK_GLITCH_DURATION, d3dkmddi/DXGK_GLITCH_DURATION_SINGLE_FRAME, _DXGK_GLITCH_DURATION, DXGK_GLITCH_DURATION_INDEFINITE, DXGK_GLITCH_DURATION_SINGLE_LINE, d3dkmddi/DXGK_GLITCH_DURATION_INDEFINITE, d3dkmddi/DXGK_GLITCH_DURATION_MULTI_LINE, DXGK_GLITCH_DURATION_SINGLE_FRAME, display.dxgk_glitch_duration, d3dkmddi/DXGK_GLITCH_DURATION, d3dkmddi/DXGK_GLITCH_DURATION_MULTI_FRAME, DXGK_GLITCH_DURATION_MULTI_LINE, d3dkmddi/DXGK_GLITCH_DURATION_NONE, DXGK_GLITCH_DURATION enumeration [Display Devices], DXGK_GLITCH_DURATION_MULTI_FRAME, d3dkmddi/DXGK_GLITCH_DURATION_SINGLE_LINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_GLITCH_DURATION
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_GLITCH_DURATION
+product: Windows
+targetos: Windows
 req.typenames: DXGK_GLITCH_DURATION
 ---
 
 # _DXGK_GLITCH_DURATION enumeration
 
 
-
 ## -description
+
+
 Enumeration that describes the duration of a user visible effect of a glitch during a SetTimingsFromVidPn call.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXGK_GLITCH_DURATION { 
@@ -58,6 +68,9 @@ typedef enum _DXGK_GLITCH_DURATION {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXGK_GLITCH_DURATION_INDEFINITE
 
@@ -89,4 +102,7 @@ Indicates that a glitch lasted for no more than one line.
 Indicates that there was no user visible glitch.
 
 
-## -remarks
+### -field UINT8
+
+
+

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2ed04fd0-685d-4b5a-a23f-337a14506f8b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_VideoTransferFunction, DXVA_VideoTransferFunction
+ms.keywords: dxva/DXVA_VideoTransFunc_22_8bit_sRGB, DXVA_VideoTransferFunction, DXVA_VideoTransFuncMask, dxva/DXVA_VideoTransFunc_10, DXVA_VideoTransFunc_22, display.dxva_videotransferfunction, DXVA_VideoTransFunc_28, dxva/DXVA_VideoTransFunc_22_709, DXVA_VideoTransFuncShift, dxva/DXVA_VideoTransFunc_Unknown, DXVA_VideoTransFunc_18, _DXVA_VideoTransferFunction, DXVA_VideoTransFunc_20, DXVA_VideoTransFunc_22_240M, dxva/DXVA_VideoTransFunc_22_240M, DXVA_VideoTransFunc_10, dxva/DXVA_VideoTransFunc_28, dxva/DXVA_VideoTransFuncMask, DXVA_VideoTransferFunction enumeration [Display Devices], DXVA_VideoTransFunc_22_8bit_sRGB, dxva/DXVA_VideoTransFunc_18, DXVA_VideoTransFunc_22_709, dxva/DXVA_VideoTransferFunction, DXVA_VideoTransFunc_Unknown, dxvaref_67be6e0a-79c6-4821-b3c3-899c2a2f9234.xml, dxva/DXVA_VideoTransFuncShift, dxva/DXVA_VideoTransFunc_22, dxva/DXVA_VideoTransFunc_20
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This enumeration type applies only to Windows Server 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVA_VideoTransferFunction
-req.alt-loc: dxva.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxva.h
+apiname: 
+-	DXVA_VideoTransferFunction
+product: Windows
+targetos: Windows
 req.typenames: DXVA_VideoTransferFunction
 ---
 
 # _DXVA_VideoTransferFunction enumeration
 
 
-
 ## -description
+
+
 The DXVA_VideoTransferFunction enumeration type contains enumerators that identify the conversion function from R'G'B' to RGB.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXVA_VideoTransferFunction { 
@@ -63,6 +73,9 @@ typedef enum _DXVA_VideoTransferFunction {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXVA_VideoTransFuncShift
 
@@ -97,22 +110,13 @@ Specifies true 2.0 gamma. That is, L' = pow(L, 1/gamma) for L=0..1.
 ### -field DXVA_VideoTransFunc_22
 
 
-### -field Specifies true 2.2 gamma. That is, L' = pow(L, 1/gamma) for L=0..1.
-### -field The BT470-2 SysM primaries (DXVA_VideoPrimaries enumeration type) use gamma 2.2.
-
 
 ### -field DXVA_VideoTransFunc_22_709
 
 
-### -field Specifies gamma 2.2 curve with a linear range in the low range. 
-### -field The BT709, SMPTE296M, SMPTE170M, BT470, and SMPTE274M primaries (DXVA_VideoPrimaries enumeration type) use this video transfer function. 
-
 
 ### -field DXVA_VideoTransFunc_22_240M
 
-
-### -field Specifies gamma 2.2 curve with a linear range in the low range. 
-### -field The SMPTE240M and interim 274M primaries (DXVA_VideoPrimaries enumeration type) use this video transfer function. 
 
 
 ### -field DXVA_VideoTransFunc_22_8bit_sRGB
@@ -125,18 +129,43 @@ Specifies gamma 2.4 curve with a linear range in the low range, which makes it m
 Specifies true 2.8 gamma. That is, L' = pow(L, 1/gamma) for L=0..1.
 
 
+###### - DXVA_VideoTransFunc_22_709.The BT709, SMPTE296M, SMPTE170M, BT470, and SMPTE274M primaries (DXVA_VideoPrimaries enumeration type) use this video transfer function.
+
+
+
+####### - DXVA_VideoTransFunc_22.The BT470-2 SysM primaries (DXVA_VideoPrimaries enumeration type) use gamma 2.2.
+
+
+
+###### - DXVA_VideoTransFunc_22_240M.The SMPTE240M and interim 274M primaries (DXVA_VideoPrimaries enumeration type) use this video transfer function.
+
+
+
+####### - DXVA_VideoTransFunc_22_240M.Specifies gamma 2.2 curve with a linear range in the low range.
+
+
+
+####### - DXVA_VideoTransFunc_22_709.Specifies gamma 2.2 curve with a linear range in the low range.
+
+
+
+########## - DXVA_VideoTransFunc_22.Specifies true 2.2 gamma. That is, L' = pow(L, 1/gamma) for L=0..1.
+
+
+
 ## -remarks
+
+
 One of the enumerators of DXVA_VideoTransferFunction can be specified in the <b>VideoTransferFunction</b> member of the <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a> structure.
 
 DXVA_VideoTransferFunction corresponds to the gamma function of the data. Some transfer functions have corrections to account for 8 bit integer quantization effects.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
-</dt>
-</dl>
+
  
 
  

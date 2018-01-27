@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 02de3382-031a-4d42-b349-786248da9c5c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER
+ms.keywords: PSTORAGE_DEVICE_UNIQUE_IDENTIFIER structure pointer [Storage Devices], storduid/STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, _STORAGE_DEVICE_UNIQUE_IDENTIFIER, storage.storage_device_unique_identifier, structs-general_ed4e22dc-a5cb-4746-a846-cbae5e8d7ce8.xml, STORAGE_DEVICE_UNIQUE_IDENTIFIER structure [Storage Devices], PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, storduid/PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_DEVICE_UNIQUE_IDENTIFIER
-req.alt-loc: storduid.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storduid.h
+apiname: 
+-	STORAGE_DEVICE_UNIQUE_IDENTIFIER
+product: Windows
+targetos: Windows
 req.typenames: *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _STORAGE_DEVICE_UNIQUE_IDENTIFIER structure
 
 
-
 ## -description
+
+
 The STORAGE_DEVICE_UNIQUE_IDENTIFIER structure defines a device unique identifier (DUID).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STORAGE_DEVICE_UNIQUE_IDENTIFIER {
@@ -58,6 +68,9 @@ typedef struct _STORAGE_DEVICE_UNIQUE_IDENTIFIER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -84,18 +97,12 @@ The offset, in bytes, from the beginning of the header to the device descriptor 
 The offset, in bytes, to the drive layout signature (<a href="..\storduid\ns-storduid-_storage_device_layout_signature.md">STORAGE_DEVICE_LAYOUT_SIGNATURE</a>).
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

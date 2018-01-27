@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 79dd9ff3-2a5f-457a-8a8a-4963a799055c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _TRANSACTION_BASIC_INFORMATION, *PTRANSACTION_BASIC_INFORMATION, TRANSACTION_BASIC_INFORMATION
+ms.keywords: wdm/TRANSACTION_BASIC_INFORMATION, TRANSACTION_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], ktm_ref_3246b7cb-244e-4772-b3ca-bfd69e973f12.xml, PTRANSACTION_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PTRANSACTION_BASIC_INFORMATION, kernel.transaction_basic_information, _TRANSACTION_BASIC_INFORMATION, PTRANSACTION_BASIC_INFORMATION, *PTRANSACTION_BASIC_INFORMATION, TRANSACTION_BASIC_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later operating system
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TRANSACTION_BASIC_INFORMATION
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PTRANSACTION_BASIC_INFORMATION, TRANSACTION_BASIC_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	TRANSACTION_BASIC_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: TRANSACTION_BASIC_INFORMATION, *PTRANSACTION_BASIC_INFORMATION
 req.product: Windows 10 or later.
 ---
 
 # _TRANSACTION_BASIC_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>TRANSACTION_BASIC_INFORMATION</b> structure contains information about a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _TRANSACTION_BASIC_INFORMATION {
@@ -56,6 +66,9 @@ typedef struct _TRANSACTION_BASIC_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field TransactionId
 
@@ -73,27 +86,24 @@ A <a href="..\wdm\ne-wdm-_transaction_outcome.md">TRANSACTION_OUTCOME</a>-typed 
 
 
 ## -remarks
+
+
 The <b>TRANSACTION_BASIC_INFORMATION</b> structure is used with the <a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a> routine. This routine fills in the structure's members.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-tmgettransactionid.md">TmGetTransactionId</a>
-</dt>
-<dt>
-<a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
-</dt>
-<dt>
-<a href="..\wdm\ne-wdm-_transaction_outcome.md">TRANSACTION_OUTCOME</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ne-wdm-_transaction_state.md">TRANSACTION_STATE</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ne-wdm-_transaction_outcome.md">TRANSACTION_OUTCOME</a>
+
+<a href="..\wdm\nf-wdm-tmgettransactionid.md">TmGetTransactionId</a>
+
+<a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
+
 <a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
-</dt>
-</dl>
+
  
 
  

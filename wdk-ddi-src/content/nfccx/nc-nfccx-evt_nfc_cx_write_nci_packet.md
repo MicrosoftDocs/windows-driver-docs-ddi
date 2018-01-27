@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: B734439A-E345-44CC-8FD0-8E38A718A773
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: _NPI_REGISTRATION_INSTANCE, NPI_REGISTRATION_INSTANCE
+ms.keywords: nfpdrivers.evtnfccxwritencipacket, EvtNfcCxWriteNciPacket callback function [Near-Field Proximity Drivers], EvtNfcCxWriteNciPacket, EVT_NFC_CX_WRITE_NCI_PACKET, EVT_NFC_CX_WRITE_NCI_PACKET, nfccx/EvtNfcCxWriteNciPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: EvtNfcCxWriteNciPacket
-req.alt-loc: nfccx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Requires same
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	nfccx.h
+apiname: 
+-	EvtNfcCxWriteNciPacket
+product: Windows
+targetos: Windows
 req.typenames: NPI_REGISTRATION_INSTANCE
 ---
 
 # EVT_NFC_CX_WRITE_NCI_PACKET callback
 
 
-
 ## -description
+
+
 Called by the NFC CX to send a write packet to the client driver. The request code must match IOCTL_NFCCX_WRITE_PACKET. 
 
 
-
 ## -prototype
+
 
 ````
 EVT_NFC_CX_WRITE_NCI_PACKET EvtNfcCxWriteNciPacket;
@@ -58,6 +68,9 @@ void EvtNfcCxWriteNciPacket(
 
 ## -parameters
 
+
+
+
 ### -param Device [in]
 
 A handle to a framework device object.
@@ -69,18 +82,25 @@ A handle to a framework request object.
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 The client driver should not make any blocking calls when handling this function call. Any I/O processing must be handled on a separate thread or work-item (that is, the client driver should immediately return STATUS_PENDING and on completion invoke the completion handler).
 
 
+
 ## -see-also
-<dl>
-<dt><a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a></dt>
-<dt><a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a></dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
  
 
  

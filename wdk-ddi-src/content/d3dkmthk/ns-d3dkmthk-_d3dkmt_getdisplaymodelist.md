@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c937f1df-0221-4418-b48a-bcf0c41fa1e0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_GETDISPLAYMODELIST, D3DKMT_GETDISPLAYMODELIST
+ms.keywords: D3DKMT_GETDISPLAYMODELIST, d3dkmthk/D3DKMT_GETDISPLAYMODELIST, _D3DKMT_GETDISPLAYMODELIST, OpenGL_Structs_27c1c3f3-6316-4dc3-b83d-1a8f6f6360bb.xml, display.d3dkmt_getdisplaymodelist, D3DKMT_GETDISPLAYMODELIST structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_GETDISPLAYMODELIST
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_GETDISPLAYMODELIST
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_GETDISPLAYMODELIST
 ---
 
 # _D3DKMT_GETDISPLAYMODELIST structure
 
 
-
 ## -description
+
+
 The D3DKMT_GETDISPLAYMODELIST structure describes a list of display modes.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_GETDISPLAYMODELIST {
@@ -56,6 +66,9 @@ typedef struct _D3DKMT_GETDISPLAYMODELIST {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hAdapter
 
@@ -77,18 +90,12 @@ typedef struct _D3DKMT_GETDISPLAYMODELIST {
 [in/out] The number of display modes in the array that <b>pModeList</b> specifies.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetdisplaymodelist.md">D3DKMTGetDisplayModeList</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: e6ec18a3-2da6-4b3a-afe3-17435463fd39
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _PCI_PMC, PCI_PMC, *PPCI_PMC
+ms.keywords: _PCI_PMC, PPCI_PMC structure pointer [Buses], *PPCI_PMC, PCI_PMC, PCI_PMC structure [Buses], PCI.pci_pmc, wdm/PPCI_PMC, wdm/PCI_PMC, pci_struct_5ac33692-66a0-4c2e-89dc-e5ace757e06b.xml, PPCI_PMC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PCI_PMC
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	PCI_PMC
+product: Windows
+targetos: Windows
 req.typenames: PCI_PMC, *PPCI_PMC
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _PCI_PMC structure
 
 
-
 ## -description
+
+
 The PCI_PMC structure is used to report the contents of the power management capabilities register. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PCI_PMC {
@@ -68,6 +78,58 @@ typedef struct _PCI_PMC {
 
 
 ## -struct-fields
+
+
+
+
+### -field Support
+
+
+
+### -field Support.Rsvd2
+
+Reserved. 
+
+
+### -field Support.D1
+
+Reserved. 
+
+
+### -field Support.D2
+
+Reserved. 
+
+
+### -field Support.PMED0
+
+Indicates that the device can assert the PME signal from D0. 
+
+
+### -field Support.PMED1
+
+Indicates that the device can assert the PME signal from D1. 
+
+
+### -field Support.PMED2
+
+Indicates that the device can assert the PME signal from D2. 
+
+
+### -field Support.PMED3Hot
+
+Indicates that the device can assert the PME signal from D3. 
+
+
+### -field Support.PMED3Cold
+
+Indicates that the device can assert the PME signal from D3. 
+
+
+### -field _PM_SUPPORT
+
+ 
+
 
 ### -field Version
 
@@ -94,61 +156,17 @@ Indicates when 1 that the device requires a special initialization. For more inf
 Reserved. 
 
 
-### -field Support
-
-
-### -field Rsvd2
-
-Reserved. 
-
-
-### -field D1
-
-Reserved. 
-
-
-### -field D2
-
-Reserved. 
-
-
-### -field PMED0
-
-Indicates that the device can assert the PME signal from D0. 
-
-
-### -field PMED1
-
-Indicates that the device can assert the PME signal from D1. 
-
-
-### -field PMED2
-
-Indicates that the device can assert the PME signal from D2. 
-
-
-### -field PMED3Hot
-
-Indicates that the device can assert the PME signal from D3. 
-
-
-### -field PMED3Cold
-
-Indicates that the device can assert the PME signal from D3. 
-
-</dd>
-</dl>
-
 ## -remarks
+
+
 The power management capabilities register, whose contents are reported in the PCI_PMC structure, provides information about the power management capabilities of the device. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537588">PCI_PM_CAPABILITY</a>
-</dt>
-</dl>
+
  
 
  

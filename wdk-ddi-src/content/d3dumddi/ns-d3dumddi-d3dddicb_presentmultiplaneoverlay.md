@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4161418c-4f56-4daf-bf3d-e76899ccd1b2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_PRESENTMULTIPLANEOVERLAY, D3DDDICB_PRESENTMULTIPLANEOVERLAY
+ms.keywords: D3DDDICB_PRESENTMULTIPLANEOVERLAY, d3dumddi/D3DDDICB_PRESENTMULTIPLANEOVERLAY, D3DDDICB_PRESENTMULTIPLANEOVERLAY structure [Display Devices], display.d3dddicb_presentmultiplaneoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_PRESENTMULTIPLANEOVERLAY
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	D3DDDICB_PRESENTMULTIPLANEOVERLAY
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_PRESENTMULTIPLANEOVERLAY
 ---
 
 # D3DDDICB_PRESENTMULTIPLANEOVERLAY structure
 
 
-
 ## -description
+
+
 Describes multiplane overlay allocations that content is copied to and from.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3DDDICB_PRESENTMULTIPLANEOVERLAY {
@@ -57,6 +67,9 @@ typedef struct D3DDDICB_PRESENTMULTIPLANEOVERLAY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hContext
 
@@ -87,24 +100,16 @@ The original context that the <b>hContext</b> member specifies and that the user
 An array of structures of type <a href="..\d3dumddi\ns-d3dumddi-d3dddi_multiplane_overlay_allocation_info.md">D3DDDI_MULTIPLANE_ALLOCATION_INFO</a> that specify info about the multiplane overlay allocations.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-d3dddi_multiplane_overlay_allocation_info.md">D3DDDI_MULTIPLANE_ALLOCATION_INFO</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-d3dddi_multiplane_overlay_allocation_info.md">D3DDDI_MULTIPLANE_ALLOCATION_INFO</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
  
 
  

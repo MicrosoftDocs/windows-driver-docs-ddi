@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 93078225-3487-46db-b13e-e2013be86d97
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _BDA_FILTER_TEMPLATE, *PBDA_FILTER_TEMPLATE, BDA_FILTER_TEMPLATE
+ms.keywords: PBDA_FILTER_TEMPLATE, PBDA_FILTER_TEMPLATE structure pointer [Streaming Media Devices], bdaref_cf65795d-632d-4c79-9136-95c256ae8b35.xml, *PBDA_FILTER_TEMPLATE, BDA_FILTER_TEMPLATE, BDA_FILTER_TEMPLATE structure [Streaming Media Devices], bdasup/BDA_FILTER_TEMPLATE, bdasup/PBDA_FILTER_TEMPLATE, stream.bda_filter_template, _BDA_FILTER_TEMPLATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BDA_FILTER_TEMPLATE
-req.alt-loc: bdasup.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bdasup.h
+apiname: 
+-	BDA_FILTER_TEMPLATE
+product: Windows
+targetos: Windows
 req.typenames: *PBDA_FILTER_TEMPLATE, BDA_FILTER_TEMPLATE
 ---
 
 # _BDA_FILTER_TEMPLATE structure
 
 
-
 ## -description
+
+
 The BDA_FILTER_TEMPLATE structure describes the template topology for a BDA filter. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BDA_FILTER_TEMPLATE {
@@ -55,6 +65,9 @@ typedef struct _BDA_FILTER_TEMPLATE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pFilterDescriptor
 
@@ -71,24 +84,16 @@ Number of pairs of pins in the <b>pPinPairs</b> array.
 Array of BDA_PIN_PAIRING structures that describe the topology between a pair of the filter's input and output pins. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bdasup\nf-bdasup-bdacreatefilterfactory.md">BdaCreateFilterFactory</a>
-</dt>
-<dt>
-<a href="..\bdasup\nf-bdasup-bdainitfilter.md">BdaInitFilter</a>
-</dt>
-<dt>
+
 <a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
-</dt>
-</dl>
+
+<a href="..\bdasup\nf-bdasup-bdainitfilter.md">BdaInitFilter</a>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\ndisfcanceldirectoidrequest.htm
 old-project: netvista
 ms.assetid: 05cbeca1-7420-41c6-8868-980b265523db
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisFCancelDirectOidRequest
+ms.date: 1/18/2018
+ms.keywords: NdisFCancelDirectOidRequest function [Network Drivers Starting with Windows Vista], NdisFCancelDirectOidRequest, netvista.ndisfcanceldirectoidrequest, ndis/NdisFCancelDirectOidRequest, ndis_request_direct_ref_48dc16f9-1c11-41de-9c37-91abed86b06c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.1 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisFCancelDirectOidRequest
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisFCancelDirectOidRequest
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFCancelDirectOidRequest function
 
 
-
 ## -description
+
+
 Filter drivers call the 
   <b>NdisFCancelDirectOidRequest</b> function to cancel a previous direct OID request to the underlying
   drivers.
 
 
-
 ## -syntax
+
 
 ````
 VOID NdisFCancelDirectOidRequest(
@@ -56,6 +67,9 @@ VOID NdisFCancelDirectOidRequest(
 
 
 ## -parameters
+
+
+
 
 ### -param NdisFilterHandle [in]
 
@@ -72,10 +86,15 @@ A cancellation identifier for the request. This identifier specifies the
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 Filter drivers call 
     <b>NdisFCancelDirectOidRequest</b> to cancel a previously issued direct OID request. The request can be
     originated by the filter driver or by overlying drivers. The pointer that is passed at the 
@@ -84,29 +103,25 @@ Filter drivers call
 
 The filter driver can call 
     <b>NdisFCancelDirectOidRequest</b> from the 
-    <a href="..\ndis\nc-ndis-filter_cancel_direct_oid_request.md">
-    FilterCancelDirectOidRequest</a> function to pass on the cancellation to underlying drivers.
+    <mshelp:link keywords="netvista.filtercanceldirectoidrequest" tabindex="0"><i>
+    FilterCancelDirectOidRequest</i></mshelp:link> function to pass on the cancellation to underlying drivers.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-filter_cancel_direct_oid_request.md">
-   FilterCancelDirectOidRequest</a>
-</dt>
-<dt>
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">NdisFDirectOidRequest</a>
-</dt>
-</dl>
- 
+
+<mshelp:link keywords="netvista.filtercanceldirectoidrequest" tabindex="0"><i>
+   FilterCancelDirectOidRequest</i></mshelp:link>
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFCancelDirectOidRequest function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFCancelDirectOidRequest function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

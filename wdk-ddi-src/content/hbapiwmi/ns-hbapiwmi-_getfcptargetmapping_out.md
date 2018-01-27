@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a3a3050a-6fa2-4ace-87f2-41b8364f4d30
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _GetFcpTargetMapping_OUT, *PGetFcpTargetMapping_OUT, GetFcpTargetMapping_OUT
+ms.keywords: hbapiwmi/PGetFcpTargetMapping_OUT, _GetFcpTargetMapping_OUT, hbapiwmi/GetFcpTargetMapping_OUT, PGetFcpTargetMapping_OUT, storage.getfcptargetmapping_out, GetFcpTargetMapping_OUT structure [Storage Devices], *PGetFcpTargetMapping_OUT, PGetFcpTargetMapping_OUT structure pointer [Storage Devices], GetFcpTargetMapping_OUT, structs-Fibre_ab6aca55-bb7c-4983-863c-de94e835a600.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GetFcpTargetMapping_OUT
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PGetFcpTargetMapping_OUT, GetFcpTargetMapping_OUT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	GetFcpTargetMapping_OUT
+product: Windows
+targetos: Windows
+req.typenames: GetFcpTargetMapping_OUT, *PGetFcpTargetMapping_OUT
 ---
 
 # _GetFcpTargetMapping_OUT structure
 
 
-
 ## -description
+
+
 The GetFcpTargetMapping_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a> WMI method to the WMI client. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GetFcpTargetMapping_OUT {
@@ -56,6 +66,9 @@ typedef struct _GetFcpTargetMapping_OUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HBAStatus
 
@@ -78,26 +91,24 @@ Contains an array of structures of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcp
 
 
 ## -remarks
+
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a> WMI method reports mappings between the information that uniquely identifies a set of logical units for the operating system and the fibre channel protocol (FCP) identifiers for these logical units.
 
 The WMI tool suite generates a declaration of the GetFcpTargetMapping_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-</dt>
-<dt>
+
 <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpscsientry.md">HBAFCPScsiEntry</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>
-</dt>
-</dl>
+
  
 
  

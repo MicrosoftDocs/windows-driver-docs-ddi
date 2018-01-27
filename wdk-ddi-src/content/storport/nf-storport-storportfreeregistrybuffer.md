@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 19e6bf4a-8951-44a6-ac04-f286d8979e40
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortFreeRegistryBuffer
+ms.keywords: storprt_a81ec7f6-e78c-4bf0-9289-2a833623664d.xml, StorPortFreeRegistryBuffer routine [Storage Devices], storport/StorPortFreeRegistryBuffer, storage.storportfreeregistrybuffer, StorPortFreeRegistryBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortFreeRegistryBuffer
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortFreeRegistryBuffer
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortFreeRegistryBuffer function
 
 
-
 ## -description
+
+
 The <b>StorPortFreeRegistryBuffer</b> routine frees the buffer that was allocated for storing registry data. 
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API VOID StorPortFreeRegistryBuffer(
@@ -55,6 +66,9 @@ STORPORT_API VOID StorPortFreeRegistryBuffer(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -67,19 +81,23 @@ Pointer to the buffer to be freed.
 
 
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 The <b>StorPortFreeRegistryBuffer</b> routine frees the buffer that was allocated by <a href="..\storport\nf-storport-storportallocateregistrybuffer.md">StorPortAllocateRegistryBuffer</a>. Miniport drivers can only have one registry buffer open at a time. After the miniport driver calls the <b>StorPortFreeRegistryBuffer</b> routine, subsequent calls by the miniport driver to <b>StorPortAllocateRegistryBuffer</b> will succeed. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\nf-storport-storportallocateregistrybuffer.md">StorPortAllocateRegistryBuffer</a>
-</dt>
-</dl>
+
  
 
  

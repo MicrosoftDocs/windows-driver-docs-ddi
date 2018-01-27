@@ -7,8 +7,8 @@ old-location: netvista\ndismderegisterioportrange.htm
 old-project: netvista
 ms.assetid: b5b6a608-af1f-4030-b83a-a6f64ff3a264
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisMDeregisterIoPortRange
+ms.date: 1/18/2018
+ms.keywords: netvista.ndismderegisterioportrange, NdisMDeregisterIoPortRange function [Network Drivers Starting with Windows Vista], NdisMDeregisterIoPortRange, miniport_port_io_ref_3ec72b06-3f52-46b9-b699-774a7df4a658.xml, ndis/NdisMDeregisterIoPortRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    N
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisMDeregisterIoPortRange
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_Miniport_Driver_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisMDeregisterIoPortRange
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMDeregisterIoPortRange function
 
 
-
 ## -description
+
+
 <b>NdisMDeregisterIoPortRange</b> releases a mapping that was set up with 
   <a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a> during
   driver initialization.
 
 
-
 ## -syntax
+
 
 ````
 VOID NdisMDeregisterIoPortRange(
@@ -58,6 +69,9 @@ VOID NdisMDeregisterIoPortRange(
 
 
 ## -parameters
+
+
+
 
 ### -param MiniportAdapterHandle [in]
 
@@ -82,10 +96,15 @@ Specifies the mapped base port address returned by
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The miniport driver must pass the same 
     <i>InitialPort</i> and 
     <i>NumberOfPorts</i> to 
@@ -111,21 +130,18 @@ After it calls
     <b>NdisRaw..Port<i>Xxx</i></b> functions.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMDeregisterIoPortRange function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMDeregisterIoPortRange function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

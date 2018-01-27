@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b73e49d1-3e71-4c36-b628-3d5a3975e5fa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_SUBMITCOMMANDFLAGS, DXGK_SUBMITCOMMANDFLAGS
+ms.keywords: d3dkmddi/DXGK_SUBMITCOMMANDFLAGS, DXGK_SUBMITCOMMANDFLAGS, DXGK_SUBMITCOMMANDFLAGS structure [Display Devices], DmStructs_c3c77059-3e18-4fe7-a845-b59bb117ba30.xml, display.dxgk_submitcommandflags, _DXGK_SUBMITCOMMANDFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_SUBMITCOMMANDFLAGS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_SUBMITCOMMANDFLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_SUBMITCOMMANDFLAGS
 ---
 
 # _DXGK_SUBMITCOMMANDFLAGS structure
 
 
-
 ## -description
+
+
 The DXGK_SUBMITCOMMANDFLAGS structure identifies, in bit-field flags, information about a direct memory access (DMA) buffer to submit to the graphics processing unit (GPU).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_SUBMITCOMMANDFLAGS {
@@ -74,6 +84,9 @@ typedef struct _DXGK_SUBMITCOMMANDFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Paging
 
@@ -124,10 +137,7 @@ Setting this is equivalent to setting the sixth bit of the 32-bit <b>Value</b> m
 A UINT value that specifies that the GPU should switch from the current executing context to the null context.
 
 Starting with  Windows 8, the operating system explicitly requests the GPU to switch to the null context whenever an attempt is made to move or evict a resource that belongs to the context that is currently executing on the GPU. The context switch request is performed by submitting a zero-length DMA buffer with the <b>ContextSwitch</b> member set.
-
-<div class="alert"><b>Note</b>  If the current context was executing an operation that used a paging buffer, the context switch command is  submitted with the <b>Paging</b> member also set to one.</div>
-<div> </div>
-Setting this is equivalent to setting the seventh bit of the 32-bit <b>Value</b> member (0x00000040).
+<div class="alert"><b>Note</b>  If the current context was executing an operation that used a paging buffer, the context switch command is  submitted with the <b>Paging</b> member also set to one.</div><div> </div>Setting this is equivalent to setting the seventh bit of the 32-bit <b>Value</b> member (0x00000040).
 
 
 ### -field Resubmission
@@ -139,21 +149,20 @@ The flag is set to zero in WDDM 1.x regardless of whether a packet has been prev
 Supported starting with Windows 10.
 
 
+### -field VirtualMachineData
+
+ 
+
+
 ### -field Reserved
 
 [in] This member is reserved and should be set to zero.
-
-
-### -field Reserved
 
 [in] Supported beginning with Windows 8.
 
 This member is reserved and should be set to zero.
 
 Setting this is equivalent to setting the remaining 25 bits of the 32-bit <b>Value</b> member (0xFFFFFF80).
-
-
-### -field Reserved
 
 [in] This member is reserved and should be set to zero.
 
@@ -165,18 +174,12 @@ Setting this member to zero is equivalent to setting the remaining 26 bits (0xFF
 [in] A member in the union that DXGK_SUBMITCOMMANDFLAGS contains that can hold one 32-bit value that identifies information about the DMA buffer.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_submitcommand.md">DXGKARG_SUBMITCOMMAND</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a>
-</dt>
-</dl>
+
  
 
  

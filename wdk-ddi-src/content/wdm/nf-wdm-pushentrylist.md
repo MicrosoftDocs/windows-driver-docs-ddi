@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 19f387d3-6c00-4c71-8114-61c53654613c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PushEntryList
+ms.keywords: kernel.pushentrylist, wdm/PushEntryList, k109_17626baa-0fb7-4492-9e9c-a25b78b808fb.xml, PushEntryList, PushEntryList routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PushEntryList
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level (See Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	PushEntryList
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PushEntryList function
 
 
-
 ## -description
+
+
 The <b>PushEntryList</b> routine inserts an entry at the beginning of a singly linked list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563799">SINGLE_LIST_ENTRY</a> structures.
 
 
-
 ## -syntax
+
 
 ````
 VOID PushEntryList(
@@ -55,6 +65,9 @@ VOID PushEntryList(
 
 
 ## -parameters
+
+
+
 
 ### -param ListHead [in, out]
 
@@ -67,10 +80,15 @@ Pointer to SINGLE_LIST_ENTRY structure that represents the entry to be inserted 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>PushEntryList</b> sets <i>ListHead</i>-&gt;<b>Next</b> to <i>Entry</i>, and <i>Entry</i>-&gt;<b>Next</b> to point to the old first entry of the list.
 
 For information about using this routine when implementing a singly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
@@ -78,15 +96,13 @@ For information about using this routine when implementing a singly linked list,
 Callers of <b>PushEntryList</b> can be running at any IRQL. If <b>PushEntryList</b> is called at IRQL &gt;= DISPATCH_LEVEL, the storage for <i>ListHead</i> and the list entries must be resident.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-exinterlockedpushentrylist.md">ExInterlockedPushEntryList</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-popentrylist.md">PopEntryList</a>
-</dt>
-</dl>
+
  
 
  

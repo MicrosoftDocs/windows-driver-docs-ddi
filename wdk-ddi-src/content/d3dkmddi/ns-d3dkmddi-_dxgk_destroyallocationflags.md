@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8f848d68-cef4-45a2-bdda-1bc8c9df6272
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_DESTROYALLOCATIONFLAGS, DXGK_DESTROYALLOCATIONFLAGS
+ms.keywords: DXGK_DESTROYALLOCATIONFLAGS, d3dkmddi/DXGK_DESTROYALLOCATIONFLAGS, display.dxgk_destroyallocationflags, DmStructs_acc32f8d-3d16-493e-be05-e739bc635bd0.xml, DXGK_DESTROYALLOCATIONFLAGS structure [Display Devices], _DXGK_DESTROYALLOCATIONFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_DESTROYALLOCATIONFLAGS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_DESTROYALLOCATIONFLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_DESTROYALLOCATIONFLAGS
 ---
 
 # _DXGK_DESTROYALLOCATIONFLAGS structure
 
 
-
 ## -description
+
+
 The DXGK_DESTROYALLOCATIONFLAGS structure identifies how to release allocations.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_DESTROYALLOCATIONFLAGS {
@@ -59,6 +69,9 @@ typedef struct _DXGK_DESTROYALLOCATIONFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DestroyResource
 
@@ -77,15 +90,10 @@ This member is reserved and should be set to zero. Setting this member to zero i
 A member in the union that DXGK_DESTROYALLOCATIONFLAGS contains that can hold a 32-bit value that identifies how to release allocations.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_destroyallocation.md">DXGKARG_DESTROYALLOCATION</a>
-</dt>
-</dl>
+
  
 
  

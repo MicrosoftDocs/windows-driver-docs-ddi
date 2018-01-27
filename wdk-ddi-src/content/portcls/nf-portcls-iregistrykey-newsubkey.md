@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 39b352ba-4b6f-4d9c-baf5-a479d8c74ae0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IRegistryKey, IRegistryKey::NewSubKey, NewSubKey
+ms.keywords: IRegistryKey interface [Audio Devices], NewSubKey method, NewSubKey method [Audio Devices], IRegistryKey interface, portcls/IRegistryKey::NewSubKey, IRegistryKey, audio.iregistrykey_newsubkey, NewSubKey method [Audio Devices], audmp-routines_8a9e8a73-551d-46d4-90a8-f24183c38d8d.xml, NewSubKey, IRegistryKey::NewSubKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IRegistryKey.NewSubKey
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IRegistryKey.NewSubKey
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IRegistryKey::NewSubKey method
 
 
-
 ## -description
+
+
 The <code>NewSubKey</code> method either creates a new registry subkey or opens an existing subkey under the key represented by the <b>IRegistryKey</b> object.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS NewSubKey(
@@ -58,6 +68,9 @@ NTSTATUS NewSubKey(
 
 
 ## -parameters
+
+
+
 
 ### -param RegistrySubKey [out]
 
@@ -90,10 +103,15 @@ Output pointer for the disposition value. This parameter points to a caller-allo
 
 
 ## -returns
+
+
 <code>NewSubKey</code> returns STATUS_SUCCESS if the call was successful in outputting a valid <b>IRegistryKey</b> pointer through the <i>RegistrySubKey</i> parameter. Otherwise, the method returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 The <code>NewSubKey</code> method either opens the specified registry key if it already exists, or creates a new key in the registry if it does not exist. The method outputs a pointer to the <b>IRegistryKey</b> interface of the new key through the <i>RegistrySubKey</i> parameter. The method also outputs a status value through the optional <i>Disposition</i> parameter to indicate whether the key was opened or created.
 
 The <i>DesiredAccess</i>, <i>CreateOptions</i>, and <i>Disposition</i> parameters take on the values that are defined for the parameters with the same names in the <a href="..\portcls\nf-portcls-pcnewregistrykey.md">PcNewRegistryKey</a> call.
@@ -103,24 +121,19 @@ The <i>DesiredAccess</i> parameter is an access-control mask that specifies the 
 The <i>RegistrySubKey</i> and <i>OuterUnknown</i> parameters follow the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
-</dt>
-<dt>
-<a href="..\portcls\nf-portcls-pcnewregistrykey.md">PcNewRegistryKey</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
+
+<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\portcls\nf-portcls-pcnewregistrykey.md">PcNewRegistryKey</a>
+
  
 
  

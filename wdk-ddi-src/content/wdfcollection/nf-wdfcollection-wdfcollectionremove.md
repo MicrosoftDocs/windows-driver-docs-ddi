@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3a708949-3d4e-49b2-bef2-7151aec2b84b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfCollectionRemove
+ms.keywords: wdf.wdfcollectionremove, PFN_WDFCOLLECTIONREMOVE, wdfcollection/WdfCollectionRemove, WdfCollectionRemove, kmdf.wdfcollectionremove, WdfCollectionRemove method, DFCollectionObjectRef_ec848e8e-f64b-4f17-997a-0d9b6c509eb0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WdfCollectionRemove
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll,WUDFx02000.dll,WUDFx02000.dll.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,37 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: *PWDF_CHILD_RETRIEVE_INFO, WDF_CHILD_RETRIEVE_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+-	WUDFx02000.dll
+-	WUDFx02000.dll.dll
+apiname: 
+-	WdfCollectionRemove
+product: Windows
+targetos: Windows
+req.typenames: WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO
 req.product: Windows 10 or later.
 ---
 
 # WdfCollectionRemove function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfCollectionRemove</b> method removes an object from a specified object collection.
 
 
-
 ## -syntax
+
 
 ````
 VOID WdfCollectionRemove(
@@ -57,6 +70,9 @@ VOID WdfCollectionRemove(
 
 
 ## -parameters
+
+
+
 
 ### -param Collection [in]
 
@@ -69,25 +85,27 @@ A handle to the framework object that will be removed from the collection.
 
 
 ## -returns
+
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
+
 ## -remarks
+
+
 When <b>WdfCollectionRemove</b> removes an object from a collection, it decrements the object's reference count. 
 
 For more information about object collections, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-collections">Framework Object Collections</a>.
 
-The following code example removes a specified object from a specified object collection.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectionremoveitem.md">WdfCollectionRemoveItem</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\rilresetmodemconfigparameter.htm
 old-project: netvista
 ms.assetid: 8cf95185-3935-4434-b9d5-c2a63a9f3eba
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILRESETMODEMCONFIGPARAMETER, RILRESETMODEMCONFIGPARAMETER
+ms.date: 1/18/2018
+ms.keywords: ntddrilapitypes/RIL_RESETMODEMCONFIGPARAMETER_MAX, RILRESETMODEMCONFIGPARAMETER enumeration [Network Drivers Starting with Windows Vista], netvista.rilresetmodemconfigparameter, RIL_RESETMODEMCONFIGPARAMETER_MAX, RILRESETMODEMCONFIGPARAMETER, ntddrilapitypes/RILRESETMODEMCONFIGPARAMETER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILRESETMODEMCONFIGPARAMETER
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILRESETMODEMCONFIGPARAMETER
+product: Windows
+targetos: Windows
 req.typenames: RILRESETMODEMCONFIGPARAMETER
 ---
 
 # RILRESETMODEMCONFIGPARAMETER enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILRESETMODEMCONFIGPARAMETER { 
@@ -54,7 +64,13 @@ typedef enum _RILRESETMODEMCONFIGPARAMETER {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_RESETMODEMCONFIGPARAMETER_IMSENABLEMENTSTATE
+
+
+
 ### -field RIL_RESETMODEMCONFIGPARAMETER_MAX
 
 
-## -remarks

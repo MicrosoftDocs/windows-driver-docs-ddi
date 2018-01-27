@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 098fe3b9-1169-4ff6-8822-0eb277cb73f9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
+ms.keywords: _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE structure [Display Devices], display.d3dkmt_queryresourceinfofromnthandle, d3dkmthk/D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
 ---
 
 # _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE structure
 
 
-
 ## -description
+
+
 Describes information that is required to map a global NT handle to resource information.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE {
@@ -59,6 +69,9 @@ typedef struct _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -97,15 +110,10 @@ typedef struct _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE {
 [out] The number of allocations associated with the resource.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfofromnthandle.md">D3DKMTQueryResourceInfoFromNtHandle</a>
-</dt>
-</dl>
+
  
 
  

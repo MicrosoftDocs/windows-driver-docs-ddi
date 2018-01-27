@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c40e25f8-e6e5-43bc-895d-a6b247d07470
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _KSFILTERFACTORY, *PKSFILTERFACTORY, KSFILTERFACTORY
+ms.keywords: KSFILTERFACTORY structure [Streaming Media Devices], _KSFILTERFACTORY, ks/PKSFILTERFACTORY, avstruct_def7ad6b-4cda-4677-abbc-3f8a458fbc87.xml, PKSFILTERFACTORY, stream.ksfilterfactory, ks/KSFILTERFACTORY, PKSFILTERFACTORY structure pointer [Streaming Media Devices], *PKSFILTERFACTORY, KSFILTERFACTORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSFILTERFACTORY
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSFILTERFACTORY, KSFILTERFACTORY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSFILTERFACTORY
+product: Windows
+targetos: Windows
+req.typenames: KSFILTERFACTORY, *PKSFILTERFACTORY
 ---
 
 # _KSFILTERFACTORY structure
 
 
-
 ## -description
+
+
 The KSFILTERFACTORY structure represents a filter factory.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _KSFILTERFACTORY {
@@ -56,22 +66,28 @@ typedef struct _KSFILTERFACTORY {
 
 ## -struct-fields
 
-### -field FilterDescriptor
-
-A pointer to a <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a> structure that describes the characteristics of filters created by this factory.
 
 
-### -field Bag
-
-This member specifies the KSOBJECT_BAG (equivalent to type PVOID) associated with this filter factory. Object bags are structures used to associate dynamic memory with a specific AVStream object. Anything in the filter factory object bag is automatically cleaned up when the filter factory is deleted. See the conceptual section on <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d9">Object Bags</a> for more information.
 
 
-### -field Context
+#### - Context
 
 A pointer to a memory address that the client may use to associate context information with the filter factory. AVStream does not use this member in any way. Note that any dynamic memory associated with the filter factory should be placed in the object bag with <b>KsAddItemToObjectBag</b>. <b>Context</b> is initialized to the value of the <b>Context</b> member of the parent <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> at the time the factory is created. See <a href="https://msdn.microsoft.com/b7d6f06d-6c97-414e-a453-d375e2d7ccf5">AVStream Object Hierarchy</a>.
 
 
+#### - Bag
+
+This member specifies the KSOBJECT_BAG (equivalent to type PVOID) associated with this filter factory. Object bags are structures used to associate dynamic memory with a specific AVStream object. Anything in the filter factory object bag is automatically cleaned up when the filter factory is deleted. See the conceptual section on <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d9">Object Bags</a> for more information.
+
+
+#### - FilterDescriptor
+
+A pointer to a <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a> structure that describes the characteristics of filters created by this factory.
+
+
 ## -remarks
+
+
 A filter factory explicitly represents a device's ability to instantiate a given type of filter as described by a filter descriptor.
 
 Drivers for hardware typically use this structure to manage a particular function of the hardware that is exposed as a type of filter. Software filters generally do not need to manage the device at this level.
@@ -83,18 +99,15 @@ For the purposes of synchronization, the lifetime of filter factories created im
 Also see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d9">Object Bags</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-kscreatefilterfactory.md">KsCreateFilterFactory</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
+
+<a href="..\ks\nf-ks-kscreatefilterfactory.md">KsCreateFilterFactory</a>
+
  
 
  

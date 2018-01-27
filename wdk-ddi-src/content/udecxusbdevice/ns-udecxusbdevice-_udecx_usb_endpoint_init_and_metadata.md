@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B68FD95B-E7B8-4748-A1D0-09A1F9763626
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UDECX_USB_ENDPOINT_INIT_AND_METADATA, *PUDECX_USB_ENDPOINT_INIT_AND_METADATA, UDECX_USB_ENDPOINT_INIT_AND_METADATA
+ms.keywords: udecxusbdevice/UDECX_USB_ENDPOINT_INIT_AND_METADATA, UDECX_USB_ENDPOINT_INIT_AND_METADATA, *PUDECX_USB_ENDPOINT_INIT_AND_METADATA, buses.udecx_usb_endpoint_init_and_metadata, _UDECX_USB_ENDPOINT_INIT_AND_METADATA, PUDECX_USB_ENDPOINT_INIT_AND_METADATA, udecxusbdevice/PUDECX_USB_ENDPOINT_INIT_AND_METADATA, UDECX_USB_ENDPOINT_INIT_AND_METADATA structure [Buses], PUDECX_USB_ENDPOINT_INIT_AND_METADATA structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UDECX_USB_ENDPOINT_INIT_AND_METADATA
-req.alt-loc: UdecxUsbDevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	UdecxUsbDevice.h
+apiname: 
+-	UDECX_USB_ENDPOINT_INIT_AND_METADATA
+product: Windows
+targetos: Windows
 req.typenames: *PUDECX_USB_ENDPOINT_INIT_AND_METADATA, UDECX_USB_ENDPOINT_INIT_AND_METADATA
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _UDECX_USB_ENDPOINT_INIT_AND_METADATA structure
 
 
-
 ## -description
+
+
 Contains the descriptors supported by an endpoint of a virtual USB device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UDECX_USB_ENDPOINT_INIT_AND_METADATA {
@@ -57,6 +67,9 @@ typedef struct _UDECX_USB_ENDPOINT_INIT_AND_METADATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UdecxUsbEndpointInit
 
@@ -78,15 +91,10 @@ Required. A buffer containing the endpoint descriptor. The descriptor is describ
 Optional. A USB-defined SuperSpeed Endpoint Companion descriptor. For more information, see section 9.6.7 and Table 9-20 in the official USB 3.0 specification. The descriptor is described in a <a href="..\usbspec\ns-usbspec-_usb_superspeed_endpoint_companion_descriptor.md">USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR</a> structure.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_endpoint_add.md">EVT_UDECX_USB_DEVICE_ENDPOINT_ADD</a>
-</dt>
-</dl>
+
  
 
  

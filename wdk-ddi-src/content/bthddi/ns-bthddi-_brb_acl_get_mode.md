@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 2fe473c8-dcf9-4457-b1b1-c55b3eaa68e6
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BRB_ACL_GET_MODE,
+ms.keywords: _BRB_ACL_GET_MODE structure [Bluetooth Devices], bthddi/_BRB_ACL_GET_MODE, bltooth._brb_acl_get_mode, bth_structs_ce659c96-d1af-4e27-b31a-f6700ff88331.xml, _BRB_ACL_GET_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: _BRB_ACL_GET_MODE
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthddi.h
+apiname: 
+-	_BRB_ACL_GET_MODE
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # _BRB_ACL_GET_MODE structure
 
 
-
 ## -description
+
+
 The _BRB_ACL_GET_MODE structure describes the ACL mode for the specified remote device.
 
 
-
 ## -syntax
+
 
 ````
 struct _BRB_ACL_GET_MODE {
@@ -55,6 +65,9 @@ struct _BRB_ACL_GET_MODE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Hdr
 
@@ -76,23 +89,22 @@ A value from the
 
 
 ## -remarks
+
+
 To get the current ACL connection state for a remote device, profile drivers should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536609">BRB_ACL_GET_MODE</a> request.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\bthddi\ne-bthddi-_acl_mode.md">ACL_MODE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536609">BRB_ACL_GET_MODE</a>
-</dt>
-</dl>
+
  
 
  

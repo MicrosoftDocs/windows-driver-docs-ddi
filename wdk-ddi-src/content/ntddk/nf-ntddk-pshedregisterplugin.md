@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 8ad93312-932c-417c-8198-9ba515e3d55d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PshedRegisterPlugin
+ms.keywords: PshedRegisterPlugin, PshedRegisterPlugin function [WHEA Drivers and Applications], ntddk/PshedRegisterPlugin, whearef_27f04399-dd53-44b3-a31e-350aee53bcb1.xml, whea.pshedregisterplugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PshedRegisterPlugin
-req.alt-loc: Pshed.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Pshed.lib
 req.dll: Pshed.dll
 req.irql: <=DISPATCH_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Pshed.dll
+apiname: 
+-	PshedRegisterPlugin
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # PshedRegisterPlugin function
 
 
-
 ## -description
+
+
 The <b>PshedRegisterPlugin</b> function registers a PSHED plug-in with the PSHED.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PshedRegisterPlugin(
@@ -54,39 +64,64 @@ NTSTATUS PshedRegisterPlugin(
 
 ## -parameters
 
+
+
+
 ### -param Packet [in, out]
 
 A pointer to an initialized  <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure that describes the PSHED plug-in's registration information.
 
 
 ## -returns
+
+
 <b>PshedRegisterPlugin</b> returns one of the following NTSTATUS codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The PSHED plug-in was successfully registered.
+</dl>
+</td>
+<td width="60%">
+The PSHED plug-in was successfully registered.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The data in the supplied registration packet is invalid.
+</dl>
+</td>
+<td width="60%">
+The data in the supplied registration packet is invalid.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A PSHED plug-in calls the <b>PshedRegisterPlugin</b> function to register itself with the PSHED. A PSHED plug-in typically calls this function from within either its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> function or its <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+
  
 
  

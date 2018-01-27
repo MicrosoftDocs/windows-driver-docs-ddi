@@ -7,8 +7,8 @@ old-location: print\devqueryprint_info.htm
 old-project: print
 ms.assetid: c46193f2-4c69-4aed-a063-2225faba9ee1
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: _DEVQUERYPRINT_INFO, DEVQUERYPRINT_INFO, *PDEVQUERYPRINT_INFO
+ms.date: 1/18/2018
+ms.keywords: *PDEVQUERYPRINT_INFO, print.devqueryprint_info, print_interface-graphics_f968cd94-5290-4aab-908b-c0c01d3038a6.xml, DEVQUERYPRINT_INFO structure [Print Devices], PDEVQUERYPRINT_INFO, _DEVQUERYPRINT_INFO, winddiui/PDEVQUERYPRINT_INFO, DEVQUERYPRINT_INFO, winddiui/DEVQUERYPRINT_INFO, PDEVQUERYPRINT_INFO structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DEVQUERYPRINT_INFO
-req.alt-loc: winddiui.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DEVQUERYPRINT_INFO, *PDEVQUERYPRINT_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	winddiui.h
+apiname: 
+-	DEVQUERYPRINT_INFO
+product: Windows
+targetos: Windows
+req.typenames: *PDEVQUERYPRINT_INFO, DEVQUERYPRINT_INFO
 req.product: Windows 10 or later.
 ---
 
 # _DEVQUERYPRINT_INFO structure
 
 
-
 ## -description
+
+
 The DEVQUERYPRINT_INFO structure is used as an input parameter to a printer interface DLL's <a href="..\winddiui\nf-winddiui-devqueryprintex.md">DevQueryPrintEx</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DEVQUERYPRINT_INFO {
@@ -60,6 +70,9 @@ typedef struct _DEVQUERYPRINT_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field cbSize
 
@@ -96,18 +109,13 @@ Spooler-supplied size, in bytes, of the string buffer pointed to by <b>pszErrorS
 Driver-supplied length, in bytes, of the error string supplied in the buffer pointed to by <b>pszErrorStr</b>. If the string is too large to fit in the buffer, the string should be truncated, but the untruncated length should be specified here.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\winddiui\nf-winddiui-devqueryprintex.md">DevQueryPrintEx</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20DEVQUERYPRINT_INFO structure%20 RELEASE:%20(1/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20DEVQUERYPRINT_INFO structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

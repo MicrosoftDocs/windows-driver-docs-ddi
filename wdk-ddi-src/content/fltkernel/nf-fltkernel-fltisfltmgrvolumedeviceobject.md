@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c4165eab-c62e-436d-b4d4-a1f72ee9c1bd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltIsFltMgrVolumeDeviceObject
+ms.keywords: FltIsFltMgrVolumeDeviceObject, FltIsFltMgrVolumeDeviceObject routine [Installable File System Drivers], ifsk.fltisfltmgrvolumedeviceobject, fltkernel/FltIsFltMgrVolumeDeviceObject, FltApiRef_e_to_o_95cc07b6-722c-4d2a-bec1-57fff9e2c6e3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Vista or later versions of the Windows o
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltIsFltMgrVolumeDeviceObject
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltIsFltMgrVolumeDeviceObject
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltIsFltMgrVolumeDeviceObject function
 
 
-
 ## -description
+
+
 The <b>FltIsFltMgrVolumeDeviceObject</b> routine determines whether the given device object belongs to filter manager and if the device object is a volume device object.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FltIsFltMgrVolumeDeviceObject(
@@ -54,25 +64,32 @@ BOOLEAN FltIsFltMgrVolumeDeviceObject(
 
 ## -parameters
 
+
+
+
 ### -param DeviceObject [in]
 
 A pointer to the device object (<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>) to test.
 
 
 ## -returns
+
+
 The <b>FltIsFltMgrVolumeDeviceObject</b> routine returns <b>TRUE</b> if <i>DeviceObject</i> is a filter manager volume device object; otherwise, it returns <b>FALSE</b>.
 
 
+
 ## -remarks
+
+
 None
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-</dl>
+
  
 
  

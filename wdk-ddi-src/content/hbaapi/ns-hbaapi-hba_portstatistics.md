@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3a0d6633-b4a6-4864-96ae-4f91de11daa1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_PortStatistics, HBA_PORTSTATISTICS, *PHBA_PORTSTATISTICS, *PSMHBA_FCPHYSTATISTICS, SMHBA_FCPHYSTATISTICS
+ms.keywords: SMHBA_FCPHYSTATISTICS, HBA_PORTSTATISTICS, hbaapi/PHBA_PORTSTATISTICS, storage.hba_portstatistics, *PHBA_PORTSTATISTICS, HBA_PortStatistics, *PSMHBA_FCPHYSTATISTICS, PHBA_PORTSTATISTICS, hbaapi/HBA_PortStatistics, HBA_PortStatistics structure [Storage Devices], PHBA_PORTSTATISTICS structure pointer [Storage Devices], HBA_PORTSTATISTICS structure [Storage Devices], structs-Fibre_4c6c7237-af5e-415a-a7db-db594b1a5968.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBA_PORTSTATISTICS
-req.alt-loc: hbaapi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: HBA_PORTSTATISTICS, *PHBA_PORTSTATISTICS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbaapi.h
+apiname: 
+-	HBA_PORTSTATISTICS
+product: Windows
+targetos: Windows
+req.typenames: *PHBA_PORTSTATISTICS, HBA_PORTSTATISTICS
 ---
 
 # HBA_PortStatistics structure
 
 
-
 ## -description
+
+
 The HBA_PortStatistics structure contains statistical information about a port. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct HBA_PortStatistics {
@@ -67,6 +77,9 @@ typedef struct HBA_PortStatistics {
 
 
 ## -struct-fields
+
+
+
 
 ### -field SecondsSinceLastReset
 
@@ -143,15 +156,10 @@ Reports the value of the invalid transmission word field of the link error statu
 Reports the value of the invalid CRC count field of the link error status block for the specified port. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\hbaapi\nf-hbaapi-hba_getportstatistics.md">HBA_GetPortStatistics</a>
-</dt>
-</dl>
+
  
 
  

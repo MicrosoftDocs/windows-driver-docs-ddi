@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9A7B4181-0592-4C40-BC5A-99AFFA57846C
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfInterruptReportActive
+ms.keywords: kmdf._wdfinterruptreportactive, PFN_WDFINTERRUPTREPORTACTIVE, wdfinterrupt/WdfInterruptReportActive, wdf.wdfinterruptreportactive, kmdf.wdfinterruptreportactive, WdfInterruptReportActive, WdfInterruptReportActive method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 1.11
 req.umdf-ver: 
-req.alt-api: WdfInterruptReportActive
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: DriverCreate
 req.unicode-ansi: 
 req.idl: 
@@ -31,15 +29,28 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-req.typenames: WDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfInterruptReportActive
+product: Windows
+targetos: Windows
+req.typenames: *PWDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY
 req.product: Windows 10 or later.
 ---
 
 # WdfInterruptReportActive function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 
@@ -47,8 +58,8 @@ req.product: Windows 10 or later.
   The <b>WdfInterruptReportActive</b> informs the system that the interrupt is active and the driver is ready to process interrupt requests on the associated lines.
 
 
-
 ## -syntax
+
 
 ````
 void WdfInterruptReportActive(
@@ -59,16 +70,24 @@ void WdfInterruptReportActive(
 
 ## -parameters
 
+
+
+
 ### -param Interrupt [in]
 
 A handle to a framework interrupt object.
 
 
 ## -returns
+
+
 This method does not return a value.
 
 
+
 ## -remarks
+
+
 Only drivers that implement functional state power management call <b>WdfInterruptReportActive</b>.
 
    
@@ -81,15 +100,12 @@ If your driver calls this method on an operating system earlier than Windows 8,
 
 For more information, see <a href="https://msdn.microsoft.com/F96214C9-702D-402E-B873-5DF57C521B34">Supporting Functional Power States</a>.
 
-The following example shows how a driver might call <b>WdfInterruptReportActive</b> from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a> routine of a KMDF driver. The driver registers a single component by calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptreportinactive.md">WdfInterruptReportInactive</a>
-</dt>
-</dl>
+
  
 
  

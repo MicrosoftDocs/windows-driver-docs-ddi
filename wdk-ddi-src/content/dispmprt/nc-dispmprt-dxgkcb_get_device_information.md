@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cb627eab-93b9-49c5-bd35-4a57220366e7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+ms.keywords: display.dxgkcbgetdeviceinformation, DxgkCbGetDeviceInformation callback function [Display Devices], DxgkCbGetDeviceInformation, DXGKCB_GET_DEVICE_INFORMATION, DXGKCB_GET_DEVICE_INFORMATION, dispmprt/DxgkCbGetDeviceInformation, DpFunctions_e2d65bd6-c28f-46db-acf1-b88ececedb08.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkCbGetDeviceInformation
-req.alt-loc: Dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Dispmprt.h
+apiname: 
+-	DxgkCbGetDeviceInformation
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKCB_GET_DEVICE_INFORMATION callback
 
 
-
 ## -description
+
+
 The <i>DxgkCbGetDeviceInformation</i> function gets information, including the registry path and a list of translated resources, about a specified display adapter.
 
 
-
 ## -prototype
+
 
 ````
 DXGKCB_GET_DEVICE_INFORMATION DxgkCbGetDeviceInformation;
@@ -58,6 +68,9 @@ NTSTATUS DxgkCbGetDeviceInformation(
 
 ## -parameters
 
+
+
+
 ### -param DeviceHandle [in]
 
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function.
@@ -69,23 +82,18 @@ A pointer to a <a href="..\dispmprt\ns-dispmprt-_dxgk_device_info.md">DXGK_DEVIC
 
 
 ## -returns
+
+
 <i>DxgkCbGetDeviceInformation</i> returns STATUS_SUCCESS if it succeeds; otherwise, it returns STATUS_INVALID_PARAMETER.
 
-The following code example shows a partial implementation of <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> in which <i>DxgkCbGetDeviceInformation</i> is called.
-
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\dispmprt\ns-dispmprt-_dxgk_device_info.md">DXGK_DEVICE_INFO</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
-</dt>
-</dl>
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_device_info.md">DXGK_DEVICE_INFO</a>
+
  
 
  

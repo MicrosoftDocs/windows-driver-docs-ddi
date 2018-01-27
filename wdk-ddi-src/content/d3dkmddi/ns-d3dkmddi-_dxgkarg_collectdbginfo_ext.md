@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cbde31fe-06c1-44af-8940-b66e8044a5cd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_COLLECTDBGINFO_EXT, DXGKARG_COLLECTDBGINFO_EXT
+ms.keywords: _DXGKARG_COLLECTDBGINFO_EXT, DXGKARG_COLLECTDBGINFO_EXT, d3dkmddi/DXGKARG_COLLECTDBGINFO_EXT, DmStructs_3c280734-d3c8-4970-a6d8-8ad2b3dce913.xml, DXGKARG_COLLECTDBGINFO_EXT structure [Display Devices], display.dxgkarg_collectdbginfo_ext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_COLLECTDBGINFO_EXT
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_COLLECTDBGINFO_EXT
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_COLLECTDBGINFO_EXT
 ---
 
 # _DXGKARG_COLLECTDBGINFO_EXT structure
 
 
-
 ## -description
+
+
 The DXGKARG_COLLECTDBGINFO_EXT structure describes extension information for a debug report.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_COLLECTDBGINFO_EXT {
@@ -60,6 +70,9 @@ typedef struct _DXGKARG_COLLECTDBGINFO_EXT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field BucketingKey
 
@@ -101,18 +114,12 @@ Reserved for future use.
 Reserved for future use.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_collectdbginfo.md">DXGKARG_COLLECTDBGINFO</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_collectdbginfo.md">DxgkDdiCollectDbgInfo</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_collectdbginfo.md">DXGKARG_COLLECTDBGINFO</a>
+
  
 
  

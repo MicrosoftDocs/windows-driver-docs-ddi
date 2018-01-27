@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F3C17CD8-F423-46E7-891F-E428235CEF3D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCM_CONNECTOR_TYPEC_CONFIG, UCM_CONNECTOR_TYPEC_CONFIG, *PUCM_CONNECTOR_TYPEC_CONFIG
+ms.keywords: buses.ucm_connector_type_c_config, PUCM_CONNECTOR_TYPEC_CONFIG, _UCM_CONNECTOR_TYPEC_CONFIG, *PUCM_CONNECTOR_TYPEC_CONFIG, UCM_CONNECTOR_TYPEC_CONFIG, ucmmanager/UCM_CONNECTOR_TYPEC_CONFIG, PUCM_CONNECTOR_TYPEC_CONFIG structure pointer [Buses], UCM_CONNECTOR_TYPEC_CONFIG structure [Buses], ucmmanager/PUCM_CONNECTOR_TYPEC_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 2.15
-req.alt-api: UCM_CONNECTOR_TYPEC_CONFIG
-req.alt-loc: Ucmmanager.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: UCM_CONNECTOR_TYPEC_CONFIG, *PUCM_CONNECTOR_TYPEC_CONFIG
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ucmmanager.h
+apiname: 
+-	UCM_CONNECTOR_TYPEC_CONFIG
+product: Windows
+targetos: Windows
+req.typenames: *PUCM_CONNECTOR_TYPEC_CONFIG, UCM_CONNECTOR_TYPEC_CONFIG
 req.product: Windows 10 or later.
 ---
 
 # _UCM_CONNECTOR_TYPEC_CONFIG structure
 
 
-
 ## -description
+
+
 Describes the configuration options for a Type-C connector. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UCM_CONNECTOR_TYPEC_CONFIG {
@@ -59,6 +69,9 @@ typedef struct _UCM_CONNECTOR_TYPEC_CONFIG {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -91,15 +104,16 @@ A pointer to the client driver's implementation of the <a href="..\ucmmanager\nc
 
 
 ## -remarks
+
+
 Initialize this structure by calling <a href="..\ucmmanager\nf-ucmmanager-ucm_connector_typec_config_init.md">UCM_CONNECTOR_TYPEC_CONFIG_INIT</a>. An initialized <b>UCM_CONNECTOR_TYPEC_CONFIG</b> structure is an input parameter value to <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a> that is used by Policy Manager to create a connector object.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>
-</dt>
-</dl>
+
  
 
  

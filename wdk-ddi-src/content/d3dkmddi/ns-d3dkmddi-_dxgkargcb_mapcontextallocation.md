@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F26E382F-D9F8-4452-983E-4523A77ADC35
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARGCB_MAPCONTEXTALLOCATION, DXGKARGCB_MAPCONTEXTALLOCATION
+ms.keywords: display.dxgkargcb_mapcontextallocation, DXGKARGCB_MAPCONTEXTALLOCATION, _DXGKARGCB_MAPCONTEXTALLOCATION, d3dkmddi/DXGKARGCB_MAPCONTEXTALLOCATION, DXGKARGCB_MAPCONTEXTALLOCATION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARGCB_MAPCONTEXTALLOCATION
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARGCB_MAPCONTEXTALLOCATION
+product: Windows
+targetos: Windows
 req.typenames: DXGKARGCB_MAPCONTEXTALLOCATION
 ---
 
 # _DXGKARGCB_MAPCONTEXTALLOCATION structure
 
 
-
 ## -description
+
+
 <b>DXGKARGCB_MAPCONTEXTALLOCATION</b> is used with <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_mapcontextallocation.md">DxgkCbMapContextAllocation</a> to map a graphics processing unit (GPU) virtual address to the specified context allocation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARGCB_MAPCONTEXTALLOCATION {
@@ -60,6 +70,9 @@ typedef struct _DXGKARGCB_MAPCONTEXTALLOCATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field BaseAddress
 
@@ -114,18 +127,12 @@ Specifies the protection on the GPU virtual address that is mapped.
 Specifies the driver protection parameters.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_mapcontextallocation.md">DxgkCbMapContextAllocation</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
+
  
 
  

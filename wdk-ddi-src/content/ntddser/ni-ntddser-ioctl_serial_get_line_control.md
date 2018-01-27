@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 72585a00-ee43-44fa-a6f4-baa9fe5a2e3f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SdBusSubmitRequestAsync
+ms.keywords: serports.ioctl_serial_get_line_control, IOCTL_SERIAL_GET_LINE_CONTROL control code [Serial Ports], IOCTL_SERIAL_GET_LINE_CONTROL, ntddser/IOCTL_SERIAL_GET_LINE_CONTROL, serref_46b42112-a960-44dc-8ce7-3c8d68746fe9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_SERIAL_GET_LINE_CONTROL
-req.alt-loc: Ntddser.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddser.h
+apiname: 
+-	IOCTL_SERIAL_GET_LINE_CONTROL
+product: Windows
+targetos: Windows
 req.typenames: SD_REQUEST_FUNCTION
 ---
 
 # IOCTL_SERIAL_GET_LINE_CONTROL IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 The <b>IOCTL_SERIAL_GET_LINE_CONTROL</b> request returns information about the line control set for a serial device. The line control parameters include the number of stop bits, the number of data bits, and the parity.
 
 To configure the line control, a client can use an <a href="..\ntddser\ni-ntddser-ioctl_serial_set_line_control.md">IOCTL_SERIAL_SET_LINE_CONTROL</a> request.
@@ -46,52 +61,58 @@ To configure the line control, a client can use an <a href="..\ntddser\ni-ntddse
 For information about valid line control register settings, see <a href="..\ntddser\ns-ntddser-_serial_line_control.md">SERIAL_LINE_CONTROL</a>.
 
 
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 None.
 
 
 ### -input-buffer-length
+
 None.
 
 
 ### -output-buffer
+
 The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated <b>SERIAL_LINE_CONTROL</b> structure that the serial controller driver uses to output information about the line control configuration.
 
 
 ### -output-buffer-length
+
 The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the size, in bytes, of a <b>SERIAL_LINE_CONTROL</b> structure.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 If the request is successful, the <b>Information</b> member is set to the size, in bytes, of a <b>SERIAL_LINE_CONTROL</b> structure. Otherwise, the <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="serial_device_control_requests.htm#generic_status_values_for_serial_device_control_requests">Generic Status Values for Serial Device Control Requests</a>.
-
-
-## -remarks
+The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddser\ni-ntddser-ioctl_serial_set_line_control.md">IOCTL_SERIAL_SET_LINE_CONTROL</a>
-</dt>
-<dt>
+
 <a href="..\ntddser\ns-ntddser-_serial_line_control.md">SERIAL_LINE_CONTROL</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c754f540-19ff-491f-89ec-63d3306c4068
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_DeinterlaceQueryAvailableModes, DXVA_DeinterlaceQueryAvailableModes
+ms.keywords: DXVA_DeinterlaceQueryAvailableModes, DXVA_DeinterlaceQueryAvailableModes structure [Display Devices], _DXVA_DeinterlaceQueryAvailableModes, display.dxva_deinterlacequeryavailablemodes, dxvaref_9c2ffe96-e286-4f0f-bb6b-57bc6ee64b2c.xml, dxva/DXVA_DeinterlaceQueryAvailableModes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVA_DeinterlaceQueryAvailableModes
-req.alt-loc: dxva.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxva.h
+apiname: 
+-	DXVA_DeinterlaceQueryAvailableModes
+product: Windows
+targetos: Windows
 req.typenames: DXVA_DeinterlaceQueryAvailableModes
 ---
 
 # _DXVA_DeinterlaceQueryAvailableModes structure
 
 
-
 ## -description
+
+
 The DXVA_DeinterlaceQueryAvailableModes structure describes the available deinterlacing or frame-rate conversion modes for a particular input video format.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVA_DeinterlaceQueryAvailableModes {
@@ -55,6 +65,9 @@ typedef struct _DXVA_DeinterlaceQueryAvailableModes {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -72,6 +85,10 @@ An array of GUIDs that are returned for the available deinterlace modes.
 
 
 ## -remarks
+
+
 The driver receives the DXVA_DeinterlaceQueryAvailableModes structure with the <b>Size</b> member assigned, assigns values to the remaining members, and returns DXVA_DeinterlaceQueryAvailableModes to the renderer.
 
-There is a GUID for each deinterlace and frame conversion mode returned by the driver. The GUIDs should be returned in order of descending quality (that is, the highest quality mode should occupy the first element of the GUID array returned). </p>
+There is a GUID for each deinterlace and frame conversion mode returned by the driver. The GUIDs should be returned in order of descending quality (that is, the highest quality mode should occupy the first element of the GUID array returned). 
+
+

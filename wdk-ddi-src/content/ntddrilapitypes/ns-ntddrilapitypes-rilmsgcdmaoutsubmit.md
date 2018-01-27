@@ -7,8 +7,8 @@ old-location: netvista\rilmsgcdmaoutsubmit.htm
 old-project: netvista
 ms.assetid: 3ed93cff-7974-4cf9-9b89-f4a8e52c4c3d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT, *LPRILMSGCDMAOUTSUBMIT
+ms.date: 1/18/2018
+ms.keywords: netvista.rilmsgcdmaoutsubmit, RILMSGCDMAOUTSUBMIT structure [Network Drivers Starting with Windows Vista], *LPRILMSGCDMAOUTSUBMIT, ntddrilapitypes/RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILMSGCDMAOUTSUBMIT
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILMSGCDMAOUTSUBMIT, *LPRILMSGCDMAOUTSUBMIT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILMSGCDMAOUTSUBMIT
+product: Windows
+targetos: Windows
+req.typenames: *LPRILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT
 ---
 
 # RILMSGCDMAOUTSUBMIT structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILMSGCDMAOUTSUBMIT {
@@ -76,73 +86,97 @@ typedef struct _RILMSGCDMAOUTSUBMIT {
 
 ## -struct-fields
 
+
+
+
 ### -field raDestAddress
+
 
 
 ### -field rsaDestSubaddr
 
 
+
 ### -field bDigit
+
 
 
 ### -field stValidityPeriodAbs
 
 
+
 ### -field stValidityPeriodRel
+
 
 
 ### -field stDeferredDelTimeAbs
 
 
+
 ### -field stDeferredDelTimeRel
+
 
 
 ### -field bDeliveryAckRequest
 
 
+
 ### -field bUserAckRequest
+
 
 
 ### -field bBearerReplyRequest
 
 
+
 ### -field dwReplySeqNumber
+
 
 
 ### -field dwMsgDisplayMode
 
 
+
 ### -field raCallBackNumber
+
 
 
 ### -field dwMsgPriority
 
 
+
 ### -field dwMsgPrivacy
+
 
 
 ### -field dwTeleservice
 
 
+
 ### -field dwMsgID
+
 
 
 ### -field dwMsgLang
 
 
+
 ### -field dwMsgEncoding
+
 
 
 ### -field cbHdrLength
 
 
+
 ### -field cchMsgLength
+
 
 
 ### -field rgbHdr
 
 
+
 ### -field rgbMsg
 
 
-## -remarks

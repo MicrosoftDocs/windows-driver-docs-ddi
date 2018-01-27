@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e189d2f6-ef1c-45ed-8b55-8aae0661a426
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest2, IWDFIoRequest2::GetQueryInformationParameters, GetQueryInformationParameters
+ms.keywords: IWDFIoRequest2 interface, GetQueryInformationParameters method, umdf.iwdfiorequest2_getqueryinformationparameters, GetQueryInformationParameters method, IWDFIoRequest2 interface, IWDFIoRequest2::GetQueryInformationParameters, UMDFRequestObjectRef_595d2b4c-1286-4243-b440-0efaae03980d.xml, wudfddi/IWDFIoRequest2::GetQueryInformationParameters, GetQueryInformationParameters, IWDFIoRequest2, wdf.iwdfiorequest2_getqueryinformationparameters, GetQueryInformationParameters method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.9
-req.alt-api: IWDFIoRequest2.GetQueryInformationParameters
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFIoRequest2.GetQueryInformationParameters
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IWDFIoRequest2::GetQueryInformationParameters method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetQueryInformationParameters</b> method retrieves parameters that are associated with a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WdfRequestQueryInformation</a>-typed I/O request.
 
 
-
 ## -syntax
+
 
 ````
 void GetQueryInformationParameters(
@@ -57,6 +67,9 @@ void GetQueryInformationParameters(
 
 
 ## -parameters
+
+
+
 
 ### -param pInformationClass [out, optional]
 
@@ -69,26 +82,27 @@ A pointer to a driver-allocated variable that receives the size, in bytes, of th
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 Your driver can call <b>GetQueryInformationParameters</b> to obtain the parameters that are associated with an I/O request, if the request type is <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WdfRequestQueryInformation</a>. The <i>pInformationClass</i> parameter identifies the type of file information that the driver should provide, and the <i>pSizeInBytes</i> parameter specifies the size of the buffer that will receive the information. The driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559041">IWDFIoRequest2::RetrieveOutputBuffer</a> to obtain the buffer address. 
 
 Your driver must verify that the specified buffer size is large enough to receive the requested file information.
 
-The following code example is part of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556847">IQueueCallbackDefaultIoHandler::OnDefaultIoHandler</a> callback function. If the callback function receives a query information request, it retrieves the request's parameters. If the driver supports the specified type of information, it copies the information into the request's output buffer.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559009">IWDFIoRequest2::GetSetInformationParameters</a>
-</dt>
-</dl>
+
  
 
  

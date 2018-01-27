@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0d822370-f08b-404d-ad0f-60ea091661d9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_PPM_PERF_SET_STATE, PEP_PPM_PERF_SET_STATE, *PPEP_PPM_PERF_SET_STATE
+ms.keywords: kernel.pep_ppm_perf_set_state, PPEP_PPM_PERF_SET_STATE, _PEP_PPM_PERF_SET_STATE, pepfx/PEP_PPM_PERF_SET_STATE, PPEP_PPM_PERF_SET_STATE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_PERF_SET_STATE, *PPEP_PPM_PERF_SET_STATE, PEP_PPM_PERF_SET_STATE structure [Kernel-Mode Driver Architecture], PEP_PPM_PERF_SET_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_PPM_PERF_SET_STATE
-req.alt-loc: Pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Pepfx.h
+apiname: 
+-	PEP_PPM_PERF_SET_STATE
+product: Windows
+targetos: Windows
 req.typenames: PEP_PPM_PERF_SET_STATE, *PPEP_PPM_PERF_SET_STATE
 ---
 
 # _PEP_PPM_PERF_SET_STATE structure
 
 
-
 ## -description
+
+
 Used in the <b>PEP_NOTIFY_PPM_PERF_SET </b>notification at runtime to set the current operating performance of the processor.  
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_PPM_PERF_SET_STATE {
@@ -55,6 +65,9 @@ typedef struct _PEP_PPM_PERF_SET_STATE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field MinimumPerformanceState
 
@@ -70,25 +83,18 @@ On input, the new requested maximum performance state. This state is defined as 
 
 On input, the new requested desired performance state. This state is defined as the performance level power manager is requesting from the processor. Desired performance may be set to any performance value in the range [Minimum Performance, Maximum Performance], inclusive. Desired performance may take one of two meanings, depending on whether the desired performance is above or below the guaranteed performance level. 
 
-
 <ul>
 <li>Below the guaranteed performance level, desired performance expresses the average performance level the platform must provide.  
 </li>
 <li>Above the guaranteed performance level, the platform must provide the guaranteed performance level. The platform should attempt to provide up to the desired performance level, if current operating conditions allow for it, but it is not required to do so. </li>
 </ul>
-
  
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186881">Processor power management (PPM) notifications</a>
-</dt>
-</dl>
+
  
 
  

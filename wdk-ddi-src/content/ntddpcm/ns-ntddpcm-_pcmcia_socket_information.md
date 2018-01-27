@@ -8,7 +8,7 @@ old-project: PCMCIA
 ms.assetid: 53881aca-e49c-43e9-b68e-b91a1868e3f5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _PCMCIA_SOCKET_INFORMATION, PCMCIA_SOCKET_INFORMATION, *PPCMCIA_SOCKET_INFORMATION
+ms.keywords: PPCMCIA_SOCKET_INFORMATION structure pointer [Buses], PCMCIA.pcmcia_socket_information, PCMCIA_SOCKET_INFORMATION structure [Buses], ntddpcm/PCMCIA_SOCKET_INFORMATION, ntddpcm/PPCMCIA_SOCKET_INFORMATION, PPCMCIA_SOCKET_INFORMATION, memcdref_b118ae5c-5dc5-4919-809d-5cfe5b25598f.xml, PCMCIA_SOCKET_INFORMATION, *PPCMCIA_SOCKET_INFORMATION, _PCMCIA_SOCKET_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PCMCIA_SOCKET_INFORMATION
-req.alt-loc: ntddpcm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: PCMCIA_SOCKET_INFORMATION, *PPCMCIA_SOCKET_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddpcm.h
+apiname: 
+-	PCMCIA_SOCKET_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: *PPCMCIA_SOCKET_INFORMATION, PCMCIA_SOCKET_INFORMATION
 ---
 
 # _PCMCIA_SOCKET_INFORMATION structure
 
 
-
 ## -description
+
+
 The PCMCIA_SOCKET_INFORMATION structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537275">IOCTL_SOCKET_INFORMATION</a> request to retrieve socket configuration and state data. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PCMCIA_SOCKET_INFORMATION {
@@ -62,6 +72,9 @@ typedef struct _PCMCIA_SOCKET_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Socket
 
@@ -91,7 +104,6 @@ Contains the name of the PC Card or CardBus card device driver.
 ### -field DeviceFunctionId
 
 Indicates the type of PC Card or CardBus card. This value can be one of the following.
-
 <table>
 <tr>
 <th>PC Card Type</th>
@@ -227,8 +239,7 @@ Modem card.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Reserved
@@ -251,15 +262,10 @@ Indicates that the card is enabled.
 Indicates the controller type. Some common controller types are defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537600">PCMCIA_CONTROLLER_CLASS</a> enumeration. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537275">IOCTL_SOCKET_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

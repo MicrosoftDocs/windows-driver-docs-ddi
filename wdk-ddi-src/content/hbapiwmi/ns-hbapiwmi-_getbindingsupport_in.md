@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f5383092-9e77-4b58-911a-4842a3b9e9ef
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _GetBindingSupport_IN, *PGetBindingSupport_IN, GetBindingSupport_IN
+ms.keywords: structs-Fibre_858abc05-6d3e-4630-a9f9-4b9aa742ea8e.xml, GetBindingSupport_IN structure [Storage Devices], hbapiwmi/PGetBindingSupport_IN, storage.getbindingsupport_in, GetBindingSupport_IN, hbapiwmi/GetBindingSupport_IN, PGetBindingSupport_IN structure pointer [Storage Devices], PGetBindingSupport_IN, _GetBindingSupport_IN, *PGetBindingSupport_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GetBindingSupport_IN
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	GetBindingSupport_IN
+product: Windows
+targetos: Windows
 req.typenames: *PGetBindingSupport_IN, GetBindingSupport_IN
 ---
 
 # _GetBindingSupport_IN structure
 
 
-
 ## -description
+
+
 The GetBindingSupport_IN structure is used by a WMI client to deliver the input parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553910">GetBindingSupport</a> WMI method to the HBA miniport driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GetBindingSupport_IN {
@@ -54,21 +64,25 @@ typedef struct _GetBindingSupport_IN {
 
 ## -struct-fields
 
+
+
+
 ### -field PortWWN
 
 Contains a worldwide name that indicates the port whose persistent bindings are to be retrieved. 
 
 
 ## -remarks
+
+
 The WMI tool suite generates a declaration of the GetBindingSupport_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553910">GetBindingSupport</a>
-</dt>
-</dl>
+
  
 
  

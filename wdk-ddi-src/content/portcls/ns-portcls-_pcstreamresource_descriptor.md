@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 978D06FC-B5CC-409C-BE5D-CA4B53005D8C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _PCSTREAMRESOURCE_DESCRIPTOR, PCSTREAMRESOURCE_DESCRIPTOR, *PPCSTREAMRESOURCE_DESCRIPTOR
+ms.keywords: *PPCSTREAMRESOURCE_DESCRIPTOR, portcls/PCSTREAMRESOURCE_DESCRIPTOR, portcls/PPCSTREAMRESOURCE_DESCRIPTOR, audio.pcstreamresource_descriptor, PPCSTREAMRESOURCE_DESCRIPTOR structure pointer [Audio Devices], _PCSTREAMRESOURCE_DESCRIPTOR, PCSTREAMRESOURCE_DESCRIPTOR, PCSTREAMRESOURCE_DESCRIPTOR structure [Audio Devices], PPCSTREAMRESOURCE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PCSTREAMRESOURCE_DESCRIPTOR
-req.alt-loc: Portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: PCSTREAMRESOURCE_DESCRIPTOR, *PPCSTREAMRESOURCE_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Portcls.h
+apiname: 
+-	PCSTREAMRESOURCE_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: *PPCSTREAMRESOURCE_DESCRIPTOR, PCSTREAMRESOURCE_DESCRIPTOR
 ---
 
 # _PCSTREAMRESOURCE_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 PCSTREAMRESOURCE_DESCRIPTOR defines the stream resource. Use PCSTREAMRESOURCE_DESCRIPTOR_INIT to correctly initialize this structure. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PCSTREAMRESOURCE_DESCRIPTOR {
@@ -64,6 +74,38 @@ typedef struct _PCSTREAMRESOURCE_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
+
+### -field Resource
+
+
+
+### -field Resource.Interrupt
+
+ 
+
+
+### -field Resource.Interrupt.Version
+
+ 
+
+
+### -field Resource.Interrupt.Generic
+
+ 
+
+
+### -field Resource.Thread
+
+Thread.
+
+
+### -field Resource.ResourceSet
+
+Reserved for future use, set to NULL. Only device-scoped resources are supported at this time.
+
 
 ### -field Size
 
@@ -86,32 +128,18 @@ The physical device object of the stack that created this resource.
 The union of the different stream resource types.
 
 
-### -field Resource
-
-
-### -field Thread
-
-Thread.
-
-
-### -field  ResourceSet
-
-Reserved for future use, set to NULL. Only device-scoped resources are supported at this time.
-
-</dd>
-</dl>
-
 ## -remarks
+
+
 Stream resources are any resources used by the audio driver to process audio streams or ensure audio data flow. Two type of stream resources are supported: interrupts and driver-owned threads. Audio drivers should register a resource after creating the resource, and unregister the resource before deleted it. 
 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\ne-portcls-_pcstreamresourcetype.md">PcStreamResourceType</a>
-</dt>
-</dl>
+
  
 
  

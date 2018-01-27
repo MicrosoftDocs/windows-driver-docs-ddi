@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9008e5e6-e03c-4d34-99bd-3e6624327fcc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_BACKLIGHT_INFO, DXGK_BACKLIGHT_INFO
+ms.keywords: d3dkmdt/DXGK_BACKLIGHT_INFO, display.dxgk_backlight_info, _DXGK_BACKLIGHT_INFO, DXGK_BACKLIGHT_INFO structure [Display Devices], DXGK_BACKLIGHT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_BACKLIGHT_INFO
-req.alt-loc: D3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmdt.h
+apiname: 
+-	DXGK_BACKLIGHT_INFO
+product: Windows
+targetos: Windows
 req.typenames: DXGK_BACKLIGHT_INFO
 ---
 
 # _DXGK_BACKLIGHT_INFO structure
 
 
-
 ## -description
+
+
 Contains the current level of backlight reduction that is applied to the integrated display panel. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers that support adaptive brightness control.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_BACKLIGHT_INFO {
@@ -55,6 +65,9 @@ typedef struct _DXGK_BACKLIGHT_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field BacklightUsersetting
 
@@ -77,18 +90,18 @@ This lookup table represents the gamma ramp that has been optimized for backligh
 
 
 ## -remarks
+
+
 For more information about the use of this structure, see Remarks of the <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get_backlight_reduction.md">DxgkDdiGetBacklightReduction</a> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_gamma_ramp_rgb256x3x16.md">D3DDDI_GAMMA_RAMP_RGB256x3x16</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get_backlight_reduction.md">DxgkDdiGetBacklightReduction</a>
-</dt>
-</dl>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_gamma_ramp_rgb256x3x16.md">D3DDDI_GAMMA_RAMP_RGB256x3x16</a>
+
  
 
  

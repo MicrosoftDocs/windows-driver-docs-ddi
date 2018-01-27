@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: e7c50bac-96ca-446d-a865-4ad87ad5b295
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_DEVICE_SPEED, USB_DEVICE_SPEED
+ms.keywords: _USB_DEVICE_SPEED, USB_DEVICE_SPEED enumeration [Buses], usbstrct_c458b58d-fcfa-4082-bbcf-34e22d504ab9.xml, buses.usb_device_speed, usbspec/USB_DEVICE_SPEED, usbspec/UsbFullSpeed, usbspec/UsbHighSpeed, USB_DEVICE_SPEED, UsbLowSpeed, usbspec/UsbLowSpeed, usbspec/UsbSuperSpeed, UsbSuperSpeed, UsbHighSpeed, UsbFullSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_DEVICE_SPEED
-req.alt-loc: Usbspec.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Usbspec.h
+apiname: 
+-	USB_DEVICE_SPEED
+product: Windows
+targetos: Windows
 req.typenames: USB_DEVICE_SPEED
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USB_DEVICE_SPEED enumeration
 
 
-
 ## -description
+
+
 The <b>USB_DEVICE_SPEED</b> enumeration defines constants for USB device speeds. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -58,17 +68,20 @@ typedef enum  {
 
 ## -enum-fields
 
-### -field UsbLowSpeed 
+
+
+
+### -field UsbLowSpeed
 
 Indicates a low-speed USB 1.1-compliant device.
 
 
-### -field UsbFullSpeed  
+### -field UsbFullSpeed
 
 Indicates a full-speed USB 1.1-compliant device.
 
 
-### -field UsbHighSpeed  
+### -field UsbHighSpeed
 
 Indicates a high-speed USB 2.0-compliant device. 
 
@@ -82,15 +95,10 @@ Indicates a SuperSpeed USB 3.0-compliant device.
 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
-</dt>
-</dl>
+
  
 
  

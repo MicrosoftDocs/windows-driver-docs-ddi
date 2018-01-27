@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 20989831-5ff0-4457-9dae-ceaf34830a2e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CREATE_DISK, *PCREATE_DISK, CREATE_DISK
+ms.keywords: _CREATE_DISK, storage.create_disk, CREATE_DISK, CREATE_DISK structure [Storage Devices], ntdddisk/PCREATE_DISK, PCREATE_DISK, structs-disk_568deb80-fbd8-4c86-9646-a49355ab0d52.xml, *PCREATE_DISK, PCREATE_DISK structure pointer [Storage Devices], ntdddisk/CREATE_DISK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CREATE_DISK
-req.alt-loc: ntdddisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntdddisk.h
+apiname: 
+-	CREATE_DISK
+product: Windows
+targetos: Windows
 req.typenames: *PCREATE_DISK, CREATE_DISK
 ---
 
 # _CREATE_DISK structure
 
 
-
 ## -description
+
+
 The CREATE_DISK structure is used with the  <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>  IOCTL to initialize a disk with an empty partition table. The partition table styles are master boot record (MBR)  or GUID partition table (GPT).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CREATE_DISK {
@@ -58,39 +68,49 @@ typedef struct _CREATE_DISK {
 
 ## -struct-fields
 
+
+
+
+### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.Mbr
+
+ 
+
+
+### -field DUMMYUNIONNAME.Gpt
+
+ 
+
+
 ### -field PartitionStyle
 
 Takes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a> enumerated value that specifies the type of partition table to use when formatting the disk.
 
 
-### -field Mbr
+#### - Mbr
 
 Contains the signature used to initialize an MBR-style disk partition for the first time. This member is valid when <b>PartitionStyle</b> is PARTITION_STYLE_MBR. For more information, see <a href="..\ntdddisk\ns-ntdddisk-_create_disk_mbr.md">CREATE_DISK_MBR</a>.
 
 
-### -field Gpt
+#### - Gpt
 
 Contains data used to initialize a GPT-style disk partition for the first time. This member is valid when <b>PartitionStyle</b> is PARTITION_STYLE_GPT. For more information, see <a href="..\ntdddisk\ns-ntdddisk-_create_disk_gpt.md">CREATE_DISK_GPT</a>. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
-</dt>
-<dt>
+
 <a href="..\ntdddisk\ns-ntdddisk-_create_disk_mbr.md">CREATE_DISK_MBR</a>
-</dt>
-<dt>
-<a href="..\ntdddisk\ns-ntdddisk-_create_disk_gpt.md">CREATE_DISK_GPT</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
-</dt>
-</dl>
+
+<a href="..\ntdddisk\ns-ntdddisk-_create_disk_gpt.md">CREATE_DISK_GPT</a>
+
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
+
  
 
  

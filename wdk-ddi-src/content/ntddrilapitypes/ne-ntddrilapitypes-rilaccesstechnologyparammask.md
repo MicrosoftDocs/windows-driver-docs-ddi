@@ -7,8 +7,8 @@ old-location: netvista\rilaccesstechnologyparammask.htm
 old-project: netvista
 ms.assetid: 58589d8c-f58c-4cb4-8f8e-0021f423efdf
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILACCESSTECHNOLOGYPARAMMASK, RILACCESSTECHNOLOGYPARAMMASK
+ms.date: 1/18/2018
+ms.keywords: ntddrilapitypes/RILACCESSTECHNOLOGYPARAMMASK, RILACCESSTECHNOLOGYPARAMMASK, ntddrilapitypes/RIL_PARAM_ACCTECH_ALL, RILACCESSTECHNOLOGYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_ACCTECH_SYSTEMKIND, RIL_PARAM_ACCTECH_SYSTEMKIND, RIL_PARAM_ACCTECH_ALL, netvista.rilaccesstechnologyparammask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILACCESSTECHNOLOGYPARAMMASK
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILACCESSTECHNOLOGYPARAMMASK
+product: Windows
+targetos: Windows
 req.typenames: RILACCESSTECHNOLOGYPARAMMASK
 ---
 
 # RILACCESSTECHNOLOGYPARAMMASK enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILACCESSTECHNOLOGYPARAMMASK { 
@@ -55,10 +65,17 @@ typedef enum _RILACCESSTECHNOLOGYPARAMMASK {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_PARAM_ACCTECH_SYSTEMTYPE
+
+
+
 ### -field RIL_PARAM_ACCTECH_SYSTEMKIND
+
 
 
 ### -field RIL_PARAM_ACCTECH_ALL
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d2872ea2-565b-47db-8054-876fd3c8fc4d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinRegisterIrpCompletionCallback
+ms.keywords: stream.kspinregisterirpcompletioncallback, KsPinRegisterIrpCompletionCallback function [Streaming Media Devices], KsPinRegisterIrpCompletionCallback, ks/KsPinRegisterIrpCompletionCallback, avfunc_ab906fd4-c863-467e-828e-34316fb65269.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsPinRegisterIrpCompletionCallback
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsPinRegisterIrpCompletionCallback
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsPinRegisterIrpCompletionCallback function
 
 
-
 ## -description
+
+
 The <b>KsPinRegisterIrpCompletionCallback</b> function registers a minidriver-defined callback routine for a specified pin. AVStream calls the minidriver-provided routine when an IRP completes a pass around the circuit and the frame that is associated with the IRP is about to be recycled or retired.
 
 
-
 ## -syntax
+
 
 ````
 void KsPinRegisterIrpCompletionCallback(
@@ -55,6 +66,9 @@ void KsPinRegisterIrpCompletionCallback(
 
 ## -parameters
 
+
+
+
 ### -param Pin [in]
 
 A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which to register a completion callback.
@@ -62,18 +76,19 @@ A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which t
 
 ### -param IrpCompletion [in]
 
-<dl>
-<dd>
 This parameter supplies the address of a <a href="..\ks\nc-ks-pfnkspinirpcompletion.md">AVStrMiniPinIrpCompletion</a> routine to be called when an IRP completes its traversal of the circuit and is about to be recycled or retired.
 
-</dd>
-</dl>
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>KsPinRegisterIrpCompletionCallback </b>must be called at IRQL=PASSIVE_LEVEL before the pin goes into KSSTATE_ACQUIRE. For more information about pin states, see <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>.
 
 This function is frequently called from the pin creation dispatch. See <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>.
@@ -83,27 +98,21 @@ This function is frequently called from the pin creation dispatch. See <a href="
 <b>KsPinRegisterIrpCompletionCallback</b> differs significantly from <a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a> in that this routine does not place the pin in any new mode; it simply registers a callback routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
-</dt>
-<dt>
+
 <a href="..\ks\nc-ks-pfnkspinirp.md">AVStrMiniPinCreate</a>
-</dt>
-<dt>
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-</dt>
-<dt>
+
 <a href="..\ks\nc-ks-pfnkspinirpcompletion.md">AVStrMiniPinIrpCompletion</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 8e6b967f-7114-4231-bcfc-23637cd83268
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortMidi, IPortMidi::RegisterServiceGroup, RegisterServiceGroup
+ms.keywords: RegisterServiceGroup method [Audio Devices], IPortMidi interface, audmp-routines_ff2228bf-489d-4980-a317-e9cb89e4f394.xml, audio.iportmidi_registerservicegroup, IPortMidi::RegisterServiceGroup, RegisterServiceGroup, IPortMidi interface [Audio Devices], RegisterServiceGroup method, RegisterServiceGroup method [Audio Devices], portcls/IPortMidi::RegisterServiceGroup, IPortMidi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPortMidi.RegisterServiceGroup
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IPortMidi.RegisterServiceGroup
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPortMidi::RegisterServiceGroup method
 
 
-
 ## -description
+
+
 The <code>RegisterServiceGroup</code> method registers the service group to be used for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536893">IPortMidi::Notify</a> method.
 
 
-
 ## -syntax
+
 
 ````
 void RegisterServiceGroup(
@@ -54,31 +64,36 @@ void RegisterServiceGroup(
 
 ## -parameters
 
+
+
+
 ### -param ServiceGroup [in]
 
 Pointer to the miniport driver's <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> object that is being registered.
 
 
 ## -returns
+
+
 <code>RegisterServiceGroup</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 The <i>ServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536893">IPortMidi::Notify</a>
-</dt>
-<dt>
+
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
+
  
 
  

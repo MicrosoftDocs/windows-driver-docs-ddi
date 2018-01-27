@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6a178ef0-0741-4b0c-a688-cae3923135ac
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_SETSTREAMSOURCE, D3DDDIARG_SETSTREAMSOURCE
+ms.keywords: _D3DDDIARG_SETSTREAMSOURCE, d3dumddi/D3DDDIARG_SETSTREAMSOURCE, D3DDDIARG_SETSTREAMSOURCE structure [Display Devices], D3DDDIARG_SETSTREAMSOURCE, display.d3dddiarg_setstreamsource, UMDisplayDriver_param_Structs_f90eed83-1d01-4502-84e4-22cff72016d6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_SETSTREAMSOURCE
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_SETSTREAMSOURCE
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_SETSTREAMSOURCE
 ---
 
 # _D3DDDIARG_SETSTREAMSOURCE structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_SETSTREAMSOURCE structure describes the portion of the vertex stream to bind to a vertex buffer. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_SETSTREAMSOURCE {
@@ -56,6 +66,9 @@ typedef struct _D3DDDIARG_SETSTREAMSOURCE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Stream
 
@@ -83,15 +96,10 @@ For example, an application might use two input source streams where the first s
 The <b>Stride</b> value must be DWORD-aligned.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsource.md">SetStreamSource</a>
-</dt>
-</dl>
+
  
 
  

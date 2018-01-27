@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9522c504-9bdb-4388-b047-340a211463dd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VIDEO_POWER_MANAGEMENT, VIDEO_POWER_MANAGEMENT, *PVIDEO_POWER_MANAGEMENT
+ms.keywords: PVIDEO_POWER_MANAGEMENT, ntddvdeo/PVIDEO_POWER_MANAGEMENT, VIDEO_POWER_MANAGEMENT structure [Display Devices], *PVIDEO_POWER_MANAGEMENT, PVIDEO_POWER_MANAGEMENT structure pointer [Display Devices], _VIDEO_POWER_MANAGEMENT, Video_Structs_d179543a-6712-4c33-a945-7bbf8a5bc1ed.xml, display.video_power_management, VIDEO_POWER_MANAGEMENT, ntddvdeo/VIDEO_POWER_MANAGEMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VIDEO_POWER_MANAGEMENT
-req.alt-loc: ntddvdeo.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: VIDEO_POWER_MANAGEMENT, *PVIDEO_POWER_MANAGEMENT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddvdeo.h
+apiname: 
+-	VIDEO_POWER_MANAGEMENT
+product: Windows
+targetos: Windows
+req.typenames: *PVIDEO_POWER_MANAGEMENT, VIDEO_POWER_MANAGEMENT
 ---
 
 # _VIDEO_POWER_MANAGEMENT structure
 
 
-
 ## -description
+
+
 The VIDEO_POWER_MANAGEMENT structure contains information required by the miniport driver to perform power management.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _VIDEO_POWER_MANAGEMENT {
@@ -56,6 +66,9 @@ typedef struct _VIDEO_POWER_MANAGEMENT {
 
 ## -struct-fields
 
+
+
+
 ### -field Length
 
 Is the size in bytes of this VIDEO_POWER_MANAGEMENT structure.
@@ -63,7 +76,7 @@ Is the size in bytes of this VIDEO_POWER_MANAGEMENT structure.
 
 ### -field DPMSVersion
 
-Specifies the version of the Display Power Management Signaling (DPMS) standard supported by the device. Currently, the video port driver sets this member to zero, which corresponds with Version 1.0 of the <a href="wdkgloss.v#wdkgloss.video_electronics_standards_association__vesa_#wdkgloss.video_electronics_standards_association__vesa_"><i>VESA</i></a> DPMS Standard.
+Specifies the version of the Display Power Management Signaling (DPMS) standard supported by the device. Currently, the video port driver sets this member to zero, which corresponds with Version 1.0 of the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VESA</a> DPMS Standard.
 
 
 ### -field PowerState
@@ -73,34 +86,34 @@ Specifies the power management state to be set or queried. This member can be on
 
 
 
-### -field VideoPowerOn
+##### - PowerState.VideoPowerHibernate
 
 The monitor and graphics adapter are both fully powered on and operational.
 
 
-### -field VideoPowerStandBy
+##### - PowerState.VideoPowerOn
+
+The monitor and graphics adapter are both fully powered on and operational.
+
+
+##### - PowerState.VideoPowerStandBy
 
 The monitor is running at a reduced power level that requires a short recovery time to <b>VideoPowerOn</b>. The graphics adapter is powered on (registers are still active and video memory is refreshed); however, clocks might be lost.
 
 
-### -field VideoPowerSuspend
+##### - PowerState.VideoPowerSuspend
 
 The monitor is running at a substantially reduced power level that requires a possibly longer recovery time than <b>VideoPowerStandBy</b> to <b>VideoPowerOn</b>. The graphics adapter is off.
 
 
-### -field VideoPowerOff
+##### - PowerState.VideoPowerOff
 
 The monitor and graphics adapter are both off, consuming no power at all.
 
 
-### -field VideoPowerHibernate
-
-The monitor and graphics adapter are both fully powered on and operational.
-
-</dd>
-</dl>
-
 ## -remarks
+
+
 The video port driver allocates and fills in the VIDEO_POWER_MANAGEMENT structure. Depending on the power management request dispatched to the video port, the video port driver passes this structure to the miniport driver's <a href="..\video\nc-video-pvideo_hw_power_get.md">HwVidGetPowerState</a> or <a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a> routine.
 
 <b>VideoPowerHibernate</b> is provided to the miniport driver as notification only. The miniport driver's <i>HwVidSetPowerState</i> function must leave the monitor and graphics adapter fully powered on and operational. For all other states, the miniport driver must put the device into the specified power state.
@@ -108,15 +121,13 @@ The video port driver allocates and fills in the VIDEO_POWER_MANAGEMENT structur
 A driver will always enter all other power states from the <b>VideoPowerOn</b> state. For example, a driver will not move directly to <b>VideoPowerHibernate</b> from <b>VideoPowerOff</b>; it will always go from <b>VideoPowerHibernate</b> to <b>VideoPowerOn</b> and then to <b>VideoPowerOff</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nc-video-pvideo_hw_power_get.md">HwVidGetPowerState</a>
-</dt>
-<dt>
+
 <a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a>
-</dt>
-</dl>
+
  
 
  

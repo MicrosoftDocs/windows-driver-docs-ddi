@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 356D4CFD-E256-4920-AAB7-D6399F357591
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltReadFileEx
+ms.keywords: fltkernel/FltReadFileEx, ifsk.fltreadfileex, FltReadFileEx function [Installable File System Drivers], FltReadFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The FltReadFileEx function is available starting with
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltReadFileEx
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltReadFileEx
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltReadFileEx function
 
 
-
 ## -description
+
+
 <b>FltReadFileEx</b> reads data from an open file, stream, or device. This function extends <a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>  to allow the optional use of an MDL for read data instead of a mapped buffer address.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS WINAPI FltReadFileEx(
@@ -63,6 +73,9 @@ NTSTATUS WINAPI FltReadFileEx(
 
 
 ## -parameters
+
+
+
 
 ### -param InitiatingInstance [in]
 
@@ -98,7 +111,6 @@ A pointer to a caller-allocated buffer that receives the data that is read from 
 ### -param Flags [in]
 
 A bitmask of flags that specify the type of read operation to be performed. 
-
 <table>
 <tr>
 <th>Flag</th>
@@ -147,8 +159,7 @@ This flag is available for Windows Vista and later versions of the Windows opera
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param BytesRead [out, optional]
@@ -177,29 +188,44 @@ An optional MDL that describes the memory where the data is read. If a buffer is
 
 
 ## -returns
+
+
 <b>FltReadFileEx</b> returns the NTSTATUS value that was returned by the file system. 
 
 
+
 ## -remarks
+
+
 A minifilter driver calls <b>FltReadFileEx</b> to read data from an open file. 
 
 <b>FltReadFileEx</b> creates a read request and sends it to the minifilter driver instances attached below the initiating instance, and to the file system. The specified instance and the instances attached above it do not receive the read request. 
 
 <b>FltReadFileEx</b> performs noncached I/O if either of the following is true: 
-
+<ul>
+<li>
 The caller set the FLTFL_IO_OPERATION_NON_CACHED flag in the <i>Flags</i> parameter. 
 
+</li>
+<li>
 The file object was opened for noncached I/O. Usually, this is done by specifying the FILE_NO_INTERMEDIATE_BUFFERING <i>CreateOptions</i> flag in the preceding call to <a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>, <a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>, or <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>. 
 
-Noncached I/O imposes the following restrictions on the parameter values passed to <b>FltReadFileEx</b>: 
-
+</li>
+</ul>Noncached I/O imposes the following restrictions on the parameter values passed to <b>FltReadFileEx</b>: 
+<ul>
+<li>
 The buffer that the <i>Buffer</i> parameter points to must be aligned in accordance with the alignment requirement of the underlying storage device. To allocate such an aligned buffer, call <a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>. 
 
+</li>
+<li>
 The byte offset that the <i>ByteOffset</i> parameter points to must be a nonnegative multiple of the volume's sector size. 
 
+</li>
+<li>
 The length specified in the <i>Length</i> parameter must be a nonnegative multiple of the volume's sector size. 
 
-If an attempt is made to read beyond the end of the file, <b>FltReadFileEx</b> returns an error. 
+</li>
+</ul>If an attempt is made to read beyond the end of the file, <b>FltReadFileEx</b> returns an error. 
 
 If the value of the <i>CallbackRoutine</i> parameter is not <b>NULL</b>, the read operation is performed asynchronously. 
 
@@ -210,36 +236,27 @@ If multiple threads call <b>FltReadFileEx</b> for the same file object, and the 
 The <i>Mdl</i> parameter is provided as a convenience when a minifilter already has an MDL available. The MDL is used directly and the additional step of mapping an address for <i>Buffer</i> can be avoided.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltwritefileex.md">FltWriteFileEx</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
+
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltwritefileex.md">FltWriteFileEx</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>
+
 <a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 19fb7a3e-d795-4d5a-9f28-cfbf37dbcd96
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinGetConnectedFilterInterface
+ms.keywords: stream.kspingetconnectedfilterinterface, KsPinGetConnectedFilterInterface, ks/KsPinGetConnectedFilterInterface, KsPinGetConnectedFilterInterface function [Streaming Media Devices], avfunc_d6f6f675-4d44-47c8-aa37-9ad533966603.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsPinGetConnectedFilterInterface
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsPinGetConnectedFilterInterface
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsPinGetConnectedFilterInterface function
 
 
-
 ## -description
+
+
 The<b> KsPinGetConnectedFilterInterface</b> function queries the filter to which <i>Pin</i> is connected in order to obtain a pointer to a COM interface.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsPinGetConnectedFilterInterface(
@@ -55,6 +66,9 @@ NTSTATUS KsPinGetConnectedFilterInterface(
 
 
 ## -parameters
+
+
+
 
 ### -param Pin [in]
 
@@ -72,47 +86,49 @@ A pointer to a PVOID. As in COM, the resulting interface pointer is deposited in
 
 
 ## -returns
+
+
 <b>KsPinGetConnectedFilterInterface</b> returns STATUS_SUCCESS if the interface exists on the connected filter or in the AVStream thunk. If STATUS_SUCCESS is returned, the interface pointer is deposited into <i>*Interface</i>. Otherwise, it returns STATUS_NOINTERFACE. Note that this corresponds to the COM HRESULT E_NOINTERFACE.
 
 
-## -remarks
-By default, objects support the <b>IUnknown</b> interface and the <a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a> interface. If the filter and connected pin are AVStream objects, the query and the returned interface pointer are direct calls to the other driver. However, if the connected pin and filter do not belong to an AVStream driver, a thunk is created that provides IKsControl support through synchronous calls to the driver containing the filter, using <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>.
 
-The most common usage of <b>KsPinGetConnectedFilterInterface</b> is to acquire the control interface for the filter to which <i>Pin</i> attaches. This control interface can then be used for property, method, or event calls down to the connected pin, or can query for interfaces that have been aggregated onto the connected filter. (If the connected filter is an AVStream filter; AVStream provides thunking only for <a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a> and <b>IUnknown</b> for non-AVStream filters).
+## -remarks
+
+
+By default, objects support the <b>IUnknown</b> interface and the <a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a> interface. If the filter and connected pin are AVStream objects, the query and the returned interface pointer are direct calls to the other driver. However, if the connected pin and filter do not belong to an AVStream driver, a thunk is created that provides IKsControl support through synchronous calls to the driver containing the filter, using <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>.
+
+The most common usage of <b>KsPinGetConnectedFilterInterface</b> is to acquire the control interface for the filter to which <i>Pin</i> attaches. This control interface can then be used for property, method, or event calls down to the connected pin, or can query for interfaces that have been aggregated onto the connected filter. (If the connected filter is an AVStream filter; AVStream provides thunking only for <a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a> and <b>IUnknown</b> for non-AVStream filters).
 
 The thunk is created only if<i> Pin</i> is a source pin; thus, the calls only work if one or more of the following is true:
-
+<ul>
+<li>
 The connection is intra-AVStream (<i>Pin</i>'s connected pin is an AVStream pin).
 
+</li>
+<li>
 <i>Pin</i> is a source pin.
 
-Otherwise, STATUS_UNSUCCESSFUL is returned.
+</li>
+</ul>Otherwise, STATUS_UNSUCCESSFUL is returned.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
-</dt>
-<dt>
-<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
-</dt>
-<dt>
-<a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceClock</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
+
+<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+
+<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
+
+<a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceClock</a>
+
+<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
+
+<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
+
  
 
  

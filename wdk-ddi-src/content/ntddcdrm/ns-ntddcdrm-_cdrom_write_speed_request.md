@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A7F8AFAE-AFFA-4022-8C04-2BF9177FE9EB
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CDROM_WRITE_SPEED_REQUEST, *PCDROM_WRITE_SPEED_REQUEST, CDROM_WRITE_SPEED_REQUEST
+ms.keywords: CDROM_WRITE_SPEED_REQUEST, PCDROM_WRITE_SPEED_REQUEST structure pointer [Storage Devices], ntddcdrm/PCDROM_WRITE_SPEED_REQUEST, PCDROM_WRITE_SPEED_REQUEST, ntddcdrm/CDROM_WRITE_SPEED_REQUEST, storage.cdrom_write_speed_request, *PCDROM_WRITE_SPEED_REQUEST, _CDROM_WRITE_SPEED_REQUEST, CDROM_WRITE_SPEED_REQUEST structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CDROM_WRITE_SPEED_REQUEST
-req.alt-loc: Ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PCDROM_WRITE_SPEED_REQUEST, CDROM_WRITE_SPEED_REQUEST
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddcdrm.h
+apiname: 
+-	CDROM_WRITE_SPEED_REQUEST
+product: Windows
+targetos: Windows
+req.typenames: CDROM_WRITE_SPEED_REQUEST, *PCDROM_WRITE_SPEED_REQUEST
 ---
 
 # _CDROM_WRITE_SPEED_REQUEST structure
 
 
-
 ## -description
+
+
 The <b>CDROM_WRITE_SPEED_REQUEST</b> structure is used as an input parameter to the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a> IOCTL and for requesting write speed descriptors.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CDROM_WRITE_SPEED_REQUEST {
@@ -54,23 +64,20 @@ typedef struct _CDROM_WRITE_SPEED_REQUEST {
 
 ## -struct-fields
 
+
+
+
 ### -field RequestType
 
 As defined in the <a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_performance_request_type.md">CDROM_PERFORMANCE_REQUEST_TYPE</a>    enumeration.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_performance_request_type.md">CDROM_PERFORMANCE_REQUEST_TYPE</a>
-</dt>
-</dl>
+
  
 
  

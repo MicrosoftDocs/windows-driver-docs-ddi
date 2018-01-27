@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f718e788-306a-4dbc-96cb-a81299aafe1d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: NpdBrokerUninitialize
+ms.keywords: stream.avstrminiallocate, AVStrMiniAllocate, AVStrMiniAllocate routine [Streaming Media Devices], AVStrMiniAllocate, PFNKSDEFAULTALLOCATE, PFNKSDEFAULTALLOCATE, ks/AVStrMiniAllocate, avstclbk_3ed4229c-f462-4b86-9dd4-374275f10c24.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AVStrMiniAllocate
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ks.h
+apiname: 
+-	AVStrMiniAllocate
+product: Windows
+targetos: Windows
 req.typenames: KEYWORDSELECTOR
 ---
 
 # PFNKSDEFAULTALLOCATE callback
 
 
-
 ## -description
+
+
 An AVStream minidriver's <i>AVStrMiniAllocate</i> routine allocates a frame using the allocator specified in the <i>Context</i> parameter.
 
 
-
 ## -prototype
+
 
 ````
 PFNKSDEFAULTALLOCATE AVStrMiniAllocate;
@@ -57,16 +67,24 @@ PVOID AVStrMiniAllocate(
 
 ## -parameters
 
+
+
+
 ### -param Context [in]
 
 Pointer to the allocator's context structure created in <i>AVStrMiniInitializeAllocator</i>.
 
 
 ## -returns
+
+
 <b>Allocate</b> returns a pointer to the newly allocated memory. Return <b>NULL</b> if the attempt to allocate memory failed.
 
 
+
 ## -remarks
+
+
 The minidriver specifies this routine's address in the <b>Allocate</b> member of its <a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a> structure. The minidriver passes this structure to the class driver in <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>.
 
 AVStream calls this routine to allocate a frame. The handler should allocate a frame as described by the allocator framing context passed into the initialization dispatch.
@@ -74,18 +92,15 @@ AVStream calls this routine to allocate a frame. The handler should allocate a f
 For more information, see <a href="https://msdn.microsoft.com/07812703-a66f-450a-b28e-4cf765267c4a">KS Allocators</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nc-ks-pfnkspininitializeallocator.md">AVStrMiniInitializeAllocator</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a>
+
  
 
  

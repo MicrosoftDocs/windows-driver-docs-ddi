@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7b892bea-a21a-4bf3-863a-d56d919538aa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortWritePortBufferUlong
+ms.keywords: VideoPort_Functions_f8e5a168-7d9d-4478-b3e9-00053456506f.xml, VideoPortWritePortBufferUlong function [Display Devices], display.videoportwriteportbufferulong, VideoPortWritePortBufferUlong, video/VideoPortWritePortBufferUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortWritePortBufferUlong
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortWritePortBufferUlong
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortWritePortBufferUlong function
 
 
-
 ## -description
+
+
 The <b>VideoPortWritePortBufferUlong</b> function writes a number of ULONG values to a mapped I/O port.
 
 
-
 ## -syntax
+
 
 ````
 VOID VideoPortWritePortBufferUlong(
@@ -57,7 +67,10 @@ VOID VideoPortWritePortBufferUlong(
 
 ## -parameters
 
-### -param Port 
+
+
+
+### -param Port
 
 Pointer to the port. The given <i>Port</i> must be in a mapped I/O-space range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
@@ -67,27 +80,31 @@ Pointer to the port. The given <i>Port</i> must be in a mapped I/O-space range r
 Pointer to a buffer containing the ULONG values to be written.
 
 
-### -param Count 
+### -param Count
 
 Specifies the number of ULONG values to be transferred to the adapter.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortWritePortBufferUlong</b>.
 
 Callers of <b>VideoPortWritePortBufferUlong</b> can be running at any IRQL, provided that the memory pointed to by the <i>Buffer</i> parameter is resident and that pointed to by the <i>Port</i> parameter is resident, mapped device memory.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-</dt>
-</dl>
+
  
 
  

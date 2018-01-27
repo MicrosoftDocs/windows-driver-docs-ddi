@@ -7,8 +7,8 @@ old-location: netvista\ndiswriteerrorlogentry.htm
 old-project: netvista
 ms.assetid: d36174ef-4df2-49ec-9167-cfb150f090f8
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisWriteErrorLogEntry
+ms.date: 1/18/2018
+ms.keywords: NdisWriteErrorLogEntry function [Network Drivers Starting with Windows Vista], NdisWriteErrorLogEntry, ndis/NdisWriteErrorLogEntry, netvista.ndiswriteerrorlogentry, miniport_logging_ref_754f8e03-f922-4e6d-b2ef-20fb8027b645.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    N
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisWriteErrorLogEntry
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_Miscellaneous_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisWriteErrorLogEntry
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisWriteErrorLogEntry function
 
 
-
 ## -description
+
+
 <b>NdisWriteErrorLogEntry</b> writes an entry to the system I/O error log file.
 
 
-
 ## -syntax
+
 
 ````
 VOID __cdecl NdisWriteErrorLogEntry(
@@ -56,6 +67,9 @@ VOID __cdecl NdisWriteErrorLogEntry(
 
 
 ## -parameters
+
+
+
 
 ### -param NdisAdapterHandle [in]
 
@@ -72,98 +86,107 @@ Specifies the NDIS_ERRROR_CODE_<i>XXX</i> code that best describes the I/O error
 
 
 
-### -param NDIS_ERROR_CODE_RESOURCE_CONFLICT
-
-The driver could not access a required resource.
-
-
-### -param NDIS_ERROR_CODE_OUT_OF_RESOURCES
-
-The hardware or driver ran out of resources.
-
-
-### -param NDIS_ERROR_CODE_HARDWARE_FAILURE
-
-The driver detected a hardware error.
-
-
-### -param NDIS_ERROR_CODE_ADAPTER_NOT_FOUND
-
-The network adapter was not found.
-
-
-### -param NDIS_ERROR_CODE_INTERRUPT_CONNECT
-
-The interrupt registration failed.
-
-
-### -param NDIS_ERROR_CODE_DRIVER_FAILURE
-
-A driver failure occurred that does not match any of the other error conditions.
-
-
-### -param NDIS_ERROR_CODE_BAD_VERSION
-
-The driver detected a version mismatch.
-
-
-### -param NDIS_ERROR_CODE_TIMEOUT
-
-A timeout expired.
-
-
-### -param NDIS_ERROR_CODE_NETWORK_ADDRESS
-
-A network address is invalid.
-
-
-### -param NDIS_ERROR_CODE_UNSUPPORTED_CONFIGURATION
-
-The requested driver configuration is not supported.
-
-
-### -param NDIS_ERROR_CODE_INVALID_VALUE_FROM_ADAPTER
-
-The network adapter hardware provided an invalid value.
-
-
-### -param NDIS_ERROR_CODE_MISSING_CONFIGURATION_PARAMETER
-
-A driver configuration parameter is missing in the registry.
-
-
-### -param NDIS_ERROR_CODE_BAD_IO_BASE_ADDRESS
-
-The I/O base address for the network adapter hardware is invalid.
-
-
-### -param NDIS_ERROR_CODE_RECEIVE_SPACE_SMALL
-
-The amount of receive buffer memory that is available is too small to receive data.
-
-
-### -param NDIS_ERROR_CODE_ADAPTER_DISABLED
-
-The network adapter hardware is disabled.
-
-</dd>
-</dl>
-
 ### -param NumberOfErrorValues [in]
 
 Specifies the number of ULONG values to follow this parameter.
 
 
-### -param ... 
+### -param param
+
+TBD
+
+
+
+####### - ...
 
 Specifies a variable-sized array of ULONGs associated with the error to be logged.
 
 
+##### - ErrorCode.NDIS_ERROR_CODE_RECEIVE_SPACE_SMALL
+
+The amount of receive buffer memory that is available is too small to receive data.
+
+
+##### - ErrorCode.NDIS_ERROR_CODE_ADAPTER_DISABLED
+
+The network adapter hardware is disabled.
+
+
+##### - ErrorCode.NDIS_ERROR_CODE_MISSING_CONFIGURATION_PARAMETER
+
+A driver configuration parameter is missing in the registry.
+
+
+##### - ErrorCode.NDIS_ERROR_CODE_HARDWARE_FAILURE
+
+The driver detected a hardware error.
+
+
+##### - ErrorCode.NDIS_ERROR_CODE_OUT_OF_RESOURCES
+
+The hardware or driver ran out of resources.
+
+
+##### - ErrorCode.NDIS_ERROR_CODE_RESOURCE_CONFLICT
+
+The driver could not access a required resource.
+
+
+##### - ErrorCode.NDIS_ERROR_CODE_TIMEOUT
+
+A timeout expired.
+
+
+##### - ErrorCode.NDIS_ERROR_CODE_DRIVER_FAILURE
+
+A driver failure occurred that does not match any of the other error conditions.
+
+
+##### - ErrorCode.NDIS_ERROR_CODE_UNSUPPORTED_CONFIGURATION
+
+The requested driver configuration is not supported.
+
+
+##### - ErrorCode.NDIS_ERROR_CODE_INVALID_VALUE_FROM_ADAPTER
+
+The network adapter hardware provided an invalid value.
+
+
+##### - ErrorCode.NDIS_ERROR_CODE_BAD_VERSION
+
+The driver detected a version mismatch.
+
+
+##### - ErrorCode.NDIS_ERROR_CODE_BAD_IO_BASE_ADDRESS
+
+The I/O base address for the network adapter hardware is invalid.
+
+
+##### - ErrorCode.NDIS_ERROR_CODE_ADAPTER_NOT_FOUND
+
+The network adapter was not found.
+
+
+##### - ErrorCode.NDIS_ERROR_CODE_INTERRUPT_CONNECT
+
+The interrupt registration failed.
+
+
+##### - ErrorCode.NDIS_ERROR_CODE_NETWORK_ADDRESS
+
+A network address is invalid.
+
+
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>NdisWriteErrorLogEntry</b> allocates an I/O error log record, fills in the record with the supplied
     information about the error, and then writes the record to the I/O error log file.
 
@@ -191,21 +214,18 @@ In general, a miniport driver calls
     or a NIC with failing hardware components.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisWriteErrorLogEntry function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisWriteErrorLogEntry function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

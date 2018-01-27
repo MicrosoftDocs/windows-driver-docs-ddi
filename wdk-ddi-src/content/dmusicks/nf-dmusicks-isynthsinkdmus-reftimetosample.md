@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 20906bcd-3059-4d10-92cb-8efdef929ccd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ISynthSinkDMus, ISynthSinkDMus::RefTimeToSample, RefTimeToSample
+ms.keywords: ISynthSinkDMus::RefTimeToSample, RefTimeToSample method [Audio Devices], dmusicks/ISynthSinkDMus::RefTimeToSample, audio.isynthsinkdmus_reftimetosample, RefTimeToSample, ISynthSinkDMus interface [Audio Devices], RefTimeToSample method, RefTimeToSample method [Audio Devices], ISynthSinkDMus interface, ISynthSinkDMus, audmp-routines_8c8379c0-db14-4275-adfc-2dd595879feb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ISynthSinkDMus.RefTimeToSample
-req.alt-loc: dmusicks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dmusicks.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dmusicks.h
+apiname: 
+-	ISynthSinkDMus.RefTimeToSample
+product: Windows
+targetos: Windows
 req.typenames: DMUS_STREAM_TYPE
 ---
 
 # ISynthSinkDMus::RefTimeToSample method
 
 
-
 ## -description
+
+
 The <code>RefTimeToSample</code> method converts a reference time into a sample time.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RefTimeToSample(
@@ -55,9 +65,12 @@ NTSTATUS RefTimeToSample(
 
 ## -parameters
 
-### -param rtTime [in]
 
-Pointer to the reference time being passed in. The reference time is measured in 100-nanosecond units.
+
+
+### -param rfTime
+
+
 
 
 ### -param pllSampleTime [out]
@@ -65,25 +78,33 @@ Pointer to the reference time being passed in. The reference time is measured in
 Output pointer for the sample time. This parameter points to a caller-allocated variable into which the method writes the calculated sample time.
 
 
+#### - rtTime [in]
+
+Pointer to the reference time being passed in. The reference time is measured in 100-nanosecond units.
+
+
 ## -returns
+
+
 <code>RefTimeToSample</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 The <code>RefTimeToSample</code> method converts reference time to sample time. The method takes a reference time as an input parameter, and it outputs the corresponding sample time.
 
 The calculation of the reference time from the sample time depends on the sampling frequency. For example, if the output buffer is in a 44.1 kHz format, a sample time of 44,100 is equivalent to a reference time of one second.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536525">IDirectMusicSynthSink::RefTimeToSample</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DF02AB1E-6803-492C-9261-400177497195
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _XVARIABLE_NAME, *PXVARIABLE_NAME, XVARIABLE_NAME, *PSYSENV_VARIABLE_NAME, SYSENV_VARIABLE_NAME
+ms.keywords: *PXVARIABLE_NAME, *PSYSENV_VARIABLE_NAME, PXVARIABLE_NAME, ntddsysenv/PXVARIABLE_NAME, SYSENV_VARIABLE_NAME, XVARIABLE_NAME, ntddsysenv/XVARIABLE_NAME, _XVARIABLE_NAME, XVARIABLE_NAME structure [Kernel-Mode Driver Architecture], PXVARIABLE_NAME structure pointer [Kernel-Mode Driver Architecture], kernel.xvariable_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: XVARIABLE_NAME
-req.alt-loc: Ntddsysenv.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddsysenv.h
+apiname: 
+-	XVARIABLE_NAME
+product: Windows
+targetos: Windows
 req.typenames: *PXVARIABLE_NAME, XVARIABLE_NAME
 ---
 
 # _XVARIABLE_NAME structure
 
 
-
 ## -description
+
+
 Stores the name of a system environment variable using
     SysEnv device. This structure is used in the <a href="..\ntddsysenv\ni-ntddsysenv-ioctl_sysenv_enum_variables.md">IOCTL_SYSENV_ENUM_VARIABLES</a> request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _XVARIABLE_NAME {
@@ -56,6 +66,9 @@ typedef struct _XVARIABLE_NAME {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NextEntryOffset
 
@@ -72,15 +85,10 @@ The vendor GUID.
 Name of the system environment variable.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddsysenv\ni-ntddsysenv-ioctl_sysenv_enum_variables.md">IOCTL_SYSENV_ENUM_VARIABLES</a>
-</dt>
-</dl>
+
  
 
  

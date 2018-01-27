@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0d0d793f-c2c1-48ff-9e7f-ef2697255bfa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetInitialStack
+ms.keywords: IoGetInitialStack, wdm/IoGetInitialStack, k104_5e1ac4e5-b51e-4840-86e3-2ce67c634489.xml, kernel.iogetinitialstack, IoGetInitialStack routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoGetInitialStack
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlIoApcLte, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoGetInitialStack
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoGetInitialStack function
 
 
-
 ## -description
+
+
 The <b>IoGetInitialStack</b> routine returns the base address of the current thread's stack.
 
 
-
 ## -syntax
+
 
 ````
 PVOID IoGetInitialStack(void);
@@ -54,27 +64,29 @@ PVOID IoGetInitialStack(void);
 ## -parameters
 
 
+
+
+
 ## -returns
-<b>IoGetInitialStack</b> returns the initial base address of the current thread's stack. 
+
 
 <b>IoGetInitialStack</b> returns the initial base address of the current thread's stack. 
 
-<b>IoGetInitialStack</b> returns the initial base address of the current thread's stack. 
 
 
 ## -remarks
+
+
 Highest-level drivers can call this routine, particularly file systems attempting to determine whether they've been passed a pointer to a location on the current thread's stack. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iogetstacklimits.md">IoGetStackLimits</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
+
  
 
  

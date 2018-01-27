@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 67785cb0-388c-4348-b32a-99bcd02b7c04
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _REPORT_ZONES_DATA, *PREPORT_ZONES_DATA, REPORT_ZONES_DATA
+ms.keywords: *PREPORT_ZONES_DATA, PREPORT_ZONES_DATA, _REPORT_ZONES_DATA, scsi/PREPORT_ZONES_DATA, storage.report_zones_data, scsi/REPORT_ZONES_DATA, REPORT_ZONES_DATA, PREPORT_ZONES_DATA structure pointer [Storage Devices], REPORT_ZONES_DATA structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: REPORT_ZONES_DATA
-req.alt-loc: scsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	scsi.h
+apiname: 
+-	REPORT_ZONES_DATA
+product: Windows
+targetos: Windows
 req.typenames: *PREPORT_ZONES_DATA, REPORT_ZONES_DATA
 req.product: Windows 10 or later.
 ---
@@ -38,16 +47,17 @@ req.product: Windows 10 or later.
 # _REPORT_ZONES_DATA structure
 
 
-
 ## -description
+
+
 
 <div class="alert"><b>Note</b>  This  structure is for internal use only and should not be called from your code.</div>
 <div> </div>
 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _REPORT_ZONES_DATA {
@@ -65,6 +75,9 @@ typedef struct _REPORT_ZONES_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ZoneListLength
 
@@ -100,5 +113,3 @@ N/A
 
 N/A
 
-
-## -remarks

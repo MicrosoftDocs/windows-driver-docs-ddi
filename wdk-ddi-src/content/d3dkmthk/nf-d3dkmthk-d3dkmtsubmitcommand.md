@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E726B4AC-F003-45B3-B467-F123DBE60D87
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTSubmitCommand
+ms.keywords: d3dkmthk/D3DKMTSubmitCommand, D3DKMTSubmitCommand, D3DKMTSubmitCommand function [Display Devices], display.d3dkmtsubmitcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTSubmitCommand
-req.alt-loc: GDI32.dll,API-MS-Win-DX-D3DKMT-L1-1-1.dll,GDI32.dll,API-MS-Win-DX-D3DKMT-L1-1-2.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,29 @@ req.type-library:
 req.lib: GDI32.lib
 req.dll: GDI32.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	GDI32.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-1.dll
+-	GDI32.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+apiname: 
+-	D3DKMTSubmitCommand
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTSubmitCommand function
 
 
-
 ## -description
+
+
 <b>D3DKMTSubmitCommand</b> is used to submit command buffers on contexts that support graphics processing unit (GPU) virtual addressing. These contexts generate commands directly from user mode, manage their own command buffer pool and don’t make use of the allocation or patch location list.
 
 This function replaces the old <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">Render</a> function for such contexts and must be used in its place. Contexts that operate in legacy patch mode must continue to use the old <i>Render</i> function.
@@ -50,8 +63,8 @@ Some kernel mode drivers need information from their user mode driver on how to 
 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS APIENTRY D3DKMTSubmitCommand(
@@ -62,33 +75,60 @@ NTSTATUS APIENTRY D3DKMTSubmitCommand(
 
 ## -parameters
 
-### -param pData [in]
+
+
+
+### -param D3DKMT_SUBMITCOMMAND
+
+TBD
+
+
+
+#### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_submitcommand.md">D3DKMT_SUBMITCOMMAND</a> structure that describes the operation.
 
 
 ## -returns
+
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The device context was successfully created.
+</dl>
+</td>
+<td width="60%">
+The device context was successfully created.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>Parameters were validated and determined to be incorrect.
+</dl>
+</td>
+<td width="60%">
+Parameters were validated and determined to be incorrect.
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other <b>NTSTATUS</b> values.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_submitcommand.md">D3DKMT_SUBMITCOMMAND</a>
-</dt>
-</dl>
+
  
 
  

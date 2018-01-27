@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: F87AFCA5-651C-4782-9F6F-C0AFB09010CB
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: LAMP_INTENSITY_COLOR, LAMP_INTENSITY_COLOR
+ms.keywords: stream.lamp_intensity_color, LAMP_INTENSITY_COLOR structure [Streaming Media Devices], LAMP_INTENSITY_COLOR, lamp/LAMP_INTENSITY_COLOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: LAMP_INTENSITY_COLOR
-req.alt-loc: lamp.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	lamp.h
+apiname: 
+-	LAMP_INTENSITY_COLOR
+product: Windows
+targetos: Windows
 req.typenames: LAMP_INTENSITY_COLOR
 ---
 
 # LAMP_INTENSITY_COLOR structure
 
 
-
 ## -description
+
+
 This structure is the I/O parameter type of <a href="..\lamp\ni-lamp-ioctl_lamp_get_intensity_color.md">IOCTL_LAMP_GET_INTENSITY_COLOR</a> and <a href="..\lamp\ni-lamp-ioctl_lamp_set_intensity_color.md">IOCTL_LAMP_SET_INTENSITY_COLOR</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct LAMP_INTENSITY_COLOR {
@@ -55,6 +65,9 @@ typedef struct LAMP_INTENSITY_COLOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Red
 
@@ -70,5 +83,3 @@ Green light intensity in percentage (0-100).
 
 Blue light intensity in percentage (0-100).
 
-
-## -remarks

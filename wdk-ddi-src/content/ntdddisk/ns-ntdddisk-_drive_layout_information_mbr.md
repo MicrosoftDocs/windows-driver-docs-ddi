@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 41df2847-7cfa-4746-82bd-d0b8b482a0d4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DRIVE_LAYOUT_INFORMATION_MBR, *PDRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR
+ms.keywords: *PDRIVE_LAYOUT_INFORMATION_MBR, structs-disk_766d8fbf-64c1-4b4e-b0ce-421c8892b0d4.xml, ntdddisk/DRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR structure [Storage Devices], storage.drive_layout_information_mbr, PDRIVE_LAYOUT_INFORMATION_MBR, ntdddisk/PDRIVE_LAYOUT_INFORMATION_MBR, PDRIVE_LAYOUT_INFORMATION_MBR structure pointer [Storage Devices], DRIVE_LAYOUT_INFORMATION_MBR, _DRIVE_LAYOUT_INFORMATION_MBR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DRIVE_LAYOUT_INFORMATION_MBR
-req.alt-loc: ntdddisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PDRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntdddisk.h
+apiname: 
+-	DRIVE_LAYOUT_INFORMATION_MBR
+product: Windows
+targetos: Windows
+req.typenames: DRIVE_LAYOUT_INFORMATION_MBR, *PDRIVE_LAYOUT_INFORMATION_MBR
 ---
 
 # _DRIVE_LAYOUT_INFORMATION_MBR structure
 
 
-
 ## -description
+
+
 The DRIVE_LAYOUT_INFORMATION_MBR structure reports the drive signature for a Master Boot Record partition. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DRIVE_LAYOUT_INFORMATION_MBR {
@@ -54,27 +64,35 @@ typedef struct _DRIVE_LAYOUT_INFORMATION_MBR {
 
 ## -struct-fields
 
+
+
+
 ### -field Signature
 
 Specifies the disk signature value, which uniquely identifies the disk. 
 
 
+### -field CheckSum
+
+ 
+
+
+
 ## -remarks
+
+
 This structure contains the drive layout information that is specific to a drive with a Master Boot Record partition. It is contained within the <a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_ex.md">DRIVE_LAYOUT_INFORMATION_EX</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_ex.md">DRIVE_LAYOUT_INFORMATION_EX</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
-</dt>
-</dl>
+
  
 
  

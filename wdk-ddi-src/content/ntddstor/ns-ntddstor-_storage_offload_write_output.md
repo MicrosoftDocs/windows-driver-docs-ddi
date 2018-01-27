@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 95EF1722-5171-4A09-8676-7910E53E3868
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_OFFLOAD_WRITE_OUTPUT, STORAGE_OFFLOAD_WRITE_OUTPUT, *PSTORAGE_OFFLOAD_WRITE_OUTPUT
+ms.keywords: ntddstor/STORAGE_OFFLOAD_WRITE_OUTPUT, PSTORAGE_OFFLOAD_WRITE_OUTPUT structure pointer [Storage Devices], *PSTORAGE_OFFLOAD_WRITE_OUTPUT, STORAGE_OFFLOAD_WRITE_OUTPUT structure [Storage Devices], _STORAGE_OFFLOAD_WRITE_OUTPUT, STORAGE_OFFLOAD_WRITE_RANGE_TRUNCATED, STORAGE_OFFLOAD_WRITE_OUTPUT, STORAGE_OFFLOAD_TOKEN_INVALID, PSTORAGE_OFFLOAD_WRITE_OUTPUT, ntddstor/PSTORAGE_OFFLOAD_WRITE_OUTPUT, storage.storage_offload_write_output
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 8 and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_OFFLOAD_WRITE_OUTPUT
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	STORAGE_OFFLOAD_WRITE_OUTPUT
+product: Windows
+targetos: Windows
 req.typenames: STORAGE_OFFLOAD_WRITE_OUTPUT, *PSTORAGE_OFFLOAD_WRITE_OUTPUT
 ---
 
 # _STORAGE_OFFLOAD_WRITE_OUTPUT structure
 
 
-
 ## -description
+
+
 The <b>STORAGE_OFFLOAD_WRITE_OUTPUT</b> structure is the output of  an <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> control code request when the <b>Action</b> member of <a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> is set to <b>DeviceDsmAction_OffloadWrite</b>.
 
 On input, a token value in <a href="..\ntddstor\ns-ntddstor-_device_dsm_offload_write_parameters.md">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a> uniquely identifies the data set ranges requested for writing in the <a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> structure. The <b>STORAGE_OFFLOAD_WRITE_OUTPUT</b> structure contains the results of the write operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STORAGE_OFFLOAD_WRITE_OUTPUT {
@@ -58,19 +68,21 @@ typedef struct _STORAGE_OFFLOAD_WRITE_OUTPUT {
 
 ## -struct-fields
 
+
+
+
 ### -field OffloadWriteFlags
 
 Flags indicating the result of the offload write operation. This is set to one of the following.
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field STORAGE_OFFLOAD_WRITE_RANGE_TRUNCATED
-
+<td width="40%"><a id="STORAGE_OFFLOAD_WRITE_RANGE_TRUNCATED"></a><a id="storage_offload_write_range_truncated"></a><dl>
+<dt><b>STORAGE_OFFLOAD_WRITE_RANGE_TRUNCATED</b></dt>
+</dl>
 </td>
 <td width="60%">
 The offload write was performed but the range written was truncated.
@@ -78,17 +90,16 @@ The offload write was performed but the range written was truncated.
 </td>
 </tr>
 <tr>
-
-### -field STORAGE_OFFLOAD_TOKEN_INVALID         
-
+<td width="40%"><a id="STORAGE_OFFLOAD_TOKEN_INVALID_________"></a><a id="storage_offload_token_invalid_________"></a><dl>
+<dt><b>STORAGE_OFFLOAD_TOKEN_INVALID         </b></dt>
+</dl>
 </td>
 <td width="60%">
 The token provided for the offload write operation was invalid.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Reserved
@@ -102,21 +113,20 @@ Bytes copied for the write request in <a href="..\ntddstor\ns-ntddstor-_device_d
 
 
 ## -remarks
+
+
 The <b>STORAGE_OFFLOAD_WRITE_OUTPUT</b> structure is returned at the beginning of the system buffer.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddstor\ns-ntddstor-_device_dsm_offload_write_parameters.md">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a>
-</dt>
-<dt>
+
 <a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
-</dt>
-<dt>
+
+<a href="..\ntddstor\ns-ntddstor-_device_dsm_offload_write_parameters.md">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a>
+
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
-</dt>
-</dl>
+
  
 
  

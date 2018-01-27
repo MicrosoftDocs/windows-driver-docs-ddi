@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 80a6a5d8-b13a-418d-a4bd-941d3a913c1e
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _HID_DESCRIPTOR, HID_DESCRIPTOR, *PHID_DESCRIPTOR
+ms.keywords: hid.hid_descriptor, PHID_DESCRIPTOR structure pointer [Human Input Devices], hidport/PHID_DESCRIPTOR, hidstrct_07b2c0af-449d-484e-8aa8-9d7e3909d113.xml, hidport/HID_DEVICE_ATTRIBUTES, HID_DESCRIPTOR structure [Human Input Devices], PHID_DESCRIPTOR, _HID_DESCRIPTOR, *PHID_DESCRIPTOR, HID_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HID_DESCRIPTOR
-req.alt-loc: hidport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hidport.h
+apiname: 
+-	HID_DESCRIPTOR
+product: Windows
+targetos: Windows
 req.typenames: HID_DESCRIPTOR, *PHID_DESCRIPTOR
 ---
 
 # _HID_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The HID_DESCRIPTOR structure represents a HID descriptor for a HIDClass device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _HID_DESCRIPTOR {
@@ -62,36 +72,61 @@ typedef struct _HID_DESCRIPTOR {
 
 ## -struct-fields
 
-### -field bLength
 
 
-### -field bDescriptorType
+
+### -field _HID_DESCRIPTOR_DESC_LIST
+
+ 
 
 
-### -field bcdHID
+### -field _HID_DESCRIPTOR_DESC_LIST.bReportType
+
+ 
 
 
-### -field bCountry
+### -field _HID_DESCRIPTOR_DESC_LIST.wReportLength
 
-
-### -field bNumDescriptors
+ 
 
 
 ### -field DescriptorList [1]
 
 
+
+### -field bLength
+
+
+
+### -field bDescriptorType
+
+
+
+### -field bcdHID
+
+
+
+### -field bCountry
+
+
+
+### -field bNumDescriptors
+
+
+
 ## -remarks
+
+
 The HID class driver uses an <a href="..\hidport\ni-hidport-ioctl_hid_get_device_descriptor.md">IOCTL_HID_GET_DEVICE_DESCRIPTOR</a> request to obtain a device's HID descriptor from a HID minidriver.
 
 For information about HID descriptors, see the Universal Serial Bus (USB) standard<i> Device Class Definition for Human Interface Devices (HID)</i> located at the <a href="http://www.usb.org/home">USB Implementers Forum website</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\hidport\ni-hidport-ioctl_hid_get_device_descriptor.md">IOCTL_HID_GET_DEVICE_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

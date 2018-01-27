@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6aa00a36-f7a2-4e49-bbd9-1a1ae3592951
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_POWER_COMPONENT_MAPPING, DXGK_POWER_COMPONENT_MAPPING
+ms.keywords: display.dxgk_power_component_mapping, _DXGK_POWER_COMPONENT_MAPPING, DXGK_POWER_COMPONENT_MAPPING, d3dkmddi/DXGK_POWER_COMPONENT_MAPPING, DXGK_POWER_COMPONENT_MAPPING structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_POWER_COMPONENT_MAPPING
-req.alt-loc: D3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmddi.h
+apiname: 
+-	DXGK_POWER_COMPONENT_MAPPING
+product: Windows
+targetos: Windows
 req.typenames: DXGK_POWER_COMPONENT_MAPPING
 ---
 
 # _DXGK_POWER_COMPONENT_MAPPING structure
 
 
-
 ## -description
+
+
 Used in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_component.md">DXGK_POWER_RUNTIME_COMPONENT</a>.<b>ComponentMapping</b> member to define the standard component types of the Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys) that describe the power component.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_POWER_COMPONENT_MAPPING {
@@ -65,53 +75,57 @@ typedef struct _DXGK_POWER_COMPONENT_MAPPING {
 
 ## -struct-fields
 
-### -field ComponentType
 
-A <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_power_component_type.md">DXGK_POWER_COMPONENT_TYPE</a>-typed value that indicates the power component type that is reported by the display miniport driver to the DirectX graphics kernel subsystem.
 
 
 ### -field EngineDesc
 
 
-### -field NodeIndex
+
+### -field EngineDesc.NodeIndex
 
 The index of the engine (node).
 
-</dd>
-</dl>
 
 ### -field MonitorRefreshDesc
 
 
-### -field VidPnSourceID
+
+### -field MonitorRefreshDesc.VidPnSourceID
 
 An identifier of one of the video present sources associated with the video present network object.
 
-</dd>
-</dl>
 
 ### -field MonitorDesc
 
 
-### -field VidPnTargetID
+
+### -field MonitorDesc.VidPnTargetID
 
 An identifier of one of the video present targets associated with the VidPN object.
 
-</dd>
-</dl>
 
-## -remarks
+### -field MemoryDesc
+
+ 
+
+
+### -field MemoryDesc.SegmentID
+
+ 
+
+
+### -field ComponentType
+
+A <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_power_component_type.md">DXGK_POWER_COMPONENT_TYPE</a>-typed value that indicates the power component type that is reported by the display miniport driver to the DirectX graphics kernel subsystem.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_power_component_type.md">DXGK_POWER_COMPONENT_TYPE</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_component.md">DXGK_POWER_RUNTIME_COMPONENT</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_power_component_type.md">DXGK_POWER_COMPONENT_TYPE</a>
+
  
 
  

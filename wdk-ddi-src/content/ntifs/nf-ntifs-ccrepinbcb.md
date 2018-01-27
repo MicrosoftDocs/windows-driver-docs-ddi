@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 81c2446e-8f11-4146-8da5-17fc451c2729
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcRepinBcb
+ms.keywords: CcRepinBcb routine [Installable File System Drivers], CcRepinBcb, ifsk.ccrepinbcb, ccref_5aacfd67-3d6c-4be6-9bfa-5b85772ce32f.xml, ntifs/CcRepinBcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcRepinBcb
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcRepinBcb
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcRepinBcb function
 
 
-
 ## -description
+
+
 The <b>CcRepinBcb</b> routine pins a buffer control block (BCB) an additional time to prevent it from being freed by a subsequent call to <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>.
 
 
-
 ## -syntax
+
 
 ````
 VOID CcRepinBcb(
@@ -54,36 +64,40 @@ VOID CcRepinBcb(
 
 ## -parameters
 
+
+
+
 ### -param Bcb [in]
 
 Buffer control block (BCB) pointer returned by <a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a> or <a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 File systems call <b>CcRepinBcb</b> to preserve a BCB for write-through or error recovery. Typically a file system would do this the first time it marks a BCB as dirty while processing a write-through request, or any time that it determines that a buffer will be required for write-through.
 
 Every call to <b>CcRepinBcb</b> must be matched by a subsequent call to <a href="..\ntifs\nf-ntifs-ccunpinrepinnedbcb.md">CcUnpinRepinnedBcb</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
+
 <a href="..\ntifs\nf-ntifs-ccunpinrepinnedbcb.md">CcUnpinRepinnedBcb</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ee78013c-7660-4017-97ec-eff9068b707a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportMidiStream, IMiniportMidiStream::SetState, SetState
+ms.keywords: SetState, audmp-routines_23f064df-faef-4c45-a58e-c5e3e1d7d7a5.xml, audio.iminiportmidistream_setstate, IMiniportMidiStream interface [Audio Devices], SetState method, portcls/IMiniportMidiStream::SetState, SetState method [Audio Devices], IMiniportMidiStream interface, IMiniportMidiStream, IMiniportMidiStream::SetState, SetState method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportMidiStream.SetState
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IMiniportMidiStream.SetState
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportMidiStream::SetState method
 
 
-
 ## -description
+
+
 The <code>SetState</code> method sets the stream's transport state to a new state value.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SetState(
@@ -54,58 +64,81 @@ NTSTATUS SetState(
 
 ## -parameters
 
-### -param NewState [in]
+
+
+
+### -param State
+
+
+
+
+
+#### - NewState [in]
 
 Specifies the new state that the stream is to be set to. This parameter is a <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a> enumeration value. For more information, see the following Remarks section.
 
 
 ## -returns
+
+
 <code>SetState</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
-## -remarks
-For an audio filter graph, the four <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a> enumeration values are interpreted as follows:
 
+## -remarks
+
+
+For an audio filter graph, the four <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a> enumeration values are interpreted as follows:
+<ul>
+<li>
 KSSTATE_RUN 
 
 Data transport in the current audio filter graph is running and functioning as normal.
 
+</li>
+<li>
 KSSTATE_ACQUIRE 
 
 This is a transitional state that helps to manage the transition between KSSTATE_RUN and KSSTATE_STOP.
 
+</li>
+<li>
 KSSTATE_PAUSE 
 
 This is a transitional state that helps to manage the transition between KSSTATE_RUN and KSSTATE_STOP. 
 
+</li>
+<li>
 KSSTATE_STOP 
 
 Data transport is stopped in the current audio filter graph.
 
-For most miniport drivers, KSSTATE_ACQUIRE and KSSTATE_PAUSE are indistinguishable. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a> method sets the initial state of the stream to KSSTATE_STOP.
+</li>
+</ul>For most miniport drivers, KSSTATE_ACQUIRE and KSSTATE_PAUSE are indistinguishable. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a> method sets the initial state of the stream to KSSTATE_STOP.
 
 Transitions always occur in one of the following two sequences:
-
+<ul>
+<li>
 STOP -&gt; ACQUIRE -&gt; PAUSE -&gt; RUN
 
+</li>
+<li>
 RUN -&gt; PAUSE -&gt; ACQUIRE -&gt; STOP
+
+</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
-</dt>
-<dt>
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565110">KSPROPERTY_CONNECTION_STATE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565110">KSPROPERTY_CONNECTION_STATE</a>
+
+<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
+
+<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+
  
 
  

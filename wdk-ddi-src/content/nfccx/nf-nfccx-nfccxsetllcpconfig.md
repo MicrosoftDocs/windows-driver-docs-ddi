@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 8208F61E-DFD9-4AA8-B225-BEB35F80F621
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: NfcCxSetLlcpConfig
+ms.keywords: nfpdrivers._nfccxsetllcpconfig, NfcCxSetLlcpConfig method [Near-Field Proximity Drivers], nfccx/NfcCxSetLlcpConfig, NfcCxSetLlcpConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NfcCxSetLlcpConfig
-req.alt-loc: NfcCx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Nfccxstub.lib
 req.dll: NfcCx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NfcCx.dll
+apiname: 
+-	NfcCxSetLlcpConfig
+product: Windows
+targetos: Windows
 req.typenames: *PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE
 ---
 
 # NfcCxSetLlcpConfig function
 
 
-
 ## -description
+
+
 Called by the client driver to configure the LLCP parameters.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS NfcCxSetLlcpConfig(
@@ -55,28 +65,32 @@ NTSTATUS NfcCxSetLlcpConfig(
 
 ## -parameters
 
-### -param Device 
+
+
+
+### -param Device
 
 A handle to a framework device object.
 
 
-### -param Config 
+### -param Config
 
 A pointer to an <a href="..\nfccx\ns-nfccx-_nfc_cx_llcp_config.md">NFC_CX_LLCP_CONFIG</a> structure.
 
 
 ## -returns
+
+
 If the operation succeeds, the function returns STATUS_SUCCESS.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt><a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a></dt>
-<dt><a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a></dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cffd2c5d-847b-4ecd-b99d-5916e7b5bbd0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW, D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW
+ms.keywords: D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW, d3d10umddi/D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW, D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW structure [Display Devices], display.d3d10ddiarg_texcube_rendertargetview, UMDisplayDriver_Dx10param_Structs_ae4aad64-f7e2-4c42-9abc-0f241842170a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW
+product: Windows
+targetos: Windows
 req.typenames: D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW
 ---
 
 # D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW structure
 
 
-
 ## -description
+
+
 The D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW structure describes a cube texture that is used to create a render target view in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a> function. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW {
@@ -55,6 +65,9 @@ typedef struct D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW {
 
 
 ## -struct-fields
+
+
+
 
 ### -field MipSlice
 
@@ -71,21 +84,14 @@ typedef struct D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW {
 [in] The number of array slices for the texture. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterendertargetviewsize.md">CalcPrivateRenderTargetViewSize</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a>
-</dt>
-<dt>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterendertargetviewsize.md">CalcPrivateRenderTargetViewSize</a>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createrendertargetview.md">D3D10DDIARG_CREATERENDERTARGETVIEW</a>
-</dt>
-</dl>
+
  
 
  

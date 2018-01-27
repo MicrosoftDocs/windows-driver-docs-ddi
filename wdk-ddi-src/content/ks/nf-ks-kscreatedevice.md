@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92a1c2d7-6a6f-4b5e-be04-b444abe3e1d5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCreateDevice
+ms.keywords: KsCreateDevice function [Streaming Media Devices], stream.kscreatedevice, KsCreateDevice, avfunc_3a0ddeb1-7ea0-4e10-bc98-d761bbc5c2f4.xml, ks/KsCreateDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsCreateDevice
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsCreateDevice
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsCreateDevice function
 
 
-
 ## -description
+
+
 The<b> KsCreateDevice </b>function creates an AVStream device.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsCreateDevice(
@@ -57,6 +68,9 @@ NTSTATUS KsCreateDevice(
 
 
 ## -parameters
+
+
+
 
 ### -param DriverObject [in]
 
@@ -84,10 +98,15 @@ A pointer to a memory location that contains the address of the created <a href=
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS if the device is created successfully. Otherwise, it returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 Normally, the minidriver does not call this function directly. Instead, <b>KsCreateDevice</b> is called by the default <i>AddDevice</i> handler, <a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>. Because <b>KsAddDevice</b> makes an internal call to <b>KsCreateDevice</b>, drivers that call <b>KsCreateDevice</b> should not call <b>KsAddDevice</b> separately.
 
 A minidriver that calls <b>KsCreateDevice</b> directly should not use <a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>. If the minidriver is not calling <b>KsInitializeDriver</b>, it should instead provide its own <i>AddDevice</i> callback. The minidriver can then call <b>KsCreateDevice</b> from that <i>AddDevice</i> callback. 
@@ -95,33 +114,25 @@ A minidriver that calls <b>KsCreateDevice</b> directly should not use <a href=".
 If no <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a> is provided, AVStream creates a device with the default characteristics and no associated filter factories. If a KSDEVICE_DESCRIPTOR is supplied and contains a <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a> table with a create dispatch, the create dispatch is called. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-</dt>
-<dt>
+
+<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
+
+<a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>
+
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5247D5F0-8422-48C1-81AF-98C8A3537FAD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCM_MANAGER_CONFIG_INIT
+ms.keywords: UCM_MANAGER_CONFIG_INIT function [Buses], UCM_MANAGER_CONFIG_INIT, buses.ucm_manager_config_init, ucmmanager/UCM_MANAGER_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 2.15
-req.alt-api: UCM_MANAGER_CONFIG_INIT
-req.alt-loc: Ucmmanager.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ucmmanager.h
+apiname: 
+-	UCM_MANAGER_CONFIG_INIT
+product: Windows
+targetos: Windows
 req.typenames: *PPORT_DATA_1, PORT_DATA_1
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # UCM_MANAGER_CONFIG_INIT function
 
 
-
 ## -description
+
+
 Initializes a <a href="..\ucmmanager\ns-ucmmanager-_ucm_manager_config.md">UCM_MANAGER_CONFIG</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE void UCM_MANAGER_CONFIG_INIT(
@@ -55,24 +65,25 @@ FORCEINLINE void UCM_MANAGER_CONFIG_INIT(
 
 ## -parameters
 
-### -param  Config [out]
+
+
+
+### -param Config [out]
 
 Pointer to a caller-allocated <a href="..\ucmmanager\ns-ucmmanager-_ucm_manager_config.md">UCM_MANAGER_CONFIG</a> structure to initialize.
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucmmanager\ns-ucmmanager-_ucm_manager_config.md">UCM_MANAGER_CONFIG</a>
-</dt>
-</dl>
+
  
 
  

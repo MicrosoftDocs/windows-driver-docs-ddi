@@ -7,8 +7,8 @@ old-location: netvista\luid.htm
 old-project: netvista
 ms.assetid: 9547d3e1-a811-4b89-be71-f7cf81e92b93
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _LUID, LUID, *PLUID
+ms.date: 1/18/2018
+ms.keywords: wfp_ref_3_struct_3_fwps_P-Z_5bb7e42d-6db8-4454-a629-b65042c4c051.xml, *PLUID, igpupvdev/LUID, PLUID, LUID structure [Network Drivers Starting with Windows Vista], netvista.luid, _LUID, LUID, igpupvdev/PLUID, PLUID structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: LUID
-req.alt-loc: igpupvdev.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	igpupvdev.h
+apiname: 
+-	LUID
+product: Windows
+targetos: Windows
 req.typenames: LUID
 ---
 
 # _LUID structure
 
 
-
 ## -description
+
+
 The locally unique identifier (LUID) is a 64-bit value guaranteed to be unique only on the system on
   which it was generated. The uniqueness of an LUID is guaranteed only until the system is restarted. 
   
@@ -47,8 +57,8 @@ An LUID is not for direct manipulation. Drivers must use support routines and st
   LUID values.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _LUID {
@@ -60,6 +70,9 @@ typedef struct _LUID {
 
 ## -struct-fields
 
+
+
+
 ### -field LowPart
 
 Low order bits.
@@ -69,5 +82,3 @@ Low order bits.
 
 High order bits.
 
-
-## -remarks

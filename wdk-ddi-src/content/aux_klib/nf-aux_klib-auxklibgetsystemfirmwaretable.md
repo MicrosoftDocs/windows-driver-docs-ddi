@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 548C850F-87AF-43E0-BD87-5531D9874D4D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: AuxKlibGetSystemFirmwareTable
+ms.keywords: AuxKlibGetSystemFirmwareTable, kernel.auxklibgetsystemfirmwaretable, AuxKlibGetSystemFirmwareTable routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibGetSystemFirmwareTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AuxKlibGetSystemFirmwareTable
-req.alt-loc: Aux_Klib.lib,Aux_Klib.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Aux_Klib.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Aux_Klib.lib
+-	Aux_Klib.dll
+apiname: 
+-	AuxKlibGetSystemFirmwareTable
+product: Windows
+targetos: Windows
+req.typenames: *PREPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA
 ---
 
 # AuxKlibGetSystemFirmwareTable function
 
 
-
 ## -description
+
+
 The <b>AuxKlibGetSystemFirmwareTable</b> routine retrieves the specified firmware table from the firmware table provider.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS AuxKlibGetSystemFirmwareTable(
@@ -58,10 +69,12 @@ NTSTATUS AuxKlibGetSystemFirmwareTable(
 
 ## -parameters
 
+
+
+
 ### -param FirmwareTableProviderSignature [in]
 
 The identifier of the firmware table provider to which the query is to be directed. This parameter can be one of the following values.
-
 <table>
 <tr>
 <th>Value</th>
@@ -97,8 +110,7 @@ The raw SMBIOS firmware table provider.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param FirmwareTableID [in]
@@ -128,21 +140,62 @@ A pointer to a location to which the routine writes the number of bytes of data 
 
 
 ## -returns
+
+
 <b>AuxKlibGetSystemFirmwareTable</b> returns STATUS_SUCCESS if the call is successful. Possible return values include the following error codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>An invalid parameter was supplied to the routine.
+</dl>
+</td>
+<td width="60%">
+An invalid parameter was supplied to the routine.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The caller-allocated buffer is too small, but the required buffer size has been written to the <i>ReturnLength</i> output parameter.
+</dl>
+</td>
+<td width="60%">
+The caller-allocated buffer is too small, but the required buffer size has been written to the <i>ReturnLength</i> output parameter.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-The raw SMBIOS table provider ('RSMB') retrieves the contents of the raw SMBIOS firmware table. The data written to the <i>FirmwareTableBuffer</i> buffer starts with the following structure:
 
-The raw firmware table provider ('FIRM') retrieves the contents of the specified physical address range. The value written to *<i>ReturnLength</i> is the size of the address range.
+
+The raw SMBIOS table provider ('RSMB') retrieves the contents of the raw SMBIOS firmware table. The data written to the <i>FirmwareTableBuffer</i> buffer starts with the following structure:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>struct RawSMBIOSData
+{
+  BYTE  Used20CallingMethod;
+  BYTE  SMBIOSMajorVersion;
+  BYTE  SMBIOSMinorVersion;
+  BYTE  DmiRevision;
+  DWORD  Length;
+  BYTE  SMBIOSTableData[];
+};</pre>
+</td>
+</tr>
+</table></span></div>The raw firmware table provider ('FIRM') retrieves the contents of the specified physical address range. The value written to *<i>ReturnLength</i> is the size of the address range.
 
 The ACPI table provider ('ACPI') retrieves the contents of the specified ACPI table. Because OEMs can include ACPI firmware tables that are not listed in the ACPI specification, you should first call <a href="..\aux_klib\nf-aux_klib-auxklibenumeratesystemfirmwaretables.md">AuxKlibEnumerateSystemFirmwareTables</a> to enumerate all ACPI tables that are currently available from the system firmware.
 
@@ -155,18 +208,15 @@ Drivers must call <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlib
 <b>AuxKlibGetSystemFirmwareTable</b> is defined in the Aux_klib.h header file that is included in the WDK for Windows 8 and later versions of Windows. To use this routine, drivers should link to the version of Aux_klib.lib that is included in the WDK for Windows 8 and later versions of Windows. The implementation of <b>AuxKlibGetSystemFirmwareTable</b> in these versions of the WDK can be used in versions of Windows starting with Windows Vista.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\aux_klib\nf-aux_klib-auxklibenumeratesystemfirmwaretables.md">AuxKlibEnumerateSystemFirmwareTables</a>
-</dt>
-<dt>
+
 <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
-</dt>
-<dt>
+
+<a href="..\aux_klib\nf-aux_klib-auxklibenumeratesystemfirmwaretables.md">AuxKlibEnumerateSystemFirmwareTables</a>
+
 <a href="https://msdn.microsoft.com/3bfe81ca-6d04-4da1-9579-6b0b48faa4a2">GetSystemFirmwareTable</a>
-</dt>
-</dl>
+
  
 
  

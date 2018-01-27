@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a0e3700a-768f-4025-b5f2-715e25e1d10d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcGetFlushedValidData
+ms.keywords: ntifs/CcGetFlushedValidData, ccref_021f04d4-537c-49a3-bfac-8eeea908c100.xml, CcGetFlushedValidData, CcGetFlushedValidData routine [Installable File System Drivers], ifsk.ccgetflushedvaliddata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available on Microsoft Windows 2000 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcGetFlushedValidData
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcGetFlushedValidData
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcGetFlushedValidData function
 
 
-
 ## -description
+
+
 The <b>CcGetFlushedValidData</b> routine determines how much of a cached file has been flushed to disk.
 
 
-
 ## -syntax
+
 
 ````
 LARGE_INTEGER CcGetFlushedValidData(
@@ -54,6 +64,9 @@ LARGE_INTEGER CcGetFlushedValidData(
 
 
 ## -parameters
+
+
+
 
 ### -param SectionObjectPointer [in]
 
@@ -66,22 +79,25 @@ Reserved for system use. Must be <b>FALSE</b>.
 
 
 ## -returns
+
+
 If the entire file has been flushed, <b>CcGetFlushedValidData</b> returns the valid data length for the file. If there are dirty pages that have not been flushed to disk, <b>CcGetFlushedValidData</b> returns the starting byte offset of the lowest dirty page currently in the file. If the file is not cached or is no longer cached, MAXLONGLONG is returned in the quad part.
 
 
+
 ## -remarks
+
+
 The file system is responsible for ensuring that the value of <i>SectionObjectPointer</i> remains valid while in use. It is impossible for the cache manager to guarantee this.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1bd9a156-a366-4f35-956f-d195c41ae722
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortGetDmaContext
+ms.keywords: display.videoportgetdmacontext, video/VideoPortGetDmaContext, VideoPortGetDmaContext, VideoPortGetDmaContext function [Display Devices], VideoPort_Functions_97335d32-fa36-4130-a050-39fbdfc08517.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortGetDmaContext
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortGetDmaContext
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # VideoPortGetDmaContext function
 
 
-
 ## -description
+
+
 The <b>VideoPortGetDmaContext</b> function is <b>obsolete</b> in Windows 2000 and later.
 
 <b>VideoPortGetDmaContext</b> gets the context previously associated with the specified DMA handle.
 
 
-
 ## -syntax
+
 
 ````
 PVOID VideoPortGetDmaContext(
@@ -57,6 +67,9 @@ PVOID VideoPortGetDmaContext(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -69,8 +82,15 @@ Pointer to a DMA handle. To obtain the appropriate DMA handle, use the value in 
 
 
 ## -returns
+
+
 <b>VideoPortGetDmaContext</b> always returns <b>NULL</b>.
 
 
+
 ## -remarks
-See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.</p>
+
+
+See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
+
+

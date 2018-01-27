@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c1f508a3-6aa8-4fed-af14-6466fcae30da
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerGetParameters
+ms.keywords: storage.changergetparameters, chgrmini_d8cfe74e-46ff-4aee-b1a2-2e55be7ed01f.xml, ChangerGetParameters, ChangerGetParameters function [Storage Devices], mcd/ChangerGetParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ChangerGetParameters
-req.alt-loc: mcd.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mcd.h
+apiname: 
+-	ChangerGetParameters
+product: Windows
+targetos: Windows
 req.typenames: LAMP_INTENSITY_WHITE
 ---
 
 # ChangerGetParameters function
 
 
-
 ## -description
+
+
 <b>ChangerGetParameters</b> handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_parameters.md">IOCTL_CHANGER_GET_PARAMETERS</a>. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ChangerGetParameters(
@@ -54,6 +64,9 @@ NTSTATUS ChangerGetParameters(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceObject [in]
 
@@ -66,6 +79,8 @@ Pointer to the IRP.
 
 
 ## -returns
+
+
 <b>ChangerGetParameters</b> returns the STATUS_<i>XXX</i> value returned by the system port driver or one of the following values:
       
 
@@ -76,7 +91,10 @@ STATUS_INFO_LENGTH_MISMATCH
 STATUS_INSUFFICIENT_RESOURCES
 
 
+
 ## -remarks
+
+
 This routine is required.
 
 <b>ChangerGetParameters</b> returns the parameters of a changer, including the number and type of its elements and the functionality it supports.
@@ -88,15 +106,13 @@ The changer class driver checks the output buffer length in the I/O stack locati
 <b>ChangerGetParameters</b> then fills in a GET_CHANGER_PARAMETERS structure at <i>Irp</i><b>-&gt;AssociatedIrp.SystemBuffer</b> before returning to the changer class driver. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
-</dt>
-<dt>
+
 <a href="..\ntddchgr\ns-ntddchgr-_changer_product_data.md">IOCTL_CHANGER_GET_PARAMETERS</a>
-</dt>
-</dl>
+
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+
  
 
  

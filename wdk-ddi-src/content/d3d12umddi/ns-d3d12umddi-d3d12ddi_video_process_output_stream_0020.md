@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D6C510B3-D578-41D0-9D52-131F2B61161D
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020, D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020
+ms.keywords: d3d12umddi/D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020, display.d3d12ddi_video_process_output_stream, D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020, D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020
 ---
 
 # D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020 structure
 
 
-
 ## -description
+
+
 The output stream for video processing commands, which points to a target surface.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020 {
@@ -55,6 +65,9 @@ typedef struct D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020 {
 
 ## -struct-fields
 
+
+
+
 ### -field hDrvTexture2D
 
 The output surfaces for the video process command.  
@@ -64,5 +77,3 @@ The output surfaces for the video process command.
 
 The subresource indexes to use with the associated <b>hDrvTexture2D</b> member.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8574e5cf-5bbf-4606-931f-e27b2aa7b7fa
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoQueryFileDosDeviceName
+ms.keywords: IoQueryFileDosDeviceName, ioref_4bc807ab-ce5e-415c-8f86-50cf3783d233.xml, ifsk.ioqueryfiledosdevicename, IoQueryFileDosDeviceName routine [Installable File System Drivers], ntifs/IoQueryFileDosDeviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available starting withWindows XP.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoQueryFileDosDeviceName
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoQueryFileDosDeviceName
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # IoQueryFileDosDeviceName function
 
 
-
 ## -description
+
+
 The <b>IoQueryFileDosDeviceName</b> routine retrieves an MS-DOS device name for a file. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS IoQueryFileDosDeviceName(
@@ -55,6 +65,9 @@ NTSTATUS IoQueryFileDosDeviceName(
 
 ## -parameters
 
+
+
+
 ### -param FileObject [in]
 
 Pointer to a file object for the file. 
@@ -63,7 +76,6 @@ Pointer to a file object for the file.
 ### -param ObjectNameInformation [out]
 
 A returned pointer to a newly allocated <b>OBJECT_NAME_INFORMATION</b> structure. This structure is filled in on successful return with the MS-DOS device name information. The structure is defined as follows: 
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -75,24 +87,26 @@ A returned pointer to a newly allocated <b>OBJECT_NAME_INFORMATION</b> structure
 } OBJECT_NAME_INFORMATION, *POBJECT_NAME_INFORMATION;</pre>
 </td>
 </tr>
-</table></span></div>
-<div class="alert"><b>Note</b>    This structure must eventually be freed by calling <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>.</div>
-<div> </div>
+</table></span></div><div class="alert"><b>Note</b>    This structure must eventually be freed by calling <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>.</div><div> </div>
 
 ## -returns
+
+
 <b>IoQueryFileDosDeviceName</b> returns STATUS_SUCCESS or an error NTSTATUS value, such as STATUS_INSUFFICIENT_RESOURCES. 
 
 
+
 ## -remarks
+
+
 For more information about MS-DOS names, see the Files and I/O section of the Platform Software Development Kit (SDK) documentation. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
  
 
  

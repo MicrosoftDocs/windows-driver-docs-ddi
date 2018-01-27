@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a63028d8-f90e-4f86-81f5-27bc727ecad7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: READ_PORT_BUFFER_ULONG
+ms.keywords: kernel.read_port_buffer_ulong, k103_ccd1ed9a-a7f9-4ea4-abc4-44ff756ea274.xml, READ_PORT_BUFFER_ULONG, READ_PORT_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], wdm/READ_PORT_BUFFER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: READ_PORT_BUFFER_ULONG
-req.alt-loc: Hal.lib,Hal.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Hal.lib
+-	Hal.dll
+apiname: 
+-	READ_PORT_BUFFER_ULONG
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # READ_PORT_BUFFER_ULONG function
 
 
-
 ## -description
+
+
 The <b>READ_PORT_BUFFER_ULONG</b> routine reads a number of ULONG values from the specified port address into a buffer.
 
 
-
 ## -syntax
+
 
 ````
 VOID READ_PORT_BUFFER_ULONG(
@@ -56,6 +67,9 @@ VOID READ_PORT_BUFFER_ULONG(
 
 
 ## -parameters
+
+
+
 
 ### -param Port [in]
 
@@ -73,10 +87,17 @@ Specifies the number of ULONG values to be read into the buffer.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The size of the buffer must be large enough to contain at least the specified number of ULONG values.
 
-Callers of <b>READ_PORT_BUFFER_ULONG</b> can be running at any IRQL, assuming the <i>Buffer</i> is resident and the <i>Port</i> is resident, mapped device memory.</p>
+Callers of <b>READ_PORT_BUFFER_ULONG</b> can be running at any IRQL, assuming the <i>Buffer</i> is resident and the <i>Port</i> is resident, mapped device memory.
+
+

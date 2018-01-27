@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: B4D10667-29D6-45BF-87CA-D2F59DF78797
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _POWERSOURCEID, POWERSOURCEID, *PPOWERSOURCEID
+ms.keywords: battery.ioctl_internal_configure_charger_property, IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY control code [Battery Devices], IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY, charging/IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10 and later operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY
-req.alt-loc: charging.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,59 +29,83 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: POWERSOURCEID, *PPOWERSOURCEID
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	charging.h
+apiname: 
+-	IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY
+product: Windows
+targetos: Windows
+req.typenames: *PPOWERSOURCEID, POWERSOURCEID
 ---
 
 # IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 The <b>IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</b> 
    control code is sent from a configurable charger to a device that handles configurable chargers. It configures charger properties.
 
 
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> must contain a structure that starts with a <a href="..\charging\ns-charging-_configurable_charger_property_header.md">CONFIGURABLE_CHARGER_PROPERTY_HEADER</a> structure.
 
 
 ### -input-buffer-length
+
 <b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the buffer.
 
 
 ### -output-buffer
+
 None.
 
 
 ### -output-buffer-length
+
 None.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 <b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS or the appropriate error status.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\charging\ns-charging-_configurable_charger_property_header.md">CONFIGURABLE_CHARGER_PROPERTY_HEADER</a>
-</dt>
-</dl>
+
  
 
  

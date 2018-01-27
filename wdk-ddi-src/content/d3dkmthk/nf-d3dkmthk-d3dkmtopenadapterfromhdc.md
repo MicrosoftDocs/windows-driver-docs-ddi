@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f54951fe-c79e-435e-9f31-9c39da26da6c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTOpenAdapterFromHdc
+ms.keywords: display.d3dkmtopenadapterfromhdc, OpenGL_Functions_f12cc225-0315-4dfa-ae28-52657ea0f030.xml, D3DKMTOpenAdapterFromHdc, D3DKMTOpenAdapterFromHdc function [Display Devices], d3dkmthk/D3DKMTOpenAdapterFromHdc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTOpenAdapterFromHdc
-req.alt-loc: Gdi32.dll,API-MS-Win-dx-d3dkmt-l1-1-0.dll,API-MS-Win-dx-d3dkmt-l1-1-1.dll,API-MS-Win-DX-D3DKMT-L1-1-2.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Gdi32.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-0.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-1.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+apiname: 
+-	D3DKMTOpenAdapterFromHdc
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTOpenAdapterFromHdc function
 
 
-
 ## -description
+
+
 The <b>D3DKMTOpenAdapterFromHdc</b> function maps a device context handle (HDC) to a graphics adapter handle and, if the adapter contains multiple monitor outputs, to one of those outputs.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS D3DKMTOpenAdapterFromHdc(
@@ -54,40 +67,74 @@ NTSTATUS D3DKMTOpenAdapterFromHdc(
 
 ## -parameters
 
-### -param pData [in, out]
+
+
+
+
+#### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openadapterfromhdc.md">D3DKMT_OPENADAPTERFROMHDC</a> structure that describes the parameters that are required to perform the mapping.
 
 
 ## -returns
+
+
 <b>D3DKMTOpenAdapterFromHdc</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The mapping was performed successfully.
+</dl>
+</td>
+<td width="60%">
+The mapping was performed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>The kernel ran out of the resources that would enable it to open another handle.
+</dl>
+</td>
+<td width="60%">
+The kernel ran out of the resources that would enable it to open another handle.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>Parameters were validated and determined to be incorrect or the Windows Vista display driver model was not used.
+</dl>
+</td>
+<td width="60%">
+Parameters were validated and determined to be incorrect or the Windows Vista display driver model was not used.
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other <b>NTSTATUS</b> values.
 
 
+
 ## -remarks
+
+
 A graphics adapter corresponds to a video card. A monitor output corresponds to a head on a video card. A system with a single video card contains only one adapter. However, if the video card supports multiple heads, it supports outputting to multiple monitors.
 
-The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTOpenAdapterFromHdc</b> to retrieve the graphics adapter handle and the output for the primary monitor from the HDC.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openadapterfromhdc.md">D3DKMT_OPENADAPTERFROMHDC</a>
-</dt>
-</dl>
+
  
 
  

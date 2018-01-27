@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a81080f0-fbb3-4616-9324-642b60befcb3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.drawprimitive2, DrawPrimitive2 callback function [Display Devices], DrawPrimitive2, PFND3DDDI_DRAWPRIMITIVE2, PFND3DDDI_DRAWPRIMITIVE2, d3dumddi/DrawPrimitive2, UserModeDisplayDriver_Functions_5c08f7ff-b74c-4389-9b35-2f24f9468b5d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DrawPrimitive2
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DrawPrimitive2
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_DRAWPRIMITIVE2 callback
 
 
-
 ## -description
+
+
 The <b>DrawPrimitive2</b> function draws nonindexed primitives in which the Microsoft Direct3D runtime has transformed the vertex data.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_DRAWPRIMITIVE2 DrawPrimitive2;
@@ -58,33 +68,46 @@ __checkReturn HRESULT APIENTRY DrawPrimitive2(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param pData [in]
+### -param *
+
+
+
+
+
+
+#### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawprimitive2.md">D3DDDIARG_DRAWPRIMITIVE2</a> structure that describes the primitive to draw.
 
 
 ## -returns
+
+
 <b>DrawPrimitive2</b> returns S_OK or an appropriate error result if the primitive is not successfully drawn.
 
 
+
 ## -remarks
+
+
 Stream zero contains transform vertices and is the only stream that should be accessed. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawprimitive2.md">D3DDDIARG_DRAWPRIMITIVE2</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-</dt>
-</dl>
+
  
 
  

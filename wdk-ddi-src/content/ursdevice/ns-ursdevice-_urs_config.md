@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 3857CA53-6992-410A-96D1-EEA9CC586EDF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _URS_CONFIG, *PURS_CONFIG, URS_CONFIG
+ms.keywords: *PURS_CONFIG, buses.urs_config, _URS_CONFIG, URS_CONFIG structure [Buses], URS_CONFIG, PURS_CONFIG structure pointer [Buses], ursdevice/URS_CONFIG, ursdevice/PURS_CONFIG, PURS_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: URS_CONFIG
-req.alt-loc: Ursdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PURS_CONFIG, URS_CONFIG
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ursdevice.h
+apiname: 
+-	URS_CONFIG
+product: Windows
+targetos: Windows
+req.typenames: URS_CONFIG, *PURS_CONFIG
 req.product: Windows 10 or later.
 ---
 
 # _URS_CONFIG structure
 
 
-
 ## -description
+
+
 Contains pointers to event callback functions implemented by the URS client driver for a USB dual-role controller. Initialize this structure by calling <a href="..\ursdevice\nf-ursdevice-urs_config_init.md">URS_CONFIG_INIT</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _URS_CONFIG {
@@ -57,6 +67,9 @@ typedef struct _URS_CONFIG {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -78,18 +91,12 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt5
 A pointer to an <a href="..\ursdevice\nc-ursdevice-evt_urs_set_role.md">EVT_URS_SET_ROLE</a> callback function.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ursdevice\nf-ursdevice-ursdeviceinitialize.md">UrsDeviceInitialize</a>
-</dt>
-<dt>
+
 <a href="..\ursdevice\nf-ursdevice-urs_config_init.md">URS_CONFIG_INIT</a>
-</dt>
-</dl>
+
+<a href="..\ursdevice\nf-ursdevice-ursdeviceinitialize.md">UrsDeviceInitialize</a>
+
  
 
  

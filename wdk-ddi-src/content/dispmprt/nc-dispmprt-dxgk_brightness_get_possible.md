@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aed565f5-a9c1-4130-a192-68bb699b4bd1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+ms.keywords: display.dxgkddigetpossiblebrightness, DxgkDdiGetPossibleBrightness callback function [Display Devices], DxgkDdiGetPossibleBrightness, DXGK_BRIGHTNESS_GET_POSSIBLE, DXGK_BRIGHTNESS_GET_POSSIBLE, dispmprt/DxgkDdiGetPossibleBrightness, DmFunctions_b14a6b62-e156-4548-9a0d-0a256cf84069.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiGetPossibleBrightness
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DxgkDdiGetPossibleBrightness
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGK_BRIGHTNESS_GET_POSSIBLE callback
 
 
-
 ## -description
+
+
 The <i>DxgkDdiGetPossibleBrightness</i> function retrieves the brightness levels that an integrated display panel supports.
 
 
-
 ## -prototype
+
 
 ````
 DXGK_BRIGHTNESS_GET_POSSIBLE DxgkDdiGetPossibleBrightness;
@@ -59,6 +69,9 @@ NTSTATUS* DxgkDdiGetPossibleBrightness(
 
 
 ## -parameters
+
+
+
 
 ### -param Context [in]
 
@@ -81,29 +94,39 @@ NTSTATUS* DxgkDdiGetPossibleBrightness(
 
 
 ## -returns
+
+
 <i>DxgkDdiGetPossibleBrightness</i> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes that are defined in <i>Ntstatus.h</i>. 
 
 
-## -remarks
-The display miniport driver should return brightness levels in the buffer that the <i>BrightnessLevels</i> parameter points to in the following order:
 
+## -remarks
+
+
+The display miniport driver should return brightness levels in the buffer that the <i>BrightnessLevels</i> parameter points to in the following order:
+<ul>
+<li>
 The first brightness level value is the brightness level that the BIOS uses when the computer runs on AC power. 
 
+</li>
+<li>
 The second brightness level value is the brightness level that the BIOS uses when the computer runs on DC power. 
 
+</li>
+<li>
 The remaining brightness level values are hardware-supported brightness levels. 
 
-To simplify your job of implementing a display miniport driver, the operating system provides the driver with the buffer that the <i>BrightnessLevels</i> parameter points to.
+</li>
+</ul>To simplify your job of implementing a display miniport driver, the operating system provides the driver with the buffer that the <i>BrightnessLevels</i> parameter points to.
 
 <i>DxgkDdiGetPossibleBrightness</i> should be made pageable. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-</dt>
-</dl>
+
  
 
  

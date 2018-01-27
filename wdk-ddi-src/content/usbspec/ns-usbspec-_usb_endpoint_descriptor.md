@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: fb4f25e4-cf72-4308-9685-edc62b1cc510
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_ENDPOINT_DESCRIPTOR, *PUSB_ENDPOINT_DESCRIPTOR, USB_ENDPOINT_DESCRIPTOR
+ms.keywords: usbstrct_3e135b0b-f2a1-4d7a-92b8-4a9e2724726c.xml, PUSB_ENDPOINT_DESCRIPTOR, usbspec/PUSB_ENDPOINT_DESCRIPTOR, USB_ENDPOINT_DESCRIPTOR, _USB_ENDPOINT_DESCRIPTOR, *PUSB_ENDPOINT_DESCRIPTOR, USB_ENDPOINT_DESCRIPTOR structure [Buses], PUSB_ENDPOINT_DESCRIPTOR structure pointer [Buses], usbspec/USB_ENDPOINT_DESCRIPTOR, buses.usb_endpoint_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_ENDPOINT_DESCRIPTOR
-req.alt-loc: usbspec.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PUSB_ENDPOINT_DESCRIPTOR, USB_ENDPOINT_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbspec.h
+apiname: 
+-	USB_ENDPOINT_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: USB_ENDPOINT_DESCRIPTOR, *PUSB_ENDPOINT_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
 # _USB_ENDPOINT_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The <b>USB_ENDPOINT_DESCRIPTOR</b> structure is used by USB client drivers to retrieve a USB-defined endpoint descriptor.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USB_ENDPOINT_DESCRIPTOR {
@@ -59,6 +69,9 @@ typedef struct _USB_ENDPOINT_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field bLength
 
@@ -92,7 +105,6 @@ The  <b>bInterval</b> value contains the polling interval for interrupt and isoc
 The polling interval, together with the speed of the device and the type of host controller, determine the frequency with which the driver should initiate an interrupt or an isochronous transfer. The value in <b>bInterval</b> does not represent a fixed amount of time. It is a relative value, and the actual polling frequency will also depend on whether the device and the USB host controller operate at low, full or high speed. 
 
 If either the host controller or the device operates at low speed, the period of time between interrupt transfers (also known as the polling "period") is measured in units of 1 millisecond frames, and the period is related to the value in <b>bInterval</b> as indicated the following table:
-
 <table>
 <tr>
 <th>Value of bInterval</th>
@@ -119,11 +131,9 @@ If either the host controller or the device operates at low speed, the period of
 <td>Polling intervals &gt; 255 are forbidden by the USB specification.</td>
 <td></td>
 </tr>
-</table>
- 
+</table> 
 
 For devices and host controllers that can operate at full speed, the period is measured in units of 1 millisecond frames, and the period is related to the value in <b>bInterval</b> as indicated the following table:
-
 <table>
 <tr>
 <th>Value of bInterval</th>
@@ -173,11 +183,9 @@ For devices and host controllers that can operate at full speed, the period is m
 <td></td>
 <td></td>
 </tr>
-</table>
- 
+</table> 
 
 For devices and host controllers that can operate at high speed, the period is measured in units of microframes. There are eight microframes in each 1 millisecond frame. The period is related to the value in <b>bInterval</b> by the formula Period = 2 ** (<b>bInterval</b> - 1), as indicated the following table:
-
 <table>
 <tr>
 <th>Value of bInterval</th>
@@ -233,27 +241,19 @@ For devices and host controllers that can operate at high speed, the period is m
 <td></td>
 <td></td>
 </tr>
-</table>
- 
+</table> 
 
 The mappings in the preceding tables between periods and polling intervals are valid in Windows 2000 and later operating systems.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
-</dt>
-<dt>
-<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
+<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
+
  
 
  

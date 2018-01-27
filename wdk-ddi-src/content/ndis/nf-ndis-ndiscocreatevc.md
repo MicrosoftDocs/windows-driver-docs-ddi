@@ -7,8 +7,8 @@ old-location: netvista\ndiscocreatevc.htm
 old-project: netvista
 ms.assetid: ae9175e5-c1fc-44ae-a7c9-921ac8483e33
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisCoCreateVc
+ms.date: 1/18/2018
+ms.keywords: condis_protocol_ref_6b168c4f-016d-4fa8-911a-d89fd9de2829.xml, netvista.ndiscocreatevc, NdisCoCreateVc, ndis/NdisCoCreateVc, NdisCoCreateVc function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    N
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisCoCreateVc
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_Connection_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisCoCreateVc
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCoCreateVc function
 
 
-
 ## -description
+
+
 <b>NdisCoCreateVc</b> sets up a connection endpoint from which a client can make outgoing calls or on which
   a stand-alone call manager can dispatch incoming calls.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisCoCreateVc(
@@ -57,6 +68,9 @@ NDIS_STATUS NdisCoCreateVc(
 
 
 ## -parameters
+
+
+
 
 ### -param NdisBindingHandle [in]
 
@@ -73,8 +87,8 @@ Specifies the handle returned by
      such as a VC to a network switch. When it creates a VC for incoming call notifications, a call manager
      passes the AF handle that it saved in its per-AF state designated by the 
      <i>CallMgrAfContext</i> that was passed as an input parameter to its 
-     <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">
-     ProtocolCmRegisterSap</a> function.
+     <mshelp:link keywords="netvista.protocolcmregistersap" tabindex="0"><i>
+     ProtocolCmRegisterSap</i></mshelp:link> function.
 
 
 ### -param ProtocolVcContext [in]
@@ -95,27 +109,68 @@ Pointer to a caller-supplied variable that must be initialized to <b>NULL</b> wh
 
 
 ## -returns
+
+
 <b>NdisCoCreateVc</b> can return one of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_SUCCESS</b></dt>
-</dl>NDIS created the VC successfully.
+</dl>
+</td>
+<td width="60%">
+NDIS created the VC successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_RESOURCES</b></dt>
-</dl>NDIS could not allocate sufficient memory to set up the VC.
+</dl>
+</td>
+<td width="60%">
+NDIS could not allocate sufficient memory to set up the VC.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_FAILURE</b></dt>
-</dl>The given 
+</dl>
+</td>
+<td width="60%">
+The given 
        <i>NdisAfHandle</i> is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_
        <i>XXX</i></b></dt>
-</dl>The underlying miniport driver failed the creation of the VC for a miniport driver-determined
+</dl>
+</td>
+<td width="60%">
+The underlying miniport driver failed the creation of the VC for a miniport driver-determined
        reason, which NDIS has propagated to the caller.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A client or stand-alone call manager creates a VC with 
     <b>NdisCoCreateVc</b>, depending on whether the VC represents an outgoing or incoming call,
     respectively.
@@ -145,8 +200,8 @@ To make an outgoing call, a client must call
     <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>.
 
 When its 
-    <a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
-    ProtocolCoReceiveNetBufferLists</a> function processes the offer of an incoming call directed to one of
+    <mshelp:link keywords="netvista.protocolcoreceivenetbufferlists" tabindex="0"><i>
+    ProtocolCoReceiveNetBufferLists</i></mshelp:link> function processes the offer of an incoming call directed to one of
     its registered SAPs, a call manager must call 
     <b>NdisCoCreateVc</b> first. As a synchronous operation, NDIS calls the underlying miniport driver's 
     <i>MiniportCoCreateVc</i> function and the client's 
@@ -155,8 +210,8 @@ When its
     <b>NdisCoCreateVc</b> succeeds, the call manager can proceed in notifying the appropriate client, passing
     the returned value at 
     <i>NdisVcHandle</i> to 
-    <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">
-    NdisCmDispatchIncomingCall</a>.
+    <mshelp:link keywords="netvista.ndiscmdispatchincomingcall" tabindex="0"><b>
+    NdisCmDispatchIncomingCall</b></mshelp:link>.
 
 Stand-alone call managers, which register themselves with NDIS as protocol drivers, can call 
     <b>NdisCoCreateVc</b>. Connection-oriented miniport drivers that provide integrated call-management
@@ -164,41 +219,32 @@ Stand-alone call managers, which register themselves with NDIS as protocol drive
     <a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>, instead.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
-   NdisAllocateFromNPagedLookasideList</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.protocolcoreceivenetbufferlists" tabindex="0"><i>
+   ProtocolCoReceiveNetBufferLists</i></mshelp:link>
+
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
-   ProtocolCoReceiveNetBufferLists</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
+
+<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
+   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+
+<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
+
+<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCoCreateVc function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCoCreateVc function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

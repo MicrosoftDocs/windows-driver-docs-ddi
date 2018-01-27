@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: E602F16A-AFD8-4698-AC90-1686887FFEA6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ACTIVITY_STATE, ACTIVITY_STATE
+ms.keywords: ACTIVITY_STATE, sensorsdef/ActivityState_InVehicle, ActivityState_InVehicle, sensorsdef/ActivityState_Max, ActivityState_Force_Dword, sensorsdef/ActivityState_Idle, ACTIVITY_STATE enumeration [Sensor Devices], sensorsdef/ActivityState_Force_Dword, sensorsdef/ActivityState_Stationary, ActivityState_Unknown, ActivityState_Stationary, sensorsdef/ActivityState_Walking, sensorsdef/ActivityState_Fidgeting, ActivityState_Running, ActivityState_Max, ActivityState_Fidgeting, sensors.activity_states, sensorsdef/ActivityState_Unknown, sensorsdef/ActivityState_Running, ActivityState_Walking, ActivityState_Biking, sensorsdef/ACTIVITY_STATE, sensorsdef/ActivityState_Biking, ActivityState_Idle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ACTIVITY_STATE
-req.alt-loc: Sensorsdef.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Sensorsdef.h
+apiname: 
+-	ACTIVITY_STATE
+product: Windows
+targetos: Windows
 req.typenames: ACTIVITY_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ACTIVITY_STATE enumeration
 
 
-
 ## -description
+
+
 This enumeration represents the activity states reported by the activity detection sensor.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _ACTIVITY_STATES { 
@@ -63,6 +73,9 @@ typedef enum _ACTIVITY_STATES {
 
 
 ## -enum-fields
+
+
+
 
 ### -field ActivityState_Unknown
 
@@ -115,15 +128,16 @@ Used to force the ACTIVITY_STATE enum to a 32-bit data type (a DWORD).
 
 
 ## -remarks
+
+
 For more information about the sensor data fields that use this enumeration, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957013">Activity detection sensor data fields</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn957013">Activity detection sensor data fields</a>
-</dt>
-</dl>
+
  
 
  

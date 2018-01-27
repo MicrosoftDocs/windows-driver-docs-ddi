@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: df2b6438-271d-4ea2-a06b-49a83415ca7a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _ADDRESS_FIFO, ADDRESS_FIFO, *PADDRESS_FIFO
+ms.keywords: ADDRESS_FIFO structure [Buses], 1394/ADDRESS_FIFO, ADDRESS_FIFO, PADDRESS_FIFO structure pointer [Buses], _ADDRESS_FIFO, *PADDRESS_FIFO, 1394stct_bf7f3e1b-88a4-4c37-88ee-cf5d69595988.xml, IEEE.address_fifo, PADDRESS_FIFO, 1394/PADDRESS_FIFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ADDRESS_FIFO
-req.alt-loc: 1394.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: ADDRESS_FIFO, *PADDRESS_FIFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1394.h
+apiname: 
+-	ADDRESS_FIFO
+product: Windows
+targetos: Windows
+req.typenames: *PADDRESS_FIFO, ADDRESS_FIFO
 ---
 
 # _ADDRESS_FIFO structure
 
 
-
 ## -description
+
+
 The ADDRESS_FIFO structure is an entry in a singly-linked list of MDLs used by the REQUEST_ALLOCATE_ADDRESS_RANGE IEEE 1394 bus request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ADDRESS_FIFO {
@@ -55,6 +65,9 @@ typedef struct _ADDRESS_FIFO {
 
 ## -struct-fields
 
+
+
+
 ### -field FifoList
 
 Specifies the rest of the list. This is a singly linked list. 
@@ -65,18 +78,12 @@ Specifies the rest of the list. This is a singly linked list.
 Specifies the MDL for the FIFO element described by this entry of the list.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537437">NOTIFICATION_INFO</a>
-</dt>
-</dl>
+
  
 
  

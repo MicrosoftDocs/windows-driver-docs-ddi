@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 86e04896-2921-4f77-9bee-283ceb9a66bc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwFlushVirtualMemory
+ms.keywords: NtFlushVirtualMemory, ntifs/ZwFlushVirtualMemory, ZwFlushVirtualMemory, kernel.zwflushvirtualmemory, k111_536d2679-dc41-490f-be7b-171e0208a1fd.xml, ZwFlushVirtualMemory routine [Kernel-Mode Driver Architecture], ntifs/NtFlushVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows XP.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwFlushVirtualMemory,NtFlushVirtualMemory
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ZwFlushVirtualMemory
+-	NtFlushVirtualMemory
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # ZwFlushVirtualMemory function
 
 
-
 ## -description
+
+
 The <b>ZwFlushVirtualMemory</b> routine flushes a range of virtual addresses within the virtual address space of a specified process which map to a data file back out to the data file if they have been modified.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ZwFlushVirtualMemory(
@@ -56,6 +67,9 @@ NTSTATUS ZwFlushVirtualMemory(
 
 
 ## -parameters
+
+
+
 
 ### -param ProcessHandle [in]
 
@@ -86,50 +100,112 @@ A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> 
 
 
 ## -returns
+
+
 <b>ZwFlushVirtualMemory</b> returns either STATUS_SUCCESS or an error status code. Possible error status codes include the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>The specified <i>ProcessHandle</i> parameter was not a valid process handle. 
+</dl>
+</td>
+<td width="60%">
+The specified <i>ProcessHandle</i> parameter was not a valid process handle. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>Additional resources required by this function were not available. 
+</dl>
+</td>
+<td width="60%">
+Additional resources required by this function were not available. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER_2</b></dt>
-</dl>The <i>BaseAddress</i> specified was an invalid address within the virtual address space or the <i>RegionSize</i> was invalid. 
+</dl>
+</td>
+<td width="60%">
+The <i>BaseAddress</i> specified was an invalid address within the virtual address space or the <i>RegionSize</i> was invalid. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>The specified <i>ProcessHandle</i> parameter was not a valid process handle. 
+</dl>
+</td>
+<td width="60%">
+The specified <i>ProcessHandle</i> parameter was not a valid process handle. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_MAPPED_VIEW</b></dt>
-</dl>No virtual address space descriptor could be located for the supplied <i>BaseAddress</i>. 
+</dl>
+</td>
+<td width="60%">
+No virtual address space descriptor could be located for the supplied <i>BaseAddress</i>. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_PROCESS_IS_TERMINATING</b></dt>
-</dl>The process and the associated virtual address space was deleted. 
+</dl>
+</td>
+<td width="60%">
+The process and the associated virtual address space was deleted. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FILE_LOCK_CONFLICT</b></dt>
-</dl>The file system encountered a locking conflict. 
+</dl>
+</td>
+<td width="60%">
+The file system encountered a locking conflict. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
 
+
+
      This routine accepts, as input parameters, a range of addresses in virtual memory that map a data file. If any memory in this range has been modified since the file was copied to memory, the routine flushes this memory back to the data file.
 
 For more information about memory management support for kernel-mode drivers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554389">Memory Management for Windows Drivers</a>. 
+<div class="alert"><b>Note</b>  If the call to the <b>ZwFlushVirtualMemory</b> function occurs in user mode, you should use the name "<b>NtFlushVirtualMemory</b> " instead of "<b>ZwFlushVirtualMemory</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVirtualMemory</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
  
 
  

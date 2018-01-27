@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 43695fa9-32e1-4bd5-b146-88d6d03fe9fb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlEqualMemory
+ms.keywords: wdm/RtlEqualMemory, RtlEqualMemory, RtlEqualMemory routine [Kernel-Mode Driver Architecture], kernel.rtlequalmemory, k109_a75dfbc8-12af-4f95-9ba0-b7752b796e55.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlEqualMemory
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wdm.h
 req.dll: 
 req.irql: Any level (See Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	RtlEqualMemory
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RtlEqualMemory macro
 
 
-
 ## -description
+
+
 The <b>RtlEqualMemory</b> routine compares two blocks of memory to determine whether the specified number of bytes are identical. 
 
 
-
 ## -syntax
+
 
 ````
 LOGICAL RtlEqualMemory(
@@ -57,14 +67,17 @@ LOGICAL RtlEqualMemory(
 
 ## -parameters
 
-### -param Source1 [in]
-
-Pointer to a caller-allocated block of memory to compare. 
 
 
-### -param Source2 [in]
 
-Pointer to a caller-allocated block of memory that is compared to the block of memory to which <i>Source1</i> points. 
+### -param Destination
+
+TBD
+
+
+### -param Source
+
+TBD
 
 
 ### -param Length [in]
@@ -72,18 +85,29 @@ Pointer to a caller-allocated block of memory that is compared to the block of m
 Specifies the number of bytes to be compared. 
 
 
+#### - Source2 [in]
+
+Pointer to a caller-allocated block of memory that is compared to the block of memory to which <i>Source1</i> points. 
+
+
+#### - Source1 [in]
+
+Pointer to a caller-allocated block of memory to compare. 
+
+
 ## -remarks
+
+
 <b>RtlEqualMemory</b> begins the comparison with byte zero of each block.
 
 Callers of <b>RtlEqualMemory</b> can be running at any IRQL if both blocks of memory are resident.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlcomparememory.md">RtlCompareMemory</a>
-</dt>
-</dl>
+
  
 
  

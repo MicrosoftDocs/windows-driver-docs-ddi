@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 17d75b0e-2521-441f-99ea-75d2ea1d52b3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS, *PDISK_COPY_DATA_PARAMETERS
+ms.keywords: ntdddisk/PDISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS structure [Storage Devices], structs-disk_3b1d751a-57a0-47a6-accd-f895fdb9bb61.xml, storage.disk_copy_data_parameters, DISK_COPY_DATA_PARAMETERS, PDISK_COPY_DATA_PARAMETERS structure pointer [Storage Devices], *PDISK_COPY_DATA_PARAMETERS, ntdddisk/DISK_COPY_DATA_PARAMETERS, PDISK_COPY_DATA_PARAMETERS, _DISK_COPY_DATA_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DISK_COPY_DATA_PARAMETERS
-req.alt-loc: ntdddisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DISK_COPY_DATA_PARAMETERS, *PDISK_COPY_DATA_PARAMETERS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntdddisk.h
+apiname: 
+-	DISK_COPY_DATA_PARAMETERS
+product: Windows
+targetos: Windows
+req.typenames: *PDISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS
 ---
 
 # _DISK_COPY_DATA_PARAMETERS structure
 
 
-
 ## -description
+
+
 DISK_COPY_DATA_PARAMETERS is used with IOCTL_DISK_COPY_DATA to copy data from one area of the disk to another.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DISK_COPY_DATA_PARAMETERS {
@@ -56,6 +66,9 @@ typedef struct _DISK_COPY_DATA_PARAMETERS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field SourceOffset
 
@@ -78,15 +91,16 @@ Must be zero.
 
 
 ## -remarks
+
+
 The source and destination areas must not overlap.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_copy_data.md">IOCTL_DISK_COPY_DATA</a>
-</dt>
-</dl>
+
  
 
  

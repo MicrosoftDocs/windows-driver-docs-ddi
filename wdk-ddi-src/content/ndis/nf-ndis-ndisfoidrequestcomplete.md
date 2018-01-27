@@ -7,8 +7,8 @@ old-location: netvista\ndisfoidrequestcomplete.htm
 old-project: netvista
 ms.assetid: 1d72e8e3-1053-4731-a16c-fc3e4f7460e9
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisFOidRequestComplete
+ms.date: 1/18/2018
+ms.keywords: netvista.ndisfoidrequestcomplete, NdisFOidRequestComplete function [Network Drivers Starting with Windows Vista], NdisFOidRequestComplete, ndis/NdisFOidRequestComplete, ndis_request_ref_df2bb357-d053-4f02-a828-46a72dc1fee7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisFOidRequestComplete
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_OID_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,35 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisFOidRequestComplete
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFOidRequestComplete function
 
 
-
 ## -description
+
+
 Filter drivers call the 
   <b>NdisFOidRequestComplete</b> function to return the final status of an OID request for which the driver's 
   <a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a> function returned
   NDIS_STATUS_PENDING.
 
 
-
 ## -syntax
+
 
 ````
 VOID NdisFOidRequestComplete(
@@ -58,6 +69,9 @@ VOID NdisFOidRequestComplete(
 
 
 ## -parameters
+
+
+
 
 ### -param NdisFilterHandle [in]
 
@@ -81,10 +95,15 @@ The final status of the request operation, either NDIS_STATUS_SUCCESS or any dri
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A filter driver that returns NDIS_STATUS_PENDING from its 
     <a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a> function must call
     the 
@@ -95,21 +114,18 @@ If an overlying driver originated the OID request, NDIS calls the request comple
     <b>NdisFOidRequestComplete</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
-</dt>
-<dt>
+
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFOidRequestComplete function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFOidRequestComplete function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

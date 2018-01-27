@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e44e5e4a-20e1-4327-b64c-5806d1bb2ece
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.videoprocessorsetstreamfilter, pfnVideoProcessorSetStreamFilter callback function [Display Devices], pfnVideoProcessorSetStreamFilter, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER, d3d10umddi/pfnVideoProcessorSetStreamFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnVideoProcessorSetStreamFilter
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	pfnVideoProcessorSetStreamFilter
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER callback
 
 
-
 ## -description
+
+
 Enables or disables an image filter for an input stream on the video processor.
 
 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER pfnVideoProcessorSetStreamFilter;
@@ -64,62 +74,87 @@ VOID APIENTRY* pfnVideoProcessorSetStreamFilter(
 
 ## -parameters
 
-### -param hDevice [in]
+
+
+
+### -param D3D10DDI_HDEVICE
+
+
+
+### -param D3D11_1DDI_HVIDEOPROCESSOR
+
+
+
+### -param UINT
+
+
+
+### -param D3D11_1DDI_VIDEO_PROCESSOR_FILTER
+
+
+
+### -param BOOL
+
+
+
+### -param int
+
+
+
+
+
+
+#### - Level [in]
+
+The filter level. The meaning of this value is defined by the independent hardware vendor (IHV).
+<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is FALSE, this parameter is ignored.
+
+</div><div> </div>
+
+#### - Enable [in]
+
+If <b>TRUE</b>, the filter is enabled on the video processor.
+
+
+#### - hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-### -param hVideoProcessor [in]
+#### - hVideoProcessor [in]
 
 A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
 
 
 
 
-### -param StreamIndex [in]
+#### - StreamIndex [in]
 
 The zero-based index of the input stream.
 
 
-### -param Filter [in]
+#### - Filter [in]
 
 The filter, specified as a <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_filter.md">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a> value.
 
 
 
 
-### -param Enable [in]
-
-If <b>TRUE</b>, the filter is enabled on the video processor.
-
-
-### -param Level [in]
-
-The filter level. The meaning of this value is defined by the independent hardware vendor (IHV).
-
-<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is FALSE, this parameter is ignored.
-
-</div>
-<div> </div>
-
 ## -returns
+
+
 This callback function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_filter.md">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a>
-</dt>
-</dl>
+
  
 
  

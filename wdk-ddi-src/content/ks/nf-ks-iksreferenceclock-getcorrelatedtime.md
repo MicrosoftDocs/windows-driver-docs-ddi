@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3f4a47bb-460e-4ca0-9aee-4bcfdb88dd30
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsReferenceClock, IKsReferenceClock::GetCorrelatedTime, GetCorrelatedTime
+ms.keywords: GetCorrelatedTime method [Streaming Media Devices], stream.iksreferenceclock_getcorrelatedtime, GetCorrelatedTime, avintfc_9bb8180e-a8e6-4b89-a615-0516470a7dd8.xml, IKsReferenceClock, IKsReferenceClock::GetCorrelatedTime, IKsReferenceClock interface [Streaming Media Devices], GetCorrelatedTime method, ks/IKsReferenceClock::GetCorrelatedTime, GetCorrelatedTime method [Streaming Media Devices], IKsReferenceClock interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsReferenceClock.GetCorrelatedTime
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ks.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ks.h
+apiname: 
+-	IKsReferenceClock.GetCorrelatedTime
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IKsReferenceClock::GetCorrelatedTime method
 
 
-
 ## -description
+
+
 The <b>IKsReferenceClock::GetCorrelatedTime</b> method queries the associated reference clock for current stream time and acquires the correlated system time.
 
 
-
 ## -syntax
+
 
 ````
 LONGLONG GetCorrelatedTime(
@@ -54,16 +64,24 @@ LONGLONG GetCorrelatedTime(
 
 ## -parameters
 
+
+
+
 ### -param SystemTime [out]
 
 A pointer to a LONGLONG-typed variable that receives the current system time in 100 nanosecond units.
 
 
 ## -returns
+
+
 The <b>IKsReferenceClock::GetCorrelatedTime</b> method returns the stream time, specified by default in 100-nanosecond units. The correlated system time is returned in <i>SystemTime</i>.
 
 
+
 ## -remarks
+
+
 Use this method to determine the difference between stream time and system time. <b>IKsReferenceClock::GetCorrelatedTime</b> returns the times that both clocks show at the same moment.
 
 For the most accurate results, call this method only when the stream is in a running state (KSSTATE_RUN) and not during a state transition.
@@ -75,12 +93,11 @@ For more information, see <a href="https://msdn.microsoft.com/fc1d5bca-72e3-48e2
 AVStream uses the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564465">KSPROPERTY_CLOCK_CORRELATEDTIME</a> property to retrieve the correlated time.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7f4ac419-a24e-4421-9891-9fea9479e781
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IResourceList, IResourceList::AddEntry, AddEntry
+ms.keywords: portcls/IResourceList::AddEntry, AddEntry method [Audio Devices], IResourceList interface [Audio Devices], AddEntry method, AddEntry, audio.iresourcelist_addentry, audmp-routines_6a6091c9-4cb3-40ca-8bb9-39b239c322b7.xml, IResourceList::AddEntry, AddEntry method [Audio Devices], IResourceList interface, IResourceList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IResourceList.AddEntry
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IResourceList.AddEntry
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IResourceList::AddEntry method
 
 
-
 ## -description
+
+
 The <code>AddEntry</code> method adds an entry to a resource list.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS AddEntry(
@@ -54,6 +64,9 @@ NTSTATUS AddEntry(
 
 
 ## -parameters
+
+
+
 
 ### -param Translated [in]
 
@@ -66,26 +79,35 @@ Pointer to an untranslated version of the entry. This parameter points to a CM_P
 
 
 ## -returns
+
+
 <code>AddEntry</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code. The following table shows some of the possible return status codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>Indicates there are no free entries in the list.
+</dl>
+</td>
+<td width="60%">
+Indicates there are no free entries in the list.
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
  
 
  

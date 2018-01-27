@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D7173157-D532-4E71-A4E5-55A3B9626DB8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBFN_CLASS_INTERFACE, *PUSBFN_CLASS_INTERFACE, USBFN_CLASS_INTERFACE
+ms.keywords: _USBFN_CLASS_INTERFACE, USBFN_CLASS_INTERFACE, usbfnbase/PUSBFN_CLASS_INTERFACE, PUSBFN_CLASS_INTERFACE structure pointer [Buses], USBFN_CLASS_INTERFACE structure [Buses], usbfnbase/USBFN_CLASS_INTERFACE, PUSBFN_CLASS_INTERFACE, *PUSBFN_CLASS_INTERFACE, buses.usbfn_class_interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBFN_CLASS_INTERFACE
-req.alt-loc: usbfnbase.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbfnbase.h
+apiname: 
+-	USBFN_CLASS_INTERFACE
+product: Windows
+targetos: Windows
 req.typenames: *PUSBFN_CLASS_INTERFACE, USBFN_CLASS_INTERFACE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USBFN_CLASS_INTERFACE structure
 
 
-
 ## -description
+
+
 Describes an interface and its endpoints.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBFN_CLASS_INTERFACE {
@@ -56,6 +66,9 @@ typedef struct _USBFN_CLASS_INTERFACE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field InterfaceNumber
 
@@ -72,15 +85,10 @@ The number of endpoints contained in  the interface.
 An array of <a href="..\usbfnbase\ns-usbfnbase-_usbfn_pipe_information.md">USBFN_PIPE_INFORMATION</a> structures that describes the endpoints in the interface.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbfnbase\ns-usbfnbase-_usbfn_pipe_information.md">USBFN_PIPE_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

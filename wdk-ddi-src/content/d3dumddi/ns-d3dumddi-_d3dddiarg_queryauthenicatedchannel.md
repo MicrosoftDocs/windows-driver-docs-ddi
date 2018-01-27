@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d816b4d7-cc99-4a83-9fd2-c7c0659d0318
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_QUERYAUTHENICATEDCHANNEL, D3DDDIARG_QUERYAUTHENTICATEDCHANNEL
+ms.keywords: UMDisplayDriver_param_Structs_5c16c40f-b8b6-41cc-9f83-f204d7213760.xml, display.d3dddiarg_queryauthenticatedchannel, d3dumddi/D3DDDIARG_QUERYAUTHENTICATEDCHANNEL, D3DDDIARG_QUERYAUTHENTICATEDCHANNEL structure [Display Devices], D3DDDIARG_QUERYAUTHENTICATEDCHANNEL, _D3DDDIARG_QUERYAUTHENICATEDCHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3DDDIARG_QUERYAUTHENTICATEDCHANNEL is supported begi
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_QUERYAUTHENTICATEDCHANNEL
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_QUERYAUTHENTICATEDCHANNEL
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_QUERYAUTHENTICATEDCHANNEL
 ---
 
 # _D3DDDIARG_QUERYAUTHENICATEDCHANNEL structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_QUERYAUTHENTICATEDCHANNEL structure describes authenticated-channel information to query by using the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryauthenticatedchannel.md">QueryAuthenticatedChannel</a> function. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_QUERYAUTHENTICATEDCHANNEL {
@@ -56,6 +66,9 @@ typedef struct _D3DDDIARG_QUERYAUTHENTICATEDCHANNEL {
 
 
 ## -struct-fields
+
+
+
 
 ### -field InputSize
 
@@ -78,21 +91,27 @@ typedef struct _D3DDDIARG_QUERYAUTHENTICATEDCHANNEL {
 
 
 ## -remarks
+
+
 The definitions of the input and output buffers to which the <b>pInputData</b> and <b>pOutputData</b> members point, depend on the type of information. The first member of the input buffer is always a D3DAUTHENTICATEDCHANNEL_QUERY_INPUT structure, whose <b>QueryType</b> member identifies the type of information to query.
 
 The definition of the output buffer also depends on the information that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryauthenticatedchannel.md">QueryAuthenticatedChannel</a> function queries. However, the first member of the output buffer is always a D3DAUTHENTICATEDCHANNEL_QUERY_OUTPUT structure, whose members specify the following information:
-
+<ul>
+<li>
 The <b>omac</b> member identifies the One-key Cipher Block Chaining (CBC)-mode message authentication code (OMAC) that permits the caller to authenticate the entire buffer, which prevents man-in-the-middle attacks.
 
+</li>
+<li>
 The <b>QueryType</b>, <b>hChannel</b>, and <b>SequenceNumber</b> members from the input buffer prevent against replay attacks. 
+
+</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryauthenticatedchannel.md">QueryAuthenticatedChannel</a>
-</dt>
-</dl>
+
  
 
  

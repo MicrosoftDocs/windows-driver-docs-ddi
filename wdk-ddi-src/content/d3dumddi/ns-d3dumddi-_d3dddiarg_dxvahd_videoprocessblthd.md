@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 16eb6131-89d5-48da-b5f8-f51b9c37e061
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD
+ms.keywords: D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD structure [Display Devices], _D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, d3dumddi/D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, UMDisplayDriver_param_Structs_8a72018a-706f-4c26-adca-109365e03ff1.xml, D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, display.d3dddiarg_dxvahd_videoprocessblthd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD is supported begin
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD
 ---
 
 # _D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD structure describes a Microsoft DirectX Video Acceleration (VA) video processing high definition operation to perform.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD {
@@ -57,6 +67,9 @@ typedef struct _D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hVideoProcessor
 
@@ -84,38 +97,44 @@ typedef struct _D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD {
 
 
 ## -remarks
-The output surface that the <b>OutputSurface</b> member specifies, which must be one of the following surface types:
 
+
+The output surface that the <b>OutputSurface</b> member specifies, which must be one of the following surface types:
+<ul>
+<li>
 A video surface that is created with the DXVAHD_SURFACE_TYPE_VIDEO_OUTPUT type. 
 
+</li>
+<li>
 A render target surface or a surface that is created with D3DUSAGE_RENDERTARGET usage. 
 
+</li>
+<li>
 A swap chain. 
 
+</li>
+<li>
 A swap chain with overlay swap effect. 
 
-If the frame that the <b>OutputFrame</b> member specifies remains unchanged at the next process time, the driver determines that the frame is unchanged (for example, paused) in the entire video processing and composition. Therefore, the driver can use cached data to optimize the frame.
+</li>
+</ul>If the frame that the <b>OutputFrame</b> member specifies remains unchanged at the next process time, the driver determines that the frame is unchanged (for example, paused) in the entire video processing and composition. Therefore, the driver can use cached data to optimize the frame.
 
 The driver also uses the frame that the <b>OutputFrame</b> member specifies for tagging the command, which the driver submits to the graphics processing unit (GPU).
 
 Input streams are indexed from zero to less than the number that the driver sets in the <b>MaxStreamStates</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a> structure. Each stream has its own stream states associated with the stream index number. The driver processes each stream from zero index and blends on the destination surface one after another. For example, if a video stream is at index zero and a graphics stream is at index one, the driver blends the video stream on the background color and then blends the graphics stream over them.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_data.md">DXVAHDDDI_STREAM_DATA</a>
-</dt>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_surface.md">DXVAHDDDI_SURFACE</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_surface.md">DXVAHDDDI_SURFACE</a>
+
  
 
  

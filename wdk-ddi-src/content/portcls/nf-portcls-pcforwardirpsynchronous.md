@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 29f69d26-6788-4c52-b6a4-ef96991ea238
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcForwardIrpSynchronous
+ms.keywords: PcForwardIrpSynchronous function [Audio Devices], audpc-routines_9ecb1bfa-c318-424c-8f65-3777136c5f65.xml, portcls/PcForwardIrpSynchronous, audio.pcforwardirpsynchronous, PcForwardIrpSynchronous
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The PortCls system driver implements the PcForwardIrp
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PcForwardIrpSynchronous
-req.alt-loc: Portcls.lib,Portcls.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Portcls.lib
+-	Portcls.dll
+apiname: 
+-	PcForwardIrpSynchronous
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # PcForwardIrpSynchronous function
 
 
-
 ## -description
-The <b>PcForwardIrpSynchronous</b> function is used by IRP handlers to forward Plug and Play IRPs to the <a href="wdkgloss.p#wdkgloss.physical_device_object__pdo_#wdkgloss.physical_device_object__pdo_"><i>physical device object (PDO)</i></a>.
 
+
+The <b>PcForwardIrpSynchronous</b> function is used by IRP handlers to forward Plug and Play IRPs to the <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">physical device object (PDO)</a>.
 
 
 ## -syntax
+
 
 ````
 NTSTATUS PcForwardIrpSynchronous(
@@ -54,6 +65,9 @@ NTSTATUS PcForwardIrpSynchronous(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceObject [in]
 
@@ -66,27 +80,29 @@ Pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> that is to be forwarded
 
 
 ## -returns
+
+
 <b>PcForwardIrpSynchronous</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 <b>PcForwardIrpSynchronous</b> causes the next PDO to receive the IRP and block until the IRP has been completed by the physical device driver. At that point, <b>PcForwardIrpSynchronous</b> unblocks and returns to the caller. The caller (an IRP handler) should eventually return--possibly with a status of STATUS_PENDING. In general, any IRP handler that calls this function must specify the action IRP_ACTION_FINISH upon returning. Any other action would result in the IRP being forwarded to the physical device a second time.
 
 The <a href="..\portcls\nf-portcls-pccompleteirp.md">PcCompleteIrp</a> function is used when an IRP handler returns STATUS_PENDING and the IRP must be completed later.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-</dt>
-<dt>
+
 <a href="..\portcls\nf-portcls-pccompleteirp.md">PcCompleteIrp</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f0110435-d060-4f4b-ad29-baaeb8fc2e0e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.videodecoderendframe, pfnVideoDecoderEndFrame callback function [Display Devices], pfnVideoDecoderEndFrame, PFND3D11_1DDI_VIDEODECODERENDFRAME, PFND3D11_1DDI_VIDEODECODERENDFRAME, d3d10umddi/pfnVideoDecoderEndFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnVideoDecoderEndFrame
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	pfnVideoDecoderEndFrame
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_VIDEODECODERENDFRAME callback
 
 
-
 ## -description
+
+
 Completes a DirectX Video Acceleration (DXVA) decoding operation for a video frame.
 
 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11_1DDI_VIDEODECODERENDFRAME pfnVideoDecoderEndFrame;
@@ -60,37 +70,54 @@ VOID APIENTRY* pfnVideoDecoderEndFrame(
 
 ## -parameters
 
-### -param hDevice [in]
-
-A handle to the display device (graphics context).
 
 
 
+### -param D3D10DDI_HDEVICE
 
-### -param hDecoder [in]
+
+
+### -param D3D11_1DDI_HDECODE
+
+
+
+
+
+
+#### - hDecoder [in]
 
 A handle to the video decoder object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a> function.
 
 
 
 
+#### - hDevice [in]
+
+A handle to the display device (graphics context).
+
+
+
+
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 The <b>VideoDecoderEndFrame</b> completes the decoding operation that was started when the Microsoft Direct3D runtime called <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a>. <b>VideoDecoderEndFrame</b> signals to the driver that all video data has been submitted for the video frame.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a>
-</dt>
-</dl>
+
  
 
  

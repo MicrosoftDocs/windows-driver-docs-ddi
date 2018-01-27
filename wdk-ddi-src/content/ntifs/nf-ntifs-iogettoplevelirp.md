@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e92685f6-031a-464a-b26a-54bebf7d66b6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoGetTopLevelIrp
+ms.keywords: IoGetTopLevelIrp, ifsk.iogettoplevelirp, ntifs/IoGetTopLevelIrp, IoGetTopLevelIrp routine [Installable File System Drivers], ioref_4826c2a4-5c95-461d-b21c-7e3fca98c0cb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoGetTopLevelIrp
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoGetTopLevelIrp
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # IoGetTopLevelIrp function
 
 
-
 ## -description
+
+
 The <b>IoGetTopLevelIrp</b> routine returns the value of the <b>TopLevelIrp</b> field of the current thread.
 
 
-
 ## -syntax
+
 
 ````
 PIRP IoGetTopLevelIrp(
@@ -54,16 +64,23 @@ PIRP IoGetTopLevelIrp(
 
 ## -parameters
 
-### -param  
 
-None
+
+
+
+
 
 
 ## -returns
+
+
 <b>IoGetTopLevelIrp</b> returns the value of the <b>TopLevelIrp</b> field of the current thread.
 
 
+
 ## -remarks
+
+
 <b>IoGetTopLevelIrp</b> can return <b>NULL</b>, an arbitrary file-system-specific value (such as a pointer to the current IRP), or one of the flags listed in the following table.
 
 If the current thread holds no resources above the file system, <b>IoGetTopLevelIrp</b> returns <b>NULL</b>.
@@ -71,30 +88,59 @@ If the current thread holds no resources above the file system, <b>IoGetTopLevel
 If the file system is the top-level component for the current thread, <b>IoGetTopLevelIrp</b> returns a pointer to the current IRP.
 
 If a component other than the file system is the top-level component for the current thread, <b>IoGetTopLevelIrp</b> returns one of the following flags: 
-
+<table>
+<tr>
+<th>Flag</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>
 FSRTL_FSP_TOP_LEVEL_IRP
 
+</td>
+<td>
 This is a recursive call.
 
+</td>
+</tr>
+<tr>
+<td>
 FSRTL_CACHE_TOP_LEVEL_IRP
 
+</td>
+<td>
 The cache manager is the top-level component for the current thread.
 
+</td>
+</tr>
+<tr>
+<td>
 FSRTL_MOD_WRITE_TOP_LEVEL_IRP
 
+</td>
+<td>
 The modified page writer is the top-level component for the current thread.
 
+</td>
+</tr>
+<tr>
+<td>
 FSRTL_FAST_IO_TOP_LEVEL_IRP
 
+</td>
+<td>
 The cache manager is the top-level component for the current thread, and the current thread is in a fast I/O path.
+
+</td>
+</tr>
+</table> 
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-iosettoplevelirp.md">IoSetTopLevelIrp</a>
-</dt>
-</dl>
+
  
 
  

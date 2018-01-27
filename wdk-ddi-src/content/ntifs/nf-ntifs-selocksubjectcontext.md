@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 032e203a-9cb0-4232-91fc-883528e15a81
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SeLockSubjectContext
+ms.keywords: ifsk.selocksubjectcontext, ntifs/SeLockSubjectContext, SeLockSubjectContext, SeLockSubjectContext routine [Installable File System Drivers], seref_ea4696ab-8343-4d15-866c-15720d009db8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SeLockSubjectContext
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	SeLockSubjectContext
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # SeLockSubjectContext function
 
 
-
 ## -description
+
+
 The <b>SeLockSubjectContext</b> routine locks the primary and impersonation tokens of a captured subject context.
 
 
-
 ## -syntax
+
 
 ````
 VOID SeLockSubjectContext(
@@ -54,16 +64,24 @@ VOID SeLockSubjectContext(
 
 ## -parameters
 
+
+
+
 ### -param SubjectContext [in]
 
 Pointer to a SECURITY_SUBJECT_CONTEXT structure returned by a call to <b>SeCaptureSubjectContext</b>.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>SeLockSubjectContext</b> acquires read locks on the primary and impersonation tokens of a captured subject context.
 
 To capture a subject context, use <b>SeCaptureSubjectContext</b>.
@@ -73,18 +91,15 @@ Each call to <b>SeLockSubjectContext</b> must be matched by a subsequent call to
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
-</dt>
-</dl>
+
  
 
  

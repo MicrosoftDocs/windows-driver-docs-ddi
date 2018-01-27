@@ -7,8 +7,8 @@ old-location: debugger\getfieldoffsetwide.htm
 old-project: debugger
 ms.assetid: 4a9b90dd-72b2-4625-8b73-bc0dca6ba905
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugSymbols3, IDebugSymbols3::GetFieldOffsetWide, GetFieldOffsetWide
+ms.date: 1/19/2018
+ms.keywords: GetFieldOffsetWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetFieldOffsetWide method, IDebugSymbols3::GetFieldOffsetWide, debugger.getfieldoffsetwide, GetFieldOffsetWide, IDebugSymbols3, dbgeng/IDebugSymbols3::GetFieldOffsetWide, GetFieldOffsetWide method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugSymbols3.GetFieldOffsetWide
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugSymbols3.GetFieldOffsetWide
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetFieldOffsetWide method
 
 
-
 ## -description
+
+
 The <b>GetFieldOffsetWide</b>  method returns the offset of a field from the base address of an instance of a type.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT GetFieldOffsetWide(
@@ -56,6 +66,9 @@ HRESULT GetFieldOffsetWide(
 
 
 ## -parameters
+
+
+
 
 ### -param Module [in]
 
@@ -78,18 +91,45 @@ Receives the offset of the specified field from the base memory location of an i
 
 
 ## -returns
+
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method was successful.
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_NOINTERFACE</b></dt>
-</dl>The field <i>Field</i> could not be found in the type specified by <i>TypeId</i>.
+</dl>
+</td>
+<td width="60%">
+The field <i>Field</i> could not be found in the type specified by <i>TypeId</i>.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 An example of a dot-separated path for the <i>Field</i> parameter is as follows.  Suppose the MyStruct structure contains a field <b>MyField</b> of type MySubStruct, and the MySubStruct structure contains the field <b>MySubField</b>.  Then the location of this field relative to the location of MyStruct structure can be found by setting the <i>Field</i> parameter to "MyField.MySubField".
 
-For more information about types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558931">Types</a>.</p>
+For more information about types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558931">Types</a>.
+
+

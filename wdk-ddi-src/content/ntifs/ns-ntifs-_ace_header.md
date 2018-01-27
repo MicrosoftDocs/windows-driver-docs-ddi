@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f5f39310-8b15-4d6b-a985-3f25522a16b1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _ACE_HEADER, ACE_HEADER, *PACE_HEADER
+ms.keywords: _ACE_HEADER, ifsk.ace_header, ntifs/PACE_HEADER, *PACE_HEADER, ACE_HEADER structure [Installable File System Drivers], PACE_HEADER structure pointer [Installable File System Drivers], ntifs/ACE_HEADER, PACE_HEADER, securitystructures_a5aba00b-54fc-4356-9dc8-bf3d5dbe7f78.xml, ACE_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ACE_HEADER
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	ACE_HEADER
+product: Windows
+targetos: Windows
 req.typenames: ACE_HEADER
 ---
 
 # _ACE_HEADER structure
 
 
-
 ## -description
+
+
 The ACE_HEADER structure describes the type and size of an access-control entry (ACE). 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ACE_HEADER {
@@ -56,10 +66,12 @@ typedef struct _ACE_HEADER {
 
 ## -struct-fields
 
+
+
+
 ### -field AceType
 
 ACE type. This member can be one of the following values: 
-
 <table>
 <tr>
 <th>Value</th>
@@ -95,14 +107,12 @@ System-audit ACE that uses the SYSTEM_AUDIT_ACE structure.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field AceFlags
 
 Set of ACE type-specific control flags. This member can be a combination of the following values: 
-
 <table>
 <tr>
 <th>Value</th>
@@ -182,8 +192,7 @@ Used with system-audit ACEs in a SACL to generate audit messages for successful 
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field AceSize
@@ -192,32 +201,28 @@ Size, in bytes, of the ACE.
 
 
 ## -remarks
+
+
 The ACE_HEADER structure is the first member of the various types of ACE structures, such as ACCESS_ALLOWED_ACE. 
 
 System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot specify the SYSTEM_ALARM_ACE_TYPE. Do not use the SYSTEM_ALARM_ACE structure. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
+
+<a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
+
 <a href="..\ntifs\ns-ntifs-_system_audit_ace.md">SYSTEM_AUDIT_ACE</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
  
 
  

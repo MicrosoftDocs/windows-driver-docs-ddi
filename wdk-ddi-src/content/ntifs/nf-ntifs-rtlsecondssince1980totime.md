@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2552df19-424e-43ba-9c8d-431123353d4a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlSecondsSince1980ToTime
+ms.keywords: ntifs/RtlSecondsSince1980ToTime, rtlref_1896255f-11a2-445f-999a-95da533908d8.xml, ifsk.rtlsecondssince1980totime, RtlSecondsSince1980ToTime routine [Installable File System Drivers], RtlSecondsSince1980ToTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlSecondsSince1980ToTime
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlSecondsSince1980ToTime
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlSecondsSince1980ToTime function
 
 
-
 ## -description
+
+
 The <b>RtlSecondsSince1980ToTime</b> routine converts the elapsed time, in seconds, since the beginning of 1980 to an absolute system time value. 
 
 
-
 ## -syntax
+
 
 ````
 VOID RtlSecondsSince1980ToTime(
@@ -54,6 +64,9 @@ VOID RtlSecondsSince1980ToTime(
 
 
 ## -parameters
+
+
+
 
 ### -param ElapsedSeconds [in]
 
@@ -66,30 +79,31 @@ Pointer to a caller-allocated variable that receives the corresponding current s
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The absolute system time is a LARGE_INTEGER value, accurate to 100-nanosecond resolution, assuming an accurate hardware clock. The basis for system time is the start of 1601. The value returned by <b>RtlSecondsSince1980ToTime</b> is truncated to one-millisecond resolution. 
 
 For more information about converting time values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542994">Data Conversions</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtlsecondssince1970totime.md">RtlSecondsSince1970ToTime</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtltimefieldstotime.md">RtlTimeFieldsToTime</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtltimetosecondssince1980.md">RtlTimeToSecondsSince1980</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtltimetotimefields.md">RtlTimeToTimeFields</a>
-</dt>
-</dl>
+
  
 
  

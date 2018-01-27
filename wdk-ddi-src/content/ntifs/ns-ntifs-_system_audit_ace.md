@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 03806d36-0066-4603-ba53-10149778b4e7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _SYSTEM_AUDIT_ACE, SYSTEM_AUDIT_ACE, *PSYSTEM_AUDIT_ACE
+ms.keywords: _SYSTEM_AUDIT_ACE, ifsk.system_audit_ace, SYSTEM_AUDIT_ACE, SYSTEM_AUDIT_ACE structure [Installable File System Drivers], PSYSTEM_AUDIT_ACE, ntifs/PSYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE structure pointer [Installable File System Drivers], securitystructures_f47f7528-0214-4efc-9ec8-0f799d643299.xml, *PSYSTEM_AUDIT_ACE, ntifs/SYSTEM_AUDIT_ACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SYSTEM_AUDIT_ACE
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	SYSTEM_AUDIT_ACE
+product: Windows
+targetos: Windows
 req.typenames: SYSTEM_AUDIT_ACE
 ---
 
 # _SYSTEM_AUDIT_ACE structure
 
 
-
 ## -description
+
+
 The SYSTEM_AUDIT_ACE structure defines an access-control entry (ACE) for the system access-control list (ACL) specifying what types of access cause system-level notifications. A system-audit ACE causes an audit message to be logged when a specified user or group attempts to gain access to an object. The user or group is identified by a security identifier (SID). 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SYSTEM_AUDIT_ACE {
@@ -55,6 +65,9 @@ typedef struct _SYSTEM_AUDIT_ACE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -72,38 +85,32 @@ Specifies a SID. An access attempt of a kind specified by the <b>Mask</b> member
 
 
 ## -remarks
+
+
 Audit messages are stored in an event log that can be manipulated by using the Microsoft Win32 event-logging functions or by using the Event Viewer (EVENTVWR.EXE). 
 
 This structure must be aligned on a 32-bit boundary. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
+
+<a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
  
 
  

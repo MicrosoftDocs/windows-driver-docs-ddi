@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4c4a0458-8ab3-4ef0-b455-c7a70737f322
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FILE_ID_GLOBAL_TX_DIR_INFORMATION, FILE_ID_GLOBAL_TX_DIR_INFORMATION, *PFILE_ID_GLOBAL_TX_DIR_INFORMATION
+ms.keywords: _FILE_ID_GLOBAL_TX_DIR_INFORMATION, *PFILE_ID_GLOBAL_TX_DIR_INFORMATION, PFILE_ID_GLOBAL_TX_DIR_INFORMATION structure pointer [Installable File System Drivers], PFILE_ID_GLOBAL_TX_DIR_INFORMATION, ifsk.file_id_global_tx_dir_information, FILE_ID_GLOBAL_TX_DIR_INFORMATION, ntifs/FILE_ID_GLOBAL_TX_DIR_INFORMATION, FILE_ID_GLOBAL_TX_DIR_INFORMATION structure [Installable File System Drivers], ntifs/PFILE_ID_GLOBAL_TX_DIR_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILE_ID_GLOBAL_TX_DIR_INFORMATION
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: FILE_ID_GLOBAL_TX_DIR_INFORMATION, *PFILE_ID_GLOBAL_TX_DIR_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FILE_ID_GLOBAL_TX_DIR_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: *PFILE_ID_GLOBAL_TX_DIR_INFORMATION, FILE_ID_GLOBAL_TX_DIR_INFORMATION
 ---
 
 # _FILE_ID_GLOBAL_TX_DIR_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>FILE_ID_GLOBAL_TX_DIR_INFORMATION</b> structure contains information about transactional visibility for the files in a directory.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILE_ID_GLOBAL_TX_DIR_INFORMATION {
@@ -66,6 +76,9 @@ typedef struct _FILE_ID_GLOBAL_TX_DIR_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NextEntryOffset
 
@@ -192,7 +205,6 @@ A GUID value of the transaction that has this file locked for modification. The 
 ### -field TxInfoFlags
 
 A bitwise OR of zero or more of the following values. 
-
 <table>
 <tr>
 <th>Value </th>
@@ -218,8 +230,7 @@ The transaction's ID must be contained in the <b>LockingTransactionId</b> member
 </td>
 <td>The file is visible to transacted enumerators of the directory other than the one whose transaction ID is in the <b>LockingTransactionId</b> member, and it is visible to non-transacted enumerators of the directory.</td>
 </tr>
-</table>
- 
+</table> 
 
 If the FILE_ID_GLOBAL_TX_DIR_INFO_FLAG_WRITELOCKED flag is not set, the other flags must not be set. If flags other than FILE_ID_GLOBAL_TX_DIR_INFO_FLAG_WRITELOCKED are set, the FILE_ID_GLOBAL_TX_DIR_INFO_FLAG_WRITELOCKED flag must be set.
 
@@ -229,12 +240,14 @@ If the FILE_ID_GLOBAL_TX_DIR_INFO_FLAG_WRITELOCKED flag is not set, the other fl
 
 A sequence of Unicode characters containing the file name. 
 
-
-<div class="alert"><b>Note</b>  Use <b>FileNameLength</b> to determine the length of the file name rather than assuming the presence of a trailing null delimiter.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  Use <b>FileNameLength</b> to determine the length of the file name rather than assuming the presence of a trailing null delimiter.</div><div> </div>
 
 ## -remarks
+
+
 The <b>FILE_ID_GLOBAL_TX_DIR_INFORMATION</b> structure can be implemented for file systems that return the FILE_SUPPORTS_TRANSACTIONS flag in response to a query using a <a href="..\ntifs\ns-ntifs-_file_fs_attribute_information.md">FILE_FS_ATTRIBUTE_INFORMATION</a> structure. It must not be implemented for file systems that do not return that flag.
   
 
-If the FILE_ID_GLOBAL_TX_DIR_INFO_FLAG_WRITELOCKED flag is not set in <b>TxInfoFlags</b>, <b>LockingTransactionId</b> is ignored.</p>
+If the FILE_ID_GLOBAL_TX_DIR_INFO_FLAG_WRITELOCKED flag is not set in <b>TxInfoFlags</b>, <b>LockingTransactionId</b> is ignored.
+
+

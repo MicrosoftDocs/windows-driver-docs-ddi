@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 49dc9ed8-a506-475e-910f-5dce2ad9b168
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortCreateSecondaryDisplay
+ms.keywords: VideoPortCreateSecondaryDisplay, VideoPort_Functions_eda677fc-91b7-47d3-8407-615d5fbfcb3a.xml, video/VideoPortCreateSecondaryDisplay, display.videoportcreatesecondarydisplay, VideoPortCreateSecondaryDisplay function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of the Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortCreateSecondaryDisplay
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortCreateSecondaryDisplay
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortCreateSecondaryDisplay function
 
 
-
 ## -description
+
+
 The <b>VideoPortCreateSecondaryDisplay</b> function enables dual-view support by creating a secondary device object for the given device.
 
 
-
 ## -syntax
+
 
 ````
 VP_STATUS VideoPortCreateSecondaryDisplay(
@@ -56,6 +66,9 @@ VP_STATUS VideoPortCreateSecondaryDisplay(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -70,7 +83,6 @@ Pointer to the location in which to store the hardware device extension for the 
 ### -param ulFlag [in]
 
 Is a set of attributes for the secondary display device. This parameter is restricted to the following value:
-
 <table>
 <tr>
 <th>Value</th>
@@ -86,19 +98,25 @@ The secondary view can be removed.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 <b>VideoPortCreateSecondaryDisplay</b> returns NO_ERROR if the secondary display device was successfully created. Otherwise, this function returns an error code. 
 
 
+
 ## -remarks
-In Windows XP and later, a removable logical device will never become the <a href="wdkgloss.p#wdkgloss.primary_display#wdkgloss.primary_display"><i>primary display</i></a>.
+
+
+In Windows XP and later, a removable logical device will never become the <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">primary display</a>.
 
 Note that on some editions of Windows XP, <b>VideoPortCreateSecondaryDisplay</b> can deliberately fail to enable Dualview. In such cases, the display driver should remain in SingleView mode.
 
 When the video minport driver calls <b>VideoPortCreateSecondaryDisplay</b>, the value of the <i>ulFlags</i> parameter must be equal to VIDEO_DUALVIEW_REMOVABLE, which is defined in <i>ntddvdeo.h</i>.
 
-The flags VIDEO_DUALVIEW_PRIMARY and VIDEO_DUALVIEW_SECONDARY, which are defined in <i>ntddvdeo.h</i>, are for internal use only. The video miniport driver must never set these flags. </p>
+The flags VIDEO_DUALVIEW_PRIMARY and VIDEO_DUALVIEW_SECONDARY, which are defined in <i>ntddvdeo.h</i>, are for internal use only. The video miniport driver must never set these flags. 
+
+

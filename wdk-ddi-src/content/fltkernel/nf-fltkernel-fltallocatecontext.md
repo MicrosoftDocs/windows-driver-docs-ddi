@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 34be4ca1-9484-41c5-9382-4785c36fca1a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltAllocateContext
+ms.keywords: FltAllocateContext routine [Installable File System Drivers], FltAllocateContext, ifsk.fltallocatecontext, fltkernel/FltAllocateContext, FltApiRef_a_to_d_dcc03d8c-1f61-4afb-8774-f98951ebfb1f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltAllocateContext
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltAllocateContext
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltAllocateContext function
 
 
-
 ## -description
+
+
 The <b>FltAllocateContext</b> routine allocates a context structure for a specified context type.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltAllocateContext(
@@ -58,6 +68,9 @@ NTSTATUS FltAllocateContext(
 
 ## -parameters
 
+
+
+
 ### -param Filter [in]
 
 An opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>. (Setting this parameter to an invalid value causes the system to execute an ASSERT on a checked build.) 
@@ -67,36 +80,20 @@ An opaque filter pointer for the caller. This parameter is required and cannot b
 
 The type of context to allocate. One of the following: 
 
-<dl>
-<dd>
 FLT_FILE_CONTEXT (starting with Windows Vista) 
 
-</dd>
-<dd>
 FLT_INSTANCE_CONTEXT
 
-</dd>
-<dd>
 FLT_SECTION_CONTEXT (starting with Windows 8)
 
-</dd>
-<dd>
 FLT_STREAM_CONTEXT
 
-</dd>
-<dd>
 FLT_STREAMHANDLE_CONTEXT
 
-</dd>
-<dd>
 FLT_TRANSACTION_CONTEXT (starting with Windows Vista) 
 
-</dd>
-<dd>
 FLT_VOLUME_CONTEXT
 
-</dd>
-</dl>
 
 ### -param ContextSize [in]
 
@@ -122,218 +119,412 @@ A pointer to a caller-allocated variable that receives the address of the newly 
 
 
 ## -returns
+
+
 <b>FltAllocateContext</b> returns <b>STATUS_SUCCESS</b> or an appropriate <b>NTSTATUS</b> value, such as one of the following. 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FLT_CONTEXT_ALLOCATION_NOT_FOUND</b></dt>
-</dl>The allocation information for the context of the specified type was not provided at the time of filter registration. This is an error code.
+</dl>
+</td>
+<td width="60%">
+The allocation information for the context of the specified type was not provided at the time of filter registration. This is an error code.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FLT_DELETING_OBJECT</b></dt>
-</dl>The minifilter driver that is specified in the <i>Filter</i> parameter is being torn down. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+The minifilter driver that is specified in the <i>Filter</i> parameter is being torn down. This is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
 </dl>
+</td>
+<td width="60%">
+
 <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a> encountered a pool allocation failure. This is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>An invalid value was specified for the <i>ContextType</i> or the <i>ContextSize</i> parameter. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+An invalid value was specified for the <i>ContextType</i> or the <i>ContextSize</i> parameter. This is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>The file system does not support per-stream contexts. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+The file system does not support per-stream contexts. This is an error code. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>FltAllocateContext</b> allocates a context of the specified type from the specified pool. The contents of the returned context are not zeroed. 
 
 After the context is allocated, it can be set on an object by passing the <i>ReturnedContext</i> pointer to the appropriate set-context routine from the following table. 
-
+<table>
+<tr>
+<th>Context Type</th>
+<th>Set-Context Routine</th>
+</tr>
+<tr>
+<td>
 FLT_FILE_CONTEXT
 
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltsetfilecontext.md">FltSetFileContext</a> (starting with Windows Vista)
 
+</td>
+</tr>
+<tr>
+<td>
 FLT_INSTANCE_CONTEXT
 
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltsetinstancecontext.md">FltSetInstanceContext</a>
 
 
+</td>
+</tr>
+<tr>
+<td>
 FLT_SECTION_CONTEXT
 
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a> (Windows 8 and later only.)
 
+</td>
+</tr>
+<tr>
+<td>
 FLT_STREAM_CONTEXT
 
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltsetstreamcontext.md">FltSetStreamContext</a>
 
 
+</td>
+</tr>
+<tr>
+<td>
 FLT_STREAMHANDLE_CONTEXT
 
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltsetstreamhandlecontext.md">FltSetStreamHandleContext</a>
 
 
+</td>
+</tr>
+<tr>
+<td>
 FLT_TRANSACTION_CONTEXT
 
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltsettransactioncontext.md">FltSetTransactionContext</a> (starting with Windows Vista)
 
+</td>
+</tr>
+<tr>
+<td>
 FLT_VOLUME_CONTEXT
 
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltsetvolumecontext.md">FltSetVolumeContext</a>
 
+
+</td>
+</tr>
+</table> 
 
 When a minifilter driver calls <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a> from its <b>DriverEntry</b> routine, it must register each context type that it uses. For more information, see the reference entry for the <a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a> structure. 
 
 <b>FltAllocateContext</b> does not initialize the contents of the portion of the context structure specific to the minifilter driver. 
 
 To get the context for an object, call <a href="..\fltkernel\nf-fltkernel-fltgetcontexts.md">FltGetContexts</a> or the appropriate get-context routine from the following table.
+<table>
+<tr>
+<th>Context Type</th>
+<th>Get-Context Routine</th>
+</tr>
+<tr>
+<td>
+FLT_FILE_CONTEXT
 
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltgetfilecontext.md">FltGetFileContext</a> (starting with Windows Vista)
 
+</td>
+</tr>
+<tr>
+<td>
+FLT_INSTANCE_CONTEXT
+
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltgetinstancecontext.md">FltGetInstanceContext</a>
 
 
+</td>
+</tr>
+<tr>
+<td>
+FLT_SECTION_CONTEXT
+
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltgetsectioncontext.md">FltGetSectionContext</a> (starting with Windows 8)
 
+</td>
+</tr>
+<tr>
+<td>
+FLT_STREAM_CONTEXT
+
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltgetstreamcontext.md">FltGetStreamContext</a>
 
 
+</td>
+</tr>
+<tr>
+<td>
+FLT_STREAMHANDLE_CONTEXT
+
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltgetstreamhandlecontext.md">FltGetStreamHandleContext</a>
 
 
+</td>
+</tr>
+<tr>
+<td>
+FLT_TRANSACTION_CONTEXT
+
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltgettransactioncontext.md">FltGetTransactionContext</a> (starting with Windows Vista )
 
+</td>
+</tr>
+<tr>
+<td>
+FLT_VOLUME_CONTEXT
+
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumecontext.md">FltGetVolumeContext</a>
 
+
+</td>
+</tr>
+</table> 
 
 Contexts are reference-counted and on a successful return from <b>FltAllocateContext</b>, the context  pointed to by <i>ReturnedContext</i> has a reference count of 1. A context is freed automatically when its reference count reaches zero. To increment the reference count on a context, call <a href="..\fltkernel\nf-fltkernel-fltreferencecontext.md">FltReferenceContext</a>. 
 
 To decrement the reference count on a context, call <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>. 
 
 Because contexts are reference-counted, it is not usually necessary to delete them. To delete a context explicitly, call <a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a> or the appropriate delete-context routine from the following table.
+<table>
+<tr>
+<th>Context Type</th>
+<th>Delete-Context Routine</th>
+</tr>
+<tr>
+<td>
+FLT_FILE_CONTEXT
 
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltdeletefilecontext.md">FltDeleteFileContext</a> (starting with Windows Vista)
 
+</td>
+</tr>
+<tr>
+<td>
+FLT_INSTANCE_CONTEXT
+
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltdeleteinstancecontext.md">FltDeleteInstanceContext</a>
 
 
+</td>
+</tr>
+<tr>
+<td>
+FLT_SECTION_CONTEXT
+
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltclosesectionfordatascan.md">FltCloseSectionForDataScan</a> (starting with Windows 8)
 
+</td>
+</tr>
+<tr>
+<td>
+FLT_STREAM_CONTEXT
+
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltdeletestreamcontext.md">FltDeleteStreamContext</a>
 
 
+</td>
+</tr>
+<tr>
+<td>
+FLT_STREAMHANDLE_CONTEXT
+
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltdeletestreamhandlecontext.md">FltDeleteStreamHandleContext</a>
 
 
+</td>
+</tr>
+<tr>
+<td>
+FLT_TRANSACTION_CONTEXT
+
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltdeletetransactioncontext.md">FltDeleteTransactionContext</a> (starting with Windows Vista)
 
+</td>
+</tr>
+<tr>
+<td>
+FLT_VOLUME_CONTEXT
+
+</td>
+<td>
 
 <a href="..\fltkernel\nf-fltkernel-fltdeletevolumecontext.md">FltDeleteVolumeContext</a>
+
+
+</td>
+</tr>
+</table> 
 
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltclosesectionfordatascan.md">FltCloseSectionForDataScan</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltdeletefilecontext.md">FltDeleteFileContext</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltdeleteinstancecontext.md">FltDeleteInstanceContext</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltdeletestreamcontext.md">FltDeleteStreamContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltdeletestreamhandlecontext.md">FltDeleteStreamHandleContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltdeletetransactioncontext.md">FltDeleteTransactionContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltdeletevolumecontext.md">FltDeleteVolumeContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetcontexts.md">FltGetContexts</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetfilecontext.md">FltGetFileContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetinstancecontext.md">FltGetInstanceContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetsectioncontext.md">FltGetSectionContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetstreamcontext.md">FltGetStreamContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetstreamhandlecontext.md">FltGetStreamHandleContext</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltgettransactioncontext.md">FltGetTransactionContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumecontext.md">FltGetVolumeContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltreferencecontext.md">FltReferenceContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltsetfilecontext.md">FltSetFileContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltsetinstancecontext.md">FltSetInstanceContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltsetstreamcontext.md">FltSetStreamContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltsetstreamhandlecontext.md">FltSetStreamHandleContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltsettransactioncontext.md">FltSetTransactionContext</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetfilecontext.md">FltGetFileContext</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltsetvolumecontext.md">FltSetVolumeContext</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltsetfilecontext.md">FltSetFileContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetsectioncontext.md">FltGetSectionContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltsetinstancecontext.md">FltSetInstanceContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltsetstreamcontext.md">FltSetStreamContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltsettransactioncontext.md">FltSetTransactionContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltsetstreamhandlecontext.md">FltSetStreamHandleContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumecontext.md">FltGetVolumeContext</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetinstancecontext.md">FltGetInstanceContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetstreamcontext.md">FltGetStreamContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletetransactioncontext.md">FltDeleteTransactionContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletevolumecontext.md">FltDeleteVolumeContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltreferencecontext.md">FltReferenceContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetstreamhandlecontext.md">FltGetStreamHandleContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltclosesectionfordatascan.md">FltCloseSectionForDataScan</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetcontexts.md">FltGetContexts</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletestreamhandlecontext.md">FltDeleteStreamHandleContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+
  
 
  

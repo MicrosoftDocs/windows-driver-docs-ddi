@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 17B53AAF-5027-4E45-ABAF-566771DDF1DE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SENSOR_PROPERTY_LIST_SIZE
+ms.keywords: SENSOR_PROPERTY_LIST_SIZE, SENSOR_PROPERTY_LIST_SIZE function [Sensor Devices], sensorsdef/SENSOR_PROPERTY_LIST_SIZE, sensors.sensor_property_list_size
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SENSOR_PROPERTY_LIST_SIZE
-req.alt-loc: Sensorsdef.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Sensorsdef.h
+apiname: 
+-	SENSOR_PROPERTY_LIST_SIZE
+product: Windows
+targetos: Windows
 req.typenames: SENSOR_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SENSOR_PROPERTY_LIST_SIZE function
 
 
-
 ## -description
+
+
 This function returns the size of the property list.
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE ULONG SENSOR_PROPERTY_LIST_SIZE(
@@ -55,13 +65,17 @@ FORCEINLINE ULONG SENSOR_PROPERTY_LIST_SIZE(
 
 ## -parameters
 
+
+
+
 ### -param Count [in]
 
 The number of PROPERTYKEY elements.
 
 
 ## -returns
+
+
 The <b>SENSOR_PROPERTY_LIST_SIZE</b> function returns a ULONG value that represents the size of the property list.
 
 
-## -remarks

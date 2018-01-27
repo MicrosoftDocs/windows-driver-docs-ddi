@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7c3cb6e2-707a-4f8d-84b7-fce1354c06af
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: NpdBrokerUninitialize
+ms.keywords: stream.avstrminidevicecancelstop, AVStrMiniDeviceCancelStop, MyAVStrMiniDeviceIRP routine [Streaming Media Devices], MyAVStrMiniDeviceIRP, PFNKSDEVICEIRPVOID, PFNKSDEVICEIRPVOID, ks/MyAVStrMiniDeviceIRP, avstclbk_5b19ddf6-52f4-4d93-b5e1-7d7b5a41fe8b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MyAVStrMiniDeviceIRP
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ks.h
+apiname: 
+-	MyAVStrMiniDeviceIRP
+product: Windows
+targetos: Windows
 req.typenames: KEYWORDSELECTOR
 ---
 
 # PFNKSDEVICEIRPVOID callback
 
 
-
 ## -description
+
+
 An AVStream minidriver's IRP handling routine is called when these IRPs are dispatched by the device.
 
 
@@ -62,8 +72,8 @@ An AVStream minidriver's IRP handling routine is called when these IRPs are disp
 
 
 
-
 ## -prototype
+
 
 ````
 PFNKSDEVICEIRPVOID MyAVStrMiniDeviceIRP;
@@ -78,6 +88,9 @@ void MyAVStrMiniDeviceIRP(
 
 ## -parameters
 
+
+
+
 ### -param Device [in]
 
 Pointer to the <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> that dispatched the IRP.
@@ -89,38 +102,89 @@ The IRP issued by <i>Device</i>.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
+<table>
+<tr>
+<th>IRP</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550826">IRP_MN_CANCEL_STOP_DEVICE</a>
+</td>
+<td>
 The minidriver specifies this routine's address in the <b>CancelStop</b> member of its <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a> structure.
 
 This routine is optional.
 
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550823">IRP_MN_CANCEL_REMOVE_DEVICE</a>
+</td>
+<td>
 The minidriver specifies this routine's address in the <b>CancelRemove</b> member of its <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a> structure.
 
 This routine is called when an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550823">IRP_MN_CANCEL_REMOVE_DEVICE</a> is dispatched by the device.
 
+This routine is optional.
+
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
+</td>
+<td>
 The minidriver specifies this routine's address in the <b>MiniRemove</b> member of its <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a> structure.
 
 AVStream calls this routine when an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a> is dispatched by the device. Typically, it will be provided by minidrivers that must free device-associated resources upon device removal. This routine is optional.
 
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551755">IRP_MN_STOP_DEVICE</a>
+</td>
+<td>
 The minidriver specifies this routine's address in the <b>Stop</b> member of its <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a> structure.
 
 This is usually provided by minidrivers that need to detach from previously assigned resources before completing a stop operation.
 
+This routine is optional.
+
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551760">IRP_MN_SURPRISE_REMOVAL</a>
+</td>
+<td>
 The minidriver specifies this routine's address in the <b>SurpriseRemoval</b> member of its <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a> structure.
+
+This routine is optional.
+
+</td>
+</tr>
+</table> 
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+
  
 
  

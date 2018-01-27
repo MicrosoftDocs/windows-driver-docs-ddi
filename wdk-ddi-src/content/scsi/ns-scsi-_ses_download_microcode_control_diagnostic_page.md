@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 09c2746f-cfe4-41dc-82ce-0b7e0c348897
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, *PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
+ms.keywords: Reserved, Activate deferred microcode, Download microcode with offsets, save, and activate, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure [Storage Devices], PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, Download microcode with offsets, save, and defer activate, scsi/SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, scsi/PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, storage.ses_download_microcode_control_diagnostic_page, _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, *PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 10, version 1709 and later vers
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
-req.alt-loc: scsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	scsi.h
+apiname: 
+-	SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
+product: Windows
+targetos: Windows
 req.typenames: *PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
 req.product: Windows 10 or later.
 ---
@@ -38,14 +47,15 @@ req.product: Windows 10 or later.
 # _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure
 
 
-
 ## -description
+
+
 The <b>SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</b> structure contains a vendor specific microcode (i.e., firmware) image
 for use by the enclosure services process. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE {
@@ -66,6 +76,9 @@ typedef struct _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE {
 
 ## -struct-fields
 
+
+
+
 ### -field PageCode
 
 Specifies the diagnostic page being sent or requested based on the value. For a Microcode Control diagnostic page, the value should be 0x0E.
@@ -74,7 +87,7 @@ Specifies the diagnostic page being sent or requested based on the value. For a 
 ### -field SubEnclosureId
 
 Specifies the sub enclosure to which the application client is
-sending the microcode image. If the value does not match a valid SUBENCLOSURE_IDENTIFIER field value found in the <a href="..\scsi\ns-scsi-_ses_configuration_diagnostic_page.md">SES_CONFIGURATION_DIAGNOSTIC_PAGE</a>, then the enclosure services
+sending the microcode image. If the value does not match a valid SUBENCLOSURE_IDENTIFIER field value found in the <a href="..\storport\ns-storport-_ses_configuration_diagnostic_page.md">SES_CONFIGURATION_DIAGNOSTIC_PAGE</a>, then the enclosure services
 process shall abort the download microcode operation with a status of 0x80.
 
 
@@ -92,22 +105,21 @@ process shall abort the download microcode operation with a status of 0x80.
 ### -field Mode
 
 Specifies which mode to download the microcode with. 
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field Download
+<td width="40%"><a id="Download_microcode_with_offsets__save__and_activate"></a><a id="download_microcode_with_offsets__save__and_activate"></a><a id="DOWNLOAD_MICROCODE_WITH_OFFSETS__SAVE__AND_ACTIVATE"></a><dl>
+<dt><b>Download
 microcode
+with
 offsets,
 save, and
-activate</b>
-
-### -field 0x07
-
+activate</b></dt>
+<dt>0x07</dt>
+</dl>
 </td>
 <td width="60%">
 After the last SEND DIAGNOSTIC command delivers a Download Microcode
@@ -130,16 +142,16 @@ requested,  and activate the new microcode image after power on.</li>
 </td>
 </tr>
 <tr>
-
-### -field Download
+<td width="40%"><a id="Download_microcode_with_offsets__save__and_defer_activate"></a><a id="download_microcode_with_offsets__save__and_defer_activate"></a><a id="DOWNLOAD_MICROCODE_WITH_OFFSETS__SAVE__AND_DEFER_ACTIVATE"></a><dl>
+<dt><b>Download
 microcode
+with
 offsets,
 save, and
 defer
-activate</b>
-
-### -field 0x0E
-
+activate</b></dt>
+<dt>0x0E</dt>
+</dl>
 </td>
 <td width="60%">
 After the last SEND DIAGNOSTIC command delivering a <b>SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</b> to the subenclosure completes, the enclosure services
@@ -162,12 +174,12 @@ microcode)</li>
 </td>
 </tr>
 <tr>
-
-### -field Activate
+<td width="40%"><a id="Activate_deferred_microcode"></a><a id="activate_deferred_microcode"></a><a id="ACTIVATE_DEFERRED_MICROCODE"></a><dl>
+<dt><b>Activate
 deferred
-
-### -field 0x0F
-
+microcode</b></dt>
+<dt>0x0F</dt>
+</dl>
 </td>
 <td width="60%">
 After the SEND DIAGNOSTIC command specifying this mode completes, the
@@ -177,18 +189,17 @@ enclosure services process shall activate the deferred microcode image, if any.
 </td>
 </tr>
 <tr>
-
-### -field Reserved
-### -field All other values
-
+<td width="40%"><a id="Reserved"></a><a id="reserved"></a><a id="RESERVED"></a><dl>
+<dt><b>Reserved</b></dt>
+<dt>All other values</dt>
+</dl>
 </td>
 <td width="60%">
 Reserved for future use.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Reserved
@@ -227,5 +238,3 @@ Specifies the length of <i>Data</i>, in bytes.
 
 Contains part of the vendor specific microcode image.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 881F93B2-999F-4E3A-A71D-731946E8AA97
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_CONTROLINTERRUPT2, DXGKARG_CONTROLINTERRUPT2
+ms.keywords: DXGKARG_CONTROLINTTERUPT2, _DXGKARG_CONTROLINTERRUPT2, DXGKARG_CONTROLINTTERUPT2 structure [Display Devices], DXGKARG_CONTROLINTERRUPT2, DXGKARG_CONTROLINTERRUPT2 structure [Display Devices], display.dxgkarg_controlinterrupt2, d3dkmddi/DXGKARG_CONTROLINTERRUPT2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 10 and later versions of the Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_CONTROLINTTERUPT2
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_CONTROLINTTERUPT2
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_CONTROLINTERRUPT2
 ---
 
 # _DXGKARG_CONTROLINTERRUPT2 structure
 
 
-
 ## -description
+
+
 The DXGKARG_CONTROLINTERRUPT2 structure is used in <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_controlinterrupt2.md">DxgkDdi_ControlInterrupt2</a> calls to describe the state of interrupts. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_CONTROLINTERRUPT2 {
@@ -55,6 +65,9 @@ typedef struct _DXGKARG_CONTROLINTERRUPT2 {
 
 ## -struct-fields
 
+
+
+
 ### -field InterruptState
 
 Indicates whether  interrupts are enabled for the driver.
@@ -65,15 +78,16 @@ Indicates whether  interrupts are enabled for the driver.
 Indicates whether VSYNCs are enabled if interrupts are also enabled for the driver.
 
 
-## -remarks
+### -field InterruptType
+
+ 
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_controlinterrupt2.md">DxgkDdi_ControlInterrupt2</a>
-</dt>
-</dl>
+
  
 
  

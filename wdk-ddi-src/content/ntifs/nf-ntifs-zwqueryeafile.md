@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c4261a83-3c91-4bc1-93bf-d2d04c324e94
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwQueryEaFile
+ms.keywords: ntifs/ZwQueryEaFile, kernel.zwqueryeafile, ZwQueryEaFile, ZwQueryEaFile routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows 2000 and later version
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwQueryEaFile
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ZwQueryEaFile
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # ZwQueryEaFile function
 
 
-
 ## -description
+
+
 The <b>ZwQueryEaFile</b> routine returns 
     information about extended-attribute (EA) values for a file.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ZwQueryEaFile(
@@ -62,6 +72,9 @@ NTSTATUS ZwQueryEaFile(
 
 
 ## -parameters
+
+
+
 
 ### -param FileHandle [in]
 
@@ -123,38 +136,62 @@ Set to <b>TRUE</b> if
 
 
 ## -returns
+
+
 <b>ZwQueryEaFile</b> returns 
       <b>STATUS_SUCCESS</b> or an appropriate <b>NTSTATUS</b> value such as 
       the following:
+<table>
+<tr>
+<th>Return value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt>STATUS_EAS_NOT_SUPPORTED</dt>
-</dl>The file system does not support extended attributes. This is an error code.
+</dl>
+</td>
+<td width="60%">
+The file system does not support extended attributes. This is an error code.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt>STATUS_INSUFFICIENT_RESOURCES</dt>
-</dl>The <a href="..\ntifs\nf-ntifs-zwqueryeafile.md">ZwQueryEaFile</a> routine encountered a pool 
+</dl>
+</td>
+<td width="60%">
+The <a href="..\ntifs\nf-ntifs-zwqueryeafile.md">ZwQueryEaFile</a> routine encountered a pool 
         allocation failure. This is an error code.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt>STATUS_EA_LIST_INCONSISTENT</dt>
-</dl>The <i>EaList</i> parameter is not formatted correctly. This is an error code.
+</dl>
+</td>
+<td width="60%">
+The <i>EaList</i> parameter is not formatted correctly. This is an error code.
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_file_get_ea_information.md">FILE_GET_EA_INFORMATION</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
+
 <a href="..\ntifs\nf-ntifs-zwseteafile.md">ZwSetEaFile</a>
-</dt>
-</dl>
+
  
 
  

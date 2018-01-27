@@ -7,8 +7,8 @@ old-location: netvista\rilresetmodemparams.htm
 old-project: netvista
 ms.assetid: 6fde91f1-375e-4eaa-af48-67099b3e3227
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILRESETMODEMPARAMS, RILRESETMODEMPARAMS, *LPRILRESETMODEMPARAMS
+ms.date: 1/18/2018
+ms.keywords: RILRESETMODEMPARAMS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILRESETMODEMPARAMS, netvista.rilresetmodemparams, *LPRILRESETMODEMPARAMS, RILRESETMODEMPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILRESETMODEMPARAMS
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILRESETMODEMPARAMS, *LPRILRESETMODEMPARAMS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILRESETMODEMPARAMS
+product: Windows
+targetos: Windows
+req.typenames: *LPRILRESETMODEMPARAMS, RILRESETMODEMPARAMS
 ---
 
 # RILRESETMODEMPARAMS structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILRESETMODEMPARAMS {
@@ -56,13 +66,17 @@ typedef struct _RILRESETMODEMPARAMS {
 
 ## -struct-fields
 
+
+
+
 ### -field dwResetKind
+
 
 
 ### -field dwNumberOfConfigItems
 
 
+
 ### -field rmciModemConfigItems
 
 
-## -remarks

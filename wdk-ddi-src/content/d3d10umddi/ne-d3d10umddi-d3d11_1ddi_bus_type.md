@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 07cf1893-1ced-4bfa-a6f7-ec71345b9f18
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_BUS_TYPE, D3D11_1DDI_BUS_TYPE
+ms.keywords: D3D11_1DDI_BUS_IMPL_MODIFIER_NON_STANDARD, D3D11_1DDI_BUS_IMPL_MODIFIER_DAUGHTER_BOARD_CONNECTOR, display.d3d11_1ddi_bus_type, d3d10umddi/D3D11_1DDI_BUS_IMPL_MODIFIER_NON_STANDARD, D3D11_1DDI_BUS_IMPL_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_SOCKET, d3d10umddi/D3D11_1DDI_BUS_IMPL_MODIFIER_INSIDE_OF_CHIPSET, D3D11_1DDI_BUS_TYPE_OTHER, D3D11_1DDI_BUS_TYPE_PCIEXPRESS, d3d10umddi/D3D11_1DDI_BUS_TYPE, d3d10umddi/D3D11_1DDI_BUS_TYPE_PCI, D3D11_1DDI_BUS_IMPL_MODIFIER_DAUGHTER_BOARD_CONNECTOR_INSIDE_OF_NUAE, D3D11_1DDI_BUS_TYPE enumeration [Display Devices], d3d10umddi/D3D11_1DDI_BUS_TYPE_PCIEXPRESS, d3d10umddi/D3D11_1DDI_BUS_IMPL_MODIFIER_DAUGHTER_BOARD_CONNECTOR, d3d10umddi/D3D11_1DDI_BUS_IMPL_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_SOCKET, d3d10umddi/D3D11_1DDI_BUS_IMPL_MODIFIER_DAUGHTER_BOARD_CONNECTOR_INSIDE_OF_NUAE, D3D11_1DDI_BUS_IMPL_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_CHIP, d3d10umddi/D3D11_1DDI_BUS_TYPE_AGP, D3D11_1DDI_BUS_TYPE_PCI, D3D11_1DDI_BUS_TYPE_AGP, D3D11_1DDI_BUS_TYPE, d3d10umddi/D3D11_1DDI_BUS_TYPE_PCIX, D3D11_1DDI_BUS_IMPL_MODIFIER_INSIDE_OF_CHIPSET, D3D11_1DDI_BUS_TYPE_PCIX, d3d10umddi/D3D11_1DDI_BUS_IMPL_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_CHIP, d3d10umddi/D3D11_1DDI_BUS_TYPE_OTHER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDI_BUS_TYPE
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDI_BUS_TYPE
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_BUS_TYPE
 ---
 
 # D3D11_1DDI_BUS_TYPE enumeration
 
 
-
 ## -description
+
+
 Specifies the type of I/O bus that is used by the graphics adapter.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D11_1DDI_BUS_TYPE { 
@@ -63,6 +73,9 @@ typedef enum D3D11_1DDI_BUS_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D11_1DDI_BUS_TYPE_OTHER
 
@@ -118,5 +131,3 @@ The graphics adapter is connected to the motherboard through a daughterboard con
 
 One of the D3D11_1DDI_BUS_IMPL_MODIFIER_Xxx flags is set.
 
-
-## -remarks

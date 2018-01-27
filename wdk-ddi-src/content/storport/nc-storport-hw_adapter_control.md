@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e1944f1b-97db-4ac2-848e-e69359c09589
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER
+ms.keywords: storage.hwstoradaptercontrol, HwStorAdapterControl routine [Storage Devices], HwStorAdapterControl, HW_ADAPTER_CONTROL, HW_ADAPTER_CONTROL, storport/HwStorAdapterControl, stormini_19cbc8b1-9908-4b4d-a62b-712fb97e6bbd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HwStorAdapterControl
-req.alt-loc: Storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Storport.h
+apiname: 
+-	HwStorAdapterControl
+product: Windows
+targetos: Windows
 req.typenames: *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # HW_ADAPTER_CONTROL callback
 
 
-
 ## -description
+
+
 A miniport driver's <b>HwStorAdapterControl</b> routine is called to perform synchronous operations to control the state or behavior of an adapter, such as stopping or restarting the HBA for power management.
 
 
-
 ## -prototype
+
 
 ````
 HW_ADAPTER_CONTROL HwStorAdapterControl;
@@ -60,6 +70,9 @@ SCSI_ADAPTER_CONTROL_STATUS HwStorAdapterControl(
 
 ## -parameters
 
+
+
+
 ### -param DeviceExtension [in]
 
 A pointer to the miniport driver's per-HBA storage area. 
@@ -68,7 +81,6 @@ A pointer to the miniport driver's per-HBA storage area.
 ### -param ControlType [in]
 
 Specifies  an adapter-control operation. Each control type initiates an action by the miniport driver. The following are the  control types and their meanings. Also  listed, are the current IRQL and the spinlock acquired when the control type issued.
-
 <table>
 <tr>
 <th>Control Type</th>
@@ -352,14 +364,12 @@ None
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Parameters [in]
 
 Contains information related to the <i>ControlType</i>.  
-
 <table>
 <tr>
 <th>Control Type</th>
@@ -388,34 +398,34 @@ Caller-allocated SCSI_SUPPORTED_CONTROL_TYPE_LIST structure.
 </table></span></div>
 
 
-
-### -param MaxControlType
-
+<dl>
+<dt><a id="MaxControlType"></a><a id="maxcontroltype"></a><a id="MAXCONTROLTYPE"></a><b>MaxControlType</b></dt>
+<dd>
 Specifies the number of entries in the <b>SupportedTypeList</b> array.
 
-
-### -param SupportedTypeList
-
+</dd>
+<dt><a id="SupportedTypeList"></a><a id="supportedtypelist"></a><a id="SUPPORTEDTYPELIST"></a><b>SupportedTypeList</b></dt>
+<dd>
 Points to a caller-allocated array of BOOLEAN values that indicate the control types implemented by the miniport driver. The port driver initializes each element to <b>FALSE</b>. 
 
 The miniport driver sets the corresponding array element to <b>TRUE</b> for each operation it supports:
 
 
-
-### -param SupportedTypeList[ScsiQuerySupportedControlTypes]
-### -param SupportedTypeList[ScsiStopAdapter]
-### -param SupportedTypeList[ScsiRestartAdapter]
-### -param SupportedTypeList[ScsiSetBootConfig] 
-### -param SupportedTypeList[ScsiSetRunningConfig]
-### -param SupportedTypeList[ScsiPowerSettingNotification]
-### -param SupportedTypeList[ScsiAdapterPower]
-### -param SupportedTypeList[ScsiAdapterPoFxPowerRequired]
-### -param SupportedTypeList[ScsiAdapterPoFxPowerActive]
-### -param SupportedTypeList[ScsiAdapterPoFxPowerSetFState]
-### -param SupportedTypeList[ScsiAdapterPoFxPowerControl]
-### -param SupportedTypeList[ScsiAdapterPrepareForBusReScan]
-### -param SupportedTypeList[ScsiAdapterSystemPowerHints]
-
+<dl>
+<dt>SupportedTypeList[ScsiQuerySupportedControlTypes]</dt>
+<dt>SupportedTypeList[ScsiStopAdapter]</dt>
+<dt>SupportedTypeList[ScsiRestartAdapter]</dt>
+<dt>SupportedTypeList[ScsiSetBootConfig] </dt>
+<dt>SupportedTypeList[ScsiSetRunningConfig]</dt>
+<dt>SupportedTypeList[ScsiPowerSettingNotification]</dt>
+<dt>SupportedTypeList[ScsiAdapterPower]</dt>
+<dt>SupportedTypeList[ScsiAdapterPoFxPowerRequired]</dt>
+<dt>SupportedTypeList[ScsiAdapterPoFxPowerActive]</dt>
+<dt>SupportedTypeList[ScsiAdapterPoFxPowerSetFState]</dt>
+<dt>SupportedTypeList[ScsiAdapterPoFxPowerControl]</dt>
+<dt>SupportedTypeList[ScsiAdapterPrepareForBusReScan]</dt>
+<dt>SupportedTypeList[ScsiAdapterSystemPowerHints]</dt>
+</dl>
 
 
 The miniport driver must not set any element beyond <b>SupportedTypeList</b>[<b>MaxControlType</b> - 1].
@@ -489,19 +499,19 @@ Caller-allocated STOR_POWER_SETTING_INFO structure.
 </table></span></div>
 
 
-
-### -param PowerSettingGuid
-
+<dl>
+<dt><a id="PowerSettingGuid"></a><a id="powersettingguid"></a><a id="POWERSETTINGGUID"></a><b>PowerSettingGuid</b></dt>
+<dd>
 The GUID of the power setting that changed.
 
-
-### -param Value
-
+</dd>
+<dt><a id="Value"></a><a id="value"></a><a id="VALUE"></a><b>Value</b></dt>
+<dd>
 Data representing the new value for the power setting.
 
-
-### -param ValueLength
-
+</dd>
+<dt><a id="ValueLength"></a><a id="valuelength"></a><a id="VALUELENGTH"></a><b>ValueLength</b></dt>
+<dd>
 Length in bytes of the data pointed to by <b>Value.</b>
 
 </dd>
@@ -535,19 +545,19 @@ Caller-allocated STOR_FILTER_RESOURCE_REQUIREMENTS structure.
 </table></span></div>
 
 
-
-### -param Version
-
+<dl>
+<dt><a id="Version"></a><a id="version"></a><a id="VERSION"></a><b>Version</b></dt>
+<dd>
 The version of the filter. This is currently set to STOR_FILTER_RESOURCE_REQUIREMENTS_V1.
 
-
-### -param Size
-
+</dd>
+<dt><a id="Size"></a><a id="size"></a><a id="SIZE"></a><b>Size</b></dt>
+<dd>
 The size of this structure.
 
-
-### -param IoResourceRequirementsList
-
+</dd>
+<dt><a id="IoResourceRequirementsList"></a><a id="ioresourcerequirementslist"></a><a id="IORESOURCEREQUIREMENTSLIST"></a><b>IoResourceRequirementsList</b></dt>
+<dd>
 The IO resource requirements list. For more information see the <a href="..\wdm\ns-wdm-_io_resource_requirements_list.md">IO_RESOURCE_REQUIREMENTS_LIST</a> structure.
 
 </dd>
@@ -579,19 +589,19 @@ Caller-allocated STOR_ADAPTER_CONTROL_POWER structure.
 </table></span></div>
 
 
-
-### -param Header
-
+<dl>
+<dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
+<dd>
 The power control header structure.
 
-
-### -param PowerAction
-
+</dd>
+<dt><a id="PowerAction"></a><a id="poweraction"></a><a id="POWERACTION"></a><b>PowerAction</b></dt>
+<dd>
 The power action indicator. For a runtime power transition, <b>PowerAction</b> set to <b>StorPowerActionNone</b>.
 
-
-### -param PowerState
-
+</dd>
+<dt><a id="PowerState"></a><a id="powerstate"></a><a id="POWERSTATE"></a><b>PowerState</b></dt>
+<dd>
 The current adapter power state. This is either <b>StorPowerDeviceD0</b> or <b>StorPowerDeviceD3</b> for  the power on or power of states respectively.
 
 </dd>
@@ -633,19 +643,19 @@ Caller-allocated STOR_POFX_ACTIVE_CONTEXT structure.
 </table></span></div>
 
 
-
-### -param Header
-
+<dl>
+<dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
+<dd>
 The power control header structure.
 
-
-### -param ComponentIndex
-
+</dd>
+<dt><a id="ComponentIndex"></a><a id="componentindex"></a><a id="COMPONENTINDEX"></a><b>ComponentIndex</b></dt>
+<dd>
 Index of the device component with the active status. The component index is always 0 for an adapter.
 
-
-### -param Active
-
+</dd>
+<dt><a id="Active"></a><a id="active"></a><a id="ACTIVE"></a><b>Active</b></dt>
+<dd>
 The active status of the component. <b>Active</b> is always set to <b>TRUE</b>.
 
 </dd>
@@ -677,19 +687,19 @@ Caller-allocated STOR_POFX_FSTATE_CONTEXT structure.
 </table></span></div>
 
 
-
-### -param Header
-
+<dl>
+<dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
+<dd>
 The power control header structure.
 
-
-### -param ComponentIndex
-
+</dd>
+<dt><a id="ComponentIndex"></a><a id="componentindex"></a><a id="COMPONENTINDEX"></a><b>ComponentIndex</b></dt>
+<dd>
 Index of the device component with the active status. The component index is always 0 for an adapter.
 
-
-### -param FState
-
+</dd>
+<dt><a id="FState"></a><a id="fstate"></a><a id="FSTATE"></a><b>FState</b></dt>
+<dd>
 The F-state to set for the adapter component. The F0 state is the only component power state set for an adapter.
 
 </dd>
@@ -725,39 +735,39 @@ Caller-allocated STOR_POFX_POWER_CONTROL structure.
 </table></span></div>
 
 
-
-### -param Header
-
+<dl>
+<dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
+<dd>
 The power control header structure.
 
-
-### -param PowerControlCode
-
+</dd>
+<dt><a id="PowerControlCode"></a><a id="powercontrolcode"></a><a id="POWERCONTROLCODE"></a><b>PowerControlCode</b></dt>
+<dd>
 A power control code GUID identifying the private control private control operation to execute for the adapter.
 
-
-### -param InBufferSize
-
+</dd>
+<dt><a id="InBufferSize"></a><a id="inbuffersize"></a><a id="INBUFFERSIZE"></a><b>InBufferSize</b></dt>
+<dd>
 The size, in bytes, of the input buffer at <i>InBuffer</i>.
 
-
-### -param OutBufferSize
-
+</dd>
+<dt><a id="OutBufferSize"></a><a id="outbuffersize"></a><a id="OUTBUFFERSIZE"></a><b>OutBufferSize</b></dt>
+<dd>
 The size, in bytes, of the output buffer at <i>OutBuffer</i>.
 
-
-### -param InBuffer
-
+</dd>
+<dt><a id="InBuffer"></a><a id="inbuffer"></a><a id="INBUFFER"></a><b>InBuffer</b></dt>
+<dd>
 The buffer containing input parameters and data for the private power control call.
 
-
-### -param OutBuffer
-
+</dd>
+<dt><a id="OutBuffer"></a><a id="outbuffer"></a><a id="OUTBUFFER"></a><b>OutBuffer</b></dt>
+<dd>
 The buffer where the resulting output parameters and data are returned for the private power control call.
 
-
-### -param BytesReturned
-
+</dd>
+<dt><a id="BytesReturned"></a><a id="bytesreturned"></a><a id="BYTESRETURNED"></a><b>BytesReturned</b></dt>
+<dd>
 The size, in bytes, of the data returned in <i>OutBuffer</i>.
 
 </dd>
@@ -835,29 +845,29 @@ A system power usage indicator. This is one of the following values.
 
 
 
-
-### -param RaidSystemPowerUnknown
-
+<dl>
+<dt><a id="RaidSystemPowerUnknown"></a><a id="raidsystempowerunknown"></a><a id="RAIDSYSTEMPOWERUNKNOWN"></a>RaidSystemPowerUnknown</dt>
+<dd>
 Unknown power usage.
 
-
-### -param RaidSystemPowerLowest
-
+</dd>
+<dt><a id="RaidSystemPowerLowest"></a><a id="raidsystempowerlowest"></a><a id="RAIDSYSTEMPOWERLOWEST"></a>RaidSystemPowerLowest</dt>
+<dd>
 Lowest power usage.
 
-
-### -param RaidSystemPowerLow
-
+</dd>
+<dt><a id="RaidSystemPowerLow"></a><a id="raidsystempowerlow"></a><a id="RAIDSYSTEMPOWERLOW"></a>RaidSystemPowerLow</dt>
+<dd>
 Low power usage.
 
-
-### -param RaidSystemPowerMedium
-
+</dd>
+<dt><a id="RaidSystemPowerMedium"></a><a id="raidsystempowermedium"></a><a id="RAIDSYSTEMPOWERMEDIUM"></a>RaidSystemPowerMedium</dt>
+<dd>
 Medium power usage.
 
-
-### -param RaidSystemPowerHigh
-
+</dd>
+<dt><a id="RaidSystemPowerHigh"></a><a id="raidsystempowerhigh"></a><a id="RAIDSYSTEMPOWERHIGH"></a>RaidSystemPowerHigh</dt>
+<dd>
 High power usage.
 
 </dd>
@@ -879,56 +889,82 @@ The resume latency, in milliseconds, of the device.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 Depending on the control type, <b>HwStorAdapterControl</b> returns one of the following SCSI_ADAPTER_CONTROL_STATUS values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>
         ScsiAdapterControlSuccess</b></dt>
-</dl>The miniport driver completed the requested operation successfully. Currently, <b>HwStorAdapterControl</b> must return this value for all control types.
+</dl>
+</td>
+<td width="60%">
+The miniport driver completed the requested operation successfully. Currently, <b>HwStorAdapterControl</b> must return this value for all control types.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>
         ScsiAdapterControlUnsuccessful</b></dt>
-</dl>The adapter control operation was not successful.
+</dl>
+</td>
+<td width="60%">
+The adapter control operation was not successful.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 Because miniport drivers that work with the Storport driver must support Plug and Play (PnP), this function is required. The control types, <b>ScsiStopAdapter</b> and <b>ScsiRestartAdapter</b>, must be supported.
 
 The name <b>HwStorAdapterControl</b>  is just a placeholder. The actual prototype of this routine is defined in <i>storport.h</i> as follows:
-
-To define an <b>HwStorAdapterControl</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
-
- For example, to define a <b>HwStorAdapterControl</b> callback routine that is named <i>MyHwAdapterControl</i>, use the <b>HW_ADAPTER_CONTROL</b> type as shown in this code example:
-
-Then, implement your callback routine as follows:
-
-The <b>HW_ADAPTER_CONTROL</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_ADAPTER_CONTROL</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/40BD11CD-A559-4F90-BF39-4ED2FB800392">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-us/library/jj159529.aspx">Annotating Function Behavior</a>.
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef
+SCSI_ADAPTER_CONTROL_STATUS
+HW_ADAPTER_CONTROL (
+  _In_ PVOID  DeviceExtension,
+  _In_ SCSI_ADAPTER_CONTROL_TYPE  ControlType,
+  _In_ PVOID  Parameters
+  );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
-</dt>
-<dt>
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
-</dt>
-<dt>
-<a href="..\storport\nf-storport-storportgetbusdata.md">StorPortGetBusData</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportsetbusdatabyoffset.md">StorPortSetBusDataByOffset</a>
-</dt>
-<dt>
+
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+
 <a href="..\storport\nf-storport-storportsetpowersettingnotificationguids.md">StorPortSetPowerSettingNotificationGuids</a>
-</dt>
-</dl>
+
+<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+
+<a href="..\storport\nf-storport-storportgetbusdata.md">StorPortGetBusData</a>
+
  
 
  

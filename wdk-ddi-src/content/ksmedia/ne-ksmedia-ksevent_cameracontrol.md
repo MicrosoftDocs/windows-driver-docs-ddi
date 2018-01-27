@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 10d08e58-cd1f-4585-a93b-fabeb4fcf27c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSEVENT_CAMERACONTROL, KSEVENT_CAMERACONTROL
+ms.keywords: KSEVENT_CAMERACONTROL, stream.ksevent_cameracontrol, ksmedia/KSEVENT_CAMERACONTROL_ZOOM, ksmedia/KSEVENT_CAMERACONTROL_FOCUS, KSEVENT_CAMERACONTROL enumeration [Streaming Media Devices], KSEVENT_CAMERACONTROL_FOCUS, ksmedia/KSEVENT_CAMERACONTROL, KSEVENT_CAMERACONTROL_ZOOM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSEVENT_CAMERACONTROL
-req.alt-loc: Ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ksmedia.h
+apiname: 
+-	KSEVENT_CAMERACONTROL
+product: Windows
+targetos: Windows
 req.typenames: KSEVENT_CAMERACONTROL
 ---
 
 # KSEVENT_CAMERACONTROL enumeration
 
 
-
 ## -description
+
+
 Specifies camera control event notifications that the driver generates to indicate that an operation has been completed or canceled.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -54,6 +64,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field KSEVENT_CAMERACONTROL_FOCUS
 
@@ -66,21 +79,20 @@ A camera zoom operation has completed or has been canceled. See <a href="https:/
 
 
 ## -remarks
+
+
 For more information, see <a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_s_ex.md">KSPROPERTY_CAMERACONTROL_S_EX</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj156037">KSEVENT_CAMERACONTROL_FOCUS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj156038">KSEVENT_CAMERACONTROL_ZOOM</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_s_ex.md">KSPROPERTY_CAMERACONTROL_S_EX</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj156037">KSEVENT_CAMERACONTROL_FOCUS</a>
+
  
 
  

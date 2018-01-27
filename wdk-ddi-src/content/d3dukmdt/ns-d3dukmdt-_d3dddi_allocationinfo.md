@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 69181a7c-62bd-4df0-95fc-fe6c3ab14209
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_ALLOCATIONINFO, D3DDDI_ALLOCATIONINFO
+ms.keywords: D3D_other_Structs_5125c057-c4b7-45fd-b7d9-9ebcfce4fff7.xml, D3DDDI_ALLOCATIONINFO structure [Display Devices], D3DDDI_ALLOCATIONINFO, _D3DDDI_ALLOCATIONINFO, display.d3dddi_allocationinfo, d3dukmdt/D3DDDI_ALLOCATIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_ALLOCATIONINFO
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_ALLOCATIONINFO
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_ALLOCATIONINFO
 ---
 
 # _D3DDDI_ALLOCATIONINFO structure
 
 
-
 ## -description
+
+
 The D3DDDI_ALLOCATIONINFO structure describes an allocation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_ALLOCATIONINFO {
@@ -70,6 +80,50 @@ typedef struct _D3DDDI_ALLOCATIONINFO {
 
 
 ## -struct-fields
+
+
+
+
+### -field Flags
+
+[in] A union that contains either a structure (with the first three members that are described in the following list) or a 32-bit value (in the <b>Value</b> member) that indentifies the type of allocation:
+
+
+### -field Flags.Primary
+
+[in] A UINT that specifies whether the allocation is part of the desktop. Such an allocation is implicitly accessible to the CPU. A primary allocation can be either pinned down at creation or not pinned down at creation. 
+
+Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
+
+
+### -field Flags.Stereo
+
+[in] Supported beginning with Windows 8.
+
+A UINT that specifies whether the allocation is a stereo primary allocation. The <b>Stereo</b> member can be set only when the <b>Primary</b> member is set.
+
+Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
+
+
+### -field Flags.Reserved
+
+[in] Supported beginning with Windows 8.
+
+This member is reserved and should be set to zero.
+
+Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
+
+
+[in] This member is reserved and should be set to zero.
+
+Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
+
+
+
+### -field Flags.Value
+
+[in] A 32-bit value that identifies the type of allocation. 
+
 
 ### -field hAllocation
 
@@ -100,87 +154,45 @@ If the allocation is in system memory, the user-mode display driver should assig
 When the DirectX graphics kernel subsystem initiates the creation of the allocation for the shared primary surface, the display miniport driver can determine the identification number from the <b>VidPnSourceId</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_sharedprimarysurfacedata.md">D3DKMDDI_SHAREDPRIMARYSURFACEDATA</a> structure that the <b>pPrivateDriverData</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a> structure points to. 
 
 
-### -field Flags
-
-[in] A union that contains either a structure (with the first three members that are described in the following list) or a 32-bit value (in the <b>Value</b> member) that indentifies the type of allocation:
-
-
-### -field Primary
-
-[in] A UINT that specifies whether the allocation is part of the desktop. Such an allocation is implicitly accessible to the CPU. A primary allocation can be either pinned down at creation or not pinned down at creation. 
-
-Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
-
-
-### -field Stereo
-
-[in] Supported beginning with Windows 8.
-
-A UINT that specifies whether the allocation is a stereo primary allocation. The <b>Stereo</b> member can be set only when the <b>Primary</b> member is set.
-
-Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
-
-
-### -field Reserved
-
-[in] Supported beginning with Windows 8.
-
-This member is reserved and should be set to zero.
-
-Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
-
-
-
-### -field Reserved
-
-[in] This member is reserved and should be set to zero.
-
-Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
-
-
-
-### -field Value
-
-[in] A 32-bit value that identifies the type of allocation. 
-
-</dd>
-</dl>
-
 ## -remarks
-When the user-mode display driver sets the <b>Primary</b> bit-field flag in the <b>Flags</b> member of D3DDDI_ALLOCATIONINFO, certain restrictions apply to the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a> structure in the <b>pAllocationInfo</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a> structure for the allocation in a call to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function. These restrictions include the following: 
 
+
+When the user-mode display driver sets the <b>Primary</b> bit-field flag in the <b>Flags</b> member of D3DDDI_ALLOCATIONINFO, certain restrictions apply to the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a> structure in the <b>pAllocationInfo</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a> structure for the allocation in a call to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function. These restrictions include the following: 
+<ul>
+<li>
 The allocation is allocated according to preferences; otherwise, the allocation defaults to the supported write segment set, and all of the specified segments in the write segment set must be CPU-accessible.
 
-The D3DDDI_ID_NOTAPPLICABLE constant is defined in D3dukmdt.h.
+</li>
+<li>The display miniport driver cannot set the following bit-field flags in the  <b>Flags</b> member of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>:<ul>
+<li><b>PermanentSysMem</b></li>
+<li><b>Cached</b></li>
+<li><b>Protected</b></li>
+<li><b>ExistingSysMem</b></li>
+<li><b>ExistingKernelSysMem</b></li>
+</ul>
+</li>
+</ul>The D3DDDI_ID_NOTAPPLICABLE constant is defined in D3dukmdt.h.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
-</dt>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
-</dt>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_allocate.md">D3DDDICB_ALLOCATE</a>
-</dt>
-<dt>
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_surfaceinfo.md">D3DDDI_SURFACEINFO</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_sharedprimarysurfacedata.md">D3DKMDDI_SHAREDPRIMARYSURFACEDATA</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_surfaceinfo.md">D3DDDI_SURFACEINFO</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_allocate.md">D3DDDICB_ALLOCATE</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ffacbb39-2581-4207-841d-28ce57fbc64d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+ms.keywords: display.dxgkddistartdevice, DxgkDdiStartDevice callback function [Display Devices], DxgkDdiStartDevice, DXGKDDI_START_DEVICE, DXGKDDI_START_DEVICE, dispmprt/DxgkDdiStartDevice, DmFunctions_3b4ea5b7-9ccb-408f-9f37-693965ee99cf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiStartDevice
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DxgkDdiStartDevice
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_START_DEVICE callback
 
 
-
 ## -description
+
+
 The <i>DxgkDdiStartDevice</i> function prepares a display adapter to receive I/O requests.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_START_DEVICE DxgkDdiStartDevice;
@@ -60,6 +70,9 @@ NTSTATUS DxgkDdiStartDevice(
 
 
 ## -parameters
+
+
+
 
 ### -param MiniportDeviceContext [in]
 
@@ -87,55 +100,67 @@ A pointer to a <b>ULONG</b> variable that receives the total number of devices t
 
 
 ## -returns
+
+
 <i>DxgkDdiStartDevice</i> returns <b>STATUS_SUCCESS</b> if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
 
-## -remarks
-The <i>DxgkDdiStartDevice</i> function must perform the following actions:
 
+## -remarks
+
+
+The <i>DxgkDdiStartDevice</i> function must perform the following actions:
+<ul>
+<li>
 Save the function pointers supplied by the <a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a> structure passed to the <i>DxgkInterface</i> parameter. Also save the <b>DeviceHandle</b> member of the <b>DXGKRNL_INTERFACE</b> structure; you will need that handle to call back into the DirectX graphics kernel subsystem.
 
+</li>
+<li>
 Allocate a <a href="..\dispmprt\ns-dispmprt-_dxgk_device_info.md">DXGK_DEVICE_INFO</a> structure, and call <a href="..\dispmprt\nc-dispmprt-dxgkcb_get_device_information.md">DxgkCbGetDeviceInformation</a> to fill in the members of that structure, which include the registry path, the PDO, and a list of translated resources for the display adapter represented by <i>MiniportDeviceContext</i>. Save selected members (ones that the display miniport driver will need later) of the <b>DXGK_DEVICE_INFO</b> structure in the context block represented by <i>MiniportDeviceContext.</i>
 
+</li>
+<li>
 Map memory resources into system space by calling the <a href="..\dispmprt\nc-dispmprt-dxgkcb_map_memory.md">DxgkCbMapMemory</a> function.
 
+</li>
+<li>
 Initialize the context block represented by <i>MiniportDeviceContext</i> with any state that is required to prepare the hardware to receive I/O requests.
 
+</li>
+<li>
 Set <i>NumberOfVideoPresentSources </i> to the number of video present sources supported by the display adapter that is represented by <i>MiniportDeviceContext</i>.
 
+</li>
+<li>
 Set <i>NumberOfChildren </i> to the number of devices that are (or could become) children of the display adapter represented by <i>MiniportDeviceContext</i>.
 
+</li>
+<li>
 Enable interrupts for the display adapter represented by <i>MiniportDeviceContext</i>.
 
-Starting with Windows Display Driver Model (WDDM) 1.2, the display miniport driver calls   the <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a> function to obtain the information about the display mode that had been previously set by the firmware and system loader. If <b>DxgkCbAcquirePostDisplayOwnership</b> returns with <b>STATUS_SUCCESS</b>, the driver determines whether it has to reinitialize the display based on the display mode information that was returned through the <i>DisplayInfo</i> parameter. Otherwise,  the driver should not assume that any specific display mode is currently enabled on the device, and it should initialize the display.
+</li>
+</ul>Starting with Windows Display Driver Model (WDDM) 1.2, the display miniport driver calls   the <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a> function to obtain the information about the display mode that had been previously set by the firmware and system loader. If <b>DxgkCbAcquirePostDisplayOwnership</b> returns with <b>STATUS_SUCCESS</b>, the driver determines whether it has to reinitialize the display based on the display mode information that was returned through the <i>DisplayInfo</i> parameter. Otherwise,  the driver should not assume that any specific display mode is currently enabled on the device, and it should initialize the display.
 
 The <i>DxgkDdiStartDevice</i> function should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\dispmprt\ns-dispmprt-_dxgk_device_info.md">DXGK_DEVICE_INFO</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a>
-</dt>
-<dt>
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_get_device_information.md">DxgkCbGetDeviceInformation</a>
-</dt>
-<dt>
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_map_memory.md">DxgkCbMapMemory</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-</dt>
-<dt>
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device.md">DxgkDdiStopDevice</a>
-</dt>
-<dt>
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_device_info.md">DXGK_DEVICE_INFO</a>
+
 <a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
-</dt>
-</dl>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_get_device_information.md">DxgkCbGetDeviceInformation</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device.md">DxgkDdiStopDevice</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_map_memory.md">DxgkCbMapMemory</a>
+
+<a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a>
+
  
 
  

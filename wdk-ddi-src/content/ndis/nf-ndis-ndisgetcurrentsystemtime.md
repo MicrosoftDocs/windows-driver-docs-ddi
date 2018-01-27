@@ -7,8 +7,8 @@ old-location: netvista\ndisgetcurrentsystemtime.htm
 old-project: netvista
 ms.assetid: eef32784-ea27-42c0-9a7a-74ce3d76665d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisGetCurrentSystemTime
+ms.date: 1/18/2018
+ms.keywords: NdisGetCurrentSystemTime macro [Network Drivers Starting with Windows Vista], ndis_sysinfo_ref_cfd2358c-a52a-43d9-a07b-c64abb3e28b1.xml, NdisGetCurrentSystemTime, netvista.ndisgetcurrentsystemtime, ndis/NdisGetCurrentSystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    N
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisGetCurrentSystemTime
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisGetCurrentSystemTime
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGetCurrentSystemTime macro
 
 
-
 ## -description
+
+
 The 
   <b>NdisGetCurrentSystemTime</b> function returns the current system time, suitable for setting
   timestamps.
 
 
-
 ## -syntax
+
 
 ````
 VOID NdisGetCurrentSystemTime(
@@ -56,13 +67,25 @@ VOID NdisGetCurrentSystemTime(
 
 ## -parameters
 
-### -param pSystemTime [in]
+
+
+
+### -param _pSystemTime
+
+TBD
+
+
+
+
+#### - pSystemTime [in]
 
 A pointer to a caller-supplied variable in which this function returns a count of 100-nanosecond
      intervals since January 1, 1601.
 
 
 ## -remarks
+
+
 An NDIS driver might also call 
     <b>NdisGetCurrentSystemTime</b> if it maintains a count of how many packets it receives within any
     particular interval to tune its performance dynamically. For example, a miniport driver could call 
@@ -72,15 +95,14 @@ An NDIS driver might also call
     receive indications or send requests.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisGetCurrentSystemTime macro%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisGetCurrentSystemTime macro%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

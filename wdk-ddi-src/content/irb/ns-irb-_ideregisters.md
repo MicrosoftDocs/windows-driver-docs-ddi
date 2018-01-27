@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a3df8ce0-4414-49d1-a02c-3f5a3efc0de2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _IDEREGISTERS, IDEREGISTERS, *PIDEREGISTERS
+ms.keywords: IDEREGISTERS, irb/IDEREGISTERS, _IDEREGISTERS, IDEREGISTERS structure [Storage Devices], storage.ideregisters, PIDEREGISTERS, structs-ATA_8e024553-553c-4a64-9f74-7259f530b3b5.xml, irb/PIDEREGISTERS, PIDEREGISTERS structure pointer [Storage Devices], *PIDEREGISTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDEREGISTERS
-req.alt-loc: irb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: IDEREGISTERS, *PIDEREGISTERS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	irb.h
+apiname: 
+-	IDEREGISTERS
+product: Windows
+targetos: Windows
+req.typenames: *PIDEREGISTERS, IDEREGISTERS
 ---
 
 # _IDEREGISTERS structure
 
 
-
 ## -description
+
+
 The IDEREGISTERS structure is used to report the contents of the IDE controller registers.
-
-
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 typedef struct _IDEREGISTERS {
@@ -60,6 +70,9 @@ typedef struct _IDEREGISTERS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field bFeaturesReg
 
@@ -102,15 +115,16 @@ Reserved for future use. The miniport driver shall not use this field.
 
 
 ## -remarks
+
+
 The information reported in the IDEREGISTERS structure is intended to be a superset of the information contained in <a href="..\ntdddisk\ns-ntdddisk-_ideregs.md">IDEREGS</a>. Microsoft might expand the contents of the IDEREGISTERS structure in the future. If you need a structure whose size is stable across different versions of the operating system, you should use <b>IDEREGS</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntdddisk\ns-ntdddisk-_ideregs.md">IDEREGS</a>
-</dt>
-</dl>
+
  
 
  

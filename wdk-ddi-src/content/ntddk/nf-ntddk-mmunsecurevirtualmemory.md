@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 979eef24-e53b-476c-b9db-e56c43630913
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmUnsecureVirtualMemory
+ms.keywords: kernel.mmunsecurevirtualmemory, MmUnsecureVirtualMemory routine [Kernel-Mode Driver Architecture], k106_0bfc6e9e-a4e9-4868-b1fb-da6714146dbf.xml, ntddk/MmUnsecureVirtualMemory, MmUnsecureVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Windo
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MmUnsecureVirtualMemory
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlMmApcLte, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	MmUnsecureVirtualMemory
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # MmUnsecureVirtualMemory function
 
 
-
 ## -description
+
+
 The <b>MmUnsecureVirtualMemory</b> routine unsecures a memory address range secured by the <a href="..\ntddk\nf-ntddk-mmsecurevirtualmemory.md">MmSecureVirtualMemory</a> routine. 
 
 
-
 ## -syntax
+
 
 ````
 VOID MmUnsecureVirtualMemory(
@@ -54,24 +64,25 @@ VOID MmUnsecureVirtualMemory(
 
 ## -parameters
 
+
+
+
 ### -param SecureHandle [in]
 
 Specifies the value returned by <a href="..\ntddk\nf-ntddk-mmsecurevirtualmemory.md">MmSecureVirtualMemory</a> for the memory address range. 
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-mmsecurevirtualmemory.md">MmSecureVirtualMemory</a>
-</dt>
-</dl>
+
  
 
  

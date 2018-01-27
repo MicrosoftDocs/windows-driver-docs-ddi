@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bda13dc9-a9cc-4946-aadb-b073e5df787a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlDeleteTunnelCache
+ms.keywords: fsrtlref_b5481e27-6ade-4057-8d63-3af814f9b80e.xml, ifsk.fsrtldeletetunnelcache, FsRtlDeleteTunnelCache, ntifs/FsRtlDeleteTunnelCache, FsRtlDeleteTunnelCache routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlDeleteTunnelCache
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlDeleteTunnelCache
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlDeleteTunnelCache function
 
 
-
 ## -description
+
+
 The <b>FsRtlDeleteTunnelCache</b> routine deletes a tunnel cache.
 
 
-
 ## -syntax
+
 
 ````
 VOID FsRtlDeleteTunnelCache(
@@ -54,29 +64,36 @@ VOID FsRtlDeleteTunnelCache(
 
 ## -parameters
 
+
+
+
 ### -param Cache [in]
 
 Pointer to the tunnel cache structure to delete. The tunnel cache must have been initialized by calling <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache.md">FsRtlInitializeTunnelCache</a>.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>FsRtlDeleteTunnelCache</b> deletes all information contained in the tunnel cache. After the call to <b>FsRtlDeleteTunnelCache</b>, the tunnel cache is no longer valid.
 
 Callers are responsible for synchronizing access to the <b>FsRtlDeleteTunnelCache</b> call. In other words, a file system must ensure that it does not call <b>FsRtlDeleteTunnelCache</b> at the same time it is calling another tunnel cache routine from a different thread. 
 
-For more information about file name tunneling, see <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;amp;id=172190">Microsoft Knowledge Base Article 172190</a>.
+For more information about file name tunneling, see <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;id=172190">Microsoft Knowledge Base Article 172190</a>.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache.md">FsRtlInitializeTunnelCache</a>
-</dt>
-</dl>
+
  
 
  

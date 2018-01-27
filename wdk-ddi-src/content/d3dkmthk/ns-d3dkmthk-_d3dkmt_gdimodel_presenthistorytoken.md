@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4f602b68-7170-4e76-8875-0a0c0634caa2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN
+ms.keywords: display.d3dkmt_gdimodel_presenthistorytoken, D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN structure [Display Devices], D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, _D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, OpenGL_Structs_02351828-bca4-4a37-bb61-57224a125ee5.xml, d3dkmthk/D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN is supported begi
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN
 ---
 
 # _D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN structure
 
 
-
 ## -description
+
+
 The D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN structure identifies a GDI present-history operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN {
@@ -59,6 +69,9 @@ typedef struct _D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hLogicalSurface
 
@@ -89,18 +102,12 @@ Supported starting with Windows 8.
 [in] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a> structure that identifies the active rectangles (dirty regions) of the GDI surface. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
-</dt>
-</dl>
+
  
 
  

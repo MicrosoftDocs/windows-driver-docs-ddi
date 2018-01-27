@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8A5CB3A6-970C-448D-8808-F072EE67BCA3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_INHERITED_TIMING_INFO, *PDXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO
+ms.keywords: DXGK_INHERITED_TIMING_INFO, PDXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO structure [Display Devices], d3dkmddi/DXGK_INHERITED_TIMING_INFO, _DXGK_INHERITED_TIMING_INFO, *PDXGK_INHERITED_TIMING_INFO, d3dkmddi/PDXGK_INHERITED_TIMING_INFO, PDXGK_INHERITED_TIMING_INFO structure pointer [Display Devices], display.dxgk_inherited_timing_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_INHERITED_TIMING_INFO
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_INHERITED_TIMING_INFO
+product: Windows
+targetos: Windows
 req.typenames: *PDXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO
 ---
 
 # _DXGK_INHERITED_TIMING_INFO structure
 
 
-
 ## -description
+
+
 Structure passed to the driver in the pPrivateDriverData argument of DxgkDdiRecommendFunctionalVidPn, which the driver should use to describe the color space and wire format which cannot be described easily in the VidPn the DDI builds
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_INHERITED_TIMING_INFO {
@@ -64,14 +74,17 @@ typedef struct _DXGK_INHERITED_TIMING_INFO {
 
 ## -struct-fields
 
+
+
+
 ### -field OutputColorSpace
 
 A D3DDDI_COLOR_SPACE_TYPE value which describes the output color space currently being applied for the transported pixels.  The driver is responsible for sending appropriate metadata to ensure the display device is set up to interpret pixels correctly for this color space. 
 
 
-### -field SelectedWireFormat
+### -field OutputWireColorSpace
 
- A D3DKMDT_WIRE_FORMAT_AND_PREFERENCE value which indicates the wire format which is actually being used.  Although the target mode pinned in the VidPn returned by the call to DxgkDdiRecommendFunctionalVidPn could be required to describe exactly one wire format, that might require the driver to prepare a special target mode just for the boot case.  Instead, this field should be used to report the current wire color encoding format and bits per color channel.  Whichever format is reported in this field should also have been reported as supported in the target mode reported through DxgkDdiRecommendFunctionalVidPn.
+ 
 
 
 ### -field GlitchCause
@@ -104,4 +117,7 @@ In many cases, glitches are inevitable so these fields attempt to understand the
 
 
 
-## -remarks
+### -field SelectedWireFormat
+
+ A D3DKMDT_WIRE_FORMAT_AND_PREFERENCE value which indicates the wire format which is actually being used.  Although the target mode pinned in the VidPn returned by the call to DxgkDdiRecommendFunctionalVidPn could be required to describe exactly one wire format, that might require the driver to prepare a special target mode just for the boot case.  Instead, this field should be used to report the current wire color encoding format and bits per color channel.  Whichever format is reported in this field should also have been reported as supported in the target mode reported through DxgkDdiRecommendFunctionalVidPn.
+

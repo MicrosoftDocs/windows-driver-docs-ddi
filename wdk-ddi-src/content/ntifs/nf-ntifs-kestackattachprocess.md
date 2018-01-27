@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 52ac1410-8f8f-405a-9c81-a534c3cfbf51
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KeStackAttachProcess
+ms.keywords: keref_de4fc228-753f-4077-8372-e5330c96d317.xml, ntifs/KeStackAttachProcess, ifsk.kestackattachprocess, KeStackAttachProcess, KeStackAttachProcess routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeStackAttachProcess
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeStackAttachProcess
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # KeStackAttachProcess function
 
 
-
 ## -description
+
+
 The <b>KeStackAttachProcess</b> routine attaches the current thread to the address space of the target process.
-
-
+<div class="alert"><b>Caution</b>  Use this routine with extreme caution. (See the note in the Remarks section.)</div><div> </div>
 
 ## -syntax
+
 
 ````
 VOID KeStackAttachProcess(
@@ -55,9 +65,12 @@ VOID KeStackAttachProcess(
 
 ## -parameters
 
-### -param Process [in, out]
 
-Pointer to the target process object. This parameter can be a PEPROCESS pointer returned by <a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>. 
+
+
+### -param PROCESS
+
+TBD
 
 
 ### -param ApcState [out]
@@ -65,11 +78,21 @@ Pointer to the target process object. This parameter can be a PEPROCESS pointer 
 An opaque pointer to a KAPC_STATE structure. The caller must allocate storage for this structure either from nonpaged pool or from the caller's own thread stack. 
 
 
+#### - Process [in, out]
+
+Pointer to the target process object. This parameter can be a PEPROCESS pointer returned by <a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>. 
+
+
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>KeStackAttachProcess</b> attaches the current thread to the address space of the process pointed to by the <i>Process</i> parameter. If the current thread was already attached to another process, the <i>ApcState</i> parameter receives the current APC state before <b>KeStackAttachProcess</b> attaches to the new process. 
 
 Every call to <b>KeStackAttachProcess</b> must be matched by a subsequent call to <a href="..\ntifs\nf-ntifs-keunstackdetachprocess.md">KeUnstackDetachProcess</a>. 
@@ -88,33 +111,25 @@ Every call to <b>KeStackAttachProcess</b> must be matched by a subsequent call t
 For more information about using system threads and managing synchronization within a nonarbitrary thread context, see <a href="https://msdn.microsoft.com/fbd8aadd-5a24-48c9-9865-80cc7dc97316">Driver Threads, Dispatcher Objects, and Resources</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-iogetrequestorprocess.md">IoGetRequestorProcess</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-iothreadtoprocess.md">IoThreadToProcess</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-keunstackdetachprocess.md">KeUnstackDetachProcess</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-psgetcurrentthread.md">PsGetCurrentThread</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
+
+<a href="..\ntifs\nf-ntifs-keunstackdetachprocess.md">KeUnstackDetachProcess</a>
+
+<a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>
+
+<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
+
+<a href="..\ntifs\nf-ntifs-iothreadtoprocess.md">IoThreadToProcess</a>
+
+<a href="..\ntifs\nf-ntifs-iogetrequestorprocess.md">IoGetRequestorProcess</a>
+
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+
  
 
  

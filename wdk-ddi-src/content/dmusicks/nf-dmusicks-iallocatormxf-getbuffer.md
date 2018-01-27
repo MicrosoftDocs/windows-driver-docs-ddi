@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: eebae465-a49a-4e19-a636-9da7f9db7278
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IAllocatorMXF, IAllocatorMXF::GetBuffer, GetBuffer
+ms.keywords: IAllocatorMXF::GetBuffer, audmp-routines_5abb78f4-de92-4342-877f-e7f1c15f8d8e.xml, GetBuffer, audio.iallocatormxf_getbuffer, dmusicks/IAllocatorMXF::GetBuffer, GetBuffer method [Audio Devices], IAllocatorMXF interface [Audio Devices], GetBuffer method, IAllocatorMXF, GetBuffer method [Audio Devices], IAllocatorMXF interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IAllocatorMXF.GetBuffer
-req.alt-loc: dmusicks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dmusicks.h
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dmusicks.h
+apiname: 
+-	IAllocatorMXF.GetBuffer
+product: Windows
+targetos: Windows
 req.typenames: DMUS_STREAM_TYPE
 ---
 
 # IAllocatorMXF::GetBuffer method
 
 
-
 ## -description
+
+
 The <code>GetBuffer</code> method allocates a buffer for long MIDI events.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS GetBuffer(
@@ -54,33 +64,44 @@ NTSTATUS GetBuffer(
 
 ## -parameters
 
-### -param ppbBuffer [out]
+
+
+
+### -param ppBuffer
+
+
+
+
+
+#### - ppbBuffer [out]
 
 Output pointer for the buffer. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the buffer.
 
 
 ## -returns
+
+
 <code>GetBuffer</code> returns S_OK if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 The miniport driver calls this method only when it needs to send large chunks of data to the capture sink. Specifically, the miniport driver uses this method whenever a component needs to package more data than can be stored in the <b>uData</b> member of <a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>.
 
 The size of the buffer can determined by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff536493">IAllocatorMXF::GetBufferSize</a>. <code>GetBufferSize</code> needs to be called only once because the buffer size is constant for any allocator implementation.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
-</dt>
-<dt>
+
 <a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>
-</dt>
-<dt>
+
+<a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536493">IAllocatorMXF::GetBufferSize</a>
-</dt>
-</dl>
+
  
 
  

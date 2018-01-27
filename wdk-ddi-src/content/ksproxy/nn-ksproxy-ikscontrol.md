@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d73cf2fc-15bb-4f45-aae3-fb55bcd072a3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSynchronousDeviceControl
+ms.keywords: stream.ikscontrol, IKsControl interface [Streaming Media Devices], IKsControl interface [Streaming Media Devices], described, IKsControl, ksproxy/IKsControl, ksproxy_59a4df2f-d723-499a-adc6-907c0592a6ac.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsControl
-req.alt-loc: Ksproxy.lib,Ksproxy.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,57 +29,32 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Ksproxy.lib
+-	Ksproxy.dll
+apiname: 
+-	IKsControl
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsControl interface
 
 
-
 ## -description
-The <b>IKsControl</b> interface provides user-mode methods that control a KS filter or KS pin. See the <a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a> AVStream COM interface for information about the user-mode equivalent of this interface. 
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsControl</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IKsControl</b> also has these types of members:
-
-The <b>IKsControl</b> interface has these methods.
-
-Enables or disables an event.
-
-Sends a method to a KS object.
-
-Sets a property or retrieves property information.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsControl</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IKsControl</b> also has these types of members:
-
-The <b>IKsControl</b> interface has these methods.
-
-Enables or disables an event.
-
-Sends a method to a KS object.
-
-Sets a property or retrieves property information.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsControl</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IKsControl</b> also has these types of members:
-
-The <b>IKsControl</b> interface has these methods.
-
-Enables or disables an event.
-
-Sends a method to a KS object.
-
-Sets a property or retrieves property information.
-
- 
+The <b>IKsControl</b> interface provides user-mode methods that control a KS filter or KS pin. See the <a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a> AVStream COM interface for information about the user-mode equivalent of this interface. 
 
 
 ## -members
+
 The <b>IKsControl</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -125,15 +98,16 @@ Sets a property or retrieves property information.
 
 
 ## -remarks
+
+
 The IID for this interface is IID_IKsControl.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nn-ks-ikscontrol.md">IKsControl (AVStream COM Interface)</a>
-</dt>
-</dl>
+
+<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl (AVStream COM Interface)</a>
+
  
 
  

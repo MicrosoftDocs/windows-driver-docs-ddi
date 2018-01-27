@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b56657ac-98ff-482a-a2af-ffbfb8602248
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_TRANSFERFLAGS, DXGK_TRANSFERFLAGS
+ms.keywords: DmStructs_91973ccf-775f-4e97-bb1a-17cd1343a4f8.xml, DXGK_TRANSFERFLAGS structure [Display Devices], DXGK_TRANSFERFLAGS, display.dxgk_transferflags, _DXGK_TRANSFERFLAGS, d3dkmddi/DXGK_TRANSFERFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_TRANSFERFLAGS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_TRANSFERFLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_TRANSFERFLAGS
 ---
 
 # _DXGK_TRANSFERFLAGS structure
 
 
-
 ## -description
+
+
 The DXGK_TRANSFERFLAGS structure identifies the type of transfer operation to set up in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a> function. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_TRANSFERFLAGS {
@@ -63,6 +73,9 @@ typedef struct _DXGK_TRANSFERFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Swizzle
 
@@ -110,18 +123,18 @@ Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Valu
 
 
 ## -remarks
+
+
 You can set the transfer-operation type by setting bits in the 32-bit <b>Value</b> member or by setting individual members of the structure in the union that DXGK_TRANSFERFLAGS contains.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 90726c66-738f-416f-993a-84cbf2eb67d2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: SeAccessCheck
+ms.keywords: SeAccessCheck, k110_7d3f1afa-5728-4ade-8915-aeb77dc3edd3.xml, wdm/SeAccessCheck, kernel.seaccesscheck, SeAccessCheck routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SeAccessCheck
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	SeAccessCheck
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,14 +47,15 @@ req.product: Windows 10 or later.
 # SeAccessCheck function
 
 
-
 ## -description
+
+
 
    The <b>SeAccessCheck</b> routine determines whether the requested access rights can be granted to an object protected by a security descriptor and an object owner.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN SeAccessCheck(
@@ -64,6 +74,9 @@ BOOLEAN SeAccessCheck(
 
 
 ## -parameters
+
+
+
 
 ### -param SecurityDescriptor [in]
 
@@ -116,10 +129,15 @@ Pointer to the status value indicating why access was denied.
 
 
 ## -returns
+
+
 If access is allowed, <b>SeAccessCheck</b> returns <b>TRUE</b>.
 
 
+
 ## -remarks
+
+
 <b>SeAccessCheck</b> might perform privilege tests for <b>SeTakeOwnershipPrivilege</b> and <b>SeSecurityPrivilege</b>, depending on the accesses being requested. It might perform additional privilege testing in future releases of the operating system.
 
 This routine also might check whether the caller is the owner of the object in order to grant WRITE_DAC or READ_CONTROL access.
@@ -127,33 +145,25 @@ This routine also might check whether the caller is the owner of the object in o
 If this routine returns <b>FALSE</b>, the caller should use the returned <i>AccessStatus</i> as its return value. That is, the caller should avoid hardcoding a return value of STATUS_ACCESS_DENIED or any other specific STATUS_<i>XXX</i> value. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-sefreeprivileges.md">SeFreePrivileges</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-iogetfileobjectgenericmapping.md">IoGetFileObjectGenericMapping</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-sevalidsecuritydescriptor.md">SeValidSecurityDescriptor</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-sevalidsecuritydescriptor.md">SeValidSecurityDescriptor</a>
+
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
+
+<a href="..\ntddk\nf-ntddk-iogetfileobjectgenericmapping.md">IoGetFileObjectGenericMapping</a>
+
+<a href="..\ntifs\nf-ntifs-sefreeprivileges.md">SeFreePrivileges</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563714">SECURITY_SUBJECT_CONTEXT</a>
-</dt>
-</dl>
+
  
 
  

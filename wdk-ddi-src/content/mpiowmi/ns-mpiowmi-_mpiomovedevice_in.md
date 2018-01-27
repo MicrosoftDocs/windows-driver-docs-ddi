@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2652874f-70d0-4eff-a46d-778a68d55cab
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MPIOMoveDevice_IN, *PMPIOMoveDevice_IN, MPIOMoveDevice_IN
+ms.keywords: MPIOMoveDevice_IN, structs-scsibus_d1c11b7d-5c45-441b-8362-642db610e19e.xml, *PMPIOMoveDevice_IN, PMPIOMoveDevice_IN, PMPIOMoveDevice_IN structure pointer [Storage Devices], mpiowmi/MPIOMoveDevice_IN, _MPIOMoveDevice_IN, MPIOMoveDevice_IN structure [Storage Devices], storage.mpiomovedevice_in, mpiowmi/PMPIOMoveDevice_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MPIOMoveDevice_IN
-req.alt-loc: mpiowmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mpiowmi.h
+apiname: 
+-	MPIOMoveDevice_IN
+product: Windows
+targetos: Windows
 req.typenames: *PMPIOMoveDevice_IN, MPIOMoveDevice_IN
 ---
 
 # _MPIOMoveDevice_IN structure
 
 
-
 ## -description
+
+
 The MPIOMoveDevice_IN structure is used to set the active path on the device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MPIOMoveDevice_IN {
@@ -55,6 +65,9 @@ typedef struct _MPIOMoveDevice_IN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DiskOrdinal
 
@@ -70,5 +83,3 @@ A 32-bitfield that specifies the flags that are associated with the device move 
 
 A 64-bitfield that specifies the path that is associated with the device.
 
-
-## -remarks

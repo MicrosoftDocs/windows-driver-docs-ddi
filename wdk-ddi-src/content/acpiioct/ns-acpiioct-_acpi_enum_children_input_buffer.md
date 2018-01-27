@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: fba604bc-2fab-448c-bbc7-8ea30ff6de6b
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: _ACPI_ENUM_CHILDREN_INPUT_BUFFER, ACPI_ENUM_CHILDREN_INPUT_BUFFER, *PACPI_ENUM_CHILDREN_INPUT_BUFFER
+ms.keywords: ACPI_ENUM_CHILDREN_INPUT_BUFFER structure [ACPI Devices], PACPI_ENUM_CHILDREN_INPUT_BUFFER, _ACPI_ENUM_CHILDREN_INPUT_BUFFER, ACPI_ENUM_CHILDREN_INPUT_BUFFER, PACPI_ENUM_CHILDREN_INPUT_BUFFER structure pointer [ACPI Devices], *PACPI_ENUM_CHILDREN_INPUT_BUFFER, acpi.acpi_enum_children_input_buffer, acpi-meth-eval-ref_3d8ce8a3-94f9-4ea0-9a16-f76c08928fc4.xml, acpiioct/ACPI_ENUM_CHILDREN_INPUT_BUFFER, acpiioct/PACPI_ENUM_CHILDREN_INPUT_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ACPI_ENUM_CHILDREN_INPUT_BUFFER
-req.alt-loc: Acpiioct.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: ACPI_ENUM_CHILDREN_INPUT_BUFFER, *PACPI_ENUM_CHILDREN_INPUT_BUFFER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Acpiioct.h
+apiname: 
+-	ACPI_ENUM_CHILDREN_INPUT_BUFFER
+product: Windows
+targetos: Windows
+req.typenames: *PACPI_ENUM_CHILDREN_INPUT_BUFFER, ACPI_ENUM_CHILDREN_INPUT_BUFFER
 ---
 
 # _ACPI_ENUM_CHILDREN_INPUT_BUFFER structure
 
 
-
 ## -description
+
+
 The ACPI_ENUM_CHILDREN_INPUT_BUFFER structure is used as input to an <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_enum_children.md">IOCTL_ACPI_ENUM_CHILDREN</a> request. The structure specifies which child objects to enumerate in the namespace of the device to which the request is sent. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ACPI_ENUM_CHILDREN_INPUT_BUFFER {
@@ -56,6 +66,9 @@ typedef struct _ACPI_ENUM_CHILDREN_INPUT_BUFFER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Signature
 
@@ -79,25 +92,20 @@ A NULL-terminated, four-character ASCII string that contains the name of a child
 
 ## -remarks
 
+
+
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_enum_children.md">IOCTL_ACPI_ENUM_CHILDREN</a> supports the following types of enumerations, depending on how the <b>Flags</b> member is set in the corresponding ACPI_ENUM_CHILDREN_INPUT_BUFFER structure:
 
 
 
-Enumerates the device to which the request is sent and the immediate child devices of the device. This flag cannot be combined with any other flag. An IOCTL_ACPI_ENUM_CHILDREN request returns the path and name of the device and the path and name of all the immediate child devices of the device. The <b>Name</b> member is not used.
-
-Enumerates the device to which the request is sent and recursively enumerates all child devices of the device. This flag cannot be combined with the ENUM_CHILDREN_IMMEDIATE_ONLY flag. An IOCTL_ACPI_ENUM_CHILDREN request returns the path and name of the device and the path and name of all child devices in the namespace of the device. The <b>Name</b> member is not used.
-
-Restricts a recursive enumeration to only child objects whose name matches the name supplied by the <b>Name</b> member. In this case, the enumeration request returns the path and name of the child objects whose name matches the supplied name. The ENUM_CHILDREN_NAME_IS_FILTER flag cannot be used by itself.
-
 For information about how to enumerate child objects of a device, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/enumerating-child-devices-and-control-methods">Enumerating Child Devices and Control Methods</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_enum_children.md">IOCTL_ACPI_ENUM_CHILDREN</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 39cf1829-2caf-44e0-8528-acb0def0dd54
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortSetRegistryParameters
+ms.keywords: VideoPortSetRegistryParameters, video/VideoPortSetRegistryParameters, VideoPortSetRegistryParameters function [Display Devices], VideoPort_Functions_a1d6dbfd-595b-4396-a1d3-9ec4fa3a6bfb.xml, display.videoportsetregistryparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortSetRegistryParameters
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortSetRegistryParameters
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortSetRegistryParameters function
 
 
-
 ## -description
+
+
 The <b>VideoPortSetRegistryParameters</b> function writes information under the <b>adapter</b> key in the registry.
 
 
-
 ## -syntax
+
 
 ````
 VP_STATUS VideoPortSetRegistryParameters(
@@ -58,7 +68,10 @@ VP_STATUS VideoPortSetRegistryParameters(
 
 ## -parameters
 
-### -param HwDeviceExtension 
+
+
+
+### -param HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
@@ -73,16 +86,21 @@ Pointer to a buffer containing a null-terminated Unicode string that names the v
 Pointer to a buffer containing the values to be written for the <i>ValueName</i> entry.
 
 
-### -param ValueLength 
+### -param ValueLength
 
 Specifies the size, in bytes, of the data to be written to the registry.
 
 
 ## -returns
+
+
 <b>VideoPortSetRegistryParameters</b> returns NO_ERROR if the given data was successfully written to the registry. Otherwise, it can return ERROR_INVALID_PARAMETER.
 
 
+
 ## -remarks
+
+
 <b>VideoPortSetRegistryParameters</b> searches under the registry's <b>adapter</b> key for the value name specified in the <i>ValueName</i> parameter. If the value name that is searched for does not exist, this function creates it automatically. When the value name is found or created, the contents of the <i>ValueData</i> parameter are copied to the value name. 
 
 For Windows XP and later operating system versions, the value name specified in the <i>ValueName</i> parameters does not need to be directly associated with the <b>adapter</b> key. Instead, <i>ValueName</i> can be associated with a subkey whose path includes the <b>adapter</b> key. If the <i>ValueName</i> string contains one or more backslashes, <b>VideoPortSetRegistryParameters</b> searches for or creates the subkey whose value name is at the end of the string. 
@@ -96,21 +114,17 @@ In a checked build of any version of the operating system, a value name that beg
 <b>VideoPortSetRegistryParameters</b> cannot be called from a miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pvideo_hw_timer.md">HwVidTimer</a> functions, or from <a href="..\video\nf-video-videoportqueuedpc.md">VideoPortQueueDpc</a>, or from a callback to <a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-</dt>
-<dt>
-<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportflushregistry.md">VideoPortFlushRegistry</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
-</dt>
-</dl>
+
+<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
+
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+
  
 
  

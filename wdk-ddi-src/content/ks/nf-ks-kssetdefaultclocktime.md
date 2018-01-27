@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c8b4fef4-cfbb-4cdd-b762-062b8ae4a423
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSetDefaultClockTime
+ms.keywords: ksfunc_737648d0-8fc4-405c-96c8-61778e6758e9.xml, KsSetDefaultClockTime, KsSetDefaultClockTime function [Streaming Media Devices], ks/KsSetDefaultClockTime, stream.kssetdefaultclocktime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsSetDefaultClockTime
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsSetDefaultClockTime
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsSetDefaultClockTime function
 
 
-
 ## -description
+
+
 The <b>KsSetDefaultClockTime</b> function sets the current time of the clock. It modifies the current time returned by the clock. The owner of the default clock is expected to serialize access to this function and to the <a href="..\ks\nf-ks-kssetdefaultclockstate.md">KsSetDefaultClockState</a> function.
 
 The function can be called at DISPATCH_LEVEL.
 
 
-
 ## -syntax
+
 
 ````
 VOID KsSetDefaultClockTime(
@@ -56,6 +67,9 @@ VOID KsSetDefaultClockTime(
 
 
 ## -parameters
+
+
+
 
 ### -param DefaultClock [in]
 
@@ -68,18 +82,16 @@ Specifies the new time to set the clock.
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ksgetdefaultclocktime.md">KsGetDefaultClockTime</a>
-</dt>
-</dl>
+
  
 
  

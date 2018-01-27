@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2765ccb0-3389-4962-8a7d-8080cb3c8806
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FILTER_REPLY_HEADER, FILTER_REPLY_HEADER, *PFILTER_REPLY_HEADER
+ms.keywords: fltuserstructures/FILTER_REPLY_HEADER, _FILTER_REPLY_HEADER, ifsk.filter_reply_header, PFILTER_REPLY_HEADER structure pointer [Installable File System Drivers], PFILTER_REPLY_HEADER, *PFILTER_REPLY_HEADER, FILTER_REPLY_HEADER, FILTER_REPLY_HEADER structure [Installable File System Drivers], fltuserstructures/PFILTER_REPLY_HEADER, FltSystemStructures_93e9fad2-e89d-40af-8614-c09a51f07e7b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILTER_REPLY_HEADER
-req.alt-loc: fltuserstructures.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: FILTER_REPLY_HEADER, *PFILTER_REPLY_HEADER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	fltuserstructures.h
+apiname: 
+-	FILTER_REPLY_HEADER
+product: Windows
+targetos: Windows
+req.typenames: *PFILTER_REPLY_HEADER, FILTER_REPLY_HEADER
 ---
 
 # _FILTER_REPLY_HEADER structure
 
 
-
 ## -description
+
+
 The FILTER_REPLY_HEADER structure contains message reply header information. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILTER_REPLY_HEADER {
@@ -54,6 +64,9 @@ typedef struct _FILTER_REPLY_HEADER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Status
 
@@ -66,18 +79,18 @@ Unique ID received in the <b>MessageId</b> field of the original message.
 
 
 ## -remarks
+
+
 This structure is allocated by a user-mode application. It is a container for a reply that the application sends in response to a message received from a kernel-mode minifilter or minifilter instance. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fltuserstructures\ns-fltuserstructures-_filter_message_header.md">FILTER_MESSAGE_HEADER</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c8671ba7-6128-4f0f-b5b1-32ce35e31168
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltReuseCallbackData
+ms.keywords: FltReuseCallbackData routine [Installable File System Drivers], FltReuseCallbackData, ifsk.fltreusecallbackdata, fltkernel/FltReuseCallbackData, FltApiRef_p_to_z_a412f56d-8cee-40de-93fb-1c007fe87c3c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltReuseCallbackData
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltReuseCallbackData
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltReuseCallbackData function
 
 
-
 ## -description
+
+
 The <b>FltReuseCallbackData</b> routine reinitializes a callback data structure so that it can be reused. 
 
 
-
 ## -syntax
+
 
 ````
 VOID FltReuseCallbackData(
@@ -54,16 +64,24 @@ VOID FltReuseCallbackData(
 
 ## -parameters
 
+
+
+
 ### -param CallbackData [in, out]
 
 Pointer to the callback data (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>) structure to be reused. This structure must have been allocated by a previous call to <a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a>. This parameter is required and cannot be <b>NULL</b>. 
 
 
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 <b>FltReuseCallbackData</b> reinitializes a callback data (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>) structure so that it can be used in a new I/O operation. <b>FltReuseCallbackData</b> does not change the <b>TargetInstance</b> field or the <b>TargetFileObject</b> field of the callback data structure's I/O parameter block. 
 
 The <b>FltReuseCallbackData</b> routine frees any <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> chain associated with the supplied <i>CallbackData</i> object. A pointer to an MDL chain associated with a <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> object will be invalid after a call to <b>FltReuseCallbackData</b> for that object.
@@ -77,27 +95,21 @@ If the callback data structure was used for asynchronous I/O, the minifilter dri
 In particular, a minifilter driver should not use this routine for any callback data structures not allocated by the minifilter driver itself. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltfreecallbackdata.md">FltFreeCallbackData</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltperformasynchronousio.md">FltPerformAsynchronousIo</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nf-fltkernel-fltfreecallbackdata.md">FltFreeCallbackData</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltperformsynchronousio.md">FltPerformSynchronousIo</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
-</dt>
-</dl>
+
  
 
  

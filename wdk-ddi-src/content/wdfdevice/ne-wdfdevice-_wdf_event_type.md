@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: DC6353BB-98C0-4647-9180-F099CD95348E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_EVENT_TYPE, WDF_EVENT_TYPE
+ms.keywords: wdfdevice/WdfEventReserved, wudfddi_types/WdfEventBroadcast, WDF_EVENT_TYPE enumeration, wdfdevice/WdfEventMaximum, wudfddi_types/WdfEventMaximum, WDF_EVENT_TYPE, WdfEventBroadcast, _WDF_EVENT_TYPE, wudfddi_types/WDF_EVENT_TYPE, wdfdevice/WdfEventBroadcast, WdfEventReserved, WdfEventMaximum, wdf.wdf_event_type, wdfdevice/WDF_EVENT_TYPE, wudfddi_types/WdfEventReserved
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.11
-req.alt-api: WDF_EVENT_TYPE
-req.alt-loc: wdfdevice.h,wudfddi_types.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfdevice.h
+-	wudfddi_types.h
+apiname: 
+-	WDF_EVENT_TYPE
+product: Windows
+targetos: Windows
 req.typenames: WDF_EVENT_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # _WDF_EVENT_TYPE enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>WDF_EVENT_TYPE</b> enumeration specifies  types of events about which a driver can notify a registered application.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_EVENT_TYPE { 
@@ -58,6 +69,9 @@ typedef enum _WDF_EVENT_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WdfEventReserved
 
@@ -74,18 +88,12 @@ In the current version of UMDF, the driver must specify <b>WdfEventBroadcast</b>
 Reserved for system use.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicepostevent.md">WdfDevicePostEvent</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558835">IWDFDevice::PostEvent</a>
-</dt>
-</dl>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicepostevent.md">WdfDevicePostEvent</a>
+
  
 
  

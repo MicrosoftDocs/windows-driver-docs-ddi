@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e202a292-df26-4829-be51-b8427d2dee20
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SM_SendRPS_OUT, *PSM_SendRPS_OUT, SM_SendRPS_OUT
+ms.keywords: SM_SendRPS_OUT structure [Storage Devices], SM_SendRPS_OUT, PSM_SendRPS_OUT structure pointer [Storage Devices], PSM_SendRPS_OUT, _SM_SendRPS_OUT, structs-Fibre_6aad3070-5819-4742-87c6-f5c3b50b4f9b.xml, *PSM_SendRPS_OUT, hbapiwmi/SM_SendRPS_OUT, storage.sm_sendrps_out, hbapiwmi/PSM_SendRPS_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SM_SendRPS_OUT
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	SM_SendRPS_OUT
+product: Windows
+targetos: Windows
 req.typenames: *PSM_SendRPS_OUT, SM_SendRPS_OUT
 ---
 
 # _SM_SendRPS_OUT structure
 
 
-
 ## -description
+
+
 The SM_SendRPS_OUT structure is used to receive output parameters from the SM_SendRPS method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SM_SendRPS_OUT {
@@ -56,6 +66,9 @@ typedef struct _SM_SendRPS_OUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HBAStatus
 
@@ -78,4 +91,8 @@ The results of the common transport command.
 
 
 ## -remarks
-The WMI tool suite generates a declaration of the SM_SendRPS_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.</p>
+
+
+The WMI tool suite generates a declaration of the SM_SendRPS_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.
+
+

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 357FB967-C9D8-468C-AA14-4EF071D55D7B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_IsochUrbAllocate
+ms.keywords: USBD_IsochUrbAllocate, usbdlib/USBD_IsochUrbAllocate, USBD_IsochUrbAllocate routine [Buses], buses.usbd_isochurballocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Requires WDK for Windows 8. Targets Windows Vista an
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBD_IsochUrbAllocate
-req.alt-loc: Usbdex.lib,Usbdex.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Usbdex.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Usbdex.lib
+-	Usbdex.dll
+apiname: 
+-	USBD_IsochUrbAllocate
+product: Windows
+targetos: Windows
 req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
@@ -38,8 +48,9 @@ req.product: Windows 10 or later.
 # USBD_IsochUrbAllocate function
 
 
-
 ## -description
+
+
 The  <b>USBD_IsochUrbAllocate</b> routine allocates and formats a <a href="..\usb\ns-usb-_urb.md">URB</a> structure for an isochronous transfer request.
 
 
@@ -47,8 +58,8 @@ The  <b>USBD_IsochUrbAllocate</b> routine allocates and formats a <a href="..\us
 <b>Note for Windows Driver Framework (WDF) Drivers:  </b>If your client driver is a WDF-based driver, then you must call the <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreateisochurb.md">WdfUsbTargetDeviceCreateIsochUrb</a> method instead of <b>USBD_IsochUrbAllocate</b> to allocate memory for the <a href="..\usb\ns-usb-_urb.md">URB</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS USBD_IsochUrbAllocate(
@@ -61,12 +72,15 @@ NTSTATUS USBD_IsochUrbAllocate(
 
 ## -parameters
 
-### -param   USBDHandle [in]
+
+
+
+### -param USBDHandle [in]
 
 USBD handle that is retrieved by the client driver in a previous call to  the <a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a> routine.
 
 
-### -param   NumberOfIsochPacket [in]
+### -param NumberOfIsochPacket [in]
 
 Specifies the maximum number of isochronous packets required to perform the transfer. The transfer buffer is described in a variable-length array of <a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a> structures that stores information about each packet, such as byte offset of the packet within the buffer. The array is specified in the <b>IsoPacket</b> member of the <a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a> structure, which is used to define the format of an isochronous request URB.
 
@@ -79,29 +93,24 @@ The client driver must free the URB when the driver has finished using it by cal
 
 
 ## -returns
+
+
 The <b>USBD_IsochUrbAllocate</b> routine returns STATUS_SUCCESS if the request is successful. Otherwise,  <a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD_UrbAllocate</a> sets <i>Urb</i> to NULL and returns an NT status failure code. 
 
 Possible values include, but are not limited to, STATUS_INVALID_PARAMETER, which  indicates the caller passed in NULL to <i>USBDHandle</i> or <i>Urb</i>.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
-</dt>
-<dt>
-<a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406225">How to Transfer Data to USB Isochronous Endpoints</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
-</dt>
-</dl>
+
+<a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
+
  
 
  

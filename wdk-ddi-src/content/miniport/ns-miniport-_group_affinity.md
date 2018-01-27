@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8a6fd914-94f9-4ccf-9b0a-cc102fd90965
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _GROUP_AFFINITY, GROUP_AFFINITY, *PGROUP_AFFINITY
+ms.keywords: miniport/GROUP_AFFINITY, GROUP_AFFINITY structure [Kernel-Mode Driver Architecture], *PGROUP_AFFINITY, miniport/PGROUP_AFFINITY, PGROUP_AFFINITY structure pointer [Kernel-Mode Driver Architecture], kstruct_b_9d437322-c6bb-4579-8d7b-144a7513bbd9.xml, kernel.group_affinity, _GROUP_AFFINITY, PGROUP_AFFINITY, GROUP_AFFINITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GROUP_AFFINITY
-req.alt-loc: miniport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	miniport.h
+apiname: 
+-	GROUP_AFFINITY
+product: Windows
+targetos: Windows
 req.typenames: GROUP_AFFINITY, *PGROUP_AFFINITY
 ---
 
 # _GROUP_AFFINITY structure
 
 
-
 ## -description
-The <b>GROUP_AFFINITY</b> structure specifies a group number and the processor <a href="wdkgloss.a#wdkgloss.affinity#wdkgloss.affinity"><i>affinity</i></a> within that group.
 
+
+The <b>GROUP_AFFINITY</b> structure specifies a group number and the processor <a href="https://msdn.microsoft.com/4ef14b5b-128b-4b7c-9211-116e8bd60cab">affinity</a> within that group.
 
 
 ## -syntax
+
 
 ````
 typedef struct _GROUP_AFFINITY {
@@ -55,6 +65,9 @@ typedef struct _GROUP_AFFINITY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Mask
 
@@ -72,6 +85,8 @@ Reserved for future use. Set all three <b>Reserved</b> array elements to zero.
 
 
 ## -remarks
+
+
 This structure describes a group-specific affinity.
 
 A <b>GROUP_AFFINITY</b> structure can describe a thread affinity, which is a set of processors on which a thread is allowed to run. All of the processors in this set belong to the group that is identified by the <b>Group</b> member of the structure. The <b>Mask</b> member contains an affinity mask that identifies the processors in the set. For example, the <a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a> and <a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a> routines use <b>GROUP_AFFINITY</b> structures to specify thread affinities.
@@ -79,21 +94,17 @@ A <b>GROUP_AFFINITY</b> structure can describe a thread affinity, which is a set
 A <b>GROUP_AFFINITY</b> structure can describe an interrupt affinity, which is a set of processors on which an interrupt service routine can receive interrupts. For example, the <a href="..\wdm\nf-wdm-iogetdevicenumanode.md">IoGetDeviceNumaNode</a> routine uses <b>GROUP_AFFINITY</b> structures to specify interrupt affinities. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-iogetdevicenumanode.md">IoGetDeviceNumaNode</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a>
+
+<a href="..\wdm\nf-wdm-iogetdevicenumanode.md">IoGetDeviceNumaNode</a>
+
  
 
  

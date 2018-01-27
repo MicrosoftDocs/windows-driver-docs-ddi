@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: aa0903db-fced-4af9-bfc9-2769ed4962a1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcPinMappedData
+ms.keywords: ntifs/CcPinMappedData, ifsk.ccpinmappeddata, CcPinMappedData routine [Installable File System Drivers], ccref_3935eee3-9906-4110-812f-ca186953cfbf.xml, CcPinMappedData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcPinMappedData
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcPinMappedData
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcPinMappedData function
 
 
-
 ## -description
+
+
 The <b>CcPinMappedData</b> routine pins the specified byte range of a cached file.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN CcPinMappedData(
@@ -57,6 +67,9 @@ BOOLEAN CcPinMappedData(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -76,7 +89,6 @@ Length in bytes of the data to be pinned.
 ### -param Flags [in]
 
 Bitmask of flags specifying how the pinning operation is to be performed. ORed combination of one or more of the following values: 
-
 <table>
 <tr>
 <th>Flag</th>
@@ -122,8 +134,7 @@ The data is to be pinned only if a BCB already exists. Otherwise, the pin fails 
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Bcb [in, out]
@@ -132,10 +143,15 @@ On the first call this returns a pointer to a buffer control block (BCB). This p
 
 
 ## -returns
+
+
 <b>CcPinMappedData</b> returns <b>TRUE</b> if the data for the cached file was pinned successfully, <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 A successful return from <b>CcPinMappedData</b> guarantees that the data previously mapped in a call to <a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a> is pinned in the cache and data in the specified range can be safely modified. If the caller subsequently modifies the data pinned by <b>CcPinMappedData</b>, it must also call <a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a> so that the modified data will eventually be written to disk.
 
 <b>CcPinMappedData</b> cannot pin data across view boundaries in the cache manager. The cache manager manages files in the system in 256 KB-aligned views. (The cache manager's view size is specified by the system-defined constant <b>VACB_MAPPING_GRANULARITY</b>, which is set to 256 KB in <i>ntifs.h</i>.) Pinned regions cannot span more than one 256 KB view. Therefore, the largest region that can be pinned is 256 KB, beginning at a 256 KB-aligned offset in the file. 
@@ -149,27 +165,21 @@ To map data for a cached file, use the <a href="..\ntifs\nf-ntifs-ccmapdata.md">
 It is not necessary to call <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a> after calling <b>CcPinMappedData</b> since the pin reference is matched to <a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+
+<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
+
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
  
 
  

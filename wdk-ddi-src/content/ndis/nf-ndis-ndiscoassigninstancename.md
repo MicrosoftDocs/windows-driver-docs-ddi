@@ -7,8 +7,8 @@ old-location: netvista\ndiscoassigninstancename.htm
 old-project: netvista
 ms.assetid: 78a1808e-d244-4f23-bba1-c48a7b2e051b
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisCoAssignInstanceName
+ms.date: 1/18/2018
+ms.keywords: NdisCoAssignInstanceName, netvista.ndiscoassigninstancename, ndis/NdisCoAssignInstanceName, NdisCoAssignInstanceName function [Network Drivers Starting with Windows Vista], condis_protocol_ref_48515a9c-790b-4122-8a29-2a35cf560af9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    N
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisCoAssignInstanceName
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_Connection_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisCoAssignInstanceName
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCoAssignInstanceName function
 
 
-
 ## -description
+
+
 <b>NdisCoAssignInstanceName</b> assigns an instance name to a VC and causes NDIS to register a GUID
   (globally unique identifier) for the assigned name with Windows Management Instrumentation (WMI).
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisCoAssignInstanceName(
@@ -56,6 +67,9 @@ NDIS_STATUS NdisCoAssignInstanceName(
 
 
 ## -parameters
+
+
+
 
 ### -param NdisVcHandle [in]
 
@@ -82,22 +96,55 @@ Pointer to a caller-allocated NDIS_STRING type in which this routine returns a U
 
 
 ## -returns
+
+
 <b>NdisCoAssignInstanceName</b> can return any of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_SUCCESS</b></dt>
-</dl>NDIS assigned an instance name to the specified VC and registered a GUID for the instance name
+</dl>
+</td>
+<td width="60%">
+NDIS assigned an instance name to the specified VC and registered a GUID for the instance name
        with WMI.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_FAILURE</b></dt>
-</dl>The attempt to assign an instance name to the VC failed.
+</dl>
+</td>
+<td width="60%">
+The attempt to assign an instance name to the VC failed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_RESOURCES</b></dt>
-</dl>NDIS could not allocate a buffer for the instance name.
+</dl>
+</td>
+<td width="60%">
+NDIS could not allocate a buffer for the instance name.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 After initiating the setup of a VC with 
     <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>, a call manager or
     connection-oriented client can name the VC with 
@@ -133,30 +180,24 @@ The caller is responsible for freeing the buffer containing the returned instanc
     <a href="..\ndis\nf-ndis-ndisfreestring.md">NdisFreeString</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVC</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisfreestring.md">NdisFreeString</a>
-</dt>
-<dt>
+
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+
+<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
+
+<a href="..\ndis\nf-ndis-ndisfreestring.md">NdisFreeString</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCoAssignInstanceName function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCoAssignInstanceName function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: d6a30351-4d0f-462a-bbf7-672f4da75bf5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT
+ms.keywords: buses.ucmtcpci_port_controller_capabilities_init, UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT method [Buses], ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT, UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT
-req.alt-loc: ucmtcpciportcontroller.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ucmtcpciportcontroller.h
+apiname: 
+-	UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT
+product: Windows
+targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT function
 
 
-
 ## -description
+
+
 
                         Initializes the <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_capabilities.md">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES</a> structure.
                 
 
 
-
 ## -syntax
+
 
 ````
 VOID UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT(
@@ -57,24 +67,25 @@ VOID UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT(
 
 ## -parameters
 
+
+
+
 ### -param Capabilities [out]
 
 A pointer to the driver-allocated <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_capabilities.md">UCMTCPCI_PORT_CONTROLLER_CAPABILITIE</a>S structure.
 
 
 ## -returns
+
+
 This method does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>
-</dt>
-</dl>
+
  
 
  

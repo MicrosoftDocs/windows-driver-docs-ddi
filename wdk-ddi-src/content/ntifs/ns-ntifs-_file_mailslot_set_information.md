@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 65104303-5041-45e7-bd59-bb78dde1dffd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FILE_MAILSLOT_SET_INFORMATION, FILE_MAILSLOT_SET_INFORMATION, *PFILE_MAILSLOT_SET_INFORMATION
+ms.keywords: PFILE_MAILSLOT_SET_INFORMATION structure pointer [Installable File System Drivers], FILE_MAILSLOT_SET_INFORMATION, ntifs/FILE_MAILSLOT_SET_INFORMATION, FILE_MAILSLOT_SET_INFORMATION structure [Installable File System Drivers], PFILE_MAILSLOT_SET_INFORMATION, *PFILE_MAILSLOT_SET_INFORMATION, _FILE_MAILSLOT_SET_INFORMATION, ntifs/PFILE_MAILSLOT_SET_INFORMATION, ifsk.file_mailslot_set_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILE_MAILSLOT_SET_INFORMATION
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: FILE_MAILSLOT_SET_INFORMATION, *PFILE_MAILSLOT_SET_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FILE_MAILSLOT_SET_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: *PFILE_MAILSLOT_SET_INFORMATION, FILE_MAILSLOT_SET_INFORMATION
 ---
 
 # _FILE_MAILSLOT_SET_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>FILE_MAILSLOT_SET_INFORMATION</b> structure is used to set a value on a   mailslot.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILE_MAILSLOT_SET_INFORMATION {
@@ -54,6 +64,9 @@ typedef struct _FILE_MAILSLOT_SET_INFORMATION {
 
 ## -struct-fields
 
+
+
+
 ### -field ReadTimeout
 
 
@@ -62,4 +75,8 @@ The time, in milliseconds, that a read operation can wait for a message to be wr
 
 
 ## -remarks
-For more information, see <a href="https://msdn.microsoft.com/e23894ca-edc7-49e6-bcc4-c82f357ecedf">Mailslots</a>.</p>
+
+
+For more information, see <a href="https://msdn.microsoft.com/e23894ca-edc7-49e6-bcc4-c82f357ecedf">Mailslots</a>.
+
+

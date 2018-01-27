@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fa915ec0-167f-441c-b2de-0ae2b852c432
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, display.dxgi_ddi_multiplane_overlay_ycbcr_flags, DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration [Display Devices], dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
-req.alt-loc: Dxgiddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Dxgiddi.h
+apiname: 
+-	DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 ---
 
 # DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration
 
 
-
 ## -description
+
+
 Identifies YUV range and conversion info that describes a multiplane overlay.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS { 
@@ -55,6 +65,9 @@ typedef enum DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE
 
@@ -72,4 +85,8 @@ YUV values contain xvYCC data, instead of conventional YCbCr data.
 
 
 ## -remarks
-For more info on how YUV ranges are defined and converted, see <a href="https://msdn.microsoft.com/D76FFB8C-CA42-446E-826F-52982B1849E5">YUV format ranges in Windows 8.1</a>.</p>
+
+
+For more info on how YUV ranges are defined and converted, see <a href="https://msdn.microsoft.com/D76FFB8C-CA42-446E-826F-52982B1849E5">YUV format ranges in Windows 8.1</a>.
+
+

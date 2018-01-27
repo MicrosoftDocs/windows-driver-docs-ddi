@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EE68BED8-5FDC-4590-8E95-B228F1DFD32D
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice3, IWDFDevice3::CreateInterrupt, CreateInterrupt
+ms.keywords: IWDFDevice3, CreateInterrupt method, IWDFDevice3 interface, IWDFDevice3 interface, CreateInterrupt method, CreateInterrupt method, umdf.iwdfdevice3_createinterrupt, wdf.iwdfdevice3_createinterrupt, CreateInterrupt, IWDFDevice3::CreateInterrupt, wudfddi/IWDFDevice3::CreateInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.11
-req.alt-api: IWDFDevice3.CreateInterrupt
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFDevice3.CreateInterrupt
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,16 +47,17 @@ req.product: Windows 10 or later.
 # IWDFDevice3::CreateInterrupt method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CreateInterrupt</b> method creates a framework interrupt object.
 
 
 
-
 ## -syntax
+
 
 ````
 HRESULT CreateInterrupt(
@@ -58,6 +68,9 @@ HRESULT CreateInterrupt(
 
 
 ## -parameters
+
+
+
 
 ### -param Configuration [in]
 
@@ -70,10 +83,15 @@ A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudf
 
 
 ## -returns
+
+
 The method returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
+
 ## -remarks
+
+
 Your driver must call <b>CreateInterrupt</b> one time for each interrupt vector that its device requires. If the device supports message-signaled interrupts (MSI), the driver must create an interrupt object for each message that the device can support. 
 
 Drivers typically call the <b>CreateInterrupt</b> method from an <a href="https://msdn.microsoft.com/f2953b0d-6745-4804-bcda-47c7ddfb901f">OnDeviceAdd</a> callback function, but can also call this method from <a href="https://msdn.microsoft.com/830D706A-016C-4637-829F-2014AD1A1309">IPnpCallbackHardware2::OnPrepareHardware</a>.
@@ -93,18 +111,15 @@ UMDF supports level-triggered interrupts starting in Windows 8. If a driver run
 For more information about handling interrupts in UMDF drivers, see <a href="https://msdn.microsoft.com/25D526CF-7C37-4D10-B099-352933F92F98">Accessing Hardware and Handling Interrupts</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
-</dt>
-<dt>
+
 <a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a>
-</dt>
-<dt>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
+
 <a href="..\wudfinterrupt\nf-wudfinterrupt-wudf_interrupt_config_init.md">WUDF_INTERRUPT_CONFIG_INIT</a>
-</dt>
-</dl>
+
  
 
  

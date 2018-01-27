@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fc496af8-0b4b-4de4-8890-f2290970ced5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KeRundownQueue
+ms.keywords: ifsk.kerundownqueue, KeRundownQueue, keref_d1ad3c47-a2e8-40d9-b59d-bcedd6e4314a.xml, ntifs/KeRundownQueue, KeRundownQueue routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeRundownQueue
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeRundownQueue
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # KeRundownQueue function
 
 
-
 ## -description
+
+
 The <b>KeRundownQueue</b> routine cleans up a queue object, flushing any queued entries. 
 
 
-
 ## -syntax
+
 
 ````
 PLIST_ENTRY KeRundownQueue(
@@ -54,16 +64,24 @@ PLIST_ENTRY KeRundownQueue(
 
 ## -parameters
 
+
+
+
 ### -param Queue [in, out]
 
 Pointer to an initialized queue object for which the caller provides resident storage in nonpaged pool.
 
 
 ## -returns
+
+
 If the queue is empty, <b>KeRundownQueue</b> returns <b>NULL</b>; otherwise, it returns the address of the first entry in the queue. 
 
 
+
 ## -remarks
+
+
 File systems call <b>KeRundownQueue</b> to discard all entries from a queue before freeing or reusing the queue object.
 
 If the queue object is to be reused, the caller must call <a href="..\ntifs\nf-ntifs-keinitializequeue.md">KeInitializeQueue</a> after calling <b>KeRundownQueue</b>, in order to reinitialize the queue object before reusing it. 
@@ -75,12 +93,11 @@ If the queue object is to be reused, the caller must call <a href="..\ntifs\nf-n
 For more information about using driver-managed internal queues, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544165">Driver-Managed Queues</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-keinitializequeue.md">KeInitializeQueue</a>
-</dt>
-</dl>
+
  
 
  

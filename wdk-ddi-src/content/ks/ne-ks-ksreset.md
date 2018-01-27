@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7622A66F-EB4A-460B-B01F-6E48EC70C07D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSRESET, KSRESET
+ms.keywords: ks/KSRESET, KSRESET_BEGIN, ks/KSRESET_BEGIN, KSRESET, stream.ksreset, ks/KSRESET_END, KSRESET enumeration [Streaming Media Devices], KSRESET_END
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSRESET
-req.alt-loc: Ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ks.h
+apiname: 
+-	KSRESET
+product: Windows
+targetos: Windows
 req.typenames: KSRESET
 ---
 
 # KSRESET enumeration
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: KSRESET
 
 
 
+
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -56,10 +66,13 @@ typedef enum  {
 
 ## -enum-fields
 
+
+
+
 ### -field KSRESET_BEGIN
 
 
-### -field KSRESET_END
-</b>
 
-## -remarks
+### -field KSRESET_END
+
+

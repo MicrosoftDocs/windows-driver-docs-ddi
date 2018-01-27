@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 2A2C1478-0512-4F84-90B9-B9C62B5D44DA
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _CMP_CONNECT_VER2, *PCMP_CONNECT_VER2, CMP_CONNECT_VER2, CMP_CONNECT, *PCMP_CONNECT
+ms.keywords: *PCMP_CONNECT_VER2, _CMP_CONNECT_VER2, 61883/CMP_CONNECT_VER2, CMP_CONNECT_VER2, 61883/PCMP_CONNECT_VER2, PCMP_CONNECT_VER2, CMP_CONNECT, IEEE.cmp_connect_ver2, PCMP_CONNECT_VER2 structure pointer, *PCMP_CONNECT, CMP_CONNECT_VER2 structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CMP_CONNECT_VER2
-req.alt-loc: 61883.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PCMP_CONNECT_VER2, CMP_CONNECT_VER2
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	61883.h
+apiname: 
+-	CMP_CONNECT_VER2
+product: Windows
+targetos: Windows
+req.typenames: CMP_CONNECT_VER2, *PCMP_CONNECT_VER2
 ---
 
 # _CMP_CONNECT_VER2 structure
 
 
-
 ## -description
+
+
 This structure contains information for a connection request. The  request attempts to make a connection to a plug control register on the local host.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CMP_CONNECT_VER2 {
@@ -57,6 +67,9 @@ typedef struct _CMP_CONNECT_VER2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hOutputPlug
 
@@ -77,18 +90,6 @@ The type of connection to make. Can be one of the following:
 
 
 
-### -field CMP_Broadcast
-
-A broadcast connection.  
-
-
-### -field CMP_PointToPoint
-
-A connection between a single output plug and one or more input plugs. 
-
-</dd>
-</dl>
-
 ### -field Format
 
 The requested data format.
@@ -101,7 +102,19 @@ On input, a pointer to a <a href="..\61883\ns-61883-_cip_data_format_ver2.md">CI
 On output, the handle for the created connection.
 
 
+##### - Type.CMP_Broadcast
+
+A broadcast connection.  
+
+
+##### - Type.CMP_PointToPoint
+
+A connection between a single output plug and one or more input plugs. 
+
+
 ## -remarks
+
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
 
 If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_INVALID_PARAMETER.
@@ -109,12 +122,11 @@ If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoSt
 If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_INSUFFICIENT_RESOURCES.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-</dt>
-</dl>
+
  
 
  

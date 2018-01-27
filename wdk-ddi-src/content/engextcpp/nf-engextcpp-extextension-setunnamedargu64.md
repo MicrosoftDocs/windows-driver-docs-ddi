@@ -7,8 +7,8 @@ old-location: debugger\setunnamedargu64.htm
 old-project: debugger
 ms.assetid: 27f25bba-8118-47c0-9b9d-6b0a1ceb4b8e
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ExtExtension, ExtExtension::SetUnnamedArgU64, SetUnnamedArgU64
+ms.date: 1/19/2018
+ms.keywords: EngExtCpp_Ref_65080cf5-2492-440b-a496-869faf8c9c49.xml, debugger.setunnamedargu64, ExtExtension, SetUnnamedArgU64 method [Windows Debugging], ExtExtension class, ExtExtension class [Windows Debugging], SetUnnamedArgU64 method, ExtExtension::SetUnnamedArgU64, SetUnnamedArgU64 method [Windows Debugging], SetUnnamedArgU64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExtExtension.SetUnnamedArgU64
-req.alt-loc: Engextcpp.hpp
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-req.typenames: *PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Engextcpp.hpp
+apiname: 
+-	ExtExtension.SetUnnamedArgU64
+product: Windows
+targetos: Windows
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtExtension::SetUnnamedArgU64 method
 
 
-
 ## -description
+
+
 The <b>SetUnnamedArgU64</b> method sets the value of an unnamed expression argument for the current extension command.
 
 
-
 ## -syntax
+
 
 ````
 bool SetUnnamedArgU64(
@@ -55,6 +65,9 @@ bool SetUnnamedArgU64(
 
 
 ## -parameters
+
+
+
 
 ### -param Index [in]
 
@@ -72,27 +85,30 @@ Specifies what happens if the argument is already set.  If <i>OnlyIfUnset</i> is
 
 
 ## -returns
+
+
 <b>SetUnnamedArgU64</b> returns <code>true</code> if the argument was changed; <code>false</code> otherwise.
 
 
+
 ## -remarks
+
+
 For an overview of argument parsing in the EngExtCpp extensions framework, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553340">Parsing Extension Arguments</a>.
 
 This method should only be called during the execution of an extension command provided by this class.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
-</dt>
-<dt>
+
 <a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a>
-</dt>
-</dl>
- 
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtExtension.SetUnnamedArgU64 method%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtExtension.SetUnnamedArgU64 method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 43c12b35-380c-46bc-9ea0-9745f047c81a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortWritePortBufferUchar
+ms.keywords: storage.ataportwriteportbufferuchar, AtaPortWritePortBufferUchar, irb/AtaPortWritePortBufferUchar, atartns_a1c82429-9d44-4a9b-8285-e632172a6be4.xml, AtaPortWritePortBufferUchar routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AtaPortWritePortBufferUchar
-req.alt-loc: ataport.lib,ataport.dll,pciidex.lib,pciidex.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ataport.lib
+-	ataport.dll
+-	pciidex.lib
+-	pciidex.dll
+apiname: 
+-	AtaPortWritePortBufferUchar
+product: Windows
+targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
 
 # AtaPortWritePortBufferUchar function
 
 
-
 ## -description
+
+
 The <b>AtaPortWritePortBufferUchar</b> routine transfers the indicated number of unsigned bytes from a buffer to the HBA.
-
-
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 VOID AtaPortWritePortBufferUchar(
@@ -55,6 +68,9 @@ VOID AtaPortWritePortBufferUchar(
 
 
 ## -parameters
+
+
+
 
 ### -param Port [in]
 
@@ -72,24 +88,20 @@ Specifies the number of UCHAR values to write to the HBA.
 
 
 ## -returns
+
+
 None 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
-</dt>
-<dt>
+
 <a href="..\irb\nf-irb-ataportwriteportbufferushort.md">AtaPortWritePortBufferUshort</a>
-</dt>
-<dt>
+
 <a href="..\irb\nf-irb-ataportwriteportbufferulong.md">AtaPortWritePortBufferUlong</a>
-</dt>
-</dl>
+
  
 
  

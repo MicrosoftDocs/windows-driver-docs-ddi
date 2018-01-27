@@ -7,8 +7,8 @@ old-location: netvista\rilmodemresetstate.htm
 old-project: netvista
 ms.assetid: 4069ded7-95d7-46c2-a4a7-a360482c7b7d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILMODEMRESETSTATE, RILMODEMRESETSTATE
+ms.date: 1/18/2018
+ms.keywords: ntddrilapitypes/RIL_MODEMRESETSTATE_MAX, RIL_MODEMRESETSTATE_RECOVERED, RIL_MODEMRESETSTATE_MAX, netvista.rilmodemresetstate, RIL_MODEMRESETSTATE_FAILED, ntddrilapitypes/RIL_MODEMRESETSTATE_RECOVERED, RILMODEMRESETSTATE, RILMODEMRESETSTATE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILMODEMRESETSTATE, ntddrilapitypes/RIL_MODEMRESETSTATE_FAILED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILMODEMRESETSTATE
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILMODEMRESETSTATE
+product: Windows
+targetos: Windows
 req.typenames: RILMODEMRESETSTATE
 ---
 
 # RILMODEMRESETSTATE enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILMODEMRESETSTATE { 
@@ -56,13 +66,21 @@ typedef enum _RILMODEMRESETSTATE {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_MODEMRESETSTATE_STARTED
+
+
+
 ### -field RIL_MODEMRESETSTATE_RECOVERED
+
 
 
 ### -field RIL_MODEMRESETSTATE_FAILED
 
 
+
 ### -field RIL_MODEMRESETSTATE_MAX
 
 
-## -remarks

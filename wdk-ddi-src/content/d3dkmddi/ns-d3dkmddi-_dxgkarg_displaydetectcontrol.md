@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A0B5798E-FF4D-4133-BFA9-39B37CC387F6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_DISPLAYDETECTCONTROL, DXGKARG_DISPLAYDETECTCONTROL
+ms.keywords: DXGKARG_DISPLAYDETECTCONTROL, PDXGKARG_DISPLAYDETECTCONTROL, display.dxgkarg_displaydetectcontrol, DXGKARG_DISPLAYDETECTCONTROL structure [Display Devices], d3dkmddi/DXGKARG_DISPLAYDETECTCONTROL, d3dkmddi/PDXGKARG_DISPLAYDETECTCONTROL, _DXGKARG_DISPLAYDETECTCONTROL, PDXGKARG_DISPLAYDETECTCONTROL structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_DISPLAYDETECTCONTROL
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_DISPLAYDETECTCONTROL
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_DISPLAYDETECTCONTROL
 ---
 
 # _DXGKARG_DISPLAYDETECTCONTROL structure
 
 
-
 ## -description
+
+
 Used to hold the arguments for <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_displaydetectcontrol.md">DXGKDDI_DISPLAYDETECTCONTROL</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_DISPLAYDETECTCONTROL {
@@ -57,9 +67,12 @@ typedef struct _DXGKARG_DISPLAYDETECTCONTROL {
 
 ## -struct-fields
 
-### -field TargetID
 
-The identifier of a display adapter's video present target.  Ignored if the type is not DXGK_DDCT_POLLONE.
+
+
+### -field TargetId
+
+ 
 
 
 ### -field Type
@@ -80,4 +93,7 @@ If FALSE, the driver should perform any action necessary to detect the status of
 This value is reserved for system use.
 
 
-## -remarks
+#### - TargetID
+
+The identifier of a display adapter's video present target.  Ignored if the type is not DXGK_DDCT_POLLONE.
+

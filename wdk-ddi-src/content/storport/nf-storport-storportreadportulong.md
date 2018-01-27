@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b04ef64a-cf1f-4de5-acb3-e57687f64719
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortReadPortUlong
+ms.keywords: storprt_3ef5c577-3d75-4797-b5ce-8f36e4080c47.xml, storport/StorPortReadPortUlong, StorPortReadPortUlong, StorPortReadPortUlong routine [Storage Devices], storage.storportreadportulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortReadPortUlong
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortReadPortUlong
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortReadPortUlong function
 
 
-
 ## -description
+
+
 The <b>StorPortReadPortUlong</b> routine reads a value from a specified port address. 
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API ULONG StorPortReadPortUlong(
@@ -55,6 +66,9 @@ STORPORT_API ULONG StorPortReadPortUlong(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -67,22 +81,25 @@ Pointer to the address from which to read.
 
 
 ## -returns
+
+
 <b>StorPortReadPortUlong</b> returns a data item of length <b>sizeof</b>(ULONG).
 
 
+
 ## -remarks
+
+
 For more information, see the <a href="..\srb\nf-srb-scsiportreadportulong.md">ScsiPortReadPortUlong</a> routine. For a buffered version of this routine see <a href="..\storport\nf-storport-storportreadportbufferulong.md">StorPortReadPortBufferUlong</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportreadportbufferulong.md">ScsiPortReadPortBufferUlong</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportreadportulong.md">StorPortReadPortUlong</a>
-</dt>
-</dl>
+
  
 
  

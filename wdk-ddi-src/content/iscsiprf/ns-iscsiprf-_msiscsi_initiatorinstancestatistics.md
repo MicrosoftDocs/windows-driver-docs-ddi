@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b07b8186-970a-428f-955f-4e7e6ab20bfc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSiSCSI_InitiatorInstanceStatistics, MSiSCSI_InitiatorInstanceStatistics, *PMSiSCSI_InitiatorInstanceStatistics
+ms.keywords: MSiSCSI_InitiatorInstanceStatistics structure [Storage Devices], PMSiSCSI_InitiatorInstanceStatistics, storage.msiscsi_initiatorinstancestatistics, structs-iSCSI_6914e221-73b2-4626-9281-2e1748bd0048.xml, iscsiprf/MSiSCSI_InitiatorInstanceStatistics, *PMSiSCSI_InitiatorInstanceStatistics, _MSiSCSI_InitiatorInstanceStatistics, MSiSCSI_InitiatorInstanceStatistics, PMSiSCSI_InitiatorInstanceStatistics structure pointer [Storage Devices], iscsiprf/PMSiSCSI_InitiatorInstanceStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSiSCSI_InitiatorInstanceStatistics
-req.alt-loc: iscsiprf.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: MSiSCSI_InitiatorInstanceStatistics, *PMSiSCSI_InitiatorInstanceStatistics
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiprf.h
+apiname: 
+-	MSiSCSI_InitiatorInstanceStatistics
+product: Windows
+targetos: Windows
+req.typenames: *PMSiSCSI_InitiatorInstanceStatistics, MSiSCSI_InitiatorInstanceStatistics
 ---
 
 # _MSiSCSI_InitiatorInstanceStatistics structure
 
 
-
 ## -description
+
+
 The MSiSCSI_InitiatorInstanceStatistics structure is used by iSCSI initiators to report initiator statistics.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSiSCSI_InitiatorInstanceStatistics {
@@ -57,6 +67,9 @@ typedef struct _MSiSCSI_InitiatorInstanceStatistics {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UniqueAdapterId
 
@@ -84,21 +97,20 @@ The number of failed sessions that belong to the initiator instance that <b>Uniq
 
 
 ## -remarks
+
+
 It is optional that you implement this class.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563017">MSiSCSI_HBAInformation WMI Class</a>
-</dt>
-<dt>
+
+<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563038">MSiSCSI_InitiatorInstanceStatistics WMI Class</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CB64AF68-C40D-44F0-8F52-6BF05E23E5E1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SRBEX_DATA_PNP, SRBEX_DATA_PNP, *PSRBEX_DATA_PNP
+ms.keywords: storage.srbex_data_pnp, StorStopDevice, PSRBEX_DATA_PNP, _SRBEX_DATA_PNP, StorRemoveDevice, storport/SRBEX_DATA_PNP, PSRBEX_DATA_PNP structure pointer [Storage Devices], SRBEX_DATA_PNP, StorSupriseRemoval, *PSRBEX_DATA_PNP, storport/PSRBEX_DATA_PNP, SRBEX_DATA_PNP structure [Storage Devices], StorQueryResourceRequirements, StorQueryCapabilities, StorStartDevice, StorFilterResourceRequirements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SRBEX_DATA_PNP
-req.alt-loc: Storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: SRBEX_DATA_PNP, *PSRBEX_DATA_PNP
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Storport.h
+apiname: 
+-	SRBEX_DATA_PNP
+product: Windows
+targetos: Windows
+req.typenames: *PSRBEX_DATA_PNP, SRBEX_DATA_PNP
 req.product: Windows 10 or later.
 ---
 
 # _SRBEX_DATA_PNP structure
 
 
-
 ## -description
+
+
 The <b>SRBEX_DATA_PNP</b> structure contains the request data for an extended plug and play (PNP) SRB.
-
-
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 typedef struct _SRBEX_DATA_PNP {
@@ -60,6 +70,9 @@ typedef struct _SRBEX_DATA_PNP {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Type
 
@@ -84,17 +97,16 @@ This member is reserved. Set to 0.
 ### -field PnPAction
 
 The plug and play action to perform. This member can have one of the following values:
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field StorStartDevice
-### -field 0x00
-
+<td width="40%"><a id="StorStartDevice"></a><a id="storstartdevice"></a><a id="STORSTARTDEVICE"></a><dl>
+<dt><b>StorStartDevice</b></dt>
+<dt>0x00</dt>
+</dl>
 </td>
 <td width="60%">
 Start the device.
@@ -102,10 +114,10 @@ Start the device.
 </td>
 </tr>
 <tr>
-
-### -field StorRemoveDevice
-### -field 0x02
-
+<td width="40%"><a id="StorRemoveDevice"></a><a id="storremovedevice"></a><a id="STORREMOVEDEVICE"></a><dl>
+<dt><b>StorRemoveDevice</b></dt>
+<dt>0x02</dt>
+</dl>
 </td>
 <td width="60%">
 Remove the device.
@@ -113,10 +125,10 @@ Remove the device.
 </td>
 </tr>
 <tr>
-
-### -field StorStopDevice
-### -field 0x04
-
+<td width="40%"><a id="StorStopDevice"></a><a id="storstopdevice"></a><a id="STORSTOPDEVICE"></a><dl>
+<dt><b>StorStopDevice</b></dt>
+<dt>0x04</dt>
+</dl>
 </td>
 <td width="60%">
 Stop the device.
@@ -124,10 +136,10 @@ Stop the device.
 </td>
 </tr>
 <tr>
-
-### -field StorQueryCapabilities
-### -field 0x09
-
+<td width="40%"><a id="StorQueryCapabilities"></a><a id="storquerycapabilities"></a><a id="STORQUERYCAPABILITIES"></a><dl>
+<dt><b>StorQueryCapabilities</b></dt>
+<dt>0x09</dt>
+</dl>
 </td>
 <td width="60%">
 Query the capabilities of the device.
@@ -135,10 +147,10 @@ Query the capabilities of the device.
 </td>
 </tr>
 <tr>
-
-### -field StorQueryResourceRequirements
-### -field 0x0B
-
+<td width="40%"><a id="StorQueryResourceRequirements"></a><a id="storqueryresourcerequirements"></a><a id="STORQUERYRESOURCEREQUIREMENTS"></a><dl>
+<dt><b>StorQueryResourceRequirements</b></dt>
+<dt>0x0B</dt>
+</dl>
 </td>
 <td width="60%">
 Query the resource requirements for the device.
@@ -146,10 +158,10 @@ Query the resource requirements for the device.
 </td>
 </tr>
 <tr>
-
-### -field StorFilterResourceRequirements
-### -field 0x0D
-
+<td width="40%"><a id="StorFilterResourceRequirements"></a><a id="storfilterresourcerequirements"></a><a id="STORFILTERRESOURCEREQUIREMENTS"></a><dl>
+<dt><b>StorFilterResourceRequirements</b></dt>
+<dt>0x0D</dt>
+</dl>
 </td>
 <td width="60%">
 Filter the resource requirements for the device. 
@@ -157,23 +169,22 @@ Filter the resource requirements for the device.
 </td>
 </tr>
 <tr>
-
-### -field StorSupriseRemoval
-### -field 0x17
-
+<td width="40%"><a id="StorSupriseRemoval"></a><a id="storsupriseremoval"></a><a id="STORSUPRISEREMOVAL"></a><dl>
+<dt><b>StorSupriseRemoval</b></dt>
+<dt>0x17</dt>
+</dl>
 </td>
 <td width="60%">
 Surprise Removal of the device. This value is available starting with Windows 7.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field SrbPnPFlags
 
-Indicates that the PNP request is for the adapter if SRB_PNP_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>SrbPnPFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure.
+Indicates that the PNP request is for the adapter if SRB_PNP_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>SrbPnPFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure.
 
 
 ### -field Reserved1
@@ -181,15 +192,10 @@ Indicates that the PNP request is for the adapter if SRB_PNP_FLAGS_ADAPTER_REQUE
 This member is reserved. Set to 0.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
-</dt>
-</dl>
+
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A52C8293-C037-4062-9A63-AD69237F7B3D
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_SWIZZLE_PATTERN_DESC_0022, D3D12DDI_SWIZZLE_PATTERN_DESC_0022
+ms.keywords: display.d3d12ddi_swizzle_pattern_desc_0022, D3D12DDI_SWIZZLE_PATTERN_DESC_0022, d3d12umddi/D3D12DDI_SWIZZLE_PATTERN_DESC_0022, D3D12DDI_SWIZZLE_PATTERN_DESC_0022 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_SWIZZLE_PATTERN_DESC_0022
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_SWIZZLE_PATTERN_DESC_0022
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_SWIZZLE_PATTERN_DESC_0022
 ---
 
 # D3D12DDI_SWIZZLE_PATTERN_DESC_0022 structure
 
 
-
 ## -description
+
+
 Describes a swizzle pattern. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDI_SWIZZLE_PATTERN_DESC_0022 {
@@ -61,6 +71,9 @@ typedef struct D3D12DDI_SWIZZLE_PATTERN_DESC_0022 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field InterleavePatternSourceBits
 
@@ -106,5 +119,3 @@ A postamble XOR immediate value.
 
 Flags. 
 
-
-## -remarks

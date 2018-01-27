@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: c37844d9-206a-4060-8b46-9afe691fe8f9
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND
+ms.keywords: bltooth.bth_vendor_specific_command, *PBTH_VENDOR_SPECIFIC_COMMAND, bthioctl/BTH_VENDOR_SPECIFIC_COMMAND, PBTH_VENDOR_SPECIFIC_COMMAND structure pointer [Bluetooth Devices], PBTH_VENDOR_SPECIFIC_COMMAND, bth_ref_568c918a-282f-48e0-994a-c49289976bb6.xml, BTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND structure [Bluetooth Devices], _BTH_VENDOR_SPECIFIC_COMMAND, bthioctl/PBTH_VENDOR_SPECIFIC_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Available in Windows Vista, and later versi
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BTH_VENDOR_SPECIFIC_COMMAND
-req.alt-loc: bthioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthioctl.h
+apiname: 
+-	BTH_VENDOR_SPECIFIC_COMMAND
+product: Windows
+targetos: Windows
 req.typenames: *PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND
 ---
 
 # _BTH_VENDOR_SPECIFIC_COMMAND structure
 
 
-
 ## -description
+
+
 The BTH_VENDOR_SPECIFIC_COMMAND structure specifies a Bluetooth vendor-specific command.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BTH_VENDOR_SPECIFIC_COMMAND {
@@ -57,6 +67,9 @@ typedef struct _BTH_VENDOR_SPECIFIC_COMMAND {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ManufacturerId
 
@@ -100,9 +113,11 @@ A UCHAR array that contains the data and patterns for the command that is specif
 
 
 ## -remarks
+
+
 This BTH_VENDOR_SPECIFIC_COMMAND structure specifies the input buffer for the 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_hci_vendor_command.md">
-    IOCTL_BTH_HCI_VENDOR_COMMAND</a> IOCTL. This IOCTL can be used to send vendor-specific commands to
+    <mshelp:link keywords="bltooth.ioctl_bth_hci_vendor_command" tabindex="0"><b>
+    IOCTL_BTH_HCI_VENDOR_COMMAND</b></mshelp:link> IOCTL. This IOCTL can be used to send vendor-specific commands to
     Bluetooth radios.
 
 To specify the size of the HCI command data, use the
@@ -122,18 +137,15 @@ If such patterns are specified, the
     <b>TotalParameterLength</b> member should not include the size of the patterns.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\bthioctl\ns-bthioctl-_bth_command_header.md">BTH_COMMAND_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\bthioctl\ns-bthioctl-_bth_vendor_pattern.md">BTH_VENDOR_PATTERN</a>
-</dt>
-<dt>
+
+<a href="..\bthioctl\ns-bthioctl-_bth_command_header.md">BTH_COMMAND_HEADER</a>
+
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_hci_vendor_command.md">IOCTL_BTH_HCI_VENDOR_COMMAND</a>
-</dt>
-</dl>
+
  
 
  

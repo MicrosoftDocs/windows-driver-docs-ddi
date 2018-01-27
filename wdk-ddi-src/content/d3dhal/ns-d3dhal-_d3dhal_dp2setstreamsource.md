@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 23be14ce-2312-41e0-98c5-07de551ffce9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2SETSTREAMSOURCE, D3DHAL_DP2SETSTREAMSOURCE, *LPD3DHAL_DP2SETSTREAMSOURCE
+ms.keywords: d3dstrct_4a6ddce7-b2fc-4fdd-bbed-cc905b1bc97d.xml, _D3DHAL_DP2SETSTREAMSOURCE, D3DHAL_DP2SETSTREAMSOURCE structure [Display Devices], *LPD3DHAL_DP2SETSTREAMSOURCE, d3dhal/LPD3DHAL_DP2SETSTREAMSOURCE, D3DHAL_DP2SETSTREAMSOURCE, display.d3dhal_dp2setstreamsource, LPD3DHAL_DP2SETSTREAMSOURCE structure pointer [Display Devices], LPD3DHAL_DP2SETSTREAMSOURCE, d3dhal/D3DHAL_DP2SETSTREAMSOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DP2SETSTREAMSOURCE
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DP2SETSTREAMSOURCE
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DP2SETSTREAMSOURCE
 ---
 
 # _D3DHAL_DP2SETSTREAMSOURCE structure
 
 
-
 ## -description
+
+
 
    DirectX 8.0 and later versions only.
    
@@ -46,8 +56,8 @@ req.typenames: D3DHAL_DP2SETSTREAMSOURCE
 The D3DHAL_DP2SETSTREAMSOURCE structure is used to bind a vertex stream source to a vertex buffer for <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DP2SETSTREAMSOURCE {
@@ -59,6 +69,9 @@ typedef struct _D3DHAL_DP2SETSTREAMSOURCE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwStream
 
@@ -76,6 +89,8 @@ Specifies the vertex size in bytes.
 
 
 ## -remarks
+
+
 A driver is notified of the binding of a vertex buffer to a particular stream through a new DP2 token, D3DDP2OP_SETSTREAMSOURCE.
 
 The debug runtime validates that <b>dwStream</b> is within the legal range but the retail version does not, so validation must be present in the driver. DirectX 8.0 does not define the behavior of the driver or hardware in the error case where the stream index given is larger than the maximum stream supported by the hardware (as reported through <b>MaxStreams</b> in D3DCAPS8) beyond requiring that the driver and hardware combination not fault or hang in this case and that, on restoration of correct state the driver and hardware combination should continue to operate normally. Debug versions of your display driver should display messages in the debug output stream indicating when this problem has been detected.
@@ -85,19 +100,17 @@ The runtime does not validate that the streams accessed by the current vertex sh
 Only a single stream source is set by a <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a> structure. That is, the <b>wStateCount</b> field of the D3DHAL_DP2COMMAND is always one when <b>bCommand</b> is D3DDP2OP_SETSTREAMSOURCE.
 
 
+
 ## -see-also
-<dl>
-<dt>D3DDP2OP_SETSTREAMSOURCE</dt>
-<dt>
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-</dt>
-<dt>
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-</dt>
-<dt>
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setstreamsourceum.md">D3DHAL_DP2SETSTREAMSOURCEUM</a>
-</dt>
-</dl>
+
+D3DDP2OP_SETSTREAMSOURCE
+
  
 
  

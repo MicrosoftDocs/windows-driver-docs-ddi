@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a72dd755-efd9-4950-8400-179eb1d63e9a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY, D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY
+ms.keywords: d3dkmthk/D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY, D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY, display.d3dkmt_getcontextinprocessschedulingpriority, _D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY, D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY
 ---
 
 # _D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY structure
 
 
-
 ## -description
+
+
 Describes information that is required for an in-process (in-proc) Microsoft Direct3D composition device to retrieve the scheduling priority for a device context that is in the same process as other device contexts.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY {
@@ -54,6 +64,9 @@ typedef struct _D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hContext
 
@@ -68,5 +81,3 @@ A value of zero indicates that the context is scheduled with the same priority a
 
 A value of 1 indicates that the context is scheduled ahead of other contexts within the same process.
 
-
-## -remarks

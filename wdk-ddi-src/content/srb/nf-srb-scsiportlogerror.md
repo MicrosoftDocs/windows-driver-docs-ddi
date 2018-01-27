@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 278f4fff-6e71-4544-8838-90f659c5029e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortLogError
+ms.keywords: srb/ScsiPortLogError, storage.scsiportlogerror, ScsiPortLogError routine [Storage Devices], scsiprt_5d3ec5ab-07f8-47d1-ab0c-363639c1e8aa.xml, ScsiPortLogError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ScsiPortLogError
-req.alt-loc: Scsiport.lib,Scsiport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Scsiport.lib
+-	Scsiport.dll
+apiname: 
+-	ScsiPortLogError
+product: Windows
+targetos: Windows
 req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ScsiPortLogError function
 
 
-
 ## -description
+
+
 The <b>ScsiPortLogError</b> routine logs errors to the system event log when a miniport driver or its HBA detects a SCSI error condition.
-
-
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 VOID ScsiPortLogError(
@@ -61,14 +72,17 @@ VOID ScsiPortLogError(
 
 ## -parameters
 
+
+
+
 ### -param HwDeviceExtension [in]
 
 Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension-&gt;HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-### -param Srb [in, optional]
+### -param OPTIONAL
 
-Pointer to a SCSI request block if one is associated with the error. Otherwise, this parameter is <b>NULL</b>.
+TBD
 
 
 ### -param PathId [in]
@@ -89,7 +103,6 @@ Identifies the logical unit number of the target device.
 ### -param ErrorCode [in]
 
 Specifies an error code indicating one of the following values as the type of error.
-
 <table>
 <tr>
 <th>Value</th>
@@ -195,8 +208,7 @@ Indicates that a target disconnected unexpectedly.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param UniqueId [in]
@@ -204,20 +216,29 @@ Indicates that a target disconnected unexpectedly.
 Specifies a unique identifier for the error. This value differentiates the current error from other errors with the same <i>ErrorCode</i>. For some miniport drivers, this identifies the line of code where the error was detected. For others, it is additional information returned by the HBA.
 
 
+#### - Srb [in, optional]
+
+Pointer to a SCSI request block if one is associated with the error. Otherwise, this parameter is <b>NULL</b>.
+
+
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A miniport driver should log all real hardware errors. However, it should not log common operational errors, such as selection time-outs or bus resets.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
-</dt>
-</dl>
+
  
 
  

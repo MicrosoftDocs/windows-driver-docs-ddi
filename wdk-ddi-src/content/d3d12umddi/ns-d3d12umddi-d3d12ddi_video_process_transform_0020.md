@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E463BD7F-F89C-4D82-ABCA-4AF48EC21655
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020, D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020
+ms.keywords: d3d12umddi/D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020, display.d3d12ddi_video_process_transform, D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020 structure [Display Devices], D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020
 ---
 
 # D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020 structure
 
 
-
 ## -description
+
+
 Contains information for a transform.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020 {
@@ -57,6 +67,9 @@ typedef struct D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field SourceAspectRatio
 
@@ -82,5 +95,3 @@ The destination rectangle is the portion of the output surface that receives the
 
 The rotation and flip operation to apply to the source.  Source and destination rectangles are specified in post orientation coordinates.
 
-
-## -remarks

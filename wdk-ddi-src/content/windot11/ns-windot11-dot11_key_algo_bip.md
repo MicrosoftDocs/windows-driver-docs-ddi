@@ -7,8 +7,8 @@ old-location: netvista\dot11_key_algo_bip.htm
 old-project: netvista
 ms.assetid: 608AD247-19C8-40E8-B2FF-D49818AE4AD7
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP, *PDOT11_KEY_ALGO_BIP
+ms.date: 1/18/2018
+ms.keywords: windot11/PDOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP structure [Network Drivers Starting with Windows Vista], windot11/DOT11_KEY_ALGO_BIP, PDOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP, netvista.dot11_key_algo_bip, *PDOT11_KEY_ALGO_BIP, PDOT11_KEY_ALGO_BIP structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 8 and later versions of the Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DOT11_KEY_ALGO_BIP
-req.alt-loc: windot11.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	windot11.h
+apiname: 
+-	DOT11_KEY_ALGO_BIP
+product: Windows
+targetos: Windows
 req.typenames: DOT11_KEY_ALGO_BIP, *PDOT11_KEY_ALGO_BIP
 req.product: Windows 10 or later.
 ---
@@ -38,10 +47,14 @@ req.product: Windows 10 or later.
 # DOT11_KEY_ALGO_BIP structure
 
 
-
 ## -description
 
+
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_KEY_ALGO_BIP structure defines a cipher key that is used by the Broadcast Integrity Protocol (BIP) algorithm for management frame integrity protection.
+
+
 ## -syntax
+
 
 ````
 typedef struct _DOT11_KEY_ALGO_BIP {
@@ -54,9 +67,12 @@ typedef struct _DOT11_KEY_ALGO_BIP {
 
 ## -struct-fields
 
-### -field ucIPN[6]
 
-The initial IGTK packet number (IPN) used for replay protection.
+
+
+### -field ucIPN
+
+ 
 
 
 ### -field ulBIPKeyLength
@@ -64,9 +80,18 @@ The initial IGTK packet number (IPN) used for replay protection.
 The length, in bytes, of the BIP key material in <b>ucBIPKey</b> array.
 
 
-### -field ucBIPKey[1]
+### -field ucBIPKey
+
+ 
+
+
+
+#### - ucIPN[6]
+
+The initial IGTK packet number (IPN) used for replay protection.
+
+
+#### - ucBIPKey[1]
 
 The BIP key material.
 
-
-## -remarks

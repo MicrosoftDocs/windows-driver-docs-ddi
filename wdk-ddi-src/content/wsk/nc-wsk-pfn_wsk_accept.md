@@ -7,8 +7,8 @@ old-location: netvista\wskaccept.htm
 old-project: netvista
 ms.assetid: 9fa8bb07-7ee5-400b-aaca-33db3911d79f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO
+ms.date: 1/18/2018
+ms.keywords: netvista.wskaccept, WskAccept callback function [Network Drivers Starting with Windows Vista], WskAccept, PFN_WSK_ACCEPT, PFN_WSK_ACCEPT, wsk/WskAccept, wskref_22de82fc-18c4-4fed-b0fe-7e048ba7cfeb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WskAccept
-req.alt-loc: wsk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: *PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	wsk.h
+apiname: 
+-	WskAccept
+product: Windows
+targetos: Windows
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
 # PFN_WSK_ACCEPT callback
 
 
-
 ## -description
+
+
 The 
   <b>WskAccept</b> function accepts an incoming connection on a listening socket.
 
 
-
 ## -prototype
+
 
 ````
 PFN_WSK_ACCEPT WskAccept;
@@ -65,6 +75,9 @@ NTSTATUS WSKAPI * WskAccept(
 
 ## -parameters
 
+
+
+
 ### -param ListenSocket [in]
 
 A pointer to a 
@@ -72,7 +85,7 @@ A pointer to a
      object for the listening or stream socket that is being checked for an incoming connection.
 
 
-### -param Flags 
+### -param Flags
 
 This parameter is reserved for system use. A WSK application must set this parameter to
      zero.
@@ -87,16 +100,8 @@ A pointer to a caller-supplied context for the socket that is being accepted. Th
      <b>NULL</b>.
 
 
-### -param AcceptSocketDispatch [in, optional]
+### -param *AcceptSocketDispatch
 
-A pointer to a constant 
-     <a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
-     WSK_CLIENT_CONNECTION_DISPATCH</a> structure. This structure is a dispatch table that contains
-     pointers to the event callback functions for the accepted socket. If the WSK application will not be
-     enabling all of the event callback functions for the accepted socket, it should set the pointers in the
-     dispatch table to <b>NULL</b> for those event callback functions that it does not enable. If the WSK
-     application will not be enabling any event callback functions on the accepted socket, it should set this
-     pointer to <b>NULL</b>.
 
 
 ### -param LocalAddress [out, optional]
@@ -121,34 +126,87 @@ A pointer to a caller-allocated buffer that receives the remote transport addres
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the accept operation
      asynchronously. For more information about using IRPs with WSK functions, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
-     Kernel Functions</a>.
+     <mshelp:link keywords="netvista.using_irps_with_winsock_kernel_functions" tabindex="0">Using IRPs with Winsock
+     Kernel Functions</mshelp:link>.
+
+
+#### - AcceptSocketDispatch [in, optional]
+
+A pointer to a constant 
+     <mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
+     WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link> structure. This structure is a dispatch table that contains
+     pointers to the event callback functions for the accepted socket. If the WSK application will not be
+     enabling all of the event callback functions for the accepted socket, it should set the pointers in the
+     dispatch table to <b>NULL</b> for those event callback functions that it does not enable. If the WSK
+     application will not be enabling any event callback functions on the accepted socket, it should set this
+     pointer to <b>NULL</b>.
 
 
 ## -returns
+
+
 <b>WskAccept</b> returns one of the following NTSTATUS codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>An incoming connection was successfully accepted. The IRP will be completed with success
+</dl>
+</td>
+<td width="60%">
+An incoming connection was successfully accepted. The IRP will be completed with success
        status.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_PENDING</b></dt>
-</dl>The IRP has been queued by the WSK subsystem, which is waiting for an incoming connection on the
+</dl>
+</td>
+<td width="60%">
+The IRP has been queued by the WSK subsystem, which is waiting for an incoming connection on the
        listening socket.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FILE_FORCED_CLOSED</b></dt>
-</dl>The socket is no longer functional. The IRP will be completed with failure status. The WSK
+</dl>
+</td>
+<td width="60%">
+The socket is no longer functional. The IRP will be completed with failure status. The WSK
        application must call the 
        <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a> function to close the
        socket as soon as possible.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>Other status codes</b></dt>
-</dl>An error occurred. The IRP will be completed with failure status.
+</dl>
+</td>
+<td width="60%">
+An error occurred. The IRP will be completed with failure status.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A WSK application can call the 
     <b>WskAccept</b> function on either a listening socket or stream socket that it previously bound to a local transport address
     by calling the 
@@ -157,7 +215,8 @@ A WSK application can call the
 The behavior of the 
     <b>WskAccept</b> function depends on whether an incoming connection is waiting to be accepted on the
     listening socket:
-
+<ul>
+<li>
 If an incoming connection has already arrived on the listening socket and is waiting to be accepted,
       the 
       <b>WskAccept</b> function returns STATUS_SUCCESS. In this situation, the IRP is completed with success
@@ -165,6 +224,8 @@ If an incoming connection has already arrived on the listening socket and is wai
       <b>IoStatus.Information</b> field of the IRP contains a pointer to the socket object for the accepted
       socket.
 
+</li>
+<li>
 If an incoming connection is not waiting to be accepted on the listening socket, 
       <b>WskAccept</b> returns STATUS_PENDING and the WSK subsystem queues the IRP until an incoming
       connection is received. When an incoming connection is received, the WSK subsystem asynchronously
@@ -172,7 +233,8 @@ If an incoming connection is not waiting to be accepted on the listening socket,
       <b>IoStatus.Information</b> field of the IRP contains a pointer to the socket object for the accepted
       socket.
 
-If a WSK application's 
+</li>
+</ul>If a WSK application's 
     <a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a> event callback function is
     enabled on a listening socket and the application has a pending call to the 
     <b>WskAccept</b> function on the same listening socket, then, when an incoming connection arrives, the
@@ -194,8 +256,8 @@ When the
     <b>WskAccept</b> function successfully accepts an incoming connection, all of the event callback functions
     on the accepted socket are disabled by default. For more information about enabling any of the accepted
     socket's event callback functions, see 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363707">Enabling and
-    Disabling Event Callback Functions</a>.
+    <mshelp:link keywords="netvista.enabling_and_disabling_event_callback_functions" tabindex="0">Enabling and
+    Disabling Event Callback Functions</mshelp:link>.
 
 If a WSK application specifies a non-<b>NULL</b> pointer in the 
     <i>LocalAddress</i> parameter, in the 
@@ -212,40 +274,31 @@ The WSK subsystem allocates the memory for the socket object structure (
     behalf of the WSK application. The WSK subsystem deallocates this memory when the socket is closed.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
-</dt>
-<dt>
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-</dt>
-<dt>
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-</dt>
-<dt>
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
-</dt>
-<dt>
-<a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
-   WSK_CLIENT_CONNECTION_DISPATCH</a>
-</dt>
-<dt>
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
-</dt>
-<dt>
+
 <a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
-</dt>
-<dt>
+
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-</dt>
-</dl>
- 
+
+<mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
+   WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
+
+<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_ACCEPT callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_ACCEPT callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

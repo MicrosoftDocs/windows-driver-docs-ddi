@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 18bf43bd-3499-4494-839b-9bc07de83644
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _tagAvcCommandType, AvcCommandType
+ms.keywords: avc/AVC_CTYPE_CONTROL, AVC_CTYPE_SPEC_INQ, avc/AVC_CTYPE_STATUS, _tagAvcCommandType, AvcCommandType, AVC_CTYPE_GEN_INQ, avc/AvcCommandType, avc/AVC_CTYPE_SPEC_INQ, AVC_CTYPE_CONTROL, avc/AVC_CTYPE_NOTIFY, avc/AVC_CTYPE_GEN_INQ, AVC_CTYPE_NOTIFY, AVC_CTYPE_STATUS, avcref_08c9f0bb-efe0-412d-9a49-ba497bcc6e25.xml, AvcCommandType enumeration [Streaming Media Devices], stream.avccommandtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AvcCommandType
-req.alt-loc: avc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	avc.h
+apiname: 
+-	AvcCommandType
+product: Windows
+targetos: Windows
 req.typenames: AvcCommandType
 ---
 
 # _tagAvcCommandType enumeration
 
 
-
 ## -description
+
+
 The AvcCommandType enumeration type is used to indicate the type of command issued by a subunit driver to its AV/C subunit through <b>AVC_FUNCTION_COMMAND</b> or <b>AVC_FUNCTION_GET_REQUEST</b> function codes.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _tagAvcCommandType { 
@@ -57,6 +67,9 @@ typedef enum _tagAvcCommandType {
 
 
 ## -enum-fields
+
+
+
 
 ### -field AVC_CTYPE_CONTROL
 
@@ -83,21 +96,14 @@ Specifies a notify type of command.
 Specifies a general inquiry command type. This permits a controller to query a target to find out if it supports a specific opcode without needing to pass any specific operands.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554150">AVC_FUNCTION_COMMAND</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554163">AVC_FUNCTION_GET_REQUEST</a>
-</dt>
-<dt>
+
 <a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554163">AVC_FUNCTION_GET_REQUEST</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554150">AVC_FUNCTION_COMMAND</a>
+
  
 
  

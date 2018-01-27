@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4b1028a1-8c86-4958-a19f-32c490dda790
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: NpdBrokerUninitialize
+ms.keywords: stream.kstrclockgettime, KStrClockGetTime, KStrClockGetTime routine [Streaming Media Devices], KStrClockGetTime, PFNKSCLOCK_GETTIME, PFNKSCLOCK_GETTIME, ks/KStrClockGetTime, ksfunc_a60a332c-ffc8-4969-9e81-cccaac9b5c0a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KStrClockGetTime
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ks.h
+apiname: 
+-	KStrClockGetTime
+product: Windows
+targetos: Windows
 req.typenames: KEYWORDSELECTOR
 ---
 
 # PFNKSCLOCK_GETTIME callback
 
 
-
 ## -description
+
+
 <i>KStrClockGetTime</i> is a system-supplied routine that retrieves the current system time.
 
 
-
 ## -prototype
+
 
 ````
 PFNKSCLOCK_GETTIME KStrClockGetTime;
@@ -57,28 +67,34 @@ LONGLONG FASTCALL KStrClockGetTime(
 
 ## -parameters
 
+
+
+
 ### -param FileObject [in]
 
 A pointer to the <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure to which a handle was returned when the clock instance was created.
 
 
 ## -returns
+
+
 This routine returns the requested time value as a value of type LONGLONG. This value is specified in 100 nanosecond units.
 
 
+
 ## -remarks
+
+
 You can obtain an entry point for this routine by supplying a driver-allocated <a href="..\ks\ns-ks-ksclock_functiontable.md">KSCLOCK_FUNCTIONTABLE</a> structure in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564466">KSPROPERTY_CLOCK_FUNCTIONTABLE</a> request.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564466">KSPROPERTY_CLOCK_FUNCTIONTABLE</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-ksclock_functiontable.md">KSCLOCK_FUNCTIONTABLE</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564466">KSPROPERTY_CLOCK_FUNCTIONTABLE</a>
+
  
 
  

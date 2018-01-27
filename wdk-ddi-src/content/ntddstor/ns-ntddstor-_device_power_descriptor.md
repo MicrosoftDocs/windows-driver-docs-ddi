@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A5925EE4-768C-421A-9813-015513751A91
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DEVICE_POWER_DESCRIPTOR, *PDEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR
+ms.keywords: DEVICE_POWER_DESCRIPTOR structure [Storage Devices], ntddstor/PDEVICE_POWER_DESCRIPTOR, ntddstor/DEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR, PDEVICE_POWER_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_POWER_DESCRIPTOR, PDEVICE_POWER_DESCRIPTOR, storage.device_power_descriptor, *PDEVICE_POWER_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DEVICE_POWER_DESCRIPTOR
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PDEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	DEVICE_POWER_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: DEVICE_POWER_DESCRIPTOR, *PDEVICE_POWER_DESCRIPTOR
 ---
 
 # _DEVICE_POWER_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 Used in conjunction with the 
    <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> control code 
    to describes the power capabilities of a storage device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DEVICE_POWER_DESCRIPTOR {
@@ -64,6 +74,9 @@ typedef struct _DEVICE_POWER_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -120,15 +133,10 @@ The idle timeout value in milliseconds. This member is ignored unless
       <b>IdlePowerManagementEnabled</b> is true.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
-</dt>
-</dl>
+
  
 
  

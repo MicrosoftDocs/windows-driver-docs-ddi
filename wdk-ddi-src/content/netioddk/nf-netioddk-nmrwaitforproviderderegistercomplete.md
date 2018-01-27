@@ -7,8 +7,8 @@ old-location: netvista\nmrwaitforproviderderegistercomplete.htm
 old-project: netvista
 ms.assetid: ec6e75e8-f24a-4d76-b6e1-af35b5402f91
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NmrWaitForProviderDeregisterComplete
+ms.date: 1/18/2018
+ms.keywords: NmrWaitForProviderDeregisterComplete, NmrWaitForProviderDeregisterComplete function [Network Drivers Starting with Windows Vista], netioddk/NmrWaitForProviderDeregisterComplete, nmrref_bd063787-0438-49de-9816-e5a110528d54.xml, netvista.nmrwaitforproviderderegistercomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NmrWaitForProviderDeregisterComplete
-req.alt-loc: netio.lib,netio.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: < DISPATCH_LEVEL
-req.typenames: *PNET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	netio.lib
+-	netio.dll
+apiname: 
+-	NmrWaitForProviderDeregisterComplete
+product: Windows
+targetos: Windows
+req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
 ---
 
 # NmrWaitForProviderDeregisterComplete function
 
 
-
 ## -description
+
+
 The 
   <b>NmrWaitForProviderDeregisterComplete</b> function waits for the deregistration of a provider module to
   complete.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS NmrWaitForProviderDeregisterComplete(
@@ -56,6 +67,9 @@ NTSTATUS NmrWaitForProviderDeregisterComplete(
 
 ## -parameters
 
+
+
+
 ### -param NmrProviderHandle [in]
 
 A handle used by the NMR to represent the registration of the provider module. The NMR returns
@@ -64,25 +78,58 @@ A handle used by the NMR to represent the registration of the provider module. T
 
 
 ## -returns
+
+
 The 
      <b>NmrWaitForProviderDeregisterComplete</b> function returns one of the following NTSTATUS codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The NMR completed deregistering the provider module.
+</dl>
+</td>
+<td width="60%">
+The NMR completed deregistering the provider module.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The provider module called the 
+</dl>
+</td>
+<td width="60%">
+The provider module called the 
        <b>NmrWaitForProviderDeregisterComplete</b> function before calling the 
        <a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a> function,
        or the handle specified in the NmrClientHandle parameter is not a valid provider handle.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>Other status codes</b></dt>
-</dl>An error occurred.
+</dl>
+</td>
+<td width="60%">
+An error occurred.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A provider module calls the 
     <b>NmrWaitForProviderDeregisterComplete</b> function to wait for the deregistration of the provider module
     to complete. A provider module calls the 
@@ -109,15 +156,14 @@ A provider module typically calls the
 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NmrWaitForProviderDeregisterComplete function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NmrWaitForProviderDeregisterComplete function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

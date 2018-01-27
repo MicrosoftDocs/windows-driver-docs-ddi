@@ -2,13 +2,13 @@
 UID: NC:fwpsk.FWPS_NET_BUFFER_LIST_NOTIFY_FN1
 title: FWPS_NET_BUFFER_LIST_NOTIFY_FN1
 author: windows-driver-content
-description: The filter engine calls the FWPS_NET_BUFFER_LIST_NOTIFY_FN1 callout function to notify the callout driver about events that are associated with packets tagged by the callout.Note   FWPS_NET_BUFFER_LIST_NOTIFY_FN1 is the specific version of FWPS_NET_BUFFER_LIST_NOTIFY_FN used in Windows 8 and later. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information. For Windows 7, FWPS_NET_BUFFER_LIST_NOTIFY_FN0 is available.
+description: The filter engine calls the FWPS_NET_BUFFER_LIST_NOTIFY_FN1 callout function to notify the callout driver about events that are associated with packets tagged by the callout.Note   FWPS_NET_BUFFER_LIST_NOTIFY_FN1 is the specific version of FWPS_NET_BUFFER_LIST_NOTIFY_FN used in Windows 8 and later. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information. For Windows 7, FWPS_NET_BUFFER_LIST_NOTIFY_FN0 is available. 
 old-location: netvista\fwps_net_buffer_list_notify_fn1.htm
 old-project: netvista
 ms.assetid: fe9ab4b2-5692-4b6e-a7fc-11e9ac8280bc
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: FwpmEngineOpen0
+ms.date: 1/18/2018
+ms.keywords: netvista.fwps_net_buffer_list_notify_fn1, FwpsNetBufferListNotifyFN1 callback function [Network Drivers Starting with Windows Vista], FwpsNetBufferListNotifyFN1, FWPS_NET_BUFFER_LIST_NOTIFY_FN1, FWPS_NET_BUFFER_LIST_NOTIFY_FN1, fwpsk/FwpsNetBufferListNotifyFN1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FwpsNetBufferListNotifyFN1
-req.alt-loc: fwpsk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	fwpsk.h
+apiname: 
+-	FwpsNetBufferListNotifyFN1
+product: Windows
+targetos: Windows
 req.typenames: PINSTANCE_PARTIAL_INFORMATION, INSTANCE_PARTIAL_INFORMATION
 ---
 
 # FWPS_NET_BUFFER_LIST_NOTIFY_FN1 callback
 
 
-
 ## -description
+
+
 The filter engine calls the <i>
   FWPS_NET_BUFFER_LIST_NOTIFY_FN1</i> callout function to notify the callout driver about events that are
   associated with packets tagged by the callout.<div class="alert"><b>Note</b>  <i>
@@ -47,8 +57,8 @@ The filter engine calls the <i>
 
 
 
-
 ## -prototype
+
 
 ````
 FWPS_NET_BUFFER_LIST_NOTIFY_FN1 FwpsNetBufferListNotifyFN1;
@@ -67,25 +77,23 @@ NTSTATUS NTAPI FwpsNetBufferListNotifyFN1(
 
 ## -parameters
 
+
+
+
 ### -param eventType [in]
 
 A value that indicates the type of notification that the filter engine is sending to the callout.
      This parameter will be set to one of the values of the 
-     <a href="..\fwpsk\ne-fwpsk-fwps_net_buffer_list_event_type0_.md">
-     FWPS_NET_BUFFER_LIST_EVENT_TYPE0</a> enumeration.
+     <mshelp:link keywords="netvista.fwps_net_buffer_list_event_type0" tabindex="0"><b>
+     FWPS_NET_BUFFER_LIST_EVENT_TYPE0</b></mshelp:link> enumeration.
 
 
-### -param netBufferList [in, out]
-
-A pointer to the buffer list that contains packets that were previously tagged as interesting by
-     the callout driver.
+### -param *netBufferList
 
 
-### -param newNetBufferList [in, out, optional]
 
-A pointer to an updated buffer list that contains packets that are interesting to the callout
-     driver. The use of this parameter differs depending on the type of event. For events where a change is
-     made to the indicated packet, the changed version is passed as this parameter.
+### -param *newNetBufferList
+
 
 
 ### -param layerId [in]
@@ -105,21 +113,59 @@ The context tag used to associate the packets of interest with the context of th
      driver.
 
 
+#### - newNetBufferList [in, out, optional]
+
+A pointer to an updated buffer list that contains packets that are interesting to the callout
+     driver. The use of this parameter differs depending on the type of event. For events where a change is
+     made to the indicated packet, the changed version is passed as this parameter.
+
+
+#### - netBufferList [in, out]
+
+A pointer to the buffer list that contains packets that were previously tagged as interesting by
+     the callout driver.
+
+
 ## -returns
+
+
 A callout's 
   <i>
   FWPS_NET_BUFFER_LIST_NOTIFY_FN1</i> function returns one of the following NTSTATUS codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The callout driver accepts the notification from the filter engine.
+</dl>
+</td>
+<td width="60%">
+The callout driver accepts the notification from the filter engine.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>Other status codes</b></dt>
-</dl>An error occurred.
+</dl>
+</td>
+<td width="60%">
+An error occurred.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This function is associated with a callout driver by a call to <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext1.md">FwpsNetBufferListAssociateContext1</a>. A callout driver can use a single notification function to
     handle messages for multiple associated buffer lists by using the context and context tag to
     differentiate between instances.
@@ -127,28 +173,23 @@ This function is associated with a callout driver by a call to <a href="..\fwpsk
 This function is identical to <a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>, except that the return type is <b>NTSTATUS</b> instead of <b>VOID</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fwpsk\ne-fwpsk-fwps_net_buffer_list_event_type0_.md">
-     FWPS_NET_BUFFER_LIST_EVENT_TYPE0</a>
-</dt>
-<dt>
-<a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>
-</dt>
-<dt>
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext1.md">FwpsNetBufferListAssociateContext1</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/a151256b-d69f-4abb-bf68-644f157dfdd7">Using Packet Tagging</a>
-</dt>
-</dl>
- 
+
+<mshelp:link keywords="netvista.fwps_net_buffer_list_event_type0" tabindex="0"><b>
+     FWPS_NET_BUFFER_LIST_EVENT_TYPE0</b></mshelp:link>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext1.md">FwpsNetBufferListAssociateContext1</a>
+
+<a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_NET_BUFFER_LIST_NOTIFY_FN1 callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_NET_BUFFER_LIST_NOTIFY_FN1 callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

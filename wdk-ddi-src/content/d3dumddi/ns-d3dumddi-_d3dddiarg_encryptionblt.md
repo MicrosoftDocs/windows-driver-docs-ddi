@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0c163ae6-5f45-4570-bdbb-8ad34ad5f0dc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_ENCRYPTIONBLT, D3DDDIARG_ENCRYPTIONBLT
+ms.keywords: UMDisplayDriver_param_Structs_b76b39b2-87b0-453d-b6c5-e59b38249684.xml, D3DDDIARG_ENCRYPTIONBLT, d3dumddi/D3DDDIARG_ENCRYPTIONBLT, _D3DDDIARG_ENCRYPTIONBLT, D3DDDIARG_ENCRYPTIONBLT structure [Display Devices], display.d3dddiarg_encryptionblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3DDDIARG_ENCRYPTIONBLT is supported beginning with t
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_ENCRYPTIONBLT
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_ENCRYPTIONBLT
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_ENCRYPTIONBLT
 ---
 
 # _D3DDDIARG_ENCRYPTIONBLT structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_ENCRYPTIONBLT structure describes the parameters of an encrypted bit-block transfer (bitblt) in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_encryptionblt.md">EncryptionBlt</a> function. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_ENCRYPTIONBLT {
@@ -59,6 +69,9 @@ typedef struct _D3DDDIARG_ENCRYPTIONBLT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hCryptoSession
 
@@ -95,15 +108,10 @@ typedef struct _D3DDDIARG_ENCRYPTIONBLT {
 [out] A pointer to a block of memory in which <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_encryptionblt.md">EncryptionBlt</a> returns the initialization vector that is required to decrypt the bitblt data. If <b>pIV</b> is <b>NULL</b>, hardware does not require a separate key to decrypt the data that is read back. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_encryptionblt.md">EncryptionBlt</a>
-</dt>
-</dl>
+
  
 
  

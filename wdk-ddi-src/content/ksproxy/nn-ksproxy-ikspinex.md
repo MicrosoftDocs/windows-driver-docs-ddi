@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9e6fd96d-c78e-44f3-ae4c-3688da48a494
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSynchronousDeviceControl
+ms.keywords: stream.ikspinex, IKsPinEx interface [Streaming Media Devices], IKsPinEx interface [Streaming Media Devices], described, IKsPinEx, ksproxy/IKsPinEx, ksproxy_3c92d570-f22f-4165-bafd-9a22f5516137.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsPinEx
-req.alt-loc: Ksproxy.lib,Ksproxy.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,47 +29,34 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Ksproxy.lib
+-	Ksproxy.dll
+apiname: 
+-	IKsPinEx
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsPinEx interface
 
 
-
 ## -description
+
+
 The <b>IKsPinEx</b> interface inherits all the methods of the <b>IKsPin</b> interface and extends <b>IKsPin</b> to provide a method that notifies the filter graph of an error to give the filter graph an opportunity to halt.
 
 The IID for this interface is IID_IKsPinEx.
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPinEx</b> interface inherits from <a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a>. <b>IKsPinEx</b> also has these types of members:
-
-The <b>IKsPinEx</b> interface has these methods.
-
-Notifies the filter graph of an error to give the filter graph an opportunity to halt.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPinEx</b> interface inherits from <a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a>. <b>IKsPinEx</b> also has these types of members:
-
-The <b>IKsPinEx</b> interface has these methods.
-
-Notifies the filter graph of an error to give the filter graph an opportunity to halt.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPinEx</b> interface inherits from <a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a>. <b>IKsPinEx</b> also has these types of members:
-
-The <b>IKsPinEx</b> interface has these methods.
-
-Notifies the filter graph of an error to give the filter graph an opportunity to halt.
-
- 
-
-
 ## -members
+
 The <b>IKsPinEx</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -93,18 +78,18 @@ Notifies the filter graph of an error to give the filter graph an opportunity to
 
 
 ## -remarks
+
+
 An interface handler (<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>) uses many of the <b>IKsPinEx</b> methods to route media samples of a particular media type. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
-</dt>
-<dt>
+
 <a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a>
-</dt>
-</dl>
+
+<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
+
  
 
  

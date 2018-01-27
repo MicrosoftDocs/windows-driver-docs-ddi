@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 6c9e0477-1698-41bf-9ce6-43e7e8741425
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _HIDP_UNKNOWN_TOKEN, HIDP_UNKNOWN_TOKEN, *PHIDP_UNKNOWN_TOKEN
+ms.keywords: _HIDP_UNKNOWN_TOKEN, PHIDP_UNKNOWN_TOKEN, hid.hidp_unknown_token, HIDP_UNKNOWN_TOKEN, hidstrct_646ea225-5fff-4430-9112-06bb4cf8c988.xml, hidpi/HIDP_UNKNOWN_TOKEN, HIDP_UNKNOWN_TOKEN structure [Human Input Devices], *PHIDP_UNKNOWN_TOKEN, hidpi/PHIDP_UNKNOWN_TOKEN, PHIDP_UNKNOWN_TOKEN structure pointer [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HIDP_UNKNOWN_TOKEN
-req.alt-loc: hidpi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hidpi.h
+apiname: 
+-	HIDP_UNKNOWN_TOKEN
+product: Windows
+targetos: Windows
 req.typenames: HIDP_UNKNOWN_TOKEN, *PHIDP_UNKNOWN_TOKEN
 ---
 
 # _HIDP_UNKNOWN_TOKEN structure
 
 
-
 ## -description
+
+
 The HIDP_UNKNOWN_TOKEN structure contains information about a global item that the HID parser did not recognize.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _HIDP_UNKNOWN_TOKEN {
@@ -55,6 +65,9 @@ typedef struct _HIDP_UNKNOWN_TOKEN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Token
 
@@ -72,18 +85,18 @@ Specifies the data part of the global item.
 
 
 ## -remarks
+
+
 HIDP_UNKNOWN_TOKEN is designed to be used with the <a href="..\hidpi\ns-hidpi-_hidp_extended_attributes.md">HIDP_EXTENDED_ATTRIBUTES</a> structure. <a href="..\hidpi\nf-hidpi-hidp_getextendedattributes.md">HidP_GetExtendedAttributes</a> returns a HIDP_EXTENDED_ATTRIBUTES structure, which contains a variable length array of <b>HIDP_UNKNOWN_TOKEN</b> structures.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\hidpi\ns-hidpi-_hidp_extended_attributes.md">HIDP_EXTENDED_ATTRIBUTES</a>
-</dt>
-<dt>
+
 <a href="..\hidpi\nf-hidpi-hidp_getextendedattributes.md">HidP_GetExtendedAttributes</a>
-</dt>
-</dl>
+
+<a href="..\hidpi\ns-hidpi-_hidp_extended_attributes.md">HIDP_EXTENDED_ATTRIBUTES</a>
+
  
 
  

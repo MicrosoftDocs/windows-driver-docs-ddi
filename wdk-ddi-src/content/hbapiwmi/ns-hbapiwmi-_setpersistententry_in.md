@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f088a623-e6e8-4810-a7ab-90348f669dac
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SetPersistentEntry_IN, *PSetPersistentEntry_IN, SetPersistentEntry_IN
+ms.keywords: PSetPersistentEntry_IN, structs-Fibre_7382da5e-059a-4e11-9db7-dbc3dae24928.xml, hbapiwmi/PSetPersistentEntry_IN, storage.setpersistententry_in, SetPersistentEntry_IN structure [Storage Devices], PSetPersistentEntry_IN structure pointer [Storage Devices], hbapiwmi/SetPersistentEntry_IN, _SetPersistentEntry_IN, *PSetPersistentEntry_IN, SetPersistentEntry_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetPersistentEntry_IN
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	SetPersistentEntry_IN
+product: Windows
+targetos: Windows
 req.typenames: *PSetPersistentEntry_IN, SetPersistentEntry_IN
 ---
 
 # _SetPersistentEntry_IN structure
 
 
-
 ## -description
+
+
 The SetPersistentEntry_IN structure is used by a WMI client to deliver the input parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565783">SetPersistentEntry</a> WMI method to the HBA miniport driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SetPersistentEntry_IN {
@@ -54,6 +64,9 @@ typedef struct _SetPersistentEntry_IN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PortWWN
 
@@ -66,15 +79,16 @@ Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentr
 
 
 ## -remarks
+
+
 The WMI tool suite generates a declaration of the SetPersistentEntry_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565783">SetPersistentEntry</a>
-</dt>
-</dl>
+
  
 
  

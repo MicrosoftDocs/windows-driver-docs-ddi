@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5756bb06-8fd3-4124-b3c8-35d5ed0bd57b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _MPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+ms.keywords: _MPEG2_TRANSPORT_STRIDE, bdatypes/PMPEG2_TRANSPORT_STRIDE, bdatypes/MPEG2_TRANSPORT_STRIDE, bdaref_66678748-2c73-4bb6-b4ba-fc1c28fe567b.xml, MPEG2_TRANSPORT_STRIDE, PMPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE, PMPEG2_TRANSPORT_STRIDE structure pointer [Streaming Media Devices], MPEG2_TRANSPORT_STRIDE structure [Streaming Media Devices], stream.mpeg2_transport_stride
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MPEG2_TRANSPORT_STRIDE
-req.alt-loc: bdatypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bdatypes.h
+apiname: 
+-	MPEG2_TRANSPORT_STRIDE
+product: Windows
+targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # _MPEG2_TRANSPORT_STRIDE structure
 
 
-
 ## -description
+
+
 The MPEG2_TRANSPORT_STRIDE structure describes the format block of the MPEG2 transport stride. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MPEG2_TRANSPORT_STRIDE {
@@ -55,6 +65,9 @@ typedef struct _MPEG2_TRANSPORT_STRIDE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwOffset
 
@@ -72,4 +85,8 @@ Stride of data in a packet.
 
 
 ## -remarks
-The MPEG2 transport stride format block is associated with the MEDIATYPE_Stream/MEDIASUBTYPE_MPEG2_TRANSPORT_STRIDE media type. Format blocks that are associated with this media type must start with the MPEG2_TRANSPORT_STRIDE structure.</p>
+
+
+The MPEG2 transport stride format block is associated with the MEDIATYPE_Stream/MEDIASUBTYPE_MPEG2_TRANSPORT_STRIDE media type. Format blocks that are associated with this media type must start with the MPEG2_TRANSPORT_STRIDE structure.
+
+

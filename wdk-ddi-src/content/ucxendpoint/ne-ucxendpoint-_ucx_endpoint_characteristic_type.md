@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1F49C8CA-51CE-49B2-AC37-C114A688B1DB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCX_ENDPOINT_CHARACTERISTIC_TYPE, UCX_ENDPOINT_CHARACTERISTIC_TYPE
+ms.keywords: ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC_TYPE, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY, UCX_ENDPOINT_CHARACTERISTIC_TYPE enumeration [Buses], UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY, _UCX_ENDPOINT_CHARACTERISTIC_TYPE, UCX_ENDPOINT_CHARACTERISTIC_TYPE, buses.ucx_endpoint_characteristic_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UCX_ENDPOINT_CHARACTERISTIC_TYPE
-req.alt-loc: Ucxendpoint.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ucxendpoint.h
+apiname: 
+-	UCX_ENDPOINT_CHARACTERISTIC_TYPE
+product: Windows
+targetos: Windows
 req.typenames: UCX_ENDPOINT_CHARACTERISTIC_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _UCX_ENDPOINT_CHARACTERISTIC_TYPE enumeration
 
 
-
 ## -description
+
+
 Defines values that indicates the type of endpoint characteristic.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _UCX_ENDPOINT_CHARACTERISTIC_TYPE { 
@@ -55,20 +65,18 @@ typedef enum _UCX_ENDPOINT_CHARACTERISTIC_TYPE {
 
 ## -enum-fields
 
+
+
+
 ### -field UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY
 
 The type of characteristic of the endpoint.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxendpoint\ns-ucxendpoint-_ucx_endpoint_characteristic.md">UCX_ENDPOINT_CHARACTERISTIC</a>
-</dt>
-</dl>
+
  
 
  

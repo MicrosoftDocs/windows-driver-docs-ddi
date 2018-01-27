@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b73a125f-3ab9-4ec6-a154-7b32334e95eb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsRemoveLogContainerSet
+ms.keywords: ClfsRemoveLogContainerSet routine [Kernel-Mode Driver Architecture], wdm/ClfsRemoveLogContainerSet, Clfs_8455da3b-79fb-4511-8682-e9167620a369.xml, kernel.clfsremovelogcontainerset, ClfsRemoveLogContainerSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ClfsRemoveLogContainerSet
-req.alt-loc: Clfs.sys,Ext-MS-Win-fs-clfs-l1-1-0.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Clfs.sys
+-	Ext-MS-Win-fs-clfs-l1-1-0.dll
+apiname: 
+-	ClfsRemoveLogContainerSet
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ClfsRemoveLogContainerSet function
 
 
-
 ## -description
+
+
 The <b>ClfsRemoveLogContainerSet</b> routine atomically removes a set of containers from a CLFS log.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ClfsRemoveLogContainerSet(
@@ -57,6 +68,9 @@ NTSTATUS ClfsRemoveLogContainerSet(
 
 
 ## -parameters
+
+
+
 
 ### -param plfoLog [in]
 
@@ -79,33 +93,33 @@ A Boolean value that specifies whether the container removal is forced (<b>TRUE<
 
 
 ## -returns
+
+
 <b>ClfsRemoveLogContainerSet</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h. 
 
 
+
 ## -remarks
+
+
 Forced container removal (<i>fForce</i> = <b>TRUE</b>) succeeds only if the containers to be removed are not part of the active log.
 
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-clfsaddlogcontainerset.md">ClfsAddLogContainerSet</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-clfsremovelogcontainer.md">ClfsRemoveLogContainer </a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-clfsaddlogcontainerset.md">ClfsAddLogContainerSet</a>
+
+<a href="..\wdm\nf-wdm-clfsremovelogcontainer.md">ClfsRemoveLogContainer </a>
+
+<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+
  
 
  

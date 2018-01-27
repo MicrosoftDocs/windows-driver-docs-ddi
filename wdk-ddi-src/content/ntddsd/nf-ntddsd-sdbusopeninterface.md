@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: a788cd28-81a7-4b8c-b9c5-76dd2b1cd0f3
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SdBusOpenInterface
+ms.keywords: SdBusOpenInterface function [Buses], SD.sdbusopeninterface, SdBusOpenInterface, sd-rtns_44707c61-dadc-4151-b06a-8df3def56ab9.xml, ntddsd/SdBusOpenInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SdBusOpenInterface
-req.alt-loc: ntddsd.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddsd.h
+apiname: 
+-	SdBusOpenInterface
+product: Windows
+targetos: Windows
 req.typenames: SD_REQUEST_FUNCTION
 ---
 
 # SdBusOpenInterface function
 
 
-
 ## -description
+
+
 The <b>SdBusOpenInterface</b> routine obtains an interface from the Secure Digital (SD) bus driver.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SdBusOpenInterface(
@@ -56,6 +66,9 @@ NTSTATUS SdBusOpenInterface(
 
 
 ## -parameters
+
+
+
 
 ### -param Pdo [in]
 
@@ -78,24 +91,27 @@ Must be set to SDBUS_INTERFACE_VERSION.
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS if the operation succeeds, or the appropriate error code if the operation fails. 
 
 
+
 ## -remarks
+
+
 An SD card driver should call this routine from its <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine.
 
 SD card drivers must call this routine to establish communication with the bus driver. On successful completion of this call, the <b>Context</b> member of the structure pointed to by <i>InterfaceStandard</i> will contain a handle that the driver must pass in when calling methods that belong to the retrieved interface. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+
  
 
  

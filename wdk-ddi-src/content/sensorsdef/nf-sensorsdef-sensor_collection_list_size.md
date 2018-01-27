@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 98191F02-E047-41BC-922F-867DED522E59
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SENSOR_COLLECTION_LIST_SIZE
+ms.keywords: SENSOR_COLLECTION_LIST_SIZE function [Sensor Devices], SENSOR_COLLECTION_LIST_SIZE, sensors.sensor_collection_list_size, sensorsdef/SENSOR_COLLECTION_LIST_SIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SENSOR_COLLECTION_LIST_SIZE
-req.alt-loc: Sensorsdef.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Sensorsdef.h
+apiname: 
+-	SENSOR_COLLECTION_LIST_SIZE
+product: Windows
+targetos: Windows
 req.typenames: SENSOR_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SENSOR_COLLECTION_LIST_SIZE function
 
 
-
 ## -description
+
+
 This function returns the size of a <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a> structure. 
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE ULONG SENSOR_COLLECTION_LIST_SIZE(
@@ -55,24 +65,25 @@ FORCEINLINE ULONG SENSOR_COLLECTION_LIST_SIZE(
 
 ## -parameters
 
+
+
+
 ### -param Count [in]
 
 The number of <a href="..\sensorsdef\ns-sensorsdef-sensor_value_pair.md">SENSOR_VALUE_PAIR</a> elements in the <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>.
 
 
 ## -returns
+
+
 The <b>SENSOR_COLLECTION_LIST_SIZE</b> function returns a ULONG value that represents the size of the list of sensor-value pairs.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>
-</dt>
-</dl>
+
  
 
  

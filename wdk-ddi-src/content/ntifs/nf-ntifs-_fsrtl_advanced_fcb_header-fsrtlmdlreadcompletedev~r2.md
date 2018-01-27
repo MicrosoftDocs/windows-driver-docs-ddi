@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6b48327a-885c-418e-b7d1-c3995642cf1c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlMdlReadCompleteDev
+ms.keywords: FsRtlMdlReadCompleteDev routine [Installable File System Drivers], ntifs/FsRtlMdlReadCompleteDev, ifsk.fsrtlmdlreadcompletedev, fsrtlref_76db9e4c-412e-48a6-b2ae-e6877195dd05.xml, FsRtlMdlReadCompleteDev
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlMdlReadCompleteDev
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlMdlReadCompleteDev
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlMdlReadCompleteDev function
 
 
-
 ## -description
+
+
 The <b>FsRtlMdlReadCompleteDev</b> routine completes the read operation that the <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev~r6.md">FsRtlMdlReadDev</a> routine initiated.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlMdlReadCompleteDev(
@@ -55,6 +65,9 @@ BOOLEAN FsRtlMdlReadCompleteDev(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -72,19 +85,23 @@ The device object for the device that contains the file.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The <b>FsRtlMdlReadCompleteDev</b> routine unlocks the pages in cache memory that the <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev~r6.md">FsRtlMdlReadDev</a> routine allocated.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev~r6.md">FsRtlMdlReadDev</a>
-</dt>
-</dl>
+
  
 
  

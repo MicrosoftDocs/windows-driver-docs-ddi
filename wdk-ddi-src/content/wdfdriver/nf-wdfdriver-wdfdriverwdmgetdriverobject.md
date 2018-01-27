@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d9755557-6d5d-4ef0-b868-f05e5b82da78
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDriverWdmGetDriverObject
+ms.keywords: PFN_WDFDRIVERWDMGETDRIVEROBJECT, wdf.wdfdriverwdmgetdriverobject, WdfDriverWdmGetDriverObject, DFDriverObjectRef_f196dc43-394e-4839-a64d-8af756f5a374.xml, wdfdriver/WdfDriverWdmGetDriverObject, WdfDriverWdmGetDriverObject method, kmdf.wdfdriverwdmgetdriverobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfDriverWdmGetDriverObject
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: DriverCreate
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfDriverWdmGetDriverObject
+product: Windows
+targetos: Windows
 req.typenames: WDF_DRIVER_INIT_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WdfDriverWdmGetDriverObject function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfDriverWdmGetDriverObject</b> method retrieves a pointer to the Windows Driver Model (WDM) driver object that is associated with a specified framework driver object.
 
 
-
 ## -syntax
+
 
 ````
 PDRIVER_OBJECT WdfDriverWdmGetDriverObject(
@@ -57,33 +68,36 @@ PDRIVER_OBJECT WdfDriverWdmGetDriverObject(
 
 ## -parameters
 
+
+
+
 ### -param Driver [in]
 
 A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a> or <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>.
 
 
 ## -returns
+
+
 <b>WdfDriverWdmGetDriverObject</b> returns a pointer to a <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure. A system bug check occurs if the <i>Driver</i> handle is invalid.
 
 
+
 ## -remarks
+
+
 The pointer that the <b>WdfDriverWdmGetDriverObject</b> method returns is valid until the framework driver object is deleted. If the driver provides an <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> function for the framework driver object, the pointer is valid until the callback function returns.
 
-The following code example obtains a pointer to the WDM driver object that is associated with a specified framework driver object.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-</dt>
-<dt>
+
 <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
 <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
-</dt>
-</dl>
+
  
 
  

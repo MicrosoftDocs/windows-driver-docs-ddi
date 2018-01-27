@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 484406a5-54be-49fa-839a-2e55747020f4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_QUERYADAPTERINFO, D3DDDICB_QUERYADAPTERINFO
+ms.keywords: D3DDDICB_QUERYADAPTERINFO structure [Display Devices], D3D_param_Structs_24ed4d09-d2ff-4b79-95fc-5a1c7d146faa.xml, D3DDDICB_QUERYADAPTERINFO, d3dumddi/D3DDDICB_QUERYADAPTERINFO, display.d3dddicb_queryadapterinfo, _D3DDDICB_QUERYADAPTERINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_QUERYADAPTERINFO
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_QUERYADAPTERINFO
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_QUERYADAPTERINFO
 ---
 
 # _D3DDDICB_QUERYADAPTERINFO structure
 
 
-
 ## -description
+
+
 The D3DDDICB_QUERYADAPTERINFO structure contains information that describes the graphics adapter.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_QUERYADAPTERINFO {
@@ -55,6 +65,9 @@ typedef struct _D3DDDICB_QUERYADAPTERINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field pPrivateDriverData
 
 [out] A pointer to a buffer that the display miniport driver can fill with information about the graphics adapter.
@@ -65,15 +78,10 @@ typedef struct _D3DDDICB_QUERYADAPTERINFO {
 [in/out] The size, in bytes, of the buffer that <b>pPrivateDriverData</b> points to.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryadapterinfocb.md">pfnQueryAdapterInfoCb</a>
-</dt>
-</dl>
+
  
 
  

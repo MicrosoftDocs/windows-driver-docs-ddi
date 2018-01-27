@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 1af0c877-e634-474e-9b4d-a28991fb3f66
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _PCI_EXPRESS_ROOT_ERROR_STATUS, PCI_EXPRESS_ROOT_ERROR_STATUS, *PPCI_EXPRESS_ROOT_ERROR_STATUS
+ms.keywords: PCI_EXPRESS_ROOT_ERROR_STATUS, wdm/PCI_EXPRESS_ROOT_ERROR_STATUS, _PCI_EXPRESS_ROOT_ERROR_STATUS, *PPCI_EXPRESS_ROOT_ERROR_STATUS, pci_struct_8b730780-dc4a-4873-8efd-fb6df47f7c8f.xml, PPCI_EXPRESS_ROOT_ERROR_STATUS union pointer [Buses], wdm/PPCI_EXPRESS_ROOT_ERROR_STATUS, PPCI_EXPRESS_ROOT_ERROR_STATUS, PCI_EXPRESS_ROOT_ERROR_STATUS union [Buses], PCI.pci_express_root_error_status
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PCI_EXPRESS_ROOT_ERROR_STATUS
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: PCI_EXPRESS_ROOT_ERROR_STATUS, *PPCI_EXPRESS_ROOT_ERROR_STATUS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	PCI_EXPRESS_ROOT_ERROR_STATUS
+product: Windows
+targetos: Windows
+req.typenames: *PPCI_EXPRESS_ROOT_ERROR_STATUS, PCI_EXPRESS_ROOT_ERROR_STATUS
 req.product: Windows 10 or later.
 ---
 
 # _PCI_EXPRESS_ROOT_ERROR_STATUS structure
 
 
-
 ## -description
+
+
 The PCI_EXPRESS_ROOT_ERROR_STATUS structure describes a PCI Express (PCIe) root error status register of a PCIe advanced error reporting capability structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _PCI_EXPRESS_ROOT_ERROR_STATUS {
@@ -66,49 +76,57 @@ typedef union _PCI_EXPRESS_ROOT_ERROR_STATUS {
 
 ## -struct-fields
 
-### -field CorrectableErrorReceived
-
-A single bit that indicates that a correctable error message has been received.
 
 
-### -field MultipleCorrectableErrorsReceived
 
-A single bit that indicates that multiple correctable error messages have been received.
+### -field DUMMYSTRUCTNAME
 
-
-### -field UncorrectableErrorReceived
-
-A single bit that indicates that an uncorrectable error message has been received.
+ 
 
 
-### -field MultipleUncorrectableErrorsReceived
+### -field DUMMYSTRUCTNAME.CorrectableErrorReceived
 
-A single bit that indicates that multiple uncorrectable error messages have been received.
-
-
-### -field FirstUncorrectableFatal
-
-A single bit that indicates that the first uncorrectable error message that was received was for a fatal error.
+ 
 
 
-### -field NonFatalErrorMessagesReceived
+### -field DUMMYSTRUCTNAME.MultipleCorrectableErrorsReceived
 
-A single bit that indicates that one or more non-fatal uncorrectable error messages have been received.
-
-
-### -field FatalErrorMessagesReceived
-
-A single bit that indicates that one or more non-fatal uncorrectable error messages have been received.
+ 
 
 
-### -field Reserved
+### -field DUMMYSTRUCTNAME.UncorrectableErrorReceived
 
-Reserved.
+ 
 
 
-### -field AdvancedErrorInterruptMessageNumber
+### -field DUMMYSTRUCTNAME.MultipleUncorrectableErrorsReceived
 
-The MSI/MSI-X vector that is used for the interrupt messages that are generated in association with any of the status bits of the advanced error reporting capability.
+ 
+
+
+### -field DUMMYSTRUCTNAME.FirstUncorrectableFatal
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.NonFatalErrorMessagesReceived
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.FatalErrorMessagesReceived
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Reserved
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.AdvancedErrorInterruptMessageNumber
+
+ 
 
 
 ### -field AsULONG
@@ -116,18 +134,64 @@ The MSI/MSI-X vector that is used for the interrupt messages that are generated 
 A ULONG representation of the contents of the PCI_EXPRESS_ROOT_ERROR_STATUS structure.
 
 
+#### - CorrectableErrorReceived
+
+A single bit that indicates that a correctable error message has been received.
+
+
+#### - Reserved
+
+Reserved.
+
+
+#### - NonFatalErrorMessagesReceived
+
+A single bit that indicates that one or more non-fatal uncorrectable error messages have been received.
+
+
+#### - AdvancedErrorInterruptMessageNumber
+
+The MSI/MSI-X vector that is used for the interrupt messages that are generated in association with any of the status bits of the advanced error reporting capability.
+
+
+#### - FatalErrorMessagesReceived
+
+A single bit that indicates that one or more non-fatal uncorrectable error messages have been received.
+
+
+#### - MultipleCorrectableErrorsReceived
+
+A single bit that indicates that multiple correctable error messages have been received.
+
+
+#### - FirstUncorrectableFatal
+
+A single bit that indicates that the first uncorrectable error message that was received was for a fatal error.
+
+
+#### - UncorrectableErrorReceived
+
+A single bit that indicates that an uncorrectable error message has been received.
+
+
+#### - MultipleUncorrectableErrorsReceived
+
+A single bit that indicates that multiple uncorrectable error messages have been received.
+
+
 ## -remarks
+
+
 The PCI_EXPRESS_ROOT_ERROR_STATUS structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_ROOT_ERROR_STATUS structure is contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
-</dt>
-</dl>
+
  
 
  

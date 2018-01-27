@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6d5aa608-9ee7-45a6-bd2f-13a5b8338437
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ScsiReadCapacity_IN, *PScsiReadCapacity_IN, ScsiReadCapacity_IN
+ms.keywords: _ScsiReadCapacity_IN, PScsiReadCapacity_IN structure pointer [Storage Devices], PScsiReadCapacity_IN, hbapiwmi/ScsiReadCapacity_IN, ScsiReadCapacity_IN structure [Storage Devices], hbapiwmi/PScsiReadCapacity_IN, storage.scsireadcapacity_in2, ScsiReadCapacity_IN, *PScsiReadCapacity_IN, structs-Fibre_235165a1-b938-461a-9e4d-f555eae34119.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ScsiReadCapacity_IN
-req.alt-loc: Hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Hbapiwmi.h
+apiname: 
+-	ScsiReadCapacity_IN
+product: Windows
+targetos: Windows
 req.typenames: *PScsiReadCapacity_IN, ScsiReadCapacity_IN
 ---
 
 # _ScsiReadCapacity_IN structure
 
 
-
 ## -description
+
+
 The ScsiReadCapacity_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a> WMI method. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ScsiReadCapacity_IN {
@@ -56,6 +66,9 @@ typedef struct _ScsiReadCapacity_IN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Cdb
 
@@ -78,15 +91,16 @@ Indicates the logical unit number of the logical unit that will receive the SCSI
 
 
 ## -remarks
+
+
 The WMI tool suite generates a declaration of the ScsiReadCapacity_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
-</dt>
-</dl>
+
  
 
  

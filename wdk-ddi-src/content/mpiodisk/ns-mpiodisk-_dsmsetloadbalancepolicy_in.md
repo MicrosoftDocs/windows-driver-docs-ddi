@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1a249c0e-1b8d-4c50-9b01-03bfe84e0937
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DsmSetLoadBalancePolicy_IN, DsmSetLoadBalancePolicy_IN, *PDsmSetLoadBalancePolicy_IN
+ms.keywords: DsmSetLoadBalancePolicy_IN structure [Storage Devices], DsmSetLoadBalancePolicy_IN, storage.dsmsetloadbalancepolicy_in, _DsmSetLoadBalancePolicy_IN, PDsmSetLoadBalancePolicy_IN structure pointer [Storage Devices], PDsmSetLoadBalancePolicy_IN, mpiodisk/PDsmSetLoadBalancePolicy_IN, mpiodisk/DsmSetLoadBalancePolicy_IN, structs-scsibus_f8d1e2b3-b630-45df-91f7-d564910f83d0.xml, *PDsmSetLoadBalancePolicy_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DsmSetLoadBalancePolicy_IN
-req.alt-loc: mpiodisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mpiodisk.h
+apiname: 
+-	DsmSetLoadBalancePolicy_IN
+product: Windows
+targetos: Windows
 req.typenames: DsmSetLoadBalancePolicy_IN, *PDsmSetLoadBalancePolicy_IN
 ---
 
 # _DsmSetLoadBalancePolicy_IN structure
 
 
-
 ## -description
+
+
 The DsmSetLoadBalancePolicy_IN structure provides an input parameter to the DsmSetLoadBalancePolicy method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DsmSetLoadBalancePolicy_IN {
@@ -54,9 +64,10 @@ typedef struct _DsmSetLoadBalancePolicy_IN {
 
 ## -struct-fields
 
+
+
+
 ### -field LoadBalancePolicy
 
 A structure of type DSM_Load_Balance_Policy.
 
-
-## -remarks

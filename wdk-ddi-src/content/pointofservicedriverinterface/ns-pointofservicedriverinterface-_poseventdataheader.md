@@ -7,8 +7,8 @@ old-location: pos\posbarcodescannerimageprevieweventdata.htm
 old-project: pos
 ms.assetid: dc542e81-9078-4e14-8c8d-9cfaeb5b5495
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _PosEventDataHeader, PosBarcodeScannerImagePreviewEventData, PosEventDataHeader
+ms.date: 1/18/2018
+ms.keywords: PosBarcodeScannerImagePreviewEventData, _PosEventDataHeader, pointofservicedriverinterface/PosBarcodeScannerImagePreviewEventData, PosBarcodeScannerImagePreviewEventData structure, PosEventDataHeader structure, PosEventDataHeader, pos.posbarcodescannerimageprevieweventdata, pointofservicedriverinterface/PosEventDataHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PosEventDataHeader
-req.alt-loc: PointOfServiceDriverInterface.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	PointOfServiceDriverInterface.h
+apiname: 
+-	PosEventDataHeader
+product: Windows
+targetos: Windows
 req.typenames: PosBarcodeScannerImagePreviewEventData, PosEventDataHeader
 ---
 
 # _PosEventDataHeader structure
 
 
-
 ## -description
+
+
 This structure describes the scanned image data that is passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn757466">BarcodeScannerImagePreviewReceived</a> event.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PosEventDataHeader {
@@ -54,6 +64,9 @@ typedef struct _PosEventDataHeader {
 
 
 ## -struct-fields
+
+
+
 
 ### -field EventType
 
@@ -66,4 +79,8 @@ The length, in bytes, of the image preview data.
 
 
 ## -remarks
-The image preview bitmap data immediately follows after this structure in memory for <i>DataLength</i> bytes.</p>
+
+
+The image preview bitmap data immediately follows after this structure in memory for <i>DataLength</i> bytes.
+
+

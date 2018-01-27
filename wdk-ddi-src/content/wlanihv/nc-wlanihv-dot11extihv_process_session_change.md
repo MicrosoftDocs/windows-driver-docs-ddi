@@ -7,8 +7,8 @@ old-location: netvista\dot11extihvprocesssessionchange.htm
 old-project: netvista
 ms.assetid: 17d5ab30-141a-4b7b-93f1-113fb1a39ba6
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W, DRIVER_INFO_8W, DRIVER_INFO_8
+ms.date: 1/18/2018
+ms.keywords: netvista.dot11extihvprocesssessionchange, Dot11ExtIhvProcessSessionChange callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvProcessSessionChange, DOT11EXTIHV_PROCESS_SESSION_CHANGE, DOT11EXTIHV_PROCESS_SESSION_CHANGE, wlanihv/Dot11ExtIhvProcessSessionChange, Native_802.11_IHV_Ext_158881c6-a8ae-4155-a2e6-549a47c3fce1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: Dot11ExtIhvProcessSessionChange
-req.alt-loc: wlanihv.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,17 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W, DRIVER_INFO_8W
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	wlanihv.h
+apiname: 
+-	Dot11ExtIhvProcessSessionChange
+product: Windows
+targetos: Windows
+req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
 # DOT11EXTIHV_PROCESS_SESSION_CHANGE callback
 
 
-
 ## -description
 
+
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the 
+  <i>Dot11ExtIhvProcessSessionChange</i> function to notify the IHV Extensions DLL of a session change
+  event.
+
+
 ## -prototype
+
 
 ````
 DOT11EXTIHV_PROCESS_SESSION_CHANGE Dot11ExtIhvProcessSessionChange;
@@ -56,11 +71,13 @@ DWORD APIENTRY Dot11ExtIhvProcessSessionChange(
 
 ## -parameters
 
+
+
+
 ### -param uEventType [in]
 
 The type of event. This parameter can have one of the following values.
      
-
 <table>
 <tr>
 <th>Value</th>
@@ -158,8 +175,7 @@ A session has changed its remote controlled status. To determine the status, cal
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param pSessionNotification [in]
@@ -170,16 +186,23 @@ A pointer to a WTSSESSION_NOTIFICATION structure, which provides information abo
 
 
 ## -returns
+
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
+
 ## -remarks
+
+
 The operating system calls the function to notify the IHV Extensions DLL whenever a switch in a user
     session occurs.
 
 If the 
     <i>uEventType</i> parameter is set to WTS_SESSION_LOGOFF, the IHV Extensions DLL must cancel all pending
     user interface requests internally and must release any allocated resources for the user interface
-    requests.</p>
+    requests.
+
+

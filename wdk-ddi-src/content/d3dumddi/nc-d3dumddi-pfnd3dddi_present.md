@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e90683b4-64b6-4018-96a5-b50118df3367
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.present, Present callback function [Display Devices], Present, PFND3DDDI_PRESENT, PFND3DDDI_PRESENT, d3dumddi/Present, UserModeDisplayDriver_Functions_186fad4e-6231-4851-94ad-7296653832cc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: Present
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	Present
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_PRESENT callback
 
 
-
 ## -description
+
+
 The <i>Present</i> function notifies the user-mode display driver that an application finished rendering and requests that the driver display the source surface by either copying or flipping or that the driver perform a color-fill operation. 
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_PRESENT Present;
@@ -58,29 +68,64 @@ __checkReturn HRESULT APIENTRY Present(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param pData [in]
+### -param *
+
+
+
+
+
+
+#### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_present.md">D3DDDIARG_PRESENT</a> structure that describes the resource to display.
 
 
 ## -returns
+
+
 <i>Present</i> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The resource is successfully displayed.
+</dl>
+</td>
+<td width="60%">
+The resource is successfully displayed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_OUTOFMEMORY</b></dt>
-</dl><i>Present</i> could not allocate the required memory for it to complete.
+</dl>
+</td>
+<td width="60%">
+<i>Present</i> could not allocate the required memory for it to complete.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The Microsoft Direct3D runtime calls the user-mode display driver's <i>Present</i> function to notify the user-mode display driver that an application finished rendering and to request that the driver display out the source surface or that the driver perform a color-fill operation. If the <b>hSrcResource</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_present.md">D3DDDIARG_PRESENT</a> structure that the <i>pData</i> parameter points to is non-<b>NULL</b>, <i>Present</i> requests that the user-mode display driver display new content to the screen; if <b>hSrcResource</b> is <b>NULL</b>, <i>Present</i> requests that the user-mode display driver perform a color-fill operation to the screen. 
 
 If the <b>hDstResource</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_present.md">D3DDDIARG_PRESENT</a> structure is <b>NULL</b>, the destination surface is unknown. In addition, the destination surface and a list of clipping rectangles are determined in kernel mode before sending the hardware command stream through DMA to the graphics processor. 
@@ -92,27 +137,21 @@ If the <b>hDstResource</b> member of D3DDDIARG_PRESENT is non-<b>NULL</b>, the d
 If a user-mode display driver exposes a DDI version of less than 0x0000000C (the driver returns this value in the <b>DriverVersion</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openadapter.md">D3D10DDIARG_OPENADAPTER</a> structure in a call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openadapter.md">OpenAdapter</a> function), the Direct3D runtime first calls the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a> function to submit any outstanding hardware commands in the command buffer before the runtime calls the user-mode display driver's <i>Present</i> function. In this way, the user-mode display driver's <i>Present</i> function is serialized with render operations (that is, calls to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a> function). If a user-mode display driver exposes a DDI version of 0x0000000C or greater and the calling application runs in windowed mode, the runtime also calls <i>Flush</i> before it calls <i>Present</i>. If a user-mode display driver exposes a DDI version of 0x0000000C or greater and the calling application runs in full-screen mode, the runtime will not call <i>Flush</i> before it calls <i>Present</i>. This behavior allows drivers that implement their own threading to queue present calls. A driver that exposes a DDI version of 0x0000000C or greater must call <b>pfnRenderCb</b> to internally flush any outstanding command buffers before the driver calls the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_presentcb.md">pfnPresentCb</a> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_present.md">D3DDDIARG_PRESENT</a>
-</dt>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
-</dt>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_present.md">D3DDDIARG_PRESENT</a>
+
  
 
  

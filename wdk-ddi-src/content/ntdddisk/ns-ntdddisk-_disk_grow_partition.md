@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cab9877c-3b7b-4644-83eb-0aa1e9fc77b9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DISK_GROW_PARTITION, *PDISK_GROW_PARTITION, DISK_GROW_PARTITION
+ms.keywords: DISK_GROW_PARTITION structure [Storage Devices], PDISK_GROW_PARTITION, structs-disk_cc7d52cd-b0b6-4e5c-a323-6d513f37e602.xml, DISK_GROW_PARTITION, ntdddisk/DISK_GROW_PARTITION, PDISK_GROW_PARTITION structure pointer [Storage Devices], _DISK_GROW_PARTITION, storage.disk_grow_partition, *PDISK_GROW_PARTITION, ntdddisk/PDISK_GROW_PARTITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DISK_GROW_PARTITION
-req.alt-loc: ntdddisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PDISK_GROW_PARTITION, DISK_GROW_PARTITION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntdddisk.h
+apiname: 
+-	DISK_GROW_PARTITION
+product: Windows
+targetos: Windows
+req.typenames: DISK_GROW_PARTITION, *PDISK_GROW_PARTITION
 ---
 
 # _DISK_GROW_PARTITION structure
 
 
-
 ## -description
+
+
 The DISK_GROW_PARTITION structure is used in conjunction with the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_grow_partition.md">IOCTL_DISK_GROW_PARTITION</a> request to enlarge a partition. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DISK_GROW_PARTITION {
@@ -55,6 +65,9 @@ typedef struct _DISK_GROW_PARTITION {
 
 ## -struct-fields
 
+
+
+
 ### -field PartitionNumber
 
 Specifies a number identifying the partition to be enlarged.
@@ -65,15 +78,10 @@ Specifies a number identifying the partition to be enlarged.
 Indicates the number of bytes that the partition should be extended by. Note that this value is not the new size of the partition.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_grow_partition.md">IOCTL_DISK_GROW_PARTITION</a>
-</dt>
-</dl>
+
  
 
  

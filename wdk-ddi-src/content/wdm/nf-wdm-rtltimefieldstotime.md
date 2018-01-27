@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5873b627-6ef4-4e2c-8a53-921f37b729bc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlTimeFieldsToTime
+ms.keywords: k109_9b5d67de-92c3-4fb7-bcd7-4e045ae9ada4.xml, RtlTimeFieldsToTime routine [Kernel-Mode Driver Architecture], RtlTimeFieldsToTime, kernel.rtltimefieldstotime, wdm/RtlTimeFieldsToTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlTimeFieldsToTime
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (See Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlTimeFieldsToTime
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RtlTimeFieldsToTime function
 
 
-
 ## -description
+
+
 The <b>RtlTimeFieldsToTime</b> routine converts <b>TIME_FIELDS</b> information to a system time value.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN RtlTimeFieldsToTime(
@@ -56,10 +66,12 @@ BOOLEAN RtlTimeFieldsToTime(
 
 ## -parameters
 
+
+
+
 ### -param TimeFields [in]
 
 Pointer to the following structure, containing the time information to be converted:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -81,79 +93,77 @@ Pointer to the following structure, containing the time information to be conver
 </table></span></div>
 
 
-
-### -param Year
-
-Specifies a value from 1601 on.
-
-
-### -param Month
-
-Specifies a value from 1 to 12.
-
-
-### -param Day
-
-Specifies a value from 1 to 31.
-
-
-### -param Hour
-
-Specifies a value from 0 to 23.
-
-
-### -param Minute
-
-Specifies a value from 0 to 59.
-
-
-### -param Second
-
-Specifies a value from 0 to 59.
-
-
-### -param Milliseconds
-
-Specifies a value from 0 to 999.
-
-
-### -param Weekday
-
-Specifies a value from 0 to 6 (Sunday to Saturday). 
-
-</dd>
-</dl>
-
 ### -param Time [out]
 
 Pointer to a buffer, which is to contain the converted system time value as a large integer. 
 
 
+##### - TimeFields.Hour
+
+Specifies a value from 0 to 23.
+
+
+##### - TimeFields.Weekday
+
+Specifies a value from 0 to 6 (Sunday to Saturday). 
+
+
+##### - TimeFields.Milliseconds
+
+Specifies a value from 0 to 999.
+
+
+##### - TimeFields.Day
+
+Specifies a value from 1 to 31.
+
+
+##### - TimeFields.Month
+
+Specifies a value from 1 to 12.
+
+
+##### - TimeFields.Year
+
+Specifies a value from 1601 on.
+
+
+##### - TimeFields.Second
+
+Specifies a value from 0 to 59.
+
+
+##### - TimeFields.Minute
+
+Specifies a value from 0 to 59.
+
+
 ## -returns
+
+
 <b>RtlTimeFieldsToTime</b> returns <b>TRUE</b> if the input <i>TimeFields</i> data was successfully converted.
 
 
+
 ## -remarks
+
+
 <b>RtlTimeFieldsToTime</b> ignores the <b>Weekday</b> value in <i>TimeFields</i>.
 
 Callers of <b>RtlTimeFieldsToTime</b> can be running at any IRQL if both input buffers are resident.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-exlocaltimetosystemtime.md">ExLocalTimeToSystemTime</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-exlocaltimetosystemtime.md">ExLocalTimeToSystemTime</a>
+
 <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtltimetotimefields.md">RtlTimeToTimeFields</a>
-</dt>
-</dl>
+
  
 
  

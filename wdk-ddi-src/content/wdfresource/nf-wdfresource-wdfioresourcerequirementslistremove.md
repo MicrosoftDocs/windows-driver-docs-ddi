@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3668aa5a-1cb4-4ee1-91bd-bf2f3fa30622
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoResourceRequirementsListRemove
+ms.keywords: DFResourceObjectRef_7f7c29e8-231a-48ec-b4e3-01989ad994b0.xml, wdf.wdfioresourcerequirementslistremove, PFN_WDFIORESOURCEREQUIREMENTSLISTREMOVE, WdfIoResourceRequirementsListRemove method, kmdf.wdfioresourcerequirementslistremove, WdfIoResourceRequirementsListRemove, wdfresource/WdfIoResourceRequirementsListRemove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfIoResourceRequirementsListRemove
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfIoResourceRequirementsListRemove
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WdfIoResourceRequirementsListRemove function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfIoResourceRequirementsListRemove</b> method removes a <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">logical configuration</a> from a resource requirements list.
 
 
-
 ## -syntax
+
 
 ````
 VOID WdfIoResourceRequirementsListRemove(
@@ -57,6 +68,9 @@ VOID WdfIoResourceRequirementsListRemove(
 
 
 ## -parameters
+
+
+
 
 ### -param RequirementsList [in]
 
@@ -69,27 +83,29 @@ A zero-based value that is used as an index into the resource requirements list 
 
 
 ## -returns
+
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
+
 ## -remarks
+
+
 The <b>WdfIoResourceRequirementsListRemove</b> method removes the logical configuration that is associated with the index value that the <i>Index</i> parameter specifies.
 
 When <b>WdfIoResourceRequirementsListRemove</b> removes the logical configuration that has the index value <i>n</i>, the index value of the next logical configuration changes from <i>n</i>+1 to <i>n</i>.
 
 For more information about resource requirements lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
-The following code example removes the second logical configuration from a resource requirements list.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistremovebyioreslist.md">WdfIoResourceRequirementsListRemoveByIoResList</a>
-</dt>
-</dl>
+
  
 
  

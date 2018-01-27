@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A6FFC14B-0736-425F-A923-DFF54494887C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportAudioEngineNode, IMiniportAudioEngineNode::SetDeviceFormat, SetDeviceFormat
+ms.keywords: portcls/IMiniportAudioEngineNode::SetDeviceFormat, SetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode::SetDeviceFormat, SetDeviceFormat, SetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], SetDeviceFormat method, audio.iminiportaudioenginenode_setdeviceformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportAudioEngineNode.SetDeviceFormat
-req.alt-loc: Portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Portcls.h
+apiname: 
+-	IMiniportAudioEngineNode.SetDeviceFormat
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportAudioEngineNode::SetDeviceFormat method
 
 
-
 ## -description
+
+
 Sets the audio data format for an audio device.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SetDeviceFormat(
@@ -55,6 +65,9 @@ NTSTATUS SetDeviceFormat(
 
 
 ## -parameters
+
+
+
 
 ### -param ulNodeId [in]
 
@@ -72,23 +85,20 @@ The audio data buffer size.
 
 
 ## -returns
+
+
 <b>SetDeviceFormat</b> returns S_OK, if the call was successful. Otherwise, the method 
 
 returns an appropriate error code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a>
-</dt>
-</dl>
+
  
 
  

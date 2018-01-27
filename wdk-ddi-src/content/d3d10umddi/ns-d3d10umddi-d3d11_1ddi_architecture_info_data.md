@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 262d511d-2846-415d-b1b8-2687f12f9f78
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_ARCHITECTURE_INFO_DATA, D3D11_1DDI_ARCHITECTURE_INFO_DATA
+ms.keywords: display.d3d11_1ddi_architecture_info_data, d3d10umddi/D3D11_1DDI_ARCHITECTURE_INFO_DATA, D3D11_1DDI_ARCHITECTURE_INFO_DATA, D3D11_1DDI_ARCHITECTURE_INFO_DATA structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDI_ARCHITECTURE_INFO_DATA
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D11_1DDI_ARCHITECTURE_INFO_DATA
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_ARCHITECTURE_INFO_DATA
 ---
 
 # D3D11_1DDI_ARCHITECTURE_INFO_DATA structure
 
 
-
 ## -description
+
+
 Describes information about display adapter architecture.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D11_1DDI_ARCHITECTURE_INFO_DATA {
@@ -54,9 +64,10 @@ typedef struct D3D11_1DDI_ARCHITECTURE_INFO_DATA {
 
 ## -struct-fields
 
+
+
+
 ### -field TileBasedDeferredRenderer
 
 Specifies whether a rendering device batches rendering commands and performs multipass rendering into tiles or bins over a render area. The value is <b>TRUE</b> if the rendering device batches rendering commands and <b>FALSE</b> otherwise.
 
-
-## -remarks

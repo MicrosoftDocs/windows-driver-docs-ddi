@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bf5e53fa-bafd-4325-be8e-97d1c6aa334e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_TARGETMODE_DETAIL_TIMING, DXGK_TARGETMODE_DETAIL_TIMING
+ms.keywords: _DXGK_TARGETMODE_DETAIL_TIMING, DmStructs_e09b214e-5cd4-430e-b5ba-ece083bbb71c.xml, display.dxgk_targetmode_detail_timing, DXGK_TARGETMODE_DETAIL_TIMING structure [Display Devices], d3dkmdt/DXGK_TARGETMODE_DETAIL_TIMING, DXGK_TARGETMODE_DETAIL_TIMING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_TARGETMODE_DETAIL_TIMING
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	DXGK_TARGETMODE_DETAIL_TIMING
+product: Windows
+targetos: Windows
 req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 ---
 
 # _DXGK_TARGETMODE_DETAIL_TIMING structure
 
 
-
 ## -description
+
+
 The DXGK_TARGETMODE_DETAIL_TIMING structure describes a video present target's additional timing modes that are compatible with the display device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_TARGETMODE_DETAIL_TIMING {
@@ -55,6 +65,9 @@ typedef struct _DXGK_TARGETMODE_DETAIL_TIMING {
 
 
 ## -struct-fields
+
+
+
 
 ### -field VideoStandard
 
@@ -71,18 +84,12 @@ typedef struct _DXGK_TARGETMODE_DETAIL_TIMING {
 [in] A <a href="..\d3dkmdt\ns-d3dkmdt-_displayid_detailed_timing_type_i.md">DISPLAYID_DETAILED_TIMING_TYPE_I</a>-typed value that indicates the target mode data for a video present target.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_signal_standard.md">D3DKMDT_VIDEO_SIGNAL_STANDARD</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_displayid_detailed_timing_type_i.md">DISPLAYID_DETAILED_TIMING_TYPE_I</a>
-</dt>
-</dl>
+
  
 
  

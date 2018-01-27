@@ -7,8 +7,8 @@ old-location: print\iprintcorehelperuni_createinstanceofmsxmlobject.htm
 old-project: print
 ms.assetid: 801ad433-4d52-4947-93f5-a11521a4df18
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IPrintCoreHelperUni, IPrintCoreHelperUni::CreateInstanceOfMSXMLObject, CreateInstanceOfMSXMLObject
+ms.date: 1/18/2018
+ms.keywords: print.iprintcorehelperuni_createinstanceofmsxmlobject, CreateInstanceOfMSXMLObject, print_unidrv-pscript_allplugins_b6f2207a-4289-4a1f-ae2d-accc80c68a79.xml, prcomoem/IPrintCoreHelperUni::CreateInstanceOfMSXMLObject, IPrintCoreHelperUni interface [Print Devices], CreateInstanceOfMSXMLObject method, IPrintCoreHelperUni::CreateInstanceOfMSXMLObject, CreateInstanceOfMSXMLObject method [Print Devices], IPrintCoreHelperUni interface, IPrintCoreHelperUni, CreateInstanceOfMSXMLObject method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPrintCoreHelperUni.CreateInstanceOfMSXMLObject
-req.alt-loc: Prcomoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Prcomoem.h
+apiname: 
+-	IPrintCoreHelperUni.CreateInstanceOfMSXMLObject
+product: Windows
+targetos: Windows
+req.typenames: *POEMPTOPTS, OEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
 # IPrintCoreHelperUni::CreateInstanceOfMSXMLObject method
 
 
-
 ## -description
+
+
 The <code>IPrintCoreHelperUni::CreateInstanceOfMSXMLObject</code> method creates an instance of an MSXML object. 
 
 
-
 ## -syntax
+
 
 ````
 STDMETHOD CreateInstanceOfMSXMLObject(
@@ -58,6 +68,9 @@ STDMETHOD CreateInstanceOfMSXMLObject(
 
 
 ## -parameters
+
+
+
 
 ### -param rclsid [in]
 
@@ -85,21 +98,58 @@ A pointer to a memory address that receives the address of the interface that is
 
 
 ## -returns
+
+
 <code>IPrintCoreHelperUni::CreateInstanceOfMSXMLObject</code> should return one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>An instance of the specified object class was successfully created.
+</dl>
+</td>
+<td width="60%">
+An instance of the specified object class was successfully created.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>CLASS_E_NOAGGREGATION</b></dt>
-</dl>The specified class cannot be created as part of an aggregate.
+</dl>
+</td>
+<td width="60%">
+The specified class cannot be created as part of an aggregate.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_NOINTERFACE</b></dt>
-</dl>The specified class does not implement the requested interface, or the controlling <b>IUnknown</b> interface does not expose the requested interface.
+</dl>
+</td>
+<td width="60%">
+The specified class does not implement the requested interface, or the controlling <b>IUnknown</b> interface does not expose the requested interface.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>REGDB_E_CLASSNOTREG</b></dt>
-</dl>A specified class is not registered in the registration database. This value can also indicate that the type of server you requested in the CLSCTX enumeration type is not registered or the values for the server types in the registry are corrupt.
+</dl>
+</td>
+<td width="60%">
+A specified class is not registered in the registration database. This value can also indicate that the type of server you requested in the CLSCTX enumeration type is not registered or the values for the server types in the registry are corrupt.
 
- 
+</td>
+</tr>
+</table> 
 
 
-## -remarks

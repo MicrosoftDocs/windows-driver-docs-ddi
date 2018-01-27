@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7e224009-dccb-41e5-99e8-01f1479aa79f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_FLIPOVERLAY, D3DKMT_FLIPOVERLAY
+ms.keywords: OpenGL_Structs_a7694ad8-b12e-41ad-b7e3-159d26fe2f41.xml, D3DKMT_FLIPOVERLAY, _D3DKMT_FLIPOVERLAY, display.d3dkmt_flipoverlay, D3DKMT_FLIPOVERLAY structure [Display Devices], d3dkmthk/D3DKMT_FLIPOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_FLIPOVERLAY
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_FLIPOVERLAY
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_FLIPOVERLAY
 ---
 
 # _D3DKMT_FLIPOVERLAY structure
 
 
-
 ## -description
+
+
 The D3DKMT_FLIPOVERLAY structure describes a new allocation to display for the overlay. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_FLIPOVERLAY {
@@ -57,6 +67,9 @@ typedef struct _D3DKMT_FLIPOVERLAY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -83,15 +96,10 @@ typedef struct _D3DKMT_FLIPOVERLAY {
 [in] The size, in bytes, of the block of private data that <b>pPrivateDriverData</b> points to.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtflipoverlay.md">D3DKMTFlipOverlay</a>
-</dt>
-</dl>
+
  
 
  

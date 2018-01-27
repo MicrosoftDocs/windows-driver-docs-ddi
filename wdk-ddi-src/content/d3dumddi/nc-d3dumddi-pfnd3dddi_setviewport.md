@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ef0847a3-d4f5-4a9e-a041-1b8f8523fdf7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.setviewport, SetViewport callback function [Display Devices], SetViewport, PFND3DDDI_SETVIEWPORT, PFND3DDDI_SETVIEWPORT, d3dumddi/SetViewport, UserModeDisplayDriver_Functions_6b0d00a2-6316-4ac0-878c-e8554e92ef57.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetViewport
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	SetViewport
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_SETVIEWPORT callback
 
 
-
 ## -description
+
+
 The <i>SetViewport</i> function informs guard-band-aware drivers of the view-clipping rectangle.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_SETVIEWPORT SetViewport;
@@ -58,32 +68,39 @@ __checkReturn HRESULT APIENTRY SetViewport(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param pData [in]
+### -param *
+
+
+
+
+
+
+#### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_viewportinfo.md">D3DDDIARG_VIEWPORTINFO</a> structure that describes the view-clipping rectangle.
 
 
 ## -returns
+
+
 <i>SetViewport</i> returns S_OK or an appropriate error result if the driver is not successfully informed about the view-clipping rectangle.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_viewportinfo.md">D3DDDIARG_VIEWPORTINFO</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-</dt>
-</dl>
+
  
 
  

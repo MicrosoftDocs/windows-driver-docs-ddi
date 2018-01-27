@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cab12c57-dd2b-4453-90ed-7f8954e0fe5d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerSetPosition
+ms.keywords: ChangerSetPosition, mcd/ChangerSetPosition, chgrmini_28455ca6-3f1f-40ac-a756-c1f026f35f87.xml, ChangerSetPosition function [Storage Devices], storage.changersetposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ChangerSetPosition
-req.alt-loc: mcd.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mcd.h
+apiname: 
+-	ChangerSetPosition
+product: Windows
+targetos: Windows
 req.typenames: LAMP_INTENSITY_WHITE
 ---
 
 # ChangerSetPosition function
 
 
-
 ## -description
+
+
 <b>ChangerSetPosition</b> handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_position.md">IOCTL_CHANGER_SET_POSITION</a>. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ChangerSetPosition(
@@ -54,6 +64,9 @@ NTSTATUS ChangerSetPosition(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceObject [in]
 
@@ -66,6 +79,8 @@ Pointer to the IRP.
 
 
 ## -returns
+
+
 If the changer supports setting the position of the transport element, <b>ChangerSetPosition</b> returns the status returned by the system port driver, or one of the following values:
       
 
@@ -80,7 +95,10 @@ STATUS_INSUFFICIENT_RESOURCES
 If the changer does not support setting the position of the transport element, ChangerSetPosition returns STATUS_INVALID_DEVICE_REQUEST.
 
 
+
 ## -remarks
+
+
 This routine is required.
 
 <b>ChangerSetPosition</b> sets the changer's robotic transport mechanism to the specified destination, typically to optimize moving or exchanging media by first positioning the transport.
@@ -94,18 +112,15 @@ The changer class driver checks the input buffer length in the I/O stack locatio
 <b>ChangerSetPosition</b> sets the <b>Information</b> field in the I/O status block to <b>sizeof</b>(CHANGER_SET_POSITION) before returning to the changer class driver. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
-</dt>
-<dt>
+
 <a href="..\ntddchgr\ns-ntddchgr-_changer_set_position.md">CHANGER_SET_POSITION</a>
-</dt>
-<dt>
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_position.md">, IOCTL_CHANGER_SET_POSITION</a>
-</dt>
-</dl>
+
  
 
  

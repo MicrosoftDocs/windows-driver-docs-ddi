@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 365253FC-9FC0-4FFF-9D84-503754095327
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
+ms.keywords: _D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE structure [Display Devices], D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, display.d3dkmt_submitwaitforsyncobjectstohwqueue_, d3dkmthk/D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
 ---
 
 # _D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE structure
 
 
-
 ## -description
+
+
 A structure that contains information to submit a wait on the hardware queue.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE  {
@@ -56,6 +66,9 @@ typedef struct _D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE  {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hHwQueue
 
@@ -80,5 +93,3 @@ Handles to monitored fence synchronization objects to wait on.
 Monitored fence values to be waited.
 
 
-
-## -remarks

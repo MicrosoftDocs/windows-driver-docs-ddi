@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9a117c5b-26a4-4fdb-b51e-933b8f105a81
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinReleaseProcessingMutex
+ms.keywords: KsPinReleaseProcessingMutex function [Streaming Media Devices], ks/KsPinReleaseProcessingMutex, KsPinReleaseProcessingMutex, avfunc_22421ea0-8973-4921-a0cb-f1d824f76357.xml, stream.kspinreleaseprocessingmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsPinReleaseProcessingMutex
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsPinReleaseProcessingMutex
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsPinReleaseProcessingMutex function
 
 
-
 ## -description
+
+
 The<b> KsPinReleaseProcessingMutex </b>function releases the processing mutex for the AVStream pin specified by <i>Pin</i>.
 
 
-
 ## -syntax
+
 
 ````
 void KsPinReleaseProcessingMutex(
@@ -54,28 +65,34 @@ void KsPinReleaseProcessingMutex(
 
 ## -parameters
 
+
+
+
 ### -param Pin [in]
 
 A pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure representing the AVStream pin object for which to acquire the processing mutex.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 Minidrivers that must suspend processing for a long time should not use this mutex to do so. Instead, directly manipulate the processing control gate using the <b>KSGATE</b><i>Xxx</i> functions. See links to these functions in <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-kspinacquireprocessingmutex.md">KsPinAcquireProcessingMutex</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-kspinacquireprocessingmutex.md">KsPinAcquireProcessingMutex</a>
+
  
 
  

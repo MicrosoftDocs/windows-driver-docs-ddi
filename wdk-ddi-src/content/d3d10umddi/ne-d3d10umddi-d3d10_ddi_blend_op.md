@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3743db2a-d613-4efb-ae73-80eb1bfd9410
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_DDI_BLEND_OP, D3D10_DDI_BLEND_OP
+ms.keywords: D3D10_DDI_BLEND_OP_SUBTRACT, D3D10_DDI_BLEND_OP, D3D10_DDI_BLEND_OP_ADD, d3d10umddi/D3D10_DDI_BLEND_OP_ADD, d3d10umddi/D3D10_DDI_BLEND_OP_SUBTRACT, d3d10umddi/D3D10_DDI_BLEND_OP_MIN, d3d10umddi/D3D10_DDI_BLEND_OP, UMDisplayDriver_Dx10param_Structs_900c6f2c-fc2a-4982-a91e-b1ea29c5f0e4.xml, D3D10_DDI_BLEND_OP enumeration [Display Devices], D3D10_DDI_BLEND_OP_MAX, D3D10_DDI_BLEND_OP_REV_SUBTRACT, D3D10_DDI_BLEND_OP_MIN, d3d10umddi/D3D10_DDI_BLEND_OP_MAX, d3d10umddi/D3D10_DDI_BLEND_OP_REV_SUBTRACT, display.d3d10_ddi_blend_op
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10_DDI_BLEND_OP
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10_DDI_BLEND_OP
+product: Windows
+targetos: Windows
 req.typenames: D3D10_DDI_BLEND_OP
 ---
 
 # D3D10_DDI_BLEND_OP enumeration
 
 
-
 ## -description
+
+
 The D3D10_DDI_BLEND_OP enumeration type contains values that identify blending operations in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createblendstate.md">CreateBlendState</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D10_DDI_BLEND_OP { 
@@ -57,6 +67,9 @@ typedef enum D3D10_DDI_BLEND_OP {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D10_DDI_BLEND_OP_ADD
 
@@ -83,15 +96,10 @@ The result is the minimum of the source and destination (Result = MIN(Source, De
 The result is the maximum of the source and destination (Result = MAX(Source, Destination)) 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createblendstate.md">CreateBlendState</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B367D0F7-5026-4C88-B88A-69068F76B675
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBFN_DEVICE_STATE, USBFN_DEVICE_STATE, *PUSBFN_DEVICE_STATE
+ms.keywords: UsbfnDeviceStateDetached, USBFN_DEVICE_STATE enumeration [Buses], usbfnbase/UsbfnDeviceStateStateMaximum, UsbfnDeviceStateSuspended, UsbfnDeviceStateAddressed, usbfnbase/USBFN_DEVICE_STATE, UsbfnDeviceStateAttached, UsbfnDeviceStateDefault, _USBFN_DEVICE_STATE, buses.usbfn_device_state, USBFN_DEVICE_STATE, usbfnbase/UsbfnDeviceStateAttached, usbfnbase/UsbfnDeviceStateAddressed, usbfnbase/UsbfnDeviceStateConfigured, UsbfnDeviceStateConfigured, usbfnbase/UsbfnDeviceStateMinimum, UsbfnDeviceStateMinimum, UsbfnDeviceStateStateMaximum, usbfnbase/UsbfnDeviceStateSuspended, *PUSBFN_DEVICE_STATE, usbfnbase/UsbfnDeviceStateDefault, usbfnbase/UsbfnDeviceStateDetached
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBFN_DEVICE_STATE
-req.alt-loc: usbfnbase.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbfnbase.h
+apiname: 
+-	USBFN_DEVICE_STATE
+product: Windows
+targetos: Windows
 req.typenames: USBFN_DEVICE_STATE, *PUSBFN_DEVICE_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USBFN_DEVICE_STATE enumeration
 
 
-
 ## -description
+
+
 Defines the Universal Serial Bus (USB) device states for the device/controller.  These states correspond to the USB device states as defined in section 9.1 of the USB 2.0 Specification.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _USBFN_DEVICE_STATE { 
@@ -61,6 +71,9 @@ typedef enum _USBFN_DEVICE_STATE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field UsbfnDeviceStateMinimum
 
@@ -101,5 +114,3 @@ Device has been suspended.
 
 The maximum value of the enumeration.
 
-
-## -remarks

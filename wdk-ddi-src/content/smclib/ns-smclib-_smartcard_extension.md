@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: 057d82a8-ce5d-416f-b753-297dcbac27b8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _SMARTCARD_EXTENSION, SMARTCARD_EXTENSION, *PSMARTCARD_EXTENSION
+ms.keywords: *PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION structure [Smart Card Reader Devices], PSMARTCARD_EXTENSION structure pointer [Smart Card Reader Devices], smartcrd.smartcard_extension, smclib/SMARTCARD_EXTENSION, PSMARTCARD_EXTENSION, _SMARTCARD_EXTENSION, SMARTCARD_EXTENSION, scstruct_399a1231-e161-450e-b5e2-6fc6035c865f.xml, smclib/PSMARTCARD_EXTENSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SMARTCARD_EXTENSION
-req.alt-loc: smclib.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: SMARTCARD_EXTENSION, *PSMARTCARD_EXTENSION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	smclib.h
+apiname: 
+-	SMARTCARD_EXTENSION
+product: Windows
+targetos: Windows
+req.typenames: *PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION
 req.product: Windows 10 or later.
 ---
 
 # _SMARTCARD_EXTENSION structure
 
 
-
 ## -description
+
+
 The <b>SMARTCARD_EXTENSION</b> structure is used by both the smart card reader driver and the smart card driver library to access all other smart card data structures.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SMARTCARD_EXTENSION {
@@ -76,6 +86,42 @@ typedef struct _SMARTCARD_EXTENSION {
 
 ## -struct-fields
 
+
+
+
+### -field IoRequest
+
+
+      A structure with the following members:
+      
+     
+
+
+### -field IoRequest.Information
+
+Contains the number of bytes returned. 
+
+
+### -field IoRequest.RequestBuffer
+
+A pointer to the data in the user's I/O request to be sent to the card. 
+
+
+### -field IoRequest.RequestBufferLength
+
+Indicates the number of bytes to send to the card. 
+
+
+### -field IoRequest.ReplyBuffer
+
+A pointer to the buffer that holds the data that is returned by the I/O request. 
+
+
+### -field IoRequest.ReplyBufferLength
+
+Indicates the number of bytes of the data that are returned by the I/O request. 
+
+
 ### -field Version
 
 Indicates the version of this structure. 
@@ -100,41 +146,6 @@ Contains capabilities of the inserted smart card.
 
 Not used.
 
-
-### -field IoRequest
-
-
-      A structure with the following members:
-      
-     
-
-
-### -field Information
-
-Contains the number of bytes returned. 
-
-
-### -field RequestBuffer
-
-A pointer to the data in the user's I/O request to be sent to the card. 
-
-
-### -field RequestBufferLength
-
-Indicates the number of bytes to send to the card. 
-
-
-### -field ReplyBuffer
-
-A pointer to the buffer that holds the data that is returned by the I/O request. 
-
-
-### -field ReplyBufferLength
-
-Indicates the number of bytes of the data that are returned by the I/O request. 
-
-</dd>
-</dl>
 
 ### -field MajorIoControlCode
 
@@ -181,10 +192,19 @@ Contains the data for use with the T=0 protocol.
 Contains the data that is used with the T=1 protocol. 
 
 
+### -field PerfInfo
+
+ 
+
+
 ### -field Reserved
 
 Reserved for system use.
 
 
 ## -remarks
-This structure is passed to all callback functions.</p>
+
+
+This structure is passed to all callback functions.
+
+

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 30f4c178-5ef8-4650-b396-1e4bc9cc9125
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_OUT_PARSEMONITORDESCRIPTION,
+ms.keywords: display.idarg_out_parsemonitordescription, IDARG_OUT_PARSEMONITORDESCRIPTION structure [Display Devices], iddcx/IDARG_OUT_PARSEMONITORDESCRIPTION, IDARG_OUT_PARSEMONITORDESCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDARG_OUT_PARSEMONITORDESCRIPTION
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDARG_OUT_PARSEMONITORDESCRIPTION
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDARG_OUT_PARSEMONITORDESCRIPTION structure
 
 
-
 ## -description
+
+
 
                  Gives information about the number of monitor modes and  preferred monitor mode of a monitor.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDARG_OUT_PARSEMONITORDESCRIPTION {
@@ -55,6 +65,9 @@ typedef struct IDARG_OUT_PARSEMONITORDESCRIPTION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field MonitorModeBufferOutputCount
 
@@ -67,5 +80,3 @@ typedef struct IDARG_OUT_PARSEMONITORDESCRIPTION {
 
                      [out] Index into the <b>pMonitorModes</b> array of the preferred mode monitor mode, a value of <b>NO_PREFERRED_MODE</b>indicates that there is no preferred monitor mode.
 
-
-## -remarks

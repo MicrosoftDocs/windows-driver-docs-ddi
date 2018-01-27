@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 3bfb43dd-b4e1-49ee-9be6-c9861341daa1
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: _ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER, *PACPI_EVAL_OUTPUT_BUFFER, ACPI_EVAL_OUTPUT_BUFFER_V1, *PACPI_EVAL_OUTPUT_BUFFER_V1
+ms.keywords: acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V1, *PACPI_EVAL_OUTPUT_BUFFER_V1, acpi.acpi_eval_output_buffer, _ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER, ACPI_EVAL_OUTPUT_BUFFER_V1, *PACPI_EVAL_OUTPUT_BUFFER, acpi-meth-eval-ref_438f3766-37fd-449b-8084-26f08c2f82a0.xml, ACPI_EVAL_OUTPUT_BUFFER_V1 structure [ACPI Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ACPI_EVAL_OUTPUT_BUFFER_V1
-req.alt-loc: Acpiioct.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: ACPI_EVAL_OUTPUT_BUFFER, *PACPI_EVAL_OUTPUT_BUFFER, ACPI_EVAL_OUTPUT_BUFFER_V1
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Acpiioct.h
+apiname: 
+-	ACPI_EVAL_OUTPUT_BUFFER_V1
+product: Windows
+targetos: Windows
+req.typenames: *PACPI_EVAL_OUTPUT_BUFFER, ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER
 ---
 
 # _ACPI_EVAL_OUTPUT_BUFFER_V1 structure
 
 
-
 ## -description
+
+
 The <b>ACPI_EVAL_OUTPUT_BUFFER</b> structure contains output arguments from an ACPI control method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ACPI_EVAL_OUTPUT_BUFFER_V1 {
@@ -56,6 +66,9 @@ typedef struct _ACPI_EVAL_OUTPUT_BUFFER_V1 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Signature
 
@@ -78,6 +91,8 @@ An array of <b>ACPI_METHOD_ARGUMENT</b> structures. For more information, see Re
 
 
 ## -remarks
+
+
 The following ACPI IOCTLs return output arguments from ACPI control methods in an <b>ACPI_EVAL_OUTPUT_BUFFER</b> structure:
 
 
@@ -101,12 +116,11 @@ Typically, the <b>Argument</b> member is the start of an array of  one or more <
 For more information about how to use <b>ACPI_EVAL_OUTPUT_BUFFER</b> structures to retrieve output arguments from an ACPI control method, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/evaluating-acpi-control-methods">Evaluating ACPI Control Methods</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
-</dt>
-</dl>
+
  
 
  

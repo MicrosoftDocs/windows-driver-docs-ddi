@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e394f8de-7257-4baa-9057-bd4bad34212d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_DEVICE_SHUTDOWN_FLAGS, WDF_DEVICE_SHUTDOWN_FLAGS
+ms.keywords: kmdf.wdf_device_shutdown_flags, wdfcontrol/WdfDeviceShutdown, WDF_DEVICE_SHUTDOWN_FLAGS, _WDF_DEVICE_SHUTDOWN_FLAGS, WdfDeviceShutdown, WdfDeviceLastChanceShutdown, wdfcontrol/WdfDeviceLastChanceShutdown, wdfcontrol/WDF_DEVICE_SHUTDOWN_FLAGS, wdf.wdf_device_shutdown_flags, DFDeviceObjectControllerDevObjRef_67312956-1032-4272-9b69-ed1674b5e951.xml, WDF_DEVICE_SHUTDOWN_FLAGS enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WDF_DEVICE_SHUTDOWN_FLAGS
-req.alt-loc: wdfcontrol.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfcontrol.h
+apiname: 
+-	WDF_DEVICE_SHUTDOWN_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_DEVICE_SHUTDOWN_FLAGS enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_DEVICE_SHUTDOWN_FLAGS</b> enumeration defines flags that identify types of shutdown notifications that a driver can receive.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_DEVICE_SHUTDOWN_FLAGS { 
@@ -57,6 +67,9 @@ typedef enum _WDF_DEVICE_SHUTDOWN_FLAGS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WdfDeviceShutdown
 
@@ -69,15 +82,16 @@ The driver is notified when the system is losing its power, and after all file s
 
 
 ## -remarks
+
+
 The <b>WDF_DEVICE_SHUTDOWN_FLAGS</b> enumeration is used as an input parameter to <a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification.md">WdfControlDeviceInitSetShutdownNotification</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification.md">WdfControlDeviceInitSetShutdownNotification</a>
-</dt>
-</dl>
+
  
 
  

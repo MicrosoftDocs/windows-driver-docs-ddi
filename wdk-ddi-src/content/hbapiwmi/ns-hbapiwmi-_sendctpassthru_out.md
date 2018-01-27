@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f9340f0d-4f70-4751-b339-de11ee13a469
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SendCTPassThru_OUT, SendCTPassThru_OUT, *PSendCTPassThru_OUT
+ms.keywords: SendCTPassThru_OUT structure [Storage Devices], SendCTPassThru_OUT, storage.sendctpassthru_out, _SendCTPassThru_OUT, *PSendCTPassThru_OUT, hbapiwmi/PSendCTPassThru_OUT, PSendCTPassThru_OUT structure pointer [Storage Devices], structs-Fibre_f795d452-fb3f-4236-a543-d0f80f94c14f.xml, PSendCTPassThru_OUT, hbapiwmi/SendCTPassThru_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SendCTPassThru_OUT
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: SendCTPassThru_OUT, *PSendCTPassThru_OUT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	SendCTPassThru_OUT
+product: Windows
+targetos: Windows
+req.typenames: *PSendCTPassThru_OUT, SendCTPassThru_OUT
 ---
 
 # _SendCTPassThru_OUT structure
 
 
-
 ## -description
+
+
 The SendCTPassThru_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a> WMI method to the WMI client.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SendCTPassThru_OUT {
@@ -56,6 +66,9 @@ typedef struct _SendCTPassThru_OUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HBAStatus
 
@@ -78,15 +91,16 @@ Contains the results of the common transport command.
 
 
 ## -remarks
+
+
 The WMI tool suite generates a declaration of the SendCTPassThru_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a>
-</dt>
-</dl>
+
  
 
  

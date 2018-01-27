@@ -7,8 +7,8 @@ old-location: pos\barcodesymbology.htm
 old-project: pos
 ms.assetid: d0c66bde-cd66-4141-b985-8eb28af70a3b
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _BarcodeSymbology, BarcodeSymbology
+ms.date: 1/18/2018
+ms.keywords: pointofservicecommontypes/JapanPost, pointofservicecommontypes/Code11, AusPost, Code128, HanXin, pointofservicecommontypes/UkPost, pointofservicecommontypes/CanPost, DataCode, ChinaPost, IsmnAdd2, Ean13, DutchKix, Micr, pointofservicecommontypes/TfIata, Us4StateFics, pointofservicecommontypes/Us4StateFics, _BarcodeSymbology, pointofservicecommontypes/UsPostNet, pointofservicecommontypes/Micr, pointofservicecommontypes/Pzn, JapanPost, pointofservicecommontypes/UpcCoupon, TfDis, IsmnAdd5, pointofservicecommontypes/UsIntelligent, Code39Ex, Gs1128, Ean8, pointofservicecommontypes/Ean8, pointofservicecommontypes/Upce, MicroQr, ItalianPost39, InfoMail, Sisac, TfStd, Codabar, TfIata, pointofservicecommontypes/TfInt, EanvAdd5, pos.barcodesymbology, pointofservicecommontypes/IssnAdd2, pointofservicecommontypes/Aztec, Ccc, pointofservicecommontypes/OcrA, pointofservicecommontypes/BarcodeSymbology, UsIntelligentPkg, pointofservicecommontypes/Gs1DWCode, MsTag, pointofservicecommontypes/TfStd, UccEan128, OcrA, pointofservicecommontypes/Code39Ex, BarcodeSymbology enumeration, Isbn, pointofservicecommontypes/IsbnAdd5, pointofservicecommontypes/Gs1DatabarType3, pointofservicecommontypes/Gs1128Coupon, pointofservicecommontypes/Qr, pointofservicecommontypes/Ean99Add5, Ean99Add5, pointofservicecommontypes/Telepen, UpcaAdd5, Code39, Gs1DatabarType3, EanvAdd2, IssnAdd5, pointofservicecommontypes/EanvAdd2, pointofservicecommontypes/Ccc, UpceAdd2, pointofservicecommontypes/Code49, pointofservicecommontypes/MicroPdf417, UsPlanet, pointofservicecommontypes/UsIntelligentPkg, PosUnknown, IsbnAdd5, Code93, pointofservicecommontypes/ChinaPost, pointofservicecommontypes/TfMat, Ccab, pointofservicecommontypes/IssnAdd5, pointofservicecommontypes/KoreanPost, pointofservicecommontypes/MicroQr, pointofservicecommontypes/OcrB, Qr, pointofservicecommontypes/IsmnAdd5, pointofservicecommontypes/ItalianPost39, pointofservicecommontypes/Sisac, Telepen, Ean13Add5, UpceAdd5, pointofservicecommontypes/Trioptic39, TfInd, ItalianPost25, Pdf417, TfInt, Code16k, pointofservicecommontypes/Code93Ex, pointofservicecommontypes/HanXin, pointofservicecommontypes/DataMatrix, Upca, UpcaAdd2, pointofservicecommontypes/Code39, TfMat, Code32, pointofservicecommontypes/Ean99, Gs1128Coupon, pointofservicecommontypes/CodablockF, pointofservicecommontypes/Maxicode, UkPost, Ean13Add2, pointofservicecommontypes/Codabar, Isbt, Upce, pointofservicecommontypes/DataCode, Gs1DWCode, pointofservicecommontypes/Ean13Add2, UpcCoupon, Ean8Add5, pointofservicecommontypes/UpcaAdd5, Gs1DatabarType2, pointofservicecommontypes/EanvAdd5, pointofservicecommontypes/Isbt, SwedenPost, pointofservicecommontypes/SwedenPost, Msi, pointofservicecommontypes/Eanv, pointofservicecommontypes/Ean99Add2, pointofservicecommontypes/CodablockA, Gs1DatabarType1, Codablock128, Code49, Code11, pointofservicecommontypes/Gs1128, CodablockF, Ismn, pointofservicecommontypes/Ccab, pointofservicecommontypes/IsmnAdd2, pointofservicecommontypes/DutchKix, CanPost, pointofservicecommontypes/AusPost, pointofservicecommontypes/Ean13Add5, pointofservicecommontypes/UccEan128, pointofservicecommontypes/MsTag, pointofservicecommontypes/Ean8Add2, UsIntelligent, pointofservicecommontypes/Issn, pointofservicecommontypes/Tlc39, pointofservicecommontypes/Ean13, Ean99, DataMatrix, pointofservicecommontypes/Pdf417, Tlc39, Eanv, pointofservicecommontypes/TfInd, pointofservicecommontypes/ItalianPost25, Issn, pointofservicecommontypes/Gs1DatabarType1, BarcodeSymbology, pointofservicecommontypes/Ismn, pointofservicecommontypes/Code128, KoreanPost, Code93Ex, pointofservicecommontypes/Gs1DatabarType2, Ean8Add2, UsPostNet, pointofservicecommontypes/Codablock128, Trioptic39, ExtendedBase, pointofservicecommontypes/ExtendedBase, pointofservicecommontypes/UpceAdd2, pointofservicecommontypes/Upca, Maxicode, pointofservicecommontypes/PosUnknown, IssnAdd2, pointofservicecommontypes/Code93, pointofservicecommontypes/UpcaAdd2, Aztec, pointofservicecommontypes/Code16k, pointofservicecommontypes/Isbn, pointofservicecommontypes/InfoMail, Plessey, pointofservicecommontypes/TfDis, Pzn, pointofservicecommontypes/Msi, pointofservicecommontypes/UsPlanet, CodablockA, MicroPdf417, pointofservicecommontypes/UpceAdd5, pointofservicecommontypes/Code32, Ean99Add2, pointofservicecommontypes/Ean8Add5, OcrB, pointofservicecommontypes/Plessey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BarcodeSymbology
-req.alt-loc: pointofservicecommontypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pointofservicecommontypes.h
+apiname: 
+-	BarcodeSymbology
+product: Windows
+targetos: Windows
 req.typenames: BarcodeSymbology
 ---
 
 # _BarcodeSymbology enumeration
 
 
-
 ## -description
+
+
 This enumeration defines the barcode symbologies.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _BarcodeSymbology { 
@@ -146,6 +156,9 @@ typedef enum _BarcodeSymbology {
 
 
 ## -enum-fields
+
+
+
 
 ### -field PosUnknown
 
@@ -616,5 +629,3 @@ The Gs1DWCode symbology, an invisible  digital watermark that  covers the entire
 
 If greater than or equal to this type, the device has returned an OEM or undefined symbology. 
 
-
-## -remarks

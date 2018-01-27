@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: BC8D4FB1-69F4-4FAE-BA90-7CCB57D4A6C4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: MAGNETOMETER_ACCURACY, MAGNETOMETER_ACCURACY
+ms.keywords: MagnetometerAccuracy_Unreliable, sensorsdef/MagnetometerAccuracy_High, sensors.magnetometer_accuracy, MagnetometerAccuracy_High, sensorsdef/MagnetometerAccuracy_Unreliable, sensorsdef/MagnetometerAccuracy_Unknown, MagnetometerAccuracy_Approximate, MagnetometerAccuracy_Unknown, MAGNETOMETER_ACCURACY enumeration [Sensor Devices], sensorsdef/MagnetometerAccuracy_Approximate, MAGNETOMETER_ACCURACY, sensorsdef/MAGNETOMETER_ACCURACY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MAGNETOMETER_ACCURACY
-req.alt-loc: Sensorsdef.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Sensorsdef.h
+apiname: 
+-	MAGNETOMETER_ACCURACY
+product: Windows
+targetos: Windows
 req.typenames: MAGNETOMETER_ACCURACY
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # MAGNETOMETER_ACCURACY enumeration
 
 
-
 ## -description
+
+
 This enumeration represents the accuracy states of the magnetometer.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _MAGNETOMETER_ACCURACY { 
@@ -57,6 +67,9 @@ typedef enum _MAGNETOMETER_ACCURACY {
 
 
 ## -enum-fields
+
+
+
 
 ### -field MagnetometerAccuracy_Unknown
 
@@ -77,5 +90,3 @@ Indicates that the magnetometer readings are approximate values.
 
 Indicates that the magnetometer accuracy is set to high.
 
-
-## -remarks

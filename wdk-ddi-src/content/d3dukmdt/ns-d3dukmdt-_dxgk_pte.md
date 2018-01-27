@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2d5c1f3e-69a6-4f7f-9c99-bbaf94e6401b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.dxgk_pte, DXGK_PTE structure [Display Devices], _DXGK_PTE, DXGK_PTE, DmStructs_701e980c-29dc-46d2-8f03-ce8485a4cc70.xml, d3dukmdt/DXGK_PTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_PTE
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	DXGK_PTE
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # _DXGK_PTE structure
 
 
-
 ## -description
+
+
 A page table entry (PTE) provides a physical address of a page and other attributes. The exact format of PTE depends on hardware implementation. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_PTE {
@@ -71,6 +81,9 @@ typedef struct _DXGK_PTE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Valid
 
@@ -127,6 +140,11 @@ For the level 1 page table entry defines the pages size of the leaf page table P
 Supported starting with Windows 10.
 
 
+### -field SystemReserved0
+
+ 
+
+
 ### -field Reserved
 
 Reserved for system use and will be set to zero.
@@ -148,5 +166,3 @@ The high 52 bits of the 64 bit physical address of a lower level page table. The
 
 Supported starting with Windows 10.
 
-
-## -remarks

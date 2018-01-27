@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ef6aa2bf-8b45-4048-ac21-b069e28b556f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _USB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
+ms.keywords: stream.camfreebandwidthex, CamFreeBandwidthEx, CamFreeBandwidthEx routine [Streaming Media Devices], CamFreeBandwidthEx, PCAM_FREE_BW_ROUTINE_EX, PCAM_FREE_BW_ROUTINE_EX, usbcamdi/CamFreeBandwidthEx, usbcmdpr_bf3efd8f-3320-469c-a358-85cf2d896caf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CamFreeBandwidthEx
-req.alt-loc: usbcamdi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	usbcamdi.h
+apiname: 
+-	CamFreeBandwidthEx
+product: Windows
+targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PCAM_FREE_BW_ROUTINE_EX callback
 
 
-
 ## -description
+
+
 A camera minidriver's <b>CamFreeBandwidthEx</b> callback function selects an alternate setting within the USB video streaming interface that uses no bandwidth.
 
 
-
 ## -prototype
+
 
 ````
 PCAM_FREE_BW_ROUTINE_EX CamFreeBandwidthEx;
@@ -60,26 +70,41 @@ NTSTATUS CamFreeBandwidthEx(
 
 ## -parameters
 
-### -param BusDeviceObject 
+
+
+
+### -param BusDeviceObject
 
 Pointer to the camera minidriver's device object created by the USB hub.
 
 
-### -param DeviceContext 
+### -param DeviceContext
 
 Pointer to the camera minidriver's device context.
 
 
-### -param StreamNumber 
+### -param STreamNumber
+
+
+
+
+
+
+#### - StreamNumber
 
 Indicates stream number.
 
 
 ## -returns
+
+
 <b>CamFreeBandwidthEx</b> returns STATUS_SUCCESS or an appropriate error code.
 
 
+
 ## -remarks
+
+
 USBCAMD calls the camera minidriver's <b>CamFreeBandwidthEx</b> callback function after the isochronous video stream has stopped.
 
 Typically, this function calls the <b>USBCAMD_SelectAlternateInterface</b> service to select the correct alternate interface and prepare for streaming video.
@@ -89,15 +114,13 @@ The original USBCAMD does not call <b>CamFreeBandwidthEx</b>.
 This function is required.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
-</dt>
-<dt>
+
 <a href="..\usbcamdi\nf-usbcamdi-usbcamd_selectalternateinterface.md">USBCAMD_SelectAlternateInterface</a>
-</dt>
-</dl>
+
  
 
  

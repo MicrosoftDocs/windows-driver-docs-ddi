@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 01053A65-45A4-4232-A9F2-1651DC820026
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_USB_DEVICE_CREATE_CONFIG_INIT
+ms.keywords: kmdf.wdf_usb_device_create_config_init, WDF_USB_DEVICE_CREATE_CONFIG_INIT function, kmdf.wdf_usbtarget_device_config_init, WDF_USB_DEVICE_CREATE_CONFIG_INIT, wdf.wdf_usb_device_create_config_init, wdfusb/WDF_USB_DEVICE_CREATE_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 1.11
 req.umdf-ver: 2.0
-req.alt-api: WDF_USB_DEVICE_CREATE_CONFIG_INIT
-req.alt-loc: wdfusb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfusb.h
+apiname: 
+-	WDF_USB_DEVICE_CREATE_CONFIG_INIT
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,16 +47,17 @@ req.product: Windows 10 or later.
 # WDF_USB_DEVICE_CREATE_CONFIG_INIT function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_USB_DEVICE_CREATE_CONFIG_INIT</b> function
   initializes a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_create_config.md">WDF_USB_DEVICE_CREATE_CONFIG</a> structure. 
 
 
-
 ## -syntax
+
 
 ````
 void WDF_USB_DEVICE_CREATE_CONFIG_INIT(
@@ -58,6 +68,9 @@ void WDF_USB_DEVICE_CREATE_CONFIG_INIT(
 
 
 ## -parameters
+
+
+
 
 ### -param Config [out]
 
@@ -70,24 +83,27 @@ The contract version that the client driver supports. <b>USBDClientContractVersi
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
+
 ## -remarks
+
+
 The <b>WDF_USB_DEVICE_CREATE_CONFIG_INIT</b> function zeros the specified <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_create_config.md">WDF_USB_DEVICE_CREATE_CONFIG</a> structure and sets the <b>Size</b> member to the size of the structure. It also sets the structure's <b>USBDClientContractVersion</b> member to the specified value.
 
 For a code example that uses <b>WDF_USB_DEVICE_CREATE_CONFIG_INIT</b>, see <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_create_config.md">WDF_USB_DEVICE_CREATE_CONFIG</a>
-</dt>
-<dt>
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
-</dt>
-</dl>
+
  
 
  

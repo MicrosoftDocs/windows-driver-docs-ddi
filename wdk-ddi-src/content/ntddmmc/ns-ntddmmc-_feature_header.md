@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 61831fbb-48ad-4831-8b69-7b1a5cafa629
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _FEATURE_HEADER, FEATURE_HEADER, *PFEATURE_HEADER
+ms.keywords: structs-CD-ROM_41d7886f-d383-4416-8f89-b40f1bb0bc7f.xml, FEATURE_HEADER, _FEATURE_HEADER, PFEATURE_HEADER structure pointer [Storage Devices], *PFEATURE_HEADER, storage.feature_header, ntddmmc/FEATURE_HEADER, PFEATURE_HEADER, FEATURE_HEADER structure [Storage Devices], ntddmmc/PFEATURE_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FEATURE_HEADER
-req.alt-loc: ntddmmc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: FEATURE_HEADER, *PFEATURE_HEADER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddmmc.h
+apiname: 
+-	FEATURE_HEADER
+product: Windows
+targetos: Windows
+req.typenames: *PFEATURE_HEADER, FEATURE_HEADER
 ---
 
 # _FEATURE_HEADER structure
 
 
-
 ## -description
+
+
 The FEATURE_HEADER structure is used in conjunction with the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_configuration.md">IOCTL_CDROM_GET_CONFIGURATION</a> request to report header information for both feature and profile descriptors.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FEATURE_HEADER {
@@ -58,6 +68,9 @@ typedef struct _FEATURE_HEADER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field FeatureCode
 
@@ -89,21 +102,14 @@ Reserved.
 Indicates the number of bytes of feature information that follow this header. This member must be an integral multiple of 4. The total size of the data related to this feature will be <b>AdditionalLength</b> + <b>sizeof</b>(FEATURE_HEADER).
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_configuration.md">IOCTL_CDROM_GET_CONFIGURATION</a>
-</dt>
-<dt>
+
 <a href="..\ntddmmc\ns-ntddmmc-_get_configuration_header.md">GET_CONFIGURATION_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
-</dt>
-</dl>
+
  
 
  

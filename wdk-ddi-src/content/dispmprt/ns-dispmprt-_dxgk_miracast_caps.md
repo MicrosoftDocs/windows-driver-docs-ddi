@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 63ED28D9-654F-45CC-BFDC-89C9E73DCF95
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS, *PDXGK_MIRACAST_CAPS
+ms.keywords: display.dxgk_miracast_caps, *PDXGK_MIRACAST_CAPS, _DXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS, PDXGK_MIRACAST_CAPS, PDXGK_MIRACAST_CAPS structure pointer [Display Devices], dispmprt/PDXGK_MIRACAST_CAPS, dispmprt/DXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_MIRACAST_CAPS
-req.alt-loc: Dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Dispmprt.h
+apiname: 
+-	DXGK_MIRACAST_CAPS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_MIRACAST_CAPS, *PDXGK_MIRACAST_CAPS
 ---
 
 # _DXGK_MIRACAST_CAPS structure
 
 
-
 ## -description
+
+
 Used by a display miniport driver to identify capabilities of a Miracast device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_MIRACAST_CAPS {
@@ -61,40 +71,37 @@ typedef struct _DXGK_MIRACAST_CAPS {
 
 ## -struct-fields
 
-### -field MaxChunkPrivateDriverDataSize
 
-The maximum size, in bytes, of the private data that the display miniport driver will pass when it reports a <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a> interrupt type of <b>DXGK_INTERRUPT_MICACAST_CHUNK_PROCESSING_COMPLETE</b>.
 
 
 ### -field Flags
 
 
-### -field HdcpSupport
+
+### -field Flags.HdcpSupport
 
 Indicates whether the display adapter supports the Miracast High-bandwidth Digital Content Protection (HDCP) feature.
 
 
-### -field Reserved
+### -field Flags.Reserved
 
 Reserved for system use. The display miniport driver must set this value to zero.
 
 
-### -field Value
+### -field Flags.Value
 
 Holds a 32-bit value that identifies the capabilities of the Miracast device.
 
-</dd>
-</dl>
 
-## -remarks
+### -field MaxChunkPrivateDriverDataSize
+
+The maximum size, in bytes, of the private data that the display miniport driver will pass when it reports a <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a> interrupt type of <b>DXGK_INTERRUPT_MICACAST_CHUNK_PROCESSING_COMPLETE</b>.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
-</dt>
-</dl>
+
  
 
  

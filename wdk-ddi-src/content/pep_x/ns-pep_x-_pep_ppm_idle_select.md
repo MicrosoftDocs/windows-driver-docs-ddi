@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4783CB44-3A55-4C7C-8EA2-1A72317CC955
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_PPM_IDLE_SELECT, *PPEP_PPM_IDLE_SELECT, PEP_PPM_IDLE_SELECT
+ms.keywords: PPEP_PPM_IDLE_SELECT structure pointer [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_SELECT, pep_x/PEP_PPM_IDLE_SELECT, *PPEP_PPM_IDLE_SELECT, _PEP_PPM_IDLE_SELECT, PEP_PPM_IDLE_SELECT structure [Kernel-Mode Driver Architecture], PEP_PPM_IDLE_SELECT, pep_x/PPEP_PPM_IDLE_SELECT, kernel.pep_ppm_idle_select
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_PPM_IDLE_SELECT
-req.alt-loc: pep_x.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pep_x.h
+apiname: 
+-	PEP_PPM_IDLE_SELECT
+product: Windows
+targetos: Windows
 req.typenames: *PPEP_PPM_IDLE_SELECT, PEP_PPM_IDLE_SELECT
 ---
 
 # _PEP_PPM_IDLE_SELECT structure
 
 
-
 ## -description
+
+
 The <b>PEP_PPM_IDLE_SELECT</b> structure describes the most energy-efficient idle state that the processor can enter and still satisfy the constraints specified by the operating system.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_PPM_IDLE_SELECT {
@@ -59,6 +69,9 @@ typedef struct _PEP_PPM_IDLE_SELECT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Constraints
 
@@ -96,24 +109,22 @@ typedef struct _PEP_PPM_IDLE_SELECT {
 
 
 ## -remarks
+
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629120">PEP_NOTIFY_PPM_IDLE_SELECT</a> notification. The <b>Constraints</b>, <b>DependencyArrayCount</b>, and <b>DependencyArray</b> members of the structure contain input values supplied by PoFx when this notification is sent. The remaining members contain output values that the PEP writes to the structure in response to the notification.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629121">PEP_NOTIFY_PPM_QUERY_IDLE_STATES</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629120">PEP_NOTIFY_PPM_IDLE_SELECT</a>
-</dt>
-<dt>
+
 <a href="..\pep_x\ns-pep_x-_pep_processor_idle_constraints.md">PEP_PROCESSOR_IDLE_CONSTRAINTS</a>
-</dt>
-<dt>
+
 <a href="..\pepfx\ns-pepfx-_pep_processor_idle_dependency.md">PEP_PROCESSOR_IDLE_DEPENDENCY</a>
-</dt>
-</dl>
+
  
 
  

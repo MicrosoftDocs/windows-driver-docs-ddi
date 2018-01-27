@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3bd92999-07f3-43bb-a826-4fea3e19168a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_CURSOR_CAPS,
+ms.keywords: iddcx/IDDCX_CURSOR_CAPS, IDDCX_CURSOR_CAPS, IDDCX_CURSOR_CAPS structure [Display Devices], display.iddcx_cursor_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDDCX_CURSOR_CAPS
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDDCX_CURSOR_CAPS
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDDCX_CURSOR_CAPS structure
 
 
-
 ## -description
+
+
 
                  Gives information about the capabilities of the cursor.
              
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDDCX_CURSOR_CAPS {
@@ -60,6 +70,9 @@ typedef struct IDDCX_CURSOR_CAPS {
 
 ## -struct-fields
 
+
+
+
 ### -field Size
 
 
@@ -71,9 +84,7 @@ typedef struct IDDCX_CURSOR_CAPS {
 
 
                      Indicates what level of support the driver has for XOR masks in the 32-bit masked color cursor format.
-
-<div class="alert"><b>Note</b>  The OS first converts any monochrome cursor to a color mask cursor.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The OS first converts any monochrome cursor to a color mask cursor.</div><div> </div>
 
 ### -field AlphaCursorSupport
 
@@ -95,5 +106,3 @@ typedef struct IDDCX_CURSOR_CAPS {
                      The maximum height support for all cursor types.
                  
 
-
-## -remarks

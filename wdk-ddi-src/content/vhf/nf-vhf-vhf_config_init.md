@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 4A87D9E2-F1FC-4CA8-834C-E545D8F0277B
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: VHF_CONFIG_INIT
+ms.keywords: VHF_CONFIG_INIT, hid.vhf_config_init, vhf/VHF_CONFIG_INIT, VHF_CONFIG_INIT function [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VHF_CONFIG_INIT
-req.alt-loc: vhfKm.lib,vhfKm.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: VhfKm.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	vhfKm.lib
+-	vhfKm.dll
+apiname: 
+-	VHF_CONFIG_INIT
+product: Windows
+targetos: Windows
 req.typenames: *PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # VHF_CONFIG_INIT function
 
 
-
 ## -description
+
+
 Use the <b>VHF_CONFIG_INIT</b> function to initialize the required members of the <a href="..\vhf\ns-vhf-_vhf_config.md">VHF_CONFIG</a> structure allocated by the HID source driver.
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE void VHF_CONFIG_INIT(
@@ -57,6 +68,9 @@ FORCEINLINE void VHF_CONFIG_INIT(
 
 
 ## -parameters
+
+
+
 
 ### -param Config [out]
 
@@ -73,24 +87,22 @@ A pointer to the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> str
 The length of the HID Report Descriptor contained in a buffer pointer by <i>ReportDescriptor</i>.
 
 
-### -param ReportDescriptor 
+### -param ReportDescriptor
 
 A pointer to a HID source driver-allocated buffer that contains the  HID Report Descriptor.
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/26964963-792F-4529-B4FC-110BF5C65B35">Write a HID source driver by using Virtual HID Framework (VHF)</a>
-</dt>
-</dl>
+
  
 
  

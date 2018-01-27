@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2ad78d17-9baa-45cf-a620-01c2ccd14338
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _TOKEN_TYPE, TOKEN_TYPE, *PTOKEN_TYPE
+ms.keywords: TOKEN_TYPE enumeration [Installable File System Drivers], ntifs/TokenImpersonation, *PTOKEN_TYPE, ntifs/TOKEN_TYPE, TOKEN_TYPE, TokenPrimary, PTOKEN_TYPE enumeration pointer [Installable File System Drivers], _TOKEN_TYPE, ntifs/PTOKEN_TYPE, TokenImpersonation, ntifs/TokenPrimary, ifsk.token_type, PTOKEN_TYPE, securitystructures_b570f2e6-2426-4c9d-8552-81131cf4bd66.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TOKEN_TYPE
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	TOKEN_TYPE
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # _TOKEN_TYPE enumeration
 
 
-
 ## -description
+
+
 The TOKEN_TYPE enumeration type contains values that differentiate between a primary token and an impersonation token. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _TOKEN_TYPE { 
@@ -55,6 +65,9 @@ typedef enum _TOKEN_TYPE {
 
 ## -enum-fields
 
+
+
+
 ### -field TokenPrimary
 
 Indicates a primary token. 
@@ -65,27 +78,18 @@ Indicates a primary token.
 Indicates an impersonation token. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-</dt>
-<dt>
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_token_statistics.md">TOKEN_STATISTICS</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\ns-ntifs-_token_statistics.md">TOKEN_STATISTICS</a>
+
+<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
+
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+
+<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+
  
 
  

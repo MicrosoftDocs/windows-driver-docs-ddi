@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 86b09f5c-6527-447e-b383-b97d45a57ce7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ProbeForRead
+ms.keywords: kernel.probeforread, ProbeForRead, wdm/ProbeForRead, ProbeForRead routine [Kernel-Mode Driver Architecture], k102_a0260886-9f28-408e-91a1-fde07974ef9b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ProbeForRead
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlExApcLte2, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ProbeForRead
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ProbeForRead function
 
 
-
 ## -description
+
+
 The <b>ProbeForRead</b> routine checks that a user-mode buffer actually resides in the user portion of the address space, and is correctly aligned. 
 
 
-
 ## -syntax
+
 
 ````
 VOID ProbeForRead(
@@ -56,6 +66,9 @@ VOID ProbeForRead(
 
 
 ## -parameters
+
+
+
 
 ### -param Address [in]
 
@@ -73,10 +86,15 @@ Specifies the required alignment, in bytes, of the beginning of the user-mode bu
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 If the specified range of memory is not within the user-mode address range, <b>ProbeForRead</b> raises the STATUS_ACCESS_VIOLATION exception. If the beginning of the address range is not aligned on the byte boundary that is specified by <i>Alignment</i>, <b>ProbeForRead</b> raises the STATUS_DATATYPE_MISALIGNMENT exception.
 
 Kernel-mode drivers must use <b>ProbeForRead</b> to validate read access to buffers that are allocated in user space. It is most commonly used during METHOD_NEITHER I/O to validate the user buffer pointed to by <b>Irp -&gt; UserBuffer</b>.
@@ -90,12 +108,11 @@ If <b>Irp-&gt;RequestorMode</b> = <b>KernelMode</b>, the <b>Irp-&gt;AssociatedIr
 If <i>Length</i> = 0, <b>ProbeForRead</b> does no checking of the address. In this case, the routine does not raise an exception for an address that is misaligned or is outside the range of valid user addresses.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-probeforwrite.md">ProbeForWrite</a>
-</dt>
-</dl>
+
  
 
  

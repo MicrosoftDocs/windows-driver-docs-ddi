@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8f537ddb-ba94-4423-95a8-6497710d234f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+ms.keywords: storage.phw_timer, (*PHW_TIMER) callback function [Storage Devices], (*PHW_TIMER), srb/(*PHW_TIMER), ide_minikr_55cc9012-04fa-434c-b2b9-d24bbd1d1404.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: (*PHW_TIMER)
-req.alt-loc: srb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	srb.h
+apiname: 
+-	(*PHW_TIMER)
+product: Windows
+targetos: Windows
 req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PHW_TIMER callback
 
 
-
 ## -description
+
+
 The PHW_TIMER routine prototype declares a SCSI miniport driver's timer routine.
 
 
-
 ## -prototype
+
 
 ````
 typedef VOID (*PHW_TIMER)(
@@ -55,27 +65,34 @@ typedef VOID (*PHW_TIMER)(
 
 ## -parameters
 
-### -param DeviceExtension  [in]
+
+
+
+### -param DeviceExtension [in]
 
 Pointer to the miniport driver's per-HBA storage area. 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The SCSI miniport driver's timer routine, <a href="https://msdn.microsoft.com/library/windows/hardware/ff557327">HwScsiTimer</a>, is called after the interval specified when the miniport driver called <b>ScsiPortNotification</b> with the <b>RequestTimerCall</b><i>NotificationType</i> value.
 
 Miniport drivers that work with the StorPort driver do not use this timer routine. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557327">HwScsiTimer</a>
-</dt>
-</dl>
+
  
 
  

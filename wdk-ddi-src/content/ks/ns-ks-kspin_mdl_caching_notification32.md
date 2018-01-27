@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 36C07734-20FC-4330-8BB1-535E8581162D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPIN_MDL_CACHING_NOTIFICATION32, *PKSPIN_MDL_CACHING_NOTIFICATION32, KSPIN_MDL_CACHING_NOTIFICATION32
+ms.keywords: PKSPIN_MDL_CACHING_NOTIFICATION32 structure pointer [Streaming Media Devices], KSPIN_MDL_CACHING_NOTIFICATION32 structure [Streaming Media Devices], PKSPIN_MDL_CACHING_NOTIFICATION32, *PKSPIN_MDL_CACHING_NOTIFICATION32, stream.kspin_mdl_caching_notification32, KSPIN_MDL_CACHING_NOTIFICATION32, ks/PKSPIN_MDL_CACHING_NOTIFICATION32, ks/KSPIN_MDL_CACHING_NOTIFICATION32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPIN_MDL_CACHING_NOTIFICATION32
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSPIN_MDL_CACHING_NOTIFICATION32
+product: Windows
+targetos: Windows
 req.typenames: *PKSPIN_MDL_CACHING_NOTIFICATION32, KSPIN_MDL_CACHING_NOTIFICATION32
 ---
 
 # KSPIN_MDL_CACHING_NOTIFICATION32 structure
 
 
-
 ## -description
+
+
 This structure is used internally by the operating system.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field Event
 
 This member is used internally by the operating system.
@@ -64,5 +77,3 @@ This member is used internally by the operating system.
 
 This member  is used internally by the operating system.
 
-
-## -remarks

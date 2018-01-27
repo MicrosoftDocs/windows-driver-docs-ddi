@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 8fdb5b1d-bbdb-4774-875a-7cdd047286f5
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _CONNECT_DATA, CONNECT_DATA, *PCONNECT_DATA
+ms.keywords: hid.connect_data__kbdclass_, kref_e50b6d57-99fa-41bd-979c-de2d83922af6.xml, PCONNECT_DATA, CONNECT_DATA structure [Human Input Devices], _CONNECT_DATA, *PCONNECT_DATA, kbdmou/PCONNECT_DATA, CONNECT_DATA, PCONNECT_DATA structure pointer [Human Input Devices], kbdmou/CONNECT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CONNECT_DATA
-req.alt-loc: kbdmou.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	kbdmou.h
+apiname: 
+-	CONNECT_DATA
+product: Windows
+targetos: Windows
 req.typenames: CONNECT_DATA, *PCONNECT_DATA
 ---
 
 # _CONNECT_DATA structure
 
 
-
 ## -description
+
+
 CONNECT_DATA specifies information that Kbdclass and Mouclass use to connect to a keyboard or mouse port.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CONNECT_DATA {
@@ -55,9 +65,12 @@ typedef struct _CONNECT_DATA {
 
 ## -struct-fields
 
+
+
+
 ### -field ClassDeviceObject
 
-Pointer to an upper-level class <a href="wdkgloss.f#wdkgloss.filter_device_object#wdkgloss.filter_device_object"><i>filter device object</i></a> (filter DO).
+Pointer to an upper-level class <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">filter device object</a> (filter DO).
 
 
 ### -field ClassService
@@ -66,4 +79,8 @@ Specifies the class service routine. See  <a href="..\kbdmou\nc-kbdmou-pservice_
 
 
 ## -remarks
-The keyboard class driver uses this structure with an <a href="..\kbdmou\ni-kbdmou-ioctl_internal_keyboard_connect.md">IOCTL_INTERNAL_KEYBOARD_CONNECT</a> request; the mouse class driver uses <a href="..\kbdmou\ni-kbdmou-ioctl_internal_mouse_connect.md">IOCTL_INTERNAL_MOUSE_CONNECT</a> .</p>
+
+
+The keyboard class driver uses this structure with an <a href="..\kbdmou\ni-kbdmou-ioctl_internal_keyboard_connect.md">IOCTL_INTERNAL_KEYBOARD_CONNECT</a> request; the mouse class driver uses <a href="..\kbdmou\ni-kbdmou-ioctl_internal_mouse_connect.md">IOCTL_INTERNAL_MOUSE_CONNECT</a> .
+
+

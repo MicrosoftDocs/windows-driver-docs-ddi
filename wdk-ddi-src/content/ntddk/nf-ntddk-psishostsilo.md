@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4C6D85F2-C9B8-425D-A307-5609E1C1465B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsIsHostSilo
+ms.keywords: ntddk/PsIsHostSilo, PsIsHostSilo routine [Kernel-Mode Driver Architecture], kernel.psishostsilo, PsIsHostSilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1607
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PsIsHostSilo
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	PsIsHostSilo
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # PsIsHostSilo function
 
 
-
 ## -description
+
+
 This routine  will check if the supplied <i>Silo</i> is the host silo.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN PsIsHostSilo(
@@ -54,13 +64,17 @@ BOOLEAN PsIsHostSilo(
 
 ## -parameters
 
+
+
+
 ### -param Silo [in]
 
 The  silo to evaluate.
 
 
 ## -returns
+
+
 Returns <b>true</b> if the specified silo is the host silo; otherwise, <b>false</b>.
 
 
-## -remarks

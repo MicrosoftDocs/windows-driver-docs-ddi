@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5ee72ae9-0548-480f-84de-4c09ae4be507
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _KEY_CACHED_INFORMATION, KEY_CACHED_INFORMATION, *PKEY_CACHED_INFORMATION
+ms.keywords: ntddk/PKEY_CACHED_INFORMATION, PKEY_CACHED_INFORMATION, _KEY_CACHED_INFORMATION, KEY_CACHED_INFORMATION, ntddk/KEY_CACHED_INFORMATION, PKEY_CACHED_INFORMATION structure pointer [Kernel-Mode Driver Architecture], KEY_CACHED_INFORMATION structure [Kernel-Mode Driver Architecture], *PKEY_CACHED_INFORMATION, kstruct_c_72dd8fcc-4983-49e0-af00-57b8fbbf3964.xml, kernel.key_cached_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KEY_CACHED_INFORMATION
-req.alt-loc: Ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: KEY_CACHED_INFORMATION, *PKEY_CACHED_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddk.h
+apiname: 
+-	KEY_CACHED_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: *PKEY_CACHED_INFORMATION, KEY_CACHED_INFORMATION
 ---
 
 # _KEY_CACHED_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>KEY_CACHED_INFORMATION</b> structure holds the cached information available for a registry key or subkey.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _KEY_CACHED_INFORMATION {
@@ -60,6 +70,9 @@ typedef struct _KEY_CACHED_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field LastWriteTime
 
@@ -101,36 +114,24 @@ The maximum length, in bytes, of a value entry data field.
 The size, in bytes, of the key name.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
+
 <a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
+
+<a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a>
+
 <a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+
+<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
+
  
 
  

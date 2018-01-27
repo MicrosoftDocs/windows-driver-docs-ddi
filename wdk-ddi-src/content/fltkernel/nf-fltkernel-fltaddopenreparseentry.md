@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: D58AB46A-0D87-45B5-8C58-E99ED0F906D2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltAddOpenReparseEntry
+ms.keywords: fltkernel/FltAddOpenReparseEntry, FltAddOpenReparseEntry, ifsk.fltaddopenreparseentry, FltAddOpenReparseEntry routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1607
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltAddOpenReparseEntry
-req.alt-loc: fltKernel.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: _IRQL_requires_max_(APC_LEVEL)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	fltKernel.h
+apiname: 
+-	FltAddOpenReparseEntry
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltAddOpenReparseEntry function
 
 
-
 ## -description
+
+
 This routine adds a caller allocated open reparse structure, <a href="..\ntifs\ns-ntifs-_open_reparse_list_entry.md">OPEN_REPARSE_LIST_ENTRY</a>,  into a create operation.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltAddOpenReparseEntry(
@@ -55,6 +65,9 @@ NTSTATUS FltAddOpenReparseEntry(
 
 
 ## -parameters
+
+
+
 
 ### -param Filter [in]
 
@@ -72,18 +85,43 @@ The open reparse information to add, of type <a href="..\ntifs\ns-ntifs-_open_re
 
 
 ## -returns
+
+
 The following NT status codes are returned.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER_2</b></dt>
-</dl>Status code if <i>Data</i> is not a create operation. This is an error code.
+</dl>
+</td>
+<td width="60%">
+Status code if <i>Data</i> is not a create operation. This is an error code.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The operation completed successfully.
+</dl>
+</td>
+<td width="60%">
+The operation completed successfully.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This routine adds an ECP list and/or ECP as needed.  <i>Filter</i> is referenced
     for the lifetime of the open reparse entry structure, not the ECP itself,
     which is conceptually independent of any specific filter.
@@ -91,12 +129,11 @@ This routine adds an ECP list and/or ECP as needed.  <i>Filter</i> is referenced
 Use <a href="..\fltkernel\nf-fltkernel-fltremoveopenreparseentry.md">FltRemoveOpenReparseEntry</a> to remove the open reparse structure from the create operation.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltremoveopenreparseentry.md">FltRemoveOpenReparseEntry</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: EAC78940-318D-4785-9D7E-410B8AB2F4C7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB_TRANSFER_BUFFER_FORMAT, SPB_TRANSFER_BUFFER_FORMAT, *PSPB_TRANSFER_BUFFER_FORMAT
+ms.keywords: spb/SpbTransferBufferFormatInvalid, SpbTransferBufferFormatList, SPB_TRANSFER_BUFFER_FORMAT enumeration [Buses], spb/SpbTransferBufferFormatList, SPB.spb_transfer_buffer_format, SpbTransferBufferFormatMdl, *PSPB_TRANSFER_BUFFER_FORMAT, spb/SpbTransferBufferFormatMax, spb/SPB_TRANSFER_BUFFER_FORMAT, SpbTransferBufferFormatSimpleNonPaged, SpbTransferBufferFormatMax, spb/SpbTransferBufferFormatSimpleNonPaged, spb/SpbTransferBufferFormatSimple, SPB_TRANSFER_BUFFER_FORMAT, SpbTransferBufferFormatInvalid, SpbTransferBufferFormatSimple, spb/SpbTransferBufferFormatMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SPB_TRANSFER_BUFFER_FORMAT
-req.alt-loc: Spb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Spb.h
+apiname: 
+-	SPB_TRANSFER_BUFFER_FORMAT
+product: Windows
+targetos: Windows
 req.typenames: SPB_TRANSFER_BUFFER_FORMAT, *PSPB_TRANSFER_BUFFER_FORMAT
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SPB_TRANSFER_BUFFER_FORMAT enumeration
 
 
-
 ## -description
+
+
 The <b>SPB_TRANSFER_BUFFER_FORMAT</b> enumeration specifies the format of the buffer that is described by an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -59,6 +69,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field SpbTransferBufferFormatInvalid
 
@@ -91,15 +104,16 @@ Reserved for use by the operating system.
 
 
 ## -remarks
+
+
 The <b>Format</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a> structure is an <b>SPB_TRANSFER_BUFFER_FORMAT</b> enumeration value.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a>
-</dt>
-</dl>
+
  
 
  

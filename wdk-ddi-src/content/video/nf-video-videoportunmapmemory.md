@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 224c8483-56b8-4341-8347-fa119ec04024
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortUnmapMemory
+ms.keywords: display.videoportunmapmemory, VideoPortUnmapMemory, VideoPortUnmapMemory function [Display Devices], VideoPort_Functions_394a66fa-47cd-4e0e-8467-3c3562d27822.xml, video/VideoPortUnmapMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortUnmapMemory
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortUnmapMemory
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortUnmapMemory function
 
 
-
 ## -description
+
+
 The <b>VideoPortUnmapMemory</b> function releases a mapping between a logical address range for the adapter and a virtual address range in the user-mode address space of a particular thread. This function is the complement of <a href="..\video\nf-video-videoportmapmemory.md">VideoPortMapMemory</a>.
 
 
-
 ## -syntax
+
 
 ````
 VP_STATUS VideoPortUnmapMemory(
@@ -57,35 +67,42 @@ VP_STATUS VideoPortUnmapMemory(
 
 ## -parameters
 
-### -param HwDeviceExtension 
+
+
+
+### -param HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
 
-### -param VirtualAddress 
+### -param VirtualAddress
 
 Pointer to a virtual address within the mapped range to be released.
 
 
-### -param ProcessHandle 
+### -param ProcessHandle
 
 Should be set to zero, or to the process handle specified when the miniport driver called <b>VideoPortMapMemory</b>.
 
 
 ## -returns
+
+
 <b>VideoPortUnmapMemory</b> returns NO_ERROR if the mapping was released. Otherwise, it returns ERROR_INVALID_PARAMETER.
 
 
+
 ## -remarks
+
+
 A miniport driver cannot release a subrange of the mapping between a logical device range and the user-space virtual address range of its corresponding display driver. Whether the <i>VirtualAddress</i> parameter is the base virtual address for the mapped range that was returned by <b>VideoPortMapMemory</b>, or is an offset into that mapped virtual range, <b>VideoPortUnmapMemory</b> releases the mapping for the full range. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nf-video-videoportmapmemory.md">VideoPortMapMemory</a>
-</dt>
-</dl>
+
  
 
  

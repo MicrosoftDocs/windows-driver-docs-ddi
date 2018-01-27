@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 0C95831F-2E20-461C-8478-9A40C1F063E2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxUsbDeviceRemoteWakeNotification
+ms.keywords: UcxUsbDeviceRemoteWakeNotification method [Buses], buses._ucxusbdeviceremotewakenotification, UcxUsbDeviceRemoteWakeNotification, ucxusbdevice/UcxUsbDeviceRemoteWakeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: UcxUsbDeviceRemoteWakeNotification
-req.alt-loc: ucxusbdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ucxusbdevice.h
+apiname: 
+-	UcxUsbDeviceRemoteWakeNotification
+product: Windows
+targetos: Windows
 req.typenames: UCX_USBDEVICE_CHARACTERISTIC_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # UcxUsbDeviceRemoteWakeNotification function
 
 
-
 ## -description
+
+
 Notifies UCX that a remote wake signal from the device is received.
 
 
-
 ## -syntax
+
 
 ````
 void UcxUsbDeviceRemoteWakeNotification(
@@ -55,6 +65,9 @@ void UcxUsbDeviceRemoteWakeNotification(
 
 
 ## -parameters
+
+
+
 
 ### -param UsbDevice [in]
 
@@ -67,20 +80,24 @@ The interface number that sent the remote wake notification.
 
 
 ## -returns
+
+
 This method does not return a value.
 
 
+
 ## -remarks
+
+
     This function completes the pending remote wake request from the request driver such as the hub driver or usbccgp driver. If no such request is found, this notification is ignored.
 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 75304f5d-8a07-4db5-9f20-5764ff5d2ef6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice, IWDFDevice::RetrieveDeviceName, RetrieveDeviceName
+ms.keywords: RetrieveDeviceName, umdf.iwdfdevice_retrievedevicename, IWDFDevice, wudfddi/IWDFDevice::RetrieveDeviceName, IWDFDevice interface, RetrieveDeviceName method, RetrieveDeviceName method, IWDFDevice interface, UMDFDeviceObjectRef_6d24ee3e-719a-4408-90ea-89cc9315b8cb.xml, IWDFDevice::RetrieveDeviceName, RetrieveDeviceName method, wdf.iwdfdevice_retrievedevicename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.5
-req.alt-api: IWDFDevice.RetrieveDeviceName
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFDevice.RetrieveDeviceName
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IWDFDevice::RetrieveDeviceName method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrieveDeviceName</b> method retrieves the name of an underlying kernel-mode device.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT RetrieveDeviceName(
@@ -57,6 +67,9 @@ HRESULT RetrieveDeviceName(
 
 
 ## -parameters
+
+
+
 
 ### -param pDeviceName [out]
 
@@ -73,6 +86,8 @@ If the buffer at <i>pDeviceName</i> is non-<b>NULL</b>, the framework returns th
 
 
 ## -returns
+
+
 <b>RetrieveDeviceName</b> returns S_OK for the following scenarios: 
 
 
@@ -89,18 +104,18 @@ If the buffer at <i>pDeviceName</i> is non-<b>NULL</b>, the framework returns th
 
 
 
+
 ## -remarks
+
+
 The device name is not the physical device object (PDO) name. Instead, the device name is the name of the reflector. The driver must target all I/O to this device object.
 
-The following code example shows how to retrieve the name of an underlying kernel-mode device.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-</dt>
-</dl>
+
  
 
  

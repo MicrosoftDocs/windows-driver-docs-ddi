@@ -7,8 +7,8 @@ old-location: netvista\ril_managecalls_v3.htm
 old-project: netvista
 ms.assetid: 4c301656-8918-46f2-8f8f-3ceff2af8e94
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RIL_ManageCalls_V3
+ms.date: 1/18/2018
+ms.keywords: rilapi/RIL_ManageCalls_V3, RIL_ManageCalls_V3, RIL_ManageCalls_V3 method [Network Drivers Starting with Windows Vista], netvista.ril_managecalls_v3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RIL_ManageCalls_V3
-req.alt-loc: rilapi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,25 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-req.typenames: *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapi.h
+apiname: 
+-	RIL_ManageCalls_V3
+product: Windows
+targetos: Windows
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 
 # RIL_ManageCalls_V3 function
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
 
 
-
 ## -syntax
+
 
 ````
 HRESULT  RIL_ManageCalls_V3(
@@ -63,29 +73,40 @@ HRESULT  RIL_ManageCalls_V3(
 
 ## -parameters
 
-### -param hRil 
 
 
-### -param lpContext 
+
+### -param hRil
 
 
-### -param dwExecutor 
+
+### -param lpContext
 
 
-### -param dwCommand 
+
+### -param dwExecutor
 
 
-### -param dwID 
+
+### -param dwCommand
 
 
-### -param lprcmOfferAnswer 
+
+### -param dwID
 
 
-### -param lpraAddress 
+
+### -param lprcmOfferAnswer
+
+
+
+### -param lpraAddress
+
 
 
 ## -returns
+
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
-## -remarks

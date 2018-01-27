@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 90f412de-073f-4889-adf3-898cde0206b7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortWaveRTStream, IPortWaveRTStream::MapAllocatedPages, MapAllocatedPages
+ms.keywords: audio.iportwavertstream_mapallocatedpages, MapAllocatedPages method [Audio Devices], IPortWaveRTStream interface [Audio Devices], MapAllocatedPages method, MapAllocatedPages, IPortWaveRTStream, IPortWaveRTStream::MapAllocatedPages, MapAllocatedPages method [Audio Devices], IPortWaveRTStream interface, portcls/IPortWaveRTStream::MapAllocatedPages, audmp-routines_914e2039-e45b-44c5-8b29-0bcc6da901c3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later Windows operatin
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPortWaveRTStream.MapAllocatedPages
-req.alt-loc: Portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: Passive level.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Portcls.h
+apiname: 
+-	IPortWaveRTStream.MapAllocatedPages
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPortWaveRTStream::MapAllocatedPages method
 
 
-
 ## -description
+
+
 The <code>MapAllocatedPages</code> method maps a list of previously allocated physical pages into a contiguous block of virtual memory that is accessible from kernel-mode.
 
 
-
 ## -syntax
+
 
 ````
 PVOID MapAllocatedPages(
@@ -54,6 +64,9 @@ PVOID MapAllocatedPages(
 
 
 ## -parameters
+
+
+
 
 ### -param MemoryDescriptorList [in]
 
@@ -66,10 +79,15 @@ Specifies the cache type. Set this parameter to one of the following <a href="..
 
 
 ## -returns
+
+
 <code>MapAllocatedPages</code> returns the starting address of the mapped buffer in virtual memory. If the method is unable to map the buffer, it returns <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 Since the Windows audio stack does not support a mechanism to express memory access alignment requirements for buffers, audio drivers must select a caching type for mapped memory buffers that does not impose platform-specific alignment requirements. In other words, the caching type used by the audio driver for mapped memory buffers, must not make assumptions about the memory alignment requirements for any specific platform.
 
 This method maps the physical memory pages in the MDL  into kernel-mode virtual memory. Typically, the miniport driver calls this method if it requires software access to the scatter-gather list for an audio buffer. In this case, the storage for the scatter-gather list must have been allocated by the <b>IPortWaveRTStream::AllocatePagesForMdl</b> or <b>IPortWaveRTStream::AllocateContiguousPagesForMdl</b> method. 
@@ -79,30 +97,23 @@ A WaveRT miniport driver should not require software access to the audio buffer 
 <code>MapAllocatedPages</code> is similar in operation to the <a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a> function. The miniport driver is responsible for unmapping the memory prior to freeing it. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff536934">IPortWaveRTStream::UnmapAllocatedPages</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536924">IPortWaveRTStream::AllocateContiguousPagesForMdl</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536934">IPortWaveRTStream::UnmapAllocatedPages</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
-</dt>
-<dt>
+
+<a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536924">IPortWaveRTStream::AllocateContiguousPagesForMdl</a>
+
 <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536934">IPortWaveRTStream::UnmapAllocatedPages</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
  
 
  

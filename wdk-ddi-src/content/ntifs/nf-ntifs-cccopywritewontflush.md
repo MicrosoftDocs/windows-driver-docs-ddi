@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ad2b3372-f8b4-49dc-ba20-2ee89d60f41f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcCopyWriteWontFlush
+ms.keywords: ccref_a8540235-ac2e-4d04-8153-95e2dae5a650.xml, ifsk.cccopywritewontflush, CcCopyWriteWontFlush function [Installable File System Drivers], ntifs/CcCopyWriteWontFlush, CcCopyWriteWontFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcCopyWriteWontFlush
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcCopyWriteWontFlush
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcCopyWriteWontFlush function
 
 
-
 ## -description
+
+
 The <b>CcCopyWriteWontFlush</b> macro determines whether the amount of data to be copied in a call to <a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a> is small enough not to require immediate flushing to disk if <b>CcCopyWrite</b> is called with <i>Wait</i> set to <b>FALSE</b>.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN CcCopyWriteWontFlush(
@@ -55,6 +65,9 @@ BOOLEAN CcCopyWriteWontFlush(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -72,24 +85,20 @@ Length in bytes of the data to be copied.
 
 
 ## -returns
+
+
 <b>CcCopyWriteWontFlush</b> returns <b>TRUE</b> if the amount of data to be copied in a call to <a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a> is small enough not to require immediate flushing to disk, <b>FALSE</b> otherwise.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccdeferwrite.md">CcDeferWrite</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
+
  
 
  

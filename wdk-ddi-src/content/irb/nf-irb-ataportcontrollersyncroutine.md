@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6b39e89e-21cc-404f-b9fc-6cad0b5c8d22
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortControllerSyncRoutine
+ms.keywords: storage.ataportcontrollersyncroutine, atartns_1fdbc2cb-49db-4121-aaaa-8a50c2a6cbde.xml, irb/AtaPortControllerSyncRoutine, AtaPortControllerSyncRoutine, AtaPortControllerSyncRoutine routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AtaPortControllerSyncRoutine
-req.alt-loc: irb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	irb.h
+apiname: 
+-	AtaPortControllerSyncRoutine
+product: Windows
+targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
 
 # AtaPortControllerSyncRoutine function
 
 
-
 ## -description
+
+
 The <b>AtaPortControllerSyncRoutine</b> routine provides synchronized access to data structures that are shared across all channels on a controller.
-
-
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 BOOLEAN __inline AtaPortControllerSyncRoutine(
@@ -55,32 +65,58 @@ BOOLEAN __inline AtaPortControllerSyncRoutine(
 
 ## -parameters
 
+
+
+
 ### -param ChannelExtension [in]
 
 A pointer to the channel extension. 
 
 
-### -param ControllerSyncRoutine [in]
+### -param CallBackRoutine
+
+TBD
+
+
+
+#### - ControllerSyncRoutine [in]
 
 A pointer to the routine to call. 
 
 
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 The miniport driver uses this routine to synchronize access to data structures that are shared across channels on a controller. The miniport driver, however, should use this routine very sparingly.
 
 The <i>ControllerSyncRoutine</i> function pointer is declared in <i>Irb.h</i> as follows:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef
+VOID
+(*IDE_HW_DPC) (
+  IN PVOID ChannelExtension
+  );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\irb\nf-irb-ataportrequestsynchronizedroutine.md">AtaPortRequestSynchronizedRoutine</a>
-</dt>
-</dl>
+
  
 
  

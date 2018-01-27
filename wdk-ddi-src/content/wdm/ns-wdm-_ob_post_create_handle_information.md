@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9c33fc12-5997-4a5c-bf74-63df880055e7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _OB_POST_CREATE_HANDLE_INFORMATION, *POB_POST_CREATE_HANDLE_INFORMATION, OB_POST_CREATE_HANDLE_INFORMATION
+ms.keywords: OB_POST_CREATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], POB_POST_CREATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _OB_POST_CREATE_HANDLE_INFORMATION, kernel.ob_post_create_handle_information, OB_POST_CREATE_HANDLE_INFORMATION, kstruct_c_465a5f93-d5e9-4640-b4ae-7fa17d2f9493.xml, wdm/POB_POST_CREATE_HANDLE_INFORMATION, *POB_POST_CREATE_HANDLE_INFORMATION, POB_POST_CREATE_HANDLE_INFORMATION, wdm/OB_POST_CREATE_HANDLE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2008 and later versions o
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OB_POST_CREATE_HANDLE_INFORMATION
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	OB_POST_CREATE_HANDLE_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: *POB_POST_CREATE_HANDLE_INFORMATION, OB_POST_CREATE_HANDLE_INFORMATION
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _OB_POST_CREATE_HANDLE_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>OB_POST_CREATE_HANDLE_INFORMATION</b> structure provides information  to a <a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a> routine about a thread or process handle that has been opened.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _OB_POST_CREATE_HANDLE_INFORMATION {
@@ -55,23 +65,20 @@ typedef struct _OB_POST_CREATE_HANDLE_INFORMATION {
 
 ## -struct-fields
 
+
+
+
 ### -field GrantedAccess
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that specifies the access that is granted for the handle.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
  
 
  

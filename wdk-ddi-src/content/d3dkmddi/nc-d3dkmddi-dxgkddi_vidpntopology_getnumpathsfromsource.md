@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6c5ee84d-e106-47fc-88bd-b184e9cdd561
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgk_vidpntopology_interface_pfngetnumpathsfromsource, pfnGetNumPathsFromSource callback function [Display Devices], pfnGetNumPathsFromSource, DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE, DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE, d3dkmddi/pfnGetNumPathsFromSource, VidPnFunctions_6c0bd823-4803-474c-9948-22282c5b1e66.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnGetNumPathsFromSource
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	pfnGetNumPathsFromSource
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE callback
 
 
-
 ## -description
+
+
 The <b>pfnGetNumPathsFromSource</b> function returns the number of video present paths that contain a specified video present source.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE pfnGetNumPathsFromSource;
@@ -58,6 +68,9 @@ NTSTATUS APIENTRY pfnGetNumPathsFromSource(
 
 
 ## -parameters
+
+
+
 
 ### -param hVidPnTopology [in]
 
@@ -75,21 +88,54 @@ NTSTATUS APIENTRY pfnGetNumPathsFromSource(
 
 
 ## -returns
+
+
 The <b>pfnGetNumPathsFromSource</b> function returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The function succeeded.
+</dl>
+</td>
+<td width="60%">
+The function succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY</b></dt>
-</dl>The handle supplied in <i>hVidPnTopology </i>was invalid.
+</dl>
+</td>
+<td width="60%">
+The handle supplied in <i>hVidPnTopology </i>was invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The pointer supplied in <i>pNumPathsFromSource</i> was in valid.
+</dl>
+</td>
+<td width="60%">
+The pointer supplied in <i>pNumPathsFromSource</i> was in valid.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A topology is a collection paths, each of which contains a (source, target) pair. It is possible for a particular source to appear in more than one path. For example, one source can be paired with two distinct targets in the case of a clone view.
 
 VidPN source identifiers are assigned by the operating system. <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>, implemented by the display miniport driver, returns the number N of video present sources supported by the display adapter. Then the operating system assigns identifiers 0, 1, 2, ... N - 1.
@@ -99,12 +145,11 @@ The D3DKMDT_HVIDPNTOPOLOGY data type is defined in <i>D3dkmdt.h</i>.
 The D3DDDI_VIDEO_PRESENT_SOURCE_ID data type is defined in <i>D3dukmdt.h</i>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_getnumpaths.md">pfnGetNumPaths</a>
-</dt>
-</dl>
+
  
 
  

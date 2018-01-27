@@ -7,8 +7,8 @@ old-location: debugger\extremotetyped_outtypedefinition.htm
 old-project: debugger
 ms.assetid: f7d24a3b-b5a8-4924-85d9-8bf7983b95fa
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ExtRemoteTyped, ExtRemoteTyped::OutTypeDefinition, OutTypeDefinition
+ms.date: 1/19/2018
+ms.keywords: debugger.extremotetyped_outtypedefinition, ExtRemoteTyped::OutTypeDefinition, ExtRemoteTyped, OutTypeDefinition method [Windows Debugging], OutTypeDefinition, EngExtCpp_Ref_1186a4c5-f5d3-4f87-b8d0-b4a10cc2b4e7.xml, ExtRemoteTyped interface [Windows Debugging], OutTypeDefinition method, OutTypeDefinition method [Windows Debugging], ExtRemoteTyped interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExtRemoteTyped.OutTypeDefinition
-req.alt-loc: engextcpp.hpp
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-req.typenames: *PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	engextcpp.hpp
+apiname: 
+-	ExtRemoteTyped.OutTypeDefinition
+product: Windows
+targetos: Windows
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteTyped::OutTypeDefinition method
 
 
-
 ## -description
+
+
 The <b>OutTypeDefinition</b> method prints the type of the typed data represented by this object.
 
 
-
 ## -syntax
+
 
 ````
 void OutTypeDefinition();
@@ -53,13 +63,19 @@ void OutTypeDefinition();
 ## -parameters
 
 
+
+
+
 ## -returns
-This method does not return a value.
+
 
 This method does not return a value.
 
-This method does not return a value.
 
 
 ## -remarks
-The type is sent to the debugger engine's output callbacks.</p>
+
+
+The type is sent to the debugger engine's output callbacks.
+
+

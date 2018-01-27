@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 488DA7B7-FB11-4AEF-902C-E461A281DF68
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_PLATFORM_IDLE_STATE_UPDATE, PEP_PLATFORM_IDLE_STATE_UPDATE, *PPEP_PLATFORM_IDLE_STATE_UPDATE
+ms.keywords: kernel.pep_platform_idle_state_update, PEP_PLATFORM_IDLE_STATE_UPDATE structure [Kernel-Mode Driver Architecture], pepfx/PEP_PLATFORM_IDLE_STATE_UPDATE, _PEP_PLATFORM_IDLE_STATE_UPDATE, PPEP_PLATFORM_IDLE_STATE_UPDATE, *PPEP_PLATFORM_IDLE_STATE_UPDATE, PEP_PLATFORM_IDLE_STATE_UPDATE, PPEP_PLATFORM_IDLE_STATE_UPDATE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PLATFORM_IDLE_STATE_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_PLATFORM_IDLE_STATE_UPDATE
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_PLATFORM_IDLE_STATE_UPDATE
+product: Windows
+targetos: Windows
 req.typenames: PEP_PLATFORM_IDLE_STATE_UPDATE, *PPEP_PLATFORM_IDLE_STATE_UPDATE
 ---
 
 # _PEP_PLATFORM_IDLE_STATE_UPDATE structure
 
 
-
 ## -description
+
+
 The <b>PEP_PLATFORM_IDLE_STATE_UPDATE</b> structure contains the updated properties of a platform idle state.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_PLATFORM_IDLE_STATE_UPDATE {
@@ -55,6 +65,9 @@ typedef struct _PEP_PLATFORM_IDLE_STATE_UPDATE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -72,15 +85,16 @@ The minimum amount of time, specified in 100-nanosecond units, that the platform
 
 
 ## -remarks
+
+
 The <i>Update</i> parameter of the <a href="..\pepfx\nc-pepfx-pofxcallbackupdateplatformidlestate.md">UpdatePlatformIdleState</a> routine is a pointer to a <b>PEP_PLATFORM_IDLE_STATE_UPDATE</b> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\pepfx\nc-pepfx-pofxcallbackupdateplatformidlestate.md">UpdatePlatformIdleState</a>
-</dt>
-</dl>
+
  
 
  

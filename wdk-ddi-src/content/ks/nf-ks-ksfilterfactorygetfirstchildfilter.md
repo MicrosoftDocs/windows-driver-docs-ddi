@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 72eb23aa-4f0e-4ef5-baee-c0735253684e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterFactoryGetFirstChildFilter
+ms.keywords: ks/KsFilterFactoryGetFirstChildFilter, avfunc_1e512072-d270-48d9-8289-feaf8d2bcf35.xml, KsFilterFactoryGetFirstChildFilter function [Streaming Media Devices], stream.ksfilterfactorygetfirstchildfilter, KsFilterFactoryGetFirstChildFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsFilterFactoryGetFirstChildFilter
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KsFilterFactoryGetFirstChildFilter
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsFilterFactoryGetFirstChildFilter function
 
 
-
 ## -description
+
+
 The<b> KsFilterFactoryGetFirstChildFilter</b> function returns the first instantiated filter created by <i>FilterFactory</i>.
 
 
-
 ## -syntax
+
 
 ````
 PKSFILTER __inline KsFilterFactoryGetFirstChildFilter(
@@ -54,34 +64,38 @@ PKSFILTER __inline KsFilterFactoryGetFirstChildFilter(
 
 ## -parameters
 
+
+
+
 ### -param FilterFactory [in]
 
 A pointer to the <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> structure for which to find the first instantiated child filter.
 
 
 ## -returns
+
+
 <b>KsFilterFactoryGetFirstChildFilter</b> returns a pointer to the first instantiated <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure created by <i>FilterFactory</i>. If there are no instantiated filters created by <i>FilterFactory</i>, <b>NULL</b> is returned.
 
 
+
 ## -remarks
+
+
 This call is an inline function call to <a href="..\ks\nf-ks-ksgetfirstchild.md">KsGetFirstChild</a>. Note that the object hierarchy is guaranteed to be stable only while the appropriate mutex is held, in this case the device mutex. For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksgetfirstchild.md">KsGetFirstChild</a>
-</dt>
-<dt>
+
+<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
 <a href="..\ks\nf-ks-ksfiltergetnextsiblingfilter.md">KsFilterGetNextSiblingFilter</a>
-</dt>
-</dl>
+
  
 
  

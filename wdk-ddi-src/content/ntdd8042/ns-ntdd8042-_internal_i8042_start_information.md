@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 8ceaa9de-195f-4a89-bc3e-323256097248
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _INTERNAL_I8042_START_INFORMATION, *PINTERNAL_I8042_START_INFORMATION, INTERNAL_I8042_START_INFORMATION
+ms.keywords: ntdd8042/INTERNAL_I8042_START_INFORMATION, _INTERNAL_I8042_START_INFORMATION, *PINTERNAL_I8042_START_INFORMATION, PINTERNAL_I8042_START_INFORMATION, i8042ref_bf7bcffd-5c6b-47b4-be53-2b543990b2fa.xml, ntdd8042/PINTERNAL_I8042_START_INFORMATION, INTERNAL_I8042_START_INFORMATION, PINTERNAL_I8042_START_INFORMATION structure pointer [Human Input Devices], hid.internal_i8042_start_information, INTERNAL_I8042_START_INFORMATION structure [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: INTERNAL_I8042_START_INFORMATION
-req.alt-loc: ntdd8042.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PINTERNAL_I8042_START_INFORMATION, INTERNAL_I8042_START_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntdd8042.h
+apiname: 
+-	INTERNAL_I8042_START_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: INTERNAL_I8042_START_INFORMATION, *PINTERNAL_I8042_START_INFORMATION
 ---
 
 # _INTERNAL_I8042_START_INFORMATION structure
 
 
-
 ## -description
-INTERNAL_I8042_START_INFORMATION specifies the <a href="wdkgloss.i#wdkgloss.interrupt_object#wdkgloss.interrupt_object"><i>interrupt object</i></a> that an optional, vendor-supplied, upper-level filter device driver can use to synchronize its operation with an I8042prt ISR. 
 
+
+INTERNAL_I8042_START_INFORMATION specifies the <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">interrupt object</a> that an optional, vendor-supplied, upper-level filter device driver can use to synchronize its operation with an I8042prt ISR. 
 
 
 ## -syntax
+
 
 ````
 typedef struct _INTERNAL_I8042_START_INFORMATION {
@@ -55,6 +65,9 @@ typedef struct _INTERNAL_I8042_START_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -72,18 +85,18 @@ Reserved for future use.
 
 
 ## -remarks
+
+
 This structure is used with <a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_keyboard_start_information.md">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a> and <a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_mouse_start_information.md">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a> requests.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_keyboard_start_information.md">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_mouse_start_information.md">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

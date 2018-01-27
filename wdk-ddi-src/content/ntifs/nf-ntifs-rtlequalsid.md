@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4976fc27-c28a-46ec-ac07-19505cda8f14
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlEqualSid
+ms.keywords: ifsk.rtlequalsid, RtlEqualSid, ntifs/RtlEqualSid, RtlEqualSid routine [Installable File System Drivers], rtlref_bc81c0ad-e0e6-4133-a423-4f6c4c264286.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlEqualSid
-req.alt-loc: NtosKrnl.exe,Ntdll.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: Any
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+-	Ntdll.dll
+apiname: 
+-	RtlEqualSid
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlEqualSid function
 
 
-
 ## -description
+
+
 The <b>RtlEqualSid</b> routine determines whether two security identifier (SID) values are equal. Two SIDs must match exactly to be considered equal. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN RtlEqualSid(
@@ -54,6 +65,9 @@ BOOLEAN RtlEqualSid(
 
 
 ## -parameters
+
+
+
 
 ### -param Sid1 [in]
 
@@ -66,28 +80,29 @@ Pointer to the second SID structure to compare. Must point to a valid SID.
 
 
 ## -returns
+
+
 <b>RtlEqualSid</b> returns <b>TRUE</b> if the SID structures are equal, <b>FALSE</b> otherwise. If either SID structure is invalid, the return value is undefined. 
 
 
+
 ## -remarks
+
+
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtlcopysid.md">RtlCopySid</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
+
+<a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
+
  
 
  

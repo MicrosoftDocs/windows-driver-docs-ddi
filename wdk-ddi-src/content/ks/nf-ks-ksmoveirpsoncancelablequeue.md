@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1f6b4d93-fca8-40da-b87e-c95169f142ea
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsMoveIrpsOnCancelableQueue
+ms.keywords: ksfunc_e01b21f7-96b7-4a6c-b6cb-3667d7b6b4dc.xml, KsMoveIrpsOnCancelableQueue function [Streaming Media Devices], ks/KsMoveIrpsOnCancelableQueue, KsMoveIrpsOnCancelableQueue, stream.ksmoveirpsoncancelablequeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsMoveIrpsOnCancelableQueue
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsMoveIrpsOnCancelableQueue
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsMoveIrpsOnCancelableQueue function
 
 
-
 ## -description
+
+
 The <b>KsMoveIrpsOnCancelableQueue</b> function moves the specified IRPs from the <i>SourceList</i> parameter to the <i>DestinationList </i>parameter depending on the value returned from the minidriver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567187">KStrIrpListCallback</a> function.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsMoveIrpsOnCancelableQueue(
@@ -59,6 +70,9 @@ NTSTATUS KsMoveIrpsOnCancelableQueue(
 
 
 ## -parameters
+
+
+
 
 ### -param SourceList [in, out]
 
@@ -85,21 +99,26 @@ Optionally contains a pointer to driver's spin lock for destination queue access
 Indicates whether the IRPs should be enumerated from the head or the tail of the source queue. Any IRPs that are moved are placed on the destination queue's opposite end so that ordering is maintained.
 
 
-### -param ListCallback  [in]
+### -param ListCallback [in]
 
 Specifies the minidriver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567187">KStrIrpListCallback</a> function to call to indicate whether a specific IRP should be moved from <i>SourceList</i> to <i>DestinationList</i>, or if enumeration should be terminated.
 
 
-### -param Context  [in]
+### -param Context [in]
 
 Context passed to <i>ListCallback</i>.
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS if the list was completely enumerated; otherwise, returns any warning or error returned by the minidriver-defined <i>KStrIrpListCallback</i> callback function that interrupted enumeration.
 
 
+
 ## -remarks
+
+
 An IRP is moved if the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567187">KStrIrpListCallback</a> function indicates that it should be moved, whether it is currently acquired. If <i>KStrIrpListCallback </i>returns STATUS_SUCCESS, the IRP is moved. If it returns STATUS_NO_MATCH, the IRP is not moved. Any other return warning or error value will terminate enumeration and be returned by the function. The STATUS_NO_MATCH value should not be returned as an error by <i>KStrIrpListCallback</i>. <i>KStrIrpListCallback</i> is called at DISPATCH_LEVEL. <i>KStrIrpListCallback</i> is always called at least once at the end with a <b>NULL</b> IRP value to complete list enumeration.
 
 <b>KsMoveIrpsOnCancelableQueue</b> continues through the list until the callback function indicates that the search should be terminated, or the end of the list is reached. <b>KsMoveIrpsOnCancelableQueue</b> minimizes the use of the system-wide Cancel Spin Lock by using the provided spin locks to synchronize access when possible. <b>KsMoveIrpsOnCancelableQueue</b> does not allow the cancel routine to be modified while moving IRPs.
@@ -107,12 +126,11 @@ An IRP is moved if the <a href="https://msdn.microsoft.com/library/windows/hardw
 The function can be called at DISPATCH_LEVEL or lower.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567187">KStrIrpListCallback</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b3bd9b9f-e859-4d7f-9735-5995cb3ef6e8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxIsThisACscAgentOpen
+ms.keywords: RxIsThisACscAgentOpen, ifsk.rxisthisacscagentopen, RxIsThisACscAgentOpen function [Installable File System Drivers], rxref_1d515511-d1dd-4090-9c9d-b87960d56f5c.xml, rxprocs/RxIsThisACscAgentOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The RxIsThisACscAgentOpen routine is only available o
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxIsThisACscAgentOpen
-req.alt-loc: rxprocs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rxprocs.h
+apiname: 
+-	RxIsThisACscAgentOpen
+product: Windows
+targetos: Windows
+req.typenames: *PRX_CONTEXT, RX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
 # RxIsThisACscAgentOpen function
 
 
-
 ## -description
+
+
 <b>RxIsThisACscAgentOpen</b> determines if a file open was made by a user-mode client-side caching agent.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN RxIsThisACscAgentOpen(
@@ -55,30 +65,36 @@ BOOLEAN RxIsThisACscAgentOpen(
 
 ## -parameters
 
+
+
+
 ### -param RxContext [in]
 
 A pointer to the RX_CONTEXT structure.
 
 
 ## -returns
+
+
 <b>RxIsThisACscAgentOpen </b>returns <b>TRUE</b> on success or <b>FALSE</b> on failure. 
 
 
+
 ## -remarks
+
+
 <b>RxIsThisACscAgentOpen</b> is not useful for third-party network mini-redirectors since they cannot integrate into the existing client-side caching infrastructure.
 
 The <b>RxIsThisACscAgentOpen</b> routine is called internally by RDBSS when initializing a V_NET_ROOT structure. A network mini-redirector integrated with client-side caching might call <b>RxIsThisACscAgentOpen</b> as part of the <b>MRxCreateVNetRoot</b> callback routine provided by the network mini-redirector. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/866eba91-13b6-4b15-93de-4f627a635c92">The V_NET_ROOT Structure</a>
-</dt>
-<dt>
+
 <a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
-</dt>
-</dl>
+
  
 
  

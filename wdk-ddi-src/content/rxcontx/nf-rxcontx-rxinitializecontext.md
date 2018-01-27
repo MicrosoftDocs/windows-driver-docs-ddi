@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 71b595be-61ac-4a8f-af5e-d504e5091e0c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxInitializeContext
+ms.keywords: RxInitializeContext, ifsk.rxinitializecontext, rxcontx/RxInitializeContext, rxref_4092dc37-eda5-4293-ab39-bec3ed2753f6.xml, RxInitializeContext function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxInitializeContext
-req.alt-loc: rxcontx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rxcontx.h
+apiname: 
+-	RxInitializeContext
+product: Windows
+targetos: Windows
 req.typenames: *LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RxInitializeContext function
 
 
-
 ## -description
+
+
 <b>RxInitializeContext</b> initializes an existing RX_CONTEXT data structure. 
 
 
-
 ## -syntax
+
 
 ````
 VOID RxInitializeContext(
@@ -57,6 +67,9 @@ VOID RxInitializeContext(
 
 
 ## -parameters
+
+
+
 
 ### -param Irp [in, optional]
 
@@ -75,107 +88,115 @@ The set of initial values for <i>Flags</i> member of the RX_CONTEXT data structu
 
 
 
-### -param RX_CONTEXT_FLAG_WAIT
-
-When this value is set, the IRP should be not be posted for later execution by the file system process, but should be waited on to complete.
-
-
-### -param RX_CONTEXT_FLAG_MUST_SUCCEED
-
-When this value is set, the operation must succeed. This value is not currently used by RDBSS, but it may be used by network mini-redirector drivers. 
-
-
-### -param RX_CONTEXT_FLAG_MUST_SUCCEED_NONBLOCKING
-
-When this value is set, the operation must succeed for non-blocking operations. This value is not currently used by RDBSS, but it may be used by network mini-redirector drivers. 
-
-</dd>
-</dl>
-
 ### -param RxContext [in, out]
 
 Pointer to the RX_CONTEXT to be initialized.
 
 
+##### - InitialContextFlags.RX_CONTEXT_FLAG_WAIT
+
+When this value is set, the IRP should be not be posted for later execution by the file system process, but should be waited on to complete.
+
+
+##### - InitialContextFlags.RX_CONTEXT_FLAG_MUST_SUCCEED
+
+When this value is set, the operation must succeed. This value is not currently used by RDBSS, but it may be used by network mini-redirector drivers. 
+
+
+##### - InitialContextFlags.RX_CONTEXT_FLAG_MUST_SUCCEED_NONBLOCKING
+
+When this value is set, the operation must succeed for non-blocking operations. This value is not currently used by RDBSS, but it may be used by network mini-redirector drivers. 
+
+
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 <b>RxInitializeContext</b> is called internally by the <b>RxCreateRxContext</b> routine. So the <b>RxInitializeContext</b> routine would normally only be used by network min-redirector drivers that allocate RX_CONTEXT structures directly rather than calling the <b>RxCreateRxContext</b> routine to allocate and initialize an RX_CONTEXT structure. 
 
 If the <i>Irp</i> parameter is configured for asynchronous operation, then the <b>Flags</b> member of the RX_CONTEXT structure pointed to by <i>RxContext</i> also has the following value set:
 
 
 
-When this value is set, the RX_CONTEXT structure is tagged for asynchronous operation.
-
 RX_CONTEXT_FLAG_ASYNC_OPERATION is also set for the following conditions:
-
+<ul>
+<li>
 The <b>MajorFunction</b> member of the <i>Irp</i> is IRP_MJ_READ, IRP_MJ_WRITE, or IRP_MJ_DEVICE_CONTROL.
 
+</li>
+<li>
 The <b>MajorFunction</b> member of the <i>Irp</i> is an IRP_MJ_DIRECTORY_CONTROL and the <b>MinorFunction</b> member of the <i>IRP</i> is an IRP_MN_NOTIFY_CHANGE_DIRECTORY.
 
+</li>
+<li>
 The <b>MajorFunction</b> member of the <i>Irp</i> is an IRP_MJ_FILE_SYSTEM_CONTROL and <b>NetRoot</b> member of the associated FCB is not <b>NULL</b> and the <b>Type</b> member of the NET_ROOT is NET_ROOT_PIPE.
 
-If this is a recursive file system call (the TopLevelIrp member in the thread local storage is the current <i>Irp</i>) then the <b>Flags</b> member of <i>RxContext</i> also has the following value set:
+</li>
+</ul>If this is a recursive file system call (the TopLevelIrp member in the thread local storage is the current <i>Irp</i>) then the <b>Flags</b> member of <i>RxContext</i> also has the following value set:
 
-When this value is set, the RX_CONTEXT structure is tagged as a recursive call.
+
 
 If the <i>RxDeviceObject</i> parameter indicates that this is the top level RDBSS device object, then the <b>Flags</b> member of the RX_CONTEXT structure also has the following value set:
 
-When this value is set, the RX_CONTEXT structure is tagged as using the top level device object.
+
 
 If the <i>Irp</i> FileObject Flags member has the FO_WRITE_THROUGH option set, then the <b>Flags</b> member of the RX_CONTEXT structure also has the following value set:
 
-When this value is set, the RX_CONTEXT structure is tagged as set to write through mode.
+
 
 <b>RxInitializeContext</b> sets a number of other members in the RX_CONTEXT structure including the following:
-
+<ul>
+<li>
 Sets the proper <b>NodeTypeCode</b>, <b>NodeByteSize</b>, <b>SerialNumber</b>, <b>RxDeviceObject</b>, and initializes the <b>ReferenceCount</b> to 1.
 
+</li>
+<li>
 Initializes the SyncEvent
 
+</li>
+<li>
 Initialize the associated ScavengerEntry
 
+</li>
+<li>
 Initializes the list entry of BlockedOperations
 
+</li>
+<li>
 Sets the RX_CONTEXT members based on the <i>Irp</i>. These include <b>CurrentIrp</b>, <b>OriginalThread</b>, <b>MajorFunction</b>, <b>MinorFunction</b>, <b>CurrentIrpSp</b>, <b>pFcb</b>, <b>NonPagedFcb</b>, <b>pFobx</b>, <b>pRelevantSrvOpen</b>, and <b>FobxSerialNumber</b> members.
+
+</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\rxprocs\nf-rxprocs-rxcompleterequest.md">RxCompleteRequest</a>
-</dt>
-<dt>
-<a href="..\rxprocs\nf-rxprocs-rxcompleterequest_real.md">RxCompleteRequest_Real</a>
-</dt>
-<dt>
-<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
-</dt>
-<dt>
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
-</dt>
-<dt>
-<a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
-</dt>
-<dt>
-<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
-</dt>
-<dt>
+
 <a href="..\rxcontx\nf-rxcontx-rxresumeblockedoperations_serially.md">RxResumeBlockedOperations_Serially</a>
-</dt>
-<dt>
-<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557382">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
-</dt>
-<dt>
+
+<a href="..\rxprocs\nf-rxprocs-rxcompleterequest_real.md">RxCompleteRequest_Real</a>
+
+<a href="..\rxprocs\nf-rxprocs-rxcompleterequest.md">RxCompleteRequest</a>
+
 <a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
-</dt>
-</dl>
+
+<a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
+
+<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557382">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
+
+<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
+
+<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
+
+<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+
  
 
  

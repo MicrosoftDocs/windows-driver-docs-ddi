@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: f8afda8b-12de-4955-8f25-0b2dae031ff1
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BRB_SCO_GET_SYSTEM_INFO,
+ms.keywords: _BRB_SCO_GET_SYSTEM_INFO structure [Bluetooth Devices], _BRB_SCO_GET_SYSTEM_INFO, bthddi/_BRB_SCO_GET_SYSTEM_INFO, bth_structs_970b0c43-701b-4219-b05c-aa49f8e6a09e.xml, bltooth._brb_sco_get_system_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: _BRB_SCO_GET_SYSTEM_INFO
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthddi.h
+apiname: 
+-	_BRB_SCO_GET_SYSTEM_INFO
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # _BRB_SCO_GET_SYSTEM_INFO structure
 
 
-
 ## -description
+
+
 The _BRB_SCO_GET_SYSTEM_INFO structure describes information about the local system's support for SCO
   connections.
 
 
-
 ## -syntax
+
 
 ````
 struct _BRB_SCO_GET_SYSTEM_INFO {
@@ -61,6 +71,9 @@ struct _BRB_SCO_GET_SYSTEM_INFO {
 
 ## -struct-fields
 
+
+
+
 ### -field Hdr
 
 A 
@@ -75,12 +88,11 @@ A flag or combination of flags that indicates what SCO features the system suppo
      
 
 
-
-### -field SCO_FEATURE_ESCO_LINKS
-     
-
-### -field SCO_FEATURE_SCO_LINKS
-
+<dl>
+<dt>SCO_FEATURE_ESCO_LINKS
+     </dt>
+<dt>SCO_FEATURE_SCO_LINKS</dt>
+</dl>
 
 
 
@@ -104,24 +116,19 @@ A flag or combination of flags that indicates the type of SCO data packets that 
      
 
 
-
-### -field SCO_HV1
-     
-
-### -field SCO_HV2
-     
-
-### -field SCO_HV3
-     
-
-### -field SCO_EV3
-     
-
-### -field SCO_EV4
-     
-
-### -field SCO_EV5
-
+<dl>
+<dt>SCO_HV1
+     </dt>
+<dt>SCO_HV2
+     </dt>
+<dt>SCO_HV3
+     </dt>
+<dt>SCO_EV3
+     </dt>
+<dt>SCO_EV4
+     </dt>
+<dt>SCO_EV5</dt>
+</dl>
 
 
 
@@ -132,18 +139,15 @@ A flag or combination of flags the indicates the voice-encoding data formats sup
      
 
 
-
-### -field SCO_DATA_FORMAT_A_LAW_LOG 
-     
-
-### -field SCO_DATA_FORMAT_CVSD
-     
-
-### -field SCO_DATA_FORMAT_MU_LAW_LOG
-     
-
-### -field SCO_DATA_FORMAT_TRANSPARENT
-
+<dl>
+<dt>SCO_DATA_FORMAT_A_LAW_LOG 
+     </dt>
+<dt>SCO_DATA_FORMAT_CVSD
+     </dt>
+<dt>SCO_DATA_FORMAT_MU_LAW_LOG
+     </dt>
+<dt>SCO_DATA_FORMAT_TRANSPARENT</dt>
+</dl>
 
 
 
@@ -153,6 +157,8 @@ Reserved for future use. Do not use.
 
 
 ## -remarks
+
+
 To get the local system's support for SCO connections, profile drivers should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536625">BRB_SCO_GET_SYSTEM_INFO</a> request.
@@ -162,15 +168,13 @@ Higher-level profile drivers can build and send a <b>BRB_SCO_GET_SYSTEM_INFO</b>
     system supports, and other useful information for opening a SCO connection to a remote device.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536625">BRB_SCO_GET_SYSTEM_INFO</a>
-</dt>
-</dl>
+
  
 
  

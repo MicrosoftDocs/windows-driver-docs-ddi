@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 196bad19-85a6-41a0-ac61-b70594a19f0f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _REG_SET_KEY_SECURITY_INFORMATION, *PREG_SET_KEY_SECURITY_INFORMATION, REG_SET_KEY_SECURITY_INFORMATION
+ms.keywords: REG_SET_KEY_SECURITY_INFORMATION structure [Kernel-Mode Driver Architecture], *PREG_SET_KEY_SECURITY_INFORMATION, wdm/REG_SET_KEY_SECURITY_INFORMATION, wdm/PREG_SET_KEY_SECURITY_INFORMATION, kstruct_d_2154cf21-9f72-488b-ad13-687ada458991.xml, PREG_SET_KEY_SECURITY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.reg_set_key_security_information, PREG_SET_KEY_SECURITY_INFORMATION, _REG_SET_KEY_SECURITY_INFORMATION, REG_SET_KEY_SECURITY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available on Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: REG_SET_KEY_SECURITY_INFORMATION
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PREG_SET_KEY_SECURITY_INFORMATION, REG_SET_KEY_SECURITY_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	REG_SET_KEY_SECURITY_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: REG_SET_KEY_SECURITY_INFORMATION, *PREG_SET_KEY_SECURITY_INFORMATION
 req.product: Windows 10 or later.
 ---
 
 # _REG_SET_KEY_SECURITY_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>REG_SET_KEY_SECURITY_INFORMATION</b> structure specifies security information for a registry key object.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _REG_SET_KEY_SECURITY_INFORMATION {
@@ -59,6 +69,9 @@ typedef struct _REG_SET_KEY_SECURITY_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Object
 
@@ -91,29 +104,26 @@ This member is reserved for future use. This member is defined for Windows Vista
 
 
 ## -remarks
+
+
 The system passes the <b>REG_SET_KEY_SECURITY_INFORMATION</b> structure to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine every time a thread attempts to set a key's security information—for example, when a driver calls <a href="..\ntifs\nf-ntifs-zwsetsecurityobject.md">ZwSetSecurityObject</a>.
 
 For more information about registry filtering operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
 <a href="..\ntifs\nf-ntifs-zwsetsecurityobject.md">ZwSetSecurityObject</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
  
 
  

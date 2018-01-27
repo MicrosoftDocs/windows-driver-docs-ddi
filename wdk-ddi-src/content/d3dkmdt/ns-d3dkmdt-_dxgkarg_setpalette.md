@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a76d9549-d182-437f-a570-7d24fd6a5488
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_SETPALETTE, DXGKARG_SETPALETTE
+ms.keywords: _DXGKARG_SETPALETTE, DXGKARG_SETPALETTE, d3dkmdt/DXGKARG_SETPALETTE, DXGKARG_SETPALETTE structure [Display Devices], DmStructs_d5720608-bc3d-437a-b080-6cd8b9635391.xml, display.dxgkarg_setpalette
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_SETPALETTE
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	DXGKARG_SETPALETTE
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_SETPALETTE
 ---
 
 # _DXGKARG_SETPALETTE structure
 
 
-
 ## -description
+
+
 The DXGKARG_SETPALETTE structure describes the palette to set for a display. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_SETPALETTE {
@@ -56,6 +66,9 @@ typedef struct _DXGKARG_SETPALETTE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field VidPnSourceId
 
@@ -77,18 +90,12 @@ typedef struct _DXGKARG_SETPALETTE {
 [in] An array of color entries to copy into the device's color palette (that is, the device's color registers). Each color entry is accessed as a generic 32-bit value or as the <b>Red</b>, <b>Green</b>, <b>Blue</b>, and <b>Unused</b> members of a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_palettedata.md">D3DKMDT_PALETTEDATA</a> structure.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_palettedata.md">D3DKMDT_PALETTEDATA</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpalette.md">DxgkDdiSetPalette</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_palettedata.md">D3DKMDT_PALETTEDATA</a>
+
  
 
  

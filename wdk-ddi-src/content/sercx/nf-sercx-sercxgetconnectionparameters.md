@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 361BC3A7-AE86-4C92-B7E1-A30D467D4A65
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxGetConnectionParameters
+ms.keywords: SerCxGetConnectionParameters, SerCxGetConnectionParameters method [Serial Ports], 1/SerCxGetConnectionParameters, serports.sercxgetconnectionparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SerCxGetConnectionParameters
-req.alt-loc: 1.0\Sercx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	1.0\Sercx.h
+apiname: 
+-	SerCxGetConnectionParameters
+product: Windows
+targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SerCxGetConnectionParameters function
 
 
-
 ## -description
+
+
 The <b>SerCxGetConnectionParameters</b> method retrieves the connection parameters for the associated peripheral device.
 
 
-
 ## -syntax
+
 
 ````
 VOID SerCxGetConnectionParameters(
@@ -55,6 +65,9 @@ VOID SerCxGetConnectionParameters(
 
 
 ## -parameters
+
+
+
 
 ### -param Device [in]
 
@@ -67,21 +80,25 @@ A pointer to a location into which the method writes a pointer to the connection
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 The serial framework extension (SerCx) obtains the connection parameters for the peripheral device from the ACPI resource descriptors in the platform firmware.
 
 For more information about the data format of the connection parameters, see <a href="..\sercx\nc-sercx-evt_sercx_apply_config.md">EvtSerCxApplyConfig</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\sercx\nc-sercx-evt_sercx_apply_config.md">EvtSerCxApplyConfig</a>
-</dt>
-</dl>
+
  
 
  

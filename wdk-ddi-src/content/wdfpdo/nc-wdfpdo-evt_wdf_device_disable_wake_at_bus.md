@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 91ae9694-5020-42ee-b882-a753e9bbe919
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
+ms.keywords: wdf.evtdevicedisablewakeatbus, EvtDeviceDisableWakeAtBus callback function, EvtDeviceDisableWakeAtBus, EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS, EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS, wdfpdo/EvtDeviceDisableWakeAtBus, DFDeviceObjectFdoPdoRef_3f6a4a69-a6aa-48a5-9a6a-fd64c569edca.xml, kmdf.evtdevicedisablewakeatbus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: EvtDeviceDisableWakeAtBus
-req.alt-loc: Wdfpdo.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wdfpdo.h
+apiname: 
+-	EvtDeviceDisableWakeAtBus
+product: Windows
+targetos: Windows
 req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS callback
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 A bus driver's <i>EvtDeviceDisableWakeAtBus</i> event callback function performs bus-level operations that disable the ability of one of the bus's devices to trigger a wake-up signal on the bus.
 
 
-
 ## -prototype
+
 
 ````
 EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS EvtDeviceDisableWakeAtBus;
@@ -60,33 +70,32 @@ VOID EvtDeviceDisableWakeAtBus(
 
 ## -parameters
 
+
+
+
 ### -param Device [in]
 
 A handle to a framework device object.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 For more information about this callback function, see <a href="https://msdn.microsoft.com/519dcd1a-9975-48b1-a032-04348b903ac5">Supporting System Wake-Up</a>.
 
-To define an <i>EvtDeviceDisableWakeAtBus</i> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
-
-For example, to define an <i>EvtDeviceDisableWakeAtBus</i> callback function that is named <i>MyDeviceDisableWakeAtBus</i>, use the <b>EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS</b> type as shown in this code example:
-
-Then, implement your callback function as follows:
-
-The <b>EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS</b> function type is defined in the Wdfpdo.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-US/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfpdo\nc-wdfpdo-evt_wdf_device_enable_wake_at_bus.md">EvtDeviceEnableWakeAtBus</a>
-</dt>
-</dl>
+
  
 
  

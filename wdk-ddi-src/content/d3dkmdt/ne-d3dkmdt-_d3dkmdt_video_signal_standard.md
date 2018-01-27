@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bb129e02-ae01-4bbc-a81f-809f1a27060c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMDT_VIDEO_SIGNAL_STANDARD, D3DKMDT_VIDEO_SIGNAL_STANDARD
+ms.keywords: d3dkmdt/D3DKMDT_VSS_SECAM_K1, d3dkmdt/D3DKMDT_VSS_PAL_D, d3dkmdt/D3DKMDT_VSS_SECAM_G, D3DKMDT_VSS_EIA_861A, D3DKMDT_VSS_PAL_M, D3DKMDT_VSS_EIA_861, d3dkmdt/D3DKMDT_VSS_PAL_I, d3dkmdt/D3DKMDT_VSS_SECAM_B, d3dkmdt/D3DKMDT_VSS_NTSC_J, d3dkmdt/D3DKMDT_VSS_SECAM_H, d3dkmdt/D3DKMDT_VSS_SECAM_L, _D3DKMDT_VIDEO_SIGNAL_STANDARD, d3dkmdt/D3DKMDT_VSS_PAL_L, D3DKMDT_VSS_PAL_I, d3dkmdt/D3DKMDT_VSS_VESA_CVT, D3DKMDT_VSS_PAL_G, D3DKMDT_VSS_PAL_N, D3DKMDT_VSS_SECAM_K, DmEnums_8174e59a-c264-4642-b770-d4e38236a6b7.xml, D3DKMDT_VSS_SECAM_D, D3DKMDT_VSS_PAL_NC, D3DKMDT_VSS_UNINITIALIZED, d3dkmdt/D3DKMDT_VSS_NTSC_443, D3DKMDT_VSS_NTSC_M, D3DKMDT_VSS_IBM, d3dkmdt/D3DKMDT_VSS_SECAM_L1, D3DKMDT_VSS_SECAM_G, D3DKMDT_VSS_VESA_CVT, D3DKMDT_VSS_NTSC_443, D3DKMDT_VIDEO_SIGNAL_STANDARD, d3dkmdt/D3DKMDT_VSS_PAL_B1, d3dkmdt/D3DKMDT_VSS_EIA_861B, d3dkmdt/D3DKMDT_VSS_VESA_DMT, D3DKMDT_VSS_SECAM_B, d3dkmdt/D3DKMDT_VSS_PAL_N, D3DKMDT_VSS_PAL_K, D3DKMDT_VSS_SECAM_L1, display.d3dkmdt_video_signal_standard, D3DKMDT_VSS_VESA_GTF, d3dkmdt/D3DKMDT_VSS_EIA_861A, d3dkmdt/D3DKMDT_VSS_PAL_G, D3DKMDT_VIDEO_SIGNAL_STANDARD enumeration [Display Devices], D3DKMDT_VSS_PAL_L, D3DKMDT_VSS_SECAM_H, D3DKMDT_VSS_PAL_K1, d3dkmdt/D3DKMDT_VSS_NTSC_M, d3dkmdt/D3DKMDT_VSS_IBM, d3dkmdt/D3DKMDT_VSS_PAL_B, D3DKMDT_VSS_PAL_D, d3dkmdt/D3DKMDT_VSS_SECAM_K, D3DKMDT_VSS_NTSC_J, D3DKMDT_VSS_EIA_861B, d3dkmdt/D3DKMDT_VSS_PAL_K, d3dkmdt/D3DKMDT_VIDEO_SIGNAL_STANDARD, d3dkmdt/D3DKMDT_VSS_EIA_861, d3dkmdt/D3DKMDT_VSS_PAL_M, D3DKMDT_VSS_PAL_B, d3dkmdt/D3DKMDT_VSS_UNINITIALIZED, D3DKMDT_VSS_APPLE, d3dkmdt/D3DKMDT_VSS_PAL_K1, D3DKMDT_VSS_PAL_B1, d3dkmdt/D3DKMDT_VSS_PAL_H, D3DKMDT_VSS_PAL_H, d3dkmdt/D3DKMDT_VSS_PAL_NC, D3DKMDT_VSS_SECAM_K1, D3DKMDT_VSS_SECAM_L, D3DKMDT_VSS_OTHER, D3DKMDT_VSS_VESA_DMT, d3dkmdt/D3DKMDT_VSS_APPLE, d3dkmdt/D3DKMDT_VSS_SECAM_D, d3dkmdt/D3DKMDT_VSS_OTHER, d3dkmdt/D3DKMDT_VSS_VESA_GTF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMDT_VIDEO_SIGNAL_STANDARD
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	D3DKMDT_VIDEO_SIGNAL_STANDARD
+product: Windows
+targetos: Windows
 req.typenames: D3DKMDT_VIDEO_SIGNAL_STANDARD
 ---
 
 # _D3DKMDT_VIDEO_SIGNAL_STANDARD enumeration
 
 
-
 ## -description
+
+
 The D3DKMDT_VIDEO_SIGNAL_STANDARD enumeration contains constants that represent video signal standards.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3DKMDT_VIDEO_SIGNAL_STANDARD { 
@@ -85,6 +95,9 @@ typedef enum _D3DKMDT_VIDEO_SIGNAL_STANDARD {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DKMDT_VSS_UNINITIALIZED
 
@@ -252,17 +265,18 @@ Represents any video standard other than those represented by the previous const
 
 
 ## -remarks
+
+
 The <b>SignalInfo</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_target_mode.md">D3DKMDT_VIDPN_TARGET_MODE</a> structure is a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_video_signal_info.md">D3DKMDT_VIDEO_SIGNAL_MODE</a> structure.
 
 The <b>VideoStandard</b> member of the D3DKMDT_VIDEO_SIGNAL_MODE structure is a D3DKMDT_VIDEO_SIGNAL_STANDARD value.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570559">VidPn Target Mode Set Interface</a>
-</dt>
-</dl>
+
  
 
  

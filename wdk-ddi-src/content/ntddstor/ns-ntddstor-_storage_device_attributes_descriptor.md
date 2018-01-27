@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: DA8434EF-6163-4D07-A81D-D1AC2D55BFB4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
+ms.keywords: storage.storage_device_attributes_descriptor, ntddstor/PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, ntddstor/STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure pointer [Storage Devices], STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, _STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, STORAGE_ATTRIBUTE_BYTE_ADDRESSABLE_IO, STORAGE_ATTRIBUTE_DYNAMIC_PERSISTENCE, STORAGE_ATTRIBUTE_PERF_SIZE_INDEPENDENT, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, STORAGE_ATTRIBUTE_BLOCK_IO, STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure [Storage Devices], STORAGE_ATTRIBUTE_ASYNC_EVENT_NOTIFICATION, STORAGE_ATTRIBUTE_VOLATILE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
 ---
 
 # _STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure is used to retrieve the attributes information for a  device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR {
@@ -55,6 +65,9 @@ typedef struct _STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -74,10 +87,10 @@ Indicates the quantity of data reported, in bytes. This is the <code>sizeof(STOR
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field STORAGE_ATTRIBUTE_BYTE_ADDRESSABLE_IO
-### -field 0x01
-
+<td width="40%"><a id="STORAGE_ATTRIBUTE_BYTE_ADDRESSABLE_IO"></a><a id="storage_attribute_byte_addressable_io"></a><dl>
+<dt><b>STORAGE_ATTRIBUTE_BYTE_ADDRESSABLE_IO</b></dt>
+<dt>0x01</dt>
+</dl>
 </td>
 <td width="60%">
 Attribute that indicates a storage device supports byte addressable IO.
@@ -85,10 +98,10 @@ Attribute that indicates a storage device supports byte addressable IO.
 </td>
 </tr>
 <tr>
-
-### -field STORAGE_ATTRIBUTE_BLOCK_IO
-### -field 0x02
-
+<td width="40%"><a id="STORAGE_ATTRIBUTE_BLOCK_IO"></a><a id="storage_attribute_block_io"></a><dl>
+<dt><b>STORAGE_ATTRIBUTE_BLOCK_IO</b></dt>
+<dt>0x02</dt>
+</dl>
 </td>
 <td width="60%">
 Attribute that indicates a storage device supports block IO.
@@ -96,10 +109,10 @@ Attribute that indicates a storage device supports block IO.
 </td>
 </tr>
 <tr>
-
-### -field STORAGE_ATTRIBUTE_DYNAMIC_PERSISTENCE
-### -field 0x04
-
+<td width="40%"><a id="STORAGE_ATTRIBUTE_DYNAMIC_PERSISTENCE"></a><a id="storage_attribute_dynamic_persistence"></a><dl>
+<dt><b>STORAGE_ATTRIBUTE_DYNAMIC_PERSISTENCE</b></dt>
+<dt>0x04</dt>
+</dl>
 </td>
 <td width="60%">
 Attribute that indicates that persistence of data on storage device may change.
@@ -107,10 +120,10 @@ Attribute that indicates that persistence of data on storage device may change.
 </td>
 </tr>
 <tr>
-
-### -field STORAGE_ATTRIBUTE_VOLATILE
-### -field 0x08
-
+<td width="40%"><a id="STORAGE_ATTRIBUTE_VOLATILE"></a><a id="storage_attribute_volatile"></a><dl>
+<dt><b>STORAGE_ATTRIBUTE_VOLATILE</b></dt>
+<dt>0x08</dt>
+</dl>
 </td>
 <td width="60%">
 Attribute that indicates a storage device is volatile and does not support persistence of data.
@@ -118,10 +131,10 @@ Attribute that indicates a storage device is volatile and does not support persi
 </td>
 </tr>
 <tr>
-
-### -field STORAGE_ATTRIBUTE_ASYNC_EVENT_NOTIFICATION
-### -field 0x10
-
+<td width="40%"><a id="STORAGE_ATTRIBUTE_ASYNC_EVENT_NOTIFICATION"></a><a id="storage_attribute_async_event_notification"></a><dl>
+<dt><b>STORAGE_ATTRIBUTE_ASYNC_EVENT_NOTIFICATION</b></dt>
+<dt>0x10</dt>
+</dl>
 </td>
 <td width="60%">
 Reserved
@@ -129,18 +142,15 @@ Reserved
 </td>
 </tr>
 <tr>
-
-### -field STORAGE_ATTRIBUTE_PERF_SIZE_INDEPENDENT
-### -field 0x20
-
+<td width="40%"><a id="STORAGE_ATTRIBUTE_PERF_SIZE_INDEPENDENT"></a><a id="storage_attribute_perf_size_independent"></a><dl>
+<dt><b>STORAGE_ATTRIBUTE_PERF_SIZE_INDEPENDENT</b></dt>
+<dt>0x20</dt>
+</dl>
 </td>
 <td width="60%">
 Attribute that indicates a storage device has IO performance independent of IO sizes.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
-
-## -remarks

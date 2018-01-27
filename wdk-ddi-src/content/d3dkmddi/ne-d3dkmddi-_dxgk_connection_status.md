@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D78A845E-1F5D-42F7-9391-8F3F6555B7E5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_CONNECTION_STATUS, DXGK_CONNECTION_STATUS, *PDXGK_CONNECTION_STATUS
+ms.keywords: d3dkmddi/TargetStatusJoined, *PDXGK_CONNECTION_STATUS, _DXGK_CONNECTION_STATUS, d3dkmddi/ConnectionStatusUninitialized, TargetStatusDisconnected, display.dxgk_connection_status, d3dkmddi/LinkConfigurationFailed, LinkConfigurationStarted, LinkConfigurationSucceeded, DXGK_CONNECTION_STATUS, d3dkmddi/MonitorStatusConnected, d3dkmddi/DXGK_CONNECTION_STATUS, ConnectionStatusUninitialized, MonitorStatusDisconnected, d3dkmddi/TargetStatusConnected, TargetStatusJoined, TargetStatusConnected, LinkConfigurationFailed, d3dkmddi/LinkConfigurationSucceeded, d3dkmddi/LinkConfigurationStarted, d3dkmddi/MonitorStatusDisconnected, MonitorStatusConnected, DXGK_CONNECTION_STATUS enumeration [Display Devices], MonitorStatusUnknown, d3dkmddi/TargetStatusDisconnected, d3dkmddi/MonitorStatusUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_CONNECTION_STATUS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: DXGK_CONNECTION_STATUS, *PDXGK_CONNECTION_STATUS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_CONNECTION_STATUS
+product: Windows
+targetos: Windows
+req.typenames: *PDXGK_CONNECTION_STATUS, DXGK_CONNECTION_STATUS
 ---
 
 # _DXGK_CONNECTION_STATUS enumeration
 
 
-
 ## -description
+
+
 Enumeration indicating the connection status values which can be reported.  
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXGK_CONNECTION_STATUS { 
@@ -62,6 +72,9 @@ typedef enum _DXGK_CONNECTION_STATUS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field ConnectionStatusUninitialized
 
@@ -120,5 +133,14 @@ If the target was previously enabled, then scan-out of pixels has resumed.  The 
 
 
 
+### -field UINT
+
+
+
+
 ## -remarks
-Other than the uninitialized state, the values fall into three categories: target changes, monitor changes and link configuration changes.  Target changes represent the addition and removal of targets; monitor changes report the connection status of monitors which are attached to targets and link configuration changes report the status of the link to a monitor.</p>
+
+
+Other than the uninitialized state, the values fall into three categories: target changes, monitor changes and link configuration changes.  Target changes represent the addition and removal of targets; monitor changes report the connection status of monitors which are attached to targets and link configuration changes report the status of the link to a monitor.
+
+

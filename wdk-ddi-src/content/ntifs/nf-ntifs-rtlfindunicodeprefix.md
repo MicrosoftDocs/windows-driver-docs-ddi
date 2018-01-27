@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 525db78d-b25c-4325-ac71-b992564a19c0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlFindUnicodePrefix
+ms.keywords: RtlFindUnicodePrefix routine [Installable File System Drivers], ntifs/RtlFindUnicodePrefix, ifsk.rtlfindunicodeprefix, rtlref_55dbfa12-5de6-44e0-8488-6e83abfaad84.xml, RtlFindUnicodePrefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlFindUnicodePrefix
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlFindUnicodePrefix
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlFindUnicodePrefix function
 
 
-
 ## -description
+
+
 The <b>RtlFindUnicodePrefix</b> routine searches for the best match for a given Unicode file name in a prefix table. 
 
 
-
 ## -syntax
+
 
 ````
 PUNICODE_PREFIX_TABLE_ENTRY RtlFindUnicodePrefix(
@@ -55,6 +65,9 @@ PUNICODE_PREFIX_TABLE_ENTRY RtlFindUnicodePrefix(
 
 
 ## -parameters
+
+
+
 
 ### -param PrefixTable [in]
 
@@ -69,7 +82,6 @@ Pointer to a Unicode string containing the full pathname for a file.
 ### -param CaseInsensitiveIndex [in]
 
 Position in the file name and prefix strings at which the comparison is to become case-insensitive. The string comparison is case-sensitive for the first <i>CaseInsensitiveIndex</i> characters in each string, case-insensitive for the remainder of the string.
-
 <table>
 <tr>
 <th>Value</th>
@@ -105,15 +117,19 @@ String comparison is case-sensitive.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 <b>RtlFindUnicodePrefix</b> returns a pointer to the longest proper prefix found for the given string at <i>FullName</i>. If no matching prefix is found, <b>RtlFindUnicodePrefix</b> returns <b>NULL</b>. 
 
 
+
 ## -remarks
+
+
 Each prefix entry in the table is a pathname relative to the root directory of a file system volume. To be well-formed, the prefix must begin with a single backslash (\). 
 
 When it finds a matching prefix, <b>RtlFindUnicodePrefix</b> rebalances the prefix table's splay tree.
@@ -125,24 +141,19 @@ Callers of the <b>Rtl..UnicodePrefix</b> routines are responsible for synchroniz
 For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlinsertunicodeprefix.md">RtlInsertUnicodePrefix</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlnextunicodeprefix.md">RtlNextUnicodePrefix</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtlremoveunicodeprefix.md">RtlRemoveUnicodePrefix</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-rtlnextunicodeprefix.md">RtlNextUnicodePrefix</a>
+
+<a href="..\ntifs\nf-ntifs-rtlinsertunicodeprefix.md">RtlInsertUnicodePrefix</a>
+
  
 
  

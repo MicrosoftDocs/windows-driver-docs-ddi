@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 0f89b57a-3374-4f40-88b5-43d233ba0e47
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxInitializeDeviceInit
+ms.keywords: buses.evt_ucx_controller_usbdevice_add, EvtUcxControllerUsbDeviceAdd callback function [Buses], EvtUcxControllerUsbDeviceAdd, EVT_UCX_CONTROLLER_USBDEVICE_ADD, EVT_UCX_CONTROLLER_USBDEVICE_ADD, ucxcontroller/EvtUcxControllerUsbDeviceAdd, PEVT_UCX_CONTROLLER_USBDEVICE_ADD callback function pointer [Buses], PEVT_UCX_CONTROLLER_USBDEVICE_ADD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: PEVT_UCX_CONTROLLER_USBDEVICE_ADD
-req.alt-loc: Ucxcontroller.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Ucxcontroller.h
+apiname: 
+-	PEVT_UCX_CONTROLLER_USBDEVICE_ADD
+product: Windows
+targetos: Windows
 req.typenames: UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # EVT_UCX_CONTROLLER_USBDEVICE_ADD callback
 
 
-
 ## -description
+
+
 The client driver's implementation that UCX calls when a new USB device is detected.
 
 
-
 ## -prototype
+
 
 ````
 EVT_UCX_CONTROLLER_USBDEVICE_ADD EvtUcxControllerUsbDeviceAdd;
@@ -61,6 +71,9 @@ typedef EVT_UCX_CONTROLLER_USBDEVICE_ADD PEVT_UCX_CONTROLLER_USBDEVICE_ADD;
 
 
 ## -parameters
+
+
+
 
 ### -param UcxController [in]
 
@@ -80,10 +93,15 @@ Pointer to an opaque structure containing initialization
 
 
 ## -returns
+
+
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it must return a status value for which NT_SUCCESS(status) equals FALSE.
 
 
+
 ## -remarks
+
+
 The UCX client driver registers its <i>EVT_UCX_CONTROLLER_USBDEVICE_ADD</i> implementation with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
 This callback function creates a new USB device object and registers the
@@ -92,12 +110,11 @@ This callback function creates a new USB device object and registers the
     used as the device context.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
-</dt>
-</dl>
+
  
 
  

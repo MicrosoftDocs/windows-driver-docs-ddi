@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d5767bd3-11f8-45a7-b760-3ed51c54c044
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_ALLOCATIONINFO, DXGK_ALLOCATIONINFO
+ms.keywords: _DXGK_ALLOCATIONINFO, DXGK_ALLOCATIONINFO structure [Display Devices], d3dkmddi/DXGK_ALLOCATIONINFO, DXGK_ALLOCATIONINFO, display.dxgk_allocationinfo, DmStructs_f571b666-75fd-477a-a8a7-673033d9284e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_ALLOCATIONINFO
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_ALLOCATIONINFO
+product: Windows
+targetos: Windows
 req.typenames: DXGK_ALLOCATIONINFO
 ---
 
 # _DXGK_ALLOCATIONINFO structure
 
 
-
 ## -description
+
+
 The DXGK_ALLOCATIONINFO structure describes parameters for creating an allocation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_ALLOCATIONINFO {
@@ -73,6 +83,35 @@ typedef struct _DXGK_ALLOCATIONINFO {
 
 
 ## -struct-fields
+
+
+
+
+### -field MaximumRenamingListLength
+
+[out] The maximum length of the renaming list for the allocation. For more information about the renaming list, see <a href="https://msdn.microsoft.com/f22e19ba-9ff3-4aa1-a3f0-103f67ea7c60">Requesting to Rename an Allocation</a>.
+
+Support for this member started with Windows 10 and the WDDM v2.
+
+
+### -field PhysicalAdapterIndex
+
+[out] The index of the physical adapter. 
+
+Support for this member started with Windows 10 and the WDDM v2.
+
+
+### -field Flags
+
+[out] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a> structure that identifies properties for an allocation in bit-field flags. These properties indicate the type of allocation to create. The display miniport driver specifies these flags for the video memory manager.
+
+
+### -field FlagsWddm2
+
+[out] The index of the physical adapter. 
+
+Support for this member started with Windows 10 and WDDM 2.0.
+
 
 ### -field pPrivateDriverData
 
@@ -130,35 +169,9 @@ The display miniport driver can set preferences only for segments that are suppo
 Only aperture segments can be specified by this member. If the driver specifies valid segments to be used for eviction, the video memory manager attempts to allocate resources in those aperture segments to accelerate the eviction process. If the driver specifies 0, the video memory manager calls the driver to transfer the content of an allocation directly to paged-locked system memory without mapping the underlying pages through an aperture segment.
 
 
-### -field MaximumRenamingListLength
-
-[out] The maximum length of the renaming list for the allocation. For more information about the renaming list, see <a href="https://msdn.microsoft.com/f22e19ba-9ff3-4aa1-a3f0-103f67ea7c60">Requesting to Rename an Allocation</a>.
-
-Support for this member started with Windows 10 and the WDDM v2.
-
-
-### -field PhysicalAdapterIndex
-
-[out] The index of the physical adapter. 
-
-Support for this member started with Windows 10 and the WDDM v2.
-
-
 ### -field hAllocation
 
 [out] A handle to the allocation. The display miniport driver must set this member to a value that it can use to refer to its private tracking structure for the allocation.
-
-
-### -field Flags
-
-[out] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a> structure that identifies properties for an allocation in bit-field flags. These properties indicate the type of allocation to create. The display miniport driver specifies these flags for the video memory manager.
-
-
-### -field FlagsWddm2
-
-[out] The index of the physical adapter. 
-
-Support for this member started with Windows 10 and WDDM 2.0.
 
 
 ### -field pAllocationUsageHint
@@ -174,6 +187,8 @@ The driver determines the appropriate priority level for each allocation. For mo
 
 
 ## -remarks
+
+
 With the WDDM v2, the <b>DXGK_ALLOCATIONINFO</b> structure has been changed so that the read and write segment set are no longer differentiated. During surface creation the video memory manager will ignore the <b>SupportedReadSegmentSet</b> value and use only the segment set provide by <b>SupportedWriteSegmentSet</b>. Drivers should ensure that this value accurately represents the segment set that can be used by the allocation for its intended purpose.
 
 
@@ -181,42 +196,31 @@ Ignoring the supported read segment set does not mean that it is no longer suppo
 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_sharedprimarysurfacedata.md">D3DKMDDI_SHAREDPRIMARYSURFACEDATA</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationusagehint.md">DXGK_ALLOCATIONUSAGEHINT</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentbankpreference.md">DXGK_SEGMENTBANKPREFERENCE</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor.md">DXGK_SEGMENTDESCRIPTOR</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562047">DXGK_SEGMENTPREFERENCE</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
-</dt>
-<dt>
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_sharedprimarysurfacedata.md">D3DKMDDI_SHAREDPRIMARYSURFACEDATA</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationusagehint.md">DXGK_ALLOCATIONUSAGEHINT</a>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
-</dt>
-<dt>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
-</dt>
-<dt>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentbankpreference.md">DXGK_SEGMENTBANKPREFERENCE</a>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562047">DXGK_SEGMENTPREFERENCE</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
+
  
 
  

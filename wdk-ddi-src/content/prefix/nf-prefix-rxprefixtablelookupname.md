@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 20d61d23-4151-4a23-8963-6e38a08f391e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxPrefixTableLookupName
+ms.keywords: ifsk.rxprefixtablelookupname, prefix/RxPrefixTableLookupName, RxPrefixTableLookupName, RxPrefixTableLookupName function [Installable File System Drivers], rxref_e46fe04e-07a6-4733-936e-e70a51009618.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxPrefixTableLookupName
-req.alt-loc: prefix.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	prefix.h
+apiname: 
+-	RxPrefixTableLookupName
+product: Windows
+targetos: Windows
 req.typenames: *PSHIMOPTS, SHIMOPTS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RxPrefixTableLookupName function
 
 
-
 ## -description
+
+
 <b>RxPrefixTableLookupName</b> looks up a name in a prefix table used to catalog SRV_CALL, NET_ROOT, and V_NET_ROOT names and converts the underlying pointer to a structure that contains the name.
 
 
-
 ## -syntax
+
 
 ````
 PVOID RxPrefixTableLookupName(
@@ -57,6 +67,9 @@ PVOID RxPrefixTableLookupName(
 
 
 ## -parameters
+
+
+
 
 ### -param ThisTable [in]
 
@@ -73,41 +86,55 @@ A pointer to the Unicode string name to look up.
 A pointer to the Unicode string name of the portion of the name that was unmatched.
 
 
-### -param RxConnectionId [in]
+### -param ConnectionId
+
+TBD
+
+
+
+#### - RxConnectionId [in]
 
 An optional parameter that represents a pointer to the RX_CONNECTION_ID to be used.
 
 
 ## -returns
+
+
 <b>RxPrefixTableLookupName</b> returns a pointer to the node that was found if a match is found. If no match is found, <b>RxPrefixTableLookupName</b> returns a <b>NULL</b> pointer. 
 
 
-## -remarks
-This routine is used internally by RDBSS in response to a call from MUP to claim a name or form the create path for a NET_ROOT or V_NET_ROOT structure. The <b>RxPrefixTableLookupName</b> routine can also be used by network mini-redirectors as long as the appropriate lock is acquired before accessing the table, and the lock is released when work is completed. The normal use by a driver would be as follows:
 
+## -remarks
+
+
+This routine is used internally by RDBSS in response to a call from MUP to claim a name or form the create path for a NET_ROOT or V_NET_ROOT structure. The <b>RxPrefixTableLookupName</b> routine can also be used by network mini-redirectors as long as the appropriate lock is acquired before accessing the table, and the lock is released when work is completed. The normal use by a driver would be as follows:
+<ul>
+<li>
 Acquire a shared lock by calling <b>RxpAcquirePrefixTableLockShared</b>.
 
+</li>
+<li>
 Look up a name by calling <b>RxPrefixTableLookupName</b>.
 
+</li>
+<li>
 Release the shared lock by calling <b>RxpReleasePrefixTableLock</b>.
 
-Note that if a match is found, the reference count on the found node will be incremented. 
+</li>
+</ul>Note that if a match is found, the reference count on the found node will be incremented. 
 
 On checked builds, <b>RxPrefixTableLookupName</b> causes the system to ASSERT if the length of the <i>CanonicalName</i> string is not greater than zero.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\prefix\nf-prefix-rxpacquireprefixtablelockexclusive.md">RxpAcquirePrefixTableLockExclusive</a>
-</dt>
-<dt>
-<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockshared.md">RxpAcquirePrefixTableLockShared</a>
-</dt>
-<dt>
+
 <a href="..\prefix\nf-prefix-rxpreleaseprefixtablelock.md">RxpReleasePrefixTableLock</a>
-</dt>
-</dl>
+
+<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockshared.md">RxpAcquirePrefixTableLockShared</a>
+
  
 
  

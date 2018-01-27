@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ADC0145D-135F-46E6-91C9-B545DBE1D83B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION
+ms.keywords: kernel.activecooling, ActiveCooling routine [Kernel-Mode Driver Architecture], ActiveCooling, DEVICE_ACTIVE_COOLING, DEVICE_ACTIVE_COOLING, poclass/ActiveCooling
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ActiveCooling
-req.alt-loc: Poclass.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Poclass.h
+apiname: 
+-	ActiveCooling
+product: Windows
+targetos: Windows
 req.typenames: PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION
 ---
 
 # DEVICE_ACTIVE_COOLING callback
 
 
-
 ## -description
+
+
 The <i>ActiveCooling</i> callback routine engages or disengages a device's active-cooling function.
 
 
-
 ## -prototype
+
 
 ````
 DEVICE_ACTIVE_COOLING ActiveCooling;
@@ -58,6 +68,9 @@ void ActiveCooling(
 
 ## -parameters
 
+
+
+
 ### -param Context [in, out, optional]
 
 A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="..\poclass\ns-poclass-_thermal_cooling_interface.md">THERMAL_COOLING_INTERFACE</a> structure that the driver previously supplied to the caller.
@@ -69,10 +82,15 @@ Indicates whether to engage or disengage active cooling. If <b>TRUE</b>, the dri
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 The driver for a device that has active-cooling capabilities can implement this routine to enable the operating system to engage or disengage the active-cooling function in the device.
 
 For example, if the active-cooling function is a fan that can be turned on and off, the caller sets <i>Engaged</i> = <b>TRUE</b> to turn the fan on, and sets <i>Engaged</i> = <b>FALSE</b> to turn the fan off.
@@ -84,12 +102,11 @@ The driver for a device that does not have active-cooling capabilities should se
 For more information about active cooling, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh698271">Passive and Active Cooling Modes</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\poclass\ns-poclass-_thermal_cooling_interface.md">THERMAL_COOLING_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: F931CE79-7070-43B9-BFED-9F3D5B18623E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, *PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR
+ms.keywords: _CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, *PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, ntddcdrm/CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR structure pointer [Storage Devices], PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, ntddcdrm/PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, storage.cdrom_nominal_performance_descriptor, CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR structure [Storage Devices], CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR
-req.alt-loc: Ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddcdrm.h
+apiname: 
+-	CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR
+product: Windows
+targetos: Windows
 req.typenames: *PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR
 ---
 
 # _CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The <b>CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR</b>  structure gives the host an approximation of logical unit
 performance. It is returned by the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a> I/O control request when the request type is <b>CdromPerformanceRequest</b> and the <b>Except</b> field of the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_header.md">CDROM_PERFORMANCE_HEADER</a> is false (0).   Separate descriptors are returned for read and write performance requests. The fields in  <b>CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR</b> correspond to the similarly named fields in the "Performance Descriptor - Nominal Performance" table described in the MultiMedia Command Set - 6 (MMC-6)
 specification.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR {
@@ -59,7 +69,10 @@ typedef struct _CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR {
 
 ## -struct-fields
 
-### -field  StartLba
+
+
+
+### -field StartLba
 
 The StartLba field (Start LBA) contains the first logical block address of the extent described by this descriptor.
 
@@ -69,28 +82,22 @@ The StartLba field (Start LBA) contains the first logical block address of the e
 The StartPerformance field (Start Performance) contains the nominal logical unit performance at the Start LBA in kilobytes per second. 
 
 
-### -field  EndLba
+### -field EndLba
 
 The EndLba field (End LBA) contains the last logical block address of the extent described by this descriptor.
 
 
-### -field  EndPerformance
+### -field EndPerformance
 
 The EndPerformance field (End Performance) contains the nominal logical unit performance at the End LBA in kilobytes per second.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_header.md">CDROM_PERFORMANCE_HEADER</a>
-</dt>
-</dl>
+
  
 
  

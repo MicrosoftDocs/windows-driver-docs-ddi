@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68523004-c9f5-4038-985e-702d929cdf04
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_ALIGN_SIZE_UP
+ms.keywords: DFMemoryObjectRef_48452ee1-3939-48ba-a485-4d503ee052f3.xml, wdf.wdf_align_size_up, wdfcore/WDF_ALIGN_SIZE_UP, WDF_ALIGN_SIZE_UP, kmdf.wdf_align_size_up, WDF_ALIGN_SIZE_UP function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_ALIGN_SIZE_UP
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: Any IRQL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WDF_ALIGN_SIZE_UP
+product: Windows
+targetos: Windows
 req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WDF_ALIGN_SIZE_UP function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_ALIGN_SIZE_UP</b> function returns the next-higher buffer size that is aligned to a specified alignment offset.
 
 
-
 ## -syntax
+
 
 ````
 size_t WDF_ALIGN_SIZE_UP(
@@ -57,6 +68,9 @@ size_t WDF_ALIGN_SIZE_UP(
 
 
 ## -parameters
+
+
+
 
 ### -param Length [in]
 
@@ -69,23 +83,25 @@ The alignment offset, in bytes. This value must be a power of 2, such as 2, 4, 8
 
 
 ## -returns
+
+
 <b>WDF_ALIGN_SIZE_UP</b> returns the aligned buffer size, in bytes.
 
 
+
 ## -remarks
+
+
 Drivers can use <b>WDF_ALIGN_SIZE_UP</b> or <a href="..\wdfcore\nf-wdfcore-wdf_align_size_down.md">WDF_ALIGN_SIZE_DOWN</a> to calculate a buffer size that is aligned to a specified alignment offset. This calculation is useful if your driver must allocate multiple contiguous buffers, if each buffer must begin at an address alignment boundary.
 
 If the value of either input parameter is too large, arithmetic overflow causes <b>WDF_ALIGN_SIZE_UP</b> to return an invalid value that is smaller than <i>Length</i>. Your code should test for this condition.
 
-The following code example receives a buffer size and returns the size (either the current size or the next-higher size) that aligns to a DWORD address boundary.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfcore\nf-wdfcore-wdf_align_size_down.md">WDF_ALIGN_SIZE_DOWN</a>
-</dt>
-</dl>
+
  
 
  

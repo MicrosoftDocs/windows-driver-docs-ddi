@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: adb2f0cc-f261-41d2-b30f-58286b351e4f
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _HIDP_REPORT_TYPE, HIDP_REPORT_TYPE
+ms.keywords: hidstrct_d25e996c-d904-410c-bacb-a79f17fad916.xml, HIDP_REPORT_TYPE enumeration [Human Input Devices], HIDP_REPORT_TYPE, hid.hidp_report_type, HidP_Input, HidP_Output, hidpi/HidP_Output, HidP_Feature, hidpi/HidP_Feature, hidpi/HidP_Input, _HIDP_REPORT_TYPE, hidpi/HIDP_REPORT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HIDP_REPORT_TYPE
-req.alt-loc: hidpi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hidpi.h
+apiname: 
+-	HIDP_REPORT_TYPE
+product: Windows
+targetos: Windows
 req.typenames: HIDP_REPORT_TYPE
 ---
 
 # _HIDP_REPORT_TYPE enumeration
 
 
-
 ## -description
+
+
 The HIDP_REPORT_TYPE enumeration type is used to specify a HID report type.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _HIDP_REPORT_TYPE { 
@@ -55,6 +65,9 @@ typedef enum _HIDP_REPORT_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field HidP_Input
 
@@ -71,24 +84,16 @@ Indicates an output report.
 Indicates a feature report.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\hidpi\nf-hidpi-hidp_getdata.md">HidP_GetData</a>
-</dt>
-<dt>
-<a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
-</dt>
-<dt>
-<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
-</dt>
-<dt>
+
 <a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
-</dt>
-</dl>
+
+<a href="..\hidpi\nf-hidpi-hidp_getdata.md">HidP_GetData</a>
+
+<a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
+
+<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
+
  
 
  

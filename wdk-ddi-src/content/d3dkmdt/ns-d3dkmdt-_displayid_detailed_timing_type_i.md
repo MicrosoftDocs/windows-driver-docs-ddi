@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7b3fa3a4-a77a-4c5f-b157-1fbdc3a7be33
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DISPLAYID_DETAILED_TIMING_TYPE_I, DISPLAYID_DETAILED_TIMING_TYPE_I
+ms.keywords: DISPLAYID_DETAILED_TIMING_TYPE_I, DISPLAYID_DETAILED_TIMING_TYPE_I structure [Display Devices], _DISPLAYID_DETAILED_TIMING_TYPE_I, display.displayid_detailed_timing_type_i, DmStructs_75d5fd93-c7ae-4a57-9843-427c53a9416f.xml, d3dkmdt/DISPLAYID_DETAILED_TIMING_TYPE_I
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DISPLAYID_DETAILED_TIMING_TYPE_I
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	DISPLAYID_DETAILED_TIMING_TYPE_I
+product: Windows
+targetos: Windows
 req.typenames: DISPLAYID_DETAILED_TIMING_TYPE_I
 ---
 
 # _DISPLAYID_DETAILED_TIMING_TYPE_I structure
 
 
-
 ## -description
+
+
 The DISPLAYID_DETAILED_TIMING_TYPE_I structure specifies an additional target mode set for a video present target.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DISPLAYID_DETAILED_TIMING_TYPE_I {
@@ -75,6 +85,9 @@ typedef struct _DISPLAYID_DETAILED_TIMING_TYPE_I {
 
 ## -struct-fields
 
+
+
+
 ### -field PixelClock
 
 [in] The display pixel clock rate, in units of 10 KHz. Clock rate must be between 1 MHz and 10 GHz, inclusive.
@@ -103,18 +116,8 @@ typedef struct _DISPLAYID_DETAILED_TIMING_TYPE_I {
 ### -field PreferredTiming
 
 
-       [in] Indicates whether the first 128-byte block of a monitor's Extended Display Identification Data <a href="wdkgloss.e#wdkgloss.extended_display_identification_data__edid_#wdkgloss.extended_display_identification_data__edid_"><i>Extended Display Identification Data (EDID)</i></a> contains detailed timing data. This must be 1 if the display conforms to EDID version 1.3 and later.
+       [in] Indicates whether the first 128-byte block of a monitor's Extended Display Identification Data <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">Extended Display Identification Data (EDID)</a> contains detailed timing data. This must be 1 if the display conforms to EDID version 1.3 and later.
       
-
-
-### -field HorizontalActivePixels
-
-[in] The number of active pixels in the horizontal direction.
-
-
-### -field HorizontalBlankPixels
-
-[in] The number of blank pixels in the horizontal direction.
 
 
 ### -field HorizontalFrontPorch
@@ -125,6 +128,26 @@ typedef struct _DISPLAYID_DETAILED_TIMING_TYPE_I {
 ### -field HorizontalSyncPolarity
 
 [in] The horizontal sync polarity, which must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
+
+
+### -field VerticalFrontPorch
+
+[in] The vertical front porch interval, in number of lines. The front porch is the blanking interval before the sync pulse.
+
+
+### -field VerticalSyncPolarity
+
+[in] The vertical sync polarity. Must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
+
+
+### -field HorizontalActivePixels
+
+[in] The number of active pixels in the horizontal direction.
+
+
+### -field HorizontalBlankPixels
+
+[in] The number of blank pixels in the horizontal direction.
 
 
 ### -field HorizontalSyncWidth
@@ -142,22 +165,14 @@ typedef struct _DISPLAYID_DETAILED_TIMING_TYPE_I {
 [in] The number of blank scan lines.
 
 
-### -field VerticalFrontPorch
-
-[in] The vertical front porch interval, in number of lines. The front porch is the blanking interval before the sync pulse.
-
-
-### -field VerticalSyncPolarity
-
-[in] The vertical sync polarity. Must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
-
-
 ### -field VerticalSyncWidth
 
 [in] The vertical sync interval, in number of lines.
 
 
 ## -remarks
+
+
 The Microsoft DirectX graphics kernel subsystem fills this structure by reading the additional target mode data that is stored in the registry at the following path:
 
 <b>HKEY_LOCAL_MACHINE\ SYSTEM\ CurrentControlSet\ Control\ GraphicsDrivers\ AdditionalTargetModeLists</b>
@@ -165,21 +180,17 @@ The Microsoft DirectX graphics kernel subsystem fills this structure by reading 
 The graphics kernel subsystem also validates that each registry value meets the requirements described above for each respective member.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554017">DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554019">DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554023">DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554017">DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554023">DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE</a>
+
  
 
  

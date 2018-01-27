@@ -7,8 +7,8 @@ old-location: netvista\fwps_fields_name_resolution_cache_v6.htm
 old-project: netvista
 ms.assetid: 78d2ec8f-fbee-4bad-bc84-b10495c24399
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: FWPS_FIELDS_NAME_RESOLUTION_CACHE_V6_, FWPS_FIELDS_NAME_RESOLUTION_CACHE_V6
+ms.date: 1/18/2018
+ms.keywords: fwpsk/FWPS_FIELD_NAME_RESOLUTION_CACHE_V6_PEER_NAME, fwpsk/FWPS_FIELD_NAME_RESOLUTION_CACHE_V6_ALE_USER_ID, FWPS_FIELD_NAME_RESOLUTION_CACHE_V6_ALE_USER_ID, FWPS_FIELDS_NAME_RESOLUTION_CACHE_V6, fwpsk/FWPS_FIELD_NAME_RESOLUTION_CACHE_V6_ALE_APP_ID, fwpsk/FWPS_FIELD_NAME_RESOLUTION_CACHE_V6_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_NAME_RESOLUTION_CACHE_V6_MAX, netvista.fwps_fields_name_resolution_cache_v6, FWPS_FIELD_NAME_RESOLUTION_CACHE_V6_ALE_APP_ID, FWPS_FIELDS_NAME_RESOLUTION_CACHE_V6 enumeration [Network Drivers Starting with Windows Vista], fwpsk/FWPS_FIELDS_NAME_RESOLUTION_CACHE_V6, FWPS_FIELD_NAME_RESOLUTION_CACHE_V6_MAX, FWPS_FIELDS_NAME_RESOLUTION_CACHE_V6_, FWPS_FIELD_NAME_RESOLUTION_CACHE_V6_IP_REMOTE_ADDRESS, wfp_ref_5_const_3_data_fields_53aef03d-34ba-4bfa-81fd-5329f78dcab7.xml, FWPS_FIELD_NAME_RESOLUTION_CACHE_V6_PEER_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 7.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FWPS_FIELDS_NAME_RESOLUTION_CACHE_V6
-req.alt-loc: fwpsk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	fwpsk.h
+apiname: 
+-	FWPS_FIELDS_NAME_RESOLUTION_CACHE_V6
+product: Windows
+targetos: Windows
 req.typenames: FWPS_FIELDS_NAME_RESOLUTION_CACHE_V6
 ---
 
 # FWPS_FIELDS_NAME_RESOLUTION_CACHE_V6_ enumeration
 
 
-
 ## -description
+
+
 The FWPS_FIELDS_NAME_RESOLUTION_CACHE_V6 enumeration type specifies the data field identifiers for
   the FWPS_LAYER_NAME_RESOLUTION_CACHE_V6 
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum FWPS_FIELDS_NAME_RESOLUTION_CACHE_V6_ { 
@@ -59,6 +69,9 @@ typedef enum FWPS_FIELDS_NAME_RESOLUTION_CACHE_V6_ {
 
 
 ## -enum-fields
+
+
+
 
 ### -field FWPS_FIELD_NAME_RESOLUTION_CACHE_V6_ALE_USER_ID
 
@@ -80,10 +93,12 @@ The remote IP address.
 The machine name that is associated with the destination IP address.
 
 
+### -field FWPS_FIELD_NAME_RESOLUTION_CACHE_V6_COMPARTMENT_ID
+
+
+
 ### -field FWPS_FIELD_NAME_RESOLUTION_CACHE_V6_MAX
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
 
-
-## -remarks

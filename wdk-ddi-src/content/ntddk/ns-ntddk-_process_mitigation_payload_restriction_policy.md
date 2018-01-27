@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f55a47b2-c95c-4b6c-aeff-aed99dd9e43b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, *PPROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
+ms.keywords: kernel.process_mitigation_payload_restriction_policy, _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, *PPROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure [Kernel-Mode Driver Architecture], ntddk/PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
-req.alt-loc: Ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PPROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddk.h
+apiname: 
+-	PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
+product: Windows
+targetos: Windows
+req.typenames: PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, *PPROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
 ---
 
 # _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure
 
 
-
 ## -description
+
+
 Stores information about process mitigation policy.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY {
@@ -71,84 +81,83 @@ typedef struct _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY {
 
 ## -struct-fields
 
+
+
+
 ### -field DUMMYUNIONNAME
 
 
-### -field Flags
 
-Bitwise of flags in this structure.
-
-
-### -field DUMMYSTRUCTNAME
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
 
-### -field EnableExportAddressFilter
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.EnableExportAddressFilter
 
 If set this enables the Export Address Filter mitigation in enforcement mode for the process.
 
 
-### -field AuditExportAddressFilter
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.AuditExportAddressFilter
 
 If set this enables the Export Address Filter mitigation in audit mode for the process.
 
 
-### -field EnableExportAddressFilterPlus
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.EnableExportAddressFilterPlus
 
 If set this enables the Export Address Filter Plus mitigation in enforcement mode for the process.
 
 
-### -field AuditExportAddressFilterPlus
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.AuditExportAddressFilterPlus
 
 If set this enables the Export Address Filter mitigation in audit mode for the process.
 
 
-### -field EnableImportAddressFilter
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.EnableImportAddressFilter
 
 If set this enables the Import Address Filter mitigation in enforcement mode for the process.
 
 
-### -field AuditImportAddressFilter
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.AuditImportAddressFilter
 
 If set this enables the Import Address Filter mitigation in enforcement mode for the process.
 
 
-### -field EnableRopStackPivot
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.EnableRopStackPivot
 
 If set this enables the stack pivot anti-ROP (Return-oriented-programming) mitigation in enforcement mode for the process.
 
 
-### -field AuditRopStackPivot
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.AuditRopStackPivot
 
 If set this enables the stack pivot anti-ROP (Return-oriented-programming) mitigation in audit mode for the process.
 
 
-### -field EnableRopCallerCheck
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.EnableRopCallerCheck
 
 If set this enables the caller check anti-ROP (Return-oriented-programming) mitigation in enforcement mode for the process. Applies to 32-bit processes only.
 
 
-### -field AuditRopCallerCheck
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.AuditRopCallerCheck
 
 If set this enables the caller check anti-ROP (Return-oriented-programming) mitigation in audit mode for the process. Applies to 32-bit processes only.
 
 
-### -field EnableRopSimExec
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.EnableRopSimExec
 
 If set this enables the simulated execution anti-ROP (Return-oriented-programming) mitigation in enforcement mode for the process. Applies to 32-bit processes only.
 
 
-### -field AuditRopSimExec
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.AuditRopSimExec
 
 If set this enables the simulated execution anti-ROP (Return-oriented-programming) mitigation in audit mode for the process. Applies to 32-bit processes only.
 
 
-### -field ReservedFlags
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
 
 Reserved.
 
-</dd>
-</dl>
-</dd>
-</dl>
 
-## -remarks
+### -field DUMMYUNIONNAME.Flags
+
+Bitwise of flags in this structure.
+

@@ -7,8 +7,8 @@ old-location: netvista\ndismallocatesharedmemory.htm
 old-project: netvista
 ms.assetid: 8eda6100-598f-405d-a9b3-74424c829a58
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisMAllocateSharedMemory
+ms.date: 1/18/2018
+ms.keywords: NdisMAllocateSharedMemory, netvista.ndismallocatesharedmemory, ndis/NdisMAllocateSharedMemory, NdisMAllocateSharedMemory function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_c2bf3765-9335-488e-a320-7e955f95eed8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisMAllocateSharedMemory
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisMAllocateSharedMemory
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMAllocateSharedMemory function
 
 
-
 ## -description
+
+
 <b>NdisMAllocateSharedMemory</b> allocates and maps a host memory range so that the memory range is
   simultaneously accessible from both the host system and a DMA NIC.
 
 
-
 ## -syntax
+
 
 ````
 VOID NdisMAllocateSharedMemory(
@@ -58,6 +69,9 @@ VOID NdisMAllocateSharedMemory(
 
 
 ## -parameters
+
+
+
 
 ### -param MiniportAdapterHandle [in]
 
@@ -91,11 +105,17 @@ Pointer to a caller-supplied variable in which this function returns a physical 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
-Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of Windows allow both
+
+
+<div class="alert"><b>Note</b>  A miniport driver must have already called <a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">NdisMRegisterScatterGatherDma</a> or <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a> to initialize a
+  scatter/gather DMA channel before calling <b>NdisMAllocateSharedMemory</b>.</div><div> </div>Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of Windows allow both
     bus-master DMA NICs and subordinate DMA NICs to call 
     <b>NdisMAllocateSharedMemory</b>. Prior releases allow only bus-master DMA NICs to call 
     <b>NdisMAllocateSharedMemory</b>. In these prior releases, if 
@@ -117,7 +137,8 @@ Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of 
     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>. How large
     an allocation to request depends on how the driver writer, knowing the capabilities and features of the
     NIC, decides to make the tradeoff between the following performance versus size dilemma:
-
+<ul>
+<li>
 In periods of high network traffic, a miniport driver cannot maintain high I/O throughput if it runs
       low on shared memory space for device-accessible data buffers.
 
@@ -127,6 +148,8 @@ For example, the miniport driver could be indicating receive buffers in shared m
       have to disable receive interrupts on a NIC until it has some shared memory space available for receive
       buffers.
 
+</li>
+<li>
 On the other hand, calling 
       <b>NdisMAllocateSharedMemory</b> with a 
       <i>Length</i> chosen to anticipate some maximum transfer demand makes the driver's image larger and its
@@ -134,16 +157,17 @@ On the other hand, calling
       <b>NdisMAllocateSharedMemory</b> might not give the driver such a large block if insufficient system
       memory is available, forcing the driver to fail initialization.
 
-A miniport driver that supplies a 
-    <a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
-    MiniportSharedMemoryAllocateComplete</a> function has considerably more flexibility in resolving the
+</li>
+</ul>A miniport driver that supplies a 
+    <mshelp:link keywords="netvista.miniportsharedmemoryallocatecomplete" tabindex="0"><i>
+    MiniportSharedMemoryAllocateComplete</i></mshelp:link> function has considerably more flexibility in resolving the
     preceding performance versus size dilemma. 
     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> should allocate only enough shared memory with 
     <b>NdisMAllocateSharedMemory</b> for a moderate demand for network transfer operations through the NIC if
     the driver has a 
     <i>MiniportSharedMemoryAllocateComplete</i> function. Such a miniport driver can call 
-    <a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
-    NdisMAllocateSharedMemoryAsyncEx</a> dynamically to allocate more shared memory in periods of heavier
+    <mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
+    NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link> dynamically to allocate more shared memory in periods of heavier
     transfer demand on a NIC. When the high demand for transfers subsides, such a driver calls 
     <a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a> to release the
     additional memory it allocated. Note that only bus-master DMA NICs can call 
@@ -185,8 +209,8 @@ If its call to
     resources it has already allocated and fail initialization.
 
 If the miniport driver subsequently indicates receives with 
-    <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-    NdisMIndicateReceiveNetBufferLists</a>, it must allocate some number of buffer descriptors from buffer
+    <mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
+    NdisMIndicateReceiveNetBufferLists</b></mshelp:link>, it must allocate some number of buffer descriptors from buffer
     pool that map the NIC's receive buffers in the shared memory block.
 
 If the allocated memory is cached and, therefore, needs to be flushed on transfers, the miniport
@@ -197,59 +221,47 @@ If the allocated memory is cached and, therefore, needs to be flushed on transfe
     to perform such a flush.
 
 If a miniport driver calls 
-    <a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
-    NdisMAllocateSharedMemoryAsyncEx</a> or 
+    <mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
+    NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link> or 
     <b>NdisMAllocateSharedMemory</b>, it must release all outstanding allocations with one or more calls to 
     <a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a> when a NIC is
     removed, that is, when its 
     <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function is called.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
-   MiniportSharedMemoryAllocateComplete</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisallocatemdl.md">NdisAllocateMdl</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.miniportsharedmemoryallocatecomplete" tabindex="0"><i>
+   MiniportSharedMemoryAllocateComplete</i></mshelp:link>
+
 <a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
-   NdisMAllocateSharedMemoryAsyncEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismgetdmaalignment.md">NdisMGetDmaAlignment</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-   NdisMIndicateReceiveNetBufferLists</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
+   NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link>
+
 <a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
-</dt>
-</dl>
- 
+
+<mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
+   NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
+
+<a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
+
+<a href="..\ndis\nf-ndis-ndismgetdmaalignment.md">NdisMGetDmaAlignment</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nf-ndis-ndisallocatemdl.md">NdisAllocateMdl</a>
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+<a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMAllocateSharedMemory function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMAllocateSharedMemory function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

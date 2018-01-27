@@ -7,8 +7,8 @@ old-location: print\oempaint.htm
 old-project: print
 ms.assetid: 4054c805-5307-41f4-a7ff-65743ae4be69
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: OEMPaint
+ms.date: 1/18/2018
+ms.keywords: OEMPaint function [Print Devices], print.oempaint, printoem/OEMPaint, OEMPaint, print_unidrv-pscript_rendering_c9624a47-02fd-4eba-80d9-4035713ac594.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OEMPaint
-req.alt-loc: printoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	printoem.h
+apiname: 
+-	OEMPaint
+product: Windows
+targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # OEMPaint function
 
 
-
 ## -description
+
+
 The <code>OEMPaint</code> function is obsolete, and is no longer called by GDI in Windows 2000 and later. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff556256">DrvPaint</a>.
 
 
-
 ## -syntax
+
 
 ````
 BOOL APIENTRY OEMPaint(
@@ -59,20 +69,32 @@ BOOL APIENTRY OEMPaint(
 
 ## -parameters
 
-### -param pso 
 
 
-### -param pco 
+
+### -param pso
 
 
-### -param pbo 
+
+### -param pco
 
 
-### -param pptlBrushOrg 
+
+### -param pbo
 
 
-### -param mix 
+
+### -param pptlBrushOrg
+
+
+
+### -param mix
+
 
 
 ## -remarks
-If you call into the core driver, cast the call using the <b>PFN_DrvPaint</b> function pointer.</p>
+
+
+If you call into the core driver, cast the call using the <b>PFN_DrvPaint</b> function pointer.
+
+

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 56446DA9-EAE9-4EEF-9299-892B7384D506
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _VPCI_PNP_ID, VPCI_PNP_ID, *PVPCI_PNP_ID
+ms.keywords: kernel.acceptdevicenotification, AcceptDeviceNotification routine [Kernel-Mode Driver Architecture], AcceptDeviceNotification, PEPCALLBACKNOTIFYDPM, PEPCALLBACKNOTIFYDPM, pepfx/AcceptDeviceNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AcceptDeviceNotification
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	pepfx.h
+apiname: 
+-	AcceptDeviceNotification
+product: Windows
+targetos: Windows
+req.typenames: *PVPCI_PNP_ID, VPCI_PNP_ID
 ---
 
 # PEPCALLBACKNOTIFYDPM callback
 
 
-
 ## -description
+
+
 An <i>AcceptDeviceNotification</i> event callback routine handles device power management (DPM) notifications from the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx).
 
 
-
 ## -prototype
+
 
 ````
 PEPCALLBACKNOTIFYDPM AcceptDeviceNotification;
@@ -58,6 +68,9 @@ BOOLEAN AcceptDeviceNotification(
 
 ## -parameters
 
+
+
+
 ### -param Notification [in]
 
 The DPM notification ID. This parameter specifies the type of DPM notification that PoFx is sending. For a list of DPM notification IDs, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt186631">Device power management (DPM) notifications</a>.
@@ -69,10 +82,15 @@ A pointer to a PoFx-allocated structure that contains the input and/or output da
 
 
 ## -returns
+
+
 The <i>AcceptDeviceNotification</i> routine must return TRUE if it handles the notification, or FALSE if it does not.
 
 
+
 ## -remarks
+
+
 This routine is implemented by the platform extension plug-in (PEP) for a device. The <b>AcceptDeviceNotification</b> member of the <a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a> structure is a pointer to an <i>AcceptDeviceNotification</i> routine. The PEP calls the <a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a> or <a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a> routine to register the PEP's <i>AcceptDeviceNotification</i> routine with PoFx.
 
 PoFx calls this routine to send a DPM notification to the PEP. In this call, the <i>Notification</i> parameter specifies the type of notification, and the <i>Data</i> parameter points to a data structure of the type that is associated with this notification. For a list of DPM notification IDs and their associated structure types, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt186631">Device power management (DPM) notifications</a>.
@@ -84,18 +102,15 @@ The <i>AcceptDeviceNotification</i> routine does not have to accept every reques
 The <i>AcceptDeviceNotification</i> routine can be called at IRQL &lt;= DISPATCH_LEVEL. The IRQL at which the PEP's <i>AcceptAcpiNotification</i> routine is called varies according to the type of notification that is being sent. The notification type is specified by the <i>Notification</i> parameter. For more information, see the individual reference pages under <a href="https://msdn.microsoft.com/library/windows/hardware/mt186631">Device power management (DPM) notifications</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a>
-</dt>
-<dt>
+
 <a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
-</dt>
-</dl>
+
+<a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a>
+
+<a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a>
+
  
 
  

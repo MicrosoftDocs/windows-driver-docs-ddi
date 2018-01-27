@@ -2,13 +2,13 @@
 UID: NF:srb.ScsiPortNotification
 title: ScsiPortNotification function
 author: windows-driver-content
-description: The ScsiPortNotification routine informs the operating system-specific port driver of certain events, such as when a miniport driver completes a request or is ready to start another SRB, as well as when the HBA indicates certain SCSI error conditions that occurred during an operation.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
+description: The ScsiPortNotification routine informs the operating system-specific port driver of certain events, such as when a miniport driver completes a request or is ready to start another SRB, as well as when the HBA indicates certain SCSI error conditions that occurred during an operation.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models. 
 old-location: storage\scsiportnotification.htm
 old-project: storage
 ms.assetid: 27da3881-4c47-492c-868e-ce72210e9d6f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortNotification
+ms.keywords: ScsiPortNotification routine [Storage Devices], ScsiPortNotification, storage.scsiportnotification, srb/ScsiPortNotification, scsiprt_0e410e4a-e7bb-448b-9d4d-c2a5db63fe02.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ScsiPortNotification
-req.alt-loc: scsiport.lib,scsiport.dll,storport.lib,storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,20 @@ req.type-library:
 req.lib: Scsiport.lib; Storport.lib
 req.dll: 
 req.irql: (See Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	scsiport.lib
+-	scsiport.dll
+-	storport.lib
+-	storport.dll
+apiname: 
+-	ScsiPortNotification
+product: Windows
+targetos: Windows
 req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +50,14 @@ req.product: Windows 10 or later.
 # ScsiPortNotification function
 
 
-
 ## -description
+
+
 The <b>ScsiPortNotification</b> routine informs the operating system-specific port driver of certain events, such as when a miniport driver completes a request or is ready to start another SRB, as well as when the HBA indicates certain SCSI error conditions that occurred during an operation.
-
-
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 VOID ScsiPortNotification(
@@ -56,10 +69,12 @@ VOID ScsiPortNotification(
 
 ## -parameters
 
-### -param NotificationType 
+
+
+
+### -param NotificationType
 
 Specifies the type of notification, which can be one of the following.
-
 <table>
 <tr>
 <th>Notification Type</th>
@@ -334,20 +349,30 @@ Syntax for PathId = 0xFF
 </table></span></div>
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension
 
 Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension-&gt;HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
+### -param param
+
+TBD
+
+
+
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The <b>ScsiPortNotification</b> routine has a different set of optional parameters associated with each <i>NotificationType</i>. For a description of the optional parameters associated a particular <i>NotificationType</i>, see the reference page associated with that <i>NotificationType</i>. The following reference pages provide this information:
 
 
@@ -402,24 +427,19 @@ If an HBA requires the miniport driver to use more than a millisecond processing
 A miniport driver that is registered as a WMI data provider can call <b>ScsiPortNotification</b> with <b>WMIEvent</b> to post an event for which it has previously received an enable request. The port driver queues the event in the interrupt data area of the miniport driver's device extension for later processing at a lower IRQL. Because only a limited number of events can be queued at one time, the miniport driver should use <b>WMIEvent</b> to signal exceptional rather than routine conditions, and it should give the port driver time to get back to DISPATCH_LEVEL between postings, to prevent events from being lost. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557327">HwScsiTimer</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557288">HwScsiDisableInterruptsCallback</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557295">HwScsiEnableInterruptsCallback</a>
-</dt>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportcompleterequest.md">ScsiPortCompleteRequest</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iowmiregistrationcontrol.md">IoWMIRegistrationControl</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557295">HwScsiEnableInterruptsCallback</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557288">HwScsiDisableInterruptsCallback</a>
+
  
 
  

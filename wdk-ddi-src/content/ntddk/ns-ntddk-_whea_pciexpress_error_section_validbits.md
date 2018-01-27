@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 1c4c3e9c-32a2-405a-b27d-98f8da715626
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS, WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS, *PWHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS, *PWHEA_PCIEXPRESS_ERROR_VALIDBITS, WHEA_PCIEXPRESS_ERROR_VALIDBITS
+ms.keywords: WHEA_PCIEXPRESS_ERROR_VALIDBITS, ntddk/PWHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS, WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS union [WHEA Drivers and Applications], PWHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS, whea.whea_pciexpress_error_section_validbits, *PWHEA_PCIEXPRESS_ERROR_VALIDBITS, PWHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS union pointer [WHEA Drivers and Applications], WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS, _WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS, ntddk/WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS, whearef_9b6e3f92-4939-401a-9da2-e2ece44b1e98.xml, *PWHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS, *PWHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS, WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS
 ---
 
 # _WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS structure
 
 
-
 ## -description
+
+
 The WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS union describes which members of a <a href="..\ntddk\ns-ntddk-_whea_pciexpress_error_section.md">WHEA_PCIEXPRESS_ERROR_SECTION</a> structure contain valid data.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS {
@@ -65,49 +75,57 @@ typedef union _WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS {
 
 ## -struct-fields
 
-### -field PortType
-
-A single bit that indicates that the <b>PortType</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
 
 
-### -field Version
 
-A single bit that indicates that the <b>Version</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+### -field DUMMYSTRUCTNAME
 
-
-### -field CommandStatus
-
-A single bit that indicates that the <b>CommandStatus</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+ 
 
 
-### -field DeviceId
+### -field DUMMYSTRUCTNAME.PortType
 
-A single bit that indicates that the <b>DeviceId</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
-
-
-### -field DeviceSerialNumber
-
-A single bit that indicates that the <b>DeviceSerialNumber</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+ 
 
 
-### -field BridgeControlStatus
+### -field DUMMYSTRUCTNAME.Version
 
-A single bit that indicates that the <b>BridgeControlStatus</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
-
-
-### -field ExpressCapability
-
-A single bit that indicates that the <b>ExpressCapability</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+ 
 
 
-### -field AerInfo
+### -field DUMMYSTRUCTNAME.CommandStatus
 
-A single bit that indicates that the <b>AerInfo</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+ 
 
 
-### -field Reserved
+### -field DUMMYSTRUCTNAME.DeviceId
 
-Reserved for system use.
+ 
+
+
+### -field DUMMYSTRUCTNAME.DeviceSerialNumber
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.BridgeControlStatus
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.ExpressCapability
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.AerInfo
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Reserved
+
+ 
 
 
 ### -field ValidBits
@@ -115,16 +133,62 @@ Reserved for system use.
 A ULONGLONG representation of the contents of the WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS union.
 
 
+#### - Reserved
+
+Reserved for system use.
+
+
+#### - AerInfo
+
+A single bit that indicates that the <b>AerInfo</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+
+
+#### - CommandStatus
+
+A single bit that indicates that the <b>CommandStatus</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+
+
+#### - BridgeControlStatus
+
+A single bit that indicates that the <b>BridgeControlStatus</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+
+
+#### - Version
+
+A single bit that indicates that the <b>Version</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+
+
+#### - DeviceId
+
+A single bit that indicates that the <b>DeviceId</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+
+
+#### - PortType
+
+A single bit that indicates that the <b>PortType</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+
+
+#### - ExpressCapability
+
+A single bit that indicates that the <b>ExpressCapability</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+
+
+#### - DeviceSerialNumber
+
+A single bit that indicates that the <b>DeviceSerialNumber</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+
+
 ## -remarks
+
+
 A WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS union is contained within the <a href="..\ntddk\ns-ntddk-_whea_pciexpress_error_section.md">WHEA_PCIEXPRESS_ERROR_SECTION</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_pciexpress_error_section.md">WHEA_PCIEXPRESS_ERROR_SECTION</a>
-</dt>
-</dl>
+
  
 
  

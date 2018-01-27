@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 164c34ce-603f-447b-8bd7-14b1c19e9baa
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_SERIALHDR, KSPROPERTY_SERIALHDR, *PKSPROPERTY_SERIALHDR
+ms.keywords: ks-struct_cdf54d37-a5b8-4a73-98dd-c7a9439ac51a.xml, stream.ksproperty_serialhdr, *PKSPROPERTY_SERIALHDR, KSPROPERTY_SERIALHDR, KSPROPERTY_SERIALHDR structure [Streaming Media Devices], PKSPROPERTY_SERIALHDR structure pointer [Streaming Media Devices], PKSPROPERTY_SERIALHDR, ks/KSPROPERTY_SERIALHDR, ks/PKSPROPERTY_SERIALHDR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPROPERTY_SERIALHDR
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KSPROPERTY_SERIALHDR, *PKSPROPERTY_SERIALHDR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSPROPERTY_SERIALHDR
+product: Windows
+targetos: Windows
+req.typenames: *PKSPROPERTY_SERIALHDR, KSPROPERTY_SERIALHDR
 ---
 
 # KSPROPERTY_SERIALHDR structure
 
 
-
 ## -description
+
+
 The format of the serialization buffer is a KSPROPERTY_SERIALHDR structure, followed by serialized properties.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field PropertySet
 
 Specifies the GUID of the property set contained in the serialized buffer.
@@ -65,15 +78,10 @@ Specifies the GUID of the property set contained in the serialized buffer.
 Specifies the count of serialized properties to follow.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\ns-ks-ksproperty_serial.md">KSPROPERTY_SERIAL</a>
-</dt>
-</dl>
+
  
 
  

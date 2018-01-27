@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 242b7573-409a-4fdc-8ebf-596b8e6d41c7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_IN_COMMITMODES,
+ms.keywords: display.idarg_in_commitmodes, IDARG_IN_COMMITMODES structure [Display Devices], IDARG_IN_COMMITMODES, iddcx/IDARG_IN_COMMITMODES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDARG_IN_COMMITMODES
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDARG_IN_COMMITMODES
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDARG_IN_COMMITMODES structure
 
 
-
 ## -description
+
+
 Gives information about the paths that need to be committed.
              
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDARG_IN_COMMITMODES {
@@ -55,6 +65,9 @@ typedef struct IDARG_IN_COMMITMODES {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PathCount
 
@@ -69,5 +82,3 @@ typedef struct IDARG_IN_COMMITMODES {
                      [in] A pointer to the array of paths that need to be committed.
                  
 
-
-## -remarks

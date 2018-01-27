@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 70908275-211b-4112-bad3-35584ec1ef10
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT
+ms.keywords: storage.ioctl_dvd_end_session, IOCTL_DVD_END_SESSION control code [Storage Devices], IOCTL_DVD_END_SESSION, ntddcdvd/IOCTL_DVD_END_SESSION, k307_6d285513-0b3e-4493-977e-e6e837fa3d6a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_DVD_END_SESSION
-req.alt-loc: Ntddcdvd.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,52 +29,77 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddcdvd.h
+apiname: 
+-	IOCTL_DVD_END_SESSION
+product: Windows
+targetos: Windows
+req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ---
 
 # IOCTL_DVD_END_SESSION IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 Ends a DVD session by invalidating its authentication grant ID (AGID).
 
-
-
-Ends a DVD session by invalidating its authentication grant ID (AGID).
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the session ID. 
 
 
 ### -input-buffer-length
+
 Length of a session ID.
 
 
 ### -output-buffer
+
 None.
 
 
 ### -output-buffer-length
+
 None.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Information</b> field is set to zero. The <b>Status</b> field is set to STATUS_SUCCESS.
 
-
-## -remarks

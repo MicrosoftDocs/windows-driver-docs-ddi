@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C5830688-4FC6-4D3F-82EB-15354B28C5F1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA
+ms.keywords: display.pfnd3d12ddi_set_predication, pfnSetPredication callback function [Display Devices], pfnSetPredication, PFND3D12DDI_SET_PREDICATION, PFND3D12DDI_SET_PREDICATION, d3d12umddi/pfnSetPredication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnSetPredication
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	pfnSetPredication
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
 
 # PFND3D12DDI_SET_PREDICATION callback
 
 
-
 ## -description
+
+
 The <i>pfnSetPredication</i> callback function denotes that subsequent video operations and resource manipulation commands are not actually performed if the resulting predicate data of the predicate is equal to the operation specified.
 
 
-
 ## -prototype
+
 
 ````
 PFND3D12DDI_SET_PREDICATION pfnSetPredication;
@@ -60,39 +70,59 @@ VOID APIENTRY* pfnSetPredication(
 
 ## -parameters
 
-### -param hCommandList 
-
-The handle of a command list.
 
 
-### -param hResource 
 
-The handle of a resource.
-
-
-### -param Uint64 
-
-An integer.
+### -param D3D12DDI_HCOMMANDLIST
 
 
-### -param PredicationOp 
+
+### -param D3D12DDI_HRESOURCE
+
+
+
+### -param UINT64
+
+
+
+### -param D3D12DDI_PREDICATION_OP
+
+
+
+
+
+
+#### - PredicationOp
 
 A predication operation. For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_predication_op.md">D3D12DDI_PREDICATION_OP</a> enumeration.
 
 
+#### - Uint64
+
+An integer.
+
+
+#### - hCommandList
+
+The handle of a command list.
+
+
+#### - hResource
+
+The handle of a resource.
+
+
 ## -returns
+
+
 This callback function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_predication_op.md">D3D12DDI_PREDICATION_OP</a>
-</dt>
-</dl>
+
  
 
  

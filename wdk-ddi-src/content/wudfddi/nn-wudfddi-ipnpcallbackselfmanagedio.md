@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 34971df0-4abc-41a1-8d2f-6e36df1daf20
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFWorkItem, IWDFWorkItem::GetParentObject, GetParentObject
+ms.keywords: wdf.ipnpcallbackselfmanagedio, IPnpCallbackSelfManagedIo interface, IPnpCallbackSelfManagedIo interface, described, IPnpCallbackSelfManagedIo, wudfddi/IPnpCallbackSelfManagedIo, UMDFDeviceObjectRef_0f139c45-68eb-4429-ac90-675d7eddea5a.xml, umdf.ipnpcallbackselfmanagedio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPnpCallbackSelfManagedIo
-req.alt-loc: Wudfddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Wudfddi.h
+apiname: 
+-	IPnpCallbackSelfManagedIo
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,35 +47,16 @@ req.product: Windows 10 or later.
 # IPnpCallbackSelfManagedIo interface
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>IPnpCallbackSelfManagedIo</b> interface is a Plug and Play (PnP) and power management (PM) interface. 
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPnpCallbackSelfManagedIo</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IPnpCallbackSelfManagedIo</b> also has these types of members:
-
-The <b>IPnpCallbackSelfManagedIo</b> interface has these methods.
-
-The <a href="https://msdn.microsoft.com/0890c352-8722-4108-9b76-60c81179b46b">OnSelfManagedIoCleanup</a> method releases memory for a device's self-managed I/O operations, after the device is removed.
-
-The <a href="https://msdn.microsoft.com/dee0e30b-ad03-43e4-8a0c-07d3782d7857">OnSelfManagedIoFlush</a> method flushes the device for a device's self-managed I/O operations.
-
-The <a href="https://msdn.microsoft.com/41b12fef-dbc7-4b91-a2d3-9fb1aafff237">OnSelfManagedIoInit</a> method initializes a device's self-managed I/O operations.
-
-The <a href="https://msdn.microsoft.com/dccc4be0-0724-44b6-8476-276b46acee6a">OnSelfManagedIoRestart</a> method restarts a device's self-managed I/O operations.
-
-The <a href="https://msdn.microsoft.com/490c95f5-ea93-4521-8fa5-4ca1f83ff19d">OnSelfManagedIoStop</a> method is not used in the current version of the UMDF.
-
-The <a href="https://msdn.microsoft.com/7ec30c51-5e07-496b-96af-8eafb564d98d">OnSelfManagedIoSuspend</a> method suspends a device's self-managed I/O operations.
-
- 
-
-
 ## -members
+
 The <b>IPnpCallbackSelfManagedIo</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -143,4 +133,8 @@ The <a href="https://msdn.microsoft.com/7ec30c51-5e07-496b-96af-8eafb564d98d">On
 
 
 ## -remarks
-A driver registers the <b>IPnpCallbackSelfManagedIo</b> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. </p>
+
+
+A driver registers the <b>IPnpCallbackSelfManagedIo</b> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
+
+

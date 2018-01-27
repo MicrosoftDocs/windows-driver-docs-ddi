@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9581e3af-f7f8-4365-8bb2-daedcb7a3280
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFNamedPropertyStore, IWDFNamedPropertyStore::GetNamedValue, GetNamedValue
+ms.keywords: wdf.iwdfnamedpropertystore_getnamedvalue, wudfddi/IWDFNamedPropertyStore::GetNamedValue, IWDFNamedPropertyStore::GetNamedValue, UMDFPropertyStoreObjectRef_ba3dd45a-7045-4798-81c6-35cb1a743cc4.xml, IWDFNamedPropertyStore interface, GetNamedValue method, GetNamedValue method, IWDFNamedPropertyStore interface, IWDFNamedPropertyStore, GetNamedValue method, umdf.iwdfnamedpropertystore_getnamedvalue, GetNamedValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.5
-req.alt-api: IWDFNamedPropertyStore.GetNamedValue
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFNamedPropertyStore.GetNamedValue
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IWDFNamedPropertyStore::GetNamedValue method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetNamedValue</b> method retrieves the value of a property.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT GetNamedValue(
@@ -57,6 +67,9 @@ HRESULT GetNamedValue(
 
 
 ## -parameters
+
+
+
 
 ### -param pszName [in]
 
@@ -69,65 +82,130 @@ A pointer to a variable that receives the value for the property.
 
 
 ## -returns
+
+
 <b>GetNamedValue</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
-## -remarks
-The <b>GetNamedValue</b> method allocates memory for a string in the <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure pointed to by the <i>pv</i> parameter.   The caller must then free this memory by calling the <a href="https://msdn.microsoft.com/062b6065-a56f-4ecd-b232-3ba338a6d806">PropVariantClear</a> function, as shown in the following snippet:
 
-If the caller does not free the memory, a memory leak may result.
+## -remarks
+
+
+The <b>GetNamedValue</b> method allocates memory for a string in the <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure pointed to by the <i>pv</i> parameter.   The caller must then free this memory by calling the <a href="https://msdn.microsoft.com/062b6065-a56f-4ecd-b232-3ba338a6d806">PropVariantClear</a> function, as shown in the following snippet:
+<pre class="syntax" xml:space="preserve"><code>hr = pPropStore-&gt;GetNamedValue(L"Host", &amp;val);
+...
+PropVariantClear(&amp;val);</code></pre>If the caller does not free the memory, a memory leak may result.
 
 The following variant types are supported for property values. The following table shows the variant type that is returned regardless of the original variant type.
-
+<table>
+<tr>
+<th>Variant type</th>
+<th>Variant type retrieved</th>
+</tr>
+<tr>
+<td>
 VT_BSTR
 
+</td>
+<td rowspan="3">
 While clients read a string value, the value is returned as VT_LPWSTR regardless of the original variant type that was used to write the value.
 
+</td>
+</tr>
+<tr>
+<td>
 VT_LPWSTR
 
+</td>
+</tr>
+<tr>
+<td>
 VT_LPSTR
 
+</td>
+</tr>
+<tr>
+<td>
 VT_I1
 
+</td>
+<td rowspan="7">
 While clients read an integer value, the value is returned as VT_UI4 regardless of the original variant type that was used to write the value.
 
+</td>
+</tr>
+<tr>
+<td>
 VT_UI1
 
+</td>
+</tr>
+<tr>
+<td>
 VT_I2
 
+</td>
+</tr>
+<tr>
+<td>
 VT_UI2
 
+</td>
+</tr>
+<tr>
+<td>
 VT_I4
 
+</td>
+</tr>
+<tr>
+<td>
 VT_UI4
 
+</td>
+</tr>
+<tr>
+<td>
 VT_UINT
 
+</td>
+</tr>
+<tr>
+<td>
 VT_BLOB
 
+</td>
+<td>
 The binary value is returned as VT_BLOB.
 
+</td>
+</tr>
+<tr>
+<td>
 VT_VECTOR | VT_LPWSTR
 
+</td>
+<td>
 The string array is returned as VT_VECTOR | VT_LPWSTR
+
+</td>
+</tr>
+</table> 
 
 A string that contains environment variables is expanded on read.
 
 For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in UMDF-based Drivers</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/062b6065-a56f-4ecd-b232-3ba338a6d806">PropVariantClear</a>
-</dt>
-<dt>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a>
+
 <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>
-</dt>
-</dl>
+
  
 
  

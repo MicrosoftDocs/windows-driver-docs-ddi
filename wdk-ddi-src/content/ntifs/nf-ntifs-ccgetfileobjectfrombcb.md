@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d30a2ee4-4736-4127-95db-b86e782c3577
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcGetFileObjectFromBcb
+ms.keywords: CcGetFileObjectFromBcb, ccref_7fdf1d1e-a080-4322-a09c-be0a16543050.xml, ntifs/CcGetFileObjectFromBcb, ifsk.ccgetfileobjectfrombcb, CcGetFileObjectFromBcb routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcGetFileObjectFromBcb
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcGetFileObjectFromBcb
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcGetFileObjectFromBcb function
 
 
-
 ## -description
+
+
 Given a pointer to a pinned buffer control block (BCB) for a file, the <b>CcGetFileObjectFromBcb</b> routine returns a pointer to the file object that the cache manager is using for that file.
 
 
-
 ## -syntax
+
 
 ````
 PFILE_OBJECT CcGetFileObjectFromBcb(
@@ -54,34 +64,38 @@ PFILE_OBJECT CcGetFileObjectFromBcb(
 
 ## -parameters
 
+
+
+
 ### -param Bcb [in]
 
 Pointer to the pinned BCB.
 
 
 ## -returns
+
+
 Pointer to the file object, or <b>NULL</b> if the file is not cached or is no longer cached.
 
 
+
 ## -remarks
+
+
 The file object pointer is guaranteed to remain valid as long as the BCB exists.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
+
+<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9D41810A-7698-4462-802D-79EF793C9A9D
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetDataInBufferMdl
+ms.keywords: storage.storportgetdatainbuffermdl, StorPortGetDataInBufferMdl routine [Storage Devices], storport/StorPortGetDataInBufferMdl, StorPortGetDataInBufferMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortGetDataInBufferMdl
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: Any
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortGetDataInBufferMdl
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortGetDataInBufferMdl function
 
 
-
 ## -description
+
+
 Returns an MDL associated with the input data buffer  of a SCSI request block (SRB).
 
 
-
 ## -syntax
+
 
 ````
 ULONG StorPortGetDataInBufferMdl(
@@ -56,6 +67,9 @@ ULONG StorPortGetDataInBufferMdl(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -73,29 +87,46 @@ A pointer to  an MDL address to receive the MDL for <i>Srb</i>.
 
 
 ## -returns
+
+
 A status value indicating the result of the notification. This can be one of these values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>The MDL for <i>Srb</i> was successfully returned.
+</dl>
+</td>
+<td width="60%">
+The MDL for <i>Srb</i> was successfully returned.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>The pointer value in <i>Mdl</i> is NULL.
+</dl>
+</td>
+<td width="60%">
+The pointer value in <i>Mdl</i> is NULL.
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\storport\nf-storport-storportgetdatainbufferscattergatherlist.md">StorPortGetDataInBufferScatterGatherList</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportgetdatainbuffersystemaddress.md">StorPortGetDataInBufferSystemAddress</a>
-</dt>
-</dl>
+
+<a href="..\storport\nf-storport-storportgetdatainbufferscattergatherlist.md">StorPortGetDataInBufferScatterGatherList</a>
+
  
 
  

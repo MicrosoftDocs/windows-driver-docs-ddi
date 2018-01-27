@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: C24B7D85-AEA9-43B3-9BEE-262CAA255834
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _ENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE, *PENDPOINTS_CONFIGURE
+ms.keywords: buses._endpoints_configure, _ENDPOINTS_CONFIGURE, ucxendpoint/P_ENDPOINTS_CONFIGURE, ucxendpoint/_ENDPOINTS_CONFIGURE, *PENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE structure [Buses], ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ENDPOINTS_CONFIGURE
-req.alt-loc: ucxendpoint.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ucxendpoint.h
+apiname: 
+-	ENDPOINTS_CONFIGURE
+product: Windows
+targetos: Windows
 req.typenames: ENDPOINTS_CONFIGURE, *PENDPOINTS_CONFIGURE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _ENDPOINTS_CONFIGURE structure
 
 
-
 ## -description
+
+
 Describes   endpoints to enable or disable endpoints. This structure is passed by UCX in the <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_endpoints_configure.md">EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE</a>  callback function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ENDPOINTS_CONFIGURE {
@@ -69,6 +79,9 @@ typedef struct _ENDPOINTS_CONFIGURE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -130,15 +143,21 @@ The interface number of the USB interface that contains the endpoints.
 The setting number of the alternate setting that contains the endpoints. 
 
 
-## -remarks
+### -field Reserved1
+
+ 
+
+
+### -field Reserved2
+
+ 
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_endpoints_configure.md">EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE</a>
-</dt>
-</dl>
+
  
 
  

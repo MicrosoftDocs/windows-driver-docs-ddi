@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1977828d-61bb-4649-bfa6-e5e82775258e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFRequestCompletionParams, IWDFRequestCompletionParams::GetCompletedRequestType, GetCompletedRequestType
+ms.keywords: IWDFRequestCompletionParams, wdf.iwdfrequestcompletionparams_getcompletedrequesttype, GetCompletedRequestType, wudfddi/IWDFRequestCompletionParams::GetCompletedRequestType, UMDFRequestObjectRef_97c61d1b-059f-44d7-9d3a-7c031099d669.xml, GetCompletedRequestType method, GetCompletedRequestType method, IWDFRequestCompletionParams interface, IWDFRequestCompletionParams interface, GetCompletedRequestType method, IWDFRequestCompletionParams::GetCompletedRequestType, umdf.iwdfrequestcompletionparams_getcompletedrequesttype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.5
-req.alt-api: IWDFRequestCompletionParams.GetCompletedRequestType
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFRequestCompletionParams.GetCompletedRequestType
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IWDFRequestCompletionParams::GetCompletedRequestType method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetCompletedRequestType</b> method retrieves the type of operation that the request to be completed contains.
 
 
-
 ## -syntax
+
 
 ````
 WDF_REQUEST_TYPE  GetCompletedRequestType();
@@ -56,26 +66,22 @@ WDF_REQUEST_TYPE  GetCompletedRequestType();
 ## -parameters
 
 
+
+
+
 ## -returns
+
+
 <b>GetCompletedRequestType</b> returns a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>-typed value that identifies the request type and why the request was sent to the driver.
 
-<b>GetCompletedRequestType</b> returns a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>-typed value that identifies the request type and why the request was sent to the driver.
-
-<b>GetCompletedRequestType</b> returns a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>-typed value that identifies the request type and why the request was sent to the driver.
-
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>
-</dt>
-<dt>
+
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: d2615320-6c8a-4813-afb5-c5b510e5fde9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_ERROR_SOURCE_TYPE, *PWHEA_ERROR_SOURCE_TYPE, WHEA_ERROR_SOURCE_TYPE
+ms.keywords: ntddk/WheaErrSrcTypeCPE, ntddk/WHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeIPFCPE, WheaErrSrcTypeINIT, WheaErrSrcTypeIPFMCA, WheaErrSrcTypeMax, ntddk/WheaErrSrcTypeIPFMCA, ntddk/WheaErrSrcTypeMax, ntddk/WheaErrSrcTypeSCIGeneric, PWHEA_ERROR_SOURCE_TYPE, whearef_786d549e-14b1-4945-a1ce-23c7112ff0c8.xml, WheaErrSrcTypePCIe, ntddk/WheaErrSrcTypeINIT, WheaErrSrcTypeIPFCPE, _WHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeIPFCMC, ntddk/WheaErrSrcTypePCIe, WheaErrSrcTypeNMI, WheaErrSrcTypeGeneric, ntddk/WheaErrSrcTypeCMC, ntddk/WheaErrSrcTypeMCE, *PWHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeBOOT, WHEA_ERROR_SOURCE_TYPE enumeration [WHEA Drivers and Applications], ntddk/WheaErrSrcTypeIPFCMC, ntddk/WheaErrSrcTypeNMI, PWHEA_ERROR_SOURCE_TYPE enumeration pointer [WHEA Drivers and Applications], WheaErrSrcTypeSCIGeneric, WheaErrSrcTypeMCE, WheaErrSrcTypeCPE, WheaErrSrcTypeCMC, WHEA_ERROR_SOURCE_TYPE, whea.whea_error_source_type, ntddk/PWHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeGeneric, ntddk/WheaErrSrcTypeBOOT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_ERROR_SOURCE_TYPE
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PWHEA_ERROR_SOURCE_TYPE, WHEA_ERROR_SOURCE_TYPE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_ERROR_SOURCE_TYPE
+product: Windows
+targetos: Windows
+req.typenames: WHEA_ERROR_SOURCE_TYPE, *PWHEA_ERROR_SOURCE_TYPE
 ---
 
 # _WHEA_ERROR_SOURCE_TYPE enumeration
 
 
-
 ## -description
+
+
 The WHEA_ERROR_SOURCE_TYPE enumeration defines the different types of error sources that can report hardware errors.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WHEA_ERROR_SOURCE_TYPE { 
@@ -65,6 +75,9 @@ typedef enum _WHEA_ERROR_SOURCE_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WheaErrSrcTypeMCE
 
@@ -126,26 +139,34 @@ An Itanium processor corrected machine check (CMC).
 An Itanium processor corrected platform error (CPE).
 
 
+### -field WheaErrSrcTypeGenericV2
+
+
+
+### -field WheaErrSrcTypeSCIGenericV2
+
+
+
 ### -field WheaErrSrcTypeMax
 
 The maximum number of error source types that can report hardware errors.
 
 
 ## -remarks
+
+
 The <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure contains a member of type WHEA_ERROR_SOURCE_TYPE that specifies the type of error source that is described by the structure.
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a> structure contains a member of type WHEA_ERROR_SOURCE_TYPE that specifies the type of error source that caused the error condition described by the structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
  
 
  

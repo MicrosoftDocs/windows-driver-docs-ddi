@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: BCADC907-3770-4FBE-AEB3-96F93502E899
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_PORT_PROPERTIES, USB_PORT_PROPERTIES, *PUSB_PORT_PROPERTIES
+ms.keywords: *PUSB_PORT_PROPERTIES, USB_PORT_PROPERTIES union [Buses], usbioctl/USB_PORT_PROPERTIES, USB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES, buses.usb_port_properties, usbioctl/PUSB_PORT_PROPERTIES, _USB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES union pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_PORT_PROPERTIES
-req.alt-loc: usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbioctl.h
+apiname: 
+-	USB_PORT_PROPERTIES
+product: Windows
+targetos: Windows
 req.typenames: USB_PORT_PROPERTIES, *PUSB_PORT_PROPERTIES
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _USB_PORT_PROPERTIES structure
 
 
-
 ## -description
+
+
 The <b>USB_PORT_PROPERTIES</b> union is used to report the capabilities of a Universal Serial Bus (USB) port.
 
 The  port capabilities are retrieved in the <a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a> structure by the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a> I/O control request.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _USB_PORT_PROPERTIES {
@@ -62,9 +72,7 @@ typedef union _USB_PORT_PROPERTIES {
 
 ## -struct-fields
 
-### -field ul
 
-A bitmask that indicates the properties and capabilities of the port.
 
 
 ### -field PortIsUserConnectable
@@ -77,23 +85,32 @@ If <b>TRUE</b>, the port is visible to the user and a USB device can be attached
 If <b>TRUE</b>, the port supports debugging over a USB connection.
 
 
+### -field PortHasMultipleCompanions
+
+ 
+
+
+### -field PortConnectorIsTypeC
+
+ 
+
+
 ### -field ReservedMBZ
 
 Reserved. Do not use.
 
 
-## -remarks
+### -field ul
+
+A bitmask that indicates the properties and capabilities of the port.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>
-</dt>
-<dt>
+
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
-</dt>
-</dl>
+
+<a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>
+
  
 
  

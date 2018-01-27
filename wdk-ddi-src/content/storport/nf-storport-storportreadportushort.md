@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e5c9e91a-96b7-4774-8bb4-7519968ce072
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortReadPortUshort
+ms.keywords: storprt_fe44d011-ae82-4255-9df9-c1d8f999fd63.xml, storport/StorPortReadPortUshort, StorPortReadPortUshort routine [Storage Devices], StorPortReadPortUshort, storage.storportreadportushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortReadPortUshort
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortReadPortUshort
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortReadPortUshort function
 
 
-
 ## -description
+
+
 The <b>StorPortReadPortUshort</b> routine reads a value from a specified port address. 
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API USHORT StorPortReadPortUshort(
@@ -55,6 +66,9 @@ STORPORT_API USHORT StorPortReadPortUshort(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -67,22 +81,25 @@ Pointer to the address from which to read.
 
 
 ## -returns
+
+
 <b>StorPortReadPortUshort</b> returns a data item of length <b>sizeof</b>(USHORT).
 
 
+
 ## -remarks
+
+
 For more information, see <a href="..\srb\nf-srb-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>. For a buffered version of this routine, see <a href="..\storport\nf-storport-storportreadportbufferushort.md">StorPortReadPortBufferUshort</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportreadportbufferushort.md">StorPortReadPortBufferUshort</a>
-</dt>
-</dl>
+
  
 
  

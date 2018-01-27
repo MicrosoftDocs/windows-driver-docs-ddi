@@ -7,8 +7,8 @@ old-location: print\uff_fontdirectory.htm
 old-project: print
 ms.assetid: d1cde8a4-f27b-440c-bfb1-c9a564c59c04
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: _UFF_FONTDIRECTORY, *PUFF_FONTDIRECTORY, UFF_FONTDIRECTORY
+ms.date: 1/18/2018
+ms.keywords: prntfont/UFF_FONTDIRECTORY, PUFF_FONTDIRECTORY, UFF_FONTDIRECTORY structure [Print Devices], _UFF_FONTDIRECTORY, prntfont/PUFF_FONTDIRECTORY, UFF_FONTDIRECTORY, print_unidrv-pscript_fonts_979a2793-a3e4-4939-aab1-29510951b621.xml, PUFF_FONTDIRECTORY structure pointer [Print Devices], print.uff_fontdirectory, *PUFF_FONTDIRECTORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UFF_FONTDIRECTORY
-req.alt-loc: prntfont.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	prntfont.h
+apiname: 
+-	UFF_FONTDIRECTORY
+product: Windows
+targetos: Windows
 req.typenames: *PUFF_FONTDIRECTORY, UFF_FONTDIRECTORY
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _UFF_FONTDIRECTORY structure
 
 
-
 ## -description
+
+
 The UFF_FONTDIRECTORY structure is used to specify the directory of font descriptions contained in a Unidrv font format file (.uff file).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UFF_FONTDIRECTORY {
@@ -64,6 +74,9 @@ typedef struct _UFF_FONTDIRECTORY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwSignature
 
@@ -88,7 +101,6 @@ Specifies the glyph set identifier. This value specifies the glyph set that is t
 ### -field wFlags
 
 Is a set of bit flags. One or more of the following flags can be specified.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -110,7 +122,7 @@ FONT_FL_GLYPHSET_GTT
 
 </td>
 <td>
-The glyph set is specified in Windows 2000 and later <a href="wdkgloss.g#wdkgloss.glyph_translation_table__gtt_#wdkgloss.glyph_translation_table__gtt_"><i>GTT</i></a> format.
+The glyph set is specified in Windows 2000 and later <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">GTT</a> format.
 
 </td>
 </tr>
@@ -120,7 +132,7 @@ FONT_FL_GLYPHSET_RLE
 
 </td>
 <td>
-The glyph set is specified in Windows NT 4.0 <a href="wdkgloss.r#wdkgloss.run-length_encoded__rle__bitmap#wdkgloss.run-length_encoded__rle__bitmap"><i>RLE</i></a> format.
+The glyph set is specified in Windows NT 4.0 <a href="https://msdn.microsoft.com/004698f5-cb0e-4995-a19c-7075aa226000">RLE</a> format.
 
 </td>
 </tr>
@@ -150,7 +162,7 @@ FONT_FL_SOFTFONT
 
 </td>
 <td>
-The font is a <a href="wdkgloss.p#wdkgloss.pcl#wdkgloss.pcl"><i>PCL</i></a> soft font.
+The font is a <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PCL</a> soft font.
 
 </td>
 </tr>
@@ -160,12 +172,11 @@ FONT_FL_UFM
 
 </td>
 <td>
-Font metrics are specified in Windows 2000 and later <a href="wdkgloss.u#wdkgloss.unidrv_font_metrics__ufm_#wdkgloss.unidrv_font_metrics__ufm_"><i>UFM</i></a> format.
+Font metrics are specified in Windows 2000 and later <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">UFM</a> format.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field dwInstallerSig
@@ -199,6 +210,8 @@ Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-a
 
 
 ## -remarks
+
+
 If <b>sGlyphID</b> is a greater than zero, it must match the <b>wDataID</b> member of a <a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a> structure that specifies a glyph set within the .uff file.
 
 If <b>sGlyphID</b> is less than zero, it must be one of the CC_-prefixed constants defined in prntfont.h, which identify predefined glyph sets.
@@ -206,15 +219,14 @@ If <b>sGlyphID</b> is less than zero, it must be one of the CC_-prefixed constan
 If <b>sGlyphID</b> is zero, Unidrv uses the glyph set resource identifier contained in the font's UNIFM_HDR structure. The glyph set resource must be contained in the minidriver's resource DLL, or else Unidrv uses the default glyph translation.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UFF_FONTDIRECTORY structure%20 RELEASE:%20(1/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UFF_FONTDIRECTORY structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

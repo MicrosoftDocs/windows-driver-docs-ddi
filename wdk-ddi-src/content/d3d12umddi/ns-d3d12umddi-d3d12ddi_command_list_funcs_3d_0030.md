@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ec09b652-a809-48e2-9f34-507df5fd9036
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_3D_0030, D3D12DDI_COMMAND_LIST_FUNCS_3D_0030
+ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_3D_0030 structure [Display Devices], d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_3D_0030, display.d3d12ddi-command-list-funcs-3d-0030, D3D12DDI_COMMAND_LIST_FUNCS_3D_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_COMMAND_LIST_FUNCS_3D_0030
-req.alt-loc: d3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d12umddi.h
+apiname: 
+-	D3D12DDI_COMMAND_LIST_FUNCS_3D_0030
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_COMMAND_LIST_FUNCS_3D_0030
 ---
 
 # D3D12DDI_COMMAND_LIST_FUNCS_3D_0030 structure
 
 
-
 ## -description
+
+
 The command list functions for 3D.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3D12DDI_COMMAND_LIST_FUNCS_3D_0030 {
@@ -108,6 +118,9 @@ typedef struct _D3D12DDI_COMMAND_LIST_FUNCS_3D_0030 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pfnCloseCommandList
 
@@ -388,5 +401,3 @@ Resource resolve subresource region.
 
 Set protected resource session.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: b5549ab2-8978-4fe2-ac08-56e28179714e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SdBusSubmitRequestAsync
+ms.keywords: serports.ioctl_serial_clear_stats, IOCTL_SERIAL_CLEAR_STATS control code [Serial Ports], IOCTL_SERIAL_CLEAR_STATS, ntddser/IOCTL_SERIAL_CLEAR_STATS, serref_c6feaf5c-cde0-4ee9-8db7-fd96fa41ef9e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_SERIAL_CLEAR_STATS
-req.alt-loc: Ntddser.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,62 +29,86 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddser.h
+apiname: 
+-	IOCTL_SERIAL_CLEAR_STATS
+product: Windows
+targetos: Windows
 req.typenames: SD_REQUEST_FUNCTION
 ---
 
 # IOCTL_SERIAL_CLEAR_STATS IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 The <b>IOCTL_SERIAL_CLEAR_STATS</b> request clears the performance statistics for a serial device.
 
 To obtain the performance statistics, a client can use an <a href="..\ntddser\ni-ntddser-ioctl_serial_get_stats.md">IOCTL_SERIAL_GET_STATS</a> request.
 
 
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 None.
 
 
 ### -input-buffer-length
+
 None.
 
 
 ### -output-buffer
+
 None.
 
 
 ### -output-buffer-length
+
 None.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Information</b> field is set to zero.
 
-The <b>Status</b> field is set to one of the <a href="serial_device_control_requests.htm#generic_status_values_for_serial_device_control_requests">Generic Status Values for Serial Device Control Requests</a>.
-
-
-## -remarks
+The <b>Status</b> field is set to one of the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddser\ni-ntddser-ioctl_serial_get_stats.md">IOCTL_SERIAL_GET_STATS</a>
-</dt>
-</dl>
+
  
 
  

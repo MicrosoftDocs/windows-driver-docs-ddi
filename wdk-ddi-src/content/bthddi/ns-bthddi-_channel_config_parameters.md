@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: c2201e3c-c680-4a22-adf5-5131fb138066
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _CHANNEL_CONFIG_PARAMETERS, *PCHANNEL_CONFIG_PARAMETERS, CHANNEL_CONFIG_PARAMETERS
+ms.keywords: PCHANNEL_CONFIG_PARAMETERS structure pointer [Bluetooth Devices], bthddi/CHANNEL_CONFIG_PARAMETERS, CHANNEL_CONFIG_PARAMETERS, bthddi/PCHANNEL_CONFIG_PARAMETERS, CHANNEL_CONFIG_PARAMETERS structure [Bluetooth Devices], *PCHANNEL_CONFIG_PARAMETERS, bth_structs_c5360d7a-eb76-4b27-8507-8de862737a06.xml, bltooth.channel_config_parameters, PCHANNEL_CONFIG_PARAMETERS, _CHANNEL_CONFIG_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CHANNEL_CONFIG_PARAMETERS
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-req.typenames: *PCHANNEL_CONFIG_PARAMETERS, CHANNEL_CONFIG_PARAMETERS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthddi.h
+apiname: 
+-	CHANNEL_CONFIG_PARAMETERS
+product: Windows
+targetos: Windows
+req.typenames: CHANNEL_CONFIG_PARAMETERS, *PCHANNEL_CONFIG_PARAMETERS
 ---
 
 # _CHANNEL_CONFIG_PARAMETERS structure
 
 
-
 ## -description
+
+
 The CHANNEL_CONFIG_PARAMETERS structure contains configuration parameters for inbound and outbound
   directions of a L2CAP channel.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CHANNEL_CONFIG_PARAMETERS {
@@ -60,12 +70,14 @@ typedef struct _CHANNEL_CONFIG_PARAMETERS {
 
 ## -struct-fields
 
+
+
+
 ### -field Flags
 
 A flag or combination of flags that specifies which members of this structure contain data. Valid
      flag values are listed in the following table.
      
-
 <table>
 <tr>
 <th>Flag</th>
@@ -115,8 +127,7 @@ If set, the
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Mtu
@@ -146,15 +157,10 @@ The number of items specified in the array that is specified in the
 The QoS settings for the specified channel direction.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthddi\ns-bthddi-_l2cap_config_option.md">L2CAP_CONFIG_OPTION</a>
-</dt>
-</dl>
+
  
 
  

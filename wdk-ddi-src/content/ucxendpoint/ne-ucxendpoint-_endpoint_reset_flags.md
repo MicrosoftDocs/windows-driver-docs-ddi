@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 3775836D-DC1E-47B4-8186-2AC329825FCE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _ENDPOINT_RESET_FLAGS, ENDPOINT_RESET_FLAGS
+ms.keywords: ENDPOINT_RESET_FLAGS, ucxendpoint/ENDPOINT_RESET_FLAGS, _ENDPOINT_RESET_FLAGS, ucxendpoint/FlagEndpointResetPreserveTransferState, ENDPOINT_RESET_FLAGS enumeration [Buses], buses.endpoint_reset_flags, FlagEndpointResetPreserveTransferState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ENDPOINT_RESET_FLAGS
-req.alt-loc: ucxendpoint.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ucxendpoint.h
+apiname: 
+-	ENDPOINT_RESET_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: ENDPOINT_RESET_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _ENDPOINT_RESET_FLAGS enumeration
 
 
-
 ## -description
+
+
 Defines parameters for a request to reset an endpoint.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _ENDPOINT_RESET_FLAGS { 
@@ -55,23 +65,20 @@ typedef enum _ENDPOINT_RESET_FLAGS {
 
 ## -enum-fields
 
+
+
+
 ### -field FlagEndpointResetPreserveTransferState
 
 The transfer state must be preserved after the endpoint reset operation is complete.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ucxendpoint\ns-ucxendpoint-_endpoint_reset.md">ENDPOINT_RESET</a>
-</dt>
-<dt>
+
 <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_reset.md">EVT_UCX_ENDPOINT_RESET</a>
-</dt>
-</dl>
+
+<a href="..\ucxendpoint\ns-ucxendpoint-_endpoint_reset.md">ENDPOINT_RESET</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: CFA0C474-129A-4A05-B426-520B96C318D8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_TEXTURE_LAYOUT_CAPS_0001, D3D12DDI_TEXTURE_LAYOUT_CAPS_0001
+ms.keywords: D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 structure [Display Devices], D3D12DDI_TEXTURE_LAYOUT_CAPS_0001, display.d3d12ddi_texture_layout_caps_0001, d3d12umddi/D3D12DDI_TEXTURE_LAYOUT_CAPS_0001
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_TEXTURE_LAYOUT_CAPS_0001
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_TEXTURE_LAYOUT_CAPS_0001
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_TEXTURE_LAYOUT_CAPS_0001
 ---
 
 # D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 structure
 
 
-
 ## -description
+
+
 Specifies texture layout capabilities.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 {
@@ -55,6 +65,9 @@ typedef struct D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DeviceDependentLayoutCount
 
@@ -71,4 +84,8 @@ A device dependent swizzle count. This must be the number of device-dependent sw
 Whether the texture layout supports 64K standard swizzle.
 
 
-## -remarks
+### -field SupportsRowMajorTexture
+
+ 
+
+

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 73a1afa6-e156-4733-b204-a9cae4e18563
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_ESCAPE, DXGKARG_ESCAPE
+ms.keywords: display.dxgkarg_escape, DXGKARG_ESCAPE structure [Display Devices], _DXGKARG_ESCAPE, DmStructs_1edfa7aa-7ba1-4abc-a453-253de2a191af.xml, DXGKARG_ESCAPE, d3dkmddi/DXGKARG_ESCAPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_ESCAPE
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_ESCAPE
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_ESCAPE
 ---
 
 # _DXGKARG_ESCAPE structure
 
 
-
 ## -description
+
+
 The DXGKARG_ESCAPE structure describes information that the user-mode display driver shares with the display miniport driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_ESCAPE {
@@ -57,6 +67,9 @@ typedef struct _DXGKARG_ESCAPE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -83,24 +96,16 @@ typedef struct _DXGKARG_ESCAPE {
 [in] A handle to the context that was originally passed to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a> function.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_escapeflags.md">D3DDDI_ESCAPEFLAGS</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
-</dt>
-<dt>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_escapeflags.md">D3DDDI_ESCAPEFLAGS</a>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_escape.md">DxgkDdiEscape</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
+
  
 
  

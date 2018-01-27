@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 62cb451d-1170-4462-94ac-0477adc5946b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IInterruptSync, IInterruptSync::Connect, Connect
+ms.keywords: IInterruptSync interface [Audio Devices], Connect method, portcls/IInterruptSync::Connect, IInterruptSync, Connect method [Audio Devices], Connect, Connect method [Audio Devices], IInterruptSync interface, audio.iinterruptsync_connect, IInterruptSync::Connect, audmp-routines_10f66201-af8d-42ff-a854-04f5cb90f2cc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IInterruptSync.Connect
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IInterruptSync.Connect
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IInterruptSync::Connect method
 
 
-
 ## -description
+
+
 The <code>Connect</code> method connects the synchronization object to the interrupt.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS Connect(
@@ -54,29 +64,36 @@ NTSTATUS Connect(
 
 ## -parameters
 
-### -param None 
+
+
+
+
+#### - None
+
 
 
 ## -returns
+
+
 <code>Connect</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 This method connects the synchronization object to the interrupt that was specified in the call to <a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a> that created the synchronization object. The interrupt is specified in the <b>PcNewInterruptSync</b> function's <i>ResourceList</i> and <i>ResourceIndex</i> parameters.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
-</dt>
-<dt>
-<a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
+
+<a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a>
+
  
 
  

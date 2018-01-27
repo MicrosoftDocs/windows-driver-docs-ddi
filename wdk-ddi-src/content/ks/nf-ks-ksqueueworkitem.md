@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a700979e-aee4-4bce-8f98-b44b864fbb43
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsQueueWorkItem
+ms.keywords: ks/KsQueueWorkItem, ksfunc_abb711a0-0862-4d91-b2e1-3af290f1112f.xml, stream.ksqueueworkitem, KsQueueWorkItem function [Streaming Media Devices], KsQueueWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsQueueWorkItem
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsQueueWorkItem
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsQueueWorkItem function
 
 
-
 ## -description
+
+
 The <b>KsQueueWorkItem</b> function queues the specified work item with a worker previous created by the <a href="..\ks\nf-ks-ksregisterworker.md">KsRegisterWorker</a> function.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsQueueWorkItem(
@@ -54,6 +65,9 @@ NTSTATUS KsQueueWorkItem(
 
 
 ## -parameters
+
+
+
 
 ### -param Worker [in]
 
@@ -66,8 +80,15 @@ Specifies the initialized work item to queue. This work item is only associated 
 
 
 ## -returns
+
+
 The <b>KsQueueWorkItem</b> function returns STATUS_SUCCESS if the work item was queued, or if unsuccessful the function returns an error when attempting to create a new worker if no threads are currently available.
 
 
+
 ## -remarks
-The worker can only be on a queue in one place, so subsequent queuing of the worker must wait until the work item has begun executing. This function may be called at <b>DISPATCH_LEVEL</b>.</p>
+
+
+The worker can only be on a queue in one place, so subsequent queuing of the worker must wait until the work item has begun executing. This function may be called at <b>DISPATCH_LEVEL</b>.
+
+

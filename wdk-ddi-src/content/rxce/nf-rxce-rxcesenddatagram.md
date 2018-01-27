@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9cb714d5-92f6-481d-bc5e-5fa05b6a0938
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCeSendDatagram
+ms.keywords: rxref_dc97dbe7-c676-4b1f-8aee-7dbc7cfbc5e3.xml, rxce/RxCeSendDatagram, RxCeSendDatagram, ifsk.rxcesenddatagram, RxCeSendDatagram function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxCeSendDatagram
-req.alt-loc: rxce.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rxce.h
+apiname: 
+-	RxCeSendDatagram
+product: Windows
+targetos: Windows
 req.typenames: *LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RxCeSendDatagram function
 
 
-
 ## -description
+
+
 <b>RxCeSendDatagram</b> sends a transport service data unit (TSDU) along the specified connection on a virtual circuit.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RxCeSendDatagram(
@@ -61,14 +71,12 @@ NTSTATUS RxCeSendDatagram(
 
 ## -parameters
 
-### -param pTransport [in]
-
-A pointer to the transport along which the TSDU is to be sent.
 
 
-### -param pAddress [in]
 
-A pointer to the local transport address.
+### -param hAddress
+
+TBD
 
 
 ### -param pConnectionInformation [in]
@@ -76,26 +84,10 @@ A pointer to the local transport address.
 A pointer to connection information that contains the remote address.
 
 
-### -param Options [in]
+### -param SendOptions
 
-The desired options for transmitting the data on this send operation by the transport. Note that this is only a request sent to the transport. The transport may only support a limited number of the options specified and ignore options not supported. The <i>Options</i> parameter consists of set of bits defined in <i>rxce.h</i>. The <i>Options</i> parameter can be a combination of the following bits:
+TBD
 
-
-
-
-### -param RXCE_SEND_PARTIAL
-
-Signifies if an RX_MEM_DESC(MDL) is to be sent in its entirety, or if only portions of it need to be sent. This option requests that the transport allow the send operation to transmit part of the data if the transport and MDL allow this behavior.
-
-
-### -param RXCE_SEND_SYNCHRONOUS
-
-Signifies if the send operation is to transmit the data synchronously. When this option is set, the request is submitted to the underlying transport and control does not return to the caller until the request completes. Note that the <i>pCompletionContext</i> parameter is ignored when this bit is set.
-
-Note that the RXCE_SEND_SYNCHRONOUS option is disregarded for sending datagrams because the underlying transports do not block on datagram sends.
-
-</dd>
-</dl>
 
 ### -param pMdl [in]
 
@@ -112,19 +104,73 @@ The length of data to be sent.
 The context passed back to the caller during <b>SendCompletion</b> for asynchronous operations. Not that this parameter is ignored if the <i>Options</i> parameter requests a synchronous send operation.
 
 
+#### - pAddress [in]
+
+A pointer to the local transport address.
+
+
+#### - pTransport [in]
+
+A pointer to the transport along which the TSDU is to be sent.
+
+
+#### - Options [in]
+
+The desired options for transmitting the data on this send operation by the transport. Note that this is only a request sent to the transport. The transport may only support a limited number of the options specified and ignore options not supported. The <i>Options</i> parameter consists of set of bits defined in <i>rxce.h</i>. The <i>Options</i> parameter can be a combination of the following bits:
+
+
+
+
+##### - Options.RXCE_SEND_PARTIAL
+
+Signifies if an RX_MEM_DESC(MDL) is to be sent in its entirety, or if only portions of it need to be sent. This option requests that the transport allow the send operation to transmit part of the data if the transport and MDL allow this behavior.
+
+
+##### - Options.RXCE_SEND_SYNCHRONOUS
+
+Signifies if the send operation is to transmit the data synchronously. When this option is set, the request is submitted to the underlying transport and control does not return to the caller until the request completes. Note that the <i>pCompletionContext</i> parameter is ignored when this bit is set.
+
+Note that the RXCE_SEND_SYNCHRONOUS option is disregarded for sending datagrams because the underlying transports do not block on datagram sends.
+
+
 ## -returns
+
+
 <b>RxCeSendDatagram</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>The allocation of nonpaged pool memory needed by this routine failed. 
+</dl>
+</td>
+<td width="60%">
+The allocation of nonpaged pool memory needed by this routine failed. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>An invalid length was passed in the <i>SendLength</i> parameter based on the <i>Options</i> specified.
+</dl>
+</td>
+<td width="60%">
+An invalid length was passed in the <i>SendLength</i> parameter based on the <i>Options</i> specified.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The asynchronous and synchronous options indicated in the <i>Options</i> parameter used in <b>RxCeSendDatagram</b> distinguish between two situations. In the asynchronous case, control returns to the caller once the request has been successfully submitted to the underlying transport. The results for any given request are communicated back using the <b>SendCompletion</b> callback routine. The <i>pCompletionContext</i> parameter in <b>RxCeSendDatagram</b> is passed back in the callback routine to assist the caller in disambiguating the requests.
 
 In the synchronous case, the request is submitted to the underlying transport and the control does not return to the caller till the request completes. Note that in the synchronous case, the <i>pCompletionContext</i> parameter is ignored and the status that is returned corresponds to the completion status of the operations.
@@ -136,18 +182,15 @@ Note that the synchronous <i>Option</i> is disregarded for sending datagrams bec
 <b>RXCE_CONNECTION_INFORMATION</b> is a typedef for a <b>TDI_CONNECTION_INFORMATION</b> structure. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
-</dt>
-<dt>
-<a href="..\rxce\nf-rxce-rxcesend.md">RxCeSend</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
-</dt>
-</dl>
+
+<a href="..\rxce\nf-rxce-rxcesend.md">RxCeSend</a>
+
  
 
  

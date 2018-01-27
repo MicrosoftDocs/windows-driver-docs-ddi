@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E2CD35A6-0FF2-4ABA-850E-12683C5F0D8D
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES
+ms.keywords: storage.silo_driver_capabilities, ehstorioctl/PSILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES, PSILO_DRIVER_CAPABILITIES structure pointer [Storage Devices], CAP_BANDING_SUPPORT, PSILO_DRIVER_CAPABILITIES, _SILO_DRIVER_CAPABILITIES, ehstorioctl/SILO_DRIVER_CAPABILITIES, CAP_ON_DEMAND_AUTHENTICATION, SILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SILO_DRIVER_CAPABILITIES
-req.alt-loc: EhStorIoctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	EhStorIoctl.h
+apiname: 
+-	SILO_DRIVER_CAPABILITIES
+product: Windows
+targetos: Windows
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # _SILO_DRIVER_CAPABILITIES structure
 
 
-
 ## -description
+
+
 This structure is used to specify the capabilities and support for IOCTL redirection of a storage silo driver. <b>SILO_DRIVER_CAPABILITIES</b> is included in the system buffer of an <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities.md">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a> request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SILO_DRIVER_CAPABILITIES {
@@ -58,6 +68,9 @@ typedef struct _SILO_DRIVER_CAPABILITIES {
 
 ## -struct-fields
 
+
+
+
 ### -field StructSize
 
 The size of this structure. This is set to <b>sizeof</b>(SILO_DRIVER_CAPABILITIES).
@@ -66,16 +79,15 @@ The size of this structure. This is set to <b>sizeof</b>(SILO_DRIVER_CAPABILITIE
 ### -field Capabilities
 
 Capability flags for the silo driver. This is a bitwise OR combination of the following.
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field CAP_ON_DEMAND_AUTHENTICATION
-
+<td width="40%"><a id="CAP_ON_DEMAND_AUTHENTICATION"></a><a id="cap_on_demand_authentication"></a><dl>
+<dt><b>CAP_ON_DEMAND_AUTHENTICATION</b></dt>
+</dl>
 </td>
 <td width="60%">
 The silo driver supports on-demand authentication and unauthentication.
@@ -83,17 +95,16 @@ The silo driver supports on-demand authentication and unauthentication.
 </td>
 </tr>
 <tr>
-
-### -field CAP_BANDING_SUPPORT
-
+<td width="40%"><a id="CAP_BANDING_SUPPORT"></a><a id="cap_banding_support"></a><dl>
+<dt><b>CAP_BANDING_SUPPORT</b></dt>
+</dl>
 </td>
 <td width="60%">
 The silo driver supports banding of LBA ranges.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field MaxLbaFilterCount
@@ -112,23 +123,22 @@ The offset of the redirected IOCTL list from the beginning of this structure. Th
 
 
 ## -remarks
+
+
 To support receiving <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_perform_authz.md">IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ</a> from the enhanced storage class driver, a silo driver must set <b>CAP_ON_DEMAND_AUTHENTICATION</b> in <b>Capabilities</b>. Also, to support sending <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table.md">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>, a silo driver must set <b>CAP_BANDING_SUPPORT</b> in <b>Capabilities</b>.
 
 To receive band management requests from the enhanced storage class driver, a silo driver must register a list of IOCTL codes it wants to receive. The redirected IOCTL list is an array of <b>ULONG</b> IOCTL codes with a length of <b>RedirectedIoctlListCount</b>. This list is included with the <b>SILO_DRIVER_CAPABILITIES</b> structure in the system buffer. The list is located in the system buffer following  <b>SILO_DRIVER_CAPABILITIES</b> at the offset indicated by <b>RedirectedIoctlListOffset</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_perform_authz.md">IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ</a>
-</dt>
-<dt>
+
 <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities.md">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a>
-</dt>
-<dt>
+
 <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table.md">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>
-</dt>
-</dl>
+
+<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_perform_authz.md">IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ</a>
+
  
 
  

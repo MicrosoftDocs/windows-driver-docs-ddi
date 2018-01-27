@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 46c9fa94-283c-481e-9fb1-2ed63df00386
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SRIOV_DEVICE_INTERFACE_STANDARD_2, SRIOV_DEVICE_INTERFACE_STANDARD_2, *PSRIOV_DEVICE_INTERFACE_STANDARD_2
+ms.keywords: SRIOV_DEVICE_INTERFACE_STANDARD_2 structure [Buses], _SRIOV_DEVICE_INTERFACE_STANDARD_2, SRIOV_DEVICE_INTERFACE_STANDARD_2, *PSRIOV_DEVICE_INTERFACE_STANDARD_2, PCI.sriov_device_interface_standard_2, pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SRIOV_DEVICE_INTERFACE_STANDARD_2
-req.alt-loc: Pcivirt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: SRIOV_DEVICE_INTERFACE_STANDARD_2, *PSRIOV_DEVICE_INTERFACE_STANDARD_2
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Pcivirt.h
+apiname: 
+-	SRIOV_DEVICE_INTERFACE_STANDARD_2
+product: Windows
+targetos: Windows
+req.typenames: *PSRIOV_DEVICE_INTERFACE_STANDARD_2, SRIOV_DEVICE_INTERFACE_STANDARD_2
 ---
 
 # _SRIOV_DEVICE_INTERFACE_STANDARD_2 structure
 
 
-
 ## -description
+
+
 Stores function pointers to callback functions implemented by the physical function (PF) driver  in the device stack for the of the SR-IOV device. This is an extended version of <a href="https://msdn.microsoft.com/c71add7d-9920-4b2f-a46a-4a09a94f3900">SRIOV_DEVICE_INTERFACE_STANDARD</a>. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SRIOV_DEVICE_INTERFACE_STANDARD_2 {
@@ -71,6 +81,9 @@ typedef struct _SRIOV_DEVICE_INTERFACE_STANDARD_2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -166,5 +179,3 @@ Pointer to the driver's implementation of the <a href="https://msdn.microsoft.co
 
 Pointer to the driver's implementation of the <a href="https://msdn.microsoft.com/00dddc92-08d1-4eaa-b3de-5e96c7a6d3e0">SRIOV_QUERY_LUID_VF</a> callback function that gets VF index for the specified unique identifier.
 
-
-## -remarks

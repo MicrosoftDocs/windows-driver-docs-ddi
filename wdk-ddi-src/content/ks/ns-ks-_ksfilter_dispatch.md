@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3b84c06f-774e-45e1-9a64-711749bb3a88
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _KSFILTER_DISPATCH, *PKSFILTER_DISPATCH, KSFILTER_DISPATCH
+ms.keywords: stream.ksfilter_dispatch, KSFILTER_DISPATCH, PKSFILTER_DISPATCH structure pointer [Streaming Media Devices], PKSFILTER_DISPATCH, _KSFILTER_DISPATCH, *PKSFILTER_DISPATCH, KSFILTER_DISPATCH structure [Streaming Media Devices], avstruct_cfadb813-12c3-4960-89d7-72a75db1684a.xml, ks/KSFILTER_DISPATCH, ks/PKSFILTER_DISPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSFILTER_DISPATCH
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSFILTER_DISPATCH
+product: Windows
+targetos: Windows
 req.typenames: *PKSFILTER_DISPATCH, KSFILTER_DISPATCH
 ---
 
 # _KSFILTER_DISPATCH structure
 
 
-
 ## -description
+
+
 The KSFILTER_DISPATCH structure describes the client callbacks that are made to notify the client of certain events on a given filter type.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _KSFILTER_DISPATCH {
@@ -57,27 +67,33 @@ typedef struct _KSFILTER_DISPATCH {
 
 ## -struct-fields
 
-### -field Create
-
-Optional. A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnksfilterirp.md">AVStrMiniFilterCreate</a> callback routine.
 
 
-### -field Close
-
-Optional. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556307">AVStrMiniFilterClose</a> callback routine.
 
 
-### -field Process
+#### - Process
 
 Optional. A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnksfilterprocess.md">AVStrMiniFilterProcess</a> callback routine.
 
 
-### -field Reset
+#### - Create
+
+Optional. A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnksfilterirp.md">AVStrMiniFilterCreate</a> callback routine.
+
+
+#### - Close
+
+Optional. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556307">AVStrMiniFilterClose</a> callback routine.
+
+
+#### - Reset
 
 Optional. A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnksfiltervoid.md">AVStrMiniFilterReset</a> callback routine.
 
 
 ## -remarks
+
+
 Any of the callback pointers may be <b>NULL</b>, indicating that the driver does not wish to receive notification of a given event.
 
 Also see <a href="https://msdn.microsoft.com/f60d4dbd-61e6-4ae2-aa43-9edc8f36c3ff">Restarting Processing in AVStream</a> and 
@@ -86,18 +102,15 @@ Also see <a href="https://msdn.microsoft.com/f60d4dbd-61e6-4ae2-aa43-9edc8f36c3f
 <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687-ae5e-1550db9500f0">Filter-Centric Processing</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_ksprocesspin.md">KSPROCESSPIN</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCESSPIN_INDEXENTRY</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\dot11_scan_request_v2.htm
 old-project: netvista
 ms.assetid: fd6dd2f4-ee58-46da-ba87-5aecaff35dd0
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _DOT11_SCAN_REQUEST_V2, *PDOT11_SCAN_REQUEST_V2, DOT11_SCAN_REQUEST_V2
+ms.date: 1/18/2018
+ms.keywords: DOT11_SCAN_REQUEST_V2 structure [Network Drivers Starting with Windows Vista], *PDOT11_SCAN_REQUEST_V2, windot11/DOT11_SCAN_REQUEST_V2, netvista.dot11_scan_request_v2, windot11/PDOT11_SCAN_REQUEST_V2, _DOT11_SCAN_REQUEST_V2, Native_802.11_data_types_e7a02ffc-ecf6-4159-ab3d-85c87d844785.xml, PDOT11_SCAN_REQUEST_V2, DOT11_SCAN_REQUEST_V2, PDOT11_SCAN_REQUEST_V2 structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DOT11_SCAN_REQUEST_V2
-req.alt-loc: windot11.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	windot11.h
+apiname: 
+-	DOT11_SCAN_REQUEST_V2
+product: Windows
+targetos: Windows
 req.typenames: *PDOT11_SCAN_REQUEST_V2, DOT11_SCAN_REQUEST_V2
 req.product: Windows 10 or later.
 ---
@@ -38,10 +47,16 @@ req.product: Windows 10 or later.
 # _DOT11_SCAN_REQUEST_V2 structure
 
 
-
 ## -description
 
+
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_SCAN_REQUEST_V2 structure defines the parameters for the explicit scan operation performed
+  by the 802.11 station. The station performs the explicit scan operation following an OID set request of 
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>.
+
+
 ## -syntax
+
 
 ````
 typedef struct _DOT11_SCAN_REQUEST_V2 {
@@ -65,6 +80,9 @@ typedef struct _DOT11_SCAN_REQUEST_V2 {
 
 ## -struct-fields
 
+
+
+
 ### -field dot11BSSType
 
 The type of basic service set (BSS) networks for which the 802.11 station scans. The data type for
@@ -86,38 +104,14 @@ The type of scan that the 802.11 station performs. The data type for this member
 
 
 
-
-### -field dot11_scan_type_active
-       
-<dd>
-The station transmits an 802.11 Probe Request frame on each channel that it scans. It dwells on
-       the channel long enough to receive 802.11 Probe Response frames for its Probe Request. The station
-       also receives 802.11 Beacon frames sent on the channel.
-
-
-### -field dot11_scan_type_passive
-       
-<dd>
-The station does not transmit an 802.11 Probe Request frame on each channel that it scans.
-       Instead, it receives 802.11 Beacon or Probe Request frames sent on the channel.
-
-
-### -field dot11_scan_type_auto
-       
-<dd>
-The station can perform active or passive scans, or it can use a combination of both scan
-       types.
-
-</dd>
-</dl>
 Regardless of the value of 
      <b>dot11ScanType</b>, the 802.11 station must perform a scan type of 
      <b>dot11_scan_type_passive</b> whenever it scans on channels that are not valid in the current regulatory
      domain. Also, the 802.11 station must perform a scan type of 
      <b>dot11_scan_type_passive</b> if it does not have a default regulatory domain. For more information
      about regulatory domains, see 
-     <a href="netvista.oid_dot11_current_reg_domain">
-     OID_DOT11_CURRENT_REG_DOMAIN</a>.
+     <mshelp:link keywords="netvista.oid_dot11_current_reg_domain" tabindex="0">
+     OID_DOT11_CURRENT_REG_DOMAIN</mshelp:link>.
 
 If the 
      <b>dot11_scan_type_forced</b> bit is set in the 
@@ -125,13 +119,11 @@ If the
      If the 
      <b>dot11_scan_type_forced</b> bit is not set, the 802.11 station can perform a complete scan, or it can
      perform a partial scan on a subset of the supported channels.
-
 <div class="alert"><b>Note</b>  The 
      <b>dot11_scan_type_forced</b> bit is only supported when the miniport driver is operating in Extensible
      Station (ExtSTA) mode. The 
      <b>dot11_scan_type_forced</b> bit must be set through a bitwise OR with a DOT11_SCAN_TYPE
-     value.</div>
-<div> </div>
+     value.</div><div> </div>
 
 ### -field bRestrictedScan
 
@@ -140,7 +132,6 @@ If this member is <b>TRUE</b>, the 802.11 station performs a scan restricted to 
      
 
 The miniport driver must ignore this member if any of the following are true:
-
 <ul>
 <li>
 The miniport driver is operating in ExtSTA mode.
@@ -188,7 +179,6 @@ If this member is <b>TRUE</b>, the 802.11 station must include the list of reque
 The miniport driver must ignore this member (along with the 
      <b>uRequestIDsOffset</b> and 
      <b>uNumOfRequestIDs</b> members) if any of the following are true:
-
 <ul>
 <li>
 The miniport driver is operating in ExtSTA mode.
@@ -199,8 +189,8 @@ The 802.11
        <b>dot11MultiDomainCapabilityEnabled</b> management information base (MIB) object is <b>FALSE</b>. For more
        information about the 
        <b>dot11MultiDomainCapabilityEnabled</b> MIB object, see 
-       <a href="netvista.oid_dot11_multi_domain_capability_enabled">
-       OID_DOT11_MULTI_DOMAIN_CAPABILITY_ENABLED</a>.
+       <mshelp:link keywords="netvista.oid_dot11_multi_domain_capability_enabled" tabindex="0">
+       OID_DOT11_MULTI_DOMAIN_CAPABILITY_ENABLED</mshelp:link>.
 
 </li>
 <li>
@@ -273,33 +263,52 @@ The length, in bytes, of the list of IEs.
 The buffer containing optional data as specified through other members of this structure.
 
 
+##### - dot11ScanType.dot11_scan_type_auto
+
+The station can perform active or passive scans, or it can use a combination of both scan
+       types.
+
+
+##### - dot11ScanType.dot11_scan_type_active
+
+The station transmits an 802.11 Probe Request frame on each channel that it scans. It dwells on
+       the channel long enough to receive 802.11 Probe Response frames for its Probe Request. The station
+       also receives 802.11 Beacon frames sent on the channel.
+
+
+##### - dot11ScanType.dot11_scan_type_passive
+
+The station does not transmit an 802.11 Probe Request frame on each channel that it scans.
+       Instead, it receives 802.11 Beacon or Probe Request frames sent on the channel.
+
+
 ## -remarks
+
+
 The 802.11 station performs explicit scan operations following the OID set request of 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>. The station
     performs the scan operation by using the parameters defined through the DOT11_SCAN_REQUEST_V2, which
     accompanies the set request.
 
 For more information about the scan operations performed by a Native 802.11 miniport driver, see 
-    <a href="netvista.native_802_11_scan_operations">Native 802.11 Scan
-    Operations</a>.
+    <mshelp:link keywords="netvista.native_802_11_scan_operations" tabindex="0">Native 802.11 Scan
+    Operations</mshelp:link>.
 
 For more information about the ExtSTA operation mode, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
-    Mode</a>.
+    <mshelp:link keywords="netvista.extensible_station_operation_mode" tabindex="0">Extensible Station Operation
+    Mode</mshelp:link>.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\windot11\ns-windot11-_dot11_phy_type_info.md">DOT11_PHY_TYPE_INFO</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_SCAN_REQUEST_V2 structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_SCAN_REQUEST_V2 structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

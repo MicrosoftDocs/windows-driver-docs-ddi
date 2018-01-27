@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 40522471-0fbc-4193-8164-60138e3862fe
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _UMDETW_ALLOCATION_USAGE, UMDETW_ALLOCATION_USAGE
+ms.keywords: UMDETW_ALLOCATION_USAGE, UMDETW_ALLOCATION_USAGE structure [Display Devices], umdprovider/UMDETW_ALLOCATION_USAGE, _UMDETW_ALLOCATION_USAGE, display.umdetw_allocation_usage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UMDETW_ALLOCATION_USAGE
-req.alt-loc: umdprovider.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	umdprovider.h
+apiname: 
+-	UMDETW_ALLOCATION_USAGE
+product: Windows
+targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _UMDETW_ALLOCATION_USAGE structure
 
 
-
 ## -description
+
+
 Indicates the reason for mapping from a Microsoft Direct3D  memory allocation to a Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys) allocation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UMDETW_ALLOCATION_USAGE {
@@ -62,6 +72,9 @@ typedef struct _UMDETW_ALLOCATION_USAGE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Packed
 
@@ -88,15 +101,10 @@ The driver can use these bit fields for its own internal purposes.
 A 32-bit value that specifies the allocation mapping.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\umdprovider\nf-umdprovider-umdetwlogmapallocation.md">UMDEtwLogMapAllocation</a>
-</dt>
-</dl>
+
  
 
  

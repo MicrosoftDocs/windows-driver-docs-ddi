@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a44fb478-4f78-415e-b557-bf383199578c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxPostRecurrentTimerRequest
+ms.keywords: RxPostRecurrentTimerRequest, ifsk.rxpostrecurrenttimerrequest, rxref_64318843-28af-4351-9273-06061b94578f.xml, RxPostRecurrentTimerRequest routine [Installable File System Drivers], rxtimer/RxPostRecurrentTimerRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxPostRecurrentTimerRequest
-req.alt-loc: rxtimer.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rxtimer.h
+apiname: 
+-	RxPostRecurrentTimerRequest
+product: Windows
+targetos: Windows
+req.typenames: *PRX_CONTEXT, RX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
 # RxPostRecurrentTimerRequest function
 
 
-
 ## -description
+
+
 <b>RxPostRecurrentTimerRequest</b> initializes a recurrent timer request. The passed in pointer to a worker thread routine is called at regular intervals when the recurrent timer fires based on the input parameters to this routine. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RxPostRecurrentTimerRequest(
@@ -57,6 +67,9 @@ NTSTATUS RxPostRecurrentTimerRequest(
 
 
 ## -parameters
+
+
+
 
 ### -param pDeviceObject [in]
 
@@ -79,27 +92,42 @@ The time interval, in 100-nanosecond ticks.
 
 
 ## -returns
+
+
 <b>RxPostRecurrentTimerRequest</b> returns STATUS_SUCCESS on success or one of the following error codes: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>The allocation of non-paged pool memory required by this routine failed. 
+</dl>
+</td>
+<td width="60%">
+The allocation of non-paged pool memory required by this routine failed. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A recurrent timer can be canceled by calling <b>RxCancelTimerRequest</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\rxtimer\nf-rxtimer-rxcanceltimerrequest.md">RxCancelTimerRequest</a>
-</dt>
-<dt>
+
 <a href="..\rxtimer\nf-rxtimer-rxpostoneshottimerrequest.md">RxPostOneShotTimerRequest</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a6075509-1f88-4d24-8bac-2c7e047c8525
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE, KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE
+ms.keywords: stream.ksproperty_cameracontrol_video_stabilization_mode, ksmedia/KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE, ksmedia/KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE_PROPERTY_ID, KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE_PROPERTY_ID, KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE, KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE
-req.alt-loc: Ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ksmedia.h
+apiname: 
+-	KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE
+product: Windows
+targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE
 ---
 
 # KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE enumeration
 
 
-
 ## -description
+
+
 Used to specify camera video stabilization.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -54,20 +64,18 @@ typedef enum  {
 
 ## -enum-fields
 
+
+
+
 ### -field KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE_PROPERTY_ID
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/jj156043">KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE_PROPERTY</a> property is used to specify video stabilization.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj156043">KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE_PROPERTY</a>
-</dt>
-</dl>
+
  
 
  

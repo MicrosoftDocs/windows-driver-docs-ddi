@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 45BC190C-8985-4F8A-AC84-4ACBBCE9EB67
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PAGE_TABLE_LEVEL_DESC, DXGK_PAGE_TABLE_LEVEL_DESC
+ms.keywords: DXGK_PAGE_TABLE_LEVEL_DESC, d3dkmddi/DXGK_PAGE_TABLE_LEVEL_DESC, _DXGK_PAGE_TABLE_LEVEL_DESC, display.dxgk_page_table_level_desc, DXGK_PAGE_TABLE_LEVEL_DESC structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_PAGE_TABLE_LEVEL_DESC
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_PAGE_TABLE_LEVEL_DESC
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PAGE_TABLE_LEVEL_DESC
 ---
 
 # _DXGK_PAGE_TABLE_LEVEL_DESC structure
 
 
-
 ## -description
+
+
 The <b>DXGK_PAGE_TABLE_LEVEL_DESC</b> structure describes capabilities that are applied at the page level.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_PAGE_TABLE_LEVEL_DESC {
@@ -56,6 +66,9 @@ typedef struct _DXGK_PAGE_TABLE_LEVEL_DESC {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PageTableIndexBitCount
 
@@ -77,4 +90,8 @@ A zero-based memory segment identifier for the paging process. When the segment 
 The size of a page table in bytes. The number of entries in a page table is equal to 2<sup>PageTableIndexBitCount</sup>. The size must be a multiple of the CPU page size. When the root page table is resizable, the value for this level should be set to an initial page table size (it could be set to zero).
 
 
-## -remarks
+### -field PageTableAlignmentInBytes
+
+ 
+
+

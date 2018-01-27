@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f25be064-6ad4-42e8-87a5-188978d093fb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWaveRT, IMiniportWaveRT::Init, Init
+ms.keywords: audio.iminiportwavert_init, IMiniportWaveRT::Init, Init method [Audio Devices], IMiniportWaveRT interface, audmp-routines_3304baaf-f3bf-43f1-908b-5cf47b084ee1.xml, IMiniportWaveRT, portcls/IMiniportWaveRT::Init, Init method [Audio Devices], IMiniportWaveRT interface [Audio Devices], Init method, Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later Windows operatin
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportWaveRT.Init
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: Passive level.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IMiniportWaveRT.Init
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportWaveRT::Init method
 
 
-
 ## -description
+
+
 The <code>Init</code> method initializes the <a href="https://msdn.microsoft.com/154dc921-424f-4021-8f17-5482ceef99a8">WaveRT miniport driver</a> object.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS Init(
@@ -55,6 +65,9 @@ NTSTATUS Init(
 
 
 ## -parameters
+
+
+
 
 ### -param UnknownAdapter [in]
 
@@ -72,22 +85,25 @@ Pointer to the <a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a> in
 
 
 ## -returns
+
+
 <code>Init</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error status code.
 
 
+
 ## -remarks
+
+
 For more information about the <i>ResourceList</i> parameter, see the <a href="https://msdn.microsoft.com/1735a8e8-56d0-4981-aca7-7bb4c2f22c00">IPort::Init </a> topic. The <i>ResourceList</i> and <i>Port</i> parameters follow the reference-counting conventions for COM objects.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
-</dt>
-<dt>
+
 <a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
+
  
 
  

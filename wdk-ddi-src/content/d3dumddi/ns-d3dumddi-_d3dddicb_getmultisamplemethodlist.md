@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 07cabd0e-5b5c-42ff-9b2a-57bec527d690
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_GETMULTISAMPLEMETHODLIST, D3DDDICB_GETMULTISAMPLEMETHODLIST
+ms.keywords: d3dumddi/D3DDDICB_GETMULTISAMPLEMETHODLIST, D3D_param_Structs_11da91d5-a4e6-4d24-b2b1-3645003ff25e.xml, D3DDDICB_GETMULTISAMPLEMETHODLIST, display.d3dddicb_getmultisamplemethodlist, _D3DDDICB_GETMULTISAMPLEMETHODLIST, D3DDDICB_GETMULTISAMPLEMETHODLIST structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_GETMULTISAMPLEMETHODLIST
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_GETMULTISAMPLEMETHODLIST
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_GETMULTISAMPLEMETHODLIST
 ---
 
 # _D3DDDICB_GETMULTISAMPLEMETHODLIST structure
 
 
-
 ## -description
+
+
 The D3DDDICB_GETMULTISAMPLEMETHODLIST structure describes parameters to retrieve the list of multiple-sample methods for an allocation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_GETMULTISAMPLEMETHODLIST {
@@ -58,6 +68,9 @@ typedef struct _D3DDDICB_GETMULTISAMPLEMETHODLIST {
 
 
 ## -struct-fields
+
+
+
 
 ### -field VidPnSourceId
 
@@ -90,21 +103,20 @@ typedef struct _D3DDDICB_GETMULTISAMPLEMETHODLIST {
 
 
 ## -remarks
+
+
 If the runtime returns a non-<b>NULL</b> value in the <b>pMethodList</b> member, the runtime returns a value in the <b>MethodCount</b> member that represents the number of elements that the array can hold. If the runtime returns <b>NULL</b> at <b>pMethodList</b>, the runtime returns a value in <b>MethodCount</b> that represents the size of the array buffer that is required, in number of elements. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-</dt>
-<dt>
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_multisamplingmethod.md">D3DDDI_MULTISAMPLINGMETHOD</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getmultisamplemethodlistcb.md">pfnGetMultisampleMethodListCb</a>
-</dt>
-</dl>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_multisamplingmethod.md">D3DDDI_MULTISAMPLINGMETHOD</a>
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
  
 
  

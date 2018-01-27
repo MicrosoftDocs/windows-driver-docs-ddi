@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2369582F-D042-474D-9191-F9E7BDD3725E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CDROM_PERFORMANCE_TOLERANCE_TYPE, *PCDROM_PERFORMANCE_TOLERANCE_TYPE, CDROM_PERFORMANCE_TOLERANCE_TYPE
+ms.keywords: ntddcdrm/PCDROM_PERFORMANCE_TOLERANCE_TYPE, Cdrom10Nominal20Exceptions, PCDROM_PERFORMANCE_TOLERANCE_TYPE enumeration pointer [Storage Devices], ntddcdrm/CDROM_PERFORMANCE_TOLERANCE_TYPE, storage.cdrom_performance_tolerance_type, PCDROM_PERFORMANCE_TOLERANCE_TYPE, *PCDROM_PERFORMANCE_TOLERANCE_TYPE, _CDROM_PERFORMANCE_TOLERANCE_TYPE, CDROM_PERFORMANCE_TOLERANCE_TYPE, ntddcdrm/ Cdrom10Nominal20Exceptions, CDROM_PERFORMANCE_TOLERANCE_TYPE enumeration [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CDROM_PERFORMANCE_TOLERANCE_TYPE
-req.alt-loc: Ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddcdrm.h
+apiname: 
+-	CDROM_PERFORMANCE_TOLERANCE_TYPE
+product: Windows
+targetos: Windows
 req.typenames: *PCDROM_PERFORMANCE_TOLERANCE_TYPE, CDROM_PERFORMANCE_TOLERANCE_TYPE
 ---
 
 # _CDROM_PERFORMANCE_TOLERANCE_TYPE enumeration
 
 
-
 ## -description
+
+
 The <b>CDROM_PERFORMANCE_TOLERANCE_TYPE</b> enumeration defines the allowable tolerances for performance data. It is a member of the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_request.md">CDROM_PERFORMANCE_REQUEST</a> structure, which is used as an input parameter to the  <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a> I/O control request. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _CDROM_PERFORMANCE_TOLERANCE_TYPE { 
@@ -54,23 +64,20 @@ typedef enum _CDROM_PERFORMANCE_TOLERANCE_TYPE {
 
 ## -enum-fields
 
-### -field  Cdrom10Nominal20Exceptions 
+
+
+
+### -field Cdrom10Nominal20Exceptions
 
 Specifies that the descriptors returned have a 10% performance tolerance for the nominal performance and a 20% time tolerance for the exception list.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_request.md">CDROM_PERFORMANCE_REQUEST</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a>
-</dt>
-</dl>
+
  
 
  

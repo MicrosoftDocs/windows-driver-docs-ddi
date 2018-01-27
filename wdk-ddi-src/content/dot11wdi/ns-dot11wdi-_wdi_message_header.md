@@ -7,8 +7,8 @@ old-location: netvista\wdi_message_header.htm
 old-project: netvista
 ms.assetid: 69c3ebf5-8805-47d0-a507-d2e3e1d1b0df
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WDI_MESSAGE_HEADER, *PWDI_MESSAGE_HEADER, WDI_MESSAGE_HEADER
+ms.date: 1/18/2018
+ms.keywords: PWDI_MESSAGE_HEADER, WDI_MESSAGE_HEADER structure [Network Drivers Starting with Windows Vista], _WDI_MESSAGE_HEADER, dot11wdi/WDI_MESSAGE_HEADER, netvista.wdi_message_header, PWDI_MESSAGE_HEADER structure pointer [Network Drivers Starting with Windows Vista], *PWDI_MESSAGE_HEADER, WDI_MESSAGE_HEADER, dot11wdi/PWDI_MESSAGE_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WDI_MESSAGE_HEADER
-req.alt-loc: dot11wdi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dot11wdi.h
+apiname: 
+-	WDI_MESSAGE_HEADER
+product: Windows
+targetos: Windows
 req.typenames: *PWDI_MESSAGE_HEADER, WDI_MESSAGE_HEADER
 ---
 
 # _WDI_MESSAGE_HEADER structure
 
 
-
 ## -description
+
+
 The 
   WDI_MESSAGE_HEADER structure defines the WDI message header. All WDI  command messages must start with this header.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WDI_MESSAGE_HEADER {
@@ -58,6 +68,9 @@ typedef struct _WDI_MESSAGE_HEADER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PortId
 
@@ -83,5 +96,3 @@ Specifies the transaction ID. This value is used to match host-sent messages wit
 
 Specifies an IHV-specific ID for this message. This can be used by IHVs for debugging purpose.
 
-
-## -remarks

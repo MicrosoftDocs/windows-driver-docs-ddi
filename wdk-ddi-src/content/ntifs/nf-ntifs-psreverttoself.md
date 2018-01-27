@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 21ae3a61-55c6-437d-8c1e-84d720de9dd5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PsRevertToSelf
+ms.keywords: psref_da555465-d8ee-4ae6-af44-cf0af7633458.xml, ifsk.psreverttoself, PsRevertToSelf routine [Installable File System Drivers], ntifs/PsRevertToSelf, PsRevertToSelf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of the Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PsRevertToSelf
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	PsRevertToSelf
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # PsRevertToSelf function
 
 
-
 ## -description
+
+
 The <b>PsRevertToSelf</b> routine ends the calling thread's impersonation of a client.
 
 
-
 ## -syntax
+
 
 ````
 VOID PsRevertToSelf(void);
@@ -53,24 +63,27 @@ VOID PsRevertToSelf(void);
 ## -parameters
 
 
+
+
+
 ## -returns
-None
+
 
 None
 
-None
 
 
 ## -remarks
+
+
 A server thread can impersonate a client by calling the <a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a> routine. When the thread is done impersonating the client, it can call the <b>PsRevertToSelf</b> routine to end all impersonations.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
-</dt>
-</dl>
+
  
 
  

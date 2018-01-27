@@ -7,8 +7,8 @@ old-location: print\wcsdisassociatecolorprofilefromdevice.htm
 old-project: print
 ms.assetid: d2ab6fe4-131a-4952-864c-7135026cb25c
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: WcsDisassociateColorProfileFromDevice
+ms.date: 1/18/2018
+ms.keywords: print.wcsdisassociatecolorprofilefromdevice, colorfnc_d8888a37-8a72-41a4-8ca6-29326634d9b2.xml, WcsDisassociateColorProfileFromDevice function [Print Devices], icm/WcsDisassociateColorProfileFromDevice, WcsDisassociateColorProfileFromDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Included in Windows Vista and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WcsDisassociateColorProfileFromDevice
-req.alt-loc: Mscms.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Mscms.dll
+apiname: 
+-	WcsDisassociateColorProfileFromDevice
+product: Windows
+targetos: Windows
 req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 ---
 
 # WcsDisassociateColorProfileFromDevice function
 
 
-
 ## -description
+
+
 The <code>WcsDisassociateColorProfileFromDevice</code> function disassociates a specified WCS color profile from a specified device.
 
 
-
 ## -syntax
+
 
 ````
 BOOL WcsDisassociateColorProfileFromDevice(
@@ -56,9 +66,12 @@ BOOL WcsDisassociateColorProfileFromDevice(
 
 ## -parameters
 
-### -param profileManagementScope [in]
 
-A <a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation.
+
+
+### -param scope
+
+TBD
 
 
 ### -param pProfileName [in]
@@ -71,7 +84,14 @@ A pointer to the file name of the profile to disassociate.
 A pointer to the name of the device from which the profile is to be disassociated.
 
 
+#### - profileManagementScope [in]
+
+A <a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation.
+
+
 ## -remarks
+
+
 The WCS color profile should be installed on the system and must have been associated with the device using the same value for the <i>profileManagementScope</i> parameter.
 
 If <i>profileManagementScope</i> is WCS_PROFILE_MANAGEMENT_SCOPE_SYSTEM_WIDE, the profile disassociation is system-wide and applies to all users. If <i>profileManagementScope</i> is WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, the disassociation is only for the current user.
@@ -83,15 +103,14 @@ If your application disassociates all profiles from a device, WCS uses the sRGB 
 This function is executable in Least-Privileged User Account (LUA) context if <i>profileManagementScope</i> is WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER. Otherwise, administrative privileges are required..
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\icm\nf-icm-wcsassociatecolorprofilewithdevice.md">WcsAssociateColorProfileWithDevice</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20WcsDisassociateColorProfileFromDevice function%20 RELEASE:%20(1/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20WcsDisassociateColorProfileFromDevice function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

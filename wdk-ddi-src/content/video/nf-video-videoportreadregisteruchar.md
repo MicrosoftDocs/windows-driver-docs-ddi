@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53270599-7e8e-491a-8d7b-05f550f100d3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortReadRegisterUchar
+ms.keywords: VideoPort_Functions_c8fea131-5f84-4f77-ab18-2ca8de12e598.xml, VideoPortReadRegisterUchar, video/VideoPortReadRegisterUchar, VideoPortReadRegisterUchar function [Display Devices], display.videoportreadregisteruchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortReadRegisterUchar
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortReadRegisterUchar
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortReadRegisterUchar function
 
 
-
 ## -description
+
+
 The <b>VideoPortReadRegisterUchar</b> function reads a byte from a mapped register.
 
 
-
 ## -syntax
+
 
 ````
 UCHAR VideoPortReadRegisterUchar(
@@ -55,33 +65,38 @@ UCHAR VideoPortReadRegisterUchar(
 
 ## -parameters
 
-### -param Register 
+
+
+
+### -param Register
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
 
 ## -returns
+
+
 <b>VideoPortReadRegisterUchar</b> returns the byte read from the adapter.
 
 
+
 ## -remarks
+
+
 A miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortReadRegisterUchar</b>.
 
 Callers of <b>VideoPortReadRegisterUchar</b> can be running at any IRQL, provided that the memory pointed to by the <i>Register</i> parameter is resident, mapped device memory.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
-</dt>
-<dt>
-<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-</dt>
-</dl>
+
+<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+
+<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
  
 
  

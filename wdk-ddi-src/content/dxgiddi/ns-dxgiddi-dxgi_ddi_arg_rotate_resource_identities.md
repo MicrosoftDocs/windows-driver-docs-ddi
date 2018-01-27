@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 904b16d1-44dc-4d7a-96cb-3fd82d378b24
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES, DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
+ms.keywords: DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES structure [Display Devices], DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES, display.dxgi_ddi_arg_rotate_resource_identities, UMDisplayDriver_Dx10param_Structs_f52f40ab-97f1-4c3f-839f-9da2dc8e7798.xml, dxgiddi/DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
-req.alt-loc: dxgiddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxgiddi.h
+apiname: 
+-	DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
+product: Windows
+targetos: Windows
 req.typenames: DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
 ---
 
 # DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES structure
 
 
-
 ## -description
+
+
 Describes a list of resources to rotate. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES {
@@ -55,6 +65,9 @@ typedef struct DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -73,15 +86,10 @@ Beginning in Windows 8, the driver must support rotation of stereo back buffers
 [in] The number of elements in the <i>pResources</i> array.  
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569514">RotateResourceIdentitiesDXGI</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: debugger\getfieldname.htm
 old-project: debugger
 ms.assetid: 3fb9abdd-f2c0-41b4-8df9-2f7f5065f90c
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugSymbols3, IDebugSymbols3::GetFieldName, GetFieldName
+ms.date: 1/19/2018
+ms.keywords: debugger.getfieldname, GetFieldName method [Windows Debugging], dbgeng/IDebugSymbols2::GetFieldName, GetFieldName, IDebugSymbols_9956ec9a-7914-46e4-9cec-49a22a0d184f.xml, IDebugSymbols3 interface [Windows Debugging], GetFieldName method, GetFieldName method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetFieldName, IDebugSymbols2::GetFieldName, dbgeng/IDebugSymbols3::GetFieldName, IDebugSymbols3, GetFieldName method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], GetFieldName method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugSymbols2.GetFieldName,IDebugSymbols3.GetFieldName
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugSymbols2.GetFieldName
+-	IDebugSymbols3.GetFieldName
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetFieldName method
 
 
-
 ## -description
+
+
 The <b>GetFieldName</b>  method returns the name of a field within a structure.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT GetFieldName(
@@ -58,6 +69,9 @@ HRESULT GetFieldName(
 
 
 ## -parameters
+
+
+
 
 ### -param Module [in]
 
@@ -90,16 +104,43 @@ Receives the size in characters of the field's name.  If <i>NameSize</i> is <b>N
 
 
 ## -returns
+
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method was successful.
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_FALSE</b></dt>
-</dl>The method was successful. However, <i>NameBuffer</i> was not large enough to hold the field's name and it was truncated.
+</dl>
+</td>
+<td width="60%">
+The method was successful. However, <i>NameBuffer</i> was not large enough to hold the field's name and it was truncated.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-For more information about symbols, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">Symbols</a>.</p>
+
+
+For more information about symbols, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">Symbols</a>.
+
+

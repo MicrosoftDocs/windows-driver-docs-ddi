@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bb0e3330-5601-47dd-afc6-94a70b42daaf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
+ms.keywords: display.agpfreephysical, AgpFreePhysical callback function [Display Devices], AgpFreePhysical, PAGP_FREE_PHYSICAL, PAGP_FREE_PHYSICAL, videoagp/AgpFreePhysical, VideoPort_Functions_cc6360b5-12f9-4c49-bb06-d86ada229b9e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AgpFreePhysical
-req.alt-loc: videoagp.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	videoagp.h
+apiname: 
+-	AgpFreePhysical
+product: Windows
+targetos: Windows
+req.typenames: *PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.
 ---
 
 # PAGP_FREE_PHYSICAL callback
 
 
-
 ## -description
+
+
 The <b>AgpFreePhysical</b> function frees system memory that was committed by a previous call to <a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>.
 
 
-
 ## -prototype
+
 
 ````
 PAGP_FREE_PHYSICAL AgpFreePhysical;
@@ -60,6 +70,9 @@ VOID APIENTRY AgpFreePhysical(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -82,22 +95,25 @@ Specifies the page offset into the reserved physical address range identified by
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 When a miniport driver calls <b>AgpFreePhysical</b>, <b>Pages</b> pages of physical memory are unlocked and unmapped from the AGP-decodable physical address range. This range begins <b>Offset</b> pages into the range identified by <b>PhysicalReserveContext</b>. The miniport driver must specify that the exact offset and number of pages be freed as were committed in a prior call to <a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
-</dt>
-<dt>
+
 <a href="..\videoagp\nc-videoagp-pagp_release_physical.md">AgpReleasePhysical</a>
-</dt>
-</dl>
+
  
 
  

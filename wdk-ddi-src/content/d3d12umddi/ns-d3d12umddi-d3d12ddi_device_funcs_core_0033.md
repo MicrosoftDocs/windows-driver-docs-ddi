@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c771f360-3641-4e3e-9536-86b31af97932
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0033, D3D12DDI_DEVICE_FUNCS_CORE_0033
+ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0033, display.d3d12ddi-device-funcs-core-0033, D3D12DDI_DEVICE_FUNCS_CORE_0033 structure [Display Devices], d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_DEVICE_FUNCS_CORE_0033
-req.alt-loc: d3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d12umddi.h
+apiname: 
+-	D3D12DDI_DEVICE_FUNCS_CORE_0033
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_DEVICE_FUNCS_CORE_0033
 ---
 
 # D3D12DDI_DEVICE_FUNCS_CORE_0033 structure
 
 
-
 ## -description
+
+
 Core device functions.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3D12DDI_DEVICE_FUNCS_CORE_0033 {
@@ -144,6 +154,9 @@ typedef struct _D3D12DDI_DEVICE_FUNCS_CORE_0033 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pfnCheckFormatSupport
 
@@ -604,5 +617,3 @@ Serialize library.
 
 Get debug allocation info.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f9b50dc2-1af7-47c3-87c6-d33858569eed
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceRemoveRemovalRelationsPhysicalDevice
+ms.keywords: WdfDeviceRemoveRemovalRelationsPhysicalDevice method, wdf.wdfdeviceremoveremovalrelationsphysicaldevice, DFDeviceObjectGeneralRef_aad4d605-26bb-468f-a608-426a1e570037.xml, PFN_WDFDEVICEREMOVEREMOVALRELATIONSPHYSICALDEVICE, WdfDeviceRemoveRemovalRelationsPhysicalDevice, wdfdevice/WdfDeviceRemoveRemovalRelationsPhysicalDevice, kmdf.wdfdeviceremoveremovalrelationsphysicaldevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfDeviceRemoveRemovalRelationsPhysicalDevice
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfDeviceRemoveRemovalRelationsPhysicalDevice
+product: Windows
+targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WdfDeviceRemoveRemovalRelationsPhysicalDevice function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfDeviceRemoveRemovalRelationsPhysicalDevice</b> method removes a specified device from the list of devices that must be removed when another specified device is removed. 
 
 
-
 ## -syntax
+
 
 ````
 VOID WdfDeviceRemoveRemovalRelationsPhysicalDevice(
@@ -57,6 +68,9 @@ VOID WdfDeviceRemoveRemovalRelationsPhysicalDevice(
 
 
 ## -parameters
+
+
+
 
 ### -param Device [in]
 
@@ -69,25 +83,20 @@ A pointer to a caller-supplied <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_
 
 
 ## -returns
+
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-The following code example removes the device that <b>pPdo</b> identifies from the list of devices that must be removed when the device that <b>device</b> specifies is removed.
-
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceaddremovalrelationsphysicaldevice.md">WdfDeviceAddRemovalRelationsPhysicalDevice</a>
-</dt>
-<dt>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceclearremovalrelationsdevices.md">WdfDeviceClearRemovalRelationsDevices</a>
-</dt>
-</dl>
+
  
 
  

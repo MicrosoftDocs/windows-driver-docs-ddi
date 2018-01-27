@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 4DD05230-E9CA-4067-984B-7F0540FE8079
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _FCP_GET_REQUEST, *PFCP_GET_REQUEST, FCP_GET_REQUEST
+ms.keywords: _FCP_GET_REQUEST, 61883/PFCP_GET_REQUEST, PFCP_GET_REQUEST structure pointer [Buses], 61883/FCP_GET_REQUEST, PFCP_GET_REQUEST, FCP_GET_REQUEST, *PFCP_GET_REQUEST, IEEE.fcp_get_request, FCP_GET_REQUEST structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FCP_GET_REQUEST
-req.alt-loc: 61883.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PFCP_GET_REQUEST, FCP_GET_REQUEST
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	61883.h
+apiname: 
+-	FCP_GET_REQUEST
+product: Windows
+targetos: Windows
+req.typenames: FCP_GET_REQUEST, *PFCP_GET_REQUEST
 ---
 
 # _FCP_GET_REQUEST structure
 
 
-
 ## -description
+
+
 This structure is used for a get request.
 
 The  request retrieves the next FCP request from the queue of requests maintained by the IEC-61883 protocol driver. FCP requests and responses from AV devices are routed to the IEC-61883 protocol driver, which queues the requests. Client drivers send  requests to retrieve an FCP request from the queue. 
@@ -48,8 +58,8 @@ For requests sent to a virtual device, the <b>NodeAddress</b> member of the outp
 For requests sent by a physical device, the 1394 bus driver determines the node address dynamically, and <b>NodeAddress</b> is not used.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FCP_GET_REQUEST {
@@ -61,6 +71,9 @@ typedef struct _FCP_GET_REQUEST {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NodeAddress
 
@@ -79,15 +92,10 @@ On completion, this field will contain the actual length of the request.
 On input, a pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff537113">FCP_FRAME</a> structure to receive the FCP request. On output, the FCP frame written to the caller-allocated <b>FCP_FRAME</b> structure by the protocol driver.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-</dt>
-</dl>
+
  
 
  

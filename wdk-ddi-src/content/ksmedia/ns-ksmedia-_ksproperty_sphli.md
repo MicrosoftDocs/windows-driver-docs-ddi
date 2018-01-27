@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e1ee8d13-7f83-4020-9f34-4b2c3626685b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _KSPROPERTY_SPHLI, *PKSPROPERTY_SPHLI, KSPROPERTY_SPHLI
+ms.keywords: KSPROPERTY_SPHLI, PKSPROPERTY_SPHLI, PKSPROPERTY_SPHLI structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_SPHLI, ksmedia/PKSPROPERTY_SPHLI, dvdref_f6cc5797-e4f6-4973-abff-6b1bb9c0c637.xml, KSPROPERTY_SPHLI structure [Streaming Media Devices], stream.ksproperty_sphli, *PKSPROPERTY_SPHLI, _KSPROPERTY_SPHLI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPROPERTY_SPHLI
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSPROPERTY_SPHLI, KSPROPERTY_SPHLI
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSPROPERTY_SPHLI
+product: Windows
+targetos: Windows
+req.typenames: KSPROPERTY_SPHLI, *PKSPROPERTY_SPHLI
 ---
 
 # _KSPROPERTY_SPHLI structure
 
 
-
 ## -description
+
+
 The KSPROPERTY_SPHLI structure is used to describe a rectangle of subpicture or screen whose color or contrast is to be changed.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _KSPROPERTY_SPHLI {
@@ -61,6 +71,9 @@ typedef struct _KSPROPERTY_SPHLI {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HLISS
 
@@ -108,15 +121,16 @@ Specifies the color/contrast of the highlight rectangle.
 
 
 ## -remarks
+
+
 The KSPROPERTY_SPHLI structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565150">KSPROPERTY_DVDSUBPIC_HLI</a> property.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565150">KSPROPERTY_DVDSUBPIC_HLI</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bccacf88-b66b-4d55-b3a8-9d9b8cfcede8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMDT_MONITOR_SOURCE_MODE, D3DKMDT_MONITOR_SOURCE_MODE
+ms.keywords: d3dkmdt/D3DKMDT_MONITOR_SOURCE_MODE, DmStructs_165795ef-f70e-4f50-a35f-c6009c547be2.xml, display.d3dkmdt_monitor_source_mode, D3DKMDT_MONITOR_SOURCE_MODE structure [Display Devices], D3DKMDT_MONITOR_SOURCE_MODE, _D3DKMDT_MONITOR_SOURCE_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMDT_MONITOR_SOURCE_MODE
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	D3DKMDT_MONITOR_SOURCE_MODE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMDT_MONITOR_SOURCE_MODE
 ---
 
 # _D3DKMDT_MONITOR_SOURCE_MODE structure
 
 
-
 ## -description
+
+
 The D3DKMDT_MONITOR_SOURCE_MODE structure contains information about a monitor source mode.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMDT_MONITOR_SOURCE_MODE {
@@ -58,6 +68,9 @@ typedef struct _D3DKMDT_MONITOR_SOURCE_MODE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Id
 
@@ -90,18 +103,18 @@ A value from the <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_mode_preference.md">D3D
 
 
 ## -remarks
+
+
 The D3DKMDT_MONITOR_SOURCE_MODE_ID data type is defined in <i>D3dkmdt.h</i>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_target_mode.md">D3DKMDT_VIDPN_TARGET_MODE</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ed7e6fc4-651d-4dc3-9c90-cca3c5f0eb67
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_POWER_RUNTIME_COMPONENT, DXGK_POWER_RUNTIME_COMPONENT
+ms.keywords: display.dxgk_power_runtime_component, _DXGK_POWER_RUNTIME_COMPONENT, DXGK_POWER_RUNTIME_COMPONENT, DXGK_POWER_RUNTIME_COMPONENT structure [Display Devices], d3dkmddi/DXGK_POWER_RUNTIME_COMPONENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_POWER_RUNTIME_COMPONENT
-req.alt-loc: D3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmddi.h
+apiname: 
+-	DXGK_POWER_RUNTIME_COMPONENT
+product: Windows
+targetos: Windows
 req.typenames: DXGK_POWER_RUNTIME_COMPONENT
 ---
 
 # _DXGK_POWER_RUNTIME_COMPONENT structure
 
 
-
 ## -description
+
+
 Describes information about a <i>power component</i>—for example, a graphics processing engine, a display device, or a block of memory.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_POWER_RUNTIME_COMPONENT {
@@ -60,6 +70,9 @@ typedef struct _DXGK_POWER_RUNTIME_COMPONENT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field StateCount
 
@@ -104,23 +117,21 @@ Specifies the indices of other power components that need to be active before th
 
 
 ## -remarks
-Each power component must be mapped to an engine, a display, a memory segment, or another similar device component. The DirectX graphics kernel subsystem detects the idle state of engines, displays, and memory segments.
 
-Multiple power components should not be mapped to the same engine (node), to the same memory segment, or to the same VidPN source or target. A power component can be used with only one engine, memory segment, or VidPN source.
+
+Each power component must be mapped to an engine, a display, a memory segment, or another similar device component. The DirectX graphics kernel subsystem detects the idle state of engines, displays, and memory segments.
+<div class="alert"><b>Note</b>  Memory segments were removed from Windows 8 but are available in Windows 8.1 and later.</div><div> </div>Multiple power components should not be mapped to the same engine (node), to the same memory segment, or to the same VidPN source or target. A power component can be used with only one engine, memory segment, or VidPN source.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_flags.md">DXGK_POWER_COMPONENT_FLAGS</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_mapping.md">DXGK_POWER_COMPONENT_MAPPING</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_state.md">DXGK_POWER_RUNTIME_STATE</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_mapping.md">DXGK_POWER_COMPONENT_MAPPING</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_flags.md">DXGK_POWER_COMPONENT_FLAGS</a>
+
  
 
  

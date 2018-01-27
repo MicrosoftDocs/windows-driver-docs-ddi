@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: de7fd19e-e18d-4e78-963a-3abdd7921d69
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MPIO_EventEntry, *PMPIO_EventEntry, MPIO_EventEntry
+ms.keywords: PMPIO_EventEntry structure pointer [Storage Devices], *PMPIO_EventEntry, MPIO_EventEntry structure [Storage Devices], mpiowmi/PMPIO_EventEntry, structs-scsibus_93008bb2-e885-4f2f-b46a-7393794a9e6e.xml, MPIO_EventEntry, storage.mpio_evententry, _MPIO_EventEntry, PMPIO_EventEntry, mpiowmi/MPIO_EventEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MPIO_EventEntry
-req.alt-loc: mpiowmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mpiowmi.h
+apiname: 
+-	MPIO_EventEntry
+product: Windows
+targetos: Windows
 req.typenames: *PMPIO_EventEntry, MPIO_EventEntry
 ---
 
 # _MPIO_EventEntry structure
 
 
-
 ## -description
+
+
 The MPIO_EventEntry structure is used to return events that MPIO has logged.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MPIO_EventEntry {
@@ -56,6 +66,9 @@ typedef struct _MPIO_EventEntry {
 
 
 ## -struct-fields
+
+
+
 
 ### -field TimeStamp
 
@@ -76,5 +89,3 @@ A string that indicates the component to which this event belongs.
 
 A string that indicates the event description.
 
-
-## -remarks

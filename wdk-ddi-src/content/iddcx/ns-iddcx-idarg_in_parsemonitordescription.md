@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dc3c55e3-ddbe-4f06-b9fb-55696dc07502
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_IN_PARSEMONITORDESCRIPTION,
+ms.keywords: display.idarg_in_parsemonitordescription, iddcx/IDARG_IN_PARSEMONITORDESCRIPTION, IDARG_IN_PARSEMONITORDESCRIPTION, IDARG_IN_PARSEMONITORDESCRIPTION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDARG_IN_PARSEMONITORDESCRIPTION
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDARG_IN_PARSEMONITORDESCRIPTION
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDARG_IN_PARSEMONITORDESCRIPTION structure
 
 
-
 ## -description
+
+
 
                  Gives information about the monitor description.
              
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDARG_IN_PARSEMONITORDESCRIPTION {
@@ -57,6 +67,9 @@ typedef struct IDARG_IN_PARSEMONITORDESCRIPTION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field MonitorDescription
 
@@ -77,15 +90,10 @@ typedef struct IDARG_IN_PARSEMONITORDESCRIPTION {
                      [out] Pointer to buffer that the driver should copy the monitor modes to if the value is non-NULL. If value is NULL, then driver should not copy any data and should just set the  <a href="..\iddcx\ns-iddcx-idarg_out_parsemonitordescription.md">IDARG_OUT_PARSEMONITORDESCRIPTION</a> value <b>MonitorModeBufferOutputCount</b> to indicate the size of buffer required to store the modes.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\iddcx\ns-iddcx-idarg_out_parsemonitordescription.md">IDARG_OUT_PARSEMONITORDESCRIPTION</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 199900F4-90A7-4F2E-B85E-25BF3593D50B
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS, *PSTORAGE_DEVICE_POWER_CAP_UNITS
+ms.keywords: StorageDevicePowerCapUnitsPercent, STORAGE_DEVICE_POWER_CAP_UNITS enumeration [Storage Devices], ntddstor/StorageDevicePowerCapUnitsPercent, *PSTORAGE_DEVICE_POWER_CAP_UNITS, ntddstor/STORAGE_DEVICE_POWER_CAP_UNITS, StorageDevicePowerCapUnitsMilliwatts, STORAGE_DEVICE_POWER_CAP_UNITS, ntddstor/StorageDevicePowerCapUnitsMilliwatts, storage.storage_device_power_cap_units, _STORAGE_DEVICE_POWER_CAP_UNITS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_DEVICE_POWER_CAP_UNITS
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	STORAGE_DEVICE_POWER_CAP_UNITS
+product: Windows
+targetos: Windows
 req.typenames: STORAGE_DEVICE_POWER_CAP_UNITS, *PSTORAGE_DEVICE_POWER_CAP_UNITS
 ---
 
 # _STORAGE_DEVICE_POWER_CAP_UNITS enumeration
 
 
-
 ## -description
+
+
 The units of the maximum power threshold.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _STORAGE_DEVICE_POWER_CAP_UNITS { 
@@ -55,6 +65,9 @@ typedef enum _STORAGE_DEVICE_POWER_CAP_UNITS {
 
 ## -enum-fields
 
+
+
+
 ### -field StorageDevicePowerCapUnitsPercent
 
 Units in percent.
@@ -64,5 +77,3 @@ Units in percent.
 
 Units in milliwatts.
 
-
-## -remarks

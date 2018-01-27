@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: B84CC8C1-639D-45B4-A2A4-03BA2F1FF04B
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlIsPartialPlaceholderFileInfo
+ms.keywords: ntifs/RtlIsPartialPlaceholderFileInfo, RtlIsPartialPlaceholderFileInfo, RtlIsPartialPlaceholderFileInfo routine [Installable File System Drivers], ifsk.rtlispartialplaceholderfileinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10, version 1709.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlIsPartialPlaceholderFileInfo
-req.alt-loc: Ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntifs.h
+apiname: 
+-	RtlIsPartialPlaceholderFileInfo
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlIsPartialPlaceholderFileInfo function
 
 
-
 ## -description
+
+
 The <b>RtlIsPartialPlaceholderFileInfo</b> routine determines if a file is a known type of placeholder, based on the information
     returned by <b>NtQueryInformationFile</b> or <b>NtQueryDirectoryFile</b>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlIsPartialPlaceholderFileInfo(
@@ -56,6 +66,9 @@ NTSTATUS RtlIsPartialPlaceholderFileInfo(
 
 
 ## -parameters
+
+
+
 
 ### -param InfoBuffer [in]
 
@@ -76,21 +89,25 @@ Specifies a pointer to a caller-allocated buffer which contains information abou
 
 
 ## -returns
+
+
 Returns<b> STATUS_SUCCESS</b> if IsPartialPlaceholder is valid and not undefined.
 
 
+
 ## -remarks
+
+
  If <b>InfoBuffer</b> is from a call
         to <b>NtQueryDirectoryFile</b>, this may point to the first or any subsequent
         subsequent entry in the buffer which is found by walking the buffer.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtlispartialplaceholder.md">RtlIsPartialPlaceholder</a>
-</dt>
-</dl>
+
  
 
  

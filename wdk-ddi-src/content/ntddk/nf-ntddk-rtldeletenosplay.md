@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 09d8096a-71f9-4e9d-a66b-282424394b76
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlDeleteNoSplay
+ms.keywords: ifsk.rtldeletenosplay, RtlDeleteNoSplay, ntddk/RtlDeleteNoSplay, RtlDeleteNoSplay routine [Installable File System Drivers], rtlref_def5bfa8-367a-410e-8e3c-fdbf11cce05e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlDeleteNoSplay
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlDeleteNoSplay
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # RtlDeleteNoSplay function
 
 
-
 ## -description
+
+
 The <b>RtlDeleteNoSplay</b> routine deletes the specified node from the splay link tree. 
 
 
-
 ## -syntax
+
 
 ````
 VOID RtlDeleteNoSplay(
@@ -54,6 +64,9 @@ VOID RtlDeleteNoSplay(
 
 
 ## -parameters
+
+
+
 
 ### -param Links [in]
 
@@ -66,10 +79,15 @@ A pointer to the caller's pointer to the root node of the splay link tree. The c
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 Unlike <b>RtlDelete</b>, <b>RtlDeleteNoSplay</b> does not rebalance the splay link tree after the node is deleted. 
 
 Callers of the <b>Rtl</b> splay link routines are responsible for synchronizing access to the splay link tree. A fast mutex is the most efficient synchronization mechanism to use for this purpose. 
@@ -77,24 +95,19 @@ Callers of the <b>Rtl</b> splay link routines are responsible for synchronizing 
 Callers of <b>RtlDeleteNoSplay</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the splay link tree is nonpaged. Usually, callers are running at IRQL PASSIVE_LEVEL. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\nf-ntddk-rtldelete.md">RtlDelete</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
-</dt>
-<dt>
+
+<a href="..\ntddk\nf-ntddk-rtldelete.md">RtlDelete</a>
+
+<a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
+
 <a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\rilcalllist_v1_2.htm
 old-project: netvista
 ms.assetid: bdca275c-c728-4be4-bb57-cfa61cddff61
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCALLLIST_V1, RILCALLLIST_V1, *LPRILCALLLIST_V1
+ms.date: 1/18/2018
+ms.keywords: rilapitypes/RILCALLLIST_V1, RILCALLLIST_V1, netvista.rilcalllist_v1_2, *LPRILCALLLIST_V1, RILCALLLIST_V1 structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCALLLIST_V1
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILCALLLIST_V1
+product: Windows
+targetos: Windows
 req.typenames: RILCALLLIST_V1, *LPRILCALLLIST_V1
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILCALLLIST_V1 structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILCALLLIST_V1 {
@@ -56,10 +66,13 @@ typedef struct _RILCALLLIST_V1 {
 
 ## -struct-fields
 
+
+
+
 ### -field dwNumberOfCalls
+
 
 
 ### -field rciCallInfo
 
 
-## -remarks

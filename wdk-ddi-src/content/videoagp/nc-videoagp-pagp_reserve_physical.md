@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b3e21c94-acd5-4767-8ba5-70b2dcfb2aaa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
+ms.keywords: display.agpreservephysical, AgpReservePhysical callback function [Display Devices], AgpReservePhysical, PAGP_RESERVE_PHYSICAL, PAGP_RESERVE_PHYSICAL, videoagp/AgpReservePhysical, VideoPort_Functions_9ce9c724-b077-4821-9b9a-adb3d16f5671.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AgpReservePhysical
-req.alt-loc: videoagp.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	videoagp.h
+apiname: 
+-	AgpReservePhysical
+product: Windows
+targetos: Windows
+req.typenames: *PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.
 ---
 
 # PAGP_RESERVE_PHYSICAL callback
 
 
-
 ## -description
+
+
 The <b>AgpReservePhysical</b> function reserves a range of physical addresses on the system bus to which the AGP controller can respond.
 
 
-
 ## -prototype
+
 
 ````
 PAGP_RESERVE_PHYSICAL AgpReservePhysical;
@@ -61,6 +71,9 @@ PHYSICAL_ADDRESS APIENTRY AgpReservePhysical(
 
 ## -parameters
 
+
+
+
 ### -param HwDeviceExtension [in]
 
 Pointer to the miniport driver's device extension.
@@ -74,7 +87,6 @@ Specifies the number of pages that the video port driver should reserve.
 ### -param Caching [in]
 
 Specifies the type of caching that the system should use. This parameter can be set to one of the following values.
-
 <table>
 <tr>
 <th>Value</th>
@@ -96,7 +108,7 @@ The system should not cache the range of addresses.
 
 </td>
 <td>
-The system should use write-combined (WC) caching. For information about WC caching, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=204787">Write-Combining Memory in Video Miniport Drivers</a> website article.
+The system should use write-combined (WC) caching. For information about WC caching, see the <a href="https://msdn.microsoft.com/library/windows/hardware/dn642116">Write-Combining Memory in Video Miniport Drivers</a> website article.
 
 </td>
 </tr>
@@ -110,20 +122,31 @@ The system should use ordinary caching.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
-### -param PhysicalReserveContext [out]
+### -param *PhysicalReserveContext
+
+
+
+
+
+
+#### - PhysicalReserveContext [out]
 
 Specifies the location in which the video port driver writes a context handle that identifies the reserved physical address space.
 
 
 ## -returns
+
+
 <b>AgpReservePhysical</b> returns the base address of the reserved physical address range if successful; otherwise, it returns <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 Video miniport drivers that run on Microsoft Windows 2000 should always reserve a range whose size is a multiple of 64 kilobytes. Reserving a range that is not a multiple of 64 kilobytes can result in <a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a> or <a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a> returning an invalid virtual address.
 
 On Microsoft Windows XP and later, <b>AgpReservePhysical</b> automatically expands the requested range to a multiple of 64 kilobytes.
@@ -135,18 +158,15 @@ The miniport driver can call <b>AgpReservePhysical</b> several times to reserve 
 The miniport driver should call <a href="..\videoagp\nc-videoagp-pagp_release_physical.md">AgpReleasePhysical</a> to release the physical address range when it is no longer needed. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
-</dt>
-<dt>
-<a href="..\videoagp\nc-videoagp-pagp_release_physical.md">AgpReleasePhysical</a>
-</dt>
-<dt>
+
 <a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a>
-</dt>
-</dl>
+
+<a href="..\videoagp\nc-videoagp-pagp_release_physical.md">AgpReleasePhysical</a>
+
  
 
  

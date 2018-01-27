@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 87B34452-DC2C-4FD4-B0F8-51EFAF2D4AA6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UrsSetPoHandle
+ms.keywords: buses.urssetpohandle, ursdevice/UrsSetPoHandle, UrsSetPoHandle, UrsSetPoHandle function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 
-req.alt-api: UrsSetPoHandle
-req.alt-loc: Urscxstub.lib,Urscxstub.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Urscxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Urscxstub.lib
+-	Urscxstub.dll
+apiname: 
+-	UrsSetPoHandle
+product: Windows
+targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # UrsSetPoHandle function
 
 
-
 ## -description
+
+
 Registers and deletes the client driver's registration with the power management framework (PoFx).
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE void UrsSetPoHandle(
@@ -55,6 +66,9 @@ FORCEINLINE void UrsSetPoHandle(
 
 
 ## -parameters
+
+
+
 
 ### -param Device [in]
 
@@ -67,25 +81,27 @@ A handle that represents the registration of the device with PoFx. The client dr
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
+
 ## -remarks
+
+
 The client driver for the dual-role controller must be the power policy owner. The driver can receive notifications from the power management framework (PoFx). To do so, after calling <a href="..\ursdevice\nf-ursdevice-ursdeviceinitialize.md">UrsDeviceInitialize</a>, the driver must register PoFx callback functions. The client driver registers the device with the power framework directly or obtains a POHANDLE from WDF in <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>. After registration is successful, the driver provides that handle to the USB dual-role class extension.
 
 In the client driver's implementation of the <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a> callback function, the driver is expected to call <b>UrsSetPoHandle</b> by passing the received handle. On some platforms, the class extension might use the POHANDLE to power-manage the controller. Conversely, before the class extension deletes the registration with the power framework, it invokes the client driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_pre_po_fx_unregister_device.md">EvtDeviceWdmPrePoFxUnregisterDevice</a> implementation. The driver is expected to call  <b>UrsSetPoHandle</b> by passing NULL as the PoHandle value.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
+<i>EvtDeviceWdmPrePoFxUnregisterDevice</i>
+
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>
-</dt>
-<dt>
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_pre_po_fx_unregister_device.md">EvtDeviceWdmPrePoFxUnregisterDevice</a>
-</dt>
-<dt><i>EvtDeviceWdmPrePoFxUnregisterDevice</i></dt>
-</dl>
+
  
 
  

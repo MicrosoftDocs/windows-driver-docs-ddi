@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 883c561c-0d1b-4a6c-946e-8ca567b12c9a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _TEXTUAL_LEAF, TEXTUAL_LEAF, *PTEXTUAL_LEAF
+ms.keywords: 1394stct_b63840e2-0a05-49e9-a533-9575f46af648.xml, IEEE.textual_leaf, PTEXTUAL_LEAF, TEXTUAL_LEAF, 1394/PTEXTUAL_LEAF, 1394/TEXTUAL_LEAF, _TEXTUAL_LEAF, TEXTUAL_LEAF structure [Buses], PTEXTUAL_LEAF structure pointer [Buses], *PTEXTUAL_LEAF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TEXTUAL_LEAF
-req.alt-loc: 1394.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: TEXTUAL_LEAF, *PTEXTUAL_LEAF
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1394.h
+apiname: 
+-	TEXTUAL_LEAF
+product: Windows
+targetos: Windows
+req.typenames: *PTEXTUAL_LEAF, TEXTUAL_LEAF
 ---
 
 # _TEXTUAL_LEAF structure
 
 
-
 ## -description
+
+
 The TEXTUAL_LEAF structure describes the device description that can be stored in the Configuration ROM of devices that satisfy the PC 98 or PC 99 specifications.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _TEXTUAL_LEAF {
@@ -57,6 +67,9 @@ typedef struct _TEXTUAL_LEAF {
 
 
 ## -struct-fields
+
+
+
 
 ### -field TL_CRC
 
@@ -83,15 +96,10 @@ Specifies the language of the <b>TL_Data</b> member.
 Specifies a vendor-specified textual description of the device.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537642">REQUEST_GET_CONFIGURATION_INFO</a>
-</dt>
-</dl>
+
  
 
  

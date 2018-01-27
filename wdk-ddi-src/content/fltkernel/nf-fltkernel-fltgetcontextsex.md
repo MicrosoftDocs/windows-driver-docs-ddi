@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 99903B10-5FA8-430F-9E1F-90A45E07B7D0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetContextsEx
+ms.keywords: FltGetContextsEx routine [Installable File System Drivers], ifsk.fltgetcontextsex, FltGetContextsEx, fltkernel/FltGetContextsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltGetContextsEx
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltGetContextsEx
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltGetContextsEx function
 
 
-
 ## -description
+
+
 The <b>FltGetContextsEx</b> routine retrieves a minifilter driver's contexts for the objects related to the current operation. 
 
 
-
 ## -syntax
+
 
 ````
 VOID FltGetContextsEx(
@@ -57,6 +67,9 @@ VOID FltGetContextsEx(
 
 ## -parameters
 
+
+
+
 ### -param FltObjects [in]
 
 Pointer to an <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a> structure containing opaque pointers for the objects related to the current operation. (For more information about this parameter, see the  Remarks section.) 
@@ -66,40 +79,22 @@ Pointer to an <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RE
 
 Type of contexts to retrieve. This parameter can have one or more of the following values: 
 
-<dl>
-<dd>
 FLT_ALL_CONTEXTS
 
-</dd>
-<dd>
 FLT_FILE_CONTEXT (Windows Vista and later only.)
 
-</dd>
-<dd>
 FLT_INSTANCE_CONTEXT
 
-</dd>
-<dd>
 FLT_STREAM_CONTEXT
 
-</dd>
-<dd>
 FLT_STREAMHANDLE_CONTEXT
 
-</dd>
-<dd>
 FLT_TRANSACTION_CONTEXT (Windows Vista and later only.) 
 
-</dd>
-<dd>
 FLT_VOLUME_CONTEXT
 
-</dd>
-<dd>
 FLT_SECTION_CONTEXT (Windows 8 and later only.)
 
-</dd>
-</dl>
 
 ### -param ContextsSize [in]
 
@@ -112,10 +107,15 @@ Pointer to a caller-allocated <a href="..\fltkernel\ns-fltkernel-_flt_related_co
 
 
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 A minifilter driver calls <b>FltGetContextsEx</b> to retrieve pointers to the minifilter driver's contexts for the objects in an <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a> structure. 
 
 The following minifilter driver callback routine types receive a pointer to an <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a> structure as the <i>FltObjects</i> input parameter: 
@@ -141,45 +141,40 @@ The following minifilter driver callback routine types receive a pointer to an <
 
 
 <b>FltGetContextsEx</b> increments the reference count on each of the contexts returned in the <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a> structure that the <i>Contexts </i>parameter points to. Thus for every successful call to <b>FltGetContextsEx</b>, the caller must either: 
-
+<ul>
+<li>
 Call <a href="..\fltkernel\nf-fltkernel-fltreleasecontextsex.md">FltReleaseContextsEx</a> for the entire structure that the <i>Contexts</i> parameter points to.
 
+</li>
+<li>
 Call <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a> for each of the contexts returned in the structure and set each context field returned in the structure to zero. 
+
+</li>
+</ul>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a>
-</dt>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltreleasecontextsex.md">FltReleaseContextsEx</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_query_teardown_callback.md">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a>
+
 <a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+
 <a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_query_teardown_callback.md">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
+
  
 
  

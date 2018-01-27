@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2b912f2d-2bb3-4f38-a415-a61900ad16fb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS, TAPE_WRITE_MARKS
+ms.keywords: display.ioctl_video_get_child_state, IOCTL_VIDEO_GET_CHILD_STATE control code [Display Devices], IOCTL_VIDEO_GET_CHILD_STATE, ntddvdeo/IOCTL_VIDEO_GET_CHILD_STATE, Video_IOCTLs_5f13cbad-a5b4-41cb-8d93-dce6badfc8ce.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_VIDEO_GET_CHILD_STATE
-req.alt-loc: Ntddvdeo.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,88 +29,141 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PTAPE_WRITE_MARKS, TAPE_WRITE_MARKS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddvdeo.h
+apiname: 
+-	IOCTL_VIDEO_GET_CHILD_STATE
+product: Windows
+targetos: Windows
+req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ---
 
 # IOCTL_VIDEO_GET_CHILD_STATE IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 Determines whether a child device is currently enabled. Although miniport driver support for this modal request is optional, it is highly recommended. Otherwise, Windows 2000 and later must call the BIOS to perform the operation, which is very inefficient and can adversely affect system robustness. If the BIOS cannot handle this request, then Windows 2000 or later considers the child device to be active.
 
-
-
-Determines whether a child device is currently enabled. Although miniport driver support for this modal request is optional, it is highly recommended. Otherwise, Windows 2000 and later must call the BIOS to perform the operation, which is very inefficient and can adversely affect system robustness. If the BIOS cannot handle this request, then Windows 2000 or later considers the child device to be active.
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 The VRP <b>InputBuffer</b> contains a pointer to a ULONG, containing the index of the child device, as specified in <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>.
 
 
 ### -input-buffer-length
 
+
 <text></text>
 
-### -output-buffer
-The video miniport driver returns a ULONG in the VRP <b>OutputBuffer</b> that can be a combination of the following flags:
 
+
+### -output-buffer
+
+The video miniport driver returns a ULONG in the VRP <b>OutputBuffer</b> that can be a combination of the following flags:
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>
 VIDEO_CHILD_ACTIVE
 
+</td>
+<td>
 The child device is active.
 
+</td>
+</tr>
+<tr>
+<td>
 VIDEO_CHILD_DETACHED
 
+</td>
+<td>
 The child device is detached from the view. This flag is used in DualView implementations to indicate the logical relationships of child devices. See <a href="https://msdn.microsoft.com/08da97c9-1d31-40f5-99df-5f16eaa47c79">Supporting DualView (Windows 2000 Model)</a>  for more information.
 
+</td>
+</tr>
+<tr>
+<td>
 VIDEO_CHILD_NOPRUNE_FREQ
 
+</td>
+<td>
 The child device can drive an image at any refresh rate, regardless of its EDID setting.
 
 This flag is used for mode pruning. By default, Windows 2000 and later perform mode pruning for each active child. When the miniport driver wants to prevent the operating system from performing mode pruning on specific child devices, however, it should use this flag.
 
+</td>
+</tr>
+<tr>
+<td>
 VIDEO_CHILD_NOPRUNE_SIZE
 
+</td>
+<td>
 The child device can drive an image of any size, regardless of its EDID setting.
 
 This flag is used for mode pruning. By default, Windows 2000 and later perform mode pruning for each active child. When the miniport driver wants to prevent the operating system from performing mode pruning on specific child devices, however, it should use this flag.
 
- 
+</td>
+</tr>
+</table> 
 
 
 ### -output-buffer-length
 
+
 <text></text>
+
+
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The video miniport driver sets the <b>Information</b> member of the <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> structure to <b>sizeof</b>(ULONG).
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
-</dt>
-<dt>
+
 <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
-</dt>
-</dl>
+
+<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+
  
 
  

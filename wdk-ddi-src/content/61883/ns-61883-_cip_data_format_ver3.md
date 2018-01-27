@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: A7EDC949-A2C6-43E9-9CA0-886FEE5282F5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _CIP_DATA_FORMAT_VER3, CIP_DATA_FORMAT_VER3, *PCIP_DATA_FORMAT_VER3, *PCIP_DATA_FORMAT, CIP_DATA_FORMAT
+ms.keywords: CIP_DATA_FORMAT_VER3 structure [Buses], CIP_DATA_FORMAT_VER3, 61883/CIP_DATA_FORMAT_VER3, 61883/PCIP_DATA_FORMAT_VER3, *PCIP_DATA_FORMAT_VER3, PCIP_DATA_FORMAT_VER3 structure pointer [Buses], IEEE.cip_data_format_ver3, *PCIP_DATA_FORMAT, PCIP_DATA_FORMAT_VER3, _CIP_DATA_FORMAT_VER3, CIP_DATA_FORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CIP_DATA_FORMAT_VER3
-req.alt-loc: 61883.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	61883.h
+apiname: 
+-	CIP_DATA_FORMAT_VER3
+product: Windows
+targetos: Windows
 req.typenames: CIP_DATA_FORMAT_VER3, *PCIP_DATA_FORMAT_VER3
 ---
 
 # _CIP_DATA_FORMAT_VER3 structure
 
 
-
 ## -description
+
+
 This structure is used by  	<b>CipDataFormat</b>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CIP_DATA_FORMAT_VER3 {
@@ -63,6 +73,9 @@ typedef struct _CIP_DATA_FORMAT_VER3 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field FMT
 
@@ -119,15 +132,10 @@ This member is the remainder of 1394 ticks to send a data block.
 This member is the number of blocks per packet; used for blocking mode only
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-</dt>
-</dl>
+
  
 
  

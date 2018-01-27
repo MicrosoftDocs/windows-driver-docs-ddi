@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bb5f3b3e-3358-4181-9c4d-1871be1a7b7b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortCreateSpinLock
+ms.keywords: VideoPortCreateSpinLock, display.videoportcreatespinlock, VideoPort_Functions_64ab2562-155d-4cec-8612-42aca51d909b.xml, video/VideoPortCreateSpinLock, VideoPortCreateSpinLock function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of the Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortCreateSpinLock
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortCreateSpinLock
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortCreateSpinLock function
 
 
-
 ## -description
+
+
 The <b>VideoPortCreateSpinLock</b> function creates a spin lock.
 
 
-
 ## -syntax
+
 
 ````
 VP_STATUS VideoPortCreateSpinLock(
@@ -55,6 +65,9 @@ VP_STATUS VideoPortCreateSpinLock(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -67,22 +80,25 @@ Pointer to a memory location that will receive a pointer to the newly created sp
 
 
 ## -returns
+
+
 On success the function returns NO_ERROR. If an error occurs, the function returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 This routine must be called before an initial call to <a href="..\video\nf-video-videoportacquirespinlock.md">VideoPortAcquireSpinLock</a> or to any other support routine that requires a spin lock as an argument. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\video\nf-video-videoportdeletespinlock.md">VideoPortDeleteSpinLock</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportacquirespinlock.md">VideoPortAcquireSpinLock</a>
-</dt>
-</dl>
+
+<a href="..\video\nf-video-videoportdeletespinlock.md">VideoPortDeleteSpinLock</a>
+
  
 
  

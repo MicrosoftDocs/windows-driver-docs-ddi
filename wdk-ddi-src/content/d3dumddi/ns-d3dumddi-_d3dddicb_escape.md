@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 37e111be-5175-40d0-b862-0cc79d77d2bc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_ESCAPE, D3DDDICB_ESCAPE
+ms.keywords: _D3DDDICB_ESCAPE, display.d3dddicb_escape, D3D_param_Structs_3981c7f8-973d-42c4-abfa-29613731df50.xml, d3dumddi/D3DDDICB_ESCAPE, D3DDDICB_ESCAPE, D3DDDICB_ESCAPE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_ESCAPE
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_ESCAPE
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_ESCAPE
 ---
 
 # _D3DDDICB_ESCAPE structure
 
 
-
 ## -description
+
+
 The D3DDDICB_ESCAPE structure describes information that a user-mode display driver shares with a display miniport driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_ESCAPE {
@@ -57,6 +67,9 @@ typedef struct _D3DDDICB_ESCAPE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -83,24 +96,16 @@ typedef struct _D3DDDICB_ESCAPE {
 [in] A handle to the context that the <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a> function returned or <b>NULL</b>, if the shared information is not associated with a context. If the user-mode display driver sets <b>hContext</b> to a non-<b>NULL</b> value, the driver must have also set <b>hDevice</b> to a non-<b>NULL</b> value, and <b>hDevice</b> must correspond to the device that owns the context.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-</dt>
-<dt>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+
 <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a>
-</dt>
-</dl>
+
  
 
  

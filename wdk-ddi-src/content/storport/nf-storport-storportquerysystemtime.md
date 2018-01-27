@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 20677d16-136c-47d7-a19b-21731433298e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortQuerySystemTime
+ms.keywords: StorPortQuerySystemTime, storprt_fcad0e23-f796-4cd9-935c-6db56a63d899.xml, storport/StorPortQuerySystemTime, StorPortQuerySystemTime routine [Storage Devices], storage.storportquerysystemtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortQuerySystemTime
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortQuerySystemTime
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortQuerySystemTime function
 
 
-
 ## -description
+
+
 The <b>StoriPortQuerySystemTime</b> routine obtains the current system time.
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API VOID StorPortQuerySystemTime(
@@ -55,25 +66,32 @@ STORPORT_API VOID StorPortQuerySystemTime(
 
 ## -parameters
 
+
+
+
 ### -param CurrentTime [out]
 
 Pointer to the current time, on return. 
 
 
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 The system time returned in <i>CurrentTime</i> is the number of 100-nanosecond intervals that have elapsed since January 1, 1601. System time is typically updated approximately every ten milliseconds. This value is computed for the GMT time zone. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportquerysystemtime.md">ScsiPortQuerySystemTime</a>
-</dt>
-</dl>
+
  
 
  

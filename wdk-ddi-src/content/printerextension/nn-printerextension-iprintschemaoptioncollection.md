@@ -7,8 +7,8 @@ old-location: print\iprintschemaoptioncollection.htm
 old-project: print
 ms.assetid: ED0FD042-EB42-4F4B-AF9C-B8F56909ED66
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IPrintSchemaTicket2, IPrintSchemaTicket2::GetParameterInitializer, GetParameterInitializer
+ms.date: 1/18/2018
+ms.keywords: print.iprintschemaoptioncollection, IPrintSchemaOptionCollection interface [Print Devices], IPrintSchemaOptionCollection interface [Print Devices], described, IPrintSchemaOptionCollection, printerextension/IPrintSchemaOptionCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPrintSchemaOptionCollection
-req.alt-loc: Printerextension.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: printerextension.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Printerextension.h
+apiname: 
+-	IPrintSchemaOptionCollection
+product: Windows
+targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
 ---
@@ -38,43 +47,14 @@ req.product: Windows 10 or later.
 # IPrintSchemaOptionCollection interface
 
 
-
 ## -description
+
+
 Exposes a collection of <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a> objects.
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintSchemaOptionCollection</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IDispatch</b></a> interface. <b>IPrintSchemaOptionCollection</b> also has these types of members:
-
-The <b>IPrintSchemaOptionCollection</b> interface has these methods.
-
-Gets a pointer to an <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a> object.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintSchemaOptionCollection</b> interface has these properties.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
-
-
-Read-only
-
-Gets a count of the number of <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a> objects in the collection.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973226">NewEnum</a>
-
-
-Read-only
-
-Gets a pointer to the enumerants of <b>IPrintSchemaOptionCollection</b> objects.
-
- 
-
-
 ## -members
+
 The <b>IPrintSchemaOptionCollection</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -152,21 +132,15 @@ Gets a pointer to the enumerants of <b>IPrintSchemaOptionCollection</b> objects.
  
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
-</dt>
-<dt>
+
 <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaOptionCollection interface%20 RELEASE:%20(1/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaOptionCollection interface%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

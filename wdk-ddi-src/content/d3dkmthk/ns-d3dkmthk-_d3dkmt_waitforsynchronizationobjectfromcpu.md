@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 76091965-D87B-4429-85A8-EC8085C773D7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
+ms.keywords: d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, WaitAny, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, display.d3dkmt_waitforsynchronizationobjectfromcpu
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
 ---
 
 # _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure
 
 
-
 ## -description
+
+
 <b>D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobjectfromcpu.md">D3DKMTWaitForSynchronizationObjectFromCpu</a> to wait for a monitored fence to reach a certain value.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU {
@@ -58,6 +68,9 @@ typedef struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -87,17 +100,16 @@ typedef struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU {
 ### -field Flags
 
 [in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_waitforsynchronizationobjectfromcpu_flags.md">D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS</a> structure describing the operation.
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field WaitAny
-### -field FALSE
-
+<td width="40%"><a id="WaitAny"></a><a id="waitany"></a><a id="WAITANY"></a><dl>
+<dt><b>WaitAny</b></dt>
+<dt>FALSE</dt>
+</dl>
 </td>
 <td width="60%">
 The wait condition is considered to be satisfied when all input synchronization objects are signaled to the corresponding input fence values or greater.
@@ -105,32 +117,25 @@ The wait condition is considered to be satisfied when all input synchronization 
 </td>
 </tr>
 <tr>
-
-### -field WaitAny
-### -field TRUE
-
+<td width="40%"><a id="WaitAny"></a><a id="waitany"></a><a id="WAITANY"></a><dl>
+<dt><b>WaitAny</b></dt>
+<dt>TRUE</dt>
+</dl>
 </td>
 <td width="60%">
 The wait condition is considered to be satisfied when any of the input synchronization objects is signaled to the corresponding input fence value or greater.
 
 </td>
 </tr>
-</table>
- 
-
-
-## -remarks
+</table> 
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobjectfromcpu.md">D3DKMTWaitForSynchronizationObjectFromCpu</a>
-</dt>
-<dt>
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_waitforsynchronizationobjectfromcpu_flags.md">D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobjectfromcpu.md">D3DKMTWaitForSynchronizationObjectFromCpu</a>
+
  
 
  

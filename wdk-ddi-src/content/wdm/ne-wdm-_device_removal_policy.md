@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 51d1f0f5-4ca1-4ea6-8561-117240551355
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _DEVICE_REMOVAL_POLICY, *PDEVICE_REMOVAL_POLICY, DEVICE_REMOVAL_POLICY
+ms.keywords: wdm/DEVICE_REMOVAL_POLICY, wdm/RemovalPolicyExpectNoRemoval, PDEVICE_REMOVAL_POLICY enumeration pointer [Kernel-Mode Driver Architecture], wdm/RemovalPolicyExpectOrderlyRemoval, wdm/PDEVICE_REMOVAL_POLICY, _DEVICE_REMOVAL_POLICY, DEVICE_REMOVAL_POLICY, RemovalPolicyExpectOrderlyRemoval, sysenum_46a08528-1177-4dd0-933f-6c4d7aa6c5b3.xml, DEVICE_REMOVAL_POLICY enumeration [Kernel-Mode Driver Architecture], *PDEVICE_REMOVAL_POLICY, kernel.device_removal_policy, PDEVICE_REMOVAL_POLICY, RemovalPolicyExpectSurpriseRemoval, wdm/RemovalPolicyExpectSurpriseRemoval, RemovalPolicyExpectNoRemoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DEVICE_REMOVAL_POLICY
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	DEVICE_REMOVAL_POLICY
+product: Windows
+targetos: Windows
 req.typenames: *PDEVICE_REMOVAL_POLICY, DEVICE_REMOVAL_POLICY
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _DEVICE_REMOVAL_POLICY enumeration
 
 
-
 ## -description
+
+
 The <b>DEVICE_REMOVAL_POLICY</b> enumeration describes a device's removal policy.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DEVICE_REMOVAL_POLICY { 
@@ -56,6 +66,9 @@ typedef enum _DEVICE_REMOVAL_POLICY {
 
 
 ## -enum-fields
+
+
+
 
 ### -field RemovalPolicyExpectNoRemoval
 
@@ -73,21 +86,20 @@ The device can be removed suddenly. (The driver receives no advance warning that
 
 
 ## -remarks
+
+
 The <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a> routine supplies a <b>DEVICE_REMOVAL_POLICY</b> enumeration value when a driver requests <b>DevicePropertyRemovalPolicy</b>. The operating system uses the value as a hint as to how the device is typically removed from the computer.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551760">IRP_MN_SURPRISE_REMOVAL</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a>
+
+<a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
+
  
 
  

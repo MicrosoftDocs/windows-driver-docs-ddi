@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fe4197ad-52a2-47b3-ad96-57ea73cd931f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+ms.keywords: display.dxgkddiopmgetcertificatesize, DxgkDdiOPMGetCertificateSize callback function [Display Devices], DxgkDdiOPMGetCertificateSize, DXGKDDI_OPM_GET_CERTIFICATE_SIZE, DXGKDDI_OPM_GET_CERTIFICATE_SIZE, dispmprt/DxgkDdiOPMGetCertificateSize, Dm_Opm_functions_62785ff7-3c52-4e07-b075-eb27de1236b8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiOPMGetCertificateSize
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DxgkDdiOPMGetCertificateSize
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_OPM_GET_CERTIFICATE_SIZE callback
 
 
-
 ## -description
+
+
 The<i> DxgkDdiOPMGetCertificateSize</i> function retrieves the size of a certificate of the given type.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_OPM_GET_CERTIFICATE_SIZE DxgkDdiOPMGetCertificateSize;
@@ -58,6 +68,9 @@ NTSTATUS DxgkDdiOPMGetCertificateSize(
 
 
 ## -parameters
+
+
+
 
 ### -param MiniportDeviceContext [in]
 
@@ -75,43 +88,90 @@ A pointer to a variable that receives the size, in bytes, of the certificate who
 
 
 ## -returns
+
+
 <i>DxgkDdiOPMGetCertificateSize</i> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The function successfully retrieved the certificate size.
+</dl>
+</td>
+<td width="60%">
+The function successfully retrieved the certificate size.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_OPM_NOT_SUPPORTED</b></dt>
-</dl>The display miniport driver does not support OPM either because the hardware vender never signed the OPM license agreement or the miniport driver's graphics hardware does not comply with OPM rules. <i>DxgkDdiOPMGetCertificateSize</i> can also return this value if the display miniport driver detected tampering. 
+</dl>
+</td>
+<td width="60%">
+The display miniport driver does not support OPM either because the hardware vender never signed the OPM license agreement or the miniport driver's graphics hardware does not comply with OPM rules. <i>DxgkDdiOPMGetCertificateSize</i> can also return this value if the display miniport driver detected tampering. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_COPP_NOT_SUPPORTED</b></dt>
-</dl>The display miniport driver does not support COPP either because the hardware vender never signed the COPP license agreement or the miniport driver's graphics hardware does not comply with COPP rules. <i>DxgkDdiOPMGetCertificateSize</i> can also return this value if the miniport driver detected tampering. 
+</dl>
+</td>
+<td width="60%">
+The display miniport driver does not support COPP either because the hardware vender never signed the COPP license agreement or the miniport driver's graphics hardware does not comply with COPP rules. <i>DxgkDdiOPMGetCertificateSize</i> can also return this value if the miniport driver detected tampering. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_UAB_NOT_SUPPORTED</b></dt>
-</dl>The display miniport driver does not support UAB either because the hardware vender never signed the UAB license agreement or the miniport driver's graphics hardware does not comply with UAB rules. <i>DxgkDdiOPMGetCertificateSize</i> can also return this value if the display miniport driver detected tampering. 
+</dl>
+</td>
+<td width="60%">
+The display miniport driver does not support UAB either because the hardware vender never signed the UAB license agreement or the miniport driver's graphics hardware does not comply with UAB rules. <i>DxgkDdiOPMGetCertificateSize</i> can also return this value if the display miniport driver detected tampering. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_PVP_HFS_FAILED</b></dt>
-</dl>The display miniport driver's hardware functionality scan (HFS) failed or the display miniport driver detected tampering. A display miniport driver can optionally return this value. If <i>DxgkDdiOPMGetCertificateSize</i> does not return this value for tampering, it can return one of the previous error codes instead. 
+</dl>
+</td>
+<td width="60%">
+The display miniport driver's hardware functionality scan (HFS) failed or the display miniport driver detected tampering. A display miniport driver can optionally return this value. If <i>DxgkDdiOPMGetCertificateSize</i> does not return this value for tampering, it can return one of the previous error codes instead. 
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other error codes that are defined in Ntstatus.h.
 
 
+
 ## -remarks
+
+
 <i>DxgkDdiOPMGetCertificateSize</i> can retrieve the size of the display miniport driver's OPM certificate, User Accessible Bus (UAB) certificate, or Certified Output Protection Protocol (COPP) certificate. For information about these certificates, download the Output Content Protection document from the <a href="http://go.microsoft.com/fwlink/p/?linkid=204788">Output Content Protection and Windows Vista</a> website.
 
 <i>DxgkDdiOPMGetCertificateSize</i> should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_certificate_type.md">DXGKMDT_CERTIFICATE_TYPE</a>
-</dt>
-</dl>
+
  
 
  

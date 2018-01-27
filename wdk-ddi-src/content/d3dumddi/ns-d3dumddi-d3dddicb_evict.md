@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 65743D54-3954-4C31-B3CB-032DE391A456
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_EVICT, D3DDDICB_EVICT
+ms.keywords: display.d3dddicb_evict, d3dumddi/D3DDDICB_EVICT, D3DDDICB_EVICT structure [Display Devices], D3DDDICB_EVICT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_EVICT
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_EVICT
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_EVICT
 ---
 
 # D3DDDICB_EVICT structure
 
 
-
 ## -description
+
+
 <b>D3DKMT_EVICT</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_evictcb.md">pfnEvictCb</a> to subtract one from the residency reference count.
 
 Once this count reaches zero, it will remove the allocation from the device residency list.
   
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3DDDICB_EVICT {
@@ -59,6 +69,9 @@ typedef struct D3DDDICB_EVICT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NumAllocations
 
@@ -80,18 +93,12 @@ typedef struct D3DDDICB_EVICT {
 [out] When non-zero, specifies how much the application should evict in order to meet its current memory budget.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_evictcb.md">pfnEvictCb</a>
-</dt>
-<dt>
+
 <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_evict_flags.md">D3DDDI_EVICT_FLAGS</a>
-</dt>
-</dl>
+
  
 
  

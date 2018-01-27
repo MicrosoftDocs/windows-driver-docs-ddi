@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1812cb0f-9232-4813-9c7b-74c9fa4d03cf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.pfnsetprioritycb, pfnSetPriorityCb callback function [Display Devices], pfnSetPriorityCb, PFND3DDDI_SETPRIORITYCB, PFND3DDDI_SETPRIORITYCB, d3dumddi/pfnSetPriorityCb, D3Druntime_Functions_4bd6f90d-e958-43cc-8267-36d4d0448096.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnSetPriorityCb
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	pfnSetPriorityCb
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_SETPRIORITYCB callback
 
 
-
 ## -description
+
+
 The <i>pfnSetPriorityCb</i> function sets the priority level of a resource or list of allocations.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_SETPRIORITYCB pfnSetPriorityCb;
@@ -58,88 +68,91 @@ __checkReturn HRESULT APIENTRY CALLBACK pfnSetPriorityCb(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
 A handle to the display device (graphics context).
 
 
-### -param pData [in]
+### -param *
+
+
+
+
+
+
+#### - pData [in]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_setpriority.md">D3DDDICB_SETPRIORITY</a> structure that describes the priority level to set a resource or list of allocations to.
 
 
 ## -returns
+
+
 <i>pfnSetPriorityCb</i> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The priority level was successfully set.
+</dl>
+</td>
+<td width="60%">
+The priority level was successfully set.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_INVALIDARG</b></dt>
-</dl>Parameters were validated and determined to be incorrect.
+</dl>
+</td>
+<td width="60%">
+Parameters were validated and determined to be incorrect.
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other HRESULT values.
 
 
 
 
+
 ## -remarks
+
+
 The user-mode display driver can call the <i>pfnSetPriorityCb</i> function to set the priority of the underlying resource or list of allocations. If the priority level of a resource is set, all of the allocations that belong to the resource are set to the specified priority level. Typically, the user-mode display driver sets the priority of a resource or list of allocations after the Microsoft Direct3D runtime calls the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpriority.md">SetPriority</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff569657">SetResourcePriorityDXGI</a> function to set the eviction-from-memory priority for a resource. However, the user-mode display driver can set the priority of allocations at any time. 
 
 After an application requests to set the priority level of a surface, the user-mode display driver should set the appropriate resource or list of allocations to the priority level that is specified by the application. 
-
-An allocation priority defines both the likelihood that the allocation remains resident and the likelihood of how hard the video memory manager will try to respect the driver's preference for the placement of the allocation. The following priority levels are defined in the D3dukmdt.h header file:
-
+<div class="alert"><b>Note</b>    Priority levels are only a hint to the video memory manager; they can be ignored by the memory manager under various conditions. </div><div> </div>An allocation priority defines both the likelihood that the allocation remains resident and the likelihood of how hard the video memory manager will try to respect the driver's preference for the placement of the allocation. The following priority levels are defined in the D3dukmdt.h header file:
 
 
-Marks the allocation as unused and for eviction immediately. The allocation should be evicted as soon as another allocation requires the resource that the allocation occupies.
-
-If an allocation will not be used for a while, the driver marks the allocation as unused at the soonest opportunity. Note that changing allocation priority is not a queued operation; that is, the change is effective immediately. Changing the priority of an allocation that has a queued reference can cause the video memory manager to evict the allocation, then bring the allocation back, and then evict the allocation again. 
-
-Marks the priority of the allocation as low.
-
-The placement of the allocation is not critical, and the video memory manager performs minimal work to find a location for the allocation. For example, if a GPU can render with a vertex buffer from either local or non-local memory with little difference in performance, the driver should mark that vertex buffer as low priority. Marking the buffer as low priority allows other more critical allocations (for example, allocations for a render target or texture) to occupy the faster memory. 
-
-Marks the priority of the allocation as normal.
-
-The placement of the allocation is important, but not critical, for performance. The video memory manager should try to place the allocation that is marked as normal in the allocation's preferred location instead of a low-priority allocation. 
-
-Typically, textures are marked as normal. 
-
-Marks the priority of the allocation as high.
-
-The placement of the allocation is critical for performance. The video memory manager should try to place the allocation that is marked as high in the allocation's preferred location instead of a low-priority or normal-priority allocation. 
-
-Typically, render targets are marked as high.
-
-Beginning with Windows 8, when the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>  function is called, the Microsoft DirectX graphics subsystem sets this allocation priority value.
-
-Marks the priority of the allocation as soft-pinned. A soft-pinned allocation is evicted from memory only if there is no other way of resolving the memory requirement of a DMA buffer. The video memory manager attempts to split a DMA buffer to its minimum size and evict all other nonpinned and non soft-pinned allocations before evicting a soft-pinned allocation. This level of priority should be used only for applications that require no errors.
 
 The driver can use priority levels other than the preceding defined values when appropriate. For example, marking an allocation with a priority level of 0x78000001 indicates that the allocation is slightly above normal. 
 
-The following code example shows how to set priority level.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_setpriority.md">D3DDDICB_SETPRIORITY</a>
-</dt>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
-</dt>
-<dt>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_setpriority.md">D3DDDICB_SETPRIORITY</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpriority.md">SetPriority</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569657">SetResourcePriorityDXGI</a>
-</dt>
-</dl>
+
  
 
  

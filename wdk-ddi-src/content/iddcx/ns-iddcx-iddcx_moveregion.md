@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 28974c00-9225-4458-a198-beb4538e3a45
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_MOVEREGION,
+ms.keywords: IDDCX_MOVEREGION, display.iddcx_moveregion, IDDCX_MOVEREGION structure [Display Devices], iddcx/IDDCX_MOVEREGION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDDCX_MOVEREGION
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDDCX_MOVEREGION
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDDCX_MOVEREGION structure
 
 
-
 ## -description
+
+
 
                  Gives information about the current move region.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDDCX_MOVEREGION {
@@ -56,6 +66,9 @@ typedef struct IDDCX_MOVEREGION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -78,5 +91,3 @@ typedef struct IDDCX_MOVEREGION {
                      Defines the destination rect of the move.
                  
 
-
-## -remarks

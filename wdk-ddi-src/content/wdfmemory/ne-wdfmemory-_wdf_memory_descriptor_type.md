@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ab364ad8-1b04-4ad0-a036-9b1c41e16604
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_MEMORY_DESCRIPTOR_TYPE, WDF_MEMORY_DESCRIPTOR_TYPE
+ms.keywords: DFMemoryObjectRef_3817f18e-3d20-43d6-b6f0-584c1533fe9a.xml, WDF_MEMORY_DESCRIPTOR_TYPE, kmdf.wdf_memory_descriptor_type, WdfMemoryDescriptorTypeInvalid, wdfmemory/WdfMemoryDescriptorTypeHandle, wdfmemory/WdfMemoryDescriptorTypeMdl, wdf.wdf_memory_descriptor_type, _WDF_MEMORY_DESCRIPTOR_TYPE, wdfmemory/WdfMemoryDescriptorTypeInvalid, wdfmemory/WdfMemoryDescriptorTypeBuffer, WdfMemoryDescriptorTypeMdl, WDF_MEMORY_DESCRIPTOR_TYPE enumeration, WdfMemoryDescriptorTypeHandle, wdfmemory/WDF_MEMORY_DESCRIPTOR_TYPE, WdfMemoryDescriptorTypeBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_MEMORY_DESCRIPTOR_TYPE
-req.alt-loc: wdfmemory.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfmemory.h
+apiname: 
+-	WDF_MEMORY_DESCRIPTOR_TYPE
+product: Windows
+targetos: Windows
 req.typenames: WDF_MEMORY_DESCRIPTOR_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_MEMORY_DESCRIPTOR_TYPE enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_MEMORY_DESCRIPTOR_TYPE</b> enumeration identifies the types of memory descriptions that a <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure can specify.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_MEMORY_DESCRIPTOR_TYPE { 
@@ -59,6 +69,9 @@ typedef enum _WDF_MEMORY_DESCRIPTOR_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WdfMemoryDescriptorTypeInvalid
 
@@ -80,15 +93,10 @@ The <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DES
 The <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure contains a handle to a memory object.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

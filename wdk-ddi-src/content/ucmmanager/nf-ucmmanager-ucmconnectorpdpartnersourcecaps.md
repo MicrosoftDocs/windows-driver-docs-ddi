@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 282E12E2-F16F-4399-BC8C-78BD64F05F13
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmConnectorPdPartnerSourceCaps
+ms.keywords: UcmConnectorPdPartnerSourceCaps method [Buses], UcmConnectorPdPartnerSourceCaps, buses.ucmconnectorpdportpartnersourcecaps, ucmmanager/UcmConnectorPdPartnerSourceCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 2.15
-req.alt-api: UcmConnectorPdPartnerSourceCaps
-req.alt-loc: UcmCxstub.lib,UcmCxstub.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: UcmCxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	UcmCxstub.lib
+-	UcmCxstub.dll
+apiname: 
+-	UcmConnectorPdPartnerSourceCaps
+product: Windows
+targetos: Windows
 req.typenames: *PPORT_DATA_1, PORT_DATA_1
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # UcmConnectorPdPartnerSourceCaps function
 
 
-
 ## -description
+
+
 Notifies the USB connector manager framework extension (UcmCx) with the power source capabilities of the partner connector.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS UcmConnectorPdPartnerSourceCaps(
@@ -57,38 +68,50 @@ NTSTATUS UcmConnectorPdPartnerSourceCaps(
 
 ## -parameters
 
-### -param  Connector [in]
+
+
+
+### -param Connector [in]
 
 Handle to the connector object that the client driver received in the previous call to <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>.
 
 
-### -param  Pdos[] [in]
+### -param Pdos
 
-A caller-allocated array of <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a> structures that describes the power source capabilities.
+TBD
 
 
-### -param  PdoCount [in]
+### -param PdoCount [in]
 
 Number of elements in the array specified by   <i>Pdos[]</i>.
 
 
+#### - Pdos[] [in]
+
+A caller-allocated array of <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a> structures that describes the power source capabilities.
+
+
 ## -returns
+
+
 <b>UcmConnectorPdPartnerSourceCaps</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> value. 
 
 
+
 ## -remarks
+
+
 When using a Type-C connector for charging by using the power delivery (PD) mechanism, the local connector queries the partner connector for its supported power sourcing capabilities. That query is not required if the partner connector is the power source because in that case, the local connector cached the initial advertisement when the partner connector was attached. 	If the source capabilities changed, it sends an update to the local connector. 
 
 If the partner connector is the power sink, the local connector port must query for the latest capabilities.
 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>
-</dt>
-</dl>
+
  
 
  

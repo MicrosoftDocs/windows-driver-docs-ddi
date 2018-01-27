@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c551de0-970a-4733-b904-27c40cf7b42f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfChildListRetrieveAddressDescription
+ms.keywords: WdfChildListRetrieveAddressDescription, wdf.wdfchildlistretrieveaddressdescription, WdfChildListRetrieveAddressDescription method, wdfchildlist/WdfChildListRetrieveAddressDescription, DFDeviceObjectChildListRef_bd30cd1e-b7ac-40cd-b96f-4071d08bafc1.xml, PFN_WDFCHILDLISTRETRIEVEADDRESSDESCRIPTION, kmdf.wdfchildlistretrieveaddressdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfChildListRetrieveAddressDescription
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfChildListRetrieveAddressDescription
+product: Windows
+targetos: Windows
 req.typenames: WDF_RETRIEVE_CHILD_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WdfChildListRetrieveAddressDescription function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
-The <b>WdfChildListRetrieveAddressDescription</b> method locates a child device that has a specified <a href="wdf.dynamic_enumeration#dynamic_child_descriptions#dynamic_child_descriptions">identification description</a> and retrieves the device's <a href="wdf.dynamic_enumeration#dynamic_child_descriptions#dynamic_child_descriptions">address description</a>.
-
+The <b>WdfChildListRetrieveAddressDescription</b> method locates a child device that has a specified <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a> and retrieves the device's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">address description</a>.
 
 
 ## -syntax
+
 
 ````
 NTSTATUS WdfChildListRetrieveAddressDescription(
@@ -58,6 +69,9 @@ NTSTATUS WdfChildListRetrieveAddressDescription(
 
 
 ## -parameters
+
+
+
 
 ### -param ChildList [in]
 
@@ -75,18 +89,48 @@ A pointer to a <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_descr
 
 
 ## -returns
+
+
 <b>WdfChildListRetrieveAddressDescription</b> returns STATUS_SUCCESS, or another status value for which <a href="https://msdn.microsoft.com/fe823930-e3ff-4c95-a640-bb6470c95d1d">NT_SUCCESS(status)</a> equals <b>TRUE</b>, if the operation succeeds. Otherwise, this method might return one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>An input parameter was invalid.
+</dl>
+</td>
+<td width="60%">
+An input parameter was invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NO_SUCH_DEVICE</b></dt>
-</dl>No device matched the specified identification description.
+</dl>
+</td>
+<td width="60%">
+No device matched the specified identification description.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>The child list did not contain address descriptions, or the size of the address description that <i>AddressDescription</i> specified was incorrect.
+</dl>
+</td>
+<td width="60%">
+The child list did not contain address descriptions, or the size of the address description that <i>AddressDescription</i> specified was incorrect.
 
- 
+</td>
+</tr>
+</table> 
 
 This method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -96,27 +140,24 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
+
 For more information about child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
-The following code example searches a child list for a child device whose identification description contains the value that is specified by <b>SomeValue</b>. If <b>WdfChildListRetrieveAddressDescription</b> locates the device, it retrieves the device's address description.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
-</dt>
-<dt>
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_address_description_header_init.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT</a>
-</dt>
-<dt>
+
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
-</dt>
-</dl>
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_address_description_header_init.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT</a>
+
  
 
  

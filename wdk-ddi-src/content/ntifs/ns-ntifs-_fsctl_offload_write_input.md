@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4ADBBBDC-02DD-4D1A-B697-6286D7513B2E
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FSCTL_OFFLOAD_WRITE_INPUT, FSCTL_OFFLOAD_WRITE_INPUT, *PFSCTL_OFFLOAD_WRITE_INPUT
+ms.keywords: PFSCTL_OFFLOAD_WRITE_INPUT, ifsk.fsctl_offload_write_input, FSCTL_OFFLOAD_WRITE_INPUT, ntifs/FSCTL_OFFLOAD_WRITE_INPUT, PFSCTL_OFFLOAD_WRITE_INPUT structure pointer [Installable File System Drivers], _FSCTL_OFFLOAD_WRITE_INPUT, *PFSCTL_OFFLOAD_WRITE_INPUT, ntifs/PFSCTL_OFFLOAD_WRITE_INPUT, FSCTL_OFFLOAD_WRITE_INPUT structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FSCTL_OFFLOAD_WRITE_INPUT
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: FSCTL_OFFLOAD_WRITE_INPUT, *PFSCTL_OFFLOAD_WRITE_INPUT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FSCTL_OFFLOAD_WRITE_INPUT
+product: Windows
+targetos: Windows
+req.typenames: *PFSCTL_OFFLOAD_WRITE_INPUT, FSCTL_OFFLOAD_WRITE_INPUT
 ---
 
 # _FSCTL_OFFLOAD_WRITE_INPUT structure
 
 
-
 ## -description
+
+
 The <b>FSCTL_OFFLOAD_WRITE_INPUT</b> structure contains the input for the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451122">FSCTL_OFFLOAD_WRITE</a> control code request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FSCTL_OFFLOAD_WRITE_INPUT {
@@ -58,6 +68,9 @@ typedef struct _FSCTL_OFFLOAD_WRITE_INPUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -90,24 +103,22 @@ A byte array that contains a token structure, <a href="..\ntddstor\ns-ntddstor-_
 
 
 ## -remarks
+
+
 <b>CopyLength</b> can be zero. The value of <b>FileOffset</b> + <b>CopyLength</b> is bounded by both <b>MAXULONGLONG</b> and <b>MAXFILESIZE</b>. <a href="https://msdn.microsoft.com/library/windows/hardware/hh451122">FSCTL_OFFLOAD_WRITE</a> will return with <b>STATUS_INVALID_PARAMETER</b> if these conditions are not met.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451101">FSCTL_OFFLOAD_READ</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451122">FSCTL_OFFLOAD_WRITE</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_fsctl_offload_write_output.md">FSCTL_OFFLOAD_WRITE_OUTPUT</a>
-</dt>
-<dt>
+
 <a href="..\ntddstor\ns-ntddstor-_storage_offload_token.md">STORAGE_OFFLOAD_TOKEN</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\ns-ntifs-_fsctl_offload_write_output.md">FSCTL_OFFLOAD_WRITE_OUTPUT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451122">FSCTL_OFFLOAD_WRITE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451101">FSCTL_OFFLOAD_READ</a>
+
  
 
  

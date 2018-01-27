@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3c7c0d40-a51e-4656-b262-233f0af8db0f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2MULTIPLYTRANSFORM, D3DHAL_DP2MULTIPLYTRANSFORM, *LPD3DHAL_DP2MULTIPLYTRANSFORM
+ms.keywords: D3DHAL_DP2MULTIPLYTRANSFORM structure [Display Devices], d3dhal/D3DHAL_DP2MULTIPLYTRANSFORM, LPD3DHAL_DP2MULTIPLYTRANSFORM structure pointer [Display Devices], *LPD3DHAL_DP2MULTIPLYTRANSFORM, LPD3DHAL_DP2MULTIPLYTRANSFORM, d3dstrct_5091bd4f-cace-4f31-8849-8f6ee65c7ec1.xml, d3dhal/LPD3DHAL_DP2MULTIPLYTRANSFORM, display.d3dhal_dp2multiplytransform, _D3DHAL_DP2MULTIPLYTRANSFORM, D3DHAL_DP2MULTIPLYTRANSFORM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DP2MULTIPLYTRANSFORM
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DP2MULTIPLYTRANSFORM
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DP2MULTIPLYTRANSFORM
 ---
 
 # _D3DHAL_DP2MULTIPLYTRANSFORM structure
 
 
-
 ## -description
+
+
 
    DirectX 8.0 and later versions only.
    
@@ -46,8 +56,8 @@ req.typenames: D3DHAL_DP2MULTIPLYTRANSFORM
 The D3DHAL_DP2MULTIPLYTRANSFORM structure is used to modify the transform matrix for <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DP2MULTIPLYTRANSFORM {
@@ -59,10 +69,12 @@ typedef struct _D3DHAL_DP2MULTIPLYTRANSFORM {
 
 ## -struct-fields
 
+
+
+
 ### -field xfrmType
 
 Specifies the current transform being modified.
-
 <table>
 <tr>
 <th>Value</th>
@@ -98,8 +110,7 @@ Specifies the current world transformation.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field matrix
@@ -108,18 +119,18 @@ Specifies the matrix used to modify the current transform.
 
 
 ## -remarks
+
+
 This structure is used with hardware transform and lighting and is used by the Direct3D runtime to inform the driver about modifications to the various transformation matrices.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-</dt>
-<dt>
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2settransform.md">D3DHAL_DP2SETTRANSFORM</a>
-</dt>
-</dl>
+
  
 
  

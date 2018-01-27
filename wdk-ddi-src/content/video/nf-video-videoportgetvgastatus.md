@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5a2bb69c-b10a-41bb-a92a-de7add3ca2c5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortGetVgaStatus
+ms.keywords: VideoPortGetVgaStatus function [Display Devices], display.videoportgetvgastatus, VideoPort_Functions_f3e43fe4-2e50-48d4-b185-f44e2a2adb31.xml, video/VideoPortGetVgaStatus, VideoPortGetVgaStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortGetVgaStatus
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortGetVgaStatus
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortGetVgaStatus function
 
 
-
 ## -description
+
+
 The <b>VideoPortGetVgaStatus</b> function detects whether the calling device is decoding a VGA I/O address.
 
 
-
 ## -syntax
+
 
 ````
 VP_STATUS VideoPortGetVgaStatus(
@@ -56,7 +66,10 @@ VP_STATUS VideoPortGetVgaStatus(
 
 ## -parameters
 
-### -param HwDeviceExtension 
+
+
+
+### -param HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
@@ -67,16 +80,43 @@ Pointer to the resulting VGA status. A value of zero (0) indicates that VGA is n
 
 
 ## -returns
+
+
 <b>VideoPortGetVgaStatus</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NO_ERROR</b></dt>
-</dl>The function completed successfully.
+</dl>
+</td>
+<td width="60%">
+The function completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>ERROR_INVALID_FUNCTION</b></dt>
-</dl>The device was not a PCI device.
+</dl>
+</td>
+<td width="60%">
+The device was not a PCI device.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-The <b>VideoPortGetVgaStatus</b> function is mainly used to determine whether a device is the sole VGA-enabled device in a <a href="https://msdn.microsoft.com/ba15af67-94c0-4c37-8b3d-b1472e731d88">multiple monitor</a> system. </p>
+
+
+The <b>VideoPortGetVgaStatus</b> function is mainly used to determine whether a device is the sole VGA-enabled device in a <a href="https://msdn.microsoft.com/ba15af67-94c0-4c37-8b3d-b1472e731d88">multiple monitor</a> system. 
+
+

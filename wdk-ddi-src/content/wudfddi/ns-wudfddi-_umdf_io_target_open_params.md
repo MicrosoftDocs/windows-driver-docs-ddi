@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ee8c3585-4e27-4b53-99d8-0af0c5a0099d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS
+ms.keywords: UMDF_IO_TARGET_OPEN_PARAMS structure, PUMDF_IO_TARGET_OPEN_PARAMS, umdf.umdf_io_target_open_params, _UMDF_IO_TARGET_OPEN_PARAMS, PUMDF_IO_TARGET_OPEN_PARAMS structure pointer, wdf.umdf_io_target_open_params, umdfstructs_ac731d61-3f97-4c2c-a9af-0a2a58774766.xml, *PUMDF_IO_TARGET_OPEN_PARAMS, wudfddi/PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS, wudfddi/UMDF_IO_TARGET_OPEN_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.9
-req.alt-api: UMDF_IO_TARGET_OPEN_PARAMS
-req.alt-loc: Wudfddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wudfddi.h
+apiname: 
+-	UMDF_IO_TARGET_OPEN_PARAMS
+product: Windows
+targetos: Windows
+req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
 req.product: Windows 10 or later.
 ---
 
 # _UMDF_IO_TARGET_OPEN_PARAMS structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>UMDF_IO_TARGET_OPEN_PARAMS</b> structure contains file-open parameters.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UMDF_IO_TARGET_OPEN_PARAMS {
@@ -58,6 +68,9 @@ typedef struct _UMDF_IO_TARGET_OPEN_PARAMS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwShareMode
 
@@ -75,18 +88,18 @@ Additional flags and attributes for the file. For more information about this me
 
 
 ## -remarks
+
+
 The <b>UMDF_IO_TARGET_OPEN_PARAMS</b> structure is used as input to <a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a>
+
  
 
  

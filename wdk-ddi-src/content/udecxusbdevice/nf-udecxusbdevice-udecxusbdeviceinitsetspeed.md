@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D7EF9B82-5156-4F27-AA52-94C113C81D3A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUsbDeviceInitSetSpeed
+ms.keywords: buses.udecxusbdeviceinitsetspeed, UdecxUsbDeviceInitSetSpeed function [Buses], UdecxUsbDeviceInitSetSpeed, udecxusbdevice/UdecxUsbDeviceInitSetSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 
-req.alt-api: UdecxUsbDeviceInitSetSpeed
-req.alt-loc: Udecxstub.lib,Udecxstub.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PUDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Udecxstub.lib
+-	Udecxstub.dll
+apiname: 
+-	UdecxUsbDeviceInitSetSpeed
+product: Windows
+targetos: Windows
+req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
 req.product: Windows 10 or later.
 ---
 
 # UdecxUsbDeviceInitSetSpeed function
 
 
-
 ## -description
+
+
 Sets the USB speed of the virtual USB device to create. 
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE void UdecxUsbDeviceInitSetSpeed(
@@ -55,6 +66,9 @@ FORCEINLINE void UdecxUsbDeviceInitSetSpeed(
 
 
 ## -parameters
+
+
+
 
 ### -param UdecxUsbDeviceInit [in, out]
 
@@ -67,22 +81,25 @@ A <a href="..\udecxusbdevice\ne-udecxusbdevice-_udecx_usb_device_speed.md">UDECX
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
+
 ## -remarks
+
+
 After the client driver sets the USB speed of the device, it only operates in that speed. The speed also determines the kind of port to which the device can connect. For example, a USB SuperSpeed device cannot connect to a USB 2.0 port.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f6c595f2-a493-453a-a744-7ce6577ae29e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortGetPhysicalAddress
+ms.keywords: irb/AtaPortGetPhysicalAddress, atartns_8067117e-f163-4fe9-a3f4-24b32b5bcf63.xml, AtaPortGetPhysicalAddress routine [Storage Devices], storage.ataportgetphysicaladdress, AtaPortGetPhysicalAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AtaPortGetPhysicalAddress
-req.alt-loc: ataport.lib,ataport.dll,pciidex.lib,pciidex.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ataport.lib
+-	ataport.dll
+-	pciidex.lib
+-	pciidex.dll
+apiname: 
+-	AtaPortGetPhysicalAddress
+product: Windows
+targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
 
 # AtaPortGetPhysicalAddress function
 
 
-
 ## -description
+
+
 The <b>AtaPortGetPhysicalAddress</b> routine converts the virtual address range to the physical address range. 
-
-
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 IDE_PHYSICAL_ADDRESS AtaPortGetPhysicalAddress(
@@ -56,6 +69,9 @@ IDE_PHYSICAL_ADDRESS AtaPortGetPhysicalAddress(
 
 
 ## -parameters
+
+
+
 
 ### -param ChannelExtension [in]
 
@@ -78,18 +94,16 @@ Returns the number of mapped bytes starting at the returned physical address.
 
 
 ## -returns
+
+
 <b>AtaPortGetPhysicalAddress </b>returns the corresponding physical address for the virtual address. If the virtual address cannot be converted, it returns <b>NULL</b>. 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a>
-</dt>
-</dl>
+
  
 
  

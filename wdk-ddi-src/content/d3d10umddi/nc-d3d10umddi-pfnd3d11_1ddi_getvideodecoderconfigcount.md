@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5b4cc185-8579-4c13-932f-23065697c4ee
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.getvideodecoderconfigcount, pfnGetVideoDecoderConfigCount callback function [Display Devices], pfnGetVideoDecoderConfigCount, PFND3D11_1DDI_GETVIDEODECODERCONFIGCOUNT, PFND3D11_1DDI_GETVIDEODECODERCONFIGCOUNT, d3d10umddi/pfnGetVideoDecoderConfigCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnGetVideoDecoderConfigCount
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	pfnGetVideoDecoderConfigCount
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_GETVIDEODECODERCONFIGCOUNT callback
 
 
-
 ## -description
+
+
 Queries the number of video decoder configurations that are supported by the display miniport driver for the specified decoder operation.
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11_1DDI_GETVIDEODECODERCONFIGCOUNT pfnGetVideoDecoderConfigCount;
@@ -59,37 +69,55 @@ VOID APIENTRY* pfnGetVideoDecoderConfigCount(
 
 ## -parameters
 
-### -param hDevice [in]
+
+
+
+### -param D3D10DDI_HDEVICE
+
+
+
+### -param *
+
+
+
+
+
+
+#### - pConfigCount [out]
+
+A pointer to a UINT value that specifies the maximum number of decoder configurations that are supported.
+
+
+#### - pDecodeDesc [in]
+
+A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_desc.md">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that specifies the video decoder operation.
+
+
+#### - hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-### -param pDecodeDesc [in]
-
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_desc.md">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that specifies the video decoder operation.
-
-
-### -param pConfigCount [out]
-
-A pointer to a UINT value that specifies the maximum number of decoder configurations that are supported.
-
-
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 The Microsoft Direct3D runtime verifies that the <i>pDecodeDesc</i>  parameter data is valid before it calls the <b>GetVideoDecoderConfigCount</b> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_desc.md">D3D11_1DDI_VIDEO_DECODER_DESC</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 1d8d723f-aae5-499e-94cf-c7ccdb24c45f
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _OUTPUT_PACKET, OUTPUT_PACKET, *POUTPUT_PACKET
+ms.keywords: OUTPUT_PACKET, ntdd8042/OUTPUT_PACKET, POUTPUT_PACKET, hid.output_packet, OUTPUT_PACKET structure [Human Input Devices], POUTPUT_PACKET structure pointer [Human Input Devices], i8042ref_3e563892-06cb-4021-847d-d6afda279c7a.xml, _OUTPUT_PACKET, ntdd8042/POUTPUT_PACKET, *POUTPUT_PACKET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OUTPUT_PACKET
-req.alt-loc: ntdd8042.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: OUTPUT_PACKET, *POUTPUT_PACKET
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntdd8042.h
+apiname: 
+-	OUTPUT_PACKET
+product: Windows
+targetos: Windows
+req.typenames: *POUTPUT_PACKET, OUTPUT_PACKET
 ---
 
 # _OUTPUT_PACKET structure
 
 
-
 ## -description
+
+
 OUTPUT_PACKET contains information about the data that is being written to a keyboard or mouse device by I8042prt.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _OUTPUT_PACKET {
@@ -56,6 +66,9 @@ typedef struct _OUTPUT_PACKET {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Bytes
 
@@ -75,7 +88,6 @@ Specifies the number of bytes in the array of bytes located at <b>Bytes</b>.
 ### -field State
 
 Specifies one of the following write states:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -91,38 +103,33 @@ Specifies one of the following write states:
 </table></span></div>
 
 
-
-### -field Idle
+##### - State.Idle
 
 Identifies that a write is not in progress.
 
 
-### -field SendingBytes
+##### - State.SendingBytes
 
 Identifies that a write is in progress.
 
-</dd>
-</dl>
 
 ## -remarks
+
+
 This structure is used with a <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a> callback routine and a <a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a> callback routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
-</dt>
-<dt>
+
 <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
+
+<a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
+
 <a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a>
-</dt>
-</dl>
+
  
 
  

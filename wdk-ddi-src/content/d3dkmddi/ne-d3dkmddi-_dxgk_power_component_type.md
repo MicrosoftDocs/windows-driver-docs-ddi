@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fe732082-5aa1-4265-a76a-bd2e5b733557
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_POWER_COMPONENT_TYPE, DXGK_POWER_COMPONENT_TYPE
+ms.keywords: _DXGK_POWER_COMPONENT_TYPE, d3dkmddi/DXGK_POWER_COMPONENT_OTHER, DXGK_POWER_COMPONENT_MAX, DXGK_POWER_COMPONENT_TYPE enumeration [Display Devices], DXGK_POWER_COMPONENT_OTHER, DXGK_POWER_COMPONENT_MONITOR, display.dxgk_power_component_type, DXGK_POWER_COMPONENT_ENGINE, d3dkmddi/DXGK_POWER_COMPONENT_MONITOR, d3dkmddi/DXGK_POWER_COMPONENT_MONITOR_REFRESH, d3dkmddi/DXGK_POWER_COMPONENT_TYPE, d3dkmddi/DXGK_POWER_COMPONENT_MAX, DXGK_POWER_COMPONENT_TYPE, DXGK_POWER_COMPONENT_MONITOR_REFRESH, d3dkmddi/DXGK_POWER_COMPONENT_ENGINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_POWER_COMPONENT_TYPE
-req.alt-loc: D3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmddi.h
+apiname: 
+-	DXGK_POWER_COMPONENT_TYPE
+product: Windows
+targetos: Windows
 req.typenames: DXGK_POWER_COMPONENT_TYPE
 ---
 
 # _DXGK_POWER_COMPONENT_TYPE enumeration
 
 
-
 ## -description
+
+
 Indicates the power component type that is reported by the display miniport driver to the Microsoft DirectX graphics kernel subsystem.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXGK_POWER_COMPONENT_TYPE { 
@@ -58,12 +68,13 @@ typedef enum _DXGK_POWER_COMPONENT_TYPE {
 
 ## -enum-fields
 
+
+
+
 ### -field DXGK_POWER_COMPONENT_ENGINE
 
 Indicates that the component is a  GPU engine.
-
-<div class="alert"><b>Note</b>  An engine can have only one power component assigned.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  An engine can have only one power component assigned.</div><div> </div>
 
 ### -field DXGK_POWER_COMPONENT_MONITOR
 
@@ -77,14 +88,28 @@ Indicates hardware that scans out from a VidPN source and generates a signal for
 A typical component of this type is a self-refreshing monitor, which can display the last frame even if the frame buffer stops sending data to the monitor. The display miniport driver should report this component type only if all monitors that can be driven from the VidPN source are self-refreshing.
 
 
+### -field DXGK_POWER_COMPONENT_MEMORY
+
+
+
+### -field DXGK_POWER_COMPONENT_MEMORY_REFRESH
+
+
+
 ### -field DXGK_POWER_COMPONENT_OTHER
 
 Indicates a component for which the idle state is managed entirely by the display miniport driver. The DirectX graphics kernel subsystem passes this information to the <a href="https://msdn.microsoft.com/9F2D8ACD-44D5-46E0-9FC7-1B38B99450FF">Power Management Framework</a>.
+
+
+### -field DXGK_POWER_COMPONENT_D3_TRANSITION
+
+
+
+### -field DXGK_POWER_COMPONENT_SHARED
+
 
 
 ### -field DXGK_POWER_COMPONENT_MAX
 
 A maximum value that is used for testing purposes.
 
-
-## -remarks

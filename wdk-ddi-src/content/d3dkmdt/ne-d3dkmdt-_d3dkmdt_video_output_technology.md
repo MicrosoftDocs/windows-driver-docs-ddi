@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5a0876a0-5c27-47aa-9215-1b2bd8612306
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY, D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY
+ms.keywords: D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY enumeration [Display Devices], d3dkmdt/D3DKMDT_VOT_COMPOSITE_VIDEO, d3dkmdt/D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY, d3dkmdt/D3DKMDT_VOT_LVDS, d3dkmdt/D3DKMDT_VOT_SDTVDONGLE, DmEnums_c4d89369-4b10-4033-9bb6-218904fc5c5a.xml, d3dkmdt/D3DKMDT_VOT_RCA_3COMPONENT, d3dkmdt/D3DKMDT_VOT_D_JPN, display.d3dkmdt_video_output_technology, D3DKMDT_VOT_D_JPN, D3DKMDT_VOT_SVIDEO_4PIN, D3DKMDT_VOT_BNC, D3DKMDT_VOT_UDI_EXTERNAL, D3DKMDT_VOT_HDMI, d3dkmdt/D3DKMDT_VOT_SVIDEO_4PIN, D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY, d3dkmdt/D3DKMDT_VOT_DISPLAYPORT_EXTERNAL, d3dkmdt/D3DKMDT_VOT_SVIDEO_7PIN, d3dkmdt/D3DKMDT_VOT_INTERNAL, D3DKMDT_VOT_LVDS, D3DKMDT_VOT_SDTVDONGLE, _D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY, d3dkmdt/D3DKMDT_VOT_OTHER, D3DKMDT_VOT_DISPLAYPORT_EMBEDDED, d3dkmdt/D3DKMDT_VOT_RF, D3DKMDT_VOT_INTERNAL, d3dkmdt/D3DKMDT_VOT_UDI_EMBEDDED, d3dkmdt/D3DKMDT_VOT_SVIDEO, D3DKMDT_VOT_SVIDEO_7PIN, D3DKMDT_VOT_DVI, d3dkmdt/D3DKMDT_VOT_SDI, D3DKMDT_VOT_MIRACAST, d3dkmdt/D3DKMDT_VOT_HDMI, D3DKMDT_VOT_DISPLAYPORT_EXTERNAL, D3DKMDT_VOT_SVIDEO, d3dkmdt/D3DKMDT_VOT_COMPONENT_VIDEO, D3DKMDT_VOT_COMPONENT_VIDEO, D3DKMDT_VOT_RCA_3COMPONENT, d3dkmdt/D3DKMDT_VOT_UDI_EXTERNAL, d3dkmdt/D3DKMDT_VOT_DVI, d3dkmdt/D3DKMDT_VOT_UNINITIALIZED, D3DKMDT_VOT_RF, d3dkmdt/D3DKMDT_VOT_BNC, D3DKMDT_VOT_UNINITIALIZED, D3DKMDT_VOT_OTHER, D3DKMDT_VOT_HD15, d3dkmdt/D3DKMDT_VOT_DISPLAYPORT_EMBEDDED, d3dkmdt/D3DKMDT_VOT_HD15, d3dkmdt/D3DKMDT_VOT_MIRACAST, D3DKMDT_VOT_SDI, D3DKMDT_VOT_UDI_EMBEDDED, D3DKMDT_VOT_COMPOSITE_VIDEO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY
+product: Windows
+targetos: Windows
 req.typenames: D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY
 ---
 
 # _D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY enumeration
 
 
-
 ## -description
+
+
 The D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY enumerated type indicates the type of connector a video output device (on the display adapter) uses to connect to an external display device.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY { 
@@ -77,6 +87,9 @@ typedef enum _D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DKMDT_VOT_UNINITIALIZED
 
@@ -165,6 +178,10 @@ Indicates that the video output device connects to an external display device wi
 Supported starting with Windows 8.1.
 
 
+### -field D3DKMDT_VOT_INDIRECT_WIRED
+
+
+
 ### -field D3DKMDT_VOT_INTERNAL
 
 Indicates that the video output device connects internally to a display device (for example, the internal connection in a laptop computer).
@@ -198,18 +215,18 @@ Indicates that the video output device connects to an external display device th
 
 
 ## -remarks
+
+
 The <b>ChildCapabilities</b> member of a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a> structure is a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_capabilities.md">DXGK_CHILD_CAPABILITIES</a> structure. The <b>Type.VideoOutput</b> member of a DXGK_CHILD_CAPABILITIES structure is a <a href="..\dispmprt\ns-dispmprt-_dxgk_video_output_capabilities.md">DXGK_VIDEO_OUTPUT_CAPABILITIES</a> structure. The <b>InterfaceTechnology</b> member of a DXGK_VIDEO_OUTPUT_CAPABILITIES structure is a D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY value.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\ns-dispmprt-_dxgk_video_output_capabilities.md">DXGK_VIDEO_OUTPUT_CAPABILITIES</a>
-</dt>
-</dl>
+
  
 
  

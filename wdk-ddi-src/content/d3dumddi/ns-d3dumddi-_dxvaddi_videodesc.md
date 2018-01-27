@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 19121888-ad5c-4596-a7ec-a95fbffda685
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVADDI_VIDEODESC, DXVADDI_VIDEODESC
+ms.keywords: DXVADDI_VIDEODESC, DXVADDI_VIDEODESC structure [Display Devices], _DXVADDI_VIDEODESC, display.dxvaddi_videodesc, d3dumddi/DXVADDI_VIDEODESC, DXVA2_Structs_7e8c3d70-50a3-48f7-bc5e-4280a599e43d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVADDI_VIDEODESC
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVADDI_VIDEODESC
+product: Windows
+targetos: Windows
 req.typenames: DXVADDI_VIDEODESC
 ---
 
 # _DXVADDI_VIDEODESC structure
 
 
-
 ## -description
+
+
 The DXVADDI_VIDEODESC structure describes a video stream.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVADDI_VIDEODESC {
@@ -60,6 +70,9 @@ typedef struct _DXVADDI_VIDEODESC {
 
 
 ## -struct-fields
+
+
+
 
 ### -field SampleWidth
 
@@ -101,21 +114,14 @@ typedef struct _DXVADDI_VIDEODESC {
 [in] Reserved. Do not use this member.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_frequency.md">DXVADDI_FREQUENCY</a>
-</dt>
-</dl>
+
  
 
  

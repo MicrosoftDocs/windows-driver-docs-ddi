@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2360224a-fa99-4b2c-a346-0129e3e95cd7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_WDDMVERSION, DXGK_WDDMVERSION
+ms.keywords: display.dxgk_wddmversion, _DXGK_WDDMVERSION, d3dkmddi/DXGKDDI_WDDMv1_2, DXGK_WDDMVERSION enumeration [Display Devices], DmEnums_3a73843a-4967-4faa-a217-42487ae4f865.xml, d3dkmddi/DXGKDDI_WDDMv2, DXGKDDI_WDDMv1, DXGKDDI_WDDMv2, d3dkmddi/DXGK_WDDMVERSION, DXGKDDI_WDDMv1_2, d3dkmddi/DXGKDDI_WDDMv1, DXGK_WDDMVERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_WDDMVERSION
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_WDDMVERSION
+product: Windows
+targetos: Windows
 req.typenames: DXGK_WDDMVERSION
 ---
 
 # _DXGK_WDDMVERSION enumeration
 
 
-
 ## -description
+
+
 The DXGK_WDDMVERSION enumeration is reserved for system use. Except for the case noted below, do not use it in your driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXGK_WDDMVERSION { 
@@ -55,6 +65,9 @@ typedef enum _DXGK_WDDMVERSION {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXGKDDI_WDDMv1
 
@@ -74,20 +87,32 @@ Supported beginning with Windows 8.
 Reserved for system use.
 
 
+### -field DXGKDDI_WDDMv1_3
+
+
+
 ### -field DXGKDDI_WDDMv2
 
 Reserved for system use.
 
 
-## -remarks
+### -field DXGKDDI_WDDMv2_1
+
+
+
+### -field DXGKDDI_WDDMv2_2
+
+
+
+### -field DXGKDDI_WDDMv2_3
+
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570556">VidPn Interface</a>
-</dt>
-</dl>
+
  
 
  

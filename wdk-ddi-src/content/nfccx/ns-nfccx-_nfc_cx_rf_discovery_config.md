@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 4EF45183-335C-40FC-8693-BF3D17B18DF2
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: _NFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG, *PNFC_CX_RF_DISCOVERY_CONFIG
+ms.keywords: nfccx/PNFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG structure [Near-Field Proximity Drivers], NFC_CX_RF_DISCOVERY_CONFIG, nfpdrivers.nfc_cx_rf_discovery_config, nfccx/NFC_CX_RF_DISCOVERY_CONFIG, PNFC_CX_RF_DISCOVERY_CONFIG structure pointer [Near-Field Proximity Drivers], PNFC_CX_RF_DISCOVERY_CONFIG, *PNFC_CX_RF_DISCOVERY_CONFIG, _NFC_CX_RF_DISCOVERY_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NFC_CX_RF_DISCOVERY_CONFIG
-req.alt-loc: nfccx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: NFC_CX_RF_DISCOVERY_CONFIG, *PNFC_CX_RF_DISCOVERY_CONFIG
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	nfccx.h
+apiname: 
+-	NFC_CX_RF_DISCOVERY_CONFIG
+product: Windows
+targetos: Windows
+req.typenames: *PNFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG
 ---
 
 # _NFC_CX_RF_DISCOVERY_CONFIG structure
 
 
-
 ## -description
+
+
 The <b>NFC_CX_RF_DISCOVERY_CONFIG</b> structure contains RF discovery configuration settings. Discovery configuration should be completed during initialization after calling <a href="..\nfccx\nf-nfccx-nfccxdevicedeinitialize.md">NfcDxDeviceInitialize</a>, otherwise an error is returned.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NFC_CX_RF_DISCOVERY_CONFIG {
@@ -59,6 +69,9 @@ typedef struct _NFC_CX_RF_DISCOVERY_CONFIG {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -107,14 +120,12 @@ Combination of <a href="..\nfccx\ne-nfccx-_nfc_cx_poll_bailout_config.md">NFC_CX
 This member enables configuration of PA_BAIL_OUT and PB_BAIL_OUT as described in the NCI specification. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt><a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a></dt>
-<dt><a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a></dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
  
 
  

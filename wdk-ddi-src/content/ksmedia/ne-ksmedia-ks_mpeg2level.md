@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5ba271ba-ed92-402e-9ef9-ac198a8ea510
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_MPEG2Level, KS_MPEG2Level
+ms.keywords: KS_MPEG2Level, KS_MPEG2Level_Main, KS_MPEG2Level_High1440, vidcapstruct_a97daeef-93e4-4ded-98dc-f583c1893095.xml, KS_MPEG2Level enumeration [Streaming Media Devices], ksmedia/KS_MPEG2Level_Main, stream.ks_mpeg2level, ksmedia/KS_MPEG2Level, KS_MPEG2Level_High, KS_MPEG2Level_Low, ksmedia/KS_MPEG2Level_Low, ksmedia/KS_MPEG2Level_High1440, ksmedia/KS_MPEG2Level_High
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_MPEG2Level
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KS_MPEG2Level
+product: Windows
+targetos: Windows
 req.typenames: KS_MPEG2Level
 ---
 
 # KS_MPEG2Level enumeration
 
 
-
 ## -description
+
+
 The KS_MPEG2Level enumeration describes MPEG-2 levels.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -56,6 +66,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field KS_MPEG2Level_Low
 
@@ -77,15 +90,10 @@ Specifies the high-1440 MPEG-2 resolution, or 1440 × 1152 at 30 frames per seco
 Specifies the high MPEG-2 resolution, or 1920 × 1080 at 30 frames per second.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-tagks_mpegvideoinfo2.md">KS_MPEGVIDEOINFO2</a>
-</dt>
-</dl>
+
  
 
  

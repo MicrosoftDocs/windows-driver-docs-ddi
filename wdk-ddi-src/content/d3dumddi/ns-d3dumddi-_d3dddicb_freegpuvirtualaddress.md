@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5E11C1BB-7E9E-4D9C-A15A-B9CCB29622C3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_FREEGPUVIRTUALADDRESS, D3DDDICB_FREEGPUVIRTUALADDRESS
+ms.keywords: display.d3dddicb_freegpuvirtualaddress, D3DDDICB_FREEGPUVIRTUALADDRESS, D3DDDICB_FREEGPUVIRTUALADDRESS structure [Display Devices], d3dumddi/D3DDDICB_FREEGPUVIRTUALADDRESS, _D3DDDICB_FREEGPUVIRTUALADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_FREEGPUVIRTUALADDRESS
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_FREEGPUVIRTUALADDRESS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_FREEGPUVIRTUALADDRESS
 ---
 
 # _D3DDDICB_FREEGPUVIRTUALADDRESS structure
 
 
-
 ## -description
+
+
 <b>D3DDDICB_FREEGPUVIRTUALADDRESS</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_freegpuvirtualaddresscb.md">pfnFreeGpuVirtualAddressCb</a> to release a range of graphics processing unit (GPU) virtual addresses that were previously reserved or mapped.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_FREEGPUVIRTUALADDRESS {
@@ -55,6 +65,9 @@ typedef struct _D3DDDICB_FREEGPUVIRTUALADDRESS {
 
 ## -struct-fields
 
+
+
+
 ### -field BaseAddress
 
 Specifies the base virtual address, in bytes, of the range to free. Must be aligned to 4 KB.
@@ -65,15 +78,10 @@ Specifies the base virtual address, in bytes, of the range to free. Must be alig
 Specifies the size, in bytes, of the range to free. Must be aligned to 4 KB.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_freegpuvirtualaddresscb.md">pfnFreeGpuVirtualAddressCb</a>
-</dt>
-</dl>
+
  
 
  

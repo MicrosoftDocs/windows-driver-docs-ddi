@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: aec5b9df-22cc-4ef8-8d09-103124ab357c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PCPROPERTY_ITEM, PCPROPERTY_ITEM, *PPCPROPERTY_ITEM
+ms.keywords: audio.pcproperty_item, PPCPROPERTY_ITEM structure pointer [Audio Devices], PCPROPERTY_ITEM, portcls/PPCPROPERTY_ITEM, portcls/PCPROPERTY_ITEM, audpc-struct_6d95504b-3ecc-47dc-b98f-b6ebfa40d749.xml, PPCPROPERTY_ITEM, *PPCPROPERTY_ITEM, PCPROPERTY_ITEM structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PCPROPERTY_ITEM
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	portcls.h
+apiname: 
+-	PCPROPERTY_ITEM
+product: Windows
+targetos: Windows
 req.typenames: PCPROPERTY_ITEM, *PPCPROPERTY_ITEM
 ---
 
 # PCPROPERTY_ITEM structure
 
 
-
 ## -description
+
+
 The <b>PCPROPERTY_ITEM</b> structure describes a property that is supported by a particular filter, pin, or node.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -57,20 +67,33 @@ typedef struct {
 
 ## -struct-fields
 
-### -field Set
-
-Specifies the property set. This member is a pointer to a GUID that uniquely identifies the property set. See the list of property-set GUIDs in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536197">Audio Drivers Property Sets</a>.
 
 
-### -field Id
 
-Specifies the property ID. This member identifies a property item within the property set. If the property set contains N items, valid property IDs are integers in the range 0 to N-1.
+### -field portcls.Set
+
+ 
 
 
-### -field Flags
+### -field portcls.Id
+
+ 
+
+
+### -field portcls.Flags
+
+ 
+
+
+### -field portcls.Handler
+
+ 
+
+
+
+#### - Flags
 
 Specifies the types of property requests that the driver supports. Set this member to the bitwise OR of some or all of the flag bits that appear in the following table.
-
 <table>
 <tr>
 <th>Flag bits</th>
@@ -156,14 +179,22 @@ PCPROPERTY_ITEM_FLAG_SERIALIZERAW | PCPROPERTY_ITEM_FLAG_UNSERIALIZERAW | PCPROP
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
-### -field Handler
+#### - Set
+
+Specifies the property set. This member is a pointer to a GUID that uniquely identifies the property set. See the list of property-set GUIDs in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536197">Audio Drivers Property Sets</a>.
+
+
+#### - Id
+
+Specifies the property ID. This member identifies a property item within the property set. If the property set contains N items, valid property IDs are integers in the range 0 to N-1.
+
+
+#### - Handler
 
 Pointer to the property-handler routine. This member is a function pointer of type PCPFNPROPERTY_HANDLER, which is defined as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -176,33 +207,36 @@ Pointer to the property-handler routine. This member is a function pointer of ty
   );</pre>
 </td>
 </tr>
-</table></span></div>
-See the following Remarks section.
+</table></span></div>See the following Remarks section.
 
 
 ## -remarks
+
+
 The <b>PCPROPERTY_ITEM</b> structure specifies a particular property item in an automation table. The <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_6.md">PCAUTOMATION_TABLE</a> structure points to an array of <b>PCPROPERTY_ITEM</b> structures.
 
 When calling the <b>Handler</b> routine, the caller passes in a single call parameter, which is a pointer to a <a href="..\portcls\ns-portcls-_pcproperty_request.md">PCPROPERTY_REQUEST</a> structure. This structure is allocated by the caller, and the caller frees it under either of the following conditions:
-
+<ol>
+<li>
 If the <b>Handler</b> routine returns any status code other than STATUS_PENDING, the caller frees the structure. In this case, the miniport driver should not attempt to access the structure after the <b>Handler</b> routine returns.
 
+</li>
+<li>
 The <b>Handler</b> routine can also return STATUS_PENDING, in which case the miniport driver is obliged to call <a href="..\portcls\nf-portcls-pccompletependingpropertyrequest.md">PcCompletePendingPropertyRequest</a> at a later time to complete the pending property request. The <b>PcCompletePendingPropertyRequest</b> function frees the structure. After calling <b>PcCompletePendingPropertyRequest</b>, the miniport driver should not attempt to access the structure.
 
-If the miniport driver attempts to access the structure after it has been freed, this action is likely to cause a bug check or to corrupt another driver's memory.
+</li>
+</ol>If the miniport driver attempts to access the structure after it has been freed, this action is likely to cause a bug check or to corrupt another driver's memory.
 
 For more information about serialization and raw serialization of a property set, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88-aaf9-ff1ddbfd30f7">KS Properties</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\ns-portcls-_pcproperty_request.md">PCPROPERTY_REQUEST</a>
-</dt>
-<dt>
+
 <a href="..\portcls\nf-portcls-pccompletependingpropertyrequest.md">PcCompletePendingPropertyRequest</a>
-</dt>
-</dl>
+
+<a href="..\portcls\ns-portcls-_pcproperty_request.md">PCPROPERTY_REQUEST</a>
+
  
 
  

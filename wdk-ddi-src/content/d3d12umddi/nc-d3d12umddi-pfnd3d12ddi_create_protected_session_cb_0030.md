@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 64E38759-2863-4481-8A89-6E6263CEFE8B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA
+ms.keywords: display.pfnd3d12ddi_create_protected_session_cb_0030, PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030 callback function [Display Devices], PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030, d3d12umddi/PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030
-req.alt-loc: d3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d12umddi.h
+apiname: 
+-	PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
 
 # PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030 callback
 
 
-
 ## -description
+
+
 Used to create a protected session state.
 
 
-
 ## -prototype
+
 
 ````
 HRESULT APIENTRY CALLBACK* PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030(
@@ -56,23 +66,34 @@ HRESULT APIENTRY CALLBACK* PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030(
 
 ## -parameters
 
-### -param hRTDevice 
+
+
+
+### -param hRTDevice
 
 The hardware device being processed.
 
 
-### -param hRTProtectedSession 
+### -param hRTProtectedSession
 
 The protected session.
 
 
-### -param D3D12DDICB_CREATE_PROTECTED_RESOURCE_SESSION [in]
+### -param *pArgs
+
+
+
+
+
+
+#### - D3D12DDICB_CREATE_PROTECTED_RESOURCE_SESSION [in]
 
 Used to create a protected resource session
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS if completed successfully.
 
 
-## -remarks

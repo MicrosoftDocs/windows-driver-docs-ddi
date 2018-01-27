@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d0bc4e8b-b173-4568-8c0f-7b87fd84e2cf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFreeObjectBag
+ms.keywords: KsFreeObjectBag function [Streaming Media Devices], KsFreeObjectBag, stream.ksfreeobjectbag, ks/KsFreeObjectBag, avfunc_f91aca67-5d6c-42f7-9e24-3b15b54c2b69.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsFreeObjectBag
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsFreeObjectBag
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsFreeObjectBag function
 
 
-
 ## -description
+
+
 The<b> KsFreeObjectBag</b> function empties and frees an object bag.
 
 
-
 ## -syntax
+
 
 ````
 void KsFreeObjectBag(
@@ -54,39 +65,42 @@ void KsFreeObjectBag(
 
 ## -parameters
 
+
+
+
 ### -param ObjectBag [in]
 
 The KSOBJECT_BAG (equivalent to type PVOID) to be emptied and then freed.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d9">Object Bags</a>.
 
 <b>KsFreeObjectBag</b> removes any items present in <i>ObjectBag</i>. In addition, if the reference count for a given object is zero (that is, the object is not present in any other object bag associated with the same device as <i>ObjectBag</i>), then that item is freed. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksallocateobjectbag.md">KsAllocateObjectBag</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
-</dt>
-<dt>
+
+<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
+
+<a href="..\ks\nf-ks-ksallocateobjectbag.md">KsAllocateObjectBag</a>
+
 <a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
-</dt>
-</dl>
+
  
 
  

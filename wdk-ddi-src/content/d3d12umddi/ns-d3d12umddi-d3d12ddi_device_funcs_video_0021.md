@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F4C385C8-00A2-44AB-A7E6-4C9AA19CFFB0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_DEVICE_FUNCS_VIDEO_0021, D3D12DDI_DEVICE_FUNCS_VIDEO_0021
+ms.keywords: display.d3d12ddi_device_funcs_video, D3D12DDI_DEVICE_FUNCS_VIDEO_0021 structure [Display Devices], D3D12DDI_DEVICE_FUNCS_VIDEO_0021, d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_DEVICE_FUNCS_VIDEO_0021
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_DEVICE_FUNCS_VIDEO_0021
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_DEVICE_FUNCS_VIDEO_0021
 ---
 
 # D3D12DDI_DEVICE_FUNCS_VIDEO_0021 structure
 
 
-
 ## -description
+
+
 Contains video functions. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDI_DEVICE_FUNCS_VIDEO_0021 {
@@ -70,6 +80,9 @@ typedef struct D3D12DDI_DEVICE_FUNCS_VIDEO_0021 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pfnGetCaps
 
@@ -161,15 +174,10 @@ A function that trims decoder allocations.
 A function that trims processor allocations. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_device_funcs_core_0010.md">D3D12DDI_DEVICE_FUNCS_CORE_0010</a>
-</dt>
-</dl>
+
  
 
  

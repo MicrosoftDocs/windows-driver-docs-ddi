@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: dbabdd69-a97b-4de6-b35b-f3d8d2351c72
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _PMI_MEASUREMENT_CONFIGURATION, *PPMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION
+ms.keywords: PMI_MEASUREMENT_CONFIGURATION, PPMI_MEASUREMENT_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], pmi/PMI_MEASUREMENT_CONFIGURATION, PPMI_MEASUREMENT_CONFIGURATION, _PMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION structure [Power Metering and Budgeting Devices], pmi/PPMI_MEASUREMENT_CONFIGURATION, PowerMeterRef_fe69d656-3aa9-4449-bd24-ceded8d7abd1.xml, powermeter.pmi_measurement_configuration, *PPMI_MEASUREMENT_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7, Windows Server 2008 R2, and l
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PMI_MEASUREMENT_CONFIGURATION
-req.alt-loc: pmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PPMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pmi.h
+apiname: 
+-	PMI_MEASUREMENT_CONFIGURATION
+product: Windows
+targetos: Windows
+req.typenames: PMI_MEASUREMENT_CONFIGURATION, *PPMI_MEASUREMENT_CONFIGURATION
 ---
 
 # _PMI_MEASUREMENT_CONFIGURATION structure
 
 
-
 ## -description
+
+
 The PMI_MEASUREMENT_CONFIGURATION structure contains information about the current power measurement configuration of a power meter. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PMI_MEASUREMENT_CONFIGURATION {
@@ -54,27 +64,29 @@ typedef struct _PMI_MEASUREMENT_CONFIGURATION {
 
 ## -struct-fields
 
+
+
+
 ### -field AveragingInterval
 
 A value, in units of milliseconds (mS), that specifies the interval during which the power meter averages power measurement data.
 
 
 ## -remarks
+
+
 The PMI_MEASUREMENT_CONFIGURATION structure specifies the current measurement parameters that the power meter uses when it monitors the power that is consumed by the system from a power supply. The <b>AverageInterval</b> member specifies the time interval over which the power meter averages the power measurement data it collects from a power supply.
+<div class="alert"><b>Note</b>  The <b>AverageInterval</b> member must have a value between the values of the <b>MinimumAverageInterval</b> and <b>MaximumAverageInterval</b> members of the <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a> structure. This structure is returned in the <a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a> structure of an <a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a> I/O control (IOCTL) query request.</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
-</dt>
-<dt>
+
 <a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
-</dt>
-<dt>
+
 <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
-</dt>
-</dl>
+
+<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
+
  
 
  

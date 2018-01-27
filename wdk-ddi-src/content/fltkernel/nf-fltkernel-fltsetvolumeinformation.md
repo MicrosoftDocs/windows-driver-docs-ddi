@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ee6b4a41-e4a7-41b8-9ca9-77b9052724a3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltSetVolumeInformation
+ms.keywords: FltSetVolumeInformation, ifsk.fltsetvolumeinformation, FltSetVolumeInformation function [Installable File System Drivers], fltkernel/FltSetVolumeInformation, FltApiRef_p_to_z_54f9b03b-9c74-4403-9189-90eb8c93cb3e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltSetVolumeInformation
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltSetVolumeInformation
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltSetVolumeInformation function
 
 
-
 ## -description
+
+
 <b>FltSetVolumeInformation</b> changes various kinds of information about the volume that the given instance is attached to. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltSetVolumeInformation(
@@ -57,6 +67,9 @@ NTSTATUS FltSetVolumeInformation(
 
 
 ## -parameters
+
+
+
 
 ### -param Instance [in]
 
@@ -81,7 +94,6 @@ Size in bytes of the buffer that <i>FsInformation </i>points to. The caller shou
 ### -param FsInformationClass [in]
 
 Type of information to be set for the volume. One of the following. 
-
 <table>
 <tr>
 <th>Value</th>
@@ -117,47 +129,83 @@ Set <a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTI
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 <b>FltSetVolumeInformation</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INFO_LENGTH_MISMATCH</b></dt>
-</dl>An invalid value was specified for <i>Length</i>. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+An invalid value was specified for <i>Length</i>. This is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl><b>FltSetVolumeInformation</b> encountered a pool allocation failure. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+<b>FltSetVolumeInformation</b> encountered a pool allocation failure. This is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_INFO_CLASS</b></dt>
-</dl>An invalid value was specified for <i>FsInformationClass</i>. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+An invalid value was specified for <i>FsInformationClass</i>. This is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The <i>Instance</i> is attached to a network volume. <b>FltSetVolumeInformation</b> cannot be used to set network volume information. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+The <i>Instance</i> is attached to a network volume. <b>FltSetVolumeInformation</b> cannot be used to set network volume information. This is an error code. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 To query information about a volume, call <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_file_fs_label_information.md">FILE_FS_LABEL_INFORMATION</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
+
 <a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
-</dt>
-</dl>
+
  
 
  

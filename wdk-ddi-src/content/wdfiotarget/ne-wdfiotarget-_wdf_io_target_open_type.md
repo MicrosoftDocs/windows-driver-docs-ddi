@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 27aa5d78-03ce-4fc9-b1c8-d02a760e2787
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_IO_TARGET_OPEN_TYPE, WDF_IO_TARGET_OPEN_TYPE
+ms.keywords: WDF_IO_TARGET_OPEN_TYPE, wdfiotarget/WdfIoTargetOpenLocalTargetByFile, _WDF_IO_TARGET_OPEN_TYPE, WdfIoTargetOpenUseExistingDevice, DFIOTargetRef_4af14f33-176e-4dca-bf20-1841c834e29b.xml, wdfiotarget/WdfIoTargetOpenUndefined, WdfIoTargetOpenByName, WdfIoTargetOpenLocalTargetByFile, kmdf.wdf_io_target_open_type, WDF_IO_TARGET_OPEN_TYPE enumeration, wdfiotarget/WdfIoTargetOpenByName, WdfIoTargetOpenUndefined, wdf.wdf_io_target_open_type, wdfiotarget/WDF_IO_TARGET_OPEN_TYPE, WdfIoTargetOpenReopen, wdfiotarget/WdfIoTargetOpenReopen, wdfiotarget/WdfIoTargetOpenUseExistingDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_IO_TARGET_OPEN_TYPE
-req.alt-loc: wdfiotarget.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfiotarget.h
+apiname: 
+-	WDF_IO_TARGET_OPEN_TYPE
+product: Windows
+targetos: Windows
 req.typenames: WDF_IO_TARGET_OPEN_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_IO_TARGET_OPEN_TYPE enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_IO_TARGET_OPEN_TYPE</b> enumeration specifies how a driver identifies a remote I/O target when the driver calls <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_IO_TARGET_OPEN_TYPE { 
@@ -60,6 +70,9 @@ typedef enum _WDF_IO_TARGET_OPEN_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WdfIoTargetOpenUndefined
 
@@ -91,6 +104,8 @@ This value is supported by UMDF only.
 
 
 ## -remarks
+
+
 The <b>WDF_IO_TARGET_OPEN_TYPE</b> enumeration is used in the <b>Type</b> member of the <a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a> structure.
 
 The driver can specify <b>WdfIoTargetOpenReopen</b> only if it specified <b>WdfIoTargetOpenByName</b> when it originally opened the remote I/O target.
@@ -105,24 +120,19 @@ Unlike app-created requests, driver-created requests sent to a local I/O target 
 In this situation, you can use <b>WdfIoTargetOpenLocalTargetByFile</b> to cause driver-created requests sent to a local target to be associated with the file object corresponding to that target.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-<dt>
-<a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a>
-</dt>
-<dt>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_open_by_file.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE</a>
-</dt>
-<dt>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcloseforqueryremove.md">WdfIoTargetCloseForQueryRemove</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
-</dt>
-</dl>
+
+<a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a>
+
  
 
  

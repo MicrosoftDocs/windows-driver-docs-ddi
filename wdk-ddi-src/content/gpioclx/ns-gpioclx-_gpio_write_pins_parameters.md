@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 5607AFBA-2C8C-4637-81E8-7940CF9E989A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _GPIO_WRITE_PINS_PARAMETERS, GPIO_WRITE_PINS_PARAMETERS, *PGPIO_WRITE_PINS_PARAMETERS
+ms.keywords: GPIO.gpio_write_pins_parameters, _GPIO_WRITE_PINS_PARAMETERS, *PGPIO_WRITE_PINS_PARAMETERS, PGPIO_WRITE_PINS_PARAMETERS, PGPIO_WRITE_PINS_PARAMETERS structure pointer [Parallel Ports], GPIO_WRITE_PINS_PARAMETERS, gpioclx/PGPIO_WRITE_PINS_PARAMETERS, gpioclx/GPIO_WRITE_PINS_PARAMETERS, GPIO_WRITE_PINS_PARAMETERS structure [Parallel Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GPIO_WRITE_PINS_PARAMETERS
-req.alt-loc: Gpioclx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: GPIO_WRITE_PINS_PARAMETERS, *PGPIO_WRITE_PINS_PARAMETERS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Gpioclx.h
+apiname: 
+-	GPIO_WRITE_PINS_PARAMETERS
+product: Windows
+targetos: Windows
+req.typenames: *PGPIO_WRITE_PINS_PARAMETERS, GPIO_WRITE_PINS_PARAMETERS
 ---
 
 # _GPIO_WRITE_PINS_PARAMETERS structure
 
 
-
 ## -description
+
+
 The <b>GPIO_WRITE_PINS_PARAMETERS</b> structure describes a write operation on a group of general-purpose I/O (GPIO) pins.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GPIO_WRITE_PINS_PARAMETERS {
@@ -58,6 +68,9 @@ typedef struct _GPIO_WRITE_PINS_PARAMETERS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field BankId
 
@@ -90,21 +103,20 @@ Reserved for system use.
 
 
 ## -remarks
+
+
 The <i>WriteParameters</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439439">CLIENT_WriteGpioPins</a> event callback function is a pointer to a caller-allocated <b>GPIO_WRITE_PINS_PARAMETERS</b> structure. All of the pins that this function writes to are part of the same bank of GPIO pins.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439439">CLIENT_WriteGpioPins</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+
  
 
  

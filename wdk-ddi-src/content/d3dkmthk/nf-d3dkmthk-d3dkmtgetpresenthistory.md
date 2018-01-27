@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e00af04e-4770-4505-a06c-c44405dcaab5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTGetPresentHistory
+ms.keywords: d3dkmthk/D3DKMTGetPresentHistory, D3DKMTGetPresentHistory, OpenGL_Functions_9070e169-207c-478d-8eab-b0bcfad65362.xml, display.d3dkmtgetpresenthistory, D3DKMTGetPresentHistory function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTGetPresentHistory
-req.alt-loc: Gdi32.dll,API-MS-Win-dx-d3dkmt-l1-1-0.dll,API-MS-Win-dx-d3dkmt-l1-1-1.dll,API-MS-Win-DX-D3DKMT-L1-1-2.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Gdi32.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-0.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-1.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+apiname: 
+-	D3DKMTGetPresentHistory
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTGetPresentHistory function
 
 
-
 ## -description
+
+
 The <b>D3DKMTGetPresentHistory</b> function retrieves copying history.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS D3DKMTGetPresentHistory(
@@ -54,24 +67,26 @@ NTSTATUS D3DKMTGetPresentHistory(
 
 ## -parameters
 
-### -param pData [in, out]
+
+
+
+
+#### - pData [in, out]
 
 Supplies a pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getpresenthistory.md">D3DKMT_GETPRESENTHISTORY</a> structure that describes the copying history.
 
 
 ## -returns
+
+
 Returns <b>STATUS_SUCCESS</b> if copying history is successfully retrieved; otherwise an appropriate error code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getpresenthistory.md">D3DKMT_GETPRESENTHISTORY</a>
-</dt>
-</dl>
+
  
 
  

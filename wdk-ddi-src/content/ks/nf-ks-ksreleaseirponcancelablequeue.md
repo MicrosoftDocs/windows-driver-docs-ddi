@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 797e0821-2354-4dd5-b2ee-428d654feb40
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsReleaseIrpOnCancelableQueue
+ms.keywords: ks/KsReleaseIrpOnCancelableQueue, ksfunc_90599c85-7874-4eca-9177-45dcacbeacc7.xml, KsReleaseIrpOnCancelableQueue function [Streaming Media Devices], stream.ksreleaseirponcancelablequeue, KsReleaseIrpOnCancelableQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsReleaseIrpOnCancelableQueue
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsReleaseIrpOnCancelableQueue
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsReleaseIrpOnCancelableQueue function
 
 
-
 ## -description
+
+
 The <b>KsReleaseIrpOnCancelableQueue</b> function releases an acquired IRP that is already on a queue that can be canceled. The function sets the cancel function and completes the canceling of the IRP, if necessary. The function can be called at IRQ level DISPATCH_LEVEL or lower.
 
 
-
 ## -syntax
+
 
 ````
 VOID KsReleaseIrpOnCancelableQueue(
@@ -54,6 +65,9 @@ VOID KsReleaseIrpOnCancelableQueue(
 
 
 ## -parameters
+
+
+
 
 ### -param Irp [in]
 
@@ -66,7 +80,8 @@ Optional parameter that specifies the cancel routine to use. If this is <b>NULL<
 
 
 ## -returns
+
+
 None
 
 
-## -remarks

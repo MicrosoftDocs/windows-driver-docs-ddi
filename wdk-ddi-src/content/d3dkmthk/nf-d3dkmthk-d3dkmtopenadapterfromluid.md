@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1007c8ba-c503-4522-aef8-23b89bec3d62
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTOpenAdapterFromLuid
+ms.keywords: D3DKMTOpenAdapterFromLuid function [Display Devices], D3DKMTOpenAdapterFromLuid, display.d3dkmtopenadapterfromluid, d3dkmthk/D3DKMTOpenAdapterFromLuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTOpenAdapterFromLuid
-req.alt-loc: GDI32.dll,API-MS-Win-DX-D3DKMT-L1-1-1.dll,API-MS-Win-DX-D3DKMT-L1-1-2.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,33 @@ req.type-library:
 req.lib: GDI32.lib
 req.dll: GDI32.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	GDI32.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-1.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+apiname: 
+-	D3DKMTOpenAdapterFromLuid
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTOpenAdapterFromLuid function
 
 
-
 ## -description
+
+
 Maps a locally unique identifier (LUID) to a graphics adapter handle.
 
 
-
 ## -syntax
+
 
 ````
 EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTOpenAdapterFromLuid(
@@ -54,35 +66,62 @@ EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTOpenAdapterFromLuid(
 
 ## -parameters
 
-### -param pAdapter [in, out]
+
+
+
+### -param D3DKMT_OPENADAPTERFROMLUID
+
+TBD
+
+
+
+#### - pAdapter [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openadapterfromluid.md">D3DKMT_OPENADAPTERFROMLUID</a> structure that describes information that is required to perform the mapping.
 
 
 ## -returns
+
+
 Returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The mapping was performed successfully.
+</dl>
+</td>
+<td width="60%">
+The mapping was performed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER </b></dt>
 </dl>
+</td>
+<td width="60%">
+
          Parameters were validated and determined to be incorrect.
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other NTSTATUS values.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openadapterfromluid.md">D3DKMT_OPENADAPTERFROMLUID</a>
-</dt>
-</dl>
+
  
 
  

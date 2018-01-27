@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e9fb6d5c-258c-46eb-ba3a-3f10008fdf68
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SENDCMDOUTPARAMS, *PSENDCMDOUTPARAMS, SENDCMDOUTPARAMS, *LPSENDCMDOUTPARAMS
+ms.keywords: _SENDCMDOUTPARAMS, SENDCMDOUTPARAMS, ntdddisk/SENDCMDOUTPARAMS, structs-IDE_d1a70016-0e77-465a-9368-665975369bdc.xml, PSENDCMDOUTPARAMS structure pointer [Storage Devices], ntdddisk/PSENDCMDOUTPARAMS, *LPSENDCMDOUTPARAMS, LPSENDCMDOUTPARAMS structure pointer [Storage Devices], storage.sendcmdoutparams, ntdddisk/LPSENDCMDOUTPARAMS, LPSENDCMDOUTPARAMS, PSENDCMDOUTPARAMS, *PSENDCMDOUTPARAMS, SENDCMDOUTPARAMS structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SENDCMDOUTPARAMS
-req.alt-loc: ntdddisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSENDCMDOUTPARAMS, SENDCMDOUTPARAMS, *LPSENDCMDOUTPARAMS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntdddisk.h
+apiname: 
+-	SENDCMDOUTPARAMS
+product: Windows
+targetos: Windows
+req.typenames: SENDCMDOUTPARAMS, *PSENDCMDOUTPARAMS, *LPSENDCMDOUTPARAMS
 ---
 
 # _SENDCMDOUTPARAMS structure
 
 
-
 ## -description
+
+
 The SENDCMDOUTPARAMS structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a> request to retrieve data returned by a Self-Monitoring Analysis and Reporting Technology (SMART) command. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SENDCMDOUTPARAMS {
@@ -55,6 +65,9 @@ typedef struct _SENDCMDOUTPARAMS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field cBufferSize
 
@@ -72,23 +85,22 @@ Pointer to a buffer in which to store the data read from the drive.
 
 
 ## -remarks
+
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a> is used to send SMART commands to a device. 
 
 The SENDCMDOUTPARAMS structure is also used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566204">SMART_RCV_DRIVE_DATA</a> request. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566204">SMART_RCV_DRIVE_DATA</a>
-</dt>
-<dt>
+
 <a href="..\ntdddisk\ns-ntdddisk-_sendcmdinparams.md">SENDCMDINPARAMS</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a>
+
  
 
  

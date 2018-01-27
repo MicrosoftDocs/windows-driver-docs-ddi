@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 95f288ea-a32a-478f-870b-5aa6ff1edf44
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _L2CAP_CONFIG_RANGE, *PL2CAP_CONFIG_RANGE, L2CAP_CONFIG_RANGE
+ms.keywords: bltooth.l2cap_config_range, L2CAP_CONFIG_RANGE structure [Bluetooth Devices], *PL2CAP_CONFIG_RANGE, bthddi/PL2CAP_CONFIG_RANGE, PL2CAP_CONFIG_RANGE, L2CAP_CONFIG_RANGE, PL2CAP_CONFIG_RANGE structure pointer [Bluetooth Devices], _L2CAP_CONFIG_RANGE, bthddi/L2CAP_CONFIG_RANGE, bth_structs_86178813-5f20-4c58-8d70-c863217350b3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: L2CAP_CONFIG_RANGE
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-req.typenames: *PL2CAP_CONFIG_RANGE, L2CAP_CONFIG_RANGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthddi.h
+apiname: 
+-	L2CAP_CONFIG_RANGE
+product: Windows
+targetos: Windows
+req.typenames: L2CAP_CONFIG_RANGE, *PL2CAP_CONFIG_RANGE
 ---
 
 # _L2CAP_CONFIG_RANGE structure
 
 
-
 ## -description
+
+
 The L2CAP_CONFIG_RANGE structure is used to specify a range of possible values for the 
   <b>FlushTO</b> member of the 
   <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a> structure during
   incoming requests.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _L2CAP_CONFIG_RANGE {
@@ -57,6 +67,9 @@ typedef struct _L2CAP_CONFIG_RANGE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Min
 
@@ -69,6 +82,8 @@ The maximum value that the local system can accept.
 
 
 ## -remarks
+
+
 The L2CAP_CONFIG_RANGE structure contains the range of values that the profile driver uses to
     negotiate a flush timeout when a remote device contacts the profile driver to request a L2CAP connection.
     Profile drivers build and send a <b>BRB_L2CA_OPEN_CHANNEL_RESPONSE</b> request to either accept or reject the
@@ -96,15 +111,13 @@ A profile driver negotiates these values separately from the flush timeout setti
     <a href="..\bthddi\ns-bthddi-_l2cap_config_value_range.md">L2CAP_CONFIG_VALUE_RANGE</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
-</dt>
-<dt>
+
 <a href="..\bthddi\ns-bthddi-_l2cap_config_value_range.md">L2CAP_CONFIG_VALUE_RANGE</a>
-</dt>
-</dl>
+
+<a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7D146DDF-58A5-40C2-BF21-AF785DC7DB18
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCM_PD_CONN_STATE, UCM_PD_CONN_STATE
+ms.keywords: UcmPdConnStateNegotiationFailed, UCM_PD_CONN_STATE, UcmPdConnStateNotSupported, ucmtypes/UCM_PD_CONN_STATE, _UCM_PD_CONN_STATE, ucmtypes/UcmPdConnStateNotSupported, UcmPdConnStateNegotiationSucceeded, ucmtypes/UcmPdConnStateInvalid, UCM_PD_CONN_STATE enumeration [Buses], buses.ucm_pd_conn_state, UcmPdConnStateInvalid, ucmtypes/UcmPdConnStateNegotiationSucceeded, ucmtypes/UcmPdConnStateNegotiationFailed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 2.15
-req.alt-api: UCM_PD_CONN_STATE
-req.alt-loc: Ucmtypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ucmtypes.h
+apiname: 
+-	UCM_PD_CONN_STATE
+product: Windows
+targetos: Windows
 req.typenames: UCM_PD_CONN_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _UCM_PD_CONN_STATE enumeration
 
 
-
 ## -description
+
+
 Defines power delivery (PD) negotiation states of a Type-C port.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _UCM_PD_CONN_STATE { 
@@ -57,6 +67,9 @@ typedef enum _UCM_PD_CONN_STATE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field UcmPdConnStateInvalid
 
@@ -78,15 +91,10 @@ Indicates the PD negotiation failed.
 Indicates the PD negotiation succeeded.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorpdconnectionstatechanged.md">UcmConnectorPdConnectionStateChanged</a>
-</dt>
-</dl>
+
  
 
  

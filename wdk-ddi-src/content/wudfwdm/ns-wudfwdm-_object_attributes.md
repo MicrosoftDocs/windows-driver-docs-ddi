@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 08f5a141-abce-4890-867c-5fe8c4239905
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _OBJECT_ATTRIBUTES, OBJECT_ATTRIBUTES, *POBJECT_ATTRIBUTES
+ms.keywords: wudfwdm/OBJECT_ATTRIBUTES, kernel.object_attributes, OBJECT_ATTRIBUTES structure [Kernel-Mode Driver Architecture], POBJECT_ATTRIBUTES, _OBJECT_ATTRIBUTES, POBJECT_ATTRIBUTES structure pointer [Kernel-Mode Driver Architecture], *POBJECT_ATTRIBUTES, wudfwdm/POBJECT_ATTRIBUTES, kstruct_c_62b87332-0ef4-4c45-8c4f-0fc12d18582b.xml, OBJECT_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OBJECT_ATTRIBUTES
-req.alt-loc: wudfwdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wudfwdm.h
+apiname: 
+-	OBJECT_ATTRIBUTES
+product: Windows
+targetos: Windows
 req.typenames: OBJECT_ATTRIBUTES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _OBJECT_ATTRIBUTES structure
 
 
-
 ## -description
+
+
 The <b>OBJECT_ATTRIBUTES</b> structure specifies attributes that can be applied to objects or object handles by routines that create objects and/or return handles to objects.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _OBJECT_ATTRIBUTES {
@@ -59,6 +69,9 @@ typedef struct _OBJECT_ATTRIBUTES {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Length
 
@@ -78,7 +91,6 @@ Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">Unicode string</
 ### -field Attributes
 
 Bitmask of flags that specify object handle attributes. This member can contain one or more of the flags in the following table.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -176,8 +188,7 @@ Reserved.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field SecurityDescriptor
@@ -191,6 +202,8 @@ Optional quality of service to be applied to the object when it is created. Used
 
 
 ## -remarks
+
+
 Use the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> macro to initialize the members of the <b>OBJECT_ATTRIBUTES</b> structure. Note that <b>InitializeObjectAttributes</b> initializes the <b>SecurityQualityOfService</b> member to <b>NULL</b>. If you must specify a non-<b>NULL</b> value, set the <b>SecurityQualityOfService</b> member after initialization.
 
 To apply the attributes contained in this structure to an object or object handle, pass a pointer to this structure to a routine that accesses objects or returns object handles, such as <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> or <a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>.
@@ -200,39 +213,29 @@ All members of this structure are read-only. If a member of this structure is a 
 Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE flag for the <b>Attributes</b> member (by using the <b>InitializeObjectAttributes</b> macro). This restricts the use of a handle opened for that object to processes running only in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
+
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+<a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
+
+<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
+
  
 
  

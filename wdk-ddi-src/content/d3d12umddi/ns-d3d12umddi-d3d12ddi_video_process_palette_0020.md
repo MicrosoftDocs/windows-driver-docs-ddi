@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 25AA9012-64A1-4E61-956F-7F30CE0639EA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_PROCESS_PALETTE_0020, D3D12DDI_VIDEO_PROCESS_PALETTE_0020
+ms.keywords: d3d12umddi/D3D12DDI_VIDEO_PROCESS_PALETTE_0020, D3D12DDI_VIDEO_PROCESS_PALETTE_0020 structure [Display Devices], D3D12DDI_VIDEO_PROCESS_PALETTE_0020, display.d3d12ddi_video_process_palette
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_VIDEO_PROCESS_PALETTE_0020
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_VIDEO_PROCESS_PALETTE_0020
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_VIDEO_PROCESS_PALETTE_0020
 ---
 
 # D3D12DDI_VIDEO_PROCESS_PALETTE_0020 structure
 
 
-
 ## -description
+
+
 Specifies whether the palette is enabled and an array of palette entries. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDI_VIDEO_PROCESS_PALETTE_0020 {
@@ -55,6 +65,9 @@ typedef struct D3D12DDI_VIDEO_PROCESS_PALETTE_0020 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Enable
 
@@ -71,15 +84,10 @@ The number of elements in the <b>pEntries</b> array.
 A pointer to an array of palette entries. For RGB streams, the palette entries use the <b>DXGI_FORMAT_B8G8R8A8</b> representation. For YCbCr streams, the palette entries use the <b>DXGI_FORMAT_AYUV</b> representation. For more information, see the <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> enumeration. The caller allocates the array.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>
-</dt>
-</dl>
+
  
 
  

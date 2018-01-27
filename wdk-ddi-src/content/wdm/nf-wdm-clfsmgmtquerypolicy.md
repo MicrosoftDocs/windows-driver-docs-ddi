@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c9cc9124-ee15-40df-b149-a9f3b26d7c24
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsMgmtQueryPolicy
+ms.keywords: Clfs_management_6f3ccba5-05e5-4022-9849-220aeefbde77.xml, wdm/ClfsMgmtQueryPolicy, kernel.clfsmgmtquerypolicy, ClfsMgmtQueryPolicy routine [Kernel-Mode Driver Architecture], ClfsMgmtQueryPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ClfsMgmtQueryPolicy
-req.alt-loc: Clfs.sys,Ext-MS-Win-fs-clfs-l1-1-0.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Clfs.sys
+-	Ext-MS-Win-fs-clfs-l1-1-0.dll
+apiname: 
+-	ClfsMgmtQueryPolicy
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ClfsMgmtQueryPolicy function
 
 
-
 ## -description
+
+
 The <b>ClfsMgmtQueryPolicy</b> routine retrieves a specific <a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a> structure for a log.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ClfsMgmtQueryPolicy(
@@ -57,6 +68,9 @@ NTSTATUS ClfsMgmtQueryPolicy(
 
 
 ## -parameters
+
+
+
 
 ### -param LogFile [in]
 
@@ -79,46 +93,103 @@ The length of the <i>Policy</i> parameter.
 
 
 ## -returns
+
+
 The <b>ClfsMgmtQueryPolicy</b> routine returns one of the following NTSTATUS values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>CLFS management has retrieved the requested policy.
+</dl>
+</td>
+<td width="60%">
+CLFS management has retrieved the requested policy.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>CLFS management was not able to process the request.
+</dl>
+</td>
+<td width="60%">
+CLFS management was not able to process the request.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The value of the <i>PolicyType</i> parameter is not valid for the <b>CLFS_MGMT_POLICY_TYPE</b> enumeration.
+</dl>
+</td>
+<td width="60%">
+The value of the <i>PolicyType</i> parameter is not valid for the <b>CLFS_MGMT_POLICY_TYPE</b> enumeration.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER_1</b></dt>
-</dl>A <b>NULL</b> value was supplied for the <i>LogFile</i> parameter.
+</dl>
+</td>
+<td width="60%">
+A <b>NULL</b> value was supplied for the <i>LogFile</i> parameter.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER_2</b></dt>
-</dl>The value of the <i>PolicyLength</i> parameter is less than the size of an instance of the <b>CLFS_MGMT_POLICY</b> structure.
+</dl>
+</td>
+<td width="60%">
+The value of the <i>PolicyLength</i> parameter is less than the size of an instance of the <b>CLFS_MGMT_POLICY</b> structure.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>There is insufficient memory to complete the operation.
+</dl>
+</td>
+<td width="60%">
+There is insufficient memory to complete the operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_LOG_POLICY_NOT_INSTALLED</b></dt>
-</dl>No policy of this type has been registered for the log file.
+</dl>
+</td>
+<td width="60%">
+No policy of this type has been registered for the log file.
 
- 
+</td>
+</tr>
+</table> 
 
 This routine might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS Values</a>.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a>
+
  
 
  

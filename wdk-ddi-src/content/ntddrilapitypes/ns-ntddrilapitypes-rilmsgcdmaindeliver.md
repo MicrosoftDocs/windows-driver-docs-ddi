@@ -7,8 +7,8 @@ old-location: netvista\rilmsgcdmaindeliver.htm
 old-project: netvista
 ms.assetid: fdff17ac-2ffd-45b0-8f01-a21af1ffa9d0
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER, *LPRILMSGCDMAINDELIVER
+ms.date: 1/18/2018
+ms.keywords: *LPRILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILMSGCDMAINDELIVER, netvista.rilmsgcdmaindeliver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILMSGCDMAINDELIVER
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILMSGCDMAINDELIVER
+product: Windows
+targetos: Windows
 req.typenames: RILMSGCDMAINDELIVER, *LPRILMSGCDMAINDELIVER
 ---
 
 # RILMSGCDMAINDELIVER structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILMSGCDMAINDELIVER {
@@ -76,73 +86,97 @@ typedef struct _RILMSGCDMAINDELIVER {
 
 ## -struct-fields
 
+
+
+
 ### -field raOrigAddress
+
 
 
 ### -field rsaOrigSubaddr
 
 
+
 ### -field stSCReceiveTime
+
 
 
 ### -field stValidityPeriodAbs
 
 
+
 ### -field stValidityPeriodRel
+
 
 
 ### -field stDeferredDelTimeAbs
 
 
+
 ### -field stDeferredDelTimeRel
+
 
 
 ### -field dwNumMsgs
 
 
+
 ### -field raCallBackNumber
+
 
 
 ### -field dwMsgPriority
 
 
+
 ### -field dwAlertOnMsgDelivery
+
 
 
 ### -field dwMsgPrivacy
 
 
+
 ### -field bUserAckRequest
+
 
 
 ### -field dwMsgDisplayMode
 
 
+
 ### -field dwTeleservice
+
 
 
 ### -field dwServiceID
 
 
+
 ### -field dwMsgID
+
 
 
 ### -field dwMsgLang
 
 
+
 ### -field dwMsgEncoding
+
 
 
 ### -field cbHdrLength
 
 
+
 ### -field cchMsgLength
+
 
 
 ### -field rgbHdr
 
 
+
 ### -field rgbMsg
 
 
-## -remarks

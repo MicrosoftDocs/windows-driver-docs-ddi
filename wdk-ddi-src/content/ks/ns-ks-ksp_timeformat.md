@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 18ce5fc5-927c-4261-8966-bb12849b95c9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSP_TIMEFORMAT, *PKSP_TIMEFORMAT, KSP_TIMEFORMAT
+ms.keywords: PKSP_TIMEFORMAT structure pointer [Streaming Media Devices], *PKSP_TIMEFORMAT, ks/PKSP_TIMEFORMAT, KSP_TIMEFORMAT, stream.ksp_timeformat, ks/KSP_TIMEFORMAT, KSP_TIMEFORMAT structure [Streaming Media Devices], ks-struct_086a975b-f249-44e9-b1fa-4a945509722e.xml, PKSP_TIMEFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSP_TIMEFORMAT
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSP_TIMEFORMAT
+product: Windows
+targetos: Windows
 req.typenames: *PKSP_TIMEFORMAT, KSP_TIMEFORMAT
 ---
 
 # KSP_TIMEFORMAT structure
 
 
-
 ## -description
+
+
 The KSP_TIMEFORMAT structure corresponds to <a href="https://msdn.microsoft.com/library/windows/hardware/ff565181">KSPROPERTY_MEDIASEEKING_CONVERTTIMEFORMAT</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -56,6 +66,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Property
 
@@ -78,15 +91,16 @@ Specifies the time value to convert.
 
 
 ## -remarks
+
+
 The fields of the structure correspond one to one with DirectShow's IMediaSeeking::ConvertTimeFormat.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565181">KSPROPERTY_MEDIASEEKING_CONVERTTIMEFORMAT</a>
-</dt>
-</dl>
+
  
 
  

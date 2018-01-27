@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: d4d51366-4d04-47fe-8c44-09c9c6ccf35f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_DESCRIPTOR_REQUEST, *PUSB_DESCRIPTOR_REQUEST, USB_DESCRIPTOR_REQUEST
+ms.keywords: *PUSB_DESCRIPTOR_REQUEST, PUSB_DESCRIPTOR_REQUEST structure pointer [Buses], usbstrct_b5a96c38-53d8-4d08-849b-d6c8c4b69c72.xml, usbioctl/PUSB_DESCRIPTOR_REQUEST, PUSB_DESCRIPTOR_REQUEST, USB_DESCRIPTOR_REQUEST structure [Buses], _USB_DESCRIPTOR_REQUEST, buses.usb_descriptor_request, USB_DESCRIPTOR_REQUEST, usbioctl/USB_DESCRIPTOR_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_DESCRIPTOR_REQUEST
-req.alt-loc: usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-req.typenames: *PUSB_DESCRIPTOR_REQUEST, USB_DESCRIPTOR_REQUEST
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbioctl.h
+apiname: 
+-	USB_DESCRIPTOR_REQUEST
+product: Windows
+targetos: Windows
+req.typenames: USB_DESCRIPTOR_REQUEST, *PUSB_DESCRIPTOR_REQUEST
 req.product: Windows 10 or later.
 ---
 
 # _USB_DESCRIPTOR_REQUEST structure
 
 
-
 ## -description
+
+
 The <b>USB_DESCRIPTOR_REQUEST</b> structure is used with the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_descriptor_from_node_connection.md">IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</a> I/O control request to retrieve one or more descriptors for the device that is associated with the indicated connection index.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USB_DESCRIPTOR_REQUEST {
@@ -63,9 +73,7 @@ typedef struct _USB_DESCRIPTOR_REQUEST {
 
 ## -struct-fields
 
-### -field ConnectionIndex
 
-The port whose descriptors are retrieved.
 
 
 ### -field SetupPacket
@@ -73,20 +81,19 @@ The port whose descriptors are retrieved.
 The members of the <b>SetupPacket</b> structure are as follows:
 
 
-### -field bmRequest
+### -field SetupPacket.bmRequest
 
 The type of USB device request (standard, class, or vendor), the direction of the data transfer, and the type of data recipient (device, interface, or endpoint). On input to the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_descriptor_from_node_connection.md">IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</a> I/O control request, the USB stack ignores the value of <b>bmRequest</b> and inserts a value of 0x80. This value indicates a standard USB device request and a device-to-host data transfer. For more information about this member, see Universal Serial Bus Specification.
 
 
-### -field bRequest
+### -field SetupPacket.bRequest
 
 The request number. On input to the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_descriptor_from_node_connection.md">IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</a> I/O control request, the USB stack ignores the value of <b>bRequest</b> and inserts a value of 0x06. This value indicates a request of <b>GET_DESCRIPTOR</b>. For more information about this member see Universal Serial Bus Specification.
 
 
-### -field wValue
+### -field SetupPacket.wValue
 
 On input to the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_descriptor_from_node_connection.md">IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</a> I/O control request, the caller should specify the type of descriptor to retrieve in the high byte of <b>wValue</b> and the descriptor index in the low byte. The following table lists the possible descriptor types.
-
 <table>
 <tr>
 <th>Descriptor type</th>
@@ -142,21 +149,23 @@ Instructs the USB stack to return the indicated endpoint descriptor.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
-### -field wIndex
+### -field SetupPacket.wIndex
 
 The device-specific index of the descriptor that is to be retrieved. For more information about this member, see Universal Serial Bus Specification.
 
 
-### -field wLength
+### -field SetupPacket.wLength
 
 The length of the data that is transferred during the second phase of the control transfer. For more information about this member, see Universal Serial Bus Specification.
 
-</dd>
-</dl>
+
+### -field ConnectionIndex
+
+The port whose descriptors are retrieved.
+
 
 ### -field Data
 
@@ -164,18 +173,18 @@ On output from the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_descriptor_fro
 
 
 ## -remarks
+
+
 If the caller specifies a value of USB_CONFIGURATION_DESCRIPTOR_TYPE in the <b>wValue</b> member, the output buffer must be large enough to hold all of the descriptors that are associated with the current configuration, or the request will fail.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_descriptor_from_node_connection.md">IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_descriptor_from_node_connection.md">IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</a>
+
  
 
  

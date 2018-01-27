@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 71CDBF47-B32D-4084-B2F6-9F8C037FCB79
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_RESOURCE_ALLOCATION_INFO_0022, D3D12DDI_RESOURCE_ALLOCATION_INFO_0022
+ms.keywords: D3D12DDI_RESOURCE_ALLOCATION_INFO_0022 structure [Display Devices], display.d3d12ddi_resource_allocation_info_0022, d3d12umddi/D3D12DDI_RESOURCE_ALLOCATION_INFO_0022, D3D12DDI_RESOURCE_ALLOCATION_INFO_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_RESOURCE_ALLOCATION_INFO_0022
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_RESOURCE_ALLOCATION_INFO_0022
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_RESOURCE_ALLOCATION_INFO_0022
 ---
 
 # D3D12DDI_RESOURCE_ALLOCATION_INFO_0022 structure
 
 
-
 ## -description
+
+
 Specifies information for resource allocation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDI_RESOURCE_ALLOCATION_INFO_0022 {
@@ -62,14 +72,17 @@ typedef struct D3D12DDI_RESOURCE_ALLOCATION_INFO_0022 {
 
 ## -struct-fields
 
+
+
+
 ### -field ResourceDataSize
 
 The data size of  the resource. 
 
 
-### -field UINT64
+### -field AdditionalDataHeaderSize
 
-The additional size of the data header.
+ 
 
 
 ### -field AdditionalDataSize
@@ -107,15 +120,15 @@ The MIP level for a swizzle transition.
 The plane slice for a swizzle transition. 
 
 
-## -remarks
+#### - UINT64
+
+The additional size of the data header.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_texture_layout.md">D3D12DDI_TEXTURE_LAYOUT</a>
-</dt>
-</dl>
+
  
 
  

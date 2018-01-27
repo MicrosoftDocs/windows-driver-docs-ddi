@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B7E857ED-66FF-4A4D-849B-A15663106507
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_PPM_QUERY_COORDINATED_DEPENDENCY, *PPEP_PPM_QUERY_COORDINATED_DEPENDENCY, PEP_PPM_QUERY_COORDINATED_DEPENDENCY
+ms.keywords: PPEP_PPM_QUERY_COORDINATED_DEPENDENCY, pepfx/PPEP_PPM_QUERY_COORDINATED_DEPENDENCY, *PPEP_PPM_QUERY_COORDINATED_DEPENDENCY, PEP_PPM_QUERY_COORDINATED_DEPENDENCY, kernel.pep_ppm_query_coordinated_dependency, pepfx/PEP_PPM_QUERY_COORDINATED_DEPENDENCY, PPEP_PPM_QUERY_COORDINATED_DEPENDENCY structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_COORDINATED_DEPENDENCY, PEP_PPM_QUERY_COORDINATED_DEPENDENCY structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_PPM_QUERY_COORDINATED_DEPENDENCY
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_PPM_QUERY_COORDINATED_DEPENDENCY
+product: Windows
+targetos: Windows
 req.typenames: *PPEP_PPM_QUERY_COORDINATED_DEPENDENCY, PEP_PPM_QUERY_COORDINATED_DEPENDENCY
 ---
 
 # _PEP_PPM_QUERY_COORDINATED_DEPENDENCY structure
 
 
-
 ## -description
+
+
 The <b>PEP_PPM_QUERY_COORDINATED_DEPENDENCY</b> structure describes dependencies for coordinated idle states.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_PPM_QUERY_COORDINATED_DEPENDENCY {
@@ -58,6 +68,9 @@ typedef struct _PEP_PPM_QUERY_COORDINATED_DEPENDENCY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field StateIndex
 
@@ -89,18 +102,12 @@ typedef struct _PEP_PPM_QUERY_COORDINATED_DEPENDENCY {
 [out] A list of <a href="..\pepfx\ns-pepfx-_pep_coordinated_dependency_option.md">PEP_COORDINATED_DEPENDENCY_OPTION</a> structures describing dependency options, one of which must be satisfied for this coordinated state to be entered.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186775">PEP_NOTIFY_PPM_QUERY_COORDINATED_DEPENDENCY notification</a>
-</dt>
-<dt>
+
 <a href="..\pepfx\ns-pepfx-_pep_coordinated_dependency_option.md">PEP_COORDINATED_DEPENDENCY_OPTION</a>
-</dt>
-</dl>
+
  
 
  

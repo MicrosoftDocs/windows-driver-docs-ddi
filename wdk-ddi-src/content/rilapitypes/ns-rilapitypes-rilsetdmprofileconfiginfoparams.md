@@ -7,8 +7,8 @@ old-location: netvista\rilsetdmprofileconfiginfoparams_2.htm
 old-project: netvista
 ms.assetid: 99513338-a908-4ff7-8fd6-f4224fbdc04f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSETDMPROFILECONFIGINFOPARAMS, RILSETDMPROFILECONFIGINFOPARAMS, *LPRILSETDMPROFILECONFIGINFOPARAMS
+ms.date: 1/18/2018
+ms.keywords: netvista.rilsetdmprofileconfiginfoparams_2, RILSETDMPROFILECONFIGINFOPARAMS, rilapitypes/RILSETDMPROFILECONFIGINFOPARAMS, RILSETDMPROFILECONFIGINFOPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSETDMPROFILECONFIGINFOPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSETDMPROFILECONFIGINFOPARAMS
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILSETDMPROFILECONFIGINFOPARAMS, *LPRILSETDMPROFILECONFIGINFOPARAMS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILSETDMPROFILECONFIGINFOPARAMS
+product: Windows
+targetos: Windows
+req.typenames: *LPRILSETDMPROFILECONFIGINFOPARAMS, RILSETDMPROFILECONFIGINFOPARAMS
 req.product: Windows 10 or later.
 ---
 
 # RILSETDMPROFILECONFIGINFOPARAMS structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILSETDMPROFILECONFIGINFOPARAMS {
@@ -57,13 +67,17 @@ typedef struct _RILSETDMPROFILECONFIGINFOPARAMS {
 
 ## -struct-fields
 
+
+
+
 ### -field dwExecutor
+
 
 
 ### -field dwConfigItem
 
 
+
 ### -field rciValue
 
 
-## -remarks

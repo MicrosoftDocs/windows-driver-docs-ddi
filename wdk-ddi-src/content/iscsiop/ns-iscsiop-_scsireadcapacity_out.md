@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3330379f-e484-4fd7-b914-fc969398b56b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ScsiReadCapacity_OUT, *PScsiReadCapacity_OUT, ScsiReadCapacity_OUT
+ms.keywords: PScsiReadCapacity_OUT structure pointer [Storage Devices], *PScsiReadCapacity_OUT, ScsiReadCapacity_OUT, iscsiop/ScsiReadCapacity_OUT, ScsiReadCapacity_OUT structure [Storage Devices], _ScsiReadCapacity_OUT, storage.scsireadcapacity_out, PScsiReadCapacity_OUT, structs-iSCSI_48750b99-26df-4890-b906-fa487efc3797.xml, iscsiop/PScsiReadCapacity_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ScsiReadCapacity_OUT
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PScsiReadCapacity_OUT, ScsiReadCapacity_OUT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	ScsiReadCapacity_OUT
+product: Windows
+targetos: Windows
+req.typenames: ScsiReadCapacity_OUT, *PScsiReadCapacity_OUT
 ---
 
 # _ScsiReadCapacity_OUT structure
 
 
-
 ## -description
+
+
 The ScsiReadCapacity_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a> method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ScsiReadCapacity_OUT {
@@ -57,6 +67,9 @@ typedef struct _ScsiReadCapacity_OUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Status
 
@@ -84,21 +97,20 @@ A buffer that holds the response data that the SCSI READ CAPACITY command receiv
 
 
 ## -remarks
+
+
 You must implement this method.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-</dt>
-<dt>
+
+<a href="..\iscsiop\ns-iscsiop-_scsireadcapacity_in.md">ScsiReadCapacity_IN</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
-</dt>
-<dt>
-<a href="..\hbapiwmi\ns-hbapiwmi-_scsireadcapacity_in.md">ScsiReadCapacity_IN</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
  
 
  

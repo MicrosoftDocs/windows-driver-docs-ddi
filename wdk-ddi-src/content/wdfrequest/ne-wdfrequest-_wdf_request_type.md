@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 91c036a0-7fce-4c7d-a217-eb1c487a15d0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_REQUEST_TYPE, WDF_REQUEST_TYPE
+ms.keywords: WdfRequestTypeCreate, wdfrequest/WdfRequestTypeUsb, WdfRequestTypeOther, wdfrequest/WdfRequestTypeCreate, WdfRequestTypeQueryQuota, wdfrequest/WdfRequestTypeDeviceChange, wdfrequest/WdfRequestTypeQuerySecurity, wdfrequest/WdfRequestTypeQueryInformation, wdfrequest/WdfRequestTypeSetEA, WdfRequestTypeDeviceChange, wdfrequest/WdfRequestTypeDeviceControlInternal, WdfRequestTypeUsb, wdfrequest/WdfRequestTypeSystemControl, wdfrequest/WdfRequestTypeSetSecurity, wdfrequest/WdfRequestTypeSetQuota, wdfrequest/WdfRequestTypeWrite, WdfRequestTypeSetQuota, wdfrequest/WdfRequestTypeQueryEA, wdfrequest/WdfRequestTypeLockControl, WdfRequestTypeWrite, wdfrequest/WdfRequestTypeFlushBuffers, WdfRequestTypeDirectoryControl, wdfrequest/WdfRequestTypeCleanup, wdfrequest/WdfRequestTypeNoFormat, WdfRequestTypeShutdown, wdfrequest/WdfRequestTypeQueryVolumeInformation, wdfrequest/WdfRequestTypePower, WDF_REQUEST_TYPE, WdfRequestTypeSetVolumeInformation, wdfrequest/WdfRequestTypeCreateMailSlot, WdfRequestTypeSystemControl, _WDF_REQUEST_TYPE, WdfRequestTypeDeviceControl, wdfrequest/WdfRequestTypePnp, WdfRequestTypeCleanup, kmdf.wdf_request_type, WdfRequestTypeDeviceControlInternal, WdfRequestTypeClose, WdfRequestTypeSetSecurity, WdfRequestTypeQueryInformation, WdfRequestTypeFileSystemControl, WdfRequestTypeQueryVolumeInformation, wdfrequest/WdfRequestTypeDeviceControl, WdfRequestTypeSetInformation, wdfrequest/WdfRequestTypeFileSystemControl, DFRequestObjectRef_43f31fe0-45c1-45d2-adcc-d0d931327eeb.xml, wdfrequest/WdfRequestTypeCreateNamedPipe, wdfrequest/WdfRequestTypeRead, WdfRequestTypeCreateMailSlot, WdfRequestTypePnp, wdfrequest/WdfRequestTypeSetInformation, wdf.wdf_request_type, wdfrequest/WdfRequestTypeClose, wdfrequest/WdfRequestTypeDirectoryControl, WdfRequestTypeMax, wdfrequest/WDF_REQUEST_TYPE, WdfRequestTypeRead, WdfRequestTypeQueryEA, wdfrequest/WdfRequestTypeSetVolumeInformation, WDF_REQUEST_TYPE enumeration, wdfrequest/WdfRequestTypeShutdown, wdfrequest/WdfRequestTypeMax, WdfRequestTypeCreateNamedPipe, wdfrequest/WdfRequestTypeOther, WdfRequestTypePower, WdfRequestTypeLockControl, WdfRequestTypeQuerySecurity, wdfrequest/WdfRequestTypeQueryQuota, WdfRequestTypeNoFormat, WdfRequestTypeFlushBuffers, WdfRequestTypeSetEA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_REQUEST_TYPE
-req.alt-loc: wdfrequest.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfrequest.h
+apiname: 
+-	WDF_REQUEST_TYPE
+product: Windows
+targetos: Windows
 req.typenames: WDF_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_REQUEST_TYPE enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_REQUEST_TYPE</b> enumeration type identifies types of requests that a framework request object might contain.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_REQUEST_TYPE { 
@@ -87,6 +97,9 @@ typedef enum _WDF_REQUEST_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WdfRequestTypeCreate
 
@@ -200,7 +213,7 @@ The request object represents an <a href="https://msdn.microsoft.com/library/win
 
 ### -field WdfRequestTypePower
 
-The request object represents an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550784">IRP_MJ_POWER</a> request. The framework handles this type of request for the driver, but the framework also calls the driver's <a href="wdf_device_object_reference.htm#device_callbacks">general</a>, <a href="wdf_device_object_reference.htm#fdo_callbacks">FDO</a>, and <a href="wdf_device_object_reference.htm#pdo_callbacks">PDO</a> callback functions for Plug and Play (PnP) and power management, if the callback functions exist.
+The request object represents an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550784">IRP_MJ_POWER</a> request. The framework handles this type of request for the driver, but the framework also calls the driver's <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn265631">general</a>, <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn265631">FDO</a>, and <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn265631">PDO</a> callback functions for Plug and Play (PnP) and power management, if the callback functions exist.
 
 
 ### -field WdfRequestTypeSystemControl
@@ -225,7 +238,7 @@ The request object represents an <a href="https://msdn.microsoft.com/library/win
 
 ### -field WdfRequestTypePnp
 
-The request object represents an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549268">IRP_MJ_PNP</a> request. The framework handles this type of request for the driver, but the framework also calls the driver's <a href="wdf_device_object_reference.htm#device_callbacks">general</a>, <a href="wdf_device_object_reference.htm#fdo_callbacks">FDO</a>, and <a href="wdf_device_object_reference.htm#pdo_callbacks">PDO</a> callback functions for PnP and power management, if the callback functions exist.
+The request object represents an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549268">IRP_MJ_PNP</a> request. The framework handles this type of request for the driver, but the framework also calls the driver's <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn265631">general</a>, <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn265631">FDO</a>, and <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn265631">PDO</a> callback functions for PnP and power management, if the callback functions exist.
 
 
 ### -field WdfRequestTypeOther
@@ -249,6 +262,8 @@ The maximum value that has been assigned to a valid IRP major function code.
 
 
 ## -remarks
+
+
 The <b>WDF_REQUEST_TYPE</b> enumeration type is used in the <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a> and <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a> structures.
 
 For information about how a framework-based driver can handle request types that the framework does not support, see <a href="https://msdn.microsoft.com/0481f335-f63b-4f93-8eb4-523a70082302">Handling an IRP that the Framework Does Not Support</a>.
@@ -256,21 +271,17 @@ For information about how a framework-based driver can handle request types that
 For the UMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE (UMDF)</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_file_create.md">EvtDeviceFileCreate</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/365e669b-b4a1-432a-ab0c-9292a910256e">EvtDeviceShutdownNotification</a>
-</dt>
-<dt>
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_cleanup.md">EvtFileCleanup</a>
-</dt>
-<dt>
+
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_close.md">EvtFileClose</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/365e669b-b4a1-432a-ab0c-9292a910256e">EvtDeviceShutdownNotification</a>
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_file_create.md">EvtDeviceFileCreate</a>
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_cleanup.md">EvtFileCleanup</a>
+
  
 
  

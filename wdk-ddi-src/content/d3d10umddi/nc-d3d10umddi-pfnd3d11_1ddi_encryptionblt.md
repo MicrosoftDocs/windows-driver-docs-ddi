@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ea6f1b8c-d65a-4d6d-a7ae-998374bf5bfb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.encryptionblt1, EncryptionBlt callback function [Display Devices], EncryptionBlt, PFND3D11_1DDI_ENCRYPTIONBLT, PFND3D11_1DDI_ENCRYPTIONBLT, d3d10umddi/EncryptionBlt, display.pfnencryptionblt1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: EncryptionBlt
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	EncryptionBlt
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_ENCRYPTIONBLT callback
 
 
-
 ## -description
+
+
 Reads encrypted data from a protected surface.
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11_1DDI_ENCRYPTIONBLT EncryptionBlt;
@@ -61,6 +71,9 @@ VOID APIENTRY* EncryptionBlt(
 
 
 ## -parameters
+
+
+
 
 ### -param hDevice [in]
 
@@ -91,60 +104,80 @@ A pointer to the resource where the encrypted data is to be written.
 The size, in bytes, of the initialization vector (IV).
 
 
-### -param pIV [in]
+### -param *pIV
+
+
+
+
+
+
+#### - pIV [in]
 
 A pointer to a block of memory that contains the initialization vector that is required to encrypt the bitblt data. For more information, see the Remarks section.
-
 <div class="alert"><b>Note</b>  <p class="note">If <i>pIV</i> is NULL, the graphics adapter does not require a separate initialization vector to encrypt the data. That is, the session key is used to encrypt the data. 
 
 
-</div>
-<div> </div>
+</div><div> </div>
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 This function has the following limitations:
 
 
-
+<ul>
+<li>
 The function cannot read back subrectangles or partially encrypted surfaces. 
 
 
+</li>
+<li>
 The function cannot read back partially encrypted buffers. Many hardware-based encryption solutions will not allow nonencrypted reads from protected memory.
 
+</li>
+<li>
 The protected surface must be either an off-screen plain surface or a render target. 
 
 
+</li>
+<li>
 The destination surface must be a system-memory surface that was created by using the proper alignment, as described earlier. 
 
 
+</li>
+<li>
 The protected surface cannot be multisampled. 
 
 
+</li>
+<li>
 The function does not support stretching or color space conversion. 
 
 
-For 128-bit AES-CTR encryption, the <i>pIV</i> parameter points to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md">D3D11_1DDI_AES_CTR_IV</a> structure that is allocated by the application. However, the actual contents of this structure are filled in by the driver or graphics adapter.  When the first IV is generated, the driver or adapter  initializes the <b>IV</b> member of this structure to a random number. For each subsequent IV, the caller increments the <b>IV</b> member, ensuring that the value always increases. This procedure enables the application to validate that the same IV is never used more than once with the same key pair.
+</li>
+</ul>For 128-bit AES-CTR encryption, the <i>pIV</i> parameter points to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md">D3D11_1DDI_AES_CTR_IV</a> structure that is allocated by the application. However, the actual contents of this structure are filled in by the driver or graphics adapter.  When the first IV is generated, the driver or adapter  initializes the <b>IV</b> member of this structure to a random number. For each subsequent IV, the caller increments the <b>IV</b> member, ensuring that the value always increases. This procedure enables the application to validate that the same IV is never used more than once with the same key pair.
 
 
 
 For other encryption types, a different structure might be used, or the encryption might not use an IV.
 
 
+<div class="alert"><b>Note</b>  This function does not honor a Direct3D version 11 predicate that may have been set.</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md">D3D11_1DDI_AES_CTR_IV</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md">D3D11_1DDI_AES_CTR_IV</a>
+
  
 
  

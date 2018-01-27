@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2dec9594-727e-44e6-8be8-2416ea77e447
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _PingIPAddress_IN, *PPingIPAddress_IN, PingIPAddress_IN
+ms.keywords: _PingIPAddress_IN, iscsimgt/PPingIPAddress_IN, PPingIPAddress_IN structure pointer [Storage Devices], storage.pingipaddress_in, PingIPAddress_IN, *PPingIPAddress_IN, structs-iSCSI_4b2a763e-bb28-4132-9f29-08377e81dd82.xml, PingIPAddress_IN structure [Storage Devices], PPingIPAddress_IN, iscsimgt/PingIPAddress_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PingIPAddress_IN
-req.alt-loc: iscsimgt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsimgt.h
+apiname: 
+-	PingIPAddress_IN
+product: Windows
+targetos: Windows
 req.typenames: *PPingIPAddress_IN, PingIPAddress_IN
 ---
 
 # _PingIPAddress_IN structure
 
 
-
 ## -description
+
+
 The PingIPAddress_IN structure holds the input data for the PingIPAddress method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PingIPAddress_IN {
@@ -56,6 +66,9 @@ typedef struct _PingIPAddress_IN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field RequestCount
 
@@ -78,15 +91,16 @@ The IP address to which the ping request must be sent. The IP address is provide
 
 
 ## -remarks
+
+
 We recommend that you implement this class.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
-</dt>
-</dl>
+
  
 
  

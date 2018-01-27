@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 56C94717-41FF-44AA-BC99-1ECE4A407A38
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT
+ms.keywords: SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT, sensorsdef/SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT, SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT function [Sensor Devices], sensors.sensor_collection_list_calculate_max_count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT
-req.alt-loc: Sensorsdef.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Sensorsdef.h
+apiname: 
+-	SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT
+product: Windows
+targetos: Windows
 req.typenames: SENSOR_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT function
 
 
-
 ## -description
+
+
 This function calculates the number of <a href="..\sensorsdef\ns-sensorsdef-sensor_value_pair.md">SENSOR_VALUE_PAIR</a> elements in a <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE ULONG SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT(
@@ -55,27 +65,27 @@ FORCEINLINE ULONG SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT(
 
 ## -parameters
 
+
+
+
 ### -param pCollectionList [in]
 
 A pointer to a <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a> structure.
 
 
 ## -returns
+
+
 The <b>SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT</b> function returns a ULONG value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>
-</dt>
-<dt>
+
 <a href="..\sensorsdef\ns-sensorsdef-sensor_value_pair.md">SENSOR_VALUE_PAIR</a>
-</dt>
-</dl>
+
+<a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>
+
  
 
  

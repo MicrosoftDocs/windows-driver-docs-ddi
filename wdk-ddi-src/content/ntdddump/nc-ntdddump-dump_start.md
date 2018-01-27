@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a315f51f-069a-4c3d-bedc-2378b0996022
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _VERIFY_INFORMATION, VERIFY_INFORMATION, *PVERIFY_INFORMATION
+ms.keywords: storage.dump_start, Dump_Start routine [Storage Devices], Dump_Start, PDUMP_START, PDUMP_START, ntdddump/Dump_Start, filter_rtns_071f1e6c-9471-47ef-bf40-6429a798b792.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista and Windows Se
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: Dump_Start
-req.alt-loc: ntdddump.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ntdddump.h
+apiname: 
+-	Dump_Start
+product: Windows
+targetos: Windows
+req.typenames: *PVERIFY_INFORMATION, VERIFY_INFORMATION
 ---
 
 # DUMP_START callback
 
 
-
 ## -description
+
+
 The <i>Dump_Start</i> callback routine is called after initializing the dump driver and just before starting the dump write process.
 
 
-
 ## -prototype
+
 
 ````
 PDUMP_START Dump_Start;
@@ -57,24 +67,25 @@ NTSTATUS Dump_Start(
 
 ## -parameters
 
+
+
+
 ### -param FilterExtension [in]
 
 A pointer to a <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a> structure.
 
 
 ## -returns
+
+
 If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must return one of the error status values that are defined in <i>Ntstatus.h</i>.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
-</dt>
-</dl>
+
  
 
  

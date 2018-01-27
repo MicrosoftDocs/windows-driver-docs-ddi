@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 96a35574-87dc-4a2f-aaef-616096839f3f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcUnpinRepinnedBcb
+ms.keywords: ccref_72300deb-bf8a-4f2a-b594-69ccb01cff56.xml, CcUnpinRepinnedBcb, ntifs/CcUnpinRepinnedBcb, ifsk.ccunpinrepinnedbcb, CcUnpinRepinnedBcb routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcUnpinRepinnedBcb
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcUnpinRepinnedBcb
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcUnpinRepinnedBcb function
 
 
-
 ## -description
+
+
 The <b>CcUnpinRepinnedBcb</b> routine unpins a repinned buffer control block (BCB).
 
 
-
 ## -syntax
+
 
 ````
 VOID CcUnpinRepinnedBcb(
@@ -55,6 +65,9 @@ VOID CcUnpinRepinnedBcb(
 
 
 ## -parameters
+
+
+
 
 ### -param Bcb [in]
 
@@ -72,10 +85,15 @@ Pointer to an IO_STATUS_BLOCK structure. If the call to <b>CcUnpinRepinnedBcb</b
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 File systems call <b>CcUnpinRepinnedBcb</b> to write a previously pinned buffer through to disk.
 
 Every call to <a href="..\ntifs\nf-ntifs-ccrepinbcb.md">CcRepinBcb</a> must be matched by a subsequent call to <b>CcUnpinRepinnedBcb</b>.
@@ -85,12 +103,11 @@ Because <b>CcUnpinRepinnedBcb</b> acquires the BCB resource exclusively, the cal
 <b>CcUnpinRepinnedBcb</b> synchronously writes the buffer (for write-through requests) and unpins the BCB repinned by the earlier call to <a href="..\ntifs\nf-ntifs-ccrepinbcb.md">CcRepinBcb</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccrepinbcb.md">CcRepinBcb</a>
-</dt>
-</dl>
+
  
 
  

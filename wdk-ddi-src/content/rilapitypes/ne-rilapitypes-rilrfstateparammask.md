@@ -7,8 +7,8 @@ old-location: netvista\rilrfstateparammask_2.htm
 old-project: netvista
 ms.assetid: 075c61aa-b091-4616-810b-f39ad40d2777
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILRFSTATEPARAMMASK, RILRFSTATEPARAMMASK
+ms.date: 1/18/2018
+ms.keywords: RIL_PARAM_RFSTATE_RFDATASIZE, rilapitypes/RIL_PARAM_RFSTATE_RFDATA, RIL_PARAM_RFSTATE_ALL, RILRFSTATEPARAMMASK, rilapitypes/RIL_PARAM_RFSTATE_RFSTATE, RILRFSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilrfstateparammask_2, RIL_PARAM_RFSTATE_RFDATA, rilapitypes/RIL_PARAM_RFSTATE_RFDATASIZE, rilapitypes/RILRFSTATEPARAMMASK, rilapitypes/RIL_PARAM_RFSTATE_ALL, RIL_PARAM_RFSTATE_RFSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILRFSTATEPARAMMASK
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILRFSTATEPARAMMASK
+product: Windows
+targetos: Windows
 req.typenames: RILRFSTATEPARAMMASK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILRFSTATEPARAMMASK enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILRFSTATEPARAMMASK { 
@@ -58,16 +68,25 @@ typedef enum _RILRFSTATEPARAMMASK {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_PARAM_RFSTATE_NONE
+
+
+
 ### -field RIL_PARAM_RFSTATE_RFSTATE
+
 
 
 ### -field RIL_PARAM_RFSTATE_RFDATASIZE
 
 
+
 ### -field RIL_PARAM_RFSTATE_RFDATA
+
 
 
 ### -field RIL_PARAM_RFSTATE_ALL
 
 
-## -remarks

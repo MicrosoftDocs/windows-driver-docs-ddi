@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d9bf6c47-b7ce-413d-8871-4d9d68e27715
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_USB_CONTINUOUS_READER_CONFIG_INIT
+ms.keywords: wdf.wdf_usb_continuous_reader_config_init, WDF_USB_CONTINUOUS_READER_CONFIG_INIT function, wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG_INIT, kmdf.wdf_usb_continuous_reader_config_init, WDF_USB_CONTINUOUS_READER_CONFIG_INIT, DFUsbRef_a179cacd-e450-4a53-93e7-4eb3a59fc605.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_USB_CONTINUOUS_READER_CONFIG_INIT
-req.alt-loc: wdfusb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfusb.h
+apiname: 
+-	WDF_USB_CONTINUOUS_READER_CONFIG_INIT
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # WDF_USB_CONTINUOUS_READER_CONFIG_INIT function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_USB_CONTINUOUS_READER_CONFIG_INIT</b> function initializes a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_continuous_reader_config.md">WDF_USB_CONTINUOUS_READER_CONFIG</a> structure. 
 
 
-
 ## -syntax
+
 
 ````
 VOID WDF_USB_CONTINUOUS_READER_CONFIG_INIT(
@@ -59,6 +69,9 @@ VOID WDF_USB_CONTINUOUS_READER_CONFIG_INIT(
 
 
 ## -parameters
+
+
+
 
 ### -param Config [out]
 
@@ -81,10 +94,15 @@ The maximum length, in bytes, of data that can be received from the device.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The <b>WDF_USB_CONTINUOUS_READER_CONFIG_INIT</b> function zeros the specified <a href="..\wdfusb\ns-wdfusb-_wdf_usb_continuous_reader_config.md">WDF_USB_CONTINUOUS_READER_CONFIG</a> structure and sets the structure's <b>Size</b> member. It also sets the structure's <b>EvtUsbTargetPipeReadComplete</b>, <b>EvtUsbTargetPipeReadCompleteContext</b>, and <b>TransferLength</b> members to the specified values.
 
   Note that <b>WDF_USB_CONTINUOUS_READER_CONFIG_INIT</b> does <i>not</i> set the structure's <b>EvtUsbTargetPipeReadersFailed</b> member.
@@ -94,15 +112,13 @@ The <b>WDF_USB_CONTINUOUS_READER_CONFIG_INIT</b> function zeros the specified <a
 For a code example that uses <b>WDF_USB_CONTINUOUS_READER_CONFIG_INIT</b>, see <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeconfigcontinuousreader.md">WdfUsbTargetPipeConfigContinuousReader</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_reader_completion_routine.md">EvtUsbTargetPipeReadComplete</a>
-</dt>
-<dt>
+
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_continuous_reader_config.md">WDF_USB_CONTINUOUS_READER_CONFIG</a>
-</dt>
-</dl>
+
+<a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_reader_completion_routine.md">EvtUsbTargetPipeReadComplete</a>
+
  
 
  

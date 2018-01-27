@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5E66A522-BC1C-4E7C-8732-87D40F99BBDA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.pfnevictcb, pfnEvictCb callback function [Display Devices], pfnEvictCb, PFND3DDDI_EVICTCB, PFND3DDDI_EVICTCB, d3dumddi/pfnEvictCb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnEvictCb
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	pfnEvictCb
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_EVICTCB callback
 
 
-
 ## -description
+
+
 <b>pfnEvictCb</b> is used to instruct the OS to decrement the residency reference count. Once this count reaches zero, it will remove the allocation from the device residency list.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_EVICTCB pfnEvictCb;
@@ -58,12 +68,22 @@ HRESULT APIENTRY CALLBACK* pfnEvictCb(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
 A handle to the display device.
 
 
-### -param pData [in, out]
+### -param *
+
+
+
+
+
+
+#### - pData [in, out]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddicb_evict.md">D3DDDICB_EVICT</a> structure that describes the memory pages to evict.
 
@@ -71,19 +91,23 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddicb_evict.md">D3DDDICB_EVIC
 
 
 ## -returns
+
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
+
 ## -remarks
+
+
 Once the eviction request is queued, it is illegal to access the underlying allocation as the allocation may be evicted at anytime from there on at the operating system discretion.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-d3dddicb_evict.md">D3DDDICB_EVICT</a>
-</dt>
-</dl>
+
  
 
  

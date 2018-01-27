@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 999820D0-FDEB-49FD-920A-75FD9886492A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_GPUMMUCAPS, DXGK_GPUMMUCAPS
+ms.keywords: DXGK_GPUMMUCAPS, DXGK_GPUMMUCAPS structure [Display Devices], _DXGK_GPUMMUCAPS, display.dxgk_gpummucaps, d3dkmddi/DXGK_GPUMMUCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_GPUMMUCAPS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_GPUMMUCAPS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_GPUMMUCAPS
 ---
 
 # _DXGK_GPUMMUCAPS structure
 
 
-
 ## -description
+
+
 The <b>DXGK_GPUMMUCAPS</b> structure is used by the kernel mode driver to express virtual memory addressing capabilities.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_GPUMMUCAPS {
@@ -77,6 +87,23 @@ typedef struct _DXGK_GPUMMUCAPS {
 
 ## -struct-fields
 
+
+
+
+### -field LegacyBehaviors
+
+
+
+### -field LegacyBehaviors.SourcePageTableVaInTransfer
+
+When set to 1, video memory manager sets <b>SourcePageTable</b> address in <b>TransferVirtual</b> during allocation eviction.
+
+
+### -field LegacyBehaviors.Reserved
+
+ 
+
+
 ### -field ReadOnlyMemorySupported
 
 When set to 1, the driver supports read-only protection on memory pages.
@@ -96,9 +123,7 @@ When set to 1, the GPU supports the <i>Zero DXGK_PTE</i> flag. This applies to a
 
 This flag indicates that all entries of a page table or page directory should be put into an invalid state explicitly, through <b>UpdatePageTable</b> before being freed. By default the video memory manager may free a page table, which contain previously valid entries, if these entries are no longer needed (ex. freeing a large GPU virtual address range resulting in the destruction of underlying page tables).
 
-
-<div class="alert"><b>Note</b>  This flags is typically used by a software driver that needs to emulate page table and need to keep track of information on a per page table entry basis and require a clear init/deinit pair for all page table entry updates.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  This flags is typically used by a software driver that needs to emulate page table and need to keep track of information on a per page table entry basis and require a clear init/deinit pair for all page table entry updates.</div><div> </div>
 
 ### -field CacheCoherentMemorySupported
 
@@ -123,6 +148,11 @@ When set to 1, the GPU supports two pointers to page tables in the level one pag
 ### -field AllowNonAlignedLargePageAddress
 
 When set to 1, the Operating System is able to set the <b>LargePage</b> flag when the physical address of the large page entry is not aligned to the leaf page table coverage.
+
+
+### -field SysMem64KBPageSupported
+
+ 
 
 
 ### -field Reserved
@@ -156,15 +186,3 @@ The number of page table levels supported. The minimum value is 2 (defined as <b
 
 When <b>PageTableLevelCount</b> is 2, the root page table is dynamically resizable and the size of the page table is determined through <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getrootpagetablesize.md">DxgkDdiGetRootPageTableSize</a>. When <b>PageTableLevelCount</b> is greater than 2, all page table levels have a fixed size, which is described through <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_page_table_level_desc.md">DXGK_PAGE_TABLE_LEVEL_DESC</a><b>::PageTableSizeInBytes</b>.
 
-
-### -field LegacyBehaviors
-
-
-### -field SourcePageTableVaInTransfer
-
-When set to 1, video memory manager sets <b>SourcePageTable</b> address in <b>TransferVirtual</b> during allocation eviction.
-
-</dd>
-</dl>
-
-## -remarks

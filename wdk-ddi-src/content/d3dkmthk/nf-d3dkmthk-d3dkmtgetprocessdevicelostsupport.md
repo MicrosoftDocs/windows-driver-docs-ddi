@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7127b6ff-164b-4645-a602-3969f87a47d0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTGetProcessDeviceLostSupport
+ms.keywords: D3DKMTGetProcessDeviceLostSupport method [Display Devices], D3DKMTGetProcessDeviceLostSupport, display.d3dkmtgetprocessdevicelostsupport, d3dkmthk/D3DKMTGetProcessDeviceLostSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTGetProcessDeviceLostSupport
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,24 +26,36 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMTGetProcessDeviceLostSupport
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTGetProcessDeviceLostSupport function
 
 
-
 ## -description
+
+
 
 			
             Used to get the indicated process.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS  D3DKMTGetProcessDeviceLostSupport(
@@ -56,14 +66,19 @@ NTSTATUS  D3DKMTGetProcessDeviceLostSupport(
 
 ## -parameters
 
-### -param D3dkmt_getprocessdevicelostsupport [in, out]
+
+
+
+
+#### - D3dkmt_getprocessdevicelostsupport [in, out]
 
 Holds information to get the indicated process.
 
 
 ## -returns
 
+
+
 Returns STATUS_SUCCESS if completed successfully.
 
 
-## -remarks

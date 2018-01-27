@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 53C8A5D4-4D8B-4D3E-A350-B3BBAC7F8C71
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STOR_ADDR_BTL8, *PSTOR_ADDR_BTL8, STOR_ADDR_BTL8
+ms.keywords: storport/PSTOR_ADDR_BTL8, storage.stor_addr_btl8, PSTOR_ADDR_BTL8 structure pointer [Storage Devices], PSTOR_ADDR_BTL8, STOR_ADDR_BTL8, STOR_ADDR_BTL8 structure [Storage Devices], *PSTOR_ADDR_BTL8, _STOR_ADDR_BTL8, storport/STOR_ADDR_BTL8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STOR_ADDR_BTL8
-req.alt-loc: Storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Storport.h
+apiname: 
+-	STOR_ADDR_BTL8
+product: Windows
+targetos: Windows
 req.typenames: *PSTOR_ADDR_BTL8, STOR_ADDR_BTL8
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _STOR_ADDR_BTL8 structure
 
 
-
 ## -description
+
+
 
    The <b>STOR_ADDR_BTL8</b> address structure contains the addressing information for an 8-bit Bus-Target-LUN (BTL8) address.
   
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STOR_ADDR_BTL8 {
@@ -62,6 +72,9 @@ typedef struct _STOR_ADDR_BTL8 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Type
 
@@ -98,15 +111,10 @@ The logical unit on the target device.
 Reserved, set to 0.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a>
-</dt>
-</dl>
+
+<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
+
  
 
  

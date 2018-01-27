@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 067eeba4-2914-4616-98c8-f163cbe5fae2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.destroycryptosession1, pfnDestroyCryptoSession callback function [Display Devices], pfnDestroyCryptoSession, PFND3D11_1DDI_DESTROYCRYPTOSESSION, PFND3D11_1DDI_DESTROYCRYPTOSESSION, d3d10umddi/pfnDestroyCryptoSession, display.pfndestroycryptosession1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnDestroyCryptoSession
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	pfnDestroyCryptoSession
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_DESTROYCRYPTOSESSION callback
 
 
-
 ## -description
+
+
 Releases resources for the cryptographic session that were created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function.
 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11_1DDI_DESTROYCRYPTOSESSION pfnDestroyCryptoSession;
@@ -59,6 +69,9 @@ VOID APIENTRY* pfnDestroyCryptoSession(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
 A handle to the display device (graphics context).
@@ -72,7 +85,8 @@ A handle to the driver's private data for the cryptographic session. This handle
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
-## -remarks

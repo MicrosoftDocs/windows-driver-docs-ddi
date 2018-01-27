@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2CE40805-D530-47EF-B251-DB3878208504
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.pfnd3dwddm2_2ddi_shadercache_addref_release_cb, pfnShaderCacheAddRefCb callback function [Display Devices], pfnShaderCacheAddRefCb, PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB, PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB, d3d10umddi/pfnShaderCacheAddRefCb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnShaderCacheAddRefCb
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	pfnShaderCacheAddRefCb
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB callback
 
 
-
 ## -description
+
+
 The <i>pfnShaderCacheAddRefCb</i> callback function supports the ability to extend the lifetime of a shader cache.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB pfnShaderCacheAddRefCb;
@@ -57,25 +67,32 @@ VOID APIENTRY CALLBACK * pfnShaderCacheAddRefCb(
 
 ## -parameters
 
+
+
+
 ### -param hCacheSession [in]
 
 The handler of a cache session.
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 Access this callback function by using the <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_corelayer_devicecallbacks.md">D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_corelayer_devicecallbacks.md">D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS</a>
-</dt>
-</dl>
+
  
 
  

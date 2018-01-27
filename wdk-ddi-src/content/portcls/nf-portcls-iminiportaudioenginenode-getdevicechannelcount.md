@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 978193AE-55CD-4255-8722-A1E008E98F08
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportAudioEngineNode, IMiniportAudioEngineNode::GetDeviceChannelCount, GetDeviceChannelCount
+ms.keywords: GetDeviceChannelCount method [Audio Devices], GetDeviceChannelCount, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelCount method, portcls/IMiniportAudioEngineNode::GetDeviceChannelCount, IMiniportAudioEngineNode, audio.iminiportaudioenginenode_getdevicechannelcount, IMiniportAudioEngineNode::GetDeviceChannelCount, GetDeviceChannelCount method [Audio Devices], IMiniportAudioEngineNode interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportAudioEngineNode.GetDeviceChannelCount
-req.alt-loc: Portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Portcls.h
+apiname: 
+-	IMiniportAudioEngineNode.GetDeviceChannelCount
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportAudioEngineNode::GetDeviceChannelCount method
 
 
-
 ## -description
+
+
 Gets a count of the number of channels supported by the audio device.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS GetDeviceChannelCount(
@@ -55,6 +65,9 @@ NTSTATUS GetDeviceChannelCount(
 
 
 ## -parameters
+
+
+
 
 ### -param ulNodeId [in]
 
@@ -72,23 +85,20 @@ The number of channels supported by the audio device.
 
 
 ## -returns
+
+
 <b>GetDeviceChannelCount</b> returns S_OK, if the call was successful. Otherwise, the method 
 
 returns an appropriate error code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a>
-</dt>
-<dt>
+
 <a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
-</dt>
-</dl>
+
+<a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a>
+
  
 
  

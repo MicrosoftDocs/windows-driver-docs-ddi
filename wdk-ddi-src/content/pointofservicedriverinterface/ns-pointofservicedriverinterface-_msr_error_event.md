@@ -7,8 +7,8 @@ old-location: pos\msr_error_event.htm
 old-project: pos
 ms.assetid: daab2df5-4d23-4fe3-b357-74b2615e6d1e
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _MSR_ERROR_EVENT, *PMSR_ERROR_EVENT, MSR_ERROR_EVENT
+ms.date: 1/18/2018
+ms.keywords: MSR_ERROR_EVENT, pointofservicedriverinterface/MSR_ERROR_EVENT, PMSR_ERROR_EVENT structure pointer, MSR_ERROR_EVENT structure, PMSR_ERROR_EVENT, _MSR_ERROR_EVENT, pointofservicedriverinterface/PMSR_ERROR_EVENT, *PMSR_ERROR_EVENT, pos.msr_error_event
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSR_ERROR_EVENT
-req.alt-loc: PointOfServiceDriverInterface.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	PointOfServiceDriverInterface.h
+apiname: 
+-	MSR_ERROR_EVENT
+product: Windows
+targetos: Windows
 req.typenames: *PMSR_ERROR_EVENT, MSR_ERROR_EVENT
 ---
 
 # _MSR_ERROR_EVENT structure
 
 
-
 ## -description
+
+
 This structure contains the error data that is passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn772151">MagneticStripeReaderErrorOccured</a> event.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSR_ERROR_EVENT {
@@ -62,6 +72,9 @@ typedef struct _MSR_ERROR_EVENT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -112,5 +125,3 @@ Data read from a swiped magnetic stripe card.
 
 NULL terminated error message.
 
-
-## -remarks

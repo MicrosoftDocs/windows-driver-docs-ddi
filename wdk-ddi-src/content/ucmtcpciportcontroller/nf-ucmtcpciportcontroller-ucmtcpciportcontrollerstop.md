@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5d1dd418-5a2f-448f-ae65-695c4f97ff29
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmTcpciPortControllerStop
+ms.keywords: UcmTcpciPortControllerStop, ucmtcpciportcontroller/UcmTcpciPortControllerStop, buses.ucmtcpciportcontrollerstop, UcmTcpciPortControllerStop method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UcmTcpciPortControllerStop
-req.alt-loc: ucmtcpcicxstub.lib,ucmtcpcicxstub.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Ucmtcpcicxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ucmtcpcicxstub.lib
+-	ucmtcpcicxstub.dll
+apiname: 
+-	UcmTcpciPortControllerStop
+product: Windows
+targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # UcmTcpciPortControllerStop function
 
 
-
 ## -description
+
+
 Indicates to the UcmTcpciCx class extension to stop sending hardware requests to the port controller object. 
 
 
-
 ## -syntax
+
 
 ````
 VOID UcmTcpciPortControllerStop(
@@ -55,16 +66,24 @@ VOID UcmTcpciPortControllerStop(
 
 ## -parameters
 
-### -param PortControllerObject 
+
+
+
+### -param PortControllerObject
 
 Handle to the port controller object that the client driver received in the previous call to <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>.
 
 
 ## -returns
+
+
 This method does not return a value.
 
 
+
 ## -remarks
+
+
 After calling <b>UcmTcpciPortControllerStop</b>, the client driver stops processing all requests on the port controller object. This call is synchronous, so it is guaranteed that the class extension will not invoke callback functions or send requests after it returns. The driver must not call this method within a port controller callback, or while any non-cancelable hardware requests are pending.
 
 A client driver calls this method from its <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EVT_WDF_DEVICE_RELEASE_HARDWARE</a> callback implementation. After doing so, it should also call <a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>, in case <i>EVT_WDF_DEVICE_RELEASE_HARDWARE</i> is invoked to resource rebalancing. Failure to do so causes the driver to leak objects associated with the port controller object when a resource rebalance occurs. Parenting the UCMPORTCONTROLLER handle to the WDFDEVICE handle is not sufficient, because a WDFDEVICE is not deleted across a resource rebalance.
@@ -79,12 +98,11 @@ The client driver must call this method if it needs to stop all actions on the p
 Stopping the controller ends any active PD contract and the Type-C connection. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollerstart.md">UcmTcpciPortControllerStart</a>
-</dt>
-</dl>
+
  
 
  

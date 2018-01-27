@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 3FA3494F-DFFF-414E-B88C-DF7C034B96C6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _ROOTHUB_30PORT_INFO_EX, ROOTHUB_30PORT_INFO_EX, *PROOTHUB_30PORT_INFO_EX
+ms.keywords: P_ROOTHUB_30PORT_INFO_EX, ucxroothub/_ROOTHUB_30PORT_INFO_EX, ROOTHUB_30PORT_INFO_EX structure [Buses], ucxroothub/P_ROOTHUB_30PORT_INFO_EX, *PROOTHUB_30PORT_INFO_EX, _ROOTHUB_30PORT_INFO_EX, buses._roothub_30port_info_ex, ROOTHUB_30PORT_INFO_EX, P_ROOTHUB_30PORT_INFO_EX structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ROOTHUB_30PORT_INFO_EX
-req.alt-loc: ucxroothub.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ucxroothub.h
+apiname: 
+-	ROOTHUB_30PORT_INFO_EX
+product: Windows
+targetos: Windows
 req.typenames: ROOTHUB_30PORT_INFO_EX, *PROOTHUB_30PORT_INFO_EX
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _ROOTHUB_30PORT_INFO_EX structure
 
 
-
 ## -description
+
+
 Provides extended USB 3.0 port information about  speed.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ROOTHUB_30PORT_INFO_EX {
@@ -61,6 +71,9 @@ typedef struct _ROOTHUB_30PORT_INFO_EX {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Info
 
@@ -81,5 +94,3 @@ The count of bus speeds supported.
 
 A pointer to a <b>USB_DEVICE_CAPABILITY_SUPERSPEEDPLUS_SPEED</b> structure that describes the USB 3.1capability's sublink speed attributes. For structure declaration, see Usbspec.h
 
-
-## -remarks

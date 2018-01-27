@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9b4c35a1-04b9-4d4d-9a57-2f5711ec7418
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, *PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
+ms.keywords: PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], *PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, ntddk/PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], ntddk/PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, kernel.physical_counter_resource_descriptor, _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, kstruct_c_d1ca3bce-f598-4c61-9832-defae021d224.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, *PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: *PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
 ---
 
 # _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure describes the counter resources available on the platform.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR {
@@ -63,10 +73,42 @@ typedef struct _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR {
 
 ## -struct-fields
 
+
+
+
+### -field u
+
+A union that can contain a <b>CounterIndex</b>, <b>ExtendedRegisterAddress</b>, or <b>Range</b> value.
+
+
+### -field u.Range
+
+A range of counter indexes. 
+
+
+### -field u.Range.Begin
+
+The starting counter index of a block of contiguous counters. 
+
+
+### -field u.Range.End
+
+The ending counter index of a block of contiguous counters. 
+
+
+### -field u.CounterIndex
+
+A physical counter index. 
+
+
+### -field u.ExtendedRegisterAddress
+
+An extended configuration register address. 
+
+
 ### -field Type
 
 Indicates the type of counter resource described by the structure. Set this parameter to one of the following <a href="..\ntddk\ne-ntddk-_physical_counter_resource_descriptor_type.md">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</a> enumeration constants:
-
 <ul>
 <li>
 <b>ResourceTypeSingle</b>
@@ -91,55 +133,21 @@ Indicates the type of counter resource described by the structure. Set this para
 No flags are currently defined. Set this member to zero.
 
 
-### -field u
-
-A union that can contain a <b>CounterIndex</b>, <b>ExtendedRegisterAddress</b>, or <b>Range</b> value.
-
-
-### -field CounterIndex
-
-A physical counter index. 
-
-
-### -field ExtendedRegisterAddress
-
-An extended configuration register address. 
-
-
-### -field Range
-
-A range of counter indexes. 
-
-
-### -field Begin
-
-The starting counter index of a block of contiguous counters. 
-
-
-### -field End
-
-The ending counter index of a block of contiguous counters. 
-
-</dd>
-</dl>
-</dd>
-</dl>
-
 ## -remarks
+
+
 Most processors have performance monitor units that contain a number of hardware counters for measuring various aspects of system performance. The <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure describes a counter resource, which can be a single hardware counter, a block of contiguous counters, or a counter overflow interrupt. This structure's <b>Type</b> member indicates which type of counter resource is described by the structure.
 
 To specify a set of counter resources, a kernel-mode client can provide an array of <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structures. A <a href="..\ntddk\ns-ntddk-_physical_counter_resource_list.md">PHYSICAL_COUNTER_RESOURCE_LIST</a> structure serves as a header for the array. The client can allocate and free the set of counter resources described by the array as a single unit.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\ne-ntddk-_physical_counter_resource_descriptor_type.md">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_physical_counter_resource_list.md">PHYSICAL_COUNTER_RESOURCE_LIST</a>
-</dt>
-</dl>
+
  
 
  

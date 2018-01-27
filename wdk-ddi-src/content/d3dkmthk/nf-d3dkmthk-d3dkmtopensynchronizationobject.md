@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e6316816-5260-4dd5-9c44-897ed5a88cc8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTOpenSynchronizationObject
+ms.keywords: D3DKMTOpenSynchronizationObject, display.d3dkmtopensynchronizationobject, D3DKMTOpenSynchronizationObject function [Display Devices], d3dkmthk/D3DKMTOpenSynchronizationObject, OpenGL_Functions_c6ae5181-a478-47d7-8f0c-49f4f5a7f318.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3DKMTOpenSynchronizationObject is supported beginnin
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTOpenSynchronizationObject
-req.alt-loc: Gdi32.dll,API-MS-Win-dx-d3dkmt-l1-1-0.dll,API-MS-Win-dx-d3dkmt-l1-1-1.dll,API-MS-Win-DX-D3DKMT-L1-1-2.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Gdi32.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-0.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-1.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+apiname: 
+-	D3DKMTOpenSynchronizationObject
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTOpenSynchronizationObject function
 
 
-
 ## -description
+
+
 The <b>D3DKMTOpenSynchronizationObject</b> function opens a kernel-mode synchronization object.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS D3DKMTOpenSynchronizationObject(
@@ -54,41 +67,79 @@ NTSTATUS D3DKMTOpenSynchronizationObject(
 
 ## -parameters
 
-### -param pData [in, out]
+
+
+
+
+#### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_opensynchronizationobject.md">D3DKMT_OPENSYNCHRONIZATIONOBJECT</a> structure that describes a shared synchronization object to open. 
 
 
 ## -returns
+
+
 <b>D3DKMTOpenSynchronizationObject</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The kernel-mode synchronization object was successfully opened. 
+</dl>
+</td>
+<td width="60%">
+The kernel-mode synchronization object was successfully opened. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_DEVICE_REMOVED</b></dt>
-</dl>The graphics adapter was stopped or the display device was reset. 
+</dl>
+</td>
+<td width="60%">
+The graphics adapter was stopped or the display device was reset. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>Parameters were validated and determined to be incorrect. 
+</dl>
+</td>
+<td width="60%">
+Parameters were validated and determined to be incorrect. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NO_MEMORY</b></dt>
 </dl>
+</td>
+<td width="60%">
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopensynchronizationobject.md">D3DKMTOpenSynchronizationObject</a> could not complete because of insufficient memory. 
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other <b>NTSTATUS</b> values.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_opensynchronizationobject.md">D3DKMT_OPENSYNCHRONIZATIONOBJECT</a>
-</dt>
-</dl>
+
  
 
  

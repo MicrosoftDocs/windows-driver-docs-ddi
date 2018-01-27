@@ -7,8 +7,8 @@ old-location: netvista\ndisclmakecall.htm
 old-project: netvista
 ms.assetid: 69775220-71d8-497c-aaf7-9bc3ec90d00f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisClMakeCall
+ms.date: 1/18/2018
+ms.keywords: condis_client_ref_bd9f0a4a-c8f7-418e-aa80-e97fad7e4ab1.xml, ndis/NdisClMakeCall, netvista.ndisclmakecall, NdisClMakeCall function [Network Drivers Starting with Windows Vista], NdisClMakeCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    N
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisClMakeCall
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_Protocol_Driver_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisClMakeCall
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisClMakeCall function
 
 
-
 ## -description
+
+
 <b>NdisClMakeCall</b> sets up an outgoing call on a client-created VC.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisClMakeCall(
@@ -56,6 +67,9 @@ NDIS_STATUS NdisClMakeCall(
 
 
 ## -parameters
+
+
+
 
 ### -param NdisVcHandle [in]
 
@@ -90,15 +104,20 @@ Pointer to a caller-supplied variable, usually in the caller-allocated party con
 
 
 ## -returns
+
+
 When 
      <b>NdisClMakeCall</b> returns anything other than NDIS_STATUS_PENDING, the client should make an internal
      call to its 
-     <a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">
-     ProtocolClMakeCallComplete</a> function. Otherwise, NDIS calls the client's 
+     <mshelp:link keywords="netvista.protocolclmakecallcomplete" tabindex="0"><i>
+     ProtocolClMakeCallComplete</i></mshelp:link> function. Otherwise, NDIS calls the client's 
      <i>ProtocolClMakeCallComplete</i> function when this operation is completed.
 
 
+
 ## -remarks
+
+
 <b>NdisClMakeCall</b> sets up the attributes of a client-created VC for a client-initiated outgoing call.
     The client must set up the VC with 
     <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a> before it attempts to make
@@ -136,43 +155,33 @@ The client's
     connection, the value of this client-supplied variable is invalid.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
-   NdisAllocateFromNPagedLookasideList</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndiscmmakecallcomplete.md">NdisCmMakeCallComplete</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">ProtocolClMakeCallComplete</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
+   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+
+<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
 <a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
+
+<a href="..\ndis\nf-ndis-ndiscmmakecallcomplete.md">NdisCmMakeCallComplete</a>
+
+<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisClMakeCall function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisClMakeCall function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

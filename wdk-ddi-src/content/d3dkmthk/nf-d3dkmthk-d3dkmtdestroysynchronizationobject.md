@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 38e77d21-a386-4de8-8d1c-db48434828c6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTDestroySynchronizationObject
+ms.keywords: OpenGL_Functions_181e72ed-9dd7-4b4c-b6e6-9231a2603f20.xml, D3DKMTDestroySynchronizationObject function [Display Devices], d3dkmthk/D3DKMTDestroySynchronizationObject, D3DKMTDestroySynchronizationObject, display.d3dkmtdestroysynchronizationobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTDestroySynchronizationObject
-req.alt-loc: Gdi32.dll,API-MS-Win-dx-d3dkmt-l1-1-0.dll,API-MS-Win-dx-d3dkmt-l1-1-1.dll,API-MS-Win-DX-D3DKMT-L1-1-2.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Gdi32.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-0.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-1.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+apiname: 
+-	D3DKMTDestroySynchronizationObject
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTDestroySynchronizationObject function
 
 
-
 ## -description
+
+
 The <b>D3DKMTDestroySynchronizationObject</b> function destroys a kernel-mode synchronization object.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS D3DKMTDestroySynchronizationObject(
@@ -54,36 +67,63 @@ NTSTATUS D3DKMTDestroySynchronizationObject(
 
 ## -parameters
 
-### -param pData [in]
+
+
+
+### -param D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
+
+TBD
+
+
+
+#### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroysynchronizationobject.md">D3DKMT_DESTROYSYNCHRONIZATIONOBJECT</a> structure that contains the handle to the synchronization object to destroy.
 
 
 ## -returns
+
+
 <b>D3DKMTDestroySynchronizationObject</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The kernel-mode overlay object was successfully destroyed.
+</dl>
+</td>
+<td width="60%">
+The kernel-mode overlay object was successfully destroyed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>Parameters were validated and determined to be incorrect.
+</dl>
+</td>
+<td width="60%">
+Parameters were validated and determined to be incorrect.
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other <b>NTSTATUS</b> values.
 
 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroysynchronizationobject.md">D3DKMT_DESTROYSYNCHRONIZATIONOBJECT</a>
-</dt>
-</dl>
+
  
 
  

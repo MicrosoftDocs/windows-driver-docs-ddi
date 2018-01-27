@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1E7BB805-1A91-4DA6-A7E9-E60DD8D4AAF3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlLongPtrToUInt8
+ms.keywords: RtlLongPtrToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtllongptrtouint8, RtlLongPtrToUInt8, ntintsafe/RtlLongPtrToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlLongPtrToUInt8
-req.alt-loc: Ntintsafe.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntintsafe.h
+apiname: 
+-	RtlLongPtrToUInt8
+product: Windows
+targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
 
 # RtlLongPtrToUInt8 function
 
 
-
 ## -description
+
+
 Converts a value of type <b>LONG_PTR</b> to a value of type <b>UINT8</b>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlLongPtrToUInt8(
@@ -54,6 +64,9 @@ NTSTATUS RtlLongPtrToUInt8(
 
 
 ## -parameters
+
+
+
 
 ### -param lOperand [in]
 
@@ -66,6 +79,17 @@ A pointer to the converted value. In the case where the conversion causes a trun
 
 
 ## -remarks
+
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
-This function uses the following alternate name:</p>
+This function uses the following alternate name:
+<ul>
+<li>RtlLongPtrToByte
+</li>
+<li>RtlSSIZETToUInt8
+</li>
+<li>RtlSSIZETToByte
+</li>
+</ul>
+

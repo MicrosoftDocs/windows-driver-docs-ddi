@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6b1d6465-83bd-42c4-be1f-d7a2cfb74483
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_QUERYDEPENDENTENGINEGROUP, DXGKARG_QUERYDEPENDENTENGINEGROUP, *INOUT_DXGKARG_QUERYDEPENDENTENGINEGROUP
+ms.keywords: DXGKARG_QUERYDEPENDENTENGINEGROUP structure [Display Devices], d3dkmddi/DXGKARG_QUERYDEPENDENTENGINEGROUP, *INOUT_DXGKARG_QUERYDEPENDENTENGINEGROUP, display.dxgkarg_querydependentenginegroup, _DXGKARG_QUERYDEPENDENTENGINEGROUP, DXGKARG_QUERYDEPENDENTENGINEGROUP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_QUERYDEPENDENTENGINEGROUP
-req.alt-loc: D3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmddi.h
+apiname: 
+-	DXGKARG_QUERYDEPENDENTENGINEGROUP
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_QUERYDEPENDENTENGINEGROUP
 ---
 
 # _DXGKARG_QUERYDEPENDENTENGINEGROUP structure
 
 
-
 ## -description
+
+
 Describes all nodes on the physical display adapter (engine) that are to be queried when the display port driver's GPU scheduler calls the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_querydependentenginegroup.md">DxgkDdiQueryDependentEngineGroup</a> function to query node dependencies.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_QUERYDEPENDENTENGINEGROUP {
@@ -55,6 +65,9 @@ typedef struct _DXGKARG_QUERYDEPENDENTENGINEGROUP {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NodeOrdinal
 
@@ -72,6 +85,8 @@ typedef struct _DXGKARG_QUERYDEPENDENTENGINEGROUP {
 
 
 ## -remarks
+
+
 The index value <b>EngineOrdinal</b> is assumed to be identical for all dependent nodes.
 
 See Remarks of  <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_querydependentenginegroup.md">DxgkDdiQueryDependentEngineGroup</a> for a discussion of how to compute the bitmask in the <b>DependentNodeOrdinalMask</b> member.
@@ -79,15 +94,13 @@ See Remarks of  <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_querydependentenginegro
 For more information, see <a href="https://msdn.microsoft.com/5BC4F94C-2B45-44E2-8BBF-B455BB864A29">TDR changes in Windows 8</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_querydependentenginegroup.md">DxgkDdiQueryDependentEngineGroup</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetengine.md">DxgkDdiResetEngine</a>
-</dt>
-</dl>
+
  
 
  

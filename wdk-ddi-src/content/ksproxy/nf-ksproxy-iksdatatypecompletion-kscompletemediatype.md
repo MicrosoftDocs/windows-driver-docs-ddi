@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0a6157cf-09ae-4640-9c54-3e9b91fd93a9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsDataTypeCompletion, IKsDataTypeCompletion::KsCompleteMediaType, KsCompleteMediaType
+ms.keywords: stream.iksdatatypecompletion_kscompletemediatype, KsCompleteMediaType method [Streaming Media Devices], IKsDataTypeCompletion interface [Streaming Media Devices], KsCompleteMediaType method, ksproxy_950cbba2-9512-46d0-ac08-133195e4370f.xml, ksproxy/IKsDataTypeCompletion::KsCompleteMediaType, IKsDataTypeCompletion, IKsDataTypeCompletion::KsCompleteMediaType, KsCompleteMediaType method [Streaming Media Devices], IKsDataTypeCompletion interface, KsCompleteMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsDataTypeCompletion.KsCompleteMediaType
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ksproxy.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsDataTypeCompletion.KsCompleteMediaType
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsDataTypeCompletion::KsCompleteMediaType method
 
 
-
 ## -description
+
+
 The <b>KsCompleteMediaType</b> method completes a partially-specified media type that was first presented to the <b>IAMStreamConfig::SetFormat</b> method.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT KsCompleteMediaType(
@@ -55,6 +65,9 @@ HRESULT KsCompleteMediaType(
 
 
 ## -parameters
+
+
+
 
 ### -param FilterHandle [in]
 
@@ -72,10 +85,15 @@ Pointer to a AM_MEDIA_TYPE structure that describes the format of the media samp
 
 
 ## -returns
+
+
 Returns NOERROR if successful and the media type was completed; otherwise, returns an error code.
 
 
+
 ## -remarks
+
+
 The <b>KsCompleteMediaType</b> method is primarily used for video media types, in which the <b>biSizeImage</b> member of the <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a> structure is known only to the driver, because of the private compression formats supported. If required, the data type handler can query the underlying KS filter in order to complete the given media type. 
 
 When the proxy creates an instance of the data type handler for purposes of completing a media type, the proxy passes the media type to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559844">IKsDataTypeHandler::KsSetMediaType</a> method to first initialize this data type handler to the particular media type. 
@@ -83,15 +101,13 @@ When the proxy creates an instance of the data type handler for purposes of comp
 For more information about <b>IAMStreamConfig::SetFormat</b> and AM_MEDIA_TYPE, see the Microsoft Windows SDK documentation.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559844">IKsDataTypeHandler::KsSetMediaType</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: a478fd0d-3fbe-4cd9-aaf9-67b74b607770
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: RegisterOpRegionHandler
+ms.keywords: parports.pparallel_read, PPARALLEL_READ function pointer [Parallel Ports], PPARALLEL_READ, parallel/PPARALLEL_READ, cisspd_ae27b566-d561-4bc8-9519-fc3c35069791.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PPARALLEL_READ
-req.alt-loc: parallel.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	parallel.h
+apiname: 
+-	PPARALLEL_READ
+product: Windows
+targetos: Windows
 req.typenames: *LPRILGBATOKEN, RILGBATOKEN
 ---
 
 # PPARALLEL_READ callback
 
 
-
 ## -description
+
+
 The PPARALLEL_READ-typed callback routine reads data from a parallel device. The system-supplied bus driver for parallel ports supplies this routine.
 
 
-
 ## -prototype
+
 
 ````
 typedef NTSTATUS ( *PPARALLEL_READ)(
@@ -58,9 +68,12 @@ typedef NTSTATUS ( *PPARALLEL_READ)(
 
 ## -parameters
 
+
+
+
 ### -param Context [in]
 
-Pointer to the device extension of a parallel device's physical device object (<a href="wdkgloss.p#wdkgloss.pdo#wdkgloss.pdo"><i>PDO</i></a>).
+Pointer to the device extension of a parallel device's physical device object (<a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDO</a>).
 
 
 ### -param Buffer [out]
@@ -84,17 +97,42 @@ Not used.
 
 
 ## -returns
+
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The requested data was successfully transferred from the device.
+</dl>
+</td>
+<td width="60%">
+The requested data was successfully transferred from the device.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_<i>Xxx</i></b></dt>
-</dl>An internal operation resulted in an NTSTATUS error.
+</dl>
+</td>
+<td width="60%">
+An internal operation resulted in an NTSTATUS error.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 To obtain a pointer to the system-supplied PPARALLEL_READ callback, a kernel-mode driver uses an <a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a> request, which returns a <a href="..\parallel\ns-parallel-_parclass_information.md">PARCLASS_INFORMATION</a> structure. The <b>ParallelRead</b> member of the PARCLASS_INFORMATION structure is a pointer to this callback.
 
 A client can only use this routine if it has a lock on a parallel port. A client obtains a lock on a parallel port by using an <a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a> request.
@@ -102,15 +140,13 @@ A client can only use this routine if it has a lock on a parallel port. A client
 The PPARALLEL_READ callback runs in the caller's thread at the IRQL of the caller.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
-</dt>
-<dt>
+
 <a href="..\parallel\nc-parallel-pparallel_write.md">PPARALLEL_WRITE</a>
-</dt>
-</dl>
+
+<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
+
  
 
  

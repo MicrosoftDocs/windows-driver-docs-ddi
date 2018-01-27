@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 78729B9A-A9FA-4D1E-8D30-3FFD61B1A7D3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddimapcpuhostaperture, DxgkDdiMapCpuHostAperture callback function [Display Devices], DxgkDdiMapCpuHostAperture, DXGKDDI_MAPCPUHOSTAPERTURE, DXGKDDI_MAPCPUHOSTAPERTURE, d3dkmddi/DxgkDdiMapCpuHostAperture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiMapCpuHostAperture
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DxgkDdiMapCpuHostAperture
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_MAPCPUHOSTAPERTURE callback
 
 
-
 ## -description
+
+
 <b>DxgkDdiMapCpuHostAperture</b> is called to map an allocation that is resident in a local memory segment into the CPU host aperture in order to make it visible to the CPU.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_MAPCPUHOSTAPERTURE DxgkDdiMapCpuHostAperture;
@@ -58,19 +68,30 @@ NTSTATUS APIENTRY DxgkDdiMapCpuHostAperture(
 
 ## -parameters
 
+
+
+
 ### -param hAdapter [in]
 
 A handle to the display adapter.
 
 
-### -param Map [in]
+### -param pArgs
+
+
+
+
+
+
+#### - Map [in]
 
 The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_mapcpuhostaperture.md">DXGKARG_MAPCPUHOSTAPERTURE</a> structure that describes the operation.
 
 
 ## -returns
 
+
+
       Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in <b>Ntstatus.h</b>.
 
 
-## -remarks

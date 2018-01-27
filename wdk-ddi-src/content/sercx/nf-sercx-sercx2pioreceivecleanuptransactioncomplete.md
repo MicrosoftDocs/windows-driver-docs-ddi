@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 8C0874CD-EAFD-4443-B394-AAA4DD265835
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCx2PioReceiveCleanupTransactionComplete
+ms.keywords: SerCx2PioReceiveCleanupTransactionComplete, 2/SerCx2PioReceiveCleanupTransactionComplete, serports.sercx2pioreceivecleanuptransactioncomplete, SerCx2PioReceiveCleanupTransactionComplete method [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.1.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SerCx2PioReceiveCleanupTransactionComplete
-req.alt-loc: 2.0\Sercx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	2.0\Sercx.h
+apiname: 
+-	SerCx2PioReceiveCleanupTransactionComplete
+product: Windows
+targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SerCx2PioReceiveCleanupTransactionComplete function
 
 
-
 ## -description
+
+
 The <b>SerCx2PioReceiveCleanupTransactionComplete</b> method informs version 2 of the serial framework extension (SerCx2) that the serial controller driver has finished cleaning up the serial controller's hardware state after a PIO-receive transaction.
 
 
-
 ## -syntax
+
 
 ````
 VOID SerCx2PioReceiveCleanupTransactionComplete(
@@ -55,16 +65,24 @@ VOID SerCx2PioReceiveCleanupTransactionComplete(
 
 ## -parameters
 
+
+
+
 ### -param PioReceive [in]
 
 A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a> handle to a PIO-receive object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a> method to create this object.
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 After a PIO-receive transaction ends, SerCx2 calls the <a href="..\sercx\nc-sercx-evt_sercx2_pio_receive_cleanup_transaction.md">EvtSerCx2PioReceiveCleanupTransaction</a> event callback function, if it is implemented, to clean up the serial controller state. In response to this call, the driver should first do any clean-up work that is needed; then the driver must call <b>SerCx2PioReceiveCleanupTransactionComplete</b> to notify SerCx2. SerCx2 expects this notification and does not start the next transaction until it is notified.
 
 The serial controller driver must call <b>SerCx2PioReceiveCleanupTransactionComplete</b> only in response to a call to the <i>EvtSerCx2PioReceiveCleanupTransaction</i> function.
@@ -72,18 +90,15 @@ The serial controller driver must call <b>SerCx2PioReceiveCleanupTransactionComp
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn265332">SerCx2 PIO-Receive Transactions</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\sercx\nc-sercx-evt_sercx2_pio_receive_cleanup_transaction.md">EvtSerCx2PioReceiveCleanupTransaction</a>
-</dt>
-<dt>
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
-</dt>
-<dt>
+
 <a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
-</dt>
-</dl>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
+
  
 
  

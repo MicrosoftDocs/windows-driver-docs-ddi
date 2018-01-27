@@ -7,8 +7,8 @@ old-location: netvista\rilsetsmscparams_2.htm
 old-project: netvista
 ms.assetid: 87c5bb45-f29d-434c-abef-acbf05c9515e
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSETSMSCPARAMS, RILSETSMSCPARAMS, *LPRILSETSMSCPARAMS
+ms.date: 1/18/2018
+ms.keywords: *LPRILSETSMSCPARAMS, rilapitypes/RILSETSMSCPARAMS, RILSETSMSCPARAMS, netvista.rilsetsmscparams_2, RILSETSMSCPARAMS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSETSMSCPARAMS
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILSETSMSCPARAMS, *LPRILSETSMSCPARAMS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILSETSMSCPARAMS
+product: Windows
+targetos: Windows
+req.typenames: *LPRILSETSMSCPARAMS, RILSETSMSCPARAMS
 req.product: Windows 10 or later.
 ---
 
 # RILSETSMSCPARAMS structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILSETSMSCPARAMS {
@@ -56,10 +66,13 @@ typedef struct _RILSETSMSCPARAMS {
 
 ## -struct-fields
 
+
+
+
 ### -field hUiccApp
+
 
 
 ### -field raSvcCtrAddress
 
 
-## -remarks

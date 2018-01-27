@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D605A20B-3747-458E-BA9D-F723F884F130
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _ENDPOINTS_CONFIGURE_FAILURE_FLAGS, ENDPOINTS_CONFIGURE_FAILURE_FLAGS
+ms.keywords: P_ENDPOINTS_CONFIGURE_FAILURE_FLAGS structure pointer [Buses], ucxendpoint/_ENDPOINTS_CONFIGURE_FAILURE_FLAGS, buses._endpoints_configure_failure_flags, ENDPOINTS_CONFIGURE_FAILURE_FLAGS, _ENDPOINTS_CONFIGURE_FAILURE_FLAGS, ucxendpoint/P_ENDPOINTS_CONFIGURE_FAILURE_FLAGS, P_ENDPOINTS_CONFIGURE_FAILURE_FLAGS, ENDPOINTS_CONFIGURE_FAILURE_FLAGS structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ENDPOINTS_CONFIGURE_FAILURE_FLAGS
-req.alt-loc: ucxendpoint.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ucxendpoint.h
+apiname: 
+-	ENDPOINTS_CONFIGURE_FAILURE_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: ENDPOINTS_CONFIGURE_FAILURE_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _ENDPOINTS_CONFIGURE_FAILURE_FLAGS structure
 
 
-
 ## -description
+
+
 This structure provides failure flags to indicate errors, if any, that might have occurred during a request to an <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_endpoints_configure.md">EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE</a> callback function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ENDPOINTS_CONFIGURE_FAILURE_FLAGS {
@@ -57,6 +67,9 @@ typedef struct _ENDPOINTS_CONFIGURE_FAILURE_FLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field InsufficientBandwidth
 
@@ -78,15 +91,10 @@ The maximum exit latency is too large to configure the specified endpoints.
 Do not use.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxendpoint\ns-ucxendpoint-_endpoints_configure.md">ENDPOINTS_CONFIGURE</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: image\wias_changed_value_info.htm
 old-project: image
 ms.assetid: bfef9d54-fcd5-436b-b3ec-8cd3b8f38360
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: _WIAS_CHANGED_VALUE_INFO, WIAS_CHANGED_VALUE_INFO, *PWIAS_CHANGED_VALUE_INFO
+ms.date: 1/18/2018
+ms.keywords: WIAS_CHANGED_VALUE_INFO structure [Imaging Devices], wiamindr_lh/WIAS_CHANGED_VALUE_INFO, *PWIAS_CHANGED_VALUE_INFO, wiastrct_0c1c5e66-1f26-471f-9916-117460b6a373.xml, WIAS_CHANGED_VALUE_INFO, _WIAS_CHANGED_VALUE_INFO, PWIAS_CHANGED_VALUE_INFO, PWIAS_CHANGED_VALUE_INFO structure pointer [Imaging Devices], wiamindr_lh/PWIAS_CHANGED_VALUE_INFO, image.wias_changed_value_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Me and in Windows XP and later v
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WIAS_CHANGED_VALUE_INFO
-req.alt-loc: wiamindr_lh.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wiamindr_lh.h
+apiname: 
+-	WIAS_CHANGED_VALUE_INFO
+product: Windows
+targetos: Windows
 req.typenames: WIAS_CHANGED_VALUE_INFO, *PWIAS_CHANGED_VALUE_INFO
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _WIAS_CHANGED_VALUE_INFO structure
 
 
-
 ## -description
+
+
 The WIAS_CHANGED_VALUE_INFO structure is used to store the current and previous values of a property.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WIAS_CHANGED_VALUE_INFO {
@@ -68,6 +78,57 @@ typedef struct _WIAS_CHANGED_VALUE_INFO {
 
 ## -struct-fields
 
+
+
+
+### -field Old
+
+
+
+### -field Old.lVal
+
+ 
+
+
+### -field Old.fltVal
+
+ 
+
+
+### -field Old.bstrVal
+
+ 
+
+
+### -field Old.guidVal
+
+ 
+
+
+### -field Current
+
+
+
+### -field Current.lVal
+
+ 
+
+
+### -field Current.fltVal
+
+ 
+
+
+### -field Current.bstrVal
+
+ 
+
+
+### -field Current.guidVal
+
+ 
+
+
 ### -field bChanged
 
 Is a Boolean that indicates whether a property has changed. That is, if the property's current value is different from its value before <a href="https://msdn.microsoft.com/library/windows/hardware/ff545017">IWiaMiniDrv::drvValidateItemProperties</a> was called. Upon return from one of the <b>wiasGetChangedValue</b><i>Xxx</i> functions, this member is <b>TRUE</b> if the property changed, and <b>FALSE</b> if the property did not change. 
@@ -77,78 +138,49 @@ Is a Boolean that indicates whether a property has changed. That is, if the prop
 
 Specifies the variant data type for the property. This member can be one of the following:
 
-<dl>
-<dd>
 VT_UI1
 
-</dd>
-<dd>
 VT_UI2
 
-</dd>
-<dd>
 VT_UI4
 
-</dd>
-<dd>
 VT_I2
 
-</dd>
-<dd>
 VT_I4
 
-</dd>
-<dd>
 VT_R4
 
-</dd>
-<dd>
 VT_R8
 
-</dd>
-<dd>
 VT_CLSID
 
-</dd>
-<dd>
 VT_BSTR
 
-</dd>
-</dl>
 See the PROPVARIANT structure in the Microsoft Windows SDK documentation for more information.
 
 
-### -field Old
-
-
-### -field Current
-
-
 ## -remarks
+
+
 The <b>wiasGetChangedValue</b><i>Xxx</i> functions, use this structure to determine whether a property of a certain type has been changed by an application. These functions are used when the minidriver performs property validation, which occurs within the body of <a href="https://msdn.microsoft.com/library/windows/hardware/ff545017">IWiaMiniDrv::drvValidateItemProperties</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545017">IWiaMiniDrv::drvValidateItemProperties</a>
-</dt>
-<dt>
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
-</dt>
-<dt>
+
 <a href="..\wiamdef\nf-wiamdef-wiasgetchangedvalueguid.md">wiasGetChangedValueGuid</a>
-</dt>
-<dt>
+
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
+
 <a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluelong.md">wiasGetChangedValueLong</a>
-</dt>
-<dt>
+
 <a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluestr.md">wiasGetChangedValueStr</a>
-</dt>
-</dl>
- 
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545017">IWiaMiniDrv::drvValidateItemProperties</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20WIAS_CHANGED_VALUE_INFO structure%20 RELEASE:%20(1/17/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20WIAS_CHANGED_VALUE_INFO structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

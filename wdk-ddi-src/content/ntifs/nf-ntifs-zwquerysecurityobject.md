@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bc3c494d-890c-4699-a272-62cbcc234cdd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwQuerySecurityObject
+ms.keywords: ZwQuerySecurityObject routine [Kernel-Mode Driver Architecture], k111_50bbb447-b993-4020-a8d7-e54f0b31e84e.xml, ntifs/NtQuerySecurityObject, ZwQuerySecurityObject, kernel.zwquerysecurityobject, ntifs/ZwQuerySecurityObject, NtQuerySecurityObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwQuerySecurityObject,NtQuerySecurityObject
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ZwQuerySecurityObject
+-	NtQuerySecurityObject
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # ZwQuerySecurityObject function
 
 
-
 ## -description
+
+
 The <b>ZwQuerySecurityObject</b> routine retrieves a copy of an object's security descriptor. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ZwQuerySecurityObject(
@@ -58,6 +69,9 @@ NTSTATUS ZwQuerySecurityObject(
 
 ## -parameters
 
+
+
+
 ### -param Handle [in]
 
 Handle for the object whose security descriptor is to be queried. This handle must have the access specified in the Meaning column of the table shown in the description of the <i>SecurityInformation</i> parameter. 
@@ -66,7 +80,6 @@ Handle for the object whose security descriptor is to be queried. This handle mu
 ### -param SecurityInformation [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> value specifying the information to be queried.
-
 <table>
 <tr>
 <th>Value</th>
@@ -112,8 +125,7 @@ Indicates the system ACL (SACL) of the object is being queried. Requires ACCESS_
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param SecurityDescriptor [out]
@@ -132,24 +144,65 @@ Pointer to a caller-allocated variable that receives the number of bytes require
 
 
 ## -returns
+
+
 <b>ZwQuerySecurityObject</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl><i>Handle</i> did not have the required access. 
+</dl>
+</td>
+<td width="60%">
+<i>Handle</i> did not have the required access. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The buffer is too small for the security descriptor. None of the security information was copied to the buffer. 
+</dl>
+</td>
+<td width="60%">
+The buffer is too small for the security descriptor. None of the security information was copied to the buffer. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl><i>Handle</i> was not a valid handle. 
+</dl>
+</td>
+<td width="60%">
+<i>Handle</i> was not a valid handle. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_TYPE_MISMATCH</b></dt>
-</dl><i>Handle</i> was not a handle of the expected type. 
+</dl>
+</td>
+<td width="60%">
+<i>Handle</i> was not a handle of the expected type. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A security descriptor can be in absolute or self-relative form. In self-relative form, all members of the structure are located contiguously in memory. In absolute form, the structure only contains pointers to the members. 
 
 The NTFS file system imposes a 64K limit on the size of the security descriptor that is written to disk for a file. (The FAT file system does not support security descriptors for files.) Thus a 64K <i>SecurityDescriptor</i> buffer is guaranteed to be large enough to hold the returned <b>SECURITY_DESCRIPTOR</b> structure. 
@@ -157,28 +210,22 @@ The NTFS file system imposes a 64K limit on the size of the security descriptor 
 For more information about security and access control, see the documentation on these topics in the Windows SDK.
 
 Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltquerysecurityobject.md">FltQuerySecurityObject</a> instead of <b>ZwQuerySecurityObject</b>. 
+<div class="alert"><b>Note</b>  If the call to the <b>ZwQuerySecurityObject</b> function occurs in user mode, you should use the name "<b>NtQuerySecurityObject</b>" instead of "<b>ZwQuerySecurityObject</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltquerysecurityobject.md">FltQuerySecurityObject</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nf-fltkernel-fltquerysecurityobject.md">FltQuerySecurityObject</a>
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
 <a href="..\ntifs\nf-ntifs-zwsetsecurityobject.md">ZwSetSecurityObject</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f364fc4b-a3c4-4010-a089-59a00ec3f872
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlMdlReadDev
+ms.keywords: ifsk.fsrtlmdlreaddev, ntifs/FsRtlMdlReadDev, fsrtlref_0ea7c45a-9056-4a17-9e9f-38608e643172.xml, FsRtlMdlReadDev, FsRtlMdlReadDev routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlMdlReadDev
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlMdlReadDev
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlMdlReadDev function
 
 
-
 ## -description
+
+
 The <b>FsRtlMdlReadDev</b> routine returns a memory descriptor list (MDL) that points directly to the specified byte range in the file cache.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlMdlReadDev(
@@ -59,6 +69,9 @@ BOOLEAN FsRtlMdlReadDev(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -96,24 +109,27 @@ The device object for the device that holds the file data.
 
 
 ## -returns
+
+
 The <b>FsRtlMdlReadDev</b> routine returns <b>TRUE</b> if the operation succeeds and <b>FALSE</b> if the operation fails.
 
 
+
 ## -remarks
+
+
 The <b>FsRtlMdlReadDev</b> routine bypasses the usual IRP mechanism and returns a linked list of memory descriptor lists (MDL) that the caller can use to directly access the cached file data. This operation does not copy or buffer data and therefore is much faster than a normal read.
 
 The routine is similar to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>. Both <b>FsRtlMdlReadDev</b> and <b>CcMdlRead</b> lock the pages that contain the cached file data to prevent the system from swapping these pages to the page file. The pages remain locked in memory until the caller invokes the <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreadcompletedev~r2.md">FsRtlMdlReadCompleteDev</a> routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreadcompletedev~r2.md">FsRtlMdlReadCompleteDev</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
+
  
 
  

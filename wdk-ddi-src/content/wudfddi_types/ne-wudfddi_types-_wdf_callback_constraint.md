@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 118a9dcc-8dd4-454a-bab2-1558821781a7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_CALLBACK_CONSTRAINT, WDF_CALLBACK_CONSTRAINT
+ms.keywords: WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration, WdfLevelReserved, None, wdf.wdf_callback_constraint, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, WDF_CALLBACK_CONSTRAINT, wudfddi_types/None, WdfDeviceLevel, wudfddi_types/WdfLevelReserved, wudfddi_types/WdfDeviceLevel, wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, _WDF_CALLBACK_CONSTRAINT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.9
-req.alt-api: WDF_CALLBACK_CONSTRAINT
-req.alt-loc: wudfddi_types.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wudfddi_types.h
+apiname: 
+-	WDF_CALLBACK_CONSTRAINT
+product: Windows
+targetos: Windows
 req.typenames: WDF_CALLBACK_CONSTRAINT
 req.product: Windows 10 or later.
 ---
@@ -38,10 +47,13 @@ req.product: Windows 10 or later.
 # _WDF_CALLBACK_CONSTRAINT enumeration
 
 
-
 ## -description
 
+
+
+
 ## -syntax
+
 
 ````
 typedef enum _WDF_CALLBACK_CONSTRAINT { 
@@ -53,6 +65,9 @@ typedef enum _WDF_CALLBACK_CONSTRAINT {
 
 
 ## -enum-fields
+
+
+
 
 ### -field None
 
@@ -69,5 +84,14 @@ All callback functions into the driver that are associated with the device are s
 Reserved.
 
 
+### -field WdfLevelMaximum
+
+
+
+
 ## -remarks
-Note that the above locking models apply only for I/O (that is, open, read, write, and device I/O control) operations and not for Plug and Play (PnP) and power management notifications. </p>
+
+
+Note that the above locking models apply only for I/O (that is, open, read, write, and device I/O control) operations and not for Plug and Play (PnP) and power management notifications. 
+
+

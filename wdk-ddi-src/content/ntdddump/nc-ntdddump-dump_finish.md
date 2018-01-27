@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6e267810-a7ad-4407-8d01-4a2cad7a37bc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _VERIFY_INFORMATION, VERIFY_INFORMATION, *PVERIFY_INFORMATION
+ms.keywords: storage.dump_finish, Dump_Finish routine [Storage Devices], Dump_Finish, PDUMP_FINISH, PDUMP_FINISH, ntdddump/Dump_Finish, filter_rtns_7d5c92a4-19b6-4ef1-9b86-a9ec250106ef.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista and Windows Se
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: Dump_Finish
-req.alt-loc: ntdddump.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ntdddump.h
+apiname: 
+-	Dump_Finish
+product: Windows
+targetos: Windows
+req.typenames: *PVERIFY_INFORMATION, VERIFY_INFORMATION
 ---
 
 # DUMP_FINISH callback
 
 
-
 ## -description
+
+
 The <i>Dump_Finish</i> callback routine is called after writing all the dump data. The dump port driver generally flushes the cache to ensure the data is stored on the storage media before the system powers down.
 
 
-
 ## -prototype
+
 
 ````
 PDUMP_FINISH Dump_Finish;
@@ -57,24 +67,25 @@ NTSTATUS Dump_Finish(
 
 ## -parameters
 
+
+
+
 ### -param FilterExtension [in]
 
 A pointer to a <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a> structure.
 
 
 ## -returns
+
+
 If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must return one of the error status values defined in <i>Ntstatus.h</i>.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
-</dt>
-</dl>
+
  
 
  

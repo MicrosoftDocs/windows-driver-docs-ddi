@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 238d0b22-bd35-4e8d-9bb5-283af2bbb75b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DISK_CACHE_RETENTION_PRIORITY, DISK_CACHE_RETENTION_PRIORITY
+ms.keywords: ntdddisk/EqualPriority, DISK_CACHE_RETENTION_PRIORITY enumeration [Storage Devices], storage.disk_cache_retention_priority, KeepPrefetchedData, ntdddisk/KeepReadData, DISK_CACHE_RETENTION_PRIORITY, KeepReadData, ntdddisk/KeepPrefetchedData, structs-disk_19939b68-659e-4546-8419-7e1e141b8291.xml, EqualPriority, ntdddisk/DISK_CACHE_RETENTION_PRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DISK_CACHE_RETENTION_PRIORITY
-req.alt-loc: ntdddisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntdddisk.h
+apiname: 
+-	DISK_CACHE_RETENTION_PRIORITY
+product: Windows
+targetos: Windows
 req.typenames: DISK_CACHE_RETENTION_PRIORITY
 ---
 
 # DISK_CACHE_RETENTION_PRIORITY enumeration
 
 
-
 ## -description
+
+
 The DISK_CACHE_RETENTION_PRIORITY enumeration is used in conjunction with the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_cache_information.md">IOCTL_DISK_GET_CACHE_INFORMATION</a> request and the structure <a href="..\ntdddisk\ns-ntdddisk-_disk_cache_information.md">DISK_CACHE_INFORMATION</a> to indicate which kinds data are to be held in the cache on a preferential basis. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -55,6 +65,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field EqualPriority
 
@@ -71,18 +84,12 @@ Indicates that a preference is to be given to prefetched data.
 Indicates that a preference is to be given to data cached from a READ operation.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntdddisk\ns-ntdddisk-_disk_cache_information.md">DISK_CACHE_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_cache_information.md">IOCTL_DISK_GET_CACHE_INFORMATION</a>
-</dt>
-</dl>
+
+<a href="..\ntdddisk\ns-ntdddisk-_disk_cache_information.md">DISK_CACHE_INFORMATION</a>
+
  
 
  

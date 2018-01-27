@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9e13cf62-d71e-4878-becd-d34beb2f59b3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoGetRequestorSessionId
+ms.keywords: IoGetRequestorSessionId routine [Installable File System Drivers], ntifs/IoGetRequestorSessionId, IoGetRequestorSessionId, ioref_fe60ee3b-1b5b-4d9c-a4f2-456e05575349.xml, ifsk.iogetrequestorsessionid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows Server
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoGetRequestorSessionId
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoGetRequestorSessionId
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # IoGetRequestorSessionId function
 
 
-
 ## -description
+
+
 The <b>IoGetRequestorSessionId</b> routine returns the session ID for the process that originally requested a given I/O operation.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS IoGetRequestorSessionId(
@@ -54,6 +64,9 @@ NTSTATUS IoGetRequestorSessionId(
 
 
 ## -parameters
+
+
+
 
 ### -param Irp [in]
 
@@ -67,21 +80,18 @@ A pointer to a caller-allocated variable that receives the session ID for the pr
 
 ## -returns
 
+
+
 <a href="..\ntifs\nf-ntifs-iogetrequestorprocessid.md">IoGetRequestorProcessId</a> returns STATUS_SUCCESS if the session ID is successfully returned, STATUS_UNSUCCESSFUL otherwise. STATUS_UNSUCCESSFUL is an error NTSTATUS value. 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-iogetrequestorprocess.md">IoGetRequestorProcess</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-iogetrequestorprocessid.md">IoGetRequestorProcessId</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-iogetrequestorprocess.md">IoGetRequestorProcess</a>
+
  
 
  

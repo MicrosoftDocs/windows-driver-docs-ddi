@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 842842c2-ed79-4c8a-b9c1-d73c47998f91
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SendLIRR_OUT, SendLIRR_OUT, *PSendLIRR_OUT
+ms.keywords: SendLIRR_OUT structure [Storage Devices], PSendLIRR_OUT structure pointer [Storage Devices], *PSendLIRR_OUT, _SendLIRR_OUT, hbapiwmi/SendLIRR_OUT, hbapiwmi/PSendLIRR_OUT, structs-Fibre_193ae454-313d-4ada-a161-39c403226edf.xml, PSendLIRR_OUT, storage.sendlirr_out, SendLIRR_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SendLIRR_OUT
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	SendLIRR_OUT
+product: Windows
+targetos: Windows
 req.typenames: SendLIRR_OUT, *PSendLIRR_OUT
 ---
 
 # _SendLIRR_OUT structure
 
 
-
 ## -description
+
+
 The SendLIRR_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565419">SendLIRR</a> WMI method to the WMI client.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SendLIRR_OUT {
@@ -56,6 +66,9 @@ typedef struct _SendLIRR_OUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HBAStatus
 
@@ -78,15 +91,16 @@ Contains the results of the LIRR command.
 
 
 ## -remarks
+
+
 The WMI tool suite generates a declaration of the SendLIRR_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565419">SendLIRR</a>
-</dt>
-</dl>
+
  
 
  

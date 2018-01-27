@@ -7,8 +7,8 @@ old-location: debugger\extremotetyped_gettypefieldoffset.htm
 old-project: debugger
 ms.assetid: 5f966bf0-2dc3-4422-bfec-09d1b136f9f0
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ExtRemoteTyped, ExtRemoteTyped::GetTypeFieldOffset, GetTypeFieldOffset
+ms.date: 1/19/2018
+ms.keywords: GetTypeFieldOffset, ExtRemoteTyped, GetTypeFieldOffset method [Windows Debugging], ExtRemoteTyped::GetTypeFieldOffset, ExtRemoteTyped interface [Windows Debugging], GetTypeFieldOffset method, EngExtCpp_Ref_f916dec8-a1be-4180-aa87-33136677949f.xml, GetTypeFieldOffset method [Windows Debugging], ExtRemoteTyped interface, debugger.extremotetyped_gettypefieldoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExtRemoteTyped.GetTypeFieldOffset
-req.alt-loc: engextcpp.hpp
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-req.typenames: *PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	engextcpp.hpp
+apiname: 
+-	ExtRemoteTyped.GetTypeFieldOffset
+product: Windows
+targetos: Windows
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteTyped::GetTypeFieldOffset method
 
 
-
 ## -description
+
+
 The <b>GetTypeFieldOffset</b> static method returns the offset of a member within a structure.
 
 
-
 ## -syntax
+
 
 ````
 static ULONG GetTypeFieldOffset(
@@ -54,6 +64,9 @@ static ULONG GetTypeFieldOffset(
 
 
 ## -parameters
+
+
+
 
 ### -param Type [in]
 
@@ -66,7 +79,8 @@ The name of the member in the structure.  You can specify sub-members  by using 
 
 
 ## -returns
+
+
 <b>GetTypeFieldOffset</b> returns the number of bytes between the address of an instance of the structure and address of the instance's member.
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 10662237-18b4-4f37-a704-985b2db0d689
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: IBidiSpl2, IBidiSpl2::UnbindDevice, UnbindDevice
+ms.keywords: bltooth.isbluetoothversionavailable, IsBluetoothVersionAvailable callback function [Bluetooth Devices], IsBluetoothVersionAvailable, PFNBTH_IS_BLUETOOTH_VERSION_AVAILABLE, PFNBTH_IS_BLUETOOTH_VERSION_AVAILABLE, bthddi/IsBluetoothVersionAvailable, bth_funcs_34a25a87-fa07-46dc-aeaa-411009990c8b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IsBluetoothVersionAvailable
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	bthddi.h
+apiname: 
+-	IsBluetoothVersionAvailable
+product: Windows
+targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # PFNBTH_IS_BLUETOOTH_VERSION_AVAILABLE callback
 
 
-
 ## -description
+
+
 The 
   <i>IsBluetoothVersionAvailable</i> function checks whether a given Bluetooth version is supported by the
   operating system.
 
 
-
 ## -prototype
+
 
 ````
 PFNBTH_IS_BLUETOOTH_VERSION_AVAILABLE IsBluetoothVersionAvailable;
@@ -60,6 +70,9 @@ BOOLEAN IsBluetoothVersionAvailable(
 
 ## -parameters
 
+
+
+
 ### -param MajorVersion [in]
 
 This parameter specifies the major version number of Bluetooth that is requested.
@@ -71,10 +84,17 @@ This parameter specifies the minor version number of Bluetooth that is requested
 
 
 ## -returns
+
+
 <i>IsBluetoothVersionAvailable</i> returns <b>TRUE</b> if the Bluetooth version that the operating system
      provides is greater than or equal to the Bluetooth version number that is being requested.
 
 
+
 ## -remarks
+
+
 Bluetooth profile drivers should call this function before performing any operations that are not
-    supported in all Bluetooth versions.</p>
+    supported in all Bluetooth versions.
+
+

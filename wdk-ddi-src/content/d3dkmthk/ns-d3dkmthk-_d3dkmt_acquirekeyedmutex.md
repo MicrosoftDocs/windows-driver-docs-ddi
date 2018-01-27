@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: de089f63-b2f4-4e8e-b653-15db3259a45e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_ACQUIREKEYEDMUTEX, D3DKMT_ACQUIREKEYEDMUTEX
+ms.keywords: D3DKMT_ACQUIREKEYEDMUTEX, display.d3dkmt_acquirekeyedmutex, OpenGL_Structs_114ed313-61ac-4c09-97fa-8b47a0aa40d1.xml, D3DKMT_ACQUIREKEYEDMUTEX structure [Display Devices], d3dkmthk/D3DKMT_ACQUIREKEYEDMUTEX, _D3DKMT_ACQUIREKEYEDMUTEX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3DKMT_ACQUIREKEYEDMUTEX is supported beginning with 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_ACQUIREKEYEDMUTEX
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_ACQUIREKEYEDMUTEX
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_ACQUIREKEYEDMUTEX
 ---
 
 # _D3DKMT_ACQUIREKEYEDMUTEX structure
 
 
-
 ## -description
+
+
 The D3DKMT_ACQUIREKEYEDMUTEX structure describes a keyed mutex that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a> function acquires. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_ACQUIREKEYEDMUTEX {
@@ -56,6 +66,9 @@ typedef struct _D3DKMT_ACQUIREKEYEDMUTEX {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hKeyedMutex
 
@@ -81,15 +94,10 @@ If *<b>pTimeout</b> = 0, <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmute
 [out] A 64-bit value that specifies the current fence value of the GPU synchronization object. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a>
-</dt>
-</dl>
+
  
 
  

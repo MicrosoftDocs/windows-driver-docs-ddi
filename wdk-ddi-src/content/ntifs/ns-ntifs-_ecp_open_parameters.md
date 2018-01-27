@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1223C77A-EAEC-4FCF-B2CC-F1E2935AF5CB
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _ECP_OPEN_PARAMETERS, ECP_OPEN_PARAMETERS, *PECP_OPEN_PARAMETERS
+ms.keywords: ECP_OPEN_PARAMETERS structure [Installable File System Drivers], PECP_OPEN_PARAMETERS structure pointer [Installable File System Drivers], *PECP_OPEN_PARAMETERS, ECP_OPEN_PARAMETERS, ifsk.ecp_open_parameters, ntifs/ECP_OPEN_PARAMETERS, PECP_OPEN_PARAMETERS, ntifs/PECP_OPEN_PARAMETERS, _ECP_OPEN_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10, version 1709.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ECP_OPEN_PARAMETERS
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	ECP_OPEN_PARAMETERS
+product: Windows
+targetos: Windows
 req.typenames: ECP_OPEN_PARAMETERS, *PECP_OPEN_PARAMETERS
 ---
 
 # _ECP_OPEN_PARAMETERS structure
 
 
-
 ## -description
+
+
 The <b>ECP_OPEN_PARAMETERS</b> structure allows a caller to specify the purpose of opening of a file without interfering with existing handles and/or oplocks on the file. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ECP_OPEN_PARAMETERS {
@@ -55,6 +65,9 @@ typedef struct _ECP_OPEN_PARAMETERS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -69,7 +82,6 @@ Reserved for future use. This must be initialized to 0.
 ### -field Flags
 
 Flags that Specify the parameters or purpose for opening a file. Contains one of the following values:
-
 <table>
 <tr>
 <th>Name</th>
@@ -91,8 +103,5 @@ Flags that Specify the parameters or purpose for opening a file. Contains one of
 <td>0x04</td>
 <td>Opening file to delete it.</td>
 </tr>
-</table>
- 
+</table> 
 
-
-## -remarks

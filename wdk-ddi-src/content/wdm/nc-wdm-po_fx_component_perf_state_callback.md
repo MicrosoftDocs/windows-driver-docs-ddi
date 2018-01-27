@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A54376E6-FBA2-4A27-83C7-8E3B6F2B2A05
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+ms.keywords: kernel.componentperfstatecallback, ComponentPerfStateCallback routine [Kernel-Mode Driver Architecture], ComponentPerfStateCallback, PO_FX_COMPONENT_PERF_STATE_CALLBACK, PO_FX_COMPONENT_PERF_STATE_CALLBACK, wdm/ComponentPerfStateCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ComponentPerfStateCallback
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wdm.h
+apiname: 
+-	ComponentPerfStateCallback
+product: Windows
+targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PO_FX_COMPONENT_PERF_STATE_CALLBACK callback
 
 
-
 ## -description
+
+
 The <i>ComponentPerfStateCallback</i> callback routine notifies the driver that its request to change the performance state of a component is complete.
 
 
-
 ## -prototype
+
 
 ````
 PO_FX_COMPONENT_PERF_STATE_CALLBACK ComponentPerfStateCallback;
@@ -60,6 +70,9 @@ VOID CALLBACK ComponentPerfStateCallback(
 
 
 ## -parameters
+
+
+
 
 ### -param Context [in]
 
@@ -82,10 +95,15 @@ Pointer to the optional driver or device context that was specified by the <i>Co
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 When a device driver requests a performance state change by calling the  <a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechange.md">PoFxIssueComponentPerfStateChange</a> or <a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechangemultiple.md">PoFxIssueComponentPerfStateChangeMultiple</a> routine, PoFx calls the <i>ComponentPerfStateCallback</i>  routine to notify the driver when the request is complete. 
 
 To specify a <i>ComponentPerfStateCallback</i> routine, use the <i>ComponentPerfStateCallback</i> parameter of the <a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a> routine when the driver registers for performance state management by PoFx. The <i>ComponentPerfStateCallback</i> routine may be the same for all components and all devices.
@@ -94,18 +112,15 @@ If <i>Succeeded</i> is TRUE, the driver should perform whatever work is necessar
 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechange.md">PoFxIssueComponentPerfStateChange</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechangemultiple.md">PoFxIssueComponentPerfStateChangeMultiple</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechange.md">PoFxIssueComponentPerfStateChange</a>
+
  
 
  

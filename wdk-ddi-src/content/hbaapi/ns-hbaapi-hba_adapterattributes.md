@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d86a5810-7014-41d5-bd88-3a1bd50032da
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_AdapterAttributes, *PHBA_ADAPTERATTRIBUTES, HBA_ADAPTERATTRIBUTES
+ms.keywords: PHBA_ADAPTERATTRIBUTES structure pointer [Storage Devices], hbaapi/PHBA_ADAPTERATTRIBUTES, PHBA_ADAPTERATTRIBUTES, *PHBA_ADAPTERATTRIBUTES, structs-Fibre_364bd5e8-0276-425b-a1f9-9659aabecd19.xml, HBA_ADAPTERATTRIBUTES structure [Storage Devices], HBA_AdapterAttributes structure [Storage Devices], storage.hba_adapterattributes, HBA_ADAPTERATTRIBUTES, hbaapi/HBA_AdapterAttributes, HBA_AdapterAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBA_ADAPTERATTRIBUTES
-req.alt-loc: hbaapi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PHBA_ADAPTERATTRIBUTES, HBA_ADAPTERATTRIBUTES
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbaapi.h
+apiname: 
+-	HBA_ADAPTERATTRIBUTES
+product: Windows
+targetos: Windows
+req.typenames: HBA_ADAPTERATTRIBUTES, *PHBA_ADAPTERATTRIBUTES
 ---
 
 # HBA_AdapterAttributes structure
 
 
-
 ## -description
+
+
 The HBA_AdapterAttributes structure is used in conjunction with the <a href="..\hbaapi\nf-hbaapi-hba_getadapterattributes.md">HBA_GetAdapterAttributes</a> routine to report the attributes of an HBA.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct HBA_AdapterAttributes {
@@ -65,6 +75,9 @@ typedef struct HBA_AdapterAttributes {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Manufacturer
 
@@ -131,15 +144,10 @@ Indicates the number of ports on the HBA.
 Contains a string not exceeding 256 bytes in length that indicates name of the file that contains the binary image of the device driver for the HBA. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\hbaapi\nf-hbaapi-hba_getadapterattributes.md">HBA_GetAdapterAttributes</a>
-</dt>
-</dl>
+
  
 
  

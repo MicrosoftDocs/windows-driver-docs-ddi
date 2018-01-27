@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6bddeaeb-9913-4c90-b8ac-3a9f7b384b80
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSiSCSI_TargetMappings, MSiSCSI_TargetMappings, *PMSiSCSI_TargetMappings
+ms.keywords: iscsiop/MSiSCSI_TargetMappings, structs-iSCSI_b8a3267a-8bab-4be6-9f3c-4086cc54f0f5.xml, MSiSCSI_TargetMappings structure [Storage Devices], iscsiop/PMSiSCSI_TargetMappings, PMSiSCSI_TargetMappings structure pointer [Storage Devices], _MSiSCSI_TargetMappings, MSiSCSI_TargetMappings, PMSiSCSI_TargetMappings, *PMSiSCSI_TargetMappings, storage.msiscsi_targetmappings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSiSCSI_TargetMappings
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	MSiSCSI_TargetMappings
+product: Windows
+targetos: Windows
 req.typenames: MSiSCSI_TargetMappings, *PMSiSCSI_TargetMappings
 ---
 
 # _MSiSCSI_TargetMappings structure
 
 
-
 ## -description
+
+
 The MSiSCSI_TargetMappings structure contains a set of logical unit number (LUN) mappings that are associated with an initiator instance. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSiSCSI_TargetMappings {
@@ -56,6 +66,9 @@ typedef struct _MSiSCSI_TargetMappings {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UniqueAdapterId
 
@@ -78,21 +91,20 @@ A variable-length array of <a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping
 
 
 ## -remarks
+
+
 You must implement this class.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a>
-</dt>
-<dt>
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563147">MSiSCSI_TargetMappings WMI Class</a>
-</dt>
-</dl>
+
+<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
+
+<a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a>
+
  
 
  

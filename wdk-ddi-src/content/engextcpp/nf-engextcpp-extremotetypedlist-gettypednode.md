@@ -7,8 +7,8 @@ old-location: debugger\extremotetypedlist_gettypednode.htm
 old-project: debugger
 ms.assetid: f74090c9-4e15-4d6c-bb62-b8d5c56d5a1c
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ExtRemoteTypedList, ExtRemoteTypedList::GetTypedNode, GetTypedNode
+ms.date: 1/19/2018
+ms.keywords: debugger.extremotetypedlist_gettypednode, ExtRemoteTypedList class [Windows Debugging], GetTypedNode method, EngExtCpp_Ref_d00ee135-bef4-4326-97e5-374d52fd20a6.xml, ExtRemoteTypedList::GetTypedNode, GetTypedNode method [Windows Debugging], ExtRemoteTypedList class, ExtRemoteTypedList, GetTypedNode method [Windows Debugging], GetTypedNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExtRemoteTypedList.GetTypedNode
-req.alt-loc: engextcpp.hpp
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-req.typenames: *PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	engextcpp.hpp
+apiname: 
+-	ExtRemoteTypedList.GetTypedNode
+product: Windows
+targetos: Windows
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteTypedList::GetTypedNode method
 
 
-
 ## -description
+
+
 The <b>GetTypedNode</b> method returns the current list item.
 
 
-
 ## -syntax
+
 
 ````
 ExtRemoteTyped GetTypedNode();
@@ -53,12 +63,12 @@ ExtRemoteTyped GetTypedNode();
 ## -parameters
 
 
+
+
+
 ## -returns
+
+
 <b>GetTypedNode</b> returns a typed data description of the current list item.
 
-<b>GetTypedNode</b> returns a typed data description of the current list item.
 
-<b>GetTypedNode</b> returns a typed data description of the current list item.
-
-
-## -remarks

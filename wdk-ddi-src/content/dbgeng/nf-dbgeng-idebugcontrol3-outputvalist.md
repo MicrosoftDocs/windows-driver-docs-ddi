@@ -7,8 +7,8 @@ old-location: debugger\outputvalist.htm
 old-project: debugger
 ms.assetid: 6b2c0c43-26a3-4e66-aa9f-45b431ce6516
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugControl3, IDebugControl3::OutputVaList, OutputVaList
+ms.date: 1/19/2018
+ms.keywords: OutputVaList method [Windows Debugging], IDebugControl interface, OutputVaList method [Windows Debugging], IDebugControl3 interface [Windows Debugging], OutputVaList method, IDebugControl2::OutputVaList, OutputVaList method [Windows Debugging], IDebugControl3 interface, IDebugControl_4c0f8057-9e61-4a89-a2e8-be15bd49e5fc.xml, debugger.outputvalist, dbgeng/IDebugControl2::OutputVaList, dbgeng/IDebugControl3::OutputVaList, OutputVaList method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::OutputVaList, OutputVaList, IDebugControl::OutputVaList, IDebugControl2 interface [Windows Debugging], OutputVaList method, IDebugControl3::OutputVaList, IDebugControl3, IDebugControl interface [Windows Debugging], OutputVaList method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugControl.OutputVaList,IDebugControl2.OutputVaList,IDebugControl3.OutputVaList
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,36 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugControl.OutputVaList
+-	IDebugControl2.OutputVaList
+-	IDebugControl3.OutputVaList
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugControl3::OutputVaList method
 
 
-
 ## -description
-The <b>OutputVaList</b>  method formats a string and sends the result to the <a href="debugger.using_input_and_output#output_callbacks#output_callbacks">output callbacks</a> that are registered with the engine's clients.
 
+
+The <b>OutputVaList</b>  method formats a string and sends the result to the <a href="https://msdn.microsoft.com/7a23ee09-0314-400a-8152-eef49a225427">output callbacks</a> that are registered with the engine's clients.
 
 
 ## -syntax
+
 
 ````
 HRESULT OutputVaList(
@@ -56,6 +68,9 @@ HRESULT OutputVaList(
 
 ## -parameters
 
+
+
+
 ### -param Mask [in]
 
 Specifies the output-type bit field.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a> for possible values.
@@ -66,7 +81,6 @@ Specifies the output-type bit field.  See <a href="https://msdn.microsoft.com/li
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
 The <b>%p</b> conversion character is supported, but it represents a pointer in a target's address space.  It might not have any modifiers, and it uses the debugger's internal address formatting.  The following additional conversion characters are supported.
-
 <table>
 <tr>
 <th>Character</th>
@@ -236,8 +250,7 @@ String that contains the name of the specified symbol (and displacement, if any)
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Args [in]
@@ -246,42 +259,53 @@ Specifies additional parameters that represent values to be inserted into the ou
 
 
 ## -returns
+
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method was successful.
+</dl>
+</td>
+<td width="60%">
+The method was successful.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 When generating very large output strings, it is possible to reach the limits of the debugger engine or of the operating system.  For example, some versions of the debugger engine have a 16K character limit for a single output.  If you find that very large output is getting truncated, you might need to split your output into multiple requests.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-</dt>
-<dt>
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-</dt>
-<dt>
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-</dt>
-<dt>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
-</dt>
-<dt>
+
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
-</dt>
-</dl>
- 
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::OutputVaList method%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::OutputVaList method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

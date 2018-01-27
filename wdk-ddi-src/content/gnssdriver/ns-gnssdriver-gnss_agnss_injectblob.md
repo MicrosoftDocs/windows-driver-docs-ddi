@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: DAC91C40-C9B3-433C-AA64-CE4C021CD8C5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_AGNSS_INJECTBLOB, *PGNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB
+ms.keywords: GNSS_AGNSS_INJECTBLOB structure [Sensor Devices], PGNSS_AGNSS_INJECTBLOB structure pointer [Sensor Devices], GNSS_AGNSS_INJECTBLOB, gnssdriver/GNSS_AGNSS_INJECTBLOB, sensors.gnss_agnss_injectblob, PGNSS_AGNSS_INJECTBLOB, *PGNSS_AGNSS_INJECTBLOB, gnssdriver/PGNSS_AGNSS_INJECTBLOB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GNSS_AGNSS_INJECTBLOB
-req.alt-loc: gnssdriver.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	gnssdriver.h
+apiname: 
+-	GNSS_AGNSS_INJECTBLOB
+product: Windows
+targetos: Windows
 req.typenames: *PGNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB
 ---
 
 # GNSS_AGNSS_INJECTBLOB structure
 
 
-
 ## -description
+
+
 This structure defines the format for AGNSS extended ephemeris injection.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -59,6 +69,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -92,11 +105,15 @@ The formats are defined as macros (GNSS_AGNSSFORMAT_*).
 Size of the blob data in bytes.
 
 
-### -field BlobData[ANYSIZE_ARRAY]
+### -field BlobData
+
+ 
+
+
+
+#### - BlobData[ANYSIZE_ARRAY]
 
 This field defines the start of the blob data.
 
 The structure only contains the first byte of the blob data. The rest of the blob data is saved right after the structure in the memory. The size of the blob  is indicated by BlobSize.
 
-
-## -remarks

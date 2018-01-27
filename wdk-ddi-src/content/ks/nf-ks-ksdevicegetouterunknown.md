@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a63cdc50-6bbb-4bff-8536-0bf31fed01de
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDeviceGetOuterUnknown
+ms.keywords: avfunc_c1b85ab7-92b9-4c7c-a9c8-0cf1f9e93458.xml, stream.ksdevicegetouterunknown, ks/KsDeviceGetOuterUnknown, KsDeviceGetOuterUnknown function [Streaming Media Devices], KsDeviceGetOuterUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsDeviceGetOuterUnknown
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KsDeviceGetOuterUnknown
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsDeviceGetOuterUnknown function
 
 
-
 ## -description
+
+
 The<b> KsDeviceGetOuterUnknown</b> function returns the outer <b>IUnknown</b> of the AVStream device specified by <i>Device</i>.
 
 
-
 ## -syntax
+
 
 ````
 PUNKNOWN __inline KsDeviceGetOuterUnknown(
@@ -54,40 +64,42 @@ PUNKNOWN __inline KsDeviceGetOuterUnknown(
 
 ## -parameters
 
+
+
+
 ### -param Device [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure for which to get the outer unknown interface.
 
 
 ## -returns
+
+
 Returns a pointer to an outer <b>IUnknown</b> of <i>Device</i>. This interface can then be used to query for other interfaces.
 
 
+
 ## -remarks
+
+
 This call is an inline function call to <a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksfilterfactorygetouterunknown.md">KsFilterFactoryGetOuterUnknown</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-kspingetouterunknown.md">KsPinGetOuterUnknown</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
-</dt>
-<dt>
-<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
+
+<a href="..\ks\nf-ks-kspingetouterunknown.md">KsPinGetOuterUnknown</a>
+
+<a href="..\ks\nf-ks-ksfilterfactorygetouterunknown.md">KsFilterFactoryGetOuterUnknown</a>
+
+<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
+
+<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
+
  
 
  

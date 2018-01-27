@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bc0a309d-305e-400a-b571-7958926dd1dc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSMETHOD_SET_IRP_STORAGE
+ms.keywords: KSMETHOD_SET_IRP_STORAGE macro [Streaming Media Devices], ksfunc_d413bf2a-7d63-48c2-9e75-d84cf1344f5c.xml, stream.ksmethod_set_irp_storage, ks/KSMETHOD_SET_IRP_STORAGE, KSMETHOD_SET_IRP_STORAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSMETHOD_SET_IRP_STORAGE
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ks.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSMETHOD_SET_IRP_STORAGE
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KSMETHOD_SET_IRP_STORAGE macro
 
 
-
 ## -description
+
+
 This macro returns a pointer to the <a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a> in which the method is located.
 
 
-
 ## -syntax
+
 
 ````
 VOID KSMETHOD_SET_IRP_STORAGE(
@@ -54,38 +64,37 @@ VOID KSMETHOD_SET_IRP_STORAGE(
 
 ## -parameters
 
+
+
+
 ### -param Irp [in]
 
 Specifies the IRP passed to the handler routine.
 
 
 ## -remarks
+
+
 The pointer to a KSMETHOD_SET structure is extracted from <b>Irp-&gt;Tail.Overlay.DriverContext</b>. Parameters in <b>DriverContext</b> are initialized by <a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a> and <a href="..\ks\nf-ks-ksmethodhandlerwithallocator.md">KsMethodHandlerWithAllocator</a>.
 
 The macro is defined as follows:
+<pre class="syntax" xml:space="preserve"><code>#define KSMETHOD_SET_IRP_STORAGE(Irp)       (*(const KSMETHOD_SET**)&amp;(Irp)-&gt;Tail.Overlay.DriverContext[0])</code></pre>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksfastmethodhandler.md">KsFastMethodHandler</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksmethodhandlerwithallocator.md">KsMethodHandlerWithAllocator</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
+
+<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
+
+<a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
+
+<a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
+
+<a href="..\ks\nf-ks-ksfastmethodhandler.md">KsFastMethodHandler</a>
+
  
 
  

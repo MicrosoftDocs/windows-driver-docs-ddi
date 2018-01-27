@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4b780fb7-f6d4-4248-882c-d0cc96106724
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_ADAPTERINFO, D3DKMT_ADAPTERINFO
+ms.keywords: D3DKMT_ADAPTERINFO structure [Display Devices], d3dkmthk/D3DKMT_ADAPTERINFO, display.d3dkmt_adapterinfo, _D3DKMT_ADAPTERINFO, D3DKMT_ADAPTERINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_ADAPTERINFO
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_ADAPTERINFO
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_ADAPTERINFO
 ---
 
 # _D3DKMT_ADAPTERINFO structure
 
 
-
 ## -description
+
+
 Supplies configuration information about a graphics adapter.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_ADAPTERINFO {
@@ -56,6 +66,9 @@ typedef struct _D3DKMT_ADAPTERINFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hAdapter
 
@@ -76,5 +89,3 @@ The number of video present sources supported by the adapter.
 
 If <b>TRUE</b>, the adapter prefers move regions.
 
-
-## -remarks

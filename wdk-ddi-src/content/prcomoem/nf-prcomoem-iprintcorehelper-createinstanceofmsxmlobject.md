@@ -7,8 +7,8 @@ old-location: print\iprintcorehelper_createinstanceofmsxmlobject.htm
 old-project: print
 ms.assetid: d4b91262-f349-4824-bab0-5e3725a81cb3
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IPrintCoreHelper, IPrintCoreHelper::CreateInstanceOfMSXMLObject, CreateInstanceOfMSXMLObject
+ms.date: 1/18/2018
+ms.keywords: print_unidrv-pscript_allplugins_2768e9fd-1f73-400c-8e16-e1376a0e8633.xml, CreateInstanceOfMSXMLObject, IPrintCoreHelper::CreateInstanceOfMSXMLObject, IPrintCoreHelper, print.iprintcorehelper_createinstanceofmsxmlobject, IPrintCoreHelper interface [Print Devices], CreateInstanceOfMSXMLObject method, prcomoem/IPrintCoreHelper::CreateInstanceOfMSXMLObject, CreateInstanceOfMSXMLObject method [Print Devices], IPrintCoreHelper interface, CreateInstanceOfMSXMLObject method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPrintCoreHelper.CreateInstanceOfMSXMLObject
-req.alt-loc: prcomoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	prcomoem.h
+apiname: 
+-	IPrintCoreHelper.CreateInstanceOfMSXMLObject
+product: Windows
+targetos: Windows
+req.typenames: *POEMPTOPTS, OEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
 # IPrintCoreHelper::CreateInstanceOfMSXMLObject method
 
 
-
 ## -description
+
+
 The <b>IPrintCoreHelper::CreateInstanceOfMSXMLObject</b> method creates an instance of an MSXML 6.0 object by using the correct MSXML DLL. 
 
 
-
 ## -syntax
+
 
 ````
 HRESULT CreateInstanceOfMSXMLObject(
@@ -58,6 +68,9 @@ HRESULT CreateInstanceOfMSXMLObject(
 
 
 ## -parameters
+
+
+
 
 ### -param rclsid [in]
 
@@ -85,24 +98,67 @@ A pointer to a variable that receives the address of the interface that is reque
 
 
 ## -returns
+
+
 <b>IPrintCoreHelper::CreateInstanceOfMSXMLObject</b> should return one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>An instance of the specified object class was successfully created.
+</dl>
+</td>
+<td width="60%">
+An instance of the specified object class was successfully created.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>CLASS_E_NOAGGREGATION</b></dt>
-</dl>The specified class cannot be created as part of an aggregate.
+</dl>
+</td>
+<td width="60%">
+The specified class cannot be created as part of an aggregate.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_NOINTERFACE</b></dt>
-</dl>The specified class does not implement the requested interface, or the controlling <b>IUnknown</b> interface does not expose the requested interface.
+</dl>
+</td>
+<td width="60%">
+The specified class does not implement the requested interface, or the controlling <b>IUnknown</b> interface does not expose the requested interface.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>REGDB_E_CLASSNOTREG</b></dt>
-</dl>A specified class is not registered in the registration database. This value can also indicate that the type of server you requested in the CLSCTX enumeration type is not registered or the values for the server types in the registry are corrupt.
+</dl>
+</td>
+<td width="60%">
+A specified class is not registered in the registration database. This value can also indicate that the type of server you requested in the CLSCTX enumeration type is not registered or the values for the server types in the registry are corrupt.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>IPrintCoreHelper::CreateInstanceOfMSXMLObject</b> enables a plug-in to use MSXML objects safely even when it runs on down-level client machines (that is, client machines that run Windows Server 2003, Windows XP, or Windows 2000). 
 
-The parameters in this method map directly to those of the <b>CoCreateInstance</b> function (which is described in the Windows SDK documentation). Note that installing a Windows Vista driver on a machine that runs a previous version of Windows does not cause MSXML 6.0 to be installed. The actual DLL is included with the driver-dependent DLLs and is loaded from the driver directory. It is not registered on the system. Plug-ins that use this method should create only MSXML objects.</p>
+The parameters in this method map directly to those of the <b>CoCreateInstance</b> function (which is described in the Windows SDK documentation). Note that installing a Windows Vista driver on a machine that runs a previous version of Windows does not cause MSXML 6.0 to be installed. The actual DLL is included with the driver-dependent DLLs and is loaded from the driver directory. It is not registered on the system. Plug-ins that use this method should create only MSXML objects.
+
+

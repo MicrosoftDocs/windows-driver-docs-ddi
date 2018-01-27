@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2B56A2D3-1FA6-4212-A83C-3C20D826353B
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER
+ms.keywords: storage.hwstortracingenabled, HwStorTracingEnabled routine [Storage Devices], HwStorTracingEnabled, HW_TRACING_ENABLED, HW_TRACING_ENABLED, storport/HwStorTracingEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 8 and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HwStorTracingEnabled
-req.alt-loc: Storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Storport.h
+apiname: 
+-	HwStorTracingEnabled
+product: Windows
+targetos: Windows
 req.typenames: *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # HW_TRACING_ENABLED callback
 
 
-
 ## -description
+
+
 The <b>HwStorTracingEnabled</b> callback routine enables the Storport to notify a miniport that event tracing is enabled. 
 
 
-
 ## -prototype
+
 
 ````
 HW_TRACING_ENABLED HwStorTracingEnabled;
@@ -59,9 +69,11 @@ VOID HwStorTracingEnabled(
 
 ## -parameters
 
-### -param DeviceExtension [in]
 
-A pointer to the miniport driver's per-HBA storage area. 
+
+
+### -param HwDeviceExtension
+
 
 
 ### -param Enabled [in]
@@ -69,20 +81,43 @@ A pointer to the miniport driver's per-HBA storage area.
 True to enable tracing in the miniport. Otherwise, false.
 
 
+#### - DeviceExtension [in]
+
+A pointer to the miniport driver's per-HBA storage area. 
+
+
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 The name <i>HwStorTracingEnabled</i> is placeholder text for the actual routine name. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef
+VOID
+HW_TRACING_ENABLED (
+    _In_ PVOID HwDeviceExtension,
+    _In_ BOOLEAN Enabled
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
-</dt>
-</dl>
+
  
 
  

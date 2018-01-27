@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 191874ec-5d08-430e-ad14-520392e1a904
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGateRemoveOffInputFromOr
+ms.keywords: ks/KsGateRemoveOffInputFromOr, stream.ksgateremoveoffinputfromor, KsGateRemoveOffInputFromOr function [Streaming Media Devices], KsGateRemoveOffInputFromOr, avfunc_6431bb18-7f16-4a0f-b012-c0137d85fba8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsGateRemoveOffInputFromOr
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KsGateRemoveOffInputFromOr
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsGateRemoveOffInputFromOr function
 
 
-
 ## -description
+
+
 The<b> KsGateRemoveOffInputFromOr</b> function removes an existing input that is in the OFF state from an OR gate.
 
 
-
 ## -syntax
+
 
 ````
 void __inline KsGateRemoveOffInputFromOr(
@@ -54,16 +64,24 @@ void __inline KsGateRemoveOffInputFromOr(
 
 ## -parameters
 
+
+
+
 ### -param OrGate [in]
 
 A pointer to the <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure representing the OR gate from which to remove an OFF input.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>KsGateRemoveOffInputFromOr</b> should only be used on gates that were specifically created as AND gates; AVStream does not verify that the given gate is truly an AND gate.
 
 For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>.
@@ -71,24 +89,19 @@ For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3
 This call is an empty function. It should be used for code readability and clarity. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksgateaddoffinputtoor.md">KsGateAddOffInputToOr</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksgateaddoninputtoor.md">KsGateAddOnInputToOr</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksgateremoveoninputfromor.md">KsGateRemoveOnInputFromOr</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksgateaddoninputtoor.md">KsGateAddOnInputToOr</a>
+
+<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
+
+<a href="..\ks\nf-ks-ksgateaddoffinputtoor.md">KsGateAddOffInputToOr</a>
+
+<a href="..\ks\nf-ks-ksgateremoveoninputfromor.md">KsGateRemoveOnInputFromOr</a>
+
  
 
  

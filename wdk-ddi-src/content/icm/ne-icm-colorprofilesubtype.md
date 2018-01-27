@@ -7,8 +7,8 @@ old-location: print\colorprofilesubtype.htm
 old-project: print
 ms.assetid: 7ec0dd2d-7be5-4c85-8096-64a45aee01a5
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: COLORPROFILESUBTYPE, COLORPROFILESUBTYPE, *PCOLORPROFILESUBTYPE
+ms.date: 1/18/2018
+ms.keywords: CPST_PERCEPTUAL, CPST_RELATIVE_COLORIMETRIC, print.colorprofilesubtype, icm/CPST_CUSTOM_WORKING_SPACE, icm/CPST_NONE, CPST_SATURATION, icm/COLORPROFILESUBTYPE, icm/CPST_RGB_WORKING_SPACE, icm/CPST_PERCEPTUAL, icm/CPST_RELATIVE_COLORIMETRIC, COLORPROFILESUBTYPE, icm/CPST_SATURATION, CPST_ABSOLUTE_COLORIMETRIC, COLORPROFILESUBTYPE enumeration [Print Devices], CPST_NONE, colorfnc_10016472-785a-4ef5-95c2-7fd3699a6a81.xml, icm/CPST_ABSOLUTE_COLORIMETRIC, CPST_RGB_WORKING_SPACE, *PCOLORPROFILESUBTYPE, CPST_CUSTOM_WORKING_SPACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Included in Windows Vista and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: COLORPROFILESUBTYPE
-req.alt-loc: icm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	icm.h
+apiname: 
+-	COLORPROFILESUBTYPE
+product: Windows
+targetos: Windows
 req.typenames: COLORPROFILESUBTYPE
 ---
 
 # COLORPROFILESUBTYPE enumeration
 
 
-
 ## -description
+
+
 The COLORPROFILESUBTYPE enumeration is used to specify the subtype of color profile.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -59,6 +69,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field CPST_PERCEPTUAL
 
@@ -95,24 +108,42 @@ Specifies the RGB color working space for ICC profiles or WCS device model profi
 Specifies a custom color working space.
 
 
+### -field CPST_STANDARD_DISPLAY_COLOR_MODE
+
+
+
+### -field CPST_EXTENDED_DISPLAY_COLOR_MODE
+
+
+
+
 ## -remarks
+
+
 For a description of rendering intents, see <a href="http://go.microsoft.com/fwlink/p/?linkid=52269">Rendering Intents</a> in the Windows SDK documentation.
 
 The PCOLORPROFILESUBTYPE and LPCOLORPROFILESUBTYPE data types are defined as pointers to this enumeration:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef COLORPROFILESUBTYPE *PCOLORPROFILESUBTYPE, *LPCOLORPROFILESUBTYPE;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a>
-</dt>
-<dt>
+
 <a href="..\icm\nf-icm-wcssetdefaultcolorprofile.md">WcsSetDefaultColorProfile</a>
-</dt>
-</dl>
- 
+
+<a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20COLORPROFILESUBTYPE enumeration%20 RELEASE:%20(1/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20COLORPROFILESUBTYPE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

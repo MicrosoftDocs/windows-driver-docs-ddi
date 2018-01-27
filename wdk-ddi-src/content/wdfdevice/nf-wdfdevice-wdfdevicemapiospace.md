@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 13ECF87D-13F7-4154-A17E-D49A2BB0F83A
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceMapIoSpace
+ms.keywords: wdf.wdfdevicemapiospace, wdfdevice/WdfDeviceMapIoSpace, WdfDeviceMapIoSpace function, WdfDeviceMapIoSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 2.0
-req.alt-api: WdfDeviceMapIoSpace
-req.alt-loc: WUDFx02000.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	WUDFx02000.dll
+apiname: 
+-	WdfDeviceMapIoSpace
+product: Windows
+targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # WdfDeviceMapIoSpace function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>WdfDeviceMapIoSpace</b> function maps the given physical address range to system address space and returns a pseudo base address.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS WdfDeviceMapIoSpace(
@@ -60,6 +70,9 @@ NTSTATUS WdfDeviceMapIoSpace(
 
 
 ## -parameters
+
+
+
 
 ### -param Device [in]
 
@@ -89,12 +102,17 @@ The address of a location that receives a pointer to the pseudo base address.
 
 
 ## -returns
+
+
 If the operation succeeds, the function returns STATUS_SUCCESS. 
 
 The function might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
+
 ## -remarks
+
+
 This function is the UMDF version 2 equivalent of <a href="https://msdn.microsoft.com/243C7299-7C74-408A-8FB9-32FB3315251F">IWDFDevice3::MapIoSpace</a>.
 
 A driver must call this function during device start-up if it receives translated resources of type <b>CmResourceTypeMemory</b> in a <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure. <b>WdfDeviceMapIoSpace</b> maps the physical address returned in the resource list to a framework-managed address referred to as the pseudo base address. 
@@ -115,15 +133,13 @@ The PHYSICAL_ADDRESS type is defined in Wudfwdm.h, as follows:<pre class="syntax
 For an example that shows how a driver finds and maps memory-mapped register resources, see <a href="https://msdn.microsoft.com/58A94C75-94C1-4517-A300-9F04AA7B771A">Reading and Writing to Device Registers</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceunmapiospace.md">WdfDeviceUnmapIoSpace</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/243C7299-7C74-408A-8FB9-32FB3315251F">IWDFDevice3::MapIoSpace</a>
-</dt>
-</dl>
+
  
 
  

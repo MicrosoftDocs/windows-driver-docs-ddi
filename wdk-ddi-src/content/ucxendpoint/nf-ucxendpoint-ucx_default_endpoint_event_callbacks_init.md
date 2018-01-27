@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: EE7ABC3D-948B-481B-B254-40A05EDEB83D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT
+ms.keywords: ucxendpoint/UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT, buses.ucx_default_endpoint_event_callbacks_init, UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT function [Buses], UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT
-req.alt-loc: ucxendpoint.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ucxendpoint.h
+apiname: 
+-	UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT
+product: Windows
+targetos: Windows
 req.typenames: UCX_ENDPOINT_CHARACTERISTIC_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT function
 
 
-
 ## -description
+
+
 Initializes a <a href="..\ucxendpoint\ns-ucxendpoint-_ucx_default_endpoint_event_callbacks.md">UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS</a> structure with client driver's callback functions. The client driver calls this function before calling <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a> method to create an endpoint and register its callback functions with UCX.
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE void UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT(
@@ -59,6 +69,9 @@ FORCEINLINE void UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT(
 
 
 ## -parameters
+
+
+
 
 ### -param Callbacks [out]
 
@@ -91,18 +104,16 @@ A pointer to client driver's implementation of the <a href="..\ucxendpoint\nc-uc
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
-</dt>
-</dl>
+
  
 
  

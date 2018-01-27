@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8a7e136a-fc87-481c-bb35-270408cb5071
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FILE_FS_CONTROL_INFORMATION, *PFILE_FS_CONTROL_INFORMATION, FILE_FS_CONTROL_INFORMATION
+ms.keywords: ntifs/FILE_FS_CONTROL_INFORMATION, FILE_FS_CONTROL_INFORMATION structure [Installable File System Drivers], PFILE_FS_CONTROL_INFORMATION, *PFILE_FS_CONTROL_INFORMATION, PFILE_FS_CONTROL_INFORMATION structure pointer [Installable File System Drivers], ifsk.file_fs_control_information, fileinformationstructures_387e4fd0-c3a2-4472-b29d-79f8a5d876f8.xml, ntifs/PFILE_FS_CONTROL_INFORMATION, FILE_FS_CONTROL_INFORMATION, _FILE_FS_CONTROL_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILE_FS_CONTROL_INFORMATION
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FILE_FS_CONTROL_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: *PFILE_FS_CONTROL_INFORMATION, FILE_FS_CONTROL_INFORMATION
 ---
 
 # _FILE_FS_CONTROL_INFORMATION structure
 
 
-
 ## -description
+
+
 The FILE_FS_CONTROL_INFORMATION structure is used to query or set control information for the files in a directory. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILE_FS_CONTROL_INFORMATION {
@@ -58,6 +68,9 @@ typedef struct _FILE_FS_CONTROL_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field FreeSpaceStartFiltering
 
@@ -87,7 +100,6 @@ Default per-user disk quota limit for the volume.
 ### -field FileSystemControlFlags
 
 Bitmask of flags that control quota enforcement and logging of user-related quota events on the volume. Logging makes an entry in the Windows application event log. Compatible combination of one or more of the following: 
-
 <table>
 <tr>
 <th>File System Control Flag</th>
@@ -183,11 +195,9 @@ If set, the file system is rebuilding the quota information for the volume.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 In addition, the following flag masks are defined. These are useful for testing flag values. 
-
 <table>
 <tr>
 <th>Mask</th>
@@ -223,53 +233,56 @@ ORed combination of all flags in the above table.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -remarks
-This information can be queried in either of the following ways: 
 
+
+This information can be queried in either of the following ways: 
+<ul>
+<li>
 Call <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, passing FileFsControlInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_FS_CONTROL_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
 
+</li>
+<li>
 Create an IRP with major function code IRP_MJ_QUERY_VOLUME_INFORMATION. 
 
-FILE_READ_DATA access to the volume is required to query this information. 
+</li>
+</ul>FILE_READ_DATA access to the volume is required to query this information. 
 
 This information can be set in either of the following ways: 
-
+<ul>
+<li>
 Call <a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a> or <a href="..\ntifs\nf-ntifs-zwsetvolumeinformationfile.md">ZwSetVolumeInformationFile</a>, passing FileFsControlInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_FS_CONTROL_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
 
+</li>
+<li>
 Create an IRP with major function code IRP_MJ_SET_VOLUME_INFORMATION. 
 
-FILE_WRITE_DATA access to the volume is required to set this information. 
+</li>
+</ul>FILE_WRITE_DATA access to the volume is required to set this information. 
 
 The size of the buffer passed in the <i>FileInformation</i> parameter to <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>, <a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>, <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, or <b>ZwSetVolumeInformationFile</b> must be at least <b>sizeof</b> (FILE_FS_CONTROL_INFORMATION). 
 
 This structure must be aligned on a LONGLONG (8-byte) boundary. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549415">IRP_MJ_SET_VOLUME_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-zwsetvolumeinformationfile.md">ZwSetVolumeInformationFile</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549415">IRP_MJ_SET_VOLUME_INFORMATION</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>
+
+<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
+
  
 
  

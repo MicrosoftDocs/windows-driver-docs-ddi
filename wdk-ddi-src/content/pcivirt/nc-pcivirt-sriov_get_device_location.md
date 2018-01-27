@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 705b52e3-f695-4c58-9ae2-5a806f1e2140
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _PARCLASS_INFORMATION, PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
+ms.keywords: PCI.sriov_get_device_location, SriovGetDeviceLocation callback function [Buses], SriovGetDeviceLocation, SRIOV_GET_DEVICE_LOCATION, SRIOV_GET_DEVICE_LOCATION, pcivirt/SriovGetDeviceLocation, *PSRIOV_GET_DEVICE_LOCATION callback function pointer [Buses], *PSRIOV_GET_DEVICE_LOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: *PSRIOV_GET_DEVICE_LOCATION
-req.alt-loc: Pcivirt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Pcivirt.h
+apiname: 
+-	*PSRIOV_GET_DEVICE_LOCATION
+product: Windows
+targetos: Windows
 req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---
 
 # SRIOV_GET_DEVICE_LOCATION callback
 
 
-
 ## -description
+
+
 Retrieves information about the current location of the PCI device on the bus, such as PCI Segment, Bus, Device and Function number. 
 
 
-
 ## -prototype
+
 
 ````
 SRIOV_GET_DEVICE_LOCATION SriovGetDeviceLocation;
@@ -62,6 +72,9 @@ typedef SRIOV_GET_DEVICE_LOCATION *PSRIOV_GET_DEVICE_LOCATION;
 
 
 ## -parameters
+
+
+
 
 ### -param Context [in]
 
@@ -91,10 +104,17 @@ A pointer to a variable that is filled in with the FunctionNumber, which further
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 This callback function is implemented by the physical function (PF) driver. It is invoked  when the system wants to retrieve the device location. 
 
-The PF driver registers its implementation by setting the <b>WriteVfConfigBlock</b> member of the <a href="https://msdn.microsoft.com/c71add7d-9920-4b2f-a46a-4a09a94f3900">SRIOV_DEVICE_INTERFACE_STANDARD</a>, configuring a <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure, and calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.</p>
+The PF driver registers its implementation by setting the <b>WriteVfConfigBlock</b> member of the <a href="https://msdn.microsoft.com/c71add7d-9920-4b2f-a46a-4a09a94f3900">SRIOV_DEVICE_INTERFACE_STANDARD</a>, configuring a <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure, and calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.
+
+

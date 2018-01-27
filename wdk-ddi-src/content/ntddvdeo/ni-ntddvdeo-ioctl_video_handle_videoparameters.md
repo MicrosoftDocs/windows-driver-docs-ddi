@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5c48d2b7-3dcc-4025-ab3c-12085369cd7d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS, TAPE_WRITE_MARKS
+ms.keywords: display.ioctl_video_handle_videoparameters, IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS control code [Display Devices], IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS, ntddvdeo/IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS, Video_IOCTLs_c94e510e-22f7-47af-8e82-f84ef2b926c6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS
-req.alt-loc: Ntddvdeo.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,66 +29,91 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PTAPE_WRITE_MARKS, TAPE_WRITE_MARKS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddvdeo.h
+apiname: 
+-	IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS
+product: Windows
+targetos: Windows
+req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ---
 
 # IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 Gets the capabilities of the device's television connector and/or copy protection hardware, or sets the desired functionality on the copy protection hardware. Adapters that support TV connectors should provide support for this modal IOCTL. See <a href="https://msdn.microsoft.com/7d7d44b5-3248-4bee-bc4d-e02fd3c606a7">TV Connector and Copy Protection Support in Video Miniport Drivers</a> for details.
 
-
-
-Gets the capabilities of the device's television connector and/or copy protection hardware, or sets the desired functionality on the copy protection hardware. Adapters that support TV connectors should provide support for this modal IOCTL. See <a href="https://msdn.microsoft.com/7d7d44b5-3248-4bee-bc4d-e02fd3c606a7">TV Connector and Copy Protection Support in Video Miniport Drivers</a> for details.
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 The VRP <b>InputBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570173">VIDEOPARAMETERS</a> structure that describes the action to be performed by the miniport driver.
 
 
 ### -input-buffer-length
 
+
 <text></text>
 
+
+
 ### -output-buffer
+
 The miniport driver returns the VIDEOPARAMETERS structure in the VRP <b>OutputBuffer</b>.
 
 
 ### -output-buffer-length
 
+
 <text></text>
+
+
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 If the miniport driver successfully gets or sets the requested information, it sets the <b>Information</b> member of the VRP's <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> to <b>sizeof</b>(VIDEOPARAMETERS); otherwise, the miniport driver sets this member to zero.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570173">VIDEOPARAMETERS</a>
-</dt>
-<dt>
+
 <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570173">VIDEOPARAMETERS</a>
+
  
 
  

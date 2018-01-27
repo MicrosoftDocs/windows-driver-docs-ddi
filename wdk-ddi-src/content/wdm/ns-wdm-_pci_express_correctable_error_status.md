@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 24d10f3a-5188-4dda-8e4e-1dc7ae2ddc88
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, *PPCI_CORRECTABLE_ERROR_STATUS, PCI_EXPRESS_CORRECTABLE_ERROR_STATUS
+ms.keywords: *PPCI_CORRECTABLE_ERROR_STATUS, PCI_EXPRESS_CORRECTABLE_ERROR_STATUS union [Buses], PCI.pci_express_correctable_error_status, PPCI_CORRECTABLE_ERROR_STATUS union pointer [Buses], PPCI_CORRECTABLE_ERROR_STATUS, PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, wdm/PPCI_CORRECTABLE_ERROR_STATUS, wdm/PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, pci_struct_1366a090-7405-4cd8-b725-19753a248441.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PCI_EXPRESS_CORRECTABLE_ERROR_STATUS
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	PCI_EXPRESS_CORRECTABLE_ERROR_STATUS
+product: Windows
+targetos: Windows
 req.typenames: *PPCI_CORRECTABLE_ERROR_STATUS, PCI_EXPRESS_CORRECTABLE_ERROR_STATUS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure
 
 
-
 ## -description
+
+
 The PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure describes a PCI Express (PCIe) correctable error status register of a PCIe advanced error reporting capability structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS {
@@ -66,49 +76,67 @@ typedef union _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS {
 
 ## -struct-fields
 
-### -field ReceiverError
-
-A single bit that indicates that a receiver error has occurred.
 
 
-### -field Reserved1
 
-Reserved.
+### -field DUMMYSTRUCTNAME
 
-
-### -field BadTLP
-
-A single bit that indicates that a bad transaction layer packet (TLP) error has occurred.
+ 
 
 
-### -field BadDLLP
+### -field DUMMYSTRUCTNAME.ReceiverError
 
-A single bit that indicates that a bad data link layer packet (DLLP) error has occurred.
-
-
-### -field ReplayNumRollover
-
-A single bit that indicates that the counter that counts the number of times the retry buffer has been re-transmitted has rolled over.
+ 
 
 
-### -field Reserved2
+### -field DUMMYSTRUCTNAME.Reserved1
 
-Reserved.
-
-
-### -field ReplayTimerTimeout
-
-A single bit that indicates that the replay timer has timed out.
+ 
 
 
-### -field AdvisoryNonFatalError
+### -field DUMMYSTRUCTNAME.BadTLP
 
-A single bit that indicates that an advisory non-fatal error has occurred.
+ 
 
 
-### -field Reserved3
+### -field DUMMYSTRUCTNAME.BadDLLP
 
-Reserved.
+ 
+
+
+### -field DUMMYSTRUCTNAME.ReplayNumRollover
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Reserved2
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.ReplayTimerTimeout
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.AdvisoryNonFatalError
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.CorrectedInternalError
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.HeaderLogOverflow
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Reserved3
+
+ 
 
 
 ### -field AsULONG
@@ -116,24 +144,68 @@ Reserved.
 A ULONG representation of the contents of the PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure.
 
 
+#### - Reserved2
+
+Reserved.
+
+
+#### - ReplayTimerTimeout
+
+A single bit that indicates that the replay timer has timed out.
+
+
+#### - BadDLLP
+
+A single bit that indicates that a bad data link layer packet (DLLP) error has occurred.
+
+
+#### - BadTLP
+
+A single bit that indicates that a bad transaction layer packet (TLP) error has occurred.
+
+
+#### - AdvisoryNonFatalError
+
+A single bit that indicates that an advisory non-fatal error has occurred.
+
+
+#### - ReplayNumRollover
+
+A single bit that indicates that the counter that counts the number of times the retry buffer has been re-transmitted has rolled over.
+
+
+#### - ReceiverError
+
+A single bit that indicates that a receiver error has occurred.
+
+
+#### - Reserved1
+
+Reserved.
+
+
+#### - Reserved3
+
+Reserved.
+
+
 ## -remarks
+
+
 The PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure is contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a> structures.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
+
  
 
  

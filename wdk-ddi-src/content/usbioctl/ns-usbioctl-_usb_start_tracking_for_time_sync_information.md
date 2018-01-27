@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2C82743C-2675-4196-839D-885EE17B2A7A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, *PUSB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION
+ms.keywords: PUSB_START_TRACKING_FOR_TIME_SYNC_INFORMATION structure pointer [Buses], _USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, usbioctl/USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, buses.usb_start_tracking_for_time_sync_information, USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION structure [Buses], usbioctl/PUSB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, *PUSB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, PUSB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION
-req.alt-loc: Usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-req.typenames: *PUSB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Usbioctl.h
+apiname: 
+-	USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, *PUSB_START_TRACKING_FOR_TIME_SYNC_INFORMATION
 req.product: Windows 10 or later.
 ---
 
 # _USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION structure
 
 
-
 ## -description
+
+
 The input and output buffer for the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_start_tracking_for_time_sync.md">IOCTL_USB_START_TRACKING_FOR_TIME_SYNC</a> request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION {
@@ -55,6 +65,9 @@ typedef struct _USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field TimeTrackingHandle
 
@@ -68,15 +81,10 @@ On input, the caller must specify whether the initial startup latency of up to 2
 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_start_tracking_for_time_sync.md">IOCTL_USB_START_TRACKING_FOR_TIME_SYNC</a>
-</dt>
-</dl>
+
  
 
  

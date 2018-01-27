@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 96bbba03-97c1-43f2-bf3e-902de77d5eb9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_DDI_TEXTURE_ADDRESS_MODE, D3D10_DDI_TEXTURE_ADDRESS_MODE
+ms.keywords: d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_WRAP, D3D10_DDI_TEXTURE_ADDRESS_BORDER, D3D10_DDI_TEXTURE_ADDRESS_MIRRORONCE, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_MIRRORONCE, D3D10_DDI_TEXTURE_ADDRESS_WRAP, UMDisplayDriver_Dx10param_Structs_11f66184-ba3e-4c13-869b-d810c97b1878.xml, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_MIRROR, D3D10_DDI_TEXTURE_ADDRESS_CLAMP, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_BORDER, D3D10_DDI_TEXTURE_ADDRESS_MODE, D3D10_DDI_TEXTURE_ADDRESS_MODE enumeration [Display Devices], D3D10_DDI_TEXTURE_ADDRESS_MIRROR, display.d3d10_ddi_texture_address_mode, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_CLAMP, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10_DDI_TEXTURE_ADDRESS_MODE
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10_DDI_TEXTURE_ADDRESS_MODE
+product: Windows
+targetos: Windows
 req.typenames: D3D10_DDI_TEXTURE_ADDRESS_MODE
 ---
 
 # D3D10_DDI_TEXTURE_ADDRESS_MODE enumeration
 
 
-
 ## -description
+
+
 The D3D10_DDI_TEXTURE_ADDRESS_MODE enumeration type contains values that identify the texture address mode of a sampler.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D10_DDI_TEXTURE_ADDRESS_MODE { 
@@ -57,6 +67,9 @@ typedef enum D3D10_DDI_TEXTURE_ADDRESS_MODE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D10_DDI_TEXTURE_ADDRESS_WRAP
 
@@ -83,15 +96,10 @@ Texture coordinates outside the range [0.0, 1.0] are set to the border color.
 Similar to D3D10_DDI_TEXTURE_ADDRESS_MIRROR and D3D10_DDI_TEXTURE_ADDRESS_CLAMP. Takes the absolute value of the texture coordinate (thus, mirroring around 0), and then clamps to the maximum value. The most common usage of D3D10_DDI_TEXTURE_ADDRESS_MIRRORONCE is for volume textures, where support for the full D3D10_DDI_TEXTURE_ADDRESS_MIRRORONCE texture-addressing mode is not necessary, but the data is symmetric around the one axis.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_sampler_desc.md">D3D10_DDI_SAMPLER_DESC</a>
-</dt>
-</dl>
+
  
 
  

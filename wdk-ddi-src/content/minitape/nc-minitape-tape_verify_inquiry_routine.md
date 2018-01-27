@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ed216b13-546a-4d0c-82db-79c175912556
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _PROCESSOR_NUMBER, *PPROCESSOR_NUMBER, PROCESSOR_NUMBER
+ms.keywords: storage.tapeminiverifyinquiry, (*TAPE_VERIFY_INQUIRY_ROUTINE) routine [Storage Devices], (*TAPE_VERIFY_INQUIRY_ROUTINE), TAPE_VERIFY_INQUIRY_ROUTINE, TAPE_VERIFY_INQUIRY_ROUTINE, minitape/(*TAPE_VERIFY_INQUIRY_ROUTINE), tapemini_d8a92eee-8b82-4fac-b568-fbe40c906ec1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: (*TAPE_VERIFY_INQUIRY_ROUTINE)
-req.alt-loc: minitape.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	minitape.h
+apiname: 
+-	(*TAPE_VERIFY_INQUIRY_ROUTINE)
+product: Windows
+targetos: Windows
 req.typenames: *PPROCESSOR_NUMBER, PROCESSOR_NUMBER
 ---
 
 # TAPE_VERIFY_INQUIRY_ROUTINE callback
 
 
-
 ## -description
+
+
 <i>TAPE_VERIFY_INQUIRY_ROUTINE</i> determines whether the tape miniclass driver recognizes and supports a given device. This routine is required.
 
 
-
 ## -prototype
+
 
 ````
 TAPE_VERIFY_INQUIRY_ROUTINE (*TAPE_VERIFY_INQUIRY_ROUTINE);
@@ -58,6 +68,9 @@ BOOLEAN (*TAPE_VERIFY_INQUIRY_ROUTINE)(
 
 ## -parameters
 
+
+
+
 ### -param InquiryData [in]
 
 Pointer to SCSI inquiry data for the device.
@@ -69,22 +82,25 @@ Pointer to a MODE_CAPABILITIES_PAGE structure that contains low-level informatio
 
 
 ## -returns
+
+
 <i>TAPE_VERIFY_INQUIRY_ROUTINE</i> returns <b>TRUE</b> if the miniclass driver supports the device.
 
 
+
 ## -remarks
+
+
 <i>TAPE_VERIFY_INQUIRY_ROUTINE</i> examines the <i>InquiryData</i>, particularly the <b>VendorId</b> and <b>ProductId</b> members, to determine whether the tape miniclass driver supports the tape device. <i>TAPE_VERIFY_INQUIRY_ROUTINE</i> uses <a href="..\minitape\nf-minitape-tapeclasscomparememory.md">TapeClassCompareMemory</a> to compare ID strings against values the tape miniclass driver supports.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\minitape\nf-minitape-tapeclasscomparememory.md">TapeClassCompareMemory</a>
-</dt>
-<dt>
+
 <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
-</dt>
-</dl>
+
  
 
  

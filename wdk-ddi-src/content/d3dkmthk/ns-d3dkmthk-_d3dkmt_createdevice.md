@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9a624373-e483-484f-b9d1-f9d7aed1caa8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_CREATEDEVICE, D3DKMT_CREATEDEVICE
+ms.keywords: display.d3dkmt_createdevice, _D3DKMT_CREATEDEVICE, D3DKMT_CREATEDEVICE structure [Display Devices], D3DKMT_CREATEDEVICE, d3dkmthk/D3DKMT_CREATEDEVICE, OpenGL_Structs_ed68c4a8-21a9-4754-8909-666a581f7759.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_CREATEDEVICE
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_CREATEDEVICE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_CREATEDEVICE
 ---
 
 # _D3DKMT_CREATEDEVICE structure
 
 
-
 ## -description
+
+
 The D3DKMT_CREATEDEVICE structure describes a kernel-mode device context.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_CREATEDEVICE {
@@ -64,6 +74,9 @@ typedef struct _D3DKMT_CREATEDEVICE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hAdapter
 
@@ -123,18 +136,12 @@ The <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</
 The <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</a> function returns this value. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createdeviceflags.md">D3DKMT_CREATEDEVICEFLAGS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</a>
-</dt>
-</dl>
+
  
 
  

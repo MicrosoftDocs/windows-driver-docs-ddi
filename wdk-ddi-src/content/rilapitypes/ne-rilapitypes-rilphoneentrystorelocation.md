@@ -7,8 +7,8 @@ old-location: netvista\rilphoneentrystorelocation_2.htm
 old-project: netvista
 ms.assetid: f9166dfa-e895-4aca-8080-af3cfe9c143f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILPHONEENTRYSTORELOCATION, RILPHONEENTRYSTORELOCATION
+ms.date: 1/18/2018
+ms.keywords: RILPHONEENTRYSTORELOCATION, RIL_PBLOC_OWNNUMBERS, rilapitypes/RIL_PBLOC_OWNNUMBERS, RIL_PBLOC_ALL, RIL_PBLOC_UICCFIXDIALING, RIL_PBLOC_UICCSERVICEDIALING, rilapitypes/RIL_PBLOC_UICCSERVICEDIALING, rilapitypes/RIL_PBLOC_UICCPHONEBOOK, rilapitypes/RILPHONEENTRYSTORELOCATION, RIL_PBLOC_UICCPHONEBOOK, netvista.rilphoneentrystorelocation_2, rilapitypes/RIL_PBLOC_ALL, RILPHONEENTRYSTORELOCATION enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PBLOC_UICCFIXDIALING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILPHONEENTRYSTORELOCATION
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILPHONEENTRYSTORELOCATION
+product: Windows
+targetos: Windows
 req.typenames: RILPHONEENTRYSTORELOCATION
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILPHONEENTRYSTORELOCATION enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILPHONEENTRYSTORELOCATION { 
@@ -59,19 +69,29 @@ typedef enum _RILPHONEENTRYSTORELOCATION {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_PBLOC_UNKNOWN
+
+
+
 ### -field RIL_PBLOC_UICCFIXDIALING
+
 
 
 ### -field RIL_PBLOC_OWNNUMBERS
 
 
+
 ### -field RIL_PBLOC_UICCPHONEBOOK
+
 
 
 ### -field RIL_PBLOC_UICCSERVICEDIALING
 
 
+
 ### -field RIL_PBLOC_ALL
 
 
-## -remarks

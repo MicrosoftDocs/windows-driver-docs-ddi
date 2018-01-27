@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 443671F1-98F5-4F9F-900B-37E3E50770CE
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_EVICT_FLAGS, D3DDDI_EVICT_FLAGS
+ms.keywords: d3dukmdt/D3DDDI_EVICT_FLAGS, D3DDDI_EVICT_FLAGS, D3DDDI_EVICT_FLAGS structure [Display Devices], display.d3dddi_evict_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_EVICT_FLAGS
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_EVICT_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_EVICT_FLAGS
 ---
 
 # D3DDDI_EVICT_FLAGS structure
 
 
-
 ## -description
+
+
 <b>D3DDDI_EVICT_FLAGS</b> specifies the eviction behavior.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3DDDI_EVICT_FLAGS {
@@ -61,12 +71,13 @@ typedef struct D3DDDI_EVICT_FLAGS {
 
 ## -struct-fields
 
+
+
+
 ### -field EvictOnlyIfNecessary
 
 When set, this indicates that the resource may be used again in the near future and instructs the OS to try to defer actual resource eviction from the GPU until low memory conditions. When not set, this instructs the OS that the resource will no longer be used and that the eviction should be performed at the earliest opportunity. 
-
-<div class="alert"><b>Note</b>  This flag is ignored if the residency reference count does not hit zero because the allocation will not be evicted until that time.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  This flag is ignored if the residency reference count does not hit zero because the allocation will not be evicted until that time.</div><div> </div>
 
 ### -field NotWrittenTo
 
@@ -83,18 +94,12 @@ This member is reserved and should be set to zero.
 The consolidated value of the flags in the structure.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_evictcb.md">pfnEvictCb</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtevict.md">D3DKMTEvict</a>
-</dt>
-</dl>
+
  
 
  

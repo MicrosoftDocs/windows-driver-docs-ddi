@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9D0A4D67-3284-4BCC-AC81-F0BCCC2DB9B7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _BDCB_IMAGE_INFORMATION, *PBDCB_IMAGE_INFORMATION, BDCB_IMAGE_INFORMATION
+ms.keywords: _BDCB_IMAGE_INFORMATION, BDCB_IMAGE_INFORMATION, ntddk/PBDCB_IMAGE_INFORMATION, PBDCB_IMAGE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.bdcb_image_information, *PBDCB_IMAGE_INFORMATION, PBDCB_IMAGE_INFORMATION, ntddk/BDCB_IMAGE_INFORMATION, BDCB_IMAGE_INFORMATION structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with  Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BDCB_IMAGE_INFORMATION
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PBDCB_IMAGE_INFORMATION, BDCB_IMAGE_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	BDCB_IMAGE_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: BDCB_IMAGE_INFORMATION, *PBDCB_IMAGE_INFORMATION
 ---
 
 # _BDCB_IMAGE_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>BDCB_IMAGE_INFORMATION</b> structure describes information about a boot-start driver that is about to 
     be initialized, provided by Windows to a boot-start driver's 
     <a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">BOOT_DRIVER_CALLBACK_FUNCTION</a> routine.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BDCB_IMAGE_INFORMATION {
@@ -67,6 +77,9 @@ typedef struct _BDCB_IMAGE_INFORMATION {
 
 ## -struct-fields
 
+
+
+
 ### -field Classification
 
 The classification of the boot start image.
@@ -76,7 +89,6 @@ The classification of the boot start image.
 
 Bit flags that describe the image. The following values are defined.
       
-
 <table>
 <tr>
 <th>Value</th>
@@ -112,8 +124,7 @@ Do not use. Reserved.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field ImageName
@@ -150,7 +161,6 @@ The hash of the certificate of the signer to be signed. Run <b>certutil –dump 
 
 The algorithm of the image hash. The following values are listed for reference.
       
-
 <table>
 <tr>
 <th>Value</th>
@@ -227,8 +237,7 @@ CALG_SHA_512
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field ThumbprintHashAlgorithm
@@ -246,18 +255,12 @@ The length of data pointed to by the <b>ImageHash</b> member.
 The length of data pointed to by the <b>CertificateThumbprint</b> member.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\ne-ntddk-_bdcb_classification.md">BDCB_CLASSIFICATION</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">BOOT_DRIVER_CALLBACK_FUNCTION</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\ne-ntddk-_bdcb_classification.md">BDCB_CLASSIFICATION</a>
+
  
 
  

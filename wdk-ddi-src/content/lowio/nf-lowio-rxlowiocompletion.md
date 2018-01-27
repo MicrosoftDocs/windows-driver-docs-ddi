@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d9018a68-e72c-4149-a6a5-095654d0363c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxLowIoCompletion
+ms.keywords: RxLowIoCompletion, lowio/RxLowIoCompletion, ifsk.rxlowiocompletion, RxLowIoCompletion routine [Installable File System Drivers], rxref_9a8f198a-0177-42f5-9039-3f5d6a3fa14d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxLowIoCompletion
-req.alt-loc: lowio.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	lowio.h
+apiname: 
+-	RxLowIoCompletion
+product: Windows
+targetos: Windows
 req.typenames: LAMP_INTENSITY_WHITE
 ---
 
 # RxLowIoCompletion function
 
 
-
 ## -description
+
+
 <b>RxLowIoCompletion</b> must be called by the network mini-redirector low I/O routines when they complete, if the low I/O routines have initially returned STATUS_PENDING.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RxLowIoCompletion(
@@ -54,12 +64,17 @@ NTSTATUS RxLowIoCompletion(
 
 ## -parameters
 
-### -param RxContext 
+
+
+
+### -param RxContext
 
 A pointer to the RX_CONTEXT structure for this IRP.
 
 
 ## -returns
+
+
 <b>RxLowIoCompletion</b>
       returns different values depending on whether the <i>RxContext</i> parameter indicates this is synchronous or asynchornous I/O.
 
@@ -68,24 +83,17 @@ If the <i>RxContext</i> parameter indicates this is synchronous I/O, then <b>RxL
 If the <i>RxContext</i> parameter indicates this is asynchronous I/O, then <b>RxLowIoCompletion</b> will try to call the <b>LowIoContext.CompletionRoutine</b> member of the RX_CONTEXT. The completion routine will only be called if the <b>LowIoContext.Flags</b>member indicates that the completion routine can be called at DPC level and the current IRQL is less than dispatch level. In this case, the return value is the result returned by the completion routine. If these conditions are not met, then <b>RxLowIoCompletion</b> returns STATUS_MORE_PROCESSING_REQUIRED. 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\lowio\nf-lowio-rxlowiogetbufferaddress.md">RxLowIoGetBufferAddress</a>
-</dt>
-<dt>
-<a href="..\rxprocs\nf-rxprocs-rxmapsystembuffer.md">RxMapSystemBuffer</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554591">RxNewMapUserBuffer</a>
-</dt>
-<dt>
+
 <a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
-</dt>
-</dl>
+
+<a href="..\rxprocs\nf-rxprocs-rxmapsystembuffer.md">RxMapSystemBuffer</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c5d0dbd8-bcce-436b-8fa7-bcb2b5c4ba59
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSP_NODE_ESPID, *PKSP_NODE_ESPID, KSP_NODE_ESPID
+ms.keywords: KSP_NODE_ESPID, *PKSP_NODE_ESPID, PKSP_NODE_ESPID structure pointer [Streaming Media Devices], bdamedia/KSP_NODE_ESPID, bdamedia/PKSP_NODE_ESPID, KSP_NODE_ESPID structure [Streaming Media Devices], stream.ksp_node_espid, PKSP_NODE_ESPID, bdaref_aef92a8d-df0e-4283-b06a-4ece33b91809.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSP_NODE_ESPID
-req.alt-loc: bdamedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSP_NODE_ESPID, KSP_NODE_ESPID
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bdamedia.h
+apiname: 
+-	KSP_NODE_ESPID
+product: Windows
+targetos: Windows
+req.typenames: KSP_NODE_ESPID, *PKSP_NODE_ESPID
 ---
 
 # KSP_NODE_ESPID structure
 
 
-
 ## -description
+
+
 The KSP_NODE_ESPID structure describes property and node type for an Entitlement Control Message (ECM) map node along with the packet identifier (PID) for an elementary stream that the ECM map node processes.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field Property
 
 KSP_NODE structure that describes a property and node type.
@@ -65,15 +78,10 @@ KSP_NODE structure that describes a property and node type.
 Packet identifier (PID) that identifies packets in the elementary stream.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a>
-</dt>
-</dl>
+
  
 
  

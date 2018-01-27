@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4F27E884-D21C-483D-9E53-02D405D02F10
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.querydlistforapplication1, QueryDListForApplication callback function [Display Devices], QueryDListForApplication, PFND3DDDI_QUERYDLISTFORAPPLICATION1, PFND3DDDI_QUERYDLISTFORAPPLICATION1, d3dumddi/QueryDListForApplication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1,WDDM 1.3 and later
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: QueryDListForApplication
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	QueryDListForApplication
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_QUERYDLISTFORAPPLICATION1 callback
 
 
-
 ## -description
-Called during Microsoft Direct3D initialization on a <a href="display.using_cross-adapter_resources_in_a_hybrid_system#definition_of_a_hybrid_system#definition_of_a_hybrid_system">hybrid system</a> to determine which GPU an application should run on. A <i>dList</i> is a list of applications that need cross-adapter shared surfaces for high-performance rendering on the discrete GPU.
 
+
+Called during Microsoft Direct3D initialization on a <a href="https://msdn.microsoft.com/ECBB0AA7-50C2-41C8-9DC6-6EEFC5CEEB15">hybrid system</a> to determine which GPU an application should run on. A <i>dList</i> is a list of applications that need cross-adapter shared surfaces for high-performance rendering on the discrete GPU.
 
 
 ## -prototype
+
 
 ````
 PFND3DDDI_QUERYDLISTFORAPPLICATION1 QueryDListForApplication;
@@ -59,37 +69,59 @@ HRESULT APIENTRY* QueryDListForApplication(
 
 ## -parameters
 
-### -param pDefaultToDiscrete [out]
-
-If <b>TRUE</b>, the application should be run on the discrete GPU. Otherwise, the application should run on the integrated GPU.
 
 
-### -param hAdapter [in]
+
+### -param *
+
+
+
+### -param HANDLE
+
+
+
+### -param PFND3DDDI_ESCAPECB
+
+
+
+
+
+
+#### - hAdapter [in]
 
 A handle to the graphics adapter object.
 
 
-### -param pfnEscapeCB [in]
+#### - pfnEscapeCB [in]
 
 A function pointer to a <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a> callback function that shares info with the display miniport driver.
 
 
+#### - pDefaultToDiscrete [out]
+
+If <b>TRUE</b>, the application should be run on the discrete GPU. Otherwise, the application should run on the integrated GPU.
+
+
 ## -returns
+
+
 Returns <b>S_OK</b>, or an appropriate error result if the operation is not successful.
 
 
+
 ## -remarks
+
+
 For more information on how to call this function and set up the DLL that exports it, see <a href="https://msdn.microsoft.com/8AABE677-2C2D-4CFD-AF22-06D65524A158">Hybrid system DDI</a>.
 
 For more general information on hybrid systems, see <a href="https://msdn.microsoft.com/ECBB0AA7-50C2-41C8-9DC6-6EEFC5CEEB15">Using cross-adapter resources in a hybrid system</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: BB05D543-7B99-481E-8CDB-AE350CBCCA2A
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MP_STORAGE_DIAGNOSTIC_LEVEL, MP_STORAGE_DIAGNOSTIC_LEVEL, *PMP_STORAGE_DIAGNOSTIC_LEVEL
+ms.keywords: storage.mp_storage_diagnostic_level, ntddscsi/StorageDiagnosticLevelDefault, ntddscsi/StorageDiagnosticLevelMax, StorageDiagnosticLevelMax, StorageDiagnosticLevelDefault, PMP_STORAGE_DIAGNOSTIC_LEVEL enumeration pointer [Storage Devices], MP_STORAGE_DIAGNOSTIC_LEVEL enumeration [Storage Devices], ntddscsi/MP_STORAGE_DIAGNOSTIC_LEVEL, _MP_STORAGE_DIAGNOSTIC_LEVEL, MP_STORAGE_DIAGNOSTIC_LEVEL, ntddscsi/PMP_STORAGE_DIAGNOSTIC_LEVEL, *PMP_STORAGE_DIAGNOSTIC_LEVEL, PMP_STORAGE_DIAGNOSTIC_LEVEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10, version 1709.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MP_STORAGE_DIAGNOSTIC_LEVEL
-req.alt-loc: ntddscsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: MP_STORAGE_DIAGNOSTIC_LEVEL, *PMP_STORAGE_DIAGNOSTIC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddscsi.h
+apiname: 
+-	MP_STORAGE_DIAGNOSTIC_LEVEL
+product: Windows
+targetos: Windows
+req.typenames: *PMP_STORAGE_DIAGNOSTIC_LEVEL, MP_STORAGE_DIAGNOSTIC_LEVEL
 ---
 
 # _MP_STORAGE_DIAGNOSTIC_LEVEL enumeration
 
 
-
 ## -description
+
+
 The <b>MP_STORAGE_DIAGNOSTIC_LEVEL</b> enumeration allows the caller to control what kinds of data the provider should return.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _MP_STORAGE_DIAGNOSTIC_LEVEL { 
@@ -55,14 +65,24 @@ typedef enum _MP_STORAGE_DIAGNOSTIC_LEVEL {
 
 ## -enum-fields
 
-### -field StorageDiagnosticLevelDefault
+
+
+
+### -field MpStorageDiagnosticLevelDefault
+
+
+
+### -field MpStorageDiagnosticLevelMax
+
+
+
+
+#### - StorageDiagnosticLevelDefault
 
 Specifies the default diagnostic level.
 
 
-### -field StorageDiagnosticLevelMax
+#### - StorageDiagnosticLevelMax
 
 Specifies the max diagnostic level.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93F27775-3E74-4310-8E09-DCB079436706
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_CREATE_SHADER_FLAGS, D3D12DDI_CREATE_SHADER_FLAGS
+ms.keywords: D3D12DDI_CREATE_SHADER_FLAG_NONE, d3d12umddi/D3D12DDI_CREATE_SHADER_FLAG_NONE, d3d12umddi/D3D12DDI_CREATE_SHADER_FLAG_ENABLE_SHADER_TRACING, d3d12umddi/D3D12DDI_CREATE_SHADER_FLAG_DISABLE_OPTIMIZATION, D3D12DDI_CREATE_SHADER_FLAG_DISABLE_OPTIMIZATION, d3d12umddi/D3D12DDI_CREATE_SHADER_FLAGS, D3D12DDI_CREATE_SHADER_FLAG_ENABLE_SHADER_TRACING, D3D12DDI_CREATE_SHADER_FLAGS enumeration [Display Devices], D3D12DDI_CREATE_SHADER_FLAGS, display.d3d12ddi_create_shader_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_CREATE_SHADER_FLAGS
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_CREATE_SHADER_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_CREATE_SHADER_FLAGS
 ---
 
 # D3D12DDI_CREATE_SHADER_FLAGS enumeration
 
 
-
 ## -description
+
+
 Defines flags for shader creation.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D12DDI_CREATE_SHADER_FLAGS { 
@@ -56,6 +66,9 @@ typedef enum D3D12DDI_CREATE_SHADER_FLAGS {
 
 ## -enum-fields
 
+
+
+
 ### -field D3D12DDI_CREATE_SHADER_FLAG_NONE
 
 No flag value for shader creation.
@@ -66,9 +79,12 @@ No flag value for shader creation.
 The shader is tracing. 
 
 
-### -field D3D12DDI_CREATE_SHADER_FLAG_DISABLE_OPTIMIZATION
+### -field D3D12DDI_CREATE_SHADER_FLAG_DISABLE_OPTIMIZATION_0024
+
+
+
+
+#### - D3D12DDI_CREATE_SHADER_FLAG_DISABLE_OPTIMIZATION
 
 The shader is compiled quickly and less optimally. 
 
-
-## -remarks

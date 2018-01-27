@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bf9e2d58-9379-4b88-9043-580a97ec7cd9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSFC_PortEvent, MSFC_PortEvent, *PMSFC_PortEvent
+ms.keywords: structs-Fibre_21739c44-07d2-412e-bc03-3cc25b14bb9d.xml, PMSFC_PortEvent, MSFC_PortEvent, storage.msfc_portevent, hbapiwmi/PMSFC_PortEvent, hbapiwmi/MSFC_PortEvent, *PMSFC_PortEvent, _MSFC_PortEvent, PMSFC_PortEvent structure pointer [Storage Devices], MSFC_PortEvent structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSFC_PortEvent
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: MSFC_PortEvent, *PMSFC_PortEvent
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	MSFC_PortEvent
+product: Windows
+targetos: Windows
+req.typenames: *PMSFC_PortEvent, MSFC_PortEvent
 ---
 
 # _MSFC_PortEvent structure
 
 
-
 ## -description
+
+
 A WMI provider uses the MSFC_PortEvent structure to report port events for the indicated adapter.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSFC_PortEvent {
@@ -55,6 +65,9 @@ typedef struct _MSFC_PortEvent {
 
 
 ## -struct-fields
+
+
+
 
 ### -field EventType
 
@@ -71,15 +84,10 @@ Contains the fabric port ID.
 Contains the worldwide name that indicates the port for which the event occurred. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/528e5eaa-aaeb-4e5b-a4b2-0f518fcd79ee">EVENT_TYPE_QUALIFIERS</a>
-</dt>
-</dl>
+
  
 
  

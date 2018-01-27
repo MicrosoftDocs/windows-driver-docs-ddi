@@ -7,8 +7,8 @@ old-location: debugger\idebugeventcallbackswide_changesymbolstate.htm
 old-project: debugger
 ms.assetid: ea331612-5c48-4320-a658-101c3d93e7be
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugEventCallbacksWide, IDebugEventCallbacksWide::ChangeSymbolState, ChangeSymbolState
+ms.date: 1/19/2018
+ms.keywords: dbgeng/IDebugEventCallbacksWide::ChangeSymbolState, debugger.idebugeventcallbackswide_changesymbolstate, ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide, IDebugEventCallbacksWide::ChangeSymbolState, IDebugEventCallbacksWide interface [Windows Debugging], ChangeSymbolState method, ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide interface, ChangeSymbolState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugEventCallbacksWide.ChangeSymbolState
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugEventCallbacksWide.ChangeSymbolState
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacksWide::ChangeSymbolState method
 
 
-
 ## -description
+
+
 The <b>ChangeSymbolState</b> callback method is called by the engine when the symbol state changes. 
 
 
-
 ## -syntax
+
 
 ````
 HRESULT ChangeSymbolState(
@@ -55,10 +65,12 @@ HRESULT ChangeSymbolState(
 
 ## -parameters
 
+
+
+
 ### -param Flags [in]
 
 Specifies a bit-set indicating the nature of the change to the symbol state.  The following bit flags might be set.
-
 <table>
 <tr>
 <th>Value</th>
@@ -124,8 +136,7 @@ The type options have changed.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Argument [in]
@@ -135,43 +146,48 @@ Provides additional information about the change to the symbol state.   If more 
 
 
 
-### -param DEBUG_CSS_LOADS
+##### - Argument.DEBUG_CSS_LOADS
 
 The value of <i>Argument</i> is the base location (in the target's memory address space) of the module image that the engine loaded symbols for.
 
 
-### -param DEBUG_CSS_UNLOADS
-
-The value of <i>Argument</i> is the base location (in the target's memory address space) of the module image that the engine unloaded symbols for.  If the engine unloaded symbols for more than one image, the value of <i>Argument</i> is zero.
-
-
-### -param DEBUG_CSS_SCOPE
-
-The value of <i>Argument</i> is zero.
-
-
-### -param DEBUG_CSS_PATHS
-
-The value of <i>Argument</i> is zero.
-
-
-### -param DEBUG_CSS_SYMBOL_OPTIONS
+##### - Argument.DEBUG_CSS_SYMBOL_OPTIONS
 
 The value of <i>Argument</i> is the symbol options.
 
 
-### -param DEBUG_CSS_TYPE_OPTIONS
+##### - Argument.DEBUG_CSS_SCOPE
 
 The value of <i>Argument</i> is zero.
 
-</dd>
-</dl>
+
+##### - Argument.DEBUG_CSS_UNLOADS
+
+The value of <i>Argument</i> is the base location (in the target's memory address space) of the module image that the engine unloaded symbols for.  If the engine unloaded symbols for more than one image, the value of <i>Argument</i> is zero.
+
+
+##### - Argument.DEBUG_CSS_TYPE_OPTIONS
+
+The value of <i>Argument</i> is zero.
+
+
+##### - Argument.DEBUG_CSS_PATHS
+
+The value of <i>Argument</i> is zero.
+
 
 ## -returns
+
+
 The return value is ignored by the engine unless it indicates a remote procedure call error; in this case the client, with which this <b>IDebugEventCallbacksWide</b> object is registered, is disabled.
 
 
+
 ## -remarks
+
+
 This method is only called by the engine if the DEBUG_EVENT_CHANGE_SYMBOL_STATE flag is set in the mask returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550625">IDebugEventCallbacksWide::GetInterestMask</a>.
 
-For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>. </p>
+For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>. 
+
+

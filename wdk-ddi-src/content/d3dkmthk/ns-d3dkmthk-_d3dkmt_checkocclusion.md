@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1797b64d-ca2c-4b07-aaad-bef4966b5ca7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_CHECKOCCLUSION, D3DKMT_CHECKOCCLUSION
+ms.keywords: d3dkmthk/D3DKMT_CHECKOCCLUSION, D3DKMT_CHECKOCCLUSION structure [Display Devices], display.d3dkmt_checkocclusion, OpenGL_Structs_ec86c228-3c85-4fe9-996a-e1b3f08a0ee1.xml, D3DKMT_CHECKOCCLUSION, _D3DKMT_CHECKOCCLUSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_CHECKOCCLUSION
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_CHECKOCCLUSION
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_CHECKOCCLUSION
 ---
 
 # _D3DKMT_CHECKOCCLUSION structure
 
 
-
 ## -description
+
+
 The D3DKMT_CHECKOCCLUSION structure contains the handle to the window to check for occlusion.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_CHECKOCCLUSION {
@@ -54,20 +64,18 @@ typedef struct _D3DKMT_CHECKOCCLUSION {
 
 ## -struct-fields
 
+
+
+
 ### -field hWindow
 
 [in] A handle to the window to check for occlusion. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcheckocclusion.md">D3DKMTCheckOcclusion</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f71045e8-2928-40b8-b8f7-bc954a753aff
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PID_MAP, PID_MAP
+ms.keywords: PID_MAP structure [Streaming Media Devices], bdaref_54fdf358-1957-4e84-a5a4-9929395f105b.xml, PID_MAP, bdatypes/PID_MAP, stream.pid_map
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PID_MAP
-req.alt-loc: bdatypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bdatypes.h
+apiname: 
+-	PID_MAP
+product: Windows
+targetos: Windows
 req.typenames: PID_MAP
 ---
 
 # PID_MAP structure
 
 
-
 ## -description
+
+
 The PID_MAP structure describes a group of packets in the output stream of a packet identifier (PID) filter. This group consists of packets that are identified with an identical PID and contain particular media content. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field ulPID
 
 Identifier of particular packets. 
@@ -65,21 +78,14 @@ Identifier of particular packets.
 MEDIA_SAMPLE_CONTENT enumerated type value that specifies the type of media content that packets contain. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\bdatypes\ns-bdatypes-_bda_pid_map.md">BDA_PID_MAP</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566551">KSPROPSETID_BdaPIDFilter</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567719">MEDIA_SAMPLE_CONTENT</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566551">KSPROPSETID_BdaPIDFilter</a>
+
+<a href="..\bdatypes\ns-bdatypes-_bda_pid_map.md">BDA_PID_MAP</a>
+
  
 
  

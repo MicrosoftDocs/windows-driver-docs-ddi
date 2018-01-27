@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8bbefe34-9653-4868-894f-a77c1fc9939f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _AACS_BINDING_NONCE, *PAACS_BINDING_NONCE, AACS_BINDING_NONCE
+ms.keywords: ntddcdvd/AACS_BINDING_NONCE, PAACS_BINDING_NONCE structure pointer [Storage Devices], structs-DVD_4420e26a-681e-4942-9f90-699bcd80b37f.xml, ntddcdvd/PAACS_BINDING_NONCE, storage.aacs_binding_nonce, AACS_BINDING_NONCE, *PAACS_BINDING_NONCE, PAACS_BINDING_NONCE, _AACS_BINDING_NONCE, AACS_BINDING_NONCE structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AACS_BINDING_NONCE
-req.alt-loc: ntddcdvd.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PAACS_BINDING_NONCE, AACS_BINDING_NONCE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdvd.h
+apiname: 
+-	AACS_BINDING_NONCE
+product: Windows
+targetos: Windows
+req.typenames: AACS_BINDING_NONCE, *PAACS_BINDING_NONCE
 ---
 
 # _AACS_BINDING_NONCE structure
 
 
-
 ## -description
+
+
 The AACS_BINDING_NONCE structure contains the binding nonce.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _AACS_BINDING_NONCE {
@@ -54,6 +64,9 @@ typedef struct _AACS_BINDING_NONCE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field BindingNonce
 
@@ -66,18 +79,18 @@ A message authentication code (MAC) that clients can use to verify that the bind
 
 
 ## -remarks
+
+
 Clients retrieve the binding nonce with an <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_binding_nonce.md">IOCTL_AACS_READ_BINDING_NONCE</a> request or an <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_generate_binding_nonce.md">IOCTL_AACS_GENERATE_BINDING_NONCE</a> request.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_generate_binding_nonce.md">IOCTL_AACS_GENERATE_BINDING_NONCE</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_binding_nonce.md">IOCTL_AACS_READ_BINDING_NONCE</a>
-</dt>
-</dl>
+
+<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_generate_binding_nonce.md">IOCTL_AACS_GENERATE_BINDING_NONCE</a>
+
  
 
  

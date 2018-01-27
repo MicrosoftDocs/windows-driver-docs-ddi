@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0e7d7093-3b49-4fb1-b7ac-49d366c08ab8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2SETRENDERTARGET2, D3DHAL_DP2SETRENDERTARGET2, *LPD3DHAL_DP2SETRENDERTARGET2
+ms.keywords: d3dstrct_b2b69c9b-94db-4451-b731-fbe90ba059f0.xml, LPD3DHAL_DP2SETRENDERTARGET2 structure pointer [Display Devices], D3DHAL_DP2SETRENDERTARGET2 structure [Display Devices], D3DHAL_DP2SETRENDERTARGET2, _D3DHAL_DP2SETRENDERTARGET2, LPD3DHAL_DP2SETRENDERTARGET2, display.d3dhal_dp2setrendertarget2, d3dhal/D3DHAL_DP2SETRENDERTARGET2, d3dhal/LPD3DHAL_DP2SETRENDERTARGET2, *LPD3DHAL_DP2SETRENDERTARGET2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DP2SETRENDERTARGET2
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DP2SETRENDERTARGET2
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DP2SETRENDERTARGET2
 ---
 
 # _D3DHAL_DP2SETRENDERTARGET2 structure
 
 
-
 ## -description
+
+
 The D3DHAL_DP2SETRENDERTARGET2 structure is used with the D3DDP2OP_SETRENDERTARGET2 opcode to map a portion of a rendering target surface and depth buffer in the current context.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DP2SETRENDERTARGET2 {
@@ -55,6 +65,9 @@ typedef struct _D3DHAL_DP2SETRENDERTARGET2 {
 
 ## -struct-fields
 
+
+
+
 ### -field RTIndex
 
 Specifies an index into the rendering target.
@@ -65,16 +78,12 @@ Specifies an index into the rendering target.
 Specifies a handle to the rendering target.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>D3DDP2OP_SETRENDERTARGET2</dt>
-<dt>
+
+D3DDP2OP_SETRENDERTARGET2
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-</dt>
-</dl>
+
  
 
  

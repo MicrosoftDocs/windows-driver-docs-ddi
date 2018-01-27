@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c611b051-45fe-4509-bf2c-7059d578ea05
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlDowncaseUnicodeString
+ms.keywords: ntifs/RtlDowncaseUnicodeString, ifsk.rtldowncaseunicodestring, RtlDowncaseUnicodeString, rtlref_140e7faa-096a-49df-a2b7-87776cfc5b38.xml, RtlDowncaseUnicodeString routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlDowncaseUnicodeString
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlDowncaseUnicodeString
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlDowncaseUnicodeString function
 
 
-
 ## -description
+
+
 The <b>RtlDowncaseUnicodeString</b> routine converts the specified Unicode source string to lowercase. The translation conforms to the current system locale information.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlDowncaseUnicodeString(
@@ -56,7 +66,10 @@ NTSTATUS RtlDowncaseUnicodeString(
 
 ## -parameters
 
-### -param DestinationString 
+
+
+
+### -param DestinationString
 
 Pointer to a caller-allocated buffer to receive the converted Unicode string. If <i>AllocateDestinationString</i> is <b>FALSE</b>, the caller must also allocate a buffer for the <b>Buffer</b> member of <i>DestinationString</i> to hold the Unicode data. If <i>AllocateDestinationString</i> is <b>TRUE</b>, <b>RtlDowncaseUnicodeString</b> allocates a buffer large enough to hold the string, passes a pointer to it in <b>Buffer</b>, and updates the length and maximum length members of <i>DestinationString</i> accordingly. 
 
@@ -72,10 +85,15 @@ Set to <b>TRUE</b> if <b>RtlDowncaseUnicodeString</b> should allocate the buffer
 
 
 ## -returns
+
+
 If the operation succeeds, <b>RtlDowncaseUnicodeString</b> returns STATUS_SUCCESS. Otherwise, no storage was allocated and no conversion was done. 
 
 
+
 ## -remarks
+
+
 If caller sets <i>AllocateDestinationString</i> to <b>TRUE</b>, <b>RtlDowncaseUnicodeString</b> replaces the <b>Buffer</b> member of <i>DestinationString</i> with a pointer to the buffer it allocates. The old value can be overwritten even when the routine returns an error status code.
 
 <b>RtlDowncaseUnicodeString</b> does not modify the source string.
@@ -83,18 +101,15 @@ If caller sets <i>AllocateDestinationString</i> to <b>TRUE</b>, <b>RtlDowncaseUn
 For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-rtlupcaseunicodestring.md">RtlUpcaseUnicodeString</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
  
 
  

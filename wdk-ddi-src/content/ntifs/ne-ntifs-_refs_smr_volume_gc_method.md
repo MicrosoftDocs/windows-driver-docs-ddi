@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6C58EFD4-B5F9-4E2B-AF76-E9614218E0DC
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _REFS_SMR_VOLUME_GC_METHOD, *PREFS_SMR_VOLUME_GC_METHOD, REFS_SMR_VOLUME_GC_METHOD
+ms.keywords: SmrGcMethodCompaction, REFS_SMR_VOLUME_GC_METHOD, SmrGcMethodRotation, _REFS_SMR_VOLUME_GC_METHOD, REFS_SMR_VOLUME_GC_METHOD enumeration [Installable File System Drivers], PREFS_SMR_VOLUME_GC_METHOD enumeration pointer [Installable File System Drivers], PREFS_SMR_VOLUME_GC_METHOD, ntifs/PREFS_SMR_VOLUME_GC_METHOD, ntifs/SmrGcMethodCompaction, ntifs/SmrGcMethodCompression, ntifs/SmrGcMethodRotation, SmrGcMethodCompression, ifsk.refs_smr_volume_gc_method, ntifs/REFS_SMR_VOLUME_GC_METHOD, *PREFS_SMR_VOLUME_GC_METHOD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10, version 1709.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: REFS_SMR_VOLUME_GC_METHOD
-req.alt-loc: Ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntifs.h
+apiname: 
+-	REFS_SMR_VOLUME_GC_METHOD
+product: Windows
+targetos: Windows
 req.typenames: *PREFS_SMR_VOLUME_GC_METHOD, REFS_SMR_VOLUME_GC_METHOD
 ---
 
 # _REFS_SMR_VOLUME_GC_METHOD enumeration
 
 
-
 ## -description
+
+
 The <b>REFS_SMR_VOLUME_GC_METHOD</b> enum specifies the garbage collection method or strategy for <a href="https://msdn.microsoft.com/782542C4-CFC5-4BF7-AF38-3247A3AC6AB9">FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _REFS_SMR_VOLUME_GC_METHOD { 
@@ -55,6 +65,9 @@ typedef enum _REFS_SMR_VOLUME_GC_METHOD {
 
 
 ## -enum-fields
+
+
+
 
 ### -field SmrGcMethodCompaction
 
@@ -72,15 +85,16 @@ Specifies the use of the rotation method for garbage collection. Moves data from
 
 
 ## -remarks
+
+
 Currently the only supported value  is <b>SmrGcMethodCompaction</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/782542C4-CFC5-4BF7-AF38-3247A3AC6AB9">FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS</a>
-</dt>
-</dl>
+
  
 
  

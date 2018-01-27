@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f2bfb07c-1493-4a29-9d42-e284af29a376
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_POWER_RUNTIME_STATE, DXGK_POWER_RUNTIME_STATE
+ms.keywords: _DXGK_POWER_RUNTIME_STATE, DXGK_POWER_RUNTIME_STATE, d3dkmddi/DXGK_POWER_RUNTIME_STATE, DXGK_POWER_RUNTIME_STATE structure [Display Devices], display.dxgk_power_runtime_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_POWER_RUNTIME_STATE
-req.alt-loc: D3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmddi.h
+apiname: 
+-	DXGK_POWER_RUNTIME_STATE
+product: Windows
+targetos: Windows
 req.typenames: DXGK_POWER_RUNTIME_STATE
 ---
 
 # _DXGK_POWER_RUNTIME_STATE structure
 
 
-
 ## -description
+
+
 Describes the characteristics of an idle state (an F-state).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_POWER_RUNTIME_STATE {
@@ -55,6 +65,9 @@ typedef struct _DXGK_POWER_RUNTIME_STATE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field TransitionLatency
 
@@ -74,4 +87,8 @@ The power draw, in microwatt units, of the component in this F-state. This  valu
 
 
 ## -remarks
-F-states in hardware must be defined such that a deeper F-state (higher F-value) will use less power and take longer to return to the latent F0 state.</p>
+
+
+F-states in hardware must be defined such that a deeper F-state (higher F-value) will use less power and take longer to return to the latent F0 state.
+
+

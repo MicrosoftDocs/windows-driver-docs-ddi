@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 4755f4c3-305e-41a5-afdf-eda8e8e81b74
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _PCI_EXPRESS_SLOT_CONTROL_REGISTER, PCI_EXPRESS_SLOT_CONTROL_REGISTER, *PPCI_EXPRESS_SLOT_CONTROL_REGISTER
+ms.keywords: PPCI_EXPRESS_SLOT_CONTROL_REGISTER, ntddk/PCI_EXPRESS_SLOT_CONTROL_REGISTER, PCI_EXPRESS_SLOT_CONTROL_REGISTER, PCI_EXPRESS_SLOT_CONTROL_REGISTER union [Buses], PCI.pci_express_slot_control_register, *PPCI_EXPRESS_SLOT_CONTROL_REGISTER, _PCI_EXPRESS_SLOT_CONTROL_REGISTER, pci_struct_d554e74d-130d-4d6d-8801-c65ea66653cb.xml, PPCI_EXPRESS_SLOT_CONTROL_REGISTER union pointer [Buses], ntddk/PPCI_EXPRESS_SLOT_CONTROL_REGISTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PCI_EXPRESS_SLOT_CONTROL_REGISTER
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: PCI_EXPRESS_SLOT_CONTROL_REGISTER, *PPCI_EXPRESS_SLOT_CONTROL_REGISTER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	PCI_EXPRESS_SLOT_CONTROL_REGISTER
+product: Windows
+targetos: Windows
+req.typenames: *PPCI_EXPRESS_SLOT_CONTROL_REGISTER, PCI_EXPRESS_SLOT_CONTROL_REGISTER
 ---
 
 # _PCI_EXPRESS_SLOT_CONTROL_REGISTER structure
 
 
-
 ## -description
+
+
 The PCI_EXPRESS_SLOT_CONTROL_REGISTER structure describes a PCI Express (PCIe) slot control register of a PCIe capability structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _PCI_EXPRESS_SLOT_CONTROL_REGISTER {
@@ -68,116 +78,72 @@ typedef union _PCI_EXPRESS_SLOT_CONTROL_REGISTER {
 
 ## -struct-fields
 
-### -field AttentionButtonEnable
 
-A single bit that indicates that the attention button for the slot is enabled to generate events.
 
 
-### -field PowerFaultDetectEnable
+### -field DUMMYSTRUCTNAME
 
-A single bit that indicates that power fault detection for the slot is enabled to generate events.
+ 
 
 
-### -field MRLSensorEnable
+### -field DUMMYSTRUCTNAME.AttentionButtonEnable
 
-A single bit that indicates that the manually operated retention latch (MRL) sensor for the slot is enabled to generate events.
+ 
 
 
-### -field PresenceDetectEnable
+### -field DUMMYSTRUCTNAME.PowerFaultDetectEnable
 
-A single bit that indicates that card presence detection for the slot is enabled to generate events.
+ 
 
 
-### -field CommandCompletedEnable
+### -field DUMMYSTRUCTNAME.MRLSensorEnable
 
-A single bit that indicates that notification is enabled for the slot when an issued command is completed by the hot-plug controller.
+ 
 
 
-### -field HotPlugInterruptEnable
+### -field DUMMYSTRUCTNAME.PresenceDetectEnable
 
-A single bit that indicates that interrupts for the slot are enabled for hot-plug events.
+ 
 
 
-### -field AttentionIndicatorControl
+### -field DUMMYSTRUCTNAME.CommandCompletedEnable
 
-The state of the slot's attention indicator. Possible values are:
+ 
 
 
+### -field DUMMYSTRUCTNAME.HotPlugInterruptEnable
 
+ 
 
-### -field IndicatorOn
 
-The indicator is on.
+### -field DUMMYSTRUCTNAME.AttentionIndicatorControl
 
+ 
 
-### -field IndicatorBlink
 
-The indicator is blinking.
+### -field DUMMYSTRUCTNAME.PowerIndicatorControl
 
+ 
 
-### -field IndicatorOff
 
-The indicator is off.
+### -field DUMMYSTRUCTNAME.PowerControllerControl
 
-</dd>
-</dl>
+ 
 
-### -field PowerIndicatorControl
 
-The state of the slot's power indicator. Possible values are:
+### -field DUMMYSTRUCTNAME.ElectromechanicalLockControl
 
+ 
 
 
+### -field DUMMYSTRUCTNAME.DataLinkStateChangeEnable
 
-### -field IndicatorOn
+ 
 
-The indicator is on.
 
+### -field DUMMYSTRUCTNAME.Rsvd
 
-### -field IndicatorBlink
-
-The indicator is blinking.
-
-
-### -field IndicatorOff
-
-The indicator is off.
-
-</dd>
-</dl>
-
-### -field PowerControllerControl
-
-The state of the slot's power controller. Possible values are:
-
-
-
-
-### -field PowerOn
-
-The power is on.
-
-
-### -field PowerOff
-
-The power is off.
-
-</dd>
-</dl>
-
-### -field ElectromechanicalLockControl
-
-This member always contains zero.
-
-
-### -field DataLinkStateChangeEnable
-
-A single bit that indicates that notification is enabled for the slot for changes to the data link layer active bit of the link status register of the PCIe capability structure.
-
-
-### -field Rsvd
-
-Reserved.
+ 
 
 
 ### -field AsUSHORT
@@ -185,18 +151,125 @@ Reserved.
 A USHORT representation of the contents of the PCI_EXPRESS_SLOT_CONTROL_REGISTER structure.
 
 
+#### - AttentionButtonEnable
+
+A single bit that indicates that the attention button for the slot is enabled to generate events.
+
+
+#### - PresenceDetectEnable
+
+A single bit that indicates that card presence detection for the slot is enabled to generate events.
+
+
+##### - AttentionIndicatorControl.IndicatorOff
+
+The indicator is off.
+
+
+##### - PowerIndicatorControl.IndicatorBlink
+
+The indicator is blinking.
+
+
+#### - AttentionIndicatorControl
+
+The state of the slot's attention indicator. Possible values are:
+
+
+
+
+##### - PowerIndicatorControl.IndicatorOff
+
+The indicator is off.
+
+
+#### - DataLinkStateChangeEnable
+
+A single bit that indicates that notification is enabled for the slot for changes to the data link layer active bit of the link status register of the PCIe capability structure.
+
+
+#### - CommandCompletedEnable
+
+A single bit that indicates that notification is enabled for the slot when an issued command is completed by the hot-plug controller.
+
+
+##### - PowerIndicatorControl.IndicatorOn
+
+The indicator is on.
+
+
+##### - PowerControllerControl.PowerOn
+
+The power is on.
+
+
+#### - Rsvd
+
+Reserved.
+
+
+#### - PowerIndicatorControl
+
+The state of the slot's power indicator. Possible values are:
+
+
+
+
+##### - AttentionIndicatorControl.IndicatorBlink
+
+The indicator is blinking.
+
+
+#### - PowerFaultDetectEnable
+
+A single bit that indicates that power fault detection for the slot is enabled to generate events.
+
+
+#### - MRLSensorEnable
+
+A single bit that indicates that the manually operated retention latch (MRL) sensor for the slot is enabled to generate events.
+
+
+#### - ElectromechanicalLockControl
+
+This member always contains zero.
+
+
+#### - HotPlugInterruptEnable
+
+A single bit that indicates that interrupts for the slot are enabled for hot-plug events.
+
+
+#### - PowerControllerControl
+
+The state of the slot's power controller. Possible values are:
+
+
+
+
+##### - PowerControllerControl.PowerOff
+
+The power is off.
+
+
+##### - AttentionIndicatorControl.IndicatorOn
+
+The indicator is on.
+
+
 ## -remarks
+
+
 The PCI_EXPRESS_SLOT_CONTROL_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_SLOT_CONTROL_REGISTER structure is contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a>
-</dt>
-</dl>
+
  
 
  

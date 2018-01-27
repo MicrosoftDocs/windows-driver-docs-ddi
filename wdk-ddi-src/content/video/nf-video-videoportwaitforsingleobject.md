@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 574aa79e-c8ef-44de-8d0b-a550698a32e0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortWaitForSingleObject
+ms.keywords: VideoPortWaitForSingleObject, display.videoportwaitforsingleobject, VideoPort_Functions_a1678f59-0c1c-4b0a-b1e6-2dbb71c8a7c2.xml, VideoPortWaitForSingleObject function [Display Devices], video/VideoPortWaitForSingleObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of the Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortWaitForSingleObject
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortWaitForSingleObject
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortWaitForSingleObject function
 
 
-
 ## -description
+
+
 The <b>VideoPortWaitForSingleObject</b> function puts the current thread into a wait state until the given dispatch object is set to the signaled state, or (optionally) until the wait times out.
 
 
-
 ## -syntax
+
 
 ````
 VP_STATUS VideoPortWaitForSingleObject(
@@ -56,6 +66,9 @@ VP_STATUS VideoPortWaitForSingleObject(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -73,21 +86,56 @@ Pointer to the event object.
 
 
 ## -returns
+
+
 <b>VideoPortWaitForSingleObject</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>ERROR_INVALID_PARAMETER</b></dt>
-</dl>One of the parameters is invalid or the call attempted to wait for a mapped user event.
+</dl>
+</td>
+<td width="60%">
+One of the parameters is invalid or the call attempted to wait for a mapped user event.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NO_ERROR</b></dt>
-</dl>The event object specified in the <i>pObject</i> parameter satisfied the wait.
+</dl>
+</td>
+<td width="60%">
+The event object specified in the <i>pObject</i> parameter satisfied the wait.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>WAIT_TIMEOUT</b></dt>
-</dl>A time-out occurred before the event object was set to the signaled state. This value can be returned when the specified set of wait conditions cannot be immediately met and <i>Timeout</i> is set to zero.
+</dl>
+</td>
+<td width="60%">
+A time-out occurred before the event object was set to the signaled state. This value can be returned when the specified set of wait conditions cannot be immediately met and <i>Timeout</i> is set to zero.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The miniport driver should not attempt to wait for a mapped user event.
 
-Callers of <b>VideoPortWaitForSingleObject</b> must be running at IRQL &lt;= DISPATCH_LEVEL. Usually, the caller will be running at IRQL = PASSIVE_LEVEL and in a nonarbitrary thread context. A call to this function while running at IRQL = DISPATCH_LEVEL is valid if and only if the caller specifies a <i>Timeout</i> value of zero. That is, a miniport driver must not wait for a nonzero interval at IRQL = DISPATCH_LEVEL.</p>
+Callers of <b>VideoPortWaitForSingleObject</b> must be running at IRQL &lt;= DISPATCH_LEVEL. Usually, the caller will be running at IRQL = PASSIVE_LEVEL and in a nonarbitrary thread context. A call to this function while running at IRQL = DISPATCH_LEVEL is valid if and only if the caller specifies a <i>Timeout</i> value of zero. That is, a miniport driver must not wait for a nonzero interval at IRQL = DISPATCH_LEVEL.
+
+

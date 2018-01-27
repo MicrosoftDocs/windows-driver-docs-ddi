@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 818A9F03-F56E-47D6-A9D1-DD0F63B05054
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortSetAdapterBusType
+ms.keywords: StorPortSetAdapterBusType routine [Storage Devices], storport/StorPortSetAdapterBusType, StorPortSetAdapterBusType, storage.storportsetadapterbustype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortSetAdapterBusType
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortSetAdapterBusType
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortSetAdapterBusType function
 
 
-
 ## -description
+
+
 Used to adjust the BusType of the adapter depending on its current configuration. Setting the BusType with this routine will allow you to override the global property set in the miniport INF without having to re-install the driver. This is useful for scenarios such as RAID support or support for multiple adapters with a different bus type.
 
 
-
 ## -syntax
+
 
 ````
 ULONG StorPortSetAdapterBusType(
@@ -55,6 +66,9 @@ ULONG StorPortSetAdapterBusType(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -67,18 +81,47 @@ Contains a value of type <a href="https://msdn.microsoft.com/library/windows/har
 
 
 ## -returns
+
+
 The <b>StorPortSetAdapterBusType</b> routine returns one of the following status codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_UNSUCCESSFUL</b></dt>
-</dl>This routine will return this value if it was called outside the <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> function.
+</dl>
+</td>
+<td width="60%">
+This routine will return this value if it was called outside the <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> function.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>This routine will return this value if it was successful.
+</dl>
+</td>
+<td width="60%">
+This routine will return this value if it was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>This routine fails with this return value if the BusType is an invalid value.
+</dl>
+</td>
+<td width="60%">
+This routine fails with this return value if the BusType is an invalid value.
 
- 
+</td>
+</tr>
+</table> 
 
 
-## -remarks

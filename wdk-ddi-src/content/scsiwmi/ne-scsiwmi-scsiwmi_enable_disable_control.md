@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0327bdc0-e4a4-4c2f-a9b9-5854e3330068
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SCSIWMI_ENABLE_DISABLE_CONTROL, SCSIWMI_ENABLE_DISABLE_CONTROL
+ms.keywords: SCSIWMI_ENABLE_DISABLE_CONTROL enumeration [Storage Devices], scsiwmi/ScsiWmiEventControl, SCSIWMI_ENABLE_DISABLE_CONTROL, structs-scsibus_58a70c92-6ee7-4385-b212-45672a12ac8b.xml, scsiwmi/SCSIWMI_ENABLE_DISABLE_CONTROL, ScsiWmiDataBlockControl, storage.scsiwmi_enable_disable_control, scsiwmi/ScsiWmiDataBlockControl, ScsiWmiEventControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SCSIWMI_ENABLE_DISABLE_CONTROL
-req.alt-loc: scsiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	scsiwmi.h
+apiname: 
+-	SCSIWMI_ENABLE_DISABLE_CONTROL
+product: Windows
+targetos: Windows
 req.typenames: SCSIWMI_ENABLE_DISABLE_CONTROL
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SCSIWMI_ENABLE_DISABLE_CONTROL enumeration
 
 
-
 ## -description
+
+
 The SCSIWMI_ENABLE_DISABLE_CONTROL enumerator is used to specify what to enable or disable. 
-
-
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -56,6 +66,9 @@ typedef enum  {
 
 ## -enum-fields
 
+
+
+
 ### -field ScsiWmiEventControl
 
 Indicates that a WMI event is to be enabled or disabled. 
@@ -66,18 +79,12 @@ Indicates that a WMI event is to be enabled or disabled.
 Indicates that a data collection for a block is to be enabled or disabled.  
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557338">HwScsiWmiFunctionControl</a>
-</dt>
-<dt>
+
 <a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
-</dt>
-</dl>
+
  
 
  

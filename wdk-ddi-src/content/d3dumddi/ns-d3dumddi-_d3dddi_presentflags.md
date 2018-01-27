@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: adab4c0f-b879-409c-97a3-f161a50514f5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_PRESENTFLAGS, D3DDDI_PRESENTFLAGS
+ms.keywords: D3D_other_Structs_4650db5e-637b-4032-a5d2-ded887a883dc.xml, display.d3dddi_presentflags, _D3DDDI_PRESENTFLAGS, D3DDDI_PRESENTFLAGS structure [Display Devices], D3DDDI_PRESENTFLAGS, d3dumddi/D3DDDI_PRESENTFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_PRESENTFLAGS
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDI_PRESENTFLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_PRESENTFLAGS
 ---
 
 # _D3DDDI_PRESENTFLAGS structure
 
 
-
 ## -description
+
+
 The D3DDDI_PRESENTFLAGS structure identifies how to perform a present operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_PRESENTFLAGS {
@@ -61,6 +71,9 @@ typedef struct _D3DDDI_PRESENTFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Blt
 
@@ -83,6 +96,16 @@ A UINT value that specifies whether to flip to a new surface.
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
 
+### -field AllowTearing
+
+ 
+
+
+### -field AllowFlexibleRefresh
+
+ 
+
+
 ### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of the 32-bit <b>Value</b> member to zeros.
@@ -93,18 +116,12 @@ This member is reserved and should be set to zero. Setting this member to zero i
 A member in the union that is contained in D3DDDI_PRESENTFLAGS that can hold one 32-bit value that identifies how to perform a present operation.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_present.md">D3DDDIARG_PRESENT</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present.md">Present</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_present.md">D3DDDIARG_PRESENT</a>
+
  
 
  

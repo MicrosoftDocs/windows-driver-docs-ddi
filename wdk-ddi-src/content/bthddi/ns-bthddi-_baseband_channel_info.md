@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: c9328791-898e-48f2-acfd-30c8a36fcd29
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BASEBAND_CHANNEL_INFO, BASEBAND_CHANNEL_INFO, *PBASEBAND_CHANNEL_INFO
+ms.keywords: BASEBAND_CHANNEL_INFO, bth_structs_849b4363-4e7e-4fee-b5c1-86b32431a6dd.xml, bltooth.baseband_channel_info, bthddi/PBASEBAND_CHANNEL_INFO, *PBASEBAND_CHANNEL_INFO, _BASEBAND_CHANNEL_INFO, BASEBAND_CHANNEL_INFO structure [Bluetooth Devices], PBASEBAND_CHANNEL_INFO structure pointer [Bluetooth Devices], bthddi/BASEBAND_CHANNEL_INFO, PBASEBAND_CHANNEL_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BASEBAND_CHANNEL_INFO
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthddi.h
+apiname: 
+-	BASEBAND_CHANNEL_INFO
+product: Windows
+targetos: Windows
 req.typenames: BASEBAND_CHANNEL_INFO, *PBASEBAND_CHANNEL_INFO
 ---
 
 # _BASEBAND_CHANNEL_INFO structure
 
 
-
 ## -description
+
+
 The BASEBAND_CHANNEL_INFO structure describes output information about the baseband channel that is
   used by a SCO link after a BRB_GET_CHANNEL_INFO BRB completes.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BASEBAND_CHANNEL_INFO {
@@ -58,6 +68,9 @@ typedef struct _BASEBAND_CHANNEL_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Transmission_Interval
 
@@ -77,18 +90,15 @@ The air mode data format used by the baseband channel. Possible values include:
      
 
 
-
-### -field A-LAW LOG
-     
-
-### -field CVSD
-     
-
-### -field MU-LAW LOG
-     
-
-### -field TRANSPARENT DATA
-
+<dl>
+<dt>A-LAW LOG
+     </dt>
+<dt>CVSD
+     </dt>
+<dt>MU-LAW LOG
+     </dt>
+<dt>TRANSPARENT DATA</dt>
+</dl>
 
 
 
@@ -105,18 +115,19 @@ The size, in bytes, of the eSCO payload in the transmit direction. This member w
 
 
 ## -remarks
+
+
 Profile drivers access the BASEBAND_CHANNEL_INFO structure through the 
     <b>BasebandInfo</b> member of the 
-    <a href="..\bthddi\ns-bthddi-_brb_sco_get_channel_info.md">
-    _BRB_SCO_GET_CHANNEL_INFO</a> structure.
+    <mshelp:link keywords="bltooth._brb_sco_get_channel_info" tabindex="0"><b>
+    _BRB_SCO_GET_CHANNEL_INFO</b></mshelp:link> structure.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthddi\ns-bthddi-_brb_sco_get_channel_info.md">_BRB_SCO_GET_CHANNEL_INFO</a>
-</dt>
-</dl>
+
  
 
  

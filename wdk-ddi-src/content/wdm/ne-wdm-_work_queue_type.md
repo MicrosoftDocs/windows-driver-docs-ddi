@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5bbebf1f-ca0f-44b7-a5cd-f06b637aa3de
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _WORK_QUEUE_TYPE, WORK_QUEUE_TYPE
+ms.keywords: wdm/CustomPriorityWorkQueue, wdm/MaximumWorkQueue, MaximumWorkQueue, DelayedWorkQueue, wdm/DelayedWorkQueue, BackgroundWorkQueue, kernel.work_queue_type, CriticalWorkQueue, wdm/BackgroundWorkQueue, wdm/RealTimeWorkQueue, wdm/SuperCriticalWorkQueue, CustomPriorityWorkQueue, HyperCriticalWorkQueue, wdm/WORK_QUEUE_TYPE, WORK_QUEUE_TYPE, wdm/HyperCriticalWorkQueue, WORK_QUEUE_TYPE enumeration [Kernel-Mode Driver Architecture], sysenum_5bc5bb84-a8c7-46af-982e-37b8ec51723f.xml, RealTimeWorkQueue, wdm/CriticalWorkQueue, SuperCriticalWorkQueue, NormalWorkQueue, _WORK_QUEUE_TYPE, wdm/NormalWorkQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WORK_QUEUE_TYPE
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	WORK_QUEUE_TYPE
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _WORK_QUEUE_TYPE enumeration
 
 
-
 ## -description
+
+
 The <b>WORK_QUEUE_TYPE</b> enumeration type indicates the type of system worker thread that handles a work item.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WORK_QUEUE_TYPE { 
@@ -62,6 +72,9 @@ typedef enum _WORK_QUEUE_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field CriticalWorkQueue
 
@@ -111,6 +124,8 @@ This queue type is valid starting with Windows 8.1.
 
 
 ## -remarks
+
+
 For drivers targeting Windows 8.1 or later versions of Windows, use of only <b>CustomPriorityWorkQueue</b> with a custom priority level is recommended.
 
  A work queue priority &lt; 17 is advised since queuing  
@@ -119,18 +134,15 @@ For drivers targeting Windows 8.1 or later versions of Windows, use of only <b>
 For more information about system worker threads, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564587">System Worker Threads</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-ioqueueworkitemex.md">IoQueueWorkItemEx</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn683917">IoTryQueueWorkItem</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-ioqueueworkitemex.md">IoQueueWorkItemEx</a>
+
+<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
+
  
 
  

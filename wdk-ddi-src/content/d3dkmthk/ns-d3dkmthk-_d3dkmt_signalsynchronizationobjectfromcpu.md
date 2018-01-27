@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 03B822CF-2FB0-412B-9F45-43756D8B4C19
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
+ms.keywords: display.d3dkmt_signalsynchronizationobjectfromcpu, _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
 ---
 
 # _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure
 
 
-
 ## -description
+
+
 <b>D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromcpu.md">D3DKMTSignalSynchronizationObjectFromCpu</a> to enable a driver to signal a monitored fence.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU {
@@ -56,6 +66,9 @@ typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -77,15 +90,16 @@ typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU {
 [in] An array of 64 bit monitored fence values to signal, each corresponding to an object in the <b>ObjectHandleArray</b>.
 
 
-## -remarks
+### -field Flags
+
+ 
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromcpu.md">D3DKMTSignalSynchronizationObjectFromCpu</a>
-</dt>
-</dl>
+
  
 
  

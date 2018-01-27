@@ -7,8 +7,8 @@ old-location: debugger\debug_get_text_completions_out.htm
 old-project: debugger
 ms.assetid: 09F3A720-C039-4C8D-84A4-8AF071E1FFB0
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _DEBUG_GET_TEXT_COMPLETIONS_OUT, *PDEBUG_GET_TEXT_COMPLETIONS_OUT, DEBUG_GET_TEXT_COMPLETIONS_OUT
+ms.date: 1/19/2018
+ms.keywords: *PDEBUG_GET_TEXT_COMPLETIONS_OUT, dbgeng/PDEBUG_GET_TEXT_COMPLETIONS_OUT, PDEBUG_GET_TEXT_COMPLETIONS_OUT, DEBUG_GET_TEXT_COMPLETIONS_OUT structure [Windows Debugging], PDEBUG_GET_TEXT_COMPLETIONS_OUT structure pointer [Windows Debugging], _DEBUG_GET_TEXT_COMPLETIONS_OUT, DEBUG_GET_TEXT_COMPLETIONS_IS_EXTENSION_COMMAND, dbgeng/DEBUG_GET_TEXT_COMPLETIONS_OUT, debugger.debug_get_text_completions_out, DEBUG_GET_TEXT_COMPLETIONS_OUT, DEBUG_GET_TEXT_COMPLETIONS_IS_DOT_COMMAND, DEBUG_GET_TEXT_COMPLETIONS_IS_SYMBOL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DEBUG_GET_TEXT_COMPLETIONS_OUT
-req.alt-loc: DbgEng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	DbgEng.h
+apiname: 
+-	DEBUG_GET_TEXT_COMPLETIONS_OUT
+product: Windows
+targetos: Windows
 req.typenames: *PDEBUG_GET_TEXT_COMPLETIONS_OUT, DEBUG_GET_TEXT_COMPLETIONS_OUT
 ---
 
 # _DEBUG_GET_TEXT_COMPLETIONS_OUT structure
 
 
-
 ## -description
+
+
 Defines information about text completions to get. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DEBUG_GET_TEXT_COMPLETIONS_OUT {
@@ -58,20 +68,22 @@ typedef struct _DEBUG_GET_TEXT_COMPLETIONS_OUT {
 
 ## -struct-fields
 
+
+
+
 ### -field Flags
 
 Flags. Valid flag values include the following:
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field DEBUG_GET_TEXT_COMPLETIONS_IS_DOT_COMMAND
-### -field 0x00000001
-
+<td width="40%"><a id="DEBUG_GET_TEXT_COMPLETIONS_IS_DOT_COMMAND"></a><a id="debug_get_text_completions_is_dot_command"></a><dl>
+<dt><b>DEBUG_GET_TEXT_COMPLETIONS_IS_DOT_COMMAND</b></dt>
+<dt>0x00000001</dt>
+</dl>
 </td>
 <td width="60%">
 Is dot command. Dot commands begin with a period (.).
@@ -79,10 +91,10 @@ Is dot command. Dot commands begin with a period (.).
 </td>
 </tr>
 <tr>
-
-### -field DEBUG_GET_TEXT_COMPLETIONS_IS_EXTENSION_COMMAND
-### -field 0x00000002
-
+<td width="40%"><a id="DEBUG_GET_TEXT_COMPLETIONS_IS_EXTENSION_COMMAND"></a><a id="debug_get_text_completions_is_extension_command"></a><dl>
+<dt><b>DEBUG_GET_TEXT_COMPLETIONS_IS_EXTENSION_COMMAND</b></dt>
+<dt>0x00000002</dt>
+</dl>
 </td>
 <td width="60%">
 Is extension command.
@@ -90,18 +102,17 @@ Is extension command.
 </td>
 </tr>
 <tr>
-
-### -field DEBUG_GET_TEXT_COMPLETIONS_IS_SYMBOL
-### -field 0x00000004
-
+<td width="40%"><a id="DEBUG_GET_TEXT_COMPLETIONS_IS_SYMBOL"></a><a id="debug_get_text_completions_is_symbol"></a><dl>
+<dt><b>DEBUG_GET_TEXT_COMPLETIONS_IS_SYMBOL</b></dt>
+<dt>0x00000004</dt>
+</dl>
 </td>
 <td width="60%">
 Is symbol.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field ReplaceIndex
@@ -123,5 +134,3 @@ Reserved.
 
 Reserved.
 
-
-## -remarks

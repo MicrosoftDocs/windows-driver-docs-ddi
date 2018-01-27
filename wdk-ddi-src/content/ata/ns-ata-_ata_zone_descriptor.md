@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2e027ac5-7b5d-43cc-8d37-c0a3e77e68c9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ATA_ZONE_DESCRIPTOR, *PATA_ZONE_DESCRIPTOR, ATA_ZONE_DESCRIPTOR
+ms.keywords: _ATA_ZONE_DESCRIPTOR, PATA_ZONE_DESCRIPTOR structure pointer [Storage Devices], PATA_ZONE_DESCRIPTOR, ATA_ZONE_DESCRIPTOR, storage.ata_zone_descriptor, ATA_ZONE_DESCRIPTOR structure [Storage Devices], ata/ATA_ZONE_DESCRIPTOR, *PATA_ZONE_DESCRIPTOR, ata/PATA_ZONE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ATA_ZONE_DESCRIPTOR
-req.alt-loc: Ata.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PATA_ZONE_DESCRIPTOR, ATA_ZONE_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ata.h
+apiname: 
+-	ATA_ZONE_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: ATA_ZONE_DESCRIPTOR, *PATA_ZONE_DESCRIPTOR
 ---
 
 # _ATA_ZONE_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 This structure is for internal use only and should not be called from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ATA_ZONE_DESCRIPTOR {
@@ -67,34 +77,37 @@ typedef struct _ATA_ZONE_DESCRIPTOR {
 
 ## -struct-fields
 
-### -field ZoneType  : 4
-
-N/A
 
 
-### -field Reserved0  : 4
 
-N/A
+### -field ZoneType
 
-
-### -field Reset  : 1
-
-N/A
+ 
 
 
-### -field NonSeq : 1
+### -field Reserved0
 
-N/A
-
-
-### -field Reserved1  : 2
-
-N/A
+ 
 
 
-### -field ZoneCondition  : 4
+### -field Reset
 
-N/A
+ 
+
+
+### -field NonSeq
+
+ 
+
+
+### -field Reserved1
+
+ 
+
+
+### -field ZoneCondition
+
+ 
 
 
 ### -field Reserved2
@@ -102,36 +115,34 @@ N/A
 N/A
 
 
-### -field ZoneLength  : 48
+### -field ZoneLength
 
-N/A
-
-
-### -field Reserved3  : 16
-
-N/A
-
-N/A
+ 
 
 
-### -field ZoneStartLBA  : 48
+### -field Reserved3
 
-N/A
-
-
-### -field Reserved4  : 16
-
-N/A
+ 
 
 
-### -field WritePointerLBA  : 48
+### -field ZoneStartLBA
 
-N/A
+ 
 
 
-### -field Reserved5  : 16
+### -field Reserved4
 
-N/A
+ 
+
+
+### -field WritePointerLBA
+
+ 
+
+
+### -field Reserved5
+
+ 
 
 
 ### -field Reserved6
@@ -139,4 +150,64 @@ N/A
 N/A
 
 
-## -remarks
+#### - NonSeq : 1
+
+N/A
+
+
+#### - Reserved1  : 2
+
+N/A
+
+
+#### - ZoneStartLBA  : 48
+
+N/A
+
+
+#### - WritePointerLBA  : 48
+
+N/A
+
+
+#### - ZoneLength  : 48
+
+N/A
+
+
+#### - Reserved0  : 4
+
+N/A
+
+
+#### - Reserved4  : 16
+
+N/A
+
+
+#### - ZoneCondition  : 4
+
+N/A
+
+
+#### - Reserved3  : 16
+
+N/A
+
+N/A
+
+
+#### - Reserved5  : 16
+
+N/A
+
+
+#### - ZoneType  : 4
+
+N/A
+
+
+#### - Reset  : 1
+
+N/A
+

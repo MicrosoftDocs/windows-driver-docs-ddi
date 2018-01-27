@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2A72D3B5-286A-4C20-AFEC-77EDCDD56B6A
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _SRB_COMMAND, SRB_COMMAND
+ms.keywords: strmini/SRB_STREAM_METHOD, SRB_CLOSE_STREAM, SRB_GET_DATA_FORMAT, SRB_GET_STREAM_PROPERTY, strmini/SRB_END_FLUSH, SRB_NOTIFY_IDLE_STATE, strmini/SRB_COMMAND, SRB_COMMAND enumeration [Streaming Media Devices], SRB_GET_STREAM_STATE, SRB_PROPOSE_STREAM_RATE, SRB_READ_DATA, SRB_UNKNOWN_STREAM_COMMAND, strmini/SRB_WRITE_DATA, SRB_WRITE_DATA, SRB_INDICATE_MASTER_CLOCK, strmini/SRB_INDICATE_MASTER_CLOCK, SRB_OPEN_STREAM, strmini/SRB_GET_DEVICE_PROPERTY, strmini/SRB_GET_DATA_FORMAT, SRB_OPEN_DEVICE_INSTANCE, strmini/SRB_PAGING_OUT_DRIVER, SRB_CLOSE_DEVICE_INSTANCE, strmini/SRB_READ_DATA, strmini/SRB_BEGIN_FLUSH, strmini/SRB_OPEN_MASTER_CLOCK, SRB_INITIALIZE_DEVICE, strmini/SRB_UNINITIALIZE_DEVICE, strmini/SRB_DEVICE_METHOD, strmini/SRB_PROPOSE_DATA_FORMAT, strmini/SRB_CLOSE_MASTER_CLOCK, SRB_UNKNOWN_DEVICE_COMMAND, strmini/SRB_CLOSE_DEVICE_INSTANCE, strmini/SRB_GET_STREAM_PROPERTY, SRB_OPEN_MASTER_CLOCK, SRB_SET_DATA_FORMAT, SRB_SET_STREAM_STATE, SRB_PAGING_OUT_DRIVER, SRB_PROPOSE_DATA_FORMAT, strmini/SRB_SET_STREAM_RATE, SRB_GET_DATA_INTERSECTION, SRB_SET_STREAM_PROPERTY, strmini/SRB_SURPRISE_REMOVAL, strmini/SRB_SET_DATA_FORMAT, SRB_UNINITIALIZE_DEVICE, SRB_SET_DEVICE_PROPERTY, strmini/SRB_CLOSE_STREAM, SRB_CHANGE_POWER_STATE, SRB_SURPRISE_REMOVAL, strmini/SRB_INITIALIZATION_COMPLETE, strmini/SRB_GET_STREAM_STATE, strmini/SRB_NOTIFY_IDLE_STATE, strmini/SRB_INITIALIZE_DEVICE, strmini/SRB_GET_DATA_INTERSECTION, strmini/SRB_UNKNOWN_STREAM_COMMAND, strmini/SRB_OPEN_STREAM, strmini/SRB_OPEN_DEVICE_INSTANCE, SRB_GET_DEVICE_PROPERTY, strmini/SRB_UNKNOWN_DEVICE_COMMAND, SRB_CLOSE_MASTER_CLOCK, strmini/SRB_CHANGE_POWER_STATE, strmini/SRB_SET_DEVICE_PROPERTY, SRB_DEVICE_METHOD, strmini/SRB_PROPOSE_STREAM_RATE, SRB_INITIALIZATION_COMPLETE, SRB_GET_STREAM_INFO, SRB_STREAM_METHOD, stream.srb_command, _SRB_COMMAND, SRB_BEGIN_FLUSH, strmini/SRB_SET_STREAM_STATE, SRB_END_FLUSH, SRB_SET_STREAM_RATE, SRB_COMMAND, strmini/SRB_GET_STREAM_INFO, strmini/SRB_SET_STREAM_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SRB_COMMAND
-req.alt-loc: Strmini.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Strmini.h
+apiname: 
+-	SRB_COMMAND
+product: Windows
+targetos: Windows
 req.typenames: SRB_COMMAND
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _SRB_COMMAND enumeration
 
 
-
 ## -description
 
 
 
 
+
 ## -syntax
+
 
 ````
 typedef enum _SRB_COMMAND { 
@@ -94,6 +104,9 @@ typedef enum _SRB_COMMAND {
 
 
 ## -enum-fields
+
+
+
 
 ### -field SRB_READ_DATA
 
@@ -180,7 +193,7 @@ Stream-specific code that begins the flush state.
 Stream-specific code that ends the flush state.
 
 
-### -field SRB_GET_STREAM_INFO 
+### -field SRB_GET_STREAM_INFO
 
 Device instance-specific code that gets the stream information structure.
 
@@ -258,12 +271,12 @@ Device instance-specific code that indicates a surprise removal of hardware has 
 ### -field SRB_DEVICE_METHOD
 
 
+
 ### -field SRB_STREAM_METHOD
+
 
 
 ### -field SRB_NOTIFY_IDLE_STATE
 
 Device instance-specific code that specifies to call on first open and last close.
 
-
-## -remarks

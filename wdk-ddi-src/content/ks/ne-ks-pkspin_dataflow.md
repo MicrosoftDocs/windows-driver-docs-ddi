@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: feab830d-8079-4051-8974-52905f845765
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: *PKSPIN_DATAFLOW, *PKSPIN_DATAFLOW, KSPIN_DATAFLOW
+ms.keywords: ks/KSPIN_DATAFLOW, ks/KSPIN_DATAFLOW_OUT, PKSPIN_DATAFLOW, PKSPIN_DATAFLOW enumeration pointer [Streaming Media Devices], KSPIN_DATAFLOW_IN, KSPIN_DATAFLOW_OUT, KSPIN_DATAFLOW, ks/PKSPIN_DATAFLOW, ks-struct_2161b89b-ba7c-440a-9006-c3445b392b89.xml, KSPIN_DATAFLOW enumeration [Streaming Media Devices], *PKSPIN_DATAFLOW, ks/KSPIN_DATAFLOW_IN, stream.kspin_dataflow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPIN_DATAFLOW
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSPIN_DATAFLOW, KSPIN_DATAFLOW
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSPIN_DATAFLOW
+product: Windows
+targetos: Windows
+req.typenames: KSPIN_DATAFLOW, *PKSPIN_DATAFLOW
 ---
 
 # *PKSPIN_DATAFLOW enumeration
 
 
-
 ## -description
+
+
 An instance of the KSPIN_DATAFLOW enumeration is returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff565197">KSPROPERTY_PIN_DATAFLOW</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -55,6 +65,9 @@ typedef enum  {
 
 ## -enum-fields
 
+
+
+
 ### -field KSPIN_DATAFLOW_IN
 
 Indicates that the pin factory instantiates data sink pins. Such pins can only be connected to data source pins. 
@@ -65,21 +78,14 @@ Indicates that the pin factory instantiates data sink pins. Such pins can only b
 Indicates that the pin factory instantiates data source pins. Such pins can only be connected to data sink pins.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="..\strmini\ns-strmini-_hw_stream_information.md">HW_STREAM_INFORMATION</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
+
  
 
  

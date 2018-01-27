@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 150773a3-a3a9-41a7-9985-4387bba5a766
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _GetFCPStatistics_OUT, *PGetFCPStatistics_OUT, GetFCPStatistics_OUT
+ms.keywords: hbapiwmi/GetFCPStatistics_OUT, GetFCPStatistics_OUT structure [Storage Devices], PGetFCPStatistics_OUT structure pointer [Storage Devices], storage.getfcpstatistics_out, structs-Fibre_cb7a0157-9213-4c4f-adbe-5855d8cca225.xml, PGetFCPStatistics_OUT, hbapiwmi/PGetFCPStatistics_OUT, _GetFCPStatistics_OUT, *PGetFCPStatistics_OUT, GetFCPStatistics_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GetFCPStatistics_OUT
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PGetFCPStatistics_OUT, GetFCPStatistics_OUT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	GetFCPStatistics_OUT
+product: Windows
+targetos: Windows
+req.typenames: GetFCPStatistics_OUT, *PGetFCPStatistics_OUT
 ---
 
 # _GetFCPStatistics_OUT structure
 
 
-
 ## -description
+
+
 The GetFCPStatistics_OUT structure is used by the miniport driver to report the output parameters of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554939">GetFCPStatistics</a> WMI method. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GetFCPStatistics_OUT {
@@ -54,6 +64,9 @@ typedef struct _GetFCPStatistics_OUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HBAStatus
 
@@ -66,18 +79,18 @@ Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_fc4statistic
 
 
 ## -remarks
+
+
 The WMI tool suite generates a declaration of the GetFCPStatistics_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554939">GetFCPStatistics</a>
-</dt>
-<dt>
+
 <a href="..\hbapiwmi\ns-hbapiwmi-_getfcpstatistics_in.md">GetFCPStatistics_IN</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554939">GetFCPStatistics</a>
+
  
 
  

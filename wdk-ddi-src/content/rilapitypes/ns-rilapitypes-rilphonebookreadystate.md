@@ -7,8 +7,8 @@ old-location: netvista\rilphonebookreadystate_2.htm
 old-project: netvista
 ms.assetid: 2193f73d-c21c-430d-8535-790fdea86366
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILPHONEBOOKREADYSTATE, *LPRILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE
+ms.date: 1/18/2018
+ms.keywords: RILPHONEBOOKREADYSTATE structure [Network Drivers Starting with Windows Vista], rilapitypes/RILPHONEBOOKREADYSTATE, netvista.rilphonebookreadystate_2, *LPRILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILPHONEBOOKREADYSTATE
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILPHONEBOOKREADYSTATE
+product: Windows
+targetos: Windows
 req.typenames: *LPRILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILPHONEBOOKREADYSTATE structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILPHONEBOOKREADYSTATE {
@@ -57,13 +67,17 @@ typedef struct _RILPHONEBOOKREADYSTATE {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field hUiccApp
 
 
+
 ### -field dwStoreLocations
 
 
-## -remarks

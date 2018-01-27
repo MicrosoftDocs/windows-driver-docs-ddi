@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 876ABC9C-F9BE-480F-8641-AE132840F8D5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_RESOURCE_BARRIER_FLAGS, D3D12DDI_RESOURCE_BARRIER_FLAGS
+ms.keywords: display.d3d12ddi_resource_barrier_flags, D3D12DDI_RESOURCE_BARRIER_FLAGS, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_FLAG_NONE, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_FLAG_0022_ATOMIC_COPY, D3D12DDI_RESOURCE_BARRIER_FLAG_END_ONLY, D3D12DDI_RESOURCE_BARRIER_FLAG_0022_ALIASING, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_FLAG_BEGIN_ONLY, D3D12DDI_RESOURCE_BARRIER_FLAG_0022_ATOMIC_COPY, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_FLAG_END_ONLY, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_FLAG_0022_ALIASING, D3D12DDI_RESOURCE_BARRIER_FLAG_BEGIN_ONLY, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_FLAGS, D3D12DDI_RESOURCE_BARRIER_FLAG_NONE, D3D12DDI_RESOURCE_BARRIER_FLAGS enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_RESOURCE_BARRIER_FLAGS
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_RESOURCE_BARRIER_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_RESOURCE_BARRIER_FLAGS
 ---
 
 # D3D12DDI_RESOURCE_BARRIER_FLAGS enumeration
 
 
-
 ## -description
+
+
 Contains resource barrier flags.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D12DDI_RESOURCE_BARRIER_FLAGS { 
@@ -57,6 +67,9 @@ typedef enum D3D12DDI_RESOURCE_BARRIER_FLAGS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D12DDI_RESOURCE_BARRIER_FLAG_NONE
 
@@ -84,6 +97,10 @@ Indicates that an aliasing barrier has been converted to a ranged barrier.
 
 
 ## -remarks
+
+
 The absence of both <b>D3D12DDI_RESOURCE_BARRIER_FLAG_BEGIN_ONLY</b> and <b>D3D12DDI_RESOURCE_BARRIER_FLAG_END_ONLY</b> denotes both an acquire and release.
 
-During an acquire, GPU caches may need to be explicitly invalidated. During a release, GPU caches may need to be explicitly flushed. </p>
+During an acquire, GPU caches may need to be explicitly invalidated. During a release, GPU caches may need to be explicitly flushed. 
+
+

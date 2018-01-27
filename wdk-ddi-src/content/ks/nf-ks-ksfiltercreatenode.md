@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2a796bb9-7d55-47da-9a57-2829cd193e23
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterCreateNode
+ms.keywords: ks/KsFilterCreateNode, KsFilterCreateNode, KsFilterCreateNode function [Streaming Media Devices], avfunc_9adc2406-964c-4f26-a155-67f37cceb0b4.xml, stream.ksfiltercreatenode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsFilterCreateNode
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsFilterCreateNode
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsFilterCreateNode function
 
 
-
 ## -description
+
+
 The<b> KsFilterCreateNode</b> function creates a new topology node on the specified filter.
 
 
-
 ## -syntax
+
 
 ````
 KSDDKAPI NTSTATUS NTAPI KsFilterCreateNode(
@@ -55,6 +66,9 @@ KSDDKAPI NTSTATUS NTAPI KsFilterCreateNode(
 
 
 ## -parameters
+
+
+
 
 ### -param Filter [in]
 
@@ -72,19 +86,23 @@ A pointer to a ULONG where AVStream places the ID of the new node.
 
 
 ## -returns
+
+
 <b>KsFilterCreateNode</b>  returns the success or failure of creating the node. The call may fail because of invalid parameters, low memory, or other reasons.
 
 
+
 ## -remarks
+
+
 Note that the filter control mutex must be held before calling this function. For more information, see <a href="https://msdn.microsoft.com/402795a0-e567-4e7e-a7d8-b2ce29ffb8fd">Filter Control Mutex in AVStream</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ksfiltercreatepinfactory.md">KsFilterCreatePinFactory</a>
-</dt>
-</dl>
+
  
 
  

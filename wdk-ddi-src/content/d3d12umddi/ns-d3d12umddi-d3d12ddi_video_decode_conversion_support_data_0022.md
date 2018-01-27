@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E9FA4CEB-84D3-42A6-B36A-B411922F19AE
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022, D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022
+ms.keywords: display.d3d12ddi_video_decode_conversion_support_data, D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022, D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022
 ---
 
 # D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022 structure
 
 
-
 ## -description
+
+
 Specifies information used to check whether a color space conversion, format conversion, and scale are supported and whether it is required for real-time reasons or reference buffer format.  
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022 {
@@ -60,6 +70,9 @@ typedef struct D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NodeIndex
 
@@ -102,6 +115,8 @@ The returned supported output size range for decode conversion.  For more inform
 
 
 ## -remarks
+
+
 The check is made through <a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md">pfnGetCaps</a> with the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddicaps_type.md">D3D12DDICAPS_TYPE</a> set to a value of <b>D3D12DDICAPS_TYPE_VIDEO_DECODE_CONVERSION_SUPPORT</b>.
 
 If the color space and format conversion is reported, the <i>SupportedFlags</i> has the <b>D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_SUPPORTED</b> flag set.  
@@ -109,27 +124,21 @@ If the color space and format conversion is reported, the <i>SupportedFlags</i> 
 Callers should check the <i>ScaleSupport</i> parameter to understand if the scale is supported.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
-</dt>
-<dt>
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_conversion_support_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS</a>
-</dt>
-<dt>
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_format_description_0020.md">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a>
-</dt>
-<dt>
+
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_sample_description_0020.md">D3D12DDI_VIDEO_SAMPLE_DESCRIPTION</a>
-</dt>
-<dt>
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_scale_support_0022.md">D3D12DDI_VIDEO_SCALE_SUPPORT</a>
-</dt>
-<dt>
+
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddicaps_type.md">D3D12DDICAPS_TYPE</a>
-</dt>
-</dl>
+
+<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_scale_support_0022.md">D3D12DDI_VIDEO_SCALE_SUPPORT</a>
+
+<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_format_description_0020.md">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a>
+
+<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_conversion_support_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS</a>
+
  
 
  

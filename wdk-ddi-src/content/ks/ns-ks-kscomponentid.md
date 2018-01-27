@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 37987f5a-f706-4a5d-b6f7-e726bdfd8473
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCOMPONENTID, *PKSCOMPONENTID, KSCOMPONENTID
+ms.keywords: ks/PKSCOMPONENTID, stream.kscomponentid, KSCOMPONENTID, PKSCOMPONENTID structure pointer [Streaming Media Devices], ks-struct_a6ed820f-c35d-411e-98a5-bd14a2141960.xml, *PKSCOMPONENTID, PKSCOMPONENTID, KSCOMPONENTID structure [Streaming Media Devices], ks/KSCOMPONENTID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSCOMPONENTID
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSCOMPONENTID
+product: Windows
+targetos: Windows
 req.typenames: *PKSCOMPONENTID, KSCOMPONENTID
 ---
 
 # KSCOMPONENTID structure
 
 
-
 ## -description
+
+
 The KSCOMPONENTID structure contains unique identifiers that describe an individual kernel streaming object.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -58,6 +68,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Manufacturer
 
@@ -90,15 +103,16 @@ Specifies the revision number for the component or product.
 
 
 ## -remarks
+
+
 Supply this structure in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565171">KSPROPERTY_GENERAL_COMPONENTID</a> request.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565171">KSPROPERTY_GENERAL_COMPONENTID</a>
-</dt>
-</dl>
+
  
 
  

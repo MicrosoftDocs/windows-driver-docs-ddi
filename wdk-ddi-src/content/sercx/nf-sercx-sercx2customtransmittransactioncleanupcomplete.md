@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 5B9EBE82-A49A-4AD9-B07B-C0D17C5F3732
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCx2CustomTransmitTransactionCleanupComplete
+ms.keywords: SerCx2CustomTransmitTransactionCleanupComplete method [Serial Ports], SerCx2CustomTransmitTransactionCleanupComplete, serports.sercx2customtransmittransactioncleanupcomplete, 2/SerCx2CustomTransmitTransactionCleanupComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.1.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SerCx2CustomTransmitTransactionCleanupComplete
-req.alt-loc: 2.0\Sercx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	2.0\Sercx.h
+apiname: 
+-	SerCx2CustomTransmitTransactionCleanupComplete
+product: Windows
+targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SerCx2CustomTransmitTransactionCleanupComplete function
 
 
-
 ## -description
+
+
 The <b>SerCx2CustomTransmitTransactionCleanupComplete</b> method notifies version 2 of the serial framework extension (SerCx2) that the serial controller driver has finished cleaning up the serial controller's hardware state after a custom-transmit transaction.
 
 
-
 ## -syntax
+
 
 ````
 VOID SerCx2CustomTransmitTransactionCleanupComplete(
@@ -55,16 +65,24 @@ VOID SerCx2CustomTransmitTransactionCleanupComplete(
 
 ## -parameters
 
+
+
+
 ### -param CustomTransmitTransaction [in]
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/dn265257">SERCX2CUSTOMTRANSMITTRANSACTION</a> handle to a custom-transmit object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2customtransmittransactioncreate.md">SerCx2CustomTransmitTransactionCreate</a> method to create this object.
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 After a custom-transmit transaction ends, SerCx2 calls the <a href="..\sercx\nc-sercx-evt_sercx2_custom_transmit_transaction_cleanup.md">EvtSerCx2CustomTransmitTransactionCleanup</a> event callback function, if it is implemented, to clean up the serial controller state. In response to this call, the driver should first do any clean-up work that is needed; then the driver must call <b>SerCx2CustomTransmitTransactionCleanupComplete</b> to notify SerCx2. SerCx2 expects this notification and does not start the next transaction until it is notified.
 
 A serial controller driver must call <b>SerCx2CustomTransmitTransactionCleanupComplete</b> only in response to a call to the <i>EvtSerCx2CustomTransmitTransactionCleanup</i> function.
@@ -72,18 +90,15 @@ A serial controller driver must call <b>SerCx2CustomTransmitTransactionCleanupCo
 For more information, see <a href="https://msdn.microsoft.com/E72E68BC-A60A-41BE-8606-92A608648042">SerCx2 Custom-Transmit Transactions</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\sercx\nc-sercx-evt_sercx2_custom_transmit_transaction_cleanup.md">EvtSerCx2CustomTransmitTransactionCleanup</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265257">SERCX2CUSTOMTRANSMITTRANSACTION</a>
-</dt>
-<dt>
+
 <a href="..\sercx\nf-sercx-sercx2customtransmittransactioncreate.md">SerCx2CustomTransmitTransactionCreate</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265257">SERCX2CUSTOMTRANSMITTRANSACTION</a>
+
+<a href="..\sercx\nc-sercx-evt_sercx2_custom_transmit_transaction_cleanup.md">EvtSerCx2CustomTransmitTransactionCleanup</a>
+
  
 
  

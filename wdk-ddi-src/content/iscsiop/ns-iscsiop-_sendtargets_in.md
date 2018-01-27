@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fa6af43c-4fbd-43b5-9c3d-61254dfe894f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SendTargets_IN, SendTargets_IN, *PSendTargets_IN
+ms.keywords: structs-iSCSI_448fb50f-6420-43ca-be0e-b3dd110cd48b.xml, SendTargets_IN, SendTargets_IN structure [Storage Devices], iscsiop/PSendTargets_IN, PSendTargets_IN, iscsiop/SendTargets_IN, *PSendTargets_IN, storage.sendtargets_in, PSendTargets_IN structure pointer [Storage Devices], _SendTargets_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SendTargets_IN
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: SendTargets_IN, *PSendTargets_IN
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	SendTargets_IN
+product: Windows
+targetos: Windows
+req.typenames: *PSendTargets_IN, SendTargets_IN
 ---
 
 # _SendTargets_IN structure
 
 
-
 ## -description
+
+
 The SendTargets_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a> method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SendTargets_IN {
@@ -54,6 +64,9 @@ typedef struct _SendTargets_IN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UniqueSessionId
 
@@ -66,24 +79,22 @@ The authentication key text in the PDU.
 
 
 ## -remarks
+
+
 You must implement this method.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a>
-</dt>
-<dt>
+
 <a href="..\iscsiop\ns-iscsiop-_sendtargets_out.md">SendTargets_OUT</a>
-</dt>
-</dl>
+
  
 
  

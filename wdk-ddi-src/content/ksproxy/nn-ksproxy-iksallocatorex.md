@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 42abaf2b-8ee9-450e-aef3-fa29d1b558e5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSynchronousDeviceControl
+ms.keywords: stream.iksallocatorex, IKsAllocatorEx interface [Streaming Media Devices], IKsAllocatorEx interface [Streaming Media Devices], described, IKsAllocatorEx, ksproxy/IKsAllocatorEx, ksproxy_58c9c83a-1a11-4e08-bf7f-e0694bf2eda5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsAllocatorEx
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,161 +29,33 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsAllocatorEx
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsAllocatorEx interface
 
 
-
 ## -description
+
+
 The <b>IKsAllocatorEx</b> interface is for proxy use and not recommended for application use. <b>IKsAllocatorEx</b> inherits all the methods of the <b>IKsAllocator</b> interface and extends <b>IKsAllocator</b> to provide methods that further control and query an allocator. 
 
 The IID for this interface is IID_IKsAllocatorEx.
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsAllocatorEx</b> interface inherits from IUnknown and <a href="..\ksproxy\nn-ksproxy-iksallocator.md">IKsAllocator</a>. <b>IKsAllocatorEx</b> also has these types of members:
-
-The <b>IKsAllocatorEx</b> interface has these methods.
-
-Returns the properties for an allocator.
-
-Sets the handle for an allocator.
-
-Sets the properties for an allocator. 
-
- 
-
-The following methods are listed in Vtable order.
-
-<b>QueryInterface</b>
-
-Returns pointers to supported interfaces.
-
-<b>AddRef</b>
-
-Increments reference count.
-
-<b>Release</b>
-
-Decrements reference count.
-
- 
-
-<b>KsGetAllocatorHandle</b>
-
-Retrieves a file handle to an allocator.
-
-<b>KsGetAllocatorMode</b>
-
-Returns the mode in which an allocator allocates memory.
-
-<b>KsGetAllocatorStatus</b>
-
-Retrieves the status of an allocator.
-
-<b>KsSetAllocatorMode</b>
-
-Sets the mode in which an allocator allocates memory.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsAllocatorEx</b> interface inherits from IUnknown and <a href="..\ksproxy\nn-ksproxy-iksallocator.md">IKsAllocator</a>. <b>IKsAllocatorEx</b> also has these types of members:
-
-The <b>IKsAllocatorEx</b> interface has these methods.
-
-Returns the properties for an allocator.
-
-Sets the handle for an allocator.
-
-Sets the properties for an allocator. 
-
- 
-
-The following methods are listed in Vtable order.
-
-<b>QueryInterface</b>
-
-Returns pointers to supported interfaces.
-
-<b>AddRef</b>
-
-Increments reference count.
-
-<b>Release</b>
-
-Decrements reference count.
-
- 
-
-<b>KsGetAllocatorHandle</b>
-
-Retrieves a file handle to an allocator.
-
-<b>KsGetAllocatorMode</b>
-
-Returns the mode in which an allocator allocates memory.
-
-<b>KsGetAllocatorStatus</b>
-
-Retrieves the status of an allocator.
-
-<b>KsSetAllocatorMode</b>
-
-Sets the mode in which an allocator allocates memory.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsAllocatorEx</b> interface inherits from IUnknown and <a href="..\ksproxy\nn-ksproxy-iksallocator.md">IKsAllocator</a>. <b>IKsAllocatorEx</b> also has these types of members:
-
-The <b>IKsAllocatorEx</b> interface has these methods.
-
-Returns the properties for an allocator.
-
-Sets the handle for an allocator.
-
-Sets the properties for an allocator. 
-
- 
-
-The following methods are listed in Vtable order.
-
-<b>QueryInterface</b>
-
-Returns pointers to supported interfaces.
-
-<b>AddRef</b>
-
-Increments reference count.
-
-<b>Release</b>
-
-Decrements reference count.
-
- 
-
-<b>KsGetAllocatorHandle</b>
-
-Retrieves a file handle to an allocator.
-
-<b>KsGetAllocatorMode</b>
-
-Returns the mode in which an allocator allocates memory.
-
-<b>KsGetAllocatorStatus</b>
-
-Retrieves the status of an allocator.
-
-<b>KsSetAllocatorMode</b>
-
-Sets the mode in which an allocator allocates memory.
-
- 
-
-
 ## -members
+
 The <b>IKsAllocatorEx</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -340,15 +210,10 @@ Sets the mode in which an allocator allocates memory.
  
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksproxy\nn-ksproxy-iksallocator.md">IKsAllocator</a>
-</dt>
-</dl>
+
  
 
  

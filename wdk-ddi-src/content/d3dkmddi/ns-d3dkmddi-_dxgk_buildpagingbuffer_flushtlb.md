@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9FDE47A4-1784-41EB-9F60-76368D6DFEED
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_BUILDPAGINGBUFFER_FLUSHTLB, DXGK_BUILDPAGINGBUFFER_FLUSHTLB
+ms.keywords: DXGK_BUILDPAGINGBUFFER_FLUSHTLB structure [Display Devices], d3dkmddi/DXGK_BUILDPAGINGBUFFER_FLUSHTLB, _DXGK_BUILDPAGINGBUFFER_FLUSHTLB, display.dxgk_buildpagingbuffer_flushtlb, DXGK_BUILDPAGINGBUFFER_FLUSHTLB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_BUILDPAGINGBUFFER_FLUSHTLB
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_BUILDPAGINGBUFFER_FLUSHTLB
+product: Windows
+targetos: Windows
 req.typenames: DXGK_BUILDPAGINGBUFFER_FLUSHTLB
 ---
 
 # _DXGK_BUILDPAGINGBUFFER_FLUSHTLB structure
 
 
-
 ## -description
+
+
 <b>DXGK_BUILDPAGINGBUFFER_FLUSHTLB</b> is used as part of a flush translation look-aside buffer (TLB) operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_BUILDPAGINGBUFFER_FLUSHTLB {
@@ -56,6 +66,9 @@ typedef struct _DXGK_BUILDPAGINGBUFFER_FLUSHTLB {
 
 
 ## -struct-fields
+
+
+
 
 ### -field RootPageTableAddress
 
@@ -76,5 +89,3 @@ The start of the affected GPU virtual address range.
 
 The end of the affected GPU virtual address range. When both <b>StartVirtualAddress</b> and <b>EndVirtualAddress</b> are zero, the entire GPU virtual address range is affected.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: da85c8d6-a74c-4a87-88b3-fb6dc01dd0f9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltAttachVolume
+ms.keywords: FltAttachVolume function [Installable File System Drivers], ifsk.fltattachvolume, FltAttachVolume, FltApiRef_a_to_d_f4ac8b0d-55c2-45b1-8f3b-3a09bee7bb23.xml, fltkernel/FltAttachVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltAttachVolume
-req.alt-loc: FltMgr.lib,FltMgr.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	FltMgr.lib
+-	FltMgr.dll
+apiname: 
+-	FltAttachVolume
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltAttachVolume function
 
 
-
 ## -description
+
+
 <b>FltAttachVolume</b> creates a new minifilter driver instance and attaches it to the given volume. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltAttachVolume(
@@ -56,6 +67,9 @@ NTSTATUS FltAttachVolume(
 
 
 ## -parameters
+
+
+
 
 ### -param Filter [in, out]
 
@@ -78,27 +92,76 @@ Pointer to a caller-allocated variable that receives an opaque instance pointer 
 
 
 ## -returns
+
+
 <b>FltAttachVolume</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FLT_DELETING_OBJECT</b></dt>
-</dl>The specified <i>Filter</i> or <i>Volume</i> is being torn down. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+The specified <i>Filter</i> or <i>Volume</i> is being torn down. This is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FLT_FILTER_NOT_READY</b></dt>
-</dl>The minifilter driver has not started filtering. For more information, see <a href="..\fltkernel\nf-fltkernel-fltstartfiltering.md">FltStartFiltering</a>. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+The minifilter driver has not started filtering. For more information, see <a href="..\fltkernel\nf-fltkernel-fltstartfiltering.md">FltStartFiltering</a>. This is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FLT_INSTANCE_NAME_COLLISION</b></dt>
-</dl>An instance already exists with this name on the volume specified. 
+</dl>
+</td>
+<td width="60%">
+An instance already exists with this name on the volume specified. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl><b>FltAttachVolume</b> encountered a pool allocation failure. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+<b>FltAttachVolume</b> encountered a pool allocation failure. This is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_NAME_COLLISION</b></dt>
-</dl>Another instance was already attached at the altitude specified in the instance attributes that were read from the registry. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+Another instance was already attached at the altitude specified in the instance attributes that were read from the registry. This is an error code. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 If the caller specifies a non-<b>NULL</b> value for <i>InstanceName</i>, <b>FltAttachVolume</b> reads any instance attributes specified by the minifilter driver that are stored in the registry under HKLM\CurrentControlSet\Services\<i>ServiceName</i>\Instances\InstanceName, where <i>ServiceName</i> is the minifilter driver's service name. This service name is specified in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/inf-addservice-directive">AddService directive</a> in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/inf-defaultinstall-services-section">DefaultInstall.Services section</a> of the minifilter driver's INF file. (For more information about filter driver INF files, see <a href="https://msdn.microsoft.com/c8a7fd20-8baa-449a-afa6-9692da706df4">Installing a File System Filter Driver</a>.) 
 
 If the caller does not specify a value for <i>InstanceName</i>, <b>FltAttachVolume</b> uses the name stored in the registry under HKLM\CurrentControlSet\Services\<i>ServiceName</i>\Instances\DefaultInstance for the <i>InstanceName</i> portion of the registry path. 
@@ -116,30 +179,23 @@ To compare the altitudes of two minifilter driver instances attached to the same
 To detach a minifilter driver instance from a volume, call <a href="..\fltkernel\nf-fltkernel-fltdetachvolume.md">FltDetachVolume</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltdetachvolume.md">FltDetachVolume</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltstartfiltering.md">FltStartFiltering</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltdetachvolume.md">FltDetachVolume</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
+
  
 
  

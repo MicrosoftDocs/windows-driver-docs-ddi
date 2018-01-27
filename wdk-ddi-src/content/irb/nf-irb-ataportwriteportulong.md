@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 49c01a7c-4e09-4ad2-9157-ab75b1a23d66
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortWritePortUlong
+ms.keywords: irb/AtaPortWritePortUlong, storage.ataportwriteportulong, atartns_4930ccb8-61a2-415e-897a-6e3ef573e623.xml, AtaPortWritePortUlong routine [Storage Devices], AtaPortWritePortUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AtaPortWritePortUlong
-req.alt-loc: ataport.lib,ataport.dll,pciidex.lib,pciidex.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ataport.lib
+-	ataport.dll
+-	pciidex.lib
+-	pciidex.dll
+apiname: 
+-	AtaPortWritePortUlong
+product: Windows
+targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
 
 # AtaPortWritePortUlong function
 
 
-
 ## -description
+
+
 The <b>AtaPortWritePortUlong</b> routine transfers a ULONG value to the HBA.
-
-
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 VOID AtaPortWritePortUlong(
@@ -54,6 +67,9 @@ VOID AtaPortWritePortUlong(
 
 
 ## -parameters
+
+
+
 
 ### -param Port [in]
 
@@ -66,24 +82,20 @@ Specifies the value to write to the HBA's I/O port.
 
 
 ## -returns
+
+
 None 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
-</dt>
-<dt>
-<a href="..\irb\nf-irb-ataportwriteportuchar.md">AtaPortWritePortUchar</a>
-</dt>
-<dt>
+
 <a href="..\irb\nf-irb-ataportwriteportushort.md">AtaPortWritePortUshort</a>
-</dt>
-</dl>
+
+<a href="..\irb\nf-irb-ataportwriteportuchar.md">AtaPortWritePortUchar</a>
+
  
 
  

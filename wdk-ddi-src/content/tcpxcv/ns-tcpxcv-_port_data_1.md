@@ -7,8 +7,8 @@ old-location: print\port_data_1.htm
 old-project: print
 ms.assetid: 6d2165a7-ee21-4f7d-a03c-f9bed87a3c7a
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: _PORT_DATA_1, *PPORT_DATA_1, PORT_DATA_1
+ms.date: 1/18/2018
+ms.keywords: PORT_DATA_1, PORT_DATA_1 structure [Print Devices], PPORT_DATA_1 structure pointer [Print Devices], PPORT_DATA_1, tcpxcv/PORT_DATA_1, spoolfnc_6fd52423-d2f1-4c6c-bf42-63000c5d0e66.xml, tcpxcv/PPORT_DATA_1, print.port_data_1, _PORT_DATA_1, *PPORT_DATA_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PORT_DATA_1
-req.alt-loc: tcpxcv.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	tcpxcv.h
+apiname: 
+-	PORT_DATA_1
+product: Windows
+targetos: Windows
 req.typenames: *PPORT_DATA_1, PORT_DATA_1
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _PORT_DATA_1 structure
 
 
-
 ## -description
+
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> function uses a PORT_DATA_1 structure when it adds a port or configures an existing port.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PORT_DATA_1 {
@@ -67,6 +77,9 @@ typedef struct _PORT_DATA_1 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field sztPortName
 
@@ -139,20 +152,21 @@ Specifies the SNMP device index.
 
 
 ## -remarks
+
+
 When the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> function is called either to add a port or configure an existing port, its <i>pOutputData</i> parameter must be set with the address of a PORT_DATA_1 structure, which will be filled in when the function returns. To add a port, set this function's <i>pszDataName</i> parameter to the string L"AddPort". To configure a port, set this parameter to L"ConfigPort". 
 
 See <a href="https://msdn.microsoft.com/7b2b1cff-ab8f-44e0-9327-dc60a0072bf5">TCPMON Xcv Interface</a> for more information.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20PORT_DATA_1 structure%20 RELEASE:%20(1/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20PORT_DATA_1 structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

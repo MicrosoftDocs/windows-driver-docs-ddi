@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: f6d3f95b-7484-4a6b-9b7e-69f6172b7a12
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _AV_PCR, AV_PCR, *PAV_PCR
+ms.keywords: AV_PCR structure [Buses], 61883_structures_d8602c71-aca5-427d-a8bf-d1da914ebacc.xml, IEEE.av_pcr, 61883/PAV_PCR, 61883/AV_PCR, AV_PCR, _AV_PCR, PAV_PCR, *PAV_PCR, PAV_PCR structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AV_PCR
-req.alt-loc: 61883.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	61883.h
+apiname: 
+-	AV_PCR
+product: Windows
+targetos: Windows
 req.typenames: AV_PCR, *PAV_PCR
 ---
 
 # _AV_PCR structure
 
 
-
 ## -description
+
+
 The AV_PCR structure specifies settings for an input or output plug.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _AV_PCR {
@@ -57,6 +67,9 @@ typedef struct _AV_PCR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field oPCR
 
@@ -73,18 +86,12 @@ Contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff53734
 Reserved for internal use.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536995">Av61883_SetPlug</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536961">Av61883_CreatePlug</a>
-</dt>
-</dl>
+
  
 
  

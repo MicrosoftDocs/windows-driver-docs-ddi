@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 92093588-DD44-4503-8803-7E47F178A728
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlAreThereWaitingFileLocks
+ms.keywords: FsRtlAreThereWaitingFileLocks routine [Installable File System Drivers], ntifs/FsRtlAreThereWaitingFileLocks, FsRtlAreThereWaitingFileLocks, ifsk.fsrtlaretherewaitingfilelocks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlAreThereWaitingFileLocks
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlAreThereWaitingFileLocks
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlAreThereWaitingFileLocks function
 
 
-
 ## -description
+
+
 The <b>FsRtlAreThereWaitingFileLocks</b> routine checks a file lock queue for any waiting file locks.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlAreThereWaitingFileLocks(
@@ -54,6 +64,9 @@ BOOLEAN FsRtlAreThereWaitingFileLocks(
 
 ## -parameters
 
+
+
+
 ### -param FileLock [in]
 
 The file lock that specifies locked ranges.
@@ -61,7 +74,8 @@ The file lock that specifies locked ranges.
 
 ## -returns
 
+
+
       Returns <b>TRUE</b> if waiting file  locks are present;  <b>FALSE</b> otherwise.
 
 
-## -remarks

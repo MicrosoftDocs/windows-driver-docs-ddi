@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 10AC7347-6C6B-4A37-9298-B773ADCB3FDA
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSIRP_REMOVAL_OPERATION, KSIRP_REMOVAL_OPERATION
+ms.keywords: ks/KsAcquireOnly, ks/KsAcquireAndRemove, KsAcquireAndRemoveOnlySingleItem, stream.ksirp_removal_operation, KsAcquireAndRemove, KSIRP_REMOVAL_OPERATION, ks/KsAcquireOnlySingleItem, ks/KSIRP_REMOVAL_OPERATION, ks/KsAcquireAndRemoveOnlySingleItem, KsAcquireOnly, KsAcquireOnlySingleItem, KSIRP_REMOVAL_OPERATION enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSIRP_REMOVAL_OPERATION
-req.alt-loc: Ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ks.h
+apiname: 
+-	KSIRP_REMOVAL_OPERATION
+product: Windows
+targetos: Windows
 req.typenames: KSIRP_REMOVAL_OPERATION
 ---
 
 # KSIRP_REMOVAL_OPERATION enumeration
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: KSIRP_REMOVAL_OPERATION
 
 
 
+
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -57,16 +67,21 @@ typedef enum  {
 
 ## -enum-fields
 
+
+
+
 ### -field KsAcquireOnly
+
 
 
 ### -field KsAcquireAndRemove
 
 
+
 ### -field KsAcquireOnlySingleItem
+
 
 
 ### -field KsAcquireAndRemoveOnlySingleItem
 
 
-## -remarks

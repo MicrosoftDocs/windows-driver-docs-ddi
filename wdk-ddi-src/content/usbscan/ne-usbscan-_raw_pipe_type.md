@@ -7,8 +7,8 @@ old-location: image\raw_pipe_type.htm
 old-project: image
 ms.assetid: 6af4161c-7caa-4d80-8938-303380ee3058
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: _RAW_PIPE_TYPE, RAW_PIPE_TYPE
+ms.date: 1/18/2018
+ms.keywords: RAW_PIPE_TYPE, usbscan/RAW_PIPE_TYPE, USBSCAN_PIPE_BULK, usbscan/USBSCAN_PIPE_INTERRUPT, USBSCAN_PIPE_ISOCHRONOUS, USBSCAN_PIPE_CONTROL, USBSCAN_PIPE_INTERRUPT, RAW_PIPE_TYPE enumeration [Imaging Devices], usbscan/USBSCAN_PIPE_CONTROL, usbscan/USBSCAN_PIPE_BULK, usbscan/USBSCAN_PIPE_ISOCHRONOUS, stifnc_6f079c69-737d-4653-9e83-202418853f75.xml, _RAW_PIPE_TYPE, image.raw_pipe_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RAW_PIPE_TYPE
-req.alt-loc: usbscan.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbscan.h
+apiname: 
+-	RAW_PIPE_TYPE
+product: Windows
+targetos: Windows
 req.typenames: RAW_PIPE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _RAW_PIPE_TYPE enumeration
 
 
-
 ## -description
+
+
 The RAW_PIPE_TYPE data type is used to specify the type of a USB pipe. The values are defined as follows:
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RAW_PIPE_TYPE { 
@@ -57,6 +67,9 @@ typedef enum _RAW_PIPE_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field USBSCAN_PIPE_CONTROL
 
@@ -77,5 +90,3 @@ Identifies a bulk IN or bulk OUT pipe.
 
 Identifies an interrupt pipe.
 
-
-## -remarks

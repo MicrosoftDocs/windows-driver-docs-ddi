@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 01113C73-2C79-40F2-9B13-B864148D2C9A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetDeviceInterfacePropertyData
+ms.keywords: IoGetDeviceInterfacePropertyData routine [Kernel-Mode Driver Architecture], kernel.iogetdeviceinterfacepropertydata, IoGetDeviceInterfacePropertyData, wdm/IoGetDeviceInterfacePropertyData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 8 and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoGetDeviceInterfacePropertyData
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoGetDeviceInterfacePropertyData
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoGetDeviceInterfacePropertyData function
 
 
-
 ## -description
+
+
 The <b>IoGetDeviceInterfacePropertyData</b> routine retrieves the current value of a <a href="https://msdn.microsoft.com/43aa0ce6-a06b-43e4-a213-300554391ae0">device interface property</a>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS IoGetDeviceInterfacePropertyData(
@@ -62,6 +72,9 @@ NTSTATUS IoGetDeviceInterfacePropertyData(
 
 ## -parameters
 
+
+
+
 ### -param SymbolicLinkName [in]
 
 A pointer to a string that identifies the device interface instance. This string was obtained from a previous call to the <a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a>, <a href="..\wdm\nf-wdm-iogetdeviceinterfacealias.md">IoGetDeviceInterfaceAlias</a>, or <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a> routine.
@@ -77,7 +90,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn31
 Specifies a locale identifier. Set this parameter either to a language-specific LCID value or to <b>LOCALE_NEUTRAL</b>. The <b>LOCALE_NEUTRAL</b> LCID specifies that the property is language-neutral (that is, not specific to any language). Do not set this parameter to <b>LOCALE_SYSTEM_DEFAULT</b> or <b>LOCALE_USER_DEFAULT</b>. For more information about language-specific LCID values, see <a href="http://msdn.microsoft.com/en-us/library/cc233968(PROT.10).aspx">LCID Structure</a>.
 
 
-### -param Flags 
+### -param Flags
 
 Reserved for system use. Drivers should set this value to zero.
 
@@ -103,21 +116,54 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 
 ## -returns
+
+
 <b>IoGetDeviceInterfacePropertyData</b> returns STATUS_SUCCESS if it is successful. Possible error return values include the following status codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The buffer that <i>Data</i> points to is too small to contain the property data. *<i>RequiredSize</i> contains the required buffer length.
+</dl>
+</td>
+<td width="60%">
+The buffer that <i>Data</i> points to is too small to contain the property data. *<i>RequiredSize</i> contains the required buffer length.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>The specified LCID value is not valid.
+</dl>
+</td>
+<td width="60%">
+The specified LCID value is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>The specified property is not supported.
+</dl>
+</td>
+<td width="60%">
+The specified property is not supported.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 Kernel-mode drivers use the <b>IoGetDeviceInterfacePropertyData</b> routine to retrieve device interface properties that are defined as part of the <a href="https://msdn.microsoft.com/51105f84-38d8-4005-a3fd-4beccc0a2a39">unified device property model</a>. For more information about device interface properties, see <a href="https://msdn.microsoft.com/f41040c5-0eac-450d-b532-9165c543cc1a">Device Properties</a>.
 
 Drivers can use the <a href="..\wdm\nf-wdm-iosetdeviceinterfacepropertydata.md">IoSetDeviceInterfacePropertyData</a> routine to modify a device interface property.
@@ -125,18 +171,15 @@ Drivers can use the <a href="..\wdm\nf-wdm-iosetdeviceinterfacepropertydata.md">
 Callers of <b>IoGetDeviceInterfacePropertyData</b> must be running at IRQL = PASSIVE_LEVEL in the context of a system thread.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
+
 <a href="..\wdm\nf-wdm-iosetdeviceinterfacepropertydata.md">IoSetDeviceInterfacePropertyData</a>
-</dt>
-</dl>
+
  
 
  

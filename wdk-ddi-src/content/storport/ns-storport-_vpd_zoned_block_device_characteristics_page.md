@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9b1f83fd-e367-4b0d-8f93-24f35d9a5fd8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, *PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE
+ms.keywords: storage.vpd_zoned_block_device_characteristics_page, scsi/PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure pointer [Storage Devices], PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, scsi/VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, *PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, _VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE
-req.alt-loc: scsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	scsi.h
+apiname: 
+-	VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE
+product: Windows
+targetos: Windows
 req.typenames: VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, *PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE
 req.product: Windows 10 or later.
 ---
@@ -38,16 +47,17 @@ req.product: Windows 10 or later.
 # _VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure
 
 
-
 ## -description
+
+
 
 <div class="alert"><b>Note</b>  This  structure is for internal use only and should not be called from your code.</div>
 <div> </div>
 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE {
@@ -67,6 +77,9 @@ typedef struct _VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DeviceType
 
@@ -122,5 +135,3 @@ N/A
 
 N/A
 
-
-## -remarks

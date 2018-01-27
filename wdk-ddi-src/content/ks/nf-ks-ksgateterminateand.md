@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3f29fb48-5145-4b2c-8a0c-3130f4491675
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGateTerminateAnd
+ms.keywords: ks/KsGateTerminateAnd, KsGateTerminateAnd, avfunc_e8c3af46-fdb4-4e95-8473-12e1fadff072.xml, stream.ksgateterminateand, KsGateTerminateAnd function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsGateTerminateAnd
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KsGateTerminateAnd
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsGateTerminateAnd function
 
 
-
 ## -description
+
+
 The<b> KsGateTerminateAnd</b> function deletes an existing AND gate and removes an input from any attached OR gate.
 
 
-
 ## -syntax
+
 
 ````
 void __inline KsGateTerminateAnd(
@@ -54,31 +64,36 @@ void __inline KsGateTerminateAnd(
 
 ## -parameters
 
+
+
+
 ### -param AndGate [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure that is the AND gate to delete. This gate must be at the beginning of a gate chain.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 Logical gates should be deleted in a front to back manner. <b>KsGateTerminateAnd</b> does not update the gate chain for gates that are deleted at the end or in the middle. For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
+
  
 
  

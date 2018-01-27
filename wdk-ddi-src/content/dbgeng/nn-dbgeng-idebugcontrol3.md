@@ -7,8 +7,8 @@ old-location: debugger\idebugcontrol3.htm
 old-project: debugger
 ms.assetid: 95e714b4-4167-41a1-ab2c-b088dbaf5fe2
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugSystemObjects4, IDebugSystemObjects4::SetImplicitThreadDataOffset, SetImplicitThreadDataOffset
+ms.date: 1/19/2018
+ms.keywords: debugger.idebugcontrol3, IDebugControl3 interface [Windows Debugging], IDebugControl3 interface [Windows Debugging], described, IDebugControl3, dbgeng/IDebugControl3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugControl3
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,64 +26,33 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugControl3
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugControl3 interface
 
 
-
 ## -description
 
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl3</b> interface inherits from <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>. <b>IDebugControl3</b> also has these types of members:
 
-The <b>IDebugControl3</b> interface has these methods.
-
-Turns on some of the assembly and disassembly options.
-
-
-Returns the assembly and disassembly options that affect how the debugger engine assembles and disassembles processor instructions for the target.
-
-Returns the index of the current event within the current list of events for the current target, if such a list exists.
-
-
-Describes the specified event in a static list of events for the current target.
-
-
-Returns the current syntax that the engine is using for evaluating expressions.
-
-
-Returns the full and abbreviated names of an expression syntax.
-
-
-Returns the number of events for the current target, if the number of events is fixed.
-
-
-Returns the number of expression syntaxes that are supported by the engine.
-
-
- Turns off some of the assembly and disassembly options.
-
-Sets the assembly and disassembly options that affect how the debugger engine assembles and disassembles processor instructions for the target.
-
-
-Sets the syntax that the engine will use to evaluate expressions.
-
-
-Sets the syntax that the engine will use to evaluate expressions.
-
-
-Sets the next event for the current target by selecting the event from the static list of events for the target, if such a list exists.
-
-
- 
 
 
 ## -members
+
 The <b>IDebugControl3</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -260,24 +227,17 @@ Sets the next event for the current target by selecting the event from the stati
  
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-</dt>
-<dt>
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-</dt>
-<dt>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl3 interface%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl3 interface%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

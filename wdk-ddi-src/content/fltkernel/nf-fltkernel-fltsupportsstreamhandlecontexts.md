@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8f4cf93f-eba7-4d6f-8b07-7c095e13f95e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltSupportsStreamHandleContexts
+ms.keywords: FltSupportsStreamHandleContexts, ifsk.fltsupportsstreamhandlecontexts, fltkernel/FltSupportsStreamHandleContexts, FltSupportsStreamHandleContexts function [Installable File System Drivers], FltApiRef_p_to_z_07134b31-8768-43bc-904e-9abd945a166b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltSupportsStreamHandleContexts
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltSupportsStreamHandleContexts
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltSupportsStreamHandleContexts function
 
 
-
 ## -description
+
+
 <b>FltSupportsStreamHandleContexts</b> determines whether stream handle contexts are supported on a given file object. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FltSupportsStreamHandleContexts(
@@ -54,16 +64,24 @@ BOOLEAN FltSupportsStreamHandleContexts(
 
 ## -parameters
 
+
+
+
 ### -param FileObject [in]
 
 Pointer to the file object to test. 
 
 
 ## -returns
+
+
 <b>FltSupportsStreamHandleContexts</b> returns <b>TRUE</b> if the file system supports stream handle contexts for the file object; <b>FALSE</b> otherwise. 
 
 
+
 ## -remarks
+
+
 Paging files do not currently support file, stream, or stream handle contexts. 
 
 To allocate a new context, call <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>. 
@@ -77,30 +95,23 @@ To set a stream handle context on a file object, call <a href="..\fltkernel\nf-f
 To release a reference on a context, call <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltdeletestreamhandlecontext.md">FltDeleteStreamHandleContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetstreamhandlecontext.md">FltGetStreamHandleContext</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltsetstreamhandlecontext.md">FltSetStreamHandleContext</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetstreamhandlecontext.md">FltGetStreamHandleContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletestreamhandlecontext.md">FltDeleteStreamHandleContext</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltsupportsstreamcontexts.md">FltSupportsStreamContexts</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c0c47dc7-d672-4094-af17-9de2b01886aa
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FILE_LINK_INFORMATION, *PFILE_LINK_INFORMATION, FILE_LINK_INFORMATION
+ms.keywords: ifsk.file_link_information, *PFILE_LINK_INFORMATION, _FILE_LINK_INFORMATION, ntifs/FILE_LINK_INFORMATION, ntifs/PFILE_LINK_INFORMATION, FILE_LINK_INFORMATION, PFILE_LINK_INFORMATION, fileinformationstructures_6702855e-5076-41aa-a6c8-e9569c782646.xml, FILE_LINK_INFORMATION structure [Installable File System Drivers], PFILE_LINK_INFORMATION structure pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILE_LINK_INFORMATION
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FILE_LINK_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: *PFILE_LINK_INFORMATION, FILE_LINK_INFORMATION
 ---
 
 # _FILE_LINK_INFORMATION structure
 
 
-
 ## -description
+
+
 The FILE_LINK_INFORMATION structure is used to create an NTFS hard link to an existing file. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILE_LINK_INFORMATION {
@@ -56,6 +66,9 @@ typedef struct _FILE_LINK_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ReplaceIfExists
 
@@ -78,13 +91,19 @@ The first character of the name to be assigned to the newly created link. This i
 
 
 ## -remarks
-The FILE_LINK_INFORMATION structure is used to create an NTFS hard link to an existing file. This operation can be performed in either of the following ways: 
 
+
+The FILE_LINK_INFORMATION structure is used to create an NTFS hard link to an existing file. This operation can be performed in either of the following ways: 
+<ul>
+<li>
 Call <a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a> or <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>, passing FileLinkInformation as the value of FileInformationClass and passing a caller-allocated, FILE_LINK_INFORMATION-structured buffer as the value of <i>FileInformation</i>. The <i>FileHandle</i> parameter specifies the existing file to which the hard link should point. 
 
+</li>
+<li>
 Create an IRP with major function code IRP_MJ_SET_INFORMATION. 
 
-No specific access rights are required to set this information. 
+</li>
+</ul>No specific access rights are required to set this information. 
 
 File system minifilters must use <a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>, not <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>, to set this information for a file. 
 
@@ -95,21 +114,17 @@ The size of the <i>FileInformation</i> buffer passed to <a href="..\fltkernel\nf
 This structure must be aligned on a LONG (4-byte) boundary. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549366">IRP_MJ_SET_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549366">IRP_MJ_SET_INFORMATION</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
+
  
 
  

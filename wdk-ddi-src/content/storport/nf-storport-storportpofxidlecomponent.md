@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: DF329B68-3995-4B38-8208-4C779B0626A6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortPoFxIdleComponent
+ms.keywords: StorPortPoFxIdleComponent, StorPortPoFxIdleComponent routine [Storage Devices], storage.storportpofxidlecomponent, storport/StorPortPoFxIdleComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortPoFxIdleComponent
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	StorPortPoFxIdleComponent
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # StorPortPoFxIdleComponent function
 
 
-
 ## -description
+
+
 The <b>StorPortPoFxIdleComponent</b> routine decrements the activation reference count of a specified component of a storage device.
 
 
-
 ## -syntax
+
 
 ````
 ULONG StorPortPoFxIdleComponent(
@@ -58,6 +68,9 @@ ULONG StorPortPoFxIdleComponent(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -85,13 +98,33 @@ Not used. Set to 0.
 
 
 ## -returns
+
+
 The <b>StorPortPoFxIdleComponent</b> routine returns one of these status codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>The storage device activation reference was successfully decremented and the component is idle.
+</dl>
+</td>
+<td width="60%">
+The storage device activation reference was successfully decremented and the component is idle.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>Either <i>HwDeviceExtension</i> or <i>Device</i> is NULL.
+</dl>
+</td>
+<td width="60%">
+Either <i>HwDeviceExtension</i> or <i>Device</i> is NULL.
 
 -or-
 
@@ -112,41 +145,67 @@ The SRB pointed to by <i>Srb</i> is not sent from Storport.
 -or-
 
 The <i>Flags</i> parameter is nonzero.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>The adapter or unit does not support PoFx.
+</dl>
+</td>
+<td width="60%">
+The adapter or unit does not support PoFx.
 
 -or-
 
 <b>StorPortPoFxIdleComponent</b> was called with an inactive <i>Component</i> and an <i>Srb</i> for which a previous call to   <a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a> was not performed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_IRQL</b></dt>
-</dl>The current IRQL &gt; DISPATCH_LEVEL.
+</dl>
+</td>
+<td width="60%">
+The current IRQL &gt; DISPATCH_LEVEL.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_BUSY</b></dt>
-</dl>The active reference for the device component was decremented but the  component is still active.
+</dl>
+</td>
+<td width="60%">
+The active reference for the device component was decremented but the  component is still active.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 Currently, both adapter devices and unit devices have maximum component count of 1. The index in <i>Component</i> must always be set to 0.
 
 Each call to <b>StorPortPoFxIdleComponent</b> must be matched with a previous call to <a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
-</dt>
-<dt>
-<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
-</dt>
-</dl>
+
+<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 66515f08-b652-4aa0-8f22-b5ff0a407d6a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterFactorySetDeviceClassesState
+ms.keywords: KsFilterFactorySetDeviceClassesState function [Streaming Media Devices], avfunc_a88f0816-e755-450f-b8b7-83dee85171f9.xml, KsFilterFactorySetDeviceClassesState, stream.ksfilterfactorysetdeviceclassesstate, ks/KsFilterFactorySetDeviceClassesState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsFilterFactorySetDeviceClassesState
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsFilterFactorySetDeviceClassesState
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsFilterFactorySetDeviceClassesState function
 
 
-
 ## -description
+
+
 The <b>KsFilterFactorySetDeviceClassesState</b> function enables or disables the device classes that have been registered by a given filter factory.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsFilterFactorySetDeviceClassesState(
@@ -54,6 +65,9 @@ NTSTATUS KsFilterFactorySetDeviceClassesState(
 
 
 ## -parameters
+
+
+
 
 ### -param FilterFactory [in]
 
@@ -66,8 +80,15 @@ If set to <b>TRUE</b>, the device classes are enabled; if <b>FALSE</b>, they are
 
 
 ## -returns
+
+
 <b>KsFilterFactorySetDeviceClassesState</b> returns STATUS_SUCCESS or an error code.
 
 
+
 ## -remarks
-This function is available in Windows XP and DirectX 8.0 and later.</p>
+
+
+This function is available in Windows XP and DirectX 8.0 and later.
+
+

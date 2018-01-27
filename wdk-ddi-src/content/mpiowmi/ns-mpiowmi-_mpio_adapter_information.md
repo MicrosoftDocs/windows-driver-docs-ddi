@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bcf159a7-75a5-46aa-897a-2c5eb00f51d8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MPIO_ADAPTER_INFORMATION, *PMPIO_ADAPTER_INFORMATION, MPIO_ADAPTER_INFORMATION
+ms.keywords: structs-scsibus_bcdbb143-5a91-4a69-83e5-82e32c23b404.xml, _MPIO_ADAPTER_INFORMATION, PMPIO_ADAPTER_INFORMATION structure pointer [Storage Devices], mpiowmi/MPIO_ADAPTER_INFORMATION, *PMPIO_ADAPTER_INFORMATION, storage.mpio_adapter_information, PMPIO_ADAPTER_INFORMATION, MPIO_ADAPTER_INFORMATION, mpiowmi/PMPIO_ADAPTER_INFORMATION, MPIO_ADAPTER_INFORMATION structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MPIO_ADAPTER_INFORMATION
-req.alt-loc: mpiowmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mpiowmi.h
+apiname: 
+-	MPIO_ADAPTER_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: *PMPIO_ADAPTER_INFORMATION, MPIO_ADAPTER_INFORMATION
 ---
 
 # _MPIO_ADAPTER_INFORMATION structure
 
 
-
 ## -description
+
+
 The MPIO_ADAPTER_INFORMATION structure contains information that pertains to MPIO's view of a path.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MPIO_ADAPTER_INFORMATION {
@@ -58,6 +68,9 @@ typedef struct _MPIO_ADAPTER_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PathId
 
@@ -88,5 +101,3 @@ Should be zero.
 
 A string field that returns the friendly name of the host bus adapter through which this path is exposed.
 
-
-## -remarks

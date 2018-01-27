@@ -7,8 +7,8 @@ old-location: image\wiaudbgsetflags.htm
 old-project: image
 ms.assetid: e3b944ef-daa5-412c-ac11-7b08d2b9333b
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: wiauDbgSetFlags
+ms.date: 1/18/2018
+ms.keywords: image.wiaudbgsetflags, wiauDbgSetFlags, wiauFncs_d0f9a6a3-6958-44cb-9467-7f6413f95ca7.xml, wiauDbgSetFlags function [Imaging Devices], wiautil/wiauDbgSetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: wiauDbgSetFlags
-req.alt-loc: wiautil.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wiautil.h
+apiname: 
+-	wiauDbgSetFlags
+product: Windows
+targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # wiauDbgSetFlags function
 
 
-
 ## -description
+
+
 The <b>wiauDbgSetFlags</b> function sets debugging flags.
 
 
-
 ## -syntax
+
 
 ````
 inline DWORD __stdcall wiauDbgSetFlags(
@@ -55,10 +65,12 @@ inline DWORD __stdcall wiauDbgSetFlags(
 
 ## -parameters
 
-### -param flags 
+
+
+
+### -param flags
 
 Is a set of flags that control message logging. This parameter can be set to a combination of the following values.
-
 <table>
 <tr>
 <th>Value</th>
@@ -174,26 +186,23 @@ Log warning messages.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 The <b>wiauDbgSetFlags</b> function returns a value containing the flags that were in effect before the call to this function.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wiautil\nf-wiautil-wiaudbgflags.md">wiauDbgFlags</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiauDbgSetFlags function%20 RELEASE:%20(1/17/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiauDbgSetFlags function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 9759c2b5-91c7-46e9-97dd-8268bf24db78
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _L2CAP_CONFIG_OPTION, L2CAP_CONFIG_OPTION, *PL2CAP_CONFIG_OPTION
+ms.keywords: bthddi/L2CAP_CONFIG_OPTION, *PL2CAP_CONFIG_OPTION, bth_structs_029f895f-fc15-4e53-9987-72f9930bc9ab.xml, bltooth.l2cap_config_option, PL2CAP_CONFIG_OPTION structure pointer [Bluetooth Devices], PL2CAP_CONFIG_OPTION, L2CAP_CONFIG_OPTION structure [Bluetooth Devices], bthddi/PL2CAP_CONFIG_OPTION, _L2CAP_CONFIG_OPTION, L2CAP_CONFIG_OPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: L2CAP_CONFIG_OPTION
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-req.typenames: L2CAP_CONFIG_OPTION, *PL2CAP_CONFIG_OPTION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthddi.h
+apiname: 
+-	L2CAP_CONFIG_OPTION
+product: Windows
+targetos: Windows
+req.typenames: *PL2CAP_CONFIG_OPTION, L2CAP_CONFIG_OPTION
 ---
 
 # _L2CAP_CONFIG_OPTION structure
 
 
-
 ## -description
+
+
 An array of L2CAP_CONFIG_OPTION structures is used to specify values for the 
   <b>ExtraOptions</b> member of the 
   <a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">CHANNEL_CONFIG_PARAMETERS</a>, 
@@ -46,8 +56,8 @@ An array of L2CAP_CONFIG_OPTION structures is used to specify values for the
   <a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a> structures.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _L2CAP_CONFIG_OPTION {
@@ -60,6 +70,9 @@ typedef struct _L2CAP_CONFIG_OPTION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -88,7 +101,6 @@ A buffer that contains additional L2CAP channel parameters that are defined eith
 A combination of flags that determines which of this structure's buffer members contain
      parameters. Multiple flags can be set at once. Valid flag values are listed in the following table.
      
-
 <table>
 <tr>
 <th>Flag</th>
@@ -116,25 +128,17 @@ If set, the
 
 </td>
 </tr>
-</table>
- 
-
-
-## -remarks
+</table> 
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">CHANNEL_CONFIG_PARAMETERS</a>
-</dt>
-<dt>
+
 <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
-</dt>
-<dt>
+
+<a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">CHANNEL_CONFIG_PARAMETERS</a>
+
 <a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
-</dt>
-</dl>
+
  
 
  

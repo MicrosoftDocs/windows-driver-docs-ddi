@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b5438802-fc96-4445-9261-5d497d2d24cc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetDestinationFileNameInformation
+ms.keywords: FltGetDestinationFileNameInformation routine [Installable File System Drivers], FltGetDestinationFileNameInformation, ifsk.fltgetdestinationfilenameinformation, fltkernel/FltGetDestinationFileNameInformation, FltApiRef_e_to_o_127cb786-b74b-4c1b-bb38-87ad3494900b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltGetDestinationFileNameInformation
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltGetDestinationFileNameInformation
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltGetDestinationFileNameInformation function
 
 
-
 ## -description
+
+
 The <b>FltGetDestinationFileNameInformation</b> routine constructs a full destination path name for a file or directory that is being renamed or for which an NTFS hard link is being created. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltGetDestinationFileNameInformation(
@@ -59,6 +69,9 @@ NTSTATUS FltGetDestinationFileNameInformation(
 
 
 ## -parameters
+
+
+
 
 ### -param Instance [in]
 
@@ -95,7 +108,6 @@ Length, in bytes, of the wide-character string that <i>FileName </i>points to.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a> value containing flags that specify the format of the name information to be returned, as well as the query method that the Filter Manager is to use. This parameter is required and cannot be <b>NULL</b>. 
 
 Following are the name format flag values. Only one of the following flags can be specified. 
-
 <table>
 <tr>
 <th>Value</th>
@@ -121,13 +133,11 @@ The <i>FileName</i> parameter receives the destination name for the file, based 
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 Note that FLT_FILE_NAME_SHORT is not a valid flag value for this parameter. 
 
 Following are the query method flag values. Only one of the following flags can be specified. 
-
 <table>
 <tr>
 <th>Value</th>
@@ -173,8 +183,7 @@ FLT_FILE_NAME_QUERY_ALWAYS_ALLOW_CACHE_LOOKUP
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param RetFileNameInformation [out]
@@ -183,28 +192,75 @@ Pointer to a caller-allocated variable that receives the address of a system-all
 
 
 ## -returns
+
+
 <b>FltGetDestinationFileNameInformation</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FLT_INVALID_NAME_REQUEST</b></dt>
-</dl>This return value means one of the following: 
+</dl>
+</td>
+<td width="60%">
+This return value means one of the following: 
 
+<ul>
+<li>
 <b>FltGetDestinationFileNameInformation</b> cannot get file name information if the <b>TopLevelIrp</b> field of the current thread is not <b>NULL</b>, because the resulting file system recursion could cause deadlocks or stack overflows. (For more information about this issue, see <a href="..\ntifs\nf-ntifs-iogettoplevelirp.md">IoGetTopLevelIrp</a>.) 
 
+</li>
+<li>
 FLT_FILE_NAME_SHORT was specified for the name format flag in the <i>NameOptions</i> parameter. 
+
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl><b>FltGetDestinationFileNameInformation</b> encountered a pool allocation failure. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+<b>FltGetDestinationFileNameInformation</b> encountered a pool allocation failure. This is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>An invalid value was specified for the <i>NameOptions</i> parameter. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+An invalid value was specified for the <i>NameOptions</i> parameter. This is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_MOUNT_POINT_NOT_RESOLVED</b></dt>
-</dl>The destination path name contains a mount point that resolves to a volume other than the one where the file resides. (Because a rename or hard-link-creation operation can only be performed within a volume and not across volumes, the operation fails.) This is an error code. 
+</dl>
+</td>
+<td width="60%">
+The destination path name contains a mount point that resolves to a volume other than the one where the file resides. (Because a rename or hard-link-creation operation can only be performed within a volume and not across volumes, the operation fails.) This is an error code. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>FltGetDestinationFileNameInformation</b> returns the file name information in either normalized or "opened file" format. For more information on these formats, see the <a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a> structure. 
 
 The file object pointer that is passed for the <i>FileObject</i> parameter must be either the <b>FileObject</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a> structure for the operation or the <b>Data-&gt;Iopb-&gt;TargetFileObject</b> pointer for the operation, where <b>Data</b> is the callback data structure for the operation (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>). The file object pointer cannot be the <b>Data-&gt;Iopb-&gt;Parameters.SetFileInformation.FileObject</b> member, because this field is not used uniformly across file systems. 
@@ -220,68 +276,60 @@ The caller must not modify the contents of the structure returned in the <i>RetF
 In create, hard-link, and rename operations, file name tunneling can cause the final component in normalized file name information that a minifilter driver retrieves in a preoperation callback routine to be invalidated. If a minifilter driver retrieves normalized file name information in a preoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>) routine by calling a routine such as <b>FltGetDestinationFileNameInformation</b>, it must call <a href="..\fltkernel\nf-fltkernel-fltgettunneledname.md">FltGetTunneledName</a> from its postoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>) routine to retrieve the correct file name information for the file. 
 
 For more information about normalized file name information, see <a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>. 
-
-The following paired operations can cause the file name <i>name</i> to be tunneled: 
-
+<div class="alert"><b>Note</b>    File name tunneling affects only create, hard-link, and rename operations in this way. It does not affect other I/O operations, such as read and write. </div><div> </div>The following paired operations can cause the file name <i>name</i> to be tunneled: 
+<ul>
+<li>
 delete(<i>name</i>)/create(<i>name</i>)
 
+</li>
+<li>
 delete(<i>name</i>)/rename(<i>source</i>, <i>name</i>)
 
+</li>
+<li>
 rename(<i>name</i>, <i>newname</i>)/create(<i>name</i>)
 
+</li>
+<li>
 rename(<i>name</i>, <i>newname</i>)/rename(<i>source</i>, <i>name</i>)
 
-For more information about file name tunneling, see <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;amp;id=172190">Microsoft Knowledge Base Article 172190</a>. 
+</li>
+</ul>For more information about file name tunneling, see <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;id=172190">Microsoft Knowledge Base Article 172190</a>. 
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\ns-ntifs-_file_link_information.md">FILE_LINK_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_file_rename_information.md">FILE_RENAME_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-</dt>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a>
-</dt>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltgettunneledname.md">FltGetTunneledName</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltreferencefilenameinformation.md">FltReferenceFileNameInformation</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltreleasefilenameinformation.md">FltReleaseFileNameInformation</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-iogettoplevelirp.md">IoGetTopLevelIrp</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
+
+<a href="..\ntifs\ns-ntifs-_file_link_information.md">FILE_LINK_INFORMATION</a>
+
 <a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltreleasefilenameinformation.md">FltReleaseFileNameInformation</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+<a href="..\ntifs\nf-ntifs-iogettoplevelirp.md">IoGetTopLevelIrp</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltreferencefilenameinformation.md">FltReferenceFileNameInformation</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
+
+<a href="..\ntifs\ns-ntifs-_file_rename_information.md">FILE_RENAME_INFORMATION</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
+
  
 
  

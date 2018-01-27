@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 889750fc-69a9-4fe6-8905-6a7edc5c04fb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltDetachVolume
+ms.keywords: FltApiRef_a_to_d_2f7a4638-6f6d-4ac6-97b6-d547d64b56b6.xml, FltDetachVolume, ifsk.fltdetachvolume, FltDetachVolume function [Installable File System Drivers], fltkernel/FltDetachVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltDetachVolume
-req.alt-loc: FltMgr.lib,FltMgr.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	FltMgr.lib
+-	FltMgr.dll
+apiname: 
+-	FltDetachVolume
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltDetachVolume function
 
 
-
 ## -description
+
+
 <b>FltDetachVolume</b> detaches a minifilter driver instance from a volume. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltDetachVolume(
@@ -55,6 +66,9 @@ NTSTATUS FltDetachVolume(
 
 
 ## -parameters
+
+
+
 
 ### -param Filter [in, out]
 
@@ -72,18 +86,43 @@ Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</
 
 
 ## -returns
+
+
 <b>FltDetachVolume</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FLT_DELETING_OBJECT</b></dt>
-</dl><b>FltDetachVolume</b> found a matching instance, but the instance is being torn down. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+<b>FltDetachVolume</b> found a matching instance, but the instance is being torn down. This is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FLT_INSTANCE_NOT_FOUND</b></dt>
-</dl>No matching instance was found. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+No matching instance was found. This is an error code. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>FltDetachVolume</b> detaches a minifilter driver instance from a volume and tears down the instance. 
 
 To attach a minifilter driver instance to a volume, call <a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a> or <a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>. 
@@ -91,21 +130,17 @@ To attach a minifilter driver instance to a volume, call <a href="..\fltkernel\n
 To compare the altitudes of two minifilter driver instances attached to the same volume, call <a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
-</dt>
-</dl>
+
  
 
  

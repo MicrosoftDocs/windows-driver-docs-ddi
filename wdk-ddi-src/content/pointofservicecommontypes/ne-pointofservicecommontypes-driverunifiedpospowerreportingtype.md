@@ -7,8 +7,8 @@ old-location: pos\unifiedpospowerreportingtype.htm
 old-project: pos
 ms.assetid: e0263969-1c6a-4805-a647-d4b9df83ef71
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: DriverUnifiedPosPowerReportingType, DriverUnifiedPosPowerReportingType
+ms.date: 1/18/2018
+ms.keywords: DriverUnifiedPosPowerReportingType, DriverUnifiedPosPowerReportingType enumeration, pointofservicecommontypes/DriverUnifiedPosPowerReportingType, pos.unifiedpospowerreportingtype, Advanced, UnknownPowerReportingType, pointofservicecommontypes/UnknownPowerReportingType, Standard, pointofservicecommontypes/Advanced, pointofservicecommontypes/Standard
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DriverUnifiedPosPowerReportingType
-req.alt-loc: pointofservicecommontypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pointofservicecommontypes.h
+apiname: 
+-	DriverUnifiedPosPowerReportingType
+product: Windows
+targetos: Windows
 req.typenames: DriverUnifiedPosPowerReportingType
 ---
 
 # DriverUnifiedPosPowerReportingType enumeration
 
 
-
 ## -description
+
+
 This enumeration defines the type of power reporting that is supported by the device (for example, advanced, standard, and so on). 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DriverUnifiedPosPowerReportingType { 
@@ -55,6 +65,9 @@ typedef enum _DriverUnifiedPosPowerReportingType {
 
 
 ## -enum-fields
+
+
+
 
 ### -field UnknownPowerReportingType
 
@@ -70,5 +83,3 @@ The device supports the standard power reporting type.
 
 The device supports the advanced power reporting type.
 
-
-## -remarks

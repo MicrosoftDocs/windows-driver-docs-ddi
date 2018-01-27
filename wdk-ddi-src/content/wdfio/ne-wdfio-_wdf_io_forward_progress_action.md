@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4d63c908-8ae3-4df4-826f-9d87ea6c24ad
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_IO_FORWARD_PROGRESS_ACTION, WDF_IO_FORWARD_PROGRESS_ACTION
+ms.keywords: _WDF_IO_FORWARD_PROGRESS_ACTION, wdfio/WDF_IO_FORWARD_PROGRESS_ACTION, wdfio/WdfIoForwardProgressActionInvalid, WdfIoForwardProgressActionInvalid, wdf.wdf_io_forward_progress_action, wdfio/WdfIoForwardProgressActionUseReservedRequest, WDF_IO_FORWARD_PROGRESS_ACTION enumeration, DFQueueObjectRef_d1ee566a-9887-44de-aef5-a13f64e7603c.xml, WDF_IO_FORWARD_PROGRESS_ACTION, wdfio/WdfIoForwardProgressActionFailRequest, WdfIoForwardProgressActionFailRequest, WdfIoForwardProgressActionUseReservedRequest, kmdf.wdf_io_forward_progress_action
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.9
 req.umdf-ver: 
-req.alt-api: WDF_IO_FORWARD_PROGRESS_ACTION
-req.alt-loc: wdfio.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfio.h
+apiname: 
+-	WDF_IO_FORWARD_PROGRESS_ACTION
+product: Windows
+targetos: Windows
 req.typenames: WDF_IO_FORWARD_PROGRESS_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_IO_FORWARD_PROGRESS_ACTION enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_IO_FORWARD_PROGRESS_ACTION</b> enumeration identifies actions that the framework can take for an I/O request packet (IRP) that your driver examines during a low-memory situation.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_IO_FORWARD_PROGRESS_ACTION { 
@@ -58,6 +68,9 @@ typedef enum _WDF_IO_FORWARD_PROGRESS_ACTION {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WdfIoForwardProgressActionInvalid
 
@@ -75,15 +88,16 @@ The framework will use a reserved request object, if one is available, for the c
 
 
 ## -remarks
+
+
 The <b>WDF_IO_FORWARD_PROGRESS_ACTION</b> enumeration is used as the return value for the <a href="..\wdfio\nc-wdfio-evt_wdf_io_wdm_irp_for_forward_progress.md">EvtIoWdmIrpForForwardProgress</a> callback function.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfio\nc-wdfio-evt_wdf_io_wdm_irp_for_forward_progress.md">EvtIoWdmIrpForForwardProgress</a>
-</dt>
-</dl>
+
  
 
  

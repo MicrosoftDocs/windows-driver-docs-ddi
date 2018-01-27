@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 348E7C25-4998-490E-A732-5780B0A21DE0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _BDA_WMDRMTUNER_PURCHASEENTITLEMENT, BDA_WMDRMTUNER_PURCHASEENTITLEMENT, *PBDA_WMDRMTUNER_PURCHASEENTITLEMENT
+ms.keywords: bdatypes/PBDA_WMDRMTUNER_PURCHASEENTITLEMENT, BDA_WMDRMTUNER_PURCHASEENTITLEMENT structure [Streaming Media Devices], _BDA_WMDRMTUNER_PURCHASEENTITLEMENT, PBDA_WMDRMTUNER_PURCHASEENTITLEMENT structure pointer [Streaming Media Devices], *PBDA_WMDRMTUNER_PURCHASEENTITLEMENT, BDA_WMDRMTUNER_PURCHASEENTITLEMENT, PBDA_WMDRMTUNER_PURCHASEENTITLEMENT, stream.bda_wmdrmtuner_purchaseentitlement, bdatypes/BDA_WMDRMTUNER_PURCHASEENTITLEMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BDA_WMDRMTUNER_PURCHASEENTITLEMENT
-req.alt-loc: Bdatypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bdatypes.h
+apiname: 
+-	BDA_WMDRMTUNER_PURCHASEENTITLEMENT
+product: Windows
+targetos: Windows
 req.typenames: BDA_WMDRMTUNER_PURCHASEENTITLEMENT, *PBDA_WMDRMTUNER_PURCHASEENTITLEMENT
 ---
 
 # _BDA_WMDRMTUNER_PURCHASEENTITLEMENT structure
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: BDA_WMDRMTUNER_PURCHASEENTITLEMENT, *PBDA_WMDRMTUNER_PURCHASEENTI
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct _BDA_WMDRMTUNER_PURCHASEENTITLEMENT {
@@ -57,16 +67,21 @@ typedef struct _BDA_WMDRMTUNER_PURCHASEENTITLEMENT {
 
 ## -struct-fields
 
+
+
+
 ### -field lResult
+
 
 
 ### -field ulDescrambleStatus
 
 
+
 ### -field ulCaptureTokenLength
+
 
 
 ### -field argbCaptureTokenBuffer
 
 
-## -remarks

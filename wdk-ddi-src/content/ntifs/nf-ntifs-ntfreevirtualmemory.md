@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ca6675cf-3482-4e62-8f7c-801c1deacd37
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtFreeVirtualMemory
+ms.keywords: ZwFreeVirtualMemory, ZwFreeVirtualMemory routine [Kernel-Mode Driver Architecture], ntifs/ZwFreeVirtualMemory, k111_c7ea9516-a020-4840-aa18-7f98470cc142.xml, kernel.zwfreevirtualmemory, NtFreeVirtualMemory, ntifs/NtFreeVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwFreeVirtualMemory,NtFreeVirtualMemory
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ZwFreeVirtualMemory
+-	NtFreeVirtualMemory
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # NtFreeVirtualMemory function
 
 
-
 ## -description
+
+
 The <b>ZwFreeVirtualMemory</b> routine releases, decommits, or both, a region of pages within the virtual address space of a specified process.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ZwFreeVirtualMemory(
@@ -56,6 +67,9 @@ NTSTATUS ZwFreeVirtualMemory(
 
 
 ## -parameters
+
+
+
 
 ### -param ProcessHandle [in]
 
@@ -78,7 +92,6 @@ If the MEM_RELEASE flag is set in the <i>FreeType</i> parameter, the variable po
 If the MEM_DECOMMIT flag is set in the <i>FreeType</i> parameter, <b>ZwFreeVirtualMemory</b> decommits all memory pages that contain one or more bytes in the range from the <i>BaseAddress</i> parameter to (<i>BaseAddress</i> + *<i>RegionSize</i>). This means, for example, that if a two-byte region of memory straddles a page boundary, both pages are decommitted.
 
 <b>ZwFreeVirtualMemory</b> decommits the entire region that was reserved by <b>ZwAllocateVirtualMemory</b>. If the following three conditions are met, the entire region enters the reserved state:
-
 <ul>
 <li>
 The MEM_DECOMMIT flag is set.
@@ -98,7 +111,6 @@ The MEM_DECOMMIT flag is set.
 ### -param FreeType [in]
 
 A bitmask that contains flags that describe the type of free operation that <b>ZwFreeVirtualMemory</b> will perform for the specified region of pages. The possible values are listed in the following table.
-
 <table>
 <tr>
 <th><i>FreeType</i> flags</th>
@@ -132,42 +144,94 @@ If any pages in the region are currently committed, <b>ZwFreeVirtualMemory</b> f
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 <b>ZwFreeVirtualMemory</b> returns either STATUS_SUCCESS or an error status code. Possible error status codes include the following.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>A process has requested access to an object, but has not been granted those access rights.
+</dl>
+</td>
+<td width="60%">
+A process has requested access to an object, but has not been granted those access rights.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>An invalid <i>ProcessHandle</i> value was specified.
+</dl>
+</td>
+<td width="60%">
+An invalid <i>ProcessHandle</i> value was specified.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_TYPE_MISMATCH</b></dt>
-</dl>There is a mismatch between the type of object required by the requested operation and the type of object that is specified in the request.
+</dl>
+</td>
+<td width="60%">
+There is a mismatch between the type of object required by the requested operation and the type of object that is specified in the request.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-Each page in the process's virtual address space is in one of the three states described in the following table.
 
+
+Each page in the process's virtual address space is in one of the three states described in the following table.
+<table>
+<tr>
+<th>State</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>
 FREE
 
+</td>
+<td>
 The page is neither committed nor reserved. The page is not accessible to the process. Attempting to read from or write to a free page results in an access violation exception. 
 
 You can use <b>ZwFreeVirtualMemory</b> to put reserved or committed pages into the free state.
 
+</td>
+</tr>
+<tr>
+<td>
 RESERVED
 
+</td>
+<td>
 The page is reserved. The range of addresses cannot be used by other allocation functions. The page is not accessible to the process and has no physical storage associated with it. Attempting to read from or write to a reserved page results in an access violation exception. 
 
 You can use <b>ZwFreeVirtualMemory</b> to put committed memory pages into the reserved state, and to put reserved memory pages into the free state. 
 
+</td>
+</tr>
+<tr>
+<td>
 COMMITTED
 
+</td>
+<td>
 The page is committed. Physical storage in memory or in the paging file on disk is allocated for the page, and access is controlled by a protection code. 
 
 The system initializes and loads each committed page into physical memory only at the first attempt to read from or write to that page. 
@@ -176,15 +240,25 @@ When a process terminates, the system releases all storage for committed pages.
 
 You can use <a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVirtualMemory</a> to put committed memory pages into either the reserved or free state.
 
-<b>ZwFreeVirtualMemory</b> can perform the following operations:
+</td>
+</tr>
+</table> 
 
+<b>ZwFreeVirtualMemory</b> can perform the following operations:
+<ul>
+<li>
 Decommit a region of committed or uncommitted pages. After this operation, the pages are in the reserved state. 
 
+</li>
+<li>
 Release a region of reserved pages. After this operation, the pages are in the free state.
 
+</li>
+<li>
 Decommit and release a region of committed or uncommitted pages. After this operation, the pages are in the free state. 
 
-<b>ZwFreeVirtualMemory</b> can decommit a range of pages that are in different states, some committed and some uncommitted. This means that you can decommit a range of pages without first determining the current commitment state of each page. Decommitting a page releases its physical storage, either in memory or in the paging file on disk.
+</li>
+</ul><b>ZwFreeVirtualMemory</b> can decommit a range of pages that are in different states, some committed and some uncommitted. This means that you can decommit a range of pages without first determining the current commitment state of each page. Decommitting a page releases its physical storage, either in memory or in the paging file on disk.
 
 If a page is decommitted but not released, its state changes to reserved. You can subsequently call <b>ZwAllocateVirtualMemory</b> to commit it, or <b>ZwFreeVirtualMemory</b> to release it. Attempting to read from or write to a reserved page results in an access violation exception.
 
@@ -193,19 +267,16 @@ If a page is decommitted but not released, its state changes to reserved. You ca
 If a page is released, its state changes to free, and it is available for subsequent allocation operations. After memory has been released or decommitted, you can never refer to the memory again. Any information that may have been in that memory is gone forever. Attempting to read from or write to a free page results in an access violation exception. If you require information, do not decommit or free memory that contains that information.
 
 For more information about memory management support for kernel-mode drivers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554389">Memory Management for Windows Drivers</a>.
+<div class="alert"><b>Note</b>  If the call to the <b>ZwFreeVirtualMemory</b> function occurs in user mode, you should use the name "<b>NtFreeVirtualMemory</b>" instead of "<b>ZwFreeVirtualMemory</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVirtualMemory</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
  
 
  

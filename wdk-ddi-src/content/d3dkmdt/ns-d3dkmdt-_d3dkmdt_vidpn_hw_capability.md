@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8d881133-3ea7-43c4-99cc-d843026573d6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMDT_VIDPN_HW_CAPABILITY, D3DKMDT_VIDPN_HW_CAPABILITY
+ms.keywords: d3dkmdt/D3DKMDT_VIDPN_HW_CAPABILITY, display.d3dkmdt_vidpn_hw_capability, _D3DKMDT_VIDPN_HW_CAPABILITY, D3DKMDT_VIDPN_HW_CAPABILITY structure [Display Devices], D3DKMDT_VIDPN_HW_CAPABILITY, DmStructs_93529025-7af3-49d1-8f38-2b0355682743.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMDT_VIDPN_HW_CAPABILITY
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	D3DKMDT_VIDPN_HW_CAPABILITY
+product: Windows
+targetos: Windows
 req.typenames: D3DKMDT_VIDPN_HW_CAPABILITY
 ---
 
 # _D3DKMDT_VIDPN_HW_CAPABILITY structure
 
 
-
 ## -description
+
+
 The D3DKMDT_VIDPN_HW_CAPABILITY structure describes the capabilities of the display miniport driver to perform display operations on a specified functional VidPN without dedicated GPU hardware support. For definitions of hardware terminology used in this topic, see the Remarks section.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMDT_VIDPN_HW_CAPABILITY {
@@ -59,6 +69,9 @@ typedef struct _D3DKMDT_VIDPN_HW_CAPABILITY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DriverRotation
 
@@ -120,21 +133,18 @@ Reserved for system use. The display miniport driver must set this value to 0.
 
 
 ## -remarks
+
+
 The following definitions of terms are used in this topic.
 
 
 
-Describes the components on the display device that generate the video signal from the image.
-
-Describes the components on the display device that perform 3-D image rendering.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-</dt>
-</dl>
+
  
 
  

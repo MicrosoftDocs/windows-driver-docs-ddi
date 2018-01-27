@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 50e31ff1-07f2-4781-81f2-8db6e3cf9cc6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _CLFS_MGMT_POLICY_TYPE, *PCLFS_MGMT_POLICY_TYPE, CLFS_MGMT_POLICY_TYPE
+ms.keywords: wdm/ClfsMgmtPolicyLogTail, PCLFS_MGMT_POLICY_TYPE enumeration pointer [Kernel-Mode Driver Architecture], wdm/CLFS_MGMT_POLICY_TYPE, *PCLFS_MGMT_POLICY_TYPE, wdm/ClfsMgmtPolicyNewContainerSuffix, wdm/ClfsMgmtPolicyAutoShrink, ClfsMgmtPolicyLogTail, CLFS_MGMT_POLICY_TYPE, wdm/ClfsMgmtPolicyMaximumSize, ClfsMgmtPolicyNewContainerPrefix, PCLFS_MGMT_POLICY_TYPE, _CLFS_MGMT_POLICY_TYPE, kernel.clfs_mgmt_policy_type, CLFS_MGMT_POLICY_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/ClfsMgmtPolicyGrowthRate, wdm/ClfsMgmtPolicyNewContainerSize, wdm/PCLFS_MGMT_POLICY_TYPE, ClfsMgmtPolicyAutoGrow, ClfsMgmtPolicyAutoShrink, ClfsMgmtPolicyInvalid, wdm/ClfsMgmtPolicyMinimumSize, ClfsMgmtPolicyMaximumSize, ClfsMgmtPolicyNewContainerSuffix, ClfsMgmtPolicyNewContainerSize, ClfsMgmtPolicyGrowthRate, sysenum_bae8275b-5f70-40fb-ae14-f803eaeb0a42.xml, ClfsMgmtPolicyMinimumSize, wdm/ClfsMgmtPolicyInvalid, wdm/ClfsMgmtPolicyAutoGrow, wdm/ClfsMgmtPolicyNewContainerPrefix, wdm/ClfsMgmtPolicyNewContainerExtension, ClfsMgmtPolicyNewContainerExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CLFS_MGMT_POLICY_TYPE
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PCLFS_MGMT_POLICY_TYPE, CLFS_MGMT_POLICY_TYPE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	CLFS_MGMT_POLICY_TYPE
+product: Windows
+targetos: Windows
+req.typenames: CLFS_MGMT_POLICY_TYPE, *PCLFS_MGMT_POLICY_TYPE
 req.product: Windows 10 or later.
 ---
 
 # _CLFS_MGMT_POLICY_TYPE enumeration
 
 
-
 ## -description
+
+
 The <b>CLFS_MGMT_POLICY_TYPE</b> enumeration type identifies the type of a CLFS management policy.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _CLFS_MGMT_POLICY_TYPE { 
@@ -64,6 +74,9 @@ typedef enum _CLFS_MGMT_POLICY_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field ClfsMgmtPolicyMaximumSize
 
@@ -121,15 +134,16 @@ Reserved for internal use.
 
 
 ## -remarks
+
+
 Each type of CLFS management policy corresponds to a specific interpretation of the <a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a> structure. The <b>PolicyType</b> member of the <b>CLFS_MGMT_POLICY</b> structure is a valid value of the <b>CLFS_MGMT_POLICY_TYPE</b> enumeration.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a>
-</dt>
-</dl>
+
  
 
  

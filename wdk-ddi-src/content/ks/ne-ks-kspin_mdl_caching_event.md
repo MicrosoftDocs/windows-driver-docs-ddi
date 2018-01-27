@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 74A7C2C8-F12B-4753-8E1F-C425B0B56788
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPIN_MDL_CACHING_EVENT, KSPIN_MDL_CACHING_EVENT
+ms.keywords: KSPIN_MDL_CACHING_EVENT, KSPIN_MDL_CACHING_NOTIFY_ADDSAMPLE, ks/KSPIN_MDL_CACHING_NOTIFY_CLEANALL_WAIT, stream.kspin_mdl_caching_event, KSPIN_MDL_CACHING_NOTIFY_CLEANUP, ks/KSPIN_MDL_CACHING_NOTIFY_CLEANUP, KSPIN_MDL_CACHING_NOTIFY_CLEANALL_NOWAIT, ks/KSPIN_MDL_CACHING_NOTIFY_ADDSAMPLE, ks/KSPIN_MDL_CACHING_NOTIFY_CLEANALL_NOWAIT, KSPIN_MDL_CACHING_NOTIFY_CLEANALL_WAIT, ks/KSPIN_MDL_CACHING_EVENT, KSPIN_MDL_CACHING_EVENT enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPIN_MDL_CACHING_EVENT
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSPIN_MDL_CACHING_EVENT
+product: Windows
+targetos: Windows
 req.typenames: KSPIN_MDL_CACHING_EVENT
 ---
 
 # KSPIN_MDL_CACHING_EVENT enumeration
 
 
-
 ## -description
+
+
 This enumeration is used internally by the operating system.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -56,6 +66,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field KSPIN_MDL_CACHING_NOTIFY_CLEANUP
 
@@ -76,5 +89,3 @@ This value is used internally by the operating system.
 
 This value is used internally by the operating system.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 68D944D9-1A52-4FB0-B2D7-9680AB1EDABB
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortIsCurrentOsInstallationUpgrade
+ms.keywords: StorPortIsCurrentOsInstallationUpgrade routine [Storage Devices], StorPortIsCurrentOsInstallationUpgrade, storport/StorPortIsCurrentOsInstallationUpgrade, storage.storportiscurrentosinstallationupgrade
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in starting with Windows 8.1.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortIsCurrentOsInstallationUpgrade
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: IRQL == PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	StorPortIsCurrentOsInstallationUpgrade
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # StorPortIsCurrentOsInstallationUpgrade function
 
 
-
 ## -description
+
+
 The <b>StorPortIsCurrentOsInstallationUpgrade</b>  routine checks if the current installation of Windows is an upgrade from a previous version or not.
 
 
-
 ## -syntax
+
 
 ````
 ULONG StorPortIsCurrentOsInstallationUpgrade(
@@ -55,6 +65,9 @@ ULONG StorPortIsCurrentOsInstallationUpgrade(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -67,18 +80,47 @@ The value pointed to by <i>Upgraded</i> is set to <b>TRUE</b> if the current ope
 
 
 ## -returns
+
+
 The <b>StorPortIsCurrentOsInstallationUpgrade</b> routine returns one of these status codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>An upgrade status is returned in the value pointed to by the  <i>Upgraded</i> parameter.
+</dl>
+</td>
+<td width="60%">
+An upgrade status is returned in the value pointed to by the  <i>Upgraded</i> parameter.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>The pointer value  in <i>Upgraded</i> is NULL.
+</dl>
+</td>
+<td width="60%">
+The pointer value  in <i>Upgraded</i> is NULL.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_IRQL</b></dt>
-</dl>The current IRQL &gt; PASSIVE_LEVEL.
+</dl>
+</td>
+<td width="60%">
+The current IRQL &gt; PASSIVE_LEVEL.
 
- 
+</td>
+</tr>
+</table> 
 
 
-## -remarks

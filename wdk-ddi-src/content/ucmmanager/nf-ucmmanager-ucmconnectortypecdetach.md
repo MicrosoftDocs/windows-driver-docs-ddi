@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E89DC8B6-9379-4FE2-BF4C-897DA9DFA11C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmConnectorTypeCDetach
+ms.keywords: buses.ucmconnectortypecdetach, ucmmanager/UcmConnectorTypeCDetach, UcmConnectorTypeCDetach method [Buses], UcmConnectorTypeCDetach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 2.15
-req.alt-api: UcmConnectorTypeCDetach
-req.alt-loc: UcmCxstub.lib,UcmCxstub.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: UcmCxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	UcmCxstub.lib
+-	UcmCxstub.dll
+apiname: 
+-	UcmConnectorTypeCDetach
+product: Windows
+targetos: Windows
 req.typenames: *PPORT_DATA_1, PORT_DATA_1
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # UcmConnectorTypeCDetach function
 
 
-
 ## -description
+
+
 Notifies the USB connector manager framework extension (UcmCx) when the partner connector  detaches from the specified Type-C connector.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS UcmConnectorTypeCDetach(
@@ -55,24 +66,25 @@ NTSTATUS UcmConnectorTypeCDetach(
 
 ## -parameters
 
-### -param  Connector [in]
+
+
+
+### -param Connector [in]
 
 Handle to the connector object that the client driver received in the previous call to <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>.
 
 
 ## -returns
+
+
 <b>UcmConnectorTypeCDetach</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> value. 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
-</dt>
-</dl>
+
  
 
  

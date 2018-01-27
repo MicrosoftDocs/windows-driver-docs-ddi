@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4717300c-bc98-4e1f-83c3-cbd368b45140
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSynchronousDeviceControl
+ms.keywords: stream.ikspin, IKsPin interface [Streaming Media Devices], IKsPin interface [Streaming Media Devices], described, IKsPin, ksproxy/IKsPin, ksproxy_9a020f8a-1271-47ea-816f-1132e44b6f45.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsPin,IKsPin.KsReceiveAllocator,IKsPin.KsRenegotiateAllocator,IKsPin.KsQualityNotify
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,119 +29,36 @@ req.type-library:
 req.lib: Ksproxy.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsPin
+-	IKsPin.KsReceiveAllocator
+-	IKsPin.KsRenegotiateAllocator
+-	IKsPin.KsQualityNotify
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsPin interface
 
 
-
 ## -description
+
+
 The <b>IKsPin</b> interface provides methods that control and retrieve information about a pin.
 
 The IID for this interface is IID_IKsPin.
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPin</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IKsPin</b> also has these types of members:
-
-The <b>IKsPin</b> interface has these methods.
-
-For proxy use and not recommended for application use. Creates a pin handle and stores it in the KS pin object. 
-
-Decrements the number of I/O operations that are in progress on a pin.
-
-Delivers a media sample from an output pin to an input pin. 
-
-Retrieves the current communication direction, interface, and medium of a pin. 
-
-Increments the number of I/O operations that are in progress on a pin.
-
-Informs a pin that a stream segment completed. Used by interface handlers.
-
-For proxy use and not recommended for application use. Returns a pointer to a <b>IMemAllocator</b> interface for a pin's assigned allocator.
-
-For proxy use and not recommended for application use.
-
-For proxy use and not recommended for application use. Receives quality-management reports from the kernel-mode equivalent of a DirectShow pin.
-
-Retrieves interfaces that a pin supports.
-
-Retrieves mediums that a pin supports.
-
-For proxy use and not recommended for application use. Provides an allocator for an output pin. 
-
-Obsolete. Do not use.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPin</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IKsPin</b> also has these types of members:
-
-The <b>IKsPin</b> interface has these methods.
-
-For proxy use and not recommended for application use. Creates a pin handle and stores it in the KS pin object. 
-
-Decrements the number of I/O operations that are in progress on a pin.
-
-Delivers a media sample from an output pin to an input pin. 
-
-Retrieves the current communication direction, interface, and medium of a pin. 
-
-Increments the number of I/O operations that are in progress on a pin.
-
-Informs a pin that a stream segment completed. Used by interface handlers.
-
-For proxy use and not recommended for application use. Returns a pointer to a <b>IMemAllocator</b> interface for a pin's assigned allocator.
-
-For proxy use and not recommended for application use.
-
-For proxy use and not recommended for application use. Receives quality-management reports from the kernel-mode equivalent of a DirectShow pin.
-
-Retrieves interfaces that a pin supports.
-
-Retrieves mediums that a pin supports.
-
-For proxy use and not recommended for application use. Provides an allocator for an output pin. 
-
-Obsolete. Do not use.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPin</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IKsPin</b> also has these types of members:
-
-The <b>IKsPin</b> interface has these methods.
-
-For proxy use and not recommended for application use. Creates a pin handle and stores it in the KS pin object. 
-
-Decrements the number of I/O operations that are in progress on a pin.
-
-Delivers a media sample from an output pin to an input pin. 
-
-Retrieves the current communication direction, interface, and medium of a pin. 
-
-Increments the number of I/O operations that are in progress on a pin.
-
-Informs a pin that a stream segment completed. Used by interface handlers.
-
-For proxy use and not recommended for application use. Returns a pointer to a <b>IMemAllocator</b> interface for a pin's assigned allocator.
-
-For proxy use and not recommended for application use.
-
-For proxy use and not recommended for application use. Receives quality-management reports from the kernel-mode equivalent of a DirectShow pin.
-
-Retrieves interfaces that a pin supports.
-
-Retrieves mediums that a pin supports.
-
-For proxy use and not recommended for application use. Provides an allocator for an output pin. 
-
-Obsolete. Do not use.
-
- 
-
-
 ## -members
+
 The <b>IKsPin</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -291,16 +206,17 @@ Obsolete. Do not use.
 
 
 ## -remarks
+
+
 An interface handler (<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>) uses many of the <b>IKsPin</b> methods to route media samples of a particular media type. 
     
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
-</dt>
-</dl>
+
  
 
  

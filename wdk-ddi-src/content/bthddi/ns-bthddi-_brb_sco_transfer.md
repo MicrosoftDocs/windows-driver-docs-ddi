@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: f0aeb4ad-17a6-43bb-87bf-0c6766a6ad39
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BRB_SCO_TRANSFER,
+ms.keywords: _BRB_SCO_TRANSFER structure [Bluetooth Devices], bth_structs_2e4ed482-af73-4ca6-997c-53005c4fafc2.xml, _BRB_SCO_TRANSFER, bthddi/_BRB_SCO_TRANSFER, bltooth._brb_sco_transfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: _BRB_SCO_TRANSFER
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthddi.h
+apiname: 
+-	_BRB_SCO_TRANSFER
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # _BRB_SCO_TRANSFER structure
 
 
-
 ## -description
+
+
 The _BRB_SCO_TRANSFER structure describes a buffer to read isochronous data from, or write
   isochronous data to a SCO channel.
 
 
-
 ## -syntax
+
 
 ````
 struct _BRB_SCO_TRANSFER {
@@ -62,6 +72,9 @@ struct _BRB_SCO_TRANSFER {
 
 ## -struct-fields
 
+
+
+
 ### -field Hdr
 
 A 
@@ -78,8 +91,8 @@ The Bluetooth address of the remote device.
 
 The SCO channel handle that was returned by Bluetooth driver stack in response to an earlier 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a> or 
-     <a href="https://social.msdn.microsoft.com/Forums/en-US/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">
-     BRB_SCO_OPEN_CHANNEL_RESPONSE</a> request.
+     <mshelp:link keywords="bltooth.brb_sco_open_channel_response" tabindex="0"><b>
+     BRB_SCO_OPEN_CHANNEL_RESPONSE</b></mshelp:link> request.
 
 
 ### -field TransferFlags
@@ -87,7 +100,6 @@ The SCO channel handle that was returned by Bluetooth driver stack in response t
 Flags that specify the basic behavior of the BRB. Valid flag values are listed in the following
      table.
      
-
 <table>
 <tr>
 <th>Flag</th>
@@ -114,8 +126,7 @@ If this bit is set, the BRB writes isochronousdata to a remote device through th
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field BufferSize
@@ -139,12 +150,18 @@ A pointer to the MDL input buffer. This value should be <b>NULL</b> when the
 ### -field DataTag
 
 
-### -field SCO write 
-     
 
-</dl>
+##### - DataTag.SCO write
+
+
+
+##### - DataTag.
+
+
 
 ## -remarks
+
+
 To read isochronous data from or write isochronous data to a SCO connection, profile drivers should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536629">BRB_SCO_TRANSFER</a> request.
@@ -164,21 +181,17 @@ If both
     <b>BufferMDL</b> takes precedence.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
-</dt>
-<dt>
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
 <a href="https://social.msdn.microsoft.com/Forums/en-US/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">BRB_SCO_OPEN_CHANNEL_RESPONSE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536629">BRB_SCO_TRANSFER</a>
-</dt>
-</dl>
+
  
 
  

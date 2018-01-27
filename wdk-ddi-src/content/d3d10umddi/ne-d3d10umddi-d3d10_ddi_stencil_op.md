@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 624decb3-6279-45ba-8cdd-5a52de80dd71
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_DDI_STENCIL_OP, D3D10_DDI_STENCIL_OP
+ms.keywords: d3d10umddi/D3D10_DDI_STENCIL_OP_DECR_SAT, D3D10_DDI_STENCIL_OP_DECR_SAT, d3d10umddi/D3D10_DDI_STENCIL_OP_ZERO, UMDisplayDriver_Dx10param_Structs_0d70cbc2-b62c-4dce-b1f4-65b4c99ed5d7.xml, D3D10_DDI_STENCIL_OP_ZERO, display.d3d10_ddi_stencil_op, D3D10_DDI_STENCIL_OP_INCR_SAT, d3d10umddi/D3D10_DDI_STENCIL_OP_INCR, D3D10_DDI_STENCIL_OP_INCR, D3D10_DDI_STENCIL_OP_INVERT, D3D10_DDI_STENCIL_OP, D3D10_DDI_STENCIL_OP_REPLACE, d3d10umddi/D3D10_DDI_STENCIL_OP, d3d10umddi/D3D10_DDI_STENCIL_OP_INCR_SAT, D3D10_DDI_STENCIL_OP_KEEP, D3D10_DDI_STENCIL_OP_DECR, d3d10umddi/D3D10_DDI_STENCIL_OP_DECR, d3d10umddi/D3D10_DDI_STENCIL_OP_REPLACE, d3d10umddi/D3D10_DDI_STENCIL_OP_KEEP, d3d10umddi/D3D10_DDI_STENCIL_OP_INVERT, D3D10_DDI_STENCIL_OP enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10_DDI_STENCIL_OP
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10_DDI_STENCIL_OP
+product: Windows
+targetos: Windows
 req.typenames: D3D10_DDI_STENCIL_OP
 ---
 
 # D3D10_DDI_STENCIL_OP enumeration
 
 
-
 ## -description
+
+
 The D3D10_DDI_STENCIL_OP enumeration type contains values that identify operations on stencil buffers in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdepthstencilstate.md">CreateDepthStencilState</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D10_DDI_STENCIL_OP { 
@@ -60,6 +70,9 @@ typedef enum D3D10_DDI_STENCIL_OP {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D10_DDI_STENCIL_OP_KEEP
 
@@ -101,15 +114,10 @@ Increment the stencil-buffer entry, wrapping to zero if the new value exceeds th
 Decrement the stencil-buffer entry, wrapping to the maximum value if the new value is less than zero.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdepthstencilstate.md">CreateDepthStencilState</a>
-</dt>
-</dl>
+
  
 
  

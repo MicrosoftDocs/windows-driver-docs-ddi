@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7331b30f-f61c-445c-ac0f-07c887ae92d7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WMIREGINFOW, *PWMIREGINFOW, WMIREGINFOW, WMIREGINFO
+ms.keywords: *PWMIREGINFOW, kstruct_d_2c5c2f97-d385-4cd6-8b0f-c27d4b21ea11.xml, PWMIREGINFOW, wmistr/WMIREGINFOW, WMIREGINFO, WMIREGINFOW structure [Kernel-Mode Driver Architecture], PWMIREGINFOW structure pointer [Kernel-Mode Driver Architecture], kernel.wmireginfo, WMIREGINFOW, wmistr/PWMIREGINFOW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WMIREGINFOW
-req.alt-loc: wmistr.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wmistr.h
+apiname: 
+-	WMIREGINFOW
+product: Windows
+targetos: Windows
 req.typenames: *PWMIREGINFOW, WMIREGINFOW
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # WMIREGINFOW structure
 
 
-
 ## -description
+
+
 The <b>WMIREGINFO</b> structure contains information provided by a driver to register or update its data blocks and event blocks.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -59,6 +69,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field BufferSize
 
@@ -91,6 +104,8 @@ Is an array of <b>GuidCount </b><a href="..\wmistr\ns-wmistr-wmiregguidw.md">WMI
 
 
 ## -remarks
+
+
 In response to a registration request (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a> with <b>Parameters.WMI.DataPath </b>set to WMIREGISTER), a driver builds at least one <b>WMIREGINFO</b> structure and writes the <b>WMIREGINFO</b> structure to the buffer at <b>IrpStack-&gt;Parameters.WMI.Buffer</b>. The <b>WMIREGINFO</b> structure contains an array of <b>WMIREGGUID</b> structures, one for each data block or event block exposed by the driver.
 
 If the driver handles WMI requests on behalf of another driver, it builds another <b>WMIREGINFO</b> containing an array of <b>WMIREGGUID</b> structures for each block exposed by the other driver, sets the <b>NextWmiRegInfo</b> member of the first <b>WMIREGINFO</b> to an offset in bytes from the beginning of the first <b>WMIREGINFO</b> to the beginning of the next <b>WMIREGINFO</b> in the buffer, and writes both structures to the buffer. The driver indicates the total size of both <b>WMIREGINFO</b> structures and associated data when calls <b>IoCompleteRequest</b> to complete the IRP.
@@ -98,21 +113,17 @@ If the driver handles WMI requests on behalf of another driver, it builds anothe
 A driver can use the same <b>WMIREGINFO</b> structure(s) to remove or update blocks in response to an update request (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a> with <b>Parameters.WMI.DataPath</b> set to WMIUPDATE). If WMIREG_FLAG_REMOVE_GUID is set in the <b>Flags</b> member of a <b>WMIREGGUID</b>, WMI removes that block from the list of blocks previously registered by the driver. If WMIREG_FLAG_REMOVE_GUID is clear, WMI updates registration information for that block only if other <b>WMIREGGUID</b> members have changed—otherwise, WMI does not change to its registration information for that block.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a>
-</dt>
-<dt>
+
 <a href="..\wmistr\ns-wmistr-wmiregguidw.md">WMIREGGUID</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a>
+
  
 
  

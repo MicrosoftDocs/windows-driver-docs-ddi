@@ -7,8 +7,8 @@ old-location: netvista\ndiscldropparty.htm
 old-project: netvista
 ms.assetid: f5d04730-a7eb-4670-9b47-f8c52267aea8
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisClDropParty
+ms.date: 1/18/2018
+ms.keywords: netvista.ndiscldropparty, ndis/NdisClDropParty, NdisClDropParty, NdisClDropParty function [Network Drivers Starting with Windows Vista], condis_client_ref_a86ff56b-e523-4d1b-a3ef-60ec953514c6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    N
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisClDropParty
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_Protocol_Driver_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisClDropParty
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisClDropParty function
 
 
-
 ## -description
+
+
 <b>NdisClDropParty</b> drops a party from the client's multipoint VC.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisClDropParty(
@@ -55,6 +66,9 @@ NDIS_STATUS NdisClDropParty(
 
 
 ## -parameters
+
+
+
 
 ### -param NdisPartyHandle [in]
 
@@ -79,21 +93,27 @@ Specifies the size in bytes at
 
 
 ## -returns
+
+
 When 
      <b>NdisClDropParty</b> returns anything other than NDIS_STATUS_PENDING, the client should make an
      internal call to its 
-     <a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">
-     ProtocolClDropPartyComplete</a> function. Otherwise, NDIS calls the client's 
+     <mshelp:link keywords="netvista.protocolcldroppartycomplete" tabindex="0"><i>
+     ProtocolClDropPartyComplete</i></mshelp:link> function. Otherwise, NDIS calls the client's 
      <i>ProtocolClDropPartyComplete</i> function when this operation is completed.
 
 
+
 ## -remarks
+
+
 Clients usually call 
     <b>NdisClDropParty</b> in either of the following circumstances:
-
+<ul>
+<li>
 From the 
-      <a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">
-      ProtocolClIncomingDropParty</a> function to remove the given party from a multipoint connection.
+      <mshelp:link keywords="netvista.protocolclincomingdropparty" tabindex="0"><i>
+      ProtocolClIncomingDropParty</i></mshelp:link> function to remove the given party from a multipoint connection.
 
 This occurs when a party on a remote node closes its connection with 
       <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>. When NDIS calls the
@@ -101,6 +121,8 @@ This occurs when a party on a remote node closes its connection with
       <i>ProtocolClDropPartyComplete</i> function, it can release or reuse the context area at 
       <i>ProtocolPartyContext</i> in which the client was maintaining state about this party.
 
+</li>
+<li>
 Before the client calls 
       <b>NdisClCloseCall</b> with the last party on a multipoint connection that the client originally set up
       with 
@@ -109,7 +131,8 @@ Before the client calls
 For such a client-initiated close of its own multipoint call, the client must call 
       <b>NdisClDropParty</b> one or more times to drop every other remaining party on the multipoint VC.
 
-A client's call to 
+</li>
+</ul>A client's call to 
     <b>NdisClDropParty</b> causes NDIS to call the 
     <a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a> function of the
     call manager that shares the same 
@@ -125,8 +148,8 @@ As a general guideline, a client must call
     before it closes its multipoint connection with 
     <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>. Since remote parties can
     initiate closes of their connections, thereby causing calls to the local client's 
-    <a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">
-    ProtocolClIncomingDropParty</a> function, the local client must keep track of the number of active
+    <mshelp:link keywords="netvista.protocolclincomingdropparty" tabindex="0"><i>
+    ProtocolClIncomingDropParty</i></mshelp:link> function, the local client must keep track of the number of active
     parties on its multipoint VCs in order to know how many calls it must make to 
     <b>NdisClDropParty</b> before it can call 
     <b>NdisClCloseCall</b>.
@@ -148,38 +171,31 @@ The caller of
     <b>NdisClDropParty</b> should consider the input 
     <i>NdisPartyHandle</i> invalid as soon as it makes this call. If it stored this handle in the party
     context area it allocated, the client's 
-    <a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">
-    ProtocolClDropPartyComplete</a> function should reset the handle variable to <b>NULL</b> if it reinitializes
+    <mshelp:link keywords="netvista.protocolcldroppartycomplete" tabindex="0"><i>
+    ProtocolClDropPartyComplete</i></mshelp:link> function should reset the handle variable to <b>NULL</b> if it reinitializes
     its per-party context area for reuse when the party has been dropped.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
-</dt>
-<dt>
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
 <a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">ProtocolClDropPartyComplete</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
-</dt>
-<dt>
+
+<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
+
 <a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisClDropParty function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisClDropParty function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

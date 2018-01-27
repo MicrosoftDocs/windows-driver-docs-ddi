@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 32a396c9-01a5-4e17-bcb5-659f7a88c0ef
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_DATARANGE_BDA_ANTENNA, KS_DATARANGE_BDA_ANTENNA, *PKS_DATARANGE_BDA_ANTENNA
+ms.keywords: bdamedia/KS_DATARANGE_BDA_ANTENNA, PKS_DATARANGE_BDA_ANTENNA structure pointer [Streaming Media Devices], *PKS_DATARANGE_BDA_ANTENNA, KS_DATARANGE_BDA_ANTENNA structure [Streaming Media Devices], PKS_DATARANGE_BDA_ANTENNA, bdaref_ebf4214a-27fb-4746-af16-9cc98a1dcbd4.xml, bdamedia/PKS_DATARANGE_BDA_ANTENNA, tagKS_DATARANGE_BDA_ANTENNA, stream.ks_datarange_bda_antenna, KS_DATARANGE_BDA_ANTENNA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_DATARANGE_BDA_ANTENNA
-req.alt-loc: bdamedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KS_DATARANGE_BDA_ANTENNA, *PKS_DATARANGE_BDA_ANTENNA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bdamedia.h
+apiname: 
+-	KS_DATARANGE_BDA_ANTENNA
+product: Windows
+targetos: Windows
+req.typenames: *PKS_DATARANGE_BDA_ANTENNA, KS_DATARANGE_BDA_ANTENNA
 ---
 
 # tagKS_DATARANGE_BDA_ANTENNA structure
 
 
-
 ## -description
+
+
 The KS_DATARANGE_BDA_ANTENNA structure describes a range of data formats for a BDA antenna stream. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagKS_DATARANGE_BDA_ANTENNA {
@@ -54,29 +64,31 @@ typedef struct tagKS_DATARANGE_BDA_ANTENNA {
 
 ## -struct-fields
 
+
+
+
 ### -field DataRange
 
 KSDATARANGE structure that describes a range of data formats with the <b>MajorFormat</b> member specified as STATIC_KSDATAFORMAT_TYPE_BDA_ANTENNA.
 
 
 ## -remarks
+
+
 A data range describes a range of data formats. 
 
 Pins of filters specify the data ranges they support to enable stream connections to pins of other filters that also support those data ranges.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556552">BDA Stream Format GUIDs</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
-</dt>
-</dl>
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556552">BDA Stream Format GUIDs</a>
+
  
 
  

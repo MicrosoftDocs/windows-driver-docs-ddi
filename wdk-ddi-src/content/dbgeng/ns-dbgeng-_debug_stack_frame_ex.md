@@ -7,8 +7,8 @@ old-location: debugger\debug_stack_frame_ex.htm
 old-project: debugger
 ms.assetid: EC0AF311-7BFC-4E2E-A1B1-FE38872B7FA2
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _DEBUG_STACK_FRAME_EX, *PDEBUG_STACK_FRAME_EX, DEBUG_STACK_FRAME_EX
+ms.date: 1/19/2018
+ms.keywords: DEBUG_STACK_FRAME_EX, dbgeng/DEBUG_STACK_FRAME_EX, PDEBUG_STACK_FRAME_EX structure pointer [Windows Debugging], _DEBUG_STACK_FRAME_EX, PDEBUG_STACK_FRAME_EX, *PDEBUG_STACK_FRAME_EX, debugger.debug_stack_frame_ex, dbgeng/PDEBUG_STACK_FRAME_EX, DEBUG_STACK_FRAME_EX structure [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DEBUG_STACK_FRAME_EX
-req.alt-loc: DbgEng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	DbgEng.h
+apiname: 
+-	DEBUG_STACK_FRAME_EX
+product: Windows
+targetos: Windows
 req.typenames: *PDEBUG_STACK_FRAME_EX, DEBUG_STACK_FRAME_EX
 ---
 
 # _DEBUG_STACK_FRAME_EX structure
 
 
-
 ## -description
+
+
 The DEBUG_STACK_FRAME_EX structure describes a stack frame and the address of the current instruction for the stack frame. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DEBUG_STACK_FRAME_EX {
@@ -63,6 +73,9 @@ typedef struct _DEBUG_STACK_FRAME_EX {
 
 
 ## -struct-fields
+
+
+
 
 ### -field InstructionOffset
 
@@ -118,5 +131,3 @@ Inline frame context.
 
 Used for alignment purposes. Set to 0.
 
-
-## -remarks

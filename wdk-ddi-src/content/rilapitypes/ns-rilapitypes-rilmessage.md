@@ -7,8 +7,8 @@ old-location: netvista\rilmessage_2.htm
 old-project: netvista
 ms.assetid: 731ae115-2394-4651-9b79-6d640d07a328
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILMESSAGE, RILMESSAGE, *LPRILMESSAGE
+ms.date: 1/18/2018
+ms.keywords: *LPRILMESSAGE, RILMESSAGE structure [Network Drivers Starting with Windows Vista], RILMESSAGE, rilapitypes/RILMESSAGE, netvista.rilmessage_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILMESSAGE
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILMESSAGE
+product: Windows
+targetos: Windows
 req.typenames: RILMESSAGE, *LPRILMESSAGE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILMESSAGE structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILMESSAGE {
@@ -84,94 +94,132 @@ typedef struct _RILMESSAGE {
 
 ## -struct-fields
 
-### -field cbSize
 
-
-### -field dwParams
-
-
-### -field raSvcCtrAddress
-
-
-### -field dwType
-
-
-### -field dwFlags
-
-
-### -field RILMSGUNION
 
 
 ### -field msgUnion
 
 
-### -field switch_is
+
+### -field msgUnion.unMsgInDeliver
+
+ 
+
+
+### -field msgUnion.unMsgInStatus
+
+ 
+
+
+### -field msgUnion.unMsgOutSubmit
+
+ 
+
+
+### -field msgUnion.unMsgBcGeneral
+
+ 
+
+
+### -field msgUnion.unMsgIS637InStatus
+
+ 
+
+
+### -field msgUnion.unMsgCDMAInDeliver
+
+ 
+
+
+### -field msgUnion.unMsgCDMAOutSubmit
+
+ 
+
+
+### -field RILMSGUNION
+
+
+
+### -field cbSize
+
+
+
+### -field dwParams
+
+
+
+### -field raSvcCtrAddress
+
 
 
 ### -field dwType
 
 
-### -field unMsgInDeliver
+
+### -field dwFlags
 
 
-### -field case
+
+#### - unMsgIS637InStatus
 
 
-### -field RIL_MSGTYPE_IN_DELIVER
+
+#### - unMsgBcGeneral
 
 
-### -field unMsgInStatus
+
+#### - RIL_MSGTYPE_OUT_SUBMIT
 
 
-### -field case
+
+#### - RIL_MSGTYPE_BC_GENERAL
 
 
-### -field RIL_MSGTYPE_IN_STATUS
+
+#### - RIL_MSGTYPE_IN_DELIVER
 
 
-### -field unMsgOutSubmit
+
+#### - RIL_MSGTYPE_OUT_CDMASUBMIT
 
 
-### -field case
+
+#### - unMsgInDeliver
 
 
-### -field RIL_MSGTYPE_OUT_SUBMIT
+
+#### - case
 
 
-### -field unMsgBcGeneral
+
+#### - switch_is
 
 
-### -field case
+
+#### - RIL_MSGTYPE_IN_IS637STATUS
 
 
-### -field RIL_MSGTYPE_BC_GENERAL
+
+#### - unMsgInStatus
 
 
-### -field unMsgIS637InStatus
+
+#### - unMsgCDMAInDeliver
 
 
-### -field case
+
+#### - unMsgOutSubmit
 
 
-### -field RIL_MSGTYPE_IN_IS637STATUS
+
+#### - unMsgCDMAOutSubmit
 
 
-### -field unMsgCDMAInDeliver
+
+#### - RIL_MSGTYPE_IN_CDMADELIVER
 
 
-### -field case
+
+#### - RIL_MSGTYPE_IN_STATUS
 
 
-### -field RIL_MSGTYPE_IN_CDMADELIVER
-
-
-### -field unMsgCDMAOutSubmit
-
-
-### -field case
-
-
-### -field RIL_MSGTYPE_OUT_CDMASUBMIT
-
-
-## -remarks

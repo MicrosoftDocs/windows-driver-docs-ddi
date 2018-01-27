@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0f7a424e-5d83-4ab0-b5a2-7e9093bbd34b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ATA_PASS_THROUGH_DIRECT, ATA_PASS_THROUGH_DIRECT, *PATA_PASS_THROUGH_DIRECT
+ms.keywords: *PATA_PASS_THROUGH_DIRECT, ntddscsi/ATA_PASS_THROUGH_DIRECT, ntddscsi/PATA_PASS_THROUGH_DIRECT, _ATA_PASS_THROUGH_DIRECT, structs-IDE_e59bb754-2ad4-49d0-b68c-8ef7b6273af5.xml, ATA_PASS_THROUGH_DIRECT, storage.ata_pass_through_direct, PATA_PASS_THROUGH_DIRECT structure pointer [Storage Devices], ATA_PASS_THROUGH_DIRECT structure [Storage Devices], PATA_PASS_THROUGH_DIRECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ATA_PASS_THROUGH_DIRECT
-req.alt-loc: ntddscsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: ATA_PASS_THROUGH_DIRECT, *PATA_PASS_THROUGH_DIRECT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddscsi.h
+apiname: 
+-	ATA_PASS_THROUGH_DIRECT
+product: Windows
+targetos: Windows
+req.typenames: *PATA_PASS_THROUGH_DIRECT, ATA_PASS_THROUGH_DIRECT
 ---
 
 # _ATA_PASS_THROUGH_DIRECT structure
 
 
-
 ## -description
+
+
 The ATA_PASS_THROUGH_DIRECT structure is used in conjunction with an <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a> request to instruct the port driver to send an embedded ATA command to the target device. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ATA_PASS_THROUGH_DIRECT {
@@ -65,6 +75,9 @@ typedef struct _ATA_PASS_THROUGH_DIRECT {
 
 ## -struct-fields
 
+
+
+
 ### -field Length
 
 Specifies the length in bytes of the ATA_PASS_THROUGH_DIRECT structure.
@@ -73,7 +86,6 @@ Specifies the length in bytes of the ATA_PASS_THROUGH_DIRECT structure.
 ### -field AtaFlags
 
 Indicates the direction of data transfer and specifies the kind of operation to be performed. The value of this member must be some combination of the flags in the following table.
-
 <table>
 <tr>
 <th>ATA flags</th>
@@ -139,8 +151,7 @@ Read single sector only.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field PathId
@@ -191,7 +202,6 @@ Specifies the contents of the input task file register prior to the current pass
 ### -field CurrentTaskFile
 
 Specifies the content of the task file register on both input and output. On input, the array values in <b>CurrentTaskFile</b> map to the input registers in the following manner.
-
 <table>
 <tr>
 <th>Byte</th>
@@ -277,11 +287,9 @@ Reserved
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 When <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a> completes, the port driver updates <b>CurrentTaskFile</b> with the values that are present in the device's output registers at the completion of the embedded command. The array values in <b>CurrentTaskFile</b> correspond to the following task file output registers.
-
 <table>
 <tr>
 <th>Byte</th>
@@ -367,26 +375,24 @@ Reserved
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -remarks
+
+
 The ATA_PASS_THROUGH_DIRECT structure is used with <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a>. With this request, the system locks down the buffer in user memory and the device accesses this memory directly. For a double-buffered equivalent of this device control request, see <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through.md">IOCTL_ATA_PASS_THROUGH</a> and <a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md">ATA_PASS_THROUGH_EX</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a>
-</dt>
-<dt>
+
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through.md">IOCTL_ATA_PASS_THROUGH</a>
-</dt>
-<dt>
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a>
+
 <a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md">ATA_PASS_THROUGH_EX</a>
-</dt>
-</dl>
+
  
 
  

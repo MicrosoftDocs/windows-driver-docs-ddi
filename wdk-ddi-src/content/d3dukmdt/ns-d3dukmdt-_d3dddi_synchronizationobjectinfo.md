@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 786934f5-b0ec-4ee9-8bf0-f32b64295b96
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_SYNCHRONIZATIONOBJECTINFO, D3DDDI_SYNCHRONIZATIONOBJECTINFO
+ms.keywords: _D3DDDI_SYNCHRONIZATIONOBJECTINFO, D3DDDI_SYNCHRONIZATIONOBJECTINFO, display.d3dddi_synchronizationobjectinfo, D3D_other_Structs_86538364-14f8-4e40-bf0e-2e9f836729b8.xml, D3DDDI_SYNCHRONIZATIONOBJECTINFO structure [Display Devices], d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECTINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_SYNCHRONIZATIONOBJECTINFO
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_SYNCHRONIZATIONOBJECTINFO
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_SYNCHRONIZATIONOBJECTINFO
 ---
 
 # _D3DDDI_SYNCHRONIZATIONOBJECTINFO structure
 
 
-
 ## -description
+
+
 The D3DDDI_SYNCHRONIZATIONOBJECTINFO structure contains information about a synchronization object.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_SYNCHRONIZATIONOBJECTINFO {
@@ -66,9 +76,7 @@ typedef struct _D3DDDI_SYNCHRONIZATIONOBJECTINFO {
 
 ## -struct-fields
 
-### -field Type
 
-[in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_synchronizationobject_type.md">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>-typed value that indicates the type of synchronization object.
 
 
 ### -field SynchronizationMutex
@@ -76,54 +84,47 @@ typedef struct _D3DDDI_SYNCHRONIZATIONOBJECTINFO {
 A structure that contains information about a synchronization mutex. If the <b>Type</b> member is equal to D3DDDI_SYNCHRONIZATION_MUTEX, the union in D3DDDI_SYNCHRONIZATIONOBJECTINFO holds a SynchronizationMutex structure, which contains the following member:
 
 
-### -field InitialState
+### -field SynchronizationMutex.InitialState
 
 A Boolean value that indicates whether the synchronization mutex is initially owned by an object. A value of <b>TRUE</b> indicates that the mutex is owned; <b>FALSE</b> indicates that the mutex is not owned. 
 
-</dd>
-</dl>
 
 ### -field Semaphore
 
 A structure that contains information about a semaphore. If the <b>Type</b> member is equal to D3DDDI_SEMAPHORE, the union in D3DDDI_SYNCHRONIZATIONOBJECTINFO holds a Semaphore structure, which contains the following members:
 
 
-### -field MaxCount
+### -field Semaphore.MaxCount
 
 The maximum number of events that an object can be waiting for. 
 
 
-### -field InitialCount
+### -field Semaphore.InitialCount
 
 The initial number of events that an object is waiting for. 
 
-</dd>
-</dl>
 
 ### -field Reserved
 
 A structure that is reserved for future use. This structure contains the following member:
 
 
-### -field Reserved
+### -field Reserved.Reserved
 
 An array of 32-bit values that are reserved for future use.
 
-</dd>
-</dl>
 
-## -remarks
+### -field Type
+
+[in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_synchronizationobject_type.md">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>-typed value that indicates the type of synchronization object.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_synchronizationobject_type.md">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createsynchronizationobject.md">D3DDDICB_CREATESYNCHRONIZATIONOBJECT</a>
-</dt>
-</dl>
+
  
 
  

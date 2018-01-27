@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f28a1ad6-4946-4d1e-b430-2cdee3dfd835
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+ms.keywords: kernel.clfslogunpinnedcallback, ClfsLogUnpinnedCallback, ClfsLogUnpinnedCallback callback function [Kernel-Mode Driver Architecture], ClfsLogUnpinnedCallback, PCLFS_CLIENT_LOG_UNPINNED_CALLBACK, PCLFS_CLIENT_LOG_UNPINNED_CALLBACK, wdm/ClfsLogUnpinnedCallback, Clfs_management_e82832a3-b4b9-48c7-a706-9d489a55f728.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2003 R2, Windows Vista,
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ClfsLogUnpinnedCallback
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wdm.h
+apiname: 
+-	ClfsLogUnpinnedCallback
+product: Windows
+targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PCLFS_CLIENT_LOG_UNPINNED_CALLBACK callback
 
 
-
 ## -description
+
+
 The <i>ClfsLogUnpinnedCallback</i> function implements any actions that the client will take when a log that had previously been pinned becomes unpinned.
 
 
-
 ## -prototype
+
 
 ````
 VOID ClfsLogUnpinnedCallback(
@@ -55,6 +65,9 @@ VOID ClfsLogUnpinnedCallback(
 
 
 ## -parameters
+
+
+
 
 ### -param LogFile [in]
 
@@ -67,10 +80,15 @@ A pointer to client-supplied information. You specify this data in the <b>LogUnp
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 If a client called the <a href="..\wdm\nf-wdm-clfsmgmthandlelogfilefull.md">ClfsMgmtHandleLogFileFull</a> routine and CLFS management subsequently called the client's <a href="..\wdm\nc-wdm-pclfs_client_lff_handler_complete_callback.md">ClfsLogGrowthCompleteCallback</a> function with a value of <b>TRUE</b> for the <i>LogIsPinned</i> parameter, then the <i>ClfsLogUnpinnedCallback</i> function will be invoked when the log becomes unpinned. 
 
 When a client uses the <a href="..\wdm\nf-wdm-clfsmgmtregistermanagedclient.md">ClfsMgmtRegisterManagedClient</a> routine to register with CLFS management, the client provides both a pointer to the <i>ClfsLogUnpinnedCallback</i> function and the custom data that will be passed as a parameter to the <i>ClfsLogUnpinnedCallback</i> function when this function is called.
@@ -80,15 +98,13 @@ The <i>ClfsLogUnpinnedCallback</i> function should only perform a minimal amount
 The <i>ClfsLogGrowthCompleteCallback</i> function is called before the <i>ClfsLogUnpinnedCallback</i> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_clfs_mgmt_client_registration.md">CLFS_MGMT_CLIENT_REGISTRATION</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-clfsmgmthandlelogfilefull.md">ClfsMgmtHandleLogFileFull</a>
-</dt>
-</dl>
+
  
 
  

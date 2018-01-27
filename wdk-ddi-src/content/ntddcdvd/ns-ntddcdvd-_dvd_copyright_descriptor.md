@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e3478867-394b-466c-ad9a-259bedd66669
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DVD_COPYRIGHT_DESCRIPTOR, DVD_COPYRIGHT_DESCRIPTOR, *PDVD_COPYRIGHT_DESCRIPTOR
+ms.keywords: *PDVD_COPYRIGHT_DESCRIPTOR, PDVD_COPYRIGHT_DESCRIPTOR, structs-DVD_35ca576a-d7b4-49df-95cf-1d5339c6ae78.xml, DVD_COPYRIGHT_DESCRIPTOR structure [Storage Devices], _DVD_COPYRIGHT_DESCRIPTOR, ntddcdvd/PDVD_COPYRIGHT_DESCRIPTOR, PDVD_COPYRIGHT_DESCRIPTOR structure pointer [Storage Devices], DVD_COPYRIGHT_DESCRIPTOR, ntddcdvd/DVD_COPYRIGHT_DESCRIPTOR, storage.dvd_copyright_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DVD_COPYRIGHT_DESCRIPTOR
-req.alt-loc: ntddcdvd.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdvd.h
+apiname: 
+-	DVD_COPYRIGHT_DESCRIPTOR
+product: Windows
+targetos: Windows
 req.typenames: DVD_COPYRIGHT_DESCRIPTOR, *PDVD_COPYRIGHT_DESCRIPTOR
 ---
 
 # _DVD_COPYRIGHT_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The DVD_COPYRIGHT_DESCRIPTOR structure is used in conjunction with the <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a> request to retrieve a DVD copyright descriptor. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DVD_COPYRIGHT_DESCRIPTOR {
@@ -55,6 +65,9 @@ typedef struct _DVD_COPYRIGHT_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field CopyrightProtectionType
 
@@ -71,15 +84,10 @@ Indicates in which regions of the world the disc can be played. Each bit represe
 Reserved. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
-</dt>
-</dl>
+
  
 
  

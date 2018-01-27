@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b339d6aa-71e1-4835-8ef2-a84594166bb1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _IO_STACK_LOCATION, *PIO_STACK_LOCATION, IO_STACK_LOCATION
+ms.keywords: kernel.io_stack_location, IO_STACK_LOCATION, wdm/IO_STACK_LOCATION, PIO_STACK_LOCATION, PIO_STACK_LOCATION structure pointer [Kernel-Mode Driver Architecture], *PIO_STACK_LOCATION, kstruct_b_8fcba8ca-d004-4800-87d1-d5c7714a494b.xml, IO_STACK_LOCATION structure [Kernel-Mode Driver Architecture], _IO_STACK_LOCATION, wdm/PIO_STACK_LOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IO_STACK_LOCATION
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PIO_STACK_LOCATION, IO_STACK_LOCATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	IO_STACK_LOCATION
+product: Windows
+targetos: Windows
+req.typenames: IO_STACK_LOCATION, *PIO_STACK_LOCATION
 req.product: Windows 10 or later.
 ---
 
 # _IO_STACK_LOCATION structure
 
 
-
 ## -description
+
+
 The <b>IO_STACK_LOCATION</b> structure defines an <a href="https://msdn.microsoft.com/62c8ee00-c7cb-4aa1-90ab-b8bedbd818ee">I/O stack location</a>, which is an entry in the I/O stack that is associated with each IRP. Each I/O stack location in an IRP has some common members and some request-type-specific members.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _IO_STACK_LOCATION {
@@ -261,101 +271,12 @@ typedef struct _IO_STACK_LOCATION {
 
 ## -struct-fields
 
-### -field MajorFunction
 
-The <a href="https://msdn.microsoft.com/11c5b1a9-74c0-47fb-8cce-a008ece9efae">IRP major function code</a> indicating the type of I/O operation to be performed.
-
-
-### -field MinorFunction
-
-A subfunction code for <b>MajorFunction</b>. The PnP manager, the power manager, file system drivers, and SCSI class drivers set this member for some requests.
-
-
-### -field Flags
-
-Request-type-specific values used almost exclusively by file system drivers. Removable-media device drivers check whether this member is set with SL_OVERRIDE_VERIFY_VOLUME for read requests to determine whether to continue the read operation even if the device object's <b>Flags</b> is set with DO_VERIFY_VOLUME. Intermediate drivers layered over a removable-media device driver must copy this member into the I/O stack location of the next-lower driver in all incoming <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a> requests.
-
-Possible flag values include:
-
-<table>
-<tr>
-<th>Flag</th>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>SL_KEY_SPECIFIED</td>
-<td><code>0x01</code></td>
-<td>Indicates that the <code>IO_STACK_LOCATION.Parameters.Read(OrWrite).Key</code>
-contains which copy of a given sector should be read when redundancy is enabled.  Today this flag is
-use only with IRP_MJ_READ operations.</td>
-</tr>
-<tr>
-<td>SL_OVERRIDE_VERIFY_VOLUME</td>
-<td><code>0x02</code></td>
-<td>This flag is used to determine whether to continue the read operation even if the device object's <b>Flags</b> is set with DO_VERIFY_VOLUME. </td>
-</tr>
-<tr>
-<td>SL_WRITE_THROUGH</td>
-<td><code>0x04</code></td>
-<td>This flag informs the storage driver to set appropriate flags so that the disk bypasses the write cache in order to force the disk to write through to its persistent storage media.
-<b>This flag is device-specific; not all disk drives support bypassing disk-cache.</b></td>
-</tr>
-<tr>
-<td>SL_FT_SEQUENTIAL_WRITE</td>
-<td><code>0x08</code></td>
-<td>Reserved for system use.</td>
-</tr>
-<tr>
-<td>SL_FORCE_DIRECT_WRITE</td>
-<td><code>0x10</code></td>
-<td>
-This flag lets kernel-mode drivers write to volume areas that they normally cannot write to because of blocking direct write in the file system and storage driver stack. <b>This flag was introduced in Windows Vista.
-</b>
-
-
-<div class="alert"><b>Note</b>  Direct write blocking, introduced in Windows Vista helps improve security. This flag is checked both at the file system layer and storage stack layer. For more information about direct write blocking, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551353">Blocking Direct Write Operations to Volumes and Disks</a>.</div>
-<div> </div>
-
-
-</td>
-</tr>
-<tr>
-<td>SL_REALTIME_STREAM</td>
-<td><code>0x20</code></td>
-<td>This flag hints that the IO is for real-time streaming requests to a CD-ROM class driver.
-This hints the driver to perform READ/WRITE operations at a guaranteed speed for real-time streaming. <b>This flag is valid only with optical media.</b></td>
-</tr>
-<tr>
-<td>SL_PERSISTENT_MEMORY_FIXED_MAPPING</td>
-<td><code>0x20</code></td>
-<td>The persistent memory mapping of the bytes in the write request
- cannot change while handling this write request. <b>This flag is valid only with a persistent memory device and IRP_MJ_WRITE.</b></td>
-</tr>
-</table>
- 
-
-
-<div class="alert"><b>Note</b>  (For persistent memory devices) One of the reasons for remapping (modifying the physical address of a given LBA) on persistent memory
-devices is to provide efficient sector level atomicity.
-If the flag is not set, remapping is allowed especially if it results in the driver providing sector atomicity.  File systems (or the requester) prefer that a persistent memory device driver provides
-sector atomicity.
-If the flag is set, a persistent memory driver shall not remap the physical addresses corresponding
-to the LBAs.  If that means sector atomicity can't be provided, so be it.  However, the driver is more
-than welcome to provide sector atomicity as long as there is no remapping.</div>
-<div> </div>
-
-
-
-### -field Control
-
-Drivers can check this member to determine whether it is set with SL_PENDING_RETURNED. Drivers have read-only access to this member.
 
 
 ### -field Parameters
 
 A union that depends on the major and minor IRP function code values contained in <b>MajorFunction</b> and <b>MinorFunction</b>. The following table shows which IRPs use the individual members of the <b>Parameters</b> union.
-
 <table>
 <tr>
 <th>Member name</th>
@@ -504,150 +425,800 @@ A union that depends on the major and minor IRP function code values contained i
 <td><b>Others</b></td>
 <td>Driver-specific IRPs</td>
 </tr>
-</table>
- 
+</table> 
 
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550710">IRP Major Function Codes</a>.
 
 
-### -field Create
+### -field Parameters.Create
 
 
-### -field CreatePipe
 
+### -field Parameters.Create.SecurityContext
 
-### -field CreateMailslot
+ 
 
 
-### -field Read
+### -field Parameters.Create.Options
 
+ 
 
-### -field Write
 
+### -field Parameters.Create.FileAttributes
 
-### -field QueryDirectory
+ 
 
 
-### -field NotifyDirectory
+### -field Parameters.Create.ShareAccess
 
+ 
 
-### -field QueryFile
 
+### -field Parameters.Create.EaLength
 
-### -field SetFile
+ 
 
 
-### -field ReplaceIfExists
+### -field Parameters.CreatePipe
 
 
-### -field AdvanceOnly
 
+### -field Parameters.CreatePipe.SecurityContext
 
-### -field ClusterCount
+ 
 
 
-### -field DeleteHandle
+### -field Parameters.CreatePipe.Options
 
-</dl>
+ 
 
-### -field QueryEa
 
+### -field Parameters.CreatePipe.Reserved
 
-### -field SetEa
+ 
 
 
-### -field QueryVolume
+### -field Parameters.CreatePipe.ShareAccess
 
+ 
 
-### -field SetVolume
 
+### -field Parameters.CreatePipe.Parameters
 
-### -field FileSystemControl
+ 
 
 
-### -field LockControl
+### -field Parameters.CreateMailslot
 
 
-### -field DeviceIoControl
 
+### -field Parameters.CreateMailslot.SecurityContext
 
-### -field QuerySecurity
+ 
 
 
-### -field SetSecurity
+### -field Parameters.CreateMailslot.Options
 
+ 
 
-### -field MountVolume
 
+### -field Parameters.CreateMailslot.Reserved
 
-### -field VerifyVolume
+ 
 
 
-### -field Scsi
+### -field Parameters.CreateMailslot.ShareAccess
 
+ 
 
-### -field QueryQuota
 
+### -field Parameters.CreateMailslot.Parameters
 
-### -field SetQuota
+ 
 
 
-### -field QueryDeviceRelations
+### -field Parameters.Read
 
 
-### -field QueryInterface
 
+### -field Parameters.Read.Length
 
-### -field DeviceCapabilities
+ 
 
 
-### -field FilterResourceRequirements
+### -field Parameters.Read.Key
 
+ 
 
-### -field ReadWriteConfig
 
+### -field Parameters.Read.ByteOffset
 
-### -field SetLock
+ 
 
 
-### -field QueryId
+### -field Parameters.Write
 
 
-### -field QueryDeviceText
 
+### -field Parameters.Write.Length
 
-### -field UsageNotification
+ 
 
 
-### -field WaitWake
+### -field Parameters.Write.Key
 
+ 
 
-### -field PowerSequence
 
+### -field Parameters.Write.ByteOffset
 
-### -field Power
+ 
 
 
-### -field SystemContext
+### -field Parameters.QueryDirectory
 
 
-### -field SystemPowerStateContext
 
-</dl>
+### -field Parameters.QueryDirectory.Length
 
-### -field Power
+ 
 
 
-### -field StartDevice
+### -field Parameters.QueryDirectory.FileName
 
+ 
 
-### -field WMI
 
+### -field Parameters.QueryDirectory.FileInformationClass
 
-### -field Others
+ 
 
-</dd>
-</dl>
+
+### -field Parameters.QueryDirectory.FileIndex
+
+ 
+
+
+### -field Parameters.NotifyDirectory
+
+
+
+### -field Parameters.NotifyDirectory.Length
+
+ 
+
+
+### -field Parameters.NotifyDirectory.CompletionFilter
+
+ 
+
+
+### -field Parameters.NotifyDirectoryEx
+
+ 
+
+
+### -field Parameters.NotifyDirectoryEx.Length
+
+ 
+
+
+### -field Parameters.NotifyDirectoryEx.CompletionFilter
+
+ 
+
+
+### -field Parameters.NotifyDirectoryEx.DirectoryNotifyInformationClass
+
+ 
+
+
+### -field Parameters.QueryFile
+
+
+
+### -field Parameters.QueryFile.Length
+
+ 
+
+
+### -field Parameters.QueryFile.FileInformationClass
+
+ 
+
+
+### -field Parameters.SetFile
+
+
+
+### -field Parameters.SetFile.ReplaceIfExists
+
+
+
+### -field Parameters.SetFile.AdvanceOnly
+
+
+
+### -field Parameters.SetFile.ClusterCount
+
+
+
+### -field Parameters.SetFile.DeleteHandle
+
+
+
+### -field Parameters.SetFile.Length
+
+ 
+
+
+### -field Parameters.SetFile.FileInformationClass
+
+ 
+
+
+### -field Parameters.SetFile.FileObject
+
+ 
+
+
+### -field Parameters.QueryEa
+
+
+
+### -field Parameters.QueryEa.Length
+
+ 
+
+
+### -field Parameters.QueryEa.EaList
+
+ 
+
+
+### -field Parameters.QueryEa.EaListLength
+
+ 
+
+
+### -field Parameters.QueryEa.EaIndex
+
+ 
+
+
+### -field Parameters.SetEa
+
+
+
+### -field Parameters.SetEa.Length
+
+ 
+
+
+### -field Parameters.QueryVolume
+
+
+
+### -field Parameters.QueryVolume.Length
+
+ 
+
+
+### -field Parameters.QueryVolume.FsInformationClass
+
+ 
+
+
+### -field Parameters.SetVolume
+
+
+
+### -field Parameters.SetVolume.Length
+
+ 
+
+
+### -field Parameters.SetVolume.FsInformationClass
+
+ 
+
+
+### -field Parameters.FileSystemControl
+
+
+
+### -field Parameters.FileSystemControl.OutputBufferLength
+
+ 
+
+
+### -field Parameters.FileSystemControl.InputBufferLength
+
+ 
+
+
+### -field Parameters.FileSystemControl.FsControlCode
+
+ 
+
+
+### -field Parameters.FileSystemControl.Type3InputBuffer
+
+ 
+
+
+### -field Parameters.LockControl
+
+
+
+### -field Parameters.LockControl.Length
+
+ 
+
+
+### -field Parameters.LockControl.Key
+
+ 
+
+
+### -field Parameters.LockControl.ByteOffset
+
+ 
+
+
+### -field Parameters.DeviceIoControl
+
+
+
+### -field Parameters.DeviceIoControl.OutputBufferLength
+
+ 
+
+
+### -field Parameters.DeviceIoControl.InputBufferLength
+
+ 
+
+
+### -field Parameters.DeviceIoControl.IoControlCode
+
+ 
+
+
+### -field Parameters.DeviceIoControl.Type3InputBuffer
+
+ 
+
+
+### -field Parameters.QuerySecurity
+
+
+
+### -field Parameters.QuerySecurity.SecurityInformation
+
+ 
+
+
+### -field Parameters.QuerySecurity.Length
+
+ 
+
+
+### -field Parameters.SetSecurity
+
+
+
+### -field Parameters.SetSecurity.SecurityInformation
+
+ 
+
+
+### -field Parameters.SetSecurity.SecurityDescriptor
+
+ 
+
+
+### -field Parameters.MountVolume
+
+
+
+### -field Parameters.MountVolume.Vpb
+
+ 
+
+
+### -field Parameters.MountVolume.DeviceObject
+
+ 
+
+
+### -field Parameters.VerifyVolume
+
+
+
+### -field Parameters.VerifyVolume.Vpb
+
+ 
+
+
+### -field Parameters.VerifyVolume.DeviceObject
+
+ 
+
+
+### -field Parameters.Scsi
+
+
+
+### -field Parameters.Scsi._SCSI_REQUEST_BLOCK
+
+ 
+
+
+### -field Parameters.Scsi.Srb
+
+ 
+
+
+### -field Parameters.QueryQuota
+
+
+
+### -field Parameters.QueryQuota.Length
+
+ 
+
+
+### -field Parameters.QueryQuota.StartSid
+
+ 
+
+
+### -field Parameters.QueryQuota.SidList
+
+ 
+
+
+### -field Parameters.QueryQuota.SidListLength
+
+ 
+
+
+### -field Parameters.SetQuota
+
+
+
+### -field Parameters.SetQuota.Length
+
+ 
+
+
+### -field Parameters.QueryDeviceRelations
+
+
+
+### -field Parameters.QueryDeviceRelations.Type
+
+ 
+
+
+### -field Parameters.QueryInterface
+
+
+
+### -field Parameters.QueryInterface.InterfaceType
+
+ 
+
+
+### -field Parameters.QueryInterface.Size
+
+ 
+
+
+### -field Parameters.QueryInterface.Version
+
+ 
+
+
+### -field Parameters.QueryInterface.Interface
+
+ 
+
+
+### -field Parameters.QueryInterface.InterfaceSpecificData
+
+ 
+
+
+### -field Parameters.DeviceCapabilities
+
+
+
+### -field Parameters.DeviceCapabilities.Capabilities
+
+ 
+
+
+### -field Parameters.FilterResourceRequirements
+
+
+
+### -field Parameters.FilterResourceRequirements.IoResourceRequirementList
+
+ 
+
+
+### -field Parameters.ReadWriteConfig
+
+
+
+### -field Parameters.ReadWriteConfig.WhichSpace
+
+ 
+
+
+### -field Parameters.ReadWriteConfig.Buffer
+
+ 
+
+
+### -field Parameters.ReadWriteConfig.Offset
+
+ 
+
+
+### -field Parameters.ReadWriteConfig.Length
+
+ 
+
+
+### -field Parameters.SetLock
+
+
+
+### -field Parameters.SetLock.Lock
+
+ 
+
+
+### -field Parameters.QueryId
+
+
+
+### -field Parameters.QueryId.IdType
+
+ 
+
+
+### -field Parameters.QueryDeviceText
+
+
+
+### -field Parameters.QueryDeviceText.DeviceTextType
+
+ 
+
+
+### -field Parameters.QueryDeviceText.LocaleId
+
+ 
+
+
+### -field Parameters.UsageNotification
+
+
+
+### -field Parameters.UsageNotification.InPath
+
+ 
+
+
+### -field Parameters.UsageNotification.Reserved
+
+ 
+
+
+### -field Parameters.UsageNotification.Type
+
+ 
+
+
+### -field Parameters.WaitWake
+
+
+
+### -field Parameters.WaitWake.PowerState
+
+ 
+
+
+### -field Parameters.PowerSequence
+
+
+
+### -field Parameters.PowerSequence.PowerSequence
+
+ 
+
+
+### -field Parameters.Power.SystemPowerStateContext
+
+
+
+### -field Parameters.Power
+
+
+
+### -field Parameters.Power.SystemContext
+
+
+
+### -field Parameters.Power.Type
+
+ 
+
+
+### -field Parameters.Power.State
+
+ 
+
+
+### -field Parameters.Power.ShutdownType
+
+ 
+
+
+### -field Parameters.StartDevice
+
+
+
+### -field Parameters.StartDevice.AllocatedResources
+
+ 
+
+
+### -field Parameters.StartDevice.AllocatedResourcesTranslated
+
+ 
+
+
+### -field Parameters.WMI
+
+
+
+### -field Parameters.WMI.ProviderId
+
+ 
+
+
+### -field Parameters.WMI.DataPath
+
+ 
+
+
+### -field Parameters.WMI.BufferSize
+
+ 
+
+
+### -field Parameters.WMI.Buffer
+
+ 
+
+
+### -field Parameters.Others
+
+
+
+### -field Parameters.Others.Argument1
+
+ 
+
+
+### -field Parameters.Others.Argument2
+
+ 
+
+
+### -field Parameters.Others.Argument3
+
+ 
+
+
+### -field Parameters.Others.Argument4
+
+ 
+
+
+### -field MajorFunction
+
+The <a href="https://msdn.microsoft.com/11c5b1a9-74c0-47fb-8cce-a008ece9efae">IRP major function code</a> indicating the type of I/O operation to be performed.
+
+
+### -field MinorFunction
+
+A subfunction code for <b>MajorFunction</b>. The PnP manager, the power manager, file system drivers, and SCSI class drivers set this member for some requests.
+
+
+### -field Flags
+
+Request-type-specific values used almost exclusively by file system drivers. Removable-media device drivers check whether this member is set with SL_OVERRIDE_VERIFY_VOLUME for read requests to determine whether to continue the read operation even if the device object's <b>Flags</b> is set with DO_VERIFY_VOLUME. Intermediate drivers layered over a removable-media device driver must copy this member into the I/O stack location of the next-lower driver in all incoming <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a> requests.
+
+Possible flag values include:
+<table>
+<tr>
+<th>Flag</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>SL_KEY_SPECIFIED</td>
+<td><code>0x01</code></td>
+<td>Indicates that the <code>IO_STACK_LOCATION.Parameters.Read(OrWrite).Key</code>
+contains which copy of a given sector should be read when redundancy is enabled.  Today this flag is
+use only with IRP_MJ_READ operations.</td>
+</tr>
+<tr>
+<td>SL_OVERRIDE_VERIFY_VOLUME</td>
+<td><code>0x02</code></td>
+<td>This flag is used to determine whether to continue the read operation even if the device object's <b>Flags</b> is set with DO_VERIFY_VOLUME. </td>
+</tr>
+<tr>
+<td>SL_WRITE_THROUGH</td>
+<td><code>0x04</code></td>
+<td>This flag informs the storage driver to set appropriate flags so that the disk bypasses the write cache in order to force the disk to write through to its persistent storage media.
+<b>This flag is device-specific; not all disk drives support bypassing disk-cache.</b></td>
+</tr>
+<tr>
+<td>SL_FT_SEQUENTIAL_WRITE</td>
+<td><code>0x08</code></td>
+<td>Reserved for system use.</td>
+</tr>
+<tr>
+<td>SL_FORCE_DIRECT_WRITE</td>
+<td><code>0x10</code></td>
+<td>
+This flag lets kernel-mode drivers write to volume areas that they normally cannot write to because of blocking direct write in the file system and storage driver stack. <b>This flag was introduced in Windows Vista.
+</b>
+
+
+<div class="alert"><b>Note</b>  Direct write blocking, introduced in Windows Vista helps improve security. This flag is checked both at the file system layer and storage stack layer. For more information about direct write blocking, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551353">Blocking Direct Write Operations to Volumes and Disks</a>.</div>
+<div> </div>
+
+
+</td>
+</tr>
+<tr>
+<td>SL_REALTIME_STREAM</td>
+<td><code>0x20</code></td>
+<td>This flag hints that the IO is for real-time streaming requests to a CD-ROM class driver.
+This hints the driver to perform READ/WRITE operations at a guaranteed speed for real-time streaming. <b>This flag is valid only with optical media.</b></td>
+</tr>
+<tr>
+<td>SL_PERSISTENT_MEMORY_FIXED_MAPPING</td>
+<td><code>0x20</code></td>
+<td>The persistent memory mapping of the bytes in the write request
+ cannot change while handling this write request. <b>This flag is valid only with a persistent memory device and IRP_MJ_WRITE.</b></td>
+</tr>
+</table> 
+
+
+<div class="alert"><b>Note</b>  (For persistent memory devices) One of the reasons for remapping (modifying the physical address of a given LBA) on persistent memory
+devices is to provide efficient sector level atomicity.
+If the flag is not set, remapping is allowed especially if it results in the driver providing sector atomicity.  File systems (or the requester) prefer that a persistent memory device driver provides
+sector atomicity.
+If the flag is set, a persistent memory driver shall not remap the physical addresses corresponding
+to the LBAs.  If that means sector atomicity can't be provided, so be it.  However, the driver is more
+than welcome to provide sector atomicity as long as there is no remapping.</div>
+<div> </div>
+
+
+
+### -field Control
+
+Drivers can check this member to determine whether it is set with SL_PENDING_RETURNED. Drivers have read-only access to this member.
+
 
 ### -field DeviceObject
 
@@ -662,11 +1233,15 @@ A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure
 ### -field CompletionRoutine
 
 
+
 ### -field Context
 
 
+
 ## -remarks
-For each IRP, there is one <b>IO_STACK_LOCATION</b> structure for each driver in a <a href="wdkgloss.d#wdkgloss.driver_stack#wdkgloss.driver_stack"><i>driver stack</i></a>. Each IRP's set of I/O stack locations is appended to the IRP, following the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure.
+
+
+For each IRP, there is one <b>IO_STACK_LOCATION</b> structure for each driver in a <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">driver stack</a>. Each IRP's set of I/O stack locations is appended to the IRP, following the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure.
 
 Every higher-level driver is responsible for setting up the I/O stack location for the next-lower driver in each IRP. A driver must call <a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a> to get a pointer to its own stack location for each IRP. Higher-level drivers can call <a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a> to get a pointer to the next-lower driver's stack location.
 
@@ -679,36 +1254,27 @@ If a higher-level driver allocates IRPs to make requests of its own, its <i>IoCo
 In some cases, a higher-level driver layered over a mass-storage device driver is responsible for splitting up large transfer requests for the underlying device driver. In particular, SCSI class drivers must check the <b>Parameters.Read.Length</b> and <b>Parameters.Write.Length</b>, determine whether the size of the requested transfer exceeds the underlying HBA's transfer capabilities, and, if so, split the <b>Length</b> of the original request into a sequence of partial transfers to satisfy the original IRP.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
+
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a>
+
+<a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a>
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+<a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
+
  
 
  

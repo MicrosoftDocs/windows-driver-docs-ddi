@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 2d3ae219-8a40-476c-b8eb-94f4c0566527
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _SCO_INDICATION_PARAMETERS, SCO_INDICATION_PARAMETERS, *PSCO_INDICATION_PARAMETERS
+ms.keywords: bth_structs_73ebf679-d092-4b0a-a54f-84539b8c85ae.xml, bltooth.sco_indication_parameters, _SCO_INDICATION_PARAMETERS, bthddi/SCO_INDICATION_PARAMETERS, PSCO_INDICATION_PARAMETERS, SCO_INDICATION_PARAMETERS structure [Bluetooth Devices], bthddi/PSCO_INDICATION_PARAMETERS, *PSCO_INDICATION_PARAMETERS, PSCO_INDICATION_PARAMETERS structure pointer [Bluetooth Devices], SCO_INDICATION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SCO_INDICATION_PARAMETERS
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthddi.h
+apiname: 
+-	SCO_INDICATION_PARAMETERS
+product: Windows
+targetos: Windows
 req.typenames: SCO_INDICATION_PARAMETERS, *PSCO_INDICATION_PARAMETERS
 ---
 
 # _SCO_INDICATION_PARAMETERS structure
 
 
-
 ## -description
+
+
 The SCO_INDICATION_PARAMETERS structure describes indication parameters about a SCO connect or
   disconnect notification.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SCO_INDICATION_PARAMETERS {
@@ -67,6 +77,51 @@ typedef struct _SCO_INDICATION_PARAMETERS {
 
 ## -struct-fields
 
+
+
+
+### -field Parameters
+
+
+
+### -field Parameters.Connect
+
+The structure that contains parameters for the 
+      <b>ScoIndicationRemoteConnectSCO_INDICATION_CODE</b> event.
+
+
+### -field Parameters.Connect.Request
+
+The structure that contains the parameters for the SCO connection request.
+
+
+### -field Parameters.Connect.Request.LinkType
+
+A value from the 
+        <a href="..\bthddi\ne-bthddi-_sco_link_type.md">SCO_LINK_TYPE</a> enumeration that indicates the
+        type of incoming connection.
+
+
+### -field Parameters.Disconnect
+
+The structure that contains parameters for the 
+      <b>ScoIndicationRemoteDisconnectSCO_INDICATION_CODE</b> event.
+
+
+### -field Parameters.Disconnect.Reason
+
+A 
+       <a href="..\bthddi\ne-bthddi-_sco_disconnect_reason.md">SCO_DISCONNECT_REASON</a> value that
+       indicates why the SCO connection was terminated.
+
+
+### -field Parameters.Disconnect.CloseNow
+
+A Boolean value that a profile driver can set to indicate whether the SCO connection to the
+       remote device will be closed. If the connection is to be closed, the value is <b>TRUE</b>. Otherwise, the
+       value is <b>FALSE</b>.
+
+
 ### -field ConnectionHandle
 
 A connection handle to the remote device. This handle is only valid for notifications that arrive
@@ -78,60 +133,13 @@ A connection handle to the remote device. This handle is only valid for notifica
 The Bluetooth address of the remote device.
 
 
-### -field Parameters
-
-<dl>
+##### - Parameters.
 
 
-</dl>
-
-### -field Connect
-
-The structure that contains parameters for the 
-      <b>ScoIndicationRemoteConnectSCO_INDICATION_CODE</b> event.
-
-
-### -field Request
-
-The structure that contains the parameters for the SCO connection request.
-
-
-### -field LinkType
-
-A value from the 
-        <a href="..\bthddi\ne-bthddi-_sco_link_type.md">SCO_LINK_TYPE</a> enumeration that indicates the
-        type of incoming connection.
-
-</dd>
-</dl>
-</dd>
-</dl>
-
-### -field Disconnect
-
-The structure that contains parameters for the 
-      <b>ScoIndicationRemoteDisconnectSCO_INDICATION_CODE</b> event.
-
-
-### -field Reason
-
-A 
-       <a href="..\bthddi\ne-bthddi-_sco_disconnect_reason.md">SCO_DISCONNECT_REASON</a> value that
-       indicates why the SCO connection was terminated.
-
-
-### -field CloseNow
-
-A Boolean value that a profile driver can set to indicate whether the SCO connection to the
-       remote device will be closed. If the connection is to be closed, the value is <b>TRUE</b>. Otherwise, the
-       value is <b>FALSE</b>.
-
-</dd>
-</dl>
-</dd>
-</dl>
 
 ## -remarks
+
+
 A profile driver's 
     <a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a> should process
     a notification differently depending upon the value that the Bluetooth driver stack passes in the 
@@ -142,16 +150,19 @@ When the Bluetooth driver stack passes
     <b>Connect</b> member of the 
     <b>Parameters</b> union.
 
+When the Bluetooth driver stack passes 
+    <b>ScoIndicationRemoteDisconnect</b>, the callback function should use the 
+    <b>Disconnect</b> member of the 
+    <b>Parameters</b> union.
+
+
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthddi\ne-bthddi-_sco_disconnect_reason.md">SCO_DISCONNECT_REASON</a>
-</dt>
-<dt>
+
 <a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4deaa42e-8c8b-461a-845e-424b543b52b1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUnicodeStringToAnsiSize
+ms.keywords: RtlUnicodeStringToAnsiSize routine [Kernel-Mode Driver Architecture], wdm/RtlUnicodeStringToAnsiSize, k109_3a436ab4-80f1-4fb2-b4b6-98b4dc1ba1f1.xml, RtlUnicodeStringToAnsiSize, kernel.rtlunicodestringtoansisize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlUnicodeStringToAnsiSize
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlUnicodeStringToAnsiSize
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RtlUnicodeStringToAnsiSize macro
 
 
-
 ## -description
+
+
 The <b>RtlUnicodeStringToAnsiSize</b> routine returns the number of bytes required for a null-terminated ANSI string that is equivalent to a specified Unicode string.
 
 
-
 ## -syntax
+
 
 ````
 ULONG RtlUnicodeStringToAnsiSize(
@@ -55,23 +65,34 @@ ULONG RtlUnicodeStringToAnsiSize(
 
 ## -parameters
 
-### -param UnicodeString [in]
+
+
+
+### -param STRING
+
+TBD
+
+
+
+
+#### - UnicodeString [in]
 
 Pointer to the Unicode string for which to compute the number of bytes required for an equivalent null-terminated ANSI string.
 
 
 ## -remarks
+
+
 The Unicode string is interpreted for the current system locale.
 
 <b>RtlUnicodeStringToAnsiSize</b> performs the same operation as <a href="..\wdm\nf-wdm-rtlxunicodestringtoansisize.md">RtlxUnicodeStringToAnsiSize</a>, but executes faster if the system does not use multibyte code pages.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlxunicodestringtoansisize.md">RtlxUnicodeStringToAnsiSize</a>
-</dt>
-</dl>
+
  
 
  

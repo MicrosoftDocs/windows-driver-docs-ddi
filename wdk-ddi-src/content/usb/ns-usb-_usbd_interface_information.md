@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: dde09937-14fb-423b-8905-8a398a9c5902
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBD_INTERFACE_INFORMATION, USBD_INTERFACE_INFORMATION, *PUSBD_INTERFACE_INFORMATION
+ms.keywords: PUSBD_INTERFACE_INFORMATION structure pointer [Buses], USBD_INTERFACE_INFORMATION structure [Buses], USBD_INTERFACE_INFORMATION, PUSBD_INTERFACE_INFORMATION, usb/USBD_INTERFACE_INFORMATION, _USBD_INTERFACE_INFORMATION, usbstrct_1d2a2627-f530-4ccb-8473-0f028ab44acc.xml, buses.usbd_interface_information, *PUSBD_INTERFACE_INFORMATION, usb/PUSBD_INTERFACE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBD_INTERFACE_INFORMATION
-req.alt-loc: usb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usb.h
+apiname: 
+-	USBD_INTERFACE_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: USBD_INTERFACE_INFORMATION, *PUSBD_INTERFACE_INFORMATION
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USBD_INTERFACE_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>USBD_INTERFACE_INFORMATION</b> structure holds information about an interface for a configuration on a USB device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBD_INTERFACE_INFORMATION {
@@ -63,6 +73,9 @@ typedef struct _USBD_INTERFACE_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Length
 
@@ -115,20 +128,20 @@ Pointer to the first element in the array of <a href="..\usb\ns-usb-_usbd_pipe_i
 
 
 ## -remarks
+
+
 Members that are part of this structure, but not described here, should be treated as opaque and considered to be reserved for system use.
 
 The reserved members of this structure must be treated as opaque and are reserved for system use.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
+<a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a>
+
  
 
  

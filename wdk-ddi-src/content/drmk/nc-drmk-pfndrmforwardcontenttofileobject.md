@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 00ACCBFF-FEDE-4223-8503-4D75426E2BD6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WDI_TX_METADATA, WDI_TX_METADATA, *PWDI_TX_METADATA
+ms.keywords: audio.pfndrmforwardcontenttofileobject, DRMForwardContentToFileObject callback function [Audio Devices], DRMForwardContentToFileObject, PFNDRMFORWARDCONTENTTOFILEOBJECT, PFNDRMFORWARDCONTENTTOFILEOBJECT, drmk/DRMForwardContentToFileObject, DRMForwardContentToFileObject callback function [Audio Devices], DRMForwardContentToFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DRMForwardContentToFileObject
-req.alt-loc: Drmk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Drmk.h
+apiname: 
+-	DRMForwardContentToFileObject
+product: Windows
+targetos: Windows
 req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 ---
 
 # PFNDRMFORWARDCONTENTTOFILEOBJECT callback
 
 
-
 ## -description
+
+
 This callback function is reserved for system use.
 
 
-
 ## -prototype
+
 
 ````
 PFNDRMFORWARDCONTENTTOFILEOBJECT DRMForwardContentToFileObject;
@@ -60,6 +70,9 @@ typedef PFNDRMFORWARDCONTENTTOFILEOBJECT DRMForwardContentToFileObject;
 
 ## -parameters
 
+
+
+
 ### -param ContentId [in]
 
 This parameter is reserved for system use.
@@ -71,7 +84,8 @@ This parameter is reserved for system use.
 
 
 ## -returns
+
+
 This return value is reserved for system use.
 
 
-## -remarks

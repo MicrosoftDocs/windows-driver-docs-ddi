@@ -7,8 +7,8 @@ old-location: netvista\protocolcooidrequestcomplete.htm
 old-project: netvista
 ms.assetid: 16883c64-3cc6-4f50-8be7-7c58c422a717
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RxNameCacheInitialize
+ms.date: 1/18/2018
+ms.keywords: netvista.protocolcooidrequestcomplete, ProtocolCoOidRequestComplete callback function [Network Drivers Starting with Windows Vista], ProtocolCoOidRequestComplete, PROTOCOL_CO_OID_REQUEST_COMPLETE, PROTOCOL_CO_OID_REQUEST_COMPLETE, ndis/ProtocolCoOidRequestComplete, condis_request_ref_14f11d94-41dd-44b1-9117-20c8d22278aa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ProtocolCoOidRequestComplete
-req.alt-loc: Ndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Ndis.h
+apiname: 
+-	ProtocolCoOidRequestComplete
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
 
 # PROTOCOL_CO_OID_REQUEST_COMPLETE callback
 
 
-
 ## -description
+
+
 The 
   <i>ProtocolCoOidRequestComplete</i> function completes the processing of an asynchronous
   CoNDIS OID request.
-
-
+<div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CO_OID_REQUEST_COMPLETE</b> type.
+   For more information, see the following Examples section.</div><div> </div>
 
 ## -prototype
+
 
 ````
 PROTOCOL_CO_OID_REQUEST_COMPLETE ProtocolCoOidRequestComplete;
@@ -63,12 +74,15 @@ VOID ProtocolCoOidRequestComplete(
 
 ## -parameters
 
+
+
+
 ### -param ProtocolAfContext [in]
 
 A handle that identifies an address family (AF) context area. If the driver is a client, it
      supplied this handle when it called the 
-     <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">
-     NdisClOpenAddressFamilyEx</a> function to connect itself to the call manager. If the driver is a call
+     <mshelp:link keywords="netvista.ndisclopenaddressfamilyex" tabindex="0"><b>
+     NdisClOpenAddressFamilyEx</b></mshelp:link> function to connect itself to the call manager. If the driver is a call
      manager or miniport call manager (MCM), it supplied this handle from its 
      <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function.
 
@@ -103,10 +117,15 @@ The final status of the request. The target driver or NDIS determines this final
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 NDIS calls the 
     <i>ProtocolCoOidRequestComplete</i> function to complete the processing of CoNDIS
     client, call manager, or MCM OID request for which the 
@@ -116,14 +135,14 @@ NDIS calls the
 
 To register 
     <i>ProtocolCoOidRequestComplete</i> as a client, a driver initializes an 
-    <a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
-    NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a> structure and passes it at the 
+    <mshelp:link keywords="netvista.ndis_co_client_optional_handlers" tabindex="0"><b>
+    NDIS_CO_CLIENT_OPTIONAL_HANDLERS</b></mshelp:link> structure and passes it at the 
     <i>OptionalHandlers</i> parameter of the 
     <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a> function.
     To register 
     <i>ProtocolCoOidRequestComplete</i> as a call manager, a driver initializes an 
-    <a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
-    NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a> structure and passes it at the 
+    <mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
+    NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link> structure and passes it at the 
     <i>OptionalHandlers</i> parameter of 
     <b>NdisSetOptionalHandlers</b>.
 
@@ -131,8 +150,8 @@ The target driver is the driver that serviced the OID information request. A tar
     the 
     <a href="..\ndis\nf-ndis-ndismcooidrequestcomplete.md">NdisMCoOidRequestComplete</a>, 
     <a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">NdisCoOidRequestComplete</a>, or 
-    <a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">
-    NdisMCmOidRequestComplete</a> function caused NDIS to call the 
+    <mshelp:link keywords="netvista.ndismcmoidrequestcomplete" tabindex="0"><b>
+    NdisMCmOidRequestComplete</b></mshelp:link> function caused NDIS to call the 
     <i>ProtocolCoOidRequestComplete</i> function. NDIS forwards the value of the 
     <i>Status</i> parameter that was passed to these functions as the input 
     <i>Status</i> parameter to 
@@ -140,7 +159,8 @@ The target driver is the driver that serviced the OID information request. A tar
 
 <i>ProtocolCoOidRequestComplete</i> uses the input value of 
     <i>Status</i> as follows:
-
+<ul>
+<li>
 If 
       <i>Status</i> is NDIS_STATUS_SUCCESS, the 
       <b>BytesRead</b> or 
@@ -157,6 +177,8 @@ If the driver made a query request,
       <b>InformationBuffer</b> as appropriate for the value that is specified in the 
       <b>Oid</b> member of NDIS_OID_REQUEST.
 
+</li>
+<li>
 If 
       <i>Status</i> is NDIS_STATUS_INVALID_LENGTH or NDIS_STATUS_BUFFER_TOO_SHORT, the 
       <b>BytesNeeded</b> member of the NDIS_OID_REQUEST structure that 
@@ -171,6 +193,8 @@ In these circumstances,
       required value for 
       <b>InformationBufferLength</b>, and retry the OID request.
 
+</li>
+<li>
 If 
       <i>Status</i> is an NDIS_STATUS_
       <i>XXX</i> value that is an unrecoverable error, 
@@ -180,7 +204,8 @@ If
       close the binding or adjust its binding-specific state information to handle continued network I/O
       operations on the binding.
 
-For more information about system-defined OIDs, see 
+</li>
+</ul>For more information about system-defined OIDs, see 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566707">NDIS OIDs</a>.
 
 <i>ProtocolCoOidRequestComplete</i> can be called before the driver has had time to
@@ -190,59 +215,72 @@ For more information about system-defined OIDs, see
 
 NDIS calls 
     <i>ProtocolCoOidRequestComplete</i> at IRQL &lt;= DISPATCH_LEVEL.
-
-To define a <i>ProtocolCoOidRequestComplete</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>ProtocolCoOidRequestComplete</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolCoOidRequestComplete</i> function that is named "MyCoOidRequestComplete", use the <b>PROTOCOL_CO_OID_REQUEST_COMPLETE</b> type as shown in this code example:
-
-Then, implement your function as follows:
-
-The <b>PROTOCOL_CO_OID_REQUEST_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CO_OID_REQUEST_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PROTOCOL_CO_OID_REQUEST_COMPLETE MyCoOidRequestComplete;</pre>
+</td>
+</tr>
+</table></span></div>Then, implement your function as follows:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>_Use_decl_annotations_
+VOID
+ MyCoOidRequestComplete(
+    NDIS_HANDLE  ProtocolAfContext,
+    NDIS_HANDLE  ProtocolVcContext,
+    NDIS_HANDLE  ProtocolPartyContext,
+    PNDIS_OID_REQUEST  OidRequest,
+    NDIS_STATUS  Status
+    )
+  {...}</pre>
+</td>
+</tr>
+</table></span></div>The <b>PROTOCOL_CO_OID_REQUEST_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CO_OID_REQUEST_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
-   NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
-</dt>
-<dt>
-<a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
-   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a>
-</dt>
-<dt>
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">NdisCoOidRequestComplete</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">NdisMCmOidRequestComplete</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismcooidrequestcomplete.md">NdisMCoOidRequestComplete</a>
-</dt>
-<dt>
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+<mshelp:link keywords="netvista.ndis_co_client_optional_handlers" tabindex="0"><b>
+   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</b></mshelp:link>
+
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-</dt>
-<dt>
+
+<a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">NdisCoOidRequestComplete</a>
+
+<a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">NdisMCmOidRequestComplete</a>
+
 <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nf-ndis-ndismcooidrequestcomplete.md">NdisMCoOidRequestComplete</a>
+
+<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+
+<a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a>
+
+<mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
+   NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_CO_OID_REQUEST_COMPLETE callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_CO_OID_REQUEST_COMPLETE callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

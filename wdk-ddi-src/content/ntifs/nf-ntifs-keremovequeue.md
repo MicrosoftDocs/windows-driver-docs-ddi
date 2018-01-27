@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 475e352a-b6ea-4e37-ad46-e94284caa105
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KeRemoveQueue
+ms.keywords: ntifs/KeRemoveQueue, KeRemoveQueue, KeRemoveQueue routine [Installable File System Drivers], ifsk.keremovequeue, keref_99014b0b-5ca1-4cda-8422-fc3819f42d8b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeRemoveQueue
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeRemoveQueue
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # KeRemoveQueue function
 
 
-
 ## -description
+
+
 The <b>KeRemoveQueue</b> routine gives the calling thread a pointer to a dequeued entry from the given queue object or allows the caller to wait, up to an optional timeout interval, on the queue object. 
 
 
-
 ## -syntax
+
 
 ````
 PLIST_ENTRY KeRemoveQueue(
@@ -55,6 +65,9 @@ PLIST_ENTRY KeRemoveQueue(
 
 
 ## -parameters
+
+
+
 
 ### -param Queue [in, out]
 
@@ -72,10 +85,21 @@ Pointer to a variable that specifies the absolute or relative time, in units of 
 
 
 ## -returns
+
+
 <b>KeRemoveQueue</b> returns one of the following:
+<ul>
+<li>A pointer to a dequeued entry from the given queue object, if one is available 
+</li>
+<li>STATUS_TIMEOUT, if the given Timeout interval expired before an entry became available</li>
+<li>STATUS_USER_APC, if a user-mode APC was delivered in the context of the calling thread</li>
+<li>STATUS_ABANDONED, if the queue has been run down</li>
+</ul>
 
 
 ## -remarks
+
+
 Callers of <b>KeRemoveQueue</b> should test whether its return value is STATUS_TIMEOUT or STATUS_USER_APC before accessing any entry members. Testing the return value of <b>KeRemoveQueue</b> against <b>NULL</b> is a programming error. 
 
 Specifying a zero value for <i>*Timeout</i> indicates the caller's unwillingness to wait for an entry if the queue is currently empty. Specifying a <b>NULL</b><i>Timeout</i> pointer indicates the caller's willingness to wait indefinitely for an entry. 
@@ -87,15 +111,13 @@ Specifying <i>WaitMode</i> as <b>KernelMode</b> in a call to <b>KeRemoveQueue</b
 For more information about using driver-managed internal queues, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544165">Driver-Managed Queues</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-keinsertheadqueue.md">KeInsertHeadQueue</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-keinsertqueue.md">KeInsertQueue</a>
-</dt>
-</dl>
+
  
 
  

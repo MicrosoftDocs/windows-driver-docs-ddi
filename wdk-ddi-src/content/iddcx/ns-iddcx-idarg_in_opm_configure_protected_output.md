@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 523b904c-c833-40f2-8173-7ec1c6687b26
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT,
+ms.keywords: IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT, iddcx/IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT, display.idarg_in_opm_configure_protected_output, IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT structure
 
 
-
 ## -description
+
+
 
                  Gives information about the buffer that the driver will copy configuration parameters to.
              
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT {
@@ -57,6 +67,9 @@ typedef struct IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ConfigParameters
 
@@ -78,5 +91,3 @@ typedef struct IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT {
                      [in] A pointer to a buffer that the driver copies the configuration info to.
                  
 
-
-## -remarks

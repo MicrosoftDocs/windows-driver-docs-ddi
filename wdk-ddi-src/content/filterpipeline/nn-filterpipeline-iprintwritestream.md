@@ -7,8 +7,8 @@ old-location: print\iprintwritestream.htm
 old-project: print
 ms.assetid: b76a58fb-fbd4-4afe-83dc-582242b53e05
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IXpsPartIterator, IXpsPartIterator::Reset, Reset
+ms.date: 1/18/2018
+ms.keywords: print.iprintwritestream, IPrintWriteStream interface [Print Devices], IPrintWriteStream interface [Print Devices], described, IPrintWriteStream, filterpipeline/IPrintWriteStream, filterpipeline_edf6ac16-09e1-433a-8f41-50ba308dc7a7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPrintWriteStream
-req.alt-loc: filterpipeline.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,34 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	filterpipeline.h
+apiname: 
+-	IPrintWriteStream
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # IPrintWriteStream interface
 
 
-
 ## -description
+
+
 Filters use the <code>IPrintWriteStream</code> interface to write data as a raw stream of bytes.
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintWriteStream</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IPrintWriteStream</b> also has these types of members:
-
-The <b>IPrintWriteStream</b> interface has these methods.
-
-The <code>Close</code> method closes a stream and ends the writing to that stream. This method is mandatory. You must call this method when the filter is done writing.
-
-The <code>WriteBytes</code> method writes a specified number of bytes to a stream.
-
- 
-
-
 ## -members
+
 The <b>IPrintWriteStream</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -86,5 +84,3 @@ The <code>WriteBytes</code> method writes a specified number of bytes to a strea
 
  
 
-
-## -remarks

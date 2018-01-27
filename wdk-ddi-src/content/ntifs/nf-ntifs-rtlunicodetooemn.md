@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bb9ec3d9-89cd-4c56-8020-f8f97c2ce69b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlUnicodeToOemN
+ms.keywords: ntifs/RtlUnicodeToOemN, RtlUnicodeToOemN, RtlUnicodeToOemN routine [Installable File System Drivers], rtlref_f78dd2e1-13f7-4622-ac13-9207c040b782.xml, ifsk.rtlunicodetooemn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlUnicodeToOemN
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlUnicodeToOemN
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlUnicodeToOemN function
 
 
-
 ## -description
+
+
 The <b>RtlUnicodeToOemN</b> routine translates a given Unicode string to an OEM string, using the current system OEM code page. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlUnicodeToOemN(
@@ -57,6 +67,9 @@ NTSTATUS RtlUnicodeToOemN(
 
 
 ## -parameters
+
+
+
 
 ### -param OemString [out]
 
@@ -84,10 +97,15 @@ Size, in bytes, of the string at <i>UnicodeString</i>.
 
 
 ## -returns
+
+
 <b>RtlUnicodeToOemN</b> returns STATUS_SUCCESS if the full string at <i>UnicodeString</i> was translated and returned at <i>OemString</i>. 
 
 
+
 ## -remarks
+
+
 For the return value STATUS_BUFFER_OVERFLOW, the truncated string at <i>OemString</i> was translated without error. 
 
 For the return value STATUS_SUCCESS, the value at <i>BytesInOemString</i>, if any, indicates the length of the returned string, rather than the given <i>MaxBytesInOemString</i>. 
@@ -97,18 +115,15 @@ For the return value STATUS_SUCCESS, the value at <i>BytesInOemString</i>, if an
 For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtloemtounicoden.md">RtlOemToUnicodeN</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtocountedoemstring.md">RtlUnicodeStringToCountedOemString</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtlunicodestringtooemstring.md">RtlUnicodeStringToOemString</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-rtlunicodestringtocountedoemstring.md">RtlUnicodeStringToCountedOemString</a>
+
  
 
  

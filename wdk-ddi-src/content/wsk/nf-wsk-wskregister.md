@@ -7,8 +7,8 @@ old-location: netvista\wskregister.htm
 old-project: netvista
 ms.assetid: 340933ad-1a71-421c-b1e1-360aa9c441fd
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WskRegister
+ms.date: 1/18/2018
+ms.keywords: netvista.wskregister, wsk/WskRegister, wskref_21a26aab-f817-457f-bfde-28bcf1e2c8d0.xml, WskRegister, WskRegister function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WskRegister
-req.alt-loc: Netio.lib,Netio.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,23 +29,36 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Netio.lib
+-	Netio.dll
+apiname: 
+-	WskRegister
+product: Windows
+targetos: Windows
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
 # WskRegister function
 
 
-
 ## -description
+
+
 The 
   <b>WskRegister</b> function registers a WSK application, given the application's WSK client 
-  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
-  (NPI)</a>.
-
+  <mshelp:link keywords="netvista.network_programming_interface" tabindex="0">Network Programming Interface
+  (NPI)</mshelp:link>.
 
 
 ## -syntax
+
 
 ````
 NTSTATUS WskRegister(
@@ -58,6 +69,9 @@ NTSTATUS WskRegister(
 
 
 ## -parameters
+
+
+
 
 ### -param WskClientNpi [in]
 
@@ -74,18 +88,43 @@ A pointer to a memory location that identifies a WSK application's registration 
 
 
 ## -returns
+
+
 <b>WskRegister</b> returns one of the following NTSTATUS codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The registration succeeded.
+</dl>
+</td>
+<td width="60%">
+The registration succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>Other status codes</b></dt>
-</dl>The registration failed.
+</dl>
+</td>
+<td width="60%">
+The registration failed.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A WSK client object can call this function multiple times, but a different 
     <i>WskRegistration</i> parameter must be used for each call in order to create multiple registration
     instances.
@@ -112,25 +151,22 @@ The block of memory pointed to by
     
 
 For more information about attaching a WSK application to the WSK subsystem, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
-    Application</a>.
+    <mshelp:link keywords="netvista.registering_a_winsock_kernel_application" tabindex="0">Registering a Winsock Kernel
+    Application</mshelp:link>.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wsk\nf-wsk-wskderegister.md">WskDeregister</a>
-</dt>
-<dt>
-<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
-</dt>
-<dt>
+
 <a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
-</dt>
-</dl>
- 
+
+<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WskRegister function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WskRegister function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

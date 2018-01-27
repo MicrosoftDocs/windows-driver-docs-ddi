@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5a77a8bc-b477-41b3-bc4e-07c6c14291a1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsReferenceClock, IKsReferenceClock::GetState, GetState
+ms.keywords: GetState method [Streaming Media Devices], GetState, IKsReferenceClock interface [Streaming Media Devices], GetState method, IKsReferenceClock::GetState, avintfc_e2017894-2e83-4091-84b7-5ea793076b29.xml, IKsReferenceClock, GetState method [Streaming Media Devices], IKsReferenceClock interface, ks/IKsReferenceClock::GetState, stream.iksreferenceclock_getstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsReferenceClock.GetState
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ks.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ks.h
+apiname: 
+-	IKsReferenceClock.GetState
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IKsReferenceClock::GetState method
 
 
-
 ## -description
+
+
 The <b>IKsReferenceClock::GetState</b> method queries the associated reference clock for its current streaming state.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS GetState(
@@ -54,30 +64,36 @@ NTSTATUS GetState(
 
 ## -parameters
 
+
+
+
 ### -param State [out]
 
 Points to a <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a> structure that indicates the streaming state of the underlying clock.
 
 
 ## -returns
+
+
 The <b>IKsReferenceClock::GetState</b> method returns STATUS_SUCCESS or  the error code that the relevant clock returned from its <b>GetState</b> property. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff565093">KSPROPERTY_CLOCK_STATE</a>.  May return STATUS_DEVICE_NOT_READY if no clock is assigned.
 
 
+
 ## -remarks
+
+
 For more information, see <a href="https://msdn.microsoft.com/fc1d5bca-72e3-48e2-b46f-09a13bba83b4">AVStream Clocks</a>.
 
 AVStream uses the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565093">KSPROPERTY_CLOCK_STATE</a> property to retrieve the correlated time.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
-</dt>
-<dt>
+
 <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
-</dt>
-</dl>
+
  
 
  

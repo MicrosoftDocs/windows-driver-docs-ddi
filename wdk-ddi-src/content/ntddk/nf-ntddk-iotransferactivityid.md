@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: BA6EBD60-B7D8-4EDE-A655-2F18F27E6299
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoTransferActivityId
+ms.keywords: IoTransferActivityId, ntddk/IoTransferActivityId, IoTransferActivityId routine [Kernel-Mode Driver Architecture], kernel.iotransferactivityid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with  Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoTransferActivityId
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoTransferActivityId
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # IoTransferActivityId function
 
 
-
 ## -description
+
+
 The IoTransferActivityId routine logs an ETW transfer event using the I/O tracing provider on behalf of the caller.  This allows a driver to associate two related activity IDs without requiring a specific provider to be enabled.
 
 
-
 ## -syntax
+
 
 ````
 void IoTransferActivityId(
@@ -54,6 +64,9 @@ void IoTransferActivityId(
 
 
 ## -parameters
+
+
+
 
 ### -param ActivityId [in]
 
@@ -66,7 +79,8 @@ The new activity ID to be transferred from the source activity ID.
 
 
 ## -returns
+
+
 None.
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b1ff6569-9568-40d8-b2a9-e63ce44720a2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsControl, IKsControl::KsEvent, KsEvent
+ms.keywords: KsEvent method [Streaming Media Devices], IKsControl interface, stream.ikscontrol_ksevent, IKsControl, ksproxy_d7ef7fda-b615-4aa9-8528-aa66de81da5b.xml, KsEvent, IKsControl interface [Streaming Media Devices], KsEvent method, KsEvent method [Streaming Media Devices], IKsControl::KsEvent, ksproxy/IKsControl::KsEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsControl.KsEvent
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ksproxy.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsControl.KsEvent
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsControl::KsEvent method
 
 
-
 ## -description
+
+
 The <b>KsEvent</b> method enables or disables an event, along with any other defined support operations available on an event set. 
 
 
-
 ## -syntax
+
 
 ````
 HRESULT KsEvent(
@@ -57,6 +67,9 @@ HRESULT KsEvent(
 
 
 ## -parameters
+
+
+
 
 ### -param Event [in, optional]
 
@@ -84,30 +97,31 @@ Pointer to a variable that receives the size, in bytes, of the data that <b>KsEv
 
 
 ## -returns
+
+
 Returns NOERROR if successful; otherwise, returns an error code. If the call succeeds, the event is on the driver's list of events.
 
 
+
 ## -remarks
+
+
 To disable an event, set <i>Event</i> to <b>NULL</b>, <i>EventLength</i> to zero, and <i>EventData</i> to the pointer to the <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure that was previously used to enable the event.
 
 The <i>EventData</i> parameter of <b>IKsControl::KsEvent</b> contains a handle in <b>EventHandle.Event</b>. You can wait for the handle to become available and get notifications when the minidriver calls <b>Ks</b><i>Xxx</i><b>GenerateEvents</b> or <a href="..\strmini\nf-strmini-streamclassstreamnotification.md">StreamClassStreamNotification</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
+
+<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+
+<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d911089a-f23a-4d0e-a333-c01ec3ac89dc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ObfReferenceObject
+ms.keywords: ObReferenceObject routine [Kernel-Mode Driver Architecture], ObfReferenceObject, wdm/ObfReferenceObject, k107_97bb0a8c-e445-484c-959a-03f1c41ab3fe.xml, wdm/ObReferenceObject, ObReferenceObject, kernel.obreferenceobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ObReferenceObject,ObfReferenceObject
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ObReferenceObject
+-	ObfReferenceObject
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ObfReferenceObject function
 
 
-
 ## -description
+
+
 The <b>ObReferenceObject</b> routine increments the reference count to the given object. 
 
 
-
 ## -syntax
+
 
 ````
 VOID ObReferenceObject(
@@ -55,16 +66,24 @@ VOID ObReferenceObject(
 
 ## -parameters
 
+
+
+
 ### -param Object [in]
 
 Pointer to the object. The caller obtained this parameter either when it created the object or from a preceding call to <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> after it opened the object. 
 
 
 ## -returns
+
+
 <b>ObReferenceObject</b> returns a value that is reserved for system use. Drivers must treat this value as VOID. 
 
 
+
 ## -remarks
+
+
 <b>ObReferenceObject</b> simply increments the pointer reference count for an object, without making any access checks on the given object, as <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> and <a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a> do. 
 
 <b>ObReferenceObject</b> prevents deletion of the object at least until the driver subsequently calls its reciprocal, <b>ObDereferenceObject</b>, or closes the given object. The caller must decrement the reference count with <b>ObDereferenceObject</b> as soon as it is done with the object. 
@@ -72,21 +91,17 @@ Pointer to the object. The caller obtained this parameter either when it created
 When the reference count for an object reaches zero, a kernel-mode component can remove the object from the system. However, a driver can remove only those objects that it created, and a driver should never attempt to remove any object that it did not create. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
+
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-</dt>
-</dl>
+
  
 
  

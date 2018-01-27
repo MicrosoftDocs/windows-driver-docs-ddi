@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 265dce25-cecb-4bd1-8f5f-1646779da296
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+ms.keywords: storage.phw_find_adapter, (*PHW_FIND_ADAPTER) callback function [Storage Devices], (*PHW_FIND_ADAPTER), srb/(*PHW_FIND_ADAPTER), ide_minikr_dcd06c33-80a8-417c-acf6-5c38fa4d62ed.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: (*PHW_FIND_ADAPTER)
-req.alt-loc: srb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	srb.h
+apiname: 
+-	(*PHW_FIND_ADAPTER)
+product: Windows
+targetos: Windows
 req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PHW_FIND_ADAPTER callback
 
 
-
 ## -description
+
+
 The PHW_FIND_ADAPTER prototype declares a routine that uses supplied configuration to determine whether a specific HBA is supported and, if it is, to return configuration information about that adapter. 
 
 
-
 ## -prototype
+
 
 ````
 typedef ULONG (*PHW_FIND_ADAPTER)(
@@ -60,12 +70,15 @@ typedef ULONG (*PHW_FIND_ADAPTER)(
 
 ## -parameters
 
-### -param DeviceExtension  [in]
+
+
+
+### -param DeviceExtension [in]
 
 Pointer to the miniport driver's per-HBA storage area. 
 
 
-### -param HwContext  [in]
+### -param HwContext [in]
 
 Reserved member when used by one of the Storport driver's miniport drivers. With SCSI miniport drivers this member points to a context value. For a description of the meaning of this member for a SCSI miniport driver, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>. 
 
@@ -83,35 +96,84 @@ Reserved member when used by one of the Storport driver's miniport drivers. With
 ### -param ConfigInfo [in, out]
 
 
-### -param Points to a PORT_CONFIGURATION_INFORMATION structure that the miniport driver uses during initialization. 
-### -param For more information about how a SCSI miniport driver uses this member, see the description of the ConfigId member of the PORT_CONFIGURATION_INFORMATION (SCSI) structure.
-### -param For more information about how this member is used by a miniport driver that works with the StorPort driver, see the description of the PortConfiguration member of the PORT_CONFIGURATION_INFORMATION (STORPORT) structure.
-
 
 ### -param Again [out]
 
 Reserved member when used by one of the Storport driver's miniport drivers. With SCSI miniport drivers this member points to a BOOLEAN variable that informs the port driver whether it should call this routine again. For more information about the meaning of this member for a SCSI miniport driver, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>. 
 
 
+###### - ConfigInfo.For more information about how this member is used by a miniport driver that works with the StorPort driver, see the description of the PortConfiguration member of the PORT_CONFIGURATION_INFORMATION (STORPORT) structure.
+
+
+
+###### - ConfigInfo.Points to a PORT_CONFIGURATION_INFORMATION structure that the miniport driver uses during initialization.
+
+
+
+###### - ConfigInfo.For more information about how a SCSI miniport driver uses this member, see the description of the ConfigId member of the PORT_CONFIGURATION_INFORMATION (SCSI) structure.
+
+
+
 ## -returns
+
+
 The routine declared by this prototype must return one of the following status values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>SP_RETURN_FOUND</b></dt>
-</dl>Indicates a supported HBA was found and that the HBA-relevant configuration information was successfully determined and set in the PORT_CONFIGURATION_INFORMATION structure.
+</dl>
+</td>
+<td width="60%">
+Indicates a supported HBA was found and that the HBA-relevant configuration information was successfully determined and set in the PORT_CONFIGURATION_INFORMATION structure.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>SP_RETURN_ERROR</b></dt>
-</dl>Indicates an HBA was found but there was error obtaining the configuration information. If possible, such an error should be logged with <a href="..\srb\nf-srb-scsiportlogerror.md">ScsiPortLogError</a>.
+</dl>
+</td>
+<td width="60%">
+Indicates an HBA was found but there was error obtaining the configuration information. If possible, such an error should be logged with <a href="..\srb\nf-srb-scsiportlogerror.md">ScsiPortLogError</a>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>SP_RETURN_BAD_CONFIG</b></dt>
-</dl>Indicates the supplied configuration information was invalid for the adapter.
+</dl>
+</td>
+<td width="60%">
+Indicates the supplied configuration information was invalid for the adapter.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>SP_RETURN_NOT_FOUND</b></dt>
-</dl>Indicates no supported HBA was found for the supplied configuration information.
+</dl>
+</td>
+<td width="60%">
+Indicates no supported HBA was found for the supplied configuration information.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This declaration is used by both SCSI and StorPort miniport drivers.
 
 For more information about the SCSI miniport driver's version of the routine associated with this declaration, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>. 
@@ -119,15 +181,13 @@ For more information about the SCSI miniport driver's version of the routine ass
 For more information about the Storport driver's version of the routine associated with this declaration, see <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
-</dt>
-<dt>
+
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: CE0C1D49-1505-464E-90DB-2C6D30C04EC1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExDeleteTimer
+ms.keywords: ExDeleteTimer, wdm/ExDeleteTimer, kernel.exdeletetimer, ExDeleteTimer routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.1.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExDeleteTimer
-req.alt-loc: ntoskrnl.lib,ntoskrnl.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: See Remarks.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ntoskrnl.lib
+-	ntoskrnl.dll
+apiname: 
+-	ExDeleteTimer
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ExDeleteTimer function
 
 
-
 ## -description
+
+
 The <b>ExDeleteTimer</b> routine deletes a timer object that was previously allocated by the <a href="..\wdm\nf-wdm-exallocatetimer.md">ExAllocateTimer</a> routine.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN ExDeleteTimer(
@@ -57,6 +68,9 @@ BOOLEAN ExDeleteTimer(
 
 
 ## -parameters
+
+
+
 
 ### -param Timer [in]
 
@@ -79,10 +93,15 @@ A pointer to an <a href="..\wdm\ns-wdm-_ext_delete_parameters.md">EXT_DELETE_PAR
 
 
 ## -returns
+
+
 This routine returns <b>TRUE</b> if <i>Cancel</i> is <b>TRUE</b> and the timer was canceled. Otherwise, the routine returns <b>FALSE</b>. For more information, see Remarks.
 
 
+
 ## -remarks
+
+
 After your driver calls this routine, the timer object pointed to by <i>Timer</i> might no longer be valid. However, the <i>Timer</i> parameter value passed to an <a href="https://msdn.microsoft.com/library/windows/hardware/dn265190">ExTimerCallback</a> callback routine, if the driver implements this routine, is always a valid pointer to a timer object.
 
 If <i>Cancel</i> is <b>TRUE</b>, a return value of <b>FALSE</b> indicates that the timer was never set, or that the timer was set but expired before it could be canceled.  If <i>Cancel</i> is <b>FALSE</b>, the routine always returns <b>FALSE</b>.
@@ -94,27 +113,21 @@ If <i>Wait</i> is <b>TRUE</b>, the routine must be called at IRQL &lt;= APC_LEVE
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn265175">Deleting a System-Allocated Timer Object</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265190">ExTimerCallback</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265192">ExTimerDeleteCallback</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-exallocatetimer.md">ExAllocateTimer</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-exinitializedeletetimerparameters.md">ExInitializeDeleteTimerParameters</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_ext_delete_parameters.md">EXT_DELETE_PARAMETERS</a>
-</dt>
-<dt>
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_ext_delete_parameters.md">EXT_DELETE_PARAMETERS</a>
+
+<a href="..\wdm\nf-wdm-exinitializedeletetimerparameters.md">ExInitializeDeleteTimerParameters</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265190">ExTimerCallback</a>
+
+<a href="..\wdm\nf-wdm-exallocatetimer.md">ExAllocateTimer</a>
+
  
 
  

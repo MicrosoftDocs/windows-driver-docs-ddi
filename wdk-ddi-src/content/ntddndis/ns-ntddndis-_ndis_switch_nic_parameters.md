@@ -7,8 +7,8 @@ old-location: netvista\ndis_switch_nic_parameters.htm
 old-project: netvista
 ms.assetid: 52B9DD8B-E96F-464C-9D98-5EF8B6C050C5
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_SWITCH_NIC_PARAMETERS, *PNDIS_SWITCH_NIC_PARAMETERS, NDIS_SWITCH_NIC_PARAMETERS
+ms.date: 1/18/2018
+ms.keywords: NDIS_SWITCH_NIC_PARAMETERS, PNDIS_SWITCH_NIC_PARAMETERS, _NDIS_SWITCH_NIC_PARAMETERS, netvista.ndis_switch_nic_parameters, ntddndis/PNDIS_SWITCH_NIC_PARAMETERS, ntddndis/NDIS_SWITCH_NIC_PARAMETERS, *PNDIS_SWITCH_NIC_PARAMETERS, NDIS_SWITCH_NIC_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_NIC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_SWITCH_NIC_FLAGS_NIC_INITIALIZING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.30 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_SWITCH_NIC_PARAMETERS
-req.alt-loc: Ntddndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,24 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PNDIS_SWITCH_NIC_PARAMETERS, NDIS_SWITCH_NIC_PARAMETERS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddndis.h
+apiname: 
+-	NDIS_SWITCH_NIC_PARAMETERS
+product: Windows
+targetos: Windows
+req.typenames: NDIS_SWITCH_NIC_PARAMETERS, *PNDIS_SWITCH_NIC_PARAMETERS
 ---
 
 # _NDIS_SWITCH_NIC_PARAMETERS structure
 
 
-
 ## -description
 
+
+
 The <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure specifies the configuration parameters for a network adapter (NIC) that is connected to a Hyper-V extensible switch port.  
 
-
-
-The <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure specifies the configuration parameters for a network adapter (NIC) that is connected to a Hyper-V extensible switch port.  
 
 
 
 ## -syntax
+
 
 ````
 typedef struct _NDIS_SWITCH_NIC_PARAMETERS {
@@ -75,6 +83,9 @@ typedef struct _NDIS_SWITCH_NIC_PARAMETERS {
 
 ## -struct-fields
 
+
+
+
 ### -field Header
 
 The type, revision, and size of the <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
@@ -84,19 +95,9 @@ The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
 
-### -field NDIS_SWITCH_NIC_PARAMETERS_REVISION_1
-
-Original version for NDIS 6.30 and later.
-
-Set the <b>Size</b> member to <b>NDIS_SIZEOF_NDIS_SWITCH_NIC_PARAMETERS_REVISION_1</b>.
-
-</dd>
-</dl>
-
 ### -field Flags
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. The following flag value is defined.
-
 
 
 <table>
@@ -105,9 +106,9 @@ A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. The following f
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field NDIS_SWITCH_NIC_FLAGS_NIC_INITIALIZING
-
+<td width="40%"><a id="NDIS_SWITCH_NIC_FLAGS_NIC_INITIALIZING"></a><a id="ndis_switch_nic_flags_nic_initializing"></a><dl>
+<dt><b>NDIS_SWITCH_NIC_FLAGS_NIC_INITIALIZING</b></dt>
+</dl>
 </td>
 <td width="60%">
 This flag is set when the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598263">OID_SWITCH_NIC_CREATE</a> OID is issued for the first time in the lifetime of a VM NIC object. If this flag is set:
@@ -120,8 +121,7 @@ This flag is set when the <a href="https://msdn.microsoft.com/library/windows/ha
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field NicName
@@ -165,48 +165,38 @@ An NDIS_VM_NAME value that specifies the unique internal name of the Hyper-V chi
 
 
 The Hyper-V child partition is also known as a virtual machine (VM).
+<div class="alert"><b>Note</b>  This member is valid only if the <b>NicType</b> member contains a value of <b>NdisSwitchNicSyntheticNic</b> or <b>NdisSwitchNicEmulatedNic.</b></div><div> </div>
 
-<div class="alert"><b>Note</b>  This member is valid only if the <b>NicType</b> member contains a value of <b>NdisSwitchNicSyntheticNic</b> or <b>NdisSwitchNicEmulatedNic.</b></div>
-<div> </div>
+### -field VmFriendlyName
 
-### -field VMFriendlyName
-
-An NDIS_VM_FRIENDLYNAME value that specifies the external name of the Hyper-V child partition that is attached to the VF. This member contains the user-friendly description of the partition.
-
-
+ 
 
 
 ### -field NetCfgInstanceId
 
 A GUID value that specifies the <b>NetCfgInstanceId</b> registry value of the
 underlying network adapter.
-
-<div class="alert"><b>Note</b>  This member is valid only if the <b>NicType</b> member is set to <b>NdisSwitchNicTypeExternal</b> or <b>NdisSwitchNicTypeInternal</b>.  <b>NetCfgInstanceId</b> will not be valid until after the virtual network adapter has been initialized.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  This member is valid only if the <b>NicType</b> member is set to <b>NdisSwitchNicTypeExternal</b> or <b>NdisSwitchNicTypeInternal</b>.  <b>NetCfgInstanceId</b> will not be valid until after the virtual network adapter has been initialized.</div><div> </div>
 
 ### -field MTU
 
 A <b>ULONG</b> value that specifies the maximum transmission unit (MTU) size, in bytes, for the network adapter.
-
 <div class="alert"><b>Note</b>  The value of this member can change during the lifetime of a VM NIC. Therefore, extensions should read this member of the <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure that is passed down with the following OIDs:<ul>
 <li>
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598262">OID_SWITCH_NIC_CONNECT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh846216">OID_SWITCH_NIC_UPDATED</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>
 </li>
 </ul>
-</div>
-<div> </div>
+</div><div> </div>
 
 ### -field NumaNodeId
 
 A <b>USHORT</b> value that specifies the identifier for the preferred Non-Uniform Memory Access (NUMA) node of a CPU. On computers that support NUMA architecture, the preferred NUMA node is the CPU that has the smallest distance to the network adapter.
 
 
-
-<div class="alert"><b>Note</b>  This member is valid only if the <b>NicType</b> member is set to <b>NdisSwitchNicTypeSynthetic</b> or <b>NdisSwitchNicTypeEmulated</b>.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  This member is valid only if the <b>NicType</b> member is set to <b>NdisSwitchNicTypeSynthetic</b> or <b>NdisSwitchNicTypeEmulated</b>.</div><div> </div>
 
 ### -field PermanentMacAddress
 
@@ -230,51 +220,93 @@ A <b>UCHAR</b> array that specifies the MAC address that is currently being used
 A <b>BOOLEAN</b> value that, if set to <b>TRUE</b>, specifies that the network adapter is attached to a PCI Express (PCIe) virtual function (VF). A VF is exposed by an underlying physical network adapter that supports the single root I/O virtualization (SR-IOV) interface.
 
 For more information, see the Remarks section.
+<div class="alert"><b>Note</b>  The <b>VFAssigned</b> member is valid only if the <b>NicType</b> member contains a value of <b>NdisSwitchNicTypeEmulated</b> or <b>NdisSwitchNicTypeSynthetic</b>. This member must be set to <b>FALSE</b> if the <b>NicType</b> member contains a value of <b>NdisSwitchNicTypeExternal</b> or <b>NdisSwitchNicTypeInternal</b>.</div><div> </div>
 
-<div class="alert"><b>Note</b>  The <b>VFAssigned</b> member is valid only if the <b>NicType</b> member contains a value of <b>NdisSwitchNicTypeEmulated</b> or <b>NdisSwitchNicTypeSynthetic</b>. This member must be set to <b>FALSE</b> if the <b>NicType</b> member contains a value of <b>NdisSwitchNicTypeExternal</b> or <b>NdisSwitchNicTypeInternal</b>.</div>
-<div> </div>
+### -field NdisReserved
+
+ 
+
+
+
+##### - Header.NDIS_SWITCH_NIC_PARAMETERS_REVISION_1
+
+Original version for NDIS 6.30 and later.
+
+Set the <b>Size</b> member to <b>NDIS_SIZEOF_NDIS_SWITCH_NIC_PARAMETERS_REVISION_1</b>.
+
+
+#### - VMFriendlyName
+
+An NDIS_VM_FRIENDLYNAME value that specifies the external name of the Hyper-V child partition that is attached to the VF. This member contains the user-friendly description of the partition.
+
+
+
 
 ## -remarks
+
+
 OID query requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh598261">OID_SWITCH_NIC_ARRAY</a> return an <a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_array.md">NDIS_SWITCH_NIC_ARRAY</a> structure that contains zero or more elements. Each element is formatted as an <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure.
 
 The <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure is also used in the following OID requests: 
-
+<ul>
+<li>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598263">OID_SWITCH_NIC_CREATE</a>
 
 
+</li>
+<li>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598262">OID_SWITCH_NIC_CONNECT</a>
 
 
+</li>
+<li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh846216">OID_SWITCH_NIC_UPDATED</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>
 
 
+</li>
+<li>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598264">OID_SWITCH_NIC_DELETE</a>
 
 
+</li>
+<li>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598265">OID_SWITCH_NIC_DISCONNECT</a>
 
 
- Based on the value <b>NicType</b> member, the format of the <b>NicName</b> member is as follows:
+</li>
+</ul><div class="alert"><b>Note</b>  The <b>NDIS_SWITCH_NIC_NAME</b>,  <b>NDIS_SWITCH_NIC_FRIENDLYNAME</b>, <b>NDIS_VM_NAME</b>, and  <b>NDIS_VM_FRIENDLYNAME</b> data types are type-defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451419">IF_COUNTED_STRING</a> structure. A string that is defined by this structure does not have to be null-terminated. However, the length of the string must be set in the <b>Length</b> member of this structure. If the string is null-terminated, the <b>Length</b> member must not include the terminating null character.
 
+</div><div> </div><h3><a id="Guidelines_for_the_NicType_and_NicName_Members"></a><a id="guidelines_for_the_nictype_and_nicname_members"></a><a id="GUIDELINES_FOR_THE_NICTYPE_AND_NICNAME_MEMBERS"></a>Guidelines for the <b>NicType</b> and <b>NicName</b> Members</h3> Based on the value <b>NicType</b> member, the format of the <b>NicName</b> member is as follows:
+<ul>
+<li>
 If the <b>NicType</b> member is set to <b>NdisSwitchNicTypeExternal</b>, the value of the <b>NicName</b> member is the unique instance identifier (<b>InstanceId</b>) of the physical network adapter that is bound to the external network adapter. This type of  network adapter is exposed in the management operating system that runs in the Hyper-V parent partition.
 
 
 The external network adapter provides a connection to the  physical network interface that is available on the host. The external network adapter can be accessed by the Hyper-V parent partition and all child partitions.
 
+<div class="alert"><b>Note</b>  The <b>InstanceId</b> value is generated by the <a href="https://msdn.microsoft.com/b1890b3c-fc7b-4a2e-b48a-8266f237c9b6">Plug and Play manager</a> that runs in the management operating system.</div>
+<div> </div>
+</li>
+<li>
 If the <b>NicType</b> member is set to <b>NdisSwitchNicTypeInternal</b>, the value of the <b>NicName</b> member is the device display name that identifies the internal  network adapter. This type of network adapter is exposed in the management operating system of a Hyper-V parent partition.
 
 
 The internal network adapter can be accessed by the Hyper-V parent partition and all child partitions. However, the internal network adapter does not connect to the physical network interface that is available on the host.
 
+<div class="alert"><b>Note</b>  The device display name is generated by the Hyper-V WMI management layer that runs in the management operating system.</div>
+<div> </div>
+</li>
+<li>
 For all other <b>NicType</b> member values, the value of the <b>NicName</b> member is uniquely assigned to the synthetic or emulated network adapter by the policy management interface.
 These types of network adapters are exposed in the guest operating system that runs is a Hyper-V child partition.
 
-A PCIe VF is created and allocated by an underlying physical adapter that supports the SR-IOV interface. After the PCIe VF is created, the virtualization stack attaches, or <i>assigns</i>,  a Hyper-V child partition to the VF. The guest operating system that runs in this partition exposes a virtual machine (VM) network adapter that is attached, or <i>assigned</i> to the underlying SR-IOV physical adapter.
+</li>
+</ul><h3><a id="Guidelines_for_the_VFAssigned_Member"></a><a id="guidelines_for_the_vfassigned_member"></a><a id="GUIDELINES_FOR_THE_VFASSIGNED_MEMBER"></a>Guidelines for the <b>VFAssigned</b> Member</h3>A PCIe VF is created and allocated by an underlying physical adapter that supports the SR-IOV interface. After the PCIe VF is created, the virtualization stack attaches, or <i>assigns</i>,  a Hyper-V child partition to the VF. The guest operating system that runs in this partition exposes a virtual machine (VM) network adapter that is attached, or <i>assigned</i> to the underlying SR-IOV physical adapter.
 
 If the <b>VFAssigned</b> member is set to <b>TRUE</b>, packets are routed directly between the underlying SR-IOV physical network adapter and the virtual adapter. However, because the extensible switch is not involved in packet delivery, extensible switch port policies, such as access control lists (ACLs), are not applied to these packets.
 
@@ -283,55 +315,42 @@ The extension can remove a VF assignment by issuing an <a href="https://msdn.mic
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh598206">NDIS_STATUS_SWITCH_PORT_REMOVE_VF</a>.
 
 
+
 ## -see-also
-<dl>
-<dt><b></b></dt>
-<dt>
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-</dt>
-<dt>
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_array.md">NDIS_SWITCH_NIC_ARRAY</a>
-</dt>
-<dt>
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a>
-</dt>
-<dt>
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_nic_state.md">NDIS_SWITCH_NIC_STATE</a>
-</dt>
-<dt>
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_nic_type.md">NDIS_SWITCH_NIC_TYPE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598206">NDIS_STATUS_SWITCH_PORT_REMOVE_VF</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598261">OID_SWITCH_NIC_ARRAY</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598262">OID_SWITCH_NIC_CONNECT</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598263">OID_SWITCH_NIC_CREATE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598264">OID_SWITCH_NIC_DELETE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598265">OID_SWITCH_NIC_DISCONNECT</a>
-</dt>
-<dt>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598268">OID_SWITCH_NIC_SAVE</a>
-</dt>
-<dt>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_array.md">NDIS_SWITCH_NIC_ARRAY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598265">OID_SWITCH_NIC_DISCONNECT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598206">NDIS_STATUS_SWITCH_PORT_REMOVE_VF</a>
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_switch_nic_state.md">NDIS_SWITCH_NIC_STATE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598264">OID_SWITCH_NIC_DELETE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598262">OID_SWITCH_NIC_CONNECT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598263">OID_SWITCH_NIC_CREATE</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a>
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_switch_nic_type.md">NDIS_SWITCH_NIC_TYPE</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598269">OID_SWITCH_NIC_SAVE_COMPLETE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh846216">OID_SWITCH_NIC_UPDATED</a>
-</dt>
-</dl>
- 
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598261">OID_SWITCH_NIC_ARRAY</a>
+
+<b></b>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_NIC_PARAMETERS structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_NIC_PARAMETERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

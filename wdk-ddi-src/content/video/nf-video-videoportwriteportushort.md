@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c0431b2a-c075-48e4-9476-42c42a86f8ed
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortWritePortUshort
+ms.keywords: video/VideoPortWritePortUshort, display.videoportwriteportushort, VideoPortWritePortUshort, VideoPort_Functions_919dd8ab-f319-4071-b375-b269823adb31.xml, VideoPortWritePortUshort function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortWritePortUshort
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortWritePortUshort
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortWritePortUshort function
 
 
-
 ## -description
+
+
 The <b>VideoPortWritePortUshort</b> function writes a USHORT value to a mapped I/O port.
 
 
-
 ## -syntax
+
 
 ````
 VOID VideoPortWritePortUshort(
@@ -56,32 +66,39 @@ VOID VideoPortWritePortUshort(
 
 ## -parameters
 
-### -param Port 
+
+
+
+### -param Port
 
 Pointer to the port. The given <i>Port</i> must be in a mapped I/O-space range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
 
-### -param Value 
+### -param Value
 
 Specifies a USHORT value to be transferred to the adapter.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortWritePortUshort</b>.
 
 Callers of <b>VideoPortWritePortUshort</b> can be running at any IRQL, provided that the memory pointed to by the <i>Port</i> parameter is resident, mapped device memory.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-</dt>
-</dl>
+
  
 
  

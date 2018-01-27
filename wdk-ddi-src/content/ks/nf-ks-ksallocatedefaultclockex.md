@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cad04f59-5312-4241-9524-aeabc27df92d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAllocateDefaultClockEx
+ms.keywords: stream.ksallocatedefaultclockex, ks/KsAllocateDefaultClockEx, KsAllocateDefaultClockEx function [Streaming Media Devices], KsAllocateDefaultClockEx, ksfunc_bace76db-468b-4d8e-bbc4-5a64f238308f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsAllocateDefaultClockEx
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsAllocateDefaultClockEx
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsAllocateDefaultClockEx function
 
 
-
 ## -description
+
+
 The <b>KsAllocateDefaultClockEx</b> function allocates and initializes the default clock structure. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsAllocateDefaultClockEx(
@@ -59,6 +70,9 @@ NTSTATUS KsAllocateDefaultClockEx(
 
 
 ## -parameters
+
+
+
 
 ### -param DefaultClock [out]
 
@@ -82,7 +96,7 @@ Optionally contains a pointer to a driver-defined <a href="https://msdn.microsof
 
 ### -param CorrelatedTime [in, optional]
 
-Optionally contains a pointer to a driver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a> function to retrieve both the Presentation and Physical Time in a correlated manner. This allows the clock owner to completely determine the current time. Pass <b>NULL</b> if the default <a href="..\ntifs\nf-ntifs-kequeryperformancecounter.md">KeQueryPerformanceCounter</a> function is to be used to regulate time progression.
+Optionally contains a pointer to a driver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a> function to retrieve both the Presentation and Physical Time in a correlated manner. This allows the clock owner to completely determine the current time. Pass <b>NULL</b> if the default <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a> function is to be used to regulate time progression.
 
 
 ### -param Resolution [in, optional]
@@ -96,31 +110,31 @@ Reserved, set to zero.
 
 
 ## -returns
+
+
 The <b>KsAllocateDefaultClockEx</b> function returns STATUS_SUCCESS if successful, or a memory error if unsuccessful.
 
 
+
 ## -remarks
+
+
 The internal DefaultClock.ReferenceCount element is initialized to one by the <a href="..\ks\nf-ks-ksallocatedefaultclock.md">KsAllocateDefaultClock</a> function. The element is incremented and decremented as each notification DPC is queued and completed. When the structure is to be freed, the element is used to determine if the owner of the clock should free the structure or if a pending DPC should free it asynchronously. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksfreedefaultclock.md">KsFreeDefaultClock</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksallocatedefaultclock.md">KsAllocateDefaultClock</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567156">KStrCancelTimer</a>
-</dt>
-<dt>
+
+<a href="..\ks\nf-ks-ksfreedefaultclock.md">KsFreeDefaultClock</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a>
-</dt>
-</dl>
+
  
 
  

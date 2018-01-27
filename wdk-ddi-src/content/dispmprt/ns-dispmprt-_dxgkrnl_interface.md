@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d97d3ec6-aaa5-4f4a-a39f-42c09473b18e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKRNL_INTERFACE, DXGKRNL_INTERFACE, *PDXGKRNL_INTERFACE
+ms.keywords: _DXGKRNL_INTERFACE, display.dxgkrnl_interface2, dispmprt/PDXGKRNL_INTERFACE, PDXGKRNL_INTERFACE, PDXGKRNL_INTERFACE structure pointer [Display Devices], DXGKDDI_INTERFACE_VERSION_WIN8, *PDXGKRNL_INTERFACE, DmStructs_86ab8b5f-f30b-4ad3-ac4d-34fc3a864f27.xml, DXGKDDI_INTERFACE_VERSION_VISTA, DXGKRNL_INTERFACE structure [Display Devices], DXGKRNL_INTERFACE, DXGKDDI_INTERFACE_VERSION_VISTA_WIN7, DXGKDDI_INTERFACE_VERSION_VISTA_SP1, dispmprt/DXGKRNL_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available beginning with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKRNL_INTERFACE
-req.alt-loc: Dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Dispmprt.h
+apiname: 
+-	DXGKRNL_INTERFACE
+product: Windows
+targetos: Windows
 req.typenames: DXGKRNL_INTERFACE, *PDXGKRNL_INTERFACE
 ---
 
 # _DXGKRNL_INTERFACE structure
 
 
-
 ## -description
+
+
 The <b>DXGKRNL_INTERFACE</b> structure contains a handle to a display adapter and  a set of function pointers. The functions are implemented by the display port driver and called by the display miniport driver. The display port driver provides the display miniport driver with the handle and function pointers by passing a <b>DXGKRNL_INTERFACE</b> structure to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKRNL_INTERFACE {
@@ -91,6 +101,9 @@ typedef struct _DXGKRNL_INTERFACE {
 
 ## -struct-fields
 
+
+
+
 ### -field Size
 
 An integer that indicates the size, in bytes, of this structure.
@@ -104,16 +117,15 @@ A positive integer that indicates the version of the functional interface implem
 The following are the allowed values, which are defined in D3dukmdt.h.
 
 
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field DXGKDDI_INTERFACE_VERSION_VISTA
-
+<td width="40%"><a id="DXGKDDI_INTERFACE_VERSION_VISTA"></a><a id="dxgkddi_interface_version_vista"></a><dl>
+<dt><b>DXGKDDI_INTERFACE_VERSION_VISTA</b></dt>
+</dl>
 </td>
 <td width="60%">
 Windows Vista
@@ -121,9 +133,9 @@ Windows Vista
 </td>
 </tr>
 <tr>
-
-### -field DXGKDDI_INTERFACE_VERSION_VISTA_SP1
-
+<td width="40%"><a id="DXGKDDI_INTERFACE_VERSION_VISTA_SP1"></a><a id="dxgkddi_interface_version_vista_sp1"></a><dl>
+<dt><b>DXGKDDI_INTERFACE_VERSION_VISTA_SP1</b></dt>
+</dl>
 </td>
 <td width="60%">
 Windows Vista with SP1
@@ -131,9 +143,9 @@ Windows Vista with SP1
 </td>
 </tr>
 <tr>
-
-### -field DXGKDDI_INTERFACE_VERSION_VISTA_WIN7
-
+<td width="40%"><a id="DXGKDDI_INTERFACE_VERSION_VISTA_WIN7"></a><a id="dxgkddi_interface_version_vista_win7"></a><dl>
+<dt><b>DXGKDDI_INTERFACE_VERSION_VISTA_WIN7</b></dt>
+</dl>
 </td>
 <td width="60%">
 Windows 7
@@ -141,17 +153,16 @@ Windows 7
 </td>
 </tr>
 <tr>
-
-### -field DXGKDDI_INTERFACE_VERSION_WIN8
-
+<td width="40%"><a id="DXGKDDI_INTERFACE_VERSION_WIN8"></a><a id="dxgkddi_interface_version_win8"></a><dl>
+<dt><b>DXGKDDI_INTERFACE_VERSION_WIN8</b></dt>
+</dl>
 </td>
 <td width="60%">
 Windows 8
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field DeviceHandle
@@ -334,21 +345,80 @@ Reserved for system use. Do not use in your driver.
 Supported starting with Windows 8.1.
 
 
-## -remarks
+### -field DxgkCbMapContextAllocation
+
+ 
+
+
+### -field DxgkCbUpdateContextAllocation
+
+ 
+
+
+### -field DxgkCbReserveGpuVirtualAddressRange
+
+ 
+
+
+### -field DxgkCbAcquireHandleData
+
+ 
+
+
+### -field DxgkCbReleaseHandleData
+
+ 
+
+
+### -field DxgkCbHardwareContentProtectionTeardown
+
+ 
+
+
+### -field DxgkCbMultiPlaneOverlayDisabled
+
+ 
+
+
+### -field DxgkCbMitigatedRangeUpdate
+
+ 
+
+
+### -field DxgkCbInvalidateHwContext
+
+ 
+
+
+### -field DxgkCbIndicateConnectorChange
+
+ 
+
+
+### -field DxgkCbUnblockUEFIFrameBufferRanges
+
+ 
+
+
+### -field DxgkCbAcquirePostDisplayOwnership2
+
+ 
+
+
+### -field DxgkCbSetProtectedSessionStatus
+
+ 
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560940">Dxgkrnl Interface</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
-</dt>
-</dl>
+
  
 
  

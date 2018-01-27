@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bdfe0fc3-1b25-493f-9d70-3b6d680fde50
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: NpdBrokerUninitialize
+ms.keywords: stream.kstrcanceltimer, KStrCancelTimer routine [Streaming Media Devices], KStrCancelTimer, PFNKSCANCELTIMER, PFNKSCANCELTIMER, ks/KStrCancelTimer, ksfunc_10ed86a1-d424-45d1-a420-3e4ce3a95a05.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KStrCancelTimer
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ks.h
+apiname: 
+-	KStrCancelTimer
+product: Windows
+targetos: Windows
 req.typenames: KEYWORDSELECTOR
 ---
 
 # PFNKSCANCELTIMER callback
 
 
-
 ## -description
+
+
 A streaming minidriver's <i>KStrCancelTimer</i> routine is called to cancel a custom timer object that was previously specified in the <i>SetTimer</i> parameter in a call to <a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>.
 
 
-
 ## -prototype
+
 
 ````
 PFNKSCANCELTIMER KStrCancelTimer;
@@ -58,6 +68,9 @@ BOOLEAN KStrCancelTimer(
 
 ## -parameters
 
+
+
+
 ### -param Context [in]
 
 Pointer to the minidriver-supplied information context. The minidriver passes the information context to <a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a> in the function's <i>DeferredContext</i> parameter when the minidriver allocates a custom DPC timer object.
@@ -69,10 +82,15 @@ Pointer to the minidriver's custom timer object to cancel.
 
 
 ## -returns
+
+
 Returns <b>TRUE</b> if the specified timer object is in the system timer queue, or <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 Minidrivers can optionally supply a <i>KStrCancelTimer</i> callback function as a parameter to <b>KsAllocateDefaultClockEx</b>.
 
 The minidriver-supplied <i>KStrCancelTimer</i> must have the same characteristics as <a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>.
@@ -80,18 +98,15 @@ The minidriver-supplied <i>KStrCancelTimer</i> must have the same characteristic
 If a minidriver supplies a <i>KStrCancelTimer</i> callback function, the minidriver must also supply a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a> callback function.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
+
+<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
+
  
 
  

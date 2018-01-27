@@ -7,8 +7,8 @@ old-location: print\wcscreateiccprofile.htm
 old-project: print
 ms.assetid: fbe37d6c-9b91-46d8-9d29-1de3ef542c19
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: WcsCreateIccProfile
+ms.date: 1/18/2018
+ms.keywords: WcsCreateIccProfile function [Print Devices], WcsCreateIccProfile, colorfnc_cb099d17-1109-4cb5-bbdc-76f1df13c60b.xml, print.wcscreateiccprofile, icm/WcsCreateIccProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Included in Windows Vista and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WcsCreateIccProfile
-req.alt-loc: Mscms.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Mscms.dll
+apiname: 
+-	WcsCreateIccProfile
+product: Windows
+targetos: Windows
 req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 ---
 
 # WcsCreateIccProfile function
 
 
-
 ## -description
+
+
 The <code>WcsCreateIccProfile</code> function converts a WCS profile into an ICC profile.
 
 
-
 ## -syntax
+
 
 ````
 HPROFILE WcsCreateIccProfile(
@@ -54,6 +64,9 @@ HPROFILE WcsCreateIccProfile(
 
 
 ## -parameters
+
+
+
 
 ### -param hWcsProfile [in]
 
@@ -67,12 +80,14 @@ A flag value that specifies the profile conversion options. This parameter must 
 
 
 
-### -param PREFER_WCS_PROFILES
+##### - dwOptions.PREFER_WCS_PROFILES
 
 Specifies that when WCS encounters an ICC profile, it should extract and use the WCS profiles that are contained in <b>WcsProfilesTag</b>.
 
-</dd>
-</dl>
 
 ## -remarks
-The WCS profile that is to be translated must be a Device Model Profile (DMP) in combination with a Color Appearance Model Profile (CAMP) and a Gamut Map Model Profile (GMMP).</p>
+
+
+The WCS profile that is to be translated must be a Device Model Profile (DMP) in combination with a Color Appearance Model Profile (CAMP) and a Gamut Map Model Profile (GMMP).
+
+

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9c047a7c-cdfc-47e1-beae-f8f326c187ee
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSOBJECT_CREATE_ITEM, *PKSOBJECT_CREATE_ITEM, KSOBJECT_CREATE_ITEM
+ms.keywords: ks/PKSOBJECT_CREATE_ITEM, ks-struct_d09f00c9-44ef-44fa-b46e-2ab540797a53.xml, KSOBJECT_CREATE_ITEM, PKSOBJECT_CREATE_ITEM structure pointer [Streaming Media Devices], *PKSOBJECT_CREATE_ITEM, KSOBJECT_CREATE_ITEM structure [Streaming Media Devices], PKSOBJECT_CREATE_ITEM, ks/KSOBJECT_CREATE_ITEM, stream.ksobject_create_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSOBJECT_CREATE_ITEM
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSOBJECT_CREATE_ITEM
+product: Windows
+targetos: Windows
 req.typenames: *PKSOBJECT_CREATE_ITEM, KSOBJECT_CREATE_ITEM
 ---
 
 # KSOBJECT_CREATE_ITEM structure
 
 
-
 ## -description
+
+
 The KSOBJECT_CREATE_ITEM structure is used to look up the string passed to a create request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -57,6 +67,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Create
 
@@ -81,7 +94,6 @@ Contains a pointer to a <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECU
 ### -field Flags
 
 Specifies the request type. Flags can have the values listed in the following table.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -117,28 +129,26 @@ Indicates that this create item does not allow any parameters to be passed, and 
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -remarks
+
+
 A pointer to the KSOBJECT_CREATE_ITEM structure is placed in the <b>DriverContext</b> member of <b>Irp-&gt;Tail.Overlay</b> before the object is created. You can access this pointer by using the KSCREATE_ITEM_IRP_STORAGE macro. This macro and related macros are included in <i>ks.h</i>.
 
 The minidriver might retrieve this pointer when creating a new object to examine the <b>Context</b> field.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksallocateobjectheader.md">KsAllocateObjectHeader</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksfilterfactoryaddcreateitem.md">KsFilterFactoryAddCreateItem</a>
-</dt>
-</dl>
+
  
 
  

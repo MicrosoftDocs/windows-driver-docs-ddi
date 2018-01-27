@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 55dcd9f3-6903-4718-98c2-ee42ee1026e3
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_UnsetUsages
+ms.keywords: hid.hidp_unsetusages, HidP_UnsetUsages routine [Human Input Devices], HidP_UnsetUsages, hidfunc_7ffa6677-1a45-4e19-8001-116fbeacf097.xml, hidpi/HidP_UnsetUsages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Windo
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HidP_UnsetUsages
-req.alt-loc: Hidparse.lib,Hidparse.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Hidparse.lib
+-	Hidparse.dll
+apiname: 
+-	HidP_UnsetUsages
+product: Windows
+targetos: Windows
 req.typenames: HIDP_REPORT_TYPE
 ---
 
 # HidP_UnsetUsages function
 
 
-
 ## -description
+
+
 The <b>HidP_UnsetUsages</b> routine sets specified HID control button <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usages</a> OFF (zero) in a HID report.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS __stdcall HidP_UnsetUsages(
@@ -60,6 +71,9 @@ NTSTATUS __stdcall HidP_UnsetUsages(
 
 
 ## -parameters
+
+
+
 
 ### -param ReportType [in]
 
@@ -102,73 +116,133 @@ Specifies the size, in bytes, of the report located at <i>Report</i>, which must
 
 
 ## -returns
+
+
 <b>HidP_UnsetUsages</b> returns HIDP_STATUS_SUCCESS if it successfully sets to OFF all the usages in <i>UsageList</i>.
 
 <b>HidP_UnsetUsages </b>returns one of the following status values if one of the input parameters is not valid:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INVALID_PREPARSED_DATA</b></dt>
-</dl>The preparsed data specified by <i>PreparsedData</i> is not valid.
+</dl>
+</td>
+<td width="60%">
+The preparsed data specified by <i>PreparsedData</i> is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INVALID_REPORT_LENGTH</b></dt>
-</dl>The report length is not valid.
+</dl>
+</td>
+<td width="60%">
+The report length is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INVALID_REPORT_TYPE</b></dt>
-</dl>The report type is not valid.
+</dl>
+</td>
+<td width="60%">
+The report type is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_REPORT_DOES_NOT_EXIST</b></dt>
-</dl>The collection does not contain a report of the specified type.
+</dl>
+</td>
+<td width="60%">
+The collection does not contain a report of the specified type.
 
- 
+</td>
+</tr>
+</table> 
 
 <b>HidP_UnsetUsages</b> returns one of the following status values if it was not able to set to OFF one of the usages in <i>UsageList</i>:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_BUTTON_NOT_PRESSED</b></dt>
 </dl>
+</td>
+<td width="60%">
+
 A usage is already set to OFF.
 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INCOMPATIBLE_REPORT_ID</b></dt>
 </dl>
+</td>
+<td width="60%">
+
 A usage is not contained in the specified report, but is contained in another report of the specified type.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_USAGE_NOT_FOUND</b></dt>
 </dl>
+</td>
+<td width="60%">
+
 
 The routine did not find a usage in any report of the specified type.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>HidP_UnsetUsages</b> sets <i>UsageLength</i> as follows:
 
 
 
-The input value is unchanged.
-
-Set to the index of the usage in <i>UsageList</i> that caused the error.
-
 For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539779">HidP_SetButtons</a>
-</dt>
-<dt>
-<a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
-</dt>
-<dt>
-<a href="..\hidpi\nf-hidpi-hidp_setusages.md">HidP_SetUsages</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539812">HidP_UnsetButtons</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539779">HidP_SetButtons</a>
+
+<a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
+
+<a href="..\hidpi\nf-hidpi-hidp_setusages.md">HidP_SetUsages</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 964B305F-5B9E-4705-89BA-DBAE43464FB1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+ms.keywords: kernel.configureadapterchannel, ConfigureAdapterChannel, ConfigureAdapterChannel callback function [Kernel-Mode Driver Architecture], ConfigureAdapterChannel, PCONFIGURE_ADAPTER_CHANNEL, PCONFIGURE_ADAPTER_CHANNEL, wdm/ConfigureAdapterChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ConfigureAdapterChannel
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wdm.h
+apiname: 
+-	ConfigureAdapterChannel
+product: Windows
+targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PCONFIGURE_ADAPTER_CHANNEL callback
 
 
-
 ## -description
+
+
 The <b>ConfigureAdapterChannel</b> routine invokes a custom function that is implemented by the DMA controller represented by an adapter object.
 
 
-
 ## -prototype
+
 
 ````
 PCONFIGURE_ADAPTER_CHANNEL ConfigureAdapterChannel;
@@ -59,6 +69,9 @@ NTSTATUS ConfigureAdapterChannel(
 
 
 ## -parameters
+
+
+
 
 ### -param DmaAdapter [in]
 
@@ -76,15 +89,32 @@ A pointer to the configuration parameters for the custom function that is specif
 
 
 ## -returns
+
+
 <b>ConfigureAdapterChannel</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following status code.
+<table>
+<tr>
+<th>Return value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt>STATUS_NOT_IMPLEMENTED</dt>
-</dl>The  DMA extension does not implement the function specified by <i>FunctionNumber</i>.
+</dl>
+</td>
+<td width="60%">
+The  DMA extension does not implement the function specified by <i>FunctionNumber</i>.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>ConfigureAdapterChannel</b><i> is not a system routine that can be called directly by name. This routine can be called only by pointer from the address returned in a </i><a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a><i> structure. </i>Drivers obtain the address of this routine by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> with the <b>Version</b> member of the <i>DeviceDescription</i> parameter set to DEVICE_DESCRIPTION_VERSION3. If <b>IoGetDmaAdapter</b> returns <b>NULL</b>, the routine is not available on your platform.
 
 Use <b>ConfigureAdapterChannel</b> only for system DMA adapters. Do not use this routine for a bus-master adapter.
@@ -95,18 +125,15 @@ A particular system DMA controller might have special hardware features that dev
 Typically, a custom function sets state information in the DMA controller to configure hardware features for use  in subsequent DMA transfers.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
-</dt>
-</dl>
+
  
 
  

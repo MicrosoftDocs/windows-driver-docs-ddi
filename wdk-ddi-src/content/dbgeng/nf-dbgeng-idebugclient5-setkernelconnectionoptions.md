@@ -7,8 +7,8 @@ old-location: debugger\setkernelconnectionoptions.htm
 old-project: debugger
 ms.assetid: 0633c710-20c4-49c0-a680-a5eff9298265
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugClient5, IDebugClient5::SetKernelConnectionOptions, SetKernelConnectionOptions
+ms.date: 1/19/2018
+ms.keywords: SetKernelConnectionOptions method [Windows Debugging], IDebugClient4 interface, IDebugClient2 interface [Windows Debugging], SetKernelConnectionOptions method, IDebugClient5, dbgeng/IDebugClient3::SetKernelConnectionOptions, IDebugClient3::SetKernelConnectionOptions, IDebugClient_b7b26913-d776-41b9-b94a-d5fa685e5fa9.xml, IDebugClient::SetKernelConnectionOptions, IDebugClient4 interface [Windows Debugging], SetKernelConnectionOptions method, SetKernelConnectionOptions method [Windows Debugging], IDebugClient interface, SetKernelConnectionOptions method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient::SetKernelConnectionOptions, dbgeng/IDebugClient2::SetKernelConnectionOptions, IDebugClient5 interface [Windows Debugging], SetKernelConnectionOptions method, IDebugClient4::SetKernelConnectionOptions, SetKernelConnectionOptions, IDebugClient3 interface [Windows Debugging], SetKernelConnectionOptions method, IDebugClient5::SetKernelConnectionOptions, IDebugClient interface [Windows Debugging], SetKernelConnectionOptions method, SetKernelConnectionOptions method [Windows Debugging], debugger.setkernelconnectionoptions, SetKernelConnectionOptions method [Windows Debugging], IDebugClient2 interface, IDebugClient2::SetKernelConnectionOptions, SetKernelConnectionOptions method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient4::SetKernelConnectionOptions, dbgeng/IDebugClient5::SetKernelConnectionOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugClient.SetKernelConnectionOptions,IDebugClient2.SetKernelConnectionOptions,IDebugClient3.SetKernelConnectionOptions,IDebugClient4.SetKernelConnectionOptions,IDebugClient5.SetKernelConnectionOptions
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,38 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugClient.SetKernelConnectionOptions
+-	IDebugClient2.SetKernelConnectionOptions
+-	IDebugClient3.SetKernelConnectionOptions
+-	IDebugClient4.SetKernelConnectionOptions
+-	IDebugClient5.SetKernelConnectionOptions
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugClient5::SetKernelConnectionOptions method
 
 
-
 ## -description
+
+
 The <b>SetKernelConnectionOptions</b>  method updates some of the connection options for a live kernel target.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT SetKernelConnectionOptions(
@@ -54,10 +68,12 @@ HRESULT SetKernelConnectionOptions(
 
 ## -parameters
 
+
+
+
 ### -param Options [in]
 
 Specifies the connection options to update.  The possible values are:
-
 <table>
 <tr>
 <th>Value</th>
@@ -69,7 +85,7 @@ Specifies the connection options to update.  The possible values are:
 
 </td>
 <td>
-Re-synchronize the connection between the <a href="debugger.introduction#debugger_engine#debugger_engine">debugger engine</a> and the kernel.  For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558852">Synchronizing with the Target Computer</a>.
+Re-synchronize the connection between the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> and the kernel.  For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558852">Synchronizing with the Target Computer</a>.
 
 </td>
 </tr>
@@ -83,52 +99,70 @@ For kernel connections through a COM port, cycle through the supported baud rate
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method was successful.
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_UNEXPECTED</b></dt>
-</dl>The current target is not a live (non-local) kernel target.
+</dl>
+</td>
+<td width="60%">
+The current target is not a live (non-local) kernel target.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This method is available only for live kernel targets that are not local and not connected through eXDI.  This method is reentrant.
 
 For more information about connecting to live kernel-mode targets, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552005">Live Kernel-Mode Targets</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-</dt>
-<dt>
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-</dt>
-<dt>
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-</dt>
-<dt>
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-</dt>
-<dt>
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-</dt>
-<dt>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
-</dt>
-</dl>
- 
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::SetKernelConnectionOptions method%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::SetKernelConnectionOptions method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

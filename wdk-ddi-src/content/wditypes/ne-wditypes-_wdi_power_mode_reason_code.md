@@ -7,8 +7,8 @@ old-location: netvista\wdi_power_mode_reason_code.htm
 old-project: netvista
 ms.assetid: F9FAA622-A844-4D9F-A0E6-D919C1FAD3AB
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WDI_POWER_MODE_REASON_CODE, WDI_POWER_MODE_REASON_CODE
+ms.date: 1/18/2018
+ms.keywords: WDI_POWER_MODE_REASON_CODE_COMPLIANT_P2P_DEVICE, _WDI_POWER_MODE_REASON_CODE, WDI_POWER_MODE_REASON_CODE_NO_CHANGE, wditypes/WDI_POWER_MODE_REASON_CODE_NO_CHANGE, WDI_POWER_MODE_REASON_CODE_OTHERS, wditypes/WDI_POWER_MODE_REASON_CODE_COMPLIANT_AP, WDI_POWER_MODE_REASON_CODE_NONCOMPLIANT_AP, wditypes/WDI_POWER_MODE_REASON_CODE_NONCOMPLIANT_AP, wditypes/WDI_POWER_MODE_REASON_CODE, wditypes/WDI_POWER_MODE_REASON_CODE_COMPLIANT_P2P_DEVICE, netvista.wdi_power_mode_reason_code, netvista.wifi_power_mode_reason_code, WDI_POWER_MODE_REASON_CODE_LEGACY_P2P_DEVICE, wditypes/WDI_POWER_MODE_REASON_CODE_LEGACY_P2P_DEVICE, WDI_POWER_MODE_REASON_CODE enumeration [Network Drivers Starting with Windows Vista], WDI_POWER_MODE_REASON_CODE_COMPLIANT_AP, wditypes/WDI_POWER_MODE_REASON_CODE_OTHERS, WDI_POWER_MODE_REASON_CODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WDI_POWER_MODE_REASON_CODE
-req.alt-loc: wditypes.hpp
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wditypes.hpp
+apiname: 
+-	WDI_POWER_MODE_REASON_CODE
+product: Windows
+targetos: Windows
 req.typenames: WDI_POWER_MODE_REASON_CODE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _WDI_POWER_MODE_REASON_CODE enumeration
 
 
-
 ## -description
+
+
 The WDI_POWER_MODE_REASON_CODE enumeration defines the reasons for entering the Power Save state.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDI_POWER_MODE_REASON_CODE { 
@@ -60,14 +70,16 @@ typedef enum _WDI_POWER_MODE_REASON_CODE {
 
 ## -enum-fields
 
+
+
+
 ### -field WDI_POWER_MODE_REASON_CODE_NO_CHANGE
 
 Device is initially in this state and has not changed since.
 
 
-### -field WDI_POWER_MODE_REASON_CODE_NONCOMPLIANT_AP
+### -field WDI_POWER_MODE_REASON_CODE_NONCOMPLANT_AP
 
-AP is not compliant. As to be in CAM.
 
 
 ### -field WDI_POWER_MODE_REASON_CODE_LEGACY_P2P_DEVICE
@@ -90,4 +102,7 @@ All connected WFD device can do PSM.
 Other reason.
 
 
-## -remarks
+#### - WDI_POWER_MODE_REASON_CODE_NONCOMPLIANT_AP
+
+AP is not compliant. As to be in CAM.
+

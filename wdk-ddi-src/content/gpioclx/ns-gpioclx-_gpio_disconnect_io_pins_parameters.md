@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 79ABCF93-4EC3-49D5-9943-C820B0B8CF66
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _GPIO_DISCONNECT_IO_PINS_PARAMETERS, GPIO_DISCONNECT_IO_PINS_PARAMETERS, *PGPIO_DISCONNECT_IO_PINS_PARAMETERS
+ms.keywords: GPIO_DISCONNECT_IO_PINS_PARAMETERS, PGPIO_DISCONNECT_IO_PINS_PARAMETERS, gpioclx/GPIO_DISCONNECT_IO_PINS_PARAMETERS, *PGPIO_DISCONNECT_IO_PINS_PARAMETERS, GPIO.gpio_disconnect_io_pins_parameters, _GPIO_DISCONNECT_IO_PINS_PARAMETERS, gpioclx/PGPIO_DISCONNECT_IO_PINS_PARAMETERS, GPIO_DISCONNECT_IO_PINS_PARAMETERS structure [Parallel Ports], PGPIO_DISCONNECT_IO_PINS_PARAMETERS structure pointer [Parallel Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GPIO_DISCONNECT_IO_PINS_PARAMETERS
-req.alt-loc: Gpioclx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Gpioclx.h
+apiname: 
+-	GPIO_DISCONNECT_IO_PINS_PARAMETERS
+product: Windows
+targetos: Windows
 req.typenames: GPIO_DISCONNECT_IO_PINS_PARAMETERS, *PGPIO_DISCONNECT_IO_PINS_PARAMETERS
 ---
 
 # _GPIO_DISCONNECT_IO_PINS_PARAMETERS structure
 
 
-
 ## -description
+
+
 The <b>GPIO_DISCONNECT_IO_PINS_PARAMETERS</b> structure describes a set of general-purpose I/O (GPIO) pins that are to be disconnected.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GPIO_DISCONNECT_IO_PINS_PARAMETERS {
@@ -57,6 +67,9 @@ typedef struct _GPIO_DISCONNECT_IO_PINS_PARAMETERS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field BankId
 
@@ -84,6 +97,8 @@ A set of flags that control how the GPIO pins are to be configured after they ar
 
 
 ## -remarks
+
+
 The <i>DisconnectParameters</i> parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439374">CLIENT_DisconnectIoPins</a> event callback routine is a pointer to a <b>GPIO_CONNECT_IO_PINS_PARAMETERS</b> structure.
 
 By default, when a GPIO I/O pin is disconnected, the GPIO controller driver configures the pin in a platform-specific initial state. The pin is typically configured in a low-power state to reduce the load on the battery. However, the <b>PreserveConfiguration</b> flag can be used to override this default behavior. The flag tells the GPIO controller driver to preserve the configuration of the I/O pins that are being disconnected.
@@ -91,21 +106,17 @@ By default, when a GPIO I/O pin is disconnected, the GPIO controller driver conf
 For example, a peripheral device driver might open a logical connection to a GPIO I/O pin that is configured as an output, and then write a bit value of 1 to the pin. The <b>PreserveConfiguration</b> flag enables the driver to close the connection without altering the pin's output level. Later, if the driver needs to change the output level of the pin from 1 to 0, the driver opens a new connection to the pin.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439374">CLIENT_DisconnectIoPins</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439505">GPIO_CONNECT_IO_PINS_MODE</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
  
 
  

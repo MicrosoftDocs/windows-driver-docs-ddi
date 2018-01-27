@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 68faba0a-8057-4259-b93d-c19899637356
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsPin, IKsPin::KsCreateSinkPinHandle, KsCreateSinkPinHandle
+ms.keywords: IKsPin interface [Streaming Media Devices], KsCreateSinkPinHandle method, IKsPin::KsCreateSinkPinHandle, stream.ikspin_kscreatesinkpinhandle, ksproxy/IKsPin::KsCreateSinkPinHandle, KsCreateSinkPinHandle method [Streaming Media Devices], IKsPin interface, KsCreateSinkPinHandle method [Streaming Media Devices], IKsPin, KsCreateSinkPinHandle, ksproxy_8d4ac125-ae14-4abf-97cb-74fd33e5029c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsPin.KsCreateSinkPinHandle
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ksproxy.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsPin.KsCreateSinkPinHandle
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsPin::KsCreateSinkPinHandle method
 
 
-
 ## -description
+
+
 The <b>KsCreateSinkPinHandle</b> method creates a pin handle and stores it in the KS pin object. 
 
 
-
 ## -syntax
+
 
 ````
 HRESULT KsCreateSinkPinHandle(
@@ -54,6 +64,9 @@ HRESULT KsCreateSinkPinHandle(
 
 
 ## -parameters
+
+
+
 
 ### -param Interface [in]
 
@@ -66,10 +79,15 @@ A type reference to a <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a> str
 
 
 ## -returns
+
+
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
+
 ## -remarks
+
+
 Since the <b>KsCreateSinkPinHandle</b> method uses pass-by-reference variables, it is not necessary to pass pointers to KSPIN_INTERFACE and KSPIN_MEDIUM structures as arguments. 
 
 After <b>KsCreateSinkPinHandle</b> has created a pin handle, you can retrieve the handle by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a> method.
@@ -77,18 +95,15 @@ After <b>KsCreateSinkPinHandle</b> has created a pin handle, you can retrieve th
 This method is for proxy use and is not recommended for application use.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6f6df55d-bb23-4a70-97f4-32809d1a41a5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_OFFERALLOCATIONS, D3DKMT_OFFERALLOCATIONS
+ms.keywords: D3DKMT_OFFERALLOCATIONS, D3DKMT_OFFERALLOCATIONS structure [Display Devices], d3dkmthk/D3DKMT_OFFERALLOCATIONS, _D3DKMT_OFFERALLOCATIONS, display.d3dkmt_offerallocations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_OFFERALLOCATIONS
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_OFFERALLOCATIONS
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_OFFERALLOCATIONS
 ---
 
 # _D3DKMT_OFFERALLOCATIONS structure
 
 
-
 ## -description
+
+
 Defines the video memory allocations that the driver offers for reuse. Used with the  <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtofferallocations.md">D3DKMTOfferAllocations</a>  function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_OFFERALLOCATIONS {
@@ -57,6 +67,9 @@ typedef struct _D3DKMT_OFFERALLOCATIONS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -87,18 +100,18 @@ If resources were created with the <b>D3D10_DDI_BIND_PRESENT</b> flag value set 
 [in] The priority, of type  <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_offer_priority.md">D3DKMT_OFFER_PRIORITY</a>, with which to offer the allocations for reuse.
 
 
-## -remarks
+### -field Flags
+
+ 
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_offer_priority.md">D3DKMT_OFFER_PRIORITY</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtofferallocations.md">D3DKMTOfferAllocations</a>
-</dt>
-</dl>
+
  
 
  

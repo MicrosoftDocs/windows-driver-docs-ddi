@@ -7,8 +7,8 @@ old-location: netvista\wdi_connection_quality_hint.htm
 old-project: netvista
 ms.assetid: D83AE2BE-1273-48A1-A42C-C2EADA07D9C0
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WDI_CONNECTION_QUALITY_HINT, WDI_CONNECTION_QUALITY_HINT
+ms.date: 1/18/2018
+ms.keywords: devinst.wfi_connection_quality_hint, WDI_CONNECTION_QUALITY_AUTO_POWER_SAVE, wditypes/WDI_CONNECTION_QUALITY_AUTO_POWER_SAVE, wditypes/WDI_CONNECTION_QUALITY_HIGH_THROUGHPUT, wditypes/WDI_CONNECTION_QUALITY_HIGH_CHANNEL_AVAILABILITY, wditypes/WDI_CONNECTION_QUALITY_HINT, WDI_CONNECTION_QUALITY_HINT enumeration [Device and Driver Installation], WDI_CONNECTION_QUALITY_HIGH_THROUGHPUT, WDI_CONNECTION_QUALITY_LOW_LATENCY, wditypes/WDI_CONNECTION_QUALITY_LOW_LATENCY, _WDI_CONNECTION_QUALITY_HINT, WDI_CONNECTION_QUALITY_HINT, netvista.wdi_connection_quality_hint, WDI_CONNECTION_QUALITY_HIGH_CHANNEL_AVAILABILITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WDI_CONNECTION_QUALITY_HINT
-req.alt-loc: wditypes.hpp
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wditypes.hpp
+apiname: 
+-	WDI_CONNECTION_QUALITY_HINT
+product: Windows
+targetos: Windows
 req.typenames: WDI_CONNECTION_QUALITY_HINT
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _WDI_CONNECTION_QUALITY_HINT enumeration
 
 
-
 ## -description
+
+
 The WDI_CONNECTION_QUALITY_HINT enumeration defines the Wi-Fi connection quality hints.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDI_CONNECTION_QUALITY_HINT { 
@@ -57,6 +67,9 @@ typedef enum _WDI_CONNECTION_QUALITY_HINT {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WDI_CONNECTION_QUALITY_AUTO_POWER_SAVE
 
@@ -76,11 +89,14 @@ When in this mode, the port can (optionally) use power saving as long as it can 
 Reserved.
 
 
-### -field WDI_CONNECTION_QUALITY_HIGH_CHANNEL_AVAILABILITY
+### -field WDI_CONNECTION_QUALITY_NO_POWER_SAVE
+
+
+
+
+#### - WDI_CONNECTION_QUALITY_HIGH_CHANNEL_AVAILABILITY
 
 This hint indicates that the host is performing an operation on the port which is not tolerant to packet loss. Adapter should not power save and should remain on the given port’s operational channel for as long as possible without losing link connectivity on other ports, until this connection quality hint is unset.
 This may be set due to L2 protocol (EAP/4-way handshake exchanges/etc), L3 protocol (DHCP/etc), or other scenarios where high channel availability is important to the overall experience.
 This can only be set on one port.
 
-
-## -remarks

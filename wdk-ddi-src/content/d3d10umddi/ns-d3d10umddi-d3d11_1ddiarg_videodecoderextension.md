@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d11a6be1-f723-47eb-b131-e1b02451e18a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDIARG_VIDEODECODEREXTENSION, D3D11_1DDIARG_VIDEODECODEREXTENSION
+ms.keywords: display.d3d11_1ddiarg_videodecoderextension, d3d10umddi/D3D11_1DDIARG_VIDEODECODEREXTENSION, D3D11_1DDIARG_VIDEODECODEREXTENSION structure [Display Devices], D3D11_1DDIARG_VIDEODECODEREXTENSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDIARG_VIDEODECODEREXTENSION
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDIARG_VIDEODECODEREXTENSION
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDIARG_VIDEODECODEREXTENSION
 ---
 
 # D3D11_1DDIARG_VIDEODECODEREXTENSION structure
 
 
-
 ## -description
+
+
 Specifies driver-specific data for the extended Microsoft DirectX Video Acceleration (DXVA) decoding function that is provided by a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderextension.md">VideoDecoderExtension</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D11_1DDIARG_VIDEODECODEREXTENSION {
@@ -59,6 +69,9 @@ typedef struct D3D11_1DDIARG_VIDEODECODEREXTENSION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Function
 
@@ -96,15 +109,16 @@ A pointer to an array of resource handles. Use this member to pass Direct3D reso
 
 
 ## -remarks
+
+
 The exact meaning of each structure member depends on the value of <b>Function</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderextension.md">VideoDecoderExtension</a>
-</dt>
-</dl>
+
  
 
  

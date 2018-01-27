@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9e63a4eb-050b-4f12-ad43-00e62021abd3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDIARG_CREATECRYPTOSESSION, D3D11_1DDIARG_CREATECRYPTOSESSION
+ms.keywords: D3D11_1DDIARG_CREATECRYPTOSESSION, display.d3d11_1ddiarg_createcryptosession, d3d10umddi/D3D11_1DDIARG_CREATECRYPTOSESSION, D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION, D3D11_1DDIARG_CREATECRYPTOSESSION structure [Display Devices], D3D11_1DDI_KEY_EXCHANGE_RSAES_OAEP, D3D11_1DDI_CRYPTO_TYPE_AES128_CTR, D3D11_1DDI_CRYPTO_TYPE_PROPRIETARY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDIARG_CREATECRYPTOSESSION
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDIARG_CREATECRYPTOSESSION
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDIARG_CREATECRYPTOSESSION
 ---
 
 # D3D11_1DDIARG_CREATECRYPTOSESSION structure
 
 
-
 ## -description
+
+
 Specifies the attributes of the cryptographic session to be created by the user-mode driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D11_1DDIARG_CREATECRYPTOSESSION {
@@ -56,19 +66,21 @@ typedef struct D3D11_1DDIARG_CREATECRYPTOSESSION {
 
 ## -struct-fields
 
+
+
+
 ### -field CryptoType
 
 a GUID that indicates the encryption type, which the driver uses for the encryption session that the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function creates. The GUID can be one of the following:
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field D3D11_1DDI_CRYPTO_TYPE_AES128_CTR
-
+<td width="40%"><a id="D3D11_1DDI_CRYPTO_TYPE_AES128_CTR"></a><a id="d3d11_1ddi_crypto_type_aes128_ctr"></a><dl>
+<dt><b>D3D11_1DDI_CRYPTO_TYPE_AES128_CTR</b></dt>
+</dl>
 </td>
 <td width="60%">
 A 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher.
@@ -76,17 +88,16 @@ A 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher.
 </td>
 </tr>
 <tr>
-
-### -field D3D11_1DDI_CRYPTO_TYPE_PROPRIETARY
-
+<td width="40%"><a id="D3D11_1DDI_CRYPTO_TYPE_PROPRIETARY"></a><a id="d3d11_1ddi_crypto_type_proprietary"></a><dl>
+<dt><b>D3D11_1DDI_CRYPTO_TYPE_PROPRIETARY</b></dt>
+</dl>
 </td>
 <td width="60%">
 A proprietary encryption algorithm.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field DecodeProfile
@@ -98,16 +109,15 @@ A GUID that specifies the DirectX Video Acceleration (DXVA) decode profile that 
 
 A GUID that specifies the type of key exchange.
 The following GUID is defined.
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field D3D11_1DDI_KEY_EXCHANGE_RSAES_OAEP
-
+<td width="40%"><a id="D3D11_1DDI_KEY_EXCHANGE_RSAES_OAEP"></a><a id="d3d11_1ddi_key_exchange_rsaes_oaep"></a><dl>
+<dt><b>D3D11_1DDI_KEY_EXCHANGE_RSAES_OAEP</b></dt>
+</dl>
 </td>
 <td width="60%">
 The caller will create the session key, encrypt it with RSA Encryption Scheme - Optimal Asymmetric Encryption Padding (RSAES-OAEP) by using the driver's public key, and pass the session key to the driver.
@@ -115,9 +125,9 @@ The caller will create the session key, encrypt it with RSA Encryption Scheme - 
 </td>
 </tr>
 <tr>
-
-### -field D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION
-
+<td width="40%"><a id="D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION"></a><a id="d3dwddm2_0ddi_key_exchange_hw_protection"></a><dl>
+<dt><b>D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION</b></dt>
+</dl>
 </td>
 <td width="60%">
 The crypto session will be used purely for communication between user mode DRM component and the secure execution environment.
@@ -155,8 +165,5 @@ The DRM commands are sent to the user mode driver by calling the <a href="..\d3d
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
-
-## -remarks

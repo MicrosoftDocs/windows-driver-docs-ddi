@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: BF92ADEA-4A9F-41E0-BE52-0794D1D827A1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlIsSystemPagingFile
+ms.keywords: ifsk.fsrtlissystempagingfile, FsRtlIsSystemPagingFile, FsRtlIsPagingFile routine [Installable File System Drivers], ntifs/FsRtlIsPagingFile, FsRtlIsPagingFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlIsPagingFile
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlIsPagingFile
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlIsSystemPagingFile function
 
 
-
 ## -description
+
+
 The <b>FsRtlIsSystemPagingFile</b> routine determines whether a given file is currently a system paging file. 
 
 
-
 ## -syntax
+
 
 ````
 LOGICAL FsRtlIsPagingFile(
@@ -54,30 +64,29 @@ LOGICAL FsRtlIsPagingFile(
 
 ## -parameters
 
+
+
+
 ### -param FileObject [in]
 
 Pointer to a file object for the file. 
 
 
 ## -returns
+
+
 <b>FsRtlIsSystemPagingFile</b> returns <b>TRUE</b> if the file represented by <i>FileObject</i> is a system paging file, otherwise <b>FALSE</b>.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-fsrtlispagingfile.md">FsRtlIsPagingFile</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpostpagingfilestackoverflow~r2.md">FsRtlPostPagingFileStackOverflow</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-fsrtlispagingfile.md">FsRtlIsPagingFile</a>
+
  
 
  

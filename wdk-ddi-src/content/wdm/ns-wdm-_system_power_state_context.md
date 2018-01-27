@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C924C7BD-071C-4A98-9A9B-2BEFA1101DF3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _SYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
+ms.keywords: PSYSTEM_POWER_STATE_CONTEXT, kernel.system_power_state_context, SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT, _SYSTEM_POWER_STATE_CONTEXT, wdm/SYSTEM_POWER_STATE_CONTEXT, PSYSTEM_POWER_STATE_CONTEXT structure pointer [Kernel-Mode Driver Architecture], SYSTEM_POWER_STATE_CONTEXT structure [Kernel-Mode Driver Architecture], wdm/PSYSTEM_POWER_STATE_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SYSTEM_POWER_STATE_CONTEXT
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	SYSTEM_POWER_STATE_CONTEXT
+product: Windows
+targetos: Windows
 req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _SYSTEM_POWER_STATE_CONTEXT structure
 
 
-
 ## -description
+
+
 The <b>SYSTEM_POWER_STATE_CONTEXT</b> structure is a partially opaque system structure that contains information about the previous system power states of a computer.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SYSTEM_POWER_STATE_CONTEXT {
@@ -66,75 +76,79 @@ typedef struct _SYSTEM_POWER_STATE_CONTEXT {
 
 ## -struct-fields
 
+
+
+
 ### -field DUMMYUNIONNAME
 
 Unnamed union.
 
 
-### -field DUMMYSTRUCTNAME
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
 Unnamed structure.
 
 
-### -field Reserved1
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Reserved1
 
 Opaque member. Reserved for system use.
 
 
-### -field TargetSystemState
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.TargetSystemState
 
 The target system power state of the previous <a href="https://msdn.microsoft.com/a37e8dda-af7a-4f28-bf04-908a74bb5b2f">system power IRP</a> that the driver received. This member is set to a <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a> enumeration value. Drivers should treat this member as read-only.
 
 
-### -field EffectiveSystemState
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.EffectiveSystemState
 
 The effective previous system power state, as perceived by the user. This member is set to a <b>SYSTEM_POWER_STATE</b> enumeration value. Drivers should treat this member as read-only. This member value might not match the <b>TargetSystemState</b> member if, for example, the previous system power IRP indicated that the computer was about to enter hibernation, but a hybrid shutdown instead occurred to prepare the computer for a fast startup. For more information, see Remarks.
 
 
-### -field CurrentSystemState
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.CurrentSystemState
 
 Opaque member. Reserved for system use.
 
 
-### -field IgnoreHibernationPath
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.IgnoreHibernationPath
 
 Opaque member. Reserved for system use.
 
 
-### -field PseudoTransition
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.PseudoTransition
 
 Opaque member. Reserved for system use.
 
 
-### -field Reserved2
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.KernelSoftReboot
+
+ 
+
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Reserved2
 
 Opaque member. Reserved for system use.
 
-</dd>
-</dl>
 
-### -field ContextAsUlong
+### -field DUMMYUNIONNAME.ContextAsUlong
 
 Opaque member. Reserved for system use.
 
-</dd>
-</dl>
 
 ## -remarks
+
+
 Starting with Windows Vista, the <a href="https://msdn.microsoft.com/62c8ee00-c7cb-4aa1-90ab-b8bedbd818ee">I/O stack location</a> in a <a href="https://msdn.microsoft.com/a37e8dda-af7a-4f28-bf04-908a74bb5b2f">system power IRP</a> contains a <b>SYSTEM_POWER_STATE_CONTEXT</b> structure. The <b>Power</b> member of the <b>IO_STACK_LOCATION</b> structure contains a <b>SystemPowerStateContext</b> member, which is a <b>SYSTEM_POWER_STATE_CONTEXT</b> structure. For more information, see <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>.
 
 The size of the <b>SYSTEM_POWER_STATE_CONTEXT</b> structure is four bytes. This structure is divided into bit fields, most of which are opaque to drivers and reserved exclusively for use by the operating system. However, two of these bit fields, <b>TargetSystemState</b> and <b>EffectiveSystemState</b>, can be read by kernel-mode drivers to distinguish a fast startup from a wake-from-hibernation startup. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj835779">Distinguishing Fast Startup from Wake-from-Hibernation</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
-</dt>
-</dl>
+
  
 
  

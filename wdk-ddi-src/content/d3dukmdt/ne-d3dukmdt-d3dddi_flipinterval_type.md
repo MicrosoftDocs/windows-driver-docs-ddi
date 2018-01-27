@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fbfc270c-b8e3-4467-b99d-2d5932a50114
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_FLIPINTERVAL_TYPE, D3DDDI_FLIPINTERVAL_TYPE
+ms.keywords: D3DDDI_FLIPINTERVAL_TYPE enumeration [Display Devices], d3dukmdt/D3DDDI_FLIPINTERVAL_THREE, D3DDDI_FLIPINTERVAL_THREE, display.d3dddi_flipinterval_type, d3dukmdt/D3DDDI_FLIPINTERVAL_FOUR, D3DDDI_FLIPINTERVAL_ONE, D3DDDI_FLIPINTERVAL_TYPE, d3dukmdt/D3DDDI_FLIPINTERVAL_TYPE, d3dukmdt/D3DDDI_FLIPINTERVAL_IMMEDIATE, d3dukmdt/D3DDDI_FLIPINTERVAL_ONE, D3DDDI_FLIPINTERVAL_TWO, d3dukmdt/D3DDDI_FLIPINTERVAL_TWO, D3DDDI_FLIPINTERVAL_IMMEDIATE, D3D_other_Structs_389c16ef-e25c-498e-994f-324efb96052c.xml, D3DDDI_FLIPINTERVAL_FOUR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_FLIPINTERVAL_TYPE
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_FLIPINTERVAL_TYPE
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_FLIPINTERVAL_TYPE
 ---
 
 # D3DDDI_FLIPINTERVAL_TYPE enumeration
 
 
-
 ## -description
+
+
 The D3DDDI_FLIPINTERVAL_TYPE enumeration type contains values that identify the type of flip that occurs in present operations.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3DDDI_FLIPINTERVAL_TYPE { 
@@ -57,6 +67,9 @@ typedef enum D3DDDI_FLIPINTERVAL_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DDDI_FLIPINTERVAL_IMMEDIATE
 
@@ -83,15 +96,15 @@ Indicates to perform the flip on every third vertical sync.
 Indicates to perform the flip on every fourth vertical sync.
 
 
-## -remarks
+### -field D3DDDI_FLIPINTERVAL_IMMEDIATE_ALLOW_TEARING
+
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1edae050-8e72-42e7-9dc9-8f449699969c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _DEVICE_CAPABILITIES, DEVICE_CAPABILITIES, PDEVICE_CAPABILITIES
+ms.keywords: kernel.device_capabilities, wdm/PDEVICE_CAPABILITIES, DEVICE_CAPABILITIES, PDEVICE_CAPABILITIES, wdm/DEVICE_CAPABILITIES, DEVICE_CAPABILITIES structure [Kernel-Mode Driver Architecture], kstruct_a_53ec6d40-84a0-45f6-a78c-73fcc3c12e11.xml, _DEVICE_CAPABILITIES, PDEVICE_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DEVICE_CAPABILITIES
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	DEVICE_CAPABILITIES
+product: Windows
+targetos: Windows
 req.typenames: DEVICE_CAPABILITIES, PDEVICE_CAPABILITIES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _DEVICE_CAPABILITIES structure
 
 
-
 ## -description
+
+
 A <b>DEVICE_CAPABILITIES</b> structure describes PnP and power capabilities of a device. This structure is returned in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a> IRP.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DEVICE_CAPABILITIES {
@@ -83,6 +93,9 @@ typedef struct _DEVICE_CAPABILITIES {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -142,7 +155,7 @@ Specifies whether Device Manager should suppress all installation dialog boxes; 
 
 ### -field RawDeviceOK
 
-Specifies whether the driver for the underlying bus can drive the device if there is no function driver (for example, SCSI devices in pass-through mode). This mode of operation is called <a href="wdkgloss.r#wdkgloss.raw_mode#wdkgloss.raw_mode">raw mode</a>.
+Specifies whether the driver for the underlying bus can drive the device if there is no function driver (for example, SCSI devices in pass-through mode). This mode of operation is called <a href="https://msdn.microsoft.com/004698f5-cb0e-4995-a19c-7075aa226000">raw mode</a>.
 
 
 ### -field SurpriseRemovalOK
@@ -150,9 +163,7 @@ Specifies whether the driver for the underlying bus can drive the device if ther
 Specifies whether the function driver for the device can handle the case where the device is removed before Windows can send <b>IRP_MN_QUERY_REMOVE_DEVICE</b> to it. If <b>SurpriseRemovalOK</b> is set to <b>TRUE</b>, the device can be safely removed from its immediate parent regardless of the state that its driver is in.
 
 For example, a standard USB mouse does not maintain any state in its hardware and thus can be safely removed at any time. However, an external hard disk whose driver caches writes in memory cannot be safely removed without first letting the driver flush its cache to the hardware.
-
-<div class="alert"><b>Note</b>  Drivers for USB devices that support surprise removal must set this to <b>TRUE</b> only when the IRP is being passed back up the driver stack.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  Drivers for USB devices that support surprise removal must set this to <b>TRUE</b> only when the IRP is being passed back up the driver stack.</div><div> </div>
 
 ### -field WakeFromD0
 
@@ -201,6 +212,17 @@ Do not display the device in the user interface. If this bit is set, the device 
 ### -field Reserved1
 
 
+
+### -field WakeFromInterrupt
+
+ 
+
+
+### -field SecureDevice
+
+ 
+
+
 ### -field Reserved
 
 Reserved for system use.
@@ -216,48 +238,6 @@ The following list describes the information certain bus drivers store in the <b
 
 
 
-
-### -field 1394
-
-Does not supply an address because the addresses are volatile. Defaults to 0xFFFFFFFF. 
-
-
-### -field EISA
-
-Slot Number (0-F).
-
-
-### -field IDE
-
-For an IDE device, the address contains the target ID and LUN. For an IDE channel, the address is zero or one (0 = primary channel and 1 = secondary channel).
-
-
-### -field ISApnp
-
-Does not supply an address. Defaults to 0xFFFFFFFF.
-
-
-### -field PC Card (PCMCIA)
-
-The socket number (typically 0x00 or 0x40).
-
-
-### -field PCI
-
-The device number in the high word and the function number in the low word.
-
-
-### -field SCSI
-
-The target ID.
-
-
-### -field USB
-
-The port number.
-
-</dd>
-</dl>
 
 ### -field UINumber
 
@@ -304,7 +284,49 @@ Specifies the device's approximate worst-case latency, in 100-microsecond units,
 Specifies the device's approximate worst-case latency, in 100-microsecond units, for returning the device to the <b>PowerDeviceD0</b> state from the <b>PowerDeviceD3</b> state. Set to zero if the device does not support the D3 state. 
 
 
+##### - Address.EISA
+
+Slot Number (0-F).
+
+
+##### - Address.USB
+
+The port number.
+
+
+##### - Address.1394
+
+Does not supply an address because the addresses are volatile. Defaults to 0xFFFFFFFF. 
+
+
+##### - Address.SCSI
+
+The target ID.
+
+
+##### - Address.ISApnp
+
+Does not supply an address. Defaults to 0xFFFFFFFF.
+
+
+##### - Address.PC Card (PCMCIA)
+
+The socket number (typically 0x00 or 0x40).
+
+
+##### - Address.PCI
+
+The device number in the high word and the function number in the low word.
+
+
+##### - Address.IDE
+
+For an IDE device, the address contains the target ID and LUN. For an IDE channel, the address is zero or one (0 = primary channel and 1 = secondary channel).
+
+
 ## -remarks
+
+
 Bus drivers set the appropriate values in this structure in response to an <b>IRP_MN_QUERY_CAPABILITIES</b> IRP. Bus filter drivers, function drivers, and filter drivers might alter the capabilities set by the bus driver.
 
 Drivers that send an <b>IRP_MN_QUERY_CAPABILITIES</b> request must initialize the <b>Size</b>, <b>Version</b>, <b>Address</b>, and <b>UINumber</b> members of this structure before sending the IRP. 
@@ -312,15 +334,13 @@ Drivers that send an <b>IRP_MN_QUERY_CAPABILITIES</b> request must initialize th
 For more information about using the <b>DEVICE_CAPABILITIES</b> structure to describe a device's power capabilities, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561058">Reporting Device Power Capabilities</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559618">PNP_DEVICE_STATE</a>
-</dt>
-</dl>
+
  
 
  

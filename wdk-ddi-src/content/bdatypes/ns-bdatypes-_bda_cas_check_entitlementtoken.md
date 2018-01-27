@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: B6B645DF-AB4C-42FE-A664-AF9C9DD4F9E6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _BDA_CAS_CHECK_ENTITLEMENTTOKEN, *PBDA_CAS_CHECK_ENTITLEMENTTOKEN, BDA_CAS_CHECK_ENTITLEMENTTOKEN
+ms.keywords: _BDA_CAS_CHECK_ENTITLEMENTTOKEN, stream.bda_cas_check_entitlementtoken, *PBDA_CAS_CHECK_ENTITLEMENTTOKEN, PBDA_CAS_CHECK_ENTITLEMENTTOKEN structure pointer [Streaming Media Devices], PBDA_CAS_CHECK_ENTITLEMENTTOKEN, bdatypes/BDA_CAS_CHECK_ENTITLEMENTTOKEN, BDA_CAS_CHECK_ENTITLEMENTTOKEN structure [Streaming Media Devices], BDA_CAS_CHECK_ENTITLEMENTTOKEN, bdatypes/PBDA_CAS_CHECK_ENTITLEMENTTOKEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BDA_CAS_CHECK_ENTITLEMENTTOKEN
-req.alt-loc: Bdatypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PBDA_CAS_CHECK_ENTITLEMENTTOKEN, BDA_CAS_CHECK_ENTITLEMENTTOKEN
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bdatypes.h
+apiname: 
+-	BDA_CAS_CHECK_ENTITLEMENTTOKEN
+product: Windows
+targetos: Windows
+req.typenames: BDA_CAS_CHECK_ENTITLEMENTTOKEN, *PBDA_CAS_CHECK_ENTITLEMENTTOKEN
 ---
 
 # _BDA_CAS_CHECK_ENTITLEMENTTOKEN structure
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: *PBDA_CAS_CHECK_ENTITLEMENTTOKEN, BDA_CAS_CHECK_ENTITLEMENTTOKEN
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct _BDA_CAS_CHECK_ENTITLEMENTTOKEN {
@@ -55,10 +65,13 @@ typedef struct _BDA_CAS_CHECK_ENTITLEMENTTOKEN {
 
 ## -struct-fields
 
+
+
+
 ### -field lResult
+
 
 
 ### -field ulDescrambleStatus
 
 
-## -remarks

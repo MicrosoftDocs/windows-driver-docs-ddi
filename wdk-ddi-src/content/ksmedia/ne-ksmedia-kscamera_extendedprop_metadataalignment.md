@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: A122F923-D98E-4D73-896A-551A233E7491
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCAMERA_EXTENDEDPROP_MetadataAlignment, KSCAMERA_EXTENDEDPROP_MetadataAlignment
+ms.keywords: ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_512, KSCAMERA_EXTENDEDPROP_MetadataAlignment_4096, KSCAMERA_EXTENDEDPROP_MetadataAlignment_64, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_64, KSCAMERA_EXTENDEDPROP_MetadataAlignment_128, KSCAMERA_EXTENDEDPROP_MetadataAlignment_32, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_1024, KSCAMERA_EXTENDEDPROP_MetadataAlignment_1024, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_4096, KSCAMERA_EXTENDEDPROP_MetadataAlignment_512, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_256, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_8192, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_128, KSCAMERA_EXTENDEDPROP_MetadataAlignment_2048, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_2048, KSCAMERA_EXTENDEDPROP_MetadataAlignment_16, KSCAMERA_EXTENDEDPROP_MetadataAlignment_256, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_32, KSCAMERA_EXTENDEDPROP_MetadataAlignment enumeration [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_MetadataAlignment, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_16, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment, stream.kscamera_extendedprop_metadataalignment, KSCAMERA_EXTENDEDPROP_MetadataAlignment_8192
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSCAMERA_EXTENDEDPROP_MetadataAlignment
-req.alt-loc: Ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ksmedia.h
+apiname: 
+-	KSCAMERA_EXTENDEDPROP_MetadataAlignment
+product: Windows
+targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_MetadataAlignment
 ---
 
 # KSCAMERA_EXTENDEDPROP_MetadataAlignment enumeration
 
 
-
 ## -description
+
+
 This enumeration contains identifiers for the metadata alignment.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -62,6 +72,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field KSCAMERA_EXTENDEDPROP_MetadataAlignment_16
 
@@ -112,5 +125,3 @@ This identifies an alignment of 4096 bytes.
 
 This identifies an alignment of 8192 bytes.
 
-
-## -remarks

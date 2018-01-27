@@ -7,8 +7,8 @@ old-location: netvista\rilphonebookentry.htm
 old-project: netvista
 ms.assetid: 2741d992-624a-4fd1-a1b5-57fb39c42f84
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILPHONEBOOKENTRY, *LPRILPHONEBOOKENTRY, RILPHONEBOOKENTRY
+ms.date: 1/18/2018
+ms.keywords: netvista.rilphonebookentry, RILPHONEBOOKENTRY, RILPHONEBOOKENTRY structure [Network Drivers Starting with Windows Vista], *LPRILPHONEBOOKENTRY, ntddrilapitypes/RILPHONEBOOKENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILPHONEBOOKENTRY
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILPHONEBOOKENTRY
+product: Windows
+targetos: Windows
 req.typenames: *LPRILPHONEBOOKENTRY, RILPHONEBOOKENTRY
 ---
 
 # RILPHONEBOOKENTRY structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILPHONEBOOKENTRY {
@@ -67,46 +77,61 @@ typedef struct _RILPHONEBOOKENTRY {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwIndex
+
 
 
 ### -field raAddress
 
 
+
 ### -field wszText
+
 
 
 ### -field wszSecondName
 
 
+
 ### -field dwGroupIdCount
+
 
 
 ### -field rgdwGroupId
 
 
+
 ### -field dwAdditionalNumCount
+
 
 
 ### -field dwAdditionalNumSize
 
 
+
 ### -field dwAdditionalNumOffset
+
 
 
 ### -field dwEmailCount
 
 
+
 ### -field dwEmailSize
+
 
 
 ### -field dwEmailOffset
 
 
-## -remarks

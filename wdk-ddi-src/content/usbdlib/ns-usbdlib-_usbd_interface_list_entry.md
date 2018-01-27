@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9b729c52-b03b-4b53-ae1a-9a025585ba7b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBD_INTERFACE_LIST_ENTRY, USBD_INTERFACE_LIST_ENTRY, *PUSBD_INTERFACE_LIST_ENTRY
+ms.keywords: PUSBD_INTERFACE_LIST_ENTRY, PUSBD_INTERFACE_LIST_ENTRY structure pointer [Buses], _USBD_INTERFACE_LIST_ENTRY, usbstrct_f42a04be-c6c2-44c6-ae18-725929020420.xml, USBD_INTERFACE_LIST_ENTRY structure [Buses], usbdlib/USBD_INTERFACE_LIST_ENTRY, *PUSBD_INTERFACE_LIST_ENTRY, usbdlib/PUSBD_INTERFACE_LIST_ENTRY, USBD_INTERFACE_LIST_ENTRY, buses.usbd_interface_list_entry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBD_INTERFACE_LIST_ENTRY
-req.alt-loc: usbdlib.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: USBD_INTERFACE_LIST_ENTRY, *PUSBD_INTERFACE_LIST_ENTRY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbdlib.h
+apiname: 
+-	USBD_INTERFACE_LIST_ENTRY
+product: Windows
+targetos: Windows
+req.typenames: *PUSBD_INTERFACE_LIST_ENTRY, USBD_INTERFACE_LIST_ENTRY
 req.product: Windows 10 or later.
 ---
 
 # _USBD_INTERFACE_LIST_ENTRY structure
 
 
-
 ## -description
+
+
 The <b>USBD_INTERFACE_LIST_ENTRY</b> structure is used by USB client drivers to create an array of interfaces to be inserted into a configuration request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBD_INTERFACE_LIST_ENTRY {
@@ -55,6 +65,9 @@ typedef struct _USBD_INTERFACE_LIST_ENTRY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field InterfaceDescriptor
 
@@ -67,18 +80,18 @@ Pointer to a <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFA
 
 
 ## -remarks
+
+
 This structure is used by USB clients with the routine <a href="..\usbdlib\nf-usbdlib-usbd_createconfigurationrequestex.md">USBD_CreateConfigurationRequestEx</a>. Clients allocate an array of these structures, one for each interface to be configured. Clients must also allocate a <b>NULL</b> entry in the array to be used as a terminator before calling <b>USBD_CreateConfigurationRequestEx</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbdlib\nf-usbdlib-usbd_createconfigurationrequestex.md">USBD_CreateConfigurationRequestEx</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
  
 
  

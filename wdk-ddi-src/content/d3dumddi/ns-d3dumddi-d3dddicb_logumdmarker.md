@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D953C714-6C11-4F8A-A7F9-416A00C518B4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_LOGUMDMARKER, D3DDDICB_LOGUMDMARKER
+ms.keywords: D3DDDICB_LOGUMDMARKER structure [Display Devices], d3dumddi/D3DDDICB_LOGUMDMARKER, display.d3dddicb_logumdmarker, D3DDDICB_LOGUMDMARKER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_LOGUMDMARKER
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	D3DDDICB_LOGUMDMARKER
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_LOGUMDMARKER
 ---
 
 # D3DDDICB_LOGUMDMARKER structure
 
 
-
 ## -description
+
+
 Specifies info about the location of an Event Tracing for Windows (ETW) marker event that the user-mode display driver has defined.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3DDDICB_LOGUMDMARKER {
@@ -57,6 +67,9 @@ typedef struct D3DDDICB_LOGUMDMARKER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hContext
 
@@ -85,18 +98,12 @@ The offset, in bytes, of the string table entry pointed to by <b>Info</b>. Can b
 A custom text string embedded in the ETW packet. Can be <b>NULL</b>.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarker.md">pfnSetMarker</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
+
  
 
  

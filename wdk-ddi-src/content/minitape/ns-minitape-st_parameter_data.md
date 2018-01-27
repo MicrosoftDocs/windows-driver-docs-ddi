@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: C50F45EC-433C-421D-BD02-4C86CB44D5A4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ST_PARAMETER_DATA, ST_PARAMETER_DATA, *PST_PARAMETER_DATA
+ms.keywords: ST_PARAMETER_DATA, PST_PARAMETER_DATA structure pointer [Storage Devices], scsi/PST_PARAMETER_DATA, storage.st_parameter_data, scsi/ST_PARAMETER_DATA, PST_PARAMETER_DATA, *PST_PARAMETER_DATA, ST_PARAMETER_DATA structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 10, version 1709 and later vers
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ST_PARAMETER_DATA
-req.alt-loc: scsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	scsi.h
+apiname: 
+-	ST_PARAMETER_DATA
+product: Windows
+targetos: Windows
 req.typenames: ST_PARAMETER_DATA, *PST_PARAMETER_DATA
 ---
 
 # ST_PARAMETER_DATA structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>ST_PARAMETER_DATA</b> structure contains the parameter list for the set timestamp command. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ST_PARAMETER_DATA {
@@ -57,6 +67,9 @@ typedef struct _ST_PARAMETER_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Reserved1
 
@@ -74,15 +87,10 @@ should be the number of milliseconds that have elapsed since midnight, 1 January
 Reserved for future use.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\scsi\ns-scsi-rt_parameter_data.md">RT_PARAMETER_DATA</a>
-</dt>
-</dl>
+
+<a href="..\storport\ns-storport-rt_parameter_data.md">RT_PARAMETER_DATA</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aba3b4fd-92e4-4551-9396-ee34e38ecfd6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIMULTISAMPLE_TYPE, D3DDDIMULTISAMPLE_TYPE
+ms.keywords: d3dukmdt/D3DDDIMULTISAMPLE_10_SAMPLES, DmEnums_e48a95ef-e285-467f-a018-7b5743d3ad8f.xml, d3dukmdt/D3DDDIMULTISAMPLE_TYPE, D3DDDIMULTISAMPLE_9_SAMPLES, D3DDDIMULTISAMPLE_13_SAMPLES, D3DDDIMULTISAMPLE_4_SAMPLES, d3dukmdt/D3DDDIMULTISAMPLE_6_SAMPLES, d3dukmdt/D3DDDIMULTISAMPLE_4_SAMPLES, D3DDDIMULTISAMPLE_3_SAMPLES, D3DDDIMULTISAMPLE_8_SAMPLES, D3DDDIMULTISAMPLE_12_SAMPLES, _D3DDDIMULTISAMPLE_TYPE, D3DDDIMULTISAMPLE_11_SAMPLES, d3dukmdt/D3DDDIMULTISAMPLE_FORCE_UINT, D3DDDIMULTISAMPLE_5_SAMPLES, D3DDDIMULTISAMPLE_10_SAMPLES, d3dukmdt/D3DDDIMULTISAMPLE_11_SAMPLES, d3dukmdt/D3DDDIMULTISAMPLE_8_SAMPLES, D3DDDIMULTISAMPLE_16_SAMPLES, display.d3dddimultisample_type, D3DDDIMULTISAMPLE_6_SAMPLES, d3dukmdt/D3DDDIMULTISAMPLE_NONMASKABLE, D3DDDIMULTISAMPLE_NONE, d3dukmdt/D3DDDIMULTISAMPLE_12_SAMPLES, D3DDDIMULTISAMPLE_NONMASKABLE, d3dukmdt/D3DDDIMULTISAMPLE_5_SAMPLES, D3DDDIMULTISAMPLE_TYPE, d3dukmdt/D3DDDIMULTISAMPLE_15_SAMPLES, d3dukmdt/D3DDDIMULTISAMPLE_7_SAMPLES, d3dukmdt/D3DDDIMULTISAMPLE_9_SAMPLES, d3dukmdt/D3DDDIMULTISAMPLE_13_SAMPLES, D3DDDIMULTISAMPLE_7_SAMPLES, D3DDDIMULTISAMPLE_15_SAMPLES, d3dukmdt/D3DDDIMULTISAMPLE_16_SAMPLES, D3DDDIMULTISAMPLE_TYPE enumeration [Display Devices], D3DDDIMULTISAMPLE_2_SAMPLES, d3dukmdt/D3DDDIMULTISAMPLE_2_SAMPLES, d3dukmdt/D3DDDIMULTISAMPLE_3_SAMPLES, D3DDDIMULTISAMPLE_14_SAMPLES, D3DDDIMULTISAMPLE_FORCE_UINT, d3dukmdt/D3DDDIMULTISAMPLE_NONE, d3dukmdt/D3DDDIMULTISAMPLE_14_SAMPLES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIMULTISAMPLE_TYPE
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDIMULTISAMPLE_TYPE
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIMULTISAMPLE_TYPE
 ---
 
 # _D3DDDIMULTISAMPLE_TYPE enumeration
 
 
-
 ## -description
+
+
 The D3DDDIMULTISAMPLE_TYPE enumeration defines the levels of full-scene multisampling that the device can apply.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3DDDIMULTISAMPLE_TYPE { 
@@ -70,6 +80,9 @@ typedef enum _D3DDDIMULTISAMPLE_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DDDIMULTISAMPLE_NONE
 
@@ -160,5 +173,3 @@ The level of full-scene multisampling available.
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. This value is not used.
 
-
-## -remarks

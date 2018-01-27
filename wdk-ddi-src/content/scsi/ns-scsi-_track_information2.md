@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2fea2f8a-eb55-409c-80d2-c3f49ab6bfdf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _TRACK_INFORMATION2, TRACK_INFORMATION2, *PTRACK_INFORMATION2
+ms.keywords: PTRACK_INFORMATION2 structure pointer [Storage Devices], storage.track_information2, *PTRACK_INFORMATION2, scsi/TRACK_INFORMATION2, structs-CD-ROM_a77c4142-fe27-489b-ab9c-1637cf4b911d.xml, TRACK_INFORMATION2 structure [Storage Devices], TRACK_INFORMATION2, scsi/PTRACK_INFORMATION2, _TRACK_INFORMATION2, PTRACK_INFORMATION2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TRACK_INFORMATION2
-req.alt-loc: scsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: TRACK_INFORMATION2, *PTRACK_INFORMATION2
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	scsi.h
+apiname: 
+-	TRACK_INFORMATION2
+product: Windows
+targetos: Windows
+req.typenames: *PTRACK_INFORMATION2, TRACK_INFORMATION2
 req.product: Windows 10 or later.
 ---
 
 # _TRACK_INFORMATION2 structure
 
 
-
 ## -description
+
+
 The TRACK_INFORMATION2 structure is used to report track information.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _TRACK_INFORMATION2 {
@@ -78,6 +88,9 @@ typedef struct _TRACK_INFORMATION2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Length
 
@@ -122,7 +135,6 @@ Reserved.
 ### -field DataMode
 
 The data mode. This member can have any of the following values:
-
 <table>
 <tr>
 <td>
@@ -164,8 +176,7 @@ There is no track descriptor block, and therefore the data block type of the tra
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field FixedPacket
@@ -231,6 +242,7 @@ Track Size is the number of user data blocks in the track.
 ### -field LastRecordedAddress
 
 
+
 ### -field TrackNumberMsb
 
 The most significant byte of the track number.
@@ -245,5 +257,3 @@ The most significant byte of the session number.
 
 Reserved7
 
-
-## -remarks

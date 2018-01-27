@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0158F1B4-AA6E-41F9-BAEF-A3C688758205
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.pfnd3dwddm2_0ddi_getresourcelayout, pfnGetResourceLayout callback function [Display Devices], pfnGetResourceLayout, PFND3DWDDM2_0DDI_GETRESOURCELAYOUT, PFND3DWDDM2_0DDI_GETRESOURCELAYOUT, d3d10umddi/pfnGetResourceLayout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnGetResourceLayout
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	pfnGetResourceLayout
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3DWDDM2_0DDI_GETRESOURCELAYOUT callback
 
 
-
 ## -description
+
+
 The <i>pfnGetResourceLayout</i> callback function supports getting resource layout information. 
 
 
-
 ## -prototype
+
 
 ````
 PFND3DWDDM2_0DDI_GETRESOURCELAYOUT pfnGetResourceLayout;
@@ -63,43 +73,66 @@ VOID APIENTRY* pfnGetResourceLayout(
 
 ## -parameters
 
-### -param hDevice 
-
-A device handle.
 
 
-### -param hResource 
 
-A resource handle. 
+### -param D3D10DDI_HDEVICE
 
 
-### -param SubresourceCount 
+
+### -param D3D10DDI_HRESOURCE
+
+
+
+### -param SubresourceCount
 
 The subresource count.
 
 
-### -param Handle [out]
+### -param *
+
+
+
+
+
+
+### -param *pMipLevelSwizzleTransition
+
+
+
+#### - hResource
+
+A resource handle. 
+
+
+#### - Handle [out]
 
 A kernel handle.
 
 
-### -param TextureLayout [out]
+#### - hDevice
 
-A pointer to a texture layout.
+A device handle.
 
 
-### -param pMipLevelSwizzleTransition [out]
+#### - pMipLevelSwizzleTransition [out]
 
 A pointer to a MIP level swizzle transition. 
 
 
-### -param SubresourceLayout [out, optional]
+#### - SubresourceLayout [out, optional]
 
 A pointer to the subresource layout.
 
 
+#### - TextureLayout [out]
+
+A pointer to a texture layout.
+
+
 ## -returns
+
+
 This callback function does not return a value.
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f2b0610a-dffa-48fb-bc5a-355fa9f05770
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_IDENTIFIER, *PSTORAGE_IDENTIFIER, STORAGE_IDENTIFIER
+ms.keywords: PSTORAGE_IDENTIFIER, ntddstor/STORAGE_IDENTIFIER, *PSTORAGE_IDENTIFIER, STORAGE_IDENTIFIER, structs-general_29c666d7-3e61-44fe-a36e-979418dbb958.xml, PSTORAGE_IDENTIFIER structure pointer [Storage Devices], _STORAGE_IDENTIFIER, STORAGE_IDENTIFIER structure [Storage Devices], storage.storage_identifier, ntddstor/PSTORAGE_IDENTIFIER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_IDENTIFIER
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSTORAGE_IDENTIFIER, STORAGE_IDENTIFIER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	STORAGE_IDENTIFIER
+product: Windows
+targetos: Windows
+req.typenames: STORAGE_IDENTIFIER, *PSTORAGE_IDENTIFIER
 ---
 
 # _STORAGE_IDENTIFIER structure
 
 
-
 ## -description
+
+
 The STORAGE_IDENTIFIER structure represents a SCSI identification descriptor.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STORAGE_IDENTIFIER {
@@ -58,6 +68,9 @@ typedef struct _STORAGE_IDENTIFIER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field CodeSet
 
@@ -90,18 +103,18 @@ Contains the identifier associated with this descriptor.
 
 
 ## -remarks
+
+
 Every device identification page (page code 0x83) of SCSI vital product data contains a series of identification descriptors. The STORAGE_IDENTIFIER structure represents a SCSI identification descriptor.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566349">STORAGE_ASSOCIATION_TYPE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566990">STORAGE_IDENTIFIER_TYPE</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566349">STORAGE_ASSOCIATION_TYPE</a>
+
  
 
  

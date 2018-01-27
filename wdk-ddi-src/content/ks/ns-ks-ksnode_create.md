@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: db08cc72-3797-46e3-8e4d-d8469dc126ab
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSNODE_CREATE, *PKSNODE_CREATE, KSNODE_CREATE
+ms.keywords: ks/PKSNODE_CREATE, KSNODE_CREATE structure [Streaming Media Devices], ks/KSNODE_CREATE, ks-struct_2fb3dcb7-5945-4f8a-b1f1-945910ec8396.xml, *PKSNODE_CREATE, KSNODE_CREATE, PKSNODE_CREATE structure pointer [Streaming Media Devices], stream.ksnode_create, PKSNODE_CREATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSNODE_CREATE
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSNODE_CREATE, KSNODE_CREATE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSNODE_CREATE
+product: Windows
+targetos: Windows
+req.typenames: KSNODE_CREATE, *PKSNODE_CREATE
 ---
 
 # KSNODE_CREATE structure
 
 
-
 ## -description
+
+
 The KSNODE_CREATE structure describes the set of information used to create the node handle.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field CreateFlags
 
 Set to zero.
@@ -65,15 +78,10 @@ Set to zero.
 Indicates what node a handle should be created for. This refers to the node identifiers returned when querying topology information. A node identifier of −1 may be used to refer to the collection of nodes as a whole, if the filter supports it.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-kscreatetopologynode.md">KsCreateTopologyNode</a>
-</dt>
-</dl>
+
  
 
  

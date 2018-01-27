@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cc052b73-8837-4756-a192-620dcd5cacb5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDIARG_INPUT_ELEMENT_DESC, D3D10DDIARG_INPUT_ELEMENT_DESC
+ms.keywords: D3D10DDIARG_INPUT_ELEMENT_DESC, UMDisplayDriver_Dx10param_Structs_c640f88f-3031-4412-a9bc-a8058cf8dab0.xml, d3d10umddi/D3D10DDIARG_INPUT_ELEMENT_DESC, display.d3d10ddiarg_input_element_desc, D3D10DDIARG_INPUT_ELEMENT_DESC structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10DDIARG_INPUT_ELEMENT_DESC
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10DDIARG_INPUT_ELEMENT_DESC
+product: Windows
+targetos: Windows
 req.typenames: D3D10DDIARG_INPUT_ELEMENT_DESC
 ---
 
 # D3D10DDIARG_INPUT_ELEMENT_DESC structure
 
 
-
 ## -description
+
+
 The D3D10DDIARG_INPUT_ELEMENT_DESC structure describes an element of a layout.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D10DDIARG_INPUT_ELEMENT_DESC {
@@ -58,6 +68,9 @@ typedef struct D3D10DDIARG_INPUT_ELEMENT_DESC {
 
 
 ## -struct-fields
+
+
+
 
 ### -field InputSlot
 
@@ -77,7 +90,6 @@ typedef struct D3D10DDIARG_INPUT_ELEMENT_DESC {
 ### -field InputSlotClass
 
 [in] A value that specifies the type of element. This member must be set to one of the following values from the D3D10_DDI_INPUT_CLASSIFICATION enumeration.
-
 <table>
 <tr>
 <th>Value</th>
@@ -103,8 +115,7 @@ D3D10_DDI_INPUT_PER_INSTANCE_DATA (1)
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field InstanceDataStepRate
@@ -117,15 +128,10 @@ D3D10_DDI_INPUT_PER_INSTANCE_DATA (1)
 [in] The number of the input register for the element.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createelementlayout.md">D3D10DDIARG_CREATEELEMENTLAYOUT</a>
-</dt>
-</dl>
+
  
 
  

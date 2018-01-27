@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b2ed86c5-cd4f-4aaa-a062-4c7ae4e088df
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.settexture, SetTexture callback function [Display Devices], SetTexture, PFND3DDDI_SETTEXTURE, PFND3DDDI_SETTEXTURE, d3dumddi/SetTexture, UserModeDisplayDriver_Functions_f85a8797-cbcc-40df-a339-af69ce128e95.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetTexture
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	SetTexture
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_SETTEXTURE callback
 
 
-
 ## -description
+
+
 The <i>SetTexture</i> function inserts a texture at a particular stage in a multiple-texture group.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_SETTEXTURE SetTexture;
@@ -59,34 +69,46 @@ __checkReturn HRESULT APIENTRY SetTexture(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param Stage [in]
-
- The stage in a multiple-texture group that indicates where to insert the texture that is specified by the <i>hTexture</i> handle. This parameter can be an integer in the range from 0 through 7, with the highest-numbered texture being closest to the frame buffer.
+### -param UINT
 
 
-### -param hTexture [in]
+
+### -param HANDLE
+
+
+
+
+
+
+#### - hTexture [in]
 
  A handle to the texture to insert.
 
 
+#### - Stage [in]
+
+ The stage in a multiple-texture group that indicates where to insert the texture that is specified by the <i>hTexture</i> handle. This parameter can be an integer in the range from 0 through 7, with the highest-numbered texture being closest to the frame buffer.
+
+
 ## -returns
+
+
 <i>SetTexture</i> returns S_OK or an appropriate error result if the texture is not successfully inserted.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-</dt>
-</dl>
+
  
 
  

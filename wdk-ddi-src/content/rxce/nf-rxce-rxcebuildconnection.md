@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3d4c2e69-7cdc-4eee-b56c-b1485768e942
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCeBuildConnection
+ms.keywords: rxref_cc87c9dd-c8e4-4283-96a8-bc2ec15be773.xml, ifsk.rxcebuildconnection, rxce/RxCeBuildConnection, RxCeBuildConnection, RxCeBuildConnection function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxCeBuildConnection
-req.alt-loc: rxce.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rxce.h
+apiname: 
+-	RxCeBuildConnection
+product: Windows
+targetos: Windows
 req.typenames: *LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RxCeBuildConnection function
 
 
-
 ## -description
+
+
 <b>RxCeBuildConnection</b> establishes a connection between a local RDBSS connection address and a given remote address. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RxCeBuildConnection(
@@ -60,9 +70,12 @@ NTSTATUS RxCeBuildConnection(
 
 ## -parameters
 
-### -param pAddress [in]
 
-A pointer to the local RDBSS connection engine address.
+
+
+### -param pLocalAddress
+
+TBD
 
 
 ### -param pConnectionInformation [in]
@@ -90,19 +103,49 @@ On input, this parameter contains a pointer to an uninitialized RDBSS connection
 On input, this parameter contains a pointer to an uninitialized RDBSS virtual circuit. On output when this call is successful, the virtual circuit is associated with the connection and the virtual circuit is properly initialized.
 
 
+#### - pAddress [in]
+
+A pointer to the local RDBSS connection engine address.
+
+
 ## -returns
+
+
 <b>RxCeBuildConnection</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>The allocation of nonpaged pool memory needed by this routine failed. 
+</dl>
+</td>
+<td width="60%">
+The allocation of nonpaged pool memory needed by this routine failed. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>One of the parameters passed to this routine was invalid. 
+</dl>
+</td>
+<td width="60%">
+One of the parameters passed to this routine was invalid. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>RxCeBuildConnection</b> should be called in the context of a system worker thread.
 
 When <b>RxCeBuildConnection</b> is successful, the data members in the RXCE_CONNECTION structure pointed to by the <i>pConnection</i> parameter and the data members in the RXCE_VC structure pointed to by the <i>pVc</i> parameter will be properly initialized and the virtual circuit will be associated with the connection.
@@ -110,15 +153,13 @@ When <b>RxCeBuildConnection</b> is successful, the data members in the RXCE_CONN
 <b>RXCE_CONNECTION_INFORMATION</b> is a typedef for a <b>TDI_CONNECTION_INFORMATION</b> structure. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\rxce\nf-rxce-rxceteardownconnection.md">RxCeTearDownConnection</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
-</dt>
-</dl>
+
+<a href="..\rxce\nf-rxce-rxceteardownconnection.md">RxCeTearDownConnection</a>
+
  
 
  

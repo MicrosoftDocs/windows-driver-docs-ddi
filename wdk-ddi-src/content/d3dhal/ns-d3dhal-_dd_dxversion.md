@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 72c22f76-c867-4924-b066-2ae4b25bfc43
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_DXVERSION, DD_DXVERSION
+ms.keywords: _DD_DXVERSION, DD_DXVERSION structure [Display Devices], display.dd_dxversion, d3dstrct_8955afcc-5fa5-493b-b291-69cd3b61ed8b.xml, d3dhal/DD_DXVERSION, DD_DXVERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DD_DXVERSION
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	DD_DXVERSION
+product: Windows
+targetos: Windows
 req.typenames: DD_DXVERSION
 ---
 
 # _DD_DXVERSION structure
 
 
-
 ## -description
+
+
 
    DirectX 8.0 and later versions only.
    
@@ -46,8 +56,8 @@ req.typenames: DD_DXVERSION
 DD_DXVERSION describes the current DirectX runtime version. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DD_DXVERSION {
@@ -59,6 +69,9 @@ typedef struct _DD_DXVERSION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field gdi2
 
@@ -76,6 +89,8 @@ Reserved. Driver should not read or write.
 
 
 ## -remarks
+
+
 This information is provided to a new driver (one that exposes <b>GetDriverInfo2</b>) for DX7 and DX8 applications.
 
 The runtime provides a pointer to a DD_DXVERSION structure in the <b>lpvData</b> field of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a> data structure.
@@ -83,15 +98,13 @@ The runtime provides a pointer to a DD_DXVERSION structure in the <b>lpvData</b>
 The <b>gdi2</b> member of DD_DXVERSION is used by the runtime with type D3DGDI2_TYPE_DXVERSION specified to notify the driver of the current DirectX runtime version being used by the application.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-</dt>
-<dt>
+
 <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
+
  
 
  

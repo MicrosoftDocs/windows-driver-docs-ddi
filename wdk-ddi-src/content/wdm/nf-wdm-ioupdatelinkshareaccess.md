@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C92E53C8-3411-4E6E-B48E-B16F6B815488
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoUpdateLinkShareAccess
+ms.keywords: IoUpdateLinkShareAccess, IoUpdateLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.ioupdatelinkshareaccess, wdm/IoUpdateLinkShareAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoUpdateLinkShareAccess
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoUpdateLinkShareAccess
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoUpdateLinkShareAccess function
 
 
-
 ## -description
+
+
 The <b>IoUpdateLinkShareAccess</b> routine updates the share access for the given file object, usually when the file is being opened.
 
 
-
 ## -syntax
+
 
 ````
 VOID IoUpdateLinkShareAccess(
@@ -56,6 +66,9 @@ VOID IoUpdateLinkShareAccess(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -73,27 +86,29 @@ Pointer to the share-access structure that describes how the open file object is
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>IoUpdateLinkShareAccess</b> is not an atomic operation. Therefore, drivers calling this routine must protect the shared file object passed to <b>IoUpdateLinkShareAccess</b> by means of some kind of lock, such as a mutex or a resource lock, in order to prevent corruption of the shared access counts.
 
 Before calling <b>IoUpdateLinkShareAccess</b>, the caller must successfully call <a href="..\wdm\nf-wdm-iochecklinkshareaccess.md">IoCheckLinkShareAccess</a> with <i>Update</i> set to False. Such a call to <b>IoCheckLinkShareAccess</b> determines whether the requested shared access is compatible with the way the file object is currently being accessed by other opens, but it does not update the <b>SHARE_ACCESS</b> structure. <b>IoUpdateLinkShareAccess</b> actually updates the <b>SHARE_ACCESS</b> structure associated with the file object. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-iochecklinkshareaccess.md">IoCheckLinkShareAccess</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iosetlinkshareaccess.md">IoSetLinkShareAccess</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-ioremovelinkshareaccess.md">IoRemoveLinkShareAccess</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-iosetlinkshareaccess.md">IoSetLinkShareAccess</a>
+
+<a href="..\wdm\nf-wdm-iochecklinkshareaccess.md">IoCheckLinkShareAccess</a>
+
  
 
  

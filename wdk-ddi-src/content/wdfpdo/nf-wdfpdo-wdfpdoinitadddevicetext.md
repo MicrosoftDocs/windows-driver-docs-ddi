@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e46a9aee-8d96-41f5-b0f9-01846fefe4cb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPdoInitAddDeviceText
+ms.keywords: wdf.wdfpdoinitadddevicetext, WdfPdoInitAddDeviceText, wdfpdo/WdfPdoInitAddDeviceText, PFN_WDFPDOINITADDDEVICETEXT, DFDeviceObjectFdoPdoRef_1167066a-5ec9-47b8-be03-32127121fa91.xml, WdfPdoInitAddDeviceText method, kmdf.wdfpdoinitadddevicetext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfPdoInitAddDeviceText
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: ChildDeviceInitAPI, DriverCreate, InitFreeDeviceCallback, InitFreeDeviceCreate, InitFreeNull, KmdfIrql, KmdfIrql2, PdoDeviceInitAPI, PdoInitFreeDeviceCallback, PdoInitFreeDeviceCreate
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfPdoInitAddDeviceText
+product: Windows
+targetos: Windows
 req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WdfPdoInitAddDeviceText function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfPdoInitAddDeviceText</b> method adds a device description and device location to a device, for a specified locale.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS WdfPdoInitAddDeviceText(
@@ -59,6 +70,9 @@ NTSTATUS WdfPdoInitAddDeviceText(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceInit [in]
 
@@ -81,35 +95,57 @@ A locale identifier (LCID) that represents the locale of the Unicode strings. Fo
 
 
 ## -returns
+
+
 If the operation succeeds, the method returns STATUS_SUCCESS. Additional return values include:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>The driver is initializing an FDO instead of a PDO.
+</dl>
+</td>
+<td width="60%">
+The driver is initializing an FDO instead of a PDO.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>The driver could not allocate space to store the strings.
+</dl>
+</td>
+<td width="60%">
+The driver could not allocate space to store the strings.
 
- 
+</td>
+</tr>
+</table> 
 
 The method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
+
 ## -remarks
+
+
 The framework stores the specified device text and passes it to the PnP manager in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551674">IRP_MN_QUERY_DEVICE_TEXT</a> request. The text that you supply should help the user to identify the device. The PnP manager sometimes displays the text while attempting to install additional drivers for the device.
 
 You can call <b>WdfPdoInitAddDeviceText</b> multiple times, adding device text for multiple locales. When the system displays the text, it chooses the text that matches the current locale, if available. Otherwise, it will use the string for the default locale. The driver can specify the driver's default locale by calling <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitsetdefaultlocale.md">WdfPdoInitSetDefaultLocale</a>.
 
 The driver must call <b>WdfPdoInitAddDeviceText</b> before calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
-The following code example provides Unicode strings for a device's location and description. The description includes an instance number. For a complete example that uses <b>WdfPdoInitAddDeviceText</b>, see the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">KbFiltr</a> sample driver.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitsetdefaultlocale.md">WdfPdoInitSetDefaultLocale</a>
-</dt>
-</dl>
+
  
 
  

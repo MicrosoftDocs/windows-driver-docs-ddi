@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f941bc28-f906-4399-be54-09e2bc12e443
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SetPresharedKeyForId_IN, SetPresharedKeyForId_IN, *PSetPresharedKeyForId_IN
+ms.keywords: storage.setpresharedkeyforid_in, _SetPresharedKeyForId_IN, structs-iSCSI_610ad061-d9c5-4557-88c0-e7d9a20236a2.xml, *PSetPresharedKeyForId_IN, SetPresharedKeyForId_IN, PSetPresharedKeyForId_IN structure pointer [Storage Devices], SetPresharedKeyForId_IN structure [Storage Devices], iscsiop/SetPresharedKeyForId_IN, iscsiop/PSetPresharedKeyForId_IN, PSetPresharedKeyForId_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetPresharedKeyForId_IN
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: SetPresharedKeyForId_IN, *PSetPresharedKeyForId_IN
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	SetPresharedKeyForId_IN
+product: Windows
+targetos: Windows
+req.typenames: *PSetPresharedKeyForId_IN, SetPresharedKeyForId_IN
 ---
 
 # _SetPresharedKeyForId_IN structure
 
 
-
 ## -description
+
+
 The SetPresharedKeyForId_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a> method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SetPresharedKeyForId_IN {
@@ -59,6 +69,9 @@ typedef struct _SetPresharedKeyForId_IN {
 
 ## -struct-fields
 
+
+
+
 ### -field PortNumber
 
 The number of the port that the initiator uses the preshared key with. A value of 0xffffffff indicates all ports.
@@ -72,7 +85,6 @@ A bitwise OR of flags that indicate the security requirements of a target.  For 
 ### -field IdType
 
 The type of identifier to associate with the preshared key. The initiator puts this identifier (ID) in the Internet key exchange (IKE) identification payload to identify itself to the target. The following table describes the possible identification payload types.
-
 <table>
 <tr>
 <th>Identification payload type</th>
@@ -118,8 +130,7 @@ The initiator identifies itself to the target during the key exchange with a sin
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field IdSize
@@ -138,21 +149,20 @@ The ID to associate with the key. The initiator uses this ID to identify itself 
 
 
 ## -remarks
+
+
 You must implement this method.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
+
 <a href="..\iscsiop\ns-iscsiop-_setpresharedkeyforid_out.md">SetPresharedKeyForId_OUT</a>
-</dt>
-</dl>
+
  
 
  

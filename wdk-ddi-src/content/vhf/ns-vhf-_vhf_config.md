@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 384BE20B-0F40-418D-B24E-9711BF7CE53A
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _VHF_CONFIG, VHF_CONFIG, *PVHF_CONFIG
+ms.keywords: vhf/VHF_CONFIG, hid.vhf_config, _VHF_CONFIG, *PVHF_CONFIG, VHF_CONFIG structure [Human Input Devices], PVHF_CONFIG structure pointer [Human Input Devices], vhf/PVHF_CONFIG, VHF_CONFIG, PVHF_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VHF_CONFIG
-req.alt-loc: vhf.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	vhf.h
+apiname: 
+-	VHF_CONFIG
+product: Windows
+targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _VHF_CONFIG structure
 
 
-
 ## -description
+
+
 Contains initial configuration information that is provided by the HID source driver when it calls <a href="..\vhf\nf-vhf-vhfcreate.md">VhfCreate</a> to create a virtual HID device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _VHF_CONFIG {
@@ -70,6 +80,9 @@ typedef struct _VHF_CONFIG {
 
 ## -struct-fields
 
+
+
+
 ### -field Size
 
 Required. Size of this structure initialized by <a href="..\vhf\nf-vhf-vhf_config_init.md">VHF_CONFIG_INIT</a>.
@@ -90,6 +103,11 @@ Optional. Size of the buffer that VHF must allocate for an asynchronous operatio
 Required. A pointer to the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure for the HID source driver. Get that pointer by calling  <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetdeviceobject.md">WdfDeviceWdmGetDeviceObject</a> and passing the WDFDEVICE handle that the driver received in the <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> call. 
 
 
+### -field Reserved
+
+ 
+
+
 ### -field VendorID
 
 Optional. Vendor ID of the virtual HID device to be created.
@@ -108,6 +126,16 @@ Optional. Version number of the virtual HID device to be created.
 ### -field ContainerID
 
 Optional. Container ID of the virtual HID device to be created.
+
+
+### -field InstanceIDLength
+
+ 
+
+
+### -field InstanceID
+
+ 
 
 
 ### -field ReportDescriptorLength
@@ -151,15 +179,21 @@ Optional. A pointer to an <a href="..\vhf\nc-vhf-evt_vhf_async_operation.md">Evt
 Optional. A pointer to a <a href="..\vhf\nc-vhf-evt_vhf_cleanup.md">EvtVhfCleanup</a> callback. The HID source driver can implement and register this callback function if it wants to free the allocated resources for the virtual HID device. 
 
 
-## -remarks
+### -field HardwareIDsLength
+
+ 
+
+
+### -field HardwareIDs
+
+ 
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/26964963-792F-4529-B4FC-110BF5C65B35">Write a HID source driver by using Virtual HID Framework (VHF)</a>
-</dt>
-</dl>
+
  
 
  

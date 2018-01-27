@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 14657843-bd48-4cab-b913-c95aeb6a6083
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: SeValidSecurityDescriptor
+ms.keywords: k110_f193d746-c75f-4003-a2b3-a6b752652f9b.xml, kernel.sevalidsecuritydescriptor, SeValidSecurityDescriptor routine [Kernel-Mode Driver Architecture], wdm/SeValidSecurityDescriptor, SeValidSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SeValidSecurityDescriptor
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	SeValidSecurityDescriptor
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,14 +47,15 @@ req.product: Windows 10 or later.
 # SeValidSecurityDescriptor function
 
 
-
 ## -description
+
+
 
    The <b>SeValidSecurityDescriptor</b> routine returns whether a given security descriptor is structurally valid. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN SeValidSecurityDescriptor(
@@ -56,6 +66,9 @@ BOOLEAN SeValidSecurityDescriptor(
 
 
 ## -parameters
+
+
+
 
 ### -param Length [in]
 
@@ -68,10 +81,15 @@ Pointer to the self-relative <a href="..\ntifs\ns-ntifs-_security_descriptor.md"
 
 
 ## -returns
+
+
 <b>SeValidSecurityDescriptor</b> returns <b>TRUE</b> if the buffered security descriptor is structurally valid.
 
 
+
 ## -remarks
+
+
 <b>SeValidSecurityDescriptor</b> does not enforce policy. It simply checks that the given security descriptor data is formatted correctly. In particular, it checks the revision information, self relativity, owner, alignment, and, if available, SID, group, DACL, ACL, and/or SACL do not overflow the given <i>Length</i>. Consequently, callers of <b>SeValidSecurityDescriptor</b> cannot assume that a returned <b>TRUE</b> implies that the given security descriptor necessarily has valid contents.
 
 If <b>SeValidSecurityDescriptor</b> returns <b>TRUE</b>, the given security descriptor can be passed on to another kernel-mode component because it is structurally valid. Otherwise, passing a structurally invalid security descriptor to be manipulated by another kernel-mode component can cause undefined results or even a system bug check.
@@ -79,15 +97,13 @@ If <b>SeValidSecurityDescriptor</b> returns <b>TRUE</b>, the given security desc
 To validate a security descriptor that was passed in from user mode, call <b>RtlValidSecurityDescriptor</b> rather than <b>SeValidSecurityDescriptor</b>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

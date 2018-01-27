@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: abad8ebd-a9fc-4cfb-8495-aca4e38ee45a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _PARCLASS_INFORMATION, PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
+ms.keywords: PARCLASS_INFORMATION, _PARCLASS_INFORMATION, *PPARCLASS_INFORMATION, PARCLASS_INFORMATION structure [Parallel Ports], PPARCLASS_INFORMATION, parports.parclass_information, parallel/PARCLASS_INFORMATION, cisspd_b7b1d8b8-fc86-4bd9-a474-e31f416da93c.xml, parallel/PPARCLASS_INFORMATION, PPARCLASS_INFORMATION structure pointer [Parallel Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PARCLASS_INFORMATION
-req.alt-loc: parallel.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	parallel.h
+apiname: 
+-	PARCLASS_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---
 
 # _PARCLASS_INFORMATION structure
 
 
-
 ## -description
+
+
 The PARCLASS_INFORMATION structure specifies information about a parallel port, pointers to callback routines to operate a parallel port, and pointers to callback routines to read and write to a parallel device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PARCLASS_INFORMATION {
@@ -66,9 +76,17 @@ typedef struct _PARCLASS_INFORMATION {
 
 ## -struct-fields
 
+
+
+
 ### -field Controller
 
 Specifies the base I/O address allocated to a parallel port.
+
+
+### -field EcrController
+
+ 
 
 
 ### -field SpanOfController
@@ -113,7 +131,7 @@ Pointer to the <a href="..\parallel\nc-parallel-pparallel_write.md">PPARALLEL_WR
 
 ### -field ParclassContext
 
-Pointer to the device extension of a parallel device's physical device object (<a href="wdkgloss.p#wdkgloss.pdo#wdkgloss.pdo"><i>PDO</i></a>).
+Pointer to the device extension of a parallel device's physical device object (<a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDO</a>).
 
 
 ### -field HardwareCapabilities
@@ -122,30 +140,6 @@ Specifies which hardware capabilities are present. <b>HardwareCapabilities</b> i
 
 
 
-
-### -field PPT_NO_HARDWARE_PRESENT
-
-
-### -field PPT_ECP_PRESENT
-
-
-### -field PPT_EPP_PRESENT 
-
-
-### -field PPT_EPP_32_PRESENT
-
-32-bit reads and writes are supported.
-
-
-### -field PPT_BYTE_PRESENT
-
-
-### -field PPT_BIDI_PRESENT
-
-
-### -field PPT_1284_3_PRESENT
-
-</dl>
 
 ### -field FifoDepth
 
@@ -157,7 +151,49 @@ Specifies the size, in words, of the ECP FIFO. The ECP FIFO word size, in bits, 
 Specifies the ECP FIFO word size, in bits, which is the number of bits handled in parallel.
 
 
+### -field ParallelTryselect
+
+ 
+
+
+### -field ParallelDeSelect
+
+ 
+
+
+
+##### - HardwareCapabilities.PPT_EPP_PRESENT
+
+
+
+##### - HardwareCapabilities.PPT_BIDI_PRESENT
+
+
+
+##### - HardwareCapabilities.PPT_BYTE_PRESENT
+
+
+
+##### - HardwareCapabilities.PPT_NO_HARDWARE_PRESENT
+
+
+
+##### - HardwareCapabilities.PPT_1284_3_PRESENT
+
+
+
+##### - HardwareCapabilities.PPT_ECP_PRESENT
+
+
+
+##### - HardwareCapabilities.PPT_EPP_32_PRESENT
+
+32-bit reads and writes are supported.
+
+
 ## -remarks
+
+
 A kernel-mode driver can obtain this information from the system-supplied bus driver for parallel ports using an <a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a> request. The system-supplied bus driver for parallel ports supplies all the callback routines. 
 
 A client uses this information to operate a parallel port and to read and write a parallel device. The callback routines can only be used by a driver that holds a lock on the parent parallel port. A driver obtains a lock by using an <a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a> request.
@@ -165,36 +201,27 @@ A client uses this information to operate a parallel port and to read and write 
 For more information, see <a href="https://msdn.microsoft.com/c05a1a1e-308a-4b9f-af43-761c4c14d6af">Connecting to a Parallel Device</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a>
-</dt>
-<dt>
-<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
-</dt>
-<dt>
-<a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
-</dt>
-<dt>
-<a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a>
-</dt>
-<dt>
-<a href="..\parallel\nc-parallel-pparallel_ieee_fwd_to_rev.md">PPARALLEL_IEEE_FWD_TO_REV</a>
-</dt>
-<dt>
-<a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
-</dt>
-<dt>
-<a href="..\parallel\nc-parallel-pparallel_read.md">PPARALLEL_READ</a>
-</dt>
-<dt>
-<a href="..\parallel\nc-parallel-pparallel_write.md">PPARALLEL_WRITE</a>
-</dt>
-<dt>
+
 <a href="..\parallel\nc-parallel-pterminate_ieee_mode.md">PTERMINATE_IEEE_MODE</a>
-</dt>
-</dl>
+
+<a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
+
+<a href="..\parallel\nc-parallel-pparallel_write.md">PPARALLEL_WRITE</a>
+
+<a href="..\parallel\nc-parallel-pparallel_read.md">PPARALLEL_READ</a>
+
+<a href="..\parallel\nc-parallel-pparallel_ieee_fwd_to_rev.md">PPARALLEL_IEEE_FWD_TO_REV</a>
+
+<a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a>
+
+<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
+
+<a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a>
+
+<a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
+
  
 
  

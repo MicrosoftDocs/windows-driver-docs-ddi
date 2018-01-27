@@ -7,8 +7,8 @@ old-location: netvista\rilremotepartyinfovalueparam.htm
 old-project: netvista
 ms.assetid: 2e0d5214-d2ec-4cb4-8437-a9f5605ea85a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILREMOTEPARTYINFOVALUEPARAM, RILREMOTEPARTYINFOPARAM, RILREMOTEPARTYINFOVALUEPARAM
+ms.date: 1/18/2018
+ms.keywords: RIL_PARAM_RPI_ID, ntddrilapitypes/RIL_PARAM_RPI_NAME_PRES_IND, RILREMOTEPARTYINFOPARAM, RIL_PARAM_RPI_NUM_PRES_IND, ntddrilapitypes/RIL_PARAM_RPI_ALL, RIL_PARAM_RPI_SUBADDRESS, ntddrilapitypes/RIL_PARAM_RPI_NUM_PRES_IND, ntddrilapitypes/RIL_PARAM_RPI_ID, ntddrilapitypes/RIL_PARAM_RPI_ADDRESS, RIL_PARAM_RPI_NAME_PRES_IND, netvista.rilremotepartyinfovalueparam, ntddrilapitypes/RIL_PARAM_RPI_SUBADDRESS, RIL_PARAM_RPI_DESCRIPTION, ntddrilapitypes/RIL_PARAM_RPI_DESCRIPTION, ntddrilapitypes/RILREMOTEPARTYINFOVALUEPARAM, RIL_PARAM_RPI_ADDRESS, RIL_PARAM_RPI_ALL, RILREMOTEPARTYINFOVALUEPARAM, RILREMOTEPARTYINFOVALUEPARAM enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILREMOTEPARTYINFOVALUEPARAM
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILREMOTEPARTYINFOPARAM, RILREMOTEPARTYINFOVALUEPARAM
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILREMOTEPARTYINFOVALUEPARAM
+product: Windows
+targetos: Windows
+req.typenames: RILREMOTEPARTYINFOVALUEPARAM, RILREMOTEPARTYINFOPARAM
 ---
 
 # RILREMOTEPARTYINFOVALUEPARAM enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILREMOTEPARTYINFOVALUEPARAM { 
@@ -60,25 +70,37 @@ typedef enum _RILREMOTEPARTYINFOVALUEPARAM {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_PARAM_RPI_EXECUTOR
+
+
+
 ### -field RIL_PARAM_RPI_ADDRESS
+
 
 
 ### -field RIL_PARAM_RPI_SUBADDRESS
 
 
+
 ### -field RIL_PARAM_RPI_DESCRIPTION
+
 
 
 ### -field RIL_PARAM_RPI_NUM_PRES_IND
 
 
+
 ### -field RIL_PARAM_RPI_NAME_PRES_IND
+
 
 
 ### -field RIL_PARAM_RPI_ID
 
 
+
 ### -field RIL_PARAM_RPI_ALL
 
 
-## -remarks

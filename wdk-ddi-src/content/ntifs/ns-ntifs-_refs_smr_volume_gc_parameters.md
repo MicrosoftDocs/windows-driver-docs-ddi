@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 78C8FFFE-8A80-4C92-B822-5C6675E2BC18
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _REFS_SMR_VOLUME_GC_PARAMETERS, *PREFS_SMR_VOLUME_GC_PARAMETERS, REFS_SMR_VOLUME_GC_PARAMETERS
+ms.keywords: ntifs/PREFS_SMR_VOLUME_GC_PARAMETERS, *PREFS_SMR_VOLUME_GC_PARAMETERS, REFS_SMR_VOLUME_GC_PARAMETERS, PREFS_SMR_VOLUME_GC_PARAMETERS, ntifs/REFS_SMR_VOLUME_GC_PARAMETERS, PREFS_SMR_VOLUME_GC_PARAMETERS structure pointer [Installable File System Drivers], _REFS_SMR_VOLUME_GC_PARAMETERS, REFS_SMR_VOLUME_GC_PARAMETERS structure [Installable File System Drivers], ifsk.refs_smr_volume_gc_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10, version 1709.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: REFS_SMR_VOLUME_GC_PARAMETERS
-req.alt-loc: Ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntifs.h
+apiname: 
+-	REFS_SMR_VOLUME_GC_PARAMETERS
+product: Windows
+targetos: Windows
 req.typenames: *PREFS_SMR_VOLUME_GC_PARAMETERS, REFS_SMR_VOLUME_GC_PARAMETERS
 ---
 
 # _REFS_SMR_VOLUME_GC_PARAMETERS structure
 
 
-
 ## -description
+
+
 The <b>REFS_SMR_VOLUME_GC_PARAMETERS</b> structure is used as the input structure for <a href="https://msdn.microsoft.com/782542C4-CFC5-4BF7-AF38-3247A3AC6AB9">FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _REFS_SMR_VOLUME_GC_PARAMETERS {
@@ -59,6 +69,9 @@ typedef struct _REFS_SMR_VOLUME_GC_PARAMETERS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -95,15 +108,10 @@ Reserved for future use.
 Reserved for future use.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/782542C4-CFC5-4BF7-AF38-3247A3AC6AB9">FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS</a>
-</dt>
-</dl>
+
  
 
  

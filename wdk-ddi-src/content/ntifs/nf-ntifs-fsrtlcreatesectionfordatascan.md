@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2bf6fb1b-e2d6-496d-808e-e739951cc7c5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlCreateSectionForDataScan
+ms.keywords: ntifs/FsRtlCreateSectionForDataScan, FsRtlCreateSectionForDataScan routine [Installable File System Drivers], fsrtlref_5117d865-19da-4ec5-8b20-cccab94eb013.xml, FsRtlCreateSectionForDataScan, ifsk.fsrtlcreatesectionfordatascan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The FsRtlCreateSectionForDataScan routine is availabl
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlCreateSectionForDataScan
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlCreateSectionForDataScan
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlCreateSectionForDataScan function
 
 
-
 ## -description
+
+
 The <b>FsRtlCreateSectionForDataScan</b> routine creates a section object. Use this routine with extreme caution. (See the following <i>Remarks</i> section.)
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlCreateSectionForDataScan(
@@ -62,6 +72,9 @@ NTSTATUS FsRtlCreateSectionForDataScan(
 
 
 ## -parameters
+
+
+
 
 ### -param SectionHandle [out]
 
@@ -86,7 +99,6 @@ File object for an open file.  The section object will be backed by the specifie
 ### -param DesiredAccess [in]
 
 Specifies the desired access for the section object as one or more of the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> flags. 
-
 <table>
 <tr>
 <th><i>DesiredAccess</i> flag</th>
@@ -132,8 +144,7 @@ All actions defined by the previous flags as well as that defined by STANDARD_RI
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param ObjectAttributes [in, optional]
@@ -149,7 +160,6 @@ This parameter is reserved for future use.
 ### -param SectionPageProtection [in]
 
 Specifies the protection to place on each page in the section. Specify one of the following values. This parameter is required and cannot be zero. 
-
 <table>
 <tr>
 <th>Flag</th>
@@ -175,14 +185,12 @@ Enables both read and write access to the committed region of pages.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param AllocationAttributes [in]
 
 Bitmasks of the SEC_<i>XXX</i> flags determine the allocation attributes of the section. Specify one or more of the following values. This parameter is required and cannot be zero. 
-
 <table>
 <tr>
 <th>Flag</th>
@@ -208,8 +216,7 @@ The file specified by the <i>FileObject</i> parameter is a mapped file.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Flags [in]
@@ -218,65 +225,125 @@ This parameter is reserved for future use.
 
 
 ## -returns
+
+
 <b>FsRtlCreateSectionForDataScan</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_END_OF_FILE</b></dt>
-</dl>The size of the file specified by the FileObject parameter is zero. This is an error code.
+</dl>
+</td>
+<td width="60%">
+The size of the file specified by the FileObject parameter is zero. This is an error code.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b> 
 STATUS_FILE_LOCK_CONFLICT</b></dt>
-</dl> 
+</dl>
+</td>
+<td width="60%">
+ 
 The file specified by the FileObject parameter is locked. This is an error code.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b> 
 STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl> 
+</dl>
+</td>
+<td width="60%">
+ 
 FsRtlCreateSectionForDataScan encountered a pool allocation failure. This is an error code.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_FILE_FOR_SECTION</b></dt>
-</dl>The file specified by the FileObject parameter does not support sections. This is an error code.
+</dl>
+</td>
+<td width="60%">
+The file specified by the FileObject parameter does not support sections. This is an error code.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER_8</b></dt>
-</dl>The value specified for the SectionPageProtection parameter is invalid. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+The value specified for the SectionPageProtection parameter is invalid. This is an error code. 
 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b> 
 STATUS_INVALID_PARAMETER_9</b></dt>
-</dl> 
+</dl>
+</td>
+<td width="60%">
+ 
 The caller specified an invalid value for the AllocationAttributes parameter. This is an error code. 
 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_PRIVILEGE_NOT_HELD</b></dt>
 </dl>
+</td>
+<td width="60%">
+
 The caller did not have the required privilege to create a section object with the access specified in the DesiredAccess parameter. This is an error code. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-Once the section object created by this routine is no longer necessary, be sure to close the section object's handle (<i>SectionHandle</i>) by calling the <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> routine and dereference the section object itself (<i>SectionObject</i>) by calling the <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> routine.
+
+
+<div class="alert"><b>Important</b>  The <b>FsRtlCreateSectionForDataScan</b> routine should only be used in cases where a handle to the file object specified in the <i>FileObject</i> parameter has not yet been created (typically while processing a post-create operation). If the driver has a handle to the file object or can obtain a handle to the file object, the driver should use the <a href="..\wdm\nf-wdm-zwcreatesection.md">ZwCreateSection</a> routine instead.</div><div> </div>Once the section object created by this routine is no longer necessary, be sure to close the section object's handle (<i>SectionHandle</i>) by calling the <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> routine and dereference the section object itself (<i>SectionObject</i>) by calling the <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> routine.
 
 For more information on creating mapped sections and views of memory, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563684">Section Objects and Views</a>. Also see the documentation for the <b>CreateFileMapping</b> routine in the Microsoft Windows SDK. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-mmforcesectionclosed.md">MmForceSectionClosed</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwcreatesection.md">ZwCreateSection</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
+
+<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
+
+<a href="..\ntifs\nf-ntifs-mmforcesectionclosed.md">MmForceSectionClosed</a>
+
  
 
  

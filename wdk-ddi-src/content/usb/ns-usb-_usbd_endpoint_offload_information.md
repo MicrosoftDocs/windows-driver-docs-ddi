@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F2A8E966-269E-447F-9467-EB2E877FFAA2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBD_ENDPOINT_OFFLOAD_INFORMATION, *PUSBD_ENDPOINT_OFFLOAD_INFORMATION, USBD_ENDPOINT_OFFLOAD_INFORMATION
+ms.keywords: USBD_ENDPOINT_OFFLOAD_INFORMATION, usb/USBD_ENDPOINT_OFFLOAD_INFORMATION, usb/PUSBD_ENDPOINT_OFFLOAD_INFORMATION, PUSBD_ENDPOINT_OFFLOAD_INFORMATION, _USBD_ENDPOINT_OFFLOAD_INFORMATION, *PUSBD_ENDPOINT_OFFLOAD_INFORMATION, USBD_ENDPOINT_OFFLOAD_INFORMATION structure [Buses], buses.usbd_endpoint_offload_information, PUSBD_ENDPOINT_OFFLOAD_INFORMATION structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBD_ENDPOINT_OFFLOAD_INFORMATION
-req.alt-loc: Usb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Usb.h
+apiname: 
+-	USBD_ENDPOINT_OFFLOAD_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: *PUSBD_ENDPOINT_OFFLOAD_INFORMATION, USBD_ENDPOINT_OFFLOAD_INFORMATION
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USBD_ENDPOINT_OFFLOAD_INFORMATION structure
 
 
-
 ## -description
+
+
 Stores xHCI-specific information that is used by client drivers to transfer data to and from the offloaded endpoints.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USBD_ENDPOINT_OFFLOAD_INFORMATION {
@@ -73,6 +83,9 @@ typedef struct _USBD_ENDPOINT_OFFLOAD_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -129,50 +142,79 @@ Transaction Translator (TT) hub.
 Reserved.
 
 
-### -field PHYSICAL_ADDRESS
+### -field TransferSegmentLA
 
-The logical address of the current segment of the transfer data.
+ 
 
 
-### -field PVOID
+### -field TransferSegmentVA
+
+ 
+
+
+### -field TransferRingSize
+
+ 
+
+
+### -field TransferRingInitialCycleBit
+
+ 
+
+
+### -field MessageNumber
+
+ 
+
+
+### -field EventRingSegmentLA
+
+ 
+
+
+### -field EventRingSegmentVA
+
+ 
+
+
+### -field EventRingSize
+
+ 
+
+
+### -field EventRingInitialCycleBit
+
+ 
+
+
+
+#### - PVOID
+
+The virtual address of the current segment of the transfer data.
 
 The virtual address of the current segment of the transfer data.
 
 
-### -field size_t
-
-The size of the requested data.
-
-
-### -field ULONG
+#### - ULONG
 
 The cycle state of the transfer.
-
-
-### -field ULONG
 
 Reserved message for endpoint offload mode.
 
 
+The cycle state of the transfer.
 
-### -field PHYSICAL_ADDRESS
+
+#### - PHYSICAL_ADDRESS
+
+The logical address of the current segment of the transfer data.
 
 The logical address of the current segment of the transfer data.
 
 
-### -field PVOID
-
-The virtual address of the current segment of the transfer data.
-
-
-### -field size_t
+#### - size_t
 
 The size of the requested data.
 
+The size of the requested data.
 
-### -field ULONG
-
-The cycle state of the transfer.
-
-
-## -remarks

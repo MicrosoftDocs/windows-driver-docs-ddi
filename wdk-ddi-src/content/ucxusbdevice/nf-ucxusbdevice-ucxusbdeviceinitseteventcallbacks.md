@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 913F96FD-9C51-4A45-86A9-8830E1A395EE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxUsbDeviceInitSetEventCallbacks
+ms.keywords: UcxUsbDeviceInitSetEventCallbacks, buses._ucxusbdeviceinitseteventcallbacks, UcxUsbDeviceInitSetEventCallbacks method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: UcxUsbDeviceInitSetEventCallbacks
-req.alt-loc: ucxusbdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ucxusbdevice.h
+apiname: 
+-	UcxUsbDeviceInitSetEventCallbacks
+product: Windows
+targetos: Windows
 req.typenames: UCX_USBDEVICE_CHARACTERISTIC_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # UcxUsbDeviceInitSetEventCallbacks function
 
 
-
 ## -description
+
+
 Initializes a <b>UCXUSBDEVICE_INIT</b> structure with client driver's event callback functions.
 
 
-
 ## -syntax
+
 
 ````
 inline void UcxUsbDeviceInitSetEventCallbacks(
@@ -55,6 +65,9 @@ inline void UcxUsbDeviceInitSetEventCallbacks(
 
 
 ## -parameters
+
+
+
 
 ### -param UsbDeviceInit [in, out]
 
@@ -67,24 +80,27 @@ A pointer to a <a href="..\ucxusbdevice\ns-ucxusbdevice-_ucx_usbdevice_event_cal
 
 
 ## -returns
+
+
 This method does not return a value.
 
 
+
 ## -remarks
+
+
 An initialized <b>UCXUSBDEVICE_INIT</b> structure is used by the <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a> method to create a USB device and register the client driver's event callback functions. 
 
 For a code example, see <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_usbdevice_add.md">EVT_UCX_CONTROLLER_USBDEVICE_ADD</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_ucx_usbdevice_event_callbacks.md">UCX_USBDEVICE_EVENT_CALLBACKS</a>
-</dt>
-<dt>
+
 <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
-</dt>
-</dl>
+
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_ucx_usbdevice_event_callbacks.md">UCX_USBDEVICE_EVENT_CALLBACKS</a>
+
  
 
  

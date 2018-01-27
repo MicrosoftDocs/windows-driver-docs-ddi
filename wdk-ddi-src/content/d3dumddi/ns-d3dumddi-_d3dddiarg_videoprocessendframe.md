@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 948f10cb-215c-4a21-a275-ffdbf0ee1593
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_VIDEOPROCESSENDFRAME, D3DDDIARG_VIDEOPROCESSENDFRAME
+ms.keywords: D3DDDIARG_VIDEOPROCESSENDFRAME, D3DDDIARG_VIDEOPROCESSENDFRAME structure [Display Devices], display.d3dddiarg_videoprocessendframe, d3dumddi/D3DDDIARG_VIDEOPROCESSENDFRAME, UMDisplayDriver_param_Structs_16fccea8-3a26-4470-bf7d-a94b04f01797.xml, _D3DDDIARG_VIDEOPROCESSENDFRAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_VIDEOPROCESSENDFRAME
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_VIDEOPROCESSENDFRAME
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_VIDEOPROCESSENDFRAME
 ---
 
 # _D3DDDIARG_VIDEOPROCESSENDFRAME structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_VIDEOPROCESSENDFRAME structure specifies the Microsoft DirectX Video Accelerator (VA) video process that should stop processing a frame. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_VIDEOPROCESSENDFRAME {
@@ -55,6 +65,9 @@ typedef struct _D3DDDIARG_VIDEOPROCESSENDFRAME {
 
 ## -struct-fields
 
+
+
+
 ### -field hVideoProcess
 
 A handle to the DirectX VA video process device. The user-mode display driver returns this handle in a call to its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a> function.
@@ -65,18 +78,12 @@ A handle to the DirectX VA video process device. The user-mode display driver re
 This member is reserved and should be set to <b>NULL</b>. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_videoprocessendframe.md">VideoProcessEndFrame</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cbabd178-3496-4851-9acf-f0718eaebdcd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_DRIVER_INIT_FLAGS, WDF_DRIVER_INIT_FLAGS
+ms.keywords: WdfDriverInitNoDispatchOverride, WdfVerifyOn, WdfVerifierOn, _WDF_DRIVER_INIT_FLAGS, WDF_DRIVER_INIT_FLAGS, wdfdriver/WdfDriverInitNoDispatchOverride, wdfdriver/WdfVerifierOn, wdf.wdf_driver_init_flags, wdfdriver/WdfVerifyOn, WdfDriverInitNonPnpDriver, DFDriverObjectRef_a77b530c-fd37-4ffe-a006-7deaa8156040.xml, WDF_DRIVER_INIT_FLAGS enumeration, wdfdriver/WDF_DRIVER_INIT_FLAGS, kmdf.wdf_driver_init_flags, wdfdriver/WdfDriverInitNonPnpDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_DRIVER_INIT_FLAGS
-req.alt-loc: wdfdriver.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfdriver.h
+apiname: 
+-	WDF_DRIVER_INIT_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: WDF_DRIVER_INIT_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_DRIVER_INIT_FLAGS enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The WDF_DRIVER_INIT_FLAGS enumeration specifies driver initialization flags.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_DRIVER_INIT_FLAGS { 
@@ -59,6 +69,9 @@ typedef enum _WDF_DRIVER_INIT_FLAGS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WdfDriverInitNonPnpDriver
 
@@ -80,22 +93,26 @@ Reserved for system use. Drivers must not use this flag.
 Reserved for system use. Drivers must not use this flag.
 
 
+### -field WdfDriverInitCompanion
+
+
+
+
 ## -remarks
+
+
 The WDF_DRIVER_INIT_FLAGS enumeration is used to specify the value for the <b>DriverInitFlags</b> member of the <a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-</dt>
-<dt>
-<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
-</dt>
-<dt>
+
 <a href="..\wdfminiport\nf-wdfminiport-wdfdriverminiportunload.md">WdfDriverMiniportUnload</a>
-</dt>
-</dl>
+
+<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
  
 
  

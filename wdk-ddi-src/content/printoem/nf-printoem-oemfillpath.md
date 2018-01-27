@@ -7,8 +7,8 @@ old-location: print\oemfillpath.htm
 old-project: print
 ms.assetid: a61081ad-308e-49c5-a428-1142520d38e4
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: OEMFillPath
+ms.date: 1/18/2018
+ms.keywords: OEMEscape function [Print Devices], OEMEscape, print.oemfillpath, printoem/OEMEscape, OEMFillPath, print_unidrv-pscript_rendering_0c8783bf-0e73-4b66-98a2-b71ee177549b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OEMEscape
-req.alt-loc: printoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	printoem.h
+apiname: 
+-	OEMEscape
+product: Windows
+targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # OEMFillPath function
 
 
-
 ## -description
+
+
 The <code>OEMFillPath</code> function handles the filling of closed paths.
 
 
-
 ## -syntax
+
 
 ````
 BOOL APIENTRY OEMEscape(
@@ -61,25 +71,33 @@ BOOL APIENTRY OEMEscape(
 
 ## -parameters
 
-### -param pso 
 
 
-### -param ppo 
+
+### -param pso
 
 
-### -param pco 
+
+### -param ppo
 
 
-### -param pbo 
+
+### -param pco
 
 
-### -param pptlBrushOrg 
+
+### -param pbo
 
 
-### -param mix 
+
+### -param pptlBrushOrg
 
 
-### -param flOptions 
+
+### -param mix
 
 
-## -remarks
+
+### -param flOptions
+
+

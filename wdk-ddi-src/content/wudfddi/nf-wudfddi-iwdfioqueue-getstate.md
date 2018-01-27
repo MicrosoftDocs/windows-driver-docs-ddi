@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 42dc9bbe-b00d-4187-ab07-0c268a061298
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoQueue, IWDFIoQueue::GetState, GetState
+ms.keywords: wudfddi/IWDFIoQueue::GetState, IWDFIoQueue::GetState, GetState method, IWDFIoQueue interface, GetState method, wdf.iwdfioqueue_getstate, UMDFQueueObjectRef_81051128-228b-476a-b27f-5c542558d8a8.xml, IWDFIoQueue interface, GetState method, IWDFIoQueue, umdf.iwdfioqueue_getstate, GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.5
-req.alt-api: IWDFIoQueue.GetState
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFIoQueue.GetState
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IWDFIoQueue::GetState method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetState</b> method retrieves the state of an I/O queue.
 
 
-
 ## -syntax
+
 
 ````
 WDF_IO_QUEUE_STATE GetState(
@@ -57,6 +67,9 @@ WDF_IO_QUEUE_STATE GetState(
 
 
 ## -parameters
+
+
+
 
 ### -param pulNumOfRequestsInQueue [out]
 
@@ -69,22 +82,25 @@ A pointer to a variable that receives the number of I/O requests that the driver
 
 
 ## -returns
+
+
 <b>GetState</b> returns a bitwise OR of <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>-typed values that provides the state of the queue.
 
 
+
 ## -remarks
+
+
 The total number of requests that are associated with the I/O queue is the sum of the values that the <i>pulNumOfRequestsInQueue</i> and <i>pulNumOfRequestsInDriver</i> parameters point to.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-</dt>
-<dt>
+
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>
-</dt>
-</dl>
+
  
 
  

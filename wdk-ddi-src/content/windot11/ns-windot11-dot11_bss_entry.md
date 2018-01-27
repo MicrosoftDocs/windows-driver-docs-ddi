@@ -7,8 +7,8 @@ old-location: netvista\dot11_bss_entry.htm
 old-project: netvista
 ms.assetid: 50661fc9-2f1f-4c9a-bc15-1cdf7c1f6d01
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DOT11_BSS_ENTRY, DOT11_BSS_ENTRY, *PDOT11_BSS_ENTRY
+ms.date: 1/18/2018
+ms.keywords: *PDOT11_BSS_ENTRY, netvista.dot11_bss_entry, DOT11_BSS_ENTRY structure [Network Drivers Starting with Windows Vista], windot11/DOT11_BSS_ENTRY, DOT11_BSS_ENTRY, windot11/PDOT11_BSS_ENTRY, Native_802.11_data_types_f884f12d-d267-4ae3-b632-6c318b515880.xml, PDOT11_BSS_ENTRY, PDOT11_BSS_ENTRY structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DOT11_BSS_ENTRY
-req.alt-loc: windot11.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,17 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DOT11_BSS_ENTRY, *PDOT11_BSS_ENTRY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	windot11.h
+apiname: 
+-	DOT11_BSS_ENTRY
+product: Windows
+targetos: Windows
+req.typenames: *PDOT11_BSS_ENTRY, DOT11_BSS_ENTRY
 req.product: Windows 10 or later.
 ---
 
 # DOT11_BSS_ENTRY structure
 
 
-
 ## -description
 
+
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_BSS_ENTRY structure defines an IEEE 802.11 Beacon or Response Frame that the 802.11 station
+  received during its last scan operation.
+
+
 ## -syntax
+
 
 ````
 typedef struct DOT11_BSS_ENTRY {
@@ -64,6 +78,9 @@ typedef struct DOT11_BSS_ENTRY {
 
 ## -struct-fields
 
+
+
+
 ### -field uPhyId
 
 The identifier (ID) of the PHY that the 802.11 station used to detect the BSS network. The PHY ID
@@ -79,8 +96,8 @@ This ID must not be DOT11_PHY_ID_ANY.
 The attributes of the PHY referenced by the 
      <b>uPhyId</b> member. 
      <b>PhySpecificInfo</b> is formatted as a 
-     <a href="..\windot11\ns-windot11-dot11_bss_entry_phy_specific_info.md">
-     DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO</a> union.
+     <mshelp:link keywords="netvista.dot11_bss_entry_phy_specific_info" tabindex="0"><b>
+     DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO</b></mshelp:link> union.
 
 
 ### -field dot11BSSID
@@ -121,13 +138,12 @@ This member specifies whether the AP or peer station is operating within the reg
      identified by the input country string. To set this member, the miniport driver must use the following
      guidelines:
      
-
 <ul>
 <li>
 If the 802.11 station does not support multiple regulatory domains, set the member to <b>TRUE</b>. For
        more information about multiple regulatory domains, see 
-       <a href="netvista.oid_dot11_multi_domain_capability_implemented">
-       OID_DOT11_MULTI_DOMAIN_CAPABILITY_IMPLEMENTED</a>.
+       <mshelp:link keywords="netvista.oid_dot11_multi_domain_capability_implemented" tabindex="0">
+       OID_DOT11_MULTI_DOMAIN_CAPABILITY_IMPLEMENTED</mshelp:link>.
 
 </li>
 <li>
@@ -206,10 +222,12 @@ For more information about the fields within IEEE 802.11 Beacon or Probe Respons
 
 
 ## -remarks
+
+
 When the 802.11 station performs a scan operation, the Native 802.11 miniport driver caches the
     received 802.11 Beacon and Probe Response frames. For more information about the scan operation, see 
-    <a href="netvista.native_802_11_scan_operations">Native 802.11 Scan
-    Operations</a>.
+    <mshelp:link keywords="netvista.native_802_11_scan_operations" tabindex="0">Native 802.11 Scan
+    Operations</mshelp:link>.
 
 After the 802.11 station completes the scan operation, the miniport driver returns the list of the
     cached Beacon and Probe Response frames when queried by 
@@ -217,38 +235,30 @@ After the 802.11 station completes the scan operation, the miniport driver retur
     DOT11_BSS_ENTRY structure is formatted for each Beacon and Probe Response frame.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a>
-</dt>
-<dt>
-<a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
-</dt>
-<dt>
-<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
-</dt>
-<dt>
-<a href="..\windot11\ns-windot11-dot11_bss_entry_phy_specific_info.md">
-   DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisgetcurrentsystemtime.md">NdisGetCurrentSystemTime</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>
-</dt>
-<dt>
-<a href="netvista.oid_dot11_multi_domain_capability_implemented">
-   OID_DOT11_MULTI_DOMAIN_CAPABILITY_IMPLEMENTED</a>
-</dt>
-<dt>
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
-</dt>
-</dl>
- 
+
+<mshelp:link keywords="netvista.oid_dot11_multi_domain_capability_implemented" tabindex="0">
+   OID_DOT11_MULTI_DOMAIN_CAPABILITY_IMPLEMENTED</mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>
+
+<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
+
+<mshelp:link keywords="netvista.dot11_bss_entry_phy_specific_info" tabindex="0"><b>
+   DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisgetcurrentsystemtime.md">NdisGetCurrentSystemTime</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_BSS_ENTRY structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_BSS_ENTRY structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6c716394-1e82-40d2-befc-50a0ea88f750
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SM_GetPersistentBinding_IN, SM_GetPersistentBinding_IN, *PSM_GetPersistentBinding_IN
+ms.keywords: hbapiwmi/SM_GetPersistentBinding_IN, structs-Fibre_2cf97173-2aa3-4770-865a-825f5db0daf1.xml, SM_GetPersistentBinding_IN structure [Storage Devices], PSM_GetPersistentBinding_IN structure pointer [Storage Devices], *PSM_GetPersistentBinding_IN, hbapiwmi/PSM_GetPersistentBinding_IN, SM_GetPersistentBinding_IN, PSM_GetPersistentBinding_IN, storage.sm_getpersistentbinding_in, _SM_GetPersistentBinding_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SM_GetPersistentBinding_IN
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	SM_GetPersistentBinding_IN
+product: Windows
+targetos: Windows
 req.typenames: SM_GetPersistentBinding_IN, *PSM_GetPersistentBinding_IN
 ---
 
 # _SM_GetPersistentBinding_IN structure
 
 
-
 ## -description
+
+
 The SM_GetPersistentBinding_IN structure is used to provide input parameters to the SM_GetPersistentBinding method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SM_GetPersistentBinding_IN {
@@ -55,6 +65,9 @@ typedef struct _SM_GetPersistentBinding_IN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HbaPortWWN
 
@@ -72,4 +85,8 @@ The number of persistent bindings that are associated with the HBA.
 
 
 ## -remarks
-The WMI tool suite generates a declaration of the SM_GetPersistentBinding_IN structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.</p>
+
+
+The WMI tool suite generates a declaration of the SM_GetPersistentBinding_IN structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.
+
+

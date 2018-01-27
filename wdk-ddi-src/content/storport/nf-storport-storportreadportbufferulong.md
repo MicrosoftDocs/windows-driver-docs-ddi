@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0b7366db-e80f-41f0-9a51-d1c139e948d8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortReadPortBufferUlong
+ms.keywords: storage.storportreadportbufferulong, StorPortReadPortBufferUlong, storport/StorPortReadPortBufferUlong, StorPortReadPortBufferUlong routine [Storage Devices], storprt_175251c9-5c08-4f49-9b3d-a7376c04a0a7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortReadPortBufferUlong
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortReadPortBufferUlong
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortReadPortBufferUlong function
 
 
-
 ## -description
+
+
 The <b>StorPortReadPortBufferUlong</b> routine reads a value from a specified port address. 
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API VOID StorPortReadPortBufferUlong(
@@ -57,6 +68,9 @@ STORPORT_API VOID StorPortReadPortBufferUlong(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -79,22 +93,25 @@ Specifies the number of data items to be read. Each data item has a size of size
 
 
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 For more information, see the <a href="..\srb\nf-srb-scsiportreadportbufferulong.md">ScsiPortReadPortBufferUlong</a> routine. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadportulong.md">StorPortReadPortUlong</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportreadportbufferulong.md">ScsiPortReadPortBufferUlong</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportreadportulong.md">StorPortReadPortUlong</a>
-</dt>
-</dl>
+
  
 
  

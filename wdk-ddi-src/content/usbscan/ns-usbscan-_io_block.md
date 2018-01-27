@@ -7,8 +7,8 @@ old-location: image\io_block.htm
 old-project: image
 ms.assetid: aa1ccffc-c742-415d-8b72-fef247dff03c
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: _IO_BLOCK, IO_BLOCK, *PIO_BLOCK
+ms.date: 1/18/2018
+ms.keywords: usbscan/PIO_BLOCK, image.io_block, usbscan/IO_BLOCK, IO_BLOCK structure [Imaging Devices], _IO_BLOCK, IO_BLOCK, *PIO_BLOCK, stifnc_94187a6f-5c01-4d4a-a852-469f93d891b9.xml, PIO_BLOCK, PIO_BLOCK structure pointer [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IO_BLOCK
-req.alt-loc: usbscan.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: IO_BLOCK, *PIO_BLOCK
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbscan.h
+apiname: 
+-	IO_BLOCK
+product: Windows
+targetos: Windows
+req.typenames: *PIO_BLOCK, IO_BLOCK
 req.product: Windows 10 or later.
 ---
 
 # _IO_BLOCK structure
 
 
-
 ## -description
+
+
 The IO_BLOCK structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="..\usbscan\ni-usbscan-ioctl_read_registers.md">IOCTL_READ_REGISTERS</a> or <a href="..\usbscan\ni-usbscan-ioctl_write_registers.md">IOCTL_WRITE_REGISTERS</a>. Values contained in structure members are used to create a USB Device Request (described in the <i>Universal Serial Bus Specification</i>).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _IO_BLOCK {
@@ -57,6 +67,9 @@ typedef struct _IO_BLOCK {
 
 
 ## -struct-fields
+
+
+
 
 ### -field uOffset
 
@@ -77,5 +90,3 @@ Pointer to a data buffer with a length of <b>uLength</b>.
 
 Used as the <b>Index</b> field of a USB Device Request.
 
-
-## -remarks

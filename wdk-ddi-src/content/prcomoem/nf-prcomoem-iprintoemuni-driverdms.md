@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_driverdms.htm
 old-project: print
 ms.assetid: b62e6752-0804-41c4-84f4-49ad145acaf3
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IPrintOemUni, IPrintOemUni::DriverDMS, DriverDMS
+ms.date: 1/18/2018
+ms.keywords: DriverDMS method [Print Devices], IPrintOemUni, IPrintOemUni interface [Print Devices], DriverDMS method, DriverDMS, IPrintOemUni::DriverDMS, DriverDMS method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::DriverDMS, print.iprintoemuni_driverdms, print_unidrv-pscript_rendering_fe76a6eb-0c5d-4e12-868b-c2e53df011e8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPrintOemUni.DriverDMS
-req.alt-loc: prcomoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	prcomoem.h
+apiname: 
+-	IPrintOemUni.DriverDMS
+product: Windows
+targetos: Windows
+req.typenames: *POEMPTOPTS, OEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
 # IPrintOemUni::DriverDMS method
 
 
-
 ## -description
-The <code>IPrintOemUni::DriverDMS</code> method allows a rendering plug-in for <a href="wdkgloss.u#wdkgloss.unidrv#wdkgloss.unidrv"><i>Unidrv</i></a> to indicate that it uses a device-managed drawing surface.
 
+
+The <code>IPrintOemUni::DriverDMS</code> method allows a rendering plug-in for <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">Unidrv</a> to indicate that it uses a device-managed drawing surface.
 
 
 ## -syntax
+
 
 ````
 HRESULT DriverDMS(
@@ -58,39 +68,67 @@ HRESULT DriverDMS(
 
 ## -parameters
 
-### -param pDevObj 
+
+
+
+### -param pDevObj
 
 Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 
 
-### -param pBuffer 
+### -param pBuffer
 
 Caller-supplied pointer to a buffer to receive method-specified flags. (See the following Remarks section.)
 
 
-### -param cbSize 
+### -param cbSize
 
 Caller-supplied size, in bytes, of the buffer pointed to by <i>pBuffer</i>.
 
 
-### -param pcbNeeded 
+### -param pcbNeeded
 
 Caller-supplied pointer to a location to receive the required minimum <i>pBuffer</i> size.
 
 
 ## -returns
+
+
 The method must return one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The operation succeeded.
+</dl>
+</td>
+<td width="60%">
+The operation succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_FAIL</b></dt>
-</dl>The operation failed
+</dl>
+</td>
+<td width="60%">
+The operation failed
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A rendering plug-in for Unidrv must implement the <code>IPrintOemUni::DriverDMS</code> method. The method will be called only if Unidrv finds a valid interface pointer to the OEM's rendering plug-in.
 
 The <code>IPrintOemUni::DriverDMS</code> method allows a rendering plug-in to indicate that it will be using a device-managed drawing surface instead of the default GDI-managed surface.
@@ -99,4 +137,6 @@ The method must specify HOOK_-prefixed flags in the buffer pointed to by <i>pBuf
 
 If <code>IPrintOemUni::DriverDMS</code> sets flags in the buffer pointed to by <i>pBuffer</i>, Unidrv creates a device-managed surface by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff564206">EngCreateDeviceSurface</a>. If <code>IPrintOemUni::DriverDMS</code> does not set any flags, Unidrv creates a GDI-managed surface by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff564199">EngCreateBitmap</a>. In either of these cases, <code>IPrintOemUni::DriverDMS</code> should return S_OK.
 
-If the output buffer size specified by <i>cbSize</i> is too small, the method should specify the required size in the location pointed to by <i>pcbNeeded</i>, call <b>SetLastError</b>(ERROR_INSUFFICIENT_BUFFER), and return E_FAIL.</p>
+If the output buffer size specified by <i>cbSize</i> is too small, the method should specify the required size in the location pointed to by <i>pcbNeeded</i>, call <b>SetLastError</b>(ERROR_INSUFFICIENT_BUFFER), and return E_FAIL.
+
+

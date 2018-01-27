@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 84441fde-1d66-4f76-86b7-dccd792afd0f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_wwn, *PHBA_WWN, HBA_WWN
+ms.keywords: storage.hba_wwn, PHBA_WWN structure pointer [Storage Devices], HBA_WWN, PHBA_WWN, HBA_wwn structure [Storage Devices], hbaapi/PHBA_WWN, hbaapi/HBA_wwn, structs-Fibre_89c3be90-1992-4d06-9a26-c3067dc69db8.xml, HBA_WWN structure [Storage Devices], HBA_wwn, *PHBA_WWN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBA_WWN
-req.alt-loc: hbaapi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbaapi.h
+apiname: 
+-	HBA_WWN
+product: Windows
+targetos: Windows
 req.typenames: *PHBA_WWN, HBA_WWN
 ---
 
 # HBA_wwn structure
 
 
-
 ## -description
+
+
 The HBA_wwn structure contains a 64 bit world-wide name (WWN) that uniquely identifies an HBA. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct HBA_wwn {
@@ -54,26 +64,22 @@ typedef struct HBA_wwn {
 
 ## -struct-fields
 
+
+
+
 ### -field wwn
 
 Contains a 64 bit world-wide name (WWN) that uniquely identifies an HBA. .
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a>
-</dt>
-<dt>
-<a href="..\hbaapi\ns-hbaapi-hba_mgmtinfo.md">HBA_MgmtInfo</a>
-</dt>
-<dt>
+
 <a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
-</dt>
-</dl>
+
+<a href="..\hbaapi\ns-hbaapi-hba_mgmtinfo.md">HBA_MgmtInfo</a>
+
  
 
  

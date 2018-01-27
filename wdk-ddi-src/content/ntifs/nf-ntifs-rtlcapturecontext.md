@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c3edd10c-ea4f-4e2d-96f2-3d1cb3804512
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlCaptureContext
+ms.keywords: ntifs/RtlCaptureContext, RtlCaptureContext function [Installable File System Drivers], RtlCaptureContext, rtlref_efe764ec-89fb-43bc-945d-7fee4594c284.xml, ifsk.rtlcapturecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later versions 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlCaptureContext
-req.alt-loc: NtDll.dll,NtosKrnl.exe,API-MS-Win-Core-RTLSupport-l1-1-0.dll,API-MS-Win-Core-RTLSupport-l1-2-0.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: NtosKrnl.lib; OneCoreUAP.lib on Windows 10
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtDll.dll
+-	NtosKrnl.exe
+-	API-MS-Win-Core-RTLSupport-l1-1-0.dll
+-	API-MS-Win-Core-RTLSupport-l1-2-0.dll
+apiname: 
+-	RtlCaptureContext
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlCaptureContext function
 
 
-
 ## -description
+
+
 The <b>RtlCaptureContext </b>function retrieves a context record in the context of the caller.
 
 
-
 ## -syntax
+
 
 ````
 VOID RtlCaptureContext(
@@ -54,25 +67,34 @@ VOID RtlCaptureContext(
 
 ## -parameters
 
+
+
+
 ### -param ContextRecord [out]
 
 A pointer to a <a href="http://go.microsoft.com/fwlink/p/?linkid=132119">CONTEXT</a> structure.
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
+
 ## -remarks
+
+
 The <i>ContextRecord</i> that is captured contains processor-specific register data.  
 
 For kernel-mode code, the CONTEXT structure is defined in <i>Ntddk.h</i>. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=132119">CONTEXT</a> Structure topic in the SDK documentation.
 
 
+
 ## -see-also
-<dl>
-<dt><a href="http://go.microsoft.com/fwlink/p/?linkid=132119">CONTEXT</a></dt>
-</dl>
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=132119">CONTEXT</a>
+
  
 
  

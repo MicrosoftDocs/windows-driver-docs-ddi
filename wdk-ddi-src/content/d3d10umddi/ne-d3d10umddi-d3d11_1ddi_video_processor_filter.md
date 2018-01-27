@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 189ad1c2-3828-468a-a99d-12d85da6bf63
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_FILTER, D3D11_1DDI_VIDEO_PROCESSOR_FILTER
+ms.keywords: d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FILTER_ANAMORPHIC_SCALING, D3D11_1DDI_VIDEO_PROCESSOR_FILTER_BRIGHTNESS, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FILTER, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FILTER_CONTRAST, D3D11_1DDI_VIDEO_PROCESSOR_FILTER_HUE, D3D11_1DDI_VIDEO_PROCESSOR_FILTER_STEREO_ADJUSTMENT, D3D11_1DDI_VIDEO_PROCESSOR_FILTER_SATURATION, D3D11_1DDI_VIDEO_PROCESSOR_FILTER_ANAMORPHIC_SCALING, D3D11_1DDI_VIDEO_PROCESSOR_FILTER_CONTRAST, D3D11_1DDI_VIDEO_PROCESSOR_FILTER_NOISE_REDUCTION, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FILTER_BRIGHTNESS, display.d3d11_1ddi_video_processor_filter, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FILTER_NOISE_REDUCTION, D3D11_1DDI_VIDEO_PROCESSOR_FILTER_EDGE_ENHANCEMENT, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FILTER_EDGE_ENHANCEMENT, D3D11_1DDI_VIDEO_PROCESSOR_FILTER, D3D11_1DDI_VIDEO_PROCESSOR_FILTER enumeration [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FILTER_STEREO_ADJUSTMENT, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FILTER_HUE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FILTER_SATURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDI_VIDEO_PROCESSOR_FILTER
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDI_VIDEO_PROCESSOR_FILTER
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_FILTER
 ---
 
 # D3D11_1DDI_VIDEO_PROCESSOR_FILTER enumeration
 
 
-
 ## -description
+
+
 Identifies a video processor filter.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D11_1DDI_VIDEO_PROCESSOR_FILTER { 
@@ -60,6 +70,9 @@ typedef enum D3D11_1DDI_VIDEO_PROCESSOR_FILTER {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_FILTER_BRIGHTNESS
 
@@ -102,5 +115,3 @@ Stereo adjustment filter. When stereo 3-D video is enabled, this filter adjusts 
 
 The filter value indicates the amount by which the left and right views are adjusted. A positive value shifts the images away from each other: the left image toward the left, and the right image toward the right. A negative value shifts the images in the opposite directions, closer to each other.
 
-
-## -remarks

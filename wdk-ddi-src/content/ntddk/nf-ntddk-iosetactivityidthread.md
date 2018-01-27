@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4C7884AB-C763-4FAF-8799-E0113B3F3AE0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoSetActivityIdThread
+ms.keywords: IoSetActivityIdThread, kernel.iosetactivityidthread, IoSetActivityIdThread routine [Kernel-Mode Driver Architecture], ntddk/IoSetActivityIdThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with  Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoSetActivityIdThread
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoSetActivityIdThread
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # IoSetActivityIdThread function
 
 
-
 ## -description
+
+
 The IoSetActivityIdThread routine associates an activity ID with the current thread. Drivers should use this routine when they are tracing aware and are issuing I/O on a worker thread.
 
 
-
 ## -syntax
+
 
 ````
 LPGUID IoSetActivityIdThread(
@@ -54,14 +64,24 @@ LPGUID IoSetActivityIdThread(
 
 ## -parameters
 
-### -param ActivityId 
+
+
+
+### -param ActivityId
 
 The activity ID provided by caller.
 
 
 ## -returns
+
+
 The activity ID that was previously set on the thread. Drivers must call IoClearActivityIdThread with this pointer when tracing is completed within the same thread context.
 
 
+
 ## -remarks
-Drivers that use  I/O work items do not need to call this routine because the I/O subsystem takes care of propagating activity IDs to threads in that case.</p>
+
+
+Drivers that use  I/O work items do not need to call this routine because the I/O subsystem takes care of propagating activity IDs to threads in that case.
+
+

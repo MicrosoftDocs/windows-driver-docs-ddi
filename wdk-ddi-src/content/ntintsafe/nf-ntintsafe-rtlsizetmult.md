@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3EC72857-2880-4F03-8CC3-9B9A80F19273
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlSizeTMult
+ms.keywords: ntintsafe/RtlSizeTMult, kernel.rtlsizetmult, RtlSizeTMult function [Kernel-Mode Driver Architecture], RtlSizeTMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlSizeTMult
-req.alt-loc: Ntintsafe.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntintsafe.h
+apiname: 
+-	RtlSizeTMult
+product: Windows
+targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
 
 # RtlSizeTMult function
 
 
-
 ## -description
+
+
 Multiplies one value of type <b>SIZE_T</b> by another.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlSizeTMult(
@@ -55,6 +65,9 @@ NTSTATUS RtlSizeTMult(
 
 
 ## -parameters
+
+
+
 
 ### -param Multiplicand [in]
 
@@ -72,4 +85,8 @@ A pointer to the result. If the operation results in a value that overflows or u
 
 
 ## -remarks
-This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.</p>
+
+
+This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
+

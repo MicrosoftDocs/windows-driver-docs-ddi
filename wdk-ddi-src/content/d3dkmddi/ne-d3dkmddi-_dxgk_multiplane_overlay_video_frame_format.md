@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 072543cd-d11c-4418-884f-a7823c033a17
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT, DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
+ms.keywords: d3dkmddi/DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_PROGRESSIVE, display.dxgk_multiplane_overlay_video_frame_format, DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, _DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT, DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT enumeration [Display Devices], d3dkmddi/DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT, DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_PROGRESSIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
-req.alt-loc: D3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmddi.h
+apiname: 
+-	DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
+product: Windows
+targetos: Windows
 req.typenames: DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
 ---
 
 # _DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT enumeration
 
 
-
 ## -description
+
+
 Identifies the overlay plane's video frame format. Only the <b>DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_PROGRESSIVE</b> value is supported.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT { 
@@ -55,6 +65,9 @@ typedef enum _DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_PROGRESSIVE
 
@@ -70,5 +83,3 @@ Reserved for system use. Do not use in your driver.
 
 Reserved for system use. Do not use in your driver.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4bf54017-d142-4534-8a5a-c7f267a1554b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _IO_ERROR_LOG_PACKET, *PIO_ERROR_LOG_PACKET, IO_ERROR_LOG_PACKET
+ms.keywords: PIO_ERROR_LOG_PACKET structure pointer [Kernel-Mode Driver Architecture], _IO_ERROR_LOG_PACKET, wdm/PIO_ERROR_LOG_PACKET, *PIO_ERROR_LOG_PACKET, wdm/IO_ERROR_LOG_PACKET, PIO_ERROR_LOG_PACKET, kstruct_b_04c24dbc-a479-437c-adc2-b29294596564.xml, IO_ERROR_LOG_PACKET structure [Kernel-Mode Driver Architecture], IO_ERROR_LOG_PACKET, kernel.io_error_log_packet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IO_ERROR_LOG_PACKET
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	IO_ERROR_LOG_PACKET
+product: Windows
+targetos: Windows
 req.typenames: *PIO_ERROR_LOG_PACKET, IO_ERROR_LOG_PACKET
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _IO_ERROR_LOG_PACKET structure
 
 
-
 ## -description
+
+
 The <b>IO_ERROR_LOG_PACKET</b> structure serves as the header for an error log entry.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _IO_ERROR_LOG_PACKET {
@@ -66,6 +76,9 @@ typedef struct _IO_ERROR_LOG_PACKET {
 
 
 ## -struct-fields
+
+
+
 
 ### -field MajorFunctionCode
 
@@ -137,6 +150,8 @@ A variable-size array that can be used to store driver-specific binary data, suc
 
 
 ## -remarks
+
+
 Drivers use the <a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a> routine to allocate an error log entry. The <b>IO_ERROR_LOG_PACKET</b> structure serves as the header for the returned buffer. It is followed in memory by any insertion strings for the log entry.
 
 Note that the I/O manager itself inserts some information into the system error log, such as the name of the device and driver. The I/O manager reserves 80 bytes to hold this information. If the size of this information exceeds 80 bytes, then the I/O manager truncates the driver's insertion strings as necessary.
@@ -144,24 +159,19 @@ Note that the I/O manager itself inserts some information into the system error 
 For more information about how to use this structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554312">Logging Errors</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iofreeerrorlogentry.md">IoFreeErrorLogEntry</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
+
+<a href="..\wdm\nf-wdm-iofreeerrorlogentry.md">IoFreeErrorLogEntry</a>
+
+<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
+
  
 
  

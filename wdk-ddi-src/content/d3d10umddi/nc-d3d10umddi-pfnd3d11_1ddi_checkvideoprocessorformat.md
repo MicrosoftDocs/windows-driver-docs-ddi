@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f5f18a53-d121-445a-86b7-649624a2f175
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.checkvideoprocessorformat, CheckVideoProcessorFormat callback function [Display Devices], CheckVideoProcessorFormat, PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT, PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT, d3d10umddi/CheckVideoProcessorFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CheckVideoProcessorFormat
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	CheckVideoProcessorFormat
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT callback
 
 
-
 ## -description
+
+
 Queries whether the video processor supports a specified video format.
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT CheckVideoProcessorFormat;
@@ -60,24 +70,46 @@ VOID APIENTRY* CheckVideoProcessorFormat(
 
 ## -parameters
 
-### -param hDevice [in]
+
+
+
+### -param D3D10DDI_HDEVICE
+
+
+
+### -param D3D11_1DDI_HVIDEOPROCESSORENUM
+
+
+
+### -param DXGI_FORMAT
+
+
+
+### -param *
+
+
+
+
+
+
+#### - Format [in]
+
+The video format to query.
+
+
+#### - hVideoProcessorEnum [in]
+
+A handle to a video processor enumeration object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a> function. 
+
+
+#### - hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
 
-### -param hVideoProcessorEnum [in]
-
-A handle to a video processor enumeration object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a> function. 
-
-
-### -param Format [in]
-
-The video format to query.
-
-
-### -param pSupported [out]
+#### - pSupported [out]
 
 Specifies a bitwise OR of zero or more flags from the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_format_support.md">D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT</a> enumeration.
 
@@ -85,10 +117,15 @@ For more information, see the Remarks section.
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 If the driver can support the format as an input format for the video processor, the driver sets the <b>D3D11_1DDI_VIDEO_FORMAT_SUPPORT_VIDEO_PROCESSOR_INPUT</b> flag in the <i>pSupported</i> parameter.
 
 
@@ -101,15 +138,13 @@ If the driver can support neither, it must set the <i>pSupported</i> parameter t
 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_format_support.md">D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT</a>
-</dt>
-</dl>
+
  
 
  

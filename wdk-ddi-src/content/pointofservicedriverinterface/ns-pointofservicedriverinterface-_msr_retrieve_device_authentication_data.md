@@ -7,8 +7,8 @@ old-location: pos\msr_retrieve_device_authentication_data.htm
 old-project: pos
 ms.assetid: e355ca5b-d396-4748-a0ec-b12294a6dcfa
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, *PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
+ms.date: 1/18/2018
+ms.keywords: pointofservicedriverinterface/PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA structure, _MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, *PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, pos.msr_retrieve_device_authentication_data, PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA structure pointer, MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, pointofservicedriverinterface/MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
-req.alt-loc: PointOfServiceDriverInterface.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	PointOfServiceDriverInterface.h
+apiname: 
+-	MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
+product: Windows
+targetos: Windows
 req.typenames: *PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
 ---
 
 # _MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA structure
 
 
-
 ## -description
+
+
 This structure contains authentication information retrieved from the device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA {
@@ -55,6 +65,9 @@ typedef struct _MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field KeySerialNumber
 
@@ -70,5 +83,3 @@ Authentication challenge, such as a password.
 
 Deauthentication challenge, such as a password.
 
-
-## -remarks

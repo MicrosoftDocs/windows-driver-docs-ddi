@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 64494AB9-6F7F-4374-9081-8D65BA7D34E1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxRetrieveTransmitBuffer
+ms.keywords: SerCxRetrieveTransmitBuffer method [Serial Ports], SerCxRetrieveTransmitBuffer, 1/SerCxRetrieveTransmitBuffer, serports.sercxretrievetransmitbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SerCxRetrieveTransmitBuffer
-req.alt-loc: 1.0\Sercx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	1.0\Sercx.h
+apiname: 
+-	SerCxRetrieveTransmitBuffer
+product: Windows
+targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SerCxRetrieveTransmitBuffer function
 
 
-
 ## -description
+
+
 The <b>SerCxRetrieveTransmitBuffer</b> method obtains an output buffer that contains data that is ready to be transmitted to the serial port.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SerCxRetrieveTransmitBuffer(
@@ -56,6 +66,9 @@ NTSTATUS SerCxRetrieveTransmitBuffer(
 
 
 ## -parameters
+
+
+
 
 ### -param Device [in]
 
@@ -73,33 +86,64 @@ A pointer to a caller-allocated <a href="..\sercx\ns-sercx-sercx_buffer_descript
 
 
 ## -returns
+
+
 <b>SerCxRetrieveTransmitBuffer</b> returns STATUS_SUCCESS if it is successful. Possible error return values include the following status codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>The method was called at the wrong IRQL; or the WDFDEVICE handle is not valid; or either <i>Device</i> or <i>BufferDescriptor</i> is NULL; or the driver already has a transmit buffer.
+</dl>
+</td>
+<td width="60%">
+The method was called at the wrong IRQL; or the WDFDEVICE handle is not valid; or either <i>Device</i> or <i>BufferDescriptor</i> is NULL; or the driver already has a transmit buffer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INFO_LENGTH_MISMATCH</b></dt>
-</dl>The wrong size is specified for the <b>SERCX_BUFFER_DESCRIPTOR</b> structure.
+</dl>
+</td>
+<td width="60%">
+The wrong size is specified for the <b>SERCX_BUFFER_DESCRIPTOR</b> structure.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>Could not allocate system resources (typically memory).
+</dl>
+</td>
+<td width="60%">
+Could not allocate system resources (typically memory).
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The serial controller driver calls this method to acquire a buffer that contains the output data for the current transmit (write) operation.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\sercx\ns-sercx-sercx_buffer_descriptor.md">SERCX_BUFFER_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="..\sercx\nf-sercx-sercx_buffer_descriptor_init.md">SERCX_BUFFER_DESCRIPTOR_INIT</a>
-</dt>
-</dl>
+
+<a href="..\sercx\ns-sercx-sercx_buffer_descriptor.md">SERCX_BUFFER_DESCRIPTOR</a>
+
  
 
  

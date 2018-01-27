@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed66db40-d159-4660-96c0-da52f752a409
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsWriteFile
+ms.keywords: ksfunc_4e15871e-8093-4b8e-a1ec-0eda4588e262.xml, KsWriteFile function [Streaming Media Devices], stream.kswritefile, KsWriteFile, ks/KsWriteFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsWriteFile
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsWriteFile
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsWriteFile function
 
 
-
 ## -description
+
+
 The <b>KsWriteFile</b> function performs a write against the specified file object. It is assumed that the caller is serializing access to the file for operations against a FO_SYNCHRONOUS_IO file object. The function attempts to use <b>FastIoDispatch</b> if possible, or it generates a write request against the device object. All relevant statistics are updated.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsWriteFile(
@@ -60,6 +71,9 @@ NTSTATUS KsWriteFile(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -91,9 +105,9 @@ Specifies the buffer from which to write the data. If the buffer needs to be pro
 Specifies the size of the buffer passed.
 
 
-### -param Key [in, optional]
+### -param OPTIONAL
 
-Optionally contains a key, or zero if none.
+TBD
 
 
 ### -param RequestorMode [in]
@@ -101,8 +115,14 @@ Optionally contains a key, or zero if none.
 Indicates the processor mode to place in the read IRP if one needs to be generated. Additionally, it is used if a buffer needs to be probed and locked. This variable also determines if a fast I/O call can be performed. If the requester mode is not KernelMode, but the previous mode was, then fast I/O cannot be used.
 
 
+#### - Key [in, optional]
+
+Optionally contains a key, or zero if none.
+
+
 ## -returns
+
+
 The <b>KsWriteFile</b> function returns STATUS_SUCCESS if successful, STATUS_PENDING if action is pending, or it returns a read error if unsuccessful.
 
 
-## -remarks

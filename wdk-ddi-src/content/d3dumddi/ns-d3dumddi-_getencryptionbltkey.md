@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6f481646-b665-46cb-b551-10515b8603c5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _GETENCRYPTIONBLTKEY, D3DDDIARG_GETENCRYPTIONBLTKEY
+ms.keywords: D3DDDIARG_GETENCRYPTIONBLTKEY, _GETENCRYPTIONBLTKEY, _GETENCRYPTIONBLTKEY structure [Display Devices], d3dumddi/_GETENCRYPTIONBLTKEY, UMDisplayDriver_param_Structs_ecaf1a03-2c4a-450e-a17a-2cc309e7c2e4.xml, display.d3dddiarg_getencryptionbltkey, D3DDDIARG_GETENCRYPTIONBLTKEY structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3DDDIARG_GETENCRYPTIONBLTKEY is supported beginning 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_GETENCRYPTIONBLTKEY
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_GETENCRYPTIONBLTKEY
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # _GETENCRYPTIONBLTKEY structure
 
 
-
 ## -description
+
+
 The _GETENCRYPTIONBLTKEY structure describes an encrypted bit-block transfer (bitblt) session for which the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getencryptionbltkey.md">GetEncryptionBltKey</a> function retrieves the encryption key. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GETENCRYPTIONBLTKEY {
@@ -55,6 +65,9 @@ typedef struct _GETENCRYPTIONBLTKEY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hCryptoSession
 
@@ -71,18 +84,12 @@ typedef struct _GETENCRYPTIONBLTKEY {
 [in] The size, in bytes, of the encryption key that the <b>pReadBackKey</b> member points to. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getencryptionbltkey.md">GetEncryptionBltKey</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
+
  
 
  

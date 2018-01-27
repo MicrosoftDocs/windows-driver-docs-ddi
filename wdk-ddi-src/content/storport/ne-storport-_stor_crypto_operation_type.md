@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: DF8E428F-9F72-451E-AB3E-E6D3CBC99C8F
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STOR_CRYPTO_OPERATION_TYPE, STOR_CRYPTO_OPERATION_TYPE, *PSTOR_CRYPTO_OPERATION_TYPE
+ms.keywords: STOR_CRYPTO_OPERATION_TYPE, *PSTOR_CRYPTO_OPERATION_TYPE, storport/STOR_CRYPTO_OPERATION_TYPE, PSTOR_CRYPTO_OPERATION_TYPE enumeration pointer [Storage Devices], PSTOR_CRYPTO_OPERATION_TYPE, storport/PSTOR_CRYPTO_OPERATION_TYPE, _STOR_CRYPTO_OPERATION_TYPE, STOR_CRYPTO_OPERATION_TYPE enumeration [Storage Devices], storport/, storage.stor_crypto_operation_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STOR_CRYPTO_OPERATION_TYPE
-req.alt-loc: Storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Storport.h
+apiname: 
+-	STOR_CRYPTO_OPERATION_TYPE
+product: Windows
+targetos: Windows
 req.typenames: STOR_CRYPTO_OPERATION_TYPE, *PSTOR_CRYPTO_OPERATION_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _STOR_CRYPTO_OPERATION_TYPE enumeration
 
 
-
 ## -description
+
+
 Reserved for system use.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _STOR_CRYPTO_OPERATION_TYPE { 
@@ -55,9 +65,17 @@ typedef enum _STOR_CRYPTO_OPERATION_TYPE {
 
 ## -enum-fields
 
-### -field 
-
-Reserved for system use.
 
 
-## -remarks
+
+### -field StorCryptoOperationInsertKey
+
+
+
+### -field StorCryptoOperationMax
+
+
+
+
+
+

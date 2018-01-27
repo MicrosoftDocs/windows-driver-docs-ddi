@@ -7,8 +7,8 @@ old-location: netvista\fwps_fields_ale_flow_established_v6.htm
 old-project: netvista
 ms.assetid: e890f92f-9405-4c2d-87de-7b8c6e63cbd7
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: FWPS_FIELDS_ALE_FLOW_ESTABLISHED_V6_, FWPS_FIELDS_ALE_FLOW_ESTABLISHED_V6
+ms.date: 1/18/2018
+ms.keywords: FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_IP_LOCAL_PORT, fwpsk/FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ALE_APP_ID, fwpsk/FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_IP_REMOTE_PORT, FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_INTERFACE_TYPE, FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELDS_ALE_FLOW_ESTABLISHED_V6, FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_IP_DESTINATION_ADDRESS_TYPE, fwpsk/FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_IP_LOCAL_INTERFACE, wfp_ref_5_const_3_data_fields_72375356-cd2e-4d0a-9d56-0721c57ff4c9.xml, fwpsk/FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_TUNNEL_TYPE, fwpsk/FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ALE_PACKAGE_ID, fwpsk/FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_IP_PROTOCOL, FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ALE_PACKAGE_ID, FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ALE_ORIGINAL_APP_ID, FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_IP_REMOTE_PORT, fwpsk/FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ALE_ORIGINAL_APP_ID, fwpsk/FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_IP_DESTINATION_ADDRESS_TYPE, fwpsk/FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_MAX, FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_DIRECTION, fwpsk/FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_IP_REMOTE_ADDRESS, FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ALE_USER_ID, fwpsk/FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ALE_REMOTE_USER_ID, FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_FLAGS, FWPS_FIELDS_ALE_FLOW_ESTABLISHED_V6_, FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_DIRECTION, fwpsk/FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ALE_USER_ID, FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_MAX, fwpsk/FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_IP_LOCAL_PORT, FWPS_FIELDS_ALE_FLOW_ESTABLISHED_V6 enumeration [Network Drivers Starting with Windows Vista], fwpsk/FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ALE_REMOTE_MACHINE_ID, fwpsk/FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_FLAGS, FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ALE_REMOTE_USER_ID, fwpsk/FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_INTERFACE_TYPE, netvista.fwps_fields_ale_flow_established_v6, FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_IP_REMOTE_ADDRESS, FWPS_FIELDS_ALE_FLOW_ESTABLISHED_V6, FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ALE_REMOTE_MACHINE_ID, FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_TUNNEL_TYPE, FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_IP_PROTOCOL, FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ALE_APP_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Unless otherwise noted, supported starting with Windo
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FWPS_FIELDS_ALE_FLOW_ESTABLISHED_V6
-req.alt-loc: fwpsk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	fwpsk.h
+apiname: 
+-	FWPS_FIELDS_ALE_FLOW_ESTABLISHED_V6
+product: Windows
+targetos: Windows
 req.typenames: FWPS_FIELDS_ALE_FLOW_ESTABLISHED_V6
 ---
 
 # FWPS_FIELDS_ALE_FLOW_ESTABLISHED_V6_ enumeration
 
 
-
 ## -description
+
+
 The FWPS_FIELDS_ALE_FLOW_ESTABLISHED_V6 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_ALE_FLOW_ESTABLISHED_V6 and FWPS_LAYER_ALE_FLOW_ESTABLISHED_V6_DISCARD 
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layers</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum FWPS_FIELDS_ALE_FLOW_ESTABLISHED_V6_ { 
@@ -77,6 +87,9 @@ typedef enum FWPS_FIELDS_ALE_FLOW_ESTABLISHED_V6_ {
 
 
 ## -enum-fields
+
+
+
 
 ### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ALE_APP_ID
 
@@ -144,14 +157,6 @@ The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID
 ### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_DIRECTION
 
 
-### -field The direction of the data flow. The possible values are:
-     
-
-### -field FWP_DIRECTION_INBOUND
-     
-
-### -field FWP_DIRECTION_OUTBOUND
-
 
 ### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_INTERFACE_TYPE
 
@@ -175,24 +180,42 @@ A bitwise OR of a combination of filtering condition flags. For information abou
      flags, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff549942">Filtering Condition Flags</a>.
      
-
 <div class="alert"><b>Note</b>  Supported in Windows Server 2008, Windows Vista SP1, and later versions of
-     Windows.</div>
-<div> </div>
+     Windows.</div><div> </div>
 
 ### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ALE_ORIGINAL_APP_ID
 
 The full path of the original application for proxy connections. If the application has not been proxied, this path is identical to the xxx_ALE_APP_ID.
-
-<div class="alert"><b>Note</b>  Supported starting with Windows 8.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  Supported starting with Windows 8.</div><div> </div>
 
 ### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ALE_PACKAGE_ID
 
 The package identifier is a security identifier (SID) that identifies the associated AppContainer process. For more information about the SID structure, see the description for the SID structure in the Microsoft Windows SDK documentation.
+<div class="alert"><b>Note</b>  Supported starting with Windows 8.</div><div> </div>
 
-<div class="alert"><b>Note</b>  Supported starting with Windows 8.</div>
-<div> </div>
+### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ALE_SECURITY_ATTRIBUTE_FQBN_VALUE
+
+
+
+### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_COMPARTMENT_ID
+
+
+
+### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_BITMAP_IP_LOCAL_ADDRESS
+
+
+
+### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_BITMAP_IP_LOCAL_PORT
+
+
+
+### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_BITMAP_IP_REMOTE_ADDRESS
+
+
+
+### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_BITMAP_IP_REMOTE_PORT
+
+
 
 ### -field FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_MAX
 
@@ -200,32 +223,54 @@ The maximum value for this enumeration. This value might change in future versio
      header files and binaries.
 
 
+##### - FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_DIRECTION.FWP_DIRECTION_INBOUND
+
+
+
+##### - FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_DIRECTION.FWP_DIRECTION_OUTBOUND
+
+
+
+###### - FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_DIRECTION.The direction of the data flow. The possible values are:
+
+
+
 ## -remarks
+
+
 The following macros in 
     <i>Fwpsk.h</i> are defined with FWPS_FIELDS_ALE_FLOW_ESTABLISHED_V6 enumeration
     values:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+#define FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ICMP_TYPE \
+        FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_IP_LOCAL_PORT
 
-These macros are used to access the following IPV6 data fields:
+#define FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_ICMP_CODE \
+        FWPS_FIELD_ALE_FLOW_ESTABLISHED_V6_IP_REMOTE_PORT
+</pre>
+</td>
+</tr>
+</table></span></div>These macros are used to access the following IPV6 data fields:
 
 
 
-The ICMP type field, as specified in RFC 792.
-
-The ICMP code field, as specified in RFC 792.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_FIELDS_ALE_FLOW_ESTABLISHED_V6 enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_FIELDS_ALE_FLOW_ESTABLISHED_V6 enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

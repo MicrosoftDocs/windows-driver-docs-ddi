@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8259117b-87ef-410a-955b-6f99966574a6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: NpdBrokerUninitialize
+ms.keywords: stream.avstrminifilterreset, AVStrMiniFilterReset, AVStrMiniFilterReset routine [Streaming Media Devices], AVStrMiniFilterReset, PFNKSFILTERVOID, PFNKSFILTERVOID, ks/AVStrMiniFilterReset, avstclbk_71a3cd5d-faa7-4a7f-a341-deacfbcda051.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AVStrMiniFilterReset
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ks.h
+apiname: 
+-	AVStrMiniFilterReset
+product: Windows
+targetos: Windows
 req.typenames: KEYWORDSELECTOR
 ---
 
 # PFNKSFILTERVOID callback
 
 
-
 ## -description
+
+
 An AVStream minidriver's <i>AVStrMiniFilterReset</i> routine is called when AVStream receives an IOCTL_KS_RESET_STATE to return the filter to the state it was in at <i>Acquire</i>-time. This routine is also called when a queue associated with a pin on the filter is flushed. <i>This routine will only be called for a filter-centric filter</i>.
 
 
-
 ## -prototype
+
 
 ````
 PFNKSFILTERVOID AVStrMiniFilterReset;
@@ -57,16 +67,24 @@ NTSTATUS AVStrMiniFilterReset(
 
 ## -parameters
 
+
+
+
 ### -param Filter [in]
 
 Pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> to return to its previous state.
 
 
 ## -returns
+
+
 AVStream does not currently use the return value.
 
 
+
 ## -remarks
+
+
 For more information, see <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687-ae5e-1550db9500f0">Filter-Centric Processing</a>.
 
 Note that it is not the filter in question, but rather a pin on this filter that actually receives the reset IOCTL.
@@ -78,12 +96,11 @@ The filter control mutex may be held during this function. See <a href="https://
 This routine is optional.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
-</dt>
-</dl>
+
  
 
  

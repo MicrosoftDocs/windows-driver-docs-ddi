@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c903485f-205e-4679-99a7-2a644731fa77
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: MmSetAddressRangeModified
+ms.keywords: ifsk.mmsetaddressrangemodified, mmref_4d6ef497-4a72-4fed-8422-365708740cc7.xml, MmSetAddressRangeModified, ntifs/MmSetAddressRangeModified, MmSetAddressRangeModified routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MmSetAddressRangeModified
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	MmSetAddressRangeModified
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # MmSetAddressRangeModified function
 
 
-
 ## -description
+
+
 The <b>MmSetAddressRangeModified</b> routine marks currently valid pages in the specified range of the system cache as modified.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN MmSetAddressRangeModified(
@@ -54,6 +64,9 @@ BOOLEAN MmSetAddressRangeModified(
 
 
 ## -parameters
+
+
+
 
 ### -param Address [in]
 
@@ -66,10 +79,15 @@ Length of the range in bytes.
 
 
 ## -returns
+
+
 <b>MmSetAddressRangeModified</b> returns <b>TRUE</b> if it marked at least one page in the range as modified, <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 The entire range specified by <i>Address</i> and <i>Length</i> must reside within the system cache.
 
 For more information about memory management, see <a href="https://msdn.microsoft.com/e030a37c-26ab-4177-9980-4336928975e1">Memory Management</a>. 
@@ -77,12 +95,11 @@ For more information about memory management, see <a href="https://msdn.microsof
 Callers of <b>MmSetAddressRangeModified</b> must be running at IRQL &lt; DISPATCH_LEVEL for pageable addresses, and IRQL &lt;= DISPATCH_LEVEL for nonpageable addresses.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccistheredirtydata.md">CcIsThereDirtyData</a>
-</dt>
-</dl>
+
  
 
  

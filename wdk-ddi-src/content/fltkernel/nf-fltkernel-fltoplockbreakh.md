@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1341c0c6-f943-4f94-8535-8b6cc7b5c27e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltOplockBreakH
+ms.keywords: fltkernel/FltOplockBreakH, FltOplockBreakH routine [Installable File System Drivers], FltApiRef_e_to_o_55fd17fd-a64a-4837-a000-0d51685e5a18.xml, FltOplockBreakH, ifsk.fltoplockbreakh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The FltOplockBreakH routine is available starting wit
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltOplockBreakH
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltOplockBreakH
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltOplockBreakH function
 
 
-
 ## -description
+
+
 The <b>FltOplockBreakH</b> routine breaks CACHE_HANDLE_LEVEL opportunistic locks (oplocks). 
 
 
-
 ## -syntax
+
 
 ````
 FLT_PREOP_CALLBACK_STATUS FltOplockBreakH(
@@ -58,6 +68,9 @@ FLT_PREOP_CALLBACK_STATUS FltOplockBreakH(
 
 
 ## -parameters
+
+
+
 
 ### -param Oplock [in]
 
@@ -76,18 +89,6 @@ A bitmask for the associated file I/O operation. A minifilter driver sets bits t
 
 
 
-### -param OPLOCK_FLAG_COMPLETE_IF_OPLOCKED (0x00000001)
-
-Allows an oplock break to proceed without blocking or pending the operation that caused the oplock break. 
-
-
-### -param OPLOCK_FLAG_IGNORE_OPLOCK_KEYS (0x00000008)
-
-Allows CACHE_HANDLE_LEVEL oplock breaks to proceed regardless of the oplock key. 
-
-</dd>
-</dl>
-
 ### -param Context [in, optional]
 
 A pointer to caller-defined context information to be passed to the callback routines that the <i>WaitCompletionRoutine</i> and <i>PrePostCallbackDataRoutine </i>parameters point to. 
@@ -98,7 +99,6 @@ A pointer to caller-defined context information to be passed to the callback rou
 A pointer to a caller-supplied callback routine. If an oplock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the oplock break is completed. 
 
 This routine is declared as follows: 
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -112,30 +112,16 @@ This routine is declared as follows:
     );</pre>
 </td>
 </tr>
-</table></span></div>
-This routine has the following parameters: 
+</table></span></div>This routine has the following parameters: 
 
 
 
-
-### -param CallbackData
-
-A pointer to the callback data structure for the I/O operation. 
-
-
-### -param Context
-
-A context information pointer that was passed in the <i>Context</i> parameter to <b>FltOplockBreakH</b>. 
-
-</dd>
-</dl>
 
 ### -param PrePostCallbackDataRoutine [in, optional]
 
 A pointer to a caller-supplied callback routine to be called if the I/O operation must be pended. The routine is called before the oplock package pends the IRP. This parameter is optional and can be <b>NULL</b>. 
 
 This routine is declared as follows: 
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -149,58 +135,104 @@ This routine is declared as follows:
       );</pre>
 </td>
 </tr>
-</table></span></div>
-This routine has the following parameters: 
+</table></span></div>This routine has the following parameters: 
 
 
 
 
-### -param CallbackData
+##### - WaitCompletionRoutine.CallbackData
 
 A pointer to the callback data structure for the I/O operation. 
 
 
-### -param Context
+##### - Flags.OPLOCK_FLAG_IGNORE_OPLOCK_KEYS (0x00000008)
+
+Allows CACHE_HANDLE_LEVEL oplock breaks to proceed regardless of the oplock key. 
+
+
+##### - PrePostCallbackDataRoutine.CallbackData
+
+A pointer to the callback data structure for the I/O operation. 
+
+
+##### - Flags.OPLOCK_FLAG_COMPLETE_IF_OPLOCKED (0x00000001)
+
+Allows an oplock break to proceed without blocking or pending the operation that caused the oplock break. 
+
+
+##### - WaitCompletionRoutine.Context
 
 A context information pointer that was passed in the <i>Context</i> parameter to <b>FltOplockBreakH</b>. 
 
-</dd>
-</dl>
+
+##### - PrePostCallbackDataRoutine.Context
+
+A context information pointer that was passed in the <i>Context</i> parameter to <b>FltOplockBreakH</b>. 
+
 
 ## -returns
+
+
 <b>FltOplockBreakH</b> returns one of the following FLT_PREOP_CALLBACK_STATUS codes: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>FLT_PREOP_COMPLETE</b></dt>
-</dl><b>FltOplockBreakH</b> encountered a pool allocation failure, or a call to the <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockbreakh~r5.md">FsRtlOplockBreakH</a> function returned an error. <b>FltOplockBreakH</b> will set the error code in the <b>Status</b> member of the <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure. The IO_STATUS_BLOCK structure is specified in the <b>IoStatus</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> callback data structure. The <i>CallbackData</i> parameter points to this FLT_CALLBACK_DATA. 
+</dl>
+</td>
+<td width="60%">
+<b>FltOplockBreakH</b> encountered a pool allocation failure, or a call to the <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockbreakh~r5.md">FsRtlOplockBreakH</a> function returned an error. <b>FltOplockBreakH</b> will set the error code in the <b>Status</b> member of the <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure. The IO_STATUS_BLOCK structure is specified in the <b>IoStatus</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> callback data structure. The <i>CallbackData</i> parameter points to this FLT_CALLBACK_DATA. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>FLT_PREOP_PENDING</b></dt>
-</dl>An oplock break was initiated, which caused the Filter Manager to post the I/O operation to a work queue. The I/O operation is represented by the callback data that the <i>CallbackData</i> parameter points to. 
+</dl>
+</td>
+<td width="60%">
+An oplock break was initiated, which caused the Filter Manager to post the I/O operation to a work queue. The I/O operation is represented by the callback data that the <i>CallbackData</i> parameter points to. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>FLT_PREOP_SUCCESS_WITH_CALLBACK</b></dt>
-</dl>The callback data that the <i>CallbackData</i> parameter points to was not pended, and the I/O operation was performed immediately. Be aware that if the caller specified OPLOCK_FLAG_COMPLETE_IF_OPLOCKED in the <i>Flags</i> parameter, an oplock break might actually be in progress even though the I/O operation was not pended. To determine whether this is the situation, the caller should check for STATUS_OPLOCK_BREAK_IN_PROGRESS in the <b>Status</b> member of the <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure. The IO_STATUS_BLOCK structure is specified in the <b>IoStatus</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> callback data structure. 
+</dl>
+</td>
+<td width="60%">
+The callback data that the <i>CallbackData</i> parameter points to was not pended, and the I/O operation was performed immediately. Be aware that if the caller specified OPLOCK_FLAG_COMPLETE_IF_OPLOCKED in the <i>Flags</i> parameter, an oplock break might actually be in progress even though the I/O operation was not pended. To determine whether this is the situation, the caller should check for STATUS_OPLOCK_BREAK_IN_PROGRESS in the <b>Status</b> member of the <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure. The IO_STATUS_BLOCK structure is specified in the <b>IoStatus</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> callback data structure. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 For more information about opportunistic locks, see the Microsoft Windows SDK documentation. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockbreakh~r5.md">FsRtlOplockBreakH</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
 <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockbreakh~r5.md">FsRtlOplockBreakH</a>
+
  
 
  

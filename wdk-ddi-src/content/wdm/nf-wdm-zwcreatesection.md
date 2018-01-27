@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 805d7eff-19be-47a1-acc9-1b97e5493031
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwCreateSection
+ms.keywords: wdm/ZwCreateSection, NtCreateSection, k111_8e0d13e2-4cd7-4b39-b1ce-41b193c495be.xml, ZwCreateSection routine [Kernel-Mode Driver Architecture], kernel.zwcreatesection, ZwCreateSection, wdm/NtCreateSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwCreateSection,NtCreateSection
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ZwCreateSection
+-	NtCreateSection
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ZwCreateSection function
 
 
-
 ## -description
-The <b>ZwCreateSection</b> routine creates a <a href="wdkgloss.s#wdkgloss.section_object#wdkgloss.section_object"><i>section object</i></a>.
 
+
+The <b>ZwCreateSection</b> routine creates a <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">section object</a>.
 
 
 ## -syntax
+
 
 ````
 NTSTATUS ZwCreateSection(
@@ -61,6 +72,9 @@ NTSTATUS ZwCreateSection(
 
 ## -parameters
 
+
+
+
 ### -param SectionHandle [out]
 
 Pointer to a HANDLE variable that receives a handle to the section object.
@@ -69,7 +83,6 @@ Pointer to a HANDLE variable that receives a handle to the section object.
 ### -param DesiredAccess [in]
 
 Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>), the caller can specify any of the following access rights, which are specific to section objects:
-
 <table>
 <tr>
 <th><i>DesiredAccess</i> flag</th>
@@ -135,8 +148,7 @@ All of the previous flags combined with STANDARD_RIGHTS_REQUIRED.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param ObjectAttributes [in, optional]
@@ -165,60 +177,101 @@ Optionally specifies a handle for an open file object. If the value of <i>FileHa
 
 
 ## -returns
+
+
 <b>ZwCreateSection</b> returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure. Possible error status codes include the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FILE_LOCK_CONFLICT</b></dt>
-</dl>The file specified by the <i>FileHandle</i> parameter is locked.
+</dl>
+</td>
+<td width="60%">
+The file specified by the <i>FileHandle</i> parameter is locked.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_FILE_FOR_SECTION</b></dt>
-</dl>The file specified by <i>FileHandle</i> does not support sections.
+</dl>
+</td>
+<td width="60%">
+The file specified by <i>FileHandle</i> does not support sections.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PAGE_PROTECTION</b></dt>
-</dl>The value specified for the <i>SectionPageProtection</i> parameter is invalid.
+</dl>
+</td>
+<td width="60%">
+The value specified for the <i>SectionPageProtection</i> parameter is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_MAPPED_FILE_SIZE_ZERO</b></dt>
-</dl>The size of the file specified by <i>FileHandle</i> is zero, and <i>MaximumSize</i> is zero.
+</dl>
+</td>
+<td width="60%">
+The size of the file specified by <i>FileHandle</i> is zero, and <i>MaximumSize</i> is zero.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SECTION_TOO_BIG</b></dt>
-</dl>The value of <i>MaximumSize</i> is too big. This occurs when either <i>MaximumSize</i> is greater than the system-defined maximum for sections, or if <i>MaximumSize</i> is greater than the specified file and the section is not writable.
+</dl>
+</td>
+<td width="60%">
+The value of <i>MaximumSize</i> is too big. This occurs when either <i>MaximumSize</i> is greater than the system-defined maximum for sections, or if <i>MaximumSize</i> is greater than the specified file and the section is not writable.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 Once the handle pointed to by <i>SectionHandle</i> is no longer in use, the driver must call <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> to close it.
 
 If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557758">Object Handles</a>. 
 
 For more information about setting up mapped sections and views of memory, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563682">Sections and Views</a>. 
+<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtCreateSection</b>" instead of "<b>ZwCreateSection</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/d3302183-76a0-47ec-874f-1173db353dfe">CreateFileMapping</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwmapviewofsection.md">ZwMapViewOfSection</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwunmapviewofsection.md">ZwUnmapViewOfSection</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
+
+<a href="https://msdn.microsoft.com/d3302183-76a0-47ec-874f-1173db353dfe">CreateFileMapping</a>
+
+<a href="..\wdm\nf-wdm-zwmapviewofsection.md">ZwMapViewOfSection</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 200ca1d5-cbfd-4ad8-aa41-8238ea7ea5cf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEO_COLOR, D3D11_1DDI_VIDEO_COLOR
+ms.keywords: D3D11_1DDI_VIDEO_COLOR structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_COLOR, D3D11_1DDI_VIDEO_COLOR, display.d3d11_1ddi_video_color
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDI_VIDEO_COLOR
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDI_VIDEO_COLOR
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_COLOR
 ---
 
 # D3D11_1DDI_VIDEO_COLOR structure
 
 
-
 ## -description
+
+
 Defines a color value for Microsoft Direct3D 11 video.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D11_1DDI_VIDEO_COLOR {
@@ -57,6 +67,9 @@ typedef struct D3D11_1DDI_VIDEO_COLOR {
 
 ## -struct-fields
 
+
+
+
 ### -field YCbCr
 
 A <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_color_ycbcra.md">D3D11_1DDI_VIDEO_COLOR_YCbCrA</a> structure that contains a YCbCr color value.
@@ -68,18 +81,18 @@ A <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_color_rgba.md">D3D11_1DD
 
 
 ## -remarks
+
+
 The anonymous union can represent both RGB and YCbCr colors. The interpretation of the union depends on the context.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_color_rgba.md">D3D11_1DDI_VIDEO_COLOR_RGBA</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_color_ycbcra.md">D3D11_1DDI_VIDEO_COLOR_YCbCrA</a>
-</dt>
-</dl>
+
  
 
  

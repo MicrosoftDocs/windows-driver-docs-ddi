@@ -7,8 +7,8 @@ old-location: netvista\wdi_txrx_parameters.htm
 old-project: netvista
 ms.assetid: 839a1c3d-ac9f-4723-a0f1-6610b763c32a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WDI_TXRX_PARAMETERS, *PWDI_TXRX_PARAMETERS, WDI_TXRX_PARAMETERS
+ms.date: 1/18/2018
+ms.keywords: *PWDI_TXRX_PARAMETERS, dot11wdi/PWDI_TXRX_PARAMETERS, dot11wdi/WDI_TXRX_PARAMETERS, netvista.wifi_txrx_parameters, netvista.wdi_txrx_parameters, PWDI_TXRX_PARAMETERS, WDI_TXRX_PARAMETERS, WDI_TXRX_PARAMETERS structure [Network Drivers Starting with Windows Vista], PWDI_TXRX_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _WDI_TXRX_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WDI_TXRX_PARAMETERS
-req.alt-loc: dot11wdi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PWDI_TXRX_PARAMETERS, WDI_TXRX_PARAMETERS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dot11wdi.h
+apiname: 
+-	WDI_TXRX_PARAMETERS
+product: Windows
+targetos: Windows
+req.typenames: WDI_TXRX_PARAMETERS, *PWDI_TXRX_PARAMETERS
 ---
 
 # _WDI_TXRX_PARAMETERS structure
 
 
-
 ## -description
+
+
 The 
   WDI_TXRX_PARAMETERS structure defines the parameters that are passed down to the TXRX component.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WDI_TXRX_PARAMETERS {
@@ -55,9 +65,10 @@ typedef struct _WDI_TXRX_PARAMETERS {
 
 ## -struct-fields
 
+
+
+
 ### -field TxRxCapabilities
 
 Specifies the TXRX capabilities.
 
-
-## -remarks

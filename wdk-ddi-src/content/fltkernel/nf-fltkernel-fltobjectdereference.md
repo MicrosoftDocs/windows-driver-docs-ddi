@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d4add891-e90e-4fad-b862-c5cad91a277d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltObjectDereference
+ms.keywords: FltObjectDereference routine [Installable File System Drivers], FltApiRef_e_to_o_4fbb4535-c814-4af7-b68d-f0d66da9bae2.xml, FltObjectDereference, fltkernel/FltObjectDereference, ifsk.fltobjectdereference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltObjectDereference
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltObjectDereference
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltObjectDereference function
 
 
-
 ## -description
+
+
 The <b>FltObjectDereference</b> routine removes a rundown reference from an opaque filter, instance, or volume pointer. 
 
 
-
 ## -syntax
+
 
 ````
 VOID FltObjectDereference(
@@ -54,25 +64,32 @@ VOID FltObjectDereference(
 
 ## -parameters
 
+
+
+
 ### -param FltObject [in, out]
 
 Opaque filter pointer (PFLT_FILTER), instance pointer (PFLT_INSTANCE), or volume pointer (PFLT_VOLUME). 
 
 
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 To add a rundown reference to an opaque filter, instance, or volume pointer, call <a href="..\fltkernel\nf-fltkernel-fltobjectreference.md">FltObjectReference</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltobjectreference.md">FltObjectReference</a>
-</dt>
-</dl>
+
  
 
  

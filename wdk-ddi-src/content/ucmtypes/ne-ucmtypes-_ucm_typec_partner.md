@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4779E943-5C13-4DE2-AF8F-37657F0F99C0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCM_TYPEC_PARTNER, UCM_TYPEC_PARTNER
+ms.keywords: UcmTypeCPartnerStateDebugAccessory, _UCM_TYPEC_PARTNER, ucmtypes/UcmTypeCPartnerStateInvalid, UCM_TYPEC_PARTNER, ucmtypes/UcmTypeCPartnerStateUfp, UcmTypeCPartnerStateDfp, ucmtypes/UcmTypeCPartnerStatePoweredCableWithUfp, UcmTypeCPartnerStateAudioAccessory, ucmtypes/UcmTypeCPartnerStatePoweredCableNoUfp, buses.ucm_type_c_port_state, ucmtypes/UCM_TYPEC_PARTNER, ucmtypes/UcmTypeCPartnerStateDfp, ucmtypes/UcmTypeCPartnerStateDebugAccessory, UcmTypeCPartnerStateInvalid, UcmTypeCPartnerStatePoweredCableNoUfp, UCM_TYPEC_PARTNER enumeration [Buses], UcmTypeCPartnerStatePoweredCableWithUfp, ucmtypes/UcmTypeCPartnerStateAudioAccessory, UcmTypeCPartnerStateUfp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 2.15
-req.alt-api: UCM_TYPEC_PARTNER
-req.alt-loc: Ucmtypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ucmtypes.h
+apiname: 
+-	UCM_TYPEC_PARTNER
+product: Windows
+targetos: Windows
 req.typenames: UCM_TYPEC_PARTNER
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _UCM_TYPEC_PARTNER enumeration
 
 
-
 ## -description
+
+
 Defines the state of the Type-C connector.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _UCM_TYPEC_PARTNER { 
@@ -61,53 +71,79 @@ typedef enum _UCM_TYPEC_PARTNER {
 
 ## -enum-fields
 
-### -field UcmTypeCPartnerStateInvalid 
-
-The partner port state is invalid.
 
 
-### -field UcmTypeCPartnerStateUfp 
 
-The partner is an Upstream Facing Port (UFP).
-
-
-### -field UcmTypeCPartnerStateDfp 
-
-The partner is a Downstream Facing Port (DFP).
+### -field UcmTypeCPartnerInvalid
 
 
-### -field UcmTypeCPartnerStatePoweredCableNoUfp 
 
-The partner is a powered cable that requires VConn, that currently does not have a UFP attached on the other end.
-
-
-### -field UcmTypeCPartnerStatePoweredCableWithUfp 
-
-The partner is a powered and upstream facing.
+### -field UcmTypeCPartnerUfp
 
 
-### -field UcmTypeCPartnerStateAudioAccessory
 
-The partner is used as an audio accessory.
+### -field UcmTypeCPartnerDfp
 
 
-### -field UcmTypeCPartnerStateDebugAccessory
+
+### -field UcmTypeCPartnerPoweredCableNoUfp
+
+
+
+### -field UcmTypeCPartnerPoweredCableWithUfp
+
+
+
+### -field UcmTypeCPartnerAudioAccessory
+
+
+
+### -field UcmTypeCPartnerDebugAccessory
+
+
+
+
+#### - UcmTypeCPartnerStateDebugAccessory
 
 The partner is a debug accessory.
 
 
-## -remarks
+#### - UcmTypeCPartnerStateDfp
+
+The partner is a Downstream Facing Port (DFP).
+
+
+#### - UcmTypeCPartnerStateInvalid
+
+The partner port state is invalid.
+
+
+#### - UcmTypeCPartnerStatePoweredCableNoUfp
+
+The partner is a powered cable that requires VConn, that currently does not have a UFP attached on the other end.
+
+
+#### - UcmTypeCPartnerStateAudioAccessory
+
+The partner is used as an audio accessory.
+
+
+#### - UcmTypeCPartnerStatePoweredCableWithUfp
+
+The partner is a powered and upstream facing.
+
+
+#### - UcmTypeCPartnerStateUfp
+
+The partner is an Upstream Facing Port (UFP).
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_attach_params.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a>
-</dt>
-<dt>
+
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
-</dt>
-</dl>
+
+<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_attach_params.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a>
+
  
 
  

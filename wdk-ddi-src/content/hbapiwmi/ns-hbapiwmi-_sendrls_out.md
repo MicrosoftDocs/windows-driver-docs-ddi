@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6eccc5e8-7bf6-40bd-abb9-94b6fe4418a0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SendRLS_OUT, SendRLS_OUT, *PSendRLS_OUT
+ms.keywords: _SendRLS_OUT, SendRLS_OUT, structs-Fibre_0d3c1fb1-9827-4962-8aec-97fa6bd84d76.xml, hbapiwmi/PSendRLS_OUT, PSendRLS_OUT, PSendRLS_OUT structure pointer [Storage Devices], hbapiwmi/SendRLS_OUT, storage.sendrls_out, *PSendRLS_OUT, SendRLS_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SendRLS_OUT
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	SendRLS_OUT
+product: Windows
+targetos: Windows
 req.typenames: SendRLS_OUT, *PSendRLS_OUT
 ---
 
 # _SendRLS_OUT structure
 
 
-
 ## -description
+
+
 The SendRLS_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565442">SendRLS</a> WMI method to the WMI client.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SendRLS_OUT {
@@ -56,6 +66,9 @@ typedef struct _SendRLS_OUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HBAStatus
 
@@ -78,15 +91,16 @@ Contains the results of the RLS command.
 
 
 ## -remarks
+
+
 The WMI tool suite generates a declaration of the SendRLS_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565442">SendRLS</a>
-</dt>
-</dl>
+
  
 
  

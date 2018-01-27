@@ -7,8 +7,8 @@ old-location: netvista\rilmsgmwidetail.htm
 old-project: netvista
 ms.assetid: 69371414-9f4a-46a6-8622-5750db7a0c5b
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILMSGMWIDETAIL, *LPRILMSGMWIDETAIL, RILMSGMWIDETAIL
+ms.date: 1/18/2018
+ms.keywords: netvista.rilmsgmwidetail, *LPRILMSGMWIDETAIL, RILMSGMWIDETAIL, RILMSGMWIDETAIL structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILMSGMWIDETAIL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILMSGMWIDETAIL
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILMSGMWIDETAIL
+product: Windows
+targetos: Windows
 req.typenames: *LPRILMSGMWIDETAIL, RILMSGMWIDETAIL
 ---
 
 # RILMSGMWIDETAIL structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILMSGMWIDETAIL {
@@ -60,25 +70,33 @@ typedef struct _RILMSGMWIDETAIL {
 
 ## -struct-fields
 
+
+
+
 ### -field dwMwiType
+
 
 
 ### -field dwMwiPriority
 
 
+
 ### -field raToAddress
+
 
 
 ### -field raFromAddress
 
 
+
 ### -field stDateSent
+
 
 
 ### -field wszSubject
 
 
+
 ### -field wszMessageId
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 564afe6c-7a2e-4657-a481-24015c0be637
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_VOLUMEBLT, D3DDDIARG_VOLUMEBLT
+ms.keywords: D3DDDIARG_VOLUMEBLT, _D3DDDIARG_VOLUMEBLT, d3dumddi/D3DDDIARG_VOLUMEBLT, display.d3dddiarg_volumeblt, D3DDDIARG_VOLUMEBLT structure [Display Devices], UMDisplayDriver_param_Structs_21157114-7596-4031-8531-019e7acc3dbe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_VOLUMEBLT
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_VOLUMEBLT
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_VOLUMEBLT
 ---
 
 # _D3DDDIARG_VOLUMEBLT structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_VOLUMEBLT structure describes parameters for a volume bit-block transfer (bitblt) operation. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_VOLUMEBLT {
@@ -58,6 +68,9 @@ typedef struct _D3DDDIARG_VOLUMEBLT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDstResource
 
@@ -89,15 +102,10 @@ typedef struct _D3DDDIARG_VOLUMEBLT {
 [in] A D3DDDIBOX structure that describes the source volume texture to copy to the destination.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_volblt.md">VolBlt</a>
-</dt>
-</dl>
+
  
 
  

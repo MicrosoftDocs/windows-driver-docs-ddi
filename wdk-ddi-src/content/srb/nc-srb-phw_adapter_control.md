@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ef58c005-e5e5-409d-9010-59635fd4da02
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+ms.keywords: storage.phw_adapter_control, (*PHW_ADAPTER_CONTROL) callback function [Storage Devices], (*PHW_ADAPTER_CONTROL), srb/(*PHW_ADAPTER_CONTROL), ide_minikr_fb5a2e9f-b755-417e-b152-ef680c85c16a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: (*PHW_ADAPTER_CONTROL)
-req.alt-loc: srb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	srb.h
+apiname: 
+-	(*PHW_ADAPTER_CONTROL)
+product: Windows
+targetos: Windows
 req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PHW_ADAPTER_CONTROL callback
 
 
-
 ## -description
+
+
 The PHW_INITIALIZE routine prototype declares a routine that initializes the miniport driver after a reboot or power failure occurs. 
 
 
-
 ## -prototype
+
 
 ````
 typedef SCSI_ADAPTER_CONTROL_STATUS (*PHW_ADAPTER_CONTROL)(
@@ -57,12 +67,15 @@ typedef SCSI_ADAPTER_CONTROL_STATUS (*PHW_ADAPTER_CONTROL)(
 
 ## -parameters
 
-### -param DeviceExtension  [in]
+
+
+
+### -param DeviceExtension [in]
 
 Pointer to the miniport driver's per-HBA storage area. 
 
 
-### -param ControlType  [in]
+### -param ControlType [in]
 
 Specifies an adapter-control operation. For a list of the allowed operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557274">HwScsiAdapterControl</a>. 
 
@@ -73,10 +86,15 @@ Contains information related to the <i>ControlType</i>. For an explanation of th
 
 
 ## -returns
+
+
 The routine declared by this prototype returns different sets of values depending on the control type. For a complete description of the return values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557274">HwScsiAdapterControl</a>. 
 
 
+
 ## -remarks
+
+
 The adapter control routine for both SCSI and StorPort miniport drivers are declared using this prototype. 
 
 For more information about the SCSI miniport driver's adapter control routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557274">HwScsiAdapterControl</a>. 
@@ -84,15 +102,13 @@ For more information about the SCSI miniport driver's adapter control routine, s
 For more information about the adapter control routine that is used with the StorPort driver's miniport driver, see <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557274">HwScsiAdapterControl</a>
-</dt>
-<dt>
+
 <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557274">HwScsiAdapterControl</a>
+
  
 
  

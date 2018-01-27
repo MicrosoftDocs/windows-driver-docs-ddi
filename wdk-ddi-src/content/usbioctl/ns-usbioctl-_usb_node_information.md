@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 56d30c25-00e7-4edf-af06-64519eb5f755
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_NODE_INFORMATION, *PUSB_NODE_INFORMATION, USB_NODE_INFORMATION
+ms.keywords: usbioctl/PUSB_NODE_INFORMATION, *PUSB_NODE_INFORMATION, buses.usb_node_information, usbioctl/USB_NODE_INFORMATION, _USB_NODE_INFORMATION, usbstrct_c3f807a8-2895-4a43-bfd3-84092fb4115e.xml, PUSB_NODE_INFORMATION, PUSB_NODE_INFORMATION structure pointer [Buses], USB_NODE_INFORMATION structure [Buses], USB_NODE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_NODE_INFORMATION
-req.alt-loc: usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbioctl.h
+apiname: 
+-	USB_NODE_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: *PUSB_NODE_INFORMATION, USB_NODE_INFORMATION
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USB_NODE_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>USB_NODE_INFORMATION</b> structure is used with the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_information.md">IOCTL_USB_GET_NODE_INFORMATION</a> I/O control request to retrieve information about a parent device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USB_NODE_INFORMATION {
@@ -59,9 +69,7 @@ typedef struct _USB_NODE_INFORMATION {
 
 ## -struct-fields
 
-### -field NodeType
 
-A <a href="..\usbioctl\ne-usbioctl-_usb_hub_node.md">USB_HUB_NODE</a> enumerator that indicates whether the parent device is a hub or a non-hub composite device.
 
 
 ### -field u
@@ -69,40 +77,40 @@ A <a href="..\usbioctl\ne-usbioctl-_usb_hub_node.md">USB_HUB_NODE</a> enumerator
 The members of the <b>u</b> union are as follows:
 
 
-### -field HubInformation
+### -field u.HubInformation
 
 A <a href="..\usbioctl\ns-usbioctl-_usb_hub_information.md">USB_HUB_INFORMATION</a> structure that contains information about a parent hub device.
 
 
-### -field MiParentInformation
+### -field u.MiParentInformation
 
 A <a href="..\usbioctl\ns-usbioctl-_usb_mi_parent_information.md">USB_MI_PARENT_INFORMATION</a> structure that contains information about a parent non-hub, composite device.
 
-</dd>
-</dl>
+
+### -field NodeType
+
+A <a href="..\usbioctl\ne-usbioctl-_usb_hub_node.md">USB_HUB_NODE</a> enumerator that indicates whether the parent device is a hub or a non-hub composite device.
+
 
 ## -remarks
+
+
 A parent device can be either a hub or a composite device. The USB stack treats the interfaces of a composite device as though they were children of the composite device. The <b>USB_NODE_INFORMATION</b> structure can hold information about either kind of parent device (both hubs and composite devices).
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_information.md">IOCTL_USB_GET_NODE_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_information.md">USB_HUB_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\usbioctl\ns-usbioctl-_usb_mi_parent_information.md">USB_MI_PARENT_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\usbioctl\ne-usbioctl-_usb_hub_node.md">USB_HUB_NODE</a>
-</dt>
-<dt>
+
+<a href="..\usbioctl\ns-usbioctl-_usb_hub_information.md">USB_HUB_INFORMATION</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_information.md">IOCTL_USB_GET_NODE_INFORMATION</a>
+
+<a href="..\usbioctl\ns-usbioctl-_usb_mi_parent_information.md">USB_MI_PARENT_INFORMATION</a>
+
  
 
  

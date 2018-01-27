@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 978ddc02-9ff0-4798-879c-e4bc99081dcb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCeInitiateVCDisconnect
+ms.keywords: rxref_1893aa5d-dda4-49f7-b4bb-dc9bdd75154a.xml, rxce/RxCeInitiateVCDisconnect, RxCeInitiateVCDisconnect function [Installable File System Drivers], ifsk.rxceinitiatevcdisconnect, RxCeInitiateVCDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxCeInitiateVCDisconnect
-req.alt-loc: rxce.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rxce.h
+apiname: 
+-	RxCeInitiateVCDisconnect
+product: Windows
+targetos: Windows
 req.typenames: *LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RxCeInitiateVCDisconnect function
 
 
-
 ## -description
+
+
 <b>RxCeInitiateVCDisconnect</b> initiates a disconnect on the virtual circuit.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RxCeInitiateVCDisconnect(
@@ -55,36 +65,62 @@ NTSTATUS RxCeInitiateVCDisconnect(
 
 ## -parameters
 
+
+
+
 ### -param pVc [in]
 
 A pointer to the virtual circuit structure to be disconnected. 
 
 
 ## -returns
+
+
 <b>RxCeInitiateVCDisconnect</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>The allocation of nonpaged pool memory needed by this routine failed. 
+</dl>
+</td>
+<td width="60%">
+The allocation of nonpaged pool memory needed by this routine failed. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The <i>pVc</i> parameter passed to this routine was invalid. 
+</dl>
+</td>
+<td width="60%">
+The <i>pVc</i> parameter passed to this routine was invalid. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>RxCeInitiateVCDisconnect</b> must be called in the context of a system worker thread. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\rxce\nf-rxce-rxcebuildvc.md">RxCeBuildVC</a>
-</dt>
-<dt>
+
 <a href="..\rxce\nf-rxce-rxceteardownvc.md">RxCeTearDownVC</a>
-</dt>
-</dl>
+
  
 
  

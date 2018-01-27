@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c5727881-de35-4a61-bf54-0552d2de454b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT,
+ms.keywords: iddcx/IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT, IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT structure [Display Devices], display.idarg_in_opm_create_protected_output, IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT structure
 
 
-
 ## -description
+
+
 Gives information about the video output semantics for the OPM  context that will be created.
              
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT {
@@ -55,10 +65,11 @@ typedef struct IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT {
 
 ## -struct-fields
 
+
+
+
 ### -field VideoOutputSemantics
 
 
                      [in] Type of video output semantics used for this context.
 
-
-## -remarks

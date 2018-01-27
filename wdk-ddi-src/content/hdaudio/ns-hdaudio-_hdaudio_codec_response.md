@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 56b9cdb5-2734-45b5-aeaf-ae6d606d1a5c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _HDAUDIO_CODEC_RESPONSE, HDAUDIO_CODEC_RESPONSE, *PHDAUDIO_CODEC_RESPONSE
+ms.keywords: aud-prop2_2cf51d01-4493-439c-9a5f-30b86d76502b.xml, audio.hdaudio_codec_response, HDAUDIO_CODEC_RESPONSE structure [Audio Devices], PHDAUDIO_CODEC_RESPONSE structure pointer [Audio Devices], _HDAUDIO_CODEC_RESPONSE, *PHDAUDIO_CODEC_RESPONSE, hdaudio/HDAUDIO_CODEC_RESPONSE, HDAUDIO_CODEC_RESPONSE, PHDAUDIO_CODEC_RESPONSE, hdaudio/PHDAUDIO_CODEC_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HDAUDIO_CODEC_RESPONSE
-req.alt-loc: hdaudio.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL.
-req.typenames: HDAUDIO_CODEC_RESPONSE, *PHDAUDIO_CODEC_RESPONSE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hdaudio.h
+apiname: 
+-	HDAUDIO_CODEC_RESPONSE
+product: Windows
+targetos: Windows
+req.typenames: *PHDAUDIO_CODEC_RESPONSE, HDAUDIO_CODEC_RESPONSE
 ---
 
 # _HDAUDIO_CODEC_RESPONSE structure
 
 
-
 ## -description
+
+
 The HDAUDIO_CODEC_RESPONSE structure specifies either a response to a codec command or an unsolicited response from a codec.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _HDAUDIO_CODEC_RESPONSE {
@@ -71,61 +81,107 @@ typedef struct _HDAUDIO_CODEC_RESPONSE {
 
 ## -struct-fields
 
-### -field ( unnamed struct )
 
-Specifies a 26-bit unsolicited response value.
 
 
 ### -field Unsolicited
 
-Specifies a 32-bit unsolicited response value that consists of a 26-bit response value and a 6-bit tag value.
+ 
+
+
+### -field Unsolicited.Response
+
+ 
+
+
+### -field Unsolicited.SubTag
+
+ 
+
+
+### -field Unsolicited.Tag
+
+ 
 
 
 ### -field Response
 
-Specifies a 26-bit unsolicited response value.
-
-
-### -field Tag
-
-Specifies a 6-bit tag value for an unsolicited response.
-
-</dd>
-</dl>
-
-### -field Response
-
-Specifies a 26-bit unsolicited response value.
+ 
 
 
 ### -field SDataIn
 
-Specifies the 4-bit codec address (SDI line) of the codec that generates the response.
+ 
 
 
 ### -field IsUnsolicitedResponse
 
-Specifies whether the response is unsolicited. If 1, the response is unsolicited. If 0, the response is solicited (that is, a response to a codec command).
+ 
 
 
 ### -field HasFifoOverrun
 
-Specifies whether a FIFO overrun occurred in the response input ring buffer (RIRB). If 1, a FIFO overrun occurred. If 0, a FIFO overrun did not occur.
+ 
 
 
 ### -field IsValid
 
-Specifies whether the response is valid. If 1, the response is valid. If 0, it is not valid.
+ 
 
-</dd>
-</dl>
 
 ### -field CompleteResponse
 
 Specifies a complete, 64-bit response summary that consists of a 32-bit response, 4-bit codec address, three status bits, and 25 unused bits (set to zero). This value is mostly used in debug messages.
 
 
+##### - ( unnamed struct ).Response
+
+Specifies a 26-bit unsolicited response value.
+
+
+##### - ( unnamed struct ).HasFifoOverrun
+
+Specifies whether a FIFO overrun occurred in the response input ring buffer (RIRB). If 1, a FIFO overrun occurred. If 0, a FIFO overrun did not occur.
+
+
+##### - ( unnamed struct ).IsValid
+
+Specifies whether the response is valid. If 1, the response is valid. If 0, it is not valid.
+
+
+##### - ( unnamed struct ).Unsolicited
+
+Specifies a 32-bit unsolicited response value that consists of a 26-bit response value and a 6-bit tag value.
+
+
+##### - ( unnamed struct ).IsUnsolicitedResponse
+
+Specifies whether the response is unsolicited. If 1, the response is unsolicited. If 0, the response is solicited (that is, a response to a codec command).
+
+
+#### - ( unnamed struct )
+
+Specifies a 26-bit unsolicited response value.
+
+
+###### - ( unnamed struct ).Unsolicited.Response
+
+Specifies a 26-bit unsolicited response value.
+
+
+##### - ( unnamed struct ).SDataIn
+
+Specifies the 4-bit codec address (SDI line) of the codec that generates the response.
+
+
+###### - ( unnamed struct ).Unsolicited.Tag
+
+Specifies a 6-bit tag value for an unsolicited response.
+
+
 ## -remarks
+
+
 After calling the <a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a> routine, function drivers can use the HDAUDIO_CODEC_RESPONSE structure to decode the responses to their codec commands. The commands are contained in the HDAUDIO_CODEC_TRANSFER structures that clients pass to this routine as call parameters.
 
 The callback for the <a href="..\hdaudio\nc-hdaudio-pregister_event_callback.md">RegisterEventCallback</a> routine also uses the HDAUDIO_CODEC_RESPONSE structure.
@@ -133,26 +189,27 @@ The callback for the <a href="..\hdaudio\nc-hdaudio-pregister_event_callback.md"
 Most members of this structure contain hardware-generated values that the bus driver copies directly from the corresponding RIRB entry. The two exceptions are the values of the <b>IsValid</b> and <b>HasFifoOverrun</b> members, which the bus driver software writes to the structure to indicate the error status of the response. For information about the RIRB entry format, see the Intel High Definition Audio Specification at the <a href="http://go.microsoft.com/fwlink/p/?linkid=42508">Intel HD Audio</a> website.
 
 If <b>IsValid</b>=0, one of the following has occurred:
-
+<ul>
+<li>
 If <b>HasFifoOverrun</b>=1, the RIRB FIFO overflowed.
 
+</li>
+<li>
 If <b>HasFifoOverrun</b>=0, the codec failed to respond.
 
-The unnamed 25-bitfield between the <b>UnsolicitedResponse</b> and <b>HasFifoOverrun</b> members is reserved for future expansion. The HD Audio bus controller currently writes zeros to this field.
+</li>
+</ul>The unnamed 25-bitfield between the <b>UnsolicitedResponse</b> and <b>HasFifoOverrun</b> members is reserved for future expansion. The HD Audio bus controller currently writes zeros to this field.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
-</dt>
-<dt>
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_transfer.md">HDAUDIO_CODEC_TRANSFER</a>
-</dt>
-<dt>
+
 <a href="..\hdaudio\nc-hdaudio-pregister_event_callback.md">RegisterEventCallback</a>
-</dt>
-</dl>
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_transfer.md">HDAUDIO_CODEC_TRANSFER</a>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\rilgetphonebookoptionsparams_2.htm
 old-project: netvista
 ms.assetid: ca82e408-6b22-4b0b-ac44-0650d3890674
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILGETPHONEBOOKOPTIONSPARAMS, RILGETPHONEBOOKOPTIONSPARAMS, *LPRILGETPHONEBOOKOPTIONSPARAMS
+ms.date: 1/18/2018
+ms.keywords: RILGETPHONEBOOKOPTIONSPARAMS, rilapitypes/RILGETPHONEBOOKOPTIONSPARAMS, netvista.rilgetphonebookoptionsparams_2, RILGETPHONEBOOKOPTIONSPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILGETPHONEBOOKOPTIONSPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILGETPHONEBOOKOPTIONSPARAMS
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILGETPHONEBOOKOPTIONSPARAMS, *LPRILGETPHONEBOOKOPTIONSPARAMS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILGETPHONEBOOKOPTIONSPARAMS
+product: Windows
+targetos: Windows
+req.typenames: *LPRILGETPHONEBOOKOPTIONSPARAMS, RILGETPHONEBOOKOPTIONSPARAMS
 req.product: Windows 10 or later.
 ---
 
 # RILGETPHONEBOOKOPTIONSPARAMS structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILGETPHONEBOOKOPTIONSPARAMS {
@@ -56,10 +66,13 @@ typedef struct _RILGETPHONEBOOKOPTIONSPARAMS {
 
 ## -struct-fields
 
+
+
+
 ### -field hUiccApp
+
 
 
 ### -field dwStoreLocation
 
 
-## -remarks

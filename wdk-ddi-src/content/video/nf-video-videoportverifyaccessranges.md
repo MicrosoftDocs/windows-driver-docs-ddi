@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 067ecebb-e63c-4161-9e8f-3746ecad3259
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortVerifyAccessRanges
+ms.keywords: display.videoportverifyaccessranges, VideoPort_Functions_be1c2439-0fde-4d2e-a892-9a64e19f9970.xml, VideoPortVerifyAccessRanges function [Display Devices], VideoPortVerifyAccessRanges, video/VideoPortVerifyAccessRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortVerifyAccessRanges
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortVerifyAccessRanges
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortVerifyAccessRanges function
 
 
-
 ## -description
+
+
 The <b>VideoPortVerifyAccessRanges</b> function checks the registry for whether another driver has already claimed ownership of the specified bus-relative access ranges and any other hardware resources specified in the <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a> structure. If not, this function claims the given resources for the caller.
 
 
-
 ## -syntax
+
 
 ````
 VP_STATUS VideoPortVerifyAccessRanges(
@@ -57,12 +67,15 @@ VP_STATUS VideoPortVerifyAccessRanges(
 
 ## -parameters
 
-### -param HwDeviceExtension 
+
+
+
+### -param HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
 
-### -param NumAccessRanges 
+### -param NumAccessRanges
 
 Specifies the number of elements in the <i>AccessRanges</i> array, or zero.
 
@@ -73,18 +86,43 @@ Pointer to the miniport driver's access ranges array, or <b>NULL</b>. Each <a hr
 
 
 ## -returns
+
+
 <b>VideoPortVerifyAccessRanges</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>ERROR_INVALID_PARAMETER</b></dt>
-</dl>An error occurred or a conflict was found; that is, another driver has already claimed one or more of the given hardware resources for its device.
+</dl>
+</td>
+<td width="60%">
+An error occurred or a conflict was found; that is, another driver has already claimed one or more of the given hardware resources for its device.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NO_ERROR</b></dt>
-</dl>The given <i>AccessRanges</i> are valid and have been claimed for use by the caller.
+</dl>
+</td>
+<td width="60%">
+The given <i>AccessRanges</i> are valid and have been claimed for use by the caller.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 Every video miniport driver either must call <b>VideoPortVerifyAccessRanges</b>, or use access ranges returned by <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a> before attempting to access a video adapter during the driver (and system) initialization process.
 
 <b>VideoPortVerifyAccessRanges</b> can be called only by a miniport driver's <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a> function.
@@ -107,42 +145,38 @@ Note that a miniport driver cannot communicate with its video adapter, except by
 If the <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a> function claims bus-relative access ranges and possibly other hardware resources for an adapter but then determines that it does not support the adapter, the miniport driver must relinquish its claims on hardware resources in the registry by calling <b>VideoPortVerifyAccessRanges</b> or <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a> with <i>NumAccessRanges</i> set to zero and <i>AccessRanges</i> set to <b>NULL</b>.
 
 To relinquish claims on a subset of claimed access ranges that the miniport driver is no longer using, do the following:
-
+<ol>
+<li>
 Modify the <i>AccessRanges</i> specification for the adapter so that each element describing a range to be released still has <b>RangeStart</b> set to the bus-relative base of a claimed range, but <b>RangeLength</b> reset to zero.
 
+</li>
+<li>
 Call <b>VideoPortVerifyAccessRanges</b> with this modified <i>AccessRanges</i> array.
+
+</li>
+</ol>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-</dt>
-<dt>
-<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
-</dt>
-<dt>
-<a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
-</dt>
-<dt>
-<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
-</dt>
-<dt>
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
-</dt>
-<dt>
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-</dt>
-<dt>
+
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
+
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+
+<a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
+
 <a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
-</dt>
-<dt>
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
+
 <a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
-</dt>
-</dl>
+
  
 
  

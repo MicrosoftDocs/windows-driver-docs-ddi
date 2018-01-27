@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0f37ac57-9f3b-4bbc-a927-ea85aa44f910
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_BRIGHTNESS_INFO_TYPE, D3DKMT_BRIGHTNESS_INFO_TYPE
+ms.keywords: D3DKMT_BRIGHTNESS_INFO_SET_OPTIMIZATION, D3DKMT_BRIGHTNESS_INFO_GET_POSSIBLE_LEVELS, D3DKMT_BRIGHTNESS_INFO_GET_REDUCTION, display.d3dkmt_brightness_info_type, d3dkmthk/D3DKMT_BRIGHTNESS_INFO_GET_REDUCTION, D3DKMT_BRIGHTNESS_INFO_SET_STATE, D3DKMT_BRIGHTNESS_INFO_GET, D3DKMT_BRIGHTNESS_INFO_GET_CAPS, D3DKMT_BRIGHTNESS_INFO_TYPE, d3dkmthk/D3DKMT_BRIGHTNESS_INFO_TYPE, D3DKMT_BRIGHTNESS_INFO_BEGIN_MANUAL_MODE, d3dkmthk/D3DKMT_BRIGHTNESS_INFO_TOGGLE_LOGGING, D3DKMT_BRIGHTNESS_INFO_END_MANUAL_MODE, d3dkmthk/D3DKMT_BRIGHTNESS_INFO_SET_STATE, d3dkmthk/D3DKMT_BRIGHTNESS_INFO_SET, d3dkmthk/D3DKMT_BRIGHTNESS_INFO_GET_CAPS, D3DKMT_BRIGHTNESS_INFO_SET, d3dkmthk/D3DKMT_BRIGHTNESS_INFO_BEGIN_MANUAL_MODE, d3dkmthk/D3DKMT_BRIGHTNESS_INFO_GET_POSSIBLE_LEVELS, D3DKMT_BRIGHTNESS_INFO_TOGGLE_LOGGING, d3dkmthk/D3DKMT_BRIGHTNESS_INFO_SET_OPTIMIZATION, d3dkmthk/D3DKMT_BRIGHTNESS_INFO_END_MANUAL_MODE, D3DKMT_BRIGHTNESS_INFO_TYPE enumeration [Display Devices], _D3DKMT_BRIGHTNESS_INFO_TYPE, d3dkmthk/D3DKMT_BRIGHTNESS_INFO_GET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_BRIGHTNESS_INFO_TYPE
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_BRIGHTNESS_INFO_TYPE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_BRIGHTNESS_INFO_TYPE
 ---
 
 # _D3DKMT_BRIGHTNESS_INFO_TYPE enumeration
 
 
-
 ## -description
+
+
 Indicates the type of information to retrieve or set for the brightness of an integrated display panel.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3DKMT_BRIGHTNESS_INFO_TYPE { 
@@ -62,6 +72,9 @@ typedef enum _D3DKMT_BRIGHTNESS_INFO_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DKMT_BRIGHTNESS_INFO_GET_POSSIBLE_LEVELS
 
@@ -112,5 +125,3 @@ The user has ended the manual adjustment of the brightness level.
 
 Enable or disable Event Tracing for Windows (ETW) logging of brightness information.
 
-
-## -remarks

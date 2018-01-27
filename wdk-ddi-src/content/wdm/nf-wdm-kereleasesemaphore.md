@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 357a97e6-cb19-43df-9b90-db199c712878
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeReleaseSemaphore
+ms.keywords: kernel.kereleasesemaphore, k105_43c9caa4-267a-43c4-8b48-f030e1c2f0d5.xml, KeReleaseSemaphore routine [Kernel-Mode Driver Architecture], KeReleaseSemaphore, wdm/KeReleaseSemaphore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeReleaseSemaphore
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeReleaseSemaphore
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeReleaseSemaphore function
 
 
-
 ## -description
+
+
 The <b>KeReleaseSemaphore</b> routine releases the specified semaphore object. 
 
 
-
 ## -syntax
+
 
 ````
 LONG KeReleaseSemaphore(
@@ -57,6 +67,9 @@ LONG KeReleaseSemaphore(
 
 
 ## -parameters
+
+
+
 
 ### -param Semaphore [in, out]
 
@@ -79,10 +92,15 @@ Specifies whether the call to <b>KeReleaseSemaphore</b> is to be followed <u>imm
 
 
 ## -returns
+
+
 If the return value is zero, the previous state of the semaphore object is not-signaled. 
 
 
+
 ## -remarks
+
+
 <b>KeReleaseSemaphore</b> supplies a run-time priority boost for waiting threads. If this call sets the semaphore to the signaled state, the semaphore count is augmented by the specified value. The caller can also specify whether it will call one of the <b>KeWait<i>Xxx</i></b> routines as soon as <b>KeReleaseSemaphore</b> returns control.
 
 Releasing a semaphore object causes the semaphore count to be augmented by the value of the <i>Adjustment</i> parameter. If the resulting value is greater than the limit of the semaphore object, the count is not adjusted and an exception, STATUS_SEMAPHORE_LIMIT_EXCEEDED, is raised.
@@ -100,24 +118,19 @@ For more information about semaphore objects, see <a href="https://msdn.microsof
 Callers of <b>KeReleaseSemaphore</b> must be running at IRQL &lt;= DISPATCH_LEVEL provided that <i>Wait</i> is set to <b>FALSE</b>. Otherwise, the caller must be running at IRQL = PASSIVE_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kereadstatesemaphore.md">KeReadStateSemaphore</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-kereadstatesemaphore.md">KeReadStateSemaphore</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+
+<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
+
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
  
 
  

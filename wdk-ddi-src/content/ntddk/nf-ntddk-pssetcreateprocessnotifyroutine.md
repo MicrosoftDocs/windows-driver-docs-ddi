@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eeeea140-e469-476f-adce-4505817bc35e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsSetCreateProcessNotifyRoutine
+ms.keywords: kernel.pssetcreateprocessnotifyroutine, ntddk/PsSetCreateProcessNotifyRoutine, PsSetCreateProcessNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_6ae7797a-ecbe-4665-85d5-e199f13613cd.xml, PsSetCreateProcessNotifyRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PsSetCreateProcessNotifyRoutine
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlPsPassive, PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	PsSetCreateProcessNotifyRoutine
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # PsSetCreateProcessNotifyRoutine function
 
 
-
 ## -description
+
+
 The <b>PsSetCreateProcessNotifyRoutine</b> routine adds a driver-supplied callback routine to, or removes it from, a list of routines to be called whenever a process is created or deleted.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PsSetCreateProcessNotifyRoutine(
@@ -54,6 +64,9 @@ NTSTATUS PsSetCreateProcessNotifyRoutine(
 
 
 ## -parameters
+
+
+
 
 ### -param NotifyRoutine [in]
 
@@ -66,18 +79,43 @@ Indicates whether the routine specified by <i>NotifyRoutine</i> should be added 
 
 
 ## -returns
+
+
 <b>PsSetCreateProcessNotifyRoutine</b> can return one of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The given <i>NotifyRoutine</i> is now registered with the system.
+</dl>
+</td>
+<td width="60%">
+The given <i>NotifyRoutine</i> is now registered with the system.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The given <i>NotifyRoutine</i> has already been registered, so this call is a redundant call, or the system has reached its limit for registering process-creation callbacks. 
+</dl>
+</td>
+<td width="60%">
+The given <i>NotifyRoutine</i> has already been registered, so this call is a redundant call, or the system has reached its limit for registering process-creation callbacks. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 Highest-level drivers can call <b>PsSetCreateProcessNotifyRoutine</b> to set up their process-creation notify routines implemented as <a href="..\ntddk\nc-ntddk-pcreate_process_notify_routine.md">PCREATE_PROCESS_NOTIFY_ROUTINE</a>.
 
 An IFS or highest-level system-profiling driver might register a process-creation callback to track the system-wide creation and deletion of processes against the driver's internal state. For Windows Vista and later versions of Windows, the system can register up to 64 process-creation callback routines.
@@ -87,24 +125,19 @@ A driver must remove any callbacks that it registers before it unloads. You can 
 After a driver-supplied routine is registered, it is called with <i>Create</i> set to <b>TRUE</b> just after the initial thread is created within the newly created process designated by the input <i>ProcessId</i> handle. The input <i>ParentId</i> handle identifies the parent process of the newly-created process (this is the parent used for priority, affinity, quota, token, and handle inheritance, among others).
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nc-ntddk-pcreate_process_notify_routine.md">PCREATE_PROCESS_NOTIFY_ROUTINE</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex.md">PsSetCreateProcessNotifyRoutineEx</a>
-</dt>
-<dt>
+
+<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
+
 <a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
-</dt>
-</dl>
+
  
 
  

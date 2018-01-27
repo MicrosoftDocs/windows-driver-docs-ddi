@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e986d37a-6039-4bc4-b5e8-6c4d4d7adedd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.createvertexshaderfunc, CreateVertexShaderFunc callback function [Display Devices], CreateVertexShaderFunc, PFND3DDDI_CREATEVERTEXSHADERFUNC, PFND3DDDI_CREATEVERTEXSHADERFUNC, d3dumddi/CreateVertexShaderFunc, UserModeDisplayDriver_Functions_bb697f1f-765f-46d9-961a-f4e8060727bc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CreateVertexShaderFunc
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	CreateVertexShaderFunc
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_CREATEVERTEXSHADERFUNC callback
 
 
-
 ## -description
+
+
 The <b>CreateVertexShaderFunc</b> function converts vertex shader code into a hardware-specific format and associates the code with a shader handle.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_CREATEVERTEXSHADERFUNC CreateVertexShaderFunc;
@@ -59,38 +69,51 @@ __checkReturn HRESULT APIENTRY CreateVertexShaderFunc(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param pData [in, out]
+### -param *
+
+
+
+
+
+
+#### - pData [in, out]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createvertexshaderfunc.md">D3DDDIARG_CREATEVERTEXSHADERFUNC</a> structure that retrieves the shader handle that is associated with the vertex shader code that is specified by <b>pCode</b>.
 
 
-### -param pCode [in]
+#### - pCode [in]
 
  An array of CONST UINT tokens that make up the vertex shader code.
 
 
 ## -returns
+
+
 <b>CreateVertexShaderFunc</b> returns S_OK or an appropriate error result if the vertex shader code object is not successfully created.
 
 
+
 ## -remarks
+
+
 For more information about programming shader assemblers, see <a href="https://msdn.microsoft.com/c858766c-b414-4971-b4d9-23ec94aca8ea">Processing Shader Codes</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createvertexshaderfunc.md">D3DDDIARG_CREATEVERTEXSHADERFUNC</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createvertexshaderfunc.md">D3DDDIARG_CREATEVERTEXSHADERFUNC</a>
+
  
 
  

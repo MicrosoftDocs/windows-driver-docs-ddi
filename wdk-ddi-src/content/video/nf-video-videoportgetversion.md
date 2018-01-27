@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 242eb066-4b2e-4abe-b082-5bfd814c5774
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortGetVersion
+ms.keywords: VideoPortGetVersion function [Display Devices], VideoPort_Functions_b616e0f2-430a-43ca-a43f-44cdcaec757f.xml, display.videoportgetversion, VideoPortGetVersion, video/VideoPortGetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of the Win
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortGetVersion
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortGetVersion
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # VideoPortGetVersion function
 
 
-
 ## -description
+
+
 The <b>VideoPortGetVersion</b> function gets version information about the currently running operating system.
 
 
-
 ## -syntax
+
 
 ````
 VP_STATUS VideoPortGetVersion(
@@ -55,6 +65,9 @@ VP_STATUS VideoPortGetVersion(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -67,18 +80,16 @@ Pointer to a <a href="..\video\ns-video-_vposversioninfo.md">VPOSVERSIONINFO</a>
 
 
 ## -returns
+
+
 <b>VideoPortGetVersionInfo</b> returns NO_ERROR if it successfully obtained the operating system version information. If the <b>Size</b> member of the VPOSVERSIONINFO does not contains the correct size of this structure, the function returns ERROR_INVALID_PARAMETER 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\ns-video-_vposversioninfo.md">VPOSVERSIONINFO</a>
-</dt>
-</dl>
+
  
 
  

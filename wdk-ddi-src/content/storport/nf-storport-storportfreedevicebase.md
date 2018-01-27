@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4feb3bde-c243-493c-a6f9-4accd545955c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortFreeDeviceBase
+ms.keywords: storport/StorPortFreeDeviceBase, storprt_f8c3e4c6-8f38-4189-bdac-70c0c61e0f18.xml, StorPortFreeDeviceBase function [Storage Devices], StorPortFreeDeviceBase, storage.storportfreedevicebase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortFreeDeviceBase
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortFreeDeviceBase
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortFreeDeviceBase function
 
 
-
 ## -description
+
+
 <b>StorPortFreeDeviceBase</b> frees a range of device I/O memory that was mapped by <a href="..\storport\nf-storport-storportgetdevicebase.md">StorPortGetDeviceBase</a>.
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API VOID StorPortFreeDeviceBase(
@@ -55,6 +66,9 @@ STORPORT_API VOID StorPortFreeDeviceBase(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -67,21 +81,18 @@ Pointer to region of memory to be freed.
 
 
 ## -returns
+
+
 None 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\nf-storport-storportgetdevicebase.md">StorPortGetDeviceBase</a>
-</dt>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportfreedevicebase.md">ScsiPortFreeDeviceBase</a>
-</dt>
-</dl>
+
  
 
  

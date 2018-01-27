@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7C5F9ACF-AA21-4A2B-B943-3B1D940284E1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
+ms.keywords: display.d3dkmt_opensyncobjectfromnthandle2, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 structure [Display Devices], d3dkmthk/D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
 ---
 
 # _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 structure
 
 
-
 ## -description
+
+
 <b>D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2.md">D3DKMTOpenSyncObjectFromNtHandle2</a> to open a monitored fence object.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 {
@@ -65,6 +75,34 @@ typedef struct _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 {
 
 ## -struct-fields
 
+
+
+
+### -field MonitoredFence
+
+Contains sync object virtual addresses that can be used in this process.
+
+
+### -field MonitoredFence.FenceValueCPUVirtualAddress
+
+[out] A read-only mapping of the fence value for the CPU. This is a user mode address readable from the process that created the monitored fence object. For 32 bit platforms that support 64 bit atomic reads via methods such as <code>InterlockedCompareExchange64(pointer,0,0)</code>, the mapping will be made read-write instead of read-only to avoid an access violation during the interlocked operation. Depending on the value of <b>No64BitAtomics</b> cap, this address points to either a 32 bit or a 64 bit underlying value.
+
+
+### -field MonitoredFence.FenceValueGPUVirtualAddress
+
+[out] A read-write mapping of the fence value for the GPU. A driver can signal a new fence value by inserting a GPU write command for this address into a command buffer, and the DirectX graphics  kernel will unblock waiters for this fence object value. This GPU virtual address is mapped asynchronously, and the driver should wait for the device that opened or created the monitored fence synchronization object to reach <b>PagingFenceValue</b> on its paging fence object prior to accessing this GPU virtual address. Depending on the value of <b>No64BitAtomics</b> cap, this address points to either a 32 bit or a 64 bit underlying value.
+
+
+### -field MonitoredFence.EngineAffinity
+
+[in] A bit field, where each bit position (starting from zero) defines a physical adapter index in an linked display adapter link where the GPU virtual address will be committed. Zero means that GPU virtual address will be committed to all physical adapters.
+
+
+### -field Reserved
+
+The consolidated value of the <b>MonitoredFence</b> structure.
+
+
 ### -field hNtHandle
 
 [in] NT handle for the sync object to be opened.
@@ -85,42 +123,10 @@ typedef struct _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 {
 [out] Handle to the sync object that can be used in this process.
 
 
-### -field MonitoredFence
-
-Contains sync object virtual addresses that can be used in this process.
-
-
-### -field FenceValueCPUVirtualAddress
-
-[out] A read-only mapping of the fence value for the CPU. This is a user mode address readable from the process that created the monitored fence object. For 32 bit platforms that support 64 bit atomic reads via methods such as <code>InterlockedCompareExchange64(pointer,0,0)</code>, the mapping will be made read-write instead of read-only to avoid an access violation during the interlocked operation. Depending on the value of <b>No64BitAtomics</b> cap, this address points to either a 32 bit or a 64 bit underlying value.
-
-
-### -field FenceValueGPUVirtualAddress
-
-[out] A read-write mapping of the fence value for the GPU. A driver can signal a new fence value by inserting a GPU write command for this address into a command buffer, and the DirectX graphics  kernel will unblock waiters for this fence object value. This GPU virtual address is mapped asynchronously, and the driver should wait for the device that opened or created the monitored fence synchronization object to reach <b>PagingFenceValue</b> on its paging fence object prior to accessing this GPU virtual address. Depending on the value of <b>No64BitAtomics</b> cap, this address points to either a 32 bit or a 64 bit underlying value.
-
-
-### -field EngineAffinity
-
-[in] A bit field, where each bit position (starting from zero) defines a physical adapter index in an linked display adapter link where the GPU virtual address will be committed. Zero means that GPU virtual address will be committed to all physical adapters.
-
-</dd>
-</dl>
-
-### -field Reserved
-
-The consolidated value of the <b>MonitoredFence</b> structure.
-
-
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2.md">D3DKMTOpenSyncObjectFromNtHandle2</a>
-</dt>
-</dl>
+
  
 
  

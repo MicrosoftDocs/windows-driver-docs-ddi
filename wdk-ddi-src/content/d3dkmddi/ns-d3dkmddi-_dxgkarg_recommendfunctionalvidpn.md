@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 58031257-5363-4e4f-b95f-aa3cd603c113
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_RECOMMENDFUNCTIONALVIDPN, DXGKARG_RECOMMENDFUNCTIONALVIDPN
+ms.keywords: _DXGKARG_RECOMMENDFUNCTIONALVIDPN, DXGKARG_RECOMMENDFUNCTIONALVIDPN, DmStructs_15342273-6bfe-4cee-8f8e-1d89c7683e4b.xml, DXGKARG_RECOMMENDFUNCTIONALVIDPN structure [Display Devices], d3dkmddi/DXGKARG_RECOMMENDFUNCTIONALVIDPN, display.dxgkarg_recommendfunctionalvidpn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_RECOMMENDFUNCTIONALVIDPN
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_RECOMMENDFUNCTIONALVIDPN
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_RECOMMENDFUNCTIONALVIDPN
 ---
 
 # _DXGKARG_RECOMMENDFUNCTIONALVIDPN structure
 
 
-
 ## -description
+
+
 The DXGKARG_RECOMMENDFUNCTIONALVIDPN structure contains arguments for the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn.md">DxgkDdiRecommendFunctionalVidPn</a> function. The <i>DxgkDdiRecommendFunctionalVidPn</i> function creates a functional video present network (VidPN) that can be implemented on a specified display adapter.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_RECOMMENDFUNCTIONALVIDPN {
@@ -58,6 +68,9 @@ typedef struct _DXGKARG_RECOMMENDFUNCTIONALVIDPN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NumberOfVidPnTargets
 
@@ -89,15 +102,10 @@ A pointer to a buffer that contains private data that is passed from a user-mode
 The size, in bytes, of the data block pointed to by <i>pPrivateDriverData</i>.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn.md">DxgkDdiRecommendFunctionalVidPn</a>
-</dt>
-</dl>
+
  
 
  

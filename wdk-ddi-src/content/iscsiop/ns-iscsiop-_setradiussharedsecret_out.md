@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 55be7611-3249-4109-a142-c0115dfebb98
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SetRADIUSSharedSecret_OUT, *PSetRADIUSSharedSecret_OUT, SetRADIUSSharedSecret_OUT
+ms.keywords: iscsiop/SetRADIUSSharedSecret_OUT, storage.setradiussharedsecret_out, PSetRADIUSSharedSecret_OUT, SetRADIUSSharedSecret_OUT structure [Storage Devices], *PSetRADIUSSharedSecret_OUT, SetRADIUSSharedSecret_OUT, PSetRADIUSSharedSecret_OUT structure pointer [Storage Devices], _SetRADIUSSharedSecret_OUT, iscsiop/PSetRADIUSSharedSecret_OUT, structs-iSCSI_497fc66e-8a5d-4390-9229-622b359776bc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetRADIUSSharedSecret_OUT
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSetRADIUSSharedSecret_OUT, SetRADIUSSharedSecret_OUT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	SetRADIUSSharedSecret_OUT
+product: Windows
+targetos: Windows
+req.typenames: SetRADIUSSharedSecret_OUT, *PSetRADIUSSharedSecret_OUT
 ---
 
 # _SetRADIUSSharedSecret_OUT structure
 
 
-
 ## -description
+
+
 The SetRADIUSSharedSecret_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565815">SetRADIUSSharedSecret</a> method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SetRADIUSSharedSecret_OUT {
@@ -54,27 +64,29 @@ typedef struct _SetRADIUSSharedSecret_OUT {
 
 ## -struct-fields
 
+
+
+
 ### -field Status
 
 On output, the status of the <b>SetRADIUSSharedSecret</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.
 
 
 ## -remarks
+
+
 You must implement this method.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565815">SetRADIUSSharedSecret</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
 <a href="..\iscsiop\ns-iscsiop-_setradiussharedsecret_in.md">SetRADIUSSharedSecret_IN</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1dca2b12-0542-43a9-abff-203ea34cff90
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVADDI_VIDEOSAMPLEFLAGS, DXVADDI_VIDEOSAMPLEFLAGS
+ms.keywords: DXVA2_Structs_8e0fce9f-8473-4bbc-9403-fb8755090a7d.xml, display.dxvaddi_videosampleflags, _DXVADDI_VIDEOSAMPLEFLAGS, DXVADDI_VIDEOSAMPLEFLAGS, d3dumddi/DXVADDI_VIDEOSAMPLEFLAGS, DXVADDI_VIDEOSAMPLEFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVADDI_VIDEOSAMPLEFLAGS
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVADDI_VIDEOSAMPLEFLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXVADDI_VIDEOSAMPLEFLAGS
 ---
 
 # _DXVADDI_VIDEOSAMPLEFLAGS structure
 
 
-
 ## -description
+
+
 The DXVADDI_VIDEOSAMPLEFLAGS structure identifies changes in the current sample frame from the previous sample frame.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVADDI_VIDEOSAMPLEFLAGS {
@@ -64,6 +74,9 @@ typedef struct _DXVADDI_VIDEOSAMPLEFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PaletteChanged
 
@@ -111,15 +124,10 @@ DXVADDI_SAMPLEDATA_RFF_TFF_PRESENT (0x0004)
 A member in the union that is contained in DXVADDI_VIDEOSAMPLEFLAGS that can hold one 32-bit value that identifies changes in the current sample frame from the previous sample frame.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videosample.md">DXVADDI_VIDEOSAMPLE</a>
-</dt>
-</dl>
+
  
 
  

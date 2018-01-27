@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: abbd1f03-cf9e-449b-b261-2a751997fed0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_HUB_TYPE, USB_HUB_TYPE
+ms.keywords: buses.ioctl_usb_get_node_connection_information, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION control code [Buses], IOCTL_USB_GET_NODE_CONNECTION_INFORMATION, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION, usbirp_b71c24bb-6e3b-468f-851d-a934a764fbe1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION
-req.alt-loc: Usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Usbioctl.h
+apiname: 
+-	IOCTL_USB_GET_NODE_CONNECTION_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: USB_HUB_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,13 @@ req.product: Windows 10 or later.
 # IOCTL_USB_GET_NODE_CONNECTION_INFORMATION IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
-The <b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</b> request retrieves information about the indicated USB port and the device that is attached to the port, if there is one.
-
-Client drivers must send this IOCTL at an IRQL of PASSIVE_LEVEL.
-
-<b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</b> is a user-mode I/O control request. This request targets the USB hub device (GUID_DEVINTERFACE_USB_HUB). Do not send this request to the root hub.
-
 
 
 The <b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</b> request retrieves information about the indicated USB port and the device that is attached to the port, if there is one.
@@ -54,58 +61,71 @@ The <b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</b> request retrieves informati
 Client drivers must send this IOCTL at an IRQL of PASSIVE_LEVEL.
 
 <b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</b> is a user-mode I/O control request. This request targets the USB hub device (GUID_DEVINTERFACE_USB_HUB). Do not send this request to the root hub.
+
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 The <b>AssociatedIrp.SystemBuffer</b> member points to a user-allocated <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information.md">USB_NODE_CONNECTION_INFORMATION</a> structure that describes the connection. On input, the <b>ConnectionIndex</b> member of this structure contains the port number.
 
 
 ### -input-buffer-length
+
 The size of a <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information.md">USB_NODE_CONNECTION_INFORMATION</a> structure.
 
 
 ### -output-buffer
+
 On output, the <b>Parameters.DeviceIoControl.OutputBufferLength</b> member contains the size of the output data. This size is variable, because it depends on the number of pipes that are associated with the port. 
 
 <b>AssociatedIrp.SystemBuffer</b> points to a user-allocated <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information.md">USB_NODE_CONNECTION_INFORMATION</a> structure that contains the output data.
 
 
 ### -output-buffer-length
+
 The size of a <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information.md">USB_NODE_CONNECTION_INFORMATION</a> structure.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the request is successful. Otherwise, the USB stack sets <b>Status</b> to the appropriate error condition, such as STATUS_INVALID_PARAMETER or STATUS_INSUFFICIENT_RESOURCES.
 
 
 ## -remarks
+
+
 The <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a> request is an extended version of <b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</b>. The two requests are identical, except that the extended version of the request can report low, full, and high speed connections and the older <b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</b> request reports only low and full speed connections. For more information about the difference between these two requests, see <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information.md">USB_NODE_CONNECTION_INFORMATION</a> and <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a>
-</dt>
-<dt>
-<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information.md">USB_NODE_CONNECTION_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a>
-</dt>
-</dl>
+
+<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information.md">USB_NODE_CONNECTION_INFORMATION</a>
+
  
 
  

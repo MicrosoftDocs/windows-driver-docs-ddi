@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 8e25a1e2-24b1-418c-b1eb-884bdbad63b3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSDS3D_HRTF_INIT_MSG, *PKSDS3D_HRTF_INIT_MSG, KSDS3D_HRTF_INIT_MSG
+ms.keywords: audio.ksds3d_hrtf_init_msg, PKSDS3D_HRTF_INIT_MSG, ksmedia/KSDS3D_HRTF_INIT_MSG, KSDS3D_HRTF_INIT_MSG structure [Audio Devices], ksmedia/PKSDS3D_HRTF_INIT_MSG, PKSDS3D_HRTF_INIT_MSG structure pointer [Audio Devices], aud-prop_f9994a16-7d3c-43af-b423-c6afc64c05b9.xml, KSDS3D_HRTF_INIT_MSG, *PKSDS3D_HRTF_INIT_MSG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSDS3D_HRTF_INIT_MSG
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSDS3D_HRTF_INIT_MSG, KSDS3D_HRTF_INIT_MSG
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSDS3D_HRTF_INIT_MSG
+product: Windows
+targetos: Windows
+req.typenames: KSDS3D_HRTF_INIT_MSG, *PKSDS3D_HRTF_INIT_MSG
 ---
 
 # KSDS3D_HRTF_INIT_MSG structure
 
 
-
 ## -description
+
+
 The KSDS3D_HRTF_INIT_MSG structure specifies the parameter settings to use to initialize the head-relative transfer function (HRTF).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -61,6 +71,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field Size
 
 Specifies the size in bytes of the structure.
@@ -69,7 +82,6 @@ Specifies the size in bytes of the structure.
 ### -field Quality
 
 Specifies the HRTF filter quality level. Set this parameter to one of the following KSDS3D_HRTF_FILTER_QUALITY enumeration values:
-
 <ul>
 <li>
 LIGHT_FILTER selects an efficient algorithm that produces a good quality effect.
@@ -112,6 +124,8 @@ Reserved. Set to zero.
 
 
 ## -remarks
+
+
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537355">KSPROPERTY_HRTF3D_INITIALIZE</a> property.
 
 The <b>Quality</b> values FULL_FILTER and LIGHT_FILTER correspond to the GUID_DS3DALG_HRTF_FULL and GUID_DS3DALG_HRTF_LIGHT settings that are described in the Microsoft Windows SDK documentation.
@@ -119,18 +133,15 @@ The <b>Quality</b> values FULL_FILTER and LIGHT_FILTER correspond to the GUID_DS
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ksmedia\ns-ksmedia-ksds3d_hrtf_params_msg.md">KSDS3D_HRTF_PARAMS_MSG</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537355">KSPROPERTY_HRTF3D_INITIALIZE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>
-</dt>
-</dl>
+
+<a href="..\ksmedia\ns-ksmedia-ksds3d_hrtf_params_msg.md">KSDS3D_HRTF_PARAMS_MSG</a>
+
  
 
  

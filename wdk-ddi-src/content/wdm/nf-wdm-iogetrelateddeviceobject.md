@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 70427fad-6a3d-40bb-9523-787c14fa1e39
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetRelatedDeviceObject
+ms.keywords: kernel.iogetrelateddeviceobject, IoGetRelatedDeviceObject routine [Kernel-Mode Driver Architecture], wdm/IoGetRelatedDeviceObject, IoGetRelatedDeviceObject, k104_22abf9c6-81f5-497e-9bca-8a00b2c871df.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoGetRelatedDeviceObject
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoGetRelatedDeviceObject
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoGetRelatedDeviceObject function
 
 
-
 ## -description
+
+
 Given a file object, the <b>IoGetRelatedDeviceObject</b> routine returns a pointer to the corresponding device object.
 
 
-
 ## -syntax
+
 
 ````
 PDEVICE_OBJECT IoGetRelatedDeviceObject(
@@ -55,16 +65,24 @@ PDEVICE_OBJECT IoGetRelatedDeviceObject(
 
 ## -parameters
 
+
+
+
 ### -param FileObject [in]
 
 Pointer to the file object. 
 
 
 ## -returns
+
+
 <b>IoGetRelatedDeviceObject</b> returns a pointer to the device object.
 
 
+
 ## -remarks
+
+
 When called on a file object that represents the underlying storage device, <b>IoGetRelatedDeviceObject</b> returns the highest-level device object in the storage device stack. To obtain the highest-level device object in the file system driver stack, drivers must call <b>IoGetRelatedDeviceObject</b> on a file object that represents the file system's driver stack, and the file system must currently be mounted. (Otherwise, the storage device stack is traversed instead of the file system stack.)
 
 To ensure that the file system is mounted on the storage device, the driver must have specified an appropriate access mask, such as FILE_READ_DATA or FILE_WRITE_ATTRIBUTES, when opening the file or device represented by the file object. Specifying FILE_READ_ATTRIBUTES does not cause the file system to be mounted. 
@@ -72,12 +90,11 @@ To ensure that the file system is mounted on the storage device, the driver must
 The caller must be running at IRQL &lt;= DISPATCH_LEVEL. Usually, callers of this routine are running at IRQL = PASSIVE_LEVEL. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
-</dt>
-</dl>
+
  
 
  

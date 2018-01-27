@@ -7,8 +7,8 @@ old-location: pos\posbarcodescannerdatareceivedeventdata.htm
 old-project: pos
 ms.assetid: 220713c4-ecfe-43a2-aebf-f1b00b75e49b
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _PosBarcodeScannerDataReceivedEventData, PosBarcodeScannerDataReceivedEventData
+ms.date: 1/18/2018
+ms.keywords: PosBarcodeScannerDataReceivedEventData, pointofservicedriverinterface/PosBarcodeScannerDataReceivedEventData, _PosBarcodeScannerDataReceivedEventData, pos.posbarcodescannerdatareceivedeventdata, PosBarcodeScannerDataReceivedEventData structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PosBarcodeScannerDataReceivedEventData
-req.alt-loc: PointOfServiceDriverInterface.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	PointOfServiceDriverInterface.h
+apiname: 
+-	PosBarcodeScannerDataReceivedEventData
+product: Windows
+targetos: Windows
 req.typenames: PosBarcodeScannerDataReceivedEventData
 ---
 
 # _PosBarcodeScannerDataReceivedEventData structure
 
 
-
 ## -description
+
+
 This structure contains the scanned data that is passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn757463">BarcodeScannerDataReceived</a> event.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PosBarcodeScannerDataReceivedEventData {
@@ -56,6 +66,9 @@ typedef struct _PosBarcodeScannerDataReceivedEventData {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -78,4 +91,8 @@ Indicates the number of bytes of decoded scan data. A label is the decoded scan 
 
 
 ## -remarks
-<i>ScanDataLength</i> bytes of scan data immediately follows the <i>PosBarcodeScannerDataReceivedEventData</i> structure, followed by <i>ScanDataLabelLength</i> bytes of label data.</p>
+
+
+<i>ScanDataLength</i> bytes of scan data immediately follows the <i>PosBarcodeScannerDataReceivedEventData</i> structure, followed by <i>ScanDataLabelLength</i> bytes of label data.
+
+

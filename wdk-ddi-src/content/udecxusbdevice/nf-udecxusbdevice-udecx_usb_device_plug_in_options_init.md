@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 3188E2EE-E011-476D-9DDC-1DF61ECF9413
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT
+ms.keywords: UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT, buses.udecx_usb_device_plug_in_options_init, UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT function [Buses], udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 
-req.alt-api: UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT
-req.alt-loc: Udecxstub.lib,Udecxstub.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PUDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Udecxstub.lib
+-	Udecxstub.dll
+apiname: 
+-	UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT
+product: Windows
+targetos: Windows
+req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
 req.product: Windows 10 or later.
 ---
 
 # UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT function
 
 
-
 ## -description
+
+
 Initializes a <a href="..\udecxusbdevice\ns-udecxusbdevice-_udecx_usb_device_plug_in_options.md">UDECX_USB_DEVICE_PLUG_IN_OPTIONS</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE void UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT(
@@ -55,25 +66,32 @@ FORCEINLINE void UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT(
 
 ## -parameters
 
+
+
+
 ### -param Options [out]
 
 A pointer to a <a href="..\udecxusbdevice\ns-udecxusbdevice-_udecx_usb_device_plug_in_options.md">UDECX_USB_DEVICE_PLUG_IN_OPTIONS</a> structure to initialize.
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
+
 ## -remarks
+
+
 The method initializes <b>Usb20PortNumber</b> and <b>Usb30PortNumber</b>  to 0. This indicates a request for  automatic port number selection.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceplugin.md">UdecxUsbDevicePlugIn</a>
-</dt>
-</dl>
+
  
 
  

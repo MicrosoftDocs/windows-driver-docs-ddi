@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 71D83E2C-8557-45FC-9769-DB71F5FF61FF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UFX_DEVICE_CALLBACKS, *PUFX_DEVICE_CALLBACKS, UFX_DEVICE_CALLBACKS
+ms.keywords: PUFX_DEVICE_CALLBACKS structure pointer [Buses], _UFX_DEVICE_CALLBACKS, UFX_DEVICE_CALLBACKS structure [Buses], ufxclient/UFX_DEVICE_CALLBACKS, ufxclient/PUFX_DEVICE_CALLBACKS, *PUFX_DEVICE_CALLBACKS, buses.ufx_device_callbacks, PUFX_DEVICE_CALLBACKS, UFX_DEVICE_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UFX_DEVICE_CALLBACKS
-req.alt-loc: ufxclient.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PUFX_DEVICE_CALLBACKS, UFX_DEVICE_CALLBACKS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ufxclient.h
+apiname: 
+-	UFX_DEVICE_CALLBACKS
+product: Windows
+targetos: Windows
+req.typenames: UFX_DEVICE_CALLBACKS, *PUFX_DEVICE_CALLBACKS
 req.product: Windows 10 or later.
 ---
 
 # _UFX_DEVICE_CALLBACKS structure
 
 
-
 ## -description
+
+
 The <b>UFX_DEVICE_CALLBACKS</b> structure is used to define then event callback functions supported by the client driver. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UFX_DEVICE_CALLBACKS {
@@ -70,6 +80,9 @@ typedef struct _UFX_DEVICE_CALLBACKS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -157,4 +170,8 @@ A pointer to the client driver’s <a href="..\ufxclient\nc-ufxclient-evt_ufx_de
 
 
 ## -remarks
-The client driver shall use the <a href="..\ufxclient\nf-ufxclient-ufx_device_callbacks_init.md">UFX_DEVICE_CALLBACKS_INIT</a> macro to initialize the <b>UFX_DEVICE_CALLBACKS</b> structure, and then shall set fields of structure to the appropriate event callback routines prior to calling the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a> export function.</p>
+
+
+The client driver shall use the <a href="..\ufxclient\nf-ufxclient-ufx_device_callbacks_init.md">UFX_DEVICE_CALLBACKS_INIT</a> macro to initialize the <b>UFX_DEVICE_CALLBACKS</b> structure, and then shall set fields of structure to the appropriate event callback routines prior to calling the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a> export function.
+
+

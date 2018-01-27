@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 944A593D-D623-400C-80F9-6DCD973681C9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPublishDeviceProfile
+ms.keywords: KsPublishDeviceProfile, stream.kspublishdeviceprofile, ks/KsPublishDeviceProfile, KsPublishDeviceProfile function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsPublishDeviceProfile
-req.alt-loc: ks.lib,ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ks.lib
+-	ks.dll
+apiname: 
+-	KsPublishDeviceProfile
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsPublishDeviceProfile function
 
 
-
 ## -description
+
+
 The <b>KsPublishDeviceProfile</b> API is called to publish device profile information.
 
 
-
 ## -syntax
+
 
 ````
  __drv_maxIRQL(PASSIVE_LEVEL) KSDDKAPI NTSTATUS NTAPI KsPublishDeviceProfile(
@@ -54,6 +65,9 @@ The <b>KsPublishDeviceProfile</b> API is called to publish device profile inform
 
 
 ## -parameters
+
+
+
 
 ### -param FilterFactory [in]
 
@@ -66,8 +80,15 @@ This is a camera profile of type <a href="..\ksmedia\ns-ksmedia-_ksdevice_profil
 
 
 ## -returns
+
+
 Camera profile information will only be associated with the <b>KSCATEGORY_VIDEO_CAMERA</b> interface category.  Any filter factory created without this interface category and attempting to register a camera profile will result in this API returning a <b>STATUS_INVALID_PARAMETER</b>.
 
 
+
 ## -remarks
-This API will be called repeatedly for each profile the camera driver supports.  Each call may have different set of concurrency and data range information.  The <b>ProfileId</b> field of the <b>KSCAMERA_PROFILE_INFO</b> must be unique.  If the same <b>ProfileId</b> is used and the content of the profile information is different, the subsequent call will overwrite the earlier profile information.</p>
+
+
+This API will be called repeatedly for each profile the camera driver supports.  Each call may have different set of concurrency and data range information.  The <b>ProfileId</b> field of the <b>KSCAMERA_PROFILE_INFO</b> must be unique.  If the same <b>ProfileId</b> is used and the content of the profile information is different, the subsequent call will overwrite the earlier profile information.
+
+

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: CC2878DC-66EC-4493-8188-3B6BAEA928DF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUrbSetBytesCompleted
+ms.keywords: buses.evt_udecx_usb_device_d0_exit, EvtUsbDeviceLinkPowerExit callback function [Buses], EvtUsbDeviceLinkPowerExit, EVT_UDECX_USB_DEVICE_D0_EXIT, EVT_UDECX_USB_DEVICE_D0_EXIT, udecxusbdevice/EvtUsbDeviceLinkPowerExit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 
-req.alt-api: EvtUsbDeviceLinkPowerExit
-req.alt-loc: udecxusbdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	udecxusbdevice.h
+apiname: 
+-	EvtUsbDeviceLinkPowerExit
+product: Windows
+targetos: Windows
+req.typenames: *PUSB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH
 req.product: Windows 10 or later.
 ---
 
 # EVT_UDECX_USB_DEVICE_D0_EXIT callback
 
 
-
 ## -description
+
+
 The USB device emulation class extension (UdeCx) invokes this callback function when it gets a request to send the virtual USB device to a low power state.
 
 
-
 ## -prototype
+
 
 ````
 EVT_UDECX_USB_DEVICE_D0_EXIT EvtUsbDeviceLinkPowerExit;
@@ -59,6 +69,9 @@ NTSTATUS EvtUsbDeviceLinkPowerExit(
 
 
 ## -parameters
+
+
+
 
 ### -param UdecxWdfDevice [in]
 
@@ -76,10 +89,15 @@ A <a href="..\udecxusbdevice\ne-udecxusbdevice-_udecx_usb_device_wake_setting.md
 
 
 ## -returns
+
+
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE.
 
 
+
 ## -remarks
+
+
 The client driver registered the function in a previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitsetstatechangecallbacks.md">UdecxUsbDeviceInitSetStateChangeCallbacks</a> by supplying a function pointer to its implementation.
 
 In the callback implementation, the client driver for the USB device is expected to perform steps to send the device to a low power state. In this function, the driver can initiate its wake-up from a low link power state, function suspend, or both.
@@ -89,24 +107,19 @@ The power request may be completed asynchronously by returning STATUS_PENDING, a
 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicesignalwake.md">UdecxUsbDeviceSignalWake</a>
-</dt>
-<dt>
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicelinkpowerexitcomplete.md">UdecxUsbDeviceLinkPowerExitComplete</a>
-</dt>
-<dt>
+
 <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_entry.md">EVT_UDECX_USB_DEVICE_D0_ENTRY</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-</dt>
-<dt>
+
+<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicelinkpowerexitcomplete.md">UdecxUsbDeviceLinkPowerExitComplete</a>
+
+<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicesignalwake.md">UdecxUsbDeviceSignalWake</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4792107C-BAAA-48B5-AC9A-829C05795303
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_GETMULTIPLANEOVERLAYCAPS, DXGKARG_GETMULTIPLANEOVERLAYCAPS, *IN_OUT_PDXGKARG_GETMULTIPLANEOVERLAYCAPS
+ms.keywords: _DXGKARG_GETMULTIPLANEOVERLAYCAPS, DXGKARG_GETMULTIPLANEOVERLAYCAPS, d3dkmddi/DXGKARG_GETMULTIPLANEOVERLAYCAPS, *IN_OUT_PDXGKARG_GETMULTIPLANEOVERLAYCAPS, display.dxgkarg_getmultiplaneoverlaycaps, DXGKARG_GETMULTIPLANEOVERLAYCAPS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_GETMULTIPLANEOVERLAYCAPS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_GETMULTIPLANEOVERLAYCAPS
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_GETMULTIPLANEOVERLAYCAPS
 ---
 
 # _DXGKARG_GETMULTIPLANEOVERLAYCAPS structure
 
 
-
 ## -description
+
+
 Arguments to the DxgkDdiGetMultiPlaneOverlayCaps function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_GETMULTIPLANEOVERLAYCAPS {
@@ -60,14 +70,17 @@ typedef struct _DXGKARG_GETMULTIPLANEOVERLAYCAPS {
 
 ## -struct-fields
 
+
+
+
 ### -field VidPnSourceId
 
 [in] Indicates the VidPn source for which we are querying multiplane overlay capabilities.
 
 
-### -field MaxPlane
+### -field MaxPlanes
 
-[out] Indicates the total number of planes, including the DWM's primary, that can be supported simultaneously.
+ 
 
 
 ### -field MaxRGBPlanes
@@ -95,4 +108,7 @@ typedef struct _DXGKARG_GETMULTIPLANEOVERLAYCAPS {
 [out] Indicates the maximum shrink factor that can be applied to a plane.
 
 
-## -remarks
+#### - MaxPlane
+
+[out] Indicates the total number of planes, including the DWM's primary, that can be supported simultaneously.
+

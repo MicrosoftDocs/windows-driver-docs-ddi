@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7f74cbf1-2382-471c-ab07-fdb7e615cb0b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinGetCopyRelationships
+ms.keywords: KsPinGetCopyRelationships function [Streaming Media Devices], ks/KsPinGetCopyRelationships, stream.kspingetcopyrelationships, avfunc_d44ce272-9171-4a32-89c6-023d9688fdfd.xml, KsPinGetCopyRelationships
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsPinGetCopyRelationships
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsPinGetCopyRelationships
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsPinGetCopyRelationships function
 
 
-
 ## -description
+
+
 The <b>KsPinGetCopyRelationships</b> function returns copy relationship information for a pin that is contained within a <a href="https://msdn.microsoft.com/0b6a02c2-e672-4568-a890-491c721ec3a7">pin-centric</a> filter.
 
 
-
 ## -syntax
+
 
 ````
 void KsPinGetCopyRelationships(
@@ -55,6 +66,9 @@ void KsPinGetCopyRelationships(
 
 
 ## -parameters
+
+
+
 
 ### -param Pin [in]
 
@@ -72,10 +86,15 @@ A pointer to a pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 
 <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687-ae5e-1550db9500f0">Filter-centric</a> filters receive similar <i>CopySource</i> and <i>DelegateBranch</i> information when AVStream calls the minidriver's <a href="..\ks\nc-ks-pfnksfilterprocess.md">AVStrMiniFilterProcess</a> function with an array of <a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCESSPIN_INDEXENTRY</a> structures.
 
@@ -88,15 +107,13 @@ To guarantee safety when calling <b>KsPinGetCopyRelationships</b>, either obtain
 For more information, see <a href="https://msdn.microsoft.com/0b6a02c2-e672-4568-a890-491c721ec3a7">Pin-Centric Processing</a> and <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687-ae5e-1550db9500f0">Filter-Centric Processing</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-_ksprocesspin.md">KSPROCESSPIN</a>
-</dt>
-</dl>
+
  
 
  

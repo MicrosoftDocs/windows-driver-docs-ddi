@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B514B88E-2D1F-43F1-BF70-BC49294CFE93
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UsbBuildOpenStaticStreamsRequest
+ms.keywords: UsbBuildOpenStaticStreamsRequest function [Buses], UsbBuildOpenStaticStreamsRequest, buses.usbbuildopenbasicstreamsrequest, usbdlib/UsbBuildOpenStaticStreamsRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Requires WDK for Windows 8. Targets Windows Vista an
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UsbBuildOpenStaticStreamsRequest
-req.alt-loc: Usbdlib.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Usbdlib.h
+apiname: 
+-	UsbBuildOpenStaticStreamsRequest
+product: Windows
+targetos: Windows
 req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # UsbBuildOpenStaticStreamsRequest function
 
 
-
 ## -description
+
+
 The <b>UsbBuildOpenStaticStreamsRequest</b> inline function formats an <a href="..\usb\ns-usb-_urb.md">URB</a> structure for an open-streams request. The request opens streams associated with the specified bulk endpoint.
 
 
-
 ## -syntax
+
 
 ````
 void UsbBuildOpenStaticStreamsRequest(
@@ -57,6 +67,9 @@ void UsbBuildOpenStaticStreamsRequest(
 
 
 ## -parameters
+
+
+
 
 ### -param Urb [in, out]
 
@@ -87,22 +100,25 @@ Pointer to a caller-allocated, initialized array of <a href="..\usb\ns-usb-_usbd
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
+
 ## -remarks
+
+
 For a code example that shows the URB format required for an open-streams request, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usb\ns-usb-_urb_open_static_streams.md">_URB_OPEN_STATIC_STREAMS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>
-</dt>
-</dl>
+
  
 
  

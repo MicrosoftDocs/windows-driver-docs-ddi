@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 118ea0b9-6463-4050-9f33-192a3d42fdce
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+ms.keywords: display.dxgkcbreaddevicespace, DxgkCbReadDeviceSpace callback function [Display Devices], DxgkCbReadDeviceSpace, DXGKCB_READ_DEVICE_SPACE, DXGKCB_READ_DEVICE_SPACE, dispmprt/DxgkCbReadDeviceSpace, DpFunctions_54853b5b-487d-410e-a08d-eb777b3686e9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkCbReadDeviceSpace
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DxgkCbReadDeviceSpace
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKCB_READ_DEVICE_SPACE callback
 
 
-
 ## -description
+
+
 The <b>DxgkCbReadDeviceSpace</b> function reads from a device configuration space or the expansion ROM of a display adapter.
 
 
-
 ## -prototype
+
 
 ````
 DXGKCB_READ_DEVICE_SPACE DxgkCbReadDeviceSpace;
@@ -62,6 +72,9 @@ NTSTATUS DxgkCbReadDeviceSpace(
 
 ## -parameters
 
+
+
+
 ### -param DeviceHandle [in]
 
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
@@ -73,28 +86,6 @@ The type of read transaction to be performed. This parameter must be one of the 
 
 
 
-
-### -param DXGK_WHICHSPACE_BRIDGE
-
-Read from the PCI Express (PCIe) root port's configuration space.
-
-
-### -param DXGK_WHICHSPACE_CONFIG
-
-Read from the display adapter's configuration space.
-
-
-### -param DXGK_WHICHSPACE_MCH
-
-Read from the configuration space of a memory controller hub that is a peer to the adapter's parent bus.
-
-
-### -param DXGK_WHICHSPACE_ROM
-
-Read from the display adapter's expansion ROM.
-
-</dd>
-</dl>
 
 ### -param Buffer [in]
 
@@ -116,32 +107,76 @@ The number of bytes to be read.
 A pointer to a ULONG-typed variable that receives the number of bytes actually read.
 
 
+##### - DataType.DXGK_WHICHSPACE_BRIDGE
+
+Read from the PCI Express (PCIe) root port's configuration space.
+
+
+##### - DataType.DXGK_WHICHSPACE_CONFIG
+
+Read from the display adapter's configuration space.
+
+
+##### - DataType.DXGK_WHICHSPACE_ROM
+
+Read from the display adapter's expansion ROM.
+
+
+##### - DataType.DXGK_WHICHSPACE_MCH
+
+Read from the configuration space of a memory controller hub that is a peer to the adapter's parent bus.
+
+
 ## -returns
+
+
 <b>DxgkCbReadDeviceSpace</b> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>  STATUS_SUCCESS</b></dt>
-</dl>  The function succeeded.
+</dl>
+</td>
+<td width="60%">
+  The function succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>  STATUS_INVALID_PARAMETER</b></dt>
-</dl>  The <i>DeviceHandle</i>, <i>DataType</i>, or <i>Buffer</i> parameter is invalid.
+</dl>
+</td>
+<td width="60%">
+  The <i>DeviceHandle</i>, <i>DataType</i>, or <i>Buffer</i> parameter is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>  STATUS_UNSUCCESSFUL</b></dt>
-</dl>  The function was unable to read the data.
+</dl>
+</td>
+<td width="60%">
+  The function was unable to read the data.
 
- 
+</td>
+</tr>
+</table> 
 
-The following code example reads a value of a specific size from the PCI configuration space.
-
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_write_device_space.md">DxgkCbWriteDeviceSpace</a>
-</dt>
-</dl>
+
  
 
  

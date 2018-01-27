@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e330bd79-cd44-412e-b9aa-ca5b791750d4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _FILE_ATTRIBUTE_TAG_INFORMATION, FILE_ATTRIBUTE_TAG_INFORMATION, *PFILE_ATTRIBUTE_TAG_INFORMATION
+ms.keywords: *PFILE_ATTRIBUTE_TAG_INFORMATION, _FILE_ATTRIBUTE_TAG_INFORMATION, FILE_ATTRIBUTE_TAG_INFORMATION, kernel.file_attribute_tag_information, kstruct_b_d990c73e-3b75-4c00-954d-a16cca892895.xml, PFILE_ATTRIBUTE_TAG_INFORMATION structure pointer [Kernel-Mode Driver Architecture], ntddk/FILE_ATTRIBUTE_TAG_INFORMATION, FILE_ATTRIBUTE_TAG_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_ATTRIBUTE_TAG_INFORMATION, ntddk/PFILE_ATTRIBUTE_TAG_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILE_ATTRIBUTE_TAG_INFORMATION
-req.alt-loc: Ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: FILE_ATTRIBUTE_TAG_INFORMATION, *PFILE_ATTRIBUTE_TAG_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddk.h
+apiname: 
+-	FILE_ATTRIBUTE_TAG_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: *PFILE_ATTRIBUTE_TAG_INFORMATION, FILE_ATTRIBUTE_TAG_INFORMATION
 ---
 
 # _FILE_ATTRIBUTE_TAG_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>FILE_ATTRIBUTE_TAG_INFORMATION</b> structure is used as an argument to <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILE_ATTRIBUTE_TAG_INFORMATION {
@@ -54,6 +64,9 @@ typedef struct _FILE_ATTRIBUTE_TAG_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field FileAttributes
 
@@ -66,6 +79,8 @@ Specifies the reparse point tag. If the <b>FileAttributes</b> member includes th
 
 
 ## -remarks
+
+
 FILE_READ_ATTRIBUTES access to the file is required to query this information.
 
 For more information about reparse points and reparse point tags, see the Windows SDK.
@@ -73,12 +88,11 @@ For more information about reparse points and reparse point tags, see the Window
 This structure must be aligned on a LONG (4-byte) boundary.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-</dt>
-</dl>
+
  
 
  

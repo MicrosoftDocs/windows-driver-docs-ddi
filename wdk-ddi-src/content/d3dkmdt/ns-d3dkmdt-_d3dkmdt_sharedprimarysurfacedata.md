@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: edf59add-0155-4619-9c7c-fdb63b954f85
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMDT_SHAREDPRIMARYSURFACEDATA, D3DKMDT_SHAREDPRIMARYSURFACEDATA
+ms.keywords: d3dkmdt/D3DKMDT_SHAREDPRIMARYSURFACEDATA, D3DKMDT_SHAREDPRIMARYSURFACEDATA, DmStructs_5296d822-1a79-459e-809c-2d7381a964b8.xml, display.d3dkmdt_sharedprimarysurfacedata, _D3DKMDT_SHAREDPRIMARYSURFACEDATA, D3DKMDT_SHAREDPRIMARYSURFACEDATA structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMDT_SHAREDPRIMARYSURFACEDATA
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	D3DKMDT_SHAREDPRIMARYSURFACEDATA
+product: Windows
+targetos: Windows
 req.typenames: D3DKMDT_SHAREDPRIMARYSURFACEDATA
 ---
 
 # _D3DKMDT_SHAREDPRIMARYSURFACEDATA structure
 
 
-
 ## -description
+
+
 The D3DKMDT_SHAREDPRIMARYSURFACEDATA structure describes a shared primary surface.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMDT_SHAREDPRIMARYSURFACEDATA {
@@ -57,6 +67,9 @@ typedef struct _D3DKMDT_SHAREDPRIMARYSURFACEDATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Width
 
@@ -84,24 +97,22 @@ typedef struct _D3DKMDT_SHAREDPRIMARYSURFACEDATA {
 
 
 ## -remarks
+
+
 Multiple processes can lock a shared primary surface. The video memory manager pins the standard allocation for the shared primary surface in video memory so the digital-to-analog converter (DAC) is guaranteed to always scan-out the appropriate data.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
-</dt>
-<dt>
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-</dt>
-<dt>
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_standardallocation_type.md">D3DKMDT_STANDARDALLOCATION_TYPE</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getstandardallocationdriverdata.md">DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_standardallocation_type.md">D3DKMDT_STANDARDALLOCATION_TYPE</a>
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
  
 
  

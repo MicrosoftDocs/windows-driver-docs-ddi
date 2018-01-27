@@ -7,8 +7,8 @@ old-location: debugger\writetypeddatavirtual.htm
 old-project: debugger
 ms.assetid: c7a3854b-2405-4e20-8c6c-4e0c0d43987e
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugSymbols3, IDebugSymbols3::WriteTypedDataVirtual, WriteTypedDataVirtual
+ms.date: 1/19/2018
+ms.keywords: dbgeng/IDebugSymbols3::WriteTypedDataVirtual, WriteTypedDataVirtual method [Windows Debugging], WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols2::WriteTypedDataVirtual, IDebugSymbols::WriteTypedDataVirtual, IDebugSymbols3 interface [Windows Debugging], WriteTypedDataVirtual method, IDebugSymbols_51186c12-dc2b-4906-a8fa-9e0f4a960135.xml, IDebugSymbols2::WriteTypedDataVirtual, debugger.writetypeddatavirtual, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::WriteTypedDataVirtual, IDebugSymbols3::WriteTypedDataVirtual, IDebugSymbols2 interface [Windows Debugging], WriteTypedDataVirtual method, IDebugSymbols3, IDebugSymbols interface [Windows Debugging], WriteTypedDataVirtual method, WriteTypedDataVirtual, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugSymbols.WriteTypedDataVirtual,IDebugSymbols2.WriteTypedDataVirtual,IDebugSymbols3.WriteTypedDataVirtual
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,36 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugSymbols.WriteTypedDataVirtual
+-	IDebugSymbols2.WriteTypedDataVirtual
+-	IDebugSymbols3.WriteTypedDataVirtual
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::WriteTypedDataVirtual method
 
 
-
 ## -description
+
+
 The <b>WriteTypedDataVirtual</b> method writes data to the target's virtual address space.  The number of bytes written is the size of the specified type.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT WriteTypedDataVirtual(
@@ -58,6 +70,9 @@ HRESULT WriteTypedDataVirtual(
 
 
 ## -parameters
+
+
+
 
 ### -param Offset [in]
 
@@ -90,18 +105,45 @@ Receives the number of bytes that were written.  If <i>BytesWritten</i> is <b>NU
 
 
 ## -returns
+
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method was successful.
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_FALSE</b></dt>
-</dl>The method was successful.  All the bytes in the buffer <i>Buffer</i> were written.  However, the buffer was smaller than the size of the type specified. 
+</dl>
+</td>
+<td width="60%">
+The method was successful.  All the bytes in the buffer <i>Buffer</i> were written.  However, the buffer was smaller than the size of the type specified. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This is a convenience method.  The same result can be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff561468">WriteVirtual</a>.
 
-For more information about types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558931">Types</a>.</p>
+For more information about types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558931">Types</a>.
+
+

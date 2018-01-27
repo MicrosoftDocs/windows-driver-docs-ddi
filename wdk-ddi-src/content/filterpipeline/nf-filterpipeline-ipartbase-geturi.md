@@ -7,8 +7,8 @@ old-location: print\ipartbase_geturi.htm
 old-project: print
 ms.assetid: 5f4e3723-a30d-462d-9e7b-da05aa2e0b3c
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IPartBase, IPartBase::GetUri, GetUri
+ms.date: 1/18/2018
+ms.keywords: GetUri method [Print Devices], GetUri method [Print Devices], IPartBase interface, filterpipeline/IPartBase::GetUri, filterpipeline_ae1b8045-4a34-4a66-939c-31363ba66c6b.xml, print.ipartbase_geturi, GetUri, IPartBase interface [Print Devices], GetUri method, IPartBase, IPartBase::GetUri
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPartBase.GetUri
-req.alt-loc: filterpipeline.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: Filterpipeline.idl
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	filterpipeline.h
+apiname: 
+-	IPartBase.GetUri
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # IPartBase::GetUri method
 
 
-
 ## -description
+
+
 The <b>GetUri</b> method gets the URI of the part.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT GetUri(
@@ -54,13 +64,17 @@ HRESULT GetUri(
 
 ## -parameters
 
+
+
+
 ### -param uri [out]
 
 The URI of the part.
 
 
 ## -returns
+
+
 <b>GetUri</b> returns an <b>HRESULT</b> value.
 
 
-## -remarks

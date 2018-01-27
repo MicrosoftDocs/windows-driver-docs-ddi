@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8AF361B5-279D-4525-AD98-843A4A746201
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.getmippacking, GetMipPacking callback function [Display Devices], GetMipPacking, PFND3DWDDM1_3DDI_GETMIPPACKING, PFND3DWDDM1_3DDI_GETMIPPACKING, d3d10umddi/GetMipPacking
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1,WDDM 1.3
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GetMipPacking
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	GetMipPacking
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3DWDDM1_3DDI_GETMIPPACKING callback
 
 
-
 ## -description
+
+
 For a given tiled resource, returns how many mips are packed, and how many tiles are needed to store all the packed mips.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DWDDM1_3DDI_GETMIPPACKING GetMipPacking;
@@ -60,24 +70,38 @@ VOID APIENTRY* GetMipPacking(
 
 ## -parameters
 
-### -param hDevice 
+
+
+
+### -param hDevice
 
 A handle to the display device (graphics context).
 
 
-### -param hTiledResource 
+### -param hTiledResource
 
 A handle to the tiled resource.
 
 
-### -param pNumPackedMips [out]
+### -param *pNumPackedMips
+
+
+
+### -param *pNumTilesForPackedMips
+
+
+
+
+
+
+#### - pNumPackedMips [out]
 
 A pointer to a variable that receives the number of mips that are packed, for a given array slice, including any mips that don't use the standard tile shapes.
 
 If there is no packing, a value of zero should be returned.
 
 
-### -param pNumTilesForPackedMips [out]
+#### - pNumTilesForPackedMips [out]
 
 A pointer to a variable that receives the number of tiles that the packed mips fit into, for a given array slice.
 
@@ -85,12 +109,17 @@ This parameter is ignored if *<i>pNumPackedMips</i> returns zero.
 
 
 ## -returns
+
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. The driver can set <b>E_INVALIDARG</b> if an input parameter does not exist or is <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 Packed mips include cases where multiple small mips share tile(s) and also mips for which a given device cannot use standard tile shapes.  It's possible for an entire resource to be considered packed.
 
 Applications are not told the tile shapes or layout for packed mips and must simply map 
@@ -109,12 +138,11 @@ the application is not told what the tile breakdown is (only how many tiles are 
 in the packing overall), and thus loses some freedom.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-</dt>
-</dl>
+
  
 
  

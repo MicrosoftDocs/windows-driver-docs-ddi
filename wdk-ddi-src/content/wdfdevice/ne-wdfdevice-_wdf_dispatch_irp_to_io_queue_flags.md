@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6A205F51-990F-4721-B4C7-B96E944D2A54
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS, WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS
+ms.keywords: WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS, kmdf.wdf_forward_irp_to_io_queue_options_flags, kmdf.wdf_forward_irp_to_io_queue_flags, _WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS, wdfdevice/WDF_FORWARD_IRP_TO_IO_QUEUE_FLAGS, wdfdevice/WDF_DISPATCH_IRP_TO_IO_QUEUE_INVOKE_INCALLERCTX_CALLBACK, WDF_DISPATCH_IRP_TO_IO_QUEUE_PREPROCESSED_IRP, WDF_DISPATCH_IRP_TO_IO_QUEUE_NO_FLAGS, WDF_FORWARD_IRP_TO_IO_QUEUE_FLAGS enumeration, wdf.wdf_dispatch_irp_to_io_queue_flags, WDF_DISPATCH_IRP_TO_IO_QUEUE_INVOKE_INCALLERCTX_CALLBACK, kmdf.wdf_dispatch_irp_to_io_queue_flags, wdfdevice/WDF_DISPATCH_IRP_TO_IO_QUEUE_NO_FLAGS, wdfdevice/WDF_DISPATCH_IRP_TO_IO_QUEUE_PREPROCESSED_IRP, WDF_FORWARD_IRP_TO_IO_QUEUE_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.11
 req.umdf-ver: 
-req.alt-api: WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS
-req.alt-loc: wdfdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfdevice.h
+apiname: 
+-	WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS</b> enumeration type defines flags that the driver can specify when it calls  <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue.md">WdfDeviceWdmDispatchIrpToIoQueue</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS { 
@@ -58,6 +68,9 @@ typedef enum _WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WDF_DISPATCH_IRP_TO_IO_QUEUE_NO_FLAGS
 
@@ -75,18 +88,18 @@ Specifies that the IRP was preprocessed by the driver's <a href="..\wdfdevice\nc
 
 
 ## -remarks
+
+
  For more information about specifying queues for IRPs as they arrive, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dispatching-irps-to-i-o-queues">Dispatching IRPs to I/O Queues</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue.md">WdfDeviceWdmDispatchIrpToIoQueue</a>
-</dt>
-<dt>
+
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess.md">EvtDeviceWdmIrpPreprocess</a>
-</dt>
-</dl>
+
  
 
  

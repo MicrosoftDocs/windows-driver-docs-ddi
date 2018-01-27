@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 46398050-7f06-4d64-8b27-12e529884cb2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoAcquireRemoveLock
+ms.keywords: kernel.ioacquireremovelock, k104_3df0773a-09a7-40cd-8e32-58d89cf551b1.xml, IoAcquireRemoveLock routine [Kernel-Mode Driver Architecture], IoAcquireRemoveLock, wdm/IoAcquireRemoveLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoAcquireRemoveLock
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: CompleteRequestStatusCheck, MarkDevicePower, MarkPower, MarkPowerDown, MarkQueryRelations, MarkStartDevice, MultRemoveLock, NsRemoveLockMnRemove, NsRemoveLockMnSurpriseRemove, NsRemoveLockQueryMnRemove, PowerDownAllocate, PowerDownFail, PowerUpFail, RemoveLock, RemoveLockCheck, RemoveLockForward, RemoveLockForward2, RemoveLockForwardDeviceControl, RemoveLockForwardDeviceControl2, RemoveLockForwardDeviceControlInternal, RemoveLockForwardDeviceControlInternal2, RemoveLockForwardRead, RemoveLockForwardRead2, RemoveLockForwardWrite, RemoveLockForwardWrite2, RemoveLockMnRemove, RemoveLockMnRemove2, RemoveLockMnSurpriseRemove, RemoveLockQueryMnRemove, RemoveLockRelease2, RemoveLockReleaseCleanup, RemoveLockReleaseClose, RemoveLockReleaseCreate, RemoveLockReleaseDeviceControl, RemoveLockReleaseInternalDeviceControl, RemoveLockReleasePnp, RemoveLockReleasePower, RemoveLockReleaseRead, RemoveLockReleaseShutdown, RemoveLockReleaseSystemControl, RemoveLockReleaseWrite, WmiForward
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoAcquireRemoveLock
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,14 +47,15 @@ req.product: Windows 10 or later.
 # IoAcquireRemoveLock macro
 
 
-
 ## -description
+
+
 The <b>IoAcquireRemoveLock</b> routine increments the count for a remove lock, 
    indicating that the associated device object should not be detached from the device stack or deleted.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS IoAcquireRemoveLock(
@@ -56,6 +66,9 @@ NTSTATUS IoAcquireRemoveLock(
 
 
 ## -parameters
+
+
+
 
 ### -param RemoveLock [in]
 
@@ -82,6 +95,8 @@ The I/O system uses this parameter on checked builds only.
 
 
 ## -remarks
+
+
 A driver must initialize a remove lock with a call to 
      <a href="..\wdm\nf-wdm-ioinitializeremovelock.md">IoInitializeRemoveLock</a> before using the 
      lock.
@@ -92,18 +107,15 @@ A driver must call <a href="..\wdm\nf-wdm-ioreleaseremovelock.md">IoReleaseRemov
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565504">Using Remove Locks</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-ioinitializeremovelock.md">IoInitializeRemoveLock</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-ioreleaseremovelock.md">IoReleaseRemoveLock</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-ioreleaseremovelockandwait.md">IoReleaseRemoveLockAndWait</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-ioinitializeremovelock.md">IoInitializeRemoveLock</a>
+
  
 
  

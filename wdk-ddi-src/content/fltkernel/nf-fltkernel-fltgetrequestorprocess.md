@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: be734d14-64ee-47f0-8df9-4c4b8830448d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetRequestorProcess
+ms.keywords: FltApiRef_e_to_o_9705ecf7-4e60-4b9a-b07e-4e24227aff1d.xml, ifsk.fltgetrequestorprocess, FltGetRequestorProcess routine [Installable File System Drivers], FltGetRequestorProcess, fltkernel/FltGetRequestorProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltGetRequestorProcess
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltGetRequestorProcess
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltGetRequestorProcess function
 
 
-
 ## -description
+
+
 The <b>FltGetRequestorProcess</b> routine returns a process pointer for the thread that requested a given I/O operation. 
 
 
-
 ## -syntax
+
 
 ````
 PEPROCESS FltGetRequestorProcess(
@@ -54,28 +64,34 @@ PEPROCESS FltGetRequestorProcess(
 
 ## -parameters
 
+
+
+
 ### -param CallbackData [in]
 
 Pointer to the callback data structure (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>) for the I/O operation. 
 
 
 ## -returns
+
+
 <b>FltGetRequestorProcess</b> returns a process pointer for the thread that requested the I/O operation. If the operation is not associated with any thread, <b>FltGetRequestorProcess</b> returns <b>NULL</b>. 
 
 
+
 ## -remarks
+
+
 <b>FltGetRequestorProcess</b> returns a pointer to the process that the requesting thread is currently attached to. This process may or may not be the same process that created the thread. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltgetrequestorprocessid.md">FltGetRequestorProcessId</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
  
 
  

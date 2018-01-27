@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 720245ff-8c97-4b8d-8406-f6b712fa74c9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortLogSystemEvent
+ms.keywords: StorPortLogSystemEvent routine [Storage Devices], storport/StorPortLogSystemEvent, storage.storportlogsystemevent, StorPortLogSystemEvent, storprt_15a23037-a0e9-4768-ab20-80d6fe7d8a56.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortLogSystemEvent
-req.alt-loc: storport.h
 req.ddi-compliance: StorPortIrql
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	StorPortLogSystemEvent
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # StorPortLogSystemEvent function
 
 
-
 ## -description
+
+
 The StorPortLogSystemEvent routine gives miniport drivers full access to the capabilities of the Windows kernel event facility, enabling miniport drivers to create event log entries that are truly useful in troubleshooting storage issues. It provides a better alternative to the existing miniport driver event logging function, <a href="..\storport\nf-storport-storportlogerror.md">StorPortLogError</a>.
 
 
-
 ## -syntax
+
 
 ````
 ULONG StorPortLogSystemEvent(
@@ -56,6 +66,9 @@ ULONG StorPortLogSystemEvent(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -73,41 +86,105 @@ Variable to receive maximum combined size of miniport's dump data and strings. O
 
 
 ## -returns
+
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>This function is not implemented on the active operating system.
+</dl>
+</td>
+<td width="60%">
+This function is not implemented on the active operating system.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>An invalid parameter was passed in.
+</dl>
+</td>
+<td width="60%">
+An invalid parameter was passed in.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_IRQL</b></dt>
-</dl>The call was made at IRQL &gt; DISPATCH_LEVEL.
+</dl>
+</td>
+<td width="60%">
+The call was made at IRQL &gt; DISPATCH_LEVEL.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>There were insufficient system resources to complete the request.
+</dl>
+</td>
+<td width="60%">
+There were insufficient system resources to complete the request.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_UNSUPPORTED_VERSION:</b></dt>
-</dl>An unsupported (for example, more current) version of the STOR_LOG_EVENT_DETAILS structure was specified. When this is returned, LogDetails-&gt;InterfaceRevision is set to the latest supported version.
+</dl>
+</td>
+<td width="60%">
+An unsupported (for example, more current) version of the STOR_LOG_EVENT_DETAILS structure was specified. When this is returned, LogDetails-&gt;InterfaceRevision is set to the latest supported version.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_BUFFER_SIZE</b></dt>
-</dl>The buffers passed to the function were too large. When this value is returned, MaximumSize is set to the maximum combined size of the miniport's dump data and strings.
+</dl>
+</td>
+<td width="60%">
+The buffers passed to the function were too large. When this value is returned, MaximumSize is set to the maximum combined size of the miniport's dump data and strings.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>The log operation completed successfully.
+</dl>
+</td>
+<td width="60%">
+The log operation completed successfully.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 To understand how you may use custom error codes to best advantage, see  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/storage/storport-event-log-extensions">Storport Error Log Extensions</a>. The StorPortLogSystemEvent routine must be called at IRQL &lt;= DISPATCH_LEVEL. If you pass in a more recent version of STOR_LOG_EVENT_DETAILS than  that supported by this build, this function changes the InterfaceRevision field to the latest supported version and returns STOR_STATUS_UNSUPPORTED_VERSION. The InterfaceRevision field of STOR_LOG_EVENT_DETAILS is a 32-bit value. However, only the three most-significant bytes are used for validation. The low byte is reserved to distinguish between compatible, minor variations of a particular version. For instance, a revision 0x00000101 structure is compatible with a Storport that implements revision 0x00000100 of the interface, although it is possible that some minor, noncritical functionality may be lost. If you specify a combined size of dump data and strings that exceeds the maximum allowed event log entry size, the integer pointed to by MaximumSize is set to the maximum allowed size of miniport dump data and strings, and STOR_INVALID_BUFFER_SIZE is returned. Although this function accepts ULONG values for the path, target, and LUN address specifiers, the values are truncated to UCHAR values because Storport internally only supports 8-bit values for these specifiers. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\nf-storport-storportlogerror.md">StorPortLogError</a>
-</dt>
-</dl>
+
  
 
  

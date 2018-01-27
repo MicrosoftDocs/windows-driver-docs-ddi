@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: A9E4404C-D307-4137-B640-AF28A962B2AD
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: GdiStartPageEMF
+ms.keywords: nfpdrivers.ioctl_smartcard_is_absent, IOCTL_SMARTCARD_IS_ABSENT control code [Near-Field Proximity Drivers], IOCTL_SMARTCARD_IS_ABSENT, winsmcrd/IOCTL_SMARTCARD_IS_ABSENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_SMARTCARD_IS_ABSENT
-req.alt-loc: winsmcrd.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,56 +29,116 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	winsmcrd.h
+apiname: 
+-	IOCTL_SMARTCARD_IS_ABSENT
+product: Windows
+targetos: Windows
+req.typenames: *PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME
 req.product: Windows 10 or later.
 ---
 
 # IOCTL_SMARTCARD_IS_ABSENT IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 The <b>IOCTL_SMARTCARD_IS_ABSENT</b> 
    control code returns immediately with STATUS_SUCCESS if no smart card is currently detected. If smart cards are detected, the IOCTL needs to be pended by the driver and it needs to complete the request on card departure. Closing the file handle automatically unsubscribes the event.
 
 
 
 
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 None.
 
 
 ### -input-buffer-length
 
+
 <text></text>
 
+
+
 ### -output-buffer
+
 None.
 
 
 ### -output-buffer-length
 
+
 <text></text>
+
+
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
-### -status-block
-I/O Status block
-<b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
 
- 
+
+### -status-block
+
+<b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
+<table>
+<tr>
+<th>Return Code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>STATUS_PENDING</td>
+<td>This code is returned when the attribute ID is SCARD_ATTR_DEVICE_IN_USE.</td>
+</tr>
+<tr>
+<td>STATUS_DEVICE_BUSY</td>
+<td>This code is returned if the operation is already waiting for the absent event.</td>
+</tr>
+<tr>
+<td>STATUS_INVALID_DEVICE_STATE</td>
+<td>This code is returned if the device cannot accept the request.
+</td>
+</tr>
+<tr>
+<td>STATUS_INVALID_PARAMETER</td>
+<td>This code is returned when the input or output buffers are invalid.</td>
+</tr>
+<tr>
+<td>STATUS_DEVICE_POWERED_OFF</td>
+<td>This code is returned when the proximity radio control is off.</td>
+</tr>
+</table> 
 
 
 ## -remarks
+
+
 The following actions are required when using this IOCTL:<ul>
 <li>
 
@@ -92,11 +150,13 @@ The driver must support CancelIo on this pended IOCTL.
 
 
 
+
 ## -see-also
-<dl>
-<dt><a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a></dt>
-<dt><a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a></dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
  
 
  

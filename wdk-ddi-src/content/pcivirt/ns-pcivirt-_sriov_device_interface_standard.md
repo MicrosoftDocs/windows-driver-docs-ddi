@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: c71add7d-9920-4b2f-a46a-4a09a94f3900
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SRIOV_DEVICE_INTERFACE_STANDARD, *PSRIOV_DEVICE_INTERFACE_STANDARD, SRIOV_DEVICE_INTERFACE_STANDARD
+ms.keywords: *PSRIOV_DEVICE_INTERFACE_STANDARD, pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD, SRIOV_DEVICE_INTERFACE_STANDARD structure [Buses], _SRIOV_DEVICE_INTERFACE_STANDARD, SRIOV_DEVICE_INTERFACE_STANDARD, PCI.sriov_device_interface_standard
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SRIOV_DEVICE_INTERFACE_STANDARD
-req.alt-loc: Pcivirt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PSRIOV_DEVICE_INTERFACE_STANDARD, SRIOV_DEVICE_INTERFACE_STANDARD
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Pcivirt.h
+apiname: 
+-	SRIOV_DEVICE_INTERFACE_STANDARD
+product: Windows
+targetos: Windows
+req.typenames: SRIOV_DEVICE_INTERFACE_STANDARD, *PSRIOV_DEVICE_INTERFACE_STANDARD
 ---
 
 # _SRIOV_DEVICE_INTERFACE_STANDARD structure
 
 
-
 ## -description
+
+
 Stores function pointers to callback functions implemented by the physical function (PF) driver  in the device stack for the of the SR-IOV device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SRIOV_DEVICE_INTERFACE_STANDARD {
@@ -68,6 +78,9 @@ typedef struct _SRIOV_DEVICE_INTERFACE_STANDARD {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -149,18 +162,12 @@ Pointer to the driver's implementation of the <a href="https://msdn.microsoft.co
 Pointer to the driver's implementation of the <a href="https://msdn.microsoft.com/9bb8e54f-b42a-4f61-a3f5-6972141c8f28">SRIOV_QUERY_LUID</a> callback function that gets the unique identifier of the VF.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>
-</dt>
-<dt>
+
 <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdf_query_interface_config_init.md">WDF_QUERY_INTERFACE_CONFIG_INIT</a>
-</dt>
-</dl>
+
  
 
  

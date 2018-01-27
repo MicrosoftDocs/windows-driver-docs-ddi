@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: E771F59E-7F85-40B9-BBA9-D1CC398B12CA
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_STREAMINTERFACE, KSPROPERTY_STREAMINTERFACE
+ms.keywords: ks/KSPROPERTY_STREAMINTERFACE, stream.ksproperty_streaminterface, KSPROPERTY_STREAMINTERFACE_HEADERSIZE, KSPROPERTY_STREAMINTERFACE, KSPROPERTY_STREAMINTERFACE enumeration [Streaming Media Devices], ks/KSPROPERTY_STREAMINTERFACE_HEADERSIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPROPERTY_STREAMINTERFACE
-req.alt-loc: Ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ks.h
+apiname: 
+-	KSPROPERTY_STREAMINTERFACE
+product: Windows
+targetos: Windows
 req.typenames: KSPROPERTY_STREAMINTERFACE
 ---
 
 # KSPROPERTY_STREAMINTERFACE enumeration
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: KSPROPERTY_STREAMINTERFACE
 
 
 
+
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -54,9 +64,10 @@ typedef enum  {
 
 ## -enum-fields
 
+
+
+
 ### -field KSPROPERTY_STREAMINTERFACE_HEADERSIZE
 
 Specify to query a pin for the size of the stream header that this pin uses.
 
-
-## -remarks

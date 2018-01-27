@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: da45810a-12f2-4242-8428-a1717ecf8af3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSiSCSI_QueryLBPolicy, MSiSCSI_QueryLBPolicy, *PMSiSCSI_QueryLBPolicy
+ms.keywords: storage.msiscsi_querylbpolicy, iscsimgt/MSiSCSI_QueryLBPolicy, PMSiSCSI_QueryLBPolicy, *PMSiSCSI_QueryLBPolicy, MSiSCSI_QueryLBPolicy, _MSiSCSI_QueryLBPolicy, iscsimgt/PMSiSCSI_QueryLBPolicy, PMSiSCSI_QueryLBPolicy structure pointer [Storage Devices], structs-iSCSI_d978106a-8fb4-4b42-8277-8ac767c54d06.xml, MSiSCSI_QueryLBPolicy structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSiSCSI_QueryLBPolicy
-req.alt-loc: iscsimgt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: MSiSCSI_QueryLBPolicy, *PMSiSCSI_QueryLBPolicy
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsimgt.h
+apiname: 
+-	MSiSCSI_QueryLBPolicy
+product: Windows
+targetos: Windows
+req.typenames: *PMSiSCSI_QueryLBPolicy, MSiSCSI_QueryLBPolicy
 ---
 
 # _MSiSCSI_QueryLBPolicy structure
 
 
-
 ## -description
+
+
 This MSiSCSI_QueryLBPolicy method returns the MCS load balancing policy for each information if any that has been set across different iSCSI session.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSiSCSI_QueryLBPolicy {
@@ -56,6 +66,9 @@ typedef struct _MSiSCSI_QueryLBPolicy {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UniqueAdapterId
 
@@ -78,21 +91,20 @@ This is an enumeration that contains information required to set the load balanc
 
 
 ## -remarks
+
+
 You must implement this class only if the adapter supports MCS. Otherwise, it is optional.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-</dt>
-<dt>
+
 <a href="..\iscsimgt\ns-iscsimgt-_iscsi_supported_lb_policies.md">ISCSI_Supported_LB_Policies</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f114e8ef-4fb7-4fdd-9c83-d8e74c91190e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SYSAUDIO_SELECT_GRAPH, *PSYSAUDIO_SELECT_GRAPH, SYSAUDIO_SELECT_GRAPH
+ms.keywords: ksmedia/SYSAUDIO_SELECT_GRAPH, SYSAUDIO_SELECT_GRAPH structure [Audio Devices], SYSAUDIO_SELECT_GRAPH, ksmedia/PSYSAUDIO_SELECT_GRAPH, PSYSAUDIO_SELECT_GRAPH structure pointer [Audio Devices], aud-prop_9dd94d88-2ed4-4908-ac6e-eb1a82ea152d.xml, PSYSAUDIO_SELECT_GRAPH, *PSYSAUDIO_SELECT_GRAPH, audio.sysaudio_select_graph
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SYSAUDIO_SELECT_GRAPH
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSYSAUDIO_SELECT_GRAPH, SYSAUDIO_SELECT_GRAPH
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	SYSAUDIO_SELECT_GRAPH
+product: Windows
+targetos: Windows
+req.typenames: SYSAUDIO_SELECT_GRAPH, *PSYSAUDIO_SELECT_GRAPH
 ---
 
 # SYSAUDIO_SELECT_GRAPH structure
 
 
-
 ## -description
+
+
 The SYSAUDIO_SELECT_GRAPH structure is used to specify a graph that includes an optional node such as an AEC control.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -57,6 +67,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Property
 
@@ -83,18 +96,12 @@ No flag bits are defined. Set to zero.
 Reserved. Set to zero. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537428">KSPROPERTY_SYSAUDIO_SELECT_GRAPH</a>
-</dt>
-</dl>
+
  
 
  

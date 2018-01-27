@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 85112ddb-47e6-4874-bd64-a7e4d7ca0fd3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_EXTRACTBUNDLEOBJECT, D3DKMT_EXTRACTBUNDLEOBJECT
+ms.keywords: d3dkmthk/D3DKMT_EXTRACTBUNDLEOBJECT, display.d3dkmt-extractbundleobject, D3DKMT_EXTRACTBUNDLEOBJECT structure [Display Devices], D3DKMT_EXTRACTBUNDLEOBJECT, _D3DKMT_EXTRACTBUNDLEOBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_EXTRACTBUNDLEOBJECT
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_EXTRACTBUNDLEOBJECT
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_EXTRACTBUNDLEOBJECT
 ---
 
 # _D3DKMT_EXTRACTBUNDLEOBJECT structure
 
 
-
 ## -description
+
+
 Used to extract the bundle object.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_EXTRACTBUNDLEOBJECT {
@@ -56,6 +66,9 @@ typedef struct _D3DKMT_EXTRACTBUNDLEOBJECT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hNtBundleHandle
 
@@ -76,5 +89,3 @@ The desired access for each NT handle for DXGK objects.
 
 The pointer to an array of NT handles for each DXGK object.
 
-
-## -remarks

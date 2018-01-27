@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: df8a1e95-211a-47df-a904-4578cd0a7dc9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_MPEAUDIOINFO, KS_MPEGAUDIOINFO, *PKS_MPEGAUDIOINFO
+ms.keywords: PKS_MPEGAUDIOINFO, ksmedia/PKS_MPEGAUDIOINFO, KS_MPEGAUDIOINFO structure [Streaming Media Devices], PKS_MPEGAUDIOINFO structure pointer [Streaming Media Devices], vidcapstruct_613d53ce-69cd-46da-9bd8-0ac41ca12129.xml, tagKS_MPEAUDIOINFO, KS_MPEGAUDIOINFO, *PKS_MPEGAUDIOINFO, stream.ks_mpegaudioinfo, ksmedia/KS_MPEGAUDIOINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_MPEGAUDIOINFO
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KS_MPEGAUDIOINFO
+product: Windows
+targetos: Windows
 req.typenames: KS_MPEGAUDIOINFO, *PKS_MPEGAUDIOINFO
 ---
 
 # tagKS_MPEAUDIOINFO structure
 
 
-
 ## -description
+
+
 The KS_MPEGAUDIOINFO structure describes an MPEG audio stream.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagKS_MPEAUDIOINFO {
@@ -57,10 +67,12 @@ typedef struct tagKS_MPEAUDIOINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field dwFlags
 
 Specifies the time base for audio timestamps. Reject the connection if undefined bits are not 0. The following flag is defined.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -76,8 +88,7 @@ Specifies that PTS and DTS timestamps advance at 27 MHz rather than 90 kHz.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field dwReserved1
@@ -94,5 +105,3 @@ Must be 0; otherwise, reject the connection.
 
 Must be 0; otherwise, reject the connection.
 
-
-## -remarks

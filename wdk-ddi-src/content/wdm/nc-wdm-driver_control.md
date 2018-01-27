@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b75b8937-793d-4d75-9bb7-2226096044f0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+ms.keywords: kernel.adaptercontrol, AdapterControl, ControllerControl, MyControl routine [Kernel-Mode Driver Architecture], MyControl, DRIVER_CONTROL, DRIVER_CONTROL, wdm/MyControl, DrvrRtns_1e3fb66d-8977-4894-a3ac-d310fdfa6515.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MyControl
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at DISPATCH_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wdm.h
+apiname: 
+-	MyControl
+product: Windows
+targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # DRIVER_CONTROL callback
 
 
-
 ## -description
+
+
 This routine starts a DMA data-transfer or a data transfer operation. 
 
 
-
 ## -prototype
+
 
 ````
 DRIVER_CONTROL MyControl;
@@ -60,6 +70,9 @@ IO_ALLOCATION_ACTION MyControl(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceObject [in]
 
@@ -84,10 +97,15 @@ Caller-supplied pointer to driver-defined context information, specified in a pr
 
 
 ## -returns
+
+
 The routine must return one of the values defined by the <a href="..\wdm\ne-wdm-_io_allocation_action.md">IO_ALLOCATION_ACTION</a> enumeration. Drivers of bus-master devices return either <b>DeallocateObject</b> or <b>DeallocateObjectKeepRegisters</b>; drivers that use system DMA return <b>KeepObject</b>.
 
 
+
 ## -remarks
+
+
 <b>About implementing <i>AdapterControl</i>:  </b><p class="note">To register an <i>AdapterControl</i> routine for a specific device object, a driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> to obtain an adapter object, then call <a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a> to request use of the adapter and to supply the <i>AdapterControl</i> routine's address. When the adapter is free, the system calls the <i>AdapterControl</i> routine.
 
 <p class="note">If <i>AdapterControl</i> has been registered by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine, then the <i>Irp</i> parameter is guaranteed to point to the IRP currently being processed by the <i>StartIo</i> routine. Otherwise, drivers must set the <b>CurrentIrp</b> member of the device object structure before calling <b>AllocateAdapterChannel</b>.
@@ -95,9 +113,6 @@ The routine must return one of the values defined by the <a href="..\wdm\ne-wdm-
 <p class="note">For detailed information about implementing an <i>AdapterControl</i> routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566397">Writing AdapterControl Routines</a>.
 
 
-<p class="note">To register an <i>AdapterControl</i> routine for a specific device object, a driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> to obtain an adapter object, then call <a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a> to request use of the adapter and to supply the <i>AdapterControl</i> routine's address. When the adapter is free, the system calls the <i>AdapterControl</i> routine.
-<p class="note">If <i>AdapterControl</i> has been registered by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine, then the <i>Irp</i> parameter is guaranteed to point to the IRP currently being processed by the <i>StartIo</i> routine. Otherwise, drivers must set the <b>CurrentIrp</b> member of the device object structure before calling <b>AllocateAdapterChannel</b>.
-<p class="note">For detailed information about implementing an <i>AdapterControl</i> routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566397">Writing AdapterControl Routines</a>.
 
 <b>About implementing <i>ControllerControl</i>:  </b>A driver's <i>ControllerControl</i> routine executes in an arbitrary thread context at IRQL = DISPATCH_LEVEL.
 
@@ -107,27 +122,14 @@ For detailed information about implementing a <i>ControllerControl</i> routine, 
 
 
 
-A driver's <i>ControllerControl</i> routine executes in an arbitrary thread context at IRQL = DISPATCH_LEVEL.
-
-To register a <i>ControllerControl</i> routine for a specific device object, a driver must call <a href="..\ntddk\nf-ntddk-iocreatecontroller.md">IoCreateController</a> to obtain a controller object, then call <a href="..\ntddk\nf-ntddk-ioallocatecontroller.md">IoAllocateController</a> to request use of the controller and to supply the <i>ControllerControl</i> routine's address. When the controller is free, the system calls the <i>ControllerControl</i> routine.
-
-For detailed information about implementing a <i>ControllerControl</i> routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566405">Writing ControllerControl Routines</a>. Also see <a href="https://msdn.microsoft.com/74b6685a-018f-4cb1-9332-424631aad85c">Controller Objects</a>.
-
 The DRIVER_CONTROL function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_CONTROL function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
-To define a callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
-
-For example, to define an <i>AdapterControl</i> callback routine that is named <code>MyAdapterControl</code>, use the DRIVER_CONTROL type as shown in this code example:
-
-Then, implement your callback routine as follows:
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
-</dt>
-</dl>
+
  
 
  

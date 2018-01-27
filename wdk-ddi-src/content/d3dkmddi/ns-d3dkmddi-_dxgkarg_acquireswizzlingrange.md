@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 865f4d08-f2b3-4922-956f-2c49aa4e68b0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_ACQUIRESWIZZLINGRANGE, DXGKARG_ACQUIRESWIZZLINGRANGE, *INOUT_PDXGKARG_ACQUIRESWIZZLINGRANGE
+ms.keywords: DXGKARG_ACQUIRESWIZZLINGRANGE structure [Display Devices], d3dkmddi/DXGKARG_ACQUIRESWIZZLINGRANGE, display.dxgkarg_acquireswizzlingrange, DXGKARG_ACQUIRESWIZZLINGRANGE, *INOUT_PDXGKARG_ACQUIRESWIZZLINGRANGE, _DXGKARG_ACQUIRESWIZZLINGRANGE, DmStructs_761fb707-877a-455c-b5cd-0c2e2b050aea.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_ACQUIRESWIZZLINGRANGE
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_ACQUIRESWIZZLINGRANGE
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_ACQUIRESWIZZLINGRANGE
 ---
 
 # _DXGKARG_ACQUIRESWIZZLINGRANGE structure
 
 
-
 ## -description
+
+
 The DXGKARG_ACQUIRESWIZZLINGRANGE structure describes parameters for making an allocation accessible through a CPU aperture.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_ACQUIRESWIZZLINGRANGE {
@@ -58,6 +68,9 @@ typedef struct _DXGKARG_ACQUIRESWIZZLINGRANGE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hAllocation
 
@@ -89,24 +102,16 @@ typedef struct _DXGKARG_ACQUIRESWIZZLINGRANGE {
 [in/out] The base physical address where the CPU should map the allocation. The display miniport driver must set this information when a call to its <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a> function succeeds. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lockflags.md">D3DDDICB_LOCKFLAGS</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
-</dt>
-</dl>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lockflags.md">D3DDDICB_LOCKFLAGS</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a>
+
  
 
  

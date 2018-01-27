@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d672d99a-973f-46b3-b46c-cb0a82a85ede
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTUnlock
+ms.keywords: d3dkmthk/D3DKMTUnlock, display.d3dkmtunlock, D3DKMTUnlock, OpenGL_Functions_6741960d-1f19-4000-948c-aeb71330eb1e.xml, D3DKMTUnlock function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTUnlock
-req.alt-loc: Gdi32.dll,API-MS-Win-dx-d3dkmt-l1-1-0.dll,API-MS-Win-dx-d3dkmt-l1-1-1.dll,API-MS-Win-DX-D3DKMT-L1-1-2.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Gdi32.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-0.dll
+-	API-MS-Win-dx-d3dkmt-l1-1-1.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+apiname: 
+-	D3DKMTUnlock
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTUnlock function
 
 
-
 ## -description
+
+
 The <b>D3DKMTUnlock</b> function unlocks a list of allocations.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS APIENTRY D3DKMTUnlock(
@@ -54,37 +67,68 @@ NTSTATUS APIENTRY D3DKMTUnlock(
 
 ## -parameters
 
-### -param pData [in]
+
+
+
+### -param D3DKMT_UNLOCK
+
+TBD
+
+
+
+#### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_unlock.md">D3DKMT_UNLOCK</a> structure that describes a list of allocations to unlock.
 
 
 ## -returns
+
+
 <b>D3DKMTUnlock</b> returns one of the following values;
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The allocations were successfully unlocked.
+</dl>
+</td>
+<td width="60%">
+The allocations were successfully unlocked.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>Parameters were validated and determined to be incorrect.
+</dl>
+</td>
+<td width="60%">
+Parameters were validated and determined to be incorrect.
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other NTSTATUS values.
 
 
+
 ## -remarks
+
+
 All of the allocations that the <b>D3DKMTUnlock</b> function unlocks must belong to the same device.
 
-The following code examples demonstrates how an OpenGL ICD can use <b>D3DKMTUnlock</b> to unlock three allocations.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_unlock.md">D3DKMT_UNLOCK</a>
-</dt>
-</dl>
+
  
 
  

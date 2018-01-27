@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b8c37df8-ba86-4cfd-add0-49ba9c90f04a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+ms.keywords: display.dxgkddisetbacklightoptimization, DxgkDdiSetBacklightOptimization callback function [Display Devices], DxgkDdiSetBacklightOptimization, DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION, DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION, dispmprt/DxgkDdiSetBacklightOptimization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiSetBacklightOptimization
-req.alt-loc: Dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Dispmprt.h
+apiname: 
+-	DxgkDdiSetBacklightOptimization
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION callback
 
 
-
 ## -description
+
+
 Called by the Microsoft DirectX graphics kernel subsystem to set the level of optimization that the display miniport driver uses to control the brightness of an integrated display panel.
 
 
-
 ## -prototype
+
 
 ````
 DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION DxgkDdiSetBacklightOptimization;
@@ -58,6 +68,9 @@ NTSTATUS* DxgkDdiSetBacklightOptimization(
 
 ## -parameters
 
+
+
+
 ### -param Context [in]
 
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
@@ -69,10 +82,15 @@ A value of type <a href="..\d3dkmdt\ne-d3dkmdt-dxgk_backlight_optimization_level
 
 
 ## -returns
+
+
 Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes that are defined in Ntstatus.h.
 
 
+
 ## -remarks
+
+
 The display miniport driver can dynamically change the backlight optimization level of the integrated display panel based upon the current content on the screen.
 
 The driver must respond to requests from the operating system to change the backlight optimization level in the <i>OptimizationLevel</i> parameter. Such requests are based upon system state changes.
@@ -86,18 +104,15 @@ Connecting additional display devices to the system must not compromise the abil
 This function should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmdt\ne-d3dkmdt-dxgk_backlight_optimization_level.md">DXGK_BACKLIGHT_OPTIMIZATION_LEVEL</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set_state.md">DxgkDdiSetBrightnessState</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmdt\ne-d3dkmdt-dxgk_backlight_optimization_level.md">DXGK_BACKLIGHT_OPTIMIZATION_LEVEL</a>
+
  
 
  

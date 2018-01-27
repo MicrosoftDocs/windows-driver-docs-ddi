@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: A1ED9DBD-67FF-4AE7-8E5E-016C2C89A79E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _URS_ROLE, *PURS_ROLE, URS_ROLE
+ms.keywords: _URS_ROLE, URS_ROLE, *PURS_ROLE, urstypes/UrsRoleFunction, URS_ROLE enumeration [Buses], urstypes/UrsRoleNone, UrsRoleFunction, UrsRoleHost, urstypes/UrsRoleHost, UrsRoleNone, URS_ROLE, buses.urs_role, URS_ROLE, *PURS_ROLE enumeration [Buses], *PURS_ROLE, urstypes/URS_ROLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 
-req.alt-api: URS_ROLE, *PURS_ROLE
-req.alt-loc: Urstypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PURS_ROLE, URS_ROLE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Urstypes.h
+apiname: 
+-	URS_ROLE, *PURS_ROLE
+product: Windows
+targetos: Windows
+req.typenames: URS_ROLE, *PURS_ROLE
 req.product: Windows 10 or later.
 ---
 
 # _URS_ROLE enumeration
 
 
-
 ## -description
+
+
 Defines values for roles supported by a USB dual-role controller.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _URS_ROLE { 
@@ -56,6 +66,9 @@ typedef enum _URS_ROLE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field UrsRoleNone
 
@@ -71,5 +84,3 @@ Indicates the host role of the controller.
 
 Indicates the function role of the controller.
 
-
-## -remarks

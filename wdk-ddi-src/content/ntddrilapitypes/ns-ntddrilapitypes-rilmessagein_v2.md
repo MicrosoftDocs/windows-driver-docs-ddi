@@ -7,8 +7,8 @@ old-location: netvista\rilmessagein_v2.htm
 old-project: netvista
 ms.assetid: 44d4f693-4aab-4023-88b7-19c1bfcc7e5a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILMESSAGEIN_V2, RILMESSAGEIN_V2, *LPRILMESSAGEIN, RILMESSAGEIN
+ms.date: 1/18/2018
+ms.keywords: RILMESSAGEIN, RILMESSAGEIN_V2, RILMESSAGEIN_V2 structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILMESSAGEIN_V2, *LPRILMESSAGEIN, netvista.rilmessagein_v2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILMESSAGEIN_V2
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILMESSAGEIN_V2, *LPRILMESSAGEIN, RILMESSAGEIN
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILMESSAGEIN_V2
+product: Windows
+targetos: Windows
+req.typenames: *LPRILMESSAGEIN, RILMESSAGEIN, RILMESSAGEIN_V2
 ---
 
 # RILMESSAGEIN_V2 structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILMESSAGEIN_V2 {
@@ -59,22 +69,29 @@ typedef struct _RILMESSAGEIN_V2 {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwExecutor
 
 
+
 ### -field hUiccApp
+
 
 
 ### -field dwAckID
 
 
+
 ### -field rm
+
 
 
 ### -field dwFlags
 
 
-## -remarks

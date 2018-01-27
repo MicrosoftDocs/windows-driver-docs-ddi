@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 67747FF9-4808-45BB-8809-24B2CE56546B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_DEVICE_REGISTER_V2, *PPEP_DEVICE_REGISTER_V2, PEP_DEVICE_REGISTER_V2, PEP_DEVICE_REGISTER, *PPEP_DEVICE_REGISTER
+ms.keywords: PEP_DEVICE_REGISTER_V2 structure [Kernel-Mode Driver Architecture], *PPEP_DEVICE_REGISTER_V2, pepfx/PPEP_DEVICE_REGISTER_V2, PEP_DEVICE_REGISTER, _PEP_DEVICE_REGISTER_V2, pepfx/PEP_DEVICE_REGISTER_V2, PEP_DEVICE_REGISTER_V2, PPEP_DEVICE_REGISTER_V2 structure pointer [Kernel-Mode Driver Architecture], PPEP_DEVICE_REGISTER_V2, *PPEP_DEVICE_REGISTER, kernel.pep_device_register_v2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_DEVICE_REGISTER_V2
-req.alt-loc: 
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	kbSyntax
+apitype: 
+-	<TBD>
+apilocation: 
+-	
+apiname: 
+-	PEP_DEVICE_REGISTER_V2
+product: Windows
+targetos: Windows
 req.typenames: *PPEP_DEVICE_REGISTER_V2, PEP_DEVICE_REGISTER_V2
 ---
 
 # _PEP_DEVICE_REGISTER_V2 structure
 
 
-
 ## -description
+
+
 The <b>PEP_DEVICE_REGISTER</b> structure describes all the components in a particular device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_DEVICE_REGISTER_V2 {
@@ -55,6 +64,9 @@ typedef struct _PEP_DEVICE_REGISTER_V2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Flags
 
@@ -72,18 +84,18 @@ The first element in an array of pointers to <a href="..\pepfx\ns-pepfx-_pep_com
 
 
 ## -remarks
+
+
 The <a href="..\pepfx\ns-pepfx-_pep_register_device_v2.md">PEP_REGISTER_DEVICE</a> structure contains a <b>Register</b> member that points to a <b>PEP_DEVICE_REGISTER</b> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\pepfx\ns-pepfx-_pep_component_v2.md">PEP_COMPONENT_V2</a>
-</dt>
-<dt>
+
 <a href="..\pepfx\ns-pepfx-_pep_register_device_v2.md">PEP_REGISTER_DEVICE</a>
-</dt>
-</dl>
+
+<a href="..\pepfx\ns-pepfx-_pep_component_v2.md">PEP_COMPONENT_V2</a>
+
  
 
  

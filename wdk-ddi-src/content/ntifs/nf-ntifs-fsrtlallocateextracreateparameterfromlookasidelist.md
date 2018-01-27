@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6dd1aa9d-58e6-484b-b372-4c1d9f6d04f3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlAllocateExtraCreateParameterFromLookasideList
+ms.keywords: ifsk.fsrtlallocateextracreateparameterfromlookasidelist, FsRtlAllocateExtraCreateParameterFromLookasideList routine [Installable File System Drivers], fsrtlref_c85ee3ff-e71f-4c6e-bc37-4187cad9855f.xml, FsRtlAllocateExtraCreateParameterFromLookasideList, ntifs/FsRtlAllocateExtraCreateParameterFromLookasideList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: FsRtlAllocateExtraCreateParameterFromLookasideList is
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlAllocateExtraCreateParameterFromLookasideList
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlAllocateExtraCreateParameterFromLookasideList
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlAllocateExtraCreateParameterFromLookasideList function
 
 
-
 ## -description
+
+
 The <b>FsRtlAllocateExtraCreateParameterFromLookasideList</b> routine allocates memory pool from a given lookaside list for an extra create parameter (ECP) context structure, and generates a pointer to that structure.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlAllocateExtraCreateParameterFromLookasideList(
@@ -58,6 +68,9 @@ NTSTATUS FsRtlAllocateExtraCreateParameterFromLookasideList(
 
 
 ## -parameters
+
+
+
 
 ### -param EcpType [in]
 
@@ -90,18 +103,43 @@ Pointer to a location that receives a pointer to the allocated ECP context struc
 
 
 ## -returns
+
+
 The <b>FsRtlAllocateExtraCreateParameterFromLookasideList</b> routine can return one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>The <b>FsRtlAllocateExtraCreateParameterFromLookasideList</b> routine was unable to allocate sufficient memory for an ECP context structure. In this case, the <i>EcpContext </i>parameter is <b>NULL</b>. 
+</dl>
+</td>
+<td width="60%">
+The <b>FsRtlAllocateExtraCreateParameterFromLookasideList</b> routine was unable to allocate sufficient memory for an ECP context structure. In this case, the <i>EcpContext </i>parameter is <b>NULL</b>. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The ECP context structure was successfully allocated. In this case, <b>FsRtlAllocateExtraCreateParameterFromLookasideList</b> returns a pointer to the allocated structure in the <i>EcpContext </i>parameter. 
+</dl>
+</td>
+<td width="60%">
+The ECP context structure was successfully allocated. In this case, <b>FsRtlAllocateExtraCreateParameterFromLookasideList</b> returns a pointer to the allocated structure in the <i>EcpContext </i>parameter. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 Use the <a href="..\ntifs\nf-ntifs-fsrtlinitextracreateparameterlookasidelist.md">FsRtlInitExtraCreateParameterLookasideList</a> routine to initialize a paged or nonpaged pool lookaside list. Use the <b>FsRtlAllocateExtraCreateParameterFromLookasideList</b> routine to allocate an ECP context structure from the lookaside list, and the <a href="..\ntifs\nf-ntifs-fsrtlfreeextracreateparameter.md">FsRtlFreeExtraCreateParameter</a> routine to deallocate the ECP context structure.
 
 Use the <a href="..\ntifs\nf-ntifs-fsrtldeleteextracreateparameterlookasidelist.md">FsRtlDeleteExtraCreateParameterLookasideList</a> routine to free a lookaside list.
@@ -111,21 +149,17 @@ Drivers must free all ECP context structures and lookaside lists they create bef
 For more information about using lookaside lists with drivers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565416">Using Lookaside Lists</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-fsrtldeleteextracreateparameterlookasidelist.md">FsRtlDeleteExtraCreateParameterLookasideList</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-fsrtlfreeextracreateparameter.md">FsRtlFreeExtraCreateParameter</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-fsrtlinitextracreateparameterlookasidelist.md">FsRtlInitExtraCreateParameterLookasideList</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback.md">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>
-</dt>
-</dl>
+
  
 
  

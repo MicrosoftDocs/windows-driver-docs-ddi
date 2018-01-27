@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c8d03a63-4b6a-4e84-994b-0e205401e531
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortAllocateRegistryBuffer
+ms.keywords: storprt_dc344b88-692d-4529-8b98-c9b5c07a05f3.xml, storport/StorPortAllocateRegistryBuffer, StorPortAllocateRegistryBuffer routine [Storage Devices], storage.storportallocateregistrybuffer, StorPortAllocateRegistryBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortAllocateRegistryBuffer
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortAllocateRegistryBuffer
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortAllocateRegistryBuffer function
 
 
-
 ## -description
+
+
 The <b>StorPortAllocateRegistryBuffer</b> routine is called by the miniport driver to allocate a buffer that can be used to read and write registry data. 
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API PUCHAR StorPortAllocateRegistryBuffer(
@@ -55,6 +66,9 @@ STORPORT_API PUCHAR StorPortAllocateRegistryBuffer(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -67,19 +81,23 @@ Pointer to a long that indicates, on input, the length in bytes of the registry 
 
 
 ## -returns
+
+
 <b>StorPortAllocateRegistryBuffer</b> returns a pointer to the registry buffer that the caller requested, or <b>NULL</b> if some error prevents the memory from being allocated. 
 
 
+
 ## -remarks
+
+
 Each instantiation of a miniport driver can only have one registry buffer allocated at a time. If a miniport driver attempts to allocate more than one registry buffer, the allocation will fail and <b>StorPortAllocateRegistryBuffer</b> will return <b>NULL</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\nf-storport-storportfreeregistrybuffer.md">StorPortFreeRegistryBuffer</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f77a2701-bde2-42c2-8393-88a7e4576f1b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoConnectInterruptEx
+ms.keywords: wdm/IoConnectInterruptEx, IoConnectInterruptEx routine [Kernel-Mode Driver Architecture], kernel.ioconnectinterruptex, WdmlibIoConnectInterruptEx, k104_17833453-ee13-4346-9c58-a1c47dccf636.xml, IoConnectInterruptEx, wdm/WdmlibIoConnectInterruptEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available on Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoConnectInterruptEx,WdmlibIoConnectInterruptEx
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoConnectInterruptEx
+-	WdmlibIoConnectInterruptEx
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # IoConnectInterruptEx function
 
 
-
 ## -description
+
+
 For more information, see the <a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">WdmlibIoConnectInterruptEx</a> function.
 
 <code>#define IoConnectInterruptEx WdmlibIoConnectInterruptEx</code>
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS IoConnectInterruptEx(
@@ -57,24 +68,25 @@ NTSTATUS IoConnectInterruptEx(
 
 ## -parameters
 
+
+
+
 ### -param Parameters [in, out]
 
 For more information, see the <a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">WdmlibIoConnectInterruptEx</a> function.
 
 
 ## -returns
+
+
 For more information, see the <a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">WdmlibIoConnectInterruptEx</a> function.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">WdmlibIoConnectInterruptEx</a>
-</dt>
-</dl>
+
  
 
  

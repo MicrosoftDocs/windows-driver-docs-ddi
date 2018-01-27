@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c5e1af58-a00d-4801-b591-fc9ec9b50502
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: tagWNODE_METHOD_ITEM, *PWNODE_METHOD_ITEM, WNODE_METHOD_ITEM
+ms.keywords: WNODE_METHOD_ITEM structure [Kernel-Mode Driver Architecture], wmistr/WNODE_METHOD_ITEM, wmistr/PWNODE_METHOD_ITEM, PWNODE_METHOD_ITEM, tagWNODE_METHOD_ITEM, WNODE_METHOD_ITEM, kstruct_d_6240b4d6-5d39-458c-b74c-21fdfa46b666.xml, *PWNODE_METHOD_ITEM, PWNODE_METHOD_ITEM structure pointer [Kernel-Mode Driver Architecture], kernel.wnode_method_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WNODE_METHOD_ITEM
-req.alt-loc: wmistr.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PWNODE_METHOD_ITEM, WNODE_METHOD_ITEM
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wmistr.h
+apiname: 
+-	WNODE_METHOD_ITEM
+product: Windows
+targetos: Windows
+req.typenames: WNODE_METHOD_ITEM, *PWNODE_METHOD_ITEM
 req.product: Windows 10 or later.
 ---
 
 # tagWNODE_METHOD_ITEM structure
 
 
-
 ## -description
+
+
 The <b>WNODE_METHOD_ITEM</b> structure indicates a method associated with an instance of a data block and contains any input data for the method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagWNODE_METHOD_ITEM {
@@ -61,9 +71,17 @@ typedef struct tagWNODE_METHOD_ITEM {
 
 ## -struct-fields
 
+
+
+
 ### -field WnodeHeader
 
 Is a <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a> structure that contains information common to all <b>WNODE_<i>XXX</i></b> structures, such as the buffer size, the GUID that represents a data block associated with a request, and flags that provide information about the <b>WNODE_<i>XXX</i></b> data being passed or returned.
+
+
+### -field _WNODE_HEADER
+
+ 
 
 
 ### -field OffsetInstanceName
@@ -97,17 +115,18 @@ Contains additional data, including the dynamic instance name if any, and the in
 
 
 ## -remarks
+
+
 WMI passes a <b>WNODE_METHOD_ITEM</b> with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550868">IRP_MN_EXECUTE_METHOD</a> request to specify a method to run in an instance of a data block, plus any input data required by the method.
 
 If a method generates output, a driver overwrites the input data with the output at <b>DataBlockOffset</b> in the buffer at <b>IrpStack-&gt;Parameters.WMI.Buffer</b>, and sets <b>SizeDataBlock</b> in the <b>WNODE_METHOD_ITEM</b> to specify the size of the output data.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
-</dt>
-</dl>
+
  
 
  

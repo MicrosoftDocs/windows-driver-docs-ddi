@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 934b69cd-f54d-4706-bcb6-8d9e25ea3367
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_ProcAmpControlQueryRange, *LPDXVA_ProcAmpControlQueryRange, DXVA_ProcAmpControlQueryRange
+ms.keywords: dxvaref_5122c77d-0d7a-42a4-be26-f03993fb52db.xml, dxva/DXVA_ProcAmpControlQueryRange, LPDXVA_ProcAmpControlQueryRange, _DXVA_ProcAmpControlQueryRange, dxva/LPDXVA_ProcAmpControlQueryRange, LPDXVA_ProcAmpControlQueryRange structure pointer [Display Devices], DXVA_ProcAmpControlQueryRange structure [Display Devices], display.dxva_procampcontrolqueryrange, DXVA_ProcAmpControlQueryRange, *LPDXVA_ProcAmpControlQueryRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: DirectX 9.0 and later versions only.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVA_ProcAmpControlQueryRange
-req.alt-loc: dxva.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPDXVA_ProcAmpControlQueryRange, DXVA_ProcAmpControlQueryRange
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxva.h
+apiname: 
+-	DXVA_ProcAmpControlQueryRange
+product: Windows
+targetos: Windows
+req.typenames: DXVA_ProcAmpControlQueryRange, *LPDXVA_ProcAmpControlQueryRange
 ---
 
 # _DXVA_ProcAmpControlQueryRange structure
 
 
-
 ## -description
+
+
 The DXVA_ProcAmpControlQueryRange structure contains the minimum, maximum, step size, and default value for each ProcAmp property.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVA_ProcAmpControlQueryRange {
@@ -55,6 +65,9 @@ typedef struct _DXVA_ProcAmpControlQueryRange {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -71,18 +84,12 @@ Specifies a <a href="..\dxva\ne-dxva-_dxva_procampcontrolprop.md">DXVA_ProcAmpCo
 Specifies a <a href="..\dxva\ns-dxva-_dxva_videodesc.md">DXVA_VideoDesc</a> structure that provides the driver with a description of the video that the ProcAmp adjustment is going to be applied to. Drivers may adjust their ProcAmp feature support for particular video streams.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\dxva\ns-dxva-_dxva_videodesc.md">DXVA_VideoDesc</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ne-dxva-_dxva_procampcontrolprop.md">DXVA_ProcAmpControlProp</a>
-</dt>
-</dl>
+
+<a href="..\dxva\ns-dxva-_dxva_videodesc.md">DXVA_VideoDesc</a>
+
  
 
  

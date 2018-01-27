@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 862441ee-8a6e-4ddc-8dba-d3d990f45cfc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_PRESENTMULTIPLANEOVERLAY, D3DDDIARG_PRESENTMULTIPLANEOVERLAY
+ms.keywords: display.d3dddiarg_presentmultiplaneoverlay, D3DDDIARG_PRESENTMULTIPLANEOVERLAY structure [Display Devices], d3dumddi/D3DDDIARG_PRESENTMULTIPLANEOVERLAY, D3DDDIARG_PRESENTMULTIPLANEOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_PRESENTMULTIPLANEOVERLAY
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	D3DDDIARG_PRESENTMULTIPLANEOVERLAY
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_PRESENTMULTIPLANEOVERLAY
 ---
 
 # D3DDDIARG_PRESENTMULTIPLANEOVERLAY structure
 
 
-
 ## -description
+
+
 Specifies a multiplane overlay resource to display.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3DDDIARG_PRESENTMULTIPLANEOVERLAY {
@@ -60,6 +70,9 @@ typedef struct D3DDDIARG_PRESENTMULTIPLANEOVERLAY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field VidPnSourceId
 
@@ -91,21 +104,14 @@ typedef struct D3DDDIARG_PRESENTMULTIPLANEOVERLAY {
 [in] Reserved for system use. The driver should ignore this member.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>
-</dt>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_present_multiplane_overlay.md">D3DDDI_PRESENT_MULTIPLANE_OVERLAY</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_presentflags.md">D3DDDI_PRESENTFLAGS</a>
-</dt>
-</dl>
+
+<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_present_multiplane_overlay.md">D3DDDI_PRESENT_MULTIPLANE_OVERLAY</a>
+
  
 
  

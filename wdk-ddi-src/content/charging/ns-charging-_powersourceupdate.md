@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: A1BFCCE4-14F0-4F41-A062-71B001CE14AA
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _POWERSOURCEUPDATE, POWERSOURCEUPDATE, *PPOWERSOURCEUPDATE
+ms.keywords: POWERSOURCEUPDATE structure [Battery Devices], battery.powersourceupdate, charging/BATTERY_INFORMATION, *PPOWERSOURCEUPDATE, _POWERSOURCEUPDATE, POWERSOURCEUPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BATTERY_INFORMATION
-req.alt-loc: Charging.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Charging.h
+apiname: 
+-	BATTERY_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: POWERSOURCEUPDATE, *PPOWERSOURCEUPDATE
 ---
 
 # _POWERSOURCEUPDATE structure
 
 
-
 ## -description
-This structure is for internal use only.
 
+
+This structure is for internal use only.
 
 
 ## -struct-fields
 
-
-## -remarks

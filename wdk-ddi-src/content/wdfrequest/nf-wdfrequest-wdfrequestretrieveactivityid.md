@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6E38514E-75BD-4F98-AD12-FA4E31654C3E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestRetrieveActivityId
+ms.keywords: PFN_WDFREQUESTRETRIEVEACTIVITYID, wdfrequest/WdfRequestRetrieveActivityId, wdf.wdfrequestretrieveactivityid, WdfRequestRetrieveActivityId, WdfRequestRetrieveActivityId method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 2.0
-req.alt-api: WdfRequestRetrieveActivityId
-req.alt-loc: WUDFx02000.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll; TBD
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	WUDFx02000.dll
+apiname: 
+-	WdfRequestRetrieveActivityId
+product: Windows
+targetos: Windows
 req.typenames: WDF_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # WdfRequestRetrieveActivityId function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>WdfRequestRetrieveActivityId</b> method retrieves the current activity identifier associated with an I/O request.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS WdfRequestRetrieveActivityId(
@@ -57,6 +67,9 @@ NTSTATUS WdfRequestRetrieveActivityId(
 
 
 ## -parameters
+
+
+
 
 ### -param Request [in]
 
@@ -69,17 +82,34 @@ A pointer to a location to store the retrieved GUID.
 
 
 ## -returns
+
+
 If the operation succeeds, <b>WdfRequestRetrieveActivityId</b> returns STATUS_SUCCESS. Additional return values include:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>No activity ID is associated with the request.
+</dl>
+</td>
+<td width="60%">
+No activity ID is associated with the request.
 
- 
+</td>
+</tr>
+</table> 
 
 The method might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
+
 ## -remarks
+
+
 Requests reflected from kernel mode have an activity identifier available only if the Kernel Trace provider is enabled or if the UMDF driver called <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetactivityid.md">WdfRequestSetActivityId</a> after receiving the request. For more information about Event Tracing for Windows (ETW), see <a href="https://msdn.microsoft.com/3de69436-671b-46a2-8d92-4eb3af2a4233">Event Tracing</a>.
 
 Requests initiated by the UMDF driver have an activity identifier available only if the UMDF driver previously called  <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetactivityid.md">WdfRequestSetActivityId</a>.
@@ -89,12 +119,11 @@ The framework does not clear a request's activity identifier when the driver cal
 For more information about activity identifiers, see <a href="https://msdn.microsoft.com/2B70953F-5192-4654-9506-6A84373D20B4">Using Activity Identifiers</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetactivityid.md">WdfRequestSetActivityId</a>
-</dt>
-</dl>
+
  
 
  

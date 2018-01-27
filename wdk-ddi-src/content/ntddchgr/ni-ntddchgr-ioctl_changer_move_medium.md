@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4a410f56-cdc1-4cb0-801c-62402caec4ee
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ELEMENT_TYPE, *PELEMENT_TYPE, ELEMENT_TYPE
+ms.keywords: storage.ioctl_changer_move_medium, IOCTL_CHANGER_MOVE_MEDIUM control code [Storage Devices], IOCTL_CHANGER_MOVE_MEDIUM, ntddchgr/IOCTL_CHANGER_MOVE_MEDIUM, k307_4d55c834-2f72-433b-8e75-015908324d87.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_CHANGER_MOVE_MEDIUM
-req.alt-loc: Ntddchgr.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,67 +29,88 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PELEMENT_TYPE, ELEMENT_TYPE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddchgr.h
+apiname: 
+-	IOCTL_CHANGER_MOVE_MEDIUM
+product: Windows
+targetos: Windows
+req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 ---
 
 # IOCTL_CHANGER_MOVE_MEDIUM IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 Moves a piece of media from a source element to a destination.
 
-
-
-Moves a piece of media from a source element to a destination.
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 
        The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="..\ntddchgr\ns-ntddchgr-_changer_move_medium.md">CHANGER_MOVE_MEDIUM</a> data, which indicates the transport to use for the operation, the source, the destination, and whether the medium should be flipped, assuming the device supports two-sided media. 
 
 
 ### -input-buffer-length
+
 <b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be &gt;= <b>sizeof</b>(CHANGER_MOVE_MEDIUM). 
 
 
 ### -output-buffer
+
 None.
 
 
 ### -output-buffer-length
+
 None.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Information</b> field is set to <b>sizeof</b>(CHANGER_MOVE_MEDIUM). The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_DESTINATION_ELEMENT_FULL, STATUS_INFO_LENGTH_MISMATCH, STATUS_INSUFFICIENT_RESOURCES, STATUS_INVALID_DEVICE_REQUEST, STATUS_INVALID_ELEMENT_ADDRESS, STATUS_INVALID_PARAMETER, or STATUS_SOURCE_ELEMENT_EMPTY. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddchgr\ns-ntddchgr-_changer_move_medium.md">CHANGER_MOVE_MEDIUM</a>
-</dt>
-<dt>
+
 <a href="..\mcd\nf-mcd-changermovemedium.md">ChangerMoveMedium</a>
-</dt>
-</dl>
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_move_medium.md">CHANGER_MOVE_MEDIUM</a>
+
  
 
  

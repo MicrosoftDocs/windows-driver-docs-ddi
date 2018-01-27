@@ -7,8 +7,8 @@ old-location: netvista\riluiccappdatachangeenum.htm
 old-project: netvista
 ms.assetid: 6960080f-03dc-4c5f-8cd8-b96d030f2bd3
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILUICCAPPDATACHANGEENUM, RILUICCAPPDATACHANGEENUM
+ms.date: 1/18/2018
+ms.keywords: ntddrilapitypes/RIL_UICCAPP_DATACHANGE_MBDN, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET, RIL_UICCAPP_DATACHANGE_MBDN, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_MAX, RIL_UICCAPP_DATACHANGE_MAX, RIL_UICCAPP_DATACHANGE_ESNME, ntddrilapitypes/RILUICCAPPDATACHANGEENUM, RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_ESNME, RILUICCAPPDATACHANGEENUM, RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET, RILUICCAPPDATACHANGEENUM enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccappdatachangeenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILUICCAPPDATACHANGEENUM
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILUICCAPPDATACHANGEENUM
+product: Windows
+targetos: Windows
 req.typenames: RILUICCAPPDATACHANGEENUM
 ---
 
 # RILUICCAPPDATACHANGEENUM enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILUICCAPPDATACHANGEENUM { 
@@ -58,19 +68,29 @@ typedef enum _RILUICCAPPDATACHANGEENUM {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_UICCAPP_DATACHANGE_MSISDN
+
+
+
 ### -field RIL_UICCAPP_DATACHANGE_MBDN
+
 
 
 ### -field RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET
 
 
+
 ### -field RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET
+
 
 
 ### -field RIL_UICCAPP_DATACHANGE_ESNME
 
 
+
 ### -field RIL_UICCAPP_DATACHANGE_MAX
 
 
-## -remarks

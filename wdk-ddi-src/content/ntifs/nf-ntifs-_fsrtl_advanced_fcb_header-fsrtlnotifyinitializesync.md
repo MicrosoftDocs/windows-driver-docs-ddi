@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7db82e70-3090-4526-ba10-792ccdbef660
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlNotifyInitializeSync
+ms.keywords: ifsk.fsrtlnotifyinitializesync, FsRtlNotifyInitializeSync, ntifs/FsRtlNotifyInitializeSync, FsRtlNotifyInitializeSync routine [Installable File System Drivers], fsrtlref_3a247139-1c76-4947-8e6f-a5beeae504cd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlNotifyInitializeSync
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlNotifyInitializeSync
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlNotifyInitializeSync function
 
 
-
 ## -description
+
+
 The <b>FsRtlNotifyInitializeSync</b> routine allocates and initializes a synchronization object for a notify list.
 
 
-
 ## -syntax
+
 
 ````
 VOID FsRtlNotifyInitializeSync(
@@ -54,27 +64,34 @@ VOID FsRtlNotifyInitializeSync(
 
 ## -parameters
 
+
+
+
 ### -param NotifySync [in]
 
 A pointer to a location in which to return a pointer to the opaque synchronization object.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The system allocates the synchronization object from nonpaged pool. If a pool allocation failure occurs, <b>FsRtlNotifyInitializeSync</b> raises a STATUS_INSUFFICIENT_RESOURCES exception. To gain control if this pool allocation failure occurs, the driver should wrap the call to <b>FsRtlNotifyInitializeSync</b> in a <b>try-except</b> or <b>try-finally</b> statement.
 
 Every successful call to <b>FsRtlNotifyInitializeSync</b> must be matched by a subsequent call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyuninitializesync.md">FsRtlNotifyUninitializeSync</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyuninitializesync.md">FsRtlNotifyUninitializeSync</a>
-</dt>
-</dl>
+
  
 
  

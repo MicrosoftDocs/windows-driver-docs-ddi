@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c7a5bcce-a19e-4938-9d7b-ce73b3ecdc86
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SeOpenObjectForDeleteAuditAlarm
+ms.keywords: seref_59133039-b4e5-47d9-941a-df78051d6408.xml, SeOpenObjectForDeleteAuditAlarm routine [Installable File System Drivers], ifsk.seopenobjectfordeleteauditalarm, ntifs/SeOpenObjectForDeleteAuditAlarm, SeOpenObjectForDeleteAuditAlarm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SeOpenObjectForDeleteAuditAlarm
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	SeOpenObjectForDeleteAuditAlarm
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # SeOpenObjectForDeleteAuditAlarm function
 
 
-
 ## -description
+
+
 The <b>SeOpenObjectForDeleteAuditAlarm</b> routine generates audit and alarm messages when an attempt is made to open an object for deletion.
 
 
-
 ## -syntax
+
 
 ````
 VOID SeOpenObjectForDeleteAuditAlarm(
@@ -61,6 +71,9 @@ VOID SeOpenObjectForDeleteAuditAlarm(
 
 
 ## -parameters
+
+
+
 
 ### -param ObjectTypeName [in]
 
@@ -108,10 +121,15 @@ Pointer to a flag set by the audit generation routine when <b>SeOpenObjectAuditA
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>SeOpenObjectForDeleteAuditAlarm</b> generates any necessary audit or alarm messages when a user-mode process attempts to open an object with the intent to delete it. <b>SeOpenObjectForDeleteAuditAlarm</b> is used by file systems when the flag FILE_DELETE_ON_CLOSE is specified. No messages are generated for kernel-mode accesses.
 
 Before calling <b>SeOpenObjectForDeleteAuditAlarm</b>, the caller must call <b>SeLockSubjectContext</b> to lock the caller's primary and impersonation tokens. After calling <b>SeOpenObjectForDeleteAuditAlarm</b>, the caller must call <b>SeUnlockSubjectContext</b> to release these tokens.
@@ -119,39 +137,29 @@ Before calling <b>SeOpenObjectForDeleteAuditAlarm</b>, the caller must call <b>S
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-seauditingfileevents.md">SeAuditingFileEvents</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-seauditingfileorglobalevents.md">SeAuditingFileOrGlobalEvents</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-sedeleteobjectauditalarm.md">SeDeleteObjectAuditAlarm</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-selocksubjectcontext.md">SeLockSubjectContext</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-sesetaccessstategenericmapping.md">SeSetAccessStateGenericMapping</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-seauditingfileorglobalevents.md">SeAuditingFileOrGlobalEvents</a>
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+<a href="..\ntifs\nf-ntifs-sedeleteobjectauditalarm.md">SeDeleteObjectAuditAlarm</a>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-seauditingfileevents.md">SeAuditingFileEvents</a>
+
+<a href="..\ntifs\nf-ntifs-selocksubjectcontext.md">SeLockSubjectContext</a>
+
+<a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
+
+<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
+
+<a href="..\ntifs\nf-ntifs-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
+
  
 
  

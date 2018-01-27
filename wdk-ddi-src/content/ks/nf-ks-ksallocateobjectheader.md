@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 18f5ea44-3f70-4c26-beb3-2f03568df03b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAllocateObjectHeader
+ms.keywords: ks/KsAllocateObjectHeader, ksfunc_0ab53e6c-a934-4c4a-9377-c81ec37833f6.xml, KsAllocateObjectHeader function [Streaming Media Devices], KsAllocateObjectHeader, stream.ksallocateobjectheader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsAllocateObjectHeader
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsAllocateObjectHeader
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsAllocateObjectHeader function
 
 
-
 ## -description
+
+
 The <b>KsAllocateObjectHeader</b> function initializes the required file context 
    header.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsAllocateObjectHeader(
@@ -58,6 +69,9 @@ NTSTATUS KsAllocateObjectHeader(
 
 
 ## -parameters
+
+
+
 
 ### -param Header [out]
 
@@ -91,13 +105,18 @@ Points to an initialized dispatch table for this file object.
 
 
 ## -returns
+
+
 The <b>KsAllocateObjectHeader</b> function returns 
       <b>STATUS_SUCCESS</b> if successful or 
       <b>STATUS_INSUFFICIENT_RESOURCES</b> if not enough resources are available to fulfill the 
       request.
 
 
+
 ## -remarks
+
+
 Before calling this routine the driver must allocate system-resident storage for a 
      <a href="..\ks\ns-ks-ksdispatch_table.md">KSDISPATCH_TABLE</a> and initialize the dispatch table. 
      The memory for this dispatch table cannot be released until <b>KsFreeObjectHeader</b> 
@@ -113,24 +132,35 @@ If subobjects exist for a given device, the driver must, before calling
      <b>KsAllocateObjectHeader</b>, allocate a buffer of either paged or nonpaged memory of 
      sufficient size to hold a <a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a> 
      structure for each subobject. For example:
-
-Drivers must not free the memory allocated for the subobject 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>/* Allocate a buffer for 4 subobjects for a given streaming device */
+PKSOBJECT_CREATE_ITEM createBuffer ;
+ULONG bufferSize  = (sizeof (KSOBJECT_CREATE_ITEM)) * 4 ;
+ 
+createBuffer = (PKSOBJECT_CREATE_ITEM)
+               ExAllocatePoolWithTag (PagedPool, bufferSize) ;
+ </pre>
+</td>
+</tr>
+</table></span></div>Drivers must not free the memory allocated for the subobject 
      <a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a> list until after calling 
      <b>KsFreeDeviceHeader</b>. Failure to do so can result in a bug check condition.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksfreeobjectheader.md">KsFreeObjectHeader</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksfreedeviceheader.md">KsFreeDeviceHeader</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksfreeobjectheader.md">KsFreeObjectHeader</a>
+
+<a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
+
  
 
  

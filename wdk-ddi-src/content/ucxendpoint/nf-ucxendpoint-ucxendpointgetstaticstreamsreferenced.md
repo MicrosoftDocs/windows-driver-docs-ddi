@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: A9AB43A9-1409-4AA4-99DE-66D558F2303C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxEndpointGetStaticStreamsReferenced
+ms.keywords: UcxEndpointGetStaticStreamsReferenced method [Buses], ucxendpoint/UcxEndpointGetStaticStreamsReferenced, buses._ucxendpointgetstaticstreamsreferenced, UcxEndpointGetStaticStreamsReferenced
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: UcxEndpointGetStaticStreamsReferenced
-req.alt-loc: ucxendpoint.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ucxendpoint.h
+apiname: 
+-	UcxEndpointGetStaticStreamsReferenced
+product: Windows
+targetos: Windows
 req.typenames: UCX_ENDPOINT_CHARACTERISTIC_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # UcxEndpointGetStaticStreamsReferenced function
 
 
-
 ## -description
+
+
 Returns a referenced static streams object for the specified endpoint.
 
 
-
 ## -syntax
+
 
 ````
 UCXSSTREAMS UcxEndpointGetStaticStreamsReferenced(
@@ -55,6 +65,9 @@ UCXSSTREAMS UcxEndpointGetStaticStreamsReferenced(
 
 
 ## -parameters
+
+
+
 
 ### -param Endpoint [in]
 
@@ -69,19 +82,23 @@ A driver-defined value that the framework stores as an identification tag for th
 
 
 ## -returns
+
+
 A handle to the stream object if it is opened with the endpoint. Otherwise, NULL.
 
 
+
 ## -remarks
+
+
 The client driver can use this function to determine whether it has created a streams object for this endpoint. If it create the object the method returns the  UCXSSTREAMS handle. The method returns NULL if the object was not created, or if the client driver failed the framework request object passed in the <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_static_streams_enable.md">EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE</a> callback. Any call to this method must be matched by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff548746">WdfObjectDereferenceWithTag</a> by using the same Tag.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: PCMCIA
 ms.assetid: 01469cd7-a023-42b0-9306-fc390bf990e6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _PAR_SET_INFORMATION, PAR_SET_INFORMATION, *PPAR_SET_INFORMATION
+ms.keywords: PCMCIA.pcmcia_modify_memory_window, ModifyMemoryWindow callback function [Buses], ModifyMemoryWindow, PCMCIA_MODIFY_MEMORY_WINDOW, PCMCIA_MODIFY_MEMORY_WINDOW, ntddpcm/ModifyMemoryWindow, memcdref_fdb376f2-4f80-4a35-ab23-f007bdc05cad.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ModifyMemoryWindow
-req.alt-loc: ntddpcm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL (See Remarks section.)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ntddpcm.h
+apiname: 
+-	ModifyMemoryWindow
+product: Windows
+targetos: Windows
 req.typenames: PAR_SET_INFORMATION, *PPAR_SET_INFORMATION
 ---
 
 # PCMCIA_MODIFY_MEMORY_WINDOW callback
 
 
-
 ## -description
+
+
 The <b>PCMCIA_MODIFY_MEMORY_WINDOW</b> interface routine sets the attributes of a memory window for a PCMCIA memory card. The memory window is mapped by the PCMCIA bus driver.
 
 
-
 ## -prototype
+
 
 ````
 PCMCIA_MODIFY_MEMORY_WINDOW ModifyMemoryWindow;
@@ -63,6 +73,9 @@ BOOLEAN ModifyMemoryWindow(
 
 
 ## -parameters
+
+
+
 
 ### -param Context [in, optional]
 
@@ -100,37 +113,47 @@ Specifies the width of bus access to the PCMCIA memory card. <i>BusWidth</i> mus
 
 
 
-
-### -param PCMCIA_MEMORY_8BIT_ACCESS
-
-</dl>
 If <i>Enable</i> is <b>FALSE</b>, <i>BusWidth</i> is not used.
 
 
-### -param AttributeMemory [in, optional]
+### -param IsAttributeMemory
+
+
+
+
+
+
+##### - BusWidth.PCMCIA_MEMORY_8BIT_ACCESS
+
+
+
+#### - AttributeMemory [in, optional]
 
 Must be <b>FALSE</b> for common memory and <b>TRUE</b> for attribute memory. 
 
 
 ## -returns
+
+
 The <b>PCMCIA_MODIFY_MEMORY_WINDOW</b> interface routine returns <b>TRUE</b> if the memory window is successfully enabled or disabled, as specified by the <i>Enable</i> parameter.
 
 
+
 ## -remarks
+
+
 A caller must set the <i>Context</i> parameter to the context that is specified by the PCMCIA bus driver. The PCMCIA bus driver returns the context for the interface routines in the <b>Context</b> member of the same PCMCIA_INTERFACE_STANDARD structure that contains the pointers to the interface routines. If the <i>Context</i> parameter is not valid, system behavior is not defined, and the system might halt.
 
 Callers of this routine must be running at IRQL &lt;= DISPATCH_LEVEL. To maintain overall system performance, it is recommended that drivers call this routine at IRQL &lt; DISPATCH_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537609">PCMCIA_IS_WRITE_PROTECTED</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537611">PCMCIA_SET_VPP</a>
-</dt>
-</dl>
+
  
 
  

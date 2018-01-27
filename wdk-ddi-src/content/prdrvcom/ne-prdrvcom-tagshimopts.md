@@ -7,8 +7,8 @@ old-location: print\shimopts.htm
 old-project: print
 ms.assetid: 7A00F51A-E8EB-4D8F-B130-08834BF741C6
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: tagSHIMOPTS, *PSHIMOPTS, SHIMOPTS
+ms.date: 1/18/2018
+ms.keywords: SHIMOPTS enumeration [Print Devices], PTSHIM_DEFAULT, tagSHIMOPTS, PSHIMOPTS, PTSHIM_NOSNAPSHOT, SHIMOPTS, prdrvcom/PTSHIM_DEFAULT, prdrvcom/SHIMOPTS, print.shimopts, PSHIMOPTS enumeration pointer [Print Devices], *PSHIMOPTS, prdrvcom/PTSHIM_NOSNAPSHOT, prdrvcom/PSHIMOPTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SHIMOPTS
-req.alt-loc: Prdrvcom.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Prdrvcom.h
+apiname: 
+-	SHIMOPTS
+product: Windows
+targetos: Windows
 req.typenames: *PSHIMOPTS, SHIMOPTS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # tagSHIMOPTS enumeration
 
 
-
 ## -description
 
 
 
 
+
 ## -syntax
+
 
 ````
 typedef enum tagSHIMOPTS { 
@@ -56,10 +66,13 @@ typedef enum tagSHIMOPTS {
 
 ## -enum-fields
 
+
+
+
 ### -field PTSHIM_DEFAULT
+
 
 
 ### -field PTSHIM_NOSNAPSHOT
 
 
-## -remarks

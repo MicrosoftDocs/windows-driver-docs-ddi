@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0be4c4e1-6ea6-4439-841d-088cb1902604
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSP_PIN, *PKSP_PIN, KSP_PIN
+ms.keywords: ks-struct_02faf16f-fb8d-4f1f-9176-e2c379a36d4e.xml, stream.ksp_pin, KSP_PIN, ks/KSP_PIN, ks/PKSP_PIN, KSP_PIN structure [Streaming Media Devices], PKSP_PIN, PKSP_PIN structure pointer [Streaming Media Devices], KSPROPERTY_PIN_FLAGS_ATTRIBUTE_RANGE_AWARE, *PKSP_PIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSP_PIN
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSP_PIN
+product: Windows
+targetos: Windows
 req.typenames: *PKSP_PIN, KSP_PIN
 ---
 
 # KSP_PIN structure
 
 
-
 ## -description
+
+
 Kernel streaming clients use the KSP_PIN structure to specify the property and pin type within a KSPROPSETID_Pin property request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -60,6 +70,37 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
+### -field Reserved
+
+Reserved. Should be set to zero.
+
+Reserved. Should be set to zero.
+
+
+### -field Flags
+
+Pin flags. This is set to either 0 or the following.
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="KSPROPERTY_PIN_FLAGS_ATTRIBUTE_RANGE_AWARE"></a><a id="ksproperty_pin_flags_attribute_range_aware"></a><dl>
+<dt><b>KSPROPERTY_PIN_FLAGS_ATTRIBUTE_RANGE_AWARE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The client is aware of attributes and handles attribute ranges.
+
+</td>
+</tr>
+</table> 
+
+
 ### -field Property
 
 Specifies a <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure.
@@ -70,48 +111,10 @@ Specifies a <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> struct
 Specifies the pin type ID.
 
 
-### -field Reserved
-
-Reserved. Should be set to zero.
-
-
-### -field Flags
-
-Pin flags. This is set to either 0 or the following.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-
-### -field KSPROPERTY_PIN_FLAGS_ATTRIBUTE_RANGE_AWARE
-
-</td>
-<td width="60%">
-The client is aware of attributes and handles attribute ranges.
-
-</td>
-</tr>
-</table>
- 
-
-
-### -field Reserved
-
-Reserved. Should be set to zero.
-
-
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ac1b7daf-803d-48a0-89de-4a438f3837f9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2SETINDICES, D3DHAL_DP2SETINDICES, *LPD3DHAL_DP2SETINDICES
+ms.keywords: d3dhal/D3DHAL_DP2SETINDICES, display.d3dhal_dp2setindices, LPD3DHAL_DP2SETINDICES, d3dhal/LPD3DHAL_DP2SETINDICES, D3DHAL_DP2SETINDICES, _D3DHAL_DP2SETINDICES, d3dstrct_fd1eb5e4-28c8-45f9-90ba-b57970888717.xml, LPD3DHAL_DP2SETINDICES structure pointer [Display Devices], *LPD3DHAL_DP2SETINDICES, D3DHAL_DP2SETINDICES structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DP2SETINDICES
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DP2SETINDICES
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DP2SETINDICES
 ---
 
 # _D3DHAL_DP2SETINDICES structure
 
 
-
 ## -description
+
+
 
    DirectX 8.0 and later versions only.
    
@@ -46,8 +56,8 @@ req.typenames: D3DHAL_DP2SETINDICES
 The D3DHAL_DP2SETINDICES structure is used to set the current index buffer for <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DP2SETINDICES {
@@ -58,6 +68,9 @@ typedef struct _D3DHAL_DP2SETINDICES {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwVBHandle
 
@@ -70,18 +83,18 @@ Specifies the size of the indices contained in the index buffer and has the valu
 
 
 ## -remarks
+
+
 A handle value of zero is valid and indicates that the current index buffer is cleared. Subsequent attempts to draw indexed primitives (before a new current index buffer is established via another D3DDP2OP_SETINDICES token) should be handled by the driver such that a crash does not occur. The debug version of your driver should display informative messages to the debug output stream when this error condition is detected.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
-</dt>
-<dt>
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-</dt>
-</dl>
+
  
 
  

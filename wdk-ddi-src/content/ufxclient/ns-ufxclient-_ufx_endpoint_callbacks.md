@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: CED05E15-E141-4A6D-A657-CF0DF9FD1200
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS, *PUFX_ENDPOINT_CALLBACKS
+ms.keywords: PUFX_ENDPOINT_CALLBACKS structure pointer [Buses], UFX_ENDPOINT_CALLBACKS structure [Buses], *PUFX_ENDPOINT_CALLBACKS, PUFX_ENDPOINT_CALLBACKS, buses.ufx_endpoint_callbacks, ufxclient/UFX_ENDPOINT_CALLBACKS, ufxclient/PUFX_ENDPOINT_CALLBACKS, _UFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UFX_ENDPOINT_CALLBACKS
-req.alt-loc: ufxclient.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ufxclient.h
+apiname: 
+-	UFX_ENDPOINT_CALLBACKS
+product: Windows
+targetos: Windows
 req.typenames: UFX_ENDPOINT_CALLBACKS, *PUFX_ENDPOINT_CALLBACKS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _UFX_ENDPOINT_CALLBACKS structure
 
 
-
 ## -description
+
+
 The <b>UFX_ENDPOINT_CALLBACKS</b> structure is used to define then event callback functions supported by the client driver. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UFX_ENDPOINT_CALLBACKS {
@@ -55,9 +65,10 @@ typedef struct _UFX_ENDPOINT_CALLBACKS {
 
 ## -struct-fields
 
+
+
+
 ### -field Size
 
 The size of the <b>UFX_ENDPOINT_CALLBACKS</b>         structure.
 
-
-## -remarks

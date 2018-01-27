@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5481ae5e-c28a-478e-96be-c6ec8d7f163e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortMoveMemory
+ms.keywords: storage.storportmovememory, StorPortMoveMemory routine [Storage Devices], StorPortMoveMemory, storprt_7af1ec0d-f1c4-4335-9b80-1aaef26afa35.xml, storport/StorPortMoveMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortMoveMemory
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortMoveMemory
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortMoveMemory function
 
 
-
 ## -description
+
+
 The <b>StorPortMoveMemory</b> routine copies memory from one buffer to another.
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API VOID StorPortMoveMemory(
@@ -56,6 +67,9 @@ STORPORT_API VOID StorPortMoveMemory(
 
 
 ## -parameters
+
+
+
 
 ### -param WriteBuffer [in]
 
@@ -73,18 +87,16 @@ Specifies how many bytes to transfer from <i>ReadBuffer</i> to <i>WriteBuffer</i
 
 
 ## -returns
+
+
 None 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportmovememory.md">ScsiPortMoveMemory</a>
-</dt>
-</dl>
+
  
 
  

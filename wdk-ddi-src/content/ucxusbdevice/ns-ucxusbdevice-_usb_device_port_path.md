@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 75C7DB08-F831-43ED-8373-F3F4C7AF89E8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
+ms.keywords: ucxusbdevice/P_USB_DEVICE_PORT_PATH, buses._usb_device_port_path, USB_DEVICE_PORT_PATH, P_USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH, P_USB_DEVICE_PORT_PATH structure pointer [Buses], USB_DEVICE_PORT_PATH structure [Buses], ucxusbdevice/_USB_DEVICE_PORT_PATH, _USB_DEVICE_PORT_PATH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_DEVICE_PORT_PATH
-req.alt-loc: ucxusbdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ucxusbdevice.h
+apiname: 
+-	USB_DEVICE_PORT_PATH
+product: Windows
+targetos: Windows
+req.typenames: *PUSB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH
 req.product: Windows 10 or later.
 ---
 
 # _USB_DEVICE_PORT_PATH structure
 
 
-
 ## -description
+
+
 Contains the port path of a USB device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USB_DEVICE_PORT_PATH {
@@ -57,6 +67,9 @@ typedef struct _USB_DEVICE_PORT_PATH {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -78,15 +91,10 @@ The depth of path in the USB topology tree from a TT hub.
 The index of connected USB port on the hub.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_ucxusbdevice_info.md">UCXUSBDEVICE_INFO</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 02fe4216-101e-4ba7-88df-029f8bba9c17
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_COMMITVIDPN_FLAGS, DXGKARG_COMMITVIDPN_FLAGS
+ms.keywords: display.dxgkarg_commitvidpn_flags, DXGKARG_COMMITVIDPN_FLAGS, DXGKARG_COMMITVIDPN_FLAGS structure [Display Devices], d3dkmddi/DXGKARG_COMMITVIDPN_FLAGS, _DXGKARG_COMMITVIDPN_FLAGS, DmStructs_267e916a-7058-4ce7-892d-9ed9d6f74bce.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_COMMITVIDPN_FLAGS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_COMMITVIDPN_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_COMMITVIDPN_FLAGS
 ---
 
 # _DXGKARG_COMMITVIDPN_FLAGS structure
 
 
-
 ## -description
+
+
 The DXGKARG_COMMITVIDPN_FLAGS structure identifies details about a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_COMMITVIDPN_FLAGS {
@@ -55,6 +65,9 @@ typedef struct _DXGKARG_COMMITVIDPN_FLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PathPowerTransition
 
@@ -84,6 +97,8 @@ This member is reserved and should be set to zero. Setting this member to zero i
 
 
 ## -remarks
+
+
 The DXGKARG_COMMITVIDPN_FLAGS structure stores information that the display miniport driver can use to determine how to respond to requested mode changes. With this information, the driver can distinguish between mode changes that occur during regular activity because an application requested a mode change, changes that occur because of power transitions, and changes that occur while monitors are turned off.
 
 During regular activity, when the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a> function is called, both <b>PathPowerTransition</b> and <b>PathPoweredOff</b> members will be <b>FALSE</b> so that the driver should apply mode changes immediately. Such mode changes are usually performed as isolated events. Therefore, there is no need for the driver to track any state that is associated with the previous mode configuration.
@@ -97,18 +112,15 @@ Because the monitor might not be physically connected (at system resume time, fo
 If a system resume operation is triggered after monitors were turned off for a system suspend operation, the driver can receive a <i>DxgkDdiCommitVidPn</i> call with both <b>PathPowerTransition</b> = <b>FALSE</b> and <b>PathPoweredOff</b> = <b>FALSE</b> before a <i>DxgkDdiCommitVidPn</i> call is made with <b>PathPowerTransition</b> = <b>TRUE</b>. This situation should only occur with an empty topology and, in this case, the driver should not turn monitors back on because the power transition is not yet completed.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_commitvidpn.md">DXGKARG_COMMITVIDPN</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_set_power_state.md">DxgkDdiSetPowerState</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_commitvidpn.md">DXGKARG_COMMITVIDPN</a>
+
  
 
  

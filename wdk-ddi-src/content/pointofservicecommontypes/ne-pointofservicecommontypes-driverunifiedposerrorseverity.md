@@ -7,8 +7,8 @@ old-location: pos\unifiedposerrorseverity.htm
 old-project: pos
 ms.assetid: a8c592fa-2736-49e4-8d4d-8729baef9c49
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: DriverUnifiedPosErrorSeverity, DriverUnifiedPosErrorSeverity
+ms.date: 1/18/2018
+ms.keywords: Unrecoverable, DriverUnifiedPosErrorSeverity, pointofservicecommontypes/ AssistanceRequired, Recoverable, pointofservicecommontypes/DriverUnifiedPosErrorSeverity, pos.unifiedposerrorseverity, pointofservicecommontypes/Warning, pointofservicecommontypes/UnknownErrorSeverity, UnknownErrorSeverity, pointofservicecommontypes/Recoverable, pointofservicecommontypes/Fatal, AssistanceRequired, pointofservicecommontypes/Unrecoverable, Fatal, DriverUnifiedPosErrorSeverity enumeration, Warning
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DriverUnifiedPosErrorSeverity
-req.alt-loc: pointofservicecommontypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pointofservicecommontypes.h
+apiname: 
+-	DriverUnifiedPosErrorSeverity
+product: Windows
+targetos: Windows
 req.typenames: DriverUnifiedPosErrorSeverity
 ---
 
 # DriverUnifiedPosErrorSeverity enumeration
 
 
-
 ## -description
+
+
 This enumeration indicates the severity of the error.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DriverUnifiedPosErrorSeverity { 
@@ -58,6 +68,9 @@ typedef enum _DriverUnifiedPosErrorSeverity {
 
 
 ## -enum-fields
+
+
+
 
 ### -field UnknownErrorSeverity
 
@@ -79,7 +92,7 @@ The device can recover from the error without closing the application or rebooti
 The device is still working, but it must close the application to recover from the error.
 
 
-### -field  AssistanceRequired
+### -field AssistanceRequired
 
 Intervention is needed to respond to the error.
 
@@ -88,5 +101,3 @@ Intervention is needed to respond to the error.
 
 The error requires that the device be rebooted.
 
-
-## -remarks

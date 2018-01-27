@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 34612bc5-bed5-4645-8619-64ae2a603d1e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetContainerInformation
+ms.keywords: IoGetContainerInformation routine [Kernel-Mode Driver Architecture], wdm/IoGetContainerInformation, kernel.iogetcontainerinformation, IoGetContainerInformation, k104_f139cf99-fd05-4f89-ac6e-ac9c88cc97b4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoGetContainerInformation
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoGetContainerInformation
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoGetContainerInformation function
 
 
-
 ## -description
+
+
 The <b>IoGetContainerInformation</b> routine provides information about the current state of a user session. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS IoGetContainerInformation(
@@ -58,17 +68,18 @@ NTSTATUS IoGetContainerInformation(
 
 ## -parameters
 
+
+
+
 ### -param InformationClass [in]
 
 Specifies the class of events for which the caller (driver) requests information. Set this parameter to the following <a href="..\wdm\ne-wdm-_io_container_information_class.md">IO_CONTAINER_INFORMATION_CLASS</a> enumeration value:
-
 <ul>
 <li>
 <b>IoSessionStateInformation</b>
 
 </li>
-</ul>
-For more information, see the following Remarks section. 
+</ul>For more information, see the following Remarks section. 
 
 
 ### -param ContainerObject [in, optional]
@@ -87,36 +98,66 @@ The size, in bytes, of the buffer pointed to by <i>Buffer</i>. For <i>Informatio
 
 
 ## -returns
+
+
 <b>IoGetContainerInformation</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER_1</b></dt>
-</dl>Parameter <i>InformationClass</i> is not a valid <a href="..\wdm\ne-wdm-_io_container_information_class.md">IO_CONTAINER_INFORMATION_CLASS</a> enumeration constant.
+</dl>
+</td>
+<td width="60%">
+Parameter <i>InformationClass</i> is not a valid <a href="..\wdm\ne-wdm-_io_container_information_class.md">IO_CONTAINER_INFORMATION_CLASS</a> enumeration constant.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER_2</b></dt>
-</dl>Parameter <i>ContainerObject</i> is <b>NULL</b>.
+</dl>
+</td>
+<td width="60%">
+Parameter <i>ContainerObject</i> is <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER_4</b></dt>
-</dl>Parameter <i>BufferLength</i> is too small for the information class specified by <i>InformationClass</i>.
+</dl>
+</td>
+<td width="60%">
+Parameter <i>BufferLength</i> is too small for the information class specified by <i>InformationClass</i>.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This routine can potentially support queries for a variety of information classes. In Windows 7, this routine supports only queries for <b>IoSessionStateInformation</b> information, which is status information about user sessions.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ne-wdm-_io_container_information_class.md">IO_CONTAINER_INFORMATION_CLASS</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ne-wdm-_io_container_notification_class.md">IO_CONTAINER_NOTIFICATION_CLASS</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ne-wdm-_io_container_information_class.md">IO_CONTAINER_INFORMATION_CLASS</a>
+
 <a href="..\wdm\ns-wdm-_io_session_state_information.md">IO_SESSION_STATE_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

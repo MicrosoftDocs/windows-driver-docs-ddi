@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E282976A-4143-468C-B944-FBBAD5BBA388
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_IO_TARGET_PURGE_IO_ACTION, WDF_IO_TARGET_PURGE_IO_ACTION
+ms.keywords: WDF_IO_TARGET_PURGE_IO_ACTION, wdfiotarget/WdfIoTargetPurgeIo, wdfiotarget/WdfIoTargetPurgeIoAndWait, _WDF_IO_TARGET_PURGE_IO_ACTION, WDF_IO_TARGET_PURGE_IO_ACTION enumeration, WdfIoTargetPurgeIo, WdfIoTargetPurgeIoAndWait, wdfiotarget/WDF_IO_TARGET_PURGE_IO_ACTION, wdf.wdf_io_target_purge_io_action, kmdf.wdf_io_target_purge_io_action, wdfiotarget/WdfIoTargetPurgeIoUndefined, WdfIoTargetPurgeIoUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.11
 req.umdf-ver: 2.0
-req.alt-api: WDF_IO_TARGET_PURGE_IO_ACTION
-req.alt-loc: wdfiotarget.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfiotarget.h
+apiname: 
+-	WDF_IO_TARGET_PURGE_IO_ACTION
+product: Windows
+targetos: Windows
 req.typenames: WDF_IO_TARGET_PURGE_IO_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,8 +47,9 @@ req.product: Windows 10 or later.
 # _WDF_IO_TARGET_PURGE_IO_ACTION enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 
@@ -48,8 +58,8 @@ req.product: Windows 10 or later.
 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_IO_TARGET_PURGE_IO_ACTION { 
@@ -61,6 +71,9 @@ typedef enum _WDF_IO_TARGET_PURGE_IO_ACTION {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WdfIoTargetPurgeIoUndefined
 
@@ -79,20 +92,20 @@ The framework attempts to cancel all of the target queue's I/O requests, before 
 
 
 ## -remarks
+
+
 The <b>WDF_IO_TARGET_PURGE_IO_ACTION</b> enumeration is used as an input parameter to the <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetpurge.md">WdfIoTargetPurge</a> method.
 
 If your driver specifies the <b>WdfIoTargetPurgeIoAndWait</b> flag, the driver must not call <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetpurge.md">WdfIoTargetPurge</a> from a request handler, a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function, or an <a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_readers_failed.md">EvtUsbTargetPipeReadersFailed</a> callback function.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetpurge.md">WdfIoTargetPurge</a>
-</dt>
-<dt>
-<a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>
-</dt>
-</dl>
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>
+
  
 
  

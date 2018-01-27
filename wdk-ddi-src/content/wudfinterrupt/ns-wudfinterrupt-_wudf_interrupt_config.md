@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7A849A10-2C47-42E2-8BEB-E1D979D3C893
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WUDF_INTERRUPT_CONFIG, WUDF_INTERRUPT_CONFIG, *PWUDF_INTERRUPT_CONFIG
+ms.keywords: WUDF_INTERRUPT_CONFIG, wudfinterrupt/WUDF_INTERRUPT_CONFIG, WUDF_INTERRUPT_CONFIG structure, PWUDF_INTERRUPT_CONFIG, wdf.wudf_interrupt_config, PWUDF_INTERRUPT_CONFIG structure pointer, *PWUDF_INTERRUPT_CONFIG, _WUDF_INTERRUPT_CONFIG, umdf.wudf_interrupt_config, wudfinterrupt/PWUDF_INTERRUPT_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.11
-req.alt-api: WUDF_INTERRUPT_CONFIG
-req.alt-loc: Wudfinterrupt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,23 +29,35 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: WUDF_INTERRUPT_CONFIG, *PWUDF_INTERRUPT_CONFIG
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wudfinterrupt.h
+apiname: 
+-	WUDF_INTERRUPT_CONFIG
+product: Windows
+targetos: Windows
+req.typenames: *PWUDF_INTERRUPT_CONFIG, WUDF_INTERRUPT_CONFIG
 req.product: Windows 10 or later.
 ---
 
 # _WUDF_INTERRUPT_CONFIG structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
    The <b>WUDF_INTERRUPT_CONFIG</b> structure contains configuration information for a device interrupt.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WUDF_INTERRUPT_CONFIG {
@@ -66,6 +76,9 @@ typedef struct _WUDF_INTERRUPT_CONFIG {
 
 ## -struct-fields
 
+
+
+
 ### -field Size
 
 The size, in bytes, of this structure.
@@ -73,7 +86,7 @@ The size, in bytes, of this structure.
 
 ### -field ShareVector
 
-A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value. If this value is <b>WdfTrue</b>, the interrupt vector can be shared. If the value is <b>WdfFalse</b>, the interrupt vector cannot be shared. If the value is <b>WdfDefault</b> and the interrupt is level-triggered,  the Plug and Play manager uses the bus driver's value. If the value is <b>WdfDefault</b> and the interrupt is not level-triggered, the interrupt vector cannot be shared.
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value. If this value is <b>WdfTrue</b>, the interrupt vector can be shared. If the value is <b>WdfFalse</b>, the interrupt vector cannot be shared. If the value is <b>WdfDefault</b> and the interrupt is level-triggered,  the Plug and Play manager uses the bus driver's value. If the value is <b>WdfDefault</b> and the interrupt is not level-triggered, the interrupt vector cannot be shared.
 
 
 ### -field AutomaticSerialization
@@ -112,6 +125,8 @@ A pointer to the <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_P
 
 
 ## -remarks
+
+
 The <b>WUDF_INTERRUPT_CONFIG</b> structure is used as input to <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a>.
 
 To initialize a <b>WUDF_INTERRUPT_CONFIG</b> structure, your driver should first call <a href="..\wudfinterrupt\nf-wudfinterrupt-wudf_interrupt_config_init.md">WUDF_INTERRUPT_CONFIG_INIT</a> and then fill in structure members that <b>WUDF_INTERRUPT_CONFIG_INIT</b> does not initialize.
@@ -124,18 +139,15 @@ Your driver should include Wudfwdm.h, which contains the definition of CM_PARTIA
 UMDF supports edge-triggered, line-based interrupts and message-signaled interrupts (MSI) on all framework-supported operating systems. Because these types of interrupt resources are not shared, a driver that uses them should set the <b>ShareVector</b> member of this structure to WdfFalse or WdfUseDefault. If the driver specifies an invalid <b>ShareVector</b> value, the driver fails to start.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556991">IWDFDeviceInitialize::SetLockingConstraint</a>
-</dt>
-<dt>
+
 <a href="..\wudfinterrupt\nf-wudfinterrupt-wudf_interrupt_config_init.md">WUDF_INTERRUPT_CONFIG_INIT</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a>
-</dt>
-</dl>
+
  
 
  

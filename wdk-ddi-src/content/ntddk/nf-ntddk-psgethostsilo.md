@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0B78562C-25DD-4CF2-9804-6DBEDE8B5F69
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsGetHostSilo
+ms.keywords: PsGetHostSilo routine [Kernel-Mode Driver Architecture], kernel.psgethostsilo, ntddk/PsGetHostSilo, PsGetHostSilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1607
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PsGetHostSilo
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	PsGetHostSilo
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # PsGetHostSilo function
 
 
-
 ## -description
+
+
 This routine returns the host silo.
 
 
-
 ## -syntax
+
 
 ````
 PESILO PsGetHostSilo(void);
@@ -53,12 +63,12 @@ PESILO PsGetHostSilo(void);
 ## -parameters
 
 
+
+
+
 ## -returns
+
+
 The host silo.
 
-The host silo.
 
-The host silo.
-
-
-## -remarks

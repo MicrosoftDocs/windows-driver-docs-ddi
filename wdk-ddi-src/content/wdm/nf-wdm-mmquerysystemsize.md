@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ca4b3154-e1a1-44d1-b085-9cb5d5ed1a4a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmQuerySystemSize
+ms.keywords: kernel.mmquerysystemsize, k106_9456af05-c1ea-43b0-a342-bc88a8de874b.xml, MmQuerySystemSize routine [Kernel-Mode Driver Architecture], wdm/MmQuerySystemSize, MmQuerySystemSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MmQuerySystemSize
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	MmQuerySystemSize
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # MmQuerySystemSize function
 
 
-
 ## -description
+
+
 The <b>MmQuerySystemSize</b> routine returns an estimate of the amount of memory in the system.
 
 
-
 ## -syntax
+
 
 ````
 MM_SYSTEMSIZE MmQuerySystemSize(void);
@@ -54,24 +64,27 @@ MM_SYSTEMSIZE MmQuerySystemSize(void);
 ## -parameters
 
 
+
+
+
 ## -returns
-<b>MmQuerySystemSize</b> returns one of <b>MmSmallSystem</b>, <b>MmMediumSystem</b>, or <b>MmLargeSystem</b>.
+
 
 <b>MmQuerySystemSize</b> returns one of <b>MmSmallSystem</b>, <b>MmMediumSystem</b>, or <b>MmLargeSystem</b>.
 
-<b>MmQuerySystemSize</b> returns one of <b>MmSmallSystem</b>, <b>MmMediumSystem</b>, or <b>MmLargeSystem</b>.
 
 
 ## -remarks
+
+
 This routine can be called during driver initialization to determine how much memory it is practical to allocate for an internal buffer. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-mmisthisanntassystem.md">MmIsThisAnNtAsSystem</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 7ac9fc14-9e94-412b-811a-6013d46020a0
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _INTERNAL_I8042_HOOK_MOUSE, *PINTERNAL_I8042_HOOK_MOUSE, INTERNAL_I8042_HOOK_MOUSE
+ms.keywords: *PINTERNAL_I8042_HOOK_MOUSE, PINTERNAL_I8042_HOOK_MOUSE structure pointer [Human Input Devices], i8042ref_23133caf-3bd0-4160-8213-899e37b7703e.xml, ntdd8042/INTERNAL_I8042_HOOK_MOUSE, ntdd8042/PINTERNAL_I8042_HOOK_MOUSE, hid.internal_i8042_hook_mouse, _INTERNAL_I8042_HOOK_MOUSE, INTERNAL_I8042_HOOK_MOUSE, INTERNAL_I8042_HOOK_MOUSE structure [Human Input Devices], PINTERNAL_I8042_HOOK_MOUSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: INTERNAL_I8042_HOOK_MOUSE
-req.alt-loc: ntdd8042.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PINTERNAL_I8042_HOOK_MOUSE, INTERNAL_I8042_HOOK_MOUSE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntdd8042.h
+apiname: 
+-	INTERNAL_I8042_HOOK_MOUSE
+product: Windows
+targetos: Windows
+req.typenames: INTERNAL_I8042_HOOK_MOUSE, *PINTERNAL_I8042_HOOK_MOUSE
 ---
 
 # _INTERNAL_I8042_HOOK_MOUSE structure
 
 
-
 ## -description
+
+
 INTERNAL_I8042_HOOK_MOUSE is used by I8042prt to connect an optional callback routine that supplements the operation of the mouse ISR. The callback can be supplied by an optional, vendor-supplied, upper-level filter driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _INTERNAL_I8042_HOOK_MOUSE {
@@ -57,6 +67,9 @@ typedef struct _INTERNAL_I8042_HOOK_MOUSE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Context
 
@@ -84,6 +97,8 @@ Pointer to the context that must be used with the <b>IsrWritePort</b> and <b>Que
 
 
 ## -remarks
+
+
 This structure is only used with an <a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_mouse.md">IOCTL_INTERNAL_I8042_HOOK_MOUSE</a> request. 
 
 <b>Context</b>, <b>InitializationRoutine</b>, and <b>IsrRoutine</b> can be supplied by an optional, vendor-supplied, upper-level filter driver. 
@@ -91,24 +106,19 @@ This structure is only used with an <a href="..\ntdd8042\ni-ntdd8042-ioctl_inter
 <b>IsrWritePort</b>, <b>QueueMousePacket</b>, and <b>CallContext</b> are supplied by I8042prt.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_mouse.md">IOCTL_INTERNAL_I8042_HOOK_MOUSE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
-</dt>
-<dt>
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_isr_write_port.md">PI8042_ISR_WRITE_PORT</a>
-</dt>
-<dt>
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a>
-</dt>
-<dt>
+
 <a href="..\ntdd8042\nc-ntdd8042-pi8042_queue_packet.md">PI8042_QUEUE_PACKET</a>
-</dt>
-</dl>
+
+<a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a>
+
+<a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
+
+<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_mouse.md">IOCTL_INTERNAL_I8042_HOOK_MOUSE</a>
+
+<a href="..\ntdd8042\nc-ntdd8042-pi8042_isr_write_port.md">PI8042_ISR_WRITE_PORT</a>
+
  
 
  

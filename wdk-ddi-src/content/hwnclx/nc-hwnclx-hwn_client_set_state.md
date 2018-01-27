@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: 5d2ccc29-4022-467c-9f37-d49badcceba4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _HPMI_QUERY_CAPABILITIES_RESPONSE, HPMI_QUERY_CAPABILITIES_RESPONSE, *PHPMI_QUERY_CAPABILITIES_RESPONSE
+ms.keywords: gpiobtn.hwn_client_set_state, HwnClientSetState callback function, HwnClientSetState, HWN_CLIENT_SET_STATE, HWN_CLIENT_SET_STATE, hwnclx/HwnClientSetState, *PHWN_CLIENT_SET_STATE callback function pointer, *PHWN_CLIENT_SET_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: *PHWN_CLIENT_SET_STATE
-req.alt-loc: Hwnclx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: HPMI_QUERY_CAPABILITIES_RESPONSE, *PHPMI_QUERY_CAPABILITIES_RESPONSE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Hwnclx.h
+apiname: 
+-	*PHWN_CLIENT_SET_STATE
+product: Windows
+targetos: Windows
+req.typenames: *PHPMI_QUERY_CAPABILITIES_RESPONSE, HPMI_QUERY_CAPABILITIES_RESPONSE
 ---
 
 # HWN_CLIENT_SET_STATE callback
 
 
-
 ## -description
+
+
 
 Implemented by the client driver to set hardware notification component state. It is invoked when a user wants to change the state of a driver.
 
 
-
 ## -prototype
+
 
 ````
 HWN_CLIENT_SET_STATE HwnClientSetState;
@@ -62,6 +72,9 @@ typedef HWN_CLIENT_SET_STATE *PHWN_CLIENT_SET_STATE;
 
 
 ## -parameters
+
+
+
 
 ### -param Context [in]
 
@@ -85,20 +98,25 @@ Pointer to a variable that indicates the number of bytes written by the function
 
 ## -returns
 
+
+
 Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
 
 
+
 ## -remarks
+
+
 Register your implementation of this callback function by setting the appropriate member of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_CLIENT_REGISTRATION_PACKET</a> and then calling <a href="..\hwnclx\nf-hwnclx-hwnregisterclient.md">HwNRegisterClient</a>.
 
 
+
 ## -see-also
-<dl>
-<dt><a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a></dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+
  
 
  

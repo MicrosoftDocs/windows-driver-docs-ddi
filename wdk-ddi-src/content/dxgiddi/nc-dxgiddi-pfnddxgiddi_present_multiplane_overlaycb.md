@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C6EB96AC-0D5B-4D75-9B44-B1744F6A4360
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DxApiGetVersion
+ms.keywords: display.pfnpresentmultiplaneoverlay__dxgi_, pfnPresentMultiPlaneOverlayCb callback function [Display Devices], pfnPresentMultiPlaneOverlayCb, PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB, PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB, dxgiddi/pfnPresentMultiPlaneOverlayCb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnPresentMultiPlaneOverlayCb
-req.alt-loc: Dxgiddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Dxgiddi.h
+apiname: 
+-	pfnPresentMultiPlaneOverlayCb
+product: Windows
+targetos: Windows
 req.typenames: DRMRIGHTS, *PDRMRIGHTS
 ---
 
 # PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB callback
 
 
-
 ## -description
+
+
 Called by the Microsoft DirectX Graphics Infrastructure (DXGI) runtime to notify  the user-mode display driver that an application finished rendering and requests that the driver display the source surface by either copying or flipping or that the driver perform a color-fill operation. Must be implemented by Windows Display Driver Model (WDDM) 1.3 or later drivers that support multiplane overlays.
 
 
-
 ## -prototype
+
 
 ````
 PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB pfnPresentMultiPlaneOverlayCb;
@@ -57,28 +67,45 @@ HRESULT __stdcall* pfnPresentMultiPlaneOverlayCb(
 
 ## -parameters
 
-### -param pPresentDXGI 
+
+
+
+### -param hDevice
+
+
+
+### -param *
+
+
+
+
+
+
+#### - pPresentDXGI
 
 A pointer to a <a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_presentmultiplaneoverlay.md">DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY</a> structure that describes how to display to the destination surface. 
 
 
 ## -returns
+
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
+
 ## -remarks
+
+
 When the user-mode display driver successfully completes its processing of a call to this function, it presents the source surface to the display by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780324">pfnPresentMultiPlaneOverlayCb (DXGI)</a> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_presentmultiplaneoverlay.md">DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh780324">pfnPresentMultiPlaneOverlayCb (DXGI)</a>
-</dt>
-</dl>
+
  
 
  

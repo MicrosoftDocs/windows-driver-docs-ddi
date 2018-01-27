@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 448dc408-c47f-4c8b-8baf-a831c69c3020
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportMidiStream, IMiniportMidiStream::Read, Read
+ms.keywords: audmp-routines_35ce63a1-ab31-4758-887a-9043e1f65915.xml, Read, portcls/IMiniportMidiStream::Read, IMiniportMidiStream::Read, Read method [Audio Devices], audio.iminiportmidistream_read, IMiniportMidiStream, Read method [Audio Devices], IMiniportMidiStream interface, IMiniportMidiStream interface [Audio Devices], Read method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportMidiStream.Read
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IMiniportMidiStream.Read
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportMidiStream::Read method
 
 
-
 ## -description
+
+
 The <code>Read</code> method reads data from an incoming MIDI stream.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS Read(
@@ -55,6 +65,9 @@ NTSTATUS Read(
 
 
 ## -parameters
+
+
+
 
 ### -param BufferAddress [in]
 
@@ -72,32 +85,46 @@ Output pointer to a caller-allocated variable into which the method writes a cou
 
 
 ## -returns
+
+
 <code>Read</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code. The following table shows some of the possible return status codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>Invalid device request (for example, calling <code>Read</code> on a MIDI output stream).
+</dl>
+</td>
+<td width="60%">
+Invalid device request (for example, calling <code>Read</code> on a MIDI output stream).
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff536893">IPortMidi::Notify</a> to notify the port driver when incoming MIDI data becomes available from the capture device. The port driver calls <b>IMiniportMidi::Read</b> to retrieve the data. The port driver continues to call <code>Read</code> as long as more data is available.
 
 The <code>Read</code> method returns STATUS_SUCCESS and a <i>BytesRead</i> count of zero to indicate that no more MIDI input data is currently available from the device. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536893">IPortMidi::Notify</a>
-</dt>
-<dt>
+
+<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536708">IMiniportMidiStream::Write</a>
-</dt>
-</dl>
+
  
 
  

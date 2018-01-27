@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: AC8EBE07-92D6-4985-A575-8AD3321D29FB
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STOR_CRYPTO_CAPABILITY, STOR_CRYPTO_CAPABILITY, *PSTOR_CRYPTO_CAPABILITY
+ms.keywords: storage.stor_crypto_capability, PSTOR_CRYPTO_CAPABILITY, STOR_CRYPTO_CAPABILITY, storport/PSTOR_CRYPTO_CAPABILITY, STOR_CRYPTO_CAPABILITY structure [Storage Devices], storport/STOR_CRYPTO_CAPABILITY, _STOR_CRYPTO_CAPABILITY, *PSTOR_CRYPTO_CAPABILITY, PSTOR_CRYPTO_CAPABILITY structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STOR_CRYPTO_CAPABILITY
-req.alt-loc: Storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Storport.h
+apiname: 
+-	STOR_CRYPTO_CAPABILITY
+product: Windows
+targetos: Windows
 req.typenames: STOR_CRYPTO_CAPABILITY, *PSTOR_CRYPTO_CAPABILITY
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _STOR_CRYPTO_CAPABILITY structure
 
 
-
 ## -description
+
+
 Reserved for system use.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STOR_CRYPTO_CAPABILITY {
@@ -55,5 +65,3 @@ typedef struct _STOR_CRYPTO_CAPABILITY {
 
 ## -struct-fields
 
-
-## -remarks

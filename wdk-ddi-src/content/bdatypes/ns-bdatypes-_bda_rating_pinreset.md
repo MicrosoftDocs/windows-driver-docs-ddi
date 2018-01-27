@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 237463EC-3C57-4DCA-9757-870B5F55C584
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _BDA_RATING_PINRESET, BDA_RATING_PINRESET, *PBDA_RATING_PINRESET
+ms.keywords: PBDA_RATING_PINRESET, BDA_RATING_PINRESET structure [Streaming Media Devices], stream.bda_rating_pinreset, PBDA_RATING_PINRESET structure pointer [Streaming Media Devices], *PBDA_RATING_PINRESET, bdatypes/PBDA_RATING_PINRESET, bdatypes/BDA_RATING_PINRESET, _BDA_RATING_PINRESET, BDA_RATING_PINRESET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BDA_RATING_PINRESET
-req.alt-loc: Bdatypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bdatypes.h
+apiname: 
+-	BDA_RATING_PINRESET
+product: Windows
+targetos: Windows
 req.typenames: BDA_RATING_PINRESET, *PBDA_RATING_PINRESET
 ---
 
 # _BDA_RATING_PINRESET structure
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: BDA_RATING_PINRESET, *PBDA_RATING_PINRESET
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct _BDA_RATING_PINRESET {
@@ -55,6 +65,9 @@ typedef struct _BDA_RATING_PINRESET {
 
 ## -struct-fields
 
+
+
+
 ### -field bPinLength
 
 Specifies the buffer size including a null termination.
@@ -64,5 +77,3 @@ Specifies the buffer size including a null termination.
 
 Specifies null-terminated UTF8. Use an empty string if the pin is disabled.
 
-
-## -remarks

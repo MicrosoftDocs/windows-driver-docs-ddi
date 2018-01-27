@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: CA517EF6-41EE-4DB0-B628-35902BA34FFB
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_GEOFENCE_CREATE_PARAM, *PGNSS_GEOFENCE_CREATE_PARAM, GNSS_GEOFENCE_CREATE_PARAM
+ms.keywords: PGNSS_GEOFENCE_CREATE_PARAM structure pointer [Sensor Devices], gnssdriver/GNSS_GEOFENCE_CREATE_PARAM, gnssdriver/PGNSS_GEOFENCE_CREATE_PARAM, PGNSS_GEOFENCE_CREATE_PARAM, *PGNSS_GEOFENCE_CREATE_PARAM, sensors.gnss_geofence_create_param, GNSS_GEOFENCE_CREATE_PARAM structure [Sensor Devices], GNSS_GEOFENCE_CREATE_PARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GNSS_GEOFENCE_CREATE_PARAM
-req.alt-loc: gnssdriver.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	gnssdriver.h
+apiname: 
+-	GNSS_GEOFENCE_CREATE_PARAM
+product: Windows
+targetos: Windows
 req.typenames: *PGNSS_GEOFENCE_CREATE_PARAM, GNSS_GEOFENCE_CREATE_PARAM
 ---
 
 # GNSS_GEOFENCE_CREATE_PARAM structure
 
 
-
 ## -description
+
+
 This structure defines the parameters for creating a geofence in the GNSS engine.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -58,6 +68,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -94,10 +107,20 @@ As the GNSS engine starts tracking the newly added geofence, if it determines th
 The actual boundary of the geofence.
 
 
-### -field Unused[512]
+### -field Unused
+
+ 
+
+
+
+#### - Unused[512]
 
 Padding buffer.
 
 
 ## -remarks
-A geographical shape is used to define a geofence.  Windows 10 currently supports only circular geofences.</p>
+
+
+A geographical shape is used to define a geofence.  Windows 10 currently supports only circular geofences.
+
+

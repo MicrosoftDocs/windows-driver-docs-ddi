@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 84b3f624-98bb-44b5-8050-8a12288cb827
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS,
+ms.keywords: iddcx/IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS, display.idarg_in_opm_set_signing_key_and_sequence_numbers, IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS, IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS structure
 
 
-
 ## -description
+
+
 Gives information about parameters necessary to set the signing key and sequence numbers.
              
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS {
@@ -55,11 +65,12 @@ typedef struct IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS {
 
 ## -struct-fields
 
+
+
+
 ### -field EncryptedParameters
 
 
                      [in] Initialization parameters
                  
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 145e460e-6988-4e61-bb33-6f1b1df54629
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SFFDISK_DCMD, SFFDISK_DCMD
+ms.keywords: sffdisk/SFFDISK_DC_LOCK_CHANNEL, SFFDISK_DC_LOCK_CHANNEL, sffdisk/SFFDISK_DC_DEVICE_COMMAND, SFFDISK_DC_GET_VERSION, SD.sffdisk_dcmd, sffdisk/SFFDISK_DC_UNLOCK_CHANNEL, sffdisk/SFFDISK_DCMD, sd-structs_440acb4f-89ba-4ea0-9f8b-c7fd241dfe85.xml, SFFDISK_DC_DEVICE_COMMAND, SFFDISK_DCMD, SFFDISK_DCMD enumeration [Buses], sffdisk/SFFDISK_DC_GET_VERSION, SFFDISK_DC_UNLOCK_CHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SFFDISK_DCMD
-req.alt-loc: sffdisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any IRQL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	sffdisk.h
+apiname: 
+-	SFFDISK_DCMD
+product: Windows
+targetos: Windows
 req.typenames: SFFDISK_DCMD
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SFFDISK_DCMD enumeration
 
 
-
 ## -description
+
+
 The SFFDISK_DCMD enumeration identifies the type of Secure Digital (SD) card operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -57,6 +67,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field SFFDISK_DC_GET_VERSION
 
@@ -79,15 +92,16 @@ The operation executes a device command.
 
 
 ## -remarks
+
+
 Applications that submit IOCTL_SFFDISK_DEVICE_COMMAND requests to the SD stack use this enumeration to specify the type of operation. The application must assign one of the values of this enumeration to the <b>Command</b> member of the <a href="https://msdn.microsoft.com/68205c17-5ff6-45a3-83c7-e106b314f9a5">SFFDISK_DEVICE_COMMAND_DATA</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/68205c17-5ff6-45a3-83c7-e106b314f9a5">SFFDISK_DEVICE_COMMAND_DATA</a>
-</dt>
-</dl>
+
  
 
  

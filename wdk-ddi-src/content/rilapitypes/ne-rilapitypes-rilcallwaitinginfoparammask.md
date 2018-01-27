@@ -7,8 +7,8 @@ old-location: netvista\rilcallwaitinginfoparammask_2.htm
 old-project: netvista
 ms.assetid: ed6f3d54-face-43e3-a45f-820c2f8e99cf
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCALLWAITINGINFOPARAMMASK, RILCALLWAITINGINFOPARAMMASK
+ms.date: 1/18/2018
+ms.keywords: rilapitypes/RILCALLWAITINGINFOPARAMMASK, rilapitypes/RIL_PARAM_CWI_CALLTYPE, rilapitypes/RIL_PARAM_CWI_ALL, RIL_PARAM_CWI_ALL, RILCALLWAITINGINFOPARAMMASK, RILCALLWAITINGINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_CWI_CALLERINFO, RIL_PARAM_CWI_CALLTYPE, RIL_PARAM_CWI_CALLERINFO, netvista.rilcallwaitinginfoparammask_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCALLWAITINGINFOPARAMMASK
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILCALLWAITINGINFOPARAMMASK
+product: Windows
+targetos: Windows
 req.typenames: RILCALLWAITINGINFOPARAMMASK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILCALLWAITINGINFOPARAMMASK enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILCALLWAITINGINFOPARAMMASK { 
@@ -57,13 +67,21 @@ typedef enum _RILCALLWAITINGINFOPARAMMASK {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_PARAM_CWI_EXECUTOR
+
+
+
 ### -field RIL_PARAM_CWI_CALLTYPE
+
 
 
 ### -field RIL_PARAM_CWI_CALLERINFO
 
 
+
 ### -field RIL_PARAM_CWI_ALL
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 451D1CE2-A50D-4E42-BD93-879503EDE4B5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_CREATECONTEXTVIRTUAL, D3DDDICB_CREATECONTEXTVIRTUAL
+ms.keywords: D3DDDICB_CREATECONTEXTVIRTUAL structure [Display Devices], d3dumddi/D3DDDICB_CREATECONTEXTVIRTUAL, display.d3dddicb_createcontextvirtual, D3DDDICB_CREATECONTEXTVIRTUAL, _D3DDDICB_CREATECONTEXTVIRTUAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_CREATECONTEXTVIRTUAL
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_CREATECONTEXTVIRTUAL
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_CREATECONTEXTVIRTUAL
 ---
 
 # _D3DDDICB_CREATECONTEXTVIRTUAL structure
 
 
-
 ## -description
+
+
 <b>D3DDDICB_CREATECONTEXTVIRTUAL</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcontextvirtualcb.md">pfnCreateContextVirtualCb</a> to create contexts that support virtual addressing.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_CREATECONTEXTVIRTUAL {
@@ -58,6 +68,9 @@ typedef struct _D3DDDICB_CREATECONTEXTVIRTUAL {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NodeOrdinal
 
@@ -89,18 +102,12 @@ typedef struct _D3DDDICB_CREATECONTEXTVIRTUAL {
 [out] A handle to the context that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcontextvirtualcb.md">pfnCreateContextVirtualCb</a> function creates. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcontextvirtualcb.md">pfnCreateContextVirtualCb</a>
-</dt>
-<dt>
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_createcontextflags.md">D3DDDI_CREATECONTEXTFLAGS</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcontextvirtualcb.md">pfnCreateContextVirtualCb</a>
+
  
 
  

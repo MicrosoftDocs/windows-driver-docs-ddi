@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: BD11B67F-9229-4584-A20D-7D7C70B42977
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tag_video_open_parms, VIDEO_OPEN_PARMS, *LPVIDEO_OPEN_PARMS
+ms.keywords: VIDEO_OPEN_PARMS structure [Streaming Media Devices], *LPVIDEO_OPEN_PARMS, tag_video_open_parms, LPVIDEO_OPEN_PARMS, LPVIDEO_OPEN_PARMS structure pointer [Streaming Media Devices], msviddrv/VIDEO_OPEN_PARMS, stream.video_open_parms, VIDEO_OPEN_PARMS, msviddrv/LPVIDEO_OPEN_PARMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VIDEO_OPEN_PARMS
-req.alt-loc: Msviddrv.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Msviddrv.h
+apiname: 
+-	VIDEO_OPEN_PARMS
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_OPEN_PARMS, *LPVIDEO_OPEN_PARMS
 ---
 
 # tag_video_open_parms structure
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: VIDEO_OPEN_PARMS, *LPVIDEO_OPEN_PARMS
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct tag_video_open_parms {
@@ -61,6 +71,9 @@ typedef struct tag_video_open_parms {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwSize
 
@@ -106,5 +119,3 @@ Reserved.
 
 Specifies the devnode for PnP devices.
 
-
-## -remarks

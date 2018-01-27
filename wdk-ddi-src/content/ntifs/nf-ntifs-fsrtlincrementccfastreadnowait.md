@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 14a1b22a-5d1b-4da6-9610-396fa128ce01
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlIncrementCcFastReadNoWait
+ms.keywords: FsRtlIncrementCcFastReadNoWait, ifsk.fsrtlincrementccfastreadnowait, FsRtlIncrementCcFastReadNoWait routine [Installable File System Drivers], ntifs/FsRtlIncrementCcFastReadNoWait, fsrtlref_f72704ce-84b6-4201-a727-b97fd70accfd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows XP and
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlIncrementCcFastReadNoWait
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlIncrementCcFastReadNoWait
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlIncrementCcFastReadNoWait function
 
 
-
 ## -description
+
+
 The <b>FsRtlIncrementCcFastReadNoWait</b> routine increments the CcFastReadNoWait performance counter in a per processor control block of cache manager system counters.
 
 
-
 ## -syntax
+
 
 ````
 VOID FsRtlIncrementCcFastReadNoWait(
@@ -54,36 +64,39 @@ VOID FsRtlIncrementCcFastReadNoWait(
 
 ## -parameters
 
-### -param  
 
-None
+
+
+
+
 
 
 ## -returns
+
+
 This routine does not return a value.
 
 
+
 ## -remarks
+
+
 <b>FsRtlIncrementCcFastReadNoWait</b> increments the CcFastReadNoWait performance counter in the per processor control block of cache manager system counters. This counter indicates that a fast I/O read operation, <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopyread~r7.md">FsRtlCopyRead</a>, was called with the <i>Wait</i> parameter set to <b>FALSE</b> indicating that the caller cannot be put into a wait state until all the data has been copied.
 
 File system drivers should call this function to update the performance counter if the driver chooses to override the default fast I/O read handler.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopyread~r7.md">FsRtlCopyRead</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadnotpossible.md">FsRtlIncrementCcFastReadNotPossible</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadresourcemiss.md">FsRtlIncrementCcFastReadResourceMiss</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadnotpossible.md">FsRtlIncrementCcFastReadNotPossible</a>
+
 <a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadwait.md">FsRtlIncrementCcFastReadWait</a>
-</dt>
-</dl>
+
  
 
  

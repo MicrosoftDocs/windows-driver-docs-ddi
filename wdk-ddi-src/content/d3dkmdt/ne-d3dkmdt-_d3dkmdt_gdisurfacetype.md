@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b1c8fc0a-b877-4321-85b9-0c5c174ffc45
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMDT_GDISURFACETYPE, D3DKMDT_GDISURFACETYPE
+ms.keywords: D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE, D3DKMDT_GDISURFACE_TEXTURE, D3DKMDT_GDISURFACE_STAGING, D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE, _D3DKMDT_GDISURFACETYPE, d3dkmdt/D3DKMDT_GDISURFACE_STAGING, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE, d3dkmdt/D3DKMDT_GDISURFACETYPE, d3dkmdt/D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE, DmEnums_5e870c41-1496-48ff-bddd-f01a2f9e36e6.xml, display.d3dkmdt_gdisurfacetype, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE_CROSSADAPTER, D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE, D3DKMDT_GDISURFACE_INVALID, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER, D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE_CROSSADAPTER, D3DKMDT_GDISURFACE_LOOKUPTABLE, d3dkmdt/D3DKMDT_GDISURFACE_INVALID, d3dkmdt/D3DKMDT_GDISURFACE_EXISTINGSYSMEM, D3DKMDT_GDISURFACE_EXISTINGSYSMEM, d3dkmdt/D3DKMDT_GDISURFACE_LOOKUPTABLE, D3DKMDT_GDISURFACETYPE, D3DKMDT_GDISURFACETYPE enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMDT_GDISURFACETYPE
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	D3DKMDT_GDISURFACETYPE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMDT_GDISURFACETYPE
 ---
 
 # _D3DKMDT_GDISURFACETYPE enumeration
 
 
-
 ## -description
+
+
 The D3DKMDT_GDISURFACETYPE enumeration indicates the type of lockable surface that is used by the Desktop Window Manager (DWM) for redirection.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3DKMDT_GDISURFACETYPE { 
@@ -64,6 +74,9 @@ typedef enum _D3DKMDT_GDISURFACETYPE {
 
 ## -enum-fields
 
+
+
+
 ### -field D3DKMDT_GDISURFACE_INVALID
 
 The driver should not see this value.
@@ -72,7 +85,6 @@ The driver should not see this value.
 ### -field D3DKMDT_GDISURFACE_TEXTURE
 
 Indicates that the surface has the following properties:
-
 <ul>
 <li>
 It has a one-level texture.
@@ -99,7 +111,6 @@ It is used as a source or destination surface in GDI hardware-accelerated operat
 ### -field D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE
 
 Indicates that the surface has the following properties:
-
 <ul>
 <li>
 It is visible to the CPU and will be extensively used by the CPU. The allocation must be a linear format and in a cache-coherent GPU aperture segment.
@@ -126,7 +137,6 @@ Its pitch value and surface address must be aligned to the value of the <b>Align
 ### -field D3DKMDT_GDISURFACE_STAGING
 
 Indicates that the surface has the following properties:
-
 <ul>
 <li>
 It is not visible to the CPU.
@@ -145,7 +155,6 @@ It is used as a source or destination surface in GDI bitblt (copy-only) operatio
 ### -field D3DKMDT_GDISURFACE_LOOKUPTABLE
 
 Indicates that the surface has the following properties:
-
 <ul>
 <li>
 It is not visible to the CPU.
@@ -168,7 +177,6 @@ The gamma lookup allocation is created one time and never changes after it is in
 ### -field D3DKMDT_GDISURFACE_EXISTINGSYSMEM
 
 Indicates that the surface has the following properties:
-
 <ul>
 <li>
 It is visible to the CPU. The allocation must be a linear format and in a cache-coherent GPU aperture segment.
@@ -198,7 +206,6 @@ Supported starting with Windows 8.
 ### -field D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER
 
 Indicates that the surface has the following properties:
-
 <ul>
 <li>
 It is not visible to the CPU, and the video memory manager will create it as a shared cross-adapter surface.
@@ -212,8 +219,7 @@ Its pitch must be returned by the display miniport driver in the <b>Pitch</b> me
 The pitch and height must have the required alignment for the cross-adapter resource. You can use the <b>D3DKMT_CROSS_ADAPTER_RESOURCE_PITCH_ALIGNMENT</b> and <b>D3DKMT_CROSS_ADAPTER_RESOURCE_HEIGHT_ALIGNMENT</b> constants to validate that the driver returns the correct pitch and height for the cross-adapter resource. These constants are defined in D3dukmdt.h.
 
 </li>
-</ul>
-Supported starting with Windows 8.1.
+</ul>Supported starting with Windows 8.1.
 
 
 ### -field D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE_CROSSADAPTER
@@ -223,27 +229,18 @@ Reserved for system use. Do not use this value in your driver.
 Supported starting with Windows 8.1.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-</dt>
-<dt>
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_gdisurfacedata.md">D3DKMDT_GDISURFACEDATA</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_renderkm_command.md">DXGK_RENDERKM_COMMAND</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_gdisurfacedata.md">D3DKMDT_GDISURFACEDATA</a>
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C39262BA-D1CE-4634-974A-ACCE8D321830
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDICB_ALLOCATE_0022, D3D12DDICB_ALLOCATE_0022
+ms.keywords: D3D12DDICB_ALLOCATE_0022, D3D12DDICB_ALLOCATE_0022 structure [Display Devices], d3d12umddi/D3D12DDICB_ALLOCATE_0022, display.d3d12ddicb_allocate_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDICB_ALLOCATE_0022
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDICB_ALLOCATE_0022
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDICB_ALLOCATE_0022
 ---
 
 # D3D12DDICB_ALLOCATE_0022 structure
 
 
-
 ## -description
+
+
 Specifies information for use in an allocation callback function. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDICB_ALLOCATE_0022 {
@@ -58,6 +68,9 @@ typedef struct D3D12DDICB_ALLOCATE_0022 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pPrivateDriverData
 
@@ -89,15 +102,10 @@ The number of allocations.
 Allocation as a <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_allocation_info_0022.md">D3D12DDI_ALLOCATION_INFO_0022</a> structure. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_allocation_info_0022.md">D3D12DDI_ALLOCATION_INFO_0022</a>
-</dt>
-</dl>
+
  
 
  

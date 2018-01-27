@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 93C2ABCE-15C9-4EE4-A9B5-A81788DB608C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ISensorDriver, ISensorDriver::OnSetProperties, OnSetProperties
+ms.keywords: sensors.evt_sensor_driver_start_state_change_notification, EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION callback function [Sensor Devices], EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION, sensorscx/EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION
-req.alt-loc: sensorscx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: _requires_same_
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	sensorscx.h
+apiname: 
+-	EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION
+product: Windows
+targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION callback
 
 
-
 ## -description
+
+
 Used to start a state change notification.
 
 
-
 ## -prototype
+
 
 ````
 NTSTATUS  EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION(
@@ -55,13 +65,17 @@ NTSTATUS  EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION(
 
 ## -parameters
 
+
+
+
 ### -param Sensors [in]
 
 Holds information on the sensors handled by the sensor driver.
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS if completed successfully.
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 29b77215-9c7e-47f2-8c94-0bcd733f54a2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFMemory, IWDFMemory::CopyFromMemory, CopyFromMemory
+ms.keywords: IWDFMemory::CopyFromMemory, wudfddi/IWDFMemory::CopyFromMemory, CopyFromMemory method, IWDFMemory interface, UMDFMemoryObjectRef_c5bc961a-62e9-4692-bbd7-6551b268b08b.xml, IWDFMemory, CopyFromMemory, IWDFMemory interface, CopyFromMemory method, CopyFromMemory method, umdf.iwdfmemory_copyfrommemory, wdf.iwdfmemory_copyfrommemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.5
-req.alt-api: IWDFMemory.CopyFromMemory
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFMemory.CopyFromMemory
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IWDFMemory::CopyFromMemory method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CopyFromMemory</b> method safely copies data from the specified source buffer and prevents overruns that the copy operation might otherwise cause.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT CopyFromMemory(
@@ -58,12 +68,26 @@ HRESULT CopyFromMemory(
 
 ## -parameters
 
-### -param pSource [in]
+
+
+
+### -param Source
+
+
+
+
+### -param SourceOffset
+
+
+
+
+
+#### - pSource [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface for the memory object that is the source of the copy operation.
 
 
-### -param pSourceOffset [in, optional]
+#### - pSourceOffset [in, optional]
 
 A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that describes the information that is copied from a memory block. This parameter is optional. The driver can pass <b>NULL</b> if the entire source buffer is copied. 
 
@@ -73,21 +97,18 @@ The <b>BufferLength</b> member should be set to 0; the framework ignores this me
 
 
 ## -returns
+
+
 <b>CopyFromMemory</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
-</dt>
-<dt>
+
 <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
-</dt>
-</dl>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
  
 
  

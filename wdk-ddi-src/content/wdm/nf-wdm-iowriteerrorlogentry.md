@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1259c344-584c-410a-a152-5de1f433082c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoWriteErrorLogEntry
+ms.keywords: IoWriteErrorLogEntry routine [Kernel-Mode Driver Architecture], kernel.iowriteerrorlogentry, wdm/IoWriteErrorLogEntry, IoWriteErrorLogEntry, k104_1822a499-059a-41c8-b97b-aa3a5bfd22e3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoWriteErrorLogEntry
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlDispatch
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoWriteErrorLogEntry
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoWriteErrorLogEntry function
 
 
-
 ## -description
+
+
 The <b>IoWriteErrorLogEntry</b> routine queues a given error log packet to the system error logging thread.
 
 
-
 ## -syntax
+
 
 ````
 VOID IoWriteErrorLogEntry(
@@ -55,31 +65,36 @@ VOID IoWriteErrorLogEntry(
 
 ## -parameters
 
+
+
+
 ### -param ElEntry [in]
 
 Pointer to the error log packet the driver has allocated with <a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a> and filled in by the caller. 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>IoWriteErrorLogEntry</b> frees the error log entry. Drivers must not call <b>IoFreeErrorLogEntry</b> on a log entry that they have already passed to <b>IoWriteErrorLogEntry</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_io_error_log_packet.md">IO_ERROR_LOG_PACKET</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iofreeerrorlogentry.md">IoFreeErrorLogEntry</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_io_error_log_packet.md">IO_ERROR_LOG_PACKET</a>
+
  
 
  

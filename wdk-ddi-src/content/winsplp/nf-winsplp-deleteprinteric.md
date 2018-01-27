@@ -7,8 +7,8 @@ old-location: print\deleteprinteric.htm
 old-project: print
 ms.assetid: 8D79AB9D-02BB-4032-AC5D-9099A672382F
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: DeletePrinterIC
+ms.date: 1/18/2018
+ms.keywords: winsplp/DeletePrinterIC, DeletePrinterIC, DeletePrinterIC function [Print Devices], print.deleteprinteric
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DeletePrinterIC
-req.alt-loc: Winsplp.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Winsplp.h
+apiname: 
+-	DeletePrinterIC
+product: Windows
+targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # DeletePrinterIC function
 
 
-
 ## -description
 
 
 
 
+
 ## -syntax
+
 
 ````
 BOOL WINAPI DeletePrinterIC(
@@ -55,7 +65,9 @@ BOOL WINAPI DeletePrinterIC(
 
 ## -parameters
 
+
+
+
 ### -param hPrinterIC [in]
 
 
-## -remarks

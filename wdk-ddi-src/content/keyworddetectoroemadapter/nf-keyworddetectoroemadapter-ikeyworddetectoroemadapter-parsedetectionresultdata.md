@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 97C92A85-BE00-4B95-80D1-20FE7A31BCA9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter::ParseDetectionResultData, ParseDetectionResultData
+ms.keywords: IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter::ParseDetectionResultData, audio.ikeyworddetectoroemadapter_parsedetectionresultdata, ParseDetectionResultData method [Audio Devices], ParseDetectionResultData, ParseDetectionResultData method [Audio Devices], IKeywordDetectorOemAdapter interface, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ParseDetectionResultData, IKeywordDetectorOemAdapter interface [Audio Devices], ParseDetectionResultData method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKeywordDetectorOemAdapter.ParseDetectionResultData
-req.alt-loc: KeywordDetectorOemAdapter.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: KeywordDetectorOemAdapter.idl
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: keyworddetectoroemadapter.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	KeywordDetectorOemAdapter.h
+apiname: 
+-	IKeywordDetectorOemAdapter.ParseDetectionResultData
+product: Windows
+targetos: Windows
 req.typenames: KEYWORDID
 ---
 
 # IKeywordDetectorOemAdapter::ParseDetectionResultData method
 
 
-
 ## -description
+
+
 The <b>ParseDetectionResultData</b> method is called by the operating system after handling a keyword detection event and after retrieving the result data from <a href="https://msdn.microsoft.com/library/windows/hardware/dn932150">KSPROPERTY_SOUNDDETECTOR_MATCHRESULT</a>. The operating system passes the OEM-specific match result data to this method in order to get the results of a keyword detection.  The OEMDLL processes the results and returns information about the matched keyword, the language associated with the matched keyword, and the matched user (if any).
 
 
-
 ## -syntax
+
 
 ````
 HRESULT ParseDetectionResultData(
@@ -60,9 +70,10 @@ HRESULT ParseDetectionResultData(
 
 ## -parameters
 
-### -param ModelData [in]
 
-A pointer to <b>IStream</b> bound to model data for the arming pattern.
+
+
+### -param UserModelData
 
 
 
@@ -88,38 +99,105 @@ Identifies a language.
 Indicates if the user matched.
 
 
-### -param KeywordStartPerformanceCounter [out]
-
-Optionally returns the start time of the keyword in terms of the Windows performance counter. The OEMDLL should return 0 if this is not available.
+### -param KeywordStartPerformanceCounterValue
 
 
-### -param KeywordEndPerformanceCounter [out]
+
+
+### -param KeywordEndPerformanceCounterValue
+
+
+
+
+
+#### - ModelData [in]
+
+A pointer to <b>IStream</b> bound to model data for the arming pattern.
+
+
+
+
+#### - KeywordEndPerformanceCounter [out]
 
 Optionally returns the end time of the keyword in terms of the Windows performance counter. The OEMDLL should return 0 if this is not available.
 
 
+#### - KeywordStartPerformanceCounter [out]
+
+Optionally returns the start time of the keyword in terms of the Windows performance counter. The OEMDLL should return 0 if this is not available.
+
+
 ## -returns
+
+
 This method can return one of these values.
+<table>
+<tr>
+<th>Return value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt>S_OK</dt>
-</dl>The function exited successfully. 
+</dl>
+</td>
+<td width="60%">
+The function exited successfully. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt>E_POINTER</dt>
-</dl> The <i>ModelData</i> pointer is <b>NULL</b>.
+</dl>
+</td>
+<td width="60%">
+ The <i>ModelData</i> pointer is <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt>E_INVALIDARG</dt>
-</dl> The <i>KeywordId</i> or <i>LangId</i> parameters are invalid.
+</dl>
+</td>
+<td width="60%">
+ The <i>KeywordId</i> or <i>LangId</i> parameters are invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt>HRESULT_FROM_WIN32(ERROR_GEN_FAILURE)</dt>
-</dl> The processing was unable to complete.
+</dl>
+</td>
+<td width="60%">
+ The processing was unable to complete.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt>E_HW_RESET</dt>
-</dl>The hardware reset due to an internal fault.
+</dl>
+</td>
+<td width="60%">
+The hardware reset due to an internal fault.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 If the driver includes any portion of the spoken keyword in the burst keyword/command stream from its keyword detector pin, then the driver must return a valid value for <i>KeywordEndTime</i>. Otherwise the driver may optionally return 0.
 
 
@@ -132,27 +210,21 @@ The driver may return valid values for <i>KeywordStartTime</i> and <i>KeywordEnd
 If the caller receives <b>E_HW_RESET</b>, no keyword was detected by the hardware and the state was lost. A re-arm will be required to get back to a monitoring state.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn932150">KSPROPERTY_SOUNDDETECTOR_MATCHRESULT</a>
-</dt>
-<dt>
-<a href="..\ksmedia\ns-ksmedia-sounddetector_patternheader.md">SOUNDDETECTOR_PATTERNHEADER</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn932150">KSPROPERTY_SOUNDDETECTOR_MATCHRESULT</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946533">IMiniportWaveRTInputStream::GetReadPacket</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>
+
+<a href="..\ksmedia\ns-ksmedia-sounddetector_patternheader.md">SOUNDDETECTOR_PATTERNHEADER</a>
+
+<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
+
  
 
  

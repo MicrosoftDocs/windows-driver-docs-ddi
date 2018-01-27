@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 388dc11d-79cc-4e6b-bce0-b99cca556342
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltQuerySecurityObject
+ms.keywords: fltkernel/FltQuerySecurityObject, ifsk.fltquerysecurityobject, FltQuerySecurityObject function [Installable File System Drivers], FltQuerySecurityObject, FltApiRef_p_to_z_6fa8f026-1268-4a97-b1e3-a2773e0a1784.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltQuerySecurityObject
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltQuerySecurityObject
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltQuerySecurityObject function
 
 
-
 ## -description
+
+
 <b>FltQuerySecurityObject</b> retrieves a copy of an object's security 
    descriptor.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltQuerySecurityObject(
@@ -59,6 +69,9 @@ NTSTATUS FltQuerySecurityObject(
 
 
 ## -parameters
+
+
+
 
 ### -param Instance [in]
 
@@ -77,7 +90,6 @@ File object pointer for the object whose security descriptor is being queried. T
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> value. This parameter is 
        required and must be one of the following:
-
 <table>
 <tr>
 <th>SecurityInformation Value</th>
@@ -127,8 +139,7 @@ The system ACL (SACL) of the object is being queried. Requires
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param SecurityDescriptor [in, out]
@@ -152,20 +163,45 @@ Pointer to a caller-allocated variable that receives the number of bytes require
 
 
 ## -returns
+
+
 <b>FltQuerySecurityObject</b> returns STATUS_SUCCESS or an appropriate 
       <b>NTSTATUS</b> value such as one of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>The caller did not have the required access. This is an error code.
+</dl>
+</td>
+<td width="60%">
+The caller did not have the required access. This is an error code.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The buffer is too small to contain the security descriptor. None of the security information was copied 
+</dl>
+</td>
+<td width="60%">
+The buffer is too small to contain the security descriptor. None of the security information was copied 
         to the buffer. This is an error code.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A security descriptor can be in absolute or self-relative form. In self-relative form, all members of the 
      structure are located contiguously in memory. In absolute form, the structure contains only pointers to its 
      members.
@@ -182,18 +218,15 @@ The object that the <i>FileObject</i> parameter points to can represent a named 
 For more information about security and access control, see the Microsoft Windows SDK documentation.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\ns-ntifs-_file_stream_information.md">FILE_STREAM_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\ns-ntifs-_file_stream_information.md">FILE_STREAM_INFORMATION</a>
+
  
 
  

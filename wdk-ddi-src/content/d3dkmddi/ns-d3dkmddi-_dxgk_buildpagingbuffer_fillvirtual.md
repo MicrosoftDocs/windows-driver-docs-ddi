@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 373065F6-C754-4517-905E-86A974866120
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL, DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL
+ms.keywords: DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL structure [Display Devices], d3dkmddi/DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL, DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL, display.dxgk_buildpagingbuffer_fillvirtual, _DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL
+product: Windows
+targetos: Windows
 req.typenames: DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL
 ---
 
 # _DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL structure
 
 
-
 ## -description
+
+
 <b>DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL</b> is used as part of an operation to fill an allocation with a pattern.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL {
@@ -57,6 +67,9 @@ typedef struct _DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hAllocation
 
@@ -83,18 +96,12 @@ The byte pattern to fill with.
 The virtual address of the destination in the context of the paging process.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
-</dt>
-</dl>
+
  
 
  

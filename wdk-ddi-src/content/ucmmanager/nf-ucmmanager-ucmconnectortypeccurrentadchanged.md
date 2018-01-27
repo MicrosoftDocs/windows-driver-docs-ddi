@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 26C4D840-2287-4DC2-B039-FD8D2FB92288
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmConnectorTypeCCurrentAdChanged
+ms.keywords: buses.ucmconnectortypeccurrentadchanged, UcmConnectorTypeCCurrentAdChanged method [Buses], ucmmanager/UcmConnectorTypeCCurrentAdChanged, UcmConnectorTypeCCurrentAdChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 2.15
-req.alt-api: UcmConnectorTypeCCurrentAdChanged
-req.alt-loc: UcmCxstub.lib,UcmCxstub.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: UcmCxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	UcmCxstub.lib
+-	UcmCxstub.dll
+apiname: 
+-	UcmConnectorTypeCCurrentAdChanged
+product: Windows
+targetos: Windows
 req.typenames: *PPORT_DATA_1, PORT_DATA_1
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # UcmConnectorTypeCCurrentAdChanged function
 
 
-
 ## -description
+
+
 Notifies the USB connector manager framework extension (UcmCx) when the specified connector changes the current advertisement. Either the connector changes it (when it is DFP/Source), or the partner changed it (when it is UFP/Sink).
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS UcmConnectorTypeCCurrentAdChanged(
@@ -55,6 +66,9 @@ NTSTATUS UcmConnectorTypeCCurrentAdChanged(
 
 
 ## -parameters
+
+
+
 
 ### -param Connector [in]
 
@@ -67,25 +81,27 @@ The new current advertisement of the connector indicated by one of the <a href="
 
 
 ## -returns
+
+
 <b>UcmConnectorTypeCCurrentAdChanged</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> value. 
 
 
+
 ## -remarks
+
+
 When using a Type-C connector for charging, the partner connector sends a current advertisement when it's attached to the local connector. That initial advertisement is report to UcmCx  by calling <a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>.  During the lifetime of the connection, the current level advertised by the source might change. The client driver must notify UcmCx about  that change by calling method. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>
-</dt>
-<dt>
+
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
-</dt>
-<dt>
+
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypeccurrentadchanged.md">UcmConnectorTypeCCurrentAdChanged</a>
-</dt>
-</dl>
+
+<a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>
+
  
 
  

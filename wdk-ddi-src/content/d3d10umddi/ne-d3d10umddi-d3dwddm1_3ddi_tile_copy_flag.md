@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DE743C61-4060-4601-987C-8026C78801A7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DWDDM1_3DDI_TILE_COPY_FLAG, D3DWDDM1_3DDI_TILE_COPY_FLAG
+ms.keywords: d3d10umddi/D3DWDDM1_3DDI_TILE_COPY_FLAG, d3d10umddi/D3DWDDM1_3DDI_TILE_COPY_SWIZZLED_TILED_RESOURCE_TO_LINEAR_BUFFER, D3DWDDM1_3DDI_TILE_COPY_SWIZZLED_TILED_RESOURCE_TO_LINEAR_BUFFER, d3d10umddi/D3DWDDM1_3DDI_TILE_COPY_NO_OVERWRITE, display.d3dwddm1_3ddi_tile_copy_flag, D3DWDDM1_3DDI_TILE_COPY_FLAG enumeration [Display Devices], D3DWDDM1_3DDI_TILE_COPY_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE, D3DWDDM1_3DDI_TILE_COPY_NO_OVERWRITE, d3d10umddi/D3DWDDM1_3DDI_TILE_COPY_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE, D3DWDDM1_3DDI_TILE_COPY_FLAG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1,WDDM 1.3
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DWDDM1_3DDI_TILE_COPY_FLAG
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3DWDDM1_3DDI_TILE_COPY_FLAG
+product: Windows
+targetos: Windows
 req.typenames: D3DWDDM1_3DDI_TILE_COPY_FLAG
 ---
 
 # D3DWDDM1_3DDI_TILE_COPY_FLAG enumeration
 
 
-
 ## -description
+
+
 Identifies how to copy a tile using the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_copytiles.md">CopyTiles</a> function.
 
 
-
 ## -syntax
+
 
 ````
 enum D3DWDDM1_3DDI_TILE_COPY_FLAG {
@@ -56,6 +66,9 @@ enum D3DWDDM1_3DDI_TILE_COPY_FLAG {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DWDDM1_3DDI_TILE_COPY_NO_OVERWRITE
 
@@ -72,15 +85,10 @@ The <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_copytiles.md">CopyTile
 The <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_copytiles.md">CopyTiles</a> operation involves copying a swizzled tiled resource to a linear buffer. This means to copy tile data from the tile region, reading tiles sequentially (in <i>x</i>, <i>y</i>, <i>z</i> order if the region is a box), to the specified buffer location, deswizzling to linear memory layout as needed. In this <i>CopyTiles</i> call, you specify the source data with the <i>hTiledResource</i> parameter and the destination with the <i>hBuffer</i> parameter.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_copytiles.md">CopyTiles</a>
-</dt>
-</dl>
+
  
 
  

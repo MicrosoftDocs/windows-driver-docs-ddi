@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 678998C5-DC3B-471D-ADBF-876EFB53D227
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_GENERAL_ERROR_CODE, DXGK_GENERAL_ERROR_CODE
+ms.keywords: d3dkmdt/DXGK_GENERAL_ERROR_CODE, d3dkmdt/DXGK_GENERAL_ERROR_INVALID_INSTRUCTION, DXGK_GENERAL_ERROR_CODE enumeration [Display Devices], _DXGK_GENERAL_ERROR_CODE, d3dkmdt/DXGK_GENERAL_ERROR_PAGE_FAULT, display.dxgk_general_error_code, DXGK_GENERAL_ERROR_CODE, DXGK_GENERAL_ERROR_PAGE_FAULT, DXGK_GENERAL_ERROR_INVALID_INSTRUCTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_GENERAL_ERROR_CODE
-req.alt-loc: D3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmdt.h
+apiname: 
+-	DXGK_GENERAL_ERROR_CODE
+product: Windows
+targetos: Windows
 req.typenames: DXGK_GENERAL_ERROR_CODE
 ---
 
 # _DXGK_GENERAL_ERROR_CODE enumeration
 
 
-
 ## -description
+
+
 The <b>DXGK_GENERAL_ERROR_CODE</b> enumeration specifies a set of predefined graphics processing unit (GPU) errors reported via a page fault interrupt.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXGK_GENERAL_ERROR_CODE { 
@@ -55,6 +65,9 @@ typedef enum _DXGK_GENERAL_ERROR_CODE {
 
 ## -enum-fields
 
+
+
+
 ### -field DXGK_GENERAL_ERROR_PAGE_FAULT
 
 Indicates that the GPU encountered a page fault. The <b>FaultedVirtualAddress</b> and <b>PageTableLevel</b> members of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a> structure should be used to provide further information about the GPU virtual address operation that caused the fault.
@@ -65,15 +78,10 @@ Indicates that the GPU encountered a page fault. The <b>FaultedVirtualAddress</b
 Indicates that the GPU encountered an invalid instruction in the DMA command buffer.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
-</dt>
-</dl>
+
  
 
  

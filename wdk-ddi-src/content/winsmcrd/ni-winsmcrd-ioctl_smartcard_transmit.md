@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: FE6CB06D-C418-4B9E-B5F6-8579B1ED5974
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: GdiStartPageEMF
+ms.keywords: nfpdrivers.ioctl_smartcard_transmit, IOCTL_SMARTCARD_TRANSMIT control code [Near-Field Proximity Drivers], IOCTL_SMARTCARD_TRANSMIT, winsmcrd/IOCTL_SMARTCARD_TRANSMIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_SMARTCARD_TRANSMIT
-req.alt-loc: winsmcrd.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,60 +29,119 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	winsmcrd.h
+apiname: 
+-	IOCTL_SMARTCARD_TRANSMIT
+product: Windows
+targetos: Windows
+req.typenames: *PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME
 req.product: Windows 10 or later.
 ---
 
 # IOCTL_SMARTCARD_TRANSMIT IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
-Transmits data from the client to the detected smart card in ISO7816-4 compliant APDU. These APDUs are interpreted with respect to the PC/SC specification (Section 4.3.7 has more detailed requirements on support for different NFC contactless tag formats). Because the NFP feature shares the same driver with the smartcard, the card should be connected right after the discovery, no explicit connect for the ‘Transmit’ is needed.
 
+
+Transmits data from the client to the detected smart card in ISO7816-4 compliant APDU. These APDUs are interpreted with respect to the PC/SC specification (Section 4.3.7 has more detailed requirements on support for different NFC contactless tag formats). Because the NFP feature shares the same driver with the smartcard, the card should be connected right after the discovery, no explicit connect for the ‘Transmit’ is needed.
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 Bytes buffer contains a pointer to SCARD_IO_REQUEST structure followed by the data to be transmitted.
 
 
 ### -input-buffer-length
 
+
 <text></text>
 
+
+
 ### -output-buffer
+
 Bytes buffer contains the result of the transmission. The buffer points to the SCARD_IO_REQUEST structure immediately followed by the data received.
 
 
 ### -output-buffer-length
 
+
 <text></text>
+
+
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 <b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
-
- 
-
-
-## -remarks
+<table>
+<tr>
+<td>Return Code</td>
+<td>Description</td>
+</tr>
+<tr>
+<td>STATUS_NO_MEDIA</td>
+<td>This code is returned if no smart card is detected.</td>
+</tr>
+<tr>
+<td>STATUS_INVALID_PARAMETER</td>
+<td>This code is returned the buffer does not contain the SCARD_IO_REQUEST structure, or is otherwise invalid.</td>
+</tr>
+<tr>
+<td>STATUS_INVALID_DEVICE_STATE</td>
+<td>This code is returned if the caller tries to send data with the protocol different from the previously selected protocol.</td>
+</tr>
+<tr>
+<td>STATUS_BUFFER_TOO_SMALL</td>
+<td>This code is returned if the output buffer is too small for the return data.</td>
+</tr>
+<tr>
+<td>STATUS_IO_TIMEOUT</td>
+<td>This code is returned if the operation takes too long.</td>
+</tr>
+<tr>
+<td>STATUS_DEVICE_POWERED_OFF</td>
+<td>This code is returned if the proximity radio control is off.</td>
+</tr>
+</table> 
 
 
 ## -see-also
-<dl>
-<dt><a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a></dt>
-<dt><a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a></dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
  
 
  

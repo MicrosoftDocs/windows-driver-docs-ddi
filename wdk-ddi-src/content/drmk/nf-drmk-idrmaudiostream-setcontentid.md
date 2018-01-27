@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0e9d13e8-c351-4730-8f00-6c149f824af0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IDrmAudioStream, IDrmAudioStream::SetContentId, SetContentId
+ms.keywords: IDrmAudioStream interface [Audio Devices], SetContentId method, drmk/IDrmAudioStream::SetContentId, IDrmAudioStream, SetContentId method [Audio Devices], SetContentId, SetContentId method [Audio Devices], IDrmAudioStream interface, IDrmAudioStream::SetContentId, audio.idrmaudiostream_setcontentid, audmp-routines_66106418-566d-4203-a6d6-faae74a6db13.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDrmAudioStream.SetContentId
-req.alt-loc: drmk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: drmk.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	drmk.h
+apiname: 
+-	IDrmAudioStream.SetContentId
+product: Windows
+targetos: Windows
 req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 ---
 
 # IDrmAudioStream::SetContentId method
 
 
-
 ## -description
+
+
 The <code>SetContentId</code> method sets the DRM content ID and its assigned DRM content rights on a KS audio stream.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SetContentId(
@@ -54,6 +64,9 @@ NTSTATUS SetContentId(
 
 
 ## -parameters
+
+
+
 
 ### -param ContentId [in]
 
@@ -66,10 +79,15 @@ Pointer to a <a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a> structure s
 
 
 ## -returns
+
+
 <code>SetContentId</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code. If the filter cannot enforce the specified content rights, the method returns STATUS_NOT_IMPLEMENTED.
 
 
+
 ## -remarks
+
+
 The DRM system can call the <code>SetContentId</code> method at any time during the lifetime of a KS audio stream.
 
 A KS audio filter completes the execution of a call to the <code>SetContentId</code> method synchronously. If the function returns STATUS_SUCCESS, this indicates that all the downstream KS audio nodes (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff536219">Audio Topology Nodes</a>) of a KS audio stream have also been successfully configured with the specified DRM content ID and DRM content rights. (The term <i>downstream node</i> refers to either a direct or an indirect sink for an audio stream.)
@@ -79,30 +97,23 @@ If the KS audio filter cannot enforce the specified DRM content rights, the <cod
 For more information about using this method, see <a href="https://msdn.microsoft.com/7ce19196-5180-421f-b6be-ac4a235a8c16">Digital Rights Management</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\drmk\nn-drmk-idrmaudiostream.md">IDrmAudioStream</a>
-</dt>
-<dt>
-<a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a>
-</dt>
-<dt>
-<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
-</dt>
-<dt>
+
 <a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
-</dt>
-<dt>
-<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
-</dt>
-<dt>
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
-</dt>
-<dt>
+
 <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
-</dt>
-</dl>
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
+
+<a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a>
+
+<a href="..\drmk\nn-drmk-idrmaudiostream.md">IDrmAudioStream</a>
+
+<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+
  
 
  

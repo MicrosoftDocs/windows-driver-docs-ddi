@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0c6b4b7c-548d-42c0-af9b-cf0d65bf2e45
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _REPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA
+ms.keywords: PREPORT_ZONES_EXT_DATA, _REPORT_ZONES_EXT_DATA, ata/PREPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA, storage.report_zones_ext_data, ata/REPORT_ZONES_EXT_DATA, PREPORT_ZONES_EXT_DATA structure pointer [Storage Devices], REPORT_ZONES_EXT_DATA structure [Storage Devices], *PREPORT_ZONES_EXT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: REPORT_ZONES_EXT_DATA
-req.alt-loc: ata.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ata.h
+apiname: 
+-	REPORT_ZONES_EXT_DATA
+product: Windows
+targetos: Windows
+req.typenames: *PREPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA
 ---
 
 # _REPORT_ZONES_EXT_DATA structure
 
 
-
 ## -description
+
+
 
 <div class="alert"><b>Note</b>  This  structure is for internal use only and should not be called from your code.</div>
 <div> </div>
 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _REPORT_ZONES_EXT_DATA {
@@ -62,6 +72,9 @@ typedef struct _REPORT_ZONES_EXT_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ZoneListLength
 
@@ -97,5 +110,3 @@ Reserved for future use.
 
 Reserved for future use.
 
-
-## -remarks

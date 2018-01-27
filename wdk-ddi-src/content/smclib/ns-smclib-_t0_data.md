@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: CC827018-F6B2-48DF-BF0A-36654F866BD9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _T0_DATA, *PT0_DATA, T0_DATA
+ms.keywords: smclib/T0_DATA, smartcrd.t0_data, PT0_DATA, T0_DATA, T0_DATA structure [Smart Card Reader Devices], PT0_DATA structure pointer [Smart Card Reader Devices], *PT0_DATA, smclib/PT0_DATA, _T0_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: T0_DATA
-req.alt-loc: Smclib.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PT0_DATA, T0_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Smclib.h
+apiname: 
+-	T0_DATA
+product: Windows
+targetos: Windows
+req.typenames: T0_DATA, *PT0_DATA
 req.product: Windows 10 or later.
 ---
 
 # _T0_DATA structure
 
 
-
 ## -description
+
+
 The T0_DATA structure is used by the smart card driver library to process T0 I/O. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _T0_DATA {
@@ -56,6 +66,9 @@ typedef struct _T0_DATA {
 
 ## -struct-fields
 
+
+
+
 ### -field Lc
 
 Number of data bytes in the request.
@@ -65,5 +78,3 @@ Number of data bytes in the request.
 
 Number of expected bytes from the card.
 
-
-## -remarks

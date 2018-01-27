@@ -7,8 +7,8 @@ old-location: netvista\ndismresetcomplete.htm
 old-project: netvista
 ms.assetid: 3da12a14-a90a-46a6-b67e-55044fdc3ca1
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisMResetComplete
+ms.date: 1/18/2018
+ms.keywords: netvista.ndismresetcomplete, miniport_ndis_functions_ref_cea3e0dd-c6cb-49a7-86e3-68b779a355d2.xml, NdisMResetComplete, ndis/NdisMResetComplete, NdisMResetComplete function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 5.1, and NDIS 6.0 and later. For ND
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisMResetComplete
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_Miniport_Driver_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisMResetComplete
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMResetComplete function
 
 
-
 ## -description
+
+
 The 
   <b>NdisMResetComplete</b> function returns the final status of a reset request for which the miniport driver
   previously returned NDIS_STATUS_PENDING.
 
 
-
 ## -syntax
+
 
 ````
 VOID NdisMResetComplete(
@@ -57,6 +68,9 @@ VOID NdisMResetComplete(
 
 
 ## -parameters
+
+
+
 
 ### -param MiniportAdapterHandle [in]
 
@@ -87,10 +101,15 @@ For more information, see
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 If the 
     <a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a> function returns
     NDIS_STATUS_PENDING, the miniport driver must call 
@@ -114,21 +133,18 @@ In NDIS 6.0 and later, callers of
     <b>NdisMResetComplete</b> must run at IRQL = DISPATCH_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
-</dt>
-<dt>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
 <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMResetComplete function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMResetComplete function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

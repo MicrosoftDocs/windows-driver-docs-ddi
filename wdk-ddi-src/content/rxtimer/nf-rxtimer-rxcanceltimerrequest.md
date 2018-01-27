@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b5aeb972-3e52-4cdc-842b-7848bb2f8dc7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCancelTimerRequest
+ms.keywords: RxCancelTimerRequest routine [Installable File System Drivers], rxref_f9950992-18a5-4418-a18d-e105ecdc74ff.xml, rxtimer/RxCancelTimerRequest, RxCancelTimerRequest, ifsk.rxcanceltimerrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxCancelTimerRequest
-req.alt-loc: rxtimer.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rxtimer.h
+apiname: 
+-	RxCancelTimerRequest
+product: Windows
+targetos: Windows
+req.typenames: *PRX_CONTEXT, RX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
 # RxCancelTimerRequest function
 
 
-
 ## -description
+
+
 <b>RxCancelTimerRequest</b> cancels a recurrent timer request. The request to be canceled is identified by the worker thread routine and associated context. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RxCancelTimerRequest(
@@ -56,6 +66,9 @@ NTSTATUS RxCancelTimerRequest(
 
 
 ## -parameters
+
+
+
 
 ### -param pDeviceObject [in]
 
@@ -73,24 +86,27 @@ A pointer to the context parameter that was passed to the <b>RxPostRecurrentTime
 
 
 ## -returns
+
+
 <b>RxCancelTimerRequest</b> returns STATUS_SUCCESS on success. 
 
 
+
 ## -remarks
+
+
 A recurrent timer is initialized by calling <a href="..\rxtimer\nf-rxtimer-rxpostrecurrenttimerrequest.md">RxPostRecurrentTimerRequest</a>.
 
 If the recurrent timer is not found, this routine will return STATUS_NOT_FOUND.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\rxtimer\nf-rxtimer-rxpostoneshottimerrequest.md">RxPostOneShotTimerRequest</a>
-</dt>
-<dt>
+
 <a href="..\rxtimer\nf-rxtimer-rxpostrecurrenttimerrequest.md">RxPostRecurrentTimerRequest</a>
-</dt>
-</dl>
+
  
 
  

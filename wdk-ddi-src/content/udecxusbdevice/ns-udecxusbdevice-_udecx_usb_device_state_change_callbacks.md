@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9847A6E1-9551-4F0A-8B50-BB191B0181EF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, *PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS
+ms.keywords: PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS structure pointer [Buses], PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, _UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, buses.udecx_usb_device_state_change_callbacks, *PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, udecxusbdevice/UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, udecxusbdevice/PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS
-req.alt-loc: UdecxUsbDevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, *PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	UdecxUsbDevice.h
+apiname: 
+-	UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS
+product: Windows
+targetos: Windows
+req.typenames: *PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS
 req.product: Windows 10 or later.
 ---
 
 # _UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS structure
 
 
-
 ## -description
+
+
 Initializes a <b>UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS</b> structure with pointers to callback functions that are implemented by a UDE client for a virtual USB device. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS {
@@ -60,6 +70,9 @@ typedef struct _UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS {
 
 ## -struct-fields
 
+
+
+
 ### -field Size
 
 The size of this structure.
@@ -73,6 +86,16 @@ A pointer to an <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_devic
 ### -field EvtUsbDeviceLinkPowerExit
 
 A pointer to an <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_exit.md">EVT_UDECX_USB_DEVICE_D0_EXIT</a> callback function implemented by a UDE client driver.
+
+
+### -field EvtUsbDeviceSetFunctionSuspendAndWake
+
+ 
+
+
+### -field EvtUsbDeviceReset
+
+ 
 
 
 ### -field EvtUsbDeviceDefaultEndpointAdd
@@ -90,15 +113,10 @@ A pointer to an E<a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_devi
 A pointer to an <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_endpoints_configure.md">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a> callback function implemented by a UDE client driver.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitsetstatechangecallbacks.md">UdecxUsbDeviceInitSetStateChangeCallbacks</a>
-</dt>
-</dl>
+
  
 
  

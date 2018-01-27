@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: f28b2c97-61ee-4843-b3c5-b3a55f172c50
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _URB, PURB, URB
+ms.keywords: URB, usb/URB, PURB, buses.urb, URB structure [Buses], usbstrct_20441a98-258d-44d2-b414-67b336a44fac.xml, PURB structure pointer [Buses], usb/PURB, _URB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: URB
-req.alt-loc: usb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: PURB, URB
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usb.h
+apiname: 
+-	URB
+product: Windows
+targetos: Windows
+req.typenames: URB, PURB
 req.product: Windows 10 or later.
 ---
 
 # _URB structure
 
 
-
 ## -description
+
+
 The <b>URB</b> structure is used by USB client drivers to describe USB request blocks (URBs) that send requests to the USB driver stack. The <b>URB</b> structure defines a format for all possible commands that can be sent to a USB device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _URB {
@@ -77,6 +87,9 @@ typedef struct _URB {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UrbHeader
 
@@ -126,9 +139,6 @@ Defines the format for a command to transmit or receive data on a control pipe. 
 ### -field UrbControlTransferEx
 
 Defines the format for a command to transmit or receive data on a control pipe. For more information, see <a href="..\usb\ns-usb-_urb_control_transfer_ex.md">_URB_CONTROL_TRANSFER_EX</a>.
-
-
-### -field UrbControlTransferEx
 
 Defines the format for a command to transmit or receive data on a control pipe. 
 
@@ -190,18 +200,18 @@ For more information, see <a href="..\usb\ns-usb-_urb_get_isoch_pipe_transfer_pa
 
 
 ## -remarks
+
+
 For information about the function codes to set in each structure, see <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_submit_urb.md">IOCTL_INTERNAL_USB_SUBMIT_URB</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
  
 
  

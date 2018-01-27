@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 437050ae-d1b7-48ce-9955-98f1d1b2e15a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_FRAME_STATUS,
+ms.keywords: iddcx/IDDCX_FRAME_STATUS, iddcx/IDDCX_FRAME_STATUS_COMPLETED, IDDCX_FRAME_STATUS, IDDCX_FRAME_STATUS_COMPLETED, IDDCX_FRAME_STATUS_DROPPED, iddcx/IDDCX_FRAME_STATUS_ERROR, IDDCX_FRAME_STATUS_UNINITIALIZED, iddcx/IDDCX_FRAME_STATUS_DROPPED, display.iddcx_frame_status, IDDCX_FRAME_STATUS_ERROR, iddcx/IDDCX_FRAME_STATUS_UNINITIALIZED, IDDCX_FRAME_STATUS enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDDCX_FRAME_STATUS
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: _requires_same_
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDDCX_FRAME_STATUS
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDDCX_FRAME_STATUS enumeration
 
 
-
 ## -description
+
+
 
                      Defines the processing status of the frame.
                 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _IDDCX_FRAME_STATUS { 
@@ -58,6 +68,9 @@ typedef enum _IDDCX_FRAME_STATUS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field IDDCX_FRAME_STATUS_UNINITIALIZED
 
@@ -87,4 +100,7 @@ typedef enum _IDDCX_FRAME_STATUS {
                     
 
 
-## -remarks
+### -field UINT
+
+
+

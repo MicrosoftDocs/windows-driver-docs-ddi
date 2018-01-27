@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 71D4008C-1F04-408B-93DF-DDE6FD352701
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CDROM_STREAMING_CONTROL, CDROM_STREAMING_CONTROL, *PCDROM_STREAMING_CONTROL
+ms.keywords: ntddcdrm/CDROM_STREAMING_CONTROL, storage.cdrom_streaming_control, CDROM_STREAMING_CONTROL structure [Storage Devices], *PCDROM_STREAMING_CONTROL, CDROM_STREAMING_CONTROL, _CDROM_STREAMING_CONTROL, PCDROM_STREAMING_CONTROL structure pointer [Storage Devices], ntddcdrm/PCDROM_STREAMING_CONTROL, PCDROM_STREAMING_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CDROM_STREAMING_CONTROL
-req.alt-loc: Ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: CDROM_STREAMING_CONTROL, *PCDROM_STREAMING_CONTROL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddcdrm.h
+apiname: 
+-	CDROM_STREAMING_CONTROL
+product: Windows
+targetos: Windows
+req.typenames: *PCDROM_STREAMING_CONTROL, CDROM_STREAMING_CONTROL
 ---
 
 # _CDROM_STREAMING_CONTROL structure
 
 
-
 ## -description
+
+
 The <b>CDROM_STREAMING_CONTROL</b> structure is used as an input parameter to the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_enable_streaming.md">IOCTL_CDROM_ENABLE_STREAMING</a> IOCTL.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CDROM_STREAMING_CONTROL {
@@ -54,23 +64,20 @@ typedef struct _CDROM_STREAMING_CONTROL {
 
 ## -struct-fields
 
+
+
+
 ### -field RequestType
 
 The <a href="..\ntddcdrm\ne-ntddcdrm-_streaming_control_request_type.md">STREAMING_CONTROL_REQUEST_TYPE</a>   enumeration specifies the type of request.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddcdrm\ne-ntddcdrm-_streaming_control_request_type.md">STREAMING_CONTROL_REQUEST_TYPE</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_enable_streaming.md">IOCTL_CDROM_ENABLE_STREAMING</a>
-</dt>
-</dl>
+
  
 
  

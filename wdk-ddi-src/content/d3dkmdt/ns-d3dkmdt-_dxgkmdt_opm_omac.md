@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: caa64a32-3772-45b5-898a-78dc51b7f24b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKMDT_OPM_OMAC, *PDXGKMDT_OPM_OMAC, DXGKMDT_OPM_OMAC
+ms.keywords: d3dkmdt/DXGKMDT_OPM_OMAC, *PDXGKMDT_OPM_OMAC, DXGKMDT_OPM_OMAC, DmStructs_8c3b7364-5055-4152-b7ed-4e2d1d910dd4.xml, DXGKMDT_OPM_OMAC structure [Display Devices], PDXGKMDT_OPM_OMAC, display.dxgkmdt_opm_omac, PDXGKMDT_OPM_OMAC structure pointer [Display Devices], _DXGKMDT_OPM_OMAC, d3dkmdt/PDXGKMDT_OPM_OMAC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKMDT_OPM_OMAC
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PDXGKMDT_OPM_OMAC, DXGKMDT_OPM_OMAC
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	DXGKMDT_OPM_OMAC
+product: Windows
+targetos: Windows
+req.typenames: DXGKMDT_OPM_OMAC, *PDXGKMDT_OPM_OMAC
 ---
 
 # _DXGKMDT_OPM_OMAC structure
 
 
-
 ## -description
+
+
 The DXGKMDT_OPM_OMAC structure contains a One-key Cipher Block Chaining (CBC)-mode message authentication code (OMAC) for message authenticity.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKMDT_OPM_OMAC {
@@ -54,39 +64,49 @@ typedef struct _DXGKMDT_OPM_OMAC {
 
 ## -struct-fields
 
+
+
+
 ### -field abOMAC
 
 A 16-byte array that comprises the OMAC.
 
 
 ## -remarks
+
+
 For more information about OMAC, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70417">OMAC-1 algorithm</a>. 
 
 The OMAC-1 parameters that OPM and COPP use are:
-
+<ul>
+<li>
 <i>E</i> = AES (Advanced Encryption Standard)
 
+</li>
+<li>
 <i>t</i> = 128 bits
 
+</li>
+<li>
 <i>K</i> = The 128-bit key that the display miniport driver receives when <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers.md">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a> is called.
 
+</li>
+<li>
 <i>n</i> = 128 bits 
 
-For information about AES, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70411">RSA Laboratories</a> website. 
+</li>
+</ul>For information about AES, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70411">RSA Laboratories</a> website. 
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_configure_parameters.md">DXGKMDT_OPM_CONFIGURE_PARAMETERS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_requested_information.md">DXGKMDT_OPM_REQUESTED_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

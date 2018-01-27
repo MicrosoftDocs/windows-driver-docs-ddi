@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9DE4F3B0-915A-4C66-85F8-AE248B8471B5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _NDK_SRQ_DISPATCH, NDK_SRQ_DISPATCH
+ms.keywords: display.handlekernelmodemessage, HandleKernelModeMessage callback function [Display Devices], HandleKernelModeMessage, PFN_HANDLE_KMD_MESSAGE, PFN_HANDLE_KMD_MESSAGE, netdispumdddi/HandleKernelModeMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HandleKernelModeMessage
-req.alt-loc: Netdispumdddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Netdispumdddi.h
+apiname: 
+-	HandleKernelModeMessage
+product: Windows
+targetos: Windows
 req.typenames: NDK_SRQ_DISPATCH
 ---
 
 # PFN_HANDLE_KMD_MESSAGE callback
 
 
-
 ## -description
+
+
 Called by the operating system to handle the asynchronous kernel-mode message that the Miracast user-mode driver receives when the display miniport driver calls the <a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message.md">DxgkCbMiracastSendMessage</a> function.
 
 
-
 ## -prototype
+
 
 ````
 PFN_HANDLE_KMD_MESSAGE HandleKernelModeMessage;
@@ -62,6 +72,9 @@ NTSTATUS HandleKernelModeMessage(
 
 ## -parameters
 
+
+
+
 ### -param pMiracastContext [in]
 
 A pointer to a context associated with a display adapter.
@@ -74,9 +87,8 @@ The operating system obtained the context when it called the Miracast user-mode 
 The size of the input buffer <i>pInputBuffer</i>, supplied by the operating system.
 
 
-### -param pInputBuffer [in]
+### -param *pInputBuffer
 
-A pointer to the input buffer, supplied by the operating system.
 
 
 ### -param OutputBufferSize [in]
@@ -84,44 +96,51 @@ A pointer to the input buffer, supplied by the operating system.
 The size of the output buffer <i>pOutputBuffer</i>, supplied by the operating system.
 
 
-### -param pOutputBuffer [out]
-
-A pointer to the output buffer, supplied by the operating system.
+### -param *pOutputBuffer
 
 
-### -param pBytesReturned [out]
+
+### -param *pBytesReturned
+
+
+
+
+
+
+#### - pBytesReturned [out]
 
 A pointer to a buffer, supplied by the operating system, that holds the number of returned bytes that the display miniport driver wrote in <i>pOutputBuffer</i>.
 
 
+#### - pOutputBuffer [out]
+
+A pointer to the output buffer, supplied by the operating system.
+
+
+#### - pInputBuffer [in]
+
+A pointer to the input buffer, supplied by the operating system.
+
+
 ## -returns
+
+
 On success, this function returns <b>STATUS_SUCCESS</b>. Otherwise, the function returns an error code defined in the Ntstatus.h header.
 
 
-## -remarks
-When this function is called, it's possible that it has also been called in another thread. The driver is therefore responsible for synchronizing multiple calls to <i>HandleKernelModeMessage</i> if necessary.
-
-The operating system guarantees that this function is not called when <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>, <a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>, <a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>, and <a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a> are called. All the messages that the display miniport driver sends during the startup of a Miracast connected session (<i>StartMiracastSession</i>) are blocked until the session startup process has completed. The operating system also blocks all messages that the display miniport driver sends during or after a call to stop the Miracast session (<i>StopMiracastSession</i>).
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
-</dt>
-<dt>
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message.md">DxgkCbMiracastSendMessage</a>
-</dt>
-<dt>
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
-</dt>
-<dt>
+
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
-</dt>
-</dl>
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: ffe1c550-a7cc-4d27-9a1e-287fdc7e08eb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_IPF_CPE_DESCRIPTOR, WHEA_IPF_CPE_DESCRIPTOR, *PWHEA_IPF_CPE_DESCRIPTOR
+ms.keywords: PWHEA_IPF_CPE_DESCRIPTOR, WHEA_IPF_CPE_DESCRIPTOR, whea.whea_ipf_cpe_descriptor, ntddk/PWHEA_IPF_CPE_DESCRIPTOR, _WHEA_IPF_CPE_DESCRIPTOR, *PWHEA_IPF_CPE_DESCRIPTOR, whearef_b64c919f-4854-4506-b14a-ec31b0a3e67e.xml, WHEA_IPF_CPE_DESCRIPTOR structure [WHEA Drivers and Applications], PWHEA_IPF_CPE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], ntddk/WHEA_IPF_CPE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_IPF_CPE_DESCRIPTOR
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_IPF_CPE_DESCRIPTOR
+product: Windows
+targetos: Windows
 req.typenames: WHEA_IPF_CPE_DESCRIPTOR, *PWHEA_IPF_CPE_DESCRIPTOR
 ---
 
 # _WHEA_IPF_CPE_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The WHEA_IPF_CPE_DESCRIPTOR structure describes a corrected platform error (CPE) error source for an Itanium processor.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WHEA_IPF_CPE_DESCRIPTOR {
@@ -55,6 +65,9 @@ typedef struct _WHEA_IPF_CPE_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Type
 
@@ -72,15 +85,16 @@ Reserved for system use.
 
 
 ## -remarks
+
+
 A WHEA_IPF_CPE_DESCRIPTOR structure is contained within the <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

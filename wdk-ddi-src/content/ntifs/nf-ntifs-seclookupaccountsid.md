@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7237a041-46e0-4211-97c1-96d309ada602
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SecLookupAccountSid
+ms.keywords: SecLookupAccountSid function [Installable File System Drivers], ntifs/SecLookupAccountSid, ifsk.seclookupaccountsid, SecLookupAccountSid, ksecddref_ba65e59c-5c9a-47bb-bf2c-9b3b8c727bb6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This SecLookupAccountSid function is only available o
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SecLookupAccountSid
-req.alt-loc: Ksecdd.lib,Ksecdd.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ksecdd.lib
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ksecdd.lib
+-	Ksecdd.dll
+apiname: 
+-	SecLookupAccountSid
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # SecLookupAccountSid function
 
 
-
 ## -description
+
+
 <b>SecLookupAccountSid</b> accepts a security identifier (SID) as input. It retrieves the name of the account for this SID and the name of the first domain on which this SID is found.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SecLookupAccountSid(
@@ -58,6 +69,9 @@ NTSTATUS SecLookupAccountSid(
 
 
 ## -parameters
+
+
+
 
 ### -param Sid [in]
 
@@ -74,12 +88,22 @@ A pointer to a variable that specifies the size of the <i>NameBuffer</i>. On inp
 A pointer to the <i>NameBuffer</i>. 
 
 
-### -param DomainSize [out]
+### -param OPTIONAL
+
+TBD
+
+
+### -param NameUse [out]
+
+A pointer to a SID_NAME_USE enumerated type that indicates the type of the account when the function returns. 
+
+
+#### - DomainSize [out]
 
 A pointer to an optional variable that specifies the size of the <i>ReferencedDomain</i> parameter. On input, this value specifies the size of the <i>ReferencedDomain</i> buffer. If the function fails because the buffer is too small, this variable receives the required buffer size. If the <i>ReferencedDomain</i> parameter is <b>NULL</b>, this parameter must be zero.
 
 
-### -param DomainBuffer [out, optional]
+#### - DomainBuffer [out, optional]
 
 A pointer to an optional variable to the buffer that receives the name of the domain as a Unicode string where the account name is found. For computers that are not joined to a domain, this buffer receives the computer name. If this parameter is <b>NULL</b>, the function returns the required buffer size in the <i>DomainSize</i> variable. 
 
@@ -88,39 +112,99 @@ On Windows Server 2003, the domain name returned for most accounts in the securi
 On Windows XP, the domain name returned for most accounts in the security database of the local computer is the name of the computer as of the last start of the system (backslashes are excluded). If the name of the computer changes, the old name continues to be returned as the domain name until the system is restarted.
 
 
-### -param NameUse [out]
-
-A pointer to a SID_NAME_USE enumerated type that indicates the type of the account when the function returns. 
-
-
 ## -returns
+
+
 <b>SecLookupAccountSid</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>SEC_E_INTERNAL_ERROR</b></dt>
-</dl>An internal error occurred while trying to connect to the Local System Authority (LSA) or the local procedure call (LPC) to the security provider failed. 
+</dl>
+</td>
+<td width="60%">
+An internal error occurred while trying to connect to the Local System Authority (LSA) or the local procedure call (LPC) to the security provider failed. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>The process ID associated with the currently executing thread does not match the current process ID. 
+</dl>
+</td>
+<td width="60%">
+The process ID associated with the currently executing thread does not match the current process ID. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The buffer size for the <i>NameBuffer</i> or the <i>ReferencedDomain</i> parameter was too small.
+</dl>
+</td>
+<td width="60%">
+The buffer size for the <i>NameBuffer</i> or the <i>ReferencedDomain</i> parameter was too small.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The length of the <i>Name</i> parameter exceeded the length allowed in a message to the Local System Authority (LSA). 
+</dl>
+</td>
+<td width="60%">
+The length of the <i>Name</i> parameter exceeded the length allowed in a message to the Local System Authority (LSA). 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>It was not possible to allocate sufficient memory for a temporary internal buffer used by this function.
+</dl>
+</td>
+<td width="60%">
+It was not possible to allocate sufficient memory for a temporary internal buffer used by this function.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NONE_MAPPED</b></dt>
-</dl>The <i>Sid</i> parameter could not be found. 
+</dl>
+</td>
+<td width="60%">
+The <i>Sid</i> parameter could not be found. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_PROCESS_IS_TERMINATING</b></dt>
-</dl>This process has terminated so it is not possible to establish a local procedure call (LPC) connection.
+</dl>
+</td>
+<td width="60%">
+This process has terminated so it is not possible to establish a local procedure call (LPC) connection.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>SecLookupAccountSid</b> attempts to find a name for the specified SID by first checking a list of well-known SIDs. If the supplied SID does not correspond to a well-known SID, the function checks built-in and administratively defined local accounts. Next, the function checks the primary domain. Security identifiers not recognized by the primary domain are checked against the trusted domains that correspond to their SID prefixes.
 
 If the function cannot find an account name for the SID, <b>SecLookupAccountSid</b> fails. This can occur if a network time-out prevents the function from finding the name. It also occurs for SIDs that have no corresponding account name, such as a logon SID that identifies a logon session.
@@ -132,21 +216,17 @@ In addition to looking up SIDs for local accounts, local domain accounts, and ex
 <b>SecLookupAccountSid</b> is exported by the ksecdd driver, which implements this function by using user-mode helper services. Accordingly, the use of this function within file systems must obey the usual rules for communication with user-mode services. <b>SecLookupAccountSid</b> cannot be used during paging file I/O. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-seclookupwellknownsid.md">SecLookupWellKnownSid</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-seclookupwellknownsid.md">SecLookupWellKnownSid</a>
+
 <a href="..\ntifs\ne-ntifs-_sid_name_use.md">SID_NAME_USE</a>
-</dt>
-</dl>
+
  
 
  

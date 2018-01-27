@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c4422564-3fc0-4087-b628-056488c723e6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSynchronousDeviceControl
+ms.keywords: stream.iksobject, IKsObject interface [Streaming Media Devices], IKsObject interface [Streaming Media Devices], described, IKsObject, ksproxy_6432effa-13f1-4b39-a158-c315a93108d4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsObject
-req.alt-loc: ksproxy.h,ksproxy.h.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,45 +29,32 @@ req.type-library:
 req.lib: Ksproxy.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+-	ksproxy.h.dll
+apiname: 
+-	IKsObject
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsObject interface
 
 
-
 ## -description
+
+
 The <b>IKsObject</b> interface provides a method to retrieve the file handle of a KS object. 
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsObject</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IKsObject</b> also has these types of members:
-
-The <b>IKsObject</b> interface has these methods.
-
-Retrieves the file handle of a KS object.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsObject</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IKsObject</b> also has these types of members:
-
-The <b>IKsObject</b> interface has these methods.
-
-Retrieves the file handle of a KS object.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsObject</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IKsObject</b> also has these types of members:
-
-The <b>IKsObject</b> interface has these methods.
-
-Retrieves the file handle of a KS object.
-
- 
-
-
 ## -members
+
 The <b>IKsObject</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -91,8 +76,12 @@ Retrieves the file handle of a KS object.
 
 
 ## -remarks
+
+
 The IID for this interface is IID_IKsObject.
 
 <b>IKsObject</b> is defined in <i>Ksproxy.h</i> within the #ifdef __STREAMS__ section.
 
-__STREAMS__ is defined in <i>Stream.h</i>, a header from the DirectX SDK.</p>
+__STREAMS__ is defined in <i>Stream.h</i>, a header from the DirectX SDK.
+
+

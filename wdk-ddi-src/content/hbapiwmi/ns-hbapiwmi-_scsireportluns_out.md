@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 93663b88-e750-4280-b5c1-798cc0f848b7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ScsiReportLuns_OUT, ScsiReportLuns_OUT, *PScsiReportLuns_OUT
+ms.keywords: hbapiwmi/PScsiReportLuns_OUT, hbapiwmi/ScsiReportLuns_OUT, _ScsiReportLuns_OUT, *PScsiReportLuns_OUT, ScsiReportLuns_OUT, ScsiReportLuns_OUT structure [Storage Devices], storage.scsireportluns_out2, PScsiReportLuns_OUT structure pointer [Storage Devices], PScsiReportLuns_OUT, structs-Fibre_3c117d4b-f151-45af-84bb-ef6f800967aa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ScsiReportLuns_OUT
-req.alt-loc: Hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Hbapiwmi.h
+apiname: 
+-	ScsiReportLuns_OUT
+product: Windows
+targetos: Windows
 req.typenames: ScsiReportLuns_OUT, *PScsiReportLuns_OUT
 ---
 
 # _ScsiReportLuns_OUT structure
 
 
-
 ## -description
+
+
 The ScsiReportLuns_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a> WMI method to the WMI client.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ScsiReportLuns_OUT {
@@ -58,6 +68,9 @@ typedef struct _ScsiReportLuns_OUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HBAStatus
 
@@ -84,24 +97,24 @@ Contains the status of the SCSI report LUNs command.
 Contains the results of the SCSI report LUNs command. 
 
 
-### -field SenseBuffer
+#### - SenseBuffer
 
 Contains the SCSI sense data that results from the SCSI report LUNs command. 
 
 
 ## -remarks
+
+
 The WMI tool suite generates a declaration of the ScsiReportLuns_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
-</dt>
-</dl>
+
  
 
  

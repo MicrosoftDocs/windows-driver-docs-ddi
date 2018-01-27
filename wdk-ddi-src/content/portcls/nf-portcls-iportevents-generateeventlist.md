@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 99c9d60d-5f19-4b31-a8f3-aff69bc3a2a6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortEvents, IPortEvents::GenerateEventList, GenerateEventList
+ms.keywords: GenerateEventList method [Audio Devices], IPortEvents interface, IPortEvents interface [Audio Devices], GenerateEventList method, audmp-routines_cc4243f5-90e9-471f-b8f0-aaf0945bddf5.xml, IPortEvents, GenerateEventList, portcls/IPortEvents::GenerateEventList, audio.iportevents_generateeventlist, GenerateEventList method [Audio Devices], IPortEvents::GenerateEventList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPortEvents.GenerateEventList
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: Any level. (See Remarks section.)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IPortEvents.GenerateEventList
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPortEvents::GenerateEventList method
 
 
-
 ## -description
+
+
 The <code>GenerateEventList</code> method notifies clients through the port driver's list of event entries that a particular event has occurred.
 
 
-
 ## -syntax
+
 
 ````
 void GenerateEventList(
@@ -58,6 +68,9 @@ void GenerateEventList(
 
 
 ## -parameters
+
+
+
 
 ### -param Set [in, optional]
 
@@ -90,27 +103,29 @@ Specifies the node ID of the event to be signaled. If <i>NodeEvent</i> is <b>TRU
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 This method is used by miniport drivers to signal event entries in the port driver's event list. In response to the miniport driver calling this method, the port driver walks its list of event entries and signals all registered event entries that meet the criteria expressed by the call parameters.
 
 Although callers of <code>GenerateEventList</code> can be running at any IRQL, they are subject to some limitations when calling at IRQL &gt; DISPATCH_LEVEL. Specifically, if the current implementation of <code>GenerateEventList</code> is called at IRQL &gt; DISPATCH_LEVEL, the method queues a DPC to process the event list. That DPC contains the parameter context for a single call. As a result, signaling events might occasionally be missed if multiple calls are made at IRQL &gt; DISPATCH_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iportevents.md">IPortEvents</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536886">IPortEvents::AddEventToEventList</a>
-</dt>
-<dt>
+
 <a href="..\portcls\nc-portcls-pcpfnevent_handler.md">EventHandler</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\fwpsaleendpointenum0.htm
 old-project: netvista
 ms.assetid: 8b3257ea-9eeb-426b-8c82-a4f0242861a8
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: FwpsAleEndpointEnum0
+ms.date: 1/18/2018
+ms.keywords: netvista.fwpsaleendpointenum0, wfp_ref_2_funct_3_fwps_A-B_daf596f9-09c1-4e1c-8869-8c6aec4da6cd.xml, FwpsAleEndpointEnum0 function [Network Drivers Starting with Windows Vista], FwpsAleEndpointEnum0, fwpsk/FwpsAleEndpointEnum0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 7.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FwpsAleEndpointEnum0
-req.alt-loc: fwpkclnt.lib,fwpkclnt.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	fwpkclnt.lib
+-	fwpkclnt.dll
+apiname: 
+-	FwpsAleEndpointEnum0
+product: Windows
+targetos: Windows
 req.typenames: FWPS_VSWITCH_EVENT_TYPE
 ---
 
 # FwpsAleEndpointEnum0 function
 
 
-
 ## -description
+
+
 The 
   <b>FwpsAleEndpointEnum0</b> function enumerates application layer enforcement (ALE) endpoints.
-
-
+<div class="alert"><b>Note</b>  <b>FwpsAleEndpointEnum0</b> is a specific version of <b>FwpsAleEndpointEnum</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -syntax
+
 
 ````
 NTSTATUS NTAPI FwpsAleEndpointEnum0(
@@ -58,6 +69,9 @@ NTSTATUS NTAPI FwpsAleEndpointEnum0(
 
 
 ## -parameters
+
+
+
 
 ### -param engineHandle [in]
 
@@ -95,19 +109,44 @@ On return, the number of elements in the array of endpoint property structures p
 
 
 ## -returns
+
+
 The 
      <b>FwpsAleEndpointEnum0</b> function returns one of the following NTSTATUS codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The function succeeded.
+</dl>
+</td>
+<td width="60%">
+The function succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>Other status codes</b></dt>
-</dl>An error occurred.
+</dl>
+</td>
+<td width="60%">
+An error occurred.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 To enumerate ALE endpoints, the callout driver must first obtain an enumeration handle by calling 
     <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointcreateenumhandle0.md">FwpsAleEndpointCreateEnumHandle0</a>. The handle returned is associated with any parameters specified
     in the optional 
@@ -123,31 +162,26 @@ When finished examining endpoint properties, the callout driver must call
     handle.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointcreateenumhandle0.md">
-   FwpsAleEndpointCreateEnumHandle0</a>
-</dt>
-<dt>
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointdestroyenumhandle0.md">
-   FwpsAleEndpointDestroyEnumHandle0</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.fwpsaleendpointdestroyenumhandle0" tabindex="0"><b>
+   FwpsAleEndpointDestroyEnumHandle0</b></mshelp:link>
+
+<mshelp:link keywords="netvista.fwpsaleendpointgetsecurityinfo0" tabindex="0"><b>
+   FwpsAleEndpointGetSecurityInfo0</b></mshelp:link>
+
+<mshelp:link keywords="netvista.fwpsaleendpointcreateenumhandle0" tabindex="0"><b>
+   FwpsAleEndpointCreateEnumHandle0</b></mshelp:link>
+
+<mshelp:link keywords="netvista.fwpsaleendpointsetsecurityinfo0" tabindex="0"><b>
+   FwpsAleEndpointSetSecurityInfo0</b></mshelp:link>
+
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
-</dt>
-<dt>
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetsecurityinfo0.md">
-   FwpsAleEndpointGetSecurityInfo0</a>
-</dt>
-<dt>
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointsetsecurityinfo0.md">
-   FwpsAleEndpointSetSecurityInfo0</a>
-</dt>
-</dl>
+
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsAleEndpointEnum0 function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsAleEndpointEnum0 function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

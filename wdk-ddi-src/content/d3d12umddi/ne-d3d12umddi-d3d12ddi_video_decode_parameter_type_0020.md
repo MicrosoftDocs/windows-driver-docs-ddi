@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4ED18E79-2BEA-4FB5-BDA4-B5CA59D6E1A8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020, D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020
+ms.keywords: D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020_PICTURE_PARAMETERS, D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020_SLICE_CONTROL, display.d3d12ddi_video_decode_parameter_type, D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020, d3d12umddi/D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020_INVERSE_QUANTIZATION_MATRIX, d3d12umddi/D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020_SLICE_CONTROL, D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020_INVERSE_QUANTIZATION_MATRIX, D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020 enumeration [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020_PICTURE_PARAMETERS, d3d12umddi/D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020
 ---
 
 # D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020 enumeration
 
 
-
 ## -description
+
+
 Contains the video decode parameter type. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020 { 
@@ -55,6 +65,9 @@ typedef enum D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020 {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020_PICTURE_PARAMETERS
 
@@ -72,4 +85,8 @@ Slice control buffer.
 
 
 ## -remarks
-The definition of each buffer type is dependent upon the decode profile and is defined in each codec specification.</p>
+
+
+The definition of each buffer type is dependent upon the decode profile and is defined in each codec specification.
+
+

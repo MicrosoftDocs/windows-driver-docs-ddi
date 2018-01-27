@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8083af10-1b35-4600-b409-e895d35f7ccc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfWdmDeviceGetWdfDeviceHandle
+ms.keywords: WdfWdmDeviceGetWdfDeviceHandle, DFDeviceObjectGeneralRef_0b05680a-5252-4932-802d-ee24a0092116.xml, wdfdevice/WdfWdmDeviceGetWdfDeviceHandle, WdfWdmDeviceGetWdfDeviceHandle method, kmdf.wdfwdmdevicegetwdfdevicehandle, wdf.wdfwdmdevicegetwdfdevicehandle, PFN_WDFWDMDEVICEGETWDFDEVICEHANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfWdmDeviceGetWdfDeviceHandle
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfWdmDeviceGetWdfDeviceHandle
+product: Windows
+targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WdfWdmDeviceGetWdfDeviceHandle function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfWdmDeviceGetWdfDeviceHandle</b> method returns a handle to the framework device object that is associated with a specified WDM device object.
 
 
-
 ## -syntax
+
 
 ````
 WDFDEVICE WdfWdmDeviceGetWdfDeviceHandle(
@@ -57,27 +68,32 @@ WDFDEVICE WdfWdmDeviceGetWdfDeviceHandle(
 
 ## -parameters
 
+
+
+
 ### -param DeviceObject [in]
 
 A pointer to a WDM <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that the calling driver created.
 
 
 ## -returns
+
+
 If the specified WDM device object is valid, <b>WdfWdmDeviceGetWdfDeviceHandle</b> returns a handle to the associated framework device object. Otherwise, the method returns <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 The WDM DEVICE_OBJECT structure that the driver specifies for the <i>DeviceObject</i> parameter must represent a device object that the calling driver created. For example, the structure cannot represent any of the WDM device objects that the driver specified in a previous call to <a href="..\wdfminiport\nf-wdfminiport-wdfdeviceminiportcreate.md">WdfDeviceMiniportCreate</a>.
 
-The following code example obtains a handle to the framework device object that is associated with a WDM device object that the calling driver created.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfminiport\nf-wdfminiport-wdfdeviceminiportcreate.md">WdfDeviceMiniportCreate</a>
-</dt>
-</dl>
+
  
 
  

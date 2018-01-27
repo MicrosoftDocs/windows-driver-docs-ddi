@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4D350666-B103-4421-A25A-22A7BF41558E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_MIRACAST_CHUNK_ID, DXGK_MIRACAST_CHUNK_ID
+ms.keywords: DXGK_MIRACAST_CHUNK_ID, display.dxgk_miracast_chunk_id, DXGK_MIRACAST_CHUNK_ID union [Display Devices], d3dukmdt/DXGK_MIRACAST_CHUNK_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_MIRACAST_CHUNK_ID
-req.alt-loc: D3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dukmdt.h
+apiname: 
+-	DXGK_MIRACAST_CHUNK_ID
+product: Windows
+targetos: Windows
 req.typenames: DXGK_MIRACAST_CHUNK_ID
 ---
 
 # DXGK_MIRACAST_CHUNK_ID structure
 
 
-
 ## -description
+
+
 Stores info that identifies a wireless display (Miracast) encode chunk.
 
 
-
 ## -syntax
+
 
 ````
 typedef union {
@@ -57,6 +67,9 @@ typedef union {
 
 
 ## -struct-fields
+
+
+
 
 ### -field FrameNumber
 
@@ -72,5 +85,3 @@ The frame part number.
 
 Holds a 64-bit value that identifies the encode chunk.
 
-
-## -remarks

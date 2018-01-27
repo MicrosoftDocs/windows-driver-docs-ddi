@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7ae789dd-2454-4ed6-bd26-5ebfd9c33768
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMDT_GDISURFACEDATA, D3DKMDT_GDISURFACEDATA
+ms.keywords: display.d3dkmdt_gdisurfacedata, _D3DKMDT_GDISURFACEDATA, DmStructs_91525c19-9d84-4406-b456-c6d80cb0f1d3.xml, d3dkmdt/D3DKMDT_GDISURFACEDATA, D3DKMDT_GDISURFACEDATA structure [Display Devices], D3DKMDT_GDISURFACEDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 7.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMDT_GDISURFACEDATA
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	D3DKMDT_GDISURFACEDATA
+product: Windows
+targetos: Windows
 req.typenames: D3DKMDT_GDISURFACEDATA
 ---
 
 # _D3DKMDT_GDISURFACEDATA structure
 
 
-
 ## -description
+
+
 The D3DKMDT_GDISURFACEDATA structure describes surfaces that are used by GDI hardware acceleration and the Desktop Window Manager (DWM).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMDT_GDISURFACEDATA {
@@ -59,6 +69,9 @@ typedef struct _D3DKMDT_GDISURFACEDATA {
 
 ## -struct-fields
 
+
+
+
 ### -field Width
 
 [in] The width of the surface, in pixels.
@@ -73,28 +86,16 @@ typedef struct _D3DKMDT_GDISURFACEDATA {
 
 [in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the surface. The following formats are supported:
 
-<dl>
-<dd>
 D3DDDIFMT_A8B8G8R8
 
-</dd>
-<dd>
 D3DDDIFMT_X8B8G8R8
 
-</dd>
-<dd>
 D3DDDIFMT_A8R8G8B8
 
-</dd>
-<dd>
 D3DDDIFMT_X8R8G8B8
 
-</dd>
-<dd>
 D3DDDIFMT_A8
 
-</dd>
-</dl>
 The D3DDDIFMT_A8 format is used only for D3DKMDT_GDISURFACE_STAGING and D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE staging surface types from the <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a> enumeration.
 
 
@@ -114,24 +115,22 @@ The D3DDDIFMT_A8 format is used only for D3DKMDT_GDISURFACE_STAGING and D3DKMDT_
 
 
 ## -remarks
+
+
 The D3DKMDT_GDISURFACEDATA structure is passed by the Microsoft DirectX graphics kernel subsystem in a call to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getstandardallocationdriverdata.md">DxgkDdiGetStandardAllocationDriverData</a> function. This call generates a description of a surface that can be used for redirection by GDI hardware acceleration and the DWM.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getstandardallocationdriverdata.md">DxgkDdiGetStandardAllocationDriverData</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getstandardallocationdriverdata.md">DxgkDdiGetStandardAllocationDriverData</a>
+
  
 
  

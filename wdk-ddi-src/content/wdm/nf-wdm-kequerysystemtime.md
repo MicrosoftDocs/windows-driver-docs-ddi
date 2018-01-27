@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: de271bd2-93cf-444d-889d-09c7e654e688
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQuerySystemTime
+ms.keywords: KeQuerySystemTime, k105_0eaf1b30-c365-45ac-828c-fbcc7cd71ff3.xml, kernel.kequerysystemtime, KeQuerySystemTime routine [Kernel-Mode Driver Architecture], wdm/KeQuerySystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeQuerySystemTime
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeQuerySystemTime
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeQuerySystemTime function
 
 
-
 ## -description
+
+
 The <b>KeQuerySystemTime</b> routine obtains the current system time.
 
 
-
 ## -syntax
+
 
 ````
 VOID KeQuerySystemTime(
@@ -55,34 +65,38 @@ VOID KeQuerySystemTime(
 
 ## -parameters
 
+
+
+
 ### -param CurrentTime [out]
 
 Pointer to the current time on return from <b>KeQuerySystemTime</b>. 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 System time is a count of 100-nanosecond intervals since January 1, 1601. System time is typically updated approximately every ten milliseconds. This value is computed for the GMT time zone. To adjust this value for the local time zone use <a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
+<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+
 <a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-kequerytickcount.md">KeQueryTickCount</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>
+
 <a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
-</dt>
-</dl>
+
  
 
  

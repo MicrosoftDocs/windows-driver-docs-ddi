@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 120d7714-8c32-4b83-adc2-c9a933e541e5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_VIDEODECODER_FLAGS, KS_VIDEODECODER_FLAGS
+ms.keywords: ksmedia/KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING, ksmedia/KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED, ksmedia/KS_VIDEODECODER_FLAGS, KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED, vidcapstruct_061ba371-f4a8-44b0-8940-bc90b15dbfed.xml, KS_VIDEODECODER_FLAGS enumeration [Streaming Media Devices], stream.ks_videodecoder_flags, KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT, KS_VIDEODECODER_FLAGS, KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING, ksmedia/KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_VIDEODECODER_FLAGS
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KS_VIDEODECODER_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: KS_VIDEODECODER_FLAGS
 ---
 
 # KS_VIDEODECODER_FLAGS enumeration
 
 
-
 ## -description
+
+
 The KS_VIDEODECODER_FLAGS enumeration defines video decoder capabilities.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -55,6 +65,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT
 
@@ -71,15 +84,10 @@ The video decoder can alter its phase locked loop (PLL) timings to lock on to no
 The video decoder can distinguish whether it has locked to an incoming analog video signal.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-ksproperty_videodecoder_caps_s.md">KSPROPERTY_VIDEODECODER_CAPS_S</a>
-</dt>
-</dl>
+
  
 
  

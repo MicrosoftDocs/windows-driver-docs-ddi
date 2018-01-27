@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: D7CA9DAB-E350-42D5-A008-5CC12D5313D3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltSetActivityIdCallbackData
+ms.keywords: ifsk.fltsetactivityidcallbackdata, FltSetActivityIdCallbackData, fltkernel/FltSetActivityIdCallbackData, FltSetActivityIdCallbackData routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with  Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltSetActivityIdCallbackData
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltSetActivityIdCallbackData
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltSetActivityIdCallbackData function
 
 
-
 ## -description
+
+
 The <b>FltSetActivityIdCallbackData</b> routine sets the a activity ID for an IRP in a minifilter's callback data.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltSetActivityIdCallbackData(
@@ -54,6 +64,9 @@ NTSTATUS FltSetActivityIdCallbackData(
 
 
 ## -parameters
+
+
+
 
 ### -param CallbackData [in, out]
 
@@ -66,36 +79,61 @@ A optional pointer to the <b>GUID</b> structure receiving the activity ID. if <i
 
 
 ## -returns
+
+
 <b>FltSetActivityIdCallbackData</b> returns one of the following <b>NTSTATUS</b> values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>The callback data does not contain a request for an IRP operation.
+</dl>
+</td>
+<td width="60%">
+The callback data does not contain a request for an IRP operation.
 
 -or-
 
 The <b>GUID</b> pointed to by <i>Guid</i> is was not provided and no ETW activity ID is available or the operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>No activity ID is associated with the request in <i>CallbackData</i>.
+</dl>
+</td>
+<td width="60%">
+No activity ID is associated with the request in <i>CallbackData</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>An activity ID pointed to by <i>Guid</i> was set for the IRP in <i>CallbackData</i>.
+</dl>
+</td>
+<td width="60%">
+An activity ID pointed to by <i>Guid</i> was set for the IRP in <i>CallbackData</i>.
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltgetactivityidcallbackdata.md">FltGetActivityIdCallbackData</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltpropagateactivityidtothread.md">FltPropagateActivityIdToThread</a>
-</dt>
-</dl>
+
  
 
  

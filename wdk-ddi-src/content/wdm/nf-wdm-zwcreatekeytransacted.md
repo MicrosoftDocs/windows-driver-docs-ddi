@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c0cf38f4-2820-4177-93e6-2e20524d0353
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwCreateKeyTransacted
+ms.keywords: wdm/ZwCreateKeyTransacted, kernel.zwcreatekeytransacted, ZwCreateKeyTransacted, k111_7063495c-2357-4c51-b708-f72ed52bc166.xml, ZwCreateKeyTransacted routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwCreateKeyTransacted
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ZwCreateKeyTransacted
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ZwCreateKeyTransacted function
 
 
-
 ## -description
+
+
 The <b>ZwCreateKeyTransacted</b> routine creates a new registry key or opens an existing one, and it associates the key with a transaction. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ZwCreateKeyTransacted(
@@ -62,6 +72,9 @@ NTSTATUS ZwCreateKeyTransacted(
 
 ## -parameters
 
+
+
+
 ### -param KeyHandle [out]
 
 A pointer to a HANDLE variable into which the routine writes the handle to the key. 
@@ -77,7 +90,7 @@ Specifies the type of access to the key that the caller requests. This parameter
 A pointer to the object attributes of the key being opened. This parameter points to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that must have been previously initialized by the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> routine. The caller must specify the name of the registry key as the <i>ObjectName</i> parameter in the call to <b>InitializeObjectAttributes</b>. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. 
 
 
-### -param TitleIndex 
+### -param TitleIndex
 
 Device and intermediate drivers set this parameter to zero. 
 
@@ -90,7 +103,6 @@ Device and intermediate drivers set this parameter to <b>NULL</b>.
 ### -param CreateOptions [in]
 
 Specifies the options to apply when the routine creates or opens the key. Set this parameter to zero or to the bitwise OR of one or more of the following REG_OPTION_<i>XXX</i> flag bits.
-
 <table>
 <tr>
 <th><i>CreateOptions</i> flag</th>
@@ -136,8 +148,7 @@ Open the key with special privileges that enable backup and restore operations. 
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param TransactionHandle [in]
@@ -148,7 +159,6 @@ A handle to a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1
 ### -param Disposition [out, optional]
 
 A pointer to a location into which the routine writes one of the following values to indicate whether the call created a new key or opened an existing one.
-
 <table>
 <tr>
 <th><i>Disposition</i> value</th>
@@ -174,34 +184,82 @@ An existing key was opened.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 You can set <i>Disposition</i> = <b>NULL</b> if this information is not needed.
 
 
 ## -returns
+
+
 <b>ZwCreateKeyTransacted</b> returns STATUS_SUCCESS if the call successfully creates or opens the key. Possible error return values include the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl> The <i>ObjectAttributes</i> parameter is <b>NULL</b> or points to invalid information, or the <i>CreateOptions</i> parameter value specifies invalid options.
+</dl>
+</td>
+<td width="60%">
+ The <i>ObjectAttributes</i> parameter is <b>NULL</b> or points to invalid information, or the <i>CreateOptions</i> parameter value specifies invalid options.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_PATH_SYNTAX_BAD</b></dt>
-</dl>The registry path in the object attributes is invalid.
+</dl>
+</td>
+<td width="60%">
+The registry path in the object attributes is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_NAME_NOT_FOUND</b></dt>
-</dl>The registry path in the object attributes was not found.
+</dl>
+</td>
+<td width="60%">
+The registry path in the object attributes was not found.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>The caller did not have the required access rights to open a handle for the named registry key.
+</dl>
+</td>
+<td width="60%">
+The caller did not have the required access rights to open a handle for the named registry key.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>A memory allocation operation failed.
+</dl>
+</td>
+<td width="60%">
+A memory allocation operation failed.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This routine provides a handle that the caller can access a registry key with. Additionally, this routine associates the key with an active transaction.
 
 After the handle that is pointed to by <i>KeyHandle</i> is no longer being used, the driver must call the <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> routine to close it.
@@ -213,12 +271,16 @@ After a kernel-mode driver obtains a handle to a transaction (for example, by ca
 After the driver successfully completes all registry operations that are part of a transaction, it can call the <a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a> routine to commit to the changes. The driver can call the <a href="..\wdm\nf-wdm-zwrollbacktransaction.md">ZwRollbackTransaction</a> routine to roll back the transaction.
 
 During a transaction, a registry operation is part of the transaction if the system call that performs the operation meets either of the following conditions:
-
+<ul>
+<li>
 The call specifies, as an input parameter, the transaction handle. For example, calls to <b>ZwCreateKeyTransacted</b> and <b>ZwOpenKeyTransacted</b> can associate one or more handles to registry keys with the transaction. 
 
+</li>
+<li>
 The call specifies, as an input parameter, a registry key handle that was obtained by a call to <b>ZwCreateKeyTransacted</b> or <b>ZwOpenKeyTransacted</b> to which the transaction handle was supplied. For example, a call to the <a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a> routine can use a key handle that was obtained in this way to set the value of a registry key as part of a transaction. 
 
-For more information about kernel-mode transactions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565408">Using Kernel Transaction Manager</a>.
+</li>
+</ul>For more information about kernel-mode transactions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565408">Using Kernel Transaction Manager</a>.
 
 The security descriptor in the object attributes determines whether the access rights that are specified by the <i>DesiredAccess</i> parameter are granted on later calls to routines, such as <b>ZwOpenKeyTransacted</b> that access the key, or to routines, such as <b>ZwCreateKeyTransacted,</b> that create subkeys of the key.
 
@@ -227,42 +289,31 @@ If the kernel-mode caller is not running in a system thread context, it must ens
 For more information about how to work with registry keys in kernel mode, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565537">Using the Registry in a Driver</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-obopenobjectbypointer.md">ObOpenObjectByPointer</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwopenkeytransacted.md">ZwOpenKeyTransacted</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwrollbacktransaction.md">ZwRollbackTransaction</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
-</dt>
-</dl>
+
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="..\ntifs\nf-ntifs-obopenobjectbypointer.md">ObOpenObjectByPointer</a>
+
+<a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+<a href="..\wdm\nf-wdm-zwopenkeytransacted.md">ZwOpenKeyTransacted</a>
+
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+
+<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
  
 
  

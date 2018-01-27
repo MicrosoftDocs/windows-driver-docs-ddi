@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a4ccb122-ae90-4b06-a40d-21f131add99b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_MgmtInfo, HBA_MGMTINFO, *PHBA_MGMTINFO
+ms.keywords: HBA_MgmtInfo structure [Storage Devices], PHBA_MGMTINFO, PHBA_MGMTINFO structure pointer [Storage Devices], HBA_MgmtInfo, HBA_MGMTINFO structure [Storage Devices], *PHBA_MGMTINFO, hbaapi/PHBA_MGMTINFO, HBA_MGMTINFO, structs-Fibre_d7bcdc56-a999-4d0b-b7f0-88fe53b349b1.xml, hbaapi/HBA_MgmtInfo, storage.hba_mgmtinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBA_MGMTINFO
-req.alt-loc: hbaapi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbaapi.h
+apiname: 
+-	HBA_MGMTINFO
+product: Windows
+targetos: Windows
 req.typenames: HBA_MGMTINFO, *PHBA_MGMTINFO
 ---
 
 # HBA_MgmtInfo structure
 
 
-
 ## -description
+
+
 The HBA_MgmtInfo structure is used in conjunction with the <a href="..\hbaapi\nf-hbaapi-hba_setrnidmgmtinfo.md">HBA_SetRNIDMgmtInfo</a> routine to program the HBA to return the indicated request node identification information data (RNID). 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct HBA_MgmtInfo {
@@ -61,6 +71,9 @@ typedef struct HBA_MgmtInfo {
 
 
 ## -struct-fields
+
+
+
 
 ### -field wwn
 
@@ -107,18 +120,12 @@ Reserved.
 Contains the topology discovery flags. For an explanation of this member, see the <i>Fibre Channel Framing and Signaling (FC-FS) </i>specification, published by the T11 committee. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\hbaapi\nf-hbaapi-hba_getrnidmgmtinfo.md">HBA_GetRNIDMgmtInfo</a>
-</dt>
-<dt>
+
 <a href="..\hbaapi\nf-hbaapi-hba_setrnidmgmtinfo.md">HBA_SetRNIDMgmtInfo</a>
-</dt>
-</dl>
+
  
 
  

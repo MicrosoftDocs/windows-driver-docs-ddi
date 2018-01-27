@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4619a1aa-0c91-4b77-abbf-077f28437e0f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: __RxFillAndInstallFastIoDispatch
+ms.keywords: __RxFillAndInstallFastIoDispatch, rxref_5898351a-a474-44bb-8ba0-3d2edf81d073.xml, __RxFillAndInstallFastIoDispatch function [Installable File System Drivers], ifsk.__rxfillandinstallfastiodispatch, mrx/__RxFillAndInstallFastIoDispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: __RxFillAndInstallFastIoDispatch
-req.alt-loc: mrx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mrx.h
+apiname: 
+-	__RxFillAndInstallFastIoDispatch
+product: Windows
+targetos: Windows
 req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 ---
 
 # __RxFillAndInstallFastIoDispatch function
 
 
-
 ## -description
+
+
 <b>RxFillAndInstallFastIoDispatch</b> fills out a fast I/O dispatch vector to be identical with the normal dispatch I/O vector and installs it into the driver object associated with the device object passed.
 
 
-
 ## -syntax
+
 
 ````
 VOID __RxFillAndInstallFastIoDispatch(
@@ -55,6 +65,9 @@ VOID __RxFillAndInstallFastIoDispatch(
 
 
 ## -parameters
+
+
+
 
 ### -param RxDeviceObject [in]
 
@@ -72,10 +85,15 @@ The size, in bytes, of the fast I/O dispatch table passed.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The <b>__RxFillAndInstallFastIoDispatch</b> routine is implemented differently for monolithic and non-monolithic drivers network mini-redirector. 
 
 For non-monolithic network mini-redirector drivers, such as the Microsoft SMB redirector that links to rdbss.sys dynamically, <b>__RxFillAndInstallFastIoDispatch</b> is a convenience routine that copies the normal dispatch I/O vector table routines to the fast I/O dispatch vector table. This routine would normally be used by a non-monolithic network mini-redirector to fill out the fast I/O dispatch table before calling <a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMiniRdr</a>. This routine uses the minimum of the <i>FastIoDispatchSize</i> parameter and the size of the FAST_IO_DISPATCH structure defined in ntifs.h to determine the number of bytes to copy.
@@ -83,21 +101,17 @@ For non-monolithic network mini-redirector drivers, such as the Microsoft SMB re
 For monolithic network mini-redirectors built by developers, the <b>__RxFillAndInstallFastIoDispatch</b> routine does nothing.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
-</dt>
-<dt>
+
 <a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
-</dt>
-<dt>
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
-</dt>
-<dt>
+
+<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
+
 <a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
-</dt>
-</dl>
+
+<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
+
  
 
  

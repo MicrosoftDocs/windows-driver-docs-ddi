@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e6c8000-13e3-46fb-81be-18428fec2b21
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VHF_CONFIG, VHF_CONFIG, *PVHF_CONFIG
+ms.keywords: display.int10allocatebuffer, Int10AllocateBuffer callback function [Display Devices], Int10AllocateBuffer, PINT10_ALLOCATE_BUFFER, PINT10_ALLOCATE_BUFFER, video/Int10AllocateBuffer, VideoPort_Functions_9e19d07d-46a9-46ee-97db-6548202ff14f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: Int10AllocateBuffer
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	video.h
+apiname: 
+-	Int10AllocateBuffer
+product: Windows
+targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PINT10_ALLOCATE_BUFFER callback
 
 
-
 ## -description
+
+
 The <i>Int10AllocateBuffer</i> function can be used to allocate a single 4 KB block of memory in the context of another thread. After the block of memory has been allocated, it must be freed before another block of memory can be allocated.
 
 
-
 ## -prototype
+
 
 ````
 PINT10_ALLOCATE_BUFFER Int10AllocateBuffer;
@@ -60,6 +70,9 @@ VP_STATUS Int10AllocateBuffer(
 
 
 ## -parameters
+
+
+
 
 ### -param Context [in]
 
@@ -82,19 +95,23 @@ Pointer to a memory location that contains the length, in bytes, of the requeste
 
 
 ## -returns
+
+
 The <i>Int10AllocateBuffer</i> function returns NO_ERROR upon success. It returns STATUS_INSUFFICIENT_RESOURCES if the buffer has been allocated previously or if a buffer size larger than 4096 bytes is requested. 
 
 
+
 ## -remarks
+
+
 The video port implements this function, which can be accessed through a pointer in the <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

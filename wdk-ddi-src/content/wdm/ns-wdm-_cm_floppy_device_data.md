@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0ef0d242-4ed6-4c48-85b8-0fc87d3fe39b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _CM_FLOPPY_DEVICE_DATA, *PCM_FLOPPY_DEVICE_DATA, CM_FLOPPY_DEVICE_DATA
+ms.keywords: _CM_FLOPPY_DEVICE_DATA, kernel.cm_floppy_device_data, *PCM_FLOPPY_DEVICE_DATA, CM_FLOPPY_DEVICE_DATA, wdm/PCM_FLOPPY_DEVICE_DATA, PCM_FLOPPY_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], PCM_FLOPPY_DEVICE_DATA, CM_FLOPPY_DEVICE_DATA structure [Kernel-Mode Driver Architecture], kstruct_a_7ec8badb-4d88-479e-b0dc-ce88660b8449.xml, wdm/CM_FLOPPY_DEVICE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CM_FLOPPY_DEVICE_DATA
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	CM_FLOPPY_DEVICE_DATA
+product: Windows
+targetos: Windows
 req.typenames: *PCM_FLOPPY_DEVICE_DATA, CM_FLOPPY_DEVICE_DATA
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _CM_FLOPPY_DEVICE_DATA structure
 
 
-
 ## -description
+
+
 The <b>CM_FLOPPY_DEVICE_DATA</b> structure defines a device-type-specific data record that is stored in the \\Registry\Machine\Hardware\Description tree for a floppy controller if the system can collect this information during the boot process.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CM_FLOPPY_DEVICE_DATA {
@@ -71,6 +81,9 @@ typedef struct _CM_FLOPPY_DEVICE_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -162,21 +175,14 @@ The maximum track number on the media. Track numbers are zero-based values.
 The value written to the Datarate register before accessing the media. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549616">IoReportResourceUsage</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
+
 <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

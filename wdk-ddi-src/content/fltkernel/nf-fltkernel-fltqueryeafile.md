@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3981ab65-2d21-4188-88dc-04eb7aff0869
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltQueryEaFile
+ms.keywords: fltkernel/FltQueryEaFile, FltQueryEaFile function [Installable File System Drivers], FltQueryEaFile, FltApiRef_p_to_z_cfb86d4e-84c0-4ab7-a813-094420e437cc.xml, ifsk.fltqueryeafile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows 2000 Update Rollup 1 f
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltQueryEaFile
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltQueryEaFile
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltQueryEaFile function
 
 
-
 ## -description
+
+
 <b>FltQueryEaFile</b> returns information about extended-attribute (EA) values for a file. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltQueryEaFile(
@@ -62,6 +72,9 @@ NTSTATUS FltQueryEaFile(
 
 
 ## -parameters
+
+
+
 
 ### -param Instance [in]
 
@@ -114,38 +127,61 @@ Pointer to a caller-allocated variable that receives the size, in bytes, of the 
 
 
 ## -returns
+
+
 <b>FltQueryEaFile</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_EAS_NOT_SUPPORTED</b></dt>
-</dl>The file system does not support extended attributes. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+The file system does not support extended attributes. This is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FLT_DELETING_OBJECT</b></dt>
-</dl>The instance or volume is being torn down. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+The instance or volume is being torn down. This is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl><b>FltQueryEaFile</b> encountered a pool allocation failure. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+<b>FltQueryEaFile</b> encountered a pool allocation failure. This is an error code. 
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_file_get_ea_information.md">FILE_GET_EA_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltseteafile.md">FltSetEaFile</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
+
 <a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltseteafile.md">FltSetEaFile</a>
+
  
 
  

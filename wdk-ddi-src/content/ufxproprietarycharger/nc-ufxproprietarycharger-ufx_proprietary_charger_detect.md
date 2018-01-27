@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E95D2713-8F95-460E-9107-4793B002A6AC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS, *PUFX_ENDPOINT_CALLBACKS
+ms.keywords: buses.ufx_proprietary_charger_detect, UfxProprietaryChargerDetect callback function [Buses], UfxProprietaryChargerDetect, UFX_PROPRIETARY_CHARGER_DETECT, UFX_PROPRIETARY_CHARGER_DETECT, ufxproprietarycharger/UfxProprietaryChargerDetect, PFN_UFX_PROPRIETARY_CHARGER_DETECT callback function pointer [Buses], PFN_UFX_PROPRIETARY_CHARGER_DETECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: PFN_UFX_PROPRIETARY_CHARGER_DETECT
-req.alt-loc: ufxproprietarycharger.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ufxproprietarycharger.h
+apiname: 
+-	PFN_UFX_PROPRIETARY_CHARGER_DETECT
+product: Windows
+targetos: Windows
 req.typenames: UFX_ENDPOINT_CALLBACKS, *PUFX_ENDPOINT_CALLBACKS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # UFX_PROPRIETARY_CHARGER_DETECT callback
 
 
-
 ## -description
+
+
 The filter driver's implementation to detect if a charger is attached  and get details about the charger.
 
 
-
 ## -prototype
+
 
 ````
 UFX_PROPRIETARY_CHARGER_DETECT UfxProprietaryChargerDetect;
@@ -61,6 +71,9 @@ typedef UFX_PROPRIETARY_CHARGER_DETECT PFN_UFX_PROPRIETARY_CHARGER_DETECT;
 
 ## -parameters
 
+
+
+
 ### -param Context [in]
 
     A pointer to a driver-defined context.
@@ -72,21 +85,25 @@ A pointer to a     <a href="..\ufxproprietarycharger\ns-ufxproprietarycharger-_u
 
 
 ## -returns
+
+
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it must return a status value for which NT_SUCCESS(status) equals FALSE.
 
 
+
 ## -remarks
+
+
 To support handling of proprietary chargers, the USB lower filter driver must publish support. During the publishing process, the driver also registers its implementation of this  callback function. For more information, see <a href="https://msdn.microsoft.com/05D2B46A-282C-4B75-9F5C-2FC0AF344AB9">USB filter driver for supporting proprietary chargers</a>.
 
 In this callback function, the driver assigns the charger a GUID and sets the minimum required Dx state when the device is connected for charging. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/05D2B46A-282C-4B75-9F5C-2FC0AF344AB9">USB filter driver for supporting proprietary chargers</a>
-</dt>
-</dl>
+
  
 
  

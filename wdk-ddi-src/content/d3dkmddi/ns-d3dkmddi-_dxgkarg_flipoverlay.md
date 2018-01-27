@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c5396581-e9f2-47eb-bb82-1e54f5def4d0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_FLIPOVERLAY, DXGKARG_FLIPOVERLAY
+ms.keywords: _DXGKARG_FLIPOVERLAY, DXGKARG_FLIPOVERLAY, DmStructs_8ff06344-e7f5-44b1-95fc-d3b363428d43.xml, display.dxgkarg_flipoverlay, DXGKARG_FLIPOVERLAY structure [Display Devices], d3dkmddi/DXGKARG_FLIPOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_FLIPOVERLAY
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_FLIPOVERLAY
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_FLIPOVERLAY
 ---
 
 # _DXGKARG_FLIPOVERLAY structure
 
 
-
 ## -description
+
+
 The DXGKARG_FLIPOVERLAY structure describes a new allocation to display for the overlay. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_FLIPOVERLAY {
@@ -57,6 +67,9 @@ typedef struct _DXGKARG_FLIPOVERLAY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hSource
 
@@ -83,15 +96,10 @@ typedef struct _DXGKARG_FLIPOVERLAY {
 [in] The size, in bytes, of the block of private data that <b>pPrivateDriverData</b> points to.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_flipoverlay.md">DxgkDdiFlipOverlay</a>
-</dt>
-</dl>
+
  
 
  

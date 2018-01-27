@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bd41bbbf-4ec8-4e6c-8620-d8a9fe0b8bad
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VHF_CONFIG, VHF_CONFIG, *PVHF_CONFIG
+ms.keywords: display.hwvidtimer, HwVidTimer callback function [Display Devices], HwVidTimer, PVIDEO_HW_TIMER, PVIDEO_HW_TIMER, video/HwVidTimer, VideoMiniport_Functions_80fa0df4-2b7c-4ffa-9048-e252b8af26cf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HwVidTimer
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	video.h
+apiname: 
+-	HwVidTimer
+product: Windows
+targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PVIDEO_HW_TIMER callback
 
 
-
 ## -description
+
+
 <i>HwVidTimer</i> is a video miniport driver routine called at timed intervals by the video port driver.
 
 
-
 ## -prototype
+
 
 ````
 PVIDEO_HW_TIMER HwVidTimer;
@@ -58,16 +68,24 @@ VOID HwVidTimer(
 
 ## -parameters
 
-### -param HwDeviceExtension 
+
+
+
+### -param HwDeviceExtension
 
 Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543119">Device Extensions</a>.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <i>HwVidTimer</i> is an optional miniport driver function to which calls are enabled with <a href="..\video\nf-video-videoportstarttimer.md">VideoPortStartTimer</a> and disabled with <a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>.
 
 Any miniport driver can have a <i>HwVidTimer</i> function. For example, a <i>HwVidTimer</i> function could be used to read the state of the "VGA" registers on a high-end video adapter so that the miniport driver can emulate VGA-compatible behavior.
@@ -79,15 +97,13 @@ Note that the <i>HwVidTimer</i> function <i>must not</i> disable the timer with 
 <i>HwVidTimer</i> must not be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nf-video-videoportstarttimer.md">VideoPortStartTimer</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 73486EA4-F1D8-4649-81C8-1698E1854DED
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA
+ms.keywords: display.pfnd3d12ddi_writebufferimmediate_0032, PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032 callback function [Display Devices], PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032, d3d12umddi/PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032
-req.alt-loc: d3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d12umddi.h
+apiname: 
+-	PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
 
 # PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032 callback
 
 
-
 ## -description
+
+
 Used to create a write buffer. 
 
 
-
 ## -prototype
+
 
 ````
 VOID APIENTRY* PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032(
@@ -57,28 +67,47 @@ VOID APIENTRY* PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032(
 
 ## -parameters
 
-### -param hDrvCommandList 
-
-The command list.
 
 
-### -param Count 
+
+### -param D3D12DDI_HCOMMANDLIST
+
+
+
+### -param Count
 
 The count.
 
 
-### -param pParams [in]
-
-The parameters for the write buffer.
+### -param *pParams
 
 
-### -param pModes [in]
+
+### -param *pModes
+
+
+
+
+
+
+#### - hDrvCommandList
+
+The command list.
+
+
+#### - pModes [in]
 
 The modes for the write buffer.
 
 
+#### - pParams [in]
+
+The parameters for the write buffer.
+
+
 ## -returns
+
+
 This callback function does not return a value.
 
 
-## -remarks

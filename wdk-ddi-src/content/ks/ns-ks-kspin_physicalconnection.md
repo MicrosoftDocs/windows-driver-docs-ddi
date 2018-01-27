@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e11c6e8d-a338-4427-af04-bdb07b9e9a73
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPIN_PHYSICALCONNECTION, *PKSPIN_PHYSICALCONNECTION, KSPIN_PHYSICALCONNECTION
+ms.keywords: ks/KSPIN_PHYSICALCONNECTION, stream.kspin_physicalconnection, PKSPIN_PHYSICALCONNECTION structure pointer [Streaming Media Devices], ks/PKSPIN_PHYSICALCONNECTION, KSPIN_PHYSICALCONNECTION, KSPIN_PHYSICALCONNECTION structure [Streaming Media Devices], *PKSPIN_PHYSICALCONNECTION, ks-struct_7b9a3e0f-2cd9-4822-8e8a-03355dc522ed.xml, PKSPIN_PHYSICALCONNECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPIN_PHYSICALCONNECTION
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSPIN_PHYSICALCONNECTION
+product: Windows
+targetos: Windows
 req.typenames: *PKSPIN_PHYSICALCONNECTION, KSPIN_PHYSICALCONNECTION
 ---
 
 # KSPIN_PHYSICALCONNECTION structure
 
 
-
 ## -description
+
+
 A structure of type KSPIN_PHYSICALCONNECTION is returned in response to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565205">KSPROPERTY_PIN_PHYSICALCONNECTION</a> request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -72,15 +85,16 @@ Specifies a string containing the symbolic link name of the connected filter
 
 
 ## -remarks
+
+
 This structure is used with port class only.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565205">KSPROPERTY_PIN_PHYSICALCONNECTION</a>
-</dt>
-</dl>
+
  
 
  

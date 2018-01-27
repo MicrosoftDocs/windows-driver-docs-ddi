@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8d934e44-c6f9-42f7-81a6-202b6c97aca2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfWmiProviderGetDevice
+ms.keywords: wdfwmi/WdfWmiProviderGetDevice, WdfWmiProviderGetDevice, wdf.wdfwmiprovidergetdevice, PFN_WDFWMIPROVIDERGETDEVICE, WdfWmiProviderGetDevice method, DFWMIRef_697647f5-0ece-46e4-8973-07088c8c3739.xml, kmdf.wdfwmiprovidergetdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfWmiProviderGetDevice
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfWmiProviderGetDevice
+product: Windows
+targetos: Windows
 req.typenames: WDF_WMI_PROVIDER_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WdfWmiProviderGetDevice function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfWmiProviderGetDevice</b> method returns a handle to the framework device object that is the parent of a specified WMI provider object.
 
 
-
 ## -syntax
+
 
 ````
 WDFDEVICE WdfWmiProviderGetDevice(
@@ -57,33 +68,31 @@ WDFDEVICE WdfWmiProviderGetDevice(
 
 ## -parameters
 
+
+
+
 ### -param WmiProvider [in]
 
 A handle to a WMI provider object that the driver obtained by calling <a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a> or <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancegetprovider.md">WdfWmiInstanceGetProvider</a>.
 
 
 ## -returns
+
+
 <b>WdfWmiProviderGetDevice</b> returns a handle to a framework device object.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-The following code example obtains a handle to the framework device object that is the parent of a specified WMI provider object.
-
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancegetprovider.md">WdfWmiInstanceGetProvider</a>
-</dt>
-<dt>
+
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
-</dt>
-</dl>
+
  
 
  

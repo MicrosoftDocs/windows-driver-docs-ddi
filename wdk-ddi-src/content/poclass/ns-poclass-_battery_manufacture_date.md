@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 1ab9caa3-344a-49c8-8f40-75d9c251be04
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _BATTERY_MANUFACTURE_DATE, *PBATTERY_MANUFACTURE_DATE, BATTERY_MANUFACTURE_DATE
+ms.keywords: *PBATTERY_MANUFACTURE_DATE, BATTERY_MANUFACTURE_DATE, PBATTERY_MANUFACTURE_DATE structure pointer [Battery Devices], BATTERY_MANUFACTURE_DATE structure [Battery Devices], bat-struct_7c707930-4017-4761-94fc-e4322cd6ead9.xml, poclass/PBATTERY_MANUFACTURE_DATE, _BATTERY_MANUFACTURE_DATE, PBATTERY_MANUFACTURE_DATE, battery.battery_manufacture_date, poclass/BATTERY_MANUFACTURE_DATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BATTERY_MANUFACTURE_DATE
-req.alt-loc: poclass.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	poclass.h
+apiname: 
+-	BATTERY_MANUFACTURE_DATE
+product: Windows
+targetos: Windows
 req.typenames: *PBATTERY_MANUFACTURE_DATE, BATTERY_MANUFACTURE_DATE
 ---
 
 # _BATTERY_MANUFACTURE_DATE structure
 
 
-
 ## -description
+
+
 Battery miniclass drivers fill in this structure in response to certain <a href="https://msdn.microsoft.com/bd96b79a-5670-4aaf-b72c-619818c2a2e7">BatteryMiniQueryInformation</a> requests. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BATTERY_MANUFACTURE_DATE {
@@ -55,6 +65,9 @@ typedef struct _BATTERY_MANUFACTURE_DATE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Day
 
@@ -71,15 +84,10 @@ Specifies a value in the range 1 to 12, inclusive.
 Specifies a value &gt;= 1996.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/bd96b79a-5670-4aaf-b72c-619818c2a2e7">BatteryMiniQueryInformation</a>
-</dt>
-</dl>
+
  
 
  

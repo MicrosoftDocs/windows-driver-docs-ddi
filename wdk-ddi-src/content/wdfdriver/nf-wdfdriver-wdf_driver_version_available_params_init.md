@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aba3844e-745d-4d2c-9855-0535f53d7b0a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT
+ms.keywords: kmdf.wdf_driver_version_available_params_init, WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT, DFDriverObjectRef_9638f416-7d77-45af-8e87-07c51198fb05.xml, WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function, wdf.wdf_driver_version_available_params_init, wdfdriver/WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT
-req.alt-loc: wdfdriver.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfdriver.h
+apiname: 
+-	WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT
+product: Windows
+targetos: Windows
 req.typenames: WDF_DRIVER_INIT_FLAGS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function initializes a <a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_version_available_params.md">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 VOID WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT(
@@ -58,6 +68,9 @@ VOID WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT(
 
 
 ## -parameters
+
+
+
 
 ### -param Params [out]
 
@@ -75,21 +88,23 @@ A numeric value that represents the Kernel-Mode Driver Framework library's minor
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function zeros the <a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_version_available_params.md">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a> structure that the <i>Params</i> parameter points to and sets the structure's <b>Size</b> member. Then, this function sets the structure's <b>MajorVersion</b> and <b>MinorVersion</b> members to the specified values.
 
-For a code example that uses WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT, see <a href="..\wdfdriver\nf-wdfdriver-wdfdriverisversionavailable.md">WdfDriverIsVersionAvailable</a>.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_version_available_params.md">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a>
-</dt>
-</dl>
+
  
 
  

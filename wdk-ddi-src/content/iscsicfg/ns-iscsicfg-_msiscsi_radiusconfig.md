@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6f8be86e-2729-4aa9-982d-df323f05cf1c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSiSCSI_RADIUSConfig, MSiSCSI_RADIUSConfig, *PMSiSCSI_RADIUSConfig
+ms.keywords: PMSiSCSI_RADIUSConfig, _MSiSCSI_RADIUSConfig, iscsicfg/MSiSCSI_RADIUSConfig, structs-iSCSI_9f8461c3-b370-4aed-a5a5-58f9dd276944.xml, MSiSCSI_RADIUSConfig structure [Storage Devices], iscsicfg/PMSiSCSI_RADIUSConfig, MSiSCSI_RADIUSConfig, PMSiSCSI_RADIUSConfig structure pointer [Storage Devices], *PMSiSCSI_RADIUSConfig, storage.msiscsi_radiusconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSiSCSI_RADIUSConfig
-req.alt-loc: iscsicfg.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: MSiSCSI_RADIUSConfig, *PMSiSCSI_RADIUSConfig
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsicfg.h
+apiname: 
+-	MSiSCSI_RADIUSConfig
+product: Windows
+targetos: Windows
+req.typenames: *PMSiSCSI_RADIUSConfig, MSiSCSI_RADIUSConfig
 ---
 
 # _MSiSCSI_RADIUSConfig structure
 
 
-
 ## -description
+
+
 The MSiSCSI_RADIUSConfig structure provides information that the initiator requires to use the remote authentication dial-in user service (RADIUS).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSiSCSI_RADIUSConfig {
@@ -58,6 +68,9 @@ typedef struct _MSiSCSI_RADIUSConfig {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UseRADIUSForCHAP
 
@@ -90,6 +103,8 @@ A variable-length array that contains a shared secret. The initiator uses this s
 
 
 ## -remarks
+
+
 Initiators use RADIUS servers to perform authentication during the challenge handshake of CHAP.
 
 The WMI tool suite automatically generates a declaration of the MSiSCSI_RADIUSConfig structure when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563114">MSiSCSI_RADIUSConfig WMI Class</a> in <i>Config.mof</i>. 
@@ -101,15 +116,13 @@ Initiators should use RADIUS whenever possible, because RADIUS allows the centra
 Initiators should register each instance of the MSiSCSI_RADIUSConfig class using the name of the physical device object (PDO) for the HBAYou must implement this class if the adapter supports authentication via RADIUS.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563114">MSiSCSI_RADIUSConfig WMI Class</a>
-</dt>
-</dl>
+
  
 
  

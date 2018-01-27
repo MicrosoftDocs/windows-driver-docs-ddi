@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1223534f-a89c-45b4-b07d-75c2c8383b73
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VHF_CONFIG, VHF_CONFIG, *PVHF_CONFIG
+ms.keywords: display.hwvidbugcheckcallback, HwVidBugcheckCallback callback function [Display Devices], HwVidBugcheckCallback, PVIDEO_BUGCHECK_CALLBACK, PVIDEO_BUGCHECK_CALLBACK, video/HwVidBugcheckCallback, VideoMiniport_Functions_d3dcce93-d172-4948-8cc5-395dd2a1f9a5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HwVidBugcheckCallback
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	video.h
+apiname: 
+-	HwVidBugcheckCallback
+product: Windows
+targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PVIDEO_BUGCHECK_CALLBACK callback
 
 
-
 ## -description
+
+
 The <i>HwVidBugcheckCallback</i> function enables the miniport driver to append data to a dump file when a bug check occurs.
 
 
-
 ## -prototype
+
 
 ````
 PVIDEO_BUGCHECK_CALLBACK HwVidBugcheckCallback;
@@ -60,6 +70,9 @@ VOID HwVidBugcheckCallback(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -82,10 +95,15 @@ Specifies the size, in bytes, of the buffer pointed to by the <i>Buffer</i> para
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 This function is available in Windows XP SP1 and later. 
 
 This function is called when a bug check occurs. The miniport driver can collect data that is to be appended to the dump file and write this data to the buffer. The driver must not write more than <i>BufferSize</i> bytes to the buffer.
@@ -99,12 +117,11 @@ Because a system can consist of multiple video miniport drivers, venders should 
 The function is called at raised IRQL and must not attempt to access pageable code or data.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nf-video-videoportregisterbugcheckcallback.md">VideoPortRegisterBugcheckCallback</a>
-</dt>
-</dl>
+
  
 
  

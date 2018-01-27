@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ec1db013-b630-421b-8d22-385a2d9b9510
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortSetBusDataByOffset
+ms.keywords: StorPortSetBusDataByOffset routine [Storage Devices], storprt_ebb2afc1-b190-4674-8ee7-bd61953565ab.xml, storage.storportsetbusdatabyoffset, storport/StorPortSetBusDataByOffset, StorPortSetBusDataByOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortSetBusDataByOffset
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortSetBusDataByOffset
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortSetBusDataByOffset function
 
 
-
 ## -description
+
+
 The <b>StorPortSetBusDataByOffset</b> routine writes bus-specific configuration information.
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API ULONG StorPortSetBusDataByOffset(
@@ -60,6 +71,9 @@ STORPORT_API ULONG StorPortSetBusDataByOffset(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceExtension [in]
 
@@ -101,18 +115,16 @@ Indicates the length, in bytes, of the maximum amount of data to return.
 
 
 ## -returns
+
+
 <b>StorPortSetBusDataByOffset</b> returns the number of bytes of configuration data written. 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\srb\nf-srb-scsiportsetbusdatabyoffset.md">ScsiPortSetBusDataByOffset</a>
-</dt>
-</dl>
+
  
 
  

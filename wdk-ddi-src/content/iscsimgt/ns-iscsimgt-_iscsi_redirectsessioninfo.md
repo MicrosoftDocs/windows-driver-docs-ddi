@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e3980ac7-b539-4a8f-9869-14d418ebe1e7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ISCSI_RedirectSessionInfo, ISCSI_RedirectSessionInfo, *PISCSI_RedirectSessionInfo
+ms.keywords: ISCSI_RedirectSessionInfo structure [Storage Devices], structs-iSCSI_41ab8376-0e0e-40af-8cab-1be2f63edeed.xml, PISCSI_RedirectSessionInfo, iscsimgt/PISCSI_RedirectSessionInfo, iscsimgt/ISCSI_RedirectSessionInfo, ISCSI_RedirectSessionInfo, _ISCSI_RedirectSessionInfo, *PISCSI_RedirectSessionInfo, storage.iscsi_redirectsessioninfo, PISCSI_RedirectSessionInfo structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ISCSI_RedirectSessionInfo
-req.alt-loc: iscsimgt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsimgt.h
+apiname: 
+-	ISCSI_RedirectSessionInfo
+product: Windows
+targetos: Windows
 req.typenames: ISCSI_RedirectSessionInfo, *PISCSI_RedirectSessionInfo
 ---
 
 # _ISCSI_RedirectSessionInfo structure
 
 
-
 ## -description
+
+
 This ISCSI_RedirectSessionInfo structure contains information about an iSCSI session and its portal information resulted from iSCSI target redirection.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ISCSI_RedirectSessionInfo {
@@ -56,6 +66,9 @@ typedef struct _ISCSI_RedirectSessionInfo {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UniqueSessionId
 
@@ -77,18 +90,12 @@ Number of connections for each session.
 This provides the redirection information, and it has as many entries as the number of connections for each session.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-</dt>
-</dl>
+
  
 
  

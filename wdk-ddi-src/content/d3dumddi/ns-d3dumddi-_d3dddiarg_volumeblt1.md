@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 685aad54-03f5-4e3c-83a7-a44745acc4fb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_VOLUMEBLT1, D3DDDIARG_VOLUMEBLT1
+ms.keywords: D3DDDIARG_VOLUMEBLT1 structure [Display Devices], d3dumddi/D3DDDIARG_VOLUMEBLT1, _D3DDDIARG_VOLUMEBLT1, display.d3dddiarg_volumeblt1, D3DDDIARG_VOLUMEBLT1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_VOLUMEBLT1
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	D3DDDIARG_VOLUMEBLT1
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_VOLUMEBLT1
 ---
 
 # _D3DDDIARG_VOLUMEBLT1 structure
 
 
-
 ## -description
+
+
 Describes parameters for a volume bit-block transfer (bitblt) operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_VOLUMEBLT1 {
@@ -59,6 +69,9 @@ typedef struct _D3DDDIARG_VOLUMEBLT1 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDstResource
 
@@ -95,18 +108,12 @@ typedef struct _D3DDDIARG_VOLUMEBLT1 {
 A value that specifies characteristics of a copy operation as a bitwise OR of the values in the <a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a> enumeration type.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddibox.md">D3DDDIBOX</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 658ea6a4-309d-4f78-9a02-f93e7d945325
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _FEATURE_DATA_FORMATTABLE, FEATURE_DATA_FORMATTABLE, *PFEATURE_DATA_FORMATTABLE
+ms.keywords: ntddmmc/FEATURE_DATA_FORMATTABLE, FEATURE_DATA_FORMATTABLE structure [Storage Devices], structs-CD-ROM_27503157-de29-4c39-bb7a-b17528984f7f.xml, PFEATURE_DATA_FORMATTABLE, _FEATURE_DATA_FORMATTABLE, *PFEATURE_DATA_FORMATTABLE, PFEATURE_DATA_FORMATTABLE structure pointer [Storage Devices], ntddmmc/PFEATURE_DATA_FORMATTABLE, FEATURE_DATA_FORMATTABLE, storage.feature_data_formattable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FEATURE_DATA_FORMATTABLE
-req.alt-loc: ntddmmc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddmmc.h
+apiname: 
+-	FEATURE_DATA_FORMATTABLE
+product: Windows
+targetos: Windows
 req.typenames: FEATURE_DATA_FORMATTABLE, *PFEATURE_DATA_FORMATTABLE
 ---
 
 # _FEATURE_DATA_FORMATTABLE structure
 
 
-
 ## -description
+
+
 The FEATURE_DATA_FORMATTABLE structure contains information for the Formattable feature. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FEATURE_DATA_FORMATTABLE {
@@ -63,6 +73,9 @@ typedef struct _FEATURE_DATA_FORMATTABLE {
 
 ## -struct-fields
 
+
+
+
 ### -field Header
 
 Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
@@ -71,45 +84,54 @@ Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 ### -field FullCertification
 
 
+
 ### -field QuickCertification
+
 
 
 ### -field SpareAreaExpansion
 
 
+
 ### -field RENoSpareAllocated
+
 
 
 ### -field Reserved1
 
 
+
 ### -field Reserved2
+
 
 
 ### -field RRandomWritable
 
 
+
 ### -field Reserved3
+
 
 
 ### -field Reserved4
 
 
+
 ## -remarks
+
+
 This structure holds data for the feature named "Formattable" by the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. Devices that support this feature can format media into logical blocks. 
 
 When queried, devices supporting this feature must return the information indicated in <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>. No other feature-specific information is required. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
-</dt>
-</dl>
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a4adc761-cf0c-466c-b20f-0af2da9ec447
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlOplockKeysEqual
+ms.keywords: fsrtlref_ee1323ee-1f65-4323-8648-f613d1ac04c5.xml, FsRtlOplockKeysEqual, ntifs/FsRtlOplockKeysEqual, ifsk.fsrtloplockkeysequal, FsRtlOplockKeysEqual routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The FsRtlOplockKeysEqual routine is available startin
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlOplockKeysEqual
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlOplockKeysEqual
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlOplockKeysEqual function
 
 
-
 ## -description
+
+
 The <b>FsRtlOplockKeysEqual</b> routine compares the opportunistic lock (oplock) keys that are stored in the file object extensions of two file objects. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlOplockKeysEqual(
@@ -54,6 +64,9 @@ BOOLEAN FsRtlOplockKeysEqual(
 
 
 ## -parameters
+
+
+
 
 ### -param Fo1 [in, optional]
 
@@ -66,21 +79,25 @@ A pointer to the second file object for the comparison.
 
 
 ## -returns
+
+
 The <b>FsRtlOplockKeysEqual</b> routine returns <b>TRUE</b> if the keys match or if the file object pointers are the same. <b>FsRtlOplockKeysEqual </b>returns <b>FALSE</b> if the keys do not match, if either of the file objects is missing, or if either of the file objects does not have a key. 
 
 
+
 ## -remarks
+
+
 If no oplock keys were provided when the file objects were created, they are considered to match if the file object pointers are the same (that is, they are the same file object). If the file object pointers are different and either or both of them do not have an associated oplock key, they are considered to not match.
 
 Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockkeysequal.md">FltOplockKeysEqual</a> instead of <b>FsRtlOplockKeysEqual</b>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltoplockkeysequal.md">FltOplockKeysEqual</a>
-</dt>
-</dl>
+
  
 
  

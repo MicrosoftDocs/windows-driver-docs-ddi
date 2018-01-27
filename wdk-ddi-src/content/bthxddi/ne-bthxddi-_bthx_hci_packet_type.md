@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 87265ABB-C2B7-468F-83FC-411AD9769517
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTHX_HCI_PACKET_TYPE, BTHX_HCI_PACKET_TYPE
+ms.keywords: HciPacketEvent, _BTHX_HCI_PACKET_TYPE, BTHX_HCI_PACKET_TYPE, bltooth.bthx_hci_packet_type, bthxddi/HciPacketAclData, BTHX_HCI_PACKET_TYPE enumeration [Bluetooth Devices], bthxddi/HciPacketCommand, HciPacketCommand, bthxddi/BTHX_HCI_PACKET_TYPE, bthxddi/HciPacketEvent, HciPacketAclData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported starting with  Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BTHX_HCI_PACKET_TYPE
-req.alt-loc: BthXDDI.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	BthXDDI.h
+apiname: 
+-	BTHX_HCI_PACKET_TYPE
+product: Windows
+targetos: Windows
 req.typenames: BTHX_HCI_PACKET_TYPE
 ---
 
 # _BTHX_HCI_PACKET_TYPE enumeration
 
 
-
 ## -description
+
+
 The BTHX_HCI_PACKET_TYPE enumeration lists the different types of packets being sent from the Bluetooth stack to the transport driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _BTHX_HCI_PACKET_TYPE { 
@@ -55,6 +65,9 @@ typedef enum _BTHX_HCI_PACKET_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field HciPacketCommand
 
@@ -72,18 +85,18 @@ The packet represents an event.
 
 
 ## -remarks
+
+
 The IOCTL_BTHX_HCI_READ and IOCTL_BTHX_HCI_WRITE IOCTLs are used to read/write data to/from the transport driver. The BTHX_HCI_PACKET_TYPE enumeration is used to specify with which type of packet the read/write is associated.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\bthxddi\ni-bthxddi-ioctl_bthx_read_hci.md">IOCTL_BTHX_HCI_READ</a>
-</dt>
-<dt>
+
 <a href="..\bthxddi\ni-bthxddi-ioctl_bthx_write_hci.md">IOCTL_BTHX_HCI_WRITE</a>
-</dt>
-</dl>
+
+<a href="..\bthxddi\ni-bthxddi-ioctl_bthx_read_hci.md">IOCTL_BTHX_HCI_READ</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 178C9423-D7C9-43FD-BC80-A675383BDE9B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCX_CONTROLLER_PCI_INFORMATION, UCX_CONTROLLER_PCI_INFORMATION, *PUCX_CONTROLLER_PCI_INFORMATION
+ms.keywords: ucxcontroller/P_UCX_CONTROLLER_PCI_INFORMATION, P_UCX_CONTROLLER_PCI_INFORMATION structure pointer [Buses], ucxcontroller/_UCX_CONTROLLER_PCI_INFORMATION, UCX_CONTROLLER_PCI_INFORMATION structure [Buses], UCX_CONTROLLER_PCI_INFORMATION, _UCX_CONTROLLER_PCI_INFORMATION, *PUCX_CONTROLLER_PCI_INFORMATION, buses._ucx_controller_pci_information, P_UCX_CONTROLLER_PCI_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UCX_CONTROLLER_PCI_INFORMATION
-req.alt-loc: Ucxcontroller.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: UCX_CONTROLLER_PCI_INFORMATION, *PUCX_CONTROLLER_PCI_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ucxcontroller.h
+apiname: 
+-	UCX_CONTROLLER_PCI_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: *PUCX_CONTROLLER_PCI_INFORMATION, UCX_CONTROLLER_PCI_INFORMATION
 req.product: Windows 10 or later.
 ---
 
 # _UCX_CONTROLLER_PCI_INFORMATION structure
 
 
-
 ## -description
+
+
 This structure provides information about a PCI USB controller.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UCX_CONTROLLER_PCI_INFORMATION {
@@ -59,6 +69,9 @@ typedef struct _UCX_CONTROLLER_PCI_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field VendorId
 
@@ -90,21 +103,14 @@ Specifies the device number that is assigned to the logical PCI slot.
 Specifies the specific function on the device that is located in the logical PCI slot. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
-</dt>
-<dt>
-<a href="..\ucxcontroller\ne-ucxcontroller-_ucx_controller_parent_bus_type.md">UCX_CONTROLLER_PARENT_BUS_TYPE</a>
-</dt>
-<dt>
+
 <a href="..\ucxcontroller\nf-ucxcontroller-ucx_controller_config_set_pci_info.md">UCX_CONTROLLER_CONFIG_SET_PCI_INFO</a>
-</dt>
-</dl>
+
+<a href="..\ucxcontroller\ne-ucxcontroller-_ucx_controller_parent_bus_type.md">UCX_CONTROLLER_PARENT_BUS_TYPE</a>
+
+<a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
+
  
 
  

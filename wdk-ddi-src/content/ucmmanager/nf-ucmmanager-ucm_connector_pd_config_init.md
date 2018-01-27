@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 59663F6C-5C8E-4403-8097-7E6D9A075A60
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCM_CONNECTOR_PD_CONFIG_INIT
+ms.keywords: ucmmanager/UCM_CONNECTOR_PD_CONFIG_INIT, UCM_CONNECTOR_PD_CONFIG_INIT, UCM_CONNECTOR_PD_CONFIG_INIT function [Buses], buses.ucm_connector_pd_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 2.15
-req.alt-api: UCM_CONNECTOR_PD_CONFIG_INIT
-req.alt-loc: Ucmmanager.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ucmmanager.h
+apiname: 
+-	UCM_CONNECTOR_PD_CONFIG_INIT
+product: Windows
+targetos: Windows
 req.typenames: *PPORT_DATA_1, PORT_DATA_1
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # UCM_CONNECTOR_PD_CONFIG_INIT function
 
 
-
 ## -description
+
+
 Initializes a <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_pd_config.md">UCM_CONNECTOR_PD_CONFIG</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE void UCM_CONNECTOR_PD_CONFIG_INIT(
@@ -55,6 +65,9 @@ FORCEINLINE void UCM_CONNECTOR_PD_CONFIG_INIT(
 
 
 ## -parameters
+
+
+
 
 ### -param Config [out]
 
@@ -67,18 +80,16 @@ A bitwise OR of <a href="..\ucmtypes\ne-ucmtypes-_ucm_power_role.md">UCM_POWER_R
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>
-</dt>
-</dl>
+
  
 
  

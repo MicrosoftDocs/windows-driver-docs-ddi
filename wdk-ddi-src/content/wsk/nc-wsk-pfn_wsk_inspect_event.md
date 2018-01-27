@@ -7,8 +7,8 @@ old-location: netvista\wskinspectevent.htm
 old-project: netvista
 ms.assetid: 40f184ac-4ef3-485a-a529-71c1f2716427
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO
+ms.date: 1/18/2018
+ms.keywords: netvista.wskinspectevent, WskInspectEvent callback function [Network Drivers Starting with Windows Vista], WskInspectEvent, PFN_WSK_INSPECT_EVENT, PFN_WSK_INSPECT_EVENT, wsk/WskInspectEvent, wskref_096ba538-90c2-454b-9334-d6241425945e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WskInspectEvent
-req.alt-loc: wsk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: *PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	wsk.h
+apiname: 
+-	WskInspectEvent
+product: Windows
+targetos: Windows
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
 # PFN_WSK_INSPECT_EVENT callback
 
 
-
 ## -description
+
+
 The 
   <i>WskInspectEvent</i> event callback function notifies a WSK application that an incoming connection
   request on a listening socket that has conditional accept mode enabled has been received.
 
 
-
 ## -prototype
+
 
 ````
 PFN_WSK_INSPECT_EVENT WskInspectEvent;
@@ -62,6 +72,9 @@ WSK_INSPECT_ACTION APIENTRY WskInspectEvent(
 
 
 ## -parameters
+
+
+
 
 ### -param SocketContext [in, optional]
 
@@ -96,31 +109,64 @@ A pointer to a
 
 
 ## -returns
+
+
 A WSK application's 
      <i>WskInspectEvent</i> event callback function can return one of the following WSK_INSPECT_ACTION
      values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b><b>WskInspectAccept</b></b></dt>
-</dl>The incoming connection request is accepted.
+</dl>
+</td>
+<td width="60%">
+The incoming connection request is accepted.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b><b>WskInspectReject</b></b></dt>
-</dl>The incoming connection request is rejected.
+</dl>
+</td>
+<td width="60%">
+The incoming connection request is rejected.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b><b>WskInspectPend</b></b></dt>
-</dl>The WSK application could not determine if the incoming connection request should be accepted or
+</dl>
+</td>
+<td width="60%">
+The WSK application could not determine if the incoming connection request should be accepted or
        rejected immediately.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The WSK subsystem calls a WSK application's 
     <i>WskInspectEvent</i> event callback function on a listening socket that has conditional accept mode
     enabled. A WSK application can enable conditional accept mode on a listening socket by enabling the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570829">SO_CONDITIONAL_ACCEPT</a> socket option.
     For more information about conditionally accepting incoming connections, see 
-    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/listening-for-and-accepting-incoming-connections">Listening for and
-    Accepting Incoming Connections</a>.
+    <mshelp:link keywords="netvista.listening_for_and_accepting_incoming_connections" tabindex="0">Listening for and
+    Accepting Incoming Connections</mshelp:link>.
 
 If a WSK application returns 
     <b>WskInspectAccept</b> from its 
@@ -172,42 +218,32 @@ The WSK subsystem calls a WSK application's
 A WSK application's <i>WskInspectEvent</i> event callback function must not wait for completion of other WSK requests in the context of WSK completion or event callback functions. The callback can initiate other WSK requests (assuming that it doesn't spend too much time at DISPATCH_LEVEL), but it must not wait for their completion even when the callback is called at IRQL = PASSIVE_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
-</dt>
-<dt>
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-</dt>
-<dt>
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-</dt>
-<dt>
-<a href="..\wsk\nc-wsk-pfn_wsk_inspect_complete.md">WskInspectComplete</a>
-</dt>
-<dt>
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-</dt>
-<dt>
-<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
-</dt>
-<dt>
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
-</dt>
-<dt>
-<a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
-</dt>
-<dt>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
 <a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a>
-</dt>
-</dl>
- 
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+<a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_inspect_complete.md">WskInspectComplete</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_INSPECT_EVENT callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_INSPECT_EVENT callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

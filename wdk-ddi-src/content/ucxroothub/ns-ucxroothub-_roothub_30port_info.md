@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5C39C0EB-AC7F-44E5-95EB-9F067DBE0801
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _ROOTHUB_30PORT_INFO, *PROOTHUB_30PORT_INFO, ROOTHUB_30PORT_INFO
+ms.keywords: ucxroothub/_ROOTHUB_30PORT_INFO, P_ROOTHUB_30PORT_INFO structure pointer [Buses], ROOTHUB_30PORT_INFO structure [Buses], buses._roothub_30port_info, ROOTHUB_30PORT_INFO, ucxroothub/P_ROOTHUB_30PORT_INFO, *PROOTHUB_30PORT_INFO, P_ROOTHUB_30PORT_INFO, _ROOTHUB_30PORT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ROOTHUB_30PORT_INFO
-req.alt-loc: ucxroothub.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ucxroothub.h
+apiname: 
+-	ROOTHUB_30PORT_INFO
+product: Windows
+targetos: Windows
 req.typenames: *PROOTHUB_30PORT_INFO, ROOTHUB_30PORT_INFO
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _ROOTHUB_30PORT_INFO structure
 
 
-
 ## -description
+
+
 Provides information about a USB 3.0 root hub port. This structure is passed by UCX in the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_get_30port_info.md">EVT_UCX_ROOTHUB_GET_30PORT_INFO</a> callback function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ROOTHUB_30PORT_INFO {
@@ -58,6 +68,9 @@ typedef struct _ROOTHUB_30PORT_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PortNumber
 
@@ -83,5 +96,3 @@ A <a href="..\ucxroothub\ne-ucxroothub-_tristate.md">TRISTATE</a> value that ind
 
 A <a href="..\ucxroothub\ne-ucxroothub-_tristate.md">TRISTATE</a> value that indicates if the port is debug capable. 
 
-
-## -remarks

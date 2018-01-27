@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: EA496897-7D5A-43A8-A61E-34E986288E8B
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FRAMING_CACHE_OPS, FRAMING_CACHE_OPS
+ms.keywords: Framing_Cache_ReadOrig, Framing_Cache_Write, Framing_Cache_ReadLast, ksproxy/Framing_Cache_Write, FRAMING_CACHE_OPS enumeration [Streaming Media Devices], stream.framing_cache_ops, ksproxy/Framing_Cache_Update, ksproxy/FRAMING_CACHE_OPS, ksproxy/Framing_Cache_ReadOrig, FRAMING_CACHE_OPS, ksproxy/Framing_Cache_ReadLast, Framing_Cache_Update
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FRAMING_CACHE_OPS
-req.alt-loc: Ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ksproxy.h
+apiname: 
+-	FRAMING_CACHE_OPS
+product: Windows
+targetos: Windows
 req.typenames: FRAMING_CACHE_OPS
 ---
 
 # FRAMING_CACHE_OPS enumeration
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: FRAMING_CACHE_OPS
 
 
 
+
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -57,6 +67,9 @@ typedef enum  {
 
 ## -enum-fields
 
+
+
+
 ### -field Framing_Cache_Update
 
 Specifies a request to bypass the cache when reading or writing.
@@ -65,10 +78,11 @@ Specifies a request to bypass the cache when reading or writing.
 ### -field Framing_Cache_ReadLast
 
 
+
 ### -field Framing_Cache_ReadOrig
+
 
 
 ### -field Framing_Cache_Write
 
 
-## -remarks

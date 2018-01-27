@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e4070d53-bdd6-4708-857d-7ed1e9699e21
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_DEPTHFILL, D3DDDIARG_DEPTHFILL
+ms.keywords: UMDisplayDriver_param_Structs_94ba7961-5956-4939-830f-eaa15aeca614.xml, D3DDDIARG_DEPTHFILL, _D3DDDIARG_DEPTHFILL, D3DDDIARG_DEPTHFILL structure [Display Devices], d3dumddi/D3DDDIARG_DEPTHFILL, display.d3dddiarg_depthfill
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_DEPTHFILL
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_DEPTHFILL
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_DEPTHFILL
 ---
 
 # _D3DDDIARG_DEPTHFILL structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_DEPTHFILL structure describes the parameters of a depth-fill operation. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_DEPTHFILL {
@@ -56,6 +66,9 @@ typedef struct _D3DDDIARG_DEPTHFILL {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hResource
 
@@ -77,18 +90,12 @@ typedef struct _D3DDDIARG_DEPTHFILL {
 A pixel value that is specified in native format for the fill depth. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_depthfill.md">DepthFill</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
-</dt>
-</dl>
+
  
 
  

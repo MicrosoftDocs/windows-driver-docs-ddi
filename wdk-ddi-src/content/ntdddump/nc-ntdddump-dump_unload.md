@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 51a04ca9-4ccd-409e-b47a-1105637e6f6f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _VERIFY_INFORMATION, VERIFY_INFORMATION, *PVERIFY_INFORMATION
+ms.keywords: storage.dump_unload, Dump_Unload routine [Storage Devices], Dump_Unload, PDUMP_UNLOAD, PDUMP_UNLOAD, ntdddump/Dump_Unload, filter_rtns_01414353-4ca7-409e-a360-a7ad69a57b40.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista and Windows Se
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: Dump_Unload
-req.alt-loc: ntdddump.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ntdddump.h
+apiname: 
+-	Dump_Unload
+product: Windows
+targetos: Windows
+req.typenames: *PVERIFY_INFORMATION, VERIFY_INFORMATION
 ---
 
 # DUMP_UNLOAD callback
 
 
-
 ## -description
+
+
 The <i>Dump_Unload</i> callback routine is called when the dump stack is unloaded. For the dump stack, this routine is called when the crash dump functionality is disabled. For the hibernation stack, this routine is called after the system resumes from hibernation. This gives the filter driver an opportunity to free any resources that it may have allocated or do any clean-up required by the filter driver.
 
 
-
 ## -prototype
+
 
 ````
 PDUMP_UNLOAD Dump_Unload;
@@ -57,24 +67,25 @@ NTSTATUS Dump_Unload(
 
 ## -parameters
 
+
+
+
 ### -param FilterExtension [in]
 
 A pointer to a <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a> structure.
 
 
 ## -returns
+
+
 If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must return one of the error status values defined in <i>Ntstatus.h</i>.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
-</dt>
-</dl>
+
  
 
  

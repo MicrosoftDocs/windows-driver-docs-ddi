@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0627065b-62c2-4df8-973c-b4fb5811296e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SCSI_PNP_REQUEST_BLOCK, SCSI_PNP_REQUEST_BLOCK, *PSCSI_PNP_REQUEST_BLOCK
+ms.keywords: StorStopDevice, SCSI_PNP_REQUEST_BLOCK structure [Storage Devices], StorRemoveDevice, storage.scsi_pnp_request_block, PSCSI_PNP_REQUEST_BLOCK structure pointer [Storage Devices], *PSCSI_PNP_REQUEST_BLOCK, StorSupriseRemoval, SCSI_PNP_REQUEST_BLOCK, storport/SCSI_PNP_REQUEST_BLOCK, structs-storport_d08ea849-f1d6-4584-b6a4-df7127f6873d.xml, PSCSI_PNP_REQUEST_BLOCK, StorQueryResourceRequirements, StorQueryCapabilities, StorStartDevice, storport/PSCSI_PNP_REQUEST_BLOCK, StorFilterResourceRequirements, _SCSI_PNP_REQUEST_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SCSI_PNP_REQUEST_BLOCK
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: SCSI_PNP_REQUEST_BLOCK, *PSCSI_PNP_REQUEST_BLOCK
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	SCSI_PNP_REQUEST_BLOCK
+product: Windows
+targetos: Windows
+req.typenames: *PSCSI_PNP_REQUEST_BLOCK, SCSI_PNP_REQUEST_BLOCK
 req.product: Windows 10 or later.
 ---
 
 # _SCSI_PNP_REQUEST_BLOCK structure
 
 
-
 ## -description
+
+
 The<b>SCSI_PNP_REQUEST_BLOCK</b> structure is a special version of a <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> that is used for plug and play (PNP) requests.
-
-
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 typedef struct _SCSI_PNP_REQUEST_BLOCK {
@@ -74,6 +84,19 @@ typedef struct _SCSI_PNP_REQUEST_BLOCK {
 
 
 ## -struct-fields
+
+
+
+
+### -field _SCSI_REQUEST_BLOCK
+
+ 
+
+
+### -field NextSrb
+
+Miniport driver should ignore this member. 
+
 
 ### -field Length
 
@@ -113,17 +136,16 @@ The logical unit number (LUN) of the device.
 ### -field PnPAction
 
 The plug and play action to perform. This member can have one of the following values:
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field StorStartDevice
-### -field 0x00
-
+<td width="40%"><a id="StorStartDevice"></a><a id="storstartdevice"></a><a id="STORSTARTDEVICE"></a><dl>
+<dt><b>StorStartDevice</b></dt>
+<dt>0x00</dt>
+</dl>
 </td>
 <td width="60%">
 Start the device.
@@ -131,10 +153,10 @@ Start the device.
 </td>
 </tr>
 <tr>
-
-### -field StorRemoveDevice
-### -field 0x02
-
+<td width="40%"><a id="StorRemoveDevice"></a><a id="storremovedevice"></a><a id="STORREMOVEDEVICE"></a><dl>
+<dt><b>StorRemoveDevice</b></dt>
+<dt>0x02</dt>
+</dl>
 </td>
 <td width="60%">
 Remove the device.
@@ -142,10 +164,10 @@ Remove the device.
 </td>
 </tr>
 <tr>
-
-### -field StorStopDevice
-### -field 0x04
-
+<td width="40%"><a id="StorStopDevice"></a><a id="storstopdevice"></a><a id="STORSTOPDEVICE"></a><dl>
+<dt><b>StorStopDevice</b></dt>
+<dt>0x04</dt>
+</dl>
 </td>
 <td width="60%">
 Stop the device.
@@ -153,10 +175,10 @@ Stop the device.
 </td>
 </tr>
 <tr>
-
-### -field StorQueryCapabilities
-### -field 0x09
-
+<td width="40%"><a id="StorQueryCapabilities"></a><a id="storquerycapabilities"></a><a id="STORQUERYCAPABILITIES"></a><dl>
+<dt><b>StorQueryCapabilities</b></dt>
+<dt>0x09</dt>
+</dl>
 </td>
 <td width="60%">
 Query the capabilities of the device.
@@ -164,10 +186,10 @@ Query the capabilities of the device.
 </td>
 </tr>
 <tr>
-
-### -field StorQueryResourceRequirements
-### -field 0x0B
-
+<td width="40%"><a id="StorQueryResourceRequirements"></a><a id="storqueryresourcerequirements"></a><a id="STORQUERYRESOURCEREQUIREMENTS"></a><dl>
+<dt><b>StorQueryResourceRequirements</b></dt>
+<dt>0x0B</dt>
+</dl>
 </td>
 <td width="60%">
 Query the resource requirements for the device.
@@ -175,10 +197,10 @@ Query the resource requirements for the device.
 </td>
 </tr>
 <tr>
-
-### -field StorFilterResourceRequirements
-### -field 0x0D
-
+<td width="40%"><a id="StorFilterResourceRequirements"></a><a id="storfilterresourcerequirements"></a><a id="STORFILTERRESOURCEREQUIREMENTS"></a><dl>
+<dt><b>StorFilterResourceRequirements</b></dt>
+<dt>0x0D</dt>
+</dl>
 </td>
 <td width="60%">
 Filter the resource requirements for the device. 
@@ -186,18 +208,17 @@ Filter the resource requirements for the device.
 </td>
 </tr>
 <tr>
-
-### -field StorSupriseRemoval
-### -field 0x17
-
+<td width="40%"><a id="StorSupriseRemoval"></a><a id="storsupriseremoval"></a><a id="STORSUPRISEREMOVAL"></a><dl>
+<dt><b>StorSupriseRemoval</b></dt>
+<dt>0x17</dt>
+</dl>
 </td>
 <td width="60%">
 Surprise Removal of the device. This value was added in Windows 7.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field SrbFlags
@@ -221,11 +242,6 @@ Miniport driver should ignore this member.
 
 
 ### -field SenseInfoBuffer
-
-Miniport driver should ignore this member. 
-
-
-### -field NextSrb
 
 Miniport driver should ignore this member. 
 
@@ -256,23 +272,22 @@ Reserved for system use.
 
 
 ## -remarks
+
+
 The Storport driver sends <b>SCSI_PNP_REQUEST_BLOCK</b> requests to a miniport driver to notify the miniport driver of Windows plug and play events that affect storage devices that are connected to the adapter.
 
 The Storport driver calls <a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a> to pass SRBs to the miniport driver. <b>HwStorBuildIo</b> checks the <b>Function</b> member of the SRB to determine the type of the SRB. If the <b>Function</b> member is set to SRB_FUNCTION_PNP, the SRB is a structure of type <b>SCSI_PNP_REQUEST_BLOCK</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
-</dt>
-<dt>
+
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-</dt>
-<dt>
+
+<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
+
 <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
-</dt>
-</dl>
+
  
 
  

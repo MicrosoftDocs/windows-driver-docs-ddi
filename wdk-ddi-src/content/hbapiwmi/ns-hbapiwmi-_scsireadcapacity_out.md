@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bf295061-42d6-4f2e-a39e-9bac440b0d93
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ScsiReadCapacity_OUT, *PScsiReadCapacity_OUT, ScsiReadCapacity_OUT
+ms.keywords: PScsiReadCapacity_OUT structure pointer [Storage Devices], *PScsiReadCapacity_OUT, ScsiReadCapacity_OUT, storage.scsireadcapacity_out2, hbapiwmi/ScsiReadCapacity_OUT, ScsiReadCapacity_OUT structure [Storage Devices], _ScsiReadCapacity_OUT, PScsiReadCapacity_OUT, structs-Fibre_b362afaf-6cf2-4e2b-9239-11d7fdec3d74.xml, hbapiwmi/PScsiReadCapacity_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ScsiReadCapacity_OUT
-req.alt-loc: Hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PScsiReadCapacity_OUT, ScsiReadCapacity_OUT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Hbapiwmi.h
+apiname: 
+-	ScsiReadCapacity_OUT
+product: Windows
+targetos: Windows
+req.typenames: ScsiReadCapacity_OUT, *PScsiReadCapacity_OUT
 ---
 
 # _ScsiReadCapacity_OUT structure
 
 
-
 ## -description
+
+
 The ScsiReadCapacity_OUT structure is used to report the output data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a> WMI method to the WMI client.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ScsiReadCapacity_OUT {
@@ -58,6 +68,9 @@ typedef struct _ScsiReadCapacity_OUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HBAStatus
 
@@ -84,24 +97,24 @@ Contains the status of the SCSI read capacity command.
 Contains the results of the SCSI read capacity command. 
 
 
-### -field SenseBuffer
+#### - SenseBuffer
 
 Contains the SCSI sense data that results from the SCSI read capacity command. 
 
 
 ## -remarks
+
+
 The WMI tool suite generates a declaration of the ScsiReadCapacity_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
  
 
  

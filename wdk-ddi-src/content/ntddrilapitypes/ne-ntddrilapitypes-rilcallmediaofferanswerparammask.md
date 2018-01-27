@@ -7,8 +7,8 @@ old-location: netvista\rilcallmediaofferanswerparammask.htm
 old-project: netvista
 ms.assetid: d11eb8f7-b670-45f3-8f90-6ea4db19bb20
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCALLMEDIAOFFERANSWERPARAMMASK, RILCALLMEDIAOFFERANSWERPARAMMASK
+ms.date: 1/18/2018
+ms.keywords: RILCALLMEDIAOFFERANSWERPARAMMASK, ntddrilapitypes/RILCALLMEDIAOFFERANSWERPARAMMASK, RIL_PARAM_CMOA_ACTION, ntddrilapitypes/RIL_PARAM_CMOA_ALL, RILCALLMEDIAOFFERANSWERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CMOA_CHANGE, netvista.rilcallmediaofferanswerparammask, ntddrilapitypes/RIL_PARAM_CMOA_ACTION, RIL_PARAM_CMOA_ALL, RIL_PARAM_CMOA_OLD_STATE, ntddrilapitypes/RIL_PARAM_CMOA_NEW_STATE, ntddrilapitypes/RIL_PARAM_CMOA_CHANGE, RIL_PARAM_CMOA_NEW_STATE, ntddrilapitypes/RIL_PARAM_CMOA_OLD_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCALLMEDIAOFFERANSWERPARAMMASK
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILCALLMEDIAOFFERANSWERPARAMMASK
+product: Windows
+targetos: Windows
 req.typenames: RILCALLMEDIAOFFERANSWERPARAMMASK
 ---
 
 # RILCALLMEDIAOFFERANSWERPARAMMASK enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILCALLMEDIAOFFERANSWERPARAMMASK { 
@@ -58,19 +68,29 @@ typedef enum _RILCALLMEDIAOFFERANSWERPARAMMASK {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_PARAM_CMOA_ID
+
+
+
 ### -field RIL_PARAM_CMOA_CHANGE
+
 
 
 ### -field RIL_PARAM_CMOA_ACTION
 
 
+
 ### -field RIL_PARAM_CMOA_OLD_STATE
+
 
 
 ### -field RIL_PARAM_CMOA_NEW_STATE
 
 
+
 ### -field RIL_PARAM_CMOA_ALL
 
 
-## -remarks

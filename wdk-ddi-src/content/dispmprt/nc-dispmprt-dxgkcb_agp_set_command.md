@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4440bc0f-01cb-4108-bfe8-9d5127777f00
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+ms.keywords: display.agpsetcommand, AgpSetCommand callback function [Display Devices], AgpSetCommand, DXGKCB_AGP_SET_COMMAND, DXGKCB_AGP_SET_COMMAND, dispmprt/AgpSetCommand, DpFunctions_7b0574a7-3c70-41e5-b7e7-908a86c2bccd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AgpSetCommand
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	AgpSetCommand
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKCB_AGP_SET_COMMAND callback
 
 
-
 ## -description
+
+
 The <b>AgpSetCommand</b> function sets the AGP rate and specifies whether side band addressing and fast write transactions are enabled.
 
 
-
 ## -prototype
+
 
 ````
 DXGKCB_AGP_SET_COMMAND AgpSetCommand;
@@ -58,6 +68,9 @@ NTSTATUS APIENTRY AgpSetCommand(
 
 ## -parameters
 
+
+
+
 ### -param Context [in]
 
 A handle to a context block that is associated with an AGP interface. The display miniport driver previously received this handle in the <b>Context</b> member of the DXGK_AGP_INTERFACE structure that was filled in by <a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>.
@@ -68,7 +81,6 @@ A handle to a context block that is associated with an AGP interface. The displa
 A set of flags that specify the AGP rate and the types of AGP transactions that will be used.
 
 The caller must set one, and only one, of the following flags.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -114,11 +126,9 @@ The AGP transfer rate is 8X.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 The caller might also choose to set or clear the following flags.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -144,33 +154,33 @@ If this flag is set, fast write transactions are disabled. If this flag is clear
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -returns
+
+
 <b>AgpSetCommand</b> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
 
+
 ## -remarks
+
+
 None.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_allocate_pool.md">AgpAllocatePool</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_free_pool.md">AgpFreePool</a>
-</dt>
-<dt>
-<a href="..\dispmprt\ns-dispmprt-_dxgk_agp_interface.md">DXGK_AGP_INTERFACE</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>
-</dt>
-</dl>
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_agp_interface.md">DXGK_AGP_INTERFACE</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_allocate_pool.md">AgpAllocatePool</a>
+
  
 
  

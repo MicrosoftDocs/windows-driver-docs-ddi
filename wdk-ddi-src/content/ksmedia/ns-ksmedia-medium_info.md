@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1dd7415d-bfbc-4dea-bac9-bc5b8531a47f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: MEDIUM_INFO, *PMEDIUM_INFO, MEDIUM_INFO
+ms.keywords: *PMEDIUM_INFO, MEDIUM_INFO structure [Streaming Media Devices], ksmedia/PMEDIUM_INFO, ksmedia/MEDIUM_INFO, stream.medium_info, MEDIUM_INFO, PMEDIUM_INFO, PMEDIUM_INFO structure pointer [Streaming Media Devices], vidcapstruct_f83c29e1-51a8-4784-a785-4e5dc9956634.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MEDIUM_INFO
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	MEDIUM_INFO
+product: Windows
+targetos: Windows
 req.typenames: *PMEDIUM_INFO, MEDIUM_INFO
 ---
 
 # MEDIUM_INFO structure
 
 
-
 ## -description
+
+
 The MEDIUM_INFO structure describes the media loaded into an external device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -56,6 +66,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field MediaPresent
 
 Specifies if media is present in the external device. <b>TRUE</b> if media is loaded, <b>FALSE</b> otherwise.
@@ -64,7 +77,6 @@ Specifies if media is present in the external device. <b>TRUE</b> if media is lo
 ### -field MediaType
 
 Indicates the type of the media loaded in an external device.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -100,8 +112,7 @@ Hi-8 cassette
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field RecordInhibit
@@ -110,4 +121,8 @@ Specifies if recording is inhibited on the media. <b>TRUE</b> if recording onto 
 
 
 ## -remarks
-Any ED_Xxx tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.</p>
+
+
+Any ED_Xxx tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.
+
+

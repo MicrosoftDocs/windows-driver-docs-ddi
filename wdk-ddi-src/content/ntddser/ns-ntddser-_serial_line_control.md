@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 2D11187E-B21B-4211-BAC0-248B93BAB6D5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _SERIAL_LINE_CONTROL, *PSERIAL_LINE_CONTROL, SERIAL_LINE_CONTROL
+ms.keywords: ntddser/SERIAL_LINE_CONTROL, ntddser/PSERIAL_LINE_CONTROL, PSERIAL_LINE_CONTROL structure pointer [Serial Ports], serports.serial_line_control, _SERIAL_LINE_CONTROL, SERIAL_LINE_CONTROL structure [Serial Ports], SERIAL_LINE_CONTROL, *PSERIAL_LINE_CONTROL, PSERIAL_LINE_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SERIAL_LINE_CONTROL
-req.alt-loc: Ntddser.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSERIAL_LINE_CONTROL, SERIAL_LINE_CONTROL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddser.h
+apiname: 
+-	SERIAL_LINE_CONTROL
+product: Windows
+targetos: Windows
+req.typenames: SERIAL_LINE_CONTROL, *PSERIAL_LINE_CONTROL
 ---
 
 # _SERIAL_LINE_CONTROL structure
 
 
-
 ## -description
+
+
 The <b>SERIAL_LINE_CONTROL</b> structure describes the control settings for the serial line.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SERIAL_LINE_CONTROL {
@@ -56,10 +66,12 @@ typedef struct _SERIAL_LINE_CONTROL {
 
 ## -struct-fields
 
+
+
+
 ### -field StopBits
 
 The number of stop bits used at the end of each character that is transmitted or received. This member is set to one of the following values.
-
 <table>
 <tr>
 <th>Value</th>
@@ -77,14 +89,12 @@ The number of stop bits used at the end of each character that is transmitted or
 <td>STOP_BITS_2</td>
 <td>Two stop bits. Not valid if <b>WordLength</b> = 5.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Parity
 
 The type of parity checking used for each character that is transmitted or received. This member is set to one of the following values.
-
 <table>
 <tr>
 <th>Value</th>
@@ -110,8 +120,7 @@ The type of parity checking used for each character that is transmitted or recei
 <td>SPACE_PARITY</td>
 <td>The parity bit is always set to 0.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field WordLength
@@ -120,18 +129,18 @@ Data bits per character. This member indicates the number of data bits in each c
 
 
 ## -remarks
+
+
 This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_get_line_control.md">IOCTL_SERIAL_GET_LINE_CONTROL</a> and <a href="..\ntddser\ni-ntddser-ioctl_serial_set_line_control.md">IOCTL_SERIAL_SET_LINE_CONTROL</a> requests.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_line_control.md">IOCTL_SERIAL_GET_LINE_CONTROL</a>
-</dt>
-<dt>
+
 <a href="..\ntddser\ni-ntddser-ioctl_serial_set_line_control.md">IOCTL_SERIAL_SET_LINE_CONTROL</a>
-</dt>
-</dl>
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_get_line_control.md">IOCTL_SERIAL_GET_LINE_CONTROL</a>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\wwan_umts_serving_cell_info.htm
 old-project: netvista
 ms.assetid: 62257D65-DCB9-43C3-A862-DAB31C27EF0A
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WWAN_UMTS_SERVING_CELL_INFO, *PWWAN_UMTS_SERVING_CELL_INFO, WWAN_UMTS_SERVING_CELL_INFO
+ms.date: 1/18/2018
+ms.keywords: PWWAN_UMTS_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_UMTS_SERVING_CELL_INFO, _WWAN_UMTS_SERVING_CELL_INFO, wwan/WWAN_UMTS_SERVING_CELL_INFO, netvista.wwan_umts_serving_cell_info, WWAN_UMTS_SERVING_CELL_INFO, WWAN_UMTS_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], PWWAN_UMTS_SERVING_CELL_INFO, *PWWAN_UMTS_SERVING_CELL_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WWAN_UMTS_SERVING_CELL_INFO
-req.alt-loc: wwan.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wwan.h
+apiname: 
+-	WWAN_UMTS_SERVING_CELL_INFO
+product: Windows
+targetos: Windows
 req.typenames: *PWWAN_UMTS_SERVING_CELL_INFO, WWAN_UMTS_SERVING_CELL_INFO
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _WWAN_UMTS_SERVING_CELL_INFO structure
 
 
-
 ## -description
+
+
 The <b>WWAN_UMTS_SERVING_CELL_INFO</b> structure represents information about the UMTS serving cell.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WWAN_UMTS_SERVING_CELL_INFO {
@@ -66,6 +76,9 @@ typedef struct _WWAN_UMTS_SERVING_CELL_INFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ProviderIdOffset
 
@@ -127,32 +140,30 @@ The signal to noise ratio of the serving cell; the ratio of the received energy 
 The path loss of the serving cell (46-173). Use 0xFFFFFFFF when this information is not available.
 
 
-### -field Data[ANYSIZE_ARRAY]
+### -field Data
+
+ 
+
+
+
+#### - Data[ANYSIZE_ARRAY]
 
 The data buffer containing <i>ProviderId</i>.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
-</dt>
-<dt>
+
 <a href="..\wwan\ns-wwan-_wwan_umts_mrl.md">WWAN_UMTS_MRL</a>
-</dt>
-<dt>
+
 <a href="..\wwan\ns-wwan-_wwan_umts_mrl_info.md">WWAN_UMTS_MRL_INFO</a>
-</dt>
-<dt>
+
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
-</dt>
-</dl>
- 
+
+<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_UMTS_SERVING_CELL_INFO structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_UMTS_SERVING_CELL_INFO structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

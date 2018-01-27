@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9f149e86-7855-4a10-8e0c-8b1aff261946
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortRegistryWrite
+ms.keywords: storage.storportregistrywrite, StorPortRegistryWrite routine [Storage Devices], storprt_dda4d4a4-d312-4076-8b72-842517a701c5.xml, storport/StorPortRegistryWrite, StorPortRegistryWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortRegistryWrite
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: StorPortIrql
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortRegistryWrite
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortRegistryWrite function
 
 
-
 ## -description
+
+
 The <b>StorPortRegistryWrite</b> routine is called by the miniport driver to convert the registry data contained in a specified buffer from ASCII to Unicode and to then write the data to the miniport driver's per-HBA storage area.
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API BOOLEAN StorPortRegistryWrite(
@@ -59,6 +70,9 @@ STORPORT_API BOOLEAN StorPortRegistryWrite(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -78,7 +92,6 @@ Indicates whether the operation is to be adapter specific or to relate to all ad
 ### -param Type [in]
 
 One of the following registry data types.
-
 <table>
 <tr>
 <th>Type</th>
@@ -214,8 +227,7 @@ REG_QWORD_LITTLE_ENDIAN
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Buffer [in]
@@ -229,18 +241,16 @@ Specifies the size of the buffer pointed to by <i>Buffer</i>.
 
 
 ## -returns
+
+
 <b>StorPortRegistryWrite</b> returns a Boolean value of <b>TRUE</b> if the registry data was successfully converted and written; otherwise, this routine returns <b>FALSE</b>.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: debugger\idebugsymbols4.htm
 old-project: debugger
 ms.assetid: BE2734B5-1E67-4E38-B4DF-0C353BFB1F0B
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugSystemObjects4, IDebugSystemObjects4::SetImplicitThreadDataOffset, SetImplicitThreadDataOffset
+ms.date: 1/19/2018
+ms.keywords: debugger.idebugsymbols4, IDebugSymbols4 interface [Windows Debugging], IDebugSymbols4 interface [Windows Debugging], described, IDebugSymbols4, dbgeng/IDebugSymbols4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugSymbols4
-req.alt-loc: Dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,44 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Dbgeng.h
+apiname: 
+-	IDebugSymbols4
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugSymbols4 interface
 
 
-
 ## -description
+
+
 This interface supports determination of the symbol of an inline frame.
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbols4</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IDebugSymbols4</b> also has these types of members:
-
-The <b>IDebugSymbols4</b> interface has these methods.
-
-Gets a line by inline context.
-
-Gets a line by inline context.
-
-Gets a name by inline context.
-
-Gets a name by inline context.
-
-Gets the scope as an extended frame structure. 
-
-Specifies an output symbol by using an inline context.
-
-Sets the scope as an extended frame structure. 
-
- 
-
-
 ## -members
+
 The <b>IDebugSymbols4</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -151,5 +139,3 @@ Sets the scope as an extended frame structure.
 
  
 
-
-## -remarks

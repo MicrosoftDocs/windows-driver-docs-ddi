@@ -7,8 +7,8 @@ old-location: netvista\rilcallmediaid.htm
 old-project: netvista
 ms.assetid: de55805d-d5fe-47ea-832d-536d8a7ee257
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCALLMEDIAID, *LPRILCALLMEDIAID, RILCALLMEDIAID
+ms.date: 1/18/2018
+ms.keywords: RILCALLMEDIAID, netvista.rilcallmediaid, *LPRILCALLMEDIAID, RILCALLMEDIAID structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILCALLMEDIAID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCALLMEDIAID
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILCALLMEDIAID, RILCALLMEDIAID
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILCALLMEDIAID
+product: Windows
+targetos: Windows
+req.typenames: RILCALLMEDIAID, *LPRILCALLMEDIAID
 ---
 
 # RILCALLMEDIAID structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILCALLMEDIAID {
@@ -55,10 +65,13 @@ typedef struct _RILCALLMEDIAID {
 
 ## -struct-fields
 
+
+
+
 ### -field dwType
+
 
 
 ### -field dwID
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 57d019b0-7914-42f6-a888-16042aa97444
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER, STORAGE_DESCRIPTOR_HEADER
+ms.keywords: _STORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER, STORAGE_DESCRIPTOR_HEADER, ntddstor/STORAGE_DESCRIPTOR_HEADER, storage.storage_descriptor_header, STORAGE_DESCRIPTOR_HEADER structure [Storage Devices], PSTORAGE_DESCRIPTOR_HEADER structure pointer [Storage Devices], ntddstor/PSTORAGE_DESCRIPTOR_HEADER, structs-general_9ba3bf25-17dc-41e1-9b3e-971d2ddd4780.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_DESCRIPTOR_HEADER
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	STORAGE_DESCRIPTOR_HEADER
+product: Windows
+targetos: Windows
 req.typenames: PSTORAGE_DESCRIPTOR_HEADER, STORAGE_DESCRIPTOR_HEADER
 ---
 
 # _STORAGE_DESCRIPTOR_HEADER structure
 
 
-
 ## -description
+
+
 The STORAGE_DESCRIPTOR_HEADER structure is used in conjunction with the <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> request to retrieve the properties of a storage device or adapter. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STORAGE_DESCRIPTOR_HEADER {
@@ -54,6 +64,9 @@ typedef struct _STORAGE_DESCRIPTOR_HEADER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -66,20 +79,20 @@ Indicates the quantity of data reported, in bytes.
 
 
 ## -remarks
+
+
 The data retrieved by IOCTL_STORAGE_QUERY_PROPERTY is reported in the buffer immediately following this structure. 
 
 The IOCTL_STORAGE_QUERY_PROPERTY request reports one of three types of properties: a device descriptor, an adapter descriptor, or a set of device IDs taken from the device's SCSI vital product data pages. Device descriptors are reported in a structure of type <a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>. Adapter descriptors are reported in a structure of type <a href="..\ntddstor\ns-ntddstor-_storage_adapter_descriptor.md">STORAGE_ADAPTER_DESCRIPTOR</a>. Vital product page device IDs are reported in a structure of type <a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
-</dt>
-<dt>
+
 <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>
-</dt>
-</dl>
+
  
 
  

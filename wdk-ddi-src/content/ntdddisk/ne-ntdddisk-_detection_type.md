@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3257a207-dd7e-4321-b037-95d62cea6f76
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DETECTION_TYPE, DETECTION_TYPE
+ms.keywords: DETECTION_TYPE, ntdddisk/DetectNone, storage.detection_type, ntdddisk/DetectExInt13, DetectInt13, structs-disk_2d3d7a57-abcd-43b2-a62d-8b8c45a9fca0.xml, DetectExInt13, ntdddisk/DETECTION_TYPE, DetectNone, _DETECTION_TYPE, DETECTION_TYPE enumeration [Storage Devices], ntdddisk/DetectInt13
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DETECTION_TYPE
-req.alt-loc: ntdddisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntdddisk.h
+apiname: 
+-	DETECTION_TYPE
+product: Windows
+targetos: Windows
 req.typenames: DETECTION_TYPE
 ---
 
 # _DETECTION_TYPE enumeration
 
 
-
 ## -description
+
+
 The DETECTION_TYPE enumeration type is used in conjunction with the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_geometry_ex.md">IOCTL_DISK_GET_DRIVE_GEOMETRY_EX</a> request and the <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry_ex.md">DISK_GEOMETRY_EX</a> structure to determine the type of formatting used by the BIOS to record the disk geometry. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DETECTION_TYPE { 
@@ -55,6 +65,9 @@ typedef enum _DETECTION_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DetectNone
 
@@ -72,15 +85,16 @@ Indicates that the disk contains an extended INT 13h partition.
 
 
 ## -remarks
+
+
 Possible formatting types are the standard INT 13h partition format or the extended INT 13h partition format. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntdddisk\ns-ntdddisk-_disk_detection_info.md">DISK_DETECTION_INFO</a>
-</dt>
-</dl>
+
  
 
  

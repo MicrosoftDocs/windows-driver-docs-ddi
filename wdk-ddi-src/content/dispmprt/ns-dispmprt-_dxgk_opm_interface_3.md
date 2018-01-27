@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0BD6BA91-7F46-482B-B808-DEB8A23A0B84
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3, *PDXGK_OPM_INTERFACE_3
+ms.keywords: dispmprt/PDXGK_OPM_INTERFACE_3, dispmprt/DXGK_OPM_INTERFACE_3, PDXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3, display.dxgk_opm_interface_3, PDXGK_OPM_INTERFACE_3 structure pointer [Display Devices], _DXGK_OPM_INTERFACE_3, *PDXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_OPM_INTERFACE_3
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DXGK_OPM_INTERFACE_3
+product: Windows
+targetos: Windows
 req.typenames: DXGK_OPM_INTERFACE_3, *PDXGK_OPM_INTERFACE_3
 ---
 
 # _DXGK_OPM_INTERFACE_3 structure
 
 
-
 ## -description
+
+
 The DXGK_OPM_INTERFACE_3 structure contains pointers to functions in the <a href="https://msdn.microsoft.com/8dc171f7-76ca-4e1a-865e-7dcb6ab9a2e9">Output Protection Manager (OPM) Interface</a>, which is implemented by the display miniport driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_OPM_INTERFACE_3 {
@@ -69,6 +79,9 @@ typedef struct _DXGK_OPM_INTERFACE_3 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -154,5 +167,3 @@ A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgk
 
 A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_destroy_protected_output.md">DxgkDdiOPMGetSrmListVersion</a> function.
 
-
-## -remarks

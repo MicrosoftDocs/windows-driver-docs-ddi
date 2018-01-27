@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D8D946C9-8642-4D31-B983-DAF88B46B97B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+ms.keywords: kernel.mm_mdl_routine, MmMdlRoutine callback function [Kernel-Mode Driver Architecture], MmMdlRoutine, MM_MDL_ROUTINE, MM_MDL_ROUTINE, wdm/MmMdlRoutine, *PMM_MDL_ROUTINE callback function [Kernel-Mode Driver Architecture], *PMM_MDL_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: *PMM_MDL_ROUTINE
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wdm.h
+apiname: 
+-	*PMM_MDL_ROUTINE
+product: Windows
+targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
@@ -38,14 +47,15 @@ req.product: Windows 10 or later.
 # MM_MDL_ROUTINE callback
 
 
-
 ## -description
+
+
 A driver-supplied callback routine that is invoked after a memory descriptor
     list (MDL)  is mapped by calling the <a href="..\wdm\nf-wdm-mmmapmdl.md">MmMapMdl</a> function.
 
 
-
 ## -prototype
+
 
 ````
 MM_MDL_ROUTINE MmMdlRoutine;
@@ -62,6 +72,9 @@ typedef MM_MDL_ROUTINE *PMM_MDL_ROUTINE;
 
 ## -parameters
 
+
+
+
 ### -param DriverContext [in, optional]
 
 A pointer to a driver-defined context. The driver's callback function can store any status information  in the driver context and then examine the value, when the callback is invoked. 
@@ -74,18 +87,16 @@ A pointer to a buffer that contains the system virtual address of the
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-mmmapmdl.md">MmMapMdl</a>
-</dt>
-</dl>
+
  
 
  

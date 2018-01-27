@@ -7,8 +7,8 @@ old-location: image\iwiaminidrvcallback_minidrvcallback.htm
 old-project: image
 ms.assetid: 7d1c0d8a-65db-47fd-ad6a-a83c7ed3acd9
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: IWiaMiniDrvCallBack, IWiaMiniDrvCallBack::MiniDrvCallback, MiniDrvCallback
+ms.date: 1/18/2018
+ms.keywords: MiniDrvCallback, IWiaMiniDrvCallBack interface [Imaging Devices], MiniDrvCallback method, CallBack_ab4a8e02-c505-49d4-8933-27428333a00d.xml, wiamindr_lh/IWiaMiniDrvCallBack::MiniDrvCallback, IWiaMiniDrvCallBack::MiniDrvCallback, MiniDrvCallback method [Imaging Devices], IWiaMiniDrvCallBack, MiniDrvCallback method [Imaging Devices], IWiaMiniDrvCallBack interface, image.iwiaminidrvcallback_minidrvcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Me and in Windows XP and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IWiaMiniDrvCallBack.MiniDrvCallback
-req.alt-loc: wiamindr_lh.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-req.typenames: *PSCANWINDOW, SCANWINDOW
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	wiamindr_lh.h
+apiname: 
+-	IWiaMiniDrvCallBack.MiniDrvCallback
+product: Windows
+targetos: Windows
+req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
 ---
 
 # IWiaMiniDrvCallBack::MiniDrvCallback method
 
 
-
 ## -description
+
+
 The <b>MiniDrvCallback</b> method provides a callback method for WIA minidrivers to use during a callback data transfer.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT MiniDrvCallback(
@@ -61,10 +71,12 @@ HRESULT MiniDrvCallback(
 
 ## -parameters
 
+
+
+
 ### -param lReason [in]
 
 Specifies a constant value that designates a callback status message. This value is used to determine the purpose of the callback, and can be one of the following values:
-
 <table>
 <tr>
 <th>Message</th>
@@ -150,14 +162,12 @@ Indicates that the data transfer is complete.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param lStatus [in]
 
 Specifies the status of the transfer. This parameter is a bitwise OR of the following values:
-
 <table>
 <tr>
 <th>Status</th>
@@ -193,8 +203,7 @@ Transferring data from the minidriver to the WIA service.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param lPercentComplete [in]
@@ -223,27 +232,30 @@ Reserved. Set to zero.
 
 
 ## -returns
+
+
 If the method succeeds, it returns S_OK. If the callback is canceled by the client application, the method returns S_FALSE. If the method fails, it returns a standard COM error code.
 
 
+
 ## -remarks
+
+
 The percent complete values are sent directly from the driver. The WIA service does not adjust the values.
 
 IT_MSG_FILE_PREVIEW_DATA_HEADER  is for out-of-band-data. This allows the application doing a file transfer to display the banded data. This is useful for scroll-fed scanners that have an unknown length and no preview scan. The information reported in this message should be treated the same as IT_MSG_DATA_HEADER. If a driver supports this message, it can supply preview data during its file transfer. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrvcallback.md">IWiaMiniDrvCallBack</a>
-</dt>
-<dt>
+
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
-</dt>
-</dl>
- 
+
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrvcallback.md">IWiaMiniDrvCallBack</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaMiniDrvCallBack::MiniDrvCallback method%20 RELEASE:%20(1/17/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaMiniDrvCallBack::MiniDrvCallback method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

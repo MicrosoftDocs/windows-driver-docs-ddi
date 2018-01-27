@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3e12c431-4f6d-4d07-be52-e4809e8bc798
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _TAPE_GET_MEDIA_PARAMETERS, *PTAPE_GET_MEDIA_PARAMETERS, TAPE_GET_MEDIA_PARAMETERS
+ms.keywords: PTAPE_GET_MEDIA_PARAMETERS, TAPE_GET_MEDIA_PARAMETERS, TAPE_GET_MEDIA_PARAMETERS structure [Storage Devices], ntddtape/TAPE_GET_MEDIA_PARAMETERS, _TAPE_GET_MEDIA_PARAMETERS, *PTAPE_GET_MEDIA_PARAMETERS, storage.tape_get_media_parameters, structs-tape_19ce668d-65dd-40d6-a668-d34e540cc686.xml, ntddtape/PTAPE_GET_MEDIA_PARAMETERS, PTAPE_GET_MEDIA_PARAMETERS structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TAPE_GET_MEDIA_PARAMETERS
-req.alt-loc: ntddtape.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddtape.h
+apiname: 
+-	TAPE_GET_MEDIA_PARAMETERS
+product: Windows
+targetos: Windows
 req.typenames: *PTAPE_GET_MEDIA_PARAMETERS, TAPE_GET_MEDIA_PARAMETERS
 ---
 
 # _TAPE_GET_MEDIA_PARAMETERS structure
 
 
-
 ## -description
+
+
 The TAPE_GET_MEDIA_PARAMETERS structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567937">TapeMiniGetMediaParameters</a> routine to retrieve tape media parameters. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _TAPE_GET_MEDIA_PARAMETERS {
@@ -57,6 +67,9 @@ typedef struct _TAPE_GET_MEDIA_PARAMETERS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Capacity
 
@@ -83,15 +96,10 @@ Indicates the number of partitions on the tape. If the tape is not partitioned, 
 Is set to <b>TRUE</b> if the tape is write-protected. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567937">TapeMiniGetMediaParameters</a>
-</dt>
-</dl>
+
  
 
  

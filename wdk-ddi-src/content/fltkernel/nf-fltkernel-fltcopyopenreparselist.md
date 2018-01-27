@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 07C39363-559A-4B55-850E-052BA78E869D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltCopyOpenReparseList
+ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], fltkernel/FltAddOpenReparseEntry, ifsk.fltcopyopenreparselist, FltCopyOpenReparseList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1607
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltAddOpenReparseEntry
-req.alt-loc: fltKernel.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: _IRQL_requires_max_(APC_LEVEL)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	fltKernel.h
+apiname: 
+-	FltAddOpenReparseEntry
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltCopyOpenReparseList function
 
 
-
 ## -description
+
+
 This routine copies any open reparse information from a previous create into
     a new ECP list that can be used to issue a second create.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltAddOpenReparseEntry(
@@ -56,6 +66,9 @@ NTSTATUS FltAddOpenReparseEntry(
 
 
 ## -parameters
+
+
+
 
 ### -param Filter [in]
 
@@ -75,26 +88,44 @@ A new ECP list to copy open reparse information
 
 
 ## -returns
+
+
 The following NT status codes are returned.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER_2</b></dt>
-</dl>Status code if <i>Data</i> is not a create operation. This is an error code.
+</dl>
+</td>
+<td width="60%">
+Status code if <i>Data</i> is not a create operation. This is an error code.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The operation completed successfully.
+</dl>
+</td>
+<td width="60%">
+The operation completed successfully.
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltfreeopenreparselist.md">FltFreeOpenReparseList</a>
-</dt>
-</dl>
+
  
 
  

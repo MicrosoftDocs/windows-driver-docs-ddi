@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 0b863b69-b736-49dd-94a9-283480d035be
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_SetScaledUsageValue
+ms.keywords: HidP_SetScaledUsageValue, hid.hidp_setscaledusagevalue, hidpi/HidP_SetScaledUsageValue, hidfunc_0fcd2d78-aae7-4d56-a930-9bf0e4a417bf.xml, HidP_SetScaledUsageValue routine [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Windo
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HidP_SetScaledUsageValue
-req.alt-loc: Hidparse.lib,Hidparse.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Hidparse.lib
+-	Hidparse.dll
+apiname: 
+-	HidP_SetScaledUsageValue
+product: Windows
+targetos: Windows
 req.typenames: HIDP_REPORT_TYPE
 ---
 
 # HidP_SetScaledUsageValue function
 
 
-
 ## -description
+
+
 The <b>HidP_SetScaledUsageValue</b> routine converts a signed and scaled physical number to a <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">HID usage's</a> logical value, and sets the usage value in a specified HID report.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS __stdcall HidP_SetScaledUsageValue(
@@ -61,6 +72,9 @@ NTSTATUS __stdcall HidP_SetScaledUsageValue(
 
 ## -parameters
 
+
+
+
 ### -param ReportType [in]
 
 Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of HID report located at <i>Report</i>.
@@ -68,7 +82,7 @@ Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a
 
 ### -param UsagePage [in]
 
-Specifies the <a href="hid.hid_usages#usage_page#usage_page">usage page</a> of a usage.
+Specifies the <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage page</a> of a usage.
 
 
 ### -param LinkCollection [in]
@@ -102,39 +116,120 @@ Specifies the size, in bytes, of the HID report located at <i>Report</i>, which 
 
 
 ## -returns
+
+
 <b>HidP_SetScaledUsageValue</b> returns one of the following status values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_SUCCESS</b></dt>
-</dl>The routine successfully set the usage value.
+</dl>
+</td>
+<td width="60%">
+The routine successfully set the usage value.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_BAD_LOG_PHY_VALUES</b></dt>
-</dl>The usage has an illegal logical or physical range that prevents scaling.
+</dl>
+</td>
+<td width="60%">
+The usage has an illegal logical or physical range that prevents scaling.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_VALUE_OUT_OF_RANGE</b></dt>
-</dl>The specified physical value is out-of-range and the usage does not have null value.
+</dl>
+</td>
+<td width="60%">
+The specified physical value is out-of-range and the usage does not have null value.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INVALID_REPORT_LENGTH</b></dt>
-</dl>The report length is not valid.
+</dl>
+</td>
+<td width="60%">
+The report length is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INVALID_REPORT_TYPE</b></dt>
-</dl>The specified report type is not valid.
+</dl>
+</td>
+<td width="60%">
+The specified report type is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INCOMPATIBLE_REPORT_ID</b></dt>
-</dl>The usage does not exist in the specified report, but it does exist in a different report of the specified type.
+</dl>
+</td>
+<td width="60%">
+The usage does not exist in the specified report, but it does exist in a different report of the specified type.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_INVALID_PREPARSED_DATA</b></dt>
-</dl>The preparsed data is not valid.
+</dl>
+</td>
+<td width="60%">
+The preparsed data is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_USAGE_NOT_FOUND</b></dt>
-</dl>The usage does not exist in any report of the specified report type.
+</dl>
+</td>
+<td width="60%">
+The usage does not exist in any report of the specified report type.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HIDP_STATUS_NULL</b></dt>
-</dl>The specified physical value is out-of-range, the usage has a null value, and the routine set the null value.
+</dl>
+</td>
+<td width="60%">
+The specified physical value is out-of-range, the usage has a null value, and the routine set the null value.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 <b>HidP_SetScaledUsageValue</b> sets the sign bit.
 
 If the routine returns HIDP_STATUS_INCOMPATIBLE_REPORT_ID, the specified report does contain the usage. However, a user-mode application or kernel-mode driver can set the usage in a zero-initialized report. See <a href="https://msdn.microsoft.com/14229315-3928-4421-a8d8-c3f7837bf1c3">Initializing HID Reports</a>.
@@ -142,27 +237,21 @@ If the routine returns HIDP_STATUS_INCOMPATIBLE_REPORT_ID, the specified report 
 For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-</dt>
-<dt>
-<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
-</dt>
-<dt>
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
-</dt>
-<dt>
-<a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a>
-</dt>
-<dt>
+
 <a href="..\hidpi\nf-hidpi-hidp_setusagevalue.md">HidP_SetUsageValue</a>
-</dt>
-<dt>
+
+<a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
 <a href="..\hidpi\nf-hidpi-hidp_setusagevaluearray.md">HidP_SetUsageValueArray</a>
-</dt>
-</dl>
+
+<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
+
+<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
+
  
 
  

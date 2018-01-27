@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3d5dd27f-8d0e-46e8-adbd-139db322cf6e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: MIRACAST_WFD_CONNECTION_STATS, MIRACAST_WFD_CONNECTION_STATS
+ms.keywords: netdispumdddi/MIRACAST_WFD_CONNECTION_STATS, display.miracast_wfd_connection_stats, MIRACAST_WFD_CONNECTION_STATS, MIRACAST_WFD_CONNECTION_STATS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MIRACAST_WFD_CONNECTION_STATS
-req.alt-loc: Netdispumdddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Netdispumdddi.h
+apiname: 
+-	MIRACAST_WFD_CONNECTION_STATS
+product: Windows
+targetos: Windows
 req.typenames: MIRACAST_WFD_CONNECTION_STATS
 ---
 
 # MIRACAST_WFD_CONNECTION_STATS structure
 
 
-
 ## -description
+
+
 Contains bit rate info on the Wi-Fi Direct connection.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field CurrentBitRate
 
@@ -70,5 +83,3 @@ The maximum bit rate, in bits per second, that the local Wi-Fi Direct hardware c
 
 The maximum bit rate, in bits per second, that the Miracast sink hardware can support.
 
-
-## -remarks

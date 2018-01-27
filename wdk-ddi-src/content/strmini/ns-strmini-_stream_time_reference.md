@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: BC3839C0-AED6-470D-9C2B-B1529B2B3D1A
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _STREAM_TIME_REFERENCE, STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
+ms.keywords: *PSTREAM_TIME_REFERENCE, strmini/STREAM_TIME_REFERENCE, PSTREAM_TIME_REFERENCE, STREAM_TIME_REFERENCE structure [Streaming Media Devices], _STREAM_TIME_REFERENCE, stream.stream_time_reference, PSTREAM_TIME_REFERENCE structure pointer [Streaming Media Devices], STREAM_TIME_REFERENCE, strmini/PSTREAM_TIME_REFERENCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STREAM_TIME_REFERENCE
-req.alt-loc: Strmini.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Strmini.h
+apiname: 
+-	STREAM_TIME_REFERENCE
+product: Windows
+targetos: Windows
 req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _STREAM_TIME_REFERENCE structure
 
 
-
 ## -description
 
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct _STREAM_TIME_REFERENCE {
@@ -57,6 +67,9 @@ typedef struct _STREAM_TIME_REFERENCE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field CurrentOnboardClockValue
 
@@ -77,5 +90,3 @@ KeQueryPerformanceCounter time.
 
 Reserved for future use.
 
-
-## -remarks

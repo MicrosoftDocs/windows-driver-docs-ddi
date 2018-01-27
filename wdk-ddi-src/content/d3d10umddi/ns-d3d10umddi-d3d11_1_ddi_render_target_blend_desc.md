@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ad90ad4c-625f-4177-8160-cd6576942c91
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, D3D11_1_DDI_RENDER_TARGET_BLEND_DESC
+ms.keywords: D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, d3d10umddi/D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, display.d3d11_1_ddi_render_target_blend_desc, D3D11_1_DDI_RENDER_TARGET_BLEND_DESC structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1_DDI_RENDER_TARGET_BLEND_DESC
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1_DDI_RENDER_TARGET_BLEND_DESC
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1_DDI_RENDER_TARGET_BLEND_DESC
 ---
 
 # D3D11_1_DDI_RENDER_TARGET_BLEND_DESC structure
 
 
-
 ## -description
+
+
 Describes a blend state for a render target. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D11_1_DDI_RENDER_TARGET_BLEND_DESC {
@@ -63,12 +73,13 @@ typedef struct D3D11_1_DDI_RENDER_TARGET_BLEND_DESC {
 
 ## -struct-fields
 
+
+
+
 ### -field BlendEnable
 
 [in] A Boolean value that specifies whether blending is enabled for the associated render target. <b>TRUE</b> indicates blending is enabled; <b>FALSE</b> indicates blending is disabled.
-
-<div class="alert"><b>Note</b>  The <b>LogicOpEnable</b> and <b>BlendEnable</b> members must not both be <b>TRUE</b>.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The <b>LogicOpEnable</b> and <b>BlendEnable</b> members must not both be <b>TRUE</b>.</div><div> </div>
 
 ### -field LogicOpEnable
 
@@ -77,9 +88,7 @@ Specifies whether shader logic operations given by the <b>LogicOp</b> member are
 This member is <b>FALSE</b> if the   driver supports Direct3D feature level 9.1, 9.2, and 9.3. This member is optional if the driver supports feature level 10, 10.1, and 11.
 
 This member is <b>TRUE</b> if the driver supports feature level 11.1 and later.
-
-<div class="alert"><b>Note</b>  The <b>LogicOpEnable</b> and <b>BlendEnable</b> members must not both be <b>TRUE</b>.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The <b>LogicOpEnable</b> and <b>BlendEnable</b> members must not both be <b>TRUE</b>.</div><div> </div>
 
 ### -field SrcBlend
 
@@ -119,7 +128,6 @@ This member is <b>TRUE</b> if the driver supports feature level 11.1 and later.
 ### -field RenderTargetWriteMask
 
 [in] An 8-bit bitwise value that indicates the write properties for the enabled render target. Each bit must be set to one of the following values from the D3D10_DDI_COLOR_WRITE_ENABLE enumeration.
-
 <table>
 <tr>
 <th>Value</th>
@@ -175,34 +183,23 @@ Writes red, green, blue, and a transparency level
 
 </td>
 </tr>
-</table>
- 
-
-
-## -remarks
+</table> 
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivateblendstatesize.md">CalcPrivateBlendStateSize(D3D11_1)</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createblendstate.md">CreateBlendState(D3D11_1)</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend_op.md">D3D10_DDI_BLEND_OP</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1_ddi_blend_desc.md">D3D11_1_DDI_BLEND_DESC</a>
-</dt>
-<dt>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_logic_op.md">D3D11_1_DDI_LOGIC_OP</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivateblendstatesize.md">CalcPrivateBlendStateSize(D3D11_1)</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createblendstate.md">CreateBlendState(D3D11_1)</a>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend_op.md">D3D10_DDI_BLEND_OP</a>
+
  
 
  

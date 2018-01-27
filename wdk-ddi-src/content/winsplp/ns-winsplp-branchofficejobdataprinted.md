@@ -7,8 +7,8 @@ old-location: print\branchofficejobdataprinted.htm
 old-project: print
 ms.assetid: 77737A33-9592-43A3-B12A-5BFDCA0209BE
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: BranchOfficeJobDataPrinted, BranchOfficeJobDataPrinted, *PBranchOfficeJobDataPrinted
+ms.date: 1/18/2018
+ms.keywords: PBranchOfficeJobDataPrinted structure pointer [Print Devices], PBranchOfficeJobDataPrinted, BranchOfficeJobDataPrinted structure [Print Devices], BranchOfficeJobDataPrinted, *PBranchOfficeJobDataPrinted, print.branchofficejobdataprinted, winsplp/BranchOfficeJobDataPrinted, winsplp/PBranchOfficeJobDataPrinted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BranchOfficeJobDataPrinted
-req.alt-loc: Winsplp.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Winsplp.h
+apiname: 
+-	BranchOfficeJobDataPrinted
+product: Windows
+targetos: Windows
 req.typenames: BranchOfficeJobDataPrinted, *PBranchOfficeJobDataPrinted
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # BranchOfficeJobDataPrinted structure
 
 
-
 ## -description
+
+
 Contains the necessary data for logging a branch office job completed event on a remote server. This is based on standard job-related data available to the spooler.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -61,6 +71,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Status
 
@@ -101,5 +114,3 @@ Specifies the 64-bit size of the job.
 
 Specifies the total number of pages in the job.
 
-
-## -remarks

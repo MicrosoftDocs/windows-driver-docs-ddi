@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6B085DBB-2AAA-4170-A2B1-EA4D2C207A24
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: UFS_DEVICE_HEALTH_DESCRIPTOR, UFS_DEVICE_HEALTH_DESCRIPTOR, *PUFS_DEVICE_HEALTH_DESCRIPTOR
+ms.keywords: ufs/PUFS_DEVICE_HEALTH_DESCRIPTOR, UFS_DEVICE_HEALTH_DESCRIPTOR, PUFS_DEVICE_HEALTH_DESCRIPTOR, PUFS_DEVICE_HEALTH_DESCRIPTOR structure pointer [Storage Devices], storage.ufs_device_health_descriptor, UFS_DEVICE_HEALTH_DESCRIPTOR structure [Storage Devices], *PUFS_DEVICE_HEALTH_DESCRIPTOR, ufs/UFS_DEVICE_HEALTH_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UFS_DEVICE_HEALTH_DESCRIPTOR
-req.alt-loc: Ufs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ufs.h
+apiname: 
+-	UFS_DEVICE_HEALTH_DESCRIPTOR
+product: Windows
+targetos: Windows
 req.typenames: UFS_DEVICE_HEALTH_DESCRIPTOR, *PUFS_DEVICE_HEALTH_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # UFS_DEVICE_HEALTH_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The <b>UFS_DEVICE_HEALTH_DESCRIPTOR</b> structure describes the health of a device. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UFS_DEVICE_HEALTH_DESCRIPTOR {
@@ -60,6 +70,9 @@ typedef struct _UFS_DEVICE_HEALTH_DESCRIPTOR {
 
 ## -struct-fields
 
+
+
+
 ### -field bLength
 
 Specifies the length, in bytes, of this descriptor.
@@ -73,7 +86,6 @@ Specifies the descriptor's Identification value. <b>UFS_DEVICE_HEALTH_DESCRIPTOR
 ### -field bPreEOLInfo
 
 Contains Pre-End of Life Information. This member supplies information about a device's life time as reflected by the average number of reserved blocks. Contains one of the following values:
-
 <table>
 <tr>
 <th>Value</th>
@@ -101,14 +113,12 @@ reserved blocks.</td>
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field bDeviceLifeTimeEstA
 
 <b>bDeviceLifeTimeEstA</b> provides an estimation of how much of a device's estimated life time has been used based on the amount of performed program/erase cycles. This calculation is vendor-specific and is referred as method A. Contains one of the following values:
-
 <table>
 <tr>
 <th>Value</th>
@@ -166,8 +176,7 @@ reserved blocks.</td>
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field bDeviceLifeTimeEstB
@@ -175,10 +184,20 @@ reserved blocks.</td>
 <b>bDeviceLifeTimeEstB</b> provides an estimation of how much of a device's estimated life time has been used based on the amount of performed program/erase cycles. This calculation is vendor-specific and is referred as method B. Contains the same possible values as <b>bDeviceLifeTimeEstA</b>.
 
 
-### -field VendorPropInfo[32]
+### -field VendorPropInfo
+
+ 
+
+
+
+#### - VendorPropInfo[32]
 
 Reserved for vendor use.
 
 
 ## -remarks
-The UFS Host Controller contains a series of configurable Descriptor Tables, which allow the driver to query and configure the host controller’s capabilities. Query the Requested Descriptor from the Descriptor Table on the device.</p>
+
+
+The UFS Host Controller contains a series of configurable Descriptor Tables, which allow the driver to query and configure the host controller’s capabilities. Query the Requested Descriptor from the Descriptor Table on the device.
+
+

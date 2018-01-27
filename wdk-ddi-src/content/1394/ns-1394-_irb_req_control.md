@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: F0ABD318-AC63-40D5-B94E-BD6FEA1A57AC
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _IRB_REQ_CONTROL, IRB_REQ_CONTROL
+ms.keywords: IEEE.irb_req_control, 1394/IRB_REQ_CONTROL, IRB_REQ_CONTROL structure [Buses], _IRB_REQ_CONTROL, IRB_REQ_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IRB_REQ_CONTROL
-req.alt-loc: 1394.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1394.h
+apiname: 
+-	IRB_REQ_CONTROL
+product: Windows
+targetos: Windows
 req.typenames: IRB_REQ_CONTROL
 ---
 
 # _IRB_REQ_CONTROL structure
 
 
-
 ## -description
+
+
 This structure contains the fields necessary for the 1394 bus driver to carry out a control request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _IRB_REQ_CONTROL {
@@ -58,6 +68,9 @@ typedef struct _IRB_REQ_CONTROL {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ulIoControlCode
 
@@ -88,5 +101,3 @@ Specifies the length of the output buffer.
 
 Specifies the number of bytes returned.
 
-
-## -remarks

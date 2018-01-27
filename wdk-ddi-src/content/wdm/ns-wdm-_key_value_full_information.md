@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0340cfa7-957d-4404-8dbd-d3178436de0f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _KEY_VALUE_FULL_INFORMATION, *PKEY_VALUE_FULL_INFORMATION, KEY_VALUE_FULL_INFORMATION
+ms.keywords: kernel.key_value_full_information, wdm/KEY_VALUE_FULL_INFORMATION, PKEY_VALUE_FULL_INFORMATION, KEY_VALUE_FULL_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PKEY_VALUE_FULL_INFORMATION, KEY_VALUE_FULL_INFORMATION, _KEY_VALUE_FULL_INFORMATION, PKEY_VALUE_FULL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PKEY_VALUE_FULL_INFORMATION, kstruct_c_15c88f03-6342-40db-9f43-cb4087f24610.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KEY_VALUE_FULL_INFORMATION
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PKEY_VALUE_FULL_INFORMATION, KEY_VALUE_FULL_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	KEY_VALUE_FULL_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: KEY_VALUE_FULL_INFORMATION, *PKEY_VALUE_FULL_INFORMATION
 req.product: Windows 10 or later.
 ---
 
 # _KEY_VALUE_FULL_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>KEY_VALUE_FULL_INFORMATION</b> structure defines information available for a value entry of a registry key.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _KEY_VALUE_FULL_INFORMATION {
@@ -59,6 +69,9 @@ typedef struct _KEY_VALUE_FULL_INFORMATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field TitleIndex
 
@@ -90,27 +103,18 @@ Specifies the size in bytes of the following value entry name.
 A string of Unicode characters naming a value entry of the key. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\wdm\ne-wdm-_key_value_information_class.md">KEY_VALUE_INFORMATION_CLASS</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ne-wdm-_key_value_information_class.md">KEY_VALUE_INFORMATION_CLASS</a>
+
 <a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+
+<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+
  
 
  

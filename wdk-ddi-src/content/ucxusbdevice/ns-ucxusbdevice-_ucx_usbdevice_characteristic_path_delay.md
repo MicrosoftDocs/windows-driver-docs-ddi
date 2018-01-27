@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 135D6C04-3520-46C2-BC64-DF0119578E6F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, *PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY
+ms.keywords: UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, buses.ucx_usbdevice_characteristic_path_delay, UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY structure [Buses], PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, *PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, ucxusbdevice/PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, _UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY
-req.alt-loc: Ucxusbdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ucxusbdevice.h
+apiname: 
+-	UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY
+product: Windows
+targetos: Windows
+req.typenames: UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, *PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY
 req.product: Windows 10 or later.
 ---
 
 # _UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY structure
 
 
-
 ## -description
+
+
 Stores the isochronous transfer path delay values. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY {
@@ -55,6 +65,9 @@ typedef struct _UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field MaximumSendPathDelayInMilliSeconds
 
@@ -67,15 +80,10 @@ The maximum delay in milliseconds from the time the  client driver's isochronous
 The maximum delay in milliseconds from the time an isochronous transfer is completed by the (local or remote) host controller to the time the corresponding client driver's request is completed by the USB driver stack. For MA-USB, it includes the maximum delay associated with the network medium.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_get_characteristic.md">EVT_UCX_USBDEVICE_GET_CHARACTERISTIC</a>
-</dt>
-</dl>
+
  
 
  

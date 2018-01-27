@@ -7,8 +7,8 @@ old-location: pos\msrtrackids.htm
 old-project: pos
 ms.assetid: 9366722a-c545-411d-a59f-63edfb0cd68e
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _MsrTrackIds, MsrTrackIds
+ms.date: 1/18/2018
+ms.keywords: pos.msrtrackids, pointofservicedriverinterface/MsrTrackIds_Track4, _MsrTrackIds, pointofservicedriverinterface/MsrTrackIds, pointofservicedriverinterface/MsrTrackIds_Track2, pointofservicedriverinterface/MsrTrackIds_None, MsrTrackIds_Track4, pointofservicedriverinterface/MsrTrackIds_Track1, MsrTrackIds enumeration, MsrTrackIds_Track1, MsrTrackIds_None, MsrTrackIds_Track2, MsrTrackIds_Track3, MsrTrackIds, pointofservicedriverinterface/MsrTrackIds_Track3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MsrTrackIds
-req.alt-loc: pointofservicedriverinterface.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pointofservicedriverinterface.h
+apiname: 
+-	MsrTrackIds
+product: Windows
+targetos: Windows
 req.typenames: MsrTrackIds
 ---
 
 # _MsrTrackIds enumeration
 
 
-
 ## -description
+
+
 Defines the constants that represent the magnetic stripe reader (MSR) tracks.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _MsrTrackIds { 
@@ -58,19 +68,25 @@ typedef enum _MsrTrackIds {
 
 ## -enum-fields
 
+
+
+
 ### -field MsrTrackIds_None
+
 
 
 ### -field MsrTrackIds_Track1
 
 
+
 ### -field MsrTrackIds_Track2
+
 
 
 ### -field MsrTrackIds_Track3
 
 
+
 ### -field MsrTrackIds_Track4
 
 
-## -remarks

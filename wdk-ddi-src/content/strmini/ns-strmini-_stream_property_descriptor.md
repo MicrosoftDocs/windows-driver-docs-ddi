@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b72265b7-dce3-4688-bee7-2a6f7d7731f9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _STREAM_PROPERTY_DESCRIPTOR, *PSTREAM_PROPERTY_DESCRIPTOR, STREAM_PROPERTY_DESCRIPTOR
+ms.keywords: strmini/PSTREAM_PROPERTY_DESCRIPTOR, stream.stream_property_descriptor, STREAM_PROPERTY_DESCRIPTOR structure [Streaming Media Devices], *PSTREAM_PROPERTY_DESCRIPTOR, PSTREAM_PROPERTY_DESCRIPTOR, strclass-struct_5cf57d2b-c4ea-41fb-b3b3-4b6f67c2ecca.xml, strmini/STREAM_PROPERTY_DESCRIPTOR, PSTREAM_PROPERTY_DESCRIPTOR structure pointer [Streaming Media Devices], _STREAM_PROPERTY_DESCRIPTOR, STREAM_PROPERTY_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STREAM_PROPERTY_DESCRIPTOR
-req.alt-loc: strmini.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PSTREAM_PROPERTY_DESCRIPTOR, STREAM_PROPERTY_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	strmini.h
+apiname: 
+-	STREAM_PROPERTY_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: STREAM_PROPERTY_DESCRIPTOR, *PSTREAM_PROPERTY_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
 # _STREAM_PROPERTY_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 STREAM_PROPERTY_DESCRIPTOR specifies the parameters of property get/set requests that the class driver passes to the minidriver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STREAM_PROPERTY_DESCRIPTOR {
@@ -58,6 +68,9 @@ typedef struct _STREAM_PROPERTY_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Property
 
@@ -83,5 +96,3 @@ Size of the <b>Property</b> buffer.
 
 Size of the <b>PropertyInfo</b> buffer.
 
-
-## -remarks

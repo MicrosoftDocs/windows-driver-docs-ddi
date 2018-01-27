@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6862B0FD-9A7B-40BF-8123-673EE443DE84
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT
+ms.keywords: audio.ioctl_bthhfp_device_get_ksnodetypes, IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES control code [Audio Devices], IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES
-req.alt-loc: Bthhfpddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,74 +29,115 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bthhfpddi.h
+apiname: 
+-	IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES
+product: Windows
+targetos: Windows
 req.typenames: *PHFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION
 ---
 
 # IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 The <b>IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES</b> 
    IOCTL Gets the KSNODE types that best describe the Bluetooth device’s input and output.
-
-
-
-## -syntax
-
-````
-struct
-{
-    GUID OutputType;
-    GUID InputType;
-}
-
-````
-
+<div class="alert"><b>Note</b>  This IOCTL has been deprecated for Windows 8.1, so you should use <a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor.md">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a> instead.</div><div> </div>
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 None.
 
 
 ### -input-buffer-length
+
 None.
 
 
 ### -output-buffer
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>struct
+{
+    GUID OutputType;
+    GUID InputType;
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+#### -InputType
+ The KSNODE type for the intput.
+
+
+
+#### -OutputType
+ The KSNODE type for the output.
+
+
 
 ### -output-buffer-length
+
 The size of the specified structure.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 N/A
 
 
 ## -remarks
+
+
 This request completes immediately.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
-</dt>
-<dt>
+
 <a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor.md">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

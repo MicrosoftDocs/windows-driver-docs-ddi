@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d8e96d49-e4f5-468c-bdce-fbfaa8428eb7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUnicodeStringCatString
+ms.keywords: safestrings_28fc9345-6d09-492c-bda5-94216a260965.xml, kernel.rtlunicodestringcatstring, ntstrsafe/RtlUnicodeStringCatString, RtlUnicodeStringCatString, RtlUnicodeStringCatString function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP with Service Pack 1 (SP1) and
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlUnicodeStringCatString
-req.alt-loc: Ntstrsafe.lib,Ntstrsafe.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ntstrsafe.lib
+-	Ntstrsafe.dll
+apiname: 
+-	RtlUnicodeStringCatString
+product: Windows
+targetos: Windows
 req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
 ---
 
 # RtlUnicodeStringCatString function
 
 
-
 ## -description
+
+
 The <b>RtlUnicodeStringCatString</b> function concatenates two strings when the destination string is contained in a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlUnicodeStringCatString(
@@ -54,6 +65,9 @@ NTSTATUS RtlUnicodeStringCatString(
 
 
 ## -parameters
+
+
+
 
 ### -param DestinationString [in, out]
 
@@ -66,25 +80,62 @@ A pointer to a null-terminated string. This string will be concatenated to the e
 
 
 ## -returns
+
+
 <b>RtlUnicodeStringCatString</b> returns one of the following NTSTATUS values. 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>This <i>success</i> status means that source data was present, the strings were concatenated without truncation, and the resultant destination buffer is null-terminated.
+</dl>
+</td>
+<td width="60%">
+This <i>success</i> status means that source data was present, the strings were concatenated without truncation, and the resultant destination buffer is null-terminated.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_OVERFLOW</b></dt>
-</dl>This <i>warning</i> status means that the concatenation operation did not complete because of insufficient buffer space. The destination buffer contains a truncated, null-terminated version of the intended result.
+</dl>
+</td>
+<td width="60%">
+This <i>warning</i> status means that the concatenation operation did not complete because of insufficient buffer space. The destination buffer contains a truncated, null-terminated version of the intended result.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>This <i>error</i> status means that the function received an invalid input parameter. For more information, see the following list.
+</dl>
+</td>
+<td width="60%">
+This <i>error</i> status means that the function received an invalid input parameter. For more information, see the following list.
 
- 
+</td>
+</tr>
+</table> 
 
 <b>RtlUnicodeStringCatString</b> returns the STATUS_INVALID_PARAMETER value when one of the following occurs:
+<ul>
+<li>The contents of the <b>UNICODE_STRING</b> structure are invalid.</li>
+<li>The destination buffer is already full.</li>
+<li>A buffer pointer is <b>NULL</b>.</li>
+<li>The destination buffer's length is zero, but a nonzero length source string is present.</li>
+</ul>For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
 
-For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
 
 
 ## -remarks
+
+
 The <b>RtlUnicodeStringCatString</b> function uses the destination buffer's size to ensure that the concatenation operation does not write past the end of the buffer. The function does <u>not</u> terminate the resultant string with a null character value (that is, with zero).
 
 If the source and destination strings overlap, the behavior of the function is undefined.
@@ -94,15 +145,13 @@ The <i>pszSrc</i> and <i>DestinationString</i> pointers cannot be <b>NULL</b>. I
 For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcatstringex.md">RtlUnicodeStringCatStringEx</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
  
 
  

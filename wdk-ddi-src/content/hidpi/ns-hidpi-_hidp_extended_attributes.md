@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 03be8b22-2108-4a13-be1e-642373095ab5
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _HIDP_EXTENDED_ATTRIBUTES, *PHIDP_EXTENDED_ATTRIBUTES, HIDP_EXTENDED_ATTRIBUTES
+ms.keywords: hid.hidp_extended_attributes, hidpi/PHIDP_EXTENDED_ATTRIBUTES, hidstrct_7f0e134c-f292-4558-b805-02861407032f.xml, PHIDP_EXTENDED_ATTRIBUTES, HIDP_EXTENDED_ATTRIBUTES, _HIDP_EXTENDED_ATTRIBUTES, *PHIDP_EXTENDED_ATTRIBUTES, PHIDP_EXTENDED_ATTRIBUTES structure pointer [Human Input Devices], hidpi/HIDP_EXTENDED_ATTRIBUTES, HIDP_EXTENDED_ATTRIBUTES structure [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HIDP_EXTENDED_ATTRIBUTES
-req.alt-loc: hidpi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hidpi.h
+apiname: 
+-	HIDP_EXTENDED_ATTRIBUTES
+product: Windows
+targetos: Windows
 req.typenames: *PHIDP_EXTENDED_ATTRIBUTES, HIDP_EXTENDED_ATTRIBUTES
 ---
 
 # _HIDP_EXTENDED_ATTRIBUTES structure
 
 
-
 ## -description
+
+
 The HIDP_EXTENDED_ATTRIBUTES structure contains information about the global items specified for a HID control that the HID parser did not recognize.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _HIDP_EXTENDED_ATTRIBUTES {
@@ -56,6 +66,9 @@ typedef struct _HIDP_EXTENDED_ATTRIBUTES {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NumGlobalUnknowns
 
@@ -78,18 +91,18 @@ Specifies the memory location where <a href="..\hidpi\nf-hidpi-hidp_getextendeda
 
 
 ## -remarks
+
+
 The HIDP_EXTENDED_ATTRIBUTES structure is designed to be used with <b>HidP_GetExtendedAttributes</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\hidpi\nf-hidpi-hidp_getextendedattributes.md">HidP_GetExtendedAttributes</a>
-</dt>
-<dt>
+
 <a href="..\hidpi\ns-hidpi-_hidp_unknown_token.md">HIDP_UNKNOWN_TOKEN</a>
-</dt>
-</dl>
+
+<a href="..\hidpi\nf-hidpi-hidp_getextendedattributes.md">HidP_GetExtendedAttributes</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E7C823B1-457E-4B86-B44B-DC5BD48CF98E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PAGETABLEUPDATEMODE, DXGK_PAGETABLEUPDATEMODE
+ms.keywords: DXGK_PAGETABLEUPDATE_GPU_VIRTUAL, DXGK_PAGETABLEUPDATEMODE, DXGK_PAGETABLEUPDATE_CPU_VIRTUAL, d3dkmddi/DXGK_PAGETABLEUPDATEMODE, d3dkmddi/DXGK_PAGETABLEUPDATE_GPU_PHYSICAL, _DXGK_PAGETABLEUPDATEMODE, d3dkmddi/DXGK_PAGETABLEUPDATE_GPU_VIRTUAL, DXGK_PAGETABLEUPDATE_GPU_PHYSICAL, DXGK_PAGETABLEUPDATEMODE enumeration [Display Devices], d3dkmddi/DXGK_PAGETABLEUPDATE_CPU_VIRTUAL, display.dxgk_pagetableupdatemode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_PAGETABLEUPDATEMODE
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_PAGETABLEUPDATEMODE
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PAGETABLEUPDATEMODE
 ---
 
 # _DXGK_PAGETABLEUPDATEMODE enumeration
 
 
-
 ## -description
+
+
 <b>DXGK_PAGETABLEUPDATEMODE</b> is used as part of a <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a> operation to indicate which member of the related <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_pagetableupdateaddress.md">DXGK_PAGETABLEUPDATEADDRESS</a> structure contains the address of the page table to update. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXGK_PAGETABLEUPDATEMODE { 
@@ -55,6 +65,9 @@ typedef enum _DXGK_PAGETABLEUPDATEMODE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXGK_PAGETABLEUPDATE_CPU_VIRTUAL
 
@@ -71,18 +84,12 @@ Indicates that the address of the page table to update is in the <b>GpuVirtual</
 Indicates that the address of the page table to update is in the <b>GpuPhysical</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_pagetableupdateaddress.md">DXGK_PAGETABLEUPDATEADDRESS</a> structure.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_pagetableupdateaddress.md">DXGK_PAGETABLEUPDATEADDRESS</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69a18c4a-9e28-47fb-9d2e-206d660eea6c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlHashUnicodeString
+ms.keywords: RtlHashUnicodeString routine [Kernel-Mode Driver Architecture], kernel.rtlhashunicodestring, wdm/RtlHashUnicodeString, RtlHashUnicodeString, k109_090277b1-32f6-4c3d-b1fc-bacec35efc1d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlHashUnicodeString
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlHashUnicodeString
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RtlHashUnicodeString function
 
 
-
 ## -description
+
+
 The <b>RtlHashUnicodeString </b>routine creates a hash value from a given Unicode string and hash algorithm.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlHashUnicodeString(
@@ -57,6 +67,9 @@ NTSTATUS RtlHashUnicodeString(
 
 
 ## -parameters
+
+
+
 
 ### -param String [in]
 
@@ -79,18 +92,16 @@ A pointer to a ULONG variable that receives the hash value.
 
 
 ## -returns
+
+
 <b>RtlHashUnicodeString</b> returns STATUS_SUCCESS on success, or the appropriate NTSTATUS value on failure. The routine returns a STATUS_INVALID_PARAMETER value if the Unicode string is <b>NULL</b>, <i>HashValue</i> is <b>NULL</b>, or the caller specifies an undefined value for <i>HashAlgorithm</i>.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
  
 
  

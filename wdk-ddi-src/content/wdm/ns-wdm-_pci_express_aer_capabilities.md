@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 7cb25991-4e82-4da2-9d1f-fadc035b25a3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _PCI_EXPRESS_AER_CAPABILITIES, *PPCI_EXPRESS_AER_CAPABILITIES, PCI_EXPRESS_AER_CAPABILITIES
+ms.keywords: PCI_EXPRESS_AER_CAPABILITIES, PPCI_EXPRESS_AER_CAPABILITIES union pointer [Buses], _PCI_EXPRESS_AER_CAPABILITIES, wdm/PPCI_EXPRESS_AER_CAPABILITIES, pci_struct_e316ea91-d32a-4726-ba80-8fc6bd8e3163.xml, PCI_EXPRESS_AER_CAPABILITIES union [Buses], wdm/PCI_EXPRESS_AER_CAPABILITIES, PCI.pci_express_aer_capabilities, *PPCI_EXPRESS_AER_CAPABILITIES, PPCI_EXPRESS_AER_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PCI_EXPRESS_AER_CAPABILITIES
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	PCI_EXPRESS_AER_CAPABILITIES
+product: Windows
+targetos: Windows
 req.typenames: *PPCI_EXPRESS_AER_CAPABILITIES, PCI_EXPRESS_AER_CAPABILITIES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _PCI_EXPRESS_AER_CAPABILITIES structure
 
 
-
 ## -description
+
+
 The PCI_EXPRESS_AER_CAPABILITIES structure describes a PCI Express (PCIe) advanced error capabilities and control register of a PCIe advanced error reporting capability structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef union _PCI_EXPRESS_AER_CAPABILITIES {
@@ -63,34 +73,57 @@ typedef union _PCI_EXPRESS_AER_CAPABILITIES {
 
 ## -struct-fields
 
-### -field FirstErrorPointer
-
-The bit position of the first error that was reported in the PCIe uncorrectable error status register.
 
 
-### -field ECRCGenerationCapable
 
-A single bit that indicates that the device is capable of generating end-to-end cyclic redundancy checks (ECRC).
+### -field DUMMYSTRUCTNAME
 
-
-### -field ECRCGenerationEnable
-
-A single bit that indicates that ECRC generation is enabled.
+ 
 
 
-### -field ECRCCheckCapable
+### -field DUMMYSTRUCTNAME.FirstErrorPointer
 
-A single bit that indicates that the device is capable of checking ECRC.
-
-
-### -field ECRCCheckEnable
-
-A single bit that indicates that ECRC checking is enabled.
+ 
 
 
-### -field Reserved
+### -field DUMMYSTRUCTNAME.ECRCGenerationCapable
 
-Reserved.
+ 
+
+
+### -field DUMMYSTRUCTNAME.ECRCGenerationEnable
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.ECRCCheckCapable
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.ECRCCheckEnable
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.MultipleHeaderRecordingCapable
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.MultipleHeaderRecordingEnable
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.TlpPrefixLogPresent
+
+ 
+
+
+### -field DUMMYSTRUCTNAME.Reserved
+
+ 
 
 
 ### -field AsULONG
@@ -98,24 +131,53 @@ Reserved.
 A ULONG representation of the contents of the PCI_EXPRESS_AER_CAPABILITIES structure.
 
 
+#### - Reserved
+
+Reserved.
+
+
+#### - ECRCCheckEnable
+
+A single bit that indicates that ECRC checking is enabled.
+
+
+#### - ECRCCheckCapable
+
+A single bit that indicates that the device is capable of checking ECRC.
+
+
+#### - FirstErrorPointer
+
+The bit position of the first error that was reported in the PCIe uncorrectable error status register.
+
+
+#### - ECRCGenerationEnable
+
+A single bit that indicates that ECRC generation is enabled.
+
+
+#### - ECRCGenerationCapable
+
+A single bit that indicates that the device is capable of generating end-to-end cyclic redundancy checks (ECRC).
+
+
 ## -remarks
+
+
 The PCI_EXPRESS_AER_CAPABILITIES structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_AER_CAPABILITIES structure is contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a> structures.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
+
  
 
  

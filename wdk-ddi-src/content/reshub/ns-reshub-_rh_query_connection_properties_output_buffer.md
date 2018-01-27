@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 36B2C20C-AA92-4860-9FBC-BA65AFD546E1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+ms.keywords: *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, reshub/PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER structure pointer [Buses], _RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, reshub/RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, SPB.rh_query_connection_properties_output_buffer, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.alt-loc: Reshub.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Reshub.h
+apiname: 
+-	RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+product: Windows
+targetos: Windows
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 
 # _RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER structure
 
 
-
 ## -description
+
+
 The <b>RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</b> structure contains the connection properties for a target device that is connected to a serial bus (I2C, SPI, or UART).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER {
@@ -56,6 +66,9 @@ typedef struct _RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -73,6 +86,8 @@ The first byte of the serial bus connection descriptor. This byte is immediately
 
 
 ## -remarks
+
+
 The <b>ConnectionProperties</b> member of the <b>RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</b> structure contains the first byte of the serial bus connection descriptor for the target device. The remaining bytes in the descriptor immediately follow this member in memory. The buffer allocated for the <b>RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</b> structure is large enough to contain this structure plus the remaining bytes of the serial bus connection descriptor that extend past the end of the structure.
 
 The format for the serial bus connection descriptor is described in revision 5.0 of the Advanced Configuration and Power Interface Specification at the <a href="http://www.acpi.info">ACPI</a> website. For convenience, the Reshub.h header file defines the  <a href="https://msdn.microsoft.com/library/windows/hardware/jj938062">PNP_SERIAL_BUS_DESCRIPTOR</a> structure to enable drivers to access the values in this descriptor.
@@ -82,18 +97,15 @@ An SPB controller driver calls the <a href="https://msdn.microsoft.com/library/w
 For a code example that uses the <b>RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</b> structure, see <a href="https://msdn.microsoft.com/B614993A-0EA9-4B91-A336-80EEF9BE3E69">How to Get the Connection Settings for a Device</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj938062">PNP_SERIAL_BUS_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406204">SPB_CONNECTION_PARAMETERS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450926">SpbTargetGetConnectionParameters</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj938062">PNP_SERIAL_BUS_DESCRIPTOR</a>
+
  
 
  

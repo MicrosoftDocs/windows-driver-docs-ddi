@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 92e87c1d-17c4-4ac8-af9d-08863ce84c9e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CDROM_TOC_CD_TEXT_DATA, CDROM_TOC_CD_TEXT_DATA, *PCDROM_TOC_CD_TEXT_DATA
+ms.keywords: PCDROM_TOC_CD_TEXT_DATA, *PCDROM_TOC_CD_TEXT_DATA, storage.cdrom_toc_cd_text_data, _CDROM_TOC_CD_TEXT_DATA, structs-CD-ROM_7c78a819-dd2b-45bf-ba44-b8115fe1b998.xml, CDROM_TOC_CD_TEXT_DATA structure [Storage Devices], ntddcdrm/PCDROM_TOC_CD_TEXT_DATA, ntddcdrm/CDROM_TOC_CD_TEXT_DATA, PCDROM_TOC_CD_TEXT_DATA structure pointer [Storage Devices], CDROM_TOC_CD_TEXT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CDROM_TOC_CD_TEXT_DATA
-req.alt-loc: ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdrm.h
+apiname: 
+-	CDROM_TOC_CD_TEXT_DATA
+product: Windows
+targetos: Windows
 req.typenames: CDROM_TOC_CD_TEXT_DATA, *PCDROM_TOC_CD_TEXT_DATA
 ---
 
 # _CDROM_TOC_CD_TEXT_DATA structure
 
 
-
 ## -description
+
+
 Device control IRPs with a control code of <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a> and a format of CDROM_READ_TOC_EX_FORMAT_CDTEXT return their output data in this structure followed by a series of descriptors of type <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data_block.md">CDROM_TOC_CD_TEXT_DATA_BLOCK</a>. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CDROM_TOC_CD_TEXT_DATA {
@@ -56,6 +66,9 @@ typedef struct _CDROM_TOC_CD_TEXT_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Length
 
@@ -77,21 +90,14 @@ Reserved.
 Contains zero or more text data block descriptors of type <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data_block.md">CDROM_TOC_CD_TEXT_DATA_BLOCK</a>. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
-</dt>
-<dt>
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data_block.md">CDROM_TOC_CD_TEXT_DATA_BLOCK</a>
-</dt>
-</dl>
+
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
+
  
 
  

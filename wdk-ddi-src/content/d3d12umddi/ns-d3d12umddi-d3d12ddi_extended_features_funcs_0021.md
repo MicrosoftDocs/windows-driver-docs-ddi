@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9E2D8EF5-18D0-4BC5-ADCA-3D3BE76D3BF1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_EXTENDED_FEATURES_FUNCS_0021, D3D12DDI_EXTENDED_FEATURES_FUNCS_0021
+ms.keywords: display.d3d12ddi_extended_features_funcs_0021, D3D12DDI_EXTENDED_FEATURES_FUNCS_0021, D3D12DDI_EXTENDED_FEATURES_FUNCS_0021 structure [Display Devices], d3d12umddi/D3D12DDI_EXTENDED_FEATURES_FUNCS_0021
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_EXTENDED_FEATURES_FUNCS_0021
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_EXTENDED_FEATURES_FUNCS_0021
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_EXTENDED_FEATURES_FUNCS_0021
 ---
 
 # D3D12DDI_EXTENDED_FEATURES_FUNCS_0021 structure
 
 
-
 ## -description
+
+
 Specifies callback functions for extended features.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDI_EXTENDED_FEATURES_FUNCS_0021 {
@@ -56,6 +66,9 @@ typedef struct D3D12DDI_EXTENDED_FEATURES_FUNCS_0021 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pfnGetSupportedExtendedFeatures
 
@@ -76,5 +89,3 @@ A callback function that enables an extended feature.
 
 A callback function that sets extended feature callbacks function. 
 
-
-## -remarks

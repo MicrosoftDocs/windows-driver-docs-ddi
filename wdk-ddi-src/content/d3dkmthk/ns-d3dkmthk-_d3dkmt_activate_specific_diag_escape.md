@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e3c61b33-2e10-42cf-b9e8-fe70a43573e8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE, D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE
+ms.keywords: D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE structure [Display Devices], D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE, display.d3dkmt_activate_specific_diag_escape, d3dkmthk/D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE, _D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE
 ---
 
 # _D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE structure
 
 
-
 ## -description
+
+
 Indicates an escape type that is to be activated or deactivated.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE {
@@ -55,6 +65,9 @@ typedef struct _D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE {
 
 ## -struct-fields
 
+
+
+
 ### -field Type
 
 The <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_escape.md">D3DKMT_ESCAPETYPE</a> escape type  that needs to be activated or deactivated.
@@ -65,15 +78,10 @@ The <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_escape.md">D3DKMT_ESCAPETYPE</a> es
 If <b>TRUE</b>, the escape type is to be activated. If <b>FALSE</b>, the escape type is to be deactivated.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_escape.md">D3DKMT_ESCAPETYPE</a>
-</dt>
-</dl>
+
  
 
  

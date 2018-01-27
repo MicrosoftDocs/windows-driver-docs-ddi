@@ -7,8 +7,8 @@ old-location: netvista\rilreadphonebookentriesparams_2.htm
 old-project: netvista
 ms.assetid: 4cf1b9ab-0082-4ad3-9fd5-a29b51ca6bc0
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILREADPHONEBOOKENTRIESPARAMS, RILREADPHONEBOOKENTRIESPARAMS, *LPRILREADPHONEBOOKENTRIESPARAMS
+ms.date: 1/18/2018
+ms.keywords: RILREADPHONEBOOKENTRIESPARAMS, *LPRILREADPHONEBOOKENTRIESPARAMS, netvista.rilreadphonebookentriesparams_2, RILREADPHONEBOOKENTRIESPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILREADPHONEBOOKENTRIESPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILREADPHONEBOOKENTRIESPARAMS
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILREADPHONEBOOKENTRIESPARAMS
+product: Windows
+targetos: Windows
 req.typenames: RILREADPHONEBOOKENTRIESPARAMS, *LPRILREADPHONEBOOKENTRIESPARAMS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILREADPHONEBOOKENTRIESPARAMS structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILREADPHONEBOOKENTRIESPARAMS {
@@ -58,16 +68,21 @@ typedef struct _RILREADPHONEBOOKENTRIESPARAMS {
 
 ## -struct-fields
 
+
+
+
 ### -field hUiccApp
+
 
 
 ### -field dwStoreLocation
 
 
+
 ### -field dwStartIndex
+
 
 
 ### -field dwEndIndex
 
 
-## -remarks

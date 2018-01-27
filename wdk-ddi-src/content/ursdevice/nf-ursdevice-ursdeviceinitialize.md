@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 8A9C76C0-70F5-4F65-A460-CCFCD236A242
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UrsDeviceInitialize
+ms.keywords: ursdevice/UrsDeviceInitialize, UrsDeviceInitialize, buses.ursdeviceinitialize, UrsDeviceInitialize function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 
-req.alt-api: UrsDeviceInitialize
-req.alt-loc: Urscxstub.lib,Urscxstub.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Urscxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Urscxstub.lib
+-	Urscxstub.dll
+apiname: 
+-	UrsDeviceInitialize
+product: Windows
+targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # UrsDeviceInitialize function
 
 
-
 ## -description
+
+
 Initializes a framework device object to support operations related to  a USB dual-role controller and registers the relevant event callback functions with the USB dual-role controller class extension.
 
 
-
 ## -syntax
+
 
 ````
 FORCEINLINE NTSTATUS UrsDeviceInitialize(
@@ -55,6 +66,9 @@ FORCEINLINE NTSTATUS UrsDeviceInitialize(
 
 
 ## -parameters
+
+
+
 
 ### -param Device [in]
 
@@ -67,10 +81,15 @@ A handle to the framework device object that the client driver retrieved in the 
 
 
 ## -returns
+
+
 The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code. 
 
 
+
 ## -remarks
+
+
 The client driver for the USB dual-role controller must call this method after the <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> call. 
 
 The client driver calls this method in its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> implementation.
@@ -80,15 +99,13 @@ During this call, the client driver-supplied event callback implementations are 
 The method creates resource lists for host and function roles and the queues required to handle IOCTL requests that are sent to the controller. With each role switch operation, the current role's child device stack  is torn down and the device stack for the new role is loaded. The  <b>UrsDeviceInitialize</b> method retrieves identifying information that is used to build those device stacks. The method also retrieves information about the device from the underlying bus, such as ACPI.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a>
-</dt>
-<dt>
+
 <a href="..\ursdevice\nf-ursdevice-urs_config_init.md">URS_CONFIG_INIT</a>
-</dt>
-</dl>
+
+<a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a>
+
  
 
  

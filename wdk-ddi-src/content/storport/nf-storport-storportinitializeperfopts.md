@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fbaf864c-d499-456c-be3b-b486c637877e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortInitializePerfOpts
+ms.keywords: StorPortInitializePerfOpts function [Storage Devices], storport/StorPortInitializePerfOpts, storage.storportinitializeperfopts, StorPortInitializePerfOpts, storprt_84998f54-51fe-40fd-a8cc-ba0367a592ce.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortInitializePerfOpts
-req.alt-loc: Storport.h
 req.ddi-compliance: StorPortPerfOpts
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Storport.h
+apiname: 
+-	StorPortInitializePerfOpts
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # StorPortInitializePerfOpts function
 
 
-
 ## -description
+
+
 The <b>StorPortInitializePerfOpts</b> function initializes the performance optimizations that both the miniport driver and the Storport driver support using a <a href="..\storport\ns-storport-_perf_configuration_data.md">PERF_CONFIGURATION_DATA</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 ULONG StorPortInitializePerfOpts(
@@ -56,6 +66,9 @@ ULONG StorPortInitializePerfOpts(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -73,29 +86,78 @@ A pointer to a PERF_CONFIGURATION_DATA structure that is supplied by the minipor
 
 
 ## -returns
+
+
 StorPortInitializePerfOpts returns one of the following status values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>This function is not implemented on the active operating system.
+</dl>
+</td>
+<td width="60%">
+This function is not implemented on the active operating system.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>Indicates that the performance optimization settings have been applied.
+</dl>
+</td>
+<td width="60%">
+Indicates that the performance optimization settings have been applied.
 
 Or if <i>Query</i> is set to <b>TRUE</b>,  the <b>Flags</b> member of the structure pointed to by <i>PerfConfigData</i> contains the supported flags.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_UNSUCCESSFUL</b></dt>
-</dl>The miniport driver set a flag in <i>PerfConfigData</i> that Storport did not recognize, or the miniport driver has called this routine from outside the miniport-driver-supplied <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a> routine.
+</dl>
+</td>
+<td width="60%">
+The miniport driver set a flag in <i>PerfConfigData</i> that Storport did not recognize, or the miniport driver has called this routine from outside the miniport-driver-supplied <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a> routine.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>Unable to allocate internal structures to support the requested optimizations.
+</dl>
+</td>
+<td width="60%">
+Unable to allocate internal structures to support the requested optimizations.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>Either the <i>HwDeviceExtension</i> parameter or the <i>PerfConfigData</i> parameter was <b>NULL</b>.
+</dl>
+</td>
+<td width="60%">
+Either the <i>HwDeviceExtension</i> parameter or the <i>PerfConfigData</i> parameter was <b>NULL</b>.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 
     The miniport driver can call <b>StorPortInitializePerfOpts</b> only during the miniport-supplied   <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a> routine or <a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a> routine.
    
@@ -103,12 +165,11 @@ Or if <i>Query</i> is set to <b>TRUE</b>,  the <b>Flags</b> member of the struct
 Available performance optimizations depend on the version of <a href="..\storport\ns-storport-_perf_configuration_data.md">PERF_CONFIGURATION_DATA</a>. Setting the <b>Version</b> member to <b>STOR_PERF_VERSION</b> will allow all supported optimizations to be selected.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\ns-storport-_perf_configuration_data.md">PERF_CONFIGURATION_DATA</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\miniportqueryoffload.htm
 old-project: netvista
 ms.assetid: a583c4cb-53c1-4eff-bcfe-c962f736b1f8
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _PD_BUFFER_VIRTUAL_SUBNET_INFO, PD_BUFFER_VIRTUAL_SUBNET_INFO
+ms.date: 1/18/2018
+ms.keywords: netvista.miniportqueryoffload, MiniportQueryOffload callback function [Network Drivers Starting with Windows Vista], MiniportQueryOffload, W_QUERY_OFFLOAD_HANDLER, W_QUERY_OFFLOAD_HANDLER, ndischimney/MiniportQueryOffload, tcp_chim_miniport_func_920f9145-1dda-4899-85d7-845dd545a6bc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MiniportQueryOffload
-req.alt-loc: Ndischimney.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Ndischimney.h
+apiname: 
+-	MiniportQueryOffload
+product: Windows
+targetos: Windows
 req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 ---
 
 # W_QUERY_OFFLOAD_HANDLER callback
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 The 
   <i>MiniportQueryOffload</i> function queries previously offloaded TCP chimney state objects.
 
 
-
 ## -prototype
+
 
 ````
 W_QUERY_OFFLOAD_HANDLER MiniportQueryOffload;
@@ -61,30 +71,38 @@ VOID MiniportQueryOffload(
 
 ## -parameters
 
+
+
+
 ### -param MiniportAdapterContext [in]
 
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The offload target provided this handle to NDIS when it
      called 
-     <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
-     NdisMSetMiniportAttributes</a> from its 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
-     MiniportInitializeEx</a> function.
+     <mshelp:link keywords="netvista.ndismsetminiportattributes" tabindex="0"><b>
+     NdisMSetMiniportAttributes</b></mshelp:link> from its 
+     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
+     MiniportInitializeEx</i></mshelp:link> function.
 
 
 ### -param OffloadBlockList [in, out]
 
 A pointer to an 
-     <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
-     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure, which can be the root of a linked list of such
+     <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
+     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure, which can be the root of a linked list of such
      structures. These structures identify the offloaded state that is being queried.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The 
     <i>MiniportQueryOffload</i> function can query any TCP chimney state that has been offloaded to the
     offload target.
@@ -93,11 +111,11 @@ The
     <i>MiniportQueryOffload</i> function stores the 
     <i>OffloadBlockList</i> pointer and then returns. The offload target always completes the query operation
     asynchronously by calling the 
-    <a href="..\ndischimney\nf-ndischimney-ndismqueryoffloadstatecomplete.md">
-    NdisMQueryOffloadStateComplete</a> function. The 
+    <mshelp:link keywords="netvista.ndismqueryoffloadstatecomplete" tabindex="0"><b>
+    NdisMQueryOffloadStateComplete</b></mshelp:link> function. The 
     <i>OffloadBlockList</i> pointer points to an 
-    <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
-    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that can either be a stand-alone structure or the root
+    <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
+    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure that can either be a stand-alone structure or the root
     node in an 
     <a href="https://msdn.microsoft.com/c96608bd-5e8f-499b-872a-b6f7f33c9e0c">offload state tree</a>. The state tree is valid
     until the offload target calls the 
@@ -114,39 +132,40 @@ Before calling the
     <b>NdisMQueryOffloadStateComplete</b> function, the offload target must write either of the following
     NDIS_STATUS values to the 
     <b>Status</b> member of each NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure in the state tree:
-
+<ul>
+<li>
 NDIS_STATUS_SUCCESS
      
 
 The offload target successfully queried the state objects.
 
+</li>
+<li>
 NDIS_STATUS_FAILURE
      
 
 The query operation did not succeed. The host stack will terminate the state objects that could not
      be queried.
 
+</li>
+</ul>
+
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-</dt>
-<dt>
-<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
-</dt>
-<dt>
+
+<mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link>
+
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-</dt>
-<dt>
-<a href="..\ndischimney\nf-ndischimney-ndismqueryoffloadstatecomplete.md">
-   NdisMQueryOffloadStateComplete</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<mshelp:link keywords="netvista.ndismqueryoffloadstatecomplete" tabindex="0"><b>
+   NdisMQueryOffloadStateComplete</b></mshelp:link>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20W_QUERY_OFFLOAD_HANDLER callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20W_QUERY_OFFLOAD_HANDLER callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

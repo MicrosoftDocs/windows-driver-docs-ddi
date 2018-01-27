@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 086d95a3-1b3a-4e09-9a39-e1972e0e306c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_PRESENT, D3DDDICB_PRESENT
+ms.keywords: D3DDDICB_PRESENT, D3DDDICB_PRESENT structure [Display Devices], _D3DDDICB_PRESENT, d3dumddi/D3DDDICB_PRESENT, D3D_param_Structs_969f252f-fe5c-4351-9c7a-746fd33cb405.xml, display.d3dddicb_present
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_PRESENT
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_PRESENT
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_PRESENT
 ---
 
 # _D3DDDICB_PRESENT structure
 
 
-
 ## -description
+
+
 The D3DDDICB_PRESENT structure describes allocations that content is copied to and from. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_PRESENT {
@@ -57,6 +67,9 @@ typedef struct _D3DDDICB_PRESENT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hSrcAllocation
 
@@ -87,18 +100,48 @@ Broadcasting is supported only for flip operations. To broadcast a flip operatio
 The original context that the <b>hContext</b> member specifies and that the user-mode display driver presents to is not an element in the <b>BroadcastContext</b> array. For example, if the <b>BroadcastContext</b> array contains one element, the user-mode display driver sends the present operation to the owning context (<b>hContext</b>) and broadcasts to that one additional context. 
 
 
-## -remarks
+### -field BroadcastSrcAllocation
+
+ 
+
+
+### -field BroadcastDstAllocation
+
+ 
+
+
+### -field PrivateDriverDataSize
+
+ 
+
+
+### -field pPrivateDriverData
+
+ 
+
+
+### -field bOptimizeForComposition
+
+ 
+
+
+### -field SyncIntervalOverrideValid
+
+ 
+
+
+### -field SyncIntervalOverride
+
+ 
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_presentcb.md">pfnPresentCb</a>
-</dt>
-</dl>
+
  
 
  

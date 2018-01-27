@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: BA1D5AD2-E3E5-42CB-8E77-627B23078F80
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtPowerInformation
+ms.keywords: ZwPowerInformation, ZwPowerInformation routine [Kernel-Mode Driver Architecture], wdm/NtPowerInformation, PlatformInformation, NtPowerInformation, kernel.zwpowerinformation, wdm/ZwPowerInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwPowerInformation,NtPowerInformation
-req.alt-loc: Ntoskrnl.lib
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.lib
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Ntoskrnl.lib
+apiname: 
+-	ZwPowerInformation
+-	NtPowerInformation
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # NtPowerInformation function
 
 
-
 ## -description
+
+
 The <b>ZwPowerInformation</b> routine sets or retrieves system power information.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ZwPowerInformation(
@@ -59,27 +70,28 @@ NTSTATUS ZwPowerInformation(
 
 ## -parameters
 
+
+
+
 ### -param InformationLevel [in]
 
 Specifies the requested information level, which indicates the specific power information to be set or retrieved. Currently, the only supported <i>POWER_INFORMATION_LEVEL</i> value is <b>PlatformInformation</b>.
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -param PlatformInformation
-
+<td width="40%"><a id="PlatformInformation"></a><a id="platforminformation"></a><a id="PLATFORMINFORMATION"></a><dl>
+<dt><b>PlatformInformation</b></dt>
+</dl>
 </td>
 <td width="60%">
 Information represents the currently supported power capabilities of the system. Information may change as drivers are installed. For example, the installation of legacy device drivers that do not support power management might modify the capabilities of the system.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param InputBuffer [in, optional]
@@ -103,38 +115,67 @@ Size, in bytes, of the output buffer. Depending on the information level request
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS if the call is successful. If the call fails, possible error codes include the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The output buffer is of insufficient size to contain the data being returned.
+</dl>
+</td>
+<td width="60%">
+The output buffer is of insufficient size to contain the data being returned.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>The <b>PlatformInformation</b> information level, which is the only currently supported value, requires no input buffer and must contain an output buffer. The caller either supplied an input buffer or no output buffer.
+</dl>
+</td>
+<td width="60%">
+The <b>PlatformInformation</b> information level, which is the only currently supported value, requires no input buffer and must contain an output buffer. The caller either supplied an input buffer or no output buffer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>The caller had insufficient access rights to perform the requested action.
+</dl>
+</td>
+<td width="60%">
+The caller had insufficient access rights to perform the requested action.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn957451">NtPowerInformation</a> and <b>ZwPowerInformation</b> are two versions of the same Windows Native System Services routine.
 
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-This example illustrates a valid function call.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-</dt>
-</dl>
+
  
 
  

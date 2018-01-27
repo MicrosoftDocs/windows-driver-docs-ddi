@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e8a31f48-bad2-49d1-81be-d345d87a0fd5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSFC_FibrePortHBAAttributes, MSFC_FibrePortHBAAttributes, *PMSFC_FibrePortHBAAttributes
+ms.keywords: *PMSFC_FibrePortHBAAttributes, structs-Fibre_8721cac7-a44b-4401-991d-1b8822aec5be.xml, PMSFC_FibrePortHBAAttributes structure pointer [Storage Devices], hbapiwmi/MSFC_FibrePortHBAAttributes, MSFC_FibrePortHBAAttributes structure [Storage Devices], MSFC_FibrePortHBAAttributes, hbapiwmi/PMSFC_FibrePortHBAAttributes, PMSFC_FibrePortHBAAttributes, storage.msfc_fibreporthbaattributes, _MSFC_FibrePortHBAAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSFC_FibrePortHBAAttributes
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: MSFC_FibrePortHBAAttributes, *PMSFC_FibrePortHBAAttributes
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	MSFC_FibrePortHBAAttributes
+product: Windows
+targetos: Windows
+req.typenames: *PMSFC_FibrePortHBAAttributes, MSFC_FibrePortHBAAttributes
 ---
 
 # _MSFC_FibrePortHBAAttributes structure
 
 
-
 ## -description
+
+
 A WMI provider uses the MSFC_FibrePortHBAAttributes WMI class to expose attribute information associated with a fibre channel port.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSFC_FibrePortHBAAttributes {
@@ -55,6 +65,9 @@ typedef struct _MSFC_FibrePortHBAAttributes {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UniquePortId
 
@@ -71,18 +84,12 @@ Contains the status of the operation. For a list of allowed values and their des
 Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattributesresults.md">MSFC_HBAPortAttributesResults</a> that contains information about the port attributes. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-</dt>
-<dt>
+
 <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattributesresults.md">MSFC_HBAPortAttributesResults</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A3A2BD4D-F95D-4427-BE63-80A6E9AC9293
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlSizeTAdd
+ms.keywords: kernel.rtlsizetadd, RtlSizeTAdd, RtlSizeTAdd function [Kernel-Mode Driver Architecture], ntintsafe/RtlSizeTAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlSizeTAdd
-req.alt-loc: Ntintsafe.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntintsafe.h
+apiname: 
+-	RtlSizeTAdd
+product: Windows
+targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
 
 # RtlSizeTAdd function
 
 
-
 ## -description
+
+
 Adds two values of type <b>SIZE_T</b>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlSizeTAdd(
@@ -55,6 +65,9 @@ NTSTATUS RtlSizeTAdd(
 
 
 ## -parameters
+
+
+
 
 ### -param Augend [in]
 
@@ -72,4 +85,8 @@ A pointer to the sum. If the operation results in a value that overflows or unde
 
 
 ## -remarks
-This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.</p>
+
+
+This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
+

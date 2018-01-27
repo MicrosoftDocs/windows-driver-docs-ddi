@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e343b11c-7cd1-4aea-a87c-e33577456851
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_RELEASEKEYEDMUTEX2, D3DKMT_RELEASEKEYEDMUTEX2
+ms.keywords: D3DKMT_RELEASEKEYEDMUTEX2, display.d3dkmt_releasekeyedmutex2, D3DKMT_RELEASEKEYEDMUTEX2 structure [Display Devices], d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX2, _D3DKMT_RELEASEKEYEDMUTEX2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_RELEASEKEYEDMUTEX2
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_RELEASEKEYEDMUTEX2
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_RELEASEKEYEDMUTEX2
 ---
 
 # _D3DKMT_RELEASEKEYEDMUTEX2 structure
 
 
-
 ## -description
+
+
 Describes a keyed mutex object that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreleasekeyedmutex2.md">D3DKMTReleaseKeyedMutex2</a> function releases that includes private data.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_RELEASEKEYEDMUTEX2 {
@@ -57,6 +67,9 @@ typedef struct _D3DKMT_RELEASEKEYEDMUTEX2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hKeyedMutex
 
@@ -83,15 +96,10 @@ typedef struct _D3DKMT_RELEASEKEYEDMUTEX2 {
 [in] The size, in bytes, of the buffer pointed to by the <b>pPrivateRuntimeData</b> member.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreleasekeyedmutex2.md">D3DKMTReleaseKeyedMutex2</a>
-</dt>
-</dl>
+
  
 
  

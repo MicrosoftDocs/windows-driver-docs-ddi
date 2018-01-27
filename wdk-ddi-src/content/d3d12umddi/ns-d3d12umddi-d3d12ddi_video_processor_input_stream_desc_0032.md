@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3A4D19FD-FC65-4B78-8F0E-9792EB0A9B03
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032, D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032
+ms.keywords: d3d12umddi/D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032, D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032, D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032 structure [Display Devices], display.d3d12ddi_video_processor_input_stream_desc_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032
-req.alt-loc: d3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d12umddi.h
+apiname: 
+-	D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032
 ---
 
 # D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032 structure
 
 
-
 ## -description
+
+
 Describes input stream properties for the video processor.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032 {
@@ -69,6 +79,9 @@ typedef struct _D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Format
 
@@ -100,9 +113,9 @@ The frame rate of the input video stream, specified as a DXGI_RATIONAL structure
 Describes the minimum and maximum source rectangle size.  Video processor should allocate to handle all cases within the range.
 
 
-### -field DestinationSizeRanges
+### -field DestinationSizeRange
 
-Describes the minimum and maximum destination rectangle size.  Video processor should allocate to handle all cases within the range.
+ 
 
 
 ### -field EnableOrientation
@@ -155,4 +168,7 @@ The number of future frames.
 Enables or disables automatic processing features on the video processor.
 
 
-## -remarks
+#### - DestinationSizeRanges
+
+Describes the minimum and maximum destination rectangle size.  Video processor should allocate to handle all cases within the range.
+

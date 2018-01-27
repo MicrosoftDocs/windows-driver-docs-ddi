@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a2e31a1a-59e4-4a83-b866-944ef1693f65
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DVD_REGION, *PDVD_REGION, DVD_REGION
+ms.keywords: *PDVD_REGION, DVD_REGION structure [Storage Devices], ntddcdvd/DVD_REGION, _DVD_REGION, DVD_REGION, storage.dvd_region, PDVD_REGION structure pointer [Storage Devices], PDVD_REGION, ntddcdvd/PDVD_REGION, structs-DVD_b1569a34-c55e-482b-b87e-30becd20e2c1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DVD_REGION
-req.alt-loc: ntddcdvd.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdvd.h
+apiname: 
+-	DVD_REGION
+product: Windows
+targetos: Windows
 req.typenames: *PDVD_REGION, DVD_REGION
 ---
 
 # _DVD_REGION structure
 
 
-
 ## -description
+
+
 The DVD_REGION structure is used in conjunction with the <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_get_region.md">IOCTL_DVD_GET_REGION</a> request to retrieve region playback control (RPC) information for a DVD device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DVD_REGION {
@@ -56,6 +66,9 @@ typedef struct _DVD_REGION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field CopySystem
 
@@ -77,15 +90,10 @@ Indicates the region code of the DVD player. This is an eight-bit bitmask, with 
 Indicates the remaining number of times the DVD device's region code can be changed by the user. This member can hold a value between 0 and 7.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_get_region.md">IOCTL_DVD_GET_REGION</a>
-</dt>
-</dl>
+
  
 
  

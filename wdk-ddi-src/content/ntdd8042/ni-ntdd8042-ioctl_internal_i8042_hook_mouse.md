@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 606b9ae4-186c-47b1-84aa-3d380eaad672
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _MOUSE_STATE, MOUSE_STATE, *PMOUSE_STATE
+ms.keywords: hid.ioctl_internal_i8042_hook_mouse, IOCTL_INTERNAL_I8042_HOOK_MOUSE control code [Human Input Devices], IOCTL_INTERNAL_I8042_HOOK_MOUSE, ntdd8042/IOCTL_INTERNAL_I8042_HOOK_MOUSE, mfilref_d95cd233-bc97-4bd6-8675-2560b83f4715.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_INTERNAL_I8042_HOOK_MOUSE
-req.alt-loc: ntdd8042.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntdd8042.h
+apiname: 
+-	IOCTL_INTERNAL_I8042_HOOK_MOUSE
+product: Windows
+targetos: Windows
 req.typenames: MOUSE_STATE, *PMOUSE_STATE
 ---
 
 # IOCTL_INTERNAL_I8042_HOOK_MOUSE IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 
 The IOCTL_INTERNAL_I8042_HOOK_MOUSE request adds an ISR callback routine to the I8042prt mouse ISR. The ISR callback is optional and is provided by an upper-level mouse filter driver.
 
@@ -78,81 +93,71 @@ For more information about this request and the callbacks, see the following top
 </dl>
 
 
-The IOCTL_INTERNAL_I8042_HOOK_MOUSE request adds an ISR callback routine to the I8042prt mouse ISR. The ISR callback is optional and is provided by an upper-level mouse filter driver.
-
-I8042prt sends this request after it receives an <a href="..\kbdmou\ni-kbdmou-ioctl_internal_mouse_connect.md">IOCTL_INTERNAL_MOUSE_CONNECT</a> request. I8042prt sends a synchronous IOCTL_INTERNAL_I8042_HOOK_MOUSE request to the top of the mouse device stack.
-
-After Moufiltr receives the hook mouse request, it filters the request in the following way:
-
-Saves the upper-level information passed to Moufiltr, which includes the context of an upper-level device object and a pointer to an ISR callback
-
-Replaces the upper-level information with its own
-
-Saves the context of I8042prt and pointers to callbacks that the Moufiltr ISR callbacks can use
-
-For more information about this request and the callbacks, see the following topics:
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539965">I8042prt Callback Routines</a>
-
-
-
-<a href="https://msdn.microsoft.com/c6b60905-edd0-496e-a4e7-5ca271a51bce">Moufiltr Callback Routines</a>
-
-
-
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to a value greater than or equal to the size, in bytes, of an <a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_hook_mouse.md">INTERNAL_I8042_HOOK_MOUSE</a> structure.
 
 The <b>Parameters.DeviceIoControl.Type3InputBuffer</b> points to an INTERNAL_I8042_HOOK_MOUSE structure that is allocated and set initially by I8042prt.
 
 
 ### -input-buffer-length
+
 The <b>Parameters.DeviceIoControl.Type3InputBuffer</b> points to an INTERNAL_I8042_HOOK_MOUSE structure that is allocated and set initially by I8042prt.
 
 
 ### -output-buffer
+
 None
 
 
 ### -output-buffer-length
+
 None
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Status</b> member is set to one of the following values:
 
 
 
-The request completed successfully.
+
+#### -STATUS_INVALID_PARAMETER
 
 <b>Parameters.DeviceIoControl.InputBufferLength</b> is less than the size, in bytes, of an INTERNAL_I8042_HOOK_MOUSE structure.
 
 
-## -remarks
+#### -STATUS_SUCCESS
+
+The request completed successfully.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_hook_mouse.md">INTERNAL_I8042_HOOK_MOUSE</a>
-</dt>
-<dt>
+
 <a href="..\kbdmou\ni-kbdmou-ioctl_internal_mouse_connect.md">IOCTL_INTERNAL_MOUSE_CONNECT</a>
-</dt>
-</dl>
+
+<a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_hook_mouse.md">INTERNAL_I8042_HOOK_MOUSE</a>
+
  
 
  

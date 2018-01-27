@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5B39DFE1-3830-4650-9BB9-A03A040F1015
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER, *PPEP_WORK_DEVICE_POWER
+ms.keywords: PEP_WORK_DEVICE_POWER, kernel.pep_work_device_power, pep_x/PPEP_WORK_DEVICE_POWER, PPEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER structure [Kernel-Mode Driver Architecture], pep_x/PEP_WORK_DEVICE_POWER, _PEP_WORK_DEVICE_POWER, PPEP_WORK_DEVICE_POWER structure pointer [Kernel-Mode Driver Architecture], *PPEP_WORK_DEVICE_POWER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_WORK_DEVICE_POWER
-req.alt-loc: pep_x.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pep_x.h
+apiname: 
+-	PEP_WORK_DEVICE_POWER
+product: Windows
+targetos: Windows
 req.typenames: PEP_WORK_DEVICE_POWER, *PPEP_WORK_DEVICE_POWER
 ---
 
 # _PEP_WORK_DEVICE_POWER structure
 
 
-
 ## -description
+
+
 The <b>PEP_WORK_DEVICE_POWER</b> structure describes the new power requirements for the specified device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_WORK_DEVICE_POWER {
@@ -54,6 +64,9 @@ typedef struct _PEP_WORK_DEVICE_POWER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DeviceHandle
 
@@ -66,18 +79,18 @@ Whether the device requires power. Set to TRUE if the device requires power and 
 
 
 ## -remarks
+
+
 The <b>DevicePower</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_DEVICE_POWER</b> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
-</dt>
-<dt>
+
 <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
  
 
  

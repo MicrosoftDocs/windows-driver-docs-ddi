@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 77ba5ba3-11d3-4c28-86e6-91f3189b5403
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlCreateHeap
+ms.keywords: ntifs/RtlCreateHeap, rtlref_e57e4a89-3686-4ab4-85e2-af223cdb3b18.xml, ifsk.rtlcreateheap, RtlCreateHeap, RtlCreateHeap routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows XP and
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlCreateHeap
-req.alt-loc: NtosKrnl.exe,Ntdll.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+-	Ntdll.dll
+apiname: 
+-	RtlCreateHeap
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlCreateHeap function
 
 
-
 ## -description
+
+
 The <b>RtlCreateHeap</b> routine creates a heap object that can be used by the calling process. This routine reserves space in the virtual address space of the process and allocates physical storage for a specified initial portion of this block. 
 
 
-
 ## -syntax
+
 
 ````
 PVOID RtlCreateHeap(
@@ -59,6 +70,9 @@ PVOID RtlCreateHeap(
 
 ## -parameters
 
+
+
+
 ### -param Flags [in]
 
 Flags specifying optional attributes of the heap. These options affect subsequent access to the new heap through calls to the heap functions (<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a> and <a href="..\ntifs\nf-ntifs-rtlfreeheap.md">RtlFreeHeap</a>). 
@@ -69,23 +83,6 @@ This parameter can be one or more of the following values.
 
 
 
-
-### -param HEAP_GENERATE_EXCEPTIONS
-
-Specifies that the system will indicate a heap failure by raising an exception, such as STATUS_NO_MEMORY, instead of returning <b>NULL</b>. 
-
-
-### -param HEAP_GROWABLE
-
-Specifies that the heap is growable. Must be specified if <i>HeapBase</i> is <b>NULL</b>. 
-
-
-### -param HEAP_NO_SERIALIZE
-
-Specifies that mutual exclusion will not be used when the heap functions allocate and free memory from this heap. The default, when HEAP_NO_SERIALIZE is not specified, is to serialize access to the heap. Serialization of heap access allows two or more threads to simultaneously allocate and free memory from the same heap. 
-
-</dd>
-</dl>
 
 ### -param HeapBase [in, optional]
 
@@ -101,7 +98,6 @@ If <i>HeapBase</i> is <b>NULL</b>, <b>RtlCreateHeap</b> allocates system memory 
 If <i>ReserveSize</i> is a nonzero value, it specifies the initial amount of memory, in bytes, to reserve for the heap. <b>RtlCreateHeap</b> rounds <i>ReserveSize</i> up to the next page boundary, and then reserves a block of that size for the heap. 
 
 This parameter is optional and can be zero. The following table summarizes the interaction of the <i>ReserveSize</i> and <i>CommitSize</i> parameters. 
-
 <table>
 <tr>
 <th>Values</th>
@@ -147,8 +143,7 @@ If <i>CommitSize</i> is greater than <i>ReserveSize</i>, <b>RtlCreateHeap</b> re
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param CommitSize [in, optional]
@@ -166,7 +161,6 @@ Pointer to an opaque ERESOURCE structure to be used as a resource lock. This par
 ### -param Parameters [in, optional]
 
 Pointer to a RTL_HEAP_PARAMETERS structure that contains parameters to be applied when creating the heap. This parameter is optional and can be <b>NULL</b>. 
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -188,8 +182,7 @@ Pointer to a RTL_HEAP_PARAMETERS structure that contains parameters to be applie
 } RTL_HEAP_PARAMETERS, *PRTL_HEAP_PARAMETERS;</pre>
 </td>
 </tr>
-</table></span></div>
-<table>
+</table></span></div><table>
 <tr>
 <th>Member</th>
 <th>Value</th>
@@ -312,9 +305,7 @@ Reserved for system use. Drivers must set this parameter to zero.
 
 </td>
 </tr>
-</table>
- 
-
+</table> 
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -329,8 +320,7 @@ Reserved for system use. Drivers must set this parameter to zero.
     );</pre>
 </td>
 </tr>
-</table></span></div>
-<table>
+</table></span></div><table>
 <tr>
 <th>Parameter</th>
 <th>Meaning</th>
@@ -365,15 +355,34 @@ Pointer to a variable that will receive the actual size, in bytes, of the alloca
 
 </td>
 </tr>
-</table>
- 
+</table> 
+
+
+##### - Flags.HEAP_GENERATE_EXCEPTIONS
+
+Specifies that the system will indicate a heap failure by raising an exception, such as STATUS_NO_MEMORY, instead of returning <b>NULL</b>. 
+
+
+##### - Flags.HEAP_NO_SERIALIZE
+
+Specifies that mutual exclusion will not be used when the heap functions allocate and free memory from this heap. The default, when HEAP_NO_SERIALIZE is not specified, is to serialize access to the heap. Serialization of heap access allows two or more threads to simultaneously allocate and free memory from the same heap. 
+
+
+##### - Flags.HEAP_GROWABLE
+
+Specifies that the heap is growable. Must be specified if <i>HeapBase</i> is <b>NULL</b>. 
 
 
 ## -returns
+
+
 <b>RtlCreateHeap</b> returns a handle to be used in accessing the created heap. 
 
 
+
 ## -remarks
+
+
 <b>RtlCreateHeap</b> creates a private heap object from which the calling process can allocate memory blocks by calling <a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>. The initial commit size determines the number of pages that are initially allocated for the heap. The initial reserve size determines the number of pages that are initially reserved for the heap. Pages that are reserved but uncommitted create a block in the process's virtual address space into which the heap can expand. 
 
 If allocation requests made by <a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a> exceed the heap's initial commit size, the system commits additional pages of physical storage for the heap, up to the heap's maximum size. If the heap is nongrowable, its maximum size is limited to its initial reserve size. 
@@ -382,19 +391,42 @@ If the heap is growable, its size is limited only by available memory. If reques
 
 In addition, if the heap is nongrowable, an absolute limitation arises: the maximum size of a memory block in the heap is 0x7F000 bytes. The virtual memory threshold of the heap is equal to the maximum heap block size or the value of the <b>VirtualMemoryThreshold</b> member of the <i>Parameters</i> structure, whichever is less. The heap also may need to pad the request size for metadata and alignment purposes so requests to allocate blocks within 4096 Bytes (1 Page) of the <b>VirtualMemoryThreshold</b> may fail even if the maximum size of the heap is large enough to contain the block. (For more information about <b>VirtualMemoryThreshold</b>, see the members of the <i>Parameters</i> parameter to <b>RtlCreateHeap</b>.)  
 
+If the heap is growable, requests to allocate blocks larger than the heap's virtual memory threshold do not automatically fail; the system calls <a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVirtualMemory</a> to obtain the memory needed for such large blocks. 
+
+The memory of a private heap object is accessible only to the process that created it. 
+
+The system uses memory from the private heap to store heap support structures, so not all of the specified heap size is available to the process. For example, if <a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a> requests 64 kilobytes (K) from a heap with a maximum size of 64K, the request may fail because of system overhead. 
+
+If HEAP_NO_SERIALIZE is not specified (the simple default), the heap will serialize access within the calling process. Serialization ensures mutual exclusion when two or more threads attempt to simultaneously allocate or free blocks from the same heap. There is a small performance cost to serialization, but it must be used whenever multiple threads allocate and free memory from the same heap. 
+
+Setting HEAP_NO_SERIALIZE eliminates mutual exclusion on the heap. Without serialization, two or more threads that use the same heap handle might attempt to allocate or free memory simultaneously, likely causing corruption in the heap. Therefore, HEAP_NO_SERIALIZE can safely be used only in the following situations: 
+<ul>
+<li>
+The process has only one thread. 
+
+</li>
+<li>
+The process has multiple threads, but only one thread calls the heap functions for a specific heap. 
+
+</li>
+<li>
+The process has multiple threads, and the application provides its own mechanism for mutual exclusion to a specific heap. 
+
+</li>
+</ul><div class="alert"><b>Note</b>  <p class="note">
+       To guard against an access violation, use structured exception handling to protect any code that writes to or reads from a heap. For more information about structured exception handling with memory accesses, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546823">Handling Exceptions</a>. 
+
+</div><div> </div>
+
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtldestroyheap.md">RtlDestroyHeap</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtlfreeheap.md">RtlFreeHeap</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-rtldestroyheap.md">RtlDestroyHeap</a>
+
+<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
+
  
 
  

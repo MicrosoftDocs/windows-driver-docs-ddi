@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ce9ad02d-645a-4333-9208-27f0805508a5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT, DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT
+ms.keywords: _DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT_HORIZONTAL, DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT_MONO, display.dxgk_multiplane_overlay_stereo_format, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT_MONO_OFFSET, DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT enumeration [Display Devices], DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT_HORIZONTAL, DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT_ROW_INTERLEAVED, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT_CHECKERBOARD, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT_MONO, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT, DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT_MONO_OFFSET, DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT_CHECKERBOARD, DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT_COLUMN_INTERLEAVED, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT_SEPARATE, DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT_SEPARATE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT_COLUMN_INTERLEAVED, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT_VERTICAL, DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT_VERTICAL, DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT_ROW_INTERLEAVED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT
-req.alt-loc: D3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmddi.h
+apiname: 
+-	DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT
+product: Windows
+targetos: Windows
 req.typenames: DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT
 ---
 
 # _DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT enumeration
 
 
-
 ## -description
+
+
 Identifies the overlay plane's stereo presentation format. Only the <b>DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT_MONO</b> value is supported.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT { 
@@ -60,6 +70,9 @@ typedef enum _DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT_MONO
 
@@ -100,5 +113,3 @@ Reserved for system use. Do not use in your driver.
 
 Reserved for system use. Do not use in your driver.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 6e3cc0ae-e214-4096-834b-b435ee0fcb46
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND
+ms.keywords: bltooth.sdpconverttreetostream, SdpConvertTreeToStream callback function [Bluetooth Devices], SdpConvertTreeToStream, PCONVERTTREETOSTREAM, PCONVERTTREETOSTREAM, bthsdpddi/SdpConvertTreeToStream, bth_funcs_0f0b531b-9391-475c-a3a2-ac2b2a94e1dd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SdpConvertTreeToStream
-req.alt-loc: BthSdpddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	BthSdpddi.h
+apiname: 
+-	SdpConvertTreeToStream
+product: Windows
+targetos: Windows
 req.typenames: *PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND
 ---
 
 # PCONVERTTREETOSTREAM callback
 
 
-
 ## -description
+
+
 The Bluetooth 
   <b>SdpConvertTreeToStream</b> function is used to produce a raw bytestream representation of an SDP record
   from a tree representation. The raw bytestream version is suitable for publication on a local SDP
   server.
 
 
-
 ## -prototype
+
 
 ````
 PCONVERTTREETOSTREAM SdpConvertTreeToStream;
@@ -63,31 +73,40 @@ NTSTATUS SdpConvertTreeToStream(
 
 ## -parameters
 
-### -param Root 
+
+
+
+### -param Root
 
 The root node of the tree-based representation of the SDP record to convert into a stream-based
      representation.
 
 
-### -param Stream 
-
-A pointer to the buffer that receives the converted SDP stream.
+### -param *Stream
 
 
-### -param Size 
+
+### -param Size
 
 The address of an unsigned long integer to receive the length of the converted SDP stream.
 
 
-### -param tag 
+### -param tag
 
 Specifies a 4-byte 
-     <a href="wdkgloss.p#wdkgloss.pool_tag#wdkgloss.pool_tag"><i>pool tag</i></a> that uniquely identifies the driver that does the memory
+     <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">pool tag</a> that uniquely identifies the driver that does the memory
      allocation. For more information about pool tags, see 
      <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>.
 
 
+#### - Stream
+
+A pointer to the buffer that receives the converted SDP stream.
+
+
 ## -returns
+
+
 Possible return values include:
 
 
@@ -99,15 +118,12 @@ Possible return values include:
 <dt>STATUS_INVALID_PARAMETER</dt>
 </dl>
 
-<dl>
-<dt>STATUS_SUCCESS
-      </dt>
-<dt>STATUS_INSUFFICIENT_RESOURCES
-      </dt>
-<dt>STATUS_INVALID_PARAMETER</dt>
-</dl>
+
+
 
 ## -remarks
+
+
 The 
     <b>SdpConvertTreeToStream</b> function performs the opposite operation as the 
     <a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a> function. It
@@ -117,24 +133,21 @@ The
 
 <b>SdpConvertTreeToStream</b> allocates the necessary memory to store the stream version of the SDP
     record. When the memory is no longer needed, the caller is responsible for freeing the memory using the 
-    <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> driver support routine.
+    <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> driver support routine.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
     <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
-</dt>
-<dt>
+
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
-</dt>
-</dl>
+
+<a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
  
 
  

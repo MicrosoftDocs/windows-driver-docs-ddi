@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3A8B040D-7B48-4CDB-985B-906AE1762E22
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.pfncheckcounter, D3DDDI_COUNTER_TYPE, pfnCheckCounter callback function [Display Devices], pfnCheckCounter, PFND3DDDI_CHECKCOUNTER, PFND3DDDI_CHECKCOUNTER, d3dumddi/pfnCheckCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnCheckCounter
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	pfnCheckCounter
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_CHECKCOUNTER callback
 
 
-
 ## -description
+
+
 Called by the Microsoft Direct3D runtime to retrieve info that describes a counter. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_CHECKCOUNTER pfnCheckCounter;
@@ -66,20 +76,89 @@ _Check_return_ HRESULT APIENTRY* pfnCheckCounter(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param Counter [in]
-
- A value of type <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createquery.md">D3DDDIQUERYTYPE</a> that identifies the counter identifier that info is retrieved for.
+### -param D3DDDIQUERYTYPE
 
 
-### -param pType [out]
+
+### -param *
+
+
+
+### -param LPSTR
+
+
+
+### -param *pNameLength
+
+
+
+### -param *pUnitsLength
+
+
+
+### -param *pDescriptionLength
+
+
+
+
+
+
+#### - pNameLength [in, out, optional]
+
+An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszName</i> parameter specifies.
+
+Here are limitations on the values of the <i>pNameLength</i> and  <i>pszName</i> parameters:
+<ul>
+<li><i>pNameLength</i> can be <b>NULL</b>, in which case the app doesn't need the name or name length.</li>
+<li> If <i>pszName</i> is <b>NULL</b> and <i>pNameLength</i> is not <b>NULL</b>, the input value of <i>pNameLength</i> is ignored, and the length of the string (including terminating <b>NULL</b> character) must be returned through the <i>pNameLength</i> parameter. </li>
+<li>If both <i>pszName</i> and <i>pNameLength</i> are not <b>NULL</b>, the driver must check the input value of <i>pNameLength</i> to ensure that there's enough room in the allocated buffer, and then the length of the <i>pszName</i> string (including terminating <b>NULL</b> character) is passed out through the <i>pNameLength</i> parameter.</li>
+</ul>
+
+#### - pActiveCounters [out]
+
+A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that the <i>Counter</i> parameter identifies.
+
+
+#### - pszUnits [out, optional]
+
+An optional pointer that the driver returns a <b>NULL</b>-terminated string to that contains the name of the units that the counter identifier measures.
+
+Can be <b>NULL</b>, in which case the app doesn't need the units info. See more info in the explanation of the <i>pUnitsLength</i> parameter.
+
+
+#### - pDescriptionLength [in, out, optional]
+
+ An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszDescription</i> parameter specifies.
+
+Here are limitations on the values of the <i>pDescriptionLength</i> and  <i>pszDescription</i> parameters:
+<ul>
+<li><i>pDescriptionLength</i> can be <b>NULL</b>, in which case the app doesn't need the unit name or unit name length.</li>
+<li> If <i>pszDescription</i> is <b>NULL</b> and <i>pDescriptionLength</i> is not <b>NULL</b>, the input value of <i>pDescriptionLength</i> is ignored, and the length of the string (including terminating <b>NULL</b> character) must be returned through the <i>pDescriptionLength</i> parameter. </li>
+<li>If both <i>pszDescription</i> and <i>pDescriptionLength</i> are not <b>NULL</b>, the driver must check the input value of <i>pDescriptionLength</i> to ensure that there's enough room in the allocated buffer, and then the length of the <i>pszDescription</i> string (including terminating <b>NULL</b> character) is passed out through the <i>pDescriptionLength</i> parameter.</li>
+</ul>
+
+#### - pUnitsLength [in, out, optional]
+
+ An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszUnits</i> parameter specifies.
+
+Here are limitations on the values of the <i>pUnitsLength</i> and  <i>pszUnits</i> parameters:
+<ul>
+<li><i>pUnitsLength</i> can be <b>NULL</b>, in which case the app doesn't need the unit name or unit name length.</li>
+<li> If <i>pszUnits</i> is <b>NULL</b> and <i>pUnitsLength</i> is not <b>NULL</b>, the input value of <i>pUnitsLength</i> is ignored, and the length of the string (including terminating <b>NULL</b> character) must be returned through the <i>pUnitsLength</i> parameter. </li>
+<li>If both <i>pszUnits</i> and <i>pUnitsLength</i> are not <b>NULL</b>, the driver must check the input value of <i>pUnitsLength</i> to ensure that there's enough room in the allocated buffer, and then the length of the <i>pszUnits</i> string (including terminating <b>NULL</b> character) is passed out through the <i>pUnitsLength</i> parameter.</li>
+</ul>
+
+#### - pType [out]
 
 A pointer to a variable that receives one of the following values from the <b>D3DDDI_COUNTER_TYPE</b> enumeration that identifies the data type that the counter outputs.
-
 <table>
 <tr>
 <th>Value</th>
@@ -125,84 +204,57 @@ D3DDDI_COUNTER_TYPE_UINT64
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
-### -param pActiveCounters [out]
-
-A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that the <i>Counter</i> parameter identifies.
-
-
-### -param pszName [out, optional]
+#### - pszName [out, optional]
 
 An optional pointer that the driver returns a <b>NULL</b>-terminated string to that contains the name of the counter identifier.
 
 Can be <b>NULL</b>, in which case the app doesn't need the name.
 
 
-### -param pNameLength [in, out, optional]
+#### - Counter [in]
 
-An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszName</i> parameter specifies.
-
-Here are limitations on the values of the <i>pNameLength</i> and  <i>pszName</i> parameters:
-
-<ul>
-<li><i>pNameLength</i> can be <b>NULL</b>, in which case the app doesn't need the name or name length.</li>
-<li> If <i>pszName</i> is <b>NULL</b> and <i>pNameLength</i> is not <b>NULL</b>, the input value of <i>pNameLength</i> is ignored, and the length of the string (including terminating <b>NULL</b> character) must be returned through the <i>pNameLength</i> parameter. </li>
-<li>If both <i>pszName</i> and <i>pNameLength</i> are not <b>NULL</b>, the driver must check the input value of <i>pNameLength</i> to ensure that there's enough room in the allocated buffer, and then the length of the <i>pszName</i> string (including terminating <b>NULL</b> character) is passed out through the <i>pNameLength</i> parameter.</li>
-</ul>
-
-### -param pszUnits [out, optional]
-
-An optional pointer that the driver returns a <b>NULL</b>-terminated string to that contains the name of the units that the counter identifier measures.
-
-Can be <b>NULL</b>, in which case the app doesn't need the units info. See more info in the explanation of the <i>pUnitsLength</i> parameter.
+ A value of type <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createquery.md">D3DDDIQUERYTYPE</a> that identifies the counter identifier that info is retrieved for.
 
 
-### -param pUnitsLength [in, out, optional]
-
- An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszUnits</i> parameter specifies.
-
-Here are limitations on the values of the <i>pUnitsLength</i> and  <i>pszUnits</i> parameters:
-
-<ul>
-<li><i>pUnitsLength</i> can be <b>NULL</b>, in which case the app doesn't need the unit name or unit name length.</li>
-<li> If <i>pszUnits</i> is <b>NULL</b> and <i>pUnitsLength</i> is not <b>NULL</b>, the input value of <i>pUnitsLength</i> is ignored, and the length of the string (including terminating <b>NULL</b> character) must be returned through the <i>pUnitsLength</i> parameter. </li>
-<li>If both <i>pszUnits</i> and <i>pUnitsLength</i> are not <b>NULL</b>, the driver must check the input value of <i>pUnitsLength</i> to ensure that there's enough room in the allocated buffer, and then the length of the <i>pszUnits</i> string (including terminating <b>NULL</b> character) is passed out through the <i>pUnitsLength</i> parameter.</li>
-</ul>
-
-### -param pszDescription [out, optional]
+#### - pszDescription [out, optional]
 
 An optional pointer that the driver returns a <b>NULL</b>-terminated string to that contains the description of what the counter identifier measures.
 
 Can be <b>NULL</b>, in which case the app doesn't need the description info. See more info in the explanation of the <i>pDescriptionLength</i> parameter.
 
 
-### -param pDescriptionLength [in, out, optional]
-
- An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszDescription</i> parameter specifies.
-
-Here are limitations on the values of the <i>pDescriptionLength</i> and  <i>pszDescription</i> parameters:
-
-<ul>
-<li><i>pDescriptionLength</i> can be <b>NULL</b>, in which case the app doesn't need the unit name or unit name length.</li>
-<li> If <i>pszDescription</i> is <b>NULL</b> and <i>pDescriptionLength</i> is not <b>NULL</b>, the input value of <i>pDescriptionLength</i> is ignored, and the length of the string (including terminating <b>NULL</b> character) must be returned through the <i>pDescriptionLength</i> parameter. </li>
-<li>If both <i>pszDescription</i> and <i>pDescriptionLength</i> are not <b>NULL</b>, the driver must check the input value of <i>pDescriptionLength</i> to ensure that there's enough room in the allocated buffer, and then the length of the <i>pszDescription</i> string (including terminating <b>NULL</b> character) is passed out through the <i>pDescriptionLength</i> parameter.</li>
-</ul>
-
 ## -returns
+
+
 If this routine succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code, including the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_INVALIDARG</b></dt>
-</dl>An out-of-range device-dependent counter is requested, or a string length is not large enough for a buffer to contain the entire string.
+</dl>
+</td>
+<td width="60%">
+An out-of-range device-dependent counter is requested, or a string length is not large enough for a buffer to contain the entire string.
 
 Even though all strings used in this function are based on Unicode, they are always in the English locale and are not localized to other locales.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This function should behave similarly to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkcounter.md">CheckCounter</a> function that supports Microsoft Direct3D 10 and later.
 
 Counters are typically used by tools that capture a frame and play it back multiple times. The pass that records accurate timing info is separate from other  passes. In later passes, a different set of counters is used each time.
@@ -213,15 +265,13 @@ Typically an app can simultaneously monitor only a small number of possible nati
 If a counter ID can always be monitored (and it doesn't interfere with monitoring any other counter IDs), the number of simultaneous active counters required by the counter ID can be zero.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkcounter.md">CheckCounter</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createquery.md">D3DDDIQUERYTYPE</a>
-</dt>
-</dl>
+
  
 
  

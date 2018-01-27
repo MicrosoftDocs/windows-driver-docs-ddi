@@ -7,8 +7,8 @@ old-location: netvista\ndismcmdispatchincomingcall.htm
 old-project: netvista
 ms.assetid: 24102e1f-375e-4bf4-8a43-6527b90c8564
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisMCmDispatchIncomingCall
+ms.date: 1/18/2018
+ms.keywords: netvista.ndismcmdispatchincomingcall, NdisMCmDispatchIncomingCall, condis_mcm_ref_1133faf8-d5a6-4800-8738-94b11bc1d51f.xml, NdisMCmDispatchIncomingCall macro [Network Drivers Starting with Windows Vista], ndis/NdisMCmDispatchIncomingCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    N
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisMCmDispatchIncomingCall
-req.alt-loc: ndis.h
 req.ddi-compliance: Irql_MCM_Function
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ndis.h
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ndis.h
+apiname: 
+-	NdisMCmDispatchIncomingCall
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCmDispatchIncomingCall macro
 
 
-
 ## -description
+
+
 <b>NdisMCmDispatchIncomingCall</b> informs the client of an incoming call on a SAP previously registered by
   that client with the MCM driver.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisMCmDispatchIncomingCall(
@@ -57,49 +67,79 @@ NDIS_STATUS NdisMCmDispatchIncomingCall(
 
 ## -parameters
 
-### -param NdisSapHandle [in]
-
-Specifies the handle identifying the SAP. NDIS set up this handle when the client originally
-     called 
-     <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>, and the MCM driver
-     obtained this handle as an input parameter to its 
-     <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">
-     ProtocolCmRegisterSap</a> function.
 
 
-### -param NdisVcHandle [in]
 
-Specifies the handle identifying the VC, created with 
-     <a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a> when the MCM driver
-     processes the incoming call offer directed to this registered SAP.
+### -param _SH_
+
+TBD
 
 
-### -param CallParameters [in]
+### -param _VH_
+
+TBD
+
+
+### -param _CP_
+
+TBD
+
+
+
+
+#### - CallParameters [in]
 
 Pointer to a structure of type 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that specifies the call
      and media parameters for the VC.
 
 
+#### - NdisVcHandle [in]
+
+Specifies the handle identifying the VC, created with 
+     <a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a> when the MCM driver
+     processes the incoming call offer directed to this registered SAP.
+
+
+#### - NdisSapHandle [in]
+
+Specifies the handle identifying the SAP. NDIS set up this handle when the client originally
+     called 
+     <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>, and the MCM driver
+     obtained this handle as an input parameter to its 
+     <mshelp:link keywords="netvista.protocolcmregistersap" tabindex="0"><i>
+     ProtocolCmRegisterSap</i></mshelp:link> function.
+
+
 ## -remarks
+
+
 Before calling 
     <b>NdisMCmDispatchIncomingCall</b>, an MCM driver has already done the following:
-
+<ul>
+<li>
 Identified the target SAP, previously registered by a particular client, for the call (actually, a
       request to make a connection) that it received over the network
 
+</li>
+<li>
 Created a VC for the incoming call with 
       <a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
 
 
+</li>
+<li>
 Possibly negotiated about acceptable call parameters over the network, or accepted the call
       parameters sent from the remote node
 
+</li>
+<li>
 Activated the VC with 
       <a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a> to notify NDIS that
       it is ready for transfers on the VC in accord with the negotiated or accepted call parameters
 
-The MCM driver's call to 
+</li>
+</ul>The MCM driver's call to 
     <b>NdisMCmDispatchIncomingCall</b> causes NDIS to call the client's 
     <i>ProtocolClIncomingCall</i> function, within which the client either accepts or rejects the requested
     connection. After deciding whether to accept the connection, the client calls 
@@ -107,8 +147,8 @@ The MCM driver's call to
     which, in turn, calls the MCM driver's 
     <i>ProtocolCmIncomingCallComplete</i> function. If the client accepted the call, the MCM driver next calls
     
-    <a href="..\ndis\nf-ndis-ndismcmdispatchcallconnected.md">
-    NdisMCmDispatchCallConnected</a>. Otherwise, it deactivates (and possibly deletes) the VC it created,
+    <mshelp:link keywords="netvista.ndismcmdispatchcallconnected" tabindex="0"><b>
+    NdisMCmDispatchCallConnected</b></mshelp:link>. Otherwise, it deactivates (and possibly deletes) the VC it created,
     after notifying the remote node that the offered call was rejected.
 
 Only connection-oriented miniport drivers that provide integrated call-management support call 
@@ -117,52 +157,39 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
     <b>NdisCmDispatchIncomingCall</b> instead.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisclincomingcallcomplete.md">NdisClIncomingCallComplete</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismcmdispatchcallconnected.md">NdisMCmDispatchCallConnected</a>
-</dt>
-<dt>
+
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+
 <a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
-   ProtocolCmIncomingCallComplete</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
+
+<mshelp:link keywords="netvista.protocolcmincomingcallcomplete" tabindex="0"><i>
+   ProtocolCmIncomingCallComplete</i></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndismcmdispatchcallconnected.md">NdisMCmDispatchCallConnected</a>
+
+<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
+
+<a href="..\ndis\nf-ndis-ndisclincomingcallcomplete.md">NdisClIncomingCallComplete</a>
+
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
+<a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmDispatchIncomingCall macro%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmDispatchIncomingCall macro%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

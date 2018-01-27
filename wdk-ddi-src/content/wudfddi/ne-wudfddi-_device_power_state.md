@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7dd4d0ae-876a-4156-8a09-2ebc82a25117
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _DEVICE_POWER_STATE, DEVICE_POWER_STATE, *PDEVICE_POWER_STATE
+ms.keywords: PDEVICE_POWER_STATE, PDEVICE_POWER_STATE enumeration pointer, wudfddi/PowerDeviceMaximum, PowerDeviceD3, PowerDeviceMaximum, umdfstructs_6dca1ebb-421e-446b-b2b6-cc7b87afcf58.xml, umdf.device_power_state, PowerDeviceD2, wudfddi/PowerDeviceD0, PowerDeviceD1, wudfddi/PowerDeviceUnspecified, wudfddi/PowerDeviceD2, wudfddi/PowerDeviceD1, DEVICE_POWER_STATE, PowerDeviceD0, _DEVICE_POWER_STATE, wudfddi/PowerDeviceD3, wudfddi/PDEVICE_POWER_STATE, wdf.device_power_state, DEVICE_POWER_STATE enumeration, PowerDeviceUnspecified, wudfddi/DEVICE_POWER_STATE, *PDEVICE_POWER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.9
-req.alt-api: DEVICE_POWER_STATE
-req.alt-loc: Wudfddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wudfddi.h
+apiname: 
+-	DEVICE_POWER_STATE
+product: Windows
+targetos: Windows
 req.typenames: DEVICE_POWER_STATE, *PDEVICE_POWER_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _DEVICE_POWER_STATE enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>DEVICE_POWER_STATE</b> enumeration identifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543162">device power states</a> that a device can enter.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DEVICE_POWER_STATE { 
@@ -61,6 +71,9 @@ typedef enum _DEVICE_POWER_STATE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field PowerDeviceUnspecified
 
@@ -93,18 +106,18 @@ For system use only.
 
 
 ## -remarks
+
+
 The <b>DEVICE_POWER_STATE</b> enumeration is used as input to <a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff556923">IWDFDevice2::AssignSxWakeSettings</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556923">IWDFDevice2::AssignSxWakeSettings</a>
-</dt>
-</dl>
+
  
 
  

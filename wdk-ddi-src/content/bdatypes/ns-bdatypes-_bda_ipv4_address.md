@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5206CEEB-C1EF-4AE0-B4BC-52E8D85AD706
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _BDA_IPv4_ADDRESS, BDA_IPv4_ADDRESS, *PBDA_IPv4_ADDRESS
+ms.keywords: PBDA_IPv4_ADDRESS, *PBDA_IPv4_ADDRESS, BDA_IPv4_ADDRESS structure [Streaming Media Devices], _BDA_IPv4_ADDRESS, stream.bda_ipv4_address, bdatypes/BDA_IPv4_ADDRESS, bdatypes/PBDA_IPv4_ADDRESS, PBDA_IPv4_ADDRESS structure pointer [Streaming Media Devices], BDA_IPv4_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BDA_IPv4_ADDRESS
-req.alt-loc: Bdatypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: BDA_IPv4_ADDRESS, *PBDA_IPv4_ADDRESS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bdatypes.h
+apiname: 
+-	BDA_IPv4_ADDRESS
+product: Windows
+targetos: Windows
+req.typenames: *PBDA_IPv4_ADDRESS, BDA_IPv4_ADDRESS
 ---
 
 # _BDA_IPv4_ADDRESS structure
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: BDA_IPv4_ADDRESS, *PBDA_IPv4_ADDRESS
 
 
 
+
 ## -syntax
+
 
 ````
 typedef struct _BDA_IPv4_ADDRESS {
@@ -54,7 +64,9 @@ typedef struct _BDA_IPv4_ADDRESS {
 
 ## -struct-fields
 
+
+
+
 ### -field rgbAddress
 
 
-## -remarks

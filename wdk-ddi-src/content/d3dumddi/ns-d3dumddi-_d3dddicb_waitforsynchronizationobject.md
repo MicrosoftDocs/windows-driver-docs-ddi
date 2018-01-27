@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8f235fc4-924b-4cc4-858d-5009e69fae47
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT
+ms.keywords: _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT, D3D_param_Structs_170af521-644c-4790-94dc-6836d880d620.xml, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT structure [Display Devices], D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT, d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT, display.d3dddicb_waitforsynchronizationobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT
 ---
 
 # _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT structure
 
 
-
 ## -description
+
+
 The D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT structure describes the parameters that are required to set up the wait in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobjectcb.md">pfnWaitForSynchronizationObjectCb</a> function. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT {
@@ -55,6 +65,9 @@ typedef struct _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hContext
 
@@ -71,15 +84,10 @@ typedef struct _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT {
 [in] An array of handles to the synchronization events that the context that is specified by the <b>hContext</b> member waits for. The <b>D3DDDI_MAX_OBJECT_WAITED_ON</b> constant, which is defined as 32, indicates the maximum number of synchronization events that the context can wait for.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobjectcb.md">pfnWaitForSynchronizationObjectCb</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 12bf26fc-86c2-4b9b-82d4-1e8b2e38fa79
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT, D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT
+ms.keywords: display.d3dkmdt_monitor_frequency_range_constraint, D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT enumeration [Display Devices], d3dkmdt/D3DKMDT_MFRC_MAXPIXELRATE, DmEnums_923a6c46-3d71-4d26-8f28-2bf5c6f4bd32.xml, D3DKMDT_MFRC_MAXPIXELRATE, _D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT, d3dkmdt/D3DKMDT_MFRC_UNINITIALIZED, D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT, D3DKMDT_MFRC_UNINITIALIZED, d3dkmdt/D3DKMDT_MFRC_ACTIVESIZE, d3dkmdt/D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT, D3DKMDT_MFRC_ACTIVESIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT
+product: Windows
+targetos: Windows
 req.typenames: D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT
 ---
 
 # _D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT enumeration
 
 
-
 ## -description
+
+
 The D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT enumeration is used to indicate the type of constraint under which a monitor frequency range is supported.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT { 
@@ -55,6 +65,9 @@ typedef enum _D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DKMDT_MFRC_UNINITIALIZED
 
@@ -72,4 +85,8 @@ Indicates that the constraint is a pixel rate.
 
 
 ## -remarks
-The <b>ConstraintType</b> member of a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_frequency_range.md">D3DKMDT_MONITOR_FREQUENCY_RANGE</a> structure is a value from the D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT enumeration.</p>
+
+
+The <b>ConstraintType</b> member of a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_frequency_range.md">D3DKMDT_MONITOR_FREQUENCY_RANGE</a> structure is a value from the D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT enumeration.
+
+

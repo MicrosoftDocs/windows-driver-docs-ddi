@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 4C28FD6E-A1DD-4887-95B0-6028ECA18204
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _CHANNEL_CONFIG_PARAMETERS_ENHANCED, *PCHANNEL_CONFIG_PARAMETERS_ENHANCED, CHANNEL_CONFIG_PARAMETERS_ENHANCED
+ms.keywords: PCHANNEL_CONFIG_PARAMETERS_ENHANCED, bltooth.channel_config_parameters_enhanced, CHANNEL_CONFIG_PARAMETERS_ENHANCED, CHANNEL_CONFIG_PARAMETERS_ENHANCED structure [Bluetooth Devices], PCHANNEL_CONFIG_PARAMETERS_ENHANCED structure pointer [Bluetooth Devices], bthddi/PCHANNEL_CONFIG_PARAMETERS_ENHANCED, *PCHANNEL_CONFIG_PARAMETERS_ENHANCED, bthddi/CHANNEL_CONFIG_PARAMETERS_ENHANCED, _CHANNEL_CONFIG_PARAMETERS_ENHANCED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows 8 and later versions 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CHANNEL_CONFIG_PARAMETERS_ENHANCED
-req.alt-loc: Bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-req.typenames: *PCHANNEL_CONFIG_PARAMETERS_ENHANCED, CHANNEL_CONFIG_PARAMETERS_ENHANCED
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bthddi.h
+apiname: 
+-	CHANNEL_CONFIG_PARAMETERS_ENHANCED
+product: Windows
+targetos: Windows
+req.typenames: CHANNEL_CONFIG_PARAMETERS_ENHANCED, *PCHANNEL_CONFIG_PARAMETERS_ENHANCED
 ---
 
 # _CHANNEL_CONFIG_PARAMETERS_ENHANCED structure
 
 
-
 ## -description
+
+
 The CHANNEL_CONFIG_PARAMETERS_ENHANCED structure describes configuration parameters for inbound and outbound directions of an L2CAP channel.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CHANNEL_CONFIG_PARAMETERS_ENHANCED {
@@ -62,6 +72,9 @@ typedef struct _CHANNEL_CONFIG_PARAMETERS_ENHANCED {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Flags
 
@@ -112,5 +125,3 @@ Extended flow specification for the L2CAP channel. This member is reserved. Do n
 
 Extended window size. This member is reserved. Do not use.
 
-
-## -remarks

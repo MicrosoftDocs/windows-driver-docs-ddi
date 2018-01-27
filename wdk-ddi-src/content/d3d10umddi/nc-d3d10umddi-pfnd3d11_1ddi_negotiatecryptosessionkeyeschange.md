@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a48dcbae-3236-4523-bc14-4be694da9a7b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.negotiatecryptosessionkeyexchange, NegotiateCryptoSessionKeyExchange callback function [Display Devices], NegotiateCryptoSessionKeyExchange, PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE, PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE, d3d10umddi/NegotiateCryptoSessionKeyExchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NegotiateCryptoSessionKeyExchange
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	NegotiateCryptoSessionKeyExchange
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE callback
 
 
-
 ## -description
+
+
 Establishes a session key for a cryptographic session object.
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE NegotiateCryptoSessionKeyExchange;
@@ -59,6 +69,9 @@ HRESULT APIENTRY* NegotiateCryptoSessionKeyExchange(
 
 
 ## -parameters
+
+
+
 
 ### -param hDevice [in]
 
@@ -81,41 +94,80 @@ The size, in bytes, of the data in the <i>pData</i> array.
 
 
 
-### -param pData [in]
+### -param *pData
+
+
+
+
+
+
+#### - pData [in]
 
 A pointer to a byte array that contains the encrypted session key.
 
 
 ## -returns
+
+
 <i>NegotiateCryptoSessionKeyExchange</i> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The session key for the cryptographic session was negotiated successfully.
+</dl>
+</td>
+<td width="60%">
+The session key for the cryptographic session was negotiated successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_INVALIDARG</b></dt>
-</dl>Parameters were validated and determined to be incorrect.
+</dl>
+</td>
+<td width="60%">
+Parameters were validated and determined to be incorrect.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_OUTOFMEMORY</b></dt>
 </dl>
+</td>
+<td width="60%">
+
         Memory was not available to complete the operation.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The <i>pData</i> parameter references a buffer that contains a session key for the cryptographic session. The key exchange mechanism depends on the type of the encryption algorithm that is used by the cryptographic session.
 
 For sessions that use the RSA Encryption Scheme - Optimal Asymmetric Encryption Padding (RSAES-OAEP) algorithm, the key buffer must contain 256 bytes of data and must be encrypted by using the RSA Encryption Scheme - Optimal Asymmetric Encryption Padding (RSAES-OAEP) algorithm with the public key from the cryptographic session certificate.
 
 The key exchange for a cryptographic session is identical to the key exchange for the Output Protection Manager (OPM) interface. However,  the OPM key buffer contains additional data besides the session key.  
+<div class="alert"><b>Note</b>  The same certificate can be used for the cryptographic session and OPM session key.</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
-</dt>
-</dl>
+
  
 
  

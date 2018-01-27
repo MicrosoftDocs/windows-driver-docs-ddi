@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 726ce165-fd07-4dd3-a004-8081481340a1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_VideoTransferMatrix, DXVA_VideoTransferMatrix
+ms.keywords: display.dxva_videotransfermatrix, dxva/DXVA_VideoTransferMatrix_Unknown, DXVA_VideoTransferMatrix enumeration [Display Devices], DXVA_VideoTransferMatrix_BT709, DXVA_VideoTransferMatrix_BT601, dxvaref_82624d1d-650f-41a2-a8d2-fb8c9936caab.xml, DXVA_VideoTransferMatrixMask, dxva/DXVA_VideoTransferMatrixMask, DXVA_VideoTransferMatrixShift, dxva/DXVA_VideoTransferMatrix_BT709, dxva/DXVA_VideoTransferMatrixShift, dxva/DXVA_VideoTransferMatrix_SMPTE240M, _DXVA_VideoTransferMatrix, DXVA_VideoTransferMatrix, dxva/DXVA_VideoTransferMatrix_BT601, DXVA_VideoTransferMatrix_SMPTE240M, dxva/DXVA_VideoTransferMatrix, DXVA_VideoTransferMatrix_Unknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This enumeration type applies only to Windows Server 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVA_VideoTransferMatrix
-req.alt-loc: dxva.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxva.h
+apiname: 
+-	DXVA_VideoTransferMatrix
+product: Windows
+targetos: Windows
 req.typenames: DXVA_VideoTransferMatrix
 ---
 
 # _DXVA_VideoTransferMatrix enumeration
 
 
-
 ## -description
+
+
 The DXVA_VideoTransferMatrix enumeration type contains enumerators that identify the conversion matrix from Y'Cb'Cr' to R'G'B'.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXVA_VideoTransferMatrix { 
@@ -58,6 +68,9 @@ typedef enum _DXVA_VideoTransferMatrix {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXVA_VideoTransferMatrixShift
 
@@ -90,15 +103,16 @@ Specifies a HD video standard rarely used in Japan.
 
 
 ## -remarks
+
+
 One of the enumerators of DXVA_VideoTransferMatrix can be specified in the <b>VideoTransferMatrix</b> member of the <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
-</dt>
-</dl>
+
  
 
  

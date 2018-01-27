@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e749188f-a255-403a-8ae9-a2c3c9b41c58
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VHF_CONFIG, VHF_CONFIG, *PVHF_CONFIG
+ms.keywords: display.svgahwioportulong, SvgaHwIoPortUlong callback function [Display Devices], SvgaHwIoPortUlong, PDRIVER_IO_PORT_ULONG, PDRIVER_IO_PORT_ULONG, video/SvgaHwIoPortUlong, VideoMiniport_Functions_84ae9115-8192-469a-b3c1-536d3964d906.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SvgaHwIoPortUlong
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	video.h
+apiname: 
+-	SvgaHwIoPortUlong
+product: Windows
+targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PDRIVER_IO_PORT_ULONG callback
 
 
-
 ## -description
+
+
 <i>SvgaHwIoPortUlong</i> traps an I/O port range to which a full-screen MS-DOS application in an x86-based machine is sending a sequence of ULONG-sized data.
 
 
-
 ## -prototype
+
 
 ````
 PDRIVER_IO_PORT_ULONG SvgaHwIoPortUlong;
@@ -61,38 +71,46 @@ VP_STATUS SvgaHwIoPortUlong(
 
 ## -parameters
 
-### -param Context 
+
+
+
+### -param Context
 
 Specifies the miniport driver-determined context value that was set in the <b>EmulatorAccessEntriesContext</b> member of VIDEO_PORT_CONFIG_INFO.
 
 
-### -param Port 
+### -param Port
 
 Specifies the mapped I/O port to be trapped.
 
 
-### -param AccessMode 
+### -param AccessMode
 
 Specifies the type of access allowed, which can be one or a combination (ORed) of the following values:
 
 
+<dl>
+<dt>EMULATOR_READ_ACCESS</dt>
+<dt>EMULATOR_WRITE_ACCESS</dt>
+</dl>
 
-### -param EMULATOR_READ_ACCESS
-### -param EMULATOR_WRITE_ACCESS
 
 
-
-
-### -param Data 
+### -param Data
 
 Pointer to the ULONG data to be transferred.
 
 
 ## -returns
+
+
 <i>SvgaHwIoPortUlong</i> returns the final status of the operation.
 
 
+
 ## -remarks
+
+
 Only miniport drivers of VGA-compatible SVGA adapters have <i>SvgaHwIoPortXxx</i> functions. (See <a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>.)
 
 <i>SvgaHwIoPortUlong</i> intercepts any range access attempted by a full-screen MS-DOS application issuing either or both of the instructions <b>OUT DX, EAX</b> and <b>IN EAX, DX</b>.
@@ -106,30 +124,23 @@ If one or more application-issued x86 <b>IN</b> or <b>OUT</b> instructions might
 <i>SvgaHwIoPortUlong</i> should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\miniport\ns-miniport-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>
-</dt>
-<dt>
-<a href="..\video\nc-video-pdriver_io_port_ulong_string.md">SvgaHwIoPortUlongString</a>
-</dt>
-<dt>
-<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
-</dt>
-<dt>
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-</dt>
-<dt>
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportsettrappedemulatorports.md">VideoPortSetTrappedEmulatorPorts</a>
-</dt>
-</dl>
+
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+<a href="..\miniport\ns-miniport-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
+
+<a href="..\video\nc-video-pdriver_io_port_ulong_string.md">SvgaHwIoPortUlongString</a>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: pos\posmagneticstripereadercapabilitiestype.htm
 old-project: pos
 ms.assetid: 8f5ad241-a145-468d-bd69-7956985152b5
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _PosMagneticStripeReaderCapabilitiesType, PosMagneticStripeReaderCapabilitiesType
+ms.date: 1/18/2018
+ms.keywords: PosMagneticStripeReaderCapabilitiesType structure, _PosMagneticStripeReaderCapabilitiesType, pointofservicedriverinterface/PosMagneticStripeReaderCapabilitiesType, pos.posmagneticstripereadercapabilitiestype, PosMagneticStripeReaderCapabilitiesType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PosMagneticStripeReaderCapabilitiesType
-req.alt-loc: PointOfServiceDriverInterface.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	PointOfServiceDriverInterface.h
+apiname: 
+-	PosMagneticStripeReaderCapabilitiesType
+product: Windows
+targetos: Windows
 req.typenames: PosMagneticStripeReaderCapabilitiesType
 ---
 
 # _PosMagneticStripeReaderCapabilitiesType structure
 
 
-
 ## -description
+
+
 This structure defines the kinds of magnetic stripe reader (MSR) capabilities that a device supports, such as whether the device supports track data masking.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PosMagneticStripeReaderCapabilitiesType {
@@ -63,6 +73,9 @@ typedef struct _PosMagneticStripeReaderCapabilitiesType {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PowerReportingType
 
@@ -118,5 +131,3 @@ Indicates whether the device is capable of masking track data.
 
 Indicates whether the devices is able to transmit start and end sentinels.
 
-
-## -remarks

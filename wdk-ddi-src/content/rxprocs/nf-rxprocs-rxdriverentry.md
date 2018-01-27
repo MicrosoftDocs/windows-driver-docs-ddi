@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f100f872-6db2-4b6d-a9c0-abbbfee0a621
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxDriverEntry
+ms.keywords: RxDriverEntry routine [Installable File System Drivers], rxprocs/RxDriverEntry, RxDriverEntry, rxref_a882d71c-b6c3-4454-a45b-37b312af2069.xml, ifsk.rxdriverentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxDriverEntry
-req.alt-loc: rxprocs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,25 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rxprocs.h
+apiname: 
+-	RxDriverEntry
+product: Windows
+targetos: Windows
+req.typenames: *PRX_CONTEXT, RX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
 # RxDriverEntry function
 
 
-
 ## -description
+
+
 <b>RxDriverEntry</b> is called by a monolithic network mini-redirector driver from its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine to initialize the RDBSS static library.
 
 For non-monolithic drivers, this initialization routine is equivalent to the <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine of the RDBSS.SYS device driver.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RxDriverEntry(
@@ -57,6 +67,9 @@ NTSTATUS RxDriverEntry(
 
 
 ## -parameters
+
+
+
 
 ### -param DriverObject [in]
 
@@ -71,15 +84,32 @@ HKLM\System\CurrentControlSet\Services
 
 
 ## -returns
+
+
 <b>RxDriverEntry</b> returns STATUS_SUCCESS on success or one of the following error values on failure: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>RXINIT_START</b></dt>
-</dl>The initialization of RDBSS was started, but an error occurred. This error code is an internal RDBSS enum with a value of 5.
+</dl>
+</td>
+<td width="60%">
+The initialization of RDBSS was started, but an error occurred. This error code is an internal RDBSS enum with a value of 5.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A monolithic network mini-redirector driver which is linked statically with RDBSSLIB.LIB must call <b>RxDriverEntry</b> from its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine to initialize the copy of the RDBSSLIB library linked with the driver. <b>RxDriverEntry</b> must be called by a monolithic network mini-redirector driver before any other RDBSS routines are called. 
 
 After calling <b>RxDriverEntry</b> to initialize the copy of the RDBSS library near the start of its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine, the network mini-redirector driver would usually call <a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a> later in its <i>DriverEntry</i> routine to register with RDBSS. 
@@ -150,36 +180,27 @@ On Windows Server 2003, a registry value to set ReadAheadGranularity is not expo
 For a non-monolithic network mini-redirector driver (the Microsoft SMB redirector), the RDBSS.SYS device driver is initialized in its own <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine when loaded which internally calls <b>RxDriverEntry</b>. On a monolithic driver, the <b>RxDriverEntry</b> routine is exported from the RDBSSLIB.LIB static library and must be called explicitly by the network mini-redirector. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
-</dt>
-<dt>
-<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
-</dt>
-<dt>
-<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
-</dt>
-<dt>
+
 <a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
-</dt>
-<dt>
-<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
-</dt>
-<dt>
-<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
-</dt>
-<dt>
+
 <a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr.md">RxUnregisterMinirdr</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+
+<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
+
+<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
+
+<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
+
+<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
+
+<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
+
 <a href="..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md">__RxFillAndInstallFastIoDispatch</a>
-</dt>
-</dl>
+
  
 
  

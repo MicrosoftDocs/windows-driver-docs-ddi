@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 93F81B97-5C37-47BF-8867-0FBEFA8F6D3B
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _CMP_DELETE_PLUG, *PCMP_DELETE_PLUG, CMP_DELETE_PLUG
+ms.keywords: IEEE.cmp_delete_plug, CMP_DELETE_PLUG, CMP_DELETE_PLUG structure [Buses], 61883/PCMP_DELETE_PLUG, 61883/CMP_DELETE_PLUG, _CMP_DELETE_PLUG, PCMP_DELETE_PLUG structure pointer [Buses], PCMP_DELETE_PLUG, *PCMP_DELETE_PLUG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CMP_DELETE_PLUG
-req.alt-loc: 61883.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	61883.h
+apiname: 
+-	CMP_DELETE_PLUG
+product: Windows
+targetos: Windows
 req.typenames: *PCMP_DELETE_PLUG, CMP_DELETE_PLUG
 ---
 
 # _CMP_DELETE_PLUG structure
 
 
-
 ## -description
+
+
 This structure is used to delete a plug.The request deletes a plug control register (iPCR or oPCR) that was created with <a href="https://msdn.microsoft.com/library/windows/hardware/ff536961">Av61883_CreatePlug</a>. A driver is responsible for deleting all of the plugs it has created before the system unloads the driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CMP_DELETE_PLUG {
@@ -54,21 +64,25 @@ typedef struct _CMP_DELETE_PLUG {
 
 ## -struct-fields
 
+
+
+
 ### -field hPlug
 
 On input, a handle to the plug to delete.
 
 
 ## -remarks
+
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-</dt>
-</dl>
+
  
 
  

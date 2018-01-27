@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9E75F65A-6E9C-485F-9437-30CB01A5F317
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _REFS_SMR_VOLUME_GC_STATE, REFS_SMR_VOLUME_GC_STATE, *PREFS_SMR_VOLUME_GC_STATE
+ms.keywords: SmrGcStateActiveFullSpeed, PREFS_SMR_VOLUME_GC_STATE, SmrGcStateInactive, *PREFS_SMR_VOLUME_GC_STATE, REFS_SMR_VOLUME_GC_STATE enumeration [Installable File System Drivers], ifsk.refs_smr_volume_gc_state, ntifs/PREFS_SMR_VOLUME_GC_STATE, ntifs/SmrGcStateActiveFullSpeed, _REFS_SMR_VOLUME_GC_STATE, SmrGcStateActive, ntifs/SmrGcStatePaused, ntifs/SmrGcStateActive, ntifs/SmrGcStateInactive, ntifs/REFS_SMR_VOLUME_GC_STATE, REFS_SMR_VOLUME_GC_STATE, SmrGcStatePaused, PREFS_SMR_VOLUME_GC_STATE enumeration pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10, version 1709.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: REFS_SMR_VOLUME_GC_STATE
-req.alt-loc: Ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntifs.h
+apiname: 
+-	REFS_SMR_VOLUME_GC_STATE
+product: Windows
+targetos: Windows
 req.typenames: REFS_SMR_VOLUME_GC_STATE, *PREFS_SMR_VOLUME_GC_STATE
 ---
 
 # _REFS_SMR_VOLUME_GC_STATE enumeration
 
 
-
 ## -description
+
+
 The <b>REFS_SMR_VOLUME_GC_STATE</b> enum specifies the garbage collection's current state.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _REFS_SMR_VOLUME_GC_STATE { 
@@ -56,6 +66,9 @@ typedef enum _REFS_SMR_VOLUME_GC_STATE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field SmrGcStateInactive
 
@@ -76,5 +89,3 @@ Specifies the garbage collection is running.
 
 Specifies the garbage collection is running at full speed.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ad096bb-0012-40fc-a038-2f25d6a59b43
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, DXGK_BACKLIGHT_OPTIMIZATION_LEVEL
+ms.keywords: DxgkBacklightOptimizationDynamic, DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, DxgkBacklightOptimizationDesktop, DxgkBacklightOptimizationDimmed, d3dkmdt/DxgkBacklightOptimizationDimmed, DxgkBacklightOptimizationEDR, DxgkBacklightOptimizationDisable, d3dkmdt/DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, d3dkmdt/DxgkBacklightOptimizationDisable, DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration [Display Devices], d3dkmdt/DxgkBacklightOptimizationDesktop, d3dkmdt/DxgkBacklightOptimizationDynamic, display.dxgk_backlight_optimization_level, d3dkmdt/DxgkBacklightOptimizationEDR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_BACKLIGHT_OPTIMIZATION_LEVEL
-req.alt-loc: D3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmdt.h
+apiname: 
+-	DXGK_BACKLIGHT_OPTIMIZATION_LEVEL
+product: Windows
+targetos: Windows
 req.typenames: DXGK_BACKLIGHT_OPTIMIZATION_LEVEL
 ---
 
 # DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration
 
 
-
 ## -description
+
+
 Indicates the optimization level of brightness control. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers that support adaptive brightness control.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -57,6 +67,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DxgkBacklightOptimizationDisable
 
@@ -94,15 +107,16 @@ Optimization level which informs the driver that the display is being driven wit
 
 
 ## -remarks
+
+
 For more information on usage scenarios involving <b>DXGK_BACKLIGHT_OPTIMIZATION_LEVEL</b> enumeration values, see Remarks in the <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set_backlight_optimization.md">DxgkDdiSetBacklightOptimization</a> function.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set_backlight_optimization.md">DxgkDdiSetBacklightOptimization</a>
-</dt>
-</dl>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\rilmsginstatus.htm
 old-project: netvista
 ms.assetid: 383ed544-c8c8-42a0-a7de-57f0f4072611
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILMSGINSTATUS, *LPRILMSGINSTATUS, RILMSGINSTATUS
+ms.date: 1/18/2018
+ms.keywords: netvista.rilmsginstatus, RILMSGINSTATUS structure [Network Drivers Starting with Windows Vista], *LPRILMSGINSTATUS, ntddrilapitypes/RILMSGINSTATUS, RILMSGINSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILMSGINSTATUS
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILMSGINSTATUS, RILMSGINSTATUS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILMSGINSTATUS
+product: Windows
+targetos: Windows
+req.typenames: RILMSGINSTATUS, *LPRILMSGINSTATUS
 ---
 
 # RILMSGINSTATUS structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILMSGINSTATUS {
@@ -65,40 +75,53 @@ typedef struct _RILMSGINSTATUS {
 
 ## -struct-fields
 
+
+
+
 ### -field dwMsgID
+
 
 
 ### -field raTgtRecipAddress
 
 
+
 ### -field stTgtSCReceiveTime
+
 
 
 ### -field stTgtDischargeTime
 
 
+
 ### -field dwReserved
+
 
 
 ### -field dwTgtDlvStatus
 
 
+
 ### -field dwProtocolID
+
 
 
 ### -field rmdDataCoding
 
 
+
 ### -field cbHdrLength
+
 
 
 ### -field cchMsgLength
 
 
+
 ### -field rgbHdr
+
 
 
 ### -field rgbMsg
 
 
-## -remarks

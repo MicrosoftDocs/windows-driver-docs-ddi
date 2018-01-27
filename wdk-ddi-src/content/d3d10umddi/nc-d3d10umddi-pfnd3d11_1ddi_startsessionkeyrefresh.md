@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0973cef3-41a8-495e-aa8a-ce64df53b892
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.startsessionkeyrefresh1, pfnStartSessionKeyRefresh callback function [Display Devices], pfnStartSessionKeyRefresh, PFND3D11_1DDI_STARTSESSIONKEYREFRESH, PFND3D11_1DDI_STARTSESSIONKEYREFRESH, d3d10umddi/pfnStartSessionKeyRefresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnStartSessionKeyRefresh
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	pfnStartSessionKeyRefresh
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_STARTSESSIONKEYREFRESH callback
 
 
-
 ## -description
+
+
 Gets a random number that can be used to refresh the session key.
 
 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11_1DDI_STARTSESSIONKEYREFRESH pfnStartSessionKeyRefresh;
@@ -61,6 +71,9 @@ VOID APIENTRY* pfnStartSessionKeyRefresh(
 
 
 ## -parameters
+
+
+
 
 ### -param hDevice [in]
 
@@ -82,17 +95,29 @@ The size, in bytes, of the number in the buffer that is referenced by the <i>pRa
 
 
 
-### -param pRandomNumber [in]
+### -param *pRandomNumber
+
+
+
+
+
+
+#### - pRandomNumber [in]
 
 A pointer to a buffer that contains the status sequence number for the random start.
 
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 The hardware and driver can optionally support <b>StartSessionKeyRefresh</b> for all cryptographic types.
 
 
@@ -104,15 +129,13 @@ When the runtime subsequently calls the driver's <a href="..\d3d10umddi\nc-d3d10
 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_finishsessionkeyrefresh.md">FinishSessionKeyRefresh</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
+
  
 
  

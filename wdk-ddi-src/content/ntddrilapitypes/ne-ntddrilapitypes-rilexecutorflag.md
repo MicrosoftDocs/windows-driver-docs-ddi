@@ -7,8 +7,8 @@ old-location: netvista\rilexecutorflag.htm
 old-project: netvista
 ms.assetid: b388a5d9-3549-472d-8ebe-b618751626ed
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILEXECUTORFLAG, RILEXECUTORFLAG
+ms.date: 1/18/2018
+ms.keywords: ntddrilapitypes/RILEXECUTORFLAG, ntddrilapitypes/RIL_EXECUTORFLAG_ALL, ntddrilapitypes/RIL_EXECUTORFLAG_HIGHPRIORITY, RIL_EXECUTORFLAG_HIGHPRIORITY, RIL_EXECUTORFLAG_ALL, RILEXECUTORFLAG, RILEXECUTORFLAG enumeration [Network Drivers Starting with Windows Vista], netvista.rilexecutorflag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILEXECUTORFLAG
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILEXECUTORFLAG
+product: Windows
+targetos: Windows
 req.typenames: RILEXECUTORFLAG
 ---
 
 # RILEXECUTORFLAG enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILEXECUTORFLAG { 
@@ -55,10 +65,17 @@ typedef enum _RILEXECUTORFLAG {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_EXECUTORFLAG_ENABLED
+
+
+
 ### -field RIL_EXECUTORFLAG_HIGHPRIORITY
+
 
 
 ### -field RIL_EXECUTORFLAG_ALL
 
 
-## -remarks

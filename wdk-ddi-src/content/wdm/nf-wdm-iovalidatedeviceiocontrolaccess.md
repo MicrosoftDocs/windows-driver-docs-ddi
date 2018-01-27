@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 45e8279f-b7a5-4b45-92b7-5f740f6c1117
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoValidateDeviceIoControlAccess
+ms.keywords: k104_724cb845-fabf-4b5a-8712-901829f1f79d.xml, wdm/IoValidateDeviceIoControlAccess, IoValidateDeviceIoControlAccess, kernel.iovalidatedeviceiocontrolaccess, IoValidateDeviceIoControlAccess routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2003 and later versions o
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoValidateDeviceIoControlAccess
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoValidateDeviceIoControlAccess
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoValidateDeviceIoControlAccess function
 
 
-
 ## -description
+
+
 For more information, see  the <a href="..\wdmsec\nf-wdmsec-wdmlibiovalidatedeviceiocontrolaccess.md">WdmlibIoValidateDeviceIoControlAccess</a> function.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS IoValidateDeviceIoControlAccess(
@@ -55,6 +65,9 @@ NTSTATUS IoValidateDeviceIoControlAccess(
 
 
 ## -parameters
+
+
+
 
 ### -param Irp [in]
 
@@ -67,18 +80,16 @@ For more information, see  the <a href="..\wdmsec\nf-wdmsec-wdmlibiovalidatedevi
 
 
 ## -returns
+
+
 For more information, see  the <a href="..\wdmsec\nf-wdmsec-wdmlibiovalidatedeviceiocontrolaccess.md">WdmlibIoValidateDeviceIoControlAccess</a> function.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-</dt>
-</dl>
+
  
 
  

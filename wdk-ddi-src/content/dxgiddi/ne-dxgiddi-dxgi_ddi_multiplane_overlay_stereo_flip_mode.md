@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f44317c5-661c-42f6-847b-b325e4c1321a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
+ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE, DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration [Display Devices], dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0, DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1, DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, display.dxgi_ddi_multiplane_overlay_stereo_flip_mode, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE, DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
-req.alt-loc: Dxgiddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Dxgiddi.h
+apiname: 
+-	DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
+product: Windows
+targetos: Windows
 req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
 ---
 
 # DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration
 
 
-
 ## -description
+
+
 Identifies the overlay plane's stereo flip mode. Only the <b>DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE</b> value is supported.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE { 
@@ -55,6 +65,9 @@ typedef enum DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE
 
@@ -70,5 +83,3 @@ Reserved for system use. Do not use in your driver.
 
 Reserved for system use. Do not use in your driver.
 
-
-## -remarks

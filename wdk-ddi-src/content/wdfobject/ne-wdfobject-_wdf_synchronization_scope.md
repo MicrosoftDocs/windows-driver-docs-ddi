@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a251bf5c-c09b-4097-a9ed-82f2312ac408
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_SYNCHRONIZATION_SCOPE, WDF_SYNCHRONIZATION_SCOPE
+ms.keywords: WDF_SYNCHRONIZATION_SCOPE, wdfobject/WDF_SYNCHRONIZATION_SCOPE, WdfSynchronizationScopeInvalid, kmdf.wdf_synchronization_scope, _WDF_SYNCHRONIZATION_SCOPE, WDF_SYNCHRONIZATION_SCOPE enumeration, wdfobject/WdfSynchronizationScopeInheritFromParent, WdfSynchronizationScopeDevice, DFGenObjectRef_62dd47ff-1d2a-454e-9083-cbf68f1679d2.xml, wdfobject/WdfSynchronizationScopeNone, wdfobject/WdfSynchronizationScopeQueue, WdfSynchronizationScopeInheritFromParent, wdfobject/WdfSynchronizationScopeInvalid, wdf.wdf_synchronization_scope, WdfSynchronizationScopeQueue, wdfobject/WdfSynchronizationScopeDevice, WdfSynchronizationScopeNone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_SYNCHRONIZATION_SCOPE
-req.alt-loc: wdfobject.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfobject.h
+apiname: 
+-	WDF_SYNCHRONIZATION_SCOPE
+product: Windows
+targetos: Windows
 req.typenames: WDF_SYNCHRONIZATION_SCOPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_SYNCHRONIZATION_SCOPE enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The WDF_SYNCHRONIZATION_SCOPE enumeration type specifies how the framework will synchronize execution of an object's event callback functions.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_SYNCHRONIZATION_SCOPE { 
@@ -60,6 +70,9 @@ typedef enum _WDF_SYNCHRONIZATION_SCOPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WdfSynchronizationScopeInvalid
 
@@ -99,27 +112,34 @@ The framework does not synchronize the object's event callback functions, so the
 
 
 ## -remarks
+
+
 Drivers use the WDF_SYNCHRONIZATION_SCOPE enumeration type to specify the <b>SynchronizationScope</b> member of an object's <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure.
 
 You can specify a <b>SynchronizationScope</b> value for only the following objects:
-
+<ul>
+<li>
 Framework driver objects
 
+</li>
+<li>
 Framework device objects
 
+</li>
+<li>
 Framework queue objects
 
-The framework sets the <b>SynchronizationScope</b> value of framework driver objects to <b>WdfSynchronizationScopeNone</b>. It sets the <b>SynchronizationScope</b> value of framework device objects and framework queue objects to <b>WdfSynchronizationScopeInheritFromParent</b>.
+</li>
+</ul>The framework sets the <b>SynchronizationScope</b> value of framework driver objects to <b>WdfSynchronizationScopeNone</b>. It sets the <b>SynchronizationScope</b> value of framework device objects and framework queue objects to <b>WdfSynchronizationScopeInheritFromParent</b>.
 
 For more information about synchronization of a driver's event callback functions, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-</dt>
-</dl>
+
  
 
  

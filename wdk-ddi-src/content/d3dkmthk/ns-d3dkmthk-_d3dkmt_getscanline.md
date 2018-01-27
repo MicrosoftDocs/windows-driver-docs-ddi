@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: af06c31e-0c4f-4e2a-8d19-84c1c63d6bd0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_GETSCANLINE, D3DKMT_GETSCANLINE
+ms.keywords: display.d3dkmt_getscanline, d3dkmthk/D3DKMT_GETSCANLINE, D3DKMT_GETSCANLINE structure [Display Devices], OpenGL_Structs_1e99e2c0-2215-43ed-9dc4-657f30903637.xml, _D3DKMT_GETSCANLINE, D3DKMT_GETSCANLINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_GETSCANLINE
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_GETSCANLINE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_GETSCANLINE
 ---
 
 # _D3DKMT_GETSCANLINE structure
 
 
-
 ## -description
+
+
 The D3DKMT_GETSCANLINE structure contains information about a video present source's vertical blanking status.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_GETSCANLINE {
@@ -56,6 +66,9 @@ typedef struct _D3DKMT_GETSCANLINE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hAdapter
 
@@ -78,15 +91,16 @@ typedef struct _D3DKMT_GETSCANLINE {
 
 
 ## -remarks
+
+
 A video present path represents a connection between a video present source (view) and a video present target (output) on a graphics adapter. For more information about video present networks, paths, sources, and targets, see <a href="https://msdn.microsoft.com/62a92f00-b1da-41c2-99af-eef8140b064e">Introduction to Video Present Networks</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetscanline.md">D3DKMTGetScanLine</a>
-</dt>
-</dl>
+
  
 
  

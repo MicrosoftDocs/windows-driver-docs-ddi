@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: DE51CB88-E761-40DC-B437-7572CD95FB4A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_SUPL_CERT_ACTION, GNSS_SUPL_CERT_ACTION
+ms.keywords: GNSS_Supl_Cert_Inject, GNSS_SUPL_CERT_ACTION, gnssdriver/GNSS_Supl_Cert_Delete, gnssdriver/GNSS_SUPL_CERT_ACTION, GNSS_Supl_Cert_Purge, GNSS_Supl_Cert_Delete, gnssdriver/GNSS_Supl_Cert_Purge, gnssdriver/GNSS_Supl_Cert_Inject, sensors.gnss_supl_cert_action, GNSS_SUPL_CERT_ACTION enumeration [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GNSS_SUPL_CERT_ACTION
-req.alt-loc: gnssdriver.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	gnssdriver.h
+apiname: 
+-	GNSS_SUPL_CERT_ACTION
+product: Windows
+targetos: Windows
 req.typenames: GNSS_SUPL_CERT_ACTION
 ---
 
 # GNSS_SUPL_CERT_ACTION enumeration
 
 
-
 ## -description
+
+
 This enumeration indicates the action to take upon receipt of the SUPL certificate, which is defined by the <a href="..\gnssdriver\ns-gnssdriver-gnss_supl_cert_config.md">GNSS_SUPL_CERT_CONFIG</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -56,6 +66,9 @@ typedef enum  {
 
 ## -enum-fields
 
+
+
+
 ### -field GNSS_Supl_Cert_Inject
 
 Indicates that the certificate should be injected.
@@ -66,9 +79,7 @@ Indicates that the certificate should be injected.
 Indicates that the certificate specified by the <b>SuplCertName</b> member of the <a href="..\gnssdriver\ns-gnssdriver-gnss_supl_cert_config.md">GNSS_SUPL_CERT_CONFIG</a> structure should be deleted.
 
 
-### -field GNSS_Supl_Cert_Purge 
+### -field GNSS_Supl_Cert_Purge
 
 Indicates that all certificates previously injected into the GNSS driver should be deleted.
 
-
-## -remarks

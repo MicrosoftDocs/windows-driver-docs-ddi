@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 719cd6b3-4f48-4b26-95fe-6f5faac56c06
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_DDI_BLEND, D3D10_DDI_BLEND
+ms.keywords: D3D10_DDI_BLEND enumeration [Display Devices], D3D10_DDI_BLEND_ZERO, d3d10umddi/D3D10_DDI_BLEND_SRC_COLOR, D3D10_DDI_BLEND_INV_DEST_COLOR, D3D10_DDI_BLEND_SRC1_ALPHA, display.d3d10_ddi_blend, D3D10_DDI_BLEND_SRC_COLOR, d3d10umddi/D3D10_DDI_BLEND_INV_SRC1_ALPHA, D3D10_DDI_BLEND_ONE, D3D10_DDI_BLEND_INV_SRC1_COLOR, d3d10umddi/D3D10_DDI_BLEND_INVBLEND_FACTOR, d3d10umddi/D3D10_DDI_BLEND_SRC_ALPHA, d3d10umddi/D3D10_DDI_BLEND_BLEND_FACTOR, d3d10umddi/D3D10_DDI_BLEND_SRC1_ALPHA, d3d10umddi/D3D10_DDI_BLEND_INV_SRC_COLOR, D3D10_DDI_BLEND_INV_SRC1_ALPHA, D3D10_DDI_BLEND_INV_SRC_ALPHA, d3d10umddi/D3D10_DDI_BLEND_INV_DEST_ALPHA, d3d10umddi/D3D10_DDI_BLEND_SRC1_COLOR, d3d10umddi/D3D10_DDI_BLEND_ONE, D3D10_DDI_BLEND_SRC_ALPHA, d3d10umddi/D3D10_DDI_BLEND_DEST_COLOR, UMDisplayDriver_Dx10param_Structs_de092af6-e6a8-4772-af32-b92d2afcea79.xml, D3D10_DDI_BLEND_INV_SRC_COLOR, d3d10umddi/D3D10_DDI_BLEND_INV_SRC1_COLOR, D3D10_DDI_BLEND_SRC_ALPHASAT, D3D10_DDI_BLEND, d3d10umddi/D3D10_DDI_BLEND_INV_SRC_ALPHA, d3d10umddi/D3D10_DDI_BLEND_ZERO, D3D10_DDI_BLEND_DEST_ALPHA, D3D10_DDI_BLEND_SRC1_COLOR, d3d10umddi/D3D10_DDI_BLEND_INV_DEST_COLOR, d3d10umddi/D3D10_DDI_BLEND_SRC_ALPHASAT, D3D10_DDI_BLEND_BLEND_FACTOR, D3D10_DDI_BLEND_INVBLEND_FACTOR, D3D10_DDI_BLEND_INV_DEST_ALPHA, d3d10umddi/D3D10_DDI_BLEND, D3D10_DDI_BLEND_DEST_COLOR, d3d10umddi/D3D10_DDI_BLEND_DEST_ALPHA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10_DDI_BLEND
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10_DDI_BLEND
+product: Windows
+targetos: Windows
 req.typenames: D3D10_DDI_BLEND
 ---
 
 # D3D10_DDI_BLEND enumeration
 
 
-
 ## -description
+
+
 The D3D10_DDI_BLEND enumeration type contains values that identify blend modes in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createblendstate.md">CreateBlendState</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D10_DDI_BLEND { 
@@ -69,6 +79,9 @@ typedef enum D3D10_DDI_BLEND {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D10_DDI_BLEND_ZERO
 
@@ -160,15 +173,16 @@ Blend factor is the inversion of the alpha component of a pixel shader output re
 
 
 ## -remarks
+
+
 A <i>blend mode</i> is an algorithm that is used to determine how a texture is blended with the colors of the surface that the texture is applied to. A <i>blend factor</i> is a description of how each color component is blended in texture blending.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createblendstate.md">CreateBlendState</a>
-</dt>
-</dl>
+
  
 
  

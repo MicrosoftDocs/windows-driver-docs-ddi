@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 140561ce-e2ad-45be-976a-86fb1d0d1e87
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoRaiseHardError
+ms.keywords: k104_d723a2b6-2fdc-43d2-a7bc-ab356157a040.xml, ntddk/IoRaiseHardError, kernel.ioraiseharderror, IoRaiseHardError routine [Kernel-Mode Driver Architecture], IoRaiseHardError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoRaiseHardError
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlIoApcLte, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoRaiseHardError
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # IoRaiseHardError function
 
 
-
 ## -description
+
+
 The <b>IoRaiseHardError</b> routine causes a dialog box to appears that warns the user that a device I/O error has occurred, which might indicate that a physical device is failing.
 
 
-
 ## -syntax
+
 
 ````
 VOID IoRaiseHardError(
@@ -55,6 +65,9 @@ VOID IoRaiseHardError(
 
 
 ## -parameters
+
+
+
 
 ### -param Irp [in]
 
@@ -72,33 +85,44 @@ Pointer to the device object that represents the physical device on which the I/
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 Highest-level drivers, particularly file system drivers, call <b>IoRaiseHardError</b>.
+<div class="alert"><b>Warning</b>  Because 
+     <b>IoRaiseHardError</b>
+     
+      uses a normal kernel APC to create a user dialog box, a deadlock can occur if normal kernel APCs are disabled when a device error occurs. For example:</div><div> </div><ol>
+<li>
+An upper-level filter driver calls <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a> (which disables normal kernel APCs) and sends an I/O request to a file system driver. The filter driver waits on the completion of the request by the file system driver before the filter driver calls <a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a> (which reenables normal kernel APCs).
 
-An upper-level filter driver calls <a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a> (which disables normal kernel APCs) and sends an I/O request to a file system driver. The filter driver waits on the completion of the request by the file system driver before the filter driver calls <a href="..\ntddk\nf-ntddk-keleavecriticalregion.md">KeLeaveCriticalRegion</a> (which reenables normal kernel APCs).
-
+</li>
+<li>
 An error occurs on the file system, and the file system driver calls <b>IoRaiseHardError</b> to report the error to the user. The file system driver waits on the dialog box.
 
+</li>
+<li>
 Deadlock now exists: The normal kernel APC created by <b>IoRaiseHardError</b> to create the dialog box waits for normal kernel APCs to be enabled. The file system waits on the dialog box before it completes the I/O request. The filter driver waits on completion of the I/O request before it calls <b>KeLeaveCriticalRegion</b> (which reenables normal kernel APCs).
 
-The behavior of this routine is dependent of the current state of hard errors for the running thread. If hard errors have been disabled by calling <a href="..\ntddk\nf-ntddk-iosetthreadharderrormode.md">IoSetThreadHardErrorMode</a>, this routine completes the IRP specified by <i>Irp</i> without transferring any data into user buffers. In addition, no message is sent to notify the user of this failure. 
+</li>
+</ol>The behavior of this routine is dependent of the current state of hard errors for the running thread. If hard errors have been disabled by calling <a href="..\ntddk\nf-ntddk-iosetthreadharderrormode.md">IoSetThreadHardErrorMode</a>, this routine completes the IRP specified by <i>Irp</i> without transferring any data into user buffers. In addition, no message is sent to notify the user of this failure. 
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-iogetrelateddeviceobject.md">IoGetRelatedDeviceObject</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-iosetthreadharderrormode.md">IoSetThreadHardErrorMode</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
+
  
 
  

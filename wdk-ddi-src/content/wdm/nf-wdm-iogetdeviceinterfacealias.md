@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 667c9524-be12-4f02-b921-6067abfb1dde
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetDeviceInterfaceAlias
+ms.keywords: IoGetDeviceInterfaceAlias routine [Kernel-Mode Driver Architecture], kernel.iogetdeviceinterfacealias, wdm/IoGetDeviceInterfaceAlias, k104_e33a51e9-4576-4558-9967-9ea27467c326.xml, IoGetDeviceInterfaceAlias
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoGetDeviceInterfaceAlias
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoGetDeviceInterfaceAlias
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoGetDeviceInterfaceAlias function
 
 
-
 ## -description
+
+
 The <b>IoGetDeviceInterfaceAlias</b> routine returns the alias device interface of the specified device interface instance, if the alias exists.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS IoGetDeviceInterfaceAlias(
@@ -56,6 +66,9 @@ NTSTATUS IoGetDeviceInterfaceAlias(
 
 
 ## -parameters
+
+
+
 
 ### -param SymbolicLinkName [in]
 
@@ -73,21 +86,54 @@ Specifies a pointer to a <b>NULL</b> Unicode string. On successful return, <i>Al
 
 
 ## -returns
+
+
 <b>IoGetDeviceInterfaceAlias</b> returns STATUS_SUCCESS if the call was successful. Possible error return values are described following.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_NAME_NOT_FOUND</b></dt>
-</dl>Possibly indicates that there is no alias of the specified interface class.
+</dl>
+</td>
+<td width="60%">
+Possibly indicates that there is no alias of the specified interface class.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_OBJECT_PATH_NOT_FOUND</b></dt>
-</dl>Possibly indicates that there is no alias of the specified interface class.
+</dl>
+</td>
+<td width="60%">
+Possibly indicates that there is no alias of the specified interface class.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>Possibly indicates an invalid <i>SymbolicLinkName</i> or an invalid <i>AliasClassGuid</i>.
+</dl>
+</td>
+<td width="60%">
+Possibly indicates an invalid <i>SymbolicLinkName</i> or an invalid <i>AliasClassGuid</i>.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 Device interfaces are considered aliases if they are exposed by the same underlying device and have identical interface reference strings, but are of different interface classes.
 
 The <i>SymbolicLinkName</i> parameter specifies a device interface instance for a particular device, belonging to a particular interface class, with a particular reference string. <b>IoGetDeviceInterfaceAlias</b> returns another device interface instance for the same device and reference string, but of a different interface class, if it exists.
@@ -99,15 +145,13 @@ Two device interfaces with <b>NULL</b> reference strings are aliases if they are
 Callers of <b>IoGetDeviceInterfaceAlias</b> must be running at IRQL = PASSIVE_LEVEL in the context of a system thread.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
+
  
 
  

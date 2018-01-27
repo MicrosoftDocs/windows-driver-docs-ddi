@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1641C3A0-E6D9-4E30-9E3C-3C09A14F591F
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSFC_FibrePortNPIVAttributes, *PMSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes
+ms.keywords: PMSFC_FibrePortNPIVAttributes structure pointer [Storage Devices], storage.msfc_fibreportnpivattributes, MSFC_FibrePortNPIVAttributes structure [Storage Devices], npivwmi/PMSFC_FibrePortNPIVAttributes, _MSFC_FibrePortNPIVAttributes, PMSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes, npivwmi/MSFC_FibrePortNPIVAttributes, *PMSFC_FibrePortNPIVAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSFC_FibrePortNPIVAttributes
-req.alt-loc: npivwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PMSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	npivwmi.h
+apiname: 
+-	MSFC_FibrePortNPIVAttributes
+product: Windows
+targetos: Windows
+req.typenames: MSFC_FibrePortNPIVAttributes, *PMSFC_FibrePortNPIVAttributes
 ---
 
 # _MSFC_FibrePortNPIVAttributes structure
 
 
-
 ## -description
+
+
 The MSFC_FibrePortNPIVAttributes structure contains attribute information for the virtual ports on an adapter.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSFC_FibrePortNPIVAttributes {
@@ -56,6 +66,9 @@ typedef struct _MSFC_FibrePortNPIVAttributes {
 
 
 ## -struct-fields
+
+
+
 
 ### -field WWPN
 
@@ -77,15 +90,10 @@ The number of virtual ports on the adapter.
 An array of virtual ports. The array length is specified in the <b>NumberVirtualPorts</b> member.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh127624">MSFC_FibrePortNPIVAttributes WMI Class</a>
-</dt>
-</dl>
+
  
 
  

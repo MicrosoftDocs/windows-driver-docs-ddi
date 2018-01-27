@@ -7,8 +7,8 @@ old-location: netvista\ndisenumeratefiltermodules.htm
 old-project: netvista
 ms.assetid: cab7609e-cf87-46f6-af23-891e19ef1b80
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisEnumerateFilterModules
+ms.date: 1/18/2018
+ms.keywords: netvista.ndisenumeratefiltermodules, NdisEnumerateFilterModules function [Network Drivers Starting with Windows Vista], ndis/NdisEnumerateFilterModules, filter_ndis_functions_ref_3caad0fd-b579-4787-bebb-b1a93726cbf0.xml, NdisEnumerateFilterModules
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisEnumerateFilterModules
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_Filter_Driver_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisEnumerateFilterModules
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisEnumerateFilterModules function
 
 
-
 ## -description
+
+
 The 
   <b>NdisEnumerateFilterModules</b> function enumerates all the filters modules and filter intermediate driver
   instances in a filter stack.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisEnumerateFilterModules(
@@ -59,6 +70,9 @@ NDIS_STATUS NdisEnumerateFilterModules(
 
 
 ## -parameters
+
+
+
 
 ### -param NdisHandle [in]
 
@@ -110,27 +124,60 @@ A pointer to a caller-supplied variable where NDIS writes the total bytes that N
 
 
 ## -returns
+
+
 <b>NdisEnumerateFilterModules</b> returns one of the following status values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_SUCCESS</b></dt>
-</dl>The operation completed successfully.
+</dl>
+</td>
+<td width="60%">
+The operation completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_INVALID_PARAMETER</b></dt>
-</dl><b>NdisEnumerateFilterModules</b> failed because the 
+</dl>
+</td>
+<td width="60%">
+<b>NdisEnumerateFilterModules</b> failed because the 
        <i>NdisHandle</i> parameter was not a valid NDIS miniport adapter, protocol binding, or filter module
        handle.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_BUFFER_TOO_SHORT</b></dt>
-</dl><b>NdisEnumerateFilterModules</b> failed because the buffer that was supplied at the 
+</dl>
+</td>
+<td width="60%">
+<b>NdisEnumerateFilterModules</b> failed because the buffer that was supplied at the 
        <i>InterfaceBuffer</i> parameter was too short for NDIS to return all the information. If a partial
        result was written at 
        <i>InterfaceBuffer</i>, the value at the 
        <i>BytesWritten</i> parameter contains the length of the partial results.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 An NDIS miniport driver, protocol driver, or filter driver can call the 
     <b>NdisEnumerateFilterModules</b> function to enumerate all the filters in a filter stack.
 
@@ -143,18 +190,16 @@ An NDIS miniport driver, protocol driver, or filter driver can call the
     <b>NdisEnumerateFilterModules</b> returns the filter list in the following order: F3, M2, F2, F1.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\ns-ndis-_ndis_enum_filters.md">NDIS_ENUM_FILTERS</a>
-</dt>
-<dt>
+
 <a href="..\ndis\ns-ndis-_ndis_filter_interface.md">NDIS_FILTER_INTERFACE</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\ns-ndis-_ndis_enum_filters.md">NDIS_ENUM_FILTERS</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisEnumerateFilterModules function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisEnumerateFilterModules function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

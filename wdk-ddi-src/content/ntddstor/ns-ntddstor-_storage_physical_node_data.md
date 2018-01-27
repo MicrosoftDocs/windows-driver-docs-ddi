@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: F6C1EE86-FB1C-467D-9E03-B238CB132D1A
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_PHYSICAL_NODE_DATA, *PSTORAGE_PHYSICAL_NODE_DATA, STORAGE_PHYSICAL_NODE_DATA
+ms.keywords: STORAGE_PHYSICAL_NODE_DATA, PSTORAGE_PHYSICAL_NODE_DATA structure pointer [Storage Devices], _STORAGE_PHYSICAL_NODE_DATA, PSTORAGE_PHYSICAL_NODE_DATA, ntddstor/PSTORAGE_PHYSICAL_NODE_DATA, STORAGE_PHYSICAL_NODE_DATA structure [Storage Devices], storage.storage_physical_node_data, ntddstor/STORAGE_PHYSICAL_NODE_DATA, *PSTORAGE_PHYSICAL_NODE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_PHYSICAL_NODE_DATA
-req.alt-loc: Ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddstor.h
+apiname: 
+-	STORAGE_PHYSICAL_NODE_DATA
+product: Windows
+targetos: Windows
 req.typenames: *PSTORAGE_PHYSICAL_NODE_DATA, STORAGE_PHYSICAL_NODE_DATA
 ---
 
 # _STORAGE_PHYSICAL_NODE_DATA structure
 
 
-
 ## -description
+
+
 Specifies the physical device data of a storage node.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STORAGE_PHYSICAL_NODE_DATA {
@@ -60,6 +70,9 @@ typedef struct _STORAGE_PHYSICAL_NODE_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NodeId
 
@@ -96,9 +109,13 @@ The data length of the storage device in the storage node,  in units of kilobyte
 The data offset from the beginning of the data structure. The buffer contains an array of <a href="..\ntddstor\ns-ntddstor-_storage_physical_device_data.md">STORAGE_PHYSICAL_DEVICE_DATA</a>.
 
 
-### -field Reserved[3]
+### -field Reserved
+
+ 
+
+
+
+#### - Reserved[3]
 
 Specifies if the storage adapter is reserved.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 13a816f9-c41a-49f1-ac79-98106f4630d4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _FEATURE_DATA_DVD_RECORDABLE_WRITE, FEATURE_DATA_DVD_RECORDABLE_WRITE, *PFEATURE_DATA_DVD_RECORDABLE_WRITE
+ms.keywords: _FEATURE_DATA_DVD_RECORDABLE_WRITE, *PFEATURE_DATA_DVD_RECORDABLE_WRITE, PFEATURE_DATA_DVD_RECORDABLE_WRITE, FEATURE_DATA_DVD_RECORDABLE_WRITE, FEATURE_DATA_DVD_RECORDABLE_WRITE structure [Storage Devices], storage.feature_data_dvd_recordable_write, structs-CD-ROM_c7d92388-964e-4db2-803a-1a7c10c45cc0.xml, PFEATURE_DATA_DVD_RECORDABLE_WRITE structure pointer [Storage Devices], ntddmmc/PFEATURE_DATA_DVD_RECORDABLE_WRITE, ntddmmc/FEATURE_DATA_DVD_RECORDABLE_WRITE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FEATURE_DATA_DVD_RECORDABLE_WRITE
-req.alt-loc: ntddmmc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddmmc.h
+apiname: 
+-	FEATURE_DATA_DVD_RECORDABLE_WRITE
+product: Windows
+targetos: Windows
 req.typenames: FEATURE_DATA_DVD_RECORDABLE_WRITE, *PFEATURE_DATA_DVD_RECORDABLE_WRITE
 ---
 
 # _FEATURE_DATA_DVD_RECORDABLE_WRITE structure
 
 
-
 ## -description
+
+
 The FEATURE_DATA_DVD_RECORDABLE_WRITE structure holds information for the DVD-R/RW Write feature.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FEATURE_DATA_DVD_RECORDABLE_WRITE {
@@ -61,6 +71,9 @@ typedef struct _FEATURE_DATA_DVD_RECORDABLE_WRITE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -85,7 +98,9 @@ Indicates, when set to 1, that the device is capable of performing test writes. 
 ### -field RDualLayer
 
 
+
 ### -field Reserved02
+
 
 
 ### -field BufferUnderrunFree
@@ -104,18 +119,18 @@ Reserved.
 
 
 ## -remarks
+
+
 This structure holds data for the feature named "DVD-R Write" by the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. Devices that support this feature can write data to a write-once DVD media in "Disc-at-Once" mode.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
-</dt>
-</dl>
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
  
 
  

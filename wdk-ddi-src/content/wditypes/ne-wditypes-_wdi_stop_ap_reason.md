@@ -7,8 +7,8 @@ old-location: netvista\wdi_stop_ap_reason.htm
 old-project: netvista
 ms.assetid: F0CACC25-2F7B-431A-8AAB-CBE495178CC1
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WDI_STOP_AP_REASON, WDI_STOP_AP_REASON
+ms.date: 1/18/2018
+ms.keywords: netvista.wdi_stop_ap_reason, WDI_STOP_AP_REASON_AP_ACTIVE, wditypes/WDI_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE, wditypes/WDI_STOP_AP_REASON, WDI_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE, wditypes/WDI_STOP_AP_REASON_IHV_END, WDI_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE, WDI_STOP_AP_REASON enumeration [Network Drivers Starting with Windows Vista], WDI_STOP_AP_REASON_IHV_END, _WDI_STOP_AP_REASON, wditypes/WDI_STOP_AP_REASON_AP_ACTIVE, WDI_STOP_AP_REASON, WDI_STOP_AP_REASON_IHV_START, wditypes/WDI_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE, wditypes/WDI_STOP_AP_REASON_IHV_START
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WDI_STOP_AP_REASON
-req.alt-loc: wditypes.hpp
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wditypes.hpp
+apiname: 
+-	WDI_STOP_AP_REASON
+product: Windows
+targetos: Windows
 req.typenames: WDI_STOP_AP_REASON
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _WDI_STOP_AP_REASON enumeration
 
 
-
 ## -description
+
+
 The WDI_STOP_AP_REASON enumeration defines the reasons an adapter cannot sustain 802.11 Access Point (AP) functionality on any of the PHYs.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDI_STOP_AP_REASON { 
@@ -58,6 +68,9 @@ typedef enum _WDI_STOP_AP_REASON {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WDI_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE
 
@@ -83,5 +96,3 @@ The start value of possible IHV-specified reasons.
 
 The end value of possible IHV-specified reasons.
 
-
-## -remarks

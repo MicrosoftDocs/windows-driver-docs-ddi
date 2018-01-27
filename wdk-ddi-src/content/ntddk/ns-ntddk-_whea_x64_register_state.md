@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 690c900f-fba8-4712-9a05-bfbe633dd9cf
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_X64_REGISTER_STATE, WHEA_X64_REGISTER_STATE, *PWHEA_X64_REGISTER_STATE
+ms.keywords: whea.whea_x64_register_state, whearef_2602d89a-de68-4dd9-ba4b-bb42fc0f258b.xml, WHEA_X64_REGISTER_STATE, ntddk/WHEA_X64_REGISTER_STATE, *PWHEA_X64_REGISTER_STATE, PWHEA_X64_REGISTER_STATE structure pointer [WHEA Drivers and Applications], PWHEA_X64_REGISTER_STATE, ntddk/PWHEA_X64_REGISTER_STATE, _WHEA_X64_REGISTER_STATE, WHEA_X64_REGISTER_STATE structure [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_X64_REGISTER_STATE
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_X64_REGISTER_STATE
+product: Windows
+targetos: Windows
 req.typenames: WHEA_X64_REGISTER_STATE, *PWHEA_X64_REGISTER_STATE
 ---
 
 # _WHEA_X64_REGISTER_STATE structure
 
 
-
 ## -description
+
+
 The WHEA_X64_REGISTER_STATE structure describes the state of an x64 processor's registers.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WHEA_X64_REGISTER_STATE {
@@ -87,6 +97,9 @@ typedef struct _WHEA_X64_REGISTER_STATE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Rax
 
@@ -246,7 +259,6 @@ The control register 8.
 ### -field Gdtr
 
 A WHEA128A structure that contains the state of the global descriptor table register. The WHEA128A structure describes a 128-bit value and is defined as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -261,19 +273,6 @@ A WHEA128A structure that contains the state of the global descriptor table regi
 </tr>
 </table></span></div>
 
-
-
-### -field Low
-
-The low order 64 bits of the 128-bit value.
-
-
-### -field High
-
-The high order 64 bits of the 128-bit value.
-
-</dd>
-</dl>
 
 ### -field Idtr
 
@@ -290,16 +289,27 @@ The local descriptor table register.
 The task register.
 
 
+##### - Gdtr.Low
+
+The low order 64 bits of the 128-bit value.
+
+
+##### - Gdtr.High
+
+The high order 64 bits of the 128-bit value.
+
+
 ## -remarks
+
+
 If the <b>RegisterContextType</b> member of a <a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a> structure is set to XPF_CONTEXT_INFO_64BITCONTEXT, the <b>RegisterData</b> member of that structure contains a WHEA_X64_REGISTER_STATE structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a>
-</dt>
-</dl>
+
  
 
  

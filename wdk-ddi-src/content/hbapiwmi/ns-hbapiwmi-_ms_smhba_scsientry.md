@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 38779458-a561-4048-86d8-905e4e50095f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MS_SMHBA_SCSIENTRY, MS_SMHBA_SCSIENTRY, *PMS_SMHBA_SCSIENTRY
+ms.keywords: PMS_SMHBA_SCSIENTRY structure pointer [Storage Devices], structs-Fibre_95d0f020-6910-4764-9234-181b525abf5b.xml, storage.ms_smhba_scsientry, _MS_SMHBA_SCSIENTRY, hbapiwmi/PMS_SMHBA_SCSIENTRY, hbapiwmi/MS_SMHBA_SCSIENTRY, MS_SMHBA_SCSIENTRY, *PMS_SMHBA_SCSIENTRY, MS_SMHBA_SCSIENTRY structure [Storage Devices], PMS_SMHBA_SCSIENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MS_SMHBA_SCSIENTRY
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	MS_SMHBA_SCSIENTRY
+product: Windows
+targetos: Windows
 req.typenames: MS_SMHBA_SCSIENTRY, *PMS_SMHBA_SCSIENTRY
 ---
 
 # _MS_SMHBA_SCSIENTRY structure
 
 
-
 ## -description
+
+
 The MS_SMHBA_SCSIENTRY structure is used to report target LUN mapping information.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MS_SMHBA_SCSIENTRY {
@@ -55,6 +65,9 @@ typedef struct _MS_SMHBA_SCSIENTRY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PortLun
 
@@ -70,5 +83,3 @@ The logical unit descriptor for the device that the operating system derives fro
 
 A structure of type HBAScsiID that contains information that uniquely identifies a logical unit to the operating system.
 
-
-## -remarks

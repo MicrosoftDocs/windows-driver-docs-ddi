@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3a4b55b1-977d-43fb-9968-7a734e04b21b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSiSCSI_BootConfiguration, *PMSiSCSI_BootConfiguration, MSiSCSI_BootConfiguration
+ms.keywords: _MSiSCSI_BootConfiguration, MSiSCSI_BootConfiguration structure [Storage Devices], PMSiSCSI_BootConfiguration structure pointer [Storage Devices], structs-iSCSI_eb9ca716-5f5e-4bec-a4e0-e00d5a93b329.xml, iscsicfg/MSiSCSI_BootConfiguration, storage.msiscsi_bootconfiguration, MSiSCSI_BootConfiguration, PMSiSCSI_BootConfiguration, *PMSiSCSI_BootConfiguration, iscsicfg/PMSiSCSI_BootConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSiSCSI_BootConfiguration
-req.alt-loc: iscsicfg.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PMSiSCSI_BootConfiguration, MSiSCSI_BootConfiguration
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsicfg.h
+apiname: 
+-	MSiSCSI_BootConfiguration
+product: Windows
+targetos: Windows
+req.typenames: MSiSCSI_BootConfiguration, *PMSiSCSI_BootConfiguration
 ---
 
 # _MSiSCSI_BootConfiguration structure
 
 
-
 ## -description
+
+
 The MSiSCSI_BootConfiguration structure describes how the boot device is configured. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSiSCSI_BootConfiguration {
@@ -62,6 +72,9 @@ typedef struct _MSiSCSI_BootConfiguration {
 
 
 ## -struct-fields
+
+
+
 
 ### -field LUN
 
@@ -114,24 +127,22 @@ A variable length array of characters that specifies the user name to use with t
 
 
 ## -remarks
+
+
 The WMI tool suite automatically generates a declaration of the MSiSCSI_BootConfiguration structure when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562979">MSiSCSI_BootConfiguration WMI Class</a> in <i>Config.mof</i>.It is optional that you implement this class.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
-</dt>
-<dt>
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562979">MSiSCSI_BootConfiguration WMI Class</a>
-</dt>
-<dt>
+
+<a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
-</dt>
-</dl>
+
+<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
+
  
 
  

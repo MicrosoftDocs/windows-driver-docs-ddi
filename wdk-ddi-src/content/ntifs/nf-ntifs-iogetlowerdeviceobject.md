@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2446dfee-baa4-4f7b-a5a0-ff13bf45ce4b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoGetLowerDeviceObject
+ms.keywords: ntifs/IoGetLowerDeviceObject, ifsk.iogetlowerdeviceobject, IoGetLowerDeviceObject routine [Installable File System Drivers], IoGetLowerDeviceObject, ioref_0739069f-c14d-4b35-accd-8d65954bbc3d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Update Rollup for Window
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoGetLowerDeviceObject
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoGetLowerDeviceObject
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # IoGetLowerDeviceObject function
 
 
-
 ## -description
+
+
 The <b>IoGetLowerDeviceObject</b> routine returns a pointer to the next-lower-level device object on the driver stack.
 
 
-
 ## -syntax
+
 
 ````
 PDEVICE_OBJECT IoGetLowerDeviceObject(
@@ -54,43 +64,54 @@ PDEVICE_OBJECT IoGetLowerDeviceObject(
 
 ## -parameters
 
+
+
+
 ### -param DeviceObject [in]
 
 A pointer to the device object in the stack for which the next-lower-level device object is to be returned. 
 
 
 ## -returns
+
+
 <b>IoGetLowerDeviceObject</b> returns a pointer to the next-lower-level device object on the driver stack. 
 
 
+
 ## -remarks
+
+
 Given a pointer to a device object in a file system or device driver stack, <b>IoGetLowerDeviceObject</b> returns a pointer to the next-lower-level device object on the stack.
 
 <b>IoGetLowerDeviceObject</b> returns <b>NULL</b> if: 
-
+<ul>
+<li>
 The next-lower-level driver is not loaded. 
 
+</li>
+<li>
 The next-lower-level driver is currently being unloaded, removed, or deleted. 
 
+</li>
+<li>
 The device object pointed to by <i>DeviceObject</i> is the lowest device object in the driver stack. 
 
-A file system filter driver typically uses <b>IoGetLowerDeviceObject</b> to determine whether it is already attached to the filter driver stack that is chained above a given file system device object. First, the filter calls <a href="..\ntifs\nf-ntifs-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a> to get a pointer to the topmost device object in the stack. Then it calls <b>IoGetLowerDeviceObject</b> repeatedly to walk the driver stack, checking each device object to see whether the object belongs to the filter driver. 
+</li>
+</ul>A file system filter driver typically uses <b>IoGetLowerDeviceObject</b> to determine whether it is already attached to the filter driver stack that is chained above a given file system device object. First, the filter calls <a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a> to get a pointer to the topmost device object in the stack. Then it calls <b>IoGetLowerDeviceObject</b> repeatedly to walk the driver stack, checking each device object to see whether the object belongs to the filter driver. 
 
 <b>IoGetLowerDeviceObject</b> increments the reference count on the next-lower-level device object. Thus every successful call to <b>IoGetLowerDeviceObject</b> must be matched by a subsequent call <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
+<a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
+
 <a href="..\ntifs\nf-ntifs-iogetattacheddevice.md">IoGetAttachedDevice</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-</dt>
-</dl>
+
  
 
  

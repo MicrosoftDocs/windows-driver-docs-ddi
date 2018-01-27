@@ -7,8 +7,8 @@ old-location: netvista\rilmessage.htm
 old-project: netvista
 ms.assetid: b776b060-79bf-4848-807d-1999d38075ad
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILMESSAGE, RILMESSAGE, *LPRILMESSAGE
+ms.date: 1/18/2018
+ms.keywords: *LPRILMESSAGE, ntddrilapitypes/RILMESSAGE, RILMESSAGE structure [Network Drivers Starting with Windows Vista], RILMESSAGE, netvista.rilmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILMESSAGE
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILMESSAGE
+product: Windows
+targetos: Windows
 req.typenames: RILMESSAGE, *LPRILMESSAGE
 ---
 
 # RILMESSAGE structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILMESSAGE {
@@ -67,46 +77,96 @@ typedef struct _RILMESSAGE {
 
 ## -struct-fields
 
-### -field cbSize
 
-
-### -field dwParams
-
-
-### -field raSvcCtrAddress
-
-
-### -field dwType
-
-
-### -field dwFlags
-
-
-### -field RILMSGUNION
 
 
 ### -field msgUnion
 
 
-### -field unMsgInDeliver
+
+### -field msgUnion.unMsgInDeliver
+
+ 
 
 
-### -field unMsgInStatus
+### -field msgUnion.unMsgInStatus
+
+ 
 
 
-### -field unMsgOutSubmit
+### -field msgUnion.unMsgOutSubmit
+
+ 
 
 
-### -field unMsgBcGeneral
+### -field msgUnion.unMsgBcGeneral
+
+ 
 
 
-### -field unMsgIS637InStatus
+### -field msgUnion.unMsgIS637InStatus
+
+ 
 
 
-### -field unMsgCDMAInDeliver
+### -field msgUnion.unMsgCDMAInDeliver
+
+ 
 
 
-### -field unMsgCDMAOutSubmit
+### -field msgUnion.unMsgCDMAOutSubmit
+
+ 
 
 
-## -remarks
+### -field RILMSGUNION
+
+
+
+### -field cbSize
+
+
+
+### -field dwParams
+
+
+
+### -field raSvcCtrAddress
+
+
+
+### -field dwType
+
+
+
+### -field dwFlags
+
+
+
+#### - unMsgIS637InStatus
+
+
+
+#### - unMsgBcGeneral
+
+
+
+#### - unMsgInDeliver
+
+
+
+#### - unMsgInStatus
+
+
+
+#### - unMsgCDMAInDeliver
+
+
+
+#### - unMsgOutSubmit
+
+
+
+#### - unMsgCDMAOutSubmit
+
+

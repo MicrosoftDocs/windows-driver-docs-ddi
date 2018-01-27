@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 32C96259-3A35-4BD3-96A4-A9F2A5FDAB99
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _IRB_REQ_SEND_PHY_PACKET, IRB_REQ_SEND_PHY_PACKET
+ms.keywords: 1394/IRB_REQ_SEND_PHY_PACKET, _IRB_REQ_SEND_PHY_PACKET, IRB_REQ_SEND_PHY_PACKET, IRB_REQ_SEND_PHY_PACKET structure [Buses], IEEE.irb_req_send_phy_packet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IRB_REQ_SEND_PHY_PACKET
-req.alt-loc: 1394.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1394.h
+apiname: 
+-	IRB_REQ_SEND_PHY_PACKET
+product: Windows
+targetos: Windows
 req.typenames: IRB_REQ_SEND_PHY_PACKET
 ---
 
 # _IRB_REQ_SEND_PHY_PACKET structure
 
 
-
 ## -description
+
+
 This structure contains the fields necessary to carry out a SendPhyPacket request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _IRB_REQ_SEND_PHY_PACKET {
@@ -55,6 +65,9 @@ typedef struct _IRB_REQ_SEND_PHY_PACKET {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Flags
 
@@ -72,4 +85,8 @@ Specifies the 64-bit PHY packet that is sent to the 1394 bus.
 
 
 ## -remarks
-If successful, the new 1394 bus driver (1394ohci.sys) sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS. If <b>u.SendPhyPacket.GenerationCount</b> does not match the current bus generation count, the new 1394 bus driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_INVALID_GENERATION</p>
+
+
+If successful, the new 1394 bus driver (1394ohci.sys) sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS. If <b>u.SendPhyPacket.GenerationCount</b> does not match the current bus generation count, the new 1394 bus driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_INVALID_GENERATION
+
+

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f3fdb436-53b6-4fb3-8746-1f852f7d928a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DISK_SIGNATURE, DISK_SIGNATURE, *PDISK_SIGNATURE
+ms.keywords: storage.disk_signature, _DISK_SIGNATURE, ntddk/PDISK_SIGNATURE, structs-disk_6ea56db7-c886-43f2-b9ed-24b0f7e1cb6e.xml, PDISK_SIGNATURE, ntddk/DISK_SIGNATURE, *PDISK_SIGNATURE, PDISK_SIGNATURE structure pointer [Storage Devices], DISK_SIGNATURE structure [Storage Devices], DISK_SIGNATURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This structure is only available on Windows XP and la
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DISK_SIGNATURE
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: DISK_SIGNATURE, *PDISK_SIGNATURE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	DISK_SIGNATURE
+product: Windows
+targetos: Windows
+req.typenames: *PDISK_SIGNATURE, DISK_SIGNATURE
 ---
 
 # _DISK_SIGNATURE structure
 
 
-
 ## -description
+
+
 DISK_SIGNATURE contains the disk signature information for a disk's partition table.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DISK_SIGNATURE {
@@ -63,45 +73,41 @@ typedef struct _DISK_SIGNATURE {
 
 ## -struct-fields
 
-### -field PartitionStyle
 
-Specifies the type of partition.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a> for a description of the possible values.
 
 
 ### -field Mbr
 
 
-### -field Signature
+
+### -field Mbr.Signature
 
 Specifies the signature value, which uniquely identifies the disk. The <b>Mbr</b> member of the union is used to specify the disk signature data for a disk formatted with a Master Boot Record (MBR) format partition table. This member is valid when <b>PartitionStyle</b> is PARTITION_STYLE_MBR. 
 
 
-### -field CheckSum
+### -field Mbr.CheckSum
 
 Specifies the checksum for the master boot record. The <b>Mbr</b> member of the union is used to specify the disk signature data for a disk formatted with a Master Boot Record (MBR) format partition table. This member is valid when <b>PartitionStyle</b> is PARTITION_STYLE_MBR. 
 
-</dd>
-</dl>
 
 ### -field Gpt
 
 
-### -field DiskId
+
+### -field Gpt.DiskId
 
 Specifies the GUID that uniquely identifies the disk. The <b>Gpt</b> member of the union is used to specify the disk signature data for a disk that is formatted with a GUID Partition Table (GPT) format partition table. The GUID data type is described on the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565392">Using GUIDs in Drivers</a> reference page. This member is valid when <b>PartitionStyle</b> is PARTITION_STYLE_GPT. 
 
-</dd>
-</dl>
 
-## -remarks
+### -field PartitionStyle
+
+Specifies the type of partition.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a> for a description of the possible values.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-ioreaddisksignature.md">IoReadDiskSignature</a>
-</dt>
-</dl>
+
  
 
  

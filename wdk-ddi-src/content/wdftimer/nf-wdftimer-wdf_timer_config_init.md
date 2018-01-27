@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2bf613ff-e178-4a33-a1ae-ea6d4bb78d0a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_TIMER_CONFIG_INIT
+ms.keywords: wdf.wdf_timer_config_init, WDF_TIMER_CONFIG_INIT function, DFTimerObjectRef_aed045cc-b5e1-4e47-8f6b-41d6b858c9f2.xml, kmdf.wdf_timer_config_init, wdftimer/WDF_TIMER_CONFIG_INIT, WDF_TIMER_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_TIMER_CONFIG_INIT
-req.alt-loc: None,None.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	None
+-	None.dll
+apiname: 
+-	WDF_TIMER_CONFIG_INIT
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WDF_TIMER_CONFIG_INIT function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_TIMER_CONFIG_INIT</b> function initializes a <a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a> structure for a timer that will use a single due time.
 
 
-
 ## -syntax
+
 
 ````
 VOID WDF_TIMER_CONFIG_INIT(
@@ -57,6 +68,9 @@ VOID WDF_TIMER_CONFIG_INIT(
 
 
 ## -parameters
+
+
+
 
 ### -param Config [in]
 
@@ -69,27 +83,27 @@ A pointer to a driver-supplied <a href="https://msdn.microsoft.com/abe15fd9-620e
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The <b>WDF_TIMER_CONFIG_INIT</b> function zeros the specified <a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a> structure. Then it sets the structure's <b>Size</b> member, stores the <i>EvtTimerFunc</i> pointer, sets the <b>Period</b> member and the <b>TolerableDelay</b> member to zero, and sets the <b>AutomaticSerialization</b> member to <b>TRUE</b>. 
 
-For a code example that uses <b>WDF_TIMER_CONFIG_INIT</b>, see <a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a>
-</dt>
-<dt>
-<a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a>
-</dt>
-<dt>
+
 <a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init_periodic.md">WDF_TIMER_CONFIG_INIT_PERIODIC</a>
-</dt>
-</dl>
+
+<a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a>
+
  
 
  

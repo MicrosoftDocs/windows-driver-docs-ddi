@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6f450117-9bd2-4021-b8f1-393db5784136
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsMgmtRegisterManagedClient
+ms.keywords: ClfsMgmtRegisterManagedClient routine [Kernel-Mode Driver Architecture], wdm/ClfsMgmtRegisterManagedClient, ClfsMgmtRegisterManagedClient, kernel.clfsmgmtregistermanagedclient, Clfs_management_9cd62567-e8c0-4a27-a3fd-153f0cdc9516.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ClfsMgmtRegisterManagedClient
-req.alt-loc: Clfs.sys,Ext-MS-Win-fs-clfs-l1-1-0.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Clfs.sys
+-	Ext-MS-Win-fs-clfs-l1-1-0.dll
+apiname: 
+-	ClfsMgmtRegisterManagedClient
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ClfsMgmtRegisterManagedClient function
 
 
-
 ## -description
+
+
 The <b>ClfsMgmtRegisterManagedClient</b> routine creates a client that will manage a CLFS log.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ClfsMgmtRegisterManagedClient(
@@ -57,6 +68,9 @@ NTSTATUS ClfsMgmtRegisterManagedClient(
 
 ## -parameters
 
+
+
+
 ### -param LogFile [in]
 
 A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents the CLFS log stream that the client created by <b>ClfsMgmtRegisterManagedClient</b> will manage.
@@ -67,32 +81,79 @@ A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> struc
 An instance of the <a href="..\wdm\ns-wdm-_clfs_mgmt_client_registration.md">CLFS_MGMT_CLIENT_REGISTRATION</a> structure that contains the functions that will be used to manage the log.
 
 
-### -param Client [out]
+### -param ClientCookie
+
+TBD
+
+
+
+#### - Client [out]
 
 A pointer to the client.
 
 
 ## -returns
+
+
 The <b>ClfsMgmtRegisterManagedClient</b> routine returns one of the following NTSTATUS values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>A client has been created to manage the log.
+</dl>
+</td>
+<td width="60%">
+A client has been created to manage the log.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>CLFS management was not able to create a client to manage the log. 
+</dl>
+</td>
+<td width="60%">
+CLFS management was not able to create a client to manage the log. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>There is insufficient memory to complete the operation.
+</dl>
+</td>
+<td width="60%">
+There is insufficient memory to complete the operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>An input parameter is invalid.
+</dl>
+</td>
+<td width="60%">
+An input parameter is invalid.
 
- 
+</td>
+</tr>
+</table> 
 
 This routine might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS Values</a>.
 
 
+
 ## -remarks
+
+
 The <i>Client</i> parameter that  is provided by the <b>ClfsMgmtRegisterManagedClient</b> routine is a required parameter for other CLFS management functions. You should store this value for later use.
 
 A client application must be ready for its callback routine to be called as soon as it calls the <b>ClfsMgmtRegisterManagedClient</b> routine.
@@ -100,15 +161,13 @@ A client application must be ready for its callback routine to be called as soon
 More than one client can register with a log stream.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_clfs_mgmt_client_registration.md">CLFS_MGMT_CLIENT_REGISTRATION</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_clfs_mgmt_client_registration.md">CLFS_MGMT_CLIENT_REGISTRATION</a>
+
  
 
  

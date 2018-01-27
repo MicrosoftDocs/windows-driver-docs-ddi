@@ -7,8 +7,8 @@ old-location: netvista\wwan_set_context.htm
 old-project: netvista
 ms.assetid: 00772a37-ef1b-446b-b7bd-1a6aa27d1dad
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WWAN_SET_CONTEXT, WWAN_SET_CONTEXT, *PWWAN_SET_CONTEXT
+ms.date: 1/18/2018
+ms.keywords: *PWWAN_SET_CONTEXT, WwanRef_08361ced-712a-464d-b374-7b18a096b8e5.xml, PWWAN_SET_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_SET_CONTEXT, WWAN_SET_CONTEXT, PWWAN_SET_CONTEXT, _WWAN_SET_CONTEXT, netvista.wwan_set_context, WWAN_SET_CONTEXT structure [Network Drivers Starting with Windows Vista], wwan/WWAN_SET_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WWAN_SET_CONTEXT
-req.alt-loc: wwan.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: WWAN_SET_CONTEXT, *PWWAN_SET_CONTEXT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wwan.h
+apiname: 
+-	WWAN_SET_CONTEXT
+product: Windows
+targetos: Windows
+req.typenames: *PWWAN_SET_CONTEXT, WWAN_SET_CONTEXT
 req.product: Windows 10 or later.
 ---
 
 # _WWAN_SET_CONTEXT structure
 
 
-
 ## -description
+
+
 The WWAN_SET_CONTEXT structure represents a provisioned context with a network provider
   identification that is supported by the MB device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WWAN_SET_CONTEXT {
@@ -62,6 +72,9 @@ typedef struct _WWAN_SET_CONTEXT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ContextId
 
@@ -124,5 +137,3 @@ A NULL-terminated string that represents the network provider identification for
      <i>query</i> operations when a Subscriber Identity Module (SIM card) with this home provider ID is in the
      device.
 
-
-## -remarks

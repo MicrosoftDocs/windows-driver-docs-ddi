@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 16582fce-179a-4a99-9e4c-6f7ca1d3ddef
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _FEATURE_DATA_WRITE_PROTECT, *PFEATURE_DATA_WRITE_PROTECT, FEATURE_DATA_WRITE_PROTECT
+ms.keywords: PFEATURE_DATA_WRITE_PROTECT, ntddmmc/PFEATURE_DATA_WRITE_PROTECT, FEATURE_DATA_WRITE_PROTECT, storage.feature_data_write_protect, structs-CD-ROM_67c6f24f-271e-4452-8b5f-fc6719c1d291.xml, FEATURE_DATA_WRITE_PROTECT structure [Storage Devices], *PFEATURE_DATA_WRITE_PROTECT, ntddmmc/FEATURE_DATA_WRITE_PROTECT, PFEATURE_DATA_WRITE_PROTECT structure pointer [Storage Devices], _FEATURE_DATA_WRITE_PROTECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FEATURE_DATA_WRITE_PROTECT
-req.alt-loc: ntddmmc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddmmc.h
+apiname: 
+-	FEATURE_DATA_WRITE_PROTECT
+product: Windows
+targetos: Windows
 req.typenames: *PFEATURE_DATA_WRITE_PROTECT, FEATURE_DATA_WRITE_PROTECT
 ---
 
 # _FEATURE_DATA_WRITE_PROTECT structure
 
 
-
 ## -description
+
+
 The FEATURE_DATA_WRITE_PROTECT structure contains information about the Write Protect feature. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FEATURE_DATA_WRITE_PROTECT {
@@ -59,6 +69,9 @@ typedef struct _FEATURE_DATA_WRITE_PROTECT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Header
 
@@ -78,10 +91,13 @@ Indicates, when set to 1, that the device supports the persistent write protect 
 ### -field WriteInhibitDCB
 
 
+
 ### -field DiscWriteProtectPAC
 
 
+
 ### -field Reserved01
+
 
 
 ### -field Reserved2
@@ -90,18 +106,18 @@ Reserved.
 
 
 ## -remarks
+
+
 This structure holds data for the feature named "Write Protect" by the <i>MMC-3 </i>specification. Devices that support this feature allow the initiator to change the write-protection state of the media programmatically. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
-</dt>
-</dl>
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
  
 
  

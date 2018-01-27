@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8f388c0e-41ee-40e4-b633-687eeff74a0a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PROCESS_MITIGATION_CHILD_PROCESS_POLICY, *PPROCESS_MITIGATION_CHILD_PROCESS_POLICY, PROCESS_MITIGATION_CHILD_PROCESS_POLICY
+ms.keywords: *PPROCESS_MITIGATION_CHILD_PROCESS_POLICY, PROCESS_MITIGATION_CHILD_PROCESS_POLICY, _PROCESS_MITIGATION_CHILD_PROCESS_POLICY, PROCESS_MITIGATION_CHILD_PROCESS_POLICY structure [Kernel-Mode Driver Architecture], kernel.process_mitigation_child_process_policy, ntddk/PROCESS_MITIGATION_CHILD_PROCESS_POLICY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PROCESS_MITIGATION_CHILD_PROCESS_POLICY
-req.alt-loc: Ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PPROCESS_MITIGATION_CHILD_PROCESS_POLICY, PROCESS_MITIGATION_CHILD_PROCESS_POLICY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddk.h
+apiname: 
+-	PROCESS_MITIGATION_CHILD_PROCESS_POLICY
+product: Windows
+targetos: Windows
+req.typenames: PROCESS_MITIGATION_CHILD_PROCESS_POLICY, *PPROCESS_MITIGATION_CHILD_PROCESS_POLICY
 ---
 
 # _PROCESS_MITIGATION_CHILD_PROCESS_POLICY structure
 
 
-
 ## -description
+
+
 Stores policy information about creating child processes.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PROCESS_MITIGATION_CHILD_PROCESS_POLICY {
@@ -61,34 +71,39 @@ typedef struct _PROCESS_MITIGATION_CHILD_PROCESS_POLICY {
 
 ## -struct-fields
 
+
+
+
 ### -field DUMMYUNIONNAME
 
 
-### -field DUMMYSTRUCTNAME
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
 
-### -field NoChildProcessCreation
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.NoChildProcessCreation
 
 If set, the process cannot create child processes.
 
 
-### -field AuditNoChildProcessCreation
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.AuditNoChildProcessCreation
 
 If set, causes audit events to be generated when child processes are created by the process. If both <b>NoChildProcessCreation</b> and <b>AuditNoChildProcessCreation</b> are set, <b>NoChildProcessCreation</b> takes precedence over audit setting.
 
 
-### -field AllowSecureProcessCreation
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.AllowSecureProcessCreation
 
 Denies creation of child processes unless the child process is a secure process and if creation was previously blocked. It allows a process to spawn a child process on behalf of another process that cannot itself create child processes. See PROCESS_CREATION_CHILD_PROCESS_OVERRIDE in <a href="https://msdn.microsoft.com/5fc3e04f-9b2a-440c-a9aa-d78d9b25b341">UpdateProcThreadAttribute</a>.
 
 
-### -field ReservedFlags
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
 
 Reserved.
 
-</dd>
-</dl>
-</dd>
-</dl>
 
-## -remarks
+### -field DUMMYUNIONNAME.Flags
+
+ 
+
+

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 897C74A3-041D-487E-8891-7161B76ABAA1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: POPULATE_TOKEN_HEADER, POPULATE_TOKEN_HEADER, *PPOPULATE_TOKEN_HEADER
+ms.keywords: scsi/PPOPULATE_TOKEN_HEADER, POPULATE_TOKEN_HEADER structure [Storage Devices], PPOPULATE_TOKEN_HEADER structure pointer [Storage Devices], PPOPULATE_TOKEN_HEADER, scsi/POPULATE_TOKEN_HEADER, POPULATE_TOKEN_HEADER, *PPOPULATE_TOKEN_HEADER, storage.populate_token_header
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: POPULATE_TOKEN_HEADER
-req.alt-loc: scsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: POPULATE_TOKEN_HEADER, *PPOPULATE_TOKEN_HEADER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	scsi.h
+apiname: 
+-	POPULATE_TOKEN_HEADER
+product: Windows
+targetos: Windows
+req.typenames: *PPOPULATE_TOKEN_HEADER, POPULATE_TOKEN_HEADER
 req.product: Windows 10 or later.
 ---
 
 # POPULATE_TOKEN_HEADER structure
 
 
-
 ## -description
+
+
 A populate token parameter list starts with a <b>POPULATE_TOKEN_HEADER</b> structure. This is the header for the parameters in a command data block (CDB) of the  POPULATE TOKEN command.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _POPULATE_TOKEN_HEADER {
@@ -61,6 +71,9 @@ typedef struct _POPULATE_TOKEN_HEADER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PopulateTokenDataLength
 
@@ -103,17 +116,18 @@ An array of <a href="..\scsi\ns-scsi-block_device_range_descriptor.md">BLOCK_DEV
 
 
 ## -remarks
+
+
 The <b>POPULATE_TOKEN_HEADER</b> structure contains a series of <a href="..\scsi\ns-scsi-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures which describe the token ROD.
 
 All multibyte values are in big endian format. Prior to setting, these values must be converted from the endian format of the current platform.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\scsi\ns-scsi-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

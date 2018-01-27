@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 3C08FE5D-1385-4FE3-98C9-9FC530C6C755
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_FIXDATA_ACCURACY, *PGNSS_FIXDATA_ACCURACY, GNSS_FIXDATA_ACCURACY
+ms.keywords: GNSS_FIXDATA_ACCURACY, PGNSS_FIXDATA_ACCURACY structure pointer [Sensor Devices], GNSS_FIXDATA_ACCURACY structure [Sensor Devices], gnssdriver/PGNSS_FIXDATA_ACCURACY, gnssdriver/GNSS_FIXDATA_ACCURACY, PGNSS_FIXDATA_ACCURACY, sensors.gnss_fixdata_accuracy, *PGNSS_FIXDATA_ACCURACY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GNSS_FIXDATA_ACCURACY
-req.alt-loc: gnssdriver.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PGNSS_FIXDATA_ACCURACY, GNSS_FIXDATA_ACCURACY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	gnssdriver.h
+apiname: 
+-	GNSS_FIXDATA_ACCURACY
+product: Windows
+targetos: Windows
+req.typenames: GNSS_FIXDATA_ACCURACY, *PGNSS_FIXDATA_ACCURACY
 ---
 
 # GNSS_FIXDATA_ACCURACY structure
 
 
-
 ## -description
+
+
 This structure defines the accuracy details of a fix.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -68,6 +78,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -150,5 +163,3 @@ Horizontal dilution of precision (HDOP).
 
 Vertical dilution of precision (VDOP).
 
-
-## -remarks

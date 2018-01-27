@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: af182cd5-23b5-4d5b-b3d4-ec65ec087d0b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoWithinStackLimits
+ms.keywords: k104_631648cb-6ba2-47b1-8745-e6314e17be30.xml, IoWithinStackLimits routine [Kernel-Mode Driver Architecture], wdm/IoWithinStackLimits, IoWithinStackLimits, kernel.iowithinstacklimits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available on Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoWithinStackLimits
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoWithinStackLimits
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoWithinStackLimits function
 
 
-
 ## -description
+
+
 The <b>IoWithinStackLimits</b> routine determines whether a region of memory is within the stack limit of the current thread.
 
 
-
 ## -syntax
+
 
 ````
 LOGICAL IoWithinStackLimits(
@@ -55,6 +65,9 @@ LOGICAL IoWithinStackLimits(
 
 
 ## -parameters
+
+
+
 
 ### -param RegionStart [in]
 
@@ -67,25 +80,27 @@ The size of the region.
 
 
 ## -returns
+
+
 <b>IoWithinStackLimits</b> returns <b>TRUE</b> is the current thread's stack contains the region completely and <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 The <b>IoWithinStackLimits</b> routine considers all possible stack segments and the DPC stack, if necessary.
+<div class="alert"><b>Note</b>    For drivers that use <a href="..\ntddk\nf-ntddk-keexpandkernelstackandcallout.md">KeExpandKernelStackAndCallout</a>, <b>IoWithinStackLimits</b> considers only the current thread.</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-iogetinitialstack.md">IoGetInitialStack</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iogetstacklimits.md">IoGetStackLimits</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-iogetinitialstack.md">IoGetInitialStack</a>
+
+<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
+
  
 
  

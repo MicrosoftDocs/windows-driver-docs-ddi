@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 95f1bbf4-06d8-48b7-a983-bf0b65ec2da3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARGCB_GETCAPTUREADDRESS, DXGKARGCB_GETCAPTUREADDRESS, *INOUT_PDXGKARGCB_GETCAPTUREADDRESS
+ms.keywords: DXGKARGCB_GETCAPTUREADDRESS structure [Display Devices], display.dxgkargcb_getcaptureaddress, _DXGKARGCB_GETCAPTUREADDRESS, *INOUT_PDXGKARGCB_GETCAPTUREADDRESS, d3dkmddi/DXGKARGCB_GETCAPTUREADDRESS, DXGKARGCB_GETCAPTUREADDRESS, DmStructs_24ed27a0-7ad3-44d1-aa93-c22733ebfb34.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARGCB_GETCAPTUREADDRESS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARGCB_GETCAPTUREADDRESS
+product: Windows
+targetos: Windows
 req.typenames: DXGKARGCB_GETCAPTUREADDRESS
 ---
 
 # _DXGKARGCB_GETCAPTUREADDRESS structure
 
 
-
 ## -description
+
+
 The DXGKARGCB_GETCAPTUREADDRESS structure describes parameters for retrieving information about a capture buffer that is associated with an allocation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARGCB_GETCAPTUREADDRESS {
@@ -55,6 +65,9 @@ typedef struct _DXGKARGCB_GETCAPTUREADDRESS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hAllocation
 
@@ -71,15 +84,10 @@ typedef struct _DXGKARGCB_GETCAPTUREADDRESS {
 [out] The physical address of the capture buffer.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_getcaptureaddress.md">DxgkCbGetCaptureAddress</a>
-</dt>
-</dl>
+
  
 
  

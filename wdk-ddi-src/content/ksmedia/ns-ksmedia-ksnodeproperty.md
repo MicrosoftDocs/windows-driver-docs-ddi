@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: bbcf7597-217a-499b-b0f2-deef1e85becc
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSNODEPROPERTY, KSNODEPROPERTY, *PKSNODEPROPERTY
+ms.keywords: PKSNODEPROPERTY structure pointer [Audio Devices], aud-prop_7d1e6907-77f6-445d-ba5d-b94037b234f3.xml, *PKSNODEPROPERTY, audio.ksnodeproperty, KSNODEPROPERTY, KSNODEPROPERTY structure [Audio Devices], ksmedia/KSNODEPROPERTY, PKSNODEPROPERTY, ksmedia/PKSNODEPROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSNODEPROPERTY
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KSNODEPROPERTY, *PKSNODEPROPERTY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSNODEPROPERTY
+product: Windows
+targetos: Windows
+req.typenames: *PKSNODEPROPERTY, KSNODEPROPERTY
 ---
 
 # KSNODEPROPERTY structure
 
 
-
 ## -description
+
+
 The KSNODEPROPERTY structure specifies a node and a property of that node.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Property
 
@@ -72,20 +85,20 @@ Reserved for internal use by operating system. Do not use.
 
 
 ## -remarks
+
+
 This structure is identical to <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a>.
 
 See the discussion of the KSNODEPROPERTY structure in <a href="https://msdn.microsoft.com/dcfd139c-fca3-4068-8324-aa2c952dbc1f">Audio Property Requests</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-</dt>
-<dt>
+
 <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
  
 
  

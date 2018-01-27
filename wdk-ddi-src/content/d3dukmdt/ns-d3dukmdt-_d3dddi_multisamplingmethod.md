@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2838cb87-0cd5-4351-a477-00f75eca0896
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_MULTISAMPLINGMETHOD, D3DDDI_MULTISAMPLINGMETHOD
+ms.keywords: D3DDDI_MULTISAMPLINGMETHOD structure [Display Devices], _D3DDDI_MULTISAMPLINGMETHOD, D3DDDI_MULTISAMPLINGMETHOD, display.d3dddi_multisamplingmethod, d3dukmdt/D3DDDI_MULTISAMPLINGMETHOD, D3D_other_Structs_752f8e91-d298-437a-80c4-005e21ec0ddd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_MULTISAMPLINGMETHOD
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_MULTISAMPLINGMETHOD
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_MULTISAMPLINGMETHOD
 ---
 
 # _D3DDDI_MULTISAMPLINGMETHOD structure
 
 
-
 ## -description
+
+
 The D3DDDI_MULTISAMPLINGMETHOD structure describes a multiple-sampling method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_MULTISAMPLINGMETHOD {
@@ -54,6 +64,9 @@ typedef struct _D3DDDI_MULTISAMPLINGMETHOD {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NumSamples
 
@@ -66,21 +79,20 @@ typedef struct _D3DDDI_MULTISAMPLINGMETHOD {
 
 
 ## -remarks
+
+
 The driver can partition its quality levels for a given multiple-sampling method into as many increments as it requires; however, each incremental step noticeably improves quality of the presented image.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_describeallocation.md">DXGKARG_DESCRIBEALLOCATION</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_describeallocation.md">DxgkDdiDescribeAllocation</a>
-</dt>
-</dl>
+
  
 
  

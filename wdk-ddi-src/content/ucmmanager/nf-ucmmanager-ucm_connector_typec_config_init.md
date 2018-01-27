@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 10E155C2-907D-4D0E-87E9-A6B32E99D133
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCM_CONNECTOR_TYPEC_CONFIG_INIT
+ms.keywords: UCM_CONNECTOR_TYPE_C_CONFIG_INIT, ucmmanager/UCM_CONNECTOR_TYPE_C_CONFIG_INIT, UCM_CONNECTOR_TYPEC_CONFIG_INIT, UCM_CONNECTOR_TYPE_C_CONFIG_INIT function [Buses], buses.ucm_connector_type_c_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 1.15
 req.umdf-ver: 2.15
-req.alt-api: UCM_CONNECTOR_TYPE_C_CONFIG_INIT
-req.alt-loc: Ucmmanager.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ucmmanager.h
+apiname: 
+-	UCM_CONNECTOR_TYPE_C_CONFIG_INIT
+product: Windows
+targetos: Windows
 req.typenames: *PPORT_DATA_1, PORT_DATA_1
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # UCM_CONNECTOR_TYPEC_CONFIG_INIT function
 
 
-
 ## -description
+
+
 Initializes the <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_config.md">UCM_CONNECTOR_TYPEC_CONFIG</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 __inline
@@ -57,6 +67,9 @@ void UCM_CONNECTOR_TYPE_C_CONFIG_INIT(
 
 
 ## -parameters
+
+
+
 
 ### -param Config [out]
 
@@ -74,7 +87,8 @@ Indicates the power source capabilities of the connector. This value is a bitwis
 
 
 ## -returns
+
+
 This function does not return a value.
 
 
-## -remarks

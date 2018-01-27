@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0792e139-0217-4882-b2df-e69452118fc9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlNotifyVolumeEventEx
+ms.keywords: FsRtlNotifyVolumeEventEx, fsrtlref_421ebbf6-0678-4b66-a7c3-00f5914ea05c.xml, ntifs/FsRtlNotifyVolumeEventEx, FsRtlNotifyVolumeEventEx routine [Installable File System Drivers], ifsk.fsrtlnotifyvolumeeventex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later version of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlNotifyVolumeEventEx
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlNotifyVolumeEventEx
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlNotifyVolumeEventEx function
 
 
-
 ## -description
+
+
 The <b>FsRtlNotifyVolumeEventEx</b> routine notifies any registered applications that a volume event is occurring. Volume events include the volume  being locked, unlocked, mounted, or made read-only. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlNotifyVolumeEventEx(
@@ -55,6 +65,9 @@ NTSTATUS FsRtlNotifyVolumeEventEx(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -72,29 +85,32 @@ A pointer to the initialized custom notification structure (<a href="..\wdm\ns-w
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS on success or another relevant NTSTATUS value, such as STATUS_INVALID_PARAMETER, if the <i>EventCode</i> is not valid.
 
 
+
 ## -remarks
-<p class="note">Version to 1. 
+
+
+<div class="alert"><b>Note</b>   When you specify the <i>Event</i> parameter as a custom volume notification, set the following members of the TARGET_DEVICE_CUSTOM_NOTIFICATION object as follows:<p class="note">Version to 1. 
+
 <p class="note"><i>FileObject</i> to <b>NULL</b>.
+
+</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyvolumeevent~r1.md">FsRtlNotifyVolumeEvent</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyvolumeevent~r1.md">FsRtlNotifyVolumeEvent</a>
+
 <a href="..\wdm\nf-wdm-iounregisterplugplaynotification.md">IoUnregisterPlugPlayNotification</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
-</dt>
-</dl>
+
  
 
  

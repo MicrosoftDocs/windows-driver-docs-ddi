@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 373fb91d-e469-4136-b2e3-bf57016c0fd6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: TRANSPORT_STATE, *PTRANSPORT_STATE, TRANSPORT_STATE
+ms.keywords: TRANSPORT_STATE, *PTRANSPORT_STATE, PTRANSPORT_STATE, ksmedia/TRANSPORT_STATE, ksmedia/PTRANSPORT_STATE, TRANSPORT_STATE structure [Streaming Media Devices], PTRANSPORT_STATE structure pointer [Streaming Media Devices], stream.transport_state, vidcapstruct_5caaba9f-8a5c-4896-b181-c432a9678f58.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TRANSPORT_STATE
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	TRANSPORT_STATE
+product: Windows
+targetos: Windows
 req.typenames: *PTRANSPORT_STATE, TRANSPORT_STATE
 ---
 
 # TRANSPORT_STATE structure
 
 
-
 ## -description
+
+
 The TRANSPORT_STATE structure 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -54,6 +64,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Mode
 
@@ -66,6 +79,8 @@ Specifies the state of the external device transport mode.
 
 
 ## -remarks
+
+
 Any ED_Xxx tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.
 
 The following modes and states are used by <i>msdv.sys </i>and <i>mstape.sys</i>:
@@ -102,4 +117,8 @@ ED_MODE_REW_FASTEST
 
 ED_MODE_STOP
 
-ED_MODE_FF</p>
+ED_MODE_PLAY
+
+ED_MODE_FF
+
+

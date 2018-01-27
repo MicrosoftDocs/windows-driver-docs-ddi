@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 33cc9d34-cffb-410d-9948-37c8a409e0a5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_AER_BRIDGE_DESCRIPTOR, WHEA_AER_BRIDGE_DESCRIPTOR, *PWHEA_AER_BRIDGE_DESCRIPTOR
+ms.keywords: whearef_52e2fbef-c8d7-42c8-b8ae-584fbc4f622f.xml, _WHEA_AER_BRIDGE_DESCRIPTOR, PWHEA_AER_BRIDGE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], *PWHEA_AER_BRIDGE_DESCRIPTOR, whea.whea_aer_bridge_descriptor, ntddk/PWHEA_AER_BRIDGE_DESCRIPTOR, WHEA_AER_BRIDGE_DESCRIPTOR structure [WHEA Drivers and Applications], PWHEA_AER_BRIDGE_DESCRIPTOR, WHEA_AER_BRIDGE_DESCRIPTOR, ntddk/WHEA_AER_BRIDGE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WHEA_AER_BRIDGE_DESCRIPTOR
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: WHEA_AER_BRIDGE_DESCRIPTOR, *PWHEA_AER_BRIDGE_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	WHEA_AER_BRIDGE_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_AER_BRIDGE_DESCRIPTOR, WHEA_AER_BRIDGE_DESCRIPTOR
 ---
 
 # _WHEA_AER_BRIDGE_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The WHEA_AER_BRIDGE_DESCRIPTOR structure describes a PCI Express (PCIe) bridge error source.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WHEA_AER_BRIDGE_DESCRIPTOR {
@@ -66,6 +76,9 @@ typedef struct _WHEA_AER_BRIDGE_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Type
 
@@ -100,7 +113,6 @@ The contents of the bridge's Device Control register.
 ### -field Flags
 
 An AER_BRIDGE_DESCRIPTOR_FLAGS union that indicates which of the members of the WHEA_AER_BRIDGE_DESCRIPTOR structure can be written to by the operating system. The AER_BRIDGE_DESCRIPTOR_FLAGS union is defined as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -124,54 +136,6 @@ An AER_BRIDGE_DESCRIPTOR_FLAGS union that indicates which of the members of the 
 </tr>
 </table></span></div>
 
-
-
-### -field UncorrectableErrorMaskRW
-
-A single bit that indicates that the operating system can write to the <b>UncorrectableErrorMask</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
-
-
-### -field UncorrectableErrorSeverityRW
-
-A single bit that indicates that the operating system can write to the <b>UncorrectableErrorSeverity</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
-
-
-### -field CorrectableErrorMaskRW
-
-A single bit that indicates that the operating system can write to the <b>CorrectableErrorMask</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
-
-
-### -field AdvancedCapsAndControlRW
-
-A single bit that indicates that the operating system can write to the <b>AdvancedCapsAndControl</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
-
-
-### -field SecondaryUncorrectableErrorMaskRW
-
-A single bit that indicates that the operating system can write to the <b>SecondaryUncorrectableErrorMask</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
-
-
-### -field SecondaryUncorrectableErrorSevRW
-
-A single bit that indicates that the operating system can write to the <b>SecondaryUncorrectableErrorSev</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
-
-
-### -field SecondaryCapsAndControlRW
-
-A single bit that indicates that the operating system can write to the <b>SecondaryCapsAndControl</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
-
-
-### -field Reserved
-
-Reserved for system use.
-
-
-### -field AsUSHORT
-
-A USHORT representation of the contents of the AER_ROOTPORT_DESCRIPTOR_FLAGS union.
-
-</dd>
-</dl>
 
 ### -field UncorrectableErrorMask
 
@@ -208,19 +172,64 @@ The contents of the bridge's Secondary Uncorrectable Error Severity register.
 The contents of the bridge's Secondary Error Capabilities and Control register.
 
 
+##### - Flags.SecondaryUncorrectableErrorSevRW
+
+A single bit that indicates that the operating system can write to the <b>SecondaryUncorrectableErrorSev</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
+
+
+##### - Flags.Reserved
+
+Reserved for system use.
+
+
+##### - Flags.SecondaryUncorrectableErrorMaskRW
+
+A single bit that indicates that the operating system can write to the <b>SecondaryUncorrectableErrorMask</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
+
+
+##### - Flags.UncorrectableErrorSeverityRW
+
+A single bit that indicates that the operating system can write to the <b>UncorrectableErrorSeverity</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
+
+
+##### - Flags.AsUSHORT
+
+A USHORT representation of the contents of the AER_ROOTPORT_DESCRIPTOR_FLAGS union.
+
+
+##### - Flags.AdvancedCapsAndControlRW
+
+A single bit that indicates that the operating system can write to the <b>AdvancedCapsAndControl</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
+
+
+##### - Flags.SecondaryCapsAndControlRW
+
+A single bit that indicates that the operating system can write to the <b>SecondaryCapsAndControl</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
+
+
+##### - Flags.CorrectableErrorMaskRW
+
+A single bit that indicates that the operating system can write to the <b>CorrectableErrorMask</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
+
+
+##### - Flags.UncorrectableErrorMaskRW
+
+A single bit that indicates that the operating system can write to the <b>UncorrectableErrorMask</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
+
+
 ## -remarks
+
+
 A WHEA_AER_BRIDGE_DESCRIPTOR structure is contained within the <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_whea_pci_slot_number.md">WHEA_PCI_SLOT_NUMBER</a>
-</dt>
-</dl>
+
  
 
  

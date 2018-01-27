@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b647cc94-e5eb-494f-b103-22aa30da8946
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _USB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
+ms.keywords: stream.camnewvideoframe, CamNewVideoFrame, CamNewVideoFrame callback function [Streaming Media Devices], CamNewVideoFrame, PCAM_NEW_FRAME_ROUTINE, PCAM_NEW_FRAME_ROUTINE, usbcamdi/CamNewVideoFrame, usbcmdpr_5f488227-2c1a-497e-975a-dc2b388f8489.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CamNewVideoFrame
-req.alt-loc: usbcamdi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL (See Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	usbcamdi.h
+apiname: 
+-	CamNewVideoFrame
+product: Windows
+targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
@@ -38,16 +47,17 @@ req.product: Windows 10 or later.
 # PCAM_NEW_FRAME_ROUTINE callback
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[CamNewVideoFrame is not supported and may be altered or unavailable in the future. Instead, use <a href="..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine_ex.md">CamNewVideoFrameEx</a>.
 ]
 
 A camera minidriver's <b>CamNewVideoFrame</b> callback function initializes a new video frame context structure.
 
 
-
 ## -prototype
+
 
 ````
 VOID CamNewVideoFrame(
@@ -59,21 +69,29 @@ VOID CamNewVideoFrame(
 
 ## -parameters
 
-### -param DeviceContext 
+
+
+
+### -param DeviceContext
 
 Pointer to the camera minidriver's device context.
 
 
-### -param FrameContext 
+### -param FrameContext
 
 Pointer to the camera minidriver's frame context.
 
 
 ## -returns
+
+
 <b>CamNewVideoFrame</b> does not return a value.
 
 
+
 ## -remarks
+
+
 Camera minidrivers that must maintain backward compatibility with the original USBCAMD must use the <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data.md">USBCAMD_DEVICE_DATA</a> structure and its associated callback functions (that is, callback functions that do not contain the "Ex" suffix).
 
 USBCAMD calls the camera minidriver's <b>CamNewVideoFrame</b> callback function at IRQL = DISPATCH_LEVEL.
@@ -81,12 +99,11 @@ USBCAMD calls the camera minidriver's <b>CamNewVideoFrame</b> callback function 
 This function is optional.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine_ex.md">CamNewVideoFrameEx</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0DB9F0ED-D0A9-4A8A-8E27-BC50DEDB0BD5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_DEVICEPRESENT_QUEUE_STATE, D3DKMT_DEVICEPRESENT_QUEUE_STATE
+ms.keywords: _D3DKMT_DEVICEPRESENT_QUEUE_STATE, d3dkmthk/D3DKMT_DEVICEPRESENT_QUEUE_STATE, display.d3dkmt_devicepresent_queue_state, D3DKMT_DEVICEPRESENT_QUEUE_STATE structure [Display Devices], D3DKMT_DEVICEPRESENT_QUEUE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_DEVICEPRESENT_QUEUE_STATE
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_DEVICEPRESENT_QUEUE_STATE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DEVICEPRESENT_QUEUE_STATE
 ---
 
 # _D3DKMT_DEVICEPRESENT_QUEUE_STATE structure
 
 
-
 ## -description
+
+
 A structure that holds information on the queue state of a hardware device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_DEVICEPRESENT_QUEUE_STATE {
@@ -55,6 +65,9 @@ typedef struct _D3DKMT_DEVICEPRESENT_QUEUE_STATE {
 
 ## -struct-fields
 
+
+
+
 ### -field VidPnSourceId
 
 Indicates the present source id.
@@ -64,5 +77,3 @@ Indicates the present source id.
 
 Indicates whether the queued present limit has been reached.
 
-
-## -remarks

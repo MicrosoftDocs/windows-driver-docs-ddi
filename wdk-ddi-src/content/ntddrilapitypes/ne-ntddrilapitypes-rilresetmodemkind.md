@@ -7,8 +7,8 @@ old-location: netvista\rilresetmodemkind.htm
 old-project: netvista
 ms.assetid: 4eb97a4f-dd95-4fd4-8315-efcb446f56cd
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILRESETMODEMKIND, RILRESETMODEMKIND
+ms.date: 1/18/2018
+ms.keywords: ntddrilapitypes/RIL_RESETMODEMKIND_MAX, RIL_RESETMODEMKIND_MAX, netvista.rilresetmodemkind, ntddrilapitypes/RILRESETMODEMKIND, ntddrilapitypes/RIL_RESETMODEMKIND_ABRUPT, RIL_RESETMODEMKIND_ABRUPT, RILRESETMODEMKIND, RILRESETMODEMKIND enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILRESETMODEMKIND
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILRESETMODEMKIND
+product: Windows
+targetos: Windows
 req.typenames: RILRESETMODEMKIND
 ---
 
 # RILRESETMODEMKIND enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILRESETMODEMKIND { 
@@ -55,10 +65,17 @@ typedef enum _RILRESETMODEMKIND {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_RESETMODEMKIND_NORMAL
+
+
+
 ### -field RIL_RESETMODEMKIND_ABRUPT
+
 
 
 ### -field RIL_RESETMODEMKIND_MAX
 
 
-## -remarks

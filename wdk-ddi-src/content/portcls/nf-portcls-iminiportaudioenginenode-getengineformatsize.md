@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0874EC25-3ABE-410B-B5AC-E98020378D7E
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportAudioEngineNode, IMiniportAudioEngineNode::GetEngineFormatSize, GetEngineFormatSize
+ms.keywords: GetEngineFormatSize method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices], GetEngineFormatSize method, audio.iminiportaudioenginenode_getengineformatsize, IMiniportAudioEngineNode, GetEngineFormatSize method [Audio Devices], GetEngineFormatSize, IMiniportAudioEngineNode::GetEngineFormatSize, portcls/IMiniportAudioEngineNode::GetEngineFormatSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportAudioEngineNode.GetEngineFormatSize
-req.alt-loc: Portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Portcls.h
+apiname: 
+-	IMiniportAudioEngineNode.GetEngineFormatSize
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportAudioEngineNode::GetEngineFormatSize method
 
 
-
 ## -description
+
+
 Gets the format type and the buffer size for the audio engine's audio data format.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS GetEngineFormatSize(
@@ -55,6 +65,9 @@ NTSTATUS GetEngineFormatSize(
 
 
 ## -parameters
+
+
+
 
 ### -param ulNodeId [in]
 
@@ -72,21 +85,18 @@ The data buffer size for the format type.
 
 
 ## -returns
+
+
 <b>GetEngineFormatSize</b> returns S_OK, if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\ne-portcls-eengineformattype.md">eEngineFormatType</a>
-</dt>
-<dt>
+
 <a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
-</dt>
-</dl>
+
+<a href="..\portcls\ne-portcls-eengineformattype.md">eEngineFormatType</a>
+
  
 
  

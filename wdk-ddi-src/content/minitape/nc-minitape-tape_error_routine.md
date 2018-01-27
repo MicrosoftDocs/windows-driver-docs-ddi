@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a39fac12-f284-4b3a-a9ab-ae75934f810e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _PROCESSOR_NUMBER, *PPROCESSOR_NUMBER, PROCESSOR_NUMBER
+ms.keywords: storage.tapeminitapeerror, (*TAPE_ERROR_ROUTINE) routine [Storage Devices], (*TAPE_ERROR_ROUTINE), TAPE_ERROR_ROUTINE, TAPE_ERROR_ROUTINE, minitape/(*TAPE_ERROR_ROUTINE), tapemini_cf0f724e-63c4-4923-a59e-508c45dac6d9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: (*TAPE_ERROR_ROUTINE)
-req.alt-loc: minitape.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	minitape.h
+apiname: 
+-	(*TAPE_ERROR_ROUTINE)
+product: Windows
+targetos: Windows
 req.typenames: *PPROCESSOR_NUMBER, PROCESSOR_NUMBER
 ---
 
 # TAPE_ERROR_ROUTINE callback
 
 
-
 ## -description
+
+
 <i>TAPE_ERROR_ROUTINE</i> provides device-specific error handling when an SRB is completed with an error status. This routine is optional.
 
 
-
 ## -prototype
+
 
 ````
 TAPE_ERROR_ROUTINE (*TAPE_ERROR_ROUTINE);
@@ -58,6 +68,9 @@ VOID (*TAPE_ERROR_ROUTINE)(
 
 
 ## -parameters
+
+
+
 
 ### -param MinitapeExtension [in]
 
@@ -75,10 +88,15 @@ Pointer to the <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 
 ## -returns
+
+
   None.
 
 
+
 ## -remarks
+
+
 Most tape miniclass drivers do not provide a <i>TAPE_ERROR_ROUTINE</i> routine because the <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a> codes set by the tape class driver are appropriate.
 
 For some devices, however, a tape miniclass driver can identify a more appropriate error code than the tape class driver. For example, if the tape class driver returns TAPE_STATUS_BUS_RESET, the tape miniclass driver might be able to determine that the real problem is more accurately represented by TAPE_STATUS_NO_MEDIA for some devices.
@@ -88,24 +106,19 @@ A tape miniclass driver optionally specifies an entry point for its <i>TAPE_ERRO
 <i>TAPE_ERROR_ROUTINE</i> determines whether to alter the status provided by the tape class driver based on the input parameters and its knowledge of the device. If the SRB_STATUS_AUTOSENSE_VALID bit is set in <b>Srb-&gt;SrbStatus</b>, then the SRB contains SCSI sense information at <b>SenseInfoBuffer</b>. The length of the buffer is <b>SenseInfoBufferLength</b>. The <i>TAPE_ERROR_ROUTINE</i> routine should examine this information along with the <b>SrbStatus</b> and <b>ScsiStatus</b> in the SRB to determine whether to change the TAPE_STATUS returned.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
-</dt>
-<dt>
+
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-</dt>
-<dt>
-<a href="..\minitape\ns-minitape-_tape_init_data_ex.md">TAPE_INIT_DATA_EX</a>
-</dt>
-<dt>
-<a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a>
-</dt>
-<dt>
+
 <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
-</dt>
-</dl>
+
+<a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a>
+
+<a href="..\minitape\ns-minitape-_tape_init_data_ex.md">TAPE_INIT_DATA_EX</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
+
  
 
  

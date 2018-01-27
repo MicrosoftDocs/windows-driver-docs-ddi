@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e2318d02-f52e-4b5b-86da-04df7b31b7d3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_MBctrl_I_HostResidDiff_1, DXVA_MBctrl_I_HostResidDiff_1, *LPDXVA_MBctrl_I_HostResidDiff_1
+ms.keywords: dxva/DXVA_MBctrl_I_HostResidDiff_1, display.dxva_mbctrl_i_hostresiddiff_1, *LPDXVA_MBctrl_I_HostResidDiff_1, dxvaref_9d7c8453-31ce-4788-908e-ac81c97d97f5.xml, _DXVA_MBctrl_I_HostResidDiff_1, DXVA_MBctrl_I_HostResidDiff_1, DXVA_MBctrl_I_HostResidDiff_1 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVA_MBctrl_I_HostResidDiff_1
-req.alt-loc: dxva.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxva.h
+apiname: 
+-	DXVA_MBctrl_I_HostResidDiff_1
+product: Windows
+targetos: Windows
 req.typenames: DXVA_MBctrl_I_HostResidDiff_1
 ---
 
 # _DXVA_MBctrl_I_HostResidDiff_1 structure
 
 
-
 ## -description
-The DXVA_MBctrl_I_HostResidDiff_1 structure is sent once per macroblock by the host decoder to the accelerator to specify macroblock control commands for an <a href="wdkgloss.i#wdkgloss.intra_picture#wdkgloss.intra_picture"><i>intra picture</i></a>.
 
+
+The DXVA_MBctrl_I_HostResidDiff_1 structure is sent once per macroblock by the host decoder to the accelerator to specify macroblock control commands for an <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">intra picture</a>.
 
 
 ## -syntax
+
 
 ````
 typedef struct _DXVA_MBctrl_I_HostResidDiff_1 {
@@ -59,6 +69,9 @@ typedef struct _DXVA_MBctrl_I_HostResidDiff_1 {
 
 ## -struct-fields
 
+
+
+
 ### -field wMBaddress
 
 Specifies the macroblock address of the current macroblock in raster scan order. For examples of macroblock addresses, see <a href="https://msdn.microsoft.com/f04c5462-db7c-4917-b8ef-22a630c82994">macroblock addresses</a>.
@@ -67,7 +80,6 @@ Specifies the macroblock address of the current macroblock in raster scan order.
 ### -field wMBtype
 
 Specifies the type of macroblock being processed. The following bits define macroblock processing.
-
 <table>
 <tr>
 <th>Bits</th>
@@ -209,8 +221,7 @@ Must be 1.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field dwMB_SNL
@@ -238,24 +249,22 @@ Reserved bits used for packing and alignment. Must be zero.
 
 
 ## -remarks
+
+
 Skipped macroblocks are not used by intra pictures, so the <i>MBskipsFollowing</i> variable must be zero. The <i>MBdataLocation</i> variable must be zero for the first macroblock in the macroblock control command buffer. For more information about how skipped macroblocks are generated, see <a href="https://msdn.microsoft.com/98ea004b-347d-4299-a23c-da0a9d0e844f">Generating Skipped Macroblocks</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_offhostidct_1.md">DXVA_MBctrl_I_OffHostIDCT_1</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
-</dt>
-</dl>
+
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_offhostidct_1.md">DXVA_MBctrl_I_OffHostIDCT_1</a>
+
  
 
  

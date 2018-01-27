@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: B52012DB-922A-43A2-A175-7F7887C290F1
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: _LPI_STATE_DESCRIPTOR, *PLPI_STATE_DESCRIPTOR, LPI_STATE_DESCRIPTOR
+ms.keywords: acpi.lpi_state_descriptor, acpitabl/LPI_STATE_DESCRIPTOR, _LPI_STATE_DESCRIPTOR, LPI_STATE_DESCRIPTOR, PLPI_STATE_DESCRIPTOR structure pointer [ACPI Devices], PLPI_STATE_DESCRIPTOR, *PLPI_STATE_DESCRIPTOR, acpitabl/PLPI_STATE_DESCRIPTOR, LPI_STATE_DESCRIPTOR structure [ACPI Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: LPI_STATE_DESCRIPTOR
-req.alt-loc: acpitabl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PLPI_STATE_DESCRIPTOR, LPI_STATE_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	acpitabl.h
+apiname: 
+-	LPI_STATE_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: LPI_STATE_DESCRIPTOR, *PLPI_STATE_DESCRIPTOR
 ---
 
 # _LPI_STATE_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 Defines an LPI state descriptor.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _LPI_STATE_DESCRIPTOR {
@@ -62,6 +72,9 @@ typedef struct _LPI_STATE_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Type
 
@@ -112,5 +125,3 @@ Residency counter.
 
 Residency counter frequency. 
 
-
-## -remarks

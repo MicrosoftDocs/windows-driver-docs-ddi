@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2ba267ad-cfd7-4a19-9ecb-16be9187406a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CHANGER_DEVICE_PROBLEM_TYPE, *PCHANGER_DEVICE_PROBLEM_TYPE, CHANGER_DEVICE_PROBLEM_TYPE
+ms.keywords: ntddchgr/DeviceProblemCalibrationError, DeviceProblemHardware, DeviceProblemCartridgeEjectError, ntddchgr/DeviceProblemCartridgeInsertError, DeviceProblemGripperError, CHANGER_DEVICE_PROBLEM_TYPE enumeration [Storage Devices], DeviceProblemCalibrationError, DeviceProblemDoorOpen, ntddchgr/DeviceProblemPositionError, ntddchgr/DeviceProblemNone, ntddchgr/DeviceProblemDoorOpen, DeviceProblemCHMError, CHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/PCHANGER_DEVICE_PROBLEM_TYPE, DeviceProblemCHMMoveError, storage.changer_device_problem_type, _CHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/DeviceProblemCHMError, ntddchgr/DeviceProblemCartridgeEjectError, structs-changer_907f5212-0009-476e-9187-c9f2edb0f0c8.xml, DeviceProblemNone, ntddchgr/DeviceProblemCHMMoveError, ntddchgr/DeviceProblemTargetFailure, DeviceProblemCartridgeInsertError, ntddchgr/DeviceProblemCHMZeroError, ntddchgr/DeviceProblemGripperError, *PCHANGER_DEVICE_PROBLEM_TYPE, DeviceProblemCHMZeroError, DeviceProblemPositionError, ntddchgr/CHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/DeviceProblemHardware, DeviceProblemDriveError, PCHANGER_DEVICE_PROBLEM_TYPE enumeration pointer [Storage Devices], DeviceProblemTargetFailure, ntddchgr/DeviceProblemSensorError, ntddchgr/DeviceProblemDriveError, PCHANGER_DEVICE_PROBLEM_TYPE, DeviceProblemSensorError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CHANGER_DEVICE_PROBLEM_TYPE
-req.alt-loc: ntddchgr.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddchgr.h
+apiname: 
+-	CHANGER_DEVICE_PROBLEM_TYPE
+product: Windows
+targetos: Windows
 req.typenames: *PCHANGER_DEVICE_PROBLEM_TYPE, CHANGER_DEVICE_PROBLEM_TYPE
 ---
 
 # _CHANGER_DEVICE_PROBLEM_TYPE enumeration
 
 
-
 ## -description
+
+
 The CHANGER_DEVICE_PROBLEM_TYPE data type contains the values returned by the <a href="..\mcd\nf-mcd-changerperformdiagnostics.md">ChangerPerformDiagnostics</a> routine.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _CHANGER_DEVICE_PROBLEM_TYPE { 
@@ -66,6 +76,9 @@ typedef enum _CHANGER_DEVICE_PROBLEM_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DeviceProblemNone
 
@@ -137,18 +150,12 @@ Indicates the media gripper has a problem.
 Indicates the changer's drive is malfunctioning.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\mcd\nf-mcd-changerperformdiagnostics.md">ChangerPerformDiagnostics</a>
-</dt>
-<dt>
+
 <a href="..\wmidata\ns-wmidata-_wmi_changer_problem_device_error.md">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a>
-</dt>
-</dl>
+
+<a href="..\mcd\nf-mcd-changerperformdiagnostics.md">ChangerPerformDiagnostics</a>
+
  
 
  

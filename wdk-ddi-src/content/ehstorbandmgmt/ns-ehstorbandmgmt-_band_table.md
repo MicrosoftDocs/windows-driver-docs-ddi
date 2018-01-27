@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2714E346-6BDD-49EF-9820-6B82F8F29380
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _BAND_TABLE, BAND_TABLE, *PBAND_TABLE
+ms.keywords: PBAND_TABLE structure pointer [Storage Devices], _BAND_TABLE, BAND_TABLE structure [Storage Devices], PBAND_TABLE, ehstorbandmgmt/BAND_TABLE, *PBAND_TABLE, BAND_TABLE, storage.band_table, ehstorbandmgmt/PBAND_TABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BAND_TABLE
-req.alt-loc: EhStorBandMgmt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: BAND_TABLE, *PBAND_TABLE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	EhStorBandMgmt.h
+apiname: 
+-	BAND_TABLE
+product: Windows
+targetos: Windows
+req.typenames: *PBAND_TABLE, BAND_TABLE
 ---
 
 # _BAND_TABLE structure
 
 
-
 ## -description
+
+
 The <b>BAND_TABLE</b> structure contains the table of bands returned from an <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands.md">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a> request. The bands in the band table are selected by a match condition sent as input for <b>IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</b> in the <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_enumerate_bands_parameters.md">ENUMERATE_BANDS_PARAMETERS</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BAND_TABLE {
@@ -56,6 +66,9 @@ typedef struct _BAND_TABLE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field StructSize
 
@@ -77,21 +90,14 @@ The number of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table_entry.md"
 The size of each entry, in bytes, in the array at <b>BandTableOffset</b>. Instead of using the value of <b>sizeof</b>(BAND_TABLE_ENTRY), callers must use <b>BandTableEntrySize</b> when advancing to the next element in the band table array.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table_entry.md">BAND_TABLE_ENTRY</a>
-</dt>
-<dt>
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_enumerate_bands_parameters.md">ENUMERATE_BANDS_PARAMETERS</a>
-</dt>
-<dt>
+
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands.md">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a>
-</dt>
-</dl>
+
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_enumerate_bands_parameters.md">ENUMERATE_BANDS_PARAMETERS</a>
+
  
 
  

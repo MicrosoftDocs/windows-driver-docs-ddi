@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6C6EAA96-40E9-467F-903B-AE44CE5B77CF
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: UFS_INTERCONNECT_DESCRIPTOR, UFS_INTERCONNECT_DESCRIPTOR, *PUFS_INTERCONNECT_DESCRIPTOR
+ms.keywords: UFS_INTERCONNECT_DESCRIPTOR, *PUFS_INTERCONNECT_DESCRIPTOR, storage.ufs_interconnect_descriptor, PUFS_INTERCONNECT_DESCRIPTOR structure pointer [Storage Devices], UFS_INTERCONNECT_DESCRIPTOR structure [Storage Devices], PUFS_INTERCONNECT_DESCRIPTOR, ufs/UFS_INTERCONNECT_DESCRIPTOR, ufs/PUFS_INTERCONNECT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UFS_INTERCONNECT_DESCRIPTOR
-req.alt-loc: Ufs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ufs.h
+apiname: 
+-	UFS_INTERCONNECT_DESCRIPTOR
+product: Windows
+targetos: Windows
 req.typenames: UFS_INTERCONNECT_DESCRIPTOR, *PUFS_INTERCONNECT_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
@@ -38,14 +47,15 @@ req.product: Windows 10 or later.
 # UFS_INTERCONNECT_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 <b>UFS_INTERCONNECT_DESCRIPTOR</b> contains the MIPI M-PHY® specification version number and the MIPI
 6338 UniPro℠ specification version number.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UFS_INTERCONNECT_DESCRIPTOR {
@@ -58,6 +68,9 @@ typedef struct _UFS_INTERCONNECT_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field bLength
 
@@ -78,5 +91,3 @@ Specifies the MIPI UniPro℠ version number in Binary Coded Decimal (BCD) format
 
 Specifies the MIPI M-PHY® version number in BCD format.
 
-
-## -remarks

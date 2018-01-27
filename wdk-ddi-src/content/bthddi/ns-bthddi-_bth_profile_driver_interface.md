@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: d4aa5fa9-966c-49c5-b41c-ca963a201e21
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTH_PROFILE_DRIVER_INTERFACE, *PBTH_PROFILE_DRIVER_INTERFACE, BTH_PROFILE_DRIVER_INTERFACE
+ms.keywords: bth_structs_0df6b87d-3846-49ed-9614-e83f2e828e7d.xml, bltooth.bth_profile_driver_interface, bthddi/BTH_PROFILE_DRIVER_INTERFACE, bthddi/PBTH_PROFILE_DRIVER_INTERFACE, BTH_PROFILE_DRIVER_INTERFACE, PBTH_PROFILE_DRIVER_INTERFACE, _BTH_PROFILE_DRIVER_INTERFACE, *PBTH_PROFILE_DRIVER_INTERFACE, PBTH_PROFILE_DRIVER_INTERFACE structure pointer [Bluetooth Devices], BTH_PROFILE_DRIVER_INTERFACE structure [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BTH_PROFILE_DRIVER_INTERFACE
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-req.typenames: *PBTH_PROFILE_DRIVER_INTERFACE, BTH_PROFILE_DRIVER_INTERFACE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthddi.h
+apiname: 
+-	BTH_PROFILE_DRIVER_INTERFACE
+product: Windows
+targetos: Windows
+req.typenames: BTH_PROFILE_DRIVER_INTERFACE, *PBTH_PROFILE_DRIVER_INTERFACE
 ---
 
 # _BTH_PROFILE_DRIVER_INTERFACE structure
 
 
-
 ## -description
+
+
 The BTH_PROFILE_DRIVER_INTERFACE structure provides functions to allocate, free, initialize, and
   reuse BRBs, and to determine the currently installed Bluetooth version.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BTH_PROFILE_DRIVER_INTERFACE {
@@ -59,6 +69,9 @@ typedef struct _BTH_PROFILE_DRIVER_INTERFACE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Interface
 
@@ -95,11 +108,13 @@ Pointer to the
 ### -field IsBluetoothVersionAvailable
 
 Pointer to the 
-     <a href="..\bthddi\nc-bthddi-pfnbth_is_bluetooth_version_available.md">
-     IsBluetoothVersionAvailable</a> function.
+     <mshelp:link keywords="bltooth.isbluetoothversionavailable" tabindex="0"><b>
+     IsBluetoothVersionAvailable</b></mshelp:link> function.
 
 
 ## -remarks
+
+
 Profile drivers should specify the 
     <b>GUID_BTHDDI_PROFILE_DRIVER_INTERFACE</b> GUID to query for an instance of the
     BTH_PROFILE_DRIVER_INTERFACE structure from the Bluetooth driver stack.
@@ -108,27 +123,21 @@ All the members of this structure, other than the
     <b>Interface</b> member, are function pointers.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-</dt>
-<dt>
-<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
-</dt>
-<dt>
-<a href="..\bthddi\nc-bthddi-pfnbth_free_brb.md">BthFreeBrb</a>
-</dt>
-<dt>
-<a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
-</dt>
-<dt>
+
 <a href="..\bthddi\nc-bthddi-pfnbth_reuse_brb.md">BthReuseBrb</a>
-</dt>
-<dt>
+
+<a href="..\bthddi\nc-bthddi-pfnbth_free_brb.md">BthFreeBrb</a>
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+<a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
+
+<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
+
 <a href="..\bthddi\nc-bthddi-pfnbth_is_bluetooth_version_available.md">IsBluetoothVersionAvailable</a>
-</dt>
-</dl>
+
  
 
  

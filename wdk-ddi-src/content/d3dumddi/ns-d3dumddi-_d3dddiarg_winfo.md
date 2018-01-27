@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 82ab59d7-302a-4e3a-b5e6-6a332eafcbed
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_WINFO, D3DDDIARG_WINFO
+ms.keywords: D3DDDIARG_WINFO, d3dumddi/D3DDDIARG_WINFO, _D3DDDIARG_WINFO, UMDisplayDriver_param_Structs_6ab282fa-6a76-4712-83d5-77638adb2b7a.xml, display.d3dddiarg_winfo, D3DDDIARG_WINFO structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_WINFO
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_WINFO
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_WINFO
 ---
 
 # _D3DDDIARG_WINFO structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_WINFO structure describes a w range for w buffering. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_WINFO {
@@ -55,6 +65,9 @@ typedef struct _D3DDDIARG_WINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field WNear
 
 [in] A FLOAT value that indicates the near limit in the w range. 
@@ -65,15 +78,10 @@ typedef struct _D3DDDIARG_WINFO {
 [in] A FLOAT value that indicates the far limit in the w range. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updatewinfo.md">UpdateWInfo</a>
-</dt>
-</dl>
+
  
 
  

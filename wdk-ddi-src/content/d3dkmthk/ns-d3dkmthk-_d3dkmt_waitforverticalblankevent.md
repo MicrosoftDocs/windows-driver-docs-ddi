@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dde8ebf7-7839-4bcc-8cb1-02a5ca922792
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_WAITFORVERTICALBLANKEVENT, D3DKMT_WAITFORVERTICALBLANKEVENT
+ms.keywords: d3dkmthk/D3DKMT_WAITFORVERTICALBLANKEVENT, D3DKMT_WAITFORVERTICALBLANKEVENT structure [Display Devices], D3DKMT_WAITFORVERTICALBLANKEVENT, OpenGL_Structs_1072adb2-825b-4fee-a84a-b958e3d2e4d4.xml, display.d3dkmt_waitforverticalblankevent, _D3DKMT_WAITFORVERTICALBLANKEVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_WAITFORVERTICALBLANKEVENT
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_WAITFORVERTICALBLANKEVENT
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_WAITFORVERTICALBLANKEVENT
 ---
 
 # _D3DKMT_WAITFORVERTICALBLANKEVENT structure
 
 
-
 ## -description
+
+
 The D3DKMT_WAITFORVERTICALBLANKEVENT structure describes parameters for waiting for the vertical blanking interval to occur.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_WAITFORVERTICALBLANKEVENT {
@@ -55,6 +65,9 @@ typedef struct _D3DKMT_WAITFORVERTICALBLANKEVENT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hAdapter
 
@@ -71,15 +84,10 @@ typedef struct _D3DKMT_WAITFORVERTICALBLANKEVENT {
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology for the VidPN source. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforverticalblankevent.md">D3DKMTWaitForVerticalBlankEvent</a>
-</dt>
-</dl>
+
  
 
  

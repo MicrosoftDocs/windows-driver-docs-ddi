@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 44839b9e-f206-49e6-a9f6-14e79d1e0ae2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortWaveRTStream, IPortWaveRTStream::AllocatePagesForMdl, AllocatePagesForMdl
+ms.keywords: AllocatePagesForMdl method [Audio Devices], IPortWaveRTStream::AllocatePagesForMdl, AllocatePagesForMdl, IPortWaveRTStream, audio.iportwavertstream_allocatepagesformdl, portcls/IPortWaveRTStream::AllocatePagesForMdl, audmp-routines_2722e5c2-7fd2-4b72-acbf-474313bca229.xml, IPortWaveRTStream interface [Audio Devices], AllocatePagesForMdl method, AllocatePagesForMdl method [Audio Devices], IPortWaveRTStream interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later Windows operatin
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPortWaveRTStream.AllocatePagesForMdl
-req.alt-loc: Portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: Passive level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Portcls.h
+apiname: 
+-	IPortWaveRTStream.AllocatePagesForMdl
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPortWaveRTStream::AllocatePagesForMdl method
 
 
-
 ## -description
+
+
 The <code>AllocatePagesForMdl</code> method allocates a list of nonpaged physical memory pages and returns a pointer to a memory descriptor list (<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>) that describes them.
 
 
-
 ## -syntax
+
 
 ````
 PMDL AllocatePagesForMdl(
@@ -54,6 +64,9 @@ PMDL AllocatePagesForMdl(
 
 
 ## -parameters
+
+
+
 
 ### -param HighAddress [in]
 
@@ -66,10 +79,15 @@ Specifies the total number of bytes to allocate for the MDL. This method always 
 
 
 ## -returns
+
+
 <code>AllocatePagesforMdl</code> returns a pointer to an MDL that describes a list of physical memory pages. If the method is unable to allocate the requested buffer, it returns <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 Since the Windows audio stack does not support a mechanism to express memory access alignment requirements for buffers, audio drivers must select a caching type for mapped memory buffers that does not impose platform-specific alignment requirements. In other words, the caching type used by the audio driver for mapped memory buffers, must not make assumptions about the memory alignment requirements for any specific platform.
 
 The driver calls this method to allocate memory that can be mapped to user or kernel mode. The physical memory pages in the MDL are not necessarily contiguous in physical memory, but they all fall within the specified address range.
@@ -81,18 +99,15 @@ If the DMA controller of the audio device requires the physical memory pages in 
 Like the <a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl </a> function, the <code>AllocatePagesforMdl</code> method allocates memory pages that are locked (nonpaged) but unmapped. If the miniport driver wants to set up software access to this memory, the miniport driver must make a subsequent call to <a href="https://msdn.microsoft.com/90f412de-073f-4889-adf3-898cde0206b7">IPortWaveRTStream::MapAllocatedPages </a> to map the pages into kernel-mode address space. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536924">IPortWaveRTStream::AllocateContiguousPagesForMdl</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536932">IPortWaveRTStream::MapAllocatedPages</a>
-</dt>
-</dl>
+
  
 
  

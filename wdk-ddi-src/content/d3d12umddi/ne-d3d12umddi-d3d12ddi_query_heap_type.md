@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8A1A42B5-D978-4019-825B-94DB81C44FEA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_QUERY_HEAP_TYPE, D3D12DDI_QUERY_HEAP_TYPE
+ms.keywords: display.d3d12ddi_query_heap_type, d3d12umddi/D3D12DDI_QUERY_HEAP_TYPE, D3D12DDI_QUERY_HEAP_TYPE enumeration [Display Devices], D3D12DDI_QUERY_HEAP_TYPE_OCCLUSION, d3d12umddi/D3D12DDI_QUERY_HEAP_TYPE_OCCLUSION, d3d12umddi/D3D12DDI_QUERY_HEAP_TYPE_SO_STATISTICS, D3D12DDI_QUERY_HEAP_TYPE_PIPELINE_STATISTICS, d3d12umddi/D3D12DDI_QUERY_HEAP_TYPE_PIPELINE_STATISTICS, D3D12DDI_QUERY_HEAP_TYPE_TIMESTAMP, d3d12umddi/D3D12DDI_QUERY_HEAP_TYPE_0032_COPY_QUEUE_TIMESTAMP, d3d12umddi/D3D12DDI_QUERY_HEAP_TYPE_TIMESTAMP, D3D12DDI_QUERY_HEAP_TYPE_0020_VIDEO_DECODE_STATISTICS, D3D12DDI_QUERY_HEAP_TYPE_0032_COPY_QUEUE_TIMESTAMP, d3d12umddi/D3D12DDI_QUERY_HEAP_TYPE_0020_VIDEO_DECODE_STATISTICS, D3D12DDI_QUERY_HEAP_TYPE_SO_STATISTICS, D3D12DDI_QUERY_HEAP_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_QUERY_HEAP_TYPE
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_QUERY_HEAP_TYPE
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_QUERY_HEAP_TYPE
 ---
 
 # D3D12DDI_QUERY_HEAP_TYPE enumeration
 
 
-
 ## -description
+
+
 Type of a query heap, which is an array of query results.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D12DDI_QUERY_HEAP_TYPE { 
@@ -58,6 +68,9 @@ typedef enum D3D12DDI_QUERY_HEAP_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D12DDI_QUERY_HEAP_TYPE_OCCLUSION
 
@@ -88,5 +101,3 @@ Video decode statistics.
 
 Copy queue timestamp.
 
-
-## -remarks

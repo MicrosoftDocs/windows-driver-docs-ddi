@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: c7d9f8b1-a18f-4644-aaee-c019692e62a6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_BUS_INTERFACE_USBDI_V2, USB_BUS_INTERFACE_USBDI_V2, *PUSB_BUS_INTERFACE_USBDI_V2
+ms.keywords: _USB_BUS_INTERFACE_USBDI_V2, buses.usb_bus_interface_usbdi_v2, usbbusif/PUSB_BUS_INTERFACE_USBDI_V2, PUSB_BUS_INTERFACE_USBDI_V2, *PUSB_BUS_INTERFACE_USBDI_V2, USB_BUS_INTERFACE_USBDI_V2, PUSB_BUS_INTERFACE_USBDI_V2 structure pointer [Buses], usbinterKR_bcb1539a-bd26-421b-b8b3-c135ffe45e57.xml, USB_BUS_INTERFACE_USBDI_V2 structure [Buses], usbbusif/USB_BUS_INTERFACE_USBDI_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_BUS_INTERFACE_USBDI_V2
-req.alt-loc: usbbusif.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbbusif.h
+apiname: 
+-	USB_BUS_INTERFACE_USBDI_V2
+product: Windows
+targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V2, *PUSB_BUS_INTERFACE_USBDI_V2
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _USB_BUS_INTERFACE_USBDI_V2 structure
 
 
-
 ## -description
+
+
 The <b>USB_BUS_INTERFACE_USBDI_V2</b> structure is provided by the USB hub driver to allow USB clients to make direct calls to the hub driver without allocating IRPs. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USB_BUS_INTERFACE_USBDI_V2 {
@@ -65,6 +75,9 @@ typedef struct _USB_BUS_INTERFACE_USBDI_V2 {
 
 ## -struct-fields
 
+
+
+
 ### -field Size
 
 Specifies the size in bytes of the buffer that holds the interface pointers. 
@@ -73,7 +86,6 @@ Specifies the size in bytes of the buffer that holds the interface pointers.
 ### -field Version
 
 Indicates, on input, the version of the interface. The values that this member can take are as follows.
-
 <table>
 <tr>
 <th>Value</th>
@@ -119,8 +131,7 @@ Version 3 of the interface.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field BusContext
@@ -169,20 +180,20 @@ Reserved. Do not use.
 
 
 ## -remarks
+
+
 The <b>IsDeviceHighSpeed</b> routine does not indicate whether a device is capable of high-speed operation, but whether it is in fact operating at high speed. 
 
 The routines in this structure must be callable at IRQL &gt;= DISPATCH_LEVEL. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/1b571ee0-d47f-40b6-8beb-d57b49ae3ac8">Bus Driver Interface Routines for USB Client Drivers</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
  
 
  

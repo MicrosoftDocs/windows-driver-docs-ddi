@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e5c2d421-5994-4f1d-9022-718500eef1a9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CDROM_SET_STREAMING, CDROM_SET_STREAMING, *PCDROM_SET_STREAMING
+ms.keywords: CDROM_SET_STREAMING structure [Storage Devices], ntddcdrm/CDROM_SET_STREAMING, storage.cdrom_set_streaming, _CDROM_SET_STREAMING, structs-CD-ROM_5157906e-31d2-42c7-8e90-cc673ed02510.xml, *PCDROM_SET_STREAMING, PCDROM_SET_STREAMING structure pointer [Storage Devices], ntddcdrm/PCDROM_SET_STREAMING, CDROM_SET_STREAMING, PCDROM_SET_STREAMING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CDROM_SET_STREAMING
-req.alt-loc: ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdrm.h
+apiname: 
+-	CDROM_SET_STREAMING
+product: Windows
+targetos: Windows
 req.typenames: CDROM_SET_STREAMING, *PCDROM_SET_STREAMING
 ---
 
 # _CDROM_SET_STREAMING structure
 
 
-
 ## -description
+
+
 The CDROM_SET_SPEED structure is used with the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a> request to set the spindle speed of a CD-ROM drive during isochronous transfers that permit some data loss.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CDROM_SET_STREAMING {
@@ -64,6 +74,9 @@ typedef struct _CDROM_SET_STREAMING {
 
 
 ## -struct-fields
+
+
+
 
 ### -field RequestType
 
@@ -125,24 +138,16 @@ A BOOLEAN value that, when <b>TRUE</b>, instructs the CD-ROM class driver to con
 A BOOLEAN value that, when <b>TRUE</b>, instructs the CD-ROM class driver to configure the CD-ROM drive to restore the default speed when the user changes the media. A value of <b>FALSE</b>  instructs the CD-ROM class driver to configure the CD-ROM drive to maintain its speed until the computer restarts or the class driver changes the speed with another command.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_set_speed.md">CDROM_SET_SPEED</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_speed_request.md">CDROM_SPEED_REQUEST</a>
-</dt>
-<dt>
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a>
-</dt>
-<dt>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_set_speed.md">CDROM_SET_SPEED</a>
+
 <a href="..\ntddcdrm\ne-ntddcdrm-_write_rotation.md">WRITE_ROTATION</a>
-</dt>
-</dl>
+
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a>
+
  
 
  

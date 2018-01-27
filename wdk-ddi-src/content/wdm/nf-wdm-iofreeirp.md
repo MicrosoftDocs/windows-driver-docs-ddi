@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4a032d44-c6c2-4dce-97ea-28ac47f6ad6c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoFreeIrp
+ms.keywords: IoFreeIrp routine [Kernel-Mode Driver Architecture], kernel.iofreeirp, k104_fc262cc4-a482-4a92-9f8e-1e5765c9b1d4.xml, IoFreeIrp, wdm/IoFreeIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoFreeIrp
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IoAllocateFree, IoBuildDeviceControlNoFree, IoBuildFsdFree, IoBuildSynchronousFsdRequestNoFree, HwStorPortProhibitedDDIs, IoFreeIrp
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoFreeIrp
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoFreeIrp function
 
 
-
 ## -description
+
+
 The <b>IoFreeIrp</b> routine releases a caller-allocated IRP from the caller's <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a> routine.
 
 
-
 ## -syntax
+
 
 ````
 VOID IoFreeIrp(
@@ -55,16 +65,24 @@ VOID IoFreeIrp(
 
 ## -parameters
 
+
+
+
 ### -param Irp [in]
 
 Pointer to the IRP that is to be released.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 This routine is the reciprocal to <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a> or <a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>. The released IRP must have been allocated by the caller.
 
 This routine also releases an IRP allocated with <a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a> in which the caller set up its <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a> routine that returns STATUS_MORE_PROCESSING_REQUIRED for the associated IRP.
@@ -72,24 +90,19 @@ This routine also releases an IRP allocated with <a href="..\ntddk\nf-ntddk-ioma
 <b>IoFreeIrp</b> does not free any MDLs that might be attached to the IRP. The driver that frees the IRP must explicitly free these MDLs. In addition, if the physical pages that are described by an MDL are locked, the driver must unlock the pages before it frees the MDL. However, the driver does not need to explicitly unmap these pages. Instead, <a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a> automatically unmaps the pages when it frees the MDL. For a code example that shows how to free an MDL chain, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565421">Using MDLs</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
-</dt>
-<dt>
-<a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
+
+<a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>
+
+<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
+
+<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+
  
 
  

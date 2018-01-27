@@ -7,8 +7,8 @@ old-location: image\stinotify.htm
 old-project: image
 ms.assetid: 7dc42f9a-2e55-4ae5-a951-7d1d3b14564b
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: _STINOTIFY, *LPSTINOTIFY, STINOTIFY
+ms.date: 1/18/2018
+ms.keywords: stifnc_2cee63fa-a7a5-4a15-be83-e536a504bcb7.xml, LPSTINOTIFY structure pointer [Imaging Devices], image.stinotify, sti/LPSTINOTIFY, STINOTIFY, LPSTINOTIFY, sti/STINOTIFY, _STINOTIFY, *LPSTINOTIFY, STINOTIFY structure [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STINOTIFY
-req.alt-loc: sti.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPSTINOTIFY, STINOTIFY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	sti.h
+apiname: 
+-	STINOTIFY
+product: Windows
+targetos: Windows
+req.typenames: STINOTIFY, *LPSTINOTIFY
 req.product: Windows 10 or later.
 ---
 
 # _STINOTIFY structure
 
 
-
 ## -description
+
+
 The STINOTIFY structure is used as a parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543796">IStillImage::LaunchApplicationForDevice</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543751">IStiDevice::GetLastNotificationData</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543821">IStiUSD::GetNotificationData</a> methods.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STINOTIFY {
@@ -56,6 +66,9 @@ typedef struct _STINOTIFY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwSize
 
@@ -71,5 +84,3 @@ GUID of the event. For more information, see <a href="https://msdn.microsoft.com
 
 Byte array containing optional, vendor-defined information.
 
-
-## -remarks

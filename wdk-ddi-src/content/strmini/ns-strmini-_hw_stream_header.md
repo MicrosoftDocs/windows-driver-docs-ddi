@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1931c640-666b-4db5-8d05-eab43ae96665
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _HW_STREAM_HEADER, *PHW_STREAM_HEADER, HW_STREAM_HEADER
+ms.keywords: *PHW_STREAM_HEADER, PHW_STREAM_HEADER, _HW_STREAM_HEADER, HW_STREAM_HEADER structure [Streaming Media Devices], stream.hw_stream_header, HW_STREAM_HEADER, PHW_STREAM_HEADER structure pointer [Streaming Media Devices], strmini/PHW_STREAM_HEADER, strclass-struct_bf41c526-276a-4e94-9d27-97177a3164bc.xml, strmini/HW_STREAM_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HW_STREAM_HEADER
-req.alt-loc: strmini.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	strmini.h
+apiname: 
+-	HW_STREAM_HEADER
+product: Windows
+targetos: Windows
 req.typenames: *PHW_STREAM_HEADER, HW_STREAM_HEADER
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _HW_STREAM_HEADER structure
 
 
-
 ## -description
+
+
 The HW_STREAM_HEADER structure describes the kernel streaming semantics supported by the minidriver as a whole, as part of a <a href="..\strmini\ns-strmini-_hw_stream_descriptor.md">HW_STREAM_DESCRIPTOR</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _HW_STREAM_HEADER {
@@ -62,6 +72,9 @@ typedef struct _HW_STREAM_HEADER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NumberOfStreams
 
@@ -103,23 +116,27 @@ Pointer to the <a href="..\ks\ns-ks-kstopology.md">KSTOPOLOGY</a> structure that
 Points to the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568457">StrMiniEvent</a> routine.
 
 
+### -field NumDevMethodArrayEntries
+
+ 
+
+
+### -field DeviceMethodsArray
+
+ 
+
+
 ### -field Reserved
 
 Reserved for system use. Do not use.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\strmini\ns-strmini-_hw_stream_information.md">HW_STREAM_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\strmini\ns-strmini-_hw_stream_descriptor.md">HW_STREAM_DESCRIPTOR</a>
-</dt>
-</dl>
+
+<a href="..\strmini\ns-strmini-_hw_stream_information.md">HW_STREAM_INFORMATION</a>
+
  
 
  

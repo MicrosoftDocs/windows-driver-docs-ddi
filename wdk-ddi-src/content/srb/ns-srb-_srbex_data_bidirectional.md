@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: B61247DC-8AC3-4A96-985B-A4CAC232555E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL, *PSRBEX_DATA_BIDIRECTIONAL
+ms.keywords: *PSRBEX_DATA_BIDIRECTIONAL, storport/PSRBEX_DATA_BIDIRECTIONAL, storage.srbex_data_bidirectional, storport/SRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL, _SRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL structure [Storage Devices], PSRBEX_DATA_BIDIRECTIONAL, PSRBEX_DATA_BIDIRECTIONAL structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SRBEX_DATA_BIDIRECTIONAL
-req.alt-loc: Storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: SRBEX_DATA_BIDIRECTIONAL, *PSRBEX_DATA_BIDIRECTIONAL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Storport.h
+apiname: 
+-	SRBEX_DATA_BIDIRECTIONAL
+product: Windows
+targetos: Windows
+req.typenames: *PSRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL
 req.product: Windows 10 or later.
 ---
 
 # _SRBEX_DATA_BIDIRECTIONAL structure
 
 
-
 ## -description
+
+
 The <b>SRBEX_DATA_BIDIRECTIONAL</b> structure contains the extended SRB data for bi-directional transfer commands.
-
-
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 typedef struct _SRBEX_DATA_BIDIRECTIONAL {
@@ -58,6 +68,9 @@ typedef struct _SRBEX_DATA_BIDIRECTIONAL {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Type
 
@@ -84,15 +97,10 @@ This member is reserved. Set to 0.
 A pointer to the buffer that contains the data sent from the device.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
-</dt>
-</dl>
+
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
  
 
  

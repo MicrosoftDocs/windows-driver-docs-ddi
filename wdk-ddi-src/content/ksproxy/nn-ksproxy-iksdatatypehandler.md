@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ef08d375-1ac6-489f-9fd4-f791ce82c553
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSynchronousDeviceControl
+ms.keywords: stream.iksdatatypehandler, IKsDataTypeHandler interface [Streaming Media Devices], IKsDataTypeHandler interface [Streaming Media Devices], described, IKsDataTypeHandler, ksproxy/IKsDataTypeHandler, ksproxy_fd2ab182-1556-438e-bc5e-fe1339d0d865.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsDataTypeHandler
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,71 +29,33 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsDataTypeHandler
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsDataTypeHandler interface
 
 
-
 ## -description
+
+
 The <b>IKsDataTypeHandler</b> interface provides methods that perform optional preprocessing and postprocessing of media samples. This interface also can return the size of extra stream header information that is required for processing and can determine if a particular media type is within a given set of kernel streaming data ranges. 
 
 The IID for this interface is IID_IKsDataTypeHandler.
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsDataTypeHandler</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IKsDataTypeHandler</b> also has these types of members:
-
-The <b>IKsDataTypeHandler</b> interface has these methods.
-
-Cleans up the extended header and completes the I/O operation.
-
-Validates that a media type is within specific data ranges.
-
-Initializes the extended header and prepares the media sample for an I/O operation.
-
-Retrieves extended header information required for I/O operations.
-
-Sets the media type for a data handler.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsDataTypeHandler</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IKsDataTypeHandler</b> also has these types of members:
-
-The <b>IKsDataTypeHandler</b> interface has these methods.
-
-Cleans up the extended header and completes the I/O operation.
-
-Validates that a media type is within specific data ranges.
-
-Initializes the extended header and prepares the media sample for an I/O operation.
-
-Retrieves extended header information required for I/O operations.
-
-Sets the media type for a data handler.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsDataTypeHandler</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IKsDataTypeHandler</b> also has these types of members:
-
-The <b>IKsDataTypeHandler</b> interface has these methods.
-
-Cleans up the extended header and completes the I/O operation.
-
-Validates that a media type is within specific data ranges.
-
-Initializes the extended header and prepares the media sample for an I/O operation.
-
-Retrieves extended header information required for I/O operations.
-
-Sets the media type for a data handler.
-
- 
-
-
 ## -members
+
 The <b>IKsDataTypeHandler</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -161,6 +121,8 @@ Sets the media type for a data handler.
 
 
 ## -remarks
+
+
 In order to keep the proxy data type neutral, optional data type handlers can be loaded to massage the data stream as it passes to or from kernel-mode filters. You should implement a data type handler as a COM server that, at least, supports the <b>IKsDataTypeHandler</b> interface. Your data type handler can optionally support the <a href="..\ksproxy\nn-ksproxy-iksdatatypecompletion.md">IKsDataTypeCompletion</a> interface. 
 
 A data type handler is typically loaded during the pin connection process, and unloaded when the connection is broken. However, a data type handler is sometimes loaded briefly for other purposes. For instance, if an application uses DirectShow's <b>IAMStreamConfig::SetFormat</b> method, the application possibly uses a data type handler to complete a partial media type parameter sent to the method. 
@@ -172,12 +134,11 @@ On a data type handler create request through <b>CoCreateInstance</b>, the serve
 For more information about <b>IAMStreamConfig::SetFormat</b> and <b>CoCreateInstance</b>, see the Microsoft Windows SDK documentation.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksproxy\nn-ksproxy-iksdatatypecompletion.md">IKsDataTypeCompletion</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: ec6739d3-5956-4cc2-90ff-75c67c0a84e7
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1
+ms.keywords: bltooth.ioctl_bth_sdp_submit_record, IOCTL_BTH_SDP_SUBMIT_RECORD control code [Bluetooth Devices], IOCTL_BTH_SDP_SUBMIT_RECORD, bthioctl/IOCTL_BTH_SDP_SUBMIT_RECORD, bth_ioctls_e32ecb99-7a41-4405-844e-8c1038d3cb89.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_BTH_SDP_SUBMIT_RECORD
-req.alt-loc: Bthioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bthioctl.h
+apiname: 
+-	IOCTL_BTH_SDP_SUBMIT_RECORD
+product: Windows
+targetos: Windows
 req.typenames: *PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1
 ---
 
 # IOCTL_BTH_SDP_SUBMIT_RECORD IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
-The IOCTL_BTH_SDP_SUBMIT_RECORD request allows a profile driver to add an SDP record to the local SDP
-     server, allowing the client to advertise that a service is available on the local computer. The profile
-     driver calls 
-     <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_remove_record.md">IOCTL_BTH_SDP_REMOVE_RECORD</a> to
-     stop advertising the server on the local SDP server.
-
 
 
 The IOCTL_BTH_SDP_SUBMIT_RECORD request allows a profile driver to add an SDP record to the local SDP
@@ -53,22 +60,29 @@ The IOCTL_BTH_SDP_SUBMIT_RECORD request allows a profile driver to add an SDP re
      driver calls 
      <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_remove_record.md">IOCTL_BTH_SDP_REMOVE_RECORD</a> to
      stop advertising the server on the local SDP server.
+
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 The 
       <b>AssociatedIrp.SystemBuffer</b> member specifies the raw SDP stream that contains the record to
       advertise.
 
 
 ### -input-buffer-length
+
 The length of the stream.
 
 
 ### -output-buffer
+
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a handle to the SDP record. This
       handle can only be used by IOCTL_BTH_SDP_REMOVE_RECORD to remove the record submitted by
@@ -76,19 +90,26 @@ The
 
 
 ### -output-buffer-length
+
 The length of the buffer.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 If the request is successful, the 
       <b>Information</b> member of the STATUS_BLOCK structure is set to the size, in bytes, of the handle that
       the IOCTL returns. Otherwise, the 
@@ -96,35 +117,58 @@ If the request is successful, the
 
 The 
       <b>Status</b> member is set to one of the values in the following table.
-
+<table>
+<tr>
+<th>Status value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
 STATUS_SUCCESS
 
+</td>
+<td>
 The IOCTL completed successfully.
 
+</td>
+</tr>
+<tr>
+<td>
 STATUS_INSUFFICIENT_RESOURCES
 
+</td>
+<td>
 Not enough memory was allocated to process this request.
 
+</td>
+</tr>
+<tr>
+<td>
 STATUS_INVALID_BUFFER_SIZE
 
+</td>
+<td>
 The output buffer was sized incorrectly.
 
+</td>
+</tr>
+<tr>
+<td>
 STATUS_INVALID_PARAMETER
 
+</td>
+<td>
 The stream passed to the input buffer was invalid.
 
- 
-
-
-## -remarks
+</td>
+</tr>
+</table> 
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_remove_record.md">IOCTL_BTH_SDP_REMOVE_RECORD</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0df0fcba-9ae8-4c69-957a-5685ea40c378
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeInitializeDeviceQueue
+ms.keywords: kernel.keinitializedevicequeue, k105_5d7ea571-8c88-45f7-917c-e42e6caac514.xml, KeInitializeDeviceQueue, wdm/KeInitializeDeviceQueue, KeInitializeDeviceQueue routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeInitializeDeviceQueue
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlKeDispatchLte, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeInitializeDeviceQueue
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeInitializeDeviceQueue function
 
 
-
 ## -description
+
+
 The <b>KeInitializeDeviceQueue</b> routine initializes a device queue object to a not-busy state.
 
 
-
 ## -syntax
+
 
 ````
 VOID KeInitializeDeviceQueue(
@@ -55,36 +65,40 @@ VOID KeInitializeDeviceQueue(
 
 ## -parameters
 
+
+
+
 ### -param DeviceQueue [out]
 
 Pointer to a device queue object for which the caller provides the storage. 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>KeInitializeDeviceQueue</b> initializes the specified device queue and sets its state to not-busy.
 
 A driver should call <b>KeInitializeDeviceQueue</b> from its <i>AddDevice</i> routine after creating the device object for the associated device. Storage for the device queue object must be resident: in the device extension of a driver-created device object, in the controller extension of a driver-created controller object, or in nonpaged pool allocated by the caller. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keinsertdevicequeue.md">KeInsertDeviceQueue</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-keremovedevicequeue.md">KeRemoveDeviceQueue</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-keinsertdevicequeue.md">KeInsertDeviceQueue</a>
+
+<a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
+
  
 
  

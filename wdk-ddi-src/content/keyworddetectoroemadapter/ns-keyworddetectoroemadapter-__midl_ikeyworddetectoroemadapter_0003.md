@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 762A7E36-E0F8-475C-B201-217D8FD8EBD6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: __MIDL_IKeywordDetectorOemAdapter_0003, KEYWORDSELECTOR
+ms.keywords: audio.keywordselector, keyworddetectoroemadapter/KEYWORDSELECTOR, KEYWORDSELECTOR, __MIDL_IKeywordDetectorOemAdapter_0003, KEYWORDSELECTOR structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KEYWORDSELECTOR
-req.alt-loc: KeywordDetectorOemAdapter.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: KeywordDetectorOemAdapter.idl
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	KeywordDetectorOemAdapter.h
+apiname: 
+-	KEYWORDSELECTOR
+product: Windows
+targetos: Windows
 req.typenames: KEYWORDSELECTOR
 ---
 
 # __MIDL_IKeywordDetectorOemAdapter_0003 structure
 
 
-
 ## -description
+
+
 The <b>KEYWORDSELECTOR</b> struct is a triplet of IDs that uniquely select a particular keyword, language, and user combination.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field KeywordId
 
 Identifies a keyword function.
@@ -64,5 +77,3 @@ Identifies a keyword function.
 
 Identifies a language.
 
-
-## -remarks

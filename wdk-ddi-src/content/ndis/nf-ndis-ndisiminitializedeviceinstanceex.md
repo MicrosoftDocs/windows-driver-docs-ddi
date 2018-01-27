@@ -7,8 +7,8 @@ old-location: netvista\ndisiminitializedeviceinstanceex.htm
 old-project: netvista
 ms.assetid: f65c2974-4bf4-4948-ac07-527e69c96303
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisIMInitializeDeviceInstanceEx
+ms.date: 1/18/2018
+ms.keywords: netvista.ndisiminitializedeviceinstanceex, NdisIMInitializeDeviceInstanceEx, intermediate_ref_37fbd7e8-287e-49dc-8de5-6b438a305804.xml, NdisIMInitializeDeviceInstanceEx function [Network Drivers Starting with Windows Vista], ndis/NdisIMInitializeDeviceInstanceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see     
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisIMInitializeDeviceInstanceEx
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_IM_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,35 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisIMInitializeDeviceInstanceEx
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisIMInitializeDeviceInstanceEx function
 
 
-
 ## -description
+
+
 The
   <b>NdisIMInitializeDeviceInstanceEx</b> function initiates the initialization operation for a virtual
   miniport and optionally sets up state information about the virtual miniport for subsequently bound
   protocol drivers.
 
 
-
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisIMInitializeDeviceInstanceEx(
@@ -59,11 +70,14 @@ NDIS_STATUS NdisIMInitializeDeviceInstanceEx(
 
 ## -parameters
 
+
+
+
 ### -param DriverHandle [in]
 
 The miniport driver handle that the 
-     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
-     NdisMRegisterMiniportDriver</a> function returns at 
+     <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
+     NdisMRegisterMiniportDriver</b></mshelp:link> function returns at 
      <i>NdisMiniportDriverHandle</i> .
 
 
@@ -86,20 +100,45 @@ A pointer to caller-supplied memory to be set up with driver-defined device cont
 
 
 ## -returns
+
+
 <b>NdisIMInitializeDeviceInstanceEx</b> can return either of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_SUCCESS</b></dt>
-</dl>NDIS initiated the initialization operation for the intermediate driver's virtual
+</dl>
+</td>
+<td width="60%">
+NDIS initiated the initialization operation for the intermediate driver's virtual
        miniport.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>NDIS_STATUS_NOT_ACCEPTED</b></dt>
-</dl><b>NdisIMInitializeDeviceInstanceEx</b> failed because the device specified by 
+</dl>
+</td>
+<td width="60%">
+<b>NdisIMInitializeDeviceInstanceEx</b> failed because the device specified by 
        <i>DriverHandle</i> has already been initialized.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 An NDIS intermediate driver should call 
     <b>NdisIMInitializeDeviceInstanceEx</b> from its 
     <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> function. A
@@ -133,8 +172,8 @@ The call to
     <i>MiniportInitializeEx</i> for the virtual miniport that is referenced in a call to 
     <b>NdisIMInitializeDeviceInstanceEx</b> and the intermediate driver no longer requires the virtual
     miniport, the intermediate driver should call the 
-    <a href="..\ndis\nf-ndis-ndisimcancelinitializedeviceinstance.md">
-    NdisIMCancelInitializeDeviceInstance</a> function to cancel the initialization of the virtual miniport.
+    <mshelp:link keywords="netvista.ndisimcancelinitializedeviceinstance" tabindex="0"><b>
+    NdisIMCancelInitializeDeviceInstance</b></mshelp:link> function to cancel the initialization of the virtual miniport.
     For example, suppose that an intermediate driver creates a virtual miniport in response to a successful
     binding to an underlying miniport adapter. If that binding is removed before NDIS calls 
     <i>MiniportInitializeEx</i>, the intermediate driver should call 
@@ -142,8 +181,8 @@ The call to
 
 <i>MiniportInitializeEx</i> allocates any resources that the driver requires to carry out network I/O
     operations, such as calling the 
-    <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
-    NdisMSetMiniportAttributes</a> function, and to initialize the driver's virtual miniport to an
+    <mshelp:link keywords="netvista.ndismsetminiportattributes" tabindex="0"><b>
+    NdisMSetMiniportAttributes</b></mshelp:link> function, and to initialize the driver's virtual miniport to an
     operational state. Then, higher-level protocol drivers can bind themselves to its virtual miniport when
     the intermediate driver's initialization is completed successfully.
 
@@ -152,69 +191,56 @@ After
     contain any intermediate-driver-defined data that subsequently enables all higher-level protocol drivers
     that are bound to the same virtual miniport to access information in that context area. Such a
     higher-level protocol driver can query the intermediate-driver-supplied device context with the 
-    <a href="..\ndis\nf-ndis-ndisimgetbindingcontext.md">
-    NdisIMGetBindingContext</a> function.
+    <mshelp:link keywords="netvista.ndisimgetbindingcontext" tabindex="0"><b>
+    NdisIMGetBindingContext</b></mshelp:link> function.
 
 Before NDIS calls an intermediate driver's 
     <i>MiniportInitializeEx</i> function, the driver can call 
-    <a href="..\ndis\nf-ndis-ndisimcancelinitializedeviceinstance.md">
-    NdisIMCancelInitializeDeviceInstance</a> to cancel the initialization operation.
+    <mshelp:link keywords="netvista.ndisimcancelinitializedeviceinstance" tabindex="0"><b>
+    NdisIMCancelInitializeDeviceInstance</b></mshelp:link> to cancel the initialization operation.
 
 After NDIS calls an intermediate driver's 
     <i>MiniportInitializeEx</i> function, the driver must call 
-    <a href="..\ndis\nf-ndis-ndisimdeinitializedeviceinstance.md">
-    NdisIMDeInitializeDeviceInstance</a> to reverse the initialization operation.
+    <mshelp:link keywords="netvista.ndisimdeinitializedeviceinstance" tabindex="0"><b>
+    NdisIMDeInitializeDeviceInstance</b></mshelp:link> to reverse the initialization operation.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
-   NdisAllocateMemoryWithTagPriority</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisimcancelinitializedeviceinstance.md">
-   NdisIMCancelInitializeDeviceInstance</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisimdeinitializedeviceinstance.md">
-   NdisIMDeInitializeDeviceInstance</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisimgetbindingcontext.md">NdisIMGetBindingContext</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
-   NdisIMInitializeDeviceInstanceEx</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-</dt>
-<dt>
+
+<a href="..\ndis\nf-ndis-ndisimgetbindingcontext.md">NdisIMGetBindingContext</a>
+
+<mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
+   NdisAllocateMemoryWithTagPriority</b></mshelp:link>
+
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<mshelp:link keywords="netvista.ndisimcancelinitializedeviceinstance" tabindex="0"><b>
+   NdisIMCancelInitializeDeviceInstance</b></mshelp:link>
+
+<mshelp:link keywords="netvista.ndisiminitializedeviceinstanceex" tabindex="0"><b>
+   NdisIMInitializeDeviceInstanceEx</b></mshelp:link>
+
+<mshelp:link keywords="netvista.ndisimdeinitializedeviceinstance" tabindex="0"><b>
+   NdisIMDeInitializeDeviceInstance</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisIMInitializeDeviceInstanceEx function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisIMInitializeDeviceInstanceEx function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

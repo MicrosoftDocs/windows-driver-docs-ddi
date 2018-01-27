@@ -7,8 +7,8 @@ old-location: netvista\riluicccardinfo_2.htm
 old-project: netvista
 ms.assetid: c49d538c-49c9-43ba-bc97-324706a5a5b9
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILUICCCARDINFO, *LPRILUICCCARDINFO, RILUICCCARDINFO
+ms.date: 1/18/2018
+ms.keywords: RILUICCCARDINFO, rilapitypes/RILUICCCARDINFO, netvista.riluicccardinfo_2, RILUICCCARDINFO structure [Network Drivers Starting with Windows Vista], *LPRILUICCCARDINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILUICCCARDINFO
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILUICCCARDINFO, RILUICCCARDINFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILUICCCARDINFO
+product: Windows
+targetos: Windows
+req.typenames: RILUICCCARDINFO, *LPRILUICCCARDINFO
 req.product: Windows 10 or later.
 ---
 
 # RILUICCCARDINFO structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILUICCCARDINFO {
@@ -60,22 +70,29 @@ typedef struct _RILUICCCARDINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field fIsVirtualCard
+
 
 
 ### -field IccId
 
 
+
 ### -field dwNumApps
+
 
 
 ### -field AppInfo
 
 
-## -remarks

@@ -7,8 +7,8 @@ old-location: netvista\ndismcmdispatchincomingcallqoschange.htm
 old-project: netvista
 ms.assetid: e3da62c2-4940-4c55-8232-1780d92b7f1f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisMCmDispatchIncomingCallQoSChange
+ms.date: 1/18/2018
+ms.keywords: ndis/NdisMCmDispatchIncomingCallQoSChange, condis_mcm_ref_d926c691-a75e-4195-9026-67429043a821.xml, NdisMCmDispatchIncomingCallQoSChange macro [Network Drivers Starting with Windows Vista], netvista.ndismcmdispatchincomingcallqoschange, NdisMCmDispatchIncomingCallQoSChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see     
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisMCmDispatchIncomingCallQoSChange
-req.alt-loc: ndis.h
 req.ddi-compliance: Irql_MCM_Function
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ndis.h
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ndis.h
+apiname: 
+-	NdisMCmDispatchIncomingCallQoSChange
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCmDispatchIncomingCallQoSChange macro
 
 
-
 ## -description
+
+
 <b>NdisMCmDispatchIncomingCallQoSChange</b> notifies a client that a request to change the quality of
   service on that client's active connection has been received over the network.
 
 
-
 ## -syntax
+
 
 ````
 VOID NdisMCmDispatchIncomingCallQoSChange(
@@ -56,7 +66,29 @@ VOID NdisMCmDispatchIncomingCallQoSChange(
 
 ## -parameters
 
-### -param NdisVcHandle [in]
+
+
+
+### -param _H_
+
+TBD
+
+
+### -param _P_
+
+TBD
+
+
+
+
+#### - CallParameters [in]
+
+Pointer to a structure of type 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that specifies the new
+     QoS, requested by the client on the remote node, for this connection.
+
+
+#### - NdisVcHandle [in]
 
 Specifies the handle to the VC for which the change in QoS is being requested. The MCM driver
      obtained this handle either when it called 
@@ -65,14 +97,9 @@ Specifies the handle to the VC for which the change in QoS is being requested. T
      <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
 
 
-### -param CallParameters [in]
-
-Pointer to a structure of type 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that specifies the new
-     QoS, requested by the client on the remote node, for this connection.
-
-
 ## -remarks
+
+
 An MCM driver calls 
     <b>NdisMCmDispatchIncomingCallQoSChange</b> to notify the client that it has received a request to modify
     the QoS on an active connection. Such an MCM driver supports dynamic QoS changes on active calls, which
@@ -95,38 +122,30 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
     <b>NdisCmDispatchIncomingCallQoSChange</b> instead.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcallqoschange.md">
-   NdisCmDispatchIncomingCallQoSChange</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call_qos_change.md">
-   ProtocolClIncomingCallQosChange</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
+
+<mshelp:link keywords="netvista.ndiscmdispatchincomingcallqoschange" tabindex="0"><b>
+   NdisCmDispatchIncomingCallQoSChange</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+<a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
+
+<mshelp:link keywords="netvista.protocolclincomingcallqoschange" tabindex="0"><i>
+   ProtocolClIncomingCallQosChange</i></mshelp:link>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmDispatchIncomingCallQoSChange macro%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmDispatchIncomingCallQoSChange macro%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

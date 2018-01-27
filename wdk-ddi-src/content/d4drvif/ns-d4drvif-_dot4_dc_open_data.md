@@ -7,8 +7,8 @@ old-location: print\dot4_dc_open_data.htm
 old-project: print
 ms.assetid: 72AE7A78-C02D-4C14-B017-9CEECF34FEDF
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: _DOT4_DC_OPEN_DATA, *PDOT4_DC_OPEN_DATA, DOT4_DC_OPEN_DATA
+ms.date: 1/18/2018
+ms.keywords: _DOT4_DC_OPEN_DATA, d4drvif/DOT4_DC_OPEN_DATA, PDOT4_DC_OPEN_DATA structure pointer [Print Devices], d4drvif/PDOT4_DC_OPEN_DATA, print.dot4_dc_open_data, DOT4_DC_OPEN_DATA, *PDOT4_DC_OPEN_DATA, DOT4_DC_OPEN_DATA structure [Print Devices], PDOT4_DC_OPEN_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DOT4_DC_OPEN_DATA
-req.alt-loc: D4drvif.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D4drvif.h
+apiname: 
+-	DOT4_DC_OPEN_DATA
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_DC_OPEN_DATA, DOT4_DC_OPEN_DATA
 ---
 
 # _DOT4_DC_OPEN_DATA structure
 
 
-
 ## -description
+
+
 This topic describes the <b>DOT4_DC_OPEN_DATA</b> structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DOT4_DC_OPEN_DATA {
@@ -56,14 +66,17 @@ typedef struct _DOT4_DC_OPEN_DATA {
 
 ## -struct-fields
 
+
+
+
 ### -field bHsid
 
 Specifies the host socket created by CREATE_SOCKET.
 
 
-### -field unsigned char
+### -field fAddActivity
 
-Specify TRUE to immediately add activity broadcast upon creation.
+ 
 
 
 ### -field hChannelHandle
@@ -71,4 +84,7 @@ Specify TRUE to immediately add activity broadcast upon creation.
 Specifies the handle to the channel returned.
 
 
-## -remarks
+#### - unsigned char
+
+Specify TRUE to immediately add activity broadcast upon creation.
+

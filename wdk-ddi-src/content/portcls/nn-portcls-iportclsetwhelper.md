@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7BF9E3AB-D508-4FB8-8C47-C0B338933A56
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcUnregisterIoTimeout
+ms.keywords: audio.iportclsetwhelper, IPortClsEtwHelper interface [Audio Devices], IPortClsEtwHelper interface [Audio Devices], described, IPortClsEtwHelper, portcls/IPortClsEtwHelper
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPortClsEtwHelper
-req.alt-loc: Portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,31 +29,33 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Portcls.h
+apiname: 
+-	IPortClsEtwHelper
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPortClsEtwHelper interface
 
 
-
 ## -description
+
+
 The <code>IPortClsEtwHelper</code> interface allows an audio miniport driver to access the Event Tracing for Windows (ETW) helper functions.
 
 The miniport driver uses the information from the helper functions to report glitching errors.
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortClsEtwHelper</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IPortClsEtwHelper</b> also has these types of members:
-
-The <b>IPortClsEtwHelper</b> interface has these methods.
-
-The <code>MiniportWriteEtwEvent</code> method is used by an audio miniport driver for providing the information about an Event Tracing for Windows (ETW) event.
-
- 
-
-
 ## -members
+
 The <b>IPortClsEtwHelper</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -76,15 +76,10 @@ The <code>MiniportWriteEtwEvent</code> method is used by an audio miniport drive
  
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/9FF2A5D6-9382-4EE6-AA21-DCF47210F73B">Glitch Reporting for Offloaded Audio</a>
-</dt>
-</dl>
+
  
 
  

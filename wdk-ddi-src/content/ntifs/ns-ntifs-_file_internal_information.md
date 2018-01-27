@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b82bc943-d9f0-451f-a8ac-f89936e866eb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FILE_INTERNAL_INFORMATION, *PFILE_INTERNAL_INFORMATION, FILE_INTERNAL_INFORMATION
+ms.keywords: PFILE_INTERNAL_INFORMATION structure pointer [Installable File System Drivers], PFILE_INTERNAL_INFORMATION, _FILE_INTERNAL_INFORMATION, ntifs/FILE_INTERNAL_INFORMATION, ntifs/PFILE_INTERNAL_INFORMATION, FILE_INTERNAL_INFORMATION, fileinformationstructures_7be724e0-06ec-4555-bcce-14926b7d92df.xml, *PFILE_INTERNAL_INFORMATION, FILE_INTERNAL_INFORMATION structure [Installable File System Drivers], ifsk.file_internal_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILE_INTERNAL_INFORMATION
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FILE_INTERNAL_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: *PFILE_INTERNAL_INFORMATION, FILE_INTERNAL_INFORMATION
 ---
 
 # _FILE_INTERNAL_INFORMATION structure
 
 
-
 ## -description
+
+
 The FILE_INTERNAL_INFORMATION structure is used to query for the file system's 8-byte file reference number for a file. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILE_INTERNAL_INFORMATION {
@@ -54,19 +64,28 @@ typedef struct _FILE_INTERNAL_INFORMATION {
 
 ## -struct-fields
 
+
+
+
 ### -field IndexNumber
 
 The 8-byte file reference number for the file. This number is assigned by the file system and is file-system-specific. (Note that this is not the same as the 16-byte "file object ID" that was added to NTFS for Microsoft Windows 2000.) 
 
 
 ## -remarks
-This information can be queried in either of the following ways: 
 
+
+This information can be queried in either of the following ways: 
+<ul>
+<li>
 Call <a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a> or <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>, passing FileInternalInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_INTERNAL_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
 
+</li>
+<li>
 Create an IRP with major function code <a href="https://msdn.microsoft.com/library/windows/hardware/ff549283">IRP_MJ_QUERY_INFORMATION</a>. 
 
-No specific access rights are required to query this information. 
+</li>
+</ul>No specific access rights are required to query this information. 
 
 The <b>IndexNumber</b> member of the FILE_INTERNAL_INFORMATION structure is the same as the <b>FileId</b> member of the FILE_ID_BOTH_DIR_INFORMATION and FILE_ID_FULL_DIR_INFORMATION structures. 
 
@@ -77,24 +96,19 @@ The size of the buffer passed in the <i>FileInformation</i> parameter to <a href
 This structure must be aligned on a LONGLONG (8-byte) boundary. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\ns-ntifs-_file_id_both_dir_information.md">FILE_ID_BOTH_DIR_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_file_id_full_dir_information.md">FILE_ID_FULL_DIR_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECTID_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\ns-ntifs-_file_id_full_dir_information.md">FILE_ID_FULL_DIR_INFORMATION</a>
+
+<a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECTID_INFORMATION</a>
+
+<a href="..\ntifs\ns-ntifs-_file_id_both_dir_information.md">FILE_ID_BOTH_DIR_INFORMATION</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
+
  
 
  

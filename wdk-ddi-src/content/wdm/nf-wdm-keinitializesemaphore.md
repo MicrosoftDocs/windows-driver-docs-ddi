@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 447a7ba5-8357-4383-987f-51f5b3c9996c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeInitializeSemaphore
+ms.keywords: KeInitializeSemaphore, kernel.keinitializesemaphore, k105_a966274e-6afe-4569-ae7c-65dccbb3f1dc.xml, wdm/KeInitializeSemaphore, KeInitializeSemaphore routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeInitializeSemaphore
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlKeDispatchLte, PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeInitializeSemaphore
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeInitializeSemaphore function
 
 
-
 ## -description
+
+
 The <b>KeInitializeSemaphore</b> routine initializes a semaphore object with a specified count and specifies an upper limit that the count can attain.
 
 
-
 ## -syntax
+
 
 ````
 VOID KeInitializeSemaphore(
@@ -56,6 +66,9 @@ VOID KeInitializeSemaphore(
 
 
 ## -parameters
+
+
+
 
 ### -param Semaphore [out]
 
@@ -73,10 +86,15 @@ Specifies the maximum count value that the semaphore can attain. This value must
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The semaphore object is initialized with the specified initial count and limit.
 
 Storage for a semaphore object must be resident: in the device extension of a driver-created device object, in the controller extension of a driver-created controller object, or in nonpaged pool allocated by the caller.
@@ -84,21 +102,17 @@ Storage for a semaphore object must be resident: in the device extension of a dr
 For more information about semaphore objects, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563719">Semaphore Objects</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-kereadstatesemaphore.md">KeReadStateSemaphore</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kereleasesemaphore.md">KeReleaseSemaphore</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-kereadstatesemaphore.md">KeReadStateSemaphore</a>
+
+<a href="..\wdm\nf-wdm-kereleasesemaphore.md">KeReleaseSemaphore</a>
+
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-</dt>
-</dl>
+
  
 
  

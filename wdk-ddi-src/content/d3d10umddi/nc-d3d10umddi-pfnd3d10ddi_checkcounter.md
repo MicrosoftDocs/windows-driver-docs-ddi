@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 592a5146-a2fe-41d1-854b-df27a97bd513
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.checkcounter, CheckCounter callback function [Display Devices], CheckCounter, PFND3D10DDI_CHECKCOUNTER, PFND3D10DDI_CHECKCOUNTER, d3d10umddi/CheckCounter, UserModeDisplayDriverDx10_Functions_450a0976-fc56-4a5a-8a01-9c9d1041b628.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CheckCounter
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	CheckCounter
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D10DDI_CHECKCOUNTER callback
 
 
-
 ## -description
+
+
 The <b>CheckCounter</b> function retrieves information that describes a counter. 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D10DDI_CHECKCOUNTER CheckCounter;
@@ -66,20 +76,78 @@ VOID APIENTRY CheckCounter(
 
 ## -parameters
 
-### -param hDevice [in]
+
+
+
+### -param D3D10DDI_HDEVICE
+
+
+
+### -param D3D10DDI_QUERY
+
+
+
+### -param *
+
+
+
+### -param LPSTR
+
+
+
+### -param *pNameLength
+
+
+
+### -param *pUnitsLength
+
+
+
+### -param *pDescriptionLength
+
+
+
+
+
+
+#### - pNameLength [in, out]
+
+A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pName</i> parameter specifies.  
+
+
+#### - pActiveCounters [out]
+
+A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that <i>Query</i> identifies. 
+
+
+#### - hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param Query [in]
+#### - pDescription [out]
 
- A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>-typed value that identifies the counter identifier that information is retrieved for.
+A pointer that the driver returns a NULL-terminated string to that contains the description of what the counter identifier measures. 
 
 
-### -param pCounterType [out]
+#### - pName [out]
+
+A pointer that the driver returns a NULL-terminated string to that contains the name of the counter identifier. 
+
+
+#### - pUnitsLength [in, out]
+
+ A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pUnits</i> parameter specifies. 
+
+
+#### - pUnits [out]
+
+A pointer that the driver returns a NULL-terminated string to that contains the name of the units that the counter identifier measures. 
+
+
+#### - pCounterType [out]
 
 A pointer to a variable that receives one of the following values from the D3D10DDI_COUNTER_TYPE enumeration that identifies the data type that the counter outputs. 
-
 <table>
 <tr>
 <th>Value</th>
@@ -125,52 +193,31 @@ D3D10DDI_COUNTER_TYPE_UINT64
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
-### -param pActiveCounters [out]
+#### - Query [in]
 
-A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that <i>Query</i> identifies. 
-
-
-### -param pName [out]
-
-A pointer that the driver returns a NULL-terminated string to that contains the name of the counter identifier. 
+ A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>-typed value that identifies the counter identifier that information is retrieved for.
 
 
-### -param pNameLength [in, out]
-
-A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pName</i> parameter specifies.  
-
-
-### -param pUnits [out]
-
-A pointer that the driver returns a NULL-terminated string to that contains the name of the units that the counter identifier measures. 
-
-
-### -param pUnitsLength [in, out]
-
- A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pUnits</i> parameter specifies. 
-
-
-### -param pDescription [out]
-
-A pointer that the driver returns a NULL-terminated string to that contains the description of what the counter identifier measures. 
-
-
-### -param pDescriptionLength [in, out]
+#### - pDescriptionLength [in, out]
 
  A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pDescription</i> parameter specifies. 
 
 
 ## -returns
+
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
 
 
+
 ## -remarks
+
+
 The driver's <b>CheckCounter</b> function can call the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set the ERR_UNSUPPORTED error code if the <i>Query</i> parameter of <b>CheckCounter</b>specifies a well-known counter that the device does not support.
 
 The driver must validate a device-dependent counter identifier to ensure the identifier is within range. The driver must also ensure that enough space exists to copy each counter string into each buffer that the Microsoft Direct3D runtime provides. The driver can call the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set the E_INVALIDARG error code if there is not enough space for any of the provided buffers.
@@ -178,18 +225,15 @@ The driver must validate a device-dependent counter identifier to ensure the ide
 The driver's <b>CheckCounter</b> function cannot call the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set the D3DDDIERR_DEVICEREMOVED error code because <b>CheckCounter</b> is a capability-check type of function. The driver must ensure that it has enough information after device creation to respond to a call to <b>CheckCounter</b>, even in the presence of D3DDDIERR_DEVICEREMOVED. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-</dt>
-</dl>
+
  
 
  

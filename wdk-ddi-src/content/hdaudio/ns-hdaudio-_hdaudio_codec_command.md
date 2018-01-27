@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 803e3506-fb63-4d64-b562-1956e99f9d9b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _HDAUDIO_CODEC_COMMAND, *PHDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND
+ms.keywords: hdaudio/PHDAUDIO_CODEC_COMMAND, PHDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND structure [Audio Devices], *PHDAUDIO_CODEC_COMMAND, _HDAUDIO_CODEC_COMMAND, aud-prop2_9e7db610-d310-4285-8556-7a88567c22b6.xml, hdaudio/HDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND, audio.hdaudio_codec_command, PHDAUDIO_CODEC_COMMAND structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HDAUDIO_CODEC_COMMAND
-req.alt-loc: hdaudio.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hdaudio.h
+apiname: 
+-	HDAUDIO_CODEC_COMMAND
+product: Windows
+targetos: Windows
 req.typenames: *PHDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND
 ---
 
 # _HDAUDIO_CODEC_COMMAND structure
 
 
-
 ## -description
+
+
 The HDAUDIO_CODEC_COMMAND structure specifies a codec command.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _HDAUDIO_CODEC_COMMAND {
@@ -68,6 +78,9 @@ typedef struct _HDAUDIO_CODEC_COMMAND {
 
 ## -struct-fields
 
+
+
+
 ### -field Verb8
 
 Specifies an 8-bit payload command format. The members in the following table are part of the Verb8 structure.
@@ -75,27 +88,25 @@ Specifies an 8-bit payload command format. The members in the following table ar
 		
 
 
-### -field Data
+### -field Verb8.Data
 
 Specifies an 8-bit data payload value for the 8-bit payload command format.
 
 
-### -field VerbId
+### -field Verb8.VerbId
 
 Specifies a 12-bit verb identifier for the 8-bit payload command format.
 
 
-### -field Node
+### -field Verb8.Node
 
 Specifies an 8-bit node identifier for the 8-bit payload command format.
 
 
-### -field CodecAddress
+### -field Verb8.CodecAddress
 
 Specifies a 4-bit codec address for the 8-bit payload command format.
 
-</dd>
-</dl>
 
 ### -field Verb16
 
@@ -104,27 +115,25 @@ Specifies an 16-bit payload command format. The members in the following table a
 		
 
 
-### -field Data
+### -field Verb16.Data
 
 Specifies an 16-bit data payload value for the 16-bit payload command format.
 
 
-### -field VerbId
+### -field Verb16.VerbId
 
 Specifies a 4-bit verb identifier for the 16-bit payload command format.
 
 
-### -field Node
+### -field Verb16.Node
 
 Specifies an 8-bit node identifier for the 16-bit payload command format.
 
 
-### -field CodecAddress
+### -field Verb16.CodecAddress
 
 Specifies a 4-bit codec address for the 16-bit payload command format.
 
-</dd>
-</dl>
 
 ### -field Command
 
@@ -132,20 +141,20 @@ Specifies a 32-bit codec command that contains payload data, a verb identifier, 
 
 
 ## -remarks
+
+
 Clients call the <a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a> routine to pass commands to codecs. The commands are in the <a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_transfer.md">HDAUDIO_CODEC_TRANSFER</a> structures that clients pass to this routine as call parameters. Before calling <b>TransferCodecVerbs</b>, function drivers can use the HDAUDIO_CODEC_COMMAND structure to encode the codec commands.
 
 The validity of individual members depends on the type of command sent.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
-</dt>
-<dt>
+
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_transfer.md">HDAUDIO_CODEC_TRANSFER</a>
-</dt>
-</dl>
+
  
 
  

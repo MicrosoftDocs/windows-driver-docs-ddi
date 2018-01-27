@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d40b0bc6-fad0-4c83-b1ca-c5105112ae2d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortEnableInterrupt
+ms.keywords: VideoPortEnableInterrupt function [Display Devices], display.videoportenableinterrupt, video/VideoPortEnableInterrupt, VideoPort_Functions_63966cab-5451-4fa0-ae8f-635fae20aabd.xml, VideoPortEnableInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortEnableInterrupt
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortEnableInterrupt
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # VideoPortEnableInterrupt function
 
 
-
 ## -description
+
+
 The <b>VideoPortEnableInterrupt</b> function is <b>obsolete</b> and should not be called.
 
 The <b>VideoPortEnableInterrupt</b> function reenables interrupts from a video adapter after a call to <b>VideoPortDisableInterrupt</b>.
 
 
-
 ## -syntax
+
 
 ````
 VP_STATUS VideoPortEnableInterrupt(
@@ -57,44 +67,54 @@ VP_STATUS VideoPortEnableInterrupt(
 
 ## -parameters
 
-### -param HwDeviceExtension 
+
+
+
+### -param HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
 
 ## -returns
+
+
 If <b>VideoPortEnableInterrupt</b> succeeds, it returns NO_ERROR. Otherwise, it returns ERROR_INVALID_FUNCTION.
 
 
+
 ## -remarks
+
+
 If you need to disable interrupts for the display adapter, write hardware-specific code to prevent the display adapter from generating interrupts. To subsequently enable interrupts, write hardware-specific code to allow the display adapter to resume generating interrupts.
 
 You should not call <a href="..\video\nf-video-videoportdisableinterrupt.md">VideoPortDisableInterrupt</a> or <b>VideoPortEnableInterrupt</b> for the following reasons:
-
+<ul>
+<li>
 Can disable interrupts for other devices that share an interrupt vector with the display adapter.
 
+</li>
+<li>
 Disables interrupts only on the processor where the current thread is running. On a multiprocessor computer, the display adapter can still interrupt another processor.
 
+</li>
+<li>
 On a multiprocessor machine, a call to <b>VideoPortEnableInterrupt</b> might run on a different processor than the previous corresponding call to <b>VideoPortDisableInterrupt</b>. In that case, interrupts will remain disabled for the processor on which <b>VideoPortDisableInterrupt</b> ran.
 
-If the video miniport driver has not registered an <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> routine for the display adapter, <b>VideoPortEnableInterrupt</b> returns ERROR_INVALID_FUNCTION. 
+</li>
+</ul>If the video miniport driver has not registered an <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> routine for the display adapter, <b>VideoPortEnableInterrupt</b> returns ERROR_INVALID_FUNCTION. 
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
-</dt>
-<dt>
-<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
-</dt>
-<dt>
-<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportdisableinterrupt.md">VideoPortDisableInterrupt</a>
-</dt>
-</dl>
+
+<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
+
+<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
  
 
  

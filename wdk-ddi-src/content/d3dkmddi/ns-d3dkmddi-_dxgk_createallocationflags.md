@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3c6c5515-855a-4016-a327-958959981f0f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_CREATEALLOCATIONFLAGS, DXGK_CREATEALLOCATIONFLAGS
+ms.keywords: DXGK_CREATEALLOCATIONFLAGS structure [Display Devices], DXGK_CREATEALLOCATIONFLAGS, display.dxgk_createallocationflags, DmStructs_320b15bf-5664-4fb9-9126-2c063ef75467.xml, _DXGK_CREATEALLOCATIONFLAGS, d3dkmddi/DXGK_CREATEALLOCATIONFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_CREATEALLOCATIONFLAGS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_CREATEALLOCATIONFLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_CREATEALLOCATIONFLAGS
 ---
 
 # _DXGK_CREATEALLOCATIONFLAGS structure
 
 
-
 ## -description
+
+
 The DXGK_CREATEALLOCATIONFLAGS structure identifies how to create allocations.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_CREATEALLOCATIONFLAGS {
@@ -59,6 +69,9 @@ typedef struct _DXGK_CREATEALLOCATIONFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Resource
 
@@ -77,15 +90,10 @@ This member is reserved and should be set to zero. Setting this member to zero i
 A member in the union that DXGK_CREATEALLOCATIONFLAGS contains that can hold a 32-bit value that identifies how to create allocations.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
-</dt>
-</dl>
+
  
 
  

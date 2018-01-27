@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: D04C836E-C440-4AB9-BB44-7D1E8E0F681D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _GPIO_READ_PINS_PARAMETERS, GPIO_READ_PINS_PARAMETERS, *PGPIO_READ_PINS_PARAMETERS
+ms.keywords: gpioclx/PGPIO_READ_PINS_PARAMETERS, PGPIO_READ_PINS_PARAMETERS structure pointer [Parallel Ports], PGPIO_READ_PINS_PARAMETERS, _GPIO_READ_PINS_PARAMETERS, *PGPIO_READ_PINS_PARAMETERS, gpioclx/GPIO_READ_PINS_PARAMETERS, GPIO_READ_PINS_PARAMETERS, GPIO_READ_PINS_PARAMETERS structure [Parallel Ports], GPIO.gpio_read_pins_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GPIO_READ_PINS_PARAMETERS
-req.alt-loc: Gpioclx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Gpioclx.h
+apiname: 
+-	GPIO_READ_PINS_PARAMETERS
+product: Windows
+targetos: Windows
 req.typenames: GPIO_READ_PINS_PARAMETERS, *PGPIO_READ_PINS_PARAMETERS
 ---
 
 # _GPIO_READ_PINS_PARAMETERS structure
 
 
-
 ## -description
+
+
 The <b>GPIO_READ_PINS_PARAMETERS</b> structure describes a read operation on a group of general-purpose I/O (GPIO) pins.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GPIO_READ_PINS_PARAMETERS {
@@ -58,6 +68,9 @@ typedef struct _GPIO_READ_PINS_PARAMETERS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field BankId
 
@@ -90,21 +103,20 @@ Reserved for system use.
 
 
 ## -remarks
+
+
 The <i>ReadParameters</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439404">CLIENT_ReadGpioPins</a> event callback function is a pointer to a caller-allocated <b>GPIO_READ_PINS_PARAMETERS</b> structure. All of the pins that this function reads are part of the same bank of GPIO pins.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439404">CLIENT_ReadGpioPins</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+
  
 
  

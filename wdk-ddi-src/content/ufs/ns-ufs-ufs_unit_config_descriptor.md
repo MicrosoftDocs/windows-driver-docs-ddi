@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 09CBAD0A-CBDC-464E-908C-BF142D515969
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: UFS_UNIT_CONFIG_DESCRIPTOR, UFS_UNIT_CONFIG_DESCRIPTOR, *PUFS_UNIT_CONFIG_DESCRIPTOR
+ms.keywords: UFS_UNIT_CONFIG_DESCRIPTOR, UFS_UNIT_CONFIG_DESCRIPTOR structure [Storage Devices], storage.ufs_unit_config_descriptor, ufs/PUFS_UNIT_CONFIG_DESCRIPTOR, ufs/UFS_UNIT_CONFIG_DESCRIPTOR, PUFS_UNIT_CONFIG_DESCRIPTOR structure pointer [Storage Devices], PUFS_UNIT_CONFIG_DESCRIPTOR, *PUFS_UNIT_CONFIG_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UFS_UNIT_CONFIG_DESCRIPTOR
-req.alt-loc: Ufs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ufs.h
+apiname: 
+-	UFS_UNIT_CONFIG_DESCRIPTOR
+product: Windows
+targetos: Windows
 req.typenames: UFS_UNIT_CONFIG_DESCRIPTOR, *PUFS_UNIT_CONFIG_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # UFS_UNIT_CONFIG_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The <b>UFS_UNIT_CONFIG_DESCRIPTOR</b> structure describes the user configurable parameters within the <a href="..\ufs\ns-ufs-ufs_config_descriptor.md">UFS_CONFIG_DESCRIPTOR</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _UFS_UNIT_CONFIG_DESCRIPTOR {
@@ -64,6 +74,9 @@ typedef struct _UFS_UNIT_CONFIG_DESCRIPTOR {
 
 ## -struct-fields
 
+
+
+
 ### -field bLUEnable
 
 Specifies if the logical unit is enabled.
@@ -82,7 +95,6 @@ Specifies if the Logical Unit is write protected.
 ### -field bMemoryType
 
 Specifies the Memory type of the device.
-
 <table>
 <tr>
 <th>Value</th>
@@ -120,8 +132,7 @@ Specifies the Memory type of the device.
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field dNumAllocUnits
@@ -134,7 +145,6 @@ Specifies the number of allocation units assigned to the logical unit.
 <b>bDataReliability</b> defines the device behavior
 when a power failure occurs during a write
 operation to the logical unit:
-
 <table>
 <tr>
 <th>Value</th>
@@ -156,8 +166,7 @@ data is protected against power failure.</td>
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field bLogicalBlockSize
@@ -168,7 +177,6 @@ Specifies the logical block size.
 ### -field bProvisioningType
 
 Specifies the provisioning type.
-
 <table>
 <tr>
 <th>Value</th>
@@ -192,8 +200,7 @@ Specifies the provisioning type.
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field wContextCapabilities
@@ -205,5 +212,3 @@ Specifies the Context Capabilities.
 
 Reserved for future use.
 
-
-## -remarks

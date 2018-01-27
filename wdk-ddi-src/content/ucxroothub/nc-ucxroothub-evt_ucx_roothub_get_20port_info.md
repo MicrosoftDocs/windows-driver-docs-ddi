@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: c4a328fb-ffbf-4da4-b52d-6cea58e56b5e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, *PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS
+ms.keywords: buses.evt_ucx_roothub_get_20port_info, EvtUcxRootHubGet20PortInfo callback function [Buses], EvtUcxRootHubGet20PortInfo, EVT_UCX_ROOTHUB_GET_20PORT_INFO, EVT_UCX_ROOTHUB_GET_20PORT_INFO, ucxroothub/EvtUcxRootHubGet20PortInfo, PEVT_UCX_ROOTHUB_GET_20PORT_INFO callback function pointer [Buses], PEVT_UCX_ROOTHUB_GET_20PORT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: PEVT_UCX_ROOTHUB_GET_20PORT_INFO
-req.alt-loc: ucxroothub.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ucxroothub.h
+apiname: 
+-	PEVT_UCX_ROOTHUB_GET_20PORT_INFO
+product: Windows
+targetos: Windows
 req.typenames: UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, *PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # EVT_UCX_ROOTHUB_GET_20PORT_INFO callback
 
 
-
 ## -description
+
+
 The client driver's implementation that UCX calls when it receives a request for information about USB  2.0 ports on the  root hub.
 
 
-
 ## -prototype
+
 
 ````
 EVT_UCX_ROOTHUB_GET_20PORT_INFO EvtUcxRootHubGet20PortInfo;
@@ -61,6 +71,9 @@ typedef EVT_UCX_ROOTHUB_GET_20PORT_INFO PEVT_UCX_ROOTHUB_GET_20PORT_INFO;
 
 ## -parameters
 
+
+
+
 ### -param UcxRootHub [in]
 
 A handle to a UCX object that represents the root hub.
@@ -72,10 +85,15 @@ A structure of type <a href="..\ucxroothub\ns-ucxroothub-_roothub_20port_info.md
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188048">UcxRootHubCreate</a>
  method.
 
@@ -86,12 +104,11 @@ The client driver returns completion status in <i>Request</i> and in the USBD_ST
     in the URB header.  The driver can complete the WDFREQUEST asynchronously.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxroothub\ns-ucxroothub-_roothub_20ports_info.md">_ROOTHUB_20PORTS_INFO</a>
-</dt>
-</dl>
+
  
 
  

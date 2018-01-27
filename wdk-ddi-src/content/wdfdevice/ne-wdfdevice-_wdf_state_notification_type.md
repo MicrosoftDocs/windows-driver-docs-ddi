@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fc44c970-482c-4fbf-a149-e6b732f6c9d8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_STATE_NOTIFICATION_TYPE, WDF_STATE_NOTIFICATION_TYPE
+ms.keywords: WDF_STATE_NOTIFICATION_TYPE enumeration, wdfdevice/StateNotificationEnterState, wdfdevice/StateNotificationPostProcessState, StateNotificationLeaveState, StateNotificationInvalid, wdfdevice/WDF_STATE_NOTIFICATION_TYPE, StateNotificationAllStates, WDF_STATE_NOTIFICATION_TYPE, StateNotificationPostProcessState, wdfdevice/StateNotificationInvalid, StateNotificationEnterState, wdfdevice/StateNotificationLeaveState, DFDeviceObjectGeneralRef_c1bdabfc-dd89-4eeb-b5ba-9f03a65414c5.xml, wdfdevice/StateNotificationAllStates, _WDF_STATE_NOTIFICATION_TYPE, wdf.wdf_state_notification_type, kmdf.wdf_state_notification_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WDF_STATE_NOTIFICATION_TYPE
-req.alt-loc: wdfdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfdevice.h
+apiname: 
+-	WDF_STATE_NOTIFICATION_TYPE
+product: Windows
+targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_STATE_NOTIFICATION_TYPE enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_STATE_NOTIFICATION_TYPE</b> enumeration identifies the type of Plug and Play, power, or power policy notification that a framework-based driver will receive.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_STATE_NOTIFICATION_TYPE { 
@@ -60,6 +70,9 @@ typedef enum _WDF_STATE_NOTIFICATION_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field StateNotificationInvalid
 
@@ -87,43 +100,57 @@ The driver receives enter-state, postprocess-state, and leave-state notification
 
 
 ## -remarks
-When the framework's state machine for a driver's device changes from state <i>a</i> to state <i>b</i>, the framework notifies the driver (if the driver registered an appropriate event callback function), in the following sequence:
 
+
+When the framework's state machine for a driver's device changes from state <i>a</i> to state <i>b</i>, the framework notifies the driver (if the driver registered an appropriate event callback function), in the following sequence:
+<ol>
+<li>
 Calls state <i>a</i>'s leave-state notification callback function.
 
+</li>
+<li>
 Calls state <i>b</i>'s enter-state notification callback function.
 
+</li>
+<li>
 Changes the device's state from <i>a</i> to <i>b</i>.
 
+</li>
+<li>
 Calls state <i>b</i>'s postprocess-state notification callback function.
 
-To register for notification of a change in state, the driver can call the following methods:
-
+</li>
+</ol>To register for notification of a change in state, the driver can call the following methods:
+<ul>
+<li>
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitregisterpnpstatechangecallback.md">WdfDeviceInitRegisterPnpStateChangeCallback</a>
 
 
+</li>
+<li>
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitregisterpowerstatechangecallback.md">WdfDeviceInitRegisterPowerStateChangeCallback</a>
 
 
+</li>
+<li>
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitregisterpowerpolicystatechangecallback.md">WdfDeviceInitRegisterPowerPolicyStateChangeCallback</a>
 
 
+</li>
+</ul>
+
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_pnp_notification_data.md">WDF_DEVICE_PNP_NOTIFICATION_DATA</a>
-</dt>
-<dt>
+
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_notification_data.md">WDF_DEVICE_POWER_NOTIFICATION_DATA</a>
-</dt>
-<dt>
+
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_pnp_notification_data.md">WDF_DEVICE_PNP_NOTIFICATION_DATA</a>
+
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_notification_data.md">WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA</a>
-</dt>
-</dl>
+
  
 
  

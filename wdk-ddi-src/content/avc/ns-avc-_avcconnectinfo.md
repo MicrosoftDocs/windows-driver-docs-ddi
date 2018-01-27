@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed6e01f0-fa30-4a42-8271-70afb2fde8c9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _AVCCONNECTINFO, *PAVCCONNECTINFO, AVCCONNECTINFO
+ms.keywords: AVCCONNECTINFO structure [Streaming Media Devices], stream.avcconnectinfo, avc/PAVCCONNECTINFO, avcref_41c8705a-5735-4ab2-87f0-02b55b128c23.xml, *PAVCCONNECTINFO, avc/AVCCONNECTINFO, PAVCCONNECTINFO structure pointer [Streaming Media Devices], AVCCONNECTINFO, PAVCCONNECTINFO, _AVCCONNECTINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AVCCONNECTINFO
-req.alt-loc: avc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PAVCCONNECTINFO, AVCCONNECTINFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	avc.h
+apiname: 
+-	AVCCONNECTINFO
+product: Windows
+targetos: Windows
+req.typenames: AVCCONNECTINFO, *PAVCCONNECTINFO
 ---
 
 # _AVCCONNECTINFO structure
 
 
-
 ## -description
+
+
 The AVCCONNECTINFO structure is used to initialize a subunit driver and establish pin connections.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _AVCCONNECTINFO {
@@ -58,6 +68,9 @@ typedef struct _AVCCONNECTINFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DeviceID
 
@@ -90,15 +103,16 @@ The plug number (within the subunit) described by the AVCPRECONNECTINFO structur
 
 
 ## -remarks
+
+
 This structure is used only as member inside the <a href="..\avc\ns-avc-_avc_setconnect_info.md">AVC_SETCONNECT_INFO</a> structure. It is not used by itself.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554171">AVC_FUNCTION_SET_CONNECTINFO</a>
-</dt>
-</dl>
+
  
 
  

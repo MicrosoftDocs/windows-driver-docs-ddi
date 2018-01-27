@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8ca0d683-318b-465c-95a7-dc2b5e29c9e7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcGetDirtyPages
+ms.keywords: CcGetDirtyPages routine [Installable File System Drivers], ifsk.ccgetdirtypages, CcGetDirtyPages, ntifs/CcGetDirtyPages, ccref_cbefaf71-3c21-445f-ac63-d96bbb47ec16.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available on Microsoft Windows XP and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcGetDirtyPages
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcGetDirtyPages
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcGetDirtyPages function
 
 
-
 ## -description
+
+
 The <b>CcGetDirtyPages</b> routine searches for dirty pages in all files that match a given log handle. 
 
 
-
 ## -syntax
+
 
 ````
 LARGE_INTEGER CcGetDirtyPages(
@@ -57,6 +67,9 @@ LARGE_INTEGER CcGetDirtyPages(
 
 ## -parameters
 
+
+
+
 ### -param LogHandle [in]
 
 Log handle stored by a previous call to <b>CcSetLogHandleForFile</b>. 
@@ -65,7 +78,6 @@ Log handle stored by a previous call to <b>CcSetLogHandleForFile</b>.
 ### -param DirtyPageRoutine [in]
 
 Pointer to a callback routine that builds up a dirty page table from the pages found. This routine, which is called for each dirty page found, is declared as follows: 
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -87,44 +99,6 @@ VOID (*PDIRTY_PAGE_ROUTINE) (
 </table></span></div>
 
 
-
-### -param FileObject
-
-Pointer to the file object for the file containing the dirty page. 
-
-
-### -param FileOffset
-
-Pointer to a variable that specifies the starting byte offset of the dirty page within the cached file. 
-
-
-### -param Length
-
-Length, in bytes, of the dirty page. 
-
-
-### -param OldestLsn
-
-Oldest logical sequence number (LSN) found in the dirty page. 
-
-
-### -param NewestLsn
-
-Newest LSN found in the dirty page. 
-
-
-### -param Context1
-
-First context parameter. 
-
-
-### -param Context2
-
-Second context parameter. 
-
-</dd>
-</dl>
-
 ### -param Context1 [in]
 
 First context parameter to be passed to the <i>DirtyPageRoutine</i>. 
@@ -135,25 +109,63 @@ First context parameter to be passed to the <i>DirtyPageRoutine</i>.
 Second context parameter to be passed to the <i>DirtyPageRoutine</i>. 
 
 
+##### - DirtyPageRoutine.FileObject
+
+Pointer to the file object for the file containing the dirty page. 
+
+
+##### - DirtyPageRoutine.Context2
+
+Second context parameter. 
+
+
+##### - DirtyPageRoutine.FileOffset
+
+Pointer to a variable that specifies the starting byte offset of the dirty page within the cached file. 
+
+
+##### - DirtyPageRoutine.OldestLsn
+
+Oldest logical sequence number (LSN) found in the dirty page. 
+
+
+##### - DirtyPageRoutine.Context1
+
+First context parameter. 
+
+
+##### - DirtyPageRoutine.Length
+
+Length, in bytes, of the dirty page. 
+
+
+##### - DirtyPageRoutine.NewestLsn
+
+Newest LSN found in the dirty page. 
+
+
 ## -returns
+
+
 <b>CcGetDirtyPages</b> returns the oldest LSN found in the set of dirty pages. If there are no dirty pages, <b>CcGetDirtyPages</b> returns zero. 
 
 
+
 ## -remarks
+
+
 File systems call <b>CcGetDirtyPages</b> to return dirty pages in all files that match a given log handle. <b>CcGetDirtyPages</b> searches for dirty pages in all files that match the given <i>LogHandle</i> and calls the <i>DirtyPageRoutine</i> for each page. 
 
 To set a log handle for a file, use <a href="..\ntifs\nf-ntifs-ccsetloghandleforfile.md">CcSetLogHandleForFile</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccsetloghandleforfile.md">CcSetLogHandleForFile</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
+
  
 
  

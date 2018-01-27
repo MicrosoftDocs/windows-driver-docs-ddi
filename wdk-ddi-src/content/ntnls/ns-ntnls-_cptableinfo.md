@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 20EE0017-760E-48A1-8658-2A0278843074
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _CPTABLEINFO, *PCPTABLEINFO, CPTABLEINFO
+ms.keywords: PCPTABLEINFO, kernel.cptableinfo, ntnls/CPTABLEINFO, ntnls/PCPTABLEINFO, CPTABLEINFO, *PCPTABLEINFO, PCPTABLEINFO structure pointer [Kernel-Mode Driver Architecture], CPTABLEINFO structure [Kernel-Mode Driver Architecture], _CPTABLEINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CPTABLEINFO
-req.alt-loc: Ntnls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PCPTABLEINFO, CPTABLEINFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntnls.h
+apiname: 
+-	CPTABLEINFO
+product: Windows
+targetos: Windows
+req.typenames: CPTABLEINFO, *PCPTABLEINFO
 ---
 
 # _CPTABLEINFO structure
 
 
-
 ## -description
+
+
 Stores the NLS file formats.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CPTABLEINFO {
@@ -64,6 +74,9 @@ typedef struct _CPTABLEINFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field CodePage
 
@@ -124,5 +137,3 @@ Specifies a pointer to DBCS ranges.
 
 Specifies a pointer to DBCS offsets.
 
-
-## -remarks

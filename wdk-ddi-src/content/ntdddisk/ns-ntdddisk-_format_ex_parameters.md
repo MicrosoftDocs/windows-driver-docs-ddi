@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0c87a0b8-f355-48a4-a119-11e047e159d0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _FORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS, *PFORMAT_EX_PARAMETERS
+ms.keywords: storage.format_ex_parameters, ntdddisk/FORMAT_EX_PARAMETERS, ntdddisk/PFORMAT_EX_PARAMETERS, _FORMAT_EX_PARAMETERS, PFORMAT_EX_PARAMETERS, PFORMAT_EX_PARAMETERS structure pointer [Storage Devices], structs-disk_753384dd-08cd-40ee-90dc-61a82e5e0d14.xml, *PFORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS structure [Storage Devices], FORMAT_EX_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FORMAT_EX_PARAMETERS
-req.alt-loc: ntdddisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntdddisk.h
+apiname: 
+-	FORMAT_EX_PARAMETERS
+product: Windows
+targetos: Windows
 req.typenames: FORMAT_EX_PARAMETERS, *PFORMAT_EX_PARAMETERS
 ---
 
 # _FORMAT_EX_PARAMETERS structure
 
 
-
 ## -description
+
+
 The FORMAT_EX_PARAMETERS structure is used in conjunction with the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks_ex.md">IOCTL_DISK_FORMAT_TRACKS_EX</a> request to format the specified set of contiguous tracks on the disk. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FORMAT_EX_PARAMETERS {
@@ -60,6 +70,9 @@ typedef struct _FORMAT_EX_PARAMETERS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field MediaType
 
@@ -101,21 +114,14 @@ Indicates the number of sectors per track.
 Contains an array whose first element indicates the number of the sector where the formatting should begin. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks_ex.md">IOCTL_DISK_FORMAT_TRACKS_EX</a>
-</dt>
-<dt>
+
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks.md">IOCTL_DISK_FORMAT_TRACKS</a>
-</dt>
-<dt>
+
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks_ex.md">IOCTL_DISK_FORMAT_TRACKS_EX</a>
+
 <a href="..\ntdddisk\ns-ntdddisk-_format_parameters.md">FORMAT_PARAMETERS</a>
-</dt>
-</dl>
+
  
 
  

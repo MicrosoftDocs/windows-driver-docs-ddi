@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9DC36C2E-6609-46C8-870E-44845020A4B2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _SM_SetRNIDMgmtInfo_OUT, SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
+ms.keywords: audio.phdaudio_bdl_isr, HDAudioBdlIsr callback function [Audio Devices], HDAudioBdlIsr, PHDAUDIO_BDL_ISR, PHDAUDIO_BDL_ISR, hdaudio/HDAudioBdlIsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HDAudioBdlIsr
-req.alt-loc: hdaudio.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DIRQL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	hdaudio.h
+apiname: 
+-	HDAudioBdlIsr
+product: Windows
+targetos: Windows
 req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
 ---
 
 # PHDAUDIO_BDL_ISR callback
 
 
-
 ## -description
+
+
 The HDAudioBdlIsr routine is the ISR that the HD Audio bus driver calls each time an IOC interrupt occurs on the stream. It is a function pointer of type PHDAUDIO_BDL_ISR, which is defined as:
 
 
-
 ## -prototype
+
 
 ````
 PHDAUDIO_BDL_ISR HDAudioBdlIsr;
@@ -58,15 +68,16 @@ VOID HDAudioBdlIsr(
 
 ## -parameters
 
-### -param Context [in]
 
-The HD Audio bus driver calls the ISR with the same context value that the client specified in the context parameter of the preceding SetupDmaEngineWithBdl call. For more information, see <a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">PSETUP_DMA_ENGINE_WITH_BDL</a>.
+
+
+### -param *Context
+
 
 
 ### -param InterruptBitMask [in]
 
 The interruptBitMask parameter contains the bits from the HD Audio controller device's stream status register that indicate the reason for the interrupt. The following table shows the meaning of the individual bits in interruptBitMask.
-
 <table>
 <tr>
 <th>Bit Numbers</th>
@@ -129,8 +140,7 @@ The interruptBitMask parameter contains the bits from the HD Audio controller de
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 The HD Audio bus driver sets the unused bits to zero. Instead of assuming that an IOC interrupt has occurred, the ISR must always check the interruptBitMask parameter to determine whether a stream error has occurred. For more information about the interrupt status bits shown in the preceding table, see the description of the stream status registers in the Intel High Definition Audio Specification.
 
@@ -144,22 +154,31 @@ Depending on the hardware implementation, a DMA engine's FIFO size can either be
 
 
 
+#### - Context [in]
+
+The HD Audio bus driver calls the ISR with the same context value that the client specified in the context parameter of the preceding SetupDmaEngineWithBdl call. For more information, see <a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">PSETUP_DMA_ENGINE_WITH_BDL</a>.
+
+
 ## -returns
+
+
 None
+
 
 
 ## -remarks
 
 
+
+
 The caller must allocate the buffer memory and BDL from the nonpaged pool.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">PSETUP_DMA_ENGINE_WITH_BDL</a>
-</dt>
-</dl>
+
  
 
  

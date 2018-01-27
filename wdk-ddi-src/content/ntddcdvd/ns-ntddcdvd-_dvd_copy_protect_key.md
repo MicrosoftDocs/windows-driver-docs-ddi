@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 79f3fdaf-e23a-40ba-a1eb-5428a63cc96a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DVD_COPY_PROTECT_KEY, DVD_COPY_PROTECT_KEY, *PDVD_COPY_PROTECT_KEY
+ms.keywords: ntddcdvd/PDVD_COPY_PROTECT_KEY, DVD_COPY_PROTECT_KEY, _DVD_COPY_PROTECT_KEY, PDVD_COPY_PROTECT_KEY, PDVD_COPY_PROTECT_KEY structure pointer [Storage Devices], structs-DVD_3ea6aa08-28ce-42d0-855d-d2e83ce58f89.xml, DVD_COPY_PROTECT_KEY structure [Storage Devices], storage.dvd_copy_protect_key, ntddcdvd/DVD_COPY_PROTECT_KEY, *PDVD_COPY_PROTECT_KEY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DVD_COPY_PROTECT_KEY
-req.alt-loc: ntddcdvd.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DVD_COPY_PROTECT_KEY, *PDVD_COPY_PROTECT_KEY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdvd.h
+apiname: 
+-	DVD_COPY_PROTECT_KEY
+product: Windows
+targetos: Windows
+req.typenames: *PDVD_COPY_PROTECT_KEY, DVD_COPY_PROTECT_KEY
 ---
 
 # _DVD_COPY_PROTECT_KEY structure
 
 
-
 ## -description
+
+
 The <b>DVD_COPY_PROTECT_KEY</b> structure is used in conjunction with the <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_key.md">IOCTL_DVD_READ_KEY</a> request to execute a report key command of the specified type. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DVD_COPY_PROTECT_KEY {
@@ -61,6 +71,25 @@ typedef struct _DVD_COPY_PROTECT_KEY {
 
 
 ## -struct-fields
+
+
+
+
+### -field Parameters
+
+
+
+### -field Parameters.FileHandle
+
+Pointer to the file handle for the physical device that the copy protection is being negotiated on.
+
+
+### -field Parameters.TitleOffset
+
+Contains the logical block address on the media of the title.
+
+The upper layers of the operating system use the <b>FileHandle</b> member. The file system converts the value in <b>FileHandle</b> into a logical block address and stores the result in the <b>TitleOffset</b> member. Kernel-mode drivers use the <b>TitleOffset</b> member.
+
 
 ### -field KeyLength
 
@@ -80,166 +109,114 @@ Indicates the key type. The DVD device driver uses this information to determine
 ### -field KeyFlags
 
 
-### -field Contains copy generation management system (CGMS) data. For devices that implement a CGMS protection scheme, the CGMS data is returned with the title key data in the KeyFlags member. This member can have any of the following values:
-### -field 
-
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-DVD_CGMS_RESERVED_MASK
-
-</td>
-<td>
-Mask of reserved bits. 
-
-</td>
-</tr>
-<tr>
-<td>
-DVD_CGMS_COPY_PROTECT_MASK
-
-</td>
-<td>
-Copy protection bitmask. 
-
-</td>
-</tr>
-<tr>
-<td>
-DVD_CGMS_COPY_PERMITTED
-
-</td>
-<td>
-Copying is permitted, within limits of copyright restrictions. 
-
-</td>
-</tr>
-<tr>
-<td>
-DVD_CGMS_COPY_ONCE
-
-</td>
-<td>
-One generation of copies can be made.
-
-</td>
-</tr>
-<tr>
-<td>
-DVD_CGMS_NO_COPY
-
-</td>
-<td>
-No copying is allowed.
-
-</td>
-</tr>
-<tr>
-<td>
-DVD_COPYRIGHT_MASK
-
-</td>
-<td>
-Copyright bitmask. 
-
-</td>
-</tr>
-<tr>
-<td>
-DVD_NOT_COPYRIGHTED
-
-</td>
-<td>
-Copying is permitted without restriction.
-
-</td>
-</tr>
-<tr>
-<td>
-DVD_COPYRIGHTED
-
-</td>
-<td>
-Data is copyrighted. 
-
-</td>
-</tr>
-<tr>
-<td>
-DVD_SECTOR_PROTECT_MASK
-
-</td>
-<td>
-Sector protection bitmask. 
-
-</td>
-</tr>
-<tr>
-<td>
-DVD_SECTOR_NOT_PROTECTED
-
-</td>
-<td>
-Title key data is not encrypted. No decryption necessary. 
-
-</td>
-</tr>
-<tr>
-<td>
-DVD_SECTOR_PROTECTED
-
-</td>
-<td>
-Title key data must be decrypted. 
-
-</td>
-</tr>
-</table>
- 
-
-
-
-
-
-</dl>
-
-### -field Parameters
-
-
-### -field FileHandle
-
-Pointer to the file handle for the physical device that the copy protection is being negotiated on.
-
-
-### -field TitleOffset
-
-Contains the logical block address on the media of the title.
-
-The upper layers of the operating system use the <b>FileHandle</b> member. The file system converts the value in <b>FileHandle</b> into a logical block address and stores the result in the <b>TitleOffset</b> member. Kernel-mode drivers use the <b>TitleOffset</b> member.
-
-</dd>
-</dl>
 
 ### -field KeyData
 
 Contains the key data that was returned. 
 
 
-## -remarks
+####### - KeyFlags.Contains copy generation management system (CGMS) data. For devices that implement a CGMS protection scheme, the CGMS data is returned with the title key data in the KeyFlags member. This member can have any of the following values:
+
+
+
+################# - KeyFlags.Value
+Meaning
+
+
+
+DVD_CGMS_RESERVED_MASK
+
+
+Mask of reserved bits. 
+
+
+
+
+DVD_CGMS_COPY_PROTECT_MASK
+
+
+Copy protection bitmask. 
+
+
+
+
+DVD_CGMS_COPY_PERMITTED
+
+
+Copying is permitted, within limits of copyright restrictions. 
+
+
+
+
+DVD_CGMS_COPY_ONCE
+
+
+One generation of copies can be made.
+
+
+
+
+DVD_CGMS_NO_COPY
+
+
+No copying is allowed.
+
+
+
+
+DVD_COPYRIGHT_MASK
+
+
+Copyright bitmask. 
+
+
+
+
+DVD_NOT_COPYRIGHTED
+
+
+Copying is permitted without restriction.
+
+
+
+
+DVD_COPYRIGHTED
+
+
+Data is copyrighted. 
+
+
+
+
+DVD_SECTOR_PROTECT_MASK
+
+
+Sector protection bitmask. 
+
+
+
+
+DVD_SECTOR_NOT_PROTECTED
+
+
+Title key data is not encrypted. No decryption necessary. 
+
+
+
+
+DVD_SECTOR_PROTECTED
+
+
+Title key data must be decrypted.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddcdvd\ne-ntddcdvd-dvd_key_type.md">DVD_KEY_TYPE</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_key.md">IOCTL_DVD_READ_KEY</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a3dd0c74-3835-4f03-8b62-08954baaffe7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _POOL_TYPE, POOL_TYPE
+ms.keywords: PagedPool, NonPagedPoolSession, NonPagedPoolBaseCacheAligned, NonPagedPoolCacheAlignedSession, MaxPoolType, wdm/PagedPool, NonPagedPoolNx, NonPagedPoolCacheAlignedMustSSession, kernel.pool_type, wdm/NonPagedPoolExecute, wdm/NonPagedPoolMustSucceedSession, DontUseThisType, wdm/NonPagedPoolMustSucceed, wdm/NonPagedPoolNxCacheAligned, sysenum_90446d42-0e73-4da3-a3df-27efe3daa67b.xml, POOL_TYPE enumeration [Kernel-Mode Driver Architecture], NonPagedPoolBaseMustSucceed, wdm/DontUseThisTypeSession, wdm/DontUseThisType, wdm/NonPagedPoolSession, wdm/NonPagedPoolCacheAlignedMustSSession, wdm/PagedPoolCacheAligned, wdm/NonPagedPoolNx, wdm/NonPagedPoolBase, NonPagedPoolCacheAligned, wdm/NonPagedPool, wdm/MaxPoolType, DontUseThisTypeSession, NonPagedPoolExecute, NonPagedPool, wdm/PagedPoolCacheAlignedSession, wdm/PagedPoolSession, wdm/NonPagedPoolCacheAlignedMustS, PagedPoolCacheAligned, PagedPoolCacheAlignedSession, wdm/NonPagedPoolCacheAlignedSession, PagedPoolSession, wdm/NonPagedPoolCacheAligned, POOL_TYPE, NonPagedPoolSessionNx, NonPagedPoolBaseCacheAlignedMustS, wdm/NonPagedPoolBaseCacheAlignedMustS, wdm/NonPagedPoolBaseMustSucceed, NonPagedPoolMustSucceed, NonPagedPoolNxCacheAligned, wdm/NonPagedPoolSessionNx, _POOL_TYPE, NonPagedPoolBase, wdm/NonPagedPoolBaseCacheAligned, NonPagedPoolCacheAlignedMustS, NonPagedPoolMustSucceedSession, wdm/POOL_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: POOL_TYPE
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	POOL_TYPE
+product: Windows
+targetos: Windows
 req.typenames: POOL_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _POOL_TYPE enumeration
 
 
-
 ## -description
+
+
 The <b>POOL_TYPE</b> enumeration type specifies the type of system memory to allocate.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _POOL_TYPE { 
@@ -76,6 +86,9 @@ typedef enum _POOL_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field NonPagedPool
 
@@ -198,39 +211,26 @@ NX nonpaged pool, aligned on processor cache boundaries. This value is reserved 
 Reserved for exclusive use by the operating system.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-exallocatepoolwithtagpriority.md">ExAllocatePoolWithTagPriority</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554322">LookasideListAllocateEx</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-seassignsecurityex.md">SeAssignSecurityEx</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtagpriority.md">ExAllocatePoolWithTagPriority</a>
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554322">LookasideListAllocateEx</a>
+
+<a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
+
  
 
  

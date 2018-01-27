@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 100fec4a-eebe-4a4d-b322-09afbe68ec5c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcCopyWrite
+ms.keywords: ifsk.cccopywrite, ntifs/CcCopyWrite, ccref_97ca67a6-e212-42bb-8998-be458c792f7b.xml, CcCopyWrite, CcCopyWrite routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available on Microsoft Windows 2000 and later Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcCopyWrite
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcCopyWrite
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcCopyWrite function
 
 
-
 ## -description
+
+
 The <b>CcCopyWrite</b> routine copies data from a user buffer to a cached file.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN CcCopyWrite(
@@ -57,6 +67,9 @@ BOOLEAN CcCopyWrite(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -84,10 +97,15 @@ A pointer to the buffer from which the data is to be copied.
 
 
 ## -returns
+
+
 The <b>CcCopyWrite</b> routine returns <b>TRUE</b> if the data was copied successfully, <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 If <i>Wait</i> is <b>TRUE</b>, <b>CcCopyWrite</b> is guaranteed to complete the copy request and return <b>TRUE</b>. If the required pages of the cached file are already resident in memory, the data will be copied immediately and no blocking will occur. If any needed pages are not resident, the caller will be put in a wait state until all required pages have been made resident and the data can be copied.
 
 If <i>Wait</i> is <b>FALSE</b>, <b>CcCopyWrite</b> will refuse to block, and will return <b>FALSE</b>, if the required pages of the cached file are not already resident in memory or if the FO_WRITE_THROUGH flag is set on the file object.
@@ -97,12 +115,11 @@ If any failure occurs, <b>CcCopyWrite</b> raises a status exception for that par
 To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-</dt>
-</dl>
+
  
 
  

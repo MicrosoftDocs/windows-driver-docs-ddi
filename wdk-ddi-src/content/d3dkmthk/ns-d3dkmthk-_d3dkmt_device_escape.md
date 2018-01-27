@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 274bdd80-e898-42c7-8adc-8eae4e895b5f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_DEVICE_ESCAPE, D3DKMT_DEVICE_ESCAPE
+ms.keywords: D3DKMT_DEVICE_ESCAPE, OpenGL_Structs_38febe04-ae75-475a-ab69-81995acb567b.xml, D3DKMT_DEVICE_ESCAPE structure [Display Devices], display.d3dkmt_device_escape, _D3DKMT_DEVICE_ESCAPE, d3dkmthk/D3DKMT_DEVICE_ESCAPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_DEVICE_ESCAPE
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_DEVICE_ESCAPE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DEVICE_ESCAPE
 ---
 
 # _D3DKMT_DEVICE_ESCAPE structure
 
 
-
 ## -description
+
+
 
    Do not use the D3DKMT_DEVICE_ESCAPE structure or D3DKMT_DEVICEESCAPE_TYPE enumeration. They are for testing purposes only.
    
@@ -46,8 +56,8 @@ req.typenames: D3DKMT_DEVICE_ESCAPE
 The D3DKMT_DEVICE_ESCAPE structure describes how to control the display device in a call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_DEVICE_ESCAPE {
@@ -64,36 +74,33 @@ typedef struct _D3DKMT_DEVICE_ESCAPE {
 
 ## -struct-fields
 
-### -field Type
+
 
 
 ### -field VidPnFromAllocation
 
 
-### -field hPrimaryAllocation
+
+### -field VidPnFromAllocation.hPrimaryAllocation
 
 [in] The primary allocation handle.
 
 
-### -field VidPnSourceId
+### -field VidPnFromAllocation.VidPnSourceId
 
 [out] The VidPN source ID of the primary allocation.
 
-</dd>
-</dl>
 
-## -remarks
+### -field Type
+
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_escape.md">D3DKMT_ESCAPE</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 98eb2bef-18ac-449f-b180-7b0f768cc093
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlCurrentOplockH
+ms.keywords: fsrtlref_4997ca62-379d-45d8-bc22-32efd2076692.xml, FsRtlCurrentOplockH function [Installable File System Drivers], ntifs/FsRtlCurrentOplockH, ifsk.fsrtlcurrentoplockh, FsRtlCurrentOplockH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The FsRtlCurrentOplockH routine is available starting
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlCurrentOplockH
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlCurrentOplockH
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlCurrentOplockH function
 
 
-
 ## -description
+
+
 A file system or filter driver calls <b>FsRtlCurrentOplockH</b> to determine whether there are any CACHE_HANDLE_LEVEL opportunistic locks (oplocks) on a file. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlCurrentOplockH(
@@ -54,16 +64,24 @@ BOOLEAN FsRtlCurrentOplockH(
 
 ## -parameters
 
+
+
+
 ### -param Oplock [in]
 
 An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>. 
 
 
 ## -returns
+
+
 <b>FsRtlCurrentOplockH</b> returns <b>TRUE</b> if there are CACHE_HANDLE_LEVEL opportunistic locks that are currently being held. Otherwise, it returns <b>FALSE</b>. 
 
 
+
 ## -remarks
+
+
 <b>FsRtlCurrentOplockH</b> returns <b>FALSE</b> if no CACHE_HANDLE_LEVEL opportunistic locks (oplocks) are currently held.
 
 For more information about opportunistic locks, see the Microsoft Windows SDK documentation. 
@@ -71,15 +89,13 @@ For more information about opportunistic locks, see the Microsoft Windows SDK do
 Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltcurrentoplockh.md">FltCurrentOplockH</a> instead of <b>FsRtlCurrentOplock</b>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltcurrentoplockh.md">FltCurrentOplockH</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltcurrentoplockh.md">FltCurrentOplockH</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f585f1ad-7ed0-49b1-ab35-a6b879118b38
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsReleaseControl
+ms.keywords: stream.ksreleasecontrol, ks/KsReleaseControl, avfunc_b568770e-1fe0-47d5-8fd4-ac210cd4be30.xml, KsReleaseControl function [Streaming Media Devices], KsReleaseControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsReleaseControl
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsReleaseControl
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsReleaseControl function
 
 
-
 ## -description
+
+
 The<b> KsReleaseControl </b>function releases the control mutex for <i>Object</i>.
 
 
-
 ## -syntax
+
 
 ````
 void KsReleaseControl(
@@ -54,16 +65,24 @@ void KsReleaseControl(
 
 ## -parameters
 
+
+
+
 ### -param Object [in]
 
 The object for which to release the control mutex.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <i>Object</i> should be either a filter or a pin cast to PVOID.
 
 Minidrivers typically do not call <b>KsReleaseControl</b> directly, but instead call <a href="..\ks\nf-ks-ksfilterreleasecontrol.md">KsFilterReleaseControl</a> or <a href="..\ks\nf-ks-kspinreleasecontrol.md">KsPinReleaseControl</a>. These versions automatically provide the necessary typecasting to PVOID.
@@ -71,24 +90,19 @@ Minidrivers typically do not call <b>KsReleaseControl</b> directly, but instead 
 For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksfilterreleasecontrol.md">KsFilterReleaseControl</a>
-</dt>
-<dt>
+
+<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
+
 <a href="..\ks\nf-ks-kspinreleasecontrol.md">KsPinReleaseControl</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
+
  
 
  

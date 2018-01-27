@@ -7,8 +7,8 @@ old-location: netvista\ndis_wwan_get_slot_info_status.htm
 old-project: netvista
 ms.assetid: 214AFAD3-B211-4D66-8CFC-58F8EB407B83
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_WWAN_GET_SLOT_INFO, NDIS_WWAN_GET_SLOT_INFO, *PNDIS_WWAN_GET_SLOT_INFO
+ms.date: 1/18/2018
+ms.keywords: PNDIS_WWAN_GET_SLOT_INFO, ndiswwan/NDIS_WWAN_GET_SLOT_INFO, netvista.ndis_wwan_get_slot_info_status, NDIS_WWAN_GET_SLOT_INFO structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_GET_SLOT_INFO, PNDIS_WWAN_GET_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_GET_SLOT_INFO, ndiswwan/PNDIS_WWAN_GET_SLOT_INFO, *PNDIS_WWAN_GET_SLOT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_WWAN_GET_SLOT_INFO
-req.alt-loc: ndiswwan.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: NDIS_WWAN_GET_SLOT_INFO, *PNDIS_WWAN_GET_SLOT_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ndiswwan.h
+apiname: 
+-	NDIS_WWAN_GET_SLOT_INFO
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_WWAN_GET_SLOT_INFO, NDIS_WWAN_GET_SLOT_INFO
 ---
 
 # _NDIS_WWAN_GET_SLOT_INFO structure
 
 
-
 ## -description
+
+
 The <b>NDIS_WWAN_GET_SLOT_INFO</b> structure represents the status of a slot in the modem of the MB device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NDIS_WWAN_GET_SLOT_INFO {
@@ -55,6 +65,9 @@ typedef struct _NDIS_WWAN_GET_SLOT_INFO {
 
 ## -struct-fields
 
+
+
+
 ### -field Header
 
 The header with type, revision, and size information about the <b>NDIS_WWAN_GET_SLOT_INFO</b> structure.
@@ -63,7 +76,6 @@ The header with type, revision, and size information about the <b>NDIS_WWAN_GET_
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
-
 <table>
 <tr>
 <th>Header submember</th>
@@ -99,33 +111,32 @@ sizeof(NDIS_WWAN_GET_SLOT_INFO)
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field SlotInfoStatus
+### -field GetSlotInfo
+
+ 
+
+
+
+#### - SlotInfoStatus
 
 A formatted <a href="..\wwan\ns-wwan-_wwan_get_slot_info.md">WWAN_GET_SLOT_INFO</a> structure which contains the slot index to specify which slot's status the query request is for.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\wwan\ns-wwan-_wwan_get_slot_info.md">WWAN_GET_SLOT_INFO</a>
-</dt>
-</dl>
- 
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_GET_SLOT_INFO structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_GET_SLOT_INFO structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

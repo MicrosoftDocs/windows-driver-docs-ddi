@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f0efa17c-9318-46a4-bc08-d4d372cc07ba
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCreateAllocator2
+ms.keywords: ks/KsCreateAllocator2, KsCreateAllocator2, stream.kscreateallocator2, KsCreateAllocator2 function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsCreateAllocator2
-req.alt-loc: Ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,24 +26,36 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ks.h
+apiname: 
+-	KsCreateAllocator2
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsCreateAllocator2 function
 
 
-
 ## -description
+
+
 Creates a handle to an allocator for the given sink connection handle. This function does not complete the IRP or set the status in the IRP.
 
 Supported starting in Windows 8.
 
 
-
 ## -syntax
+
 
 ````
  KSDDKAPI HRESULT WINAPI KsCreateAllocator2(
@@ -57,6 +67,9 @@ Supported starting in Windows 8.
 
 
 ## -parameters
+
+
+
 
 ### -param ConnectionHandle [in]
 
@@ -74,25 +87,27 @@ Specifies the pointer to a handle to store the allocator handle.
 
 
 ## -returns
+
+
 Returns <b>NOERROR</b> if successful; otherwise, returns an error code.
 
 
+
 ## -remarks
+
+
 This is a new version of the <a href="..\ks\nf-ks-kscreateallocator.md">KsCreateAllocator</a> function and uses the device broker to create the handle to the kernel streaming object. In addition, the Component Object Model (COM) <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> function must be called before this function is called.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-kscreateallocator.md">KsCreateAllocator</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
+
+<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
+
  
 
  

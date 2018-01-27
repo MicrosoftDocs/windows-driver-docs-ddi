@@ -7,8 +7,8 @@ old-location: netvista\ndiscancelsendnetbufferlists.htm
 old-project: netvista
 ms.assetid: 7b61db73-ddd4-4d46-b378-9a82fdf041ea
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisCancelSendNetBufferLists
+ms.date: 1/18/2018
+ms.keywords: NdisCancelSendNetBufferLists, netvista.ndiscancelsendnetbufferlists, ndis/NdisCancelSendNetBufferLists, ndis_sendrcv_ref_f4aca438-863f-44fa-9503-8ac339010360.xml, NdisCancelSendNetBufferLists function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisCancelSendNetBufferLists
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_SendRcv_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,33 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisCancelSendNetBufferLists
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCancelSendNetBufferLists function
 
 
-
 ## -description
+
+
 Protocol drivers call the 
   <b>NdisCancelSendNetBufferLists</b> function to cancel the transmission of network data.
 
 
-
 ## -syntax
+
 
 ````
 VOID NdisCancelSendNetBufferLists(
@@ -55,6 +66,9 @@ VOID NdisCancelSendNetBufferLists(
 
 
 ## -parameters
+
+
+
 
 ### -param NdisBindingHandle [in]
 
@@ -70,10 +84,15 @@ The cancellation identifier. This identifier specifies the network data for whic
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 A protocol driver maps IRPs that it receives from higher-level software to NDIS network data. A list
     of 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures describes the
@@ -83,8 +102,8 @@ A protocol driver maps IRPs that it receives from higher-level software to NDIS 
     network data.
 
 Call the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
-    NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a> macro for each NET_BUFFER_LIST structure that is passed to
+    <mshelp:link keywords="netvista.ndis_set_net_buffer_list_cancel_id" tabindex="0"><b>
+    NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</b></mshelp:link> macro for each NET_BUFFER_LIST structure that is passed to
     lower-level drivers for transmission. The NDIS_SET_NET_BUFFER_LIST_CANCEL_ID macro marks the specified
     packet with a cancellation identifier.
 
@@ -115,39 +134,33 @@ There is no guarantee that calling
 
 In all cases, NDIS returns network data that was submitted for transmission to the originating
     protocol driver's 
-    <a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
-    ProtocolSendNetBufferListsComplete</a> function. NDIS returns canceled send data with a completion
+    <mshelp:link keywords="netvista.protocolsendnetbufferlistscomplete" tabindex="0"><i>
+    ProtocolSendNetBufferListsComplete</i></mshelp:link> function. NDIS returns canceled send data with a completion
     status of NDIS_STATUS_SEND_ABORTED. The delay between calling 
     <b>NdisCancelSendNetBufferLists</b> and the return of the canceled NET_BUFFER_LIST structures can vary and
     therefore cannot be exactly specified.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
-   NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a>
-</dt>
-<dt>
+
 <a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-</dt>
-<dt>
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-</dt>
-<dt>
-<a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
-   ProtocolSendNetBufferListsComplete</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
+
+<mshelp:link keywords="netvista.ndis_set_net_buffer_list_cancel_id" tabindex="0"><b>
+   NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</b></mshelp:link>
+
+<mshelp:link keywords="netvista.protocolsendnetbufferlistscomplete" tabindex="0"><i>
+   ProtocolSendNetBufferListsComplete</i></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCancelSendNetBufferLists function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCancelSendNetBufferLists function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

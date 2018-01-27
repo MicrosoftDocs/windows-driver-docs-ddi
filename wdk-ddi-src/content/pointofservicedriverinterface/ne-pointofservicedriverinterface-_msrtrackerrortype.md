@@ -7,8 +7,8 @@ old-location: pos\msrtrackerrortype.htm
 old-project: pos
 ms.assetid: 2abd9341-527f-43af-baa2-622b759b47cd
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _MsrTrackErrorType, MsrTrackErrorType
+ms.date: 1/18/2018
+ms.keywords: pointofservicedriverinterface/MsrTrackErrorType_StartSentinelError, MsrTrackErrorType_Unknown, pointofservicedriverinterface/MsrTrackErrorType, pointofservicedriverinterface/MsrTrackErrorType_ParityError, _MsrTrackErrorType, MsrTrackErrorType, MsrTrackErrorType_None, MsrTrackErrorType_StartSentinelError, pointofservicedriverinterface/MsrTrackErrorType_None, MsrTrackErrorType_ParityError, pos.msrtrackerrortype, MsrTrackErrorType_LrcError, pointofservicedriverinterface/MsrTrackErrorType_LrcError, MsrTrackErrorType enumeration, pointofservicedriverinterface/MsrTrackErrorType_Unknown, pointofservicedriverinterface/MsrTrackErrorType_EndSentinelError, MsrTrackErrorType_EndSentinelError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MsrTrackErrorType
-req.alt-loc: pointofservicedriverinterface.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pointofservicedriverinterface.h
+apiname: 
+-	MsrTrackErrorType
+product: Windows
+targetos: Windows
 req.typenames: MsrTrackErrorType
 ---
 
 # _MsrTrackErrorType enumeration
 
 
-
 ## -description
+
+
 This enumeration defines the kinds of magnetic stripe reader track errors.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _MsrTrackErrorType { 
@@ -58,6 +68,9 @@ typedef enum _MsrTrackErrorType {
 
 
 ## -enum-fields
+
+
+
 
 ### -field MsrTrackErrorType_Unknown
 
@@ -88,5 +101,3 @@ A parity error.
 
 A Longitudinal Redundancy Check (LRC) or checksum error.
 
-
-## -remarks

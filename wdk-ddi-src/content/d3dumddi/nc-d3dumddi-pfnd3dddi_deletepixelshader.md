@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bc987531-d402-4f3b-a4e2-d71fe97f5400
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.deletepixelshader, DeletePixelShader callback function [Display Devices], DeletePixelShader, PFND3DDDI_DELETEPIXELSHADER, PFND3DDDI_DELETEPIXELSHADER, d3dumddi/DeletePixelShader, UserModeDisplayDriver_Functions_2994cbd5-2661-40e3-bdcd-3b2bfc209c24.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DeletePixelShader
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DeletePixelShader
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_DELETEPIXELSHADER callback
 
 
-
 ## -description
+
+
 The <b>DeletePixelShader</b> function cleans up driver-side resources that are associated with pixel shader code.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_DELETEPIXELSHADER DeletePixelShader;
@@ -58,33 +68,46 @@ __checkReturn HRESULT APIENTRY DeletePixelShader(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param hShaderHandle [in]
+### -param HANDLE
+
+
+
+
+
+
+#### - hShaderHandle [in]
 
  A handle to the pixel shader code object.
 
 
 ## -returns
+
+
 <b>DeletePixelShader</b> returns S_OK or an appropriate error result if the pixel shader code object is not successfully cleaned up.
 
 
+
 ## -remarks
+
+
 The <b>DeletePixelShader</b> function notifies the driver about the deletion of the pixel shader code object that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createpixelshader.md">CreatePixelShader</a> function created. The driver can then clean up any driver-side resources that are associated with the pixel shader code.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createpixelshader.md">CreatePixelShader</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createpixelshader.md">CreatePixelShader</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 65ab5b68-9b76-497b-b560-9a4867d4d34e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _KBUGCHECK_DATA, KBUGCHECK_DATA, *PKBUGCHECK_DATA
+ms.keywords: stream.av_c_intersect_handler, PFNAVCINTERSECTHANDLER function pointer [Streaming Media Devices], PFNAVCINTERSECTHANDLER, avc/PFNAVCINTERSECTHANDLER, avcref_6aa55400-08b6-4a96-af38-23e69fed1621.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PFNAVCINTERSECTHANDLER
-req.alt-loc: avc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	avc.h
+apiname: 
+-	PFNAVCINTERSECTHANDLER
+product: Windows
+targetos: Windows
 req.typenames: KBUGCHECK_DATA, *PKBUGCHECK_DATA
 ---
 
 # PFNAVCINTERSECTHANDLER callback
 
 
-
 ## -description
+
+
 The AV/C intersect handler determines if the data ranges are compatible. This is a user-defined function based on the following prototype:
 
 
-
 ## -prototype
+
 
 ````
 typedef NTSTATUS ( *PFNAVCINTERSECTHANDLER)(
@@ -60,6 +70,9 @@ typedef NTSTATUS ( *PFNAVCINTERSECTHANDLER)(
 
 ## -parameters
 
+
+
+
 ### -param Context [in]
 
 An optional value expected by the intersect handler. This value is either provided by the subunit driver (if the subunit driver provides the intersect handler), or by the lower driver providing the intersect handler.
@@ -70,14 +83,12 @@ An optional value expected by the intersect handler. This value is either provid
 Specifies the offset (or ID) of the pin for which the intersection is being done.
 
 
-### -param CallerDataRange [in]
-
-The first of two data ranges being compared.
+### -param DataRange
 
 
-### -param DescriptorDataRange [in]
 
-The second of two data ranges being compared.
+### -param MatchingDataRange
+
 
 
 ### -param DataBufferSize [in]
@@ -90,53 +101,115 @@ The size of the buffer passed by the <b>Data</b> member. If this is nonzero, the
 An optional buffer to receive the data format resulting from a matching pair of data ranges. This member is ignored if <b>DataBufferSize </b>is zero.
 
 
-### -param ReportedDataSize [out]
+### -param DataSize
+
+
+
+
+
+
+#### - ReportedDataSize [out]
 
 The actual size of the resulting data format. If <b>DataBufferSize</b> was zero, then this contains the required size of the buffer, but no format is returned.
 
 
+#### - CallerDataRange [in]
+
+The first of two data ranges being compared.
+
+
+#### - DescriptorDataRange [in]
+
+The second of two data ranges being compared.
+
+
 ## -returns
+
+
 The intersect handler should return STATUS_SUCCESS if the data ranges are compatible, and there was enough buffer space to return the resulting format.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NO_MATCH</b></dt>
-</dl>The data ranges are not compatible.
+</dl>
+</td>
+<td width="60%">
+The data ranges are not compatible.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INTERNAL_ERROR</b></dt>
-</dl>There was an unexpected format size mismatch.
+</dl>
+</td>
+<td width="60%">
+There was an unexpected format size mismatch.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_OVERFLOW</b></dt>
-</dl>The intersect handler returns the required buffer size through the <b>ReportedDataSize</b> member.
+</dl>
+</td>
+<td width="60%">
+The intersect handler returns the required buffer size through the <b>ReportedDataSize</b> member.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The intersect handler was not provided with a buffer large enough to hold the resulting format. The intersect handler must be called again with the <b>DataBufferSize</b> set to zero to determine the required buffer size.
+</dl>
+</td>
+<td width="60%">
+The intersect handler was not provided with a buffer large enough to hold the resulting format. The intersect handler must be called again with the <b>DataBufferSize</b> set to zero to determine the required buffer size.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>An internal buffer allocation failed.
+</dl>
+</td>
+<td width="60%">
+An internal buffer allocation failed.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The AV/C intersect handler is user-defined, based on the function prototype above.
 
 The handler is used in conjunction with the <b>AVC_FUNCTION_GET_PIN_DESCRIPTOR</b> function code. The purpose of the handler  is to match identical pin data formats and return them to the caller.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\avc\ns-avc-_avc_pin_descriptor.md">AVC_PIN_DESCRIPTOR</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554160">AVC_FUNCTION_GET_PIN_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="..\ks\nc-ks-pfnksintersecthandlerex.md">AVStrMiniIntersectHandlerEx</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554160">AVC_FUNCTION_GET_PIN_DESCRIPTOR</a>
+
 <a href="https://msdn.microsoft.com/44281574-8258-47a3-857d-fd44bb949f17">DataRange Intersections in AVStream</a>
-</dt>
-</dl>
+
+<a href="..\avc\ns-avc-_avc_pin_descriptor.md">AVC_PIN_DESCRIPTOR</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: efa54d23-99bc-49ea-b8a3-7ea5b00e36d8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_UPDATEOVERLAY, D3DDDICB_UPDATEOVERLAY
+ms.keywords: display.d3dddicb_updateoverlay, D3D_param_Structs_b9e39db9-44ba-45d5-9500-dd9d5d8cc4bb.xml, D3DDDICB_UPDATEOVERLAY structure [Display Devices], _D3DDDICB_UPDATEOVERLAY, d3dumddi/D3DDDICB_UPDATEOVERLAY, D3DDDICB_UPDATEOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_UPDATEOVERLAY
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_UPDATEOVERLAY
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_UPDATEOVERLAY
 ---
 
 # _D3DDDICB_UPDATEOVERLAY structure
 
 
-
 ## -description
+
+
 The D3DDDICB_UPDATEOVERLAY structure describes parameters for modifying an overlay.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_UPDATEOVERLAY {
@@ -55,6 +65,9 @@ typedef struct _D3DDDICB_UPDATEOVERLAY {
 
 ## -struct-fields
 
+
+
+
 ### -field hKernelOverlay
 
 [in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that is returned by the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a> function and that identifies the kernel-mode overlay object to modify. 
@@ -65,21 +78,14 @@ typedef struct _D3DDDICB_UPDATEOVERLAY {
 [in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_kerneloverlayinfo.md">D3DDDI_KERNELOVERLAYINFO</a> structure that describes modification information for the kernel-mode overlay object. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_kerneloverlayinfo.md">D3DDDI_KERNELOVERLAYINFO</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a>
-</dt>
-<dt>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_kerneloverlayinfo.md">D3DDDI_KERNELOVERLAYINFO</a>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlaycb.md">pfnUpdateOverlayCb</a>
-</dt>
-</dl>
+
  
 
  

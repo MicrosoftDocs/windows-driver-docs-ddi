@@ -7,8 +7,8 @@ old-location: netvista\rilsupsvctype_2.htm
 old-project: netvista
 ms.assetid: 4aec39d6-3e12-4393-b477-24ea2036c227
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSUPSVCTYPE, RILSUPSVCTYPE
+ms.date: 1/18/2018
+ms.keywords: RIL_SUPSVCTYPE_COLP, RIL_SUPSVCTYPE_CNAP, rilapitypes/RIL_SUPSVCTYPE_CLIR, rilapitypes/RIL_SUPSVCTYPE_CNAP, RILSUPSVCTYPE enumeration [Network Drivers Starting with Windows Vista], RILSUPSVCTYPE, RIL_SUPSVCTYPE_COLR, RIL_SUPSVCTYPE_MAX, rilapitypes/RIL_SUPSVCTYPE_COLP, rilapitypes/RILSUPSVCTYPE, RIL_SUPSVCTYPE_CLIP, netvista.rilsupsvctype_2, rilapitypes/RIL_SUPSVCTYPE_CLIP, RIL_SUPSVCTYPE_CLIR, rilapitypes/RIL_SUPSVCTYPE_MAX, rilapitypes/RIL_SUPSVCTYPE_COLR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSUPSVCTYPE
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILSUPSVCTYPE
+product: Windows
+targetos: Windows
 req.typenames: RILSUPSVCTYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILSUPSVCTYPE enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILSUPSVCTYPE { 
@@ -60,22 +70,33 @@ typedef enum _RILSUPSVCTYPE {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_SUPSVCTYPE_CALLWAITING
+
+
+
 ### -field RIL_SUPSVCTYPE_CLIP
+
 
 
 ### -field RIL_SUPSVCTYPE_CLIR
 
 
+
 ### -field RIL_SUPSVCTYPE_COLP
+
 
 
 ### -field RIL_SUPSVCTYPE_COLR
 
 
+
 ### -field RIL_SUPSVCTYPE_CNAP
+
 
 
 ### -field RIL_SUPSVCTYPE_MAX
 
 
-## -remarks

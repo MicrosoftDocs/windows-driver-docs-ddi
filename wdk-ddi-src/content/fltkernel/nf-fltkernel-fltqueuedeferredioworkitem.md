@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c6a51b9b-544e-4595-842a-76c667928350
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltQueueDeferredIoWorkItem
+ms.keywords: ifsk.fltqueuedeferredioworkitem, fltkernel/FltQueueDeferredIoWorkItem, FltQueueDeferredIoWorkItem, FltApiRef_p_to_z_df42429d-485c-4c28-a9e7-b334d7ad52d7.xml, FltQueueDeferredIoWorkItem routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available in Microsoft Windows 2000 a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltQueueDeferredIoWorkItem
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltQueueDeferredIoWorkItem
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltQueueDeferredIoWorkItem function
 
 
-
 ## -description
+
+
 The <b>FltQueueDeferredIoWorkItem</b> routine posts an IRP-based I/O operation to a work queue. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltQueueDeferredIoWorkItem(
@@ -58,6 +68,9 @@ NTSTATUS FltQueueDeferredIoWorkItem(
 
 ## -parameters
 
+
+
+
 ### -param FltWorkItem [in]
 
 A pointer to the work item to add to the work queue. The work item must have been allocated by calling <a href="..\fltkernel\nf-fltkernel-fltallocatedeferredioworkitem.md">FltAllocateDeferredIoWorkItem</a>. 
@@ -71,7 +84,6 @@ A pointer to the callback data (<a href="..\fltkernel\ns-fltkernel-_flt_callback
 ### -param WorkerRoutine [in]
 
 A pointer to a caller-supplied worker routine. This routine is declared as follows: 
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -89,28 +101,9 @@ A pointer to a caller-supplied worker routine. This routine is declared as follo
 </table></span></div>
 
 
-
-### -param FltWorkItem
-
-An opaque pointer to a deferred work item structure. 
-
-
-### -param CallbackData
-
-A pointer to the callback data structure for the I/O operation. 
-
-
-### -param Context
-
-An optional context information pointer that was passed as the <i>Context</i> parameter of <b>FltQueueDeferredIoWorkItem</b>. 
-
-</dd>
-</dl>
-
 ### -param QueueType [in]
 
 This parameter specifies the queue into which the work item that <i>FltWorkItem</i> points to is to be inserted. <i>QueueType</i> can be either of the following. 
-
 <table>
 <tr>
 <th>Value</th>
@@ -136,8 +129,7 @@ Insert the work item into the queue from which a system thread with a variable p
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 The <i>QueueType</i> value <b>HyperCriticalWorkQueue</b> is reserved for system use. 
 
@@ -147,88 +139,154 @@ The <i>QueueType</i> value <b>HyperCriticalWorkQueue</b> is reserved for system 
 A pointer to caller-defined context information to be passed as the <i>Context</i> parameter of the callback routine specified in the <i>WorkerRoutine</i> parameter. 
 
 
+##### - WorkerRoutine.CallbackData
+
+A pointer to the callback data structure for the I/O operation. 
+
+
+##### - WorkerRoutine.Context
+
+An optional context information pointer that was passed as the <i>Context</i> parameter of <b>FltQueueDeferredIoWorkItem</b>. 
+
+
+##### - WorkerRoutine.FltWorkItem
+
+An opaque pointer to a deferred work item structure. 
+
+
 ## -returns
+
+
 The <b>FltQueueDeferredIoWorkItem</b> routine returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FLT_DELETING_OBJECT</b></dt>
-</dl>The target instance for the I/O operation (<i>Data-&gt;Iopb-&gt;TargetInstance</i>) is being torn down. This is an error code. 
+</dl>
+</td>
+<td width="60%">
+The target instance for the I/O operation (<i>Data-&gt;Iopb-&gt;TargetInstance</i>) is being torn down. This is an error code. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FLT_NOT_SAFE_TO_POST_OPERATION</b></dt>
-</dl>The I/O operation cannot be posted safely to a worker thread. Possible reasons include the following: 
+</dl>
+</td>
+<td width="60%">
+The I/O operation cannot be posted safely to a worker thread. Possible reasons include the following: 
 
+<ul>
+<li>
 <b>FltQueueDeferredIoWorkItem</b> cannot post an I/O operation to a worker thread if the <b>TopLevelIrp</b> field of the current thread is not <b>NULL</b>, because the resulting file system recursion could cause deadlocks or stack overflows. (For more information, see <a href="..\ntifs\nf-ntifs-iogettoplevelirp.md">IoGetTopLevelIrp</a>.) 
 
+</li>
+<li>
 <b>FltQueueDeferredIoWorkItem</b> cannot post a paging I/O operation to a worker thread. 
 
+</li>
+</ul>
 STATUS_FLT_NOT_SAFE_TO_POST_OPERATION is an error code. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The <b>FltQueueDeferredIoWorkItem</b> routine posts an I/O operation to a system work queue. The specified <i>WorkerRoutine</i> callback routine is called in the context of a system thread, at IRQL PASSIVE_LEVEL. 
 
 The operation must be an IRP-based I/O operation. To determine whether a given callback data structure represents an IRP-based I/O operation, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a> macro. 
 
 A minifilter driver can use <b>FltQueueDeferredIoWorkItem</b> in a preoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>) routine as follows: 
-
+<ol>
+<li>
 The preoperation callback calls <a href="..\fltkernel\nf-fltkernel-fltallocatedeferredioworkitem.md">FltAllocateDeferredIoWorkItem</a> to allocate the work item. 
 
+</li>
+<li>
 The preoperation callback calls <b>FltQueueDeferredIoWorkItem</b> to post the operation to the work queue. 
 
+</li>
+<li>
 The preoperation callback returns FLT_PREOP_PENDING. 
 
+</li>
+<li>
 After processing the I/O operation, the work routine calls <a href="..\fltkernel\nf-fltkernel-fltcompletependedpreoperation.md">FltCompletePendedPreOperation</a> to return the I/O operation to the Filter Manager. 
 
+</li>
+<li>
 The work routine calls <a href="..\fltkernel\nf-fltkernel-fltfreedeferredioworkitem.md">FltFreeDeferredIoWorkItem</a> to free the work item. 
 
-A minifilter driver can use <b>FltQueueDeferredIoWorkItem</b> in a post-operation callback (<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>) routine as follows: 
-
+</li>
+</ol>A minifilter driver can use <b>FltQueueDeferredIoWorkItem</b> in a post-operation callback (<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>) routine as follows: 
+<ol>
+<li>
 The post-operation callback calls <a href="..\fltkernel\nf-fltkernel-fltallocatedeferredioworkitem.md">FltAllocateDeferredIoWorkItem</a> to allocate the work item. 
 
+</li>
+<li>
 The post-operation callback calls <b>FltQueueDeferredIoWorkItem</b> to post the operation to the work queue. 
 
+</li>
+<li>
 The post-operation callback returns FLT_POSTOP_MORE_PROCESSING_REQUIRED. 
 
+</li>
+<li>
 After processing the I/O operation, the work routine calls <a href="..\fltkernel\nf-fltkernel-fltcompletependedpostoperation.md">FltCompletePendedPostOperation</a> to return the I/O operation to the Filter Manager. 
 
+</li>
+</ol>The work routine calls <a href="..\fltkernel\nf-fltkernel-fltfreedeferredioworkitem.md">FltFreeDeferredIoWorkItem</a> to free the work item. 
+<div class="alert"><b>Caution</b>  
+     To avoid deadlocks, a minifilter must not post an I/O operation to a system work queue in the post-operation callback for any I/O operations that a driver can complete  directly in the storage stack, such as the following:<ul>
+<li>
 IRP_MJ_READ
 
+</li>
+<li>
 IRP_MJ_WRITE
 
+</li>
+<li>
 IRP_MJ_FLUSH_BUFFERS
+
+</li>
+</ul>
+</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltallocatedeferredioworkitem.md">FltAllocateDeferredIoWorkItem</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltcompletependedpostoperation.md">FltCompletePendedPostOperation</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltcompletependedpreoperation.md">FltCompletePendedPreOperation</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltfreedeferredioworkitem.md">FltFreeDeferredIoWorkItem</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-iogettoplevelirp.md">IoGetTopLevelIrp</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltfreedeferredioworkitem.md">FltFreeDeferredIoWorkItem</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatedeferredioworkitem.md">FltAllocateDeferredIoWorkItem</a>
+
+<a href="..\ntifs\nf-ntifs-iogettoplevelirp.md">IoGetTopLevelIrp</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltcompletependedpostoperation.md">FltCompletePendedPostOperation</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
+
  
 
  

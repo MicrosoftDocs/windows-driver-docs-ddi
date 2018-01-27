@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: be8867e4-42be-4f11-bf4b-1b0fd29daa06
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_COINSTALLER_INSTALL_OPTIONS, *PWDF_COINSTALLER_INSTALL_OPTIONS, WDF_COINSTALLER_INSTALL_OPTIONS
+ms.keywords: wdf.wdf_coinstaller_install_options, WDF_COINSTALLER_INSTALL_OPTIONS, PWDF_COINSTALLER_INSTALL_OPTIONS structure pointer, wdfinstaller/PWDF_COINSTALLER_INSTALL_OPTIONS, WDF_COINSTALLER_INSTALL_OPTIONS structure, DFCoinstallerRef_71021229-7902-4d6a-a5f3-c9763860c7bf.xml, _WDF_COINSTALLER_INSTALL_OPTIONS, wdfinstaller/WDF_COINSTALLER_INSTALL_OPTIONS, PWDF_COINSTALLER_INSTALL_OPTIONS, *PWDF_COINSTALLER_INSTALL_OPTIONS, kmdf.wdf_coinstaller_install_options
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.9
 req.umdf-ver: 
-req.alt-api: WDF_COINSTALLER_INSTALL_OPTIONS
-req.alt-loc: wdfinstaller.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfinstaller.h
+apiname: 
+-	WDF_COINSTALLER_INSTALL_OPTIONS
+product: Windows
+targetos: Windows
 req.typenames: *PWDF_COINSTALLER_INSTALL_OPTIONS, WDF_COINSTALLER_INSTALL_OPTIONS
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDF_COINSTALLER_INSTALL_OPTIONS structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_COINSTALLER_INSTALL_OPTIONS</b> structure contains installation options that a framework-based driver's installer can specify to the framework's co-installer.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WDF_COINSTALLER_INSTALL_OPTIONS {
@@ -57,6 +67,9 @@ typedef struct _WDF_COINSTALLER_INSTALL_OPTIONS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -71,17 +84,18 @@ If this value is <b>FALSE</b>, and if the co-installer determines that the compu
 
 
 ## -remarks
+
+
 The <b>WDF_COINSTALLER_INSTALL_OPTIONS</b> structure is used as an input parameter to <a href="..\wdfinstaller\nf-wdfinstaller-wdfpredeviceinstallex.md">WdfPreDeviceInstallEx</a>.
 
 Your installer should initialize the <b>WDF_COINSTALLER_INSTALL_OPTIONS</b> structure by calling <a href="..\wdfinstaller\nf-wdfinstaller-wdf_coinstaller_install_options_init.md">WDF_COINSTALLER_INSTALL_OPTIONS_INIT</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfinstaller\nf-wdfinstaller-wdf_coinstaller_install_options_init.md">WDF_COINSTALLER_INSTALL_OPTIONS_INIT</a>
-</dt>
-</dl>
+
  
 
  

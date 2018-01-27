@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9ff62523-e9e3-4f32-802f-6fee0082d925
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _URB_OS_FEATURE_DESCRIPTOR_REQUEST,
+ms.keywords: _URB_OS_FEATURE_DESCRIPTOR_REQUEST, _URB_OS_FEATURE_DESCRIPTOR_REQUEST structure [Buses], buses._urb_os_feature_descriptor_request, usb/_URB_OS_FEATURE_DESCRIPTOR_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows XP and later operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: _URB_OS_FEATURE_DESCRIPTOR_REQUEST
-req.alt-loc: usb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usb.h
+apiname: 
+-	_URB_OS_FEATURE_DESCRIPTOR_REQUEST
+product: Windows
+targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _URB_OS_FEATURE_DESCRIPTOR_REQUEST structure
 
 
-
 ## -description
+
+
 The <b>_URB_OS_FEATURE_DESCRIPTOR_REQUEST</b> structure is used by the USB hub driver to retrieve Microsoft OS Feature Descriptors from a USB device or an interface on a USB device.
 
 
-
 ## -syntax
+
 
 ````
 struct _URB_OS_FEATURE_DESCRIPTOR_REQUEST {
@@ -63,11 +73,49 @@ struct _URB_OS_FEATURE_DESCRIPTOR_REQUEST {
 
 ## -struct-fields
 
-### -field  Hdr
+
+
+
+### -field Hdr
 
 Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must URB_FUNCTION_GET_MS_FEATURE_DESCRIPTOR.
 <b>Hdr.Length</b> must be <code>sizeof(_URB_OS_FEATURE_DESCRIPTOR_REQUEST)</code>.
 
+
+
+### -field _URB_HEADER
+
+ 
+
+
+### -field _URB
+
+ 
+
+
+### -field UrbLink
+
+Reserved. Do not use.
+
+
+### -field hca
+
+ 
+
+
+### -field _URB_HCD_AREA
+
+ 
+
+
+### -field Reserved
+
+ 
+
+
+### -field Reserved0
+
+ 
 
 
 ### -field TransferBufferLength
@@ -85,15 +133,9 @@ Pointer to a resident buffer for the transfer or is <b>NULL</b> if an MDL is sup
 Pointer to an MDL that describes a resident buffer or is <b>NULL</b> if a buffer is supplied in <b>TransferBuffer</b>. This MDL must be allocated from nonpaged pool.
 
 
-### -field UrbLink
-
-Reserved. Do not use.
-
-
 ### -field Recipient
 
 Specifies whether the recipient is the USB device or an interface on the USB device.  One of the following values must be specified:
-
 <ul>
 <li>0 indicates that the USB device is the recipient of the request.
 </li>
@@ -102,6 +144,16 @@ Specifies whether the recipient is the USB device or an interface on the USB dev
 <li>2 indicates that a USB endpoint is the recipient of the request. 
 </li>
 </ul>
+
+### -field Reserved1
+
+ 
+
+
+### -field Reserved2
+
+ 
+
 
 ### -field InterfaceNumber
 
@@ -118,19 +170,25 @@ Must be set to 0. Page index of the 64K page of the MS OS Feature Descriptor to 
 Index for MS OS Feature Descriptor to be requested.
 
 
+### -field Reserved3
+
+ 
+
+
+
 ## -remarks
+
+
 The reserved members of this structure must be treated as opaque and are reserved for system use.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\usb\ns-usb-_urb.md">URB</a>
-</dt>
-<dt>
+
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-</dt>
-</dl>
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
+
  
 
  

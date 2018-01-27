@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: CA46EEC4-5F3D-4E4C-8C83-6D91BE301C68
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE
+ms.keywords: D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, _D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, display.d3dddigpuvirtualaddress_protection_type, D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE structure [Display Devices], d3dukmdt/D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE
 ---
 
 # _D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE structure
 
 
-
 ## -description
+
+
 <b>D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE</b> specifies the protection on the graphics processing unit (GPU) virtual address that is mapped.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE {
@@ -63,6 +73,9 @@ typedef struct _D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Write
 
@@ -98,5 +111,3 @@ This member is reserved and should be set to zero.
 
 The consolidated value of the structure's members.
 
-
-## -remarks

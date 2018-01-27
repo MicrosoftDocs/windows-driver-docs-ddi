@@ -7,8 +7,8 @@ old-location: netvista\riluiccserviceparams.htm
 old-project: netvista
 ms.assetid: 0f43b2be-d371-42d8-825b-56362de05c5e
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILUICCSERVICEPARAMS, RILUICCSERVICEPARAMS, *LPRILUICCSERVICEPARAMS
+ms.date: 1/18/2018
+ms.keywords: RILUICCSERVICEPARAMS, *LPRILUICCSERVICEPARAMS, netvista.riluiccserviceparams, RILUICCSERVICEPARAMS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILUICCSERVICEPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILUICCSERVICEPARAMS
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILUICCSERVICEPARAMS, *LPRILUICCSERVICEPARAMS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILUICCSERVICEPARAMS
+product: Windows
+targetos: Windows
+req.typenames: *LPRILUICCSERVICEPARAMS, RILUICCSERVICEPARAMS
 ---
 
 # RILUICCSERVICEPARAMS structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILUICCSERVICEPARAMS {
@@ -57,16 +67,21 @@ typedef struct _RILUICCSERVICEPARAMS {
 
 ## -struct-fields
 
+
+
+
 ### -field service
+
 
 
 ### -field fHasLockVerification
 
 
+
 ### -field lockCredential
+
 
 
 ### -field fEnable
 
 
-## -remarks

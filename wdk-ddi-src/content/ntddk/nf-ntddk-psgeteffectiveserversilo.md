@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 60FCFF5B-4040-423F-A9B6-2DFE7DDD9DD0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsGetEffectiveServerSilo
+ms.keywords: kernel.psgeteffectiveserversilo, PsGetEffectiveServerSilo, PsGetEffectiveServerSilo routine [Kernel-Mode Driver Architecture], ntddk/PsGetEffectiveServerSilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1607
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PsGetEffectiveServerSilo
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	PsGetEffectiveServerSilo
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # PsGetEffectiveServerSilo function
 
 
-
 ## -description
+
+
 This routine traverses the parent chain of the <i>Silo</i> until finding the effective server silo or host silo.
 
 
-
 ## -syntax
+
 
 ````
 PESILO PsGetEffectiveServerSilo(
@@ -54,25 +64,32 @@ PESILO PsGetEffectiveServerSilo(
 
 ## -parameters
 
+
+
+
 ### -param Silo [in]
 
  A pointer to a silo.
 
 
 ## -returns
+
+
 The effective server silo. If a server silo is not found, the host silo is returned. In that case, <code>PsIsHostSilo(ReturnValue)</code> would return <b>TRUE</b>.
 
 
+
 ## -remarks
+
+
 This routine does not fail because it always returns a silo: the server silo or the host silo.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-psishostsilo.md">PsIsHostSilo</a>
-</dt>
-</dl>
+
  
 
  

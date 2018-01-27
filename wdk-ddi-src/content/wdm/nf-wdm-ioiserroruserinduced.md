@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6f5e54e8-c127-44d9-b1a6-e6f7ac3b3b51
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoIsErrorUserInduced
+ms.keywords: wdm/IoIsErrorUserInduced, kernel.ioiserroruserinduced, IoIsErrorUserInduced routine [Kernel-Mode Driver Architecture], IoIsErrorUserInduced, k104_860a6f10-e6c0-44cd-9386-c09e356f3472.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoIsErrorUserInduced
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wdm.h
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	IoIsErrorUserInduced
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoIsErrorUserInduced macro
 
 
-
 ## -description
+
+
 The <b>IoIsErrorUserInduced</b> routine determines whether an I/O error encountered while processing a request to a removable-media device was caused by the user.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN IoIsErrorUserInduced(
@@ -55,12 +65,17 @@ BOOLEAN IoIsErrorUserInduced(
 
 ## -parameters
 
+
+
+
 ### -param Status [in]
 
 Specifies the current NTSTATUS value, usually within the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff544079">DpcForIsr</a> routine.
 
 
 ## -remarks
+
+
 This routine indicates whether an I/O request failed for one of the following user-correctable conditions:  
 
 STATUS_DEVICE_NOT_READY
@@ -80,18 +95,15 @@ STATUS_WRONG_VOLUME
 If <b>IoIsErrorUserInduced</b> returns <b>TRUE</b>, the removable-media driver must call <a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a> before completing the IRP. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
+
 <a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
+
  
 
  

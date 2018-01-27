@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c46aee6e-f31d-4b8d-8244-3c364aa79ae4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_SendRNIDV2
+ms.keywords: fibreHBA_rtns_8e5796fe-6cfa-42e8-9855-9ab89752bfec.xml, hbaapi/HBA_SendRNIDV2, HBA_SendRNIDV2 routine [Storage Devices], HBA_SendRNIDV2, storage.hba_sendrnidv2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBA_SendRNIDV2
-req.alt-loc: Hbaapi.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Hbaapi.dll
+apiname: 
+-	HBA_SendRNIDV2
+product: Windows
+targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
 
 # HBA_SendRNIDV2 function
 
 
-
 ## -description
+
+
 The <b>HBA_SendRNIDV2</b> routine sends a request for node identification data (RNID) to the indicated HBA, which in turn routes the request through the indicated port or node to the appropriate fabric configuration server. 
 
 
-
 ## -syntax
+
 
 ````
 HBA_STATUS HBA_API HBA_SendRNIDV2(
@@ -60,24 +70,27 @@ HBA_STATUS HBA_API HBA_SendRNIDV2(
 
 ## -parameters
 
-### -param handle [in]
-
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA that will route the command. The HBA routes this command through the port specified by <i>hbaPortWWN </i>to the port specified by <i>destWWN </i>on the appropriate fabric configuration server. 
 
 
-### -param hbaPortWWN [in]
 
-Contains a 64-bit worldwide name (WWN) that uniquely identifies a port from which the RNID command is issued. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
+### -param Handle
 
-
-### -param destWWN [in]
-
-Contains a WWN for the destination port on the fabric configuration server that will provide the node identification data. 
+TBD
 
 
-### -param destFCID [in]
+### -param HbaPortWWN
 
-Contains the fibre channel identifier of the destination port specified by <i>destWWN. </i>If no fibre channel identifier for the destination port is available, the caller should set this member to 0. 
+TBD
+
+
+### -param DestWWN
+
+TBD
+
+
+### -param DestFCID
+
+TBD
 
 
 ### -param NodeIdDataFormat [in]
@@ -90,33 +103,61 @@ Contains a number that indicates the node identification format. For a complete 
 Pointer to a buffer that contains the payload data, in big-endian (wire) format, from the reply to the node identification request.  
 
 
-### -param RspBufferSize [in, out]
+### -param pRspBufferSize
+
+TBD
+
+
+
+#### - destFCID [in]
+
+Contains the fibre channel identifier of the destination port specified by <i>destWWN. </i>If no fibre channel identifier for the destination port is available, the caller should set this member to 0. 
+
+
+#### - handle [in]
+
+Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA that will route the command. The HBA routes this command through the port specified by <i>hbaPortWWN </i>to the port specified by <i>destWWN </i>on the appropriate fabric configuration server. 
+
+
+#### - hbaPortWWN [in]
+
+Contains a 64-bit worldwide name (WWN) that uniquely identifies a port from which the RNID command is issued. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
+
+
+#### - destWWN [in]
+
+Contains a WWN for the destination port on the fabric configuration server that will provide the node identification data. 
+
+
+#### - RspBufferSize [in, out]
 
 On input, indicates the size, in bytes, of the buffer pointed to by <i>pRspBuffer</i>. On return, this member indicates the size, in bytes, of the response data. 
 
 
 ## -returns
+
+
 The <b>HBA_SendRNIDV2</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA.
 
 
+
 ## -remarks
+
+
 The node identification data request is a common transport (CT) command that queries a fabric configuration server for node identification data. For a complete description of this command, see the sections dealing with node identification requests in the <i>Fibre Channel Generic Services - 4 (FC-GS-4)</i> specification published by the ANSI committee.
 
 The <b>HBA_SendRNIDV2</b> library routine serves a purpose very similar to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a> WMI method. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-</dt>
-<dt>
-<a href="..\hbaapi\nf-hbaapi-hba_sendrnid.md">HBA_SendRNID</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a>
-</dt>
-</dl>
+
+<a href="..\hbaapi\nf-hbaapi-hba_sendrnid.md">HBA_SendRNID</a>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
  
 
  

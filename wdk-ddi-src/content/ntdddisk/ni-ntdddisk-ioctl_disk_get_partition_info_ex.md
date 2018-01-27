@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 561967a3-8b57-4f24-921a-a70e1a6c717a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DETECTION_TYPE, DETECTION_TYPE
+ms.keywords: storage.ioctl_disk_get_partition_info_ex, IOCTL_DISK_GET_PARTITION_INFO_EX control code [Storage Devices], IOCTL_DISK_GET_PARTITION_INFO_EX, ntdddisk/IOCTL_DISK_GET_PARTITION_INFO_EX, k307_e9e632f5-6cc9-4494-876a-2e2f9071358b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_DISK_GET_PARTITION_INFO_EX
-req.alt-loc: Ntdddisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,63 +29,85 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntdddisk.h
+apiname: 
+-	IOCTL_DISK_GET_PARTITION_INFO_EX
+product: Windows
+targetos: Windows
 req.typenames: DETECTION_TYPE
 ---
 
 # IOCTL_DISK_GET_PARTITION_INFO_EX IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 Returns information about the type, size, and nature of a disk partition. (Floppy drivers need not handle this request.)
 
-
-
-Returns information about the type, size, and nature of a disk partition. (Floppy drivers need not handle this request.)
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 None.
 
 
 ### -input-buffer-length
+
 None.
 
 
 ### -output-buffer
+
 The driver returns the <a href="..\ntdddisk\ns-ntdddisk-_partition_information_ex.md">PARTITION_INFORMATION_EX</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
+
 <b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the buffer, which must be &gt;= <b>sizeof</b>(PARTITION_INFORMATION_EX).
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 The <b>Information</b> field is set to the size, in bytes, of the returned data. The <b>Status</b> field can be set to STATUS_SUCCESS, or possibly to STATUS_INVALID_PARAMETER, STATUS_INFO_LENGTH_MISMATCH, STATUS_INSUFFICIENT_RESOURCES, STATUS_INVALID_DEVICE_REQUEST, or STATUS_BUFFER_TOO_SMALL.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntdddisk\ns-ntdddisk-_partition_information.md">PARTITION_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 098A7BB0-B135-4E99-8BDA-1EF29A8C338F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT
+ms.keywords: SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT function [Serial Ports], SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT, 2/SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT, serports.sercx2_custom_transmit_transaction_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.1.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT
-req.alt-loc: 2.0\Sercx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	2.0\Sercx.h
+apiname: 
+-	SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT
+product: Windows
+targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT function
 
 
-
 ## -description
+
+
 The <b>SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT</b> function initializes a <a href="..\sercx\ns-sercx-_sercx2_custom_transmit_transaction_config.md">SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 VOID SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT(
@@ -55,6 +65,9 @@ VOID SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT(
 
 
 ## -parameters
+
+
+
 
 ### -param Config [out]
 
@@ -67,24 +80,27 @@ The value to load into the <b>EvtSerCx2CustomTransmitTransactionStart</b> member
 
 
 ## -returns
+
+
 None.
 
 
+
 ## -remarks
+
+
 Your serial controller driver must use this function to initialize a <a href="..\sercx\ns-sercx-_sercx2_custom_transmit_transaction_config.md">SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG</a> structure before passing a pointer to this structure as an input parameter to the <a href="..\sercx\nf-sercx-sercx2customtransmittransactioncreate.md">SerCx2CustomTransmitTransactionCreate</a> method.
 
 <b>SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT</b> sets the <b>Size</b> member of the structure to <b>sizeof</b>(<b>SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG</b>), and sets the <b>EvtSerCx2CustomTransmitTransactionStart</b> member to the value supplied as an input parameter to the function. The function sets the other members of the structure to zero. The driver can, if necessary, explicitly set these other members to nonzero values after the <b>SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT</b> call.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\sercx\ns-sercx-_sercx2_custom_transmit_transaction_config.md">SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG</a>
-</dt>
-<dt>
+
 <a href="..\sercx\nf-sercx-sercx2customtransmittransactioncreate.md">SerCx2CustomTransmitTransactionCreate</a>
-</dt>
-</dl>
+
+<a href="..\sercx\ns-sercx-_sercx2_custom_transmit_transaction_config.md">SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG</a>
+
  
 
  

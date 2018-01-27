@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 43172627-2A05-44AD-8B39-8FC384F9F44E
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SOUNDDETECTOR_PATTERNHEADER, SOUNDDETECTOR_PATTERNHEADER
+ms.keywords: audio.sounddetector_patternheader, SOUNDDETECTOR_PATTERNHEADER, ksmedia/SOUNDDETECTOR_PATTERNHEADER, SOUNDDETECTOR_PATTERNHEADER structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SOUNDDETECTOR_PATTERNHEADER
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	SOUNDDETECTOR_PATTERNHEADER
+product: Windows
+targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
 
 # SOUNDDETECTOR_PATTERNHEADER structure
 
 
-
 ## -description
+
+
 The <b>SOUNDDETECTOR_PATTERNHEADER</b> structure specifies the pattern header for the sound detector in the  <a href="https://msdn.microsoft.com/library/windows/hardware/dn932151">KSPROPERTY_SOUNDDETECTOR_PATTERNS</a> property.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field Size
 
 The size of the audio data.
@@ -65,15 +78,10 @@ The size of the audio data.
 The keyword pattern format, expressed as a GUID.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn932151">KSPROPERTY_SOUNDDETECTOR_PATTERNS</a>
-</dt>
-</dl>
+
  
 
  

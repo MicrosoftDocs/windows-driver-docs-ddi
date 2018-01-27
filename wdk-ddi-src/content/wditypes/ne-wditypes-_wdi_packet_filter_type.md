@@ -7,8 +7,8 @@ old-location: netvista\wdi_packet_filter_type.htm
 old-project: netvista
 ms.assetid: 252CE7F6-2DA7-45F8-97F0-85B51A0181C2
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WDI_PACKET_FILTER_TYPE, WDI_PACKET_FILTER_TYPE
+ms.date: 1/18/2018
+ms.keywords: netvista.wdi_packet_filter_type, WDI_PACKET_FILTER_802_11_PROMISCUOUS_MGMT, wditypes/WDI_PACKET_FILTER_802_11_RAW_DATA, wditypes/WDI_PACKET_FILTER_802_11_MULTICAST_MGMT, WDI_PACKET_FILTER_802_11_RAW_DATA, WDI_PACKET_FILTER_802_11_DIRECTED_CTRL, wditypes/WDI_PACKET_FILTER_DIRECTED, WDI_PACKET_FILTER_ALL, wditypes/WDI_PACKET_FILTER_802_11_PROMISCUOUS_CTRL, WDI_PACKET_FILTER_802_11_BROADCAST_CTRL, wditypes/WDI_PACKET_FILTER_802_11_RAW_MGMT, WDI_PACKET_FILTER_802_11_DIRECTED_MGMT, WDI_PACKET_FILTER_802_11_ALL_MULTICAST_MGMT, WDI_PACKET_FILTER_MULTICAST, wditypes/WDI_PACKET_FILTER_BROADCAST, WDI_PACKET_FILTER_TYPE, wditypes/WDI_PACKET_FILTER_NONE, wditypes/WDI_PACKET_FILTER_802_11_BROADCAST_CTRL, WDI_PACKET_FILTER_802_11_MULTICAST_MGMT, WDI_PACKET_FILTER_NONE, WDI_PACKET_FILTER_TYPE enumeration [Network Drivers Starting with Windows Vista], WDI_PACKET_FILTER_DIRECTED, WDI_PACKET_FILTER_802_11_BROADCAST_MGMT, WDI_PACKET_FILTER_PROMISCUOUS, netvista.wifi_packet_filter_type, WDI_PACKET_FILTER_802_11_RAW_MGMT, wditypes/WDI_PACKET_FILTER_ALL_MULTICAST, wditypes/WDI_PACKET_FILTER_PROMISCUOUS, wditypes/WDI_PACKET_FILTER_TYPE, wditypes/WDI_PACKET_FILTER_MULTICAST, wditypes/WDI_PACKET_FILTER_802_11_DIRECTED_CTRL, wditypes/WDI_PACKET_FILTER_802_11_PROMISCUOUS_MGMT, wditypes/WDI_PACKET_FILTER_802_11_DIRECTED_MGMT, WDI_PACKET_FILTER_802_11_PROMISCUOUS_CTRL, wditypes/WDI_PACKET_FILTER_ALL, _WDI_PACKET_FILTER_TYPE, wditypes/WDI_PACKET_FILTER_802_11_BROADCAST_MGMT, WDI_PACKET_FILTER_ALL_MULTICAST, wditypes/WDI_PACKET_FILTER_802_11_ALL_MULTICAST_MGMT, WDI_PACKET_FILTER_BROADCAST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WDI_PACKET_FILTER_TYPE
-req.alt-loc: wditypes.hpp
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wditypes.hpp
+apiname: 
+-	WDI_PACKET_FILTER_TYPE
+product: Windows
+targetos: Windows
 req.typenames: WDI_PACKET_FILTER_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _WDI_PACKET_FILTER_TYPE enumeration
 
 
-
 ## -description
+
+
 The WDI_PACKET_FILTER_TYPE enumeration defines the packet filter types.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDI_PACKET_FILTER_TYPE { 
@@ -84,6 +94,9 @@ typedef enum _WDI_PACKET_FILTER_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WDI_PACKET_FILTER_NONE
 
@@ -205,5 +218,3 @@ All 802.11 control packets received by the 802.11 station.
 
 All packet types.
 
-
-## -remarks

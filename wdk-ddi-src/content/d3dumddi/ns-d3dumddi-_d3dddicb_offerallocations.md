@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 26f3cd7b-ae2e-4632-bfb2-e62839346f83
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_OFFERALLOCATIONS, D3DDDICB_OFFERALLOCATIONS
+ms.keywords: D3DDDICB_OFFERALLOCATIONS, D3DDDICB_OFFERALLOCATIONS structure [Display Devices], d3dumddi/D3DDDICB_OFFERALLOCATIONS, display.d3dddicb_offerallocations, _D3DDDICB_OFFERALLOCATIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_OFFERALLOCATIONS
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	D3DDDICB_OFFERALLOCATIONS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_OFFERALLOCATIONS
 ---
 
 # _D3DDDICB_OFFERALLOCATIONS structure
 
 
-
 ## -description
+
+
 Defines the video memory allocations that the driver offers for reuse. Used with the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451693">pfnOfferAllocationsCb</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_OFFERALLOCATIONS {
@@ -56,6 +66,9 @@ typedef struct _D3DDDICB_OFFERALLOCATIONS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pResources
 
@@ -79,25 +92,16 @@ If resources were created with the <b>D3D10_DDI_BIND_PRESENT</b> flag value set 
 ### -field Priority
 
 [in] The priority, of type  <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_offer_priority.md">D3DDDI_OFFER_PRIORITY</a>, with which to offer the allocations for reuse.
-
-<div class="alert"><b>Note</b>  Do not set this member to a value of <b>D3DDDI_OFFER_PRIORITY_NONE</b>.</div>
-<div> </div>
-
-## -remarks
-
+<div class="alert"><b>Note</b>  Do not set this member to a value of <b>D3DDDI_OFFER_PRIORITY_NONE</b>.</div><div> </div>
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
-</dt>
-<dt>
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_offer_priority.md">D3DDDI_OFFER_PRIORITY</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451693">pfnOfferAllocationsCb</a>
-</dt>
-</dl>
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_offer_priority.md">D3DDDI_OFFER_PRIORITY</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8cc413c4-e4fe-449b-a66a-c79da01ad3be
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_MODE_ROTATION, DXGI_DDI_MODE_ROTATION
+ms.keywords: DXGI_DDI_MODE_ROTATION enumeration [Display Devices], UMDisplayDriver_Dx10param_Structs_61b842eb-a4b4-4d86-95b8-eca448b35b5e.xml, dxgiddi/DXGI_DDI_MODE_ROTATION_IDENTITY, dxgiddi/DXGI_DDI_MODE_ROTATION, DXGI_DDI_MODE_ROTATION, display.dxgi_ddi_mode_rotation, DXGI_DDI_MODE_ROTATION_ROTATE270, DXGI_DDI_MODE_ROTATION_ROTATE180, DXGI_DDI_MODE_ROTATION_ROTATE90, dxgiddi/DXGI_DDI_MODE_ROTATION_UNSPECIFIED, DXGI_DDI_MODE_ROTATION_IDENTITY, dxgiddi/DXGI_DDI_MODE_ROTATION_ROTATE90, dxgiddi/DXGI_DDI_MODE_ROTATION_ROTATE180, DXGI_DDI_MODE_ROTATION_UNSPECIFIED, dxgiddi/DXGI_DDI_MODE_ROTATION_ROTATE270
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGI_DDI_MODE_ROTATION
-req.alt-loc: dxgiddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxgiddi.h
+apiname: 
+-	DXGI_DDI_MODE_ROTATION
+product: Windows
+targetos: Windows
 req.typenames: DXGI_DDI_MODE_ROTATION
 ---
 
 # DXGI_DDI_MODE_ROTATION enumeration
 
 
-
 ## -description
+
+
 The DXGI_DDI_MODE_ROTATION enumeration type contains values that identify the orientation of the display.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum DXGI_DDI_MODE_ROTATION { 
@@ -57,6 +67,9 @@ typedef enum DXGI_DDI_MODE_ROTATION {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXGI_DDI_MODE_ROTATION_UNSPECIFIED
 
@@ -83,15 +96,10 @@ The display is rotated 180 degrees.
 The display is rotated 270 degrees.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_mode_desc.md">DXGI_DDI_MODE_DESC</a>
-</dt>
-</dl>
+
  
 
  

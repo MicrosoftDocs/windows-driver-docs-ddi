@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a466a158-dacf-42cc-b2ad-8af5b2c6c7d5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_RESOURCEFLAGS, D3DDDI_RESOURCEFLAGS
+ms.keywords: d3dukmdt/D3DDDI_RESOURCEFLAGS, D3DDDI_RESOURCEFLAGS, D3D_other_Structs_f00f4222-1c56-4b96-abe4-bf05088b7aa4.xml, _D3DDDI_RESOURCEFLAGS, D3DDDI_RESOURCEFLAGS structure [Display Devices], display.d3dddi_resourceflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_RESOURCEFLAGS
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_RESOURCEFLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_RESOURCEFLAGS
 ---
 
 # _D3DDDI_RESOURCEFLAGS structure
 
 
-
 ## -description
+
+
 The D3DDDI_RESOURCEFLAGS structure identifies the type of resources to create in a call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_RESOURCEFLAGS {
@@ -89,6 +99,9 @@ typedef struct _D3DDDI_RESOURCEFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field RenderTarget
 
@@ -333,18 +346,12 @@ Setting this member is equivalent to setting the thirty-second bit of the 32-bit
 A 32-bit value that identifies the type of resource to create.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
-</dt>
-<dt>
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+
  
 
  

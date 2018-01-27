@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a48eda3c-84cb-4413-a325-79c330be3f18
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE, D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE
+ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE enumeration [Display Devices], D3DKMDT_VPPI_NONARY, D3DKMDT_VPPI_QUINARY, d3dkmdt/D3DKMDT_VPPI_DENARY, D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE, _D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE, d3dkmdt/D3DKMDT_VPPI_UNINITIALIZED, d3dkmdt/D3DKMDT_VPPI_QUATERNARY, D3DKMDT_VPPI_PRIMARY, d3dkmdt/D3DKMDT_VPPI_SEPTENARY, D3DKMDT_VPPI_SEPTENARY, d3dkmdt/D3DKMDT_VPPI_NONARY, d3dkmdt/D3DKMDT_VPPI_SECONDARY, d3dkmdt/D3DKMDT_VPPI_OCTONARY, D3DKMDT_VPPI_SECONDARY, d3dkmdt/D3DKMDT_VPPI_SENARY, D3DKMDT_VPPI_TERTIARY, d3dkmdt/D3DKMDT_VPPI_TERTIARY, D3DKMDT_VPPI_DENARY, D3DKMDT_VPPI_QUATERNARY, D3DKMDT_VPPI_UNINITIALIZED, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE, display.d3dkmdt_vidpn_present_path_importance, d3dkmdt/D3DKMDT_VPPI_PRIMARY, D3DKMDT_VPPI_OCTONARY, D3DKMDT_VPPI_SENARY, DmEnums_711fdb2d-86cd-4ac4-9529-818b3953dff5.xml, d3dkmdt/D3DKMDT_VPPI_QUINARY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE
-req.alt-loc: d3dkmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmdt.h
+apiname: 
+-	D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE
+product: Windows
+targetos: Windows
 req.typenames: D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE
 ---
 
 # _D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE enumeration
 
 
-
 ## -description
+
+
 The D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE enumeration indicates the importance of a video present path.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE { 
@@ -63,6 +73,9 @@ typedef enum _D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3DKMDT_VPPI_UNINITIALIZED
 
@@ -120,6 +133,8 @@ Indicates importance level 10.
 
 
 ## -remarks
+
+
 As the numeric value of a D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE value increases, the importance decreases. For example, level 3 is less important than level 2.
 
 A variable of type D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE can have any integer value in the range 0 through 255, but only the values 0 through 10 have names.
@@ -129,12 +144,11 @@ It is useful to rank the video present paths in a video present network (VidPN) 
 The <b>ImportanceOrdinal</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a> structure is a D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE value. Path importance ordinal numbers are unique within a given VidPN topology. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a>
-</dt>
-</dl>
+
  
 
  

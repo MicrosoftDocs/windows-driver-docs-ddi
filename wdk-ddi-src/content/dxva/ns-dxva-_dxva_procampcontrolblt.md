@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93f321e1-a38b-43a2-bfbd-35411a62194e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_ProcAmpControlBlt, DXVA_ProcAmpControlBlt
+ms.keywords: dxva/DXVA_ProcAmpControlBlt, DXVA_ProcAmpControlBlt, dxvaref_aaac59e6-334e-49a3-a599-facef11960e3.xml, display.dxva_procampcontrolblt, _DXVA_ProcAmpControlBlt, DXVA_ProcAmpControlBlt structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: DirectX 9.0 and later versions only.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVA_ProcAmpControlBlt
-req.alt-loc: dxva.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxva.h
+apiname: 
+-	DXVA_ProcAmpControlBlt
+product: Windows
+targetos: Windows
 req.typenames: DXVA_ProcAmpControlBlt
 ---
 
 # _DXVA_ProcAmpControlBlt structure
 
 
-
 ## -description
+
+
 The DXVA_ProcAmpControlBlt structure contains the ProcAmp adjustment data that is output to the destination surface.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVA_ProcAmpControlBlt {
@@ -60,6 +70,9 @@ typedef struct _DXVA_ProcAmpControlBlt {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -101,18 +114,12 @@ Specifies the hue of the output image as it is written to the destination surfac
 Specifies the saturation of the output image as it is written to the destination surface.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_procampcontrolcaps.md">DXVA_ProcAmpControlCaps</a>
-</dt>
-<dt>
+
 <a href="..\dxva\ns-dxva-_dxva_procampcontrolqueryrange.md">DXVA_ProcAmpControlQueryRange</a>
-</dt>
-</dl>
+
  
 
  

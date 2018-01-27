@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4c8b6252-8438-4cd1-81e0-02c260da0daf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAddItemToObjectBag
+ms.keywords: avfunc_c7496331-05a5-4336-9c62-144e2db6e218.xml, KsAddItemToObjectBag function [Streaming Media Devices], ks/KsAddItemToObjectBag, KsAddItemToObjectBag, stream.ksadditemtoobjectbag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsAddItemToObjectBag
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsAddItemToObjectBag
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsAddItemToObjectBag function
 
 
-
 ## -description
+
+
 The<b> KsAddItemToObjectBag</b> function adds an object or block of memory to the given object bag. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsAddItemToObjectBag(
@@ -55,6 +66,9 @@ NTSTATUS KsAddItemToObjectBag(
 
 
 ## -parameters
+
+
+
 
 ### -param ObjectBag [in]
 
@@ -69,7 +83,6 @@ A pointer to the item to add to the object bag.
 ### -param Free [in, optional]
 
 A function that is called when the item is removed from the object bag or when the object bag is deleted. This function typically is used to free any dynamic memory associated with <i>Item</i>. The function should be prototyped as follows:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -79,44 +92,41 @@ A function that is called when the item is removed from the object bag or when t
 <pre>void Free (IN PVOID Data);</pre>
 </td>
 </tr>
-</table></span></div>
-If the caller does not specify this optional parameter, <i>Item</i> is freed with <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> when removed from the object bag or when the object bag is deleted.
+</table></span></div>If the caller does not specify this optional parameter, <i>Item</i> is freed with <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> when removed from the object bag or when the object bag is deleted.
 
 
 ## -returns
+
+
 Either returns STATUS_SUCCESS indicating that the addition went normally or STATUS_INSUFFICIENT_RESOURCES indicating that there are insufficient system resources for the operation to proceed.
 
 
+
 ## -remarks
+
+
 Before calling <b>KsAddItemToObjectBag</b>, the minidriver must acquire the mutex associated with the specific object bag. If <i>ObjectBag</i> is a member of a <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> or <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>, acquire the device mutex. If the bag is a member of a <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>, acquire the filter control mutex. If the bag is a member of a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> object, acquire the parent KSFILTER's filter control mutex.
 
 For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d9">Object Bags</a> and <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksallocateobjectbag.md">KsAllocateObjectBag</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-_ksedit.md">_KsEdit</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
+
+<a href="..\ks\nf-ks-ksallocateobjectbag.md">KsAllocateObjectBag</a>
+
+<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
  
 
  

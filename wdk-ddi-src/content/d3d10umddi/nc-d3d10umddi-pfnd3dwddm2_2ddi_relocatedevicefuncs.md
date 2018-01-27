@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: EAABE65C-3893-4B4C-BB7E-A02F91F869BE
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.pfnd3dwddm2_2ddi_relocatedevicefuncs, pfnRelocateDeviceFuncs callback function [Display Devices], pfnRelocateDeviceFuncs, PFND3DWDDM2_2DDI_RELOCATEDEVICEFUNCS, PFND3DWDDM2_2DDI_RELOCATEDEVICEFUNCS, d3d10umddi/pfnRelocateDeviceFuncs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnRelocateDeviceFuncs
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	pfnRelocateDeviceFuncs
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3DWDDM2_2DDI_RELOCATEDEVICEFUNCS callback
 
 
-
 ## -description
+
+
 The <i>pfnRelocateDeviceFuncs</i> callback function specifies the device functions table. 
 
 
-
 ## -prototype
+
 
 ````
 PFND3DWDDM2_2DDI_RELOCATEDEVICEFUNCS pfnRelocateDeviceFuncs;
@@ -58,29 +68,41 @@ VOID APIENTRY* pfnRelocateDeviceFuncs(
 
 ## -parameters
 
-### -param hDevice 
-
-The handle of a device.
 
 
-### -param DeviceFunctions [in]
+
+### -param D3D10DDI_HDEVICE
+
+
+
+### -param *
+
+
+
+
+
+
+#### - DeviceFunctions [in]
 
 The device functions table, as a <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_devicefuncs.md">D3DWDDM2_2DDI_DEVICEFUNCS</a> structure.
 
 
+#### - hDevice
+
+The handle of a device.
+
+
 ## -returns
+
+
 This callback function does not return a value.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_devicefuncs.md">D3DWDDM2_2DDI_DEVICEFUNCS</a>
-</dt>
-</dl>
+
  
 
  

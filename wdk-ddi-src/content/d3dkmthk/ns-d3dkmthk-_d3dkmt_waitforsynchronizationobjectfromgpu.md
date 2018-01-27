@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F22149E4-0396-46DE-89FE-9B4321D86605
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
+ms.keywords: d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, display.d3dkmt_waitforsynchronizationobjectfromgpu, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
 ---
 
 # _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU structure
 
 
-
 ## -description
+
+
 <b>D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobjectfromgpu.md">D3DKMTWaitForSynchronizationObjectFromGpu</a> to wait for a monitored fence to reach a certain value.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU {
@@ -61,19 +71,7 @@ typedef struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU {
 
 ## -struct-fields
 
-### -field hContext
 
-[in] A kernel-mode handle to the context stream in which a wait for the synchronization events in the array that the <b>ObjectHandleArray</b> member specifies is inserted.
-
-
-### -field ObjectCount
-
-[in] The number of synchronization events in the <b>ObjectHandleArray</b> array and fence values in <b>MonitoredFenceValueArray</b> arrays.
-
-
-### -field ObjectHandleArray
-
-[in] An array of kernel-mode handles to the synchronization events that the context that is specified by the <b>hContext</b> member waits for.
 
 
 ### -field MonitoredFenceValueArray
@@ -91,15 +89,25 @@ typedef struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU {
 This member is reserved and should be set to zero.
 
 
-## -remarks
+### -field hContext
+
+[in] A kernel-mode handle to the context stream in which a wait for the synchronization events in the array that the <b>ObjectHandleArray</b> member specifies is inserted.
+
+
+### -field ObjectCount
+
+[in] The number of synchronization events in the <b>ObjectHandleArray</b> array and fence values in <b>MonitoredFenceValueArray</b> arrays.
+
+
+### -field ObjectHandleArray
+
+[in] An array of kernel-mode handles to the synchronization events that the context that is specified by the <b>hContext</b> member waits for.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobjectfromgpu.md">D3DKMTWaitForSynchronizationObjectFromGpu</a>
-</dt>
-</dl>
+
  
 
  

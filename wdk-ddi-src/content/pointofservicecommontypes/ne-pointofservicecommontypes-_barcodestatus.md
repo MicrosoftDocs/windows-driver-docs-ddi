@@ -7,8 +7,8 @@ old-location: pos\barcodestatus.htm
 old-project: pos
 ms.assetid: b89ee18b-229d-4ec7-8c69-1b75ad0f3448
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _BarcodeStatus, BarcodeStatus
+ms.date: 1/18/2018
+ms.keywords: pos.barcodestatus, pointofservicecommontypes/BarcodeStatusUpdateType_OffOrOffline, pointofservicecommontypes/BarcodeStatusUpdateType_Off, BarcodeStatusUpdateType_Off, pointofservicecommontypes/BarcodeStatusUpdateType_Extended, BarcodeStatus, BarcodeStatusUpdateType_OffOrOffline, _BarcodeStatus, BarcodeStatusUpdateType_Extended, pointofservicecommontypes/BarcodeStatusUpdateType_Offline, BarcodeStatusUpdateType_Online, pointofservicecommontypes/BarcodeStatus, pointofservicecommontypes/BarcodeStatusUpdateType_Online, BarcodeStatusUpdateType_Offline, BarcodeStatus enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BarcodeStatus
-req.alt-loc: pointofservicecommontypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pointofservicecommontypes.h
+apiname: 
+-	BarcodeStatus
+product: Windows
+targetos: Windows
 req.typenames: BarcodeStatus
 ---
 
 # _BarcodeStatus enumeration
 
 
-
 ## -description
+
+
 This enumeration indicates barcode scanner status values.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _BarcodeStatus { 
@@ -57,6 +67,9 @@ typedef enum _BarcodeStatus {
 
 
 ## -enum-fields
+
+
+
 
 ### -field BarcodeStatusUpdateType_Online
 
@@ -82,5 +95,3 @@ The device power is off or the device is offline. This is valid if <a href="..\p
 
 Vendor specific status information.
 
-
-## -remarks

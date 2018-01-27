@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: d5ffd580-ca3d-46c7-b0ba-1cd9962517f8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PMI_CONFIGURATION_TYPE, PMI_CONFIGURATION_TYPE
+ms.keywords: PmiMeasurementConfiguration, PmiThresholdConfiguration, PmiBudgetingConfiguration, powermeter.pmi_configuration_type, PMI_CONFIGURATION_TYPE, pmi/PmiMeasurementConfiguration, pmi/PmiBudgetingConfiguration, PmiConfigurationMax, PowerMeterRef_6d83a5b7-03d3-4f86-b2ac-9d70a889285e.xml, pmi/PmiConfigurationMax, pmi/PMI_CONFIGURATION_TYPE, PMI_CONFIGURATION_TYPE enumeration [Power Metering and Budgeting Devices], pmi/PmiThresholdConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7, Windows Server 2008 R2, and l
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PMI_CONFIGURATION_TYPE
-req.alt-loc: pmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pmi.h
+apiname: 
+-	PMI_CONFIGURATION_TYPE
+product: Windows
+targetos: Windows
 req.typenames: PMI_CONFIGURATION_TYPE
 ---
 
 # PMI_CONFIGURATION_TYPE enumeration
 
 
-
 ## -description
+
+
 The PMI_CONFIGURATION_TYPE enumeration defines the type of PMI configuration data that is referenced by the <b>Configuration</b> member of the <a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a> structure. This enumeration is also used to specify the type of <a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a> structure to return through an <a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a> I/O control (IOCTL) request.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -56,6 +66,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field PmiMeasurementConfiguration
 
@@ -78,30 +91,26 @@ The maximum number of PMI configuration structures.
 
 
 ## -remarks
+
+
 The <b>ConfigurationType</b> member of the <a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a> structure contains information about the type of PMI configuration data that is referenced by the <b>Configuration</b> member of that structure. This structure is returned through a successful completion of an <a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a> IOCTL request and is passed in the input buffer for an <a href="..\pmi\ni-pmi-ioctl_pmi_set_configuration.md">IOCTL_PMI_SET_CONFIGURATION</a> IOCTL request.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
-</dt>
-<dt>
-<a href="..\pmi\ni-pmi-ioctl_pmi_set_configuration.md">IOCTL_PMI_SET_CONFIGURATION</a>
-</dt>
-<dt>
-<a href="..\pmi\ns-pmi-_pmi_budgeting_configuration.md">PMI_BUDGETING_CONFIGURATION</a>
-</dt>
-<dt>
+
 <a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a>
-</dt>
-<dt>
-<a href="..\pmi\ns-pmi-_pmi_measurement_configuration.md">PMI_MEASUREMENT_CONFIGURATION</a>
-</dt>
-<dt>
+
+<a href="..\pmi\ns-pmi-_pmi_budgeting_configuration.md">PMI_BUDGETING_CONFIGURATION</a>
+
 <a href="..\pmi\ns-pmi-_pmi_threshold_configuration.md">PMI_THRESHOLD_CONFIGURATION</a>
-</dt>
-</dl>
+
+<a href="..\pmi\ni-pmi-ioctl_pmi_set_configuration.md">IOCTL_PMI_SET_CONFIGURATION</a>
+
+<a href="..\pmi\ns-pmi-_pmi_measurement_configuration.md">PMI_MEASUREMENT_CONFIGURATION</a>
+
+<a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
+
  
 
  

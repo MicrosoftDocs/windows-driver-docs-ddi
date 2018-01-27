@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 033FF321-2617-4AAF-8445-10800411F0B5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTLock2
+ms.keywords: D3DKMTLock2 function [Display Devices], d3dkmthk/D3DKMTLock2, display.d3dkmtlock2, D3DKMTLock2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMTLock2
-req.alt-loc: Gdi32.dll,API-MS-Win-DX-D3DKMT-L1-1-1.dll,API-MS-Win-DX-D3DKMT-L1-1-2.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,33 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Gdi32.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-1.dll
+-	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+apiname: 
+-	D3DKMTLock2
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
 
 # D3DKMTLock2 function
 
 
-
 ## -description
+
+
 The <b>D3DKMTLock2</b> function locks an entire allocation or specific pages within an allocation.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS APIENTRY D3DKMTLock2(
@@ -54,42 +66,88 @@ NTSTATUS APIENTRY D3DKMTLock2(
 
 ## -parameters
 
-### -param pData [in, out]
+
+
+
+
+#### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_lock2.md">D3DKMT_LOCK2</a> structure that describes parameters for locking an allocation.
 
 
 ## -returns
+
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The allocation was successfully locked.
+</dl>
+</td>
+<td width="60%">
+The allocation was successfully locked.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_DEVICE_REMOVED</b></dt>
-</dl>The graphics adapter was stopped or the display device was reset.
+</dl>
+</td>
+<td width="60%">
+The graphics adapter was stopped or the display device was reset.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>Parameters were validated and determined to be incorrect.
+</dl>
+</td>
+<td width="60%">
+Parameters were validated and determined to be incorrect.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_ALLOCATION_BUSY</b></dt>
-</dl>The allocation was currently in use and could not be locked.
+</dl>
+</td>
+<td width="60%">
+The allocation was currently in use and could not be locked.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_TOO_MANY_REFERENCES</b></dt>
-</dl>Too many references were pending on the allocation.
+</dl>
+</td>
+<td width="60%">
+Too many references were pending on the allocation.
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other <b>NTSTATUS</b> values.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_lock2.md">D3DKMT_LOCK2</a>
-</dt>
-</dl>
+
  
 
  

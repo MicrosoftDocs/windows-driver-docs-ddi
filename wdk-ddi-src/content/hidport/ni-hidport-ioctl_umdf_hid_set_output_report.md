@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 9D2BF078-305F-4656-8BA0-F03959209874
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidRegisterMinidriver
+ms.keywords: hid.ioctl_umdf_hid_set_output_report, IOCTL_UMDF_HID_SET_OUTPUT_REPORT control code, IOCTL_UMDF_HID_SET_OUTPUT_REPORT, hidport/IOCTL_UMDF_HID_SET_OUTPUT_REPORT, umdf.ioctl_umdf_hid_set_output_report
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.11
-req.alt-api: IOCTL_UMDF_HID_SET_OUTPUT_REPORT
-req.alt-loc: Hidport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,34 +29,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Hidport.h
+apiname: 
+-	IOCTL_UMDF_HID_SET_OUTPUT_REPORT
+product: Windows
+targetos: Windows
+req.typenames: *PUSAGE_AND_PAGE, USAGE_AND_PAGE
 ---
 
 # IOCTL_UMDF_HID_SET_OUTPUT_REPORT IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
+
+
 The <b>IOCTL_UMDF_HID_SET_OUTPUT_REPORT</b> 
    control code sends an <a href="https://msdn.microsoft.com/477FF911-5A17-4EA5-9403-1D7B4E8B3BA5">output report</a> to a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a>.
 
 
-
-## -syntax
-
-````
-UCHAR reportId;
-SIZE_T outBufferSize;
-
-FxRequest->GetDeviceIoControlParameters(NULL, NULL, &outBufferSize);
-reportId = (UCHAR)outBufferSize;
-
-````
-
-
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 A UMDF-based driver calls <a href="https://msdn.microsoft.com/be3f965b-69fe-4d5e-b1b6-3a370603cd7b">IWDFRequest::GetInputMemory</a> to retrieve a  requester-allocated input buffer that contains an output report. 
 
 
@@ -81,42 +87,48 @@ reportId = (UCHAR)outBufferSize;
 
 
 ### -input-buffer-length
+
 None.
 
 
 ### -output-buffer
+
 None.
 
 
 ### -output-buffer-length
+
 The size of the buffer that is retrieved by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>.
 
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 HID minidrivers that carry out the I/O to the device must also:
-
-
-## -remarks
-
+<ul>
+<li>Call <a href="https://msdn.microsoft.com/dc2c907c-1e3b-418c-85f8-9902dc83f7ab">IWDFRequest::SetInformation</a> to set the number of bytes transferred to the device.</li>
+<li>Call <a href="https://msdn.microsoft.com/2fa389f8-8277-4795-a89e-ac5d92004310">IWDFRequest::Complete</a> with S_OK to complete the request without error. Otherwise, set the appropriate HRESULT error code.</li>
+</ul>
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439661">IOCTL_UMDF_HID_GET_INPUT_REPORT</a>
-</dt>
-</dl>
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
+
  
 
  

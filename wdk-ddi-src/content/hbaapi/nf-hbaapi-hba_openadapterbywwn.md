@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 62492c9b-ace0-48be-ae8b-bb681dbca8b7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_OpenAdapterByWWN
+ms.keywords: storage.hba_openadapterbywwn, HBA_OpenAdapterByWWN routine [Storage Devices], hbaapi/HBA_OpenAdapterByWWN, HBA_OpenAdapterByWWN, fibreHBA_rtns_60fafeb4-de69-40e4-8942-907fe14fe8a4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBA_OpenAdapterByWWN
-req.alt-loc: Hbaapi.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Hbaapi.dll
+apiname: 
+-	HBA_OpenAdapterByWWN
+product: Windows
+targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
 
 # HBA_OpenAdapterByWWN function
 
 
-
 ## -description
+
+
 The <b>HBA_OpenAdapterByWWN</b> routine opens the HBA that is associated with either a node or a port that has the indicated name. 
 
 
-
 ## -syntax
+
 
 ````
 HBA_STATUS HBA_API HBA_OpenAdapterByWWN(
@@ -54,6 +64,9 @@ HBA_STATUS HBA_API HBA_OpenAdapterByWWN(
 
 
 ## -parameters
+
+
+
 
 ### -param HbaHandle [out]
 
@@ -66,32 +79,66 @@ Contains a 64-bit worldwide name (WWN) that must either match the name of the no
 
 
 ## -returns
+
+
 The <b>HBA_OpenAdapterByWWN</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_OpenAdapterByWWN</b> returns one of the following qualifiers.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_OK</b></dt>
-</dl>Returned if <b>HBA_OpenAdapterByWWN</b> successfully returns a valid handle. 
+</dl>
+</td>
+<td width="60%">
+Returned if <b>HBA_OpenAdapterByWWN</b> successfully returns a valid handle. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR_ILLEGAL_WWN</b></dt>
-</dl>Returned if there is no HBA that has a port name or node name that matches <i>Wwn</i>.
+</dl>
+</td>
+<td width="60%">
+Returned if there is no HBA that has a port name or node name that matches <i>Wwn</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR_AMBIGUOUS_WWN</b></dt>
-</dl>Returned if multiple adapters have associated port or node names that match <i>Wwn</i>. This can occur if two or more adapters are associated with nodes of the same name. 
+</dl>
+</td>
+<td width="60%">
+Returned if multiple adapters have associated port or node names that match <i>Wwn</i>. This can occur if two or more adapters are associated with nodes of the same name. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR</b></dt>
-</dl>Returned if an unspecified error occurred that prevented the opening of the adapter. 
+</dl>
+</td>
+<td width="60%">
+Returned if an unspecified error occurred that prevented the opening of the adapter. 
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-</dt>
-</dl>
+
  
 
  

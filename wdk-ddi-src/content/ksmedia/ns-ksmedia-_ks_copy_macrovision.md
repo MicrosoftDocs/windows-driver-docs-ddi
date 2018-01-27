@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 86c6ee78-ae4e-4b96-be83-a5960f36a363
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _KS_COPY_MACROVISION, KS_COPY_MACROVISION, *PKS_COPY_MACROVISION
+ms.keywords: _KS_COPY_MACROVISION, PKS_COPY_MACROVISION, stream.ks_copy_macrovision, *PKS_COPY_MACROVISION, PKS_COPY_MACROVISION structure pointer [Streaming Media Devices], KS_COPY_MACROVISION structure [Streaming Media Devices], dvdref_42184498-7ac6-48d2-9f26-5bf69ececabb.xml, ksmedia/PKS_COPY_MACROVISION, ksmedia/KS_COPY_MACROVISION, KS_COPY_MACROVISION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_COPY_MACROVISION
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KS_COPY_MACROVISION
+product: Windows
+targetos: Windows
 req.typenames: KS_COPY_MACROVISION, *PKS_COPY_MACROVISION
 ---
 
 # _KS_COPY_MACROVISION structure
 
 
-
 ## -description
+
+
 The KS_COPY_MACROVISION structure specifies the Macrovision level of the data stream.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _KS_COPY_MACROVISION {
@@ -54,10 +64,12 @@ typedef struct _KS_COPY_MACROVISION {
 
 ## -struct-fields
 
+
+
+
 ### -field MACROVISIONLevel
 
 Specifies the Macrovision level. This must be one of the following values from the KS_COPY_MACROVISION_LEVEL enumeration:
-
 <table>
 <tr>
 <th>Level</th>
@@ -103,22 +115,22 @@ Indicates that Macrovision level 3 copyright protection must be in effect.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -remarks
+
+
 The KS_COPY_MACROVISION structure is used by the KSPROPERTY_COPY_MACROVISION property.
 
 For additional uses of this structure see <a href="https://msdn.microsoft.com/ff9cf8c8-7c8f-485c-b2ab-7567a5eeb87b">DVD Copyright Protection</a> and <a href="https://msdn.microsoft.com/62bd8d8a-3e58-4bca-a32d-ff792180afbe">Macrovision</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565114">KSPROPERTY_COPY_MACROVISION</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2896fd39-5c33-4c79-8adb-f6862b7b4314
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagTRANSPORTSTATUS, *PTRANSPORTSTATUS, TRANSPORTSTATUS
+ms.keywords: PTRANSPORTSTATUS structure pointer [Streaming Media Devices], TRANSPORTSTATUS structure [Streaming Media Devices], stream.transportstatus, TRANSPORTSTATUS, PTRANSPORTSTATUS, *PTRANSPORTSTATUS, ksmedia/PTRANSPORTSTATUS, tagTRANSPORTSTATUS, ksmedia/TRANSPORTSTATUS, vidcapstruct_12a98ac2-58b9-47ce-ae09-30c8feeec2f0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TRANSPORTSTATUS
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	TRANSPORTSTATUS
+product: Windows
+targetos: Windows
 req.typenames: *PTRANSPORTSTATUS, TRANSPORTSTATUS
 ---
 
 # tagTRANSPORTSTATUS structure
 
 
-
 ## -description
+
+
 The TRANSPORTSTATUS structure describes the current transport status.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagTRANSPORTSTATUS {
@@ -65,6 +75,9 @@ typedef struct tagTRANSPORTSTATUS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Mode
 
@@ -132,4 +145,8 @@ Specifies event notification. <b>TRUE</b> enables event notification, <b>FALSE</
 
 
 ## -remarks
-Any ED_Xxx tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.</p>
+
+
+Any ED_Xxx tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.
+
+

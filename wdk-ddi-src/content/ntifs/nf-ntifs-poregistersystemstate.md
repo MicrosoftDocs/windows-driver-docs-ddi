@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 851c694f-6c47-498c-8035-132a63c0fa62
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoRegisterSystemState
+ms.keywords: portn_477a2d72-00f7-45a1-b7ca-504b741c5fe0.xml, kernel.poregistersystemstate, wdm/PoRegisterSystemState, PoRegisterSystemState routine [Kernel-Mode Driver Architecture], PoRegisterSystemState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PoRegisterSystemState
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	PoRegisterSystemState
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # PoRegisterSystemState function
 
 
-
 ## -description
+
+
 The <b>PoRegisterSystemState</b> routine registers the system as busy due to certain activity.
 
 
-
 ## -syntax
+
 
 ````
 PVOID PoRegisterSystemState(
@@ -54,6 +64,9 @@ PVOID PoRegisterSystemState(
 
 
 ## -parameters
+
+
+
 
 ### -param StateHandle [in, out]
 
@@ -67,34 +80,37 @@ Indicates the type of activity, as specified by a bitwise OR of one or more of t
 
 
 
-### -param ES_SYSTEM_REQUIRED
+##### - Flags.ES_CONTINUOUS
 
-The system is not idle, regardless of apparent load.
-
-
-### -param ES_DISPLAY_REQUIRED
-
-Use of the display is required.
+The settings are continuous and should remain in effect until explicitly changed.
 
 
-### -param ES_USER_PRESENT
+##### - Flags.ES_USER_PRESENT
 
 A user is present.
 
 
-### -param ES_CONTINUOUS
+##### - Flags.ES_SYSTEM_REQUIRED
 
-The settings are continuous and should remain in effect until explicitly changed.
+The system is not idle, regardless of apparent load.
 
-</dd>
-</dl>
+
+##### - Flags.ES_DISPLAY_REQUIRED
+
+Use of the display is required.
+
 
 ## -returns
+
+
 <b>PoRegisterSystemState</b> returns a handle to be used later to change or unregister the system busy state. It returns <b>NULL</b> if the handle could not be allocated.
 
 
+
 ## -remarks
-<b>PoRegisterSystemState</b> registers the system busy state as indicated by the flags. The registration persists until the caller explicitly changes it with another call to <b>PoRegisterSystemState</b> or cancels it with a call to <a href="..\ntifs\nf-ntifs-pounregistersystemstate.md">PoUnregisterSystemState</a>.
+
+
+<b>PoRegisterSystemState</b> registers the system busy state as indicated by the flags. The registration persists until the caller explicitly changes it with another call to <b>PoRegisterSystemState</b> or cancels it with a call to <a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>.
 
 The <i>Flags</i> parameter specifies the type of activity in progress. Drivers can specify any combination of the flags.
 
@@ -105,15 +121,13 @@ A driver can set the system busy state to request that the <a href="https://msdn
 To set the system power state, call <a href="..\wdm\nf-wdm-posetsystemstate.md">PoSetSystemState</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-posetsystemstate.md">PoSetSystemState</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-pounregistersystemstate.md">PoUnregisterSystemState</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
+
  
 
  

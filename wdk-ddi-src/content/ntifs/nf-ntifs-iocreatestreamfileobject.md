@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4186a362-f75d-4633-b9eb-5b0810bf56dc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoCreateStreamFileObject
+ms.keywords: IoCreateStreamFileObject routine [Installable File System Drivers], IoCreateStreamFileObject, ifsk.iocreatestreamfileobject, ntifs/IoCreateStreamFileObject, ioref_b800437d-cde5-4605-955f-c14152aa0576.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoCreateStreamFileObject
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoCreateStreamFileObject
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # IoCreateStreamFileObject function
 
 
-
 ## -description
+
+
 The <b>IoCreateStreamFileObject</b> routine creates a new stream file object. 
 
 
-
 ## -syntax
+
 
 ````
 PFILE_OBJECT IoCreateStreamFileObject(
@@ -54,6 +64,9 @@ PFILE_OBJECT IoCreateStreamFileObject(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in, optional]
 
@@ -66,10 +79,15 @@ Pointer to a device object for the device on which the stream file is to be open
 
 
 ## -returns
+
+
 <b>IoCreateStreamFileObject</b> returns a pointer to the newly created stream file object.
 
 
+
 ## -remarks
+
+
 File systems call <b>IoCreateStreamFileObject</b> to create a new stream file object. A <i>stream file object</i> is identical to an ordinary file object, except that the FO_STREAM_FILE file object flag is set. 
 
 A stream file object is commonly used to represent an internal stream for a volume mounted by the file system. This <i>virtual volume file</i> permits the file system to view, change, and cache the volume's on-disk structure as if it were an ordinary file. In this case, the <i>DeviceObject</i> parameter in the call to <b>IoCreateStreamFileObject</b> specifies the volume device object (VDO) for the volume. 
@@ -83,27 +101,21 @@ File system filter driver writers should note that <b>IoCreateStreamFileObject</
 If a pool allocation failure occurs, <b>IoCreateStreamFileObject</b> raises a STATUS_INSUFFICIENT_RESOURCES exception. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectex.md">IoCreateStreamFileObjectEx</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectlite.md">IoCreateStreamFileObjectLite</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548608">IRP_MJ_CLEANUP</a>
-</dt>
-<dt>
+
+<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectlite.md">IoCreateStreamFileObjectLite</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+
+<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectex.md">IoCreateStreamFileObjectEx</a>
+
  
 
  

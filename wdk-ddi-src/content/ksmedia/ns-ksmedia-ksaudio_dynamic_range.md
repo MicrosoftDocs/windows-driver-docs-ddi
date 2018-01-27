@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4bf5c95f-dc08-4d1e-8e52-6d0de19df4c0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSAUDIO_DYNAMIC_RANGE, *PKSAUDIO_DYNAMIC_RANGE, KSAUDIO_DYNAMIC_RANGE
+ms.keywords: aud-prop_1b73d842-9ef4-4017-b30a-26373b4797b4.xml, ksmedia/KSAUDIO_DYNAMIC_RANGE, PKSAUDIO_DYNAMIC_RANGE, PKSAUDIO_DYNAMIC_RANGE structure pointer [Audio Devices], *PKSAUDIO_DYNAMIC_RANGE, audio.ksaudio_dynamic_range, ksmedia/PKSAUDIO_DYNAMIC_RANGE, KSAUDIO_DYNAMIC_RANGE structure [Audio Devices], KSAUDIO_DYNAMIC_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSAUDIO_DYNAMIC_RANGE
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSAUDIO_DYNAMIC_RANGE
+product: Windows
+targetos: Windows
 req.typenames: *PKSAUDIO_DYNAMIC_RANGE, KSAUDIO_DYNAMIC_RANGE
 ---
 
 # KSAUDIO_DYNAMIC_RANGE structure
 
 
-
 ## -description
+
+
 The KSAUDIO_DYNAMIC_RANGE structure specifies the dynamic range of an audio stream. This structure is used to get or set the data value for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537281">KSPROPERTY_AUDIO_DYNAMIC_RANGE</a> property.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -54,6 +64,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field QuietCompression
 
@@ -66,15 +79,16 @@ Specifies the compression level for loud sounds. This value ranges from 0 to 100
 
 
 ## -remarks
+
+
 By default, both structure members are set to zero percent, which reproduces the full dynamic range of the audio stream.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537281">KSPROPERTY_AUDIO_DYNAMIC_RANGE</a>
-</dt>
-</dl>
+
  
 
  

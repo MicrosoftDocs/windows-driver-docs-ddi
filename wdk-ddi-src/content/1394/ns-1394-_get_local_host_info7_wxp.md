@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 65c4b7d9-dbd8-4f94-b407-1b06543d0b56
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _GET_LOCAL_HOST_INFO7_WXP, *PGET_LOCAL_HOST_INFO7_WXP, GET_LOCAL_HOST_INFO7_WXP, GET_LOCAL_HOST_INFO7, *PGET_LOCAL_HOST_INFO7
+ms.keywords: GET_LOCAL_HOST_INFO7_W2K, GET_LOCAL_HOST_INFO7, 1394stct_6e61e5b9-8961-4a88-9927-143aa24e0648.xml, GET_LOCAL_HOST_INFO7 structure [Buses], *PGET_LOCAL_HOST_INFO7_WXP, 1394/PGET_LOCAL_HOST_INFO7, _GET_LOCAL_HOST_INFO7_W2K, *PGET_LOCAL_HOST_INFO7_W2K, GET_LOCAL_HOST_INFO7_WXP, IEEE.get_local_host_info7, PGET_LOCAL_HOST_INFO7 structure pointer [Buses], *PGET_LOCAL_HOST_INFO7, 1394/GET_LOCAL_HOST_INFO7, PGET_LOCAL_HOST_INFO7, _GET_LOCAL_HOST_INFO7_WXP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GET_LOCAL_HOST_INFO7
-req.alt-loc: 1394.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1394.h
+apiname: 
+-	GET_LOCAL_HOST_INFO7
+product: Windows
+targetos: Windows
 req.typenames: *PGET_LOCAL_HOST_INFO7_WXP, GET_LOCAL_HOST_INFO7_WXP
 ---
 
 # _GET_LOCAL_HOST_INFO7_WXP structure
 
 
-
 ## -description
+
+
 The GET_LOCAL_HOST_INFO7 structure contains the data returned by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a> request with <b>u.GetLocalHostInformation.nLevel</b> set to GET_HOST_DMA_CAPABILITIES.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _GET_LOCAL_HOST_INFO7 {
@@ -55,6 +65,9 @@ typedef struct _GET_LOCAL_HOST_INFO7 {
 
 ## -struct-fields
 
+
+
+
 ### -field HostDmaCapabilities
 
 Always set to zero.
@@ -64,5 +77,3 @@ Always set to zero.
 
 Specifies the maximum size of a single DMA transfer on the 1394 host controller. A value of 0x80001000 indicates that there is no specific maximum size. Otherwise, the value of MaxDmaBufferSize reflects the number of Map Registers that are available to the 1394 host controller to map DMA transfers. MaxDmaBufferSize is the upper limit for the size of the buffer that is described in a single <a href="https://msdn.microsoft.com/library/windows/hardware/ff537401">ISOCH_DESCRIPTOR</a>.
 
-
-## -remarks

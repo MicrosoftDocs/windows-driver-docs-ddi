@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 25b2dd6a-2e20-4221-bef4-0001bbaae1d5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _LOCK_OPERATION, LOCK_OPERATION
+ms.keywords: ifsk.lock_operation, IoModifyAccess, wdm/IoWriteAccess, wdm/IoReadAccess, wdm/IoModifyAccess, IoReadAccess, LOCK_OPERATION, IoWriteAccess, _LOCK_OPERATION, LOCK_OPERATION enumeration [Installable File System Drivers], wdm/LOCK_OPERATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: LOCK_OPERATION
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	LOCK_OPERATION
+product: Windows
+targetos: Windows
 req.typenames: LOCK_OPERATION
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _LOCK_OPERATION enumeration
 
 
-
 ## -description
+
+
 The <b>LOCK_OPERATION</b> enumeration specifies the type of access that is appropriate for a type of I/O operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -56,6 +66,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field IoReadAccess
 
@@ -72,18 +85,12 @@ This value indicates that a driver can examine and change the contents of a buff
 This value indicates that a driver can examine and change the contents of a buffer.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltdecodeparameters.md">FltDecodeParameters</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
-</dt>
-</dl>
+
+<a href="..\fltkernel\nf-fltkernel-fltdecodeparameters.md">FltDecodeParameters</a>
+
  
 
  

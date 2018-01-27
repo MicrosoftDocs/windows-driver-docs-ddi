@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b5aee65-ccf6-42c6-9bb3-dff93cb53cf0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _RemovePersistentLogin_OUT, *PRemovePersistentLogin_OUT, RemovePersistentLogin_OUT
+ms.keywords: storage.removepersistentlogin_out, PRemovePersistentLogin_OUT structure pointer [Storage Devices], PRemovePersistentLogin_OUT, RemovePersistentLogin_OUT, *PRemovePersistentLogin_OUT, iscsiop/RemovePersistentLogin_OUT, iscsiop/PRemovePersistentLogin_OUT, RemovePersistentLogin_OUT structure [Storage Devices], structs-iSCSI_59f0b686-33c3-47be-9bd7-89d14f3ffc7b.xml, _RemovePersistentLogin_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RemovePersistentLogin_OUT
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PRemovePersistentLogin_OUT, RemovePersistentLogin_OUT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	RemovePersistentLogin_OUT
+product: Windows
+targetos: Windows
+req.typenames: RemovePersistentLogin_OUT, *PRemovePersistentLogin_OUT
 ---
 
 # _RemovePersistentLogin_OUT structure
 
 
-
 ## -description
+
+
 The RemovePersistentLogin_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563995">RemovePersistentLogin</a> method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RemovePersistentLogin_OUT {
@@ -54,27 +64,29 @@ typedef struct _RemovePersistentLogin_OUT {
 
 ## -struct-fields
 
+
+
+
 ### -field Status
 
 On output from <b>RemovePersistentLogin</b>, the status of the operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.
 
 
 ## -remarks
+
+
 You must implement this method.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563995">RemovePersistentLogin</a>
-</dt>
-<dt>
+
 <a href="..\iscsiop\ns-iscsiop-_removepersistentlogin_in.md">RemovePersistentLogin_IN</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563995">RemovePersistentLogin</a>
+
  
 
  

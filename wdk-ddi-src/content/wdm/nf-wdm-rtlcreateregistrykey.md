@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2214acc8-b24a-4db4-9ce3-f639291428f2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCreateRegistryKey
+ms.keywords: RtlCreateRegistryKey, RtlCreateRegistryKey routine [Kernel-Mode Driver Architecture], kernel.rtlcreateregistrykey, wdm/RtlCreateRegistryKey, k109_9a163bcc-501d-453b-b426-a4267d04135c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlCreateRegistryKey
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlCreateRegistryKey
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RtlCreateRegistryKey function
 
 
-
 ## -description
+
+
 The <b>RtlCreateRegistryKey</b> routine adds a key object in the registry along a given relative path.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlCreateRegistryKey(
@@ -56,10 +66,12 @@ NTSTATUS RtlCreateRegistryKey(
 
 ## -parameters
 
+
+
+
 ### -param RelativeTo [in]
 
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined key path as one of the following.
-
 <table>
 <tr>
 <th>Value</th>
@@ -125,8 +137,7 @@ Path is relative to <b>\Registry\User\CurrentUser</b>. (For a system process, th
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param Path [in]
@@ -135,34 +146,33 @@ Specifies the registry path according to the <i>RelativeTo</i> value.
 
 
 ## -returns
+
+
 <b>RtlCreateRegistryKey</b> returns STATUS_SUCCESS if the key is created. 
 
 
+
 ## -remarks
+
+
 <b>RtlCreateRegistryKey</b> creates only the keys that you specify. It does not create missing keys in the path to the specified key. If any keys in the path are missing, the call will fail. To ensure that all keys in the path exist, you must call <b>RtlCreateRegistryKey</b> once for each key in the path. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtldeleteregistryvalue.md">RtlDeleteRegistryValue</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
+
 <a href="..\wdm\nf-wdm-rtlwriteregistryvalue.md">RtlWriteRegistryValue</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
+
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
-</dt>
-</dl>
+
  
 
  

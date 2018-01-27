@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 551b2255-c221-4a95-a812-dec34f09438b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VIDEO_PORT_INT10_INTERFACE, *PVIDEO_PORT_INT10_INTERFACE, VIDEO_PORT_INT10_INTERFACE
+ms.keywords: video/VIDEO_PORT_INT10_INTERFACE, _VIDEO_PORT_INT10_INTERFACE, display.video_port_int10_interface, Video_Structs_b0f9d9fa-c989-4989-9f63-deb0ca211144.xml, PVIDEO_PORT_INT10_INTERFACE structure pointer [Display Devices], VIDEO_PORT_INT10_INTERFACE structure [Display Devices], *PVIDEO_PORT_INT10_INTERFACE, PVIDEO_PORT_INT10_INTERFACE, VIDEO_PORT_INT10_INTERFACE, video/PVIDEO_PORT_INT10_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VIDEO_PORT_INT10_INTERFACE
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	video.h
+apiname: 
+-	VIDEO_PORT_INT10_INTERFACE
+product: Windows
+targetos: Windows
 req.typenames: *PVIDEO_PORT_INT10_INTERFACE, VIDEO_PORT_INT10_INTERFACE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _VIDEO_PORT_INT10_INTERFACE structure
 
 
-
 ## -description
+
+
 The VIDEO_PORT_INT10_INTERFACE structure provides a way to allocate and deallocate memory in another thread's context, read from and write to that memory, and make INT10 BIOS calls.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _VIDEO_PORT_INT10_INTERFACE {
@@ -63,6 +73,9 @@ typedef struct _VIDEO_PORT_INT10_INTERFACE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -115,15 +128,16 @@ Pointer to the video port driver-implemented <a href="..\video\nc-video-pint10_c
 
 
 ## -remarks
+
+
 PnP video miniport drivers that intend to make BIOS calls should fill in the <b>Size</b> and <b>Version</b> members of this structure, and then call <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>, which initializes the remaining members of this structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
-</dt>
-</dl>
+
  
 
  

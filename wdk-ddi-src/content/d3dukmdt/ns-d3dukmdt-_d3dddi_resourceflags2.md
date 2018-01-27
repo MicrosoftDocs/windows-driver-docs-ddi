@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2edf2104-ad17-4c84-b991-57e64565029f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_RESOURCEFLAGS2, D3DDDI_RESOURCEFLAGS2
+ms.keywords: _D3DDDI_RESOURCEFLAGS2, D3DDDI_RESOURCEFLAGS2 structure [Display Devices], D3DDDI_RESOURCEFLAGS2, display.d3dddi_resourceflags2, d3dukmdt/D3DDDI_RESOURCEFLAGS2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_RESOURCEFLAGS2
-req.alt-loc: D3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dukmdt.h
+apiname: 
+-	D3DDDI_RESOURCEFLAGS2
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_RESOURCEFLAGS2
 ---
 
 # _D3DDDI_RESOURCEFLAGS2 structure
 
 
-
 ## -description
+
+
 Identifies the type of resource to create in a call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource2.md">CreateResource2</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_RESOURCEFLAGS2 {
@@ -66,6 +76,9 @@ typedef struct _D3DDDI_RESOURCEFLAGS2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field VideoEncoder
 
@@ -92,14 +105,16 @@ Setting this member is equivalent to setting the third bit of the 32-bit <b>Valu
 Supported starting with Windows 8.1.
 
 
+### -field IsDisplayable
+
+ 
+
+
 ### -field Reserved
 
 Reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of the 32-bit <b>Value</b> member to zeros.
 
 Supported starting with Windows 8.1.
-
-
-### -field Reserved
 
 Reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
 
@@ -109,18 +124,12 @@ Reserved and should be set to zero. Setting this member to zero is equivalent to
 A 32-bit value that identifies the type of resource to create.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource2.md">CreateResource2</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_formatop.md">FORMATOP</a>
-</dt>
-</dl>
+
  
 
  

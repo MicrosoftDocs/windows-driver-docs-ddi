@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ac26d5cb-b342-42ec-ad76-23cefe509566
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlNotifyUninitializeSync
+ms.keywords: FsRtlNotifyUninitializeSync, ifsk.fsrtlnotifyuninitializesync, fsrtlref_bb1d0439-691c-4a2d-8d0f-750f26d75995.xml, ntifs/FsRtlNotifyUninitializeSync, FsRtlNotifyUninitializeSync routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlNotifyUninitializeSync
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlNotifyUninitializeSync
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlNotifyUninitializeSync function
 
 
-
 ## -description
+
+
 The <b>FsRtlNotifyUninitializeSync</b> routine deallocates the synchronization object for a notify list.
 
 
-
 ## -syntax
+
 
 ````
 VOID FsRtlNotifyUninitializeSync(
@@ -54,25 +64,32 @@ VOID FsRtlNotifyUninitializeSync(
 
 ## -parameters
 
+
+
+
 ### -param NotifySync [in]
 
 A pointer to a location that contains a pointer to the opaque synchronization object.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The <b>FsRtlNotifyUninitializeSync</b> routine deallocates an opaque synchronization object that was allocated by an earlier call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyinitializesync.md">FsRtlNotifyInitializeSync</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyinitializesync.md">FsRtlNotifyInitializeSync</a>
-</dt>
-</dl>
+
  
 
  

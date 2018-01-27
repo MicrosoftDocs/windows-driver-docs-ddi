@@ -7,8 +7,8 @@ old-location: netvista\rilresetmodemconfigparameter_2.htm
 old-project: netvista
 ms.assetid: 6467bd24-bc2f-4d41-ba8a-a6b46fcc9853
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILRESETMODEMCONFIGPARAMETER, RILRESETMODEMCONFIGPARAMETER
+ms.date: 1/18/2018
+ms.keywords: netvista.rilresetmodemconfigparameter_2, RILRESETMODEMCONFIGPARAMETER enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_RESETMODEMCONFIGPARAMETER_MAX, RIL_RESETMODEMCONFIGPARAMETER_MAX, RILRESETMODEMCONFIGPARAMETER, rilapitypes/RILRESETMODEMCONFIGPARAMETER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILRESETMODEMCONFIGPARAMETER
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILRESETMODEMCONFIGPARAMETER
+product: Windows
+targetos: Windows
 req.typenames: RILRESETMODEMCONFIGPARAMETER
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILRESETMODEMCONFIGPARAMETER enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILRESETMODEMCONFIGPARAMETER { 
@@ -55,7 +65,13 @@ typedef enum _RILRESETMODEMCONFIGPARAMETER {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_RESETMODEMCONFIGPARAMETER_IMSENABLEMENTSTATE
+
+
+
 ### -field RIL_RESETMODEMCONFIGPARAMETER_MAX
 
 
-## -remarks

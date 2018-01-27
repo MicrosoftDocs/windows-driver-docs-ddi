@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e9021983-8a01-4262-ae3f-c265948d5a2c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxMapAndDissociateMidFromContext
+ms.keywords: rxref_919dabed-ac8c-4495-8709-8fb45280e16f.xml, ifsk.rxmapanddissociatemidfromcontext, midatlax/RxMapAndDissociateMidFromContext, RxMapAndDissociateMidFromContext, RxMapAndDissociateMidFromContext function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxMapAndDissociateMidFromContext
-req.alt-loc: midatlax.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
-req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	midatlax.h
+apiname: 
+-	RxMapAndDissociateMidFromContext
+product: Windows
+targetos: Windows
+req.typenames: *PMCD_INIT_DATA, MCD_INIT_DATA
 ---
 
 # RxMapAndDissociateMidFromContext function
 
 
-
 ## -description
+
+
 <b>RxMapAndDissociateMidFromContext</b> maps a Multiplex ID (MID) to its associated context in a MID_ATLAS structure and then disassociates the MID from the context. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RxMapAndDissociateMidFromContext(
@@ -56,22 +66,38 @@ NTSTATUS RxMapAndDissociateMidFromContext(
 
 ## -parameters
 
-### -param pMidAtlas 
-
-A pointer to the MID_ATLAS structure.
 
 
-### -param Mid 
+
+### -param MidAtlas
+
+TBD
+
+
+### -param Mid
 
 The multiplex ID to be mapped.
 
 
-### -param pContextPointer 
+### -param ContextPointer
+
+TBD
+
+
+
+#### - pContextPointer
 
 A pointer that will hold the context for this MID on exit.
 
 
+#### - pMidAtlas
+
+A pointer to the MID_ATLAS structure.
+
+
 ## -returns
+
+
 
 <a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
       always returns STATUS_SUCCESS. 
@@ -79,28 +105,26 @@ A pointer that will hold the context for this MID on exit.
 The returned <i>pContextPointer</i> parameter is a pointer to the associated context, or a <b>NULL</b> if no context was associated with this MID.
 
 
+
 ## -remarks
+
+
 RDBSS defines a Multiplex ID (MID), a 16-bit value, that can be used by both the network client (mini-redirector) and the server to distinguish between the concurrently active requests on any connection. A MID is a component of a MID_ATLAS data structure allocated by calling <b>RxCreateMidAtlas</b>. A MID_MAP data structure is allocated and used for mapping MIDs to RX_CONTEXT data structures. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\midatlax\nf-midatlax-rxassociatecontextwithmid.md">RxAssociateContextWithMid</a>
-</dt>
-<dt>
-<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
-</dt>
-<dt>
-<a href="..\midatlax\nf-midatlax-rxdestroymidatlas.md">RxDestroyMidAtlas</a>
-</dt>
-<dt>
+
 <a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
-</dt>
-<dt>
+
+<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
+
 <a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
-</dt>
-</dl>
+
+<a href="..\midatlax\nf-midatlax-rxdestroymidatlas.md">RxDestroyMidAtlas</a>
+
+<a href="..\midatlax\nf-midatlax-rxassociatecontextwithmid.md">RxAssociateContextWithMid</a>
+
  
 
  

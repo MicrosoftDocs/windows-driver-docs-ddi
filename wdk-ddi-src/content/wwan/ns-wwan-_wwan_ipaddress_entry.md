@@ -7,8 +7,8 @@ old-location: netvista\wwan_ipaddress_entry.htm
 old-project: netvista
 ms.assetid: 85615799-5AA0-4D83-9246-73F3C7ABFFF6
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WWAN_IPADDRESS_ENTRY, *PWWAN_IPADDRESS_ENTRY, WWAN_IPADDRESS_ENTRY
+ms.date: 1/18/2018
+ms.keywords: wwan/WWAN_IPADDRESS_ENTRY, _WWAN_IPADDRESS_ENTRY, *PWWAN_IPADDRESS_ENTRY, WWAN_IPADDRESS_ENTRY, WWAN_IPADDRESS_ENTRY structure [Network Drivers Starting with Windows Vista], PWWAN_IPADDRESS_ENTRY structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_ipaddress_entry, wwan/PWWAN_IPADDRESS_ENTRY, PWWAN_IPADDRESS_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 8.1 and later versions of Windo
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WWAN_IPADDRESS_ENTRY
-req.alt-loc: wwan.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PWWAN_IPADDRESS_ENTRY, WWAN_IPADDRESS_ENTRY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wwan.h
+apiname: 
+-	WWAN_IPADDRESS_ENTRY
+product: Windows
+targetos: Windows
+req.typenames: WWAN_IPADDRESS_ENTRY, *PWWAN_IPADDRESS_ENTRY
 req.product: Windows 10 or later.
 ---
 
 # _WWAN_IPADDRESS_ENTRY structure
 
 
-
 ## -description
+
+
 The WWAN_IPADDRESS_ENTRY structure represents either the IPV4 or IPV6 address of a PDP context.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WWAN_IPADDRESS_ENTRY {
@@ -60,17 +70,51 @@ typedef struct _WWAN_IPADDRESS_ENTRY {
 
 ## -struct-fields
 
-### -field IsIpv6:1
+
+
+
+### -field Ipv4
+
+ 
+
+
+### -field Ipv6
+
+ 
+
+
+### -field IsIpv6
+
+ 
+
+
+### -field IsReported
+
+ 
+
+
+
+#### - IsIpv6:1
 
 Set if the IP address of the PDP context is an IPV6 address.
 
 
-### -field IsReported:1
+#### - IsReported:1
 
 Reserved. Do not use.
 
 
-### -field ( unnamed union )
+##### - ( unnamed union ).Ipv4
+
+The IPV4 address of the PDP context, if <b>IsIpv6</b> is not set.
+
+
+##### - ( unnamed union ).Ipv6
+
+The IPV6 address of the PDP context, if <b>IsIpv6</b> is set.
+
+
+#### - ( unnamed union )
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -87,17 +131,3 @@ union
 </td>
 </tr>
 </table></span></div>
-
-### -field Ipv4
-
-The IPV4 address of the PDP context, if <b>IsIpv6</b> is not set.
-
-
-### -field Ipv6
-
-The IPV6 address of the PDP context, if <b>IsIpv6</b> is set.
-
-</dd>
-</dl>
-
-## -remarks

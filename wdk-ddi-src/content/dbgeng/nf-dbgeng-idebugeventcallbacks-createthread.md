@@ -7,8 +7,8 @@ old-location: debugger\idebugeventcallbacks_createthread.htm
 old-project: debugger
 ms.assetid: c3b2cbaa-33b9-4784-922d-d1209fc23dfd
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugEventCallbacks, IDebugEventCallbacks::CreateThread, CreateThread
+ms.date: 1/19/2018
+ms.keywords: CreateThread, dbgeng/IDebugEventCallbacks::CreateThread, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], CreateThread method, IDebugEventCallbacks::CreateThread, debugger.idebugeventcallbacks_createthread, ComCallbacks_db1fe5dc-8392-4c79-a1ed-9752170eed3c.xml, CreateThread method [Windows Debugging], IDebugEventCallbacks interface, CreateThread method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugEventCallbacks.CreateThread
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugEventCallbacks.CreateThread
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacks::CreateThread method
 
 
-
 ## -description
+
+
 The <b>CreateThread</b> callback method is called by the engine when a create-threaddebugging event occurs in the target.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT CreateThread(
@@ -55,6 +65,9 @@ HRESULT CreateThread(
 
 
 ## -parameters
+
+
+
 
 ### -param Handle [in]
 
@@ -72,10 +85,17 @@ Specifies the starting location in the target's virtual address space of the thr
 
 
 ## -returns
+
+
 This method returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541651">DEBUG_STATUS_XXX</a> value, which indicates how the execution of the target should proceed after the engine processes this event.  For details on how the engine treats this value, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
 
 
+
 ## -remarks
+
+
 This method is only called by the engine if the DEBUG_EVENT_CREATE_THREAD flag is set in the mask returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550737">IDebugEventCallbacks::GetInterestMask</a>.
 
-For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.  For information about threads, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.</p>
+For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.  For information about threads, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.
+
+

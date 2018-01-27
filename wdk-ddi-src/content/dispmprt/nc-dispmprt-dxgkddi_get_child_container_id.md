@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e7073fb3-0cb7-425e-9ffb-d7eaa963a70f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+ms.keywords: display.dxgkddigetchildcontainerid, DxgkDdiGetChildContainerId callback function [Display Devices], DxgkDdiGetChildContainerId, DXGKDDI_GET_CHILD_CONTAINER_ID, DXGKDDI_GET_CHILD_CONTAINER_ID, dispmprt/DxgkDdiGetChildContainerId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiGetChildContainerId
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DxgkDdiGetChildContainerId
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_GET_CHILD_CONTAINER_ID callback
 
 
-
 ## -description
+
+
  Queries the container ID for the specified target. Implemented by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_GET_CHILD_CONTAINER_ID DxgkDdiGetChildContainerId;
@@ -58,6 +68,9 @@ _Check_return_ NTSTATUS* DxgkDdiGetChildContainerId(
 
 
 ## -parameters
+
+
+
 
 ### -param MiniportDeviceContext [in]
 
@@ -77,20 +90,47 @@ A pointer to a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_container_id.md">DXG
 
 
 ## -returns
+
+
 Returns one of the following error codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The driver has updated the structure pointed to by the <i>ContainerId</i> parameter with  container ID information obtained from the display hardware.
+</dl>
+</td>
+<td width="60%">
+The driver has updated the structure pointed to by the <i>ContainerId</i> parameter with  container ID information obtained from the display hardware.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_MONITOR_NODESCRIPTOR</b></dt>
-</dl>The driver has accepted the default container ID information provided in the structure pointed to by  <i>ContainerId</i>.
+</dl>
+</td>
+<td width="60%">
+The driver has accepted the default container ID information provided in the structure pointed to by  <i>ContainerId</i>.
 
- 
+<div class="alert"><b>Note</b>  If the driver returns this status code, it should not modify the structure.</div>
+<div> </div>
+</td>
+</tr>
+</table> 
 
 Otherwise the function returns one of the status codes defined in Ntstatus.h.
 
 
+
 ## -remarks
+
+
 The operating system calls the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a> function to enumerate the child devices of the display adapter. The operating system then calls the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a> function for each child device to obtain the  Extended Display Information Data (EDID) for the device. For more information on this procedure, see <a href="https://msdn.microsoft.com/3bec2117-aef4-41fc-b88a-0081c7c9fe3d">Enumerating Child Devices of a Display Adapter</a>.
 
 Based on the device's EDID data, the operating system generates a default container ID for the child device. Then, the operating system calls the display miniport driver's <i>DxgkDdiGetChildContainerId</i> function and passes a pointer to a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_container_id.md">DXGK_CHILD_CONTAINER_ID</a> structure through the <i>ContainerId</i> parameter. The <b>ContainerId</b> member of this structure contains the default container ID for the child display device.
@@ -100,21 +140,17 @@ The display miniport driver can either accept the default container ID or set th
 For more information about Container IDs, see <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd542646">Container IDs</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\dispmprt\ns-dispmprt-_dxgk_child_container_id.md">DXGK_CHILD_CONTAINER_ID</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-</dt>
-<dt>
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_child_container_id.md">DXGK_CHILD_CONTAINER_ID</a>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
-</dt>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a>
-</dt>
-</dl>
+
  
 
  

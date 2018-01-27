@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7C1DD018-2EDF-48BB-8DFC-ADAF72A1909D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxIoDeviceControl
+ms.keywords: ucxcontroller/UcxIoDeviceControl, buses._ucxiodevicecontrol, UcxIoDeviceControl, UcxIoDeviceControl method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UcxIoDeviceControl
-req.alt-loc: Ucxcontroller.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Ucxcontroller.h
+apiname: 
+-	UcxIoDeviceControl
+product: Windows
+targetos: Windows
 req.typenames: UCX_CONTROLLER_STATE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # UcxIoDeviceControl function
 
 
-
 ## -description
+
+
     Allows USB host controller extension (UCX) to handle an  I/O control code (IOCTL) request from user mode.  
 
 
-
 ## -syntax
+
 
 ````
 BOOL UcxIoDeviceControl(
@@ -58,6 +68,9 @@ BOOL UcxIoDeviceControl(
 
 
 ## -parameters
+
+
+
 
 ### -param Device [in]
 
@@ -88,18 +101,24 @@ The driver-defined or system-defined IOCTL that is
 
 
 ## -returns
+
+
 If the operation is successful, the method returns TRUE. Otherwise it returns FALSE.
 
 
+
 ## -remarks
-The client driver can call this method to allow UCX to handle IOCTLs listed in this table: <a href="usb_interfaces.htm#um_ioctl">User-Mode IOCTLs for USB</a>. If the IOCTL code is <a href="..\usbioctl\ni-usbioctl-ioctl_usb_diagnostic_mode_off.md">IOCTL_USB_DIAGNOSTIC_MODE_OFF</a> or <a href="..\usbioctl\ni-usbioctl-ioctl_usb_diagnostic_mode_on.md">IOCTL_USB_DIAGNOSTIC_MODE_ON</a>, UCX completes the request successfully. For IOCTLS that are used to retrieve the USB host controllers
+
+
+The client driver can call this method to allow UCX to handle IOCTLs listed in this table: <a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">User-Mode IOCTLs for USB</a>. If the IOCTL code is <a href="..\usbioctl\ni-usbioctl-ioctl_usb_diagnostic_mode_off.md">IOCTL_USB_DIAGNOSTIC_MODE_OFF</a> or <a href="..\usbioctl\ni-usbioctl-ioctl_usb_diagnostic_mode_on.md">IOCTL_USB_DIAGNOSTIC_MODE_ON</a>, UCX completes the request successfully. For IOCTLS that are used to retrieve the USB host controllers
     driver key name, such as <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_root_hub_name.md">IOCTL_USB_GET_ROOT_HUB_NAME</a> or <a href="..\usbioctl\ni-usbioctl-ioctl_get_hcd_driverkey_name.md">IOCTL_GET_HCD_DRIVERKEY_NAME</a>, UCX retrieves the Unicode string. If the user mode IOCTL is <a href="https://msdn.microsoft.com/library/windows/hardware/ff537344">IOCTL_USB_USER_REQUEST</a>, the input and output buffer lengths must be equal and the output buffer must contain the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539187">USBUSER_REQUEST_HEADER</a> structure. For the remaining IOCTLs, UCX  returns FALSE and the client driver can provide its own handling logic.
 
 
+
 ## -see-also
-<dl>
-<dt><a href="usb_interfaces.htm#um_ioctl">User-Mode IOCTLs for USB</a></dt>
-</dl>
+
+<a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">User-Mode IOCTLs for USB</a>
+
  
 
  

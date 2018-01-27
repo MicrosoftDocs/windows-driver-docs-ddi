@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: db63b984-73da-4b66-8a5e-06704dd7c031
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_OUTPUTDUPLCONTEXTSCOUNT, D3DKMT_OUTPUTDUPLCONTEXTSCOUNT
+ms.keywords: d3dkmthk/D3DKMT_OUTPUTDUPLCONTEXTSCOUNT, D3DKMT_OUTPUTDUPLCONTEXTSCOUNT, D3DKMT_OUTPUTDUPLCONTEXTSCOUNT structure [Display Devices], _D3DKMT_OUTPUTDUPLCONTEXTSCOUNT, display.d3dkmt_outputduplcontextscount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_OUTPUTDUPLCONTEXTSCOUNT
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_OUTPUTDUPLCONTEXTSCOUNT
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_OUTPUTDUPLCONTEXTSCOUNT
 ---
 
 # _D3DKMT_OUTPUTDUPLCONTEXTSCOUNT structure
 
 
-
 ## -description
+
+
 Specifies the number of current <a href="https://msdn.microsoft.com/523FBFAD-5D78-4EE3-A3B7-8FD5BA39DC46">Desktop Duplication API</a> (DDA) clients that are attached to a given video present network (VidPN).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_OUTPUTDUPLCONTEXTSCOUNT {
@@ -55,6 +65,9 @@ typedef struct _D3DKMT_OUTPUTDUPLCONTEXTSCOUNT {
 
 ## -struct-fields
 
+
+
+
 ### -field VidPnSourceId
 
 The ID of the video present network (VidPN).
@@ -64,5 +77,3 @@ The ID of the video present network (VidPN).
 
 The number of current DDA clients that are attached to the VidPN specified by the <b>VidPnSourceId</b> member.
 
-
-## -remarks

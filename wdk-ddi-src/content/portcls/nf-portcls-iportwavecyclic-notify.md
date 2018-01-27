@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 318ba587-e34f-4f9f-bdf9-3e7c402456c5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortWaveCyclic, IPortWaveCyclic::Notify, Notify
+ms.keywords: portcls/IPortWaveCyclic::Notify, IPortWaveCyclic::Notify, IPortWaveCyclic interface [Audio Devices], Notify method, IPortWaveCyclic, Notify, Notify method [Audio Devices], IPortWaveCyclic interface, audmp-routines_8b2252d3-100f-4e4a-b5ca-cdaf0c12834e.xml, Notify method [Audio Devices], audio.iportwavecyclic_notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPortWaveCyclic.Notify
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IPortWaveCyclic.Notify
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPortWaveCyclic::Notify method
 
 
-
 ## -description
+
+
 The <code>Notify</code> method notifies the port driver that an interrupt indicating the progress of the DMA pointer has occurred. It should be called from the miniport driver's interrupt service routine (ISR).
 
 
-
 ## -syntax
+
 
 ````
 void Notify(
@@ -54,16 +64,24 @@ void Notify(
 
 ## -parameters
 
+
+
+
 ### -param ServiceGroup [in]
 
 Pointer to the miniport driver's <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> object.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 This method is vital for accurate timing. Miniport drivers typically call this method in response to a notification interrupt after having cleared the interrupt source. Although the miniport driver is free to use other methods for determining when to call this method, precise timing is important and should be maintained.
 
 When an adapter driver installs an ISR, it submits a <i>ServiceContext</i> parameter along with the ISR's entry point (for details, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559930">Providing ISR Context Information</a>). When the interrupt occurs, the operating system calls the ISR and passes <i>ServiceContext</i> as a call parameter to the ISR. Although the meaning of the <i>ServiceContext</i> parameter is known only to the driver developer, it is typically a pointer to the miniport object. The ISR uses this pointer to access information about the miniport object.
@@ -73,18 +91,15 @@ The port driver calls the <a href="https://msdn.microsoft.com/library/windows/ha
 The <i>ServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
-</dt>
-<dt>
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536719">IMiniportWaveCyclicStream::SetNotificationFreq</a>
-</dt>
-</dl>
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
+
  
 
  

@@ -7,8 +7,8 @@ old-location: netvista\rilremotepartyinfo.htm
 old-project: netvista
 ms.assetid: 3bcaaf63-adff-4559-9e34-eae089dff6f8
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILREMOTEPARTYINFO, RILREMOTEPARTYINFO, *LPRILREMOTEPARTYINFO
+ms.date: 1/18/2018
+ms.keywords: ntddrilapitypes/RILREMOTEPARTYINFO, RILREMOTEPARTYINFO structure [Network Drivers Starting with Windows Vista], RILREMOTEPARTYINFO, netvista.rilremotepartyinfo, *LPRILREMOTEPARTYINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILREMOTEPARTYINFO
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILREMOTEPARTYINFO, *LPRILREMOTEPARTYINFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILREMOTEPARTYINFO
+product: Windows
+targetos: Windows
+req.typenames: *LPRILREMOTEPARTYINFO, RILREMOTEPARTYINFO
 ---
 
 # RILREMOTEPARTYINFO structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILREMOTEPARTYINFO {
@@ -62,31 +72,41 @@ typedef struct _RILREMOTEPARTYINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwExecutor
+
 
 
 ### -field raAddress
 
 
+
 ### -field rsaSubAddress
+
 
 
 ### -field wszDescription
 
 
+
 ### -field dwNumberPresentationIndicator
+
 
 
 ### -field dwNamePresentationIndicator
 
 
+
 ### -field dwID
 
 
-## -remarks

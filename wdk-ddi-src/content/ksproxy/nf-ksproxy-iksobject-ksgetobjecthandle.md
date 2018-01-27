@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 55c4f362-eb3c-4c4f-a048-7abdd270f67f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsObject, IKsObject::KsGetObjectHandle, KsGetObjectHandle
+ms.keywords: KsGetObjectHandle method [Streaming Media Devices], IKsObject interface, stream.iksobject_ksgetobjecthandle, ksproxy/IKsObject::KsGetObjectHandle, ksproxy_37998df5-a529-4f73-95a3-88ff3fdfcf2a.xml, IKsObject, IKsObject::KsGetObjectHandle, KsGetObjectHandle, IKsObject interface [Streaming Media Devices], KsGetObjectHandle method, KsGetObjectHandle method [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IKsObject.KsGetObjectHandle
-req.alt-loc: ksproxy.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ksproxy.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	ksproxy.h
+apiname: 
+-	IKsObject.KsGetObjectHandle
+product: Windows
+targetos: Windows
 req.typenames: PIPE_STATE
 ---
 
 # IKsObject::KsGetObjectHandle method
 
 
-
 ## -description
+
+
 The <b>KsGetObjectHandle</b> method retrieves a file handle to a KS object. 
 
 
-
 ## -syntax
+
 
 ````
 HANDLE KsGetObjectHandle();
@@ -53,24 +63,27 @@ HANDLE KsGetObjectHandle();
 ## -parameters
 
 
+
+
+
 ## -returns
-Returns a file handle to a KS object if successful; otherwise, returns null. 
+
 
 Returns a file handle to a KS object if successful; otherwise, returns null. 
 
-Returns a file handle to a KS object if successful; otherwise, returns null. 
 
 
 ## -remarks
+
+
 Applications can use the handle that <b>KsGetObjectHandle</b> returns to send control-code requests to the driver that handles the KS object. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ksproxy\nf-ksproxy-kssynchronousdevicecontrol.md">KsSynchronousDeviceControl</a>
-</dt>
-</dl>
+
  
 
  

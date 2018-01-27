@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0c084258-2bd6-47a8-a060-d4ba2734ebed
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SendRPL_IN, *PSendRPL_IN, SendRPL_IN
+ms.keywords: SendRPL_IN, PSendRPL_IN, PSendRPL_IN structure pointer [Storage Devices], _SendRPL_IN, *PSendRPL_IN, hbapiwmi/PSendRPL_IN, structs-Fibre_3babb7ed-9d87-4154-b038-8e503750eed4.xml, hbapiwmi/SendRPL_IN, storage.sendrpl_in, SendRPL_IN structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SendRPL_IN
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	SendRPL_IN
+product: Windows
+targetos: Windows
 req.typenames: *PSendRPL_IN, SendRPL_IN
 ---
 
 # _SendRPL_IN structure
 
 
-
 ## -description
+
+
 The SendRPL_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565488">SendRPL</a> WMI method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SendRPL_IN {
@@ -56,6 +66,9 @@ typedef struct _SendRPL_IN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PortWWN
 
@@ -78,15 +91,16 @@ Contains the port index of the first port in the list of ports of type FC_Port t
 
 
 ## -remarks
+
+
 The WMI tool suite generates a declaration of the SendRPL_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565488">SendRPL</a>
-</dt>
-</dl>
+
  
 
  

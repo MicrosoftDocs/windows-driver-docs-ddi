@@ -7,8 +7,8 @@ old-location: netvista\riluicclockcredential.htm
 old-project: netvista
 ms.assetid: 4ca8411e-2492-4832-881c-5fdb974485fc
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILUICCLOCKCREDENTIAL, *LPRILUICCLOCKCREDENTIAL, RILUICCLOCKCREDENTIAL
+ms.date: 1/18/2018
+ms.keywords: netvista.riluicclockcredential, RILUICCLOCKCREDENTIAL structure [Network Drivers Starting with Windows Vista], RILUICCLOCKCREDENTIAL, ntddrilapitypes/RILUICCLOCKCREDENTIAL, *LPRILUICCLOCKCREDENTIAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILUICCLOCKCREDENTIAL
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILUICCLOCKCREDENTIAL, RILUICCLOCKCREDENTIAL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILUICCLOCKCREDENTIAL
+product: Windows
+targetos: Windows
+req.typenames: RILUICCLOCKCREDENTIAL, *LPRILUICCLOCKCREDENTIAL
 ---
 
 # RILUICCLOCKCREDENTIAL structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILUICCLOCKCREDENTIAL {
@@ -55,10 +65,13 @@ typedef struct _RILUICCLOCKCREDENTIAL {
 
 ## -struct-fields
 
+
+
+
 ### -field rilUiccLock
+
 
 
 ### -field szPassword
 
 
-## -remarks

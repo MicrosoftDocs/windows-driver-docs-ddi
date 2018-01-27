@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 04bd00c3-83a8-44bb-9493-cf7f43f10602
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_ALLOCATIONINFOFLAGS, DXGK_ALLOCATIONINFOFLAGS
+ms.keywords: DmStructs_4e6e499c-8427-4c0f-977d-92f648ab027e.xml, d3dkmddi/DXGK_ALLOCATIONINFOFLAGS, DXGK_ALLOCATIONINFOFLAGS structure [Display Devices], _DXGK_ALLOCATIONINFOFLAGS, DXGK_ALLOCATIONINFOFLAGS, display.dxgk_allocationinfoflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_ALLOCATIONINFOFLAGS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_ALLOCATIONINFOFLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_ALLOCATIONINFOFLAGS
 ---
 
 # _DXGK_ALLOCATIONINFOFLAGS structure
 
 
-
 ## -description
+
+
 The DXGK_ALLOCATIONINFOFLAGS structure identifies properties for an allocation. The display miniport driver specifies these flags for the video memory manager.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_ALLOCATIONINFOFLAGS {
@@ -92,6 +102,9 @@ typedef struct _DXGK_ALLOCATIONINFOFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field CpuVisible
 
@@ -242,12 +255,19 @@ Setting this member is equivalent to setting the seventeenth bit of the 32-bit <
 Supported starting with Windows 10.
 
 
+### -field HardwareProtected
+
+ 
+
+
+### -field CpuVisibleOnDemand
+
+ 
+
+
 ### -field Reserved
 
 [in] This member is reserved and should be set to zero. 
-
-
-### -field Reserved
 
 [in] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting 4 bits, from the sixteenth bit to the nineteenth bit (0x00078000), of the 32-bit <b>Value</b> member to zeros.
 
@@ -349,24 +369,22 @@ Supported starting with Windows 8.
 
 
 ## -remarks
+
+
 You can specify properties of an allocation by setting bits in the 32-bit <b>Value</b> member or by setting individual members of the structure in the union that the <b>DXGK_ALLOCATIONINFOFLAGS</b> structure contains.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
-</dt>
-<dt>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
+
  
 
  

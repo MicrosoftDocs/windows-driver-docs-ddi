@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7787237c-5afd-46f2-ac75-6c0b41d37352
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortScanRom
+ms.keywords: VideoPortScanRom function [Display Devices], video/VideoPortScanRom, VideoPort_Functions_7bcf750d-48d5-4b3b-911f-90efd1f0eed1.xml, display.videoportscanrom, VideoPortScanRom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 2000 and later versions of the W
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VideoPortScanRom
-req.alt-loc: Videoprt.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Videoprt.sys
+apiname: 
+-	VideoPortScanRom
+product: Windows
+targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # VideoPortScanRom function
 
 
-
 ## -description
+
+
 The <b>VideoPortScanRom</b> function is <b>obsolete</b> in Windows XP and later versions. It is supported only for backward compatibility. 
 
 <b>VideoPortScanRom</b> performs a case-sensitive search for a specified string in ROM.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN VideoPortScanRom(
@@ -60,46 +70,51 @@ BOOLEAN VideoPortScanRom(
 
 ## -parameters
 
-### -param HwDeviceExtension 
+
+
+
+### -param HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
 
-### -param RomBase 
+### -param RomBase
 
 Specifies the base ROM address at which the search should start. The given <i>RomBase</i> must be in a mapped range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
 
-### -param RomLength 
+### -param RomLength
 
 Specifies the size in bytes of the mapped ROM to be searched.
 
 
-### -param String 
+### -param String
 
 Pointer to the driver-allocated string to search for.
 
 
 ## -returns
+
+
 If the string is found, <b>VideoPortScanRom</b> returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>.
 
 
+
 ## -remarks
+
+
 <b>VideoPortScanRom</b> cannot be called from a miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pvideo_hw_timer.md">HwVidTimer</a> functions, or from <a href="..\video\nf-video-videoportqueuedpc.md">VideoPortQueueDpc</a>, or from a callback to <a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-</dt>
-<dt>
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportgetromimage.md">VideoPortGetRomImage</a>
-</dt>
-</dl>
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+
  
 
  

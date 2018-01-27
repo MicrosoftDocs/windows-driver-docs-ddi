@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 39a50efc-b27a-4c73-b436-c6495256d9c6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlAddAccessAllowedAce
+ms.keywords: ifsk.rtladdaccessallowedace, ntifs/RtlAddAccessAllowedAce, RtlAddAccessAllowedAce, RtlAddAccessAllowedAce routine [Installable File System Drivers], rtlref_ab4b97bd-c68c-4f7b-a50e-8584f53e6720.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlAddAccessAllowedAce
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlAddAccessAllowedAce
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlAddAccessAllowedAce function
 
 
-
 ## -description
+
+
 The <b>RtlAddAccessAllowedAce</b> routine adds an access-allowed access control entry (ACE) to an access control list (ACL). The access is granted to the specified security identifier (SID). 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlAddAccessAllowedAce(
@@ -57,6 +67,9 @@ NTSTATUS RtlAddAccessAllowedAce(
 
 ## -parameters
 
+
+
+
 ### -param Acl [in, out]
 
 Pointer to a caller-allocated buffer containing the ACL to be modified. <b>RtlAddAccessAllowedAce</b> adds an access-allowed ACE to the end of this ACL. The ACE is in the form of an ACCESS_ALLOWED_ACE structure.
@@ -65,7 +78,6 @@ Pointer to a caller-allocated buffer containing the ACL to be modified. <b>RtlAd
 ### -param AceRevision [in]
 
 ACL revision level of the ACE to be added. Windows version requirments are the following:
-
 <table>
 <tr>
 <th>Value</th>
@@ -73,9 +85,9 @@ ACL revision level of the ACE to be added. Windows version requirments are the f
 </tr>
 <tr>
 <td width="40%">
-
-### -param ACL_REVISION
-
+<dl>
+<dt>ACL_REVISION</dt>
+</dl>
 </td>
 <td width="60%">
 The revision level valid on all Windows versions.
@@ -84,9 +96,9 @@ The revision level valid on all Windows versions.
 </tr>
 <tr>
 <td width="40%">
-
-### -param ACL_REVISION_DS
-
+<dl>
+<dt>ACL_REVISION_DS</dt>
+</dl>
 </td>
 <td width="60%">
 The revision level valid starting with Windows 2000.
@@ -95,8 +107,7 @@ The revision level valid starting with Windows 2000.
 <div> </div>
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param AccessMask [in]
@@ -110,75 +121,110 @@ Pointer to the SID structure representing a user, group, or logon account that i
 
 
 ## -returns
+
+
 <b>RtlAddAccessAllowedAce</b> can return one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The ACE was successfully added.
+</dl>
+</td>
+<td width="60%">
+The ACE was successfully added.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ALLOTTED_SPACE_EXCEEDED</b></dt>
-</dl>A new ACE does not fit into the ACL. A larger ACL buffer is required. See <a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a> for information about calculating the size of an ACL. 
+</dl>
+</td>
+<td width="60%">
+A new ACE does not fit into the ACL. A larger ACL buffer is required. See <a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a> for information about calculating the size of an ACL. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_ACL</b></dt>
-</dl>The specified ACL is not properly formed.
+</dl>
+</td>
+<td width="60%">
+The specified ACL is not properly formed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_SID</b></dt>
-</dl>The specified SID structure is not structurally valid.
+</dl>
+</td>
+<td width="60%">
+The specified SID structure is not structurally valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_REVISION_MISMATCH</b></dt>
-</dl>The specified revision is not known or is not compatible with that of the ACL. 
+</dl>
+</td>
+<td width="60%">
+The specified revision is not known or is not compatible with that of the ACL. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlcreatesecuritydescriptorrelative.md">RtlCreateSecurityDescriptorRelative</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
+
+<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+
+<a href="..\ntifs\nf-ntifs-rtlcreatesecuritydescriptorrelative.md">RtlCreateSecurityDescriptorRelative</a>
+
+<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
+
+<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
+
+<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
  
 
  

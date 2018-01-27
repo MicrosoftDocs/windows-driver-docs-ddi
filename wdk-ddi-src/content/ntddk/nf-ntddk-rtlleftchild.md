@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 26e6b0c6-7de0-43c9-a117-5c0bf0e986a2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlLeftChild
+ms.keywords: ifsk.rtlleftchild, RtlLeftChild, ntddk/RtlLeftChild, rtlref_f2bfae7c-de1d-4d7c-84b5-947a0cfdb16f.xml, RtlLeftChild routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlLeftChild
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ntddk.h
 req.dll: 
 req.irql: See Remarks section.
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddk.h
+apiname: 
+-	RtlLeftChild
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # RtlLeftChild macro
 
 
-
 ## -description
+
+
 The <b>RtlLeftChild</b> routine returns a pointer to the left child of the specified splay link node. 
 
 
-
 ## -syntax
+
 
 ````
 PRTL_SPLAY_LINKS RtlLeftChild(
@@ -54,12 +64,17 @@ PRTL_SPLAY_LINKS RtlLeftChild(
 
 ## -parameters
 
+
+
+
 ### -param Links [in]
 
 Pointer to the node whose left child is to be returned. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>. 
 
 
 ## -remarks
+
+
 <b>RtlLeftChild</b> can be called repeatedly in conjunction with <b>RtlParent</b> and <b>RtlRightChild</b> to walk a splay link tree. 
 
 Callers of the <b>Rtl</b> splay link routines are responsible for synchronizing access to the splay link tree. A fast mutex is the most efficient synchronization mechanism to use for this purpose. 
@@ -67,21 +82,17 @@ Callers of the <b>Rtl</b> splay link routines are responsible for synchronizing 
 Callers of <b>RtlLeftChild</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the tree is nonpaged. Usually, callers are running at IRQL PASSIVE_LEVEL. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-rtlparent.md">RtlParent</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 17E3C01A-0716-4B3C-B4B3-72B055FB40EA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_DEALLOCATE_FLAGS_0022, D3D12DDI_DEALLOCATE_FLAGS_0022
+ms.keywords: D3D12DDI_DEALLOCATE_FLAGS_0022_ASSUME_NOT_IN_USE, display.d3d12ddi_deallocate_flags_0022, D3D12DDI_DEALLOCATE_FLAGS_0022_SYNCHRONOUS_DESTROY, d3d12umddi/D3D12DDI_DEALLOCATE_FLAGS_0022_SYNCHRONOUS_DESTROY, D3D12DDI_DEALLOCATE_FLAGS_0022, D3D12DDI_DEALLOCATE_FLAGS_0022 enumeration [Display Devices], d3d12umddi/D3D12DDI_DEALLOCATE_FLAGS_0022_ASSUME_NOT_IN_USE, D3D12DDI_DEALLOCATE_FLAGS_0022_NONE, d3d12umddi/D3D12DDI_DEALLOCATE_FLAGS_0022, d3d12umddi/D3D12DDI_DEALLOCATE_FLAGS_0022_NONE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_DEALLOCATE_FLAGS_0022
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_DEALLOCATE_FLAGS_0022
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_DEALLOCATE_FLAGS_0022
 ---
 
 # D3D12DDI_DEALLOCATE_FLAGS_0022 enumeration
 
 
-
 ## -description
+
+
 Defines flags for use in deallocation. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D12DDI_DEALLOCATE_FLAGS_0022 { 
@@ -55,6 +65,9 @@ typedef enum D3D12DDI_DEALLOCATE_FLAGS_0022 {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D12DDI_DEALLOCATE_FLAGS_0022_NONE
 
@@ -70,5 +83,3 @@ Assume that the allocation is not in use.
 
 Perform synchronous destroy.
 
-
-## -remarks

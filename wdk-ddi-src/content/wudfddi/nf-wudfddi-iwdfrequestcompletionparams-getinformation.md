@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6dd47575-0da3-4038-81aa-ac955c00f08d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFRequestCompletionParams, IWDFRequestCompletionParams::GetInformation, GetInformation
+ms.keywords: GetInformation, IWDFRequestCompletionParams, wudfddi/IWDFRequestCompletionParams::GetInformation, GetInformation method, IWDFRequestCompletionParams interface, IWDFRequestCompletionParams interface, GetInformation method, wdf.iwdfrequestcompletionparams_getinformation, GetInformation method, umdf.iwdfrequestcompletionparams_getinformation, UMDFRequestObjectRef_f014a31c-ac37-419d-a318-31d910c646b1.xml, IWDFRequestCompletionParams::GetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.5
-req.alt-api: IWDFRequestCompletionParams.GetInformation
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFRequestCompletionParams.GetInformation
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IWDFRequestCompletionParams::GetInformation method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetInformation</b> method retrieves information that is associated with the completion of an I/O request.
 
 
-
 ## -syntax
+
 
 ````
 ULONG_PTR GetInformation();
@@ -56,29 +66,20 @@ ULONG_PTR GetInformation();
 ## -parameters
 
 
+
+
+
 ## -returns
-<b>GetInformation</b> returns information (for example, the number of bytes transferred) that is associated with the completion of the I/O request.
 
-For a code example of how to use the <b>GetInformation</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558892">IWDFDevice::SetPnpState</a>.
-
-<b>GetInformation</b> returns information (for example, the number of bytes transferred) that is associated with the completion of the I/O request.
-
-For a code example of how to use the <b>GetInformation</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558892">IWDFDevice::SetPnpState</a>.
 
 <b>GetInformation</b> returns information (for example, the number of bytes transferred) that is associated with the completion of the I/O request.
 
-For a code example of how to use the <b>GetInformation</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558892">IWDFDevice::SetPnpState</a>.
-
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>
-</dt>
-</dl>
+
  
 
  

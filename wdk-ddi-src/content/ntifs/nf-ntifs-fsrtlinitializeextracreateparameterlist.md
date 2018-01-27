@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 79e56363-1098-42bb-8e6a-c4b4c76e7e7c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlInitializeExtraCreateParameterList
+ms.keywords: ifsk.fsrtlinitializeextracreateparameterlist, ntifs/FsRtlInitializeExtraCreateParameterList, FsRtlInitializeExtraCreateParameterList routine [Installable File System Drivers], FsRtlInitializeExtraCreateParameterList, fsrtlref_785d3f11-f568-491e-9cdb-abba70ae3eeb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The FsRtlInitializeExtraCreateParameterList routine i
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlInitializeExtraCreateParameterList
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	FsRtlInitializeExtraCreateParameterList
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlInitializeExtraCreateParameterList function
 
 
-
 ## -description
+
+
 The <b>FsRtlInitializeExtraCreateParameterList</b> routine initializes an extra create parameter (ECP) context structure list. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlInitializeExtraCreateParameterList(
@@ -54,24 +64,25 @@ NTSTATUS FsRtlInitializeExtraCreateParameterList(
 
 ## -parameters
 
+
+
+
 ### -param EcpList [in, out]
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a> structure to initialize. 
 
 
 ## -returns
+
+
 <b>FsRtlInitializeExtraCreateParameterList</b> returns STATUS_SUCCESS if it successfully initialized the given <a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a> structure, and returns an error if it did not. 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
-</dt>
-</dl>
+
  
 
  

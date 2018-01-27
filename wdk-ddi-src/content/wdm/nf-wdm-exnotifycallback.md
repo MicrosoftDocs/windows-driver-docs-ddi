@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5c126639-494d-45b4-81c2-1af6dc773db6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExNotifyCallback
+ms.keywords: wdm/ExNotifyCallback, ExNotifyCallback routine [Kernel-Mode Driver Architecture], k102_befd9baa-99b3-427b-a0c3-4287e5563482.xml, ExNotifyCallback, kernel.exnotifycallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExNotifyCallback
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ExNotifyCallback
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ExNotifyCallback function
 
 
-
 ## -description
+
+
 The <b>ExNotifyCallback</b> routine causes all callback routines registered for the given object to be called.
 
 
-
 ## -syntax
+
 
 ````
 VOID ExNotifyCallback(
@@ -56,6 +66,9 @@ VOID ExNotifyCallback(
 
 
 ## -parameters
+
+
+
 
 ### -param CallbackObject [in]
 
@@ -73,10 +86,15 @@ Specifies the parameter that is passed as <i>Argument2</i> of the callback routi
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 Driver writers <u>must not</u> call <b>ExNotifyCallback</b> for any of the system-defined callback objects listed in <b>ExCreateCallback</b>.
 
 The system calls callback routines in order of their registration.
@@ -86,15 +104,13 @@ For more information about callback objects, see <a href="https://msdn.microsoft
 Callers of this routine must be running at IRQL &lt;= DISPATCH_LEVEL. The system calls all registered callback routines at the caller's IRQL.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
+
  
 
  

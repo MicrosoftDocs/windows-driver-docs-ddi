@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8b166fbb-f6fa-4d90-9b32-40ce213cbd71
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME, D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME
+ms.keywords: D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME structure [Display Devices], _D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME, D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME, display.d3dkmt_openadapterfromgdidisplayname, d3dkmthk/D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME, OpenGL_Structs_a6a0807b-454b-48a4-91d1-26d62e592280.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME
 ---
 
 # _D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME structure
 
 
-
 ## -description
+
+
 The D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME structure describes the mapping of the given name of a GDI device to a graphics adapter handle and monitor output.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME {
@@ -56,6 +66,9 @@ typedef struct _D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME {
 
 
 ## -struct-fields
+
+
+
 
 ### -field DeviceName
 
@@ -77,15 +90,10 @@ typedef struct _D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME {
 [out] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology for the GDI device that <b>DeviceName</b> specifies. The identification number is returned from the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenadapterfromgdidisplayname.md">D3DKMTOpenAdapterFromGdiDisplayName</a> call.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenadapterfromgdidisplayname.md">D3DKMTOpenAdapterFromGdiDisplayName</a>
-</dt>
-</dl>
+
  
 
  

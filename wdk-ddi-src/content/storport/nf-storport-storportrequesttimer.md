@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: EE5A6D39-EC76-4D97-B2EC-4A43225C2FB5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortRequestTimer
+ms.keywords: storage.storportrequesttimer, StorPortRequestTimer routine [Storage Devices], StorPortRequestTimer, storport/StorPortRequestTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 8 and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortRequestTimer
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	StorPortRequestTimer
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # StorPortRequestTimer function
 
 
-
 ## -description
+
+
 Schedules a callback event for a Storport timer context object.
 
 
-
 ## -syntax
+
 
 ````
 ULONG StorPortRequestTimer(
@@ -60,6 +70,9 @@ ULONG StorPortRequestTimer(
 
 ## -parameters
 
+
+
+
 ### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
@@ -73,7 +86,6 @@ A pointer to an opaque buffer for the timer context returned by <a href="..\stor
 ### -param TimerCallback [in]
 
 A pointer to a timer callback routine supplied by the miniport. The following is the prototype defined for <b>PHW_TIMER_EX</b>:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -106,44 +118,81 @@ The allowable delay for the timer in microseconds. Values less than 32 microseco
 
 
 ## -returns
+
+
 The <b>StorPortRequestTimer</b> routine returns one of these status codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>Not enough resources available to defer scheduling of the timer.
+</dl>
+</td>
+<td width="60%">
+Not enough resources available to defer scheduling of the timer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl><i>HwDeviceExtension</i>, <i>TimerHandle</i>, or <i>TimerCallback</i> is NULL.
+</dl>
+</td>
+<td width="60%">
+<i>HwDeviceExtension</i>, <i>TimerHandle</i>, or <i>TimerCallback</i> is NULL.
 
 The timer context object, <i>TimerHandle</i>, is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_BUSY</b></dt>
-</dl>A previous timer request is active. <i>TimerValue</i> &gt; 0 and <i>TimerCallback</i> has not been called.
+</dl>
+</td>
+<td width="60%">
+A previous timer request is active. <i>TimerValue</i> &gt; 0 and <i>TimerCallback</i> has not been called.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>The timer request was successfully scheduled.
+</dl>
+</td>
+<td width="60%">
+The timer request was successfully scheduled.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The <b>StorPortRequestTimer</b> routine is callable at any IRQL. However, if the routine is called when IRQL &gt; DISPATCH_LEVEL, the timer's scheduling is deferred until IRQL &lt;= DISPATCH_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\storport\nc-storport-hw_timer.md">HwStorTimer</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportfreetimer.md">StorPortFreeTimer</a>
-</dt>
-<dt>
-<a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
-</dt>
-</dl>
+
+<a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>
+
+<a href="..\storport\nc-storport-hw_timer.md">HwStorTimer</a>
+
  
 
  

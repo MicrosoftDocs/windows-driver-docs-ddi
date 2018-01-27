@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: da866f7e-f2c6-4926-bbde-db0629571c57
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_EXTDEVICE_S, *PKSPROPERTY_EXTDEVICE_S, KSPROPERTY_EXTDEVICE_S
+ms.keywords: KSPROPERTY_EXTDEVICE_S, PKSPROPERTY_EXTDEVICE_S, *PKSPROPERTY_EXTDEVICE_S, PKSPROPERTY_EXTDEVICE_S structure pointer [Streaming Media Devices], ksmedia/PKSPROPERTY_EXTDEVICE_S, ksmedia/KSPROPERTY_EXTDEVICE_S, stream.ksproperty_extdevice_s, vidcapstruct_7c8b60d9-303e-489a-8c93-39d91cda2819.xml, KSPROPERTY_EXTDEVICE_S structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPROPERTY_EXTDEVICE_S
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSPROPERTY_EXTDEVICE_S, KSPROPERTY_EXTDEVICE_S
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSPROPERTY_EXTDEVICE_S
+product: Windows
+targetos: Windows
+req.typenames: KSPROPERTY_EXTDEVICE_S, *PKSPROPERTY_EXTDEVICE_S
 ---
 
 # KSPROPERTY_EXTDEVICE_S structure
 
 
-
 ## -description
+
+
 The KSPROPERTY_EXTDEVICE_S structure describes an external device and its capabilities.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -61,20 +71,19 @@ typedef struct {
 
 ## -struct-fields
 
-### -field Property
 
-Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
 ### -field u
 
 
-### -field Capabilities
+
+### -field u.Capabilities
 
 Describes the external device's capabilities.
 
 
-### -field DevPort
+### -field u.DevPort
 
 Specifies the external device's port. For example:
 
@@ -83,7 +92,7 @@ DEV_PORT_1394
 DEV_PORT_USB
 
 
-### -field PowerState
+### -field u.PowerState
 
 Specifies the external device's power state:
 
@@ -94,31 +103,34 @@ ED_POWER_STANDBY
 ED_POWER_OFF
 
 
-### -field pawchString
+### -field u.pawchString
 
 Specifies the external device's ID and version.
 
 
-### -field NodeUniqueID
+### -field u.NodeUniqueID
 
 Specifies the external device's unique node Id.
 
-</dd>
-</dl>
+
+### -field Property
+
+Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+
 
 ## -remarks
+
+
 Any ED_Xxx or DEV_PORT_Xxx tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-</dt>
-<dt>
+
 <a href="..\ksmedia\ns-ksmedia-tagdevcaps.md">DEVCAPS</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
  
 
  

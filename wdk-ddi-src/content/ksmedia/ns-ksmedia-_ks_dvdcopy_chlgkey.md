@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 10be15fc-ca0e-40d4-8fe9-9682478f5c5b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _KS_DVDCOPY_CHLGKEY, *PKS_DVDCOPY_CHLGKEY, KS_DVDCOPY_CHLGKEY
+ms.keywords: ksmedia/PKS_DVDCOPY_CHLGKEY, KS_DVDCOPY_CHLGKEY structure [Streaming Media Devices], ksmedia/KS_DVDCOPY_CHLGKEY, PKS_DVDCOPY_CHLGKEY structure pointer [Streaming Media Devices], stream.ks_dvdcopy_chlgkey, dvdref_af25bbe5-5caf-4cd7-be78-1d905a50ef82.xml, KS_DVDCOPY_CHLGKEY, PKS_DVDCOPY_CHLGKEY, _KS_DVDCOPY_CHLGKEY, *PKS_DVDCOPY_CHLGKEY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KS_DVDCOPY_CHLGKEY
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKS_DVDCOPY_CHLGKEY, KS_DVDCOPY_CHLGKEY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KS_DVDCOPY_CHLGKEY
+product: Windows
+targetos: Windows
+req.typenames: KS_DVDCOPY_CHLGKEY, *PKS_DVDCOPY_CHLGKEY
 ---
 
 # _KS_DVDCOPY_CHLGKEY structure
 
 
-
 ## -description
+
+
 The KS_DVDCOPY_CHLGKEY structure is used to describe the challenge key information for the DVD copyright protection authentication process.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _KS_DVDCOPY_CHLGKEY {
@@ -54,6 +64,9 @@ typedef struct _KS_DVDCOPY_CHLGKEY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field ChlgKey
 
@@ -66,17 +79,18 @@ Reserved. Do not use.
 
 
 ## -remarks
+
+
 The KS_DVDCOPY_CHLGKEY structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565140">KSPROPERTY_DVDCOPY_CHLG_KEY</a> property.
 
 For more information, see <a href="https://msdn.microsoft.com/ff9cf8c8-7c8f-485c-b2ab-7567a5eeb87b">DVD Copyright Protection</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565140">KSPROPERTY_DVDCOPY_CHLG_KEY</a>
-</dt>
-</dl>
+
  
 
  

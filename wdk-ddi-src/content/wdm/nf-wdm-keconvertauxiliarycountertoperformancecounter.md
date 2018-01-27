@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 90F4CE6D-F51A-4B18-B328-63AF4D71A690
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeConvertAuxiliaryCounterToPerformanceCounter
+ms.keywords: wdm/KeConvertAuxiliaryCounterToPerformanceCounter, KeConvertAuxiliaryCounterToPerformanceCounter routine [Kernel-Mode Driver Architecture], KeConvertAuxiliaryCounterToPerformanceCounter, kernel.keconvertauxiliarycountertoperformancecounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeConvertAuxiliaryCounterToPerformanceCounter
-req.alt-loc: Hal.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Hal.dll
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Hal.dll
+apiname: 
+-	KeConvertAuxiliaryCounterToPerformanceCounter
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,16 +47,17 @@ req.product: Windows 10 or later.
 # KeConvertAuxiliaryCounterToPerformanceCounter function
 
 
-
 ## -description
+
+
 The  <b>KeConvertAuxiliaryCounterToPerformanceCounter</b> routine converts the specified auxiliary counter value into a performance  counter value.
 
 
 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KeConvertAuxiliaryCounterToPerformanceCounter(
@@ -59,6 +69,9 @@ NTSTATUS KeConvertAuxiliaryCounterToPerformanceCounter(
 
 
 ## -parameters
+
+
+
 
 ### -param AuxiliaryCounterValue [in]
 
@@ -76,35 +89,75 @@ A pointer to a variable that contains the estimated conversion error in units of
 
 
 ## -returns
+
+
 <b>KeConvertAuxiliaryCounterToPerformanceCounter</b> can return one of the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The conversion succeeded.
+</dl>
+</td>
+<td width="60%">
+The conversion succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>Auxiliary counter is not supported.
+</dl>
+</td>
+<td width="60%">
+Auxiliary counter is not supported.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER </b></dt>
-</dl>The <i>AuxiliaryCounterValue</i> value is not valid. For example, the value is earlier than the last system boot/recovery, or is out of the +/- 10s range compared to the current auxiliary counter value.
+</dl>
+</td>
+<td width="60%">
+The <i>AuxiliaryCounterValue</i> value is not valid. For example, the value is earlier than the last system boot/recovery, or is out of the +/- 10s range compared to the current auxiliary counter value.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_UNSUCCESSFUL </b></dt>
-</dl>The routine cannot convert the specified value with acceptable accuracy.
+</dl>
+</td>
+<td width="60%">
+The routine cannot convert the specified value with acceptable accuracy.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 Make sure that the specified auxiliary counter value is within +/- 10s compared to the current value.
 
  
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-keconvertperformancecountertoauxiliarycounter.md">KeConvertPerformanceCounterToAuxiliaryCounter</a>
-</dt>
-</dl>
+
  
 
  

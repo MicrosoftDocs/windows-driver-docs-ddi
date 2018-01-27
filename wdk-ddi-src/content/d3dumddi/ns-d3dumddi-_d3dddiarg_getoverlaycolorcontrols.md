@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 63d14667-7409-40c8-af03-e4ffedd73e7e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_GETOVERLAYCOLORCONTROLS, D3DDDIARG_GETOVERLAYCOLORCONTROLS
+ms.keywords: D3DDDIARG_GETOVERLAYCOLORCONTROLS, _D3DDDIARG_GETOVERLAYCOLORCONTROLS, UMDisplayDriver_param_Structs_eedf1607-a208-42ba-8d05-6151e489ee8f.xml, display.d3dddiarg_getoverlaycolorcontrols, d3dumddi/D3DDDIARG_GETOVERLAYCOLORCONTROLS, D3DDDIARG_GETOVERLAYCOLORCONTROLS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_GETOVERLAYCOLORCONTROLS
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_GETOVERLAYCOLORCONTROLS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_GETOVERLAYCOLORCONTROLS
 ---
 
 # _D3DDDIARG_GETOVERLAYCOLORCONTROLS structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_GETOVERLAYCOLORCONTROLS structure describes the parameters for retrieving an overlay's color-control settings. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_GETOVERLAYCOLORCONTROLS {
@@ -55,6 +65,9 @@ typedef struct _D3DDDIARG_GETOVERLAYCOLORCONTROLS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hOverlay
 
@@ -71,18 +84,12 @@ typedef struct _D3DDDIARG_GETOVERLAYCOLORCONTROLS {
 [out] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlaycolorcontrols.md">D3DDDI_OVERLAYCOLORCONTROLS</a> structure that <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getoverlaycolorcontrols.md">GetOverlayColorControls</a> populates with color-control settings.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlaycolorcontrols.md">D3DDDI_OVERLAYCOLORCONTROLS</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getoverlaycolorcontrols.md">GetOverlayColorControls</a>
-</dt>
-</dl>
+
  
 
  

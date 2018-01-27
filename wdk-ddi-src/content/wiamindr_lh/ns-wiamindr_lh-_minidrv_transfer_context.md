@@ -7,8 +7,8 @@ old-location: image\minidrv_transfer_context.htm
 old-project: image
 ms.assetid: 26583873-4f84-4254-86c1-2063df85000c
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: _MINIDRV_TRANSFER_CONTEXT, *PMINIDRV_TRANSFER_CONTEXT, MINIDRV_TRANSFER_CONTEXT
+ms.date: 1/18/2018
+ms.keywords: image.minidrv_transfer_context, wiamindr_lh/MINIDRV_TRANSFER_CONTEXT, PMINIDRV_TRANSFER_CONTEXT, _MINIDRV_TRANSFER_CONTEXT, PMINIDRV_TRANSFER_CONTEXT structure pointer [Imaging Devices], wiastrct_36e477d2-73a8-41b7-af46-82fb7c6f0bca.xml, MINIDRV_TRANSFER_CONTEXT structure [Imaging Devices], MINIDRV_TRANSFER_CONTEXT, wiamindr_lh/PMINIDRV_TRANSFER_CONTEXT, *PMINIDRV_TRANSFER_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Me and in Windows XP and later v
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MINIDRV_TRANSFER_CONTEXT
-req.alt-loc: wiamindr_lh.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wiamindr_lh.h
+apiname: 
+-	MINIDRV_TRANSFER_CONTEXT
+product: Windows
+targetos: Windows
 req.typenames: *PMINIDRV_TRANSFER_CONTEXT, MINIDRV_TRANSFER_CONTEXT
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _MINIDRV_TRANSFER_CONTEXT structure
 
 
-
 ## -description
+
+
 The MINIDRV_TRANSFER_CONTEXT structure is used to store image and other information needed for a memory-callback data transfer or a file data transfer.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MINIDRV_TRANSFER_CONTEXT {
@@ -80,6 +90,9 @@ typedef struct _MINIDRV_TRANSFER_CONTEXT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field lSize
 
@@ -221,6 +234,8 @@ Specifies the image file directory (IFD) offset in the previous page of a multip
 
 
 ## -remarks
+
+
 The WIA service sets most of the members of this structure before it calls the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff543956">IWiaMiniDrv::drvAcquireItemData</a> method. If the minidriver calls <a href="..\wiamdef\nf-wiamdef-wiasgetimageinformation.md">wiasGetImageInformation</a>, then that function fills in the remaining members of the MINIDRV_TRANSFER_CONTEXT passed to it.
 
 Because the WIA service currently uses only the TYMED_FILE and TYMED_CALLBACK constants, the <b>tymed</b> and <b>bTransferDataCB</b> members store essentially the same information. For file transfers, when <b>bTransferDataCB</b> is set to <b>FALSE</b>, <b>tymed</b> is set to either TYMED_FILE or TYMED_MULTIPAGE_FILE. For memory-callback transfers, when <b>bTransferDataCB</b> is set to <b>TRUE</b>, <b>tymed</b> is set to either TYMED_CALLBACK or TYMED_MULTIPAGE_CALLBACK.
@@ -228,122 +243,261 @@ Because the WIA service currently uses only the TYMED_FILE and TYMED_CALLBACK co
 The <b>hFile</b> member is reserved for use solely by the WIA service. Rather than using this member for file transfers, the minidriver should instead write the data to a buffer, and then call <a href="..\wiamdef\nf-wiamdef-wiaswritepagebuftofile.md">wiasWritePageBufToFile</a> to complete the file transfer.
 
 The minidriver obtains values from specific common or scanner item properties to set the members shown in the following table:
-
+<table>
+<tr>
+<th rowspan="2">Member</th>
+<th>Common or Scanner Item Property</th>
+</tr>
+<tr>
+<th>Used to Set this Member</th>
+</tr>
+<tr>
+<td>
 <b>lWidthInPixels</b>
 
+</td>
+<td>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551615">WIA_IPA_PIXELS_PER_LINE</a>
 
 
+</td>
+</tr>
+<tr>
+<td>
 <b>lLines</b>
 
+</td>
+<td>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551611">WIA_IPA_NUMBER_OF_LINES</a>
 
 
+</td>
+</tr>
+<tr>
+<td>
 <b>lDepth</b>
 
+</td>
+<td>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551546">WIA_IPA_DEPTH</a>
 
 
+</td>
+</tr>
+<tr>
+<td>
 <b>lXRes</b>
 
+</td>
+<td>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552665">WIA_IPS_XRES</a>
 
 
+</td>
+</tr>
+<tr>
+<td>
 <b>lYRes</b>
 
+</td>
+<td>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552673">WIA_IPS_YRES</a>
 
 
+</td>
+</tr>
+<tr>
+<td>
 <b>lCompression</b>
 
+</td>
+<td>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551540">WIA_IPA_COMPRESSION</a>
 
 
+</td>
+</tr>
+<tr>
+<td>
 <b>guidFormatID</b>
 
+</td>
+<td>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551553">WIA_IPA_FORMAT</a>
 
 
+</td>
+</tr>
+<tr>
+<td>
 <b>tymed</b>
 
+</td>
+<td>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551656">WIA_IPA_TYMED</a>
 
 
+</td>
+</tr>
+</table> 
+
 Usually, the minidriver sets the preceding structure members directly from the values of the item properties. An application or the minidriver will have set the item properties earlier. The WIA service fills in its service context, using the property values. The driver can use the values stored in this context for quick reference.
 
 The WIA service sets the following structure members:
-
+<ul>
+<li>
 <b>hFile</b>
 
+</li>
+<li>
 <b>bTransferDataCB</b>
 
+</li>
+<li>
 <b>bClassDrvAllocBuf</b>
 
-Either the minidriver or the <a href="..\wiamdef\nf-wiamdef-wiasgetimageinformation.md">wiasGetImageInformation</a> service library function sets the following structure members:
-
+</li>
+</ul>Either the minidriver or the <a href="..\wiamdef\nf-wiamdef-wiasgetimageinformation.md">wiasGetImageInformation</a> service library function sets the following structure members:
+<ul>
+<li>
 <b>lImageSize</b>
 
+</li>
+<li>
 <b>lHeaderSize</b>
 
+</li>
+<li>
 <b>lItemSize</b>
 
+</li>
+<li>
 <b>cbWidthInBytes</b>
 
-The following members of this structure are used in data transfer callbacks. The WIA service or the minidriver sets these members. In several cases, the value stored in <b>bClassDrvAllocBuf</b> determines whether the WIA service or the minidriver sets the member.
-
+</li>
+</ul>The following members of this structure are used in data transfer callbacks. The WIA service or the minidriver sets these members. In several cases, the value stored in <b>bClassDrvAllocBuf</b> determines whether the WIA service or the minidriver sets the member.
+<table>
+<tr>
+<th>Member</th>
+<th>Set by?</th>
+</tr>
+<tr>
+<td>
 <b>cbOffset</b>
 
+</td>
+<td>
 Minidriver
 
+</td>
+</tr>
+<tr>
+<td>
 <b>lBufferSize</b>
 
+</td>
+<td>
 WIA service or minidriver
 
 If <b>bClassDrvAllocBuf</b> is <b>TRUE</b>, the WIA service sets this member; otherwise, the minidriver sets it.
 
+</td>
+</tr>
+<tr>
+<td>
 <b>lActiveBuffer</b>
 
+</td>
+<td>
 WIA service
 
 The minidriver must not modify this member.
 
+</td>
+</tr>
+<tr>
+<td>
 <b>lNumBuffers</b>
 
+</td>
+<td>
+WIA service
+
+The minidriver must not modify this member.
+
+</td>
+</tr>
+<tr>
+<td>
 <b>pBaseBuffer</b>
 
+</td>
+<td>
+WIA service or minidriver
+
+If <b>bClassDrvAllocBuf</b> is <b>TRUE</b>, the WIA service sets this member; otherwise, the minidriver sets it.
+
+</td>
+</tr>
+<tr>
+<td>
 <b>pTransferBuffer</b>
 
+</td>
+<td>
+WIA service or minidriver
+
+If <b>bClassDrvAllocBuf</b> is <b>TRUE</b>, the WIA service sets this member; otherwise, the minidriver sets it.
+
+</td>
+</tr>
+<tr>
+<td>
 <b>lClientAddress</b>
 
+</td>
+<td>
+WIA service
+
+The minidriver must not modify this member.
+
+</td>
+</tr>
+<tr>
+<td>
 <b>pIWiaMiniDrvCallBack</b>
+
+</td>
+<td>
+WIA service
+
+</td>
+</tr>
+</table> 
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543946">IWiaMiniDrvCallBack::MiniDrvCallback</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543956">IWiaMiniDrv::drvAcquireItemData</a>
-</dt>
-<dt>
+
 <a href="..\wiamdef\nf-wiamdef-wiasgetimageinformation.md">wiasGetImageInformation</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543946">IWiaMiniDrvCallBack::MiniDrvCallback</a>
+
 <a href="..\wiamdef\nf-wiamdef-wiaswritepagebuftofile.md">wiasWritePageBufToFile</a>
-</dt>
-</dl>
- 
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543956">IWiaMiniDrv::drvAcquireItemData</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20MINIDRV_TRANSFER_CONTEXT structure%20 RELEASE:%20(1/17/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20MINIDRV_TRANSFER_CONTEXT structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

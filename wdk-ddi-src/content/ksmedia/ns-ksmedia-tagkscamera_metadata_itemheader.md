@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: B4AC04D7-9F98-41F1-A38D-927F3F3A7699
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKSCAMERA_METADATA_ITEMHEADER, KSCAMERA_METADATA_ITEMHEADER, *PKSCAMERA_METADATA_ITEMHEADER
+ms.keywords: PKSCAMERA_METADATA_ITEMHEADER structure pointer [Streaming Media Devices], tagKSCAMERA_METADATA_ITEMHEADER, ksmedia/KSCAMERA_METADATA_ITEMHEADER, stream.kscamera_metadata_itemheader, KSCAMERA_METADATA_ITEMHEADER structure [Streaming Media Devices], *PKSCAMERA_METADATA_ITEMHEADER, KSCAMERA_METADATA_ITEMHEADER, ksmedia/PKSCAMERA_METADATA_ITEMHEADER, PKSCAMERA_METADATA_ITEMHEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSCAMERA_METADATA_ITEMHEADER
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KSCAMERA_METADATA_ITEMHEADER, *PKSCAMERA_METADATA_ITEMHEADER
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSCAMERA_METADATA_ITEMHEADER
+product: Windows
+targetos: Windows
+req.typenames: *PKSCAMERA_METADATA_ITEMHEADER, KSCAMERA_METADATA_ITEMHEADER
 ---
 
 # tagKSCAMERA_METADATA_ITEMHEADER structure
 
 
-
 ## -description
+
+
 This structure contains the metadata header information that is filled by the camera driver.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct tagKSCAMERA_METADATA_ITEMHEADER {
@@ -54,6 +64,9 @@ typedef struct tagKSCAMERA_METADATA_ITEMHEADER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field MetadataId
 
@@ -66,4 +79,8 @@ Set to <b>sizeof(KSCAMERA_METADATA_ITEMHEADER)</b> + the size of the metadata pa
 
 
 ## -remarks
-This structure along with the metadata payload that follows must be 8-byte aligned.</p>
+
+
+This structure along with the metadata payload that follows must be 8-byte aligned.
+
+

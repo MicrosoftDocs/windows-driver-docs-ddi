@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2f26ff14-dd2c-4e80-aea5-38a7dd16d904
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: GetSecurityUserInfo
+ms.keywords: ifsk.getsecurityuserinfo, IFSMiscRef_e375e4a8-9702-41b8-b848-0dcbc0a7d9bd.xml, ntifs/GetSecurityUserInfo, GetSecurityUserInfo, GetSecurityUserInfo function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows 2000 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GetSecurityUserInfo
-req.alt-loc: ksecdd.lib,ksecdd.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ksecdd.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ksecdd.lib
+-	ksecdd.dll
+apiname: 
+-	GetSecurityUserInfo
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # GetSecurityUserInfo function
 
 
-
 ## -description
+
+
 The <b>GetSecurityUserInfo</b> function retrieves information about a logon <a href="http://go.microsoft.com/fwlink/p/?linkid=121237">session</a>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS GetSecurityUserInfo(
@@ -55,6 +66,9 @@ NTSTATUS GetSecurityUserInfo(
 
 
 ## -parameters
+
+
+
 
 ### -param LogonId [in, optional]
 
@@ -72,28 +86,53 @@ A pointer to a location which contains a pointer to a <a href="http://go.microso
 
 
 ## -returns
+
+
 <b>GetSecurityUserInfo</b> returns an appropriate NTSTATUS value, such as one of the following.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The SecurityUserData structure, indirectly pointed to by <i>UserInformation</i>, contains the requested user information.
+</dl>
+</td>
+<td width="60%">
+The SecurityUserData structure, indirectly pointed to by <i>UserInformation</i>, contains the requested user information.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NO_SUCH_LOGON_SESSION</b></dt>
-</dl>Indicates that the specified logon session does not exist.
+</dl>
+</td>
+<td width="60%">
+Indicates that the specified logon session does not exist.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This function obtains information about a logon <a href="http://go.microsoft.com/fwlink/p/?linkid=121237">session</a> via  the <a href="http://go.microsoft.com/fwlink/p/?linkid=121238">SecurityUserData</a>  structure.
 
 
+
 ## -see-also
-<dl>
-<dt><a href="http://go.microsoft.com/fwlink/p/?linkid=121239">LsaFreeReturnBuffer</a></dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-mapsecurityerror.md">MapSecurityError</a>
-</dt>
-</dl>
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121239">LsaFreeReturnBuffer</a>
+
  
 
  

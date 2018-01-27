@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e298ef49-d285-426a-9028-78f7f54340b2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VIDEO_CHILD_STATE_CONFIGURATION, *PVIDEO_CHILD_STATE_CONFIGURATION, VIDEO_CHILD_STATE_CONFIGURATION
+ms.keywords: VIDEO_CHILD_STATE_CONFIGURATION, video/PVIDEO_CHILD_STATE_CONFIGURATION, PVIDEO_CHILD_STATE_CONFIGURATION, video/VIDEO_CHILD_STATE_CONFIGURATION, _VIDEO_CHILD_STATE_CONFIGURATION, VIDEO_CHILD_STATE_CONFIGURATION structure [Display Devices], *PVIDEO_CHILD_STATE_CONFIGURATION, display.video_child_state_configuration, PVIDEO_CHILD_STATE_CONFIGURATION structure pointer [Display Devices], Video_Structs_22fa1242-c537-4cae-ab47-b7e972e24d09.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VIDEO_CHILD_STATE_CONFIGURATION
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-req.typenames: *PVIDEO_CHILD_STATE_CONFIGURATION, VIDEO_CHILD_STATE_CONFIGURATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	video.h
+apiname: 
+-	VIDEO_CHILD_STATE_CONFIGURATION
+product: Windows
+targetos: Windows
+req.typenames: VIDEO_CHILD_STATE_CONFIGURATION, *PVIDEO_CHILD_STATE_CONFIGURATION
 req.product: Windows 10 or later.
 ---
 
 # _VIDEO_CHILD_STATE_CONFIGURATION structure
 
 
-
 ## -description
+
+
 The VIDEO_CHILD_STATE_CONFIGURATION structure contains an array of <a href="..\video\ns-video-_video_child_state.md">VIDEO_CHILD_STATE</a> structures, each holding the state of a particular child device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _VIDEO_CHILD_STATE_CONFIGURATION {
@@ -55,6 +65,9 @@ typedef struct _VIDEO_CHILD_STATE_CONFIGURATION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Count
 
@@ -67,30 +80,33 @@ Is an array of <a href="..\video\ns-video-_video_child_state.md">VIDEO_CHILD_STA
 
 
 ## -remarks
-The video port driver sends a VIDEO_CHILD_STATE_CONFIGURATION structure to the miniport driver for the following IOCTLs:
 
+
+The video port driver sends a VIDEO_CHILD_STATE_CONFIGURATION structure to the miniport driver for the following IOCTLs:
+<ul>
+<li>
 
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_validate_child_state_configuration.md">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a>, in which the video port driver queries the miniport driver to determine whether the specified state for each child device in <b>ChildStateArray</b> is valid.
 
+</li>
+<li>
 
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_set_child_state_configuration.md">IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION</a>, in which the video port driver requests the miniport driver to make the specified state change for each child device in <b>ChildStateArray</b>.
 
+</li>
+</ul>
+
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\video\ns-video-_video_child_state.md">VIDEO_CHILD_STATE</a>
-</dt>
-<dt>
-<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
-</dt>
-<dt>
+
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_validate_child_state_configuration.md">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a>
-</dt>
-<dt>
+
+<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
+
+<a href="..\video\ns-video-_video_child_state.md">VIDEO_CHILD_STATE</a>
+
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_set_child_state_configuration.md">IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION</a>
-</dt>
-</dl>
+
  
 
  

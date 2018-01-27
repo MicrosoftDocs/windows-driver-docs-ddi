@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6d9b0473-544f-43aa-9358-ec51d84d45d9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_GETPRESENTHISTORY, D3DKMT_GETPRESENTHISTORY
+ms.keywords: display.d3dkmt_getpresenthistory, OpenGL_Structs_966946a8-3611-4c25-a57f-1fc99c2004d0.xml, D3DKMT_GETPRESENTHISTORY, D3DKMT_GETPRESENTHISTORY structure [Display Devices], d3dkmthk/D3DKMT_GETPRESENTHISTORY, _D3DKMT_GETPRESENTHISTORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_GETPRESENTHISTORY
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_GETPRESENTHISTORY
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_GETPRESENTHISTORY
 ---
 
 # _D3DKMT_GETPRESENTHISTORY structure
 
 
-
 ## -description
+
+
 The D3DKMT_GETPRESENTHISTORY structure describes the state of copying history.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_GETPRESENTHISTORY {
@@ -57,6 +67,9 @@ typedef struct _D3DKMT_GETPRESENTHISTORY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hAdapter
 
@@ -91,18 +104,12 @@ Supported in Windows 7 and later versions.
 [out] The number of tokens that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetpresenthistory.md">D3DKMTGetPresentHistory</a> function copies to the buffer that the <b>pTokens</b> member points to. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetpresenthistory.md">D3DKMTGetPresentHistory</a>
-</dt>
-</dl>
+
  
 
  

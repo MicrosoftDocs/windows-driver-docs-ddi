@@ -7,8 +7,8 @@ old-location: netvista\ndisimcancelinitializedeviceinstance.htm
 old-project: netvista
 ms.assetid: 809ffee1-b087-4bf0-ba8a-1ac0b2d02f2f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: NdisIMCancelInitializeDeviceInstance
+ms.date: 1/18/2018
+ms.keywords: NdisIMCancelInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], intermediate_ref_4cdce462-8c79-46ad-aa3e-68a0f9b72ef1.xml, NdisIMCancelInitializeDeviceInstance, ndis/NdisIMCancelInitializeDeviceInstance, netvista.ndisimcancelinitializedeviceinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see     
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NdisIMCancelInitializeDeviceInstance
-req.alt-loc: ndis.lib,ndis.dll
 req.ddi-compliance: Irql_IM_Function
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,35 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ndis.lib
+-	ndis.dll
+apiname: 
+-	NdisIMCancelInitializeDeviceInstance
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisIMCancelInitializeDeviceInstance function
 
 
-
 ## -description
+
+
 The 
   <b>NdisIMCancelInitializeDeviceInstance</b> function cancels a preceding call to the 
-  <a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
-  NdisIMInitializeDeviceInstanceEx</a> function.
-
+  <mshelp:link keywords="netvista.ndisiminitializedeviceinstanceex" tabindex="0"><b>
+  NdisIMInitializeDeviceInstanceEx</b></mshelp:link> function.
 
 
 ## -syntax
+
 
 ````
 NDIS_STATUS NdisIMCancelInitializeDeviceInstance(
@@ -58,11 +69,14 @@ NDIS_STATUS NdisIMCancelInitializeDeviceInstance(
 
 ## -parameters
 
+
+
+
 ### -param DriverHandle [in]
 
 The miniport driver handle that the 
-     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
-     NdisMRegisterMiniportDriver</a> function returned at the 
+     <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
+     NdisMRegisterMiniportDriver</b></mshelp:link> function returned at the 
      <i>NdisMiniportDriverHandle</i> parameter.
 
 
@@ -77,16 +91,21 @@ A pointer to an NDIS_STRING type that describes a caller-initialized counted str
 
 
 ## -returns
+
+
 <b>NdisIMCancelInitializeDeviceInstance</b> returns NDIS_STATUS_SUCCESS if it canceled the preceding call
      to 
      <b>NdisIMInitializeDeviceInstanceEx</b>. Otherwise, it returns NDIS_STATUS_FAILURE if there is no way to
      stop the initialization operation for the virtual miniport.
 
 
+
 ## -remarks
+
+
 An intermediate driver calls the 
-    <a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
-    NdisIMInitializeDeviceInstanceEx</a> function to initiate the initialization operation for a virtual
+    <mshelp:link keywords="netvista.ndisiminitializedeviceinstanceex" tabindex="0"><b>
+    NdisIMInitializeDeviceInstanceEx</b></mshelp:link> function to initiate the initialization operation for a virtual
     miniports.Before NDIS calls the driver's 
     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function, the
     driver can call 
@@ -96,25 +115,21 @@ An intermediate driver calls the
     driver.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
-   NdisIMInitializeDeviceInstanceEx</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
- 
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<mshelp:link keywords="netvista.ndisiminitializedeviceinstanceex" tabindex="0"><b>
+   NdisIMInitializeDeviceInstanceEx</b></mshelp:link>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisIMCancelInitializeDeviceInstance function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisIMCancelInitializeDeviceInstance function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

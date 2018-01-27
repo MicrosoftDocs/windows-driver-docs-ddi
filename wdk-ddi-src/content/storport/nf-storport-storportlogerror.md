@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f653e6bf-e99b-4aa2-aa54-d7482d326720
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortLogError
+ms.keywords: StorPortLogError, storport/StorPortLogError, storage.storportlogerror, StorPortLogError routine [Storage Devices], storprt_0eb9851c-bfce-49aa-a22b-3d16a72b3dde.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortLogError
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: StorPortDeprecated
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortLogError
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortLogError function
 
 
-
 ## -description
+
+
 The <b>StorPortLogError</b> routine notifies the port driver that an error occurred. 
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API VOID StorPortLogError(
@@ -60,6 +71,9 @@ STORPORT_API VOID StorPortLogError(
 
 
 ## -parameters
+
+
+
 
 ### -param HwDeviceExtension [in]
 
@@ -89,7 +103,6 @@ Identifies the logical unit number of the target device.
 ### -param ErrorCode [in]
 
 Specifies an error code indicating one of the following values as the type of error.
-
 <table>
 <tr>
 <th>Value</th>
@@ -195,8 +208,7 @@ Indicates that a target disconnected unexpectedly.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param UniqueId [in]
@@ -205,30 +217,31 @@ Specifies a unique identifier for the error. This value differentiates the curre
 
 
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 The port driver will log an error to the system event log.
 
-Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
+Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-</dt>
-<dt>
-<a href="..\srb\nf-srb-scsiportlogerror.md">ScsiPortLogError</a>
-</dt>
-<dt>
-<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
-</dt>
-<dt>
+
 <a href="..\storport\nf-storport-storportlogsystemevent.md">StorPortLogSystemEvent</a>
-</dt>
-</dl>
+
+<a href="..\srb\nf-srb-scsiportlogerror.md">ScsiPortLogError</a>
+
  
 
  

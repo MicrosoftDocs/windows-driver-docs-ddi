@@ -7,8 +7,8 @@ old-location: print\ixpspartiterator_next.htm
 old-project: print
 ms.assetid: ac54ac59-4144-4449-a732-b9da16338ddf
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IXpsPartIterator, IXpsPartIterator::Next, Next
+ms.date: 1/18/2018
+ms.keywords: filterpipeline_1e70f932-105f-4d9f-ace3-78f687f446c6.xml, print.ixpspartiterator_next, IXpsPartIterator::Next, IXpsPartIterator, Next method [Print Devices], IXpsPartIterator interface, IXpsPartIterator interface [Print Devices], Next method, Next, Next method [Print Devices], filterpipeline/IXpsPartIterator::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IXpsPartIterator.Next
-req.alt-loc: Filterpipeline.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: Filterpipeline.idl
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Filterpipeline.h
+apiname: 
+-	IXpsPartIterator.Next
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # IXpsPartIterator::Next method
 
 
-
 ## -description
+
+
 The <code>Next</code> method advances the iterator to the next part.
 
 
-
 ## -syntax
+
 
 ````
 void STDMETHODCALLTYPE Next(
@@ -54,11 +64,17 @@ void STDMETHODCALLTYPE Next(
 
 ## -parameters
 
-### -param None 
+
+
+
+
+#### - None
+
 
 
 ## -returns
+
+
 None
 
 
-## -remarks

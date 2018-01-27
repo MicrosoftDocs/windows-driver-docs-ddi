@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7e4f9610-52f4-4807-94f0-c408ecb0673c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS, DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS
+ms.keywords: DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS structure [Display Devices], display.dxgi_ddi_arg_getmultiplaneoverlaycaps, DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS, _DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS, dxgiddi/DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS
-req.alt-loc: Dxgiddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Dxgiddi.h
+apiname: 
+-	DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS
+product: Windows
+targetos: Windows
 req.typenames: DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS
 ---
 
 # _DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS structure
 
 
-
 ## -description
+
+
 Used in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265493">pfnGetMultiPlaneOverlayCaps</a> function to get overlay plane capabilities.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS {
@@ -55,6 +65,9 @@ typedef struct _DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -68,29 +81,27 @@ The Direct3D runtime passed this handle to the driver in the <b>hDrvDevice</b> m
 [in] The zero-based video present network (VidPN) source identification number of the input for which the capabilities are queried.
 
 
-### -field MultiPlaneOverlayCaps
+### -field MultiplaneOverlayCaps
+
+ 
+
+
+
+#### - MultiPlaneOverlayCaps
 
 [out] The overlay plane capabilities, given as a <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_multiplane_overlay_caps.md">DXGI_DDI_MULTIPLANE_OVERLAY_CAPS</a> structure.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
-</dt>
-<dt>
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_multiplane_overlay_caps.md">DXGI_DDI_MULTIPLANE_OVERLAY_CAPS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265493">pfnGetMultiPlaneOverlayCaps</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_multiplane_overlay_caps.md">DXGI_DDI_MULTIPLANE_OVERLAY_CAPS</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+
  
 
  

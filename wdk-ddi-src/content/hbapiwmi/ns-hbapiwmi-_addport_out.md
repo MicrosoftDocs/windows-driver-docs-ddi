@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1946245d-d661-41c9-8f5a-37534bf71890
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _AddPort_OUT, AddPort_OUT, *PAddPort_OUT
+ms.keywords: hbapiwmi/AddPort_OUT, storage.addport_out, PAddPort_OUT, hbapiwmi/PAddPort_OUT, _AddPort_OUT, AddPort_OUT structure [Storage Devices], PAddPort_OUT structure pointer [Storage Devices], structs-Fibre_2a5eecfb-36b6-4358-98d0-0c119b7697f0.xml, *PAddPort_OUT, AddPort_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AddPort_OUT
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: AddPort_OUT, *PAddPort_OUT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	AddPort_OUT
+product: Windows
+targetos: Windows
+req.typenames: *PAddPort_OUT, AddPort_OUT
 ---
 
 # _AddPort_OUT structure
 
 
-
 ## -description
+
+
 The AddPort_OUT structure is used by a WMI provider to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545022">AddPort</a> WMI method to the WMI client.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _AddPort_OUT {
@@ -54,20 +64,18 @@ typedef struct _AddPort_OUT {
 
 ## -struct-fields
 
+
+
+
 ### -field HBAStatus
 
 Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545022">AddPort</a>
-</dt>
-</dl>
+
  
 
  

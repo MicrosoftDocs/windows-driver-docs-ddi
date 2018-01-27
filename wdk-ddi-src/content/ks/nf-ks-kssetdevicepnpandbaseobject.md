@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 269bbb79-c730-4b78-bf46-d502f23f039b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSetDevicePnpAndBaseObject
+ms.keywords: KsSetDevicePnpAndBaseObject function [Streaming Media Devices], ksfunc_eff06a34-a458-4426-972c-6a0fbf0f7846.xml, stream.kssetdevicepnpandbaseobject, ks/KsSetDevicePnpAndBaseObject, KsSetDevicePnpAndBaseObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsSetDevicePnpAndBaseObject
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsSetDevicePnpAndBaseObject
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsSetDevicePnpAndBaseObject function
 
 
-
 ## -description
+
+
 The <b>KsSetDevicePnpAndBaseObject</b> function sets the PnP device object in the device header, which is the next device object on the PnP stack and is the device object that PnP requests are forwarded to if <b>KsDefaultDispatchPnp</b> is used.
 
 
-
 ## -syntax
+
 
 ````
 void KsSetDevicePnpAndBaseObject(
@@ -56,37 +67,43 @@ void KsSetDevicePnpAndBaseObject(
 
 ## -parameters
 
-### -param Header  [in]
+
+
+
+### -param Header [in]
 
 Points to a header previously allocated by <b>KsAllocateDeviceHeader</b> in which to put the PnP device object.
 
 
-### -param PnpDeviceObject  [in]
+### -param PnpDeviceObject [in]
 
 Specifies the PnP device object to place in the device header, overwriting any previously set device object.
 
 
-### -param BaseDevice  [in]
+### -param BaseObject
+
+TBD
+
+
+
+#### - BaseDevice [in]
 
 Specifies the base device object to which this device header is attached. This must be set if <b>KsRecalculateStackDepth</b> is used.
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksrecalculatestackdepth.md">KsRecalculateStackDepth</a>
-</dt>
-</dl>
+
  
 
  

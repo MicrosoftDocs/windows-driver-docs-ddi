@@ -7,8 +7,8 @@ old-location: debugger\getconstantnamewide.htm
 old-project: debugger
 ms.assetid: 743d2f83-905b-4bc9-8e23-b330c3ca7629
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugSymbols3, IDebugSymbols3::GetConstantNameWide, GetConstantNameWide
+ms.date: 1/19/2018
+ms.keywords: GetConstantNameWide, IDebugSymbols3 interface [Windows Debugging], GetConstantNameWide method, IDebugSymbols3, GetConstantNameWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetConstantNameWide, debugger.getconstantnamewide, GetConstantNameWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetConstantNameWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugSymbols3.GetConstantNameWide
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugSymbols3.GetConstantNameWide
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetConstantNameWide method
 
 
-
 ## -description
+
+
 The <b>GetConstantNameWide</b>  method returns the name of the specified constant.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT GetConstantNameWide(
@@ -58,6 +68,9 @@ HRESULT GetConstantNameWide(
 
 
 ## -parameters
+
+
+
 
 ### -param Module [in]
 
@@ -90,16 +103,43 @@ Receives the size in characters of the constant's name.
 
 
 ## -returns
+
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method was successful.
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_FALSE</b></dt>
-</dl>The method was successful. However, the buffer was not large enough for the constant's name and it was truncated.
+</dl>
+</td>
+<td width="60%">
+The method was successful. However, the buffer was not large enough for the constant's name and it was truncated.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
-For more information about symbols, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">Symbols</a>.</p>
+
+
+For more information about symbols, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">Symbols</a>.
+
+

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 595A4177-4A18-48D6-8B5C-D7D2FBD9FE9B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_RESOURCE_FLAGS_0003, D3D12DDI_RESOURCE_FLAGS_0003
+ms.keywords: d3d12umddi/D3D12DDI_RESOURCE_FLAG_0003_RENDER_TARGET, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0003_DEPTH_STENCIL, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0020_VIDEO_DECODE_REFERENCE_ONLY, D3D12DDI_RESOURCE_FLAG_0003_CROSS_ADAPTER, D3D12DDI_RESOURCE_FLAG_0003_NONE, D3D12DDI_RESOURCE_FLAG_0003_DEPTH_STENCIL, D3D12DDI_RESOURCE_FLAG_0022_UNORDERED_ACCESS, d3d12umddi/D3D12DDI_RESOURCE_FLAGS_0003, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0003_NONE, D3D12DDI_RESOURCE_FLAG_0020_VIDEO_DECODE_REFERENCE_ONLY, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0022_UNORDERED_ACCESS, D3D12DDI_RESOURCE_FLAG_0020_CONTENT_PROTECTION, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0003_SIMULTANEOUS_ACCESS, D3D12DDI_RESOURCE_FLAG_0003_SHADER_RESOURCE, D3D12DDI_RESOURCE_FLAG_0003_RENDER_TARGET, D3D12DDI_RESOURCE_FLAG_0003_SIMULTANEOUS_ACCESS, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0020_CONTENT_PROTECTION, D3D12DDI_RESOURCE_FLAGS_0003 enumeration [Display Devices], d3d12umddi/D3D12DDI_RESOURCE_FLAG_0003_SHADER_RESOURCE, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0003_CROSS_ADAPTER, display.d3d12ddi_resource_flags_0003, D3D12DDI_RESOURCE_FLAGS_0003
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_RESOURCE_FLAGS_0003
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDI_RESOURCE_FLAGS_0003
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_RESOURCE_FLAGS_0003
 ---
 
 # D3D12DDI_RESOURCE_FLAGS_0003 enumeration
 
 
-
 ## -description
+
+
 Specifies resource flag values.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D12DDI_RESOURCE_FLAGS_0003 { 
@@ -61,6 +71,9 @@ typedef enum D3D12DDI_RESOURCE_FLAGS_0003 {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D12DDI_RESOURCE_FLAG_0003_NONE
 
@@ -97,7 +110,7 @@ Shader resource.
 Video decode reference only.
 
 
-### -field D3D12DDI_RESOURCE_FLAG_0020_CONTENT_PROTECTION 
+### -field D3D12DDI_RESOURCE_FLAG_0020_CONTENT_PROTECTION
 
 Content protection.
 
@@ -106,5 +119,3 @@ Content protection.
 
 Unordered access. This value is available as a resource flag for the fallback plans.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b020b06c-72e2-4322-a5db-fcfc46db429e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_CREATEOVERLAY, D3DKMT_CREATEOVERLAY
+ms.keywords: display.d3dkmt_createoverlay, _D3DKMT_CREATEOVERLAY, OpenGL_Structs_0e2cd78f-0999-48a3-8a7d-329ddb46b46f.xml, D3DKMT_CREATEOVERLAY, d3dkmthk/D3DKMT_CREATEOVERLAY, D3DKMT_CREATEOVERLAY structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_CREATEOVERLAY
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_CREATEOVERLAY
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_CREATEOVERLAY
 ---
 
 # _D3DKMT_CREATEOVERLAY structure
 
 
-
 ## -description
+
+
 The D3DKMT_CREATEOVERLAY structure describes overlay hardware.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_CREATEOVERLAY {
@@ -56,6 +66,9 @@ typedef struct _D3DKMT_CREATEOVERLAY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field VidPnSourceId
 
@@ -77,18 +90,12 @@ typedef struct _D3DKMT_CREATEOVERLAY {
 [out] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the kernel-mode overlay object, which represents the overlay hardware in subsequent calls by the OpenGl ICD.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_kerneloverlayinfo.md">D3DDDI_KERNELOVERLAYINFO</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreateoverlay.md">D3DKMTCreateOverlay</a>
-</dt>
-</dl>
+
  
 
  

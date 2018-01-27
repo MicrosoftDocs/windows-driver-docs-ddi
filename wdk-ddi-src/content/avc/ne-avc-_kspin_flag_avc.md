@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 45a85718-8997-4c54-b283-e26247866735
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _KSPIN_FLAG_AVC, KSPIN_FLAG_AVC
+ms.keywords: KSPIN_FLAG_AVC_PCRONLY, avc/KSPIN_FLAG_AVC_PCRONLY, avc/KSPIN_FLAG_AVCMASK, KSPIN_FLAG_AVC_PERMANENT, KSPIN_FLAG_AVC_CONNECTED, avcref_9fab0898-b113-4d2f-ae4a-8cc6b01217d9.xml, stream.kspin_flag_avc, KSPIN_FLAG_AVC enumeration [Streaming Media Devices], _KSPIN_FLAG_AVC, KSPIN_FLAG_AVCMASK, avc/KSPIN_FLAG_AVC_PERMANENT, KSPIN_FLAG_AVC_FIXEDPCR, avc/KSPIN_FLAG_AVC_FIXEDPCR, KSPIN_FLAG_AVC, avc/KSPIN_FLAG_AVC, avc/KSPIN_FLAG_AVC_CONNECTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPIN_FLAG_AVC
-req.alt-loc: avc.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	avc.h
+apiname: 
+-	KSPIN_FLAG_AVC
+product: Windows
+targetos: Windows
 req.typenames: KSPIN_FLAG_AVC
 ---
 
 # _KSPIN_FLAG_AVC enumeration
 
 
-
 ## -description
+
+
 The KSPIN_FLAG_AVC enumeration type is used for connection management and in the <b>AVC_FUNCTION_GET_CONNECTINFO</b> function code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _KSPIN_FLAG_AVC { 
@@ -57,6 +67,9 @@ typedef enum _KSPIN_FLAG_AVC {
 
 
 ## -enum-fields
+
+
+
 
 ### -field KSPIN_FLAG_AVCMASK
 
@@ -84,18 +97,18 @@ Represents a permanent connection between a subunit plug and a unit (serial bus)
 
 
 ## -remarks
+
+
 These bit flags are used by the intersect handler to determine plug compatibility, as well as to indicate whether the intersect handler is responsible for obtaining a plug handle from <i>61883.sys</i>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554154">AVC_FUNCTION_GET_CONNECTINFO</a>
-</dt>
-<dt>
+
 <a href="..\avc\nc-avc-pfnavcintersecthandler.md">AV/C Intersect Handler</a>
-</dt>
-</dl>
+
  
 
  

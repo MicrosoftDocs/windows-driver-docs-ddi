@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: eb482764-3a78-498b-985c-1efc77000291
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GdiStartPageEMF
+ms.keywords: smartcrd.ioctl_smartcard_get_last_error, IOCTL_SMARTCARD_GET_LAST_ERROR control code [Smart Card Reader Devices], IOCTL_SMARTCARD_GET_LAST_ERROR, winsmcrd/IOCTL_SMARTCARD_GET_LAST_ERROR, scioctls_f53172a6-95cb-4d50-9a2b-bccc623bf85b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IOCTL_SMARTCARD_GET_LAST_ERROR
-req.alt-loc: Winsmcrd.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,27 +29,45 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Winsmcrd.h
+apiname: 
+-	IOCTL_SMARTCARD_GET_LAST_ERROR
+product: Windows
+targetos: Windows
+req.typenames: *PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME
 req.product: Windows 10 or later.
 ---
 
 # IOCTL_SMARTCARD_GET_LAST_ERROR IOCTL
 
 
+##  Major Code: 
+
+
+[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 
 ## -description
 
+
+
 The IOCTL_SMARTCARD_GET_LAST_ERROR request retrieves the error code of the most previous operation because there is no option to return an error code immediately after an overlapped operation is complete.
 
-
-
-The IOCTL_SMARTCARD_GET_LAST_ERROR request retrieves the error code of the most previous operation because there is no option to return an error code immediately after an overlapped operation is complete.
 
 
 
 ## -ioctlparameters
 
+
+
+
 ### -input-buffer
+
 <i>DiocParams-&gt;cbOutBuffer</i>
 
 Contains the size of the output buffer. Must be at least <b>sizeof</b>(ULONG).
@@ -59,9 +75,13 @@ Contains the size of the output buffer. Must be at least <b>sizeof</b>(ULONG).
 
 ### -input-buffer-length
 
+
 <text></text>
 
+
+
 ### -output-buffer
+
 <i>DiocParams-&gt;lpvOutBuffer</i>
 
 Receives the error code.
@@ -73,32 +93,36 @@ Must be set to <b>sizeof</b>(ULONG).
 
 ### -output-buffer-length
 
+
 <text></text>
+
+
 
 ### -in-out-buffer
 
+
 <text></text>
+
+
 
 ### -inout-buffer-length
 
+
 <text></text>
 
+
+
 ### -status-block
-I/O Status block
+
 <b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful, and must be returned when using this IOCTL. 
 
 Be aware that when your driver uses the smart card driver library, you should store the result of the most previously overlapped operation in the smart card extension. ion. The library will use your stored value to answer this call automatically.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\winsmcrd\ni-winsmcrd-ioctl_smartcard_get_state.md">IOCTL_SMARTCARD_GET_STATE</a>
-</dt>
-</dl>
+
  
 
  

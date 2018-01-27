@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 355A600E-F207-4A3F-80AE-EA2DAE810DA3
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: _ACPI_EVAL_OUTPUT_BUFFER_V2, ACPI_EVAL_OUTPUT_BUFFER_V2, *PACPI_EVAL_OUTPUT_BUFFER_V2
+ms.keywords: ACPI_EVAL_OUTPUT_BUFFER_V2 structure [ACPI Devices], acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V2, acpi.acpi_eval_output_buffer_v2, *PACPI_EVAL_OUTPUT_BUFFER_V2, ACPI_EVAL_OUTPUT_BUFFER_V2, _ACPI_EVAL_OUTPUT_BUFFER_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709 and later versions.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ACPI_EVAL_OUTPUT_BUFFER_V2
-req.alt-loc: Acpiioct.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Acpiioct.h
+apiname: 
+-	ACPI_EVAL_OUTPUT_BUFFER_V2
+product: Windows
+targetos: Windows
 req.typenames: ACPI_EVAL_OUTPUT_BUFFER_V2
 ---
 
 # _ACPI_EVAL_OUTPUT_BUFFER_V2 structure
 
 
-
 ## -description
+
+
 This topic describes the  <b>ACPI_EVAL_OUTPUT_BUFFER_V2</b> structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ACPI_EVAL_OUTPUT_BUFFER_V2 {
@@ -56,6 +66,9 @@ typedef struct _ACPI_EVAL_OUTPUT_BUFFER_V2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Signature
 
@@ -72,9 +85,13 @@ Defines the <b>ULONG</b> member <b>Length</b>.
 Defines the <b>ULONG</b> member <b>Count</b>.
 
 
-### -field Argument[ANYSIZE_ARRAY]
+### -field Argument
+
+ 
+
+
+
+#### - Argument[ANYSIZE_ARRAY]
 
 Defines the <b>ACPI_METHOD_ARGUMENT_V2</b> member <b>Argument[ANYSIZE_ARRAY]</b>.
 
-
-## -remarks

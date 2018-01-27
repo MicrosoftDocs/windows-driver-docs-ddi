@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: C16DE51F-6552-4379-B866-D7653B1BA9F2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: eEngineFormatType, eEngineFormatType
+ms.keywords: eEngineFormatType enumeration [Audio Devices], portcls/eSupportedDeviceFormats, eMixFormat, portcls/eDeviceFormat, eEngineFormatType, eSupportedDeviceFormats, portcls/eMixFormat, audio.eengineformattype, portcls/eEngineFormatType, eDeviceFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: eEngineFormatType
-req.alt-loc: Portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Portcls.h
+apiname: 
+-	eEngineFormatType
+product: Windows
+targetos: Windows
 req.typenames: eEngineFormatType
 ---
 
 # eEngineFormatType enumeration
 
 
-
 ## -description
+
+
 The <b>eEngineFormatType</b> enumeration defines constants that specify the audio data type supported by the audio engine.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _eEngineFormatType { 
@@ -55,6 +65,9 @@ typedef enum _eEngineFormatType {
 
 
 ## -enum-fields
+
+
+
 
 ### -field eMixFormat
 
@@ -71,15 +84,10 @@ Indicates the default data format for the audio adapter.
 Indicates all the data formats supported by the audio adapter.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265082">GetEngineFormatSize</a>
-</dt>
-</dl>
+
  
 
  

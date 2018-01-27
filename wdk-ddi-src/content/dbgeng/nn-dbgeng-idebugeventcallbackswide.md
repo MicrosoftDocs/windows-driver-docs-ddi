@@ -7,8 +7,8 @@ old-location: debugger\idebugeventcallbackswide.htm
 old-project: debugger
 ms.assetid: 717fad3a-91b1-41c8-ac71-e9ea52533efd
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugSystemObjects4, IDebugSystemObjects4::SetImplicitThreadDataOffset, SetImplicitThreadDataOffset
+ms.date: 1/19/2018
+ms.keywords: debugger.idebugeventcallbackswide, IDebugEventCallbacksWide interface [Windows Debugging], IDebugEventCallbacksWide interface [Windows Debugging], described, IDebugEventCallbacksWide, dbgeng/IDebugEventCallbacksWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugEventCallbacksWide
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,55 +26,33 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugEventCallbacksWide
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacksWide interface
 
 
-
 ## -description
 
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugEventCallbacksWide</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IDebugEventCallbacksWide</b> also has these types of members:
 
-The <b>IDebugEventCallbacksWide</b> interface has these methods.
-
- This method is called by the engine when the target issues a breakpoint exception.
-
-This method is called by the engine when it makes or detects changes to the target.
-
-This method is called by the engine when its state has changed.
-
-This method is called by the engine when the symbol state changes.
-
-This method is called by the engine when a create-process debugging event occurs in the target.
-
-This method is called by the engine when a create-thread debugging event occurs in the target.
-
-This method is called by the engine when an exception debugging event occurs in the target.
-
-This method is called by the engine when an exit-process debugging event occurs in the target.
-
-This method is called by the engine when an exit-thread debugging event occurs in the target.
-
-This method is called to determine which events the <b>IDebugEventCallbacksWide</b> object is interested in.
-
-This method is called by the engine when a module-load debugging event occurs in the target.
-
-This method is called by the engine when a change occurs in the debugger session.
-
-This method is called by the engine when a system error occurs in the target.
-
-This method is called by the engine when a module-unload debugging event occurs in the target.
-
- 
 
 
 ## -members
+
 The <b>IDebugEventCallbacksWide</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -239,5 +215,3 @@ This method is called by the engine when a module-unload debugging event occurs 
 
  
 
-
-## -remarks

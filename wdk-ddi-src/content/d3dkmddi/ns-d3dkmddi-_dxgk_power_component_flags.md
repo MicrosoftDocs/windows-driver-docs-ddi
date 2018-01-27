@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aa8cce5b-d582-4c5b-99e2-fad1f0e80128
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_POWER_COMPONENT_FLAGS, DXGK_POWER_COMPONENT_FLAGS
+ms.keywords: d3dkmddi/DXGK_POWER_COMPONENT_FLAGS, DXGK_POWER_COMPONENT_FLAGS, DXGK_POWER_COMPONENT_FLAGS structure [Display Devices], display.dxgk_power_component_flags, _DXGK_POWER_COMPONENT_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_POWER_COMPONENT_FLAGS
-req.alt-loc: D3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmddi.h
+apiname: 
+-	DXGK_POWER_COMPONENT_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_POWER_COMPONENT_FLAGS
 ---
 
 # _DXGK_POWER_COMPONENT_FLAGS structure
 
 
-
 ## -description
+
+
 Describes state transition information about a power component.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_POWER_COMPONENT_FLAGS {
@@ -61,6 +71,9 @@ typedef struct _DXGK_POWER_COMPONENT_FLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Reserved0
 
@@ -81,6 +94,16 @@ If set, indicates that the Windows power management framework will place a regis
 If set, during a Dx transition the power manager places the component into the F0 state before it dispatches a Dx IRP to the device stack. The power manager keeps the component in the F0 state until the D0 IRP is completed.
 
 
+### -field NoDebounce
+
+ 
+
+
+### -field ActiveInD3
+
+ 
+
+
 ### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of the 32-bit <b>Value</b> member to zeros.
@@ -91,15 +114,10 @@ This member is reserved and should be set to zero. Setting this member to zero i
 A member in the union that <b>DXGK_POWER_COMPONENT_FLAGS</b> contains that can hold a 32-bit value that identifies information about the power component.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_completefstatetransition.md">DxgkCbCompleteFStateTransition</a>
-</dt>
-</dl>
+
  
 
  

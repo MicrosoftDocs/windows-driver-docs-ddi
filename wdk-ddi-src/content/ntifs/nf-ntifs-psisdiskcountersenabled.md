@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E4626CF9-5E76-4C48-9B38-274178E41E30
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PsIsDiskCountersEnabled
+ms.keywords: PsIsDiskCountersEnabled routine [Installable File System Drivers], ntifs/PsIsDiskCountersEnabled, ifsk.psisdiskcountersenabled, PsIsDiskCountersEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PsIsDiskCountersEnabled
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	PsIsDiskCountersEnabled
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # PsIsDiskCountersEnabled function
 
 
-
 ## -description
+
+
 The enabled state of the per process disk I/O counters is returned by the <b>PsIsDiskCountersEnabled</b> routine.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN PsIsDiskCountersEnabled(void);
@@ -53,24 +63,27 @@ BOOLEAN PsIsDiskCountersEnabled(void);
 ## -parameters
 
 
+
+
+
 ## -returns
-If TRUE, the disk
+
 
 If TRUE, the disk
 
-If TRUE, the disk
 
 
 ## -remarks
+
+
 A file system driver uses the <b>PsIsDiskCountersEnabled</b> routine to query the system enabled  state of the disk I/O  counters. A file system driver will use this routine prior to accounting for process disk I/O using <a href="..\ntifs\nf-ntifs-psupdatediskcounters.md">PsUpdateDiskCounters</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-psupdatediskcounters.md">PsUpdateDiskCounters</a>
-</dt>
-</dl>
+
  
 
  

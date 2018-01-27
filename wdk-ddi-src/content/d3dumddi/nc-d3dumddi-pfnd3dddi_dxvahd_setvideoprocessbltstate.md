@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6796372c-279d-427c-a2a4-9b7c99494f53
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.setvideoprocessbltstate, SetVideoProcessBltState callback function [Display Devices], SetVideoProcessBltState, PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE, PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE, d3dumddi/SetVideoProcessBltState, UserModeDisplayDriver_Functions_58620a09-f079-4bd2-8eb9-ac619d83f20d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: SetVideoProcessBltState is supported beginning with t
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetVideoProcessBltState
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	SetVideoProcessBltState
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE callback
 
 
-
 ## -description
+
+
 The <i>SetVideoProcessBltState</i> function sets the state of a bit-block transfer (bitblt) for a video processor. 
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE SetVideoProcessBltState;
@@ -58,37 +68,69 @@ __checkReturn HRESULT APIENTRY SetVideoProcessBltState(
 
 ## -parameters
 
-### -param hDevice [in]
-
- A handle to the display device (graphics context).
 
 
-### -param pData [in]
+
+### -param HANDLE
+
+
+
+### -param *
+
+
+
+
+
+
+#### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a> structure that describes how to change the bitblt state. 
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
 ## -returns
+
+
 <i>SetVideoProcessBltState</i> returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The bitblt state is successfully set. 
+</dl>
+</td>
+<td width="60%">
+The bitblt state is successfully set. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_OUTOFMEMORY</b></dt>
-</dl><i>SetVideoProcessBltState</i> could not allocate the required memory for it to complete.
+</dl>
+</td>
+<td width="60%">
+<i>SetVideoProcessBltState</i> could not allocate the required memory for it to complete.
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A482CCB8-D7C6-48B6-900D-73CD0EF3B296
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDevicePostEvent
+ms.keywords: WdfDevicePostEvent, WdfDevicePostEvent function, wdfdevice/WdfDevicePostEvent, wdf.wdfdevicepostevent, PFN_WDFDEVICEPOSTEVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 2.0
-req.alt-api: WdfDevicePostEvent
-req.alt-loc: WUDFx02000.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	WUDFx02000.dll
+apiname: 
+-	WdfDevicePostEvent
+product: Windows
+targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # WdfDevicePostEvent function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>WdfDevicePostEvent</b> method asynchronously notifies applications that are waiting for the       specified event from a driver.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS WdfDevicePostEvent(
@@ -60,6 +70,9 @@ NTSTATUS WdfDevicePostEvent(
 
 
 ## -parameters
+
+
+
 
 ### -param Device [in]
 
@@ -87,18 +100,35 @@ The size, in bytes, of data that <i>Data</i> points to. Zero is a valid size val
 
 
 ## -returns
+
+
 If the operation succeeds, <b>WdfDevicePostEvent</b> returns STATUS_SUCCESS. Additional return values include:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl><i>WdfEventType</i> is not set to <b>WdfEventBroadcast</b>.
+</dl>
+</td>
+<td width="60%">
+<i>WdfEventType</i> is not set to <b>WdfEventBroadcast</b>.
 
 
- 
+</td>
+</tr>
+</table> 
 
 The method might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
+
 ## -remarks
+
+
 When the driver calls <b>WdfDevicePostEvent</b> to notify the requesting application about an event, UMDF sends the event to the operating system. The operating system sends the event on to the requesting application in an asynchronous operation. If the operating system initially returns no error, <b>WdfDevicePostEvent</b> returns STATUS_SUCCESS.
 
  However, later, if the operating system receives an error while it attempts to deliver the event (possibly because of a low memory condition), the operating system is unable to inform the driver about the error. Because of the asynchronous nature of this event notification, delivery of the event to the requesting application is not guaranteed.
@@ -106,15 +136,13 @@ When the driver calls <b>WdfDevicePostEvent</b> to notify the requesting applica
  If event information is lost on its way up to the requesting application, the application should be able to recover from the lost event. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_event_type.md">WDF_EVENT_TYPE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558835">IWDFDevice::PostEvent</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0503b382-8ed3-461e-906f-27953ac5f757
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.getvideoprocessstreamstateprivate, GetVideoProcessStreamStatePrivate callback function [Display Devices], GetVideoProcessStreamStatePrivate, PFND3DDDI_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE, PFND3DDDI_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE, d3dumddi/GetVideoProcessStreamStatePrivate, UserModeDisplayDriver_Functions_1016a4a3-3988-40ef-9ef9-f62a20651aaa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: GetVideoProcessStreamStatePrivate is supported beginn
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GetVideoProcessStreamStatePrivate
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	GetVideoProcessStreamStatePrivate
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE callback
 
 
-
 ## -description
+
+
 The <i>GetVideoProcessStreamStatePrivate</i> function retrieves the private stream-state data for a video processor. 
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE GetVideoProcessStreamStatePrivate;
@@ -58,37 +68,69 @@ __checkReturn HRESULT APIENTRY GetVideoProcessStreamStatePrivate(
 
 ## -parameters
 
-### -param hDevice [in]
-
- A handle to the display device (graphics context).
 
 
-### -param pData [in, out]
+
+### -param HANDLE
+
+
+
+### -param *
+
+
+
+
+
+
+#### - pData [in, out]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessstreamstateprivate.md">D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE</a> structure that describes the private stream-state data to retrieve. 
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
 ## -returns
+
+
 The <i>GetVideoProcessStreamStatePrivate</i> function returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The stream-state data is successfully retrieved. 
+</dl>
+</td>
+<td width="60%">
+The stream-state data is successfully retrieved. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_OUTOFMEMORY</b></dt>
-</dl><i>GetVideoProcessStreamStatePrivate</i> could not allocate the required memory for it to complete.
+</dl>
+</td>
+<td width="60%">
+<i>GetVideoProcessStreamStatePrivate</i> could not allocate the required memory for it to complete.
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessstreamstateprivate.md">D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 43B8202C-6AC1-4596-BA85-FEB9FB0B5746
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_CREATEPROCESSFLAGS, DXGK_CREATEPROCESSFLAGS
+ms.keywords: DXGK_CREATEPROCESSFLAGS structure [Display Devices], d3dkmddi/DXGK_CREATEPROCESSFLAGS, _DXGK_CREATEPROCESSFLAGS, display.dxgk_createprocessflags, DXGK_CREATEPROCESSFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_CREATEPROCESSFLAGS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_CREATEPROCESSFLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_CREATEPROCESSFLAGS
 ---
 
 # _DXGK_CREATEPROCESSFLAGS structure
 
 
-
 ## -description
+
+
 <b>DXGK_CREATEPROCESSFLAGS</b> is used with <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createprocess.md">DXGKARG_CREATEPROCESS</a> and <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a> to create a kernel mode driver object for a Microsoft DirectX graphics kernel process object.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_CREATEPROCESSFLAGS {
@@ -61,6 +71,9 @@ typedef struct _DXGK_CREATEPROCESSFLAGS {
 
 ## -struct-fields
 
+
+
+
 ### -field SystemProcess
 
 Indicates that a system process is being created.
@@ -69,6 +82,11 @@ Indicates that a system process is being created.
 ### -field GdiProcess
 
 Indicates that a GDI process is being created.
+
+
+### -field VirtualMachineProcess
+
+ 
 
 
 ### -field Reserved
@@ -81,18 +99,12 @@ This member is reserved and should be set to zero.
 The consolidated value of the bitfield members of the structure.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createprocess.md">DXGKARG_CREATEPROCESS</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 47db8f0f-9f3b-44d9-8110-dc0b79d0e26a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _PERF_CONFIGURATION_DATA, *PPERF_CONFIGURATION_DATA, PERF_CONFIGURATION_DATA
+ms.keywords: storport/PERF_CONFIGURATION_DATA, PPERF_CONFIGURATION_DATA structure pointer [Storage Devices], *PPERF_CONFIGURATION_DATA, _PERF_CONFIGURATION_DATA, storage.perf_configuration_data, PPERF_CONFIGURATION_DATA, PERF_CONFIGURATION_DATA, PERF_CONFIGURATION_DATA structure [Storage Devices], structs-storport_3ff35217-29b1-43ab-a6e4-72aeaf90e931.xml, storport/PPERF_CONFIGURATION_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PERF_CONFIGURATION_DATA
-req.alt-loc: storport.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PPERF_CONFIGURATION_DATA, PERF_CONFIGURATION_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	storport.h
+apiname: 
+-	PERF_CONFIGURATION_DATA
+product: Windows
+targetos: Windows
+req.typenames: PERF_CONFIGURATION_DATA, *PPERF_CONFIGURATION_DATA
 req.product: Windows 10 or later.
 ---
 
 # _PERF_CONFIGURATION_DATA structure
 
 
-
 ## -description
+
+
 The PERF_CONFIGURATION_DATA structure describes the performance optimizations that are supported by the <a href="..\storport\nf-storport-storportinitializeperfopts.md">StorPortInitializePerfOpts</a> routine.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PERF_CONFIGURATION_DATA {
@@ -63,6 +73,9 @@ typedef struct _PERF_CONFIGURATION_DATA {
 
 ## -struct-fields
 
+
+
+
 ### -field Version
 
 The version number of the structure. Set this member when querying and initializing optimizations.
@@ -77,7 +90,6 @@ The size of the structure, set to <b>sizeof(PERF_CONFIGURATION_DATA)</b>.
 
 A bitwise-OR of supported flags. Currently, the following flags are supported:
 	  
-
 <table>
 <tr>
 <th>Flag</th>
@@ -169,8 +181,7 @@ This flag is valid when <b>Version</b> is set to 5.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field ConcurrentChannels
@@ -204,6 +215,8 @@ When the <b>Flags</b> member has the STOR_PERF_ADV_CONFIG_LOCALITY flag set, Sto
 
 
 ## -remarks
+
+
 The current version of this structure is defined by <b>STOR_PERF_VERSION</b>. Setting <b>Version</b> to this value will allow <b>Flags</b> to specify all  supported optimizations.
 
 The purpose of the STOR_PERF_DPC_REDIRECTION flag is to ensure that individual CPUs are not overwhelmed with DPC processing. When this flag is set, DPC processing is spread over multiple CPUs. If STOR_PERF_DPC_REDIRECTION_CURRENT_CPU is not set, StorPort will attempt to schedule I/O completion DPCs on the same CPU that originated the I/O.
@@ -213,12 +226,11 @@ Typically, a miniport  completes I/O requests in it's <a href="..\storport\nc-st
 For information about enabling message-signaled interrupts for a device, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544246">Enabling Message-Signaled Interrupts in the Registry</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\nf-storport-storportinitializeperfopts.md">StorPortInitializePerfOpts</a>
-</dt>
-</dl>
+
  
 
  

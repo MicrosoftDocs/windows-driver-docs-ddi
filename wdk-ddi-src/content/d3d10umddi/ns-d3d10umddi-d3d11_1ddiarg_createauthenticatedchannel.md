@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0b3a20db-aa03-4017-a10a-ae84a6ed31c8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL, D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
+ms.keywords: D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL structure [Display Devices], d3d10umddi/D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL, display.d3d11_1ddiarg_createauthenticatedchannel, D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
 ---
 
 # D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL structure
 
 
-
 ## -description
+
+
 Specifies the attributes of the authenticated channel to be created by the user-mode driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a> function.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL {
@@ -55,6 +65,9 @@ typedef struct D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL {
 
 ## -struct-fields
 
+
+
+
 ### -field ChannelType
 
 Specifies the type of channel, as a member of the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_authenticated_channel_type.md">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a> enumeration.
@@ -65,18 +78,12 @@ Specifies the type of channel, as a member of the <a href="..\d3d10umddi\ne-d3d1
 A handle to the authenticated channel object.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_authenticated_channel_type.md">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 17ee1a71-2aaf-421d-9ae9-019fe0d2f595
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BRB_SCO_FLUSH_CHANNEL,
+ms.keywords: bltooth._brb_sco_flush_channel, _BRB_SCO_FLUSH_CHANNEL structure [Bluetooth Devices], bth_structs_d2a9941d-7091-402d-87bc-a5da139dfc1f.xml, bthddi/_BRB_SCO_FLUSH_CHANNEL, _BRB_SCO_FLUSH_CHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: _BRB_SCO_FLUSH_CHANNEL
-req.alt-loc: bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthddi.h
+apiname: 
+-	_BRB_SCO_FLUSH_CHANNEL
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # _BRB_SCO_FLUSH_CHANNEL structure
 
 
-
 ## -description
+
+
 The _BRB_SCO_FLUSH_CHANNEL structure describes a flush operation for a SCO channel.
 
 
-
 ## -syntax
+
 
 ````
 struct _BRB_SCO_FLUSH_CHANNEL {
@@ -56,6 +66,9 @@ struct _BRB_SCO_FLUSH_CHANNEL {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Hdr
 
@@ -77,18 +90,27 @@ The handle to the SCO channel to flush.
 ### -field FlushFlags
 
 
-### -field Specifies the direction of the channel to flush. Valid flags may be combined using a logical OR
+
+###### - FlushFlags.Specifies the direction of the channel to flush. Valid flags may be combined using a logical OR
      operation:
 
-### -field SCO_FLUSH_DIRECTION_OUT
-     
 
-### -field SCO_FLUSH_DIRECTION_IN
-     
 
-</dl>
+##### - FlushFlags.SCO_FLUSH_DIRECTION_OUT
+
+
+
+##### - FlushFlags.
+
+
+
+##### - FlushFlags.SCO_FLUSH_DIRECTION_IN
+
+
 
 ## -remarks
+
+
 To flush a SCO channel, profile drivers should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536623">BRB_SCO_FLUSH_CHANNEL</a> request.
@@ -98,15 +120,13 @@ All pending data transfer IRPs will be completed with STATUS_REQUEST_ABORTED. In
     transfer data to or from the remote device.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536623">BRB_SCO_FLUSH_CHANNEL</a>
-</dt>
-</dl>
+
  
 
  

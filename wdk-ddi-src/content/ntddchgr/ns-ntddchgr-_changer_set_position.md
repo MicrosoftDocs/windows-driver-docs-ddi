@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1c71473a-98db-41a1-9ca5-ce59f345b5f7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CHANGER_SET_POSITION, CHANGER_SET_POSITION, *PCHANGER_SET_POSITION
+ms.keywords: CHANGER_SET_POSITION, CHANGER_SET_POSITION structure [Storage Devices], storage.changer_set_position, ntddchgr/PCHANGER_SET_POSITION, ntddchgr/CHANGER_SET_POSITION, PCHANGER_SET_POSITION structure pointer [Storage Devices], structs-changer_ab07ca33-813d-4b35-b5ce-809c63633ce5.xml, PCHANGER_SET_POSITION, _CHANGER_SET_POSITION, *PCHANGER_SET_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CHANGER_SET_POSITION
-req.alt-loc: ntddchgr.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: CHANGER_SET_POSITION, *PCHANGER_SET_POSITION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddchgr.h
+apiname: 
+-	CHANGER_SET_POSITION
+product: Windows
+targetos: Windows
+req.typenames: *PCHANGER_SET_POSITION, CHANGER_SET_POSITION
 ---
 
 # _CHANGER_SET_POSITION structure
 
 
-
 ## -description
+
+
 The CHANGER_SET_POSITION structure is used in conjunction with the<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_position.md">IOCTL_CHANGER_SET_POSITION</a> request to set the changer's robotic transport mechanism to the specified element address.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CHANGER_SET_POSITION {
@@ -55,6 +65,9 @@ typedef struct _CHANGER_SET_POSITION {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Transport
 
@@ -71,24 +84,16 @@ Contains a structure of type <a href="..\ntddchgr\ns-ntddchgr-_changer_element.m
 Indicates, when <b>TRUE</b>, that the <b>Transport</b> should be flipped. When <b>FALSE</b> this member indicates that the transport is not ready to be flipped. This member is applicable only if CHANGER_MEDIUM_FLIP is set in the <b>Features0</b> member of the <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a> structure.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\mcd\nf-mcd-changersetposition.md">ChangerSetPosition</a>
-</dt>
-<dt>
+
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_position.md">IOCTL_CHANGER_SET_POSITION</a>
-</dt>
-<dt>
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
-</dt>
-<dt>
+
+<a href="..\mcd\nf-mcd-changersetposition.md">ChangerSetPosition</a>
+
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
-</dt>
-</dl>
+
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+
  
 
  

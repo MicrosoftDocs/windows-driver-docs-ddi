@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c652268f-4a31-4ec1-a668-8700cb7f4e1b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ISCSI_SessionStaticInfo, *PISCSI_SessionStaticInfo, ISCSI_SessionStaticInfo
+ms.keywords: ISCSI_SessionStaticInfo, PISCSI_SessionStaticInfo structure pointer [Storage Devices], ISCSI_SessionStaticInfo structure [Storage Devices], structs-iSCSI_94ec0954-b409-4acf-8935-7c8dc6b0d095.xml, _ISCSI_SessionStaticInfo, *PISCSI_SessionStaticInfo, PISCSI_SessionStaticInfo, storage.iscsi_sessionstaticinfo, iscsimgt/PISCSI_SessionStaticInfo, iscsimgt/ISCSI_SessionStaticInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ISCSI_SessionStaticInfo
-req.alt-loc: iscsimgt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsimgt.h
+apiname: 
+-	ISCSI_SessionStaticInfo
+product: Windows
+targetos: Windows
 req.typenames: *PISCSI_SessionStaticInfo, ISCSI_SessionStaticInfo
 ---
 
 # _ISCSI_SessionStaticInfo structure
 
 
-
 ## -description
+
+
 The ISCSI_SessionStaticInfo structure provides information about the characteristics of an iSCSI session.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ISCSI_SessionStaticInfo {
@@ -69,6 +79,9 @@ typedef struct _ISCSI_SessionStaticInfo {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UniqueSessionId
 
@@ -108,7 +121,6 @@ A Boolean value that indicates if the initiator and target have agreed to allow 
 ### -field Type
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff561567">ISCSI_SESSION_TYPE_QUALIFIERS</a> enumeration value that specifies the type of logon session.
-
 <table>
 <tr>
 <th>Type</th>
@@ -154,8 +166,7 @@ Session is being used to boot from target.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field DataSequenceInOrder
@@ -205,24 +216,16 @@ The number of connections that currently belong to this session.
 A variable length array of <a href="..\iscsimgt\ns-iscsimgt-_iscsi_connectionstaticinfo.md">ISCSI_ConnectionStaticInfo</a> structures that specifies the static configuration data for each connection that is associated with this session. <b>ConnectionCount</b> indicates the number of elements in the array.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-</dt>
-<dt>
-<a href="..\iscsimgt\ns-iscsimgt-_iscsi_connectionstaticinfo.md">ISCSI_ConnectionStaticInfo</a>
-</dt>
-<dt>
+
 <a href="..\iscsiop\ne-iscsiop-ploginsessiontype.md">LOGINSESSIONTYPE</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-</dt>
-</dl>
+
+<a href="..\iscsimgt\ns-iscsimgt-_iscsi_connectionstaticinfo.md">ISCSI_ConnectionStaticInfo</a>
+
  
 
  

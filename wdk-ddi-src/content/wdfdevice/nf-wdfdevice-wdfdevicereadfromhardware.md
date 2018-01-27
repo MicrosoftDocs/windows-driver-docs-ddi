@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3E9ECB09-39DD-4A16-B096-24AAD96D52E9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceReadFromHardware
+ms.keywords: wdfhwaccess/WdfDeviceReadFromHardware, WdfDeviceReadFromHardware, wdf.wdfdevicereadfromhardware, WdfDeviceReadFromHardware method, PFN_WDFDEVICEREADFROMHARDWARE, wdfdevice/WdfDeviceReadFromHardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.11
 req.umdf-ver: 2.0
-req.alt-api: WdfDeviceReadFromHardware
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfDeviceReadFromHardware
+product: Windows
+targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # WdfDeviceReadFromHardware function
 
 
-
 ## -description
+
+
 The <b>WdfDeviceReadFromHardware</b> method is used internally by the framework. Do not use.
 
 Instead, use the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265662">WDF Register/Port Access Functions</a>.
 
 
-
 ## -syntax
+
 
 ````
 SIZE_T WdfDeviceReadFromHardware(
@@ -62,33 +73,37 @@ SIZE_T WdfDeviceReadFromHardware(
 
 ## -parameters
 
+
+
+
 ### -param Device [in]
+
 
 
 ### -param Type [in]
 
 
+
 ### -param Size [in]
+
 
 
 ### -param TargetAddress [in]
 
 
+
 ### -param Buffer [out, optional]
+
 
 
 ### -param Count [in, optional]
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/19B472D0-D607-4874-ADB9-232C379B0DFD">ReadFromHardware</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 04f01faf-599e-4c62-82ce-c147b4820c8f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _FILE_POSITION_INFORMATION, FILE_POSITION_INFORMATION, *PFILE_POSITION_INFORMATION
+ms.keywords: wdm/PFILE_POSITION_INFORMATION, kstruct_b_5edd5ea9-9229-4764-86aa-24054a1ec9b9.xml, FILE_POSITION_INFORMATION structure [Kernel-Mode Driver Architecture], _FILE_POSITION_INFORMATION, *PFILE_POSITION_INFORMATION, PFILE_POSITION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PFILE_POSITION_INFORMATION, kernel.file_position_information, FILE_POSITION_INFORMATION, wdm/FILE_POSITION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILE_POSITION_INFORMATION
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	FILE_POSITION_INFORMATION
+product: Windows
+targetos: Windows
 req.typenames: FILE_POSITION_INFORMATION, *PFILE_POSITION_INFORMATION
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _FILE_POSITION_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>FILE_POSITION_INFORMATION</b> structure is used as an argument to routines that query or set file information.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILE_POSITION_INFORMATION {
@@ -55,26 +65,29 @@ typedef struct _FILE_POSITION_INFORMATION {
 
 ## -struct-fields
 
+
+
+
 ### -field CurrentByteOffset
 
 The byte offset of the current file pointer.
 
 
 ## -remarks
+
+
 FILE_READ_DATA or FILE_WRITE_DATA access to the file is required to change this information about the file, and the file must be opened for synchronous I/O.
 
 If the file was opened or created with the FILE_NO_INTERMEDIATE_BUFFERING option, the value of <b>CurrentByteOffset</b> must be an integral multiple of the sector size of the underlying device.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
-</dt>
-</dl>
+
  
 
  

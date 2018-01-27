@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: E22C5985-13A8-4A55-A97B-DABD7E475BD3
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: _SECURE_ELEMENT_PROTO_ROUTING_INFO, SECURE_ELEMENT_PROTO_ROUTING_INFO, *PSECURE_ELEMENT_PROTO_ROUTING_INFO
+ms.keywords: _SECURE_ELEMENT_PROTO_ROUTING_INFO, *PSECURE_ELEMENT_PROTO_ROUTING_INFO, nfcsedev/P_SECURE_ELEMENT_PROTO_ROUTING_INFO, SECURE_ELEMENT_PROTO_ROUTING_INFO structure [Near-Field Proximity Drivers], nfcsedev/_SECURE_ELEMENT_PROTO_ROUTING_INFO, P_SECURE_ELEMENT_PROTO_ROUTING_INFO structure pointer [Near-Field Proximity Drivers], PSECURE_ELEMENT_PROTO_ROUTING_INFO, P_SECURE_ELEMENT_PROTO_ROUTING_INFO, nfpdrivers._secure_element_proto_routing_info, SECURE_ELEMENT_PROTO_ROUTING_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SECURE_ELEMENT_PROTO_ROUTING_INFO
-req.alt-loc: nfcsedev.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: SECURE_ELEMENT_PROTO_ROUTING_INFO, *PSECURE_ELEMENT_PROTO_ROUTING_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	nfcsedev.h
+apiname: 
+-	SECURE_ELEMENT_PROTO_ROUTING_INFO
+product: Windows
+targetos: Windows
+req.typenames: *PSECURE_ELEMENT_PROTO_ROUTING_INFO, SECURE_ELEMENT_PROTO_ROUTING_INFO
 ---
 
 # _SECURE_ELEMENT_PROTO_ROUTING_INFO structure
 
 
-
 ## -description
+
+
 SECURE_ELEMENT_PROTO_ROUTING_INFO
  is a member of <a href="..\nfcsedev\ns-nfcsedev-_secure_element_routing_table_entry.md">SECURE_ELEMENT_ROUTING_TABLE_ENTRY</a>. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SECURE_ELEMENT_PROTO_ROUTING_INFO {
@@ -56,6 +66,9 @@ typedef struct _SECURE_ELEMENT_PROTO_ROUTING_INFO {
 
 ## -struct-fields
 
+
+
+
 ### -field guidSecureElementId
 
 Secure element unique identifier returned by enumeration DDI.
@@ -65,5 +78,3 @@ Secure element unique identifier returned by enumeration DDI.
 
 NFC Forum RF protocol.
 
-
-## -remarks

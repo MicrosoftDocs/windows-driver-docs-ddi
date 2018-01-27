@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c834080a-1a0a-4327-b80b-6e5eb3728605
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_SETPOINTERPOSITIONFLAGS, DXGK_SETPOINTERPOSITIONFLAGS
+ms.keywords: _DXGK_SETPOINTERPOSITIONFLAGS, DXGK_SETPOINTERPOSITIONFLAGS, display.dxgk_setpointerpositionflags, DmStructs_57c5d8e6-b270-4423-8d85-5db8103e2492.xml, DXGK_SETPOINTERPOSITIONFLAGS structure [Display Devices], d3dkmddi/DXGK_SETPOINTERPOSITIONFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_SETPOINTERPOSITIONFLAGS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_SETPOINTERPOSITIONFLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_SETPOINTERPOSITIONFLAGS
 ---
 
 # _DXGK_SETPOINTERPOSITIONFLAGS structure
 
 
-
 ## -description
+
+
 The <b>DXGK_SETPOINTERPOSITIONFLAGS</b> structure identifies, in bit-field flags, information about a mouse pointer.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_SETPOINTERPOSITIONFLAGS {
@@ -60,6 +70,9 @@ typedef struct _DXGK_SETPOINTERPOSITIONFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Visible
 
@@ -87,15 +100,10 @@ Supported starting with Windows 8.
 [in] A member in the union that <b>DXGK_SETPOINTERPOSITIONFLAGS</b> contains that can hold one 32-bit value that indicates information about a mouse pointer.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setpointerposition.md">DXGKARG_SETPOINTERPOSITION</a>
-</dt>
-</dl>
+
  
 
  

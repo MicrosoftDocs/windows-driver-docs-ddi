@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 15AA7E06-DD7F-46B4-B2C2-604EA5150F7D
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: _ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, *PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
+ms.keywords: PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, _ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, acpi.acpi_device_information_output_buffer, PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure pointer [ACPI Devices], *PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, acpiioct/PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure [ACPI Devices], acpi.acpi_get_device_information_output_buffer, acpiioct/ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
-req.alt-loc: Acpiioct.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Acpiioct.h
+apiname: 
+-	ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
+product: Windows
+targetos: Windows
 req.typenames: ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, *PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
 ---
 
 # _ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure
 
 
-
 ## -description
+
+
 The ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure contains output arguments from the IOCTL_ACPI_GET_DEVICE_INFORMATION control method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER {
@@ -69,6 +79,9 @@ typedef struct _ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Signature
 
@@ -156,6 +169,8 @@ A number identifying the subclass of the device. See http://pcisig.org for subcl
 
 
 ## -remarks
+
+
 Appended after the ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER are the SubSystemIdString, VendorIdString, and InstanceIdString strings, described as follows:
 
 <b>BYTE[SubVendorStringLength+1] SubSystemIdString</b>
@@ -171,12 +186,11 @@ A string of <b>VendorStringLength</b> in length which contains the device's manu
 A string of <b>InstanceIDLength</b> in length which contains a number that uniquely identifies the device amongst all such devices on the platform (i.e. all devices with the same Vendor, Device, SubsystemVendor and SubsystemDevice IDs.)
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_get_device_information.md">IOCTL_ACPI_GET_DEVICE_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

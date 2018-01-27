@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 455C3FBD-2E0D-4CD7-B753-E53ED58A7F6F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_CREATEPERIODICFRAMENOTIFICATION, DXGKARG_CREATEPERIODICFRAMENOTIFICATION, *INOUT_PDXGKARG_CREATEPERIODICFRAMENOTIFICATION
+ms.keywords: display.dxgkarg_createperiodicframenotification, DXGKARG_CREATEPERIODICFRAMENOTIFICATION, *INOUT_PDXGKARG_CREATEPERIODICFRAMENOTIFICATION, DXGKARG_CREATEPERIODICFRAMENOTIFICATION structure [Display Devices], _DXGKARG_CREATEPERIODICFRAMENOTIFICATION, d3dkmddi/DXGKARG_CREATEPERIODICFRAMENOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_CREATEPERIODICFRAMENOTIFICATION
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_CREATEPERIODICFRAMENOTIFICATION
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_CREATEPERIODICFRAMENOTIFICATION
 ---
 
 # _DXGKARG_CREATEPERIODICFRAMENOTIFICATION structure
 
 
-
 ## -description
+
+
 The arguments needed to create a periodic frame notification.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_CREATEPERIODICFRAMENOTIFICATION {
@@ -58,14 +68,17 @@ typedef struct _DXGKARG_CREATEPERIODICFRAMENOTIFICATION {
 
 ## -struct-fields
 
+
+
+
 ### -field hAdapter
 
 A handle to the adapter associated with VidPnSourceID.
 
 
-### -field VidPnTargetID
+### -field VidPnTargetId
 
-The output that the compositor wishes to receive notifications for.
+ 
 
 
 ### -field Time
@@ -83,4 +96,7 @@ Represents an ID for the notification that will be used to track which interrupt
 A Handle to the notification object, later used to destroy the object.
 
 
-## -remarks
+#### - VidPnTargetID
+
+The output that the compositor wishes to receive notifications for.
+

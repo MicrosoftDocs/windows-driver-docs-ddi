@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 565D8D8D-6EBB-4303-8F7E-E2A4B1DAE4EA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_QUERYSEGMENTMEMORYSTATE, DXGK_SEGMENTMEMORYSTATE, DXGK_QUERYSEGMENTMEMORYSTATE
+ms.keywords: DXGK_SEGMENTMEMORYSTATE, DXGK_QUERYSEGMENTMEMORYSTATE structure [Display Devices], d3dkmddi/DXGK_QUERYSEGMENTMEMORYSTATE, DXGK_QUERYSEGMENTMEMORYSTATE, _DXGK_QUERYSEGMENTMEMORYSTATE, display.dxgk_querysegmentmemorystate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_QUERYSEGMENTMEMORYSTATE
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: DXGK_SEGMENTMEMORYSTATE, DXGK_QUERYSEGMENTMEMORYSTATE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_QUERYSEGMENTMEMORYSTATE
+product: Windows
+targetos: Windows
+req.typenames: DXGK_QUERYSEGMENTMEMORYSTATE, DXGK_SEGMENTMEMORYSTATE
 ---
 
 # _DXGK_QUERYSEGMENTMEMORYSTATE structure
 
 
-
 ## -description
+
+
 <b>DXGK_QUERYSEGMENTMEMORYSTATE</b> is used with <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> to query invalid graphics processing unit (GPU) memory ranges.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_QUERYSEGMENTMEMORYSTATE {
@@ -56,6 +66,14 @@ typedef struct _DXGK_QUERYSEGMENTMEMORYSTATE {
 
 
 ## -struct-fields
+
+
+
+
+### -field NumUEFIFrameBufferRanges
+
+ 
+
 
 ### -field DriverSegmentId
 
@@ -77,21 +95,14 @@ The number of entries in the <b>pMemoryRanges</b> array. This is the value retur
 Array of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_memoryrange.md">DXGK_MEMORYRANGE</a> structures for the invalid memory ranges.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor4.md">DXGK_SEGMENTDESCRIPTOR4</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_memoryrange.md">DXGK_MEMORYRANGE</a>
-</dt>
-</dl>
+
  
 
  

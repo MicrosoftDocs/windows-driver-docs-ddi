@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 85aa1d5e-e660-4fd7-a58d-8d32bbd966f2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _STREAM_INFO, STREAM_INFO, *PSTREAM_INFO
+ms.keywords: buses.evt_ucx_usbdevice_disable, EvtUcxUsbDeviceDisable callback function [Buses], EvtUcxUsbDeviceDisable, EVT_UCX_USBDEVICE_DISABLE, EVT_UCX_USBDEVICE_DISABLE, ucxusbdevice/EvtUcxUsbDeviceDisable, PEVT_UCX_USBDEVICE_DISABLE callback function pointer [Buses], PEVT_UCX_USBDEVICE_DISABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: PEVT_UCX_USBDEVICE_DISABLE
-req.alt-loc: ucxusbdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-req.typenames: STREAM_INFO, *PSTREAM_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ucxusbdevice.h
+apiname: 
+-	PEVT_UCX_USBDEVICE_DISABLE
+product: Windows
+targetos: Windows
+req.typenames: *PSTREAM_INFO, STREAM_INFO
 req.product: Windows 10 or later.
 ---
 
 # EVT_UCX_USBDEVICE_DISABLE callback
 
 
-
 ## -description
+
+
 The client driver's implementation that UCX calls to release controller resources associated with the device and its default endpoint.
 
 
-
 ## -prototype
+
 
 ````
 EVT_UCX_USBDEVICE_DISABLE EvtUcxUsbDeviceDisable;
@@ -61,6 +71,9 @@ typedef EVT_UCX_USBDEVICE_DISABLE PEVT_UCX_USBDEVICE_DISABLE;
 
 ## -parameters
 
+
+
+
 ### -param UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
@@ -72,10 +85,15 @@ A structure of type <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_disable.
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a> method.
 
 When the client driver has released controller resources, it completes the WDFREQUEST.  After completion, the only callback function that UCX  calls referencing this USB device is <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_enable.md">EVT_UCX_USBDEVICE_ENABLE</a>.
@@ -91,12 +109,11 @@ To
 The client driver returns completion status in <i>Request</i>.  The driver can complete the WDFREQUEST asynchronously.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
-</dt>
-</dl>
+
  
 
  

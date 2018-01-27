@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a2a2e964-b9ae-4367-85de-f0ebe3c7a952
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _BUS_DATA_TYPE, *PBUS_DATA_TYPE, BUS_DATA_TYPE
+ms.keywords: MaximumBusDataType, ntddk/PNPISAConfiguration, PCIConfiguration, ntddk/MPSAConfiguration, ntddk/NuBusConfiguration, ntddk/SgiInternalConfiguration, ntddk/ConfigurationSpaceUndefined, Cmos, ntddk/Cmos, ntddk/EisaConfiguration, BUS_DATA_TYPE, SgiInternalConfiguration, ntddk/Pos, kernel.bus_data_type, ntddk/VMEConfiguration, NuBusConfiguration, MPIConfiguration, Pos, PCMCIAConfiguration, ntddk/MaximumBusDataType, ConfigurationSpaceUndefined, MPSAConfiguration, VMEConfiguration, ntddk/PCIConfiguration, PNPISAConfiguration, ntddk/CbusConfiguration, PBUS_DATA_TYPE enumeration pointer [Kernel-Mode Driver Architecture], ntddk/BUS_DATA_TYPE, CbusConfiguration, sysenum_3f6df31a-39d8-463e-8d44-44e51cd9989d.xml, PBUS_DATA_TYPE, ntddk/PCMCIAConfiguration, ntddk/PBUS_DATA_TYPE, _BUS_DATA_TYPE, BUS_DATA_TYPE enumeration [Kernel-Mode Driver Architecture], *PBUS_DATA_TYPE, EisaConfiguration, ntddk/MPIConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BUS_DATA_TYPE
-req.alt-loc: Ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PBUS_DATA_TYPE, BUS_DATA_TYPE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddk.h
+apiname: 
+-	BUS_DATA_TYPE
+product: Windows
+targetos: Windows
+req.typenames: BUS_DATA_TYPE, *PBUS_DATA_TYPE
 ---
 
 # _BUS_DATA_TYPE enumeration
 
 
-
 ## -description
+
+
 The <b>BUS_DATA_TYPE</b> enumeration indicates the type of bus configuration space.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _BUS_DATA_TYPE { 
@@ -66,6 +76,9 @@ typedef enum _BUS_DATA_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field ConfigurationSpaceUndefined
 
@@ -137,24 +150,16 @@ Indicates SGI internal bus configuration space.
 Indicates the upper limit of the bus configuration space types.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546628">HalSetBusData</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
+
  
 
  

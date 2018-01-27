@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 924da940-f609-4302-b454-87243200808e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader
+ms.keywords: DXVA_EncryptProtocolHeader structure [Display Devices], LPDXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader, display.dxva_encryptprotocolheader, _DXVA_EncryptProtocolHeader, dxva/DXVA_EncryptProtocolHeader, LPDXVA_EncryptProtocolHeader structure pointer [Display Devices], dxva/LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader, dxvaref_19bd4a66-c03f-44c3-98b6-875da968fa50.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVA_EncryptProtocolHeader
-req.alt-loc: dxva.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dxva.h
+apiname: 
+-	DXVA_EncryptProtocolHeader
+product: Windows
+targetos: Windows
 req.typenames: DXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader
 ---
 
 # _DXVA_EncryptProtocolHeader structure
 
 
-
 ## -description
+
+
 The DXVA_EncryptProtocolHeader structure is sent by the host decoder to the accelerator to indicate use of an encryption protocol.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVA_EncryptProtocolHeader {
@@ -55,6 +65,9 @@ typedef struct _DXVA_EncryptProtocolHeader {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwFunction
 
@@ -74,4 +87,8 @@ Contains the GUID associated with the encryption protocol.
 
 
 ## -remarks
-The encryption protocol in use is externally defined and operates as described in <a href="https://msdn.microsoft.com/d5ce9c02-7126-4775-bb87-dae45b93b652">Encryption Support</a>.</p>
+
+
+The encryption protocol in use is externally defined and operates as described in <a href="https://msdn.microsoft.com/d5ce9c02-7126-4775-bb87-dae45b93b652">Encryption Support</a>.
+
+

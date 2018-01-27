@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8c39a62d-0c05-4d26-b104-90c436e821cb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: InterlockedExchangePointer
+ms.keywords: InterlockedExchangePointer, kernel.interlockedexchangepointer, k102_4959af35-65d8-4768-94f7-a2dad0a2db46.xml, InterlockedExchangePointer routine [Kernel-Mode Driver Architecture], wdm/InterlockedExchangePointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: InterlockedExchangePointer
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	InterlockedExchangePointer
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # InterlockedExchangePointer function
 
 
-
 ## -description
+
+
 The <b>InterlockedExchangePointer</b> routine performs an atomic operation that sets a pointer to a new value.
 
 
-
 ## -syntax
+
 
 ````
 PVOID InterlockedExchangePointer(
@@ -55,6 +65,9 @@ PVOID InterlockedExchangePointer(
 
 
 ## -parameters
+
+
+
 
 ### -param Target [in, out]
 
@@ -67,10 +80,15 @@ Specifies the PVOID value to set (*<i>Target</i>) to.
 
 
 ## -returns
+
+
 <b>InterlockedExchangePointer</b> returns the original value of the pointer at *<i>Target</i> (that is, the value of this pointer at entry to the routine).
 
 
+
 ## -remarks
+
+
 <b>InterlockedExchangePointer</b> provides a fast, atomic way to synchronize updating a pointer variable that is shared by multiple threads.
 
 <b>InterlockedExchangePointer</b> is designed for speed and, typically, is implemented inline by a compiler. <b>InterlockedExchangePointer</b> is atomic only with respect to other <b>Interlocked<i>Xxx</i></b> calls. It does not use a spin lock and can be safely used on pageable data. 
@@ -82,18 +100,15 @@ A call to <b>InterlockedExchangePointer</b> is atomic only with respect to other
 Interlocked operations cannot be used on non-cached memory. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-interlockedcompareexchangepointer.md">InterlockedCompareExchangePointer</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-interlockedcompareexchangepointer.md">InterlockedCompareExchangePointer</a>
+
  
 
  

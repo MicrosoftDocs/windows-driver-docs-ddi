@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2283D20F-D256-48E5-BFD2-D3ACACD7BF1C
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS, D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS
+ms.keywords: _D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS, D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS, display.d3dddi_waitforsynchronizationobjectfromcpu_flags, d3dukmdt/D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS, D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS
 ---
 
 # _D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS structure
 
 
-
 ## -description
+
+
 <b>D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS</b> describes the type of input synchronization objects to wait for.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS {
@@ -60,6 +70,9 @@ typedef struct _D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS {
 
 ## -struct-fields
 
+
+
+
 ### -field WaitAny
 
 <table>
@@ -69,9 +82,9 @@ typedef struct _D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS {
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0 (FALSE)
-
+<dl>
+<dt>0 (FALSE)</dt>
+</dl>
 </td>
 <td width="60%">
 [in] The wait condition is considered to be satisfied when all input synchronization objects are signaled to the corresponding input fence values or greater.
@@ -80,9 +93,9 @@ typedef struct _D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS {
 </tr>
 <tr>
 <td width="40%">
-
-### -field 1 (TRUE)
-
+<dl>
+<dt>1 (TRUE)</dt>
+</dl>
 </td>
 <td width="60%">
 [in] The wait condition is considered to be satisfied when any of the input synchronization objects is signaled to the corresponding input fence value or greater. 
@@ -90,8 +103,7 @@ typedef struct _D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS {
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Reserved
@@ -103,5 +115,3 @@ This member is reserved and should be set to zero.
 
 The consolidated value of the bitfields in the nested structure.
 
-
-## -remarks

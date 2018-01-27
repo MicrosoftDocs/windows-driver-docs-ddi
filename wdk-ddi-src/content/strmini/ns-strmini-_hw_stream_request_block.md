@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e2a19bb1-631d-4160-9980-f3cbeb0b085a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _HW_STREAM_REQUEST_BLOCK, *PHW_STREAM_REQUEST_BLOCK, HW_STREAM_REQUEST_BLOCK
+ms.keywords: HW_STREAM_REQUEST_BLOCK, strclass-struct_4b0da124-b08a-49fe-acbc-9457db500b26.xml, PHW_STREAM_REQUEST_BLOCK structure pointer [Streaming Media Devices], _HW_STREAM_REQUEST_BLOCK, PHW_STREAM_REQUEST_BLOCK, *PHW_STREAM_REQUEST_BLOCK, strmini/PHW_STREAM_REQUEST_BLOCK, stream.hw_stream_request_block, strmini/HW_STREAM_REQUEST_BLOCK, HW_STREAM_REQUEST_BLOCK structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HW_STREAM_REQUEST_BLOCK
-req.alt-loc: strmini.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	strmini.h
+apiname: 
+-	HW_STREAM_REQUEST_BLOCK
+product: Windows
+targetos: Windows
 req.typenames: *PHW_STREAM_REQUEST_BLOCK, HW_STREAM_REQUEST_BLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _HW_STREAM_REQUEST_BLOCK structure
 
 
-
 ## -description
+
+
 The stream class driver uses the HW_STREAM_REQUEST_BLOCK structure to pass information to and from the minidriver, using minidriver provided callbacks.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _HW_STREAM_REQUEST_BLOCK {
@@ -90,6 +100,151 @@ typedef struct _HW_STREAM_REQUEST_BLOCK {
 
 ## -struct-fields
 
+
+
+
+### -field _HW_STREAM_REQUEST_BLOCK
+
+ 
+
+
+### -field NextSRB
+
+Points to another stream request block. The minidriver can use this member to queue stream request blocks.
+
+
+### -field CommandData
+
+<b>CommandData</b> is a union of members provided for command-code-specific data.
+      
+     
+
+
+### -field CommandData.ConfigInfo
+
+Pointer to the <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure used to initialize the device
+
+This member is used when the command code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff568185">SRB_INITIALIZE_DEVICE</a>.
+
+
+### -field CommandData.DataBufferArray
+
+Pointer to an array of <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a> structures. The number of entries in this array is specified in <b>NumberOfBuffers</b>. Each KSSTREAM_HEADER describes one block of data.
+
+This member is used when the command code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff568200">SRB_READ_DATA</a>
+
+or <a href="https://msdn.microsoft.com/library/windows/hardware/ff568220">SRB_WRITE_DATA</a>.
+
+
+### -field CommandData.StreamBuffer
+
+Points to the <a href="..\strmini\ns-strmini-_hw_stream_descriptor.md">HW_STREAM_DESCRIPTOR</a> structure the minidriver fills in with a description of the kernel streaming semantics it supports.
+
+
+The minidriver specifies the size of this buffer in the <b>StreamDescriptorSize</b> member of its <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure.
+
+
+This member is used when the command code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff568173">SRB_GET_STREAM_INFO</a>.
+
+
+### -field CommandData.StreamState
+
+
+       The stream state.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff565110">KSPROPERTY_CONNECTION_STATE</a> for details.
+
+This member is used when the command code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff568178">SRB_GET_STREAM_STATE</a>
+
+or <a href="https://msdn.microsoft.com/library/windows/hardware/ff568210">SRB_SET_STREAM_STATE</a>.
+
+
+### -field CommandData.TimeReference
+
+A pointer to a STREAM_TIME_REFERENCE structure.
+
+
+### -field CommandData.PropertyInfo
+
+Points to the <a href="..\strmini\ns-strmini-_stream_property_descriptor.md">STREAM_PROPERTY_DESCRIPTOR</a> structure that specifies the parameters for the property get or set operation.
+
+This member is used when the command code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff568170">SRB_GET_DEVICE_PROPERTY</a>,
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568204">SRB_SET_DEVICE_PROPERTY</a>,
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568175">SRB_GET_STREAM_PROPERTY</a>, or
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568207">SRB_SET_STREAM_PROPERTY</a>.
+
+
+### -field CommandData.OpenFormat
+
+Pointer to the <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure that specifies the format.
+
+This member is used when the command code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff568191">SRB_OPEN_STREAM</a>
+
+or <a href="https://msdn.microsoft.com/library/windows/hardware/ff568196">SRB_PROPOSE_DATA_FORMAT</a>.
+
+
+### -field CommandData.MasterClockHandle
+
+Handle for the clock object that now serves as the master clock.
+
+This member is used when the command code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff568190">SRB_OPEN_MASTER_CLOCK</a>
+
+or <a href="https://msdn.microsoft.com/library/windows/hardware/ff568179">SRB_INDICATE_MASTER_CLOCK</a>.
+
+
+### -field CommandData.DeviceState
+
+Specifies the new power state.
+
+This member is used when the command code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff568157">SRB_CHANGE_POWER_STATE</a>.
+
+
+### -field CommandData.IntersectInfo
+
+Pointer to a <a href="..\strmini\ns-strmini-_stream_data_intersect_info.md">STREAM_DATA_INTERSECT_INFO</a> structure that describes the parameters of this operation.
+
+This member is used when the command code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff568168">SRB_GET_DATA_INTERSECTION</a>.
+
+
+### -field CommandData.MethodInfo
+
+Pointer to a buffer that the method data will be read from or written to.  
+
+This member is available on Windows XP and later.
+
+
+### -field CommandData.FilterTypeIndex
+
+Filter type index for SRB_OPEN_DEVICE_INSTANCE.  
+
+This member is available on Windows XP and later.
+
+
+### -field CommandData.Idle
+
+This member is set to <b>TRUE</b> if no open handles to the device remain.  This member is set to <b>FALSE</b>  if the device is no longer idle (a handle to the device has been opened).
+
+This member is used when the command code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff568186">SRB_NOTIFY_IDLE_STATE</a>. 
+
+  This member is available on Windows XP and later, except for Windows Server 2003.
+
+
+### -field _CommandData
+
+ 
+
+
+### -field NumberOfBytesToTransfer
+
+For a SRB_READ_DATA or SRB_WRITE_DATA request, the number of bytes to be transferred.
+
+
+### -field ActualBytesTransferred
+
+For control requests, the number of bytes actually transferred. 
+
+
 ### -field SizeOfThisPacket
 
 Specifies the size, in bytes, of this structure.
@@ -121,125 +276,6 @@ Pointer to the minidriver's device extension. The minidriver may use this buffer
 Points to an uninitialized buffer the class driver allocates for the minidriver to use while processing this stream request block. This buffer is deallocated once the minidriver completes its handling of the block (see <a href="..\strmini\nf-strmini-streamclassdevicenotification.md">StreamClassDeviceNotification</a> or <a href="..\strmini\nf-strmini-streamclassstreamnotification.md">StreamClassStreamNotification</a> for details).
 
 
-### -field CommandData
-
-<b>CommandData</b> is a union of members provided for command-code-specific data.
-      
-     
-
-
-### -field DataBufferArray
-
-Pointer to an array of <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a> structures. The number of entries in this array is specified in <b>NumberOfBuffers</b>. Each KSSTREAM_HEADER describes one block of data.
-
-This member is used when the command code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff568200">SRB_READ_DATA</a>
-
-or <a href="https://msdn.microsoft.com/library/windows/hardware/ff568220">SRB_WRITE_DATA</a>.
-
-
-### -field StreamBuffer
-
-Points to the <a href="..\strmini\ns-strmini-_hw_stream_descriptor.md">HW_STREAM_DESCRIPTOR</a> structure the minidriver fills in with a description of the kernel streaming semantics it supports.
-
-
-The minidriver specifies the size of this buffer in the <b>StreamDescriptorSize</b> member of its <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure.
-
-
-This member is used when the command code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff568173">SRB_GET_STREAM_INFO</a>.
-
-
-### -field StreamState
-
-
-       The stream state.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff565110">KSPROPERTY_CONNECTION_STATE</a> for details.
-
-This member is used when the command code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff568178">SRB_GET_STREAM_STATE</a>
-
-or <a href="https://msdn.microsoft.com/library/windows/hardware/ff568210">SRB_SET_STREAM_STATE</a>.
-
-
-### -field TimeReference
-
-A pointer to a STREAM_TIME_REFERENCE structure.
-
-
-### -field PropertyInfo
-
-Points to the <a href="..\strmini\ns-strmini-_stream_property_descriptor.md">STREAM_PROPERTY_DESCRIPTOR</a> structure that specifies the parameters for the property get or set operation.
-
-This member is used when the command code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff568170">SRB_GET_DEVICE_PROPERTY</a>,
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568204">SRB_SET_DEVICE_PROPERTY</a>,
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568175">SRB_GET_STREAM_PROPERTY</a>, or
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568207">SRB_SET_STREAM_PROPERTY</a>.
-
-
-### -field OpenFormat
-
-Pointer to the <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure that specifies the format.
-
-This member is used when the command code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff568191">SRB_OPEN_STREAM</a>
-
-or <a href="https://msdn.microsoft.com/library/windows/hardware/ff568196">SRB_PROPOSE_DATA_FORMAT</a>.
-
-
-### -field ConfigInfo
-
-Pointer to the <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure used to initialize the device
-
-This member is used when the command code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff568185">SRB_INITIALIZE_DEVICE</a>.
-
-
-### -field MasterClockHandle
-
-Handle for the clock object that now serves as the master clock.
-
-This member is used when the command code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff568190">SRB_OPEN_MASTER_CLOCK</a>
-
-or <a href="https://msdn.microsoft.com/library/windows/hardware/ff568179">SRB_INDICATE_MASTER_CLOCK</a>.
-
-
-### -field DeviceState
-
-Specifies the new power state.
-
-This member is used when the command code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff568157">SRB_CHANGE_POWER_STATE</a>.
-
-
-### -field IntersectInfo
-
-Pointer to a <a href="..\strmini\ns-strmini-_stream_data_intersect_info.md">STREAM_DATA_INTERSECT_INFO</a> structure that describes the parameters of this operation.
-
-This member is used when the command code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff568168">SRB_GET_DATA_INTERSECTION</a>.
-
-
-### -field MethodInfo
-
-Pointer to a buffer that the method data will be read from or written to.  
-
-This member is available on Windows XP and later.
-
-
-### -field FilterTypeIndex
-
-Filter type index for SRB_OPEN_DEVICE_INSTANCE.  
-
-This member is available on Windows XP and later.
-
-
-### -field Idle
-
-This member is set to <b>TRUE</b> if no open handles to the device remain.  This member is set to <b>FALSE</b>  if the device is no longer idle (a handle to the device has been opened).
-
-This member is used when the command code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff568186">SRB_NOTIFY_IDLE_STATE</a>. 
-
-  This member is available on Windows XP and later, except for Windows Server 2003.
-
-</dd>
-</dl>
-
 ### -field NumberOfBuffers
 
 If Command is either <a href="https://msdn.microsoft.com/library/windows/hardware/ff568200">SRB_READ_DATA</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff568220">SRB_WRITE_DATA</a>, then this specifies the number of entries in the array of <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a> structures that begins at the address pointed to by <b>CommandData.DataBufferArray</b>. Otherwise this parameter is unused.
@@ -255,11 +291,6 @@ The number of seconds before this request times out. The class driver decrements
 The class driver sets this to the original value of <b>TimeoutCounter</b> upon the creation of the SRB.
 
 
-### -field NextSRB
-
-Points to another stream request block. The minidriver can use this member to queue stream request blocks.
-
-
 ### -field Irp
 
 Pointer to the IRP for the request. Most minidrivers do not need to use this member.
@@ -268,7 +299,6 @@ Pointer to the IRP for the request. Most minidrivers do not need to use this mem
 ### -field Flags
 
 Specifies the type of request. The class driver and the minidriver can use this member to determine which callback the class driver passed this stream request block to.
-
 <table>
 <tr>
 <th>Value</th>
@@ -310,8 +340,7 @@ SRB_HW_FLAGS_DATA_TRANSFER | SRB_HW_FLAGS_STREAM_REQUEST
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 SRB_HW_FLAGS_STREAM_REQUEST bit is set for stream-specific requests (which are passed to the minidriver's <b>StrMiniReceiveStream</b><i>Xxx</i><b>Packet</b> routines). The SRB_HW_FLAGS_DATA_TRANSFER bit is set for data transfer requests (which are passed to the minidriver's 
 
@@ -321,20 +350,9 @@ SRB_HW_FLAGS_STREAM_REQUEST bit is set for stream-specific requests (which are p
 Pointer to the minidriver's instance extension. The minidriver may use this buffer to record private information global to this instance of the minidriver. The minidriver sets the size of this buffer in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>.
 
 
-### -field NumberOfBytesToTransfer
-
-For a SRB_READ_DATA or SRB_WRITE_DATA request, the number of bytes to be transferred.
-
-
-### -field ActualBytesTransferred
-
-For control requests, the number of bytes actually transferred. 
-
-
 ### -field ScatterGatherBuffer
 
 Points to an array of KSSCATTER_GATHER structures, of the form:
-
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -347,8 +365,7 @@ Points to an array of KSSCATTER_GATHER structures, of the form:
 } KSSCATTER_GATHER, *PKSSCATTER_GATHER;</pre>
 </td>
 </tr>
-</table></span></div>
-The array describes a scatter/gather list that can be used by the minidriver to do DMA. The memory does not need to be probed, locked, mapped, or flushed -- the stream class driver performs these for the minidriver.
+</table></span></div>The array describes a scatter/gather list that can be used by the minidriver to do DMA. The memory does not need to be probed, locked, mapped, or flushed -- the stream class driver performs these for the minidriver.
 
 
 ### -field NumberOfPhysicalPages
@@ -361,14 +378,24 @@ Specifies the size of the array passed in the <b>ScatterGatherBuffer</b> member.
 Specifies the number of physical elements pointed to by <b>ScatterGatherBuffer</b>.
 
 
-### -field Reserved[1]
+### -field Reserved
+
+ 
+
+
+
+#### - Reserved[1]
 
 Reserved for system use. Do not use.
 
 
 ## -remarks
+
+
 The stream class driver passes pointers to HW_STREAM_REQUEST_BLOCK structures to the minidriver's <a href="..\strmini\nc-strmini-phw_receive_device_srb.md">StrMiniReceiveStreamDataPacket</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff568467">StrMiniReceiveStreamControlPacket</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff568463">StrMiniReceiveDevicePacket</a> routines.
 
 The minidriver owns this stream request block until the request times out or it completes the request. The minidriver signals to the class driver that it has completed the request by calling <a href="..\strmini\nf-strmini-streamclassdevicenotification.md">StreamClassDeviceNotification</a>(DeviceRequestComplete, pSrb-&gt;HwDeviceExtension, pSRB) for device-specific requests, or calling <a href="..\strmini\nf-strmini-streamclassstreamnotification.md">StreamClassStreamNotification</a>(StreamRequestComplete, pSrb-&gt;StreamObject, pSrb) for stream-specific requests. (The minidriver can also complete a request by calling <a href="..\strmini\nf-strmini-streamclasscompleterequestandmarkqueueready.md">StreamClassCompleteRequestAndMarkQueueReady</a>(pSrb). See that routine for details.)
 
-If the class driver times out the request, it will call the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568473">StrMiniRequestTimeout</a> routine, which has the responsibility of terminating processing of the request. If the minidriver queues a request for later processing, it should set the <b>TimeoutCounter</b> member to zero, which will prevent the class driver from timing out the request. Once the minidriver is ready to resume processing the request, it should reset the <b>TimeoutCounter</b> member to the value of <b>TimeoutOriginal</b>.</p>
+If the class driver times out the request, it will call the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568473">StrMiniRequestTimeout</a> routine, which has the responsibility of terminating processing of the request. If the minidriver queues a request for later processing, it should set the <b>TimeoutCounter</b> member to zero, which will prevent the class driver from timing out the request. Once the minidriver is ready to resume processing the request, it should reset the <b>TimeoutCounter</b> member to the value of <b>TimeoutOriginal</b>.
+
+

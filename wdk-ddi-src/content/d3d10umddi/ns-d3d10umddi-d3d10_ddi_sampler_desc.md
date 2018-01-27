@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2f65b381-bf81-45b5-9583-793e4ffb453c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_DDI_SAMPLER_DESC, D3D10_DDI_SAMPLER_DESC
+ms.keywords: D3D10_DDI_SAMPLER_DESC structure [Display Devices], D3D10_DDI_SAMPLER_DESC, d3d10umddi/D3D10_DDI_SAMPLER_DESC, UMDisplayDriver_Dx10param_Structs_3bd0d5fd-417c-43ef-9bdf-0073d8651ced.xml, display.d3d10_ddi_sampler_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D10_DDI_SAMPLER_DESC
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	D3D10_DDI_SAMPLER_DESC
+product: Windows
+targetos: Windows
 req.typenames: D3D10_DDI_SAMPLER_DESC
 ---
 
 # D3D10_DDI_SAMPLER_DESC structure
 
 
-
 ## -description
+
+
 The D3D10_DDI_SAMPLER_DESC structure describes a sampler.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D10_DDI_SAMPLER_DESC {
@@ -62,6 +72,9 @@ typedef struct D3D10_DDI_SAMPLER_DESC {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Filter
 
@@ -113,27 +126,18 @@ typedef struct D3D10_DDI_SAMPLER_DESC {
 [in] A single-precision float vector for the maximum level of detail (LOD) for the sampler. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivatesamplersize.md">CalcPrivateSamplerSize</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createsampler.md">CreateSampler</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_comparison_func.md">D3D10_DDI_COMPARISON_FUNC</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_filter.md">D3D10_DDI_FILTER</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_texture_address_mode.md">D3D10_DDI_TEXTURE_ADDRESS_MODE</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivatesamplersize.md">CalcPrivateSamplerSize</a>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_filter.md">D3D10_DDI_FILTER</a>
+
  
 
  

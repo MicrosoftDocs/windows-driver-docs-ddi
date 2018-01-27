@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9663d0fe-7397-49d7-b860-e466a9311aca
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_BLT, D3DDDIARG_BLT
+ms.keywords: D3DDDIARG_BLT structure [Display Devices], display.d3dddiarg_blt, d3dumddi/D3DDDIARG_BLT, _D3DDDIARG_BLT, D3DDDIARG_BLT, UMDisplayDriver_param_Structs_1c7d23e1-c05e-42b6-802e-4a69a80006c8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_BLT
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_BLT
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_BLT
 ---
 
 # _D3DDDIARG_BLT structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_BLT structure describes the parameters of a bit-block transfer (bitblt). 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_BLT {
@@ -60,6 +70,9 @@ typedef struct _D3DDDIARG_BLT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hSrcResource
 
@@ -102,23 +115,22 @@ typedef struct _D3DDDIARG_BLT {
 
 
 ## -remarks
+
+
 If a filtering option (for example, the <b>Point</b> or <b>Linear</b> bit-field flag) is not specified in the <b>Flags</b> member, the driver can use its own filtering technique.
 
 The <b>SrcColorKey</b> and <b>DstColorKey</b> bit-field flags are never set simultaneously. Similarly, the <b>Point</b> bit-field flag is not simultaneously set with the <b>Linear</b> bit-field flag. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_blt.md">Blt</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_bltflags.md">D3DDDI_BLTFLAGS</a>
-</dt>
-<dt>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_blt.md">Blt</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-</dt>
-</dl>
+
  
 
  

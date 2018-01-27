@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7da30e14-7df4-41e2-b2e3-081c55d68db6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVAHDDDI_STREAM_STATE_FILTER_DATA, DXVAHDDDI_STREAM_STATE_FILTER_DATA
+ms.keywords: DXVA2_Structs_e20d3d19-75a9-4539-888f-4c3c73cc02c8.xml, d3dumddi/DXVAHDDDI_STREAM_STATE_FILTER_DATA, DXVAHDDDI_STREAM_STATE_FILTER_DATA, display.dxvahdddi_stream_state_filter_data, DXVAHDDDI_STREAM_STATE_FILTER_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_FILTER_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: DXVAHDDDI_STREAM_STATE_FILTER_DATA is supported begin
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXVAHDDDI_STREAM_STATE_FILTER_DATA
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	DXVAHDDDI_STREAM_STATE_FILTER_DATA
+product: Windows
+targetos: Windows
 req.typenames: DXVAHDDDI_STREAM_STATE_FILTER_DATA
 ---
 
 # _DXVAHDDDI_STREAM_STATE_FILTER_DATA structure
 
 
-
 ## -description
+
+
 The DXVAHDDDI_STREAM_STATE_FILTER_DATA structure describes stream-state data that specifies the filter level. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXVAHDDDI_STREAM_STATE_FILTER_DATA {
@@ -54,6 +64,9 @@ typedef struct _DXVAHDDDI_STREAM_STATE_FILTER_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Enable
 
@@ -66,18 +79,18 @@ typedef struct _DXVAHDDDI_STREAM_STATE_FILTER_DATA {
 
 
 ## -remarks
+
+
 The level that is specified in the <b>Level</b> member must be within the range that the driver supplies in the members of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_filter_range_data.md">DXVAHDDDI_FILTER_RANGE_DATA</a> structure when the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPFILTERRANGE value set. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_filter_range_data.md">DXVAHDDDI_FILTER_RANGE_DATA</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_filter_range_data.md">DXVAHDDDI_FILTER_RANGE_DATA</a>
+
  
 
  

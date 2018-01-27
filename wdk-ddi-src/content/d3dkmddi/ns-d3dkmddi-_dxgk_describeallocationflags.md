@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f5cab74a-19ce-45d1-9c6f-461a98c4506c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_DESCRIBEALLOCATIONFLAGS, DXGK_DESCRIBEALLOCATIONFLAGS
+ms.keywords: d3dkmddi/DXGK_DESCRIBEALLOCATIONFLAGS, DXGK_DESCRIBEALLOCATIONFLAGS structure [Display Devices], DXGK_DESCRIBEALLOCATIONFLAGS, display.dxgk_describeallocationflags, _DXGK_DESCRIBEALLOCATIONFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_DESCRIBEALLOCATIONFLAGS
-req.alt-loc: D3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmddi.h
+apiname: 
+-	DXGK_DESCRIBEALLOCATIONFLAGS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_DESCRIBEALLOCATIONFLAGS
 ---
 
 # _DXGK_DESCRIBEALLOCATIONFLAGS structure
 
 
-
 ## -description
+
+
 Used in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_describeallocation.md">DXGKARG_DESCRIBEALLOCATION</a>.<b>Flags</b> member to describe whether an existing allocation is being queried for its display mode.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGK_DESCRIBEALLOCATIONFLAGS {
@@ -59,6 +69,9 @@ typedef struct _DXGK_DESCRIBEALLOCATIONFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field CheckDisplayMode
 
@@ -79,15 +92,10 @@ Setting this member to zero is equivalent to setting the remaining 31 bits (0xFF
 [in] A member in the union that <b>DXGK_DESCRIBEALLOCATIONFLAGS</b> contains that can hold a 32-bit value that identifies the type of allocation.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_describeallocation.md">DXGKARG_DESCRIBEALLOCATION</a>
-</dt>
-</dl>
+
  
 
  

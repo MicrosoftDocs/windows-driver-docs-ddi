@@ -7,8 +7,8 @@ old-location: netvista\rilsmsmodificationinfo_2.htm
 old-project: netvista
 ms.assetid: 64e5ea3d-a002-45df-b3ad-c8f723cbe54d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO, *LPRILSMSMODIFICATIONINFO
+ms.date: 1/18/2018
+ms.keywords: rilapitypes/RILSMSMODIFICATIONINFO, netvista.rilsmsmodificationinfo_2, *LPRILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO structure [Network Drivers Starting with Windows Vista], RILSMSMODIFICATIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSMSMODIFICATIONINFO
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILSMSMODIFICATIONINFO, *LPRILSMSMODIFICATIONINFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILSMSMODIFICATIONINFO
+product: Windows
+targetos: Windows
+req.typenames: *LPRILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO
 req.product: Windows 10 or later.
 ---
 
 # RILSMSMODIFICATIONINFO structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILSMSMODIFICATIONINFO {
@@ -60,22 +70,29 @@ typedef struct _RILSMSMODIFICATIONINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwExecutor
+
 
 
 ### -field dwModificationType
 
 
+
 ### -field raAddress
+
 
 
 ### -field aiIdentifier
 
 
-## -remarks

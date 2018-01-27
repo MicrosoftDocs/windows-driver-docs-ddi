@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 83ef2a1a-f95e-4b05-8911-e5e900192630
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_ADAPTER_DESCRIPTOR, PSTORAGE_ADAPTER_DESCRIPTOR, STORAGE_ADAPTER_DESCRIPTOR
+ms.keywords: STORAGE_ADDRESS_TYPE_BTL8, storage.storage_adapter_descriptor, STORAGE_ADAPTER_DESCRIPTOR structure [Storage Devices], PSTORAGE_ADAPTER_DESCRIPTOR structure pointer [Storage Devices], ntddstor/STORAGE_ADAPTER_DESCRIPTOR, PSTORAGE_ADAPTER_DESCRIPTOR, structs-general_196c7640-0a2d-4567-8958-1244c46b84a6.xml, SRB_TYPE_SCSI_REQUEST_BLOCK, SRB_TYPE_STORAGE_REQUEST_BLOCK, ntddstor/PSTORAGE_ADAPTER_DESCRIPTOR, STORAGE_ADAPTER_DESCRIPTOR, _STORAGE_ADAPTER_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_ADAPTER_DESCRIPTOR
-req.alt-loc: ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: PSTORAGE_ADAPTER_DESCRIPTOR, STORAGE_ADAPTER_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddstor.h
+apiname: 
+-	STORAGE_ADAPTER_DESCRIPTOR
+product: Windows
+targetos: Windows
+req.typenames: STORAGE_ADAPTER_DESCRIPTOR, PSTORAGE_ADAPTER_DESCRIPTOR
 ---
 
 # _STORAGE_ADAPTER_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The <b>STORAGE_ADAPTER_DESCRIPTOR</b> structure is used in conjunction with the <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> request to retrieve the storage adapter descriptor data for a device. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STORAGE_ADAPTER_DESCRIPTOR {
@@ -66,6 +76,9 @@ typedef struct _STORAGE_ADAPTER_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -130,16 +143,15 @@ Specifies the minor version number, if any, of the HBA.
 ### -field SrbType
 
 Specifies the SCSI request block (SRB) type used by the HBA.
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field SRB_TYPE_SCSI_REQUEST_BLOCK
-
+<td width="40%"><a id="SRB_TYPE_SCSI_REQUEST_BLOCK"></a><a id="srb_type_scsi_request_block"></a><dl>
+<dt><b>SRB_TYPE_SCSI_REQUEST_BLOCK</b></dt>
+</dl>
 </td>
 <td width="60%">
 The HBA uses SCSI request blocks.
@@ -147,17 +159,16 @@ The HBA uses SCSI request blocks.
 </td>
 </tr>
 <tr>
-
-### -field SRB_TYPE_STORAGE_REQUEST_BLOCK
-
+<td width="40%"><a id="SRB_TYPE_STORAGE_REQUEST_BLOCK"></a><a id="srb_type_storage_request_block"></a><dl>
+<dt><b>SRB_TYPE_STORAGE_REQUEST_BLOCK</b></dt>
+</dl>
 </td>
 <td width="60%">
 The HBA uses extended SCSI request blocks.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 This member is valid starting with Windows 8.
 
@@ -165,55 +176,49 @@ This member is valid starting with Windows 8.
 ### -field AddressType
 
 Specifies the address type of the HBA.
-
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
-
-### -field STORAGE_ADDRESS_TYPE_BTL8
-
+<td width="40%"><a id="STORAGE_ADDRESS_TYPE_BTL8"></a><a id="storage_address_type_btl8"></a><dl>
+<dt><b>STORAGE_ADDRESS_TYPE_BTL8</b></dt>
+</dl>
 </td>
 <td width="60%">
 The HBA uses 8-bit bus, target, and LUN addressing.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 This member is valid starting with Windows 8.
 
 
 ## -remarks
+
+
 Storage class drivers issue a device-control request with the I/O control code <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> to retrieve this structure, which contains configuration information from the HBA for data transfer operations. The structure can be retrieved either from the device object for the bus or from a functional device object (FDO), which forwards the request to the underlying bus.
 
 If excessive protocol errors occur on an HBA that supports synchronous transfers (<b>AcceleratedTransfer</b> is <b>TRUE</b>), the storage class driver can disable synchronous transfers by setting SRB_FLAGS_DISABLE_SYNCH_TRANSFER in SRBs.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
-</dt>
-<dt>
-<a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
-</dt>
-<dt>
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
-</dt>
-<dt>
-<a href="..\ntddstor\ns-ntddstor-_storage_descriptor_header.md">STORAGE_DESCRIPTOR_HEADER</a>
-</dt>
-<dt>
-<a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="..\ntddstor\ns-ntddstor-_storage_adapter_descriptor.md">STORAGE_ADAPTER_DESCRIPTOR</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
+
+<a href="..\ntddstor\ns-ntddstor-_storage_descriptor_header.md">STORAGE_DESCRIPTOR_HEADER</a>
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+
+<a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
+
+<a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
+
  
 
  

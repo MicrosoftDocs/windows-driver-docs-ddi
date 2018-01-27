@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 161CA2C2-F4F4-49F3-9007-ADFBDA905119
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: _NFC_CX_DRIVER_FLAGS, NFC_CX_DRIVER_FLAGS, *PNFC_CX_DRIVER_FLAGS
+ms.keywords: NFC_CX_DRIVER_HCI_NETWORK_PER_NFCEE, _NFC_CX_DRIVER_FLAGS, NFC_CX_DRIVER_DISABLE_HOST_CARD_EMULATION, nfccx/PNFC_CX_DRIVER_FLAGS, nfccx/_NFC_CX_DRIVER_FLAGS, nfccx/NFC_CX_DRIVER_DISABLE_NFCEE_DISCOVERY, _NFC_CX_DRIVER_FLAGS enumeration [Near-Field Proximity Drivers], PNFC_CX_DRIVER_FLAGS, NFC_CX_DRIVER_DISABLE_WTD_TIMER, nfccx/NFC_CX_DRIVER_DISABLE_WTD_TIMER, NFC_CX_DRIVER_DISABLE_RECOVERY_MODE, NFC_CX_DRIVER_DISABLE_NFCEE_ACTION_NTF, nfpdrivers.nfc_cx_driver_flags, NFC_CX_DRIVER_FLAGS, nfccx/NFC_CX_DRIVER_DISABLE_HOST_CARD_EMULATION, NFC_CX_DRIVER_DISABLE_NFCEE_DISCOVERY, nfccx/NFC_CX_DRIVER_RF_ROUTING_POWER_SUB_STATES_SUPPORTED, NFC_CX_DRIVER_RF_ROUTING_POWER_SUB_STATES_SUPPORTED, NFC_CX_DRIVER_ISODEP_RNAK_PRESENCE_CHK_SUPPORTED, *PNFC_CX_DRIVER_FLAGS, NFC_CX_DRIVER_ENABLE_EEPROM_WRITE_PROTECTION, PNFC_CX_DRIVER_FLAGS enumeration pointer [Near-Field Proximity Drivers], nfccx/NFC_CX_DRIVER_ISODEP_RNAK_PRESENCE_CHK_SUPPORTED, nfccx/NFC_CX_DRIVER_DISABLE_RECOVERY_MODE, nfccx/NFC_CX_DRIVER_ENABLE_EEPROM_WRITE_PROTECTION, nfccx/NFC_CX_DRIVER_HCI_NETWORK_PER_NFCEE, nfccx/NFC_CX_DRIVER_DISABLE_NFCEE_ACTION_NTF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NFC_CX_DRIVER_FLAGS
-req.alt-loc: nfccx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Requires same
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	nfccx.h
+apiname: 
+-	NFC_CX_DRIVER_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: NFC_CX_DRIVER_FLAGS, *PNFC_CX_DRIVER_FLAGS
 ---
 
 # _NFC_CX_DRIVER_FLAGS enumeration
 
 
-
 ## -description
+
+
 Specifies run-time driver flags.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _NFC_CX_DRIVER_FLAGS { 
@@ -61,6 +71,9 @@ typedef enum _NFC_CX_DRIVER_FLAGS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field NFC_CX_DRIVER_DISABLE_WTD_TIMER
 
@@ -108,14 +121,18 @@ Indicates support for RF routing switched ON power sub-states.
 
 
 ## -remarks
+
+
 The NFC CX allows the NFC client driver to provide some driver flags that can be used to configure the run-time implementation of the class extension. These flags enable the NFC CX to implement some standard NCI operations slightly differently to support different firmware implementations due to ambiguities in the NCI specification.
 
 
+
 ## -see-also
-<dl>
-<dt><a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a></dt>
-<dt><a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a></dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
  
 
  

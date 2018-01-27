@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C38F8222-7F22-4D6B-A3F2-C326ECE22E8B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PSCREATETHREADNOTIFYTYPE, PSCREATETHREADNOTIFYTYPE
+ms.keywords: ntddk/PsCreateThreadNotifySubsystems, kernel.pscreatethreadnotifytype, PsCreateThreadNotifySubsystems, ntddk/PsCreateThreadNotifyNonSystem, _PSCREATETHREADNOTIFYTYPE, ntddk/PSCREATETHREADNOTIFYTYPE, PSCREATETHREADNOTIFYTYPE, PsCreateThreadNotifyNonSystem, PSCREATETHREADNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PSCREATETHREADNOTIFYTYPE
-req.alt-loc: Ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddk.h
+apiname: 
+-	PSCREATETHREADNOTIFYTYPE
+product: Windows
+targetos: Windows
 req.typenames: PSCREATETHREADNOTIFYTYPE
 ---
 
 # _PSCREATETHREADNOTIFYTYPE enumeration
 
 
-
 ## -description
+
+
 Indicates the type of thread notification. This enumeration is used in <a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutineex.md">PsSetCreateThreadNotifyRoutineEx</a> to register callback notifications associated with thread creation or deletion.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _PSCREATETHREADNOTIFYTYPE { 
@@ -54,6 +64,9 @@ typedef enum _PSCREATETHREADNOTIFYTYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field PsCreateThreadNotifyNonSystem
 
@@ -66,21 +79,14 @@ The driver-registered callback function is executed on the new non-system thread
 Indicates that the driver-registered callback function is invoked for threads of all subsystems.  Drivers can call <a href="https://msdn.microsoft.com/ca292efc-1ea9-4c0f-b0a7-1cfb35d69f81">NtQueryInformationThread</a> to determine the underlying subsystem. The query retrieves a  <a href="..\ntddk\ne-ntddk-_subsystem_information_type.md">SUBSYSTEM_INFORMATION_TYPE</a> value.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutineex.md">PsSetCreateThreadNotifyRoutineEx</a>
-</dt>
-<dt>
-<a href="..\ntddk\ne-ntddk-_subsystem_information_type.md">SUBSYSTEM_INFORMATION_TYPE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/ca292efc-1ea9-4c0f-b0a7-1cfb35d69f81">NtQueryInformationThread</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\ne-ntddk-_subsystem_information_type.md">SUBSYSTEM_INFORMATION_TYPE</a>
+
  
 
  

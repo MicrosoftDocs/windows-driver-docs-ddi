@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: db96eccd-6747-458b-9a9e-ec909146f3fa
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSALLOCATOR_FRAMING, *PKSALLOCATOR_FRAMING, KSALLOCATOR_FRAMING
+ms.keywords: PKSALLOCATOR_FRAMING, ks/KSALLOCATOR_FRAMING, KSALLOCATOR_FRAMING, *PKSALLOCATOR_FRAMING, KSALLOCATOR_FRAMING structure [Streaming Media Devices], ks-struct_cc2d8d16-75d5-4ef4-b8de-63197e61424b.xml, PKSALLOCATOR_FRAMING structure pointer [Streaming Media Devices], stream.ksallocator_framing, ks/PKSALLOCATOR_FRAMING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSALLOCATOR_FRAMING
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSALLOCATOR_FRAMING, KSALLOCATOR_FRAMING
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSALLOCATOR_FRAMING
+product: Windows
+targetos: Windows
+req.typenames: KSALLOCATOR_FRAMING, *PKSALLOCATOR_FRAMING
 ---
 
 # KSALLOCATOR_FRAMING structure
 
 
-
 ## -description
+
+
 The KSALLOCATOR_FRAMING structure is used to query framing requirements and submit allocator creation requests.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -62,10 +72,12 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field OptionsFlags
 
 Specifies the allocator option flags specified during allocator creation for the connection point. The <b>OptionsFlags</b> member can contain one of the following values.
-
 <table>
 <tr>
 <th>OptionsFlags</th>
@@ -91,14 +103,12 @@ Indicates that system memory should be used for allocations. When specified, the
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field RequirementsFlags
 
 A value of type ULONG that describes the allocator requirements for this connection point for query operations. The <b>RequirementsFlags</b> member can contain the following values.
-
 <table>
 <tr>
 <th>Flag Value</th>
@@ -154,29 +164,12 @@ Indicates that the Requirements flags are preferences only and the connection po
 
 </td>
 </tr>
-</table>
- 
-
-
-### -field PoolType
-
-A structure of type <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> that specifies kernel-mode allocation pool type.
-
-
-### -field Frames
-
-Specifies the total number of allowable outstanding frames. Zero indicates that the filter has no requirement for this member.
-
-
-### -field FrameSize
-
-Specifies the total size of the frame, including prefix and postfix. Zero indicates that the filter has no requirement for this member.
+</table> 
 
 
 ### -field FileAlignment
 
 A value of type ULONG that describes the byte alignment to use when allocating frames. The following table describes several possible alignment values.
-
 <table>
 <tr>
 <th>Value</th>
@@ -232,8 +225,27 @@ FILE_64_BYTE_ALIGNMENT
 
 </td>
 </tr>
-</table>
- 
+</table> 
+
+
+### -field FramePitch
+
+ 
+
+
+### -field PoolType
+
+A structure of type <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> that specifies kernel-mode allocation pool type.
+
+
+### -field Frames
+
+Specifies the total number of allowable outstanding frames. Zero indicates that the filter has no requirement for this member.
+
+
+### -field FrameSize
+
+Specifies the total size of the frame, including prefix and postfix. Zero indicates that the filter has no requirement for this member.
 
 
 ### -field Reserved
@@ -242,17 +254,18 @@ Reserved for system use. Set to zero.
 
 
 ## -remarks
+
+
 Use KSALLOCATOR_FRAMING to submit an allocator creation request to a handle of a sink by using IRP_MJ_CREATE.
 
 When you specify a value for the <b>FileAlignment</b> member, the smallest allocation alignment is 1 byte (FILE_BYTE_ALIGNMENT). Software that functions as an allocation should support 4-byte alignment (FILE_LONG_ALIGNMENT), if possible.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-kscreateallocator.md">KsCreateAllocator</a>
-</dt>
-</dl>
+
  
 
  

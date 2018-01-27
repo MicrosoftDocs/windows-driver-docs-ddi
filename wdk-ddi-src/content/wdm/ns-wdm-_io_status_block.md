@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1ce2b1d0-a8b2-4a05-8895-e13802690a7b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _IO_STATUS_BLOCK, *PIO_STATUS_BLOCK, IO_STATUS_BLOCK
+ms.keywords: IO_STATUS_BLOCK structure [Kernel-Mode Driver Architecture], PIO_STATUS_BLOCK, _IO_STATUS_BLOCK, PIO_STATUS_BLOCK structure pointer [Kernel-Mode Driver Architecture], kstruct_b_f0869bcd-fcf0-427a-9bda-fc925c0bf0f8.xml, wdm/IO_STATUS_BLOCK, IO_STATUS_BLOCK, wdm/PIO_STATUS_BLOCK, *PIO_STATUS_BLOCK, kernel.io_status_block
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IO_STATUS_BLOCK
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PIO_STATUS_BLOCK, IO_STATUS_BLOCK
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	IO_STATUS_BLOCK
+product: Windows
+targetos: Windows
+req.typenames: IO_STATUS_BLOCK, *PIO_STATUS_BLOCK
 req.product: Windows 10 or later.
 ---
 
 # _IO_STATUS_BLOCK structure
 
 
-
 ## -description
+
+
 A driver sets an IRP's I/O status block to indicate the final status of an I/O request, before calling <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a> for the IRP.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _IO_STATUS_BLOCK {
@@ -59,14 +69,22 @@ typedef struct _IO_STATUS_BLOCK {
 
 ## -struct-fields
 
-### -field Status
-
-This is the completion status, either STATUS_SUCCESS if the requested operation was completed successfully or an informational, warning, or error STATUS_<i>XXX</i> value. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS values</a>.
 
 
-### -field Pointer
 
-Reserved. For internal use only.
+### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.Status
+
+ 
+
+
+### -field DUMMYUNIONNAME.Pointer
+
+ 
 
 
 ### -field Information
@@ -74,7 +92,19 @@ Reserved. For internal use only.
 This is set to a request-dependent value. For example, on successful completion of a transfer request, this is set to the number of bytes transferred. If a transfer request is completed with another STATUS_<i>XXX</i>, this member is set to zero. 
 
 
+#### - Status
+
+This is the completion status, either STATUS_SUCCESS if the requested operation was completed successfully or an informational, warning, or error STATUS_<i>XXX</i> value. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS values</a>.
+
+
+#### - Pointer
+
+Reserved. For internal use only.
+
+
 ## -remarks
+
+
 Unless a driver's dispatch routine completes an IRP with an error status value, the lowest-level driver in the chain frequently sets the IRP's I/O status block to the values that will be returned to the original requester of the I/O operation.
 
 The <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a> routines of higher-level drivers usually check the I/O status block in IRPs completed by lower drivers. By design, the I/O status block in an IRP is the only information passed back from the underlying device driver to all higher-level drivers' <i>IoCompletion</i> routines.
@@ -84,21 +114,17 @@ The operating system implements <a href="https://msdn.microsoft.com/c0b21ead-875
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551825">I/O Status Blocks</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
+
  
 
  

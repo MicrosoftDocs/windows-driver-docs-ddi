@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 68360c2e-4b03-40a3-a313-bdb9ef26a298
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_ISSUEQUERYFLAGS, D3DDDI_ISSUEQUERYFLAGS
+ms.keywords: D3DDDI_ISSUEQUERYFLAGS, d3dumddi/D3DDDI_ISSUEQUERYFLAGS, D3D_other_Structs_794dd0b0-f24c-4e9e-befe-d79dd4efbaef.xml, D3DDDI_ISSUEQUERYFLAGS structure [Display Devices], _D3DDDI_ISSUEQUERYFLAGS, display.d3dddi_issuequeryflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_ISSUEQUERYFLAGS
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDI_ISSUEQUERYFLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_ISSUEQUERYFLAGS
 ---
 
 # _D3DDDI_ISSUEQUERYFLAGS structure
 
 
-
 ## -description
+
+
 The D3DDDI_ISSUEQUERYFLAGS structure identifies the state of a query issue.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDI_ISSUEQUERYFLAGS {
@@ -60,6 +70,9 @@ typedef struct _D3DDDI_ISSUEQUERYFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Begin
 
@@ -85,15 +98,10 @@ This member is reserved and should be set to zero. Setting this member to zero i
 A member in the union that is contained in D3DDDI_ISSUEQUERYFLAGS that can hold one 32-bit value that identifies the state of the query.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_issuequery.md">D3DDDIARG_ISSUEQUERY</a>
-</dt>
-</dl>
+
  
 
  

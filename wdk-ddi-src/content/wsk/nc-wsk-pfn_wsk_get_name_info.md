@@ -7,8 +7,8 @@ old-location: netvista\wskgetnameinfo.htm
 old-project: netvista
 ms.assetid: 99e10a70-90a7-4d96-ae5f-ba82d8c4c1a8
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO
+ms.date: 1/18/2018
+ms.keywords: netvista.wskgetnameinfo, WskGetNameInfo callback function [Network Drivers Starting with Windows Vista], WskGetNameInfo, PFN_WSK_GET_NAME_INFO, PFN_WSK_GET_NAME_INFO, wsk/WskGetNameInfo, wskref_cebad0ad-55bc-4fae-9c73-5a501417ea5c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WskGetNameInfo
-req.alt-loc: wsk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	wsk.h
+apiname: 
+-	WskGetNameInfo
+product: Windows
+targetos: Windows
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
 # PFN_WSK_GET_NAME_INFO callback
 
 
-
 ## -description
+
+
 The 
   <b>WskGetNameInfo</b> function provides protocol-independent translation from a transport address to a host
   name.
 
 
-
 ## -prototype
+
 
 ````
 PFN_WSK_GET_NAME_INFO WskGetNameInfo;
@@ -68,14 +78,17 @@ NTSTATUS WSKAPI * WskGetNameInfo(
 
 ## -parameters
 
+
+
+
 ### -param Client [in]
 
 [in] A pointer to a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a> structure that was returned through
      the 
      <i>WskProviderNpi</i> parameter of the 
-     <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">
-     WskCaptureProviderNPI</a> function.
+     <mshelp:link keywords="netvista.wskcaptureprovidernpi" tabindex="0"><b>
+     WskCaptureProviderNPI</b></mshelp:link> function.
 
 
 ### -param SockAddr [in]
@@ -127,39 +140,6 @@ The following flags are available:
 
 
 
-### -param NI_DGRAM
-
-Indicates that the service is a datagram service. This flag is necessary for the few services
-       that provide different port numbers for UDP and TCP service.
-
-
-### -param NI_NAMEREQD
-
-Indicates that a host name that cannot be resolved by DNS results in an error.
-
-
-### -param NI_NOFQDN
-
-Results in a local host having only its Relative Distinguished Name (RDN) returned in the 
-       <i>NodeName</i> parameter.
-
-
-### -param NI_NUMERICHOST
-
-Indicates that the function returns the numeric form of the host name instead of its name, a
-       reverse DNS lookup. The numeric form of the host name is also returned if the host name cannot be
-       resolved by DNS.
-
-
-### -param NI_NUMERICSERV
-
-Indicates that the function returns the port number of the service instead of its name. Also, if
-       a host name is not found for an IP address (127.0.0.2, for example), the host name is returned as the
-       IP address.
-
-</dd>
-</dl>
-
 ### -param OwningProcess [in, optional]
 
 [in] An optional pointer to the process from which the function retrieves the security context.
@@ -193,33 +173,113 @@ If this parameter is not <b>NULL</b> and an impersonation token is in effect for
      <b>Iostatus.Information</b> will hold the returned status code.
 
 
+##### - Flags.NI_NAMEREQD
+
+Indicates that a host name that cannot be resolved by DNS results in an error.
+
+
+##### - Flags.NI_NUMERICHOST
+
+Indicates that the function returns the numeric form of the host name instead of its name, a
+       reverse DNS lookup. The numeric form of the host name is also returned if the host name cannot be
+       resolved by DNS.
+
+
+##### - Flags.NI_DGRAM
+
+Indicates that the service is a datagram service. This flag is necessary for the few services
+       that provide different port numbers for UDP and TCP service.
+
+
+##### - Flags.NI_NOFQDN
+
+Results in a local host having only its Relative Distinguished Name (RDN) returned in the 
+       <i>NodeName</i> parameter.
+
+
+##### - Flags.NI_NUMERICSERV
+
+Indicates that the function returns the port number of the service instead of its name. Also, if
+       a host name is not found for an IP address (127.0.0.2, for example), the host name is returned as the
+       IP address.
+
+
 ## -returns
+
+
 <b>WskGetNameInfo</b> returns one of the following NTSTATUS codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>An invalid parameter was specified.
+</dl>
+</td>
+<td width="60%">
+An invalid parameter was specified.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NO_MATCH</b></dt>
-</dl>The host name cannot be resolved.
+</dl>
+</td>
+<td width="60%">
+The host name cannot be resolved.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The function completed successfully. If the WSK application specified a pointer to an IRP in the
+</dl>
+</td>
+<td width="60%">
+The function completed successfully. If the WSK application specified a pointer to an IRP in the
        
        <i>Irp</i> parameter, the IRP will be completed with a success status.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_PENDING</b></dt>
-</dl>The WSK subsystem could not complete the function immediately. The WSK subsystem will complete
+</dl>
+</td>
+<td width="60%">
+The WSK subsystem could not complete the function immediately. The WSK subsystem will complete
        the IRP after it has completed the control operation. The status of the control operation will be
        returned in the 
        <b>IoStatus.Status</b> field of the IRP.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>Other status codes</b></dt>
-</dl>An error occurred. The IRP will be completed with failure status.
+</dl>
+</td>
+<td width="60%">
+An error occurred. The IRP will be completed with failure status.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The process to which the 
     <i>OwningProcess</i> parameter points, or the thread to which the 
     <i>OwningThread</i> process points, indicates the security context for this function. The user account
@@ -227,30 +287,24 @@ The process to which the
     request.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
-</dt>
-<dt>
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
-</dt>
-<dt>
+
 <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
-</dt>
-<dt>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
+
 <a href="..\wsk\nc-wsk-pfn_wsk_get_address_info.md">WskGetAddressInfo</a>
-</dt>
-</dl>
- 
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_GET_NAME_INFO callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_GET_NAME_INFO callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

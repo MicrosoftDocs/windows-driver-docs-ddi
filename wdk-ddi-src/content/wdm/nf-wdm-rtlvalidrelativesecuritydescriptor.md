@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1fb993f0-4289-4406-8a56-47b12c73f4e6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlValidRelativeSecurityDescriptor
+ms.keywords: kernel.rtlvalidrelativesecuritydescriptor, RtlValidRelativeSecurityDescriptor, wdm/RtlValidRelativeSecurityDescriptor, RtlValidRelativeSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_b261fb47-147f-4e39-81fb-bdbc31d53681.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlValidRelativeSecurityDescriptor
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlValidRelativeSecurityDescriptor
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RtlValidRelativeSecurityDescriptor function
 
 
-
 ## -description
+
+
 The <b>RtlValidRelativeSecurityDescriptor</b> routine checks the validity of a self-relative security descriptor.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN RtlValidRelativeSecurityDescriptor(
@@ -56,6 +66,9 @@ BOOLEAN RtlValidRelativeSecurityDescriptor(
 
 
 ## -parameters
+
+
+
 
 ### -param SecurityDescriptorInput [in]
 
@@ -73,25 +86,27 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURIT
 
 
 ## -returns
+
+
 <b>RtlValidRelativeSecurityDescriptor</b> returns <b>TRUE</b> if the security descriptor is valid and includes the information that the <i>RequiredInformation</i> parameter specifies. Otherwise, this routine returns <b>FALSE</b>.
 
 
+
 ## -remarks
+
+
 To check the validity of a security descriptor in absolute format, use <a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a> instead.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

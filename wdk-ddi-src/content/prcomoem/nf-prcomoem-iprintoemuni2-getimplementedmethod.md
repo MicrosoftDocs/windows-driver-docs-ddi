@@ -7,8 +7,8 @@ old-location: print\iprintoemuni2_getimplementedmethod.htm
 old-project: print
 ms.assetid: a26f7094-8530-4525-b94a-c94dc9ba9629
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: IPrintOemUni2, IPrintOemUni2::GetImplementedMethod, GetImplementedMethod
+ms.date: 1/18/2018
+ms.keywords: GetImplementedMethod, GetImplementedMethod method [Print Devices], IPrintOemUni2 interface, prcomoem/IPrintOemUni2::GetImplementedMethod, print_unidrv-pscript_rendering_3d4fda36-1657-4656-a0bd-e9f65f0f5982.xml, IPrintOemUni2::GetImplementedMethod, print.iprintoemuni2_getimplementedmethod, IPrintOemUni2 interface [Print Devices], GetImplementedMethod method, IPrintOemUni2, GetImplementedMethod method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPrintOemUni2.GetImplementedMethod
-req.alt-loc: Prcomoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,23 +26,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Prcomoem.h
+apiname: 
+-	IPrintOemUni2.GetImplementedMethod
+product: Windows
+targetos: Windows
+req.typenames: *POEMPTOPTS, OEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
 # IPrintOemUni2::GetImplementedMethod method
 
 
-
 ## -description
+
+
 The <code>IPrintOemUni2::GetImplementedMethod</code> method is used by Unidrv to determine which <b>IPrintOemUni2</b> interface methods a rendering plug-in has implemented.
 
 
-
 ## -syntax
+
 
 ````
 STDMETHOD GetImplementedMethod(
@@ -55,24 +65,52 @@ STDMETHOD GetImplementedMethod(
 
 ## -parameters
 
-### -param pMethodName 
+
+
+
+### -param pMethodName
 
 Caller-supplied pointer to a string that represents the name of an <b>IPrintOemUni2</b> interface method, such as "ImageProcessing" for <b>IPrintOemUni2::ImageProcessing</b> or "FilterGraphics" for <b>IPrintOemUni2::FilterGraphics</b>.
 
 
 ## -returns
+
+
 <code>GetImplementedMethod</code> must return one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The operation succeeded (that is, the specified method is implemented).
+</dl>
+</td>
+<td width="60%">
+The operation succeeded (that is, the specified method is implemented).
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_FALSE</b></dt>
-</dl>The operation failed (that is, the specified method is not implemented).
+</dl>
+</td>
+<td width="60%">
+The operation failed (that is, the specified method is not implemented).
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A rendering plug-in for Unidrv must implement the <code>IPrintOemUni2::GetImplementedMethod</code> method, together with several other methods in this interface. For those methods that are optional, <code>IPrintOemUni2::GetImplementedMethod</code> examines the input method name string and returns a value that indicates whether the associated method is implemented within the plug-in. For example, if <code>IPrintOemUni2::GetImplementedMethod</code> is called with the string "ImageProcessing", it should return S_OK if the <b>IPrintOemUni2::ImageProcessing</b> method is implemented and S_FALSE otherwise.  
 
 The <code>IPrintOemUni2::GetImplementedMethod</code> method must recognize the following name strings:
@@ -103,4 +141,6 @@ The <code>IPrintOemUni2::GetImplementedMethod</code> method must recognize the f
 
 "TTYGetInfo"
 
-"WritePrinter"</p>
+"WritePrinter"
+
+

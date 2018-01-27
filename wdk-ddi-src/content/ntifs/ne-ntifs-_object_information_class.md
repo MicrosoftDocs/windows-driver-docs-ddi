@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fbcca01d-2dd6-405a-9ec2-709652e9dcd6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _OBJECT_INFORMATION_CLASS, OBJECT_INFORMATION_CLASS
+ms.keywords: ntifs/ObjectBasicInformation, ObjectTypeInformation, objectstructures_60aa943f-6a91-429d-8c9d-1554f1bcf03e.xml, ntifs/ObjectTypeInformation, ntifs/OBJECT_INFORMATION_CLASS, OBJECT_INFORMATION_CLASS, OBJECT_INFORMATION_CLASS enumeration [Installable File System Drivers], ifsk.object_information_class, _OBJECT_INFORMATION_CLASS, ObjectBasicInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Microsoft Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OBJECT_INFORMATION_CLASS
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	OBJECT_INFORMATION_CLASS
+product: Windows
+targetos: Windows
 req.typenames: OBJECT_INFORMATION_CLASS
 ---
 
 # _OBJECT_INFORMATION_CLASS enumeration
 
 
-
 ## -description
+
+
 The OBJECT_INFORMATION_CLASS enumeration type represents the type of information to supply about an object.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _OBJECT_INFORMATION_CLASS { 
@@ -55,6 +65,9 @@ typedef enum _OBJECT_INFORMATION_CLASS {
 
 ## -enum-fields
 
+
+
+
 ### -field ObjectBasicInformation
 
 A <a href="..\ntifs\ns-ntifs-_public_object_basic_information.md">PUBLIC_OBJECT_BASIC_INFORMATION</a> structure is supplied.
@@ -65,21 +78,14 @@ A <a href="..\ntifs\ns-ntifs-_public_object_basic_information.md">PUBLIC_OBJECT_
 A <a href="..\ntifs\ns-ntifs-__public_object_type_information.md">PUBLIC_OBJECT_TYPE_INFORMATION</a> structure is supplied.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\ns-ntifs-_public_object_basic_information.md">PUBLIC_OBJECT_BASIC_INFORMATION</a>
-</dt>
-<dt>
-<a href="..\ntifs\ns-ntifs-__public_object_type_information.md">PUBLIC_OBJECT_TYPE_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-zwqueryobject.md">ZwQueryObject</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\ns-ntifs-_public_object_basic_information.md">PUBLIC_OBJECT_BASIC_INFORMATION</a>
+
+<a href="..\ntifs\ns-ntifs-__public_object_type_information.md">PUBLIC_OBJECT_TYPE_INFORMATION</a>
+
  
 
  

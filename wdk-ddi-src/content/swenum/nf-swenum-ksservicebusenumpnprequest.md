@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cdf0017f-e8c0-4e95-bea6-8bc2509c090c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsServiceBusEnumPnpRequest
+ms.keywords: stream.ksservicebusenumpnprequest, KsServiceBusEnumPnpRequest, swenum/KsServiceBusEnumPnpRequest, ksfunc_eb0bfe3e-a401-4941-8b68-a9de970c2b1e.xml, KsServiceBusEnumPnpRequest function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsServiceBusEnumPnpRequest
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsServiceBusEnumPnpRequest
+product: Windows
+targetos: Windows
 req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
 req.product: Windows 10 or later.
 ---
@@ -38,15 +48,16 @@ req.product: Windows 10 or later.
 # KsServiceBusEnumPnpRequest function
 
 
-
 ## -description
+
+
 <i>This function is intended for internal use only.</i>
 
 The <b>KsServiceBusEnumPnpRequest</b> function services IRP_MJ_PNP requests on behalf of the demand-load bus enumerator object that was created with <b>KsCreateBusEnumObject</b>. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsServiceBusEnumPnpRequest(
@@ -57,6 +68,9 @@ NTSTATUS KsServiceBusEnumPnpRequest(
 
 
 ## -parameters
+
+
+
 
 ### -param DeviceObject [in]
 
@@ -69,63 +83,122 @@ Pointer to the IRP associated with the device object.
 
 
 ## -returns
+
+
 Returns STATUS_NOT_SUPPORTED if the IRP is not handled by <b>KsServiceBusEnumPnpRequest</b> or STATUS_INVALID_DEVICE_REQUEST if the device object is neither a parent or child of the demand-load bus enumerator object. Otherwise, it returns the status code for the IRP processing.
 
 
-## -remarks
-<b>KsServiceBusEnumPnpRequest</b> services the following Plug and Play IRPs for an FDO or parent device:
 
+## -remarks
+
+
+<b>KsServiceBusEnumPnpRequest</b> services the following Plug and Play IRPs for an FDO or parent device:
+<ul>
+<li>
 IRP_MN_START_DEVICE
 
+</li>
+<li>
 IRP_MN_QUERY_BUS_INFORMATION
 
+</li>
+<li>
 IRP_MN_QUERY_DEVICE_RELATIONS
 
+</li>
+<li>
 IRP_MN_QUERY_STOP_DEVICE
 
+</li>
+<li>
 IRP_MN_QUERY_REMOVE_DEVICE
 
+</li>
+<li>
 IRP_MN_CANCEL_STOP_DEVICE
 
+</li>
+<li>
 IRP_MN_CANCEL_REMOVE_DEVICE
 
+</li>
+<li>
 IRP_MN_STOP_DEVICE
 
+</li>
+<li>
 IRP_MN_REMOVE_DEVICE
 
-<b>KsServiceBusEnumPnpRequest</b> services the following Plug and Play IRPs for a PDO or child device:
+</li>
+</ul><b>KsServiceBusEnumPnpRequest</b> services the following Plug and Play IRPs for a PDO or child device:
+<ul>
+<li>
+IRP_MN_START_DEVICE
 
+</li>
+<li>
+IRP_MN_QUERY_STOP_DEVICE
+
+</li>
+<li>
+IRP_MN_QUERY_REMOVE_DEVICE
+
+</li>
+<li>
+IRP_MN_STOP_DEVICE
+
+</li>
+<li>
+IRP_MN_REMOVE_DEVICE
+
+</li>
+<li>
 IRP_MN_QUERY_DEVICE_RELATIONS (TargetDeviceRelations)
 
+</li>
+<li>
 IRP_MN_QUERY_PNP_DEVICE_STATE
 
+</li>
+<li>
 IRP_MN_QUERY_ID
 
+</li>
+<li>
 IRP_MN_QUERY_INTERFACE
 
+</li>
+<li>
 IRP_MN_QUERY_RESOURCES
 
+</li>
+<li>
 IRP_MN_QUERY_RESOURCE_REQUIREMENTS
 
+</li>
+<li>
 IRP_MN_READ_CONFIG
 
+</li>
+<li>
 IRP_MN_WRITE_CONFIG
 
+</li>
+<li>
 IRP_MN_QUERY_CAPABILITIES
+
+</li>
+</ul><div class="alert"><b>Note</b>  : <b>KsServiceBusEnumPnpRequest</b> does not complete the given IRP.</div><div> </div>
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\swenum\nf-swenum-kscreatebusenumobject.md">KsCreateBusEnumObject</a>
-</dt>
-<dt>
+
 <a href="..\swenum\nf-swenum-ksisbusenumchilddevice.md">KsIsBusEnumChildDevice</a>
-</dt>
-<dt>
+
 <a href="..\swenum\nf-swenum-ksservicebusenumcreaterequest.md">KsServiceBusEnumCreateRequest</a>
-</dt>
-</dl>
+
  
 
  

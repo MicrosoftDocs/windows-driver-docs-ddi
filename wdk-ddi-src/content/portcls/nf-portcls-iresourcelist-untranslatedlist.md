@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b5b0a540-2730-40ef-8f65-135a19b9a732
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IResourceList, IResourceList::UntranslatedList, UntranslatedList
+ms.keywords: IResourceList::UntranslatedList, UntranslatedList, portcls/IResourceList::UntranslatedList, audmp-routines_b367743a-b341-49cc-a300-da84b91ec7a5.xml, IResourceList interface [Audio Devices], UntranslatedList method, UntranslatedList method [Audio Devices], IResourceList interface, audio.iresourcelist_untranslatedlist, IResourceList, UntranslatedList method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IResourceList.UntranslatedList
-req.alt-loc: portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	portcls.h
+apiname: 
+-	IResourceList.UntranslatedList
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IResourceList::UntranslatedList method
 
 
-
 ## -description
+
+
 The <code>UntranslatedList</code> method returns the list of untranslated resources.
 
 
-
 ## -syntax
+
 
 ````
 PCM_RESOURCE_LIST UntranslatedList(
@@ -54,25 +64,27 @@ PCM_RESOURCE_LIST UntranslatedList(
 
 ## -parameters
 
-### -param None 
+
+
+
+
+#### - None
+
 
 
 ## -returns
+
+
 <code>UntranslatedList</code> returns a pointer to a <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure that specifies all of the system hardware resources that are assigned to the device. The resources in the list are in untranslated form. This pointer remains valid until the resource list object is deleted.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
-</dt>
-</dl>
+
  
 
  

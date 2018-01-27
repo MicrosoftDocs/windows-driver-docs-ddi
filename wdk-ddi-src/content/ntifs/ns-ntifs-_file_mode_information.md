@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c01ee792-4e39-4135-b389-a5c5ac832245
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _FILE_MODE_INFORMATION, *PFILE_MODE_INFORMATION, FILE_MODE_INFORMATION
+ms.keywords: FILE_MODE_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_b_ab9ae7a9-242c-4f0e-a44f-8c5883b0c3ce.xml, FILE_MODE_INFORMATION, PFILE_MODE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PFILE_MODE_INFORMATION, *PFILE_MODE_INFORMATION, ntifs/FILE_MODE_INFORMATION, kernel.file_mode_information, ntifs/PFILE_MODE_INFORMATION, _FILE_MODE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows XP and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FILE_MODE_INFORMATION
-req.alt-loc: Ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PFILE_MODE_INFORMATION, FILE_MODE_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntifs.h
+apiname: 
+-	FILE_MODE_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: FILE_MODE_INFORMATION, *PFILE_MODE_INFORMATION
 ---
 
 # _FILE_MODE_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>FILE_MODE_INFORMATION</b> structure is used to query or set the access mode of a file.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _FILE_MODE_INFORMATION {
@@ -54,62 +64,63 @@ typedef struct _FILE_MODE_INFORMATION {
 
 ## -struct-fields
 
+
+
+
 ### -field Mode
 
 Specifies the mode in which the file will be accessed following a create-file or open-file operation. This parameter is either zero or the bitwise OR of one or more of the following file option flags:
 
 
 
-
-### -field FILE_WRITE_THROUGH
-
-Any system services, file system drivers (FSDs), and drivers that write data to the file must actually transfer the data into the file before any requested write operation is considered complete.
+These flags are defined in the Wdm.h header file. For more information, see the Remarks section.
 
 
-### -field FILE_SEQUENTIAL_ONLY
+##### - Mode.FILE_DELETE_ON_CLOSE
 
-All accesses to the file will be sequential.
-
-
-### -field FILE_NO_INTERMEDIATE_BUFFERING
-
-The file cannot be cached or buffered in a driver's internal buffers.
+Delete the file when the last handle to the file is closed.
 
 
-### -field FILE_SYNCHRONOUS_IO_ALERT
-
-All operations on the file are performed synchronously. Any wait on behalf of the caller is subject to premature termination from alerts. This flag also causes the I/O system to maintain the file position context.
-
-
-### -field FILE_SYNCHRONOUS_IO_NONALERT
+##### - Mode.FILE_SYNCHRONOUS_IO_NONALERT
 
 All operations on the file are performed synchronously. Wait requests in the system that must synchronize I/O queuing and completion are not subject to alerts. This flag also causes the I/O system to maintain the file position context.
 
 
-### -field FILE_DELETE_ON_CLOSE
+##### - Mode.FILE_SYNCHRONOUS_IO_ALERT
 
-Delete the file when the last handle to the file is closed.
+All operations on the file are performed synchronously. Any wait on behalf of the caller is subject to premature termination from alerts. This flag also causes the I/O system to maintain the file position context.
 
-</dd>
-</dl>
-These flags are defined in the Wdm.h header file. For more information, see the Remarks section.
+
+##### - Mode.FILE_SEQUENTIAL_ONLY
+
+All accesses to the file will be sequential.
+
+
+##### - Mode.FILE_WRITE_THROUGH
+
+Any system services, file system drivers (FSDs), and drivers that write data to the file must actually transfer the data into the file before any requested write operation is considered complete.
+
+
+##### - Mode.FILE_NO_INTERMEDIATE_BUFFERING
+
+The file cannot be cached or buffered in a driver's internal buffers.
 
 
 ## -remarks
+
+
 This structure contains a set of flags that specify the mode in which the file can be accessed. These flags are a subset of the options that can be specified in the <i>CreateOptions</i> parameter of the <a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a> routine.
 
 This structure is used by the <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a> routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
+
  
 
  

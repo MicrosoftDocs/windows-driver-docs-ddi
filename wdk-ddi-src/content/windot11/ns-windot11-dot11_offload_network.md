@@ -7,8 +7,8 @@ old-location: netvista\dot11_offload_network.htm
 old-project: netvista
 ms.assetid: 75DC558F-801B-42ED-9282-127E86E78923
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DOT11_OFFLOAD_NETWORK, DOT11_OFFLOAD_NETWORK, *PDOT11_OFFLOAD_NETWORK
+ms.date: 1/18/2018
+ms.keywords: PDOT11_OFFLOAD_NETWORK structure pointer [Network Drivers Starting with Windows Vista], PDOT11_OFFLOAD_NETWORK, *PDOT11_OFFLOAD_NETWORK, windot11/DOT11_OFFLOAD_NETWORK, windot11/PDOT11_OFFLOAD_NETWORK, DOT11_OFFLOAD_NETWORK, DOT11_OFFLOAD_NETWORK structure [Network Drivers Starting with Windows Vista], netvista.dot11_offload_network
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DOT11_OFFLOAD_NETWORK
-req.alt-loc: Windot11.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,17 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DOT11_OFFLOAD_NETWORK, *PDOT11_OFFLOAD_NETWORK
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Windot11.h
+apiname: 
+-	DOT11_OFFLOAD_NETWORK
+product: Windows
+targetos: Windows
+req.typenames: *PDOT11_OFFLOAD_NETWORK, DOT11_OFFLOAD_NETWORK
 req.product: Windows 10 or later.
 ---
 
 # DOT11_OFFLOAD_NETWORK structure
 
 
-
 ## -description
 
+
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_OFFLOAD_NETWORK structure describes a network list offload.
+
+
 ## -syntax
+
 
 ````
 typedef struct _DOT11_OFFLOAD_NETWORK {
@@ -54,6 +67,9 @@ typedef struct _DOT11_OFFLOAD_NETWORK {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Ssid
 
@@ -70,9 +86,13 @@ Cipher algorithm for data encryption and decryption.
 Wireless LAN authentication algorithm.
 
 
-### -field Dot11ChannelHints[DOT11_MAX_CHANNEL_HINTS]
+### -field Dot11ChannelHints
+
+ 
+
+
+
+#### - Dot11ChannelHints[DOT11_MAX_CHANNEL_HINTS]
 
 Array of hints listing 802.11 PHY and media types and channels.
 
-
-## -remarks

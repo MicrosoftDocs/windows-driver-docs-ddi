@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0e989ea4-3693-4c0b-86a5-96b865a0193f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PTE, DXGK_PTE
+ms.keywords: display.settransform, SetTransform callback function [Display Devices], SetTransform, PFND3DDDI_SETTRANSFORM, PFND3DDDI_SETTRANSFORM, d3dumddi/SetTransform, UserModeDisplayDriver_Functions_721be745-bcea-4eeb-9bd4-ddda1f1912a5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetTransform
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	SetTransform
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PTE
 ---
 
 # PFND3DDDI_SETTRANSFORM callback
 
 
-
 ## -description
+
+
 The <i>SetTransform</i> function sets up a transform.
 
 
-
 ## -prototype
+
 
 ````
 PFND3DDDI_SETTRANSFORM SetTransform;
@@ -58,32 +68,39 @@ __checkReturn HRESULT APIENTRY SetTransform(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-### -param pData [in]
+### -param *
+
+
+
+
+
+
+#### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_settransform.md">D3DDDIARG_SETTRANSFORM</a> structure that describes how to set up the transform.
 
 
 ## -returns
+
+
 <i>SetTransform</i> returns S_OK or an appropriate error result if the transform is not successfully set up.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_settransform.md">D3DDDIARG_SETTRANSFORM</a>
-</dt>
-<dt>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-</dt>
-</dl>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_settransform.md">D3DDDIARG_SETTRANSFORM</a>
+
  
 
  

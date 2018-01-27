@@ -7,8 +7,8 @@ old-location: debugger\idebugsymbols.htm
 old-project: debugger
 ms.assetid: 8040db26-0405-4dd3-87c5-b89d812549b5
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugSystemObjects4, IDebugSystemObjects4::SetImplicitThreadDataOffset, SetImplicitThreadDataOffset
+ms.date: 1/19/2018
+ms.keywords: debugger.idebugsymbols, IDebugSymbols interface [Windows Debugging], IDebugSymbols interface [Windows Debugging], described, IDebugSymbols, dbgeng/IDebugSymbols, IDebugSymbols_4046a7ad-b8ed-4a10-991e-f7d63f9e35d0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugSymbols
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,128 +26,33 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugSymbols
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugSymbols interface
 
 
-
 ## -description
 
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbols</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IDebugSymbols</b> also has these types of members:
 
-The <b>IDebugSymbols</b> interface has these methods.
-
-Turns on some of the engine's global symbol options.
-
-
-Appends directories to the executable image path.
-
-Appends directories to the source path.
-
-Appends directories to the symbol path.
-
-Creates a new symbol group.
-
-Releases the resources used by a symbol search.
-
-Searches the source path for a specified source file.
-
-Returns the offset of a field from the base address of an instance of a type.
-
-Returns the executable image path.
-
-Returns the source filename and the line number within the source file of an instruction in the target.
-
-Returns the location of the module with the specified index.
-
-Searches through the target's modules for one with the specified name.
-
- Searches through the target's modules for one whose memory allocation includes the specified location.
-
-Returns the names of the specified module.
-
-Returns parameters for modules in the target.
-
-Returns the name of the symbol at the specified location in the target's virtual address space.
-
-Returns the name of a symbol that is located near the specified location.
-
-
-Returns the next symbol found in a symbol search.
-
-Returns the number of modules in the current process's module list.
-
-Returns the location of the instruction that corresponds to a specified line in the source code.
-
-Returns the location of a symbol identified by name.
-
-Returns the type ID of the symbol closest to the specified memory location.
-
-Returns information about the current scope.
-
-Returns a symbol group containing the symbols in the current target's scope.
-
-Maps each line in a source file to a location in the target's memory.
-
-Returns the source path.
-
-Returns an element from the source path.
-
-Returns the base address of module which contains the specified symbol.
-
-Returns the engine's global symbol options.
-
-Returns the symbol path.
-
-Returns the type ID and module of the specified symbol.
-
-Looks up the specified type and return its type ID.
-
-Returns the name of the type symbol specified by its type ID and module.
-
-Returns the number of bytes of memory an instance of the specified type requires.
-
-Formats the contents of a variable in the target computer's physical memory, and then sends this to the output callbacks.
-
-Formats the contents of a variable in the target's virtual memory, and then sends this to the output callbacks.
-
-Reads the value of a variable from the target computer's physical memory.
-
-Reads the value of a variable in the target's virtual memory.
-
-Deletes the engine's symbol information for the specified module and reload these symbols as needed.
-
-Turns off some of the engine's global symbol options.
-
-
-Resets the current scope to the default scope of the current thread.
-
-Sets the executable image path.
-
-Sets the current scope.
-
-Sets the source path.
-
-Changes the engine's global symbol options.
-
-Sets the symbol path.
-
-Initializes a search for symbols whose names match a given pattern.
-
-Writes the value of a variable in the target computer's physical memory.
-
-Writes data to the target's virtual address space.
-
- 
 
 
 ## -members
+
 The <b>IDebugSymbols</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -704,21 +607,15 @@ Writes data to the target's virtual address space.
  
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-</dt>
-<dt>
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols interface%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols interface%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

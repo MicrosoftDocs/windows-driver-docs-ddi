@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e451e4e3-0b8a-4a17-8e4e-2da99d336a39
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_UPDATE_REASON,
+ms.keywords: IDDCX_UPDATE_REASON_CONFIGURATION_CONSTRAINTS, iddcx/IDDCX_UPDATE_REASON_POWER_CONSTRAINTS, iddcx/IDDCX_UPDATE_REASON, IDDCX_UPDATE_REASON_DISPLAY_LINK_BANDWIDTH, IDDCX_UPDATE_REASON_UNINITIALIZED, iddcx/IDDCX_UPDATE_REASON_OTHER, iddcx/IDDCX_UPDATE_REASON_HOST_LINK_BANDWIDTH, IDDCX_UPDATE_REASON, IDDCX_UPDATE_REASON_POWER_CONSTRAINTS, iddcx/IDDCX_UPDATE_REASON_DISPLAY_LINK_BANDWIDTH, iddcx/IDDCX_UPDATE_REASON_CONFIGURATION_CONSTRAINTS, display.iddcx_update_reason, IDDCX_UPDATE_REASON enumeration [Display Devices], IDDCX_UPDATE_REASON_HOST_LINK_BANDWIDTH, IDDCX_UPDATE_REASON_OTHER, iddcx/IDDCX_UPDATE_REASON_UNINITIALIZED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDDCX_UPDATE_REASON
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: _requires_same_
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDDCX_UPDATE_REASON
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDDCX_UPDATE_REASON enumeration
 
 
-
 ## -description
+
+
 
                     Describes why the driver is calling to update the mode list
                 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _IDDCX_UPDATE_REASON { 
@@ -60,6 +70,9 @@ typedef enum _IDDCX_UPDATE_REASON {
 
 
 ## -enum-fields
+
+
+
 
 ### -field IDDCX_UPDATE_REASON_UNINITIALIZED
 
@@ -103,4 +116,7 @@ typedef enum _IDDCX_UPDATE_REASON {
                     
 
 
-## -remarks
+### -field UINT
+
+
+

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 842ed1ac-4043-41ce-90e5-94c9098e9da4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: NpdBrokerUninitialize
+ms.keywords: stream.avstrminiframereturn, AVStrMiniFrameReturn, AVStrMiniFrameReturn routine [Streaming Media Devices], AVStrMiniFrameReturn, PFNKSPINFRAMERETURN, PFNKSPINFRAMERETURN, ks/AVStrMiniFrameReturn, avstclbk_e7edb74a-8c38-4e7d-9978-849e5d88c153.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AVStrMiniFrameReturn
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ks.h
+apiname: 
+-	AVStrMiniFrameReturn
+product: Windows
+targetos: Windows
 req.typenames: KEYWORDSELECTOR
 ---
 
 # PFNKSPINFRAMERETURN callback
 
 
-
 ## -description
+
+
 An AVStream minidriver's <i>AVStrMiniFrameReturn</i> routine is called when an injected frame has completed its trip around the circuit and is ready to be recycled or freed.
 
 
-
 ## -prototype
+
 
 ````
 PFNKSPINFRAMERETURN AVStrMiniFrameReturn;
@@ -62,6 +72,9 @@ void AVStrMiniFrameReturn(
 
 ## -parameters
 
+
+
+
 ### -param Pin [in]
 
 Pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure representing the pin on which the frame was injected.
@@ -72,9 +85,8 @@ Pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure representing th
 Pointer to the buffer originally specified in the call to <a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>.
 
 
-### -param Size [in, optional]
+### -param OPTIONAL
 
-Specifies the size in bytes of <i>Data</i> as originally specified in <a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>.
 
 
 ### -param Mdl [in, optional]
@@ -92,23 +104,31 @@ Pointer to the minidriver-supplied context buffer attached to the frame when the
 Contains a copy of <i>Irp-&gt;IoStatus.Status</i> for the IRP to which the requested frame was attached.
 
 
+#### - Size [in, optional]
+
+Specifies the size in bytes of <i>Data</i> as originally specified in <a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>.
+
+
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The minidriver specifies this routine's address in the <i>FrameReturn</i> parameter of a call to <a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-kspinsubmitframemdl.md">KsPinSubmitFrameMdl</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
+
  
 
  

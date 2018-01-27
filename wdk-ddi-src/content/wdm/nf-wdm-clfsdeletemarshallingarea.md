@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8aa7aec3-85d7-40a2-a63d-bee8c5ce1ff9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsDeleteMarshallingArea
+ms.keywords: wdm/ClfsDeleteMarshallingArea, kernel.clfsdeletemarshallingarea, ClfsDeleteMarshallingArea, ClfsDeleteMarshallingArea routine [Kernel-Mode Driver Architecture], Clfs_a015edd3-4625-4b24-995f-75217a711528.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ClfsDeleteMarshallingArea
-req.alt-loc: Clfs.sys,Ext-MS-Win-fs-clfs-l1-1-0.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Clfs.sys
+-	Ext-MS-Win-fs-clfs-l1-1-0.dll
+apiname: 
+-	ClfsDeleteMarshallingArea
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ClfsDeleteMarshallingArea function
 
 
-
 ## -description
+
+
 The <b>ClfsDeleteMarshallingArea</b> routine deletes a marshalling area.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ClfsDeleteMarshallingArea(
@@ -55,16 +66,24 @@ NTSTATUS ClfsDeleteMarshallingArea(
 
 ## -parameters
 
+
+
+
 ### -param pvMarshalContext [in]
 
 A pointer to an opaque context that represents a marshalling area. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>.
 
 
 ## -returns
+
+
 <b>ClfsDeleteMarshallingArea</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
+
 ## -remarks
+
+
 Before deleting the marshalling area, <b>ClfsDeleteMarshallingArea</b> flushes all of the log I/O blocks associated with the marshalling area.
 
 The marshalling area goes away only after all references to it go away. For example, the marshalling area remains in memory if it still has an open read context.
@@ -72,12 +91,11 @@ The marshalling area goes away only after all references to it go away. For exam
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1749127f-c5fc-4e69-a2dd-00540e1c4c9a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_CHECKSHAREDRESOURCEACCESS, D3DKMT_CHECKSHAREDRESOURCEACCESS
+ms.keywords: OpenGL_Structs_5d797cef-2ace-482b-a7b2-82b26a2c7504.xml, D3DKMT_CHECKSHAREDRESOURCEACCESS structure [Display Devices], d3dkmthk/D3DKMT_CHECKSHAREDRESOURCEACCESS, _D3DKMT_CHECKSHAREDRESOURCEACCESS, D3DKMT_CHECKSHAREDRESOURCEACCESS, display.d3dkmt_checksharedresourceaccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: D3DKMT_CHECKSHAREDRESOURCEACCESS is supported beginni
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_CHECKSHAREDRESOURCEACCESS
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_CHECKSHAREDRESOURCEACCESS
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_CHECKSHAREDRESOURCEACCESS
 ---
 
 # _D3DKMT_CHECKSHAREDRESOURCEACCESS structure
 
 
-
 ## -description
+
+
 The D3DKMT_CHECKSHAREDRESOURCEACCESS structure describes parameters that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtchecksharedresourceaccess.md">D3DKMTCheckSharedResourceAccess</a> function uses to determine if a process can access a shared resource. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_CHECKSHAREDRESOURCEACCESS {
@@ -55,6 +65,9 @@ typedef struct _D3DKMT_CHECKSHAREDRESOURCEACCESS {
 
 ## -struct-fields
 
+
+
+
 ### -field hResource
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the shared resource to check. 
@@ -65,15 +78,10 @@ typedef struct _D3DKMT_CHECKSHAREDRESOURCEACCESS {
 [in] A UINT value that represents the process identifier (PID) for the client process that requires access to the shared resource that the <b>hProcess</b> member specifies. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtchecksharedresourceaccess.md">D3DKMTCheckSharedResourceAccess</a>
-</dt>
-</dl>
+
  
 
  

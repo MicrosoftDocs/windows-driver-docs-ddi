@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a618420f-ea69-471d-82a0-1e86f85e270b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlOemStringToCountedUnicodeSize
+ms.keywords: ifsk.rtloemstringtocountedunicodesize, RtlOemStringToCountedUnicodeSize routine [Installable File System Drivers], RtlOemStringToCountedUnicodeSize, ntifs/RtlOemStringToCountedUnicodeSize, rtlref_dc10fcb6-356a-4c09-aea6-c386030039f0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlOemStringToCountedUnicodeSize
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ntifs.h
 req.dll: 
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	RtlOemStringToCountedUnicodeSize
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlOemStringToCountedUnicodeSize macro
 
 
-
 ## -description
+
+
 The <b>RtlOemStringToCountedUnicodeSize</b> routine determines the size, in bytes, that a given OEM string will be after it is translated into a counted Unicode string. 
 
 
-
 ## -syntax
+
 
 ````
 ULONG RtlOemStringToCountedUnicodeSize(
@@ -54,29 +64,38 @@ ULONG RtlOemStringToCountedUnicodeSize(
 
 ## -parameters
 
-### -param OemString [in]
+
+
+
+### -param STRING
+
+TBD
+
+
+
+
+#### - OemString [in]
 
 Pointer to a caller-allocated OEM string. 
 
 
 ## -remarks
+
+
 <b>RtlOemStringToCountedUnicodeSize</b> can be called to determine how much memory to allocate when translating an OEM string to Unicode with <b>RtlOemStringToCountedUnicodeString</b>. The returned value does not include space for a NULL terminator for the Unicode string.
 
 For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtloemstringtocountedunicodestring.md">RtlOemStringToCountedUnicodeString</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtloemstringtounicodesize.md">RtlOemStringToUnicodeSize</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
+
  
 
  

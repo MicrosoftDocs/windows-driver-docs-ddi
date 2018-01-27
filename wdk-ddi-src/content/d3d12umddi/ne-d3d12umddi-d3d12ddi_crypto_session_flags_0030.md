@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0a799227-9b37-45f6-bded-e56c439e465f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_CRYPTO_SESSION_FLAGS_0030, D3D12DDI_CRYPTO_SESSION_FLAGS_0030
+ms.keywords: D3D12DDI_CRYPTO_SESSION_FLAG_0030_HARDWARE, d3d12umddi/D3D12DDI_CRYPTO_SESSION_FLAG_0030_HARDWARE, d3d12umddi/D3D12DDI_CRYPTO_SESSION_FLAGS_0030, D3D12DDI_CRYPTO_SESSION_FLAGS_0030 enumeration [Display Devices], d3d12umddi/D3D12DDI_CRYPTO_SESSION_FLAG_0030_NONE, D3D12DDI_CRYPTO_SESSION_FLAGS_0030, D3D12DDI_CRYPTO_SESSION_FLAG_0030_NONE, display.d3d12ddi-crypto-session-flags-0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_CRYPTO_SESSION_FLAGS_0030
-req.alt-loc: d3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d12umddi.h
+apiname: 
+-	D3D12DDI_CRYPTO_SESSION_FLAGS_0030
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_CRYPTO_SESSION_FLAGS_0030
 ---
 
 # D3D12DDI_CRYPTO_SESSION_FLAGS_0030 enumeration
 
 
-
 ## -description
+
+
 The crypto session flags.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _D3D12DDI_CRYPTO_SESSION_FLAGS_0030 { 
@@ -55,6 +65,9 @@ typedef enum _D3D12DDI_CRYPTO_SESSION_FLAGS_0030 {
 
 ## -enum-fields
 
+
+
+
 ### -field D3D12DDI_CRYPTO_SESSION_FLAG_0030_NONE
 
 No crypto session flag is defined.
@@ -64,5 +77,3 @@ No crypto session flag is defined.
 
 The crypto session flag is of type hardware.
 
-
-## -remarks

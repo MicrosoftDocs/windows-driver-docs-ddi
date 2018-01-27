@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5822b642-0ba4-46ee-bb60-b109c50691eb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoDetachDevice
+ms.keywords: kernel.iodetachdevice, wdm/IoDetachDevice, k104_e928372b-1222-4421-bea7-c2457c38a09f.xml, IoDetachDevice, IoDetachDevice routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoDetachDevice
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlIoPassive3, PnpSurpriseRemove, PowerIrpDDis, RemoveLockCheck, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoDetachDevice
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoDetachDevice function
 
 
-
 ## -description
+
+
 The <b>IoDetachDevice</b> routine releases an attachment between the caller's device object and a lower driver's device object.
 
 
-
 ## -syntax
+
 
 ````
 VOID IoDetachDevice(
@@ -55,28 +65,34 @@ VOID IoDetachDevice(
 
 ## -parameters
 
+
+
+
 ### -param TargetDevice [in, out]
 
 Pointer to the lower driver's device object. The caller previously called <a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a> or <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a> successfully to get this pointer. 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 <b>IoDetachDevice</b> decrements the reference count of the <i>TargetDevice</i> object. If the reference count goes to zero and the lower driver has been marked for an unload operation, the lower driver is unloaded. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
+
  
 
  

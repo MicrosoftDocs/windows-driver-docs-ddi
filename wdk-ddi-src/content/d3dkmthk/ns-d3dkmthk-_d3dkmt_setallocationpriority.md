@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3135b9fa-17f0-410a-b563-57fd1548f495
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_SETALLOCATIONPRIORITY, D3DKMT_SETALLOCATIONPRIORITY
+ms.keywords: OpenGL_Structs_9afc3b7a-fcd5-4fb4-bfb9-5e752b225a4e.xml, D3DKMT_SETALLOCATIONPRIORITY structure [Display Devices], display.d3dkmt_setallocationpriority, _D3DKMT_SETALLOCATIONPRIORITY, d3dkmthk/D3DKMT_SETALLOCATIONPRIORITY, D3DKMT_SETALLOCATIONPRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_SETALLOCATIONPRIORITY
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_SETALLOCATIONPRIORITY
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_SETALLOCATIONPRIORITY
 ---
 
 # _D3DKMT_SETALLOCATIONPRIORITY structure
 
 
-
 ## -description
+
+
 The D3DKMT_SETALLOCATIONPRIORITY structure describes the priority level to set a resource or list of allocations to. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_SETALLOCATIONPRIORITY {
@@ -57,6 +67,9 @@ typedef struct _D3DKMT_SETALLOCATIONPRIORITY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -85,7 +98,6 @@ If <b>hResource</b> is non-<b>NULL</b>, all of the allocations that belong to th
 [in] A pointer to an array of priority levels. If the <b>hResource</b> member is non-<b>NULL</b>, the array must contain a single element. If <b>hResource</b> is <b>NULL</b>, the number of elements in the array is specified by the <b>AllocationCount</b> member, and each allocation in the array that <b>phAllocationList</b> specifies is set to the priority level of the corresponding element in <b>pPriorities</b>.
 
 Each element in <b>pPriorities</b> can be set to one of the following values.
-
 <table>
 <tr>
 <th>Enumerator</th>
@@ -141,21 +153,15 @@ Maximum priority
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 For more information about the meanings of the preceding values, see the Remarks section of the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setprioritycb.md">pfnSetPriorityCb</a> function. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetallocationpriority.md">D3DKMTSetAllocationPriority</a>
-</dt>
-</dl>
+
  
 
  

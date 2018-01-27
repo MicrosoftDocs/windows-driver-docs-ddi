@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 19c1bea8-dba7-45a5-9620-0d6a928019ce
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlSubtreePredecessor
+ms.keywords: RtlSubtreePredecessor routine [Installable File System Drivers], ntddk/RtlSubtreePredecessor, rtlref_0d0ea0f4-2b16-4d9c-8747-78d6ddcc90d6.xml, RtlSubtreePredecessor, ifsk.rtlsubtreepredecessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlSubtreePredecessor
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlSubtreePredecessor
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # RtlSubtreePredecessor function
 
 
-
 ## -description
+
+
 The <b>RtlSubtreePredecessor</b> routine returns a pointer to the predecessor of the specified node within the subtree that is rooted at that node. 
 
 
-
 ## -syntax
+
 
 ````
 PRTL_SPLAY_LINKS RtlSubtreePredecessor(
@@ -54,16 +64,24 @@ PRTL_SPLAY_LINKS RtlSubtreePredecessor(
 
 ## -parameters
 
+
+
+
 ### -param Links [in]
 
 A pointer to the node. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>. 
 
 
 ## -returns
+
+
 <b>RtlSubtreePredecessor</b> returns a pointer to the subtree predecessor of the node at <i>Links</i>, or <b>NULL</b> if the node has no subtree predecessor. 
 
 
+
 ## -remarks
+
+
 If the node at <i>Links</i> has a left subtree, the rightmost node of that subtree is the subtree predecessor. 
 
 Callers of the <b>Rtl</b> splay link routines are responsible for synchronizing access to the splay link tree. A fast mutex is the most efficient synchronization mechanism to use for this purpose. 
@@ -71,21 +89,17 @@ Callers of the <b>Rtl</b> splay link routines are responsible for synchronizing 
 Callers of <b>RtlSubtreePredecessor</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the tree is nonpaged. Usually, callers are running at IRQL PASSIVE_LEVEL. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-rtlrealpredecessor.md">RtlRealPredecessor</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-rtlsubtreesuccessor.md">RtlSubtreeSuccessor</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\nf-ntddk-rtlrealpredecessor.md">RtlRealPredecessor</a>
+
  
 
  

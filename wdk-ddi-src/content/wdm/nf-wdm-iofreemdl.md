@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e984400a-b94f-4848-af56-79695b327404
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoFreeMdl
+ms.keywords: IoFreeMdl, wdm/IoFreeMdl, k104_30217ed4-82a6-4b6d-b6f6-77fab8faa867.xml, IoFreeMdl routine [Kernel-Mode Driver Architecture], kernel.iofreemdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoFreeMdl
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoFreeMdl
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # IoFreeMdl function
 
 
-
 ## -description
+
+
 The <b>IoFreeMdl</b> routine releases a caller-allocated memory descriptor list (MDL). 
 
 
-
 ## -syntax
+
 
 ````
 VOID IoFreeMdl(
@@ -55,16 +65,24 @@ VOID IoFreeMdl(
 
 ## -parameters
 
+
+
+
 ### -param Mdl [in]
 
 Pointer to the MDL to be released. 
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 If a driver allocates an MDL to describe a buffer, it must explicitly release the MDL when operations on the buffer are done.
 
 If the MDL is a partial MDL, <b>IoFreeMdl</b> unmaps any pages that have been mapped to the MDL.
@@ -74,15 +92,13 @@ If the physical pages that are described by the MDL are locked, the driver must 
 This routine frees only the specified MDL. Any MDLs that are chained to this MDL must be explicitly freed through additional calls to this routine. For a code example that shows how to free an MDL chain, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565421">Using MDLs</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
-</dt>
-</dl>
+
  
 
  

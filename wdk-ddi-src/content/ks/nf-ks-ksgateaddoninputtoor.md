@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: aaa6891b-f9f9-40d5-b0eb-e17f511e2611
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGateAddOnInputToOr
+ms.keywords: stream.ksgateaddoninputtoor, avfunc_f19411cd-eca5-4acb-b0ca-f470a72a4afd.xml, KsGateAddOnInputToOr function [Streaming Media Devices], KsGateAddOnInputToOr, ks/KsGateAddOnInputToOr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsGateAddOnInputToOr
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KsGateAddOnInputToOr
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsGateAddOnInputToOr function
 
 
-
 ## -description
+
+
 The<b> KsGateAddOnInputToOr</b> function adds a new input in the ON state to a given OR gate.
 
 
-
 ## -syntax
+
 
 ````
 void __inline KsGateAddOnInputToOr(
@@ -54,39 +64,42 @@ void __inline KsGateAddOnInputToOr(
 
 ## -parameters
 
+
+
+
 ### -param OrGate [in]
 
 A pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure representing the OR gate to which to add a new ON input.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 Adding an ON input to an OR gate in the OFF or closed state results in the gate opening and the transition being propagated to any gates attached to <i>OrGate</i>. Use this function only with gates that were specifically created as OR gates. AVStream does not verify that the given gate is an OR gate.
 
 This call is an inline function call to <a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>. Minidrivers should call <b>KsGateAddOnInputToOr</b> rather than <b>KsGateTurnInputOn</b> if conceptually adding a new input to the gate. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksgateremoveoninputfromor.md">KsGateRemoveOnInputFromOr</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksgateaddoffinputtoor.md">KsGateAddOffInputToOr</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksgateremoveoffinputfromor.md">KsGateRemoveOffInputFromOr</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksgateremoveoffinputfromor.md">KsGateRemoveOffInputFromOr</a>
+
+<a href="..\ks\nf-ks-ksgateaddoffinputtoor.md">KsGateAddOffInputToOr</a>
+
+<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
+
+<a href="..\ks\nf-ks-ksgateremoveoninputfromor.md">KsGateRemoveOnInputFromOr</a>
+
  
 
  

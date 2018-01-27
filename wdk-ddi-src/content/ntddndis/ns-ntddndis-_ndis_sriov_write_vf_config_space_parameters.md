@@ -7,8 +7,8 @@ old-location: netvista\ndis_sriov_write_vf_config_space_parameters.htm
 old-project: netvista
 ms.assetid: f5f8959f-edde-4d45-b93c-8f5acb08ec98
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, *PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS
+ms.date: 1/18/2018
+ms.keywords: ntddndis/NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, _NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, ntddndis/PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_sriov_write_vf_config_space_parameters, *PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in NDIS 6.30 and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS
-req.alt-loc: Ntddndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, *PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddndis.h
+apiname: 
+-	NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS
+product: Windows
+targetos: Windows
+req.typenames: *PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS
 ---
 
 # _NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS structure
 
 
-
 ## -description
+
+
 The <b>NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS</b> structure specifies the parameters for a write operation on the PCI Express (PCIe) configuration space  of a network adapter's Virtual Function (VF).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS {
@@ -58,6 +68,9 @@ typedef struct _NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS {
 
 ## -struct-fields
 
+
+
+
 ### -field Header
 
 The type, revision, and size of the <b>NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
@@ -67,23 +80,12 @@ The driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_
 
 
 
-### -field NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS_REVISION_1
-
-Original version for NDIS 6.30 and later.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS_REVISION_1.
-
-</dd>
-</dl>
-
 ### -field VFId
 
 An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF on the network adapter.
-
 <div class="alert"><b>Note</b>  The VF with the specified NDIS_SRIOV_FUNCTION_ID value must have resources that were previously allocated through an OID set request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>.
 
-</div>
-<div> </div>
+</div><div> </div>
 
 ### -field Offset
 
@@ -100,23 +102,31 @@ A ULONG value that specifies the length, in units of bytes, of the write operati
 A ULONG value that specifies the offset, in units of bytes, from the beginning of this structure to a buffer that contains the data to be written to the PCI configuration space of the VF.
 
 
+##### - Header.NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS_REVISION_1
+
+Original version for NDIS 6.30 and later.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS_REVISION_1.
+
+
 ## -remarks
+
+
  The <b>NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS</b> structure is used in an OID set request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451925">OID_SRIOV_WRITE_VF_CONFIG_SPACE</a>.
 
 
+
 ## -see-also
-<dl>
-<dt><b></b></dt>
-<dt>
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451925">OID_SRIOV_WRITE_VF_CONFIG_SPACE</a>
-</dt>
-</dl>
- 
+
+<b></b>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

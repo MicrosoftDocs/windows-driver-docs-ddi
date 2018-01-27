@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c9d724bb-cc65-428c-ad48-21b227f3c8b1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortMoveMemory
+ms.keywords: AtaPortMoveMemory, storage.ataportmovememory, atartns_9ecea2c5-892f-4d04-9865-30598ac4e5d6.xml, AtaPortMoveMemory routine [Storage Devices], irb/AtaPortMoveMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: AtaPortMoveMemory
-req.alt-loc: ataport.lib,ataport.dll,pciidex.lib,pciidex.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,34 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ataport.lib
+-	ataport.dll
+-	pciidex.lib
+-	pciidex.dll
+apiname: 
+-	AtaPortMoveMemory
+product: Windows
+targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
 
 # AtaPortMoveMemory function
 
 
-
 ## -description
+
+
 The <b>AtaPortMoveMemory</b> routine copies data from one location to another.
-
-
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 VOID AtaPortMoveMemory(
@@ -55,6 +68,9 @@ VOID AtaPortMoveMemory(
 
 
 ## -parameters
+
+
+
 
 ### -param WriteBuffer [out]
 
@@ -72,10 +88,17 @@ Specifies the number of bytes to transfer from <i>ReadBuffer</i> to <i>WriteBuff
 
 
 ## -returns
+
+
 None 
 
 
+
 ## -remarks
+
+
 The miniport driver calls the <b>AtaPortMoveMemory</b> routine to copy data from one system-allocated area to another. 
 
-The location pointed to by <i>ReadBuffer</i> and <i>Length</i> can overlap the range of addresses between <i>WriteBuffer</i> and <i>Length</i>. </p>
+The location pointed to by <i>ReadBuffer</i> and <i>Length</i> can overlap the range of addresses between <i>WriteBuffer</i> and <i>Length</i>. 
+
+

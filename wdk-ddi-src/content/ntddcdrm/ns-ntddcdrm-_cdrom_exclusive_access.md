@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 95248a4a-1fc1-4985-baff-2fe77532d398
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CDROM_EXCLUSIVE_ACCESS, *PCDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS
+ms.keywords: *PCDROM_EXCLUSIVE_ACCESS, structs-CD-ROM_f9104134-3d0a-44fd-9a2d-9dd4e8a3636d.xml, ntddcdrm/CDROM_EXCLUSIVE_ACCESS, PCDROM_EXCLUSIVE_ACCESS, _CDROM_EXCLUSIVE_ACCESS, PCDROM_EXCLUSIVE_ACCESS structure pointer [Storage Devices], storage.cdrom_exclusive_access, CDROM_EXCLUSIVE_ACCESS structure [Storage Devices], ntddcdrm/PCDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CDROM_EXCLUSIVE_ACCESS
-req.alt-loc: ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdrm.h
+apiname: 
+-	CDROM_EXCLUSIVE_ACCESS
+product: Windows
+targetos: Windows
 req.typenames: *PCDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS
 ---
 
 # _CDROM_EXCLUSIVE_ACCESS structure
 
 
-
 ## -description
+
+
 The CDROM_EXCLUSIVE_ACCESS structure is used with the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a> request to query the access state of a CD-ROM device or to lock or unlock the device for exclusive access.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CDROM_EXCLUSIVE_ACCESS {
@@ -55,6 +65,9 @@ typedef struct _CDROM_EXCLUSIVE_ACCESS {
 
 ## -struct-fields
 
+
+
+
 ### -field RequestType
 
 An <a href="..\ntddcdrm\ne-ntddcdrm-_exclusive_access_request_type.md">EXCLUSIVE_ACCESS_REQUEST_TYPE</a>-typed enumeration value that specifies the type of operation.
@@ -63,7 +76,6 @@ An <a href="..\ntddcdrm\ne-ntddcdrm-_exclusive_access_request_type.md">EXCLUSIVE
 ### -field Flags
 
 A flag that specifies the characteristics of the operation. The meaning of the flag depends on the type of operation that <b>RequestType</b> specifies. The following table describes the possible values for <b>RequestType</b> and <b>Flags</b>:
-
 <table>
 <tr>
 <th>RequestType</th>
@@ -122,19 +134,13 @@ Prevents the sending of a media removal notification and a media arrival notific
 
 </td>
 </tr>
-</table>
- 
-
-
-## -remarks
+</table> 
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
-</dt>
-</dl>
+
  
 
  

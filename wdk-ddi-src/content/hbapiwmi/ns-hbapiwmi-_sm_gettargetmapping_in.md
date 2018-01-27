@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d6f73582-5eaf-452f-ad5a-cdf5ab99d809
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SM_GetTargetMapping_IN, *PSM_GetTargetMapping_IN, SM_GetTargetMapping_IN
+ms.keywords: _SM_GetTargetMapping_IN, SM_GetTargetMapping_IN, PSM_GetTargetMapping_IN structure pointer [Storage Devices], storage.sm_gettargetmapping_in, hbapiwmi/SM_GetTargetMapping_IN, PSM_GetTargetMapping_IN, SM_GetTargetMapping_IN structure [Storage Devices], structs-Fibre_0109f5f0-dd0c-4a30-8b0a-aa33a54b5a61.xml, hbapiwmi/PSM_GetTargetMapping_IN, *PSM_GetTargetMapping_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SM_GetTargetMapping_IN
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	SM_GetTargetMapping_IN
+product: Windows
+targetos: Windows
 req.typenames: *PSM_GetTargetMapping_IN, SM_GetTargetMapping_IN
 ---
 
 # _SM_GetTargetMapping_IN structure
 
 
-
 ## -description
+
+
 The SM_GetTargetMapping_IN structure is used to provide input parameters to the SM_GetTargetMapping method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SM_GetTargetMapping_IN {
@@ -55,6 +65,9 @@ typedef struct _SM_GetTargetMapping_IN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HbaPortWWN
 
@@ -72,4 +85,8 @@ The number of persistent bindings that are associated with the HBA.
 
 
 ## -remarks
-The WMI tool suite generates a declaration of the SM_GetTargetMapping_IN structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.</p>
+
+
+The WMI tool suite generates a declaration of the SM_GetTargetMapping_IN structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.
+
+

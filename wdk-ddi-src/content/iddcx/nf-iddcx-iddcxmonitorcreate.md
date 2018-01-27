@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e089827-dd50-43cb-9e1a-34c439780831
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IddCxMonitorCreate
+ms.keywords: IddCxMonitorCreate method [Display Devices], display.iddcxmonitorcreate, IddCxMonitorCreate, iddcx/IddCxMonitorCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IddCxMonitorCreate
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,24 +26,36 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IddCxMonitorCreate
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IddCxMonitorCreate function
 
 
-
 ## -description
+
+
 An OS callback function the driver calls to create a monitor object that can later be used for arrival.
 
                 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS IddCxMonitorCreate(
@@ -57,6 +67,9 @@ NTSTATUS IddCxMonitorCreate(
 
 
 ## -parameters
+
+
+
 
 ### -param AdapterObject [in]
 
@@ -75,8 +88,9 @@ Output arguments to the function
 
 ## -returns
 
+
+
 (NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
                     
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d81dd8db-9074-43ea-a7bd-e83bd205c564
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _REG_CREATE_KEY_INFORMATION_V1, *PREG_CREATE_KEY_INFORMATION_V1, REG_CREATE_KEY_INFORMATION_V1, REG_OPEN_KEY_INFORMATION_V1, *PREG_OPEN_KEY_INFORMATION_V1
+ms.keywords: wdm/REG_OPEN_KEY_INFORMATION_V1, REG_CREATE_KEY_INFORMATION_V1 structure [Kernel-Mode Driver Architecture], REG_OPEN_KEY_INFORMATION_V1 structure [Kernel-Mode Driver Architecture], wdm/PREG_OPEN_KEY_INFORMATION_V1, REG_CREATE_KEY_INFORMATION_V1, PREG_CREATE_KEY_INFORMATION_V1 structure pointer [Kernel-Mode Driver Architecture], wdm/REG_CREATE_KEY_INFORMATION_V1, PREG_OPEN_KEY_INFORMATION_V1 structure pointer [Kernel-Mode Driver Architecture], wdm/PREG_CREATE_KEY_INFORMATION_V1, _REG_CREATE_KEY_INFORMATION_V1, PREG_OPEN_KEY_INFORMATION_V1, *PREG_OPEN_KEY_INFORMATION_V1, PREG_CREATE_KEY_INFORMATION_V1, kernel.reg_create_key_information_v1, kstruct_d_79809cef-3593-4774-8407-c26c281735eb.xml, REG_OPEN_KEY_INFORMATION_V1, *PREG_CREATE_KEY_INFORMATION_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available on Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: REG_CREATE_KEY_INFORMATION_V1
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.typenames: *PREG_CREATE_KEY_INFORMATION_V1, REG_CREATE_KEY_INFORMATION_V1, REG_OPEN_KEY_INFORMATION_V1, *PREG_OPEN_KEY_INFORMATION_V1
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	REG_CREATE_KEY_INFORMATION_V1
+product: Windows
+targetos: Windows
+req.typenames: *PREG_OPEN_KEY_INFORMATION_V1, *PREG_CREATE_KEY_INFORMATION_V1, REG_CREATE_KEY_INFORMATION_V1, REG_OPEN_KEY_INFORMATION_V1
 req.product: Windows 10 or later.
 ---
 
 # _REG_CREATE_KEY_INFORMATION_V1 structure
 
 
-
 ## -description
+
+
 The <b>REG_CREATE_KEY_INFORMATION_V1</b> structure contains information that a filter driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine can use when a registry key is being created.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _REG_CREATE_KEY_INFORMATION_V1 {
@@ -72,6 +82,9 @@ typedef struct _REG_CREATE_KEY_INFORMATION_V1 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field CompleteName
 
@@ -146,7 +159,6 @@ A pointer to a transaction object for the registry operation. You can supply thi
 ### -field Version
 
 The structure version number. This member distinguishes the <a href="..\wdm\ns-wdm-_reg_create_key_information.md">REG_CREATE_KEY_INFORMATION</a> structure in Windows Vista from the <b>REG_CREATE_KEY_INFORMATION_V1</b> structure in Windows 7 and later versions of Windows. The following version numbers are currently defined.
-
 <table>
 <tr>
 <th>Version number</th>
@@ -172,8 +184,7 @@ The structure version number. This member distinguishes the <a href="..\wdm\ns-w
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 Future versions of this structure might add new members but will not change the members that are already defined in existing versions of the structure. This member is defined in the <b>REG_CREATE_KEY_INFORMATION_V1</b> structure that is supported in Windows 7 and later versions of the Windows operating systems. In the <b>REG_CREATE_KEY_INFORMATION</b> structure that Windows Vista supports, this member is named <b>Reserved</b> and is set to zero. Filter drivers should rely on the version number and not the operating system version to determine which version of the structure they are using. 
 
@@ -186,7 +197,6 @@ A pointer to a <b>UNICODE_STRING</b> structure that contains the relative path o
 ### -field Wow64Flags
 
 Contains the Wow64 flags from the access mask that was passed as an input parameter in the call to create the new registry key. This member indicates whether a 32-bit client program that is running on a 64-bit version of Windows is trying to create a registry key. This member is set to zero or to one of the following flag bits:
-
 <ul>
 <li>
 KEY_WOW64_32KEY
@@ -196,14 +206,12 @@ KEY_WOW64_32KEY
 KEY_WOW64_64KEY
 
 </li>
-</ul>
-These flag bits are defined in the Wdm.h and Winnt.h header files. For more information about these flags, see <a href="http://go.microsoft.com/fwlink/p/?linkid=155080">Registry Key Security and Access Rights</a>. 
+</ul>These flag bits are defined in the Wdm.h and Winnt.h header files. For more information about these flags, see <a href="http://go.microsoft.com/fwlink/p/?linkid=155080">Registry Key Security and Access Rights</a>. 
 
 
 ### -field Attributes
 
 Contains the object-attribute flags from the <b>Attributes</b> member of the <b>OBJECT_ATTRIBUTES</b> structure that was passed as an input parameter in the call to create the new registry key. This member might contain one or more of the following flag bits:
-
 <ul>
 <li>
 OBJ_KERNEL_HANDLE
@@ -217,14 +225,12 @@ OBJ_FORCE_ACCESS_CHECK
 OBJ_OPENLINK
 
 </li>
-</ul>
-For more information about these flags, see <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>. 
+</ul>For more information about these flags, see <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>. 
 
 
 ### -field CheckAccessMode
 
 Indicates how the configuration manager performs the security access check for the call to create the new key. This member contains one of the following MODE enumeration values from the Wdm.h header file:
-
 <ul>
 <li>
 <b>KernelMode</b>
@@ -234,11 +240,12 @@ Indicates how the configuration manager performs the security access check for t
 <b>UserMode</b>
 
 </li>
-</ul>
-This security check is similar to that performed by the <a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a> routine, which has an <i>AccessMode</i> parameter that can be set to either <b>UserMode</b> or <b>KernelMode</b>. If <b>CheckAccessMode</b> is set to <b>UserMode</b>, the configuration manager performs a full security access check regardless of whether the call originated in user mode or kernel mode. For more information about how to force user-mode security access checks on a call that originates in kernel mode, see the description of the OBJ_FORCE_ACCESS_CHECK flag in the <b>Attributes</b> member of the <b>OBJECT_ATTRIBUTES</b> structure. 
+</ul>This security check is similar to that performed by the <a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a> routine, which has an <i>AccessMode</i> parameter that can be set to either <b>UserMode</b> or <b>KernelMode</b>. If <b>CheckAccessMode</b> is set to <b>UserMode</b>, the configuration manager performs a full security access check regardless of whether the call originated in user mode or kernel mode. For more information about how to force user-mode security access checks on a call that originates in kernel mode, see the description of the OBJ_FORCE_ACCESS_CHECK flag in the <b>Attributes</b> member of the <b>OBJECT_ATTRIBUTES</b> structure. 
 
 
 ## -remarks
+
+
 The configuration manager passes this structure to the <i>RegistryCallback</i> routine every time that a thread tries to create a key—for example, when a user-mode thread calls <a href="http://go.microsoft.com/fwlink/p/?linkid=155070">RegCreateKey</a> or <a href="http://go.microsoft.com/fwlink/p/?linkid=155071">RegCreateKeyEx</a>, or when a kernel-mode driver calls <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>.
 
 This structure is an extended version of the <a href="..\wdm\ns-wdm-_reg_create_key_information.md">REG_CREATE_KEY_INFORMATION</a> structure that Windows Vista supports. The first 14 members, <b>CompleteName</b> through <b>Transaction</b>, are identical in the two structures. The last five members of the <b>REG_CREATE_KEY_INFORMATION_V1</b> structure, <b>Version</b> through <b>CheckAccessMode</b>, are not part of the <b>REG_CREATE_KEY_INFORMATION</b> structure.
@@ -248,36 +255,31 @@ If the driver's <i>RegistryCallback</i> routine returns STATUS_CALLBACK_BYPASS f
 The <b>REG_CREATE_KEY_INFORMATION_V1</b> structure is one of a number of structures that a filter driver can receive through its <i>RegistryCallback</i> routine. For more information about registry filtering operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
-</dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-obopenobjectbypointer.md">ObOpenObjectByPointer</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-</dt>
-<dt><a href="http://go.microsoft.com/fwlink/p/?linkid=155070">RegCreateKey</a></dt>
-<dt>
-<a href="..\wdm\ns-wdm-_reg_create_key_information.md">REG_CREATE_KEY_INFORMATION</a>
-</dt>
-<dt><a href="http://go.microsoft.com/fwlink/p/?linkid=155071">RegCreateKeyEx</a></dt>
-<dt>
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=155071">RegCreateKeyEx</a>
+
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-</dt>
-<dt><a href="http://go.microsoft.com/fwlink/p/?linkid=155042">SECURITY_QUALITY_OF_SERVICE</a></dt>
-<dt>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-<dt>
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=155042">SECURITY_QUALITY_OF_SERVICE</a>
+
 <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+<a href="..\wdm\ns-wdm-_reg_create_key_information.md">REG_CREATE_KEY_INFORMATION</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=155070">RegCreateKey</a>
+
  
 
  

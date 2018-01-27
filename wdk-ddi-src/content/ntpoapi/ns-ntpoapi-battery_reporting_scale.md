@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: aea1d82d-39b8-4535-a5c3-fb987be1e43c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+ms.keywords: PBATTERY_REPORTING_SCALE structure pointer [Battery Devices], ntpoapi/BATTERY_REPORTING_SCALE, bat-struct_6ecc4955-56b0-4c92-9ce2-46bcd7d6b273.xml, *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE structure [Battery Devices], BATTERY_REPORTING_SCALE, PBATTERY_REPORTING_SCALE, ntpoapi/PBATTERY_REPORTING_SCALE, battery.battery_reporting_scale
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BATTERY_REPORTING_SCALE
-req.alt-loc: ntpoapi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntpoapi.h
+apiname: 
+-	BATTERY_REPORTING_SCALE
+product: Windows
+targetos: Windows
 req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
 ---
 
 # BATTERY_REPORTING_SCALE structure
 
 
-
 ## -description
+
+
 Battery miniclass drivers fill in this structure in response to certain <a href="https://msdn.microsoft.com/bd96b79a-5670-4aaf-b72c-619818c2a2e7">BatteryMiniQueryInformation</a> requests. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -55,6 +65,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field Granularity
 
 Specify the granularity of the <b>Capacity</b> value, in milliwatt-hours. For most batteries, this value describes a monotonically increasing scale of capacity. For lithium-ion batteries, this value describes one of two possible scales: a gross measure of battery capacity, with a large granularity, or a finer measure as the capacity approaches zero.
@@ -65,15 +78,10 @@ Specify the granularity of the <b>Capacity</b> value, in milliwatt-hours. For mo
 Specify the battery capacity described by the corresponding granularity, in milliwatt-hours.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/bd96b79a-5670-4aaf-b72c-619818c2a2e7">BatteryMiniQueryInformation</a>
-</dt>
-</dl>
+
  
 
  

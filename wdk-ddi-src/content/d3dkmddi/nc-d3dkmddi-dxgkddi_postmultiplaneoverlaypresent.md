@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C420DDE8-73D4-4D43-861C-A7B31B4C7DEC
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgkddi_postmultiplaneoverlaypresent, DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT callback function [Display Devices], DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT, d3dkmddi/DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT callback
 
 
-
 ## -description
+
+
 Called after a new multi-plane overlay configuration has taken effect, allowing the driver to optimize hardware state.  Optional for Windows Display Driver Model (WDDM) 2.0 or later drivers that support multi-plane overlays.
 
 
-
 ## -prototype
+
 
 ````
 NTSTATUS  DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT(
@@ -55,30 +65,59 @@ NTSTATUS  DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT(
 
 ## -parameters
 
+
+
+
 ### -param hAdapter [in]
 
 Identifies the adapter containing the overlay hardware.
 
 
-### -param pPostMultiPlaneOverlayPresent [in]
+### -param pPostPresent
+
+
+
+
+
+
+#### - pPostMultiPlaneOverlayPresent [in]
 
 A pointer to a DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure that describes the new overlay configuration recently committed.
 
 
 ## -returns
+
+
 DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT returns the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>If the routine has been successfully completed. The driver should always return a success code.  Failures will result in a bugcheck.
+</dl>
+</td>
+<td width="60%">
+If the routine has been successfully completed. The driver should always return a success code.  Failures will result in a bugcheck.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This function is called from PASSIVE level.
 
 This function is only called when driver sets PostPresentNeeded of DXGKCB_NOTIFY_MPO_VSYNC_FLAGS member of the DXGKARGCB_NOTIFY_INTERRUPT_DATA structure in the VSYNC callback.
 
 The driver can use this function to lower voltage levels, clocks, FIFO depths, or any other optimization that can save power.
 
-The driver should not spend significant amount of time in this call because the call blocks the main GPU scheduler thread and delay could lead to present glitches. Time intensive actions should be queued as separate work items by driver and handled in background. In this scenario, any conflicts between the queued item and hardware changes demanded by future pre/post calls should be managed by driver. </p>
+The driver should not spend significant amount of time in this call because the call blocks the main GPU scheduler thread and delay could lead to present glitches. Time intensive actions should be queued as separate work items by driver and handled in background. In this scenario, any conflicts between the queued item and hardware changes demanded by future pre/post calls should be managed by driver. 
+
+

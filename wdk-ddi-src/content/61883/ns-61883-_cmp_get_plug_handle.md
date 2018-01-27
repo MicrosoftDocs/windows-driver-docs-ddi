@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 4EDEE2EE-7B42-4CC9-8CFC-4690193C5D4D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _CMP_GET_PLUG_HANDLE, *PCMP_GET_PLUG_HANDLE, CMP_GET_PLUG_HANDLE
+ms.keywords: 61883/PCMP_GET_PLUG_HANDLE, IEEE.cmp_get_plug_handle, CMP_GET_PLUG_HANDLE, CMP_GET_PLUG_HANDLE structure [Buses], PCMP_GET_PLUG_HANDLE, _CMP_GET_PLUG_HANDLE, 61883/CMP_GET_PLUG_HANDLE, PCMP_GET_PLUG_HANDLE structure pointer [Buses], *PCMP_GET_PLUG_HANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CMP_GET_PLUG_HANDLE
-req.alt-loc: 61883.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	61883.h
+apiname: 
+-	CMP_GET_PLUG_HANDLE
+product: Windows
+targetos: Windows
 req.typenames: *PCMP_GET_PLUG_HANDLE, CMP_GET_PLUG_HANDLE
 ---
 
 # _CMP_GET_PLUG_HANDLE structure
 
 
-
 ## -description
+
+
 This structure is used in getting the handle of a plug. The  request retrieves a unique handle associated with an input or output plug. The plug handle is required for all operations on the plug. A driver uses a plug handle to get the state of a plug, modify plug settings, or delete a plug. A driver can delete only plugs it has previously created. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CMP_GET_PLUG_HANDLE {
@@ -55,6 +65,9 @@ typedef struct _CMP_GET_PLUG_HANDLE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PlugNum
 
@@ -72,17 +85,18 @@ On output, a handle to the plug specified with PlugNum and Type.
 
 
 ## -remarks
+
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
 
 If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_INVALID_PARAMETER.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-</dt>
-</dl>
+
  
 
  

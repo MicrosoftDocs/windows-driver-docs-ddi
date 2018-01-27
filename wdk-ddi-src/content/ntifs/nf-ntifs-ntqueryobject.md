@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 439658a5-d2db-4a31-a1eb-b8943c40cc96
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtQueryObject
+ms.keywords: ntifs/NtQueryObject, ZwQueryObject, k111_54a1efe7-3cf8-46b3-bbb5-9e7520ba459d.xml, NtQueryObject, kernel.zwqueryobject, ntifs/ZwQueryObject, ZwQueryObject routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ZwQueryObject,NtQueryObject
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ZwQueryObject
+-	NtQueryObject
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # NtQueryObject function
 
 
-
 ## -description
+
+
 The <b>ZwQueryObject</b> routine provides information about a supplied object.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ZwQueryObject(
@@ -57,6 +68,9 @@ NTSTATUS ZwQueryObject(
 
 
 ## -parameters
+
+
+
 
 ### -param Handle [in, optional]
 
@@ -84,41 +98,70 @@ A pointer to a variable that receives the size, in bytes, of the requested key i
 
 
 ## -returns
+
+
 <b>ZwQueryObject</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED </b></dt>
-</dl>There were insufficient permissions to perform this query.
+</dl>
+</td>
+<td width="60%">
+There were insufficient permissions to perform this query.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>The supplied object handle is invalid.
+</dl>
+</td>
+<td width="60%">
+The supplied object handle is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INFO_LENGTH_MISMATCH</b></dt>
-</dl>The info length is not sufficient to hold the data.
+</dl>
+</td>
+<td width="60%">
+The info length is not sufficient to hold the data.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 If the call to the <b>ZwQueryObject</b> function occurs in user mode, you should use the name "<b>NtQueryObject</b>" instead of "<b>ZwQueryObject</b>". 
 
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\ne-ntifs-_object_information_class.md">OBJECT_INFORMATION_CLASS</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-_public_object_basic_information.md">PUBLIC_OBJECT_BASIC_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\ns-ntifs-__public_object_type_information.md">PUBLIC_OBJECT_TYPE_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\ne-ntifs-_object_information_class.md">OBJECT_INFORMATION_CLASS</a>
+
  
 
  

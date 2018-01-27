@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d733f50c-01a2-484f-ab5b-72aaa3378c7d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCORRELATED_TIME, KSCORRELATED_TIME, *PKSCORRELATED_TIME
+ms.keywords: PKSCORRELATED_TIME, ks-struct_4bc7b067-fc0e-4343-9ae9-4bfe5aec90e3.xml, KSCORRELATED_TIME structure [Streaming Media Devices], ks/PKSCORRELATED_TIME, ks/KSCORRELATED_TIME, *PKSCORRELATED_TIME, stream.kscorrelated_time, KSCORRELATED_TIME, PKSCORRELATED_TIME structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSCORRELATED_TIME
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KSCORRELATED_TIME, *PKSCORRELATED_TIME
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSCORRELATED_TIME
+product: Windows
+targetos: Windows
+req.typenames: *PKSCORRELATED_TIME, KSCORRELATED_TIME
 ---
 
 # KSCORRELATED_TIME structure
 
 
-
 ## -description
+
+
 The KSCORRELATED_TIME structure contains a clock time as well as the corresponding number of clock ticks since system boot.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -54,6 +64,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Time
 
@@ -66,20 +79,20 @@ A 64-bit integer containing the number of clock ticks since system boot.
 
 
 ## -remarks
+
+
 Supply this structure in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564465">KSPROPERTY_CLOCK_CORRELATEDTIME</a> property request.
 
-The system time is acquired from <a href="..\ntifs\nf-ntifs-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>. Note that the performance counter is not suspended when the machine is suspended, so that correlations change when the machine goes through a suspend.
+The system time is acquired from <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>. Note that the performance counter is not suspended when the machine is suspended, so that correlations change when the machine goes through a suspend.
+
 
 
 ## -see-also
-<dl>
-<dt>
+
+<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564465">KSPROPERTY_CLOCK_CORRELATEDTIME</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
-</dt>
-</dl>
+
  
 
  

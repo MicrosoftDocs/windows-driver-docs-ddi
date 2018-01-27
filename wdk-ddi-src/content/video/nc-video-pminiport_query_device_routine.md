@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 81c3f484-427e-43b8-b7dd-12017533560b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VHF_CONFIG, VHF_CONFIG, *PVHF_CONFIG
+ms.keywords: display.hwvidquerydevicecallback, HwVidQueryDeviceCallback callback function [Display Devices], HwVidQueryDeviceCallback, PMINIPORT_QUERY_DEVICE_ROUTINE, PMINIPORT_QUERY_DEVICE_ROUTINE, video/HwVidQueryDeviceCallback, VideoMiniport_Functions_9da236b0-f97f-410d-a0e7-c65499d7db8b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HwVidQueryDeviceCallback
-req.alt-loc: video.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	video.h
+apiname: 
+-	HwVidQueryDeviceCallback
+product: Windows
+targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PMINIPORT_QUERY_DEVICE_ROUTINE callback
 
 
-
 ## -description
+
+
 <i>HwVidQueryDeviceCallback</i> uses the specified configuration data to configure its adapter, and, possibly, to fill in missing configuration information in the <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a> structure.
 
 
-
 ## -prototype
+
 
 ````
 PMINIPORT_QUERY_DEVICE_ROUTINE HwVidQueryDeviceCallback;
@@ -66,80 +76,80 @@ VP_STATUS HwVidQueryDeviceCallback(
 
 ## -parameters
 
-### -param HwDeviceExtension 
+
+
+
+### -param HwDeviceExtension
 
 Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543119">Device Extensions</a>.
 
 
-### -param Context 
+### -param Context
 
 Pointer to the context value set up by <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>. Usually, it points to the VIDEO_PORT_CONFIG_INFO buffer or to an offset in that buffer.
 
 
-### -param DeviceDataType 
+### -param DeviceDataType
 
 Specifies the type of configuration information that was requested, which is one of the following:
 
-<dl>
-<dd>
 <b>VpBusData</b>
 
-</dd>
-<dd>
 <b><b>VpCmosData</b></b>
 
-</dd>
-<dd>
 <b><b>VpControllerData</b></b>
 
-</dd>
-<dd>
 <b><b>VpMachineData</b></b>
 
-</dd>
-<dd>
 <b><b>VpMonitorData</b></b>
 
-</dd>
-</dl>
 Miniport drivers of x86-type video adapters usually specify <b>VpBusData</b>, particularly for adapters on EISA buses. The <b>VpControllerData</b> and <b>VpMonitorData</b> values have meaning only on ARC-compliant platforms. The <b>VpCmosData</b> and <b>VpMachineData</b> values are seldom used.  
 
 
-### -param Identifier 
+### -param Identifier
 
 Pointer to the name of the device as determined by the ARC firmware. This parameter should be used only on ARC-compliant platforms. Otherwise, this pointer should be <b>NULL</b>.
 
 
-### -param IdentifierLength 
-
-Specifies the size in bytes of the buffered <i>Identifier</i> string<i>.</i> The value should be zero if the machine is not ARC-compliant.
+### -param IdentiferLength
 
 
-### -param ConfigurationData 
+
+### -param ConfigurationData
 
 Pointer to hardware configuration data. The format of this data is determined by the specified <i>DeviceDataType</i> and by the <b>AdapterInterfaceType</b> value in the VIDEO_PORT_CONFIG_INFO.
 
 
-### -param ConfigurationDataLength 
+### -param ConfigurationDataLength
 
 Specifies the size in bytes of the <i>ConfigurationData</i> buffer. In effect, this indicates how much information was collected from the registry and stored in the <i>ConfigurationData</i> buffer allocated by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
 
 
-### -param ComponentInformation 
+### -param ComponentInformation
 
 Reserved for system use.
 
 
-### -param ComponentInformationLength 
+### -param ComponentInformationLength
 
 Reserved for system use.
+
+
+#### - IdentifierLength
+
+Specifies the size in bytes of the buffered <i>Identifier</i> string<i>.</i> The value should be zero if the machine is not ARC-compliant.
 
 
 ## -returns
+
+
 <i>HwVidQueryDeviceCallback</i> returns the status of the operation.
 
 
+
 ## -remarks
+
+
 <i>HwVidQueryDeviceCallback</i> is passed in a call to <a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a> from the miniport driver's <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a> function. <b>VideoPortGetDeviceData</b> calls <i>HwVidQueryDeviceCallback</i> after collecting available configuration information under the <b>\Registry\Machine\Hardware\Description</b> node of the registry.
 
 <i>HwVidQueryDeviceCallback</i> examines the <i>ConfigurationData</i>, collected from the registry by <b>VideoPortGetDeviceData</b>. It uses this information to configure its adapter, and, possibly, to fill in missing configuration information in the <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a> structure.
@@ -155,24 +165,19 @@ If it cannot get bus-relative access ranges values by calling <b>VideoPortGetDev
 <i>HwVidQueryDeviceCallback</i> should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
-</dt>
-<dt>
-<a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
-</dt>
-<dt>
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-</dt>
-<dt>
-<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
-</dt>
-<dt>
+
 <a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
-</dt>
-</dl>
+
+<a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
+
+<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
  
 
  

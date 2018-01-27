@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6186dac4-4797-48f2-bb32-40a0d501bac7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_COPY_FLAGS, D3DDDI_COPY_FLAGS
+ms.keywords: D3DDDI_COPY_FLAGS, d3dumddi/D3DDDI_COPY_NO_OVERWRITE, D3DDDI_COPY_FLAGS enumeration [Display Devices], D3DDDI_COPY_DISCARD, d3dumddi/D3DDDI_COPY_FLAGS, d3dumddi/D3DDDI_COPY_DISCARD, display.d3dddi_copy_flags, D3DDDI_COPY_NO_OVERWRITE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_COPY_FLAGS
-req.alt-loc: D3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dumddi.h
+apiname: 
+-	D3DDDI_COPY_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_COPY_FLAGS
 ---
 
 # D3DDDI_COPY_FLAGS enumeration
 
 
-
 ## -description
+
+
 Specifies how to handle the existing contents of a resource during a copy or update operation of a region within that resource.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3DDDI_COPY_FLAGS { 
@@ -55,6 +65,9 @@ typedef enum D3DDDI_COPY_FLAGS {
 
 ## -enum-fields
 
+
+
+
 ### -field D3DDDI_COPY_NO_OVERWRITE
 
 The caller guarantees that the portion of the surface that is being written to with new data is not currently being referenced or accessed by any previous render operation. The driver can take advantage of this capability to optimize performance and memory usage.
@@ -64,5 +77,3 @@ The caller guarantees that the portion of the surface that is being written to w
 
 The user-mode display driver can discard previous contents of the entire resource. The driver can take advantage of this capability to optimize performance and memory usage.
 
-
-## -remarks

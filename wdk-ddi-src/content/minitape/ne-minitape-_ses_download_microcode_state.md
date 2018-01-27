@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5edff312-8373-4d36-b93c-c35fe8c2996a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SES_DOWNLOAD_MICROCODE_STATE, SES_DOWNLOAD_MICROCODE_STATE, *PSES_DOWNLOAD_MICROCODE_STATE
+ms.keywords: scsi/SesDownloadMcStateNoneInProgress, scsi/SesDownloadMcStateCompletedPendingReset, storage.ses_download_microcode_state, PSES_DOWNLOAD_MICROCODE_STATE enumeration pointer [Storage Devices], PSES_DOWNLOAD_MICROCODE_STATE, _SES_DOWNLOAD_MICROCODE_STATE, scsi/SesDownloadMcStateCompletedPendingActivation, SesDownloadMcStateCompletedPendingActivation, *PSES_DOWNLOAD_MICROCODE_STATE, SesDownloadMcStateCompletedPendingReset, scsi/SesDownloadMcStateInProgress, scsi/SesDownloadMcStateCompletedPendingPowerOn, SesDownloadMcStateInProgress, scsi/SES_DOWNLOAD_MICROCODE_STATE, scsi/PSES_DOWNLOAD_MICROCODE_STATE, SES_DOWNLOAD_MICROCODE_STATE, SesDownloadMcStateNoneInProgress, SES_DOWNLOAD_MICROCODE_STATE enumeration [Storage Devices], SesDownloadMcStateCompletedPendingPowerOn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 10, version 1709 and later vers
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SES_DOWNLOAD_MICROCODE_STATE
-req.alt-loc: scsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: SES_DOWNLOAD_MICROCODE_STATE, *PSES_DOWNLOAD_MICROCODE_STATE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	scsi.h
+apiname: 
+-	SES_DOWNLOAD_MICROCODE_STATE
+product: Windows
+targetos: Windows
+req.typenames: *PSES_DOWNLOAD_MICROCODE_STATE, SES_DOWNLOAD_MICROCODE_STATE
 ---
 
 # _SES_DOWNLOAD_MICROCODE_STATE enumeration
 
 
-
 ## -description
+
+
 TBD
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _SES_DOWNLOAD_MICROCODE_STATE { 
@@ -57,6 +67,9 @@ typedef enum _SES_DOWNLOAD_MICROCODE_STATE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field SesDownloadMcStateNoneInProgress
 
@@ -82,5 +95,3 @@ Specifies a microcode download operations completed and is waiting for a power o
 
 Specifies a microcode download operations completed and is waiting for activation.
 
-
-## -remarks

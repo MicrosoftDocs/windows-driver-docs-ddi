@@ -7,8 +7,8 @@ old-location: print\oem_dmextraheader.htm
 old-project: print
 ms.assetid: fecefdbc-3036-4991-900c-203ae8be254b
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: _OEM_DMEXTRAHEADER, OEM_DMEXTRAHEADER, *POEM_DMEXTRAHEADER
+ms.date: 1/18/2018
+ms.keywords: *POEM_DMEXTRAHEADER, printoem/POEM_DMEXTRAHEADER, printoem/OEM_DMEXTRAHEADER, print.oem_dmextraheader, POEM_DMEXTRAHEADER, _OEM_DMEXTRAHEADER, OEM_DMEXTRAHEADER structure [Print Devices], OEM_DMEXTRAHEADER, POEM_DMEXTRAHEADER structure pointer [Print Devices], print_unidrv-pscript_ui_f356f9c1-f867-4c53-8b12-be48da73de4f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OEM_DMEXTRAHEADER
-req.alt-loc: printoem.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	printoem.h
+apiname: 
+-	OEM_DMEXTRAHEADER
+product: Windows
+targetos: Windows
 req.typenames: OEM_DMEXTRAHEADER, *POEM_DMEXTRAHEADER
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _OEM_DMEXTRAHEADER structure
 
 
-
 ## -description
+
+
 The OEM_DMEXTRAHEADER structure must be used to define the first members of a set of private <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure members.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _OEM_DMEXTRAHEADER {
@@ -56,6 +66,9 @@ typedef struct _OEM_DMEXTRAHEADER {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwSize
 
@@ -73,4 +86,8 @@ Version number of the user interface plug-in that is defining the private DEVMOD
 
 
 ## -remarks
-For more information about adding DEVMODEW structure members, see <a href="https://msdn.microsoft.com/7ce698f5-14c7-484d-be3d-b41c690b9576">Providing DEVMODE Structure Additions</a>. </p>
+
+
+For more information about adding DEVMODEW structure members, see <a href="https://msdn.microsoft.com/7ce698f5-14c7-484d-be3d-b41c690b9576">Providing DEVMODE Structure Additions</a>. 
+
+

@@ -7,8 +7,8 @@ old-location: netvista\riluiccatrinfo.htm
 old-project: netvista
 ms.assetid: 84ced2d3-43a9-42ef-b8fb-592dc960b01b
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILUICCATRINFO, RILUICCATRINFO, *LPRILUICCATRINFO
+ms.date: 1/18/2018
+ms.keywords: *LPRILUICCATRINFO, ntddrilapitypes/RILUICCATRINFO, netvista.riluiccatrinfo, RILUICCATRINFO, RILUICCATRINFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILUICCATRINFO
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILUICCATRINFO, *LPRILUICCATRINFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILUICCATRINFO
+product: Windows
+targetos: Windows
+req.typenames: *LPRILUICCATRINFO, RILUICCATRINFO
 ---
 
 # RILUICCATRINFO structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILUICCATRINFO {
@@ -55,10 +65,13 @@ typedef struct _RILUICCATRINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field dwATRlength
+
 
 
 ### -field bATR
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2f5338a9-2a53-4fee-af6a-8a052ef8c423
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARGCB_CREATECONTEXTALLOCATION, DXGKARGCB_CREATECONTEXTALLOCATION, *INOUT_PDXGKARGCB_CREATECONTEXTALLOCATION
+ms.keywords: d3dkmddi/DXGKARGCB_CREATECONTEXTALLOCATION, display.dxgkargcb_createcontextallocation, DXGKARGCB_CREATECONTEXTALLOCATION, _DXGKARGCB_CREATECONTEXTALLOCATION, DXGKARGCB_CREATECONTEXTALLOCATION structure [Display Devices], *INOUT_PDXGKARGCB_CREATECONTEXTALLOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARGCB_CREATECONTEXTALLOCATION
-req.alt-loc: D3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmddi.h
+apiname: 
+-	DXGKARGCB_CREATECONTEXTALLOCATION
+product: Windows
+targetos: Windows
 req.typenames: DXGKARGCB_CREATECONTEXTALLOCATION
 ---
 
 # _DXGKARGCB_CREATECONTEXTALLOCATION structure
 
 
-
 ## -description
+
+
 Specifies the allocation attributes of a GPU context or device-specific context.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARGCB_CREATECONTEXTALLOCATION {
@@ -66,6 +76,9 @@ typedef struct _DXGKARGCB_CREATECONTEXTALLOCATION {
 
 ## -struct-fields
 
+
+
+
 ### -field ContextAllocationFlags
 
 [in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createcontextallocationflags.md">DXGK_CREATECONTEXTALLOCATIONFLAGS</a> structure that specifies the properties of the allocation.
@@ -79,9 +92,7 @@ typedef struct _DXGKARGCB_CREATECONTEXTALLOCATION {
 ### -field hDevice
 
 [in] A handle to the display device that was originally passed by the DirectX graphics subsystem to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a> function.
-
-<div class="alert"><b>Note</b>  The member is set to <b>NULL</b> for a system device.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The member is set to <b>NULL</b> for a system device.</div><div> </div>
 
 ### -field hContext
 
@@ -90,9 +101,7 @@ typedef struct _DXGKARGCB_CREATECONTEXTALLOCATION {
                                                                 the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a> function.
 
 If <b>ContextAllocationFlags.SharedAcrossContexts</b> is set to a value of 1, this member should be set to <b>NULL</b>.
-
-<div class="alert"><b>Note</b>  The member is also set to <b>NULL</b> for a system context.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The member is also set to <b>NULL</b> for a system context.</div><div> </div>
 
 ### -field hDriverAllocation
 
@@ -140,28 +149,31 @@ A handle created by the display miniport driver that identifies the created allo
 [out] A handle that has been assigned by the DirectX graphics subsystem to the allocation. This value is subsequently passed as the <b>hAllocation</b> parameter of the  <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_destroycontextallocation.md">DxgkCbDestroyContextAllocation</a> function.
 
 
+### -field PhysicalAdapterIndex
+
+ 
+
+
+
 ## -remarks
+
+
 The display miniport driver calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a> to allocate a GPU context or device-specific context. When the driver calls this function, it passes a pointer to a <b>DXGKARGCB_CREATECONTEXTALLOCATION</b> structure through the <i>ContextAllocation</i> parameter.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createcontextallocationflags.md">DXGK_CREATECONTEXTALLOCATIONFLAGS</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentbankpreference.md">DXGK_SEGMENTBANKPREFERENCE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562047">DXGK_SEGMENTPREFERENCE</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createcontextallocationflags.md">DXGK_CREATECONTEXTALLOCATIONFLAGS</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentbankpreference.md">DXGK_SEGMENTBANKPREFERENCE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562047">DXGK_SEGMENTPREFERENCE</a>
+
  
 
  

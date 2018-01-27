@@ -7,8 +7,8 @@ old-location: netvista\wsk_transport.htm
 old-project: netvista
 ms.assetid: aaf7b5ac-0401-4b6a-a478-3d50559817db
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WSK_TRANSPORT, WSK_TRANSPORT, *PWSK_TRANSPORT
+ms.date: 1/18/2018
+ms.keywords: _WSK_TRANSPORT, wsk/PWSK_TRANSPORT, *PWSK_TRANSPORT, netvista.wsk_transport, WSK_TRANSPORT, WSK_TRANSPORT structure [Network Drivers Starting with Windows Vista], wskref_be7d6a6d-971e-49de-bc64-ebd1f1d04085.xml, wsk/WSK_TRANSPORT, PWSK_TRANSPORT structure pointer [Network Drivers Starting with Windows Vista], PWSK_TRANSPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WSK_TRANSPORT
-req.alt-loc: wsk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: WSK_TRANSPORT, *PWSK_TRANSPORT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wsk.h
+apiname: 
+-	WSK_TRANSPORT
+product: Windows
+targetos: Windows
+req.typenames: *PWSK_TRANSPORT, WSK_TRANSPORT
 req.product: Windows 10 or later.
 ---
 
 # _WSK_TRANSPORT structure
 
 
-
 ## -description
+
+
 The WSK_TRANSPORT structure specifies an available transport that is supported by the WSK
   subsystem.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WSK_TRANSPORT {
@@ -60,6 +70,9 @@ typedef struct _WSK_TRANSPORT {
 
 ## -struct-fields
 
+
+
+
 ### -field Version
 
 The version of the transport. The format of the version number is transport-specific.
@@ -72,23 +85,6 @@ The type of socket that is supported by the transport. This member can be one of
 
 
 
-
-### -field SOCK_STREAM
-
-Supports reliable connection-oriented byte stream communication.
-
-
-### -field SOCK_DGRAM
-
-Supports unreliable connectionless datagram communication.
-
-
-### -field SOCK_RAW
-
-Supports raw access to the transport protocol.
-
-</dd>
-</dl>
 For more information about the socket types that are supported for each supported address family, see
      
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
@@ -113,7 +109,24 @@ The address family that is supported by the transport. For more information abou
 The identifier of the transport provider that implements the transport.
 
 
+##### - SocketType.SOCK_STREAM
+
+Supports reliable connection-oriented byte stream communication.
+
+
+##### - SocketType.SOCK_RAW
+
+Supports raw access to the transport protocol.
+
+
+##### - SocketType.SOCK_DGRAM
+
+Supports unreliable connectionless datagram communication.
+
+
 ## -remarks
+
+
 A WSK application passes a pointer to an array of WSK_TRANSPORT structures to the 
     <a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a> function when specifying
     the 
@@ -136,21 +149,18 @@ A single transport provider can support multiple combinations of values for the
     <b>Protocol</b> members.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
-</dt>
-<dt>
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-</dt>
-<dt>
+
 <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-</dt>
-</dl>
- 
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_TRANSPORT structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_TRANSPORT structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

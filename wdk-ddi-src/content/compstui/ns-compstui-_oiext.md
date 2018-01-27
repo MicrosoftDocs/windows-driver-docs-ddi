@@ -7,8 +7,8 @@ old-location: print\oiext.htm
 old-project: print
 ms.assetid: 932e5520-0ebf-4cfa-893a-a7eb969cb697
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: _OIEXT, *POIEXT, OIEXT
+ms.date: 1/18/2018
+ms.keywords: _OIEXT, POIEXT structure pointer [Print Devices], OIEXT structure [Print Devices], OIEXT, cpsuifnc_3abbb233-5393-4e23-a206-0474cfd6d7f1.xml, print.oiext, *POIEXT, compstui/POIEXT, POIEXT, compstui/OIEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: OIEXT
-req.alt-loc: compstui.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *POIEXT, OIEXT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	compstui.h
+apiname: 
+-	OIEXT
+product: Windows
+targetos: Windows
+req.typenames: OIEXT, *POIEXT
 ---
 
 # _OIEXT structure
 
 
-
 ## -description
+
+
 The OIEXT structure supplies additional, optional information about a property sheet page option that is described by an <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _OIEXT {
@@ -58,6 +68,9 @@ typedef struct _OIEXT {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
 
 Size, in bytes, of the OIEXT structure.
@@ -66,7 +79,6 @@ Size, in bytes, of the OIEXT structure.
 ### -field Flags
 
 Can contain the following bit flag:
-
 <table>
 <tr>
 <th>Flag</th>
@@ -86,8 +98,7 @@ CPSUI does not check this flag if <b>pHelpFile</b> specifies a resource ID.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field hInstCaller
@@ -104,5 +115,3 @@ Pointer to a NULL-terminated string representing a path to a help file containin
 
 Reserved, must be initialized to zero.
 
-
-## -remarks

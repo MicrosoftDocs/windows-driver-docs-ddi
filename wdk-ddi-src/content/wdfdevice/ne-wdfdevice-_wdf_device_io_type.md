@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0ad08e4f-7a9b-4052-888e-ae01c9c105c8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_DEVICE_IO_TYPE, *PWDF_DEVICE_IO_TYPE, WDF_DEVICE_IO_TYPE
+ms.keywords: wdfdevice/PWDF_DEVICE_IO_TYPE, WdfDeviceIoBuffered, wdfdevice/WDF_DEVICE_IO_TYPE, _WDF_DEVICE_IO_TYPE, wdf.wdf_device_io_type, *PWDF_DEVICE_IO_TYPE, WdfDeviceIoNeither, DFDeviceObjectGeneralRef_72f77b23-a975-4ab4-bc28-312ed9682738.xml, WDF_DEVICE_IO_TYPE, kmdf.wdf_device_io_type, PWDF_DEVICE_IO_TYPE enumeration pointer, WDF_DEVICE_IO_TYPE enumeration, PWDF_DEVICE_IO_TYPE, wdfdevice/WdfDeviceIoBuffered, wdfdevice/WdfDeviceIoBufferedOrDirect, wdfdevice/WdfDeviceIoUndefined, WdfDeviceIoDirect, WdfDeviceIoBufferedOrDirect, wdfdevice/WdfDeviceIoNeither, wdfdevice/WdfDeviceIoDirect, WdfDeviceIoUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_DEVICE_IO_TYPE
-req.alt-loc: wdfdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-req.typenames: *PWDF_DEVICE_IO_TYPE, WDF_DEVICE_IO_TYPE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfdevice.h
+apiname: 
+-	WDF_DEVICE_IO_TYPE
+product: Windows
+targetos: Windows
+req.typenames: WDF_DEVICE_IO_TYPE, *PWDF_DEVICE_IO_TYPE
 req.product: Windows 10 or later.
 ---
 
 # _WDF_DEVICE_IO_TYPE enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_DEVICE_IO_TYPE</b> enumeration is used to specify a <a href="https://msdn.microsoft.com/f95a0aec-65f9-44c9-8ae5-11bb4d832752">method for accessing data buffers</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDF_DEVICE_IO_TYPE { 
@@ -60,6 +70,9 @@ typedef enum _WDF_DEVICE_IO_TYPE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field WdfDeviceIoUndefined
 
@@ -90,24 +103,28 @@ This value is not used by KMDF drivers.
 <b>UMDF </b>Buffered I/O or direct I/O will be used to access data buffers.
 
 
+### -field WdfDeviceIoMaximum
+
+
+
+
 ## -remarks
+
+
 The <b>WDF_DEVICE_IO_TYPE</b> enumeration is used to specify buffer access method types in the <a href="..\wdfdevice\ns-wdfdevice-_wdf_io_type_config.md">WDF_IO_TYPE_CONFIG</a> structure.
 
 The <a href="..\wdfdevice\ns-wdfdevice-_wdf_io_type_config.md">WDF_IO_TYPE_CONFIG</a> structure is used  as input to <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a> and <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotype.md">WdfDeviceInitSetIoType</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_io_type_config.md">WDF_IO_TYPE_CONFIG</a>
-</dt>
-<dt>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotype.md">WdfDeviceInitSetIoType</a>
-</dt>
-<dt>
+
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_io_type_config.md">WDF_IO_TYPE_CONFIG</a>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
-</dt>
-</dl>
+
  
 
  

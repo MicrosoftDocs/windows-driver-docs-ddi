@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: da2ec371-052a-4ea1-9336-9e32df936227
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: DrmAddContentHandlers
+ms.keywords: DrmAddContentHandlers function [Audio Devices], drmk/DrmAddContentHandlers, DrmAddContentHandlers, aud-prop2_94f530fb-9766-4d61-a002-b1c7bd5183d5.xml, audio.drmaddcontenthandlers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DrmAddContentHandlers
-req.alt-loc: Drmk.lib,Drmk.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Drmk.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Drmk.lib
+-	Drmk.dll
+apiname: 
+-	DrmAddContentHandlers
+product: Windows
+targetos: Windows
 req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 ---
 
 # DrmAddContentHandlers function
 
 
-
 ## -description
+
+
 The <code>DrmAddContentHandlers</code> function provides the system with a list of functions that handle protected content.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS DrmAddContentHandlers(
@@ -55,6 +66,9 @@ NTSTATUS DrmAddContentHandlers(
 
 
 ## -parameters
+
+
+
 
 ### -param ContentId [in]
 
@@ -72,10 +86,15 @@ Specifies the number of function pointers in the <i>paHandlers</i> array.
 
 
 ## -returns
+
+
 <code>DrmAddContentHandlers</code> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 Before allowing protected content to flow through a data path, the system verifies that the data path is secure. To do so, the system authenticates each module in the data path beginning at the upstream end of the data path and moving downstream. As each module is authenticated, that module gives the system information about the next module in the data path so that it can also be authenticated. To be successfully authenticated, a module's binary file must be signed as DRM-compliant.
 
 If two adjacent modules communicate with each other through either the <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a> function or the downstream module's COM interface, the upstream module calls the <a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a> or <a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a> function, respectively, to provide the system with information about the downstream module. However, if the two modules use any other type of interface to communicate, the upstream module calls the <code>DrmAddContentHandlers</code> function instead.
@@ -87,24 +106,19 @@ The upstream module can pass both the content ID and content rights to the downs
 <i>DrmAddContentHandlers</i> performs the same function as <a href="..\portcls\nf-portcls-pcaddcontenthandlers.md">PcAddContentHandlers</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff536575">IDrmPort2::AddContentHandlers</a>. For more information, see <a href="https://msdn.microsoft.com/62c739da-91e8-428e-b76c-ec9621b12597">DRM Functions and Interfaces</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-</dt>
-<dt>
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
-</dt>
-<dt>
+
 <a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
-</dt>
-<dt>
+
 <a href="..\portcls\nf-portcls-pcaddcontenthandlers.md">PcAddContentHandlers</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536575">IDrmPort2::AddContentHandlers</a>
-</dt>
-</dl>
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+
  
 
  

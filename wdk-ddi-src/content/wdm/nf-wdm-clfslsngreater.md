@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 77ad073e-5dac-4d89-869e-547e1aec25da
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsLsnGreater
+ms.keywords: ClfsLsnGreater routine [Kernel-Mode Driver Architecture], wdm/ClfsLsnGreater, ClfsLsnGreater, Clfs_e258803f-9e95-4601-9b4e-2d775836864b.xml, kernel.clfslsngreater
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ClfsLsnGreater
-req.alt-loc: Clfs.sys,Ext-MS-Win-fs-clfs-l1-1-0.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Clfs.sys
+-	Ext-MS-Win-fs-clfs-l1-1-0.dll
+apiname: 
+-	ClfsLsnGreater
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ClfsLsnGreater function
 
 
-
 ## -description
+
+
 The <b>ClfsLsnGreater</b> routine determines whether one LSN is greater than another LSN. The two LSNs must be from the same stream.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN ClfsLsnGreater(
@@ -55,6 +66,9 @@ BOOLEAN ClfsLsnGreater(
 
 
 ## -parameters
+
+
+
 
 ### -param plsn1 [in]
 
@@ -67,10 +81,15 @@ A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that s
 
 
 ## -returns
+
+
 <b>ClfsLsnGreater</b> returns <b>TRUE</b> if <i>plsn1</i> is strictly greater than <i>plsn2</i>; otherwise, it returns <b>FALSE</b>.
 
 
+
 ## -remarks
+
+
 CLFS_LSN_NULL (the smallest LSN) and CLFS_LSN_INVALID (larger than any valid LSN) are valid arguments to <b>ClfsLsnGreater</b>.
 
 LSNs from different streams are not comparable. Do not use <a href="..\wdm\nf-wdm-clfslsnequal.md">ClfsLsnEqual</a>, <b>ClfsLsnGreater</b>, and the like to compare LSNs from different streams.
@@ -78,18 +97,15 @@ LSNs from different streams are not comparable. Do not use <a href="..\wdm\nf-wd
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-clfslsnequal.md">ClfsLsnEqual</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-clfslsnless.md">ClfsLsnLess</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-clfslsnnull.md">ClfsLsnNull</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-clfslsnequal.md">ClfsLsnEqual</a>
+
+<a href="..\wdm\nf-wdm-clfslsnless.md">ClfsLsnLess</a>
+
  
 
  

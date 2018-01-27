@@ -7,8 +7,8 @@ old-location: netvista\rilsignalquality.htm
 old-project: netvista
 ms.assetid: b2edfcdb-28b9-4322-8bfb-4d5d2c2d1519
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILSIGNALQUALITY, RILSIGNALQUALITY, *LPRILSIGNALQUALITY
+ms.date: 1/18/2018
+ms.keywords: netvista.rilsignalquality, RILSIGNALQUALITY structure [Network Drivers Starting with Windows Vista], *LPRILSIGNALQUALITY, RILSIGNALQUALITY, ntddrilapitypes/RILSIGNALQUALITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILSIGNALQUALITY
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILSIGNALQUALITY, *LPRILSIGNALQUALITY
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILSIGNALQUALITY
+product: Windows
+targetos: Windows
+req.typenames: *LPRILSIGNALQUALITY, RILSIGNALQUALITY
 ---
 
 # RILSIGNALQUALITY structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILSIGNALQUALITY {
@@ -60,25 +70,33 @@ typedef struct _RILSIGNALQUALITY {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwExecutor
+
 
 
 ### -field dwSystemType
 
 
+
 ### -field nNumSignalBars
+
 
 
 ### -field nSignalStrength
 
 
+
 ### -field nSNRStrength
 
 
-## -remarks

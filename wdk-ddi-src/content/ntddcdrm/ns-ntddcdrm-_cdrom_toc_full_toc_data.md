@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c82e08e5-1450-40a3-a25a-49eefc7bc887
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CDROM_TOC_FULL_TOC_DATA, *PCDROM_TOC_FULL_TOC_DATA, CDROM_TOC_FULL_TOC_DATA
+ms.keywords: PCDROM_TOC_FULL_TOC_DATA, _CDROM_TOC_FULL_TOC_DATA, storage.cdrom_toc_full_toc_data, ntddcdrm/CDROM_TOC_FULL_TOC_DATA, ntddcdrm/PCDROM_TOC_FULL_TOC_DATA, structs-CD-ROM_47099ab4-7dcb-4470-8350-8beea47587bd.xml, CDROM_TOC_FULL_TOC_DATA, CDROM_TOC_FULL_TOC_DATA structure [Storage Devices], PCDROM_TOC_FULL_TOC_DATA structure pointer [Storage Devices], *PCDROM_TOC_FULL_TOC_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CDROM_TOC_FULL_TOC_DATA
-req.alt-loc: ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PCDROM_TOC_FULL_TOC_DATA, CDROM_TOC_FULL_TOC_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdrm.h
+apiname: 
+-	CDROM_TOC_FULL_TOC_DATA
+product: Windows
+targetos: Windows
+req.typenames: CDROM_TOC_FULL_TOC_DATA, *PCDROM_TOC_FULL_TOC_DATA
 ---
 
 # _CDROM_TOC_FULL_TOC_DATA structure
 
 
-
 ## -description
+
+
 Device control IRPs with a control code of <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a> and a format of CDROM_READ_TOC_EX_FORMAT_FULL_TOC return their output data in this structure optionally followed by a series of descriptors of type <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_full_toc_data_block.md">CDROM_TOC_FULL_TOC_DATA_BLOCK</a>. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CDROM_TOC_FULL_TOC_DATA {
@@ -56,6 +66,9 @@ typedef struct _CDROM_TOC_FULL_TOC_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Length
 
@@ -77,21 +90,14 @@ Contains the number of last complete session.
 Contains zero or more track descriptors. See <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_full_toc_data_block.md">CDROM_TOC_FULL_TOC_DATA_BLOCK</a> for a description of the track descriptor. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_full_toc_data_block.md">CDROM_TOC_FULL_TOC_DATA_BLOCK</a>
-</dt>
-</dl>
+
  
 
  

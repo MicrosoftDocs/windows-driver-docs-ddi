@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: AD4E4EF6-F033-4226-9DC6-A6E55E965B4C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: BLOCK_DEVICE_TOKEN_DESCRIPTOR, BLOCK_DEVICE_TOKEN_DESCRIPTOR, *PBLOCK_DEVICE_TOKEN_DESCRIPTOR
+ms.keywords: scsi/PBLOCK_DEVICE_TOKEN_DESCRIPTOR, storage.block_device_token_descriptor, BLOCK_DEVICE_TOKEN_DESCRIPTOR structure [Storage Devices], scsi/BLOCK_DEVICE_TOKEN_DESCRIPTOR, PBLOCK_DEVICE_TOKEN_DESCRIPTOR, PBLOCK_DEVICE_TOKEN_DESCRIPTOR structure pointer [Storage Devices], *PBLOCK_DEVICE_TOKEN_DESCRIPTOR, BLOCK_DEVICE_TOKEN_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BLOCK_DEVICE_TOKEN_DESCRIPTOR
-req.alt-loc: scsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	scsi.h
+apiname: 
+-	BLOCK_DEVICE_TOKEN_DESCRIPTOR
+product: Windows
+targetos: Windows
 req.typenames: BLOCK_DEVICE_TOKEN_DESCRIPTOR, *PBLOCK_DEVICE_TOKEN_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # BLOCK_DEVICE_TOKEN_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 <b>BLOCK_DEVICE_TOKEN_DESCRIPTOR</b> contains the token returned from a the POPULATE TOKEN command for an offload read data operation. The token information is included as part of the <a href="..\scsi\ns-scsi-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a> structure.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BLOCK_DEVICE_TOKEN_DESCRIPTOR {
@@ -56,6 +66,9 @@ typedef struct _BLOCK_DEVICE_TOKEN_DESCRIPTOR {
 
 ## -struct-fields
 
+
+
+
 ### -field TokenIdentifier
 
 An identifier value assigned by the copy provider to provide uniqueness to <b>Token</b> while the value of <b>Token</b> is valid. This member is reserved for system use and must not be modified.
@@ -66,15 +79,10 @@ An identifier value assigned by the copy provider to provide uniqueness to <b>To
 A data value defining a token as a point-in-time representation of data (ROD) for an offload read data operation. <b>Token</b> is an opaque value and must be used unmodified in offload write data operations.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\scsi\ns-scsi-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a>
-</dt>
-</dl>
+
  
 
  

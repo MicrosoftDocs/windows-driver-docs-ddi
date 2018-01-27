@@ -7,8 +7,8 @@ old-location: pos\linedisplaysetbitmapdata.htm
 old-project: pos
 ms.assetid: 8674FD34-65FB-4B69-B43C-0D21133E35AB
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _LineDisplaySetBitmapData, LineDisplaySetBitmapData
+ms.date: 1/18/2018
+ms.keywords: pos.linedisplaysetbitmapdata, PLineDisplaySetBitmapData structure pointer, LineDisplaySetBitmapData, pointofservicedriverinterface/LineDisplaySetBitmapData, pointofservicedriverinterface/PLineDisplaySetBitmapData, LineDisplaySetBitmapData structure, PLineDisplaySetBitmapData, _LineDisplaySetBitmapData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: LineDisplaySetBitmapData
-req.alt-loc: pointofservicedriverinterface.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pointofservicedriverinterface.h
+apiname: 
+-	LineDisplaySetBitmapData
+product: Windows
+targetos: Windows
 req.typenames: LineDisplaySetBitmapData
 ---
 
 # _LineDisplaySetBitmapData structure
 
 
-
 ## -description
+
+
 This structure is not implemented.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _LineDisplaySetBitmapData {
@@ -54,7 +64,35 @@ typedef struct _LineDisplaySetBitmapData {
 
 ## -struct-fields
 
-### -field ...
 
 
-## -remarks
+
+### -field bitmapNumber
+
+ 
+
+
+### -field fileName
+
+ 
+
+
+### -field width
+
+ 
+
+
+### -field alignmentX
+
+ 
+
+
+### -field alignmentY
+
+ 
+
+
+
+####### - ...
+
+

@@ -7,8 +7,8 @@ old-location: netvista\rilcallaudioquality_2.htm
 old-project: netvista
 ms.assetid: c5d80767-a533-49da-8cf6-28084dd695e1
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCALLAUDIOQUALITY, RILCALLAUDIOQUALITY
+ms.date: 1/18/2018
+ms.keywords: RIL_CALLAUDIOQUALITY_G711U, rilapitypes/RIL_CALLAUDIOQUALITY_G722, rilapitypes/RIL_CALLAUDIOQUALITY_G723, RIL_CALLAUDIOQUALITY_AMR_WB, rilapitypes/RIL_CALLAUDIOQUALITY_EVRC_NW, rilapitypes/RIL_CALLAUDIOQUALITY_GSM_EFR, RIL_CALLAUDIOQUALITY_EVRC_NW, rilapitypes/RIL_CALLAUDIOQUALITY_EVS_SWB, RIL_CALLAUDIOQUALITY_MAX, rilapitypes/RIL_CALLAUDIOQUALITY_STANDARD, RIL_CALLAUDIOQUALITY_STANDARD, RIL_CALLAUDIOQUALITY_GSM_HR, RIL_CALLAUDIOQUALITY_G723, rilapitypes/RIL_CALLAUDIOQUALITY_EVRC, RIL_CALLAUDIOQUALITY_EVS_SWB, rilapitypes/RIL_CALLAUDIOQUALITY_EVRC_WB, rilapitypes/RIL_CALLAUDIOQUALITY_EVS_NB, RIL_CALLAUDIOQUALITY_EVS_WB, rilapitypes/RIL_CALLAUDIOQUALITY_EVRC_B, rilapitypes/RIL_CALLAUDIOQUALITY_AMR_NB, RIL_CALLAUDIOQUALITY_G729, RIL_CALLAUDIOQUALITY_G711A, RIL_CALLAUDIOQUALITY_HIGH, netvista.rilcallaudioquality_2, RIL_CALLAUDIOQUALITY_EVRC_WB, rilapitypes/RIL_CALLAUDIOQUALITY_GSM_FR, RIL_CALLAUDIOQUALITY_QCELP13K, RIL_CALLAUDIOQUALITY_EVRC_B, rilapitypes/RIL_CALLAUDIOQUALITY_QCELP13K, rilapitypes/RIL_CALLAUDIOQUALITY_G711U, rilapitypes/RIL_CALLAUDIOQUALITY_G711A, rilapitypes/RIL_CALLAUDIOQUALITY_MAX, rilapitypes/RILCALLAUDIOQUALITY, rilapitypes/RIL_CALLAUDIOQUALITY_AMR_WB, rilapitypes/RIL_CALLAUDIOQUALITY_EVS_FB, RIL_CALLAUDIOQUALITY_EVS_FB, rilapitypes/RIL_CALLAUDIOQUALITY_GSM_HR, RIL_CALLAUDIOQUALITY_GSM_FR, rilapitypes/RIL_CALLAUDIOQUALITY_G729, RIL_CALLAUDIOQUALITY_AMR_NB, RIL_CALLAUDIOQUALITY_GSM_EFR, RIL_CALLAUDIOQUALITY_G722, rilapitypes/RIL_CALLAUDIOQUALITY_HIGH, RILCALLAUDIOQUALITY enumeration [Network Drivers Starting with Windows Vista], RIL_CALLAUDIOQUALITY_EVRC, RILCALLAUDIOQUALITY, rilapitypes/RIL_CALLAUDIOQUALITY_EVS_WB, RIL_CALLAUDIOQUALITY_EVS_NB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCALLAUDIOQUALITY
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILCALLAUDIOQUALITY
+product: Windows
+targetos: Windows
 req.typenames: RILCALLAUDIOQUALITY
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILCALLAUDIOQUALITY enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILCALLAUDIOQUALITY { 
@@ -76,70 +86,97 @@ typedef enum _RILCALLAUDIOQUALITY {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_CALLAUDIOQUALITY_LOW
+
+
+
 ### -field RIL_CALLAUDIOQUALITY_STANDARD
+
 
 
 ### -field RIL_CALLAUDIOQUALITY_HIGH
 
 
+
 ### -field RIL_CALLAUDIOQUALITY_AMR_NB
+
 
 
 ### -field RIL_CALLAUDIOQUALITY_AMR_WB
 
 
+
 ### -field RIL_CALLAUDIOQUALITY_EVRC
+
 
 
 ### -field RIL_CALLAUDIOQUALITY_EVRC_B
 
 
+
 ### -field RIL_CALLAUDIOQUALITY_EVRC_NW
+
 
 
 ### -field RIL_CALLAUDIOQUALITY_EVRC_WB
 
 
+
 ### -field RIL_CALLAUDIOQUALITY_EVS_FB
+
 
 
 ### -field RIL_CALLAUDIOQUALITY_EVS_NB
 
 
+
 ### -field RIL_CALLAUDIOQUALITY_EVS_SWB
+
 
 
 ### -field RIL_CALLAUDIOQUALITY_EVS_WB
 
 
+
 ### -field RIL_CALLAUDIOQUALITY_GSM_EFR
+
 
 
 ### -field RIL_CALLAUDIOQUALITY_GSM_FR
 
 
+
 ### -field RIL_CALLAUDIOQUALITY_GSM_HR
+
 
 
 ### -field RIL_CALLAUDIOQUALITY_QCELP13K
 
 
+
 ### -field RIL_CALLAUDIOQUALITY_G711U
+
 
 
 ### -field RIL_CALLAUDIOQUALITY_G711A
 
 
+
 ### -field RIL_CALLAUDIOQUALITY_G722
+
 
 
 ### -field RIL_CALLAUDIOQUALITY_G723
 
 
+
 ### -field RIL_CALLAUDIOQUALITY_G729
+
 
 
 ### -field RIL_CALLAUDIOQUALITY_MAX
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9bc64d00-3590-4bc2-aa1f-0d50bb0e628d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsReadLogRecord
+ms.keywords: kernel.clfsreadlogrecord, ClfsReadLogRecord, wdm/ClfsReadLogRecord, ClfsReadLogRecord routine [Kernel-Mode Driver Architecture], Clfs_e829153c-541e-463a-9ff3-85200929e3d2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, a
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ClfsReadLogRecord
-req.alt-loc: Clfs.sys,Ext-MS-Win-fs-clfs-l1-1-0.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Clfs.sys
+-	Ext-MS-Win-fs-clfs-l1-1-0.dll
+apiname: 
+-	ClfsReadLogRecord
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ClfsReadLogRecord function
 
 
-
 ## -description
+
+
 The <b>ClfsReadLogRecord</b> routine reads a target record in a CLFS stream and returns a read context that the caller can use to read the records preceding or following it in the stream.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ClfsReadLogRecord(
@@ -62,6 +73,9 @@ NTSTATUS ClfsReadLogRecord(
 
 
 ## -parameters
+
+
+
 
 ### -param pvMarshalContext [in]
 
@@ -91,7 +105,6 @@ A pointer to a ULONG-typed variable that receives the size, in bytes, of the buf
 ### -param peRecordType [out]
 
 A pointer to a variable of type CLFS_RECORD_TYPE that receives one of the following values.
-
 <table>
 <tr>
 <th>Value</th>
@@ -117,8 +130,7 @@ The target record is a restart record.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param plsnUndoNext [out]
@@ -137,10 +149,15 @@ A pointer to a variable that receives a pointer to an opaque read context. The c
 
 
 ## -returns
+
+
 <b>ClfsReadLogRecord</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
+
 ## -remarks
+
+
 You must call <b>ClfsTerminateReadLog</b> when you have finished using the read context in order to avoid a memory leak.
 
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>.
@@ -150,15 +167,13 @@ For information about reading records from CLFS streams, see <a href="https://ms
 Read contexts are not thread-safe. Clients are responsible for serializing access to read contexts. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-clfsreadnextlogrecord.md">ClfsReadNextLogRecord</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-clfsterminatereadlog.md">ClfsTerminateReadLog</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-clfsreadnextlogrecord.md">ClfsReadNextLogRecord</a>
+
  
 
  

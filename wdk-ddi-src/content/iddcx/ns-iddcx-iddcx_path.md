@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c0126718-6bb0-493c-9fdd-78ae372f8fd4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_PATH,
+ms.keywords: IDDCX_PATH structure structure [Display Devices], iddcx/IDDCX_PATH, IDDCX_PATH structure [Display Devices], display.iddcx_path, IDDCX_PATH structure, IDDCX_PATH structure pointer [Display Devices], IDDCX_PATH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDDCX_PATH
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDDCX_PATH
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDDCX_PATH structure
 
 
-
 ## -description
+
+
 
                  Call <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt761937">IDDCX_PATH_INIT</a> to initialize this structure.
              
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDDCX_PATH {
@@ -58,6 +68,9 @@ typedef struct IDDCX_PATH {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -87,8 +100,12 @@ The details of the target mode signal.
 
 
 ## -remarks
+
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff554007">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a> value <b>vSyncFreq</b> is the Vsync rate between the Indirect Display device and the connected monitor.  <b>vSyncFreqDivider</b> is used to calculate the rate at which the OS will update the desktop image.
 
 The desktop update rate will be calculated by the formula: <a href="https://msdn.microsoft.com/library/windows/hardware/ff554007">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a> value <b>vSyncFreq</b>  divided by the <b>DISPLAYCONFIG_VIDEO_SIGNAL_INFO</b> value <b>vSyncFreqDivider</b>. 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff554007">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a>  value <b>vSyncFreqDivider</b> cannot be zero</p>
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff554007">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a>  value <b>vSyncFreqDivider</b> cannot be zero
+
+

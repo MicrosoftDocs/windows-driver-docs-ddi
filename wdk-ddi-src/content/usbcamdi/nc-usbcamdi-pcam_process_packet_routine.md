@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2b83d1b1-82f6-455b-b22a-ae9433dd9f27
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _USB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
+ms.keywords: stream.camprocessusbpacket, CamProcessUSBPacket, CamProcessUSBPacket callback function [Streaming Media Devices], CamProcessUSBPacket, PCAM_PROCESS_PACKET_ROUTINE, PCAM_PROCESS_PACKET_ROUTINE, usbcamdi/CamProcessUSBPacket, usbcmdpr_7eeca66e-b106-4cb0-b0c3-d7d07d82d841.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CamProcessUSBPacket
-req.alt-loc: usbcamdi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	usbcamdi.h
+apiname: 
+-	CamProcessUSBPacket
+product: Windows
+targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
@@ -38,16 +47,17 @@ req.product: Windows 10 or later.
 # PCAM_PROCESS_PACKET_ROUTINE callback
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[CamProcessUSBPacket is not supported and may be altered or unavailable in the future. Instead, use CamProcessUSBPacketEx.
 ]
 
 A camera minidriver's <b>CamProcessUSBPacket</b> callback function processes a USB packet.
 
 
-
 ## -prototype
+
 
 ````
 ULONG CamProcessUSBPacket(
@@ -66,56 +76,64 @@ ULONG CamProcessUSBPacket(
 
 ## -parameters
 
-### -param BusDeviceObject 
+
+
+
+### -param BusDeviceObject
 
 Pointer to the camera minidriver's device object created by the USB hub.
 
 
-### -param DeviceContext 
+### -param DeviceContext
 
 Pointer to the camera minidriver's device context.
 
 
-### -param CurrentFrameContext 
+### -param CurrentFrameContext
 
 Pointer to the minidriver's frame context.
 
 
-### -param SyncPacket 
+### -param SyncPacket
 
 Pointer to a <a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a> structure from the sync pipe. This value is <b>NULL</b> if the interface has only one pipe.
 
 
-### -param SyncBuffer 
+### -param SyncBuffer
 
 Pointer to the data for the <i>SyncPacket.</i>
 
 
-### -param DataPacket 
+### -param DataPacket
 
 Pointer to a <a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a> structure from the data pipe.
 
 
-### -param DataBuffer 
+### -param DataBuffer
 
 Pointer to <i>DataPacket.</i>
 
 
-### -param FrameComplete 
+### -param FrameComplete
 
 Pointer to a BOOLEAN value that the camera minidriver sets to indicate whether this is the first data packet for a new video frame. Set to <b>TRUE</b> if this is the first data packet for a new video frame.
 
 
-### -param NextFrameIsStill 
+### -param NextFrameIsStill
 
 Pointer to a BOOLEAN value that the camera minidriver sets to indicate whether the next frame is a still frame or not. This value should be set to <b>FALSE</b> if the video stream is providing a live image or <b>TRUE</b> if the next frame is a still image or an image capture stream.
 
 
 ## -returns
+
+
 This callback function returns a ULONG that indicates the number of bytes that should be copied into the buffer (<i>RawFrameBuffer</i> or <i>FrameBuffer)</i>.
 
 
+
 ## -remarks
+
+
 Camera minidrivers that must maintain backward compatibility with the original USBCAMD must use the <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data.md">USBCAMD_DEVICE_DATA</a> structure and its associated callback functions (that is, callback functions that do not contain the "Ex" suffix).
 
 The minidriver should complete this function as quickly as possible. Image processing should be deferred to the <a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine.md">CamProcessRawVideoFrame</a> function.
@@ -123,18 +141,15 @@ The minidriver should complete this function as quickly as possible. Image proce
 This function is optional.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\usbcamdi\nc-usbcamdi-pcam_process_packet_routine_ex.md">CamProcessUSBPacketEx</a>
-</dt>
-<dt>
+
 <a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
-</dt>
-<dt>
+
+<a href="..\usbcamdi\nc-usbcamdi-pcam_process_packet_routine_ex.md">CamProcessUSBPacketEx</a>
+
 <a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine.md">CamProcessRawVideoFrame</a>
-</dt>
-</dl>
+
  
 
  

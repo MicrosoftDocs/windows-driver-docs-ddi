@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7cdc81a9-e468-4da8-bc32-9e9cea1fd60d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.clearunorderedaccessviewuint, ClearUnorderedAccessViewUINT callback function [Display Devices], ClearUnorderedAccessViewUINT, PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT, PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT, d3d10umddi/ClearUnorderedAccessViewUINT, UserModeDisplayDriverDx11_Functions_c31370b0-9955-4ccb-b540-92b15fc27cc5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: ClearUnorderedAccessViewUINT is supported beginning w
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ClearUnorderedAccessViewUINT
-req.alt-loc: d3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3d10umddi.h
+apiname: 
+-	ClearUnorderedAccessViewUINT
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT callback
 
 
-
 ## -description
+
+
 The <b>ClearUnorderedAccessViewUINT</b> function clears the specified unordered-access view by setting it to a constant value. 
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT ClearUnorderedAccessViewUINT;
@@ -59,40 +69,61 @@ VOID APIENTRY ClearUnorderedAccessViewUINT(
 
 ## -parameters
 
-### -param hDevice [in]
-
- A handle to the display device (graphics context).
 
 
-### -param hUnorderedAccessView [in]
 
- A handle to the unordered-access view to clear. 
+### -param D3D10DDI_HDEVICE
 
 
-### -param pUints [in]
+
+### -param D3D11DDI_HUNORDEREDACCESSVIEW
+
+
+
+### -param UINT[4]
+
+
+
+
+
+
+#### - pUints [in]
 
  A four-element array of unsigned integers that the driver uses to clear an unordered-access view. 
 
 
+#### - hUnorderedAccessView [in]
+
+ A handle to the unordered-access view to clear. 
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
 ## -returns
+
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the Remarks section. 
 
 
+
 ## -remarks
+
+
 The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> function, the Direct3D runtime determines that the error is critical. Even if the device is removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interferes with the operation of <b>ClearUnorderedAccessViewUINT</b> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
-</dt>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-</dt>
-</dl>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
+
  
 
  

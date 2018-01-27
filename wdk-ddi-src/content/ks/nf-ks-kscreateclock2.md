@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b70d4a57-c687-40b8-bbf2-4a0a2fbf4863
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCreateClock2
+ms.keywords: KsCreateClock2, stream.kscreateclock2, ks/KsCreateClock2, KsCreateClock2 function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsCreateClock2
-req.alt-loc: Ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,24 +26,36 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ks.h
+apiname: 
+-	KsCreateClock2
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsCreateClock2 function
 
 
-
 ## -description
+
+
 Creates a handle to a clock instance. Call this function after the Component Object Model (COM) is initialized.
 
 Supported starting in Windows 8.
 
 
-
 ## -syntax
+
 
 ````
 KSDDKAPI HRESULT NTAPI KsCreateClock2(
@@ -57,6 +67,9 @@ KSDDKAPI HRESULT NTAPI KsCreateClock2(
 
 
 ## -parameters
+
+
+
 
 ### -param ConnectionHandle [in]
 
@@ -74,22 +87,25 @@ Specifies the new clock handle.
 
 
 ## -returns
+
+
 Returns <b>NOERROR</b> if successful; otherwise, returns an error code.
 
 
+
 ## -remarks
+
+
 This is a new version of the <a href="..\ks\nf-ks-kscreateclock.md">KsCreateClock</a> function and uses the device broker to create the handle to the kernel streaming object. In addition, the COM <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> function must be called before this function is called.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
-</dt>
-<dt>
+
 <a href="..\ks\nf-ks-kscreateclock.md">KsCreateClock</a>
-</dt>
-</dl>
+
  
 
  

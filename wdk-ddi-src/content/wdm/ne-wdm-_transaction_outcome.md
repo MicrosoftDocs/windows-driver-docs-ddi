@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1612e8d8-996b-45d2-93cc-df5b388596d4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _TRANSACTION_OUTCOME, TRANSACTION_OUTCOME
+ms.keywords: ktm_ref_e1c01db3-bc06-43d4-a046-f94af84782e8.xml, wdm/TransactionOutcomeUndetermined, TransactionOutcomeUndetermined, kernel.transaction_outcome, TRANSACTION_OUTCOME enumeration [Kernel-Mode Driver Architecture], wdm/TransactionOutcomeCommitted, wdm/TransactionOutcomeAborted, _TRANSACTION_OUTCOME, wdm/TRANSACTION_OUTCOME, TRANSACTION_OUTCOME, TransactionOutcomeCommitted, TransactionOutcomeAborted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later operating system
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TRANSACTION_OUTCOME
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	TRANSACTION_OUTCOME
+product: Windows
+targetos: Windows
 req.typenames: TRANSACTION_OUTCOME
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _TRANSACTION_OUTCOME enumeration
 
 
-
 ## -description
+
+
 The <b>TRANSACTION_OUTCOME</b> enumeration defines the outcomes (results) that KTM can assign to a transaction.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _TRANSACTION_OUTCOME { 
@@ -56,6 +66,9 @@ typedef enum _TRANSACTION_OUTCOME {
 
 
 ## -enum-fields
+
+
+
 
 ### -field TransactionOutcomeUndetermined
 
@@ -73,15 +86,16 @@ The transaction has been rolled back.
 
 
 ## -remarks
+
+
 The <b>TRANSACTION_OUTCOME</b> enumeration is used in the <a href="..\wdm\ns-wdm-_transaction_basic_information.md">TRANSACTION_BASIC_INFORMATION</a> structure.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_transaction_basic_information.md">TRANSACTION_BASIC_INFORMATION</a>
-</dt>
-</dl>
+
  
 
  

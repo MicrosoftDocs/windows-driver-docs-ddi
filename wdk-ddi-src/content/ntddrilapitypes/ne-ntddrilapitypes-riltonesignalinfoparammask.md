@@ -7,8 +7,8 @@ old-location: netvista\riltonesignalinfoparammask.htm
 old-project: netvista
 ms.assetid: 5ebacb12-4ccd-4e92-ba73-b79c1969eb4f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILTONESIGNALINFOPARAMMASK, RILTONESIGNALINFOPARAMMASK
+ms.date: 1/18/2018
+ms.keywords: ntddrilapitypes/RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING, RILTONESIGNALINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.riltonesignalinfoparammask, RILTONESIGNALINFOPARAMMASK, ntddrilapitypes/RILTONESIGNALINFOPARAMMASK, RIL_PARAM_TONESIGNAL_EXECUTOR, ntddrilapitypes/RIL_PARAM_TONESIGNAL_EXECUTOR, RIL_PARAM_TONESIGNAL_GPP2TONE, RIL_PARAM_TONESIGNAL_All, ntddrilapitypes/RIL_PARAM_TONESIGNAL_All, RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING, ntddrilapitypes/RIL_PARAM_TONESIGNAL_GPP2TONE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILTONESIGNALINFOPARAMMASK
-req.alt-loc: ntddrilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddrilapitypes.h
+apiname: 
+-	RILTONESIGNALINFOPARAMMASK
+product: Windows
+targetos: Windows
 req.typenames: RILTONESIGNALINFOPARAMMASK
 ---
 
 # RILTONESIGNALINFOPARAMMASK enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILTONESIGNALINFOPARAMMASK { 
@@ -57,16 +67,25 @@ typedef enum _RILTONESIGNALINFOPARAMMASK {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_PARAM_TONESIGNAL_GPPTONE
+
+
+
 ### -field RIL_PARAM_TONESIGNAL_GPP2TONE
+
 
 
 ### -field RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING
 
 
+
 ### -field RIL_PARAM_TONESIGNAL_EXECUTOR
+
 
 
 ### -field RIL_PARAM_TONESIGNAL_All
 
 
-## -remarks

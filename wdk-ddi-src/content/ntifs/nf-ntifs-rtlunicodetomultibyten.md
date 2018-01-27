@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e50199d2-948d-4572-8688-89d92961f85b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlUnicodeToMultiByteN
+ms.keywords: RtlUnicodeToMultiByteN routine [Installable File System Drivers], ifsk.rtlunicodetomultibyten, rtlref_233ec1ac-8ecc-4261-8f17-11485d03ec50.xml, ntifs/RtlUnicodeToMultiByteN, RtlUnicodeToMultiByteN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlUnicodeToMultiByteN
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlUnicodeToMultiByteN
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlUnicodeToMultiByteN function
 
 
-
 ## -description
+
+
 The <b>RtlUnicodeToMultiByteN</b> routine translates the specified Unicode string into a new character string, using the current system ANSI code page (ACP). The translated string is not necessarily from a multibyte character set. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlUnicodeToMultiByteN(
@@ -57,6 +67,9 @@ NTSTATUS RtlUnicodeToMultiByteN(
 
 
 ## -parameters
+
+
+
 
 ### -param MultiByteString [out]
 
@@ -84,10 +97,15 @@ Size, in bytes, of the string at <i>UnicodeString</i>.
 
 
 ## -returns
+
+
 <b>RtlUnicodeToMultiByteN</b> returns STATUS_SUCCESS. 
 
 
+
 ## -remarks
+
+
 <b>RtlUnicodeToMultiByteN</b> translates the given Unicode string using the current system ANSI code page that was installed at system boot time. 
 
 Although <i>BytesInMultiByteString</i> is optional and can be <b>NULL</b>, callers should provide storage for it, because the received length can be used to determine whether the conversion was successful.
@@ -99,18 +117,15 @@ Like <b>RtlUnicodeToMultiByteSize</b>, <b>RtlUnicodeToMultiByteN</b> supports on
 For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlmultibytetounicoden.md">RtlMultiByteToUnicodeN</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-rtlunicodetomultibytesize.md">RtlUnicodeToMultiByteSize</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-rtlupcaseunicodetomultibyten.md">RtlUpcaseUnicodeToMultiByteN</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-rtlmultibytetounicoden.md">RtlMultiByteToUnicodeN</a>
+
+<a href="..\ntifs\nf-ntifs-rtlunicodetomultibytesize.md">RtlUnicodeToMultiByteSize</a>
+
  
 
  

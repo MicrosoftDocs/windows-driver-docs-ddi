@@ -7,8 +7,8 @@ old-location: debugger\extremotetyped_eval.htm
 old-project: debugger
 ms.assetid: f54c7dfd-1997-4056-b20a-94438552aeca
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ExtRemoteTyped, ExtRemoteTyped::Eval, Eval
+ms.date: 1/19/2018
+ms.keywords: EngExtCpp_Ref_84c338f5-8b46-4c8b-80f0-f1f02f3b691e.xml, ExtRemoteTyped, ExtRemoteTyped::Eval, ExtRemoteTyped interface [Windows Debugging], Eval method, Eval, Eval method [Windows Debugging], debugger.extremotetyped_eval, Eval method [Windows Debugging], ExtRemoteTyped interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExtRemoteTyped.Eval
-req.alt-loc: engextcpp.hpp
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-req.typenames: *PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	engextcpp.hpp
+apiname: 
+-	ExtRemoteTyped.Eval
+product: Windows
+targetos: Windows
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteTyped::Eval method
 
 
-
 ## -description
+
+
 The <b>Eval</b> method returns typed data that is the result of evaluating an expression.
 
 
-
 ## -syntax
+
 
 ````
 ExtRemoteData Eval(
@@ -54,13 +64,17 @@ ExtRemoteData Eval(
 
 ## -parameters
 
+
+
+
 ### -param Expr [in]
 
 The expression to evaluate. <i>Expr</i> is evaluated using the default expression evaluator.
 
 
 ## -returns
+
+
 <b>Eval</b> returns a new <b>ExtRemoteData</b> object that represents the typed data that is the result of evaluating the expression.
 
 
-## -remarks

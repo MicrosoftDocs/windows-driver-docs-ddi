@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 67a08982-5d2f-4cd8-be14-76977fde0aac
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+ms.keywords: display.dxgkddii2ctransmitdatatodisplay, DxgkDdiI2CTransmitDataToDisplay callback function [Display Devices], DxgkDdiI2CTransmitDataToDisplay, DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY, DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY, dispmprt/DxgkDdiI2CTransmitDataToDisplay, DmFunctions_6152910a-6f9c-4686-b025-2508bbfdf257.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiI2CTransmitDataToDisplay
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DxgkDdiI2CTransmitDataToDisplay
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY callback
 
 
-
 ## -description
+
+
 The <i>DxgkDdiI2CTransmitDataToDisplay</i> function transmits data to an I2C device in a monitor.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY DxgkDdiI2CTransmitDataToDisplay;
@@ -60,6 +70,9 @@ NTSTATUS DxgkDdiI2CTransmitDataToDisplay(
 
 
 ## -parameters
+
+
+
 
 ### -param MiniportDeviceContext [in]
 
@@ -81,30 +94,78 @@ The address of the I2C device to which data will be transmitted.
 The length, in bytes, of the data to be transmitted. This parameter must be between 1 and 64, inclusive.
 
 
-### -param Data [in]
+### -param PVOID
+
+
+
+
+
+
+#### - Data [in]
 
 A pointer to a buffer that holds the data to be transmitted.
 
 
 ## -returns
+
+
 <i>DxgkDdiI2CTransmitDataToDisplay</i> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in Ntstatus.h. The following list gives some of the possible error codes that can be returned.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_MONITOR_NOT_CONNECTED</b></dt>
-</dl>There is no monitor connected to the video output identified by <i>VidPnTargetId</i>.
+</dl>
+</td>
+<td width="60%">
+There is no monitor connected to the video output identified by <i>VidPnTargetId</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_I2C_NOT_SUPPORTED</b></dt>
-</dl>The video output identified by <i>VidPnTargetId</i> does not have an I2C bus.
+</dl>
+</td>
+<td width="60%">
+The video output identified by <i>VidPnTargetId</i> does not have an I2C bus.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_I2C_DEVICE_DOES_NOT_EXIST</b></dt>
-</dl>No device acknowledged the I2C address supplied in <i>SevenBitI2CAddress</i>. This could mean that no device on the I2C bus has the specified address or that an error occurred when the address was transmitted.
+</dl>
+</td>
+<td width="60%">
+No device acknowledged the I2C address supplied in <i>SevenBitI2CAddress</i>. This could mean that no device on the I2C bus has the specified address or that an error occurred when the address was transmitted.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_I2C_ERROR_TRANSMITTING_DATA</b></dt>
-</dl>The I2C address was successfully transmitted, but there was an error transmitting data to the I2C device.
+</dl>
+</td>
+<td width="60%">
+The I2C address was successfully transmitted, but there was an error transmitting data to the I2C device.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The video present target identified by <i>VidPnTargetId</i> is associated with one of the video outputs on the display adapter. The data is transmitted to an I2C device in the monitor that is connected to that video output. 
 
 <i>DxgkDdiI2CTransmitDataToDisplay</i> is responsible for signaling the I2C start condition, sending the I2C address, sending the data in the buffer, checking for acknowledgments from the receiver, and signaling the stop condition. For details about the I2C bus, see the <i>I2C Bus Specification</i>, published by Philips Semiconductors. The specification defines a protocol for initiating I2C communication, reading and writing bytes over the I2C data line, and terminating I2C communication. 
@@ -120,12 +181,11 @@ If the display adapter supports HDCP, the <i>DxgkDdiI2CTransmitDataToDisplay</i>
 <i>DxgkDdiI2CTransmitDataToDisplay</i> should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_i2c_receive_data_from_display.md">DxgkDdiI2CReceiveDataFromDisplay</a>
-</dt>
-</dl>
+
  
 
  

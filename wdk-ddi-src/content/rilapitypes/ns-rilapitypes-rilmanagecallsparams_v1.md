@@ -7,8 +7,8 @@ old-location: netvista\rilmanagecallsparams_v1_2.htm
 old-project: netvista
 ms.assetid: 5c5113d2-30a5-4ec3-9566-d7d116cfa135
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILMANAGECALLSPARAMS_V1, *LPRILMANAGECALLSPARAMS_V1, RILMANAGECALLSPARAMS_V1
+ms.date: 1/18/2018
+ms.keywords: RILMANAGECALLSPARAMS_V1 structure [Network Drivers Starting with Windows Vista], rilapitypes/RILMANAGECALLSPARAMS_V1, *LPRILMANAGECALLSPARAMS_V1, RILMANAGECALLSPARAMS_V1, netvista.rilmanagecallsparams_v1_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILMANAGECALLSPARAMS_V1
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILMANAGECALLSPARAMS_V1
+product: Windows
+targetos: Windows
 req.typenames: *LPRILMANAGECALLSPARAMS_V1, RILMANAGECALLSPARAMS_V1
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILMANAGECALLSPARAMS_V1 structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILMANAGECALLSPARAMS_V1 {
@@ -57,13 +67,17 @@ typedef struct _RILMANAGECALLSPARAMS_V1 {
 
 ## -struct-fields
 
+
+
+
 ### -field dwExecutor
+
 
 
 ### -field dwCommand
 
 
+
 ### -field dwID
 
 
-## -remarks

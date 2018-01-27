@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ba039a22-b1af-4ade-bd99-b7296be4dd42
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CDROM_TOC_SESSION_DATA, *PCDROM_TOC_SESSION_DATA, CDROM_TOC_SESSION_DATA
+ms.keywords: CDROM_TOC_SESSION_DATA, storage.cdrom_toc_session_data, *PCDROM_TOC_SESSION_DATA, CDROM_TOC_SESSION_DATA structure [Storage Devices], PCDROM_TOC_SESSION_DATA structure pointer [Storage Devices], _CDROM_TOC_SESSION_DATA, structs-CD-ROM_b3bb7380-ca50-4340-bf90-4b6e231bcdbc.xml, PCDROM_TOC_SESSION_DATA, ntddcdrm/CDROM_TOC_SESSION_DATA, ntddcdrm/PCDROM_TOC_SESSION_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CDROM_TOC_SESSION_DATA
-req.alt-loc: ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PCDROM_TOC_SESSION_DATA, CDROM_TOC_SESSION_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdrm.h
+apiname: 
+-	CDROM_TOC_SESSION_DATA
+product: Windows
+targetos: Windows
+req.typenames: CDROM_TOC_SESSION_DATA, *PCDROM_TOC_SESSION_DATA
 ---
 
 # _CDROM_TOC_SESSION_DATA structure
 
 
-
 ## -description
+
+
 Device control IRPs with a control code of <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a> and a format of CDROM_READ_TOC_EX_FORMAT_SESSION return their output data in this structure followed by a series of <a href="..\ntddcdrm\ns-ntddcdrm-_track_data.md">TRACK_DATA</a> structures. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CDROM_TOC_SESSION_DATA {
@@ -56,6 +66,9 @@ typedef struct _CDROM_TOC_SESSION_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Length
 
@@ -77,21 +90,14 @@ Contains the number of the last complete session.
 Contains data for the first track of the last finished session. This data includes the starting address and number of the track.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
-</dt>
-<dt>
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_track_data.md">TRACK_DATA</a>
-</dt>
-</dl>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
+
  
 
  

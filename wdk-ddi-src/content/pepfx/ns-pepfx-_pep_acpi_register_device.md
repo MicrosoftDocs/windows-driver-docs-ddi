@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 96FB6959-1583-42E0-9851-A09AE0CB73DB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_ACPI_REGISTER_DEVICE, *PPEP_ACPI_REGISTER_DEVICE, PEP_ACPI_REGISTER_DEVICE
+ms.keywords: PEP_ACPI_REGISTER_DEVICE structure [Kernel-Mode Driver Architecture], pepfx/PEP_ACPI_REGISTER_DEVICE, PPEP_ACPI_REGISTER_DEVICE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_ACPI_REGISTER_DEVICE, *PPEP_ACPI_REGISTER_DEVICE, PPEP_ACPI_REGISTER_DEVICE, PEP_ACPI_REGISTER_DEVICE, kernel.pep_acpi_register_device, _PEP_ACPI_REGISTER_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PEP_ACPI_REGISTER_DEVICE
-req.alt-loc: pepfx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PPEP_ACPI_REGISTER_DEVICE, PEP_ACPI_REGISTER_DEVICE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	pepfx.h
+apiname: 
+-	PEP_ACPI_REGISTER_DEVICE
+product: Windows
+targetos: Windows
+req.typenames: PEP_ACPI_REGISTER_DEVICE, *PPEP_ACPI_REGISTER_DEVICE
 ---
 
 # _PEP_ACPI_REGISTER_DEVICE structure
 
 
-
 ## -description
+
+
 The <b>PEP_ACPI_REGISTER_DEVICE</b> structure contains registration information about a device for which the platform extension plug-in (PEP) is to provide ACPI services.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _PEP_ACPI_REGISTER_DEVICE {
@@ -57,6 +67,9 @@ typedef struct _PEP_ACPI_REGISTER_DEVICE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field AcpiDeviceName
 
@@ -84,24 +97,22 @@ typedef struct _PEP_ACPI_REGISTER_DEVICE {
 
 
 ## -remarks
+
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a> notification. The <b>AcpiDeviceName</b>, <b>InputFlags</b>, and <b>KernelHandle</b> members of the structure contain input values that are supplied by PoFx when this notification is sent to the PEP. The <b>DeviceHandle</b> and <b>OutputFlags</b> members contains output values that the PEP writes to this structure in response to the notification.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-</dt>
-<dt>
+
 <a href="..\pepfx\ns-pepfx-_pep_acpi_prepare_device.md">PEP_ACPI_PREPARE_DEVICE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
  
 
  

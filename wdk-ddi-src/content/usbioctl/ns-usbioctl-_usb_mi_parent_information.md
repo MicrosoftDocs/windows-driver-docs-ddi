@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9697f739-0eef-4b58-a9f3-8613f71c18be
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_MI_PARENT_INFORMATION, *PUSB_MI_PARENT_INFORMATION, USB_MI_PARENT_INFORMATION
+ms.keywords: USB_MI_PARENT_INFORMATION, USB_MI_PARENT_INFORMATION structure [Buses], usbstrct_710c4241-48d7-4fe7-bd1b-268c7c0f2b41.xml, PUSB_MI_PARENT_INFORMATION, _USB_MI_PARENT_INFORMATION, buses.usb_mi_parent_information, *PUSB_MI_PARENT_INFORMATION, usbioctl/USB_MI_PARENT_INFORMATION, PUSB_MI_PARENT_INFORMATION structure pointer [Buses], usbioctl/PUSB_MI_PARENT_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USB_MI_PARENT_INFORMATION
-req.alt-loc: usbioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-req.typenames: *PUSB_MI_PARENT_INFORMATION, USB_MI_PARENT_INFORMATION
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	usbioctl.h
+apiname: 
+-	USB_MI_PARENT_INFORMATION
+product: Windows
+targetos: Windows
+req.typenames: USB_MI_PARENT_INFORMATION, *PUSB_MI_PARENT_INFORMATION
 req.product: Windows 10 or later.
 ---
 
 # _USB_MI_PARENT_INFORMATION structure
 
 
-
 ## -description
+
+
 The <b>USB_MI_PARENT_INFORMATION</b> structure contains information about a composite device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _USB_MI_PARENT_INFORMATION {
@@ -55,24 +65,27 @@ typedef struct _USB_MI_PARENT_INFORMATION {
 
 ## -struct-fields
 
+
+
+
 ### -field NumberOfInterfaces
 
 The number of interfaces on the composite device.
 
 
 ## -remarks
+
+
 A composite device is a device with multiple interfaces (MI). The USB stack treats the interfaces of a composite device as child devices of the composite device and creates a separate PDO for each interface.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbioctl\ns-usbioctl-_usb_node_information.md">USB_NODE_INFORMATION</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 754d2a4c-6a22-4c25-87e2-e30e87b9c1ba
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SRB_IO_CONTROL, SRB_IO_CONTROL, *PSRB_IO_CONTROL
+ms.keywords: _SRB_IO_CONTROL, PSRB_IO_CONTROL structure pointer [Storage Devices], *PSRB_IO_CONTROL, ntddscsi/PSRB_IO_CONTROL, SRB_IO_CONTROL structure [Storage Devices], storage.srb_io_control, ntddscsi/SRB_IO_CONTROL, structs-scsibus_d7cd0432-d4be-4609-a3f9-91ef842caf7e.xml, PSRB_IO_CONTROL, SRB_IO_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SRB_IO_CONTROL
-req.alt-loc: ntddscsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,16 +29,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddscsi.h
+apiname: 
+-	SRB_IO_CONTROL
+product: Windows
+targetos: Windows
 req.typenames: SRB_IO_CONTROL, *PSRB_IO_CONTROL
 ---
 
 # _SRB_IO_CONTROL structure
 
 
-
 ## -description
 
+
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+
 ## -syntax
+
 
 ````
 typedef struct _SRB_IO_CONTROL {
@@ -55,6 +67,9 @@ typedef struct _SRB_IO_CONTROL {
 
 
 ## -struct-fields
+
+
+
 
 ### -field HeaderLength
 
@@ -87,19 +102,18 @@ Indicates the size in bytes of the immediately following data area. This area ca
 
 
 ## -remarks
+
+
 This structure is used by applications to send requests directly to an application-dedicated HBA. Note that such an application also must set up requests to program its dedicated HBA.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565367">SCSI Port I/O Control Codes</a>
-</dt>
-<dt>SCSI Port I/O Control Codes</dt>
-<dt>
+
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-</dt>
-</dl>
+
+SCSI Port I/O Control Codes
+
  
 
  

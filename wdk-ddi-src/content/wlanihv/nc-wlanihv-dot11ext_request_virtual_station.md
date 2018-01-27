@@ -7,8 +7,8 @@ old-location: netvista\dot11extrequestvirtualstation.htm
 old-project: netvista
 ms.assetid: a7f6d53a-439e-4274-80b0-9fb183459824
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W, DRIVER_INFO_8W, DRIVER_INFO_8
+ms.date: 1/18/2018
+ms.keywords: netvista.dot11extrequestvirtualstation, Dot11ExtRequestVirtualStation callback function [Network Drivers Starting with Windows Vista], Dot11ExtRequestVirtualStation, DOT11EXT_REQUEST_VIRTUAL_STATION, DOT11EXT_REQUEST_VIRTUAL_STATION, wlanihv/Dot11ExtRequestVirtualStation, Native_802.11_IHV_Ext_d118b82f-9abc-4878-b76f-4aabf93b38ea.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: Dot11ExtRequestVirtualStation
-req.alt-loc: wlanihv.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,17 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W, DRIVER_INFO_8W
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	wlanihv.h
+apiname: 
+-	Dot11ExtRequestVirtualStation
+product: Windows
+targetos: Windows
+req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
 # DOT11EXT_REQUEST_VIRTUAL_STATION callback
 
 
-
 ## -description
 
+
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the 
+  <b>Dot11ExtRequestVirtualStation</b> function to request that the operating system
+  create a virtual 802.11 station.
+
+
 ## -prototype
+
 
 ````
 DWORD WINAPI * Dot11ExtRequestVirtualStation(
@@ -53,6 +68,9 @@ DWORD WINAPI * Dot11ExtRequestVirtualStation(
 
 ## -parameters
 
+
+
+
 ### -param hDot11PrimaryHandle [in, optional]
 
 A handle used by the operating system to reference the primary physical wireless LAN (WLAN)
@@ -62,18 +80,23 @@ A handle used by the operating system to reference the primary physical wireless
      Handler function.
 
 
-### -param pvReserved 
+### -param pvReserved
 
 This parameter is reserved for use by the operating system and should be <b>NULL</b>.
 
 
 ## -returns
+
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
+
 ## -remarks
+
+
 When this request function completes successfully, the operating system begins to process the request
     to create a virtual station. It is possible that the operating system will call the 
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
@@ -88,19 +111,17 @@ After the operating system creates the new virtual station, the IHV Extensions D
     <i>hDot11SvcHandle</i> parameter.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-</dt>
-<dt>
-<a href="..\wlanihv\nc-wlanihv-dot11ext_release_virtual_station.md">
-   Dot11ExtReleaseVirtualStation</a>
-</dt>
-</dl>
- 
+
+<mshelp:link keywords="netvista.dot11extreleasevirtualstation" tabindex="0"><i>
+   Dot11ExtReleaseVirtualStation</i></mshelp:link>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_REQUEST_VIRTUAL_STATION callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_REQUEST_VIRTUAL_STATION callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

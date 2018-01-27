@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7BBB4BEC-82F1-44B9-A0C2-1073517A4116
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_SUBMITCOMMANDVIRTUAL, DXGKARG_SUBMITCOMMANDVIRTUAL
+ms.keywords: display.dxgkarg_submitcommandvirtual, d3dkmddi/DXGKARG_SUBMITCOMMANDVIRTUAL, DXGKARG_SUBMITCOMMANDVIRTUAL structure [Display Devices], DXGKARG_SUBMITCOMMANDVIRTUAL, _DXGKARG_SUBMITCOMMANDVIRTUAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_SUBMITCOMMANDVIRTUAL
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_SUBMITCOMMANDVIRTUAL
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_SUBMITCOMMANDVIRTUAL
 ---
 
 # _DXGKARG_SUBMITCOMMANDVIRTUAL structure
 
 
-
 ## -description
+
+
 <b>DXGKARG_SUBMITCOMMANDVIRTUAL</b> is used to submit a direct memory access (DMA) buffer to a context that supports virtual addressing with the  <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommandvirtual.md">DxgkDdiSubmitCommandVirtual</a>device driver interface (DDI).
 
 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_SUBMITCOMMANDVIRTUAL {
@@ -66,6 +76,9 @@ typedef struct _DXGKARG_SUBMITCOMMANDVIRTUAL {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hContext
 
@@ -127,27 +140,18 @@ Reserved for future use.
 The zero-based index of the node that the context is created for. Identifies the node when the context is <b>NULL</b>.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommandvirtual.md">DxgkDdiSubmitCommandVirtual</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a>
-</dt>
-<dt>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommandvirtual.md">DxgkDdiSubmitCommandVirtual</a>
+
 <a href="https://msdn.microsoft.com/0ec8a4eb-c441-47ae-b5de-d86e6065ffd4">Supplying Fence Identifiers</a>
-</dt>
-<dt>
+
 <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>
-</dt>
-</dl>
+
  
 
  

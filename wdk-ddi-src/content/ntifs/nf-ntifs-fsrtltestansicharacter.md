@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b667f0c9-7746-432e-ae58-3fe5b48309e0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlTestAnsiCharacter
+ms.keywords: fsrtlref_7ef89c09-f42e-433a-90bf-59452fd1b7c4.xml, ntifs/FsRtlTestAnsiCharacter, ifsk.fsrtltestansicharacter, FsRtlTestAnsiCharacter function [Installable File System Drivers], FsRtlTestAnsiCharacter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlTestAnsiCharacter
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ntifs.h
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FsRtlTestAnsiCharacter
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlTestAnsiCharacter macro
 
 
-
 ## -description
+
+
 The<b> FsRtlTestAnsiCharacter</b> macro determines whether an ANSI or double-byte character set (DBCS) character meets the specified criteria.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FsRtlTestAnsiCharacter(
@@ -57,25 +67,44 @@ BOOLEAN FsRtlTestAnsiCharacter(
 
 ## -parameters
 
-### -param Character 
-
-Pointer to the character to be tested.
 
 
-### -param DefaultReturnValue 
 
-Default value to be returned if the value of <i>(SCHAR *)Character</i> is &lt; 0.
+### -param C
+
+TBD
 
 
-### -param WildCardsPermissible 
+### -param DEFAULT_RET
+
+TBD
+
+
+### -param WILD_OK
+
+TBD
+
+
+### -param FLAGS
+
+TBD
+
+
+
+
+#### - WildCardsPermissible
 
 Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.
 
 
-### -param Flags 
+#### - DefaultReturnValue
+
+Default value to be returned if the value of <i>(SCHAR *)Character</i> is &lt; 0.
+
+
+#### - Flags
 
 Combination of one or more of the flag values described following.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -141,29 +170,31 @@ FSRTL_NTFS_LEGAL | FSRTL_OLE_LEGAL
 
 </td>
 </tr>
-</table>
- 
+</table> 
+
+
+#### - Character
+
+Pointer to the character to be tested.
 
 
 ## -remarks
+
+
 For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegal.md">FsRtlIsAnsiCharacterLegal</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalfat.md">FsRtlIsAnsiCharacterLegalFat</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalhpfs.md">FsRtlIsAnsiCharacterLegalHpfs</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalntfs.md">FsRtlIsAnsiCharacterLegalNtfs</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalfat.md">FsRtlIsAnsiCharacterLegalFat</a>
+
  
 
  

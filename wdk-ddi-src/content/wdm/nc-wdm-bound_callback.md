@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D9047BB2-2FCD-41DE-B1E1-DE89AAA40ED7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+ms.keywords: kernel.boundcallback, BoundCallback routine [Kernel-Mode Driver Architecture], BoundCallback, BOUND_CALLBACK, BOUND_CALLBACK, wdm/BoundCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BoundCallback
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	Wdm.h
+apiname: 
+-	BoundCallback
+product: Windows
+targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # BOUND_CALLBACK callback
 
 
-
 ## -description
+
+
 The <i>BoundCallback</i> routine is executed whenever the system issues a bounds exception for a user-mode thread.
 
 
-
 ## -prototype
+
 
 ````
 BOUND_CALLBACK BoundCallback;
@@ -57,29 +67,33 @@ BOUND_CALLBACK_STATUS BoundCallback(void)
 ## -parameters
 
 
+
+
+
+
+
 ## -returns
-A <a href="..\wdm\ne-wdm-_bound_callback_status.md">BOUND_CALLBACK_STATUS</a> value that indicates how the bounds exception was processed by the callback function. 
+
 
 A <a href="..\wdm\ne-wdm-_bound_callback_status.md">BOUND_CALLBACK_STATUS</a> value that indicates how the bounds exception was processed by the callback function. 
 
-A <a href="..\wdm\ne-wdm-_bound_callback_status.md">BOUND_CALLBACK_STATUS</a> value that indicates how the bounds exception was processed by the callback function. 
 
 
 ## -remarks
+
+
 Drivers can supply a <i>BoundCallback</i> that is called when the system issues a bounds exception.
 
 Use <a href="..\wdm\nf-wdm-keregisterboundcallback.md">KeRegisterBoundCallback</a> to register a <i>BoundCallback</i> routine. A driver can subsequently remove the callback by using the <a href="..\wdm\nf-wdm-kederegisterboundcallback.md">KeDeregisterBoundCallback</a> routine. If the driver can be unloaded, it must remove any registered callbacks in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-keregisterboundcallback.md">KeRegisterBoundCallback</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-kederegisterboundcallback.md">KeDeregisterBoundCallback</a>
-</dt>
-</dl>
+
  
 
  

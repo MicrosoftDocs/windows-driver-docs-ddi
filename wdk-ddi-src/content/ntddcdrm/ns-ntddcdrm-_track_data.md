@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f412ff4e-6c65-40f8-9747-dc5059e588f6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _TRACK_DATA, *PTRACK_DATA, TRACK_DATA
+ms.keywords: _TRACK_DATA, PTRACK_DATA, storage.track_data, structs-CD-ROM_37ea4578-82b7-4b8e-be1b-28c27de349d9.xml, ntddcdrm/TRACK_DATA, TRACK_DATA structure [Storage Devices], ntddcdrm/PTRACK_DATA, TRACK_DATA, PTRACK_DATA structure pointer [Storage Devices], *PTRACK_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TRACK_DATA
-req.alt-loc: ntddcdrm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PTRACK_DATA, TRACK_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddcdrm.h
+apiname: 
+-	TRACK_DATA
+product: Windows
+targetos: Windows
+req.typenames: TRACK_DATA, *PTRACK_DATA
 ---
 
 # _TRACK_DATA structure
 
 
-
 ## -description
+
+
 Track descriptor is used in conjunction with <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a> and <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_session_data.md">CDROM_TOC_SESSION_DATA</a>. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _TRACK_DATA {
@@ -58,6 +68,9 @@ typedef struct _TRACK_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Reserved
 
@@ -90,18 +103,18 @@ Indicates the starting address of the track.
 
 
 ## -remarks
+
+
 This structure contains table of contents information for a track.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a>
-</dt>
-<dt>
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_session_data.md">CDROM_TOC_SESSION_DATA</a>
-</dt>
-</dl>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a>
+
  
 
  

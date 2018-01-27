@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3d965c9b-1d71-4ef5-9b76-391b36b1d8c7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY, DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY
+ms.keywords: dxgiddi/DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY, DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY, _DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY, DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY structure [Display Devices], display.dxgi_ddi_arg_presentmultiplaneoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY
-req.alt-loc: Dxgiddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Dxgiddi.h
+apiname: 
+-	DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY
+product: Windows
+targetos: Windows
 req.typenames: DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY
 ---
 
 # _DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY structure
 
 
-
 ## -description
+
+
 Specifies a multiplane overlay resource to display.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY {
@@ -62,6 +72,9 @@ typedef struct _DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -103,33 +116,22 @@ typedef struct _DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY {
 This member is reserved and should be set to zero.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
-</dt>
-<dt>
-<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_flip_interval_type.md">DXGI_DDI_FLIP_INTERVAL_TYPE</a>
-</dt>
-<dt>
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_present_flags.md">DXGI_DDI_PRESENT_FLAGS</a>
-</dt>
-<dt>
-<a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_present_multiplane_overlay.md">DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY</a>
-</dt>
-<dt>
+
 <a href="..\dxgiddi\ns-dxgiddi-dxgiddicb_present_multiplane_overlay.md">DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh780324">pfnPresentMultiPlaneOverlayCb (DXGI)</a>
-</dt>
-</dl>
+
+<a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_present_multiplane_overlay.md">DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY</a>
+
+<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_flip_interval_type.md">DXGI_DDI_FLIP_INTERVAL_TYPE</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_present_flags.md">DXGI_DDI_PRESENT_FLAGS</a>
+
  
 
  

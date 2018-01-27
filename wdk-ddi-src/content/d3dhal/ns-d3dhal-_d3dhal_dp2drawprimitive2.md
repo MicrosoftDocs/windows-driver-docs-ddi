@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: de73a814-2406-4976-ae12-909ed820586c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2DRAWPRIMITIVE2, D3DHAL_DP2DRAWPRIMITIVE2, *LPD3DHAL_DP2DRAWPRIMITIVE2
+ms.keywords: LPD3DHAL_DP2DRAWPRIMITIVE2 structure pointer [Display Devices], _D3DHAL_DP2DRAWPRIMITIVE2, *LPD3DHAL_DP2DRAWPRIMITIVE2, d3dhal/D3DHAL_DP2DRAWPRIMITIVE2, d3dhal/LPD3DHAL_DP2DRAWPRIMITIVE2, D3DHAL_DP2DRAWPRIMITIVE2 structure [Display Devices], display.d3dhal_dp2drawprimitive2, LPD3DHAL_DP2DRAWPRIMITIVE2, D3DHAL_DP2DRAWPRIMITIVE2, d3dstrct_b61a4b46-344e-4f06-9b2b-1434bb8b6dcc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DP2DRAWPRIMITIVE2
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DP2DRAWPRIMITIVE2
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DP2DRAWPRIMITIVE2
 ---
 
 # _D3DHAL_DP2DRAWPRIMITIVE2 structure
 
 
-
 ## -description
+
+
 
    DirectX 8.0 and later versions only.
    
@@ -46,8 +56,8 @@ req.typenames: D3DHAL_DP2DRAWPRIMITIVE2
 D3DHAL_DRAWPRIMITIVE2 is parsed from the command buffer by the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback when the <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_DRAWPRIMITIVE2, and is used to render a primitive.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DP2DRAWPRIMITIVE2 {
@@ -59,6 +69,9 @@ typedef struct _D3DHAL_DP2DRAWPRIMITIVE2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field primType
 
@@ -76,23 +89,24 @@ Specifies the number of triangles, lines or points to draw for the given primiti
 
 
 ## -remarks
+
+
 The vertex data has been transformed by the runtime.
 
 
+
 ## -see-also
-<dl>
-<dt>D3DDP2OP_DRAWPRIMITIVE</dt>
-<dt>D3DDP2OP_DRAWPRIMITIVE2</dt>
-<dt>
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-</dt>
-<dt>
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-</dt>
-<dt>
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawprimitive.md">D3DHAL_DP2DRAWPRIMITIVE</a>
-</dt>
-</dl>
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
+D3DDP2OP_DRAWPRIMITIVE
+
+D3DDP2OP_DRAWPRIMITIVE2
+
  
 
  

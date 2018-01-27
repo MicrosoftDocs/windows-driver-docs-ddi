@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: FE396C2C-B099-47F4-9C27-93D420D54103
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _CIP_STOP, *PCIP_STOP, CIP_STOP
+ms.keywords: IEEE.cip_stop, 61883/PCIP_STOP, PCIP_STOP structure pointer [Buses], PCIP_STOP, _CIP_STOP, 61883/CIP_STOP, *PCIP_STOP, CIP_STOP structure [Buses], CIP_STOP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CIP_STOP
-req.alt-loc: 61883.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PCIP_STOP, CIP_STOP
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	61883.h
+apiname: 
+-	CIP_STOP
+product: Windows
+targetos: Windows
+req.typenames: CIP_STOP, *PCIP_STOP
 ---
 
 # _CIP_STOP structure
 
 
-
 ## -description
+
+
 This structure is used to stop transmission or reception. The  request stops isochronous transmission or reception on the specified connection. This request will stop capturing CIP packets, whether there are any frames attached. If frames are attached and the stream is resumed, then processing of the frame is resumed on the next source packet within the frame. To resume the stream on the beginning of the frame, a driver must set <b>Flags</b> with CIP_RESET_FRAME_ON_DISCONTINUITY in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537045">CIP_FRAME</a> structure passed with AttachFrame request. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _CIP_STOP {
@@ -54,23 +64,27 @@ typedef struct _CIP_STOP {
 
 ## -struct-fields
 
+
+
+
 ### -field hConnect
 
 On input, a handle to the connection on which to stop isochronous transmission or reception.
 
 
 ## -remarks
+
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
 
 If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_INVALID_PARAMETER.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-</dt>
-</dl>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2d0cdc50-a194-4eda-8bba-f6e5c06ff32c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2BLT, D3DHAL_DP2BLT, *LPD3DHAL_DP2BLT
+ms.keywords: _D3DHAL_DP2BLT, display.d3dhal_dp2blt, D3DHAL_DP2BLT, *LPD3DHAL_DP2BLT, d3dstrct_cab5e8b8-ec72-4d7d-8aaa-4a1f6da44a9b.xml, LPD3DHAL_DP2BLT structure pointer [Display Devices], D3DHAL_DP2BLT structure [Display Devices], d3dhal/D3DHAL_DP2BLT, LPD3DHAL_DP2BLT, d3dhal/LPD3DHAL_DP2BLT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DP2BLT
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DP2BLT
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DP2BLT
 ---
 
 # _D3DHAL_DP2BLT structure
 
 
-
 ## -description
+
+
 
    DirectX 9.0 and later versions only.
    
@@ -46,8 +56,8 @@ req.typenames: D3DHAL_DP2BLT
 D3DHAL_DP2BLT is used for two dimensional surface blts when <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> responds to the D3DDP2OP_BLT command token.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DP2BLT {
@@ -63,6 +73,9 @@ typedef struct _D3DHAL_DP2BLT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwSource
 
@@ -97,7 +110,6 @@ Specifies the sublevel of a MIP-map texture that is the destination for the blt.
 ### -field Flags
 
 Specifies a flag that indicates the type of filtering that the driver must perform. This member is set to zero to indicate that the driver can use its own filtering technique or is set to one of the following flags.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -123,24 +135,24 @@ Set for point filtering.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ## -remarks
+
+
 The <b>dwSource</b> or <b>dwDest</b> member specifies the kernel handle to the top-level surface and the <b>dwSourceMipLevel</b> or <b>dwDestMiplevel</b> member specifies the sublevel for the MIP-map chain where the blt occurs.
 
 
+
 ## -see-also
-<dl>
-<dt>D3DDP2OP_BLT</dt>
-<dt>
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-</dt>
-<dt>
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-</dt>
-</dl>
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+D3DDP2OP_BLT
+
  
 
  

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 68D3A830-6687-4D45-8C9B-FC7B5E1F318A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlLongLongToUShort
+ms.keywords: RtlLongLongToUShort, kernel.rtllonglongtoushort, ntintsafe/RtlLongLongToUShort, RtlLongLongToUShort function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlLongLongToUShort
-req.alt-loc: Ntintsafe.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntintsafe.h
+apiname: 
+-	RtlLongLongToUShort
+product: Windows
+targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
 
 # RtlLongLongToUShort function
 
 
-
 ## -description
+
+
 Converts a value of type <b>LONGLONG</b> to a value of type <b>USHORT</b>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlLongLongToUShort(
@@ -54,6 +64,9 @@ NTSTATUS RtlLongLongToUShort(
 
 
 ## -parameters
+
+
+
 
 ### -param llOperand [in]
 
@@ -66,6 +79,28 @@ A pointer to the converted value. In the case where the conversion causes a trun
 
 
 ## -remarks
+
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
-This function uses the following alternate name:</p>
+This function uses the following alternate name:
+<ul>
+<li>
+RtlLongLongToUInt16
+</li>
+<li>RtlLongLongToWord
+</li>
+<li>RtlLong64ToUShort
+</li>
+<li>RtlLong64ToUInt16
+</li>
+<li>RtlLong64ToWord
+</li>
+<li>RtlInt64ToUShort
+</li>
+<li>RtlInt64ToUInt16
+</li>
+<li>RtlInt64ToWord
+</li>
+</ul>
+

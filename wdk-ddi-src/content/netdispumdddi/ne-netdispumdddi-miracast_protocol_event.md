@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7a47acf7-93a9-4bb2-a120-17c32c852ea9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: MIRACAST_PROTOCOL_EVENT, MIRACAST_PROTOCOL_EVENT
+ms.keywords: MIRACAST_PROTOCOL_EVENT_IFRAME_RQ, netdispumdddi/MIRACAST_PROTOCOL_EVENT_MONITOR_DEPART, MIRACAST_PROTOCOL_EVENT, netdispumdddi/MIRACAST_PROTOCOL_EVENT_MONITOR_ARRIVE, MIRACAST_PROTOCOL_EVENT_FORCE_UINT32, MIRACAST_PROTOCOL_EVENT enumeration [Display Devices], netdispumdddi/MIRACAST_PROTOCOL_EVENT, MIRACAST_PROTOCOL_EVENT_MONITOR_ARRIVE, MIRACAST_PROTOCOL_EVENT_MONITOR_DEPART, netdispumdddi/MIRACAST_PROTOCOL_EVENT_SINK_FAILED_PREFERRED_MODE_CHANGE, MIRACAST_PROTOCOL_EVENT_SINK_FAILED_PREFERRED_MODE_CHANGE, display.miracast_protocol_event, netdispumdddi/MIRACAST_PROTOCOL_EVENT_FORCE_UINT32, netdispumdddi/MIRACAST_PROTOCOL_EVENT_IFRAME_RQ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MIRACAST_PROTOCOL_EVENT
-req.alt-loc: Netdispumdddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Netdispumdddi.h
+apiname: 
+-	MIRACAST_PROTOCOL_EVENT
+product: Windows
+targetos: Windows
 req.typenames: MIRACAST_PROTOCOL_EVENT
 ---
 
 # MIRACAST_PROTOCOL_EVENT enumeration
 
 
-
 ## -description
+
+
 Specifies the types of wireless display (Miracast) protocol event that the user-mode display driver should report.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -57,6 +67,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field MIRACAST_PROTOCOL_EVENT_IFRAME_RQ
 
@@ -82,5 +95,3 @@ Reserved for system use. Do not use in your driver.
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. You should not use this value.
 
-
-## -remarks

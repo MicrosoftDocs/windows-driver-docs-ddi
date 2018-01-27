@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8cd94502-c11a-4e6a-87f6-0c6034b6ac09
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlAppendStringToString
+ms.keywords: ifsk.rtlappendstringtostring, rtlref_a5cf2f54-1094-44ea-8b05-0c3d08aa5abc.xml, ntifs/RtlAppendStringToString, RtlAppendStringToString, RtlAppendStringToString routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows 2000, and later versio
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlAppendStringToString
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlAppendStringToString
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlAppendStringToString function
 
 
-
 ## -description
+
+
 The <b>RtlAppendStringToString</b> routine concatenates two counted strings. It copies bytes from the source up to the length of the destination buffer.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlAppendStringToString(
@@ -54,6 +64,9 @@ NTSTATUS RtlAppendStringToString(
 
 
 ## -parameters
+
+
+
 
 ### -param Destination [in, out]
 
@@ -66,27 +79,29 @@ A pointer to a counted string to be appended to the string at <i>Destination</i>
 
 
 ## -returns
+
+
 The <b>RtlAppendStringToString</b> routine returns STATUS_SUCCESS if it appended the string at <i>Source</i> to the string at <i>Destination</i>. <b>RtlAppendStringToString</b> returns STATUS_BUFFER_TOO_SMALL if the <b>MaximumLength</b> of the <i>Destination</i> string is too small to allow the source string to be appended. 
 
 
+
 ## -remarks
+
+
 The sum of the <b>Length</b> members of the <i>Destination</i> and <i>Source</i> strings must be less than or equal to the <b>MaximumLength</b> of the <i>Destination</i> string.
 
 For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-rtlappendunicodestringtostring.md">RtlAppendUnicodeStringToString</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-rtlappendunicodetostring.md">RtlAppendUnicodeToString</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-rtlappendunicodetostring.md">RtlAppendUnicodeToString</a>
+
+<a href="..\wdm\nf-wdm-rtlappendunicodestringtostring.md">RtlAppendUnicodeStringToString</a>
+
  
 
  

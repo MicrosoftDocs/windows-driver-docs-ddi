@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ee719cbe-0933-4adc-b5c7-62b66f2bf4e1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KoCreateInstance
+ms.keywords: stream.kocreateinstance, KoCreateInstance, KoCreateInstance function [Streaming Media Devices], kcom/KoCreateInstance, ksfunc_57c8ab23-3163-4ef8-a381-bd81ce01d18e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KoCreateInstance
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KoCreateInstance
+product: Windows
+targetos: Windows
 req.typenames: CONNECT_DATA, *PCONNECT_DATA
 ---
 
 # KoCreateInstance function
 
 
-
 ## -description
+
+
 <i>This function is intended for internal use only.</i>
 
 The <b>KoCreateInstance</b> function creates an object of the class with the specified CLSID. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KoCreateInstance(
@@ -59,6 +70,9 @@ NTSTATUS KoCreateInstance(
 
 
 ## -parameters
+
+
+
 
 ### -param ClassId [in]
 
@@ -86,7 +100,8 @@ Address of the pointer variable that receives the new interface pointer specifie
 
 
 ## -returns
+
+
 Returns STATUS_SUCCESS if the instance was successfully created. Otherwise, it returns an error.
 
 
-## -remarks

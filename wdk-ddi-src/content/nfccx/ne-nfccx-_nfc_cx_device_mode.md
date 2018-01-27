@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: B9996339-984D-4F6B-BFE9-2F536EC75924
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: _NFC_CX_DEVICE_MODE, NFC_CX_DEVICE_MODE, *PNFC_CX_DEVICE_MODE
+ms.keywords: _NFC_CX_DEVICE_MODE, nfccx/NFC_CX_DEVICE_MODE_NCI, NFC_CX_DEVICE_MODE enumeration [Near-Field Proximity Drivers], nfccx/NFC_CX_DEVICE_MODE, NFC_CX_DEVICE_MODE, nfpdrivers.nfc_cx_device_mode, NFC_CX_DEVICE_MODE_RAW, NFC_CX_DEVICE_MODE_NCI, nfccx/NFC_CX_DEVICE_MODE_RAW, *PNFC_CX_DEVICE_MODE, NFC_CX_DEVICE_MODE_DTA, nfccx/NFC_CX_DEVICE_MODE_DTA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NFC_CX_DEVICE_MODE
-req.alt-loc: nfccx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Requires same
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	nfccx.h
+apiname: 
+-	NFC_CX_DEVICE_MODE
+product: Windows
+targetos: Windows
 req.typenames: NFC_CX_DEVICE_MODE, *PNFC_CX_DEVICE_MODE
 ---
 
 # _NFC_CX_DEVICE_MODE enumeration
 
 
-
 ## -description
+
+
 Specifies device mode flags.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _NFC_CX_DEVICE_MODE { 
@@ -55,6 +65,9 @@ typedef enum _NFC_CX_DEVICE_MODE {
 
 
 ## -enum-fields
+
+
+
 
 ### -field NFC_CX_DEVICE_MODE_NCI
 
@@ -71,14 +84,12 @@ Enable DTA mode.
 Enable RAW mode.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt><a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a></dt>
-<dt><a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a></dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
  
 
  

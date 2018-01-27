@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ee066013-99fb-4a43-82f9-edbad7b5a8e9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltCurrentOplockH
+ms.keywords: fltkernel/FltCurrentOplockH, FltApiRef_a_to_d_0abdd89d-fe36-4546-a3bd-87d7d132f73e.xml, FltCurrentOplockH routine [Installable File System Drivers], ifsk.fltcurrentoplockh, FltCurrentOplockH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The FltCurrentOplockH routine is available starting w
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltCurrentOplockH
-req.alt-loc: FltMgr.lib,FltMgr.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	FltMgr.lib
+-	FltMgr.dll
+apiname: 
+-	FltCurrentOplockH
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltCurrentOplockH function
 
 
-
 ## -description
+
+
 A minifilter driver calls the <b>FltCurrentOplockH</b> routine to determine whether there are any CACHE_HANDLE_LEVEL opportunistic locks (oplocks) on a file. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN FltCurrentOplockH(
@@ -54,30 +65,36 @@ BOOLEAN FltCurrentOplockH(
 
 ## -parameters
 
+
+
+
 ### -param Oplock [in]
 
 An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>. 
 
 
 ## -returns
+
+
 <b>FltCurrentOplockH</b> returns <b>TRUE</b> if there are CACHE_HANDLE_LEVEL oplocks that are currently being held. Otherwise, it returns <b>FALSE</b>. 
 
 
+
 ## -remarks
+
+
 <b>FltCurrentOplockH</b> returns <b>FALSE</b> if no CACHE_HANDLE_LEVEL opportunistic locks are currently held.
 
 For more information about opportunistic locks, see the Microsoft Windows SDK documentation. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcurrentoplockh.md">FsRtlCurrentOplockH</a>
-</dt>
-</dl>
+
  
 
  

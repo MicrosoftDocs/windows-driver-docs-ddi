@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: ad4888fc-3d90-4920-bf84-aea18841d238
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTH_DEVICE_INFO_LIST, *PBTH_DEVICE_INFO_LIST, BTH_DEVICE_INFO_LIST
+ms.keywords: *PBTH_DEVICE_INFO_LIST, BTH_DEVICE_INFO_LIST, BTH_DEVICE_INFO_LIST structure [Bluetooth Devices], bltooth.bth_device_info_list, PBTH_DEVICE_INFO_LIST, bth_structs_230962ed-c458-4c9e-a317-e2508b07c059.xml, _BTH_DEVICE_INFO_LIST, PBTH_DEVICE_INFO_LIST structure pointer [Bluetooth Devices], bthioctl/BTH_DEVICE_INFO_LIST, bthioctl/PBTH_DEVICE_INFO_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BTH_DEVICE_INFO_LIST
-req.alt-loc: bthioctl.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-req.typenames: *PBTH_DEVICE_INFO_LIST, BTH_DEVICE_INFO_LIST
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	bthioctl.h
+apiname: 
+-	BTH_DEVICE_INFO_LIST
+product: Windows
+targetos: Windows
+req.typenames: BTH_DEVICE_INFO_LIST, *PBTH_DEVICE_INFO_LIST
 ---
 
 # _BTH_DEVICE_INFO_LIST structure
 
 
-
 ## -description
+
+
 The BTH_DEVICE_INFO_LIST structure contains output information about all cached, previously
   discovered remote devices.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BTH_DEVICE_INFO_LIST {
@@ -55,6 +65,9 @@ typedef struct _BTH_DEVICE_INFO_LIST {
 
 
 ## -struct-fields
+
+
+
 
 ### -field numOfDevices
 
@@ -69,6 +82,8 @@ An open-ended array of
 
 
 ## -remarks
+
+
 The 
     <a href="..\bthioctl\ni-bthioctl-ioctl_bth_get_device_info.md">IOCTL_BTH_GET_DEVICE_INFO</a> call's
     output buffer contains the list of all cached, previously discovered remote devices.
@@ -79,13 +94,13 @@ The
     the available structures will be returned.
 
 
+
 ## -see-also
-<dl>
-<dt><a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a></dt>
-<dt>
+
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_get_device_info.md">IOCTL_BTH_GET_DEVICE_INFO</a>
-</dt>
-</dl>
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
+
  
 
  

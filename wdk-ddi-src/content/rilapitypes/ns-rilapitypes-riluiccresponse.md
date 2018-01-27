@@ -7,8 +7,8 @@ old-location: netvista\riluiccresponse_2.htm
 old-project: netvista
 ms.assetid: c3d3481e-a0db-492d-8fc3-6bdcfa26f4c4
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILUICCRESPONSE, RILUICCRESPONSE, *LPRILUICCRESPONSE
+ms.date: 1/18/2018
+ms.keywords: *LPRILUICCRESPONSE, rilapitypes/RILUICCRESPONSE, netvista.riluiccresponse_2, RILUICCRESPONSE, RILUICCRESPONSE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILUICCRESPONSE
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILUICCRESPONSE, *LPRILUICCRESPONSE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILUICCRESPONSE
+product: Windows
+targetos: Windows
+req.typenames: *LPRILUICCRESPONSE, RILUICCRESPONSE
 req.product: Windows 10 or later.
 ---
 
 # RILUICCRESPONSE structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILUICCRESPONSE {
@@ -60,22 +70,29 @@ typedef struct _RILUICCRESPONSE {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwStatusWord1
+
 
 
 ### -field dwStatusWord2
 
 
+
 ### -field dwResponseSize
+
 
 
 ### -field pbResponse
 
 
-## -remarks

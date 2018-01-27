@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 58170D54-869A-49CC-865A-AB64BFB41A4B
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcUnregisterIoTimeout
+ms.keywords: audio.iminiportaudioenginenode, IMiniportAudioEngineNode interface [Audio Devices], IMiniportAudioEngineNode interface [Audio Devices], described, IMiniportAudioEngineNode, portcls/IMiniportAudioEngineNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMiniportAudioEngineNode
-req.alt-loc: Portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,59 +29,31 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Portcls.h
+apiname: 
+-	IMiniportAudioEngineNode
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportAudioEngineNode interface
 
 
-
 ## -description
+
+
 This interface allows a miniport driver to use KS properties that access the audio engine via a KS filter handle.
 
 
-
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMiniportAudioEngineNode</b> interface inherits from the <a href="com.iunknown" xmlns:loc="http://microsoft.com/wdcml/l10n"><b>IUnknown</b></a> interface. <b>IMiniportAudioEngineNode</b> also has these types of members:
-
-The <b>IMiniportAudioEngineNode</b> interface has these methods.
-
-Gets the descriptor for the audio engine node.
-
-Gets the minimum and maximum buffer size that the hardware audio engine can support.
-
-Gets the allowed stepping value for the audio device attribute.
-
-Gets a count of the number of channels supported by the audio device.
-
-Gets the state of the Mute node for the audio device channel.
-
-Gets the PeakMeter value  for the audio device channel.
-
-Gets the volume level for a given channel of the audio device.
-
-Gets the audio data format for an audio device.
-
-Gets the format type and the buffer size for the audio engine's audio data format.
-
-Gets the state of the global effects (GFX) node in the audio engine.
-
-Gets the audio data format for the audio engine mixer.
-
-Gets the supported audio data formats for the audio device.
-
-Sets the state of the Mute node for the audio device channel.
-
-Sets the volume level for a given channel of the audio device.
-
-Sets the audio data format for an audio device.
-
-Sets the state of the global effects (GFX) node in the audio engine.
-
- 
-
-
 ## -members
+
 The <b>IMiniportAudioEngineNode</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -268,5 +238,3 @@ Sets the state of the global effects (GFX) node in the audio engine.
 
  
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bde22894-97a1-42a8-97c1-ba9738c087b9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_RENDERKM_OPERATION, DXGK_RENDERKM_OPERATION
+ms.keywords: DXGK_GDIOP_ALPHABLEND, d3dkmddi/DXGK_GDIOP_ALPHABLEND, DXGK_GDIOP_ESCAPE, d3dkmddi/DXGK_RENDERKM_OPERATION, DXGK_GDIOP_CLEARTYPEBLEND, d3dkmddi/DXGK_GDIOP_CLEARTYPEBLEND, DXGK_RENDERKM_OPERATION enumeration [Display Devices], DXGK_GDIOP_STRETCHBLT, d3dkmddi/DXGK_GDIOP_TRANSPARENTBLT, DXGK_GDIOP_BITBLT, DmEnums_f7b836bc-00ed-4ecc-8bb7-460e3e44d165.xml, _DXGK_RENDERKM_OPERATION, DXGK_GDIOP_COLORFILL, d3dkmddi/DXGK_GDIOP_COLORFILL, d3dkmddi/DXGK_GDIOP_BITBLT, d3dkmddi/DXGK_GDIOP_STRETCHBLT, DXGK_RENDERKM_OPERATION, DXGK_GDIOP_TRANSPARENTBLT, display.dxgk_renderkm_operation, d3dkmddi/DXGK_GDIOP_ESCAPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_RENDERKM_OPERATION
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_RENDERKM_OPERATION
+product: Windows
+targetos: Windows
 req.typenames: DXGK_RENDERKM_OPERATION
 ---
 
 # _DXGK_RENDERKM_OPERATION enumeration
 
 
-
 ## -description
+
+
 The DXGK_RENDERKM_OPERATION enumeration indicates the type of GDI hardware-accelerated rendering operation to perform when the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a> function is called.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXGK_RENDERKM_OPERATION { 
@@ -59,6 +69,9 @@ typedef enum _DXGK_RENDERKM_OPERATION {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DXGK_GDIOP_BITBLT
 
@@ -95,18 +108,12 @@ Indicates a blt with transparency.
 Indicates a ClearType blend.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_renderkm_command.md">DXGK_RENDERKM_COMMAND</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a>
-</dt>
-</dl>
+
  
 
  

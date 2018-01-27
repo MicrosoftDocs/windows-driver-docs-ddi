@@ -7,8 +7,8 @@ old-location: print\bidi_request_data.htm
 old-project: print
 ms.assetid: ef5a89e3-f072-48a7-b2d9-d68e0e27ba9e
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: _BIDI_REQUEST_DATA, BIDI_REQUEST_DATA, *PBIDI_REQUEST_DATA, *LPBIDI_REQUEST_DATA
+ms.date: 1/18/2018
+ms.keywords: winspool/LPBIDI_REQUEST_DATA, _BIDI_REQUEST_DATA, BIDI_REQUEST_DATA structure [Print Devices], LPBIDI_REQUEST_DATA, winspool/PBIDI_REQUEST_DATA, *LPBIDI_REQUEST_DATA, PBIDI_REQUEST_DATA, spoolfnc_ab7c70f5-9161-4245-8f25-350f68144f82.xml, *PBIDI_REQUEST_DATA, BIDI_REQUEST_DATA, LPBIDI_REQUEST_DATA structure pointer [Print Devices], PBIDI_REQUEST_DATA structure pointer [Print Devices], print.bidi_request_data, winspool/BIDI_REQUEST_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: This structure is available in Windows XP and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: BIDI_REQUEST_DATA
-req.alt-loc: winspool.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: BIDI_REQUEST_DATA, *PBIDI_REQUEST_DATA, *LPBIDI_REQUEST_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	winspool.h
+apiname: 
+-	BIDI_REQUEST_DATA
+product: Windows
+targetos: Windows
+req.typenames: *PBIDI_REQUEST_DATA, *LPBIDI_REQUEST_DATA, BIDI_REQUEST_DATA
 req.product: Windows 10 or later.
 ---
 
 # _BIDI_REQUEST_DATA structure
 
 
-
 ## -description
+
+
 The BIDI_REQUEST_DATA structure holds a single bidi request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _BIDI_REQUEST_DATA {
@@ -56,6 +66,9 @@ typedef struct _BIDI_REQUEST_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwReqNumber
 
@@ -72,21 +85,15 @@ Pointer to a memory location containing the first byte of the schema string.
 Specifies a <a href="..\winspool\ns-winspool-_bidi_data.md">BIDI_DATA</a> structure containing the data associated with the schema.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\winspool\ns-winspool-_bidi_data.md">BIDI_DATA</a>
-</dt>
-<dt>
+
 <a href="..\winspool\ns-winspool-_bidi_request_container.md">BIDI_REQUEST_CONTAINER</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20BIDI_REQUEST_DATA structure%20 RELEASE:%20(1/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20BIDI_REQUEST_DATA structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

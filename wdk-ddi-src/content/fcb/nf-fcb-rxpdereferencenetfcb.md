@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6e59a1c7-ddd4-40a6-8e75-879cbef010db
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxpDereferenceNetFcb
+ms.keywords: ifsk.rxpdereferencenetfcb, fcb/RxpDereferenceNetFcb, rxref_5b67e32d-12f2-4c52-9099-16505e00233f.xml, RxpDereferenceNetFcb, RxpDereferenceNetFcb function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxpDereferenceNetFcb
-req.alt-loc: fcb.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	fcb.h
+apiname: 
+-	RxpDereferenceNetFcb
+product: Windows
+targetos: Windows
 req.typenames: FA_ENTRY, *PFA_ENTRY
 ---
 
 # RxpDereferenceNetFcb function
 
 
-
 ## -description
+
+
 <b>RxpDereferenceNetFcb</b> decrements the reference count on an FCB structure.
 
 
-
 ## -syntax
+
 
 ````
 LONG RxpDereferenceNetFcb(
@@ -54,16 +64,24 @@ LONG RxpDereferenceNetFcb(
 
 ## -parameters
 
-### -param Fcb 
+
+
+
+### -param Fcb
 
 A pointer to the FCB structure to be dereferenced.
 
 
 ## -returns
+
+
 <b>RxpDereferenceNetFcb</b> returns the final reference count after the dereference. 
 
 
+
 ## -remarks
+
+
 The referencing and dereferencing of FCBs is different from those of the other data structures because of the embedded resource in the FCB. This implies that the caller requires information regarding the status of the FCB (whether it was finalized or not ). To finalize the FCB, two locks need to be held, the NET_ROOT name table lock as well as the FCB resource. These considerations lead to a different approach in dereferencing FCBs. Consequently, <b>RxpDereferenceNetFcb</b> does not attempt to finalize the FCB.
 
 A number of macros are defined in <i>fcb.h</i> for debugging that are the preferred way to call this routine. These macros provide a wrapper around the <b>RxpReferenceNetFcb</b>  or <b>RxpDereferenceNetFcb</b> routines used for file structure management operations on FCB structures. The <b>RxDereferenceNetFcb</b> macro is the preferred way to call this routine. This macro first calls the <b>RxpTrackDereference</b> routine to log diagnostic information about the request before calling the <b>RxpDereferenceNetFcb</b> routine.
@@ -71,21 +89,17 @@ A number of macros are defined in <i>fcb.h</i> for debugging that are the prefer
 On checked builds, <b>RxpDereferenceNetFcb</b> causes the system to ASSERT if the node type for the structure is not an FCB or if the final reference count is less than 0. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
-</dt>
-<dt>
-<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
-</dt>
-<dt>
-<a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
-</dt>
-<dt>
+
 <a href="..\fcb\nf-fcb-rxptrackreference.md">RxpTrackReference</a>
-</dt>
-</dl>
+
+<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
+
+<a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
+
  
 
  

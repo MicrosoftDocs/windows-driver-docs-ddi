@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1500E2C2-240F-4087-9275-9FD4170B8BED
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortClsRuntimePower, IPortClsRuntimePower::RegisterPowerControlCallback, RegisterPowerControlCallback
+ms.keywords: RegisterPowerControlCallback, IPortClsRuntimePower interface [Audio Devices], RegisterPowerControlCallback method, IPortClsRuntimePower::RegisterPowerControlCallback, audio.iportclsruntimepower_registerpowercontrolcallback, RegisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface, RegisterPowerControlCallback method [Audio Devices], portcls/IPortClsRuntimePower::RegisterPowerControlCallback, IPortClsRuntimePower
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IPortClsRuntimePower.RegisterPowerControlCallback
-req.alt-loc: Portcls.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: portcls.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	Portcls.h
+apiname: 
+-	IPortClsRuntimePower.RegisterPowerControlCallback
+product: Windows
+targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPortClsRuntimePower::RegisterPowerControlCallback method
 
 
-
 ## -description
+
+
 The port class driver (PortCls) uses the <code>RegisterPowerControlCallback</code>  method to register a power control callback.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RegisterPowerControlCallback(
@@ -56,34 +66,51 @@ NTSTATUS RegisterPowerControlCallback(
 
 ## -parameters
 
-### -param DeviceObject [in]
-
-The device object.
 
 
-### -param Callback [in]
+
+### -param _DeviceObject
+
+
+
+
+### -param _Callback
+
+
+
+
+### -param _Context
+
+
+
+
+
+#### - Callback [in]
 
 The callback object.
 
 
-### -param Context [in, optional]
+#### - Context [in, optional]
 
 The callback context.
 
 
+#### - DeviceObject [in]
+
+The device object.
+
+
 ## -returns
+
+
 The <code>RegisterPowerControlCallback</code> method returns STATUS_SUCCESS, if the call is successful. Otherwise, it returns the appropriate error code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\portcls\nn-portcls-iportclsruntimepower.md">IPortClsRuntimePower</a>
-</dt>
-</dl>
+
  
 
  

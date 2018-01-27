@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C9707F47-75DF-4CDE-B88B-24323FC8C94B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_CREATECONTEXTVIRTUAL, D3DKMT_CREATECONTEXTVIRTUAL
+ms.keywords: D3DKMT_CREATECONTEXTVIRTUAL structure [Display Devices], _D3DKMT_CREATECONTEXTVIRTUAL, D3DKMT_CREATECONTEXTVIRTUAL, d3dkmthk/D3DKMT_CREATECONTEXTVIRTUAL, display.d3dkmt_createcontextvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_CREATECONTEXTVIRTUAL
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_CREATECONTEXTVIRTUAL
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_CREATECONTEXTVIRTUAL
 ---
 
 # _D3DKMT_CREATECONTEXTVIRTUAL structure
 
 
-
 ## -description
+
+
 <b>D3DKMT_CREATECONTEXTVIRTUAL</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontextvirtual.md">D3DKMTCreateContextVirtual</a> to create a kernel mode device context that supports virtual addressing.
 
 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_CREATECONTEXTVIRTUAL {
@@ -62,6 +72,9 @@ typedef struct _D3DKMT_CREATECONTEXTVIRTUAL {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -103,18 +116,12 @@ typedef struct _D3DKMT_CREATECONTEXTVIRTUAL {
 [out] A handle to the context that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontextvirtual.md">D3DKMTCreateContextVirtual</a> function creates. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontextvirtual.md">D3DKMTCreateContextVirtual</a>
-</dt>
-<dt>
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_createcontextflags.md">D3DDDI_CREATECONTEXTFLAGS</a>
-</dt>
-</dl>
+
  
 
  

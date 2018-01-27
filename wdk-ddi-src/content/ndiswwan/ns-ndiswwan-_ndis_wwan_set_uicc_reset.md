@@ -7,8 +7,8 @@ old-location: netvista\ndis_wwan_set_uicc_reset.htm
 old-project: netvista
 ms.assetid: 98113BC2-317C-4FBD-B3A6-A14B3783D225
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_WWAN_SET_UICC_RESET, *PNDIS_WWAN_SET_UICC_RESET, NDIS_WWAN_SET_UICC_RESET
+ms.date: 1/18/2018
+ms.keywords: NDIS_WWAN_SET_UICC_RESET structure [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_SET_UICC_RESET, PNDIS_WWAN_SET_UICC_RESET structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SET_UICC_RESET, *PNDIS_WWAN_SET_UICC_RESET, _NDIS_WWAN_SET_UICC_RESET, netvista.ndis_wwan_set_uicc_reset, PNDIS_WWAN_SET_UICC_RESET, NDIS_WWAN_SET_UICC_RESET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_WWAN_SET_UICC_RESET
-req.alt-loc: ndiswwan.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ndiswwan.h
+apiname: 
+-	NDIS_WWAN_SET_UICC_RESET
+product: Windows
+targetos: Windows
 req.typenames: *PNDIS_WWAN_SET_UICC_RESET, NDIS_WWAN_SET_UICC_RESET
 ---
 
 # _NDIS_WWAN_SET_UICC_RESET structure
 
 
-
 ## -description
+
+
 The <b>NDIS_WWAN_SET_UICC_RESET</b> structure represents the passthrough action the MB host specifies for a modem miniport adapter after it resets a UICC card.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NDIS_WWAN_SET_UICC_RESET {
@@ -55,6 +65,9 @@ typedef struct _NDIS_WWAN_SET_UICC_RESET {
 
 ## -struct-fields
 
+
+
+
 ### -field Header
 
 The header with type, revision, and size information about the <b>NDIS_WWAN_SET_UICC_RESET</b> structure.
@@ -63,7 +76,6 @@ The header with type, revision, and size information about the <b>NDIS_WWAN_SET_
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
-
 <table>
 <tr>
 <th>Header submember</th>
@@ -99,8 +111,7 @@ sizeof(NDIS_WWAN_SET_UICC_RESET)
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -111,27 +122,19 @@ For more information about these members, see
 A formatted <a href="..\wwan\ns-wwan-_wwan_set_uicc_reset.md">WWAN_SET_UICC_RESET</a> structure that represents the passthrough action the host specifies for the miniport adapter after it resets the UICC.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\wwan\ns-wwan-_wwan_set_uicc_reset.md">WWAN_SET_UICC_RESET</a>
-</dt>
-<dt>
+
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-reset">OID_WWAN_UICC_RESET</a>
-</dt>
-<dt>
+
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_SET_UICC_RESET structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_SET_UICC_RESET structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

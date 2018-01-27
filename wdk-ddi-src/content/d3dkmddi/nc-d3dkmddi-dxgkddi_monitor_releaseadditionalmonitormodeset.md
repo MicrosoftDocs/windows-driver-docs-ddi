@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b9f6cb52-8870-4319-a1ff-d3dbbeef8cb6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgk_monitor_interface_v2_pfnreleaseadditionalmonitormodeset, pfnReleaseAdditionalMonitorModeSet callback function [Display Devices], pfnReleaseAdditionalMonitorModeSet, DXGKDDI_MONITOR_RELEASEADDITIONALMONITORMODESET, DXGKDDI_MONITOR_RELEASEADDITIONALMONITORMODESET, d3dkmddi/pfnReleaseAdditionalMonitorModeSet, VidPnFunctions_7b298754-19ed-420f-88f9-2910c3f5968a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of the Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnReleaseAdditionalMonitorModeSet
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	pfnReleaseAdditionalMonitorModeSet
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_MONITOR_RELEASEADDITIONALMONITORMODESET callback
 
 
-
 ## -description
+
+
 The <b>pfnReleaseAdditionalMonitorModeSet</b> function, available in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface_v2.md">DXGK_MONITOR_INTERFACE_V2</a> interface beginning with Windows 7, releases a handle to an additional monitor source mode set object that is associated with a specified monitor.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_MONITOR_RELEASEADDITIONALMONITORMODESET pfnReleaseAdditionalMonitorModeSet;
@@ -58,6 +68,9 @@ NTSTATUS APIENTRY pfnReleaseAdditionalMonitorModeSet(
 
 
 ## -parameters
+
+
+
 
 ### -param hAdapter [in]
 
@@ -75,33 +88,64 @@ NTSTATUS APIENTRY pfnReleaseAdditionalMonitorModeSet(
 
 
 ## -returns
+
+
 The <b>pfnReleaseAdditionalMonitorModeSet</b> function returns one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The function succeeded.
+</dl>
+</td>
+<td width="60%">
+The function succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_INVALID_DISPLAY_ADAPTER</b></dt>
-</dl>The handle supplied in <i>hAdapter</i> was invalid.
+</dl>
+</td>
+<td width="60%">
+The handle supplied in <i>hAdapter</i> was invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_MONITOR_SOURCEMODESET</b></dt>
-</dl>The handle supplied in <i>ppAdditionalModesSet</i> was invalid.
+</dl>
+</td>
+<td width="60%">
+The handle supplied in <i>ppAdditionalModesSet</i> was invalid.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This function is available beginning with Windows 7.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface_v2.md">DXGK_MONITOR_INTERFACE_V2</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_getadditionalmonitormodeset.md">DXGK_MONITOR_INTERFACE_V2::pfnGetAdditionalMonitorModeSet</a>
-</dt>
-</dl>
+
  
 
  

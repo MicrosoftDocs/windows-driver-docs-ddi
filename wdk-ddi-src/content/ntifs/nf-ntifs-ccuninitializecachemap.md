@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 00e5abd6-c2d7-4408-aaf4-27a67dd3ee51
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcUninitializeCacheMap
+ms.keywords: CcUninitializeCacheMap routine [Installable File System Drivers], ccref_737f8e52-0bb4-4dfd-8516-16de77410b9a.xml, ifsk.ccuninitializecachemap, ntifs/CcUninitializeCacheMap, CcUninitializeCacheMap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CcUninitializeCacheMap
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CcUninitializeCacheMap
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # CcUninitializeCacheMap function
 
 
-
 ## -description
+
+
 The <b>CcUninitializeCacheMap</b> routine stops the caching of a cached file.
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN CcUninitializeCacheMap(
@@ -56,6 +66,9 @@ BOOLEAN CcUninitializeCacheMap(
 
 ## -parameters
 
+
+
+
 ### -param FileObject [in]
 
 Pointer to a file object for the cached file.
@@ -66,30 +79,39 @@ Pointer to a file object for the cached file.
 If specified, the file was truncated to the specified size, and the cache should be purged accordingly.
 
 
-### -param UninitializeCompleteEvent [in, optional]
+### -param UninitializeEvent
+
+TBD
+
+
+
+#### - UninitializeCompleteEvent [in, optional]
 
 If specified, the provided event is set to the signaled state when the cached file data has been flushed to disk.
 
 
 ## -returns
+
+
 <b>CcUninitializeCacheMap</b> returns <b>TRUE</b> if caching was stopped successfully, <b>FALSE</b> otherwise.
 
 
+
 ## -remarks
+
+
 All file systems that support file caching must call <b>CcUninitializeCacheMap</b> when closing a file, whether the file is cached or not. Even if the file was created with caching disabled, the file system still must call <b>CcUninitializeCacheMap</b>.
 
 To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-</dt>
-<dt>
+
 <a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
  
 
  

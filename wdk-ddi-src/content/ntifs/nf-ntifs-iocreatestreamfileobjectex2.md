@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2F12F4E5-21C2-4DA8-9111-0087A16F0256
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoCreateStreamFileObjectEx2
+ms.keywords: IoCreateStreamFileObjectEx, ntifs/IoCreateStreamFileObjectEx, IoCreateStreamFileObjectEx2, IoCreateStreamFileObjectEx routine [Installable File System Drivers], ifsk.iocreatestreamfileobjectex2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoCreateStreamFileObjectEx
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoCreateStreamFileObjectEx
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # IoCreateStreamFileObjectEx2 function
 
 
-
 ## -description
+
+
 The <b>IoCreateStreamFileObjectEx2</b> routine creates a new stream file object with create options for a target device object. 
 
 
-
 ## -syntax
+
 
 ````
 PFILE_OBJECT IoCreateStreamFileObjectEx(
@@ -58,10 +68,12 @@ PFILE_OBJECT IoCreateStreamFileObjectEx(
 
 ## -parameters
 
+
+
+
 ### -param CreateOptions [in]
 
 Pointer a <b>IO_CREATE_STREAM_FILE_OPTIONS</b> structure containing the create options for the new stream file object.  <b>IO_CREATE_STREAM_FILE_OPTIONS</b> is defined in <i>ntifs.h</i> as the following.
-
 <pre class="syntax" xml:space="preserve"><code>typedef struct _IO_CREATE_STREAM_FILE_OPTIONS {
     USHORT Size;
     USHORT Flags;
@@ -70,16 +82,29 @@ Pointer a <b>IO_CREATE_STREAM_FILE_OPTIONS</b> structure containing the create o
 </code></pre>
 
 
+### -param FileObject [in, optional]
 
-### -param Size
-
-Size of the stream options structure. Set to <b>sizeof</b>(IO_CREATE_STREAM_FILE_OPTIONS).
+Pointer to the file object to which the new stream file is related. This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param Flags
+### -param DeviceObject [in, optional]
+
+Pointer to a device object for the device on which the stream file is to be opened. If the caller specifies a non-<b>NULL</b> value for <i>FileObject</i>, the value of <i>DeviceObject</i> is ignored. Otherwise, the caller must specify a non-<b>NULL</b> value for <i>DeviceObject</i>. 
+
+
+### -param StreamFileObject [out]
+
+Pointer to a device object pointer to receive the stream fille object.
+
+
+### -param FileHandle [out, optional]
+
+A pointer to a file handle for the stream on output. This parameter is optional and can be <b>NULL</b>. 
+
+
+##### - CreateOptions.Flags
 
 The flags for the stream file create options. This value can be one of the following.
-
 
 
 <table>
@@ -108,44 +133,31 @@ A file object is created with out a file handle. No close operation is sent for 
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
-### -param TargetDeviceObject
+##### - CreateOptions.TargetDeviceObject
 
 A pointer to the device object to set as the target for operations on the file
         handle.  <b>TargetDeviceObject</b> must be in the same device stack as <i>DeviceObject</i> parameter.  This
         member is optional.
 
-</dd>
-</dl>
 
-### -param FileObject [in, optional]
+##### - CreateOptions.Size
 
-Pointer to the file object to which the new stream file is related. This parameter is optional and can be <b>NULL</b>. 
-
-
-### -param DeviceObject [in, optional]
-
-Pointer to a device object for the device on which the stream file is to be opened. If the caller specifies a non-<b>NULL</b> value for <i>FileObject</i>, the value of <i>DeviceObject</i> is ignored. Otherwise, the caller must specify a non-<b>NULL</b> value for <i>DeviceObject</i>. 
-
-
-### -param StreamFileObject [out]
-
-Pointer to a device object pointer to receive the stream fille object.
-
-
-### -param FileHandle [out, optional]
-
-A pointer to a file handle for the stream on output. This parameter is optional and can be <b>NULL</b>. 
+Size of the stream options structure. Set to <b>sizeof</b>(IO_CREATE_STREAM_FILE_OPTIONS).
 
 
 ## -returns
+
+
 <b>IoCreateStreamFileObjectEx2</b> returns a pointer to the newly created stream file object.
 
 
+
 ## -remarks
+
+
 File systems call <b>IoCreateStreamFileObjectEx2</b> to create a new stream file object. A <i>stream file object</i> is identical to an ordinary file object, except that the<b> FO_STREAM_FILE</b> file object flag is set.
 
 A stream file object is commonly used to represent an internal stream for a volume mounted by the file system. This <i>virtual volume file</i> permits the file system to view, change, and cache the volume's on-disk structure as if it were an ordinary file. In this case, the <i>DeviceObject</i> parameter in the call to <b>IoCreateStreamFileObjectEx2</b> specifies the volume device object (VDO) for the volume.
@@ -159,30 +171,23 @@ File system filter driver writers should note that <b>IoCreateStreamFileObjectEx
 If a pool allocation failure occurs, <b>IoCreateStreamFileObjectEx2</b> raises a <b>STATUS_INSUFFICIENT_RESOURCES</b> exception.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobject.md">IoCreateStreamFileObject</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectex.md">IoCreateStreamFileObjectEx</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectlite.md">IoCreateStreamFileObjectLite</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548608">IRP_MJ_CLEANUP</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectlite.md">IoCreateStreamFileObjectLite</a>
+
+<a href="..\ntifs\nf-ntifs-iocreatestreamfileobject.md">IoCreateStreamFileObject</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+
+<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectex.md">IoCreateStreamFileObjectEx</a>
+
  
 
  

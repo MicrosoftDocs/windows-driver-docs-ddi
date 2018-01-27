@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9bbf2f63-4479-47ee-a014-78b13deccb4c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MS_SMHBA_SAS_PHY, *PMS_SMHBA_SAS_PHY, MS_SMHBA_SAS_PHY
+ms.keywords: hbapiwmi/MS_SMHBA_SAS_PHY, PMS_SMHBA_SAS_PHY, hbapiwmi/PMS_SMHBA_SAS_PHY, storage.ms_smhba_sas_phy, MS_SMHBA_SAS_PHY structure [Storage Devices], PMS_SMHBA_SAS_PHY structure pointer [Storage Devices], structs-Fibre_2ff7917d-a369-4cc9-ab8e-c774f63761a7.xml, _MS_SMHBA_SAS_PHY, *PMS_SMHBA_SAS_PHY, MS_SMHBA_SAS_PHY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MS_SMHBA_SAS_PHY
-req.alt-loc: hbapiwmi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	hbapiwmi.h
+apiname: 
+-	MS_SMHBA_SAS_PHY
+product: Windows
+targetos: Windows
 req.typenames: *PMS_SMHBA_SAS_PHY, MS_SMHBA_SAS_PHY
 ---
 
 # _MS_SMHBA_SAS_PHY structure
 
 
-
 ## -description
+
+
 The MS_SMHBA_SAS_PHY structure is used to report the SAS physical port information.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MS_SMHBA_SAS_PHY {
@@ -59,6 +69,9 @@ typedef struct _MS_SMHBA_SAS_PHY {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PhyIdentifier
 
@@ -96,4 +109,8 @@ The Port_Identifier that has the smallest value of any Port_Identifier of an exp
 
 
 ## -remarks
-Link rates are defined in hpaapi.h as HBA_SASSPEED_1_5GBIT and HBA_SASSPEED_3GBIT.</p>
+
+
+Link rates are defined in hpaapi.h as HBA_SASSPEED_1_5GBIT and HBA_SASSPEED_3GBIT.
+
+

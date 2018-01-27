@@ -7,8 +7,8 @@ old-location: debugger\extremotetyped_getpointerto.htm
 old-project: debugger
 ms.assetid: 1f237e8a-c0d3-4812-a96d-4cdc6f8e31df
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ExtRemoteTyped, ExtRemoteTyped::GetPointerTo, GetPointerTo
+ms.date: 1/19/2018
+ms.keywords: ExtRemoteTyped::GetPointerTo, debugger.extremotetyped_getpointerto, EngExtCpp_Ref_fe04e8e3-888e-4d96-9a24-4bec51f71f16.xml, GetPointerTo method [Windows Debugging], ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], GetPointerTo method, GetPointerTo, GetPointerTo method [Windows Debugging], ExtRemoteTyped interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ExtRemoteTyped.GetPointerTo
-req.alt-loc: engextcpp.hpp
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-req.typenames: *PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	engextcpp.hpp
+apiname: 
+-	ExtRemoteTyped.GetPointerTo
+product: Windows
+targetos: Windows
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteTyped::GetPointerTo method
 
 
-
 ## -description
+
+
 The <b>GetPointerTo</b> method returns typed data that is a pointer to the typed data represented by this object.
 
 
-
 ## -syntax
+
 
 ````
 ExtRemoteTyped GetPointerTo();
@@ -53,12 +63,12 @@ ExtRemoteTyped GetPointerTo();
 ## -parameters
 
 
+
+
+
 ## -returns
+
+
 <b>GetPointerTo</b> returns a new <b>ExtRemoteData</b> object that represents typed data that is a pointer to the typed data represented by this object.
 
-<b>GetPointerTo</b> returns a new <b>ExtRemoteData</b> object that represents typed data that is a pointer to the typed data represented by this object.
 
-<b>GetPointerTo</b> returns a new <b>ExtRemoteData</b> object that represents typed data that is a pointer to the typed data represented by this object.
-
-
-## -remarks

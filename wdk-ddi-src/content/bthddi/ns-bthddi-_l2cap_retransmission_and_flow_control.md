@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 0D4528C0-AEE6-4AD2-A3E6-524A6EB8A0D9
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _L2CAP_RETRANSMISSION_AND_FLOW_CONTROL, *PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL, L2CAP_RETRANSMISSION_AND_FLOW_CONTROL
+ms.keywords: L2CAP_RETRANSMISSION_AND_FLOW_CONTROL structure [Bluetooth Devices], *PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL, bthddi/L2CAP_RETRANSMISSION_AND_FLOW_CONTROL, L2CAP_RETRANSMISSION_AND_FLOW_CONTROL, _L2CAP_RETRANSMISSION_AND_FLOW_CONTROL, bthddi/PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL, PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL structure pointer [Bluetooth Devices], PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL, bltooth.l2cap_retransmission_and_flow_control
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows 8 and later versions 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: L2CAP_RETRANSMISSION_AND_FLOW_CONTROL
-req.alt-loc: Bthddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Bthddi.h
+apiname: 
+-	L2CAP_RETRANSMISSION_AND_FLOW_CONTROL
+product: Windows
+targetos: Windows
 req.typenames: *PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL, L2CAP_RETRANSMISSION_AND_FLOW_CONTROL
 ---
 
 # _L2CAP_RETRANSMISSION_AND_FLOW_CONTROL structure
 
 
-
 ## -description
+
+
 The L2CAP_RETRANSMISSION_AND_FLOW_CONTROL structure describes configuration parameters for enhanced retransmission mode and streaming mode.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _L2CAP_RETRANSMISSION_AND_FLOW_CONTROL {
@@ -58,6 +68,9 @@ typedef struct _L2CAP_RETRANSMISSION_AND_FLOW_CONTROL {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Mode
 
@@ -88,5 +101,3 @@ Monitor timeout. Profile drivers should set this value to 0.
 
 Maximum PDU Size.
 
-
-## -remarks

@@ -7,8 +7,8 @@ old-location: image\wia_barcodes.htm
 old-project: image
 ms.assetid: 2B89FF49-4376-49A7-B7CC-1C67D89C7E7A
 ms.author: windowsdriverdev
-ms.date: 1/17/2018
-ms.keywords: _WIA_BARCODES, WIA_BARCODES
+ms.date: 1/18/2018
+ms.keywords: _WIA_BARCODES, WIA_BARCODES, WIA_BARCODES structure [Imaging Devices], wiadef/WIA_BARCODES, image.wia_barcodes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WIA_BARCODES
-req.alt-loc: wiadef.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wiadef.h
+apiname: 
+-	WIA_BARCODES
+product: Windows
+targetos: Windows
 req.typenames: WIA_BARCODES
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _WIA_BARCODES structure
 
 
-
 ## -description
+
+
 The <b>WIA_BARCODES</b> structure stores header information for the barcode metadata report of one scan job (one call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543956">IWiaMiniDrv::drvAcquireItemData</a>).
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WIA_BARCODES {
@@ -58,6 +68,9 @@ typedef struct _WIA_BARCODES {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Tag
 
@@ -85,4 +98,8 @@ Placeholder for  a sequence of <b>Count</b> contiguous <a href="..\wiadef\ns-wia
 
 
 ## -remarks
-The header must be followed by a sequence of barcode information structures, one for each decoded barcode, in the order the barcodes were found and decoded.</p>
+
+
+The header must be followed by a sequence of barcode information structures, one for each decoded barcode, in the order the barcodes were found and decoded.
+
+

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7EE6D8AE-E001-4BC9-A617-682202A297E7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UDECX_USB_DEVICE_FUNCTION_POWER, UDECX_USB_DEVICE_FUNCTION_POWER, *PUDECX_USB_DEVICE_FUNCTION_POWER
+ms.keywords: udecxusbdevice/UDECX_USB_DEVICE_FUNCTION_POWER, udecxusbdevice/UdecxUsbDeviceFunctionSuspendedCannotWake, UDECX_USB_DEVICE_FUNCTION_POWER enumeration [Buses], udecxusbdevice/PUDECX_USB_DEVICE_FUNCTION_POWER, udecxusbdevice/UdecxUsbDeviceFunctionSuspendedCanWake, UdecxUsbDeviceFunctionSuspendedCannotWake, UdecxUsbDeviceFunctionSuspendedCanWake, PUDECX_USB_DEVICE_FUNCTION_POWER, *PUDECX_USB_DEVICE_FUNCTION_POWER, _UDECX_USB_DEVICE_FUNCTION_POWER, buses.udecx_usb_device_function_power, UDECX_USB_DEVICE_FUNCTION_POWER, PUDECX_USB_DEVICE_FUNCTION_POWER enumeration pointer [Buses], UdecxUsbDeviceFunctionNotSuspended, udecxusbdevice/UdecxUsbDeviceFunctionNotSuspended
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UDECX_USB_DEVICE_FUNCTION_POWER
-req.alt-loc: UdecxUsbDevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	UdecxUsbDevice.h
+apiname: 
+-	UDECX_USB_DEVICE_FUNCTION_POWER
+product: Windows
+targetos: Windows
 req.typenames: UDECX_USB_DEVICE_FUNCTION_POWER, *PUDECX_USB_DEVICE_FUNCTION_POWER
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _UDECX_USB_DEVICE_FUNCTION_POWER enumeration
 
 
-
 ## -description
+
+
 Defines values for function wake capability of a virtual USB 3.0  device.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _UDECX_USB_DEVICE_FUNCTION_POWER { 
@@ -56,6 +66,9 @@ typedef enum _UDECX_USB_DEVICE_FUNCTION_POWER {
 
 
 ## -enum-fields
+
+
+
 
 ### -field UdecxUsbDeviceFunctionNotSuspended
 
@@ -72,15 +85,10 @@ The USB interface cannot send a wake signal to the host controller.
 The USB interface can send a wake signal to the host controller when the function is in suspend state.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_set_function_suspend_and_wake.md">EVT_UDECX_USB_DEVICE_SET_FUNCTION_SUSPEND_AND_WAKE</a>
-</dt>
-</dl>
+
  
 
  

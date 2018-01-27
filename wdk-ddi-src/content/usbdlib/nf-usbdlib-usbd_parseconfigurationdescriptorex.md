@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: c14b3cde-b501-4d07-96ae-f0e0e6320966
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_ParseConfigurationDescriptorEx
+ms.keywords: usbfunc_c493d121-9821-4381-b756-fa417c8f5f93.xml, buses.usbd_parseconfigurationdescriptorex, USBD_ParseConfigurationDescriptorEx routine [Buses], usbdlib/USBD_ParseConfigurationDescriptorEx, USBD_ParseConfigurationDescriptorEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBD_ParseConfigurationDescriptorEx
-req.alt-loc: Usbd.lib,Usbd.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Usbd.lib
 req.dll: 
 req.irql: < DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Usbd.lib
+-	Usbd.dll
+apiname: 
+-	USBD_ParseConfigurationDescriptorEx
+product: Windows
+targetos: Windows
 req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # USBD_ParseConfigurationDescriptorEx function
 
 
-
 ## -description
+
+
 The <b>USBD_ParseConfigurationDescriptorEx</b> routine searches a given configuration descriptor and returns a pointer to an interface that matches the given search criteria.
 
 
-
 ## -syntax
+
 
 ````
 PUSB_INTERFACE_DESCRIPTOR USBD_ParseConfigurationDescriptorEx(
@@ -60,6 +71,9 @@ PUSB_INTERFACE_DESCRIPTOR USBD_ParseConfigurationDescriptorEx(
 
 
 ## -parameters
+
+
+
 
 ### -param ConfigurationDescriptor [in]
 
@@ -97,22 +111,27 @@ Specifies the device- or USB-defined identifier for the interface protocol of th
 
 
 ## -returns
+
+
 <b>USBD_ParseConfigurationDescriptorEx</b> returns a pointer to the first interface descriptor that matches the given search criteria. If no interface matches the search criteria, it returns <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 Callers can specify more than one of the search criteria (InterfaceNumber, AlternateSetting, InterfaceClass, InterfaceSubClass, and InterfaceProtocol) when using this routine to find an interface within a configuration descriptor. For example code, see <a href="..\usbdlib\nf-usbdlib-usbd_createconfigurationrequestex.md">USBD_CreateConfigurationRequestEx</a>.
 
 When this routine parses the configuration descriptor looking for the interface descriptor that matches the search criteria, it returns the first match, terminating the search. Callers should specify as many search criteria as are necessary to find the desired interface.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
-</dt>
-<dt><a href="usb_reference.htm#client">USB device driver programming reference</a></dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
+
  
 
  

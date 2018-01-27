@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 30e2e62a-3ae4-4efe-a6e9-6aece6bfbb46
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: tagDRMFORWARD, *PDRMFORWARD, DRMFORWARD
+ms.keywords: tagDRMFORWARD, DRMFORWARD, PDRMFORWARD, drmk/PDRMFORWARD, PDRMFORWARD structure pointer [Audio Devices], audio.drmforward, aud-prop_491c772b-2e17-42c1-b0cd-68d2b0384163.xml, DRMFORWARD structure [Audio Devices], *PDRMFORWARD, drmk/DRMFORWARD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DRMFORWARD
-req.alt-loc: drmk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PDRMFORWARD, DRMFORWARD
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	drmk.h
+apiname: 
+-	DRMFORWARD
+product: Windows
+targetos: Windows
+req.typenames: DRMFORWARD, *PDRMFORWARD
 ---
 
 # tagDRMFORWARD structure
 
 
-
 ## -description
-The DRMFORWARD structure contains the information that the <a href="audio.kernel_mode_wdm_audio_components#drmk_system_driver#drmk_system_driver">DRMK system driver</a> needs in order to forward a DRM content ID to a device that handles protected content.
 
+
+The DRMFORWARD structure contains the information that the <a href="https://msdn.microsoft.com/827997e2-6f07-4635-ac35-4ad026b82eae">DRMK system driver</a> needs in order to forward a DRM content ID to a device that handles protected content.
 
 
 ## -syntax
+
 
 ````
 typedef struct tagDRMFORWARD {
@@ -56,6 +66,9 @@ typedef struct tagDRMFORWARD {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Flags
 
@@ -78,6 +91,8 @@ Pointer to context data. For more information, see the following Remarks section
 
 
 ## -remarks
+
+
 This structure is one of the <a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a> function's call parameters. The structure contains the information that the function needs to send a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>set-property request to a WDM driver.
 
 The WDM driver manages the device that is represented by the <b>DeviceObject</b> member. The <b>DrmForwardContentToDeviceObject</b> function sends the property request to this device object.
@@ -100,30 +115,23 @@ When an audio driver forwards DRM content to a system-supplied USB driver, the f
 For general information about DRM, see <a href="https://msdn.microsoft.com/7ce19196-5180-421f-b6be-ac4a235a8c16">Digital Rights Management</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-<dt>
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
-</dt>
-<dt>
+
 <a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
-</dt>
-<dt>
-<a href="..\drmk\ns-drmk-ksp_drmaudiostream_contentid.md">KSP_DRMAUDIOSTREAM_CONTENTID</a>
-</dt>
-<dt>
+
 <a href="..\portcls\nf-portcls-pcforwardcontenttodeviceobject.md">PcForwardContentToDeviceObject</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536579">IDrmPort2::ForwardContentToDeviceObject</a>
-</dt>
-</dl>
+
+<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+
+<a href="..\drmk\ns-drmk-ksp_drmaudiostream_contentid.md">KSP_DRMAUDIOSTREAM_CONTENTID</a>
+
  
 
  

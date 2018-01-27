@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: f61be32a-2537-4b7f-8f22-4149b00a15a4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_GetPdoRegistryParameter
+ms.keywords: usbfunc_b85b350e-68ad-4256-b4df-f61ea0367b62.xml, buses.usbd_getpdoregistryparameter, USBD_GetPdoRegistryParameter, USBD_GetPdoRegistryParameter routine [Buses], usbdlib/USBD_GetPdoRegistryParameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBD_GetPdoRegistryParameter
-req.alt-loc: usbd.lib,usbd.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Usbd.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	usbd.lib
+-	usbd.dll
+apiname: 
+-	USBD_GetPdoRegistryParameter
+product: Windows
+targetos: Windows
 req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # USBD_GetPdoRegistryParameter function
 
 
-
 ## -description
+
+
 The <b>USBD_GetPdoRegistryParameter</b> routine retrieves the value from the  specified key in the USB device's hardware registry.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS USBD_GetPdoRegistryParameter(
@@ -59,14 +70,12 @@ NTSTATUS USBD_GetPdoRegistryParameter(
 
 ## -parameters
 
+
+
+
 ### -param PhysicalDeviceObject [in]
 
 Specifies the device object for the USB device.
-
-
-### -param Parameter [in, out]
-
-Pointer to a caller-allocated buffer that receives the registry value.
 
 
 ### -param ParameterLength [in]
@@ -84,17 +93,22 @@ Pointer to a string containing the name of the registry key.
 Size, in bytes, of the buffer that is pointed to by <i>KeyName</i>.
 
 
+### -param Parameter [in, out]
+
+Pointer to a caller-allocated buffer that receives the registry value.
+
+
 ## -returns
+
+
 The <b>USBD_GetPdoRegistryParameter</b> returns STATUS_SUCCESS when the operation succeeds or an appropriate error status when the operation fails. 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt><a href="usb_reference.htm#client">USB device driver programming reference</a></dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
+
  
 
  

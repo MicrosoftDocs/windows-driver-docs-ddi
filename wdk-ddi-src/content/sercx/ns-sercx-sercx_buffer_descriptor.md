@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 0F13A5B2-CD35-4127-B2E3-F4027D098CB2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERCX_BUFFER_DESCRIPTOR, SERCX_BUFFER_DESCRIPTOR, *PSERCX_BUFFER_DESCRIPTOR
+ms.keywords: *PSERCX_BUFFER_DESCRIPTOR, serports.sercx_buffer_descriptor, PSERCX_BUFFER_DESCRIPTOR, SERCX_BUFFER_DESCRIPTOR, 1/PSERCX_BUFFER_DESCRIPTOR, SERCX_BUFFER_DESCRIPTOR structure [Serial Ports], PSERCX_BUFFER_DESCRIPTOR structure pointer [Serial Ports], 1/SERCX_BUFFER_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SERCX_BUFFER_DESCRIPTOR
-req.alt-loc: 1.0\Sercx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any IRQL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1.0\Sercx.h
+apiname: 
+-	SERCX_BUFFER_DESCRIPTOR
+product: Windows
+targetos: Windows
 req.typenames: SERCX_BUFFER_DESCRIPTOR, *PSERCX_BUFFER_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SERCX_BUFFER_DESCRIPTOR structure
 
 
-
 ## -description
+
+
 The <b>SERCX_BUFFER_DESCRIPTOR</b> structure describes a data buffer for a receive operation or transmit operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SERCX_BUFFER_DESCRIPTOR {
@@ -56,6 +66,9 @@ typedef struct _SERCX_BUFFER_DESCRIPTOR {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -73,6 +86,8 @@ The number of bytes available in the buffer. This size determines the maximize n
 
 
 ## -remarks
+
+
 The serial  controller driver uses the information in this structure to determine where in memory to read data from during a receive operation, and where in memory to write data during a transmit operation.
 
 At any time, there can be no more than one valid receive buffer and one valid transmit buffer.  The controller driver calls the <a href="..\sercx\nf-sercx-sercxretrievereceivebuffer.md">SerCxRetrieveReceiveBuffer</a> method to obtain the receive buffer, and calls the <a href="..\sercx\nf-sercx-sercxretrievetransmitbuffer.md">SerCxRetrieveTransmitBuffer</a> method to obtain the transmit buffer.  Both methods copy buffer descriptions into caller-allocated <b>SERCX_BUFFER_DESCRIPTOR</b> structures. A subsequent call to one of these methods invalidates the previously issued descriptor for the receive buffer or transmit buffer, respectively.  The caller must not access a buffer that is described by a buffer descriptor that is no longer valid.
@@ -82,18 +97,15 @@ The buffers that are obtained by successive calls to <b>SerCxRetrieveReceiveBuff
 The controller driver must call the <a href="..\sercx\nf-sercx-sercx_buffer_descriptor_init.md">SERCX_BUFFER_DESCRIPTOR_INIT</a> function to initialize an <b>SERCX_BUFFER_DESCRIPTOR</b> structure before the structure is passed to the <a href="..\sercx\nf-sercx-sercxretrievereceivebuffer.md">SerCxRetrieveReceiveBuffer</a> or <a href="..\sercx\nf-sercx-sercxretrievetransmitbuffer.md">SerCxRetrieveTransmitBuffer</a> method. After a buffer descriptor is initialized, it can be reused without being initialized again.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\sercx\nf-sercx-sercx_buffer_descriptor_init.md">SERCX_BUFFER_DESCRIPTOR_INIT</a>
-</dt>
-<dt>
+
 <a href="..\sercx\nf-sercx-sercxretrievereceivebuffer.md">SerCxRetrieveReceiveBuffer</a>
-</dt>
-<dt>
+
 <a href="..\sercx\nf-sercx-sercxretrievetransmitbuffer.md">SerCxRetrieveTransmitBuffer</a>
-</dt>
-</dl>
+
+<a href="..\sercx\nf-sercx-sercx_buffer_descriptor_init.md">SERCX_BUFFER_DESCRIPTOR_INIT</a>
+
  
 
  

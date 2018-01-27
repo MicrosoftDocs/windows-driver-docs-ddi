@@ -7,8 +7,8 @@ old-location: netvista\rilexchangeuiccapduresponseparammask_2.htm
 old-project: netvista
 ms.assetid: 6192920a-138b-49d9-ba78-84e3e70cb8df
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILEXCHANGEUICCAPDURESPONSEPARAMMASK, RILEXCHANGEUICCAPDURESPONSEPARAMMASK
+ms.date: 1/18/2018
+ms.keywords: RILEXCHANGEUICCAPDURESPONSEPARAMMASK, RILEXCHANGEUICCAPDURESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_EUAR_ALL, RIL_PARAM_EUAR_ALL, rilapitypes/RILEXCHANGEUICCAPDURESPONSEPARAMMASK, netvista.rilexchangeuiccapduresponseparammask_2, RIL_PARAM_EUAR_RESPONSEAPDU, rilapitypes/RIL_PARAM_EUAR_RESPONSEAPDU
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILEXCHANGEUICCAPDURESPONSEPARAMMASK
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILEXCHANGEUICCAPDURESPONSEPARAMMASK
+product: Windows
+targetos: Windows
 req.typenames: RILEXCHANGEUICCAPDURESPONSEPARAMMASK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RILEXCHANGEUICCAPDURESPONSEPARAMMASK enumeration
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _RILEXCHANGEUICCAPDURESPONSEPARAMMASK { 
@@ -56,10 +66,17 @@ typedef enum _RILEXCHANGEUICCAPDURESPONSEPARAMMASK {
 
 ## -enum-fields
 
+
+
+
+### -field RIL_PARAM_EUAR_RESPONSEAPDULENGTH
+
+
+
 ### -field RIL_PARAM_EUAR_RESPONSEAPDU
+
 
 
 ### -field RIL_PARAM_EUAR_ALL
 
 
-## -remarks

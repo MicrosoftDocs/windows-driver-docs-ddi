@@ -7,8 +7,8 @@ old-location: debugger\debug_last_event_info_unload_module.htm
 old-project: debugger
 ms.assetid: D569C1DD-0ACB-41AA-8589-BD4332006CA2
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, *PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE
+ms.date: 1/19/2018
+ms.keywords: debugger.debug_last_event_info_unload_module, *PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, dbgeng/DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, _DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure [Windows Debugging], dbgeng/PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure pointer [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE
-req.alt-loc: DbgEng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, *PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	DbgEng.h
+apiname: 
+-	DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE
+product: Windows
+targetos: Windows
+req.typenames: *PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE
 ---
 
 # _DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure
 
 
-
 ## -description
+
+
 Describes the unload module of the last event. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE {
@@ -54,9 +64,10 @@ typedef struct _DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE {
 
 ## -struct-fields
 
+
+
+
 ### -field Base
 
 The base of the unload module.
 
-
-## -remarks

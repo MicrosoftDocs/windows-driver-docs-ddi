@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 019cc9b7-13f7-4925-af98-5df0e8556e1c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCeBuildTransport
+ms.keywords: RxCeBuildTransport function [Installable File System Drivers], rxref_8251916d-7a85-4e6d-8ca1-2deacf4a389a.xml, RxCeBuildTransport, rxce/RxCeBuildTransport, ifsk.rxcebuildtransport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RxCeBuildTransport
-req.alt-loc: rxce.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rxce.h
+apiname: 
+-	RxCeBuildTransport
+product: Windows
+targetos: Windows
 req.typenames: *LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # RxCeBuildTransport function
 
 
-
 ## -description
+
+
 <b>RxCeBuildTransport</b> binds an RDBSS transport object to a specified transport name.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RxCeBuildTransport(
@@ -57,9 +67,12 @@ NTSTATUS RxCeBuildTransport(
 
 ## -parameters
 
-### -param pTransport [in]
 
-On input, this parameter contains a pointer to an uninitialized RDBSS transport with which this transport name is to be associated. On output when this call is successful, the transport is associated with the specified transport name and the transport is properly initialized.
+
+
+### -param pRxCeTransport
+
+TBD
 
 
 ### -param pTransportName [in]
@@ -72,30 +85,59 @@ A pointer to the Unicode binding string for the desired transport.
 The quality of service desired from the transport.
 
 
+#### - pTransport [in]
+
+On input, this parameter contains a pointer to an uninitialized RDBSS transport with which this transport name is to be associated. On output when this call is successful, the transport is associated with the specified transport name and the transport is properly initialized.
+
+
 ## -returns
+
+
 <b>RxCeBuildTransport</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>The allocation of nonpaged pool memory needed by this routine failed. 
+</dl>
+</td>
+<td width="60%">
+The allocation of nonpaged pool memory needed by this routine failed. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>One of the parameters passed to this routine was invalid. 
+</dl>
+</td>
+<td width="60%">
+One of the parameters passed to this routine was invalid. 
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 When <b>RxCeBuildTransport</b> is successful, the data members in the RXCE_TRANSPORT structure pointed to by the <i>pTransport</i> parameter will be properly initialized and the RDBSS transport will be bound to the specified TDI transport.
 
 The connection engine routines in RDBSS do not participate in the computation of quality of service. RDBSS essentially uses the <i>QualityOfService</i> parameter as a magic number that is passed to the underlying transport provider. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\rxce\nf-rxce-rxceteardowntransport.md">RxCeTearDownTransport</a>
-</dt>
-</dl>
+
  
 
  

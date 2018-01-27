@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 89E8FCC6-B618-4D7E-B1E6-59E85261BE3C
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_RESERVEGPUVIRTUALADDRESS, D3DDDI_RESERVEGPUVIRTUALADDRESS
+ms.keywords: display.d3dddi_reservegpuvirtualaddress, d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS, D3DDDI_RESERVEGPUVIRTUALADDRESS, D3DDDI_RESERVEGPUVIRTUALADDRESS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDI_RESERVEGPUVIRTUALADDRESS
-req.alt-loc: d3dukmdt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dukmdt.h
+apiname: 
+-	D3DDDI_RESERVEGPUVIRTUALADDRESS
+product: Windows
+targetos: Windows
 req.typenames: D3DDDI_RESERVEGPUVIRTUALADDRESS
 ---
 
 # D3DDDI_RESERVEGPUVIRTUALADDRESS structure
 
 
-
 ## -description
+
+
 <b>D3DDDI_RESERVEGPUVIRTUALADDRESS</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a> to reserve an address range in the graphics processing unit (GPU) virtual address space of the current process.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3DDDI_RESERVEGPUVIRTUALADDRESS {
@@ -74,6 +84,9 @@ typedef struct D3DDDI_RESERVEGPUVIRTUALADDRESS {
 
 ## -struct-fields
 
+
+
+
 ### -field hPagingQueue
 
 Paging queue to synchronize the operation on.
@@ -82,6 +95,36 @@ Paging queue to synchronize the operation on.
 ### -field hAdapter
 
 DirectX graphics adapter handle. 
+
+
+### -field ReservationType
+
+Specifies the virtual address reservation type.
+
+
+### -field Reserved0
+
+This member is reserved and should be set to zero.
+
+
+### -field DriverProtection
+
+Specifies the driver-specific protection
+
+
+### -field Reserved1
+
+This member is reserved and should be set to zero.
+
+
+### -field PagingFenceValue
+
+Paging fence identifier for synchronization
+
+
+### -field Reserved2
+
+This member is reserved and should be set to zero.
 
 
 ### -field BaseAddress
@@ -118,50 +161,15 @@ This parameter is ignored when <b>BaseAddress</b> != <b>NULL</b>.
 Specify the size of the range to reserve in bytes. Must be a multiple of 64KB.
 
 
-### -field ReservationType
-
-Specifies the virtual address reservation type.
-
-
-### -field Reserved0
-
-This member is reserved and should be set to zero.
-
-
-### -field DriverProtection
-
-Specifies the driver-specific protection
-
-
-### -field Reserved1
-
-This member is reserved and should be set to zero.
-
-
 ### -field VirtualAddress
 
 [out] The reserved virtual address.
 
 
-### -field PagingFenceValue
-
-Paging fence identifier for synchronization
-
-
-### -field Reserved2
-
-This member is reserved and should be set to zero.
-
-
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a>
-</dt>
-</dl>
+
  
 
  

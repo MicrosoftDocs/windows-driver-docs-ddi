@@ -7,8 +7,8 @@ old-location: netvista\fwpscalloutregister2.htm
 old-project: netvista
 ms.assetid: 7e60d536-607f-469f-8de4-5f6b77443b3e
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: FwpsCalloutRegister2
+ms.date: 1/18/2018
+ms.keywords: FwpsCalloutRegister2, FwpsCalloutRegister2 function [Network Drivers Starting with Windows Vista], netvista.fwpscalloutregister2, fwpsk/FwpsCalloutRegister2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FwpsCalloutRegister2
-req.alt-loc: Fwpkclnt.lib,Fwpkclnt.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,35 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Fwpkclnt.lib
+-	Fwpkclnt.dll
+apiname: 
+-	FwpsCalloutRegister2
+product: Windows
+targetos: Windows
 req.typenames: FWPS_VSWITCH_EVENT_TYPE
 ---
 
 # FwpsCalloutRegister2 function
 
 
-
 ## -description
+
+
 The 
   <b>FwpsCalloutRegister2</b> function registers a callout with the filter engine.<div class="alert"><b>Note</b>  <b>FwpsCalloutRegister2</b> is the specific version of <b>FwpsCalloutRegister</b> used in Windows 8 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a> is available. For Windows Vista, <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a> is available. </div>
 <div> </div>
 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS NTAPI FwpsCalloutRegister2(
@@ -58,6 +69,9 @@ NTSTATUS NTAPI FwpsCalloutRegister2(
 
 
 ## -parameters
+
+
+
 
 ### -param deviceObject [in, out]
 
@@ -90,26 +104,59 @@ A pointer to a UINT32-typed variable that receives a run-time identifier that id
 
 
 ## -returns
+
+
 The 
      <b>FwpsCalloutRegister2</b> function returns one of the following NTSTATUS codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The callout was successfully registered with the filter engine.
+</dl>
+</td>
+<td width="60%">
+The callout was successfully registered with the filter engine.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FWP_ALREADY_EXISTS</b></dt>
-</dl>The callout could not be registered with the filter engine. A callout is already registered in
+</dl>
+</td>
+<td width="60%">
+The callout could not be registered with the filter engine. A callout is already registered in
        the filter engine with an identifier identical to the GUID specified in the 
        <b>calloutKey</b> member of the 
        <a href="..\fwpsk\ns-fwpsk-fwps_callout2_.md">FWPS_CALLOUT2</a> structure pointed to by the 
        <i>callout</i> parameter.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>Other status codes</b></dt>
-</dl>An error occurred.
+</dl>
+</td>
+<td width="60%">
+An error occurred.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A callout driver calls the 
     <b>FwpsCalloutRegister2</b> function to register a callout with the filter engine. A callout driver can
     register a callout with the filter engine at any time, even if the filter engine is not currently
@@ -122,10 +169,10 @@ A callout and filters that specify the callout for the filter's action can be ad
     callout is registered with the filter engine.
 
 A callout driver unregisters a callout from the filter engine by calling either the 
-    <a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbyid0.md">
-    FwpsCalloutUnregisterById0</a> function or the 
-    <a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbykey0.md">
-    FwpsCalloutUnregisterByKey0</a> function. A callout driver cannot be unloaded until all of the callouts
+    <mshelp:link keywords="netvista.fwpscalloutunregisterbyid0" tabindex="0"><b>
+    FwpsCalloutUnregisterById0</b></mshelp:link> function or the 
+    <mshelp:link keywords="netvista.fwpscalloutunregisterbykey0" tabindex="0"><b>
+    FwpsCalloutUnregisterByKey0</b></mshelp:link> function. A callout driver cannot be unloaded until all of the callouts
     that were previously registered with the filter engine have been successfully unregistered.
 
 This function is essentially identical to the previous version, 
@@ -134,48 +181,36 @@ This function is essentially identical to the previous version,
        <i>callout</i> parameter.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fwpsk\ns-fwpsk-fwps_callout2_.md">FWPS_CALLOUT2</a>
-</dt>
-<dt>
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
-</dt>
-<dt>
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
-</dt>
-<dt>
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbyid0.md">FwpsCalloutUnregisterById0</a>
-</dt>
-<dt>
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbykey0.md">FwpsCalloutUnregisterByKey0</a>
-</dt>
-<dt>
-<a href="..\fwpsk\nf-fwpsk-fwpsflowassociatecontext0.md">FwpsFlowAssociateContext0</a>
-</dt>
-<dt>
+
 <a href="..\fwpsk\nf-fwpsk-fwpsflowremovecontext0.md">FwpsFlowRemoveContext0</a>
-</dt>
-<dt>
-<a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-</dt>
-<dt>
+
+<a href="..\fwpsk\ns-fwpsk-fwps_callout2_.md">FWPS_CALLOUT2</a>
+
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542862">Creating a Device Object</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsflowassociatecontext0.md">FwpsFlowAssociateContext0</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbykey0.md">FwpsCalloutUnregisterByKey0</a>
+
 <a href="https://msdn.microsoft.com/d9539403-7657-4e95-8791-309673d1207d">Types of Callouts</a>
-</dt>
-</dl>
- 
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbyid0.md">FwpsCalloutUnregisterById0</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542862">Creating a Device Object</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsCalloutRegister2 function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsCalloutRegister2 function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

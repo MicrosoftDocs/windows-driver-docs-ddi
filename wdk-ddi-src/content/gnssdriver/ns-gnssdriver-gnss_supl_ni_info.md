@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 78D19A0C-E247-4DDA-A689-494B5A61A673
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_SUPL_NI_INFO, *PGNSS_SUPL_NI_INFO, GNSS_SUPL_NI_INFO
+ms.keywords: PGNSS_SUPL_NI_INFO, GNSS_SUPL_NI_INFO structure [Sensor Devices], sensors.gnss_supl_ni_info, gnssdriver/GNSS_SUPL_NI_INFO, PGNSS_SUPL_NI_INFO structure pointer [Sensor Devices], gnssdriver/PGNSS_SUPL_NI_INFO, GNSS_SUPL_NI_INFO, *PGNSS_SUPL_NI_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: GNSS_SUPL_NI_INFO
-req.alt-loc: gnssdriver.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	gnssdriver.h
+apiname: 
+-	GNSS_SUPL_NI_INFO
+product: Windows
+targetos: Windows
 req.typenames: *PGNSS_SUPL_NI_INFO, GNSS_SUPL_NI_INFO
 ---
 
 # GNSS_SUPL_NI_INFO structure
 
 
-
 ## -description
+
+
 This structure contains the requested SUPL NI information.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -58,6 +68,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field Size
 
 Structure size.
@@ -68,23 +81,37 @@ Structure size.
 Version number.
 
 
-### -field RequestorId[MAX_PATH]
+### -field RequestorId
+
+ 
+
+
+### -field ClientName
+
+ 
+
+
+### -field SuplNiUrl
+
+ 
+
+
+
+#### - RequestorId[MAX_PATH]
 
 Requestor ID.
 
 This will be displayed on the notification dialog to the user. The GNSS driver must provide a UNICODE string that is decoded per the encoding scheme required by the mobile operator.
 
 
-### -field ClientName[MAX_PATH]
+#### - SuplNiUrl[MAX_SERVER_URL_NAME]
+
+NI URL information.
+
+
+#### - ClientName[MAX_PATH]
 
 Name of the client that requests the location of the device.
 
 This will be displayed on the notification dialog to the user. The GNSS driver must provide a UNICODE string that is decoded per the encoding scheme required by the mobile operator.
 
-
-### -field SuplNiUrl[MAX_SERVER_URL_NAME]
-
-NI URL information.
-
-
-## -remarks

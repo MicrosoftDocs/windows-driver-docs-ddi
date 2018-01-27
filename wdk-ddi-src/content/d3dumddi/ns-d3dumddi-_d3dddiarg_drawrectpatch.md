@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9e850fc5-a46a-4bd1-97a0-7ecc86102480
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_DRAWRECTPATCH, D3DDDIARG_DRAWRECTPATCH
+ms.keywords: D3DDDIARG_DRAWRECTPATCH, d3dumddi/D3DDDIARG_DRAWRECTPATCH, display.d3dddiarg_drawrectpatch, D3DDDIARG_DRAWRECTPATCH structure [Display Devices], UMDisplayDriver_param_Structs_fc791424-dcfb-470b-a0d0-04534452707a.xml, _D3DDDIARG_DRAWRECTPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDIARG_DRAWRECTPATCH
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDIARG_DRAWRECTPATCH
+product: Windows
+targetos: Windows
 req.typenames: D3DDDIARG_DRAWRECTPATCH
 ---
 
 # _D3DDDIARG_DRAWRECTPATCH structure
 
 
-
 ## -description
+
+
 The D3DDDIARG_DRAWRECTPATCH structure describes a rectangular patch to draw. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDIARG_DRAWRECTPATCH {
@@ -54,21 +64,25 @@ typedef struct _D3DDDIARG_DRAWRECTPATCH {
 
 ## -struct-fields
 
+
+
+
 ### -field Handle
 
 [in] The handle to the patch surface.
 
 
 ## -remarks
+
+
 The <b>Handle</b> member refers to the patch surface, so that the next time the patch surface is drawn, the Microsoft Direct3D runtime is not required to re-specify the D3DRECTPATCH_INFO data structure for the patch surface. The user-mode display driver can precompute and cache forward-difference coefficients and any other information, which allows subsequent calls to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawrectpatch.md">DrawRectPatch</a> function that use the same handle to run more efficiently.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawrectpatch.md">DrawRectPatch</a>
-</dt>
-</dl>
+
  
 
  

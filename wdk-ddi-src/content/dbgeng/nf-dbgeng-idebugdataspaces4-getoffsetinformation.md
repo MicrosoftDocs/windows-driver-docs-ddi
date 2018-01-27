@@ -7,8 +7,8 @@ old-location: debugger\getoffsetinformation.htm
 old-project: debugger
 ms.assetid: 5ef00c92-7b32-473a-8401-4c02e864c181
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4::GetOffsetInformation, GetOffsetInformation
+ms.date: 1/19/2018
+ms.keywords: IDebugDataSpaces4, GetOffsetInformation method [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging], GetOffsetInformation method, GetOffsetInformation method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_c434b12b-78ff-4f6a-ac69-6069dd273ba8.xml, dbgeng/IDebugDataSpaces4::GetOffsetInformation, IDebugDataSpaces4::GetOffsetInformation, debugger.getoffsetinformation, GetOffsetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugDataSpaces4.GetOffsetInformation
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugDataSpaces4.GetOffsetInformation
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::GetOffsetInformation method
 
 
-
 ## -description
+
+
 The <b>GetOffsetInformation</b> method provides general information about an address in a process's data space.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT GetOffsetInformation(
@@ -59,6 +69,9 @@ HRESULT GetOffsetInformation(
 
 ## -parameters
 
+
+
+
 ### -param Space [in]
 
 Specifies the data space to which the <i>Offset </i>parameter applies.  The allowed values depend on the <i>Which</i> parameter.
@@ -71,10 +84,29 @@ Specifies which information about the data is being queried.  This determines th
 
 
 
-### -param DEBUG_OFFSINFO_VIRTUAL_SOURCE
+### -param Offset [in]
+
+Specifies the offset in the target's data space for which the information is returned.
+
+
+### -param Buffer [out, optional]
+
+Specifies the buffer to receive the information.  The type of the data returned depends on the value of <i>Which</i>.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
+
+
+### -param BufferSize [in]
+
+Specifies the size, in bytes, of the <i>Buffer </i>buffer.
+
+
+### -param InfoSize [out, optional]
+
+Receives the size, in bytes, of the information that is returned.  If <i>InfoSize</i> is <b>NULL</b>, this information is not returned.
+
+
+##### - Which.DEBUG_OFFSINFO_VIRTUAL_SOURCE
 
 Returns the source of the target's virtual memory at <i>Offset</i>.  This is where the debugger engine reads the memory from.  <i>Space</i> must be set to DEBUG_DATA_SPACE_VIRTUAL.  A ULONG is returned to <i>Buffer</i>.  This ULONG can take the values listed in the following table.
-
 <table>
 <tr>
 <th>Value</th>
@@ -112,39 +144,29 @@ The debugger engine reads the target's virtual memory at <i>Offset </i>offset fr
 
 </td>
 </tr>
-</table>
- 
-
-</dd>
-</dl>
-
-### -param Offset [in]
-
-Specifies the offset in the target's data space for which the information is returned.
-
-
-### -param Buffer [out, optional]
-
-Specifies the buffer to receive the information.  The type of the data returned depends on the value of <i>Which</i>.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
-
-
-### -param BufferSize [in]
-
-Specifies the size, in bytes, of the <i>Buffer </i>buffer.
-
-
-### -param InfoSize [out, optional]
-
-Receives the size, in bytes, of the information that is returned.  If <i>InfoSize</i> is <b>NULL</b>, this information is not returned.
+</table> 
 
 
 ## -returns
+
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method was successful.
+</dl>
+</td>
+<td width="60%">
+The method was successful.
 
- 
+</td>
+</tr>
+</table> 
 
 
-## -remarks

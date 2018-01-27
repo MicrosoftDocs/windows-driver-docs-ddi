@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: e489601e-b016-4681-97a0-78f42004909f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PshedAllocateMemory
+ms.keywords: whearef_e18a3aba-ca99-4b65-92de-1c6b8c740e31.xml, PshedAllocateMemory function [WHEA Drivers and Applications], PshedAllocateMemory, whea.pshedallocatememory, ntddk/PshedAllocateMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PshedAllocateMemory
-req.alt-loc: Pshed.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Pshed.lib
 req.dll: Pshed.dll
 req.irql: <=DISPATCH_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Pshed.dll
+apiname: 
+-	PshedAllocateMemory
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # PshedAllocateMemory function
 
 
-
 ## -description
+
+
 The <b>PshedAllocateMemory</b> function allocates a block of memory from the nonpaged pool.
 
 
-
 ## -syntax
+
 
 ````
 PVOID PshedAllocateMemory(
@@ -54,25 +64,32 @@ PVOID PshedAllocateMemory(
 
 ## -parameters
 
+
+
+
 ### -param Size [in]
 
 The size, in bytes, of the block of memory being allocated.
 
 
 ## -returns
+
+
 <b>PshedAllocateMemory</b> returns a pointer to the allocated block of memory, or NULL if the memory allocation fails.
 
 
+
 ## -remarks
+
+
 A PSHED plug-in calls the <b>PshedAllocateMemory</b> function to allocate a block of memory. When the PSHED plug-in is done using the allocated block of memory, it calls the <a href="..\ntddk\nf-ntddk-pshedfreememory.md">PshedFreeMemory</a> function to free the memory.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ntddk\nf-ntddk-pshedfreememory.md">PshedFreeMemory</a>
-</dt>
-</dl>
+
  
 
  

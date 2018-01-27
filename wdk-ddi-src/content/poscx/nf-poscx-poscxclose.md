@@ -7,8 +7,8 @@ old-location: pos\poscxclose.htm
 old-project: pos
 ms.assetid: 90D097B9-EE7B-49FA-B0F7-6A255D140C06
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PosCxClose
+ms.date: 1/18/2018
+ms.keywords: PosCxClose function, poscx/PosCxClose, pos.poscxclose, PosCxClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PosCxClose
-req.alt-loc: poscx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	poscx.h
+apiname: 
+-	PosCxClose
+product: Windows
+targetos: Windows
 req.typenames: POS_CX_EVENT_PRIORITY
 req.product: Windows 10 or later.
 ---
@@ -38,8 +47,9 @@ req.product: Windows 10 or later.
 # PosCxClose function
 
 
-
 ## -description
+
+
       PosCxClose is called to delete an opened PosCx library instance. This function releases the device if the caller is the owner, 
 
       and cancels pending requests. It should be called from 
@@ -47,8 +57,8 @@ req.product: Windows 10 or later.
       the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_close.md">EVT_WDF_FILE_CLOSE</a> callback.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PosCxClose(
@@ -59,6 +69,9 @@ NTSTATUS PosCxClose(
 
 
 ## -parameters
+
+
+
 
 ### -param device [in]
 
@@ -71,7 +84,8 @@ A handle to a framework device object that represents the device.
 
 
 ## -returns
+
+
 An appropriate NTSTATUS error code that indicates the close instance completion status.
 
 
-## -remarks

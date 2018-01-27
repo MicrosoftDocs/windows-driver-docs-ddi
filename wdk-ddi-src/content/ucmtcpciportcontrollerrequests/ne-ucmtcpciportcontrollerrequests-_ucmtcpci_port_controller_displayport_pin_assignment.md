@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D5FC1963-4D68-4138-957B-3F39207C6D57
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT
+ms.keywords: UcmTcpciPortControllerDFPDPinAssignmentF, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentB, UcmTcpciPortControllerPinAssignmentInvalid, UcmTcpciPortControllerUFPDPinAssignmentC, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentC, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentD, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentA, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentA, UcmTcpciPortControllerUFPDPinAssignmentA, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentE, _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT, UcmTcpciPortControllerDFPDPinAssignmentE, UcmTcpciPortControllerUFPDPinAssignmentB, UcmTcpciPortControllerDFPDPinAssignmentC, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentF, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT enumeration [Buses], UcmTcpciPortControllerUFPDPinAssignmentD, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT, UcmTcpciPortControllerDFPDPinAssignmentB, buses.ucmtcpci_port_controller_displayport_pin_assignment, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentE, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentB, UcmTcpciPortControllerDFPDPinAssignmentD, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT, UcmTcpciPortControllerDFPDPinAssignmentA, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentD, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerPinAssignmentInvalid, UcmTcpciPortControllerUFPDPinAssignmentE, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT
-req.alt-loc: 
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,16 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	kbSyntax
+apitype: 
+-	<TBD>
+apilocation: 
+-	
+apiname: 
+-	UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT
+product: Windows
+targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT
 req.product: Windows 10 or later.
 ---
@@ -38,13 +46,14 @@ req.product: Windows 10 or later.
 # _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT enumeration
 
 
-
 ## -description
+
+
 TBD
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT { 
@@ -65,6 +74,9 @@ typedef enum _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT {
 
 
 ## -enum-fields
+
+
+
 
 ### -field UcmTcpciPortControllerPinAssignmentInvalid
 
@@ -125,5 +137,3 @@ TBD
 
 TBD
 
-
-## -remarks

@@ -7,8 +7,8 @@ old-location: debugger\readphysical3.htm
 old-project: debugger
 ms.assetid: 8df51985-9208-46ce-8802-6bc5ec707ab2
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4::ReadPhysical, ReadPhysical
+ms.date: 1/19/2018
+ms.keywords: debugger.readphysical3, IDebugDataSpaces2 interface [Windows Debugging], ReadPhysical method, IDebugDataSpaces4, IDebugDataSpaces::ReadPhysical, IDebugDataSpaces3 interface [Windows Debugging], ReadPhysical method, ReadPhysical method [Windows Debugging], dbgeng/IDebugDataSpaces::ReadPhysical, IDebugDataSpaces3::ReadPhysical, IDebugDataSpaces4 interface [Windows Debugging], ReadPhysical method, ReadPhysical method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces3::ReadPhysical, dbgeng/IDebugDataSpaces4::ReadPhysical, IDebugDataSpaces_5be1f680-1177-4cdf-a4d8-5868644a51af.xml, dbgeng/IDebugDataSpaces2::ReadPhysical, ReadPhysical method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces4::ReadPhysical, ReadPhysical method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces interface [Windows Debugging], ReadPhysical method, IDebugDataSpaces2::ReadPhysical, ReadPhysical method [Windows Debugging], IDebugDataSpaces4 interface, ReadPhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugDataSpaces.ReadPhysical,IDebugDataSpaces2.ReadPhysical,IDebugDataSpaces3.ReadPhysical,IDebugDataSpaces4.ReadPhysical
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugDataSpaces.ReadPhysical
+-	IDebugDataSpaces2.ReadPhysical
+-	IDebugDataSpaces3.ReadPhysical
+-	IDebugDataSpaces4.ReadPhysical
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::ReadPhysical method
 
 
-
 ## -description
+
+
 The <b>ReadPhysical</b> method reads the target's memory from the specified physical address.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT ReadPhysical(
@@ -56,6 +69,9 @@ HRESULT ReadPhysical(
 
 
 ## -parameters
+
+
+
 
 ### -param Offset [in]
 
@@ -78,14 +94,33 @@ Receives the number of bytes read from the target's memory.  If <i>BytesRead</i>
 
 
 ## -returns
+
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>S_OK</b></dt>
-</dl>The method was successful.
+</dl>
+</td>
+<td width="60%">
+The method was successful.
 
- 
+</td>
+</tr>
+</table> 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
+
 ## -remarks
-This method is only available in kernel-mode debugging.</p>
+
+
+This method is only available in kernel-mode debugging.
+
+

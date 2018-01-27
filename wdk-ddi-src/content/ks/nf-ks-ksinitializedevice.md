@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f33122d0-7661-454a-87f7-7b5795793376
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsInitializeDevice
+ms.keywords: KsInitializeDevice, ks/KsInitializeDevice, KsInitializeDevice function [Streaming Media Devices], stream.ksinitializedevice, avfunc_dfdb87f8-ade9-4ba6-87a3-440e9abb80b4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsInitializeDevice
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsInitializeDevice
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsInitializeDevice function
 
 
-
 ## -description
+
+
 The<b> KsInitializeDevice </b>function is called by AVStream to initialize the AVStream device class from within <a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsInitializeDevice(
@@ -56,6 +67,9 @@ NTSTATUS KsInitializeDevice(
 
 
 ## -parameters
+
+
+
 
 ### -param FunctionalDeviceObject [in]
 
@@ -80,43 +94,39 @@ A pointer to a <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR
 
 
 ## -returns
+
+
 <b>KsInitializeDevice</b> returns STATUS_SUCCESS if the device was successfully initialized. Otherwise, it returns an appropriate error code.
 
 
+
 ## -remarks
+
+
 Most minidrivers do not call this function directly. Only call <b>KsInitializeDevice</b> if your minidriver does not use <a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a> for initialization, handles <b>AddDevice</b> independently, and does not use <a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a> or <a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a> in its <b>AddDevice</b> handler. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
-</dt>
-<dt>
-<a href="..\ks\nf-ks-ksterminatedevice.md">KsTerminateDevice</a>
-</dt>
-<dt>
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-</dt>
-<dt>
+
+<a href="..\ks\nf-ks-ksterminatedevice.md">KsTerminateDevice</a>
+
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-</dt>
-</dl>
+
+<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
+
+<a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
+
+<a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>
+
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
  
 
  

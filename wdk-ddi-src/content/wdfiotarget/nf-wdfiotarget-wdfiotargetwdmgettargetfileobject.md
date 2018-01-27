@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e3131dde-95fc-447c-9451-5c8af074ed24
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoTargetWdmGetTargetFileObject
+ms.keywords: wdfiotarget/WdfIoTargetWdmGetTargetFileObject, WdfIoTargetWdmGetTargetFileObject method, wdf.wdfiotargetwdmgettargetfileobject, WdfIoTargetWdmGetTargetFileObject, DFIOTargetRef_b6639c60-55f2-40be-a678-c7cf56a8e28f.xml, kmdf.wdfiotargetwdmgettargetfileobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 
-req.alt-api: WdfIoTargetWdmGetTargetFileObject
-req.alt-loc: Wdf01000.sys,Wdf01000.sys.dll
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,35 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-req.typenames: WDF_IO_TARGET_STATE, *PWDF_IO_TARGET_STATE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Wdf01000.sys
+-	Wdf01000.sys.dll
+apiname: 
+-	WdfIoTargetWdmGetTargetFileObject
+product: Windows
+targetos: Windows
+req.typenames: *PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE
 req.product: Windows 10 or later.
 ---
 
 # WdfIoTargetWdmGetTargetFileObject function
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfIoTargetWdmGetTargetFileObject</b> method returns a pointer to the Windows Driver Model (WDM) file object that is associated with a specified remote I/O target.
 
 
-
 ## -syntax
+
 
 ````
 PFILE_OBJECT WdfIoTargetWdmGetTargetFileObject(
@@ -57,12 +68,17 @@ PFILE_OBJECT WdfIoTargetWdmGetTargetFileObject(
 
 ## -parameters
 
+
+
+
 ### -param IoTarget [in]
 
 A handle to a remote I/O target object. This handle was obtained from a previous call to <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>.
 
 
 ## -returns
+
+
 <b>WdfIoTargetWdmGetTargetFileObject</b> returns a pointer to a WDM <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -70,7 +86,10 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
+
 The pointer that the <b>WdfIoTargetWdmGetTargetFileObject</b> method returns is valid until the driver calls <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetclose.md">WdfIoTargetClose</a> or <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcloseforqueryremove.md">WdfIoTargetCloseForQueryRemove</a>, or until the remote I/O target object is deleted. If the driver provides an <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> function for the remote I/O target object, and if the object is deleted before the remote I/O target is closed, the pointer is valid until the <i>EvtCleanupCallback</i> function returns.
 
 If the driver attempts to access the WDM device object after it has been removed, the driver can cause the system to crash.  The <a href="http://go.microsoft.com/fwlink/p/?linkid=251907">toastmon</a> sample demonstrates how the driver can provide an <a href="..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_query_remove.md">EvtIoTargetQueryRemove</a> callback function so that it is notified if the I/O target is removed.
@@ -79,24 +98,18 @@ For more information about <b>WdfIoTargetWdmGetTargetFileObject</b>, see <a href
 
 For more information about I/O targets, see <a href="https://msdn.microsoft.com/77fd1b64-c3a9-4e12-ac69-0e3725695795">Using I/O Targets</a>.
 
-The following code example obtains a pointer to the WDM file object that is associated with a remote I/O target.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
-</dt>
-<dt>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
-</dt>
-<dt>
+
+<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetdeviceobject.md">WdfIoTargetWdmGetTargetDeviceObject</a>
-</dt>
-<dt>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetfilehandle.md">WdfIoTargetWdmGetTargetFileHandle</a>
-</dt>
-</dl>
+
  
 
  

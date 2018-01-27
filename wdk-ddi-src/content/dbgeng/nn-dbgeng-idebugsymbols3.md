@@ -7,8 +7,8 @@ old-location: debugger\idebugsymbols3.htm
 old-project: debugger
 ms.assetid: 3fce9384-93f3-4d81-b6ae-bda7a94da24a
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDebugSystemObjects4, IDebugSystemObjects4::SetImplicitThreadDataOffset, SetImplicitThreadDataOffset
+ms.date: 1/19/2018
+ms.keywords: debugger.idebugsymbols3, IDebugSymbols3 interface [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], described, IDebugSymbols3, dbgeng/IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDebugSymbols3,IDebugSymbols3.IsManagedModule,IDebugSymbols3.SetScopeFromJitDebugInfo,IDebugSymbols3.GetSymbolEntryByToken,IDebugSymbols3.GetSymbolEntryOffsetRegions,IDebugSymbols3.GetSymbolEntryBySymbolEntry,IDebugSymbols3.GetSourceEntriesByOffset,IDebugSymbols3.GetSourceEntryString,IDebugSymbols3.GetSourceEntryStringWide,IDebugSymbols3.GetSourceEntryOffsetRegions,IDebugSymbols3.GetSourceEntryBySourceEntry
-req.alt-loc: dbgeng.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,163 +26,43 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dbgeng.h
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dbgeng.h
+apiname: 
+-	IDebugSymbols3
+-	IDebugSymbols3.IsManagedModule
+-	IDebugSymbols3.SetScopeFromJitDebugInfo
+-	IDebugSymbols3.GetSymbolEntryByToken
+-	IDebugSymbols3.GetSymbolEntryOffsetRegions
+-	IDebugSymbols3.GetSymbolEntryBySymbolEntry
+-	IDebugSymbols3.GetSourceEntriesByOffset
+-	IDebugSymbols3.GetSourceEntryString
+-	IDebugSymbols3.GetSourceEntryStringWide
+-	IDebugSymbols3.GetSourceEntryOffsetRegions
+-	IDebugSymbols3.GetSourceEntryBySourceEntry
+product: Windows
+targetos: Windows
 req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 ---
 
 # IDebugSymbols3 interface
 
 
-
 ## -description
 
-## -inheritance
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbols3</b> interface inherits from <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>. <b>IDebugSymbols3</b> also has these types of members:
 
-The <b>IDebugSymbols3</b> interface has these methods.
-
-Adds a synthetic module to the module list the debugger maintains for the current process.
-
-Adds a synthetic module to the module list the debugger maintains for the current process.
-
-Adds a synthetic symbol to a module in the current process. (ANSI version)
-
-Adds a synthetic symbol to a module in the current process.
-(Unicode version)
-
-Appends directories to the executable image path.
-
-Appends directories to the source path.
-
-Appends directories to the symbol path.
-
-Creates a new symbol group.
-
-Searches the source path for a specified source file.
-
-Returns the name of the specified constant.
-
-Returns the index of the current stack frame in the call stack.
-
-Returns the name of a field within a structure.
-
-Returns the offset of a field from the base address of an instance of a type.
-
-Returns the type of a field and its offset within a container. (ANSI version)
-
-Returns the type of a field and its offset within a container. (Unicode version)
-
-Returns the function entry information for a function.
-
-Returns the executable image path.
-
-Returns the source filename and the line number within the source file of an instruction in the target.
-
-Searches through the process's modules for one with the specified name.
-
-Searches through the process's modules for one with the specified name.
-
-Searches through the target's modules for one with the specified name.
-
-Searches through the process's modules for one whose memory allocation includes the specified location.
-
-Returns the name of the specified module.
-
-Returns version information for the specified module.
-
-Returns the name of the symbol at the specified location in the target's virtual address space.
-
-Returns the name of a symbol that is located near the specified location.
-
-Returns the next symbol found in a symbol search.
-
-Returns the location of the instruction that corresponds to a specified line in the source code.
-
-Returns the location of a symbol identified by name.
-
-
-Returns a symbol group containing the symbols in the current target's scope.
-
-Queries symbol information and returns locations in the target's memory that correspond to lines in a source file. (ANSI version)
-
-Queries symbol information and returns locations in the target's memory that correspond to lines in a source file. (Unicode version)
-
-
-
-
-
-
-
-
-
-
-
-Maps each line in a source file to a location in the target's memory.
-
-Returns an element from the source path.
-
-Returns the source path.
-
-Returns the symbols whose names match a given pattern. (ANSI version)
-
-Returns the symbols whose names match a given pattern.
-(Unicode version)
-
-Returns the symbols which are located at a specified address.
-
-
-
-
-
-Returns the symbol entry information for a symbol.
-
-
-
-Returns string information for the specified symbol. (ANSI version)
-
-Returns string information for the specified symbol.
-(Unicode version)
-
-Returns the base address of module which contains the specified symbol.
-
-Returns the symbol path.
-
-Returns the type ID and module of the specified symbol.
-
-Looks up the specified type and return its type ID.
-
-Returns the name of the type symbol specified by its type ID and module.
-
-
-
-Looks up a symbol by address and prints the symbol name and other symbol information to the debugger console.
-
-Deletes the engine's symbol information for the specified module and reload these symbols as needed.
-
-Removes a synthetic module from the module list the debugger maintains for the current process.
-
-Removes a synthetic symbol from a module in the current process.
-
-Sets the executable image path.
-
-Sets the current scope to the scope of one of the frames on the call stack.
-
-
-
-Sets the current scope to the scope of the stored event.
-
-Sets the source path.
-
-Sets the symbol path.
-
-Initializes a search for symbols whose names match a given pattern.
-
- 
 
 
 ## -members
+
 The <b>IDebugSymbols3</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -908,21 +786,15 @@ Initializes a search for symbols whose names match a given pattern.
  
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-</dt>
-<dt>
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-</dt>
-</dl>
- 
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols3 interface%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols3 interface%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

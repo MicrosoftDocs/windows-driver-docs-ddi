@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 45022490-8130-449c-8ec9-380be0a3a03d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeDeregisterNmiCallback
+ms.keywords: k105_407e4af5-fb93-4a7e-bacd-cc1d08935815.xml, kernel.kederegisternmicallback, KeDeregisterNmiCallback routine [Kernel-Mode Driver Architecture], wdm/KeDeregisterNmiCallback, KeDeregisterNmiCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2003 and later versions o
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeDeregisterNmiCallback
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: IrqlKeApcLte2, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeDeregisterNmiCallback
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeDeregisterNmiCallback function
 
 
-
 ## -description
+
+
 The <b>KeDeregisterNmiCallback</b> routine deregisters a nonmaskable interrupt (NMI) callback registered by <a href="..\wdm\nf-wdm-keregisternmicallback.md">KeRegisterNmiCallback</a>.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KeDeregisterNmiCallback(
@@ -55,24 +65,25 @@ NTSTATUS KeDeregisterNmiCallback(
 
 ## -parameters
 
+
+
+
 ### -param Handle [in]
 
 Specifies the value returned by <a href="..\wdm\nf-wdm-keregisternmicallback.md">KeRegisterNmiCallback</a> when the NMI callback was registered. 
 
 
 ## -returns
+
+
 The <b>KeDeregisterNmiCallback</b> routine returns STATUS_SUCCESS if the callback is successfully removed. It returns STATUS_INVALID_HANDLE if no callback matching the provided <i>Handle</i> value is found.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-keregisternmicallback.md">KeRegisterNmiCallback</a>
-</dt>
-</dl>
+
  
 
  

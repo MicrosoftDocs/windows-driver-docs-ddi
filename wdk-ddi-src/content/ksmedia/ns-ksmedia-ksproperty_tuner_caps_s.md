@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9d58acda-07b6-4dc2-8f6a-83c6e8bd8e44
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_TUNER_CAPS_S, *PKSPROPERTY_TUNER_CAPS_S, KSPROPERTY_TUNER_CAPS_S
+ms.keywords: ksmedia/KSPROPERTY_TUNER_CAPS_S, *PKSPROPERTY_TUNER_CAPS_S, stream.ksproperty_tuner_caps_s, KSPROPERTY_TUNER_CAPS_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_CAPS_S structure pointer [Streaming Media Devices], vidcapstruct_28e3b0b2-5b4e-404a-8ade-d5d9c1870ae5.xml, ksmedia/PKSPROPERTY_TUNER_CAPS_S, KSPROPERTY_TUNER_CAPS_S, PKSPROPERTY_TUNER_CAPS_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPROPERTY_TUNER_CAPS_S
-req.alt-loc: ksmedia.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PKSPROPERTY_TUNER_CAPS_S, KSPROPERTY_TUNER_CAPS_S
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ksmedia.h
+apiname: 
+-	KSPROPERTY_TUNER_CAPS_S
+product: Windows
+targetos: Windows
+req.typenames: KSPROPERTY_TUNER_CAPS_S, *PKSPROPERTY_TUNER_CAPS_S
 ---
 
 # KSPROPERTY_TUNER_CAPS_S structure
 
 
-
 ## -description
+
+
 The KSPROPERTY_TUNER_CAPS_S structure describes the hardware capabilities of TV and radio tuning devices.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -58,6 +68,9 @@ typedef struct {
 
 ## -struct-fields
 
+
+
+
 ### -field Property
 
 Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
@@ -66,7 +79,6 @@ Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPER
 ### -field ModesSupported
 
 Specifies a bitwise OR of the supported tuner modes. This member may be set to one or more of the following values from the KSPROPERTY_TUNER_MODES enumeration that is defined in <i>ksmedia.h</i>:
-
 <table>
 <tr>
 <th>Flag</th>
@@ -122,8 +134,7 @@ Indicates that the tuner is capable of tuning digital television channels. This 
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field VideoMedium
@@ -141,24 +152,16 @@ Specifies a unique GUID representing the hardware connection of the TV audio sig
 Specifies a unique GUID representing the hardware connection of the analog radio audio signal. This value enforces connections between filters. Possible values are <b>NULL</b>, indicating that no pin is created; GUID_NULL, indicating that Medium is not used to enforce connections; or a GUID. If a GUID value is used, only crossbar pins with a matching Medium GUID are allowed to connect. 
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565825">KSPROPERTY_TUNER_CAPS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565842">KSPROPERTY_TUNER_IF_MEDIUM</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565825">KSPROPERTY_TUNER_CAPS</a>
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
+
  
 
  

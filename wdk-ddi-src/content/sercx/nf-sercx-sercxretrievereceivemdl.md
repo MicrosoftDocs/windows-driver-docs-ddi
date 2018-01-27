@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 7BC76F62-CA51-4C3F-BBF0-0B192EE871E6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxRetrieveReceiveMdl
+ms.keywords: 1/SerCxRetrieveReceiveMdl, SerCxRetrieveReceiveMdl, SerCxRetrieveReceiveMdl method [Serial Ports], serports.sercxretrievereceivemdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SerCxRetrieveReceiveMdl
-req.alt-loc: 1.0\Sercx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	1.0\Sercx.h
+apiname: 
+-	SerCxRetrieveReceiveMdl
+product: Windows
+targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # SerCxRetrieveReceiveMdl function
 
 
-
 ## -description
+
+
 The <b>SerCxRetrieveReceiveMdl</b> method retrieves the MDL that describes the buffer to use to receive the next block of input data.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS SerCxRetrieveReceiveMdl(
@@ -55,6 +65,9 @@ NTSTATUS SerCxRetrieveReceiveMdl(
 
 
 ## -parameters
+
+
+
 
 ### -param Device [in]
 
@@ -67,26 +80,48 @@ A pointer to a location into which the method writes a pointer to the MDL.
 
 
 ## -returns
+
+
 <b>SerCxRetrieveReceiveMdl</b> returns STATUS_SUCCESS if the call is successful. Possible return values include the following error codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>This value is returned if one of the following occurs:
+</dl>
+</td>
+<td width="60%">
+This value is returned if one of the following occurs:
 
- 
+<ul>
+<li>There is no outstanding receive request to get an MDL from.</li>
+<li>The current number of bytes received (as reported by the <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a> method) does not equal zero.</li>
+<li>The buffer has already been retrieved (and the corresponding call to the <b>SerCxProgressReceive</b> method has not yet occurred).</li>
+<li>The MDL has already been retrieved (and the corresponding call to the <b>SerCxProgressReceive</b> method has not yet occurred).</li>
+</ul>
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The serial controller driver calls this function to obtain an MDL to use for the current receive (read) operation. The MDL describes the buffer memory into which the driver is to transfer the received data. The driver is the exclusive owner of this MDL until it calls the <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a> method, after which the MDL pointer is invalid and the driver must no longer try to access either the MDL or the buffer memory that the MDL describes.
 
 For more information about MDLs, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565421">Using MDLs</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
-</dt>
-</dl>
+
  
 
  

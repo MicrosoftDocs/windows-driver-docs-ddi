@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 94342bb0-6c3b-49a0-b677-5d871136c2ba
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlRemoveMcbEntry
+ms.keywords: FsRtlRemoveMcbEntry, FsRtlRemoveMcbEntry function [Installable File System Drivers], fsrtlref_21b18ca7-32c0-441b-bb74-aa227e0d2c3e.xml, ifsk.fsrtlremovemcbentry, ntifs/FsRtlRemoveMcbEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlRemoveMcbEntry
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FsRtlRemoveMcbEntry
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlRemoveMcbEntry function
 
 
-
 ## -description
+
+
 The <b>FsRtlRemoveMcbEntry</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlremovelargemcbentry~r2.md">FsRtlRemoveLargeMcbEntry</a> instead.
 
 
-
 ## -syntax
+
 
 ````
   FsRtlRemoveMcbEntry(
@@ -54,9 +64,24 @@ The <b>FsRtlRemoveMcbEntry</b> routine is obsolete, but is exported to support e
 
 ## -parameters
 
-### -param  
-
-Reserved.
 
 
-## -remarks
+
+### -param Mcb
+
+TBD
+
+
+### -param Vbn
+
+TBD
+
+
+### -param SectorCount
+
+TBD
+
+
+
+
+

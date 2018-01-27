@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A8E60BF8-2DFE-479A-9DA9-C3D9B012EBE9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DWDDM2_0DDI_CORELAYER_DEVICECALLBACKS, D3DWDDM2_0DDI_CORELAYER_DEVICECALLBACKS
+ms.keywords: D3DWDDM2_0DDI_CORELAYER_DEVICECALLBACKS, display.d3dwddm2_0ddi_corelayer_devicecallbacks, d3d10umddi/D3DWDDM2_0DDI_CORELAYER_DEVICECALLBACKS, D3DWDDM2_0DDI_CORELAYER_DEVICECALLBACKS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DWDDM2_0DDI_CORELAYER_DEVICECALLBACKS
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3DWDDM2_0DDI_CORELAYER_DEVICECALLBACKS
+product: Windows
+targetos: Windows
 req.typenames: D3DWDDM2_0DDI_CORELAYER_DEVICECALLBACKS
 ---
 
 # D3DWDDM2_0DDI_CORELAYER_DEVICECALLBACKS structure
 
 
-
 ## -description
+
+
 This structure contains the function table for the core layer device callback functions.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3DWDDM2_0DDI_CORELAYER_DEVICECALLBACKS {
@@ -94,6 +104,9 @@ typedef struct D3DWDDM2_0DDI_CORELAYER_DEVICECALLBACKS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field pfnSetErrorCb
 
@@ -304,5 +317,3 @@ A pointer to the <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cff
 
 A pointer to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcontextvirtualcb.md">pfnCreateContextVirtualCb</a> function.
 
-
-## -remarks

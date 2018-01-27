@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7b412180-e453-4ae4-95a5-e5393e1d9197
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+ms.keywords: display.dxgkddii2creceivedatafromdisplay, DxgkDdiI2CReceiveDataFromDisplay callback function [Display Devices], DxgkDdiI2CReceiveDataFromDisplay, DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY, DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY, dispmprt/DxgkDdiI2CReceiveDataFromDisplay, DmFunctions_5fcf0936-1f93-4445-9a80-545ad88b472b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkDdiI2CReceiveDataFromDisplay
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PSYMBOL_INFO_EX, SYMBOL_INFO_EX
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DxgkDdiI2CReceiveDataFromDisplay
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY callback
 
 
-
 ## -description
+
+
 The <i>DxgkDdiI2CReceiveDataFromDisplay</i> returns data received from an I2C device in a monitor.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY DxgkDdiI2CReceiveDataFromDisplay;
@@ -61,6 +71,9 @@ NTSTATUS DxgkDdiI2CReceiveDataFromDisplay(
 
 
 ## -parameters
+
+
+
 
 ### -param MiniportDeviceContext [in]
 
@@ -80,7 +93,6 @@ The address of the I2C device from which data will be received.
 ### -param Flags [in]
 
 A value that specifies whether the length of the data is supplied as part of the data transmitted by the I2C device. This parameter must be set to one of the following values.
-
 <table>
 <tr>
 <th>Value</th>
@@ -106,8 +118,7 @@ The data length is supplied by the I2C device as part of the data that it transm
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param DataLength [in]
@@ -121,27 +132,76 @@ A pointer to a buffer that receives the data. The buffer can be in paged memory.
 
 
 ## -returns
+
+
 <i>DxgkDdiI2CReceiveDataFromDisplay</i>returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>. The following list gives some of the possible error codes that can be returned.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_MONITOR_NOT_CONNECTED</b></dt>
-</dl>There is no monitor connected to the video output identified by <i>VidPnTargetId</i>.
+</dl>
+</td>
+<td width="60%">
+There is no monitor connected to the video output identified by <i>VidPnTargetId</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_I2C_NOT_SUPPORTED</b></dt>
-</dl>The video output identified by <i>VidPnTargetId</i> does not have an I2C bus.
+</dl>
+</td>
+<td width="60%">
+The video output identified by <i>VidPnTargetId</i> does not have an I2C bus.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_I2C_DEVICE_DOES_NOT_EXIST</b></dt>
-</dl>No device acknowledged the I2C address supplied in <i>SevenBitI2CAddress</i>. This could mean that no device on the I2C bus has the specified address or that an error occurred when the address was transmitted.
+</dl>
+</td>
+<td width="60%">
+No device acknowledged the I2C address supplied in <i>SevenBitI2CAddress</i>. This could mean that no device on the I2C bus has the specified address or that an error occurred when the address was transmitted.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_I2C_ERROR_RECEIVING_DATA</b></dt>
-</dl>The I2C address was successfully transmitted, but there was an error receiving data from the I2C device.
+</dl>
+</td>
+<td width="60%">
+The I2C address was successfully transmitted, but there was an error receiving data from the I2C device.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>The value supplied in <i>DataLength</i> is less than the required data buffer size. This return value is meaningful only if the I2C_DEVICE_TRANSMITS_DATA_LENGTH flag is set.
+</dl>
+</td>
+<td width="60%">
+The value supplied in <i>DataLength</i> is less than the required data buffer size. This return value is meaningful only if the I2C_DEVICE_TRANSMITS_DATA_LENGTH flag is set.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The video present target identified by <i>VidPnTargetId</i> is associated with one of the video outputs on the display adapter. The data is received from an I2C device in the monitor that is connected to that video output. 
 
 <i>DxgkDdiI2CReceiveDataFromDisplay</i> function is responsible for signaling the I2C start condition, sending the I2C address, receiving the data from the I2C device, sending acknowledgments, and signaling the stop condition. For details about the I2C bus, see the <i>I2C Bus Specification</i>, published by Philips Semiconductors. The specification defines a protocol for initiating I2C communication, reading and writing bytes over the I2C data line, and terminating I2C communication. (This resource may not be available in some languages 
@@ -159,12 +219,11 @@ If the display adapter supports HDCP, <i>DxgkDdiI2CReceiveDataFromDisplay</i> mu
 <i>DxgkDdiI2CReceiveDataFromDisplay</i> should be made pageable.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_i2c_transmit_data_to_display.md">DxgkDdiI2CTransmitDataToDisplay</a>
-</dt>
-</dl>
+
  
 
  

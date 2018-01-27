@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4b0a982b-63ae-4109-a4be-2dd82824e75a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _VOLUME_LOGICAL_OFFSET, VOLUME_LOGICAL_OFFSET, *PVOLUME_LOGICAL_OFFSET
+ms.keywords: VOLUME_LOGICAL_OFFSET, _VOLUME_LOGICAL_OFFSET, storage.volume_logical_offset, ntddvol/VOLUME_LOGICAL_OFFSET, PVOLUME_LOGICAL_OFFSET structure pointer [Storage Devices], structs-volumemgr_97756e49-7151-4d3a-abbe-aa90a472c284.xml, VOLUME_LOGICAL_OFFSET structure [Storage Devices], ntddvol/PVOLUME_LOGICAL_OFFSET, *PVOLUME_LOGICAL_OFFSET, PVOLUME_LOGICAL_OFFSET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: VOLUME_LOGICAL_OFFSET
-req.alt-loc: ntddvol.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddvol.h
+apiname: 
+-	VOLUME_LOGICAL_OFFSET
+product: Windows
+targetos: Windows
 req.typenames: VOLUME_LOGICAL_OFFSET, *PVOLUME_LOGICAL_OFFSET
 ---
 
 # _VOLUME_LOGICAL_OFFSET structure
 
 
-
 ## -description
+
+
 The VOLUME_LOGICAL_OFFSET structure contains a logical offset into a volume. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _VOLUME_LOGICAL_OFFSET {
@@ -54,24 +64,27 @@ typedef struct _VOLUME_LOGICAL_OFFSET {
 
 ## -struct-fields
 
+
+
+
 ### -field LogicalOffset
 
 Contains a logical offset in bytes into a volume. 
 
 
 ## -remarks
+
+
 The VOLUME_LOGICAL_OFFSET structure is used with <a href="..\ntddvol\ni-ntddvol-ioctl_volume_physical_to_logical.md">IOCTL_VOLUME_PHYSICAL_TO_LOGICAL</a> and <a href="..\ntddvol\ni-ntddvol-ioctl_volume_logical_to_physical.md">IOCTL_VOLUME_LOGICAL_TO_PHYSICAL</a> to request a logical offset equivalent of a physical offset or a physical offset equivalent of a logical offset, respectively. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddvol\ni-ntddvol-ioctl_volume_logical_to_physical.md">IOCTL_VOLUME_LOGICAL_TO_PHYSICAL</a>
-</dt>
-<dt>
+
 <a href="..\ntddvol\ni-ntddvol-ioctl_volume_physical_to_logical.md">IOCTL_VOLUME_PHYSICAL_TO_LOGICAL</a>
-</dt>
-</dl>
+
+<a href="..\ntddvol\ni-ntddvol-ioctl_volume_logical_to_physical.md">IOCTL_VOLUME_LOGICAL_TO_PHYSICAL</a>
+
  
 
  

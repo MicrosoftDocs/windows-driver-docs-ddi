@@ -7,8 +7,8 @@ old-location: netvista\ndis_pd_filter_counter.htm
 old-project: netvista
 ms.assetid: 74660B47-0219-4724-AD7E-B20A2BB520EB
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_PD_FILTER_COUNTER, NDIS_PD_FILTER_COUNTER
+ms.date: 1/18/2018
+ms.keywords: netvista.ndis_pd_filter_counter, PNDIS_PD_FILTER_COUNTER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_FILTER_COUNTER, PNDIS_PD_FILTER_COUNTER, NDIS_PD_FILTER_COUNTER structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_PD_FILTER_COUNTER, ndis/NDIS_PD_FILTER_COUNTER, NDIS_PD_FILTER_COUNTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_PD_FILTER_COUNTER
-req.alt-loc: Ndis.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ndis.h
+apiname: 
+-	NDIS_PD_FILTER_COUNTER
+product: Windows
+targetos: Windows
 req.typenames: NDIS_PD_FILTER_COUNTER
 ---
 
 # _NDIS_PD_FILTER_COUNTER structure
 
 
-
 ## -description
+
+
 This structure is used to hold counter information for a filter.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NDIS_PD_FILTER_COUNTER {
@@ -55,6 +65,9 @@ typedef struct _NDIS_PD_FILTER_COUNTER {
 
 ## -struct-fields
 
+
+
+
 ### -field PacketsMatched
 
 The amount of packets that match.
@@ -64,5 +77,3 @@ The amount of packets that match.
 
 The amount of bytes that match.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 12F6E1F5-15F9-42BE-8C47-C9A561513717
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: DMA_COMPLETION_STATUS, DMA_COMPLETION_STATUS
+ms.keywords: DMA_COMPLETION_STATUS, DmaComplete, DmaAborted, wdm/DMA_COMPLETION_STATUS, wdm/DmaAborted, wdm/DmaError, DmaCancelled, DmaError, wdm/DmaComplete, kernel.dma_completion_status, DMA_COMPLETION_STATUS enumeration [Kernel-Mode Driver Architecture], wdm/DmaCancelled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with  Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DMA_COMPLETION_STATUS
-req.alt-loc: Wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Wdm.h
+apiname: 
+-	DMA_COMPLETION_STATUS
+product: Windows
+targetos: Windows
 req.typenames: DMA_COMPLETION_STATUS
 req.product: Windows 10 or later.
 ---
@@ -38,18 +47,17 @@ req.product: Windows 10 or later.
 # DMA_COMPLETION_STATUS enumeration
 
 
-
 ## -description
 
+
+
 The <b>DMA_COMPLETION_STATUS</b> enumeration describes the completion status of a DMA transfer.
 
-
-
-The <b>DMA_COMPLETION_STATUS</b> enumeration describes the completion status of a DMA transfer.
 
 
 
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -62,6 +70,9 @@ typedef enum  {
 
 
 ## -enum-fields
+
+
+
 
 ### -field DmaComplete
 
@@ -84,15 +95,16 @@ The DMA transfer did not complete successfully because the client canceled the t
 
 
 ## -remarks
+
+
 The <i>Status</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450991">DmaCompletionRoutine</a> routine is a <b>DMA_COMPLETION_STATUS</b>  enumeration value.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450991">DmaCompletionRoutine</a>
-</dt>
-</dl>
+
  
 
  

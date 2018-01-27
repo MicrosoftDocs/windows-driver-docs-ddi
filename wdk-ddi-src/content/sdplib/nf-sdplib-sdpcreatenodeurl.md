@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 9f06dbfb-2bd5-4a58-848b-a5f0de337166
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: SdpCreateNodeUrl
+ms.keywords: SdpCreateNodeUrl, bltooth.sdpcreatenodeurl, SdpCreateNodeUrl function [Bluetooth Devices], bth_funcs_0fd2d5df-3b9a-4ee2-abbf-ff74b7b89425.xml, sdplib/SdpCreateNodeUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SdpCreateNodeUrl
-req.alt-loc: sdplib.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,25 +26,37 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-req.typenames: *PSDCMD_DESCRIPTOR, SDCMD_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	sdplib.h
+apiname: 
+-	SdpCreateNodeUrl
+product: Windows
+targetos: Windows
+req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
 # SdpCreateNodeUrl function
 
 
-
 ## -description
+
+
 The Bluetooth 
   <b>SdpCreateNodeUrl</b> function is used to allocate and initialize an 
   <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a> structure to a URL type.
 
 
-
 ## -syntax
+
 
 ````
 PSDP_NODE SdpCreateNodeUrl(
@@ -59,12 +69,15 @@ PSDP_NODE SdpCreateNodeUrl(
 
 ## -parameters
 
+
+
+
 ### -param url [in]
 
 A pointer to the URL value that is used to initialize the SDP_NODE structure.
 
 
-### -param urlLength 
+### -param urlLength
 
 An unsigned long integer value that holds the length of the URL.
 
@@ -75,11 +88,16 @@ A profile driver defined tag to associate with the node.
 
 
 ## -returns
+
+
 If successful, this function returns a pointer to the newly allocated SDP_NODE structure. If not
      successful, this function returns <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 After the 
     <b>SdpCreateNodeUrl</b> function allocates an 
     <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a> structure, it initializes the structure in
@@ -101,25 +119,21 @@ The data associated with the
     time.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">
-    BTHDDI_SDP_NODE_INTERFACE</a> structure.
+    <mshelp:link keywords="bltooth.bthddi_sdp_node_interface" tabindex="0"><b>
+    BTHDDI_SDP_NODE_INTERFACE</b></mshelp:link> structure.
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
-</dt>
-<dt>
+
 <a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
-</dt>
-<dt>
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
+
 <a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
-</dt>
-<dt>
+
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

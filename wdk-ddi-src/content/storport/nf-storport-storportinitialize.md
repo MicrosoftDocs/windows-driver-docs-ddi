@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b560ce42-3c5c-4766-bb9c-6590b7113ecd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortInitialize
+ms.keywords: StorPortInitialize routine [Storage Devices], StorPortInitialize, storport/StorPortInitialize, storprt_c60ad9af-507c-42e1-9f8a-04e3378bc37b.xml, storage.storportinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: StorPortInitialize
-req.alt-loc: Storport.lib,Storport.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Storport.lib
+-	Storport.dll
+apiname: 
+-	StorPortInitialize
+product: Windows
+targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # StorPortInitialize function
 
 
-
 ## -description
+
+
 The <b>StorPortInitilize</b> routine initializes the port  driver parameters and extension data. <b>StorPortInitilize</b> also saves the adapter information provided from the miniport driver.
 
 
-
 ## -syntax
+
 
 ````
 STORPORT_API ULONG StorPortInitialize(
@@ -57,6 +68,9 @@ STORPORT_API ULONG StorPortInitialize(
 
 
 ## -parameters
+
+
+
 
 ### -param Argument1 [in]
 
@@ -80,12 +94,24 @@ Is the address of a context value to be passed to the miniport driver's <a href=
 
 ## -returns
 
+
+
       The result of the initialization actions performed by <b>StorPortInitilize</b>. The miniport driver will return this value as the return value for its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine.
 
 <b>StorPortInitilize</b> returns one of the following status codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl><i>Argument1</i> is NULL.
+</dl>
+</td>
+<td width="60%">
+<i>Argument1</i> is NULL.
 
 -or-
 
@@ -94,23 +120,60 @@ Is the address of a context value to be passed to the miniport driver's <a href=
 -or-
 
 <i>HwInitializationData</i> is NULL.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The driver extension data and adapter information were initialized successfully.
+</dl>
+</td>
+<td width="60%">
+The driver extension data and adapter information were initialized successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b> STATUS_NO_MEMORY</b></dt>
-</dl>No memory is available to store an initialization parameter.
+</dl>
+</td>
+<td width="60%">
+No memory is available to store an initialization parameter.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b> STATUS_REVISION_MISMATCH</b></dt>
-</dl>The version of the structure pointed to by <i>HwInitializationData</i> is invalid for the current operating system.
+</dl>
+</td>
+<td width="60%">
+The version of the structure pointed to by <i>HwInitializationData</i> is invalid for the current operating system.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b> STATUS_INSUFFICENT_RESOURCES</b></dt>
-</dl>The allocation failed for the driver object extension data.
+</dl>
+</td>
+<td width="60%">
+The allocation failed for the driver object extension data.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This routine must be called from the miniport driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine.
 
 Because Storport miniport drivers must support PnP, the Storport driver does not use the <i>HwContext</i> parameter passed to <b>StorPortInitilize</b>.
@@ -118,15 +181,13 @@ Because Storport miniport drivers must support PnP, the Storport driver does not
 Every miniport driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine must call <b>StorPortInitilize</b> after the miniport driver has first zeroed and then set the members of <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
-</dt>
-<dt>
+
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
-</dt>
-</dl>
+
  
 
  

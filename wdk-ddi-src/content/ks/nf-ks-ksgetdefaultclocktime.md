@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9689b9f8-e5ae-4689-90b1-6d029408f876
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetDefaultClockTime
+ms.keywords: KsGetDefaultClockTime function [Streaming Media Devices], ksfunc_16bfafe4-e317-48e9-841f-f642eb1fb8d3.xml, ks/KsGetDefaultClockTime, stream.ksgetdefaultclocktime, KsGetDefaultClockTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsGetDefaultClockTime
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsGetDefaultClockTime
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsGetDefaultClockTime function
 
 
-
 ## -description
+
+
 The <b>KsGetDefaultClockTime</b> function gets the current time of the clock.
 
 The function can be called at DISPATCH_LEVEL.
 
 
-
 ## -syntax
+
 
 ````
 LONGLONG KsGetDefaultClockTime(
@@ -56,24 +67,25 @@ LONGLONG KsGetDefaultClockTime(
 
 ## -parameters
 
+
+
+
 ### -param DefaultClock [in]
 
 Specifies an initialize default clock structure that is shared among any instance of the default clock for the parent. 
 
 
 ## -returns
+
+
 The <b>KsGetDefaultClockTime</b> function returns the current clock time.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-kssetdefaultclocktime.md">KsSetDefaultClockTime</a>
-</dt>
-</dl>
+
  
 
  

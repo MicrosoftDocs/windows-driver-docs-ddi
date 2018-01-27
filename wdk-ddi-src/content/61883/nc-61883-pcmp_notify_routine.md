@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 0576D73A-0A36-4AB7-952C-19B56FD246D8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _TOPOLOGY_MAP, TOPOLOGY_MAP, *PTOPOLOGY_MAP
+ms.keywords: IEEE.pcmp_notify_routine, CmpNotifyRoutine callback function, CmpNotifyRoutine, PCMP_NOTIFY_ROUTINE, PCMP_NOTIFY_ROUTINE, 61883/CmpNotifyRoutine, CmpNotifyRoutine callback function, CmpNotifyRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CmpNotifyRoutine
-req.alt-loc: 61883.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	61883.h
+apiname: 
+-	CmpNotifyRoutine
+product: Windows
+targetos: Windows
+req.typenames: *PTOPOLOGY_MAP, TOPOLOGY_MAP
 ---
 
 # PCMP_NOTIFY_ROUTINE callback
 
 
-
 ## -description
+
+
 This routine is called for plug notification.
 
 
-
 ## -prototype
+
 
 ````
 PCMP_NOTIFY_ROUTINE CmpNotifyRoutine;
@@ -59,13 +69,17 @@ typedef PCMP_NOTIFY_ROUTINE CmpNotifyRoutine;
 
 ## -parameters
 
+
+
+
 ### -param NotifyInfo [in]
 
 Specifies the notification information.
 
 
 ## -returns
+
+
 This callback does not return a value.
 
 
-## -remarks

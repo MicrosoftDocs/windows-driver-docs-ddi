@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: a54f3fb4-032a-4538-8b6d-20d6834d08c4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_CalculateUsbBandwidth
+ms.keywords: USBD_CalculateUsbBandwidth routine [Buses], buses.usbd_calculateusbbandwidth, usbfunc_a422b001-17f1-42b4-b10e-3d64d4279530.xml, USBD_CalculateUsbBandwidth, usbdlib/USBD_CalculateUsbBandwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Deprecated.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: USBD_CalculateUsbBandwidth
-req.alt-loc: Usbd.lib,Usbd.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Usbd.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Usbd.lib
+-	Usbd.dll
+apiname: 
+-	USBD_CalculateUsbBandwidth
+product: Windows
+targetos: Windows
 req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # USBD_CalculateUsbBandwidth function
 
 
-
 ## -description
+
+
 The <b>USBD_CalculateUsbBandwidth</b> routine has been deprecated in Windows XP and later operating systems. Do not use. 
 
 
-
 ## -syntax
+
 
 ````
 ULONG USBD_CalculateUsbBandwidth(
@@ -56,6 +67,9 @@ ULONG USBD_CalculateUsbBandwidth(
 
 
 ## -parameters
+
+
+
 
 ### -param MaxPacketSize [in]
 
@@ -73,20 +87,25 @@ Indicates, when <b>TRUE</b>, that the device is a low speed device. When <b>FALS
 
 
 ## -returns
+
+
 The <b>USBD_CalculateUsbBandwidth</b> routine returns zero for bulk and control endpoints and the bandwidth consumed in bits per millisecond. returns for all other endpoints. 
 
 
+
 ## -remarks
+
+
 The <b>USBD_CalculateUsbBandwidth</b> routine approximates the bandwidth using the following procedure. First, <b>USBD_CalculateUsbBandwidth</b> adds the largest possible packet size, specified in <i>MaxPacketSize</i>, to the overhead associated with the type of end point specified in <i>EndpointType</i>. Next, <b>USBD_CalculateUsbBandwidth</b> multiplies this sum by 8 to convert the units from <i>bytes</i> per millisecond into <i>bits</i> per millisecond. Finally, <b>USBD_CalculateUsbBandwidth</b> multiplies this quantity by 7/6 to account for filler bits. In a worst case scenario, there will be one bit of filler data stuffed into the data stream for every six bits of data. <b>USBD_CalculateUsbBandwidth</b> uses worst-case assumptions to calculate the bandwidth required by the pipe. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
+
 <a href="..\usb\ne-usb-_usbd_pipe_type.md">USBD_PIPE_TYPE</a>
-</dt>
-<dt><a href="usb_reference.htm#client">USB device driver programming reference</a></dt>
-</dl>
+
  
 
  

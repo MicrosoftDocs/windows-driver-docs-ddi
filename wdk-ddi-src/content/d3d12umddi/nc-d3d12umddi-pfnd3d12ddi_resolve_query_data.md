@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 981053FF-9928-442F-B3B3-3B89AC61EEE4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA
+ms.keywords: display.pfnd3d12ddi_resolve_query_data, pfnResolveQueryData callback function [Display Devices], pfnResolveQueryData, PFND3D12DDI_RESOLVE_QUERY_DATA, PFND3D12DDI_RESOLVE_QUERY_DATA, d3d12umddi/pfnResolveQueryData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnResolveQueryData
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	pfnResolveQueryData
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
 
 # PFND3D12DDI_RESOLVE_QUERY_DATA callback
 
 
-
 ## -description
+
+
 The <i>pfnResolveQueryData</i> callback function transforms a previously stored query into an API defined format.
 
 
-
 ## -prototype
+
 
 ````
 PFND3D12DDI_RESOLVE_QUERY_DATA pfnResolveQueryData;
@@ -63,44 +73,66 @@ VOID APIENTRY* pfnResolveQueryData(
 
 ## -parameters
 
-### -param hCommandList 
-
-The handle of a command list.
 
 
-### -param hQueryHeap 
 
-The handle of a query heap.
-
-
-### -param QueryType 
-
-A query type.
+### -param D3D12DDI_HCOMMANDLIST
 
 
-### -param StartElement 
+
+### -param D3D12DDI_HQUERYHEAP
+
+
+
+### -param D3D12DDI_QUERY_TYPE
+
+
+
+### -param StartElement
 
 The value of the start element.
 
 
-### -param ElementCount 
+### -param ElementCount
 
 The element count.
 
 
-### -param hDrvDestinationBuffer 
+### -param hDrvDestinationBuffer
 
 The handle of a destination buffer.
 
 
-### -param DestinationOffset 
+### -param DestinationOffset
 
 The destination offset.
 
 
+#### - hQueryHeap
+
+The handle of a query heap.
+
+
+#### - hCommandList
+
+The handle of a command list.
+
+
+#### - QueryType
+
+A query type.
+
+
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
-Resolve functionality is used by applications to transform a query result previously stored in a query heap into the API defined format.  The resolved data is stored in a buffer.  The results can then be consumed by a shader, predication, or mapped and read on the CPU.</p>
+
+
+Resolve functionality is used by applications to transform a query result previously stored in a query heap into the API defined format.  The resolved data is stored in a buffer.  The results can then be consumed by a shader, predication, or mapped and read on the CPU.
+
+

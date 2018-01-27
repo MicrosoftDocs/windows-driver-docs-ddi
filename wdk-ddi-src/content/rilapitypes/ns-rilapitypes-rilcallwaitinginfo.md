@@ -7,8 +7,8 @@ old-location: netvista\rilcallwaitinginfo_2.htm
 old-project: netvista
 ms.assetid: a634355a-c508-4f1b-9b8b-9325cb34cde0
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCALLWAITINGINFO, *LPRILCALLWAITINGINFO, RILCALLWAITINGINFO
+ms.date: 1/18/2018
+ms.keywords: *LPRILCALLWAITINGINFO, rilapitypes/RILCALLWAITINGINFO, netvista.rilcallwaitinginfo_2, RILCALLWAITINGINFO, RILCALLWAITINGINFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCALLWAITINGINFO
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *LPRILCALLWAITINGINFO, RILCALLWAITINGINFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILCALLWAITINGINFO
+product: Windows
+targetos: Windows
+req.typenames: RILCALLWAITINGINFO, *LPRILCALLWAITINGINFO
 req.product: Windows 10 or later.
 ---
 
 # RILCALLWAITINGINFO structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILCALLWAITINGINFO {
@@ -59,19 +69,25 @@ typedef struct _RILCALLWAITINGINFO {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwExecutor
+
 
 
 ### -field dwCallType
 
 
+
 ### -field rrpiCallerInfo
 
 
-## -remarks

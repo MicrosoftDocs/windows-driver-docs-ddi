@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 55c629c5-1d73-40dd-a5aa-73ddcc5236b5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgk_monitorsourcemodeset_interface_pfnacquirenextmodeinfo, pfnAcquireNextModeInfo callback function [Display Devices], pfnAcquireNextModeInfo, DXGKDDI_MONITORSOURCEMODESET_ACQUIRENEXTMODEINFO, DXGKDDI_MONITORSOURCEMODESET_ACQUIRENEXTMODEINFO, d3dkmddi/pfnAcquireNextModeInfo, VidPnFunctions_72e7111d-6944-4cf1-86a7-2f3ad705a707.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnAcquireNextModeInfo
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	pfnAcquireNextModeInfo
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_MONITORSOURCEMODESET_ACQUIRENEXTMODEINFO callback
 
 
-
 ## -description
+
+
 The <b>pfnAcquireNextModeInfo</b> function returns a descriptor of the next mode in a specified monitor source mode set, given the current mode.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_MONITORSOURCEMODESET_ACQUIRENEXTMODEINFO pfnAcquireNextModeInfo;
@@ -58,6 +68,9 @@ NTSTATUS APIENTRY pfnAcquireNextModeInfo(
 
 
 ## -parameters
+
+
+
 
 ### -param hMonitorSourceModeSet [in]
 
@@ -75,18 +88,43 @@ NTSTATUS APIENTRY pfnAcquireNextModeInfo(
 
 
 ## -returns
+
+
 The <b>pfnAcquireNextModeInfo</b> function returns one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The function succeeded. 
+</dl>
+</td>
+<td width="60%">
+The function succeeded. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_INVALID_MONITOR_SOURCEMODESET</b></dt>
-</dl>The handle supplied in <i>hMonitorSourceModeSet </i>was invalid.
+</dl>
+</td>
+<td width="60%">
+The handle supplied in <i>hMonitorSourceModeSet </i>was invalid.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 When you have finished using the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_source_mode.md">D3DKMDT_MONITOR_SOURCE_MODE</a> structure, you must release the structure by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorsourcemodeset_releasemodeinfo.md">pfnReleaseModeInfo</a>.
 
 You can enumerate all the modes that belong to a particular monitor source mode set object by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorsourcemodeset_acquirefirstmodeinfo.md">pfnAcquireFirstModeInfo</a> and then making a sequence of calls to <b>pfnAcquireNextModeInfo</b>.
@@ -94,18 +132,15 @@ You can enumerate all the modes that belong to a particular monitor source mode 
 The D3DKMDT_HMONITORSOURCEMODESET data type is defined in <i>D3dkmdt.h</i>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorsourcemodeset_releasemodeinfo.md">pfnReleaseModeInfo</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorsourcemodeset_acquirefirstmodeinfo.md">pfnAcquireFirstModeInfo</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_source_mode.md">D3DKMDT_MONITOR_SOURCE_MODE</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorsourcemodeset_acquirefirstmodeinfo.md">pfnAcquireFirstModeInfo</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorsourcemodeset_releasemodeinfo.md">pfnReleaseModeInfo</a>
+
  
 
  

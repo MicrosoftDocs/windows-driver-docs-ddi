@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bc7c2693-6a18-4335-8921-363981a830f1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_ARG_BLT1, DXGI_DDI_ARG_BLT1
+ms.keywords: DXGI_DDI_ARG_BLT1 structure [Display Devices], DXGI_DDI_ARG_BLT1, display.dxgi_ddi_arg_blt1, dxgiddi/DXGI_DDI_ARG_BLT1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8,WDDM 1.2 and later
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGI_DDI_ARG_BLT1
-req.alt-loc: Dxgiddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Dxgiddi.h
+apiname: 
+-	DXGI_DDI_ARG_BLT1
+product: Windows
+targetos: Windows
 req.typenames: DXGI_DDI_ARG_BLT1
 ---
 
 # DXGI_DDI_ARG_BLT1 structure
 
 
-
 ## -description
+
+
 Describes the parameters of a bit-block transfer (bitblt) that include specifications for a  source rectangle. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct DXGI_DDI_ARG_BLT1 {
@@ -67,6 +77,9 @@ typedef struct DXGI_DDI_ARG_BLT1 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hDevice
 
@@ -144,24 +157,22 @@ typedef struct DXGI_DDI_ARG_BLT1 {
 
 
 ## -remarks
+
+
 The source rectangle specified by the members <b>SrcLeft</b>, <b>SrcTop</b>, <b>SrcRight</b>, and <b>SrcBottom</b> is typically a dirty subrectangle.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-</dt>
-<dt>
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
-</dt>
-<dt>
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_blt_flags.md">DXGI_DDI_ARG_BLT_FLAGS</a>
-</dt>
-<dt>
+
 <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_rotation.md">DXGI_DDI_MODE_ROTATION</a>
-</dt>
-</dl>
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_blt_flags.md">DXGI_DDI_ARG_BLT_FLAGS</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+
  
 
  

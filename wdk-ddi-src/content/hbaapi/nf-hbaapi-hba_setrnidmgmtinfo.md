@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0c4fbe80-03f2-4ee0-b766-c1ccaa8e83c2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_SetRNIDMgmtInfo
+ms.keywords: HBA_SetRNIDMgmtInfo, hbaapi/HBA_SetRNIDMgmtInfo, fibreHBA_rtns_ebe3859b-fe8c-42c6-a4a7-9d756489d818.xml, HBA_SetRNIDMgmtInfo routine [Storage Devices], storage.hba_setrnidmgmtinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBA_SetRNIDMgmtInfo
-req.alt-loc: Hbaapi.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Hbaapi.dll
+apiname: 
+-	HBA_SetRNIDMgmtInfo
+product: Windows
+targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
 
 # HBA_SetRNIDMgmtInfo function
 
 
-
 ## -description
+
+
 The <b>HBA_SetRNIDMgmtInfo</b> routine programs the HBA to return the indicated request node identification information data (RNID). 
 
 
-
 ## -syntax
+
 
 ````
 HBA_STATUS HBA_API HBA_SetRNIDMgmtInfo(
@@ -55,40 +65,71 @@ HBA_STATUS HBA_API HBA_SetRNIDMgmtInfo(
 
 ## -parameters
 
-### -param HbaHandle [in]
-
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA whose RNID is set.  
 
 
-### -param HbaMgmtInfo [in]
+
+### -param Handle
+
+TBD
+
+
+### -param pInfo
+
+TBD
+
+
+
+#### - HbaMgmtInfo [in]
 
 Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_mgmtinfo.md">HBA_MgmtInfo</a> that specifies the RNID to associate with the HBA referenced by <i>HbaHandle. </i>
 
 
+#### - HbaHandle [in]
+
+Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA whose RNID is set.  
+
+
 ## -returns
+
+
 The <b>HBA_SetRNIDMgmtInfo</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_SetRNIDMgmtInfo</b> returns one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_OK</b></dt>
-</dl>Returned if the HBA was successfully programmed to return the specified RNID. 
+</dl>
+</td>
+<td width="60%">
+Returned if the HBA was successfully programmed to return the specified RNID. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HBA_STATUS_ERROR</b></dt>
-</dl>Returned if an unspecified error occurred that prevented the routine from programming the HBA to return the specified RNID. 
+</dl>
+</td>
+<td width="60%">
+Returned if an unspecified error occurred that prevented the routine from programming the HBA to return the specified RNID. 
 
- 
+</td>
+</tr>
+</table> 
 
-
-## -remarks
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-</dt>
-</dl>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
  
 
  

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8cd81cae-8d6b-48d8-afdc-87e3a81653f4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2CLEAR, D3DHAL_DP2CLEAR, *LPD3DHAL_DP2CLEAR
+ms.keywords: D3DHAL_DP2CLEAR structure [Display Devices], d3dstrct_2caf8fa1-61b4-4659-af20-a72d6b36173a.xml, d3dhal/D3DHAL_DP2CLEAR, _D3DHAL_DP2CLEAR, D3DHAL_DP2CLEAR, LPD3DHAL_DP2CLEAR, display.d3dhal_dp2clear, *LPD3DHAL_DP2CLEAR, LPD3DHAL_DP2CLEAR structure pointer [Display Devices], d3dhal/LPD3DHAL_DP2CLEAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DP2CLEAR
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DP2CLEAR
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DP2CLEAR
 ---
 
 # _D3DHAL_DP2CLEAR structure
 
 
-
 ## -description
+
+
 D3DHAL_DP2CLEAR contains all of the information that the driver needs to perform hardware-assisted clearing on the rendering target, depth buffer or stencil buffer.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DP2CLEAR {
@@ -58,10 +68,12 @@ typedef struct _D3DHAL_DP2CLEAR {
 
 ## -struct-fields
 
+
+
+
 ### -field dwFlags
 
 Specifies what buffers the driver should clear. This member can be a bitwise OR of the following values:
-
 <table>
 <tr>
 <th>Value</th>
@@ -109,8 +121,7 @@ If this flag is set, the specified rectangles should be clipped against the curr
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field dwFillColor
@@ -134,6 +145,8 @@ Specifies the rectangular areas of the buffer that the driver should clear. The 
 
 
 ## -remarks
+
+
 This structure is used with the D3DDP2OP_CLEAR command token to replace the legacy <b>D3dClear</b> and <b>D3dClear2</b> callbacks.
 
 It is important to note that when the number of rectangles is zero, the D3DHAL_DP2CLEAR data structure still includes space for a single RECT. Thus, the size of this single RECT should be included when advancing to the next DP2 instruction. However, the contents of the RECT in this case are undefined and the driver should not attempt to read them.
@@ -141,16 +154,15 @@ It is important to note that when the number of rectangles is zero, the D3DHAL_D
 Display drivers must convert input color values for the ARGB and YUV classes of color formats. For clear operations, input color values are specified in the <b>dwFillColor</b> member. For more information, see <a href="https://msdn.microsoft.com/53ce6be1-14e1-4ee8-ba29-f198dcdacdaa">Handling Color Values for Pixel Formats</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>D3DDP2OP_CLEAR</dt>
-<dt>
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-</dt>
-<dt>
+
+D3DDP2OP_CLEAR
+
 <a href="..\ksmedia\ns-ksmedia-_ddpixelformat.md">DDPIXELFORMAT</a>
-</dt>
-</dl>
+
  
 
  

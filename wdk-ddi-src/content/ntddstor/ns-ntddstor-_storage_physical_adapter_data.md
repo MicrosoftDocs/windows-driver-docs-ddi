@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 404A7AFC-291E-4056-9076-F9E62A07C9FB
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_PHYSICAL_ADAPTER_DATA, *PSTORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA
+ms.keywords: PSTORAGE_PHYSICAL_ADAPTER_DATA structure pointer [Storage Devices], ntddstor/STORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA, ntddstor/PSTORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA structure [Storage Devices], *PSTORAGE_PHYSICAL_ADAPTER_DATA, _STORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA, storage.storage_physical_adapter_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: STORAGE_PHYSICAL_ADAPTER_DATA
-req.alt-loc: Ntddstor.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ntddstor.h
+apiname: 
+-	STORAGE_PHYSICAL_ADAPTER_DATA
+product: Windows
+targetos: Windows
 req.typenames: *PSTORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA
 ---
 
 # _STORAGE_PHYSICAL_ADAPTER_DATA structure
 
 
-
 ## -description
+
+
 Specifies the physical device data of a storage adapter.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _STORAGE_PHYSICAL_ADAPTER_DATA {
@@ -63,6 +73,9 @@ typedef struct _STORAGE_PHYSICAL_ADAPTER_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field AdapterId
 
@@ -84,39 +97,73 @@ Specifies the storage command protocols that are used between software and hardw
 Indicates the specification of the storage adapter, of type <a href="..\ntddstor\ns-ntddstor-_storage_spec_version.md">STORAGE_SPEC_VERSION</a>.
 
 
-### -field Vendor[8]
+### -field Vendor
 
-The vendor name of the storage adapter.
-
-
-### -field Model[40]
-
-The model name of the storage adapter.
+ 
 
 
-### -field FirmwareRevision[16]
+### -field Model
 
-The revision number of the storage adapter.
+ 
 
 
-### -field PhysicalLocation[32]
+### -field FirmwareRevision
+
+ 
+
+
+### -field PhysicalLocation
+
+ 
+
+
+### -field ExpanderConnected
+
+ 
+
+
+### -field Reserved0
+
+ 
+
+
+### -field Reserved1
+
+ 
+
+
+
+#### - PhysicalLocation[32]
 
 This member is reserved for future use.
 
 
-### -field ExpandedConnector
+#### - ExpandedConnector
 
 Specifies if the storage adapter includes an expanded connector.
 
 
-### -field Reserved0[3]
+#### - FirmwareRevision[16]
+
+The revision number of the storage adapter.
+
+
+#### - Vendor[8]
+
+The vendor name of the storage adapter.
+
+
+#### - Reserved1[3]
 
 Specifies if the storage adapter is reserved.
 
 
-### -field Reserved1[3]
+#### - Reserved0[3]
 
 Specifies if the storage adapter is reserved.
 
 
-## -remarks
+#### - Model[40]
+
+The model name of the storage adapter.
+

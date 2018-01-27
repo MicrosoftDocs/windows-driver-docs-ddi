@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 4eeb543b-0c23-4119-8e42-ff086b4b7682
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _ADDRESS_RANGE, ADDRESS_RANGE, *PADDRESS_RANGE
+ms.keywords: _ADDRESS_RANGE, 1394stct_e03538df-3b91-483d-99da-95645f017bef.xml, IEEE.address_range, *PADDRESS_RANGE, PADDRESS_RANGE, 1394/PADDRESS_RANGE, ADDRESS_RANGE structure [Buses], PADDRESS_RANGE structure pointer [Buses], ADDRESS_RANGE, 1394/ADDRESS_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ADDRESS_RANGE
-req.alt-loc: 1394.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1394.h
+apiname: 
+-	ADDRESS_RANGE
+product: Windows
+targetos: Windows
 req.typenames: ADDRESS_RANGE, *PADDRESS_RANGE
 ---
 
 # _ADDRESS_RANGE structure
 
 
-
 ## -description
+
+
 The ADDRESS_RANGE structure describes a range in a IEEE 1394 device's address space.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ADDRESS_RANGE {
@@ -55,6 +65,9 @@ typedef struct _ADDRESS_RANGE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field AR_Off_High
 
@@ -71,18 +84,12 @@ Specifies the length, in bytes, of a 1394 address buffer.
 Specifies the low order bits of the 1394 address within the buffer.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537640">REQUEST_FREE_ADDRESS_RANGE</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
+
  
 
  

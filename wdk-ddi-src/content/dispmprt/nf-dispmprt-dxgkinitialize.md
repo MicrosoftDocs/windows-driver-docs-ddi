@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0eda4184-2852-4a31-b4da-1fbb99ed4670
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DxgkInitialize
+ms.keywords: DxgkInitialize, DxgkInitialize function [Display Devices], DpFunctions_a3ffc7d5-f2bc-42f0-97f3-411bfe7b95e7.xml, dispmprt/DxgkInitialize, display.dxgkinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DxgkInitialize
-req.alt-loc: dispmprt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	dispmprt.h
+apiname: 
+-	DxgkInitialize
+product: Windows
+targetos: Windows
 req.typenames: DXGK_SURPRISE_REMOVAL_TYPE
 ---
 
 # DxgkInitialize function
 
 
-
 ## -description
+
+
 The <b>DxgkInitialize</b> function loads and initializes the DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>).
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS DxgkInitialize(
@@ -55,6 +65,9 @@ NTSTATUS DxgkInitialize(
 
 
 ## -parameters
+
+
+
 
 ### -param DriverObject [in]
 
@@ -72,30 +85,29 @@ A pointer to a <a href="..\dispmprt\ns-dispmprt-_driver_initialization_data.md">
 
 
 ## -returns
+
+
 <b>DxgkInitialize</b>returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
 
+
 ## -remarks
+
+
 The display miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> function calls <b>DxgkInitialize</b>.
 
-The following code example shows an implementation of <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> in which <b>DxgkInitialize</b> is called.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
-</dt>
-<dt>
-<a href="..\dispmprt\ns-dispmprt-_driver_initialization_data.md">DRIVER_INITIALIZATION_DATA</a>
-</dt>
-<dt>
+
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
+
+<a href="..\dispmprt\ns-dispmprt-_driver_initialization_data.md">DRIVER_INITIALIZATION_DATA</a>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-</dt>
-</dl>
+
  
 
  

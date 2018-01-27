@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5992c846-93de-4f95-839a-81f14db709f7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_QUERYADAPTERINFO, DXGKARG_QUERYADAPTERINFO
+ms.keywords: DXGKARG_QUERYADAPTERINFO, display.dxgkarg_queryadapterinfo, d3dkmddi/DXGKARG_QUERYADAPTERINFO, _DXGKARG_QUERYADAPTERINFO, DmStructs_82a38a66-d65c-4b88-be6d-974590e9472a.xml, DXGKARG_QUERYADAPTERINFO structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGKARG_QUERYADAPTERINFO
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGKARG_QUERYADAPTERINFO
+product: Windows
+targetos: Windows
 req.typenames: DXGKARG_QUERYADAPTERINFO
 ---
 
 # _DXGKARG_QUERYADAPTERINFO structure
 
 
-
 ## -description
+
+
 The DXGKARG_QUERYADAPTERINFO structure contains parameters for a query.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DXGKARG_QUERYADAPTERINFO {
@@ -57,6 +67,9 @@ typedef struct _DXGKARG_QUERYADAPTERINFO {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Type
 
@@ -80,7 +93,6 @@ An input buffer is not required when <b>Type</b> specifies the DXGKQAITYPE_DRIVE
 ### -field pOutputData
 
 [out] A pointer to an output buffer that the display miniport driver fills with the required information.
-
 <table>
 <tr>
 <th>Value of <b>Type</b></th>
@@ -110,8 +122,7 @@ An input buffer is not required when <b>Type</b> specifies the DXGKQAITYPE_DRIVE
 <td><b>DXGKQAITYPE_POWERCOMPONENTINFO</b></td>
 <td>Populated <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_component.md">DXGK_POWER_RUNTIME_COMPONENT</a> structure that provides information about the <i>n</i>th power component, where <i>n</i> is the component index specified by  <b>pInputData</b> in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> function</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field OutputDataSize
@@ -119,36 +130,30 @@ An input buffer is not required when <b>Type</b> specifies the DXGKQAITYPE_DRIVE
 [in] The size, in bytes, of the output data that <b>pOutputData</b> points to.
 
 
-## -remarks
+### -field Flags
+
+ 
+
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn268634">DXGK_POWER_P_COMPONENT</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_component.md">DXGK_POWER_RUNTIME_COMPONENT</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_queryadapterinfotype.md">DXGK_QUERYADAPTERINFOTYPE</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentin.md">DXGK_QUERYSEGMENTIN</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout.md">DXGK_QUERYSEGMENTOUT</a>
-</dt>
-<dt>
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a>
-</dt>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
-</dt>
-</dl>
+
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_queryadapterinfotype.md">DXGK_QUERYADAPTERINFOTYPE</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout.md">DXGK_QUERYSEGMENTOUT</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentin.md">DXGK_QUERYSEGMENTIN</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
  
 
  

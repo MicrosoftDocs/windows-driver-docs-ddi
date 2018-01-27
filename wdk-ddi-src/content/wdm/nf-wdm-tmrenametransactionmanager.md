@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B4124FF4-50CC-474A-B42F-17BCF698AB59
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmRenameTransactionManager
+ms.keywords: TmRenameTransactionManager, wdm/TmRenameTransactionManager, TmRenameTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tmrenametransactionmanager_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: TmRenameTransactionManager
-req.alt-loc: Wdm.h,Ext-MS-Win-ntos-tm-l1-1-0.dll,tm.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,22 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Wdm.h
+-	Ext-MS-Win-ntos-tm-l1-1-0.dll
+-	tm.sys
+apiname: 
+-	TmRenameTransactionManager
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +49,14 @@ req.product: Windows 10 or later.
 # TmRenameTransactionManager function
 
 
-
 ## -description
+
+
 The <b>TmRenameTransactionManager</b> routine changes the identity of the transaction manager object that is stored in the <a href="https://msdn.microsoft.com/4da3cb49-dc20-4713-813b-ff458c99ab90">CLFS</a> log file stream contained in the log file name.
-
-
+<div class="alert"><b>Warning</b>  Changing the identity of the transaction manger object might break any cross-log transactional links that may exist.</div><div> </div>
 
 ## -syntax
+
 
 ````
 NTSTATUS TmRenameTransactionManager (
@@ -55,6 +67,9 @@ NTSTATUS TmRenameTransactionManager (
 
 
 ## -parameters
+
+
+
 
 ### -param LogFileName [in]
 
@@ -67,13 +82,8 @@ A pointer to a GUID structure that represents the current name of the transactio
 
 
 ## -returns
-The <b>TmRenameTransactionManager</b> routine returns an NTSTATUS value. If the routine fails, it returns one of the following error codes:
-<dl>
-<dd>ERROR_ACCESS_DENIED</dd>
-<dd>ERROR_INVALID_HANDLE</dd>
-<dd>ERROR_INSUFFICIENT_RESOURCES</dd>
-<dd>ERROR_OBJECT_NAME_NOT_FOUND</dd>
-<dd>ERROR_OBJECT_TYPE_MISMATCH</dd>
-</dl>
 
-## -remarks
+
+The <b>TmRenameTransactionManager</b> routine returns an NTSTATUS value. If the routine fails, it returns one of the following error codes:
+
+

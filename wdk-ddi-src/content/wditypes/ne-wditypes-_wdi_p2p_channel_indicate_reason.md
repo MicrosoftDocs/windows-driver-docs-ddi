@@ -7,8 +7,8 @@ old-location: netvista\wdi_p2p_channel_indicate_reason.htm
 old-project: netvista
 ms.assetid: F6C2D044-E64B-4DA5-A168-20C99F325451
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WDI_P2P_CHANNEL_INDICATE_REASON, WDI_P2P_CHANNEL_INDICATE_REASON
+ms.date: 1/18/2018
+ms.keywords: WDI_P2P_CHANNEL_INDICATE_REASON enumeration [Network Drivers Starting with Windows Vista], WDI_P2P_CHANNEL_INDICATE_REASON_ECSA_REQUESTED, _WDI_P2P_CHANNEL_INDICATE_REASON, WDI_P2P_CHANNEL_INDICATE_REASON_NEW_CONNECTION, wditypes/WDI_P2P_CHANNEL_INDICATE_REASON_NEW_CONNECTION, wditypes/WDI_P2P_CHANNEL_INDICATE_REASON, WDI_P2P_CHANNEL_INDICATE_REASON_ECSA_GO_INITIATED, wditypes/WDI_P2P_CHANNEL_INDICATE_REASON_ECSA_GO_INITIATED, wditypes/WDI_P2P_CHANNEL_INDICATE_REASON_ECSA_REQUESTED, WDI_P2P_CHANNEL_INDICATE_REASON, netvista.wdi_p2p_channel_indicate_reason
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WDI_P2P_CHANNEL_INDICATE_REASON
-req.alt-loc: wditypes.hpp
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wditypes.hpp
+apiname: 
+-	WDI_P2P_CHANNEL_INDICATE_REASON
+product: Windows
+targetos: Windows
 req.typenames: WDI_P2P_CHANNEL_INDICATE_REASON
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # _WDI_P2P_CHANNEL_INDICATE_REASON enumeration
 
 
-
 ## -description
+
+
 The WDI_P2P_CHANNEL_INDICATE_REASON enumeration defines Wi-Fi Direct channel indication reason values.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _WDI_P2P_CHANNEL_INDICATE_REASON { 
@@ -56,6 +66,13 @@ typedef enum _WDI_P2P_CHANNEL_INDICATE_REASON {
 
 
 ## -enum-fields
+
+
+
+
+### -field WDI_P2P_CHANNEL_INDICATE_REASON_UNKNOWN
+
+
 
 ### -field WDI_P2P_CHANNEL_INDICATE_REASON_NEW_CONNECTION
 
@@ -72,4 +89,7 @@ eCSA request from the peer.
 eCSA initiated by GO.
 
 
-## -remarks
+### -field WDI_P2P_CHANNEL_INDICATE_REASON_MAX
+
+
+

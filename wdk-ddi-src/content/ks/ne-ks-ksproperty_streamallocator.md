@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4731864F-01B3-42CB-A1D4-C82FDD1DCBBE
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_STREAMALLOCATOR, KSPROPERTY_STREAMALLOCATOR
+ms.keywords: ks/KSPROPERTY_STREAMALLOCATOR, KSPROPERTY_STREAMALLOCATOR, KSPROPERTY_STREAMALLOCATOR_STATUS, KSPROPERTY_STREAMALLOCATOR enumeration [Streaming Media Devices], stream.ksproperty_streamallocator, ks/KSPROPERTY_STREAMALLOCATOR_STATUS, KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE, ks/KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSPROPERTY_STREAMALLOCATOR
-req.alt-loc: Ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,11 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Ks.h
+apiname: 
+-	KSPROPERTY_STREAMALLOCATOR
+product: Windows
+targetos: Windows
 req.typenames: KSPROPERTY_STREAMALLOCATOR
 ---
 
 # KSPROPERTY_STREAMALLOCATOR enumeration
-
 
 
 ## -description
@@ -43,7 +51,9 @@ req.typenames: KSPROPERTY_STREAMALLOCATOR
 
 
 
+
 ## -syntax
+
 
 ````
 typedef enum  { 
@@ -55,6 +65,9 @@ typedef enum  {
 
 ## -enum-fields
 
+
+
+
 ### -field KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE
 
 Specify to retrieve the function table of the allocator.
@@ -64,5 +77,3 @@ Specify to retrieve the function table of the allocator.
 
 Specify to retrieve the current status of the specified allocator.
 
-
-## -remarks

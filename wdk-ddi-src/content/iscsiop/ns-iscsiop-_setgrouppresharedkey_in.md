@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fe5e1f75-ebd0-4856-bb77-14efb52fbce0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SetGroupPresharedKey_IN, SetGroupPresharedKey_IN, *PSetGroupPresharedKey_IN
+ms.keywords: SetGroupPresharedKey_IN, storage.setgrouppresharedkey_in, iscsiop/SetGroupPresharedKey_IN, PSetGroupPresharedKey_IN, SetGroupPresharedKey_IN structure [Storage Devices], structs-iSCSI_0109dfff-f30e-4f15-ab25-4a290b2fc2f4.xml, *PSetGroupPresharedKey_IN, PSetGroupPresharedKey_IN structure pointer [Storage Devices], iscsiop/PSetGroupPresharedKey_IN, _SetGroupPresharedKey_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SetGroupPresharedKey_IN
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	SetGroupPresharedKey_IN
+product: Windows
+targetos: Windows
 req.typenames: SetGroupPresharedKey_IN, *PSetGroupPresharedKey_IN
 ---
 
 # _SetGroupPresharedKey_IN structure
 
 
-
 ## -description
+
+
 The SetGroupPresharedKey_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565693">SetGroupPresharedKey</a> method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _SetGroupPresharedKey_IN {
@@ -54,6 +64,9 @@ typedef struct _SetGroupPresharedKey_IN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field KeySize
 
@@ -66,18 +79,18 @@ The preshared group key<i>.</i>
 
 
 ## -remarks
+
+
 You must implement this method.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565693">SetGroupPresharedKey</a>
-</dt>
-<dt>
+
 <a href="..\iscsiop\ns-iscsiop-_setgrouppresharedkey_out.md">SetGroupPresharedKey_OUT</a>
-</dt>
-</dl>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565693">SetGroupPresharedKey</a>
+
  
 
  

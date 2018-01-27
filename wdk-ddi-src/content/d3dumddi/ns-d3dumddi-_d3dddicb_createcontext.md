@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6bee57b5-f4b3-424c-aeb5-3bf65ab16392
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_CREATECONTEXT, D3DDDICB_CREATECONTEXT
+ms.keywords: display.d3dddicb_createcontext, D3DDDICB_CREATECONTEXT structure [Display Devices], _D3DDDICB_CREATECONTEXT, d3dumddi/D3DDDICB_CREATECONTEXT, D3DDDICB_CREATECONTEXT, D3D_param_Structs_9ad6c5e1-c3aa-4546-b3c9-c07c8350093b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DDDICB_CREATECONTEXT
-req.alt-loc: d3dumddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	D3DDDICB_CREATECONTEXT
+product: Windows
+targetos: Windows
 req.typenames: D3DDDICB_CREATECONTEXT
 ---
 
 # _D3DDDICB_CREATECONTEXT structure
 
 
-
 ## -description
+
+
 The D3DDDICB_CREATECONTEXT structure describes a context to create.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DDDICB_CREATECONTEXT {
@@ -67,6 +77,9 @@ typedef struct _D3DDDICB_CREATECONTEXT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NodeOrdinal
 
@@ -135,24 +148,16 @@ This member is reserved and should be set to zero.
 This member is available beginning with Windows 7.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
-</dt>
-<dt>
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_createcontextflags.md">D3DDDI_CREATECONTEXTFLAGS</a>
-</dt>
-<dt>
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
-</dt>
-</dl>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_createcontextflags.md">D3DDDI_CREATECONTEXTFLAGS</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
+
  
 
  

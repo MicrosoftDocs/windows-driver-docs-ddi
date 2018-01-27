@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0406efa5-26ad-4a3d-829b-d9b03b7c3b26
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSiSCSI_InitiatorSessionInfo, *PMSiSCSI_InitiatorSessionInfo, MSiSCSI_InitiatorSessionInfo
+ms.keywords: *PMSiSCSI_InitiatorSessionInfo, iscsimgt/PMSiSCSI_InitiatorSessionInfo, iscsimgt/MSiSCSI_InitiatorSessionInfo, structs-iSCSI_a3ebb8e8-47ff-4482-b896-7b310216bdf1.xml, PMSiSCSI_InitiatorSessionInfo structure pointer [Storage Devices], PMSiSCSI_InitiatorSessionInfo, storage.msiscsi_initiatorsessioninfo, _MSiSCSI_InitiatorSessionInfo, MSiSCSI_InitiatorSessionInfo, MSiSCSI_InitiatorSessionInfo structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MSiSCSI_InitiatorSessionInfo
-req.alt-loc: iscsimgt.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PMSiSCSI_InitiatorSessionInfo, MSiSCSI_InitiatorSessionInfo
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsimgt.h
+apiname: 
+-	MSiSCSI_InitiatorSessionInfo
+product: Windows
+targetos: Windows
+req.typenames: MSiSCSI_InitiatorSessionInfo, *PMSiSCSI_InitiatorSessionInfo
 ---
 
 # _MSiSCSI_InitiatorSessionInfo structure
 
 
-
 ## -description
+
+
 The MSiSCSI_InitiatorSessionInfo structure contains information about a collection of sessions that belong to the indicated HBA initiator.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MSiSCSI_InitiatorSessionInfo {
@@ -55,6 +65,9 @@ typedef struct _MSiSCSI_InitiatorSessionInfo {
 
 
 ## -struct-fields
+
+
+
 
 ### -field UniqueAdapterId
 
@@ -72,21 +85,20 @@ A variable length array of <a href="..\iscsimgt\ns-iscsimgt-_iscsi_sessionstatic
 
 
 ## -remarks
+
+
 You must implement this class.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\iscsimgt\ns-iscsimgt-_iscsi_sessionstaticinfo.md">ISCSI_SessionStaticInfo</a>
-</dt>
-<dt>
+
 <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563057">MSiSCSI_InitiatorSessionInfo WMI Class</a>
-</dt>
-</dl>
+
+<a href="..\iscsimgt\ns-iscsimgt-_iscsi_sessionstaticinfo.md">ISCSI_SessionStaticInfo</a>
+
  
 
  

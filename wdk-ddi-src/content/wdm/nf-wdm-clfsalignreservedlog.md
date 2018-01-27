@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b79f58bb-af94-4143-9e30-6f50d85cbb3d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsAlignReservedLog
+ms.keywords: Clfs_68de31de-d1f9-4948-ab15-bf8678aebcf2.xml, wdm/ClfsAlignReservedLog, ClfsAlignReservedLog routine [Kernel-Mode Driver Architecture], kernel.clfsalignreservedlog, ClfsAlignReservedLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista,
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ClfsAlignReservedLog
-req.alt-loc: Clfs.sys,Ext-MS-Win-fs-clfs-l1-1-0.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Clfs.sys
+-	Ext-MS-Win-fs-clfs-l1-1-0.dll
+apiname: 
+-	ClfsAlignReservedLog
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # ClfsAlignReservedLog function
 
 
-
 ## -description
+
+
 The <b>ClfsAlignReservedLog</b> routine calculates the size of the space that must be reserved for a specified set of records. The size calculation includes the space required for headers and the space required for sector alignment.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS  ClfsAlignReservedLog(
@@ -57,6 +68,9 @@ NTSTATUS  ClfsAlignReservedLog(
 
 
 ## -parameters
+
+
+
 
 ### -param pvMarshalContext [in]
 
@@ -79,19 +93,23 @@ A pointer to a LONGLONG-typed variable that receives the size, in bytes, of the 
 
 
 ## -returns
+
+
 <b>ClfsAlignReservedLog</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h. 
 
 
+
 ## -remarks
+
+
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-clfsallocreservedlog.md">ClfsAllocReservedLog</a>
-</dt>
-</dl>
+
  
 
  

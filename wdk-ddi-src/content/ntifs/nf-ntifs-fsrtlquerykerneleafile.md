@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: B57BC3A4-6116-48EA-905A-CFA7AC0A5E8F
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlQueryKernelEaFile
+ms.keywords: ifsk.fsrtlquerykerneleafile, FsRtlQueryKernelEaFile routine [Installable File System Drivers], ntifs/FsRtlQueryKernelEaFile, FsRtlQueryKernelEaFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FsRtlQueryKernelEaFile
-req.alt-loc: ntifs.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,24 +26,36 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntifs.h
+apiname: 
+-	FsRtlQueryKernelEaFile
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # FsRtlQueryKernelEaFile function
 
 
-
 ## -description
+
+
 The routine <b>FsRtlQueryKernelEaFile</b> is used to build an explicit QueryEA request and synchronously wait
     for it to complete, returning the result. This allows the caller to do
     this by FileObject instead of a handle.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FsRtlQueryKernelEaFile(
@@ -63,6 +73,9 @@ NTSTATUS FsRtlQueryKernelEaFile(
 
 
 ## -parameters
+
+
+
 
 ### -param FileObject [in]
 
@@ -115,39 +128,77 @@ Specifies the amount of valid data that is returned in the
 
 
 ## -returns
+
+
 The routine <b>FsRtlQueryKernelEaFile</b> returns one of the status codes:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_EAS_NOT_SUPPORTED </b></dt>
-</dl>The file system does not support extended attributes.
+</dl>
+</td>
+<td width="60%">
+The file system does not support extended attributes.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>The request failed as it was a direct device open.
+</dl>
+</td>
+<td width="60%">
+The request failed as it was a direct device open.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>The  I/O request packet (IRP) could not be allocated for this request.
+</dl>
+</td>
+<td width="60%">
+The  I/O request packet (IRP) could not be allocated for this request.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The request was successful.
+</dl>
+</td>
+<td width="60%">
+The request was successful.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 This routine <b>FsRtlQueryKernelEaFile </b>assumes all passed in buffers are from kernel mode as it  requires that the given Input and Output buffers if specified, be kernel mode addresses.  The operation will fail if a user mode address is specified. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/E5EA2E40-2CC3-4C7B-8BCC-4793F76ECBAD">FsRtlSetKernelEaFile</a>
-</dt>
-<dt>
-<a href="..\ntifs\nf-ntifs-zwqueryeafile.md">ZwQueryEaFile</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff961908">ZwSetEaFile</a>
-</dt>
-</dl>
+
+<a href="..\ntifs\nf-ntifs-zwqueryeafile.md">ZwQueryEaFile</a>
+
  
 
  

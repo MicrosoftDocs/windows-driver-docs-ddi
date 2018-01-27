@@ -7,8 +7,8 @@ old-location: netvista\wwan_registration_state.htm
 old-project: netvista
 ms.assetid: 72a41403-9e22-4212-955a-16e243f7af1d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WWAN_REGISTRATION_STATE, *PWWAN_REGISTRATION_STATE, WWAN_REGISTRATION_STATE
+ms.date: 1/18/2018
+ms.keywords: WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], WWAN_REGISTRATION_STATE, PWWAN_REGISTRATION_STATE, netvista.wwan_registration_state, wwan/WWAN_REGISTRATION_STATE, *PWWAN_REGISTRATION_STATE, wwan/PWWAN_REGISTRATION_STATE, _WWAN_REGISTRATION_STATE, WwanRef_ff7f3a8a-853b-43e3-95fb-ed4320806ad2.xml, PWWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 8 and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WWAN_REGISTRATION_STATE
-req.alt-loc: wwan.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PWWAN_REGISTRATION_STATE, WWAN_REGISTRATION_STATE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wwan.h
+apiname: 
+-	WWAN_REGISTRATION_STATE
+product: Windows
+targetos: Windows
+req.typenames: WWAN_REGISTRATION_STATE, *PWWAN_REGISTRATION_STATE
 req.product: Windows 10 or later.
 ---
 
 # _WWAN_REGISTRATION_STATE structure
 
 
-
 ## -description
+
+
 The WWAN_REGISTRATION_STATE structure represents the registration state of the MB device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WWAN_REGISTRATION_STATE {
@@ -61,6 +71,9 @@ typedef struct _WWAN_REGISTRATION_STATE {
 
 
 ## -struct-fields
+
+
+
 
 ### -field uNwError
 
@@ -150,7 +163,6 @@ This text should provide additional information to the user when the registratio
 ### -field WwanRegFlags
 
 Registration flags.
-
 <table>
 <tr>
 <th>Value</th>
@@ -186,8 +198,7 @@ Iindicates that the MB device manages its own packet context. The MB Service wil
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field CurrentCellularClass
@@ -196,6 +207,8 @@ The current cellular class of the registered network. For networks that only sup
 
 
 ## -remarks
+
+
 <i>Query</i> and 
     <i>set</i> OID requests as well as unsolicited status events use the 
     <b>uNwError</b> member. If there is no network specific error or the network specific error is not known,
@@ -207,19 +220,24 @@ The current cellular class of the registered network. For networks that only sup
 
 The following points provide guidelines on returning network specific error in different
     scenarios:
-
+<ul>
+<li>
 If network registration fails because of network specific error, miniport drivers should return the
       network specific error in response to 
       <i>query</i> requests. In this case, miniport drivers should set the 
       <b>uStatus</b> member of the NDIS_WWAN_REGISTRATION_STATE structure to WWAN_STATUS_SUCCESS and set the 
       <b>uNwError</b> member to the network specific error code.
 
+</li>
+<li>
 If a 
       <i>set</i> request fails, miniport drivers should return the network specific error code. In this case,
       miniport drivers should set the 
       <b>uStatus</b> member of the NDIS_WWAN_REGISTRATION_STATE structure to WWAN_STATUS_FAILURE and set the 
       <b>uNwError</b> member to the network specific error code.
 
+</li>
+<li>
 Whenever the device registration state changes because the network de-registers the device (for
       example, the network de-registered the device because the device's subscription expired) then
       unsolicited status events should include the network specific error. In this case, the miniport driver
@@ -227,7 +245,8 @@ Whenever the device registration state changes because the network de-registers 
       <b>uStatus</b> member of the NDIS_WWAN_REGISTRATION_STATE structure to WWAN_STATUS_SUCCESS and set the 
       <b>uNwError</b> member to the network specific error code.
 
-To return a network specific error when processing OID_WWAN_REGISTER_STATE requests, miniport drivers
+</li>
+</ul>To return a network specific error when processing OID_WWAN_REGISTER_STATE requests, miniport drivers
     should set the 
     <b>uStatus</b> member of the NDIS_WWAN_REGISTRATION_STATE structure to WWAN_STATUS_FAILURE and set the 
     <b>uNwError</b> member to the network specific error code.
@@ -245,21 +264,18 @@ Miniport drivers must report the cause code at the earliest possible instance. F
 Miniport drivers connected to a multi-mode network should indicate the cellular class change through a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567857">NDIS_STATUS_WWAN_REGISTER_STATE</a> notification.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wwan\ne-wwan-_wwan_register_state.md">WWAN_REGISTER_STATE</a>
-</dt>
-<dt>
-<a href="..\wwan\ne-wwan-_wwan_register_mode.md">WWAN_REGISTER_MODE</a>
-</dt>
-<dt>
+
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_registration_state.md">NDIS_WWAN_REGISTRATION_STATE</a>
-</dt>
-</dl>
- 
+
+<a href="..\wwan\ne-wwan-_wwan_register_state.md">WWAN_REGISTER_STATE</a>
+
+<a href="..\wwan\ne-wwan-_wwan_register_mode.md">WWAN_REGISTER_MODE</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_REGISTRATION_STATE structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_REGISTRATION_STATE structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

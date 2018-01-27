@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4af94bc4-9df3-4b37-a810-303748cc4b75
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDisableEvent
+ms.keywords: stream.ksdisableevent, KsDisableEvent function [Streaming Media Devices], ks/KsDisableEvent, KsDisableEvent, ksfunc_e430d502-c847-43ee-bdea-d53200f45e53.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsDisableEvent
-req.alt-loc: Ks.lib,Ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	Ks.lib
+-	Ks.dll
+apiname: 
+-	KsDisableEvent
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsDisableEvent function
 
 
-
 ## -description
+
+
 The <b>KsDisableEvent </b>function disables events requested through IOCTL_KS_DISABLE_EVENT. It responds to all events previously enabled through <b>KsEnableEvent</b>. If the input buffer length is zero, it is assumed that all events on the list are to be disabled. This function can only be called at PASSIVE_LEVEL.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS KsDisableEvent(
@@ -56,6 +67,9 @@ NTSTATUS KsDisableEvent(
 
 
 ## -parameters
+
+
+
 
 ### -param Irp [in]
 
@@ -78,19 +92,23 @@ Used to synchronize access to an element on the list. After the element has been
 
 
 ## -returns
+
+
 The <b>KsDisableEvent </b>function returns STATUS_SUCCESS if successful, or an error specific to the event being enabled. The function always sets the IO_STATUS_BLOCK.Information field of the PIRP.IoStatus element within the IRP to zero. It does not set the IO_STATUS_BLOCK.Status field, nor does it complete the IRP.
 
 
+
 ## -remarks
+
+
 It is important that the remove handler synchronize with event generation to ensure that when the event is removed from the list, it is not currently being serviced. Access to this list is assumed to be controlled with the lock passed. 
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\nf-ks-ksenableevent.md">KsEnableEvent</a>
-</dt>
-</dl>
+
  
 
  

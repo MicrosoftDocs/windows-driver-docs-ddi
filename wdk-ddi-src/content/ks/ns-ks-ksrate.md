@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: dc8f23d5-14bb-43be-807a-041ca9c30a76
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSRATE, KSRATE, *PKSRATE
+ms.keywords: *PKSRATE, ks/PKSRATE, stream.ksrate, KSRATE structure [Streaming Media Devices], ks/KSRATE, PKSRATE, KSRATE, PKSRATE structure pointer [Streaming Media Devices], ks-struct_a47aa4cc-ff36-4a02-bd68-63c7ed450279.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KSRATE
-req.alt-loc: ks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: KSRATE, *PKSRATE
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ks.h
+apiname: 
+-	KSRATE
+product: Windows
+targetos: Windows
+req.typenames: *PKSRATE, KSRATE
 ---
 
 # KSRATE structure
 
 
-
 ## -description
+
+
 The query is passed a KSRATE structure appended to the property containing the rate request (known as a <a href="..\ks\ns-ks-ksrate_capability.md">KSRATE_CAPABILITY</a> structure), and is returned a KSRATE structure filled in with the capability given the rate request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct {
@@ -57,6 +67,9 @@ typedef struct {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PresentationStart
 
@@ -81,7 +94,6 @@ Specifies the rate in terms of 1/10th percentage points, where 1000 is the nomin
 ### -field Flags
 
 Possible flag values are listed in the following table.
-
 <table>
 <tr>
 <th>Flag</th>
@@ -107,19 +119,13 @@ Specifies that there is no valid duration in this rate change request or query.
 
 </td>
 </tr>
-</table>
- 
-
-
-## -remarks
+</table> 
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\ns-ks-ksrate_capability.md">KSRATE_CAPABILITY</a>
-</dt>
-</dl>
+
  
 
  

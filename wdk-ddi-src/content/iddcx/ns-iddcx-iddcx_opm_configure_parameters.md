@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88d8171f-8ed4-40af-8c05-7421895dca26
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_OPM_CONFIGURE_PARAMETERS,
+ms.keywords: IDDCX_OPM_CONFIGURE_PARAMETERS structure [Display Devices], iddcx/IDDCX_OPM_CONFIGURE_PARAMETERS, display.iddcx_opm_configure_parameters, IDDCX_OPM_CONFIGURE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IDDCX_OPM_CONFIGURE_PARAMETERS
-req.alt-loc: iddcx.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iddcx.h
+apiname: 
+-	IDDCX_OPM_CONFIGURE_PARAMETERS
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # IDDCX_OPM_CONFIGURE_PARAMETERS structure
 
 
-
 ## -description
+
+
 Gives information about the OPM configure parameters.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct IDDCX_OPM_CONFIGURE_PARAMETERS {
@@ -54,6 +64,9 @@ typedef struct IDDCX_OPM_CONFIGURE_PARAMETERS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -68,5 +81,3 @@ typedef struct IDDCX_OPM_CONFIGURE_PARAMETERS {
                      Configuration parameters.
                  
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 7EA6E82C-D803-48CD-9955-CF576BF978CA
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _IRB_REQ_ISOCH_ATTACH_BUFFERS, IRB_REQ_ISOCH_ATTACH_BUFFERS
+ms.keywords: 1394/IRB_REQ_ISOCH_ATTACH_BUFFERS, _IRB_REQ_ISOCH_ATTACH_BUFFERS, IRB_REQ_ISOCH_ATTACH_BUFFERS structure [Buses], IRB_REQ_ISOCH_ATTACH_BUFFERS, IEEE.irb_req_isoch_attach_buffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IRB_REQ_ISOCH_ATTACH_BUFFERS
-req.alt-loc: 1394.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	1394.h
+apiname: 
+-	IRB_REQ_ISOCH_ATTACH_BUFFERS
+product: Windows
+targetos: Windows
 req.typenames: IRB_REQ_ISOCH_ATTACH_BUFFERS
 ---
 
 # _IRB_REQ_ISOCH_ATTACH_BUFFERS structure
 
 
-
 ## -description
+
+
 This structure contains the fields required for the 1394 bus driver to carry out a IsochAttachBuffers request.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _IRB_REQ_ISOCH_ATTACH_BUFFERS {
@@ -55,6 +65,9 @@ typedef struct _IRB_REQ_ISOCH_ATTACH_BUFFERS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hResource
 
@@ -70,5 +83,3 @@ Specifies the number of elements in the <b>pIsochDescriptor</b> array.
 
 Points to an array of ISOCH_DESCRIPTOR structures that describe the buffers to be attached, and the parameters that specify how each buffer is to be used.
 
-
-## -remarks

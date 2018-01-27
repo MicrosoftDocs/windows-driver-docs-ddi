@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 51fb1993-b9f3-436a-9a6d-7d4f9bf26083
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_INVALIDATEACTIVEVIDPN, D3DKMT_INVALIDATEACTIVEVIDPN
+ms.keywords: D3DKMT_INVALIDATEACTIVEVIDPN structure [Display Devices], _D3DKMT_INVALIDATEACTIVEVIDPN, d3dkmthk/D3DKMT_INVALIDATEACTIVEVIDPN, display.d3dkmt_invalidateactivevidpn, OpenGL_Structs_6610529b-39db-4fc4-981a-96a6b3bf7543.xml, D3DKMT_INVALIDATEACTIVEVIDPN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_INVALIDATEACTIVEVIDPN
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_INVALIDATEACTIVEVIDPN
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_INVALIDATEACTIVEVIDPN
 ---
 
 # _D3DKMT_INVALIDATEACTIVEVIDPN structure
 
 
-
 ## -description
+
+
 The D3DKMT_INVALIDATEACTIVEVIDPN structure describes parameters that invalidate the active video present network (VidPN) currently in use. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_INVALIDATEACTIVEVIDPN {
@@ -55,6 +65,9 @@ typedef struct _D3DKMT_INVALIDATEACTIVEVIDPN {
 
 
 ## -struct-fields
+
+
+
 
 ### -field hAdapter
 
@@ -71,15 +84,10 @@ typedef struct _D3DKMT_INVALIDATEACTIVEVIDPN {
 [in] The size, in bytes, of the buffer that <b>pPrivateDriverData</b> points to.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtinvalidateactivevidpn.md">D3DKMTInvalidateActiveVidPn</a>
-</dt>
-</dl>
+
  
 
  

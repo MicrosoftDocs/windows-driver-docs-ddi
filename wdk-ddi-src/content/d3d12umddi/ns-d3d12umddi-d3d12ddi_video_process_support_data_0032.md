@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ea2dabc5-6853-4491-8c1f-f3f5ae516952
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032, D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032
+ms.keywords: display.d3d12ddi-video-process-support-data-0032, d3d12umddi/D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032, D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032 structure [Display Devices], D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032
-req.alt-loc: d3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3d12umddi.h
+apiname: 
+-	D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032
 ---
 
 # D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032 structure
 
 
-
 ## -description
+
+
 Video process support data.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032 {
@@ -67,6 +77,9 @@ typedef struct _D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NodeIndex
 
@@ -142,5 +155,3 @@ Filter support.
 
 Filter range support.
 
-
-## -remarks

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c2c96663-df1b-4310-b51e-177e353bb059
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest2, IWDFIoRequest2::RetrieveOutputBuffer, RetrieveOutputBuffer
+ms.keywords: wudfddi/IWDFIoRequest2::RetrieveOutputBuffer, RetrieveOutputBuffer method, UMDFRequestObjectRef_895f34da-95f3-4256-a049-0221887da5e1.xml, wdf.iwdfiorequest2_retrieveoutputbuffer, umdf.iwdfiorequest2_retrieveoutputbuffer, RetrieveOutputBuffer, IWDFIoRequest2, RetrieveOutputBuffer method, IWDFIoRequest2 interface, IWDFIoRequest2 interface, RetrieveOutputBuffer method, IWDFIoRequest2::RetrieveOutputBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.9
-req.alt-api: IWDFIoRequest2.RetrieveOutputBuffer
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFIoRequest2.RetrieveOutputBuffer
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # IWDFIoRequest2::RetrieveOutputBuffer method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md">RequestRetrieveOutputBuffer</a> method retrieves an I/O request's output buffer.
 
 
-
 ## -syntax
+
 
 ````
 HRESULT RetrieveOutputBuffer(
@@ -58,6 +68,9 @@ HRESULT RetrieveOutputBuffer(
 
 
 ## -parameters
+
+
+
 
 ### -param MinimumRequiredCb [in]
 
@@ -76,15 +89,37 @@ A pointer to a location that receives the buffer's size, in bytes. This paramete
 
 ## -returns
 
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md">RequestRetrieveOutputBuffer</a> returns S_OK if the operation succeeds. Otherwise, this method can return the following value:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)</b></dt>
-</dl>The I/O request did not provide an output buffer, or the size of the output buffer is less than the minimum size that <i>MinimumRequiredCb</i> specifies.
+</dl>
+</td>
+<td width="60%">
+The I/O request did not provide an output buffer, or the size of the output buffer is less than the minimum size that <i>MinimumRequiredCb</i> specifies.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>E_OUTOFMEMORY</b></dt>
-</dl>Not enough memory is available to retrieve the buffer. The driver should complete the request with an error status value.
+</dl>
+</td>
+<td width="60%">
+Not enough memory is available to retrieve the buffer. The driver should complete the request with an error status value.
 
- 
+</td>
+</tr>
+</table> 
 
 This method might return one of the other values that Winerror.h contains.
 
@@ -93,10 +128,13 @@ This method might return one of the other values that Winerror.h contains.
 
 
 
+
 ## -remarks
+
+
 A request's output buffer receives information, such as data from a disk, that the driver provides to the originator of the request. Your driver can call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md">RequestRetrieveOutputBuffer</a> to obtain the output buffer for a read request or a device I/O control request, but not for a write request (because write requests do not provide output data).
 
-The <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md">RequestRetrieveOutputBuffer</a> method retrieves the output buffer for I/O requests that use the <a href="wdf.accessing_data_buffers_in_umdf_drivers#using_buffered_i_o_in_umdf_drivers#using_buffered_i_o_in_umdf_drivers">buffered I/O</a> or <a href="wdf.accessing_data_buffers_in_umdf_drivers#using_direct_i_o_in_umdf_drivers#using_direct_i_o_in_umdf_drivers">direct I/O</a> method for accessing data buffers.
+The <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md">RequestRetrieveOutputBuffer</a> method retrieves the output buffer for I/O requests that use the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">buffered I/O</a> or <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">direct I/O</a> method for accessing data buffers.
 
 If <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md">RequestRetrieveOutputBuffer</a> returns S_OK, the driver receives the address and, optionally, the size of the output buffer. 
 
@@ -106,30 +144,22 @@ Instead of calling <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutput
 
 For more information about accessing an I/O request's data buffers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in UMDF-Based Drivers</a>.
 
-The following code example shows a segment of a serial port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556854">IQueueCallbackDeviceIoControl::OnDeviceIoControl</a> callback function. The code segment obtains the I/O request's output buffer and then transfers baud rate information from the device to the buffer.
 
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559033">IWDFIoRequest2::RetrieveInputBuffer</a>
-</dt>
-<dt>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559037">IWDFIoRequest2::RetrieveInputMemory</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559046">IWDFIoRequest2::RetrieveOutputMemory</a>
-</dt>
-</dl>
+
  
 
  

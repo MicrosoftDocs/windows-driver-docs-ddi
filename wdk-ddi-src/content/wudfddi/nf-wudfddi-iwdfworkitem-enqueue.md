@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 61A889D5-122F-4091-90D6-EDD43D52A14A
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFWorkItem, IWDFWorkItem::Enqueue, Enqueue
+ms.keywords: wdf.iwdfworkitem_enqueue, wudfddi/IWDFWorkItem::Enqueue, Enqueue method, IWDFWorkItem interface, umdf.iwdfworkitem_enqueue, IWDFWorkItem, IWDFWorkItem::Enqueue, Enqueue method, Enqueue, IWDFWorkItem interface, Enqueue method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 1.11
-req.alt-api: IWDFWorkItem.Enqueue
-req.alt-loc: WUDFx.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	WUDFx.dll
+apiname: 
+-	IWDFWorkItem.Enqueue
+product: Windows
+targetos: Windows
 req.typenames: *PPOWER_ACTION, POWER_ACTION
 req.product: Windows 10 or later.
 ---
@@ -38,8 +47,9 @@ req.product: Windows 10 or later.
 # IWDFWorkItem::Enqueue method
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
@@ -47,8 +57,8 @@ req.product: Windows 10 or later.
   
 
 
-
 ## -syntax
+
 
 ````
 void Enqueue();
@@ -58,15 +68,19 @@ void Enqueue();
 ## -parameters
 
 
+
+
+
 ## -returns
-This method does not return a value.
+
 
 This method does not return a value.
 
-This method does not return a value.
 
 
 ## -remarks
+
+
 If your driver reuses its work-item objects, the driver can call <b>Enqueue</b> again for the same work item before a worker thread has removed the work item from the queue and called the driver’s <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a> callback function.
 
  However, UMDF won't add the work item to the queue if it is already there. Therefore, your <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a> callback function must process all queued work each time that it is called.
@@ -74,15 +88,13 @@ If your driver reuses its work-item objects, the driver can call <b>Enqueue</b> 
 For more information, see <a href="https://msdn.microsoft.com/4617A33F-9026-45FF-9CC2-7215423E6D35">Using Work Items</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a>
-</dt>
-<dt>
+
 <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a>
-</dt>
-</dl>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a>
+
  
 
  

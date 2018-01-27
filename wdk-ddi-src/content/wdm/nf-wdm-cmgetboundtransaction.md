@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f38a5ad6-6816-4b27-98ea-51ac1453d90f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: CmGetBoundTransaction
+ms.keywords: kernel.cmgetboundtransaction, ConfigMgrRef_bf8b79d4-04cf-4cd2-b25c-4e59c63f0b86.xml, wdm/CmGetBoundTransaction, CmGetBoundTransaction routine [Kernel-Mode Driver Architecture], CmGetBoundTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CmGetBoundTransaction
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	CmGetBoundTransaction
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # CmGetBoundTransaction function
 
 
-
 ## -description
+
+
 The <b>CmGetBoundTransaction</b> routine returns a pointer to the transaction object that represents the <a href="https://msdn.microsoft.com/b558ace9-b416-4572-ac94-58a083c9d33b">transaction</a>, if any, that is associated with a specified registry key object. 
 
 
-
 ## -syntax
+
 
 ````
 PVOID CmGetBoundTransaction(
@@ -55,6 +65,9 @@ PVOID CmGetBoundTransaction(
 
 
 ## -parameters
+
+
+
 
 ### -param Cookie [in]
 
@@ -67,10 +80,15 @@ The pointer value that the driver's <a href="https://msdn.microsoft.com/library/
 
 
 ## -returns
+
+
 <b>CmGetBoundTransaction</b> returns a pointer to a transaction object, if the key object that the <i>Object</i> parameter specifies is associated with a transaction. Otherwise, the routine returns <b>NULL</b>. 
 
 
+
 ## -remarks
+
+
 The <b>CmGetBoundTransaction</b> routine is available on Windows Vista and later versions of Windows.
 
 For more information about <b>CmGetBoundTransaction</b> and filtering registry operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
@@ -78,18 +96,15 @@ For more information about <b>CmGetBoundTransaction</b> and filtering registry o
 For more information about transactions, see <a href="https://msdn.microsoft.com/b558ace9-b416-4572-ac94-58a083c9d33b">Kernel Transaction Manager Design Guide</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
+
  
 
  

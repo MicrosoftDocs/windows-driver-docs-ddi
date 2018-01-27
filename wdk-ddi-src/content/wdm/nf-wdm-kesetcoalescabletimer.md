@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e053c120-8c43-4714-acf1-0648958eabb8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeSetCoalescableTimer
+ms.keywords: wdm/KeSetCoalescableTimer, KeSetCoalescableTimer, kernel.kesetcoalescabletimer, KeSetCoalescableTimer routine [Kernel-Mode Driver Architecture], k105_3e45ae54-682d-47f6-a577-28277cee4829.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 7.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KeSetCoalescableTimer
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	KeSetCoalescableTimer
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # KeSetCoalescableTimer function
 
 
-
 ## -description
+
+
 The <b>KeSetCoalescableTimer</b> routine sets the initial expiration time and period of a timer object and specifies how much delay can be tolerated in the expiration times. 
 
 
-
 ## -syntax
+
 
 ````
 BOOLEAN KeSetCoalescableTimer(
@@ -58,6 +68,9 @@ BOOLEAN KeSetCoalescableTimer(
 
 
 ## -parameters
+
+
+
 
 ### -param Timer [in, out]
 
@@ -85,21 +98,34 @@ A pointer to a DPC object. This parameter points to a <a href="https://msdn.micr
 
 
 ## -returns
+
+
 <b>KeSetCoalescableTimer</b> returns <b>TRUE</b> if the timer object was already in the system timer queue. Otherwise, it returns <b>FALSE</b>. 
 
 
-## -remarks
-This routine does the following:
 
+## -remarks
+
+
+This routine does the following:
+<ul>
+<li>
 Sets the timer to a nonsignaled state.
 
+</li>
+<li>
 Associates the timer with the DPC, if a DPC is specified.
 
+</li>
+<li>
 Cancels the timer if it is already active.
 
+</li>
+<li>
 Makes the timer active and sets the due time and period of the timer to the specified values. The timer can expire immediately if the specified due time has already passed.
 
-The <a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a> routine is similar to <b>KeSetCoalescableTimer</b> but does not accept a <i>TolerableDelay</i> parameter. The <i>TolerableDelay</i> parameter of <b>KeSetCoalescableTimer</b> enables the caller to specify a tolerance for the timer period. A call to <b>KeSetCoalescableTimer</b> with <i>TolerableDelay</i> = 0 is the same as a call to <b>KeSetTimerEx</b>. In many instances, developers can easily modify existing drivers by replacing calls to <b>KeSetTimerEx</b> with calls to <b>KeSetCoalescableTimer</b>.
+</li>
+</ul>The <a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a> routine is similar to <b>KeSetCoalescableTimer</b> but does not accept a <i>TolerableDelay</i> parameter. The <i>TolerableDelay</i> parameter of <b>KeSetCoalescableTimer</b> enables the caller to specify a tolerance for the timer period. A call to <b>KeSetCoalescableTimer</b> with <i>TolerableDelay</i> = 0 is the same as a call to <b>KeSetTimerEx</b>. In many instances, developers can easily modify existing drivers by replacing calls to <b>KeSetTimerEx</b> with calls to <b>KeSetCoalescableTimer</b>.
 
 If two <b>KeSetCoalescableTimer</b> calls specify the same timer object, and the second call occurs before the <i>DueTime</i> that is specified for the first call expires, the second call implicitly cancels the timer from the first call. However, if a timer expiration from the first call has already enabled a DPC to run, the DPC might run after the timer is canceled. The second call replaces the pending expiration time from the first call with a new expiration time, and activates the timer again.
 
@@ -109,7 +135,7 @@ If the <i>Dpc</i> parameter is non-<b>NULL</b>, the routine creates an associati
 
 Only one instance of a particular DPC object can be in the system DPC queue at a time. To avoid potential race conditions, avoid passing the same DPC object to both the <b>KeSetCoalescableTimer</b> and <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a> routines.
 
-Avoid changing the importance or the target processor of a DPC that is associated with an active timer. Either cancel the timer or make sure that the timer has expired before you call a routine such as <a href="..\ntddk\nf-ntddk-kesetimportancedpc.md">KeSetImportanceDpc</a> or <a href="..\wdm\nf-wdm-kesettargetprocessordpcex.md">KeSetTargetProcessorDpcEx</a> to change the DPC settings. For example, if a driver updates the target processor of a DPC while a timer enables the DPC to run, the DPC might run on an arbitrary processor.
+Avoid changing the importance or the target processor of a DPC that is associated with an active timer. Either cancel the timer or make sure that the timer has expired before you call a routine such as <a href="..\wdm\nf-wdm-kesetimportancedpc.md">KeSetImportanceDpc</a> or <a href="..\wdm\nf-wdm-kesettargetprocessordpcex.md">KeSetTargetProcessorDpcEx</a> to change the DPC settings. For example, if a driver updates the target processor of a DPC while a timer enables the DPC to run, the DPC might run on an arbitrary processor.
 
 A periodic timer automatically restarts as soon as it expires. Therefore, in a multiprocessor system, the DPC for a periodic timer might be running on two or more processors at the same time.
 
@@ -128,45 +154,33 @@ Expiration times are measured relative to the system clock, and the accuracy wit
 For more information about timer objects, see <a href="https://msdn.microsoft.com/b58487de-6e9e-45f4-acb8-9233c8718ee2">Timer Objects and DPCs</a>. For more information about timer coalescing, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=116598">Windows Timer Coalescing</a> white paper on the WHDC website. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keflushqueueddpcs.md">KeFlushQueuedDpcs</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-kesetimportancedpc.md">KeSetImportanceDpc</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kesettargetprocessordpcex.md">KeSetTargetProcessorDpcEx</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
-</dt>
-<dt>
+
+<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
+
+<a href="..\wdm\nf-wdm-kesetimportancedpc.md">KeSetImportanceDpc</a>
+
+<a href="..\wdm\nf-wdm-keflushqueueddpcs.md">KeFlushQueuedDpcs</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554250">KTIMER</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+
+<a href="..\wdm\nf-wdm-kesettargetprocessordpcex.md">KeSetTargetProcessorDpcEx</a>
+
+<a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
+
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
  
 
  

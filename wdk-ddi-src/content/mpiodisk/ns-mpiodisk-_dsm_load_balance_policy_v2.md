@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b1522320-110c-46dc-be50-df7c05d61351
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DSM_Load_Balance_Policy_V2, *PDSM_Load_Balance_Policy_V2, DSM_Load_Balance_Policy_V2
+ms.keywords: storage.dsm_load_balance_policy_v2, mpiodisk/PDSM_Load_Balance_Policy_V2, PDSM_Load_Balance_Policy_V2, DSM_Load_Balance_Policy_V2, structs-scsibus_f53c7618-49ab-452b-97e7-402d9392a419.xml, PDSM_Load_Balance_Policy_V2 structure pointer [Storage Devices], *PDSM_Load_Balance_Policy_V2, mpiodisk/DSM_Load_Balance_Policy_V2, DSM_Load_Balance_Policy_V2 structure [Storage Devices], _DSM_Load_Balance_Policy_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DSM_Load_Balance_Policy_V2
-req.alt-loc: mpiodisk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PDSM_Load_Balance_Policy_V2, DSM_Load_Balance_Policy_V2
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	mpiodisk.h
+apiname: 
+-	DSM_Load_Balance_Policy_V2
+product: Windows
+targetos: Windows
+req.typenames: DSM_Load_Balance_Policy_V2, *PDSM_Load_Balance_Policy_V2
 ---
 
 # _DSM_Load_Balance_Policy_V2 structure
 
 
-
 ## -description
+
+
 The DSM_Load_Balance_Policy_V2 structure is used to represent a load balance policy that is applied to a LUN. It is similar to the DSM_Load_Balance_Policy structure, except that it uses the MPIO_DSM_Path_V2 structure to capture and expose path information.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _DSM_Load_Balance_Policy_V2 {
@@ -57,6 +67,9 @@ typedef struct _DSM_Load_Balance_Policy_V2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Version
 
@@ -82,5 +95,3 @@ Should be zero.
 
 An array of MPIO_DSM_Path_V2 structures that represent path attributes for each of the LUN's instances.
 
-
-## -remarks

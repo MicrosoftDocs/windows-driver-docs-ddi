@@ -7,8 +7,8 @@ old-location: netvista\fwpsreassembleforwardfragmentgroup0.htm
 old-project: netvista
 ms.assetid: 00322dbf-0099-439a-8d65-bf530129cea1
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: FwpsReassembleForwardFragmentGroup0
+ms.date: 1/18/2018
+ms.keywords: FwpsReassembleForwardFragmentGroup0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_R-Z_354e1536-de02-474d-b99f-b5d81875aecd.xml, fwpsk/FwpsReassembleForwardFragmentGroup0, FwpsReassembleForwardFragmentGroup0, netvista.fwpsreassembleforwardfragmentgroup0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Server 2008.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FwpsReassembleForwardFragmentGroup0
-req.alt-loc: fwpkclnt.lib,fwpkclnt.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,34 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	fwpkclnt.lib
+-	fwpkclnt.dll
+apiname: 
+-	FwpsReassembleForwardFragmentGroup0
+product: Windows
+targetos: Windows
 req.typenames: FWPS_VSWITCH_EVENT_TYPE
 ---
 
 # FwpsReassembleForwardFragmentGroup0 function
 
 
-
 ## -description
+
+
 The 
   <b>FwpsReassembleForwardFragmentGroup0</b> function assembles a list of IP fragments in the forwarding data
   path into a single packet.
-
-
+<div class="alert"><b>Note</b>  <b>FwpsReassembleForwardFragmentGroup0</b> is a specific version of <b>FwpsReassembleForwardFragmentGroup</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -syntax
+
 
 ````
 NTSTATUS NTAPI FwpsReassembleForwardFragmentGroup0(
@@ -61,6 +72,9 @@ NTSTATUS NTAPI FwpsReassembleForwardFragmentGroup0(
 
 ## -parameters
 
+
+
+
 ### -param addressFamily [in]
 
 One of the following address families:
@@ -68,18 +82,6 @@ One of the following address families:
 
 
 
-
-### -param AF_INET
-
-The IPv4 address family.
-
-
-### -param AF_INET6
-
-The IPv6 address family.
-
-</dd>
-</dl>
 
 ### -param fragmentGroupNblChain [in, out]
 
@@ -94,8 +96,8 @@ A pointer to the
 An optional 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure pool handle that
      was previously returned from the 
-     <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
-     NdisAllocateNetBufferListPool</a> function. The 
+     <mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
+     NdisAllocateNetBufferListPool</b></mshelp:link> function. The 
      <b>fAllocateNetBuffer</b> member of the 
      <a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure that the caller passed to 
      <b>NdisAllocateNetBufferListPool</b> must have been set to <b>TRUE</b>, and the 
@@ -121,27 +123,70 @@ A pointer to a
      address of the reassembled single network buffer list.
 
 
+##### - addressFamily.AF_INET6
+
+The IPv6 address family.
+
+
+##### - addressFamily.AF_INET
+
+The IPv4 address family.
+
+
 ## -returns
+
+
 The 
      <b>FwpsReassembleForwardFragmentGroup0</b> function returns one of the following NTSTATUS codes.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The list of IP fragments was successfully reassembled into a single 
+</dl>
+</td>
+<td width="60%">
+The list of IP fragments was successfully reassembled into a single 
        <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FWP_TCPIP_NOT_READY</b></dt>
-</dl>The TCP/IP network stack is not ready to perform packet reassembly. This error can occur if this
+</dl>
+</td>
+<td width="60%">
+The TCP/IP network stack is not ready to perform packet reassembly. This error can occur if this
        function is called before 
        Tcpip.sys is loaded, or after 
        Tcpip.sys has been unloaded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>Other status codes</b></dt>
-</dl>An error occurred.
+</dl>
+</td>
+<td width="60%">
+An error occurred.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 The 
     <b>FwpsReassembleForwardFragmentGroup0</b> function assembles a list of IP fragments in the forwarding
     data path, described by a 
@@ -172,31 +217,25 @@ Because
     callouts to reference or clone the chain prior to calling this function.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-</dt>
-<dt>
-<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
-</dt>
-<dt>
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
-   NdisAllocateNetBufferListPool</a>
-</dt>
-<dt>
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-</dt>
-<dt>
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-</dt>
-<dt>
+
 <a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
-</dt>
-</dl>
- 
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
+
+<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
+   NdisAllocateNetBufferListPool</b></mshelp:link>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsReassembleForwardFragmentGroup0 function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsReassembleForwardFragmentGroup0 function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

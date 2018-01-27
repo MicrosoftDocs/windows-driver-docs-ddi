@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9e88a94d-ce25-43ee-8187-30b406e8d9e4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMasterClock, IMasterClock::GetTime, GetTime
+ms.keywords: IMasterClock, GetTime, GetTime method [Audio Devices], audio.imasterclock_gettime, IMasterClock interface [Audio Devices], GetTime method, dmusicks/IMasterClock::GetTime, audmp-routines_08af6e05-c432-4560-91fb-f17687291fc0.xml, GetTime method [Audio Devices], IMasterClock interface, IMasterClock::GetTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IMasterClock.GetTime
-req.alt-loc: dmusicks.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,22 +26,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: dmusicks.h
 req.dll: 
 req.irql: Any level
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	COM
+apilocation: 
+-	dmusicks.h
+apiname: 
+-	IMasterClock.GetTime
+product: Windows
+targetos: Windows
 req.typenames: DMUS_STREAM_TYPE
 ---
 
 # IMasterClock::GetTime method
 
 
-
 ## -description
+
+
 The <code>GetTime</code> method retrieves the current reference time read from the master clock.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS GetTime(
@@ -54,27 +64,33 @@ NTSTATUS GetTime(
 
 ## -parameters
 
-### -param prtTime [out]
+
+
+
+### -param pTime
+
+
+
+
+
+#### - prtTime [out]
 
 Output pointer for the reference time. This parameter points to a caller-allocated variable into which the method writes the reference time. Reference time is measured in 100-nanosecond units.
 
 
 ## -returns
+
+
 <code>GetTime</code> returns S_OK if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
-<a href="..\dmusicks\nn-dmusicks-imasterclock.md">IMasterClock</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536701">IMiniportDMus::NewStream</a>
-</dt>
-</dl>
+
+<a href="..\dmusicks\nn-dmusicks-imasterclock.md">IMasterClock</a>
+
  
 
  

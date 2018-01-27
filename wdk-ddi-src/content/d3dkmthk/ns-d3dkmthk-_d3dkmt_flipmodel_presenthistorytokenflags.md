@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 61901e06-fefd-4481-9f19-60ead55bbe36
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS
+ms.keywords: d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, display.d3dkmt_flipmodel_presenthistorytokenflags, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure [Display Devices], D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, OpenGL_Structs_1ffd61bb-ba0b-4ee5-95af-d8c7e38c0b15.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Supported starting with Windows 7.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS
-req.alt-loc: d3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmthk.h
+apiname: 
+-	D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS
 ---
 
 # _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure
 
 
-
 ## -description
+
+
 The D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure identifies attributes of a flip present-history operation.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS {
@@ -71,6 +81,9 @@ typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Video
 
@@ -122,13 +135,9 @@ Setting this member is equivalent to setting the    sixth bit of the 32-bit <b>V
 Supported starting with Windows 8.
 
 
-### -field ScatterBlt
+### -field HDRMetaDataChanged
 
-This member is reserved for system use and should be set to zero.
-
-Setting this member is equivalent to setting the    seventh bit of the 32-bit <b>Value</b> member (0x00000040).
-
-Supported starting with Windows 8.
+ 
 
 
 ### -field AlphaMode
@@ -149,14 +158,71 @@ Setting this member is equivalent to setting the    tenth bit of the 32-bit <b>V
 Supported starting with Windows 8.
 
 
+### -field YCbCrFlags
+
+ 
+
+
+### -field IndependentFlip
+
+ 
+
+
+### -field IndependentFlipStage
+
+ 
+
+
+### -field IndependentFlipReleaseCount
+
+ 
+
+
+### -field IndependentFlipForceNotifyDwm
+
+ 
+
+
+### -field UseCustomDuration
+
+ 
+
+
+### -field IndependentFlipRequestDwmConfirm
+
+ 
+
+
+### -field IndependentFlipCandidate
+
+ 
+
+
+### -field IndependentFlipCheckNeeded
+
+ 
+
+
+### -field IndependentFlipTrueImmediate
+
+ 
+
+
+### -field IndependentFlipRequestDwmExit
+
+ 
+
+
+### -field CompSurfaceNotifiedEarly
+
+ 
+
+
 ### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 22 bits (0xFFFFFC00) of the 32-bit <b>Value</b> member to zeros.
 
 Supported starting with Windows 8.
-
-
-### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of the 32-bit <b>Value</b> member to zeros.
 
@@ -166,15 +232,19 @@ This member is reserved and should be set to zero. Setting this member to zero i
 A 32-bit value that identifies the flip present-history operation.
 
 
-## -remarks
+#### - ScatterBlt
+
+This member is reserved for system use and should be set to zero.
+
+Setting this member is equivalent to setting the    seventh bit of the 32-bit <b>Value</b> member (0x00000040).
+
+Supported starting with Windows 8.
 
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
-</dt>
-</dl>
+
  
 
  

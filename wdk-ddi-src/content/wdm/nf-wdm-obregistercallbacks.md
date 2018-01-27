@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 93593979-fe5f-48de-9c98-92acd43ec750
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ObRegisterCallbacks
+ms.keywords: ObRegisterCallbacks routine [Kernel-Mode Driver Architecture], wdm/ObRegisterCallbacks, ObRegisterCallbacks, k107_e5976812-0590-42f5-836c-85f9d262f19f.xml, kernel.obregistercallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows Vista with Service Pa
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ObRegisterCallbacks
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	ObRegisterCallbacks
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ObRegisterCallbacks function
 
 
-
 ## -description
+
+
 The <b>ObRegisterCallbacks</b> routine registers a list of callback routines for thread, process, and desktop handle operations.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS ObRegisterCallbacks(
@@ -56,9 +66,12 @@ NTSTATUS ObRegisterCallbacks(
 
 ## -parameters
 
-### -param CallBackRegistration [in]
 
-A pointer to an <a href="..\wdm\ns-wdm-_ob_callback_registration.md">OB_CALLBACK_REGISTRATION</a> structure that specifies the list of callback routines and other registration information.
+
+
+### -param CallbackRegistration
+
+TBD
 
 
 ### -param RegistrationHandle [out]
@@ -66,40 +79,92 @@ A pointer to an <a href="..\wdm\ns-wdm-_ob_callback_registration.md">OB_CALLBACK
 A pointer to a variable that receives a value that identifies the set of registered callback routines. The caller passes this value to the <a href="..\wdm\nf-wdm-obunregistercallbacks.md">ObUnRegisterCallbacks</a> routine to unregister the set of callbacks. 
 
 
+#### - CallBackRegistration [in]
+
+A pointer to an <a href="..\wdm\ns-wdm-_ob_callback_registration.md">OB_CALLBACK_REGISTRATION</a> structure that specifies the list of callback routines and other registration information.
+
+
 ## -returns
+
+
 <b>ObRegisterCallbacks</b> returns an NTSTATUS value. This routine might return one of the following values:
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The specified callback routines are registered with the system.
+</dl>
+</td>
+<td width="60%">
+The specified callback routines are registered with the system.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_FLT_INSTANCE_ALTITUDE_COLLISION</b></dt>
-</dl>The calling driver or another driver has already registered callback routines for the altitude that <i>CallBackRegistration</i>-&gt;<b>Altitude</b> specifies. For more information about this altitude, see the description of the <b>Altitude</b> member in <a href="..\wdm\ns-wdm-_ob_callback_registration.md">OB_CALLBACK_REGISTRATION</a>.
+</dl>
+</td>
+<td width="60%">
+The calling driver or another driver has already registered callback routines for the altitude that <i>CallBackRegistration</i>-&gt;<b>Altitude</b> specifies. For more information about this altitude, see the description of the <b>Altitude</b> member in <a href="..\wdm\ns-wdm-_ob_callback_registration.md">OB_CALLBACK_REGISTRATION</a>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>One or more of the parameters that were specified in the registration was invalid. <b>ObRegisterCallbacks</b> might return this error, for example, if an invalid value for <i>CallBackRegistration</i>-&gt;<b>Version</b> is specified or if registration is attempted for object types that do not support callback routines.
+</dl>
+</td>
+<td width="60%">
+One or more of the parameters that were specified in the registration was invalid. <b>ObRegisterCallbacks</b> might return this error, for example, if an invalid value for <i>CallBackRegistration</i>-&gt;<b>Version</b> is specified or if registration is attempted for object types that do not support callback routines.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>The callback routines do not reside in a signed kernel binary image.
+</dl>
+</td>
+<td width="60%">
+The callback routines do not reside in a signed kernel binary image.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>An attempt to allocate memory failed.
+</dl>
+</td>
+<td width="60%">
+An attempt to allocate memory failed.
 
- 
+</td>
+</tr>
+</table> 
+
 
 
 ## -remarks
+
+
 A driver must unregister all callback routines before it unloads. You can unregister the callback routine by calling the <b>ObUnRegisterCallbacks</b> routine.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_ob_callback_registration.md">OB_CALLBACK_REGISTRATION</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-obunregistercallbacks.md">ObUnRegisterCallbacks</a>
-</dt>
-</dl>
+
  
 
  

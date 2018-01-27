@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 18B2B486-5525-4132-96E8-EEA74342E0EA
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltWriteFileEx
+ms.keywords: fltkernel/FltWriteFileEx, FltWriteFileEx, ifsk.fltwritefileex, FltWriteFileEx function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The FltWriteFileEx function is available starting wit
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: FltWriteFileEx
-req.alt-loc: fltmgr.sys
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	fltmgr.sys
+apiname: 
+-	FltWriteFileEx
+product: Windows
+targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
 
 # FltWriteFileEx function
 
 
-
 ## -description
+
+
 <b>FltWriteFileEx</b> is used to write data to an open file, stream, or device. This function extends <a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile </a> to allow the optional use of an MDL for write data instead of a mapped buffer address.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS FltWriteFileEx(
@@ -63,6 +73,9 @@ NTSTATUS FltWriteFileEx(
 
 
 ## -parameters
+
+
+
 
 ### -param InitiatingInstance [in]
 
@@ -105,7 +118,6 @@ If an MDL is provided in <i>Mdl</i>, <i>Buffer</i> must be NULL.
 ### -param Flags [in]
 
 A bitmask of flags that specify the type of write operation to be performed. 
-
 <table>
 <tr>
 <th>Flag</th>
@@ -153,8 +165,7 @@ This flag is available starting with Windows Vista.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -param BytesWritten [out, optional]
@@ -183,29 +194,44 @@ An optional MDL that describes the data to write. If a buffer is provided in <i>
 
 
 ## -returns
+
+
 <b>FltWriteFileEx</b> returns the NTSTATUS value that was returned by the file system. 
 
 
+
 ## -remarks
+
+
 A minifilter driver calls <b>FltWriteFileEx</b> to write data to an open file. 
 
 <b>FltWriteFileEx</b> causes a write request to be sent to the minifilter driver instances attached below the initiating instance and to the file system. The specified instance and the instances attached above it do not receive the write request. 
 
 <b>FltWriteFileEx</b> performs noncached I/O if either of the following is true: 
-
+<ul>
+<li>
 The caller set the <b>FLTFL_IO_OPERATION_NON_CACHED</b> flag in the <i>Flags</i> parameter. 
 
+</li>
+<li>
 The file object was opened for noncached I/O. Usually, this is done by specifying the <b>FILE_NO_INTERMEDIATE_BUFFERING</b><b>CreateOptions</b> flag in the preceding call to <a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>, <a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>, or <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>. 
 
-Noncached I/O imposes the following restrictions on the parameter values passed to <b>FltWriteFileEx</b>: 
-
+</li>
+</ul>Noncached I/O imposes the following restrictions on the parameter values passed to <b>FltWriteFileEx</b>: 
+<ul>
+<li>
 The buffer that the <i>Buffer</i> parameter points to must be aligned in accordance with the alignment requirement of the underlying storage device. To allocate such an aligned buffer, call <a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>. 
 
+</li>
+<li>
 The byte offset that the <i>ByteOffset</i> parameter points to must be a nonnegative multiple of the volume's sector size. 
 
+</li>
+<li>
 The length specified in the <i>Length</i> parameter must be a nonnegative multiple of the volume's sector size. 
 
-If the value of the <i>CallbackRoutine</i> parameter is not <b>NULL</b>, the write operation is performed asynchronously. 
+</li>
+</ul>If the value of the <i>CallbackRoutine</i> parameter is not <b>NULL</b>, the write operation is performed asynchronously. 
 
 If the value of the <i>CallbackRoutine</i> parameter is <b>NULL</b>, the write operation is performed synchronously. That is, <b>FltWriteFileEx</b> waits until the write operation is complete before returning. This is true even if the file object that <i>FileObject</i> points to was opened for asynchronous I/O. 
 
@@ -214,33 +240,25 @@ If multiple threads call <b>FltWriteFileEx</b> for the same file object, and the
 The <i>Mdl</i> parameter is provided as a convenience when a minifilter already has an MDL available. The MDL is used directly and the additional step of mapping an address for <i>Buffer</i> can be avoided.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
-</dt>
-<dt>
+
 <a href="..\fltkernel\nf-fltkernel-fltreadfileex.md">FltReadFileEx</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-</dt>
-<dt>
-<a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
-</dt>
-<dt>
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>
+
 <a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
-</dt>
-</dl>
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
+
  
 
  

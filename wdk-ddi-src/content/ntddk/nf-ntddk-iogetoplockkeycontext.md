@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E93091A2-203B-418D-93E7-1219DED25C52
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoGetOplockKeyContext
+ms.keywords: IoGetOplockKeyContextEx routine [Installable File System Drivers], ntddk/IoGetOplockKeyContextEx, ifsk.iogetoplockkeycontext, IoGetOplockKeyContext, IoGetOplockKeyContextEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: The IoGetOplockKeyContext routine is available starti
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoGetOplockKeyContextEx
-req.alt-loc: ntoskrnl.lib,ntoskrnl.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ntoskrnl.lib
+-	ntoskrnl.dll
+apiname: 
+-	IoGetOplockKeyContextEx
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # IoGetOplockKeyContext function
 
 
-
 ## -description
+
+
 The <b>IoGetOplockKeyContext</b> routine returns a target oplock key context for a file object.
 
 
-
 ## -syntax
+
 
 ````
 POPLOCK_KEY_ECP_CONTEXT IoGetOplockKeyContextEx(
@@ -54,34 +65,38 @@ POPLOCK_KEY_ECP_CONTEXT IoGetOplockKeyContextEx(
 
 ## -parameters
 
-### -param FileObject 
+
+
+
+### -param FileObject
 
 The file object to query for an oplock key context.
 
 
 ## -returns
+
+
 An pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551003">OPLOCK_KEY_ECP_CONTEXT</a> structure containing the target oplock key for <i>FileObject</i>. Otherwise, NULL if <i>FileObject</i>  has no target oplock key.
 
 
+
 ## -remarks
+
+
 Use the <b>IoGetOplockKeyContext</b> routine only in Windows 7. Because  <a href="..\ntddk\nf-ntddk-iogetoplockkeycontextex.md">IoGetOplockKeyContextEx</a> returns a dual oplock key context, it should be used in Windows 8 and later versions of Windows.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406392">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
-</dt>
-<dt>
-<a href="..\ntddk\nf-ntddk-iogetoplockkeycontextex.md">IoGetOplockKeyContextEx</a>
-</dt>
-<dt>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551003">OPLOCK_KEY_ECP_CONTEXT</a>
-</dt>
-<dt>
+
 <a href="..\ntddk\ns-ntddk-_oplock_key_context.md">OPLOCK_KEY_CONTEXT</a>
-</dt>
-</dl>
+
+<a href="..\ntddk\nf-ntddk-iogetoplockkeycontextex.md">IoGetOplockKeyContextEx</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551003">OPLOCK_KEY_ECP_CONTEXT</a>
+
  
 
  

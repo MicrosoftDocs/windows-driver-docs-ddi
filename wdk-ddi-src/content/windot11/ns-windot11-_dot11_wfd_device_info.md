@@ -7,8 +7,8 @@ old-location: netvista\_dot11_wfd_device_info.htm
 old-project: netvista
 ms.assetid: 6E0E9BC9-9C84-4511-A28E-2BB2D6367F74
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _DOT11_WFD_DEVICE_INFO, *PDOT11_WFD_DEVICE_INFO, DOT11_WFD_DEVICE_INFO
+ms.date: 1/18/2018
+ms.keywords: DOT11_WFD_DEVICE_INFO structure [Network Drivers Starting with Windows Vista], windot11/ DOT11_WFD_DEVICE_INFO, PDOT11_WFD_DEVICE_INFO structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_WFD_DEVICE_INFO, PDOT11_WFD_DEVICE_INFO, _DOT11_WFD_DEVICE_INFO, DOT11_WFD_DEVICE_INFO, *PDOT11_WFD_DEVICE_INFO, netvista._dot11_wfd_device_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DOT11_WFD_DEVICE_INFO
-req.alt-loc: Windot11.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Windot11.h
+apiname: 
+-	DOT11_WFD_DEVICE_INFO
+product: Windows
+targetos: Windows
 req.typenames: *PDOT11_WFD_DEVICE_INFO, DOT11_WFD_DEVICE_INFO
 req.product: Windows 10 or later.
 ---
@@ -38,10 +47,14 @@ req.product: Windows 10 or later.
 # _DOT11_WFD_DEVICE_INFO structure
 
 
-
 ## -description
 
+
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>the <b>DOT11_WFD_DEVICE_INFO</b> structure is included with a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451793">OID_DOT11_WFD_DEVICE_INFO</a> request. The structure contains  Wi-Fi Direct (WFD) device information related to Peer-to-Peer (P2P) attributes.
+
+
 ## -syntax
+
 
 ````
 typedef struct _DOT11_WFD_DEVICE_INFO {
@@ -56,10 +69,12 @@ typedef struct _DOT11_WFD_DEVICE_INFO {
 
 ## -struct-fields
 
+
+
+
 ### -field Header
 
 Specifies the type, revision and size of the <b>DOT11_WFD_DEVICE_INFO</b> structure. The required settings for the members of <b>Header</b> are the following:
-
 <table>
 <tr>
 <th>Member</th>
@@ -77,8 +92,7 @@ Specifies the type, revision and size of the <b>DOT11_WFD_DEVICE_INFO</b> struct
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_WFD_DEVICE_INFO_REVISION_1</td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field DeviceAddress
@@ -100,5 +114,3 @@ The primary device type for the WFD device.
 
 A friendly name assigned to the WFD device.
 
-
-## -remarks

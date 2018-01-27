@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ac3ec079-61a5-42fe-a1c0-b7626e5f32d2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ScsiInquiry_OUT, ScsiInquiry_OUT, *PScsiInquiry_OUT
+ms.keywords: structs-iSCSI_0c90b572-8a05-4a75-86ce-5b12d82a1c2f.xml, PScsiInquiry_OUT, *PScsiInquiry_OUT, storage.scsiinquiry_out, iscsiop/PScsiInquiry_OUT, ScsiInquiry_OUT structure [Storage Devices], ScsiInquiry_OUT, _ScsiInquiry_OUT, iscsiop/ScsiInquiry_OUT, PScsiInquiry_OUT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ScsiInquiry_OUT
-req.alt-loc: iscsiop.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	iscsiop.h
+apiname: 
+-	ScsiInquiry_OUT
+product: Windows
+targetos: Windows
 req.typenames: ScsiInquiry_OUT, *PScsiInquiry_OUT
 ---
 
 # _ScsiInquiry_OUT structure
 
 
-
 ## -description
+
+
 The ScsiInquiry_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a> method.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _ScsiInquiry_OUT {
@@ -57,6 +67,9 @@ typedef struct _ScsiInquiry_OUT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Status
 
@@ -84,21 +97,20 @@ A buffer that holds the response data that the SCSI INQUIRY command received.
 
 
 ## -remarks
+
+
 You must implement this method.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
+<a href="..\iscsiop\ns-iscsiop-_scsiinquiry_in.md">ScsiInquiry_IN</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a>
-</dt>
-<dt>
-<a href="..\hbapiwmi\ns-hbapiwmi-_scsiinquiry_in.md">ScsiInquiry_IN</a>
-</dt>
-</dl>
+
  
 
  

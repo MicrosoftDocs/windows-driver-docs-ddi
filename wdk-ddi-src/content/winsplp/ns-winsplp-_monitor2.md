@@ -7,8 +7,8 @@ old-location: print\monitor2.htm
 old-project: print
 ms.assetid: 0bfb5119-2034-4e63-9fbe-e2ff42a352d6
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: _MONITOR2, MONITOR2, *PMONITOR2, *LPMONITOR2
+ms.date: 1/18/2018
+ms.keywords: winsplp/LPMONITOR2, spoolfnc_db4ec1e7-1368-4695-bae0-91fd5dcd8a1a.xml, MONITOR2 structure [Print Devices], LPMONITOR2, *PMONITOR2, MONITOR2, PMONITOR2 structure pointer [Print Devices], winsplp/PMONITOR2, print.monitor2, winsplp/MONITOR2, PMONITOR2, _MONITOR2, LPMONITOR2 structure pointer [Print Devices], *LPMONITOR2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: MONITOR2
-req.alt-loc: winsplp.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: MONITOR2, *PMONITOR2, *LPMONITOR2
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	winsplp.h
+apiname: 
+-	MONITOR2
+product: Windows
+targetos: Windows
+req.typenames: MONITOR2, *LPMONITOR2, *PMONITOR2
 req.product: Windows 10 or later.
 ---
 
 # _MONITOR2 structure
 
 
-
 ## -description
+
+
 The MONITOR2 structure contains pointers to the functions defined by print monitors.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _MONITOR2 {
@@ -147,6 +157,9 @@ typedef struct _MONITOR2 {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
 
 Specifies the size, in bytes, of the MONITOR2 structure.
@@ -247,24 +260,40 @@ Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windo
 Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff562071">SendRecvBidiDataFromPort</a> function.
 
 
+### -field pfnNotifyUsedPorts
+
+ 
+
+
+### -field pfnNotifyUnusedPorts
+
+ 
+
+
+### -field pfnPowerEvent
+
+ 
+
+
+
 ## -remarks
+
+
 Each language monitor and each port monitor server DLL must provide a MONITOR2 structure. The monitor must supply values for all structure members, and specify the structure's address as the return value for its <a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a> function.
 
 If a function is not defined, its pointer must be <b>NULL</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
-</dt>
-<dt>
+
 <a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20MONITOR2 structure%20 RELEASE:%20(1/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20MONITOR2 structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

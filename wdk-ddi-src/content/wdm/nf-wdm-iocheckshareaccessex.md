@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E6CDE415-FCC2-4039-B6DD-168113D9A490
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoCheckShareAccessEx
+ms.keywords: IoCheckShareAccessEx, wdm/IoCheckShareAccessEx, kernel.iocheckshareaccessex, IoCheckShareAccessEx routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: IoCheckShareAccessEx
-req.alt-loc: ntoskrnl.lib,ntoskrnl.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,18 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ntoskrnl.lib
+-	ntoskrnl.dll
+apiname: 
+-	IoCheckShareAccessEx
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # IoCheckShareAccessEx function
 
 
-
 ## -description
+
+
 The <b>IoCheckShareAccessEx</b> routine is called by file system drivers (FSDs) or other highest-level drivers to check whether shared access to a file object is permitted.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS IoCheckShareAccessEx(
@@ -60,6 +71,9 @@ NTSTATUS IoCheckShareAccessEx(
 
 ## -parameters
 
+
+
+
 ### -param DesiredAccess [in]
 
 Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that indicates the desired type of access to the given file object.
@@ -69,20 +83,12 @@ Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff5404
 
 Specifies the desired type of shared access to the file object for the current open request. The value of this parameter is usually the same as the <i>ShareAccess</i> parameter that is passed to the file system or highest-level driver by the I/O manager when the open request was made. This value can be zero, or any combination of the following:
 
-<dl>
-<dd>
 FILE_SHARE_READ
 
-</dd>
-<dd>
 FILE_SHARE_WRITE
 
-</dd>
-<dd>
 FILE_SHARE_DELETE
 
-</dd>
-</dl>
 
 ### -param FileObject [in, out]
 
@@ -105,18 +111,16 @@ Specifies whether the share access has write permission. This value is TRUE if t
 
 
 ## -returns
+
+
 The <b>IoCheckShareAccessEx</b> routine returns STATUS_SUCCESS if the requester's access to the file object is compatible with the way in which it is currently open. If the request is denied because of a sharing violation, then STATUS_SHARING_VIOLATION is returned. 
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549503">I/O Manager Routines</a>
-</dt>
-</dl>
+
  
 
  

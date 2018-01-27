@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C26C5162-4BB0-401E-9AF5-AF1D2D8715F9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA
+ms.keywords: kernel.silo_monitor_create_callback, CreateCallback callback function [Kernel-Mode Driver Architecture], CreateCallback, SILO_MONITOR_CREATE_CALLBACK, SILO_MONITOR_CREATE_CALLBACK, ntddk/CreateCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 10, version 1607
 req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: CreateCallback
-req.alt-loc: ntddk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: *PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	ntddk.h
+apiname: 
+-	CreateCallback
+product: Windows
+targetos: Windows
+req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 ---
 
 # SILO_MONITOR_CREATE_CALLBACK callback
 
 
-
 ## -description
+
+
 This is callback is invoked when a new silo is created.
 
 
-
 ## -prototype
+
 
 ````
 SILO_MONITOR_CREATE_CALLBACK CreateCallback;
@@ -57,13 +67,17 @@ NTSTATUS CreateCallback(
 
 ## -parameters
 
+
+
+
 ### -param Silo [in]
 
 The silo that was created.
 
 
 ## -returns
+
+
 The NT code returned by the operation.
 
 
-## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a8e1ea01-2050-413a-991f-55c29977b6dd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2SETSTREAMSOURCE2, D3DHAL_DP2SETSTREAMSOURCE2, *LPD3DHAL_DP2SETSTREAMSOURCE2
+ms.keywords: LPD3DHAL_DP2SETSTREAMSOURCE2, d3dstrct_81c5d4ff-bd3e-4f52-a062-c30755da9416.xml, _D3DHAL_DP2SETSTREAMSOURCE2, display.d3dhal_dp2setstreamsource2, D3DHAL_DP2SETSTREAMSOURCE2, LPD3DHAL_DP2SETSTREAMSOURCE2 structure pointer [Display Devices], d3dhal/D3DHAL_DP2SETSTREAMSOURCE2, D3DHAL_DP2SETSTREAMSOURCE2 structure [Display Devices], d3dhal/LPD3DHAL_DP2SETSTREAMSOURCE2, *LPD3DHAL_DP2SETSTREAMSOURCE2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DHAL_DP2SETSTREAMSOURCE2
-req.alt-loc: d3dhal.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,14 +29,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dhal.h
+apiname: 
+-	D3DHAL_DP2SETSTREAMSOURCE2
+product: Windows
+targetos: Windows
 req.typenames: D3DHAL_DP2SETSTREAMSOURCE2
 ---
 
 # _D3DHAL_DP2SETSTREAMSOURCE2 structure
 
 
-
 ## -description
+
+
 
    DirectX 9.0 and later versions only.
    
@@ -46,8 +56,8 @@ req.typenames: D3DHAL_DP2SETSTREAMSOURCE2
 The D3DHAL_DP2SETSTREAMSOURCE2 structure is used to bind a portion of a vertex stream source to a vertex buffer for <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DHAL_DP2SETSTREAMSOURCE2 {
@@ -60,6 +70,9 @@ typedef struct _D3DHAL_DP2SETSTREAMSOURCE2 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field dwStream
 
@@ -81,16 +94,12 @@ Specifies the offset of the first vertex size in bytes.
 Specifies the vertex size in bytes.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>D3DDP2OP_SETSTREAMSOURCE2</dt>
-<dt>
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-</dt>
-</dl>
+
+D3DDP2OP_SETSTREAMSOURCE2
+
  
 
  

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ca891a21-e7ab-4230-bfc4-adfdb413838b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDFMEMORY_OFFSET, WDFMEMORY_OFFSET, *PWDFMEMORY_OFFSET
+ms.keywords: wdfmemory/WDFMEMORY_OFFSET, PWDFMEMORY_OFFSET, WDFMEMORY_OFFSET, WDFMEMORY_OFFSET structure, wdf.wdfmemory_offset, DFMemoryObjectRef_d6ea5bd1-f672-4624-9663-f1e5f70eb8b2.xml, kmdf.wdfmemory_offset, *PWDFMEMORY_OFFSET, _WDFMEMORY_OFFSET, wdfmemory/PWDFMEMORY_OFFSET, PWDFMEMORY_OFFSET structure pointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDFMEMORY_OFFSET
-req.alt-loc: wdfmemory.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfmemory.h
+apiname: 
+-	WDFMEMORY_OFFSET
+product: Windows
+targetos: Windows
 req.typenames: WDFMEMORY_OFFSET, *PWDFMEMORY_OFFSET
 req.product: Windows 10 or later.
 ---
@@ -38,15 +47,16 @@ req.product: Windows 10 or later.
 # _WDFMEMORY_OFFSET structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDFMEMORY_OFFSET</b> structure identifies a subsection of a memory object's buffer.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WDFMEMORY_OFFSET {
@@ -57,6 +67,9 @@ typedef struct _WDFMEMORY_OFFSET {
 
 
 ## -struct-fields
+
+
+
 
 ### -field BufferOffset
 
@@ -69,15 +82,16 @@ The length, in bytes, of the buffer's subsection. A value of zero represents the
 
 
 ## -remarks
+
+
 The <b>WDFMEMORY_OFFSET</b> structure is used as a member of the <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure and as an input parameter to various I/O target object methods.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a>
-</dt>
-</dl>
+
  
 
  

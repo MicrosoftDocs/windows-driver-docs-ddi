@@ -7,8 +7,8 @@ old-location: debugger\readphysicalwithflags.htm
 old-project: debugger
 ms.assetid: 7ff5787f-f663-4ceb-be59-4f48ecea03a9
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ReadPhysicalWithFlags
+ms.date: 1/19/2018
+ms.keywords: wdbgexts/ReadPhysicalWithFlags, debugger.readphysicalwithflags, ReadPhysicalWithFlags function [Windows Debugging], ReadPhysicalWithFlags, WdbgExts_Ref_cf166083-f21a-4cfd-8daa-90c3f6bbcdcb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: ReadPhysicalWithFlags
-req.alt-loc: wdbgexts.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdbgexts.h
+apiname: 
+-	ReadPhysicalWithFlags
+product: Windows
+targetos: Windows
 req.typenames: EXT_TDOP
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ReadPhysicalWithFlags function
 
 
-
 ## -description
+
+
 The <b>ReadPhysicalWithFlags</b> function reads from physical memory.
 
 
-
 ## -syntax
+
 
 ````
 __inline VOID ReadPhysicalWithFlags(
@@ -59,25 +69,27 @@ __inline VOID ReadPhysicalWithFlags(
 
 ## -parameters
 
-### -param address 
+
+
+
+### -param address
 
 Specifies the physical address to read.
 
 
-### -param buf 
+### -param buf
 
 Specifies the address of an array of bytes to hold the data that is read.
 
 
-### -param size 
+### -param size
 
 Specifies the number of bytes to read. 
 
 
-### -param flags 
+### -param flags
 
 Specifies the properties of the physical memory to be read.  This must match the way the physical memory was advertised to the operating system on the target.  Possible values are listed in the following table.
-
 <table>
 <tr>
 <th>Value</th>
@@ -123,36 +135,38 @@ The physical memory is write-combined.
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
-### -param sizer 
+### -param sizer
 
 Receives the number of bytes actually read.
 
 
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are writing a DbgEng extension that calls this function, include <b>wdbgexts.h</b> before <b>dbgeng.h</b> (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details).
 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\dbgeng\nf-dbgeng-idebugdataspaces-readphysical.md">ReadPhysical</a>
-</dt>
-<dt>
+
+<a href="..\wdbgexts\nf-wdbgexts-readphysical.md">ReadPhysical</a>
+
 <a href="..\wdbgexts\nf-wdbgexts-writephysicalwithflags.md">WritePhysicalWithFlags</a>
-</dt>
-</dl>
- 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ReadPhysicalWithFlags function%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ReadPhysicalWithFlags function%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

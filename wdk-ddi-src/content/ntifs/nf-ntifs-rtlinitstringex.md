@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D59E6B78-2B51-4A5D-A9EA-E6D8DD90C374
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlInitStringEx
+ms.keywords: kernel.rtl_init_string_ex, RtlInitString routine [Kernel-Mode Driver Architecture], RtlInitString, RtlInitStringEx, wdm/RtlInitString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlInitString
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlInitString
+product: Windows
+targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # RtlInitStringEx function
 
 
-
 ## -description
+
+
 The <b>RtlInitStringEx</b> routine initializes a counted string of 8-bit characters.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS RtlInitString(
@@ -54,6 +64,9 @@ NTSTATUS RtlInitString(
 
 
 ## -parameters
+
+
+
 
 ### -param DestinationString [out]
 
@@ -66,10 +79,15 @@ A pointer to a null-terminated character string. This string is used to initiali
 
 
 ## -returns
+
+
 Returns STATUS_NAME_TOO_LONG if the SourceString is too long. Otherwise, this routine returns STATUS_SUCCESS.
 
 
+
 ## -remarks
+
+
 This routine initializes a counted character string.
 
 The routine copies the <i>SourceString</i> pointer value to the <b>Buffer</b> member of the <b>STRING</b> structure pointed to by <i>DestinationString</i>. The <b>Length</b> member of this structure is set to the length, in bytes, of the source string, excluding the terminating null. The <b>MaximumLength</b> member of the structure is set to the length, in bytes, of the source string, including the terminating null. If <i>SourceString</i> is <b>NULL</b>, <b>Length</b> and <b>MaximumLength</b> are both set to zero.
@@ -79,12 +97,11 @@ The routine copies the <i>SourceString</i> pointer value to the <b>Buffer</b> me
 Callers of <b>RtlInitStringEx</b> can be running at IRQL &lt;= DISPATCH_LEVEL if the <i>DestinationString</i> buffer is nonpageable. Usually, callers run at IRQL = PASSIVE_LEVEL because most other <b>Rtl<i>Xxx</i>String</b> routines cannot be called at IRQL &gt; PASSIVE_LEVEL.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-</dt>
-</dl>
+
  
 
  

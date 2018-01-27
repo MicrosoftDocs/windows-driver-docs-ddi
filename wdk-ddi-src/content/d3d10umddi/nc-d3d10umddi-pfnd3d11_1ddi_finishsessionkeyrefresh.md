@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 95c0433f-e4da-4566-b128-34cb758b8001
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _SETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO
+ms.keywords: display.finishsessionkeyrefresh1, pfnFinishSessionKeyRefresh callback function [Display Devices], pfnFinishSessionKeyRefresh, PFND3D11_1DDI_FINISHSESSIONKEYREFRESH, PFND3D11_1DDI_FINISHSESSIONKEYREFRESH, d3d10umddi/pfnFinishSessionKeyRefresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnFinishSessionKeyRefresh
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	pfnFinishSessionKeyRefresh
+product: Windows
+targetos: Windows
 req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_FINISHSESSIONKEYREFRESH callback
 
 
-
 ## -description
+
+
 Completes the switch to a new session key.
 
 
-
 ## -prototype
+
 
 ````
 PFND3D11_1DDI_FINISHSESSIONKEYREFRESH pfnFinishSessionKeyRefresh;
@@ -58,6 +68,9 @@ VOID APIENTRY* pfnFinishSessionKeyRefresh(
 
 ## -parameters
 
+
+
+
 ### -param hDevice [in]
 
 A handle to the display device (graphics context).
@@ -71,19 +84,23 @@ A handle to the driver's private data for the cryptographic session. This handle
 
 
 ## -returns
+
+
 This callback function does not return a value.
 
 
+
 ## -remarks
+
+
 <b>FinishSessionKeyRefresh</b> indicates that all buffers from that point in time will use the updated session key value.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
-</dt>
-</dl>
+
  
 
  

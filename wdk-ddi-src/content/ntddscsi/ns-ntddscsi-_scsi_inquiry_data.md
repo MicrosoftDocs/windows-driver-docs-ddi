@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f62c35dd-791d-4c21-9836-308cc5fb102b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SCSI_INQUIRY_DATA, *PSCSI_INQUIRY_DATA, SCSI_INQUIRY_DATA
+ms.keywords: PSCSI_INQUIRY_DATA structure pointer [Storage Devices], SCSI_INQUIRY_DATA structure [Storage Devices], storage.scsi_inquiry_data, ntddscsi/SCSI_INQUIRY_DATA, PSCSI_INQUIRY_DATA, *PSCSI_INQUIRY_DATA, ntddscsi/PSCSI_INQUIRY_DATA, structs-scsibus_caffe649-9258-4363-ac26-da2c81bebdd1.xml, SCSI_INQUIRY_DATA, _SCSI_INQUIRY_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SCSI_INQUIRY_DATA
-req.alt-loc: ntddscsi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ntddscsi.h
+apiname: 
+-	SCSI_INQUIRY_DATA
+product: Windows
+targetos: Windows
 req.typenames: *PSCSI_INQUIRY_DATA, SCSI_INQUIRY_DATA
 ---
 
 # _SCSI_INQUIRY_DATA structure
 
 
-
 ## -description
+
+
 The SCSI_INQUIRY_DATA structure is used in conjunction with the <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a> request to retrieve the SCSI inquiry data for all devices on a given SCSI bus. 
-
-
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
+
 
 ````
 typedef struct _SCSI_INQUIRY_DATA {
@@ -59,6 +69,9 @@ typedef struct _SCSI_INQUIRY_DATA {
 
 
 ## -struct-fields
+
+
+
 
 ### -field PathId
 
@@ -96,21 +109,20 @@ Pointer to buffer containing the inquiry data for the logical unit.
 
 
 ## -remarks
+
+
 The <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a> request retrieves inquiry data for all devices associated with a specified adapter. An adapter can potentially have multiple buses. The <b>PathId</b> member identifies the bus. Each bus can have multiple target devices. The <b>TargetId</b> member identifies the target device, and each target device can have multiple logical units. The <b>Lun</b> member identifies the logical unit. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a>
-</dt>
-<dt>
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_bus_data.md">SCSI_BUS_DATA</a>
-</dt>
-<dt>
+
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_adapter_bus_info.md">SCSI_ADAPTER_BUS_INFO</a>
-</dt>
-</dl>
+
+<a href="..\ntddscsi\ns-ntddscsi-_scsi_bus_data.md">SCSI_BUS_DATA</a>
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a>
+
  
 
  

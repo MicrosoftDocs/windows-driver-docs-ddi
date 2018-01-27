@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2878b36e-3850-4af8-aeca-9c5d2da717f9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE, D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE
+ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE, D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE, display.d3d11_1ddi_video_processor_color_space
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE
 ---
 
 # D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE structure
 
 
-
 ## -description
+
+
 Specifies the color space for video processing.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE {
@@ -59,10 +69,12 @@ typedef struct D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE {
 
 ## -struct-fields
 
+
+
+
 ### -field Usage
 
 Specifies whether the output is intended for playback or video processing (such as editing or authoring). The device can optimize the processing based on the type. The default state value is 0 (playback). 
-
 
 
 <table>
@@ -72,9 +84,9 @@ Specifies whether the output is intended for playback or video processing (such 
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0
-
+<dl>
+<dt>0</dt>
+</dl>
 </td>
 <td width="60%">
 Playback
@@ -83,23 +95,21 @@ Playback
 </tr>
 <tr>
 <td width="40%">
-
-### -field 1
-
+<dl>
+<dt>1</dt>
+</dl>
 </td>
 <td width="60%">
 Video processing
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field RGB_Range
 
 Specifies the RGB color range. The default state value is 0 (full range).
-
 
 
 <table>
@@ -109,9 +119,9 @@ Specifies the RGB color range. The default state value is 0 (full range).
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0
-
+<dl>
+<dt>0</dt>
+</dl>
 </td>
 <td width="60%">
 Full range (0-255)
@@ -120,23 +130,21 @@ Full range (0-255)
 </tr>
 <tr>
 <td width="40%">
-
-### -field 1
-
+<dl>
+<dt>1</dt>
+</dl>
 </td>
 <td width="60%">
 Limited range (16-235)
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field YCbCr_Matrix
 
 Specifies the YCbCr transfer matrix. The default state value is 0 (BT.601).
-
 
 
 <table>
@@ -146,9 +154,9 @@ Specifies the YCbCr transfer matrix. The default state value is 0 (BT.601).
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0
-
+<dl>
+<dt>0</dt>
+</dl>
 </td>
 <td width="60%">
 ITU-R BT.601
@@ -157,23 +165,21 @@ ITU-R BT.601
 </tr>
 <tr>
 <td width="40%">
-
-### -field 1
-
+<dl>
+<dt>1</dt>
+</dl>
 </td>
 <td width="60%">
 ITU-R BT.709
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field YCbCr_xvYCC
 
 Specifies whether the output uses conventional YCbCr or extended YCbCr (xvYCC). The default state value is zero (conventional YCbCr).
-
 
 
 <table>
@@ -183,9 +189,9 @@ Specifies whether the output uses conventional YCbCr or extended YCbCr (xvYCC). 
 </tr>
 <tr>
 <td width="40%">
-
-### -field 0
-
+<dl>
+<dt>0</dt>
+</dl>
 </td>
 <td width="60%">
 Conventional YCbCr
@@ -194,17 +200,16 @@ Conventional YCbCr
 </tr>
 <tr>
 <td width="40%">
-
-### -field 1
-
+<dl>
+<dt>1</dt>
+</dl>
 </td>
 <td width="60%">
 Extended YCbCr (xvYCC)
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field Nominal_Range
@@ -223,15 +228,10 @@ Supported starting with Windows 8.1.
 Reserved for system use. Set to zero.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_nominal_range.md">D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE</a>
-</dt>
-</dl>
+
  
 
  

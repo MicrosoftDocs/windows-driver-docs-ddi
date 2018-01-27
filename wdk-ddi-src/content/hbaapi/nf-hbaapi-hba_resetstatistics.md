@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4e889905-9c5e-446c-8d0e-09e445f7c1a4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_ResetStatistics
+ms.keywords: HBA_ResetStatistics routine [Storage Devices], hbaapi/HBA_ResetStatistics, storage.hba_resetstatistics, fibreHBA_rtns_37577fde-9a33-4fd7-8e80-abbd7458b4ef.xml, HBA_ResetStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: HBA_ResetStatistics
-req.alt-loc: Hbaapi.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	Hbaapi.dll
+apiname: 
+-	HBA_ResetStatistics
+product: Windows
+targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
 
 # HBA_ResetStatistics function
 
 
-
 ## -description
+
+
 The <b>HBA_ResetStatistics</b> routine resets the statistics counters for the indicated port and HBA. 
 
 
-
 ## -syntax
+
 
 ````
 void HBA_API HBA_ResetStatistics(
@@ -55,9 +65,12 @@ void HBA_API HBA_ResetStatistics(
 
 ## -parameters
 
-### -param HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located.  
+
+
+### -param Handle
+
+TBD
 
 
 ### -param PortIndex [in]
@@ -65,23 +78,31 @@ Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openad
 Indicates for which port on the HBA the statistics counters should be reset. 
 
 
+#### - HbaHandle [in]
+
+Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located.  
+
+
 ## -returns
+
+
 None
 
 
+
 ## -remarks
+
+
 The <b>HBA_ResetStatistics</b> routine serves similar purpose to the <b>ResetStatistics</b> method of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562501">MSFC_FibrePortHBAMethods WMI Class</a>. 
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-</dt>
-<dt>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562501">MSFC_FibrePortHBAMethods WMI Class</a>
-</dt>
-</dl>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
  
 
  

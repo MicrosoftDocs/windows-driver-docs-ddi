@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8178A279-96FE-40DC-A292-4551FA153F45
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDIARG_CREATE_VIDEO_DECODER_0021, D3D12DDIARG_CREATE_VIDEO_DECODER_0021
+ms.keywords: D3D12DDIARG_CREATE_VIDEO_DECODER_0021 structure [Display Devices], display.d3d12ddiarg_create_video_decoder, D3D12DDIARG_CREATE_VIDEO_DECODER_0021, d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_0021
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D12DDIARG_CREATE_VIDEO_DECODER_0021
-req.alt-loc: D3d12umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d12umddi.h
+apiname: 
+-	D3D12DDIARG_CREATE_VIDEO_DECODER_0021
+product: Windows
+targetos: Windows
 req.typenames: D3D12DDIARG_CREATE_VIDEO_DECODER_0021
 ---
 
 # D3D12DDIARG_CREATE_VIDEO_DECODER_0021 structure
 
 
-
 ## -description
+
+
 Used to create a decoder object for a decode session.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct D3D12DDIARG_CREATE_VIDEO_DECODER_0021 {
@@ -60,6 +70,9 @@ typedef struct D3D12DDIARG_CREATE_VIDEO_DECODER_0021 {
 
 
 ## -struct-fields
+
+
+
 
 ### -field NodeMask
 
@@ -91,9 +104,9 @@ The maximum number of decode picture buffers this stream can have.
 The frame rate of the input video stream.  
 
 
-### -field Bitrate
+### -field BitRate
 
-The data compression rate, in bits per second, for the compressed video stream.  
+ 
 
 
 ### -field Usage
@@ -101,7 +114,14 @@ The data compression rate, in bits per second, for the compressed video stream.
 A hint for the intended usage for the decoder stream. For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_usage.md">D3D12DDI_VIDEO_USAGE</a> enumeration.
 
 
+#### - Bitrate
+
+The data compression rate, in bits per second, for the compressed video stream.  
+
+
 ## -remarks
+
+
 Drivers can use the <i>Bitrate</i> and <i>FrameRate</i> parameters to inform heuristics such as intermediate allocation sizes or performance optimizations.  
 
 Decoding a frame is allowed to fail if the <i>Bitrate</i> and <i>FrameRate</i> values are insufficient for the video stream.  If decode fails for this reason, the query <b>D3D12DDI_QUERY_TYPE_VIDEO_DECODE_STATISTICS</b> must return a status of <b>D3D12DDI_VIDEO_DECODE_STATUS_RATE_EXCEEDED</b>.    
@@ -109,15 +129,13 @@ Decoding a frame is allowed to fail if the <i>Bitrate</i> and <i>FrameRate</i> v
 The <i>Bitrate</i> and <i>FrameRate</i> parameters may also be set to zero.  When these values are used, drivers must make worst case assumptions. They are not allowed to fail with <b>D3D12DDI_VIDEO_DECODE_STATUS_RATE_EXCEEDED</b>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
-</dt>
-<dt>
+
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_usage.md">D3D12DDI_VIDEO_USAGE</a>
-</dt>
-</dl>
+
  
 
  

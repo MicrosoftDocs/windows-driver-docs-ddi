@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7998B753-8E43-471F-9BDE-729D0E38E022
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDeviceRegisterThermalDispatch
+ms.keywords: KsDeviceRegisterThermalDispatch, KsDeviceRegisterThermalDispatch function [Streaming Media Devices], stream.ksdeviceregisterthermaldispatch, ks/KsDeviceRegisterThermalDispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: KsDeviceRegisterThermalDispatch
-req.alt-loc: ks.lib,ks.dll
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,32 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	LibDef
+apilocation: 
+-	ks.lib
+-	ks.dll
+apiname: 
+-	KsDeviceRegisterThermalDispatch
+product: Windows
+targetos: Windows
 req.typenames: 
 ---
 
 # KsDeviceRegisterThermalDispatch function
 
 
-
 ## -description
+
+
 This function is used by the Avstream miniport driver to register callbacks for thermal notifications with the KS port driver.
 
 
-
 ## -syntax
+
 
 ````
 void KSDDKAPI NTSTATUS NTAPI KsDeviceRegisterThermalDispatch(
@@ -54,6 +65,9 @@ void KSDDKAPI NTSTATUS NTAPI KsDeviceRegisterThermalDispatch(
 
 
 ## -parameters
+
+
+
 
 ### -param KsDevice [in]
 
@@ -66,10 +80,15 @@ A structure containing the Avstream driver active and passive thermal callback n
 
 
 ## -returns
+
+
 Returns NTSTATUS  STATUS_SUCCESS for success conditions or STATUS_INVALID_DEVICE_REQUEST if both the parameters are NULL.
 
 
+
 ## -remarks
+
+
 <b>KsDeviceRegisterThermalDispatch</b> takes two arguments:<ul>
 <li>A KS device object that represents the hardware device managed by the KS port driver (a camera in this case).</li>
 <li>Thermal dispatch callback functions.</li>
@@ -79,12 +98,11 @@ Returns NTSTATUS  STATUS_SUCCESS for success conditions or STATUS_INVALID_DEVICE
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh698236">Device-Level Thermal Management</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
-</dt>
-</dl>
+
  
 
  

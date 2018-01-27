@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 1e6b922d-01a2-4a67-91cb-74956d40d769
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: SdpCreateNodeAlternative
+ms.keywords: SdpCreateNodeAlternative function [Bluetooth Devices], bltooth.sdpcreatenodealternative, bth_funcs_e54ab424-3fbf-479a-9368-51d824c1fbec.xml, sdplib/SdpCreateNodeAlternative, SdpCreateNodeAlternative
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: SdpCreateNodeAlternative
-req.alt-loc: sdplib.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,24 +26,36 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-req.typenames: *PSDCMD_DESCRIPTOR, SDCMD_DESCRIPTOR
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	sdplib.h
+apiname: 
+-	SdpCreateNodeAlternative
+product: Windows
+targetos: Windows
+req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
 # SdpCreateNodeAlternative function
 
 
-
 ## -description
+
+
 The Bluetooth 
   <b>SdpCreateNodeAlternative</b> function is used to create an empty alternative sequence SDP node.
 
 
-
 ## -syntax
+
 
 ````
 PSDP_NODE SdpCreateNodeAlternative(
@@ -56,23 +66,31 @@ PSDP_NODE SdpCreateNodeAlternative(
 
 ## -parameters
 
+
+
+
 ### -param tag [in]
 
 A profile driver defined tag to associate with the node.
 
 
 ## -returns
+
+
 If successful, this function returns a pointer to the newly allocated 
      <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a> structure. If not successful, this
      function returns 
      <b>NULL</b>.
 
 
+
 ## -remarks
+
+
 After an alternative sequence node is created by calling the 
     <b>SdpCreateNodeAlternative</b> function, Bluetooth drivers can call the 
-    <a href="..\sdplib\nf-sdplib-sdpappendnodetocontainernode.md">
-    SdpAppendNodeToContainerNode</a> function to insert other nodes into the alternative sequence node or
+    <mshelp:link keywords="bltooth.sdpappendnodetocontainernode" tabindex="0"><b>
+    SdpAppendNodeToContainerNode</b></mshelp:link> function to insert other nodes into the alternative sequence node or
     to add the new alternative sequence node to another alternative sequence node.
 
 An alternative sequence node can be added as a top-level attribute of an SDP record by calling the 
@@ -82,21 +100,17 @@ Bluetooth profile drivers can obtain a pointer to this function through the
     <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
-</dt>
-<dt>
-<a href="..\sdplib\nf-sdplib-sdpappendnodetocontainernode.md">SdpAppendNodeToContainerNode</a>
-</dt>
-<dt>
+
 <a href="..\sdplib\nf-sdplib-sdpaddattributetotree.md">SdpAddAttributeToTree</a>
-</dt>
-<dt>
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
+
+<a href="..\sdplib\nf-sdplib-sdpappendnodetocontainernode.md">SdpAppendNodeToContainerNode</a>
+
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
-</dt>
-</dl>
+
  
 
  

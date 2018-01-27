@@ -7,8 +7,8 @@ old-location: netvista\rilcallinfo_v5_2.htm
 old-project: netvista
 ms.assetid: a2cadee5-40e4-4044-b631-1824099e2fd7
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: RILCALLINFO_V5, RILCALLINFO_V5, RILCALLINFO, *LPRILCALLINFO, *LPRILCALLINFO_V5
+ms.date: 1/18/2018
+ms.keywords: RILCALLINFO_V5 structure [Network Drivers Starting with Windows Vista], *LPRILCALLINFO_V5, rilapitypes/RILCALLINFO_V5, RILCALLINFO_V5, netvista.rilcallinfo_v5_2, RILCALLINFO, *LPRILCALLINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RILCALLINFO_V5
-req.alt-loc: rilapitypes.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: RILCALLINFO_V5, RILCALLINFO, *LPRILCALLINFO, *LPRILCALLINFO_V5
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	rilapitypes.h
+apiname: 
+-	RILCALLINFO_V5
+product: Windows
+targetos: Windows
+req.typenames: *LPRILCALLINFO, *LPRILCALLINFO_V5, RILCALLINFO_V5, RILCALLINFO
 req.product: Windows 10 or later.
 ---
 
 # RILCALLINFO_V5 structure
 
 
-
 ## -description
+
+
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _RILCALLINFO_V5 {
@@ -75,67 +85,89 @@ typedef struct _RILCALLINFO_V5 {
 
 ## -struct-fields
 
+
+
+
 ### -field cbSize
+
 
 
 ### -field dwParams
 
 
+
 ### -field dwExecutor
+
 
 
 ### -field dwID
 
 
+
 ### -field dwDirection
+
 
 
 ### -field dwStatus
 
 
+
 ### -field dwType
+
 
 
 ### -field dwMultiparty
 
 
+
 ### -field raAddress
+
 
 
 ### -field rsaSubAddress
 
 
+
 ### -field wszDescription
+
 
 
 ### -field dwNumberPresentationIndicator
 
 
+
 ### -field dwNamePresentationIndicator
+
 
 
 ### -field dwFlags
 
 
+
 ### -field dwDisconnectInitiator
+
 
 
 ### -field dwDisconnectReason
 
 
+
 ### -field stDisconnectDetails
+
 
 
 ### -field rcmOfferAnswer
 
 
+
 ### -field rchsHandoverState
+
 
 
 ### -field dwCallModificationCauseCode
 
 
+
 ### -field stRTTInfo
 
 
-## -remarks

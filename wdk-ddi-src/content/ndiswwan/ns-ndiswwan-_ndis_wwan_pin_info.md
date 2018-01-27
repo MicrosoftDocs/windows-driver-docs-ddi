@@ -7,8 +7,8 @@ old-location: netvista\ndis_wwan_pin_info.htm
 old-project: netvista
 ms.assetid: 432e1d25-b7f4-4897-99dc-27ea14c851e2
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _NDIS_WWAN_PIN_INFO, *PNDIS_WWAN_PIN_INFO, NDIS_WWAN_PIN_INFO
+ms.date: 1/18/2018
+ms.keywords: ndiswwan/NDIS_WWAN_PIN_INFO, NDIS_WWAN_PIN_INFO, NDIS_WWAN_PIN_INFO structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_PIN_INFO, PNDIS_WWAN_PIN_INFO, PNDIS_WWAN_PIN_INFO structure pointer [Network Drivers Starting with Windows Vista], WwanRef_9095fdd7-5593-439c-897a-1def216d3374.xml, _NDIS_WWAN_PIN_INFO, ndiswwan/PNDIS_WWAN_PIN_INFO, netvista.ndis_wwan_pin_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: NDIS_WWAN_PIN_INFO
-req.alt-loc: ndiswwan.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,20 +29,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-req.typenames: *PNDIS_WWAN_PIN_INFO, NDIS_WWAN_PIN_INFO
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	ndiswwan.h
+apiname: 
+-	NDIS_WWAN_PIN_INFO
+product: Windows
+targetos: Windows
+req.typenames: NDIS_WWAN_PIN_INFO, *PNDIS_WWAN_PIN_INFO
 ---
 
 # _NDIS_WWAN_PIN_INFO structure
 
 
-
 ## -description
+
+
 The NDIS_WWAN_PIN_INFO structure represents the type and PIN-entry state of Personal Identification
   Number (PIN) information required by the MB device.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _NDIS_WWAN_PIN_INFO {
@@ -57,6 +67,9 @@ typedef struct _NDIS_WWAN_PIN_INFO {
 
 ## -struct-fields
 
+
+
+
 ### -field Header
 
 The header with type, revision, and size information about the NDIS_WWAN_PIN_INFO structure. The
@@ -65,7 +78,6 @@ The header with type, revision, and size information about the NDIS_WWAN_PIN_INF
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
-
 <table>
 <tr>
 <th>Header submember</th>
@@ -101,8 +113,7 @@ sizeof(NDIS_WWAN_PIN_INFO)
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -113,7 +124,6 @@ For more information about these members, see
 The status of the PIN info operation. The following table shows the possible values for this
      member.
      
-
 <table>
 <tr>
 <th>Value</th>
@@ -202,8 +212,7 @@ The operation failed because a
 
 </td>
 </tr>
-</table>
- 
+</table> 
 
 
 ### -field PinInfo
@@ -213,21 +222,15 @@ A formatted
      and PIN-entry state of Personal Identification Number (PIN) information required by the device.
 
 
-## -remarks
-
-
 ## -see-also
-<dl>
-<dt>
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-</dt>
-<dt>
+
 <a href="..\wwan\ns-wwan-_wwan_pin_info.md">WWAN_PIN_INFO</a>
-</dt>
-</dl>
- 
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_PIN_INFO structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_PIN_INFO structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

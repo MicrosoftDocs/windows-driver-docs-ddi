@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B6FCA052-FFAE-4F7D-8BDE-CDB84772B5E5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PROTECTED_SESSION_STATUS, DXGK_PROTECTED_SESSION_STATUS
+ms.keywords: DXGK_PROTECTED_SESSION_STATUS_INVALID, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS_INVALID, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS_OK, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS, DXGK_PROTECTED_SESSION_STATUS enumeration [Display Devices], _DXGK_PROTECTED_SESSION_STATUS, DXGK_PROTECTED_SESSION_STATUS_OK, display.dxgk_protected_session_status, DXGK_PROTECTED_SESSION_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: DXGK_PROTECTED_SESSION_STATUS
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,21 +29,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	DXGK_PROTECTED_SESSION_STATUS
+product: Windows
+targetos: Windows
 req.typenames: DXGK_PROTECTED_SESSION_STATUS
 ---
 
 # _DXGK_PROTECTED_SESSION_STATUS enumeration
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Used to indicate the status of the current session.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum _DXGK_PROTECTED_SESSION_STATUS { 
@@ -57,6 +67,9 @@ typedef enum _DXGK_PROTECTED_SESSION_STATUS {
 
 ## -enum-fields
 
+
+
+
 ### -field DXGK_PROTECTED_SESSION_STATUS_OK
 
 Indicates that the status is okay.
@@ -66,5 +79,3 @@ Indicates that the status is okay.
 
 Indicates that the status is invalid.
 
-
-## -remarks

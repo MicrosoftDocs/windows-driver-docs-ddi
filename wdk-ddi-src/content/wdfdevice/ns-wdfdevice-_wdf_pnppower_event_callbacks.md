@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2bfd677f-f2bd-49d7-b572-d7df4de0425c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_PNPPOWER_EVENT_CALLBACKS, WDF_PNPPOWER_EVENT_CALLBACKS, *PWDF_PNPPOWER_EVENT_CALLBACKS
+ms.keywords: _WDF_PNPPOWER_EVENT_CALLBACKS, wdf.wdf_pnppower_event_callbacks, WDF_PNPPOWER_EVENT_CALLBACKS, PWDF_PNPPOWER_EVENT_CALLBACKS structure pointer, WDF_PNPPOWER_EVENT_CALLBACKS structure, wdfdevice/PWDF_PNPPOWER_EVENT_CALLBACKS, PWDF_PNPPOWER_EVENT_CALLBACKS, DFDeviceObjectGeneralRef_a4b53707-d968-45a7-a5e8-284e9f34f866.xml, kmdf.wdf_pnppower_event_callbacks, wdfdevice/WDF_PNPPOWER_EVENT_CALLBACKS, *PWDF_PNPPOWER_EVENT_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
-req.alt-api: WDF_PNPPOWER_EVENT_CALLBACKS
-req.alt-loc: wdfdevice.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,22 +29,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-req.typenames: WDF_PNPPOWER_EVENT_CALLBACKS, *PWDF_PNPPOWER_EVENT_CALLBACKS
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdfdevice.h
+apiname: 
+-	WDF_PNPPOWER_EVENT_CALLBACKS
+product: Windows
+targetos: Windows
+req.typenames: *PWDF_PNPPOWER_EVENT_CALLBACKS, WDF_PNPPOWER_EVENT_CALLBACKS
 req.product: Windows 10 or later.
 ---
 
 # _WDF_PNPPOWER_EVENT_CALLBACKS structure
 
 
-
 ## -description
+
+
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_PNPPOWER_EVENT_CALLBACKS</b> structure contains pointers to a driver's Plug and Play and power event callback functions. 
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _WDF_PNPPOWER_EVENT_CALLBACKS {
@@ -73,6 +83,9 @@ typedef struct _WDF_PNPPOWER_EVENT_CALLBACKS {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -166,17 +179,18 @@ A driver can register either <b>EvtDeviceRelationsQuery</b> or <b>EvtDeviceUsage
 
 
 ## -remarks
+
+
 The <b>WDF_PNPPOWER_EVENT_CALLBACKS</b> structure is used as input to the <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpnppowereventcallbacks.md">WdfDeviceInitSetPnpPowerEventCallbacks</a> method.
 
 Your driver should initialize its WDF_PNPPOWER_EVENT_CALLBACKS structure by calling <a href="..\wdfdevice\nf-wdfdevice-wdf_pnppower_event_callbacks_init.md">WDF_PNPPOWER_EVENT_CALLBACKS_INIT</a>.
 
 
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_power_policy_event_callbacks.md">WDF_POWER_POLICY_EVENT_CALLBACKS</a>
-</dt>
-</dl>
+
  
 
  

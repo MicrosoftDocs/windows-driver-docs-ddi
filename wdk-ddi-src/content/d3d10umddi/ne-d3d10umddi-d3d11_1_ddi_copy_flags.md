@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 044dc1cd-426e-4f6c-b14d-8c366834b5ac
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1_DDI_COPY_FLAGS, D3D11_1_DDI_COPY_FLAGS
+ms.keywords: d3d10umddi/D3D11_1_DDI_COPY_FLAGS, d3d10umddi/D3D11_1DDI_COPY_TILEABLE, D3D11_1DDI_COPY_TILEABLE, D3D11_1_DDI_COPY_FLAGS enumeration [Display Devices], d3d10umddi/D3D11_1DDI_COPY_NO_OVERWRITE, d3d10umddi/D3D11_1DDI_COPY_DISCARD, D3D11_1_DDI_COPY_FLAGS, D3D11_1DDI_COPY_DISCARD, D3D11_1DDI_COPY_NO_OVERWRITE, display.d3d11_1_ddi_copy_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3D11_1_DDI_COPY_FLAGS
-req.alt-loc: D3d10umddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3d10umddi.h
+apiname: 
+-	D3D11_1_DDI_COPY_FLAGS
+product: Windows
+targetos: Windows
 req.typenames: D3D11_1_DDI_COPY_FLAGS
 ---
 
 # D3D11_1_DDI_COPY_FLAGS enumeration
 
 
-
 ## -description
+
+
 Specifies how to handle the existing contents of a resource during a copy or update operation of a region within that resource. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 
 
-
 ## -syntax
+
 
 ````
 typedef enum D3D11_1_DDI_COPY_FLAGS { 
@@ -55,6 +65,9 @@ typedef enum D3D11_1_DDI_COPY_FLAGS {
 
 
 ## -enum-fields
+
+
+
 
 ### -field D3D11_1DDI_COPY_NO_OVERWRITE
 
@@ -70,5 +83,3 @@ The user-mode display driver can discard previous contents of the entire resourc
 
 For tile-based deferred rendering, a copy operation can operate on only the currently processed tile in the source or destination resource, and the scene does not have to be flushed in all tiles.
 
-
-## -remarks

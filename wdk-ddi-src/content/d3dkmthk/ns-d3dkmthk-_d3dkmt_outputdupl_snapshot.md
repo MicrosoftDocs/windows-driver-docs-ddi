@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bec6a398-34e8-4c03-ac15-c3f00645eac7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_OUTPUTDUPL_SNAPSHOT, D3DKMT_OUTPUTDUPL_SNAPSHOT
+ms.keywords: d3dkmthk/D3DKMT_OUTPUTDUPL_SNAPSHOT, _D3DKMT_OUTPUTDUPL_SNAPSHOT, display.d3dkmt_outputdupl_snapshot, D3DKMT_OUTPUTDUPL_SNAPSHOT structure [Display Devices], D3DKMT_OUTPUTDUPL_SNAPSHOT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: D3DKMT_OUTPUTDUPL_SNAPSHOT
-req.alt-loc: D3dkmthk.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	D3dkmthk.h
+apiname: 
+-	D3DKMT_OUTPUTDUPL_SNAPSHOT
+product: Windows
+targetos: Windows
 req.typenames: D3DKMT_OUTPUTDUPL_SNAPSHOT
 ---
 
 # _D3DKMT_OUTPUTDUPL_SNAPSHOT structure
 
 
-
 ## -description
+
+
 Provides information on the current processes in which output duplication is occurring.
 
 
-
 ## -syntax
+
 
 ````
 typedef struct _D3DKMT_OUTPUTDUPL_SNAPSHOT {
@@ -58,6 +68,9 @@ typedef struct _D3DKMT_OUTPUTDUPL_SNAPSHOT {
 
 
 ## -struct-fields
+
+
+
 
 ### -field Size
 
@@ -88,5 +101,3 @@ typedef struct _D3DKMT_OUTPUTDUPL_SNAPSHOT {
 
 Reserved for system use. Set to zero.
 
-
-## -remarks

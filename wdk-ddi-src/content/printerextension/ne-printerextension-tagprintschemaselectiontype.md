@@ -7,8 +7,8 @@ old-location: print\printschemaselectiontype.htm
 old-project: print
 ms.assetid: 30BB7A95-512C-418B-B496-47832DD4C0BC
 ms.author: windowsdriverdev
-ms.date: 1/8/2018
-ms.keywords: tagPrintSchemaSelectionType, PrintSchemaSelectionType
+ms.date: 1/18/2018
+ms.keywords: printerextension/PrintSchemaSelectionType_PickOne, printerextension/PrintSchemaSelectionType, PrintSchemaSelectionType_PickMany, PrintSchemaSelectionType, printerextension/PrintSchemaSelectionType_PickMany, PrintSchemaSelectionType enumeration [Print Devices], PrintSchemaSelectionType_PickOne, print.printschemaselectiontype, tagPrintSchemaSelectionType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PrintSchemaSelectionType
-req.alt-loc: Printerextension.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,9 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: <= APC_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	HeaderDef
+apilocation: 
+-	Printerextension.h
+apiname: 
+-	PrintSchemaSelectionType
+product: Windows
+targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # tagPrintSchemaSelectionType enumeration
 
 
-
 ## -description
+
+
 The PrintSchemaSelectionType enumeration identifies how a Feature’s options should be selected. This property appears only in a PrintCapabilities document. 
 
 
-
 ## -syntax
+
 
 ````
 typedef enum tagPrintSchemaSelectionType { 
@@ -56,6 +66,9 @@ typedef enum tagPrintSchemaSelectionType {
 
 ## -enum-fields
 
+
+
+
 ### -field PrintSchemaSelectionType_PickOne
 
 Select one.
@@ -65,5 +78,3 @@ Select one.
 
 Select many.
 
-
-## -remarks

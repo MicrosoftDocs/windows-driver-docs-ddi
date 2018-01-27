@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dd3a5f87-21a9-4186-bb74-a49e6751622e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlMapGenericMask
+ms.keywords: RtlMapGenericMask, RtlMapGenericMask routine [Kernel-Mode Driver Architecture], ntddk/RtlMapGenericMask, k109_f0e498a8-0b75-4fb8-a9c6-3f1ce3eb71f3.xml, kernel.rtlmapgenericmask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: RtlMapGenericMask
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	RtlMapGenericMask
+product: Windows
+targetos: Windows
+req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 ---
 
 # RtlMapGenericMask function
 
 
-
 ## -description
+
+
 The <b>RtlMapGenericMask</b> routine determines the nongeneric access rights specified by an ACCESS_MASK.
 
 
-
 ## -syntax
+
 
 ````
 VOID RtlMapGenericMask(
@@ -54,6 +64,9 @@ VOID RtlMapGenericMask(
 
 
 ## -parameters
+
+
+
 
 ### -param AccessMask [in, out]
 
@@ -66,18 +79,16 @@ Pointer to a <a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a> str
 
 
 ## -returns
+
+
 None
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
-</dt>
-</dl>
+
  
 
  

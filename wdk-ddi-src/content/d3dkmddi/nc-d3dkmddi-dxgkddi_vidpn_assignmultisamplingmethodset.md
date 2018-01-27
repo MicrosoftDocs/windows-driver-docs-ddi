@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 607e3294-7399-446c-b07c-f0d5416b997e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: display.dxgk_vidpn_interface_pfnassignmultisamplingmethodset, pfnAssignMultisamplingMethodSet callback function [Display Devices], pfnAssignMultisamplingMethodSet, DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET, DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET, d3dkmddi/pfnAssignMultisamplingMethodSet, VidPnFunctions_836f1c8f-1690-4be1-9b77-43a7379278bd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of the 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: pfnAssignMultisamplingMethodSet
-req.alt-loc: d3dkmddi.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,19 +29,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topictype: 
+-	APIRef
+-	kbSyntax
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dkmddi.h
+apiname: 
+-	pfnAssignMultisamplingMethodSet
+product: Windows
+targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
 
 # DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET callback
 
 
-
 ## -description
+
+
 The <b>pfnAssignMultisamplingMethodSet</b> function assigns a set of multisampling methods to a particular video present source in a specified VidPN.
 
 
-
 ## -prototype
+
 
 ````
 DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET pfnAssignMultisamplingMethodSet;
@@ -60,6 +70,9 @@ NTSTATUS APIENTRY pfnAssignMultisamplingMethodSet(
 
 ## -parameters
 
+
+
+
 ### -param hVidPn [in]
 
 [in] A handle to a VidPN object. The VidPN manager previously provided this handle to the display miniport driver by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>.
@@ -75,40 +88,81 @@ NTSTATUS APIENTRY pfnAssignMultisamplingMethodSet(
 [in] The number of elements in the <i>pSupportedMethodSet</i> array.
 
 
-### -param pSupportedMethodSet [in]
+### -param D3DDDI_MULTISAMPLINGMETHOD
+
+
+
+
+
+
+#### - pSupportedMethodSet [in]
 
 [in] A pointer to an array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_multisamplingmethod.md">D3DDDI_MULTISAMPLINGMETHOD</a> structures, each of which describes a multisampling method.
 
 
 ## -returns
+
+
 The <b>pfnAssignMultisamplingMethodSet</b> function returns one of the following values.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The function succeeded.
+</dl>
+</td>
+<td width="60%">
+The function succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_INVALID_VIDPN</b></dt>
-</dl>The handle supplied in <i>hVidPn</i> was invalid.
+</dl>
+</td>
+<td width="60%">
+The handle supplied in <i>hVidPn</i> was invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE</b></dt>
-</dl>The identifier supplied in <i>VidPnSourceId</i> was invalid.
+</dl>
+</td>
+<td width="60%">
+The identifier supplied in <i>VidPnSourceId</i> was invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>The function failed because it was unable to allocate enough memory.
+</dl>
+</td>
+<td width="60%">
+The function failed because it was unable to allocate enough memory.
 
- 
+</td>
+</tr>
+</table> 
 
 This function might also return other error codes that are defined in Ntstatus.h.
 
 
-## -remarks
-
 
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>
-</dt>
-</dl>
+
  
 
  
